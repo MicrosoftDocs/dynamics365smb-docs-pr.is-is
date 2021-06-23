@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a29cea15cba15da1bc68816e07f76de59f43958b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771162"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216129"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Leita að tengdum færslum fyrir bókuð skjöl 
 
@@ -67,7 +67,7 @@ Hægt er að leita að færslum út frá upplýsingum um annaðhvort skjalið, v
 Þegar búið er að velja skal færa inn viðeigandi leitarupplýsingar í reitina efst uppi. Notið ábendingarnar í reitunum til að fá hjálp. Þegar þessu er lokið skal velja **Leita** til að hefja leitina. Ef einhverjum síunum er breytt þarf að velja **Leita** aftur.
 
 > [!TIP]
-> Til að fá nokkur dæmi um notkun á **Leita að færslum** skal skoða [Rekja raktar vörur](inventory-how-to-trace-item-tracked-items.md) og [Kynning: Rað-/lotunúmerarakning](walkthrough-tracing-serial-lot-numbers.md).
+> Til að fá nokkur dæmi um notkun á **Leita að færslum** skal skoða [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

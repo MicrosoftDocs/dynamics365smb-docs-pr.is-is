@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 1293368dd96a08ba3edff3110881435a11f52fbe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a052f726169fde9e09e83aeb690169580eaee948
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782348"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215779"
 ---
 # <a name="design-details-revaluation"></a>Hönnunarupplýsingar: Endurmat
 Hægt er að endurmeta birgðir á grundvelli virðisgrundvallar sem endurspeglar nákvæmast birgðavirði. Einnig er hægt að bakfæra endurmat, þannig að kostnaður við seldar vörur(kostnaður seldra vara) sé rétt uppfærður fyrir vöru sem hefur þegar verið seld. Vörur sem nota hefðbundna aðferð kostnaðarútreiknings og hafa ekki verið reikningsfærðar að fullu er einnig hægt að endurmeta.  

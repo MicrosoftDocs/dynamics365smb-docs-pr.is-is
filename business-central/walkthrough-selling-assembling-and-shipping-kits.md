@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab6625213bdca813bb2ace08b0b07c828ef99678
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98fe9a8e3600156f158cdfc1ce37ad3349cafa1b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782860"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216306"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Kynning: Selja, setja saman og afhenda sett
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Til að styðja tímanlegar birgðir og getuna til að sérsníða vörur eftir þörfum viðskiptavina er hægt að búa til og tengja samsetningarpantanir sjálfkrafa um leið og sölupöntunarlínan er búin til. Tengingin milli sölueftirspurnarinnar og framboðssamsetningar gerir sölupantanagjörvum mögulegt að sérsníða samsetningaríhlutinn og lofar afhendingardagsetningum samkvæmt framboði íhluta. Auk þess bókast samsetningarfrálag og -notkun sjálfkrafa með afhendingu tengdu pöntunarinnar.  
 
@@ -107,7 +107,7 @@ Fjarlægja skal sjálfgefinn afhendingartíma fyrir innri ferli á eftirfarandi 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Framleiðsluuppsetning** og veldu síðan tengda tengilinn.  
 2.  Á síðunni **Framleiðsluuppsetning** á flýtiflipanum **Áætlun** er gildið fjarlægt í reitnum **Sjálfgefið öryggisforskot**.  
 
-Stofna birgðir fyrir samsetningaríhluti með því að fara eftir [Undirbúa sýnigögn](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
+<!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Ferill  
 Þann 23. janúar, tekur Súsanna, sem sér um úrvinnslu sölupantanna, við pöntun frá Verkstæðinu fyrir þrjár einingar af Setti B, sem er ATO-vara. Allar þrjár einingarnar eru sérsniðnar og verða að innihalda öflug skjákort og auka RAM-einingu. Diskadrifin eru uppfærð í DWD, vegna þess að CD drif eru ekki tiltæk. Súsanna veit að hægt er að setja einingarnar saman strax, þannig að hún lætur ráðlagða sendingardagsetningu vera 23. janúar  
@@ -443,7 +443,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
  [Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)   
  [Hönnunarupplýsingar: Innra vöruhúsaflæði](design-details-internal-warehouse-flows.md)   
  [Hönnunarupplýsingar: vöruhúsaflæði á innleið](design-details-outbound-warehouse-flow.md)   
- [Kynning: Sjálfvirk áætlun birgða](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

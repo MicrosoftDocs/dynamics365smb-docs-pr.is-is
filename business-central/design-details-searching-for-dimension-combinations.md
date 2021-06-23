@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: db971af61719bfa84566c78cc91b4c805c14ab9b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 544cb3a1844aaf85ab937031a23d6d00506ffa74
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783848"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215754"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Hönnunarupplýsingar Leitað að víddarsamsetningum
 Þegar þú lokar síðu eftir að hafa breytt víddasamstæðu metur [!INCLUDE[prod_short](includes/prod_short.md)] hvort þessi breytta víddasamstæða sé til. Ef samstæðan er ekki til er ný samstæða búin til og víddarsamsetningarkenninu er skilað.  
@@ -73,8 +73,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Sjá einnig
-
- [GET Eiginleiki (Skrá)](/dynamics-nav/GET-Function--Record-)    
+    
  [Hönnunarupplýsingarn: Færslur víddarsamstæða](design-details-dimension-set-entries.md)   
  [Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)   
  [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   

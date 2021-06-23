@@ -6,34 +6,38 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2021
+ms.date: 06/07/2021
 ms.author: edupont
-ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3d12e316e78516d355c7d1313cd37bbeedb7a29
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777492"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216054"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prufuútgáfa og áskrift
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er í boði í fjölmörgum löndum um allan heim. Hægt er að skrá sig fyrir prufuáskrift til að skoða [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar þú ert tilbúin(n) geturðu talað við endurseljanda um áskrift.  
 
-Ef þú vinnur ekki með samstarfsaðila skaltu skoða [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
+Ef þú vinnur ekki með samstarfsaðila skaltu skoða [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## <a name="getting-started-with-a-trial"></a>Hafist handa með prufuútgáfu
 
-Hægt er að skrá sig fyrir prufuáskrift [hér](https://go.microsoft.com/fwlink/?linkid=847861). Við mælum með því að þú vinnir með [endursöluaðila](across-faq.md#findpartner) til að hjálpa fyrirtækinu þínu að hefjast handa með [!INCLUDE[prod_short](includes/prod_short.md)].  
+Hægt er að skrá sig fyrir prufuáskrift [hér](https://go.microsoft.com/fwlink/?linkid=847861). Við mælum með því að þú vinnir með [endursöluaðila](/dynamics365/business-central/across-faq#findpartner) til að hjálpa fyrirtækinu þínu að hefjast handa með [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Prufuáskriftinni inniheldur það tungumál og virkni sem land þitt eða svæði þurfa. Frekari upplýsingar má finna í [Breyta tungumáli og landsstaðli](about-locale-language.md).  
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Þegar þú skráir þig fyrst inn á sýnifyrirtækið færðu aðgang að síðunni Hafist handa með tenglum í leiðbeiningar um uppsetningu með hjálp sem geta aðstoðað þig við að hefjast handa. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
 
-Ef þú lendir í erfiðleikum getur síðan [Algengar spurningar](across-faq.md) hjálpað þér að svara spurningum þínum. Ef þér tekst ekki að skrá þig fyrir prufuáskrift getur [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md) aðstoðað þig. Þú getur einnig haft samband við [samstarfsaðila](across-faq.md#findpartner) og beðið hann um að búa til ókeypis prufu eða öðruvísi forútgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] fyrir þig.  
+Ef þú lendir í erfiðleikum getur síðan [Algengar spurningar](across-faq.yml) hjálpað þér að svara spurningum þínum. Ef þér tekst ekki að skrá þig fyrir prufuáskrift getur [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md) aðstoðað þig. Þú getur einnig haft samband við [samstarfsaðila](/dynamics365/business-central/across-faq#findpartner) og beðið hann um að búa til ókeypis prufu eða öðruvísi forútgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] fyrir þig.  
+
+Ef þú vilt ekki nota [!INCLUDE [prod_short](includes/prod_short.md)] geturðu látið prufuútgáfuna renna út.  
+
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
 ### <a name="try-out-your-own-company"></a>Prófaðu þitt eigið fyrirtæki
 
-Ef þú vilt prófa [!INCLUDE[prod_short](includes/prod_short.md)] með eigin gögn geturðu skipt yfir í ókeypis 30 daga prufutíma með auðu fyrirtæki. **Setja upp fyrirtækiið mitt** uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um reksturinn. Möguleiki er á því að flytja inn gögn úr fyrirliggjandi viðskiptastjórnunarlausn þannig að hægt sé að meta [!INCLUDE[prod_short](includes/prod_short.md)] með eigin gögnum. Við mælum hins vegar ekki með því að þú notir ókeypis prufutíma til að hjálpa þér að reka fyrirtækið þitt. Hafðu samband við [endursöluaðila](across-faq.md#findpartner) til að fá frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[prod_short](includes/prod_short.md)].  
+Ef þú vilt prófa [!INCLUDE[prod_short](includes/prod_short.md)] með eigin gögn geturðu skipt yfir í ókeypis 30 daga prufutíma með auðu fyrirtæki. **Setja upp fyrirtækiið mitt** uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um reksturinn. Möguleiki er á því að flytja inn gögn úr fyrirliggjandi viðskiptastjórnunarlausn þannig að hægt sé að meta [!INCLUDE[prod_short](includes/prod_short.md)] með eigin gögnum. Við mælum hins vegar ekki með því að þú notir ókeypis prufutíma til að hjálpa þér að reka fyrirtækið þitt. Hafðu samband við [endursöluaðila](/dynamics365/business-central/across-faq#findpartner) til að fá frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Ef 30 dagar nægja ekki er hægt að framlengja prufutímann. Nánari upplýsingar er að finna í [Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?](admin-extend-trial.md).  
 
@@ -68,7 +72,7 @@ Ef þú hefur bætt gögnum við [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 ## <a name="getting-started-with-a-subscription"></a>Hafist handa með áskrift
 
-Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila. Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner). Endursöluaðili getur hjálpað þér að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] í samræmi við fyrirtækið þitt, þar á meðal flutt inn gögn úr fyrra kerfi. Einnig er hægt að sérstilla [!INCLUDE[prod_short](includes/prod_short.md)] með því að bæta við forritum frá [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner). Endursöluaðili getur hjálpað þér að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] í samræmi við fyrirtækið þitt, þar á meðal flutt inn gögn úr fyrra kerfi. Einnig er hægt að sérstilla [!INCLUDE[prod_short](includes/prod_short.md)] með því að bæta við forritum frá [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online notar Microsoft 365. Ef fyrirtækið þitt notar aðra gerð af tölvupóstuppsetningu getur verið að endursöluaðili geti aðstoðað þig við að flytja, eða látið þig vita ef þú ættir að nota [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss.  
 
@@ -83,17 +87,19 @@ EF þú ert þróunaraðili gerir sandkassi þér kleift að byggja upp og próf
 Núna geta allir viðskiptavinir notað sandkassa, þ.m.t. fyrirtæki sem hafa skráð sig fyrir prufuútgáfu. Nánari upplýsingar um hvernig á að hefjast handa með sandkassa skal sjá [Sandkassaumhverfi búið til](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
-> Sandkassinn sem er búinn til á þennan hátt inniheldur sýnikennslugögn fyrir skáldaða fyrirtækið CRONUS. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu.  
+> Sandkassinn sem er búinn til á þennan hátt inniheldur sýnikennslugögn fyrir skáldaða fyrirtækið CRONUS. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu.   
 
 Stjórnandi [!INCLUDE[prod_short](includes/prod_short.md)] og endursöluaðili geta stofnað fleiri umhverfi í stjórnunarmiðstöðinni. Frekari upplýsingar eru í [Stjórnunarmiðstöð Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
+
+
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Framlenging á prufuútgáfunni](admin-extend-trial.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Algengar spurningar](across-faq.md)  
-[Hvernig finn ég endursöluaðila?](across-faq.md#findpartner)  
+[Algengar spurningar](across-faq.yml)  
+[Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner)  
 [Að velja Dynamics 365 Business Central þróun sandkassaumhverfis](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Framlenging prufuútgáfu (sem stjórnandi)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
