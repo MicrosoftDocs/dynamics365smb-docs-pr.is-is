@@ -1,6 +1,6 @@
 ---
 title: Stofna viðskiptatengiliði
-description: Lýsir verkum til að stofna tengiliði og skilgreina viðskiptatengslin.
+description: Lýsir þeim verkefnum sem felast í því að búa til tengiliði og skilgreina viðskiptatengslin þín á Tengiliðaspjaldinu.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 305d1460b93c1294335b5a8afcf42593c465ebe4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ab9b6051f93daa9f1b342ed8a5fbaa7bbd9c4b2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780799"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435320"
 ---
 # <a name="create-contacts"></a>Stofna tengiliði
+
 Þegar komið er á viðskiptatengslum við einhvern í öðru fyrirtæki skal bæta viðkomandi við sem tengiliði í [!INCLUDE[prod_short](includes/prod_short.md)]. Því næst skal bæta við upplýsingum um viðkomandi, eða fyrirtæki hans, sem geta reynst gagnlegar fyrir komandi samskipti. Á síðunni **Tengiliðaspjald** er hægt að stofna eftirfarandi gerðir tengiliða:
 
 * **Einstaklingur** - Yfirleitt er þetta þegar haft er bein samskipti við einhvern og tengiliðaupplýsingar fengnar frá viðkomandi.
@@ -29,8 +30,13 @@ Hægt er að breyta gildinu seinna í reitnum **Gerð**. Að öðrum kosti skal 
 
 Þegar tengiliði er breytt í viðskiptamann, til dæmis, verður tengiliðurinn eða tengiliðarfyrirtækið að heiti viðskiptamannsins. Færslunni fyrir tengiliðinn er haldið eftir og hægt er að tengja tengiliðinn og viðskiptamanninn þannig að gögnin verði samstillt héðan í frá.
 
+> [!NOTE]
+> Ef þú kveikir á [eiginleikauppfærslu fyrir sniðmát umreiknings](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees) geturðu líka stofnað lánardrottna eða starfsmenn úr viðskiptatengiliðum.
+>
+> Ef þú hinsvegar ert nú þegar að nota innbyggðu virknina til að stofna viðskiptavini eða vörur sjálfkrafa, þá styður þessi eiginleikauppfærsla ekki sérstillta reiti, og nýlega stofnaðir viðskiptavinir eða vörur munu ekki fela í sér slík gögn.
+
 ## <a name="to-create-a-contact-manually"></a>Að búa til tengilið handvirkt
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tengiliðir** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
 3. Í reitnum **númer** er fært inn númer fyrir tengiliðinn.
 
@@ -43,7 +49,7 @@ Ef þú ert með viðskiptavini, lánardrottna og bankareikninga sem þú vilt b
 > [!NOTE]  
 > Áður en þú getur stofnað tengiliði á grunni fyrirliggjandi gagna, verðurðu að tilgreina viðskiptatengslakóða fyrir viðskiptavini, lánardrottna, og bankareikninga í flýtiflipanum **Samskipti** á síðunni **Uppsetning markaðssetningar**. Frekari upplýsingar er að finna í [Setja upp tengiliði](marketing-setup-contacts.md).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn eitt af eftirfarandi, fer eftir úr hverju þú vilt búa til tengiliði, og veldu síðan viðeigandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn eitt af eftirfarandi, fer eftir því úr hverju þú vilt búa til tengiliði, og veldu síðan viðeigandi tengil.
    * **Stofna tengiliði út frá viðskiptamönnum**
    * **Stofna tengiliði út frá lánardrottnum**
    * **Stofna tengiliði út frá bankareikningum**
@@ -61,7 +67,7 @@ Ef þú ert með viðskiptamann, lánardrottin, starfsmann eða bankareikning fy
 > [!NOTE]  
 > Áður en þú getur stofnað viðskiptamenn, starfsmenn eða bankareikninga úr tengiliðum, þarft að tilgreina kóða viðskiptatengsla á síðunni **Uppsetning markaðssetningar** í flýtiflipanum **Samskipti**. Nánari upplýsingar er að finna í [Uppsetning tengiliða](marketing-setup-contacts.md).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tengiliðir** og velja síðan viðkomandi tengil.
 2. Velja skal tengiliðinn sem stofna á sem viðskiptamann, starfsmann, lánadrottin eða bankareikning.
 3. Veljið aðgerðina **Stofna sem** og veljið síðan annaðhvort **Viðskiptamaður**, **Lánardrottinn**, **Banki** eða **Starfsmaður**.
 4. Velja hnappinn **Í lagi**.
@@ -109,7 +115,7 @@ Ef einhverjir tengiliðir eru einnig viðskiptamenn, lánardrottnar eða bankare
 * Þegar þú tengir tengiliði við fyrirliggjandi viðskiptamenn, lánardrottna, starfsmenn og bankareikninga úr tengiliðaspjaldinu. Sjá [Til að tengja tengilið við viðskiptamann, lánardrottin eða bankareikning sem þegar er til](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Til að skoða hvaða viðskiptavin, lánardrottin, starfsmann eða bankareikning tengiliður er tengdur við
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tengiliðir** og velja síðan viðkomandi tengil.
 2. Veljið línuna fyrir tengilið, veljið aðgerðina **Tengdar upplýsingar** og veljið síðan aðgerðina **Viðskiptamaður/Lánardrottinn/Bankareikningur/Starfsmaður**.
 
 ## <a name="see-also"></a>Sjá einnig

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
-ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
+ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961503"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341334"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)] -gögn
 
@@ -27,28 +27,28 @@ Notandi getur gert [!INCLUDE[prod_long](includes/prod_long.md)]-gögnin sín að
 
 - Skráðu þig fyrir nýju Power BI þjónustuna.
 
-    Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
+  Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
 
 - Sækja [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-   Power BI Desktop er ókeypis forrit sem þú setur upp á staðbundinni tölvu. Frekari upplýsingar er að finna í [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+  Power BI Desktop er ókeypis forrit sem þú setur upp á staðbundinni tölvu. Frekari upplýsingar er að finna í [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Ganga skal úr skugga um að gögnin sem óskað er eftir í þessari skýrslu séu birt sem vefþjónusta.
-    
-    Margar vefþjónustur birtast sjálfkrafa. Auðveld leið til að finna vefþjónustu er að leita að *vefþjónustu* í [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Vefþjónusta** skal ganga úr skugga um að reiturinn **Birta** sé valinn. Þetta verk er oftast stjórnunarverk.
-    
-    Frekari upplýsingar um birtingu vefþjónustu er að finna á [Birta vefþjónustu](across-how-publish-web-service.md).
+- Ganga skal úr skugga um að gögnin sem óskað er eftir í þessari skýrslu séu tiltæk sem API-síða eða birt sem vefþjónusta.
+
+  Frekari upplýsingar er að finna í [Birta gögn í gegnum API-síður eða OData-vefþjónustur](admin-powerbi-setup.md#exposedata).
 
 - Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum skal fá eftirfarandi upplýsingar:
 
-    - OData-vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Yfirleitt er þessi vefslóð með sniðinu `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, til dæmis, `https://localhost:7048/BC160/ODataV4`. Ef um er að ræða virkjun með margleigjanda skal hafa leigjanda á vefslóðinni, til dæmis, `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
-    - Notandanafn og aðgangslykill vefþjónustu af [!INCLUDE[prod_short](includes/prod_short.md)] -reikningi.
+  - OData-vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
+  
+    Yfirleitt er þessi vefslóð með sniðinu `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, til dæmis, `https://localhost:7048/BC160/ODataV4`. Ef um er að ræða virkjun með margleigjanda skal hafa leigjanda á vefslóðinni, til dæmis, `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+  - Notandanafn og aðgangslykill vefþjónustu af [!INCLUDE[prod_short](includes/prod_short.md)] -reikningi.
 
-      Til að sækja gögn úr [!INCLUDE[prod_short](includes/prod_short.md)] notar Power BI grunnsannvottun. Svo þarftu að fá notandanafn og aðgangslykil vefþjónustu til að tengjast. Reikningurinn gæti verið þinn eigin notandareikningur eða fyrirtækið kann að hafa sérstakan reikning í þeim tilgangi.
+    Til að sækja gögn úr [!INCLUDE[prod_short](includes/prod_short.md)] notar Power BI grunnsannvottun. Svo þarftu að fá notandanafn og aðgangslykil vefþjónustu til að tengjast. Reikningurinn gæti verið þinn eigin notandareikningur eða fyrirtækið kann að hafa sérstakan reikning í þeim tilgangi.
 
 - Hlaða niður [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema (valfrjálst).
 
-    Frekari upplýsingar er að finna á [Notkun [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema](#theme) í þessari grein.
+  Frekari upplýsingar er að finna á [Notkun [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema](#theme) í þessari grein.
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnaveitu í Power BI Desktop
 
@@ -58,26 +58,46 @@ Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prod_short](includes/pro
 2. Velja **Fá-gögn**.
 
     Ef þú sérð ekki **Sækja gögn** skaltu velja **Skrá** valmyndina og síðan **Sækja gögn**.
-2. Á síðunni **Sækja gögn** skaltu velja **Netþjónusta**.
-3. Gerið eitt af eftirfarandi skrefum í svæðinu **Netþjónusta**:
+3. Á síðunni **Sækja gögn** skaltu velja **Netþjónusta**.
+4. Gerið eitt af eftirfarandi skrefum í svæðinu **Netþjónusta**:
 
-    1. Ef þú ert að tengjast [!INCLUDE [prod_short](includes/prod_short.md)] á netinu skaltu velja **Dynamics 365 Business Central**, og svo **Tengjast**.
-    2. Ef þú ert að tengjast [!INCLUDE [prod_short](includes/prod_short.md)] innanhúss skaltu velja **Dynamics 365 Business Central (á staðnum)**, og svo **Tengjast**.
+    - Til að tengjast [!INCLUDE [prod_short](includes/prod_short.md)] á netinu skal velja **Dynamics 365 Business Central** og síðan **Tengjast**.
+    - Til að tengjast [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum skal velja **Dynamics 365 Business Central (á staðnum)** og svo **Tengjast**.
 
-4. Power BI birtir leiðsagnarforrit sem leiðbeinir þér gegnum tengingarferlið, þ.á.m. innskráningu í [!INCLUDE [prod_short](includes/prod_short.md)].
+5. Skráðu þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] (aðeins í eitt skipti).
 
-    Fyrir netinnskráningu skal velja **Innskráning** og síðan viðeigandi reikning. Notaðu sama reikning og þú skráir þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] með.
-    
-    Til að setja upp innanhúss skal færa inn OData-vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)], og helst heiti fyrirtækisins. Síðan skal færa inn notandanafn og aðgangsorð reikningsins sem á að nota til að tengjast við [!INCLUDE[prod_short](includes/prod_short.md)] þegar beðið er um það. Færa skal inn aðgangslykil vefþjónustunnar í reitinn **Aðgangsorð**.
+    Ef þú hefur ekki skráð þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] úr Power BI skjáborðinu verður þú beðin(n) um að skrá þig inn.
+
+    - Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á netinu skal velja **Innskráning** og síðan velja réttan reikning. Notaðu sama reikning og þú skráir þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] með. Þegar því er lokið velur þú **Tengjast**.
+
+    - Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum skal fyrst færa inn OData-vefslóðina fyrir [!INCLUDE[prod_short](includes/prod_short.md)] og síðan velja **Í lagi**. Síðan skal færa inn notandanafn og aðgangsorð reikningsins sem á að nota til að tengjast við [!INCLUDE[prod_short](includes/prod_short.md)] þegar beðið er um það. Færa skal inn aðgangslykil vefþjónustunnar í reitinn **Aðgangsorð**. Þegar því er lokið velur þú **Tengjast**.
 
     > [!NOTE]  
-    > Þegar þú hefur tengst við [!INCLUDE[prod_short](includes/prod_short.md)] verð þú ekki beðinn aftur um að skrá þig inn.
-    
-5. Veldu **Tenging** til að halda áfram.
+    > Þegar þú hefur tengst við [!INCLUDE[prod_short](includes/prod_short.md)] verð þú ekki beðinn aftur um að skrá þig inn. [Hvernig breyti ég eða hreinsa reikninginn sem ég nota núna til að tengjast Business Central frá Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-    Power BI leiðsagnarforritið sýnir lista yfir Microsoft [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi, fyrirtæki og gagnaveitur. Þessar gagnaveitur tákna allar vefþjónustur sem þú hefur birt úr [!INCLUDE [prod_short](includes/prod_short.md)].
-6. Tilgreinið gögnin sem notandi vill bæta við gagnalíkanið þitt og veljið svo hnappinn **Hlaða**.
-7. Endurtakið fyrri skref til að bæta fleiri [!INCLUDE [prod_short](includes/prod_short.md)] gögnum, eða öðrum gögnum, við Power BI gagnalíkanið.
+6. Þegar þú hefur tengst, Power BI tengiliðir við Business Central-þjónustuna. Glugginn **Skoðun** birtist og sýnir tiltæka gagnagjafa til að búa til skýrslur. Veldu möppu til að stækka hana og sjá tiltæka gagnagjafa. 
+
+   Þessi gagnagjafar standa fyrir allar vefþjónusturnar og API-síðurnar sem eru gefnar út fyrir [!INCLUDE [prod_short](includes/prod_short.md)]. Gagnagjöfunum er flokkað eftir umhverfum og fyrirtækjum Business Central. Með Business Central á netinu hefur **Skoðari** eftirfarandi skipulag:
+
+    - **Heiti umhverfis**
+      - **Nafn fyrirtækis**
+        - **Ítarlegt API**
+
+          Þessi mappa sýnir ítarlegar API-síður sem Microsoft gefur út, t.d. [API Business Central-sjálfvirkni](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) og [sérsniðnar API-síður fyrir Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Sérsniðnar API-síður eru ennfremur flokkaðar í möppur eftir eiginleikunum [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) af upprunakóða API-síðunnar.
+
+        - **Staðlað API v2.0**
+
+          Þessi mappa sýnir API-síðurnar sem [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) birtir.
+
+        - **Vefþjónustur \(eldra efni)**
+
+          Þessi mappa sýnir síður, kóðaeiningar og fyrirspurnir sem eru gefna út sem vefþjónustur í Business Central.
+
+    > [!NOTE]
+    > Skipulagið fyrir Business Central á staðnum er öðruvísi vegna þess að það styður ekki API-síður.
+
+7. Veldu gagnagjafana eða upprunastaðina sem þú vilt bæta við gagnalíkanið þitt og veldu svo hnappinn **Hlaða**.
+8. Ef þú vilt síðar bæta við frekari gögnum Business Central er hægt að endurtaka fyrri skref.
 
 Þegar gögnum hefur verið hlaðið er hægt að sjá þau á hægra yfirlitssvæði síðunnar. Þér tókst að tengjast gögnum þínum í [!INCLUDE[prod_short](includes/prod_short.md)] og getur byrjað að byggja upp Power BI-skýrsluna þína.  
 

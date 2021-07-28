@@ -1,6 +1,6 @@
 ---
-title: Setja upp fyrirtæki með RapidStart Services| Microsoft Docs
-description: Hægt er að setja upp nýja fyrir tækið í Business Central með RapidStart Services sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera endurtekin verk sjálfvirk og einföld.
+title: Setja upp fyrirtæki með RapidStart Services
+description: Hægt er að setja upp nýtt fyrirtæki í Business Central með RapidStart-þjónustum til að auka framleiðni með því að sjálfvirknivæða og einfalda endurtekin verk.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1f471bcebf634eeac92e10a816e65460f03a1de5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777267"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325420"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Uppsetning fyrirtækis með RapidStart Services
 Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[prod_short](includes/prod_short.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld.  

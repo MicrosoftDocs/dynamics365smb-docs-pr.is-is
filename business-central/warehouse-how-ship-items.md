@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að afhenda vörur | Microsoft Docs
-description: Út frá grunngerð vöruhússins, geturðu annað hvort skráð afhendingu á tengt viðskiptaskjal á útleið, eins og t.d. sölupöntun, beint, eða þú getur notað vöruhúsaafhendingarskjöl sem virða verkflæði og samlagast ýmsum vöruhúsaaðgerðum.
+title: Hvernig á að Afgreiða vörur
+description: Í þessu efnisatriði er lýst hvernig eigi að senda vörur úr vöruhúsinu eftir því hverjar skilgreiningar vöruhússins eru fyrir úrvinnslu sendingar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 22404e97c578f6bcaaa5f74ec40408beca7fe3c8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60274947bb0f38ed6e116767ac5c74357482298c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782760"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435935"
 ---
 # <a name="ship-items"></a>Senda vörur
 
 Þegar vörur eru afhentar út frá vöruhús sem er ekki sett upp fyrir vinnslu vöruhúsaafhendingu, þarf einfaldlega að skrá afhendinguna á viðeigandi viðskiptaskjal, eins og t.d. sölupöntun, þjónustupöntun, vöruskilapöntun innkaupa, eða millifærslupöntun á útleið.
 
-Þegar þú afhendir vörur frá vöruhúsi sem er sett upp fyrir vinnslu vöruhúsaafhendingu, er hægt að afhenda vörur aðeins á grunni upprunaskjala sem aðrar fyrirtækiseiningar hafa gefið út á vöruhúsið til aðgerðar.
+Þegar þú afhendir vörur frá vöruhúsi sem er sett upp fyrir vinnslu vöruhúsaafhendingu, er aðeins hægt að afhenda vörur á grunni upprunaskjala sem aðrar fyrirtækiseiningar hafa gefið út á vöruhúsið til aðgerðar.
 
 > [!NOTE]
 > Ef vöruhúsið notar hjáskipun og hólf fyrir hverja línu er hægt að skoða magn vara sem hafa verið settar í hjáskipunarhólf. Forritið reiknar þetta magn sjálfkrafa í hvert sinn sem reitirnir í afhendingunni eru uppfærðir. Ef þær vörur tengjast afhendingunni sem verið er að undirbúa er hægt að stofna tínslu fyrir allar línurnar og ljúka síðan afhendingunni. Frekari upplýsingar eru í [Hjáskipunarvörur](warehouse-how-to-cross-dock-items.md).
@@ -30,7 +30,7 @@ ms.locfileid: "5782760"
 
 Eftirfarandi lýsir því hvernig skal afgreiða vörur í sölupöntun. Skrefin eru svipuð fyrir Vöruskilapöntun innkaupa, þjónustupantanir og millifærslupantanir á útleið.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.
 2. Opna sölupöntun sem þegar er til eða stofna nýja. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 3. Í reitnum **Magn til afhendingar** er fært inn magnið sem hefur verið afhent.
 
@@ -48,7 +48,7 @@ Fyrst er stofnað afhendingarskjal frá viðskiptaupprunaskjali. Síðan er tilg
 
 Vanalega stofnar starfsmaðurinn sem er ábyrgur fyrir afhendingu vöruhúsaafhendingu. Eftirfarandi ferli lýsir því hvernig á að stofna sendinguna handvirkt í sjálfgefinni útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)], en fyrirtækið gæti verið með sjálfvirkan hluta ferlisins, svo sem notkun handskanna eða áfestra skanna sem eru studdir af ytri veitum.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsaafhendingar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsaafhendingar** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
 
     Fyllt er út í reitina á flýtiflipanum **Almennt**. Þegar upprunaskjalalínur eru sóttar er eitthvað af upplýsingunum afritað í hverja línu.  
@@ -83,12 +83,12 @@ Línurnar úr upprunaskjölunum birtast á síðunni **Vöruhúsaafhending**. Re
 
 Vanalega stofnar starfsmaður vöruhússins, sem ber ábyrgð á tínslu, tínsluskjal eða opnar eitt slíkt sem þegar er til.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsaafhendingar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsaafhendingar** og velja síðan viðkomandi tengil.
 2. Valin er Vöruhúsaafhending sem á að Tína fyrir og veldu síðan aðgerðina **Stofna tínslu**.
 3. Fylla inn í reitina á beiðnisíðunni og velja svo hnappinn **Í lagi**. Fylgiskjal Birgðatínslu vöruhúss er stofnað.
 
     Að öðrum kosti skal opna fyrirliggjandi vöruhúsatínslu.
-4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínslur** og veldu síðan tengda tengilinn. Veljið vöruhúsatínsluna sem á að vinna með.
+4. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tínslur** og velja síðan viðkomandi tengil. Veljið vöruhúsatínsluna sem á að vinna með.
 
     Ef vöruhúsið er sett upp þannig að það noti hólf hefur tínslulínunum verið breytt í Taka og Setja aðgerðalínur.
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 468437e1b9f2e2a49c008a4e78c59f436dc05b17
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 452a5fab73d60bea127d19a42c1730fcbd24b06c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772605"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435136"
 ---
 # <a name="set-up-purchasers"></a>Setja upp kaupendur
 Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp á síðu og úthluta hverjum þeirra kóða. Síðan er hægt að nota kótana til að undirbúa upplýsingar og afmarka upplýsingar í prentuðum skýrslum.<br><br>  
@@ -25,12 +25,12 @@ Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp á 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>Innkaupaaðilar settir upp
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölumenn/innkaupaaðilar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölumenn/Innkaupaaðilar** og velja síðan viðkomandi tengil.
 2. Á síðunni **Sölumenn/innkaupaaðilar** skal velja **Nýtt**.
 3. Fyllið út í reitina á síðunni **sölumenn/innkaupaaðilar** eins og nauðsynlegt er. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Lánardrottnum úthlutað innkaupaaðilar:
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
 2. Viðeigandi lánardrottnaspjald er opnað fyrir lánardrottininn sem verður úthlutað kaupanda.
 3. Í reitnum **Kóði innkaupaaðila** skal velja viðeigandi kóða innkaupaaðila og loka svo síðunni.
 

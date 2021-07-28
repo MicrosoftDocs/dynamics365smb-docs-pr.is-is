@@ -1,6 +1,6 @@
 ---
-title: Taka við og umbreyta rafrænum skjölum | Microsoft Docs
-description: Þú getur fengið rafræn skjöl beint frá viðskiptafélögum eða frá OCR þjónustu.
+title: Taka við og umbreyta rafræn skjölum
+description: Þetta efnisatriði lýsir því hvernig á að fá rafræn skjöl beint frá viðskiptafélögum eða frá OCR-þjónustu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772555"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435085"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Taka við og umbreyta rafræn skjölum
 Almenn útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Til að taka á móti reikningur frá lánardrottinn sem rafrænu PEPPOL-skjali er skjalið unnið á síðunni Fylgiskjal á innleið til að breyta því í innkaupareikning eða almenna færslubókarlínu í [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,7 +41,7 @@ Almenn útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður sendingu 
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Til að taka við og umbreyta rafrænum reikningi í innkaupareikning.  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skjöl á innleið** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Skjöl á innleið** og velja síðan viðkomandi tengil.  
 
 2.  Veldu línuna fyrir skjal á innleið sem táknar nýjan rafrænan reikning á innleið og veldu svo **Breyta** aðgerðina.  
 

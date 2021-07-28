@@ -1,6 +1,6 @@
 ---
 title: Fjármálastjórnun
-description: Kynntu þér hvernig Business Central styður við þarfir þínar fyrir fjárhagsstjórnun, reikningshald, endurskoðun eða bókhald.
+description: Kynntu þér hvernig Business Central styður við þarfir þínar fyrir fjárhagsstjórnun, reikningshald, endurskoðun og bókhald.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e6f6769ec8aefebaf1cabd6c2ec764c454780426
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 842c2723fb62775e35673614c609257fe9439115
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773756"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326889"
 ---
-# <a name="finance"></a>Fjármál
+# <a name="financial-management"></a>Fjármálastjórnun
 
 [!INCLUDE[prod_short](includes/prod_short.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
 
@@ -44,14 +44,14 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Úthluta viðbótarkostnaði sem þú stofnar til í viðskiptum, eins og t.d. flutning og meðhöndlun, á viðeigandi vörur svo kostnaðurinn endurspeglist í birgðaverðmati. |[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md) |
 |Bóka persónuleg útgjöld starfsmanna sem hljótast af vinnutengdum aðgerðum og endurgreiða starfsmönnum með því að greiða inn á bankareikning þeirra.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|
 | Sjá tekjur og útgjöld á öðrum tíma en þegar færslur voru bókaðar. |[Fresta tekjum og öðrum útgjöldum](finance-how-defer-revenue-expenses.md)|
-| Frekari upplýsingar um tiltæka valmöguleika sem gera þér kleift að senda greiðslureikninga til viðskiptavina þinna og skrá endurteknar tekjur. |[Endurteknar (áskrift) tekjur](finance-recurring-invoicing.md)|
+| Frekari upplýsingar um tiltæka valmöguleika sem gera þér kleift að senda greiðslureikninga til viðskiptavina þinna og skrá endurteknar tekjur. |[Vinna með endurteknar tekjur](finance-recurring-invoicing.md)|
 |Læra hvernig skal nota viðbótar gjaldmiðla og uppfæra gengi gjaldmiðla sjálfvirkt. |[Uppfæra gengi](finance-how-update-currencies.md)|
 | Flytja inn launafærslur úr launaveitu í fjárhag. |[Flytja inn launafærslur](finance-how-import-payroll-transactions.md)|
 |Notaðu aðgerðir til að reikna VSK skattur á sölu- og innkaupafærslur svo hægt sé talið upphæðirnar fram til skattayfirvalda.|[Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)|
 |Undirbúa skýrslu sem telur upp VSK-upphæðir af sölu og senda hana til skattyfirvalda í ESB. | [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
 |Breyttu þjónustusamningum handvirkt til að breyta virðisaukaskattshlutfalli þeirra.|[Umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)|
 | Fylgstu með sjóðstreymi þínu. |[Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md) |
-|Fylgist með ferli frá upphafi til enda um það hvernig hægt er að nota reikningsáætlanir til að búa til sjóðstreymisspár.|[Kynning: Gera sjóðstreymisspár með því að nota fjárhagsskemu](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+|Fylgist með ferli frá upphafi til enda um það hvernig eigi að nota reikningsáætlanir til að búa til sjóðstreymisspár.|[Kynning: Gera sjóðstreymisspár með því að nota fjárhagsskemu](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Vinna með fjárhagsskýrslur og yfirlit í Excel. |[Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md) |
 |Kynnið ykkur hvernig á að nota Hlutverkamiðstöð endurskoðanda, bjóða ytri endurskoðanda og nota fyrirtækjamiðstöðina til að stjórna reikningum fyrir marga viðskiptamenn.|[Upplifun endurskoðanda í Business Central](finance-accounting.md)|  
 

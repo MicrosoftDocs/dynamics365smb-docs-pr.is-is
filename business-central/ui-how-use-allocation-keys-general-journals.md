@@ -1,6 +1,6 @@
 ---
-title: Nota úthlutunarlykla í færslubókum | Microsoft Docs
-description: Lærðu hvernig þú getur notað úthlutunarlykla í færslubókum.
+title: Nota úthlutunarlykla í færslubókum
+description: Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2760b53bfa1e277d4c4763810d580f5b66a223dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98316cbaf22546a9a2d01329fa1e242e219a1460
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772255"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435217"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Nota úthlutunarlykla í færslubókum
 Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. Úthlutunin getur verið í magni, prósentu eða upphæð.
 
 ## <a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Ítrekunarfærslubók** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurtekin færslubók** og velja síðan viðkomandi tengil.
 2. Veldu reitinn **Runuheiti** til að opna síðuna **Færslubókarkeyrslur**.
 3. Þú getur annað hvort breytt úthlutunum á fyrirliggjandi runu í listanum eða stofnað nýja runu með úthlutunum.
    * Til að stofna nýja runu, velja **Nýtt** aðgerð og farið á næsta skref.
@@ -38,7 +38,7 @@ Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar fær
 11. Bóka skal færslubókina.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Til að breyta uppsettum úthlutunarlykli
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Ítrekunarfærslubók** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurtekin færslubók** og velja síðan viðkomandi tengil.
 2. Á síðunni **Ítrekunarfærslubók** er færslubók með úthlutun valin.
 3. Velja línu með úthlutuninni og velja síðan **úthlutanir**.
 4. Breyta viðeigandi reitum, og velja svo hnappinn **Í lagi**.

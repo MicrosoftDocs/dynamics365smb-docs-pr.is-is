@@ -1,5 +1,5 @@
 ---
-title: QuickBooks Online flutningsviðbót | Microsoft Docs
+title: QuickBooks Online Gagnaflutningsviðbótin
 description: Lýsir því hvernig skal nota viðbótina til að flytja viðskiptamenn, lánardrottna, vörur og reikninga frá QuickBooks Online til Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6481eeb46116d02240c6f6a0201cb633f572822a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da9317d338c095f20ab18fb157bec0270d4a9c8f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785011"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434893"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>QuickBooks Online gagnaflutningsviðbótin
 
@@ -54,7 +54,7 @@ Ef færslur í QuickBooks Online hafa skattaupphæðir, þarf að setja upp skat
 
 Auðvelt er að hefjast handa Það eina sem þú þarft að gera er að keyra **Gagnaflutingur** uppsetningu með aðstoðarleiðbeiningum. Svona er það gert:
 
-1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Uppsetning með hjálp** og veldu síðan **Flytja viðskiptagögn**.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp** og velja síðan **Flytja viðskiptagögn**.
 2. Fylgdu leiðbeiningunum fyrir hvert skrefi í Uppsetningu með aðstoð.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Hvað geri ég eftir gagnaflutninginn?

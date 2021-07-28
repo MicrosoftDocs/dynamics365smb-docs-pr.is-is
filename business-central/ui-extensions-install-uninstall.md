@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 564b9574188acd63acaa660f4a440be791846ef7
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216206"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434987"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Uppsetning og fjarlæging viðbóta í Business Central
 
@@ -32,7 +32,7 @@ ms.locfileid: "6216206"
 
 ## <a name="installing-an-extension"></a>Uppsetning viðbótar
 
-Þú stjórnar viðbótum á síðunni **Viðbótastjórnun**. Hægt er að opna þessa síðu úr heimasvæðinu. Einnig er hægt að velja **Leita að síðu eða skýrslu** táknið ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") efst í hægra horninu, slá inn **Viðbætur** og velja svo tengda hlekkinn.  
+Þú stjórnar viðbótum á síðunni **Viðbótastjórnun**. Hægt er að opna þessa síðu úr heimasvæðinu. Annars geturðu valið **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") efst í hægra horninu skal velja **Viðbót** og síðan velja viðkomandi tengil.  
 
 Hægt er að fá nýjar viðbætur úr markaðstorginu á [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Hér getur þú séð allar tiltækar viðbætur fyrir [!INCLUDE[prod_short](includes/prod_short.md)], og þú getur fengið forrit, viðbætur og innihaldsefni fyrir aðrar Microsoft vörur. Stilltu viðeigandi síur, skoðaðu upplýsingar um hverja viðbót og fáðu viðbót fyrir þinn [!INCLUDE[prod_short](includes/prod_short.md)].  
 

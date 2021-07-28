@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að setja saman vörur | Microsoft Docs
-description: Ef reiturinn **Áfyllingarkerfi** á birgðaspjaldinu inniheldur **Samsetning** er sjálfgefin afhendingaraðferð vörunnar að setja hana saman úr skilgreindum íhlutum og mögulega með skilgreindum forða.
+title: Hvernig á að sameina vörur
+description: Ef reiturinn Áfyllingarkerfi á birgðaspjaldinu inniheldur Samsetning er sjálfgefin afhendingaraðferð vörunnar að setja hana saman úr skilgreindum íhlutum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d84241bf78b1e6f8ae6cfc053a80e030cb960814
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6fd6e5e90c8307c76868570642a216387d86641d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773005"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435495"
 ---
 # <a name="assemble-items"></a>Sameina vörur
 Ef reiturinn **Áfyllingarkerfi** á birgðaspjaldinu inniheldur **Samsetning** er sjálfgefin afhendingaraðferð vörunnar að setja hana saman úr skilgreindum íhlutum og mögulega með skilgreindum forða.  
@@ -41,7 +41,7 @@ Frekari upplýsingar um hvernig samsetningaríhlutur er settur upp eru í [Skilj
 Í þessu ferli er stofnuð og unnið úr samsetningarpöntun fyrir vörur sem eru settar saman í birgðir, sem þýðir án. tengdrar sölupöntunar. Skrefin eru meðal annars að hefja framleiðslupöntunina, meðhöndla möguleg ráðstöfunarvandamál íhluta og bóka samsetningarvörufrálag að hluta.
 
 ## <a name="to-assemble-an-item"></a>Til að setja vöru saman  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Samsetningarpantanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Samsetningarpantanir** og velja síðan viðkomandi tengil.  
 2.  Valið er **Nýtt** aðgerð. Síðan **Ný samsetningarpöntun** opnast.  
 3.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Í reitnum **Vöru Nr.** veljið samsetningarvöruna sem á að vinna með. Reiturinn er síaður til að hann sýni aðeins vörur sem eru settar upp fyrir samsetningu, sem þýðir að þær hafa úthlutaða samsetningaruppskrift.  

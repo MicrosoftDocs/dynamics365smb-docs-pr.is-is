@@ -1,6 +1,6 @@
 ---
-title: Loka fjárhagstímabilum fyrir fjárhagsár | Microsoft Docs
-description: Lýsir því hvernig skal loka fjárhagstímabilum sem mynda fjárhagsárið.
+title: Loka fjárhagstímabilum fyrir fjárhagsár
+description: Þessi grein lýsir því hvernig skal loka fjárhagstímabilum sem mynda fjárhagsárið fyrir árslokalokun.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: a26baaf947fdac133e3bfcd50489d680231d9971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786683"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435999"
 ---
 # <a name="close-accounting-periods"></a>Loka fjárhagstímabilum
 Þegar reikningsári er lokið þarf að loka tímabilunum sem það skiptist í.
 
 ## <a name="to-close-accounting-periods"></a>Fjárhagstímabilum lokað:
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagstímabil** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagstímabil** og velja síðan viðkomandi tengil.
 2. Á síðunni **Fjárhagstímabil** skal velja aðgerðina **Loka ári**.
 
     Ef fleiri en eitt reikningsár er opið elsta er að elsta sjálfkrafa valið til að vera lokað. Það birtir boð með árinu sem á að loka þar sem er útskýrt hvað gerist ef árinu er lokað.

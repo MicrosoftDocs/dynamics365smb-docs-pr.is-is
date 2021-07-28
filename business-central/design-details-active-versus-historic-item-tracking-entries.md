@@ -1,6 +1,6 @@
 ---
-title: 'Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum | Microsoft Docs'
-description: Þegar hlutar skjalslínumagns eru bókaðir eraðeins þessi tiltekna magn flutt í birgðahöfuðbókarfærslur og vörurakningarnúmer þess. Hins vegar viltu fá aðgang að öllum viðeigandi vörurakningarupplýsingum beint úr virku skjalalínunni. Það er, ekki aðeins verður þú vilt sjá færslur sem tengjast eftirstandandi magni, þú munt einnig vilja upplýsingar um einingar sem hafa verið bókaðar. Þegar þú skoðar eða breytir síðunni **Vörurakningarlínur** er samtals innihald töflunnar **Vörurakningarlýsing** (T336) og töflunnar **Frátekningarfærsla** (T337) eru sett fram í tímabundinni útgáfu af T336. Þetta tryggir heildaraðgang að fyrri og virkum vörurakningargögnum.
+title: 'Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum'
+description: Þegar hlutar skjalslínumagns eru bókaðir er aðeins þetta magn flutt í birgðahöfuðbókarfærslur og vörurakningarnúmer þess.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 587c396bece9437e170912dc523bebb04a39e1e4
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 167a765774d365a7890fa39a20923ab0c78e53a4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216029"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326139"
 ---
 # <a name="design-details-active-versus-historic-item-tracking-entries"></a>Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum
 Þegar hlutar skjalslínumagns eru bókaðir eraðeins þessi tiltekna magn flutt í birgðahöfuðbókarfærslur og vörurakningarnúmer þess. Hins vegar viltu fá aðgang að öllum viðeigandi vörurakningarupplýsingum beint úr virku skjalalínunni. Það er, ekki aðeins verður þú vilt sjá færslur sem tengjast eftirstandandi magni, þú munt einnig vilja upplýsingar um einingar sem hafa verið bókaðar. Þegar þú skoðar eða breytir síðunni **Vörurakningarlínur** er samtals innihald töflunnar **Vörurakningarlýsing** (T336) og töflunnar **Frátekningarfærsla** (T337) eru sett fram í tímabundinni útgáfu af T336. Þetta tryggir heildaraðgang að fyrri og virkum vörurakningargögnum.  

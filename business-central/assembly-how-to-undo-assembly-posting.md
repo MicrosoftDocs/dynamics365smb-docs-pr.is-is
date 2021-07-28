@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að afturkalla samsetningarbókun | Microsoft Docs
-description: Stundum gæti þurft að afturkalla bókaða samsetningarpöntun, til dæmis ef pöntunin var bókuð með mistökum sem þarf að leiðrétta, eða vegna þess að hana hefði ekki átt að bóka til að byrja með og verður því að afturkalla.
+title: Hvernig á að afturkalla samsetningarbókun
+description: Stundum þarf að afturkalla bókaða samsetningarpöntun, til dæmis þegar pöntunin var bókuð með mistökum sem þarf að leiðrétta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 4526ad4284cd3970e1573a1a8ea914cbd6253c83
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 48c454084e850b5dedf58c499263258c0ae8294c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772880"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435345"
 ---
 # <a name="undo-assembly-posting"></a>Afturkalla samsetningarbókun
 Stundum gæti þurft að afturkalla bókaða samsetningarpöntun, til dæmis ef pöntunin var bókuð með mistökum sem þarf að leiðrétta, eða vegna þess að hana hefði ekki átt að bóka til að byrja með og verður því að afturkalla.
@@ -40,7 +40,7 @@ Auk þess er aðeins hægt að endurheimta samsetningarpantanir ef línunúmer o
 Eftirfarandi ferli lýsir því hvernig eigi afturkalla bókaðar samsetningarpantanir þar sem vörurnar voru settar saman í birgðir. Eigi að afturkalla bókaðar samsetningarpantanir þar sem vörur voru settar saman í sölupöntun þarf að nota aðgerðina **Afturkalla afhendingu** í bókuðu afhendingunni sem tengist bókuðu samsetningarpöntuninni. Frekari upplýsingar er að finna í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md). Afturköllun bókaðrar samsetningarpöntunar gerist síðan sjálfkrafa eins og lýst er í þessu efnisatriði.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Til að afturkalla bókun samsetningarpöntunar  
-1.  Til að afturkalla bókaða samsetningarpöntun eða pöntun sem hefur verið bókuð að hluta, veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar samsetningarpantanir** og veldu síðan tengda tengilinn.  
+1.  Til að afturkalla bókaða samsetningarpöntun skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðar samsetningarpantanir** og velja síðan viðkomandi tengil.  
 
     Síðan **Bókaðar samsetningarpantanir** opnast og birtir eina eða fleiri bókaðar samsetningarpantanir sem eru bókaðar úr viðkomandi samsetningarpöntun. Hverja hlutabókun stofnar aðskilda bókaða samsetningarpöntun.  
 2.  Opna bókaða samsetningarpöntun sem á að afturkalla, og velja síðan aðgerðina **Afturkalla samsetningu**.  

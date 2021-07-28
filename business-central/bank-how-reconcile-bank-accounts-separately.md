@@ -1,6 +1,6 @@
 ---
-title: Afstemma bankareikninga | Microsoft Docs
-description: Lýsir því hvernig birgðavirði er stemmt af við fjárhaginn.
+title: Afstemma bankareikninga
+description: Þetta útskýrir hvernig á að framkvæma bankaafstemmingar með síðunni **Afstemming bankareiknings**; hvernig birgðavirði er afstemmt við fjárhag.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786808"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435403"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemma bankareikninga
 
@@ -62,7 +62,7 @@ Til að virkja innflutning bankayfirlits, verður þú að setja upp og virkja E
 > [!TIP]
 > Einnig er hægt að flytja inn bankayfirlitsskrár á sniði kommu eða semíkommu (.CSV). Notið **Setja upp snið bankayfirlitsskráar** uppsetninguna með hjálp til að skilgreina innflutningssnið bankayfirlits og festa sniðið við bankareikning. Síðan er hægt að nota þessi snið þegar bankayfirlit er flutt inn á síðuna **Afstemming bankareiknings**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afstemming bankareiknings** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afstemming bankareiknings** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð.
 3. Í reitnum **Reikningur nr.** er viðkomandi bankareikningskóti valinn. bankareikningsfærslur sem eru til staðar á bankareikningi birtast í svæðinu **Bankareikningsfærslur**.
 4. Í reitinn **Dagsetning yfirlits** er færð dagsetning bankayfirlitsins.

@@ -1,6 +1,6 @@
 ---
-title: Tengslastjórnun| Microsoft Docs
-description: Tengslastjórnunareiginleikarnir í Business Central styðja við sölutilburði þína og veita þér aðgang að upplýsingum um tengiliði og viðföng svo þú getir sinnt viðskiptamönnum svo vel sé.
+title: Umsjón með venslum
+description: Tengslastjórnunareiginleikarnir styðja við sölutilburði þína og veita þér aðgang að upplýsingum um tengiliði og viðföng til að sinna viðskiptamönnum á skilvirkan hátt.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3f3a6e729adcb5057b52aebd996778e74c83e01d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f37fa1be83c422062af1aafa7c19a36ee0455a2e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780608"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325687"
 ---
 # <a name="managing-relationships"></a>Stjórnun tengsla
 Tengslastjórnunareiginleikar [!INCLUDE[prod_short](includes/prod_short.md)] auðvelda stjórnun og stuðning við markaðssetningu og sölu. Þessir eiginleikar veita aðgang að fullkomnum og nákvæmum upplýsingum svo hægt sé að einbeita sér að þeim viðskiptamönnum/tengiliðum sem ná á til.

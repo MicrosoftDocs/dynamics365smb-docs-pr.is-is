@@ -1,5 +1,5 @@
 ---
-title: Notkun greiðslna og afstemmingar (DK) viðbótarinnar | Microsoft Docs
+title: Greiðslur og afstemmingar (DK) viðbótin
 description: Þessi viðbót gerir það auðvelt að flytja út skrár sem eru forstilltar til að uppfylla kröfur banka um rafræna skráningu.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: fdd8fced06d8efd5ab6959267bfc0171c4decdd2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ef87f41ec58dbc37caff647ad577f1cfcc205dfc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785061"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434886"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Greiðslur og afstemmingar (DK) viðbótin
 
@@ -55,7 +55,7 @@ Að auki þarftu að úthluta lánardrottnum á staðbundinn **Alm. viðsk.bóku
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>Til að leyfa [!INCLUDE[prod_short](includes/prod_short.md)] að flytja út greiðslugögn
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubók** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðslubók** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Breyta greiðslubók** er valið **Banki**.  
 3. Veljið gátreitinn **Leyfa greiðsluútflutning**.  
 
@@ -69,19 +69,19 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[prod
 |Leyfja skilaboð til viðtakanda? | Já |Nei |Nei | Já |
 |Inniheldur greiðslutilvísunarnúmer? | Nr | Já, 16 stafir. | Já, 15 stafir. | Nr|
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.  
 2. Opnaðu kortið, víkkaðu **Greiðslur** flipann, í **Greiðslumáti** veldu greiðslumáta.  
 3. Nauðsynlegt er að ljúka öðrum reitum, allt eftir valinu. Lýsing samsetninga er að finna í töflunni hér að ofan.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Til að tilgreina sniðið sem á að nota fyrir bankareikning
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.  
 2. Opna spjaldið fyrir bankareikninginn.  
 3. Á **Útflutningssnið greiðslu** skal velja sniðið fyrir útflutningsskrána.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Velja FIK eða Gírógreiðsluupplýsingar fyrir reikninga lánardrottins
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.
 2. Veljið lánardrottinn. Munið að þetta verður að vera danskur lánardrottinn með heimilisfang í Danmörku.
 3. Búa til reikning. Reitirnir **Greiðslumáti** og **Númer lánardrottins** eru fylltir út samkvæmt stillingum á lánardrottnaspjaldinu. Hægt er að breyta þeim ef óskað er.
 4. Í **Greiðslutilvísun** skal slá inn 15 stafa númerið á reikningi lánardrottins.  
@@ -93,7 +93,7 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[prod
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Til að nota viðbótina til að flytja út greiðslugögn
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubækur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðslubækur** og velja síðan viðkomandi tengil.  
 2. Velja **Stinga upp á greiðslubókum lánardrottins** aðgerðina.  
 
     > [!Tip]

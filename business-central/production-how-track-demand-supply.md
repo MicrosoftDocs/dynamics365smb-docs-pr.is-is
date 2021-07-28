@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að rekja tengsl milli eftirspurnar og framboðs | Microsoft Docs
-description: Frá hverju framboðs- eða eftirspurnarskjali í hinu svokallaða pöntunarneti, geturðu rakið pöntunareftirspurn (rakið magn), spá, standandi sölupöntun eða áætlunarfæribreytu (órakið magn) sem á við umrædda áætlunarlínu.
+title: Rekja tengsl milli eftirspurnar og framboðs
+description: Þetta efnisatriði útskýrir mismunandi leiðir til að rekja tengsl milli framboðs og eftirspurnar á borð við rakningu á tengdum vörum og meðhöndlun á óröktum einingum áætlanagerðar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8ff7653ec28e70c13842f9b66bff91b7d8b48f98
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ccf2b753e11d0f6a23235125e99f58a011606788
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787628"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435295"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Rekja tengsl milli eftirspurnar og framboðs
 Frá hverju framboðs- eða eftirspurnarskjali í hinu svokallaða pöntunarneti, geturðu rakið pöntunareftirspurn (rakið magn), spá, standandi sölupöntun eða áætlunarfæribreytu (órakið magn) sem á við umrædda áætlunarlínu.
@@ -27,7 +27,7 @@ Pöntunarrakningin sýnir hvernig sölupantanir, framleiðslupantanir og innkaup
 
 Eftirfarandi lýsir hvernig rekja skal tengdar vörur í fastáætlunarpöntun. Skrefin eru svipuð fyrir allar aðrar tegundir af pöntunum, og frá áætlunarvinnublaðslínum.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.
 2. Viðeigandi fastáætluð framleiðslupöntun er opnuð úr listanum.
 3. Á flýtiflipanum **Línur** skal velja aðgerðina **Aðgerðir**, og velja svo aðgerðina **Pöntunarrakning**.
 

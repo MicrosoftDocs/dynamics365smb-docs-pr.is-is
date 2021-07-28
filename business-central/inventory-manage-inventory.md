@@ -1,6 +1,6 @@
 ---
-title: Vinna með birgðir| Microsoft Docs
-description: Lýsir því hvernig skal vinna með efnislegar vörur sem þú átt viðskipti með, til dæmis að meðhöndla birgðir í vöruhúsinu.
+title: Stjórnun birgða
+description: Í þessu efnisatriði er lýst hvernig eigi að stjórna efnislegum vörum sem þú verslar með með því að búa til birgðakort.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f72ef570151babaa9bf32150c214e82374ddd0ec
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24337d2cd96e4511f1917980c94af407381e96d2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780758"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325319"
 ---
-# <a name="inventory"></a>Birgðir
+# <a name="how-to-manage-inventory"></a>Hvernig á að stjórna birgðum
 Fyrir hverja vöru sem þú ert að eiga viðskipti með þarftu að búa til hlutakort af tegundinni **Birgðir**. Vörur sem þú býður viðskiptamönnum en geymir ekki í birgðum er hægt að skrá sem vörulistaatriði sem hægt er að breyta í birgðavara þegar þörf krefur. Hægt að auka eða minnka magn vöru í birgðum með því að bóka beint í birgðafærslur, til dæmis þegar eftir raunbirgðatalningu eða ef þú skráir ekki innkaup.
 
 Birgðaaukning og minnkun eru auðvitað líka skráðar þegar þú bókar innkaupaskjöl og söluskjöl. Nánari upplýsingar eru í [Skrá innkaup](purchasing-how-record-purchases.md), [Selja vörur](sales-how-sell-products.md) og [Reikningsfæra sölur](sales-how-invoice-sales.md). Flutningur milli staða breytir birgðamagni yfir vörugeymslur fyrirtækisins.   

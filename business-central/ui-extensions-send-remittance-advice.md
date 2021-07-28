@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 04/01/2021
+ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: 7560131ec60d9cf494bdd87884f169e00ec89382
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a5b1245a47975f2db9465c5dc101ee13eea74248
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784716"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434860"
 ---
 # <a name="send-remittance-advice"></a>Senda greiðslutilkynningu
 
@@ -35,6 +35,13 @@ Hægt er að senda greiðslutilkynningu á tvo vegu:
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum ](ui-extensions.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
-
+[Rafræn millifærsla í ástralskri útgáfu](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
+[Framkvæma rafrænar greiðslur (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+[Rafræn millifærsla í nýsjálenskri útgáfu](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  
+[Staðbundnar aðgerðir fyrir Nýja-Sjáland](localfunctionality/newzealand/new-zealand-local-functionality.md)  
+[Staðbundin virkni Bretlands í breskri útgáfu](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
+[Prenta greiðslutilkynningu í breskri útgáfu](localfunctionality/unitedkingdom/how-to-print-remittance-advice.md)  
+[Framkvæma rafrænar greiðslur (US)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

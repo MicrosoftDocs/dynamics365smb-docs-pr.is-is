@@ -1,18 +1,18 @@
 ---
-title: Uppsetning birgðaverðmats og kostnaðar | Microsoft Docs
-description: Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
+title: Uppsetning birgðaverðmæta og kostnaðar
+description: Til að ganga úr skugga um að birgðakostnaður sé skráður rétt, er nauðsynlegt að setja upp ýmsa reiti og síður áður en þú byrjar að framkvæma vörufærslur.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2194a29247b6ec3c2ee87dfbfe6631f433d0514e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fa04fa90e749434d6ccf19e10e1a7daa1a4eaba8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783723"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327139"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Uppsetning birgðaverðmats og kostnaðar
 

@@ -1,6 +1,6 @@
 ---
-title: Orðalisti í kostnaðarbókhaldi | Microsoft Docs
-description: Í þessu efnisatriði eru lykilhugtökin sem notuð eru í kostnaðarbókhaldi skilgreind.
+title: Orðalisti í kostnaðarbókhaldi
+description: Þessa efnisatriðis skilgreinir lykilhugtök sem eru notuð í kostnaðarbókhaldi, t.d. úthlutunarlykil og úthlutunaruppruna.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: aa84beb26e76ab911aca1ddbd7fc8a9461d1a491
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 02afd4709ef950a621043ed6955c79bf71dac6fd
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783648"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326964"
 ---
 # <a name="terminology-in-cost-accounting"></a>Orðalisti í kostnaðarbókhaldi
 Í þessu efnisatriði eru lykilhugtökin sem notuð eru í kostnaðarbókhaldi skilgreind.  

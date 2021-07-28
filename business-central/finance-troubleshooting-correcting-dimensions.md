@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947490"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373239"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Úrræðaleit og víddarleiðrétting
 Fjárhagsskýrslugerð og greiningaryfirlit reiða sig oft á gögn úr ýmsum víddum. Þrátt fyrir þær öryggisráðstafanir sem í boði eru gerast stundum mistök sem geta leitt til ónákvæmni. Í þessu efni er lýst nokkrum dæmigerðum villum og útskýrt hvernig eigi að leiðrétta víddarúthlutanir á bókuðum færslum svo að fjárhagsskýrslur séu réttar.
@@ -109,3 +109,17 @@ Ef leiðrétting klárast ekki mun viðvörun birtast á leiðréttingarspjaldin
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Kostnaðarbókhald með leiðréttum fjárhagsfærslum notað
 Þegar búið er að leiðrétta víddir verða gögn kostnaðarbókhalds ósamstillt. Kostnaðarbókhald notar víddir til að safna saman upphæðum fyrir kostnaðarstaði og kostnaðarhluti og til að keyra kostnaðarúthlutanir. Að breyta víddum fyrir fjárhagsfærslur mun líklega þýða að þú endurkeyrir líkön kostnaðarbókhaldsins. Hvort sem þú þarft aðeins að eyða nokkrum kostnaðarskrám og endurkeyra úthlutanir, eða þú þarft að eyða öllu og endurkeyra öll líkönin þín, fer eftir gögnunum sem hafa verið uppfærð og hvernig möguleikar kostnaðarbókhaldsins eru settir upp. Auðkenna hvar víddarleiðréttingar hafa áhrif á kostnaðarbókhald og hvar er þörf á uppfærslum er handvirkt ferli. [!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á sjálfvirka leið til að gera það sem stendur.
+
+## <a name="correcting-number-assignments-for-global-dimensions"></a>Að leiðrétta númeraúthlutanir fyrir altækar víddir
+Í færslutöflu víddasamstæða eru altækum víddum úthlutað **0** í flýtvísun víddarnúmers reitnum og flýtivísunum í víddir er úthlutað flýtivísun í víddarnúmer sem getur verið á bilinu 1 til 8. Sumar skýrslur nota þessar númeraúthlutanir til að ákvarða gildi sem á að nota í útreikningum.
+
+Þegar víddargildi eru flutt inn með því að nota skilgreiningapakka sem voru búnir til án þess að keyra ræsingu staðfestingar eða með því að nota sérsniðna kóða til að kalla á aðferðir innsetningar eða breytingar án þess að keyra ræsingu staðfestingar fyrir OnInsert eða OnModify, eru flýtivísunum í víddir stundum úthlutað númer sem er ekki 0. Þegar þetta gerist verða útreikningar rangir fyrir víddir eða endurteknar færslubækur sem nota endurteknar aðferðir BD-stöðu eftir reikningi eða BD-stöðu eftir víddum. 
+
+Ef röngu númeri er úthlutað, þegar reynt er að bóka eða forskoða færslubækur á síðunni **Endurteknar færslubækur** mun síðan **Villuboð** birtast. Á síðunni Villuboð er hægt að velja tengilinn í reitnum **Uppruni** til að keyra skýrslu sem mun leiðrétta númeraúthlutun í flýtivísunum víddar í færslutöflu víddasamstæðunnar. Einnig er hægt að leita að **Uppfæra flýtivísun í víddarnúmer fyrir færslur víddasamstæðu** til að keyra skýrsluna.
+
+Þegar skýrslan hefur verið keyrð er hægt að skoða breytingarnar sem gerðar voru á númerinu í númeri altækrar víddar á síðunni **Breytingaskrárfærslur**. . [!INCLUDE[prod_short](includes/prod_short.md)] skráir alltaf fyrra gildið og nýja gildið. 
+
+## <a name="see-also"></a>Sjá einnig
+[Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)
+[Vinna með víddir](finance-dimensions.md)
+[Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)

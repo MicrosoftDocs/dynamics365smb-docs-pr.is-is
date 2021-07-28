@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1caf2fb0586cf704e5fc1354b3b4a0be096dc709
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a5ac7b1cd9d58c91584c2777442094bace0673fd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781739"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436024"
 ---
 # <a name="block-customers"></a>Loka á viðskiptamenn
 Hægt er að loka á viðskiptamann, til dæmis vegna gjaldþrota, svo að ekki sé hægt að bæta viðskiptamanninum við söluskjöl eða svo að ekki sé hægt að bóka færslur fyrir viðskiptamanninn.
@@ -32,7 +32,7 @@ Eftirfarandi tafla lýsir valkostunum fyrir lokun á viðskiptavini.
 |**Allt**|Engar færslur eru leyfðar fyrir þennan viðskiptamann, þ.m.t. greiðslur.|  
 
 ## <a name="to-block-a-customer"></a>Til að loka á viðskiptamann  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Veldu viðskiptamann og síðan aðgerðina **Breyta**.
 3. Í reitnum **Lokað** skal velja hverju á að loka, eins og lýst er í töflunni hér að ofan.
 

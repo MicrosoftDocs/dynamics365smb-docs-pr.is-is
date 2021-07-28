@@ -1,6 +1,6 @@
 ---
-title: Haldið utan um fjarveru starfsmanna | Microsoft Docs
-description: Lýsir því hvernig á að skrá fjarveru starfsmanna og greina upplýsingar um fjarveru.
+title: Haldið utan um fjarvistir starfsmanna
+description: Lýsir því hvernig á að skrá fjarveru starfsmanna og greina upplýsingar um fjarveru með síðum fjarvistaskráningar og starfsmannafjarvista.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 89f164207b78a9b1845ed7add0b6dea7c4b6efbc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 01ccee23ae4c1bcb449bc69062421b7aa1d4ea0c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782139"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326864"
 ---
 # <a name="manage-employee-absence"></a>Haldið utan um fjarvistir starfsmanna
 Til að geta haldið utan um fjarvistir starfsmanns er nauðsynlegt að skrá fjarveru á síðuna **Skráning fjarvista**. Þá er hægt að skoða þær á ýmsan hátt eins og þarf til greiningar og skráningar.

@@ -1,6 +1,6 @@
 ---
-title: Samþætting við Dynamics 365 Sales| Microsoft Docs
-description: Kynntu þér hvernig þú sækir Dynamics 365 Business Central tilbúið til að samþætta við Dynamics 365 Sales.
+title: Samþætting við Dynamics 365 Sales
+description: Kynntu þér hvernig þú sækir Dynamics 365 Business Central tilbúið til að samþætta við Dynamics 365 Sales til að sjá hvað er að gerast í bakvinnslunni.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 437287401003cc008e3a998e7d28fb7862415abc
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184500"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325469"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Samþætting við Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -67,7 +67,6 @@ Færðu inn eftirfarandi upplýsingar fyrri tenginguna frá [!INCLUDE[crm_md](in
 
 | Svæði | Description |
 |--|--|
-| **Dynamics 365 Sales vefslóð** | Vefslóð fyrir [!INCLUDE[crm_md](includes/crm_md.md)]-tilvikið þitt. Þetta gerir notendum kleift að opna samsvarandi færslur í [!INCLUDE[prod_short](includes/prod_short.md)] úr færslum í [!INCLUDE[crm_md](includes/crm_md.md)], svo sem reikningi eða vöru. [!INCLUDE[prod_short](includes/prod_short.md)]-færslur opnast í [!INCLUDE[prod_short](includes/prod_short.md)]. |
 |**Dynamics 365 Sales vefslóð**|Vefslóð fyrir [!INCLUDE[crm_md](includes/crm_md.md)]-tilvikið þitt. Þetta gerir notendum kleift að opna samsvarandi færslur í [!INCLUDE[prod_short](includes/prod_short.md)] úr færslum í [!INCLUDE[crm_md](includes/crm_md.md)], svo sem reikningi eða vöru. [!INCLUDE[prod_short](includes/prod_short.md)]-færslur opnast í [!INCLUDE[prod_short](includes/prod_short.md)].|
 |**Kveikt er á vefþjónustunni Vara til ráðstöfunar**|Gera fólki sem er að nota [!INCLUDE[crm_md](includes/crm_md.md)] kleift að skoða framboð á vörum (afurðum) í birgðum í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þetta er virkjað þarf einnig að útvega notandanafn og aðgangslykli fyrir [!INCLUDE[crm_md](includes/crm_md.md)] til að nota til að senda fyrirspurn á vefþjónustu OData um framboð á vörum (afurðum). Nánari upplýsingar er að finna í [Vefþjónustur OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**Vefslóð fyrir vefþjónustu Dynamics 365 Business Central OData**|Ef vefþjónusta fyrir ráðstöfun á vöru er virkjuð verður vefslóð fyrir vefþjónustu OData útvegað fyrir þig. Stillið þennan reit á vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)] tilvikið sem nota á.<br /><br /> Til að endurstilla reitinn á sjálfgefna vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)], skal velja aðgerðina **Endurstilla vefslóð vefbiðlara**.<br /><br /> Þessi reitur á aðeins við ef [!INCLUDE[prod_short](includes/prod_short.md)] samþættingarlausn er sett upp í [!INCLUDE[crm_md](includes/crm_md.md)].|
@@ -149,8 +148,11 @@ Eftirfarandi tafla lýsir sjálfgefnu samstillingarverkunum fyrir Sales.
 |POSTEDSALESINV-INV-Dynamics 365 Sales samstillingarvinnsla|Samstillir [!INCLUDE[crm_md](includes/crm_md.md)] reikninga við [!INCLUDE[prod_short](includes/prod_short.md)] bókaða sölureikninga.|Frá [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|REIKNINGAR-BÓKAÐIR SÖLUREIKNINGAR|30|1440<br> (24 klst.)|
 |Talnagögn viðskiptavinar - samstillingarvinnsla Dynamics 365 Sales|Uppfærir [!INCLUDE[crm_md](includes/crm_md.md)] reikninga með nýjustu [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamannagögnunum. Í [!INCLUDE[crm_md](includes/crm_md.md)] birtast upplýsingarnar í **Tölfræði fyrir Business Central-reikning** skjámynd flýtiyfirlits yfir reikninga sem eru tengdir við [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamenn.<br /><br /> Einnig er hægt að uppfæra þessi gögn handvirkt úr hverri viðskiptamannafærslu. Frekari upplýsingar er að finna í [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Athugið:** Þessi verkraðarfærsla á aðeins við ef [!INCLUDE[prod_short](includes/prod_short.md)] samþættingarlausnin er sett upp í [!INCLUDE[crm_md](includes/crm_md.md)]. |Á ekki við|Á ekki við|30|Á ekki við| 
 
-## <a name="connecting-business-central-on-premises-versions-earlier-than-version-16"></a>Tengist útgáfum af Business Central á staðnum fyrir útgáfu 16
-Microsoft Power Platform-teymið hefur [tilkynnt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) að það sé að úrelda sannvottunargerð Office 365. Ef notað er [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss sem er eldra en útgáfa 16 þarf að nota sannvottunargerð OAuth til að tengjast [!INCLUDE[crm_md](includes/crm_md.md)] á netinu. Skrefin í þessum hluta lýsa því hvernig á að koma á tengingunni.
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Tenging við staðbundnar útgáfur af Business Central 2019 útgáfutímabil 1 og Microsoft Dynamics NAV 2018
+Microsoft Power Platform-teymið hefur [tilkynnt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) að það sé að úrelda sannvottunargerð Office 365. Ef notað er [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum sem er eldra en útgáfutímabil 1 af Business Central 2019 þarf að nota sannvottunargerð OAuth til að tengjast [!INCLUDE[crm_md](includes/crm_md.md)] á netinu. Skrefin í þessum hluta lýsa því hvernig á að tengjast eftirfarandi útgáfum af vöru:
+
+* Útgáfutímabil 1 af Business Central 2019
+* Microsoft Dynamics NAV 2018
 
 ### <a name="prerequisites"></a>Frumskilyrði
 
@@ -164,9 +166,13 @@ Microsoft Power Platform-teymið hefur [tilkynnt](/power-platform/important-chan
 
    - OAuth
 
-### <a name="to-connect-a-version-of-business-central-earlier-than-version-16"></a>Til að tengja útgáfu af Business Central fyrir útgáfu 16
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Til að tengja Business Central 2019 útgáfutímabil 1 og Dynamics NAV 2018
 
-1. Flytjið samþættingarlausn Microsoft Dynamics 365 Business Central inn í [!INCLUDE[crm_md](includes/crm_md.md)]-umhverfið. Samþættingarlausnin er í boði í möppunni CrmCustomization á DVD-uppsetningardisk Business Central. Til eru margar útgáfur af lausninni, t.d. DynamicsNAVIntegrationSolution_v8 eða DynamicsNAVIntegrationSolution_v9 eða DynamicsNAVIntegrationSolution_v91. Lausnin sem þú ættir að flytja inn veltur á þeirri útgáfu af [!INCLUDE[crm_md](includes/crm_md.md)] sem verið er að tengjast. [!INCLUDE[crm_md](includes/crm_md.md)] á netinu þarf samþættingarlausnina DynamicsNAVIntegrationSolution_v91.
+1. Flytjið samþættingarlausn Microsoft Dynamics 365 Business Central inn í [!INCLUDE[crm_md](includes/crm_md.md)]-umhverfið. Samþættingarlausnin er í boði í möppunni CrmCustomization á DVD-uppsetningardisknum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] eða Dynamics NAV 2018. Flytjið inn eitt af eitt af eftirfarandi eftir því hver útgáfa vörunnar er:
+
+   * Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur mappan DynamicsNAVIntegrationSolution_v9 og DynamicsNAVIntegrationSolution_v91. lausnir. Lausnin sem þú ættir að flytja inn veltur á þeirri útgáfu af [!INCLUDE[crm_md](includes/crm_md.md)] sem verið er að tengjast. [!INCLUDE[crm_md](includes/crm_md.md)] á netinu þarf samþættingarlausnina DynamicsNAVIntegrationSolution_v91.
+   * Fyrir Dynamics NAV 2018 skal setja upp DynamicsNAVIntegrationSolution-lausnina.
+
 2. Stofnið ógagnvirkan samþættingarnotanda í [!INCLUDE[crm_md](includes/crm_md.md)]-umhverfinu og úthlutið notandanum eftirfarandi öryggishlutverkum. Frekari upplýsingar er að finna í [Stofna ógagnvirkan notandareikning](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
    * Dynamics 365 Business Central Samþættingarstjórnandi
@@ -175,17 +181,29 @@ Microsoft Power Platform-teymið hefur [tilkynnt](/power-platform/important-chan
    > [!Important]
    > Þessi notandi má ekki hafa öryggishlutverk kerfisstjóra. Einnig er ekki hægt að nota reikning kerfisstjóra sem samþættingarnotanda.
 
-3.  Í Azure-gáttinni skal búa til forritsskráningu fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Fyrir skrefin skal sjá [Skrá forrit í Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Stillingarnar sem tilheyra tengingunni við [!INCLUDE[crm_md](includes/crm_md.md)] eru úthlutuðu heimildirnar. Eftirfarandi tafla sýnir og lýsir heimildunum.
+3.  Í Azure-gáttinni skal búa til forritsskráningu fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Skrá forrit í Azure Active Directory](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+  
+   > [!NOTE]
+   > Mælt er með að forrið sé skráð í sama leigjanda og Dataverse-umhverfið þannig að ekki þurfi að samþykkja aðgang forritsins að umhverfinu. Ef þú skráir forritið í öðru umhverfi þarf að skrá sig inn í Azure AD með stjórnandareikningnum fyrir Dataverse-umhverfið og veita samþykki.
+   >
+   > Auk þess má forritið sem þú skráir ekki vera með leynilykil. Að tengja forrit með leynilykli við Dataverse er aðeins í boði í Business Central 2020 útgáfutímabili 1 og síðar.
+  
+4. Gerið eitt af eftirfarandi eftir því hver útgáfa vörunnar er:
 
-   |Heiti API / heimildar |Tegund  |Description  |
-   |---------|---------|---------|
-   |Financials.ReadWrite.All     |Úthlutað|Nauðsynlegt fyrir [!INCLUDE[prod_short](includes/prod_short.md)].    |
-   |user_impersonation     |Úthlutað|Nauðsynlegt fyrir [!INCLUDE[crm_md](includes/crm_md.md)].|
-   
-4. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal leita að **Microsoft Dynamics 365 uppsetning tengingar** og síðan velja viðkomandi tengil. 
-5. Á síðunni **Microsoft Dynamics 365 uppsetning tengingar**, í reitnum **Sannvottunargerð**, skal velja valkostinn fyrir OAuth. 
+    * Í [!INCLUDE[prod_short](includes/prod_short.md)] skal leita að **Microsoft Dynamics 365 uppsetning tengingar** og síðan velja viðkomandi tengil. 
+    * Í Dynamics NAV 2018 skal leita að **Microsoft Dynamics 365 for Sales Uppsetning tengingar** og síðan velja viðkomandi tengil.
+
+5. Í reitnum **Sannvottunargerð**, skal velja valkostinn fyrir OAuth. 
 6. Veljið SDK-útgáfu CRM sem samsvarar úrlausnarútgáfu sem flutt var inn í skrefi 1.
-7. Í reitinn **Vistfang þjóns** skal slá inn vefslóð [!INCLUDE[crm_md](includes/crm_md.md)]-umhverfisins og síðan slá inn notandanafn og aðgangsorð fyrir samþættingarnotandann.
+
+   > [!NOTE]
+   > Þetta skref á aðeins við fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
+
+7. Sláið inn vefslóð [!INCLUDE[crm_md](includes/crm_md.md)]-umhverfisins og sláið síðan inn notandanafn og aðgangsorð fyrir samþættingarnotandann. 
+
+   * Í [!INCLUDE[prod_short](includes/prod_short.md)] skal nota reitinn **Vistfang þjóns**.
+   * Í Dynamics NAV 2018 skal nota reitinn **Vefslóð Dynamics 365 Sales**.
+
 8. Í reitinn **Tengistrengur** skal tilgreina auðkenni forritsskráningarinnar. Þessi reitur er með tveimur merkjum þar sem tilgreina þarf kenni forrits.
 
    |Tákn           |Description  |

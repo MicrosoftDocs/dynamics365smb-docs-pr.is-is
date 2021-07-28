@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir verkhluta til að uppfylla þjónustusamninga | Microsoft Docs
-description: Útlistar verkhluta stýringar þjónustusamninga við viðskiptamenn.
+title: Yfirlit yfir verkhluta til að uppfylla þjónustusamninga
+description: Lýsir verkum við að uppfylla þjónustusamninga við viðskiptavini þína eins og uppsetningu staðlaðra samninga með breytanlegum sniðmátum og fleira.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 271e9ef14937ebd1b2bb7a8932f2f561d7a6f2ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 343308cb004ada356eaad14e620f29fb9cf043ee
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778298"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326814"
 ---
 # <a name="fulfilling-service-contracts"></a>Uppfylla þjónustusamninga 
 Ein leið til að setja upp þjónustukerfisfyrirtæki er að hafa staðlaða samninga við viðskiptamennina sem lýsa stigi þjónustu og þjónustuvæntingum. Hægt er að stofna samningssniðmát sem innihalda nauðsynlegar upplýsingar, svo sem viðskiptamann, upphafsdagsetningu samnings og reikningstímabil.  

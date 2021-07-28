@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785949"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435673"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Telja og leiðrétta birgðir með skjölum
 
@@ -40,7 +40,7 @@ Pöntun efnislegra birgða er ítarlegt skjal sem samanstendur af pöntunarhaus 
 
 Til að stofna pöntunarlínur efnislegra birgða er venjulega notuð virknin **Reikna línur** til að endurspegla núverandi birgðir sem línur í pöntuninni. Að öðrum kosti er hægt að nota virknina **Afrita úr skjali** til að fylla út línurnar með innihaldi annarrar opinnar eða bókaðrar pöntunar efnislegra birgða. Eftirfarandi ferli útskýrir eingöngu hvernig á að nota virknina **Reikna línur**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanir raunbirgða** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Efnislegar birgðapantanir** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð.
 3. Fylltu út nauðsynlega reiti í flýtiflipanum **Almennt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Veldu aðgerðina **Reikna línur**.
@@ -100,7 +100,7 @@ Einnig er hægt að velja aðgerðina **Mismunur efnislegrar birgðapöntunar** 
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Að finna tvíteknar pöntunarlínur efnislegra birgða
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanir raunbirgða** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Efnislegar birgðapantanir** og velja síðan viðkomandi tengil.
 2. Opnaðu pöntun efnislegra birgða sem á að skoða tvíteknar línur fyrir.
 3. Veldu aðgerðina **Sýna tvíteknar línur**.
 
@@ -113,7 +113,7 @@ Eftir að pöntun efnislegra birgða er lokið og stöðu hennar er breytt í **
 - Hver pöntunarlína efnislegra birgða hefur verið talin af að minnsta kosti einni skráningarlínu birgða.
 - Gátreitirnir **Í skráningarlínum** og **Væntanlegt magn reiknað** hafa verið valdir fyrir allar pöntunarlínur efnislegra birgða.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanir raunbirgða** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Efnislegar birgðapantanir** og velja síðan viðkomandi tengil.
 2. Veldu pöntun efnislegra birgða sem á að ljúka við og veldu síðan aðgerðina **Breyta**.
 
     Á síðunni **Pöntun efnislegra birgða** er skoðað magnið sem er skráð í reitinn **Skráð magn (grunnur)**.
@@ -127,7 +127,7 @@ Birgðabókafærslurnar sem eiga við eru uppfærðar ásamt öllum tengdum vör
 ### <a name="to-view-posted-physical-inventory-orders"></a>Að skoða bókaðar pantanir efnislegra birgða
 Eftir bókun verður pöntun efnislegra birgða eytt og hægt er að skoða og meta skjalið sem bókuð pöntun efnislegra birgða ásamt skráningum þess á efnislegum birgðum og öllum athugasemdum sem hafa verið gerðar.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar pantanir raunbirgða** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðar efnislegar birgðapantanir** og velja síðan viðkomandi tengil.
 2. Á síðunni **Bókaðar efnislegar birgðapantanir** skal velja bókuð pöntun efnislegra birgða sem á að skoða og síðan velja aðgerðina **Skoða**.
 3. Til að skoða lista yfir tengdar skráningar efnislegra birgða skal velja aðgerðina **Skráningar**.
 
@@ -199,7 +199,7 @@ Hægt er að prenta þessi skjöl á hvaða stigi sem er, losa þau og opna þau
 ### <a name="to-set-up-numbering-for-inventory-documents"></a>Að setja upp númeraröð fyrir birgðaskjöl
 Þessi verklýsing sýnir hvernig á að búa til númeraröð fyrir birgðaskjöl.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðauppsetning** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.
 2. Í flýtiflipanum **Tölusetning** skal tilgreina í eftirfarandi reitum númeraraðir fyrir skjöl:
    - **Birgðainnhreyfingarnr.**  
    - **Bókuð birgðamóttökunr.**  
@@ -209,7 +209,7 @@ Hægt er að prenta þessi skjöl á hvaða stigi sem er, losa þau og opna þau
 ### <a name="to-create-and-post-an-inventory-document"></a>Að stofna og bóka birgðaskjal
 Eftirfarandi ferli sýnir hvernig á að stofna, prenta og bóka birgðamóttöku. Skrefin eru svipuð fyrir birgðaafhendingar.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðamóttaka** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðamóttaka** og velja síðan viðkomandi tengil.  
 2. Í haus síðunnar **Birgðamóttaka** skal velja staðsetninguna í reitnum **Staðsetningarkóði** og síðan fylla út eftirstandandi reiti eftir þörfum.
 3. Á flýtiflipanum **Línur** í reitnum **Vara** skal velja birgðavöruna. Í reitinn **Magn** er fært magn vara sem á að bæta við. 
 4. Til að prenta skýrslu **Birgðamóttöku** á síðunni **Birgðamóttaka** skal velja aðgerðina **Prenta**.

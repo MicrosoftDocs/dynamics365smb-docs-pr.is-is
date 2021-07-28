@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f51679cfb1481632ea1f425e4a614764410c679
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d72025a95f6d12ab64ba6ec29de754bb9c318ab0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784468"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435798"
 ---
 # <a name="record-interactions-with-contacts"></a>Skrá samskipti við tengiliði
 Uppsetning forrits til að skrá samskipti samanstendur af þessum verkum:
@@ -50,7 +50,7 @@ Hægt er að skoða öll skráð samskipti sem ekki hefur verið eytt á síðun
 * Sjá stöðu samskipta.
 * Merkja samskipti sem hætt við.
 
-Hægt er að eyða samskiptaskráningarfærslum sem hafa verið afturkallaðar. Til að eyða samskiptaskráarfærslum Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða samskiptaskráarfærslum sem hætt var við** og veldu síðan tengda tengilinn.
+Hægt er að eyða samskiptaskráningarfærslum sem hafa verið afturkallaðar. Til að eyða kladdafærslum samskipta skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eyða samskiptaskráarfærslum sem hætt var við** og veldu síðan tengda tengilinn og fylltu út upplýsingarnar.
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  

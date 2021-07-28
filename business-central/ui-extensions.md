@@ -1,18 +1,18 @@
 ---
 title: Setja upp viðbætur til að sérstilla Business Central
-description: Kynntu þér hvernig skal bæta virkni og sérstilla Business Central með því að setja upp viðbætur.
+description: Kynntu þér allt um hvernig skal bæta virkni og sérstilla Business Central með því að setja upp viðbætur hér.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 073b89f7c80035da12f329f752b64dc8142f309d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771340"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325585"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online sérstillt með viðbótum
 

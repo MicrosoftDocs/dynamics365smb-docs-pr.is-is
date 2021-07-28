@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 54ade14f58d9be5957c77a768096b5f475db5798
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770417"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343550"
 ---
 # <a name="setting-up-fixed-assets"></a>Uppsetning eigna
 Áður en þú getur unnið með eignir þarftu að skilgreina nokkur atriði:  
@@ -40,6 +40,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Virkja vátryggingu eigna, setja upp almennar upplýsingar um vátryggingar, vátryggingarspjaldinu á hvert tryggingaskírteini, og undirbúa færslubækur til að bóka vátryggingakostnað. |[Uppsetning vátryggingar eignar.](fa-how-setup-insurance.md) |
 | Virkja viðhald eigna, setja upp almenna viðhaldsupplýsinga, setja upp bókunarlykla viðhalds og skilgreina tegundir viðhaldsvinna. |[Uppsetning eignarviðhalds](fa-how-setup-maintenance.md) |
 | Læra um mismunandi Aðferðir við afskriftir eigna |[Afskriftaaðferðir](fa-depreciation-methods.md) |
+| Finndu út hvernig á að nota notandaskilgreindar afskriftaaðferðir. |[Uppsetning afskriftaaðferða sem notandi skilgreinir](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Sjá einnig
 [Eignir](fa-manage.md)  

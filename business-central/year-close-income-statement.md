@@ -1,5 +1,5 @@
 ---
-title: Loka rekstrarreikningum | Microsoft Docs
+title: Loka rekstrarreikningi
 description: Við lok árs, er nauðsynlegt að keyra runuvinnsluna Loka rekstrarreikningi til að loka reikningstímabilunum sem mynda fjárhagsárið.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 843d5b766d9b840e27f4423854caaae66efb0805
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 44e2d34ee4af32bcb901a66ae7e45b45ac274bd5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775016"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435748"
 ---
-# <a name="close-income-statement-accounts"></a>Loka rekstrarreikningi
+# <a name="closing-income-statement-accounts"></a>Rekstrarreikningum lokað
 Þegar reikningsári er lokið þarf að loka tímabilunum sem það skiptist í. Til að gera þetta skal keyra Runuvinnslan **Loka rekstrarreikningi** Þetta verk flytur niðurstöðutölur ársins yfir á efnahagsreikning og loka rekstrarreikningum. Það er gert með því að stofna línur í færslubók sem síðan er hægt að bóka.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Til að keyra Runuvinnslan Loka rekstrarreikningi
 1. Loka reikningsári Reikningsárinu þarf að loka áður en hægt er að setja keyrsluna í gang. Nánari upplýsingar sjá [Loka fjárhagstímabilum](year-close-account-periods.md).
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Loka rekstrarreikningi** og veldu síðan tengda tengilinn.
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Loka rekstrarreikningi** og velja síðan viðkomandi tengil.
 3. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Um Runuvinnslan Loka rekstrarreikningi

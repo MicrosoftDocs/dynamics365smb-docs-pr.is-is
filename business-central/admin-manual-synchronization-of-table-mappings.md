@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 45a120bd56ea53bf0ba885f04f9bdcedbeba4c5d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781171"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435523"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Samstilla töfluvarpanir handvirkt
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -43,7 +43,7 @@ Hvort og hvenær lína er búin til fer eftir samstillingaráttinni. Til dæmis,
 >  Venjulega er aðeins notuð full samstilling þegar samþætting er sett upp fyrst milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] og aðeins ein af lausnunum inniheldur gögn, sem þú vilt afrita í hina lausnina. Full samstilling getur verið gagnleg í sýniumhverfi. Vegna þess að full samstilling býr til og tengir færslur milli lausna, er hægt að byrja fyrr á að vinna með samstillingu gagna milli færslna. Aftur á móti ætti aðeins að keyra fulla samstillingu ef þú vilt línu í [!INCLUDE[prod_short](includes/prod_short.md)] fyrir hverja línu í [!INCLUDE[prod_short](includes/cds_long_md.md)] fyrir umbeðnar töfluvarpanir. Annars er hægt að fá óumbeðnar eða tvíteknar færslur í annaðhvort [!INCLUDE[prod_short](includes/prod_short.md)] eða [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
 ### <a name="to-run-a-full-synchronization"></a>Að keyra fulla samstillingu  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Dataverse Uppsetning tengingar** og veldu síðan tengda tengilinn.
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Dataverse Uppsetning tengingar** og velja síðan viðkomandi tengil.
 
     > [!NOTE]
     > Ef ætlunin er að keyra fulla samstillingu fyrir einingar í gegnum Dynamics 365 Sales skal nota síðuna **Microsoft Dynamics 365 Sales uppsetning tengingar** í staðinn.
@@ -72,14 +72,14 @@ Hægt er að skoða niðurstöður samstillingar á síðunni **Samstillingarver
 >  Með því að breyta vörpun samþættingartöflu fyrirfram er hægt að búa til síur til að stýra því hvaða gögn eru samstillt, eða skilgreint vörpun til að búa til ný gögn á viðtökustað lausnar fyrir ótengdar færslur eða línur á upprunastaðnum. Frekari upplýsingar er að finna í [Breyta töfluvörpunum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-data-for-all-tables"></a>Til að samstilla gögn fyrir allar töflur  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Microsoft Dynamics 365 Sales uppsetning tengingar** og veldu síðan tengda tengilinn.
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Microsoft Dynamics Uppsetning tengingar á 365 Sales** og velja síðan viðkomandi tengil.
 2.  Veldu aðgerðina **Samstilla breyttar færslur** og síðan **Já**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Samstilla stakar töfluvarpanir
 Hægt er að nota síðuna **Vörpun samþættingartöflu** til að keyra samstillingarverk fyrir tilteknar töfluvarpanir. Þetta mun samstilla gögn fyrir allar tengdar færslur og línur í [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] töflum sem eru skilgreindar af töfluvörpun. Sjálfgefið er að aðeins gögn sem hefur verið breytt frá síðustu samstillingu verða samstillt.  
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Að samstilla færslur fyrir vörpun samþættingartöflu  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörpun samþættingartöflu** og veldu síðan tengda tengilinn.
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörpun samþættingartöflu** og veldu síðan tengda tengilinn.
 2.  Veldu aðgerðina **Samstilla breyttar færslur** og síðan **Já**.  
 
 ## <a name="see-also"></a>Sjá einnig  

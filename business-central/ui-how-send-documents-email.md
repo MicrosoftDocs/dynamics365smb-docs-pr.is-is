@@ -1,5 +1,5 @@
 ---
-title: Setja upp tölvupóst með innihald sértækt fyrir skjöl | Microsoft Docs
+title: Senda skjöl og tölvupósta
 description: Þú getur skilgreint innihald til að setja inn í meginmál tölvupóstskeytis, til dæmis PayPal tengil. Þú getur líka sett skjöl í viðhengi tölvupóstskeyta.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,15 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063403"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435245"
 ---
 # <a name="send-documents-and-emails"></a>Senda skjöl og tölvupósta
-Auðvelt er að miðla upplýsingum og skjölum, svo sem sölu- og innkaupapöntunum og reikningum, með tölvupósti beint frá [!INCLUDE[prod_short](includes/prod_short.md)]], án þess að þurfa að opna tölvupóstforrit. 
+
+Auðvelt er að miðla upplýsingum og skjölum, svo sem sölu- og innkaupapöntunum og reikningum, með tölvupósti beint frá [!INCLUDE[prod_short](includes/prod_short.md)]], án þess að þurfa að opna tölvupóstforrit.  
 
 Hægt er að senda næstum allar tegundir skjala sem PDF-viðhengi. Að öðrum kosti er hægt að setja upp skýrsluútlit sem inniheldur upplýsingar úr skjalinu texta tölvupóstsins ásamt texta sem gerir tölvupóstinn vinalegri, t.d. hefðbundna kveðju. Frekari upplýsingar, sjá [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -25,12 +26,13 @@ Hægt er að senda næstum allar tegundir skjala sem PDF-viðhengi. Að öðrum 
 Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)] skal ræsa hjálparuppsetninguna **Setja upp tölvupóst**. Frekari upplýsingar eru í [Setja upp tölvupóst](admin-how-setup-email.md).
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)]] styður aðeins tölvupóstsamskipti á útleið. Ekki er hægt að taka einnig við svörum innan forritsins.
+> [!INCLUDE[prod_short](includes/prod_short.md)] styður aðeins tölvupóstsamskipti á útleið. Ekki er hægt að taka einnig við svörum innan forritsins.
 
 ## <a name="to-send-documents-by-email"></a>Að senda fylgiskjöl með tölvupósti
+
 Þetta ferli lýsir því hvernig hengja á bókaðan sölureikning við tölvupóst sem PDF-skjal og með texta um skjalið í tölvupóstinum. <!--update this-->
 
-1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðir sölureikningar** og velja síðan viðkomandi tengil.
 2. Velja skal reikninginn og síðan velja aðgerðina **Prenta/senda**.
 3. Í reitnum **Tölvupóstur** skal velja **Já (biðja um stillingar)**. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).
     
@@ -49,21 +51,27 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 > Ef þú vilt ekki tilgreina stillingar tölvupósts í hvert sinn sem skjal er sent í tölvupósti er hægt að velja **Já (nota sjálfgefnar stillingar)** valkostinn í **Tölvupóstur** reitnum á síðunni **Senda skjal til**. Í því tilfelli mun síðan **Senda tölvupóst** ekki opnast. Sjá skref 4. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Að setja saman og senda tölvupóst
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tölvupóstsreikningar** og veldu síðan tengda tengilinn.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tölvupóstsreikningar** og velja síðan viðkomandi tengil.
 2. Veljið reikninginn sem senda á tölvupóstinn frá og veljið síðan aðgerðina **Skrifa tölvupóst**.
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Skjöl sem eru merkt sem prentuð þegar þau eru send
+
 Sum skjöl í [!INCLUDE[prod_short](includes/prod_short.md)] eru með reit sem tilgreinir hversu oft skjalið hefur verið prentað. Talan í þeim reit <!--"that field?" need a name...--> er einnig uppfærð ef skjalið er sent með tölvupósti vegna þess að PDF-skjal er búið til fyrir hann. Talan er uppfærð þótt ekki sé sendur tölvupóstur. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## <a name="sent-emails-and-your-email-outbox"></a>Sendir tölvupóstar og úthólf tölvupóstsins
+
 [!INCLUDE[prod_short](includes/prod_short.md)] geymir tölvupóstana sem þú sendir á **Sendur póstur**. Það er til að leyfa þér að endursenda tölvupóst eða áframsenda þá til einhvers annars. Ef ekki er hægt að finna tölvupóst í sendum pósti skal leita að honum á síðunni **Úthólf tölvupósts**. 
 
 > [!NOTE]
 > Það fer eftir því hvaða viðbót fyrirtækið þitt notar fyrir tölvupóst hvernig stjórnendur geta séð lista yfir skilaboð sem allir hafa sent, en ekki innihald skilaboðanna
 
-Í **Úthólf tölvupósts** finnurðu tölvupóstana sem þú vistaðir sem drög og tölvupósta sem ekki tókst að senda, sem dæmi, ef netfangið var ógilt. Fyrir skilaboð sem ekki tókst að senda er hægt að velja **Sýna villu** eða **Rannsaka villu** til að úrræðaleita vandann.
+Í **Úthólf tölvupósts** finnurðu tölvupóstana sem þú vistaðir sem drög og tölvupósta sem ekki tókst að senda, sem dæmi, ef netfangið var ógilt. Fyrir skilaboð sem ekki tókst að senda er hægt að velja **Sýna villu** eða **Rannsaka villu** til að úrræðaleita vandann.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/set-up-email/)
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
 [Setja upp tölvupóst](admin-how-setup-email.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  

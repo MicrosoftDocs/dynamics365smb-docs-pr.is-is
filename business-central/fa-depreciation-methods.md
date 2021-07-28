@@ -1,6 +1,6 @@
 ---
 title: Afskriftaaðferðir fyrir eignir
-description: Kynntu þér mismunandi innbyggðar aðferðir til að afskrifa og niðurfæra eignir í sjálfgefinni útgáfu af Business Central.
+description: Kynntu þér mismunandi innbyggðar aðferðir til að afskrifa og niðurfæra eignir í sjálfgefinni útgáfu af Business Central sem felur í sér átta aðferðir.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774156"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343375"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Afskriftaaðferðir fyrir eignir
 
@@ -29,7 +29,7 @@ Tiltækar eru átta afskriftaaðferðir í sjálfgefinni útgáfu [!INCLUDE [pro
 * Notendaskilgreind  
 
   > [!NOTE]  
-  > Tilgreinið eigin afskriftaraðferð með því að skilgreina afskriftatöflur.
+  > Tilgreinið eigin afskriftaraðferð með því að skilgreina afskriftatöflur. Upplýsingar um notkun afskriftaaðferðar sem notandi skilgreinir er að finna í [Setja upp afskriftaaðferð sem notandi skilgreinir](fa-how-setup-user-defined-depreciation-method.md).
 * Handvirk  
 
   > [!NOTE]  
@@ -220,74 +220,6 @@ Reikningsaðferð:
     *Línuleg upphæð = 23.730,46/3 = 7.910,15=3.995,07+3.995,08*  
 
     Línulega upphæðin er notuð vegna þess að hún er hærri.  
-
-## <a name="user-defined-depreciation"></a>Notandaskilgreindar afskriftir
-
-Forritið hefur eiginleika sem gerir notanda kleift að skilgreina eigin afskriftaaðferðir.  
-
-Í aðferðinni sem notandi skilgreinir sjálfur eru færðar inn afskriftaprósentur fyrir hvert tímabil (mánuð, ársfjórðung, ár eða reikningstímabil) á síðunni **Afskriftatöflur**. Síðan, ef úthlutuð er afskriftabók með notandaskilgreindri aðferð á eign, þarf að stilla reitina **Fyrsta not.skilgr. afskr.dags.** og **Upphafsdags. afskrifta** á síðunni **Eignaafskriftabækur** fyrir tiltekna eign.  
-
-Reiknireglan fyrir útreikning á afskriftaupphæðum er:  
-
-*Afskriftaupphæð = (Beinlínu % x Fjöldi afskr.daga x Afskriftagrunnur) / (100 x 360)*  
-
-### <a name="depreciation-based-on-number-of-units"></a>Afskriftir miðaðar við fjölda eininga
-
-Notandaskilgreindu aðferðina má einnig nota til að afskrifa eftir fjölda eininga, til dæmis vélar sem hafa þekkta framleiðslugetu. Á síðunni **Afskriftatöflu** er hægt að færa inn fjölda eininga sem hægt er að framleiða á hverju tímabili mánuði, ársfjórðungi, ári eða reikningstímabili.  
-
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Uppsetning afskriftaaðferða sem notandi skilgreinir
-
-Á síðunni **Afskriftatöfluspjald** er hægt að setja upp notendaskilgreinda afskriftaaðferðir. Til dæmis er hægt að setja upp afskriftir sem byggjast á fjölda eininga.  
-
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftartöflur** og veldu síðan tengda tengilinn.  
-2. Á síðunni **listi yfir afskriftartöflur** skal velja aðgerðina **Nýtt**.  
-3. Á síðunni **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!TIP]
-> Nota skal aðgerðina **Stofna töflu fyrir samtölu talna** til að skilgreina afskriftatöflu sem byggir á aðferðinni *Samtala talna*.
-
-Með aðferðinni *Samtala talna*, ef föst eign er afskrifuð á fjórum árum verða afskriftir fyrir hvert ár reiknaðar svona:
-
-Samtala talna = 1 + 2 + 3 + 4 = 10 Afskrift:
-
-* Ár 1 = 4/10  
-* Ár 2 = 3/10  
-* Ár 3 = 2/10  
-* Ár 4 = 1/10  
-
-### <a name="example---user-defined-depreciation"></a>Dæmi - Notandaskilgreindar afskriftaraðferð
-
-Notuð er afskriftaaðferð sem gerir kleift að afskrifa eignir hraðar vegna tekjuskatts.  
-
-Eftirfarandi afskriftaaðferð er notuð á eign með þriggja ára líftíma vegna skatta.  
-
-* 1. ár: 25%  
-* 2. ár: 38%  
-* 3. ár: 37%  
-
-Stofnkostnaðurinn er SGM 100.000 og afskrifanlegur líftími er fimm ár. Afskriftir eru reiknaðar árlega.  
-
-| Dagsetning | Eignabókunartegund | Dagar | Upphæð | Bókfært virði |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Stofnkostnaður |(Upphafsdagsetning afskrifta) |100,000.00 |100,000.00 |
-| 12/31/20 |Afskrift |360 |-25.000,00 |75,000.00 |
-| 12/31/21 |Afskrift |360 |-38.000,00 |37,000.00 |
-| 12/31/22 |Afskrift |360 |-37.000,00 |0 |
-| 12/31/23 |Afskrift |Engin |Engin |0 |
-| 12/31/24 |Afskrift |Engin |Engin |0 |
-
-Ef notuð er notandaskilgreind aðferð er notuð þarf að fylla út reitina **Fyrsta not.skilgr. afskr.dags.** og **Upphafsdags. afskrifta** á síðunni **Eignaafskriftabækur** fyrir tilteknar eignir. Reiturinn **Fyrsta not.skilgr. afskr.dags.** og innihald reitsins **Lengd tímabils** á síðunni **Afskriftatöflur** er notað til að ákvarða tímabilin sem á að nota í útreikningum á afskriftum. Þetta tryggir að forritið byrji að nota tilgreinda prósentutölu sama dag fyrir allar eignir. Reiturinn **Upphafsdags. afskrifta** er notaður til að reikna fjölda afskriftardaga.  
-
-Í fyrra dæminu yrðu báðir reitirnir **Fyrsta not.skilgr. afskr.dags.** og **Upphafsdags. afskrifta** stilltir á 01/01/20 á síðunni **Eignaafskriftabækur** fyrir tiltekna eign. Ef í reitnum **Fyrsta not.skilgr. afskr.dags.** er þó 01/01/20 og í reitnum **Upphafsdags. afskriftar** er 01/04/20 yrði útkoman:  
-
-| Dagsetning | Eignabókunartegund | Dagar | Upphæð | Bókfært virði |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Stofnkostnaður |(Upphafsdagsetning afskrifta) |100,000.00 |100,000.00 |
-| 12/31/20 |Afskrift |270 |-18.750,00 |81,250.00 |
-| 12/31/21 |Afskrift |360 |-38.000,00 |42,250.00 |
-| 12/31/22 |Afskrift |360 |-37.000,00 |6,250.00 |
-| 12/31/23 |Afskrift |90 |-6.250,00 |0 |
-| 12/31/24 |Afskrift |Engin |Engin |0 |
 
 ## <a name="half-year-convention-depreciation"></a>Hálfsársafskrift
 

@@ -1,6 +1,6 @@
 ---
-title: Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir | Microsoft Docs
-description: Samsetningarvörur er hægt að veita annað hvort með því að setja þær saman í pöntun eða setja þær saman í birgðir til að geyma þar til þeirra er óskað í sölupöntun.
+title: Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
+description: Samsetningarvörur er hægt að veita með því að setja þær saman í pöntun eða setja þær saman í birgðir til að geyma þar til þeirra er óskað í sölupöntun.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 80164400380a600674061349b873e5d1159d2cb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: deaefbebf1520bc936c078ff7f74b18c34de4d89
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773030"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326339"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
 Samsetningarvörur geta verið veittar í eftirfarandi tvo ferla:  

@@ -7,15 +7,15 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: 9c015d60d0f34b35b12e0a39ca8d2b99c6e09848
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: b5df66798db4a77504176d03bd46156d5d99fc56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773180"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326539"
 ---
-# <a name="classifying-data-sensitivity"></a>Flokkun á gagnatrúnaði
+# <a name="classifying-data-sensitivity-fields"></a>Reitir fyrir flokkun gagnatrúnaðar
 Til að flokka reiti sem innihalda viðkvæm eða persónuleg gögn getur Microsoft samstarfsaðili stillt eiginleikann ```DataClassification``` á reitum. Þetta krefst aðgangs að gagnagrunnstöflum, annaðhvort í gegnum þróunarumhverfið eða með því að keyra Windows PowerShell forskrift. Nánari upplýsingar eru í [Flokkun gagna](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Sem viðskiptavinur getur þú bætt við öðru stigi flokkunar með því að tilgreina trúnaðarstig gagnanna sem þú geymir í stöðluðum og sérsniðnum reitum. Flokkun gagnatrúnaðar hjálpar til við að tryggja að þú veist hvar þú geymir persónuleg gögn í kerfinu þínu og auðveldar þér að svara beiðnum frá viðföngum gagnanna. Til dæmis, ef tengiliður eða viðskiptavinur biður þig um að flytja út persónuupplýsingar hans. Nánari upplýsingar eru í [Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md).

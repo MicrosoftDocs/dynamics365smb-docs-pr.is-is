@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe164e6e71756ee56990610bc6c6cb0557ad2c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 01710b23c56634b91b86f3f1c6e6c87415a787c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785849"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435598"
 ---
 # <a name="revalue-inventory"></a>Endurmat birgða
 Ef endurmeta á til hækkunar eða lækkunar birgðavirði vöru eða tiltekinnar færslu vegna vöru verður að nota endurmatsbókina.
 
 ## <a name="to-revalue-inventory"></a>Að endurmeta birgðir
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Endurmatsbók** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurmatsbók** og velja síðan viðkomandi tengil.
 2. Veljið aðgerðina **Reikna út birgðavirði**.
 3. Á síðunni **Reikna út birgðavirði** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velja hnappinn **Í lagi**.

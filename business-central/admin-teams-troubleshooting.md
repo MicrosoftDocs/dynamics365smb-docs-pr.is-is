@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: a26414ae33b0139257c542966ba9ccd934241a66
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017125"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341304"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -154,7 +154,10 @@ Sem kerfisstjóri, eru með Azure Active Directory stjórnandaheimildir, og getu
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  
+[Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams](across-search-contacts-teams.md)  
+[Deila færslum í Microsoft Teams](across-working-with-teams.md)  
 [Teams - Algengar spurningar](teams-faq.md)  
+[Breyta fyrirtæki og aðrar stillingar í Teams](across-teams-settings.md)  
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

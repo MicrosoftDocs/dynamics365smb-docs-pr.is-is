@@ -1,0 +1,2 @@
+> [!TIP]
+> **Hvað með skýrslur?** Þú getur flutt niðurstöður skýrslunnar út í Excel-skrá til að skoða allt gagnasafnið, þar með talið alla dálkana. Excel-skráin getur hjálpað til við að staðfesta að skýrslan skili þeim gögnum sem til er ætlast. Til að flytja út skýrslu skal keyra skýrsluna og velja **Senda til** > **Microsoft Excel skjalið (aðeins gögn)** á beiðnisíðunni. Frekari upplýsingar er að finna í [Unnið með skýrslur - Senda í Excel](../ui-work-report.md#send-to-excel).

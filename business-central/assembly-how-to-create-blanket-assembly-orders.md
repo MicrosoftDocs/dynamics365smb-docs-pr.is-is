@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e96cf7edd4a2080b92c88215f67e93bc4e0f7f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a62d2b1d84d1139a0e5472d8e95f1c87f13bfa6c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772980"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435470"
 ---
 # <a name="create-blanket-assembly-orders"></a>Búa til standandi samsetningarpantanir
 Hægt er að nota samsetningarstjórnun til að sérsníða samsetningaríhlut eftir beiðni viðskiptavinar á meðan söluferlinu stendur. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ Hægt er að nota samsetningarstjórnun til að sérsníða samsetningaríhlut e
 >  Eins og allar standandi pantanir er magn í standandi samsetningarpöntunum aðeins spár og er ekki tilbúið fyrr en þeim er breytt í raunverulegar samsetningarpantanir. Þess vegna eru pöntunaraðgerðir, eins og útreikningur á tiltæku magni, frátektir og vörurakning, ekki virkar á standandi samsetningarpöntunum.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Til að stofna standandi samsetningarpöntun fyrir samsetningu\-í\-vörupöntun  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Standandi sölupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Standandi sölupantanir** og velja síðan viðkomandi tengil.  
 2. Stofna nýja standandi sölupöntun með eina línu fyrir samsetningu vöru. Frekari upplýsingar eru í [Stofna standandi sölupantanir](sales-how-to-create-blanket-sales-orders.md).  
 3. Í reitnum **Magn sem setja á saman í pöntun** í standandi samsetningarpöntunarlínu skal slá inn heildarmagn.
 

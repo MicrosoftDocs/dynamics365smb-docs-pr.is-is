@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að selja vörur sem eru settar saman í pöntun | Microsoft Docs
-description: Ef varan er settu upp til samsetningar til pöntunar er ekki gert ráð fyrir því að varan sé í birgðum og þá þarf að setja hana saman fyrir þessa sölupöntun. Þegar varan er sett inn í sölupöntunarlínu er samsetningarpöntun síðan búin til sjálfkrafa og tengd við sölupöntunina.
+title: Hvernig á að selja hluti sem eru settir saman í pöntun
+description: Ef varan er settu upp til samsetningar til pöntunar er ekki gert ráð fyrir því að varan sé í birgðum og þá þarf að setja hana saman fyrir þessa sölupöntun.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 92a1faa77132e4f26c1999411f6d8304c24dd8f7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34e869166ed3b556a91ba6c0793c60455cebfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772905"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435371"
 ---
 # <a name="sell-items-assembled-to-order"></a>Selja hluti sem eru settir saman í pöntun
 Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvörunnar er **Samsetning til pöntunar** er ekki gert ráð fyrir því að varan sé í birgðum og þá þarf að setja hana saman fyrir þessa sölupöntun. Þegar varan er sett inn í sölupöntunarlínu er samsetningarpöntun síðan búin til sjálfkrafa og tengd við sölupöntunina.  
@@ -29,7 +29,7 @@ Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvörunnar er *
 >  Eftirfarandi ferli inniheldur ekki stöðluðu sölupöntunarskrefin fyrir skrefið þegar birgðir sem settar eru saman í pöntun eru færðar inn í sölupöntunarlínu.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Til að selja vöru sem er sett saman í pöntun  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2.  Stofnið sölupöntun. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).  
 3.  Í reitnum **númer** færið inn vöru sem stillt eru til að setja saman í pöntun.  
 4.  Í reitnum **Kóti birgðageymslu** er tilgreind sú birgðageymsla sem varan mun verða seld frá. Samsetningarferlið fer fram í þeirri birgðageymslu.  

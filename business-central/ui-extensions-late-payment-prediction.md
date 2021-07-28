@@ -1,6 +1,6 @@
 ---
-title: Spá fyrir um seinkun á greiðslu fyrir söluskjöl | Microsoft Docs
-description: Notaðu spálíkan okkar til að spá fyrir um hvort reikningur verði greiddur á réttum tíma.
+title: Spá fyrir um seinkun á greiðslu fyrir söluskjöl
+description: Þetta efnisatriði útskýrir hvernig á að nota spálíkanið okkar til að spá fyrir um hvort reikningur verði greiddur á réttum tíma.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787353"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434909"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Viðbót greiðsludráttarspár  
 Árangursrík stjórnun viðskiptakrafna er mikilvæg fyrir heildar fjárhagslega heilsu fyrirtækis. Viðbót greiðsludráttarspár getur hjálpað þér að draga úr útistandandi kröfum og fínstilla stefnu sjóðsins með því að spá fyrir um hvort sölureikningar verði greiddar á réttum tíma. Til dæmis, ef spá telur greiðsla vera sein, gætir þú ákveðið að lagfæra skilmála greiðslu eða greiðslumáta fyrir viðskiptamanninn.
@@ -26,7 +26,7 @@ ms.locfileid: "5787353"
 
 Til að virkja viðbótina handvirkt skaltu fylgja þessum skrefum:
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning greiðsludráttarspár** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning á spám fyrir greiðsludrátt** og velja síðan viðkomandi tengil.  
 2. Fyllið inn reitina eftir þörfum.
 
 > [!Note]
@@ -91,7 +91,7 @@ Ef svo virðist sem ferli notanda stemmi ekki við staðlaða líkanið er samt 
 [!INCLUDE[prod_short](includes/prod_short.md)] keyrir þjálfun og mat sjálfkrafa þegar nógu margir greiddir reikningar og seinir reikningar eru í boði, en þú getur hins vegar keyrt þetta handvirkt hvenær sem þú vilt.
 
 #### <a name="to-train-and-use-your-model"></a>Að þjálfa og nota líkanið
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning greiðsludráttarspár** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning á spám fyrir greiðsludrátt** og velja síðan viðkomandi tengil.  
 2. Í **Valið líkan** reitinn, veldu **Mitt líkan**.
 3. Veldu aðgerðina **Búa til líkanið mitt** til að þjálfa líkan í gögnunum þínum.  
 
@@ -103,7 +103,7 @@ Ef svo virðist sem ferli notanda stemmi ekki við staðlaða líkanið er samt 
 3. Nota á reikninginn í Microsoft að undirrita fyrir workspace er og afrita síðan líkaninu sem.  
 4. Keyrslan líkaninu og út og þjónustu veftengingar.  
 5. Gera API URL og API lykillinn athugasemd. Þú munt nota þessi skilríki fyrir sjóðstreymisuppsetningu.  
-6. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning greiðsludráttarspár** og veldu síðan tengda tengilinn.  
+6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning á spám fyrir greiðsludrátt** og velja síðan viðkomandi tengil.  
 7. Veldu **Nota Azure-áskriftina mína** gátreitinn.
 8. Í **Innskráningarupplýsingar fyrir líkanið mitt** flýtiflipanum, sláðu inn API slóðina og API lykil fyrir líkanið.  .  
 

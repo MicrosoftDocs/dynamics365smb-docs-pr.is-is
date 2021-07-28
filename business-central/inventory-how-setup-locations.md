@@ -1,6 +1,6 @@
 ---
 title: Uppsetning staðsetningarspjalds og skilgreining flutningsleiða
-description: Þú býrð til staðsetningarspjald fyrir hvern stað sem birgðavara er geymd á, til dæmis vöruhús eða dreifingarmiðstöð, og setur upp leiðir til að flytja vörur á milli staða.
+description: Ef vörur eru keyptar, geymdar eða seldar á fleiri en einum stað eða vöruhúsi þarf að setja hverja staðsetningu upp með staðsetningarspjaldi og skilgreina flutningsleiðir.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 06/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0319f0c64dd46610aa82705257091bd9478ac14f
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: d22bbea911bed7e1ea3c756e0861111a26b5df0a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184325"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435573"
 ---
 # <a name="set-up-locations"></a>Uppsetning birgðageymsla
 
@@ -38,8 +38,8 @@ Veldu **Svæði** eða **Hólf** aðgerðin til að skoða upplýsingar um svæ�
 
 ### <a name="to-create-a-location-card"></a>Staðsetningarspjald búið til
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
-2. Valið er **Nýtt** aðgerð.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.
+2. Valið er aðgerðin **Nýtt**.
 3. Á síðunni **Staðsetningarspjald** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Endurtakið skref 2 og 3 fyrir hverja staðsetningu þar sem á að halda utan um birgðir.
 
@@ -52,7 +52,7 @@ Hægt er að breyta uppsetningu staðsetninga síðar en ekki er hægt að breyt
 
 ### <a name="to-create-a-transfer-route"></a>Flutningsleið búin til
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Flutningsleiðir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningsleiðir** og velja síðan viðkomandi tengil.
 2. Að öðrum kosti, frá hvaða síðu **Staðsetningarspjalds** sem er má velja aðgerðina **Flutningsleiðir**.
 3. Valið er **Nýtt** aðgerð.
 4. Á síðunni **Staðsetningarspjald** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

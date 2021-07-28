@@ -1,6 +1,6 @@
 ---
-title: Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum
-description: Á síðunni fyrir greiðslujöfnunarreglur eru settar upp reglur til að stjórna því hvernig greiðslur/bankafærslur eiga að vera sjálfkrafa jafnaðar við tengdar opnar fjárhagsfærslur þegar þú notar aðgerðina Notað sjálfkrafa á síðunni Greiðsluafstemmingarbók.
+title: Reglur fyrir sjálfvirka jöfnun á greiðslum
+description: Lestu um hvernig á að setja upp reglur fyrir sjálfvirka jöfnun greiðslna á síðu greiðslujöfnunarreglu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 57f9fa038c8631db87d03d9054dcf8a17a874345
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778973"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435060"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum
 
@@ -40,7 +40,7 @@ Auk jöfnunarskilyrðanna í töflunni gildir eftirfarandi um merki greiðsluupp
 - Fyrir plústölur er fyrst jafnað við opnar færslur sem tákna reikning lánardrottins og svo við kreditreikninga viðskiptamanns.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Til að setja upp greiðslujafnanarreglu
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslujöfnunarreglur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Reglur um greiðslujöfnun** og velja síðan viðkomandi tengil.
 2. Skilgreina skal nýja eða breytta greiðslujöfnunarreglu með því að fylla inn í reitina í línu eins og lýst er í eftirfarandi töflu.
 
 |Svæði|Description|

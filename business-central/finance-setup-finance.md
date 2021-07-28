@@ -1,6 +1,6 @@
 ---
-title: Setja upp fjármálaferli| Microsoft Docs
-description: Kynntu þér verkhlutana í því að setja upp fjármál í fyrirtækinu sem hentar öllum þínum þörfum tengdum bókhaldi, endurskoðun eða bókunum.
+title: Setja upp fjárhagsferli
+description: Kynntu þér verkin sem þarf að gera til að setja upp fjármál í fyrirtækinu sem hentar öllum þínum þörfum tengdum bókhaldi, endurskoðun eða bókunum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f93eaa38b07a5135aafa22b21253d1e99a8d0406
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d2763e42ae6c31a4f631457ea16b6a5bdcad40db
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788103"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327014"
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
 Áður en þú getur byrjað að reka fyrirtækið þitt verður þú að tilgreina reglur og sjálfgefin gildi fyrir það hvernig stjórna á fjárhagsferlum fyrir fyrirtækið. Fyrsta skrefið er að setja upp kjarna bókhaldsskráningar fyrirtækisins - bókhaldslyklana. Síðan eru settir upp bókunarflokkar, sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.

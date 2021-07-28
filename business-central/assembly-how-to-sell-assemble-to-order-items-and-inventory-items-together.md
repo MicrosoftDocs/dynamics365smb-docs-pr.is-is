@@ -1,6 +1,6 @@
 ---
-title: Selja samsetningarpöntunarvörur og birgðavörur saman | Microsoft Docs
-description: Ef samsetningarvara er sett upp fyrir samsetningu á lager gerir sjálfgefna sölupöntunarvinnslan ráð fyrir því að varan sé nú þegar samsett og að tína megi hana úr birgðum ef hún er til ráðstöfunar. Ef hluti magnsins (eða allt magnið) er ekki tiltækt er hægt að stofna samsetningarpöntun fyrir eftirstandandi magn á fljótlegan hátt.
+title: Selja vörur sem eru settar saman í pöntun og birgðavörur saman
+description: Ef hluti uppsetningar á samsettri vöru fyrir samsetningu lagers er ekki tiltækur, ertu með sveigjanleikann til að búa til samsetningarpöntun fyrir eftirstöðvarnar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 123d4613d042d9c3f7f863e7cd98b45c84a368ad
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 08b7d36eb7cace9b70f5b58a387907ecb54f39e8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772930"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326302"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selja vörur sem eru settar saman í pöntun og birgðavörur saman
 Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvöru inniheldur **Setja saman í lager** gerir sjálfgefna sölupöntunarvinnslan ráð fyrir því að varan sé nú þegar samsett og að tína megi hana úr birgðum ef hún er til ráðstöfunar. Því er engin samsetningarpöntun búin til sjálfkrafa og tengd við sölupöntunarlínuna. Ef hluti magnsins eða allt magnið er ekki tiltækt er hægt að stofna samsetningarpöntun fyrir eftirstandandi magn með því að fylla út í reitinn **Magn til samsetningar til pöntunar** í sölupöntunarlínunni. Með þeim hætti er hægt að setja saman vöru til pöntunar jafnvel þótt hún sé sjálfgefið uppsett til að vera sett saman í birgðir.  

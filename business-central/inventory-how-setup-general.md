@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1430123f433cfc101e0ae94ce0598d9c0cdd58b2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785824"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435623"
 ---
 # <a name="set-up-general-inventory-information"></a>Setja upp almennar birgðaupplýsingar
 
@@ -23,7 +23,7 @@ Almennar birgðaupplýsingar eru tilgreindar á síðunni **Birgðagrunnur**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Til að setja upp almennar birgðaupplýsingar
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðauppsetning** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.
 2. Á síðunni **Birgðagrunnur** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Ítarlegar upplýsingar um kostnaðarreitina **Sjálfvirk kostnaðarbókun** og **Væntanleg kostnaðarbókun á fjárhag** og **Sjálfgefin aðferð kostnaðarútreiknings** er að finna í [Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md) og [Hönnunarupplýsingar: Væntanleg kostnaðarfærsla](design-details-expected-cost-posting.md). Frekari upplýsingar um almennan kostnaðarútreikning er að finna í [Stjórnun birgðakostnaðar](finance-manage-inventory-costs.md).  

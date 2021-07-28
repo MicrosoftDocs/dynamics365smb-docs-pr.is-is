@@ -1,6 +1,6 @@
 ---
-title: Stofna birgðaspjald fyrir vörur eða þjónustu| Microsoft Docs
-description: Þú býrð til spjöld fyrir þjónustu sem þú selur sem klukkutíma og fyrir efnislegar vörur eins og t.d. samsetningaríhlutir, fullunnar vörur eða hráefni sem þú selur úr birgðum.
+title: Stofna birgðaspjald fyrir vörur eða þjónustu
+description: Þú býrð til spjöld fyrir þjónustu sem þú selur sem klukkutíma og fyrir efnislegar vörur eins og t.d. samsetningaríhlutir, fullunnar vörur sem þú selur úr birgðum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8948024ea1dc0bbbdbd6f2a2262e2616b35671e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785874"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435644"
 ---
 # <a name="register-new-items"></a>Skrá nýjar vörur
 
@@ -40,7 +40,7 @@ Eftirfarandi ferli skýrir hvernig á að búa til birgðaspjald frá grunni. Ei
 
 ## <a name="to-create-a-new-item-card"></a>Að búa til nýtt vöruspjald
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Vörur** skal velja aðgerðina **Nýtt**.
 
     Ef aðeins eitt vörusniðmát er fyrir hendi, opnast nýtt birgðaspjald með suma af reitunum útfyllta með upplýsingum úr sniðmátinu.
@@ -77,7 +77,7 @@ Ef skrá á vörur sem eru svo notaðar í framleiðslupöntunum er áfyllingark
 
 Ef sama varan er keypt frá fleiri en einum lánardrottni þarf að færa inn upplýsingar um hvern lánardrottinn eins og verð, afhendingartími, afsláttur o.s.frv.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Velja skal viðeigandi vöru og síðan aðgerðina **Breyta**.  
 3. Veljið **Lánardrottinn** aðgerðina.  
 4. Velja reitinn **Nr. lánardrottins** og síðan velja þann lánardrottinn sem setja á upp fyrir vöruna.  
@@ -100,6 +100,12 @@ Ef þú hefur bókað færslu fyrir vöru er ekki hægt að eyða spjaldinu þar
 
 Ef fyrirtækið setur síðar upp vöruhúsastjórnun skal í flestum tilfellum fara aftur í hverja fyrirliggjandi vöru til að ganga úr skugga um að þær séu með réttar upplýsingar í hinum ýmsu reitum svo hægt sé að keyra vöruhúsakerfisferla eins og vænst er. Þessar upplýsingar geta falið í sér reiti á borð við **Kóði vöruhúsaflokks** eða **Kóði frágangssniðmáts**. Nánari upplýsingar eru í [Upplýsingar um hönnun: Uppsetning vöruhúss](design-details-warehouse-setup.md).  
 
+## <a name="planning"></a>Áætlun
+
+Þegar fyrirtækið þitt notar viðkomandi verkferla við áætlun framboðs í [!INCLUDE [prod_short](includes/prod_short.md)] þarf að fylla út í viðkomandi reiti í flýtiflipanum **Áætlanagerð**. Fyrir kynningu á svæði áætlunar skal skoða [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md).  
+
+Til að sjá dæmi um hvernig hægt er að nota reitina í flýtiflipanum **Áætlanagerð** skal skoða [Uppsetning bestu venja: Færibreytur áætlanagerðar](setup-best-practices-planning-parameters.md).  
+
 ## <a name="see-also"></a>Sjá einnig
 
 [Birgðir](inventory-manage-inventory.md)  
@@ -110,6 +116,12 @@ Ef fyrirtækið setur síðar upp vöruhúsastjórnun skal í flestum tilfellum 
 [Uppsetning bókunarflokka](finance-posting-groups.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
+[Um áætlunaraðgerðir](production-about-planning-functionality.md)  
+[Uppsetning bestu venjur: Áætla færibreytur](setup-best-practices-planning-parameters.md)  
+[Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
+[Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
+[Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  
+[Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

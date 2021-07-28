@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c7f30b26c05be77fd8c601635c58399198e2f595
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785749"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435548"
 ---
 # <a name="set-up-units-of-measure"></a>Setja upp mælieiningar
 
@@ -30,7 +30,7 @@ Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er 
 
 ## <a name="to-set-up-units-of-measure"></a>Til að setja upp mælieiningarkóða
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Mælieiningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Mælieiningar** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**. Ný auð lína er sett inn.  
 3. Reitirnir eru fylltir út. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Ef þú veist að fyrirtækið þitt ætlar að selja vörur með þessari mælieiningu til viðskiptavina í öðrum löndum er hægt að bæta við þýðingum.  
@@ -43,7 +43,7 @@ Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er 
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>Hvernig á að setja upp margar mælieiningar vara
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.
 2. Opna spjald vörunnar sem á að setja upp aðra mælieiningu fyrir.
 3. Veldu **Mælieining**. Síðan **Mælieiningar vöru** opnast.
 4. Ef reiturinn **Grunneining mælingareits** á birgðaspjaldinu er fylltur út, hefur sú mælieining þegar verið sett upp.
@@ -63,7 +63,7 @@ Nú getur þú notað aðrar mælieiningar fyrir fylgiskjöl innkaupa, framleið
 
 Þegar selt er til erlendra viðskiptavina er hægt að tilgreina mælieininguna á viðeigandi tungumáli. Þetta er hægt að gera þegar búið er að setja upp nauðsynlega mælieiningatexta.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Mælieiningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Mælieiningar** og velja síðan viðkomandi tengil.
 2. Velja þarf tungumálakóðann sem setja á upp þýðingar fyrir og svo aðgerðina **Þýðingar**.
 3. Í reitnum **Tungumálskóti** er felliörin valin til að skoða lista yfir tiltæka tungumálakóta. Valinn er sá tungumálskóti sem setja á inn þýðingu fyrir og síðan er smellt á Í lagi til að afrita kótann í reitinn.
 4. Í reitinn **Lýsing** er færður inn viðeigandi texti.
@@ -73,7 +73,7 @@ Nú getur þú notað aðrar mælieiningar fyrir fylgiskjöl innkaupa, framleið
 
 Ef venjulega er keypt eða selt í einingum sem eru aðrar en grunnmælieiningin er hægt að tilgreina sérstakar mælieiningar fyrir innkaup og sölu. Ef gera á þetta verða mælieiningar að vera uppsettar á síðunni **Mælieiningar vöru**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.
 2. Opna viðeigandi birgðaspjaldi þar sem á að tilgreina sjálfgefinn mælieiningarkóða fyrir sölu- eða innkaupaeiningu.
 3. Fyrir sölu, á flýtiflipanum **Reikningsfærsla**, í reitnum **Sölumælieining** er síðan **Mælieiningar vöru** opnuð.
 4. Fyrir innkaup, á flýtiflipanum **Áfylling**, í reitnum **Innkaupamælieining** er síðan **Mælieiningar vöru** opnuð.

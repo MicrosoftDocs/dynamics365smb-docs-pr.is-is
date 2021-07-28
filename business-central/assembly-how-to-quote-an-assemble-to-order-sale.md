@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 817699281ce0f3b7d057bb2e9ce4d85f97d67b48
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cd85a880bada8cc9e3ee2ce924919f06f0c5109c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772955"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435445"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Búa til tilboð með samsetningarpöntun
 Hægt er að nota samsetningarstjórnun til að sérsníða samsetningaríhlut eftir beiðni viðskiptavinar á meðan söluferlinu stendur. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ Eins og þegar seld er hvers kyns önnur tegund af vöru, er einnig hægt að st
 >  Eins og allar gerðir á tilboðum er magn samsetningartilboða ekki notað til ráðstöfunar, í áætlun eða frátekt.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Til að stofna sölutilboð fyrir vöru sem setja skal saman í pöntun  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölutilboð** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölutilboð** og velja síðan viðkomandi tengil.  
 2.  Stofna nýja sölupöntunarlínu með eina línu fyrir samsetningaríhlut. Frekari upplýsingar er að finna í [Búa til sölutilboð](sales-how-make-offers.md).  
 3.  Í reitnum **Magn til samsetningar til pöntunar** skal færa inn fullt magn.
 
