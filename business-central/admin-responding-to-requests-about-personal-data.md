@@ -1,21 +1,21 @@
 ---
 title: Svara beiðnum um persónuleg gögn
-description: Þú verður að bregðast við beiðnum skráðra aðila.
+description: Í þessu efnisatriði er sagt frá því hvernig á að svara beiðnum um persónuupplýsingar. Þetta er þekkt sem beiðni skráðs einstaklings.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: b7762f9da2a6e3acfbd57a4b5af4806ead710c9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777382"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321963"
 ---
-# <a name="responding-to-requests-about-personal-data"></a>Svara beiðnum um persónuleg gögn  
+# <a name="responding-to-requests-about-users-personal-data"></a>Svara beiðnum um persónuleg gögn notanda  
 Skráðir aðilar geta óskað eftir nokkrum tegundum aðgerða varðandi persónuupplýsingar þeirra. Til dæmis, samkvæmt almennu persónuverndarreglugerðinni (GDPR), hafa íbúar ESB rétt til að óska eftir útflutningi, eyðingu og breytingu á persónuupplýsingum sínum. Þetta er þekkt sem *Beiðni skráðs einstaklings*. Ef þú hefur flokkað trúnað gagna og ert viss um að þau séu rétt getur kerfisstjóri brugðist við beiðnum með því að nota valkostina undir **Gagnavernd** flipann í **Tæknistjóri** í Mínu hlutverki. Nánari upplýsingar um gagnaflokkun og flokkun á gagnatrúnaði í [!INCLUDE[prod_long](includes/prod_long.md)] er að finna í [Gagnaflokkun](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Flokkun á gagnatrúnaði](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Tegundir beiðna

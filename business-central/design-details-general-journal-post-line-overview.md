@@ -1,6 +1,6 @@
 ---
-title: Yfirlit bókunarlínu færslubókar | Microsoft Docs
-description: Þetta efnisatriði fjallar um breytingar á Kóðaeining 12, **Bókunarlína fjárhags**, sem er helsti forritahluti bókana í fjárhag og er eini staðurinn þar sem færslur í fjárhag, VSK, viðskiptamenn og lánardrottna eru settar inn.
+title: Yfirlit bókunarlínu færslubókar
+description: Í þessu efnisatriði eru breytingar á kóðaeiningu 12 kynntar. Bókunarlína fjárhags, og er eini staðurinn til að setja inn færslur fjárhags, VSK, viðskiptavinar og lánardrottins.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 9642c33d9d5994c6982029e4ae96897a7648b8c8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215254"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322473"
 ---
 # <a name="general-journal-post-line-overview"></a>Yfirlit bókunarlínu færslubókar
 

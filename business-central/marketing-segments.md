@@ -1,6 +1,6 @@
 ---
-title: Umsjón hluta og val á tilteknum tengiliðum| Microsoft Docs
-description: Útskýrir hvernig skal stofna hluta til að velja tiltekinn hóp tengiliða út frá sérstökum forsendum, t.d. tengiliðir sem tilheyra tilteknum iðnaði sem þú vilt ná sambandi við.
+title: Umsjón hluta og val á tengiliðum
+description: Þetta efnisatriði lýsir því hvernig á að búa til hluta með því að velja hóp tengiliða í samræmi við tiltekin skilyrði til að miða síðar á þann hluta með söluherferð.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 04034f51379874f9d8755b229ef4b251af0be37e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784418"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323594"
 ---
 # <a name="managing-segments"></a>Umsjón hluta
 Hlutar eru stofnaðir til að velja hóp tengiliða í út frá tilteknum forsendum. Til dæmis getur hluti verið starfsgreinin sem tengiliðirnir tilheyra eða viðskiptatengsl við tengiliðina. Hægt er að stofna hluta til að velja tengiliðina sem miða á herferð á.

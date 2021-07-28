@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir umsjónarverkhluta sölu | Microsoft Docs
-description: Lýsir því hvernig sölurverkþættir er stjórnað.
+title: Yfirlit yfir umsjónarverkhluta sölu
+description: Lestu allt um hvernig á að nota þjónustu Business Central til að hafa umsjón með sölustarfsemi með viðskiptavinum þínum með sölureikningum, pöntunum, tilboðum og fleiru.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8c80cbbc4ed4feb088116577157407dd8fb98aaf
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 376e2af791a8e9e37b72b27d7f4fcfbe8d9a654b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935012"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321992"
 ---
-# <a name="sales"></a>Sala
+# <a name="sales"></a>Sölur
 Búinn er til sölureikningur eða sölupöntun til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.
 
 Sölupantanir þarf að nota ef söluferlið krefst þess að hægt að afhenda hluta magns pöntunar, til dæmis þar sem allt magnið er ekki tiltækt í einu. Ef vara er seld með því að afhenda beint frá lánardrottni til viðskiptamanns, sem bein sending þarf að einnig nota sölupantanir. Frá öllum sjónarhornum séð virka sölupantanir á sama hátt og sölureikningar. Með sölupöntunum, geturðu líka notað aðgerðina Pöntun lofað til að koma til skila ákveðnum afhendingardagsetningum til viðskiptamanna þinna.  

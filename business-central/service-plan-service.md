@@ -1,6 +1,6 @@
 ---
-title: Áætla þjónustuferli | Microsoft Docs
-description: Útskýrir verkhluta sem felur í sér uppsetningu á reglum og gildum til skilgreiningar á þjónustustefnu og þjónustuferlum.
+title: Áætlun þjónustuferla
+description: Þetta efnisatriði útskýrir ýmis verk sem fela í sér uppsetningu á reglum og gildum til að skilgreina þjónustustefnur og þjónustuferla.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: eaf6f55e807ef9630d9e8f50c71676e86c296b8d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 93dfc313521d392b3585eac4aacab3c152a43c78
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778173"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323003"
 ---
 # <a name="planning-services"></a>Áætla þjónustu
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að setja upp staðlaða verkhluta sem þarf til að uppfylla þjónustuþarfir fyrirtækisins. Til að gera þetta, verður að ákveða hvaða þjónustuvöru og tilboð þjónustufyrirtæki þitt styður og fyrir hvaða verð.   

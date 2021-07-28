@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - Áætlunartafla fyrir úthlutun | Microsoft Docs
-description: Þetta efnisatriði veitir innsýn í hvað gerist þegar því hvernig vörur eru áætlaðar er breytt.
+title: Hönnunarupplýsingar - áætlunartafla
+description: Þetta efnisatriði veitir innsýn í hvað gerist þegar breyting á mynstri eftirspurnar eða framboðs krefst þess að þú reiknir út hvernig þú skipuleggur vöru.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 621e747cbdf4b7ba19ad900c4c91eb3edfd8480f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cdd16d0f3143701ca53125ef74f91ae5bd143f1c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770889"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321596"
 ---
 # <a name="design-details-planning-assignment-table"></a>Hönnunarupplýsingar: áætlunartafla
 Allar vörur ættu að vera áætlaðar en aftur á móti er engin ástæða til að reikna áætlun fyrir vöru nema eftirspurnar- eða framboðsmynstur hafi breyst síðan áætlun var síðast reiknuð.  

@@ -1,6 +1,6 @@
 ---
 title: Viðbætur skýjaflutnings
-description: Nota skal flutningsviðbætur í ský til að flytja gögn innanhúss í Business Central á netinu. Þessar viðbætur færa innanhússgögn í skýið svo hægt sé að nota Business Central á netinu með fyrirliggjandi gögnum.
+description: Nota skal flutningsviðbætur í ský til að flytja gögn innanhúss í Business Central á netinu. Þessar viðbætur færa innanhússgögnin þín yfir í skýið.
 author: jenolson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f02face497affd1fd1467c118e10e69f2be39b85
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: f76241497eea8a53dfc054c895bf4a788e2226a4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889125"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322298"
 ---
 # <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Skýjaflutningsviðbætur fyrir flutning á Business Central Online
 

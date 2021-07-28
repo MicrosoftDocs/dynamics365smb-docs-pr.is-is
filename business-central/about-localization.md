@@ -1,6 +1,6 @@
 ---
-title: Staðbundin virkni í Business Central
-description: Fáðu frekari upplýsingar um framboð á staðnum og eftirfylgni Business Central við lönd þar sem Microsoft býður upp á þjónustu á staðnum.
+title: Staðbundin virkni og regla um staðfæringu
+description: Fáðu frekari upplýsingar um framboð á staðnum og eftirfylgni Business Central fyrir lönd þar sem Microsoft býður upp á þjónustu á staðnum.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8a6d4bfbf4d61df0a42f9f866243c44f8809894b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6967e54999c1bb2a0a9e7fe095e8c3cca9543ec8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776423"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321696"
 ---
 # <a name="local-functionality-in-prod_long"></a>Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -51,6 +51,7 @@ Til að fræðast um staðbundna virkni fyrir hvert land/svæði skal velja við
 |        | Bandaríkin|[Staðbundnar aðgerðir Bandaríkjanna](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asía og Kyrrahaf |       |  |
 |        | Ástralía | [Staðbundnar aðgerðir Ástralíu](localfunctionality/australia/australia-local-functionality.md) |
+|        | Indland | [Staðbundnar aðgerðir fyrir Indland](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nýja-Sjáland | [Staðbundnar aðgerðir fyrir Nýja-Sjáland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Önnur lönd

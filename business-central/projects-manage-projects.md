@@ -1,19 +1,19 @@
 ---
-title: Verkhlutar nota tilföng og vinnublöð | Microsoft Docs
-description: Lýsir hvernig á að nota tilföng, vinnublöð og störf til að stjórna verkefnum.
+title: Verkhlutar nota tilföng og vinnublöð
+description: Þetta efnisatriði lýsir hvernig á að nota tilföng, vinnublöð og verk til að stjórna verkefnum og fjárhagsáætlunum þeirra.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2dbe4a82f6cc2e9f28fbd06a3f235d9630a75cca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780333"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321090"
 ---
 # <a name="project-management"></a>Verkefnastjórnun
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að framkvæma sameiginlega verkefnastjórnun verkefni, svo sem að stilla vinnu og tímasetningu auðlinda, auk þess að veita þær upplýsingar sem þarf til að stjórna kostnaðarhámarki og fylgjast með framförum. Hægt er að rekja véla- og starfsmannatíma í verkefninu með því að nota vinnuskýrslur. Sem verkefnastjóri fær maður góða yfirsýn, ekki aðeins yfir einstök verk heldur einnig yfir úthlutun starfsfólks, véla og annars forða sem notaður er í öllum verkefnum.

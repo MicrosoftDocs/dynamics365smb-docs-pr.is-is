@@ -1,6 +1,6 @@
 ---
-title: 'Eignastjórnun| Microsoft Docs '
-description: Kynntu þér virkni eigna og fáðu yfirsýn yfir það hvernig skuli vinna með eignir.
+title: Eignastjórnun
+description: Kynntu þér virkni eigna og fáðu yfirsýn yfir það hvernig skuli vinna með og stjórna eignum.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: feb3d677c2c55166b71f825315ee1805b28b3a5e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d6cf9a0efeca2c484d0fd2e1ce06db63f2ac91f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770492"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323228"
 ---
-# <a name="fixed-assets"></a>Eignir
+# <a name="managing-fixed-assets"></a>Eignaumsjón
 Í kerfishlutanum Eignir í [!INCLUDE[prod_short](includes/prod_short.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
 
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Síðan getur hafist komast yfir, viðhalda og selja eignir. Hægt er einnig að setja upp áætlaðar eignir. Með því er hægt að taka með áætluð eignakaup og -sölu í skýrslum.

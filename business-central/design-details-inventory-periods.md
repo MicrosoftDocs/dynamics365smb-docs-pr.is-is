@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - Birgðahaldstími | Microsoft Docs
-description: Bakfærð færsla eða kostnaðarleiðréttingar hafa oft áhrif á stöðu og birgðaverðmat fyrri reikningstímabil sem teljast lokjuð. Þetta getur haft öfug áhrif á nákvæma skýrslugerð, sérstaklega hjá alþjóðlegum fyrirtækjum. Búnaður birgðahaldstíma má nota til að forðast slíka vandamál, með því að opna eða loka birgðahaldstímum til að takmarka bókanir á tilteknu tímabili.
+title: Hönnunarupplýsingar - birgðahaldstími
+description: Birgðahaldstíma má nota til að forðast vandamál varðandi stöður og birgðaverðmat með því að opna eða loka birgðahaldstímum til að takmarka bókanir á tilteknu tímabili.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2231fcd34d45ae487bf3344a1efe2e317c75c89a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a79b1b791a56bddaa97ac9b66428d6bb32652f58
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215079"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324510"
 ---
 # <a name="design-details-inventory-periods"></a>Hönnunarupplýsingar: birgðahaldstími
 Bakfærð færsla eða kostnaðarleiðréttingar hafa oft áhrif á stöðu og birgðaverðmat fyrri reikningstímabil sem teljast lokjuð. Þetta getur haft öfug áhrif á nákvæma skýrslugerð, sérstaklega hjá alþjóðlegum fyrirtækjum. Búnaður birgðahaldstíma má nota til að forðast slíka vandamál, með því að opna eða loka birgðahaldstímum til að takmarka bókanir á tilteknu tímabili.  

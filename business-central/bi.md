@@ -1,6 +1,6 @@
 ---
-title: Viðskiptaupplýsingar| Microsoft Docs
-description: Hægt er að ná í og greina viðskiptagögn, eins og t.d. sölutölur, innkaup, rekstrarkostnað, laun starfsmanna og fjárhagsáætlanir, sem geta verið verðmætar viðskiptaupplýsingar eða hjálpað til við ákvarðanatöku.
+title: Viðskiptaupplýsingar
+description: Business Central inniheldur ýmsa eiginleika sem hjálpa þér að safna saman, greina og deila mikilvægum gögnum fyrirtækisins fyrir viðskiptaupplýsingar og ákvarðantöku.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 6a3d3e9aec61b3dab7673c7b99b482f80501a919
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786563"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323744"
 ---
 # <a name="business-intelligence"></a>Viðskiptaupplýsingar
 Fyrirtæki safna saman gríðarlegu magni gagna á hverjum degi. Slík gögn er varða atriði eins og sölutölur, innkaup, rekstrarkostnað, laun starfsmanna og fjárhagsáætlun, eru verðmætar upplýsingar eða viðskiptaupplýsingar fyrir þá sem taka ákvarðanir innan fyrirtækja. [!INCLUDE[prod_short](includes/prod_short.md)] býður ýmsar aðgerðir til að aðstoða fyrirtæki við að safna saman, meta og deila gögnum fyrirtækisins.

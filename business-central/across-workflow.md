@@ -1,6 +1,6 @@
 ---
-title: Verkflæði | Microsoft Docs
-description: Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.
+title: Verkflæði í Dynamics365 Business Central
+description: Notaðu verkflæði sem tengja viðskiptaferlisverk sem aðrir notendur framkvæma. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa með sem verkflæðisskref.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d8dac033ad2f4573d8a7f0047c44ac04eb8e6eb0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1804ab571c806d9fb78d15738be7f27f21274146
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773412"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324126"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Verkflæði í Dynamics 365 Business Central
 

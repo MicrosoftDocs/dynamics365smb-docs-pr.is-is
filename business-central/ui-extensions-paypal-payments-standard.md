@@ -1,6 +1,6 @@
 ---
-title: Nota PayPal Payments Standard viðbætur | Microsoft Docs
-description: Lýsir því hvernig nota skal viðbætur til að gera viðskiptamönnum kleift að framkvæma greiðslur með PayPal.
+title: Notkun PayPal Payments Standard-viðbótarinnar
+description: Þetta efnisatriði lýsir því hvernig nota skal staðlaða viðbót til að gera viðskiptamönnum kleift að framkvæma greiðslur með PayPal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd7a1faf7b80547fe5b26d43495b4713a27d4a5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cc7db26df0cfd554b083ac606c14965eecc991eb
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785069"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322878"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Viðbótin PayPal Payments Standard
 Viðskiptamenn þurfa stöðugt hærra þjónustustig, bæði hvað varðar gæði vöru en einnig hvað varðar valkosti afhendingar og greiðslu. PayPal Payments Standard gerir kleift að veita viðskiptamanninum meiri þjónustu.

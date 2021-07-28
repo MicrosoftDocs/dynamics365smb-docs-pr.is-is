@@ -1,6 +1,6 @@
 ---
-title: Kynntu þér fjárhag og bókhaldslykla| Microsoft Docs
-description: Lýsir fjárhag og bókhaldslyklar, sem og reikningsflokkum.
+title: Skilja fjárhag og bókhaldslykil
+description: Lýsir fjárhag, bókhaldslyklum og reikningsflokkum. Notaðu síðu fjárhagsuppsetningar til að tilgreina meðhöndlun bókhaldsvandamála í fyrirtækinu.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f242bce26f55fe446ac8dc96335a8da835dd259c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774006"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321115"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Skilja fjárhag og bókhaldslykil
 
@@ -58,19 +58,29 @@ Síðan **Fjárhagsreikningsflokkar** sýnir flokka og undirflokka og fjárhagsr
 
 Þú getur tilgreint hvort reikningarnir í hverjum undirflokki skuli innifalinn í tilteknum tegundum skýrslna. Þú getur notað lykiltegundir til hjálpa til við að skilgreina snið fjárhagsskýrslna.  
 
-Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir reiðufé í eignum. Ef þú vilt jafnvægisyfirlitið skaltu íhuga smápeninga og stöðva getur þú:  
+### <a name="example"></a>Dæmi
 
-1. Bættu við tveimur nýjum undirflokkum. Einn fyrir sjóð og einn fyrir reikninginn þinn.  
+Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir *Reiðufé* undir *Núgildandi eignir*. Ef þú vilt stöðuyfirlitið skaltu íhuga sjóði og ávísun og fara í gegnum eftirfarandi skref:  
+
+1. Bættu við tveimur nýjum undirflokkum:
+
+    * Einn fyrir sjóð  
+    * Einn fyrir ávísanareikninginn þinn  
 2. Tilgreindu viðbótarskýrslugerðina **Reiðufé** fyrir þessar undirflokka.  
 3. Haltu þeim í undirflokknum **Handbært fé**.  
 
 Í næsta skipti sem þú stofnar reikningaskipta birtist efnahagsreikningur þín í heildarjöfnuði fyrir peninga og tvær línur með jafnvægi fyrir smáskatta og eftirlitsreikning.  
+
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Aðgangur til að stofna og breyta reikningum og reikningsflokkum
+
+Í litlu fyrirtæki eins og CRONUS sýnifyrirtækinu geta flestir notendur breytt bókhaldslyklum nema notendur með TEAM MEMBER-leyfi. Í stærri samtökum takmarkast aðgangur að breytingum á bókhaldslyklum hinsvegar eftir hlutverkum og heimildum. Ef þú ert stjórnandi eða hefur hlutverkið *Viðskiptastjórnandi* eða *Endurskoðandi* getur þú athugað heimildir allra notenda til að tryggja að réttir aðilar hafi aðgang að viðeigandi töflum. Frekari upplýsingar er að finna í [Að fá yfirlit yfir leyfi notanda](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Fjármál](finance.md)  
 [Uppsetning eða breyting á bókhaldslykli](finance-setup-chart-accounts.md)  
 [Viðskiptaupplýsingar](bi.md)  
+[Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

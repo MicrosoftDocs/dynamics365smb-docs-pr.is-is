@@ -1,6 +1,6 @@
 ---
-title: Lágmarkskröfur til notkunar Business Central | Microsoft Docs
-description: Lærðu um lágmarks kerfis- og útgáfukröfur til að nota Business Central á netinu.
+title: Lágmarkskröfur fyrir notkun Business Central
+description: Kynntu þér lágmarkskröfur um kerfi og útgáfu til að nota Business Central á netinu eins og er útskýrt hér á eftir.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 1dafd874523be75e00e224fd5b1d3f3d33a7e712
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 3c116786612b62587dd68dc90c358a5a51a24a29
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063503"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321417"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 

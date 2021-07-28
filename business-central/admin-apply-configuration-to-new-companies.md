@@ -1,6 +1,6 @@
 ---
-title: Nota skilgreiningu á ný fyrirtæki | Microsoft Docs
-description: Þegar búið er að stofna grunnstillingarpakka er næsta skrefið að virkja pakka til viðskiptamanns fyrir innleiðingu. Grunnstillingin er notuð með nýju auðu fyrirtæki.
+title: Nota skilgreiningu á ný fyrirtæki
+description: Þegar búið er að stofna grunnstillingarpakka skal virkja pakka til viðskiptamanns fyrir innleiðingu. Grunnstillingin er notuð með nýju auðu fyrirtæki.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 22b4c770f182aa9e5df72ff3d625dc32c5a6f827
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8eaffa61361a9cbcc01af3585090dc0939eaa4d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773362"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324101"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Nota skilgreiningu á ný fyrirtæki
 Þegar búið er að stofna grunnstillingarpakka er næsta skrefið að virkja pakka til viðskiptamanns fyrir innleiðingu. Þú vinnur með grunnstillingarpakkann innan fyrirtækis sem er nýtt og autt.  

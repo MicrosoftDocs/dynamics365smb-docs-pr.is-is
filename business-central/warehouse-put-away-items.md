@@ -1,6 +1,6 @@
 ---
-title: Frágangur á vörum | Microsoft Docs
-description: Vöruhúsaaðgerðin að ganga frá vörum eftir að tekið er á móti þeim, eða frálag, er framkvæmd með mismunandi hætti eftir því hvernig aðgerðir vöruhúsakerfis eru grunnstilltar.
+title: Frágangur á vörum
+description: Frágangur á vörum eftir að tekið er á móti þeim, eða frálag, er framkvæmdur á mismunandi hátt eftir því hvernig eiginleikar vöruhúsakerfis eru skilgreindir.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d19486956fbaa0addb58a71c13849b0bb32c958a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7ff13ac6dd2ca2ad57f5570ce5bcf535fcf60b2c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771575"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324740"
 ---
 # <a name="putting-items-away"></a>Vörufrágangur
 Vöruhúsaaðgerðin að ganga frá vörum eftir að tekið er á móti þeim, eða frálag, er framkvæmd með mismunandi hætti eftir því hvernig aðgerðir vöruhúsakerfis eru grunnstilltar. Flækjustigið getur verið allt frá engum vöruhúsaaðgerðum, gegnum einfaldar grunngerðum vöruhúss með meðhöndlun pöntun fyrir pöntun í einni eða fleiri aðgerðum einvörðungu, til ítarlegra grunnstillinga þar sem allar vöruhúsaaðgerðir eru framkvæmdar í beinu verkflæði. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).

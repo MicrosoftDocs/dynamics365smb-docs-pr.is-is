@@ -1,19 +1,19 @@
 ---
-title: Senda inn lögboðnar viðvaranir | Microsoft Docs
-description: Ef þú veist um nýja löggjöf sem þú telur að þurfi stuðning eiginleika í Business Central, getur þú fylgst með þessum leiðarvísi til að senda lögboðna viðvörun til framleiðsluteymis.
+title: Senda inn lögboðnar viðvaranir
+description: Ef þú veist um nýja löggjöf sem þarf stuðning eiginleika í Business Central, getur þú fylgst með þessum leiðarvísi til að senda lögboðna viðvörun til framleiðsluteymis.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784841"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319982"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sendu inn viðvaranir um eftirlitseiginleika sem miðast við tiltekið land/svæði
 

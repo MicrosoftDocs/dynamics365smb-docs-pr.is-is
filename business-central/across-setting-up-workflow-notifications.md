@@ -1,19 +1,19 @@
 ---
-title: Tilkynningar verkflæðis
-description: Mörg Verkflæðissvör snúast um að láta notendur vita að tilvik hafi átt sér stað og þeir þurfi að bregðast við því. Til dæmis getur eitt skref í verkflæði verið að tilvik óski eftir að Notandi 1 samþyki nýja færslu, og að svarið sé að tilkynning sé send til notanda 2, samþykkjanda. Í næsta verkflæðisskrefi getur tilvikið verið að Notandi 2 samþyki færsluna, og svarið að tilkynning sé send til notanda 3 til að hefja tengt ferli samþykktu færslunnar. Í öllum skref verkflæðis sem snúast um samþykki eru tilkynningar tengdar samþykktarfærslu.
+title: Setja upp tilkynningar verkflæðis
+description: Í þessu efnisatriði er sagt hvernig á að setja upp tilkynningar verkflæðis til að láta notanda vita að tilvik hafi komið upp sem þarf að bregðast við; verkflæðissvar er nauðsynlegt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d72c3ba220c98d0c77806466f467ab233b3db65c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787047"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320615"
 ---
 # <a name="workflow-notifications"></a>Tilkynningar verkflæðis
 
