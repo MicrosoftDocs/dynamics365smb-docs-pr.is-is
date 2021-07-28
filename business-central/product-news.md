@@ -1,18 +1,18 @@
 ---
 title: Nýtt og áætlað í sjálfgefinni útgáfu
-description: Kynntu þér hvar hægt er að finna nýjustu fréttir og uppfærslur fyrir sjálfgefnu útgáfuna af Business Central.
+description: Kynntu þér hvar hægt er að finna nýjustu fréttir og uppfærslur fyrir nýja og fyrirliggjandi eiginleika í sjálfgefnu útgáfunni af Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 4bfa57850f86c243ddb3c7394f59296aceb90437
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: 7d487bdb24284583b2ea11f5f18ae3b9d8b7ab04
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941639"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438728"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Nýtt og áætlað fyrir Dynamics 365 Business Central
 
@@ -28,7 +28,7 @@ Eftirfarandi listi veitir upplýsingar um nýjustu útgáfuna af [!INCLUDE [prod
 
 Einnig er hægt að skoða svæðið [Dynamics 365 Business Central Möguleikar](https://dynamics.microsoft.com/business-central/capabilities/) og [Dynamics 365 Business Central Vegvísir](https://dynamics.microsoft.com/roadmap/business-central/).  
 
-<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
+<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription."](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 ## <a name="see-also"></a>Sjá einnig
 

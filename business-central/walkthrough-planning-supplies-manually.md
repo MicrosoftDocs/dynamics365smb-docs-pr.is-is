@@ -1,6 +1,6 @@
 ---
-title: Kynning - Handvirk áætlun birgða | Microsoft Docs
-description: Þessi kynning sýnir ferli áætlunar birgðapantana til að uppfylla nýja eftirspurn. Hægt er að hefja áætlun birgða með föstu millibili, t.d. á hverjum morgni eða á hverjum mánudegi, eða þegar tilkynning berst frá sölu eða framleiðslu, eftir því um hvers konar eftirspurn er að ræða.
+title: Kynning - Handvirk áætlun birgða
+description: Þessi kynning sýnir ferli áætlunar birgðapantana til að uppfylla nýja eftirspurn, þ.m.t. áætlun innkaupa-, flutnings- og framleiðslupantana.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: c1ab3c48ae09b75ab9e54e0c9fe9afd49b833f09
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214679"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438994"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Kynning: Handvirk áætlun birgða
 
@@ -67,7 +67,7 @@ Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetning
 
 ### <a name="to-use-the-order-planning-page"></a>Að nota síðuna „Pantanaáætlun“  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanaáætlun** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Áætlanagerð pöntunar** og velja síðan viðkomandi tengil.  
 
      Eftir að síðan **Pantanaáætlun** opnast fyrst þarf að reikna áætlun til að sýna nýja eftirspurn frá því hún var reiknuð síðast.  
 
@@ -225,7 +225,7 @@ Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetning
 
      Skilaboðin segja til um að allir tilskildir hlutir séu nú til staðar (að til sé framboð af þeim). Staðfesta fastáætlaðar framleiðslupantanir sem eru stofnaðar.  
 
-13. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.  
+13. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
 
      Á síðunni **Fastáætlað** farið yfir hvernig upphafs- og lokatími einstakra pantana er áætlaður út frá samsetningu framleiðslunnar. Íhlutir á neðsta þrepi eru framleiddir fyrst. Því þarf að áætla pantanir í mörgum þrepum eins og sýnt er í þessu verkflæði fyrir áætlanir.  
 

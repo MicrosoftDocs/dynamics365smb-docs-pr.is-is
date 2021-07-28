@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2f204daefe5ed9473d64592d67e3c4cf026bce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3f0a848e1a7011b163a92fbf5a58f4cd761ef95
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775091"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438778"
 ---
 # <a name="make-check-payments"></a>Framkvæma ávísanagreiðslur
 
@@ -39,7 +39,7 @@ Hægt er að prenta allt að 10 reikninga á síðu fyrir ávísanabút. Ef áv�
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Til að greiða reikning lánardrottins með vélfærðum tékka
 Eftirfarandi dæmi sýnir hvernig á að greiða lánardrottni með ávísun. Skrefin eru svipuð og endurgreiðsla til viðskiptamanns með ávísun.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubækur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðslubækur** og velja síðan viðkomandi tengil.
 2. Fyllið út greiðslubókarlínurnar. Nánari upplýsingar eru í [Skrá greiðslur og endurgreiðslur](payables-how-post-payments-refunds.md).
 3. Í reitnum **Kóði greiðslumáta** skal velja **Ávísun**.
 4. Í reitnum **Tegund bankagreiðslu** skal velja **Vélfærður tékki**.
@@ -67,7 +67,7 @@ Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið pren
 > [!IMPORTANT]
 > Ef ávísunin er jöfnuð á reikning, skal fyrst hætta við val hennar fyrst svo að hægt sé að greiða reikninginn og ógilda síðan ávísunina. Ef ávísunin var prentuð og ekki notuð til að greiða reikning skaltu velja **Eingöngu ógilda ávísun** eins og lýst er í þessum hluta.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Veldu viðeigandi bankareikning, veldu **breyta** aðgerðina og veldu síðan **tékkafærslur** aðgerðina.
 3. Á síðunni **Tékkafærslur** skal velja aðgerðina **Ógildur tékki**.
 4. Veldu gátreitinn **eingöngu ógilda tékka**.
@@ -75,7 +75,7 @@ Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið pren
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Til að skoða samantekt bókaðra tékka
 Ef þú vilt endurskoða bókaða tékka, til dæmis til að staðfesta marga greidda tékka til eins lánardrottins, getur þú notað skýrsluna **Bankareikningur - Upplýsingar um tékka**.
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningur - Upplýsingar um tékka** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikn. - Upplýsingar um ávísun** og velja síðan viðkomandi tengil.
 2. Stilla afmarkanir sem viðeigandi og velja svo hnappinn **Forskoða**.
 
 ## <a name="see-also"></a>Sjá einnig

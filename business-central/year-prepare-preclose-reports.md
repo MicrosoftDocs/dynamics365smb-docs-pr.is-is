@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 857f2f913ab2a2026df5997ac16bd59593a3d925
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96fe7c7c1f955d3c489429bf3ee64f9f3f925de7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784986"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439235"
 ---
 # <a name="using-pre-closing-reports"></a>Nota skýrslur fyrir lokun
 Margar staðlaðar skýrslur eru í boði til að sannreyna nákvæmni reikninganna áður en bókum er lokað í lok ársins eða í lok tímabils. Til dæmis má nota skýrsluna **Viðskiptamaður - Prófjöfnuður** til að votta að upphæð bókunarflokks viðskiptamanna sé jöfn upphæð á samsvarandi reikningi færslubókar á tilteknu tímabili.
@@ -35,7 +35,7 @@ Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þes
 | Prenta prófjöfnunarskýrslu með stöðum og hreyfingum helstu fjárhagsreikninga. |Prófjöfnuður |
 | Prenta út prófjöfnunarskýrslu fyrir samsteypufyrirtæki. |Samstæða - Prófjöfnuður |
 
-Til að sjá skýrslu skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heitið eins og það birtist í töflunni og velja svo tengdan tengil.
+Til að sjá skýrslu skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heitið eins og það birtist í töflunni og velja svo viðkomandi tengil.
 
 ## <a name="see-also"></a>Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  

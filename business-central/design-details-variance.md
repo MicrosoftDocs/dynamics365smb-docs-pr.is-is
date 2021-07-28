@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 153e1e9f5bf8b69c9a1561b7c028eb938b8e37b8
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3b6ec6cbd2ebef6ff2cd44a49284821485d63f6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215704"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439561"
 ---
 # <a name="design-details-variance"></a>Hönnunarupplýsingar Frávik
 Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostnað, eins og lýst er í eftirfarandi formúlu.  
@@ -38,7 +38,7 @@ Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostn
 
  Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
 
- ![Útreikningur innkaupafrávika](media/design_details_inventory_costing_11_purchase_variance.png "Útreikningur innkaupafrávika")  
+ ![Útreikningur innkaupafrávika.](media/design_details_inventory_costing_11_purchase_variance.png "Útreikningur innkaupafrávika")  
 
 ## <a name="determining-the-standard-cost"></a>Ákvarða staðalkostnað  
  Staðlaður kostnaður er notaður við útreikning fráviks og upphæð sem á að eignfæra. Þar sem staðalkostnaður er hægt að breyta með tímanum vegna útreikninga með handvirkri uppfærslu, þú þarft að hafa tímapunkt þegar staðalkostnaður er fastur fyrir fráviksútreikning. Þetta mark er þegar birgðaaukning er reikningsfærð. Fyrir framleiddar eða samsettar vörur er punkturinn þegra staðalkostnaður er ákvarðaður þegar kostnaður er jafnaður.  
@@ -48,16 +48,16 @@ Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostn
 |Kostn.hlutdeild|Keypt vara|Framleidd/samsett vara|  
 |----------------|--------------------|------------------------------|  
 |**Staðlað kostn.verð**||Eins stigs efniskostnaður + Eins stigs  afkastakostnaður + Eins stigs undirverktakakostnaður + Eins stigs óbeinn afkastakostnaður + Eins stigs óbeinn framleiðslukostnaður|  
-|**Efniskostnaður á einu stigi**|Kostnaðarverð|![Jafna 1](media/design_details_inventory_costing_11_equation_1.png "Jafna 1")|  
-|**Getukostnaður á einu stigi**|Á ekki við|![Jafna 2](media/design_details_inventory_costing_11_equation_2.png "Jafna 2")|  
-|**Undirverkt.kostn. á einu stigi**|Á ekki við|![Jafna 3](media/design_details_inventory_costing_11_equation_3.png "Jafna 3")|  
-|**Sam.ób. afk.kostn á einu stigi**|Á ekki við|![Jafna 4](media/design_details_inventory_costing_11_equation_4.png "Jafna 4")|  
+|**Efniskostnaður á einu stigi**|Kostnaðarverð|![Jafna 1.](media/design_details_inventory_costing_11_equation_1.png "Jafna 1")|  
+|**Getukostnaður á einu stigi**|Á ekki við|![Jafna 2.](media/design_details_inventory_costing_11_equation_2.png "Jafna 2")|  
+|**Undirverkt.kostn. á einu stigi**|Á ekki við|![Jafna 3.](media/design_details_inventory_costing_11_equation_3.png "Jafna 3")|  
+|**Sam.ób. afk.kostn á einu stigi**|Á ekki við|![Jafna 4.](media/design_details_inventory_costing_11_equation_4.png "Jafna 4")|  
 |**Sam.ób. frlkostn á einu stigi**|Á ekki við|(Eniskostnaður á einu stigi + Kostnaður afkastaveitu á einu stigi + Kostnaður undirverktaka á einu stigi) * Óbeinn kostnaður % / 100 + Sameiginlegur kostnaður|  
-|**Samantekinn efniskostnaður**|Kostnaðarverð|![Jafna 5](media/design_details_inventory_costing_11_equation_5.png "Jafna 5")|  
-|**Samantekinn getukostnaður**|Á ekki við|![Jafna 6](media/design_details_inventory_costing_11_equation_6.png "Jafna 6")|  
-|**Samantekinn undirverktakakostn.**|Á ekki við|![Jafna 7](media/design_details_inventory_costing_11_equation_7.png "Jafna 7")|  
-|**Samantekinn sameiginlegur kostnaðar afkastagetu**|Á ekki við|![Jafna 8](media/design_details_inventory_costing_11_equation_8.png "Jafna 8")|  
-|**Samant. ób. sam. framl.kostn.**|Á ekki við|![Jafna 9](media/design_details_inventory_costing_11_equation_9.png "Jafna 9")|  
+|**Samantekinn efniskostnaður**|Kostnaðarverð|![Jafna 5.](media/design_details_inventory_costing_11_equation_5.png "Jafna 5")|  
+|**Samantekinn getukostnaður**|Á ekki við|![Jafna 6.](media/design_details_inventory_costing_11_equation_6.png "Jafna 6")|  
+|**Samantekinn undirverktakakostn.**|Á ekki við|![Jafna 7.](media/design_details_inventory_costing_11_equation_7.png "Jafna 7")|  
+|**Samantekinn sameiginlegur kostnaðar afkastagetu**|Á ekki við|![Jafna 8.](media/design_details_inventory_costing_11_equation_8.png "Jafna 8")|  
+|**Samant. ób. sam. framl.kostn.**|Á ekki við|![Jafna 9.](media/design_details_inventory_costing_11_equation_9.png "Jafna 9")|  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   

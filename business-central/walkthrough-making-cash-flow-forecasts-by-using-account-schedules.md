@@ -1,6 +1,6 @@
 ---
-title: Kynning - Gera sjóðstreymisspár með því að nota fjárhagsskemu
-description: Lærðu hvernig hægt er að nota reikningsáætlanir til að búa til sjóðstreymisspár.
+title: Sjóðstreymisspár með því að nota fjárhagsskemu
+description: Í þessari kynningu er lýst hvernig hægt er að nota reikningsáætlanir til að búa til sjóðstreymisspár í Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 48a176c4c363c4a33ae336d754be71c9f7dd0aeb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0da9a5cab5c36bd5403bca3731ce46bb67316c3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772105"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438503"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Kynning: Gera sjóðstreymisspár með því að nota fjárhagsskemu
 
@@ -54,7 +54,7 @@ Fjárhagsskema hefur að geyma heiti fjárhagsskema sjóðstreymis með röð af
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Setja upp Nýtt heiti fyrir fjárhagsskema  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsskema** eða Lánardrottinn og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsskema** og svo velja viðeigandi tengil.  
 2. Á síðunni **Heiti fjárhagsskema** skal velja aðgerðina **Nýtt** til að búa til nýtt sjóðstreymi á fjárhagsskema.  
 3. Í reitinn **Heiti** skal færa inn **Spá**.  
 4. Í reitnum **Lýsing** færið inn **Lýsing fyrir sjóðstremisspá**.  

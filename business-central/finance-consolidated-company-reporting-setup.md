@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 861893c2784bc5eed837c26d070fb98c2826772b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786249"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439461"
 ---
 # <a name="set-up-company-consolidation"></a>Setja upp sameiningu fyrirtækis
 
@@ -74,7 +74,7 @@ Eftirfarandi listi sýnir lykilþætti í samstæðufyrirtækinu.
 [!INCLUDE[prod_short](includes/prod_short.md)] gerir þér kleift að setja upp lista yfir fyrirtækiseiningar sem á að sameina, staðfesta bókhaldsgögn áður en þau eru sameinuð, flytja inn skrár og búa til samstæðuskýrslur.  
 
 1. Skráðu þig inn samstæðufyrirtækið.
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fyrirtækiseiningar** og veldu síðan tengda tengilinn.  
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptaeiningar** og velja síðan viðkomandi tengil.  
 3. Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -89,7 +89,7 @@ Bókhaldslykill fyrirtækis sem á að sameina þarf að  tilgreina reikninga fy
 
 Ef bókhaldslyklar í fyrirtækjaeiningunni eru ekki þeir sömu og í samstæðufyrirtækinu er nauðsynlegt að búa til fjárhagslykla fyrir samlegðina. Þú getur tilgreint reikninga sem bóka á debet og kredit á, sem og þá aðferð sem nota skal við að umreikna gjaldmiðil í samstæðufyrirtækinu. Þetta er til dæmis gagnlegt ef þú keyrir skýrsluna oft.
 
-1. Í [!INCLUDE [prod_short](includes/prod_short.md)] hverrar fyrirtækiseiningar skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Bókhaldslykill** og velja síðan tengda tengilinn.  
+1. Í hverju [!INCLUDE [prod_short](includes/prod_short.md)] viðskiptaeiningu skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
 2. Opnaðu kortið fyrir reikninginn og fylltu svo út í reitina á **Samstæða** flýtiflipanum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Tilgreina gengi gjaldmiðla fyrir samstæður
@@ -109,7 +109,7 @@ Ef fyrirtækjaeining notar annan gjaldmiðil en samstæðufyrirtækið, er nauð
 
 Til að tilgreina gengi gjaldmiðla fyrir fyrirtækiseiningar, skal fylgja eftirfarandi skrefum:
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fyrirtækiseiningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptaeiningar** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Listi yfir fyrirtækiseiningar** skal velja fyrirtækiseininguna, og síðan **Meðalgengi (handvirkt)** aðgerðina.  
 3. Á síðunni **Breyta gengi gjaldmiðils** hefur efni í reitnum **Viðmiðunargengi** verið afritað úr töflunni **Gengi gjaldmiðils** en hægt er að breyta því. Lokaðu síðunni.  
 4. Veldu aðgerðina **Lokagengi**.  

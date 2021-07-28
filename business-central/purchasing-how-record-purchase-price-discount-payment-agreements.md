@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 36fcb415c6d6dbe125570be932f223d4300d518a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 580a2b248b43ccac272b95656207439a8e02cc85
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772705"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438553"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Skrá sérstakt söluverð og sérstaka afslætti
 > [!NOTE]
@@ -40,13 +40,13 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
 
 #### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
 2. Opna skal viðeigandi lánardrottnaspjald og velja síðan aðgerðina **Verð**.
 3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fyllt er út lína fyrir hverja samsetningu sem lánardrottinn veitir innkaupalínuafsláttur fyrir.
 
 #### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
 2. Veldu lánardrottin og veldu svo aðgerðina **Söluverðlistar**. 
 3. Veljið **Nýtt** til að stofna nýja innkaupaverðlista.
 4. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt** og **Skattur**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,7 +59,7 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
 ---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Að setja upp línuafslátt fyrir lánardrottin
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
 2. Opna skal viðeigandi lánardrottinsspjald og veljið síðan aðgerðina **Línuafslættir**.
 
     Reiturinn **Tegund innkaupa** er fylltur út fyrirfram með **Lánardrottinn** og í reitnum **Innkaupakóði** er númer lánardrottins.
@@ -69,7 +69,7 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Að setja upp reikningsafslátt fyrir lánardrottin
 Þegar lánardrottnar þínir hafa veitt þér upplýsingar um hvaða reikningsafslætti þeir veita eru færðir inn reikningsafsláttarkóðar á lánardrottnaspjöldin og sett upp skilyrði fyrir hvern kóða.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
 2. Opna skal spjald lánardrottins sem getur veitt reikningsafslátt.
 3. Í reitnum **Reikningsafsláttarkóði** er valinn kóði fyrir viðeigandi reikningsafsláttarskilmála sem forritið notar til að reikna reikningsafslátt fyrir lánardrottin.
 
@@ -90,7 +90,7 @@ Reikningsafsláttur er nú settur upp og úthlutað á umræddan lánardrottin. 
 
 Áður en hægt er að gera þetta verður að vera búið að setja upp nauðsynlega reikninga til að bóka afsláttarupphæðir í bókhaldslyklinum. Einnig verður að gæta þess að rétt reikningsnúmer hafi verið sett í almennu bókunaruppsetninguna í reitunum **Afsláttarreikningur Innkaupalínu** og **Afsláttarreikningur Innkaupabirgða**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning innkaupagrunns** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Uppsetning innkaupa og viðskiptaskulda** og velja svo viðeigandi tengil.
 2. Í reitnum **Afsláttarbókun** er valin ein af eftirfarandi reglum fyrir bókun afsláttar.
 
 |**Afsláttarbókunarregla**|**Reikningsafsláttur**|**Línuafsláttur**|  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783185"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440003"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finndu síður og upplýsingar með Viðmótsleit  
 Þetta efnisatriði lýsir því hvernig Viðmótsleit getur hjálpað þér að komast hratt á staði eins og aðgerðir, síður eða skýrslur, finna upplýsingar um hvernig á að ljúka ákveðnu verki og uppgötva önnur forrit og ráðgjafarþjónustur fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -23,7 +23,7 @@ ms.locfileid: "5783185"
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Þegar þú þarft hjálp við að finna eitthvað skaltu nota ![Segðu mér hvað þú vilt gera](media/ui-search/search.png "Leit að síðu eða skýrslu")**Segðu mér hvað þú vilt að gera** táknið til að leita að því. Þú getur líka notað ALT + Q til að byrja að nota Viðmótsleit.
+Þegar þú þarft aðstoð við að finna eitthvað skaltu nota ![Segðu mér hvað þú vilt gera.](media/ui-search/search.png "Leit að síðu eða skýrslu") **Segðu mér hvað þú vilt gera** táknið til að leita að því. Þú getur líka notað ALT + Q til að byrja að nota Viðmótsleit.
 
 Þegar þú byrjar að skrifa stafi birtir [!INCLUDE[prod_short](includes/prod_short.md)] strax samsvörun. Niðurstöður í listanum breytast þegar þú skrifar fleiri stafi. Ef þú tekur eftir því að þegar þú slærð inn orðið „afurð“ og niðurstöðurnar innihalda **Vörur**, er það vegna þess að Viðmótsleitin notar samheiti og önnur leitarorð til að auðvelda að finna aðgerðir, síður og skýrslur.
 

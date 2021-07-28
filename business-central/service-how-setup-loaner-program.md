@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778248"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440104"
 ---
 # <a name="set-up-a-loaner-program"></a>Uppsetning lánsbúnaðarkerfis
 Stundum þarf að sjá viðskiptamönnum fyrir lánsbúnaði til notkunar meðan þjónustuhópurinn framkvæmir viðgerðir. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að setja upp lánsforrit, lána viðskiptamönnum vörur og rekja móttöku varanna til baka. Að auki getur bætt við athugasemd um lánsbúnaðinn á tvo vegu.  
@@ -24,7 +24,7 @@ Stundum þarf að sjá viðskiptamönnum fyrir lánsbúnaði til notkunar meðan
 * Færa inn athugasemd á þjónustuvöru um þörfina fyrir lánsbúnað.  
 
 ## <a name="to-set-up-a-loaner"></a>Uppsetning lánsbúnaðar  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánsbúnaður** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánsbúnað** og velja síðan viðkomandi tengil.  
 2. Stofnið nýtt lánsbúnaðarspjald. 
 3. Í reitnum **númer** er fært inn númer fyrir lánsbúnaðinn. Hafi númeraröð fyrir lánsbúnað verið sett upp á síðunni **Þjónustukerfisgrunnur** er einnig hægt að styðja á færslulykilinn til að færa inn næsta lausa lánsbúnaðarnúmerið.  
 4. Fyllt er út í reitina **Lýsing**, **Lýsing 2** og **Raðnr.**.  

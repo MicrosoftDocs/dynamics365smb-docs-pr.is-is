@@ -1,6 +1,6 @@
 ---
-title: Stofna reikninga eða kreditreikninga fyrir þjónustu | Microsoft Docs
-description: Læra hvernig á að stofna reikninga svo þú getir fengið borgað fyrir þjónustu sem þú veitir.
+title: Stofna reikninga eða kreditreikninga fyrir þjónustu
+description: Kynntu þér hvernig þú getur á einfaldan hátt notað Business Central til að búa til kreditreikning fyrir þjónustu þína.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 61890301542ea7225039341eb30fbf4e3dd035d0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ad5003e8dac33ac5886caa698650ba211c9b89ae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778273"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440154"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Stofna Þjónustureikninga eða kreditreikninga
 Auðveld reikningsfærsla þjónustupantana er lykileiginleiki [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að setja [!INCLUDE[prod_short](includes/prod_short.md)] kerfið upp þannig að þjónustutæknimaður á vettvangi geti stofnað reikning fyrir þjónustu sem ekki er tengd samningi eða pöntun. Einnig er hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að reikningsfæra þjónustusamninga reglulega. Reikningstímabil samnings ræður tíðni reikningsfærslu.
 
 ## <a name="to-invoice-several-service-contracts"></a>Að reikningsfæra nokkra þjónustusamninga
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofna þjónustusamningsreikninga** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Stofna þjónustusamningsreikninga** og velja síðan viðkomandi tengil.  
 2. Færa skal inn þær afmarkanir sem á að nota.  
 3. Í reitnum **Bókunardags.** er færð inn dagsetningin sem á að nota sem bókunardagsetningu á þjónustureikningum.  
 4. Í reitnum **Reikningsfæra til dags.** er færð inn dagsetningin sem á að reikningsfæra samninga til. Í keyrslunni verða samningar með næstu dags. reiknings að þessari dagsetningu.  
@@ -32,7 +32,7 @@ Auðveld reikningsfærsla þjónustupantana er lykileiginleiki [!INCLUDE[prod_sh
 Einnig er hægt að reikningsfæra þjónustusamning beint af síðunni **Þjónustusamningur** ef næsta reikningsdags. samningsins er á undan vinnudagsetningunni.
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Til að reikningsfæra þjónustusamning úr síðunni Þjónustusamningur   
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustusamningar** og velja síðan viðkomandi tengil.  
 2. Velja skal þjónustusamninginn sem á að reikningsfæra og opna samningsspjaldið.  
 3. Veldu aðgerðina **Stofna þjónustureikning**. 
 4. Smellt er á **Já** til að stofna þjónustureikningana.  
@@ -43,7 +43,7 @@ Einnig er hægt að reikningsfæra þjónustusamning beint af síðunni **Þjón
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Bókun reikninga úr þjónustupöntunum  
 Eftirfarandi aðferð lýsir hvernig á að skilgreina þann þátt þjónustunnar sem verður skrifaður á reikning viðskiptamanns.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
 2. Velja skal þjónustupöntunina sem á að reikningsfæra og opna pöntunarspjaldið.  
 3. Veljið aðgerðina **Þjónustulínur**.  
 4. Finndu færslurnar sem þörf er á og tilgreindu magnið sem á að skrifa á reikning viðskiptamanns í reitnum **Magn til reikningsf.**   
@@ -62,7 +62,7 @@ Eftirfarandi aðferð lýsir hvernig á að skilgreina þann þátt þjónustunn
 ## <a name="to-create-a-service-invoice-manually"></a>Þjónustureikningar búnir til handvirkt  
 Ef þjónustupöntun er bókuð með valkostinum **Reikningur** eða **Afhenda og reikningsfæra** býr forritið sjálfkrafa til bókaða reikningsfærslu. Eigi að síður gæti þurft að gefa út reikning sem hvorki er tengdur þjónustusamningi né þjónustupöntun. Þessi aðgerð útskýrir hvernig gefa á út reikning á sama tíma og viðskiptamaðurinn fær þjónustuna.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustureikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustureikningar** og velja síðan viðkomandi tengil.  
 2. Nýr þjónustureikningur er stofnaður.  
 3. Fylla þarf út reitinn **Nr.**. .  
   
@@ -80,7 +80,7 @@ Ef þjónustupöntun er bókuð með valkostinum **Reikningur** eða **Afhenda o
 ## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Til að stofna reikning sem sameinar bókaðar sendingarlínur úr einni eða fleiri þjónustupöntunum 
 Ef til vill þarf að stofna þjónustureikning fyrir þjónustu sem þegar hefur verið afhent, annað hvort úr einni eða fleiri þjónustupöntunum, en ekki verið reikningsfærð ennþá eða notuð. Hægt er að fylla reikningslínurnar út sjálfkrafa ásamt völdum bókuðum afhendingarlínum fyrir tilgreindan viðskiptamann.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustureikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustureikningar** og velja síðan viðkomandi tengil.  
 2. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 3. Stofna skal reikningslínur fyrir afhenta þjónustu sem ekki er búið að reikningsfæra. Að öðrum kosti geturðu notað **Sækja afhendingarlínur** aðgerðina til að bæta bókuðum afhendingarlínum við reikninginn.  
 4. Bóka skal þjónustureikninginn.  
@@ -90,7 +90,7 @@ Ef til vill þarf að stofna þjónustureikning fyrir þjónustu sem þegar hefu
 ## <a name="to-create-a-service-credit-memo"></a>Þjónustukreditreikningar búnir til:  
 Þjónustukreditreikningur er yfirleitt notaður þegar viðskiptamaður skilar vöru, en hann er einnig hægt að nota til þess veita viðskiptamanni söluuppbót eða leiðrétta rangan reikning.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustukreditreikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustukreditreikningar** og velja síðan viðkomandi tengil.  
 2. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Reitirnir **Bókunardagsetning** og **Dagsetning fylgiskjals** sýna vinnudagsetninguna. Hægt er að breyta því ef þörf er á.    
 4. Í kreditreikningslínurnar eru færðar upplýsingar um vörurnar sem hefur verið skilað eða hafa verið fjarlægðar, eða söluuppbót sem á að gefa viðskiptamanni.  

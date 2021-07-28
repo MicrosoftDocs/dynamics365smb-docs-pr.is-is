@@ -1,6 +1,6 @@
 ---
-title: Hvernig skal Vinna með ábyrgðarstöðvar | Microsoft Docs
-description: Ábyrgðarstöðvar bjóða upp á umsjón með stjórnunarmiðstöðvum. Ábyrgðamiðstöð getur verið kostnaðarmiðstöð, hagnaðarmiðstöð, fjárfestingamiðstöð eða önnur fyrirtækisskilgreind stjórnunarmiðstöð.
+title: Hvernig á að Vinna með ábyrgðarstöðvar
+description: Ábyrgðarmiðstöð sem stjórnstöð hjálpar fyrirtækjum að setja upp notendamiðuð yfirlit yfir sölu- og innkaupaskjöl sem tengjast eingöngu hverri stöð.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e552378625325710b50989c513d303acd9c480af
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 62cfc68f8c5cfca3a152aa1de7054f872c47f911
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774790"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439386"
 ---
 # <a name="work-with-responsibility-centers"></a>Vinna með ábyrgðarstöðvar
 
@@ -27,12 +27,12 @@ Margar birgðageymslur gera fyrirtækjum kleift að stjórna birgðum sínum á 
 
 ## <a name="to-set-up-a-responsibility-center"></a>Uppsetning ábyrgðarstöðva
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Ábyrgðarstöðvar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Ábyrgðarstöðvar** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Ef ábyrgðarstöðvar eru notaðar til að sjá um fyrirtækið getur verið gott að hafa sjálfgefna ábyrgðarstöð fyrir fyrirtækið.
-4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofngögn** og veldu síðan tengda tengilinn.
+4. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Upplýsingar um fyrirtæki** og velja síðan viðkomandi tengil.
 5. Í **Ábyrgðastöð** reitnum er kóði ábyrgðarstöðvar færður inn.
 
 Kóðinn verður notuð í öllum innkaupa- sölu- og þjónustuskjölum ef notanda, viðskiptamanni eða lánardrottni hefur ekki sjálfgefna ábyrgðarstöð. Í öllum innkaupa- sölu- og þjónustuskjölum getur fært inn aðra ábyrgðastöð en þá sem er sjálfgefin.
@@ -46,7 +46,7 @@ Hægt er að setja upp notendur þannig að í daglegri keyrslu sæki forritið 
 
 Til að setja þetta upp þarf að úthluta notendum ábyrgðarstöðvum á þremur grunnsvæðum: Innkaup, sala og þjónustustjórnun.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandauppsetning** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning notanda** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Uppsetning notanda** velur þú notandann sem á að úthluta ábyrgðarstöð til. Ef notandinn er ekki á listanum verður að slá inn notandakenni í reitnum **Notandakenni** .  
 3. Í reitinn **Söluafmörkun ábyrgðarstöðvar** skal færa inn ábyrgðarstöðina þar sem notandi vinnur að sölumálum.  
 4. Í reitinn **Innkaupaafmörkun ábyrgðarstöðvar** skal færa inn ábyrgðarstöðina þar sem notandi vinnur að innkaupamálum.  
@@ -58,8 +58,8 @@ Til að setja þetta upp þarf að úthluta notendum ábyrgðarstöðvum á þre
 ## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning birgða](inventory-setup-inventory.md)  
-[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)
-[Birgðir](inventory-manage-inventory.md)[Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
+[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
+[Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að setja upp Dagatöl verkstæðis | Microsoft Docs
-description: Dagatal vinnustöðvar tilgreinir vinnudaga og -stundir, vaktir, frídaga og fjarvistir sem hafa áhrif á mögulega heildarafkastagetu, mælda í tíma, með tilliti til tilgreindra gilda skilvirkni og getu. Stofnun og virkjun dagatals vinnustöðvar þarfnast nokkurra undirbúningsskrefa.
+title: Hvernig á að setja upp Dagatöl verkstæðis
+description: Stofnun og virkjun dagatals vinnustöðvar felur í sér nokkur verk, þar á meðal að setja upp dagatal verkstæðis og búa til vinnuvaktir.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e542d67f3cd0516cf435b0a7110e50431aab1a1f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d473d6c1e657828ce2d47e33608b691ee45fd38
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781950"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440404"
 ---
 # <a name="set-up-shop-calendars"></a>Setja upp dagatal verkstæðis
 Dagatal vinnustöðva eða véla tilgreinir vinnudaga og -stundir, vaktir, frídaga og fjarvistir sem hafa áhrif á mögulega heildarafkastagetu, mælda í tíma, með tilliti til tilgreindra gilda skilvirkni og getu.
@@ -25,7 +25,7 @@ Fyrst þarf að setja upp eitt eða fleiri almenn dagatöl verkstæðis, sem gru
 Eftirfarandi lýsir því hvernig á að setja upp dagatöl vinnustöðva. Skrefin eru svipuð þegar sett eru upp dagatöl vélastöðva.  
 
 ## <a name="to-create-work-shifts"></a>Vaktir stofnaðar  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaktir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnuvaktir** og velja síðan viðkomandi tengil.  
 2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna vaktina t.d. **1**.  
 3.  Vaktinni er lýst í reitnum **Lýsing** t.d. **1. vakt**  
 4.  Einnig er hægt að fylla inn í línur fyrir aðra og þriðju vakt.  
@@ -33,7 +33,7 @@ Eftirfarandi lýsir því hvernig á að setja upp dagatöl vinnustöðva. Skref
 Jafnvel þótt vinnustöðvarnar noti ekki vaktaskipulag þarf að færa inn a.m.k. einn vaktakóta.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Dagatal verkstæðis sett upp  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Dagatal verkstæðis** eða Lánardrottinn og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Dagatal verkstæðis** og velja síðan viðkomandi tengil.  
 2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna dagatal verkstæðis.  
 3.  Dagatali verkstæðisins er lýst í reitnum **Lýsing**.  
 4.  Velja aðgerðina **vinnudagar**.
@@ -68,7 +68,7 @@ Nú er hægt að úthluta dagatali verkstæðis á vinnustöð til útreiknings 
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Dagatal vinnustöðvar reiknað út  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnustöðvar** og veldu síðan tengda tengilinn.
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnustöðvar** og velja síðan viðkomandi tengil.
 2. Opna vinnustöðina sem á að uppfæra.  
 3. Í reitnum **Dagatalskóti verkstæðis**, er valið hvaða dagatal verkstæði notar sem grunn fyrir dagatal vinnustöðvar.  
 4. Veljið aðgerðina **Dagatal**.  

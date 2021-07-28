@@ -1,6 +1,6 @@
 ---
 title: Senda rafræn skjöl
-description: lærðu hvernig á að senda reikninga rafrænt
+description: Kynntu þér hvernig nota á Business Central til að senda rafreikninga og kreditreikninga á PEPPOL-sniði.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8056aa66531740634fb155e0b3b4419a7f014ffc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: abfc8b77ed4b6cc748898e8d4af8f68e036b468e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778373"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440279"
 ---
 # <a name="send-electronic-documents"></a>Senda rafræn skjöl
 
@@ -27,7 +27,7 @@ Almenn útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður sendingu 
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Til að senda rafrænan sölureikning
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölureikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
 
 2. Nýr sölureikningur er búinn til.  
 

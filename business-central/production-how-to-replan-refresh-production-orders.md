@@ -1,6 +1,6 @@
 ---
-title: Hvernig skal enduráætla eða uppfæra framleiðslupantanir beint| Microsoft Docs
-description: Í framleiðslupöntunarlínunum eru vörur sem vinna á í framleiðslupöntuninni.
+title: Enduráætla eða uppfæra framleiðslupantanir beint
+description: Þetta efnisatriði sýnir ferlin við að enduráætla framleiðslupantanir og uppfæra framleiðslupantanir á beinan hátt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e3e1fa5535637f204c942aa8d3589dfff0392333
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787803"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440379"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Enduráætla eða uppfæra framleiðslupantanir beint
 Aðgerðin **Enduráætla** er venjulega notuð eftir íhlutum, sem standa fyrir undirliggjandi framleiðslupantanir, hefur verið bætt við eða þeim breytt. Þessi áætlunaraðgerð reiknar breytingar sem gerðar eru á íhlutum og leiðarlínum. Hún tekur með vörur í neðri framleiðsluuppskriftum og kann að stofna nýjar framleiðslupantanir fyrir þær.  
@@ -35,7 +35,7 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 > Ef aðgerðin Uppfæra er notuð til að endurreikna framleiðslupöntunarlínur, er eldri framleiðslupöntunarlínunum eytt og nýjar línur eru reiknaðar.  
 
 ## <a name="to-replan-a-production-order"></a>Enduráætla Framleiðslupöntun  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
 2.  Opna framleiðslupöntunina sem á að enduráætla.  
 3.  Á flýtiflipanum **Línur** skal velja aðgerðina **Línur**, og velja svo aðgerðina **Íhlutir**.  
 4.  Íhlut, sem er framleidd vara epa millivara, er bætt við.  
@@ -65,12 +65,12 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 ## <a name="to-refresh-a-production-order"></a>Framleiðslupöntun endurnýjuð  
 Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breytt þarf einnig að uppfæra upplýsingar um framleiðslupöntun. Eftirfarandi aðferð sýnir hvernig íhlutirnir eru reiknaðir fyrir fastáætlaða framleiðslupöntun. Skrefin eru svipuð fyrir Leiðarlínur.
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
 2.  Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
 3.  Velja aðgerðina **Uppfæra**.
 4. Á síðunni **Uppfæra framleiðslupöntun** velurðu einn af eftirfarandi kostum:
 
-    |Valkostur|Description|  
+    |Valkostur||Description|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Stefna tímasetningar**|**Framvirkt**|Áætlunin hefst á upphafsdagsetningu og heldur áfram (að lokadagsetningunni). Fylla verður inn upphafsdagsetningu til að nota þennan valkost.|  
     ||**Afturvirk**|Áætlunin hefst á lokadagsetningunni og heldur afturábak (að upphafsdagsetningu).|  

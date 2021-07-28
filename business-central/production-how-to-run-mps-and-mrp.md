@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að keyra fulla áætlun, MPS og MRP | Microsoft Docs
-description: Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.
+title: 'Hvernig á að: keyra fulla áætlun, MPS og MRP'
+description: Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e80b7f3c072556453f441d7b9980c7308ed3cb61
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787753"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440329"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlunargerð, MPS eða MRP
 Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.  
@@ -45,7 +45,7 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[prod_short](includes/prod_short
 >  Eiginleikann Aðgerðarboðaáætlun er hægt að keyra á milli endurgerðaráætlana og hreyfingaráætlana til að fá fljótlegt yfirlit yfir áhrif áætlanabreytinga. Hún er hins vegar ekki hugsuð til að koma að fullu í stað hinna tveggja.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Til að reikna áætlunarvinnublað:  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublöð** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Áætlunarvinnublað** og velja síðan viðkomandi tengil.  
 2.  Velja **Reikna áætlun endurgerðar** aðgerðina til að opna síðuna **Reikna áætlun**.  
 3.  Á flýtiflipanum **Valkostir** skal fylla reitina út eins og lýst er í eftirfarandi töflu.  
 

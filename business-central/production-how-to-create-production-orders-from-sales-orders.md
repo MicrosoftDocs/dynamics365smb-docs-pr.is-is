@@ -1,6 +1,6 @@
 ---
 title: Búa til framleiðslupantanir úr sölupöntunum
-description: Hægt er að búa til framleiðslupantanir úr sölupöntunum.
+description: Kynntu þér mismunandi leiðir til að búa til framleiðslupantanir fyrir framleiðsluvörur beint úr sölupöntunum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/28/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 438f4d4e1833ba607ceedb9f5d9450c0a4dbb680
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a432b8f00a24771578716a1b51678904d2e29ec5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115237"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438628"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Búa til framleiðslupantanir úr sölupöntunum
 Hægt er að búa til framleiðslupantanir fyrir framleiðsluvörur beint frá sölupöntunum.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Framleiðslupantanir búnar til í sölupöntunum:  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2.  Veldu sölupöntun sem þú vilt búa til framleiðslupöntun fyrir.  
 3.  Veldu aðgerðina **Áætlun**. Á síðunni **Áætlun sölupöntunar** er hægt að skoða magn vörunnar í sölupöntuninni sem er til ráðstöfunar.  
 4.  Veldu aðgerðina **Stofna framl.pöntun**.  

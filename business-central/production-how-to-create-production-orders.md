@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90d04a6f951c3312f88f536bfab680bcd071de63
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781939"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438603"
 ---
 # <a name="create-production-order-headers"></a>Gerð framleiðslupantanahausa
 Hægt er að búa til framl.pöntun handvirkt og fyrsta skrefið er að búa til framleiðslupöntunarhaus.
@@ -25,7 +25,7 @@ Framleiðslupantanir eru vanalega stofnaðar sjálfvirkt af áætlanaaðgerð ti
 Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er búin til. Einnig er hægt að búa til framl.pantanir með mismunandi stöðu.  
 
 ## <a name="to-create-a-production-order-header"></a>Gerð framleiðslupantanahausa:  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Í reitnum **númer** er sett næsta númer í röðinni.  
 4.  Uppruni framleiðslupöntunarinnar er valinn í reitnum **Tegund uppruna** .

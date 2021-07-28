@@ -1,6 +1,6 @@
 ---
 title: Birgðaskráning íhluta samkvæmt frálagi aðgerðar
-description: Fyrir vörur sem hafa verið settar upp með afturvirkri birgðaskráningu er sjálfgefin virkni að reikna út og bóka notkun íhluta þegar stöðu útgefinnar framleiðslupöntunar er breytt í Lokið.
+description: Þetta efnisatriði lýsir því hvernig á að losa hluti samkvæmt úttaki aðgerðar ásamt öðrum losunaraðferðum sem eiga hlut að máli.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115866"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439094"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Birgðaskráning íhluta samkvæmt frálagi aðgerðar
 Hægt er að skilgreina mismunandi losunarleiðir til að gera skráningu á notkun íhluta sjálfvirka. 
@@ -91,18 +91,18 @@ Til dæmis ef framleiðslupöntun um að framleiða 800 metra krefst 8 kg af íh
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Til að birgðaskrá íhluti samkvæmt frálagi aðgerðar
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2.  Veldu aðgerðina **Breyta**.  
 3.  Á flýtiflipanum **Áfylling**, í reitnum **Birgðaskráningaraðferð**, skal velja **Afturvirkt**.  
 
     > [!NOTE]  
     >  Veljið **Tínsla + Bakka** ef íhluturinn er notaður í birgðageymslu sem er sett upp fyrir beinan frágang og tínslu.  
 
-4.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leið** og veldu síðan tengda tengilinn.  
+4.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðir** og velja síðan viðkomandi tengil.  
 5.  Skilgreina leiðartengilskóða fyrir hverja aðgerð sem notar íhlutinn. Nánari upplýsingar eru í [Stofna leiðir ](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > Ekki skal nota sama leiðartengil fyrir mismunandi aðgerðir í leiðinni, þar sem það mun leiða til skráningar á notkun íhluta fyrir hverja tengda aðgerð.  
-6.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Framleiðsluuppskrift** og veldu síðan tengda tengilinn.  
+6.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Framleiðsluuppskrift** og velja síðan viðkomandi tengil.  
 7.  Skilgreina leiðartengilskóta úr hverju íhlutstilviki við aðgerðina þar sem hann er notaður.
 
 Notkunin verður bókuð sjálfkrafa þegar frálag er skráð. Frekari upplýsingar, sjá [Fjöldabóka frálag og keyrslutíma](production-how-to-post-output-quantity.md)

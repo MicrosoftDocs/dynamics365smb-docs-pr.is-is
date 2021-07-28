@@ -1,6 +1,6 @@
 ---
-title: Kynning - Stýring verkefna með verkum | Microsoft Docs
-description: Þessi kynning kynnir verkstýringareiginleikana í verkum. Verk eru leiðir fyrir áætlunargerð um notkun á forða fyrirtækisins og rakningu á ýmsum kostnaði sem fylgir notkun forða í tilteknu verkefni. Verk ná yfir notkun á vinnutíma starfsmanna, vélastundir, birgðahluti og aðrar gerðir notkunar sem notandinn kann að vilja fylgjast með í verkferlum.
+title: Kynning - Stýring verkefna með verkum
+description: Þessi kynning sýnir eiginleika verkefnastjórnunar í verkum sem gera þér kleift að áætla notkun á forðum fyrirtækisins og fleira.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0d65485275ce4e7516a0b19aafa609429b8d7616
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4b4be8dfa382424258100973af0d0e647b21b0f6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214729"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439044"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Kynning: Stýring verkefna með verkum
 
@@ -77,7 +77,7 @@ ms.locfileid: "6214729"
 
 ### <a name="to-prepare-the-sample-data"></a>Til að undirbúa sýnigögnin  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forði** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tilföng** og velja síðan viðkomandi tengil.  
 2.  Veljið aðgerðina **Nýtt** til að Búa til nýtt forðaspjald.  
 3.  Á flýtiflipanum **Almennt** eru eftirfarandi upplýsingar slegnar inn:  
 
@@ -100,7 +100,7 @@ ms.locfileid: "6214729"
 
 ### <a name="to-create-a-job-journal-batch"></a>Til að búa til verkbókarkeyrslu  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.  
 2.  Á síðunni **Verkbók** veljið reitinn **Heiti keyrslu**. Síðan **Bókarkeyrsla verks** opnast.  
 3.  Veljið aðgerðina **Nýtt** til að Búa til nýtt Ný lína er stofnuð með eftirfarandi upplýsingum  
 
@@ -115,7 +115,7 @@ ms.locfileid: "6214729"
 
 ### <a name="to-set-up-a-job"></a>Uppsetning verks  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2.  Veljið aðgerðina **Nýtt** til að Búa til nýtt spjald.  
 3.  Á flýtiflipanum **Almennt** eru eftirfarandi upplýsingar slegnar inn:  
 
@@ -208,7 +208,7 @@ ms.locfileid: "6214729"
 
 ### <a name="to-calculate-remaining-usage"></a>Eftirstöðvar notkunar reiknaðar  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.  
 2.  Á síðunni **Verkbók** í reitnum **Heiti keyrslu** er listinn **Verkbókarkeyrslur** opnaður. Velja skal verkbókarkeyrsluna **Trausti**.  
 3.  Veljið aðgerðina **Reikna eftirstandandi notkun**.  
 4.  Á síðunni **Verk - Reikna eftirstandandi notkun** á flýtiflipanum **Verkhluti** veljið reitinn **Verk nr.** og veljið viðeigandi verknúmer, yfirleitt verk J 00010.  
@@ -225,7 +225,7 @@ Línurnar eru bókaðar.
 
 ### <a name="to-create-a-job-sales-invoice"></a>Stofnun reiknings fyrir verksölu  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2.  Veljið verkið sem var stofnað áður og veljið því næst **Stofna verksölureikningur** aðgerðina.  
 3.  Á flýtiflipanum **Verkhluti verks**, skal hreinsa hverja þá afmörkun á **Verkhlutanr. verks** til að reikningsfæra verkið. Í reitnum **Verk nr.** er viðeigandi verk valið.  
 4.  Í flipanum  **Valkostir** er bókunardagsetningin færð inn og skilgreint hvort stofna eigi einn reikning fyrir hvert verk eða einn fyrir öll verk.  
@@ -235,7 +235,7 @@ Línurnar eru bókaðar.
 
 ### <a name="to-post-a-new-sales-invoice"></a>Nýr sölureikningur bókaður  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölureikningar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
 2.  Reikningur er valinn fyrir viðskiptamann Nr. 01445544. Sjá má upplýsingarnar sem slegnar voru inn frá áætlunarlínunum.  
 3.  Valið er **Bóka** aðgerðin. Velja **Já** til að staðfesta bókun.  
 
@@ -249,7 +249,7 @@ Línurnar eru bókaðar.
 
 ### <a name="to-open-the-statistics-page"></a>Tölfræðisíðan opnuð  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2.  Veldu **Upplýsingar** aðgerðina. Hægt er að fara yfir nákvæmar upplýsingar um verkkostnað, kostnað og hagnað í bæði innlendri og erlendri mynt.  
 3.  Velja hnappinn **Loka** til að loka síðunni **Verkupplýsingar**.  
 
@@ -258,7 +258,7 @@ Línurnar eru bókaðar.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Föstu verði verka stýrt  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2. **Guildford** verknúmerið er valið og svo er valin **Verkhlutalínur verks** aðgerðina.  
 3. Lína 1120 er valin og í reitnum **Fjárhagsáætlun (heildarkostnaður)** er hægrismellt á upphæðina og valið **Köfun**.  
 
@@ -278,7 +278,7 @@ Eftir að Trausta hefur verið bætt við tímasetninguna í þessa verkhlutalí
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Tímum bætt í Verkbókina  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.  
 2. Eftirfarandi upplýsingar eru slegnar inn á nýja línu:  
 
     - **Tegund línu**: **(autt)**  
@@ -339,7 +339,7 @@ Petra hefur náð samkomulagi við viðskiptamann, Selagorian hf, um að setja u
 
 ### <a name="to-copy-a-job"></a>Verk afritað  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2. Veljið aðgerðina **Nýtt** til að Búa til nýtt verk. Eftirfarandi upplýsingar eru færðar inn:  
 
     - **Lýsing**: **Uppsetning tíu fundarsala**  
@@ -365,7 +365,7 @@ CRONUS hefur nýlega fengið stórt verkefni sem tekur um eitt ár að ljúka. V
 
 ### <a name="to-set-up-a-new-account"></a>Að setja upp nýjan reikning  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókhaldslykill** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Bókhaldslykill** skal velja aðgerðina **Nýtt** til að stofna nýtt spjald.  
 3. Á spjaldið **Nýr fjárhagsreikningur** eru færðar inn eftirfarandi upplýsingar:  
 

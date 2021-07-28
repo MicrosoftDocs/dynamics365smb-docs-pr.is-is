@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 939b280e631113d3196f6fbbc90d9bf19b9fc408
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025834"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438753"
 ---
 # <a name="power-bi--faq"></a>ALGENGAR SPURNINGAR UM Power BI
 
@@ -65,8 +65,20 @@ Við stjórnum ekki þessari kröfu. Þessi krafa er sett af Power BI. Frekari u
 <!-- 7 -->
 ### <a name="does-the-connector-work-with-api-pages"></a>Virkar tengið með API-síðum?
 
-Ekki ennþá. En frá og með júní 2021 mun nýja Power BI tengið styðja bæði vefþjónustu Business Central og API-síður. Frekari upplýsingar eru í [Virkja Power BI tengi til að vinna með API fyrir Business Central í stað þess að nota eingöngu vefþjónustu](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Já. Frá og með júní 2021 mun nýja Power BI tengingin styðja bæði vefþjónustu Business Central og API-síður. Frekari upplýsingar eru í [Virkja Power BI tengi til að vinna með API fyrir Business Central í stað þess að nota eingöngu vefþjónustu](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
+### <a name="can-i-build-a-power-bi-report-using-the-sales-invoice-lines-or-journal-lines-apis"></a>Get ég smíðað Power BI skýrslu með API sölureikningslína eða færslubókarlína?
+
+Mest notuðu færslulínurnar eru tiltækar í [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). Þú getur notað þær til að búa til skýrslur í Power BI með því að velja þær í **Dynamics 365 Business Central** tenginu. Hins vegar eru **Línur** API hannaðar til að vera aðeins notaður með mjög sértækum síum og virka kannski ekki við þínar aðstæður. Villa gæti komið upp svipað og „Tilgreina verður kenni eða kenni fylgiskjals til að sækja línurnar“. Gerðu eftirfarandi til að leysa úr þessu vandamáli þegar þú færð gögn frá Business Central fyrir skýrsluna í Power BI Desktop:
+
+1. Í stað þess að innihalda gagnagjafann fyrir línurnar skaltu bæta við yfirgagnagjafanum. Til dæmis bæta við **Sölureikningi** í staðinn fyrir **Sölureikningslínum**.
+2. Veldu **Umbreyta gögnum** í Power BI Desktop aðgerðarstikunni.
+3. Veldu fyrirspurnina sem þú varst að bæta við, t.d. **Sölureikningar**.
+4. Settu á allar nauðsynlegar síur á færslurnar til að draga úr færslumagninu sem þú hleður inn í skýrsluna.
+5. Flettu til hægri þar til þú finnur dálk sem heitir það sama og línurnar, t.d. **SalesInvoiceLines**.
+6. Veldu útvíkkunarhnappinn í hausn dálksins við hliðina á dálkheitinu.
+
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Sýnir dálkinn SalesInvoiceLines í Power BI Desktop.":::
 <!-- 11 --> 
 ### <a name="is-it-possible-to-choose-which-business-central-environment-to-get-data-from-for-power-bi-for-example-like-a-sandbox-or-production-environment"></a>Er hægt að velja hvaða Business Central umhveri á að sækja gögn frá, Power BI eins og sandkassa eða framleiðsluumhverfi? 
 
@@ -137,14 +149,23 @@ Fj. Ekki núna.
 Þegar nýja tengið er tiltækt í júní 2021 eru notendur hvattir til að nota API-síður fremur en fyrirspurnir sem eru birtar sem vefþjónustur.
 
 <!-- 13 --> 
-### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-developer-have-to-create-a-custom-query"></a>Getur endanotandi búið til vefþjónustu með dálki sem er í töflu Business Central en ekki síðu? Eða þarf forritarinn að stofna sérsniðna fyrirspurn? 
+### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Getur endanotandi búið til vefþjónustu með dálki sem er í töflu Business Central en ekki síðu? Eða þarf þróunaraðilinn að stofna sérsniðna fyrirspurn? 
 
-Ekki ennþá. En þegar nýja tengið er tiltækt í júní 2021 getur hönnuður búið til nýja API-síðu til að uppfylla þessa kröfu. 
+Já. Með útgáfu nýja tengisins í júní 2021 getur þróunaraðili búið til nýja API-síðu til að uppfylla þessa kröfu. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Get ég tengt Power BI við skrifvarinn gagnagrunnsþjón Business Central Online? 
 
 Fj. En við erum með þennan eiginleika á langtímaáætlun okkar. 
+
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Hvernig breyti ég eða hreinsa notandareikninginn sem ég nota núna til að tengjast Business Central frá Power BI Desktop?
+
+Í Power BI Desktop skal fara í gegnum eftirfarandi skref:
+
+1. Í valmyndinni skal velja **Valkostir og stillingar** > **Stillingar gagnagjafa**.
+2. Veldu **Dynamics Business Central** úr listanum, veldu síðan **Hreinsa heimildir** > **Eyða**.
+
+Næst þegar þú tengist Business Central til að ná í gögn verður beðið um innskráningu.
 
 ## <a name="performance"></a>[Afköst](#tab/performance)
 

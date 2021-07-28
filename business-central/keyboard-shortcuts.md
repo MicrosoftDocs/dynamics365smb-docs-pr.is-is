@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e0e225df3d3d212165a8a94eaab964b079ca868
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115641"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438928"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -25,7 +25,7 @@ Yfirlit yfir algengustu flýtilykla á lyklaborði er að finna í [Flýtilyklar
 
 > [!TIP]
 > Til að fá yfirlit yfir mest notuðu flýtileiðirnar skaltu velja eftirfarandi mynd og sækja PDF-skjalið.  
-> [ ![Tákn fyrir PDF-skrána](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Tákn sem opnar PDF")
+> [ ![Tákn fyrir PDF-skrána.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Tákn sem opnar PDF")
 
 ## <a name="overview"></a>Yfirlit
 
@@ -55,7 +55,7 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 |Alt+N |Opna síðu til að búa til nýja færslu. (Svipað og að velja aðgerðirnar **Nýtt** og **+**.)|
 |Alt+Shift+N |Velja nýlega stofnaða síðu og opna nýja til að búa til nýja færslu. Á sama hátt bókar ALT+F9 skjal og býr til nýtt.|
 |Alt+T|Opna síðuna **Mínar stillingar**.|
-|Alt+hægri ör|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur hnappinn ![Valhnappur](media/assist-edit-icon.png "AssistEdit hnappur"). Þetta er notað þegar venjulegi fellilistahnappur (Alt+Niðurör) í sama reitnum er notaður í öðrum tilgangi.|
+|Alt+hægri ör|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur ![AssistEdit](media/assist-edit-icon.png "AssistEdit hnappur"). hnappur. Þetta er notað þegar venjulegi fellilistahnappur (Alt+Niðurör) í sama reitnum er notaður í öðrum tilgangi.|
 |Ctrl+Alt+Shift+C|Birta upplýsingar í merki fyrirtækis.|
 |Ctrl+Alt+F1|Opna og loka glugganum fyrir síðueftirlit. Glugginn fyrir síðueftirlit sýnir upplýsingar um síðuna, t.d. upprunatöflu, reiti, síur, viðbætur og fleira.<br /><br />Frekari upplýsingar er að finna í [Eftirlit með síðum](across-inspect-page.md).|
 |Ctrl+C |Afrita gildið á reit. Ef reiturinn er í fókus og þú hefur ekki valið neinn texta í reitnum mun þetta afrita allt gildið. Ef þú hefur valið einhvern texta í reitnum er eingöngu valilnn texti afritaður.|

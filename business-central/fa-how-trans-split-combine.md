@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40dcb4a758f2ac98903e61df27863b9fee854922
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74013be6664db6ea62c2da66fb38b076c08ffea2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770317"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440575"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Flytja, skipta upp eða sameina eignir
 
@@ -26,12 +26,12 @@ ms.locfileid: "5770317"
 
 1. Uppsetning nýrrar eignar. Færið inn nýja deild sem vídd.  
 2. Úthluta eigna-/afskriftabók á nýju eignina. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).
-3. Veldu táknið ![ljósapera sem opnar eiginleikann „Viðmótsleit“](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláið inn **Endurflokkunarbækur eignar** og veljið síðan tengda tengilinn.
+3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurflokkunarbækur eignar** og velja síðan viðkomandi tengil.
 4. Stofna færslubókarlínu þar sem **Eignanr.** reiturinn inniheldur upphaflega eign og **Nýtt Eignanr.** reiturinn inniheldur nýju eignina sem á að færa. Hinir reitirnir eru fylltir út eins og á við.  
 5. Valið er **endurflokka** aðgerð.
 
     Línurnar tvær eru nú stofnaðar í eignafjárhagsbókinni með því að nota sniðmátið og keyrsluna sem tilgreind voru á síðunni **uppsetning eignabókar** fyrir tilgreinda afskriftabók. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
-6. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignafjárhagsbækur** og veldu síðan tengda tengilinn.    
+6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignafjárhagsbók** og velja síðan viðkomandi tengil.    
 7. Á síðunni **fjárhagsbók eigna** er valið **Bóka** aðgerð til að bóka endurflokkun sem framkvæmd var í skrefi 4 til 5.
 
 Ef bókaður hefur verið stofnkostnaður fyrir eina eign er hægt að nota eignaendurflokkunarbókina til að skipta stofnkostnaðinum á nokkrar eignir.  
@@ -41,7 +41,7 @@ Hægt er að skipta einni eign í margar eignir, til dæmis þegar þörf er á 
 
 1. Uppsetning tveggja nýrra eigna. Færa skal inn viðeigandi deildir sem vídd.  
 2. Úthluta eigna-/afskriftabók á nýju eignirnar. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).
-3. Veldu táknið ![ljósapera sem opnar eiginleikann „Viðmótsleit“](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláið inn **Endurflokkunarbækur eignar** og veljið síðan tengda tengilinn.
+3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurflokkunarbækur eignar** og velja síðan viðkomandi tengil.
 4. Búa til tvö endurflokkunarbókarlínur, ein fyrir hverja nýja eign.
 5. Í fyrstu línunni er færð inn önnur eignin í reitinn **Nýtt Eignanr.** og 25 í **Endurflokka kaupverð %** reitinn.
 6. Í annarri línunni er færð inn þriðja eignin í reitinn **Nýtt Eignanr.** og 40 í **Endurflokka kaupverð %** reitinn.
@@ -49,26 +49,26 @@ Hægt er að skipta einni eign í margar eignir, til dæmis þegar þörf er á 
 8. Valið er **endurflokka** aðgerð.  
 
     Línurnar tvær eru nú stofnaðar í eignafjárhagsbókinni með því að nota sniðmátið og keyrsluna sem tilgreind voru á síðunni **uppsetning eignabókar** fyrir tilgreinda afskriftabók. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).    
-9. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignafjárhagsbækur** og veldu síðan tengda tengilinn.
+9. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignafjárhagsbók** og velja síðan viðkomandi tengil.
 10. Á síðunni **fjárhagsbók eigna** er valið **Bóka** aðgerð til að bóka endurflokkun sem framkvæmd var í skrefi 4 til og með 8.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Sameina tvær eignir í eina
 
 Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir skiptum eignum í eina deild. Ef búið er að bóka kaupverð og afskriftir fyrir eignina sem á að færa, verða þessi gildi sameinuð í eina staka eign.
 
-1. Veldu táknið ![ljósapera sem opnar eiginleikann „Viðmótsleit“](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláið inn **Endurflokkunarbækur eignar** og veljið síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurflokkunarbækur eignar** og velja síðan viðkomandi tengil.
 2. Stofna endurflokkunarbók þar sem **Eignanr.** reiturinn inniheldur eignina sem á að færa/sameina og **Nýtt Eignanr.** reiturinn inniheldur eignina sem hún verður sameinuð við.
 3. Láttu Reiturinn **Endurflokka kaupverðs %** auðan til að flytja/sameina allt kaupverð.  
 4. Veldu **Endurflokka kaupverð** og **Endurflokka Afskriftir** gátreiti.
 5. Valið er **endurflokka** aðgerð.
 
     Línurnar tvær eru nú stofnaðar í eignafjárhagsbókinni með því að nota sniðmátið og keyrsluna sem tilgreind voru á síðunni **Uppsetning eignabókar** fyrir tilgreinda afskriftabók. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).   
-6. Veldu táknið ![ljósapera sem opnar eiginleikann „Viðmótsleit“](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláið inn **Eignafjárhagsbók** og veljið síðan tengda tengilinn.
+6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsbækur eignar** og velja síðan viðkomandi tengil.
 7. Á síðunni **fjárhagsbók eigna** er valið **Bóka** aðgerð til að bóka endurflokkun sem framkvæmd var í skrefi 2 til og með 5.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Skoða breytt bókfært afskriftarvirði vegna endurflokkunar eigna.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir, bókfært virði 02** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir - Bókfært virði 02** og velja síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum.
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.  
 

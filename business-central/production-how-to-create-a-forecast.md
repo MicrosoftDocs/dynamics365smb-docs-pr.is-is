@@ -1,6 +1,6 @@
 ---
 title: Hvernig á að búa til eftirspurnarspá
-description: Þú getur búið til sölu- og framleiðsluspár á síðunni **Eftirspurnarspá**.
+description: Kynntu þér spáreiginleika í Business Central og hvernig hægt er að búa til sölu- og framleiðsluspá.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779329"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438688"
 ---
 # <a name="create-a-demand-forecast"></a>Búa til eftirspurnarspá
 Þú getur búið til sölu- og framleiðsluspár á síðunni **Eftirspurnarspá**.  
@@ -62,7 +62,7 @@ Skoðið þetta dæmi: Fyrirtækið þitt kaupir og selur vörur á tveimur sta�
 Síðan stofnarðu sölupöntun með magn upp á 12 á staðsetningu VESTUR. Áætlanakerfið stingur upp á því að þú gerir eftirfarandi:
 
 - Fylla á 10 stykki fyrir staðsetningu AUSTUR, samkvæmt gögnum frá spánni.  
-- Fylla á 12 stykki fyrir staðsetningu VESTUR, samkvæmt sölupöntun. Þau 4 stykki sem voru tilgreind í spánni eru að fullu notuð af raunverulegri eftirspurn sölupöntunarinnar. Frekari upplýsingar eru í [Spá um eftirspurn er minnkuð eftir sölupöntunum](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Fylla á 12 stykki fyrir staðsetningu VESTUR, samkvæmt sölupöntuninni. Stykkin fjögur sem voru tilgreind í spánni eru að fullu notuð af raunverulegri eftirspurn sölupöntunarinnar. Frekari upplýsingar eru í [Spá um eftirspurn er minnkuð eftir sölupöntunum](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  Ef staðsetningamiðaðar spár eru skoðaðar einar og sér gæti verið að spáin í heild sinni sýni ekki rétta mynd.
@@ -85,7 +85,7 @@ Síðan stofnarðu sölupöntun með magn upp á 12 á staðsetningu VESTUR. Á�
 
 ## <a name="to-create-a-demand-forecast"></a>Til að búa til eftirspurnarspá
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eftirspurnarspá** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eftirspurnarspá** og velja síðan viðkomandi tengil.  
 2. Á **Almennt** flýtiflipanum skaltu velja spá í **Heiti eftirspurnarpár** reitnum. Margar spár geta verið til í kerfinu og þeim er skipt eftir heiti og spártegund.  
 3. Í reitnum **Afmörkun staðsetningar** er staðsetningin valin sem þessi spá mun eiga við um.
 4. Á reitnum **Skoða eftir** til að skipta um það tímabil sem sýnt er í hverjum dálki . Eftirfarandi tímabil eru í boði: **Dagur**, **Vika**, **Mánuður**, **Fjórðungur**, **Ár** eða **Reikningstímabil** sem sett er upp á fjármálasvæði notanda.    

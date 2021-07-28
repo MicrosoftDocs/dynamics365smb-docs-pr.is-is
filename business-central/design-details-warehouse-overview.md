@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - vöruhús yfirlit | Microsoft Docs
-description: Til að styðja við raunmeðhöndlun vara á svæði og hólfastigi, verða allar upplýsingar að rekja fyrir hverja færslu eða flutning í vöruhús. Þessu er stjórnað í töflunni **Vöruhúsafærsla**. Hver færsla er vistuð í birgðageymsluskrá.
+title: Hönnunarupplýsingar - yfirlit vöruhúss
+description: Til að styðja við raunmeðhöndlun vara á svæði og hólfastigi, verða allar upplýsingar að rekja fyrir hverja færslu eða flutning í vöruhús.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: f1ecd1324df2433d31ff1480316a9e281ad5c5df
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 586fdc74b174ae24dea6354953899370f076a2da
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215679"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439536"
 ---
 # <a name="design-details-warehouse-overview"></a>Hönnunarupplýsingar yfirlit vöruhúss
 Til að styðja við raunmeðhöndlun vara á svæði og hólfastigi, verða allar upplýsingar að rekja fyrir hverja færslu eða flutning í vöruhús. Þessu er stjórnað í töflunni **Vöruhúsafærsla**. Hver færsla er vistuð í birgðageymsluskrá.  
@@ -28,7 +28,7 @@ Taflan **Innihald hólfs** er notuð til að meðhöndla allar mismunandi víddi
 
 Eftirfarandi mynd lýsir dæmigerðu vöruhúsaflæði.  
 
-![Yfirlit fyrir vöruhúsaferli](media/design_details_warehouse_management_overview.png "Yfirlit fyrir vöruhúsaferli")  
+![Yfirlit fyrir vöruhúsaferli.](media/design_details_warehouse_management_overview.png "Yfirlit fyrir vöruhúsaferli")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grunn- eða ítarleg vörugeymsla  
 Vöruhúsavirkni í [!INCLUDE[prod_short](includes/prod_short.md)] má framkvæma í mismunandi flækjustigum, allt eftir ferlum fyrirtækisins og pöntunarmagni. Aðalmunurinn er sá aðgerðir eru framkvæmdar pöntun fyrir pöntun í grunnvörugeymslu þegar þeim er steypt saman fyrir margfaldar pantanir í ítarlegu vöruhúsi.  

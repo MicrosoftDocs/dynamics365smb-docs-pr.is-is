@@ -1,6 +1,6 @@
 ---
-title: Skoða síður eftir hlutverkum| Microsoft Docs
-description: ''
+title: Skoða og fletta í síðum eftir hlutverki
+description: Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir hlutverkið þitt og önnur hlutverk með hlutverkaleitinni.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9b0c85b181f68e0fd6078b85d43b7b0d08bccd80
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c6acdd0370144c4a49f068a26c5f5f6c6f6a9a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783235"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440028"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Að finna síður með hlutverkaleit
 Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir þitt hlutverk, og fyrir önnur hlutverk ef farið er skrefi lengra. Í eftirfarandi fylgigögnum er þetta yfirlit yfir eiginleika kallað *Hlutverkaleit*.
@@ -24,7 +24,7 @@ Hver eining á hlutverkaleit er aðgerð sem opnar síðu. Í samræmi við þa�
 
 Hægt er að opna hlutverkaleit úr Mitt hlutverk og öllum listasíðum og úr **Viðmótsleit** .
 
-- Í Mitt hlutverk eða einhverri listasíðu skal velja ![Valmyndarhnappinn](media/ui_menu_button.png "Valmyndarhnappur")til hægri á yfirlitsstikunni eða ýta á Shift+F12.
+- Í Mitt hlutverk eða einhverri listasíðu skal velja ![Valmyndarhnappinn.](media/ui_menu_button.png "Valmyndarhnappur") hægra megin á yfirlitsstikunni eða ýta á Shift+F12.
 - Í glugganum **Viðmótsleit** skaltu velja aðgerðina **skoða** neðst.
 
 Veldu aðgerðina **Finna** efst í hlutverkaleitinni til að staðsetja á fljótvirkan hátt heiti eiginleika sem innihalda tiltekinn lið.

@@ -1,6 +1,6 @@
 ---
 title: Hvernig á að búa til nýtt fyrirtæki | Microsoft Docs
-description: Til að nota RapidStart Services eru stofnaðar töflur og síður en engin gögn eru í þeim.
+description: Notaðu RapidStart Services töflur og síður til að stofna nýtt fyrirtæki þar sem framkvæma skal innleiðingu viðskiptamanns.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c21d86c67c6020d1a32da4816246bc7aaf96c2ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779883"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439636"
 ---
 # <a name="create-a-new-company"></a>Búa til nýtt fyrirtæki
 Til að nota RapidStart Services fyrir [!INCLUDE[prod_short](includes/prod_short.md)] skal fyrst stofna nýtt fyrirtæki þar sem framkvæma skal innleiðingu viðskiptamanns. Þegar nýtt fyrirtæki er stofnað eru staðlaðar [!INCLUDE[prod_short](includes/prod_short.md)] töflur og síður búnar til, en engin gögn eru í þeim.
@@ -26,7 +26,7 @@ Grunnstillingarpakkar dæma, þ.á.m. skrár sem miðast við land/svæði eru i
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Til að nota dæmið um BASICCONFIG grunnstillingarpakkann  
 1. Opna fyrirtækið CRONUS International Ltd. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Grunnstillingarpakka** og velja síðan viðkomandi tengil.  
 3. Velja skal BASICCONFIG-pakkann af listanum og síðan velja aðgerðina **Flytja út pakka**.  
 
 Notið eftirfarandi aðgerð til að búa til nýtt fyrirtæki og nota BASICCONFIC pakkann sem hluta ferlisins.  

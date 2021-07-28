@@ -1,6 +1,6 @@
 ---
-title: Kynning - Sjálfvirk áætlun birgða | Microsoft Docs
-description: Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga á aðalframleiðsluáætluninni (MPS) og efnisþarfaáætluninni (MRP) útfrá raunverulegri eftirspurn og eftirspurn samkvæmt spá.
+title: Kynning - Sjálfvirk áætlun birgða
+description: Þessi kynning sýnir hvernig nota skal birgðaáætlunarkerfið til að áætla sjálfkrafa innkaupa- og framleiðslupantanirnar í mismunandi sölupöntunum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214704"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439361"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Kynning: Sjálfvirk áætlun birgða
 
@@ -74,7 +74,7 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
 
 ### <a name="to-change-selected-planning-parameters"></a>Til að breyta völdum áætlunarfæribreytum  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðahaldseiningar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðahaldseiningar** og velja síðan viðkomandi tengil.  
 2.  Opna EAST birgðahaldseininguna fyrir vöru 1100, framhjól.  
 3.  Á flýtiflipanum **Áætlun** eru reitirnir fylltir út eins og lýst er í eftirfarandi töflu.  
 
@@ -91,7 +91,7 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
 
 ### <a name="to-create-the-sales-order"></a>Stofna sölupöntun  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Á síðunni **Sölupöntun** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
@@ -103,7 +103,7 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Stofna endurgerðaráætlun til að uppfylla eftirspurn í birgðageymslunni EAST  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublað** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Áætlunarvinnublað** og velja síðan viðkomandi tengil.  
 2.  Velja **Reikna áætlun endurgerðar** aðgerðina.  
 3.  Á **Reikna áætlun - Áætl.tillaga** síðuna, fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
@@ -126,7 +126,7 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Til að reikna MRP svo það taki undirliggjandi íhlutaþarfir með  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublað** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Áætlunarvinnublað** og velja síðan viðkomandi tengil.  
 2.  Velja **Reikna áætlun endurgerðar** aðgerðina.  
 3.  Á **Reikna áætlun - Áætl.tillaga** síðuna, fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
@@ -220,7 +220,7 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
 
 3.  Ráðstöfunarviðvörunin er samþykkt og svo er hnappurinn **Já** valinn til að skrá eftirspurnarmagnið.  
 4.  Næst þarf að enduráætla til að aðlaga birgðaáætlunina.  
-5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublað** og veldu síðan tengda tengilinn.  
+5.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Áætlunarvinnublað** og velja síðan viðkomandi tengil.  
 6.  Velja **Reikna áætlun nettóbreytingar** aðgerðina.  
 7.  Á **Reikna áætlun - Áætl.tillaga** síðuna, fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 

@@ -1,6 +1,6 @@
 ---
-title: Stofna verksölureikning til að reikningsfæra verk| Microsoft Docs
-description: Lýsir því hvernig skal reikningsfæra viðskiptamenn fyrir verkútgjöld þegar á verkið líður.
+title: Stofna verksölureikning til að reikningsfæra verk
+description: Lýsir því hvernig skal reikningsfæra viðskiptavini fyrir útgjöldum verks eftir því sem verki vindur fram og kostnaður safnast upp.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: 4c4bfd0293ddfa626dda75518219e597b6c4e721
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938147"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439177"
 ---
 # <a name="invoice-jobs"></a>Reikningsfærsla verka
 Meðan á verkefninu stendur getur kostnaður vegna forðanotkunar, efnis og verktengdra innkaupa safnast upp. Þessar færslur eru bókaðar í verkbókina á vinnslutíma verksins. Mikilvægt er að allur kostnaður sé skráður í verkbókina áður en viðskiptavininum er sendur reikningur.
@@ -33,7 +33,7 @@ Hægt er að stofna reikning fyrir verk eða einn eða fleiri verkhluta fyrir vi
 
 Eftirfarandi ferli sýnir hvernig á að nota keyrslu til að reikningsfæra fleiri verk.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofna sölureikning verks** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk - Stofna sölureikning** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Ef takmarka á verk sem keyrslan á að vinna skal tilgreina afmarkanir.
 4. Velja hnappinn **Í lagi** til að stofna reikningana.  
@@ -46,7 +46,7 @@ Hægt er að yfirfara og bóka stofnaða reikninga í glugganum **Sölureikninga
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Að búa til og bóka sölureikninga verks úr verkáætlunarlínum
 Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tíma magnið af vörunni, forða eða fjárhagsreikning sem á að reikningsfæra.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.
 2. Opnið viðeigandi verk.
 3. Valinn er verkhluti þar sem reiturinn **Verkhlutagerð** inniheldur **Bókuð** og svo er aðgerðin **Verkhlutalínur** valin.  
 4. Í verkáætlunarlínu í reitnum **Magn Til að reikningsfæra** er slegið inn magn vörunnar, forðann, fjárhagsreikningsgerð sem á að reikningsfæra.  

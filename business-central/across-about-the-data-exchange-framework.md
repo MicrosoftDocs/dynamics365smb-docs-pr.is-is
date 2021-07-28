@@ -1,21 +1,21 @@
 ---
-title: Um gagnaskiptaramma | Microsoft Docs
-description: Snið fyrir skrár vegna skipta á gögnum í skrám banka, rafræn skjöl, gengi gjaldmiðla og önnur með ERP-kerfi eru breytileg eftir gagnagjafa gagnaskrár og landi/svæði.
+title: Um gagnaskiptaramma
+description: Þetta efnisatriði útskýrir hvernig á að nota gagnaskiptarammann til að hafa umsjón með skiptingu gagna í viðskiptaskjölum eins og reikningum með viðskiptafélögum þínum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 6ae76aa8f8522b7d93dd442d6d8cc748f1d2dac4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 53c0bcbf03f989175783ebb93228815712c25552
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776323"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439119"
 ---
 # <a name="about-the-data-exchange-framework"></a>Um gagnaskiptaramma
 
@@ -25,9 +25,9 @@ Sem kerfisstjóri eða Microsoft-samstarfsaðili er hægt að nota rammann í n�
 
  Eftirfarandi skýringarmyndir sýna arkitektúr gagnaskiptarammans.  
 
- ![Gagnaskiptarammi &#45; Innflutningur](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Gagnaskiptarammi &#45; Innflutningur.](media/across-data-exchange/dataexchangeframework_import.png)  
 
- ![Gagnaskiptarammi &#45; Útflutningur](media/across-data-exchange/dataexchangeframework_export.png)  
+ ![Gagnaskiptarammi &#45; Útflutningur.](media/across-data-exchange/dataexchangeframework_export.png)  
 
 ## <a name="electronic-documents"></a>Rafræn skjöl
 

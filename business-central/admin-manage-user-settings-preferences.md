@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 36850a2d0d8f85a0436b5d268c3cd2653b2f785f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779758"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438953"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Stjórna notendastillingum og kjörstillingum
 
@@ -74,7 +74,7 @@ Sem stjórnandi geturðu fengið yfirlit yfir einstaka breytingar á [!INCLUDE [
 
 ## <a name="to-review-or-delete-user-personalizations"></a>Að yfirfara eða eyða sérstillingum notanda
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, slá inn **Sérsniðnar síður** og velja svo viðeigandi tengil.
+1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, farðu í **Sérsniðnar síður** og veldu svo viðeigandi tengil.
 2. Þetta birtir lista yfir notendur og sérstilltar síður þeirra. Til að hreinsa sérstillingu notanda er smellt á viðeigandi línu eða valið **Stjórna** og síðan valið **Eyða**.
 
 Þetta eyðir sérstillingum og upplifun notandans á viðkomandi síðu fer aftur í sjálfgefna stöðu.

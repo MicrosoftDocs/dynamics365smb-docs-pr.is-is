@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að setja upp notendur verkflæðis | Microsoft Docs
-description: Áður en hægt er að stofna verkflæði verður að setja upp notendur sem taka þátt í verkflæðum. Þetta þarf nauðsynlega að gera til að geta tilgreint hverjir verða að fá tilkynningu sem bregðast þarf við í verkflæðisskrefi.
+title: 'Hvernig á að: Setja upp notendur verkflæðis'
+description: Áður en hægt er að stofna verkflæði verður að setja upp notendur sem taka þátt í þeim á síðu notendaflokks verkflæðis.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9c0b7d79f59d2d59d2d382e3dc602769f41ac1f0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774637"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439921"
 ---
 # <a name="set-up-workflow-users"></a>Setja upp notendur verkflæðis
 
@@ -32,7 +32,7 @@ Verkflæðisnotendur sem virka sem samþykktarnotendur, bæði samþykkjendur be
 
 ## <a name="to-set-up-a-workflow-user"></a>Uppsetning verkflæðisnotenda
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendahópar verkflæðis** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Notendaflokkar verkflæðis** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð. Síðan **Notendahópur verkflæðis** opnast.  
 3. Í **Kóði** reitinn skal slá inn að hámarki 20 stafi til að auðkenna verkflæðið.  
 4. Í **Lýsing** reitnum skal lýsa verkflæðinu.  

@@ -1,18 +1,18 @@
 ---
-title: Hvernig á að rekja pakka | Microsoft Docs
-description: Nota rakningarþjónustu flutningsaðila til að sjá stöðuna á sendingu.
+title: Hvernig á að rekja sendingar
+description: Notaðu rakningarþjónustu flutningsaðila á internetinu til að rekja pakkningar og fylgjast með framvindu sendingar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fea12afc4c9c1273fe8ba6da563240781fb1bc9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778348"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440204"
 ---
 # <a name="track-packages"></a>Finna sendingar
 
@@ -22,7 +22,7 @@ Eftirfarandi ferli sýnir hvernig á að rekja pakka frá bókaðri sölusending
 
 ## <a name="to-track-a-package"></a>Sendingaleit
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókuð söluafhending** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókuð söluafhending** og velja síðan viðkomandi tengil.
 2. Viðeigandi afhending er opnuð.
 3. Veldu aðgerðina **Uppfæra fylgiskjal**.
 4. Í **Rakningarnúmer pakka** reitinn er ritað pakkanúmerið sem flutningsaðilinn lagði í té. Uppfærðu **Flutningsaðili** ef þörf er á og lokaðu síðunni.

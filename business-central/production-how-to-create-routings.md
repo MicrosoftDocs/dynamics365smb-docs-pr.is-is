@@ -1,6 +1,6 @@
 ---
-title: Hvernig skal búa til leiðir | Microsoft Docs
-description: Leið hefur að geyma aðalgögn sem skráir ferlisþarfir vara. Þegar framleiðslupöntun er búin til fyrir vöru stjórnar leið hennar áætlanagerð yfir aðgerðir eins og sýnt er á síðunni Leið framl.pöntunar í framleiðslupöntuninni.
+title: Hvernig á að stofna leiðir
+description: Þetta efnisatriði sýnir yfirlit yfir mismunandi leiðir til að búa til leiðir sem innihalda skilyrði og hvernig á að stofna tengla fyrir leiðir.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 40c3a8b938e2d4fa07ae0f5794443d659b06e2e2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0ebd8d0c264dde17522eae3c8a6f718b485ec7f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779304"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439846"
 ---
 # <a name="create-routings"></a>Stofna leiðir
 
@@ -32,8 +32,8 @@ Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framl
 
 ## <a name="to-create-a-routing"></a>Stofna leið
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leið** og veldu síðan tengda tengilinn.  
-2. Valið er **Nýtt** aðgerð.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðir** og velja síðan viðkomandi tengil.  
+2. Valið er aðgerðin **Nýtt**.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Í reitnum **Tegund**, veljið **Í röð** til að reikna framl. leiðina samkvæmt gildinu í reitnum **Aðgerðarnr.**. .  
     Veljið **Samhliða** til að reikna aðgerðir samkvæmt gildinu í reitnum **Næsta aðgerðarnr.** .  
@@ -64,7 +64,7 @@ Hægt að búa til leiðartengla til að tengja íhluti við ákveðnar aðgerð
 
 Annar mikilvægur kostur er sá að tenging íhluta og aðgerða er birt í rökrænni uppbyggingu framvindu þegar síðan **Framleiðslubók** er notuð í bókanir frálags og notkunar.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leið** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðir** og velja síðan viðkomandi tengil.  
 2. Opna skal leiðina með aðgerðunum sem á að tengja.  
 
     Tryggja þarf að staða leiðar sé **Í þróun**.  
@@ -96,7 +96,7 @@ Valdir íhlutir verða nú tengdir við valdar aðgerðir þegar framleiðslupö
 
 Ef krafist er starfsmanna með sérþekkingu eða sérstaka heimild fyrir aðgerðinni má úthluta viðkomandi starfsmönnum á aðgerðina. Að auki geturðu úthlutað verkfærum og gæðaráðstöfunum til aðgerðarinnar. Þetta ferli lýsir því hvernig skal úthluta starfsmönnum. Skrefin eru svipuð fyrir aðrar gerðir aðgerðaupplýsinga.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leið** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðir** og velja síðan viðkomandi tengil.  
 2. Viðeigandi leið er opnuð.  
 3. Á flýtiflipanum **Línur** skal velja línuna sem á að vinna úr og svo velja aðgerðina **Virkni** og svo aðgerðina **Starfsmenn**.  
 4. Reitirnir á síðunni **Starfsmenn leiðar** eru fylltir út.  
@@ -106,7 +106,7 @@ Ef krafist er starfsmanna með sérþekkingu eða sérstaka heimild fyrir aðger
 
 Með útgáfureglunni er hægt að fást við margar útgáfur. Skipulag leiðaútgáfunnar samsvarar skipulagi leiðarinnar sem felur í sér leiðaútgáfuhaus og leiðaútgáfulínur. Aðalmunurinn ræðst af upphafsdagsetningunni.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leið** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðir** og velja síðan viðkomandi tengil.  
 2. Leið sem á að afrita er valin og svo er aðgerðin **Útgáfur** valin.  
 3. Á síðunni **Leiðarútgáfur** skal velja aðgerðina **Nýtt**.
 4. Fyllið inn reitina eftir þörfum.

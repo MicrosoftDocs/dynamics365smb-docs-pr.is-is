@@ -1,6 +1,6 @@
 ---
-title: Tínsla og Afhending í einfaldar grunngerðir vöruhúss
-description: Í Business Central, er hægt að framkvæma útleiðarferlið til að tína og afhenda á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins.
+title: Tínsla og afhending í einföldum vöruhúsaskilgreiningum
+description: Í Business Central er hægt að framkvæma ferli útleiða til að tína og afhenda á eftirfarandi fjóra vegu eftir því hvert flækjustig vöruhússins er.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/27/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214654"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439069"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
 
@@ -81,7 +81,7 @@ Til að nota þessa aðgerð verður þú að bæta við þig staðsetningu sem 
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Til að gera þig að starfsmanni vöruhúss
 
-  1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar fyrsta](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsmenn vöruhúss** og veldu síðan tengda tengilinn.  
+  1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
   2. Veldu reitinn **Notandakenni** og síðan eigin notandareikning á síðunni **Starfsmaður vöruhúss**.
   3. Í reitnum **Staðsetningarkóði** velur þú SUÐUR.  
   4. Veldu reitinn **Sjálfgefið** og síðan hnappinn **Já**.  
@@ -90,7 +90,7 @@ Til að nota þessa aðgerð verður þú að bæta við þig staðsetningu sem 
 
 Til að gera hlut 1928-S aðgengilegan á SUÐUR staðsetningunni skal fylgja þessum skrefum:  
 
-  1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar annað](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur** og veldu síðan tengda tengilinn.  
+  1. Veldu ![Ljósapera sem opnar annan eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðabækur** og velja síðan viðkomandi tengil.  
   2. Opnið sjálfgefnu færslubókina og stofnið tvær birgðabókarlínur með eftirfarandi upplýsingum um vinnudagsetninguna (Janúar 23).  
 
         |Tegund færslu|Vörunúmer|Kóti birgðageymslu |Hólfkóti|Magn|  
@@ -109,7 +109,7 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 
 ### <a name="to-create-the-sales-order"></a>Stofna sölupöntun
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar þriðja](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar þriðja eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
 3. Stofna sölupöntun fyrir viðskiptamann 10000 á vinnudeginum (23. Janúar) með eftirfarandi sölupöntunarlínu.  
 
@@ -129,7 +129,7 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 
 ### <a name="to-pick-and-ship-items"></a>Til að tína og senda vörur
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar fjórða](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínslur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar fjórða eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Birgðatínsla** og veldu síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
 
     Gakktu úr skugga um að **Nr.** reiturinn á flýtiflipanum **Almennt** er fylltur út.

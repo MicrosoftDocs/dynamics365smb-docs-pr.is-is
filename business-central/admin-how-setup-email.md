@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063428"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439711"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Fólk í viðskiptum sendir upplýsingar og skjöl á borð við sölu- og innkaupapantanir og reikninga með tölvupósti á hverjum degi. Stjórnendur geta auðveldað verkið með því að tengja einn eða fleiri tölvupóstsreikninga við [!INCLUDE[prod_short](includes/prod_short.md)] þannig að hægt sé að senda skjöl án þess að þurfa að opna annað tölvupóstforrit. Hægt er að semja hver skilaboð fyrir sig með einföldum sniðsverkfærum eins og leturgerð, útliti, litum og svo framvegis og bæta við viðhengjum allt að 100 MB að stærð. Stjórnendur geta einnig sett upp skýrsluútlit sem inniheldur aðeins helstu upplýsingar úr fylgiskjölum. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
@@ -23,6 +23,8 @@ Fólk í viðskiptum sendir upplýsingar og skjöl á borð við sölu- og innka
 Möguleikar tölvupóstsins í [!INCLUDE[prod_short](includes/prod_short.md)] eru aðeins fyrir skilaboð á útleið. Ekki er hægt að fá nein skilaboð til baka, þ.e. ekkert innhólf er í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
+> Aðeins er hægt að nota möguleika tölvupósts fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu með Exchange Online. Við styðjum ekki blandaðar aðstæður, eins og að tengja [!INCLUDE[prod_short](includes/prod_short.md)] á netinu við útgáfur á staðnum af Exchange.
+> 
 > Ef notað er [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss þarf fyrst að stofna forritsskráningu fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Azure-gáttinni áður en tölvupóstur er settur upp. Forritsskráningin gerir [!INCLUDE[prod_short](includes/prod_short.md)] kleift að heimila og sannvotta hjá tölvupóstþjónustu þinni. Frekari upplýsingar eru í [Uppsetning tölvupósts fyrir Business Central á staðnum](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). Á [!INCLUDE[prod_short](includes/prod_short.md)] netinu sjáum við um þetta fyrir þig.
 
 ## <a name="required-permissions"></a>Nauðsynlegar heimildir
@@ -37,7 +39,7 @@ Eftirfarandi tafla lýsir þeim tölvupóstsviðbótum sem eru sjálfgefið í b
 
 |Innanhússsími  |Description  |Dæmi um notkun  |
 |---------|---------|---------|
-|**Microsoft 365**|Allir senda tölvupóst úr samnýttu pósthólfi í Exchange Online.|Þegar öll skilaboð koma frá sömu deildinni sem dæmi, þá sendir sölufyrirtækið skilaboð frá reikningnum sales@cronus.com. Þetta krefst þess að sett verði upp samnýtt pósthólf í Microsoft 365 stjórnendamiðstöðinni. Frekari upplýsingar eru í [Samnýtt pósthólf](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Allir senda tölvupóst úr samnýttu pósthólfi í Exchange Online.|Þegar öll skilaboð koma frá sömu deildinni sem dæmi, þá sendir sölufyrirtækið skilaboð frá reikningnum sales@cronus.com. Þetta krefst þess að sett verði upp samnýtt pósthólf í Microsoft 365 stjórnendamiðstöðinni. Frekari upplýsingar eru í [Samnýtt pósthólf](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Núverandi notandi**|Allir senda tölvupóst frá reikningnum sem var notaður til að skrá sig inn á [!INCLUDE[prod_short](includes/prod_short.md)].|Leyfa samskipti frá reikningum einstaklinga.|
 |**Annað (SMTP)**|Nota skal SMTP-samskiptareglu til að senda tölvupósta.|Leyfa skal samskipti í gegnum SMTP-póstþjóninn. |
 
@@ -61,7 +63,7 @@ Uppsetningarleiðbeiningarnar **Setja upp tölvupóst** með hjálp geta komið 
 > [!NOTE]
 > Þú verður að vera með sjálfgefinn tölvupóstsreikning, jafnvel þó svo þú notir aðeins einn reikning. Sjálfgefinn reikningur verður notaður fyrir allar aðstæður tölvupóstsins sem ekki er úthlutað á reikning. Frekari upplýsingar er að finna í [Úthluta aðstæðum tölvupósts á tölvupóstsreikninga](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Setja upp tölvupóstreikninga** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Setja upp tölvupóstreikninga** og veldu síðan tengda tengilinn.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
@@ -75,7 +77,7 @@ Aðstæður tölvupósts eru ferlar sem fela í sér að senda skjal, t.d. sölu
  
 <!--
 ## To set up email
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
@@ -89,7 +91,7 @@ Aðstæður tölvupósts eru ferlar sem fela í sér að senda skjal, t.d. sölu
 ## <a name="set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents"></a>Setja upp endurnýtanlega texta og útlit tölvupósts fyrir sölu- og innkaupaskjöl
 Hægt er að nota skýrslur til að taka með helstu upplýsingar úr sölu-og innkaupaskjölum í texta fyrir tölvupóst. Þetta ferli lýsir því hvernig á að setja upp skýrsluna **Sala - Reikningur** fyrir bókaða sölureikninga, en ferlið er svipað fyrir aðrar skýrslur.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skýrsluval - Sala** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skýrsluval - Sala** og velja síðan viðkomandi tengil.
 2. Á síðunni **Skýrsluval - Sala** í reitnum **Notkun** skal velja **Reikningur**.
 3. Í nýrri línu í reitnum **Skýrslukenni** skal velja t.d. staðlaða skýrslu 1306.
 4. Veljið gátreitinn **Nota fyrir meginmál tölvupósts**.
@@ -115,17 +117,17 @@ Eftirfarandi eru dæmi um hvernig Senda sem og Senda fyrir hönd eru notuð í [
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Til að setja upp staðgengilsnetfang sendanda fyrir öll tölvupóstskeyti á útleið
 1. Í **Stjórnandamiðstöð Exchange** fyrir Microsoft 365-reikninginn þinn skaltu finna pósthólfið sem nota á sem staðgengilsnetfang og síðan skaltu afrita eða skrifa hjá þér netfangið. Ef þú þarft nýtt netfang skaltu fara í Stjórnendamiðstöð Microsoft 365 til að búa til nýjan notanda og setja upp pósthólfið hans.
-2. Í [!INCLUDE[prod_short](includes/prod_short.md)] veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP uppsetning tölvupósts**, og veldu síðan tengda tengilinn.
+2. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning SMTP-tölvupósts** og velja síðan viðkomandi tengil.
 3. Í reitnum **Senda sem** skal færa inn staðgengilsnetfangið.
 4. Afritaðu eða skráðu netfangið niður í reitinn **Notandakennið**.
-5. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfið sem á að nota sem staðgengilsnetfang og færðu síðan inn netfangið úr reitnum **Notandakenni** í reitnum **Senda sem**. Nánari upplýsingar eru í [Nota EAC til að úthluta heimildum til einstakra pósthólfa](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfið sem á að nota sem staðgengilsnetfang og færðu síðan inn netfangið úr reitnum **Notandakenni** í reitnum **Senda sem**. Nánari upplýsingar eru í [Nota EAC til að úthluta heimildum til einstakra pósthólfa](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Til að nota staðgengilsnetfangið í samþykktarverkflæðum
-1. Í [!INCLUDE[prod_short](includes/prod_short.md)] veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP uppsetning tölvupósts**, og veldu síðan tengda tengilinn.
+1. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning SMTP-tölvupósts** og velja síðan viðkomandi tengil.
 2. Afritaðu eða skráðu netfangið niður í reitinn **Notandakennið**.
-3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandauppsetning samþykktar** og veldu síðan tengda tengilinn.
-4. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfin fyrir hvern notanda sem kemur fyrir á síðunni **Notandauppsetning samþykktar** og í reitinn **Senda sem** skal færa inn netfangið úr reitnum **Notandakenni** á síðunni **SMTP uppsetning tölvupósts** í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Stjórna heimildum fyrir viðtakendur](/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
-5. Í [!INCLUDE[prod_short](includes/prod_short.md)] veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið **SMTP uppsetning tölvupósts**, og veldu síðan tengda tengilinn.
+3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Uppsetning á notanda samþykktar** og velja síðan viðkomandi tengil.
+4. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfin fyrir hvern notanda sem kemur fyrir á síðunni **Notandauppsetning samþykktar** og í reitinn **Senda sem** skal færa inn netfangið úr reitnum **Notandakenni** á síðunni **SMTP uppsetning tölvupósts** í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Stjórna heimildum fyrir viðtakendur](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true).
+5. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning SMTP-tölvupósts** og velja síðan viðkomandi tengil.
 6. Til að virkja skiptingu skal kveikja á víxlun **Leyfa að skipta um sendanda**.
 
 > [!Note]
@@ -178,7 +180,7 @@ Ef þú átt í vandræðum með að nota eldri SMTP-uppsetningu til að senda t
 ### <a name="connect-prod_short-to-your-app-registration"></a>Tengja [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna
 Þegar forritið hefur verið skráð í Azure-gáttina, í [!INCLUDE[prod_short](includes/prod_short.md)], skal nota uppsetningarleiðbeininguna **AAD-skráning tölvupóstforrits** með hjálp til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við það.
 
-1. Í [!INCLUDE[prod_short](includes/prod_short.md)] velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slærð inn **AAD-skráning póstforrits** og veldu síðan tengda tengilinn.
+1. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slærð inn **AAD-skráning póstforrits** og veldu síðan tengda tengilinn.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
@@ -207,7 +209,10 @@ Ef þú átt í vandræðum með að nota eldri SMTP-uppsetningu til að senda t
 
 -->
 
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/set-up-email/)
+
 ## <a name="see-also"></a>Sjá einnig
+
 [Samnýtt pósthólf í Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

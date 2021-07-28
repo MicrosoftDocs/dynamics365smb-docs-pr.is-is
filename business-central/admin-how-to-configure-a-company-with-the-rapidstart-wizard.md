@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 815a4a6d66fad42a5d1467b87eaef7d6a1688ee1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780008"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439661"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti
 Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota RapidStart Services leiðsagnarforritið.
@@ -39,7 +39,7 @@ Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að 
     >  Aðeins breyta Mínu hlutverki notanda eftir hann hefur lokið við grunnstillingu fyrirtækisins. Ef breyta þarf fleiri uppsetningaratriðum skal fyrst notast við grunnstillingarvinnublaðið. Síðan er farið aftur í leiðsagnarforritið til að uppfæra forstillingar Mitt hlutverk eða valin aðgerðin **Klára uppsetningu**.
 
 7. Velja hnappinn **Í lagi**.  
-8. Til að ganga úr skugga um að grunnstillingarupplýsingarnar hafi verið notaðar á nýja fyrirtækið skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fyrirtækjaupplýsingar** og veldu síðan tengda tengilinn.
+8. Til að ganga úr skugga um að grunnstillingarupplýsingarnar hafi verið notaðar á nýja fyrirtækið skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Upplýsingar um fyrirtæki** og velja síðan viðkomandi tengil.
 
 Síðan **Stofngögn** inniheldur upplýsingar sem hafa verið tilgreindar.   
 

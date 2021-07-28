@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að setja upp flutningsaðila | Microsoft Docs
-description: Hægt er að setja upp kóta fyrir einstaka flutningsaðila og færa inn upplýsingar um þá.
+title: Hvernig á að setja upp flutningsaðila
+description: Kynntu þér hvernig á að setja upp kóða fyrir einstaka flutningsaðila og sláðu inn lýsandi upplýsingar um hvern og einn þeirra og þjónustuna sem þeir veita.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 221578a174c6bd0dd87377340e97cd54a98d177b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1e74be125909db7f7d1c4301a33da1b12648e70a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778398"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440229"
 ---
 # <a name="set-up-shipping-agents"></a>Uppsetning flutningsaðila
 Hægt er að setja upp kóta fyrir einstaka flutningsaðila og færa inn upplýsingar um þá.  
@@ -28,7 +28,7 @@ Hægt er að setja upp ótakmarkaðan fjölda af þjónustuatriðum fyrir hvern 
 Þegar flutningsþjónustu hefur verið úthlutað á sölupöntunarlínu verður afhendingartími þjónustunnar tekin með við útreikning á lofun á pöntun fyrir þá línu. Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Uppsetning flutningsaðila  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Flutningsaðilar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningsaðilar** og velja síðan viðkomandi tengil.  
 2.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Velja aðgerðina **Flutningsþjónusta**.
 4. Í **Flutningsþjónusta**, fyllið inn í reitina eftir þörfum.
