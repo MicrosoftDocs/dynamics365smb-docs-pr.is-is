@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b4ed57dbc6202e44487ca13363b0b34d915d01b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4954287f93ed012709a51f6fbb19d00494c63d54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786538"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436977"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Bæta fyrirtækjum við fyrirtækjamiðstöðina
 
@@ -29,7 +29,7 @@ Tengilll á umhverfi er spjald þar sem tilgreint er [!INCLUDE [prod_short](incl
 
 Tengillinn er notaður þegar fyrirtækið er valið í fyrirtækjamiðstöðinni.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aðgerðir fyrir fyrirtæki sem er skráð í fyrirtækjamiðstöðinni":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aðgerðir fyrir fyrirtæki sem er skráð í fyrirtækjamiðstöðinni.":::
 
 > [!TIP]
 > Ef unnið er í ókeypis prufuútgáfunni af [!INCLUDE [prod_short](includes/prod_short.md)], er auðvelt að bæta fyrirtækjum við í leigjandanum. Hægt er að finna tengil umhverfis með því að afrita Azure Active Directory-kennið úr hlutanum **Úrræðaleit** á síðu hjálpar og notendaþjónustu. Heiti umhverfis er líklega sjálfgefið gildi, FRAMLEIÐSLA. Bætið þessum upplýsingum við **Tengil umhverfis**, t.d. ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, og veljið svo **Prófa tenginguna**. Tilraunafyrirtækinu verður bætt við listann.

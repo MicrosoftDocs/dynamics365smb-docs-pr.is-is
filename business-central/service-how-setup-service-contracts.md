@@ -1,6 +1,6 @@
 ---
-title: Uppsetning þjónustusamninga | Microsoft Docs
-description: Lærðu hvernig á að setja upp þjónustusamninga
+title: Setja upp þjónustusamninga
+description: Kynntu þér hvernig á að setja upp þjónustusamninga með nauðsynlegum forsendum, þar á meðal þjónustusamningshópa, sniðmát fyrir samninga og sniðmát fyrir viðskiptavini.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 216bbd775c66fca619d792ff578d198405fc7612
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 65bee9492ebf24eb90ef8b22025a09e36d3602fa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781532"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436577"
 ---
 # <a name="set-up-service-contracts"></a>Setja upp þjónustusamninga
 Áður en þú vinnur með samninga verður þú að setja upp eftirfarandi: 
@@ -26,19 +26,19 @@ ms.locfileid: "5781532"
 * **Sniðmát viðskiptamanna** sem leyfir þér að búa til tilboð fyrir tengiliði eða hugsanlega viðskiptamenn sem er ekki skráðir sem viðskiptamenn í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Uppsetning þjónustusamningsflokka  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningsflokkar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustusamningsflokkar** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Velja gátreitinn **Afsl. aðeins af samn. pöntunum** svo samnings- eða þjónustuafsláttur gildi aðeins um samningsþjónustupantanir, svo sem viðhald.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Uppsetning reikningsflokkaþjónustusamninga  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarflokkur þjónustusamninga** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Reikningsflokkar þjónustusamninga** og velja síðan viðkomandi tengil.  
 2. Nýr reikningsflokkur þjónustusamninga er stofnaður.   
 3. Fyllt er í reitina **Kóti** og **Lýsing**. Í þessum reitum er lýsing á þjónustureikningsflokknum.  
 4. Reiturinn **Reikn. Eftirágreiddra samninga** er fylltur út, velja skal númer fjárhagsreikningsins fyrir reikninginn sem er ekki fyrirframgreiddur.  
 5. Í reiturinn **Reikn. Fyrirframgreiddra samninga** skal velja númer fjárhagsreikningsins fyrir reikninginn sem er fyrirframgreiddur.  
 
 ## <a name="to-set-up-a-contract-template"></a>Uppsetning samningssniðmáts  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningasniðmát** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sniðmát þjónustusamninga** og velja síðan viðkomandi tengil.  
 2. Nýtt þjónustusamningssniðmát er stofnað.  
 3. Í reitnum **númer** er fært inn númer fyrir samningur sniðmát.  
   
@@ -48,7 +48,7 @@ ms.locfileid: "5781532"
 5. Velja aðgerðina **Þjónustuafsláttur** til að bæta við samningsafslætti.  
 
 ## <a name="to-set-up-a-customer-template"></a>Uppsetning sniðmáts viðskiptamanns  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamannasniðmát** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sniðmát viðskiptavinar** og velja síðan viðkomandi tengil.  
 2. Nýtt  sniðmátsspjald viðskiptamannser stofnað.  
 3. Á flýtiflipanum **Almennt** er ritaður kóti og lýsing fyrir sniðmát viðskiptamanns í reitina **Kóti** og **Lýsing**. 
 4. Aðrir reitir, til dæmis **Landssvæðis kóði**, **Umsjónarsvæðiskóði** og **Kóði tungumáls**, eru notaðir sem leitarskilyrði og þá má fylla út.  

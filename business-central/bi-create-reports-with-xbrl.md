@@ -1,6 +1,6 @@
 ---
-title: Hvernig skal stofna skýrslur með XBRL | Microsoft Docs
-description: XBRL (eXtensible Business Reporting Language) er XML-miðað tölvumál fyrir viðskiptaskýrslugerð og gerir fyrirtækjum kleift að vinna úr og deila gögnum sínum á árangursríkan og nákvæman hátt.
+title: Hvernig á að Stofna skýrslur með XBRL
+description: XBRL er XML-miðað tölvumál til að merkja fjárhagsgögn og gera fyrirtækjum kleift að vinna úr og deila gögnum sínum á árangursríkan og nákvæman hátt.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9c806874d1bfea91224f0c458efea8a1da2d87f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f204c769a7a1fc8ddf3c6fd97fe485be8940dc43
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776842"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437127"
 ---
 # <a name="create-reports-with-xbrl"></a>Stofna skýrslur með XBRL
 XBRL (eXtensible Business Reporting Language) er XML-miðað tölvumál fyrir viðskiptaskýrslugerð og gerir fyrirtækjum kleift að vinna úr og deila gögnum sínum á árangursríkan og nákvæman hátt. XBRL-áætlunin býður fjölda hugbúnaðarfyrirtækja sem framleiða bókhalds- og áætlunarkerfi og alþjóðlegum endurskoðendafyrirtækum altæka viðskiptaskýrslugerð. Markmið áætlunarinnar er að búa til staðal fyrir samræmda skýrslugerð viðskiptaupplýsinga fyrir banka, fjárfesta og ríkisstofnanir. Slíkar viðskiptaskýrslur geta falið í sér eftirfarandi atriði:  
@@ -71,7 +71,7 @@ Flokkun getur verið sett saman úr grunnflokkun, t.d. us-gaap eða IAS, og haft
 
 XBRL-línur eru settar upp með því að varpa gögnum úr flokkuninni í gögn í fjárhag.  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XBRL-flokkanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **XBRL-flokkanir** og velja síðan viðkomandi tengil.  
 2.  Á síðunni **XBRL-flokkanir** veljið flokkun af listanum.  
 3.  Veljið aðgerðina **Línur**.  
 4.  Valin er lína og fyllt út í reitina.   
@@ -91,7 +91,7 @@ XBRL-línur eru settar upp með því að varpa gögnum úr flokkuninni í gögn
  ## <a name="to-import-an-xbrl-taxonomy"></a>Til að flytja inn XBRL-flokkun  
 Fyrsta skrefið þegar beita á XBLR-aðgerðum er að flytja inn flokkunina í gagnagrunn fyrirtækisins. Flokkun er mynduð úr einu eða fleiri skemum og nokkrum tenglagrunnum. Þegar búið er að flytja inn bæði skemu og tenglagrunna og þetta tengt saman er hægt að setja upp línur og varpa fjárhagsreikningum í bókhaldslykli í viðeigandi flokkunarlínur.  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XBRL-flokkanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **XBRL-flokkanir** og velja síðan viðkomandi tengil.  
 2.  Á síðunni **XBRL flokkanir** er búin til ný lína og heiti og lýsing flokkunarinnar færð inn.  
 3.  Velja skal aðgerðina **Skemu** og síðan færa inn lýsinguna á skemanum.  
 4.  Skema er flutt inn með því að fara á síðuna **XBRL-grindur**, velja þar aðgerðina **Flytja inn** og velja síðan möppu og XSD-skrá. Velja hnappinn **Opna**.  
@@ -105,7 +105,7 @@ Fyrsta skrefið þegar beita á XBLR-aðgerðum er að flytja inn flokkunina í 
 ## <a name="to-update-an-xbrl-taxonomy"></a>Til að uppfæra XBRL-flokkun  
 Þegar flokkun breytist þarf að uppfæra gildandi flokkun samkvæmt því. Ástæða uppfærslunnar getur verið breytt skema, breyttur tenglagrunnur eða nýr tenglagrunnur. Þegar flokkunin hefur verið uppfærð þarf aðeins að varpa línunum vegna nýju eða breyttu línanna.  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XBRL-flokkanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **XBRL-flokkanir** og velja síðan viðkomandi tengil.  
 2.  Á síðunni **XBRL-flokkun** skal velja aðgerðina **Skemu**.  
 3.  Til að uppfæra skema, er skemað sem á að uppfæra valið og síðan aðgerðin **Flytja inn**.  
 4.  Til að uppfæra eða bæta við nýjum tenglagrunni skal velja **Tenglagrunnar** aðgerðina.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5972e7489b9aa8c537d8aaa6677c79ffd4a6414
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778748"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436852"
 ---
 # <a name="merge-duplicate-records"></a>Sameina tvíteknar færslur
 Með tímanum stofna ýmsir notendur nýjan viðskiptamann, lánardrottin eða tengiliðaspjöld, eða nýju færslurnar eru stofnaðar sjálfkrafa við flutning, og því getur gerst að viðskiptamaður, lánardrottinn eða tengiliður komi fram í kerfinu í fleiri en einni færslu. Í slíkum tilfellum er hægt að nota síðuna **Sameina tvítekið atriði** úr spjaldinu með færslunni sem á að halda í. Síðan veitir yfirlit yfir tvítekin reitargildi og býður upp á virkni til að velja hvaða gildum skuli halda eða fleygja þegar tvær færslur eru sameinaðar sem ein.
@@ -28,7 +28,7 @@ Með tímanum stofna ýmsir notendur nýjan viðskiptamann, lánardrottin eða t
 
 Eftirfarandi ferli byggist á viðskiptamannaspjaldi. Skrefin eru svipuð fyrir lánardrottin og tengiliðaspjöld.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Veldu viðskiptamanninn sem þú veist eða grunar að sé með tvítekna færslu og veldu síðan aðgerðina **Breyta**.
 3. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Sameina við**.
 4. Á síðunni **Sameina tvítekið atriði**, í reitnum **Sameina við**, skal velja viðskiptamanninn sem þú telur að sé tvítekinn af þeim sem eru opnir, sem gefið er upp í reitnum **Núverandi**.

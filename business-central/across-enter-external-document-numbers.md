@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: abb6a3a910f8ac628587a58637b96d69bca4266f
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 2841473825ebc0fee7c9357e14e7520b94fd3793
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115971"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437778"
 ---
 # <a name="enter-external-document-numbers"></a>Færa inn ytri fylgiskjalsnúmer
 
@@ -28,7 +28,7 @@ Eftirfarandi ferli útskýrir hvernig á að tilgreina ytra skjalanúmer á söl
 
 ## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>Til að slá inn ytri skjalanúmer í sölupöntun  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Velja skal viðeigandi sölupöntun og síðan aðgerðina **Breyta**.  
 3. Á flýtiflipanum **Almennt** í reitnum **Nr. ytra skjals** er reikningsnúmerið fært inn.  
 

@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: cff8ae1b376079aa1b9162cade59e88da985e263
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938072"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436149"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Setja upp verð fyrir verk og verkbókunarflokka
 
@@ -22,8 +22,8 @@ Sem verkefnisstjóri getur þú sett upp verk sem skilgreina verkefnin sem þú 
 Fyrir hvert verk tilgreinir þú þá einstök verkspjöld með upplýsingum um verð fyrir vörur, forða og fjárhagsreikninga verks og setja þarf upp verkbókunarflokka.
 
 ## <a name="to-set-general-information-for-jobs"></a>Til að stilla almennar upplýsingar fyrir verk
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning verka** og veldu síðan tengda tengilinn.
-2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning verks** og velja síðan viðkomandi tengil.
+2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > Reiturinn **Beita notkunartengli að sjálfgefnu** tilgreinir hvort verkfærslur eru tengdar sjálfgefið á verkáætlunarlínur. Veljið reitinn ef nota á þessa stillingu fyrir öll ný verk sem eru stofnuð. Hægt er að gera rakningu verknotkunar virka eða óvirka fyrir tiltekið verk með því að breyta gildinu í **Nota notkunartengil** reitnum á einstaka verkspjaldi. Afleiðingarnar eru útskýrðar í næsta hluta.
@@ -55,7 +55,7 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 Hægt er að setja upp verð fyrir vörur, tilföng og fjárhagsreikninga sem tengjast starfi. 
 
 #### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2. Veldu verkið og veldu síðan aðgerðina **Tilfang**, **Vara** eða **Fjárhagsreikningur**.
 3. Á síðunum **Forðaverð verks**, **Vöruverð verks** eða **Verð fjárhagsreiknings verks** skal fylla í reitina eftir þörfum.
 
@@ -69,7 +69,7 @@ Eftirfarandi tafla sýnir hvernig upplýsingarnar í valfrjálsum svæðunum ver
 
 ---
 #### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2. Veljið viðeigandi verk og veljið svo aðgerðina **Söluverðlistar**.
 
 ---
@@ -80,7 +80,7 @@ Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að 
 > [!NOTE]  
 >   Nauðsynlega reikninga verður að stofna í bókhaldslykli áður en bókunarflokkar eru stofnaðir. Frekari upplýsingar eru í [Setja upp eða breyta bókhaldslykli](finance-setup-chart-accounts.md).  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarflokkar verka** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókunarflokkar verks** og velja síðan viðkomandi tengil.  
 2. Veljið aðgerðina **Nýtt** og fyllið út reiti reiknings eins og lýst er í eftirfarandi töflu.  
 
 | Reikningsreitur. | Lýsing |

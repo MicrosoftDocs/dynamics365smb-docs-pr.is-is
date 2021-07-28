@@ -1,6 +1,6 @@
 ---
-title: Þjónustuverðstjórnun | Microsoft Docs
-description: Þetta efnisatriði lýsir því hvernig skal nota besta verðið á þjónustupantanir, setja upp sérsniðna þjónustuverðsamninga fyrir viðskiptavini, bæta skilvirkni þjónustustarfsmanna og hraða reikningaferlinu.
+title: Þjónustuverðstjórnun
+description: Þjónustuverðstjórnun gerir þér kleift að setja upp verðflokka, verðlagningu og verðleiðréttingar þjónustu og fleira.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: af69e0aeb80b3406e26200a7a2f8f04aceb10914
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776767"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438283"
 ---
 # <a name="service-price-management"></a>Þjónustuverðstjórnun
 Þjónustuverðsstjórnaraðgerðin gerir kleift að setja besta verðið á þjónustupantanir, setja upp sérsniðna þjónustuverðsamninga fyrir viðskiptavini, bæta skilvirkni þjónustustarfsmanna og hraða reikningaferlinu.  
@@ -52,7 +52,7 @@ Sett er upp tegund þjónustuverðlagningar (verðleiðréttingartegund og verð
 Til dæmis er hægt að setja upp tegundir þjónustuverðlagningar fyrir útvarpsþjónustuverðflokk. Hægt er að ákveða þjónustuverðlagningu með hámarksverði á vinnu verðleiðréttingarflokkur vegna vinnu, fyrir þá viðskiptamenn sem ekki heyra til verðlagningarflokks. Hægt er að ákveða þjónustuverðlagningu með föstu verði á vinnu sami verðleiðréttingarflokkur vegna vinnu, fyrir þá viðskiptamenn sem heyra til tiltekins verðlagningarflokks.  
 
 #### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuvörur** og svo velja viðeigandi tengil.  
 2. Veljið þjónustuvöruna, stækkið flýtiflipann **Verð og sala**, veljið aðgerðina **Tilfang**, **Vara** eða **Fjárhagsreikningur**.
 3. Á síðunum **Forðaverð verks**, **Vöruverð verks** eða **Verð fjárhagsreiknings verks** skal fylla í reitina eftir þörfum.
 

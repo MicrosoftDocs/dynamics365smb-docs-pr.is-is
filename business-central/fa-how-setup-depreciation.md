@@ -1,18 +1,18 @@
 ---
 title: Uppsetning eignaafskrifta
-description: Tiltekið er í afskriftabók hvernig þú vilt að eignir verði afskrifaðar.
+description: Ýmsar afskriftaaðferðir eru til. Í Business Central skilgreinir maður afskriftaaðferð eignar á síðunni **Eignaspjald**.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: eb7e0d0d082d8a86ce61b6dffab46ce6248a29d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 166e0a534632b0bf67dc14a860088e6a846d6957
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782280"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437863"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Setja upp eignaafskriftir
 
@@ -26,7 +26,7 @@ Afskriftabækur eru settar upp þar sem eru skilgreindar mismunandi leiðir til 
 
 Í eignaafskriftabók er tilgreint hvernig eignir eru afskrifaðar. Ef gera á ráð fyrir margvíslegum afskriftaaðferðum má setja upp margar afskriftabækur.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afskriftabækur** og velja síðan viðkomandi tengil.
 2. Á síðunni **afskriftabókalisti** skal velja aðgerðina **Nýtt**.
 3. Fyllt er út í reiti eftir því sem á við á síðunni **Afskriftabókarspjald**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +41,7 @@ Afskriftabækur eru settar upp þar sem eru skilgreindar mismunandi leiðir til 
 Ef þú til dæmis losar þig við eign þar sem afskriftabókin tilgreinir ekki sléttun en fjárhagsuppsetning fyrirtækisins krefst sléttunar, þá þegar þú losar þig við eignina muntu sjá villuboð um að upphæð verði að vera sléttuð í fjárhagsfærslu.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Úthluta afskriftabók á eign.
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
 2. Valin er eignin sem setja á upp eignaafskriftabók fyrir.
 3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **afskriftabók**.
 4. Ef það þarf að úthluta fleiri en einni afskriftabók á eign skal velja **bæta Við Fleiri Afskriftabækur** aðgerð.
@@ -50,10 +50,13 @@ Ef þú til dæmis losar þig við eign þar sem afskriftabókin tilgreinir ekki
     > [!NOTE]  
     >   Þegar handvirk afskriftaaðferð er notuð verður að færa afskriftirnar handvirkt í fjárhagsfærslubók eigna. Aðgerðin **Reikna afskriftir** sleppir eignum sem handvirk afskriftaaðferð er notuð á. Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land.
 
+    > [!NOTE]  
+    > Þegar afskriftaaðferðin sem skilgreind er af notanda er notuð þarf að úthluta afskriftabókinni á annan hátt. Frekari upplýsingar er að finna í [Setja upp afskriftaaðferð sem skilgreind er af notanda](fa-how-setup-user-defined-depreciation-method.md).
+
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Til að tengja afskriftabók við margar eignir með keyrslu
 Ef tengja á afskriftabók við nokkrar eignir er hægt að keyra **Stofna eignaafskriftabækur** runuvinnsluna til að stofna eignaafskriftabækur.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
 2. Valin er eignin fyrir hverja setja á upp afskriftabók fyrir, og velja síðan sem **Breyta** aðgerð.
 3. Á síðunni **Afskriftabókarspjald** er valið **Stofna Eignaafskriftabækur** aðgerð.
 4. Á síðunni **stofna eignaafskriftabækur** er fyllt inn í reitinn **afskriftarbók** .
@@ -66,7 +69,7 @@ Ef tengja á afskriftabók við nokkrar eignir er hægt að keyra **Stofna eigna
 ## <a name="to-set-up-depreciation-posting-types"></a>Uppsetning bókunartegundir afskrifta:
 Fyrir hverja afskriftabók þarf að stilla hvernig [!INCLUDE[prod_short](includes/prod_short.md)] á að meðhöndla ýmsar bókunartegundir. Til dæmis hvort bókun eigi að vera í debet eða kredit og hvort taka eigi bókunartegund með í afskriftargrunni.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afskriftabækur** og velja síðan viðkomandi tengil.  
 2. Valin er afskriftabók sem á að setja upp og velja síðan **eignarbókunarflokkur** aðgerð.
 3. Á síðunni **uppstning eignarbókunarflokks** þarf að fylla reitina út eftir þörfum.
 
@@ -78,10 +81,17 @@ Sterklega er mælt með því að uppsetningunni fyrir afskriftarbækur sem búi
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Uppsetning Sjálfgefinna sniðmáta og -keyrslna fyrir afskriftir eigna.
 Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverja afskriftabók. Þú notar þessi sjálfgildi til að afrita línur úr einni bók í aðra, búa til færslubókarlínur með því að keyra **Reikna afskrift** eða **Vísitala eigna** runuvinnslurnar, afrita kaupverð í vátryggingabókina.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afskriftabækur** og velja síðan viðkomandi tengil.  
 2. Valin er afskriftabók sem á að skilgreina sjálfgefnar bækur fyrir, og veldu svo aðgerðina **uppsetning eignabókar**.  
 3. Ef sjálfgefin uppsetning á að vera fyrir hvern notanda skal velja reitinn **Kenni notanda** til að velja af síðunni **Notendur**.  
 4. Í öðrum reitum er valið er sniðmát færslubókar eða bókarkeyrslu sem nota verður sjálfgefið.  
+
+## <a name="fiscal-year-365-days-field-depreciation"></a>Afskriftareiturinn 365 daga reikningsár
+
+Þegar keyrslan Reikna afskriftir reiknar afskriftir notar hún yfirleitt staðlað 360 daga ár þar sem hver mánuður er 30 dagar.
+
+Ef þessi reitur er valinn eru afskriftir reiknaðar samkvæmt 365 daga ári, hver mánuður er reiknaður með sama dagafjölda og á almanaki. Undantekning er febrúar á hlaupári, sem verður 28 daga en ekki 29. Vegna þessa verða öll ár 365 dagar, líka hlaupár.
+
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning eigna](fa-setup.md)  

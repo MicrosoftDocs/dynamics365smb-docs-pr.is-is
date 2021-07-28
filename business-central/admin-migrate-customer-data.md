@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69e0b2bf449e707bc881f2d6b36a391e6a7acef3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781166"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437467"
 ---
 # <a name="migrate-customer-data"></a>Flytja gögn viðskiptamanna
 
@@ -42,7 +42,7 @@ Síðurnar **Flutningsyfirlit** og **Grunnstilling vinnublaðs** veita aðgang a
 > Töflur með öðrum aðallyklum og reitum sem hafa aðrar gagnagerðir verða heldur ekki fluttir inn. Sem dæmi má nefna að gögn munu ekki flytjast yfir ef skilgreiningapakki inniheldur töfluna **50000 Customer** sem hefur aðallykilinn **Code20** og gagnagrunnurinn sem flutt er inn í inniheldur töfluna **50000 Customer Bank Account** sem hefur aðallykilinn **Code20 + Code 20**.  
 
 1. Opna skal nýja fyrirtækið.  
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Grunnstillingarpakka** og velja síðan viðkomandi tengil.  
 3. Velja skal aðgerðina **Flytja inn pakka**. Farið er í .rapidstart pakkaskrána sem á að flytja inn og svo er valin aðgerðin **Opna**. Á meðan innflutningi stendur, er innihald pakkans afþjappað og pakkafærslan stofnuð.  
 
     Að innflutningi loknum er hægt að sjá fjölda grunnstillingartaflna sem hafa ferð fluttar inn í reitnum **Fjöldi taflna**.  
@@ -63,7 +63,7 @@ Hægt er að stofna nýjar gagnaflutningaskrár og sérsníða þær til stuðni
 > [!TIP]
 > Aðeins er hægt að nota skrá til að flytja reit sem er með eiginleikann **FieldClass** stilltan á **Venjulegt**.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakki** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Grunnstillingarpakka** og velja síðan viðkomandi tengil.  
 2. Veljið og opnið pakkann sem á að nota til að flytja gögn og veljið svo aðgerðina **Ná í töflur**. Síðan **Sækja pakkatöflu** opnast.  
 3. Í reitnum **TableID** færið inn töflunúmer eða veljið töflu af listanum, til dæmis töflu 18, **Viðskiptamaður**. Reiturinn **Heiti töflu** útfyllist sjálfkrafa.  
 4. Veljið nýja flutningstöflu og síðan á flipanum **Töflur** skal velja aðgerðina **Reitir**. Síðan **Flutningsreitir** opnast.  
@@ -79,7 +79,7 @@ Ný innflutningstafla er stofnuð.
 ## <a name="to-export-data-migration-files"></a>Til að flytja út nauðsynlegar gagnaflutningsskrár.
 Eftir að hafa ákvarðað töflurnar sem á að millifæra gögn um viðskiptavini á, skal flytja skrárnar út.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Grunnstillingarpakka** og velja síðan viðkomandi tengil.  
 2. Veljið og opnið pakkann sem á að nota til útflutnings.
 3. Veljið töfluna eða töflurnar sem á að flytja út og veljið svo aðgerðina **Flytja út Flytja út í Excel**.
 4. Vista skal Excel-skrána sem flutt var út.  
@@ -100,7 +100,7 @@ Ef taflan er auð mun gagnaflutningsskráin innihalda auð hólf fyrir þá reit
 
 Í ferlunum sem fylgja ætti að athuga fyrirfram hvaða gildum á að halda við flutningsferlið. Til að framkvæma eftirfarandi ferli þarf að gagnaflutningsskrár (.xlsx) sem hafa verið fluttar úr [!INCLUDE[prod_short](includes/prod_short.md)]. Nánari upplýsingar eru í [Að flytja út gagnaflutningsskrár](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Grunnstillingarpakka** og velja síðan viðkomandi tengil.
 2. Opna skal pakkann fyrir fyrirtækið sem um ræðir.  
 3. Veljið töfluna sem á að varpa gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Töflur**.  
 4. Fyrir hvern reit sem á að varpa skal velja aðgerðina **Vörpun**.  
@@ -118,7 +118,7 @@ Eftirfarandi dæmi sýnir hvernig [!INCLUDE[prod_short](includes/prod_short.md)]
 3. Þegar þú jafnar gögn mun vörpunin sem þú gafst upp fyrir reitinn **Kóði** í töflunni **Sölumaður/innkaupaaðili** einnig verða tekin með við vinnslu á reitunum **Kóði sölumanns** og **Kóði innkaupaaðila**.
 
 ## <a name="to-add-additional-values-to-prod_short"></a>Til að bæta viðbótargildum við [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Grunnstillingarpakka** og velja síðan viðkomandi tengil.  
 2. Veljið töfluna sem á að bæta við fleiri gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Reitir**.  
 3. Fyrir reitina þar sem [!INCLUDE[prod_short](includes/prod_short.md)] á að heimila viðbótargildi við flutning skal velja gátreitinn **Stofna kóða sem vantar**.  
 4. Innflutningur gagna viðskiptamanns Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data).

@@ -1,6 +1,6 @@
 ---
-title: Uppsetningar fyrir þjónustuvörur og þjónustuvörueiningar | Microsoft Docs
-description: Lærðu um hluti sem þú verður að setja upp áður en þú getur notað þjónustuvörur, eins og sjálfgefin gildi á borð við svartíma, samningsafslátt í prósentum og þjónustuverðflokk.
+title: Þjónustuvörur og þjónustuvöruhlutar
+description: Kynntu þér það sem þú verður að setja upp áður en þú getur notað þjónustuvörur, eins og sjálfgefin gildi á borð við svartíma og þjónustuverðflokk.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ed02fb95e2f700f1cc5083472b668f49fab7d916
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ebdb2ec8d76537887a7aa597eb9eabe298ec530
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775376"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436527"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Setja upp þjónustuvörur og íhluti þjónustuvara
 Áður en þú vinnur með þjónustuvörur verður þú að setja upp eftirfarandi:
@@ -28,7 +28,7 @@ ms.locfileid: "5775376"
 
 Þjónustuvöruflokkum er úthlutað til vöru á **birgða** spjaldi og þjónustuvöru á **þjónustuvöru** spjaldi.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvöruflokkar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuvöruflokkar** og svo velja viðeigandi tengil.  
 2. Nýr þjónustuvöruflokkur er stofnaður.  
 3. Fyllt er í reitina **Kóti** og **Lýsing**.  
 4. Í reitinn **Sjálfg. samningsafsláttar %** er færð inn sjálfgefin prósenta samningsafsláttar sem á að eiga við þjónustuvöruna í flokknum.  
@@ -39,7 +39,7 @@ ms.locfileid: "5775376"
 ## <a name="to-set-up-service-item-components"></a>Uppsetning þjónustuvöruíhluta
 Í þjónustuvöru geta verið margir íhlutir sem skipta má út með varahlutum þegar varan er í þjónustu. Þessir íhlutir eru uppsettir í síðunni **Þjónustuvara íhlutalisti**. Ef setja á upp íhluta vegna þjónustuvöru sem er uppskrift er hægt að afrita uppskriftarvöruna og stofna hana sem íhluti þjónustuvöru.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuvörur** og svo velja viðeigandi tengil.
 2. Opna skal þjónustuvöruna sem á að setja upp íhluti fyrir.  
 3. Velja aðgerðina **Íhlutir**. Síðan **Þjónustuvöruíhlutalisti** opnast.  
 4. Bæta við nýjum íhlut.  
@@ -47,7 +47,7 @@ ms.locfileid: "5775376"
 6. Í reitnum **númer** skal velja vöruna eða þjónustuvöruna sem er íhlutur þjónustuvörunnar.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Uppsetning þjónustuvöruíhluta út frá uppskriftum
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuvörur** og svo velja viðeigandi tengil.  
 2. Opna skal þjónustuvöruna sem setja á upp íhluti út frá uppskrift fyrir.  
 3. Velja aðgerðina **Íhlutir**. Síðan **Þjónustuvöruíhlutalisti** opnast.  
 4. Valið er **Afrita úr uppskrift** aðgerð.  
@@ -57,7 +57,7 @@ ms.locfileid: "5775376"
 ## <a name="to-set-up-a-service-shelf"></a>Uppsetning þjónustuhillu
 Þú getur sett upp þjónustuhillur sem tilgreina hvar þú geymir þjónustuvörur þínar. Þjónustuhillum er úthlutað til þjónustuvöru í síðunum **Þjónustupöntun** og **Þjónustuvörublað**.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuhillur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuhillur** og svo velja viðeigandi tengil.
 2. Fyllið inn í reitina eftir þörfum.
 
 ## <a name="see-also"></a>Sjá einnig

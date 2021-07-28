@@ -1,6 +1,6 @@
 ---
-title: Stofnun kostnaðaráætlunar | Microsoft Docs
-description: Í þessu efnisatriði er að finna yfirlit yfir hvar skal stofna og greina kostnaðaráætlanir.
+title: Stofna kostnaðaráætlanir
+description: Í þessu efnisatriði er að finna yfirlit yfir hvar skal stofna og greina kostnaðaráætlanir. Áætlunargerð í kostnaðarbókhaldi svipar til áætlunargerðar í fjárhag.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: da976e1e8ac2988aa2842925c2b10f4f8515ea47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 52ed39805c70fe686d96525b33ad82923628db82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785245"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436174"
 ---
 # <a name="creating-cost-budgets"></a>Stofna kostnaðaráætlanir
 Áætlunargerð í kostnaðarbókhaldi svipar til áætlunargerðar í fjárhag. Kostnaðaráætlun er stofnuð á grundvelli kostnaðartegund, rétt eins og áætlun fyrir fjárhag er stofnuð á grundvelli fjárhagsreiknings.  
 
 Kostnaðaráætlun er stofnuð fyrir ákveðið tímabil, til dæmis reikningsár. Hægt er að búa til eins margar kostnaðaráætlanir og þörf er. Hægt er að stofna nýja kostnaðaráætlun handvirkt, eða með því að flytja inn kostnaðaráætlun eða með því að afrita fyrirliggjandi kostnaðaráætlun sem áætlunarstofninn. Frekari upplýsingar eru í [Stofna fjárhagsáætlun](finance-how-create-budgets.md).
 
-Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið til að finna síðu og lesa síðan ábendingarnar á hverri þeirra.
+Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið til að finna síðu og lesa síðan ábendingarnar á hverri þeirra.
 
 |Til að|Sjá|  
 |--------|---------|  

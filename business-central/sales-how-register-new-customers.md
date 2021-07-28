@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778598"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436752"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 
@@ -34,7 +34,7 @@ Til að skrá nýjan viðskiptavin þarf að fylla út viðskiptamannsspjald. H�
 
 ### <a name="to-create-a-new-customer-card"></a>Að stofna nýtt viðskiptamannaspjald
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Viðskiptamenn** skal velja aðgerðina **Nýtt**.
 
     Ef aðeins eitt viðskiptamannasniðmát er fyrir hendi, opnast nýtt viðskiptamannaspjald með reiti útfyllta með upplýsingum úr sniðmátinu.
@@ -76,7 +76,7 @@ Hægt er að velja um það að ekki séu birtar aðvaranir um að lánsfjárupp
 
 ### <a name="to-specify-credit-limit-warnings"></a>Viðvaranir lánamarks tilgreindar
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugrunnur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi** og velja svo viðeigandi tengil.
 
 2. Í flýtiflipanum **Almennt**, í reitnum **Viðvaranir lánamarks**, skal velja viðeigandi valkost eins og lýst er í eftirfarandi töflu:
 

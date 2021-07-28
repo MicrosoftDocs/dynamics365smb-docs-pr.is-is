@@ -1,20 +1,20 @@
 ---
-title: Stjórna breytingum á VSK-hlutfalls | Microsoft docs
-description: kynntu þér notkun breytingarverkfæris VSK-hlutfalls fyrir Dynamics 365 Business Central.
+title: Stjórna breytingum VSK-hlutfalls
+description: kynntu þér hvernig þú notar breytingarverkfæri VSK-hlutfalls fyrir Dynamics 365 Business Central til að breyta VSK-taxta í samræmi við löggjöf á staðnum.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 2f9bef0d4a2aace08d5f8fb09eae6186213a9563
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d90364691e393ddb376b0446d298ba96a92b383
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770442"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437392"
 ---
 # <a name="managing-vat-rate-changes"></a>Stjórna breytingum VSK-hlutfalls
 
@@ -71,13 +71,13 @@ VSK-hlutfall breytingarverkfærið umreiknar VSK-hlutfall fyrir aðalgögn, fær
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Til að setja upp breytingaverkfæri VSK-hlutfalls
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning VSK hlutfall breytingar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning á Breyting á VSK-hlutfalli** og velja síðan viðkomandi tengil.  
 2. Á flýtiflipunum **Aðalgögn**, **Færslubækur** og **Skjöl** skal velja gildi bókunarflokks af valkostalistanum fyrir nauðsynlega reiti. Í hverjum flokki er hægt að velja hvort eigi að umbreyta VSK-vörubókunarflokkum eða almennum vörubókunarflokkum eða umbreyta báðum gildunum ef þau eru tiltæk í aðalgagnavörunni. Fyrir sum svæði er einnig hægt að setja afmörkun til að umbreyta aðeins hlutmengi gildanna, til dæmis fjárhagsreikningum. 
 3. Á flýtiflipanum **Verð með VSK** skaltu velja hvaða línugerðir á pöntunum sem skal uppfæra einingaverð. Einingaverð í línum af gerð vöru og tilfanga verða alltaf uppfærð.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Til að setja upp vörubókunarflokksumbreytingar
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning VSK hlutfall breytingar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning á Breyting á VSK-hlutfalli** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Uppsetning á breytingu VSK-hlutfalls** skal annaðhvort velja aðgerðina **Umreikna VSK-vörubókunarflokk** eða **Umreikna almennan vörubókunarflokk**.  
 3. Í reitnum **Frá kóða** er færður inn núverandi bókunarflokkur.  
 4. Í reitnum **Til kóða** er færður inn nýr bókunarflokkur.  
@@ -92,7 +92,7 @@ Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöð
 > [!IMPORTANT]  
 > Áður en þú umreiknar VSK-hlutfallsbreytingu, er hægt að prófa umreikninginn. Til að gera það, skal fylgja eftirfarandi skrefum, en vertu viss um að hafa auða gátreitina **Framkvæma umreikning** og **VSK hlutfall breytingarverkfæri lokið**. Við prófun á umreikningi er reiturinn **Umbreytt** í töflu **Breyting á VSK gengi í skráningarfærslu** hreinsað og reiturinn **Umbreytt dagsetning** í töflunni **Breyting á VSK gengi í skráningarfærslu** auður. Þegar umreikningnum er lokið, skal velja **Breytingaskrárfærslur fyrir VSK-hlutfall** til að skoða niðurstöður af prufuumreikningnum. Staðfesta hverja færslu áður en umreikningur er framkvæmdur. Sérstaklega skal staðfesta færslur sem nota eldra VSK-hlutfall.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Breytingar á VSK-hlutfalli** og veldu síðan **Uppsetning breytinga á VSK-hlutfalli** hlekkinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Breyting á VSK-hlutfalli** og velja síðan tengilinn **Uppsetning á breytingu VSK-hlutfalls**.  
 2. Staðfesta að VSK-vörubókunarflokksumbreytingar eða almennar vörubókunarflokksumbreytingar hafi þegar verið settar upp.  
 3. Velja skal gátreitinn **Framkvæma umreikning**.  
 

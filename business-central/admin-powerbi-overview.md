@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a1d0d0403798f8cd2af6b29249f01f529fb789be
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: b1328b618761a33d3dc0856c7623bd986008d283
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935237"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437442"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -42,19 +42,19 @@ Eftirfarandi tafla lýsir tiltækum eiginleikum.
 |Innfelld reynsla fyrir skoðun á tiltekinni skýrslu innan upplýsingareits í [!INCLUDE[prod_short](includes/prod_short.md)]|Bæði. Krefst þess að grunnstilling birti skýrslur á staðnum.|
 |Power BI-skýrslustjórnun frá [!INCLUDE[prod_short](includes/prod_short.md)]|Beinlínutengt|
 |Sjálfgefnar Power BI skýrslur um hlutverkamiðstöðvar virkjaðar á Power BI|Beinlínutengt|
-|Power BI-forrit á Microsoft AppSource|Tengt.|
+|Power BI-forrit á Microsoft AppSource|Beinlínutengt|
 
 ## <a name="architecture"></a>Högun
 
-[!INCLUDE[prod_short](includes/prod_short.md)] samþættist við Power BI í gegnum tengil með OData. Gagnauppruni fyrir Power BI-skýrslur er óvarinn sem OData vefþjónustur.
+[!INCLUDE[prod_short](includes/prod_short.md)] samþættist við Power BI í gegnum tengil með OData. Gagnagjafi fyrir Power BI-skýrslur kemur fyrir sem API-síður og OData-vefþjónustur.
 
-![Power BI högun fyrir samþættingu við Business Central](./media/power-bi-architecture.png)
+![Power BI högun fyrir samþættingu við Business Central.](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Almennt flæði
 
 Eftirfarandi skýringarmynd sýnir grunnverkflæði fyrir notendur þegar verið er að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við Power BI.
 
-![Power BI verkflæði fyrir samþættingu við Business Central](./media/power-bi-flow.png)
+![Power BI verkflæði fyrir samþættingu við Business Central.](./media/power-bi-flow.png)
 
 1. Notandi skráir sig fyrir Power BI -reikningi.
 2. Notandi tengist Power BI frá [!INCLUDE[prod_short](includes/prod_short.md)].

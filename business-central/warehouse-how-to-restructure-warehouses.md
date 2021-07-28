@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að endurskipuleggja vöruhús | Microsoft Docs
-description: Hugsanlega þarf að endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum.
+title: Hvernig á að endurskipuleggja vöruhús
+description: Kynntu þér hvernig á að endurskipuleggja vöruhúsið með nýjum hólfakóðum og hólfaeinkennum til að ná fram eða viðhalda skilvirkari aðgerðum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ad541c54f696b19e9c37fba88134522cc5b7bb90
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4fb323253d9eb27216ae1d340ace6978a05afe65
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771655"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438058"
 ---
 # <a name="restructure-warehouses"></a>Endurskipulagning vöruhúsa
 Hugsanlega þarf að endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum. Ekki er ráðist í þess háttar aðgerðir oft en þær aðstæður geta komið upp að endurflokkun sé nauðsynleg til þess að ná fram eða viðhalda skilvirkni. Dæmi:  
@@ -27,11 +27,11 @@ Hugsanlega þarf að endurskipuleggja vöruhúsið með nýjum hólfakótum og h
 Ef vöruhúsið er sett upp fyrir hólf en ekki beinan frágang og tínslu skal endurskipuleggja vöruhúsið með því að búa til nú hólf sem nota á í framtíðinni.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Til að endurskipuleggja einfalt vöruhús sem notar aðeins hólf  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2.  Á flýtiflipanum **Vöruhús** skal stilla reitinn **Sjálfgefið hólfaval** á **Síðast notaða hólf**.  
 3.  Allt innihald hólfanna sem til eru fyrir er flutt í nýju hólfin sem stofnuð voru.  
 
-    1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruendurflokkunarbók** og veldu síðan tengda tengilinn.  
+    1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurflokkunarbók vöru** og velja síðan viðkomandi tengil.  
     2.  Veldu færslubókarlínu og svo **Sækja innihald hólfs** aðgerð.  
     3.  Á flýtiflipanum **Innihald hólfs** stillið afmarkanir í reitunum **Kóti birgðageymslu**, **Hólfkóti** og **Vörunr.** til að tilgreina efni sem á að færa.  
     4.  Velja **Í lagi** til að fylla út færslubókarlínu.  
@@ -46,13 +46,13 @@ Nú hafa hólf verið tæmd þar sem vörur voru. Sjálfgefnu hólfin fyrir vör
 1.  Nýju hólfin sem nota á í framtíðinni eru stofnuð. Frekari upplýsingar eru í [Stofna hólf](warehouse-how-to-create-individual-bins.md).  
 2.  Allt innihald hólfanna sem til eru fyrir er flutt í nýju hólfin sem stofnuð voru.  
 
-    1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruh.endurflokkunarbók** og veldu síðan tengda tengilinn.  
+    1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurflokkunarbók vöruhúss** og velja síðan viðkomandi tengil.  
     2.  Fyrir hólf þar sem engin raunveruleg hreyfing er á vörum skal stofna eina línu fyrir hvert hólf sem til er fyrir í **Endurflokkunarbók vöruhúss** með gamla hólfakótanum **Kóti frá-hólfs** og nýja hólfakótanum **Kóti til-hólfs**.  
     3.  Feli hreyfingar í sér raunverulega tilfærslu sem starfsmenn eiga að framkvæma skal nota **Hreyfingavinnublöð** til að útbúa hreyfingaleiðbeiningar í stað þess að nota Vöruh.endurflokkunarbókina. Frekari upplýsingar eru í [Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Þegar gömlu hólfin eru tæmd skal endurflokka þau sem hólf af gerðinni **GE** til að tryggja að þau séu ekki höfð með í vöruflæðum.  
 
-    1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
+    1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
     2.  Velja línu með birgðageymslunni og velja síðan **hólf** aðgerðina.  
     3.  Á síðunni **Hólf** í reitnum **Kóti hólfategundar**, færið inn **Utanflæðishólf** fyrir hvert eldra hólfanna sem tæmt er í skrefi 3 í fyrra ferli.  
 
@@ -60,7 +60,7 @@ Nú hafa hólfin verið fjarlægð úr vöruhúsaflæðinu og þær endurflokka�
 
 ## <a name="to-delete-a-bin"></a>Hólfi eytt:  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2.  Veljið birgðageymsluna þar sem á að eyða hólfum. Velja aðgerðina **Hólf**.  
 3.  Valdar eru línurnar með töflunum sem á að eyða.  
 4.  Velja skal aðgerðina **Eyða**.  
@@ -71,7 +71,7 @@ Ef endurnefna á hólf þannig að allar færslur sem tengjast hólfinu séu ein
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Hólf endurnefnt og hólfkóta breytt í öllum færslum  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2.  Veljið birgðageymsluna þar sem á að endurnefna hólf eða breyta hólfakóta og veljið síðan **Hólf** aðgerðina.  
 3.  Veljið hólfið sem á að breyta og færið nýjan hólfkóta í reitinn **Kóti**.  
 4.  Velja hnappinn **Já**.  

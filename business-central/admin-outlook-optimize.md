@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 24718b65fe5a5795d2a5a92a20fe4eb32aa4b2ac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6064857"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437492"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Fínstilling Outlook fyrir fyrirtækjainnhólf þitt 
 
@@ -50,7 +50,7 @@ Gerðu eftirfarandi til að athuga hvort Microsoft Edge WebView2 sé uppsett á 
 
 Úr upphafsvalmyndinni:
 
-1. Veldu **Byrja** ![Windows Start](media/windows-start-icon.png "Windows upphafstákn") > **Stillingar** ![Windows stillingar](media/windows-settings-icon.png "Stillingatákn Windows") > **Forrit og eiginleikar**.
+1. Veldu **Upphafsvalmynd** ![Upphafsvalmynd Windows.](media/windows-start-icon.png "Windows upphafstákn") > **Stillingar** ![Windows-stillingar](media/windows-settings-icon.png "Stillingatákn Windows") > **Forrit og eiginleikar**.
 2. Farðu í leitargluggann og sláðu inn **WebView2**. Ef Microsoft Edge WebView2 er sett upp sérðu færslu sem heitir **Microsoft Edge WebView2 Runtime**.
 
 Í stjórnborðinu:

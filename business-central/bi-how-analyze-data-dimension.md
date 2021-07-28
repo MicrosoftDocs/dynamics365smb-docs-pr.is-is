@@ -1,6 +1,6 @@
 ---
-title: Greina gögn eftir víddum| Microsoft Docs
-description: Lýsir því hvernig skal greina ýmis viðskiptagögn eftir víddum.
+title: Greina gögn eftir víddum
+description: Þetta efnisatriði lýsir því hvernig skal greina ýmis viðskiptagögn eftir víddum. Víddir gefa meiri innsýn í viðskiptin svo hægt sé að meta upplýsingar.
 services: project-madeira
 documentationcenter: ''
 author: edupont
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 9637aabd44f0714983a5d0ce129bf5bc9f1eaee4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947389"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437077"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Greina gögn eftir víddum
 Í fjárhagsgreiningu er vídd tiltekin gögn sem má bæta við færslu sem einskonar merki. Þessi gögn eru notuð til að flokka saman færslur með svipuð einkenni, eins og viðskiptamenn, svæði, vörur og sölumenn og sækja þessa hópa á auðveldan hátt til greiningar. Víddir má nota fyrir færslur í færslubókum, skjölum og fjárhagsáætlunum. Heitið vídd lýsir því hvernig greiningin fer fram. Tvívíð greining gæti til dæmis verið sala eftir svæðum. Hins vegar er hægt að framkvæma flóknari greiningar með því að nota fleiri en tvær víddir þegar færsla er stofnuð, til dæmis sölu á hverja söluherferð, hvern viðskiptamann á hverju svæði. Frekari upplýsingar er að finna í [Unnið með víddir](finance-dimensions.md).
@@ -33,7 +33,7 @@ Gagnagreining með víddum gefur meiri innsýn í viðskiptin fyrir mat á uppl�
 ## <a name="to-set-up-an-analysis-view"></a>Að setja upp greiningaryfirlit  
 Greining eftir víddum sýnir valda samsetningu vídda. Hægt er að geyma og sækja hverja greiningu sem sett hefur verið upp. Upplýsingar um uppsetningu greiningar eru geymdar í **greiningaryfirlit** spjaldi til að einfalda greiningu seinna.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiningaryfirlit** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiningaryfirlit** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Listi yfir greiningaryfirlit** skal velja aðgerðina **Nýtt**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Til að bæta öðrum víddarkóðum við þá fjóra sem fyrir eru á flýtiflipanum **Víddir** er aðgerðin **Afmörkun** valin, reitirnir fylltir út og síðan er smellt á **Í lagi** hnappinn.  
@@ -42,7 +42,7 @@ Greining eftir víddum sýnir valda samsetningu vídda. Hægt er að geyma og s�
 ## <a name="to-analyze-by-dimensions"></a>Að greina eftir víddum
 Hægt er að nota fylkið **Greining eftir víddum** til að skoða upphæðirnar í fjárhag með því að nota greiningaryfirlitin sem þegar eru uppsett. Fyllt er á síðunni **Greining eftir víddum** til að skilgreina hvað fylkið sýnir og síðan er valin aðgerðin **Sýna fylki** til að skoða fylkið.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiningaryfirlit** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiningaryfirlit** og velja síðan viðkomandi tengil.  
 2. Velja skal viðeigandi greiningaryfirlit og velja síðan aðgerðina **Greining eftir víddum**.
 3. Efst á síðunni **Greining eftir víddum** skal fylla inn í reitina til að skilgreina hvað birtist.
 4. Veljið aðgerðina **Sýna fylki** til að opna viðeigandi fylkissíðu fyrir skilgreint greiningaryfirlit.
@@ -65,7 +65,7 @@ Upphæðirnar sem sýndar eru á síðunni **Greining eftir víddum** gefa mynd 
 
 Eftirfarandi aðgerð er til að uppfæra greiningaryfirlit af síðunni **Greining eftir víddum** . Skrefin eru svipuð og á síðunum **Greiningaryfirlitsspjald** og **Greiningaryfirlitslisti**.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiningaryfirlit** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiningaryfirlit** og velja síðan viðkomandi tengil.
 2. Velja skal viðeigandi greiningaryfirlit og velja síðan aðgerðina **Greining eftir víddum**.
 2. Á síðunni **Greining eftir víddum** skal velja reitinn **Kóði greiningaryfirlits**.  
 3. Línan með viðeigandi greiningaryfirliti er valin.  

@@ -1,6 +1,6 @@
 ---
-title: Úthlutun kostnaðarauka á sölu og innkaup| Microsoft Docs
-description: Ef þú vilt að birgðavörurnar beri aukinn kostnað, eind og t.d. farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér, geturðu notað eiginleikann Kostnaðarauki.
+title: Úthlutun kostnaðarauka á sölu og innkaup
+description: Úthlutaðu kostnaðarauka þegar þú þarft að setja aukinn kostnað á birgðavörur, t.d. flutningskostnað og kostnað vegna meðhöndlunar, sem kemur upp þegar vörur eru keyptar eða seldar.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: dbf96c4f09c82bf409c0e082b6df116f3563402f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ef440a79cec7c59fe6aa7c6cfe34c441817bad5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773781"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436902"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
 Til að tryggja rétt verðmat, verða birgðavörurnar þínar að bera allan auka kostnað, eind og t.d. farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér. Í innkaupum, þá samanstendur raunkostnaður innkeyptrar vöru af innkaupaverði frá lánardrottni og öllu beinu viðbótarvörugjaldi sem hægt er að leggja á einstaka móttöku eða endursendar afhendingar. Það getur verið fyrirtækjum jafnmikilvægt að kunna skil á kostnaði við afhendingu seldrar vöru eins og að vita raunkostnað aðkeyptrar vöru.
@@ -26,7 +26,7 @@ Til viðbótar við skráningu aukakostnaðar á birgðavirði, geturðu notað 
 
 - Til að ákvarða raunkostnað vöru og taka réttari ákvarðanir sem miða að því að bæta dreifikerfið.
 - Til að sundurliða einingarkostnað og einingarverð vöru þegar framkvæmdar eru greiningar.
-- til að hafa innkaupauppbætur með í einingarkostnaði og söluuppbætur í einingarverði.
+- Hafðu innkaupauppbætur með í einingarkostnaði og söluuppbætur í einingarverði.
 
 Áður en þú getur úthlutað kostnaðarauka, þarf að setja upp kostnaðaraukanúmer fyrir ólíkar gerðir kostnaðarauka, og líka tiltaka á hvaða fjárhagsreikninga skal bóka kostnað sem hlýst af sölu, innkaupum og leiðréttingu birgða.  Kostnaðaraukanúmer inniheldur samsetningu almennra vörubókunarflokka, skattflokkskóða, VSK-vörubókunarflokka og kostnaðarauka. Þegar þetta kostnaðaraukanúmer er fært inn í innkaupa- eða söluskjal sækir kerfið fjárhagsreikning eftir uppsetningu kostnaðaraukanúmersins og upplýsingunum í viðkomandi skjali.
 
@@ -45,14 +45,14 @@ Hægt er að úthluta kostnaðarauka á bæði innkaupa- og söluskjöl á tvenn
 ## <a name="to-set-up-item-charge-numbers"></a>Uppsetning kostnaðaraukanúmera
 Vörugjaldsnúmer eru notuð til að greina á milli mismunandi vörugjalda sem notuð eru fyrir innkaupaskjöl í fyrirtækinu.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarauki** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Kostnaðaraukar** og velja síðan viðkomandi tengil.
 2. Á síðunni **Kostnaðarauki** skal velja aðgerðina **Nýtt** til að stofna nýja línu.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Að úthluta kostnaðarauka beint til innkaupareiknings fyrir vöruna
 Ef þú veist hver kostnaðaraukinn er þegar þú bókar innkaupareikning fyrir vöruna, skaltu fylgja þessu ferli.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.
 2. Stofna nýjan innkaupareikning. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Vertu viss um að innkaupareikningurinn hafi fleiri en eina línu af vörutegund.
 4. Á nýja línu í reitnum **Tegund** er valinn **Kostnaðarauki Vöru**.

@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að vinna með grunnstillingu fyrirtækis í vinnublaði | Microsoft Docs
-description: Skilgreiningarvinnublaðið er aðalstaðsetningin þar sem hægt er að áætla, rekja og framkvæma skilgreiningarvinnu. Hægt er að stofna vinnublað fyrir hvert fyrirtæki sem unnið er með eða stofna staðlað skilgreiningarvinnublað sem hægt er að nota þegar mörg eins fyrirtæki eru skilgreind.
+title: Hvernig á að vinna með grunnstillingu fyrirtækis í vinnublaði
+description: Skilgreiningarvinnublaðið er aðalstaðsetningin þar sem hægt er að áætla, rekja og framkvæma grunnstillingarvinnu fyrirtækisins.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fb50a620f4fc978778a7b6f26581d8768802d0a7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779833"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437963"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Vinna með grunnstillingu fyrirtækis í vinnublaði
 Skilgreiningarvinnublaðið er aðalstaðsetningin þar sem hægt er að áætla, rekja og framkvæma skilgreiningarvinnu. Hægt er að stofna vinnublað fyrir hvert fyrirtæki sem unnið er með eða stofna staðlað skilgreiningarvinnublað sem hægt er að nota þegar mörg eins fyrirtæki eru skilgreind.  
@@ -28,7 +28,7 @@ Eftirfarandi ferli sýna hvernig eigi að bæta við og sérstilla töfluupplýs
 
 ## <a name="to-open-the-configuration-worksheet"></a>Til að opna skilgreiningarvinnublað  
 1.  Í [!INCLUDE[prod_short](includes/prod_short.md)], opnið fyrirtækið sem er grunnlína fyrir grunnstillingu og opnið síðan Mitt hlutverk RapidStart Services innleiðara.  
-2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
+2.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Grunnstillingarvinnublað** og velja síðan viðkomandi tengil.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Til að bæta töflu við vinnublað  
 1.  Á síðunni **Grunnstillingarvinnublað** skal velja aðgerðina **Breyta lista**.  

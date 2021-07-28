@@ -1,6 +1,6 @@
 ---
-title: Þjónustuupplýsingar | Microsoft Docs
-description: Fáðu snöggt yfirlit yfir innihald alls þjónustuskjalsins, þ.m.t. pantanir, tilboð, reikninga eða kreditreikninga, sundurliðun á ákveðnum þjónustulínum og þjónustuvörur.
+title: Þjónustuupplýsingar
+description: Fáðu snöggt yfirlit yfir innihald og tölfræði þjónustuskjala eins og pantanir, tilboð, reikninga, kreditreikninga, þjónustulínur og fleira.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9b3c9199e018b9bb4607cbb5919195aa526aa56
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776742"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438258"
 ---
 # <a name="viewing-service-statistics"></a>Þjónustuupplýsingar skoðaðar
 Hægt er að nota tölfræði til að greina þjónustuskjöl og ákvarða hversu vel þú ert að stjórna þjónustuferlunum. Þú getur greint þjónustusamninga, vörur, tilboð, pantanir, reikninga og kreditreikninga með því að velja aðgerðina **Upplýsingar**. Fyrir þjónustuvörur og samninga, geturðu líka notað **Þjónustuvara Trendscape** eða **Samningur Trendscape** til að skoða yfirlit yfir þjónustufærslur fyrir sérstaka þjónustuvöru.   
@@ -84,7 +84,7 @@ Hagnaðar- eða tapfærslur samnings eru myndar í hvert sinn sem samningstilbo�
 |**Hagn./tap samnings (ástæður)**|Ef skoða á hagnaðar-/tapfærslur eftir ástæðukóta.|  
 |**Hagn./tap samn. (ábyrgðarstöð)**|Ef skoða á hagnaðar-/tapfærslur eftir ábyrgðarstöð.|  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") sláðu inn heiti síðunnar sem á að birta og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn nafnið á síðunni sem á að birtast og veldu síðan viðkomandi tengil.  
 2. Fylla inn í afmörkunarskilyrði sem á að nota. Til dæmis á síðunni **Hagn./tap samnings (ástæður)** skal velja gildi fyrir **Afmörkun ástæðukóða**.  
 3. Veljið aðgerðina **Sýna fylki**.
 

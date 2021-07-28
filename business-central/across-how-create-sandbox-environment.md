@@ -1,6 +1,6 @@
 ---
 title: Búa til sandkassaumhverfi
-description: Stofna umhverfi þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa úr Business Central.
+description: Búðu til sandkassaumhverfi þar sem hægt er að kanna, læra, búa til sýniútgáfu, þróa, úrræðaleita og prófa í Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 06/08/2021
 ms.author: solsen
-ms.openlocfilehash: a76ae33815b8e9368f45b72fd8703bfc47cbd079
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2f4ca6a98aac49fa5fea7d8658ef51a9510c97d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215629"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437678"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Búa til sandkassaumhverfi í [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -30,8 +30,8 @@ Kerfisstjórinn þinn stjórnar sandkassaumhverfi í [Stjórnandamiðstöð](/dy
 
 1. Skráðu þig inn í þitt framleiðslutilvik af [!INCLUDE[prod_short](includes/prod_short.md)].
 
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sandkassaumhverfi** og veldu síðan tengda tengilinn.
-    <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sandkassaumhverfi** og veldu síðan tengda tengilinn.
+    <!-- ![Sandbox Environment Setup.](./media/across-sandbox/sandbox-environment-setup.png) -->
 3. Veldu hnappinn **Stofna**.  
 
     Annar flipi með [!INCLUDE[prod_short](includes/prod_short.md)] opnast svo hægt sé að ljúka uppsetningu á sandkassaumhverfi.
@@ -40,12 +40,12 @@ Kerfisstjórinn þinn stjórnar sandkassaumhverfi í [Stjórnandamiðstöð](/dy
     >  Ef þú ert með sprettigluggavörn virka í vafranum, skaltu breyta henni þannig að vefslóðir frá *.businesscentral.dynamics.com aðsetrinu verði leyfðar.
 
 Þegar sandkassaumhverfið er tilbúið, verður þér beint inn á leiðsagnarforrit sandkassaumhverfisins.
-<!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
+<!-- ![Sandbox Welcome Wizard.](./media/across-sandbox/sandbox-wizard.png) -->
 
 Þú getur valið hnappinn **Frekari upplýsingar** til að lesa um þróunardæmi sem hægt er að prófa í sandkassaumhverfinu eða veldu hnappinn **Loka** til að halda áfram í Mínu hlutverki í [!INCLUDE[prod_short](includes/prod_short.md)] sandkassatilvikinu þínu.
 
 Efst í Hlutverkamiðstöðinni birtist tilkynning til að upplýsa þig um að þetta sé sandkassaumhverfi. Einnig er hægt að sjá um hvaða gerð af umhverfi er að ræða í titilstiku biðlarans.
-    <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
+    <!-- ![Sandbox RoleCenter Notification.](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
 > [!NOTE]
 > Sandkassaumhverfi sem er búið til á þennan hátt inniheldur aðeins sjálfgefin sýnigögn fyrir fyrirtækið CRONUS. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu.
@@ -53,11 +53,11 @@ Efst í Hlutverkamiðstöðinni birtist tilkynning til að upplýsa þig um að 
 > Einnig er hægt að búa til sandkassaumhverfi byggt á framleiðslugögnum. Þetta þarf að gera í gegnum stjórnendamiðstöðina. Frekari upplýsingar eru í [Stjórnun umhverfa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) í þróunar- og stjórnunarefni.  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
-    ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
+    ![Sandbox Dynamics365 Menu.](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
 Stjórnandi eða annar notandi getur að takmarkað eða jafnvel hindrað aðganga sumra notenda að sandkassaumhverfinu. Þetta er hægt að gera með því að nota staðlaða öryggiseiginleika vörunnar, eins og t.d. Notandakort, Notendaflokkar og Heimildasamstæður. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
-<!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
+<!-- ![Sandbox Permission Sets.](./media/across-sandbox/sandbox-permission-sets.png) -->
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Ítarleg virkni í sandkassaumhverfinu
 
@@ -69,9 +69,9 @@ Sandkassaumhverfið er ekki síst gagnlegt vegna þess að það felur í sér n
 
 ### <a name="advanced-user-experience"></a>Ítarleg notendaupplifun
 
-Mögulegt er að virkja og prófa fulla virkni af staðalútgáfu [!INCLUDE[prod_short](includes/prod_short.md)] í sandkassa leigjanda með því að stilla svæðið **Upplifun** á síðunni **Upplýsingar um fyrirtæki** á *Premium*. Leitaðu að síðunni **Upplýsingar um fyrirtæki** á valmynd :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Stillingartáknsins":::.  
+Mögulegt er að virkja og prófa fulla virkni af staðalútgáfu [!INCLUDE[prod_short](includes/prod_short.md)] í sandkassa leigjanda með því að stilla svæðið **Upplifun** á síðunni **Upplýsingar um fyrirtæki** á *Premium*. Leitaðu að síðunni **Upplýsingar um fyrirtæki** í :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Stillingatákninu."::: .  
 
-Eftir að þú hefur opnað fyrir notendaupplifunina *Premium*, færðu aðgang að öllum stöðluðu forstillingunum (hlutverkum) og Mitt hlutverk í stöðluðu útgáfunni. Einnig er hægt að stofna matsfyrirtæki sem er að fullu uppsett, með sýnigögnum og aðgangi að ítarlegri svæðum vörunnar. Að öðrum kosti er hægt að hafa samskipti við endursöluaðila til að fá sýniútgáfu af þeim eiginleikum. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq.yml#findpartner).  
+Eftir að þú hefur opnað fyrir notendaupplifunina *Premium*, færðu aðgang að öllum stöðluðu forstillingunum (hlutverkum) og Mitt hlutverk í stöðluðu útgáfunni. Einnig er hægt að stofna matsfyrirtæki sem er að fullu uppsett, með sýnigögnum og aðgangi að ítarlegri svæðum vörunnar. Að öðrum kosti er hægt að hafa samskipti við endursöluaðila til að fá sýniútgáfu af þeim eiginleikum. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
 ### <a name="complete-sample-data"></a>Ljúka sýnigögnum
 
@@ -80,7 +80,7 @@ Ef þú þarft frekari sýnigögn skaltu ræða við endursöluaðila þinn.
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Til að stofna fyrirtæki með fullkláruð sýnigögn í sandkassa
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fyrirtæki** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fyrirtæki** og veldu síðan tengda tengilinn.  
 2. Veldu aðgerðina **Nýtt** og síðan **Stofna nýtt fyrirtæki**.  
 3. Á síðunni **Uppsetningarleiðbeiningar fyrir fyrirtæki** skaltu smella á **Áfram**.  
 4. Tilgreinið heiti fyrir nýja fyrirtækið og síðan á svæðinu **Veldu gögn og uppsetningu til að hefjast handa** veljið **Ítarlegt mat - Heildarsýnigögn**.  
@@ -90,11 +90,11 @@ Ef þú þarft frekari sýnigögn skaltu ræða við endursöluaðila þinn.
 
 ### <a name="designer"></a>Hönnuður
 
-Í sandkassaumhverfi er kveikt á **Hönnuður**. Hægt er að virkja Hönnuð með því að velja hönnunartáknið ![Hönnuður](./media/across-sandbox/sandbox-inclient-design-icon.png) á síðu eða með því að velja **Hanna** valmyndaratriðið í stillingavalmyndinni ![Stillingar](media/ui-experience/settings_icon_small.png).  
+Í sandkassaumhverfi er kveikt á **Hönnuður**. Hægt er að virkja hönnuðinn með því að velja hönnunartáknið ![Hönnuður.](./media/across-sandbox/sandbox-inclient-design-icon.png) á síðu eða með því að velja **Hanna** valmyndaratriðið í stillingavalmyndinni ![Stillingar](media/ui-experience/settings_icon_small.png).  
 
 Frekari upplýsingar er að finna í [Notkun hönnuðar](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) í efni hönnuðar og stjórnanda (aðeins á ensku).  
 
-<!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
+<!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ## <a name="see-also"></a>Sjá einnig
 

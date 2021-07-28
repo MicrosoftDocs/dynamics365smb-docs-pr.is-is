@@ -1,6 +1,6 @@
 ---
 title: 'Kynning: Framkvæmd söluherferðar'
-description: Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvægur þáttur í uppsetningu herferðar hefur með val á markhópi hennar að gera. Í þessum tilgangi er búinn til í Business Central hluti eða hópur tengiliða með afmörkunum.
+description: Þessi kynning gefur nákvæma heildarmynd á öllum verkum sem eru hluti af söluherferð í Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
-ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
+ms.openlocfilehash: 63e2c298c7830fb993c99587a0b7475d1ece7223
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102434"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437838"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Kynning: Framkvæmd söluherferðar
 
@@ -69,7 +69,7 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 
 ### <a name="to-set-up-a-campaign"></a>Uppsetning herferðar  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Herferðir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Herferðir** og velja síðan viðkomandi tengil.  
 2. Til að búa til nýja herferð skal velja aðgerðina **Nýtt**. Á söluherferðarspjaldinu er stutt á **Færslulykilinn** til að söluherferðarnúmer verði sjálfkrafa sett inn.  
 3. Í reitinn **Lýsing** er færð inn lýsing á herferðinni, t.d. **Office Futurus - sölusýning**.  
 4. Veljið reitinn **Stöðukóði** og veljið stöðukóðann „1-PLAN“. 
@@ -161,11 +161,11 @@ Markaðsstjórinn ákveður að ekki þurfi að stytta listann frekar þar sem h
 
 Viðhengi hafa verið send. Þegar ferlinu er lokið skal velja hnappinn **Í lagi** fyrir skilaboðin sem tilkynna að hlutinn hafi verið skráður.  
 
- Bókstafir eru sjálfkrafa prentaðir og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er fluttur í lista yfir skráða hluti. Til að sjá þann lista velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera")táknið, sláðu inn **Skráðir hlutar** og veldu síðan tengda tengilinn.  
+ Bókstafir eru sjálfkrafa prentaðir og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er fluttur í lista yfir skráða hluti. Til að sjá listann velurðu táknið ![Ljósaperu sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") ferð í **Skráðir hlutar** og velur viðkomandi tengil.  
 
 Eftir að hlutinn er skráður, er hvert bréf sem er sent skráð sem samskipti, sem sjá má í kladdanum.  
 
-Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Færslur í samskiptaskráningu** og veldu síðan tengda tengilinn. Til er færsla fyrir hvern sendan staf.  
+Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Samskiptaskráningarfærslur** og velja síðan viðkomandi tengil. Til er færsla fyrir hvern sendan staf.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Til að senda tölvupóstskeyti á tengilið  
 
@@ -178,7 +178,7 @@ Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/searc
 7. Velja gátreitinn **Stofna eftirfylgnihluta**.  
 8. Velja hnappinn **Í lagi**.  
 
- Bókstafir eru sjálfkrafa sendir með tölvupósti og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er vistaður í lista yfir skráða hluti. Til að sjá þann lista velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skráðir hlutar** og veldu síðan tengda tengilinn.  
+ Bókstafir eru sjálfkrafa sendir með tölvupósti og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er vistaður í lista yfir skráða hluti. Til að sjá listann velurðu táknið ![Ljósaperu sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") ferð í **Skráðir hlutar** og velur viðkomandi tengil.  
 
 ## <a name="registering-campaign-responses"></a>Skráning svara við herferð
 

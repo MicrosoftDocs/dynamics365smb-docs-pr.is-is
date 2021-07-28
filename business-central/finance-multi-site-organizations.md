@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087670"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437367"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central fyrir fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir
 Stofnanir á mörgum svæðum nota oft „hub-and-spoke“ viðskiptalíkan þegar móðurfyrirtæki, eða höfuðstöðvar, stjórna heildarrekstri fyrirtækisins en þar sem hvert svæði starfar sem ein, sjálfstæð eining. Svæði eru oft dreifð landfræðilega og hafa mismunandi þörf fyrir deilingu upplýsinga með höfuðstöðvum fyrirtækisins. Auk þess hafa svæði yfirleitt ekki sömu þarfir og oft skortir úrræði til að viðhalda stóru kerfi.
@@ -30,7 +30,7 @@ Stofnanir á mörgum svæðum nota oft „hub-and-spoke“ viðskiptalíkan þeg
 
 Eftirfarandi skýringarmynd er dæmi um mismunandi svæði sem eru samþætt höfuðstöðvum fyrirtækis.
 
-![Lýsing skýringarmyndar sjálfkrafa búin til](media/multisite-headquarter-sites.png)
+![Lýsing skýringarmyndar sjálfkrafa búin til.](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Uppfylla þarfir innlendra og alþjóðlegra vefsvæða
 
@@ -101,7 +101,7 @@ Vefsvæði þurfa oft aðgang að birgðakeðjunni og möguleika á að stýra t
 
 Höfuðstöðvar verða að geta brugðist skjótt við breytingum á rekstri á hverjum stað. Samhliða Power Automate getur [!INCLUDE[prod_short](includes/prod_short.md)] getur þjónað sem viðvörunarkerfi.
 
-![Skjámynd af færslu á samfélagsmiðlum Lýsing sjálfkrafa búin til](media/multisite-apps.png)
+![Skjámynd af færslu á samfélagsmiðlum: Lýsing sjálfkrafa búin til.](media/multisite-apps.png)
 
 | **Fyrirtækjakröfur** | **Hvernig Business Central styður það** | **Frekari upplýsingar** |
 |-------------------------|-------------------------|-------------------------|

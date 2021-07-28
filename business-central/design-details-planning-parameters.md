@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - áætlunarfæribreyta | Microsoft Docs
-description: Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í Business Central.
+title: Hönnunarupplýsingar - áætlunarfæribreyta
+description: Þetta efnisatriði lýsir mismunandi áætlunarfæribreytum sem þú getur notað og hvernig þær hafa áhrif á áætlanakerfið.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a572b9cee77a6fb89c0d44a48150dbba4742cc6e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215854"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437888"
 ---
 # <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
 Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í [!INCLUDE[prod_short](includes/prod_short.md)]  
@@ -82,25 +82,25 @@ Til að fá skynsamlegar framboðsáætlun, skipuleggjandi mun fínstilla áætl
 
 Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils byggir á birgðadegi. Tímaramminn byggir á upphafsdagsetningu áætlanagerðar eins og sést á eftirfarandi skýringarmynd.  
 
-![Einingar tímaramma](media/supply_planning_5_time_bucket_elements.png "Einingar tímaramma")  
+![Einingar tímaramma.](media/supply_planning_5_time_bucket_elements.png "Einingar tímaramma")  
 
 Í eftirfarandi dæmum, svarta örvar tákna núverandi framboð (upp) og eftirspurn (niður). Rauðar, grænar og appelsínuguldar örvar eru áætlunartillögur.  
 
 **Dæmi 1**: Breytta dagsetningin er utan enduráætlunartímabilsins sem veldur því að hætt er við núverandi framboð. Nýtt framboð er lagt til til að ná yfir eftirspurn í lotusöfnunartímabilinu.  
 
-![Enduráætlunar- og lotusöfnunartímabil](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Enduráætlunar- og lotusöfnunartímabil")  
+![Enduráætlunar- og lotusöfnunartímabil.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Enduráætlunar- og lotusöfnunartímabil")  
 
 **Dæmi 2**: Breytta dagsetningin er á enduráætlunartímabilinu, sem veldur því að núverandi framboð er enduráætlað. Nýtt framboð er lagt til til að ná yfir eftirspurn utan lotusöfnunartímabilsins.  
 
-![Enduráætlunartímabil, lotusöfnunartímabil og enduráætlun](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Enduráætlunartímabil, lotusöfnunartímabil og enduráætlun")  
+![Enduráætlunartímabil, lotusöfnunartímabil og enduráætlun.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Enduráætlunartímabil, lotusöfnunartímabil og enduráætlun")  
 
 **Dæmi 3**: Eftirspurn er á hömlutímabilinu og framboðsmagnið á lotusöfnunartímabilinu stemmir við framboðsmagnið. Næsta eftirspurn er óvarin og stungið er upp á nýrri eftirspurn.  
 
-![Hömlu- og lotusöfnunartímabil](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Hömlu- og lotusöfnunartímabil")  
+![Hömlu- og lotusöfnunartímabil.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Hömlu- og lotusöfnunartímabil")  
 
 **Dæmi 4**: Eftirspurn er á hömlutímabilinu og framboðið er áfram á sömu dagsetningu. Hins vegar er núverandi framboðsmagn ekki nóg til að svara eftirspurn á lotusöfnunartímabilinu, svo lögð er til breytingaraðgerð á magni fyrir núverandi birgðir.  
 
-![Hömlutímabil, lotusöfnunartímabil og breyting á magni](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Hömlutímabil, lotusöfnunartímabil og breyting á magni")  
+![Hömlutímabil, lotusöfnunartímabil og breyting á magni.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Hömlutímabil, lotusöfnunartímabil og breyting á magni")  
 
 **Sjálfgefin gildi:** Sjálfgefin gildi reitarins **Tímarammi** og þriggja endurpantanatímabilsreita eru auð. Fyrir alla reiti nema reitinn **Hömlutímabil** þetta merkir 0D núll dagar. Ef reiturinn **Hömlutímabil** er auður verður altæka gildið í reitnum **Sjálfgefið hömlutímabil** á síðunni **Uppsetning framleiðslu** notað.  
 

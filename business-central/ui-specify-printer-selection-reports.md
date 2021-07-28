@@ -1,6 +1,6 @@
 ---
 title: Uppsetning prentara
-description: Frekari upplýsingar um uppsetningu prentara sem hægt er að nota fyrir skýrslur og skjöl.
+description: Kynntu þér hvernig á að setja upp prentara sem hægt er að nota fyrir skýrslur og skjöl og mismunandi prenteiginleika sem eru í boði í Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 05/17/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063453"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437217"
 ---
 # <a name="set-up-printers"></a>Setja upp prentara
 
@@ -25,8 +25,8 @@ Til að styðja við prentþarfirnar býður [!INCLUDE[prod_short](includes/prod
 
 |Sérkenni|Description|Vefbiðlari| Fartækjaforrit|Forrit fyrir Teams|
 |-------|-----------|----------|-----------|--------------|
-|Skýjaprentun|Skýjaprentun er prentstjórnunarlausn sem er í boði sem skýjaþjónusta frá Microsoft. Með þessum eiginleika er hægt að setja upp prentara í skýjaprentun, síðan skrá þá til að nota í [!INCLUDE[prod_short](includes/prod_short.md)]. Þessi eiginleiki krefst áskriftar að Skýjaprentun og viðbótarinnar **Samþætting skýjaprentunar**|![vinnur á netinu](media/check.png)|![vinnur á netinu](media/check.png)|![vinnur á netinu](media/check.png)|
-|Tölvupóstprentun|Þessi eiginleiki gerir kleift að setja upp tölvupóstsprentara. [!INCLUDE[prod_short](includes/prod_short.md)] sendir þá prentverk til prentara með netfangi prentarans. Þessi eiginleiki krefst netfangaprentara og viðbótarinnar **Senda á tölvupóstsprentara**.|![vinnur á netinu](media/check.png)|![vinnur á netinu](media/check.png)|![vinnur á netinu](media/check.png)|
+|Skýjaprentun|Skýjaprentun er prentstjórnunarlausn sem er í boði sem skýjaþjónusta frá Microsoft. Með þessum eiginleika er hægt að setja upp prentara í skýjaprentun, síðan skrá þá til að nota í [!INCLUDE[prod_short](includes/prod_short.md)]. Þessi eiginleiki krefst áskriftar að Skýjaprentun og viðbótarinnar **Samþætting skýjaprentunar**|![vinnur á netinu.](media/check.png)|![vinnur á netinu.](media/check.png)|![vinnur á netinu](media/check.png)|
+|Tölvupóstprentun|Þessi eiginleiki gerir kleift að setja upp tölvupóstsprentara. [!INCLUDE[prod_short](includes/prod_short.md)] sendir þá prentverk til prentara með netfangi prentarans. Þessi eiginleiki krefst netfangaprentara og viðbótarinnar **Senda á tölvupóstsprentara**.|![vinnur á netinu.](media/check.png)|![vinnur á netinu](media/check.png)|![vinnur á netinu](media/check.png)|
 |Prentun í vafra|Prentvirkni í vafra notandans sér um prentverk. Ef skýjaprentari er ekki uppsettur, eða ef uppsettur prentari mistekst, verða prentvalkostir vafrans sjálfgefið valdir. Reiturinn **Prentari** á síðu skýrslubeiðni sýnir *(Vafri sér um prentun)*.|![vinnur á netinu](media/check.png)|||
 
 > [!NOTE]
@@ -36,7 +36,7 @@ Til að styðja við prentþarfirnar býður [!INCLUDE[prod_short](includes/prod
 
 Skýjaprentun er áskriftarþjónusta Microsoft 365 sem keyrir eingöngu á Microsoft Azure. Hún býður upp á miðstýrða prentstjórnun í gegnum gátt skýjaprentunar. [!INCLUDE[prod_short](includes/prod_short.md)] gerir uppsetningu prentara í skýjaprentun tiltæka biðlurum í gegnum viðbótina **Samþætting skýjaprentunar**.
 
-![Uppsetning skýjaprentunar](media/Universal-Print-arch.png)
+![Uppsetning skýjaprentunar.](media/Universal-Print-arch.png)
 
 Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með [Azure-gáttinni](https://portal.azure.com), og í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -146,7 +146,7 @@ Með því að bæta við einum prentara í einu verður hægt að setja upp sam
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Prentarastjórnun** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Prentarastjórnun** og velja síðan viðkomandi tengil.
 2. Veljið **Skýjaprentun** og því næst skal velja einn af eftirfarandi valkostum:
 
     - **Bæta við öllum prenturum Skýjaprentunar** til að bæta við öllum prenturum sem ekki er búið að bæta við. Hægt er að nota þennan valkost þótt búið sé að bæta við prenturum. 
@@ -206,7 +206,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 Síðan **Prentarastjórnun** sýnir þér prentarana sem búið er að setja upp. Síðan veitir þér einnig aðgang að síðunni **Stillingar** fyrir hvern prentara fyrir sig til að breyta núverandi uppsetningu eða til að setja upp nýjan prentara.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Prentarastjórnun** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Prentarastjórnun** og velja síðan viðkomandi tengil.
 2. Veldu **Tölvupóstprentun** og veldu síðan **Bæta við tölvupóstprentara**.
 3. Á síðunni **Stillingar tölvupóstsprentara** skal fylla út reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -230,7 +230,7 @@ Nauðsynlegt er að gera allar nauðsynlegar persónuverndarráðstafanir, þar 
 
 Síðan **Prentarastjórnun** gerir kleift að setja upp prentara sem sjálfgefinn prentara fyrir öll prentverk. Hægt er að tilgreina prentarann sem sjálfgefinn fyrir einn notanda eða alla notendur.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Prentarastjórnun** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Prentarastjórnun** og velja síðan viðkomandi tengil.
 
     > [!TIP]
     > Einnig er hægt að opna síðuna **Prentarastjórnun** af síðunni **Prentaraval** með því að velja **Prentarastjórnun**.  
@@ -246,7 +246,7 @@ Síðan **Prentaraval** gerir kleift að tilgreina prentarann sem skýrsla notar
 > [!IMPORTANT]
 > Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum getur síðan **Prentaraval** aðeins verið notuð fyrir prentara í skýinu sem prentaraviðbætur skilgreina, eins og tölvupóstsprentara og prentara skýjaprentunar. Ekki er hægt að nota hana fyrir staðbundna prentara.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Prentaraval** og veldu síðan tengda tengilinn. Í staðinn, á síðunni **Prentarastjórnun**, skal velja prentara og því næst velja aðgerðina **Prentaraval**.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Prentaraval** og velja síðan viðkomandi tengil. Í staðinn, á síðunni **Prentarastjórnun**, skal velja prentara og því næst velja aðgerðina **Prentaraval**.
 2. Velja skal aðgerðina **Nýtt** til að bæta við prentaravali fyrir tiltekna skýrslu.
 3. Fyllið inn reitina eftir þörfum.
 

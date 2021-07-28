@@ -1,6 +1,6 @@
 ---
-title: Vinnsla sölutækifæra í söluferli| Microsoft Docs
-description: Hægt er að skoða, loka eða eyða sölutækifærum, og líka stofna tilboð og sölupantanir fyrir tækifæri, og færa tækifæri á milli þrepa í söluferlinu.
+title: Vinnsla sölutækifæra í söluferli
+description: Þetta efnisatriði lýsir því hvernig þú getur unnið úr sölutækifærum í söluferlum og fært tækifæri í gegnum stig söluferlis.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: d67e1d1eda6cf3ae80ebad185a0db3fadd3eec1b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017250"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437603"
 ---
 # <a name="process-sales-opportunities"></a>Meðhöndla sölutækifæri
 Þegar tækifæri er stofnað eru margar aðgerðir til að stjórna tækifæri og vinna það til enda.
@@ -27,9 +27,9 @@ Fyrirliggjandi sölutækifæri eru tiltæk á síðunni **Tækifæralisti**. Þa
 
 | Skoða tækifæri fyrir | Þá |
 | --- | --- |
-| Alla sölumenn og tengiliði |Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Möguleikalisti** og veldu síðan tengda tengilinn. |
-| Tiltekin sölumaður |Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sölumenn** og veldu síðan tengda tengilinn. Veldu sölumaður, veldu aðgerðina **tækifæri**, og veldu síðan aðgerðina **listi**. |
-| Tiltekinn tengilið |Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn. Veldu tengilið úr listanum, og veldu svo aðgerðina **tækifæri**. |
+| Alla sölumenn og tengiliði |Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Möguleikalisti** og veldu síðan tengda tengilinn. |
+| Tiltekin sölumaður |Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölumenn** og velja síðan viðkomandi tengil. Veldu sölumaður, veldu aðgerðina **tækifæri**, og veldu síðan aðgerðina **listi**. |
+| Tiltekinn tengilið |Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tengiliðir** og velja síðan viðkomandi tengil. Veldu tengilið úr listanum, og veldu svo aðgerðina **tækifæri**. |
 
 Hver þesara verkefna opnar **Tækifæralisti** síðuna.
 
@@ -66,7 +66,7 @@ Til að eyða lokuðum tækifærum af **Tækifæralisti** síðunni, valin tæki
 
 Til að eyða lokuðum tækifærum með því að nota **Eyða Lokuð Tækifæri** runuvinnslu, fylgja skal eftirfarandi skrefum:
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða tækifærum** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Eyða tækifærum** og veldu síðan tengda tengilinn.
 2. Í **Tækifæri** hlutanum, skal setja upp síur sem tilgreina lokuð tækifæri til að eyða.
 3. Velja hnappinn **Í lagi**.
 

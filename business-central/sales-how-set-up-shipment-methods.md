@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8390c95083eb02c208e97f0309a725e8ec4d7730
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ee6cdceb716331e2d8338e178def4b8b1e5cfe8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778573"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436702"
 ---
 # <a name="set-up-shipment-methods"></a>Afhendingarmátar settir upp
 
@@ -25,7 +25,7 @@ Afhendingarmáti ræðst oft af vörunni sjálfri, viðskiptamönnum eða lánar
 
 ## <a name="to-set-up-a-shipment-method"></a>afhendingarmátar settir upp
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sendingaraðferð** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afhendingarmátar** og velja síðan viðkomandi tengil.
 2. Á síðunni **Afhendingarmátar** skal velja aðgerðina **Nýr**.
 3. Á nýju línunni skal tilgreina kóða og lýsingu fyrir afhendingarmáta.
 

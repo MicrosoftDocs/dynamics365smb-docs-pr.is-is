@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að setja upp skjalaskiptaþjónustu | Microsoft Docs
-description: Notaður er ytri þjónustuveitandi til að skiptast á rafrænum skjölum við viðskiptafélögum.
+title: Hvernig á að setja upp skjalaskiptaþjónustu
+description: Notaður er ytri þjónustuveitandi til að skiptast á rafrænum skjölum við viðskiptafélaga með því að nota „Uppsetning skjalaskiptaþjónustu“.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a89cf3988e7576070a58a798e0f88693e598ef92
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 357c48c6b7ed8e2d44316805bba04ff9236f0e9b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787283"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436299"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Setja upp skjalaskiptaþjónustu
 Notaður er ytri þjónustuveitandi til að skiptast á rafrænum skjölum við viðskiptafélögum. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Setja upp skjalaskiptaþjónustu  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning gagnaskiptaþjónustu** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Uppsetning skjalaskiptaþjónustu** og velja síðan viðkomandi tengil.  
 2. Fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Description|  

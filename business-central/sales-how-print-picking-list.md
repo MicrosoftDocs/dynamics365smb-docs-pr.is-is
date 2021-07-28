@@ -1,5 +1,5 @@
 ---
-title: Prenta birgðatínslulista úr sölupöntun
+title: Prenta tiltektarlista birgða úr sölupöntun
 description: Hægt er að nota tiltektarlista birgða beint úr sölupöntun, sölu, reikningi og öðrum söluskjölum á útleið.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 50c0a9836a45bac0dfd4a190040c908d28d5617f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115462"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436827"
 ---
 # <a name="print-the-picking-list"></a>Prenta tiltektarlistann.
 
@@ -27,7 +27,7 @@ Hægt er að prenta tiltektarlista beint úr sölupöntun, sölureikningi og ö�
 
 Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnur skjöl sem hægt er að nota til að hefja sendingu á vörum, s.s. flutningspöntun.
 
-1. Veldu ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") tákn, sláðu inn **Sölupantanir** og veldu svo tengdan tengil.  
+1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Opnaðu sölupöntunina sem þú vilt tína vörur fyrir.  
 3. Veldu aðgerðina **Skýrsla** og svo **Tínslulisti eftir pöntun**.  
 4. Velja hnappinn **Prenta** til þess að prenta skýrslu eða velja hnappinn **Forskoðun** til að birta hana á skjánum.

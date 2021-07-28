@@ -1,6 +1,6 @@
 ---
-title: Breyta bókuðum sölu- og innkaupaskjölum | Microsoft Docs
-description: Kynntu þér mismunandi bókunaraðferðir til að bóka innkaupaskjöl og hvernig hægt er að uppfæra bókuð skjöl.
+title: Breyta bókuðum sölu- og innkaupaskjölum
+description: Þetta efnisatriði útskýrir hvernig á að uppfæra upplýsingar á bókuðu skjali eins og söluskjali eða innkaupareikningi þegar upplýsingar sem eiga við hafa breyst.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ef23d98aaeeb63c17e836fd25b547703787264da
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a2be703bfc58fbac85dd4776e5256b614eb46cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776198"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437803"
 ---
 # <a name="edit-posted-documents"></a>Breyta bókuðum fylgiskjölum
 
@@ -41,7 +42,7 @@ Eftirfarandi viðbótarskjölum er hægt að breyta í tilteknum löndum eða sv
 
 Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin eru svipuð í hinum studdu skjölunum.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") tákn, skal færa inn **Bókaðar söluafhendingar** og velja síðan viðkomandi tengil.
 2. Veldu skjalið sem á að breyta og síðan aðgerðina **Uppfæra skjal**. Að öðrum kosti skaltu opna skjalið og velja síðan aðgerðina.
 3. Á síðunni **Bókuð söluafhending - uppfæra** skaltu breyta **Rakningarnr. pakka** reitnum, sem dæmi.
 4. Velja hnappinn **Í lagi**.
