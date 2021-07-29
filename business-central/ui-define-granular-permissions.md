@@ -1,6 +1,6 @@
 ---
-title: Skilgreina nákvæmari heimildir | Microsoft Docs
-description: Lýsir því hvernig á að veita notendum aðgang að hlutum með því að úthluta þeim heimildasamstæðum.
+title: Skilgreina nákvæmari heimildir
+description: Í þessu efnisatriði er lýst hvernig eigi að skilgreina nákvæmari heimildir með því að veita ákveðnum notendum aðgang að hlutum og úthluta þeim heimildasamstæðum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 52a3963267a7f476943f5a6d67f1d51c395ca927
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776718"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443718"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfum til notenda og hópa
 
@@ -53,7 +53,7 @@ Heimildasamstæða er safn heimilda fyrir tiltekna gagnagrunnshluti. Öllum note
 
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Til að úthluta heimildasamstæðu á notendakorti
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 2. Veldu notandann sem á að úthluta á þessum viðskiptamanni til.
 Öll heimildasöfn sem er nú þegar úthlutuð til notandans eru birtar í upplýsingakassanum **Heimildasöfn**.
 3. Veldu **breyta** aðgerðina til að opna síðuna **Notandapjald** .
@@ -61,14 +61,14 @@ Heimildasamstæða er safn heimilda fyrir tiltekna gagnagrunnshluti. Öllum note
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Til að úthluta heimildasamstæðu á síðunni Heimildasamstæða eftir notanda
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 2. Á síðunni **Notendur** skal velja viðeigandi notanda, og þá velja aðgerðina **Heimildasamstæða eftir notanda**.
 3. Á síðunni **heimildasamstæða eftir notanda** veldu **[notandanafnið]** gátreitinn á línu fyrir viðkomandi heimildasamstæðu til að tengja samstæðuna við notandann.
 4. Veldu **Allir notendur** gátreitinn til að úthluta heimildasamstæðunni til allra notenda.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>Fá yfirlit yfir heimildir notanda
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 2. Opnaðu kort viðkomandi notanda.
 3. Velja **Virkar heimildir** aðgerð.
 
@@ -103,7 +103,7 @@ Heimildasamstæður virka sem geymir fyrir heimildir, svo að þú getir auðvel
 
 ### <a name="to-create-new-permission-set-from-scratch"></a>Til að stofna nýja heimildasamstæðu frá grunni
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Heimildasamstæður** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Heimildasamstæður** og velja síðan viðkomandi tengil.
 2. Til að búa til nýtt heimildasamstæðu, veldu **Nýtt** aðgerðina.
 3. Fyllt er í reitina í nýju línunni. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Þegar þú hefur búið til heimildasamstæðu verður þú að bæta við raunverulegum heimildum. Nánari upplýsingar er að finna í [Að búa til eða breyta heimildum handvirkt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
@@ -168,7 +168,7 @@ Hins vegar þarf notandi ekki að hafa ótakmarkaðan aðgang að töflunni Söl
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Að stofna eða breyta heimildum með skráning við aðgerðir þínar
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Heimildasamstæður** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Heimildasamstæður** og velja síðan viðkomandi tengil.
 2. Einnig, á síðunni **Notendur**, veldu aðgerðina **Heimildarsöfn**.
 3. Á síðunni **Heimildarsöfn**, veldu aðgerðina **Nýtt**.
 4. Fyllið í reitina eftir þörfum í nýrri línu.
@@ -197,7 +197,7 @@ Heimildasett sem er úthlutað til notanda í gegnum notendahóp er áfram samst
 
 Eftirfarandi ferli útskýrir hvernig á að búa til notendaflokka handvirkt. Til að búa til notendaflokka sjálfkrafa skal skoða [Að afrita notendaflokk og allar heimildasamstæður hans](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendahópar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendaflokkar** og velja síðan viðkomandi tengil.
 2. Einnig, á síðunni **Notendur**, veldu aðgerðina **Notandaflokkar**.
 3. Á síðunni **Notandaflokkur** er valin aðgerðin **Meðlimir notandaflokks**.
 4. Á síðunni **Meðlimir notandaflokks** er valin aðgerðin **Bæta við notendum**.
@@ -209,7 +209,7 @@ Til að fljótt skilgreina nýja notendaflokka geturðu afritað öll heimildars
 > [!NOTE]
 > Meðlimir úr notendaflokki eru ekki afritaðar í nýja notendaflokkinn. Þú verður að bæta þeim við handvirkt eftir á. Nánari upplýsingar er að finna í [Að flokka notendur í notendaflokka](ui-define-granular-permissions.md#to-group-users-in-user-groups).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendahópar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendaflokkar** og velja síðan viðkomandi tengil.
 2. Veldu notendaflokkinn sem þú vilt afrita og veldu síðan aðgerðina **Afrita notendaflokk**.
 3. Í reitinn **Nýr kóði notendaflokks** skal færa inn heiti fyrir flokkinn og velja síðan hnappinn **Í lagi**.
 
@@ -217,7 +217,7 @@ Nýja notendaflokknum er bætt við síðuna **Notendaflokkar**. Halda áfram a�
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Til að úthluta leyfishópum á notendahópa
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendahópar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendaflokkar** og velja síðan viðkomandi tengil.
 2. Veldu notendaflokkinn sem á að úthluta á þessum heimildum til.
 Öll heimildasöfn sem er nú þegar úthlutuð til notandans eru birtar í upplýsingakassanum **Heimildasöfn**.
 3. Veldu aðgerðina **Heimildasamstæður notanda** til að opna síðuna **Heimildasamstæður notanda**.
@@ -227,7 +227,7 @@ Nýja notendaflokknum er bætt við síðuna **Notendaflokkar**. Halda áfram a�
 
 Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til notanda á síðunni **Heimildasamstæða eftir notendahópum**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 2. Á síðunni **Notendur** skal velja viðeigandi notanda, og þá velja aðgerðina **Heimildasamstæða eftir notendahópum**.
 3. Á síðunni **heimildasamstæða eftir notanda** veldu **[nafn notendaflokks]** gátreitinn á línu fyrir viðkomandi heimildasamstæðu til að tengja samstæðuna við notandann.
 4. Veldu **Allir notendahópar** gátreitinn til að úthluta heimildasamstæðunni til allra notenda.
@@ -240,7 +240,7 @@ Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til no
 
 Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn. Stjórnendur geta einnig úthlutað ábyrgðarstöðvum á notendur. Frekari upplýsingar eru í [Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandauppsetning** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning notanda** og velja síðan viðkomandi tengil.
 2. Á síðunni **Notandauppsetning** opnast, skal velja **Nýtt** aðgerð.
 3. Í reitnum **Kenni notanda**, skal færa inn kenni notanda, eða velja reitinn til að sjá alla núverandi Windows notendur innan kerfisins.
 4. Fyllið inn reitina eftir þörfum.

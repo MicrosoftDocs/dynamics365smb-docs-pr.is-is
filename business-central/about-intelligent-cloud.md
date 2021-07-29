@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, migrate, insights
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: b64b1ad037743364b7bd0f4544dbcdb351e2daba
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889256"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442611"
 ---
 # <a name="intelligent-insights-in-prod_short-online"></a>Snjöll innsýn með [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
@@ -36,7 +36,7 @@ Ef þú notar hins vegar [!INCLUDE [prod_short](includes/prod_short.md)] á sta�
 Við hliðina á KPI-töflunum færðu innsýn í hugsanlega áhyggjuefni, þ.m.t. gjaldfallnar greiðslur. Veldu hvert innsýn til að kafa inn í gögnin.  
 
 > [!div class="mx-imgBorder"]
-> ![Intelligent Cloud-innsýn](media/across-intelligent-cloud/intelligentcloudApril19.png "Sýnir snjallskýsinnsýn síðu í Business Central Online")
+> ![Intelligent Cloud-innsýn.](media/across-intelligent-cloud/intelligentcloudApril19.png "Sýnir snjallskýsinnsýn síðu í Business Central Online")
 
 Síðan tengist einnig Power BI fyrir enn meiri innsýn. Annars er hægt að tengjast við Azure AI til að fá jafnvel enn betri snjalla innsýn. Frekari upplýsingar eru í [Spá um sölu og birgðir viðbótina](ui-extensions-sales-forecast.md).  
 

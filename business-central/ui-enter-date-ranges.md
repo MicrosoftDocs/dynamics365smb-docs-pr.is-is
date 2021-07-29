@@ -1,6 +1,6 @@
 ---
-title: Innsláttur dagsetninga og tíma í Business Central | Microsoft Docs
-description: Lærðu hvernig á að slá inn dagsetningar og tíma, þar á meðal ýmsar ábendingar um framleiðni, svo sem hraðskrift, segð og afmarkanir. Sía lista eða skýrslur niður í tiltekna dagsetningu eða tímabil.
+title: Innsláttur dagsetninga og tíma í Business Central
+description: Lærðu hvernig á að slá inn dagsetningar og tíma, þar á meðal ýmsar ábendingar um framleiðni, svo sem hraðskrift, segð og afmarkanir.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8254afc467474906dd80ae76ba134a0bce88c3a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773531"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443644"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tíma í dagatali
 
@@ -48,7 +48,7 @@ Til að vinna á afkastameiri hátt með dagsetningar og tíma geturðu notað e
 
 Allir reitir sem sýna dagbókartákn geta verið stilltar með dagsetningarvali dagatals. Til að birta dagsetningarval dagatals skaltu virkja dagatalstáknið eða ýta á Ctrl + Home flýtilykilinn í reitnum.
 
-![Dagsetningasvæði](media/ui-date-field.png "Dæmi um dagsetningarreit")
+![Dagsetningasvæði.](media/ui-date-field.png "Dæmi um dagsetningarreit")
 
 Sjá einnig [Flýtilyklar í dagsetningarvali dagatals](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -72,23 +72,21 @@ Vikunúmersskemað er alltaf ISO 8601, þar sem vika 1 er vikan sem inniheldur 4
 
 ### <a name="today"></a>Í dag
 
-Sláðu inn orðið fyrir daginn í dag, á tungumáli sem er stillt í **Tungumál**, sem stillir daginn á núverandi dagsetningu. Í stað þess að slá inn allt orðið geturðu slegið inn hluta af orðinu, með því að byrja á byrjuninni, eins og t eða ídag, svo lengi sem það er ekki líka byrjun annars orðs.
+Sláðu inn orðið fyrir _í dag_ á tungumálinu sem tilgreint er á síðunni **Mínar stillingar** til að stilla dagsetningu færslu á daginn í dag. Í stað þess að slá inn allt orðið geturðu slegið inn fyrsta hluta orðsins. Á ensku er t.d. hægt að slá inn _t_ eða _tod_ svo lengi sem það er ekki líka byrjunin á öðru orði.
 
-### <a name="period"></a>Tímabil
+### <a name="period"></a>Tímabili
 
 Til að sía á tilteknu fjárhagstímabili, sláðu inn í dagsetningarreit stafinn t, eða orðið tímabil, og síðan númer sem tilgreinir fjárhagstímabilið, t.d. t2 eða timabil4. Bókhaldstímabilið er miðað við fjárhagsár núverandi vinnudags sem er stillt í hlutverki þínu. Ef vinnudagur er til dæmis **21/03/22**, þá t1 eða aðeins t, síar á fyrsta fjárhagstímabili fjárhagsársins 2022 (eins og 01/01/22..31/01/22). t15 síar á fimmtánda fjárhagstímabilinu frá upphafi fjárhagsársins 2022 (eins og 01/03/23..31/03/23).
 
 Fjárhagstímabilin eru skilgreind á síðunni **Fjárhagstímabil**. Til að skoða eða breyta fjárhagstímabilum skaltu opna síðuna [hér](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="current-work-date"></a>Núverandi vinnudagsetning
+### <a name="work-date"></a>Vinnudagsetning
 
-Eiginleiki vinnudagsetningarinnar gerir þér kleift að skrá færslur með því að nota dagsetningu sem er frábrugðið núverandi dagsetningu.
+Notaðu vinnudagsetningu til að tilgreina dagsetningu sem er ekki dagurinn í dag í skrám. Til dæmis er vinnudagsetning gagnleg þegar þú þarft að setja á ákveðna dagsetningu fyrir margar skrár. Þú tilgreinir vinnudagsetninguna á síðunni **Mínar stillingar**. 
 
-Orðið fyrir „vinnudagsetning“ á tungumálinu sem er stillt með stillingunni **Tungumál** færir dagsetninguna í núverandi vinnudagsetningu, sem er tilgreind á síðunni **Mínar stillingar**. Í stað þess að slá inn allt orðið geturðu slegið inn hluta af orðinu, með því að byrja á byrjuninni, eins og til dæmis „v“ fyrir „vinnu“.
+Fljótleg leið til að slá inn vinnudagsetningu í skrár er að slá inn hluta orðsins eða allt orðið _vinnu_ og byrja á fyrsta stafnum á tungumálinu sem þú notar [!INCLUDE[prod_short](includes/prod_long.md)]. Á ensku er t.d. hægt að færa inn _w_ eða _work_. Tungumálið er einnig tilgreint á síðunni **Mínar stillingar**.
 
-Ef þú hefur ekki skilgreint vinnudagsetningu, verður núverandi dagsetning notuð sem vinnudagsetning. Handhægt gæti verið að nota vinnudagsetningar ef verið er að nota margar færslur með aðra dagsetningu en dagsins í dag.
-
-Sjá einnig [Breyta grunnstillingar, svo sem vinnudagsetning](ui-change-basic-settings.md#work-date).
+Ef engin vinnudagsetning hefur verið tilgreind verður dagurinn í dag notaður. Frekari upplýsingar eru í [Breyta grunnstillingum eins og vinnudagsetningu](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Lokunardagsetning
 
@@ -199,7 +197,7 @@ Eftirfarandi dæmi sýnir hvernig hægt er að nota mínustákn til að sýna ga
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:

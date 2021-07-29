@@ -1,6 +1,6 @@
 ---
 title: Leiðrétta eða hætta við bókaðan sölureikning
-description: Lýsir því hvernig skal leiðrétta, afturkalla eða hætta við bókaðan sölureikning og jafna sölukreditreikning.
+description: Þetta efnisatriði lýsir því hvernig skal leiðrétta, afturkalla eða hætta við bókaðan sölureikning og jafna sölukreditreikning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0d6e05a52cb4028087e4c52c56fb9d2f5ab78795
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4656e99f1227668cdf784ab950d38462da6f6c1c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778849"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443433"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Ógreiddir sölureikningar leiðréttir eða afturkallaðir
 
@@ -38,7 +38,7 @@ Mismuninum á því að hætta við eða leiðrétta bókaðan sölureikning sem
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Bókaður sölureikningur afturkallaður
 
-1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðir sölureikningar** og velja síðan viðkomandi tengil.  
 2. Veljið bókaða sölureikninginn sem á að afturkalla.
 
     > [!NOTE]  
@@ -54,7 +54,7 @@ Ef Afturköllunin tengist takmarkaðri bókun á reiknings er upprunaleg sölup�
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Bókaður sölureikningur leiðréttur
 
-1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðir sölureikningar** og velja síðan viðkomandi tengil.  
 2. Veljið bókaða sölureikninginn sem á að leiðrétta.
 
     > [!NOTE]  

@@ -1,6 +1,6 @@
 ---
 title: Breyta grunnstillingum fyrir núverandi notanda
-description: Lærðu hvernig þú getur breytt sumum grunnstillingum, til dæmis Mitt hlutverk, fyrirtæki eða vinnudagsetningu.
+description: Kynntu þér hvernig þú getur breytt sumum stillingum í Business Central, til dæmis hlutverkinu þínu og Mitt hlutverk, fyrirtæki, vinnudagsetningu og tímabelti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787453"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443769"
 ---
 # <a name="change-basic-settings"></a>Breyta grundvallarstillingum
 
@@ -47,7 +47,7 @@ Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn. 
 
 Heiti fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðgerð sem hægt er að velja til að fara til baka í Mitt hlutverk. Þú getur breytt þessu heiti á síðunni **Upplýsingar um fyrirtækið**.
 
-1. Veljið táknið ![Sprocket til að opna táknið valmyndarstillingar](media/ui-experience/settings_icon_small.png) og veljið síðan aðgerðina **Upplýsingar um fyrirtæki**.
+1. Veldu táknið ![Sprocket til að opna stillingavalmyndina.](media/ui-experience/settings_icon_small.png) táknið og veldu síðan aðgerðina **Upplýsingar um fyrirtæki**.
 2. Heiti nýja fyrirtækisins er ritað í reitinn **Heiti**.
 3. Fara af síðunni. Kerfið endurræsir og sýnir heitið á nýja fyrirtækinu í horninu efst til vinstri.
 
@@ -55,7 +55,7 @@ Heiti fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðger
 
 Hægt er að bæta við sérstilltum merkimiða efst í hægra horninu, þar sem hægt er að velja að fljótlegt sé að skoða upplýsingar um fyrirtæki og leigjandaupplýsingar í sprettiglugga. Merki fyrirtækisins er einnig gagnlegt þegar [!INCLUDE[prod_short](includes/prod_short.md)] er fellt inn í annað forrit, eins og Microsoft Teams eða í einhverju öðru vefforriti. Í þessum tilvikum, vegna þess að [!INCLUDE[web_client](includes/web_client.md)] sýnir minna af samhengisupplýsingum í kring, þjónar merki fyrirtækisins sem eina leiðin til að ákveða hvaða fyrirtæki eða umhverfi færsla tilheyrir.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofngögn** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Upplýsingar um fyrirtæki** og velja síðan viðkomandi tengil.
 2. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Fyrirtækismerki**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

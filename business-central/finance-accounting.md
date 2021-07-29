@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e988e0b23f29f4b9969a9682eac2e2e91a30fcc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780936"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442801"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -44,7 +44,7 @@ Við höfum auðveldað þér að bjóða ytri endurskoðanda. Einfaldlega opni�
 > [!Note]  
 > SMTP tölvupósts verður að vera uppsettur. Frekari upplýsingar eru í [Setja upp tölvupóst](admin-how-setup-email.md).  
 
-<!-- ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)-->
+<!-- ![Invite your accountant.](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
 > Netfang endurskoðanda verður að vera vinnunetfang sem byggist á Azure Active Directory. Ef endurskoðandinn notar aðra gerð netfangs er ekki hægt að sena boðið.
@@ -91,7 +91,7 @@ Endurskoðandinn fær tölvupóst þar sem honum er tilkynnt að hann hafi fengi
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Að bæta endurskoðandanum við rétt fyrirtæki
 
 1. Opnið [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtækið sem gefa á endurskoðandanum aðgang að á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.  
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Notendur** og veldu síðan tengda tengilinn.  
 3. Veldu **Fá nýja notendur úr Microsoft 365** aðgerðina.
 
 Þetta flytur notandareikninginn sem var búinn til í Azure-gáttinni inn í fyrirtækið. Frekari upplýsingar eru í [Að bæta við notanda í Business Central](ui-how-users-permissions.md#adduser).  

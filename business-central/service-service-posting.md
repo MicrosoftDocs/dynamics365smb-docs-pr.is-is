@@ -1,6 +1,6 @@
 ---
-title: Bókun þjónustu | Microsoft Docs
-description: Aðgerðin bókun þjónustu gerir skilvirka vinnslu á skjölum notandans mögulega og viðheldur árangursríkri stefnu í þjónustu við viðskiptamenn. Hægt er að búa til og uppfæra bókuð fylgiskjöl, og búa til fjárhagsfærslur í þjónustusvæði og öðrum einingum til þess að tryggja rétta uppfærslu.
+title: Þjónustubókun
+description: Aðgerðin bókun þjónustu gerir skilvirka vinnslu á skjölum notandans mögulega og viðheldur árangursríkri stefnu í þjónustu við viðskiptamenn.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4f7371f7af5546f75a90f734ebedb6c358783b17
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776792"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443030"
 ---
 # <a name="service-posting"></a>Þjónustubókun
 Aðgerðin bókun þjónustu gerir skilvirka vinnslu á skjölum notandans mögulega og viðheldur árangursríkri stefnu í þjónustu við viðskiptamenn. Hægt er að búa til og uppfæra bókuð fylgiskjöl, og búa til fjárhagsfærslur í þjónustusvæði og öðrum einingum til þess að tryggja rétta uppfærslu.  
@@ -49,7 +49,7 @@ Að bókun lokinni er hægt að skoða bókuð þjónustuskjöl í samsvarandi s
 
 Eftirfarandi aðgerð notast við bókaðan þjónustureikning sem dæmi, en sama aðferðin á við bókaðar þjónustuafhendingar og bókaða kreditreikninga.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaður þjónustureikningur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaður þjónustureikningur** og velja síðan viðkomandi tengil.  
 2. Opna bókaða þjónustureikninginn sem á að skoða.  
 3. Til að fá yfirlit yfir bókaðan reikning er valin aðgerðin **Tölfræðilegar upplýsingar**.  
 

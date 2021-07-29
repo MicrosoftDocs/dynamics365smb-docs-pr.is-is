@@ -1,6 +1,6 @@
 ---
-title: Tilgreina bókunartímabil| Microsoft Docs
-description: Tilgreindar eru upphafs- og endadagsetningar bókunartímabils til að setja upp hvenær notendur geta bókað í fjárhag.
+title: Tilgreina bókunartímabil
+description: Bókunartímabil (upphafs- og endadagsetningar) eru tilgreind til að setja upp hvenær notendur geta bókað í fjárhag.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,20 +11,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6f1745dfec453f5864b748d0c876e5ef040fc2df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e4fb495fc29f28dffd34e492cb33d162d671fbd3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775475"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444363"
 ---
-# <a name="specify-posting-periods"></a>Tilgreina bókunartímabil
+# <a name="how-to-specify-posting-periods"></a>Hvernig á að tilgreina bókunartímabil
 Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbókina.  
 
 ## <a name="to-specify-posting-periods"></a>Bókunartímabil tilgreind
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Uppsetning fjárhags** skal tilgreina tímabilið með því að slá inn dagsetningar í reitunum **Leyfa bókun frá** og **Leyfa bókun til**.  
 
 > [!NOTE]  

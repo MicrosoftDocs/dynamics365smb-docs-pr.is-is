@@ -1,6 +1,6 @@
 ---
-title: Safna uppsetningargildum viðskiptamanns | Microsoft Docs
-description: Grunnstillingarspurningalisti er notaður til að draga úr álagi við innleiðingarferli með því að straumlínulaga uppsetningarferlið fyrir nýja fyrirtækið. Hægt er að útbúa grunnstillingarspurningalista í Business Central og senda svo til viðskiptavinar sem Excel (.xlsx) eða XML-skrá.
+title: Safna uppsetningargildum viðskiptamanns
+description: Spurningalisti grunnstillingar hjálpar til við að draga úr innleiðingu með því að einfalda uppsetningu nýrra fyrirtækja og bjóða viðskiptavinum upp á Excel- eða XML-skrá.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: af8d2bb31b5f76912d69b123803243cfce1445bd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783975"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443894"
 ---
 # <a name="gather-customer-setup-values"></a>Safna uppsetningargildum viðskiptamanns
 Grunnstillingarspurningalisti er notaður til að draga úr álagi við innleiðingarferli með því að straumlínulaga uppsetningarferlið fyrir nýja fyrirtækið. Hægt er að útbúa grunnstillingarspurningalista í [!INCLUDE[prod_short](includes/prod_short.md)] og senda svo til viðskiptavinar sem Excel .xls-skrá eða XML-skrá.  
@@ -50,9 +50,9 @@ Hægt er að nota spurningalista til að hjálpa til við ákvarða umfang og þ
 -   Vöruhúsagrunnur  
 
 > [!NOTE]  
->  Til að sjá heildarlista yfir uppsetningartöflur skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Handvirk uppsetning** og veldu síðan tengda tengilinn. Til að ákvarða svið flutnings færslugagna skal nota flutningsaðgerðir. Frekari upplýsingar eru í [Flutningur á gögnum viðskiptamanns](admin-migrate-customer-data.md).  
+>  Til að sjá heildarlista yfir uppsetningartöflur skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning** og velja síðan viðkomandi tengil. Til að ákvarða svið flutnings færslugagna skal nota flutningsaðgerðir. Frekari upplýsingar eru í [Flutningur á gögnum viðskiptamanns](admin-migrate-customer-data.md).  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Spurningalisti grunnstillingar** og veldu tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn.  
 2. Valið er aðgerðin **Nýtt**.   
 3. Á síðunni **Spurningalisti grunnstillingar**, í reitnum **Kóði** skal slá inn ... 
 <!--4. In the **Name** field, enter...
@@ -98,7 +98,7 @@ Grunnstillingarspurningalistinn er notaður til að móta og skrá nákvæma umr
 >  Einnig er hægt að búa til nýjan grunnstillingarspurningarlista til að mæta þínum þörfum.  
 
 1. Opnaðu fyrirtækið sem þú vilt klára spurningalista fyrir.
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn.  
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn.  
 3. Veldu spurningalistann fyrir fyrirtækið og veldu síðan aðgerðina **Flytja út í Excel**, mögulega aðgerðina **Flytja út í XML**.
 4. Fáðu viðskiptavininn til að ljúka við grunnstillingarspurningalistann með því að færa svörin inn í Excel-vinnubókina. Til eru vinnublöð fyrir hvert spurningasvæði sem búið var til fyrir spurningalistann.   
 5. Vistaðu Excel-vinnubókina sem *XML Data*. Veldu aðgerðina **Flytja inn úr XML** og veldu .xml-skrána með svörum viðskiptavinarins.
@@ -131,7 +131,7 @@ Eftir að gengið hefur verið frá villuleit, eru gögn notanda tilbúin til no
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Nota svör úr spurningalista grunnstillingar
 Þegar búið er að flytja inn og staðfesta upplýsingar úr grunnstillingarspurningalistanum, er hægt að flytja eða nota uppsetningargögnin í samsvarandi töflum í [!INCLUDE[prod_short](includes/prod_short.md)] gagnagrunninum.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn. Síðan **Stilla spurningalista** opnast.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn. Síðan **Stilla spurningalista** opnast.  
 2. Veljið grunnstillingarspurningalista úr listanum og veljið síðan aðgerðina **Breyta lista**.  
 3. Hægt er að nota svör á tvo vegu.  
 

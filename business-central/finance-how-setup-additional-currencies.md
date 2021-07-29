@@ -1,9 +1,7 @@
 ---
-title: Uppsetning annarra gjaldmiðla | Microsoft Docs
+title: Setja upp aðra gjaldmiðla
 description: Fjárhagurinn þinn er settur upp til að nota staðbundna gjaldmiðilinn (SGM) og annar gjaldmiðill er settur upp sem viðbótargjaldmiðill með rétt gengi stillt.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -12,20 +10,23 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 96ca4139f7a19ea9a5bb3361099cde9910491488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775526"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444438"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Setja upp annan skýrslugjaldmiðil
+
 Þar sem fyrirtæki starfa að auknum mæli í mörgum löndum/svæðum verður æ mikilvægara fyrir þau að geta skoðað eða skráð fjárhagsgögn í fleiri en einum gjaldmiðli.
 
 Fjárhagurinn þinn er settur upp til að nota staðbundna gjaldmiðilinn (SGM), en þú getur sett hann upp til að einnig nota annan gjaldmiðil með rétt gengi stillt. Sé öðrum gjaldmiðli gefin svokölluð skilgreining Viðbótarskýrslugjaldmiðill mun [!INCLUDE[prod_short](includes/prod_short.md)] skrá upphæðirnar sjálfkrafa bæði í SGM og þessum viðbótarskýrslugjaldmiðli í hverri fjárhagsfærslu og í öðrum færslum á borð við færslur fyrir VSK.
 
 > [!Warning]
-> Aðgerðina Annar skýrslugjaldmiðill ætti ekki að nota sem grunn fyrir umreikning fjárhagslegra yfirlita. Hún er ekki verkfæri til að umreikna ársreikninga erlendra dótturfyrirtækja, sem hluti af samsteypufyrirtæki. Annan skýrslugjaldmiðil er aðeins hægt að nota til að undirbúa skýrslur í öðrum gjaldmiðli, líkt og sá gjaldmiðill væri heimagjaldmiðill fyrirtækisins.
+> Aðgerðina Annar skýrslugjaldmiðill ætti ekki að nota sem grunn fyrir umreikning fjárhagsskýrslna nema þú þekkir takmarkanirnar. Hún er ekki verkfæri til að umreikna ársreikninga erlendra dótturfyrirtækja, sem hluti af samsteypufyrirtæki. Annan skýrslugjaldmiðil er aðeins hægt að nota til að undirbúa skýrslur í öðrum gjaldmiðli, líkt og sá gjaldmiðill væri heimagjaldmiðill fyrirtækisins.
+>
+> Þú átt til dæmis mikið af viðskiptakröfum í breskum pundum (GBP) og hefur sett upp annan skýrslugjaldmiðil (ACY) til að vera GBP. Í þessum aðstæðum munu upphæðir í viðskiptakröfunum sem nota GBP ekki vera leiðréttar vegna hagnaðar/taps á gjaldmiðlaskiptum í ACY, aðeins upphæðir í viðskiptakröfunum sem eru í öðrum gjaldmiðli. Það þýðir að ef þú notar ACY til að gefa upp fjárhagsskýrslurnar gæti það leitt til of lágrar eða of hárrar útistandandi stöðu á viðskiptakröfum.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Skýrslur og upphæðir birtar í öðrum skýrslugjaldmiðli
 Með því að nota annan skýrslugjaldmiðil er hægt að auðvelda skýrsluferli fyrirtækisins í eftirfarandi tilvikum:
@@ -48,7 +49,7 @@ Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skr
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Tilgreinið fjárhagsreikninga fyrir leiðréttingu á gengi bókana  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Gjaldmiðlar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Gjaldmiðlar** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Gjaldmiðlar** skal fylla út eftirfarandi reiti fyrir annan skýrslugjaldmiðil.  
 
 |Svæði|Description|  
@@ -64,7 +65,7 @@ Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skr
 Það verður að tilgreina hvernig á að leiðrétta upphæðir í fjárhag fyrir gengissveiflur milli SGM og hins skýrslugjaldmiðilsins fyrir hvern fjárhagsreikning.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Til að tilgreina aðferð gengisleiðréttingar fyrir alla fjárhagsreikninga  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókhaldslykill** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Bókhaldslykill** skal velja viðeigandi lykil og síðan velja aðgerðina **Breyta**.  
 3. Á síðunni **Fjárhagsspjald** skal velja viðeigandi aðferð í reitnum **Gengisleiðrétting**.  
 
@@ -81,7 +82,7 @@ Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skr
 4.  Síðunni **Fjárhagsspjald** lokað.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Tilgreina aðferð fyrir gengisleiðréttingu í VSK-færslum  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Fjárhagsgrunnur** skal velja viðeigandi aðferð í reitnum **VSK-gengisleiðrétting**.  
 3. Ef bókað er í öðrum skýrslugjaldmiðli má tilgreina í reitnum **VSK-gengisleiðrétting** hvernig þeir reikningar sem stofnaðir voru fyrir bókun VSK á síðunni **VSK-bókunargrunnur** eru leiðréttir fyrir gengissveiflur milli SGM og annars skýrslugjaldmiðils.  
 
@@ -96,7 +97,7 @@ Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skr
     |**Leiðrétta upphæð annars gjaldmiðils**|Annar skýrslugjaldmiðill er leiðréttur samkvæmt öllum gengishagnaði eða tapi. Gengishagnaður eða gengistap er bókað á fjárhagsreikninginn í reitinn **Upphæð annars gjaldmiðils** og á þá reikninga sem voru tilgreindir fyrir hagnað eða tap í reitunum **Reikningur orðins fjárh. hagnaðar** og **Reikningur orðins fjárh. taps** á síðunni **Gjaldmiðlar**.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Virkja annan skýrslugjaldmiðil  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Fjárhagsgrunnur** skal velja reitinn **Annar skýrslugjaldmiðill** til að velja annan skýrslugjaldmiðil sem á að nota.  
 3. Þegar farið er úr reitnum [!INCLUDE[prod_short](includes/prod_short.md)] birtast staðfestingarskilaboð sem lýsa því hvað gerist þegar annar skýrslugjaldmiðill er virkjaður.  
 4. Velja hnappinn **Já** til að staðfesta að virkja eigi gjaldmiðilinn.  

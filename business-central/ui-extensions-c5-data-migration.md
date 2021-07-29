@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e9a121efe984e075c54c747fc426bf9a4519b81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b146e2a515ffd2a200574c4ce059c8a0205b602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787403"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443569"
 ---
 # <a name="the-c5-data-migration-extension"></a>C5-gagnaflutningsviðbótin
 
@@ -107,7 +107,7 @@ Stærsta skráin sem þú getur hlaðið upp til [!INCLUDE[prod_short](includes/
 Það eru aðeins nokkur skref fólgin í því að flytja út gögn úr C5 og flytja þau inn í [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. Í C5 skaltu nota **Flytja út gagnagrunn** eiginleikann til að flytja út gögnin. Sendu síðan útflutningsmöppuna í þappaða möppu.  
-2. Í [!INCLUDE[prod_short](includes/prod_short.md)], veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Gagnaflutningur** og veldu síðan **Gagnaflutningur**.  
+2. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Gagnaflutningur** og velja síðan **Gagnaflutningur**.  
 3. Ljúka skal skrefunum í leiðbeiningum um uppsetningu með hjálp. Gakktu úr skugga um að velja **Flytja inn úr Microsoft Dynamcis C5 2012** sem gagnagjafa.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Skoðun stöðu á flutningi

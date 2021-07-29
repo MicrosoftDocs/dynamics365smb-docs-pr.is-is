@@ -1,6 +1,6 @@
 ---
-title: Nota sjálfvirk gagnatökukerfi ADCS | Microsoft Docs
-description: Hægt er að nota sjálfvirka gagnatökukerfið (ADCS) til að skrá alla hreyfingu á vörum í vöruhúsinu og skrá sumar færslubókaraðgerðir, s.s. leiðréttingar á magni í birgðabók vöruhússins og raunbirgðir.
+title: Nota sjálfvirkt gagnatökukerfi (ADCS)
+description: Hægt er að nota sjálfvirka gagnatökukerfið (ADCS) til að skrá alla hreyfingu á vörum í vöruhúsinu og skrá sumar færslubókaraðgerðir.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 71433b584ea02e4561a2e9e391d3ee92c5284488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f1e2c24717d9c481f95d2572ee2e1f50b681b0a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788234"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442930"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Nota sjálfvirkt gagnatökukerfi (ADCS)
 
@@ -37,7 +37,7 @@ Tila ð nota sjálfvirkt gagnatökukerfi þarf að virkja ADCS-vefþjónustu.
 
 ## <a name="to-enable-and-publish-the-adcs-web-service"></a>Til að virkja og birta ADCS-vefþjónustuna  
 
-1. Veldu táknið ![ljósapera sem opnar eiginleikan „Viðmótsleit“](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **vefþjónusta** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Netþjónusta** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.  
 3. Á síðunni **Vefþjónustur** skal færa inn eftirfarandi upplýsingar í nýrri línu:  
 
@@ -56,14 +56,14 @@ Ef nota á ADCS verður að tilgreina hvaða birgðageymslur nota tæknina.
 > [!NOTE]  
 >  Mælt er með að vöruhús séu ekki sett upp til að nota ADCS ef vöruhúsið hefur einnig hólfagetureglu.
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðageymsla** og veldu síðan tengda tengilinn.
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja viðkomandi tengil.
 2.  Veljið vöruhús af listanum sem á að gera ADCS virkt fyrir og veljið svo aðgerðina **Breyta**.
 3. Á síðunni **birgðageymsluspjald** veljið **Nota ADCS** gátreitur.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Tilgreina vöru til að nota ADCS  
 Hver vara í vöruhúsi sem nota á með ADCS verður að fá úthlutaðan auðkenningarkótanum til að tengja skjalið ásamt vörunúmerinu. Til dæmis er hægt að nota strikamerki vörunnar sem auðkenniskóta. Vara getur einnig haft margar auðkenniskóta. Þetta getur komið að gagni í tilfellum þar sem vara er tiltæki í ýmsum mælieiningu, s.s. stykkjum og brettum. Í þessu tilfelli er úthlutað auðkenniskóta fyrir hvern.    
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2.  Veljið vöru af listanum sem er hluti af ADCS-lausninni, og síðan aðgerðina **Breyta**.
 3. Á síðunni **Birgðaspjald** skal velja aðgerðina **Kennimerki**.
 4. Á síðunni **Vörur Kennimerki** skal velja aðgerðina **Nýtt**.
@@ -78,13 +78,13 @@ Hver vara í vöruhúsi sem nota á með ADCS verður að fá úthlutaðan auðk
 ## <a name="to-add-an-adcs-user"></a>Til að bæta við ADCS notanda  
 Hægt er að bæta hvaða notanda við sem notanda sjálfvirks gagnatökukerfis (ADCS). Þegar það er gert verður notandinn einnig að gefa upp aðgangsorð. Einnig er hægt að bjóða upp á tengingu sem auðkennir ADCS-notandann sem starfsmann vöruhúss. Aðgangsorð notanda ADCS getur verið frábrugðið Windows-aðgangsorði notandans. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **ADCS-notendur** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **ADCS-notendur** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
 3.  Á svæðinu **Heiti** skal færa inn heiti fyrir notandann. Heitið getur ekki innihaldið meira en 20 stafi, með bilum.  
 4.  Í reitnum **Lykilorð** er lykilorð fært inn. Aðgangsorðið er falið.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Til að tilgreina að starfsmaður vöruhúss sé ADCS notandi  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsastarfsmenn** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
 2.  Ef þörf krefur skal bæta við nýjum starfsmanni vöruhúss. Frekari upplýsingar eru í [Setja upp vöruhússtarfsmenn](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Veldu aðgerðina **Breyta lista**.  
 4.  Veljið vöruhúsastarfsmann af listanum. Í reitnum **ADCS notandi** er valið felliörina og veljið svo nafnið á ADCS-notanda af listanum.  
@@ -99,7 +99,7 @@ Smágluggar eru notaðir til að gefa lýsa upplýsingum sem birtar eru á lófa
 > Til að innleiða eða breyta virkni smágluggaaðgerðar þarf að búa til nýja kóðaeiningu fyrir reitinn **Afgreiðslukóðasafn** til að framkvæma aðgerðina eða svarið. Hægt er að fá frekari upplýsingar um ADCS-virkni með því að skoða kóðaeiningar, svo sem 7705, 7706, 7712 og 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Til að búa til smáglugga fyrir ADCS  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Smágluggar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Smágluggar** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
 3.  Í reitnum **Kóði** er færður inn kóði fyrir smáglugganum. Einnig er hægt að færa gildi inni í alla aðra reiti.  
 
@@ -110,7 +110,7 @@ Smágluggar eru notaðir til að gefa lýsa upplýsingum sem birtar eru á lófa
 Þegar búið er að búa til smáglugga, eru næstu skref er að stofna aðgerðir og tengja virkni fyrir ýmsan lyklaborðsinnslátt.  
 
 ### <a name="to-customize-miniform-functions"></a>Til að sérsníða aðgerðir smáglugga  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Smágluggar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Smágluggar** og velja síðan viðkomandi tengil.  
 2.  Veljið smáglugga af listanum og veljið svo aðgerðina **Breyta**.  
 3.  Velja aðgerðina **Aðgerðir**.  
 4.  Í fellilistanum **Aðgerðakóði** skal velja kóða fyrir aðgerð sem á að tengja við smáglugga. Til dæmis er hægt að velja ESC, sem tengir aðgerðir við það að stutt er á ESC-lykilinn.  

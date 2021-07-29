@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 544cb3a1844aaf85ab937031a23d6d00506ffa74
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: c93bf82f92a5e24e023bd59033c31877ab72993b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215754"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444281"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Hönnunarupplýsingar Leitað að víddarsamsetningum
 Þegar þú lokar síðu eftir að hafa breytt víddasamstæðu metur [!INCLUDE[prod_short](includes/prod_short.md)] hvort þessi breytta víddasamstæða sé til. Ef samstæðan er ekki til er ný samstæða búin til og víddarsamsetningarkenninu er skilað.  
@@ -26,7 +26,7 @@ ms.locfileid: "6215754"
 ### <a name="example-1"></a>Dæmi 1  
  Eftirfarandi skýringarmynd leitartré með sex víddasamstæðum. Aðeins eru einkennandi víddasamstæðufærslur sýndar á myndinni.  
 
- ![Dæmi um víddartrjáskipulag](media/nav2013_dimension_tree.png "Dæmi um trjáskipulag víddar")  
+ ![Dæmi um trjáskipulag víddar.](media/nav2013_dimension_tree.png "Dæmi um trjáskipulag víddar")  
 
  Eftirfarandi tafla lýsir a fullgerðum lista víddasamstæðufærsla sem mynda hverja víddasamstæðu.  
 
@@ -45,7 +45,7 @@ ms.locfileid: "6215754"
 
  Fyrst mun [!INCLUDE[prod_short](includes/prod_short.md)] einnig uppfæra töfluna **Trjáhnútur víddasamstæðu** til að tryggja að leitartréð líti eins út og eftirfarandi teikning. Því verður víddasamstæða 7 undireining víddasamstæðu 5.  
 
- ![Dæmi um  trjáskipulag víddar í NAV 2013](media/nav2013_dimension_tree_example2.png "Dæmi um  trjáskipulag víddar í NAV 2013")  
+ ![Dæmi um trjáskipulag víddar í NAV 2013.](media/nav2013_dimension_tree_example2.png "Dæmi um  trjáskipulag víddar í NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Finna auðkenni víddasamstæðu  
  Á hugmyndastigi eru **Yfireining**, **Vídd og** **Víddargildi** í leitartrénu sameinuð og notuð sem aðallykill vegna þess að [!INCLUDE[prod_short](includes/prod_short.md)] fer yfir tréð á sama hátt og víddarfærslurnar. GET-eiginleikinn (skrá) er notaður til að leita að auðkenni víddasamstæðu. Eftirfarandi kóðadæmi sýnir hvernig á að finna auðkenni víddasamstæðu þegar það eru víddagildi eru þrjú.  

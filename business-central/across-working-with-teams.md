@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: fb134ce04cb6b53f2432f0f371d7ca82411f0cee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074588"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444019"
 ---
 # <a name="sharing-business-central-records-in-microsoft-teams"></a>Deila Business Central Records í Microsoft Teams
 
@@ -30,7 +30,7 @@ ms.locfileid: "6074588"
 - Afrita tengil í hvaða færslu Business Central sem er og líma hann í spjall á Teams til að deila honum með samstarfsfólki. Forritið stækkar svo tengilinn í gagnvirkt spjald sem birtir upplýsingar um færsluna.
 - Þegar á samtalinu stendur getur þú og samstarfsfólk þitt skoðað frekari upplýsingar um færsluna, breytt gögnum og gripið til aðgerða &mdash; án þess að fara úr Teams.
 
-[![Samþætting Teams við Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Samþætting Teams við Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 ## <a name="prerequisites"></a>Frumskilyrði
 
@@ -49,13 +49,13 @@ ms.locfileid: "6074588"
 
 3. Afritið alla vefslóðina úr veffangastiku vafrans.
 
-   ![Afrita vefslóð Business Central úr vafranum](media/teams-url-v2.png)
+   ![Afritið vefslóð Business Central úr vafra.](media/teams-url-v2.png)
 4. Farið í Teams og hefjið samtal sem getur verið spjall við einstakling, hóp eða teymisrás.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
 5. Límið vefslóðina í skilaboðagluggann þar sem skrifuð eru skilaboð..
 
-   ![Líma vefslóð Business Central í Teams](media/teams-paste-url-v2.png)
+   ![Límið vefslóð Business Central í Teams.](media/teams-paste-url-v2.png)
 6. Fyrsta skiptið sem tengill er límdur í samtal, verður beðið um innskráningu í [!INCLUDE [prod_short](includes/prod_short.md)] og að veita samþykki fyrir forritinu til að sækja gögn. Fylgið einfaldlega leiðbeiningunum á skjánum.
 
     > [!NOTE]
@@ -90,6 +90,8 @@ Frekari upplýsingar um hvernig nota á spjöld og upplýsingar spjalds er að f
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  
 [Teams - Algengar spurningar](teams-faq.md)  
+[Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams](across-search-contacts-teams.md)  
+[Breyta fyrirtæki og aðrar stillingar í Teams](across-teams-settings.md)  
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

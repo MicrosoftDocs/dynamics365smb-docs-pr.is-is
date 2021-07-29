@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786324"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444256"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Úthluta kostnaði til millifyrirtækjafélaga
 Þegar bókanir milli fyrirtækja eru notaðar til að flytja skjöl milli samstarfsfyrirtækja, þá stjórna VSK-tengdar stillingar (sérstaklega VSK-viðskiptabókunarflokkurinn) sem úthlutað er til viðskipamanna- eða lánardrottnalykla (sem tengjast millifyrirtækjafélagi) því hvort og hvernig virðisaukaskattur er reiknaður og skráður. Einnig er hægt að gera kostnaðardreifingu beint í innkaupapöntunum til samstarfsfyrirtækja. Til dæmis ef skráður er innkaupareikningur frá ytri lánardrottni og ætlunin er að dreifa einhverjum eða öllum kostnaði á eitt eða fleiri millifyrirtækjafélög.
@@ -30,7 +30,7 @@ Hægt er að úthluta kostnaði á eitt eða fleiri millifyrirtækjafélög með
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Að úthluta kostnaði með MF-færslubók
 Til að færa inn línu í MF-færslubók skal fylgja þessum skrefum. 
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **MF-færslubók** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubók milli fyrirtækja** og velja síðan viðkomandi tengil.
 2. Ef nauðsynlegt, skal í reitinn **Númer ytra skjals** færa inn skjalanúmer reiknings frá lánardrottninum.
 3. Í reitnum **Gerð skjals** skal velja **Reikningur**.
 4. Í reitnum **Gerð reiknings** skal velja **Lánardrottinn**.
@@ -57,7 +57,7 @@ Eftirfarandi ferli lýsir því hvernig á að úthluta kostnaði með því að
 > [!NOTE]
 > Til að ljúka þessum skrefum verður að sérsníða síðuna **Innkaupareikningur** með því að bæta við reitunum **MF-félagakóði**, **Tilvísunarteg. MF-félaga** og **MF-félagi**. Frekari upplýsingar eru í [Hefja sérstillingu á síðu með borðanum Sérstilla](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningur** og velja síðan viðkomandi tengil.
 2. Í reitnum **Gerð** skal velja **Fjárhagsreikningur**.
    
    Fjárhagsreikningur er eini valkosturinn sem hægt er að nota til að úthluta kostnaði.  
@@ -70,7 +70,7 @@ Eftirfarandi ferli lýsir því hvernig á að úthluta kostnaði með því að
 1. Til að bóka innkaupapöntunina skal velja **Bóka**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Að senda úthlutaðan kostnað til millifyrirtækjafélaga
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **MF-úthólfsfærslur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-úthólfsfærslur** og velja síðan viðkomandi tengil.
 2. Velja skal línu til að senda og velja síðan aðgerðina **Senda til MF-félaga**. 
 3. Til að úthluta kostnaði skal velja aðgerðina **Ljúka línuaðgerðum**.
 

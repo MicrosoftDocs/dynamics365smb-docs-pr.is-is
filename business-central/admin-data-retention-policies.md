@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935337"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443919"
 ---
 # <a name="define-retention-policies"></a>Skilgreina varðveislureglur
 Stjórnendur geta skilgreint varðveislureglur til að tilgreina hversu oft þeir vilja að [!INCLUDE[prod_short](includes/prod_short.md)] eyði úreltum gögnum í töflum sem innihalda kladdafærslur og safnvistaðar færslur. Til dæmis getur hreinsun á kladdafærslum gert auðveldara um vik að vinna með gögnin sem eiga við. Reglur geta innihaldið öll gögn í töflunum sem eru komin fram yfir lokadagsetninguna eða hægt er að bæta við síuskilyrðum sem innihalda aðeins tiltekin útrunnin gögn í reglunni. 
@@ -40,7 +40,7 @@ Varðveislutímar geta verið eins langir eða stuttir og þú vilt. Til að bú
 > Af samræmisástæðum höfum við skilgreint lágmarks varðveislutíma fyrir sumar töflur. Ef varðveislutími er stilltur sem er styttri en lágmark sem krafist er, birtast skilaboð um áskilda tímabilið.
 
 ### <a name="set-up-a-retention-policy"></a>Setja upp varðveislureglu
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Varðveislureglur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Varðveislureglur** og veldu síðan tengda tengilinn.
 2. Í reitnum **Kenni töflu** skal velja töflu sem á að taka með í regluna.
 3. Í reitnum **Varðveislutími** skal tilgreina tímalengdina sem geyma á gögnin í töflunni.
 4. Valfrjálst: Til að nota regluna fyrir tiltekin gögn í töflu skal slökkva á Nota fyrir allar færslur. Flýtiflipinn Skrá varðveislureglu birtist þar sem hægt er að stilla síur til að búa til undirsafn af gögnum fyrir hverja línu. Frekari upplýsingar er að finna í [Síun](ui-enter-criteria-filters.md#filtering).

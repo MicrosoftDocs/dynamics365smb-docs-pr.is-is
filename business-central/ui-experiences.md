@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6991b640319abf43718c1832b8bbea17bce0a0f1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d56c8d6be69e12ced2dc83b884650360e95c0ab2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784293"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443619"
 ---
 # <a name="change-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
 [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að hjálpa stjórnendum að reka fyrirtæki, óháð stærð og margbreytileika þeirra. Varan inniheldur ómissandi eiginleika á borð við fjárhagsskýrslugerð, sölu, kaup og birgðastjórnun. Þegar umsvif fyrirtækis aukast er hægt að kveikja á annarri virkni, t.d. fyrir framleiðslu og þjónustustjórnun.
@@ -46,14 +46,14 @@ Stillingin **Upplifun** gildir um alla notendur í fyrirtæki en hver notandi ge
 Þegar þú hefur gert breytingu á áætlunum notenda í Microsoft 365 stjórnendamiðstöðinni, á borð við að úthluta fleiri notendum á úrvalsáskriftina, verður þú að endurspegla breytinguna í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Skráðu þig inn sem stjórnanda.
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 3. Á síðunni **Notendur** skaltu velja aðgerðina **Endurhlaða alla notendaflokka**.
 
 Allar nýjar upplýsingar um áætlanir notenda og úthlutuðum notendaflokkum þeirra hafa nú verið uppfærðar samkvæmt breytingum áætlunarinnar.
 
 ### <a name="to-select-the-premium-experience"></a>Til að velja úrvalsupplifunina
 Nú er hægt að halda áfram til að velja nýju upplifunina.
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofngögn** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Upplýsingar um fyrirtæki** og velja síðan viðkomandi tengil.
 2. Á síðunni **Fyrirtækjaupplýsingar** í flýtiflipanum **Notandaupplifun** skal velja úrvalsáskrift í reitnum **Upplifun**.
 
 ## <a name="help-assumes-premium-experience"></a>Hjálp gerir ráð fyrir úrvalsupplifun

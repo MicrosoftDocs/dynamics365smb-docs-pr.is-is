@@ -1,6 +1,6 @@
 ---
-title: Sérstillingarsíður | Microsoft Docs
-description: Lærðu hvernig á að sérstilla notendaviðmótið til að henta því hvernig þú vinnur í Business Central.
+title: Síður sérstilltar
+description: Kynntu þér hvernig á að sérstilla notendaviðmótið og aðlaga vinnusvæðið þitt til að henta því hvernig þú vinnur í Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dbcf9f396c3f92093241a17cb6a358580f015cbe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783312"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442676"
 ---
 # <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 Þú getur sérstillt vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
@@ -42,7 +42,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Hefja sérstillingu á síðu með borðanum **Sérstilla**
 1. Opna skal síðuna sem á að sérsníða.
-2. Í efra hægra horninu skaltu velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan velja aðgerðina **Sérstilla**.
+2. Í efra hægra horninu skaltu velja táknið ![Stillingar.](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan velja aðgerðina **Sérstilla**.
 
     Borðinn **Sérstillir** birtist efst til að tákna að hægt sé að byrja að gera breytingar.
 

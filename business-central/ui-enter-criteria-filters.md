@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017175"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443694"
 ---
 # <a name="sorting-searching-and-filtering"></a>Röðun, leit og síun
 
@@ -24,7 +24,7 @@ ms.locfileid: "6017175"
 Fyrir skýrslur og XMLport, líkt og í listum, er hægt að stilla síur til að afmarka hvaða gögn eigi að taka með í skýrslunni eða XMLport, en ekki er hægt að raða og leita.
 
 > [!TIP]
-> Þegar þú skoðar gögnin þín sem flísar getur þú leitað og notað síun. Til að nota alla þessa öflugu eiginleika til að raða, leita og sía skaltu velja táknið ![Sýna sem lista](media/ui_show_as_list_icon.png "Sýna sem listaör til vinstri") til að sýna færslurnar sem lista.
+> Þegar þú skoðar gögnin þín sem flísar getur þú leitað og notað síun. Til að nota alla þessa öflugu eiginleika til að raða, leita og sía skaltu velja táknið ![Sýna sem lista.](media/ui_show_as_list_icon.png "Sýna sem listaör til vinstri") táknið til að skoða skrárnar sem lista.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Til að raða lista geturðu annaðhvort:
 ## <a name="searching"></a>Leit
 
 <!--## Searching by using the Quick Filter -->
-Efst á sérhverri listasíðu er ![Leita í lista](media/ui-search/search-list.png "Tákn fyrir leitarlista") **Leita** aðgerðin sem býður upp á fljótlega og auðvelda leið til að vinna gögnin niður í lista og sýna einungis þær skrár sem innihalda gögnin sem þú vilt sjá.
+Efst á öllum listasíðum er ![Leita í lista.](media/ui-search/search-list.png "Tákn fyrir leitarlista") Aðgerðin **Leita** sem býður upp á fljótlega og auðvelda leið til að draga úr magni gagna í lista og sýna einungis þær skrár sem innihalda gögnin sem þú vilt sjá.
 
 Til að leita skaltu einfaldlega velja aðgerðina **Leita** og síðan skrifa í boxið textann sem er verið að leita að. Þú getur slegið inn stafi, númer og önnur tákn.
 
@@ -144,7 +144,7 @@ Bæði í síuglugganum og á beiðnisíðu er hægt að færa inn síuskilyrði
 
 Gerð síureits ákvarðar hvaða skilyrði er hægt að færa inn. Til dæmis, að sía reit sem hefur fasta gildi mun einungis leyfa þér að velja úr þeim gildum. Nánari upplýsingar um sérstaka síu tákn sjá [Sía viðmiðanir](#FilterCriteria) og [Síumerki](#FilterTokens).
 
-Dálkar sem þegar eru með síur eru auðkenndar með tákninu ![Síutákn](media/ui-search/filter-icon.png "Síutákn") í dálkhausnum. Til að fjarlægja afmörkun skal velja felliörina og velja svo aðgerðina **Hreinsa afmörkun** .
+Dálkar sem þegar eru með síur eru auðkenndir með ![Síutákninu.](media/ui-search/filter-icon.png "Síutákn") í dálkahausnum. Til að fjarlægja afmörkun skal velja felliörina og velja svo aðgerðina **Hreinsa afmörkun** .
 
 > [!TIP]
 > Finna og greina gögnin þín fljótar með því að nota samsetningar flýtilykla. Til dæmis, veldu reit, notaðu **Shift + Alt + F3** til að bæta reitnum við síusvæðið, sláðu inn síuviðmiðin, notaðu **Ctrl + Enter** til að fara aftur í raðirnar, veldu annað reit og notaðu **Alt + F3** til að sía í það gildi. Frekari upplýsingar, sjá [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).

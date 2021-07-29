@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7f2e2fe9719d25e13a33cf1943e7a054a70edffd
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935362"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444044"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Unnið með Power BI Skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -27,7 +27,7 @@ Power BI skýrslur veita innsýn inn í [!INCLUDE[prod_short](includes/prod_shor
 
 [!INCLUDE [prod_short](includes/prod_short.md)] vinnur með Power BI þjónustunni. Skýrslur fyrir birtingu í [!INCLUDE [prod_short](includes/prod_short.md)] eru geymdar í Power BI-þjónustu. Í [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að skipta skýrslunni sem birtist í Power BI hlutanum til allra Power BI-skýrslna sem eru í boði í Power BI þjónustunni. Í fyrsta skipti sem þú skráir þig inn á [!INCLUDE [prod_short](includes/prod_short.md)], og þar til þú tengist Power BI-þjónustu, eru hlutar auðir, eins og sýnt er hér:
 
-![Power BI hluti í Business Central](./media/power-bi-part.png)
+![Power BI hluti í Business Central.](./media/power-bi-part.png)
 
 ## <a name="get-started"></a>Hefjast handa
 

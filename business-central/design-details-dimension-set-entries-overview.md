@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir víddasamstæðufærslur | Microsoft Docs
-description: Í þessu efnisatriði er lýst hvernig víddasamstæðufærslur eru geymdar og bókaðar í Dynamics 365.
+title: Yfirlit yfir víddasamstæðufærslur
+description: Í þessari grein er yfirlit yfir hvernig færslur víddasamstæðu eru geymdar sem víddasamstæðufærslur og hvernig þær eru bókaðar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c6e3df748269e2f40e3acf0a28ce0f6bc48ca944
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215304"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442411"
 ---
 # <a name="dimension-set-entries-overview"></a>Yfirlit yfir víddasamstæðufærslur
 Í þessu efnisatriði er lýst hvernig víddasamstæðufærslur eru geymdar og bókaðar í [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -34,7 +34,7 @@ Eftirfarandi dæmi sýnir víddasamstæðu sem hefur þrjár víddasamstæðufæ
 ## <a name="dimension-set-entries"></a>Víddasamstæðufærslur  
 Víddasamstæður eru geymdar í töflunni **Víddasamstæðufærsla** sem víddasamstæðufærslur með sama víddasamstæðukenni.  
 
-![Flæði víddasamstæðufærslna](media/dimensionentrynav7.png "Flæði víddasamstæðufærslna")  
+![Flæði víddasamstæðufærslna.](media/dimensionentrynav7.png "Flæði víddasamstæðufærslna")  
 
 Þegar ný færslubókarlína, skjalahaus eða skjalalína er stofnuð er hægt að tilgreina samsetningu víddargilda. Í stað þess að geyma hvert víddargildi í gagnagrunninum er kenni víddasamstæðu tengt færslubókarlínu, haus skjals eða línu skjals til að tilgreina víddasamstæðuna.  
 

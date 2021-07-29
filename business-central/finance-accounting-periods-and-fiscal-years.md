@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b4daacd73987e4e747f97d288ecfb51b564de7e6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e348ce883493ec621b6dbe4bc5855e0c8318178b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781037"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442826"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Unnið með fjárhagstímabil og fjárhagsár
 
@@ -35,7 +35,7 @@ Hægt er að búa til mörg reikningstímabil saman með runuvinnslunni **Búa t
 
 Notaðu runuvinnsluna **Búa til fjárhagsár** til að skipta fjárhagsári niður í tímabil af jafnri lengd.  
 
-1. Veldu táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn"), sláðu inn **Reikningstímabil** og veldu síðan viðeigandi tengil.  
+1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, fara í **Fjárhagstímabil** og velja síðan viðkomandi tengil.  
 2. Veldu aðgerðina **Stofna ár**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. Í reitnum **Upphafsdagsetning** skal slá inn dagsetninguna sem fjárhagsárið byrjar á.  
 4. Í reitnum **Fjöldi tímabila** skal slá inn fjölda reikningstímabila sem fjárhagsárið á að skiptast niður í. Hægt er að velja allt að 365 tímabil fyrir hvert ár.  
@@ -46,7 +46,7 @@ Notaðu runuvinnsluna **Búa til fjárhagsár** til að skipta fjárhagsári ni�
 
 Ef reikningstímabilin á fjárhagsárinu eru mismunandi löng, eins og 4-4-5 dagatalið sem notað er í smásölu, getur þú sett þau upp handvirkt.  
   
-1. Veldu táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn"), sláðu inn **Reikningstímabil** og veldu síðan viðeigandi tengil.  
+1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, fara í **Fjárhagstímabil** og velja síðan viðkomandi tengil.  
 2. Í reitnum **Upphafsdagsetning** skal slá inn dagsetninguna sem fjárhagsárið byrjar á. Reiturinn **Heiti** sýnir heiti mánaðar.  
 3. Veldu gátreitinn **Nýtt fjárhagsár** til að gefa til kynna að þetta sé fyrsta tímabilið á árinu. [!INCLUDE[prod_short](includes/prod_short.md)] mun nota þetta tímabil til að ákvarða hvaða tímabil skuli loka í árslok.
 4. Endurtakið skref 2 og 3 fyrir hin tímabilin sem eru eftir.  
@@ -58,7 +58,7 @@ Lokun fjárhagsárs er eitt verkanna fyrir lokun bóka. Eftir að fjárhagsári 
 > [!NOTE]  
 > Þú verður alltaf að hafa að minnsta kosti eitt opið fjárhagsár. Þegar ári er lokað skal tryggja að nýtt ár hafi verið stofnað. Hafðu einnig í huga að eftir að einu ári er lokað er ekki hægt að breyta upphafsdagsetningunni á næsta ári.
 
-1. Veldu táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn"), sláðu inn **Reikningstímabil** og veldu síðan viðeigandi tengil.  
+1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, fara í **Fjárhagstímabil** og velja síðan viðkomandi tengil.  
 2. Veldu aðgerðina **Loka ári**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bókun færslna á lokað fjárhagsár

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4b9a131b890efe1612ec05d6810d5b661447b26f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782660"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444156"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Færa íhluti á aðgerðasvæði í grunnskilgreiningu vöruhúss
 Ef vöruvinnsla fer fram í vöruhúsi gæti þurft að færa vörur á milli innri hólfa í samræmi við innri upprunaskjöl, svo sem framleiðslu-, samsetningar- eða þjónustupantanir úr birgðageymslu.  
@@ -47,7 +47,7 @@ Að öðru kostir getur starfsmaður í vöruhúsi stofnað hana með því að 
 Þessi verklýsing sýnir hvernig á að búa til birgðahreyfingu af síðunni **Birgðahreyfing** með því að vísa í útgefna samsetningarpöntun sem upprunaskjal. Ferlið er það sama þegar íhlutir eru færðir fyrir framleiðslupantanir og þjónustupantanir.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Til að færa íhluti á aðgerðasvæði í grunnskilgreiningu vöruhúss  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðahreyfing** og veldu tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðahreyfing** og velja viðkomandi tengil.  
 2.  Á flýtiflipanum **Almennt** er reiturinn **Nr.** fylltur út . Hægt er að ýta á færslulykilinn til að velja úr númeraröð.  
 3.  Í reitnum **Kóti birgðageymslu** er færð inn birgðageymslan þar sem hreyfingin á sér stað.  
 4.  Valið er **Sækja upprunaskjöl** aðgerð. Að öðrum kosti er fyllt út í reitinn **Upprunaskjal** og valið svo hnappurinn **AssistEdit** í reitnum **Upprunanúmer**.  

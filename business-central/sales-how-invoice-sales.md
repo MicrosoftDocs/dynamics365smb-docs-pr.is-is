@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d0a48037123dee4a7c9282432cc2b357b335e794
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 4cd53cab788f5ee9a7f32f697faa35e8cd2638ae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115566"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443358"
 ---
 # <a name="invoice-sales"></a>Reikningsfæra sölur
 
@@ -41,7 +41,7 @@ Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur l
 
 ### <a name="to-create-a-sales-invoice"></a>Sölureikningar búnir til:
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölureikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
 2. Í reitnum **Viðskiptamaður** er fært inn nafn núverandi viðskiptamanns.
 
    Aðrir reitir á síðunni **Sölureikningur** innihalda nú staðlaðar upplýsingar um valinn viðskiptamann. Ef viðskiptamaðurinn er ekki skráður, fylgið eftirfarandi skrefum:

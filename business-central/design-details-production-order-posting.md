@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 966760ae57f9908ec7245f8e97f6d35591142332
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214879"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442361"
 ---
 # <a name="design-details-production-order-posting"></a>Hönnunarupplýsingar: staða framleiðslupöntunar
 Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md). Hins vegar er kostnaðarrennsli fyrir samsetningarpantanir síður flókið, sérstaklega vegna þess að bókun samsetningarkostnaðar á sér aðeins stað einu sinni og myndar því ekki birgðir með verkum í vinnslu.
@@ -58,11 +58,11 @@ Bókun framleiðslupantana í VÍV-birgðir samanstendur af frálagi, notkun og 
 
 Eftirfarandi skýringarmynd sýnir bókunarvenjur í kóðaeiningu 22.  
 
-![Vanalegar bókanir birgðapantana](media/design_details_inventory_costing_14_production_posting_1.png "Vanalegar bókanir birgðapantana")  
+![Vanalegar bókanir framleiðslupantana.](media/design_details_inventory_costing_14_production_posting_1.png "Vanalegar bókanir birgðapantana")  
 
 Eftirfarandi skýringarmynd sýnir tengsl milli leiðir afleiddra færsla og kostnaðarhluta.  
 
-![Flæði framleiðslufærslna](media/design_details_inventory_costing_14_production_posting_2.png "Flæði framleiðslufærslna")  
+![Flæði framleiðslufærslu.](media/design_details_inventory_costing_14_production_posting_2.png "Flæði framleiðslufærslna")  
 
 Afkastagetufærsla lýsir getuneyslu hvað varðar tímaeiningar, en tengdar gildifærsla lýsir verðmæti tilteknum getuneyslu.  
 

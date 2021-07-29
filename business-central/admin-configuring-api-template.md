@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 7d39262993a173fec1eae68bcb44a85332a9866a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773105"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443993"
 ---
 # <a name="configuring-api-templates"></a>Grunnstilling API-sniðmáta
 API-safnið fyrir [!INCLUDE[prod_short_md](includes/prod_short.md)] gefur einfaldaða framsetningu á undirliggjandi einingum. Allir eiginleikarnir í forritinu fara ekki í gegnum tengt API. Síðan **API-uppsetning** gerir þér kleift að skilgreina sniðmát sem eru notuð til að fylla í tóma eiginleika í einingu þegar þú býrð til POST-aðgerð í gegnum API. 
@@ -31,7 +31,7 @@ Til að nota sniðmát með API-safninu verður þú fyrst að setja upp og skil
 
 Til að úthluta API sniðmáti verður þú að fara í gegnum eftirfarandi skref.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **API-uppsetning** og veldu tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **API-uppsetning** og veldu tengda tengilinn.
 2. Veljið **Nýtt** og veljið síðan gildið á **Röðun** fyrir færsluna.  
 Ef fleiri en eitt sniðmát er valið fyrir API (síðukenni) eru sniðmátin notuð í þeirri röð sem er skilgreind í dálknum **Röðun**.   
 Þegar hvert sniðmát er notað eru reitargildum sem eru skilgreind í sniðmátinu aðeins beitt á reiti sem hafa ekki enn fengið gildi skilgreint, annaðhvort sérstaklega í API eða í sniðmáti sem notað var áður í röðinni. 

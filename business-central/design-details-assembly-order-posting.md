@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - Bókun samsetningarpöntunar | Microsoft Docs
-description: Bókun samsetningarpöntunar er byggð á sömu forsendum og bókun svipaðra aðgerða sölupantana og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.
+title: Hönnunarupplýsingar - Bókun samsetningarpöntunar
+description: Bókun samsetningarpöntunar er byggð á sömu forsendum og bókun svipaðra aðgerða sölupantana og notkun/frálag framleiðslu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e855a7c1392b84a45c588c8a7dbe01de389a3377
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216004"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442561"
 ---
 # <a name="design-details-assembly-order-posting"></a>Hönnunarupplýsingar: Bókun samsetningarpöntunar
-Bókun samsetningarpöntunar byggir á sömu meginreglum og þegar bókun tengist sambærilegum aðgerðum á borð við sölupantanir og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.  
+Bókun samsetningarpöntunar er byggð á sömu forsendum og bókun svipaðra aðgerða sölupantana og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.  
 
 Svipað bókun framleiðslupöntunar er notuðum íhlutum og notuðum tilföngum umreiknað og skilað sem samsetningarvara þegar samsetningarpöntunin er bókuð. Frekari upplýsingar eru í [Hönnunarupplýsingar: staða framleiðslupöntunar](design-details-production-order-posting.md). Hins vegar er kostnaðarrennsli fyrir samsetningarpantanir síður flókið, sérstaklega vegna þess að bókun samsetningarkostnaðar á sér aðeins stað einu sinni og myndar því ekki birgðir með verkum í vinnslu.  
 
@@ -31,14 +31,14 @@ Eftirfarandi bókarfærslur komu til við bókun samsetningarpöntunar:
 
 Eftirfarandi skýringarmynd sýnir uppbyggingu vöru og fjárhagsfærslur tilfanga vegna bókum samsetningarpöntunar.  
 
-![Vara, tilföng og fjárhagsfærslur afkasta sem verða til vegna bókunar samsetningarpöntunar](media/design_details_assembly_posting_1.png "Vara, tilföng og fjárhagsfærslur afkasta sem verða til vegna bókunar samsetningarpöntunar")  
+![Vara, tilföng og fjárhagsfærslur afkasta sem verða til vegna bókunar samsetningarpöntunar.](media/design_details_assembly_posting_1.png "Vara, tilföng og fjárhagsfærslur afkasta sem verða til vegna bókunar samsetningarpöntunar")  
 
 > [!NOTE]  
 >  Vinnuvél og vinnustöðvar eru teknar með til að sýna að afkastahöfuðbókarfærslur eru stofnaðar úr bæði framleiðslu og samsetningu.  
 
 Eftirfarandi skýringarmynd sýnir hvernig samsetningargögn flæða fjárhagsfærslur við bókun:  
 
-![Samsetningartengt færsluflæði á meðan bókun stendur](media/design_details_assembly_posting_2.png "Samsetningartengt færsluflæði á meðan bókun stendur")  
+![Samsetningartengt færsluflæði á meðan bókun stendur.](media/design_details_assembly_posting_2.png "Samsetningartengt færsluflæði á meðan bókun stendur")  
 
 ## <a name="posting-sequence"></a>Bókunarröð  
 Til að bókun samsetningarpöntunar á sér stað í þessari röð:  
@@ -69,7 +69,7 @@ Greiningaraðgerðin á pantanastigi er notuð í umbreytingaraðstæðum, framl
 
 Eftirfarandi mynd sýnir leiðréttingarfærsluuppbyggingu og hvernig samsetningarkostnaður er leiðréttur.  
 
-![Samsetningartengt færsluflæði á meðan kostnaðarleiðréttingu stendur](media/design_details_assembly_posting_3.png "Samsetningartengt færsluflæði á meðan bókun stendur")  
+![Samsetningartengt færsluflæði á meðan kostnaðarleiðréttingu stendur.](media/design_details_assembly_posting_3.png "Samsetningartengt færsluflæði á meðan bókun stendur")  
 
 ### <a name="performing-the-adjustment"></a>Leiðrétting  
 Dreifing greindra breytinga á efni og tilfangakostnaði í samsetningarúttaksfærslum er framkvæmd í runuvinnslunni **Leiðr. kostnað – Birgðafærslur**. Það inniheldur aðgerðina gera margstiga jöfnun, sem samanstendur af eftirfarandi tveimur þáttum:  
@@ -77,7 +77,7 @@ Dreifing greindra breytinga á efni og tilfangakostnaði í samsetningarúttaksf
 -   Leiðrétta samsetningarpöntun – framsendir kostnað vegna efnis og forða í samsetningfrálagsfærslu. Línur 5 og 6 í reiknireglunni hér að neðan eru ábyrgar fyrir því.  
 -   Leiðréttingar á einu stigi – framsendir kostnað fyrir stakar vörur með viðkomandi aðferð kostnaðarútreiknings. Línur 9 og 10 í reikniriti hér á eftir eru ábyrgar fyrir því.  
 
-![Yfirlit yfir algrím kostnaðarleiðréttingar fyrir samsetningarbókun](media/design_details_assembly_posting_4.jpg "Yfirlit yfir algrím kostnaðarleiðréttingar fyrir samsetningarbókun")  
+![Yfirlit yfir algrím kostnaðarleiðréttingar fyrir samsetningarbókun.](media/design_details_assembly_posting_4.jpg "Yfirlit yfir algrím kostnaðarleiðréttingar fyrir samsetningarbókun")  
 
 > [!NOTE]  
 >  Einingin Gera VÍV-leiðréttingu, í línum 7 og 8, er ábyrg fyrir að framsenda framleiðsluefni og notkukn á afkastagetu í frálag ólokinna framleiðslupantana. Þetta er ekki notað þegar kostnaði samsetningarpöntunar er breytt þar sem VÍV gildir ekki um samsetningu.  

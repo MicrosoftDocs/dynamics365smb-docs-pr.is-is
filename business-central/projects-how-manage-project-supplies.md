@@ -1,6 +1,6 @@
 ---
 title: Stjórna verkbirgðum
-description: Lýsir því hvernig á að hafa umsjón með verkbirgðum og innkaupum á efni og þjónustu í verkum.
+description: Lýsir mismunandi leiðum til að hafa umsjón með framboð og innkaupum á efni og þjónustu fyrir verk.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7e1f6f52a8ef5f7d4620a70c4611ba259dc00c20
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: b2c2bfa376290439394debcf9b57da5bedaca8bd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938172"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443844"
 ---
 # <a name="manage-job-supplies"></a>Stjórna verkbirgðum
 Það er mikilvægur og óaðskiljanlegur hluti af framkvæmd allra verka að hafa umsjón með framboði á vöru, þjónustu og útgjöldum. Nota má birgðamagn eða gera verktengd innkaup með innkaupapöntunum og/eða innkaupareikningum. Sem dæmi má nefna þjónustuverk á tölvu sem krefst þess að nýr diskur sé keyptur. Þá er búinn til innkaupareikningur til kaupa á nýjum diski og verkið, sem nota á diskinn í, er skráð.
@@ -25,7 +25,7 @@ Ef innkaupaferlið krefst þess ekki að efnisleg aðgerð sé skráð sérstakl
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Að kaupa vörur eða þjónustu fyrir verk
 Eftirfarandi ferli sýnir hvernig á að nota innkaupareikning til að kaupa vörur fyrir verk. Sömu skref eiga við þegar innkaupapöntun er notuð.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Í reitunum **Verk nr.** og **Verkhluti nr.** eru valdar upplýsingarnar um verkið sem þú vilt kaupa vörur eða þjónustu fyrir. Notið verkfæri sérstillingar ef reitur er ekki sýnilegur. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
@@ -33,7 +33,7 @@ Eftirfarandi ferli sýnir hvernig á að nota innkaupareikning til að kaupa vö
 4. Valið er **Bóka** aðgerðin.
 
 ## <a name="to-view-the-value-of-purchases-for-a-job"></a>Til að skoða virði innkaupa fyrir verk
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.
 2. Opnið viðeigandi verkspjald.
 
     Á flýtiflipanum **Verkhlutar** sýnir reiturinn **Óafgreiddar pantanir** útistandandi upphæð í staðbundnum gjaldmiðli fyrir vörur í birgðaskrá og þjónustu á innkaupaskjöl fyrir verkhlutalínuna.  
@@ -44,7 +44,7 @@ Eftirfarandi ferli sýnir hvernig á að nota innkaupareikning til að kaupa vö
 ## <a name="to-post-a-job-related-expense"></a>Til að bóka verktengdan kostnað
 Ef þú verður fyrir óvenjulegum útgjöldum eða útgöldum sökum eins verks, er hægt að nota síðuna **Verk fjárhagsbókar** til að bóka þau beint í viðeigandi verkreikning.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsbækur verks** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsbækur verks** og velja síðan viðkomandi tengil.  
 2. Ný lína er stofnuð og kostnaðarupplýsingar, þar á meðal **Verk nr** og **Verkhluti nr.**, færðar inn í reitina.  
 3. Þegar færslubókin er tilbúin skal velja aðgerðina **Bóka**.
 

@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - Vöruhúsaflæði á útleið | Microsoft Docs
-description: Flæði á útleið í vöruhúsinu hefst með beiðni úr losuðum upprunaskjölum um að flytja vöruna af staðsetningu vörushússins, annað hvort til að flytja hana til þriðja aðila eða á aðra staðsetningu fyrirtækisins. Úr geymslusvæðinu eru vöruhúsaaðgerðir framkvæmdar á mismunandi flækjustigi til að koma vörunum af afhendingarsvæðinu.
+title: 'Hönnunarupplýsingar: vöruhúsaflæði á innleið'
+description: Í þessu efnisatriði er talað um framvindu vöruhúsaflæðis á útleið frá útgefnum upprunaskjölum til tilbúinna vara.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777774"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442386"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Hönnunarupplýsingar: vöruhúsaflæði á innleið
 
@@ -54,7 +54,7 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
 
  Eftirfarandi skýringarmynd sýnir útflæði í vöruhús eftir skjalagerð grunngerðar vöruhúss. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
- ![Flæði á útleið í grunngerðir vöruhúss](media/design_details_warehouse_management_outbound_basic_flow.png "Flæði á útleið í grunngerðir vöruhúss")  
+ ![Flæði á útleið í grunngerðir vöruhúss.](media/design_details_warehouse_management_outbound_basic_flow.png "Flæði á útleið í grunngerðir vöruhúss")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Upprunaskjal losunar / Stofna birgðatínsla eða Hreyfing
 
@@ -81,7 +81,7 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
 
  Eftirfarandi skýringarmynd sýnir útflæði í vöruhús eftir skjalagerð í grunngerð ítarlegu vöruhúsi. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
- ![Flæði á útleið í grunngerð ítarleg vöruhúsum](media/design_details_warehouse_management_outbound_advanced_flow.png "Flæði á útleið í grunngerð ítarleg vöruhúsum")  
+ ![Flæði á útleið í ítarlegum skilgreiningum vöruhúss.](media/design_details_warehouse_management_outbound_advanced_flow.png "Flæði á útleið í grunngerð ítarleg vöruhúsum")  
 
 ### <a name="1-release-source-document"></a>1: Upprunaskjal losunar
 

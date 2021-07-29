@@ -1,6 +1,6 @@
 ---
 title: Stofna Vöruskilapantanir innkaupa Frágangur úr innanhússfrágangi
-description: Þegar gengið hefur verið frá vörum og áður en þær eru tíndar til að fylla upp í framleiðslupöntun eða afhendingu eru þær geymdar í vöruhúsinu sem hluti af tiltækum birgðum.
+description: Þetta efnisatriði fjallar um hvernig á að tína og ganga frá án upprunaskjals, bæði hvernig á að búa til innri tínslu og hvernig á að búa til innri frágang.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 66abeaaf1d009e994e302fc333c32dae3c3b6abd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 198c4fb8ead4179667e35957046b3446ce5d8065
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771830"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444181"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Tína og ganga frá án upprunaskjals
 Þegar gengið hefur verið frá vörum og áður en þær eru tíndar til að fylla upp í framleiðslupöntun eða afhendingu eru þær geymdar í vöruhúsinu sem hluti af tiltækum birgðum.  
@@ -34,14 +34,14 @@ Við aðrar aðstæður, gæti framleiðslueiningin óvænt þurft að fá nokkr
 >  þegar birgðageymslan notar beinan frágang og tínslu og því hólfategundir er ekki hægt að færa vörur handvirkt inn og út úr hólfi af tegundinni RECEIVE því vörur sem eru í hólfi af þeirri gerð verður að skrá sem frágengnar áður en þær verða hluti af tiltækum birgðum.  
 
 ## <a name="to-create-an-internal-pick"></a>Að búa til Innahússtínslur  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innanhústínsla vöruhúss** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innanhússtínsla** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.
 3. Fylla þarf út reitinn **Nr.**. reitinn **Staðsetningarkóði**, og reitinn **Kóði til-hólfs** í flýtiflipanum **Almennt**. Reiturinn **Kóði til-hólfs** tilgreinir hólfið sem staðsetja á tíndar vörur. Við framleiðslu væri þetta hólf innhólf framleiðslu eða opið búðarhólf. Annars skal velja hólfakóða með hólfi af tegund sem ekki er notuð við tínslu, oftast nær undirbúnings- eða afhendingarhólf eða hólf fyrir sérstök tilefni.  
 4.  Vara er valin í reitnum **Vörunr.** og magnið sem á að tína fært inn.  
 5. Veldu aðgerðina **Stofna tínslu**. Vöruhúsatínsluleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss. Einnig er hægt að velja aðgerðina **Losa** og stofna tiltekt í vöruhúsi með því að nota **Vinnublað tínslu**. Frekari upplýsingar má finna í [Áætla tínslu á vinnublöðum](warehouse-how-to-plan-picks-in-worksheets.md)
 
 ## <a name="to-create-an-internal-put-away"></a>Stofna innanhússfrágang  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innanhússfrágangur vöruhúss** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innanhússfrágangur vöruhúss** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.
 3. Í haus nýja innanhússfrágangsins þarf að tilgreina að minnsta kosti **Nr.** og **Staðsetningarkóði**.
 4. Fylla skal út eina línu fyrir hverja vöru sem flytja á í vöruhúsið. Aðeins þarf að fylla út í reitina **Vörunr.** og **Magn**.

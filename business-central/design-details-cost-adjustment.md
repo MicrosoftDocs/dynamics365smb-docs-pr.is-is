@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - kostnaðarleiðrétting | Microsoft Docs
-description: Megintilgangurinn með kostnaðarleiðréttingu er að framsenda breytingar á kostnaði frá uppruna kostnaðar að viðtakendum kostnaðar í samræmi við aðferð kostnaðarútreiknings fyrir hverja vöru, til að fyrir liggi rétt verðmat birgða.
+title: Hönnunarupplýsingar - kostnaðarleiðrétting
+description: Kostnaðarleiðrétting framsendir breytingar á kostnaði frá uppruna kostnaðar að viðtakendum kostnaðar í samræmi við aðferð kostnaðarútreiknings fyrir hverja vöru, til að fyrir liggi rétt verðmat birgða.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0c0d46c75ca160ba5baa58bd637ead2e0339d368
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4fdf131d9f32940ed3b909c4bc98a1516f44bf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215404"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442461"
 ---
 # <a name="design-details-cost-adjustment"></a>Hönnunarupplýsingar: kostnaðarleiðrétting
 
@@ -67,7 +67,7 @@ Til að vera fær um að senda kostnaði ákvarðar greiningarkerfið hvaða upp
 
 Greiningaraðgerðin á pantanastigi er notuð til að greina leiðréttingar á bókun samsetninga. Eftirfarandi mynd sýnir uppbyggingu leiðréttingarfærslu:  
 
-![Flæði færslna í kostnaðarleiðréttingu](media/design_details_assembly_posting_3.png "Flæði færslna í kostnaðarleiðréttingu")  
+![Flæði færslna í kostnaðarleiðréttingu.](media/design_details_assembly_posting_3.png "Flæði færslna í kostnaðarleiðréttingu")  
 
 Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md).  
 

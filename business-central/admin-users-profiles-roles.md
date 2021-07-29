@@ -1,20 +1,20 @@
 ---
-title: Meðhöndla notendur og hlutverk | Microsoft Docs
-description: Lærið að meðhöndla notendur og Mitt hlutverk í Business Central.
+title: Stjórna notendum og hlutverkum
+description: Kynntu þér hvernig á að stjórna notandasíðum og hlutverkamiðstöðvum í Business Central. Notandasíður gera stjórnendum kleift að skilgreina og stjórna hvað notendur geta séð og gert á miðlægan hátt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8ccfd6b7e39acc460fcd32dbc2f20fb71fc01ae0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776967"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443130"
 ---
-# <a name="manage-profiles"></a>Vinna með forstillingar
+# <a name="manage-user-profiles"></a>Stjórna notandasíðum
 
 Öllum notendum [!INCLUDE[prod_short](includes/prod_short.md)] er úthlutað forstillingu sem endurspeglar viðskiptahlutverk þeirra, deildina sem þeir vinna í eða aðra flokkun. Forstillingar gera stjórnendum kleift að skilgreina og stjórna því miðlægt hvað mismunandi gerðir notenda geta séð og gert í notendaviðmótinu svo þeir geti framkvæmt verk sín á skilvirkan hátt.
 
@@ -31,7 +31,7 @@ Hægt er að sérsníða síðuútlit fyrir forstillingu þannig að allir noten
 ## <a name="to-create-a-profile"></a>Forstilling stofnuð
 Ef ekki er hægt að afrita fyrirliggjandi forstillingu er hægt að stofna nýja handvirkt.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, slá inn **Forstillingar (hlutverk)** og velja svo viðeigandi tengil.  
+1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, fara í **Forstillingar (hlutverk)** og velja svo viðeigandi tengil.  
 2. Velja skal síðuna **Forstillingar (hlutverk)** í aðgerðinni **Nýtt**.  
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +66,7 @@ Notendur geta úthlutað sjálfum sér hlutverki (sem stendur fyrir forstillingu
 
 Sem kerfisstjóri er hægt að skilgreina þessar stillingar fyrir forstillingu og nota þannig stillingarnar fyrir alla notendur tengda hlutverkinu.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forstillingar (hlutverk)** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Forstillingar (hlutverk)** og velja svo viðeigandi tengil.
 2. Velja skal línuna fyrir forstillinguna sem á að breyta notandastillingum fyrir og síðan velja aðgerðina **Listi sérstillingar notanda**.
 3. Á síðunni **Sérstillingar notanda** skal opna spjaldið fyrir notandann sem á að breyta stillingum hjá.
 4. Á síðunni **Sérstillingaspjald notanda** skal breyta reitunum eftir þörfum.
@@ -108,7 +108,7 @@ Hægt er að eyða forstillingu með því að velja aðgerðina **Eyða** á **
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Til að eyða öllum sérstillingum sem notandi gerði
 Hægt er að eyða öllum breytingum sem notandi hefur gert á síðum sem mynda vinnusvæðið. Þetta getur til dæmis komið sér vel ef starfsmaður hefur breytt hlutverki og þarf ekki lengur sérstillinguna. Með því að eyða sérstillingum fyrir notendur breytist síðuútlitið aftur í það sem er tilgreint í forstillingunni.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sérstillingar notanda** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sérstillingar notanda** og velja síðan viðkomandi tengil.
 
     Síðan **Sérstillingar notanda** birtir alla notendur sem hafa gert sérstillingar.
 
@@ -122,7 +122,7 @@ Einnig er hægt að eyða öllum sérstillingum síðu fyrir forstillingu. Freka
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Til að eyða sérstillingum fyrir tilteknar síður
 Hægt er að eyða öllum sérstillingum sem einn eða fleiri notendur hafa gert á síðum sem mynda vinnusvæði þeirra. Þetta getur komið sér vel, til dæmis ef breytt viðskiptaferli leiðir til þess að notendur muni ekki lengur nota sérstillingar. Með því að eyða sérstillingum fyrir notendur breytist síðuútlitið aftur í það sem er tilgreint í forstillingunni.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sérstillingar notandasíðu** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sérstillingar notandasíðu** og velja síðan viðkomandi tengil.
 
     Á síðunni **Sérstillingar notandasíðu** er listi yfir allar síður sem hafa verið sérstilltar og notandinn sem þau tilheyra.
 

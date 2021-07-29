@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d53d813871b154a705676483559f7464bf8469fd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214904"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442311"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð
 Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginleika pöntunarrakningar og aðgerðaboða.  
@@ -138,7 +138,7 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  Eftirfarandi pöntunarrakningarfærslur eru til staðar í töflunni **Frátekningarfærsla** samkvæmt gögnunum í töflunni.  
 
- ![Fysta dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Fysta dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Færslunúmer 8 og 9  
  Fyrir íhlutaþörf fyrir LOTA annarsvegar og LOTB hinsvegar eru tenglar pöntunarrakningar stofnaðir úr eftirspurninni í töflu 5407, **Framl.pöntunaríhlutur**, til framboðsins í töflu 32, **Birgðafærsla**. **Pöntunarstaða** reitur inniheldur **Rakning** til að sýna að þessar færslur eru breytilegir pöntunarrakningartenglar á milli framboðs og eftirspurnar.  
@@ -156,7 +156,7 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  Eftirfarandi röð pöntunarrakningarfærslna til staðar í töflunni **Frátekningarfærsla**.  
 
- ![Annað dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Annað dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Færslunúmer 8 og 9  
  Pöntunarrakningarfærslum fyrir tvær lotur íhlutarins sem endurspegla eftirspurn í töflu 5407 er breytt úr frátekningarstöðunni **Raknings** í **Umframbirgðir**. Ástæðan er að birgðirnar sem greiðslan var tengd við áður, í töflu 32, hafa verið notaðar af sendingu á millifærslupöntuninni.  
@@ -170,7 +170,7 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  Eftirfarandi röð pöntunarrakningarfærslna til staðar í töflunni **Frátekningarfærsla**.  
 
- ![Þriðja dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Þriðja dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
  Pöntunarrakningarfærslurnar eru nú áþekkar því sem var á fyrsta stigi aðstæðnanna, áður en flutningspöntunin var bókuð sem aðeins send, nema að færslur fyrir íhlutinn eru nú með frátektarstöðuna **Afgangur**. Þetta er vegna þess að þörf fyrir íhlutinn er ennþá á staðsetningunni VESTUR, sem endurspeglar að reiturinn **Staðsetningarkóði** á íhlutarlínu framleiðslupöntunarinnar innihaldi **VESTUR** líkt og sett er upp í uppsetningarreitnum **Íhlutir á staðnum**. Birgðir sem var úthlutað á þessa eftirspurn áður hafa verið færðar á AUSTUR staðsetningu og eru að fullu rekjanlegar nema ef íhlutarþörf á framleiðslupöntunarlínu sé breytt í EAST staðsetningu.  
 
@@ -178,7 +178,7 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  Eftirfarandi röð pöntunarrakningarfærslna til staðar í töflunni **Frátekningarfærsla**.  
 
- ![Fyrsta dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Fyrsta dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Færslunúmer 21 og 22  
  Þar sem íhluturinn þarf að hafa verið breytt í AUSTUR staðsetningu og framboðið er tiltækt sem birgðahöfuðbókarfærslur á AUSTUR staðsetningu eru allar pöntunarrakningarfærslur fyrir tvö lotunúmer nú að fullu raktar, gefið til kynna með frátekningarstöðu **Rakning**.  

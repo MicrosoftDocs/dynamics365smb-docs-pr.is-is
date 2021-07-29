@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd35c0af4d2b66f99c0a4a3a65f77826cd9af806
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 313de95353fc42b222fa95cd36d320881a7fbdb8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775923"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442586"
 ---
 # <a name="set-up-incoming-documents"></a>Setja upp skjöl á innleið
 
@@ -29,7 +29,7 @@ Til að breyta PDF og myndaskrám í rafræn skjöl sem er hægt að breyta í t
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>Setja upp valkostinn fyrir skjal á innleið
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning skjala á innleið** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Uppsetning fyrir skjal á innleið** og velja síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Sem hluti af uppsetningunni þarf að ákveða hvort krefjast eigi samþykkis á skjölum á innleið. Til að krefjast samþykkis þarf að setja upp samþykkjendur og samþykktarverkflæði. Ef fyrirtækið ætlar ekki að krefjast samþykkis er hægt að sleppa næsta hluta.  
@@ -44,7 +44,7 @@ Að verður að setja það upp ef þjónusta er notuð til að umbreyta PDF-skr
 
 ## <a name="to-set-up-an-ocr-service"></a>Til að setja upp OCR-þjónustu
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning OCR-þjónustu** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Uppsetning OCR-þjónustu** og svo velja viðeigandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  

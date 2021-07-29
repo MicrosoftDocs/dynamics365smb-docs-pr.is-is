@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 184591134706432ed1ea04afa86e1274b748cfe0
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215504"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442536"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Hönnunarupplýsingar: Framboð á lager
 Kerfið þarf að halda sífelldri stjórn á vörum til ráðstöfunar í vöruhúsinu þannig að vörur á útleið gangi vel og sé skilað á sem besta hátt.  
@@ -47,7 +47,7 @@ Ef eitt eða fleiri skilyrði eru ekki uppfyllt geta mismunandi villuboð verið
 
  Eftirfarandi skýringarmynd sýnir mismunandi þætti í útreikningi.  
 
- ![Tiltækt í tínslu, með pöntunarskörun](media/design_details_warehouse_management_availability_2.png "Tiltækt í tínslu, með pöntunarskörun")  
+ ![Tiltækt í tínslu, með skörun í frátekningu.](media/design_details_warehouse_management_availability_2.png "Tiltækt í tínslu, með pöntunarskörun")  
 
 ## <a name="quantity-available-to-reserve"></a>Magn tiltækt til frátekn.  
  Þar sem hugmyndir um innihald hólfs og frátekningu og fyrirvara eru til saman, verður magn af vörum fyrir frátekningu með úthlutunum í vöruhúsaskjöl á útleið.  
@@ -72,7 +72,7 @@ Ef eitt eða fleiri skilyrði eru ekki uppfyllt geta mismunandi villuboð verið
 
  Eftirfarandi skýringarmynd sýnir mismunandi þætti í útreikningi.  
 
- ![Tiltækt í frátekningu, fyrir úthlutanir í vöruhúsi](media/design_details_warehouse_management_availability_3.png "Tiltækt í frátekningu, fyrir úthlutanir í vöruhúsi")  
+ ![Tiltækt í frátekningu, fyrir úthlutanir í vöruhúsi.](media/design_details_warehouse_management_availability_3.png "Tiltækt í frátekningu, fyrir úthlutanir í vöruhúsi")  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  

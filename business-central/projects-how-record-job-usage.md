@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 65975621fff862b64333c87e70f34b75f8e2cbdb
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: 0d873a547175ee9f52a4016f4e8f5e9aa603cd8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938097"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443794"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Skrá neyslu eða notkun fyrir verk
 
@@ -27,7 +27,7 @@ Eftirfarandi ferli lýsa því hvernig á að skrá raunverulegt (áætlað) mag
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Til að skrá notkun fyrir verkáætlunarlínu af gerðinni Áætlun
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2. Veljið viðeigandi verk og veljið svo aðgerðina **Verkáætlunarlínur**.
 3. Veljið verkáætlunarlínu af gerðinni **Áætlun** eða **Bæði fjárhagsáætlun og reikningshæft** sem á að skrá notkun fyrir.  
 
@@ -49,7 +49,7 @@ Eftirfarandi ferli lýsa því hvernig á að skrá raunverulegt (áætlað) mag
 
 ## <a name="to-create-job-journal-lines-manually"></a>Til að búa til verkbókarlínur handvirkt
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.  
 2. Í reitnum **Heiti keyrslu** skal velja viðeigandi verkbókarkeyrslu.  
 3. Sláið inn skjalanúmer, verknúmer, verkhlutanúmer, tegund og magn tegundarinnar sem verið er að nota í nýja línu.  
 4. Þegar verkbókarlínurnar eru tilbúnar skal velja aðgerðina **Bóka**.  
@@ -63,7 +63,7 @@ Skoða má verknotkun allt að lokum verkefnis í einu skrefi. Til þess er notu
 > [!NOTE]  
 >   Birgðafærslur stofna færslur í birgðahöfuðbók og minnka birgðamagn. Keyrslan **Bóka birgðabreytingar** færir kostnaðinn úr birgðum í fjárhag. Forðafærslur stofna forðafærslur.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.  
 2. Veljið viðeigandi verkbók og veljið svo aðgerðina **Reikna eftirstandandi notkun**.  
 3. Á síðunni **Verk - Reikna eftirstandandi notkun** skal slá inn númer skjalsins og bókunardagsetninguna sem færa skal í bókina og velja svo hnappinn **Í lagi**.  
 4. Uppfærið bókina með þeim breytingum sem kann að vera þörf á.  
@@ -78,7 +78,7 @@ Skoða má verknotkun allt að lokum verkefnis í einu skrefi. Til þess er notu
 > [!NOTE]  
 > Þetta krefst þess að gátreiturinn **Nota notkunartengil** sé valinn fyrir verkið. Frekari upplýsingar eru í [Setja upp verk](projects-how-setup-jobs.md).  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.  
 2. Veljið viðeigandi verkbók og veljið svo aðgerðina **Færslur**.  
 3. Á síðunni **Verkfærslur** er aðgerðin **Sýna áætlunarlínur verks** valin.
 

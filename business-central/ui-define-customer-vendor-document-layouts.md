@@ -1,6 +1,6 @@
 ---
-title: Úthluta sérstöku skjalaútliti til viðskiptavina eða lánardrottna| Microsoft-skjöl
-description: Þegar sérsniðið skýrsluútlit er skilgreint er hægt að velja það af úr spjöldum viðskiptamanna og lánardrottna til að tilgreina að valið útlit á að nota fyrir skjöl sem þú býrð til fyrir viðskiptamanninn eða lánardrottinn.
+title: Úthluta viðskiptavinum eða lánardrottnum skjalaútlit
+description: Þegar sérsniðið skýrsluútlit er skilgreint er hægt að velja það úr spjöldum viðskiptavina og lánardrottna til að tilgreina að það á að nota fyrir viðskiptavin eða lánardrottin sem á hlut að máli.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 086491f30ef0a223e5bf8a559af26b848e54d344
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773556"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443744"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna
 Þegar sérsniðið skýrsluútlit er skilgreint er hægt að velja það af úr spjöldum viðskiptamanna og lánardrottna til að tilgreina hvaða útlit á að nota fyrir mismunandi tegundir skjala sem þú býrð til fyrir viðskiptamanninn eða lánardrottinn. Gildið í reitnum **Notkun** skilgreinir fyrir hvaða ferli skjalaútlitið verður notað, eins og **Áminning**, **Afhending** og **Staðfesting**.
@@ -31,7 +31,7 @@ Auk þess að setja upp hvaða útlit á að nota fyrir hvaða skjal er hægt a�
 Eftirfarandi sýnir hvernig skilgreina á útlit söluskjals af viðskiptamannaspjaldi. Skrefin eru svipuð fyrir útlit innkaupaskjala af lánardrottnaspjaldi.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Til að virkja öll tiltæk söluskjöl fyrir viðskiptamann
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Opnaðu spjald viðskiptamannsins sem þú vilt skilgreina útlit skjals fyrir í hverju viðskiptaferli.
 3. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Útlit fylgiskjals**.
 4. Á síðunni **Útlit fylgiskjals** skal velja aðgerðina **Afrita úr skýrsluvali**.

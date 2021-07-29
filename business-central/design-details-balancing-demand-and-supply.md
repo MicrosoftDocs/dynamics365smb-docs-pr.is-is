@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - Afstemming eftirspurnar og framboðs | Microsoft Docs
-description: Til að skilja hvernig áætlanakerfi virkar, það er nauðsynlegt að skilja forgangsraðað markmið áætlanakerfisins, mikilvægasta sem eru að tryggja að allri eftirspurn verðið svarað með nægu framboði og að allt framboð þjóni tilgangi.
+title: Hönnunarupplýsingar – Jöfnun eftirspurnar og framboðs
+description: Til að skilja hvernig áætlanakerfi virkar er nauðsynlegt að skilja forgangsraðað markmið áætlanakerfisins sem næst með því að jafna framboð við eftirspurn.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 05e812ab11a831ac1c2d96d506489527f06142a2
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215529"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442511"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs
 Til að skilja hvernig áætlanakerfi virkar, það er nauðsynlegt að skilja forgangsraðað markmið áætlanakerfisins, mikilvægasta sem eru að tryggja að:  
@@ -43,7 +43,7 @@ Til að skilja hvernig áætlanakerfi virkar, það er nauðsynlegt að skilja f
 
    Markmiðið með tihögun áætlanagerðarinnar er að mynda andvægi í eftirspurn og framboði vöru til að tryggja að eftirspurnin samsvari framboðinu á gerlegan hátt, eins og skilgreind er með áætlunarfæribreytum og -reglum.  
 
-   ![Yfirlit yfir framboð og eftirspurn jafnvægi](media/nav_app_supply_planning_2_balancing.png "Yfirlit yfir framboð og eftirspurn jafnvægi")
+   ![Yfirlit yfir jöfnun framboðs og eftirspurnar.](media/nav_app_supply_planning_2_balancing.png "Yfirlit yfir framboð og eftirspurn jafnvægi")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Takast á við pantanir fyrir upphafsdag áætlanagerðar
 Til að forðast að framboðsáætlun sýnir ómögulegt og því gagnslaus tillögur, vinnur áætlanakerfið tímabilið allt til áætlanagerðarupphafsdags sem fryst svæði þar sem ekkert er áætlað fyrir. Eftirfarandi regla gildir um fryst svæði:  

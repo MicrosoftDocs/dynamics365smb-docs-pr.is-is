@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: ad155e604780af087c93e4e245002f3511d3d5a9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215803"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442336"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Hönnunarupplýsingar: afstemming í fjárhagur
 Þegar birgðafærslur eins og söluafhendingar, framleiðslufrálag eða neikvæðar leiðréttingar eru bókaðar eru magnið og gildisbreytingarnar í birgðunum skráð í birgðafærslunum og virðisfærslurnar, hvort í sínu lagi. Næsta skrefið í ferlinu er að bóka birgðagildin í birgðareikningana í fjárhagnum.  
@@ -82,16 +82,16 @@ Eftirfarandi tafla sýnir hvernig vinnustöð er sett upp á vinnustöðvarspjal
     1. Bráðaðbirgðareikningar eru hreinsaðir. (Sala)  
     2. Kostnaður seldra vara (cogs) er bókaður. (Sala)  
 
-        ![Niðurstöður sölubókunar á fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_sales.png "Niðurstöður sölubókunar á fjárhagsreikninga")  
+        ![Niðurstöður sölubókunar á fjárhagsreikninga.](media/design_details_inventory_costing_3_gl_posting_sales.png "Niðurstöður sölubókunar á fjárhagsreikninga")  
 5. Notandinn bókar notkun 150 tengla, sem er fjöldi tengla sem það tekur að stofna eina keðju. (notkun, efni)  
 
-    ![Niðurstöður efnisbókunar á fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_material.png "Niðurstöður efnisbókunar á fjárhagsreikninga")  
+    ![Niðurstöður efnisbókunar á fjárhagsreikninga.](media/design_details_inventory_costing_3_gl_posting_material.png "Niðurstöður efnisbókunar á fjárhagsreikninga")  
 6. Vinnustöðin notar 60 mínútur til að framleiða keðjuna. Notandinn bókar umbreytingakostnað. (Notkun, Afkastaveita)  
 
     1. Beinn kostnaður er bókaður. (Notkun, Afkastaveita)  
     2. Óbeinn kostnaður eru reiknuð og staða. (Notkun, Afkastaveita)  
 
-        ![Niðurstöður afkastaveitubókana í fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_capacity.png "Niðurstöður afkastaveitubókana í fjárhagsreikninga")  
+        ![Niðurstöður afkastaveitubókana í fjárhagsreikninga.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Niðurstöður afkastaveitubókana í fjárhagsreikninga")  
 7. Notandinn bókar væntanlegan kostnað einnar keðju. (frálag)  
 8. Notandinn lýkur framleiðslupöntuninni og keyrir **Kostnaðarleiðrétting - Birgðafærslur** runuvinnsluna. (frálag)  
 
@@ -100,7 +100,7 @@ Eftirfarandi tafla sýnir hvernig vinnustöð er sett upp á vinnustöðvarspjal
     3. Óbeini kostnaðurinn (stjórnunarkostnaður´) er fluttur af kostnaðarreikningi óbeins kostnaðar yfir á birgðarreikning. (frálag)  
     4. Þetta leiðir til dreifni fjárhæðar í staðbundinni mynt 157,00. Frávik eru aðeins reiknað fyrir staðlaða kostnaðarliði. (frálag)  
 
-        ![Niðurstöður úttaksbókunar á fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_output.png "Niðurstöður úttaksbókunar á fjárhagsreikninga")  
+        ![Niðurstöður úttaksbókunar á fjárhagsreikninga.](media/design_details_inventory_costing_3_gl_posting_output.png "Niðurstöður úttaksbókunar á fjárhagsreikninga")  
 
         > [!NOTE]  
         >  Til einföldunar er aðeins sýndur einn fráviksreikningur. Í raun eru til fimm mismunandi reikningar:  
@@ -113,7 +113,7 @@ Eftirfarandi tafla sýnir hvernig vinnustöð er sett upp á vinnustöðvarspjal
 
 9. Notandinn endurmetur keðjuna úr SGM 150.00 í SGM 140.00. (Leiðrétting/endurmat/Sléttun/millifærsla)  
 
-    ![Niðurstöður leiðréttingabókana í fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Niðurstöður leiðréttingabókana í fjárhagsreikninga")  
+    ![Niðurstöður leiðréttingabókana í fjárhagsreikninga.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Niðurstöður leiðréttingabókana í fjárhagsreikninga")  
 
 Frekari upplýsingar um vensl milli reikningsgerða og mismunandi gerðir virðisfærslna eru í [Hönnunarupplýsingar: Reikningar í fjárhag](design-details-accounts-in-the-general-ledger.md).  
 

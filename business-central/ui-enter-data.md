@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að færa inn gögn í Business Central| Microsoft Docs
-description: Kynntu þér almenna eiginleika sem auðvelda þér að færa gögn inn í reiti.
+title: Hvernig á að færa inn gögn í Business Central
+description: Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri hætti og af meiri nákvæmni. Grunnreglum og ítarlegum eiginleikum er lýst hér.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784816"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443669"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 
@@ -93,7 +93,7 @@ Eftirfarandi listi veitir gagnlegar upplýsingar um notkun á flýtifærslu.
 
 Til að setja upp flýtifærslu á reitum skaltu nota sérstillingu.
 
-1. Byrjaðu sérstillingu með því að velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan aðgerðina **Sérstilla**.
+1. Byrjaðu sérstillingu með því að velja táknið ![Stillingar.](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan aðgerðina **Sérstilla**.
 2. Veldu reit sem þú vilt breyta. Í listum skaltu velja samsvarandi dálkahaus. Veldu síðan annaðhvort **Hafa með í flýtifærslu** eða **Útiloka frá flýtifærslu**.
 
 Frekari upplýsingar um sérstillingu er að finna í [Sérstilling verksvæðis](ui-personalization-user.md).
@@ -136,9 +136,9 @@ Síun er sérstaklega hjálpleg þegar lengri skjöl eru skoðuð og greind. Ím
 
 ### <a name="switching-the-focus-on-and-off"></a>Kveikja eða slökkva á fókus
 
-Til að setja fókus á línuatriði skal velja hvar sem er í hluta línuatriða og síðan velja ![Tákn fyrir fókusstillingu](media/focus-mode.png "Fókusstillingartákn") efst í hægra horninu eða ýta á Ctrl+Shift+F12.
+Til að leggja áherslu á línuatriði skal velja hvar sem er í hluta línuatriðis og síðan velja táknið ![Fókusstilling.](media/focus-mode.png "Fókusstillingartákn") uppi í hægra horninu eða ýta á Ctrl+Shift+F12.
 
-Til að skipta yfir í venjulegt yfirlit skal velja ![Tákn fyrir fókusstillingu](media/focus-mode.png "Fókusstillingartákn") eða ýta aftur á Ctrl+Shift+F12.
+Til að skipta yfir í venjulegt yfirlit skal velja ![Fókusstillingartákn.](media/focus-mode.png "Fókusstillingartákn") eða ýta aftur á Ctrl+Shift+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Fjölvinnsla þvert á margar síður
 
@@ -148,15 +148,15 @@ Til að skipta yfir í venjulegt yfirlit skal velja ![Tákn fyrir fókusstilling
 - Stjórnað rofi á yfirstandandi verki, eins og að svara símtali.
 - Haltu glugga opnum í yfirstandandi verki á meðan þú ræsir eða lýkur öðru verki í gluggum.
 
-Til að opna núverandi spjald eða skjal í nýjum glugga skal velja táknið ![Opna nýjan glugga](media/open-new-window-icon.png "Táknið „Opna nýjan glugga“") efst í hægra horninu eða ýta á Alt+Shift+W.
+Til að opna núverandi spjald eða skjal í nýjum glugga skal velja ![Opna nýjan glugga.](media/open-new-window-icon.png "Táknið „Opna nýjan glugga“") uppi í hægra horninu eða ýta á Alt+Shift+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Til að opna núverandi spjald eða skjal í nýjum glugga skal velja táknið ![Opna nýjan glugga](media/open-new-window-icon.png "Táknið „Opna nýjan glugga“") efst í hægra horninu eða ýta á Alt+Shift+W.
+Til að opna núverandi spjald eða skjal í nýjum glugga skal velja ![Opna nýjan glugga.](media/open-new-window-icon.png "Táknið „Opna nýjan glugga“") uppi í hægra horninu eða ýta á Alt+Shift+W.
 
 > [!NOTE]
-> Þegar opnaðar eru aðrar síður úr spjaldi eða skjali sem opnað er í nýjum glugga opnast þessar síður í nýjum glugga, þó að ekki sé valið ![Opna nýjan glugga](media/open-new-window-icon.png "Táknið „Opna nýjan glugga“").
+> Þegar opnaðar eru aðrar síður úr spjaldi eða skjali sem opnað er í nýjum glugga opnast þessar síður í nýjum glugga jafnvel þótt að ekki sé valið ![Opna nýjan glugga](media/open-new-window-icon.png "Táknið „Opna nýjan glugga“").
 
 > [!NOTE]
 > Ef unnið er í Safari-vafranum gæti sprettigluggavörn valdið því að nýi glugginn opnist ekki. Ef þetta er tilfellið skal tilgreina vefslóð afurðarinnar sem heimilaða vefsvæði. Frekari upplýsingar er að finna í [Breyta sérstillingum í Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />

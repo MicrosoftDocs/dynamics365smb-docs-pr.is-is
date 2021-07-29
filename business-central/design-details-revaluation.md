@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - endurmat | Microsoft Docs
-description: Hægt er að endurmeta birgðir á grundvelli virðisgrundvallar sem endurspeglar nákvæmast birgðavirði. Einnig er hægt að bakfæra endurmat, þannig að kostnaður við seldar vörur(kostnaður seldra vara) sé rétt uppfærður fyrir vöru sem hefur þegar verið seld. Vörur sem nota hefðbundna aðferð kostnaðarútreiknings og hafa ekki verið reikningsfærðar að fullu er einnig hægt að endurmeta.
+title: Hönnunarupplýsingar - Endurmat
+description: Hægt er að endurmeta birgðir á grundvelli virðisgrundvallar sem endurspeglar nákvæmast birgðavirði.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a052f726169fde9e09e83aeb690169580eaee948
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215779"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444306"
 ---
 # <a name="design-details-revaluation"></a>Hönnunarupplýsingar: Endurmat
 Hægt er að endurmeta birgðir á grundvelli virðisgrundvallar sem endurspeglar nákvæmast birgðavirði. Einnig er hægt að bakfæra endurmat, þannig að kostnaður við seldar vörur(kostnaður seldra vara) sé rétt uppfærður fyrir vöru sem hefur þegar verið seld. Vörur sem nota hefðbundna aðferð kostnaðarútreiknings og hafa ekki verið reikningsfærðar að fullu er einnig hægt að endurmeta.  
@@ -39,7 +39,7 @@ Vegna endurmats hægt að gera á hvaða degi, verður þú að hafa samninga um
 ### <a name="example"></a>Dæmi  
 Eftirfarandi dæmi sýnir þegar VÍV-vara verður hluti birgða. Dæmið er byggt á við framleiðsluna á keðja með 150 tenglum.  
 
-![VÍV birgðir og endurmat](media/design_details_inventory_costing_10_revaluation_wip.png "VÍV birgðir og endurmat")  
+![VÍV birgðir og endurmat.](media/design_details_inventory_costing_10_revaluation_wip.png "VÍV birgðir og endurmat")  
 
 **1Q**: Notandinn bókar innkaupatenglana sem móttekna. Eftirfarandi tafla sýnir afleidda birgðafærslu.  
 

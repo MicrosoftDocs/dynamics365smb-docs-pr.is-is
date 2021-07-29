@@ -1,21 +1,21 @@
 ---
 title: Reikna dagsetningar pöntunarloforða
-description: Pöntunarloforðsaðgerðin nýtist til að reikna fyrstu hugsanlegu dagsetningu fyrir sendingu eða afhendingu á vöru. Einnig eru búnar til innkaupatillögulínur fyrir dagsetningarnar sem eru samþykktar.
-author: SorenGP
+description: Pöntunarloforðsaðgerðin nýtist til að reikna fyrstu hugsanlegu dagsetningu fyrir sendingu eða afhendingu á vöru.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: b7f23153fe59451b6fc943b0e1115ae0bc895b7c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115591"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442751"
 ---
 # <a name="calculate-order-promising-dates"></a>Reikna dagsetningar pöntunarloforða
 Fyrirtæki verður að geta upplýst viðskiptamenn sína um afhendingardagsetningar pöntunar. Síðan **Línur pöntunarloforðs** gerir kleift að framkvæma þetta í sölupöntun.  
@@ -76,7 +76,7 @@ Pantanavinnsla lýkur CTP-ferlinu með því að samþykkja dagsetningarnar. Þe
 Auk ytri pantanaloforða sem hægt er að framkvæma á síðunni **Línur pöntunarloforða** er einnig hægt að lofa innri eða ytri afhendingardagsetningu fyrir uppskriftavörur. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Uppsetning pöntunarloforðs  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pöntunarloforðagrunnur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning pöntunarloforðs** og velja síðan viðkomandi tengil.  
 2. Númer og tímaeiningarkóti er fært inn í reitinn **Mótfært (Tími)**. Einn af eftirfarandi kótum er valinn:  
 
     |Kóti|Lýsing|  
@@ -94,14 +94,14 @@ Auk ytri pantanaloforða sem hægt er að framkvæma á síðunni **Línur pönt
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Til að opna birgðarsíðuna til að færa inn afgreiðslutíma á vörum inn í vöruhús   
 Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar og birgðageymsluna sem um ræðir.    
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðauppsetning** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.  
 2. Á flýtiflipanum **Almennt** í reitnum **Afgr.tími vara á innl. í vöruh.** er færður inn sá dagafjöldi sem á taka með í útreikningi á því hvenær pöntunum er lofað.  
 
 > [!NOTE]  
 >  Ef fyllt hefur verið út í reitinn **Afgr.t. vara á innl. í vöruh.** á **Birgðageymsluspjald** fyrir birgðageymsluna er það sem er í þeim reit notað sem sjálfgefinn afgreiðslutíma á vörum inn í vöruhús.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Til að færa inn á birgðageymsluspjöld afgreiðslutíma á vörum inn í vöruhús:  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetning** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningu** og velja síðan viðkomandi tengil.  
 2.  Opna skal viðeigandi birgðageymsluspjald.  
 3.  Á flýtiflipanum **Vöruhús** skal færa inn þann dagafjölda sem nota skal við útreikning á hvenær pöntunum er lofað inn í reitinn **Afgr.t. vara á innl. í vöruh.**.  
 
@@ -111,14 +111,14 @@ Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar re
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Til að opna birgðarsíðuna til að færa inn afgreiðslutíma á vörum út úr vöruhúsi  
 Ef afgreiðslutími á vörum út úr vöruhúsi á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðauppsetning** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.  
 2. Á flýtiflipanum **Almennt** í reitnum **Afgr.tími vara á útl. úr vöruh.** er færður inn sá dagafjöldi sem á taka með í útreikningi á því hvenær pöntunum er lofað.  
 
 > [!NOTE]  
 >  Ef fyllt hefur verið út í reitinn **Afgr.tími vara á útl. úr vöruh.** á Birgðageymsluspjald fyrir birgðageymsluna er það sem er í þeim reit notað sem sjálfgefinn afgreiðslutíma á vörum út úr vöruhúsi.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Til að færa inn á birgðageymsluspjöld afgreiðslutíma á vörum út úr vöruhúsi:  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2.  Opna skal viðeigandi birgðageymsluspjald.  
 3.  Á flýtiflipanum **Vöruhús** skal færa inn þann dagafjölda sem nota skal við útreikning á hvenær pöntunum er lofað inn í reitinn **Afgr.t. vara á útl. úr vöruh.**.  
 
@@ -127,12 +127,12 @@ Ef afgreiðslutími á vörum út úr vöruhúsi á að vera tekinn með þegar 
 
 ## <a name="to-make-an-item-critical"></a>Varan bundin:  
 Áður en vara er sett inn í útreikning pöntun lofað, verður að merkja hana sem mikilvægt. Þessi uppsetning tryggir að ó-mikilvægar vörur trufli ekki útreikning pöntunarloforða.   
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2.  Viðeigandi birgðaspjald er opnað.  
 3.  Á flýtiflipanum **Áætlun** skal velja svæðið **Bundið**.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Dagsetning pöntunarloforðs reiknuð:  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölupöntun** og velja síðan viðkomandi tengil.  
 2.  Glugginn sölupöntun er opnaður og sölupöntunarlínurnar sem forritið á að reikna valdar.  
 3.  Veldu aðgerðina **Pöntun lofað** og veldu svo aðgerðina **Pöntun lofað línur**.  
 4.  Veldu línu og síðan einn af eftirfarandi valmöguleikum:  

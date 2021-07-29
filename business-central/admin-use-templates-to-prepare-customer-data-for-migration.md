@@ -1,6 +1,6 @@
 ---
-title: Undirbúa flutning á viðskiptamannagögnum með sniðmátum | Microsoft Docs
-description: Kynntu þér hvernig á að nota grunnstillingarsniðmát til að skipuleggja fyrirliggjandi gögn viðskiptavinar áður en gögnin eru flutt í nýja fyrirtækið í Business Central.
+title: Undirbúa flutning á viðskiptamannagögnum með sniðmátum
+description: Kynntu þér hvernig á að nota grunnstillingarsniðmát til að skipuleggja fyrirliggjandi aðalgögn viðskiptavinar áður en gögnin eru flutt í nýja fyrirtækið í Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dca94e321e6a244bdea27b16ec4c041bd97e89b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776992"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443155"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Undirbúa flutning á viðskiptamannagögnum með sniðmátum
 
@@ -47,7 +47,7 @@ Hins vegar hægt að stofna sniðmátsskipulag fyrir hvaða töflu sem er í [!I
 > [!TIP]  
 > Einnig er hægt að nota gagnasniðmát til að stofna nýjar færslur á skjótan hátt. Þá má nota til að stofna gögn á fljótlegri og nákvæmari hátt. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarsniðmát** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Grunnstillingarsniðmát** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Grunnstillingarsniðmát** skal velja gagnasniðmát af listanum og veljið svo aðgerðina **Breyta**.  
 
 Ef sjálfgefin sniðmát uppfylla ekki þarfir fyrirtækisins er hægt að stofna ný sniðmát eða bæta reitum við sjálfgefið sniðmát. Ef sjálfgefin sniðmát eru fullnægjandi er hægt að nota þau til að stofna færslur samkvæmt aðalgagnagrunni.
@@ -100,7 +100,7 @@ Töflukenni, töfluheiti og línur fyrirliggjanda gagnasniðmáta eru sett í n�
 
 Hægt er að stofna Excel-vinnubók með fljótlegum hætti til að nota sem sniðmát sem byggt er á uppbyggingu fyrirliggjandi gagnasafnstöflu. Þá má nota sniðmát til að safna saman gögnum um viðskiptavini með samræmdum sniði fyrir síðari innflutningi í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Grunnstillingarvinnublað** og velja síðan viðkomandi tengil.
 2. Bæta töflu við listann, eða velja fyrirliggjandi töflu. Nánari upplýsingar eru í [Vinna með grunnstillingu fyrirtækis í vinnublaði](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Veldu aðgerðina **Sýna reiti** til að skilgreina reitina úr töflunni sem á að taka með í sniðmátinu.
 4. Veljið aðgerðina **Flytja út í sniðmát**.
@@ -130,11 +130,11 @@ Hægt að nota skipulag gagna sem kemur fram í gagnasniðmátum til að umbreyt
 
 Eftirfarandi skref sýna hvernig eigi að stofna birgðaspjald úr vörugagnasniðmáti. Hægt er að stofna færslu frá hvaða gagnasniðmáti sem er með sömu aðferð.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarsniðmát** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Grunnstillingarsniðmát** og velja síðan viðkomandi tengil.  
 2. Velja skal sniðmátið **Vara** og síðan velja aðgerðina **Breyta**. Nánari upplýsingar eru í [Að stofna gagnasniðmát](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Veljið aðgerðina **Stofna tilvik**. Birgðaspjald er stofnað.  
 4. Velja hnappinn **Í lagi**.  
-5. Til að yfirfara nýja birgðaspjaldið veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda tengilinn.  
+5. Til að yfirfara nýja birgðaspjaldið skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 6. Opna skal nýja birgðaspjaldið.  
 7. Útvíkka mismunandi flýtiflipa og staðfesta að upplýsingarnar voru rétt stofnaðar á þeim.  
 

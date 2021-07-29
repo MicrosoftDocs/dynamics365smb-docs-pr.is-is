@@ -1,6 +1,6 @@
 ---
-title: Uppsetning VSK-yfirlits | Microsoft Docs
-description: Uppsetning VSK-yfirlits
+title: Uppsetning VSK-yfirlits
+description: Í þessu efnisatriði segir þér hvernig á að setja upp sniðmát fyrir VSK-yfirlit og heiti á VSK-yfirliti til að fullnægja breyttum kröfum skattyfirvalda.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8a7373a22cff16a32fe92bf2f2d9064d2f12e950
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 322a501a4b1d404ef39523e93b45409eb60d7c4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775451"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444388"
 ---
 # <a name="set-up-a-vat-statement"></a>Uppsetning VSK-yfirlits
 
@@ -25,7 +25,7 @@ Skattayfirvöld geta breytt, og gera breytingar á, kröfum sínum hvað varðar
 ## <a name="to-define-a-vat-statements"></a>Að skilgreina VSK-yfirlit
 VSK-yfirlit bjóða upp á að reikna út VSK-uppgjörsupphæð á ákveðnu tímabili, til dæmis fyrir ársfjórðung.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-yfirlit** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-yfirlit** og velja síðan viðkomandi tengil.  
 2. Veljið reitinn **Heiti** og veljið síðan **Nýtt** á síðunni **Heiti VSK-yfirlita**.
 3. Fylltu út nauðsynlega reiti. Yfirleitt þyrfti að vera stilling fyrir hverja samsetningu VSK viðsk.bókunarflokkur / VSK-vörubókunarflokkur. Fyrir línunúmer er skynsamlegt að nota jafngildar tölur eða kóða eins og í opinberu VSK-yfirliti [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

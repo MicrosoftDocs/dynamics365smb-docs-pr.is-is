@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að setja upp birgðageymslur til að nota hólf | Microsoft Docs
-description: Hólf tákna grunnvöruhúsauppbyggingu og eru notuð til að gera tillögur að staðsetningu vöru. Þegar hólfin hafa verið stofnuð er hægt að skilgreina nánar hvaða innihald á að setja í hvert hólf eða nota hólfið sem fljótandi hólf án tiltekins innihalds.
+title: Hvernig á að setja upp birgðageymslur til að þær noti hólf
+description: Hólf tákna grunnskipulag vöruhúss og eru notuð til að leggja fram tillögur að staðsetningu og birgðageymslu vöru.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e04ec3be3385b86cfdfb42bffadcdd9730244efc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 29ee70ffa50b018073b8f44a66588df3d822b5cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771627"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442955"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Setja upp birgðageymslur til að þær noti hólf
 Hólf tákna grunnvöruhúsauppbyggingu og eru notuð til að gera tillögur að staðsetningu vöru. Þegar hólfin hafa verið stofnuð er hægt að skilgreina nánar hvaða innihald á að setja í hvert hólf eða nota hólfið sem fljótandi hólf án tiltekins innihalds.  
@@ -26,7 +26,7 @@ Ef nota á hólf í birgðageymslu þarf fyrst að virkja aðgerðina á spjaldi
 >  Áður en hægt er að tilgreina hólfkóta í birgðageymsluspjaldinu þarf að stofna hólfkótana. Frekari upplýsingar eru í [Stofna hólf](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Til að setja upp birgðageymslur til að þær noti hólf  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2.  Veljið birgðageymsluna þar sem á að nota hólf.  
 3.  Veldu aðgerðina **Breyta**.  
 4.  Á flýtiflipanum **Vöruhús** er gátreiturinn **Hólf áskilin** valinn.  
@@ -41,7 +41,7 @@ Ef nota á hólf í birgðageymslu þarf fyrst að virkja aðgerðina á spjaldi
 ## <a name="filling-the-consumption-bin"></a>Fylla út notkunarhólfið
 Þetta flæðirit sýnir hvernig reiturinn **Hólfkóði** í framleiðslupöntunaríhlutalínum er útfylltur samkvæmt uppsetningu staðsetningar.
 
-![Flæðirit hólfa](media/binflow.png "BinFlow")  
+![Flæðirit hólfs.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Sjá einnig
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
