@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5bb97f1c26ca9264718a96a9f2f7803e248927b3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214979"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445021"
 ---
 # <a name="design-details-item-tracking-design"></a>Hönnunarupplýsingarn: vörurakning hönnun
 
@@ -27,7 +27,7 @@ Með því að bæta við rað-, lotu- og pakkanúmerum vinnur frátekningarkerf
 
 Eftirfarandi skýringarmynd lýsir hönnun vörurakningar í [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-![Dæmi um vörurakningarflæði](media/design_details_item_tracking_design.png "Dæmi um vörurakningarflæði")  
+![Dæmi um vörurakningarflæði.](media/design_details_item_tracking_design.png "Dæmi um vörurakningarflæði")  
 
 Meginbókunarhluturinn er endurhannaður til að takast á við einstaka undirflokkun skjalslínu í formi raðnúmers eða lotunúmers og sérstökum tengslatöflum er bætt við til að búa til einn-í-marga tengsl milli bókaðra skjala og skiptra fjárhagsfærsla þeirra og gildisfærsla.  
 

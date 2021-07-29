@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 852eb61a479f03b61c648904e2179168a5c18001
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba584f11b1ac52146a7539b8ac08cb9ed67bcdba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774487"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445302"
 ---
 # <a name="create-users-according-to-licenses"></a>Búa til notendur samkvæmt leyfum
 
@@ -43,7 +43,7 @@ Frekari upplýsingar er að finna í [Stjórnun Business Central Online](/dynami
 Þegar notendum er bætt við eða notandaupplýsingum er breytt í stjórnendamiðstöð Microsoft 365 er hægt að flytja notandaupplýsingarnar á fljótlegan hátt inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta felur í sér leyfisúthlutanir. 
 
 1. Skráðu þig inn í [!INCLUDE[prod_short](includes/prod_short.md)] með stjórnandareikningi.
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.  
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.  
 3. Veldu **Uppfæra notendur úr Microsoft 365**.
 
 Ef verið er að bæta við nýjum notendum er næsta skref að úthluta notendaflokkum og heimildum. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md). Ef notandaupplýsingar eru uppfærðar og uppfærslan felur í sér breytingu á leyfi, verður notendum úthlutað til viðeigandi notandaflokks og heimildasamstæður þeirra verða uppfærðar. Frekari upplýsingar er að finna á[Til að stjórna heimildum í gegnum notendaflokka](ui-define-granular-permissions.md).  
@@ -60,7 +60,7 @@ Frekari upplýsingar um samstillingu notandaupplýsinga við Microsoft 365  er a
 
 Í uppsetningu á netinu er hægt að fjarlægja aðgang notanda að [!INCLUDE[prod_short](includes/prod_short.md)]. Allar tilvísanir til notandans verða varðveittar, en notandinn getur ekki lengur skráð sig inn í virkar lotur fyrir notandann verða stöðvaðar.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 2. Opnaðu síðuna **Notandaspjald** fyrir viðkomandi notanda og síðan, í reitnum **Staða** skal velja **Óvirkt**.
 3. Til að veita notandanum aðgang aftur skal stilla reitinn **Staða** á **Virkt**.
 
@@ -137,7 +137,7 @@ Fyrir uppsetningar innanhúss býr stjórnandinn til, breytir og eyðir notendum
 
 ### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Til að breyta eða eyða notanda í uppsetningu á staðnum
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 2. Velja skal notandann sem á að breyta og velja síðan aðgerðina **Breyta**.
 3. Á síðunni **Notandaspjald** skal breyta upplýsingunum eftir þörfum.  
 4. Til að eyða notanda, skal velja notandann sem á að eyða og velja síðna aðgerðina **Eyða**.

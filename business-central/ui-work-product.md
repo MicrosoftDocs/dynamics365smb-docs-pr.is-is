@@ -7,16 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772130"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445252"
 ---
 # <a name="working-with-prod_short"></a>Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.
 
 Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, víkka dálka og hækka dálkfyrirsagnir, og breyta flokkun gagna í dálkum. Ef nota þarf láréttu flettistikuna til að sjá alla dálka á listasíðu eða skjalalínum sést að það er fast lóðrétt svæði til að varna flettingu ákveðinna dálka.
@@ -26,7 +27,7 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, ví
 > [!TIP]
 > Til að fá prentvænt yfirlit yfir mest notuðu aðgerðirnar skaltu velja eftirfarandi mynd og sækja PDF-skjalið.
 >
-> [ ![Tákn fyrir PDF-skrána](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Tákn sem opnar PDF")
+> [ ![Tákn fyrir PDF-skrána.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Tákn sem opnar PDF")
 
 ## <a name="links-to-learn-more"></a>Tenglar til að fá frekari upplýsingar
 
@@ -67,6 +68,21 @@ Hér er stutt myndband um hvernig á að komast um í [!INCLUDE[prod_short](incl
 
     Internet Explorer er ekki lengur stutt. Frekari upplýsingar er að finna í [Microsoft Edge fylgiskjöl](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Uppfærðu vafrann þinn alltaf í nýjustu útgáfu.
+
+## <a name="action-bars"></a>Aðgerðaslár
+
+Í [!INCLUDE [prod_short](includes/prod_short.md)] sinnirðu meirihluta vinnunnar í lista, skjali eða spjaldi. Allar þrjár síðugerðirnar eru með stiku með aðgerðum sem eiga við tiltekna síðu og aðgerðirnar eru nánast þær sömu fyrir hvert spjald eða skjal og fyrir lista yfir einingar. Þannig getur þú haft umsjón með einstaka sölupöntunum á síðunni **Sölupöntun** og í listanum **Sölupantanir**, þ.m.t. bókun og reikningsfærslu þeirra.  
+
+En aðgerðirnar geta einnig litið öðruvísi út, eða jafnvel ekki verið til staðar, eftir því hvernig þú opnar síðuna. Sérstaklega fyrir listasíður er listasíðan sem þú opnar á heimasíðunni og síðan sem kemur upp þegar þú leitar að henni með tákninu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") ekki sama síðan.  
+
+Þegar leitað er að opinni listasíðu á borð við listann **Sölupantanir**, er hún í skoðunarstillingu. Aðgerðir til að breyta, skoða eða eyða einstökum einingum, til dæmis sölupöntun, eru sýndar þegar þú velur aðgerðina **Hafa umsjón með**.  
+
+> [!TIP]
+> Ef þú veist að þú munt oft nota aðgerðir á þessu öðru stigi aðgerðastikunnar skaltu velja :::image type="icon" source="media/pin.png" border="false"::: táknið til að festa aðgerðastikuna og gera aðgerðirnar undir hinum ýmsu valmyndum strax sýnilegar.
+>
+> Til að láta annað stig aðgerðastikunnar hverfa aftur skal velja :::image type="icon" source="media/unpin.png" border="false"::: táknið.
+
+En þegar þú opnar sömu listasíðu á heimasíðunni þinni er aðgerðin **Hafa umsjón með** ekki til staðar. Í staðinn, til að opna einstaka sölupöntun, velur þú bara reitinn **Númer**. Í þessari yfirliti er ekki hægt að festa aðgerðastikuna.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: check, clearing
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d4789f2ef9db38afdb67893d8ac242288c0aae2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a6cc157a12e4fd44174f585559befade10f8ed02
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773981"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444563"
 ---
 # <a name="export-a-positive-pay-file"></a>Flytja út jákvæða greiðsluskrá
 Til að ganga úr skugga um að bankinn þinn eingöngu taki til fullgiltar athuganir og fjárhæðir getur þú flutt greiðslubréf sem inniheldur upplýsingar um söluaðila, athuga fjölda og greiðslu upphæð sem þú sendir til bankans til viðmiðunar þegar þú vinnur greiðslur.
@@ -25,13 +25,13 @@ Til að ganga úr skugga um að bankinn þinn eingöngu taki til fullgiltar athu
 [!INCLUDE[prod_short](includes/prod_short.md)] er forstillt á að styðja jákvæðar greiðsluskrár fyrir Bank of America og City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Að setja upp bankareikning fyrir Positive Pay
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Opnaðu kortið fyrir bankann sem þú vilt nota Jákvæð Borga fyrir.
 3. Sláðu inn POSPAYBANK í reitnum **Útflutningskóði jákvæðrar greiðslu**.
 4. Lokaðu síðunni.
 
 ## <a name="to-export-a-positive-pay-file"></a>Til að flytja út jákvæða greiðsluskrá
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Veldu bankareikninginn sem þú vilt flytja út jákvæð greiðsluskilríki fyrir.
 3. Veldu **Útflutningur jákvæðrar greiðslu** aðgerðina.
 
@@ -44,7 +44,7 @@ Til að ganga úr skugga um að bankinn þinn eingöngu taki til fullgiltar athu
 
 Til að skoða útfluttar jákvæðar greiðslur
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Veldu bankareikninginn sem þú vilt skoða.
 3. Veldu aðgerðina **Jákvæðar greiðslufærslur**.
 
@@ -54,7 +54,7 @@ Til að skoða útfluttar jákvæðar greiðslur
 
 Til að flytja út jákvæðar greiðslur
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Veldu bankareikninginn sem þú vilt endurútgefa jákvæð greiðslur fyrir.
 3. Veldu aðgerðina **Jákvæðar greiðslufærslur**.
 4. Veldu línuna fyrir útflutningsskrána fyrir jákvæð greiðsla sem þú vilt endurútgefa.

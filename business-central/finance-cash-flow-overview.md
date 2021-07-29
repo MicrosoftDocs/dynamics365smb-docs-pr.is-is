@@ -11,12 +11,12 @@ ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash r
 ms.date: 06/08/2021
 ms.author: a-jillk
 ms.reviewer: edupont
-ms.openlocfilehash: 8359d95b36d6c16b179de2fce400c44fd93ec0f1
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ae259cdccb2dc29882f3aee1a9062cfe0a2f5e73
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216373"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444713"
 ---
 # <a name="cash-flow-overview"></a>Yfirlit yfir sjóðstreymi
 
@@ -30,7 +30,7 @@ Hugtakið *Sjóðstreymi* er notað til að tilgreina inngreiðslur að frádreg
 
 Eftirfarandi mynd sýnir yfirlit yfir það hvernig hægt er að vinna með sjóðstreymi.
 
-![Yfirlit yfir sjóðstreymi](media/finance_cash_flow_overview.png "Yfirlit yfir sjóðstreymi")
+![Yfirlit yfir sjóðstreymi.](media/finance_cash_flow_overview.png "Yfirlit yfir sjóðstreymi")
 
 - Sett er upp sjóðstreymisspá.  
 

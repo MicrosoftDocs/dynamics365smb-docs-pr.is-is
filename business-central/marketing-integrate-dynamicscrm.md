@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985363"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444871"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Nota Dynamics 365 Sales úr Business Central
 Ef þú notar Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[prod_short](includes/prod_short.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
@@ -115,7 +115,7 @@ Skrefin til að ljúka þessu ferli eru mismunandi eftir því hvort stjórnandi
     1. Tengdu atriði sem ákvarða verð í verðflokki viðskiptavinarins.
     2. Á síðunni **Verðflokkar viðskiptamanna** er tengt verðflokknum með því að velja **Tengt**, **Dynamics 365 Sales**, **Tenging** og **Setja svo upp tengingu**. Tengingin mun búa til virkan verðlista í [!INCLUDE[prod_short](includes/prod_short.md)] við sama heiti og verðflokkur viðskiptavinar í [!INCLUDE[crm_md](includes/crm_md.md)] og samstilla sjálfkrafa alla hluti sem verðflokkur viðskiptamanns notar til að skilgreina verðið.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Verðflokkssíða viðskiptavinar":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Verðflokkssíða viðskiptavinar.":::
 
 #### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ Nýja verðupplifunin samstillir verðlista sem uppfylla eftirfarandi skilyrði:
 
 Til að samræma verðlista velurðu síðuna **Söluverðslisti**, **Tengt**, **Dynamics 365 Sales**, **Tenging** og síðan **Setja upp tengingu**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Söluverðslistasíða":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Söluverðslistasíða.":::
 
 ---
 

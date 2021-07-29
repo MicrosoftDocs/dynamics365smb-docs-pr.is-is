@@ -1,6 +1,6 @@
 ---
-title: Stofna lánardrottnaspjald til að skrá nýjan lánardrottinn | Microsoft Docs
-description: Kynntu þér hvernig skal stofna lánadrottnaspjald til að skrá nýjan lánardrottinn eða birgja.
+title: Stofna lánardrottnaspjald til að skrá nýjan lánardrottinn
+description: Þetta efnisatriði kynnir hvernig skal stofna lánadrottnaspjald til að skrá nýjan lánardrottin eða birgja og vista lánardrottnaspjöld sem sniðmát.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f1028b91101f8faa38d4d4d5d2695ee498ff6d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772655"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445377"
 ---
 # <a name="register-new-vendors"></a>Skráning nýrra lánardrottna
 
@@ -40,7 +40,7 @@ Til að skrá nýjan lánardrottinn þarf að fylla út lánardrottnaspjald. Hæ
 
 ### <a name="to-create-a-new-vendor-card"></a>Að búa til nýtt lánardrottnaspjald.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.  
 2. Á síðunni **Lánardrottnar** skal velja **Nýtt**.
 
     Ef fleiri en eitt lánardrottnasniðmát er fyrir hendi, þá birtist sjálfkrafa síða með tiltækum lánardrottnasniðmátum. Í því tilviki, fylgið næstu tveimur skrefum.

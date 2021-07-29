@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ad5dd28d10df38fbd780ec4df5d4a87056670b99
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e833d29df72d10786b050222d342b2d6dce927e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771086"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444755"
 ---
 # <a name="change-the-current-report-layout"></a>Breyta núverandi skýrsluútliti
 Skýrsla getur verið sett upp með fleiri en eitt skýrsluútliti, sem þú getur svo skipt milli eins og þörf er á.
@@ -30,7 +30,7 @@ Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja a
 > Skýrslur skjala (ekki lista) sem nota Word-skýrsluútlit eru venjulega hraðari en þær sem nota RDLC-skýrsluútlit. Ef þú hefur þess vegna kost á því að velja milli Word- eða RDLC-skýrsluútlits fyrir skýrslu skjals, skaltu nota Word-skýrsluútlit fyrir bestu afköstin.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Til að breyta því hvaða skýrsluútlit á að nota fyrir skýrslu eða skjal
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.  
    Síðan **Val á útliti skýrslu** sýnir allar skýrslur sem eru í boði fyrir fyrirtæki sem er tiltekið í reitnum **Fyrirtæki** efst á síðunni. Reiturinn **Valið útlit** tilgreinir útlitið sem er verið að nota á skýrsluna.
 2. Stilltu reitinn **Fyrirtæki** efst á síðunni á fyrirtækið með skýrsluna.
 3. Til að breyta útliti sem er notað í skýrslu skal velja röðina fyrir skýrsluna og stilla svo **Valið útlit** reitinn á einn af eftirfarandi valkostum:

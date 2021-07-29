@@ -1,6 +1,6 @@
 ---
-title: Skrá útgjöld og tekjur beint í fjárhag| Microsoft Docs
-description: Fyrir fyrirtækjaaðgerðir sem ekki eru táknaðar með fylgiskjölum í , eins og smærri útgjöld og inngreiðslur, er hægt að búa til færslur sem tengjast aðgerðunum með því að stofna færslubókarlínu á síðunni Fjárhagur.
+title: Skrá útgjöld og tekjur beint í fjárhag
+description: Fyrir fyrirtækjaaðgerðir sem ekki eru táknaðar með skjali er hægt að búa til færslur sem tengjast aðgerðunum með því að bóka færslubókarlínu á síðunni Fjárhagur.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e0beff15352fb8e57f57c9d0ffdcd76bc28afbb9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b27406f2020b95bc5dd9bc8771b9d632aa6c740f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782380"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444538"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Bóka færslu beint í Fjárhag
 
@@ -29,7 +29,7 @@ Færslubækur bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikn
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Að bóka færslu beint í fjárhagsreikning
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Færslubækur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubækur** og velja síðan viðkomandi tengil.
 2. Viðeigandi færslubók keyrsla er opnaður. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
 3. Fyllið í reitina eftir þörfum í nýrri færslubókarlínu. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 

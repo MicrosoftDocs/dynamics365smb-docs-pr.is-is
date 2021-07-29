@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að setja upp Frágangssniðmát | Microsoft Docs
-description: Ef notaður er beinn frágangur og tínsla er stungið upp á því hólfi sem best hentar vörunum á hverjum tíma samkvæmt frágangssniðmátinu sem sett hefur verið upp fyrir vöruhúsið, hólfaflokkuninni sem hólfin hafa fengið, og hámarks- og lágmarksmagninu sem sett hefur verið upp fyrir föst hólf.
+title: Hvernig á að setja upp Frágangssniðmát
+description: Notaðu frágangssniðmát til að stungið verði upp á hentugustu hólfunum fyrir vörurnar þínar hvenær sem er.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 336a9aa748d997d2cf4c5ae9a93cab6f96495fd6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 715c2f0c862d720d7123bc585d9b67c642d22005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784193"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445077"
 ---
 # <a name="set-up-put-away-templates"></a>Setja upp frágangssniðmát
 
@@ -25,7 +25,7 @@ Hægt er að setja upp fleiri en eitt frágangssniðmát og velja eitt þeirra f
 
 ## <a name="to-set-up-put-away-templates"></a>Frágangssniðmát sett upp
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frágangssniðmát** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Frágangssniðmát** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
 3. Færður er inn kóti sem er einkvæmt kenni sniðmátsins sem á að stofna.  
 4. Stutt lýsing er færð inn ef vill.  

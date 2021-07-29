@@ -1,6 +1,6 @@
 ---
-title: opna birgðafærslur
-description: Lærðu af hverju birgðastaðan er núll þótt opnar birgðafærslur séu til staðar.
+title: Fjárhagsfærslur fyrir opnar vörur með núll í birgðastöðu
+description: Þessi grein fjallar um vandamál þar sem birgðastaðan er núll þótt opnar birgðafærslur séu til staðar.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: febd7b4ff379d064f392eb55b7868697a59aacf5
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215929"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444996"
 ---
 # <a name="design-details-known-item-application-issue"></a>Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar
 Þessi grein fjallar um vandamál þar sem birgðastaðan er núll þótt opnar birgðafærslur séu til staðar í [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -54,7 +54,7 @@ Greinin byrjar á því að lýsa dæmigerðum einkennum vandamálsins og síða
 
  Eftirfarandi skýringarmynd sýnir hvernig magnjöfnun er gerð.  
 
-![Flæði kostnaðarleiðréttingar frá kaupum til sölu](media/helene/TechArticleInventoryZero2.png "Flæði kostnaðarleiðréttingar frá kaupum til sölu")
+![Flæði kostnaðarleiðréttingar frá kaupum til sölu.](media/helene/TechArticleInventoryZero2.png "Flæði kostnaðarleiðréttingar frá kaupum til sölu")
 
  Takið eftir fyrir ofan að birgðafærsla 1 (Innkaup) er bæði birgir vörunnar og kostnaðaruppruni fyrir jafnaða birgðafærslu, birgðafærslu 2 (Sala).  
 
@@ -78,7 +78,7 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 
  Eftirfarandi skýringarmynd sýnir kostnaðarflæðið.  
 
-![Flæði kostnaðarleiðréttingar frá sölu til söluvöruskila](media/helene/TechArticleInventoryZero4.png "Flæði kostnaðarleiðréttingar frá sölu til söluvöruskila")
+![Flæði kostnaðarleiðréttingar frá sölu til söluvöruskila.](media/helene/TechArticleInventoryZero4.png "Flæði kostnaðarleiðréttingar frá sölu til söluvöruskila")
 
  Takið eftir fyrir ofan að kostnaðurinn er áframsendur á birgðafærslu 2 (sala), síðan á birgðafærslu 3 (söluvöruskil) og að lokum á birgðafærslu 4 (sala 2).  
 
@@ -91,7 +91,7 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 
  Eftirfarandi skýringarmynd sýnir hvernig birgðajöfnun er gerð í báðum atburðarásum.  
 
-![Flæði kostnaðarleiðréttingar liggur í báðar áttir](media/helene/TechArticleInventoryZero6.png "Flæði kostnaðarleiðréttingar liggur í báðar áttir")  
+![Flæði kostnaðarleiðréttingar liggur í báðar áttir.](media/helene/TechArticleInventoryZero6.png "Flæði kostnaðarleiðréttingar liggur í báðar áttir")  
 
  Takið eftir fyrir ofan að kostnaðarjöfnun er gerð (táknuð með bláum örvum) til að tryggja að birgðafærslu 2 (söluvöruskil) sé úthlutað sama kostnaði og birgðafærslan sem hún bakfærir, birgðafærsla 1 (sala 1). Hins vegar er magnjöfnun (táknuð með rauðum örvum) ekki gerð.  
 
@@ -133,7 +133,7 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
      |Færslunr.|Birgðafærsla nr.|Birgðafærslunr. vöru á innleið|Jafnað af færslu nr.|Magn|Bókunardagsetning|Jöfnun kostnaðar|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|01/28/2018|Já|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Takið eftir hér að ofan að birgðafærsla 334 á innleið kostnaðarjöfnuð við birgðafærslu 333 á útleið.  
 

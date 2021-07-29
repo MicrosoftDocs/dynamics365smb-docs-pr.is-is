@@ -1,6 +1,6 @@
 ---
-title: Tiltaka útlit ávísunar| Microsoft Docs
-description: Þú getur hannað og prentað þínar ávísanir á mismunandi sniði til að vera í samræmi við staðla.
+title: Tiltaka útlit ávísunar
+description: Þú getur hannað og prentað þínar ávísanir á mismunandi sniði til að vera í samræmi við staðla sem yfirvöld á staðnum setja.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24d046d9284797e371a9cca98ad68618bf248be7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d083e3eea85fde087a431d21bb9eae8bb4b8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781607"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444638"
 ---
 # <a name="select-a-check-layout"></a>Velja útlit ávísunar
 Hægt er að hanna tékka til þess að uppfylla staðla sem staðaryfirvöld setja. Hægt er að prenta tékkamyndir á Enska, frönsku eða Spænsku.
@@ -23,7 +23,7 @@ Hægt er að hanna tékka til þess að uppfylla staðla sem staðaryfirvöld se
 Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadískum tékkamyndsniðum annað á sniðinu tékki-svunta-tékki  eða á sniðinu svunta-svunta-tékki.
 
 ## <a name="to-select-a-check-layout"></a>Útlit ávísunar valið
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningur skýrsluvals** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningur skýrsluvals** og velja síðan viðkomandi tengil.
 2. Á síðunni **Skýrsluval - Bankareikningur** í reitnum **Notkun** skal velja **Reikningur**.
 3. Eitt af eftirfarandi skýrslukennum er valið:
 
@@ -52,10 +52,10 @@ Netútgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur forupp
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B lýsingar
 Eftirfarandi er samantekt skilgreininga fyrir MICR E-13B leturgerðir sem kunna að vera gagnlegar þegar leturgerðir eru kvarðaðar fyrir ávísunarútliti með tilteknum MICR-prenturum.
 
-![MICR E-13B lýsingar](media/font_MICR_E-13B_Specifications.png "MICR E-13B lýsingar")
+![MICR E-13B lýsingar.](media/font_MICR_E-13B_Specifications.png "MICR E-13B lýsingar")
 
 ### <a name="delimiter-characters"></a>Skiltákn
-![Skiltákn](media/font-micr-letters.png "Skiltákn")
+![Skiltákn.](media/font-micr-letters.png "Skiltákn")
 
 Hægt er að finna alla lýsinguna á leturgerðum MICR E-13B í fylgiskjölum birgis hér: (https://www.idautomation.com/micr-fonts/e13b/).
 
@@ -69,17 +69,17 @@ Eftirfarandi CMC-7 letur er tiltækt á [!INCLUDE[prod_short](includes/prod_shor
 
 Eftirfarandi er samantekt skilgreininga fyrir MICR CMC-7 leturgerðir sem kunna að vera gagnlegar þegar leturgerðir eru kvarðaðar fyrir ávísunarútliti með tilteknum MICR-prenturum.
 
-![MICR CMC-7 lýsingar](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 lýsingar")
+![MICR CMC-7 lýsingar.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 lýsingar")
 
 ### <a name="delimiter-characters"></a>Skiltákn
-![Skiltákn](media/font-cmc7-letters.png "Skiltákn")
+![Skiltákn fyrir CMC-7.](media/font-cmc7-letters.png "Skiltákn fyrir CMC-7")
 
 Hægt er að finna alla lýsinguna á leturgerðum MICR CMC-7 í fylgiskjölum birgis hér: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Lýsingar á öruggu letri
 Eftirfarandi er samantekt skilgreininga fyrir öryggisleturgerðir ávísana sem kunna að vera gagnlegar þegar leturgerðir eru kvarðaðar fyrir ávísunarútliti með tilteknum MICR-prenturum.
 
-![Skoða lýsingar á öryggisletri](media/font_check-security-font_Specifications.png "Skoða lýsingar á öryggisletri")
+![Skoða lýsingar á öryggisletri.](media/font_check-security-font_Specifications.png "Skoða lýsingar á öryggisletri")
 
 Hægt er að finna alla lýsinguna á öryggisleturgerðum ávísana í fylgiskjölum birgis hér: (https://www.idautomation.com/security-fonts/).
 

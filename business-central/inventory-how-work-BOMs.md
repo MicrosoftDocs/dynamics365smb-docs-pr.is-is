@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3489ef57da691e408553b1703c4deab17622167f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785624"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444921"
 ---
 # <a name="work-with-bills-of-material"></a>Vinna með uppskriftir
 Nota skal uppskriftir til að byggja upp yfirvöru sem verður að vera sett saman eða framleidd af tilföngum eða vélstöðvum úr íhlutum. Samsetningaruppskrift getur líka verið notuð til að selja yfirvöru sem sett, gert úr íhlutum hennar.
@@ -56,14 +56,14 @@ Að búa til samsetningaruppskrift er gert í tveimur hltuum:
 ## <a name="to-edit-assembly-boms"></a>Samsetningaruppskrift breytt
 Hægt er að breyta línum samsetningaruppskriftar hvenær sem er. En Hafðu í huga að UPPSKRIFTIN kann að vera í notkun í yfirstandandi sölu eða samsetningum yfireiningar sem breytingin kann að hafa áhrif á. Veljið aðgerðina **Notkunarstaðir** til að sjá í hvaða vöru er verið að nota hana og þá hvort það hafi áhrif á sölu- eða samsetningarpantanir.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.
 2. Veljið gildið **Já** í dálkinum **Samsetningaruppskrift**.
 3. Á síðunni **Samsetningaruppskrift** skal velja aðgerðina **Breyta lista** og fylla svo út reitina eins og þörf krefur.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Til að skoða íhluti og aðföng sem ætluð eru samkvæmt uppskriftaruppbyggingunni
 Af síðunni **Samsetningaruppskrift** er hægt að opna annan gluaa sem sýnir íhluti og önnur tilföng samkvæmt uppskriftarstöðu undir samsetningaríhlutnum.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.
 2. Opnaðu kortið fyrir samsetningarhlut. (**Samsetningaruppskrift** reiturinn á síðunni **Vörur** inniheldur **Já**.)
 3. Á síðunni **Birgðaspjald** fyrir veldu **Samsetning** og svo **Samsetningaruppskrift**.
 4. Á síðunni **Samsetningaruppskrift** velurðu aðgerðina **Sýna uppskrift**.
@@ -78,7 +78,7 @@ Opna uppskrift aðgerðin er líka tiltæk á síðunni **Samsetningaruppskrift*
 
 Eftirfarandi ferli byggist á sölureikningi. Sömu skref eiga við um önnur söluskjöl og öll innkaupaskjöl.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölureikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.
 2. Opna sölureikning sem inniheldur línu fyrir samsetningaríhlut.
 3. Veljið línuna fyrir samsetningaríhlut og svo línuaðgerðina **Opna uppskrift**.
 

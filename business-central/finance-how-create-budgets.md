@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1a3adebe30e63ea295aed6aa7beffbf581ba1be3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 525cc099b2a9b2630395a092761e0526f4760356
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784891"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444663"
 ---
 # <a name="create-gl-budgets"></a>Stofna fjárhagsáætlunum
 Hægt er að útbúa margar áætlanir fyrir sömu tímabil með því að stofna áætlanir undir aðskildum heitum. Fyrst er heiti áætlunar sett upp og áætlunarupphæðir færðar inn. Þá er heiti áætlunarinnar haft með við allar áætlunarfærslur sem stofnaðar eru.  
@@ -29,7 +29,7 @@ Fjárhagsáætlanir spila stórt hlutverk þegar kemur að viðskiptaupplýsingu
 Í kostnaðarbókhaldi vinnurðu með kostnaðaráætlun á svipaðan hátt. Frekari upplýsingar eru í [Stofna kostnaðaráætlun](finance-create-cost-budgets.md).    
 
 ## <a name="to-create-a-new-gl-budget"></a>Að búa til nýja fjárhagsáætlun  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsáætlanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsáætlanir** og velja síðan viðkomandi tengil.  
 2. Veljið aðgerðina **Breyta lista** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velja skal aðgerðina **Breyta fjárhagsáætlun**.
 4. Efst á síðunni **Fjárhagsáætlun** skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.  

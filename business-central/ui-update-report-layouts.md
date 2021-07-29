@@ -1,6 +1,6 @@
 ---
-title: Halda skýrsluútliti nútímalegu | Microsoft Docs
-description: Stundum þarf að uppfæra sérsniðið skýrsluútlit sem er notað í skýrslu. Þetta er nauðsynlegt þegar breyting hefur verið gerð á hönnun gagnasafns skýrslu, til dæmis ef reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnasafni skýrslunnar.
+title: Halda skýrsluútliti nútímalegu
+description: Kynntu þér hvernig á að uppfæra sérsniðið útlit skýrslu sem notað er í skýrslu þegar breytingar verða á hönnun á gagnasafni skýrslunnar sem dæmi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 90bace16ede000d618d4e1be8855ee16786c3bb2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 99b0f191bf9890683bb6cbb68f7baef0342f9737
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783060"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445277"
 ---
 # <a name="update-custom-report-layouts"></a>Uppfæra sérsniðið skýrsluútlit
 Stundum þarf að uppfæra sérsniðið skýrsluútlit sem er notað í skýrslu. Þetta er nauðsynlegt þegar breyting hefur verið gerð á hönnun gagnasafns skýrslu, til dæmis ef reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnasafni skýrslunnar. Ef skýrsluútlit krefst uppfærslu birtast villuboð þegar reynt er að forskoða, prenta eða vista skýrsluna.  
@@ -28,7 +28,7 @@ Ekki geta allar breytingar á skýrsluútliti verið uppfærðar sjálfkrafa í 
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Uppfærir eitt eða fleiri Sérsniðin skýrsluútlit.  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skýrsluútlit** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skýrsluútlit** og velja síðan viðkomandi tengil.  
 
 2.  Á síðunni **Skýrsluútlit** ef þú vilt uppfæra sérstaka skýrslu, skal velja útlitið af listanum og svo velja aðgerðina **Uppfæra útlit**. Eða, ef þú vilt uppfæra allt sérsniðið skýrsluútlit fyrir fyrirtækið, skal velja aðgerðina **Uppfæra allt útlit**.  
 
@@ -36,7 +36,7 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
 ## <a name="to-test-custom-report-layout-updates"></a>Til að prófa uppfærslur á sérsniðið skýrsluútlit  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.  
 
 2.  Á síðunni **Val Útlit skýrslu** er valið aðgerðin **Prufa uppfærsla útlit**.  
 
