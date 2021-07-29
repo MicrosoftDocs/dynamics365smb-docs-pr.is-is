@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að setja upp grunndagatal | Microsoft Docs
-description: Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, birgjum og stöðvum grunndagatali. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu.
+title: Hvernig á að setja upp grunndagatal
+description: Hægt er að úthluta fyrirtækinu og viðskiptafélögum grunndagatali til að reikna út afhendinga- og móttökudagsetningar samkvæmt þeim vinnudögum sem tilgreindir eru.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 87b68711db42ec5240382cc4c9d052fb80fc2a31
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775873"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446491"
 ---
 # <a name="set-up-base-calendars"></a>Setja upp grunndagatöl
 Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, birgjum og stöðvum grunndagatali. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu. Þegar nýtt grunndagatal er sett upp felst meginverkefnið í að tilgreina og skilgreina þá frídaga sem eiga að gilda.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Uppsetning grunndagatals  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunndagatal** eða Lánardrottinn og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Grunndagatal** og velja síðan viðkomandi tengil.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Reiturinn **Kóti** er fylltur út.  
 4. Velja skal **Viðhalda breytingum á Grunndagatali** aðgerðina.
@@ -64,7 +64,7 @@ Til dæmis sýnir grunndagatal yfirleitt alla laugardaga sem frídaga, en sérsn
 
 Í eftirfarandi dæmi er stuðst við vinnustöð. Nú þegar er tiltækt uppsett grunndagatal fyrir þessa stöð.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.
 2. Opna birgðageymsluna sem á að uppfæra og velja síðan **Sérsniðið Dagatal** reitinn. Athugið að dagatal verður að vera valið í **grunndagatalskóta** svæðinu.
 3. Á síðunni **Sérsniðnar dagatalsfærslur**.opnast skal velja **Vinna með breytingar á sérsniðnum dagatölum** aðgerðina.
 4. Bæta við línum fyrir sérsniðnar dagatalsfærslur í **Breytingar á sérsniðnar dagatalsfærslur**.
@@ -100,7 +100,7 @@ Grunndagatöl eru tengd fyrirtæki notanda, viðskiptamönnum, lánardrottnum, b
 -   Á spjaldinu **Birgðageymsla** er grunndagatalinu úthlutað á flýtiflipann **Vöruhús**.  
 -   Á síðunni **Flutningsaðilar** er grunndagatalið tengt við gluggann **Flutningsþjónusta**.  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.  
 2.  Opna spjaldið **Viðskiptamaður** sem fær úthlutað grunndagatali.  
 3.  Á flýtiflipanum **Afhending**, í reitnum **Kóti grunndagatals**, er valið er það grunndagatal sem á að úthluta.  
 

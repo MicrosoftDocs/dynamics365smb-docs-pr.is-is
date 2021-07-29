@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074688"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446466"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams samþætting
 
@@ -33,11 +33,11 @@ Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Tea
 
 Þú getur leitað að upplýsingum um viðskiptavini, lánardrottna og aðra [!INCLUDE [prod_short](includes/prod_short.md)]-tengiliði hvar sem er í Teams. Þessi eiginleiki gerir þér ekki aðeins kleift að skoða almennar upplýsingar um tengiliði heldur veitir einnig aðgang að samskiptasögu, tengdum skjölum og fleiru.
 
- [![Fletta upp tengiliðum Business Central úr skipanareit Teams](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Fletta upp tengiliðum Business Central úr skipanareit Teams.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 Einnig er hægt að deila upplýsingum um tengiliði í samtali. Þaðan hafa þátttakendur að auki aðgang að enn frekari upplýsingum um tengiliðinn.
 
- [![Fletta upp tengiliðum Business Central úr skrifglugga Teams](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Fletta upp tengiliðum Business Central úr skrifglugga Teams.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Frekari upplýsingar er að finna í [Leita að tengiliðum úr Microsoft Teams](across-search-contacts-teams.md).
 
@@ -45,7 +45,7 @@ Frekari upplýsingar er að finna í [Leita að tengiliðum úr Microsoft Teams]
 
 Afrita tengil í hvaða færslu Business Central sem er og líma hann í spjall á Teams til að deila honum með samstarfsfólki. Forritið stækkar svo tengilinn í gagnvirkt spjald sem birtir upplýsingar um færsluna.
 
-[![Samþætting Teams við Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Samþætting Teams við Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Þegar á samtalinu stendur getur þú og samstarfsfólk þitt skoðað frekari upplýsingar um færsluna, breytt gögnum og gripið til aðgerða - án þess að fara úr Teams.
 
@@ -68,6 +68,7 @@ Frekari upplýsingar eru í [Deila færslum í Microsoft Teams](across-working-w
 
 [Teams - Algengar spurningar](teams-faq.md)  
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  
+[Breyta fyrirtæki og aðrar stillingar í Teams](across-teams-settings.md)  
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

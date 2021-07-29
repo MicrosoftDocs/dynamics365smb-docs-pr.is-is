@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd90f7bf90209496f67d52ab32a93cfdbaf803f
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 74fbbefaaf9ef62c1241032b09cdf1f40b1b4bd1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087645"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445898"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Af hverju er síða læst og því ekki hægt að sérsníða hana
 
-Það eru tvö skilyrði sem koma í veg fyrir að þú sérsníðir síðu. Annaðhvort er síðan læst (eins og kemur fram í ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás")) tákninu eða hún er útilokuð (eins og kemur fram í ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") tákninu).
+Það eru tvö skilyrði sem koma í veg fyrir að þú sérsníðir síðu. Annaðhvort er síðan læst (eins og kemur fram í ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") tákninu) eða hún er útilokuð (eins og kemur fram í ![Sérstilling útilokuð.](media/personalization-blocked-icon.png "Sérstilling útilokuð") tákninu).
 
 ## <a name="locked-from-personalizing"></a>Læst fyrir sérstillingar
 
-Ef táknið ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") í borðanum **Sérstilling** þegar síða er opnuð merkir það að þú getir ekki gert neinar breytingar á sérstillingu síðunnar.
+Ef til staðar er táknið ![Sérstilla lás.](media/personalization-lock-icon.png "Sérstilla lás") í borðanum **Sérstilling** þegar síða er opnuð merkir það að þú getir ekki gert neinar breytingar á sérstillingu síðunnar.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -50,7 +50,7 @@ Ef þú vilt taka síðu úr lás og halda áfram að sérstilla hana skaltu vel
 
 Ef táknið ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") í borðanum **Sérstilling** merkir það að þú getir ekki gert neinar sérstillingar á síðunni.
 
-<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
 
 Ástæðan fyrir þessu er að Mitt hlutverk eða hlutverk sem er sem stendur tengt við notandareikninginn þinn breytir þessari síðu sérstaklega fyrir hlutverkið þitt. Hafðu samband við stjórnanda til að fá aðstoð. Að öðrum kosti skal reyna að skipta yfir í Mitt hlutverk sem inniheldur hlutverkaleik fyrir þessa síðu. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
 

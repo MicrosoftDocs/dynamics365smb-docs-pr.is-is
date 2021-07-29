@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8ac375edea3c79f843028caa9ef07f74897fc98
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 17f2c35d1a28bae7c12e706ff2220bf8d7b48719
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785774"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445677"
 ---
 # <a name="reserve-items"></a>Taka frá vörur
 Hægt er að taka vörur frá fyrir sölu-, innkaupa-, þjónustu, samsetningar- og framleiðslupantanir. Hægt er að taka frá vörur í birgðum eða á innleið í opnum skjalalínum eða færslubókarlínum. Þú framkvæmir vinnuna á síðunni **Frátekning**.
@@ -24,7 +24,7 @@ Hver lína á síðunni **Frátekning**, sem þú opnar til að taka frá vörur
 
 ## <a name="to-reserve-items-for-sales"></a>Vörur teknar frá fyrir sölu
 Eftirfarandi lýsir því hvernig skal taka frá vörur frá sölupöntun. Skrefin eru svipuð fyrir innkaupa-, þjónustu og samsetningarpöntun.  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2.  Í sölupöntun í flýtiflipanum **Línur** veljið aðgerðina **Taka frá**. Síðan **Frátekning** opnast.  
 3. Smellt er á línuna þar sem taka á vörurnar frá.  
 4. Ein af eftirfarandi aðgerðum er valinn.  
@@ -42,7 +42,7 @@ Eftirfarandi lýsir því hvernig skal taka frá vörur frá sölupöntun. Skref
 Hægt er að taka vörur frá fyrir framleiðslupantanir. Greina þarf á milli framleiðslupöntunarlína, það er yfirvaran, og framleiðslupöntunaríhluta.
 
 Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er notuð.   
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
 2. Opna fastáætluðu framleiðslupöntunina sem taka á frá yfirvörur fyrir.  
 3. Viðkomandi framleiðslupöntunarlína er valin.  
 4. Á flýtiflipanum **Línur** veljið aðgerðina **Taka frá**.
@@ -54,7 +54,7 @@ Magnið sem fært var inn í fastáætluðu framleiðslupöntunarlínuna hefur v
 Hægt er að taka vörur frá fyrir framleiðslupantanir. Greina þarf á milli framleiðslupöntunarlína, það er yfirvaran, og framleiðslupöntunaríhluta.
 
 Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er notuð.    
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
 2. Opna fastáætluðu framleiðslupöntunina sem taka á frá íhlutavörur fyrir.  
 3. Viðkomandi framleiðslupöntunarlína er valin.  
 4. Á flýtiflipanum **Línur** skal velja **Lína** og velja svo **Íhlutir**.  
@@ -84,7 +84,7 @@ Hægt að taka frá tiltekin raðnúmer eða lotunúmer í útleiðarskjölum fy
 Þetta er kallað sértæk frátekning, þar sem tekið er frá magni Vöru X sem tilheyrir Lotu X. Ef einfaldlega er tekið frá úr magni Vöru X er það venjuleg, ósértæk frátekning. Nánari upplýsingar eru í [Upplýsingar um hönnun - Vörurakning og frátekningar](design-details-item-tracking-and-reservations.md).
 
 Eftirfarandi ferli byggist á sölupöntun.    
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Stofna sölupöntunarlínu fyrir vörurakta vöru.  
 3. Úthluta rað- og lotunúmerum í sölupöntunarlínuna. Frekari upplýsingar, sjá [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
 4. Velja **Taka frá** aðgerðina í sölupöntunarlínunni.  

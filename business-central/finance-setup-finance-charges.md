@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08a2443f94efbc9920145109b4b7499a3a4e05b3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 36d841a7231794e1cfb61a928efbbf3f83bbdc27
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783623"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446266"
 ---
 # <a name="set-up-finance-charge-terms"></a>Setja upp vaxtaskilmála
 
@@ -41,7 +41,7 @@ Að auki er sérhver skilgreining í töflunni Vaxtaskilmálar tengdur undirtöf
 
 ### <a name="to-set-up-finance-charge-terms"></a>Setja upp vaxtaskilmála
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtaskilmálar** eða Lánardrottinn og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vaxtaskilmálar** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í reitina eftir þörfum.
 3. Eigi að nota fleiri en eina samsetningu vaxtaskilmálar þarf að setja upp kóta fyrir hverja þeirra.
 

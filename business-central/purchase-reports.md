@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 5fc64db4120b80203f99742ed3ed834b23370c47
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216371"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543171"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Innkaupaskýrslur og greiningar í Business Central
 
@@ -24,8 +24,7 @@ Eftirfarandi tafla lýsir sumum helstu skýrslunum í innkaupaskýrslum.
 
 |Skýrsla |Kenni hlutar|Description  |
 |---------|---------|---------|
-|**Innkaupaupplýsingar**|312|Sýnir innkaupatölfræði fyrir hvern lánardrottinn. Þetta felur í sér upplýsingar fyrir fimm tímabil, frá þeim degi sem er tilgreindur.<br>
-Skýrslan inniheldur heildarinnkaup, greiðslur, vaxtareikning og afslátt, þ.m.t. tekna og tapaða greiðsluafslætti. Tölfræði er reiknuð fyrir kaup sem eru gerð fyrir þann dag sem tilgreindur er, með þremur eins mánaðar millibili frá tilgreindum degi og fyrir tímabil sem inniheldur öll kaup sem gerð eru eftir þriðja eins mánaðar bilið.|
+|**Innkaupaupplýsingar**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
 |**Lánardr. - 10 efstu**|311|Sýnir upplýsingar um innkaup frá lánardrottni á tilteknu tímabili. Hægt er að velja fjölda lánardrottna sem eru taldir með í skýrslu.<br>Lánardrottnum er raðað eftir upphæðum og hægt er að velja hvort þeim er raðað eftir innkaupaupphæð eða stöðu. Skýrslan gefur snöggt yfirlit yfir þá lánardrottna sem mest er keypt inn frá eða mest er skuldað.|
 |**Vörulisti lánardrottins** eða **Birgðalisti lánardrottna**|320 eða 720|Birtir lista yfir lánardrottna fyrir tilteknar vörur eða vörur fyrir tiltekna lánardrottna. Þar kemur fram innkaupsverð, útreiknaður afhendingartími og vörunúmer viðkomandi lánardrottins fyrir hverja einstaka vöru.<br>Þessi skýrsla er ekki tiltæk í Bandaríkjunum, Kanada og Mexíkó. Í staðinn skal nota **Birgðalisti lánardrottna** (10164) skýrsluna.|
 |**Lánardr. - Birgðakaup**|313|Þessi skýrsla sýnir lista yfir vörufærslur fyrir hvern lánardrottinn á tilteknu tímabili. Skýrslan felur í sér upplýsingar um reikningsfært magn, upphæð og hugsanlegan afslátt. Hana má til dæmis nota til að greina birgðainnkaup fyrirtækis og sýna hvort það sé samband milli afsláttar og birgðainnkaupa.|

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71e9c93eede8b39561dc78ff61732273003ce8de
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6c1e9a1e296abab8a77e47564eb70e97bfa7d57e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786983"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446416"
 ---
 # <a name="define-user-tasks"></a>Skilgreina notandaverk
 
@@ -27,7 +27,7 @@ Síðan **Notandaverkefni** sýnir öll verkefni og auðvelt er að búa til og 
 
 Þú getur til dæmis búið til verkefni fyrir sjálfa(n) þig eða samstarfsfélaga til að skoða alla bókaða sölureikninga. Í því tilviki tengir þú verkefnið við síðu 143, **Bókaðir sölureikningar**. Í eftirfarandi skjáskotum er einhver að búa til verk fyrir MeganB til að yfirfara bókaða sölureikninga.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Dæmi um notandaverkefni":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Dæmi um verk notanda.":::
 
 > [!TIP]  
 > Notaðu uppflettinguna í reitnum **Síða** og notaðu svo reitinn **Leita** til að finna síðuna sem þú vilt.  

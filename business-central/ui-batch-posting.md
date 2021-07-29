@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að bóka mörg skjöl á sama tíma | Microsoft Docs
-description: Í stað þess að bóka eitt skjal í einu er hægt að velja mörg óbókuð skjöl í lista fyrir fjöldabókun, annaðhvort fyrir bókun án tafar eða sem til að mynda er áætluð við lok dags.
+title: Bóka mörg skjöl á sama tíma
+description: Í stað þess að bóka eitt skjal í einu er hægt að velja mörg óbókuð skjöl í lista fyrir runubókun annaðhvort strax eða samkvæmt áætlun.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d26b98bac791bca2dc910f010c135fe187d6abff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773631"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446048"
 ---
-# <a name="post-multiple-documents-at-the-same-time"></a>Bóka mörg skjöl á sama tíma
+# <a name="post-multiple-documents-at-the-same-time"></a>Bóka mörg skjöl samtímis
 
 Í stað þess að bóka eitt skjal í einu er hægt að velja mörg óbókuð skjöl í lista fyrir bókun án tafar eða fyrir fjöldabókun samkvæmt áætlun, svo sem við lok dags. Þetta getur komið sér vel ef aðeins yfirmaður getur bókað skjöl sem aðrir notendur hafa búið til eða til að koma í veg fyrir vandamál tengd afköstum þegar bókun er gerð á vinnutíma.
 
@@ -25,7 +25,7 @@ ms.locfileid: "5773631"
 
 Eftirfarandi ferli útskýrir hvernig á að bóka margar innkaupapantanir strax. Skrefin eru svipuð fyrir öll innkaupa- og söluskjöl.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.
 2. Á síðunni **Innkaupapantanir** skal velja allar pantanir sem á að bóka:
 3. Í reitnum **númer** skal velja þrjá lóðrétta punkta til að opna efnisvalmynd og síðan velja aðgerðina **Velja fleira**.
 4. Veldu gátreitinn fyrir allar línurnar sem tákna pantanir sem á að bóka á sama tíma.
@@ -36,7 +36,7 @@ Eftirfarandi ferli útskýrir hvernig á að bóka margar innkaupapantanir strax
 
 Eftirfarandi ferli útskýrir hvernig á að fjöldabóka innkaupapantanir. Skrefin eru svipuð fyrir öll innkaupa- og söluskjöl þar sem aðgerðin **Fjöldabóka** er í boði.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Innkaupapantanir** skal velja allar pantanir sem á að bóka:
 3. Í reitnum **númer** skal velja þrjá lóðrétta punkta til að opna efnisvalmynd og síðan velja aðgerðina **Velja fleira**.
 4. Veldu gátreitinn fyrir allar línurnar sem tákna pantanir sem á að bóka á sama tíma.
@@ -53,7 +53,7 @@ Verkraðir eru áhrifaríkt verkfæri til að raða keyrslu viðskiptaferla í b
 
 Eftirfarandi ferli lýsir hvernig setja á upp bakgrunnsbókun fyrir sölupantanir. Skrefin eru svipuð fyrir Kaup í innkaup.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugrunnur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi** og velja svo viðeigandi tengil.
 2. Á síðunni **Uppsetning sölu og útistandandi** skal velja gátreitinn **Bóka með verkröð**.
 3. Veldu **Flokkakóði verkraðar** svæðið tilgreindu síðan **SALESPOST** koðann.
 
@@ -86,7 +86,7 @@ Einnig er hægt að fresta bókunum þar til það hentar fyrirtækinu. Til dæm
 
 Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka sölupantanir** til að bóka sjálfkrafa sölupantanir kl. 16:00 á virkum dögum.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkraðarfærslur** og veldu síðan viðeigandi tengil.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkraðarfærslur** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
 3. Í reitnum **Gerð hlutar sem á að keyra** skal velja **Skýrsla**.  
 4. Í reitnum **Kenni hlutar sem á að keyra**, skal velja 296, **Fjöldabóka sölupantanir**.

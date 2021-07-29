@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að bóka Þjónustupantanir | Microsoft Docs
-description: Þegar þjónustupöntun hefur verið búin til, allar upplýsingar færðar inn og breytingar gerðar er hægt að bóka þjónustupöntunina. Í pöntuninni þarf að vera að minnsta kosti ein þjónustuvörulína og ein þjónustulína áður en hægt er að bóka þjónustupöntunina. Ef pöntunin inniheldur meira en eina þjónustulínu mun forritið bóka allar línurnar í einu.
+title: Hvernig á að bóka Þjónustupantanir
+description: Þegar þjónustupöntun hefur verið búin til, allar upplýsingar færðar inn og breytingar gerðar er hægt að bóka þjónustupöntunina.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 29cfa693e8b33e3e948d49b53bae4e41f6b6c389
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 08dba596c53186d734a9f30a760f1c69ef635f8b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774305"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446098"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bóka þjónustupantanir og kreditreikninga
 Þegar þjónustupöntun hefur verið búin til, allar upplýsingar færðar inn og breytingar gerðar er hægt að bóka þjónustupöntunina. Í pöntuninni þarf að vera að minnsta kosti ein þjónustuvörulína og ein þjónustulína áður en hægt er að bóka þjónustupöntunina. Ef pöntunin inniheldur meira en eina þjónustulínu mun forritið bóka allar línurnar í einu.  
@@ -26,7 +26,7 @@ Ef þú ert með margar þjónustupantanir kemur sér vel að bóka þær í fj�
 > Áður en þú bókar þjónustuskjal, er óvitlaust að nota **Prufuskýrsla** aðgerðina til að leita að villum eða upplýsingum sem vantar. Ef villur eru til staðar verður að leysa vandamálið. Hægt að prenta nýja prófunarskýrslu til að sannreyna lagfæringuna og bóka skjalið.
 
 ## <a name="to-post-a-service-order"></a>Þjónustupantanir bókaðar:    
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
 2. Opna skal viðeigandi þjónustupöntun.  
 3. Á síðunni **Þjónustupöntun** er ein af eftirfarandi aðgerðum er valin.  
 
@@ -51,7 +51,7 @@ Hægt er að bóka notkun aðeins ef línan inniheldur magn sem hefur verið afh
 Þegar pöntun er bókuð býr forritið til samsvarandi fjárhagsfærslu og bókuð fylgiskjöl. Viðeigandi reitir eru uppfærðir í þjónustupöntunarskjalinu.  
 
 ## <a name="to-batch-post-service-orders"></a>Þjónustupantanir fjöldabókaðar:
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
 2. Veljið aðgerðina **Fjöldabókun**.  
 3.  Hægt er að stilla afmörkun til að velja ákveðin pöntunarnúmer eða röð af pöntunarnúmerum fyrir keyrsluna.  
 4.  Smellt er á **Í lagi** til að hefja keyrsluna.  
@@ -59,7 +59,7 @@ Hægt er að bóka notkun aðeins ef línan inniheldur magn sem hefur verið afh
 ## <a name="to-post-a-service-credit-memo"></a>Þjónustukreditreikningar bókaðir:  
 Þegar búið er að búa til þjónustukreditreikning og fylla hann út er hægt að bóka kreditreikninginn. Ef einhverjar villur eða skortur á upplýsingum um kreditreikninginn kemur í ljós við bókun er ferlið rofið með villuboðum.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustukreditreikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustukreditreikningar** og velja síðan viðkomandi tengil.  
 2. Nýr þjónustukreditreikningur er stofnaður. Valið er aðgerðin **Nýtt**.  
 3. Fyllið inn í reitina eftir þörfum.  
 4. Valið er **Bóka** aðgerðin. Ef á að prenta kreditreikninginn um leið og bókað er, skal velja **Bóka og prenta** aðgerðina í staðinn.  
@@ -72,7 +72,7 @@ Hægt er að bóka notkun aðeins ef línan inniheldur magn sem hefur verið afh
 ## <a name="to-post-consumption-from-a-service-order"></a>Að bóka notkun úr þjónustupöntun:  
 Eftirfarandi aðferð lýsir hvernig á að bóka vörur, forðastundir og/eða kostnað sem fallið hefur til fyrir tilgreinda þjónustuaðgerð sem ekki á að reikningsfæra á viðskiptamann. Vakin er athygli á því að aðeins er hægt að bóka notaðar vörur, stundir eða kostnað í bókaðri afhendingu sem ekki hefur bókaða reikninga eða notkun.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
 2. Opna skal þjónustupöntunina sem bóka á notkun fyrir.  
 3. Veljið þjónustuvöruna. Veljið aðgerðina **Þjónustulínur**.  
 4. Finnið færslurnar sem þörf og tilgreinið magnið sem þú munt bóka notkunina fyrir í reitnum **Magn til notkunar**. Magnið má ekki vera meira en magnið sem þegar hefur verið afhent og það eftirstandandi magn sem ekki er reikningsfært eftir hlutabókun þessarar afhendingar.  
@@ -89,7 +89,7 @@ Eftirfarandi aðferð lýsir hvernig á að bóka vörur, forðastundir og/eða 
 
 Eftirfarandi ferli sýnir hvernig eigi að bóka afhendingu þjónustulínuvara í birgðageymslum sem eru ekki settar upp þannig að þær krefjist meðhöndlunar vöruhúss.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupöntun** og veldu síðan tengda tengilinn. 2. á síðunni fyrir völdu þjónustupöntunina er smellt á **Aðgerðir**, **Pöntun**, **Þjónustulínur**.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupöntun** og svo velja viðeigandi tengil. 2. á síðunni fyrir völdu þjónustupöntunina er smellt á **Aðgerðir**, **Pöntun**, **Þjónustulínur**.  
 3. Á síðunni **Þjónustulínur** er leitað að færslunum sem þörf er á og þvínæst er magn til bókunar í reitnum **Magn til afhendingar**.  
 
    > [!NOTE]  
@@ -106,7 +106,7 @@ Upplýsingar um afhendingu þjónustulínuvara með ítarlegum vöruhúsaaðger�
 ## <a name="to-undo-posted-consumption"></a>Afturkalla bókaða notkun  
 Þú getur hætt við notkun á þjónustupöntununum. Til dæmis vegna þess að hún var bókuð fyrir mistök.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar þjónustuafhendingar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðar þjónustuafhendingar** og velja síðan viðkomandi tengil.  
 2. Opna skal bókuðu þjónustuafhendinguna sem ranga notkunin var bókuð fyrir.  
 3. Veldu aðgerðina **Þjónustuafhendingarlínur**.  
 4. Veldu línur sem innihalda ranga notkun, og veldu svo aðgerðina **Afturkalla notkun**.  
@@ -124,7 +124,7 @@ Ef nauðsynlegt er að vinna með þjónustubeiðni í umtalsverðan tíma án �
 
 Eftirfarandi ferli lýsir bókun afhendingar beint úr þjónustupöntun í birgðageymslum án þess að meðhöndlun vöruhúss hafi verið sett upp. Ef birgðageymslan er sett upp þannig að hún krefjist vöruhúsaafgreiðslu fer bókun afhendingar fram í öðru vöruhúsaskjali, eftir birgðageymsluuppsetningu.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
 2. Veljið þjónustupöntunina og velja svo aðgerðina **þjónustulína**.  
 4. Á línu/m sem ætlunin er að bóka á að fylla út reitina **Magn til afhendingar**, **Magn til reikningsf.** og **Magn til notkunar**, háð því hvernig ætlunin er að bóka línurnar.  
 5. Valið er **Bóka** aðgerðin.

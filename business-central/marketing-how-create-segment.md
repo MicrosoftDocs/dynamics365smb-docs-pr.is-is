@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a6a8b12623f12cdc590114dd36ff10c399e38a99
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ddddcfa3439fe917a930a0a6cbd3605a273c540f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780683"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445602"
 ---
 # <a name="create-segments"></a>Stofna hluta
 Hægt er að stofna hluta til að velja saman flokk tengiliða til dæmis ef stofna á samskipti sem varða marga tengiliði eins og póstsendingar.
 
 ## <a name="to-create-a-segment"></a>Hlutar stofnaðir:
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hlutar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Hlutar** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
 3. Í hlutanum **Almennt** , í á reitnum **númer** er fært inn númer fyrir hlutann.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773840"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446216"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Uppsetning upprunakóða og ástæðukóða fyrir endurskoðunarslóðir
 
@@ -33,7 +33,7 @@ Við bókun eða keyrslu er réttur upprunakóði sjálfkrafa hengdur við færs
 
 ### <a name="to-define-source-codes"></a>Upprunakóðar skilgreindir:
 
-1. Veldu ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, sláðu inn **Uppsetning upprunakóða** og veldu svo tengdan tengil.  
+1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, fara í **Uppsetning upprunakóða** og velja síðan viðkomandi tengil.  
 
 2. Í glugganum **Uppsetning upprunakóða** skal tilgreina viðeigandi upprunakóða fyrir hverja bókunargerð og runuvinnslu.  
 
@@ -45,7 +45,7 @@ Hugsanlega þarf að breyta upprunakóða. Til dæmis ef notandi vill breyta upp
 
 ### <a name="to-change-source-codes"></a>Upprunakóðum breytt:
 
-1. Veldu ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") tákn, sláðu inn **Upprunakóðar** og veldu svo tengdan tengil.
+1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, fara í **Upprunakóðar** og velja síðan viðkomandi tengil.
 
 2. Kóðinn í reitnum **Kóði** er valinn í línunni með kóðanum sem á að breyta.
 
@@ -59,7 +59,7 @@ Allar færslur sem á eftir koma og bókaðar eru í færslubók verða með ný
 
 ### <a name="to-set-up-reason-codes"></a>Uppsetning ástæðukóða
 
-1. Veldu ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") tákn, sláðu inn **Ástæðukóðar** og veldu svo tengdan tengil.
+1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn")  táknið, fara í **Ástæðukóðar** og velja síðan viðkomandi tengil.
 
 2. Í glugganum **Ástæðukóðar** er skal færa fyrsta kóðann inn í reitinn **Kóði**. Texti til útskýringar er færður í reitinn **Lýsing**.
 
@@ -69,7 +69,7 @@ Eftirfarandi ferli sýnir hvernig á að bæta ástæðukóða við færslubóka
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Ástæðukóðum úthlutað á færslubókarkeyrslur:
 
-1. Veldu ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") tákn, sláðu inn **Sniðmát færslubóka** og veldu svo tengdan tengil.
+1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn")  táknið, fara í **Sniðmát færslubóka** og velja síðan viðkomandi tengil.
 
 2. Í línunni með valda færslubókarsniðmátinu, í reitnum **Ástæðukóði**, skal tilgreina viðeigandi kóða.
 

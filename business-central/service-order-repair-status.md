@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cb6ba334d4584d6e3ead25606a612686258eae9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ba9b99a7c205106b77386f297a361067b2227cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776817"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446073"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Setja upp stöður fyrir þjónustupantanir og viðgerðir
 
@@ -29,7 +29,7 @@ ms.locfileid: "5776817"
 
 ## <a name="to-set-up-service-status-priorities"></a>Uppsetning viðgerðarstöðuforgangs
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staða þjónustupöntunar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staða þjónustupöntunar** og svo velja viðeigandi tengil.  
 2. Velja skal þjónustupöntunarstöðuna sem á að forgangsraða.  
 3. Í reitnum **Forgangur** er valin forgangsröð sem veita á þjónustupöntunarstöðunni.  
 
@@ -37,7 +37,7 @@ ms.locfileid: "5776817"
 
 ## <a name="to-set-up-a-repair-status"></a>Uppsetning viðgerðarstöðu
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðgerðarstaða** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðgerðarstaða** og svo velja viðeigandi tengil.
 2. Stofnið nýja viðgerðarstöðu.  
 3. Fyllt er í reitina **Kóti** og **Lýsing**.  
 4. Í reitnum **Staða þjónustupöntunar** er valin staða pöntunar sem á að tengja viðgerðarstöðuna við. Reiturinn **Forgangur** sýnir forgangi stöðunnar á þjónustupöntun sem valin var.  

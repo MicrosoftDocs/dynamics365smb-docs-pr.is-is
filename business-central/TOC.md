@@ -165,6 +165,7 @@
 #### [Uppsetning almennra eignaupplýsinga](fa-how-setup-general.md)
 #### [Setja upp eignaafskriftir](fa-how-setup-depreciation.md)
 #### [Skilgreina afskriftaaðferðir](fa-depreciation-methods.md)
+#### [Uppsetning afskriftaaðferða sem notandi skilgreinir](fa-how-setup-user-defined-depreciation-method.md)
 #### [Uppsetning vátryggingar eignar.](fa-how-setup-insurance.md)
 #### [Uppsetning eignarviðhalds](fa-how-setup-maintenance.md)
 ### Vöruhúsastjórnun sett upp
@@ -265,10 +266,10 @@
 ##### Stjórnandi
 ###### [Yfirlit yfir samþættingu](admin-powerbi-overview.md)
 ###### [Virkjun Power BI Samþættingar](admin-powerbi-setup.md)
-##### Hönnuður
+##### Skýrsluhöfundur
 ###### [Að hefjast handa við að búa til skýrslur](across-how-use-financials-data-source-powerbi.md)
 ###### [Stofna skýrslur til að birta listagögn](across-how-use-powerbi-reports-factbox.md)
-##### Neytendur
+##### Fyrirtækisnotandi
 ###### [Unnið með Power BI Skýrslur í Business Central](across-working-with-powerbi.md)
 ###### [Unnið með Business Central Data í Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Notkun Business Central-forrita í Power BI](across-powerbi-business-central-apps.md)
@@ -449,6 +450,7 @@
 ### [Fjárhagsskýrslur](finance-reports.md)
 ### Stjórnun útistandandi reikninga
 #### [Yfirlit útistandandi](receivables-manage-receivables.md)
+#### [Skýrslur og greiningar viðskiptakrafna](receivables-reports.md)
 #### Jafna greiðslur sjálfkrafa og afstemma bankareikninga
 ##### [Yfirlit greiðslujafnana](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md)
@@ -466,6 +468,7 @@
 
 ### Stjórna skuldum
 #### [Yfirlit viðskiptaskulda](payables-manage-payables.md)
+#### [Skýrslur og greiningar viðskiptaskulda](payables-reports.md)
 #### Framkvæma greiðslur
 ##### [Framkvæma greiðslur](payables-make-payments.md)
 ##### [Vinna í færslubókum](ui-work-general-journals.md)
@@ -664,6 +667,7 @@
 
 ## Eignir
 ### [Yfirlit yfir eignir](fa-manage.md)
+### [Skýrslur og greiningar eigna](fa-reports.md)
 ### [Komast yfir eignir](fa-how-acquire.md)
 ### [Umsjón eigna](fa-how-maintain.md)
 ### [Tryggja eignir](fa-how-insure.md)
@@ -893,15 +897,8 @@
 ##### [Setja upp lánadrottna fyrir tillögur um sjálfvirka greiðslu](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Búa til sniðmát og runur færslubókar](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Prófa rafrænar greiðslur](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Prenta greiðsluskrár](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [Virkja SEPA-greiðslur](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
-##### [Skrá SEPA-greiðslur sem eru ekki í evrum](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
+##### [Flytja út greiðsluskrár](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Beingreiðsla með lögheimili](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [Setja upp lögheimili](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
-##### [Breyta og eyða lögheimilislínum](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
-##### [Prófa lögheimili](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
-##### [Flytja út og bóka lögheimili](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
-##### [Búa til tillögur um lögheimili](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 ##### [CODA-bankayfirlit](LocalFunctionality/Belgium/coda-bank-statements.md)
 ##### [Jafna CODA-yfirlit](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [Flytja og bóka CODA-yfirlit sjálfvirkt](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
@@ -1002,16 +999,14 @@
 ##### [Flytja út fjárhagsfærslur í XML-skrá](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Kröfur um tilkynningar á vöruviðskipti](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Bankaþjónusta og greiðslur
+##### [Greiðslustjórnun](LocalFunctionality/France/payment-management.md)
 ##### [Setja upp aðsetur fyrir greiðslur](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
-##### [Setja upp greiðslustöður](LocalFunctionality/France/how-to-set-up-payment-statuses.md)
-##### [Setja upp Greiðsluskref](LocalFunctionality/France/how-to-set-up-payment-steps.md)
 ##### [Setja upp greiðsluklasa](LocalFunctionality/France/how-to-set-up-payment-classes.md)
-##### [Safnvista greiðsluseðla](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Búa til greiðsluseðla](LocalFunctionality/France/how-to-create-payment-slips.md)
 ##### [Flytja út greiðslur](LocalFunctionality/France/how-to-export-payments.md)
-##### [Flytja út eða inn uppsetningarfæribreytur greiðslustjórnunar](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-##### [Greiðslustjórnun](LocalFunctionality/France/payment-management.md)
 ##### [Bóka greiðsluseðla](LocalFunctionality/France/how-to-post-payment-slips.md)
+##### [Safnvista greiðsluseðla](LocalFunctionality/France/how-to-archive-payment-slips.md)
+##### [Flytja út eða inn uppsetningarfæribreytur greiðslustjórnunar](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### Core-fjármál
 ##### [Fjárhagur](LocalFunctionality/France/general-ledger.md)
 ##### [Jafna fjárhagsfærslur](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -1554,6 +1549,7 @@
 #### Almennt
 ##### [Setja upp viðvörun bókunardagsetningar](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Færa inn lögboðnar upplýsingar](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+##### [Senda gögn um varnir gegn svikum](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [Viðbótin GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Setja upp GetAddress.io UK Postcodes viðbótina](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 
@@ -1577,7 +1573,7 @@
 ## Öryggi og vörn
 ### [Yfirlit yfir öryggi og varnir (aðeins enska)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Leynd
-### [Persónuvernd (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+### [Persónuvernd (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Reglufylgni
 ### [Yfirlit yfir reglufylgni](compliance/compliance-overview.md)
 ### [Reglufylgni forrits](compliance/compliance-application-compliance.md)

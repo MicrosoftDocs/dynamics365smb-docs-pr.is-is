@@ -1,6 +1,6 @@
 ---
-title: Setja upp sjóðstreymisgreiningu | Microsoft Docs
-description: Setja upp myndritin á Reikningar Mitt hlutverk til að hjálpa til við að greina sjóðstreymi í fyrirtækinu, þar á meðal útgjöld og tekjur, greiðslugetu og inngreiðslur mínus staðgreiðslur.
+title: Setja upp sjóðstreymisgreiningu
+description: Notaðu gröf reikninga í Mínu hlutverki til að greina sjóðstreymi í fyrirtækinu, þar á meðal útgjöld og tekjur, greiðslugetu og inngreiðslur mínus staðgreiðslur.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: e197155f272d4435f838fbc67fb336f339c1a290
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 919c5cc5781f0f93fbfb79b9e306e42180eb6968
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783673"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446291"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setja upp sjóðstreymisgreiningu
 Ef þú vilt fá aðstoð til að ákveða hvað þú átt að gera með féð þitt, skoðaðu töflurnar á Hlutverkamiðstöð bókhaldara:  
@@ -70,14 +70,14 @@ Uppsetning assisted leiðbeiningum nota til:
 
 1. Í Hlutverkamiðstöð bókhaldara undir **Sjóðstreymisspá** skal velja **Opna uppsetningu með hjálp** aðgerðina.  
 2. Fylltu út reitina í hverju skrefi leiðarvísisins.  
-3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjóðstreymisspá** og veldu síðan tengda tengilinn.
+3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sjóðstreymisspá** og velja síðan viðkomandi tengil.
 4. Á síðunni **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 Nota handvirkt ferli:  
 
 1. Í Hlutverkamiðstöð bókhaldara skaltu leita að **Uppsetning sjóðstreymis** og velja svo tengdan tengil.  
 2. Stækkaðu **Azure AI** flýtiflipann og veldu gátreitinn **Kveikt á Azure AI**.  
-3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjóðstreymisspá** eða Lánardrottinn og veldu síðan tengda tengilinn.
+3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sjóðstreymisspá** og velja síðan viðkomandi tengil.
 4. Á síðunni **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 > [!TIP]  
@@ -123,7 +123,7 @@ Reitirnir **Dagsetning skjals**, **Upphæð** á síðunni **Fjárhagsfærslur V
 3. Nota á reikninginn í Microsoft að undirrita fyrir workspace er og afrita síðan líkaninu sem.  
 4. Keyrslan líkaninu og út og þjónustu veftengingar.  
 5. Gera API URL og API lykillinn athugasemd. Þú munt nota þessi skilríki fyrir sjóðstreymisuppsetningu.  
-6. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning sjóðstreymis** og veldu síðan tengda tengilinn.  
+6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sjóðstreymis** og velja síðan viðkomandi tengil.  
 7. Stækkaðu **Azure AI** flýtiflipann, og fylltu síðan inn reitina.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)

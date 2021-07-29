@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc1bf44ddf3886d57729fb28ba81c6e7580ce40
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1757f1c02bb6623f59996d372f544f224b94237e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775183"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445727"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni
 
@@ -30,7 +30,7 @@ Ef notað er hlutverkið **Fyrirtækjamiðstöð** sýnir heimasíðan lista yfi
 > [!TIP]
 > Til að fá aðgang að tilteknu fyrirtæki í [!INCLUDE [prod_short](includes/prod_short.md)] skal velja heiti fyrirtækisins eða velja valmyndaratriðið **Fara í fyrirtæki** - þú ert skráður sjálfkrafa inn í nýjum vafraglugga.
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aðgerðir fyrir fyrirtæki sem er skráð í fyrirtækjamiðstöðinni":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aðgerðir fyrir fyrirtæki sem er skráð í fyrirtækjamiðstöðinni.":::
 
 Hægt er að bæta við nýjum fyrirtækjum, t.d. þegar nýr viðskiptavinur bætist við eða þegar samsteypan bætir við nýju dótturfyrirtæki. Frekari upplýsingar er að finna í [Bæta fyrirtækjum við fyrirtækjamiðstöðina](company-hub-add-company.md).  
 

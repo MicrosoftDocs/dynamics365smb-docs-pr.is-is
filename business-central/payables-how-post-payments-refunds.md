@@ -1,21 +1,21 @@
 ---
-title: Jafna greiðslur við tengd fylgiskjöl og bóka þær| Microsoft Docs
-description: Lýsir því hvernig á að skrá greiðslur sem þú greiðir lánardrottnum og endurgreiðslur sem þú greiðir viðskiptavinum.
+title: Skrá greiðslur og endurgreiðslur í greiðslubók
+description: Lestu um hvernig á að skrá greiðslur sem þú greiðir lánardrottnum og endurgreiðslur sem þú greiðir viðskiptavinum á greiðslubókarsíðunni.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2021
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 1316bb7c5f1385ffef2ebe330d02e5a352e8561a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61a47f68de6466c177ab8683f4167a77ec04dc3f
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782064"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543198"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Skrá greiðslur og endurgreiðslur í greiðslubókina
 
@@ -37,16 +37,31 @@ Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. 
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Til að greiða í greiðslubók
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubækur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðslubækur** og velja síðan viðkomandi tengil.
 2. Opnaðu bókarkeyrsluna sem er notuð fyrir greiðslur.
-3. Ef þú veist hverjum á að borga eða endurgreiða skaltu fylla inn reitina handvirkt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Ef þú veist hverjum á að greiða skaltu fylla í reitina handvirkt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Til að einnig jafna greiðsluna við tengdan reikning eða kreditreikning skaltu velja **Jöfnunarskjalsnúmer**. reitinn á síðunni **Jafna lánardr.færslur**, velja viðeigandi reikning eða kreditreikning og síðan velja hnappinn **Í lagi**.
 
     Mörg reiti, svo sem **Skjalaupphæð** og **Gjalddagi** reitir, eru nú fylltir inn með upplýsingum úr völdu skjalinu.
 5. Annar valkostur er að nota aðgerðina **Greiðslutillögur til lánardrottna**. Allar jöfnunarupplýsingar og upphæðir eru síðan einnig færðar inn í færslubókarlínur. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
 
     Skilaboð munu leiðbeina þér í að fylla út nauðsynlega reiti á réttan hátt.
-6.  Þegar öllum greiðslubókarlínum er lokið skal velja aðgerðina **Bóka**.
+6. Þegar öllum greiðslubókarlínum er lokið skal velja aðgerðina **Bóka**.
+
+
+## <a name="to-issue-a-refund-check"></a>Gefa út endurgreiðsluávísun
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubækur** og veldu síðan tengda tengilinn.
+2. Í reitnum **Skjalagerð** skal velja **Endurgreiða**.  
+3. Í reitnum **Númer ytra skjals** skal nota þessa tilvísun fyrir endurgreiðsluávísunina (til dæmis númer skilapöntunar).  
+4. Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.  
+5. Í reitnum **Reikningsnúmer** skal velja reikningsnúmer viðskiptavinar sem stíla á endurgreiðsluávísunina á.  
+6. Í reitinn **Upphæð** skal færa inn upphæð endurgreiðslunnar.  
+7. Í reitnum **Tegund mótreiknings** er **Bankareikningur** valinn.  
+8. Í reitnum **Mótreikningur nr.** er sá bankareikningur valinn sem ávísunin kemur frá.  
+9. Í **Jöfnunarskjalsnúmer** reitnum skal velja skjölin sem krefjast endurgreiðslu.  
+10. Þegar öllum greiðslubókarlínum er lokið skal velja aðgerðina **Bóka/prenta** og síðan velja aðgerðina **Bóka og prenta** og velja **Já**.  
+  
 
 ## <a name="see-also"></a>Sjá einnig
 [Framkvæma ávísanagreiðslur](payables-how-work-checks.md)  

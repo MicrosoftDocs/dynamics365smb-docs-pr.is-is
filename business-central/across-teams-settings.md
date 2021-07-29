@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 98a8f91aa3c6b8c9b2c9348441ca369f34f73b88
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 195d94af6e34206c6107690b0fef499ccc8b2490
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882492"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446441"
 ---
 # <a name="changing-company-and-other-settings-in-teams"></a>Breyta fyrirtæki og aðrar stillingar í Teams
 
@@ -27,16 +27,18 @@ Til eru tvær leiðir til að opna síðuna **Stillingar**: 1) úr skrifglugga s
 
 1. Fyrir neðan skrifglugga skilaboða skal hægrismella á [!INCLUDE [prod_short](includes/prod_short.md)]-forritstáknið og síðan velja **Stillingar**.
 
-    ![Stillingar fyrir Business Central úr skipanareit](media/teams-settings-message-box.png)
+    ![Stillingar fyrir Business Central úr skipanareit.](media/teams-settings-message-box.png)
 
 2. Í skipanareitnum efst uppi skal leita að **@Business Central**, velja **... (Fleiri valkostir)**, því næst velja **Stillingar**.
 
-   ![Stillingar fyrir Business Central úr skrifglugga](media/teams-settings-command-box.png)
+   ![Stillingar fyrir Business Central úr skrifglugga.](media/teams-settings-command-box.png)
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  
+[Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams](across-search-contacts-teams.md)  
+[Deila færslum í Microsoft Teams](across-working-with-teams.md)  
 [Teams - Algengar spurningar](teams-faq.md)  
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  

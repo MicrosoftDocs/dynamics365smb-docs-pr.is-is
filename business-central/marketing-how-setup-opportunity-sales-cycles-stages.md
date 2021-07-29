@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: abd76dc3ee29f1e90ea067c2a915f635c3ec1a1e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ed6597816347830b6f304ea0c50976c67ed5c5d5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785449"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446125"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Setja upp söluferla tækifæris og söluþrep
 Áður en hægt er að hefja notkun sölutækifæri þarf að setja upp söluferli og þrep söluferla. Söluferli samanstendur af röð þrepa sem fara frá fyrstu samskiptum til lokunar sölu. Hvert þrep hefur ákveðnar kröfur sem uppfylla þarf, til dæmis þarfnast sölutilboð áður en tækifæri getur farið á næsta þrep. Einnig er hægt að tilgreina sleppa megi þrepi. Hægt er að setja upp eins mörg söluferli og þarf, og hægt er að setja upp eins mörg þrep söluferla og þarf innan söluferlis.
@@ -25,7 +25,7 @@ Innleiðing söluferla fyrir tækifæri felur í sér að setja upp söluferli, 
 Þetta efnisatriði lýsir því líka hvernig skal setja upp verkhluta og aðgerðir og hvernig skal úthluta verkhlutum og aðgerðum. Nánari upplýsingar er að finna í [Að setja upp verkþætti með verkum](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Uppsetning söluferlakóða tækifæris
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluferli** og veldu síðan tengda tengilinn. Síðan **Söluferli** opnast og birtir lista yfir öll fyrirliggjandi söluferli.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Söluferli** og velja síðan viðkomandi tengil. Síðan **Söluferli** opnast og birtir lista yfir öll fyrirliggjandi söluferli.
 2. Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Þessi skref eru endurtekin til að setja upp eins mörg söluferli og óskað er eftir. Þegar söluferli tækifæra hafa verið settir upp gæti verið ráðlegt að setja upp mismunandi þrep innan hvers ferils.
@@ -42,7 +42,7 @@ Eftir að þú bætir við þrepaferli tækifæris geturðu byrjað að bæta vi
 ## <a name="to-set-up-activities-with-tasks"></a>Uppsetning aðgerða með verkhlutum
 Þú getur sameinað marga verkhluta í aðgerðum, t.d. verkhluta sem hver og einn fela í sér eitt skref. Aðgerðaverkhlutar tengjast hverjum öðrum í gegnum dagsetningarformúlu. Hægt er að úthluta aðgerðum á tækifæri, sölufólk eða tengiliði.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Aðgerðir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Aðgerðir** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur.
 3. Á flýtiflipanum **línur** er fyllt út í reiti eftir því sem er nauðsynlegt er til að skilgreina einn eða fleiri verkhluta í aðgerðinni.
 
@@ -52,7 +52,7 @@ Eftir að þú bætir við þrepaferli tækifæris geturðu byrjað að bæta vi
 > [!NOTE]  
 >   Þetta ferli lýsir því hvernig skal úthluta aðgerðarverkhlutum til tækifæra. skrefin eru sambærileg við það þegar verkhlutum er úthlutað til sölufólks og tengiliða.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tækifæri** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tækifæri** og velja síðan viðkomandi tengil.
 2. Veljið tækifæri og veljið svo aðgerðina **Verkhlutar**.
 3. Á síðunni **Verkhlutalisti** velurðu aðgerðina **Stofna verkhluta**.
 4.  Á síðunni **Stofna verkhluta** skal fylla inn í reitina eins og þörf krefur.

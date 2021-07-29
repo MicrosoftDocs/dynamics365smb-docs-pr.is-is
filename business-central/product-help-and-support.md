@@ -1,18 +1,18 @@
 ---
-title: Hjálp og stuðningur
+title: Tilföng fyrir hjálp og notendaþjónustu
 description: Finndu ráðleggingar um hjálp, leiðarvísi og úrræðaleit vegna vöru og kynntu þér hvernig á að fá tæknilega aðstoð fyrir Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/09/2021
-ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.date: 07/09/2021
+ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115412"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543071"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -71,11 +71,20 @@ Gakktu úr skugga um að þú leitir í lista yfir innsendar tillögur. Líklegt
 
 Hlutinn **Úrræðaleit** birtir tæknilegar upplýsingar sem stjórnandinn þinn eða samstarfsaðili [!INCLUDE[prod_short](includes/prod_short.md)] getur notað til að afblokka notendur. Þetta felur í sér upplýsingar um nýjustu villuboð, núverandi útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] og tengil til að opna síðuna **Eftirlit með síðu**. Frekari upplýsingar er að finna í [Eftirlit með síðum í Business Central](across-inspect-page.md).  
 
-Sem innri stjórnandi hefurðu aðgang að stjórnunarstöðinni þar sem hægt er að halda úrræðaleit áfram. Hægt er að skoða fjarmælingar, stjórna umhverfum og hægt er að stjórna notandalotum. Frekari upplýsingar er að finna í [Skoðun tæknilegra upplýsinga](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) og [Stjórnun umhverfa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) í stjórnunarefninu.  
+Til að aðstoða þig eða samstarfsaðila þinn við úrræðaleit getur þú kveikt á viðbótarskráningu í hlutanum **Tilkynna vandamál**. Síðan er hægt að greina aukalega fjarmælingu í stjórnstöðinni eða Application Insights sem dæmi.  
+
+Sem innri stjórnandi hefurðu aðgang að stjórnunarstöðinni þar sem hægt er að halda úrræðaleit áfram. Hægt er að skoða fjarmælingar, stjórna umhverfum og hægt er að stjórna notandalotum. Eftirfarandi greinar í efni stjórnunar veita frekari upplýsingar:
+
+- [Finna tæknilegar upplýsingar](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
+- [Stjórnun umhverfa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+- [Fylgjast með og greina fjarmælingar](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
+- [Virkja sendingu fjarmælingar til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
 ## <a name="report-a-problem"></a>Tilkynna um vandamál
 
-Endursöluaðili [!INCLUDE[prod_short](includes/prod_short.md)] mun veita þér tæknilega aðstoð. Þessi hluti auðveldar þér að hafa samband endursöluaðilann þinn ef hann hefur sent inn samskiptaupplýsingar fyrir notendaþjónustu. Ef [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft. Frekari upplýsingar er að finna í [Senda stuðningsvandamál til Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) í efni fyrir stjórnendur.  
+Endursöluaðili [!INCLUDE[prod_short](includes/prod_short.md)] mun veita þér tæknilega aðstoð. Þessi hluti auðveldar þér að hafa samband endursöluaðilann þinn ef hann hefur sent inn samskiptaupplýsingar fyrir notendaþjónustu. Ef [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft.  
+
+Frekari upplýsingar er að finna í [Senda stuðningsvandamál til Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) í efni fyrir stjórnendur.  
 
 > [!NOTE]
 > Þessi hluti er eingöngu í boði ef greitt hefur verið fyrir [!INCLUDE[prod_short](includes/prod_short.md)]-áskrift. Ef þú hefur skráð þig fyrir prufuáskrift og hefur ekki enn keypt [!INCLUDE[prod_short](includes/prod_short.md)] þá hefur þú ekki endursöluaðila og getur ekki haft samband við þjónustudeild Microsoft. Hægt er að finna [!INCLUDE[prod_short](includes/prod_short.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner).  

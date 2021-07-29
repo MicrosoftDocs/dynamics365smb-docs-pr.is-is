@@ -1,19 +1,19 @@
 ---
 title: Staðfesta VSK-skráningarnúmer
-description: Leyfið Business Central að staðfesta VSK-númer og aðrar upplýsingar um fyrirtæki fyrir tengiliði þína, viðskiptamenn og lánardrottna samkvæmt VIES-þjónustu Evrópusambandsins fyrir staðfestingu VSK-númers.
+description: Leyfið Business Central að staðfesta VSK-númer fyrir tengiliði þína, viðskiptamenn og lánardrottna samkvæmt VIES-þjónustu Evrópusambandsins fyrir staðfestingu VSK-númers.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9e7c60e884ad65e209a2513d63c9434a90d9b449
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 093fec7b7d456f4145e8450d06f17f1aa78ad4c1
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770292"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543223"
 ---
 # <a name="validate-vat-registration-numbers"></a>Staðfesta VSK-skráningarnúmer
 
@@ -43,8 +43,6 @@ Hægt er að skoða VSK-skráning skránna á spjöldunum fyrir viðskiptamann, 
 > Það er á þína ábyrgð að kanna hvort gögnin séu gildi. Af og til er gögnum með villum skilað af VIES sannprófunarþjónustu fyrir VSK-númer. Ef sannprófun tekst ekki, skal sannprófa VSK-númerin á [vefsvæðinu](https://ec.europa.eu/taxation_customs/vies/), prenta út niðurstöðuna eða vista hana á samnýtt svæði og síðan bæta tenglinum við færsluna fyrir viðskiptamanninn, lánardrottin eða tengiliðinn. Frekari upplýsingar er að finna í [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md).
 
 ## <a name="validation-templates"></a>Sniðmát fyrir villuleit
-
-[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
 
 Hægt er að nota VIES-þjónustu til að athuga einnig aðrar upplýsingar um fyrirtæki, á borð við heimilisfang sem og skráningu VSK-númers. Á síðunni **Sniðmát fyrir staðfestingu VSK-skráningarnr.** skal stofna færslu fyrir hvert land sem á að fá frekari staðfestingu frá og síðan tilgreina upplýsingarnar sem á að fá sjálfkrafa staðfestar.  
 
