@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784666"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441069"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Flytja sérsniðið skýrsluútlit inn og út
 Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skrá í og úr staðsetningu á tölvu og neti. Til dæmis er hægt að flytja út skýrsluútlit og senda síðan skrána til einhvers annars til breytinga. Sá einstaklingur getur gert breytingarnar á útlitinu og skilað skránni til þín til að flytja aftur inn.  
@@ -25,7 +25,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Til að flytja út skýrsluútlit í skrá  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.  
 
 2.  Veldu röðina fyrir skýrsluna sem er með sérsniðna skýrsluútlitið sem þú vilt flytja út og svo aðgerðina **Sérstillt útlit**.  
 
@@ -39,7 +39,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
      Word-skýrsluútlitsskrá verður að vera með .docx-skráarendingu. RDLC-skýrsluútlitsskrá verður að vera með .rdlc- eða .rdl-skráarendingu.  
 
-2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
+2.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.  
 
 3.  Veldu röðina fyrir skýrsluna sem þú vilt flytja inn skýrsluútlitið og svo aðgerðina **Sérstillt útlit**.  
 

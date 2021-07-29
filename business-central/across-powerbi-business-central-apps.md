@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935312"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440875"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Með [!INCLUDE [prod_short](includes/prod_short.md)]-forritunum í Power BI
 
@@ -63,7 +63,7 @@ Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skrá
 1. Opnaðu vafrann þinn, farðu á [https://powerbi.microsoft.com](https://powerbi.microsoft.com) og skráðu þig inn á reikninginn þinn.
 2. Velja skal **Sækja gögn** neðst til vinstri á yfirlitssvæðinu.  
 
-    ![Flett um til að sækja gögn](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Flett um til að sækja gögn.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     Einnig er hægt að hefjast handa úr [!INCLUDE [prod_short](includes/prod_short.md)]. Frá heimasíðunni skaltu fara í **Skýrsluval** í hlutanum Power BI. Veldu annað hvort **Þjónusta** eða **Mitt fyrirtæki** frá borðanum. Annaðhvort opnast Fyrirtækjagalleríið í Power BI eða Microsoft AppSource, afmarkað til að sýna aðeins forrit sem tengjast [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -89,7 +89,7 @@ Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skrá
 5. Þegar beðið er um það skal færa inn notandanafn og aðgangsorð fyrir innskráningu í [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Þegar tenging hefur náðst er yfirliti og skýrslum bætt við Power BI-vinnusvæðið þitt. Þegar þessu er lokið sýna reitirnir gögn af [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtækinu þínu.
 
-    ![Veldu Dynamics 365 Business Central og Fá núna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Velja Dynamics 365 Business Central og velja Fá núna.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Vandamál lagfærð
 

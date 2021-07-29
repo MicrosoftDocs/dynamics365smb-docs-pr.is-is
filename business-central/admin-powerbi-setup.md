@@ -1,21 +1,21 @@
 ---
 title: Virkjun Power BI samþættingar við Business Central
-description: Fáið upplýsingar um hvernig á að setja upp tenginguna við Power BI til að fá innsýn, viðskiptagreind og KPI (afkastavísa) úr gögnum Business Central með forriti Business Central fyrir Power BI.
+description: Kynntu þér hvernig á að setja upp Power BI. Með Power BI skýrslum geturðu öðlast innsýn, viðskiptaupplýsingar og afkastavísa (KPI) úr Business Central gögnum.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b8fbdb89f47a05d4265751fddc10ab208901831
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: a9d8479ad1caddef3ac640ba49a8fe101f96a375
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935112"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440700"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Virkjun Power BI samþættingar við [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -27,10 +27,34 @@ Með [!INCLUDE[prod_short](includes/prod_short.md)] fá notendur ókeypis Power 
 
 |Power-leyfi|Skoða skýrslur|Stofna skýrslur|Deila skýrslum|Uppfæra skýrslur| [!INCLUDE[prod_short](includes/prod_short.md)] Forrit|
 |-------------|--------||
-|Power BI laus|![hak](media/check.png)|![annað hak](media/check.png)|(takmarkað)|(takmarkað)||
-|Power BI Pro|![enn eitt hakið](media/check.png)|![þetta er hak](media/check.png)|![aftur hak](media/check.png)|(ítarlegt)|![síðasta hakið](media/check.png)|
+|Power BI laus|![hak.](media/check.png)|![annað hak](media/check.png)|(takmarkað)|(takmarkað)||
+|Power BI Pro|![enn eitt hakið.](media/check.png)|![þetta er hak](media/check.png)|![aftur hak](media/check.png)|(ítarlegt)|![síðasta hakið](media/check.png)|
 
 Frekari upplýsingar er að finna í [Leyfi fyrir Power BI þjónustunni fyrir notendur í fyrirtækinu](/power-bi/admin/service-admin-licensing-organization) eða [Skráning á þjónustunni Power BI sem einstaklingur](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
+
+## <a name="expose-data-through-api-pages-or-odata-web-services"></a><a name="exposedata"></a>Birta gögn í gegnum API-síður eða OData-vefþjónustur
+
+Business Central býður upp á tvær leiðir til að birta gögn sem Power BI skýrslur geta notað: API-síður og OData-vefþjónustur.
+
+### <a name="api-pages"></a>API-síður
+
+> **GILDIR UM:** Eingöngu Business Central á netinu 
+
+API-síða er sérstök tegund af síðu sem er búin til í AL-kóða sem veitir aðgang að gagnagrunnstöflum í gegnum REST-þjónustu, virkjuð með OData v4, sem byggir á stuðningi veftengingar. Ekki er hægt að birta slíka síðu í notandaviðmótinu, en er ætlað til að setja á stofn áreiðanlegar samþættingarþjónustur.
+
+Business Central á netinu er í boði með safni af innbyggðu API sem hægt er að nota til að sækja gögn fyrir algengustu viðskiptaeiningarnar, eins og viðskiptavini, vörur, sölupantanir og margt fleira. Engin viðbótarvinna eða uppsetning er nauðsynleg til að nota þessi API sem gagnagjafa fyrir Power BI skýrslur. Frekari upplýsingar um þessi API er að finna í [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+
+Business Central á netinu styður einnig sérsniðin API. Þróunaraðilar Business Central-lausna geta búið til sínar eigin API-síður og pakkað þeim í viðbætur. Hægt er að setja viðbæturnar upp í leigjanda. Þegar þær hafa verið settar upp er hægt að nota API-síðurnar fyrir Power BI skýrslurnar eins og þú myndir gera með innbyggða API (v2.0). Frekari upplýsingar um hvernig á að búa til API-síður er að finna í [Þróun á sérsniðnu API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+### <a name="odata-web-services"></a>OData-vefþjónustur
+
+Þú getur birt hugbúnaðarhluti Business Central, eins og kóðaeiningar, síðu og fyrirspurnir, sem [OData-vefþjónustur](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Með Business Central á netinu eru margar vefþjónustur birtar sjálfkrafa. Auðveld leið til að finna vefþjónustu er að leita að *vefþjónustu* í [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Vefþjónusta** skal ganga úr skugga um að reiturinn **Birta** sé valinn fyrir vefþjónustuna sem finna má að ofan. Frekari upplýsingar um birtingu vefþjónustu er að finna á [Birta vefþjónustu](across-how-publish-web-service.md).
+
+Til að fræðast um hvað hægt er að gera til að tryggja bestu frammistöðu vefþjónustunnar, eins og hún birtist úr Business Central Server (endastöð) og frá neytanda (viðskiptavini), skal lesa [Skrifa gagnalega vefþjónustu](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
+
+### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>Velja hvort eigi að nota API-síður eða OData-vefþjónustur
+
+Við hvert tækifæri er mælt með að nota API-síður í stað OData-vefþjónustu. API-síður eru almennt hraðari að hlaða inn gögnum í Power BI skýrslur en OData-vefþjónustur. Auk þess eru þær sveigjanlegri vegna þess að þær gera þér kleift að sækja gögn úr töflureitum sem eru ekki skilgreindir í síðuhlut.
 
 ## <a name="set-up-prod_short-on-premises-for-power-bi-integration"></a><a name="setup"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss fyrir Power BI samþættingu
 
@@ -67,15 +91,6 @@ Frekari upplýsingar er að finna í [Leyfi fyrir Power BI þjónustunni fyrir n
     Áður en notendur geta notað Power BI í [!INCLUDE[prod_short](includes/prod_short.md)] verður stjórnandi Azure-forrits að veita samþykki fyrir Power BI-þjónustunni.
 
     Til að koma á fyrstu tengingunni skal opna [!INCLUDE[prod_short](includes/prod_short.md)] og keyra **Hefjast handa með Power BI** úr hlutverkamiðstöðinni. Þessi aðgerð mun leiða þig í gegnum samþykktarferlið og fara yfir Power BI-leyfið þitt. Þegar beðið er um innskráningu skal nota innskráningu með Azure-stjórnendareikningi. Frekari upplýsingar er að finna í [Tengjast við Power BI - aðeins einu sinni](across-working-with-powerbi.md#connect).
-
-## <a name="publish-data-as-web-services"></a>Birta gögn sem vefþjónustu
-
-Kóðaeiningar, síður og fyrirspurnir sem ætlunin er að nota sem gagnagjafa í Power BI-skýrslum verða að vera birtar sem vefþjónustur. Margar vefþjónustur birtast sjálfkrafa. Auðveld leið til að finna vefþjónustu er að leita að *vefþjónustu* í [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Vefþjónusta** skal ganga úr skugga um að reiturinn **Birta** sé valinn fyrir vefþjónustuna sem finna má að ofan. Þetta verk er oftast stjórnunarverk.
-
-Frekari upplýsingar um birtingu vefþjónustu er að finna á [Birta vefþjónustu](across-how-publish-web-service.md).
-
-> [!TIP]
-> Til að fræðast um hvað hægt er að gera til að tryggja bestu frammistöðu vefþjónustunnar, eins og hún birtist úr Business Central Server (endastöð) og frá neytanda (viðskiptavini), skal lesa [Skrifa gagnalega vefþjónustu](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

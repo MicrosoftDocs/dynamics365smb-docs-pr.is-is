@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - Meðhöndlun endurpöntunarstefnu | Microsoft Docs
-description: Yfirlit yfir verkhluta sem taka til skilgreininga á endurpöntunarstefnu í framboðsáætlun.
+title: Hönnunarupplýsingar - Meðhöndlun endurpöntunarstefnur
+description: Í þessari grein er yfirlit yfir verkefni sem tengjast meðhöndlun endurpöntunarstefna og skilgreiningu endurpöntunarstefna í birgðaáætlunargerð.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 37469fd8963131984323827f1f3d9f0b23476b70
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2bc1a4406b82e34db8ecbfa491341606a99dbee7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215204"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441796"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur
 Til þess að vara geti tekið þátt í birgðaáætlunargerð verður að tilgreina endurpöntunarstefnu. Eftirfarandi fjórar endurpöntunarstefnur eru til:  
@@ -67,7 +67,7 @@ Eftirfarandi röð lýsir því hvernig áætlað birgðastig er ákvarðað:
 
 Eftirfarandi sýnir mynd af þessari meginreglu:  
 
-![Ákvarða áætlaðar birgðir](media/nav_app_supply_planning_2_projected_inventory.png "Ákvarða áætlaðar birgðir")  
+![Ákvarða áætlaðar birgðir.](media/nav_app_supply_planning_2_projected_inventory.png "Ákvarða áætlaðar birgðir")  
 
 1. Framboð **Sa** af 4 (fast) lokar Eftirspurn **Da** af -3.  
 2. CloseDemand: Búa til lækkunaráminningu -3 (ekki sýnt).  
@@ -94,7 +94,7 @@ Fyrir endurpöntunarstefnur sem nota endurpöntunarmark er hægt að skilgreina 
 
 Tímaramminn endurspeglar það handvirka ferli að kanna birgðastigið oft fremur en fyrir hverja færslu. Notandinn verður að tilgreina tíðnina (tímarammann). Til dæmis safnar notandinn saman öllum vöruþörfum frá einum lánardrottni til að leggja inn vikulega pöntun.  
 
-![Dæmi um tímaramma í skipulagningu](media/nav_app_supply_planning_2_reorder_cycle.png "Dæmi um tímaramma í skipulagningu")  
+![Dæmi um tímaramma í skipulagningu.](media/nav_app_supply_planning_2_reorder_cycle.png "Dæmi um tímaramma í skipulagningu")  
 
 Tímaramminn er vanalega notaður til að forðast keðjuverkun. Til dæmis jöfn lína framboðs og eftirspurnar þar sem fyrri eftirspurn er afturkölluð eða ný búin til. Niðurstaðan ætti að vera sú að framboðspöntunin (nema sú síðasta) er enduráætluð.
 
@@ -103,7 +103,7 @@ Tímaramminn er vanalega notaður til að forðast keðjuverkun. Til dæmis jöf
 
 *Athugið: Áætlaðar birgðir [xx] er hærra en yfirflæðisstig [xx] á gjalddaga [xx].*  
 
-![Yfirflæðisstig birgða](media/supplyplanning_2_overflow1_new.png "Yfirflæðisstig birgða")  
+![Yfirflæðisstig birgða.](media/supplyplanning_2_overflow1_new.png "Yfirflæðisstig birgða")  
 
 ###  <a name="calculating-the-overflow-level"></a>Reiknar yfirflæðisstig  
 Yfirflæðisstigið er reiknað út á mismunandi hátt, allt eftir uppsetningu áætlana.  
@@ -179,7 +179,7 @@ Dæmi Áætlaðar birgðir 120 eru meiri en yfirflæðisstigið 60 á 28-01-11
 #### <a name="resulting-planning-lines"></a>Áætlunarlínur  
  Ein áætlunarlína (viðvörun) er stofnuð til að draga úr innkaupum um 30 úr 90 í 60 til að halda áætluðum birgðum í 100 samkvæmt yfirflæðisstiginu.  
 
-![Áætla samkvæmt yfirflæðisstigi](media/nav_app_supply_planning_2_overflow2.png "Áætla samkvæmt yfirflæðisstigi")  
+![Áætla samkvæmt yfirflæðisstigi.](media/nav_app_supply_planning_2_overflow2.png "Áætla samkvæmt yfirflæðisstigi")  
 
 > [!NOTE]  
 >  Ef búnaðurinn Yfirfall er ekki til staðar er ekki stofnuð nein viðvörun ef áætlaðar birgðir eru meiri en hámarksbirgðir. Þetta kann að valda óþörfu framboði upp á 30.
@@ -193,7 +193,7 @@ Endurpöntunarmarkið endurspeglar ætlaða eftirspurn á afhendingartíma vöru
 
  Í eftirfarandi dæmi, framboð D táknar neyðarpöntun til að leiðrétta fyrir neikvæðum birgðum.  
 
- ![Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu](media/nav_app_supply_planning_2_negative_inventory.png "Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu")  
+ ![Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu.](media/nav_app_supply_planning_2_negative_inventory.png "Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu")  
 
 1.  Framboð **A**, fyrstu áætlaðar birgðir, er undir pöntunarmark.  
 2.  Nýtt framsendingaráætlað framboð er stofnað (**C**).  

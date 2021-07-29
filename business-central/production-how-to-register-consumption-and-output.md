@@ -1,6 +1,6 @@
 ---
-title: Skrá notkun og frálag fyrir eina framleiðslupöntun | Microsoft Docs
-description: Þessi aðgerð er framkvæmd á síðunni **Framleiðslubók**. Bókin sameinar aðgerðir notkunarbókar og afkastabókar í eina bók sem hægt er komast í beint úr framleiðslupöntun. Hún er notuð í handvirka bókun íhlutanotkunar, lokamagns framleiddra vara og tíma sem fer í aðgerðir. Megintilgangur hennar er að bóka handvirkt notkun íhluta, magn framleiddra endanlegra vara og stundir sem búið er að eyða í aðgerðir.
+title: Skrá notkun úttaks fyrir framleiðslupöntun
+description: Þetta efnisatriði útskýrir hvernig á að skrá notkun og úttak fyrir losaða framleiðslupöntunarlínu sem sýnd er á síðu framleiðslubókar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3b73c2cde88292a38c43e9fcc3bd63b031cd6591
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2ecf59472adb8b153b2b6feeea62591e0565085
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787828"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441548"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu
 Þessi aðgerð er framkvæmd á síðunni **Framleiðslubók**. Bókin sameinar aðgerðir notkunarbókar og afkastabókar í eina bók sem hægt er komast í beint úr framleiðslupöntun. Hún er notuð í handvirka bókun íhlutanotkunar, lokamagns framleiddra vara og tíma sem fer í aðgerðir. Megintilgangur hennar er að bóka handvirkt notkun íhluta, magn framleiddra endanlegra vara og stundir sem búið er að eyða í aðgerðir. Gildin eru bókuð í fjárhagsfærslur undir útgefnu framleiðslupöntuninni. Notkunarmagn bókað sem neikvæðar Færslur í birgðafærslum, Frálagsmagn er bókað sem jákvæðar birgðafærslur og tími sem varið er er bókaður sem afkastagetufærslur. Þessi bókuðu gildi er einnig hægt að skoða neðst í bókinni sem raunverulegt magn.  
@@ -27,7 +27,7 @@ ms.locfileid: "5787828"
 >  Íhlutir án leiðartengilskóta er skráðir fyrst í bókina.  
 
 ## <a name="to-register-consumption-and-output"></a>Notkun og frálag skráð  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Losaðar framl.pantanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Losaðar framleiðslupantanir** og velja síðan viðkomandi tengil.  
 2.  Opna skal útgefna framleiðslupöntunarlínu sem er tilbúin til skráningar, og svo á flýtiflipanum **Línur** skal velja **Lína**, aðgerðina og svo **Framleiðslubók** aðgerðina.  
 
     Þegar síðan **Framleiðslubók** er opnuð, birtast færslubókarlínur fyrir framleiðslupöntunarlínuna í samræmi við síðurnar **Íhlutir framl.pöntunar** og **Leið framl.pöntunar**. Þessar línur koma úr framleiðsluuppskriftinni og leiðum sem úthlutað er á vöruna sem verið er að framleiða. Frekari upplýsingar eru í [Stofna framleiðsluuppskriftir](production-how-to-create-routings.md).  

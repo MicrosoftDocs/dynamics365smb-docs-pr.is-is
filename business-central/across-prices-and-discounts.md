@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d9dd61f073567dd38c4f80e77bb4ecd0584f558f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7988d7f1b40fed65078032d05c8b12d8e174bc90
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787233"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440825"
 ---
 # <a name="set-up-prices-and-discounts"></a>Setja upp verð og afslætti
 > [!NOTE]
@@ -47,7 +47,7 @@ Verðlistar eru sveigjanlegir og gera þér kleift að tilgreina viðskiptaféla
 
 #### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Velja skal viðskiptamanninn og síðan velja aðgerðina **Verð**.
 3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyllt er út lína fyrir hverja samsetningu sem veitir sérstakt söluverð fyrir viðskiptamanninn.
 
@@ -58,7 +58,7 @@ Sjálfgefið er að staða nýrra verðlista sé **Drög**. Þegar notandi er re
 
 Til að yfirfara verðlista og verð sem gilda fyrir tiltekna viðskiptamenn eða lánardrottna á síðunum **Viðskiptamaður** eða **Lánardrottinn** skal velja annaðhvort aðgerðina **Söluverðlistar** eða **Innkaupsverðlistar**. Fyrir vörur og tilföng er hægt að skoða verðlistalínur með því að velja **Söluverð** eða **Innkaupaverð** á síðunum **Vara** og **Tilfang**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Veldu viðskiptamann og veldu svo aðgerðina **Söluverðlistar**. 
 3. Veljið **Nýtt** til að stofna nýja söluverðslista.
 4. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt** og **Skattur**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,7 +75,7 @@ Til að yfirfara verðlista og verð sem gilda fyrir tiltekna viðskiptamenn eð
 
 #### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience/)  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Opna skal viðeigandi viðskiptamannaspjald og veljið svo aðgerðina **Línuafslættir**.
 3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyllt er út lína fyrir hverja samsetningu sem veitir sérstakan sölulínuafslátt fyrir viðskiptamanninn.
 
@@ -86,7 +86,7 @@ Til að yfirfara verðlista og verð sem gilda fyrir tiltekna viðskiptamenn eð
 
 #### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Veldu viðskiptamann og veldu svo aðgerðina **Söluverðlistar**.
 3. Opnið verðlistann þar sem tilgreina á línuafsláttinn.
 4. Kveikið á **Leyfa línuafsl.**.
@@ -118,7 +118,7 @@ Til viðbótar við (eða í staðinn fyrir) afsláttarprósentu er hægt að te
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Að setja upp reikningsafslátt fyrir viðskiptamann
 Eftir að ákveðið hefur verið hvaða viðskiptamenn geti fengið reikningsafslátt er færður inn reikningsafsláttarkóði á viðskiptamannaspjöldin og sett upp skilyrði fyrir hvern kóða.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Opna skal síðu viðskiptamanns sem getur fengið reikningsafslátt.
 3. Í reitinn **Reikningsafsláttarkóði** er færður inn kóði fyrir viðeigandi reikningsafsláttarskilmála sem forritið notar til að reikna reikningsafslátt fyrir viðskiptamanninn. <!--Looks like I can only choose customers in this list-->
 
@@ -142,7 +142,7 @@ Reikningsafsláttur er nú settur upp og úthlutað á umræddan viðskiptamann.
 
 Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.** runuvinnslan á síðunni **Vinnublað söluverðs**.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað söluverðs** og velja síðan viðkomandi tengil.  
 2. Velja skal **Leggja til söluverð á vinnublaði** Aðgerð  
 3. Á flýtiflipanum **Söluverð** skal færa þá **tegund sölu** og **kóta sölu** sem gilda í söluverðinu sem á að afrita inn í reitina.  
 4. Efst á beiðnisíðunni er fyllt út í reitunum **Tegund sölu** og **Kóta sölu** með gerðinni og heitinu sem afrita á söluverðið í.  
@@ -156,7 +156,7 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
 
 Staða verðlistans verður að vera **Drög**. 
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluverðlistar** og veldu síðan tengda tengilinn. 
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Söluverðlistar** og veldu síðan tengda tengilinn. 
 2. Velja skal verðlistann sem á að afrita og velja síðan **Afrita línur**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -172,7 +172,7 @@ Staða verðlistans verður að vera **Drög**.
 
 Ef magnuppfæra á vöruverð, t.d. hækka öll vöruverð um einhverja prósentu, er nauðsynlegt að keyra **Leggja til vöruverð á vinnublaði** keyrsla. Þú getur fundið tengil á keyrsluna á síðunni **Vinnublað söluverðs**.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað söluverðs** og velja síðan viðkomandi tengil.  
 2. Veldu **Leggja til vöruverð á vinnublaði** Aðgerð  
 3. Á flýtiflipanum **Vara** er reiturinn **Nr.** fylltur út eða **Birgðabókunarflokkur** eða aðrir reitir með upprunalegu vöruverði sem á að uppfæra.  
 4. Efst á beiðnisíðunni er fyllt út í **Tegund sölu** og **Kóta sölu** með gerðinni og heitinu sem afrita á söluverðið í.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0abd3da4abd0b91b7541fb545606c569f98b987
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d13bfaf069a10cb1ff92806dbceb46811a770fac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787853"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441573"
 ---
 # <a name="post-scrap-manually"></a>Bóka úrkast handvirkt
 Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í afkastabókina. 
@@ -24,7 +24,7 @@ Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í af
 > Bent er á að úrkastsmagnið eykur ekki afkastamagnið.  
 
 ## <a name="to-post-scrap-manually"></a>Úrkast bókað handvirkt:  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frálagsbók** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Úttaksbók** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Úrkastsmagnið er fært í reitinn **Úrkastsmagn**.  
 4. Úrkastskótinn er færður inn í reitinn **Úrkastskóti**.  

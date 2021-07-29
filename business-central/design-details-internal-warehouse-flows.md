@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - Innra vöruhúsaflæði | Microsoft Docs
-description: Flæði vara á milli hólfa innan fyrirtækis snýst um að tína íhluti og taka frá endanleg vara fyrir framleiðslu- eða samsetningupantanir og tilfallandi hreyfingar, svo sem áfyllingu hólfs, án tengslum við upprunaskjöl.
+title: Hönnunarupplýsingar - Innra vöruhúsaflæði
+description: Flæði á milli hólfa snýst um að tína hluti og ganga frá endanlegum vörum fyrir samsetningar- eða framleiðslupantanir og tilfallandi hreyfingar án upprunaskjala.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7be0a3907b59a17e6f77e4ae8eb3a36fc62d8f7a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215129"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441748"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Hönnunarupplýsingar: Innra vöruhúsaflæði
 Flæði vara á milli hólfa innan fyrirtækis snýst um að tína íhluti og taka frá endanleg vara fyrir framleiðslu- eða samsetningupantanir og tilfallandi hreyfingar, svo sem áfyllingu hólfs, án tengslum við upprunaskjöl. Umfang og eðli tengdra aðgerða eru mismunandi á milli grunnvörugeymslu og ítarlegri vörugeymslu.  
@@ -114,7 +114,7 @@ Flæði vara á milli hólfa innan fyrirtækis snýst um að tína íhluti og ta
 
  Eftirfarandi mynd sýnir þegar reiturinn **Hólfkóti** á efnisþáttalista er fylltur út út frá staðsetningu notanda eða uppsetningu vinnuvélar-/vinnustöðvarmiðstöðvar.  
 
- ![Yfirlit yfir hvenær/hvernig hólfakóðareitur er fylltur inn](media/binflow.png "Yfirlit yfir hvenær/hvernig hólfakóðareitur er fylltur inn")  
+ ![Yfirlit yfir hvenær/hvernig hólfakóðareitur er fylltur út.](media/binflow.png "Yfirlit yfir hvenær/hvernig hólfakóðareitur er fylltur inn")  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)

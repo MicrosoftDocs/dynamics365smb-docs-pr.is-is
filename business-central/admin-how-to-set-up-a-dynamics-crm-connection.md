@@ -1,6 +1,6 @@
 ---
 title: Tengjast við Microsoft Dataverse
-description: Notkun annarra forrita með Business Central um Microsoft Dataverse. Í þessari grein eru ábendingar og ráð við uppsetningu tenginganna.
+description: Settu upp tengingu milli Business Central og Dataverse. Yfirleitt stofna fyrirtæki tenginguna til að samþætta og samstilla gögn við annað Dynamics 365 Business-forrit.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/26/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: a29fb1e0a8e10e91a811914a9188548149d5125a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063478"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441344"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Tengjast við Microsoft Dataverse
 
@@ -64,7 +64,7 @@ Leiðbeiningar um uppsetningu Dataverse tengingar getur auðveldað verkið við
 > [!IMPORTANT]
 > Yfirleitt er aðeins hægt að nota fulla samstillingu þegar forritin eru samþætt í fyrsta skipti og aðeins eitt forrit inniheldur gögn. Full samstilling getur reynst gagnleg í sýniumhverfi vegna þess að hún stofnar og tengir færslur sjálfkrafa í hverju forriti fyrir sig, sem flýtir fyrir því að geta hafið vinnu með samstillt gögn. Hinsvegar ætti aðeins að keyra fulla samstillingu ef þú vilt eina línu í [!INCLUDE[prod_short](includes/prod_short.md)] fyrir hverja línu í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] fyrir töfluvarpanirnar. Annars getur það leitt til tvítekinna færslna.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning með hjálp** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp** og velja síðan viðkomandi tengil.
 2. Veldu **Setja upp tengingu við Microsoft Dataverse** til að hefja leiðbeiningar um uppsetningu með hjálp.
 3. Fyllið inn reitina eftir þörfum.
 
@@ -75,7 +75,7 @@ Leiðbeiningar um uppsetningu Dataverse tengingar getur auðveldað verkið við
 
 Eftirfarandi ferli útskýrir hvernig á að setja upp tenginguna á síðunni **Dataverse Uppsetning tengingar**. Þetta er einnig síðan þar sem stillingum fyrir samþættingu er stjórnað.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Dataverse Uppsetning tengingar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Dataverse Uppsetning tengingar** og velja síðan viðkomandi tengil.
 2. Færðu inn eftirfarandi upplýsingar fyrri tenginguna frá [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Svæði|Description|
@@ -106,6 +106,28 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
+
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Uppfæra tengingar frá Business Central Online til að nota auðkenningu sem byggir á skilríki
+> [!NOTE]
+> Þessi hluti á aðeins við fyrir leigjendur Business Central á netinu sem eru hýstir hjá Microsoft. Það hefur engin áhrif á leigjendur á netinu sem eru hýstir hjá óháðum hugbúnaðarsölum og uppsetningar á staðnum.
+
+Í apríl 2022 mun [!INCLUDE[cds_long_md](includes/cds_long_md.md)] taka úr umferð auðkenningarleið Office365 (notandanafn/lykilorð). Frekari upplýsingar er að finna í [Auðkenningarleið Office365 tekin úr umferð](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Auk þess mun [!INCLUDE[prod_short](includes/prod_short.md)] í mars 2022 taka úr umferð notkun auðkenningu milli þjónusta sem byggir á leyniorði biðlara fyrir leigjendur á netinu og mun krefjast þess að notuð verði auðkenning milli þjónusta sem byggir á skilríkjum fyrir tengingar við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Leigjendur [!INCLUDE[cds_long_md](includes/cds_long_md.md)] á netinu sem óháðir hugbúnaðarsalar hýsa, og uppsetningar á staðnum, geta haldið áfram að nota auðkenningu Office365 sem samstarfsaðili Microsoft setur upp.
+
+Til að koma í veg fyrir truflanir á samþættingum _verður að uppfæra_ tenginguna til að nota auðkenningu sem byggir á skilríki. Þó að breytingin sé áætluð mars 2022 mælum við eindregið með því að þú uppfærir eins fljótt og auðið er. Eftirfarandi skref útskýra hvernig á að uppfæra auðkenningu með skilríkjum. 
+
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Til að uppfæra nettengingu við Business Central til að nota auðkenningu með skilríkjum
+> [!NOTE]
+> Auðkenning með skilríkjum er í boði í Business Central 2021, útgáfutímabili 1 og nýrri. Ef notuð er eldri útgáfa verður að uppfæra í Business Central 2021 útgáfu 1 fyrir mars 2022. Frekari upplýsingar er að finna í [Uppfærslur áætlaðar](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Ef vandamál koma upp skaltu hafa samband við samstarfsaðila eða notendaþjónustu.
+
+1. Í [Business Central administration center]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) skaltu ganga úr skugga um að þú sért að nota Business Central 2021 útgáfutímabil 1 eða síðar (útgáfa 18 eða síðar).
+2. Gerðu eitt af eftirfarandi ef þú samþættar við Dynamics 365 Sales:
+   * Ef þú gerir það skaltu opna **Microsoft Dynamics Uppsetningarsíðu 365**.
+   * Ef ekki skaltu opna **Dataverse Uppsetningarsíðu**.
+3. Veldu **Tenging** og síðan **Nota sannvottun vottorðs** til að uppfæra tenginguna til að nota sannvottun sem byggir á vottorði.
+4. Skráðu þig inn með innskráningarupplýsingum stjórnanda fyrir Dataverse. Innskráning ætti að taka innan við mínútu.
+
+> [!NOTE]
+> Þú verður að endurtaka þessi skref í hverju [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi, þar á meðal bæði framleiðslu- og sandkassaumhverfi, og í hverju fyrirtæki þar sem þú tengist [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ## <a name="connecting-on-premises-versions"></a>Að tengja útgáfur á staðnum
 
@@ -149,7 +171,7 @@ Eftirfarandi skref gera ráð fyrir að nota Azure AD til að stjórna auðkennu
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Að aftengjast [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Dataverse Uppsetning tengingar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Dataverse Uppsetning tengingar** og velja síðan viðkomandi tengil.
 2. Á síðunni **Dataverse Uppsetning CDS-tengingar** skal slökkva á víxlhnappnum **Virkjað**.  
 
 ## <a name="see-also"></a>Sjá einnig

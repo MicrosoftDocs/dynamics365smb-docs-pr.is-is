@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að skipuleggja Tínslur á vinnublaðinu | Microsoft Docs
-description: Ef vöruhúsið er sett upp með bæði tínslu- og afhendingarvinnslu er hægt að velja að línurnar á afhendingarskjölum flytjist ekki sjálfkrafa í tínsluleiðbeiningar heldur verði þess í stað tiltækar á vinnublaði tínslunnar.
+title: Hvernig á að skipuleggja tínslur á vinnublaðinu
+description: Kynntu þér hvernig vöruhúsið getur valið að starfa þannig að línurnar í afhendingarskjölum séu tiltækar á vinnublaði tínslu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 55ac86ff992709bb454eaadfa65d8d5eed98732e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46032a3a3ef44d56953ca9db7185e96eacf0770e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782585"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441836"
 ---
 # <a name="plan-picks-in-worksheets"></a>Skipuleggja tínslur á vinnublaðinu
 
@@ -39,11 +39,11 @@ Ef raðað er eftir gjalddaga er hægt að eyða öllum línum öðrum en þeim 
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Tínslur skipulagðar á vinnublaðinu:
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsluvinnublöð** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað tínslu** og velja síðan viðkomandi tengil.  
 2. Valið er **Sækja vöruhúsaskjöl** aðgerð.  
 3. Afhendingarnar sem undirbúa á tínslu fyrir eru valdar. Nú er hægt að raða línunum upp að vissu marki en röðunin sem hér er gerð flyst ekki áfram í tínsluleiðbeiningarnar. Einnig er hægt að eyða línum til að gera tínsluna skilvirkari. Til dæmis, ef til eru línur með vörum í hjáskipunarhólfum er hægt að stofna tínslu fyrir allar línur sem tengjast þeim línum. Hjáskipunarvörurnar verða sendar (ásamt hinum vörunum í afhendingunum) og hjáskipunarhólfin hafa pláss fyrir fleiri vörur.  
 4. Velja aðgerðina **Stofna tínslu** og beiðnisíðan **Stofna tínslu** er fyllt út. Röðunin hér raðar tínslulínunum sem stofnaðar eru. Til dæmis er hægt að stofna eina tínslu fyrir hvert svæði og raða línum eftir hólfaflokkum innan hverrar tínslu.  
-5. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsatínslur** og veldu síðan tengda tengilinn. Síðan **Vöruhúsatínslur** opnast.  
+5. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsatínslur** og velja síðan viðkomandi tengil. Síðan **Vöruhúsatínslur** opnast.  
 6. Nú er hægt að finna tínsluúthlutunina sem stofnuð var með því að velja tínsluna með hæsta númerinu.  
 7. Í tínslunni er hægt að breyta notandakenninu og röðun línanna ef þess þarf.  
 8. Veldu hnappinn **Prenta** til þess að prenta tínsluleiðbeiningarnar.  

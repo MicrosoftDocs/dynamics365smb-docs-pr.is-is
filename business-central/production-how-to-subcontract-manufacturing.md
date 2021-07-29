@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að úthýsa framleiðslu til undirverktaka | Microsoft Docs
-description: Þegar innkaupapöntunin hefur verið stofnuð í Vinnublaði undirverktaka er hægt að bóka hana.
+title: Hvernig á að úthýsa framleiðslu til undirverktaka
+description: Þetta efnisatriði sýnir stækkað yfirlit yfir útvíkkaða virkni undirverktaka í Business Central, þ.m.t. reiti vinnustöðvar og leiðir.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b717e5674130661e12b48e6c0f37473098b892
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787703"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441523"
 ---
 # <a name="subcontract-manufacturing"></a>Úthýsa framleiðslu til undirverktaka
 Úthýsing á völdum aðgerðum til lánardrottna er algeng í mörgum framleiðslufyrirtækjum. Undirverktakastarfsemi getur verið sjaldgæf hending eða mikill þáttur í öllum framleiðsluferlum.
@@ -52,7 +52,7 @@ Síðan **Vinnublað undirverktakasamninga** virkar eins og **Áætlunarvinnubla
 >  Aðeins er hægt að fá aðgang að og nota framleiðslupantanir sem hafa stöðuna **Útgefin** á vinnublaði undirverktaka.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Útreikningur Vinnublaðs undirverktakasamnings  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað undirverktakasamnings** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað undirverktaka** og velja síðan viðkomandi tengil.  
 2.  Til að reikna út vinnublaðið er smellt á aðgerðina **Útreikningur verktakasamninga**.  
 3.  Á síðunni **Reikna út undirverktaka** er hægt að stilla afmarkanir fyrir aðgerðir undirverktaka eða vinnustöðvar þar sem þær eru framkvæmdar til að reikna aðeins viðeigandi framleiðslupantanir.  
 4.  Velja hnappinn **Í lagi**.  
@@ -60,7 +60,7 @@ Síðan **Vinnublað undirverktakasamninga** virkar eins og **Áætlunarvinnubla
     Fara yfir línurnar á síðunni **Vinnublað undirverktakasamninga**. Upplýsingarnar á þessu vinnublaði koma frá framleiðslupöntuninni og leiðarlínum framleiðslupöntunarinnar og flæðir til innkaupapöntunarinnar þegar það skjal er búið til. Hægt er að eyða röð úr vinnublaðinu án þess að hafa áhrif á upphaflegu upplýsingarinnar, líkt og gert er við önnur vinnublöð. Upplýsingarnar birtast aftur í næsta skipti sem aðgerðin **Reikna undirverktakasamninga** er keyrð.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Að búa til Framleiðslupöntun undirverktakans  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað undirverktakasamnings** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað undirverktaka** og velja síðan viðkomandi tengil.  
 2.  Veljið aðgerðina **Framkvæma aðgerðaboð**.  
 3.  Hakað er í reitinn **Prenta pantanir** til að prenta innkaupapöntunina þegar hún er stofnuð.  
 4.  Velja hnappinn **Í lagi**.  
@@ -73,7 +73,7 @@ Vinnublaðslínunni sem var breytt í innkaupapöntun er eytt af vinnublaðinu. 
 Þegar Innkaupapantanir undirverktaka hafa verið stofnaðar er hægt að bóka þær. Við móttöku pöntunarinnar bókast Afkastagetufærsla á framleiðslupöntunina og þegar reikningur er gerður bókast beinn kostnaður af innkaupapöntuninni á framleiðslupöntunina.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Til að bóka innkaupapöntun undirverktaka  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.  
 2.  Opna innkaupapöntun sem er stofnaður frá undirverktakasamningi.  
 
     Á innkaupapöntunarlínunum má sjá sömu upplýsingar og þær sem voru í vinnublaðinu. Reitirnir **Framl.pöntun nr.**, **Framl.pöntunarlínunr.**, **Aðgerðarnr.** og **Vinnustöðvarnr.** eru fylltir út með upplýsingunum úr upprunaframleiðslupöntun.  

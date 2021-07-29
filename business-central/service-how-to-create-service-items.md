@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að stofna Þjónustuvörur | Microsoft Docs
-description: Þegar tekið er við óskráðri vöru vegna þjónustu má skrá hana sem þjónustuvöru.
+title: Hvernig á að stofna Þjónustuvörur
+description: Lestu um mismunandi leiðir sem hægt er að fara til að búa til þjónustuvörur í Business Central, til dæmis innan þjónustupöntunar eða við sendingu á vörum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4e6568a02c6a1aca524cb1a3f3a6cbd4798d6d3b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8803883e69678ee636c26b66bd34d38cfabe0042
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770714"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441961"
 ---
 # <a name="create-service-items"></a>Stofna þjónustuatriði
 Í [!INCLUDE[prod_short](includes/prod_short.md)] vísar hugtakið „þjónustuvara“ til búnaðar eða vöru þarfnast þjónustu. Þegar þú stofnar þjónustupöntun, tilgreinirðu vöruna sem þarfnast þjónustu. Í pöntuninni geturðu tengt þjónustuvöru við vöru í birgðum eða þjónustuvöruflokk.    
@@ -23,13 +23,13 @@ ms.locfileid: "5770714"
 Þegar tekið er við vöru sem þarfnast þjónustu má skrá hana sem þjónustuvöru. Hægt er gera það á nokkra vegu: Þú getur t.d. stofnað þjónustuvöru á **Þjónustuvörur** síðunni, eða sem hluta af öðru ferli, eins og þegar þú vinnur með þjónustupöntun.   
 
 ## <a name="to-create-a-service-item"></a>Þjónustuvörur stofnaðar:  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuvörur** og svo velja viðeigandi tengil.
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Þjónustuvörur stofnaðar út frá þjónustupöntunum  
 Þegar tekið er við vöru til þjónustu og þarf að skrá hana sem þjónustuvöru er hægt að stofna þjónustuvöru á síðunum **Þjónustupöntun** eða **Þjónustutilboð**.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Veljið aðgerðina **Stofna þjónustuvara**.  
 
@@ -40,7 +40,7 @@ ms.locfileid: "5770714"
 
 Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar sölupöntunarvara er send.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Viðeigandi sölupöntun er opnuð.  
 3. Veljið aðgerðina **bóka** eða **Bóka og prenta**.  
 4. Velja **Afhenda** eða **Afhenda og reikningsfæra** aðgerðina.  
@@ -52,7 +52,7 @@ Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar sölupön
 >  Ef vara er uppskrift og ekki búið að opna uppskriftina eru þjónustuvörur stofnaðar fyrir hana eftir skilyrðinu um þjónustuvöruflokk, og ef vill, raðnúmer.  
 
 ## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Upphafsgjald vegna þjónustuvöru sett inn:
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuverk** og svo velja viðeigandi tengil.
 2. Velja aðgerðina **Vöruvinnublað**.
 3. Velja þjónustulínuna og síðan **Aðgerðir**, velja **Aðgerðir** og síðan velja **Setja inn upphafsgjald** aðgerðina.  
 

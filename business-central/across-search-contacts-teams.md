@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935162"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440750"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams
 
@@ -42,13 +42,13 @@ Skipanareiturinn er efst á hverjum skjá í Teams. Hann gerir notendum kleift a
 
 1. Í skipanareitnum skal slá inn **@Business Central**, síðan velja Business Central-forritið úr niðurstöðunum.
 
-    ![Opna Business Central forrit til að leita að tengiliðum úr skipanareit](media/teams-contacts-command-1.png)
+    ![Opna Business Central forrit til að leita að tengiliðum úr skipanareit.](media/teams-contacts-command-1.png)
 
 2. Í reitinn **Business Central** skal slá inn leitartexta eins og heiti, aðsetur eða símanúmer.
 
     Samsvarandi niðurstöður birtast við innslátt.
 
-    ![Leita að tengiliðum Business Central úr skipanareit Teams](media/teams-contacts-command-2.png)
+    ![Leita að tengiliðum Business Central úr skipanareit í Teams.](media/teams-contacts-command-2.png)
 3. Velja skal tengilið úr niðurstöðunum.
 
     Tengiliðaspjaldið birtist fyrir neðan skipanareitinn.
@@ -65,13 +65,13 @@ Kosturinn við að nota skrifglugga skilaboða er sá að hægt er að bæta ten
 
     Ef tákn **Business Central** sést ekki skal velja **... (Viðbætur fyrir skilaboð)**.
 
-    ![Opna forrit Business Central til að leita að tengiliðum úr skilaboðaglugga](media/teams-contacts-message-box.png)
+    ![Opna forrit Business Central til að leita að tengiliðum úr skilaboðaglugga.](media/teams-contacts-message-box.png)
 
 2. Í reitinn **Business Central** skal slá inn leitartexta eins og heiti, aðsetur eða símanúmer.
 
     Samsvarandi niðurstöður birtast við innslátt.
 
-    ![Leita að tengiliðum Business Central úr skilaboðaglugga](media/teams-contacts-5.png)
+    ![Leita að tengiliðum Business Central úr skilaboðaglugga.](media/teams-contacts-5.png)
 3. Velja skal tengilið úr niðurstöðunum.
 
     Tengiliðaspjaldið birtist í skrifglugga skilaboða.
@@ -101,6 +101,8 @@ Tengiliðaspjaldið virkar alveg eins og spjöld fyrir færslur eins og vörur, 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  
 [Teams - Algengar spurningar](teams-faq.md)  
+[Breyta fyrirtæki og aðrar stillingar í Teams](across-teams-settings.md)  
+[Deila færslum í Microsoft Teams](across-working-with-teams.md)  
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

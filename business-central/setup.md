@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir verkefni til að setja upp Business Central
-description: Útskýrir hvernig skal setja upp, forsníða og frumstilla Business Central eftir þínum þörfum.
+description: Lestu yfirlit yfir verkin til að setja upp, frumstilla og skilgreina Business Central eftir þínum þörfum.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781457"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441423"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Yfirlit yfir verkefni til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781457"
 
 Til dæmis er yfirlit yfir reikninga áfyllt með fjölda pósthólf sem eru tilbúnar til notkunar. Að sjálfsögðu geturðu breytt bókhaldslyklinum til að uppfylla þarfir þínar. Frekari upplýsingar eru í [Fjármál](finance.md).
 
-Frá ![Sprocket tákninu til að opna Stillingavalmynd](media/ui-experience/settings_icon_small.png), er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[prod_short](includes/prod_short.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningarsíðum með hjálp og handvirkum uppsetningarsíðum eru í [Undirbúningur fyrir viðskipti](ui-get-ready-business.md).  
+Frá tákninu ![Sprocket til að opna stillingavalmynd.](media/ui-experience/settings_icon_small.png) valmynd, er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[prod_short](includes/prod_short.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningarsíðum með hjálp og handvirkum uppsetningarsíðum eru í [Undirbúningur fyrir viðskipti](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]

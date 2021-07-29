@@ -11,18 +11,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 5f2ba1b65f92e2415ae67a3ee4b4c48bebbde9be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc137cb8c45d935be28d5ededc435d2d4648f8bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772305"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441045"
 ---
 # <a name="preview-posting-results"></a>Forskoða Bókunarniðurstöður
 Á hverju skjali og færslubók sem er hægt að bóka, geturðu valið **forskoða bókun** hnappinn til að Yfirfara ólíkar færslugerðir sem verða stofnaðar þegar fylgiskjal eða færslubók er bókuð.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>forskoða fjárhagsfærslurnar sem verða til úr bókun á innkaupareikningi
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.
 2. Stofna innkaupareikning. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Velja **Forskoða bókun**
 4. Á síðunni **Forskoðun bókunar**, skal velja **Fjárhagsfærsla**, og síðan **Sýna tengdar færslur**.  

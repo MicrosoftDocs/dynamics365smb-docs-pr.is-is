@@ -1,6 +1,6 @@
 ---
-title: Birta sérstilltar Power BI-skýrslur fyrir Business Central Data
-description: Hægt er að nota Power BI skýrslur til að öðlast frekari innsýn í gögn í listum.
+title: Birta sérsniðnar Power BI skýrslur
+description: Hægt er að nota Power BI upplýsingareit til að sýna Power BI skýrslur og öðlast betri innsýn í færslugögn í mikilvægum listum.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/26/2021
+ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087695"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440925"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Býr til Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -53,7 +53,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
     2. Dragið reitinn yfir á svæðið **Síur** og sleppið honum í reitinn **Síur á öllum síðum**.
     3. Stillið **Síugerðina** á **Grunnsíun**. Það getur ekki verið síða, sjónrænt eða ítarleg sía.
 
-    ![Afmörkun skýslu stillt fyrir Aðgerðaskráningu sölureikninga](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+    ![Afmörkun skýrslu stillt fyrir aðgerðaskráningu sölureikninga.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 4. Hannið útlit skýrslunnar.
 
     Búið til útlitið með því að draga til reiti og bæta við myndrænum framsetningum. Frekari upplýsingar er að finna í [Vinna með skýrsluyfirlit í Power BI Desktop](/power-bi/create-reports/desktop-report-view) í Power BI-fylgigögnum.
@@ -86,7 +86,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 Stærð skýrslu verður að stilla á 325 sinnum 310 pixla. Þessi stærð býður upp á rétta kvörðun á skýrslu í tiltæku bili í Power BI stjórnun upplýsingareits í [!INCLUDE[prod_short](includes/prod_short.md)]. Til að skilgreina stærð skýrslu skal staðsetja fókus utan svæðis fyrir útlit skýrslu og velja svo tákn fyrir málningarrúllu.
 
-![Breidd og hæð skýrslu stillt fyrir Aðgerðaskráningu sölureikninga](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
+![Breidd og hæð skýrslu stillt fyrir Aðgerðaskráningu sölureikninga.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 Hægt er að breyta breidd og hæð skýrslunnar með því að velja **Sérsníða** í reitnum **Tegund**.
 

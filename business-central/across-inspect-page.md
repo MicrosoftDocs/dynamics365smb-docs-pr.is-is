@@ -10,16 +10,18 @@ ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 09dba629e977707921129261ea2540cc223c15dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 99dd133c3f3ab05806976c5fe840f81dcd8e1403
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784941"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440900"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Skoðun á Síðum í Business Central
 
 Eiginleiki fyrir eftirlit með síðu gerir þér kleift að ná í upplýsingar um síðu, veitir innsýn inn í síðuhönnun, mismunandi þætti sem síðan samanstendur af og uppruna gagnanna sem eru sýnd. Eftirlit með síðu er sérstaklega hönnuð fyrir stjórnendur, kraftnotendur, starfsfólk notendaþjónustu og þróunaraðila. Hún er tilvalin í að fræðast um gagnalíkanið á bak við síðu og úrræðaleit. Ef þú átt til að mynda í vandræðum með síðu er hægt að nota eftirlit með síðu til að fá upplýsingar sem eru sendar áfram til kerfisstjórans eða starfsfólk notendaþjónustu.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Vinna með síðueftirlit
 
@@ -27,7 +29,7 @@ Eiginleiki fyrir eftirlit með síðu gerir þér kleift að ná í upplýsingar
 
 Rúðan **Eftirlit með síðu** opnast á hliðinni. Eftirfarandi skýringarmynd sýnir rúðuna **Eftirlit með síðu** á síðunni **Sölupöntun**.
 
-![Eftirlit með síðu](media/page-inspection-example.png)
+![Eftirlit með síðu.](media/page-inspection-example.png)
 
 Þegar rúðan **Eftirlit með síðu** opnast fyrst, sýnir hún upplýsingar sem á við um hlut aðalsíðunnar.
 

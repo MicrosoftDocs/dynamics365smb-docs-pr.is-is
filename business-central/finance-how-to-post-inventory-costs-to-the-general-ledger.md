@@ -1,6 +1,6 @@
 ---
-title: 'Hvernig á að: Bóka birgðakostnað í fjárhag| Microsoft Docs'
-description: Við lok mánaðarlegra, árlegra eða annarra bókhaldstímabila þarf að framkvæma röð kostnaðarstjórnunar- og endurskoðunarverkhluta til að tilkynna rétt og jafnað birgðavirði til fjármáladeildarinnar. Fyrir utan bókunarferlið sem færir einstakar vöruvirðisfærslur í sérstaka fjárhagsreikninga eru tiltækar margar skýrslur, rakningaraðgerðir og sérstakt afstemmingarverkfæri fyrir endurskoðandann eða stjórnandann sem ber ábyrgð á þessu mikilvæga verki.
+title: Hvernig á að bóka birgðakostnað í fjárhag
+description: Við lok bókhaldstímabila þarf að framkvæma röð kostnaðarstjórnunar- og endurskoðunarverkhluta til að tilkynna rétt og jafnað birgðavirði.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5f1e7103b780fb5b928eeaba49258cfa1dca52fe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74a2e257df3306a76d777559a5a157aa2b9ddec9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770467"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442136"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Afstemma birgðakostnað í fjárhag
 Þegar birgðafærslur, til dæmis söluafhending, innkaupareikningur eða birgðaleiðrétting eru bókaðar eru breytingar á kostnaði hinnar leiðréttu vöru skráðar í virðisfærslum birgða. Til að endurspegla þessar breytingar á birgðavirði í ársreikningum, er birgðakostnaður bókaður sjálfkrafa á tengda birgðareikninga í fjárhag. Fyrir hverja birgðafærslu sem er bókuð er viðeigandi gildi bókað í birgðareikninginn, leiðréttingarreikninginn og KSV-reikninginn í fjárhagnum.
@@ -26,7 +26,7 @@ Sjálfvirk kostnaðarbókun er skilgreind í reitnum **Sjálfvirk kostnaðarbók
 Þó svo birgðakostnaður sé bókaður sjálfkrafa í fjárhag þarf samt að tryggja að kostnaður vara sé framsendur á viðeigandi sölufærslur á útleið, sérstaklega þar sem vörur eru seldar áður en reikningur er gefinn út fyrir kaupunum. Í kerfinu er þetta kallað kostnaðarleiðrétting. Vörukostnaður er sjálfkrafa leiðréttur þegar vörufærslur eru bókaðar en einnig er hægt að leiðrétta vörukostnað handvirkt. Nánari upplýsingar eru í [Leiðrétta kostnað](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Handvirk bókun birgðakostnaðar
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bóka birgðakostnað í fjárhag** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Bóka birgðakostnað í fjárhag** og veldu síðan tengda tengilinn.
 2. Birgðakostnaður er bókaður handvirkt í fjárhaginn með því að keyra runuvinnsluna. Þegar þessi keyrsla er keyrð eru fjárhagsfærslur stofnaðar á grundvelli virðisfærslna. Hægt er að bóka færslurnar þannig að þær eru teknar saman eftir bókunarhóp.
 
 > [!NOTE]  

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 709269be891e2e14c362ce3dba0685a67021ab81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e45777c8de2dec6a4a968ba8062843f4c92ffa2c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781507"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441886"
 ---
 # <a name="lend-and-receive-loaners"></a>Lána og taka á móti lánsbúnaði
 Hægt er að lána viðskiptamönnum lánsbúnað til að koma tímabundið í stað þjónustuvara sem tekið hefur verið við til þjónustu.  
   
 ## <a name="to-lend-a-loaner-item"></a>Lánsbúnaðarvara lánuð    
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
 2. Opna skal viðeigandi spjald þjónustupöntunar.  
 3. Smellt er á þjónustuvörulínuna með þjónustuvörunni sem á að skipta á með lánsbúnaði.  
 4. Í **Nr. lánsbúnaðar** reitnum, veljið viðeigandi lánsbúnaðarvöru.  
@@ -30,7 +30,7 @@ Hægt er að lána viðskiptamönnum lánsbúnað til að koma tímabundið í s
 ## <a name="to-receive-a-loaner"></a>Tekið við lánsbúnaði  
 Þegar tekið er við lánsbúnaði frá viðskiptamanni þarf að skrá móttökuna. Það er gert á síðunni **Þjónustupöntun**, **Bókuð þjónustuafhending** og **Lánsbúnaðarspjald**. Þessi aðferð sýnir hvernig er tekið við lánsbúnaði á síðunni **Þjónustupöntun**.  
   
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
 2. Opna skal viðeigandi þjónustupöntun.  
 3. Valin er þjónustuvörulínan með lánsbúnaðinum sem taka á við.  
 4. Velja **Aðgerðir**, velja **Aðgerðir** og síðan smella á **Móttaka lánsbúnaðar**.  
@@ -38,7 +38,7 @@ Hægt er að lána viðskiptamönnum lánsbúnað til að koma tímabundið í s
 ## <a name="to-register-loaner-comments"></a>Skráning lánsbúnaðarathugasemda  
 Hægt er að nota síðuna **Athugasemdablað almennrar þjónustu** til að skrá athugasemdir um skráðan lánsbúnað.  
   
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánsbúnaður** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánsbúnað** og velja síðan viðkomandi tengil.  
 2. Opna skal viðeigandi spjald lánsbúnaðar.  
 3. Skal velja **Athugasemd** aðgerð. Síðan **Almennar bilanaþjónustuathugasemdir** opnast.  
 4. Dagsetning er rituð í reitinn **Dagetning**.  

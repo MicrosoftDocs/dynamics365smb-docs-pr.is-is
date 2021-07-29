@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1f3016900fab6e6c277dfa01e2d3a455bef8863
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f32ed673905e155e3876b71e4607bf33448e5327
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785999"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441119"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Afrita fyrirliggjandi vörur í nýjar vörur
 
@@ -23,7 +23,7 @@ ms.locfileid: "5785999"
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Afritun fyrirliggjandi vöru í nýja vöru
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Veldu vöruna sem þú vilt afrita og veldu svo aðgerðina **Afrita vöru**.  
 
     Ef ekki er hægt að finna aðgerðina **Afrita atriði** skal velja til að skoða fleiri valmöguleika og finna hana svo undir **Aðgerðir** **Virkni**.  

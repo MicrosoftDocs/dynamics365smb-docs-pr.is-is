@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a0eb78d64948498b315679c45eb9a8b48fd5606
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784343"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441448"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Uppsetning bestu venja: Endurpöntunarstefnur
 Svæðið **Endurpöntunarstefna** á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.  
@@ -30,7 +30,7 @@ Einn grundvöllur undir bestu venjur til að velja endurpöntunarstefnu er ABC-f
 
 ABC-flokkunin segir að spara megi vinnu og peninga með því að hafa lausari taum á vörum af lágu virði-magni en á vörum af háu virði-magni. Eftirfarandi mynd sýnir hvaða endurpöntunarstefna í [!INCLUDE[prod_short](includes/prod_short.md)] er best við fyrir A, B og C - vörur, í þessari röð.
 
-![ABC-flokkun](media/abc_classification.png "abc_classification")
+![ABC-flokkun.](media/abc_classification.png "abc_classification")
 
 Eftirfarandi tafla gefur upp bestu venjur til að velja milli fjögurra stefna.  
 
