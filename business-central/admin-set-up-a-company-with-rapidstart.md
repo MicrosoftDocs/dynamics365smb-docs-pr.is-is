@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 813ac2b7c8fe074e9c1f2572f947b92156a56d1a
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325420"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649788"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Uppsetning fyrirtækis með RapidStart Services
 Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[prod_short](includes/prod_short.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld.  
@@ -39,10 +39,10 @@ Hægt er að nota eftirfarandi íhluti til að flýta uppsetningu á nýju fyrir
 |------------|-------------|  
 |Stofna nýtt fyrirtæki og flytja grunnuppsetningargögn og sniðmát.|[Uppsetning grunnstillingu fyrirtækis](admin-set-up-company-configuration.md)|  
 |Virkja grunnstillingarpakkann til viðskiptamanns fyrir innleiðingu.|[Nota skilgreiningu á ný fyrirtæki](admin-apply-configuration-to-new-companies.md)|
-|Skilgreina og sannprófa uppsetningargildi fyrir öll grunnsvæði, svo sem upplýsingar fyrirtækis, fjárhag, birgða​sölu eða framleiðslu.|[Safna uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md)|  
+|Skilgreindu og sannprófaðu uppsetningargildi viðskiptavinar fyrir öll grunnsvæði, svo sem upplýsingar fyrirtækis, fjárhag, birgða​sölu eða framleiðslu.|[Safna uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md)|  
 |Grunnstilla grunnaðalgagnafærslur sem nota sniðmát til að undirbúa flutning á fyrirliggjandi viðskiptamannagögnum.|[Undirbúa flutning á viðskiptamannagögnum](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Skilgreina töflur og reiti, villuleita fyrirliggjandi gögn um viðskiptavini og flytja gögn inn í gagnagrunninn [!INCLUDE[prod_short](includes/prod_short.md)].|[Flytja gögn viðskiptamanna](admin-migrate-customer-data.md)|
-|Búðu þig undir að endurnýta grunnstillingar fyrirtækis í öðrum fyrirtækjum.|[Búa til sérstillta grunnstillingarpakka fyrirtækja](admin-how-to-create-custom-company-configuration-packages.md)|
+|Búðu þig undir að endurnýta grunnstillingar fyrirtækis í öðrum fyrirtækjum (í þróunar- og stjórnunarefni).|[Búa til sérstillta grunnstillingarpakka fyrirtækja](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
 |Finna lausnir á þekktum vandamálum í verkfærasettinu RapidStart Services.|[Ábendingar og góð ráð: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  

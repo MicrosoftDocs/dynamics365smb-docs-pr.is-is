@@ -1,6 +1,6 @@
 ---
-title: Um áætlunaraðgerðir | Microsoft Docs
-description: Áætlunarkerfið tekur öll gögn um eftirspurn og framboð með í reikninginn, reiknar út niðurstöðurnar og kemur með tillögur að því að jafna framboðið og eftirspurnina.
+title: Um áætlunaraðgerðir
+description: Áætlunarkerfið í Dynamics 365 Business Central tekur öll gögn um eftirspurn og framboð með í reikninginn, reiknar út niðurstöðurnar og kemur með tillögur að því að jafna framboðið og eftirspurnina.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: dc3ef67f2f7578d81878b24662b97e47bc87a327
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782039"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6636017"
 ---
 # <a name="about-planning-functionality"></a>Um áætlunaraðgerðir
 
@@ -37,9 +37,12 @@ Annað markmið áætlunarkerfisins er að tryggja það að birgðamagnið hæk
 
 ## <a name="planning-calculation"></a>Áætlunarútreikningur
 
-Áætlunarkerfið er knúið áfram af viðbúinni og raunverulegri eftirspurn viðskiptavina auk endurpöntunarfæribreytum birgða. Ef áætlunarútreikningurinn er keyrður mun það leiða til þess að forritið leggi til sérstakar aðgerðir (Aðgerðarboð) til að framkvæma varðandi mögulega áfyllingu frá lánardrottnum, millifærslur á milli vöruhúsa eða framleiðslu. Ef áfyllingarpantanir eru þegar til gætu tillögurnar verið þess efnis að auka við pantanirnar eða flýta þeim til að koma til móts við eftirspurnarbreytingarnar.  
+Áætlunarkerfið er knúið áfram af viðbúinni og raunverulegri eftirspurn viðskiptavina auk endurpöntunarfæribreytum birgða. Ef áætlunarútreikningurinn er keyrður mun það leiða til þess að forritið leggi til sérstakar aðgerðir ([Aðgerðarboð](production-how-to-run-mps-and-mrp.md#action-messages)) til að framkvæma varðandi mögulega áfyllingu frá lánardrottnum, millifærslur á milli vöruhúsa eða framleiðslu. Ef áfyllingarpantanir eru þegar til gætu tillögurnar verið þess efnis að auka við pantanirnar eða flýta þeim til að koma til móts við eftirspurnarbreytingarnar.  
 
 Grundvöllur áætlunarrútínunnar er í útreikningunum frá hagnaði til taps. Nettóþarfir knýja áætlaða útgáfu pantana sem eru tímasettar eftir leiðarupplýsingum (framleiddar vörur) eða afhendingartíma birgðaspjaldsins (keyptar vörur). Magn áætlaðrar útgáfu pöntunar er byggt á áætlunarútreikningunum og verður fyrir áhrifum af þeim færibreytum sem eru stilltar fyrir hvert stakt birgðaspjald.  
+
+> [!TIP]
+> Áætlunarkerfið fer eftir því hvernig fyrirtæki þitt notar staðsetningar. Frekari upplýsingar er að finna í [Áætlanagerð með eða án staðsetninga](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Áætlað með handvirkum millifærslupöntunum
 

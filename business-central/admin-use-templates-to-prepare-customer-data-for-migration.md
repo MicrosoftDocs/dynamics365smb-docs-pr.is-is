@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443155"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649888"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Undirbúa flutning á viðskiptamannagögnum með sniðmátum
 
@@ -124,6 +124,7 @@ Hvers kyns skrá með gögnum sem eru notuð á þennan hátt er lokin, vegna þ
 > [!NOTE]
 > Ef gögnin í töflunum í grunnstillingapakkanum innihalda dagsetningar, t.d. bókunardagsetningar á reikningum, eru þær dagsetningar í tímabelti sem tilgreint er í [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Til að búa til færslu úr grunnstillingarsniðmáti
 
 Hægt að nota skipulag gagna sem kemur fram í gagnasniðmátum til að umbreyta upplýsingum í skráningar í gagnagrunninum, eina af annarri. Til þess er notuð aðgerðin **Stofna tilvik**. Þetta er smáútgáfa af gagnaflutningsferlinu og getur verið gagnleg við gerð frumgerða eða meðhöndlun minni gagnastofnunarverkhluta.  
@@ -137,6 +138,15 @@ Eftirfarandi skref sýna hvernig eigi að stofna birgðaspjald úr vörugagnasni
 5. Til að yfirfara nýja birgðaspjaldið skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 6. Opna skal nýja birgðaspjaldið.  
 7. Útvíkka mismunandi flýtiflipa og staðfesta að upplýsingarnar voru rétt stofnaðar á þeim.  
+
+## <a name="to-use-conversion-templates"></a>Að nota breytingarsniðmát
+
+Þú getur breytt tengiliðum í viðskiptavini, sölumenn og starfsmenn. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Að breyta tengilið í viðskiptavin, sölumann eða starfsmann
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færðu inn **Tengiliðir** og veldu síðan gátreitinn réttan tengilið. 
+2. Á tengiliðaspjaldinu velur þú **Aðgerðir**, síðan **Virkni** og velur síðan **Stofna viðskiptavin, lánardrottin, banka eða starfsmann**.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Til að nota grunnstillingarsniðmát í færslu
 
@@ -152,6 +162,9 @@ Eftirfarandi ferli byggist á nýju viðskiptamannaspjaldi.
 3. Á síðunni **Viðskiptamannasniðmát** skal velja eitt af sniðmátunum og síðan smella á hnappinn **Í lagi**.  
 
 Sjálfgefin gildi í völdu viðskiptamannasniðmáti eru sett inn á viðskiptamannaspjaldið.
+
+> [!NOTE]
+> Þú getur ekki notað Nota sniðmát til að tæma reiti viðskiptavina, birgðasala og þess háttar. Þess í stað þarftu að nota virknina **Breyta í Excel**. Frekari upplýsingar er að finna í [Breyta í Excel](across-work-with-excel.md#edit-in-excel).
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -1,5 +1,5 @@
 ---
-title: Afturkalla bókun með bókun bakfærslu| Microsoft Docs
+title: Afturkalla bókun með bókun bakfærslu
 description: Ef þú hefur framkvæmt ranga bókun í færslubók, geturðu notað bakfærsluaðgerðina til að afturkalla bókunina með réttri endurskoðunarslóð.
 services: project-madeira
 documentationcenter: ''
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2021
+ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: fc759d1fdb08b847028bf4a24157c17c4d2f74e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444463"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660157"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Bakfæra bókun Færslubókar og afturkalla kvittanir/sendingar
-Til að afturkalla ranga bókun færslubókar skal velja færsluna og búa til bakfærslu (færsla sem er alveg eins og upphaflega færslan en með andstæðu tákni í reitnum fyrir upphæð) með sama skjalanúmeri og bókunardagsetningu og upphaflega færslan. Þegar færsla hefur verið bakfærð þarf að búa til rétta færslu.
+Að bakfæra bókanir færslubókar er ekki aðeins notað til að leiðrétta villur heldur er einnig hægt að nota það til að hreinsa út gamlar færslur uppsöfnunar áður en ný er færð inn sem dæmi. Þú velur færsluna og býrð til bakfærslu (færsla sem er alveg eins og upphaflega færslan en með andstæðu tákni í reitnum fyrir upphæð) með sama skjalanúmeri og bókunardagsetningu og upphaflega færslan. Þegar færsla hefur verið bakfærð þarf að búa til rétta færslu.
 
 Aðeins er hægt að bakfæra færslu sem er bókuð frá færslubókarlínu. Færslu er einungis hægt að bakfæra einu sinni.
 

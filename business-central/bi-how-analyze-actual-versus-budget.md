@@ -1,8 +1,6 @@
 ---
 title: Greina raunverulegar og áætlaðar upphæðir
 description: Í þessu efnisatriði er lýst hvernig eigi að greina raunverulegar upphæðir samanborið við upphæðir fjárhagsáætlunar sem leið til að safna, greina og deila gögnum fyrirtækisins.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9011f3d488c659b7b2b44f8801c4af055f51bc54
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2bbdce7c34160ffc1eefc7e398574db8b642b657
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437102"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688279"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Greina raunverulegar og áætlaðar upphæðir
 Hluti af því að safna saman, greina og deila upplýsingum fyrirtækis, er að skoða raunverulegar upphæðir í samanburði við áætlaðar upphæðir fyrir alla reikninga og nokkur tímabil.

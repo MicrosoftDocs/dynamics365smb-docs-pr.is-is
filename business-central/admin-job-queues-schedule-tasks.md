@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b1d9893364d7472759a478877ebec49ace5e9647
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441294"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649863"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
 
@@ -37,9 +37,10 @@ Eftir að verkraðir eru settar upp og í keyrslu getur staðan breyst eins og f
 
 Þegar verki lýkur er það fjarlægt af lista yfir færslur verkraðar nema það sé endurtekið verk. Ef um endurtekið verk er að ræða er reiturinn **Fyrsti upphafstími** stilltur til að sýna næsta áætlaða keyrslutíma verksins.  
 
-## <a name="to-view-status-or-errors-in-the-job-queue"></a>Til að skoða stöðu eða villur í verkröð
+## <a name="monitor-status-or-errors-in-the-job-queue"></a>Fylgjast með stöðu eða villum í verkröð
 
 Gögn sem verða til þegar verkröð er keyrð eru geymd í gagnagrunninum svo hægt sé að úrræðaleita villur verkraðar.  
+
 Fyrir hverja verkraðarfærslu er hægt að skoða og breyta stöðunni. Við stofnun verkraðarfærslu er staða hennar stillt á **Bið**. T.d. er hægt að setja stöðuna á **Tilbúið** og svo aftur í **Í bið**. Annars eru stöðuupplýsingar uppfærðar sjálfkrafa.
 
 Eftirfarandi tafla lýsir gildum reitsins **Staða**.
@@ -53,11 +54,12 @@ Eftirfarandi tafla lýsir gildum reitsins **Staða**.
 | Lokið | Gefur til kynna að verkraðarfærslunni er lokið. |
 
 ### <a name="to-view-status-for-any-job"></a>Til að skoða stöðu fyrir hvaða verk sem er
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkraðarfærslur** og velja síðan viðkomandi tengil.
 2. Á síðunni **Verkraðarfærslur** skal velja færslu verkraðar og síðan velja aðgerðina **Skráarfærslur**.  
 
 > [!TIP]
-> Með [!INCLUDE [prod_short](includes/prod_short.md)] á netinu er einnig hægt að skoða stöðu verkraðarfærslna með því að nota Application Insights í Microsoft Azure. Frekari upplýsingar er að finna [Greining á líftíma fjarmælingarrakningar verkraðar](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) í [!INCLUDE [prod_short](includes/prod_short.md)] Hönnuður og Stjórnandi.
+> Einnig er hægt að skoða stöðu verkraðarfærslna með því að nota Application Insights í Microsoft Azure fyrir dýpri greiningu sem byggir á fjarmælingum. Frekari upplýsingar er að finna í [Fylgjast með og greina fjarmælingar](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Greining á líftíma fjarmælingarrakningar verkraðar](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) í [!INCLUDE [prod_short](includes/prod_short.md)] þróunar- og stjórnunarefni.
 
 ## <a name="the-my-job-queue-part"></a>Hlutinn fyrir Mína verkröð
 Hlutinn **Mín verkröð** í hlutverkamiðstöðinni þinni sýnir færslur verkraða sem þú hefur byrjað á, en er enn ekki lokið. Að sjálfgefnu er hlutinn ekki sjáanlegur, þannig að þú veður að bæta honum inn í Hlutverkamiðstöðina þína. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).  
@@ -65,9 +67,9 @@ Hlutinn **Mín verkröð** í hlutverkamiðstöðinni þinni sýnir færslur ver
 Sá hluti sýnir hvaða skjöl með auðkenni þitt í reitnum **Úthlutuð notandakenni** er verið að vinna úr eða eru í röð, þ.á.m. þau sem tengjast bakgrunnsbókun. Hlutinn gefur til kynna á svipstundu hvort um villu hafi verið að ræða við bókun skjals eða hvort það hafi verið villur í verkraðarfærslu. Hlutinn býður einnig upp á að hætta við bókun skjals ef hún er ekki í gangi.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Til að skoða villu ú hlutanum Mín verkröð
+
 1. Í færslu með stöðuna **Villa** skal velja aðgerðina **Sýna villu**.
 2. Fara skal yfir villuboðin og leysa vandann.
-
 
 ## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Dæmi um það sem hægt er að áætla með því að nota verkröð
 
@@ -86,6 +88,10 @@ Ef þú hefur samþætt [!INCLUDE[prod_short](includes/prod_short.md)] við [!IN
 Verkraðir eru áhrifaríkt verkfæri til að raða keyrslu viðskiptaferla í bakgrunni, t.d. þegar margir notendur reyna að bóka sölupantanir, en aðeins er hægt að vinna úr einni pöntun í einu.  
 
 Frekari upplýsingar eru í [Að setja upp bókun í bakgrunni með verkraðir](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+
+## <a name="monitor-the-job-queue-with-telemetry"></a>Fylgjast með verkröðinni með fjarmælingu
+
+Sem stjórnandi getur þú notað [Application Insights](/azure/azure-monitor/app/app-insights-overview) til að safna saman og greina fjarmælingar sem þú getur notað til að greina vandamál. Frekari upplýsingar er að finna í [Fylgjast með og greina fjarmælingar](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) í þróunar- og stjórnunarefni.  
 
 ## <a name="see-also"></a>Sjá einnig
 

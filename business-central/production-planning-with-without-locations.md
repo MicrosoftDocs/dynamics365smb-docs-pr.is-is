@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4f67eab27c95e4786b8f1d5949d678105ea21999
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: fa1b63bb94152c130077907dbe2d4e0d08281f40
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319150"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6635992"
 ---
 # <a name="planning-with-or-without-locations"></a>Áætlanagerð með eða án birgðageymslna
 Varðandi áætlanir með eða án birgðageymslukóta í eftirspurnarlínum vinnur áætlanakerfið á einfaldan hátt þegar:  
@@ -25,16 +25,20 @@ Varðandi áætlanir með eða án birgðageymslukóta í eftirspurnarlínum vin
 
 Ef hins vegar eftirspurnarlínur eru stundum með birgðageymslukóta og stundum ekki fer áætlanakerfið eftir tilteknum reglum í samræmi við uppsetningu.  
 
+> [!TIP]
+> Ef þú áætlar oft eftirspurn á mismunandi staðsetningum þá mælum við með að þú notir möguleika birgðahaldseiningar.
+
 ## <a name="demand-at-location"></a>Eftirspurn í birgðageymslu  
+
 Þegar áætlunarkerfið greinir eftirspurn í birgðageymslu (línu með birgðageymslukóta) vinnar það á mismunandi hátt í samræmi við 3 mikilvæg uppsetningargildi.  
 
 Í áætlunarkeyrslu leitar kerfið að 3 uppsetningargildum í röð og áætlar samkvæmt þeim:  
 
-1.  Er gátmerki í reitnum **Birgðageymsla áskilin**?  
+1. Er gátmerki í reitnum **Birgðageymsla áskilin** á síðunni **Birgðauppsetning**?  
 
     Ef já:  
 
-2.  Er birgðahaldseining til fyrir vöruna?  
+2. Er birgðahaldseining til fyrir vöruna?  
 
     Ef já:  
 
@@ -42,7 +46,7 @@ Ef hins vegar eftirspurnarlínur eru stundum með birgðageymslukóta og stundum
 
     Ef nei:  
 
-3.  Er reiturinn **Íhlutir á staðnum** með áskildum birgðageymslukóta?  
+3. Inniheldur reiturinn **Íhlutir í birgðageymslu** á síðunni **Framleiðslugrunnur** staðsetningarkóðann sem óskað er eftir?  
 
     Ef já:  
 
@@ -53,9 +57,18 @@ Ef hins vegar eftirspurnarlínur eru stundum með birgðageymslukóta og stundum
     Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* , Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar. (Vörur sem nota endurpöntunarstefnuna  *Pöntun* nota  *Pöntun* ásamt öðrum stillingum).  
 
 > [!NOTE]  
->  Þessi lágmarksvalkostur nær aðeins yfir nákvæma eftirspurn. Allar skilgreindar áætlunarfæribreytur eru hunsaðar.  
+> Þessi lágmarksvalkostur nær aðeins yfir nákvæma eftirspurn. Allar skilgreindar áætlunarfæribreytur eru hunsaðar.  
 
 Sjá frávik í dæmunum hér fyrir neðan.  
+
+> [!TIP]
+> Reiturinn **Birgðageymsla áskilin** á síðunni **Birgðauppsetning** og reiturinn **Íhlutir í birgðageymslu** á síðu framleiðsluuppsetningar eru mjög mikilvægir í því hvernig áætlunarkerfið meðhöndlar eftirspurnarlínur með/án staðsetningarkóða.
+>
+> Fyrir framleiðslueftirspurn sem er keypt (þegar áætlunarvélin er aðeins notuð fyrir innkaupaáætlanir en ekki framleiðsluáætlanir) notar [!INCLUDE [prod_short](includes/prod_short.md)] sömu staðsetningu fyrir íhluti og er gefin upp í framleiðslupöntuninni. Hins vegar er hægt beina íhlutunum í aðra birgðageymslu með því að fylla í þennan reit.
+>
+> Einnig er hægt að skilgreina þetta fyrir tiltekna birgðahaldseiningu með því að velja annan staðsetningarkóða í reitnum **Íhlutir í birgðageymslu** á birgðahaldseiningaspjaldinu. Athugið samt sem áður að það er varhugavert þar sem áætlunnargrunnur kann að skekkjast þegar áætlun er gerð fyrir íhluti birgðahaldseininga.
+
+Annar mikilvægur reitur er reiturinn **Hámarksmagn pöntunar** í **Birgðaspjaldinu**. Hann tilgreinir leyfilegt hámarksmagn fyrir tillögu birgðapöntunar og er notaður ef varan er afhent í fastri flutningseiningu, t.d. gámi, sem á að fullnýta sem dæmi. Þegar kerfið hefur fundið að þörf er á áfyllingu og leiðrétt lotustærðina til að uppfylla tilgreinda  endurpöntunarstefnu eykur það magnið, ef með þarf, til að uppfylla hámarkspöntunarmagnið sem er skilgreint fyrir vöruna. Ef viðbótarþarfir eru áfram reiknaðar nýjar pantanir til að uppfylla þær. Yfirleitt er þessi reitur notaður með framleiðslustefnu á lager.  
 
 ## <a name="demand-at-blank-location"></a>Eftirspurn í "Tómri birgðageymslu"  
 Jafnvel þó merkt sé við reitinn **Birgðageymsla áskilin** er heimilt að stofna línur í kerfinu án birgðageymslukóta – einnig kallað *TÓM* birgðageymsla. Þetta er frávik í kerfinu því það er með mismunandi uppsetningargildi sem stillt eru á að vinna með birgðageymslur (sjá ofangreint) og niðurstaðan verður sú að áætlunarkerfið stofnar ekki áætlunarlínu fyrir svona eftirspurnarlínu. Ef ekki er merkt við reitinn **Birgðageymsla áskilin** en einhver af uppsetningargildum birgðageymsla eru til er það einnig talið vera frávik og eftirspurnarkerfið bregst við með því að leggja til „lágmarksvalkostinn“:   
@@ -133,15 +146,17 @@ Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.
 
 Eins og sjá má á síðasta dæmi er eina leiðin til að fá réttar niðurstöður fyrir eftirspurnarlínu án birgðageymslukóta sú að gera öll uppsetningargildi sem tengjast birgðageymslum óvirk. Sömuleiðis er eina leiðin til að fá stöðugar áætlunarniðurstöður fyrir eftirspurn í birgðageymslum sú að nota birgðahaldseiningar.  
 
-Ef þörf í birgðageymslum er áætluð oft er eindregið mælt með að nota birgðahaldseiningaaðgerðina.  
+Ef þú þar af leiðandi áætlar oft eftirspurn í birgðageymslum þá mælum við með að þú notir möguleika birgðahaldseiningar.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Áætlun](production-planning.md)    
+
+[Áætlun](production-planning.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
-[Framleiðsla](production-manage-manufacturing.md)    
+[Framleiðsla](production-manage-manufacturing.md)  
 [Birgðir](inventory-manage-inventory.md)  
+[Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
+[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)  
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

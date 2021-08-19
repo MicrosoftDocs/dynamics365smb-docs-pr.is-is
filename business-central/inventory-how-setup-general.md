@@ -1,5 +1,5 @@
 ---
-title: Skilgreina almenna birgðauppsetningu
+title: Setja upp almennar birgðaupplýsingar
 description: Lýsir því hvernig á að skilgreina almenna uppsetningu birgða þannig að hægt sé að stjórna vöruhúsinu og birgðum.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cc52935e743b0e8af4f934c040898e64665843fc
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435623"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688252"
 ---
 # <a name="set-up-general-inventory-information"></a>Setja upp almennar birgðaupplýsingar
 
@@ -31,15 +31,20 @@ Almennar birgðaupplýsingar eru tilgreindar á síðunni **Birgðagrunnur**.
 Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í innkaupalínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar á síðunni **Birgðagrunnur** og fyrir staðsetninguna þína. Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> Kveikt er á **Sjálfvirk kostnaðarleiðrétting** að sjálfgefnu til að tryggja að birgðavirði sé alltaf rétt í fjárhag, sem fyrir vikið heldur sölu- og hagnaðartölum uppfærðum. Kostnaðarbreytingum úr færslum á innleið, til dæmis færslur fyrir innkaup eða framleiðslufrálag, er úthlutað á tengdar færslur á útleið, t.d. sölu og flutninga. Þetta er gagnlegt fyrir nýja [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptavini og lítil fyrirtæki með tiltölulega lágt birgðafærslustig. Þegar fyrirtæki hinsvegar stækkar og birgðastöður aukast getur þetta hægt á afköst kerfisins. Til að lágmarka minnkuð afköst við bókun skal velja tímavalkost til að skilgreina hversu langt aftur í tímann frá vinnudagsetningu færsla á innleið getur átt sér stað til að hugsanlega ræsa leiðréttingu á tengdum virðisfærslum á útleið. Að öðrum kosti er handvirkt hægt að leiðrétta kostnað með reglulegu millibili með runuvinnslunni Leiðrétta kostnað - Vörufærslur.
+> Reiturinn **Sjálfvirk kostnaðarleiðrétting** er stilltur á *Alltaf* að sjálfgefnu til að tryggja að birgðavirði sé alltaf rétt í fjárhag, sem fyrir vikið heldur sölu- og hagnaðartölum uppfærðum. Kostnaðarbreytingum úr færslum á innleið, til dæmis færslur fyrir innkaup eða framleiðslufrálag, er úthlutað á tengdar færslur á útleið, t.d. sölu og flutninga. Þetta er gagnlegt fyrir nýja [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptavini og lítil fyrirtæki með tiltölulega lágt birgðafærslustig.
+>
+> Þegar fyrirtæki hinsvegar stækkar og birgðastöður aukast getur þetta hægt á afköst kerfisins. Til að lágmarka minnkuð afköst við bókun skal velja tímavalkost til að skilgreina hversu langt aftur í tímann frá vinnudagsetningu færsla á innleið getur átt sér stað til að hugsanlega ræsa leiðréttingu á tengdum virðisfærslum á útleið.
+>
+> Að öðrum kosti er handvirkt hægt að leiðrétta kostnað með reglulegu millibili með runuvinnslunni Leiðrétta kostnað - Vörufærslur. Þú getur einnig slökkt á sjálfvirkri kostnaðarbókun eða stillt reitinn **Sjálfvirk kostnaðarleiðrétting** á *Aldrei*. Í báðum tilvikum birtist tilkynning þar sem hægt er að byrja á uppsetningu með hjálp til að auðvelda þér að tímasetja verk fyrir verkröðina. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Setja upp birgðir](inventory-setup-inventory.md)  
-[Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)    
+[Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
-[Almenn viðskiptavirkni](ui-across-business-areas.md)
+[Almenn viðskiptavirkni](ui-across-business-areas.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

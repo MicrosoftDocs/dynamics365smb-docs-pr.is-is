@@ -236,7 +236,6 @@
 #### [Safna saman uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md)
 #### [Undirbúa flutning á viðskiptamannagögnum með sniðmátum](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Flytja gögn viðskiptamanna](admin-migrate-customer-data.md)
-#### [Búa til sérstillta grunnstillingarpakka fyrirtækja](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Ábendingar og góð ráð: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Uppsetning tölvupósts
 #### [Setja upp tölvupóst](admin-how-setup-email.md)
@@ -534,7 +533,11 @@
 #### [Uppfæra staðlaðan kostnað](finance-how-to-update-standard-costs.md)
 #### [Fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Tilkynna kostnað og afstemma við fjárhag
+##### [Tilkynntur kostnaður](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)
+#### [Leiðrétta og afstemma birgðakostnað í fjárhag með verkröð](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Stjórnun sjóðstreymis
 #### [Yfirlit yfir sjóðstreymi](finance-cash-flow-overview.md)
@@ -722,6 +725,8 @@
 ### [Keyra fulla áætlunargerð, MPS eða MRP](production-how-to-run-mps-and-mrp.md)
 ### [Enduráætla eða uppfæra framleiðslupantanir beint](production-how-to-replan-refresh-production-orders.md)
 ### [Rekja tengsl milli eftirspurnar og framboðs](production-how-track-demand-supply.md)
+### [Innkaupatillögublað](production-about-planning-functionality.md#requisition-worksheet)
+### [Aðgerðarboð](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
@@ -1604,9 +1609,9 @@
 ### [Eftirlit með síðum](across-inspect-page.md)
 ### [Gagnagrunnslásar skoðaðir](admin-view-database-locks.md)
 ### [Skoðun töfluupplýsinga](admin-view-table-information.md)
-### [Búa til sandkassaumhverfi](across-how-create-sandbox-environment.md)
 ### [Virkjun nýrra eiginleika fyrir tíma](admin-feature-management.md)
 ### [Innleiða notendur með gátlistum](admin-checklist.md)
+### [Sandkassaumhverfi](across-how-create-sandbox-environment.md)
 ## Sérstilling Business Central
 ### [Yfirlit sérstillinga](ui-customizing-overview.md)
 ### [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)

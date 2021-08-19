@@ -1,18 +1,18 @@
 ---
 title: Uppfæra gengi
-description: Fylgstu með upphæðum í mismunandi gjaldmiðlum með gjaldmiðilskóðum og leyfðu Business Central að hjálpa þér að stilla gengi bókaðra færslna með utanaðkomandi þjónustu.
+description: Fylgstu með upphæðum í mismunandi gjaldmiðlum með gjaldmiðilskóðum og leyfðu Business Central að hjálpa þér að stilla gengi erlendra gjaldmiðla fyrir bókaðar færslur með utanaðkomandi þjónustu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/03/2021
+ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441623"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660182"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppfæra gengi
 
@@ -29,6 +29,9 @@ Fjárhagurinn þinn er settur upp til að nota staðbundna gjaldmiðilinn (SGM),
 > Ef þú vilt nota annan skýrslugjaldmiðil fyrir fjárhagsskýrslur skaltu ganga úr skugga um að þú skiljir takmarkanirnar. Nánari upplýsingar er að finna í [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Gjaldmiðlar
+
+> [!NOTE]  
+> Í [!INCLUDE[prod_short](includes/prod_short.md)], ef þú ert að leita að nýjustu upplýsingum um gengi erlendra gjaldmiðla eða eldri gengi, finnur þú það undir gjaldmiðli. Auk þessarar greinar geturðu skoðað [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md).
 
 Gjaldmiðilskóðarnir eru tilgreindir í **Gjaldmiðlar**, þ.m.t. viðbótarupplýsingar og stillingar sem eru nauðsynlegar fyrir hvern gjaldmiðilskóða.
 

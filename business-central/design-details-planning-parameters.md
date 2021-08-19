@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/15/2021
+ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437888"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649813"
 ---
 # <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
 Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í [!INCLUDE[prod_short](includes/prod_short.md)]  
@@ -114,7 +114,27 @@ Valkosturinn **Framleiðslustefna** skilgreinir hvaða viðbótarpantanir lánst
 
 Ef valkosturinn **Framleiða-á-lager** er notaður varða pantanirnar eingöngu vöruna sem um ræðir.  
 
-Ef valkosturinn **Framleiða-eftir-pöntun** er notaður greinir áætlanakerfið framleiðsluuppskrift vörunnar og býr til tengdar viðbótarpöntunartillögur fyrir vörur á neðri stigum sem einnig eru skilgreindar sem framleiða-eftir-pöntun. Þetta heldur áfram eins lengi og það eru vörur til að framleiða eftir pöntun í lækkandi uppskriftarstrúktúr.  
+Ef valkosturinn **Framleiða-eftir-pöntun** er notaður greinir áætlanakerfið framleiðsluuppskrift vörunnar og býr til tengdar viðbótarpöntunartillögur fyrir vörur á neðri stigum sem einnig eru skilgreindar sem framleiða-eftir-pöntun. Þetta heldur áfram eins lengi og það eru vörur til að framleiða eftir pöntun í lækkandi uppskriftarstrúktúr.
+
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Nota lágstigskóða til að stjórna afleiddri eftirspurn
+
+Notaðu lágstigskóða til að gera afleidda eftirspurn eftir framvindu íhluta í gegnum lægri stig uppskriftarinnar. Til að fá ítarlegri útskýringu á þessu skaltu skoða [Vöruforgangur / lágstigskóði](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Hægt er að tengja lágstigskóða hverjum hlut í vöru sem gerð er úr mörgum hlutum eða inndreginni uppskrift. Efsta samsetningarstigið telst vera stig 0 - fullunna varan. Því hærra sem númer lágstigskóða er því aftar er varan í röðinni. Endanleg vara hefur til dæmis lágstigskóðann 0, og þeir hlutar hennar sem fara í samsetningu á henni eru með lágstigskóðana 1, 2, 3 og svo framvegis. Niðurstaðan er áætlun íhluta sem eru samstilltir þörfum allra framar raðaðra stiga. Þegar áætlun er reiknuð er uppskriftin opnuð í áætlunar-vinnublaðinu og brúttóþörfum fyrir 0-stigið er raðað niður áætlunarstigin sem brúttóþarfir næsta áætlunarstigs.
+
+Veldu reitinn **Gagnvirkur lágstigskóði** til að tilgreina hvort samstundis eigi að úthluta og reikna lágstigskóða fyrir hvern íhlut í afurðarskipulaginu. Þessi aðgerð getur haft neikvæð áhrif á afköst kerfisins ef um mikið af gögnum er að ræða, til dæmis í  sjálfvirkri kostnaðarleiðréttingu. Hafa ber í huga að þessi aðgerð er ekki afturvirk og því rétt að íhuga notkun eiginleikans fyrirfram.
+
+Í stað þess að nota sjálfvirkan útreikning sem er gerður þegar reiturinn er valinn er hægt að nota keyrsluna **Reikna lágstigskóða** í **framleiðsluvalmyndinni** með því að smella á **vöruhönnun**, **Reikna lágstigskóða**.
+
+> [!IMPORTANT]
+> Ef reiturinn **Gagnvirkur lágstigskóði** er ekki valinn þarf að keyra keyrsluna **Reikna lágstigskóða** áður en framboðsáætlun er reiknuð (runuvinnslan **Reikna áætlun**).  
+
+> [!NOTE]
+> Jafnvel þegar reiturinn **Gagnvirkur lágstigskóði** er valinn breytast lágstigskóðar íhlutavara ekki á gagnvirkan hátt ef yfiruppskrift er eytt eða stillt sem óvottuð. Þetta getur gerst vegna vandamála við að bæta nýjum vörum við lok vörusamsetningar þar sem farið gæti verið yfir hámarksfjölda lágstigskóða. Þess vegna er best að nota runuvinnsluna **Reikna lágstigskóða** oft þegar unnið er með stórar vörusamsetningar til að halda samsetningunni.  
+
+### <a name="optimize-low-level-code-calculation"></a>Fínstilla útreikning fyrir lágstigskóða
+
+Veldu reitinn **Fínstilla útreikning fyrir lágstigskóða** til að tilgreina að þú viljir nota nýja hraðvirkari aðferð við útreikning á lágstigskóða. Athugaðu að nýi útreikningurinn er gerður á annan hátt og hann gæti haft neikvæð áhrif á viðbætur sem reiða sig á núverandi aðferð. Nýja útreikningsaðferðin kemur í stað núverandi aðferðar í framtíðarútgáfu.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   

@@ -1,6 +1,6 @@
 ---
-title: Bóka mörg skjöl á sama tíma
-description: Í stað þess að bóka eitt skjal í einu er hægt að velja mörg óbókuð skjöl í lista fyrir runubókun annaðhvort strax eða samkvæmt áætlun.
+title: Bóka mörg skjöl samtímis
+description: Kynntu þér hvernig á að velja mörg óbókuð skjöl úr lista fyrir runubókun í Business Central annaðhvort strax eða samkvæmt áætlun.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446048"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649688"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bóka mörg skjöl samtímis
 
@@ -78,7 +78,7 @@ Ef verkröðin getur ekki bókað sölupöntunina breytist staðan í **Villa** 
 1. Úr skjalinu sem þú reyndir að bóka með verkröðinni skal velja bakgrunnsbókun **Staða verkraðar** sem mun innihalda **Villu**.
 2. Fara skal yfir villuboðin og leysa vandann.
 
-Þú getur einnig yfirfarið síðuna **Skrárfærslur verkraðar** ef tókst að bóka sölupöntun. Nánari upplýsingar eru í [Til að skoða stöðu eða villur í verkröð](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+Þú getur einnig yfirfarið síðuna **Kladdafærslur verkraðar** ef tókst að bóka sölupöntunina. Frekari upplýsingar er að finna í hlutanum [Fylgjast með verkröðinni](#monitor-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Til að stofna færslu verkraðar fyrir bókun runu á sölupöntunum
 
@@ -115,8 +115,13 @@ Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka sö
 8. Í reitinn **Upphafstími** skal slá inn kl. 16:00.
 9. Velja aðgerðina **Stilla stöðu á Tilbúin**.
 
-Sölupantanir sem eru innan tilgreindra síu verða nú bókaðar í hverri viku kl. 16:00.
+Sölupantanir sem eru innan tilgreindra sía verða nú bókaðar á hverjum virkum degi kl. 16:00.
 
+## <a name="monitor-the-job-queue"></a>Fylgjast með verkröðinni
+
+Ef bókun í bakgrunni er sett upp með verkröðum skaltu gera það að reglubundnu verki að fylgjast með verkröðinni til að ná öllum vandamálum sem koma upp. Hægt er að fylgjast með stöðunni á síðunni **Verkraðarfærslur**. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).  
+
+Sem stjórnandi getur þú notað [Application Insights](/azure/azure-monitor/app/app-insights-overview) til að safna saman og greina fjarmælingar sem þú getur notað til að greina vandamál. Frekari upplýsingar er að finna í [Fylgjast með og greina fjarmælingar](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) í þróunar- og stjórnunarefni.  
 
 ## <a name="see-also"></a>Sjá einnig
 

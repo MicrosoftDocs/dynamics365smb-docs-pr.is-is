@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að undirbúa grunnstillingarpakka
+title: Undirbúa grunnstillingarpakka
 description: Finndu út úr því núna hvernig á að undirbúa RapidStart grunnstillingarpakka sem getur hjálpað við að setja upp ný fyrirtæki á grundvelli fyrirliggjandi gagna.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440725"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660232"
 ---
 # <a name="prepare-a-configuration-package"></a>Undirbúa grunnstillingarpakka
 
@@ -74,8 +74,20 @@ Tilgreinið hvaða reitir eiga að vera í pakkanum. Sjálfgefið eru öll svæ�
     - Til að velja aðeins þá reiti sem á að hafa með er valin aðgerðin **Hreinsa það sem haft er með**. Til að bæta öllum reitum við skal velja aðgerðina **Safn haft með**.  
     - Til að tilgreina að svæðisgögn ætti ekki að villuleita skal hreinsa gátreitinn **Villuleita reit** fyrir reitinn.  
 
-10. Greina hvort mögulegar villur hafi verið settar inn með því að velja aðgerðina **Villuleita pakka**. Þetta getur gerst þegar ekki eru hafðar með töflur sem nauðsynlegar eru skilgreiningunni.  
-11. Velja hnappinn **Í lagi**.  
+10. Til að nota vinnslusíur á töflugögn eða bæta við kóðaeiningu með þeim kóða sem á að vera í pakkanum er hægt að velja línuna fyrir viðkomandi töflu og velja síðan aðgerðina **Úrvinnslureglur**.
+
+    1. Á síðunni **Úrvinnslureglur skilgreiningartöflu** skal fylla út reitina. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Til að setja síur á gögn skal tilgreina viðeigandi aðgerð í reitnum **Aðgerð**, velja aðgerðina **Úrvinnsluafmarkanir** og fylla síðan út reitina.  
+
+            Til dæmis hafa skilgreiningapakkar Microsoft fyrir matsfyrirtækin stillt úrvinnsluafmarkanir í töflunum **Söluhaus** og **Innkaupahaus**.
+        - Til að bæta við kóðaeiningu úrvinnslu skal tilgreina hann í reitnum **Sérstillt kenni fyrir kóðaeiningu úrvinnslu**.
+
+          > [!NOTE]
+          > Þessi kóðaeining verður að taka töflu 8614 *Skilgreiningapakkaskrá* sem færibreytu í `OnRun` aðferðinni.
+    2. Lokaðu síðunni.
+11. Greina hvort mögulegar villur hafi verið settar inn með því að velja aðgerðina **Villuleita pakka**. Þetta getur gerst þegar ekki eru hafðar með töflur sem nauðsynlegar eru skilgreiningunni.  
+12. Velja hnappinn **Í lagi**.  
 
 Þegar listinn yfir reiti sem taka á með úr töflu hefur verið fínstilltur, er hægt að athuga niðurstöður í Excel.  
 

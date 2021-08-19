@@ -1,5 +1,5 @@
 ---
-title: Hönnunarupplýsingar - Væntanleg kostnaðarbókun | Microsoft Docs
+title: Hönnunarupplýsingar - Væntanleg kostnaðarfærsla
 description: Áætlaður kostnaður stendur til dæmis fyrir kostnað keyptrar vöru sem skráð var áður en reikningur fyrir vörunni var móttekinn.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: 181b0168dc73aba7bb4d09b7cda7a2ce7028e142
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215279"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649838"
 ---
 # <a name="design-details-expected-cost-posting"></a>Hönnunarupplýsingar: Væntanlegur kostnaðarfærsla
 Áætlaður kostnaður stendur til dæmis fyrir kostnað keyptrar vöru sem skráð var áður en reikningur fyrir vörunni var móttekinn.  
@@ -29,10 +29,22 @@ ms.locfileid: "6215279"
 
  Til að styðja afstemmingu og rekjanleika vinnu, reikningsfært virðisfærsla sýnir áætlaðan kostnaðarupphæð sem hefur verið sendur til að jafnvægi á bráðabirgðareikningum.  
 
-## <a name="example"></a>Dæmi  
- Eftirfarandi dæmi sýnir væntanlegan kostnað ef gátreiturinn **Sjálfvirk kostnaðarbókun** og gátreiturinn **Væntanleg kostnaðarbókun í fjárhag** eru valdir á síðunni **Birgðagrunnur**.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Skilyrði fyrir bókun væntanlegs kostnaðar
 
- Innkaupapöntun er bókuð sem móttekin Áætlaður kostnaður er 95,00 SGM.  
+Til að gera mögulegt að bóka væntanlegan kostnað þarftu að gera eftirfarandi:
+1. Á síðunni **Uppsetning birgða** skal velja **Sjálfvirka kostnaðarbókun** og gátreitinn **Væntanleg kostnaðarbókun í fjárhag**.
+2. Setja upp hvaða bráðabirgðareikninga þú átt að nota fyrir bókunarferli væntanlegs kostnaðar.  
+
+  Á síðunni **Uppsetning birgðabókunar** skaltu staðfesta reitina **Birgðareikningur** og **Birgðareikningur (bráðabirgða)** fyrir **Staðsetningarkóða og kóða birgðabókunarflokks** fyrir vöruna sem á að kaupa. Til að fá nánari upplýsingar um þessa reikninga skal fara í [Hönnunarupplýsingar - reikningar í fjárhag](design-details-accounts-in-the-general-ledger.md).
+3. Á síðunni **Almennur bókunargrunnur** skal staðfesta reitinn **Uppsöfnunarreikningur birgða (bráðabirgða)** fyrir **Almennan viðskiptabókunarflokk** og **Almennan vörubókunarflokk** sem ætlunin er að nota.
+4. Þegar þú stofnar innkaupapöntun er sjálfgefið að reiturinn **Reikningsnr. lánardrottins** sé áskilinn. Þú þarft að slökkva á því á síðunni **Uppsetning innkaupagrunns** með því að afvelja reitinn **Nr. utanaðk. skjals áskilið**.
+
+## <a name="example"></a>Dæmi  
+
+> [!NOTE]  
+> Reikningsnúmerin sem notuð eru í þessu dæmi eru aðeins til viðmiðunar og verða önnur í kerfinu. Settu þau upp samkvæmt leiðbeiningum í skilyrðum hér að ofan.
+
+Innkaupapöntun er bókuð sem móttekin Áætlaður kostnaður er 95,00 SGM.  
 
  **Virðisfærslur**  
 
@@ -73,7 +85,7 @@ ms.locfileid: "6215279"
 
  **Fjárhagsfærslur**  
 
-|Bókunardags.|Fjárhagsreikningur|Reikningur nr. (En-US sýnishorn)|Upphæð|Færslunr.|  
+|Bókunardagsetning|Fjárhagur|Lykilnr. (eingöngu dæmi!)|Upphæð|Færslunr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Reikningur áfallinna gjalda birgða (tímab.)|5530|95,00|4|  
 |01-15-20|Reikningur birgða  (bráðab.)|2131|-95,00|3|  
