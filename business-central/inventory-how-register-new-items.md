@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435644"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440442"
 ---
 # <a name="register-new-items"></a>Skrá nýjar vörur
 
@@ -85,6 +85,23 @@ Ef sama varan er keypt frá fleiri en einum lánardrottni þarf að færa inn up
 6. Endurtakið skref 2 til 5 fyrir hvern þann lánardrottinn sem þú vilt kaupa vöru af.
 
 Lánardrottnarnir munu nú birtast á síðunni **Vörulisti lánardrottins**, sem þú opnar frá birgðaspjaldinu, þannig að þú getir auðveldlega valið annan lánardrottin.
+
+## <a name="set-up-item-substitutions"></a>Setja upp staðgengilsvörur
+
+Þú getur sett upp staðgengilsvörur, svo sem aðrar vörur sem hægt er að nota í staðinn fyrir upprunalegu vöruna.
+
+### <a name="to-make-an-item-substitution"></a>Til að búa til staðgengilsvöru:
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
+2. Finndu viðeigandi vöru og smelltu síðan á **Vörunúmer** til að opna vöruspjaldið.  
+3. Veljið aðgerðina **Tengt**, síðan **Vara** og svo **Staðgenglar** að opna aðgerðina á síðu staðgengilsvörufærslu.  
+4. Veljið **Nr. staðgengilsvöru** og svo skiptivöru af listanum.
+5. Farið í að fylla út eða breyta öðrum reitum á síðunni eftir þörfum.
+
+Þegar magnið sem beðið er um, svo sem í sölulínu, er meira en magnið sem er tiltækt í birgðum þá birtast skilaboð sem að tilkynna að staðgengilsvörur séu til.
+
+> [!NOTE]  
+> Athugaðu að staðgengilsvörur valda ekki sjálfkrafa því að vöru sé skipt út fyrir aðra vöru, til dæmis þegar sölupöntun er stofnuð eða í uppskrift. Þess í stað verður þér gert viðvart um að staðgengilsvara standi til boða.
 
 ## <a name="categories-attributes-and-variants"></a>Flokkar, eigindir og afbrigði
 

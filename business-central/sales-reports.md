@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543248"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440392"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Söluskýrslur og greiningar í Business Central
 
@@ -36,6 +36,7 @@ Eftirfarandi tafla lýsir sumum helstu skýrslunum í söluskýrslugerð.
 |**Staða vöruhúsaafhendingar**|7313|Þessa skýrslu má nota á öllum stöðum þar sem reiturinn **Krefjast afhendingar** er valinn. Skýrslan **Staða vöruhúsaafhendingar** sýnir allar óskráðar sendingarskýrslur fyrir vöruhús, þ.m.t. staðsetningar, hólfakóða, stöðu skjala, magn og o.s.frv. Þessi skýrsla er tilvalin til að fá yfirlit.|
 |**Birgðir - Tínslulisti**|813|Birtir lista yfir sölupantanirnar sem varan er hluti af. Eftirfarandi upplýsingar eru birtar um hverja vöru: sölupöntunarlína með nafni viðskiptamannsins, afbrigðiskóði, staðsetningarkóði, hólfakóði, afhendingardagsetning, magn til afhendingar og mælieining. Magn hverrar vöru sem á að afhenda er lagt saman. Skýrsluna má nota þegar vörur eru sóttar í birgðageymsluna.<br>**Athugaðu**: þessi skýrsla er ekki tiltæk fyrir ítarlega virkni vöruhúss.|
 |**Birgðir - Sala, biðpöntun**|718|Í þessari skýrslu er birtur listi með pöntunarlínum þar sem komið er fram yfir afhendingardagsetningu. Eftirfarandi upplýsingar birtast um allar vörur í hverri pöntun fyrir sig: númer, nafn viðskiptamanns, símanúmer viðskiptamanns, afhendingardagur, magn í pöntun og magn í biðpöntun. Í skýrslunni kemur einnig fram hvort viðskiptamaðurinn á aðrar vörur í biðpöntun.|
+|**Birgðir - Sölupantanir**|708|Birtir lista yfir pantanir sem ekki hafa enn verið afhentar og vörur í þessum pöntunum. Þar kemur fram pöntunarnúmer, nafn viðskiptamanns, dagsetning afhendingar, magn í pöntun, seinkað magn, útistandandi magn og einingarverð, svo og hugsanleg afsláttarprósenta og upphæð. Niðurstöðutölur eru birtar fyrir magn í biðpöntun, útistandandi magn og upphæð fyrir hverja vöru. Nota má skýrsluna til að sjá hvort einhver vandkvæði séu með afhendingar eða hvort búast megi við því.|
 
 
 

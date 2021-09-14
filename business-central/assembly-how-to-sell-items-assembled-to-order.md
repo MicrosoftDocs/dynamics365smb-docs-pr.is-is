@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
+ms.search.keywords: kit, kitting, substitute items
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 34e869166ed3b556a91ba6c0793c60455cebfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 05060eaf315ac85f50509aec3df46ec3e9319deb
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435371"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440617"
 ---
 # <a name="sell-items-assembled-to-order"></a>Selja hluti sem eru settir saman í pöntun
 Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvörunnar er **Samsetning til pöntunar** er ekki gert ráð fyrir því að varan sé í birgðum og þá þarf að setja hana saman fyrir þessa sölupöntun. Þegar varan er sett inn í sölupöntunarlínu er samsetningarpöntun síðan búin til sjálfkrafa og tengd við sölupöntunina.  
@@ -57,12 +57,15 @@ Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvörunnar er *
 10. Á sölupöntuninni skal velja **Losa** aðgerðina til að tilkynna samsetningardeildinni að sem samsetningarferlið geti hafist.  
 11. Í samsetningardeildinni, framkvæmið aðgerðir samsetningu varanna sem seldar eru í þessu ferli. Nánari upplýsingar, sjá [Sameina vörur](assembly-how-to-assemble-items.md).  
 
+> [!NOTE]  
+> Athugaðu að staðgengilsvörur valda ekki sjálfkrafa því að vöru sé skipt út fyrir aðra vöru, til dæmis þegar sölupöntun er stofnuð eða í uppskrift. Þess í stað verður þér gert viðvart um að staðgengilsvara standi til boða.
+
 ## <a name="see-also"></a>Sjá einnig  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Skrá nýjar vörur](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

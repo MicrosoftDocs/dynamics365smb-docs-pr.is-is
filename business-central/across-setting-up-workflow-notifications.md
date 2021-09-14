@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: f0db9d63257d37fe6be5d31fc58541caf968907a
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320615"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482433"
 ---
 # <a name="workflow-notifications"></a>Tilkynningar verkflæðis
 
@@ -40,6 +40,10 @@ Sett eru upp mismunandi verkflæðistilkynningar á viðkomandi stöðum:
 * Sérsníða tilkynningar í tölvupósti
 
     Ef þú vilt geturðu sérsniðið innihald á tilkynningu tölvupósts með því að breyta skýrslu 1320, Tilkynningapóstur. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).  
+
+    > [!NOTE]
+    > Eigi að nota tölvupóst sem tilkynningamáta þarf að setja upp tölvupóst bæði fyrir sendanda og móttakanda í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Setja upp tölvupóst](admin-how-setup-email.md).
+
 * Svarmöguleikar
 
     Sett er upp tiltekið efni og reglur um tilkynningar verkflæðis þegar verkflæðið er stofnað. Þetta er gert með því að velja valkosti á síðunni **Valkostir fyrir verkflæðissvar** fyrir verkflæðissvarið sem táknar tilkynninguna. Frekari upplýsingar eru í skrefi 9 í [Stofna verkflæði](across-how-to-create-workflows.md).  

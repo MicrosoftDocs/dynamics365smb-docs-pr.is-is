@@ -5,23 +5,26 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 06/23/2021
+ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: 073b89f7c80035da12f329f752b64dc8142f309d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325585"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440493"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online sérstillt með viðbótum
 
 Þú getur breytt [!INCLUDE[prod_short](includes/prod_short.md)] Online með því að setja viðbætur sem bæta við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis.
 
 > [!NOTE]
-> Til að setja upp viðbætur frá AppSource eða bæta við viðbótum fyrir hvern leigjanda fyrir sig eru réttar heimildir nauðsynlegar. Annaðhvort verður þú að vera meðlimur notendaflokksins D365 EXTENSION MGT eða vera með heimildasamstæðu D365 EXTENSION MGT. Ef þú ert stjórnandi geturðu úthlutað notendaflokkum og heimildum til annarra notenda fyrirtækisins.
+> Til að setja upp eða fjarlægja viðbætur frá AppSource eða bæta við viðbótum fyrir hvern leigjanda fyrir sig eru réttar heimildir nauðsynlegar. Þú verður að vera meðlimur í EXTEND. STJÓR. - STJÓRNANDA Notendahópur eða þú verður að hafa EXTEND. STJÓR. - STJÓRNANDA heimildasamstæða. Ef þú ert stjórnandi geturðu úthlutað notendaflokkum og heimildum til annarra notenda fyrirtækisins.
+>
+> Til að nota virkni sem viðbót býður upp á, t.d. opna síður, keyra skýrslur, velja aðgerðir o.s.frv., verður þú að hafa fengið heimildasamstæðunum úthlutað sem settar eru upp sem hluti viðbótarinnar.
 
-Til að nota virkni sem viðbót býður upp á, t.d. opna síður, keyra skýrslur, velja aðgerðir o.s.frv., verður þú að hafa fengið heimildasamstæðunum úthlutað sem settar eru upp sem hluti viðbótarinnar.
+> [!NOTE]  
+> Heimildasamstæðan **VIÐBÓTARSTJÓRNUN - STJÓRNANDI** var kynnt til sögunnar í Business Central 2021 útgáfutímabili 1 sem staðgengill fyrir **D365 VIÐBÓTASTJÓRNUN** heimildasamstæðuna í eldri útgáfum.
 
 > [!IMPORTANT]  
 > Uppfærsla viðbóta á leigjanda og uppsetning AppSource viðbóta er ekki studd í gegnum **Viðbótastjórnun** síðu fyrir uppsetningar á forútgáfu. Ekki er hægt að setja upp viðbætur AppSource á staðnum, þar á meðal hýsingartengdar uppsetningar.

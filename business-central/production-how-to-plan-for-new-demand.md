@@ -1,21 +1,20 @@
 ---
-title: Hvernig skal gera áætlanir pöntun fyrir pöntun
-description: Þessa áætlanagerð er hægt að framkvæma á síðunni Pantanaáætlun sem birtir alla nýja eftirspurn auk upplýsinga um ráðstöfunarmagn og tillögum um framboð.
+title: Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun
+description: Þessa áætlanagerð er hægt að framkvæma á síðunni Pantanaáætlun sem birtir alla nýja eftirspurn auk upplýsinga um ráðstöfunarmagn og tillögum um framboð, þar á meðal staðgengilsvara.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 63277d695f373c1914e55530a12cb921c8b6cc4f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444231"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440718"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun
 Þessa áætlanagerð er hægt að framkvæma á síðunni **Pantanaáætlun** sem birtir alla nýja eftirspurn auk upplýsinga um ráðstöfunarmagn og tillögum um framboð. Hann veitir nauðsynlegan sýnileika og verkfæri til að gera skilvirkar áætlanir um eftirspurn úr sölulínum og íhlutalínum og stofna síðan beint mismunandi tegundir af framboðspöntunum.  
@@ -67,6 +66,9 @@ Síðan birtir áætlanalínur eftir yfirlitsafmörkuninni **Framleiðslueftirsp
 
     Ef staðgengill er til fyrir vöruna sem spurt er eftir inniheldur reiturinn **Staðgengill er til** stilltur á **Já**. Þá er hægt að fletta upp á síðunni **Staðgengilsvörufærslur** og velja staðgengil.  
 
+    > [!NOTE]  
+    > Athugaðu að staðgengilsvörur valda ekki sjálfkrafa því að vöru sé skipt út fyrir aðra vöru, til dæmis þegar sölupöntun er stofnuð eða í uppskrift. Þess í stað verður þér gert viðvart um að staðgengilsvara standi til boða.
+
 7.  Gátmerki er sett í reitinn **Frátekið** til að stofna frátekningu milli framboðspöntunar sem er verið að stofna og eftirspurnarlínunar pöntunin er gerð fyrir. Reiturinn er sjálfgefið tómur.  
 
     > [!NOTE]  
@@ -117,7 +119,7 @@ Nú hefur verið áætlað fyrir óuppfylltri eftirspurn með því að gera vi�
 [Innkaup](purchasing-manage-purchasing.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Skrá nýjar vörur](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

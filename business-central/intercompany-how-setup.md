@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f43141d4280fcadedc8072194f0d4d52e50cdf2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441269"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440466"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Setja upp bókun millifyrirtækjafærslu
 
-Til að senda viðskipti (til dæmis sölubókarlínu) frá einu fyrirtæki og láta stofna samsvarandi viðskipti (til dæmis innkaupabókarlínu) í fyrirtækisfélaganum þurfa fyrirtækin að koma sér saman um sameiginlegan bókhaldslykil og víddir sem nota á í viðskiptum milli fyrirtækjanna. Bókhaldslykillinn milli fyrirtækja gæti til dæmis verið einfölduð útgáfa af bókhaldslykli móðurfyrirtækisins. Hvert fyrirtæki varpar heildarbókhaldslykli sínum á sameiginlega bókhaldslykilinn milli fyrirtækja, og hvert fyrirtæki varpar víddum sínum á víddirnar milli fyrirtækja.  
+Til að senda viðskipti (til dæmis sölubókarlínu) frá einu fyrirtæki og láta stofna samsvarandi viðskipti (til dæmis innkaupabókarlínu) í fyrirtækisfélaganum þurfa fyrirtækin að koma sér saman um sameiginlegan bókhaldslykil og víddir sem nota í viðskiptum milli fyrirtækjanna. Bókhaldslykillinn milli fyrirtækja gæti til dæmis verið einfölduð útgáfa af bókhaldslykli móðurfyrirtækisins. Hvert fyrirtæki varpar heildarbókhaldslykli sínum á sameiginlega bókhaldslykilinn milli fyrirtækja, og hvert fyrirtæki varpar víddum sínum á víddirnar milli fyrirtækja.  
 
 Einnig þarf að setja upp MF-félagakóða fyrir hvern fyrirtæki félaga, sem öll fyrirtækin þurfa að samþykkja, og síðan úthluta þeim til viðskiptamanna- og lánardrottnaspjalda með því fylla út í reitinn **MF-félagakóði**.  
 
@@ -34,7 +34,7 @@ Ef gerðar verða sölufærslur milli fyrirtækja sem innihalda forða þarf að
 ## <a name="to-set-intercompany-partners"></a>Setja millifyrirtækjafélaga
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Millifyrirtækjafélagar** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð.
-3. Á síðunni **Millifyrirtækjafélagi** skal fylla út reitina eins og þörf krefur.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Á síðunni **Millifyrirtækjafélagi** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > Á [!INCLUDE[prod_short](includes/prod_short.md)] Online er ekki hægt að nota skráarstaðsetningar til að flytja færslur til samstarfsaðila þar sem [!INCLUDE[prod_short](includes/prod_short.md)] hefur ekki aðgang að staðbundna netinu þínu. Ef þú velur **Staðsetning skráar** í reitnum **Flutningsgerð**, er **Möppuslóð** ekki í boði. Þess í stað er skránni hlaðið niður í niðurhalsmöppuna á tölvunni þinni. Þú sendir síðan skrána til einhvers í samstarfsfyrirtækinu, til dæmis í tölvupósti. Við mælum með því að þú notir **Tölvupóstur** í staðinn til að fá beinna samband.
@@ -65,7 +65,7 @@ Til að leyfa millifyrirtækjafélögum þínum að flytja inn skilgreinandi bó
 3. Skrárheitið og staðsetningin þar sem vista á XML-skrána eru valin og síðan smellt á **Vista**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Bókhaldslykill milli fyrirtækja fluttur inn:  
-Þegar til er skrá sem inniheldur skilgreinandi MF-bókhaldslykilinn, geta millifyrirtækjafélagar flutt hana inn til að vera vissir um að hafa sama lykilinn.  
+Þegar til er skrá sem skilgreinir MF-bókhaldslykilinn, geta millifyrirtækjafélagar flutt hana inn til að vera vissir um að hafa sama lykilinn.  
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-bókhaldslykill** og velja síðan viðkomandi tengil.  
 2. Á síðunni **MF-bókhaldslyklar** skal velja aðgerðina **Flytja inn**.  
 3. Skrárheiti og staðsetning XML-skrárinnar eru tilgreind og smellt á **Opna**.  
@@ -82,7 +82,7 @@ Ef reikningar í bókhaldslykli milli fyrirtækja hafa sömu reikningsnúmer og 
 3. Fyrir hvern fjárhagsreikning milli fyrirtækja sem ekki var varpað sjálfkrafa, skal fylla í reitinn **Varpa á Fjárhagsreikning nr.**.  
 
 ## <a name="to-set-up-default-intercompany-partner-general-ledger-accounts"></a>Hvernig á að setja upp sjálfgefna fjárhagsreikninga samstarfsfyrirtækja  
-Þegar sölu- eða innkaupalína milli fyrirtækja er stofnuð til að senda sem færslu á útleið er færður inn reikningur úr MF-bókhaldslykli sem notaður verður sem sjálfgefinn reikningur sem upphæðin ætti að bókast á í fyrirtæki félagans. Á síðunni **Bókhaldslykill** er hægt að tilgreina sjálfgefinn fjárhagsreikning MF-félaga fyrir reikninga sem oft eru notaðir í MF-sölu- eða innkaupalínum á útleið. Til dæmis er hægt að færa inn samsvarandi safnreikning lánardrottna úr MF-bókhaldsreikningi fyrir safnreikninga viðskiptamanna.  
+Þegar sölu- eða innkaupalína milli fyrirtækja er stofnuð til að senda sem færslu á útleið er færður inn reikningur úr MF-bókhaldslykli sem notaður verður sem sjálfgefinn reikningur sem upphæðin ætti að bókast á í fyrirtæki félagans. Á síðunni **Bókhaldslykill** er hægt að tilgreina sjálfgefinn fjárhagsreikning MF-félaga fyrir reikninga sem reglulega eru notaðir í MF-sölu- eða innkaupalínum á útleið. Til dæmis er hægt að færa inn samsvarandi safnreikning lánardrottna úr MF-bókhaldsreikningi fyrir safnreikninga viðskiptamanna.  
 
 Þegar fjárhagsreikningur er síðan færður inn í reitinn **Nr. Mótreiknings** í línu milli fyrirtækja með **MF-félaga** í reitnum **Tegund reiknings** er sjálfkrafa fyllt í reitinn **MF-félagi fjárhagsreikningur**.  
 

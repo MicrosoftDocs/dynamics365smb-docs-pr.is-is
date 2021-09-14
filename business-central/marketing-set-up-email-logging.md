@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437578"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482346"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Fylgstu með tölvupóstsamskiptum milli sölufólks og tengiliða
 
@@ -31,31 +31,36 @@ Næst tengir þú [!INCLUDE[prod_short](includes/prod_short.md)] við Exchange O
 
 Hafist handa með tölvupóstskráningu í tveimur einföldum skrefum:
 
-1. Tengið [!INCLUDE[prod_short](includes/prod_short.md)] við Exchange Online fyrir Microsoft 365-áskriftina. Exchange Online sér um tölvupóstskilaboðin þín. Við höfum einfaldað þetta skref með því að bjóða upp á uppsetningarleiðbeiningar. Aðeins þarf innskráningarupplýsingar stjórnanda fyrir stjórnandareikning í Microsoft 365. Til að hefja leiðsögnina skaltu fara í **Uppsetning með hjálp** og velja síðan **Setja upp tölvupóstskráningu**.  
+1. Tengið [!INCLUDE[prod_short](includes/prod_short.md)] við Exchange Online fyrir Microsoft 365-áskriftina. Exchange Online sér um tölvupóstskilaboðin þín. Við höfum einfaldað þetta skref með því að bjóða upp á uppsetningarleiðbeiningar. Aðeins þarf innskráningarupplýsingar stjórnanda fyrir stjórnandareikning í Microsoft 365. Til að hefja leiðsögnina skaltu opna síðuna **Uppsetning með hjálp** og velja síðan **Setja upp tölvupóstskráningu**.  
 
 2. Gakktu úr skugga um að gild netföng hafi verið slegin inn í [!INCLUDE[prod_short](includes/prod_short.md)] fyrir sölufólk og tengiliði, sem er háð því hvort um sé að ræða mögulega eða núverandi viðskiptavini. Til að gera það fyrir hvern viðskiptavin eða sölumann skal opna spjaldið **Tengiliður** eða **Sölumaður/innkaupaaðili** og kíkja í reitinn **Netfang**.
 
 > [!Tip]
-> Eftir að þú hefur lokið skrefum leiðsagnarinnar geturðu athugað hvort tengingin hafi borið árangur. Leitaðu að **Uppsetning markaðssetningar**, veldu **Ferli**, síðan **Aðgerðir** og að lokum **Staðfesta uppsetningu tölvupóstskráningar**.
+> Eftir að þú hefur lokið skrefum leiðsagnarinnar geturðu athugað hvort tengingin hafi borið árangur. Leitaðu að **Uppsetning markaðssetningar** og veldu **Aðgangur**, síðan **Aðgerðir** og að lokum **Staðfesta uppsetningu tölvupóstskráningar**.
 
 ## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Að skoða tölvupóstsamskipti í samskiptaskránni
-[!INCLUDE[prod_short](includes/prod_short.md)] býr til færslu á síðunni **Samskiptaskrá** í hvert skipti sem sölumaður og tengiliður skiptast á tölvupóstskilaboðum. Til að skoða samskiptakladdann skal opna spjaldið **Tengiliður** eða **Sölumaður innkaupaaðila** fyrir einstaklinginn og síðan velja **Ferill** og síðan velja **Færslur í samskiptaskráningu**. Við getum gert nokkra hluti við hverja færslu í skránni, til dæmis:
 
-- Skoðaðu innihald tölvupóstsins sem var sendur á milli með því að smella á aðgerðina **Sýna viðhengi**.
-- Breyttu tölvupóstsamskiptum í sölutækifæri - Þú getur skapað tækifæri úr færslu sem lofar góðu og náð sölu út úr henni. Til að gera það skaltu velja færsluna og síðan aðgerðina **Stofna tækifæri**. Nánari upplýsingar er að finna í [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] býr til færslu á síðunni **Samskiptaskrá** í hvert skipti sem sölumaður og tengiliður skiptast á tölvupóstskilaboðum. Til að skoða samskiptaskrána skaltu opna spjaldið **Tengiliður** fyrir einstaklinginn og velja síðan **Tengt**, **Ferill** og að lokum velja **Samskiptaskráningarfærslur**. Við getum gert nokkra hluti við hverja færslu í skránni, til dæmis:
+
+- Skoðaðu innihald tölvupóstsins sem var sendur á milli með því að velja **Vinna** og svo **Sýna viðhengi**.
+- Breyttu tölvupóstsamskiptum í sölutækifæri - Þú getur skapað tækifæri úr færslu sem lofar góðu og náð sölu út úr henni. Þetta er gert með því að velja færsluna og velja síðan **Vinna** og síðan **Búa til tækifæri**. Nánari upplýsingar er að finna í [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md).
 
 ## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Að tengja útgáfur á staðnum við Microsoft Exchange
-Hægt er að tengja [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss við Exchange innanhúss eða Exchange Online fyrir tölvupóstsskráningu. Fyrir báðar útgáfur af Exchange eru stillingar fyrir tenginguna í boði á síðunni **Uppsetning markaðssetningar**. Fyrir Exchange Online er einnig hægt að nota uppsetningarleiðbeiningar með hjálp. 
+
+Hægt er að tengja [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss við Exchange innanhúss eða Exchange Online fyrir tölvupóstsskráningu. Fyrir báðar útgáfur af Exchange eru stillingar fyrir tenginguna í boði á síðunni **Uppsetning markaðssetningar**. Fyrir Exchange Online er einnig hægt að nota uppsetningarleiðbeiningar með hjálp.
 
 ### <a name="connecting-to-exchange-on-premises"></a>Að tengjast við Exchange innanhúss
-Til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss við Exchange innanhúss er hægt á síðunni **Uppsetning markaðssetningar** að nota **Grunnútfærsla** sem **Sannvottunargerð** og síðan slá inn innskráningarupplýsingar fyrir notandareikninginn fyrir Exchange innanhúss. Því næst skal kveikja á **Virkja** til að hefja skráningu á tölvupósti. 
+
+Til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss við Exchange innanhúss er hægt á síðunni **Uppsetning markaðssetningar** að nota **Grunnútfærsla** sem **Sannvottunargerð** og síðan slá inn innskráningarupplýsingar fyrir notandareikninginn fyrir Exchange innanhúss. Því næst skal kveikja á **Virkja** til að hefja skráningu á tölvupósti.
 
 ### <a name="connecting-to-exchange-online"></a>Tengist við Exchange Online
-Til að tengjast við Exchange Online þarf að nota **OAuth2** sem **Sannvottunargerð**. Einnig þarf að skrá forrit í Azure Active Directory og gefa upp auðkenni forrits, leynilykil lyklageymslu og framsendingarslóð sem á að nota. Framsend vefslóð er fyllt út fyrirfram og ætti að virka fyrir flestar uppsetningar. Frekari upplýsingar eru í [Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
+
+Til að tengjast við Exchange Online þarf að nota **OAuth2** sem **Sannvottunargerð**. Einnig þarf að skrá forrit í Azure Active Directory og gefa upp auðkenni forrits, leynilykil lyklageymslu og framsendingarslóð sem á að nota. Framsend vefslóð er fyllt út fyrirfram og ætti að virka fyrir flestar uppsetningar. Frekari upplýsingar eru í Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Exchange Online.
 
 Nauðsynlegt er að setja upp uppsetninguna til að nota HTTPS. Frekari upplýsingar er að finna í [Skilgreining SSL til að tryggja örugga tengingu vefbiðlara Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Ef verið er að setja upp þjóninn til að hafa aðra heimasíðu er hægt að breyta vefslóðinni. Leynilykill biðlara verða vistaður sem dulkóðaður strengur í gagnagrunninum.
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Exchange Online
+
 Eftirfarandi skref gera ráð fyrir að nota Azure Active Directory til að stjórna auðkennum og aðgangsheimild. Frekari upplýsingar er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app). Ef ekki er notað Azure Active Directory skal skoða [Að nota aðra stýringarþjónustu auðkennis og aðgangsheimildar](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
 
 1. Í Azure-gáttinni, undir **Stjórna**, skal velja **Sannvottun**.

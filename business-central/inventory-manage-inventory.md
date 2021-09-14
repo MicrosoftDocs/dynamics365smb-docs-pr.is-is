@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24337d2cd96e4511f1917980c94af407381e96d2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325319"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482273"
 ---
 # <a name="how-to-manage-inventory"></a>Hvernig á að stjórna birgðum
 Fyrir hverja vöru sem þú ert að eiga viðskipti með þarftu að búa til hlutakort af tegundinni **Birgðir**. Vörur sem þú býður viðskiptamönnum en geymir ekki í birgðum er hægt að skrá sem vörulistaatriði sem hægt er að breyta í birgðavara þegar þörf krefur. Hægt að auka eða minnka magn vöru í birgðum með því að bóka beint í birgðafærslur, til dæmis þegar eftir raunbirgðatalningu eða ef þú skráir ekki innkaup.
@@ -51,9 +51,10 @@ Eftirfarandi tafla sýnir tengd verk.
 |Skoðaðu framboð á hlutum eftir staðsetningu, eftir tímabili, eftir sölu eða innkaupatilviki, eða eftir notkun á samsetningar- eða framleiðsluuppskrift.|[Skoða tiltækileika vöru](inventory-how-availability-overview.md)|
 |Flytja birgðavörur á milli staða með flutningspöntun, til að stjórna vöruhúsaaðgerðum eða með vöruendurflokkunarbók.|[Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)|
 |Hægt er að taka frá birgðavörur eða vörur á innleið fyrir sölu-, innkaupa-, þjónustu, samsetningar- og framleiðslupantanir.|[Taka frá vörur](inventory-how-to-reserve-items.md)|
-|Úthluta rað- eða lotunúmerum til sérhvers skjals á inn- eða útleið eða færslubókarlínu, til dæmis til að rekja vörur í tilviki innköllunar.|[Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)|
-|Setja upp eigin lýsingu lánardrottins eða viðskiptavinar á vöruspjald, þannig að þú getur fært vörulýsingu þeirra inn á viðskiptaskjöl.|[Nota millivísanir vöru](inventory-how-use-item-cross-refs.md)|
+|Setja upp vörurakningu þannig að hægt sé að rekja vörur með raðnúmerum, til dæmis til að rekja vörur við innköllun.|[Setja upp vörurakningu með raðnúmer, lotu og pakkanúmer](inventory-how-setup-item-tracking.md)|
+|Úthluta rað- eða lotunúmerum til sérhvers skjals á inn- eða útleið eða færslubókarlínu.|[Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)|
 |Komast að því hvar rað- eða lotunúmer var notað í aðfangakeðju, til dæmis í innköllunaraðstæðum.|[Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)|
+|Setja upp eigin lýsingu lánardrottins eða viðskiptavinar á vöruspjald, þannig að þú getur fært vörulýsingu þeirra inn á viðskiptaskjöl.|[Nota millivísanir vöru](inventory-how-use-item-cross-refs.md)|
 |Loka á vörur svo þær verði ekki slegnar inn í sölu- eða innkaupalínur eða bókaðar í einhverri færslu.|[Loka vörum](inventory-how-block-items.md)|
 |Stjórna viðskiptaaðgerðum á söluskrifstofum, innkaupadeildum, eða komið fyrir áætlunarskrifstofum í mörgum birgðageymslum.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
 |Notið tilföng með sérstakri færni fyrir ýmsa þjónustu og þjónustuvörur.|[Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)|

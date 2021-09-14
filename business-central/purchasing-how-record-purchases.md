@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 04/01/2021
+ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 18aef7bfc5324d17d2af9f4aa4ff0ba2602c70e0
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445502"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482398"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Skrá innkaup með innkaupareikningum
 
@@ -25,25 +25,10 @@ Innkaupareikningur eða innkaupapöntun er stofnaður til að skrá kostnaðarve
 
 Ásamt því að kaupa efnislegar vörur (vörugerðina **Birgðir**), sem hefur áhrif á birgðamat, er hægt að kaupa þjónustu sem gefin er upp í tímaeiningum. Hægt er að gera þetta annaðhvort með vörugerðinni **Þjónusta** eða línugerðinni **Forði**.
 
-> [!NOTE]  
-> Verður Að nota innkaupapantanir ef innkaupaferlið krefst þess að hægt sé að skrá hlutamóttökur pöntunarmagns , til dæmis þar sem allt magnið var ekki tiltæk í hjá lánardrottinn. Ef vara er seld með því að afhenda beint frá lánardrottni til viðskiptamanns, sem bein sending þarf að einnig nota innkaupapantanir. Frekari upplýsingar eru í [Beinar sendingar](sales-how-drop-shipment.md). Frá öllum sjónarhornum séð virka innkaupapantanir á sama hátt og innkaupareikningar. Eftirfarandi ferli byggist á innkaupareikningur. Skrefin eru svipuð fyrir innkaupapöntun.
-
 Þegar þú tekur við birgðavörum eða þegar innkaupaaðgerð er lokið bókarðu innkaupareikninginn eða -pöntun til að uppfæra birgðir og fjármálaskrár og til að virkja greiðslu til lánardrottins, samkvæmt greiðsluskilmálum. Frekari upplýsingar eru í [Bókun innkaupa](ui-post-purchases.md) og [Greiðslur framkvæmdar](payables-make-payments.md).
 
 > [!CAUTION]  
 > Ekki bóka innkaupareikning efnislegra vara fyrr en vörur eru mótteknar og lokakostnaður er vitaður, þ.m.t. öll viðbótargjöld. Annars kunna birgðagildi og hagnaðartölur er vera röng.
-
-Birgðaspjaldið getur verið af gerðinni **Birgðir**, **Þjónusta** og **Ekki birgðir** til að tilgreina hvort vara er raunbirgðaeining, launatímaeining eða efnisleg eining sem ekki er geymd í birgðum. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md). Innkaupareikningaferlið er það sama fyrir allar þrjár vörutegundir.
-
-> [!NOTE]
-> Með innkaupalínugerðinni **Tilfang** er einnig hægt að kaupa ytri tilföng, til dæmis til að senda reikning á lánardrottin fyrir afhenta vinnu. Frekari upplýsingar eru í [Setja upp tilföng](projects-how-setup-resources.md).
->
-> Til að nota keypt tilfang getur þurft að stilla afkastagetu tilfangs og tengja það handvirkt við verk. Kaup á tilfangi stofnar fjáhagsforðafærslu, en fjárhagsfærslur tilfangs eru hins vegar ekki raktar fyrir magni og virði eins og t.d. vörur eru. Ef rakning á magni og virði er nauðsynlegt, skal íhuga að nota aðrar vörulínugerðir.
-
-Hægt er að fylla út  lánardrottnareitina í innkaupareikningunum með tveimur leiðum, eftir því hvort lánardrottinninn hefur þegar verið skráður.
-<br><br>  
-
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
 ### <a name="to-create-a-purchase-invoice"></a>Að Stofna innkaupareikning
 
@@ -56,12 +41,9 @@ Hér er því lýst hvernig á að búa til innkaupareikning. Skrefin eru svipu�
 
     1. Í reitnum **lánardrottinn** er fært inn nafn nýs lánardrottinn.
     2. Í svarglugganum um að skrá nýja lánardrottinn, veljið hnappinn **Já**.
-    3. Á síðunni **Velja sniðmát fyrir nýjan lánardrottinn**, skal velja sniðmát til að byggja nýja lánardrottnaspjaldið á og veljið hnappinn **Í lagi**.
-    4. Nýtt viðskiptamannaspjald opnast, fyrirfram fyllt út með upplýsingnum á valda viðskiptamannasniðmátinu. Reiturinn **Heiti** er fyrirfram fylltur út með nafni nýja lánardrottins sem fært var inn á innkaupareikninginn.
-    5. Haltu áfram að fylla út eftirstandandi reiti á spjaldi lánardrottins. Nánari upplýsingar eru í [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md).  
-    6. Þegar lokið hefur verið við lánardrottinsspjaldið skal velja hnappinn **Í lagi** til að fara aftur á síðuna **Innkaupareikningur**.
+    3. Frekari upplýsingar um hvernig á að fylla út kort lánardrottins er að finna í [Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md).  
+    4. Þegar lokið hefur verið við lánardrottinsspjaldið skal velja hnappinn **Í lagi** til að fara aftur á síðuna **Innkaupareikningur**.
 
-    Margir reitir á síðunni **innkaupareikningur** eru útfylltir með upplýsingar sem tilgreindar eru á nýju lánardrottinnspjaldi.
 3. Fylltu í eftirstandandi reiti á síðunni **innkaupareikningur** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Þú ert nú tilbúinn að fylla út innkaupareikningslínurnar með vörum eða tilföngum sem þú hefur keypt af lánardrottninum.
@@ -71,19 +53,11 @@ Hér er því lýst hvernig á að búa til innkaupareikning. Skrefin eru svipu�
 4. Í flýtiflipanum **Línur** í reitnum **Vörunúmer** er sleginn inn fjöldi birgðavöru eða þjónustu.
 5. Í reitinn **Magn** er fært fjöldi vara sem á að kaupa.
 
-    > [!NOTE]  
-    > Fyrir vörur af tegundinni **Þjónusta** og línur af gerðinni **Tilfang** er magnið tímaeining, t.d. klukkutímar, eins og gefið er til kynna í reitnum **Mælieiningarkóði** í línunni.
-
     Reiturinn **línuupphæð** uppfærist til að sýna að gildið í reitnum **beint innkaupsverð** margfaldað með gildinu í reitnum **magn**.
 
     Verð- og línuupphæð eru sýndar með eða án VSK, en það fer eftir því hvað var valið í reitnum **verð með skatti** á lánardrottinsspjaldinu.
 
     Samtölureitirnir undir línunum uppfærast sjálfkrafa eftir því sem þú stofnar eða breytir línum til að sýna upphæðir sem verða bókaðar í fjárhagnum.
-
-    > [!NOTE]
-    > Í örfáum tilfellum kunna bókaðar upphæðir að sýna aðra upphæðir en þær sem sýndar eru í samtölureitunum. Venjulega gerist það vegna sléttunarútreiknings í tengslum við virðisaukaskatt.
-    >
-    > Til að kanna upphæðirnar sem koma til með að vera bókaðar er hægt að nota síðuna **Tölfræðilegar upplýsingar** sem tekur sléttunarútreikninga til greina. Einnig, ef þú velur aðgerðina **Gefa út**, verða samtölureitirnir uppfærðir til að hafa sléttunarútreikninga með.
 
 6. Í reitnum **afsláttarupphæð reiknings** færið inn upphæð sem draga á frá gildinu sem sýnt er í reitnum **Heildarupphæð með skatti** neðst á reikningnum.
 
@@ -92,6 +66,28 @@ Hér er því lýst hvernig á að búa til innkaupareikning. Skrefin eru svipu�
 7. Þegar tekið er við innkeyptar vörur eða þjónustu velja **Bóka**.
 
 Innkaupin eru nú skráð í birgðum, forðabókum og fjármálafærslum og greiðsla lánardrottins er virkjuð. Innkaupareikningurinn er fjarlægður af lista innkaupareikninga og skipt út fyrir nýtt fylgiskjal á lista bókaðra innkaupareikninga.  
+
+> [!NOTE]
+> Í örfáum tilfellum kunna bókaðar upphæðir að sýna aðra upphæðir en þær sem sýndar eru í samtölureitunum. Venjulega gerist það vegna sléttunarútreiknings í tengslum við virðisaukaskatt.
+>
+> Til að kanna upphæðirnar sem koma til með að vera bókaðar er hægt að nota síðuna **Tölfræðilegar upplýsingar** sem tekur sléttunarútreikninga til greina. Einnig, ef þú velur aðgerðina **Gefa út**, verða samtölureitirnir uppfærðir til að hafa sléttunarútreikninga með.
+
+## <a name="when-to-use-purchase-orders"></a>Hvenær á að nota innkaupapantanir
+
+Verður Að nota innkaupapantanir ef innkaupaferlið krefst þess að hægt sé að skrá hlutamóttökur pöntunarmagns , til dæmis þar sem allt magnið var ekki tiltæk í hjá lánardrottinn. Ef vara er seld með því að afhenda beint frá lánardrottni til viðskiptamanns, sem bein sending þarf að einnig nota innkaupapantanir. Frekari upplýsingar eru í [Beinar sendingar](sales-how-drop-shipment.md). Frá öllum sjónarhornum séð virka innkaupapantanir á sama hátt og innkaupareikningar. Eftirfarandi ferli byggist á innkaupareikningur. Skrefin eru svipuð fyrir innkaupapöntun.
+
+<br><br>
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
+
+## <a name="selling-non-inventory-items"></a>Sala vara sem eru ekki birgðavörur
+
+Vörur á innkaupareikningi geta verið af gerðinni **Birgðir**, **Þjónusta**, **Tilföng** og **Ekki brigðir** til að tilgreina hvort vara er raunbirgðaeining, launatímaeining eða efnisleg eining sem ekki er geymd í birgðum. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md). Innkaupareikningaferlið er það sama fyrir allar þrjár vörutegundir.
+
+> [!NOTE]
+> Með innkaupalínugerðinni **Tilfang** er einnig hægt að kaupa ytri tilföng, til dæmis til að senda reikning á lánardrottin fyrir afhenta vinnu. Frekari upplýsingar eru í [Setja upp tilföng](projects-how-setup-resources.md).
+>
+> Til að nota keypt tilfang getur þurft að stilla afkastagetu tilfangs og tengja það handvirkt við verk. Kaup á tilfangi stofnar fjáhagsforðafærslu, en fjárhagsfærslur tilfangs eru hins vegar ekki raktar fyrir magni og virði eins og t.d. vörur eru. Ef rakning á magni og virði er nauðsynlegt, skal íhuga að nota aðrar vörulínugerðir.
 
 ## <a name="posted-invoices"></a>Bókaðir reikningar
 

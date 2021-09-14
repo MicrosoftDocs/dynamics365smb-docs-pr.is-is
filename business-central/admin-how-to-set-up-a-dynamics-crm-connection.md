@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0afad844bc58089548885b8e7dcce8c4b947cea9
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6636043"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440542"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Tengjast við Microsoft Dataverse
 
@@ -111,15 +111,16 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!NOTE]
 > Þessi hluti á aðeins við fyrir leigjendur Business Central á netinu sem eru hýstir hjá Microsoft. Það hefur engin áhrif á leigjendur á netinu sem eru hýstir hjá óháðum hugbúnaðarsölum og uppsetningar á staðnum.
 
-Í apríl 2022 mun [!INCLUDE[cds_long_md](includes/cds_long_md.md)] taka úr umferð auðkenningarleið Office365 (notandanafn/lykilorð). Frekari upplýsingar er að finna í [Auðkenningarleið Office365 tekin úr umferð](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Auk þess mun [!INCLUDE[prod_short](includes/prod_short.md)] í mars 2022 taka úr umferð notkun auðkenningu milli þjónusta sem byggir á leyniorði biðlara fyrir leigjendur á netinu og mun krefjast þess að notuð verði auðkenning milli þjónusta sem byggir á skilríkjum fyrir tengingar við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Leigjendur [!INCLUDE[cds_long_md](includes/cds_long_md.md)] á netinu sem óháðir hugbúnaðarsalar hýsa, og uppsetningar á staðnum, geta haldið áfram að nota auðkenningu Office365 sem samstarfsaðili Microsoft setur upp.
+Í apríl 2022 mun [!INCLUDE[cds_long_md](includes/cds_long_md.md)] taka úr umferð auðkenningarleið Office365 (notandanafn/lykilorð). Frekari upplýsingar er að finna í [Auðkenningarleið Office365 tekin úr umferð](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Auk þess mun [!INCLUDE[prod_short](includes/prod_short.md)] í mars 2022 taka úr umferð notkun auðkenningu milli þjónusta sem byggir á leyniorði biðlara fyrir leigjendur á netinu og mun krefjast þess að notuð verði auðkenning milli þjónusta sem byggir á skilríkjum fyrir tengingar við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Leigjendur [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem óháðir hugbúnaðarsalar hýsa, og uppsetningar á staðnum, geta haldið áfram að nota auðkenningu með leyniorði biðlara til að tengjast [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 Til að koma í veg fyrir truflanir á samþættingum _verður að uppfæra_ tenginguna til að nota auðkenningu sem byggir á skilríki. Þó að breytingin sé áætluð mars 2022 mælum við eindregið með því að þú uppfærir eins fljótt og auðið er. Eftirfarandi skref útskýra hvernig á að uppfæra auðkenningu með skilríkjum. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Til að uppfæra nettengingu við Business Central til að nota auðkenningu með skilríkjum
+
 > [!NOTE]
 > Auðkenning með skilríkjum er í boði í Business Central 2021, útgáfutímabili 1 og nýrri. Ef notuð er eldri útgáfa verður að uppfæra í Business Central 2021 útgáfu 1 fyrir mars 2022. Frekari upplýsingar er að finna í [Uppfærslur áætlaðar](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Ef vandamál koma upp skaltu hafa samband við samstarfsaðila eða notendaþjónustu.
 
-1. Í [Business Central administration center]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) skaltu ganga úr skugga um að þú sért að nota Business Central 2021 útgáfutímabil 1 eða síðar (útgáfa 18 eða síðar).
+1. Í [Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) skaltu ganga úr skugga um að þú sért að nota Business Central 2021 útgáfutímabil 1 eða síðar (útgáfa 18 eða síðar).
 2. Gerðu eitt af eftirfarandi ef þú samþættar við Dynamics 365 Sales:
    * Ef þú gerir það skaltu opna **Microsoft Dynamics Uppsetningarsíðu 365**.
    * Ef ekki skaltu opna **Dataverse Uppsetningarsíðu**.

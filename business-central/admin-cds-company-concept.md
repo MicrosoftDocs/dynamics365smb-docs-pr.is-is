@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773337"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482196"
 ---
 # <a name="data-ownership-models"></a>Eignarhaldslíkön gagna
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ Eftirfarandi mynd sýnir dæmi um þessa gagnauppsetningu í [!INCLUDE[prod_shor
 
 ![Rót viðskiptaeiningarinnar er efst, teymin eru í miðjunni og síðan eru fyrirtækin neðst.](media/cds_bu_team_company.png)
 
-Í þessari grunnstillingu eru færslur sem tengjast Cronus US fyrirtækinu í eigu teymis sem tengist CRONUS US <ID> rekstrareiningunni í [!INCLUDE[prod_short](includes/cds_long_md.md)]. Notendur sem hafa aðgang að viðskiptaeiningunni í gegnum öryggishlutverk sem er stillt á sýnileika viðskiptaeiningarstigs í [!INCLUDE[prod_short](includes/cds_long_md.md)] geta nú séð færslurnar. Eftirfarandi dæmi sýnir hvernig á að nota teymi til að veita aðgang að þessum færslum.
+Í þessari grunnstillingu eru færslur sem tengjast Cronus US fyrirtækinu í eigu teymis sem tengist CRONUS US  rekstrareiningunni í [!INCLUDE[prod_short](includes/cds_long_md.md)]. Notendur sem hafa aðgang að viðskiptaeiningunni í gegnum öryggishlutverk sem er stillt á sýnileika viðskiptaeiningarstigs í [!INCLUDE[prod_short](includes/cds_long_md.md)] geta nú séð færslurnar. Eftirfarandi dæmi sýnir hvernig á að nota teymi til að veita aðgang að þessum færslum.
 
 * Hlutverki sölustjóra er úthlutað til meðlima í söluteymi Cronus US.
 * Notendur sem eru með hlutverk sölustjóra hafa aðgang að reikningsfærslum fyrir meðlimi sömu viðskiptaeiningar.
-* Söluteymi Cronus US tengist viðskiptaeiningu Cronus US, sem áður var nefnt. Meðlimir söluteymis Cronus US geta séð alla reikninga sem eru í eigu Cronus US <ID> notanda, sem hefði komið frá fyrirtækistöflu Cronus US í [!INCLUDE[prod_short](includes/prod_short.md)].
+* Söluteymi Cronus US tengist viðskiptaeiningu Cronus US, sem áður var nefnt. Meðlimir söluteymis Cronus US geta séð alla reikninga sem eru í eigu Cronus US  notanda, sem hefði komið frá fyrirtækistöflu Cronus US í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Hins vegar er 1:1 vörpunin milli viðskiptaeininga, fyrirtækis og teymis aðeins byrjunarreitur, eins og sést í eftirfarandi mynd.
 
@@ -51,7 +51,7 @@ Hins vegar er 1:1 vörpunin milli viðskiptaeininga, fyrirtækis og teymis aðei
 
 Í þessu dæmi er ný EUR (Evrópa) rót viðskiptaeiningar búin til í [!INCLUDE[prod_short](includes/cds_long_md.md)] sem yfireining fyrir bæði Cronus DE (Þýskaland) og Cronus ES (Spánn). EUR viðskiptaeiningin er ekki tengd samstillingu. Hins vegar getur hún gefið meðlimum EUR söluteymis aðgang að reikningsgögnum bæði í Cronus DE og Cronus ES með því að stilla gagnasýnileika á **Yfir-/undirstig viðskiptaeiningar** í tengdu öryggishlutverki í [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-Samstilling ákvarðar hvaða teymi skal eiga færslur. Þessu er stjórnað af reitnum **Sjálfgefið eigendateymi** í BCI - <ID> línunni. Þegar BCI - <ID> færsla er virkjuð fyrir samstillingu búum við sjálfkrafa til tengda viðskiptaeiningu og eigendateymi (ef það er ekki þegar til) og stillum reitinn **Sjálfgefið eigendateymi**. Þegar samstilling er virkjuð fyrir töflu geta stjórnendur breytt eigendateyminu, en alltaf verður að úthluta teymi.
+Samstilling ákvarðar hvaða teymi skal eiga færslur. Þessu er stjórnað af reitnum **Sjálfgefið eigendateymi** í BCI -  línunni. Þegar BCI-færsla er virkjuð fyrir samstillingu búum við sjálfkrafa til tengda viðskiptaeiningu og eigendateymi (ef það er ekki þegar til) og stillum reitinn **Sjálfgefið eigendateymi**. Þegar samstilling er virkjuð fyrir töflu geta stjórnendur breytt eigendateyminu, en alltaf verður að úthluta teymi.
 
 > [!NOTE]
 > Færslur verða skrifvarðar eftir að fyrirtæki er bætt við og því skal gæta þess að velja rétt fyrirtæki.

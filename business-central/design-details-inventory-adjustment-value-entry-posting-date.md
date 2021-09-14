@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/27/2021
+ms.date: 08/19/2021
 ms.author: edupont
-ms.openlocfilehash: 2a3d35672905094e714f85ac4758cbf39ec88cb6
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 3dcda7f44797f52e50babe4dbec90e3b2be6f19d
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688315"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440739"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslu  
 
@@ -94,7 +94,7 @@ Fyrsta leyfilega bókunardagsetning er fyrsta daginn í fyrsta opna tímabilinu.
 |Skrá tíma:       |         |
 |Snið staðbundins aðseturs:|   Póstnúmer      |  
 
- Fyrsta leyfilega bókunardagsetning er dagsetningin sem tilgreind er í reitnum Leyfa bókanir frá: 1. september 2020.  
+ Fyrsta leyfilega bókunardagsetning er dagsetningin sem tilgreind er í reitnum Leyfa bókanir frá: 10. september 2020.  
  Ef bæði birgðatímabil og leyfilegar bókunardagsetningar í fjárhagsgrunni eru skilgreind mun síðari dagsetning þessara tveggja skilgreina leyfilegt dagsetningabil bókunar.  
 
  Skref 3: Úthlutun á leyfilegri bókunardagsetningu;  
@@ -164,7 +164,7 @@ Röðun: Notandakenni
 
 |Notandakenni  |Bókun leyfð frá  | Bókun leyfð til  |
 |---------|---------|--------|
-|<name> |  2020-09-11      |2020-09-30      |
+|NOTANDANAFN |  2020-09-10      |2020-09-30      |
 
  Með því að úthluta notandanum víðtækara (eða sama) leyfilegu dagsetningabili bókunar eins og í birgðatímabili eða almennri uppsetningu fjárhags verður komið í veg fyrir áðurnefndan árekstur. Færsla leiðréttingargildis með bókunardagsetningu 10. september verður bókuð með þessari uppsetningu.
 

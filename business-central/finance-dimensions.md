@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 982f61396f1d49eeaa688d580801c14ac9c33ccb
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444688"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482223"
 ---
 # <a name="working-with-dimensions"></a>Unnið með víddir
 Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær í skjölum, t.d. sölupöntunum. Víddir geta til dæmis gefið í skyn verkið eða deildina sem færsla koma frá.  
@@ -53,6 +53,9 @@ Hægt er að skilgreina víddirnar og víddargildin til að flokka færslubókum
 
 * **Altækar víddir** eru notaðar sem afmarkanir, t.d. á skýrslur, runuvinnslur og XMLports. Hægt er að nota eingöngu tvær altækar víddir, svo veldu því víddir sem verða notaðar oft.
 * **Flýtivísanir í víddir** eru tiltækar sem reitir í færslubókum, skjalalínum og fjárhagsfærslum. Hægt er að stofna allt að átta af þeim.  
+
+> [!NOTE]
+> Eftir að þú hefur notað nýja vídd í hvaða færslu sem er, svo sem línu eða nýja færslu, getur þú ekki eytt víddinni, jafnvel þótt þú birtir ekki færsluna. Það er vegna þess að [!INCLUDE[prod_short](includes/prod_short.md)] það býr strax til víddasett fyrir línuna eða færsluna. Frekari upplýsingar eru í [Víddarsamstæður](finance-dimensions.md#dimension-sets).
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Til að setja upp sjálfgefnar víddir fyrir viðskiptavini, lánardrottna, og aðra reikninga
 Hægt er að setja upp sjálfgefna vídd fyrir tiltekinn stakan reikning. Víddin verður afrituð í færslubókina eða fylgiskjalið þegar reikningsnúmerið er fært inn í línu, en hægt er að eyða eða breyta kóðanum í línunni ef það á við. Einnig er hægt að búa til vídd og krefjast þess að í henni þurfi að bóka færslu með ákveðinni tegund reiknings.  

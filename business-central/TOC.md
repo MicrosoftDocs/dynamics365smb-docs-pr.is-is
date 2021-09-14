@@ -91,6 +91,7 @@
 ### [Framlenging á prufuútgáfunni](admin-extend-trial.md)
 ### [Segja upp áskrift að eða fjarlægja Business Central](admin-cancel.md)
 ## Kaupa
+### [Hafist handa með áskrift](across-preview.md#getting-started-with-a-subscription)
 ### [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)
 
 <!--setup-->
@@ -649,9 +650,10 @@
 ### [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
 ### [Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)
 ### [Taka frá vörur](inventory-how-to-reserve-items.md)
+### [Setja upp vörurakningu með raðnúmer, lotu og pakkanúmer](inventory-how-setup-item-tracking.md)
 ### [Rekja vörur með rað-, lotu- og pakkanúmerum](inventory-how-work-item-tracking.md)
-### [Nota millivísanir vöru](inventory-how-use-item-cross-refs.md)
 ### [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)
+### [Nota millivísanir vöru](inventory-how-use-item-cross-refs.md)
 ### [Loka vörum](inventory-how-block-items.md)
 ### [Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)
 

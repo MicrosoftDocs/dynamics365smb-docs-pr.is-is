@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 04/01/2021
+  ms.date: 08/24/2021
   ms.author: edupont
-  ms.openlocfilehash: 4d4864b0baa6b8455e51931701d72eea8923545f
-  ms.sourcegitcommit: 0c8428e1468d4f5c18fbe35c79d6bbe509b79620
+  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
+  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
   ms.translationtype: HT
   ms.contentlocale: is-IS
-  ms.lasthandoff: 06/01/2021
-  ms.locfileid: "6124004"
+  ms.lasthandoff: 08/27/2021
+  ms.locfileid: "7440692"
 title: Algengar spurningar um notkun Business Central
 summary: "Þessi hluti inniheldur svör við algengum spurningum um nýskráningu fyrir prufuáskrift, kaup á áskrift og notkun á [!INCLUDE[prod_short](includes/prod_short.md)]. Kynntu þér líka hvernig þú færð tæknilega aðstoð.  \n"
 sections:
@@ -67,6 +67,10 @@ sections:
       Hverjir eru Þjónustustigssamningarnir fyrir skýið?
     answer: >
       [!INCLUDE [service-terms](includes/service-terms.md)]
+  - question: >
+      Hversu oft uppfærist Business Central Online?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er þjónusta sem samanstendur af Microsoft-verkvangi og viðskiptavirkni. Margir samstarfsaðilar Microsoft bjóða upp á viðbótarviðskiptavirkni, svo sem til að koma til móts við tilteknar þarfir í iðnaði eða staðbundnar. Bæði viðskiptavirkni og þjónustuþættir eru stöðugt vöktuð og uppfærð eftir því sem við á. Þú getur alltaf skoðað [útgáfuáætlunina](/dynamics365/release-plans/) til að fá yfirlit yfir nýja væntanlega virkni. Nánari upplýsingar er að finna í [Þjónustuyfirlit fyrir Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (aðeins á ensku) og [Nýtt og áætlað](product-news.md).
   - question: >
       Kerfisstjórinn okkar hefur flutt mig í aðra áskrift til að úthluta mér öðru hlutverki, en get ég áfram skoðað sömu upphafssíðuna í Business Central?
     answer: "Þetta er svolítið flókið, en svo virðist sem kerfisstjórinn þinn hafi ekki breytt hlutverki þinni og úthlutað notendaflokkum sem passa við nýja leyfið. Í hnotskurn, aðgangur notanda að [!INCLUDE[prod_short](includes/prod_short.md)] ræðst af þeirri gerð áskriftar (leyfis) sem notandi er með - sú gerð ræður heimildum, úthlutuðum hlutverkum notanda og sjálfgefinni upphafssíðu. Notandi getur breytt núverandi hlutverki sínu handvirkt í Mínar stillingar en ef notandi er fluttur í aðra áskrift, til dæmis úr Fyrirtækjaáskrift í Áskrift fyrir hópmeðlimi, sér hann hugsanlega eldri upphafssíðu af því að heimildunum var ekki breytt.  \n"

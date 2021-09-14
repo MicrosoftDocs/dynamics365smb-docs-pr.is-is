@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436752"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440367"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 
@@ -44,7 +44,7 @@ Til að skrá nýjan viðskiptavin þarf að fylla út viðskiptamannsspjald. H�
 4. Velja hnappinn **Í lagi**. Nýtt viðskiptamannaspjald opnast þar sem búið er að fylla upplýsingar úr sniðmátinu inn í reitina.  
 5. Því næst skal færa inn eða breyta reitum á viðskiptamannaspjaldinu eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Á flýtiflipanum **Söluverð** er hægt að sjá sérverð eða afslætti sem veittir eru fyrir viðskiptamanninn ef ákveðin skilyrði eru uppfyllt, svo sem vara, lágmarkspöntunarmagn eða lokadagur. Hver lína stendur fyrir sértilboðsverð eða línuafslátt. Hver dálkur táknar viðmiðun sem verða að sækja til að réttlæta sérstakt verð sem þú slærð inn í **Einingaverð** sviði, eða línuafslátt sem þú slærð inn í **Línuafsláttur %**. Nánari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
+Með aðgerðinni **Verð og afsláttur** er hægt að hafa umsjón með sérverði eða afslætti fyrir viðskiptamann þegar pöntun uppfyllir ákveðin skilyrði. Til dæmis gætu viðmiðin verið þegar viðkomandi kaupir ákveðna vöru, pantar lágmarksmagn eða kaupir fyrir dagsetningu, til dæmis þegar herferð lýkur. Nánari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Viðskiptamaðurinn hefur nú verið skráður og viðskiptamannaspjaldið má nú nota í söluskjölum.
 
