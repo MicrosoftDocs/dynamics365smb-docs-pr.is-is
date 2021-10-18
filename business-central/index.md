@@ -7,20 +7,20 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: e84f9df3d688ccd6e6355f90e3bf76069b371d83
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 14dd0aa40524ca1e261b0e57aa62bfcccd80afd4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341359"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588202"
 ---
 # <a name="welcome-to-prod_long"></a>Velkomin(n) í[!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Forritið [!INCLUDE[prod_short](includes/prod_short.md)] er sveigjanlegt og fjölbreytt kerfi sem gerir fyrirtækjum kleift að halda utan um rekstur, þar á meðal fjármál, framleiðslu, sölu, afhendingu, verkefnastjórnun, þjónustu og meira til. Fyrirtæki geta auðveldlega bætt við eiginleikum sem henta landsvæði þeirra og sem má sérsníða fyrir sérhæfðustu atvinnugreinar.  
 
-Ef þú ert þegar með [!INCLUDE[prod_short](includes/prod_short.md)], skráir þú þig inn á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Annars skaltu [sækja](https://dynamics.microsoft.com/business-central/overview/), [skoða leiðarvísinn](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og hefja svo [frían prufuáskrift](https://go.microsoft.com/fwlink/?linkid=847861). Frekari upplýsingar um innleiðingu í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna í [Undirbúningur fyrir að stunda viðskipti](ui-get-ready-business.md).  
+Ef þú ert þegar með [!INCLUDE[prod_short](includes/prod_short.md)], skráir þú þig inn á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Annars skaltu [sækja](https://dynamics.microsoft.com/business-central/overview/), [skoða leiðarvísinn](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og hefja svo [frían prufuáskrift](https://go.microsoft.com/fwlink/?linkid=847861). Kíktu á [stutta leiðarvísa](quick-start-business-central.md) til að hjálpa þér að skilja betur [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar um innleiðingu í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna í [Undirbúningur fyrir að stunda viðskipti](ui-get-ready-business.md).  
 
 > [!TIP]
 > Komstu hingað af [!INCLUDE [prod_short](includes/prod_short.md)]? Ef þú ert ekki viss um hvar á að finna það sem þú ert að leita að er hægt að **sía eftir titlum** í yfirlitssvæðinu til vinstri eða nota reitinn **Leita** efst í vafraglugganum.  
@@ -102,6 +102,7 @@ Til að gerast áskrifandi að RSS-straum (Really Simple Syndication) allra uppf
 ## <a name="see-also"></a>Sjá einnig
 
 [Dynamics 365 Business Central Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
 [Hafist handa með Business Central](ui-get-ready-business.md)  
 [Skoðaðu myndbandasafnið okkar](across-videos.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  

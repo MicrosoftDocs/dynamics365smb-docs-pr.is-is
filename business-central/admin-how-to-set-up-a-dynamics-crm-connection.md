@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7711fc0dc0ad7256f6ed58962634e39bbad86cfe
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440542"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587760"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Tengjast við Microsoft Dataverse
 
@@ -107,9 +107,70 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="customize-the-match-based-coupling"></a>Sérstilla tengingu byggða á samsvörun
+
+Frá og með 2021 útgáfubylgju 2 getur þú tengt færslur í [!INCLUDE [prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] sem byggir á skilyrði samsvörunar sem stjórnandi skilgreinir.  
+
+Hægt er að ræsa algrímið fyrir samsvarandi færslur á eftirfarandi stöðum í [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+* Listasíður sem sýna færslur sem eru samstilltar með [!INCLUDE [cds_long_md](includes/cds_long_md.md)], t.d. viðskiptavina- og vörusíður.  
+
+    Veldu margar færslur og veldu síðan aðgerðina **Tengdar**, veldu **Dataverse**, veldu **Tenging** og veldu síðan **Tenging byggð á samsvörun**.
+
+    Þegar tengiferli sem byggir á samsvörun hefst í lista yfir aðalgögn verður tengivinnsla tímasett rétt eftir að þú hefur valið skilyrði tengingarinnar.  
+* Síðan **Dataverse Yfirfara fulla samstillingu**.  
+
+    Þegar heildarsamstillingarferlið greinir að þú hafir aftengt færslur bæði í [!INCLUDE [prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] birtist tengill fyrir **Velja tengingarskilyrði** fyrir viðkomandi samþættingartöflu.  
+
+    Hægt er að hefja ferlið **Keyra fulla samstillingu** á síðunum **Dataverse Uppsetning tengingar** og **Uppsetning Dynamics 365-tengingar** og hægt er að hefja það sem skref í hjálparuppsetningunni **Setja upp tengingu við Dataverse** þegar þú velur að ljúka uppsetningu og keyra fulla samstillingu í lokin.  
+
+    Þegar tengiferli sem byggir á samsvörun hefst á síðunni **Dataverse Yfirfara fulla samstillingu** verður tengivinnsla tímasett strax eftir að þú lýkur við uppsetninguna.  
+* Listinn **Vörpun samþættingartöflu**.  
+
+    Veldu vörpun, veldu aðgerðina **Tenging** og veldu svo **Tenging byggð á samsvörun**.
+
+    Þegar tengiferlið byggð á samsvörun hefst í vörpun samþættingartöflu mun tengivinnsla keyra fyrir allar aftengdar færslur í þeirri vörpun. Ef hún var keyrð fyrir safn af völdum færslum úr listanum mun hún aðeins keyra fyrir ótengdar færslur.
+
+Í öllum þremur tilvikum opnast síðan **Velja tengingarskilyrði** svo þú getir skilgreint viðeigandi tengingarskilyrði. Á þessari síðu skal sérstilla tenginguna með eftirfarandi verkum:
+
+* Veldu hvaða samsvörun reitir eiga að hafa við [!INCLUDE [prod_short](includes/prod_short.md)] færslur og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] einingar og veldu einnig hvort há- og lágstafir skipti máli við samsvörun reitsins.  
+
+* Tilgreindu hvort eigi að keyra samstillingu eftir tengingar á færslum og hvort færslan noti tvíátta vörpun, veldu einnig hvað eigi að gerast ef árekstrar koma fram á síðunni **Leysa úr uppfærsluárekstrum**.  
+
+* Forgangsraðaðu leit að færslunum með því að tilgreina *forgang samsvörunar* fyrir viðkomandi reitarvörpun. Forgangsröðun samsvörunar gerir leit algrímsins að samsvörun í mörgum endurtekningum eins og er skilgreint í reitargildunum í **Forgangsröð samsvörunar** í hækkandi röð. Autt gildi í reitnum **Forgangur samsvörunar** er túlkað sem forgangur 0 þannig að reitir með þetta gildi eru efst í forgangi.  
+
+* Tilgreindu hvort eigi að búa til nýtt tilvik einingar í [!INCLUDE [cds_long_md](includes/cds_long_md.md)] ef engin einkvæm ótengd samsvörun finnst með þessu skilyrði fyrir samsvörun. Til að virkja þennan möguleika skal velja aðgerðina **Stofna nýtt ef ekki tekst að finna samsvörun**.  
+
+### <a name="view-the-results-of-the-coupling-job"></a>Skoða niðurstöður tengingarverksins
+
+Til að skoða niðurstöður tengingarverksins skal opna síðuna **Vörpun samþættingartöflu**, velja viðkomandi vörpun, velja aðgerðina **Tenging** og því næst velja aðgerðina **Verkkladdi fyrir tengingu samþættingar**.  
+
+Ef það eru einhverjar færslur sem voru ekki tengdar er hægt að kafa ofan í gildið í dálknum yfir misheppnaðar færslur sem mun birta lista yfir villur þar sem tilgreint er af hverju ekki tókst að tengja færslurnar.  
+
+Misheppnuð tenging gerist oft í eftirfarandi tilvikum:
+
+* Ekkert samsvörunarskilyrði var skilgreint
+
+    Í þessu tilviki skaltu keyra tenginguna sem byggir á samsvörun aftur, en mundu að skilgreina skilyrði tengingarinnar.
+
+* Engin samsvörun fannst fyrir fjölda færsla samkvæmt völdum samsvöruðum reitum
+
+    Í því tilfelli skal endurtaka tenginguna með öðrum reitum samsvörunar.
+
+* Fjölmargar samsvaranir fundust fyrir fjölda færslna samkvæmt völdum reitum samsvörunar  
+
+    Í því tilfelli skal endurtaka tenginguna með öðrum reitum samsvörunar.
+
+* Ein samsvörun fannst, en samsvarandi færsla er þegar tengd við aðra færslu í [!INCLUDE [prod_short](includes/prod_short.md)]  
+
+    Í því tilfelli skal endurtaka tenginguna með öðrum reitum samsvörunar eða skoða betur hvers vegna sú [!INCLUDE [cds_long_md](includes/cds_long_md.md)] eining er tengd við hina færsluna í [!INCLUDE [prod_short](includes/prod_short.md)].
+
+> [!TIP]
+> Til að veita þér betri yfirsýn yfir framvindu tengingarinnar sýnir reiturinn **Tengt við Dataverse** hvort tiltekin færsla sé tengd við [!INCLUDE [cds_long_md](includes/cds_long_md.md)] einingu eða ekki. Hægt er að sía listann yfir færslur sem verið er að samstilla við [!INCLUDE [cds_long_md](includes/cds_long_md.md)] af þessum reit.
+
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Uppfæra tengingar frá Business Central Online til að nota auðkenningu sem byggir á skilríki
 > [!NOTE]
-> Þessi hluti á aðeins við fyrir leigjendur Business Central á netinu sem eru hýstir hjá Microsoft. Það hefur engin áhrif á leigjendur á netinu sem eru hýstir hjá óháðum hugbúnaðarsölum og uppsetningar á staðnum.
+> Þessi hluti á aðeins við fyrir leigjendur [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem eru hýstir hjá Microsoft. Það hefur engin áhrif á leigjendur á netinu sem eru hýstir hjá óháðum hugbúnaðarsölum og uppsetningar á staðnum.
 
 Í apríl 2022 mun [!INCLUDE[cds_long_md](includes/cds_long_md.md)] taka úr umferð auðkenningarleið Office365 (notandanafn/lykilorð). Frekari upplýsingar er að finna í [Auðkenningarleið Office365 tekin úr umferð](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Auk þess mun [!INCLUDE[prod_short](includes/prod_short.md)] í mars 2022 taka úr umferð notkun auðkenningu milli þjónusta sem byggir á leyniorði biðlara fyrir leigjendur á netinu og mun krefjast þess að notuð verði auðkenning milli þjónusta sem byggir á skilríkjum fyrir tengingar við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Leigjendur [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem óháðir hugbúnaðarsalar hýsa, og uppsetningar á staðnum, geta haldið áfram að nota auðkenningu með leyniorði biðlara til að tengjast [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

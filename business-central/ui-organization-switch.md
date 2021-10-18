@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 04/01/2021
+ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ed814213bea50ceb8d69c107edff450b76d8f7b
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445923"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606386"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skipta yfir í annað fyrirtæki eða umhverfi
 
@@ -23,12 +23,17 @@ ms.locfileid: "6445923"
 
 ## <a name="switch-to-another-environment"></a>Skipta yfir í annað umhverfi
 
-Þegar þú ert skráð(ur) inn á [!INCLUDE[prod_short](includes/prod_short.md)] eru umhverfin sem hægt er að opna aðgengilegt á heimasíðu Dynamics 365. Hægt er að opna síðuna með því að velja **Forritavalmyndina** táknið ![Forritavalmynd.](media/app-launcher-icon.png "Forritavalmynd býður upp á aðgang að fleiri eiginleikum") og velja **Dynamics 365**. Til að fara í sjálfgefið fyrirtæki í því umhverfi skal velja reitinn. Einn reitur verður að vera til staðar fyrir hverja gerð af umhverfi. Ef þú ert með fleiri en eitt umhverfi af tiltekinni gerð þegar þú velur reitinn getur þú valið umhverfið sem á að opna.
+Þegar þú ert skráð(ur) inn á [!INCLUDE[prod_short](includes/prod_short.md)] eru umhverfin sem hægt er að opna aðgengilegt á Office.com. 
 
-Eftirfarandi mynd sýnir reiti til að fá aðgang að framleiðslu-og sandkassaumhverfi á heimasíðu Dynamics 365.
+1. Veldu táknið **Forritavalmynd** ![Forritavalmynd.](media/app-launcher-icon.png "Forritavalmynd býður upp á aðgang að fleiri eiginleikum").
+2. Ef þú sérð ekki forrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í glugganum sem opnast, veldu þá **Office 365**. Síðan skal færa inn **Business Central** í reitinn **Leita** eða velja **Öll forrit** > **Business-forrit**.   
+3. Það verður eitt [!INCLUDE[prod_short](includes/prod_short.md)] forrit sýnt fyrir hverja gerð umhverfis, eins og fyrir vinnslu eða sandkassa. Til að skipta yfir í annað umhverfi skaltu velja [!INCLUDE[prod_short](includes/prod_short.md)] forritið fyrir þá gerð umhverfis sem það er. Ef það eru fleiri en eitt umhverfi af ákveðinni gerð verður farið fram á að þú veljir umhverfið sem þú vilt opna.
 
-:::image type="content" source="media/app-picker-environments.png" alt-text="Heimasíða Dynamics 365 sem sýnir framleiðslu-og sandkassaumhverfi.":::
+<!--
+The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
+:::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
+-->
 ## <a name="switch-to-another-company"></a>Skipta í annað fyrirtæki
 
 Þegar þú ert skráð(ur) inn á [!INCLUDE[prod_short](includes/prod_short.md)] er fljótlegt að skipta yfir í annað fyrirtæki. Þegar búið er að skipta yfir verður fyrirtækið sem þú velur sjálfgefið fyrirtæki og birtist næst þegar þú skráir þig inn.

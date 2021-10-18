@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776448"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588402"
 ---
 # <a name="changing-language-and-region"></a>Breyta tungumáli og svæði
 
@@ -33,7 +33,7 @@ Breytingar á textum sem geymdir eru sem forritsgögn falla ekki undir fjöltyng
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] styður aðeins eitt kerfi stafatákna fyrir gögn. Því getur verið að sum stafatáknin séu ekki studd í þínu umhverfi og vandamál komi upp þegar sótt eru gögn sem færð voru inn með öðru táknkerfi. Til dæmis getur verið að umhverfið styðji aðeins ensk og rússnesk stafatákn og ef skrifað er á öðru tungumáli er ekki tryggt að það geymist á réttan hátt. Hafa skal samband við kerfisstjóra til að fá upplýsingar um hvaða tungumál eru studd í þínu [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="changing-the-region"></a>Breyta svæði
+## <a name="changing-your-region-setting"></a>Svæðisstillingunni breytt
 Svæði er frábrugðinn bæði tungumáli og lagalegum skilyrðum á staðbundnum mörkuðum. Svæði segir til um hvernig gögn þín birtast hvað varðar skiltákn kommu, samstillingu til vinstri eða hægri, og nokkra aðra tiltekna hluti. Svæði kveður einnig á um kerfiseiningar í vafranum, eins og til dæmis aðgerðina að búa til nýtt atriði á lista.  
 
 Þú getur breytt svæðinu í vafraglugganum sem þú ert að vinna með í [!INCLUDE[prod_short](includes/prod_short.md)]. Berytingin á við þig en ekki aðra notendur í fyrirtækinu.  Val á svæði verður endurstillt á stillinguna í Microsoft 365 sniðinu ef stjórnandi þinni stillir notendur úr Microsoft 365 í [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -42,6 +42,11 @@ Svæði er frábrugðinn bæði tungumáli og lagalegum skilyrðum á staðbundn
 > Þegar þú breytir svæði birtist langur listi yfir tungumál og svæði. Val á svæði hefur hins vegar ekki áhrif á tungumál.  
 
 Til að breyta svæðinu skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
+
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Breyting á svæðisstillingu fyrir viðskiptavini, tengiliði og lánardrottna
+Sum fyrirtæki nota ytri þjónustu sem staðfestir upplýsingar um aðsetur í landinu eða svæðinu. Þegar þú þarft hins vegar að uppfæra upplýsingar um aðsetur er ekki víst að skipulagða nálgunin sem þessi þjónusta notar sé alltaf sú sem hentar sumum aðstæðum. Business Central býður upp á sveigjanlegri leiðir til að færa inn upplýsingar um aðsetur.
+
+Á síðunni **Uppsetning fjárhags**, ef þú kveikir á **Gera kröfu um lands-/svæðiskóða í aðsetri**, breytingar í reitnum **Lands-/svæðiskóði** fyrir aðsetur viðskiptavina, tengiliða eða lánardrottna munu endurstilla gildin í öðrum reitum aðseturs.
 
 ## <a name="application-version"></a>Útgáfa forrits
 

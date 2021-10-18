@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318585"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588651"
 ---
 # <a name="setting-up-sales"></a>Uppsetning sölu
 Áður en hægt er að hefjast handa við að stýra söluferlum þarf að grunnstilla reglur og gildi sem ráða sölureglum fyrirtækisins.
 
-Þú verður að skilgreina almenna uppsetningu, svo sem hvaða söluskrár eru nauðsynlegar og hvernig gildi þeirra eru settar fram. Þessi almenna uppsetning fer yfirleitt fram við innleiðingu í upphafi.
+Þú verður að skilgreina almenna uppsetningu á síðunni **Sala og útistandandi**, eins og söluskjöl þurfa að vera, hvernig virði þeirra er bókað og hvers konar línur á sjálfgefið að stofna. Þessi almenna uppsetning fer yfirleitt fram við innleiðingu í upphafi.
 
-Sérstakar raðir verkefna sem tengjast skráningu nýrra viðskiptamanna er að skrá öll sérstök verð eða afsláttarsamninga sem þú hefur með hverjum viðskiptamanni.
+Sérstakar raðir verkefna sem tengjast skráningu nýrra viðskiptamanna er að skrá öll sérstök verð eða afsláttarsamninga sem þú hefur með hverjum viðskiptamanni. Frekari upplýsingar er að finna í [Skrá sérstök söluverð og afslætti](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er fjallað um í hlutanum uppsetning fjármála. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
 

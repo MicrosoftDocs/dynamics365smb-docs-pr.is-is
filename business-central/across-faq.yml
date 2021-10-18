@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 08/24/2021
+  ms.date: 09/29/2021
   ms.author: edupont
-  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
-  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+  ms.openlocfilehash: 53f4a87fea747b59bed7942885b1374377381029
+  ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
   ms.translationtype: HT
   ms.contentlocale: is-IS
-  ms.lasthandoff: 08/27/2021
-  ms.locfileid: "7440692"
+  ms.lasthandoff: 10/01/2021
+  ms.locfileid: "7588111"
 title: Algengar spurningar um notkun Business Central
 summary: "Þessi hluti inniheldur svör við algengum spurningum um nýskráningu fyrir prufuáskrift, kaup á áskrift og notkun á [!INCLUDE[prod_short](includes/prod_short.md)]. Kynntu þér líka hvernig þú færð tæknilega aðstoð.  \n"
 sections:
@@ -27,7 +27,7 @@ sections:
     answer: "Hægt er að skrá sig fyrir prufuáskrift til að skoða [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Ef þú vilt fá meiri tíma til að skoða, [geturðu lengt áskriftartímann](#can-i-extend-my-30-day--new-company--trial-period-).  \n\nTil þess að búa þig undir að stunda viðskipti í [!INCLUDE[prod_short](includes/prod_short.md)] geturðu opnað uppsetningarleiðbeiningar með hjálp, myndskeið eða hjálp fyrir valda uppsetningu verka. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  \n\nEf þú ertu tilbúin/n til að kaupa [!INCLUDE[prod_short](includes/prod_short.md)], geturðu fundið [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
       Hvert leita ég ef ég er með spurningar?
-    answer: "Ef spurningar vakna um [!INCLUDE[prod_short](includes/prod_short.md)] sem ekki er hægt að finna svar við í þessu skjali er hægt að spyrja Business Central-samfélagið. Frekari upplýsingar er að finna í [Dynamics 365 Business Central samfélag](https://community.dynamics.com/business).  \n\nFrá heimasíðu samfélagsins er einnig hægt að finna tengla á bloggin okkar þar er einnig hægt að finna ábendingar og ráð. Frekari upplýsingar eru í [Microsoft Dynamics 365 Business Central á bloggsíðu Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og eldri [Dynamics 365 Business Central bloggsíðu](https://community.dynamics.com/business/b/financials).  \n\nAð lokum geturðu haft samband við [!INCLUDE[prod_short](includes/prod_short.md)] endursöluaðilann þinn. Nánari upplýsingar er að finna í [Hvernig fæ ég tæknilega aðstoð?](/dynamics365/business-central/across-faq#hdigetsupport) hlutanum og [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  \n"
+    answer: "Ef spurningar vakna um [!INCLUDE[prod_short](includes/prod_short.md)] sem ekki er hægt að finna svar við í þessu skjali er hægt að spyrja Business Central-samfélagið. Frekari upplýsingar er að finna í [Dynamics 365 Business Central samfélag](https://community.dynamics.com/business).  \n\nFrá heimasíðu samfélagsins er einnig hægt að finna tengla á bloggin okkar þar er einnig hægt að finna ábendingar og ráð. Frekari upplýsingar eru í [Microsoft Dynamics 365 Business Central á bloggsíðu Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og eldri [Dynamics 365 Business Central bloggsíðu](https://community.dynamics.com/business/b/financials).  \n\nAð lokum geturðu haft samband við [!INCLUDE[prod_short](includes/prod_short.md)] endursöluaðilann þinn. Nánari upplýsingar er að finna í [Hvernig fæ ég tæknilega aðstoð?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) hlutanum og [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
       Af hverju finn ég ekki eiginleikann í Business Central?
     answer: "Ertu búin(n) að lesa um nýjan eiginleika í útgáfuáætlun eða á blogginu okkar nýlega? Ef svo er, getur verið að [!INCLUDE[prod_short](includes/prod_short.md)] þitt hafi ekki verið uppfært að nýjustu útgáfu enn. Hægt er að athuga hvaða útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] byggir á síðunni [Hjálp og notendaþjónusta](product-help-and-support.md).  \n\nÞetta á við um á [!INCLUDE [prod_short](includes/prod_short.md)] Online og innanhúss.  \n\nEf eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess að eiginleikinn sé kynntur og að hann sé tiltækur í AppSource. Þetta á aðeins við á [!INCLUDE [prod_short](includes/prod_short.md)] Online.  \n"

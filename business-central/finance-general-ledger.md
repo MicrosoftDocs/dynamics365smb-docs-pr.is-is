@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2e939ef134fbe008268d190d601c70694d81297c
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321115"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588627"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Skilja fjárhag og bókhaldslykil
 
@@ -70,6 +70,9 @@ Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir *Reiðufé* und
 3. Haltu þeim í undirflokknum **Handbært fé**.  
 
 Í næsta skipti sem þú stofnar reikningaskipta birtist efnahagsreikningur þín í heildarjöfnuði fyrir peninga og tvær línur með jafnvægi fyrir smáskatta og eftirlitsreikning.  
+
+## <a name="getting-a-quick-overview"></a>Flýtiyfirlit sótt
+Á síðu bókhaldslykla eru sýndir reikningar í stigveldislista sem býður upp á skjótan aðgang að helstu upplýsingum fyrir hvern reikning. Ekki er þó hægt að breyta listanum og ef þú ert með mikið af reikningum gætirðu þurft að fletta töluvert til að skoða upplýingar fyrir mismunandi reikninga. Ef þú vilt aðeins fá fljótlegt yfirlit yfir grunnupplýsingar, t.d. nettóbreytingar og nettóstöður, er síðan **Yfirlit bókhaldslykils** gagnleg leið til þess. Útlit dálksins á síðunni er nú það sama og er að finna á síðu bókhaldslykils (það eru bara færri dálkar) og því þarftu ekki að flakka á milli og þú getur stækkað eða fellt saman stigveldin til að þjappa saman yfirlitinu. Til að auðvelda að fara á milli síðna er síðan **Yfirlit bókhaldslykils** aðgengileg á síðu bókhaldslykils.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Aðgangur til að stofna og breyta reikningum og reikningsflokkum
 

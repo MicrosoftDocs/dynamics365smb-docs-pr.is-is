@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44729a82d50a925d9ad904f8035dd49daee24262
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446391"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588702"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Vörpun á töflum og reitum fyrir samstillingu
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -49,6 +49,8 @@ Vörpun á töflum er aðeins fyrsta skrefið. Einnig þarf að varpa reitunum �
 
 > [!Note]
 > Ef notuð er staðbundin útgáfa af [!INCLUDE[prod_short](includes/prod_short.md)] eru varpanir samþættingarreits skilgreindar í töflu 5336 vörpun samþættingarreits.
+
+Hægt er að varpa reitunum handvirkt eða gera ferlið sjálfvirkt með því að varpa mörgum reitum samtímis byggt á skilyrði fyrir samsvörun á gildum þeirra. Frekari upplýsingar er að finna í [Að tengja margar færslur sem byggir á samsvörun reitargilda](admin-how-to-couple-and-synchronize-records-manually.md).
 
 ### <a name="handling-differences-in-field-values"></a>Að meðhöndla mun á reitargildum
 Stundum eru önnur gildi í reitunum sem á að varpa. Til dæmis, í [!INCLUDE[crm_md](includes/crm_md.md)] er tungumálakóðinn fyrir Bandaríkin „U.S.“ en í [!INCLUDE[prod_short](includes/prod_short.md)] er hann „US.“ Það þýðir að þú verður að umbreyta gildinu þegar þú samstillir gögn. Þetta gerist í gegnum breytingareglur sem eru skilgreindar fyrir svæðin. Umbreytingarreglur eru skilgreindar á síðunni **Varpanir samþættingartöflu** með því að velja **Vörpun** og síðan **Reitir**. Boðið er upp á forskilgreindar reglur, en einnig má búa til sínar eigin. Frekari upplýsingar er að finna í [Umbreytingarreglur](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

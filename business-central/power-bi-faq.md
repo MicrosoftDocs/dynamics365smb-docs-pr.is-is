@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438753"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588000"
 ---
 # <a name="power-bi--faq"></a>ALGENGAR SPURNINGAR UM Power BI
 
@@ -129,12 +129,6 @@ Hér eru aðrar síður sem innihalda stærri, ósíaða **Power BI skýrsluhlut
 Til að sía stærri gagnasafn er auðveldast að sía Power BI skýrsluna með því að breyta Power Query formúlunni beint. Flestar þær síur sem eru stilltar á þennan hátt verða færðar yfir á Business Central í gegnum födlun fyrirspurna. Sjá [Regluleg uppfærsla fyrir gagnamengi](/power-bi/admin/service-premium-incremental-refresh).
 
 Ekki hægt að setja upp síu fyrir vefþjónustugögnin innan Business Central eins og er. Ef forritið þarf að setja upp síu innan Business Central þarf að stofna sérsniðið Business Central forrit í þeim tilgangi.
-
-<!-- 8 and 9 -->
-
-### <a name="for-embedding-reports-in-business-central-pages-right-now-its-only-possible-to-get-reports-from-my-workspace-in-power-bi-are-there-plans-to-make-it-possible-to-get-them-from-custom-workspaces"></a>Til að fella skýrslur inn í Business Central síður er aðeins hægt að sækja skýrslur úr *Vinnusvæðið mitt* í Power BI eins og er. Eru áætlanir á borðinum um að hægt verði að sækja þau úr sérsniðnum vinnusvæðum?
-
-Já. Það er á áætlun að bæta við stuðningi við sameiginleg vinnusvæði en við höfum ekki enn ákveðið tímalínu.  
 
 <!-- 10 -->
 ### <a name="from-power-bi-besides-using-a-query-is-there-another-way-to-get-data-from-business-central-tables-that-dont-have-an-associated-page-for-example-like-the-item-attributes-value-mapping-table"></a>Úr Power BI, er til önnur leið til að sækja gögn úr Business Central töflum sem tengjast ekki síðu, fyrir utan að nota fyrirspurn? Sem dæmi má nefna töfluna *Gildisvörpun vörueigindar*.

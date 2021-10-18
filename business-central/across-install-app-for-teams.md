@@ -10,18 +10,21 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ef2c12ea5e956b9bfdaeb2c464ac74684b630c48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440851"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588177"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Í þessari grein verður útskýrt hvernig á að setja upp [!INCLUDE [prod_short](includes/prod_short.md)] fyrir [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-vefnum, á skjáborði eða í farsímaforriti.
+
+> [!NOTE]
+> Kerfisstjórinn gæti hafa sett hlutina upp þannig að forritið sé sjálfkrafa sett upp fyrir þig. Til að athuga hvort forritið sé uppsett skaltu opna Teams og velja svo **Forrit**. Leitaðu að **Business Central** og veldu það svo þegar þú finnur það. Ef þú sérð **Opna** á síðu **Business Central** er forritið þegar uppsett.  
 
 ## <a name="prerequisites"></a>Frumskilyrði
 
@@ -35,9 +38,9 @@ ms.locfileid: "6440851"
 
 ## <a name="add-the-business-central-app-to-teams"></a>Bæta Business Central við Teams
 
-Hægt er að setja upp Business Central á tvennan hátt:
+Hægt er að setja upp Business Central á þrjá vegu:
 
-**Valkostur 1**
+**Valkostur 1: Frá tengli**
 
 Þetta er fljótlegasta leiðin til að setja upp forritið.
 
@@ -49,7 +52,7 @@ Hægt er að setja upp Business Central á tvennan hátt:
 
 3. Veljið **Bæta við**.
 
-**Valkostur 2**
+**Valkostur 2: Úr Teams**
 
 1. .
 2. Vinstra megin skal velja **Forrit**.
@@ -59,6 +62,13 @@ Hægt er að setja upp Business Central á tvennan hátt:
 
 > [!NOTE]
 > Sama hvor valkosturinn er valinn kann notandinn að vera beðinn um að skrá sig inn í [!INCLUDE [prod_short](includes/prod_short.md)]. Veljið **innskráningartengil** og fylgið leiðbeiningunum til að færa inn innskráningarnafn og aðgangsorð fyrir [!INCLUDE [prod_short](includes/prod_short.md)].
+
+**Valkostur 3: Úr Business Central**
+
+1. Opna Business Central.
+2. Veldu ![Stækkunargler sem opnar eiginleika viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") farðu í **Ná í Business Central fyrir Teams** og veldu síðan viðkomandi tengil.  
+3. Veljið **Sækja forritið úr verslun**.
+4. Bíddu eftir að Teams opni og að Business Central birtist, veldu síðan **Bæta við**.
 
 ## <a name="next-step"></a>Næsta skref
 

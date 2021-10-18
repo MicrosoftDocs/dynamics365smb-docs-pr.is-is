@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445527"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588527"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Nota spurningalista forstillingar til að flokka viðskiptatengiliði
 Hægt er að setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn. Innan hvers spurningalista er hægt að setja upp þær mismunandi spurningar sem spyrja á tengiliðina.  
@@ -49,114 +49,35 @@ Hægt er að flokka tengiliði sjálfvirkt eftir viðskiptamanna-, lánardrottna
 Þegar sjálfvirkt svaraðar forstillingarspurningar hafa verið settar upp, ef þú úthlutar tengiliði forstillingarspurningar sem innihalda þessar spurningar, mun [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa úthluta réttu svörunum fyrir tengiliðinn.  
 
 ## <a name="example"></a>Dæmi
+
 Hægt er að flokka tengiliði eftir því hversu mikið þeir hafa keypt:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Svar</strong></th>
-<th><strong>Gildir um</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p>tengiliði sem keyptu fyrir 500.000 SGM eða meira</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p>tengiliði sem keyptu fyrir 100.000 til 499.999 SGM</p></td>
-</tr>
-<tr class="odd">
-<td><p>U</p></td>
-<td><p>tengiliði sem keyptu fyrir 99.999 SGM eða minna</p></td>
-</tr>
-</tbody>
-</table>
+|Svar|Gildir um|
+|--- |--- |
+|A|tengiliði sem keyptu fyrir 500.000 SGM eða meira|
+|B|tengiliði sem keyptu fyrir 100.000 til 499.999 SGM|
+|U|tengiliði sem keyptu fyrir 99.999 SGM eða minna|
 
 Það er gert með því að fylla út síðuna **Uppsetning á spurningalista forstillingar** sem hér segir:
 
-
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Tegund</strong></th>
-<th><strong>Lýsing</strong></th>
-<th><strong>Sjálfvirk flokkun</strong></th>
-<th><strong>Frá virði</strong></th>
-<th><strong>Til virðis</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Spurning</p></td>
-<td><p>ABC-flokkun</p></td>
-<td><p>Smellt er til að færa inn gátmerki</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>Svar</p></td>
-<td><p>A</p></td>
-<td><p> </p></td>
-<td><p>500,000</p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>Svar</p></td>
-<td><p>Á</p></td>
-<td><p> </p></td>
-<td><p>100,000</p></td>
-<td><p>499,999</p></td>
-</tr>
-<tr class="even">
-<td><p>Svar</p></td>
-<td><p>U</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99,999</p></td>
-</tr>
-</tbody>
-</table>
+| Tegund     | Description        | Sjálfvirk flokkun     | Frá virði | Til virðis |
+|----------|--------------------|------------------------------|------------|----------|
+| Spurning | ABC-flokkun | Smellt er til að færa inn gátmerki |            |          |
+| Svar   | A                  |                              | 500,000    |          |
+| Svar   | Á                  |                              | 100,000    | 499,999  |
+| Svar   | U                  |                              |            | 99,999   |
 
 Svo er síðan **Upplýs. forstillingarspurningar** fylltur út sem hér segir:
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Reitur</strong></th>
-<th><strong>Gildi</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Flokkunarreitur viðskiptavinar</strong></td>
-<td><emphasis>Sala (SGM)</emphasis></td>
-</tr>
-<tr>
-<td><strong>Flokkunaraðferð</strong></td>
-<td><emphasis>Skilgreint virði</emphasis></td>
-</tr>
-</tbody>
-</table>
+
+| Svæði                         | Gildi:         |
+|-------------------------------|---------------|
+| Flokkunarreitur viðskiptavinar | Sala (SGM)   |
+| Flokkunaraðferð         | Skilgreint virði |
 
 Þegar spurningalista forstillingar sem inniheldur þessa spurningu er úthlutað á tengilið færir forritið sjálfkrafa viðeigandi svar fyrir tengiliðinn í forstillingarlínurnar á tengiliðaspjaldinu.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Stofna tengiliði](marketing-create-contact-companies.md)  
 
 

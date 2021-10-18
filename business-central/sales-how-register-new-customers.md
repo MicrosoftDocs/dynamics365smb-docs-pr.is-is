@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3d014015946f9202d59127d6e871aa5dd0ec90bd
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440367"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588983"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 
@@ -26,23 +26,16 @@ Viðskiptamenn eru uppruni tekna. Þú verður að skrá þig hver viðskiptavin
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Bæta við nýjum viðskiptavinum
+Hægt er að bæta við nýjum viðskiptamanni handvirkt með því að fylla út reitina á síðunni **Viðskiptamannaspjald** eða hægt er að nota sniðmát sem innihalda fyrirframskilgreindar upplýsingar. Til dæmis er hægt að búa til sniðmát fyrir mismunandi forstillingargerðir viðskiptamanna. Með því að nota sniðmát sparast tími þegar nýjum viðskiptamönnum er bætt við og það hjálpar til við að tryggja að upplýsingarnar séu réttar hverju sinni. Ef þú stofnar sniðmát fyrir fleiri en eina gerð af viðskiptamanni geturðu valið sniðmátið sem á að nota þegar þú bætir við viðskiptamanni. Ef þú býrð aðeins til eitt sniðmát verður það notað fyrir alla nýja viðskiptamenn. Þegar sniðmát er stofnað geturðu notað aðgerðina **Nota sniðmát** til að nota það í einum eða fleiri viðskiptamönnum. Til að búa til sniðmát fyllir þú inn upplýsingarnar sem þú vilt endurnota á síðu viðskiptamannaspjaldsins og vistar það síðan sem sniðmát. Frekari upplýsingar er að finna í [Að vista viðskiptamannaspjald sem sniðmát](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-Til að skrá nýjan viðskiptavin þarf að fylla út viðskiptamannsspjald. Hægt er að búa til sniðmátum fyrir mismunandi forstillingar viðskiptavina eða hægt er að bæta við viðskiptavinum án sniðmáta. Þú getur einnig stofnað viðskiptamann út frá tengilið. Frekari upplýsingar eru í [Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Það getur reynst gagnlegt að sérsníða síðuna **Sniðmát viðskiptamanns** þegar þú stofnar sniðmát. Þú gætir til dæmis viljað bæta reitnum **Lánamark** við sniðmátið. Frekari upplýsingar eru í [Sérstilling verksvæðis](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Ef viðskiptamannasniðmát eru til fyrir mismunandi tegundir viðskipamanna, þá birtist sjálfkrafa síða þegar búið er til nýtt viðskiptamannaspjald og hægt er að velja viðeigandi sniðmát. Ef aðeins eitt viðskiptamanna sniðmát er fyrir hendi, nota ný viðskiptamannaspjöld alltaf það sniðmát.  
+Þú getur einnig stofnað viðskiptamann út frá tengilið. Frekari upplýsingar eru í [Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Að stofna nýtt viðskiptamannaspjald
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.  
-2. Á síðunni **Viðskiptamenn** skal velja aðgerðina **Nýtt**.
-
-    Ef aðeins eitt viðskiptamannasniðmát er fyrir hendi, opnast nýtt viðskiptamannaspjald með reiti útfyllta með upplýsingum úr sniðmátinu.
-
-    Ef fleiri en eitt viðskiptamannasniðmát er fyrir hendi, þá birtist sjálfkrafa síða með tiltækum viðskiptamannasniðmátum. Í því tilviki, fylgið næstu tveimur skrefum.
-3. Á síðunni **Velja sniðmát fyrir nýjan viðskiptamann** skal velja sniðmátið sem á að nota fyrir nýja viðskiptamannaspjaldið.
-4. Velja hnappinn **Í lagi**. Nýtt viðskiptamannaspjald opnast þar sem búið er að fylla upplýsingar úr sniðmátinu inn í reitina.  
-5. Því næst skal færa inn eða breyta reitum á viðskiptamannaspjaldinu eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Með aðgerðinni **Verð og afsláttur** er hægt að hafa umsjón með sérverði eða afslætti fyrir viðskiptamann þegar pöntun uppfyllir ákveðin skilyrði. Til dæmis gætu viðmiðin verið þegar viðkomandi kaupir ákveðna vöru, pantar lágmarksmagn eða kaupir fyrir dagsetningu, til dæmis þegar herferð lýkur. Nánari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
 

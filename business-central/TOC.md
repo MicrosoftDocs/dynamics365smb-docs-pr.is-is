@@ -41,7 +41,10 @@
 ##### [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
 ##### [Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)  
-##### [Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslu
+###### [Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga.](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Bókunardagsetning fyrir virðisfærslu leiðréttingar í samanburði við upprunafærsluna](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Hönnunarupplýsingar: Væntanleg kostnaðarfærsla](design-details-expected-cost-posting.md)  
 ##### [Hönnunarupplýsingar: Meðalkostnaður](design-details-average-cost.md)  
 ##### [Hönnunarupplýsingar Frávik](design-details-variance.md)  
@@ -94,6 +97,12 @@
 ### [Hafist handa með áskrift](across-preview.md#getting-started-with-a-subscription)
 ### [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)
 
+## Flýtiræsingar
+### [Stuttir leiðarvísar Business Central](quick-start-business-central.md)
+### [Setja upp upplýsingar um fyrirtæki](quick-start-company-information.md)
+### [Selja vörur og þjónustu](quick-start-sell-products-and-services.md)
+### [Kaupa vörur og þjónustu](quick-start-procurement.md)
+
 <!--setup-->
 ## Uppsetning Business Central
 ### [Yfirlit yfir verk](setup.md)
@@ -133,6 +142,7 @@
 #### [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)
 #### [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md)
 #### [Skrá sérstök söluverð og afslætti](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Setja upp verðflokka viðskiptamanna](sales-how-to-set-up-customer-price-groups.md)
 #### [Setja upp sölumenn](sales-how-setup-salespeople.md)
 #### [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md)
 #### [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)
@@ -240,14 +250,16 @@
 #### [Ábendingar og góð ráð: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Uppsetning tölvupósts
 #### [Setja upp tölvupóst](admin-how-setup-email.md)
-#### Setja upp eigið fyrirtækjainnhólf í Microsoft Outlook 
-##### [Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)
+#### Setja upp eigið fyrirtækjainnhólf í Microsoft Outlook
+##### [Sækja innbót Business Central fyrir Outlook](admin-outlook.md)
+##### [Notkun Business Central sem fyrirtækjainnhólf í Outlook](work-outlook-addin.md)
 ##### [Samstilla við tengiliði í Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Fínstilla Outlook](admin-outlook-optimize.md)
 ##### [Nota Business Central án Outlook](admin-no-outlook.md)
 ### Uppsetning fyrir skýrslur
 #### [Skýrsluval](across-report-selections.md)
 ### Uppsetning tenginga
+#### [Sækja innbót Business Central fyrir Excel](admin-deploy-excel-addin.md)
 #### Notkun Business Central sem fyrirtækjainnhólf í Outlook 
 ##### [Yfirlit](admin-outlook.md)
 ##### [Samstilla við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)
@@ -257,10 +269,15 @@
 ##### [Umsjón með samþættingu Teams](admin-teams-integration.md)
 ##### [Uppsetning Business Central fyrir Teams](across-install-app-for-teams.md)
 ##### [Leita að viðskiptavinum, lánardrottnum og tengiliðum](across-search-contacts-teams.md)
-##### [Deila færslum á Teams](across-working-with-teams.md)
+##### [Deila færslum og síðutenglum í Teams](across-working-with-teams.md)
 ##### [Breyta fyrirtæki og aðrar stillingar](across-teams-settings.md)
 ##### [Teams - Algengar spurningar](teams-faq.md)
 ##### [Úrræðaleit](admin-teams-troubleshooting.md)
+#### Að nota OneDrive fyrir Business með Business Central
+##### [Yfirlit](across-onedrive-overview.md)
+##### [Umsjón með OneDrive fyrir Business Integration](admin-onedrive-integration.md)
+##### [Opna Business Central Files í OneDrive](across-share-onedrive.md)
+##### [OneDrive ALGENGAR SPURNINGAR](admin-onedrive-faq.md)
 #### Notkun Power BI með Business Central
 ##### [Kynning](admin-powerbi.md)
 ##### Stjórnandi
@@ -285,6 +302,8 @@
 ### [Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)
 ### [Setja upp prentara](ui-specify-printer-selection-reports.md)
 ### [Nota Business Central á fartækinu þínu](install-mobile-app.md)
+### [Ná í Business Central á skjáborðið](install-desktop-app.md)
+
 
 ## Algengar spurningar
 ### [Algengar spurningar](across-faq.yml)
@@ -329,7 +348,9 @@
 ## [Greina áskilda reiti](ui-mandatory-fields.md)
 ## [Breyta tungumáli og svæði](about-locale-language.md)
 ## [Skoða og breyta í Excel](across-work-with-excel.md)
+## [Geyma og deila skrám í OneDrive](across-share-onedrive.md)
 ## [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md)
+## [Word-sniðmát notuð fyrir mörg samskipti í einu](ui-mail-merge.md)
 ## [Grunnstillingum breytt](ui-change-basic-settings.md)
 ## [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md)
 ## [Stjórna tilkynningum](ui-smart-notifications.md)
@@ -608,6 +629,7 @@
 ### [Beinar sendingar](sales-how-drop-shipment.md)
 ### [Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)
 ### [Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md)
+### [Vinna söluvöruskilapantanir](sales-how-process-sales-returns-orders.md)
 ### [Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md)
 ### [Vinna með standandi sölupantanir](sales-how-to-create-blanket-sales-orders.md)
 ### [Sameina afhendingar einn reikning](sales-how-to-combine-shipments-on-a-single-invoice.md)
@@ -653,7 +675,7 @@
 ### [Setja upp vörurakningu með raðnúmer, lotu og pakkanúmer](inventory-how-setup-item-tracking.md)
 ### [Rekja vörur með rað-, lotu- og pakkanúmerum](inventory-how-work-item-tracking.md)
 ### [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)
-### [Nota millivísanir vöru](inventory-how-use-item-cross-refs.md)
+### [Nota vörutilvísanir](inventory-how-use-item-cross-refs.md)
 ### [Loka vörum](inventory-how-block-items.md)
 ### [Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)
 
@@ -951,10 +973,12 @@
 ##### [Staðfæring eignar fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankaþjónusta og greiðslur
 ##### [Bankaeiginleiki](LocalFunctionality/Czech/bank-feature.md)
+##### [Staðfæring bankaskjala fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Stjórnun afgreiðslukassa](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Staðfæring afgreiðslukassa fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Skráning sölu (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Ítarlegt](LocalFunctionality/Czech/advances.md)
+##### [Staðfæring fyrirframgreiðslna fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Viðskiptaskuldir og útistandandi
 ##### [Viðskiptaskuldir og útistandandi](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
@@ -1085,6 +1109,7 @@
 
 ### Indland
 #### [Yfirlit](LocalFunctionality/India/india-local-functionality.md)
+#### [Uppsetning númeraraðar fyrir bókun](LocalFunctionality/India/posting-no-series-setup.md)
 #### Skattkerfi
 ##### [Yfirlit](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Skilgreining á innflutningi/útflutningi skattakerfis](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1161,6 +1186,8 @@
 ##### [TDS tímabundin færsla](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [TDS leiðréttingarfærsla](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [TDS greiðsla til yfirvalda](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+##### [Yfirlit yfir hluta TDS 194Q](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [Færslur TDS 194Q](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS fyrir viðskiptamann
 ##### [TDS fyrir yfirlit viðskiptamanna](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS útreikningur fyrir viðskiptamann](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1188,6 +1215,7 @@
 ##### [Úthýsingarfærslur](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [Stofna GST-skuld](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Undirverktakaskýrslur](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Stale-ávísun](LocalFunctionality/India/Stale-Check.md)
 
 ### Ítalía
 #### [Staðbundin virkni í ítalskri útgáfu](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1603,6 +1631,7 @@
 ### [Skráning breytinga](across-log-changes.md)
 ### [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)
 ### [Stjórna geymslu með því að þjappa gögnum eða eyða skjölum](admin-manage-documents.md)
+### [Safnvista gögnum](admin-archive-data.md)
 ### [Varðveislureglur gagna skilgreindar](admin-data-retention-policies.md)
 ### [Birta vefþjónustu](across-how-publish-web-service.md)
 ### [Grunnstilling API-sniðmáta](admin-configuring-api-template.md)
@@ -1613,7 +1642,7 @@
 ### [Skoðun töfluupplýsinga](admin-view-table-information.md)
 ### [Virkjun nýrra eiginleika fyrir tíma](admin-feature-management.md)
 ### [Innleiða notendur með gátlistum](admin-checklist.md)
-### [Sandkassaumhverfi](across-how-create-sandbox-environment.md)
+### [Sandkassaumhverfi](admin-sandbox-environments.md)
 ## Sérstilling Business Central
 ### [Yfirlit sérstillinga](ui-customizing-overview.md)
 ### [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)

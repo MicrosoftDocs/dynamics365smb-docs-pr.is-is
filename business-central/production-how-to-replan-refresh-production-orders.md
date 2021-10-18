@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 901427baf8845505c264a6e06ec6aebacbfe1ee0
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440379"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589233"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Enduráætla eða uppfæra framleiðslupantanir beint
 Aðgerðin **Enduráætla** er venjulega notuð eftir íhlutum, sem standa fyrir undirliggjandi framleiðslupantanir, hefur verið bætt við eða þeim breytt. Þessi áætlunaraðgerð reiknar breytingar sem gerðar eru á íhlutum og leiðarlínum. Hún tekur með vörur í neðri framleiðsluuppskriftum og kann að stofna nýjar framleiðslupantanir fyrir þær.  
@@ -34,22 +34,23 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 > [!NOTE]
 > Ef aðgerðin Uppfæra er notuð til að endurreikna framleiðslupöntunarlínur, er eldri framleiðslupöntunarlínunum eytt og nýjar línur eru reiknaðar.  
 
-## <a name="to-replan-a-production-order"></a>Enduráætla Framleiðslupöntun  
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
-2.  Opna framleiðslupöntunina sem á að enduráætla.  
-3.  Á flýtiflipanum **Línur** skal velja aðgerðina **Línur**, og velja svo aðgerðina **Íhlutir**.  
-4.  Íhlut, sem er framleidd vara epa millivara, er bætt við.  
-5.  Frá framleiðslupöntuninni, veldu **Enduráætla** aðgerðina.  
+## <a name="to-replan-a-production-order"></a>Enduráætla Framleiðslupöntun
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
+2. Opna framleiðslupöntunina sem á að enduráætla.  
+3. Á flýtiflipanum **Línur** skal velja aðgerðina **Línur**, og velja svo aðgerðina **Íhlutir**.  
+4. Íhlut, sem er framleidd vara epa millivara, er bætt við.  
+5. Frá framleiðslupöntuninni, veldu **Enduráætla** aðgerðina.  
 
     Á síðunni **Enduráætla framleiðslupöntun** er tilgreint hvernig og hvað á að enduráætla.  
-6.  Í reitnum **Stefna tímasetningar** veljið einn eftirfarandi valkost.  
+6. Í reitnum **Stefna tímasetningar** veljið einn eftirfarandi valkost.  
 
-    |Valkostur|Description|  
-    |----------------------------------|---------------------------------------|  
-    |**Afturvirk**|Reiknar aðgerðaröðina afturábak frá fyrstu mögulegu lokadagsetningu (skilgreind af skiladegi og/eða öðrum dagsettum pöntunum) að síðustu mögulegu upphafsdagsetningunni. **Til athugunar: Þessi sjálfgefni valkostur á við í flestum tilvikum.**|  
-    |**Framvirk**|Reiknar aðgerðaröðina áfram frá fyrstu mögulegu upphafsdagsetningu (skilgreind af skiladegi og/eða öðrum dagsettum pöntunum) að fyrstu mögulegu lokadagsetningu. **Athugið:** Þessi valkostur á aðeins við um hraðpantanir.|  
+    | Valkostur | Description |
+    |--|--|
+    | **Afturvirk** | Reiknar aðgerðaröðina afturábak frá fyrstu mögulegu lokadagsetningu (skilgreind af skiladegi og/eða öðrum dagsettum pöntunum) að síðustu mögulegu upphafsdagsetningunni. **Til athugunar: Þessi sjálfgefni valkostur á við í flestum tilvikum.** |
+    | **Framvirk** | Reiknar aðgerðaröðina áfram frá fyrstu mögulegu upphafsdagsetningu (skilgreind af skiladegi og/eða öðrum dagsettum pöntunum) að fyrstu mögulegu lokadagsetningu. **Athugið:** Þessi valkostur á aðeins við um hraðpantanir. |
 
-7.  Í reitnum **Áætla** er valið hvort reikna á framleiðslukröfur fyrir framleidda vöru á framleiðsluuppskrift, með eftirfarandi hætti:  
+7. Í reitnum **Áætla** er valið hvort reikna á framleiðslukröfur fyrir framleidda vöru á framleiðsluuppskrift, með eftirfarandi hætti:  
 
     |Valkostur|Description|  
     |----------------------------------|---------------------------------------|  
@@ -57,22 +58,23 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
     |**Eitt stig**|Áætla eftirspurn fyrir framleiðslu á fyrsta stigi. Hægt er að stofna fyrsta stigs framleiðslupantanir.|  
     |**Öll stig**|Áætla eftirspurn fyrir framleiðslu á öllum stigum. Hægt er að stofna framleiðslupantanir fyrir öll stig.|  
 
-8.  **Eitt stig** er valið og smellt á **Í lagi** til að enduráætla framleiðslupöntunina, auk þess að reikna og stofna nýja undirliggjandi framleiðslupöntun fyrir nýju millivöruna – ef hún er ekki alveg til.  
+8. **Eitt stig** er valið og smellt á **Í lagi** til að enduráætla framleiðslupöntunina, auk þess að reikna og stofna nýja undirliggjandi framleiðslupöntun fyrir nýju millivöruna – ef hún er ekki alveg til.  
 
 > [!NOTE]  
->  Breytingar sem gerðar eru með aðgerðinni **Enduráætla** hafa að öllum líkindum í för með sér breytingar á afkastaþörf framleiðslupöntunarinnar og því gæti þurft að endurtímasetja aðgerðir í kjölfarið.  
+> Breytingar sem gerðar eru með aðgerðinni **Enduráætla** hafa að öllum líkindum í för með sér breytingar á afkastaþörf framleiðslupöntunarinnar og því gæti þurft að endurtímasetja aðgerðir í kjölfarið.  
 
-## <a name="to-refresh-a-production-order"></a>Framleiðslupöntun endurnýjuð  
+## <a name="to-refresh-a-production-order"></a>Framleiðslupöntun endurnýjuð
+
 Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breytt þarf einnig að uppfæra upplýsingar um framleiðslupöntun. Eftirfarandi aðferð sýnir hvernig íhlutirnir eru reiknaðir fyrir fastáætlaða framleiðslupöntun. Skrefin eru svipuð fyrir Leiðarlínur.
 
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
-2.  Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
-3.  Velja aðgerðina **Uppfæra**.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
+2. Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
+3. Velja aðgerðina **Uppfæra**.
 4. Á síðunni **Uppfæra framleiðslupöntun** velurðu einn af eftirfarandi kostum:
 
-    |Valkostur||Description|  
+    |Svæði|Valkostur|Description|  
     |----------------------------------|---------------|---------------------------------------|  
-    |**Stefna tímasetningar**|**Framvirkt**|Áætlunin hefst á upphafsdagsetningu og heldur áfram (að lokadagsetningunni). Fylla verður inn upphafsdagsetningu til að nota þennan valkost.|  
+    |**Stefna tímasetningar**|**Framvirk**|Áætlunin hefst á upphafsdagsetningu og heldur áfram (að lokadagsetningunni). Fylla verður inn upphafsdagsetningu til að nota þennan valkost.|  
     ||**Afturvirk**|Áætlunin hefst á lokadagsetningunni og heldur afturábak (að upphafsdagsetningu).|  
     |**Reikna**|**Línur**|Veljið þennan reit til að reikna framleiðslupöntunarlínur.|  
     ||**Leiðir**|Þessi reitur hefur engin áhrif á útreikning framleiðslulína.|  
@@ -82,9 +84,10 @@ Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breyt
 5. Velja **Í lagi** til að staðfesta valið. Framleiðslupöntunarlínurnar hafa nú verið reiknaðar.
 
 > [!NOTE]  
->  Þegar framl.pöntunaríhlutir eru reiknaður eyðast fyrri breytingar á íhlutunum.
+> Þegar framl.pöntunaríhlutir eru reiknaður eyðast fyrri breytingar á íhlutunum.
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Áætlun](production-planning.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)    

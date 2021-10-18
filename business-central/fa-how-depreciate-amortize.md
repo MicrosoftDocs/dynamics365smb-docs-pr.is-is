@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442261"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588302"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrifa eða greiða af eignum
 Afskriftir eru notaðar til að dreifa kostnaði við eignir eins og tæki og búnað á afskriftartíma þeirra. Tilgreina verður afskriftaraðferð fyrir hverja eign.  
@@ -48,7 +48,10 @@ Hægt er að keyra keyrsluna **Reikna afskriftir** mánaðarlega eða hvenær se
 5. Valið er **Bóka** aðgerðin.  
 
 > [!NOTE]
-> Ef þú velur reitinn **Nota áskilinn fj. daga** og reiturinn **Áskilinn fj. daga** er stilltur á gildi leiðir til bókunardagsetningar mínus gildið í reitnum **Fjöldi daga** er dagsetning á fyrra almanaksári, geturðu ekki bókað afskriftina. Hjáleiðin er að draga úr gildinu á **Áskilinn fj. daga** í ekki meira en reiknaða daga þar til bókunardagsetningin notar 30 daga/mánuð EÐA velja reitinn **365 daga reikningsár** í afskriftarbókinni. Við mælum með fyrsta valkostinum þar sem ekki er víst að þú viljir breyta því að nota 30 daga/mánuð fyrir afskrift. Frekari upplýsingar er að finna í [365 daga reikningsár](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Þekkt takmörkun: Ef þú stillir reitinn **Nota áskilinn fj. daga** og reiturinn **Áskilinn fj. daga** er stilltur á gildi þar sem **Bókunardagsetning** mínus niðurstöðurnar **Fjöldi daga** í dagsetningu á fyrra almanaksári leyfir kerfið þér ekki að bóka afskriftina.
+> Þú getur komist hjá þessu með því að lækka gildið í reitnum **Áskilinn fj. daga** í ekki hærra en útreiknaða daga þangað til bókun dagsetningar notar 30 daga/mánuð EÐA stilla flaggið **365 daga reikningsár** í afskriftarbókinni.
+> Við mælum með fyrsta valkostinum þar sem ekki er víst að þú viljir breyta því að nota 30 daga/mánuð fyrir afskrift. Frekari upplýsingar er að finna í [365 daga reikningsár](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Að bóka afskrift handvirkt úr fjárhagsbók eigna
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignafjárhagsbók** og velja síðan viðkomandi tengil.  

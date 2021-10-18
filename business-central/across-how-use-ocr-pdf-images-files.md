@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb71c71ec67514e4ed2df02a83afe2a56e36868e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440950"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587531"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl
 Úr PDF-skjölum eða myndaskrám sem standa fyrir skjöl á innleið er hægt að láta ytri OCR-þjónustu (sjónræn stafakennsl) stofna rafræn skjöl sem hægt er að umbreyta í skráarfærslur í [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar reikningur berst frá lánardrottni á PDF-sniði er til dæmis hægt að senda hann til OCR-þjónustu af síðunni **Skjöl á innleið**. Þessu er lýst í fyrsta verkferlinu.
@@ -69,11 +69,11 @@ Nú er hægt að byrja að stofna færslur skjala fyrir móttekin rafrænar fylg
 Eftirfarandi ferli sýnir hvernig á að stofna færslu innkaupareiknings úr reikningur lánardrottins sem var móttekin sem rafrænt skjal úr OCR-þjónustu. Ferlið er það sama þegar búið er til, til dæmis, færslubókarlína úr kostnaðarkvittun eða söluvöruskilapöntun frá viðskiptamanni.
 
 > [!NOTE]  
->   **Lýsingin** og **nr.** á stofnuðum skjalalínum verða aðeins fylltir út ef þú hefur fyrst varpað texta á OCR-skjali á reitunum tveimur í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að gera þessa vörpun sem millivísun vöru, fyrir skjalalínur af gerðinni vara. Frekari upplýsingar er að finna í [Nota millivísanir vöru](inventory-how-use-item-cross-refs.md). Einnig er hægt að nota virknina vörpun texta á reikning. Nánari upplýsingar er að finna í [Að varpa texta í skjali á innleið á tiltekinn lánardrottin, fjárhag eða bankareikning](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   **Lýsingin** og **nr.** á stofnuðum skjalalínum verða aðeins fylltir út ef þú hefur fyrst varpað texta á OCR-skjali á reitunum tveimur í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að gera þessa vörpun sem tilvísun vöru, fyrir skjalalínur af gerðinni vara. Frekari upplýsingar er að finna í [Nota vörutilvísanir](inventory-how-use-item-cross-refs.md). Einnig er hægt að nota virknina vörpun texta á reikning. Nánari upplýsingar er að finna í [Að varpa texta í skjali á innleið á tiltekinn lánardrottin, fjárhag eða bankareikning](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Velja skal línu fyrir skjal á innleið og svo **Stofna skjal** virknina.
 
-Innkaupareikningur verður stofnaður í [!INCLUDE[prod_short](includes/prod_short.md)] og byggist á upplýsingum í rafrænu skjali lánardrottins sem tekið var á móti frá OCR-þjónustu. Upplýsingar verða settar inn í nýja innkaupareikninginn byggt á vörpun sem hefur verið tilgreind sem millivísun eða sem vörpun texta á reikning.
+Innkaupareikningur verður stofnaður í [!INCLUDE[prod_short](includes/prod_short.md)] og byggist á upplýsingum í rafrænu skjali lánardrottins sem tekið var á móti frá OCR-þjónustu. Upplýsingar verða settar inn í nýja innkaupareikninginn byggt á vörpun sem hefur verið tilgreind sem tilvísun eða sem vörpun texta á reikning.
 
 Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum gögnum í [!INCLUDE[prod_short](includes/prod_short.md)] verða sýndar á flýtiflipanum **Villuboð**. Nánari upplýsingar eru í [Að meðhöndla villur þegar tekið er á móti rafrænum skjölum](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 

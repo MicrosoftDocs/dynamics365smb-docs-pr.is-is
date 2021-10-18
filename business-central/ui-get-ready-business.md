@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444821"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589133"
 ---
 # <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
 
@@ -32,7 +32,7 @@ Einnig er hægt að opna listann yfir uppsetningarleiðbeiningar með hjálp me�
 
 ## <a name="get-started"></a>Hefjast handa
 
-Frá og með útgáfutímabili 1 árið 2021 þegar þú skráir þig inn í fyrsta skipti eða setur af stað nýtt fyrirtæki fer gátlistinn **Hefjast handa** með þér í gegnum skrefin til að búa þig undir viðskiptin. Skrefin eru mismunandi eftir löndum og aðgerðum innan atvinnugreina sem þú hefur bætt við [!INCLUDE [prod_short](includes/prod_short.md)].  
+Þegar þú skráir þig inn í fyrsta skipti eða setur af stað nýtt fyrirtæki fer gátlistinn **Hefjast handa** með þér í gegnum skrefin til að búa þig undir viðskiptin. Skrefin eru mismunandi eftir löndum og aðgerðum innan atvinnugreina sem þú hefur bætt við [!INCLUDE [prod_short](includes/prod_short.md)]. Frá og með 2021 útgáfutímabili 2, þegar þú skráir þig fyrst inn í CRONUS sýnifyrirtækið, er heimasíðan fínstillt fyrir fyrstu upplifun þína. Ef þú vilt frekar sjá fleiri tengla á fleiri síður er nóg að skipta yfir í hlutverk viðskiptastjóra. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
 
 Þegar þú hefur yfirfært gögn eins og lánardrottinn, viðskiptamenn, og vörur úr núverandi fjármálakerfi þínu, ertu tilbúinn að byrja. Hafðu í huga hvort aðrar leiðbeiningar um uppsetningu með hjálp á listanum geti hjálpað þér.
 
@@ -43,7 +43,7 @@ Ef svæði er ekki hluti af uppsetningu með hjálp skal velja táknið ![Sprock
 >
 > Í fyrsta sinn sem þú skráir þig inn notarðu **Essential** upplifunina. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
-Þegar búið er að keyra uppsetningaleiðbeiningar með hjálp eru þær merktar sem **Lokið**. <!--VERIFY-->  
+Þegar búið er að keyra uppsetningaleiðbeiningar með hjálp eru þær merktar sem **Lokið**.  
 
 ## <a name="teaching-tips-and-tours"></a>Fróðlegar ábendingar og leiðsagnir
 
@@ -80,13 +80,18 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr Office 365 stj�
 
 ## <a name="next-steps"></a>Næstu skref
 
-Á grundvelli yfirfærðra gagna, geturðu nú farið í að stofna nýjar sölur eða innkaupaskjöl. Nota hlutann **Aðgerðir** á þinni heimasíðu til að stofna á fljótlegan hátt nýjar sölutilboð, sölureikningur, sölupöntun, innkaupareikningur eða skráning greiðslna.
+Á grundvelli yfirfærðra gagna, geturðu nú farið í að stofna nýjar sölur eða innkaupaskjöl. Nota hlutann **Aðgerðir** á þinni heimasíðu til að stofna á fljótlegan hátt nýjar sölutilboð, sölureikningur, sölupöntun, innkaupareikningur eða skráning greiðslna. Skoðaðu [Stutta leiðarvísa](quick-start-business-central.md) til að koma þér í gegnum fyrstu skrefin.  
 
 ## <a name="see-also"></a>Sjá einnig .
 
+[Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Grunnstillingum breytt](ui-change-basic-settings.md)  
+[Aðgengi og Flýtivísanir](ui-accessibility.md)  
+[Prufuútgáfa og áskrift](across-preview.md)  
+[Viðskiptavirkni](across-business-functionality.md)  
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Prufuútgáfa og áskrift](across-preview.md)  
+[Leita í hjálparsvæðinu](product-help-and-support.md#search-in-the-help-pane)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Microsoft Learn svæði](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

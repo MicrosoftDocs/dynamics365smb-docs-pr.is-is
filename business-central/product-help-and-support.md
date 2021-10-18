@@ -7,27 +7,53 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 07/09/2021
-ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 3dc07c19093ff2068a2d749fdf2b260ea82c4672
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543071"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588052"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
-Í [!INCLUDE[prod_long](includes/prod_long.md)], veitir valmyndaratriði hjálpar (spurningamerkið efst í hægra horninu) þér aðgang að síðunni **Hjálp og stuðningur** sem getur hjálpað þér að finna svör við spurningum þínum. Einnig er hægt að sjá hvernig skal hafa samband við tæknilega aðstoð fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
+Í [!INCLUDE[prod_long](includes/prod_long.md)], veitir valmyndaratriði hjálpar (spurningamerkið efst í hægra horninu) þér aðgang að hjálparsvæðinu þar sem er auðveldara að finna svör við spurningum þínum.  
 
-Þessi síða lýsir þeim úrræðum sem þú hefur aðgang að í mismunandi köflum á síðunni **Hjálp og stuðningur**.  
+## <a name="search-in-the-help-pane"></a>Leita í hjálparsvæðinu
+
+[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+
+Útgáfubylgja 2 frá 2021 inniheldur nýtt hjálparsvæði sem er með leitarflipa. Notaðu leitarreitinn til að leita að leiðbeiningum um hvernig á að nota afurðina, innbyggða möguleika og tiltækar þjálfunareiningar. Glugginn sýnir 5 eða fleiri tengla með stuttri lýsingu eftir því hvert leitarskilyrðið er. Veldu tengil eða fínstilltu leitarskilyrðið. Þegar þú velur tengil opnast markgreinin í nýjum vafraflipa. Þú getur valið að losa vafragluggann svo þú getir skoðað viðeigandi upplýsingar við hliðina á [!INCLUDE [prod_short](includes/prod_short.md)]. Glugginn helst opinn á meðan þú flettir í gegnum [!INCLUDE [prod_short](includes/prod_short.md)] þannig að efnið sem þú leitaðir að helst sýnilegt.  
+
+> [!NOTE]
+> Í núverandi útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] á leitarreiturinn í hjálparsvæðinu aðeins við um efni sem birt er á vefsvæðinu docs.microsoft.com.
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Þessir tenglar geta einnig fengið aðgang að efni sem er birt á öðrum vefsvæðum, svo sem vefsvæðum þjónustaðila einhverra forrita sem eru uppsett í [!INCLUDE [prod_short](includes/prod_short.md)].  
+
+## <a name="help--support-page"></a>Hjálpar- og stuðningssíða
+
+Frá hjálparsvæðinu getur þú farið á síðuna **Hjálp og stuðningur** í [!INCLUDE [prod_short](includes/prod_short.md)] sem inniheldur gagnlega tengla. Einnig er hægt að sjá hvernig skal hafa samband við tæknilega aðstoð fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+Þessi hluti lýsir þeim úrræðum sem þú hefur aðgang að í mismunandi köflum á síðunni **Hjálp og stuðningur** eins og er tekið fram í eftirfarandi lista:
+
+- [Finna svör](#find-answers)  
+- [Hjálp fyrir afurð](#product-help)  
+- [Samfélag](#community)  
+- [Blogg](#blog)  
+- [Væntanlegir eiginleikar](#capabilities-coming-soon)  
+- [Gera meira með prufuútgáfunni](#do-more-with-your-trial)  
+- [Senda inn ábendingu](#give-feedback)  
+- [Úrræðaleit](#troubleshooting)  
+- [Tilkynna um vandamál](#report-a-problem)  
+- [Stuðningstengiliðir](#support-contacts)  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="find-answers"></a>Finna svör
+### <a name="find-answers"></a>Finna svör
 
 Kaflinn **Finna það** veitir tengla á algengustu staðina til að finna svör við spurningum þínum. Tenglarnir flokkast niður í fjóra flokka og eru útskýrðir í eftirfarandi undirköflum. Suma tenglana getur [!INCLUDE[prod_short](includes/prod_short.md)]-samstarfsaðilinn þinn grunnstillt og fyrir vikið getur hegðunin verið örlítið öðruvísi.  
 
-### <a name="product-help"></a>Hjálp fyrir afurð
+#### <a name="product-help"></a>Hjálp fyrir afurð
 
 Kaflinn **Finna það** inniheldur tvo tengla á hjálp fyrir afurð:
 
@@ -38,36 +64,36 @@ Kaflinn **Finna það** inniheldur tvo tengla á hjálp fyrir afurð:
 
   Virkni í sjálfgefnu útgáfunni af [!INCLUDE[prod_short](includes/prod_short.md)] er lýst á svæðinu [Docs.microsoft.com](/dynamics365/business-central). Frekari upplýsingar er að finna í hlutanum [Nota vefsvæðið docs.microsoft.com til að fá frekari upplýsingar](#use-the-docsmicrosoftcom-site-to-learn-more). Einnig er hægt að stækka og sérstilla [!INCLUDE[prod_short](includes/prod_short.md)] með forritum frá AppSource. Öll forrit bjóða upp á tengla við viðkomandi afurðarhjálp svo þú getir alltaf fundið leiðarvísi fyrir mismunandi verkflæði í þinni útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="community"></a>Samfélag
+#### <a name="community"></a>Samfélag
 
 Í [Umræðusvæði Business Central](https://community.dynamics.com/business/f) geturðu sent inn spurningu og fræðst meira frá öðrum samfélagsmeðlimum [!INCLUDE[prod_short](includes/prod_short.md)]. Samstarfsaðilar og starfsfólk Microsoft taka þátt í umræðunni.  
 
 Ef þú ert ekki enn komin(n) með samstarfsaðila, getur samfélagið einnig hjálpað þér að afblokka þig ef þú ert með spurningar. Ef þú til dæmis skráðir þig fyrir prufuáskrift, getur samfélagið reynst góður staður til að byrja á.  
 
-### <a name="blog"></a>Blogg
+#### <a name="blog"></a>Blogg
 
 Við ræðum um nýja möguleika á [bloggsvæði Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), þ.á m. hvort huga þurfi að einhverju.  
 
-### <a name="capabilities-coming-soon"></a>Væntanlegir eiginleikar
+#### <a name="capabilities-coming-soon"></a>Væntanlegir eiginleikar
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er uppfært með stórum eiginleikauppfærslum á sex mánaða fresti og með mánaðarlegum þjónustuuppfærslum. Veldu tengilinn til að skoða nýjustu útgáfuáætlunina. Þú getur einnig fengið yfirlit yfir væntanlega og nýlega útgefna eiginleika í [útgáfuáætlanir fyrir Dynamics 365](/dynamics365/release-plans/).  
 
 Langtímayfirlitið, [!INCLUDE[prod_short](includes/prod_short.md)] [síða vegvísis](https://dynamics.microsoft.com/roadmap/business-central/), sýnir almennar forgangsraðanir fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á næstum árum.  
 
-## <a name="do-more-with-your-trial"></a>Gera meira með prufuútgáfunni
+### <a name="do-more-with-your-trial"></a>Gera meira með prufuútgáfunni
 
 Þessi kafli gefur þér flýtileiðir á Microsoft AppSource þar sem þú getur fundið lausnir og þjónustur frá samstarfsaðilum [!INCLUDE[prod_short](includes/prod_short.md)]. Notaðu tenglana til að kanna alla eiginleika [!INCLUDE[prod_short](includes/prod_short.md)] áður en þú ákveður hvort þú viljir kaupa áskrift. Einnig er hægt að finna tengil til að hafa samband við söluteymið.
 
 > [!NOTE]
 > Þessi hluti er aðeins í boði í prufuumhverfum. Ef þú hefur nú þegar keypt [!INCLUDE[prod_short](includes/prod_short.md)] er þessi hluti ekki lengur sýnilegur.
 
-## <a name="give-feedback"></a>Senda inn ábendingu
+### <a name="give-feedback"></a>Senda inn ábendingu
 
 Á [Hugmyndasvæði Dynamics 365](https://aka.ms/bcideas) getur þú komið með tillögur um nýja eiginleika. Þitt innlegg fer beint til ólokinnar hönnunar Business Central til skoðunar og forgangsröðunar.  
 
 Gakktu úr skugga um að þú leitir í lista yfir innsendar tillögur. Líklegt er að einhver hafi þegar sent inn eitthvað svipað og að sú færsla hafi hugsanlega þegar fengið atkvæði. Gefðu atkvæði ef hugmynd hefur þegar verið send inn til að koma henni í forgang við hönnunarferlinu.  
 
-## <a name="troubleshooting"></a>Úrræðaleit
+### <a name="troubleshooting"></a>Úrræðaleit
 
 Hlutinn **Úrræðaleit** birtir tæknilegar upplýsingar sem stjórnandinn þinn eða samstarfsaðili [!INCLUDE[prod_short](includes/prod_short.md)] getur notað til að afblokka notendur. Þetta felur í sér upplýsingar um nýjustu villuboð, núverandi útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] og tengil til að opna síðuna **Eftirlit með síðu**. Frekari upplýsingar er að finna í [Eftirlit með síðum í Business Central](across-inspect-page.md).  
 
@@ -80,7 +106,7 @@ Sem innri stjórnandi hefurðu aðgang að stjórnunarstöðinni þar sem hægt 
 - [Fylgjast með og greina fjarmælingar](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Virkja sendingu fjarmælingar til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-## <a name="report-a-problem"></a>Tilkynna um vandamál
+### <a name="report-a-problem"></a>Tilkynna um vandamál
 
 Endursöluaðili [!INCLUDE[prod_short](includes/prod_short.md)] mun veita þér tæknilega aðstoð. Þessi hluti auðveldar þér að hafa samband endursöluaðilann þinn ef hann hefur sent inn samskiptaupplýsingar fyrir notendaþjónustu. Ef [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft.  
 
@@ -123,9 +149,12 @@ Efnisyfirlitið inniheldur efnisflokk sem lýsir [staðbundnum aðgerðum](about
 
 Efni staðbundinna aðgerða lýsir möguleikunum í [!INCLUDE [prod_short](includes/prod_short.md)] sem geta hjálpað þér að fylgja studdum markaði, t.d. skattaskýrslum og öðrum skýrslum. Í sumum tilfellum er munurinn á milli sjálfgefinnar útgáfu og landsmiðaðrar útgáfu ekki sýnilegur notendum. Í öðrum tilvikum verða notendur að setja upp skýrslugerð eða rafræna reikningsfærslu á sérstakan hátt. Ef ekki er hægt að finna lýsingu á tilteknum hnappi eða aðgerð í almenna hlutanum er vonandi hægt að finna hana í hlutanum *Staðbundin virkni*.  
 
+> [!TIP]
+> Á síðunni docs.microsoft.com sem og í leitarreit innan vörunnar og í hjálparsvæðinu sýna leitarniðurstöðurnar sama samhengi fyrir markgreinina. Í samhenginu er tengillinn sem gæti sýnt heiti lands eða stutta lýsingu sem kallar á ákveðinn möguleika eða land sem dæmi.
+
 ### <a name="finding-other-content"></a>Annað efni fundið
 
-Ef viðkomandi grein svarar ekki spurningum þínum er hægt að finna annað efni á tvennan hátt:
+Ef viðkomandi grein svarar ekki spurningum þínum er hægt að finna annað efni á tvennan hátt á vefsvæðinu docs.microsoft.com:
 
 - Nota reitinn **Afmarka eftir titli** í efnisyfirlitinu vinstra megin á vefsvæðinu
 
@@ -148,7 +177,7 @@ Fyrir hvert tungumál er efnisyfirlit þýtt, en efnið í hlutanum *Staðbundin
 
 ### <a name="recommended-content"></a>Ráðlagt efni
 
-Í mars 2021 kom nýr hluti undir flestar greinar á svæðinu docs.microsoft.com. Hlutinn **Ráðlagt efni** er sjálfkrafa búinn til samkvæmt því hvernig hver grein er notuð með hinum hluta svæðisins. Tenglarnir eru ekki allt eins og breytast með tímanum.
+Í mars 2021 kom nýr hluti undir flestar greinar á svæðinu docs.microsoft.com. Hlutinn **Ráðlagt efni** er sjálfkrafa búinn til samkvæmt því hvernig hver grein er notuð með hinum hluta vefsvæðisins docs.microsoft.com. Tenglarnir eru ekki allt eins og breytast með tímanum.
 
 ### <a name="tell-us-what-you-think"></a>Segðu okkur hvað þér finnst
 
@@ -172,6 +201,7 @@ Sama gildir ef notað er [!INCLUDE [prod_short](includes/prod_short.md)] á sta�
 ## <a name="see-also"></a>Sjá einnig
 
 [Business Central námskrá](readiness/readiness-learning-catalog.md)  
+[Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
 [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner)  
 [Hjálparkerfi (Aðeins í boði á ensku)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Bloggfærsla: Finna réttar úrlausnir og veita endurgjöf](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  

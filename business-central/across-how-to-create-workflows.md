@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438408"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588227"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Stofna verkflæði til að tengja verk viðskiptaferla
 
@@ -133,7 +133,7 @@ Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður 
     2. Í reitnum **Með skilyrði** skal velja orðið **Alltaf** og síðan á síðunni **Skilyrði tilviks** skal velja tengilinn **Bæta við skilyrði þegar gildi í reit breytist** og velja síðan reitinn *Heiti*.  
 
       Niðurstaðan úr þessu skrefi er að skilyrðið lesist sem *Heiti er breytt*.  
-    3. Í reitnum **Þá svar** skal velja tengilinn **Velja svar** og síðan á síðunni **Verkflæðissvör**, í reitnum **Velja svar**, skal velja svarið *Snúa aftur gildinu í reit <Field> í færslunni og vista breytingarnar* og síðan í hlutanum **Valkostir fyrir valið svar** skal tilgreina reitinn *Heiti*.  
+    3. Í reitnum **Þá svar** skal velja tengilinn **Velja svar** og síðan á síðunni **Verkflæðissvör**, í reitnum **Velja svar**, skal velja svarið *Snúa aftur gildinu í reit \<Field\> í færslunni og vista breytingarnar* og síðan í hlutanum **Valkostir fyrir valið svar** skal tilgreina reitinn *Heiti*.  
     4. Veldu tengilinn **Bæta fleiri svörum við** og bættu síðan færslu við fyrir *Stofna samþykktarbeiðni fyrir færsluna með því að nota samþykktargerð <%1> og <%2>.* svar.  
     5. Í hlutanum **Valkostir fyrir valið svar** fyrir nýja svarið skaltu breyta reitnum **Gerð samþykkjanda** í *Notendaflokkur verkflæðis* og síðan í reitnum **Notendaflokkur verkflæðis** skal tilgreina notendaflokkinn sem á við.  
 

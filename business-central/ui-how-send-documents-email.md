@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435245"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588452"
 ---
 # <a name="send-documents-and-emails"></a>Senda skjöl og tölvupósta
 
-Auðvelt er að miðla upplýsingum og skjölum, svo sem sölu- og innkaupapöntunum og reikningum, með tölvupósti beint frá [!INCLUDE[prod_short](includes/prod_short.md)]], án þess að þurfa að opna tölvupóstforrit.  
+Auðvelt er að miðla upplýsingum og skjölum, svo sem sölu- og innkaupapöntunum og reikningum, með tölvupósti beint frá [!INCLUDE[prod_short](includes/prod_short.md)], án þess að þurfa að opna tölvupóstforrit.  
 
 Hægt er að senda næstum allar tegundir skjala sem PDF-viðhengi. Að öðrum kosti er hægt að setja upp skýrsluútlit sem inniheldur upplýsingar úr skjalinu texta tölvupóstsins ásamt texta sem gerir tölvupóstinn vinalegri, t.d. hefðbundna kveðju. Frekari upplýsingar, sjá [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -33,7 +33,7 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 Þetta ferli lýsir því hvernig hengja á bókaðan sölureikning við tölvupóst sem PDF-skjal og með texta um skjalið í tölvupóstinum. <!--update this-->
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðir sölureikningar** og velja síðan viðkomandi tengil.
-2. Velja skal reikninginn og síðan velja aðgerðina **Prenta/senda**.
+2. Velja skal reikninginn og síðan velja aðgerðina **Prenta/senda** og því næst **Senda**.
 3. Í reitnum **Tölvupóstur** skal velja **Já (biðja um stillingar)**. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).
     
     Ef reiturinn **Tölvupóstur** á síðunni **Senda skjal til** er stilltur á **Já (Biðja um Stillingar)**, mun síðan **Senda tölvupóst** opnast með tengiliðinn fyrirfram skráðan í reitnum **Til:** og skjalið hengt við sem PDF-skrá. Í reitnum **Meginmál** er annað hvort hægt að færa textann inn handvirkt eða hafa reitinn fylltur út með fyrirfram uppsettum meginmálslínum sem eru sértækar fyrir skjalið.
@@ -51,9 +51,10 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 > Ef þú vilt ekki tilgreina stillingar tölvupósts í hvert sinn sem skjal er sent í tölvupósti er hægt að velja **Já (nota sjálfgefnar stillingar)** valkostinn í **Tölvupóstur** reitnum á síðunni **Senda skjal til**. Í því tilfelli mun síðan **Senda tölvupóst** ekki opnast. Sjá skref 4. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Að setja saman og senda tölvupóst
+Hægt er að búa til tölvupósta fyrir tengiliði, viðskiptamenn, lánardrottna, sölufólk/innkaupendur og bankareikninga á fljótlegan hátt beint af síðunum fyrir þessar einingar. Veldu einfaldlega **Vinna úr** og síðan **Senda tölvupóst** til að opna ritil tölvupóstsins. Fyrir bankareikninga er aðgerðin **Senda tölvupóst** undir **Aðgerðir**.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tölvupóstsreikningar** og velja síðan viðkomandi tengil.
-2. Veljið reikninginn sem senda á tölvupóstinn frá og veljið síðan aðgerðina **Skrifa tölvupóst**.
+> [!TIP]
+> Ef þú sendir oft svipaða tölvupósta eða vilt senda á marga í einu, t.d. til að auglýsa markaðsherferð, getur Word-sniðmát með tölvupósti hraðað ferlinu. Þú getur búið til sniðmát fyrir aðila á borð við viðskiptamenn, lánardrottna og tengiliði sem býr til efni tölvupóstskilaboða fyrir þig og meira að segja aðlagar efnið að viðtakandanum út frá upplýsingum í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Word-sniðmát notuð fyrir mörg samskipti í einu](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Skjöl sem eru merkt sem prentuð þegar þau eru send
 

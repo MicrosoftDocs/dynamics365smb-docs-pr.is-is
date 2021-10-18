@@ -12,19 +12,23 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9f25ea61c41bfeb08b9283153a96b8a78ce7c9b7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440550"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589283"
 ---
 # <a name="register-employees"></a>Skrá starfsmenn
-Til að nota eiginleikann Mannauður þarf fyrst að skrá hvern starfsmann með því að búa til spjald með öllum grunnupplýsingum og öðrum tengdum upplýsingum.
+Til að nota virkni Human Resources þarf fyrst að bæta við hverjum starfsmanni fyrir sig með því að fylla út reitina á síðunni **Starfsmannaspjald**.
 
-Hægt er að virkja upplýsingar hvenær sem er. Með því að halda skráningum um starfsmenn uppfærðum verða starfsmannaverkefni einfaldari. Til dæmis, ef aðsetur starfsmanna breytast er hægt að skrá það á starfsmannaspjaldið.
+## <a name="adding-new-customers"></a>Bæta við nýjum viðskiptavinum
+Hægt er að bæta við nýjum starfsmönnum handvirkt með því að fylla út reitina á síðunni **Starfsmannaspjald** eða hægt er að nota sniðmát sem innihalda fyrirframskilgreindar upplýsingar. Til dæmis er hægt að stofna sniðmát fyrir mismunandi forstillingargerðir starfsmanna. Með því að nota sniðmát sparast tími þegar nýjum starfsmönnum er bætt við og það hjálpar til við að tryggja að upplýsingarnar séu réttar hverju sinni. Ef þú stofnar sniðmát fyrir fleiri en eina gerð af starfsmanni geturðu valið sniðmátið sem á að nota þegar þú bætir við starfsmanni. Ef þú býrð aðeins til eitt sniðmát verður það notað fyrir alla nýja starfsmenn. Þegar sniðmát er stofnað geturðu notað aðgerðina **Nota sniðmát** til að nota það í einum eða fleiri starfsmönnum. Til að búa til sniðmát fyllir þú inn upplýsingarnar sem þú vilt endurnota á síðu starfsmannaspjaldsins og vistar það síðan sem sniðmát.
 
-Eftirfarandi aðferðir lýsa því hvernig á að búa til fyrsta starfsmannaspjaldið og hvernig á að úthluta tveimur gerðum af upplýsingum um starfsmanninn á viðkomandi starfsmann. Einnig er hægt að úthluta ýmsum öðrum tengdum upplýsingum, svo sem hæfi og orsökum aðgerðaleysis. Upplýsingum um starfsmann er úthlutað annað hvort með því að velja reit eða aðgerð á síðunni **Starfsmannaspjald**.
+> [!TIP]
+> Það getur reynst gagnlegt að sérsníða síðuna **Sniðmát starfsmanns** þegar þú stofnar sniðmát. Þú gætir til dæmis viljað bæta reit sem er ekki sýndur við síðuna. Frekari upplýsingar eru í [Sérstilling verksvæðis](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+Hægt er að virkja upplýsingar hvenær sem er. Með því að halda starfsmannsfærslum uppfærðum er hægt að einfalda verk sem tengjast starfsfólki. Til dæmis, ef aðsetur starfsmanna breytast er hægt að skrá það á starfsmannaspjaldssíðunni.
 
 > [!NOTE]  
 > Hægt er að endurgreiða starfsmönnum fyrir útgjöld þeirra í viðskiptaerindum. Til þess þarf að fylla inn í reitina á flýtiflipanum **Greiðslur** á síðunni **starfsmannaspjald**. Nánari upplýsingar eru í [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
@@ -35,7 +39,7 @@ Eftirfarandi aðferðir lýsa því hvernig á að búa til fyrsta starfsmannasp
 3. Á síðunni **Starfsmannaspjald** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Setja inn mynd af starfsmanni.
-Ef þú ert með mynd af starfsmanni í .bmp sniði, getur þú sett það á starfsmannaspjaldið.
+Ef þú ert með mynd af starfsmanni getur þú sett það á starfsmannaspjaldið.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn** og velja síðan viðkomandi tengil.
 2. Opnaðu kortið fyrir viðkomandi starfsmann.

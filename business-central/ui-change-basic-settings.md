@@ -1,21 +1,21 @@
 ---
 title: Breyta grunnstillingum fyrir núverandi notanda
 description: Kynntu þér hvernig þú getur breytt sumum stillingum í Business Central, til dæmis hlutverkinu þínu og Mitt hlutverk, fyrirtæki, vinnudagsetningu og tímabelti.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 6197adc163d781f2d7588e7109b37649e1611551
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443769"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589183"
 ---
 # <a name="change-basic-settings"></a>Breyta grundvallarstillingum
 
@@ -82,7 +82,7 @@ Ef vinnudagsetning er ekki stillt á núverandi dag (daginn í dag), þá á öl
 
 ## <a name="region"></a><a name="region"></a> Svæði
 
-**Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir.
+**Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir. Hún ákvarðar líka hvaða stafur er notaður sem skiltákn tugabrots þegar talnalyklaborð er notað til að slá inn gögn. Nánari upplýsingar er að finna í [Innsláttur gagna](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Tungumál
 

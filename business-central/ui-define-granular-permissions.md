@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443718"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547024"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfum til notenda og hópa
 
@@ -158,6 +158,9 @@ Heimildasamstæðurnar eru fluttar inn.
 |**Já**|Notandinn getur framkvæmt aðgerðina á hlutnum sem um ræðir.|Hæst|
 |**Óbeint**|Notandinn getur framkvæmt aðgerðina á hlutnum sem um ræðir en aðeins í gegnum aðra tengda hlut sem notandinn hefur fulla aðgang að. Frekari upplýsingar um óbeinar heimildir er að finna í [Eiginleiki heimilda](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) í Developer og IT-Pro hjálpinni|Næst hæsta|
 |**Autt**|Notandinn getur ekki framkvæmt aðgerðina á hlutnum sem um ræðir.|Lægstur|
+
+> [!IMPORTANT]
+> Fara skal varlega þegar **Setja inn heimild** eða **Breyta heimild** er úthlutað töflunni **9001 Meðlimur í notendahópi** eða **9003 Heimildasamstæða notendahóps**. Öllum notendum sem úthlutað er heimildasamstæðunni geta mögulega úthlutað sér í aðra notendahópa sem fyrir vikið getur veitt þeim heimildir sem þeir eiga ekki að hafa.
 
 ### <a name="example---indirect-permission"></a>Dæmi - Óbein heimild
 

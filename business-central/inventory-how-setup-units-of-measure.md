@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 499ed3db4b82a92d147f4fcdffef4df516a80bf1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435548"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588577"
 ---
 # <a name="set-up-units-of-measure"></a>Setja upp mælieiningar
 
@@ -27,6 +27,8 @@ Hægt er að setja upp margar mælieiningar fyrir vöru þannig að hægt sé a�
 - Úthluta öðrum mælieiningum til innkaupa, framleiðslu eða söluskjala til skilgreiningar á hversu margar einingar af grunnmælieiningunum eru afgreiddar á sama tíma í ferlinu. Til dæmis er varan hugsanlega keypt á brettum en er notuð í stykkjatali við framleiðslu.
 
 Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er framleiðslupöntun stofnuð sem notar mælieiningu framleiðslukeyrslu til að reikna út rétt magn íhluta meðan á keyrslunni **Endurnýjun framleiðslupöntunar** stendur. Dæmi um útreikning með mælieiningu framleiðslukeyrslu er þegar framleiddur hlutur er merktur á lager í stykkjum en framleiddur í tonnum. Frekari upplýsingar eru í [Vinna með mælieiningu framleiðslukeyrslu](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
+
+Annað verkfæri sem auðveldar vinnu með margar mælieiningar fyrir vörur er getan til að tilgreina sléttunarnákvæmni fyrir grunnmælieiningar. Með því að tilgreina sléttunarnákvæmni eru upplýsingar gefnar upp um hvað eigi að slá inn fyrir uppgefið viðskiptaferli og dregur úr vandamálum varðandi sléttun. Þegar notaðar eru aðrar mælieiningar hjálpar gildið í reitnum **Magn á mælieiningu** að reikna út magnið í grunnmælieiningunni sem getur leitt til vandamála varðandi sléttun. Ímyndaðu þér til dæmis að þú sért að fá einn kassa sem inniheldur sex hluti. Þegar kassinn kemur í vöruhúsið uppgötvarðu að einn af hlutunum sex er týndur. Þú ákveður að bóka ekki móttöku á einu kassa heldur breytir í staðinn mótteknu magni úr fimm af sex stykkjum. Það myndi leiða til móttöku á 4,99998 stykkjum, frekar en fimm. Á síðunni **Mælieiningar vöru** gerir reiturinn **Sléttunarnákvæmni magns** þér kleift að tilgreina gildi sem mun umbreyta magninu í tölu sem er auðveldara að skilja. Ef við höldum áfram með dæmið myndum við slá inn **1** í reitinn til að slétta upp í nákvæmlega fimm stykki.
 
 ## <a name="to-set-up-units-of-measure"></a>Til að setja upp mælieiningarkóða
 
@@ -57,11 +59,11 @@ Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er 
 
     Á svæðinu **Grunnmælieining** neðst í glugganum, er hægt að skoða eða breyta grunnmælieiningu vörunnar. Einnig er hægt að breyta grunnmælieiningunni í reitnum **Grunnmælieining** á birgðaspjaldinu. Á síðunni **Mælieiningar vöru** verður grunnmælieiningin að hafa gildið **1** í svæðinu **Magn á mælieiningu**.
 
-Nú getur þú notað aðrar mælieiningar fyrir fylgiskjöl innkaupa, framleiðslu og sölu eins og lýst er í kaflanum [Færa inn sjálfgefna mælieiningarkóða fyrir sölu- og innkaupafærslur](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
+Nú er hægt að nota aðrar mælieiningar í innkaupa-, framleiðslu- og söluskjölum. Frekari upplýsingar eru í [Færa inn sjálfgefna mælieiningarkóða fyrir sölu- og innkaupafærslur](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Setja upp mælieiningatexta
 
-Þegar selt er til erlendra viðskiptavina er hægt að tilgreina mælieininguna á viðeigandi tungumáli. Þetta er hægt að gera þegar búið er að setja upp nauðsynlega mælieiningatexta.
+Þegar selt er til erlendra viðskiptavina er hægt að tilgreina mælieininguna á viðeigandi tungumáli. Það getur þú gert með því að tilgreina umreikninga fyrir mælieiningar.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Mælieiningar** og velja síðan viðkomandi tengil.
 2. Velja þarf tungumálakóðann sem setja á upp þýðingar fyrir og svo aðgerðina **Þýðingar**.

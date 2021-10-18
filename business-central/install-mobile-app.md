@@ -1,21 +1,21 @@
 ---
 title: Nota Business Central á fartækinu þínu
 description: Þetta efnisatriði lýsir ýmsum leiðum til að skoða og breyta Business Central-gögnum, senda í Excel og fleira í símanum þínum eða spjaldtölvu.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: phone, tablet
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 7f2d86ab1ba8f3ee0ae77aad16b64feb0fa1fe4f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.search.keywords: desktop, Windows, app
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1097689e7fc06e7d1f2f3dede95c978a3316e975
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324001"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588277"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Nota Business Central á fartækinu þínu
 
@@ -23,11 +23,12 @@ Fá aðgang að gögnum [!INCLUDE[prod_short](includes/prod_short.md)] úr fart�
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
+> [!TIP]
+> Viltu fá forrit á skjáborð Windows eða macOS tölvu? Sjá [Sækja Business Central skjáborðsforrit](install-desktop-app.md).
+
 ## <a name="get-the-app-on-my-mobile-device"></a>Sækja forritið í fartæki
 
-1. Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] forritið í fartækið með því að hlaða því niður úr Windows Store, App Store eða Google Play.  
-
-   - [Windows-verslun](https://go.microsoft.com/fwlink/?LinkId=734848) (aðeins fyrir PC)
+1. Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] forritið í fartækið með því að hlaða því niður úr App Store eða Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Ræsið smáforritið úr fartækinu.
@@ -44,9 +45,8 @@ Nú ætti notandi að hafa aðgang að [!INCLUDE[prod_short](includes/prod_short
 
 Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum getur þú einnig notað farsímaforritið. Uppsetningin er svipuð, en þó með fáeinum undantekningum.
 
-1. Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] forritið í fartækið með því að hlaða því niður úr Windows Store, App Store eða Google Play.  
+1. Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] forritið í fartækið með því að hlaða því niður úr App Store eða Google Play.  
 
-   - [Windows-verslun](https://go.microsoft.com/fwlink/?LinkId=734848) (aðeins fyrir PC)
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Ræsið smáforritið úr fartækinu.

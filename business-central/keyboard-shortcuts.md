@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438928"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588252"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -85,28 +85,28 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |Alt+N|Settu inn nýja línu í breytanlegum lista á borð við síðuna **Fjárhagsáætlanir**.|Sama.|
 |Shift+F10 |Opnaðu valmynd valkosta sem eru í boði fyrir valda röð.|Sama.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts">Flett milli raða og dálka</a>
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Flett milli raða og dálka
 
 Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!INCLUDE[prod_short](includes/prod_short.md)], svo sem listasíður og **Línur** sem hlutar skjala. Flutningur frá einu hólfi til annars yfir hnitanet er að fullu virkt fyrir lyklaborð.
 
-|Ýttu á þessa takka<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Heim<br />(Fn+Ctrl+Vinstri ör)|Veldu fyrstu röðina í listanum; fókusinn helst í sama dálknum.|Fara yfir í fyrsta reit í fyrstu röð. |
-|Ctrl+End<br />(Fn+Ctrl+Hægri ör)|Veldu síðustu röðina í listanum; fókusinn helst í sama dálknum.|Fara í síðasta reitinn í síðustu línunni.|
-|Upphafssíða<br />(Fn+Vinstri ör)|Fara í fyrsta reitinn í línunni.|Fara í fyrsta svæðið í línunni.|
-|End<br />(Alt+Hægri ör)|Færðu í síðasta reitinn í röðinni.|Fara í síðasta reitinn í línunni.|
-|Innfært|Opna skrána sem tengist reitnum.<br /><br />Á aðeins við ef síðuspjald tengist færslunni.|Opnar færsluna.<br /><br />Á aðeins við ef síðuspjald tengist færslunni.|
-|Ctrl+Enter|Fara yfir í næsta hluta fyrir utan listann.|Fara yfir í næsta hluta fyrir utan listann.|
-|Síða upp<br />(Fn+Uppör)|Skruna til að birta samstæðuraðir fyrir ofan núverandi línur í yfirliti. |Skrunar til að birta hóp flísa fyrir ofan núverandi flísar í yfirliti. |
-|Síða niður<br />(Fn+ör niður)|Skruna til að birta samstæðuraðir fyrir neðan núverandi línur í yfirliti.|Skruna til að birta hóp flísa fyrir neðan núverandi flísar í yfirliti.|
-|Niður ör|Fara í sama dálk í reitinn í línunni fyrir neðan. |Fara í sama dálk í svæðinu í línunni fyrir neðan. |
-|ÖR UPP|Fara í sama dálki í reitinn í línunni fyrir ofan.| Fara í sama dálk í svæðinu í línunni fyrir ofan.  |
-|Hægri ör|Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í næsta reit til hægri.<br /><br />Í breytanlegum listi, farðu til hægri innan núverandi reits.| Fara í sömu röð í næsta reit til hægri. |
-|Vinstri ör|Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í fyrri reit til vinstri. <br /><br />Í breytanlegum lista, farðu til vinstri innan núverandi reits.| Fara í sömu röð í fyrra svæði til vinstri. |
-|Dálklykill|Í breytanlegum lista, farðu í sömu röð til næsta reit til hægri.|Á ekki við.||
-|SHIFT+DÁLKLYKILL|Í breytanlegum lista, farðu í sömu röð í fyrri reit til vinstri. | Á ekki við. |
+| Ýttu á þessa takka<br />(í macOS) | Til að gera þetta í listayfirliti | Til að gera þetta í reitayfirliti |
+|--|--|--|
+| Ctrl+Heim<br />(Fn+Ctrl+Vinstri ör) | Veldu fyrstu röðina í listanum; fókusinn helst í sama dálknum. | Fara yfir í fyrsta reit í fyrstu röð. |
+| Ctrl+End<br />(Fn+Ctrl+Hægri ör) | Veldu síðustu röðina í listanum; fókusinn helst í sama dálknum. | Fara í síðasta reitinn í síðustu línunni. |
+| Upphafssíða<br />(Fn+Vinstri ör) | Fara í fyrsta reitinn í línunni. | Fara í fyrsta svæðið í línunni. |
+| End<br />(Alt+Hægri ör) | Færðu í síðasta reitinn í röðinni. | Fara í síðasta reitinn í línunni. |
+| Innfært | Opna skrána sem tengist reitnum.<br /><br />Á aðeins við ef síðuspjald tengist færslunni. | Opnar færsluna.<br /><br />Á aðeins við ef síðuspjald tengist færslunni. |
+| Ctrl+Enter | Fara yfir í næsta hluta fyrir utan listann. | Fara yfir í næsta hluta fyrir utan listann. |
+| Síða upp<br />(Fn+Uppör) | Skruna til að birta samstæðuraðir fyrir ofan núverandi línur í yfirliti. | Skrunar til að birta hóp flísa fyrir ofan núverandi flísar í yfirliti. |
+| Síða niður<br />(Fn+ör niður) | Skruna til að birta samstæðuraðir fyrir neðan núverandi línur í yfirliti. | Skruna til að birta hóp flísa fyrir neðan núverandi flísar í yfirliti. |
+| Niður ör | Fara í sama dálk í reitinn í línunni fyrir neðan. | Fara í sama dálk í svæðinu í línunni fyrir neðan. |
+| ÖR UPP | Fara í sama dálki í reitinn í línunni fyrir ofan. | Fara í sama dálk í svæðinu í línunni fyrir ofan. |
+| Hægri ör | Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í næsta reit til hægri.<br /><br />Í breytanlegum listi, farðu til hægri innan núverandi reits. | Fara í sömu röð í næsta reit til hægri. |
+| Vinstri ör | Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í fyrri reit til vinstri. <br /><br />Í breytanlegum lista, farðu til vinstri innan núverandi reits. | Fara í sömu röð í fyrra svæði til vinstri. |
+| Dálklykill | Í breytanlegum lista, farðu í sömu röð til næsta reit til hægri. | Á ekki við. |  |
+| SHIFT+DÁLKLYKILL | Í breytanlegum lista, farðu í sömu röð í fyrri reit til vinstri. | Á ekki við. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows">Val, afritun og líming</a>
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Val, afritun og líming
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |
 |--------------------------------|--------------------------|--------------------------|

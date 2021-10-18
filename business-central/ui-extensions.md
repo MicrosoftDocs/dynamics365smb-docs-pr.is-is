@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440493"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587785"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online sérstillt með viðbótum
 
@@ -53,32 +53,6 @@ Ef þú fjarlægir viðbót og skiptir um skoðun geturðu sett hana inn aftur. 
 
 Sumar viðbætur eru veittar af Microsoft, og aðrar viðbætur eru veittar af [öðrum fyrirtækjum.](ui-extensions-other.md) Allar viðbætur eru prófaðar áður en þær eru gerðar tiltækar til þin, en við mælum með að þú farir í gegnum tenglana sem eru veittir með hverri viðbót til að læra meira um viðbótina áður en þú setur hana upp.  
 
-Microsoft veitir eftirfarandi viðbætur:  
-
-* [AMC Banking 365 Fundamentals Viðbót](ui-extensions-amc-banking.md)
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-* [Fyrirtækjamiðstöð](ui-extensions-company-hub.md)  
-* [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-* [Essential viðskiptainnsýn](ui-extensions-essential-business-insights.md)
-* [Myndgreinandi](ui-extensions-image-analyzer.md)
-* [Snjallský](ui-extensions-data-replication.md)
-* [Grunnur snjallskýs](ui-extensions-intelligent-cloud.md)  
-* [Greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
-* [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)
-* [QuickBooks Online Gagnaflutningur](ui-extensions-quickbooks-online-data-migration.md)
-* [Quickbooks-viðbótin fyrir innflutning á launaskrá](ui-extensions-quickbooks-payroll.md)
-* [Sölu- og birgðaspár](ui-extensions-sales-forecast.md)
-* [VSK-flokkur](ui-extensions-vat-group.md)
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [DK - C5 gagnaflutningur](ui-extensions-c5-data-migration.md)
-* [DK - Greiðslur og afstemmingar](ui-extensions-payments-reconciliation-formats-dk.md)
-* [DK - Skráarsnið skatts](ui-extensions-tax-file-formats-dk.md)
-* [Viðbótin GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
-
 > [!NOTE]  
 > Hægt er að fylgjast með nýjum viðbótum frá Microsoft og öðrum birgjum á [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
@@ -102,6 +76,12 @@ Microsoft veitir eftirfarandi viðbætur:
 * OCR-þjónusta
 * Tengd vörpun
 * VSK-skráningarnúmer innan ESB. Þjónusta
+
+## <a name="recommended-apps"></a>Ráðlögð forrit
+Samstarfsaðilar og endursöluaðilar Microsoft geta búið til viðbætur sem þeir geta notað til að setja saman lista yfir forrit sem þeir mæla oft með fyrir viðskiptavini sína. Ef þeir gera það og hafa innleitt viðbótina í leigjandanum þínum verða forritin aðgengileg á síðunni **Ráðlögð forrit**. Þar er hægt að lesa sér til um hvert forrit og ákveða hvort eigi að setja þau upp.
+
+> [!NOTE]
+> Ef þú ert samstarfsaðili Microsoft eða endursöluaðili og hefur áhuga á að bjóða upp á lista yfir forrit sem mælt er með skaltu skoða [Mæla með forritum úr AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
 ## <a name="see-also"></a>Sjá einnig
 

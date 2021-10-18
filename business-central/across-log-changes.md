@@ -10,20 +10,21 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 656def609801a85716a4afe57d603fe93eb7569c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770964"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606440"
 ---
 # <a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
 Sameiginleg áskorun margra viðskiptastjórnunarforrita er að forðast óæskilegar breytingar á gögnum. Þetta getur verið allt frá röngu símanúmeri viðskiptamanns til rangrar bókunar í fjárhag. Í þessu efnisatriði er lýst möguleikanum á því að finna út hvað breyttist, hver breytti því og hvenær breytingin var gerð.
 
 ## <a name="about-the-change-log"></a>Um breytingaskrá 
-Með breytingaskránni er hægt að rekja allar beinar breytingar sem notendur gera á gögnum í gagnagrunninum. Tilgreina verður hverja töflu og reit sem kerfið á að skrá og síðan þarf að virkja breytingaskrána.  
+Með breytingaskránni er hægt að rekja allar beinar breytingar sem notendur gera á gögnum í gagnagrunninum. Tilgreina skal hverja töflu og reit sem kerfið á að skrá og síðan virkja breytingaskrána.  
 
-Rakningarbreytingar geta haft áhrif á afköst, sem geta kostað tíma og aukið stærð gagnagrunnsins, sem gæti kostað peninga. Til að draga úr þessum kostnaði skal hafa eftirfarandi í huga:
+Rakningarbreytingar geta haft áhrif á afköst, sem geta kostað tíma og aukið stærð gagnagrunnsins, sem gæti kostað peninga. Hafðu eftirfarandi í huga til að draga úr þeim kostnaði:
+
 - Íhuga skal vel notkun á töflum og aðgerðum.
 - Ekki bæta við færslum og bókuðum skjölum. Í staðinn skal forgangsraða kerfisreitum á borð við „Stofnað af“ og „Dagsetning stofnunar“.
 - Ekki nota rakningargerðina „Allir reitir“. Þess í stað skal velja nokkra reiti og rekja aðeins mikilvægustu reitina.
@@ -32,7 +33,7 @@ Breytingaskráin byggir á breytingum sem gerðar eru á gögnum í töflunum se
 
 > [!Important]
 > Breytingar sjást aðeins í **Breytingaskrárfærslum** þegar lota notanda er endurræst, sem gerist á eftirfarandi hátt:
-<br />
+>
 > * Lotan rann út og var endurnýjuð.
 > * Notandinn valdi annað fyrirtæki eða hlutverkamiðstöð.
 > * Notandinn skráði sig út og aftur inn.
@@ -40,7 +41,7 @@ Breytingaskráin byggir á breytingum sem gerðar eru á gögnum í töflunum se
 ### <a name="working-with-the-change-log"></a>Vinna með breytingaskrá
 Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráningu virka eða óvirka. Þegar notandi kveikir eða slekkur á breytingaskrá er þessi verkþáttur skráður til að geta ævinlega séð hvaða notandi kveikti eða slökkti á breytingaskránni.
 
-Á síðunni **Breytingaskrár Uppsetning** ef aðgerðin **Töflur** er valin, skal tilgreina hvaða töflur á að rekja breytingar fyrir og hvaða breytingar á að rekja. [!INCLUDE[prod_short](includes/prod_short.md)] rekur einnig númer kerfistaflna.
+Á síðunni **Breytingaskrár Uppsetning** ef aðgerðin **Töflur** er valin, skal tilgreina hvaða töflur á að rekja breytingar fyrir og hvaða breytingar á að rekja. [!INCLUDE[prod_short](includes/prod_short.md)] rekur einnig nokkrar kerfistöflur.
 
 > [!NOTE]
 > Hægt er að fylgjast með tilteknum reitum fyrir breytingar, t.d. reitum sem innihalda viðkvæm gögn, með því að setja upp eftirlit með reitum. Ef það er gert, til að forðast offramboð, verður taflan sem inniheldur reitinn ekki í boði fyrir uppsetningu breytingaskráar. Frekari upplýsingar er að finna í [Fylgjast með viðkvæmum reitum](across-log-changes.md#monitoring-sensitive-fields).
@@ -60,7 +61,10 @@ Að halda viðkvæmum gögnum öruggum tryggja persónuvernd er mikilvægt flest
 > Að senda tilkynningu í tölvupósti krefst þess að eiginleiki tölvupósts verði settur upp í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Setja upp tölvupóst](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Uppsetning reitarvöktunar
-Hægt er að nota uppsetningarleiðbeiningar **Uppsetning á breytingavöktun reits** með hjálp til að tilgreina reitina sem á að fylgjast með samkvæmt síuskilyrði á borð við flokkun gagnatrúnaðar fyrir reitina. Nánari upplýsingar er að finna í [Flokkun á gagnatrúnaðar](admin-classifying-data-sensitivity.md). Leiðarvísirinn gerir einnig kleift að tilgreina þann sem fær tölvupóststilkynningu þegar breyting á sér stað, og tölvupóstsreikninginn sem sendir tilkynninguna í tölvupósti. Tilgreina verður bæði notandann sem fær tilkynningu og reikninginn sem tilkynningin verður send frá. Eftir að leiðarvísinum er lokið er hægt að vinna með stillingar fyrir reitavöktun á síðunni **Uppsetning reitavöktunar**. 
+Hægt er að nota uppsetningarleiðbeiningar **Uppsetning á breytingavöktun reits** með hjálp til að tilgreina reitina sem á að fylgjast með samkvæmt síuskilyrði á borð við flokkun gagnatrúnaðar fyrir reitina. Nánari upplýsingar er að finna í [Flokkun á gagnatrúnaðar](admin-classifying-data-sensitivity.md). Leiðarvísirinn gerir einnig kleift að tilgreina þann sem fær tölvupóststilkynningu þegar breyting á sér stað, og tölvupóstsreikninginn sem sendir tilkynninguna í tölvupósti. Tilgreinið bæði notandann sem fær tilkynningu og reikninginn sem tilkynningin verður send frá. Eftir að leiðarvísinum er lokið er hægt að vinna með stillingar fyrir reitavöktun á síðunni **Uppsetning reitavöktunar**. 
+
+> [!NOTE]
+> Þegar þú tilgreinir tölvupóstsreikninginn sem á að senda tilkynningar frá verður þú annaðhvort að bæta við reikningsgerðunum **Microsoft 365** eða **SMTP**. Senda skal tilkynningar frá reikningi sem er ekki tengdur við raunverulegan notanda. Þú getur því ekki valið reikningsgerðina **Núverandi notandi**. Tilkynningar verða ekki sendar ef þú gerir það. 
 
 Með tímanum stækkar listinn yfir færslur á síðunni **Kladdafærslur reitavöktunar**. Til að draga úr fjölda færslna er hægt að stofna varðveislureglu sem eyðir færslum eftir tiltekinn tíma. Frekari upplýsingar er að finna í [Skilgreina varðveislureglur](admin-data-retention-policies.md).
 
@@ -73,7 +77,13 @@ Hægt er að stjórna stillingum fyrir reitavöktun, t.d. hvort senda eigi tilky
 
 ### <a name="working-with-field-monitoring"></a>Vinna með reitarvöktun
 
-Færslur fyrir öll breytt gildi í vöktuðum reitum eru tiltækar á síðunni **Kladdafærslur vaktaðra reita**. Til dæmis, færslur innihalda upplýsingar á borð við reitinn þar sem gildinu var breytt, upphaflega og nýja gildið, og hver gerði breytinguna og hvenær hún var gerð. Til að rannsaka breytingu frekar þarf að velja gildi til að opna síðuna þar sem hún var gerð. Til að skoða lista yfir allar færslur skal velja **Breytingafærslur reita**.
+Færslur fyrir öll breytt gildi í vöktuðum reitum eru tiltækar á síðunni **Kladdafærslur vaktaðra reita**. Færslur innihalda til að mynda eftirfarandi upplýsingar:
+
+* Reiturinn þar sem gildinu var breytt.
+* Upphaflegu og nýju gildin.
+* Hver gerði breytinguna og hvenær viðkomandi gerði hana. 
+
+Til að rannsaka breytingu frekar þarf að velja gildi til að opna síðuna þar sem hún var gerð. Til að skoða lista yfir allar færslur skal velja **Breytingafærslur reita**.
 
 ### <a name="viewing-field-monitoring-telemetry"></a>Skoða fjarmælingu reitarvöktunar 
 

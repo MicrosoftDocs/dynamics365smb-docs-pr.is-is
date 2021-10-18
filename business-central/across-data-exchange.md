@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325814"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588377"
 ---
 # <a name="exchanging-data-electronically"></a>Rafræn gagnaskipti
 Hægt er að nota Data Exchange Framework til að stjórna skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga.
 
-Í staðlaðri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] er Data Exchange Framework notað í eiginleika, svo sem rafræn skjöl, bankaskrá innflutnings/útflutnings og uppfærslu á gengi gjaldmiðla. Nánari upplýsingar er að finna í [Um Data Exchange Framework](across-about-the-data-exchange-framework.md).
+Í staðlaðri útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] er Data Exchange Framework notað í ferlum á borð við sendingu rafrænna skjala, innflutning og útflutning bankaskráa og uppfærslu gengis fyrir gjaldmiðla. Nánari upplýsingar er að finna í [Um Data Exchange Framework](across-about-the-data-exchange-framework.md).
 
-Sem kerfisstjóri eða Microsoft-samstarfsaðili er hægt að nota rammann í nýjum samþættingaraðgerðum með því að setja upp hvaða gögn á að skiptast á og hvernig. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).
+Sem stjórnandi eða samstarfsaðili Microsoft er hægt að nota rammann í nýjum samþættingareiginleikum með því að tilgreina gögnin sem á að skiptast á og hvernig á að gera það. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 

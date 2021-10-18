@@ -1,5 +1,5 @@
 ---
-title: Kynning - Útreikningur á VÍV fyrir verk | Microsoft Docs
+title: Kynning - Útreikningur á VÍV fyrir verk
 description: Verk ná yfir notkun á vinnutíma starfsmanna, vélastundir, birgðahluti og aðrar gerðir notkunar sem þarf að fylgjast með í verkferlum.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445227"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588102"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Kynning: Útreikningur á VÍV fyrir verk
 
@@ -52,7 +52,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
 |Svæði|Description|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Haft autt ef verkhlutinn er hluti af hópi verkhluta.|  
+|**\<blank\>**|Haft autt ef verkhlutinn er hluti af hópi verkhluta.|  
 |**Samtals**|Skilgreinir svið eða hóp verkhluta sem eru innifaldir í VÍV og samþykkisútreikningi. Innan flokksins mun hver verkhluti með **Tegund verkhluta** stillta á **Bókun** tekinn með í VÍV-samtölunni, nema að reiturinn **VÍV-samtala** er stilltur á **Útilokað**.|  
 |**Útilokað**|Á aðeins við verk með **Verkhlutategund verks** sem **Bókun**. Verkið er ekki haft með þegar í verk í vinnslu og samþykktir eru reiknaðar.|  
 

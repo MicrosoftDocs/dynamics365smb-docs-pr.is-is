@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 05/19/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 325783df3cacd37250c1efa75320386ef9c4cb19
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: cd53825ced18cafab27571671a203cda82d3dcc9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341509"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587866"
 ---
 # <a name="teams-faq"></a>Teams - Algengar spurningar
 
@@ -146,7 +146,11 @@ Við hjá Microsoft erum stöðugt að hlusta á viðbrögð frá fjölbreyttu s
 
 Ef þú vilt taka þátt í því að bæta forritið fyrir Teams eða ert með hugmynd sem myndi hjálpa til við að einfalda vinnu þína eða samstarf við aðra í Teams, skaltu bæta við hugmynd eða kjósa um fyrirliggjandi hugmyndir á [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-## <a name="searching-for-contacts"></a>[Leitað að tengiliðum](#tab/contacts)
+### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Hvar finn ég Teams-samþættingu í vefbiðlara Business Central? 
+
+Fyrir virkni í vefbiðlaranum sem tengist við Teams skal skoða [Deila færslu- og síðutenglum í Microsoft Teams](across-working-with-teams.md#share-link).
+
+## <a name="search-for-contacts"></a>[Leita að tengiliðum](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Hvaða töflum leitar forritið í?
 
@@ -240,7 +244,7 @@ Ekki er hægt að leita í öðrum töflum eins og er. [!INCLUDE [prod_short.md]
 
 Ef þú vilt sjá leitarmöguleika þróast til að taka með aðrar töflur hvetjum við samfélag okkar til að bæta við hugmynd eða kjósa fyrirliggjandi hugmyndir á https://aka.ms/BusinessCentralIdeas.
 
-## <a name="working-with-cards"></a>[Unnið með kort](#tab/cards)
+## <a name="work-with-cards"></a>[Vinna með spjöld](#tab/cards)
 
 ### <a name="which-types-of-links-does-the-app-support"></a>Hvaða gerðir tengla styður forritið?
 
@@ -273,7 +277,7 @@ Fj. Reitargildi á spjaldi í Teams, þ.m.t. allar myndir, byggja á tiltækum g
 
 Ef unnið er á milli [!INCLUDE [prod_short.md](includes/prod_short.md)]-fyrirtækja skal tala við stjórnandann um að virkja merki fyrirtækis fyrir hvert fyrirtæki fyrir sig. Þegar þetta er virkt birtist þessi vísbending í öllum upplýsingagluggum innan Teams og sýnir fyrirtækið og umhverfið sem færslan tilheyrir. Til að komast að því hvernig á að setja upp upplýsingatákn fyrirtækis skal skoða [Að birta upplýsingatákn fyrirtækis fyrir flýtiaðgang að upplýsingum um fyrirtæki](ui-change-basic-settings.md#badge).
 
-## <a name="working-with-card-details"></a>[Unnið með kortaupplýsingar](#tab/carddetails)
+## <a name="work-with-card-details"></a>[Vinna með kortaupplýsingar](#tab/carddetails)
 
 ### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Hvar er vistunarhnappurinn í upplýsingaglugganum í Teams?
 
@@ -303,7 +307,7 @@ Já. Allir [!INCLUDE [prod_short.md](includes/prod_short.md)] eiginleikar í upp
 
 Ef þú notar virkni í [!INCLUDE [prod_short.md](includes/prod_short.md)] sem hefur aðgang að núverandi staðsetningu þinni, t.d. með kortum, verður þú að nota Teams í vafranum eða farsímaforrit Teams. Staðsetning er ekki tiltæk þegar hóparnir nota skjáborðsforrit Teams. 
 
-## <a name="collaborating-with-guests"></a>[Samvinna með gestum ](#tab/collaborating)
+## <a name="collaborate-with-guests"></a>[Samvinna með gestum](#tab/collaborating)
 
 ### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Get ég deilt kortum með notendum fyrir utan fyrirtækið mitt?
 
@@ -319,8 +323,37 @@ Frekari upplýsingar um annað sem er líkt og ólíkt milli gsta og teymismeðl
 
 Gestir hafa ekki aðgang að markaðstorgi forritsins til að setja sjálfir upp forrit. Hinsvegar er hægt að setja forritið sjálfkrafa upp fyrir þá samkvæmt reglum fyrirtækisins. Önnur leið fyrir gestanotanda til að setja upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið er þegar þeir fá spjallskilaboð sem innihalda [!INCLUDE [prod_short.md](includes/prod_short.md)]-spjald. Í slíku tilviki velur notandinn hnappinn **Upplýsingar** eða valmyndina á spjaldinu, setur síðan upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið sem á að nota fyrir fyrirtækið þitt. Þegar forritið hefur verið sett upp fær notandi ekki sjálfkrafa neinar heimildir fyrir aðgang að gögnum frá [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
----
+## <a name="share-to-teams"></a>[Deila með Teams](#tab/share)
 
+### <a name="does-share-to-teams-send-a-compact-card"></a>Sendir Deila með Teams samandregið spjald? 
+
+Sem stendur er aðeins deilt djúptengli á síðuna. Viðtakendur sjá tengil í skilaboðinu þínu sem þeir geta valið að fara með í [!INCLUDE [prod_short.md](includes/prod_short.md)] í nýjum vafraglugga. 
+
+### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Fá viðtakendur skilaboðin frá mér eða frá þjónustureikningi Business Central? 
+
+Þegar þú notar Deila með Teams eru skilaboðin send á einstakling, hóp eða rás, svipað og ef þú hefðir sent skilaboðin úr Microsoft Teams. Viðtakendur sjá skilaboðin frá þér í Teams-biðlara að eigin vali og geta brugðist við og svarað eins og þeir gera yfirleitt varðandi skilaboð frá þér. 
+
+### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>Er Deila með Teams í boði í Business Central á staðnum? 
+
+Fj. Svipað og [!INCLUDE [prod_short.md](includes/prod_short.md)] forritið fyrir Teams, þá er þessi eiginleiki aðeins í boði fyrir vefbiðlara í [!INCLUDE [prod_short.md](includes/prod_short.md)] á netinu. Ekki eru til neinar áskriftarleiðir til að styðja [!INCLUDE [prod_short.md](includes/prod_short.md)]-uppsetningargerðir&mdash;eins og innanhúss, blandað ský eða einkaský&mdash;sem Microsoft hvorki hýsir né stýrir með beinum hætti.
+
+### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>Býður Deila með Teams upp á heimildir fyrir viðtakendur? 
+
+Fj. Þegar þú deilir með einstaklingi, hóp eða rás haldast heimildir óbreyttar. Notendur sem þegar hafa heimild til að skoða síðuna og gögnin sem tengillinn vísar á geta gert það. Notendur sem hafa ekki heimild til að skoða þessa síðu og gögn eða hafa ekki [!INCLUDE [prod_short.md](includes/prod_short.md)] leyfi fá upp villuboð. 
+ 
+### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>Þarf ég að vera með Teams-skjáborðsforritið uppsett til að nota Deila með Teams? 
+
+Fj. Það eina sem þú þarft er gildan reikning sem hefur aðgang að Microsoft Teams. 
+
+### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Er Deila með Teams í boði í öllum biðlurum Business Central? 
+
+Sem stendur er Deila með Teams eingöngu í boði í vefbiðlara fyrir tölvu og í upplýsingaglugga í Teams.  
+
+### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Hvar finn ég Deila með Teams í Business Central? 
+
+Aðgerðina **Deila með Teams** er að finna í valmyndinni **Deila** á öllum síðum eins og spjaldi og skjalasíðu, listasíðu eða vinnublaði, þ.m.t. sérstilltum síðum. Aðgerðin er ekki í boði í svargluggum eða síðum sem birtast í svargluggum, t.d. uppflettingarsíður eða leiðsagnarforrit.
+
+---
 ## <a name="see-also"></a>Sjá einnig
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  

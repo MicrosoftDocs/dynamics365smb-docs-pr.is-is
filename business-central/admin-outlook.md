@@ -1,74 +1,123 @@
 ---
-title: Notkun Business Central með Outlook| Microsoft Docs
-description: Þessi þjónusta er rækilega samþætt Microsoft 365, sem gerir þér kleift að stjórna öllum fyrirtækja- og tölvupóstsamskiptum við viðskiptamenn og lánardrottna í Outlook.
-author: edupont04
+title: Sækja innbót Business Central fyrir Outlook
+description: Kynntu þér hvernig á að setja upp innbót Business Central fyrir Outlook fyrir fyrirtækið þitt eða til eigin nota.
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 2c8746098081a8f0b961f6ab2efd11c491104acc
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.date: 08/13/2021
+ms.author: jswymer
+ms.openlocfilehash: bbc68f5ed274328a9ea1fe7229a79bfba5a8bdf5
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115363"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587941"
 ---
-# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Notkun Business Central sem fyrirtækjainnhólf í Outlook
+# <a name="get-the-business-central-add-in-for-outlook"></a>Sækja innbót Business Central fyrir Outlook
 
-[!INCLUDE[prod_short](includes/prod_short.md)] kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[prod_short](includes/prod_short.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
+Með [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að stjórna samskiptum fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum. Einnig er hægt að búa til og senda fjárhagsleg skjöl, t.d. verðtilboð og reikninga.  
 
-## <a name="getting-the-add-in"></a>Að fá viðbótina
-Það er auðvelt að hefjast handa með [!INCLUDE[prod_short](includes/prod_short.md)]-innbótinni fyrir Outlook. Í uppsetningarleiðbeiningum með hjálp fyrir **Setja upp fyrirtækjainnhólf í Outlook** er hægt að setja upp tenginguna fyrir sjálfan þig eða fyrirtækið þitt ef fyrirtækið notar Microsoft 365. Sláðu einfaldlega inn notandanafn og lykilorð fyrir Microsoft 365 ef þú ert beðið er um það og láttu okkur vita ef þú vilt fá sent sýnishorn af tölvupóstskeyti. Innbót [!INCLUDE[prod_short](includes/prod_short.md)] er þá sjálfkrafa bætt við Outlook. Frekari upplýsingar er að finna í [Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook).  
+Til eru tvær leiðir til að sækja innbót Business Central fyrir uppsett Outlook en það fer eftir hlutverki þínu í fyrirtækinu:
 
-Þegar þú opnar Outlook muntu sjá tölvupóst frá *Dynamics 365 Business Central-stjórnanda*. Nýju innbótunum er bætt við Outlook-borðann og í vafranum er hægt að sjá [!INCLUDE[prod_short](includes/prod_short.md)]-innbæturnar beint fyrir ofan eða neðan meginmál tölvupóstskeytisins. Innbæturnar eru uppfærðar reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
+- Sem stjórnandi Microsoft 365 skal nota *Miðlæga innleiðingu* til að setja upp innbótina sjálfkrafa fyrir allt fyrirtækið, hópa eða tiltekna notendur.
 
-> [!TIP]
-> Ef þú notar nýja Outlook á vefnum, geta [!INCLUDE[prod_short](includes/prod_short.md)]-innbæturnar verið faldar undir **Fleiri aðgerðir**. Ef þú notar innbótina oft er hægt að festa hana þannig að hún sjáist alltaf strax. Frekari upplýsingar eru í [Notkun innbóta í Outlook á vefnum](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16)  
+- Sem hvaða notandi sem er skaltu setja innbótina upp til eigin nota ef stjórnandi þinn hefur þegar innleitt hana fyrir þig.
 
-Ef þú vinnur með fleiri en eitt [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtæki geturðu auðveldlega skipt á milli fyrirtækja í Outlook. Í aðgerðastiku viðbótarinnar  skaltu velja **Fleiri aðgerðir** og þá geturðu séð valkostinn til að skipta á milli fyrirtækja.  
+## <a name="about-the-business-central-add-in-for-outlook"></a>Um innbót Business Central fyrir Outlook
 
-<!--TEMP-->
+Innbót Business Central fyrir Outlook samanstendur af tveimur minni innbótum:
+
+- Talnagögn tengiliða
+
+    Þessi innbót býður notendum upp á [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamanna- eða lánardrottnaupplýsingum í tölvupóstum og dagatalsfundum Outlook. Það gerir þér einnig kleift að búa til og senda [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptaskjöl á borð við sölutilboð og reikninga til tengiliðar. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
+
+- Skjalayfirlit
+
+    Þegar tölvupóstur vísar á númer viðskiptaskjals í meginmáli tölvupósts býður þessi innbót upp á beinan tengil í línu úr meginmáli tölvupóstsins í raunverulegt viðskiptaskjal í [!INCLUDE[prod_short](includes/prod_short.md)].
+
+Frekar upplýsingar um hvað gert er við innbótina er að finna í [Notkun Business Central sem fyrirtækjainnhólf í Outlook](work-outlook-addin.md).
+
+Boðið er upp á hverja innbót sem XML-skrá sem kallast *manifest* sem hver sá sem vill þess virkni þarf að setja upp í Outlook. Þessar skrár lýsa því hvernig á að virkja innbæturnar og tengjast Business Central þegar þær eru notaðar í Outlook. Yfirleitt vinnur stjórnandi með þessar skrár. Sem almennur notandi þarft þú í flestum tilfellum ekki að vinna með þessar skrár með beinum hætti. Annaðhvort mun stjórnandinn setja upp innbótina þannig að uppsetningin gerist sjálfkrafa fyrir þig eða þú munt nota innbyggða uppsetningu með hjálp til að fara í gegnum uppsetninguna.
+
+## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Setja upp innbótina með miðlægri innleiðingu sem stjórnandi
+
+Miðlæg innleiðing er eiginleiki í Microsoft 365 stjórnendamiðstöð sem þú notar til setja sjálfkrafa upp innbætur í Office-forritum notanda eins og Outlook. Þetta er ráðlagða leiðin fyrir stjórnendur til að setja upp Office-innbætur fyrir notendur og hópa innan fyrirtækisins.
+
 > [!NOTE]
-> Ef skipt er á milli fyrirtækja þarf [!INCLUDE[prod_short](includes/prod_short.md)] 2019 útgáfutímabil 2 eða nýrri að vera í [útgáfuáætluninni](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Fyrir Business Central á staðnum skal skoða [Að setja upp innbót fyrir Outlook-samþættingu við Business Central á staðnum](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) í efni fyrir stjórnendur (eingöngu á ensku).
 
-Sum fyrirtæki sem nota Microsoft 365 takmarka heimildir notenda til að taka í notkun innbætur. Því þarf að ganga úr skugga um að þú hafir Microsoft 365 áskrift sem felur í sér tölvupóst og gerir það mögulegt að nota innbætur. Ef þú samt prófa innbæturnar geturðu [prófað Microsoft 365 endurgjaldslaust](https://www.microsoft.com/microsoft-365/try).  
+### <a name="prerequisites"></a>Frumskilyrði
 
-## <a name="using-the-contact-insights-add-in"></a>Notaðu viðbótina Talnagögn tengiliða
-Segjum að þú fáir tölvupóst frá viðskiptavini sem vill fá tilboð í sumum hlutum. Beint í Outlook, getur þú opnað [!INCLUDE[prod_short](includes/prod_short.md)] viðbótina, sem viðurkennir sendanda sem viðskiptavin, og opnar viðskiptavinakortið fyrir fyrirtæki hans. Í þessu yfirliti má sjá yfirlit yfir upplýsingar um viðskiptamann, auk þess sem hægt er að kafa niður fyrir nánari upplýsingar um tiltekin skjöl. Einnig má fá frekari upplýsingar um söluferil viðskiptamannsins. Ef það er nýr tengiliður getur þú búið hann til sem nýjan viðskiptamann í [!INCLUDE[prod_short](includes/prod_short.md)] án þess að yfirgefa Outlook.  
+- Microsoft 365-áskrift  
+- Notendur fá úthlutað Microsoft 365-leyfi  
+- Reikningurinn þinn hjá Microsoft 365 er með hlutverkið *Altækur stjórnandi* eða *Exchange-stjórnandi*
 
-Í innbótinni er hægt að stofna sölutilboð og senda það aftur til þessa viðskiptamanns án þess að fara úr Outlook. Allar upplýsingar sem þarf að senda sölutilboðið eru tiltækar í viðskiptainnhólfinu í Outlook.  
-Þegar búið er að færa inn gögnin er hægt að bóka tilboðið. Síðan er hægt að senda það með tölvupósti. [!INCLUDE[prod_short](includes/prod_short.md)] býr til PDF-skrá með sölutilboðinu og tengir það við tölvupóstskilaboðin sem notandi býr til í innbótinni.  
+### <a name="deploy-the-add-in"></a>Setja upp innbótina
 
-Á sama hátt, ef þú færð tölvupóst frá seljanda geturðu notað viðbótina til að vinna með söluaðilum og kaupa reikninga.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") í Business Central. táknið, fara í **Uppsetning með hjálp** og velja síðan viðkomandi tengil.
+2. Veldu **Miðlæg innleiðing Outlook-innbótar** til að hefja uppsetningu með hjálp.
+3. Farðu yfir fyrstu síðuna og veldu **Næsta** til að opna síðuna til að sækja innbæturnar.
+4. Í dálknum **Uppsetning** skal velja gátreitinn fyrir innbæturnar sem á að setja upp, síðan velja **Sækja og halda áfram**.
 
-Stundum viltu sjá fleiri reiti en þú sérð í viðbótinni, svo sem þegar þú vilt fylla út línur í reikningi. Til að fá aðeins meira vinnurými er hægt að setja innbótina í aðskilda síðu. Hún er enn hluti af Outlook en vinnuýmið er meira. Þegar gögn eru færð inn í skjalið í aðskilda glugganum eru breytingarnar vistaðar sjálfkrafa. Þegar þú ert búinn að slá inn gögn fyrir skjalið geturðu valið **Í lagi** hnappinn. Með því að velja innbótina í Outlook endurnýjast skjalið sjálfkrafa með breytingunum sem veru gerðar í aðskilda glugganum.  
+    Skrá sem heitir *OutlookAddins.zip* er hlaðið niður á tækið þitt.
 
-## <a name="creating-invoices-from-your-meeting-appointments"></a>Búðu til reikninga frá fundum þínum
-Sum fyrirtæki skrá alla reikninga sem hægt er að greiða í Outlook dagbókinni. Með [!INCLUDE[prod_short](includes/prod_short.md)] getur þú búið til reikninginn fyrir viðskiptavininn rétt frá dagatalinu: Opnaðu skipunina og þá getur þú opnað [!INCLUDE[prod_short](includes/prod_short.md)] viðbótina, skoðað uppliggjandi upplýsingar eða búið til reikning eða annað söluskrá þarna.  
+5. Á þessum tímapunkti er vinnunni sem þarf að gera í Business Central lokið þannig að þú getur valið **Lokið**.
 
-## <a name="doing-quick-document-lookup"></a>Fljótleg uppfletting skjala
-[!INCLUDE[prod_short](includes/prod_short.md)] Skjalatenglar viðbótin gefur þér skjótan aðgang að skjölum sem nefnd eru í tölvupósti. Innbótin er tiltæk fyrir tölvupóstskilaboð ef fylgiskjalsnúmer er þekkt í meginmáli skeytisins. Opnun innbótarinnar veitir skjótan aðgang að skjalinu.  
+   >[!TIP]
+   > Áður en þú velur **Næsta** skaltu velja tengilinn **Opna Microsoft 365 (opnast í nýjum glugga)** til að opna og skrá þig inn í stjórnendamiðstöð Microsoft í nýjum vafraglugga. Þú verður hvort sem er að fara í stjórnendamiðstöð Microsoft 365 síðar.
 
-Til dæmis, ef þú færð tölvupóstskeyti sem nefnir textann *S-QUO100*, skilgreinir [!INCLUDE[prod_short](includes/prod_short.md)] sem sölutilboð og svo þú getur opnað þetta skjal í Outlook. Í Outlook skal velja hnappinn **Tenglar á skjöl** beint fyrir ofan meginmál tölvupóstskilaboðanna. Í Outlook Web App skal velja *S-QUO1001* textann í meginmáli tölvupóstskilaboðanna.  
+6. Farðu í möppuna þar sem OutlookAddins.zip var sótt og dragðu út skrárnar **Contact Insights.xml** og **Document View.xml** úr zip-skránni yfir í möppu að eigin vali.
 
-Í viðbótinni Document Links er hægt að breyta og grípa til aðgerða með skjalinu, rétt eins og þú getur í [!INCLUDE[prod_short](includes/prod_short.md)].
+    Frekari upplýsingar er að finna í [Þjappa og afþjappa skrár](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+7. Skráðu þig inn í stjórnendamiðstöð Microsoft 365 og farðu svo í [Samþætt forrit](https://go.microsoft.com/fwlink/?linkid=2163967).
 
-## <a name="adding-the-add-ins-manually"></a>Bæta við viðbótunum handvirkt
-Í sumum tilfellum fá viðbætur ekki sjálfkrafa bætt við Outlook. Jafnvel þótt þú eða samstarfsmaður hljóp aðstoðaruppsetningarhandbókina fyrir hönd fyrirtækisins, gæti [!INCLUDE[prod_short](includes/prod_short.md)] ekki birst í Outlook. Ef þú finnur fyrir þessu vandamáli geturðu bætt við [!INCLUDE[prod_short](includes/prod_short.md)] viðbótunum handvirkt.  
+8. Veldu **Hlaða upp sérsniðnum forritum**.
+9. Á síðunni **Hlaða upp forritum til að setja upp** skal velja **Hlaða upp skrá (.xml) úr tækinu** > **Velja skrá**.
+10. Veldu eina af viðbótarskránum sem þú dróst út áður, til dæmis **Content Insights.xml**.
+11. Fylgdu leiðbeiningunum til að úthluta notendum og setja upp innbótina.
+12. Endurtaktu skref 9 til 11 fyrir hina innbótarskrána ef þú vilt.
 
-Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Microsoft 365 reikningnum þínum. Opnaðu einfaldlega Outlook í vafra, opnaðu skilaboð, veldu **Fleiri aðgerðir** (...) efst í skilaboðunum og síðan, neðst í listanum, skaltu velja **Sækja innbætur**. Þetta opnar síðuna **Innbætur fyrir Outlook** þar sem hægt er að virkja [!INCLUDE[prod_short](includes/prod_short.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[prod_short](includes/prod_short.md)] að vera tiltæk.  
+> [!IMPORTANT]
+> Grænt gátmerki birtist þegar innbótin er uppsett í stjórnendamiðstöðinni. Það getur þó liðið allt að sólarhringur áður en notendur sjá innbótina í Outlook-forritinu. Notendur gætu einnig þurft að endurræsa Outlook.
 
-Á svipaðan hátt í Outlook skjáborðsþjóninum getur þú staðfest að [!INCLUDE[prod_short](includes/prod_short.md)] er skráð á síðunni **Sækja innbætur**.  
+Þegar því er lokið er alltaf hægt að breyta uppsetningunni í stjórnendamiðstöð Microsoft 365 á borð við að úthluta fleiri notendum. Frekari upplýsingar um uppsetningu innbóta í stjórnendamiðstöðinni er að finna í [Setja upp innbætur í stjórnendamiðstöðinni](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
-Í báðum tilvikum, ef [!INCLUDE[prod_short](includes/prod_short.md)] er ennþá ekki tiltækt, verður þú að fá innskráningarskrárnar. Nánari upplýsingar fást hjá Microsoft 365 stjórnandanum þínum.
+## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Setja upp innbótina til eigin nota
 
-## <a name="using-other-email-accounts"></a>Notkun annarra tölvupóstreikninga
+Ef fyrirtækið þitt leyfir það getur þú sett upp innbót Business Central fyrir eingöngu þig. Ef þú ert ekki viss skaltu hafa samband við stjórnanda.
 
-Viðbæturnar eru ætlaðar til notkunar með Microsoft 365 . Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum veit stjórnandinn þinn hvort þú getir notað [!INCLUDE[prod_short](includes/prod_short.md)]-innbæturnar í Outlook. Frekari upplýsingar er að finna í greinunum [Hvaða netfang get ég notað með [!INCLUDE[prod_short](includes/prod_short.md)]?](/dynamics365/business-central/across-faq#email) og [Eiginleikar sem krefjast sérstakra aðstæðna](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) og hlutanum [Hvers vegna virkar ekki Outlook-innbótin fyrir notendur mína?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) í algengum spurningum í stjórnunarefninu.  
+1. Í Business Central skal fara í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") færa inn **Sækja Outlook-innbót**, síðan velja viðkomandi tengil.
+2. Lestu síðuna og veldu síðan **Næsta**.
+3. Ef þú vilt fá kynningartölvupóst frá Business Central með yfirliti um notkun innbótarinnar skaltu kveikja á **Senda dæmi um tölvupóst**.
+4. Veldu **Ljúka** til að ljúka uppsetningunni.
+
+Business Central mun tengjast tölvupóstþjóninum þínum og setja upp innbótina í Outlook. Þetta tekur ekki langan tíma. Nú geturðu byrjað að nota innbótina í Outlook.
+
+### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Fyrir Business Central á staðnum
+
+Ef þú notar Business Central á staðnum getur verið að uppsetning innbótarinnar sé aðeins öðruvísi.
+
+1. Í Business Central skal fara í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") færa inn **Sækja Outlook-innbót**, síðan velja viðkomandi tengil.
+2. Lestu síðuna og veldu síðan **Næsta**.
+3. Gerðu eitt af eftirfarandi eftir því hvaða síða kemur upp:
+
+    - Ef þú sérð hnappinn **Setja upp í Outlook** skal velja hann og þá er þessu lokið.
+    - Ef þú sérð hnappinn **Næsta** skaltu velja hann. Á næstu síðu, ef þú vilt fá kynningartölvupóst frá Business Central með yfirliti um notkun innbótarinnar, skaltu kveikja á **Senda dæmi um tölvupóst**. Veldu svo **Ljúka** og þá er þetta komið.
+    - Ef þú sérð hnappinn **Sækja innbót** skaltu velja hann og fara svo í næsta skref.
+4. Þegar þú velur **Sækja innbót** er skrá með heitinu *OutlookAddins.zip* sótt á tækið þitt. Þú ættir að sjá skrána efst í vafranum.
+
+   Farðu í möppuna þar sem OutlookAddins.zip var sótt og dragðu út skrárnar **Contact Insights.xml** og **Document View.xml** úr zip-skránni yfir í möppu að eigin vali. Frekari upplýsingar um hvernig á að draga út skrár er að finna í [Þjappa og afþjappa skrár](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+
+5. Opnaðu Outlook og veldu **Sækja innbætur** úr borðanum. Eða ef þú ert að nota Outlook á vefnum skaltu velja fellivalmyndina í einhverjum nýjum eða fyrirliggjandi tölvupósti, síðan velja **Sækja innbætur**.
+6. Veldu **Mínar innbætur** > **Bæta við sérsniðinni innbót** > **Bæta við úr skrá**.
+7. Veldu eina af xml-skránum sem þú dróst út, eins og **Contact Insights.xml**, veldu svo **Opna** > **Setja upp**.
+8. Endurtaktu skref 6 og 7 fyrir hina xml-skrána ef þú sóttir hana.
+
+Nú geturðu byrjað að nota innbótina í Outlook.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

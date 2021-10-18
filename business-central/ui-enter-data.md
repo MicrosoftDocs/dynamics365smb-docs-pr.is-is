@@ -1,21 +1,21 @@
 ---
 title: Hvernig á að færa inn gögn í Business Central
 description: Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri hætti og af meiri nákvæmni. Grunnreglum og ítarlegum eiginleikum er lýst hér.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443669"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588958"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 
@@ -35,7 +35,6 @@ Sumir breytanlegir reitir bjóða upp á val til að auðvelda þér að tilgrei
 |Fellilisti          |Fellilistar gefa þér kost á föstum gildum eða tilvísunarfærslum úr annarri töflu|
 |Rofi eða gátreitur|Sumir reitir bjóða upp á einfalt val, *Já* eða *Nei*. Rofinn er notaður til að tilgreina þetta gildi og birtist alltaf sem gátreitur í listum|
 |Breytingahjálp       |Sumir reitir bjóða upp á sérsniðna glugga sem henta til að fletta upp og velja besta gildið fyrir viðkomandi reit, eins og sprettigluggi|
-
 
 ### <a name="modifying-a-field-value"></a>Reitargildi breytt
 
@@ -58,7 +57,6 @@ Til að breyta gildi reits verður fyrst að velja þann reit. Þú stillir fók
 
 > [!NOTE]
 > Eftir að þú hefur tilgreint gildi mun Business Central aðeins athuga að það sé gilt eftir að þú smellir utan reitsins eða stillir áhersluna á aðra einingu, eins og á næsta reit.  
-
 
 ## <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -267,9 +265,16 @@ Hér eru nokkur dæmi.
 
  Tölunni 5 er breytt í 5 klst. ef mælieiningin er klukkustundir.  
 
-## <a name="see-also"></a>Sjá einnig  
- [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum
+
+Þegar notaður er skiltáknslykill tugabrots á lyklaborði til að slá inn gögn, er raunverulegt skiltákn tugabrots sem slegið er inn í reitinn ákvarðað af svæðisstillingu Business Central. Þú stillir svæðið í Business Central á síðunni **Mínar stillingar**.
+
+Segjum til að mynda að notað sé talnaborð sem notar punkt (.) sem skiltáknslykil tugabrotsins. En gögn eru slegin inn fyrir svæðistungumál sem notar kommu (**,**) fyrir skiltákn tugabrotsins, eins og í dönsku (Danmörku) eða frönsku (Frakklandi). Þú vilt því að skiltákn eins og „1.23“ sé slegið inn sem „1,23“. Í þessu tilfelli er hægt að fara á síðuna **Mínar stillingar** og stilla **Svæðið** á það svæðistungumál sem á að nota, eins og **Danska (Danmörk)** eða **Franska (Frakkland)**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Sjá einnig
+
+[Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

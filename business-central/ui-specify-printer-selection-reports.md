@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437217"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547049"
 ---
 # <a name="set-up-printers"></a>Setja upp prentara
 
@@ -132,9 +132,6 @@ Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með 
     Skýjaprentun breytir efni fyrir prentun yfir á XPS-snið. Sumir eldri prentarar á markaðnum styðja ekki breytingu yfir í XPS-efni&mdash;í mörgum tilfellum, aðeins PDF-snið. Prentun á þessum prenturum mistekst nema skýjaprentun sé sett upp til að umbreyta skjölum í snið sem prentari styður.
 
     Frekari upplýsingar er að finna í [Yfirlit skjalaumbreytinga](/universal-print/portal/document-conversion).
-
-    > [!TIP]
-    > Ef engir prentaranna þurfa á sniðsbreytingu PDF-efnis að halda er mælt með því að virkja ekki skjalaumbreytingu vegna þess að það getur haft áhrif á gæði prentunar.
 
 Nú er hægt að bæta prenturunum við [!INCLUDE[prod_short](includes/prod_short.md)], setja upp sjálfgefna prentara fyrir skýrslur og prenta.  
 

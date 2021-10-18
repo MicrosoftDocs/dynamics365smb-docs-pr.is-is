@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fda901d7737d7818b7ebc965d9babf1f0868f1de
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322173"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587481"
 ---
 # <a name="business-process-walkthroughs"></a>Kynningar á viðskiptaferli
 
@@ -24,7 +24,7 @@ ms.locfileid: "6322173"
  Kynningarnar eru fullgerð dæmi og ætti að framkvæma þær frá upphafi til enda til að fá sem mest út úr þeim. Mörg þeirra byggja á [!INCLUDE[prod_short](includes/prod_short.md)] sýningum og gera notandanum kleift að reyna þessi ferli á eigin spýtur, á eigin hraða.  
 
 > [!NOTE]
-> Við sumar kynningarnar þarf sýnigögn sem eru ekki fyrir hendi í hefðbundna sýnifyrirtækinu í [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
+> Við sumar kynningarnar þarf sýnigögn sem eru ekki fyrir hendi í hefðbundna sýnifyrirtækinu í [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
 
 |Til að|Sjá|  
 |--------|---------|  

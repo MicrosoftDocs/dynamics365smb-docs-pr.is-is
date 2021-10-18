@@ -10,19 +10,20 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776273"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588352"
 ---
 # <a name="business-functionality"></a>Viðskiptavirkni
+
 [!INCLUDE[prod_short](includes/prod_short.md)] veitir virkni fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega með heildsölu og sérþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] felur í sér staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[prod_short](includes/prod_short.md)]. Nokkur svið viðskiptavirkni verður að setja upp handvirkt. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] felur í sér staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[prod_short](includes/prod_short.md)]. Nokkur svið viðskiptavirkni verður að setja upp handvirkt. [Stuttir leiðarvísar Business Central](quick-start-business-central.md) geta auðveldað þér fyrstu skrefin í að gera þitt eigið [!INCLUDE [prod_short](includes/prod_short.md)]. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
-| Til | Sjá |
+| Til að | Sjá |
 | --- | --- |
 |Greiða og innheimta, stjórna sjóðstreymi þínum, fresta innkomu og tekjum, undirbúa lokun í árslok og stjórna eignum.|[Fjármál](finance.md)|
 |Fáðu innsýn í afköst fyrirtækjavirkninnar í gegnum fjárhagsáætlanir, fjárhagsskema, og greiningaryfirlit.|[Viðskiptaupplýsingar](bi.md)|

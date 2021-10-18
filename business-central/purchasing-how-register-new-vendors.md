@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 06/23/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445377"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587685"
 ---
 # <a name="register-new-vendors"></a>Skráning nýrra lánardrottna
 
@@ -32,32 +32,31 @@ Lánardrottnaspjöld geyma upplýsingarnar sem þarf til að kaupa vörur frá l
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Nýjum lánardrottnum bætt við
+Hægt er að bæta við nýjum lánardrottnum handvirkt með því að fylla út reitina á síðunni **Lánardrottnaspjald** eða hægt er að nota sniðmát sem innihalda fyrirframskilgreindar upplýsingar. Til dæmis er hægt að stofna sniðmát fyrir mismunandi forstillingargerðir lánardrottna. Með því að nota sniðmát sparast tími þegar nýjum lánardrottnum er bætt við og það hjálpar til við að tryggja að upplýsingarnar séu réttar hverju sinni. Ef þú stofnar sniðmát fyrir fleiri en eina gerð af lánardrottni geturðu valið sniðmátið sem á að nota þegar þú bætir við lánardrottni. Ef þú býrð aðeins til eitt sniðmát verður það notað fyrir alla nýja lánardrottna. Þegar sniðmát er stofnað geturðu notað aðgerðina **Nota sniðmát** til að nota það í einum eða fleiri lánardrottnum. Til að búa til sniðmát fyllir þú inn upplýsingarnar sem þú vilt endurnota á síðu lánardrottnaspjaldsins og vistar það síðan sem sniðmát. Frekari upplýsingar er að finna í [Að vista lánardrottnaspjaldið sem sniðmát](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
-Til að skrá nýjan lánardrottinn þarf að fylla út lánardrottnaspjald. Hægt er að búa til sniðmát fyrir mismunandi forstillingar lánardrottna eða hægt er að bæta við lánardrottnum án sniðmáta. Einnig er hægt að stofna lánardrottinn úr sniðmáti. Frekari upplýsingar eru í [Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Það getur reynst gagnlegt að sérsníða síðuna **Sniðmát lánardrottins** þegar þú stofnar sniðmát. Þú gætir til dæmis viljað bæta reit sem er ekki sýndur við síðuna. Frekari upplýsingar eru í [Sérstilling verksvæðis](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Ef lánardrottnasniðmát er til fyrir mismunandi tegundir lánardrottna, þá birtist síða þegar búið er til nýtt lánardrottnaspjald þar sem hægt er að velja viðeigandi sniðmát. Ef aðeins eitt lánardrottnasniðmát er fyrir hendi, nota ný lánardrottnaspjöld alltaf það sniðmát.  
+Einnig er hægt að stofna lánardrottinn úr sniðmáti. Frekari upplýsingar eru í [Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact). 
 
-### <a name="to-create-a-new-vendor-card"></a>Að búa til nýtt lánardrottnaspjald.
+### <a name="to-create-a-new-vendor"></a>Að búa til nýjan lánardrottinn
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.  
-2. Á síðunni **Lánardrottnar** skal velja **Nýtt**.
+[!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
-    Ef fleiri en eitt lánardrottnasniðmát er fyrir hendi, þá birtist sjálfkrafa síða með tiltækum lánardrottnasniðmátum. Í því tilviki, fylgið næstu tveimur skrefum.
-    1. Á síðunni **Velja sniðmát fyrir nýjan lánardrottin** er valið sniðmátið sem á að nota fyrir nýja lánardrottnaspjaldið.
-    2. Velja hnappinn **Í lagi**. Nýtt lánardrottnaspjald opnast þar sem búið er að fylla upplýsingar úr sniðmátinu inn í hluta reitanna.
-3. Því næst eru reitir á lánardrottnaspjaldinu færðir inn eða þeim breytt eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!TIP]  
-    > Ef ekki er vitað reikningsaðsetur sem verður notað fyrir hvern reikning frá lánardrottni skal ekki færa í reitinn **Númer lánardrottins**. Þess í stað skal velja borga-lánardrottni númer eftir að hafa sett upp innkaupabeiðni, pöntun eða reikningshaus.
+> [!TIP]  
+> Ef ekki er vitað reikningsaðsetur sem verður notað fyrir hvern reikning frá lánardrottni skal ekki færa í reitinn **Númer lánardrottins**. Þess í stað skal velja borga-lánardrottni númer eftir að hafa sett upp innkaupabeiðni, pöntun eða reikningshaus.
 
 Nú hefur lánardrottinn verið skráður og lánardrottnaspjaldið má nú nota í innkaupaskjölum.
 
 Ef nota á þetta lánardrottnaspjald sem sniðmát þegar ný lánardrottnaspjöld eru búin til, vistið það sem lánardrottnasniðmát. Frekari upplýsingar eru í hlutanum [Að vista lánardrottnaspjaldið sem sniðmát](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-vendor-cards"></a>Eyðir lánardrottnaspjöldum
+### <a name="deleting-and-editing-vendor-information"></a>Að eyða og breyta lánardrottnaupplýsingum
 
-Ef þú hefur bókað færslu fyrir lánardrottinn er ekki hægt að eyða spjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar í endurskoðun. Til að eyða lánardrottnaspjöldum með fjárhagsfærslum skal hafa samband við samstarfsaðila Microsoft til að gera það með kóða.
+Hægt er að breyta upplýsingunum á lánardrottnaspjöldum hvenær sem er. Ef þú hefur aftur á móti bókað færslu fyrir lánardrottinn er ekki hægt að eyða spjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar í endurskoðun. Til að eyða lánardrottnaspjöldum með fjárhagsfærslum skal hafa samband við samstarfsaðila Microsoft til að gera það með kóða.
+
+> [!TIP]
+> Þú getur breytt IBAN-númerinu á bankareikningi lánardrottins án þess að breytingin hafi áhrif á sögulegar skráningarfærslur kreditfærslu. Skráning kreditfærslu geymir reiti fyrir IBAN-númer viðtakanda, bankareikningsnúmer viðtakanda sem var gefið upp í bankareikningi lánardrottins og nafn viðtakanda af lánardrottnaspjaldinu þegar færslurnar voru stofnaðar.
+
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Að vista lánardrottnaspjaldið sem sniðmát
 

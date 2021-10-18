@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 04/12/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 376d1bebd79c225a54ca8544b757a719a55bfebd
+ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341304"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7596673"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -149,6 +149,13 @@ Sem kerfisstjóri, eru með Azure Active Directory stjórnandaheimildir, og getu
 > [!NOTE]
 > Það mun líða töluverður tími áður en þessi breyting tekur gildi.
 
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Afrita texta í glugganum Deila með Teams
+
+Þegar þú límir texta í skilaboðagluggann í glugganum **Deila með Teams** er textinn afritaður. Þetta vandamál er þekkt hjá Microsoft og verður tekið á því í síðari uppfærslu. 
+
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Get ekki skráð mig inn í gluggann Deila með Teams 
+
+Þetta vandamál getur komið upp af ýmsum ástæðum. Til dæmis þarf auðkennið sem þú notar til að skrá þig inn að hafa aðgang að Microsoft Teams, svo sem í gegnum Microsoft 365 áskrift.
 
 ## <a name="see-also"></a>Sjá einnig
 

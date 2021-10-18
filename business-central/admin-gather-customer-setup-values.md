@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0f60976283aeba5a81c9e77e329e1ba91c82ea9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443894"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589258"
 ---
 # <a name="gather-customer-setup-values"></a>Safna uppsetningargildum viðskiptamanns
 Grunnstillingarspurningalisti er notaður til að draga úr álagi við innleiðingarferli með því að straumlínulaga uppsetningarferlið fyrir nýja fyrirtækið. Hægt er að útbúa grunnstillingarspurningalista í [!INCLUDE[prod_short](includes/prod_short.md)] og senda svo til viðskiptavinar sem Excel .xls-skrá eða XML-skrá.  
@@ -32,7 +32,7 @@ Hægt er að nota spurningalista til að hjálpa til við ákvarða umfang og þ
 
 <!-- A configuration questionnaire has the following structure
 * The name of the questionnaire itself
-* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company information. Typically, configuration questionnaires have many question groups
 * Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Aðeins er hægt er að stofna spurningalista fyrir töflur af uppsetningargerð. Til dæmis má nota verkfærið til að veita upplýsingar á eftirtöldum síðum:  
@@ -52,7 +52,7 @@ Hægt er að nota spurningalista til að hjálpa til við ákvarða umfang og þ
 > [!NOTE]  
 >  Til að sjá heildarlista yfir uppsetningartöflur skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning** og velja síðan viðkomandi tengil. Til að ákvarða svið flutnings færslugagna skal nota flutningsaðgerðir. Frekari upplýsingar eru í [Flutningur á gögnum viðskiptamanns](admin-migrate-customer-data.md).  
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn.  
 2. Valið er aðgerðin **Nýtt**.   
 3. Á síðunni **Spurningalisti grunnstillingar**, í reitnum **Kóði** skal slá inn ... 
 <!--4. In the **Name** field, enter...
@@ -82,7 +82,7 @@ Hægt er að nota spurningalista til að hjálpa til við ákvarða umfang og þ
 5. Í reitnum **Töflukenni** veljið auðkenni töflunnar sem á að safna upplýsingum. Reiturinn **Heiti töflu** útfyllist sjálfkrafa.  
 6. Velja skal aðgerðina **Uppfæra spurningar**. Hverju svæði í töflunni er bætt við spurningalista með spurningarmerki á eftir merkinu.
 
-Hægt er að endurorða merkið til að gera skýrt hvernig svara á spurningu. Til dæmis ef svæði er kallað „Heiti“ er hægt að breyta því í „Hvað heitir <data being collected>.“ Einnig er hægt að veita leiðsögn í reitnum **Tilvísun**, sem inniheldur vefslóð á síðu sem veitir frekari upplýsingar.  
+Hægt er að endurorða merkið til að gera skýrt hvernig svara á spurningu. Til dæmis ef svæði er kallað „Heiti“ er hægt að breyta því í „Hvað heitir \<data being collected\>.“ Einnig er hægt að veita leiðsögn í reitnum **Tilvísun**, sem inniheldur vefslóð á síðu sem veitir frekari upplýsingar.  
 
 Einnig er hægt að eyða spurningum sem á ekki að taka með í spurningalistann.  
 
@@ -98,7 +98,7 @@ Grunnstillingarspurningalistinn er notaður til að móta og skrá nákvæma umr
 >  Einnig er hægt að búa til nýjan grunnstillingarspurningarlista til að mæta þínum þörfum.  
 
 1. Opnaðu fyrirtækið sem þú vilt klára spurningalista fyrir.
-2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn.  
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn.  
 3. Veldu spurningalistann fyrir fyrirtækið og veldu síðan aðgerðina **Flytja út í Excel**, mögulega aðgerðina **Flytja út í XML**.
 4. Fáðu viðskiptavininn til að ljúka við grunnstillingarspurningalistann með því að færa svörin inn í Excel-vinnubókina. Til eru vinnublöð fyrir hvert spurningasvæði sem búið var til fyrir spurningalistann.   
 5. Vistaðu Excel-vinnubókina sem *XML Data*. Veldu aðgerðina **Flytja inn úr XML** og veldu .xml-skrána með svörum viðskiptavinarins.
@@ -131,15 +131,16 @@ Eftir að gengið hefur verið frá villuleit, eru gögn notanda tilbúin til no
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Nota svör úr spurningalista grunnstillingar
 Þegar búið er að flytja inn og staðfesta upplýsingar úr grunnstillingarspurningalistanum, er hægt að flytja eða nota uppsetningargögnin í samsvarandi töflum í [!INCLUDE[prod_short](includes/prod_short.md)] gagnagrunninum.  
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn. Síðan **Stilla spurningalista** opnast.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Spurningalisti grunnstillingar** og veldu síðan tengda tengilinn. Síðan **Stilla spurningalista** opnast.  
 2. Veljið grunnstillingarspurningalista úr listanum og veljið síðan aðgerðina **Breyta lista**.  
 3. Hægt er að nota svör á tvo vegu.  
 
 - Til að nota allan spurningalistann skal velja aðgerðina **Nota svör**.  
 - Til að nota svör aðeins fyrir tiltekið **Spurningasvæði** skal velja aðgerðina **Spurningasvæði**, velja **Spurningasvæði** í listanum og velja svo aðgerðina **Nota svör**.  
 
-### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Til að staðfesta að tekist hafi að nota svör  
-1. Athuga uppsetningarsíður eftir ýmsum virkum svæðum af [!INCLUDE[prod_short](includes/prod_short.md)]. Til að staðsetja síðuna velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slærð inn heiti uppsetningarsíðunnar og velur síðan tengda tengilinn.  
+### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Til að staðfesta að tekist hafi að nota svör
+
+1. Athuga uppsetningarsíður eftir ýmsum virkum svæðum af [!INCLUDE[prod_short](includes/prod_short.md)]. Til að staðsetja síðuna velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar 5](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slærð inn heiti uppsetningarsíðunnar og velur síðan tengda tengilinn.  
 2. Staðfestu að reitirnir hafi verið fylltir út með réttum gögnum úr hinum ýmsu spurningasvæðum í grunnstillingarspurningalistanum.  
 
 Nú hefur uppsetning með fyrirtækjaupplýsingum og reglum viðskiptavinar verið skilgreind.

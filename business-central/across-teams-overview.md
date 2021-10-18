@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446466"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587506"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams samþætting
 
@@ -51,6 +51,14 @@ Afrita tengil í hvaða færslu Business Central sem er og líma hann í spjall 
 
 Frekari upplýsingar eru í [Deila færslum í Microsoft Teams](across-working-with-teams.md).
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Deila tenglum af síðum í Business Central með Teams
+
+Beint frá flestum söfnunar- og upplýsingasíðum í Business Central er hægt að nota aðgerðina **Deila með Teams** í ![Valmyndartákni deilingar á síðum.](media/share-icon.png "Deilingarvalmyndin sýnd á spjaldi.") til að skrifa skilaboð, velja viðtakendur á borð við teymismeðlimi, hópa eða rásir og senda skilaboðin með tengli á síðu Business Central.
+
+![Deilingarvalmynd sýnd í spjaldi.](media/teams-share-link.png "Deilingarvalmyndin sýnd á spjaldi.")
+
+Frekari upplýsingar er að finna í [Deila færslum og síðutenglum í Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Hefjast handa
 
 1. [!INCLUDE [prod_short](includes/prod_short.md)]-notandareikningur á netinu er nauðsynlegur fyrir [!INCLUDE [prod_short](includes/prod_short.md)]-forrit fyrir Teams.
@@ -62,7 +70,7 @@ Frekari upplýsingar eru í [Deila færslum í Microsoft Teams](across-working-w
 
 2. Kerfisstjóri getur séð [Stjórnun Microsoft Teams Samþætting við Business Central](admin-teams-integration.md) til að fá upplýsingar um hvernig á að fá setja upp notendur til að virka með [!INCLUDE [prod_short](includes/prod_short.md)] og Teams.
 3. Setjið upp [!INCLUDE [prod_short](includes/prod_short.md)]-forrit í Teams. Skoðið [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið Microsoft Teams](across-install-app-for-teams.md).
-4. Þá forritið er uppsett er allt til reiðu. Sjá [Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams](across-search-contacts-teams.md) og [Deila færslum í Microsoft Teams](across-working-with-teams.md). 
+4. Þá forritið er uppsett er allt til reiðu. Sjá [Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams](across-search-contacts-teams.md) og [Deila færslum í Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Sjá einnig
 

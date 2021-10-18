@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 921eb4cc054ee61ffac543b68f19097927c511e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4ec0aba869d2a171e12c42822ecf1726ed4ac81e
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442111"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587916"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjarlægja og endurjafna birgðabókafærslur
 Á síðunni **Vinnublað jöfnunar** er hægt að skoða og breyta handvirkt tilteknum birgðajöfnunarfærslum sem eru stofnaðar sjálfkrafa við birgðafærslur.  
@@ -40,8 +40,9 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
     - Hægt er að fjarlægja jöfnun úr fleiri en einni færslu í einu á jöfnunarvinnublaðinu. Hins vegar er ekki mögulegt að stofna jöfnun fyrir fleiri en eina færslu í einu af því að jöfnun færslna hefur áhrif á þær færslur sem eru fyrir hendi til jöfnunar.
     - Jöfnunarvinnublaðið getur ekki gert jöfnun við eftirfarandi aðstæður: Ef ekki er nógu mikið magn í birgðum til að jafna, jöfnunarvinnublaðið getur ekki gert jöfnun á meðan verið er að reyna að jafna birgðaminnkunarfærslu án vörurakningarupplýsinga við birgðaaukningarfærslu með vörurakningarupplýsingar.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Að fjarlægja birgðajöfnunarfærslu með jöfnunarvinnublaðinu  
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað jöfnunar** og velja síðan viðkomandi tengil.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Að fjarlægja birgðajöfnunarfærslu með jöfnunarvinnublaðinu
+
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað jöfnunar** og velja síðan viðkomandi tengil.  
 2.  Síðan **Vinnublaðsjöfnun** opnast og sýnir núverandi vörufærslur í færslubók fyrir allar vörur.  
 3.  Færa inn afmarkanir á flýtiflipanum **Almennt** til að að einfalda leit að birgðafærslu sem gera á jöfnunarbreytingu á.  
 4.  Valin er birgðabókarfærsla og svo **Jafnaðar færslur** aðgerðina. Síðan **Skoða jafnaðar færslur – Jafnaðar færslur** opnast og birtir birgðafærsluna eða birgðafærslurnar sem eru jafnaðar við völdu færsluna.  
@@ -54,10 +55,11 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
 > [!IMPORTANT]  
 >  Ekki ætti að skilja jöfnunarfærslur eftir ójafnaðar í lengri tíma þar sem aðrir notendur geta ekki unnið úr vörum fyrr en jöfnunarfærslurnar eru endurjafnaðar eða síðunni **Vinnublaðsjöfnun** er lokað. Eftirfarandi villuboð birtast ef reynt er að framkvæma aðgerðir sem fela í sér jöfnunarfærslu sem er gerð óvirk handvirkt.  
 >   
->  **Ekki er hægt að framkvæma þessa aðgerð því færslur fyrir vöruna <item> vara hafa verið gerðar ógildar í Vinnublað jöfnunar af notandanum <user>.**  
+>  **Ekki er hægt að framkvæma þessa aðgerð því færslur fyrir vöruna \<item\> vara hafa verið gerðar ógildar í Vinnublað jöfnunar af notandanum \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Að endurjafna birgðajöfnunarfærslu með jöfnunarvinnublaðinu  
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað jöfnunar** og velja síðan viðkomandi tengil.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Að endurjafna birgðajöfnunarfærslu með jöfnunarvinnublaðinu
+
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað jöfnunar** og velja síðan viðkomandi tengil.  
 2.  Síðan **Vinnublaðsjöfnun** opnast og sýnir núverandi vörufærslur í færslubók fyrir allar vörur.  
 3.  Til að endurjafna færslunum sem voru fjarlægðar síðan vinnublaðið var opnað skal velja birgðabókarfærsluna sem á að endurjafna og svo aðgerðina **Endurjafna**.  
 
@@ -72,7 +74,8 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
     >  Ef valið var að jafna þar sem það stofnar óendanlega lykkju í kostnaðarleiðréttingarferlinu verður sú jöfnun ekki framkvæmd. Þetta getur gerst þegar upprunalegu færslurnar stofnuðu neikvæða birgðastöðu. Forritið er ekki gert. Því verður að velja aðra færslu fyrir jöfnunina.  
 6.  Ef reiturinn **Sjálfvirk kostnaðarleiðrétting** í **Uppsetning birgða** er stilltur á **Alltaf** þá er kostnaðarleiðréttingarkeyrsla keyrð sjálfvirkt eftir að endurjöfnun er gerð. Annars er keyrslan **Kostnaðarleiðrétting - Birgðafærslur** keyrð til að tryggja það að allur kostnaður sé uppfærður.  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Meðhöndlun innkaupaskila eða afturkallana](purchasing-how-process-purchase-returns-cancellations.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   

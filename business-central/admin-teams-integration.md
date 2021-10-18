@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443207"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589083"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Að stjórna Microsoft Teams samþættingu við [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -37,8 +37,10 @@ ms.locfileid: "6443207"
     |----|---|---|
     |Leita að [!INCLUDE [prod_short](includes/prod_short.md)] tengiliðum.|![gátmerki.](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
     |Límið tengil við [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtal og sendið hann sem spjald.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
+    |Deildu tengli frá síðu í [!INCLUDE [prod_short](includes/prod_short.md)] með samtali í Teams.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
     |Skoðið spjald [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtali.|![gátmerki](media/check.png "ávísun")||
     |Skoðið frekari upplýsingar um spjald fyrir [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtali.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
+    |Opnaðu tengil á síðu í [!INCLUDE [prod_short](includes/prod_short.md)] úr samtali.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
 
 - Leyfa forskoðanir vefslóða
 
@@ -68,7 +70,7 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
 - <a name="permissions"></a>Aðgangsheimildir notanda:
 
     Að mestu leyti eru leitarsíður tengiliða og gögn sem notendur geta skoðað og breytt í samtali í Teams stjórnað af heimildum þeirra í [!INCLUDE [prod_short](includes/prod_short.md)].
-    
+
     - Til að leita að tengiliðum verða notendur að hafa að minnsta kosti lesheimild fyrir **Tengiliðir** töfluna. 
     - Til að líma [!INCLUDE [prod_short](includes/prod_short.md)]-tengil í samtal í Teams og fá hann til að stækka í spjald, verða notendur að minnsta kosti að hafa lesheimild á síðunni og gögnum hennar.
     - Þegar spjald er sent inn í samtal, getur hvaða notandi sem er í því samtali skoðað spjaldið án leyfis frá [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -77,11 +79,35 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
     
     Frekari upplýsingar um heimildir er að finna í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).
 
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Setja upp Business Central-forritið með miðlægri innleiðingu
+
+Í Microsoft Teams stjórnendamiðstöðinni eru uppsetningarreglur Teams skilgreindar fyrir fyrirtækið. Í stjórnendamiðstöð Teams getur þú notað eiginleika miðlægrar innleiðingar til að setja sjálfkrafa upp Business Central-forritið í Teams fyrir alla notendur í fyrirtækinu, tilteknum hópum eða einstaka notendum.
+
+> [!NOTE]
+> Til að setja upp miðlæga innleiðingu verður Teams-reikningurinn þinn að vera með hlutverkið **Stjórnandi Teams Service** eða **Altækur stjórnandi**.
+
+1. Í Business Central skal velja ![Stækkunargler sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Miðlæg innleiðing Teams** og velja síðan viðkomandi tengil. Eða veldu [hér](https://businesscentral.dynamics.com/?page=1833) til að opna síðuna beint.
+2. Lestu upplýsingarnar í **Setja upp Business Central-forritið fyrir Teams**, veldu síðan **Næsta**.
+3. Opnaðu [Stjórnendamiðstöð Teams](https://go.microsoft.com/fwlink/?linkid=2163970) og ljúktu eftirfarandi skrefum.
+    1. Farðu í **Forrit Teams** > **Reglur uppsetningar**.
+    2. Búðu til nýja reglu eða veldu regluna sem á að nota til að setja upp forrit Business Central, veldu síðan **Bæta við forritum**.
+    3. Á síðunni **Bæta við uppsettum forritum** skal leita að og velja **Business Central**.
+    4. Veljið **Bæta við**.
+
+       Business Central ætti nú að birtast undir **Uppsett forrit** fyrir regluna.
+    5. Skilgreindu viðbótarstillingar, veldu síðan **Vista**.
+
+    Frekari upplýsingar um reglur uppsetningar í Teams er að finna í [Stjórna uppsetningarreglum forrits í Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) í fylgigögnum Teams.
+4. Farðu aftur í **Miðlæga innleiðingu Teams** í Business Central og veldu **Lokið**.
+
+> [!IMPORTANT]
+> Það getur tekið allt að sólarhring að setja upp reglu uppsetningar fyrir forritið og innleiða forritið hjá notendum.
+
 ## <a name="managing-privacy-and-compliance"></a>Umsjón með persónuvernd og reglufylgni 
 
 Microsoft Teams býður upp á víðtæka stjórnun fyrir reglufylgni og umsjón með viðkvæmum eða persónugreinanlegum gögnum&mdash;þar á meðal gögnum sem bætt er við spjall og rásir af [!INCLUDE [prod_short](includes/prod_short.md)]-forritinu.
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Að skilja hvar [!INCLUDE [prod_short](includes/prod_short.md)]-spjöld eru geymd 
+### <a name="understanding-where-prod_short-cards-are-stored"></a>Að skilja hvar [!INCLUDE [prod_short](includes/prod_short.md)]-spjöld eru geymd
 
 Eftir að kort hefur verið sent á spjall er kortið og reitirnir á kortinu afritaðir í Teams. Þessar upplýsingar heyra undir reglur Teams fyrir fyrirtækið þitt, svo sem reglur um gagnavarðveislu. Þegar upplýsingar spjalds birtast eru engin gögn í uppplýsingaglugganum geymd í Teams. Gögnin eru áfram geymd í [!INCLUDE [prod_short](includes/prod_short.md)] og verða aðeins sótt af Teams þegar notandinn velur að skoða upplýsingarnar. 
 
