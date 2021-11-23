@@ -1229,6 +1229,8 @@
 ##### [Undirbúningur fyrir VSK-færsluskýrslur](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [Prenta og endurprenta fjárhagsbækur og VSK-skrár](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Prenta Intrastat-skýrslur fyrir Ítalíu](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
+#### Staðgreiðsluskattur
+##### [Setja upp staðgreiðsluskatt í ítalskri útgáfu](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Prenta skýrslur staðgreiðslu](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Bankaþjónusta og greiðslur
 ##### [Setja upp greiðsluskilmála](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
@@ -1258,11 +1260,7 @@
 #### [Staðbundin virkni í mexíkóskri útgáfu](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Skattur
 ##### [Setja upp og mynda DIOT-skýrslur](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Mexíkóskur virðisaukaskattur](LocalFunctionality/Mexico/mexico-sales-tax.md)  
-##### [Setja upp neysluskatt og innkaupaskatt](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Setja upp óinnleystan virðisaukaskatt og greiðsluafslátt sölu](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-##### [Skráning virðisaukaskatts í Mexíkó](LocalFunctionality/Mexico/mexico-sales-tax.md)
-##### [Búa til innborganir](LocalFunctionality/Mexico/how-to-create-deposits.md)  
+##### [Setja upp útreiknings- og bókunaraðferðir fyrir VSK](finance-setup-vat.md)  
 ##### [Auðkennisgerðir skatts fyrir Mexíkó](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Endurútreikningur á VSK](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Rafræn reikningsfærsla
@@ -1274,12 +1272,13 @@
 #### Almennt
 ##### [Setja upp PAC-vefþjónustu](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Prenta skýrslur úrræðaleitar](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
+##### [Búa til innborganir](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Holland
 #### [Staðbundin virkni í hollenskri útgáfu](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### VSK
 ##### [Búa til endurskoðunarskrá fyrir skattyfirvöld](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [Setja upp VSK-flokka](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
+##### [Setja upp VSK-flokka](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Rafrænn VSK og ICP-yfirlýsingar](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Setja upp rafrænan VSK og ICP-yfirlýsingar](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Senda inn rafrænan VSK og ICP-yfirlýsingar](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1290,7 +1289,7 @@
 ##### [Greiðsluaðstæður 1 - Innlendar greiðslur (LCY til LCY)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Greiðsluaðstæður 2 - Erlendar greiðslur (FCY til FCY)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Greiðsluaðstæður 3 - Erlendar greiðslur (LCY til FCY)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Búa til tillögur](LocalFunctionality\Netherlands\how-to-create-proposals.md)
+##### [Búa til tillögur](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Skýrsluútdráttur](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Færa inn og bóka reiðufjár- og bankabók eða gíróbók](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Prenta prófunarskýrslur fyrir reiðufjár- og bankabók eða gíróbók](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1298,7 +1297,7 @@
 ##### [Virkja SEPA-greiðslur](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Senda inn greiðslur lánardrottins með rafrænum hætti á greiðslusniði SEPA ISO 20022](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Búa til og flytja út greiðslusögu](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Flytja inn og afstemma bankayfirlit](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
+##### [Flytja inn og afstemma bankayfirlit](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
 #### Core-fjármál
 ##### [Jafna og ógilda fjárhagsfærslur](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Nauðsynlegar lýsingar í fjárhagsfærslum](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a01bbbcb158e975c2b6f21ce2dd2468f8b3fa431
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 8c27b2c158d817a6e58a72d49d65d75bb8470f65
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443524"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651463"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Setja upp Envestnet Yodlee Bank Feeds þjónustu
 
@@ -97,6 +97,11 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
 5. Velja hnappinn **Í lagi**.
 
 Á síðunni **Bankareikningayfirlit** er valinn **tengt** gátreiturinn .
+
+## <a name="to-edit-the-credentials-for-an-online-bank-account"></a>Að breyta innskráningarupplýsingum fyrir netbankareikning
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.  
+2. Veldu línuna fyrir bankareikning sem er tengdur við netbankareikning og veldu síðan aðgerðina **Breyta upplýsingum netbankareiknings**.
+3. Uppfærið skilríki.
 
 ## <a name="to-unlink-a-bank-account"></a>Að Aftengja bankareikningi
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.  

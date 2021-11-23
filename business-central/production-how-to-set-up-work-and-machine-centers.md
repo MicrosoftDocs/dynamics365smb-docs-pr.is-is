@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að setja upp vinnu- og vélastöðvar | Microsoft Docs
+title: Setja upp vinnu- og vélastöðvar
 description: '**Vinnustöðvarspjald** skipuleggur föst gildi og þarfir viðkomandi framleiðsluforða og stjórnar þannig afköstum framleiðslu þeirrar vinnustöðvar.'
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b247cdc220ad522fe42085528df8a25200d6dd48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 3cc89545cced46acbe5d148853ac46c4135d251e
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440304"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "7714523"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Setja upp vinnu- og vélastöðvar
 
@@ -55,12 +55,12 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
 
     |Valkostur|Description|
     |------|-----------|
-    |**Handvirkt**|Notkun er bókuð handvirkt í frálagsbókinni eða framleiðslubókinni.|
-    |**Framvirkt**|Notkun er reiknuð og bókuð sjálfvirkt þegar framleiðslupöntun er gefin út.|
-    |**Afturvirkt**|Notkun er reiknuð og bókuð sjálfvirkt þegar framleiðslupöntun er lokið.|
+    |**Handvirkt**| Notaður tími, úttak og rýrnun eru bókuð handvirkt í úttaksbók eða framleiðslubók.|
+    |**Framvirk**|Úttak er bókað sjálfkrafa þegar framleiðslupöntun er gefin út.|
+    |**Afturvirkt**|Úttak er bókað sjálfkrafa þegar framleiðslupöntun er lokið.|
 
     > [!NOTE]
-    > Ef nauðsyn krefur er hægt að hundsa birgðaskráningaraðferðina sem er valin hér og á spjaldinu **Vara** í einstökum aðgerðum með því að breyta stillingunum á leiðarlínum
+    > Ef nauðsyn krefur er hægt að hunsa losunaraðferðina hér fyrir einstakar aðgerðir með því að breyta stillingunni í leiðarlínum
 
 12. Í reitinn **Mælieiningarkóði** er færð inn tímaeiningin þar sem þessi kostnaðarútreikningur og afkastagetuáætlun vinnustöðvar eru gerð.
     Til að geta fylgst stöðugt með notkun verður fyrst að setja upp mæliaðferð. Einingarnar sem eru færðar inn eru grunneiningar. Vinnslutíminn er til dæmis mældur í klukkustundum og mínútum.
@@ -77,7 +77,81 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
 > [!NOTE]
 > Nota skal biðtíma til að veita smá tíma á milli þess þegar íhluturinn kemur á vél eða vinnustöð og þegar aðgerðin hefst í raun. Ef til dæmis hlutur er afhentur vélastöð klukkan 10:00 en það tekur klukkustund að festa hann við vél hefst aðgerðin ekki fyrr en 11:00. Biðtíminn yrði þá ein klukkustund. Gildið úr reitnum **Biðraðartími** á véla- eða Vinnustöðvarspjaldi plús samtala gildanna í reitunum **Uppsetningartími**, **Keyrslutími**, **Biðtími** og **Flutningstími** í vöruleiðarlínunni gefa afgreiðslutímann í framleiðslu vörunnar. Þetta hjálpar til við að gefa upp nákvæman framleiðslutíma alls.  
 
-## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Dæmi - Mismunandi vélastöðvum úthlutað á vinnustöð
+## <a name="considerations-about-capacity"></a>Hvað skal hafa í huga varðandi afkastagetu
+
+Afkastageta og skilvirkni sem eru tilgreindar fyrir vinnu- og vélastöð hefur ekki aðeins áhrif á tiltæka afkastagetu. Þær hafa einnig áhrif á heildarframleiðslutímann sem samanstendur af uppsetningartíma og keyrslutíma, sem báðir eru skilgreindir í leiðarlínunni.  
+
+Þegar tiltekinni leiðarlínu er úthlutað á vinnu- eða vélastöð reiknar kerfið út hversu mikla afkastagetu þarf og hversu lengi það tekur að ljúka aðgerðinni.  
+
+### <a name="run-time"></a>Keyrslutími
+
+Til að reikna keyrslutíma úthlutar kerfið nákvæmlega þeim tíma sem skilgreindur er í reitnum **Keyrslutími** fyrir leiðarlínuna. Hvorki skilvirkni né afkastageta hafa áhrif á úthlutaðan tíma. Ef keyrslutíminn er til dæmis skilgreindur sem 2 klukkustundir mun úthlutaður tími vera 2 klukkustundir burtséð frá gildum í reitum skilvirkni og afkastagetu í vinnustöðinni.  
+
+> [!NOTE]
+> Afkastagetan sem er notuð í útreikningunum er skilgreind sem lágmarksgildið milli afkastagetu sem er skilgrein í vinnu- eða vélastöðinni og samhliða afkastagetunni sem er skilgreind fyrir leiðarlínuna. Ef vinnustöð er með afkastagetu 100, en samhliða afkastageta fyrir leiðarlínu er 2, mun *2* verða notað í útreikningunum.
+
+*Tímalengd* aðgerðar tekur aftur á móti bæði skilvirkni og afkastagetu til greina. Tímalengd er reiknuð sem *Keyrslutími / Skilvirkni / Afkastageta*. Eftirfarandi listi sýnir nokkur dæmi um útreikning tímalengdar fyrir sama keyrslutímann sem er skilgreindur sem 2 klukkustundir fyrir leiðarlínuna:
+
+- Skilvirkni 80% þýðir að þú þarft 2,5 klst. í stað tveggja klst.  
+- Skilvirkni 200% þýðir að þú getur lokið verkinu á einni klukkustund - þú getur grafið holuna tvisvar sinnum hraðar ef þú ert með gröfu sem er tvöfalt stærri en sú minni  
+
+    Þú getur náð sömu niðurstöðu ef þú notar tvær minni gröfur í stað stórrar – notaðu *2* sem afkastagetu og *100%* sem skilvirkni  
+
+Afkastageta með aukastöfum er flókin og við fjöllum um hana síðar. 
+
+### <a name="setup-time"></a>Uppsetningartími
+
+Úthlutun tíma fyrir uppsetningartímann fer eftir afkastagetu og er reiknaður sem *Uppsetningartími * afkastageta*. Ef afkastagetan er til dæmis stillt á *2* verður úthlutaður uppsetningartími tvöfaldaður vegna þess að þú verður að setja upp tvær vélar fyrir aðgerðina.  
+
+*Tímalengd* uppsetningartíma fer eftir skilvirkni og er reiknuð út sem *Uppsetningartími / skilvirkni*. 
+
+- Skilvirkni 80% þýðir að þú þarft 2,5 klst í stað tveggja klukkustunda til að setja upp  
+- Skilvirkni 200% þýðir að þú getur lokið uppsetningunni á 1 klst. í stað 2 klst. eins og skilgreint er í leiðarlínunni  
+
+Ekki er auðvelt að halda utan um afkastagetu með aukastöfum og er hún notuð í mjög sérstökum tilfellum.
+
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Vinnustöð sem vinnur úr mörgum pöntunum samtímis
+
+Notum sprautunarklefa sem dæmi. Hann er með sömu uppsetningu og keyrslutíma fyrir hverja lotu. En hver lota getur innihaldið margar stakar pantanir sem eru sprautaðar samtímis.  
+
+Í þessu tilfelli er tíma og kostnaði sem er úthlutað á pantanir stjórnað af uppsetningartíma og samhliða afkastagetu. Ekki er mælt með að nota keyrslutíma og leiðarlínur.  
+
+Úthlutaður uppsetningartími fyrir hverja einstaka pöntun verður í öfugri röð við fjölda pantana (magns) sem er framkvæmd samtímis. Hér eru fleiri dæmi um útreikning uppsetningartíma þegar hann er skilgreindur sem tvær klukkustundir fyrir leiðarlínuna:
+
+- Ef það eru tvær pantanir ætti samhliða afkastageta í leiðarlínunni að vera stillt á 0,5.
+
+    Fyrir vikið verður úthlutuð afkastageta fyrir hvora pöntun að vera ein klukkustund en tímalengd hverrar pöntunar verður áfram tvær klukkustundir.
+- Ef það eru tvær pantanir með einn og fjórir í magn, þá verður samhliða afkastageta fyrir leiðarlínu fyrri pöntunar 0,2 og 0,8 fyrir þá seinni.  
+
+    Fyrir vikið verður úthlutuð afkastageta fyrir fyrri pöntunina 24 mín og 96 mín fyrir þá seinni. Tímalengd beggja pantana er áfram tvær klukkustundir.  
+
+Í báðum tilfellum er heildartími úthlutunar fyrir allar pantanir tvær klukkustundir.
+
+
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Skilvirkt tilfang getur úthlutað aðeins hluta af vinnudagsetningu þeirra í framleiðsluvinnu
+
+> [!NOTE]
+> Ekki er mælt með þessum aðstæðum. Mælt er með því að nota skilvirkni í staðinn. 
+
+Ein af vinnustöðvunum þínum stendur fyrir reynslumikinn starfsmann sem vinnur verk með 100% skilvirkni. En hann getur aðeins helgað 50% af vinnutímanum í verk því hinn hluta tímans sinnir hann stjórnunarverkum. Þótt þessi starfsmaður geti lokið tveggja klukkustunda verki á nákvæmlega tveimur klukkustundum þarf samt að meðaltali að bíða aðrar tvær klukkustundir á meðan einstaklingurinn sinnir öðrum verkefnum.  
+
+Úthlutaður keyrslutími er tvær klukkustundir og tímalengdin er fjórar klukkustundir.  
+
+Ekki nota uppsetningartíma fyrir slíkar aðstæður þar sem kerfið mun aðeins úthluta 50% af tímanum. Ef uppsetningartíminn er stilltur á *2* er úthlutaður uppsetningartími ein klukkustund og tímalengdin tvær klukkustundir.
+
+### <a name="consolidated-calendar"></a>Sameinað dagtal
+
+Þegar reiturinn **Sameinað dagtal** er valið hefur vinnustöðin ekki sína eigin afkastagetu. Í staðinn jafngildir afkastagetan allri afkastagetu allra vélastöðva sem úthlutaðar eru vinnustöðinni.  
+
+> [!NOTE]
+>  Skilvirkni vélastöðvarinnar er breytt í afkastagetu vinnustöðvarinnar.
+
+Ef þú ert til dæmis með vélastöðvar með 80 og 70 í skilvirkni verður færsla sameinaðs dagatals með skilvirknina 100, afkastagetuna 1,5 og heildarafkastagetu sem 12 klukkustundir (átta klukkustunda vakt * 1,5 afkastageta). 
+
+> [!NOTE]
+>  Notaðu reitinn **Sameinað dagtal** þegar leiðir eru skipulagðar með tímasettum framleiðsluaðgerðum á stigi vélastöðvar, ekki stigi vinnustöðvar. Þegar dagatalið er sameinað verða síðan **Álag á vinnustöð** og skýrslur að yfirliti yfir samtals vinnuálag í öllum vélastöðvum sem úthlutaðar eru á vinnustöðina.
+
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Dæmi - Mismunandi vélastöðvum úthlutað á vinnustöð
 
 Mikilvægt er að áætla nauðsynlega heildarafkastagetu við uppsetningu véla- og vinnustöðva.
 

@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
-ms.translationtype: HT
+ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482171"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724709"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Stjórna geymslu með því að eyða skjölum eða þjappa gögnum
 
@@ -57,7 +57,7 @@ Hægt er að þjappa eftirfarandi gagnagerðum í með runuvinnslum. Það er ru
 Þegar verið er að skilgreina skilyrði fyrir þjöppunina er hægt að nota valkostina undir **Varðveita innihald reita** til að halda innihalda ákveðinna reita. Reitirnir sem eru tiltækir fara eftir gögnunum sem verið er að þjappa saman.
 
 > [!NOTE]
-> Áður en þú getur keyrt gagnaþjöppun þarf greiningaryfirlitið að vera uppfært. Frekari upplýsingar er að finna í [Að uppfæra greiningaryfirlit](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+> Áður en þú getur keyrt gagnaþjöppun þarf greiningaryfirlitið að vera uppfært. Frekari upplýsingar er að finna í [Að uppfæra greiningaryfirlit](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
 Eftir þjöppunina er efni eftirfarandi reita alltaf varðveitt: **Bókunardagsetning**, **Númer lánardrottins**, **Tegund fylgiskjals**, **Gjaldmiðilskóði**, **Bókunarflokkur**, **Upphæð**, **Eftirstöðvar**, **Upphafleg upph. (SGM)**, **Eftirstöðvar (SGM)**, **Upphæð (SGM)**, **Innkaup (SGM)**, **Reikningsafsl. (SGM)**, **Veittur greiðsluafsláttur (SGM)** og **Mögul. að jafna greiðsluafsl.**.
 

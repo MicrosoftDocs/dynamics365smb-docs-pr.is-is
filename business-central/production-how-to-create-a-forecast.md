@@ -1,6 +1,6 @@
 ---
 title: Hvernig á að búa til eftirspurnarspá
-description: Kynntu þér spáreiginleika í Business Central og hvernig hægt er að búa til sölu- og framleiðsluspá.
+description: Kynntu þér eiginleika eftirspurnarspár og hvernig hægt er að búa til sölu- og framleiðsluspár.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438688"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643968"
 ---
 # <a name="create-a-demand-forecast"></a>Búa til eftirspurnarspá
 Þú getur búið til sölu- og framleiðsluspár á síðunni **Eftirspurnarspá**.  
@@ -44,15 +44,14 @@ Hægt er að líta á íhlutaspána sem valkostaspá í sambandi við yfirvöru.
 Þar sem íhlutaspáin er hönnuð til að skilgreina valkosti fyrir yfirvöru ætti íhlutaspáin að vera jöfn eða lægri en magn söluvöruspárinnar. Ef íhlutaspáin er hærri en söluvöruspáin þá fer kerfið með mismuninn á milli þessara tveggja spártegunda sem sjálfstæða eftirspurn.  
 
 ## <a name="forecasting-periods"></a>Spártímabil  
- Spártímabilið er í gildi frá upphafsdagsetningu þess og til þeirrar dagsetningar sem næsta spá byrjar. Tímabilssíðan gefur marga valkosti til að setja eftirspurnina inn á sérstökum degi innan tímabils. Þess vegna mælum við ekki með því að umfangi spártímabilsins sé breytt nema æskilegt þyki að færa allar spárfærslur til upphafsdagsetningar þess tímabils.  
+Spártímabilið er í gildi frá upphafsdagsetningu þess og til þeirrar dagsetningar sem næsta spá byrjar. Tímabilssíðan gefur marga valkosti til að setja eftirspurnina inn á sérstökum degi innan tímabils. Þess vegna mælum við ekki með því að umfangi spártímabilsins sé breytt nema æskilegt þyki að færa allar spárfærslur til upphafsdagsetningar þess tímabils.  
 
 ## <a name="forecast-by-locations"></a>Spá eftir birgðageymslum  
-
-Hægt er að taka það fram á síðunni **Framleiðsluuppsetning** hvernig á að takast á við staðsetningar sem eru skilgreindar í spám þegar áætlun er reiknuð út. 
+Á síðunni **Uppsetning framleiðslu** er hægt að tilgreina hvort eigi að taka til greina staðsetningarnar sem eru skilgreindar í spám þegar þú reiknar út áætlanir. 
 
 ### <a name="use-forecast-by-locations"></a>Nota spá eftir staðsetningum
 
-Ef reiturinn **Nota spá eftir staðsetningu** er notaður, þá mun [!INCLUDE[prod_short](includes/prod_short.md)] taka til greina alla staðsetningarkóða sem eru tilgreindir fyrir hverja færslu eftirspurnarspár og reikna út eftirstandandi spá fyrir hverja staðsetningu.  
+Ef kveikt er á víxlhnappnum **Nota spá eftir staðsetningu** mun [!INCLUDE[prod_short](includes/prod_short.md)] taka til greina alla staðsetningarkóða sem eru tilgreindir fyrir hverja færslu eftirspurnarspár og reikna út eftirstandandi spá fyrir hverja staðsetningu.  
 
 Skoðið þetta dæmi: Fyrirtækið þitt kaupir og selur vörur á tveimur staðsetningum: AUSTUR og VESTUR. Fyrir báðar staðsetningarnar ertu búin(n) að skilgreina endurpöntunarstefnu frá lotu til lotu. Þú býrð til spá fyrir tvær staðsetningar:
 
@@ -68,7 +67,7 @@ Síðan stofnarðu sölupöntun með magn upp á 12 á staðsetningu VESTUR. Á�
 >  Ef staðsetningamiðaðar spár eru skoðaðar einar og sér gæti verið að spáin í heild sinni sýni ekki rétta mynd.
 
 ### <a name="do-not-use-forecast-by-locations"></a>Ekki nota spá eftir staðsetningum
-Ef **Nota spá eftir staðsetningu** er gerð óvirki, þá mun [!INCLUDE[prod_short](includes/prod_short.md)] hunsa staðsetningarkóða sem eru tilgreindir fyrir hverja færslu eftirspurnarspár og safna spánum saman í spá fyrir tómar staðsetningar.  
+Ef slökkt er á víxlhnappnum **Nota spá eftir staðsetningu** mun [!INCLUDE[prod_short](includes/prod_short.md)] hunsa staðsetningarkóða sem eru tilgreindir fyrir hverja færslu eftirspurnarspár og safna spánum saman í spá fyrir tómar staðsetningar.  
 
 Skoðið þetta dæmi: Fyrirtækið þitt kaupir og selur vörur á tveimur staðsetningum: AUSTUR og VESTUR. Fyrir báðar staðsetningarnar ertu búin(n) að skilgreina endurpöntunarstefnu frá lotu til lotu. Þú býrð til spá fyrir tvær staðsetningar:
 

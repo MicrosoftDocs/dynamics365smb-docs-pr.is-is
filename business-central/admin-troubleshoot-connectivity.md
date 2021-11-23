@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443182"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748962"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Úrræðaleita tengigetu fyrir Business Central
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443182"
 
 ## <a name="start-the-connectivity-check"></a>Hefja athugun á tengigetu 
 
-1. Veldu [þennan tengil](https://businesscentral.dynamics.com/connectivity) eða opnaðu netvafrann og sláðu inn eftirfarandi vefslóð í veffangið:
+1. Opnaðu netvafra.
+2. Í veffanginu skal færa inn vefslóðina sem er notuð til að opna Business Central og bættu við `/connectivity` í lokin. 
+
+    Ef þú notar til dæmis `https://businesscentral.dynamics.com` skal færa inn:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. Á síðunni **Úrræðaleita tengigetu** skal velja **Hefja athugun**.
+    Eða, ef vefslóðin inniheldur auðkenni leigjanda, eins og `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, þá myndir þú færa inn:
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. Á síðunni **Úrræðaleita tengigetu** skal velja **Hefja athugun**.
 
     Röð athugana er keyrð og niðurstaða hverrar athugunar er sýnd:
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443182"
     - ![Athugun á tengigetu mistókst.](media/connectivity-failed.png) gefur til kynna að athugunin hafi misheppnast. Farðu yfir skilaboðin hér að neðan til að fá frekari upplýsingar.
     - ![Athugun tengigetu var ekki keyrð.](media/connectivity-blocked.png) gefur til kynna að athugunin var ekki keyrð, yfirleitt vegna þess að fyrri athugun mistókst. Farðu yfir skilaboðin hér að neðan til að fá frekari upplýsingar.
 
-3. Til að keyra athugunina aftur skaltu velja **Endurræsa athugun**.
+4. Til að keyra athugunina aftur skaltu velja **Endurræsa athugun**.
 
 Í eftirfarandi köflum eru athuganir sem eru keyrðar útskýrðar og gefnar nokkrar ábendingar til að laga vandamálin.
 

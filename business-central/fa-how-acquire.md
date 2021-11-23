@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8d57fedc09b6c94ecfce7e24e1eea097f837030e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442286"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643931"
 ---
 # <a name="acquire-fixed-assets"></a>Komast yfir eignir
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Afskriftabók þarf að setja upp og tengja hverri eign áður en hægt er að komast yfir hana.
@@ -75,7 +75,7 @@ Eftirfarandi ferli sýnir hvernig á að komast yfir eign handvirkt með því a
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Ógilding bókunar kaupverðs fyrir eina eign
 Ef villa á sér stað við bókun stofnkostnaðar er hægt að fjarlægja færsluna með keyrslunni **Afturkalla eignafærslur** og bóka síðan rétta stofnkostnaðarfærslu. Röngu færslurnar eru fluttar á síðuna **Rangar eignafærslur.**
 
-Ef stofnkostnaður er til dæmis bókaður með rangri dagsetningu þarf að leiðrétta það eins fljótt og unnt er þar sem bókunardagsetningu eigna er notuð í margar mikilvæga útreikninga.
+Ef kaup eru til dæmis bókuð með rangri dagsetningu þarf að leiðrétta hana eins fljótt og unnt er þar sem bókunardagsetning eigna er notuð fyrir marga mikilvæga útreikninga.
 
 > [!IMPORTANT]  
 >   Ekki er hægt að nota aðgerðina **Bakfæra viðskipti** fyrir eignarfærslur.
@@ -90,9 +90,12 @@ Til að hætta við færslur fyrir margar eignir á sama tíma skal nota **hætt
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Bóka hrakvirði með kaupverði.
 Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignabækur** og velja síðan viðkomandi tengil.
+> [!NOTE]
+> Þetta ferli gæti krafist þess að þú færslubókasíðu eigna með því að bæta við reitnum Hrakvirði. Reiturinn er ekki sjálfgefið sýndur á síðunni. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubækur eigna** og velja síðan viðkomandi tengil.
 2. Á síðunni **Eignabækur** skaltu búa til kauplínuna. Nánari upplýsingar eru í [Bókun eignakaupa handvirkt með fjárhagsbók eigna](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
-3. **Hrakvirðið** er fært sem kreditupphæð (með mínusmerki) í reitinn Hrakvirði í reikningslínunni.
+3. Í reitinn **Hrakvirði** í færslubókarlínunni skal færa inn upphæð hrakvirðis sem kreditfærslu (settu mínusmerki að framan, t.d. **-** 100).
 4. Valið er **Bóka** aðgerðin.
 
 > [!NOTE]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589431"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724613"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Sækja innbót Business Central fyrir Excel
 
@@ -25,7 +25,7 @@ ms.locfileid: "7589431"
 
 ### <a name="about-the-add-in"></a>Um innbótina
 
-Innbótin er kölluð **Microsoft Dynamics Office-innbót** og hún er í boði til uppsetningar í [Office-versluninni (AppSource)](https://appsource.microsoft.com/). Með innbótina uppsetta er aðgerðin **Breyta í Excel** í boði á flestum listasíðum og listahlutasíðum í **Deila** tákninu ![Deila síðu í öðru forriti.](media/share-icon.png). Frekari upplýsingar um hvernig nota á viðbótin er að finna í [Skoða og breyta í Excel úr Business Central](across-work-with-excel.md)
+Innbótin er kölluð **Microsoft Dynamics Office-innbót** og hún er í boði til uppsetningar í [Office-versluninni (AppSource)](https://appsource.microsoft.com/). Með innbótina uppsetta er aðgerðin **Breyta í Excel** í boði á flestum listasíðum og listahlutasíðum í **Deila** tákninu ![Deila síðu í öðru forriti.](media/share-icon.png). Frekari upplýsingar um hvernig nota á viðbótin er að finna í [Skoða og breyta í Excel úr Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > Innbótin virkar aðeins í Windows; ekki macOS.
@@ -118,7 +118,7 @@ Innbótin er nú tengd við [!INCLUDE [prod_short](includes/prod_short.md)]\, og
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Undirbúa tæki og netkerfi fyrir Excel-innbótina
 
-Netþjónustur eins og staðgenglar eða eldveggir verða að leyfa flutning milli tækja biðlara þar sem innbótin er sett upp í og margar endastöðvar þjónustu. Lista yfir endastöðvar er að finna í [Undirbúa netkerfið undir Excel-innbótina](/dev-itpro/administration/configuring-network-for-addins).
+Netþjónustur eins og staðgenglar eða eldveggir verða að leyfa flutning milli tækja biðlara þar sem innbótin er sett upp í og margar endastöðvar þjónustu. Lista yfir endastöðvar er að finna í [Undirbúa netkerfið undir Excel-innbótina](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Úrræðaleit
 

@@ -1,8 +1,6 @@
 ---
-title: Úrræðaleit vegna samstillingarvillna | Microsoft Docs
+title: Úrræðaleit vegna samstillingarvillna
 description: Þetta efnisatriði veitir leiðbeiningar um greiningu á, úrræðaleit og úrlausn á samstillingarvillum.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3ed35bc7d0d9db1cd609078372d98535703f6583
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: b5e7b9c6cc6d7ac39b0067b723a5325ee9972c2e
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326514"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749012"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Úrræðaleit vegna samstillingarvillna
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,37 +24,20 @@ Margir hreyfanlegir hlutir taka þátt í samþættingu [!INCLUDE[prod_short](in
 
 Villur koma oft upp annaðhvort vegna þess að notandi hefur gert eitthvað við tengdar færslur eða eitthvað er að uppsetningu samþættingar. Notendur geta leyst úr villum sem tengjast tengdum færslum. Þessar villur stafa af aðgerðum eins og að eyðing á gögnum í öðru, en ekki báðum, viðskiptaforritunum og síðan samstilla. Frekari upplýsingar er að finna í [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md).
 
-## <a name="example"></a>Dæmi
-Þetta myndband sýnir dæmi um hvernig leita á úrræða út af villum sem komu upp við samstillingu við [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ferlið verður það sama fyrir allar samþættingar. 
+Villur sem tengjast því hvernig samþættingin er sett upp þurfa venjulega á athygli stjórnanda að halda. Hægt er að skoða þessar villur á síðunni **Villur í samstillingu samþættingar**. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+Eftirfarandi tafla sýnir dæmi um algeng vandamál:  
 
-Villur sem tengjast því hvernig samþættingin er sett upp þurfa venjulega á athygli stjórnanda að halda. Hægt er að skoða þessar villur á síðunni **Villur í samstillingu samþættingar**. Dæmigerð vandamál eru til að mynda:  
-  
-* Heimildum og hlutverkum sem notanda er úthlutað eru ekki rétt.  
-* Reikningur stjórnanda var tilgreindur sem samþættingarnotandinn.  
-* Aðgangsorð samþættingarnotanda er stillt þannig að þurfi að breyta því þegar notandi skráir sig inn.  
-* Gengi gjaldmiðla er ekki tilgreint í öðru hvoru forritinu.  
-  
-Leysa þarf villurnar handvirkt, en til eru nokkrar leiðir sem síðan hjálpar þér með. Dæmi:  
+|Gefa út  |Upplausn  |
+|---------|---------|
+|Heimildir og hlutverk sem úthlutað er samþættingarnotanda eru ekki rétt. | Þessi villa kemur úr [!INCLUDE[prod_short](includes/cds_long_md.md)] og oft fylgir henni eftirfarandi texti: „Notanda (kenni=\<user id>, gerð=8) vantar \<privilegeName> réttindi“. Þessi villa kemur upp því að samþættingarnotanda vantar réttindi sem leyfa honum að fá aðgang að einingu. Yfirleitt kemur þessi villa upp ef sérstilltar einingar eru samstilltar eða ef forrit er uppsett í [!INCLUDE[prod_short](includes/cds_long_md.md)] og þarf heimild til að fá aðgang að öðrum [!INCLUDE[prod_short](includes/cds_long_md.md)] einingum. Til að leysa úr þessari villu skal úthluta samþættingarnotanda heimildina í [!INCLUDE[prod_short](includes/cds_long_md.md)].<br><br> Finna má nafn samþættingarnotanda á síðunni **Dataverse Uppsetning tengingar**. Villuboðin gefa upp heiti heimildarinnar sem getur hjálpað þér að finna eininguna sem þarf heimild fyrir. Til að bæta við réttindunum sem vantar skal skrá sig inn í [!INCLUDE[prod_short](includes/cds_long_md.md)] með stjórnandareikningi og breyta öryggishlutverkinu sem samþættingarnotanda er úthlutað. Frekari upplýsingar er að finna í [Búa til eða breyta öryggishlutverki til að stjórna aðgangi](/power-platform/admin/create-edit-security-role). |
+|Þú ert að tengja færslu sem notar aðra færslu sem er ekki tengd. Til dæmis gjaldmiðill viðskiptavinar sem er ekki tengdur eða vöru þar sem mælieiningin er ekki tengd. | Fyrst þarf að tengja háða færslu, t.d. gjaldmiðil eða mælieiningu, og svo reyna tenginguna aftur. |
 
-* Reitirnir **Uppruni** og **Endastaður** kunna að innihalda tengla á línuna þar sem villan fannst. Smellið á tengilinn til að rannsaka villuna.  
+Eftirfarandi eru nokkur verkfæri á síðunni Samstillingarvillur samþættingar sem geta hjálpað þér að leysa úr þessum vandamálum handvirkt.  
+
+* Reitirnir **Upprunastaður** og **Áfangastaður** geta innihaldið tengla á línuna þar sem villan fannst. Smellið á tengilinn til að rannsaka villuna.  
 * Aðgerðirnar **Eyða færslum eldri en sjö daga** og **Eyða öllum færslum** hreinsa listana. Venjulega eru þessar aðgerðir notaðar eftir að orsök villu sem hefur áhrif á margar færslur hefur verið löguð. Sýndu samt aðgát. Þessar aðgerðir gætu eytt villum sem skipta enn máli.
-
-Stundum geta tímastimplarnir í færslum valdið árekstrum. Taflan „CDS-samþættingarfærsla“ heldur tímastimplunum „Síðustu samstillingu breytt þann“ og „Síðustu samstillingu CDS breytt þann“ fyrir síðustu samþættingu lokið í báðar áttir fyrir færslu. Þessir tímastimplar eru bornir saman við tímastimpla á færslum Business Central og sölu. Í Business Central er tímastimpillinn í töflunni „Samþættingarfærsla“.
-
-Hægt er að afmarka færslur sem eiga að vera samstilltar með því að bera saman línustimpla í töflunni „Vörpun samþættingartöflu“, svæðunum „Samst. breytt á afmörkun“ og „Samst. innr. töfl. breyt. Á afmörkun“.
-
-Árekstrarvilluboðin „Ekki er hægt að uppfæra viðskiptamannafærslu vegna þess að hún er með eldri breytingardagsetningu en reikningsfærslan“ eða „Ekki er hægt að uppfæra Lykilfærsluna vegna þess að hún er með eldri breytingardagsetningu en viðskiptamannafærslan“ geta birst ef línan er með tímastimpil sem er stærri en IntegrationTableMapping. „Samst. breytt á afmörkun“ en hún er ekki nýlegri en tímastimpill á Sölusamþættingarfærslu. Það þýðir að upprunaröðin var samstillt handvirkt og ekki með verkraðarfærslunni. 
-
-Áreksturinn gerist vegna þess að viðtökulínunni var einnig breytt – Tímastimpill línunnar er nýlegri en tímastimpill Sölusamþættingarfærslu. Viðtökustaðarathugunin er aðeins framkvæmd fyrir tvístefnutöflur. 
-
-Þessar færslur eru nú fluttar á síðuna „Samst.færslur sem var sleppt“ sem er opnuð er úr á tengingaruppsetningarsíðu Microsoft Dynamics í Business Central. Þar er hægt að tilgreina breytingarnar sem á að halda og samstilla síðan færslurnar aftur.
-
-## <a name="remove-couplings-between-records"></a>Fjarlægja tengingu milli færslna
-Þegar eitthvað fer úrskeiðis í samþættingunni og nauðsynlegt er að aftengja færslur til að stöðva samstillingu þeirra á milli, þá er hægt að gera slíkt fyrir eina eða fleiri færslur í einu. Hægt er að aftengja eina eða fleiri færslur af listasíðum eða síðunni **Samstillingarvillur í tengdum gögnum** með því að velja eina eða fleiri línu og velja **Eyða tengingu**. Einnig er hægt að fjarlægja allar tengingar fyrir eina eða fleiri töfluvörpun á síðunni **Vörpun samþættingartöflu**. 
-
-Ef einingu með einstefnutengingu er eytt í [!INCLUDE[prod_short](includes/prod_short.md)] verður að eyða biluðu tengingunni handvirkt. Til að gera það, á síðunni **Samstillingarvillur í tengdum gögnum**, skal velja aðgerðina **Finna fyrir eyddar** og eyða svo tengingunum.
+* Aðgerðin **Sýna villu í kallstafla** sýnir upplýsingar sem geta hjálpað til við að skilja rót vandans. Ef ekki er hægt að leysa úr villunni á eigin spýtum og ákveðið er að senda inn þjónustubeiðni skal hafa upplýsingarnar með í þjónustubeiðninni.
 
 ## <a name="see-also"></a>Sjá einnig
 [Samþætting við Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

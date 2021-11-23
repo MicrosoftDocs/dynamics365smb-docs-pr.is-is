@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
-ms.translationtype: HT
+ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482324"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651488"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Samþætting við Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -97,6 +97,9 @@ Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_shor
 | Mælieining | Einingarflokkur | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Vara | Vara | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Tengiliðasía Sales: **Gerð afurðar** er **Birgðir Sales** |
 | Forði | Vara | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Tengiliðasía Sales: **Gerð afurðar** er **Þjónusta** |
+| Mælieiningarstuðull vöru | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Mælieining forða | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Einingarflokkur | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Verðflokkur viðskiptamanna | Verðlisti | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Söluverð | Verðlisti vöru | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] tengiliðasía: **Sölukóði** er ekki auður, **Sölugerð** er **Verðflokkur viðskiptamanns** |
 | Tækifæri | Tækifæri | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -104,6 +107,50 @@ Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_shor
 | Sölureikningslína | Reikningsfæra vöru | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Sölupöntunarhaus | Sölupöntun | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Sía söluhauss: **Gerð skjals** er Pöntun, **Staða** er útgefin |
 | Athugasemdir sölupöntunar | Athugasemdir sölupöntunar | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+
+> [!NOTE]
+> Varpanir fyrir mælieiningu vöru, mælieiningu tilfangs og töflur einingahóps eru aðeins í boði ef stjórnandinn hefur kveikt á eiginleikanum **Eiginleikauppfærsla: margar einingar til að mæla samstillingu með Dynamics 365 Sales** á síðunni **Eiginleikastjórnun**. Frekari upplýsingar er að finna í [Vörur og tilföng samstillt við afurðir í öðrum mælieiningum](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Vörur og tilföng samstillt við afurðir með öðrum mælieiningum
+Fyrirtæki framleiða oft eða kaupa vörurnar í einni mælieiningu og selja þær svo í öðrum. Til að samstilla vörur sem nota margar mælieiningar þarf að kveikja á eiginleikanum **Eiginleikauppfærsla: margar einingar til að mæla samstillingu með Dynamics 365 Sales** á síðunni **Eiginleikastjórnun**. 
+
+Þegar það er gert er ný tafla einingahóps búin til og úthlutað á hverja vöru og tilfang í [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta gerir þér kleift að varpa töflum einingahóps, mælieiningar vöru og mælieiningar tilfangs úr [!INCLUDE[prod_short](includes/prod_short.md)] í einingahóp Dynamics 365 Sales <!--Need to verify this name--> í [!INCLUDE[crm_md](includes/crm_md.md)] eins og sýnt er á eftirfarandi mynd.
+
+:::image type="content" source="media/unit group 1.png" alt-text="Töfluvarpanir fyrir einingahópa":::
+
+Hægt er að búa til margar mælieiningar fyrir hvern einingahóp og úthluta hópunum á afurðir í [!INCLUDE[crm_md](includes/crm_md.md)]. Þar á eftir geturðu samstillt afurðirnar við vörur og tilföng í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að tengja mælieiningar vöru eða tilfangs við einingahóp. Þegar það er gert, ef til að mynda einingahópur vöru eða tilfangs er ekki tengdur við einingahóp í [!INCLUDE[crm_md](includes/crm_md.md)] vegna þess að einingahópurinn var ekki til, mun [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa búa til einingahóp í [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="mapping-items-and-resources-to-products"></a>Varpa vörum og tilföngum í afurðir
+Þegar kveikt er á eiginleikanum **Eiginleikauppfærsla: margar einingar til að mæla samstillingu með Dynamics 365 Sales** gerist eftirfarandi:
+
+* Nýjar varpanir eru búnar til fyrir vörur og tilföng.
+* Fyrirliggjandi vörpunum er eytt. <!--which mappings?-->
+* Gagnauppfærsla býr til einingahópa fyrir vörur og tilföng.
+
+Til að nota nýju varpanirnar þarf að samstilla einingahópa, mælieiningu vöru og mælieiningu tilfangs. Einnig þarf að endursamstilla vörur og tilföng. 
+
+> [!NOTE]
+> [!INCLUDE[crm_md](includes/crm_md.md)] leyfir þér ekki að breyta einingahópi fyrir afurð. Þess vegna þarf að taka afurðirnar úr umferð og aftengja vörur og tilföng og síðan samstilla með því að búa til nýjar afurðir í [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+Eftirfarandi skref lýsa skrefunum til að hefja vörpun einingahópa:
+
+1. Gættu þess að afurðir í [!INCLUDE[crm_md](includes/crm_md.md)] séu ekki tengdar við vörur eða tilföng í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef svo er skal fara á síðurnar **Vörur** og/eða **Tilföng**, nota síuvalkostina til að velja tengdar færslur og síðan velja aðgerðina **Dynamics 365 Sales** og velja **Aftengja**. Þetta tímasetur bakgrunnsvinnslu til að aftengja færslurnar. Á meðan verkið er í gangi er hægt að athuga stöðu þess með því að nota aðgerðina **Samstillingarkladdi**. Frekari upplýsingar er að finna í [Tenging og samstilling](admin-how-to-couple-and-synchronize-records-manually.md). 
+2. Þar sem nýjar afurðir verða búnar til í [!INCLUDE[crm_md](includes/crm_md.md)] með nýjum einingahópum skal gera eitt af eftirfarandi til að forðast tvítekningu heita:
+    
+    * Endurnefndu afurðirnar og taka þær svo úr umferð í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Taka afurðir úr umferð (sölumiðstöð)](/dynamics365/sales-enterprise/retire-product). Til að breyta mörgum afurðum í einu í Microsoft Excel skal skrá sig inn í Power Apps, velja umhverfið, fara í töfluna **Afurð** og velja flipann **Gögn**. Hreinsaðu allar síur sem eru notaðar. Í hópnum **Gögn** skal velja aðgerðina **Breyta gögnum í Excel**. Bættu forskeyti eða viðskeyti við tengdar afurðir og taktu þær svo úr umferð.
+    * Taktu afurðirnar úr umferð og eyddu þeim. 
+
+3. Fylgdu þessum skrefum til að samstilla **Einingahópa**, **Mælieiningar**, **Vörur** og **Tilföng**:
+    1. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal opna síðuna **Uppsetning tengingar fyrir Dynamics 365 Sales**.
+    2. Notaðu aðgerðina **Keyra fulla samstillingu** til að opna síðuna **Dataverse Yfirfara fulla samstillingu**.
+    3. Fyrir varpanirnar **VARA UOM**, **TILFANG UOM** OG **EININGAHÓPUR** skal velja aðgerðina **Ráðleggja fulla samstillingu**.
+    4. Veldu aðgerðina **Samstilla allt**.
+
+    > [!NOTE]
+    > Þessi aðgerð mun samstilla að fullu þær varpanir sem hafa ekki verið samstilltar að fullu hingað til. Til að koma í veg fyrir að þessar varpanir verði samstilltar skal eyða vörpunum af síðunni. Þetta fjarlægir þær aðeins úr núverandi fullri samstillingu og eyðir ekki vörpununum.
+    
+5. Veldu vörpunina **VARA-AFURÐ** og síðan aðgerðina **Endurræsa**. Þetta býr til nýjar afurðir úr vörunum í [!INCLUDE[crm_md](includes/crm_md.md)] og úthlutar nýjum einingahópi sem á við um vöruna.
+6. Veldu vörpunina **TILFANG-AFURÐ** og síðan aðgerðina **Endurræsa**. Þetta býr til nýjar afurðir úr tilföngunum í [!INCLUDE[crm_md](includes/crm_md.md)] og úthlutar nýjum einingahópi sem á við um tilföngin.
 
 ### <a name="synchronization-rules"></a>Samstillingarreglur
 

@@ -5,30 +5,31 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
+ms.search.form: 103, 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440204"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752367"
 ---
 # <a name="track-packages"></a>Finna sendingar
-
-Fjöldi flutningsaðila veita þá þjónustu á Internetinu að hægt er að finna pakkningar sem eru í umsjá flutningsaðilans. Ef notast er við einn eða fleiri af þessum flutningsaðilum er hægt að setja upp ákveðnar grunnupplýsingar og nota sjálfvirkar leitaraðgerðir frá bókuðum afhendingum, bókuðum sölureikningum, bókuðum sölukreditreikningum og bókuðum vöruskilamóttökum. Frekari upplýsingar er að finna í [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md).  
+Flestir flutningsaðilar bjóða upp á vefþjónustu sem gerir þér kleift að rekja stöðu pakkanna þinna á leiðinni. Þessar upplýsingar geta reynst gagnlegar í mörgum viðskiptaferlum, t.d. fyrir viðskiptamannaþjónustu. Ef fleiri en einn flutningsaðili er notaður er hægt að færa inn grunnupplýsingar um þá og síðan nota rakningarþjónustu þeirra beint af síðunum Bókaðar söluafhendingar, Bókaðir sölureikningar, Bókaðir sölukreditreikningar og Bókuð vöruskilamóttaka. Frekari upplýsingar er að finna í [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md). 
 
 Eftirfarandi ferli sýnir hvernig á að rekja pakka frá bókaðri sölusendingu, en sömu skref gilda um rakningu pakka úr bókaða sölureikningnum, bókuðum sölukreditreikningi og bókuðum móttökukvittunum.  
 
 ## <a name="to-track-a-package"></a>Sendingaleit
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókuð söluafhending** og velja síðan viðkomandi tengil.
-2. Viðeigandi afhending er opnuð.
-3. Veldu aðgerðina **Uppfæra fylgiskjal**.
-4. Í **Rakningarnúmer pakka** reitinn er ritað pakkanúmerið sem flutningsaðilinn lagði í té. Uppfærðu **Flutningsaðili** ef þörf er á og lokaðu síðunni.
-5. Velja aðgerðina **Rekja pakka**.
+> [!NOTE]
+> Eftirfarandi ferli notar síðuna Bókuð söluafhending sem dæmi. Skrefin til að rekja pakka eru þau sömu á síðunum Bókaðir sölureikningar, Bókaðir sölukreditreikningar og Bókuð vöruskilamóttaka.
 
-Sjálfgefinn vafri opnar rakningarsíðu flutningsaðila.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókuð söluafhending** og velja síðan viðkomandi tengil.
+2. Opnaðu sendinguna sem á að rekja og veldu svo aðgerðina **Uppfæra skjal**.
+3. Í **Rakningarnúmer pakka** reitinn er slegið inn pakkanúmerið sem þú fékkst frá flutningsaðilanum. 
+4. Vertu viss um að flutningsaðilinn og þjónustustigið séu rétt og lokaðu svo síðunni.
+5. Veldu aðgerðina **Rekja pakka** til að opna þjónustu flutningsaðila fyrir pakkarakningu.
 
 ## <a name="see-also"></a>Sjá einnig
 

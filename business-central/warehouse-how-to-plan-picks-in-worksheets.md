@@ -1,6 +1,6 @@
 ---
 title: Hvernig á að skipuleggja tínslur á vinnublaðinu
-description: Kynntu þér hvernig vöruhúsið getur valið að starfa þannig að línurnar í afhendingarskjölum séu tiltækar á vinnublaði tínslu.
+description: Kynntu þér hvernig hægt er að gera línur afhendingarskjala aðgengilegar í tiltektarvinnublöðum fyrir starfsmenn vöruhúss.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,52 +8,50 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 46032a3a3ef44d56953ca9db7185e96eacf0770e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 92dd486b5b9ebb4fd67d3a28aa8f1eaab137513c
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441836"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643919"
 ---
 # <a name="plan-picks-in-worksheets"></a>Skipuleggja tínslur á vinnublaðinu
 
-Ef vöruhúsið er sett upp með bæði tínslu- og afhendingarvinnslu er hægt að velja að línurnar á afhendingarskjölum flytjist ekki sjálfkrafa í tínsluleiðbeiningar heldur verði þess í stað tiltækar á vinnublaði tínslunnar.  
+Ef vöruhúsið er sett upp þannig að það krefjist bæði tiltektar- og afhendingarvinnslu geturðu valið að gera línur afhendingarskjala aðgengilegar á vinnublöðum tiltektar í staðinn fyrir tiltektarleiðbeiningar.  
 
 > [!NOTE]  
-> Hafi tínsluleiðbeiningar vöruhúss þegar verið stofnaðar og sameina á þær í stakar skilvirkar tínsluleiðbeiningar þarf að eyða hverri vöruhúsatínslu fyrir sig. Línurnar sem á að tína má nú lista á vinnublaðinu.  
+> Hafi tiltektarleiðbeiningar vöruhúss þegar verið búnar til og sameina á þær í einni tiltektarleiðbeiningu þarf að eyða hverri vöruhúsatiltekt fyrir sig. Línurnar sem á að tína má nú birta á vinnublaði tiltektar.  
 
-Á tínsluvinnublaðinu er hægt að setja upp tínslulista fyrir starfsmenn sem minnkar tímann sem starfsmaðurinn notar til að fara um vöruhúsið og tína vörur. Það eru reitir með upplýsingum varðandi tiltækt magn af vörum í hjáskipunarhólfunum. Þetta er gagnlegt við hjáskipun þegar skipuleggja á verkúthlutanir þar sem forritið leggur alltaf til að tínt sé úr hjáskipunarhólfi á undan öðrum hólfum, óháð mælieiningum. Línurnar á vinnublaðinu geta komið úr ýmsum upprunaskjölum og þeim má raða eftir vöru, hillunúmeri., upprunaskjali, gjalddaga eða sendist-til aðsetri.  
-
-Ef raðað er eftir gjalddaga er hægt að eyða öllum línum öðrum en þeim sem sinna þarf strax af vinnublaðinu. Minna áríðandi línum er ekki eytt þannig séð, heldur fara þær aftur á vinnublaðið **Tínsluval**. Þegar tínslan er stofnuð hefur línunum þegar verið raðað eftir gjalddaga og hægt er að úthluta tínslunni á tiltekinn starfsmann.  
+Á síðunni **Vinnublöð tínslu** er hægt að setja upp tiltektarlista sem hjálpa starfsmönnum að safna saman vörum í vöruhúsinu. Á síðunni er hægt að sjá tiltækt magn í hjáskipunarhólfum, sem er gagnlegt við áætlanagerð vinnuúthlutunar í aðstæðum hjáskipunar. [!INCLUDE[prod_short](includes/prod_short.md)] mun alltaf fyrst leggja til tiltekt úr hjáskipunarhólfi. Línurnar í vinnublaðinu geta komið úr nokkrum upprunaskjölum. Þær gætu til dæmis komið úr fleiri en einni sölupöntun. 
 
 > [!NOTE]  
-> Tínsla fyrir vöruhúsaafhendingu vara sem settar eru saman úr sölupöntuninni sem verið er að afenda fylgir sömu aðferð og hefðbundin vöruhúsatínsla fyrir afhendingu eins og lýst er í þessu efnisatriði. Hins vegar gæti fjöldi tínslulína miðað við afhendingarmagn verið af gerðinni n:1 þar sem íhlutar eru tíndir en ekki samsetningarvaran.  
+> Að tína vörur sem er safnað saman fyrir sölupöntun sem á að senda fylgir sömu skrefunum og fyrir venjulega tiltekt vöruhúss fyrir sendingar. Hins vegar gæti fjöldi tínslulína miðað við afhendingarmagn verið af gerðinni margt í eitt þar sem hlutir eru tíndir en ekki samsetningarvaran.  
 >
-> Vöruhúsatínslulínurnar eru stofnaðar fyrir gildið í reitnum **Eftirstöðvar** í línum samsetningarpöntunarinnar sem tengist sölupöntunarlínunni sem verið er að afhenda. Þetta tryggir að allir íhlutir eru tíndir í einni aðgerð.  
->
-> Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga í afhendingum vöruhúss” í afhendingum vöruhúss .  
+> Vöruhúsatínslulínurnar eru stofnaðar fyrir gildið í reitnum **Eftirstöðvar** í línum samsetningarpöntunarinnar sem tengist sölupöntunarlínunni sem verið er að afhenda. Þetta tryggir að allir íhlutir eru tíndir í einni aðgerð. Frekari upplýsingar er að finna í [Selja birgðavörur í flæðum samsetningar í pöntun](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 >
 > Upplýsingar um almenna tínslu íhluta fyrir samsetningarpantanir, þar á meðal þegar samsetningaríhlutur er ekki hluti af söluafhendingu, eru í [Tína fyrir framleiðslu eða samsetningu í grunngerð ítarlegs vöruhúss](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+
+## <a name="sorting-lines-on-a-pick-worksheet"></a>Röðun lína á vinnublaði tiltektar
+Hægt er að raða línum eftir vöru, hillunúmeri, upprunaskjali, gjalddaga eða áfangastað. Hér eru nokkur dæmi um hvernig röðun getur reynst gagnleg.
+
+* Ef raðað er eftir gjalddaga er hægt að eyða öllum línum öðrum en þeim sem þarf að sinna strax. Minna áríðandi línum er ekki eytt þannig séð, heldur fara þær aftur á vinnublaðið **Tínsluval**. Þegar tínslan er stofnuð hefur línunum þegar verið raðað eftir gjalddaga og hægt er að úthluta tínslunni á starfsmann.
+* Ef hólfin eru númeruð til að passa við eiginlegt útlit vöruhússins getur röðun á línum eftir hólfanúmeri gert tínslu auðveldari fyrir margar sendingar samtímis. 
+* Ef notuð er hólfaflokkun getur röðun eftir flokki sparað tíma. 
+* Hægt er að raða eftir áfangastað, sem gerir þér kleift að safna saman og senda pantanir fyrir hvern viðskiptamann.
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Tínslur skipulagðar á vinnublaðinu:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað tínslu** og velja síðan viðkomandi tengil.  
 2. Valið er **Sækja vöruhúsaskjöl** aðgerð.  
-3. Afhendingarnar sem undirbúa á tínslu fyrir eru valdar. Nú er hægt að raða línunum upp að vissu marki en röðunin sem hér er gerð flyst ekki áfram í tínsluleiðbeiningarnar. Einnig er hægt að eyða línum til að gera tínsluna skilvirkari. Til dæmis, ef til eru línur með vörum í hjáskipunarhólfum er hægt að stofna tínslu fyrir allar línur sem tengjast þeim línum. Hjáskipunarvörurnar verða sendar (ásamt hinum vörunum í afhendingunum) og hjáskipunarhólfin hafa pláss fyrir fleiri vörur.  
-4. Velja aðgerðina **Stofna tínslu** og beiðnisíðan **Stofna tínslu** er fyllt út. Röðunin hér raðar tínslulínunum sem stofnaðar eru. Til dæmis er hægt að stofna eina tínslu fyrir hvert svæði og raða línum eftir hólfaflokkum innan hverrar tínslu.  
+3. Afhendingarnar sem undirbúa á tínslu fyrir eru valdar. Hægt er að raða línunum en röðunin verður ekki notuð í tiltektarleiðbeiningunum. Einnig er hægt að eyða línum til að gera tínsluna skilvirkari. Ef til að mynda til eru margar línur með vörum sem eru í hjáskipunarhólfum væri hægt að stofna tínslu fyrir allar línurnar. Hjáskipunarvörurnar verða sendar (ásamt hinum vörunum í afhendingunum) og hjáskipunarhólfin hafa pláss fyrir fleiri vörur.  
+4. Veldu aðgerðina **Stofna tínslu** og fylltu út síðuna **Stofna tínslu**. Röðunin hér raðar tínslulínunum sem stofnaðar eru. Til dæmis er hægt að stofna eina tínslu fyrir hvert svæði og raða línum eftir hólfaflokkum innan hverrar tínslu.  
 5. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsatínslur** og velja síðan viðkomandi tengil. Síðan **Vöruhúsatínslur** opnast.  
-6. Nú er hægt að finna tínsluúthlutunina sem stofnuð var með því að velja tínsluna með hæsta númerinu.  
-7. Í tínslunni er hægt að breyta notandakenninu og röðun línanna ef þess þarf.  
+6. Nú er hægt að finna tínsluúthlutunina með því að velja tínsluna með hæsta númerið.  
+7. Ef þörf er á er hægt að úthluta öðrum notanda eða raða línunum á annan hátt.  
 8. Veldu hnappinn **Prenta** til þess að prenta tínsluleiðbeiningarnar.  
-9. Þegar tínslunni er lokið skal velja aðgerðina **Skrá**.  
-
-Hafi hólfin verið númeruð í samræmi við eiginlegt skipulag vöruhússins flýtir röðun lína eftir hólfakóta tínslu á nokkrum afhendingum í einni ferð um vöruhúsið. Starfsmaðurinn tekur tilskilinn fjölda af vörum fyrir hverja afhendingu úr hverju hólfi og setur þær með hinum vörunum í afhendingunni. Tínslumaður getur sparað mikinn tíma með því að tína í nokkrar afhendingar í einni ferð í hólfið.  
-
-Önnur skilvirk röðun er eftir hólfaflokkun ef eiginlegt skipulag vöruhússins samsvarar hólfaflokkun meira en hólfakótum.  
-
-Á vinnublaði tínslunnar er einnig hægt að raða eftir sendist-til aðsetrum þannig að hægt sé tína í og senda pantanir til viðskiptamanna sem lengst eru frá fyrst.  
+9. Eftir að tínslu er lokið skal velja aðgerðina **Skrá**.  
 
 ## <a name="see-also"></a>Sjá einnig
 

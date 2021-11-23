@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442701"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752581"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Vinna með standandi sölupantanir eða standandi innkaupapantanir
 
@@ -67,7 +67,7 @@ Hægt er að skoða stöðu standandi sölupantana á síðunni **Upplýsingar u
 - Á flýtiflipanum **Reikningsfærsla** er hægt að sjá samantekt byggða á heildarmagni í reitunum **Magn til reikningsfærslu** í línum standandi sölupöntunarinnar.  
 - Á flýtiflipanum **Afhending** er hægt að sjá samantekt byggða á heildarmagni í reitunum **Magn til móttöku** í línum standandi sölupöntunarinnar.  
 - Á flýtiflipanum **Fyrirframgreiðsla** er hægt að sjá samantekt um allar fyrirframgreiddar upphæðir.  
-- Á flýtiflipanum **Lánardrottinn** er hægt að skoða ákveðnar grunnupplýsingar um lánardrottininn.    
+- Á flýtiflipanum **Lánardrottinn** er hægt að skoða ákveðnar grunnupplýsingar um lánardrottininn.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Hvernig á að skoða óbókaðar og bókaðar línur standandi sölupöntunar   
 Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allra annarra söluskjala, er varðveitt eftir bókun sem listi yfir bókaðar og óbókaðar reikningslínur sölupantana.  
@@ -76,21 +76,21 @@ Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allr
 2. Opna standandi sölupöntun sem á að skoða.
 3. Til að skoða óbókaðar færslur skal smella á viðkomandi línu, velja aðgerðina **Lína**, og velja síðan aðgerðina **óbókaðar línur**. Einn af eftirfarandi kostum er valinn:  
 
-    |Valkostur|Description|
-    |--|--|
-    |**Pantanir**|Tilgreinir opnar pantanir tengdar völdu línunni.|
-    |**Reikningar**|Tilgreinir opna reikninga sem tengdir hafa verið við völdu línuna. Opnir reikningar eru handvirkt tengdir við standandi pöntun með því færa inn standandi pöntunarnúmer í sölureikningslínuna.|
-    |**Vöruskilapantanir**|Tilgreinir opnar vöruskilapantanir sem hafa verið tengdar við völdu línuna eru opnaðar.|
-    |**Kreditreikningar**|Tilgreinir kreditreikninga sem tengdir hafa verið við völdu línuna.|
+|Valkostur|Description|
+|--|--|
+|**Pantanir**|Tilgreinir opnar pantanir tengdar völdu línunni.|
+|**Reikningar**|Tilgreinir opna reikninga sem tengdir hafa verið við völdu línuna. Opnir reikningar eru handvirkt tengdir við standandi pöntun með því færa inn standandi pöntunarnúmer í sölureikningslínuna.|
+|**Vöruskilapantanir**|Tilgreinir opnar vöruskilapantanir sem hafa verið tengdar við völdu línuna eru opnaðar.|
+|**Kreditreikningar**|Tilgreinir kreditreikninga sem tengdir hafa verið við völdu línuna.|
 
 4. Til að skoða bókaðar færslur skal smella á viðkomandi línu, velja aðgerðina **Lína**, og velja síðan aðgerðina **bókaðar línur**. Einn af eftirfarandi kostum er valinn:  
 
-    |Valkostur|Description|
-    |---|----|
-    |**Afhendingar**|Bókaðar afhendingar tengdar við völdu línuna..|
-    |**Reikningar**|Bókaðir reikningar tengdir við völdu línuna..|
-    |**Vöruskilamóttökur**|Bókaðar vöruskilamóttökur tengdar við völdu línuna.|
-    |**Kreditreikningar**|Bókaðir kreditreikningar sem tengdir hafa verið við völdu línuna.|
+|Valkostur|Description|
+|---|----|
+|**Afhendingar**|Bókaðar afhendingar tengdar við völdu línuna..|
+|**Reikningar**|Bókaðir reikningar tengdir við völdu línuna..|
+|**Vöruskilamóttökur**|Bókaðar vöruskilamóttökur tengdar við völdu línuna.|
+|**Kreditreikningar**|Bókaðir kreditreikningar sem tengdir hafa verið við völdu línuna.|
 
 5. Á síðunni **Sölulínur** skal velja aðgerðina **Sýna fylgiskjal** til að skoða færsluna.
 

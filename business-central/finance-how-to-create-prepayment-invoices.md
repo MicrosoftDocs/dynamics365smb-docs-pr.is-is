@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að stofna reikninga fyrirframgreiðslu
+title: Stofna fyrirframgreiðslureikninga
 description: Takist á við aðstæður þar sem þú eða lánardrottinn þinn krefjast fyrirframgreiðslu. Notið sjálfgefnar prósentur fyrir hverja sölu- og innkaupalínu eða leiðréttið upphæðina eins og með þarf.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442186"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701566"
 ---
 # <a name="create-prepayment-invoices"></a>Stofna fyrirframgreiðslureikninga
 
 Ef þú gerir kröfu um að viðskiptavinir inni greiðslu af hendi áður en þú sendir pöntun til þeirra getur þú notað aðgerð fyrirframgreiðslu. Sama gildir ef lánardrottinn þinn krefst þess að þú innir greiðslu af hendi áður en hann sendir pöntun til þín.  
 
-Hægt er að hefja fyrirframgreiðsluferlið þegar búið er að stofna sölu- eða innkaupapöntun. Ef um er að ræða sjálfgefin fyrirframgreiðsluprósenta fyrir þennan viðskiptavin eða lánardrottinn verður hún sjálfkrafa innifalin á fyrirframgreiðslureikningnum. Einnig er hægt að tilgreina fyrirframgreiðsluprósentuna fyrir allt skjalið.
+Hægt er að hefja fyrirframgreiðsluferlið þegar búið er að stofna sölu- eða innkaupapöntun. Ef um er að ræða sjálfgefna fyrirframgreiðsluprósentu fyrir tiltekna vöru í pöntuninni eða fyrir þennan viðskiptavin eða lánardrottin, verður hún sjálfkrafa innifalin á fyrirframgreiðslureikningnum. Einnig er hægt að tilgreina fyrirframgreiðsluprósentuna fyrir allt skjalið.
 
 Þegar búið er að stofna sölu- eða innkaupapöntun er hægt að stofna fyrirframgreiðslureikning. Hægt er að nota sjálfgefnar prósentur fyrir sölu- og innkauplínur eða leiðrétta upphæðina eins og með þarf. Til dæmis er hægt að tilgreina heildarupphæð fyrir alla pöntunina.  
 

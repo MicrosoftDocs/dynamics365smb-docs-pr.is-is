@@ -1,5 +1,5 @@
 ---
-title: Greiðsluvikmörk og greiðsluafsláttarvikmörk | Microsoft Docs
+title: Greiðsluvikmörk og greiðsluafsláttarvikmörk
 description: Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: dce64c634fb0ca7ba4358f5cc47cb8b49596b6ed
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: eac371e873cc5b1d4a1927bccb8cee8d7e2f6e9f
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436224"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724738"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
 Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum. Til dæmis eru greiðsluvikmörk yfirleitt fyrir litlar upphæðir sem myndi kosta meira að leiðrétta en að samþykkja. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
@@ -53,7 +53,7 @@ Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilg
 6. Á síðunni **Bókunarflokk lánardrottna** eru debet og kredit greiðsluvikmarkareikningar settir upp.  
 7. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags** og velja síðan viðkomandi tengil.  
 8. Opna síðuna **Uppsetning fjárhags**.  
-9. Á flýtiflipanum **Jöfnun** fyllið út **Greiðsluafslátt greiðsluvikmarka**, **Greiðsluafslátt biðtíma** og svæðið **Bókun greiðsluvikmarka**.   
+9. Á flýtiflipanum **Jöfnun** skal fylla út reitina **Bókun greiðsluafsláttarvikmarka**, **Biðtími greiðsluafsláttar** og **Bókun greiðsluvikmarka**.   
 10. Veljið aðgerðina **Breyta greiðsluvikmörkum**.
 11. Á síðunni **Breyta greiðsluvikmörkum** þarf að fylla út reitina **Vikmarkaprósenta greiðslu** og **Hám.upph. greiðsluvikmarka** og smella síðan á **Í lagi**.
 
@@ -73,7 +73,7 @@ Viðvörun um vikmörk greiðslu birtist þegar jöfnun er bókuð með stöðu 
 2. Á síðunni **Fjárhagsgrunnur** á flipanum **Jöfnun** skaltu kveikja á **Viðvörun um greiðsluvikmörk** til að virkja viðvörunina. Til að gera viðvörunina óvirka skaltu slökkva á þessu.  
 
 > [!NOTE]  
->  Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluvikmörk** síðuna er **Láta stöðu standa sem eftirstöðvar**. Sjálfgefinn valkostur fyrir **Viðvörun um vikmörk greiðsluafsláttar** síðuna er **Hafna síðbúnum greiðsluafslætti**.
+>  Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluvikmörk** síðuna er **Láta stöðu standa sem eftirstöðvar**. Sjálfgefinn valkostur fyrir síðuna **Viðvörun greiðsluafsláttarvikmarka** er **Ekki samþykkja síðbúinn staðgreiðsluafslátt**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Lokað á greiðsluvikmörk viðskiptavina  
 Sjálfgildið fyrir greiðsluvikmörk er heimilað. Ef greiðsluvikmörk eiga ekki að vera heimil fyrir tiltekin viðskiptamann eða lánardrottinn skal loka á vikmörk á viðkomandi viðskiptamanns- eða lánardrottinsspjaldi. Eftirfarandi sýnir hvernig farið er að þessu fyrir viðskiptamann. Skrefin eru svipuð fyrir lánardrottinn.
@@ -96,24 +96,24 @@ Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
 - **A** Í þessu tilviki hefur viðvörun um vikmörk greiðsluafsláttar verið gerð óvirk EÐA notandinn hefur viðvörunina virka og hefur valið að heimila afslátt af síðbúinni greiðslu (Bóka stöðu sem greiðsluvikmörk).  
 - **B** Í þessu tilviki hefur notandinn viðvörunina virka og hefur valið að heimila ekki afslátt af síðbúinni greiðslu (Láta stöðu standa sem eftirstöðvar).  
 
-|—|Reikn.|Staðgr.afsl.|Hám. stgr.vikm.|Mörk staðgr.afsl.|Vikm. staðgr.afsl. Dagsetning|Greiðsludagur|Stgr.|Tegund vikmarka|Allar færslur lokaðar|Vikm. staðgr.afsl. GL/CL|Gr.vikm. Fjárhagur|  
+|—|Reikn.|Greiðsluafsláttur|Hámarks greiðsluvikmörk|Dags. greiðsluafsláttar|Dagsetning greiðsluafsláttarvikmarka|Greiðsludagur|Greiðsla|Tegund vikmarka|Allar færslur lokaðar|Greiðsluafsláttarvikmörk GL/CL|Greiðsluvikmörk fjárhags|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
-|1|1,000|20|5|15/01/03|20/01/03|<=15/01/03|985|Stgr.vikm.|Já|0|-5|  
+|1|1,000|20|5|15/01/03|20/01/03|<=15/01/03|985|PaymentTolerance|Já|0|-5|  
 |2|**1,000**|**20**|**5**|**15/01/03**|**20/01/03**|**<=15/01/03**|**980**|**Ekkert**|**Já**|**0**|**0**|  
-|3|1,000|20|5|15/01/03|c|<=15/01/03|975|Stgr.vikm.|Já|0|5|  
-|4A|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|1005|Stgr.afsl.vikm.|Nei, 25 við greiðslu|20/-20|0|  
-|5A|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|1000|Stgr.afsl.vikm.|Nei, 20 við greiðslu|20/-20|0|  
-|6A|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|995|Stgr.afsl.vikm.|Nei, 15 við greiðslu|20/-20|0|  
-|4B|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|1005|Stgr.vikm.|Já|0|-5|  
+|3|1,000|20|5|15/01/03|n|<=15/01/03|975|PaymentTolerance|Já|0|5|  
+|4A|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|1005|PaymentDiscountTolerance|Nei, 25 á greiðslu|20/-20|0|  
+|5A|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|1000|PaymentDiscountTolerance|Nei, 20 á greiðslu|20/-20|0|  
+|6A|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|995|PaymentDiscountTolerance|Nei, 15 á greiðslu|20/-20|0|  
+|4B|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|1005|PaymentTolerance|Já|0|-5|  
 |**5B**|**1,000**|**20**|**5**|**15/01/03**|**20/01/03**|**16/01/03 20/01/03**|**1000**|**Ekkert**|**Já**|**0**|**0**|  
-|6B|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|995|Stgr.vikm.|Já|0|5|  
-|7|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|985|Stgr.afsl.vikm. & Stgr.vikm.|Já|20/-20|-5|  
-|8|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|980|Stgr.afsl.vikm.|Já|20/-20|0|  
-|9|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|975|Stgr.afsl.vikm. & Stgr.vikm.|Já|20/-20|5|  
-|10|1,000|20|5|15/01/03|20/01/03|>20/01/03|1005|Stgr.vikm.|Já|0|-5|  
+|6B|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|995|PaymentTolerance|Já|0|5|  
+|7|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|985|PayDiscountTolerance & PaymentTolerance|Já|20/-20|-5|  
+|8|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|980|PaymentDiscountTolerance|Já|20/-20|0|  
+|9|1,000|20|5|15/01/03|20/01/03|16/01/03 20/01/03|975|PayDiscountTolerance & PaymentTolerance|Já|20/-20|5|  
+|10|1,000|20|5|15/01/03|20/01/03|>20/01/03|1005|PaymentTolerance|Já|0|-5|  
 |**11**|**1,000**|**20**|**5**|**15/01/03**|**20/01/03**|**>20/01/03**|**1000**|**Ekkert**|**Já**|**0**|**0**|  
-|12|1,000|20|5|15/01/03|20/01/03|>20/01/03|995|Stgr.vikm.|Já|0|5|  
-|13|1,000|20|5|15/01/03|20/01/03|>20/01/03|985|Ekkert|Nei, 15 við reikning|0|0|  
+|12|1,000|20|5|15/01/03|20/01/03|>20/01/03|995|PaymentTolerance|Já|0|5|  
+|13|1,000|20|5|15/01/03|20/01/03|>20/01/03|985|Engin|Nei, 15 við reikning|0|0|  
 |14|1,000|20|5|15/01/03|20/01/03|>20/01/03|980|Ekkert|Nei, 20 við reikning|0|0|  
 |15|1,000|20|5|15/01/03|20/01/03|>20/01/03|975|Ekkert|Nei, 25 við reikning|0|0|  
 
@@ -125,7 +125,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Reglur um greiðsluþol eingreiðslu 1.](media/singlePmtTolRules(Pre1503).gif "Reglur um greiðsluþol eingreiðslu 1")  
+![Reglur um greiðsluþol eingreiðslu 1.](media/singlePmtTolRules_Pre1503.gif "Reglur um greiðsluþol eingreiðslu 1")  
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -136,7 +136,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Reglur um greiðsluþol eingreiðslu 2.](media/singlePmtTolRules(GracePeriod).gif "Reglur um greiðsluþol eingreiðslu 2")  
+![Reglur um greiðsluþol eingreiðslu 2.](media/singlePmtTolRules_GracePeriod.gif "Reglur um greiðsluþol eingreiðslu 2")  
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -147,7 +147,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Reglur um greiðsluþol eingreiðslu 3.](media/singlePmtTolRules(Post0120).gif "Reglur um greiðsluþol eingreiðslu 3")  
+![Reglur um greiðsluþol eingreiðslu 3.](media/singlePmtTolRules_Post0120.gif "Reglur um greiðsluþol eingreiðslu 3")  
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -167,38 +167,38 @@ Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
 - **C** - Í þessu tilviki hefur notandinn viðvörunina virka og hefur valið að heimila afslátt af síðbúinni greiðslu á fyrsta reikningi en ekki þeim næsta.  
 - **D** - Í þessu tilviki hefur notandinn viðvörunina virka og hefur valið að heimila ekki afslátt af síðbúinni greiðslu á fyrsta reikningi en heimilar hann á þeim næsta.  
 
-|—|Reikn.|Staðgr.afsl.|Hám. stgr.vikm.|Mörk staðgr.afsl.|Vikm. staðgr.afsl. Dagsetning|Greiðsludagur|Gr.|Tegund vikmarka|Allar færslur lokaðar|Vikm. staðgr.afsl. GL/CL|Gr.vikm. Fjárhagur|  
+|—|Reikn.|Greiðsluafsláttur|Hámarks greiðsluvikmörk|Dags. greiðsluafsláttar|Dagsetning greiðsluafsláttarvikmarka|Greiðsludagur|Greiðsla|Tegund vikmarka|Allar færslur lokaðar|Greiðsluafsláttarvikmörk GL/CL|Greiðsluvikmörk fjárhags|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
-|1|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1920|Stgr.vikm.|Já|0<br /><br /> 0|-5 <br />-5|  
+|1|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1920|PaymentTolerance|Já|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**<=15/01/03**|**1910**|**Ekkert**|**Já**|**0**<br /><br /> **0**|0 <br />0|  
-|3|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1900|Stgr.vikm.|Já|0<br /><br /> 0|5 <br />5|  
-|4B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1980|Stgr.vikm.|Já|0<br /><br /> 0|-5<br /><br /> -5|  
+|3|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1900|PaymentTolerance|Já|0<br /><br /> 0|5 <br />5|  
+|4B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1980|PaymentTolerance|Já|0<br /><br /> 0|-5<br /><br /> -5|  
 |**5B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**16/01/03 17/01/03**|**1970**|**Ekkert**|**Já**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|6B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1960|Stgr.vikm.|Já|0<br /><br /> 0|5<br /><br /> 5|  
-|7A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1920|Stgr.afsl.vikm. & Stgr.vikm.|Já|60/60<br /><br /> 0/0|-5 <br />-5|  
-|8A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1910|Stgr.afsl.vikm.|Já|60/60<br /><br /> 0/0|0 <br />0|  
-|9A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1900|Stgr.afsl.vikm. & Stgr.vikm.|Já|60/60|5 <br />5|  
-|10B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|2010|Stgr.vikm.|Já|0<br /><br /> 0|-5<br /><br /> -5|  
+|6B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1960|PaymentTolerance|Já|0<br /><br /> 0|5<br /><br /> 5|  
+|7A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1920|PayDiscountTolerance & PaymentTolerance|Já|60/60<br /><br /> 0/0|-5 <br />-5|  
+|8A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1910|PaymentDiscountTolerance|Já|60/60<br /><br /> 0/0|0 <br />0|  
+|9A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1900|PayDiscountTolerance & PaymentTolerance|Já|60/60|5 <br />5|  
+|10B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|2010|PaymentTolerance|Já|0<br /><br /> 0|-5<br /><br /> -5|  
 |**11B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**18/01/03 20/01/03**|**2000**|**Ekkert**|**Já**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|12B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1990|Stgr.vikm.|Já|0<br /><br /> 0|5<br /><br /> 5|  
-|13D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1980|Stgr.afsl.vikm. & Stgr.vikm.|Já|0/0<br /><br /> 30/-30|-5 <br />-5|  
-|14D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1970|Stgr.afsl.vikm.|Já|0/0<br /><br /> 30/-30|0 <br />0|  
-|15D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1960|Stgr.afsl.vikm. & Stgr.vikm.|Já|0/0<br /><br /> 30/-30|5 <br />5|  
-|16D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1950|Stgr.afsl.vikm. & Stgr.vikm.|Já|60/-60<br /><br /> 0/0|-5 <br />-5|  
-|17D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1940|Stgr.afsl.vikm.|Já|60/-60<br /><br /> 0/0|0 <br />0|  
-|18D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1930|Stgr.afsl.vikm. & Stgr.vikm.|Já|60/-60<br /><br /> 0/0|5 <br />5|  
-|19A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1920|Stgr.afsl.vikm. & Stgr.vikm.|Já|60/-60<br /><br /> 30/-30|-5 <br />-5|  
-|20A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1910|Stgr.afsl.vikm.|Já|60/-60<br /><br /> 30/-30|0 <br />0|  
-|21A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1900|Stgr.afsl.vikm. & Stgr.vikm.|Já|60/-60<br /><br /> 30/-30|5 <br />5|  
-|22B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|2010|Stgr.vikm.|Já|0<br /><br /> 0|-5<br /><br /> -5|  
+|12B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1990|PaymentTolerance|Já|0<br /><br /> 0|5<br /><br /> 5|  
+|13D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1980|PayDiscountTolerance & PaymentTolerance|Já|0/0<br /><br /> 30/-30|-5 <br />-5|  
+|14D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1970|PaymentDiscountTolerance|Já|0/0<br /><br /> 30/-30|0 <br />0|  
+|15D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1960|PayDiscountTolerance & PaymentTolerance|Já|0/0<br /><br /> 30/-30|5 <br />5|  
+|16D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1950|PayDiscountTolerance & PaymentTolerance|Já|60/-60<br /><br /> 0/0|-5 <br />-5|  
+|17D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1940|PaymentDiscountTolerance|Já|60/-60<br /><br /> 0/0|0 <br />0|  
+|18D|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1930|PayDiscountTolerance & PaymentTolerance|Já|60/-60<br /><br /> 0/0|5 <br />5|  
+|19A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1920|PayDiscountTolerance & PaymentTolerance|Já|60/-60<br /><br /> 30/-30|-5 <br />-5|  
+|20A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1910|PaymentDiscountTolerance|Já|60/-60<br /><br /> 30/-30|0 <br />0|  
+|21A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1900|PayDiscountTolerance & PaymentTolerance|Já|60/-60<br /><br /> 30/-30|5 <br />5|  
+|22B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|2010|PaymentTolerance|Já|0<br /><br /> 0|-5<br /><br /> -5|  
 |**23B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**21/01/03 22/01/03**|**2000**|**Ekkert**|**Já**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|24B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1990|Stgr.vikm.|Já|0<br /><br /> 0|5<br /><br /> 5|  
-|25A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1980|Stgr.afsl.vikm. & Stgr.vikm.|Já|0/0<br /><br /> 30/30|-5 <br />-5|  
-|26A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1970|Stgr.afsl.vikm.|Já|0/0<br /><br /> 30/30|0 <br />0|  
-|27A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1960|Stgr.afsl.vikm. & Stgr.vikm.|Já|0/0<br /><br /> 30/30|5 <br />5|  
-|28|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|2010|Stgr.vikm.|Já|0|-5|  
+|24B|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1990|PaymentTolerance|Já|0<br /><br /> 0|5<br /><br /> 5|  
+|25A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1980|PayDiscountTolerance & PaymentTolerance|Já|0/0<br /><br /> 30/30|-5 <br />-5|  
+|26A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1970|PaymentDiscountTolerance|Já|0/0<br /><br /> 30/30|0 <br />0|  
+|27A|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1960|PayDiscountTolerance & PaymentTolerance|Já|0/0<br /><br /> 30/30|5 <br />5|  
+|28|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|2010|PaymentTolerance|Já|0|-5|  
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**>22/01/03**|**2000**|**Ekkert**|**Já**|**0**|**0**|  
-|30|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|Stgr.vikm.|Já|0|5|  
+|30|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|PaymentTolerance|Já|0|5|  
 
 ### <a name="payment-range-diagrams"></a>Skýringar greiðslusviða  
 Í tengslum við dæmið að ofan eru skýringar á greiðslusviðum sem hér segir:  
@@ -208,7 +208,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Reglur um greiðsluþol margra greiðslna 1a":::
+:::image type="content" source="media/multiplePmtTolRules_Pre1503.gif" alt-text="Reglur um greiðsluþol margra greiðslna 1a":::
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -219,7 +219,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Reglur um greiðsluþol margra greiðslna 2":::
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1-2.gif" alt-text="Reglur um greiðsluþol margra greiðslna 2":::
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -230,7 +230,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Reglur um greiðsluþol margra greiðslna 3":::
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1.gif" alt-text="Reglur um greiðsluþol margra greiðslna 3":::
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -241,7 +241,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Reglur um greiðsluþol margra greiðslna 4":::
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv2.gif" alt-text="Reglur um greiðsluþol margra greiðslna 4":::
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -252,7 +252,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Reglur um greiðsluþol margra greiðslna 5":::
+:::image type="content" source="media/multiplePmtTolRules_Post0122.gif" alt-text="Reglur um greiðsluþol margra greiðslna 5":::
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
