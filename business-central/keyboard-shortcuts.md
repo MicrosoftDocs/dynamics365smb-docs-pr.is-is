@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588252"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865443"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -37,7 +37,7 @@ Flýtivísanir aðstoða við aðgengi og geta auðveldað flettingar og gert þ
 Flestar flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða macOS. Hins vegar eru nokkrar flýtileiðir frábrugðnar fyrir macOS. Þessar flýtileiðir eru tilgreindar með sviga í eftirfarandi hlutum.
 
 > [!NOTE]
-> Auk altækra flýtilykla sem lýst er í þessu efnisatriði er hægt að nálgast fjölda sértækra flýtilykla. Til dæmis í almennri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)], F9 bókar skjal og CTRL+F7 sýnir fjárhagslegar færslur fyrir færslu þegar færslan er opnuð á korti. (Þetta getur verið annað í lausninni þinni.) Flýtilykillinn er sýndur í ábendingunni fyrir aðgerðina sem um ræðir.
+> Auk altækra flýtilykla sem lýst er í þessari grein eru nokkrir viðskiptatengdir flýtilyklar tiltækir. Til dæmis í almennri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)], F9 bókar skjal og CTRL+F7 sýnir fjárhagslegar færslur fyrir færslu þegar færslan er opnuð á korti. Þessi grein inniheldur nokkrar af algengari viðskiptatengdum flýtileiðum, sem eru sýndar í skáletri. Hafðu í huga að raunverulegar flýtileiðir geta verið aðrar í lausninni. Í notendaviðmótinu er flýtilykillinn sýndur í ábendingunni fyrir viðkomandi aðgerð.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Almennar flýtivísanir
 
@@ -83,9 +83,17 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Raðaðu völdum dálki í hækkandi eða lækkandi röð.|Á ekki við.|
 |Alt+N|Settu inn nýja línu í breytanlegum lista á borð við síðuna **Fjárhagsáætlanir**.|Sama.|
+|Shift+F9|Bóka og prenta skjal.|Sama.|
 |Shift+F10 |Opnaðu valmynd valkosta sem eru í boði fyrir valda röð.|Sama.|
+|Alt+D|Opna víddasamstæðufærslurnar.|Sama.|
+|Ctrl+F7|Opnar færslur, skráir færslur, kostnaðarfærslur og svo framf.|
+|Ctrl+F9|Losa skjal.|Sama.|
+|*F7*|Opna talnagögn.|Sama.|
+|*F9*|Bóka, gefa út, skrá eða bakfæra skjal.|Sama.|
+|*Shift+Ctrl+F*|Senda tillögur að línum á síðu sjóðstreymis worsheets.|Á ekki við.|
+|*Shift+Ctrl+I*|Skoða rað- og lotunúmer sem úthlutað er á línuatriðið í skjalinu eða færslubókinni.|Á ekki við.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Flett milli raða og dálka
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts">Flett milli raða og dálka</a>
 
 Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!INCLUDE[prod_short](includes/prod_short.md)], svo sem listasíður og **Línur** sem hlutar skjala. Flutningur frá einu hólfi til annars yfir hnitanet er að fullu virkt fyrir lyklaborð.
 
@@ -103,10 +111,10 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 | ÖR UPP | Fara í sama dálki í reitinn í línunni fyrir ofan. | Fara í sama dálk í svæðinu í línunni fyrir ofan. |
 | Hægri ör | Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í næsta reit til hægri.<br /><br />Í breytanlegum listi, farðu til hægri innan núverandi reits. | Fara í sömu röð í næsta reit til hægri. |
 | Vinstri ör | Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í fyrri reit til vinstri. <br /><br />Í breytanlegum lista, farðu til vinstri innan núverandi reits. | Fara í sömu röð í fyrra svæði til vinstri. |
-| Dálklykill | Í breytanlegum lista, farðu í sömu röð til næsta reit til hægri. | Á ekki við. |  |
+| Dálklykill | Í breytanlegum lista, farðu í sömu röð til næsta reit til hægri. | Á ekki við. | 
 | SHIFT+DÁLKLYKILL | Í breytanlegum lista, farðu í sömu röð í fyrri reit til vinstri. | Á ekki við. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Val, afritun og líming
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows">Val, afritun og líming</a>
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |
 |--------------------------------|--------------------------|--------------------------|
@@ -117,7 +125,7 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 |Ctrl+bilslá<br />(Ctrl+Cmd+bilslá)|Stækkið valið af línum til að hafa með línu sem áherslan er á.<br /><br />Þú getur notað þetta eftir að hafa notað Ctrl+uppör eða Ctrl+niðurör til að auka val þitt.|Á ekki við.|
 |Ctrl+A|Velja allar línur.|Á ekki við.|
 |Ctrl+C<br />(Cmd + C)|Afritaðu valdar raðirnar yfir á klippiborðið.|Já, en aðeins fyrir einn valinn reit.|
-|Ctrl+V<br />(Cmd + V)|Límdu valdar raðir úr klippiborðinu inn í núverandi síðu eða ytri skjal, eins og Microsoft Excel eða Outlook tölvupóst. Þú getur aðeins gert þetta í breytanlegum listum.|Á ekki við.|
+|Ctrl+V<br />(Cmd + V)|Líma valdar línur af klemmuspjaldinu inn á núverandi síðu eða ytra skjal, eins og Microsoft Excel eða Outlook tölvupóst. Þú getur aðeins gert þetta í breytanlegum listum.|Á ekki við.|
 |Shift+uppör|Stækkið valið af línum til að hafa með línuna fyrir ofan.|Á ekki við.|
 |Shift+niðurör|Stækkið valið af línum til að hafa með línuna fyrir neðan.|Á ekki við.|
 |Shift+síða upp<br />(Shift+Fn+uppör)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir ofan núverandi val af línum.|Á ekki við.|
@@ -142,7 +150,9 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
+|Alt+D|Opna víddasamstæðufærslurnar.|
 |Alt+F6|Víxla draga saman/útvíkka fyrir gildandi flýtiflipa eða hluta (undirsíða).|
+|Alt+F9|Stofna nýtt skjal og bóka það.|
 |Alt+G|Opnið síðuna **Finna færslur** til að finna færslur sem tengjast bókuðu skjali. Virkar einnig í listum.|
 |Alt+N |Opnaðu síðu til að búa til nýja færslu; á sama hátt og aðgerðin **Nýtt** er valin. |
 |Alt+Shift+N |Lokaðu síðu og opnaðu nýja til að stofna nýja færslu; á sama hátt og aðgerðin **Í lagi og nýtt** er valin. |
@@ -152,9 +162,15 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 |Ctrl+uppör |Opnaðu færsluna á undan fyrir einingu.|
 |Ctrl+Insert |Setja inn nýja línu í skjal.|
 |Ctrl+Delete |Eyddu línunni, í skjölum, færslubókum og vinnublöðum.|
+|Ctrl+F7|Opnar færslur, skráir færslur, kostnaðarfærslur og svo framf.|
+|Ctrl+F9|Losa skjal.|
 |Ctrl+Shift+F12 |Hámarkaðu hluta vörulína á skjalasíðu. Ýttu á lyklana aftur og farðu aftur í venjulegt útlit. Frekari upplýsingar er að finna í [Fókus á vörulínur](ui-enter-data.md#Focus).|
 |F6|Fara í næsta flýtiflipa|
+|*F7*|Opna talnagögn.|
+|*F9*|Bóka, gefa út, skrá eða bakfæra skjal.|
+|*Shift+Ctrl+F9*|Bóka, prenta og ganga frá vöruhúsamóttöku.|
 |Shift+F6|Fara á fyrri flýtiflipa eða hluta (undirsíða).|
+|*Shift+F9*|Bóka og prenta skjal.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Flýtileiðir flýtifærslu fyrir reiti
 

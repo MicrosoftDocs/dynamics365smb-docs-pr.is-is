@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444796"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865339"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Bæta reitum við Word-skýrsluútlit
 Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndir. Þetta efnisatriði lýsir ferlinu við að bæta reitum í gagnasafni skýrslu við fyrirliggjandi Word-skýrsluútlit fyrir skýrslu. Reitum er bætt við með því að nota Word sérsniðinn XML-hluta fyrir skýrsluna og bæta við efnisstjórnun sem varpar í reiti gagnamengis skýrslunnar. Bæting reita þarfnast einhverrar þekkingar á gagnamengi skýrslunnar þannig að hægt er að bera kennsl á reitina sem á að bæta við útlitið.  
@@ -29,13 +29,13 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
      Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md).  
   
-2.  Sýna flipann **Hönnuður** á borða Microsoft Word.  
+2.  Sýna **flipann verktaki** í borði Microsoft Word.  
   
      Sjálfgefið er að **Hönnuður** er ekki sýnilegur í borðanum. Frekari upplýsingar eru í [Sýna flipann Hönnuður á borðanum](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
 3.  Á flipanum **Developer** skal velja **XML-vörpunarsvæði**.  
   
-4.  Á svæðinu **XML-vörpun**, á fellilistanum **Sérsniðinn XML-hluti** velurðu sérsniðinn XML-hluta fyrir ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> skýrslu, sem er venjulega neðst á listanum. Heiti sérstillta XML-hlutans er á eftirfarandi sniði:  
+4.  Í **XML-** **hlutafellirúðunni, á listanum sérsniðin XML-hluti**, skal velja sérsniðna XML-hlutann fyrir [!INCLUDE[prod_short](includes/prod_short.md)] skýrsluna sem vanalega síðast á listanum. Heiti sérstillta XML-hlutans er á eftirfarandi sniði:  
   
      urn:microsoft-dynamics-nav/reports/*skýrslu_heiti*/*/Kenni*  
   
@@ -78,7 +78,7 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
  Myndir birtast efst í hægra horni efnisstýringar og laga stærð sína sjálfvirkt þannig að þær passi við mörk efnisstjórnunar.  
   
 > [!IMPORTANT]  
->  Aðeins er hægt að bæta við myndum á sniði sem Word styður, t.d. .bmp, .jpeg, og .png skráargerðir. Ef þú bætir við mynd á sniði sem Word styður ekki færðu villu þegar þú keyrir skýrsluna úr ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> biðlaranum.  
+>  Aðeins er hægt að bæta við myndum á sniði sem Word styður, t.d. .bmp, .jpeg, og .png skráargerðir. Ef bætt er við mynd sem hefur snið sem ekki er studd af Word, kemur upp villa þegar skýrslan er keyrð af [!INCLUDE[prod_short](includes/prod_short.md)] biðlaranum.  
   
 #### <a name="to-add-an-image"></a>Til að bæta við mynd  
   
@@ -107,7 +107,7 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
 ### <a name="custom-xml-part-in-word"></a>Sérsniðinn XML-hluti í Word  
  Í Word opnarðu sérsniðinn XML-hluta á svæðinu **XML-vörpun** og notar svo svæðið til að varpa einingum í efnisstjórnun í Word-skjalinu. Svæðið **XML-vörpun** er aðgengilegt úr flipanum **Hönnuður** (nánari upplýsingar er að finna í [Sýna flipann Hönnuður á borðanum](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
- Einingarnar í **XML vörpun** svæðinu birtast með uppsetningu sem svipar til XML upprunans. Merkimiðareitir eru flokkaðir saman undir sameiginlegri einingu í **Merkimiðar** og gagnaatriðum og dálkum er raðað í stigveldisskipan sem samsvarar XML-upprunanum, með dálkar í stafrófsröð. Einingar eru auðkenndar eftir heiti sínu eins og það er skilgreint í eiginleikanum Heiti í skýrsluhönnuði fyrir gagnasafn í ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ Einingarnar í **XML vörpun** svæðinu birtast með uppsetningu sem svipar til XML upprunans. Merkimiðareitir eru flokkaðir saman undir sameiginlegri einingu í **Merkimiðar** og gagnaatriðum og dálkum er raðað í stigveldisskipan sem samsvarar XML-upprunanum, með dálkar í stafrófsröð. Einingar eru auðkenndar með heiti dálks eins og skilgreint er í gagnasafni skýrslunnar í AL-kóða. Sjá [skilgreiningu á DataSet fyrir frekari upplýsingar](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  Eftirfarandi mynd sýnir einfaldan sérsniðinn XML-hluta úr fyrri hluta í **XML-vörpun** svæðinu í Word skjali.  
   

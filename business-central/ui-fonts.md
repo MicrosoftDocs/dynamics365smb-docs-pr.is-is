@@ -1,6 +1,6 @@
 ---
 title: Tiltækar leturgerðir
-description: Netútgáfa Business Central inniheldur foruppsettar leturgerðir á netþjónum sem hægt er að nota þegar skýrslur eru búnar til.
+description: Fræðast um fyrirfram uppsettar leturgerðir sem hægt er að nota fyrir skýrslur sem snúa utanaðkomandi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
+ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588025"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7868302"
 ---
 # <a name="available-fonts"></a>Tiltækar leturgerðir
 
@@ -34,9 +34,9 @@ Eftirfarandi leturgerðir eru settar upp og hægt að nota í Word og RDLC skýr
 * Lucida Console
 * Segoe Print
 * Segoe Script
-* Segoe UI
-* Segoe UI Light
-* Segoe UI Semilight
+* Segoe notendaviðmót
+* Segoe HÍ ljós
+* Segoe undankeppni HÍ
 * Times New Roman
 
 ## <a name="fonts-for-checks"></a>Leturgerðir fyrir ávísanir
@@ -48,15 +48,22 @@ Auk MICR-leturgerða eru sérstakar öryggisleturgerðir í boði til að búa t
 Frekari upplýsingar er að finna í [Velja útlit ávísunar](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Leturgerðir fyrir strikamerki
-Leturgerðir til að mynda einvíð strikamerki eru settar upp og hægt að nota í Word og RDLC skýrslum.
+Leturgerðir til að búa til strikamerki eru settar upp og tiltækar til notkunar bæði í Word- og RDLC-skýrsluútliti.
 
-Eftirfarandi tákn strikamerkis eru studd:
+Eftirfarandi eins víddar strikamerkistákn eru studd:
 * Kóði 3 af 9 (Kóði 39)
 * Kóði 128
 * Kóði 93
 * Codabar
 * MSI
 * 2 af 5 fléttuð
+
+Eftirfarandi tvívíð strikamerki eru studd:
+* Heiðrún
+* Gagnafylki
+* Maxicode
+* PDF417
+* QR
 
 Frekari upplýsingar er að finna í [Letur strikamerkis í Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 

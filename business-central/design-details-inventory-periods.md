@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a79b1b791a56bddaa97ac9b66428d6bb32652f58
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 66624cd4a6992ed227055748f5e8bc972187a8dc
+ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324510"
+ms.lasthandoff: 11/27/2021
+ms.locfileid: "7865697"
 ---
 # <a name="design-details-inventory-periods"></a>Hönnunarupplýsingar: birgðahaldstími
 Bakfærð færsla eða kostnaðarleiðréttingar hafa oft áhrif á stöðu og birgðaverðmat fyrri reikningstímabil sem teljast lokjuð. Þetta getur haft öfug áhrif á nákvæma skýrslugerð, sérstaklega hjá alþjóðlegum fyrirtækjum. Búnaður birgðahaldstíma má nota til að forðast slíka vandamál, með því að opna eða loka birgðahaldstímum til að takmarka bókanir á tilteknu tímabili.  
@@ -30,9 +30,12 @@ Bakfærð færsla eða kostnaðarleiðréttingar hafa oft áhrif á stöðu og b
 
  Þegar þú lokar birgðahaldstíma er stofnuð birgðahaldstímafærsla með þv´að nota númer síðustu vöruskráningar sem fellur undir birgðahaldstímann. Að auki, er tími, dagsetning, og notandakóði notandans sem lokar tímabilinu eru færðar í birgðahaldstímifærslu. Með því að nota þessar upplýsingar með síðasta skráðri vöru fyrra tímabili, getur þú séð hvaða birgðafærslur voru bókaðar á birgðahaldstími. Það er líka hægt að enduropna birgðahaldstíma ef þú þarft að bóka í lokuðum tímabili. Þegar þú enduropnar birgðahaldstíma er stofnuð birgðahaldstímafærsla.  
 
-## <a name="see-also"></a>Sjá einnig  
- [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md) [Stjórna birgðakostnaði](finance-manage-inventory-costs.md) [Fjármál](finance.md)  
- [Unnið með Business Central](ui-work-product.md)
+## <a name="see-also"></a>Sjá einnig
+
+[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
+[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
+[Fjármál](finance.md)  
+[Unnið með Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

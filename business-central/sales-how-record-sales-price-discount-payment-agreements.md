@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8b7943caba8482e39217307be904f368f0ec31c0
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 5d03e3c567ed6a2932691cee58685e522814a03f
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752431"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865547"
 ---
 # <a name="record-sales-prices-and-discounts"></a>Skrá söluverð og afslætti
 > [!NOTE]
@@ -52,15 +52,13 @@ Fyrir söluafslætti er hægt að setja upp og nota eftirfarandi gerðir:
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum Núgildandi upplifun. 
 
-#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience/)
+## <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Velja skal viðskiptamanninn og síðan velja aðgerðina **Verð**.
 3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyllt er út lína fyrir hverja samsetningu sem veitir sérstakt söluverð fyrir viðskiptamanninn.
 
----
-
-#### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)  
+## <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)  
 Sjálfgefið er að staða nýrra verðlista sé Drög. Drög að verðlistum eru ekki með í verðútreikningum. Þegar búið er að bæta við línum og byrja á að nota verðin skal breyta stöðunni í virka stöðu.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
@@ -100,7 +98,7 @@ Sjálfgefið er að staða nýrra verðlista sé Drög. Drög að verðlistum er
 
 Ef þú hefur þegar virkjað nýju verðupplifunina getur þú búið til sjálfgefna verðlista handvirkt eða tilgreint núverandi verðlista sem sjálfgefinn. Til að stilla núverandi verðlista sem sjálfgefinn skaltu kveikja á víxlhnappnum **Leyfa uppfærslu sjálfgilda** í verðlistanum. Á síðunum **Uppsetning sölugrunns**, **Uppsetning innkaupagrunns** eða **Uppsetning verka** skal síðan stilla verðlistann sem sjálfgefinn.
 
-### <a name="editing-active-price-lists"></a>Virkum verðlistum breytt
+## <a name="editing-active-price-lists"></a>Virkum verðlistum breytt
 Til að gera fólki kleift að breyta verði á virkum verðlistum fyrir vörur, tilföng, viðskiptamenn, lánardrottna eða aðrar einingar sem nota verðlagningu skal kveikja á víxlhnappnum **Leyfa breytingar á virku verði** á síðunum **Uppsetning sölugrunns** og **Uppsetning innkaupagrunns**. 
 
 Þegar slökkt er á víxlhnappnum **Leyfa breytingar á virku verði**, til að uppfæra verð í verðlista þarf að breyta stöðu verðlistans í **Drög**, gera breytinguna og síðan endurvirkja verðlistann.
@@ -121,7 +119,7 @@ Eftir á er hægt að nota aðgerðina **Innleiða verðbreytingu** til að bera
 ## <a name="to-copy-sales-prices"></a>Til að afrita söluverð
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum Núgildandi upplifun.
 
-#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience/)  
+## <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)  
 
 Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.** runuvinnslan á síðunni **Vinnublað söluverðs**.  
 
@@ -135,9 +133,7 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
    > [!NOTE]  
    > Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja þær á síðuna **Söluverð** skal velja aðgerðina **Innleiða verðbreytingar** á síðunni **Vinnublað söluverðs**.
 
----
-
-#### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)  
+## <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Söluverðlistar** og veldu síðan tengda tengilinn. 
 2. Velja skal verðlistann sem á að afrita og velja síðan **Afrita línur**.
@@ -151,7 +147,7 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
 ## <a name="to-bulk-update-item-prices"></a>Til að magnuppfæra vöruverð
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum Núgildandi upplifun.
 
-#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience/)
+### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)
 
 Ef á að uppfæra mörg vöruverð í einu, t.d. hækka öll vöruverð um sömu prósentuna, er hægt að fylla út **Vinnublað söluverðs** með því að nota eftirfarandi runuvinnslur:
 
@@ -167,14 +163,14 @@ Ef á að uppfæra mörg vöruverð í einu, t.d. hækka öll vöruverð um söm
 7. Veldu **Í lagi** til að setja nýju verðtillögurnar í línurnar á síðunni **Vinnublað söluverðs**.
 8. Til að innleiða tillögurnar skal nota aðgerðina **Innleiða verðbreytingar**. Runuvinnslan býr til tillögur en innleiðir þær ekki.
 
----
-
-#### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)
+## <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)
 
 Til að uppfæra verð fyrir margar vörur þarf að búa til nýjam verðlista og afrita síðan línurnar úr fyrirliggjandi verðlista. Þegar línur eru afritaðar er hægt að nota síur til að tilgreina hvað eigi að afrita og hægt er að tilgreina heiltölu eða tugabrot í reitnum **Leiðréttingarstuðull** til að hækka eða lækka verð. Verðlistinn verður að vera í stöðunni **Drög**. Ef þörf krefur er hægt að gera eldri verðlistann óvirkan.
 
 > [!NOTE]
 > Ekki er hægt að hafa tvær línur sem eru með sömu stillingarnar en mismunandi verð. Ef það gerist birtast skilaboð þegar verðlisti er virkjaður. Hægt er að velja verðið sem á að nota með því að opna listann og eyða röngu verði.  
+
+---
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Afslættir Sölureiknings og Þjónustugjöld
 Þegar reikningsafslættir eru notaðir fer afslátturinn sem er veittur eftir því hve reikningsupphæðin er há. Á síðunni **Reikningsafsláttur viðskm** er einnig hægt að leggja þjónustugjald á reikninga sem eru yfir tiltekinni upphæð.  
@@ -187,9 +183,7 @@ Afsláttarprósentur eru tengdar við ákveðnar reikningsupphæðir á síðunn
 
 Til viðbótar við eða í staðinn fyrir afsláttarprósentu er hægt að tengja ákveðið þjónustugjald við ákveðna reikningsupphæð.  
 
-Frekari þjálfun fyrir afslætti á sölum er að finna í [Setja upp afslætti fyrir viðskiptamenn þína](/learn/modules/customer-discounts-dynamics-365-business-central/index) í Microsoft Learn.  
-
----
+Fyrir þjálfun í afslætti í sölu, sjá [Setja upp afslætti fyrir viðskiptavini þína](/learn/modules/customer-discounts-dynamics-365-business-central/index) hjá Microsoft Learn.  
 
 ### <a name="calculating-invoice-discounts-on-sales"></a>Reikna reikningsafsl. á sölu
 
@@ -198,7 +192,7 @@ Frekari þjálfun fyrir afslætti á sölum er að finna í [Setja upp afslætti
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Sölulínuafsláttur stofnaður fyrir viðskiptamann
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum Núgildandi upplifun.
 
-#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience/)  
+## <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
 2. Opna skal viðeigandi viðskiptamannaspjald og veljið svo aðgerðina **Línuafslættir**.
@@ -209,9 +203,7 @@ Frekari þjálfun fyrir afslætti á sölum er að finna í [Setja upp afslætti
 >
 > Til að setja upp verð eða línuafslætti fyrir alla viðskiptamenn, verðflokk viðskiptamanns eða herferð verður að opna síðurnar af birgðaspjaldi. Einnig er hægt að nota síðuna **Vinnublað söluverðs** fyrir söluverð. Frekari upplýsingar eru í [Til að magnuppfæra vöruverð](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
----
-
-#### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)  
+## <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
 2. Veldu viðskiptamann og veldu svo aðgerðina **Söluverðlistar**.
@@ -220,10 +212,12 @@ Frekari þjálfun fyrir afslætti á sölum er að finna í [Setja upp afslætti
 5. Í reitnum **Skilgreinir** skal velja annaðhvort **Verð og afsláttur** eða aðeins **Afsláttur**. 
 6. Í reitnum **Línuafsláttur %** skal tilgreina afsláttarprósentuna.
 
-    > [!TIP]
-    > Hægt er að sía línurnar með því að velja viðeigandi valkost í reitnum **Skoða dálka fyrir**.
-    > [!NOTE]  
-    > Fyrirliggjandi viðskiptamannaspjöld standa fyrir reikningsafsláttarkóða. Að nota nöfn viðskiptamanna sem kóða gerir þér kleift að úthluta reikningsafsláttarskilmálum hratt og örugglega til viðskiptamanna með því að velja nafn annars viðskiptamanns sem hefur sömu skilmála. Til að setja upp sérstaka skilmála reikningsafsláttar fyrir viðskiptamann skal stilla reitinn **Kóði reikningsafsláttar** á viðskiptamannakóða viðskiptamanns og síðan halda áfram yfir í næsta skref.
+   > [!TIP]
+   > Hægt er að sía línurnar með því að velja viðeigandi valkost í reitnum **Skoða dálka fyrir**.   
+  
+   > [!NOTE]
+   > Fyrirliggjandi viðskiptamannaspjöld standa fyrir reikningsafsláttarkóða. Að nota nöfn viðskiptamanna sem kóða gerir þér kleift að úthluta reikningsafsláttarskilmálum hratt og örugglega til viðskiptamanna með því að velja nafn annars viðskiptamanns sem hefur sömu skilmála. Til að setja upp sérstaka skilmála reikningsafsláttar fyrir viðskiptamann skal stilla reitinn **Kóði reikningsafsláttar** á viðskiptamannakóða viðskiptamanns og síðan halda áfram yfir í næsta skref.
+
 ---
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Að setja upp reikningsafslátt fyrir viðskiptamann
@@ -243,8 +237,6 @@ Settu nú upp skilmála sölureikningsafslátta.
 3. Í reitinn **Lágmarksupphæð** er færð inn lágmarksupphæð sem reikningur þarf að hafa til að hægt sé að fá afslátt.
 4. Í reitnum **Afsláttar %** skal slá inn reikningsafslátt sem prósentu af reikningsupphæð.
 5. Endurtakið skref 5 til 7 fyrir alla gjaldmiðla sem viðskiptamaðurinn mun fá mismunandi reikningsafslátt í.
-
----
 
 ## <a name="best-price-calculation"></a>Útreikningur besta verðs
 Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[d365fin](includes/d365fin_md.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur.
@@ -268,7 +260,7 @@ Besta verð er lægsta leyfilega verð með hæsta leyfilega línuafslættinum �
 
 Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun hjá [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

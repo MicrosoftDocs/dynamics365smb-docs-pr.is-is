@@ -1,36 +1,37 @@
 ---
-title: Hönnunarupplýsingar | Microsoft Docs
+title: Upplýsingar um hönnun forrits
 description: Þetta innihald inniheldur nákvæmar tæknilegar upplýsingar um flókin eiginleikasvæði í Business Central.
 author: SorenGP
-documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 11/26/2021
 ms.author: edupont
-ms.openlocfilehash: df7ea4e62608d64763288b978d4ee48a103e8424
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
-ms.translationtype: HT
+ms.openlocfilehash: 06fa9254f59e283abb673f66190c61e464d510af
+ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215554"
+ms.lasthandoff: 11/27/2021
+ms.locfileid: "7865673"
 ---
-# <a name="design-details"></a>Hönnunarupplýsingar
-Þetta innihald inniheldur nákvæmar tæknilegar upplýsingar um flókin eiginleikasvæði í [!INCLUDE[prod_short](includes/prod_short.md)].  
+# <a name="application-design-details"></a>Upplýsingar um hönnun forrits
 
- Hönnunarupplýsingar er ætlað innleiðurum, hönnuðum og yfirnotendum sem þurfa dýpri innsýn til að innleiða, sérsníða, eða setja upp lögun svæði sem um ræðir.  
+Greinarnar í þessum hluta innihalda ítarlegar tæknilegar upplýsingar um flóknar aðgerðir forrita í [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+Hönnunarupplýsingar er ætlað innleiðurum, hönnuðum og yfirnotendum sem þurfa dýpri innsýn til að innleiða, sérsníða, eða setja upp lögun svæði sem um ræðir.  
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Lesið um hvernig áætlanakerfið virkar og hvernig á að leiðrétta reiknireglurnar til að uppfylla áætlunarþarfir í mismunandi umhverfi.|[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)|  
 |Að skilja virkni kostnaðarforritsins, svo sem kostnaðaraðferð og kostnaðarleiðréttingu, og hvaða reikningsskilareglum sem þeir eru hannaðir fyrir.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|  
-|Lesið um hugsunina á bak við ítarlega eiginleika og grunneiginleika vöruhúss og hvernig þeir falla að öðrum eiginleikum birgðakeðju.|[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)|  
-|Lesið um sögulega og núgildandi hönnun vörurakningareiginleikans og hvernig hann fellur að frátekningarkerfinu til að taka með rað-/lotunúmer í framboðsútreikninga.|[Hönnunarupplýsingar: vörurakning](design-details-item-tracking.md)|  
-|Kynntu þér valkosti fyrir bókunarlínu færslubókar, þ.m.t. nýlegar breytingar á hönnun kóðaeiningar 12.|[Hönnunarupplýsingar: Bókunarlína færslubókar](design-details-general-journal-post-line.md)|
+|Fræðast um hvernig keyrslan Leiðr. kostnað - Birgðafærslur auðkennir og úthlutar bókunardagsetningu á virðisfærslurnar sem keyrslan er að fara að stofna.|[Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum](design-details-inventory-adjustment-value-entry-posting-date.md)|
 |Kynntu þér hönnunina fyrir vistun og bókun vídda, þ.m.t. kóðadæmi um hvernig eigi að flytja og uppfæra víddarkóða.|[Hönnunarupplýsingar: Færslur víddarsamstæða](design-details-dimension-set-entries-overview.md)|
+|Lesið um hvernig áætlanakerfið virkar og hvernig á að leiðrétta reiknireglurnar til að uppfylla áætlunarþarfir í mismunandi umhverfi.|[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)|  
+|Lesið um hugsunina á bak við ítarlega eiginleika og grunneiginleika vöruhúss og hvernig þeir falla að öðrum eiginleikum birgðakeðju.|[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)|  
+|Lesið um sögulega og núgildandi hönnun vörurakningareiginleikans og hvernig hann fellur að frátekningarkerfinu til að taka með rað-/lotunúmer í framboðsútreikninga.|[Hönnunarupplýsingar: Vörurakning](design-details-item-tracking.md)|  
+|Fræðast um aðgerðina Færslubókarbókunarlína.|[Hönnunarupplýsingar: Bókunarlína færslubókar](design-details-general-journal-post-line.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 

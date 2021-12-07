@@ -5,7 +5,7 @@
 <!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
 ## Læra
 ### [Business Central námskrá](readiness/readiness-learning-catalog.md)
-### [Business Central á Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Aðalviðskiptabanki á Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Kynningar á viðskiptaferli
 #### [Kynningar í boði](walkthrough-business-process-walkthroughs.md)
 #### [Kynning: Framkvæmd söluherferðar](walkthrough-conducting-a-sales-campaign.md)
@@ -24,27 +24,13 @@
 
 ### Hönnunarupplýsingar
 #### [Yfirliti yfir hönnunarupplýsingar hugbúnaðar](design-details-application-design.md)
-#### Hönnunarupplýsingar: framboðsáætlun
-##### [Framboðsáætlunyfirlit](design-details-supply-planning.md)
-##### [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
-##### [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  
-##### [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur](design-details-handling-reordering-policies.md)  
-##### [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)  
-##### [Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)  
-##### [Hönnunarupplýsingar: Eftirspurn í birgðageymslunni Tómt](design-details-demand-at-blank-location.md)  
-##### [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md)
 #### Hönnunarupplýsingar: Birgðakostnaður
-##### [Yfirlit kostnaðarútreiknings](design-details-inventory-costing.md)
+##### [Upplýsingar um hönnun birgðahalds](design-details-inventory-costing.md)
 ##### [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
 ##### [Hönnunarupplýsingar: Breyta kostnaðarútreikningi fyrir vörur](design-details-changing-costing-methods.md)
 ##### [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
 ##### [Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)  
-##### Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslu
-###### [Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga.](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Bókunardagsetning fyrir virðisfærslu leiðréttingar í samanburði við upprunafærsluna](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Hönnunarupplýsingar: Væntanleg kostnaðarfærsla](design-details-expected-cost-posting.md)  
 ##### [Hönnunarupplýsingar: Meðalkostnaður](design-details-average-cost.md)  
 ##### [Hönnunarupplýsingar Frávik](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)
 ##### [Hönnunarupplýsingar: Birgðavirði](design-details-inventory-valuation.md)  
 ##### [Hönnunarupplýsingar: Endurmat](design-details-revaluation.md)
+#### Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslu
+##### [Bókunardagsetning á yfirliti um leiðréttingargildi færslu](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga.](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Bókunardagsetning fyrir virðisfærslu leiðréttingar í samanburði við upprunafærsluna](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Hönnunarupplýsingarn: Færslur víddarsamstæða
+##### [Hönnunarupplýsingar - Færslur víddarsamstæða yfirlit](design-details-dimension-set-entries-overview.md)
+##### [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)
+##### [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)
+#### Hönnunarupplýsingar: framboðsáætlun
+##### [Upplýsingar um afgreiðslur skipulags](design-details-supply-planning.md)
+##### [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
+##### [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  
+##### [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur](design-details-handling-reordering-policies.md)  
+##### [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)  
+##### [Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)  
+##### [Hönnunarupplýsingar: Eftirspurn í birgðageymslunni Tómt](design-details-demand-at-blank-location.md)  
+##### [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md)
 #### Hönnunarupplýsingar vöruhúsakerfi
-##### [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
+##### [Upplýsingar um vöruhúsastjórnun hönnunar](design-details-warehouse-management.md)
 ##### [Hönnunarupplýsingar: Yfirlit vöruhúss](design-details-warehouse-overview.md)  
 ##### [Hönnunarupplýsingar uppsetningvöruhúss](design-details-warehouse-setup.md)  
 ##### [Hönnunarupplýsingar: vöruhúsaflæði inn](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Hönnunarupplýsingar: vöruhúsaflæði á innleið](design-details-outbound-warehouse-flow.md)  
 ##### [Hönnunarupplýsingar: Sameining með birgðum](design-details-integration-with-inventory.md)
 #### Hönnunarupplýsingar: vörurakning
-##### [Vörurakningyfirlit](design-details-item-tracking.md)
+##### [Upplýsingar um vörurakningu hönnunar](design-details-item-tracking.md)
 ##### [Hönnunarupplýsingarn: vörurakning hönnun](design-details-item-tracking-design.md)  
 ##### [Hönnunarupplýsingar: bókunarstrúktúr vörurakningar](design-details-item-tracking-posting-structure.md)  
 ##### [Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,14 +82,10 @@
 ##### [Hönnunarupplýsingar: vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
 ##### [Hönnunarupplýsingar: vörurakning í vöruhúsi](design-details-item-tracking-in-the-warehouse.md)
 #### Hönnunarupplýsingar: Bókunarlína færslubókar
-##### [Bókunarlína færslubókar](design-details-general-journal-post-line.md)
+##### [Upplýsingar um Hönnunarlínu almennrar bókar](design-details-general-journal-post-line.md)
 ##### [Yfirlit bókunarlínu færslubókar](design-details-general-journal-post-line-overview.md)  
 ##### [Hönnunarupplýsingar: Uppbygging bókunarviðmóts](design-details-posting-interface-structure.md)  
 ##### [Hönnunarupplýsingar: Uppbygging bókunarvélar](design-details-posting-engine-structure.md)  
-#### Hönnunarupplýsingarn: Færslur víddarsamstæða
-##### [Hönnunarupplýsingar - Færslur víddarsamstæða yfirlit](design-details-dimension-set-entries-overview.md)  
-##### [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)  
-##### [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)  
 
 ## Prófa
 ### [Prufuútgáfa og áskrift](across-preview.md)
@@ -134,8 +134,8 @@
 ### Uppsetning bankaþjónustu
 #### [Uppsetning bankaþjónustu](bank-setup-banking.md)
 #### [Bankareikningar settir upp](bank-how-setup-bank-accounts.md)
-#### [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md)
-#### [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)
+#### [Setja upp Envestnet Yodlee Bank Feeds þjónustu](bank-how-setup-bank-statement-service.md)
+#### [Notkun AMC Banking 365 grunnnámskeið](ui-extensions-amc-banking.md)
 #### [Velja útlit ávísunar](finance-how-define-check-layouts.md)
 ### Uppsetning sölu
 #### [Uppsetning sölu](sales-setup-sales.md)
@@ -232,7 +232,7 @@
 ##### [Uppsetning bestu venjur: Endurpöntunarstefnur](setup-best-practices-reordering-policies.md)
 #### [Uppsetning bestu venjur: Aðferð kostnaðarútreiknings](setup-best-practices-costing-method.md)
 ### Uppsetning fyrirtækis með RapidStart Services
-#### [RapidStart Yfirlit](admin-set-up-a-company-with-rapidstart.md)
+#### [Yfirlit Hraðræins RapidStart](admin-set-up-a-company-with-rapidstart.md)
 #### Uppsetning grunnstillingu fyrirtækis
 ##### [Yfirlit yfir grunnstillingu fyrirtækis](admin-set-up-company-configuration.md)
 ##### [Vinna með grunnstillingu fyrirtækis í vinnublaði](admin-how-to-manage-company-configuration-in-a-worksheet.md)
@@ -247,10 +247,10 @@
 #### [Safna saman uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md)
 #### [Undirbúa flutning á viðskiptamannagögnum með sniðmátum](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Flytja gögn viðskiptamanna](admin-migrate-customer-data.md)
-#### [Ábendingar og góð ráð: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
+#### [Ábendingar: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Uppsetning tölvupósts
 #### [Setja upp tölvupóst](admin-how-setup-email.md)
-#### Setja upp eigið fyrirtækjainnhólf í Microsoft Outlook
+#### Setja upp Viðskiptainnhólf í Microsoft Outlook
 ##### [Sækja innbót Business Central fyrir Outlook](admin-outlook.md)
 ##### [Notkun Business Central sem fyrirtækjainnhólf í Outlook](work-outlook-addin.md)
 ##### [Samstilla við tengiliði í Outlook](admin-synchronize-outlook-contacts.md)
@@ -264,7 +264,7 @@
 ##### [Yfirlit](admin-outlook.md)
 ##### [Samstilla við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Nota Business Central án Outlook](admin-no-outlook.md)
-#### Notkun Microsoft Teams með Business Central
+#### Notkun á Microsoft-teymum með Aðalviðskipti
 ##### [Yfirlit](across-teams-overview.md)
 ##### [Umsjón með samþættingu Teams](admin-teams-integration.md)
 ##### [Uppsetning Business Central fyrir Teams](across-install-app-for-teams.md)
@@ -273,30 +273,30 @@
 ##### [Breyta fyrirtæki og aðrar stillingar](across-teams-settings.md)
 ##### [Teams - Algengar spurningar](teams-faq.md)
 ##### [Úrræðaleit](admin-teams-troubleshooting.md)
-#### Að nota OneDrive fyrir Business með Business Central
+#### Notkun OneDrive fyrir fyrirtæki með Viðskiptamiðinu Central
 ##### [Yfirlit](across-onedrive-overview.md)
-##### [Umsjón með OneDrive fyrir Business Integration](admin-onedrive-integration.md)
-##### [Opna Business Central Files í OneDrive](across-share-onedrive.md)
-##### [OneDrive ALGENGAR SPURNINGAR](admin-onedrive-faq.md)
-#### Notkun Power BI með Business Central
+##### [Umsjón með OneDrive fyrir samþættingu fyrirtækja](admin-onedrive-integration.md)
+##### [Opnun aðalskrár fyrirtækja í OneDrive](across-share-onedrive.md)
+##### [OneDrive FAQ](admin-onedrive-faq.md)
+#### Notkun Power BI við Aðalviðskipti
 ##### [Kynning](admin-powerbi.md)
 ##### Stjórnandi
 ###### [Yfirlit yfir samþættingu](admin-powerbi-overview.md)
-###### [Virkjun Power BI Samþættingar](admin-powerbi-setup.md)
+###### [Virkjun Power BI samþættingar](admin-powerbi-setup.md)
 ##### Skýrsluhöfundur
 ###### [Að hefjast handa við að búa til skýrslur](across-how-use-financials-data-source-powerbi.md)
 ###### [Stofna skýrslur til að birta listagögn](across-how-use-powerbi-reports-factbox.md)
 ##### Fyrirtækisnotandi
-###### [Unnið með Power BI Skýrslur í Business Central](across-working-with-powerbi.md)
-###### [Unnið með Business Central Data í Power BI](across-working-with-business-central-in-powerbi.md)
-###### [Notkun Business Central-forrita í Power BI](across-powerbi-business-central-apps.md)
+###### [Unnið með Power BI skýrslur í Viðskiptamiðinu](across-working-with-powerbi.md)
+###### [Vinna við aðalgögn viðskipta í Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Notkun á Viðskiptamiðinu Central App í Power BI](across-powerbi-business-central-apps.md)
 ##### [Algengar spurningar](power-bi-faq.md)
-#### Notkun Power Automate með Business Central
+#### Notkun Power Automate með Aðalseðla Business
 ##### [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)
 #### Notkun Power Apps með Business Central
-##### [Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps](across-how-use-financials-data-source-powerapps.md)
+##### [Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps.](across-how-use-financials-data-source-powerapps.md)
 #### [Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)
-#### [Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)
+#### [Magnreikningsfærslu fyrir Microsoft-bókanir](finance-bookings.md)
 #### [Flytja inn viðskiptagögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)
 ### [Stofnun númeraraða](ui-create-number-series.md)
 ### [Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)
@@ -348,7 +348,7 @@
 ## [Greina áskilda reiti](ui-mandatory-fields.md)
 ## [Breyta tungumáli og svæði](about-locale-language.md)
 ## [Skoða og breyta í Excel](across-work-with-excel.md)
-## [Geyma og deila skrám í OneDrive](across-share-onedrive.md)
+## [Að geyma og samnýta skrár í OneDrive](across-share-onedrive.md)
 ## [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md)
 ## [Word-sniðmát notuð fyrir mörg samskipti í einu](ui-mail-merge.md)
 ## [Grunnstillingum breytt](ui-change-basic-settings.md)
@@ -448,7 +448,7 @@
 ##### [Uppfæra gengi](finance-how-update-currencies.md)
 ##### [Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
-##### [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)
+##### [Notkun AMC Banking 365 grunnnámskeið](ui-extensions-amc-banking.md)
 ##### [Setja upp bankayfirlitsþjónustu](bank-how-setup-bank-statement-service.md)
 ##### [Bankareikningar settir upp](bank-how-setup-bank-accounts.md)
 ##### [Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -459,13 +459,13 @@
 ##### [Senda rafræn skjöl](sales-how-to-send-electronic-documents.md)
 ##### [Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)
 ##### [Taka við og umbreyta rafræn skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md)
-##### [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md)
+##### [Setja upp Envestnet Yodlee Bank Feeds þjónustu](bank-how-setup-bank-statement-service.md)
 ##### [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-##### [Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+##### [Að gera greiðslur með AMC Banking 365 grunnnámskeið framlenging eða SEPA millifærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [Uppfæra gengi](finance-how-update-currencies.md)
 ##### [Reitarvörpum við innflutning SEPA CAMT skráa](across-field-mapping-when-importing-sepa-camt-files.md)
-##### [Reitarvörpun fyrir AMC Banking 365 Fundamentals viðbótina](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+##### [Svæðvörpun fyrir AMC-Bankaflagann 365 Grunnnám Eftirmenntun](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Fjármál
 ### [Yfirlit yfir Fjármál](finance.md)
 ### [Fjárhagsskýrslur](finance-reports.md)
@@ -496,7 +496,7 @@
 ##### [Skrá greiðslur og endurgreiðslur](payables-how-post-payments-refunds.md)
 ##### [Greiðslutillögur til lánardr.](payables-how-suggest-vendor-payments.md)
 ##### [Framkvæma ávísanagreiðslur](payables-how-work-checks.md)
-##### [Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+##### [Að gera greiðslur með AMC Banking 365 grunnnámskeið framlenging eða SEPA millifærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Greiða innkaupareikninga tímanlega](finance-how-to-settle-purchase-invoices-promptly.md)
 ##### [Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md)
 #### Jafna greiðslur sjálfkrafa og afstemma bankareikninga
@@ -703,6 +703,7 @@
 ### [Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md)
 ### [Afskrá eða innkalla eignir](fa-how-dispose-retire.md)
 ### [Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md)
+### [Úrræðaleit eignafærslna](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Umsjón með venslum
 ### [Yfirlit tengslastjórnunar](marketing-relationship-management.md)
@@ -730,7 +731,7 @@
 #### [Fylgjast með tölvupóstsamskiptum](marketing-set-up-email-logging.md)
 #### [Meðhöndla sölutækifæri](marketing-processing-sales-opportunities.md)
 ### [Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)
-### [Að nota Dynamics 365 for Sales úr Business Central](marketing-integrate-dynamicscrm.md)
+### [Notkun Dynamics 365 til sölu frá Viðskiptamiðinu](marketing-integrate-dynamicscrm.md)
 #### [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md)
 #### [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md)
 
@@ -1264,13 +1265,14 @@
 ##### [Auðkennisgerðir skatts fyrir Mexíkó](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Endurútreikningur á VSK](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Rafræn reikningsfærsla
-##### [Rafræn reikningsfærsla](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Setja upp rafræna reikningsfærslu](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Búa til rafræna reikninga](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Rafræn Reikningsfærsla (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Setja upp PAC-vefþjónustu](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Setja upp rafræna reikningsfærslu (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Búa til rafræna reikninga (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Fylgiseðlar Carta de Porta og millifærslupantanir (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Almennt
 ##### [Rafrænar bókhaldsreglur í Mexíkó](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Framkvæma rafrænar greiðslur](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Almennt
-##### [Setja upp PAC-vefþjónustu](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Prenta skýrslur úrræðaleitar](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Búa til innborganir](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
@@ -1649,7 +1651,7 @@
 ### [Setja upp litaðan vísi á bunka](admin-how-set-up-colored-indicator-on-cues.md)
 ### Sérstilling með viðbótum
 #### [Yfirlit viðbóta](ui-extensions.md)
-#### [AMC Banking 365 Fundamentals Viðbót](ui-extensions-amc-banking.md)
+#### [AMC Banking 365 grunnskólakennari Nafnanám](ui-extensions-amc-banking.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Fyrirtækjamiðstöð](ui-extensions-company-hub.md)
 #### [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)
@@ -1662,11 +1664,11 @@
 #### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)
-#### [QuickBooks Online Gagnaflutningur](ui-extensions-quickbooks-online-data-migration.md)
+#### [Fljótsbækur á netinu Gagnayfirfærsla](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks-viðbótin fyrir innflutning á launaskrá](ui-extensions-quickbooks-payroll.md)
 #### [Sölu- og birgðaspár](ui-extensions-sales-forecast.md)
 #### [Umsjón VSK-hópa](ui-extensions-vat-group.md)
-#### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+#### [WorldPay greiðslur staðlaðar](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 gagnaflutningur](ui-extensions-c5-data-migration.md)
 #### [DK - Greiðslur og afstemmingar](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Skráarsnið skatts](ui-extensions-tax-file-formats-dk.md)
@@ -1675,12 +1677,12 @@
 #### [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)
 ## Samþætting við Dynamics 365 Sales
 ### [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-## Tengir við Microsoft Dataverse
+## Samþætting við Microsoft Dataverse
 ### [Samþætta við Microsoft Dataverse](admin-common-data-service.md)
 ### [Gagnaeignarhaldslíkön](admin-cds-company-concept.md)
-### [Uppsetning á notendareikningum fyrir samþættingu við Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
-### [Tengjast við Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Sérstilling Business Central og Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
+### [Uppsetning notendareikninga fyrir samþættingu við Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
+### [Tengjast Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Samstilling Viðskiptamiðseðla og Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Vörpun á töflum og reitum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)
 ### [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
@@ -1692,7 +1694,7 @@
 ### [Umsjón með flutningi í skýið](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
 ### [Flutningur úr Business Central á staðnum](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Flutningur úr Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
-### [Flutningur úr Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
+### [Flytur úr Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
 ### [Algengar spurningar um flutning í skýið](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
 ## [Stjórnun á Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Þróun](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)

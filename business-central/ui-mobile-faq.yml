@@ -11,12 +11,12 @@ metadata:
   ms.search.keywords: phone, tablet
   ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: f0d31833373014ac5f1f089537bf03091540e223
-  ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+  ms.openlocfilehash: 96e8f34b31ba1f7db375c567da4ec9cf9375bdc5
+  ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
   ms.translationtype: MT
   ms.contentlocale: is-IS
-  ms.lasthandoff: 11/04/2021
-  ms.locfileid: "7752531"
+  ms.lasthandoff: 11/25/2021
+  ms.locfileid: "7865522"
 title: Algengar spurningar um farsímaforrit
 summary: "Þessi grein svarar spurningum sem reynslumiklir notendur okkar spyrja oft um varðandi farsímaforritið fyrir [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -80,12 +80,12 @@ sections:
 
       | Sjálfvirkur inntaksfókus í fyrsta breytanlega reit síðu | Ekki tiltækt. | Ekki tiltækt. | `Customer Card` síðuna.<BR /><BR />Í vafranum verður fókusinn sjálfkrafa á fyrsta breytanlega reitnum (eins og reitnum `Name`) sem gerir kleift að breyta gildinu strax.<BR /><BR />Í spjaldtölvu- og farsímaforritum verður þessi reitur ekki í fókus; þess í stað þarf fyrst að velja reitinn handvirkt til að gera breytingar.|
   - question: >
-      Er upplifunin eins í spjaldtölvum og símum?
+      Er það sama upplifun á töflum og símum?
     answer: "Nánast, en ekki alveg. Skoðið listann í hlutanum [Er sama upplifunin í forritunum eins og í vafranum?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  \n"
   - question: >
       Get ég tengt forritið við innanhússlausnina?
     answer: "Já, þú getur það! Það er örlítið mismunandi leið til að skrá sig inn, það er allt og sumt. Frekari upplýsingar eru í [Notkun Business Central á staðnum?](install-mobile-app.md#using-business-central-on-premises).  \n"
   - question: >
       Getur gestanotandi notað forritið til að opna Business Central-lausnina?
-    answer: "Fj. Gestanotendur eru notendur sem annar Azure Active Directory (AD) leigjandi en þinn hefur boðið. Í því tilviki mun forritið auðkenna hjá Azure AD leigjanda gestanotanda og reyna að opna endastöð Business Central í þeim leigjanda í staðinn fyrir þínum.  \n"
-additionalContent: "\n## <a name=\"see-also\"></a>Sjá einnig .\n\n[Nota Business Central á fartækinu þínu](install-mobile-app.md)  \n[Setja upp Business Central-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"
+    answer: "Fj. Gestanotendur eru boðnir notendum úr öðrum Azure Active Directory (AD) leigjanda en þínum. Í þessu tilfelli mun App sannvotta við Primary Azure AUGLÝSINGAPISTNOTANDA og reyna að opna endastöð fyrirtækisins á þeim leigjanda í stað notandans.  \n"
+additionalContent: "\n## <a name=\"see-also\"></a>Sjá einnig .\n\n[Nota Business Central á fartækinu þínu](install-mobile-app.md)  \n[Setja upp Business Central App fyrir Microsoft teymi](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"

@@ -10,21 +10,22 @@ ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: c21d06eaaa9200bb11839d1b2db1666c816638b3
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588727"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865391"
 ---
-# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Tengja og samstilla færslur milli Dataverse og Business Central
+# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Coupling og samstilla færslur milli Dataverse og Business Central
 
-Þetta efnisatriði lýsir því hvernig á að tengja eina eða fleiri færslur í [!INCLUDE[prod_short](includes/prod_short.md)] við færslur í Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)]. Að tengja færslur gerir þér kleift að skoða Dataverse upplýsingar úr [!INCLUDE[prod_short](includes/prod_short.md)] og öfugt. Tenging gerir þér einnig að samstilla gögn á milli færslna. Hægt er að tengja fyrirliggjandi færslur eða stofna og tengja nýjar færslur.
+Í þessu efnisatriði er lýst því hvernig á að ein-eða fleiri færslur séu [!INCLUDE[prod_short](includes/prod_short.md)] með færslur í Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)]. Coupling-færslur gerir þér kleift að skoða Dataverse upplýsingar frá [!INCLUDE[prod_short](includes/prod_short.md)] og öfugt. Tenging gerir þér einnig að samstilla gögn á milli færslna. Hægt er að tengja fyrirliggjandi færslur eða stofna og tengja nýjar færslur.
 
 > [!Note]
-> Tenging og samstilling gagna við er aðeins í boði ef kerfisstjórinn hefur búið til tengingu milli [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)]. Fljótleg leið til að athuga þetta er að opna spjaldið **Viðskiptamaður** og leita að aðgerðinni **Setja upp tengingu**. Ef aðgerðin er tiltæk eru forritin tengd.   
+> Coupling og samstilling gagna er aðeins tiltæk ef Kerfisstjórinn hefur stofnað tengingu milli [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)]. Fljótleg leið til að athuga þetta er að opna spjaldið **Viðskiptamaður** og leita að aðgerðinni **Setja upp tengingu**. Ef aðgerðin er tiltæk eru forritin tengd.   
 
 ## <a name="video-example"></a>Myndbandsdæmi
+Þetta myndefni sýnir festingu og samstillingu gagna í samhengi við samþættingu [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 
@@ -50,7 +51,7 @@ ms.locfileid: "7588727"
 
 ## <a name="to-couple-multiple-records-using-match-based-coupling"></a>Að tengja margar færslur með því að nota tengi sem byggir á samsvörun
 
-Hægt er að tilgreina gögnin sem á að samstilla fyrir einingu, t.d. viðskiptavin eða tengilið, með því að tengja skrár sem byggir á samsvörun. Hægt er að fínstilla samsvörunina með því að gera leitina næma og úthluta forgangi fyrir hverja samsvörun. Ef engin samsvörun finnst er einnig hægt að tilgreina að þú viljir stofna eininguna í Dataverse. Frekari upplýsingar er að finna í [Sérstilla tengingu sem byggir á samsvörun](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+Hægt er að tilgreina gögnin sem á að samstilla fyrir einingu, t.d. viðskiptavin eða tengilið, með því að tengja skrár sem byggir á samsvörun. Hægt er að fínstilla samsvörunina með því að gera leitina næma og úthluta forgangi fyrir hverja samsvörun. Ef engin samsvörun finnst er einnig hægt að tilgreina að stofna eigi eininguna í Dataverse. Frekari upplýsingar er að finna í [Sérstilla tengingu sem byggir á samsvörun](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
 
 1. Í [!INCLUDE[prod_short](includes/prod_short.md)] er opnuð listasíða fyrir færsluna, t.d. listasíður viðskiptamanna eða tengiliða.
 2. Veldu aðgerðina **Tenging byggð á samsvörun**.
