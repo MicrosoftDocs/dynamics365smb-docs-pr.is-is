@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701516"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889821"
 ---
 # <a name="set-up-prepayments"></a>Uppsetning fyrirframgreiðslu
+
 Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun afhenta eða ef lánardrottinn fer fram á greiðslu áður en hann afhendir pöntun er hægt að nota aðgerðina Fyrirframgreiðsla. Aðgerð fyrirframgreiðslu gerir þér kleift að reikningsfæra og innheimta innborganir frá viðskiptavinum eða senda lánardrottnum innborganir til að tryggja að allar hlutagreiðslur séu bókaðar til móts við reikning. Nánari upplýsingar eru í [Búa til fyrirframgreiðslureikninga](finance-how-to-create-prepayment-invoices.md).
 
 Áður en þú getur bókað fyrirframgreiðslureikning verður þú að setja upp bókunarreikningana í fjárhag og númeraraðir fyrir fyrirframgreiðsluskjöl. Þú verður að tilgreina reikning fyrir fyrirframgreiðslur sem tengjast sölu og reikningi fyrir fyrirframgreiðslur sem tengjast innkaupum. Þú getur tilgreint sömu bókunarreikninga til notkunar fyrir allar fyrirframgreiðslur sem tengjast öllum almennum viðskiptabókunarflokkum eða almennum vörubókunarflokkum, eða þú getur tilgreint tiltekna reikninga fyrir tilteknar bókunarflokka fyrir sölu og innkaup. Þetta fer eftir kröfum fyrirtækisins þíns varðandi rakningu fyrirframgreiðslna.  
@@ -23,6 +24,7 @@ Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun af
 
 > [!NOTE]
 > Mælt er með því að ekki sé notuð 100% prósenta fyrirframgreiðslu í eftirfarandi tilvikum:
+>
 > * Ef þú ert í Norður-Ameríku. Vegna þess hvernig skattar eru reiknaðir er prósenta fyrirframgreiðslu 100% sem getur leitt til vandamál með fyrirframgreiðslureikninga.
 > * Á öllum svæðum, ef greiðsluafsláttur er handvirkt dreginn frá reikningi. Fyrirframgreiðsluprósenta 100% mun ekki sjálfkrafa skilja eftir upphæð sem draga þarf afsláttinn frá. 
 
@@ -33,10 +35,10 @@ Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun af
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Bæta fyrirframgreiðslureikningum við almennan bókunargrunn  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning almennrar bókunar** og velja síðan viðkomandi tengil.
-2. Á síðunni **Uppsetning almennar bókunar** er fyllt út í eftirfarandi reiti:  
+2. Á **síðunni almennar bókunaruppsetningar** fyrir viðeigandi línur er fyllt út í eftirfarandi reiti:  
 
-    - **Fyrirframgreiðslureikn. sölu**  
-    - **Fyrirframgr.reikn. innkaupa**  
+    * **Fyrirframgreiðslureikn. sölu**  
+    * **Fyrirframgr.reikn. innkaupa**  
 
 > [!TIP]
 > Ef þú getur ekki séð reitina á síðunni **Uppsetning bókunargrunns** notaðu þá lárétta flettistiku neðst á síðunni til að fletta til hægri.  
@@ -46,16 +48,16 @@ Ef almennir fjárhagsreikningar hafa ekki enn verið settir upp fyrir fyrirframg
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Uppsetning númeraraðar fyrir fylgiskjöl fyrirframgreiðslu  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi** og velja svo viðeigandi tengil.
-2. Á síðunni **Uppsetning Sala & útistandandi** er fyllt út í eftirfarandi reiti:  
+2. Á **uppsetningarsíðu** sölu&, á **flipanum** númeraröð, er fyllt út í eftirfarandi reiti:  
 
-   - **Bókuð fyrirframgr.reikn.nr.**
-   - **Bókuð kr.reikn.nr. fyrirframgr.**
+   * **Bókuð fyrirframgr.reikn.nr.**
+   * **Bókuð kr.reikn.nr. fyrirframgr.**
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Uppsetning innkaupa og viðskiptaskulda** og velja svo viðeigandi tengil.
-2. Á síðunni **Uppsetning innkaupa & Viðskiptaskuldir** er fyllt út í eftirfarandi reiti:
+3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Uppsetning innkaupa og viðskiptaskulda** og velja svo viðeigandi tengil.
+4. Á **uppsetningarsíðu innkaupa & lánardrottna**, á **flipanum** númeraröð, er fyllt út í eftirfarandi reiti:
 
-    - **Bókaður fyrirframgr.reikn.nr.**
-    - **Bókaður kr.reikn.nr. fyrirframgr.**
+    * **Bókuð fyrirframgr.reikn.nr.**
+    * **Bókuð kr.reikn.nr. fyrirframgr.**
 
 > [!NOTE]  
 > Hægt er að nota sömu númeraröð fyrir fyrirframgreiðslureikninga og venjulega reikninga, auk þess sem hægt er að nota mismunandi númeraraðir. Ef mismunandi raðir eru notaðar mega þær ekki skarast, númer má ekki vera í meira en einni röð.  
@@ -74,6 +76,9 @@ Fyrir viðskiptamann eða lánardrottin er hægt að setja upp eina sjálfgefna 
 2. Opna spjaldið fyrir viðskiptamann.
 3. **Fyrirframgreiðsla %** er fært inn í reitinn .
 4. Skrefin eru endurtekin fyrir aðra viðskiptamenn og lánardrottna.  
+
+> [!TIP]
+> Einnig er hægt að nálgast **síðuna prósenta fyrirframgreiðslu á söluprósentu** af spjaldi viðskiptamanns eða lánardrottins.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Til að ákvarða hvaða fyrirframgreiðsluprósenta hefur forgang  
 

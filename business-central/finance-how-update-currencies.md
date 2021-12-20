@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 44dd13f986098283d29e58d3e8c4ce0218b4a083
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660182"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921059"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppfæra gengi
 
@@ -174,7 +174,10 @@ Leiðréttingarfærslunum er úthlutað sjálfgefnu víddunum í reikningunum se
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Setja upp þjónustu um gengi gjaldmiðils
-Þú getur notað ytri þjónustu til að halda gjaldeyrisviðskiptum þínum uppfærðum, t.d. FloatRates.
+Þú getur notað ytri þjónustu til að halda gjaldeyrisviðskiptum þínum uppfærðum, t.d. FloatRates. 
+
+> [!NOTE]
+> Flestar gengisþjónustur veita gögn sem eru samhæfð fyrir innflutningvinnsluna í [!INCLUDE[prod_short](includes/prod_short.md)]. Hins vegar stundum eru gögnin sniðin öðruvísi og þá þarf að sérsníða innflutningsferlið. Hægt er að nota gagnaskiptarammann til að gera það með því að bæta við eigin Codeunit. Þú munt líklega þurfa aðstoð frá hönnuði til að gera það. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónusta um gengi gjaldmiðils** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð.

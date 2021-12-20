@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643931"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920956"
 ---
 # <a name="acquire-fixed-assets"></a>Komast yfir eignir
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Afskriftabók þarf að setja upp og tengja hverri eign áður en hægt er að komast yfir hana.
@@ -78,14 +78,14 @@ Ef villa á sér stað við bókun stofnkostnaðar er hægt að fjarlægja færs
 Ef kaup eru til dæmis bókuð með rangri dagsetningu þarf að leiðrétta hana eins fljótt og unnt er þar sem bókunardagsetning eigna er notuð fyrir marga mikilvæga útreikninga.
 
 > [!IMPORTANT]  
->   Ekki er hægt að nota aðgerðina **Bakfæra viðskipti** fyrir eignarfærslur.
+> Ekki er hægt að nota aðgerðina **Bakfæra viðskipti** fyrir eignarfærslur.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Hætta við eignafærslur** og velja síðan viðkomandi tengil.
-2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
-4. Þegar röng færsla eða færslur eru ógiltir, skal halda áfram og bóka rétt kaupverð.
-
-Til að hætta við færslur fyrir margar eignir á sama tíma skal nota **hætta Við Eignafærslur** keyrsluna.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **eignafærslur** og velja síðan tengda tengilinn.  
+2. Á **síðunni eignafærslur** er færslan eða færslurnar sem á að hætta við valdar.  
+3. Veldu **valmyndina aðgerðir** og veldu síðan **aðgerðina Hætta við færslur**.
+4. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
+6. Þegar röng færsla eða færslur eru ógiltir, skal halda áfram og bóka rétt kaupverð.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Bóka hrakvirði með kaupverði.
 Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
