@@ -9,18 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/27/2021
+ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: db390d1f4ee690b9e461bfccd77155ec0b66a2b6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589430"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940627"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandkassaumhverfi í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu geturðu auðveldlega náð þér í öruggt umhverfi þar sem hægt er að prófa, þjálfa eða leysa úr málum án þess að það trufli verkferla eða viðskiptagögn fyrirtækisins. Slíkt umhverfi sem ekki er hægt að framleiða í er kallað *sandkassi*. Sandkassaumhverfi er staðurinn, ótengdur framleiðslu, þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa þjónustuna í öruggu umhverfi án þess að eiga á hættu að hafa áhrif á gögnin eða stillingarnar í framleiðsluumhverfi þínu.  
+
+> [!TIP]
+> Landaði þú á þessari grein eftir að þú valdir nafnið á [!INCLUDE [prod_short](includes/prod_short.md)] umhverfi þínu í Top Bar? Eins er ekki hægt að breyta nafninu eða umhverfinu sem vegur. Þess í stað þarf að biðja kerfisstjóra um að breyta nafninu eða biðja þá um að samnýta tengilinn í annað umhverfi.
 
 Stjórnandi hefur umsjón með sandkassaumhverfum í [stjórnendamiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 

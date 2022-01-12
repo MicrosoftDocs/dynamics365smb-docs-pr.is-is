@@ -1,6 +1,6 @@
 ---
 title: Spá fyrir um seinkun á greiðslu fyrir söluskjöl
-description: Þetta efnisatriði útskýrir hvernig á að nota spálíkanið okkar til að spá fyrir um hvort reikningur verði greiddur á réttum tíma.
+description: Í þessu efnisatriði er útskýrt hvernig nota á fyrirspyrjandi líkanið til að spá fyrir um hvort reikningur verði greiddur á tíma.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 06/23/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: dd943c5ad9464b9ebd1629c5dbc8a3f5545e9d9c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434909"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940827"
 ---
-# <a name="the-late-payment-prediction-extension"></a>Viðbót greiðsludráttarspár  
+# <a name="the-late-payment-prediction-extension"></a>Viðbót greiðsludráttarspár
+
 Árangursrík stjórnun viðskiptakrafna er mikilvæg fyrir heildar fjárhagslega heilsu fyrirtækis. Viðbót greiðsludráttarspár getur hjálpað þér að draga úr útistandandi kröfum og fínstilla stefnu sjóðsins með því að spá fyrir um hvort sölureikningar verði greiddar á réttum tíma. Til dæmis, ef spá telur greiðsla vera sein, gætir þú ákveðið að lagfæra skilmála greiðslu eða greiðslumáta fyrir viðskiptamanninn.
 
 ## <a name="getting-started"></a>Hafist handa
@@ -107,10 +108,13 @@ Ef svo virðist sem ferli notanda stemmi ekki við staðlaða líkanið er samt 
 7. Veldu **Nota Azure-áskriftina mína** gátreitinn.
 8. Í **Innskráningarupplýsingar fyrir líkanið mitt** flýtiflipanum, sláðu inn API slóðina og API lykil fyrir líkanið.  .  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+
+## <a name="see-also"></a>Sjá einnig
+
 [Fylgiskjöl fyrir Azure-vélnámsstúdíó](/azure/machine-learning/classic/)  
 [Sérstilling Business Central með viðbótum](ui-extensions.md)  
 [Velkomin(n) í [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-
+[Nota gervigreind í Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

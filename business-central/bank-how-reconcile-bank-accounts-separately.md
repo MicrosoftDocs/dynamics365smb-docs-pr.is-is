@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 54e989182a8d6612e6bb2c95eda327fd21cae0d8
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587810"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949022"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemma bankareikninga
 
@@ -36,7 +36,7 @@ Afstemming bankafærsla við innri bankafærslur er kölluð *samsvörun*. Hægt
 > [!NOTE]  
 > Ef bankayfirlitslínur tengjast tékkafærslum er ekki hægt að nota samsvörunaraðgerðirnar. Í staðinn þarf að velja aðgerðina **Jafna færslur** og velja síðan viðkomandi tékkafrærslu til að jafna bankayfirlitslínuna með.
 
-Þegar gildið í **heildarstaða** reitnum á **Bankauppgjörslínur** svæðinu jafngildir gildið í **Staða til afstemmingar** í á **Bankareikningsfærslur** svæðinu, er hægt að velja **Bóka** aðgerðina. Allar færslur ójafnaðar bankareiknings verða áfram á síðunni, sem gefur til kynna einhver misræmi sem þú ættir að leysa til að stemma bankareikninginn af.
+Þegar gildið í **reitnum Heildarstaða** í **rúðunni línur bankayfirlits jafnast út** heildarvirði **stöðu til að stemma** svæði við reitinn Staða í **Síðasta uppgjöri** í **glugganum bankareikningsfærslur er** hægt að velja **aðgerðina** Bóka. Ójafnar bankareikningsfærslur eru eftir á síðunni, sem gefur til kynna misræmi sem ætti að leysa til að stemma bankareikninginn af.
 
 Allar línur sem ekki er hægt að jafna, gefið til kynna með gildi í reitnum **Mismunur**, verða áfram á síðunni **Afstemming bankareiknings** eftir bókun. Þær tákna einhverskonar misræmi sem nauðsynlegt er að leysa úr áður en hægt er að ljúka afstemmingu bankareiknings. Dæmigerðar aðstæður fyrirtækis sem gætu valdið mismun:
 

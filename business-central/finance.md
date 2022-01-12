@@ -1,5 +1,5 @@
 ---
-title: Fjármálastjórnun
+title: Fjármálastjórnun (inniheldur Video)
 description: Kynntu þér hvernig Business Central styður við þarfir þínar fyrir fjárhagsstjórnun, reikningshald, endurskoðun og bókhald.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 842c2723fb62775e35673614c609257fe9439115
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: fd83ef3f2930900aae70fafa9489bb8f7c01f713
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326889"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939852"
 ---
 # <a name="financial-management"></a>Fjármálastjórnun
 

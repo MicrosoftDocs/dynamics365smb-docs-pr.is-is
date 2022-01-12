@@ -1,5 +1,5 @@
 ---
-title: Setja upp sölumann | Microsoft Docs
+title: Setja upp sölumann (inniheldur Video) | Microsoft docs '
 description: Þú getur sett upp kennimerki fyrir sérhvern sölumann, til að geta fylgst með frammistöðu einstakra sölumanna og úthlutað tengilið sölumanni.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 07fa5963f79f091dffd49af7d20669616923797f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 2771eff803209b7f4295f6ac8a2e2af0d937f5fe
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436652"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940027"
 ---
 # <a name="set-up-salespeople"></a>Setja upp sölumenn
 Í mörgum fyrirtækjum þarf jafnan að fylgjast með starfi einstaklinga (t.d. sölumanna) svo hægt sé að nota upplýsingar sem þeim tengjast við að reikna sölulaun eða bónus, svo að dæmi sé tekið. Skoða, til dæmis skýrsluna um **sölulaun sölumanns**. Fyrirtæki gæti einnig viljað úthluta tengiliðum á viðeigandi sölumann.

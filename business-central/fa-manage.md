@@ -1,5 +1,5 @@
 ---
-title: Eignastjórnun
+title: Stjórna eignum (inniheldur myndskeið)
 description: Kynntu þér virkni eigna og fáðu yfirsýn yfir það hvernig skuli vinna með og stjórna eignum.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6d6cf9a0efeca2c484d0fd2e1ce06db63f2ac91f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 0022ae0c13009108064d758fdd0d6f4894b12bad
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323228"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940577"
 ---
 # <a name="managing-fixed-assets"></a>Eignaumsjón
 Í kerfishlutanum Eignir í [!INCLUDE[prod_short](includes/prod_short.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.

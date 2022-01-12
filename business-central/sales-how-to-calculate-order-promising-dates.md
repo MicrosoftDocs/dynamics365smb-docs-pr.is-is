@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: b7f23153fe59451b6fc943b0e1115ae0bc895b7c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: b7d7493f0bada0796ee910ca8df01465c3086cd2
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442751"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940502"
 ---
 # <a name="calculate-order-promising-dates"></a>Reikna dagsetningar pöntunarloforða
 Fyrirtæki verður að geta upplýst viðskiptamenn sína um afhendingardagsetningar pöntunar. Síðan **Línur pöntunarloforðs** gerir kleift að framkvæma þetta í sölupöntun.  
 
-Grundvallaður á þekktum og áætluðum ráðstöfunardagsetningum vöru, [!INCLUDE[prod_short](includes/prod_short.md)] reiknar strax sendingar- og afhendingardagsetningar, sem er svo hægt að lofa viðskiptamanninum.  
+[!INCLUDE[prod_short](includes/prod_short.md)] reiknar út afhendingar- og afhendingardagsetningar á grundvelli þekktra og væntanlegra ráðstöfunardagsetninga vöru sem hægt er að lofa viðskiptavinum.  
 
 Ef tilgreindur er afgreiðsludagsetning á sölupöntunarlínunni notar forritið þessa dagsetningu sem upphafspunkt fyrir eftirfarandi útreikninga  
 
@@ -43,13 +43,13 @@ Aðgerðin Pöntunarloforð gerir kleift að lofa því að pöntun verði send 
 - Hægt að lofa (CTP)  
 
 ### <a name="available-to-promise"></a>Tiltækt að lofa  
-Tiltæk til að lofa (ATP) reiknar út dagsetningar á grundvelli frátekningarkerfisins. Hún gerir ráðstöfunarathugun á ófráteknu magni í birgðum með tilliti til áætlaðrar framleiðslu, innkaupa, flutninga og söluskila. Á grundvelli þessarar upplýsinga, reiknar [!INCLUDE[prod_short](includes/prod_short.md)] afhendingardagsetningu fyrir pöntun viðskiptamanns þar sem vörurnar eru tiltækar, annaðhvort í birgðum eða í áætluðum móttökum.  
+Tiltæk til að lofa (ATP) reiknar út dagsetningar á grundvelli frátekningarkerfisins. Hún gerir ráðstöfunarathugun á ófráteknu magni í birgðum með tilliti til áætlaðrar framleiðslu, innkaupa, flutninga og söluskila. Á grundvelli þessara upplýsinga [!INCLUDE[prod_short](includes/prod_short.md)] reiknar út afhendingardagsetningu pöntunar viðskiptavinar þar sem vörurnar eru tiltækar, annað hvort í birgðum eða á áætluðum innhreyfingum.  
 
 ### <a name="capable-to-promise"></a>Hægt að lofa  
 CTP-afhendingargeta notar „hvað ef“ aðstæður sem gildir aðeins um magn sem ekki erí birgðum eða á dagsettum pöntunum. Samkvæmt þessu dæmi, reiknar [!INCLUDE[prod_short](includes/prod_short.md)] út fyrstu dagsetningu þegar varan er til ef á að framleiða hana, kaupa eða flytja.
 
 #### <a name="example"></a>Dæmi
-Ef pöntun er til staðar fyrir 10 stykki, og 6 stykki eru til staðar í birgðum eða á dagsettum pöntunum, byggir útreikningur CTP-afhendingargetu á 4 stykkjum.
+Ef pöntun er fyrir 10 stykki og 6 stykki eru tiltæk í birgðum eða á áætluðum pöntunum verður hægt að lofa útreikningi á 4 stykkjum.
 
 ### <a name="calculations"></a>Útreikningar  
 Þegar [!INCLUDE[prod_short](includes/prod_short.md)] reiknar afhendingardagsetningu viðskiptamanns framkvæmir það tvo verkhluta:  
@@ -67,7 +67,7 @@ Ef viðskiptamaðurinn biður ekki um sérstaka afgreiðsludagsetningu verður a
 - Áætluð afhendingardagsetning – Flutningstími = Áætluð afgreiðsludagsetning  
 - Áætluð afhendingardagsetning - Afgreiðslutími út úr vöruhúsi + Afh.dags.  
 
-Afhendingardagsetning er notuð til að gera til ráðstöfunarathugunina. Ef varan er tiltæk á þeim degi staðfestir [!INCLUDE[prod_short](includes/prod_short.md)] að umbeðin/lofuð afhending standist með því að stilla áætlaða afhendingardagsetningu á umbeðna/lofaða afhendingardagsetningu. Ef varan er ekki tiltæk er auðri dagsetningu skilað og þá getur pöntunarvinnslan notað CTP-virkni.  
+Afhendingardagsetning er notuð til að gera til ráðstöfunarathugunina. Ef varan er tiltæk á [!INCLUDE[prod_short](includes/prod_short.md)] þessum degi, staðfestir að hægt sé að uppfylla umbeðna/lofaða afhendingu með því að stilla áætlaða afhendingardagsetningu á sama umbeðna/lofaða afhendingardagsetningu. Ef varan er ekki tiltæk er auðri dagsetningu skilað og þá getur pöntunarvinnslan notað CTP-virkni.  
 
 Byggt á nýjum dagsetningum og tímum, allar tengdar dagsetningar eru reiknaðar samkvæmt reiknireglum sem lýst var fyrr í þessum kafla. CTP-útreikningurinn tekur lengri tíma en gefur nákvæmari dagsetningu þess hvenær viðskiptavinurinn gefur vænst þess að fá vöruna afhenta. Dagsetningarnar sem eru reiknaðar með CTP eru sýndar í **Áætluð afhendingardagsetning** og **Fyrsti mögulegi afhendingardagur** svæðunum á síðunni **Pöntun lofað línur**.  
 
@@ -92,38 +92,20 @@ Auk ytri pantanaloforða sem hægt er að framkvæma á síðunni **Línur pönt
 4. Sniðmát pöntunarloforða er fært inn í reitinn **Sniðmát pöntunarloforða** með því að velja línu af listanum á síðunni **Listi yfir innkaupatillögusniðmát** .  
 5. Innkaupatillögusniðmát er fært inn í reitinn **Pöntunarloforð Innkaupatillaga** með því að velja línu af listanum á síðunni **Listi yfir innkaupatillögusniðmát** .
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Til að opna birgðarsíðuna til að færa inn afgreiðslutíma á vörum inn í vöruhús   
-Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar og birgðageymsluna sem um ræðir.    
+### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Afgreiðslutímar á vörum inn- og út úr vöruhúsi í pöntunarloforði  
+Ef taka á afgreiðslutíma vöruhúss með í útreikningi á lofunum pöntunar í innkaupalínunni **er á síðunni Birgðagrunnur** hægt að tilgreina sjálfgefinn afgreiðslutíma sem á að nota í sölu- og innkaupaskjölum. Einnig er hægt að færa inn tiltekna tíma fyrir hverja birgðageymslu á **síðunni** Birgðageymsluspjald. 
+
+#### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Sjálfgefnir afgreiðslutímar á vörum inn- og út úr vöruhúsi færðir inn fyrir sölu- og innkaupaskjöl
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.  
-2. Á flýtiflipanum **Almennt** í reitnum **Afgr.tími vara á innl. í vöruh.** er færður inn sá dagafjöldi sem á taka með í útreikningi á því hvenær pöntunum er lofað.  
+2. Á **flýtiflipanum** Almennt í reitnum **Afgr.tími vara á innl. Meðhöndlun tíma** og afgreiðslutíma og **afgr.tími vara á útl. afgreiðslutími** er færður inn fjöldi daga sem taka á með í útreikningum á lofunarefni pöntunar.  
 
-> [!NOTE]  
->  Ef fyllt hefur verið út í reitinn **Afgr.t. vara á innl. í vöruh.** á **Birgðageymsluspjald** fyrir birgðageymsluna er það sem er í þeim reit notað sem sjálfgefinn afgreiðslutíma á vörum inn í vöruhús.  
-
-### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Til að færa inn á birgðageymsluspjöld afgreiðslutíma á vörum inn í vöruhús:  
+#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Afgreiðslutímar á vörum inn- og út úr vöruhúsi færðir inn í birgðageymslur  
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningu** og velja síðan viðkomandi tengil.  
 2.  Opna skal viðeigandi birgðageymsluspjald.  
-3.  Á flýtiflipanum **Vöruhús** skal færa inn þann dagafjölda sem nota skal við útreikning á hvenær pöntunum er lofað inn í reitinn **Afgr.t. vara á innl. í vöruh.**.  
+3.  Á **flýtiflipanum** Vöruhús í reitnum **Afgr.tími vara á innl. Meðhöndlun tíma** og afgreiðslutíma og **afgr.tími vara á útl. afgreiðslutími** er færður inn fjöldi daga sem taka á með í útreikningi á lofunarefni pöntunar.  
 
 > [!NOTE]  
->  Ef reiturinn **Afgr.t. vara á innl. í vöruh.** er skilinn eftir auður verður gildið af síðunni **Birgðagrunnur** notað við útreikninginn.
-
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Til að opna birgðarsíðuna til að færa inn afgreiðslutíma á vörum út úr vöruhúsi  
-Ef afgreiðslutími á vörum út úr vöruhúsi á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar.
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.  
-2. Á flýtiflipanum **Almennt** í reitnum **Afgr.tími vara á útl. úr vöruh.** er færður inn sá dagafjöldi sem á taka með í útreikningi á því hvenær pöntunum er lofað.  
-
-> [!NOTE]  
->  Ef fyllt hefur verið út í reitinn **Afgr.tími vara á útl. úr vöruh.** á Birgðageymsluspjald fyrir birgðageymsluna er það sem er í þeim reit notað sem sjálfgefinn afgreiðslutíma á vörum út úr vöruhúsi.  
-
-### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Til að færa inn á birgðageymsluspjöld afgreiðslutíma á vörum út úr vöruhúsi:  
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
-2.  Opna skal viðeigandi birgðageymsluspjald.  
-3.  Á flýtiflipanum **Vöruhús** skal færa inn þann dagafjölda sem nota skal við útreikning á hvenær pöntunum er lofað inn í reitinn **Afgr.t. vara á útl. úr vöruh.**.  
-
-> [!NOTE]  
->  Ef reiturinn **Afgr.tími vara á útl.úr vöruh.** er skilinn eftir auður verður gildið af síðunni **Birgðagrunnur** notað við útreikninginn.
+>  Þegar innkaupapöntun er stofnuð er **birgðageymsla valin** í **reitnum Sendist-til** á **flýtiflipanum Afhenda og greiðsla** og síðan valin birgðageymsla í **reitnum Kóti** birgðageymslu, **reitnum Afgr.tími vara á útl. Afgreiðslutími** og **Afgr.tími vara á innl. Reitirnir Afgreiðslutími** nota afgreiðslutímann sem tilgreindur er fyrir staðsetninguna. Fyrir sölupantanir á það sama við ef valin er birgðageymsla í **reitnum Kóti** birgðageymslu. Ef enginn afgreiðslutími er tilgreindur fyrir birgðageymsluna er reiturinn **Afgr.tími vara á útl. Afgreiðslutími** og **Afgr.tími vara á innl.** Afgreiðslutími reitir verða auðir. Ef **reiturinn Kóti birgðageymslu** er hafður auður í sölu- og innkaupaskjölum notar útreikningurinn afgreiðslutímann sem tilgreindur er á **síðunni** Birgðagrunnur.
 
 ## <a name="to-make-an-item-critical"></a>Varan bundin:  
 Áður en vara er sett inn í útreikning pöntun lofað, verður að merkja hana sem mikilvægt. Þessi uppsetning tryggir að ó-mikilvægar vörur trufli ekki útreikning pöntunarloforða.   

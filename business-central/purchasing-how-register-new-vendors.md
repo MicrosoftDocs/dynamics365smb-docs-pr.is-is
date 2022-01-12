@@ -1,5 +1,5 @@
 ---
-title: Stofna lánardrottnaspjald til að skrá nýjan lánardrottinn
+title: Stofna lánardrottnaspjald til að skrá nýjan lánardrottin (inniheldur myndskeið)
 description: Þetta efnisatriði kynnir hvernig skal stofna lánadrottnaspjald til að skrá nýjan lánardrottin eða birgja og vista lánardrottnaspjöld sem sniðmát.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 85842f5883b17d7386f65367efec4aa6dfea2b11
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587685"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939902"
 ---
 # <a name="register-new-vendors"></a>Skráning nýrra lánardrottna
 

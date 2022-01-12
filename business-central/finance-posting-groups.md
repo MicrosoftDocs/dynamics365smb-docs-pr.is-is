@@ -1,8 +1,6 @@
 ---
 title: Uppsetning bókunarflokks| Microsoft Docs
 description: Yfirlit yfir bókunarflokka sparar tíma og hjálpar við að koma í veg fyrir mistök þegar þú bókar færslur.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588808"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940752"
 ---
 # <a name="setting-up-posting-groups"></a>Uppsetning bókunarflokka
 Staða hópar korta aðila eins og viðskiptavini, seljendur, atriði, auðlindir og sölu- og kaupskjöl til almennra reikninga. Þeir spara tíma og hjálpar við að koma í veg fyrir mistök þegar þú bókar færslur. Færslugildin fara á lyklana sem tilgreindir eru í bókunarhópnum fyrir þá tilgreindu einingu. Eina krafan er að þú hafir bókhaldslykla. Nánari upplýsingar er að finna í [Uppsetning bókhaldslykilsins](finance-setup-chart-accounts.md).  
@@ -74,6 +72,17 @@ Uppsetningin þín ákvarðar hvenær bókun á sér stað. Til dæmis er tímas
 
 ## <a name="copying-posting-setup-lines"></a>Bókunargrunnslínur afritaðar
 Því fleiri vörur og viðskiptabókunarflokk sem þú ert með því fleiri línur sérðu á síðunni almennur bókunargrunnur. Vegna þessa gæti þurft að færa inn mikið af gögnum til að setja upp almennan bókunargrunn fyrir fyrirtækið. Þó að samsetningar viðskipta- og vörubókunarflokkanna séu margar er hægt að bóka þær saman í einn fjárhagsreikning. Til að draga úr handvirkum færslum skal afrita fjárhagsreikninga úr línu á síðunni **Alm. bókunargrunnur**.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Setja upp bókunarflokka á ferðinni
+
+Til að fá notendur ræsa hraðar er [!INCLUDE[prod_short](includes/prod_short.md)] boðið upp á aðstoð í gegnum tilkynningar um vantar fjárhagsreikninga í mismunandi bókunarflokka uppsetningar í skjölum. Til að fá þessar tilkynningar þarf að ganga úr skugga um að **fjárhagsreikningurinn vanti í bókunarflokk eða tilkynningu um uppsetningu og að** Tilkynning sé valin á **síðunni tilkynningar sem hægt er að komast í** frá **breytingunni þegar reiturinn tilkynningar er færð** inn á **síðuna mínar stillingar**.  
+
+Þegar unnið er í skjali sem notar bókunarflokk eða-uppsetningu sem nauðsynlegur reikningur vantar kemur upp tilkynning. Veldu hlekkinn í notificationtil að opna síðu þar sem þú getur gert viðeigandi breytingar, gefið þér heimild til þess.  
+
+> [!NOTE]
+> Til að taka þig beint út í bókunarflokkinn eða uppsetninguna sem almennur Fjárhagslykill vantar fyrir [!INCLUDE[prod_short](includes/prod_short.md)] verður að stofna frátakaflokk eða-uppsetningu. Bókunarflokkar og uppsetningar eru leið fyrir endurskoðandann til að stýra því hvernig færslur eru bókaðar í fjárhag, þannig að eins er bara stofnun bókunarflokka og uppsetningar ekki leyfðar í fyrirtækinu þínu.  
+> 
+> Ef svo er þarf að gera **fjárhagsreikninginn óvirkan í bókunarflokki eða** tilkynningu og vinna síðan hjá endurskoðanda til að gera viðkomandi breytingar á bókunarflokknum, uppsetningunni eða skjalinu. Þetta er mikilvægt skref, því þegar skjöl eru bókuð eru ekki hægt að eyða öllum bókunarflokkum sem eru ranglega notaðir vegna þess að fjárhagsfærslur hafa stofnast fyrir þær. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Úrræðaleita villur bókunarflokks
 Bókunarflokkar eru með ítarlegustu hlutunum til að setja upp í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þeir eru ekki settir upp á réttan hátt geta villur komið upp þegar skjöl eða færslubókarlínur eru bókaðar. Til dæmis stafa þessar villur yfirleitt af mistökum í því hvernig almennum fjárhagslyklum er úthlutað eða hvernig bókunarflokkar eru sameinaðir.

@@ -1,5 +1,5 @@
 ---
-title: Setja upp innkaupaaðila og úthluta innkaupaaðilum til lánardrottna | Microsoft Docs
+title: Setja upp kaupendur og úthluta kaupendum á lánardrottna (inniheldur Video) | Microsoft docs
 description: Ef nokkrir innkaupaaðilar vinna hjá fyrirtækinu þínu, getur þú skipulagt þá til tölfræðilegrar greiningar.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 452a5fab73d60bea127d19a42c1730fcbd24b06c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cdfb1198234a0bfcbbc74e7816568f2f06b21b10
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435136"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940177"
 ---
 # <a name="set-up-purchasers"></a>Setja upp kaupendur
 Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp á síðu og úthluta hverjum þeirra kóða. Síðan er hægt að nota kótana til að undirbúa upplýsingar og afmarka upplýsingar í prentuðum skýrslum.<br><br>  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 183aa0cee83c826d51f582faead9d3a53b02ce71
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
-ms.translationtype: HT
+ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7889795"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928810"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Skilningur á fjárhag og bókhaldslyklum
 
@@ -45,7 +45,7 @@ Skýringin á reikningum sýnir allar almennar bókhaldsreikningar. Úr bókhald
 
 * Skoða skýrslur sem sýna aðalbókaratriði og jafnvægi.  
 * Lokaðu rekstrarreikningi þínum.  
-* Opnið fjárhagsreikningskortið til að bæta við eða breyta stillingum.  
+* Opna skal fjárhagsreikningskort fjárhags (Fjárhagur) til að bæta við eða breyta stillingum.  
 * Sjá lista yfir pósthópa sem senda á þann reikning.
 * Skoða debet- og kreditstöður fyrir einstakan fjárhagsreikning  
 
@@ -55,7 +55,7 @@ Skýringin á reikningum sýnir allar almennar bókhaldsreikningar. Úr bókhald
 
 Þú getur sérsniðið uppbyggingu reikningsskila þinnar með því að kortleggja aðalbókarreikninga í reikningsflokkum.  
 
-Síðan **Fjárhagsreikningsflokkar** sýnir flokka og undirflokka og fjárhagsreikninga sem eru úthlutað þeim. Hægt er að stofna nýja undirflokka og úthluta þeim á fyrirliggjandi reikninga.  
+**Síðan Flokkur fjárhagsreikninga** sýnir tegundir og undirflokka og fjárhagslykla sem er úthlutað á þá. Hægt er að stofna nýja undirflokka og úthluta þeim á fyrirliggjandi reikninga.  
 
 Þú stofnar tegundaflokk með því að draga inn aðra undirflokka undir línu á síðunni **flokkar fjárhagsreikninga**. Það gerir það auðveldara fyrir þig að fá yfirlit, því hver flokkur sýnir heildarstöðu. Til dæmis er hægt að stofna undirflokka fyrir mismunandi tegundir eigna og síðan stofna tegundaflokka fyrir fastafjármunir miðað við veltufjármunir.  
 

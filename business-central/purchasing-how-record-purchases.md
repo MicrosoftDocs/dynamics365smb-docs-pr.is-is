@@ -1,5 +1,5 @@
 ---
-title: Skrá innkaup með innkaupareikningum
+title: Skrá innkaup með innkaupareikningum (inniheldur Video)
 description: Lýsir því hvernig á að kaupa birgðir, vörur sem eru ekki birgðavara eða forða með því að stofna og bóka innkaupareikninga eða -pantanir.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 18aef7bfc5324d17d2af9f4aa4ff0ba2602c70e0
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 132486fc1e628678cd9ed5d68599a830f2b23b8d
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482398"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940702"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Skrá innkaup með innkaupareikningum
 

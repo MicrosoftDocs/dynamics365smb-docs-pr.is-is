@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.date: 12/20/2021
 ms.author: edupont
 ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724813"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940202"
 ---
 # <a name="cash-flow-overview"></a>Yfirlit yfir sjóðstreymi
 
@@ -26,7 +26,7 @@ Að skilja sjóðinnstreymi og útstreymi er lykillinn að farsælum fyrirtækja
 
 Hugtakið *Sjóðstreymi* er notað til að tilgreina inngreiðslur að frádregnum útgreiðslum yfir valið tímabil. Það er mat á peningaupphæðina sem búist er við að flæði inn og út úr fyrirtækinu og inniheldur allar áætlaðar tekjur og útgjöld.
 
-## <a name="cash-flow-overview"></a>Yfirlit yfir sjóðstreymi
+## <a name="work-with-cash-flow"></a>Vinna með sjóðstreymi
 
 Eftirfarandi mynd sýnir yfirlit yfir það hvernig hægt er að vinna með sjóðstreymi.
 
@@ -74,7 +74,10 @@ Nettó sjóðstreymi eða beingreiðsla er reiknuð sem heildarsjóðstekjur mí
 Spána er svo hægt að nota sem verkfæri til ákvörðunar í innri stjórnun sem hjálpar til við að áætla fram í tímann og taka mikilvægar stefnumótandi ákvarðanir er varða starfsemi fyrirtækisins.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md)  
-[Greina sjóðsstreymi](finance-analyze-cash-flow.md)
+[Greina sjóðsstreymi](finance-analyze-cash-flow.md)  
+[Spáið sjóðstreymis í Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Setja upp sjóðstreymisspár með Azure AI í Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

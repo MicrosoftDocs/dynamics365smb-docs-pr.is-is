@@ -1,5 +1,5 @@
 ---
-title: Að finna eiginleika og upplýsingar | Microsoft Docs
+title: Finna lögun og upplýsingar (inniheldur Video) | Microsoft docs
 description: Þetta efnisatriði lýsir því hvernig á að nota leit til að finna aðgerðir, síður, skýrslur, skjöl og gögn, ásamt öðrum forritum og ráðgjafarþjónustum.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 1e44edeee82214c1d19489da351b3001bfa4fc3e
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440003"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940127"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finndu síður og upplýsingar með Viðmótsleit  
 Þetta efnisatriði lýsir því hvernig Viðmótsleit getur hjálpað þér að komast hratt á staði eins og aðgerðir, síður eða skýrslur, finna upplýsingar um hvernig á að ljúka ákveðnu verki og uppgötva önnur forrit og ráðgjafarþjónustur fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
