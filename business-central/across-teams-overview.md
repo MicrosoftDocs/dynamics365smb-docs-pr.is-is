@@ -3,25 +3,25 @@ title: Business Central og Microsoft Teams samþættingaryfirlit | Microsoft Doc
 description: Samnýta Business Central-færslur beint í Teams-samtal.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 943fd46025a736ae7f32f8fbb02fcacbefb32e8e
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587506"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011846"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams samþætting
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) er Microsoft 365 vara sem gerir þér kleift að tengjast við aðra, vinna saman að verkefnum og einfalda vinnuna. [!INCLUDE [prod_short](includes/prod_short.md)] býður upp á forrit sem tengir Microsoft Teams við viðskiptagögn í [!INCLUDE [prod_short](includes/prod_short.md)] þannig að hægt sé að deila upplýsingum á fjótlegan hátt á meðal teymismeðlima, leita að tengiliðum og svara fyrirspurnum með skjótari hætti.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) er Microsoft 365 afurð sem gerir þér kleift að tengjast við aðra, vinna óaðfinnanlega og einfalda vinnu. [!INCLUDE [prod_short](includes/prod_short.md)] býður upp á forrit sem tengir Microsoft Teams við viðskiptagögn í [!INCLUDE [prod_short](includes/prod_short.md)] þannig að hægt sé að deila upplýsingum á fjótlegan hátt á meðal teymismeðlima, leita að tengiliðum og svara fyrirspurnum með skjótari hætti.
 
 Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-skjáborði, farsímaforriti eða á vefnum.
 
@@ -53,9 +53,9 @@ Frekari upplýsingar eru í [Deila færslum í Microsoft Teams](across-working-w
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Deila tenglum af síðum í Business Central með Teams
 
-Beint frá flestum söfnunar- og upplýsingasíðum í Business Central er hægt að nota aðgerðina **Deila með Teams** í ![Valmyndartákni deilingar á síðum.](media/share-icon.png "Deilingarvalmyndin sýnd á spjaldi.") til að skrifa skilaboð, velja viðtakendur á borð við teymismeðlimi, hópa eða rásir og senda skilaboðin með tengli á síðu Business Central.
+Beint af flestum safn-og upplýsingasíðum í Aðalsafni fyrirtækja er hægt að nota **aðgerðina samnýta-teymi** úr ![!valmyndinni samnýta valmynd á síðum.](media/share-icon.png "Deilingarvalmyndin sýnd á spjaldi.") til að skrifa skilaboð, velja viðtakendur á borð við teymismeðlimi, hópa eða rásir og senda skilaboðin með tengli á síðu Business Central.
 
-![Deilingarvalmynd sýnd í spjaldi.](media/teams-share-link.png "Deilingarvalmyndin sýnd á spjaldi.")
+![!Valmyndinni samnýta sem birtist á spjaldi.](media/teams-share-link.png "Deilingarvalmyndin sýnd á spjaldi.")
 
 Frekari upplýsingar er að finna í [Deila færslum og síðutenglum í Microsoft Teams](across-working-with-teams.md#share-link).
 

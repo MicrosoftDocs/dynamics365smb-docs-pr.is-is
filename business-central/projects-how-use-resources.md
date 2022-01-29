@@ -1,8 +1,6 @@
 ---
-title: Skrá og leiðrétta forðanotkun og verð| Microsoft Docs
+title: Skrá og leiðrétta forðanotkun og verð
 description: Lýsir því hvernig þú getur skráð forðanotkunina eða neysluna í tengslum við verk, til að fylgjast með og stjórna kostnaði, verði, og vinnutegund.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
+ms.search.form: 201, 493
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb1469242408164f73296f27f5cadd432b15fa2e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: df210235cc90a77e063b7b92068f95dfc9da9e6a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441473"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972175"
 ---
 # <a name="use-resources-for-jobs"></a>Nota tilföng fyrir verk
+
 Notkun forða er skráð í verkbókina til að fylgjast með kostnaði, verði og þeim verktegundum sem tengdar eru við verk. Frekari upplýsingar eru í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
 
 > [!NOTE]
@@ -28,23 +28,27 @@ Notkun forða er skráð í verkbókina til að fylgjast með kostnaði, verði 
 Einnig er hægt að bóka notkun forða í forðabók. Færslur sem bókaðar eru í forðabók hafa engin áhrif á fjárhag.
 
 ## <a name="to-assign-resources-to-jobs"></a>Forða úthlutað á verk
+
 Forða er úthlutað á verk með því að búa til verkáætlunarlínur fyrir verkið. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Til að skrá notkun forða fyrir verk
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.
 2. Opnið viðeigandi verkbókarfærslu og fyllið út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Þegar færslubókin er tilbúin skal velja aðgerðina **Bóka**.
 
 ## <a name="to-adjust-resource-prices"></a>Til að leiðrétta forðaverð
+
 Ef breyta á kostnaði eða verði á mörgum tegundum forða er hægt að nota keyrslu.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðrétta kostnað/verð tilfangs** og veldu síðan tengda tengilinn.
 2. Fyllið út reitina í línu eins og þörf krefur og veljið svo hnappinn **Í lagi**.
 
 > [!NOTE]  
->   Þessi keyrsla stofnar hvorki né leiðréttir annan kostnað eða verð forða. Hún breytir aðeins innihaldi reitsins á forðaspjaldinu fyrir reitinn **Leiðr. reit** sem var valinn í keyrslunni. Leiðréttingarnar taka strax gildi í forðanum svo að rétt er að ganga úr skugga um að leiðréttingarstuðullinn sé réttur áður en keyrslan er notuð.
+> Þessi keyrsla stofnar hvorki né leiðréttir annan kostnað eða verð forða. Hún breytir aðeins innihaldi reitsins á forðaspjaldinu fyrir reitinn **Leiðr. reit** sem var valinn í keyrslunni. Leiðréttingarnar taka strax gildi í forðanum svo að rétt er að ganga úr skugga um að leiðréttingarstuðullinn sé réttur áður en keyrslan er notuð.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Til að fá verðbreytingatillögur forða út frá fyrirliggjandi öðru verði
+
 Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt að nota keyrslu til að setja upp fleiri önnur forðaverð.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verðbreytingar forða** og velja síðan viðkomandi tengil.
@@ -53,6 +57,7 @@ Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt
 4. Þegar runuvinnslunni lýkur sýnir síðan **Verðbreytingar forða** niðurstöður runuvinnslunnar.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Búa til verðbreytingatillögur forða út frá stöðluðu verði:
+
 Ef setja á upp fleiri en eitt annað verð á forða út frá stöðluðu verði á forðaspjöldunum er hægt að nota keyrslu.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verðbreytingar forða** og velja síðan viðkomandi tengil.
@@ -61,6 +66,7 @@ Ef setja á upp fleiri en eitt annað verð á forða út frá stöðluðu verð
 4. Þegar runuvinnslunni lýkur er síðan **Verðbreytingar forða** opnuð til að sjá niðurstöður runuvinnslunnar.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Til að fá verðbreytingatillögur forða út frá öðru verði
+
 Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt að nota keyrslu til að setja upp fleiri önnur forðaverð.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tillaga um verðbreytingu forða (verð)** og velja síðan viðkomandi tengil.  
@@ -69,10 +75,11 @@ Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt
 4. Þegar runuvinnslunni lýkur er síðan **Verðbreytingar forða** opnuð til að sjá niðurstöður runuvinnslunnar.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  
-[Innkaup](purchasing-manage-purchasing.md)         
-[Sala](sales-manage-sales.md)     
+[Innkaup](purchasing-manage-purchasing.md)  
+[Sala](sales-manage-sales.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

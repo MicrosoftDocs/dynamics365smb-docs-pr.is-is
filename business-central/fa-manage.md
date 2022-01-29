@@ -1,25 +1,25 @@
 ---
-title: Stjórna eignum (inniheldur myndskeið)
+title: Umsjón með eignum (inniheldur Video)
 description: Kynntu þér virkni eigna og fáðu yfirsýn yfir það hvernig skuli vinna með og stjórna eignum.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
+ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0022ae0c13009108064d758fdd0d6f4894b12bad
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: e7b40c1d4809193a22367157fd69cacbd9b27105
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940577"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029379"
 ---
 # <a name="managing-fixed-assets"></a>Eignaumsjón
+
 Í kerfishlutanum Eignir í [!INCLUDE[prod_short](includes/prod_short.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
 
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Síðan getur hafist komast yfir, viðhalda og selja eignir. Hægt er einnig að setja upp áætlaðar eignir. Með því er hægt að taka með áætluð eignakaup og -sölu í skýrslum.

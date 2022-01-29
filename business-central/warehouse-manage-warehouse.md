@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5774, 5776, 5777, 5785, 5793, 5797, 7318, 7364, 7401, 8909, 9000, 9008, 9009, 9050, 9053, 9056
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 95053f6017d6c84ebd39af5407ecb4e5b90c10f4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: af975b69973eab84efcb346e98600d8b2221ecea
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319339"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971522"
 ---
 # <a name="warehouse-management"></a>Vöruhúsastjórnun
+
 Eftir að tekið hefur verið á móti vörum og áður en vörur eru afhentar, fer röð vöruhúsaaðgerða fram til þess að tryggja að flæði gegnum vöruhúsið sé skilvirkt og til að skipuleggja og viðhalda birgðum fyrirtækisins.
 
 Dæmigerðar vöruhúsaaðgerðir felast í frágangi vöru, færslu á vörum inni í eða milli vöruhúsa og tínslu á vörum fyrir samsetningu, framleiðslu eða afhendingu. Vörusamsetning fyrir sölu eða birgðir geta einnig talist til vöruhúsaðgerða, en um það er fjallað annarsstaðar. Nánari upplýsingar, sjá [Samsetningarstjórnun](assembly-assemble-items.md).  
@@ -33,17 +34,18 @@ Birgðatengd verk talningar, leiðréttingar og endurflokkunar á vörum kann a�
 |**Til að**|**Sjá**|  
 |------------|-------------|  
 |Skrá móttöku vara í vöruhúsabirgðageymslum (þar með talið umframmóttökum), annað hvort með innkaupapöntun eingöngu, í einfaldri birgðageymsluuppsetningu, eða með vöruhúsamóttöku, ef skyldi vera sjálfvirkt vöruhúsaferli, að hluta eða í heild, í birgðageymslunni.|[Móttaka vara](warehouse-how-receive-items.md)|
-|Tengja framhjá frágangs- og tínsluferlinu til að flýta vöru beint frá móttöku eða framleiðslu yfir í afhendingu.|[Hjáskipa vörur](warehouse-how-to-cross-dock-items.md)|    
+|Tengja framhjá frágangs- og tínsluferlinu til að flýta vöru beint frá móttöku eða framleiðslu yfir í afhendingu.|[Hjáskipa vörur](warehouse-how-to-cross-dock-items.md)|
 |Ganga frá vörum sem eru mótteknar vegna innkaupa, söluvöruskila, flutnings eða framleiðslufrálagi samkvæmt tilgreindu aðgerðaflæði vöruhúss.|[Gengið frá vörum](warehouse-put-away-items.md)|
 |Færa vörur milli hólfa í vöruhúsinu.|[Færa vörur](warehouse-move-items.md)|
 |Tína til vörur fyrir afhendingu, flutning eða til notkunar í framleiðslu eða samsetningu, samkvæmt tilgreindu aðgerðaflæði vöruhúss.|[Tína vörur](warehouse-pick-items.md)|
 |Skrá afhendingu vara frá vöruhúsabirgðageymslum, annað hvort með sölupöntun eingöngu, í einfaldri birgðageymsluuppsetningu, eða með vöruhúsaafhendingu, ef skyldi vera sjálfvirkt vöruhúsaferli, að hluta eða í heild, í birgðageymslunni.|[Senda vörur](warehouse-how-ship-items.md)|  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Birgðir](inventory-manage-inventory.md)  
-[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
-[Samsetningardeild](assembly-assemble-items.md)    
-[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
+[Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md) 
+[samsetningarstýring](assembly-assemble-items.md)
+[hönnunar upplýsingar: vöruhúsastjórnun](design-details-warehouse-management.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að búa til opnunarstöður færslubóka
+title: Stofna opnunarstöður færslubókar
 description: Boðið er upp á runuvinnslur til að hjálpa til við að flytja gamlar reikningsstöður til nýlega grunnstillts fyrirtækis. Auðvelt er að flytja þessi gögn með færslubókunum.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: ad338aaccb9bc912ff2861423e4ad3b170aa566d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319539"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029089"
 ---
 # <a name="create-journal-opening-balances"></a>Stofna opnunarstöður færslubókar
 
@@ -45,6 +45,9 @@ Fyrsta skrefið er að stofna grunnstillingarpakka sem inniheldur uppsetningart�
 
 > [!TIP]
 > Hægt er að nota sömu runuvinnslur til að bæta við opnunarstöðum í hvert sinn sem nýr viðskiptamaður eða lánardrottinn sem þú hefur stundað viðskipti með áður en er ekki skráður í [!INCLUDE [prod_short](includes/prod_short.md)]. Leitið einfaldlega að viðkomandi verki og veljið síðan viðkomandi tengil.
+
+> [!IMPORTANT]
+> Ekki fylgja skrefunum í þessari grein til að bóka beint á fjárhagsreikningana sem eru tengdir viðkomandi bankareikningum, sérstaklega fyrir upphafsstöður fyrir bankareikninga. Nánari upplýsingar um það eru í [Setja upp bankareikninga](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>Sjá einnig
 

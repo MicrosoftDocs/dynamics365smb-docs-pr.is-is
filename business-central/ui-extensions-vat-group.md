@@ -1,5 +1,5 @@
 ---
-title: Viðbót fyrir stjórnun VSK-hóps | Microsoft Docs
+title: Viðbót fyrir stjórnun VSK-hóps
 description: Hægt er að tengjast við önnur fyrirtæki til að mynda VSK-hóp og vera annaðhvort meðlimur eða fulltrúa þess hóps þegar VSK er gefið upp.
 author: bholtorf
 manager: annbe
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771288"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029141"
 ---
 # <a name="the-vat-group-management-extension"></a>Viðbót fyrir stjórnun VSK-hóps
 
@@ -116,8 +116,12 @@ Til að gefa upp VSK fyrir hönd hópsins skal á síðunni **VSK-skýrslur** st
 > VSK-flokksvirkni er aðeins studd á þeim mörkuðum þar sem [!INCLUDE[prod_short](includes/prod_short.md)] notar VSK-rammi sem inniheldur VSK-skil og VSK-skilatímabil. Ekki er hægt að nota VSK-flokka á öðrum mörkuðum sem eru með aðrar útfærslur af staðbundnum VSK-skýrslum, t.d. Austurríki, Þýskaland, Ítalía, Spánn og Sviss. 
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
-[Setja upp virðisaukaskatt](finance-setup-vat.md)
+[Setja upp virðisaukaskatt](finance-setup-vat.md)  
+[Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
+[Tax Digital í Bretlandi](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Norsk VSK-skýrsla í norsku útgáfunni](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

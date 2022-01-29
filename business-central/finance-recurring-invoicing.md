@@ -1,5 +1,5 @@
 ---
-title: Vinna með endurteknar tekjur | Microsoft docs
+title: Vinna með endurteknar tekjur
 description: Frekari upplýsingar um tiltæka valmöguleika sem gera þér kleift að senda greiðslureikninga til viðskiptavina þinna og skrá endurteknar tekjur.
 author: AndreiPanko
 ms.service: dynamics365-business-central
@@ -8,15 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
+ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: e61f4406e754a2cf02aafcda21eec86b55eff053
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 696ab59530c81cd19709f4e1bde3324bcaebbf5a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780783"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970990"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Vinna með endurteknar tekjur í [!INCLUDE[prod_short](includes/prod_short.md)]
 

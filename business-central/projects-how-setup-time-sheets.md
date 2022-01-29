@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
+ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: 21993ad4ee675384f7ffebfc77e0999d5dec05a6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920981"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972227"
 ---
 # <a name="set-up-time-sheets"></a>Setja upp vinnuskýrslur
 
@@ -42,6 +43,8 @@ Frá og með 2021 útgáfutímabili 2 getur þú notað leiðbeiningar um uppset
 >
 > Sami eiginleiki auðveldar þér einnig að stjórna vinnuskýrslum í fartæki.
 
+Opna **uppsetningu vinnublaða með** aðstoð uppsetningarleiðbeininganna frá [síðunni aðstoð aðstoðar](https://businesscentral.dynamics.com/?page=1801).
+
 Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 
 1. Setja upp þátttakendur í vinnuskýrsluferli
@@ -59,7 +62,7 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 
 ## <a name="set-up-time-sheets-manually"></a>Setja upp vinnuskýrslur handvirkt
 
-Eftirfarandi hlutar lýsa því hvernig á að setja upp vinnuskýrslur ef þú notar ekki uppsetningarleiðbeininguna **Setja upp vinnuskýrslur**.  
+Í eftirfarandi köflum er lýst hvernig á að setja upp vinnuskýrslur ef **leiðbeiningar um uppsetningu vinnublaða eru ekki notaðar**.  
 
 ### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Að setja upp almennar upplýsingar fyrir vinnuskýrslur handvirkt
 

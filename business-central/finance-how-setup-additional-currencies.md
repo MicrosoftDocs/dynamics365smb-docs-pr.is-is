@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, foreign exchange rates
+ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: e1a6c902bdf4ce8270def3c830138511adf6eba3
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
-ms.translationtype: HT
+ms.openlocfilehash: 601ed7ceb9817b8bf24c12a260fd346087eed86f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660207"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972045"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Setja upp annan skýrslugjaldmiðil
 
@@ -41,15 +42,17 @@ Með því að nota annan skýrslugjaldmiðil er hægt að auðvelda skýrslufer
 Nokkrar fjárhagsskýrslur eru byggðar á fjárhagsfærslum. Til að birta skýrslugögn í öðrum skýrslugjaldmiðli er einfaldlega hakað í reitinn **Sýna upphæðir í öðrum skýrslugjaldmiðli** á flýtiflipanum **Valkostir** fyrir viðeigandi fjárhagsskýrslu.
 
 ## <a name="adjusting-exchange-rates"></a>Gengi leiðrétt
+
 Vegna þess hve tíðar gengisbreytingar eru verður reglubundið að leiðrétta aðra jafngildisgjaldmiðla í kerfinu. Sé það ekki gert verða upphæðir misvísandi sem hafa verið umreiknaðar úr erlendum (eða aukalegum) gjaldmiðlum og bókaðar í fjárhag í SGM. Að auki verður að uppfæra daglegar færslur sem eru bókaðar áður en daglegt gengi er fært inn eftir að upplýsingarnar um daglegt gengi hafa verið færðar inn. Keyrslan **Stilla gengi** er notuð til að lagfæra gengi bókaðs viðskiptamanns, lánardrottins og bankareikningsfærslna. Hún getur einnig uppfært upphæðir annars skýrslugjaldmiðils í fjárhagsfærslum. Frekari upplýsingar eru í [Uppfæra gengi gjaldmiðils](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Uppsetning annars skýrslugjaldmiðils
+
 Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skrefum:
 
--   Tilgreinið fjárhagsreikninga fyrir leiðréttingu á gengi bókana  
--   Tilgreinið aðferð gengisleiðréttingar fyrir alla fjárhagsreikninga.  
--   Tilgreinið aðferð fyrir gengisleiðréttingu í VSK-færslum  
--   Virkja annan skýrslugjaldmiðil  
+- Tilgreinið fjárhagsreikninga fyrir leiðréttingu á gengi bókana  
+- Tilgreinið aðferð gengisleiðréttingar fyrir alla fjárhagsreikninga.  
+- Tilgreinið aðferð fyrir gengisleiðréttingu í VSK-færslum  
+- Virkja annan skýrslugjaldmiðil  
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Tilgreinið fjárhagsreikninga fyrir leiðréttingu á gengi bókana  
 
@@ -68,7 +71,8 @@ Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skr
 
 Það verður að tilgreina hvernig á að leiðrétta upphæðir í fjárhag fyrir gengissveiflur milli SGM og hins skýrslugjaldmiðilsins fyrir hvern fjárhagsreikning.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Til að tilgreina aðferð gengisleiðréttingar fyrir alla fjárhagsreikninga  
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Til að tilgreina aðferð gengisleiðréttingar fyrir alla fjárhagsreikninga
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Bókhaldslykill** skal velja viðeigandi lykil og síðan velja aðgerðina **Breyta**.  
 3. Á síðunni **Fjárhagsspjald** skal velja viðeigandi aðferð í reitnum **Gengisleiðrétting**.  
@@ -85,7 +89,8 @@ Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skr
 
 4.  Síðunni **Fjárhagsspjald** lokað.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Tilgreina aðferð fyrir gengisleiðréttingu í VSK-færslum  
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Tilgreina aðferð fyrir gengisleiðréttingu í VSK-færslum
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Fjárhagsgrunnur** skal velja viðeigandi aðferð í reitnum **VSK-gengisleiðrétting**.  
 3. Ef bókað er í öðrum skýrslugjaldmiðli má tilgreina í reitnum **VSK-gengisleiðrétting** hvernig þeir reikningar sem stofnaðir voru fyrir bókun VSK á síðunni **VSK-bókunargrunnur** eru leiðréttir fyrir gengissveiflur milli SGM og annars skýrslugjaldmiðils.  
@@ -124,11 +129,12 @@ Eftir keyrsluna verða upphæðir í eftirfarandi færslum sem fyrir eru færða
 Einnig eru allar síðari færslur af sömu gerð skráðar bæði í SGM og öðrum skýrslugjaldmiðli.  
 
 > [!NOTE]  
->  Reiturinn **Annar skýrslugjaldmiðill** verður aðeins virkur eftir að valinn hefur verið hnappurinn **Í lagi** í keyrslunni **Leiðrétta annan skýrslugjaldmiðil**.  
+> Reiturinn **Annar skýrslugjaldmiðill** verður aðeins virkur eftir að valinn hefur verið hnappurinn **Í lagi** í keyrslunni **Leiðrétta annan skýrslugjaldmiðil**.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Uppfæra gengi](finance-how-update-currencies.md)  
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

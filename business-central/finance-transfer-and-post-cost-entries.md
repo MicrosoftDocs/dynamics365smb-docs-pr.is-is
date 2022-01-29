@@ -7,43 +7,44 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1100, 1103, 1104, 1113
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 92a7b0f4878f7cd23f4fc672e9723050ca7bde7e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435823"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970806"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Flytja og bóka kostnaðarfærslur
+
 Áður en kostnaðarúthlutanir eru skilgreindar, þarf að átta sig á hvernig kostnaðarfærslur koma úr eftirfarandi uppruna:  
 
--   Sjálfvirkur flutningur á fjárhagsfærslum.  
--   Handvirk kostnaðarbókun hreins kostnaðar, innri gjalda og handvirkra úthlutana.  
--   Sjálfvirk úthlutun bókana fyrir raunkostnað.  
--   Flutningur á áætlunarfærslum í raunverulegar.
+- Sjálfvirkur flutningur á fjárhagsfærslum.  
+- Handvirk kostnaðarbókun hreins kostnaðar, innri gjalda og handvirkra úthlutana.  
+- Sjálfvirk úthlutun bókana fyrir raunkostnað.  
+- Flutningur á áætlunarfærslum í raunverulegar.
 
 ## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Skilyrði til að millifærslu fjárhagsfærslna í kostnaðarfærslur
 Mikilvægt er að átta sig á skilyrðum fyrir því að flytja fjárhagsfærslur til kostnaðarfærslna. Meðan á millifærslu stendur notar runuvinnslan **Millifæra fjárhagsfærslu til kostnaðarbókhalds** eftirfarandi skilyrði til að tilgreina hvort og hvernig fjárhagsfærslur eru fluttar.  
 
 Fjárhagsfærslur eru fluttar ef:  
 
--   Færslurnar hafa víddargildi sem samsvara annaðhvort kostnaðarstað eða kostnaðarhlut.  
--   Færslurnar hafa víddargildi sem samsvara kostnaðarstað og kostnaðarhlut. Kostnaðarstaðurinn hefur forgang í þessum færslum. Þetta hjálpar til við að forðast aðstæður þar sem kostnaðargerð birtist í bæði kostnaðarhlut og kostnaðarstað og er því talin tvisvar í tölfræðigögnum.  
--   Fylgiskjalsnúmerið í færslunum er autt, þannig að það birtist með fylgiskjalsnúmerinu 0000 í kostnaðarfærslunum.  
--   Færslurnar eru færðar í kostnaðartegund sem leyfir við blandaðar færslur og þessar færslur eru fluttar sem blönduð færsla, annaðhvort mánaðarlega eða daglega.  
+- Færslurnar hafa víddargildi sem samsvara annaðhvort kostnaðarstað eða kostnaðarhlut.  
+- Færslurnar hafa víddargildi sem samsvara kostnaðarstað og kostnaðarhlut. Kostnaðarstaðurinn hefur forgang í þessum færslum. Þetta hjálpar til við að forðast aðstæður þar sem kostnaðargerð birtist í bæði kostnaðarhlut og kostnaðarstað og er því talin tvisvar í tölfræðigögnum.  
+- Fylgiskjalsnúmerið í færslunum er autt, þannig að það birtist með fylgiskjalsnúmerinu 0000 í kostnaðarfærslunum.  
+- Færslurnar eru færðar í kostnaðartegund sem leyfir við blandaðar færslur og þessar færslur eru fluttar sem blönduð færsla, annaðhvort mánaðarlega eða daglega.  
 
 Fjárhagsfærslur eru ekki fluttar ef:  
 
--   Færslurnar hafa víddargildi sem samsvara ekki kostnaðarstað né kostnaðarhlut.  
--   Færslurnar hafa upphæð núll.  
--   Færslurnar hafa fjárhagsreikning sem hefur verið eytt.  
--   Færslurnar hafa fjárhagsreikning sem er ekki af tegundinni **Rekstrarreikningur**.  
--   Færslurnar hafa fjárhagsreikning sem er ekki tengdur kostnaðartegund.  
--   Færslurnar hafa bókunardagsetningu fyrir **Upphafsdagsetning fjárhagsmillifærslu**.  
--   Færslurnar hafa verið bókaðar með lokadagsetningu. Þetta eru yfirleitt færslur sem stilla aftur stöðu rekstrarreiknings við lok hvers árs.
+- Færslurnar hafa víddargildi sem samsvara ekki kostnaðarstað né kostnaðarhlut.  
+- Færslurnar hafa upphæð núll.  
+- Færslurnar hafa fjárhagsreikning sem hefur verið eytt.  
+- Færslurnar hafa fjárhagsreikning sem er ekki af tegundinni **Rekstrarreikningur**.  
+- Færslurnar hafa fjárhagsreikning sem er ekki tengdur kostnaðartegund.  
+- Færslurnar hafa bókunardagsetningu fyrir **Upphafsdagsetning fjárhagsmillifærslu**.  
+- Færslurnar hafa verið bókaðar með lokadagsetningu. Þetta eru yfirleitt færslur sem stilla aftur stöðu rekstrarreiknings við lok hvers árs.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Flytja fjárhagsfærslur í kostnaðarfærslur
 Hægt er að flytja fjárhagsfærslur í kostnaðarfærslur  
@@ -64,7 +65,7 @@ Hægt er að flytja fjárhagsfærslur í kostnaðarfærslur
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Millifæra fjárhagsfærslur til kostnaðarbókhalds** og velja síðan viðkomandi tengil.  
 2.  Velja hnappinn **Já** til að hefja millifærsluna. Ferlið færir allar fjárhagsfærslur sem hafa ekki þegar verið færðar.  
 
-    Meðan á millifærslu stendur býr ferlið til tengingar í færslurnar í töflunni **Kostnaðarfærsla** og töflunni **Kostnaðarskráning**. Þannig er hægt að rekja uppruna kostnaðarfærsla.
+Meðan á millifærslu stendur býr ferlið til tengingar í færslurnar í töflunni **Kostnaðarfærsla** og töflunni **Kostnaðarskráning**. Þannig er hægt að rekja uppruna kostnaðarfærsla.
 
 ## <a name="automatic-transfer-and-combined-entries"></a>Sjálfvirkur flutningur og færslur sameinaðar
 Í kostnaðarbókhaldi er hægt að flytja fjárhagsfærslur í tegund kostnaðar með því að nota blandaða bókun. Þú getur tilgreint það ef kostnaðargerð fær sameinaðar færslur í reitinn **Sameinaðar færslur** í skilgreiningunni á kostnaðargerð. Eftirfarandi tafla lýsir hinum mismunandi valkostum.  

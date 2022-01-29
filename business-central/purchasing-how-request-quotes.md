@@ -1,7 +1,6 @@
 ---
 title: Stofna innkaupabeiðni til að biðja um tilboð
 description: Lýsir því hvernig skal stofna sölutilboð eða beiðni um tilboð (RFQ) fylgiskjal, til að skrá tilboð til viðskiptamanns um að selja tilteknar vörur með tilteknum skilmálum.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,18 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
+ms.search.form: 49, 97, 9306, 9346
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3872a996149404e15349dd85221289bc819ad5cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 4608b9e3cace8445a1a4a364106c830fdfda301f
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443267"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953335"
 ---
 # <a name="request-quotes"></a>Biðja um tilboð
-Hægt er að nota innkaupabeiðni sem uppkast fyrir innkaupapöntun og síðan er hægt að breyta pöntuninni í innkaupareikning eða pöntun.
 
+Hægt er að nota innkaupabeiðni sem uppkast fyrir innkaupapöntun og síðan er hægt að breyta pöntuninni í innkaupareikning eða pöntun.
 
 ## <a name="to-create-a-purchase-quote"></a>Stofna nýja innkaupabeiðni.
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupabeiðni** og velja síðan viðkomandi tengil.

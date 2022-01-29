@@ -1,8 +1,6 @@
 ---
-title: Stofna fjárhagsáætlanir| Microsoft Docs
+title: Stofnun fjárhagsáætlana
 description: Lýsir því hvernig stofna skal fjárhagsáætlanir til að spá fyrir um mismunandi fjármálaaðgerðir og úthluta víddum fyrir viðskiptaupplýsingar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,25 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
+ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 525cc099b2a9b2630395a092761e0526f4760356
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 37be635e57090e6e661a76ac3c0d7ea8473796a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444663"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971707"
 ---
 # <a name="create-gl-budgets"></a>Stofna fjárhagsáætlunum
+
 Hægt er að útbúa margar áætlanir fyrir sömu tímabil með því að stofna áætlanir undir aðskildum heitum. Fyrst er heiti áætlunar sett upp og áætlunarupphæðir færðar inn. Þá er heiti áætlunarinnar haft með við allar áætlunarfærslur sem stofnaðar eru.  
 
 Þegar áætlun er stofnuð er hægt að skilgreina fjórar víddir fyrir hverja áætlun. Þessar áætlanatengdu víddir kallast áætlanavíddir. Hægt er að velja áætlanavíddir fyrir hverja áætlun úr víddunum sem þegar hafa verið settar upp. Hægt er að nota áætlanavíddir til að afmarka áætlanir og til að bæta víddaupplýsingum við áætlanafærslur. Frekari upplýsingar er að finna í [Unnið með víddir](finance-dimensions.md).
 
 Fjárhagsáætlanir spila stórt hlutverk þegar kemur að viðskiptaupplýsingum, eins og í fjárhagsskýrslu sem byggir á fjárhagsskema sem innihalda fjárhagsáætlanafærslur eða þegar verið er að greina áætlaðar og raunverulegar upphæðir í bókhaldslyklunum. Frekari upplýsingar eru í [Viðskiptaupplýsingar](bi.md).
 
-Í kostnaðarbókhaldi vinnurðu með kostnaðaráætlun á svipaðan hátt. Frekari upplýsingar eru í [Stofna kostnaðaráætlun](finance-create-cost-budgets.md).    
+Í kostnaðarbókhaldi vinnurðu með kostnaðaráætlun á svipaðan hátt. Frekari upplýsingar eru í [Stofna kostnaðaráætlun](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a>Að búa til nýja fjárhagsáætlun  
+## <a name="to-create-a-new-gl-budget"></a>Að búa til nýja fjárhagsáætlun
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsáætlanir** og velja síðan viðkomandi tengil.  
 2. Veljið aðgerðina **Breyta lista** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velja skal aðgerðina **Breyta fjárhagsáætlun**.
@@ -40,9 +41,10 @@ Fjárhagsáætlanir spila stórt hlutverk þegar kemur að viðskiptaupplýsingu
 7. Skref 5 og 6 eru endurtekin þar til allar áætlaðar upphæðir eru færðar inn.  
 
 > [!NOTE]  
->  Á flýtiflipanum **Afmarkanir** geturðu afmarkað upplýsingar um fjárhagsáætlun með áætlunarvíddum, sem hafa verið settar upp undir heiti áætlunar.
+> Á flýtiflipanum **Afmarkanir** geturðu afmarkað upplýsingar um fjárhagsáætlun með áætlunarvíddum, sem hafa verið settar upp undir heiti áætlunar.
 
 ## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Útflutningur og innflutningur fjárhagsáætlana með Excel
+
 Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum fjárhagsáætlunar til Excel til frekari vinnslu eða greiningu. Frekari upplýsingar eru í [Flytja út viðskiptagögn í Excel](about-export-data.md).
 
 > [!NOTE]
@@ -51,6 +53,7 @@ Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Flutningur viðskiptagagna í Excel](about-export-data.md)  
 [Fjármál](finance.md)  
 [Viðskiptaupplýsingar](bi.md)  

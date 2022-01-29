@@ -10,20 +10,16 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 6eb37cbe2c4891c35b24a3ae7517add73669a2ac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435060"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971276"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum
 
-Á síðunni **Greiðslujöfnunarreglur** seturðu upp reglur til að stjórna því hvernig greiðslutexti (á bankafærslu) er sjálfkrafa jafnaður við texta á opnum færslum í eftirfarandi tveimur ferlum:
-
-- Jafna greiðslur sjálfkrafa við tengda opna (ógreidda) reikninga, kreditreikninga eða aðrar færslur þegar aðgerðin **Nota sjálfkrafa** er notuð á síðunni **Greiðsluafstemmingarbók**. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
-
-- Jafna sjálfkrafa bankafærslur við tengdar, innri fjárhagsfærslur bankareiknings þegar þú velur aðgerðina **Jafna sjálfkrafa** á síðunni **Afstemming bankareiknings**. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).
+Á **síðunni greiðslujöfnun-reglur** eru settar fram reglur sem stjórna því hvernig greiðslutexti (í bankafærslu) er sjálfkrafa paraður með texta tengdum opnum (ógreiddum) reikningum, kreditreikningum eða öðrum færslum þegar aðgerðin jafna er notuð **á** **færslubók greiðsluafstemminga**. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
 Hægt er að setja upp greiðslujöfnunarreglur með því að velja hvaða gerðir gagna á greiðsluafstemmingarbókarlínu verða að passa við gögn á einni eða fleiri opinni færslu áður en tengda greiðslan er sjálfkrafa jöfnuð við opnu færslurnar. Gæði hverrar sjálfvirkrar jöfnunar er sýnd sem gildið **Lágt** til **Hátt** í reitnum **Áreiðanleiki jöfnunar** á síðunni **Greiðsluafstemmingarbók** samkvæmt greiðslujöfnunarreglunni sem var notuð.
 

@@ -1,5 +1,5 @@
 ---
-title: Setja upp bókhaldslykilinn (inniheldur myndskeið)
+title: Setja upp bókhaldslykil (inniheldur Video)
 description: Bókhaldslykill sýnir fjárhagslykla sem geyma fjárhagsleg gögn. Hægt er að breyta sjálfgefnum lyklum í bókahaldslyklum og hægt er að bæta við nýjum lyklum.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
+ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 0ef1a35805413619c6da19654a8f501525997d35
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: aad8d76b248aa2cabd84598c4a97a6989c7ee170
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940552"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970938"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Uppsetning eða breyting á bókhaldslykli
 

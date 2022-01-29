@@ -3,20 +3,20 @@ title: Yfirlit yfir sjóðstreymi
 description: Yfirlit yfir sjóðinnstreymi og útstreymi til að hjálpa til við að spá fyrir um móttöku og greiðslu fjármuna.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
+ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
 ms.author: edupont
-ms.reviewer: edupont
-ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: e5ce39c435c236719e6ee564217a0b1f7e338cf2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940202"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011097"
 ---
 # <a name="cash-flow-overview"></a>Yfirlit yfir sjóðstreymi
 
@@ -49,9 +49,9 @@ Eftirfarandi mynd sýnir yfirlit yfir það hvernig hægt er að vinna með sjó
 
 Á grundvelli skráðra vinnublaðslína er hægt að gera reglulega sjóðsstreymisspá. Eftirfarandi útlit er mikið notað fyrir sjóðsstreymisspá. Útlitið hefur þrjá hluta:
 
-  - Inngreiðsla  
-  - Útborgun  
-  - Nettó sjóðstreymi eða reiðufé  
+- Inngreiðsla  
+- Útborgun  
+- Nettó sjóðstreymi eða reiðufé  
 
 Inngreiðslur veita upplýsingar um tekjur sem fyrirtækið fær.
 

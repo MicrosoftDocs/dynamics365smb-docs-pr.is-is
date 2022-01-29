@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
+ms.search.form: 1, 119, 9807, 9808, 9830, 9831
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
-ms.translationtype: HT
+ms.openlocfilehash: 634e21f291d15c78e8d4415399b6877240217eff
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547024"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8028929"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfum til notenda og hópa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] öryggiskerfið gerir þér kleift að stjórna því hvaða hluti notandi hefur aðgang að í hverjum gagnagrunni eða umhverfi fyrir sig. Þú getur tilgreint fyrir hvern notanda hvort hann geti lesið, breytt eða slegið inn gögn í valda gagnagrunnshluti. Frekari upplýsingar er að finna í [Gagnaöryggi](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) í hjálp Developer and ITPro fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Áður en þú úthlutar heimildum til notenda og notendaflokka þarftu að skilgreina hverjir geta skráð sig inn með því að búa til notendur samkvæmt leyfi eins og skilgreint er í stjórnendamiðstöð Microsoft 365. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
+Áður en heimildum er úthlutað á notendur og notendaflokka þarf að skilgreina hverjir geta skráð sig inn með því að stofna notendur samkvæmt leyfinu sem skilgreint er í Microsoft 365 Stjórnun miðstöðvarinnar. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] eru tvö stig heimilda fyrir gagnagrunnshluti:
 
@@ -264,7 +265,7 @@ Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að se
 [Sérstillir [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Stjórnun](admin-setup-and-administration.md)  
-[Bæta notendum við Microsoft 365 for Business](/microsoft-365/admin/add-users/add-users)  
+[Bæta notendum við Microsoft 365 fyrir viðskipti](/microsoft-365/admin/add-users/add-users)  
 [Öryggi og vernd í Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) í Developer og ITPro hjálp
 
 

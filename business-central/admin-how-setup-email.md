@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
+ms.search.form: 1805
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ce8856f250e4098256e9ac2b9959ec6900aaaadc
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: de40994a555fbc657eacc18e8b2e8b33ce430fcb
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940427"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011127"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Fólk í viðskiptum sendir upplýsingar og skjöl á borð við sölu- og innkaupapantanir og reikninga með tölvupósti á hverjum degi. Stjórnendur geta auðveldað verkið með því að tengja einn eða fleiri tölvupóstsreikninga við [!INCLUDE[prod_short](includes/prod_short.md)] þannig að hægt sé að senda skjöl án þess að þurfa að opna annað tölvupóstforrit. Hægt er að semja hver skilaboð fyrir sig með einföldum sniðsverkfærum eins og leturgerð, útliti, litum og svo framvegis og bæta við viðhengjum allt að 100 MB að stærð. Stjórnendur geta einnig sett upp skýrsluútlit sem inniheldur aðeins helstu upplýsingar úr fylgiskjölum. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
@@ -39,12 +40,12 @@ Eftirfarandi tafla lýsir þeim tölvupóstsviðbótum sem eru sjálfgefið í b
 
 |Innanhússsími  |Description  |Dæmi um notkun  |
 |---------|---------|---------|
-|**Microsoft 365**|Allir senda tölvupóst úr samnýttu pósthólfi í Exchange Online.|Þegar öll skilaboð koma frá sömu deildinni sem dæmi, þá sendir sölufyrirtækið skilaboð frá reikningnum sales@cronus.com. Þetta krefst þess að sett verði upp samnýtt pósthólf í Microsoft 365 stjórnendamiðstöðinni. Frekari upplýsingar eru í [Samnýtt pósthólf](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365**|Allir senda tölvupóst úr samnýttu pósthólfi í Exchange Online.|Þegar öll skilaboð koma frá sömu deildinni sem dæmi, þá sendir sölufyrirtækið skilaboð frá reikningnum sales@cronus.com. Þetta krefst þess að sett sé upp samnýtt pósthólf í Microsoft 365 stjórnsýslumiðstöðinni. Frekari upplýsingar eru í [Samnýtt pósthólf](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Núverandi notandi**|Allir senda tölvupóst frá reikningnum sem var notaður til að skrá sig inn á [!INCLUDE[prod_short](includes/prod_short.md)].|Leyfa samskipti frá reikningum einstaklinga.|
 |**Annað (SMTP)**|Nota skal SMTP-samskiptareglu til að senda tölvupósta.|Leyfa skal samskipti í gegnum SMTP-póstþjóninn. |
 
 > [!NOTE]
-> Viðbætur **Microsoft 365** og **Núverandi notanda** nota reikningana til að setja upp fyrir notendur í stjórnendamiðstöð Microsoft 365 fyrir Microsoft 365 áskriftina þína. Til að senda tölvupóst með viðbótunum verða notendur að vera með gilt leyfi fyrir Exchange Online. 
+> **Microsoft 365** Og **gildandi Viðaukar notanda** nota þá lykla sem settir eru upp fyrir notendur í Microsoft 365 stjórnstöðinni fyrir Microsoft 365 áskriftina. Til að senda tölvupóst með viðbótunum verða notendur að vera með gilt leyfi fyrir Exchange Online. 
 >
 > Að auki geta ytri notendur, svo sem stjórnendur og utanaðkomandi endurskoðendur, ekki notað þessar viðbætur til að senda tölvupóst frá [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -118,7 +119,7 @@ Eftirfarandi eru dæmi um hvernig Senda sem og Senda fyrir hönd eru notuð í [
 > Aðeins er hægt að nota einn reikning sem staðgengil fyrir netföng sendanda. Þú getur sem sagt ekki haft eitt staðgengilsnetfang fyrir innkaupferli og annað fyrir söluferli.
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Til að setja upp staðgengilsnetfang sendanda fyrir öll tölvupóstskeyti á útleið
-1. Í **Stjórnandamiðstöð Exchange** fyrir Microsoft 365-reikninginn þinn skaltu finna pósthólfið sem nota á sem staðgengilsnetfang og síðan skaltu afrita eða skrifa hjá þér netfangið. Ef þú þarft nýtt netfang skaltu fara í Stjórnendamiðstöð Microsoft 365 til að búa til nýjan notanda og setja upp pósthólfið hans.
+1. Í **Exchange admin miðstöðinni** Microsoft 365 reikningsins er að finna pósthólfið sem nota á sem staðgengilsfang og síðan afritað eða látið taka mið af heimilisfangi. Ef þörf er á nýju aðsetri er farið í Microsoft 365 admin Center til að stofna nýjan notanda og setja upp pósthólf þeirra.
 2. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning SMTP-tölvupósts** og velja síðan viðkomandi tengil.
 3. Í reitnum **Senda sem** skal færa inn staðgengilsnetfangið.
 4. Afritaðu eða skráðu netfangið niður í reitinn **Notandakennið**.
@@ -177,7 +178,7 @@ Ef verið er að nota eldri SMTP-uppsetningu eða SMTP-tengilinn og ætlunin er 
 Almennar leiðbeiningar um skráningu forrits má finna í [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
 > [!NOTE]
-Ef þú átt í vandræðum með að nota eldri SMTP-uppsetningu til að senda tölvupóst eftir að þú tengir [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna, gæti það verið vegna þess að SMTP AUTH er ekki virkt fyrir leigjanda þinn. Mælt er með því að Microsoft 365 og tölvupóststengla núverandi notanda í staðinn vegna þess að hann notar Microsoft Graph Mail API. Ef þú þarft hins vegar að nota SMTP-uppsetninguna er hægt að virkja SMTP AUTH. Frekari upplýsingar er að finna í [Kveikja eða slökkva á SMTP-innsendingu (SMTP AUTH) sannvottaðs biðlara í Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
+Ef þú átt í vandræðum með að nota eldri SMTP-uppsetningu til að senda tölvupóst eftir að þú tengir [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna, gæti það verið vegna þess að SMTP AUTH er ekki virkt fyrir leigjanda þinn. Mælt er með því að nota Microsoft 365 og gildandi tölvupóstsamtengingarforrit notanda í staðinn, þar sem þau nota Microsoft graph-API. Ef þú þarft hins vegar að nota SMTP-uppsetninguna er hægt að virkja SMTP AUTH. Frekari upplýsingar er að finna í [Kveikja eða slökkva á SMTP-innsendingu (SMTP AUTH) sannvottaðs biðlara í Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Tengja [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna
 Þegar forritið hefur verið skráð í Azure-gáttina, í [!INCLUDE[prod_short](includes/prod_short.md)], skal nota uppsetningarleiðbeininguna **AAD-skráning tölvupóstforrits** með hjálp til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við það.

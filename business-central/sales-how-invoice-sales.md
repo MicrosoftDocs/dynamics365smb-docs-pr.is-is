@@ -11,12 +11,12 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 125d28f1621e23f14cda9ce57a935a7da71e43cb
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: c3cc7613023c684469b0558e160d9400b5ca48db
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752469"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011388"
 ---
 # <a name="invoice-sales"></a>Reikningsfæra sölur
 
@@ -28,7 +28,7 @@ Til eru nokkrar aðstæður þar sem verður að nota sölupöntun í stað söl
 * Ef vörur eru sendar eftir bókun samsvarandi sölureikninga.
 * Ef þú selur vörur sem lánardrottni sendir beint til viðskiptamanns, heitir bein afhending. Frekari upplýsingar eru í [Beinar sendingar](sales-how-drop-shipment.md).  
 
-Frá öllum öðrum sjónarhornum séð virka sölupantanir á sama hátt og sölureikningar. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
+Frá öllum öðrum sjónarhornum séð virka sölupantanir á sama hátt og sölureikningar. Nánari upplýsingar um hvernig á að nota sölupantanir, sjá [seldar vörur](sales-how-sell-products.md).
 
 Hægt er að semja við viðskiptamanninn með því að gera fyrst sölutilboð, sem hægt er að breyta í sölureikning þegar samkomulag hefur náðst um söluna. Frekari upplýsingar er að finna í [Búa til sölutilboð](sales-how-make-offers.md).
 

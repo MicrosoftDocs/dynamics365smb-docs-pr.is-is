@@ -1,5 +1,5 @@
 ---
-title: Hvernig skal setja upp staðalverk fyrir aðgerðir
+title: Setja upp staðalverkhluta fyrir aðgerðir
 description: Kynntu þér hvernig þú setur upp stöðluð verk og bætir stöðluðum verkum við rekstur til að einfalda viðhald á leiðum.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e25eca9c3ff6b057b24249368d00dd5118b98ca3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 7e6cc29c2968111cc581f8e615007ff70985e24c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438654"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973016"
 ---
 # <a name="set-up-standard-routing-lines"></a>Setja upp staðlaðar leiðarlínur
 

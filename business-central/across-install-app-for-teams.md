@@ -1,5 +1,5 @@
 ---
-title: Business Central sett upp í Microsoft Teams| Microsoft docs
+title: Setja upp Viðskiptablaðið Central App í Microsoft Teams
 description: Hvernig á að setja upp Business Central fyrir Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 1552a804db7dab86dccfcab99f098578bd930ad2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588177"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012210"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-Í þessari grein verður útskýrt hvernig á að setja upp [!INCLUDE [prod_short](includes/prod_short.md)] fyrir [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-vefnum, á skjáborði eða í farsímaforriti.
+Í þessari grein lærir þú hvernig á að setja upp [!INCLUDE [prod_short](includes/prod_short.md)] App fyrir [Microsoft Teams](https://www.microsoft.com/microsoft-teams/). Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-vefnum, á skjáborði eða í farsímaforriti.
 
 > [!NOTE]
 > Kerfisstjórinn gæti hafa sett hlutina upp þannig að forritið sé sjálfkrafa sett upp fyrir þig. Til að athuga hvort forritið sé uppsett skaltu opna Teams og velja svo **Forrit**. Leitaðu að **Business Central** og veldu það svo þegar þú finnur það. Ef þú sérð **Opna** á síðu **Business Central** er forritið þegar uppsett.  

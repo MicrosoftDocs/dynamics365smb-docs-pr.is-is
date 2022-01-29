@@ -1,5 +1,5 @@
 ---
-title: Kaupa vörur fyrir sölu með því að stofna innkaupareikninga | Microsoft Docs
+title: Kaupa vörur fyrir sölu
 description: Úr sölureikningi, til að kaupa vörur, geturðu stofnað innkaupareikning fyrir lánardrottinn eða birgja.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
+ms.search.form: 50, 51, 56, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 157be841019a9b1a44f45f19fc0708ce7645d716
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 46057027e89a087105ca52969c8d5f40a2c0cd26
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440500"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953410"
 ---
-# <a name="purchase-items-for-a-sale"></a>Kaupa vörur fyrir sölu
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Innkaup vara fyrir sölu með því að útbúa innkaupareikninga
+
 Frá sölupöntunum og sölureikningum geturðu notað aðgerð til stofna á skjótan hátt innkaupaskjöl fyrir vörumagn sem vantar en er krafist við söluna. Hægt er að nota tvær mismunandi aðgerðir, eftir gerð skjalsins.
 
 > [!Note]

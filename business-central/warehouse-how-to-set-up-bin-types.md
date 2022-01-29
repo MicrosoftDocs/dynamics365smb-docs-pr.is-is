@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að setja upp hólfategundir
+title: Setja upp hólfategundir
 description: Úthlutaðu gerðum og einföldum flæðisaðgerðum á hólf og skilgreindu hvernig hólf eru notuð fyrir ákveðnar vöruhúsaaðgerðir.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 987db7dda73bb527cfa025b7641c445b08cced2a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: b867079eb08790f2cfa091d0128a876499fb2045
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442980"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971577"
 ---
 # <a name="set-up-bin-types"></a>Setja upp hólfategundir
 Hægt er að beina vöruflæðinu gegnum hólf sem skilgreind hafa verið fyrir tilteknar vöruhúsaaðgerðir. Notandinn úthlutar hverju hólfi grunnflæðisaðgerðir, og skilgreinir þannig hvernig hólfið verður notað í kerfinu, með því að úthluta því hólfategund.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439951"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972201"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Unnið með skýrslur, runuvinnslur og XMLports
 
@@ -56,7 +56,7 @@ Notið reitina undir **Valkostir** og **Síur** til að breyta takmörkunum á u
 
 ## <a name="previewing-a-report"></a>Forskoðun skýrslu
 
-Að forskoða skýrsluna gerir notanda kleift að sjá hvernig skýrslan komi til með að líta út áður en hún er prentuð. Forskoðunin fer ekki eftir prentaranum sem valinn er í reitnum **Prentari** á beiðnisíðunni. Hún fer eftir vafranum. Að forskoðun lokinni er hægt að fara aftur á beiðnisíðuna og gera breytingar á valkostum og síum eftir þörfum.
+Að forskoða skýrsluna gerir notanda kleift að sjá hvernig skýrslan komi til með að líta út áður en hún er prentuð. Forskoðunin er ekki byggð á prentaranum sem er valinn í **reitnum** prentari á beiððsíðunni. Hún fer eftir vafranum. Að forskoðun lokinni er hægt að fara aftur á beiðnisíðuna og gera breytingar á valkostum og síum eftir þörfum.
 
 Til að forskoða skýrslu skal velja hnappinn **Forskoða** eða **Forskoða og loka** á beiðnisíðu skýrslunnar. Hnappurinn sem birtist fer eftir skýrslunni, þannig að sumar skýrslur eru með hnappinn **Forskoða** á meðan aðrar eru með hnappinn **Forskoða og loka**. Báðir hnapparnir opna forskoðun á skýrslunni. Munurinn liggur í því að **Forskoðun** heldur beiðnisíðunni opinni, þannig að hægt er að fara aftur í hana, gera breytingar, forskoða aftur eða prenta. Með **Forskoða og loka** lokast beiðnisíðan, þannig að opna þarf skýrsluna aftur til að gera breytingar eða prenta.
 
@@ -139,6 +139,12 @@ Frekari upplýsingar um skýrsluhönnun er að finna í [Yfirlit skýrslu](/dyna
 
 > [!NOTE]
 > Sumar skýrslur flytja út tölur sem texta, sem kemur í veg fyrir að þú getir gert útreikninga eða notað Power Pivot í hólfunum í Excel-vinnublaðinu. Eftir útflutning er góð hugmynd að staðfesta tölurnar í vinnublaðinu. Ef gera á greiningu á tölunum og setja þær upp í graf skal breyta sniðinu á viðkomandi hólfum úr **Texta** í **Tölustafi**. Nánari upplýsingar um hvernig eigi að sníða tölur í hólfum er að finna í þessu myndbandi: [Tölur sniðnar í hólfum í Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Microsoft Word Skjal
+Notið **Microsoft Word** skjalvalkostinn til að mynda skýrslu sem Word-skjal.  
+
+> [!NOTE]
+> Hægt er að tilgreina útlitið sem á að nota fyrir hverja skýrslu á **skýrsluvalsíðunni** í **völdu** útlitsvæðinu. Sjálfgefin stilling fyrir skýrslur er **RDLC (innbyggt)** sem framleiðir skýrslur í sama eða svipuðu útliti og útlit **Microsoft Word skjalsins**. Lykilmunurinn er hins vegar hvort búa eigi til eitt eða mörg skýrsluskjöl. Fyrir staka skjöl er hægt að nota RDLC (innbyggður) valkostinn. Fyrir mörg skjöl er skjalið stillt **Microsoft Word** sem sjálfgefið útlit skýrslunnar. Frekari upplýsingar, sjá [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Tímasetja keyrslu skýrslu
 

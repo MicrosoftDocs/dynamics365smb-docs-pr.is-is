@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/22/2021
+ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940602"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029275"
 ---
 # <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
 
@@ -90,6 +91,8 @@ Frá raunverulegum reikningi í bankanum berast oft óþekktar færslur sem grei
 2. Á síðunni **bankareikningar** skal velja aðgerðina **Nýtt**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    Til dæmis tengir Bankareikn **reikningsflokkinn** bankareikninginn við undirliggjandi fjárhagsreikning í efnahagsreikningi. Frekari upplýsingar er að finna í [Setja upp bókunarflokka](finance-posting-groups.md).
+
 > [!TIP]
 > Sumir reitir eru faldir þar til þú velur aðgerðina **Sýna fleiri**, yfirleitt vegna þess að þeir eru sjaldan notaðir. Öðrum verður að bæta við með sérstillingu. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
@@ -152,7 +155,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> Til að fylla út í reitinn **Staða** með onunarstöðu verður þú að bóka fjárhagsfærslu bankareiknings með upphæðinni. Hægt er að gera þetta með því að framkvæma afstemmingu bankareiknings. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md). Einnig er hægt að tiltaka opnunarstöðu sem hluta af almennri gagnamyndun í nýjum fyrirtækjum með því að nota **Flytja viðskiptagögn** leiðbeiningar um uppsetningu með hjálp. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md). Til að komast að því hvernig á að stofna opnunarstöður í [!INCLUDE[prod_short](includes/prod_short.md)] skal sjá [Hvernig á að búa til opnunarstöður færslubóka](admin-how-to-create-journal-opening-balances.md).
+> Til að fylla út í reitinn **Staða** með onunarstöðu verður þú að bóka fjárhagsfærslu bankareiknings með upphæðinni. Hægt er að gera þetta með því að framkvæma afstemmingu bankareiknings. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).  
+>
+> Einnig er hægt að tiltaka opnunarstöðu sem hluta af almennri gagnamyndun í nýjum fyrirtækjum með því að nota **Flytja viðskiptagögn** leiðbeiningar um uppsetningu með hjálp. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> Mikilvægt er að opnunarstaðan sé ekki bókuð beint í fjárhag. Ef færslur í fjárhagsreikningnum sem eru bókaðar beint á fjárhagsreikninginn leiða yfirleitt til þess að ekki er hægt að stemma bankareikninginn af, eða ef um er að ræða bankareikninga á erlendum gjaldmiðli, leiðir mismunur til þess að þú bókar meiri bankaafstemmingar. Oft er opnunarbankainnistaða bókuð beint á bankareikning og upphæðin endar síðan í fjárhagsreikningnum. Einnig er hægt að bakfæra hana síðar á móti tilgreindum fjárhagsreikningi sem notaður var til að jafna stöðu opnunarfjárhags. Í báðum tilvikum þarf að jafna beina bókun við fjárhagsreikninginn áður en fyrsta bankaafstemming hefst, og þá sérstaklega svo ef bankareikninginn er í erlendum gjaldmiðli.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Til að setja upp bankareikning þinn til að flytja inn eða flytja út bankaskrár
 

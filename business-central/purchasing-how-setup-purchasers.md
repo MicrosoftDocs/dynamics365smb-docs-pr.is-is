@@ -1,8 +1,6 @@
 ---
-title: Setja upp kaupendur og úthluta kaupendum á lánardrottna (inniheldur Video) | Microsoft docs
+title: Setja upp innkaupaaðila og úthluta kaupendum (inniheldur Video)
 description: Ef nokkrir innkaupaaðilar vinna hjá fyrirtækinu þínu, getur þú skipulagt þá til tölfræðilegrar greiningar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
+ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdfb1198234a0bfcbbc74e7816568f2f06b21b10
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
+ms.openlocfilehash: 83956e1e134e00c33f35b260e682bd2d467bfb9f
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940177"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953310"
 ---
 # <a name="set-up-purchasers"></a>Setja upp kaupendur
 Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp á síðu og úthluta hverjum þeirra kóða. Síðan er hægt að nota kótana til að undirbúa upplýsingar og afmarka upplýsingar í prentuðum skýrslum.<br><br>  

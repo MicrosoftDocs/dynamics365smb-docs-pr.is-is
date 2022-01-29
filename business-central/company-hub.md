@@ -5,14 +5,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1757f1c02bb6623f59996d372f544f224b94237e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 1f7620f2f78971649cb8af5ef9dd0e7389c0c06a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445727"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8028985"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni
 
@@ -86,7 +87,7 @@ En til að bæta við fyrirtæki verður þú að hafa fengið aðgang að einu 
 
 Til dæmis, ef þú ert endurskoðandi getur viðskiptavinir þínir boðið þér í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Bjóða ytri endurskoðanda í þitt Business Central](finance-accounting.md#inviteaccountant).  
 
-Stjórnendur geta notað sömu uppsetningarleiðbeiningar með aðstoð til að bæta þér við [!INCLUDE [prod_short](includes/prod_short.md)], eða þeir geta bætt þér við þér í viðeigandi Azure AD-reikning í stjórnendamiðstöð Microsoft 365. Frekari upplýsingar er að finna í [Stjórna notendum og hópum](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Kerfisstjórar geta notað leiðbeiningar með uppsetningarleiðbeiningum aðstoðar til að bæta þér við [!INCLUDE [prod_short](includes/prod_short.md)] eða geta bætt á viðkomandi Azure AD lykil í Microsoft 365 stjórnstöðinni. Frekari upplýsingar er að finna í [Stjórna notendum og hópum](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## <a name="see-also"></a>Sjá einnig .
 

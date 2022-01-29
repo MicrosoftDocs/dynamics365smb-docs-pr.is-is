@@ -7,35 +7,36 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 689fbf78a5337076e7f10a8825d01cd77018c670
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 6a72c3ae54138d2d67f4fdd2025d385c35b92af2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321392"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972409"
 ---
 # <a name="about-production-orders"></a>Um framleiðslupantanir
+
 Framleiðslupantanir eru notaðar til að sjá um umbreytingu keypts efnis yfir í framleiddar vörur. Framleiðslupantanir leiða verk í gegnum ýmsar vinnu- eða vélastöðvar í vinnusalnum.  
 
 Áður en haldið er áfram með framleiðslu framkvæma flesti fyrirtæki framboðsáætlun, vanalega einu sinni í viku, til að reikna út hversu margar framleiðslupantanir og innkaupapantanir eigi að framkvæma til að uppfylla sölueftirspurn þeirrar viku. Innkaupapantanir uppfylla íhlutina sem eru nauðsynlegir samkvæmt framleiðsluuppskriftinni til að framleiða endanlegar vörur.
 
 Framleiðslupantanir eru lykilhlutar framleiðsluvirkni forritsins og þær innihalda eftirfarandi upplýsingar:  
 
--   Vörur sem áætlað er að framleiða  
--   Efni sem nauðsynlegt er fyrir áætlaðar framleiðslupantanir.  
--   Vörur sem búið er að framleiða  
--   Efni sem er þegar búið að velja  
--   Vörur sem hafa verið framleiddar í gegnum tíðina  
--   Efni sem var notað í fyrri framleiðsluaðgerðum  
+- Vörur sem áætlað er að framleiða  
+- Efni sem nauðsynlegt er fyrir áætlaðar framleiðslupantanir.  
+- Vörur sem búið er að framleiða  
+- Efni sem er þegar búið að velja  
+- Vörur sem hafa verið framleiddar í gegnum tíðina  
+- Efni sem var notað í fyrri framleiðsluaðgerðum  
 
 Framleiðslupantanir eru upphafspunktar fyrir:  
 
--   Áætlun framleiðslu í framtíðinni  
--   Stjórnun núverandi framleiðslu  
--   Rakningu tilbúinnar framleiðslu  
+- Áætlun framleiðslu í framtíðinni  
+- Stjórnun núverandi framleiðslu  
+- Rakningu tilbúinnar framleiðslu  
 
 ## <a name="production-order-creation"></a>Stofnun framleiðslupantana  
 Hægt er að stofna framleiðslupantanir á grundvellinum pöntun-fyrir-pöntun handvirkt á síðunni **Framleiðslupöntun** eða mynda þær í gluggunum **Sölupöntun Áætlun** eða **Pöntunaráætlun**. Síðan **Áætlunarblað** er notuð til að gera margar pantanir.  
@@ -51,10 +52,10 @@ Framleiðslupantanir eru stofnaðar eftir upplýsingum frá:
 ## <a name="limitations-on-production-order-creation"></a>Takmarkanir á stofnun Framleiðslupantana  
 Framleiðslupantanir eru sjálfkrafa teknar frá og raktar aftur til uppruna síns þegar:  
 
--   Þær eru stofnaðar á **[Áætlunarvinnublaðinu](production-how-to-run-mps-and-mrp.md)**.  
--   Stofnaðar á síðunni **[Áætlun sölupöntunar](production-how-to-create-production-orders-from-sales-orders.md)**  
--   Stofnaðar á síðunni **[Pantanaáætlun](production-how-to-plan-for-new-demand.md)**  
--   Nota aðgerðina **[Enduráætla](production-how-to-replan-refresh-production-orders.md)** á framleiðslupantanir  
+- Þær eru stofnaðar á **[Áætlunarvinnublaðinu](production-how-to-run-mps-and-mrp.md)**.  
+- Stofnaðar á síðunni **[Áætlun sölupöntunar](production-how-to-create-production-orders-from-sales-orders.md)**  
+- Stofnaðar á síðunni **[Pantanaáætlun](production-how-to-plan-for-new-demand.md)**  
+- Nota aðgerðina **[Enduráætla](production-how-to-replan-refresh-production-orders.md)** á framleiðslupantanir  
 
 Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](production-how-track-demand-supply.md).
 
@@ -117,9 +118,9 @@ Forritið býður framleiðslufyrirtæki upp á marga valkosti til að færa inn
 
 Hægt er að vinna efnisnotkun í gegnum [notkunarbókina](production-how-to-post-consumption.md) en einnig er hægt að skrá hana sjálfvirkt í forritinu, það heitir sjálfvirk skýrslugerð (losun). Skýrslugerðaraðferðirnar eru:  
 
--   Handvirk  
--   Framvirk  
--   Afturvirkt  
+- Handvirk  
+- Framvirk  
+- Afturvirkt  
 
 Handvirk notkunarskýrsla notar Notkunarbókina til að tilgreina efnisval.  
 
@@ -181,9 +182,9 @@ Hins vegar er Framleiðslubókin frábrugðin Notkunar- og Frálagsbókunum að 
 Í Framleiðslubókinni er Notkunarmagn bókað sem neikvæðar Færslur í birgðafærslum, Frálagsmagn er bókað sem jákvæðar birgðafærslur og tími sem varið er er bókaður sem afkastagetufærslur.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Framleiðsla](production-manage-manufacturing.md)    
+[Framleiðsla](production-manage-manufacturing.md)
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
-[Áætlun](production-planning.md)      
+[Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

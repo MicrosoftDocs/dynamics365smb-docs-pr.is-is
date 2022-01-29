@@ -1,5 +1,5 @@
 ---
-title: Meðhöndlun lotustærða | Microsoft Docs
+title: Meðhöndlun Lostærðir
 description: Þetta efnisatriði lýsir mismunandi leiðum til að meðhöndla lotustærðir.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 05e592d1f4ecd281b71ab4f182c5c535faa611a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779383"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973915"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Stjórna lotustærð í framleiðslu
 Hvað varðar magn er ekki víst að fjöldi vara sem framleiddar eru í framleiðsluaðgerð tengist því hvernig þær eru seldar. Til dæmis væri hægt að búa til hundruð vörur í einni lotu, en selja hverja vöru sérstaklega. Þegar skilgreindar eru framleiðsluleiðir og uppskriftir (uppskriftir) eru nokkur tilbrigði sem ætti að hafa í huga varðandi lotustærðir. Í þessu efnisatriði er því lýst hvernig lotustærðir hafa áhrif á kostnaðarútreikninga og tilfangaáætlun.

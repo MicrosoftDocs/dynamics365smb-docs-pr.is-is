@@ -6,14 +6,15 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
+ms.search.form: 1803, 1801
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589308"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011547"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prufuútgáfa og áskrift
 
@@ -74,7 +75,7 @@ Ef þú hefur bætt gögnum við [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner). Endursöluaðili getur hjálpað þér að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] í samræmi við fyrirtækið þitt, þar á meðal flutt inn gögn úr fyrra kerfi. Einnig er hægt að sérstilla [!INCLUDE[prod_short](includes/prod_short.md)] með því að bæta við forritum frá [Markaðstorgi Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] online notar Microsoft 365. Ef fyrirtækið þitt notar aðra gerð af tölvupóstuppsetningu getur verið að endursöluaðili geti aðstoðað þig við að flytja, eða látið þig vita ef þú ættir að nota [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss.  
+[!INCLUDE[prod_short](includes/prod_short.md)] notar á netinu Microsoft 365. Ef fyrirtækið þitt notar aðra gerð af tölvupóstuppsetningu getur verið að endursöluaðili geti aðstoðað þig við að flytja, eða látið þig vita ef þú ættir að nota [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss.  
 
 Einnig er hægt að hafa samband við [[!INCLUDE[prod_short](includes/prod_short.md)] Söluteymi](https://go.microsoft.com/fwlink/?linkid=828707).  
 

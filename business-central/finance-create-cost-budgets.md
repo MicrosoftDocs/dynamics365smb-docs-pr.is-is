@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 52ed39805c70fe686d96525b33ad82923628db82
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 9b69af67128492122bb6d8ceada51572a5ab6e33
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436174"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970675"
 ---
 # <a name="creating-cost-budgets"></a>Stofna kostnaðaráætlanir
+
 Áætlunargerð í kostnaðarbókhaldi svipar til áætlunargerðar í fjárhag. Kostnaðaráætlun er stofnuð á grundvelli kostnaðartegund, rétt eins og áætlun fyrir fjárhag er stofnuð á grundvelli fjárhagsreiknings.  
 
 Kostnaðaráætlun er stofnuð fyrir ákveðið tímabil, til dæmis reikningsár. Hægt er að búa til eins margar kostnaðaráætlanir og þörf er. Hægt er að stofna nýja kostnaðaráætlun handvirkt, eða með því að flytja inn kostnaðaráætlun eða með því að afrita fyrirliggjandi kostnaðaráætlun sem áætlunarstofninn. Frekari upplýsingar eru í [Stofna fjárhagsáætlun](finance-how-create-budgets.md).
@@ -32,7 +33,8 @@ Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Ve
 |Sjá dagbækur og færslur kostnaðaráætlana.|**Fjárhagsáætlunarskrá**|  
 |Prenta samanburð kostnaðaráætlunar með því að nota ýmsar skýrslur.|**Kostnaðarbókhald Staða-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðarbókhald Yfirlit-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarstað** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarhluta** skýrsla|  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
 [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)  
 [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)   

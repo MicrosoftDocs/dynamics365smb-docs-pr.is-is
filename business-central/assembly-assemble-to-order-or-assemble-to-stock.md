@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: deaefbebf1520bc936c078ff7f74b18c34de4d89
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 4f47d2e60ae1adeab814ab630f8f90877881b4ae
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326339"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011179"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
 Samsetningarvörur geta verið veittar í eftirfarandi tvo ferla:  
@@ -70,20 +70,29 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
  Dæmi um það hvers vegna breyta ætti magni til að setja saman, er að notandi vill bóka afhendingu að hluta á birgðamagni áður en samsetningarfrálagið er afhent.  
 
- Eftirfarandi tafla útskýrir reglurnar sem skilgreina lágmarks- og hámarksgildi sem hægt er að færa inn í reitinn **Magn til samsetningar** til að víkja frá sjálfgildinu í samsetningardæmi. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
+ Eftirfarandi töflur útskýra reglur sem skilgreina lágmarks-og hámarksgildin sem hægt er að færa inn í **magnið sem á að setja saman** til að víkja af sjálfgefnu gildi í samsettri atburðarás. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
 
-|-|Sölupantanalína|Samsetningarpöntunarhaus|||||||  
-|-|----------------------|---------------------------|-|-|-|-|-|-|  
-||**Magn**|**Magn til afhendingar**|**Magn til samsetningar til pöntunar**|**Afhent magn**|**Magn**|**Magn til samsetningar**|**Samsett magn**|**Eftirstöðvar (magn)**|  
-|Byrjun|10|7|7|0|7|7|0|7|  
-|Breyting||4||||4 (sett inn sjálfgefið)|||  
+- Sölupantanalína
 
- Byggt á ofangreindar aðstæðna, notandi getur aðeins breytt reitnum **Magn sett saman** á eftirfarandi hátt:  
+    |                | **Magn** | **Magn til afhendingar** | **Magn til samsetningar til pöntunar** | **Afhent magn** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Upphafsgildi**| 10          | 7                | 7                             | 0                    |
+    |**Breyta**      |              | 4                |                               |                      |
 
--   Lágmarksmagn sem hægt er að færa inn er 1. Það er vegna þess að það verður í það minnsta að setja saman eina einingu svo hægt sé að selja fjórar einingar, að því gefnu að þær þrjár sem eftir standa séu tiltækar sem birgðir.  
--   Hámarksmagn sem hægt er að færa inn er 4. Þetta er til að tryggja það að ekki sé meira af þessari Samsetning til pöntunar vöru framleitt en það sem vantar fyrir söluna.  
+- Samsetningarpöntunarhaus
 
-## <a name="see-also"></a>Sjá einnig  
+    |                | **Magn** | **Magn til afhendingar** | **Magn til samsetningar til pöntunar** | **Afhent magn** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Upphafsgildi**| 7           | 7                | 0                             | 7                    |
+    |**Breyta**      |              | 4 (sett inn sjálfgefið)|                         |                      |
+
+Samkvæmt þessu dæmi er aðeins hægt **að breyta magninu til að setja saman** svæði sem hér segir:  
+
+- Lágmarksmagn sem hægt er að færa inn er 1. Það er vegna þess að það verður í það minnsta að setja saman eina einingu svo hægt sé að selja fjórar einingar, að því gefnu að þær þrjár sem eftir standa séu tiltækar sem birgðir.  
+- Hámarksmagn sem hægt er að færa inn er 4. Þetta er til að tryggja það að ekki sé meira af þessari Samsetning til pöntunar vöru framleitt en það sem vantar fyrir söluna.  
+
+## <a name="see-also"></a>Sjá einnig
+
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  

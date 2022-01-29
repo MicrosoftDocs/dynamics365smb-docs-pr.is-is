@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að úthýsa framleiðslu til undirverktaka
+title: Úthýsa framleiðslu til undirverktaka
 description: Þetta efnisatriði sýnir stækkað yfirlit yfir útvíkkaða virkni undirverktaka í Business Central, þ.m.t. reiti vinnustöðvar og leiðir.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 2b3ecc4ac84c5b3958d2ada97c104e92dced9ed2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441523"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972724"
 ---
 # <a name="subcontract-manufacturing"></a>Úthýsa framleiðslu til undirverktaka
+
 Úthýsing á völdum aðgerðum til lánardrottna er algeng í mörgum framleiðslufyrirtækjum. Undirverktakastarfsemi getur verið sjaldgæf hending eða mikill þáttur í öllum framleiðsluferlum.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á nokkur verkfæri til að sjá um starfsemi undirverktaka:  

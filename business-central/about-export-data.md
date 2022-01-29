@@ -1,5 +1,5 @@
 ---
-title: Flyttu út Business Central gögnin þín í Excel| Microsoft Docs
+title: Flytja inn aðalgögn fyrirtækisins í Excel
 description: Þú getur flutt út fjárhagsskýrslur og gögn um viðskiptagreind frá Business Central yfir í Excel, eða opnað gögnin í Excel.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
+ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a6bfb8d20c13019807b2308737380c4fd31dcc6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 078b3988feb2d6e11d0601ca5aae48cdc5e6f893
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776498"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012007"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Flutningur viðskiptagagna í Excel
 Ef ætlunin er að vinna með gögn frá [!INCLUDE[prod_short](includes/prod_short.md)] í Excel, er hægt að opna alla lista í Excel og vinna með þá þar. Með sama hætti, ef notandi vill hætta í áskrift að [!INCLUDE[prod_short](includes/prod_short.md)] getur hann flutt gögnin sín út í Excel svo hann geti tekið þau með sér.

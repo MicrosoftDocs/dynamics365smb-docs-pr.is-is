@@ -1,21 +1,23 @@
 ---
-title: Verkhlutar nota tilföng og vinnublöð
+title: Verkefnastjórnun
 description: Þetta efnisatriði lýsir hvernig á að nota tilföng, vinnublöð og verk til að stjórna verkefnum og fjárhagsáætlunum þeirra.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: 89, 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 8f08b42af793772c98c0671cdf44934638fb8db7
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321090"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972149"
 ---
 # <a name="project-management"></a>Verkefnastjórnun
+
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að framkvæma sameiginlega verkefnastjórnun verkefni, svo sem að stilla vinnu og tímasetningu auðlinda, auk þess að veita þær upplýsingar sem þarf til að stjórna kostnaðarhámarki og fylgjast með framförum. Hægt er að rekja véla- og starfsmannatíma í verkefninu með því að nota vinnuskýrslur. Sem verkefnastjóri fær maður góða yfirsýn, ekki aðeins yfir einstök verk heldur einnig yfir úthlutun starfsfólks, véla og annars forða sem notaður er í öllum verkefnum.
 
 Áður en þú getur notað [!INCLUDE[prod_short](includes/prod_short.md)] til að stjórna verkefnum verður þú að setja upp tilföng, vinnuskýrslur og verk. Nánari upplýsingar er að finna í [Uppsetning verkefnisstjórnar](projects-setup-projects.md).  

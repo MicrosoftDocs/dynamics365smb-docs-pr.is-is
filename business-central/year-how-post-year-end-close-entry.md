@@ -5,14 +5,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6dfba7323eeaad538cf45525d11212a6e5d7438e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 6290bf334e3b309f1b4ed3eec426e6b3f60d6041
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438528"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971759"
 ---
 # <a name="posting-the-year-end-closing-entry"></a>Lokunarfærsla ársloka bókuð
 

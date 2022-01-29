@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc8eb04682492b3e3cd7906c12cf73d3974cf79a
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 42e4b06ab258c99225aedc59a0854d7c9cbf7eaa
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321192"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972646"
 ---
 # <a name="manufacturing"></a>Framleiðsla
+
 > [!NOTE]
 > Virkni sem lýst er í þessu efni og undirviðfangsefni er aðeins sýnilegt í notendaviðmótinu ef þú hefur **Úrvals** upplifun. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
@@ -29,7 +30,7 @@ Mikilvægur hluti af framleiðslunni, hvað kerfið varðar, er að bóka frála
 
 Áður en þú getur byrjað að framleiða vöru, er nauðsynlegt að búa til ýmsar uppsetningar, eins og vinnustöðvar, leiðir og framleiðsluuppskriftir. Nánari upplýsingar er að finna í [Uppsetning framleiðslu](production-configure-production-processes.md).
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
+Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
@@ -41,13 +42,14 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Bóka magn tilbúinna vara og tíma eytt á aðgerð, í færslubók sem getur unnið fjölda útgefinna framleiðslupantana.|[Fjöldabóka frálag og keyrslutíma](production-how-to-post-output-quantity.md)|
 |Afturkalla frálag, til dæmis vegna þess að gagnafærsluvilla átti sér stað og rangt magn.  |[Bakfæra frálagsbókun](production-how-to-reverse-output-posting.md)|  
 |Bóka fjölda vara sem framleiddar eru í hverri lokinni aðgerð sem ekki teljast til tilbúinnar vöru heldur sem úrkast.|[Bóka úrkast](production-how-to-post-scrap.md)|
-|Skoða álag á vinnusal sem afleiðingu útgefinna og afgreiddra framleiðslupantana.|[Skoða álag á vinnu- og vélastöðvar](production-how-to-view-the-load-on-work-centers.md)|      
+|Skoða álag á vinnusal sem afleiðingu útgefinna og afgreiddra framleiðslupantana.|[Skoða álag á vinnu- og vélastöðvar](production-how-to-view-the-load-on-work-centers.md)|  
 |Nota síðuna **Afkastagetubók** til að bóka notaða afkastagetu sem ekki er úthlutað á framleiðslupöntun, líkt og viðhaldsvinna.|[Bóka afkastagetu](production-how-to-post-capacities.md)|  
 |Reikna út og jafna kostnað við tilbúnar framleiðsluvörur og íhluti sem notaðir voru til afstemmingar.|[Um lokinn framleiðslupantanakostnað](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
-[Áætlun](production-planning.md)      
+[Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

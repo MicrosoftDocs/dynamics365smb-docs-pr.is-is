@@ -1,8 +1,6 @@
 ---
-title: Uppsetning forðakostnaðar, verðs og afkastaveitu| Microsoft Docs
+title: Setja upp forðakostnað verks, verð og afkastagetu
 description: Til að nota forða og auðvelda verkefnastjórnun, tilgreinirðu kostnað og verð fyrir einstaka forða eða forðaflokka, og stillir afkastaveitu forða.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
+ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb0d6f0ebe08abfb4b6f769f1bdbff1f02bc677f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: a91bf2cbd82f2b4c8374a1773a6603f52c47c581
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439796"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972253"
 ---
-# <a name="set-up-resources"></a>Setja upp forða
+# <a name="set-up-resources-for-projects"></a>Setja upp tilföng fyrir verk
+
 Til að geta unnið með forðaaðgerðir á réttan hátt verður að setja upp forðann og tengt verð og kostnað. Verktengt verð, afslættir og reglur um verðstuðul eru sett upp á verkspjaldinu. Hægt er að tilgreina kostnað og verð einstaks forða, forðaflokka eða alls tiltæks forða hjá fyrirtækinu.
 
 Þegar forði er notaður eða seldur í verki eru upplýsingar um verð og kostnað þar að lútandi fengnar úr upplýsingunum sem notandi hefur sett upp.

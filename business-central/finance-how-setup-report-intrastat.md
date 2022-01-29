@@ -1,8 +1,6 @@
 ---
-title: Setja upp og skrá Intrastat | Microsoft Docs
+title: Setja upp og skrá Intrastat
 description: Lærið hvernig skal setja upp skráningareiginleika Intrastat og hvernig skal skrá viðskipti við fyrirtæki í öðrum ESB löndum.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
+ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 219c7a779bc29eda81243362f79e1e7d2cec6b8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444413"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971094"
 ---
 # <a name="set-up-and-report-intrastat"></a>Setja upp og skrá Intrastat
+
 Öll fyrirtæki í löndum innan Evrópusambandsins þurfa að gefa öðrum löndum/svæðum innan sambandsins skýrslur um viðskipti sín. Einnig þarf að gefa hagstofu viðkomandi lands/svæðis mánaðarlega skýrslu um hreyfingu vöru og skýrsluna þarf að afhenda skattayfirvöldum. Í kerfinu er þetta kallað Intrastat-skýrslur. **Intrastatbók** er notuð til að vinna reglulegar Intrastat-skýrslur.  
 
 ## <a name="required-and-optional-setups"></a>Áskilin og valfrjáls uppsetning
@@ -30,10 +30,15 @@ ms.locfileid: "6444413"
 * **Vörukóði**: Tolla- og skattyfirvöld hafa sett fram númerakóða sem flokka vörur og þjónustu. Þú tiltekur þessa kóða á vörum.
 * **Eðliskóðar færslu**: Lönd og svæði hafa ólíka kóða fyrir tegundir Instrastat viðskipti, eins og venjuleg innkaup og sala, skipti á skilavörum, og skipti á vörum sem ekki hefur verið skilað. Setja upp alla kóða sem eiga við í þínu landi/svæði. Þú notar þessa kóða í sölu- og innkaupaskjölum, og þegar þú vinnur vöruskil.  
 * **Flutningsmáti**: Það eru sjö einstölu kóðar fyrir Intrastat flutningsmáta. **1** fyrir sjóleið, **2** fyrir lest, **3** fyrir akstur, **4** fyrir flug, **5** fyrir póstsendingar, **7** fyrir fastar uppsetningar, og **9** fyrir eigin knúningsafl (til dæmis, flytja bíl með því að aka honum). [!INCLUDE[prod_short](includes/prod_short.md)] fer ekki fram á þessa kóða, en við mælum engu að síður með því að lýsingarnar beri með sér svipaða merkingu.  
+* **Viðskiptalýsingar**: Nota þær til að drýgja lýsingarnar af gerð viðskiptanna.  
+* **Upprunaland** : notað er tveggja-BÓKSTAFUR ISO alfa kóðar fyrir landið þar sem góan var fengin eða framleidd. Ef góðkunni var framleitt í fleiri en einu landi, þá var upprunaland í landinu þar sem það var verulega unnið. 
+* **VSK-númer kennitölu félagasamfélags í aðildarríkinu innflutnings** : Þetta er VSK-kennitala rekstraraðila í aðildarríkinu í innflutningi. VSK-ID er einnig notað í skiptum innan ESB-útflutningsgagna meðal aðildarríkja og gerir aðildarríkjum kleift að ráðstafa mótteknum gögnum til innflutningsfyrirtækja í eigin landi. Tilkynningarskyldir aðilar verða að tilkynna um VSK-AUÐKENNI félagsins sem lýsti innan sambandsins kaupum á vörum í aðildarríkinu vegna innflutnings. 
+
+> [!NOTE]
+> VSK-AUÐKENNI viðskiptafélaga í notkun geta verið mismunandi eftir aðstæðum fyrirtækja. Til dæmis er KENNIÐ sem nota á frábrugðið fyrir áætlanir á borð við keðjusölu, þar sem birgir selur afurð í öðru landi, og síðan er það fyrirtæki endurselur vöruna í aðra Atvinnugrein í sömu sveit, þríhyrningsviðskiptum o. s. frv. Ef þú ert ekki viss um rétt VSK-KENNI til að nota, mælum við með að þú spyrjir sérfræðing á þínu landi eða svæði. 
 
 Einnig er hægt að setja upp:
 
-* **Viðskiptalýsingar**: Nota þær til að drýgja lýsingarnar af gerð viðskiptanna.  
 * **Svæði**: Nota þau til að drýgja lýsingarnar um lönd og svæði.  
 * **Komu/brottfarastaðir**: Nota þá til að tiltaka staðsetningar þar sem vöruafhending og móttaka fara fram í viðskiptum við önnur lönd. Heathrow flugstöðin er dæmi um komu-brottfararstað. Komu/brottfararstaði er hægt að færa inn í sölu- og innkaupskjöl á flýtiflipanum **Erlend viðskipti**. Þessar upplýsingar verða einnig afritaðar úr birgðafærslum þegar Intrastatbók er stofnuð.  
 
@@ -53,35 +58,49 @@ Hægt er að flytja færsluna út í skrá sem þú getur sent til Instrat yfirv
 > [!Note]
 > Í reitinn **Upplýsingatímabil** er upplýsingatímabilið fært inn sem fjögurra stafa númer og tákna fyrstu tveir tölustafirnir árið og þeir sem á eftir koma mánuðinn. Til dæmis er 1706 fært inn fyrir júní 2017.
 
-### <a name="to-set-up-commodity-codes"></a>Uppsetning vörukóða
+### <a name="to-set-up-transport-methods"></a>Uppsetning Flutningsmátar
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningsaðferðir** og velja síðan viðkomandi tengil.  
+2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Til að setja upp hvaða Intrastat skýrslureitir eru nauðsynlegir
+
+Í sumum löndum, eins og Spáni og Bretlandi, krefjast yfirvöld að Intrastatskýrslur innihaldi til dæmis sendingaraðferðina fyrir kaup eða nokkur önnur gildi þegar salan er yfir ákveðnum mörkum. Á síðunni **Uppsetning Intrastat** getur þú valið að gera **Uppsetning Instrastat-gátlista** til að setja skyldureiti í **Intrastatbók** síðuna .
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning Intrastat** og velja síðan viðkomandi tengil.
+2. Velja skal **Uppsetningaraðgerð fyrir intrastatlista**.
+3. Á síðunni **Uppsetning Intrastat-gátlista**, smelltu á **Reitarheiti** til að ná Intrastat skýrslureit sem þú vilt gera skyldu að fylla út.
+
+### <a name="czechia"></a>Tékkland
+
+Einnig þarf að setja upp vörukóða og kóða færslna fyrir tékkneska fyrirtæki.  
+
+#### <a name="to-set-up-commodity-codes"></a>Uppsetning vörukóða
+
 Allar vörur sem eru keyptar eða selda verða að hafa vörukóða.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörukóðar** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Til að úthluta vörukóða til vöru, skal fara í **Birgðaspjald** síðuna, útvíkka **Kostnaður & Bókanir** flýtiflipann og síðan færa inn kóðann í **Vörukóði** reitinn.   
 
-### <a name="to-set-up-transaction-nature-codes"></a>Uppsetning eðliskóða viðskipta
+### <a name="italy"></a>Ítalía
+
+Einnig þarf að setja upp vörukóða og kóða færslna fyrir ítölsk viðskipti.  
+
+#### <a name="to-set-up-transaction-nature-codes"></a>Uppsetning eðliskóða viðskipta
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eðliskóða viðskipta** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
 > Ef sérstakur eðliskóði viðskipta er notaður oft, geturðu gert hann sjálfgefinn. Til að gera það, skal fara á **Uppsetning Intrastat** síðuna, og velja kóðann.
 
-### <a name="to-set-up-transport-methods"></a>Uppsetning Flutningsmátar
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningsaðferðir** og velja síðan viðkomandi tengil.  
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Til að setja upp hvaða Intrastat skýrslureitir eru nauðsynlegir
-Í sumum löndum, eins og Spáni og Bretlandi, krefjast yfirvöld að Intrastatskýrslur innihaldi til dæmis sendingaraðferðina fyrir kaup eða nokkur önnur gildi þegar salan er yfir ákveðnum mörkum. Á síðunni **Uppsetning Intrastat** getur þú valið að gera **Uppsetning Instrastat-gátlista** til að setja skyldureiti í **Intrastatbók** síðuna .
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning Intrastat** og velja síðan viðkomandi tengil.
-2. Veldu aðgerðina **Uppsetning Intrastat-gátlista**.
-3. Á síðunni **Uppsetning Intrastat-gátlista**, smelltu á **Reitarheiti** til að ná Intrastat skýrslureit sem þú vilt gera skyldu að fylla út.
-
 ## <a name="to-report-intrastat"></a>Setja fram Intrastat skýrslu
+
 Eftir að þú hefur fyllt út Intrastatbókina geturðu keyrt aðgerðina **Gátlistaskýrslu** til að ganga úr skugga um að allar upplýsingar í bókinni séu réttar. Lögboðnir reitir sem þú hefur stillt á síðunni **Uppsetning Intrastat-gátlista** sem vantar gildi verða sýndir í Villur og viðvörun upplýsingareit á síðunni **Intrastatbók**. Eftir það er hægt að intrastat-skýrsla prentuð á eyðublað eða stofnuð sem skrá og því næst send til skattayfirvalda viðkomandi landssvæðis.  
 
-### <a name="to-fill-in-intrastat-journals"></a>Fært inn í Intrastatbækur:  
+### <a name="to-fill-in-intrastat-journals"></a>Fært inn í Intrastatbækur:
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Intrastatbók** og velja síðan viðkomandi tengil.  
 2. Á **Intrastat bók** síðunni, í reitnum **Heiti keyrslu** skal velja viðeigandi færslubókarkeyrslu og velja því næst hnappinn **Í lagi**.  
 3. Veljið aðgerðina **Leggja til línur**. Reitirnir **Upphafsdags.** og **Lokadagsetning** eru þegar komnir með dagsetningarnar sem tilgreindar eru fyrir upplýsingatímabilið í bókarkeyrslunni.  
@@ -91,9 +110,10 @@ Eftir að þú hefur fyllt út Intrastatbókina geturðu keyrt aðgerðina **Gá
 Keyrslan sækir allar birgðafærslur á upplýsingatímabilinu og setur þær inn í Intrastatbókina sem línur. Hægt er að breyta línunum ef þörf er á.  
 
 > [!IMPORTANT]  
->  Keyrslan sækir aðeins þær færslur sem eru með lands-/svæðiskóða og fengið hafa Intrastatkóða á síðunni **Lönd/svæði**. Þess vegna er brýnt að færa inn Intrastatkóta fyrir lands-/svæðiskótana sem keyrslan er fyrir.  
+> Keyrslan sækir aðeins þær færslur sem eru með lands-/svæðiskóða og fengið hafa Intrastatkóða á síðunni **Lönd/svæði**. Þess vegna er brýnt að færa inn Intrastatkóta fyrir lands-/svæðiskótana sem keyrslan er fyrir.  
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Senda Intrastat-skýrslu á eyðublaði eða sem skrá
+
 Prenta þarf skýrsluna **Intrastat – Eyðublað** til að fá upplýsingarnar sem þarf fyrir INTRASTAT-eyðublaðið frá hagstofu. Áður en hægt er að gera þetta þarf að undirbúa Intrastatbókina og fylla hana út. Ef bæði er um sölu- og innkaupafærslur að ræða þarf að fylla út sérstakt eyðublað fyrir hvora tegundina fyrir sig svo að þörf er á að prenta skýrsluna tvisvar.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Intrastatbækur** og velja síðan viðkomandi tengil.  
@@ -104,6 +124,7 @@ Prenta þarf skýrsluna **Intrastat – Eyðublað** til að fá upplýsingarnar
 6. Til að prenta skýrsluna skal velja **Senda til**.  
 
 ### <a name="report-intrastat-in-a-file"></a>Senda Intrastat-skýrslu sem skrá
+
 Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin til er hægt að prenta gátlista með upplýsingunum sem verða í skránni.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Intrastatbók** og velja síðan viðkomandi tengil.  
@@ -115,6 +136,7 @@ Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin ti
 7. Flett er að möppunni þar sem vista á skrána og skráarheiti fært inn og síðan valið **Vista**.
 
 ## <a name="reorganize-intrastat-journals"></a>Endurskipuleggja Intrastatbækur
+
 Þar sem Intrastat-skýrslu þarf að senda inn mánaðarlega og búa til nýja færslubókarkeyrslu fyrir hverja þeirra, muntu að lokum hafa margar bókarkeyrslur. Færslubókarlínurnar eyðast ekki sjálfkrafa. Ef til vill á að endurraða heitum færslubókarkeyrslnanna eftir tímabilum. Það er gert með því að eyða færslubókarkeyrslunum sem ekki er lengur þörf fyrir. Færslubókarlínunum í þessum keyrslum er einnig eytt.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Intrastatbækur** og velja síðan viðkomandi tengil.  

@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að vinna með birgðatímabil | Microsoft Docs
+title: Vinna við birgðatímabil
 description: Hægt er að stjórna tímarammanum þar sem fólk getur bókað breytingar á birgðum með því að skilgreina birgðatímabil.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
+ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d946020bb6f9a1eabf5ab68d3dd64a9af344993
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: d41936ece0911f726a72476716b148bede71a25b
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442061"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970623"
 ---
 # <a name="work-with-inventory-periods"></a>Vinna við birgðatímabil
+
 Birgðatímabil skilgreina tímabil þar sem hægt er að bóka breytingar á birgðum. Birgðatímabil afmarkast af dagsetningunni sem því lýkur á. Þegar birgðatímabili er lokað er ekki hægt að bóka neinar breytingar á birgðum, hvorki áætluðum né reikningsfærðum fyrir þessa lokadagsetningu. Ekki er heldur hægt að bóka nein ný gildi við birgðir fyrir lokadagsetninguna. Ef birgðafærslur eru hafðar opnar í lokaða tímabilinu, sem þýðir jákvætt magn sem ekki er búið að jafna saman við færslur á útleið, er samt hægt að jafna magn á útleið við þessar færslur, jafnvel þó að tímabilið sé lokað.  
 
 Eftirfarandi hlutar útskýra hvernig á að standa að:
@@ -26,13 +28,15 @@ Eftirfarandi hlutar útskýra hvernig á að standa að:
 * Lokun birgðatímabila.  
 * Enduropna birgðatímabil.  
 
-## <a name="to-create-an-inventory-period"></a>Til að stofna birgðatímabil  
+## <a name="to-create-an-inventory-period"></a>Til að stofna birgðatímabil
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðatímabil** og velja síðan viðkomandi tengil.  
 2. Stofnið nýja línu.  
 3. Í reitinn **Lokadagsetning** er slegin inn síðasta dagsetningin í birgðatímabilinu sem ætlunin er að skilgreina. Þegar tímabilinu er lokað verður ekki hægt að bóka breytingar á birgðum fyrir þessa dagsetningu.  
 4. Færa inn lýsandi heiti í reitinn **Heiti**. Velja hnappinn **Í lagi**.  
 
-## <a name="closing-inventory-periods"></a>Lokun birgðatímabila  
+## <a name="closing-inventory-periods"></a>Lokun birgðatímabila
+
 Reiturinn **Lokað** gefur til kynna hvort birgðatímabilið er lokað fyrir breytingum á birgðagildum eður ei. Ekki er hægt að breyta þessum reit.  
 
 Hægt er að loka hvaða birgðatímabili sem er, að því gefnu að eftirfarandi sé satt:  
@@ -43,12 +47,13 @@ Hægt er að loka hvaða birgðatímabili sem er, að því gefnu að eftirfaran
 Þetta þýðir að jafna þarf allt færslumagn á útleið, eins og magnið í sölupöntunum, millifærslum á útleið, sölureikningsfærslum, vöruskilum eða innkaupakreditreikningum við magn sem er fyrir í birgðum.  
 
 ### <a name="to-close-an-inventory-period"></a>Til að loka birgðatímabili  
+
 1. Áður en birgðatímabili er lokað er **Leiðr. kostnað - Birgðafærslur** aðgerðin valin til að tryggja það að allar kostnaðarleiðréttingar séu bókaðar.
 
-     Keyrð er skýrslan **Loka birgðatímabili - Prófun** til að ákvarða hvort einhverjar opnar birgðafærslur á útleið eru innan birgðatímabilsins eða einhverjar vörur sem ekki hafa fengið kostnað sinn leiðréttan.  
+    Keyrð er skýrslan **Loka birgðatímabili - Prófun** til að ákvarða hvort einhverjar opnar birgðafærslur á útleið eru innan birgðatímabilsins eða einhverjar vörur sem ekki hafa fengið kostnað sinn leiðréttan.  
 2. Velja skal **Loka birgðatímabili - Prófun** aðgerðina.  
 
-     Keyrð er keyrslan **Bóka birgðabreytingar** til að tryggja það að allur kostnaður sé bókaður í fjárhaginn.  
+    Keyrð er keyrslan **Bóka birgðabreytingar** til að tryggja það að allur kostnaður sé bókaður í fjárhaginn.  
 3. Velja skal aðgerðina **Bóka birgðir í fjárhag**.  
 4. Á síðunni **Birgðatímabil** skal velja birgðatímabilið sem á að loka.  
 5. Velja aðgerðina **Loka tímabili**. Þegar birgðatímabilinu hafi verið lokað er ekki hægt að bóka breytingar á birgðum fyrir lokadagsetninguna. Leiðrétta þarf kostnað allra vara með keyrslunni **Leiðr. kostnað - Birgðafærslur** áður en birgðatímabilinu er lokað.  

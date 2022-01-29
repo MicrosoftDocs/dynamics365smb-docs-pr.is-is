@@ -1,5 +1,5 @@
 ---
-title: Setja upp umskráningu bankagagna| Microsoft Docs
+title: Setja upp umreikning á Bankagögnum
 description: Hægt er að setja upp bankareikninga til að fylgjast með viðskiptum og flytja bankastreymi inn eða út, eins og t.d. Yodlee.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
+ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c9f74c300bfeec6f58e691509d54dfc5134391c7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 7db2c4a8b50f530ce9b27d0cccc349fd2d354e0e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442851"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972565"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Setja upp AMC Banking 365 Fundamentals-viðbótina
 Altæk þjónustuveita til að umreikna greiðsluupplýsingar í hvaða gagnaskráarsnið sem bankinn þinn þarf eru uppsett og tilbúið til að vera virkjað í [!INCLUDE[prod_short](includes/prod_short.md)]. Vísað er í þetta í [!INCLUDE[prod_short](includes/prod_short.md)] sem AMC Banking 365 Fundamentals-viðbót.

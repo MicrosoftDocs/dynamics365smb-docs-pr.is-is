@@ -1,34 +1,34 @@
 ---
-title: Hvernig á að uppfæra staðlað kostnaðarverð | Microsoft Docs
+title: Uppfæra staðlaðan kostnað
 description: Reglulega verður að uppfæra staðlað kostnaðarverð íhluta og leggja nýja kostnaðinn saman við yfirvöruna.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 99783deca985a630a46b745b1e7f0a92eb327642
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 26fc683f1c11a8341437823ceef438eaa269deb1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784568"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972461"
 ---
 # <a name="update-standard-costs"></a>Uppfæra staðlaðan kostnað
 Reglulega verður að uppfæra staðlað kostnaðarverð íhluta og leggja nýja kostnaðinn saman við yfirvöruna. Ferlið samanstendur yfirleitt af fjórum eftirtöldum skrefum:  
 
 1.  Uppfærslu kostnaðar á íhluta- og afkastagetustigunum. Frekari upplýsingar, sjá **Leggja til staðlaðan vörukostnað** runuvinnslu.  
 2.  Samstilling og samantekt íhluta- og afkastakostnaðarins til að reikna út heildarframleiðslu- eða samsetningarkostnað varanna.  
-3.  Innleiða staðlaðan kostnað sem færður var inn þegar fyrri keyrsla var keyrð. Staðlaður kostnaður tekur ekki gildi fyrr en hann er innleiddur. Sjá frekari upplýsingar í Innleiða breytingu á stöðluðu kostnaðarverði.  
+3.  Innleiða staðlaðan kostnað sem færður var inn þegar fyrri keyrsla var keyrð. Staðlaður kostnaður tekur ekki gildi fyrr en hann er innleiddur. **Keyrslan innleiða breytingar á stöðluðu kostnaðarverði** er notuð sem uppfærir breytingar á stöðluðu kostnaðarverði á vörum með þær í töflunni vinnublað staðlaðs kostnaðarverðs.  
 4.  Innleiða breytingar til að uppfæra reitinn **Kostn.verð** á birgðaspjaldinu og framkvæma endurmat á birgðum. Nánari upplýsingar eru í [Endurmat birgða](inventory-how-revalue-inventory.md).  
 
-Í [Um útreikning staðlaðs kostnaðar](finance-about-calculating-standard-cost.md) er fjallað nánar um þetta efni.  
-## <a name="to-update-standard-costs"></a>að uppfæra staðlað kostnaðarverð  
+Í [Um útreikning staðlaðs kostnaðar](finance-about-calculating-standard-cost.md) er fjallað nánar um þetta efni.
+  
+## <a name="to-update-standard-costs"></a>að uppfæra staðlað kostnaðarverð
+
 1.  Keyrslan **Leiðr. kostnað - Birgðafærslur** er keyrð  
 2.  Keyrslan **Bóka birgðakostnað á fjárhag** er keyrð  
 3.  Opnið **Vinnublað fyrir staðlaðan kostnað** og notið eina eða fleiri af eftirfarandi aðgerðum:  
@@ -42,7 +42,8 @@ Reglulega verður að uppfæra staðlað kostnaðarverð íhluta og leggja nýja
     7.  Keyrslan **Innleiða breytingu á stöðluðu kostnaðarverði** er keyrð.  
 4.  Skoða og birta skal síðuna **Endurmatsbók** sem hefur verið fyllt með færslum úr fyrri skrefum í þessu ferli.  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
  [Um umreikning staðalkostnaðar](finance-about-calculating-standard-cost.md)   
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   
  [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md) [Fjármál](finance.md)  

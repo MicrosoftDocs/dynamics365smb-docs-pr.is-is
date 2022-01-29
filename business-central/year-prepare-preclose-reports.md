@@ -1,24 +1,24 @@
 ---
-title: Yfirlit yfir skýrslur fyrir lokun til að sannreyna nákvæmni reikninga | Microsoft Docs
+title: Yfirlit yfir Forlokun skýrslna til að sannreyna nákvæmni lykils
 description: Veitir yfirsýn yfir skýrslurnar sem þú getur notað til að sannreyna nákvæmni reikninga áður en bókum er lokað við lok árs eða tímabils.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 96fe7c7c1f955d3c489429bf3ee64f9f3f925de7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 877f2ed9ba278ccafb26266d85165b8cfc5589d3
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439235"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012658"
 ---
 # <a name="using-pre-closing-reports"></a>Nota skýrslur fyrir lokun
+
 Margar staðlaðar skýrslur eru í boði til að sannreyna nákvæmni reikninganna áður en bókum er lokað í lok ársins eða í lok tímabils. Til dæmis má nota skýrsluna **Viðskiptamaður - Prófjöfnuður** til að votta að upphæð bókunarflokks viðskiptamanna sé jöfn upphæð á samsvarandi reikningi færslubókar á tilteknu tímabili.
 
 Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þessu ferli.
@@ -38,6 +38,7 @@ Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þes
 Til að sjá skýrslu skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heitið eins og það birtist í töflunni og velja svo viðkomandi tengil.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
+ms.search.form: 762, 840, 841, 847, 848, 849, 850, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4d4cdac7b68e0ec59edfaf88d74cdfb4dde9e3a1
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: f7edf7f1b878f6647b123c956531313317f3bb15
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940102"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973571"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Greining á sjóðstreymi í fyrirtækinu þínu
 Gröfin á Mitt hlutverk bókhaldara veita innsýn sem getur hjálpað þér að taka ákvarðanir um hvað þú átt að gera með peningana þína.  

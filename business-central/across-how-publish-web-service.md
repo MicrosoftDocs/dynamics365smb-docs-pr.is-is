@@ -4,15 +4,15 @@ description: Birta hluti sem vefþjónustu til að þeir séu undir eins í boð
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.form: 810
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bca44382de10299ecbea73eda26ba858fbd2ef32
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: bf12c7d415fc75841c4b9f88793ba5be69b21693
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437628"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011310"
 ---
 # <a name="publish-a-web-service"></a>Birta vefþjónustu
 

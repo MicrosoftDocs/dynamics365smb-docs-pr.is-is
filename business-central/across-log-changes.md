@@ -1,5 +1,5 @@
 ---
-title: Endurskoðun breytinga| Microsoft docs
+title: Endurskoðunar breytinga
 description: Hægt er að virkja breytingaskrá svo að þú hafir yfirlit yfir allar breytingar sem gerðar hafa verið á gögnum í röktum töflum. Þú getur einnig rakið aðgerðir með tilteknum gerðum aðgerðakladda.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,20 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
+ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
-ms.translationtype: HT
+ms.openlocfilehash: 2101a37c62b232e72cf5e773aeb0b2e6d6709927
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606440"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011071"
 ---
 # <a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
+
 Sameiginleg áskorun margra viðskiptastjórnunarforrita er að forðast óæskilegar breytingar á gögnum. Þetta getur verið allt frá röngu símanúmeri viðskiptamanns til rangrar bókunar í fjárhag. Í þessu efnisatriði er lýst möguleikanum á því að finna út hvað breyttist, hver breytti því og hvenær breytingin var gerð.
 
-## <a name="about-the-change-log"></a>Um breytingaskrá 
-Með breytingaskránni er hægt að rekja allar beinar breytingar sem notendur gera á gögnum í gagnagrunninum. Tilgreina skal hverja töflu og reit sem kerfið á að skrá og síðan virkja breytingaskrána.  
+## <a name="about-the-change-log"></a>Um breytingaskrá
+
+Með breytingaskránni er hægt að rekja allar beinar breytingar sem notendur gera á gögnum í gagnagrunninum. Tilgreina skal hverja töflu og reit sem kerfið á að skrá og síðan virkja breytingaskrána. Breytingaskráin byggir á breytingum sem gerðar eru á gögnum í töflunum sem þú rekur. Á síðunni **Breytingaskrárfærslur** er færslum raðað í tímaröð og sýndar eru allar breytingar sem gerðar eru á gildum í reitum í töflunum sem eru tilgreindar. 
 
 Rakningarbreytingar geta haft áhrif á afköst, sem geta kostað tíma og aukið stærð gagnagrunnsins, sem gæti kostað peninga. Hafðu eftirfarandi í huga til að draga úr þeim kostnaði:
 
@@ -29,7 +32,7 @@ Rakningarbreytingar geta haft áhrif á afköst, sem geta kostað tíma og auki�
 - Ekki bæta við færslum og bókuðum skjölum. Í staðinn skal forgangsraða kerfisreitum á borð við „Stofnað af“ og „Dagsetning stofnunar“.
 - Ekki nota rakningargerðina „Allir reitir“. Þess í stað skal velja nokkra reiti og rekja aðeins mikilvægustu reitina.
 
-Breytingaskráin byggir á breytingum sem gerðar eru á gögnum í töflunum sem þú rekur. Á síðunni **Breytingaskrárfærslur** er færslum raðað í tímaröð og sýndar eru allar breytingar sem gerðar eru á gildum í reitum í töflunum sem eru tilgreindar.
+Einnig vegna afkastaástæðna er slökkt á Breytingaskrá meðan á uppfærslu stendur í [!INCLUDE [prod_short](includes/prod_short.md)] næstu útgáfu. Auk þess að hraða uppfærsluferlinu hjálpar þetta einnig við að draga úr ringulreið í Chance-kladda. Um leið og uppfærslu er lokið byrjar kladdinn að rekja breytingar á ný.
 
 > [!Important]
 > Breytingar sjást aðeins í **Breytingaskrárfærslum** þegar lota notanda er endurræst, sem gerist á eftirfarandi hátt:
@@ -39,6 +42,7 @@ Breytingaskráin byggir á breytingum sem gerðar eru á gögnum í töflunum se
 > * Notandinn skráði sig út og aftur inn.
 
 ### <a name="working-with-the-change-log"></a>Vinna með breytingaskrá
+
 Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráningu virka eða óvirka. Þegar notandi kveikir eða slekkur á breytingaskrá er þessi verkþáttur skráður til að geta ævinlega séð hvaða notandi kveikti eða slökkti á breytingaskránni.
 
 Á síðunni **Breytingaskrár Uppsetning** ef aðgerðin **Töflur** er valin, skal tilgreina hvaða töflur á að rekja breytingar fyrir og hvaða breytingar á að rekja. [!INCLUDE[prod_short](includes/prod_short.md)] rekur einnig nokkrar kerfistöflur.
@@ -49,22 +53,26 @@ Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráni
 Þegar breytingaskrá hefur verið sett upp, virkjuð og einhver hefur breytt gögnum skráir forritið breytinguna í breytingaskrárfærslu. Hægt er að skoða og afmarka breytingarnar á síðunni **Breytingaskrárfærslur**. Ef á að eyða færslum er hægt að gera það á síðunni **Eyða breytingaskrárfærslum** þar sem hægt er að stilla afmarkanir eftir dagsetningu og tíma.  
 
 ## <a name="about-activity-logs"></a>Um aðgerðakladda
+
 Á sumum síðum í [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að skoða aðgerðarkladda sem sýnir stöðu og allar villur úr skrám sem þú flytur út úr eða flytur inn í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ### <a name="working-with-activity-logs"></a>Vinna með aðgerðakladda
+
 Upplýsingarnar eru birtar á síðunni **Aðgerðarkladdi** í samræmi við samhengið sem þær eru opnaðar úr. Til dæmis er hægt að opna síðuna á síðunum **Uppsetning skjalaskiptaþjónustu**, **Skjal á innleið**, **Bókaður sölureikningur** og **Bókaður sölukreditreikningur**. Hægt er að tæma listann yfir kladdafærslur eða hreinsa lista yfir færslur sem eru eldri en sjö daga.  
 
 ## <a name="monitoring-sensitive-fields"></a>Fylgst með viðkvæmum reitum
+
 Að halda viðkvæmum gögnum öruggum tryggja persónuvernd er mikilvægt flestum fyrirtækjum. Til að bæta við öryggisstigi er hægt að fylgjast með mikilvægum reitum og verið látin vita í tölvupósti þegar einhver breytir gildi. Til dæmis gætirðu viljað fá tilkynningu ef einhver breytir IBAN-númeri fyrirtækisins.
 
 > [!NOTE]
 > Að senda tilkynningu í tölvupósti krefst þess að eiginleiki tölvupósts verði settur upp í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Setja upp tölvupóst](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Uppsetning reitarvöktunar
+
 Hægt er að nota uppsetningarleiðbeiningar **Uppsetning á breytingavöktun reits** með hjálp til að tilgreina reitina sem á að fylgjast með samkvæmt síuskilyrði á borð við flokkun gagnatrúnaðar fyrir reitina. Nánari upplýsingar er að finna í [Flokkun á gagnatrúnaðar](admin-classifying-data-sensitivity.md). Leiðarvísirinn gerir einnig kleift að tilgreina þann sem fær tölvupóststilkynningu þegar breyting á sér stað, og tölvupóstsreikninginn sem sendir tilkynninguna í tölvupósti. Tilgreinið bæði notandann sem fær tilkynningu og reikninginn sem tilkynningin verður send frá. Eftir að leiðarvísinum er lokið er hægt að vinna með stillingar fyrir reitavöktun á síðunni **Uppsetning reitavöktunar**. 
 
 > [!NOTE]
-> Þegar þú tilgreinir tölvupóstsreikninginn sem á að senda tilkynningar frá verður þú annaðhvort að bæta við reikningsgerðunum **Microsoft 365** eða **SMTP**. Senda skal tilkynningar frá reikningi sem er ekki tengdur við raunverulegan notanda. Þú getur því ekki valið reikningsgerðina **Núverandi notandi**. Tilkynningar verða ekki sendar ef þú gerir það. 
+> Þegar tilgreindur er Tölvupóstreikningur frá því að tilkynningar eru sendar þarf að bæta við **Microsoft 365** **reikningstegundum** eða SMTP. Senda skal tilkynningar frá reikningi sem er ekki tengdur við raunverulegan notanda. Þú getur því ekki valið reikningsgerðina **Núverandi notandi**. Tilkynningar verða ekki sendar ef þú gerir það. 
 
 Með tímanum stækkar listinn yfir færslur á síðunni **Kladdafærslur reitavöktunar**. Til að draga úr fjölda færslna er hægt að stofna varðveislureglu sem eyðir færslum eftir tiltekinn tíma. Frekari upplýsingar er að finna í [Skilgreina varðveislureglur](admin-data-retention-policies.md).
 
@@ -97,6 +105,7 @@ Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að se
 Hægt er að búa til varðveislureglur til að eyða ónauðsynlegum gögnum í klöddum eftir tiltekinn tíma sem gefa skal upp. Til dæmis getur fjærslufjöldinn í kladda aukist með tímanum. Með því að hreinsa upp eldri færslur er auðveldara að setja athyglina á nýlegri og líklega meira viðeigandi færslur. Frekari upplýsingar er að finna í [Skilgreina varðveislureglur](admin-data-retention-policies.md).
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  

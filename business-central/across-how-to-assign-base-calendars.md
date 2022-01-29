@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að setja upp grunndagatal
+title: Setja upp grunndagatöl
 description: Hægt er að úthluta fyrirtækinu og viðskiptafélögum grunndagatali til að reikna út afhendinga- og móttökudagsetningar samkvæmt þeim vinnudögum sem tilgreindir eru.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,20 +7,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446491"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011837"
 ---
 # <a name="set-up-base-calendars"></a>Setja upp grunndagatöl
+
 Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, birgjum og stöðvum grunndagatali. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu. Þegar nýtt grunndagatal er sett upp felst meginverkefnið í að tilgreina og skilgreina þá frídaga sem eiga að gilda.  
 
-## <a name="to-set-up-a-base-calendar"></a>Uppsetning grunndagatals  
+## <a name="to-set-up-a-base-calendar"></a>Uppsetning grunndagatals
+
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Grunndagatal** og velja síðan viðkomandi tengil.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Reiturinn **Kóti** er fylltur út.  
@@ -42,6 +44,7 @@ Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, bi
 Tilgreinir dagsetningarformúlu fyrir þann tíma sem það tekur að fylla á vöruna. Hann er notaður til að reikna reitinn **Áætluð dagsetning innhreyfingar** ef reiknað er út áfram og reitinn **Pöntunardagsetning** ef reiknað er út afturábak. Sjá [Útreikn. afhendingartíma](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Útreikn. afhendingartíma
+
 Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageymsluna hefur áhrif á það hvernig dagsetningarnar eru reiknaðar út og sléttaðar til virkra daga. Í samræmi við það eru dagsetningarreitirnir tveir í innkaupapöntunarlínunum reiknaðir á eftirfarandi hátt við ólík skilyrði.
 
 |Stefna útreiknings|Dagatal lánardrottins skilgreint|Dagatal lánardrottins ekki skilgreint|

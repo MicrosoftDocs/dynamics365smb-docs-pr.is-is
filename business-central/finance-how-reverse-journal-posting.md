@@ -1,8 +1,6 @@
 ---
 title: Afturkalla bókun með bókun bakfærslu
 description: Ef þú hefur framkvæmt ranga bókun í færslubók, geturðu notað bakfærsluaðgerðina til að afturkalla bókunina með réttri endurskoðunarslóð.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
-ms.translationtype: HT
+ms.openlocfilehash: 10a1532ea7772aa8f2c35df118388e57dc4dc52d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660157"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972539"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Bakfæra bókun Færslubókar og afturkalla kvittanir/sendingar
+
 Að bakfæra bókanir færslubókar er ekki aðeins notað til að leiðrétta villur heldur er einnig hægt að nota það til að hreinsa út gamlar færslur uppsöfnunar áður en ný er færð inn sem dæmi. Þú velur færsluna og býrð til bakfærslu (færsla sem er alveg eins og upphaflega færslan en með andstæðu tákni í reitnum fyrir upphæð) með sama skjalanúmeri og bókunardagsetningu og upphaflega færslan. Þegar færsla hefur verið bakfærð þarf að búa til rétta færslu.
 
 Aðeins er hægt að bakfæra færslu sem er bókuð frá færslubókarlínu. Færslu er einungis hægt að bakfæra einu sinni.
@@ -80,6 +80,7 @@ Eftirfarandi lýsir því hvernig á að afturkalla bókaða skilasendingu á v�
 8.  Leiðrétta færsluna í **Magn** reitnum og bóka skilapöntun innkaupa aftur.  
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Afturkalla samsetningarbókun](assembly-how-to-undo-assembly-posting.md)  
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  

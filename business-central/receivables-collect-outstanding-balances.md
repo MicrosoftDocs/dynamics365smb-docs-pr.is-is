@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 2c3e4bc2b75133b0a46d3d5746841d6caf76589c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439411"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971653"
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
 
@@ -186,7 +186,7 @@ Ef vaxtareikningar voru gefnir út fyrir mistök er hægt að hætta við þá �
 
 ## <a name="multiple-interest-rates"></a>Margir vextir
 
-Þegar vaxtaskilmálar og skilmálar innheimtubréfa eru sett upp, fyrir sekt vegna seinkunar á greiðslu, er hægt að tilgreina marga vexti þannig að sektargreiðsla er reiknuð út frá mismunandi vöxtum á mismunandi tímabilum. Ef margir vextir eru ekki settir upp, þá verða vextirnir og tímabilið sem er skilgreint á síðunum **Vaxtaskilmálar** og **Skilmálar innheimtubréfa** notað fyrir allt reikningstímabilið. Frekari upplýsingar eru í [Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Frekari upplýsingar er að finna í [Setja upp marga Vaxtartaxta](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
