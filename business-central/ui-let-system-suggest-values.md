@@ -1,5 +1,5 @@
 ---
-title: Setja upp tillögur um reitagildi | Microsoft Docs
+title: Láta Aðaltillögur Viðskiptaráðs í gildi
 description: Til að forðast handvirka útreikninga og klára verkhluta fljótt og nákvæmlega, geturðu sett upp sjálfvirka gagnafærslu þannig að Business Central fyllir upp í valda reiti.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 39, 251, 981
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9af79eccbfd180ce7d587a3cb2e420fde0f85a3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c7aaa366a237e2196aaa8a6e376220e5d5794d87
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445328"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100822"
 ---
 # <a name="letting-prod_short-suggest-values"></a>Að láta [!INCLUDE[prod_short](includes/prod_short.md)] leggja til gildi
 [!INCLUDE[prod_short](includes/prod_short.md)] getur hjálpað við að ljúka verkefni hraðar og réttara með því að forfylla í reiti eða klára línur með gögnum sem þú myndir annars þurfa að reikna og færa inn sjálfur. Þótt slíka sjálfvirka færslan er ekki alltaf rétt má breyta eftirá.

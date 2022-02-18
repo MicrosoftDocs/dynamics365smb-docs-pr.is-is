@@ -7,34 +7,21 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 5488ba8331494ba662960e84d4907de76a68e72b
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543146"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102344"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Fjárhagsskýrslur og greiningar í Business Central
 
 Fjárhagsskýrslugerð fyrir [!INCLUDE [prod_short](includes/prod_short.md)] gerir fjármála og viðskiptafagfólk kleift að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum. [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur nokkrar skýrslur, rakningaraðgerðir og verkfæri sem aðstoða endurskoðendur eða stjórnendur sem bera ábyrgð á skýrslugjöf til fjármáladeildarinnar. Fjárhagsskýrslugerð felur í sér stuðning fyrir víddir, þannig að lyklahlutar eða víddir séu strax í boði. Engin verkfæri til viðbótar eða skilgreiningarskref eru nauðsynleg.  
 
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
 ## <a name="reports"></a>Skýrslur
-
-Eftirfarandi tafla lýsir sumum helstu skýrslunum í fjárhagsskýrslugerð.
-
-| Skýrsla | Kenni hlutar | Description |
-|--|--|--|
-| **Prófjöfnuður** | 6 | Sýnir bókhaldslykla samkvæmt stöðum og hreyfingum. Hægt er að velja að skoða prófjöfnuð fyrir tilteknar víddir. Hægt er að nota skýrsluna í lok fjárhagstímabils eða reikningsárs. |
-| **Prófjöfnuður eftir tímabili** | 38 | Sýnir upphafsstöðu fjárhagsreikningsins, hreyfingar á völdu tímabili (mánuði, fjórðungi eða ári) og lokastöðuna. |
-| **Prófjöfnuður - Áætlun** | 9 | Hér kemur fram samanburður á prófjöfnuði og áætlun. Hægt er að velja að skoða prófjöfnuð fyrir tilteknar víddir. Hægt er að nota skýrsluna í lok fjárhagstímabils eða reikningsárs. |
-| **Ítarlegur prófjöfnuður** | 4 | sýnir sundurliðaðan prófjöfnuð fyrir tilgreinda fjárhagsreikninga. Hægt er að nota skýrsluna í lok fjárhagstímabils eða reikningsárs. Hægt er að velja reikninga í skýrsluna með því að setja afmörkun. |
-| **Prófjöfnuður - Fyrra ár** | 7 | Hér kemur fram prófjöfnuður í samanburði við tölur fyrra árs. Hægt er að velja að skoða prófjöfnuð fyrir tilteknar víddir. Hægt er að nota skýrsluna í lok fjárhagstímabils eða reikningsárs. Með *fyrra ári* er átt við sama tímabil og á árinu áður. |
-| **Fjárhagsskema** | 25 | Fjárhagsskema er hægt að nota til þess að birta fjárhagsreikninga á annan hátt en í bókhaldslyklinum. Fjárhagsskemu má t.d. nota til að fá skýrslur með lykiltölum. |
-< | **Efnahagsreikningur** (Fjárhagsskema eða Excel) eða **Prófjöfnuður** |  |  |
-| **Sjóðstreymisyfirlit** (Fjárhagsskema) |  |  |
-| **Samantekt/upplýsingar um prófjöfnuð** |  |  |
-| **Rekstrarreikningur** (Fjárhagsskema eða Excel) |  |  |
-| **Fjárhagsáætlun** |  |  | -->
+[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Verk
 

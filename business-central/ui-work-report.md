@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 06/21/2021
+ms.date: 02/09/2022
 ms.author: jswymer
-ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: MT
+ms.openlocfilehash: 142a9f826e200f06172b741e72e54d49ff9caf47
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972201"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102604"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Unnið með skýrslur, runuvinnslur og XMLports
 
@@ -32,7 +32,7 @@ Runuvinnslur og XMLports gera meira eða minna það sama og skýrslur, en eru m
 
 Þegar þú opnar skýrslu, runuvinnslu eða XMLport birtist þér yfirleitt beiðnisíða þar sem þú tilgreinir ýmsa valmöguleika og síur sem ákvarða hvað skal hafa með í skýrslunni. Eftirfarandi hlutar útskýra hvernig á að nota beiðnisíðuna til að búa til, forskoða og prenta út skýrslur.
 
-## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Sjálfgefin gildi notuð - fyrirframskilgreindar stillingar 
+## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Sjálfgefin gildi notuð - fyrirframskilgreindar stillingar
 
 Flestar beiðnisíður innihalda reitinn **Nota sjálfgildi úr**. Þessi reitur gerir þér kleift að velja fyrirframskilgreindar stillingar fyrir skýrsluna sem sjálfkrafa stilla valkosti og síur fyrir skýrsluna. Veljið færslu úr fellilistanum og þar koma þá í ljós breytingarnar á valkostum og síum beiðnisíðunnar.
 
@@ -56,7 +56,7 @@ Notið reitina undir **Valkostir** og **Síur** til að breyta takmörkunum á u
 
 ## <a name="previewing-a-report"></a>Forskoðun skýrslu
 
-Að forskoða skýrsluna gerir notanda kleift að sjá hvernig skýrslan komi til með að líta út áður en hún er prentuð. Forskoðunin er ekki byggð á prentaranum sem er valinn í **reitnum** prentari á beiððsíðunni. Hún fer eftir vafranum. Að forskoðun lokinni er hægt að fara aftur á beiðnisíðuna og gera breytingar á valkostum og síum eftir þörfum.
+Að forskoða skýrsluna gerir notanda kleift að sjá hvernig skýrslan komi til með að líta út áður en hún er prentuð. Forskoðunin er ekki byggð á prentaranum sem er valinn í **reitnum prentari** á beiððsíðunni. Hún fer eftir vafranum. Að forskoðun lokinni er hægt að fara aftur á beiðnisíðuna og gera breytingar á valkostum og síum eftir þörfum.
 
 Til að forskoða skýrslu skal velja hnappinn **Forskoða** eða **Forskoða og loka** á beiðnisíðu skýrslunnar. Hnappurinn sem birtist fer eftir skýrslunni, þannig að sumar skýrslur eru með hnappinn **Forskoða** á meðan aðrar eru með hnappinn **Forskoða og loka**. Báðir hnapparnir opna forskoðun á skýrslunni. Munurinn liggur í því að **Forskoðun** heldur beiðnisíðunni opinni, þannig að hægt er að fara aftur í hana, gera breytingar, forskoða aftur eða prenta. Með **Forskoða og loka** lokast beiðnisíðan, þannig að opna þarf skýrsluna aftur til að gera breytingar eða prenta.
 
@@ -84,67 +84,18 @@ Til að forskoða skýrslu skal velja hnappinn **Forskoða** eða **Forskoða og
 
 Þú getur vistað skýrslu í PDF-skjali, Microsoft Word-skjali eða Microsoft Excel-vinnublaði með því að velja hnappinn **Senda til** og svo framkvæma þitt val.
 
-### <a name="send-to-excel"></a>Senda í Excel
+### <a name="about-sending-to-excel"></a>Um að senda í Excel
 
-<!-- The following table describes the options for saving the report results as a worksheet in an Excel workbook.
+Hægt er að vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Excel til frekari greiningar. Nánari upplýsingar er að finna [í greina skýrslugögn með Excel](report-analyze-excel.md).  
+<!--
+### About sending to Word
 
-|Option  |Description  |
-|---------|---------|
-|Microsoft Excel Document (data and layout)|Export the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme. <br><br>**Note**: Some reports might export numbers as text, so it's a good idea to verify the numbers. |
-|Microsoft Excel Document (data only)|Export the report results and the criteria that was used to generate them, such as the parameters you specified on the request page, metadata, and the fields that control the layout of the printed report. Use this option when you want to do ad hoc analysis of the data or diagnose data issues in reports. For example, you can filter the data and use Power Pivot to display it.<br><br>This option exports all columns, including columns that hold formatting instructions for other values and filters. In columns that hold binary data like images, instead of actually values, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.<br><br>**NOTE** With Business Central on-premises, the Business Central Server includes a configurations setting, called **Max Data Rows Allowed to Send to Excel**. This setting limits the number of rows that can be exported to Excel. If you don't see the expected number of rows, it might be because of this setting. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.|-->
-
-Tveir valkostir eru í boði til að vista niðurstöður skýrslunnar sem vinnublað í Excel-vinnubók: **Microsoft Excel Skjal (gögn og útlit)** og **Microsoft Excel Skjal (aðeins gögn)**
-
-#### <a name="microsoft-excel-document-data-and-layout"></a>[Microsoft Excel Skjal (gögn og útlit)](#tab/data-and-layout)
-
-Þessi valkostur er aðeins í boði fyrir skýrslur sem nota RDLC-útlit. Hann flytur út niðurstöður skýrslunnar með RDLC-útlitinu sem er notað. Notaðu þennan valkost ef þú vilt flytja skýrsluna út einu sinni og vilt aðeins gera minniháttar breytingar á útliti hennar, t.d. á leturgerð og litaskema.
-
-#### <a name="microsoft-excel-document-data-only"></a><a name="exportdataonly"></a>[Microsoft Excel Skjal (aðeins gögn)](#tab/data-only)
-
-Valkosturinn **Microsoft Excel Skjal (aðeins gögn)** flytur út niðurstöður skýrslunnar og skilyrðið sem var notað til að mynda þær&mdash;en hún inniheldur ekki skýrsluútlitið. Excel-skráin mun innihalda allt gagnasafnið sem hrágögn, raðað í línur og dálka. Allir gagnadálkar í gagnasafni skýrslunnar eru innifaldir, óháð því hvort þeir eru notaðir í skýrsluútlitinu.  Notaðu þennan valkost þegar þú vilt:
-
-- Gera tilfallandi greiningu á gögnum. Til dæmis er hægt að sía gögnin og nota Power Pivot til að sýna þau.
-
-  Í hvert skipti sem þú flytur út niðurstöður er nýtt vinnublað búið til. Með því að nota valkostinn **Microsoft Excel Skjal (aðeins gögn)** er hægt að keyra sömu skýrsluna og endurnota sniðsbreytingar. Til dæmis fyrir Power Pivot geturðu keyrt skýrsluna aftur fyrir annað tímabil, afritað niðurstöðurnar í vinnublaðið og síðan uppfært vinnublaðið. Einnig er hægt að finna skýrslugerðarforrit í [AppSource](https://appsource.microsoft.com/).
-- Skoðaðu gagnasafn skýrslunnar þegar þú býrð til eða breytir sérsniðnu útlit skýrslu.
-
-  Upplýsingar um hvernig á að búa til sérsniðið skýrsluútlit er að finna í [Búa til eða breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)
-- Greina gagnavandamál í skýrslum.
-
-##### <a name="for-administrators"></a>Fyrir stjórnendur
-
-- **Microsoft Excel Skjal (aðeins gögn)** var kynnt sem valfrjáls eiginleiki í útgáfutímabili 1, uppfærslu 18.3 fyrir árið 2021. Til að veita notendum aðgang að þessum eiginleika skal virkja eiginleikauppfærsluna **Vista gagnasafn skýrslu í Microsoft Excel skjal** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management). Á útgáfutímabili 2 fyrir árið 2021 verður þessi eiginleiki varanlegur og þarf þá ekki að virkja hann.
-
-- Notendareikningar þurfa heimildina **<!--Export Report Dataset To Excel-->Leyfa aðgerð til að flytja út skýrslugagnasafn í Excel** sem hægt er að gefa með því að nota heimildasamstæðuna **Verkfæri úrræðaleitar** eða heimildasamstæðuna **Flytja út skýrslu í Excel**.  
-
-- Ekki er hægt að flytja út skýrslu sem er með fleiri en 1.048.576 línur eða 16.384 dálka.
-
-    > [!NOTE]
-    > Með Business Central á staðnum gæti hámarksfjöldi útfluttra lína verið jafnvel minni. Business Central Server inniheldur grunnstillingasafn sem kallast **Hámarksfjöldi gagnaraða sem má senda til Excel** til að minnka mörk hámarksgildisins. Frekari upplýsingar er að finna í [Skilgreining Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) eða hafa samband við stjórnanda.
-
-##### <a name="for-developers-and-advanced-users"></a>Fyrir þróunaraðila og reynslumikla notendur
-
-Valkosturinn **Microsoft Excel Skjal (aðeins gögn)** flytur út alla dálka, þ.m.t. dálka sem geyma leiðbeiningar um síur og snið fyrir önnur gildi. Hér eru nokkur áhugaverð atriði:
-
-- Tvíundargögn í reit, eins og mynd, eru ekki flutt út.
-
-  Í dálkum sem geyma tvíundargögn munu reitir innihalda textann **Tvíundargögn ({0} bæti)** þar sem **{0}** gefur til kynna fjölda bæta.
-- Frá og með útgáfutímabil 2 í Business Central 2021 mun Excel-skráin einnig innihalda vinnublaðið **Lýsigögn skýrslu**.
-
-  Þetta vinnublað sýnir síurnar sem notaðar eru í skýrslunni og almenna skýrslueiginleika eins og heiti, auðkenni og upplýsingar um viðbót. Síurnar eru sýndar í dálknum **Sía (DataItem::Table::FilterGroupNo::FieldName)**. Síurnar í þessum dálki innihalda síur sem eru stilltar á beiðnisíðu skýrslunnar. Þar eru einnig síur sem skilgreindar eru til að mynda í AL-kóða af [DataItemLink-eiginleikanum](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-reports-property) og [DataItemTableView-eiginleikanum](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property).
-
-Frekari upplýsingar um skýrsluhönnun er að finna í [Yfirlit skýrslu](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
-
----
+Use the **Microsoft Word Document** option to generate a report as a Word document.  
 
 > [!NOTE]
-> Sumar skýrslur flytja út tölur sem texta, sem kemur í veg fyrir að þú getir gert útreikninga eða notað Power Pivot í hólfunum í Excel-vinnublaðinu. Eftir útflutning er góð hugmynd að staðfesta tölurnar í vinnublaðinu. Ef gera á greiningu á tölunum og setja þær upp í graf skal breyta sniðinu á viðkomandi hólfum úr **Texta** í **Tölustafi**. Nánari upplýsingar um hvernig eigi að sníða tölur í hólfum er að finna í þessu myndbandi: [Tölur sniðnar í hólfum í Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
-### <a name="microsoft-word-document"></a>Microsoft Word Skjal
-Notið **Microsoft Word** skjalvalkostinn til að mynda skýrslu sem Word-skjal.  
-
-> [!NOTE]
-> Hægt er að tilgreina útlitið sem á að nota fyrir hverja skýrslu á **skýrsluvalsíðunni** í **völdu** útlitsvæðinu. Sjálfgefin stilling fyrir skýrslur er **RDLC (innbyggt)** sem framleiðir skýrslur í sama eða svipuðu útliti og útlit **Microsoft Word skjalsins**. Lykilmunurinn er hins vegar hvort búa eigi til eitt eða mörg skýrsluskjöl. Fyrir staka skjöl er hægt að nota RDLC (innbyggður) valkostinn. Fyrir mörg skjöl er skjalið stillt **Microsoft Word** sem sjálfgefið útlit skýrslunnar. Frekari upplýsingar, sjá [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md).
+-->
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Tímasetja keyrslu skýrslu
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 932bf57b8801c758c6bcaff4fbdad69265853487
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
-ms.translationtype: MT
+ms.openlocfilehash: c8f12e98196d8dd22ff63c73ffd3967cf256244c
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724689"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049875"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Virkjun Power BI samþættingar við [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -44,7 +44,12 @@ API-síða er sérstök tegund af síðu sem er búin til í AL-kóða sem veiti
 
 Business Central á netinu er í boði með safni af innbyggðu API sem hægt er að nota til að sækja gögn fyrir algengustu viðskiptaeiningarnar, eins og viðskiptavini, vörur, sölupantanir og margt fleira. Engin viðbótarvinna eða uppsetning er nauðsynleg til að nota þessi API sem gagnagjafa fyrir Power BI skýrslur. Frekari upplýsingar um þessi API er að finna í [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
-Business Central á netinu styður einnig sérsniðin API. Þróunaraðilar Business Central-lausna geta búið til sínar eigin API-síður og pakkað þeim í viðbætur. Hægt er að setja viðbæturnar upp í leigjanda. Þegar þær hafa verið settar upp er hægt að nota API-síðurnar fyrir Power BI skýrslurnar eins og þú myndir gera með innbyggða API (v2.0). Frekari upplýsingar um hvernig á að búa til API-síður er að finna í [Þróun á sérsniðnu API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Business Central á netinu styður einnig sérsniðin API. Þróunaraðilar Business Central-lausna geta búið til sínar eigin API-síður og pakkað þeim í viðbætur. Þú setur síðan viðaukunum á framfæri við leigjanda. Þegar upp er komin notar þú síður API fyrir Power BI skýrslurnar, eins og þú myndir gera við innbyggðan APIs (v 2.0). Frekari upplýsingar um hvernig á að búa til API-síður er að finna í [Þróun á sérsniðnu API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+> [!IMPORTANT]
+> Sem hefst í febrúar 2022, Power BI skýrslur vegna [!INCLUDE[prod_short](includes/prod_short.md)] netverslunar eru úr aukaföllum, lesnir gagnagrunnseftirmynd af sýningarástæðum. Þar af leiðandi ætti AL verktaki að forðast að hanna síður API sem gerir breytingar á gagnagrunni meðan síðurnar eru að opna eða hlaða færslum. Sérstaklega þarf að huga að kóðanum á AL-kveikjum: Onopen, OnOpenPage, Onfindmet, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord. Þessar gagnagrunnsbreytingar geta í sumum tilvikum valdið afkastavandamálum og komið í veg fyrir að skýrslan endurhressigögn. Frekari upplýsingar er að finna [í afkastamikunum greinum í þróunarhjálp fyrir forritara](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) í bransanum.
+>
+> Í einstaka tilfellum orsakar hegðunin villu þegar notandi reynir að fá gögn af API síðu fyrir skýrslu í Power BI Desktop. Ef hins vegar breytingar á gagnagrunni eru nauðsynlegar á síðunni Power BI Desktop sérsniðin API geta notendur þvingað hegðunina. Frekari upplýsingar er að finna [í byggingarskýrslum Power BI til að birta aðalgögn](across-how-use-financials-data-source-powerbi.md#fixing-problems) fyrirtækja.
 
 ### <a name="odata-web-services"></a>OData-vefþjónustur
 
@@ -91,6 +96,7 @@ Við hvert tækifæri er mælt með að nota API-síður í stað OData-vefþjó
     Áður en notendur geta notað Power BI í [!INCLUDE[prod_short](includes/prod_short.md)] verður stjórnandi Azure-forrits að veita samþykki fyrir Power BI-þjónustunni.
 
     Til að koma á fyrstu tengingunni skal opna [!INCLUDE[prod_short](includes/prod_short.md)] og keyra **Hefjast handa með Power BI** úr hlutverkamiðstöðinni. Þessi aðgerð mun leiða þig í gegnum samþykktarferlið og fara yfir Power BI-leyfið þitt. Þegar beðið er um innskráningu skal nota innskráningu með Azure-stjórnendareikningi. Frekari upplýsingar er að finna í [Tengjast við Power BI - aðeins einu sinni](across-working-with-powerbi.md#connect).
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

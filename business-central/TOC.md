@@ -483,6 +483,7 @@
 #### [Afstemma greiðslur viðskiptavinar með inngreiðslubók eða úr færslum í viðskiptamannabók](receivables-how-apply-sales-transactions-manually.md)
 #### [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)
 #### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Senda áminningar um útistandandi stöður](receivables-send-reminders.md)
 #### [Loka á viðskiptamenn](receivables-how-block-customers.md)
 #### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
@@ -1605,6 +1606,120 @@
 ##### [Prenta skýrslur úrræðaleitar](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Senda inn lögboðnar viðvaranir](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Viðskiptagreind og skýrslugerð 
+
+## [Yfirlit](reports-bi-reporting.md)
+
+## Nota skýrslur í daglegu starfi
+### [Yfirlit](reports-use-reports.md)
+### [Keyra skýrslur](ui-work-report.md)
+### [Bókamerking skýrsla](ui-bookmarks.md)
+### [Greining á skýrslugögnum með Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Prentun skýrslna](ui-specify-printer-selection-reports.md#default)
+### [Röðunarskýrslur](ui-work-report.md#ScheduleReport)
+### [Stjórnun stillinga fyrir vistaðar skýrslur](reports-saving-reusing-settings.md)
+### [Breyta útliti sjálfgefins skýrslu](ui-how-change-layout-currently-used-report.md)
+
+## Innbyggðar skýrslur
+### [Yfirlit yfir skýrslur](reports-available-reports.md)
+### Fjármál
+#### [Fjármál Analytics](bi.md)
+#### [Greina fjárhagsyfirlit með Excel](finance-analyze-excel.md)
+#### [Lykiltölur fjárhagsskýrslur](finance-reports.md)
+#### [Skýrslur viðskiptavina](receivables-reports.md)
+#### [Skýrslur lánardrottna](payables-reports.md)
+#### [Sjóðstreymis Greining](finance-setup-cash-flow-analyses.md)
+#### [Sameina Fjárhagsleg gögn frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)
+
+### Sölur
+#### [Söluskýrslu](sales-reports.md)
+#### [Staða standandi Sölupöntunarpöntunar](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Mæling á umbúðum](sales-how-track-packages.md)
+#### [Skoða óbókaðar standandi sölupöntunarlínur og bókaðar](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Innkaup
+#### [Innkaupaskýrslur](purchase-reports.md)
+#### [Skoða færslur innkaupa](ui-post-purchases.md#viewing-ledger-entries)
+
+### Birgðir og vöruhús
+#### [Skýrslur birgða og vöruhúss](inventory-wms-reports.md)
+#### [Vöruframboð](inventory-how-availability-overview.md)
+#### [Rekja vörur með rað-, lotu- og pakkanúmerum](inventory-how-work-item-tracking.md)
+#### [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)
+#### [Endurskoða afstemmingu milli Birgðafjárhags og fjárhags](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Skoða vörur sem hjáskipa eru í sendingu eða tínsluvinnublað](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Verkefni
+#### [Verkskýrslur](project-reports.md)
+#### [Skoða mat verknotkunar](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)
+
+### Eignir
+#### [Skýrslur eigna](fa-reports.md)
+#### [Eftirlit með viðhaldskostnaði](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Eftirlit með vátryggingafélögum](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Skoða breytt gildi afskriftabókar](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Skoða afskráningarfærslur](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Skoða áætluð losunargildi](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Samsetningardeild
+#### [Skýrslur þingstjórnar](assembly-reports.md)
+#### [Skoða uppbyggingu uppskriftar (BOM)](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Framleiðsla
+#### [Framleiðsluskýrslur](production-reports.md)
+#### [Skoðun álags á vinnu-og vélastöðvar](production-how-to-view-the-load-on-work-centers.md)
+#### [Færslur vinnustöðva skoðaðar](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### Þjónustukerfi
+#### [Þjónustuupplýsingar skoðaðar](service-service-statistics.md)
+#### [Yfirlit yfir þjónustupantanir](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Yfirlit Þjónustutilboða](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Yfirlit yfir bókað þjónustuskjal](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Tímabundin Gagnagreining á tilfallandi
+### [Yfirlit](reports-adhoc-analysis.md)
+### [Röðun, leit, og síun](ui-enter-criteria-filters.md)
+### [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)
+### [Greining blaðsíðugagna í Excel](across-work-with-excel.md)
+### [Greining á skýrslugögnum með Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Fjármál Analytics](bi.md)
+
+## Innbyggður Analytics 
+### [Yfirlit](reports-built-in-analytics.md)
+### [Snjöll innsýn](about-intelligent-cloud.md)
+### [Vinna með Power BI skýrslur](across-working-with-powerbi.md)
+### [Fjármál Analytics](bi.md)
+### [Greina fjárhagsyfirlit með Excel](finance-analyze-excel.md)
+### [Sameina Fjárhagsleg gögn frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)
+### [Notkun skýrslu Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Greina gögn í Viðskiptagreindarverkfærum
+### [Yfirlit](reports-external-analysis.md)
+### [Notkun Power BI með Viðskiptaseðla-](admin-powerbi.md)
+### [Greina fjárhagsyfirlit með Excel](finance-analyze-excel.md)
+### [Útdráttur gagna í vöruhús gagna eða gögn vatna](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Gögn lesin með Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Þróun skýrslna
+### [Yfirlit](reports-develop-reports.md)
+### Þróun skýrsluuppsetningar
+#### [Gerðir útlits (Word og RDLC)](ui-manage-report-layouts.md)
+#### [Búa til nýtt útlit](ui-how-create-custom-report-layout.md)
+#### [Leturgerðir notaðar í skipan](ui-fonts.md)  
+#### [Vinna með Orðskipulag](ui-how-add-fields-word-report-layout.md)
+#### [Flytja út/flytja út útlit](ui-how-import-and-export-report-layout.md)
+#### [Uppfæra útlit](ui-update-report-layouts.md)
+#### [Breyttu sjálfgefnu útliti](ui-how-change-layout-currently-used-report.md)
+### Þróa gagnasöfn með skýrslugerð
+#### [Leiðbeiningar um skýrsluþróun](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Skýrsla um árangur Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Öryggi, persónuvernd, reglufylgni
 ## Öryggi og vörn
 ### [Yfirlit yfir öryggi og varnir (aðeins enska)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.search.form: 456
+ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3379405e2d8c6c3b381caa9f4aa66191bb7a6579
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: MT
+ms.openlocfilehash: f886656262853acd34007118248a52af2184b36a
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029641"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115367"
 ---
 # <a name="create-number-series"></a>Stofnun númeraraða
 
@@ -24,7 +24,7 @@ Fyrir hvert fyrirtæki sem þú setur upp þarftu að úthluta einstökum kennit
 
 > [!Important]
 > Sjálfgefið er að eyður er ekki leyfð í númeraröðum vegna þess að nákvæmlega Ferill fjárhagsfærslna verður að vera tiltækur fyrir endurskoðun, samkvæmt lögum, og því verður að fylgja óbrotinn röð með engum Eydd númer.<br /><br />
-> Ef þú vilt leyfa eyður í tilteknum númeraröðum skaltu fyrst ráðfæra þig við endurskoðanda eða aðalbókara til að tryggja að þú farir eftir lagalegum skilyrðum í þínu landi/svæði. Nánari upplýsingar er að finna [í eyðurnar í númeraröðinni](#gaps-in-number-series).
+> Ef þú vilt leyfa eyður í tilteknum númeraröðum skaltu fyrst ráðfæra þig við endurskoðanda eða aðalbókara til að tryggja að þú farir eftir lagalegum skilyrðum í þínu landi/svæði. Nánari upplýsingar er að [finna í eyðurnar í númeraröðinni](#gaps-in-number-series).
 
 > [!NOTE]  
 > Við mælum með að þú notir sömu númeraraða kóða eins og þú sérð skráða á síðunni **nr. Raðarlisti** í CRONUS sýnifyrirtækinu. Codes eins og *P-INV +* gætu ekki skilað þér strax, en [!INCLUDE[prod_short](includes/prod_short.md)] hefur marga sjálfgefna stillingar sem eru háð þessum númeraröðakóðum.
@@ -41,7 +41,7 @@ Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagn
 ## <a name="gaps-in-number-series"></a>Eyður í númeraröðum
 Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_short.md)] eru fjárhagsfærslur sem þarf að nota í röð númeraraðar. Viðskiptamannaspjald, sölutilboð og vöruhúsaaðgerðir eru dæmi um færslur sem eru úthlutaðar númeri úr númeraröðum en eru ekki háðar fjárhagsendurskoðun og/eða er hægt að eyða þeim. Til slíkrar númeraraðar er hægt að velja **Leyfa eyður í númeraröðum** í gátreitnum á síðunni **Númeraröð nr.**. Einnig er hægt að breyta þessari stillingu eftir að búið er að stofna númeraröðina. Frekari upplýsingar eru í [Búa til nýja númeraröð](ui-create-number-series.md#to-create-a-new-number-series).
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Hegðun nr. reitur á skjölum og kortum
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Hegðun nr. Reitur á skjölum og kortum
 Á sölu-, innkaupa og flutningsskjölum og á öllum kortum, **Nr.** hægt að fylla út sjálfkrafa með númeraröð eða handvirkt og hægt er að setja það upp svo það verði ósýnilegt.
 
 **númer** reitinn má fylla út á þrjá vegu:
@@ -61,22 +61,22 @@ Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_sh
 > Ef þú þarft að virkja handvirka númerun á til dæmis nýjum birgðaspjöldum sem hafa verið stofnuð með gagnaflutningsferli sem hefur falið **Nr.** sjálfgefið, þá er farið á síðuna **Uppsetning birgða** og valinn reiturinn **Vörunr.** til að opna og stilla tengda númeraröð á **Handfærð nr.röð**.
 
 ## <a name="to-create-a-new-number-series"></a>Til að búa til nýja númeraröð
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Númeraraðir** og velja síðan viðkomandi tengil.
-2. Valið er aðgerðin **Nýtt**.
-3. Fyllt er í reitina í nýju línunni. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Veljið aðgerðina **Línur**.
-5. Á síðunni **Númeraraðarlínur nr.** fyllið inn reitina til að skilgreina raunnotkun og innihald númeraraðarinnar sem var stofnuð í skrefi 2.
-6. Endurtakið skref 5 fyrir sem margar mismunandi notkun á númeraröðinni sem þörf er á. Reiturinn **Upphafsdagsetning** skilgreinir svæðið sem númeraröðin er virk.
+2. Valið er aðgerðin **Nýtt**.  
+3. Fyllt er í reitina í nýju línunni. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Veljið aðgerðina **Línur**.  
+5. Á síðunni **Númeraraðarlínur nr.** fyllið inn reitina til að skilgreina raunnotkun og innihald númeraraðarinnar sem var stofnuð í skrefi 2.  
+6. Endurtakið skref 5 fyrir sem margar mismunandi notkun á númeraröðinni sem þörf er á. Reiturinn **Upphafsdagsetning** skilgreinir svæðið sem númeraröðin er virk.  
 
-## <a name="to-set-up-where-a-number-series-is-used"></a>Til að setja upp hvar númeraröð er notuð
-Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölustaðinn. Skrefin eru svipuð fyrir önnur svæði.
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptakröfur og viðskiptaskuldir** og velja svo viðeigandi tengil.
-2. Á síðunni **Sala**, í **Númeraröð**, veldu viðkomandi númeraröð fyrir hvert sölukort eða skjal.
+> [!TIP]
+> Til að leyfa notendum að tilgreina númer handvirkt þegar þeir skrá nýjan viðskiptavin eða lánardrottinn, til dæmis, **er reiturinn handvirkt nr.** í númeraröðinni. Til að afnema handvirka númerið hreinsast svæðið.
 
-Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkomandi korti eða skjali, í samræmi við þær stillingar sem þú gerðir á númeraröðinni.
+Hægt er að úthluta númeraröðinni á sniðmátin sem eru sett upp fyrir mismunandi gerðir viðskiptavina og lánardrottna sem sölumennirnir og innkaupaaðilar bætast oftast við [!INCLUDE [prod_short](includes/prod_short.md)]. Í þeim tilvikum skal setja upp viðeigandi númeraröð, tengja þau í gegnum sambönd og bæta síðan við fyrstu númeraröðinni í viðkomandi sambandi á uppsetningarsíðu viðkomandi.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Stofnun tengsla milli númeraraða
-Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað.
+
+Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað. Þegar samband er sett upp milli flokkarnúmeraraðar er öll tengd röð tengd við einn númerararkóta. Síðan er hægt að færa kótann í reit á **flipanum Tölusetning** fastflipa á einni af viðeigandi uppsetningarsíðu, svo sem **söluuppsetningu &**.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Númeraraðir** og velja síðan viðkomandi tengil.
 2. Velja skal línuna með númeraröðinni sem á að stofna tengsl við. og veljið síðan **Tengsl**.
@@ -85,6 +85,17 @@ Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund g
 5. Lokaðu síðunni.
 
 Þegar eitthvað er sett upp eftir þetta sem þarfnast númers er hægt að nota tengslin sem voru stofnuð til að velja úr skyldum númeraröðum.
+
+## <a name="to-set-up-where-a-number-series-is-used"></a>Til að setja upp hvar númeraröð er notuð
+
+Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölustaðinn. Skrefin eru svipuð fyrir önnur svæði.  
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptakröfur og viðskiptaskuldir** og velja svo viðeigandi tengil.
+2. Á síðunni **Sala**, í **Númeraröð**, veldu viðkomandi númeraröð fyrir hvert sölukort eða skjal.
+
+Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkomandi korti eða skjali, í samræmi við þær stillingar sem þú gerðir á númeraröðinni.  
+
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 

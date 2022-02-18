@@ -1,6 +1,6 @@
 ---
 title: Innheimta útistandandi skuldir
-description: Lækar hvernig skal senda innheimtubréf til viðskiptamanns varðandi gjaldfallinnar greiðslu og bæta kostnaði eða þóknun við greiðsluna vegna tafarinnar.
+description: Lærðu að minna viðskiptavini á útistandandi greiðslur. Senda skal viðskiptavin yfirlit, gefa út innheimtubréf eða senda vaxtareikning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2021
+ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 2c3e4bc2b75133b0a46d3d5746841d6caf76589c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: MT
+ms.openlocfilehash: 3002a343128feaf6035ea8e72cddc0e713ad5cc0
+ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971653"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "8105725"
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
 
@@ -29,7 +29,7 @@ Hægt er að nota áminningar til að minna viðskiptamenn á gjaldfallnar upph�
 
 ### <a name="to-send-the-customer-statement-report"></a>Til að senda yfirlitsskýrslu viðskiptamanns
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Yfirlit viðskiptavinar** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 10.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Yfirlit viðskiptavinar** og velja síðan viðkomandi tengil.
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Undir **úttaksvalkostir**, skal velja hvernig eigi að senda skýrslunnar til viðskiptamanns.
 
@@ -38,82 +38,7 @@ Hægt er að nota áminningar til að minna viðskiptamenn á gjaldfallnar upph�
 
 ## <a name="reminders"></a>Innheimtubréf
 
-Áður en hægt er að stofna áminningar þarf að setja upp skilmála áminninga og tengja þá við viðskiptamenn. Frekari upplýsingar eru í [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] Innihald síðunnar **Vaxtaskilmálar** ákveður hvort vextir eru reiknaðir í áminningunni.  
-
-Hægt er að keyra reglulega keyrsluna **Stofna innheimtubréf** til að stofna áminningar fyrir alla viðskiptamenn með gjaldfallnar skuldir eða stofna áminningu handvirkt fyrir einstaka viðskiptamenn og láta reikna línurnar og fylla þær út sjálfvirkt.  
-
-Þegar búið er að stofna áminningarnar er hægt að breyta þeim. Textinn sem birtist í upphafi og í lok áminningar ræðst af áminningarstiginu og hægt er að sjá hann í dálknum **Lýsing**. Ef reiknuð upphæð hefur verið sett inn sjálfvirkt í upphafs- eða lokatextann verður textinn ekki leiðréttur ef línunum er eytt. Þá verður að nota aðgerðina **Uppfæra áminningu**.  
-
-Viðskiptamannsfærsla með reitinn **Bið** útfylltan leyfir ekki stofnun áminningar. En ef áminning er stofnuð á grunni annarrar færslu verður gjaldfallin færsla merkt í bið einnig höfð með í áminningunni. Vextir eru ekki reiknaðir á línur með þessum færslum.
-
-Þegar búið er að stofna áminningar, og breyta þeim ef þarf, er hægt að prenta prufuskýrslur eða senda áminningarnar, vanalega sem tölvupóst.
-
-### <a name="to-create-a-reminder-automatically"></a>Innheimtubréf búin til sjálfvirkt:
-
-Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að fylla út innheimtuhaus ásamt einni eða fleiri innheimtulínum. Þú getur notað aðgerð til að stofna innheimtubréf fyrir alla viðskiptamenn sjálfvirkt.
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innheimtubréf** og velja síðan viðkomandi tengil.
-2. Á síðunni **Innheimtubréf**, skal velja aðgerðina **Stofna innheimtubréf**.
-3. Á síðunni **Stofna innheimtubréf** fyllið út reitina til að skilgreina hvernig og til hvaða aðila innheimtubréfin skulu stofnuð.
-4. Velja hnappinn **Í lagi**.
-
-### <a name="to-create-a-reminder-manually"></a>Innheimtubréf búin til handvirkt:
-
-Á síðunni **Innheimtubréf** geturðu fyllt í flýtiflipann **Almennt** handvirkt og svo látið fylla í línurnar sjálfvirkt.
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innheimtubréf** og velja síðan viðkomandi tengil.
-2. Valið er aðgerðin **Nýtt**.
-3. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**.
-4. Veljið aðgerðina **Leggja til innheimtubr.línur**.
-5. Í runuvinnslunni **Leggja til innheimtubr.línur** skal fylla út reitina til að skilgreina hvernig og til hvaða aðila innheimtubréfin skulu stofnuð.
-6. Veljið gátreiturinn **Taka færslur í bið með** ef á áminningum eiga að birtast opnar færslur gjaldfallnar í bið.
-7. Veldu gátreitinn **Aðeins færslur með gjaldföllnum upphæðum** ef þú vilt að áminningarnar innihaldi aðeins opnar færslur sem eru komnar fram yfir á tíma. Aðeins reikningar og greiðslur verða sýndar þar sem þetta eru færslurnar þar sem greiðslur viðskiptamanna kunna að vera gjaldfallnar.
-
-    > [!Important]
-    > Opnar færslur sem eru á bið verða settar inn, þrátt fyrir stillingar í gátreitur **Aðeins færslur með gjaldföllnum upphæðum**.
-
-8. Velja hnappinn **Í lagi**.
-
-### <a name="to-replace-reminder-texts"></a>Texta innheimtubréfs skipt út.
-
-Nokkrar leiðir eru í boði til að ákvarða hvaða texti birtist á prentuðu innheimtubréfi. Í einstaka tilvikum gæti þurft að skipta út byrjunar- og endatexta gildandi stigs með texta af öðru stigi.
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innheimtubréf** og velja síðan viðkomandi tengil.
-2. Opna skal viðeigandi innheimtubréf, og síðan velja **uppfæra innheimtubréf texti** aðgerðina.
-3. Á síðunni **uppfæra innheimtubréf texti** er fært inn stigið sem óskað er eftir í reitnum **Stig innheimtubréfs**.
-4. Velja hnappinn **Í lagi** til að uppfæra byrjunar- og endatexta.
-
-### <a name="to-issue-a-reminder"></a>Gefa út innheimtubréf
-
-Þegar búið er að stofna áminningar, og breyta þeim ef þarf, er hægt að prenta prufuskýrslur eða senda áminningarnar.
-
-Þegar áminning er send eru gögnin flutt á sérstaka síðu fyrir sendar áminningar. Um leið eru áminningarfærslurnar bókaðar. Ef vextir eða viðbótarkostnaður hefur verið reiknaður eru færslur bókaðar í viðskiptamannabók og á fjárhag.
-
-Þegar innheimtubréf er sent bókar kerfið færslur eftir því sem var tilgreint á síðunni **Skilmálar innheimtubréfa**. Þessi staðall ákvarðar hvort vextir og/eða viðbótargjöld séu bókuð á reikning viðskiptamanns og fjárhag. Uppsetning á síðunni **Bókunarflokkar viðskiptavinar** ákvarðar á hvaða reikninga er bókað.
-
-Fyrir hverja fjárhagsfærslu viðskiptamanns á vaxtareikning, er stofnuð færsla á síðunni **Innheimtubréf/vaxtafærslur**.
-
-Ef gátreitirnir **Bóka vexti** og **Bóka viðbótargjöld** eru valdir á síðunni **Skilmálar innheimtubréfs**, eru eftirfarandi færslur einnig stofnaðar:
-
-- Ein færsla á síðunni **Fjárhagsfærslur viðskiptamanna**
-- Ein útistandandi færsla í viðeigandi fjárhagsreikningi
-- Ein vaxta- og/eða viðbótargjaldsfærsla í viðeigandi fjárhagsreikningi
-
-Að auki getur sending innheimtubréfs leitt af sér VSK-færslur.
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innheimtubréf** og velja síðan viðkomandi tengil.
-2. Velja skal viðeigandi innheimtubréf, og síðan velja **Senda út** aðgerðina.
-3. Á síðunni **Senda út innheimtubréf** þarf að fylla reitina út eftir þörfum.
-4. Velja hnappinn **Í lagi**.
-
-Innheimtubréfið er annað hvort prentað út eða sent á tiltekið netfang sem PDF viðhengi.
-
-### <a name="to-cancel-an-issued-reminder"></a>Hætta við útgefið innheimtubréf
-
-Ef innheimtubréf voru gefin út fyrir mistök er hægt að hætta við þau áður en þau eru send út. Þetta er hægt að gera annaðhvort fyrir hvert bréf fyrir sig eða í lotu.
-
-1. Á síðunni **Send innheimtubréf** skal velja eina eða fleiri línu fyrir send innheimtubréf sem á að hætta við og velja svo aðgerðina **Hætta við**.
-2. Á síðunni **Hætta við útgefnar áminningar** skal fylla út reitina eftir þörfum og velja síðan hnappinn **Í lagi**.
+[!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
 ## <a name="finance-charges"></a>Vextir
 
@@ -134,7 +59,7 @@ Hægt er að stofna vaxtareikning fyrir einstakan viðskiptamann og fylla línur
 
 Vaxtareikningur er svipaður reikningi. Hægt er að fylla hausinn út handvirkt og línurnar sjálfvirkt, eða stofna vaxtareikninga sjálfkrafa fyrir alla viðskiptamenn.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vaxtareikningar** og velja síðan viðkomandi tengil.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vaxtareikningar** og velja síðan viðkomandi tengil.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur.  
 3. Velja aðgerðina **Leggja til vaxtareikn.línur**.
 4. Á síðunni **Tillaga vaxtareikningur línur**, skal sett afmörkun á flýtiflipanum **Viðskm.færsla** eigi aðeins að búa til vaxtareikninga fyrir tilteknar færslur.
@@ -146,7 +71,7 @@ Vaxtareikningur er svipaður reikningi. Hægt er að fylla hausinn út handvirkt
 ### <a name="to-update-finance-charge-memo-texts"></a>Vaxtatexti uppfærður  
 Í einhverjum tilfellum gæti þurft að breyta upphafs- og lokatextanum sem settur er upp fyrir vaxtaskilmálana. Ef það er gert eftir að vaxtareikningar hafa verið stofnaðir, en ekki sendir, er hægt að uppfæra reikningana með nýja textanum.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vaxtareikningur** og velja síðan viðkomandi tengil.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vaxtareikningur** og velja síðan viðkomandi tengil.  
 2. Opna vaxtareikninginn sem þú vilt breyta textanum í, og velja síðan aðgerðina **Uppfæra vaxtatexta**.
 3. Á síðunni **Uppfæra vaxtatexta** er hægt að setja afmörkun eigi að uppfæra marga vaxtareikninga.
 4. Velja hnappinn **Í lagi** til að uppfæra byrjunar- og endatexta.  
@@ -166,7 +91,7 @@ Ef gátreitirnir **Bóka vexti** og **Bóka viðbótargjöld** eru valdir á sí
 
 Að auki getur sending vaxtareikningur leitt af sér VSK-færslur.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vaxtareikningar** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vaxtareikningar** og velja síðan viðkomandi tengil.
 2. Velja skal viðeigandi reikning og síðan velja **Senda út** aðgerðina.
 3. Á síðunni **Senda út vaxtareikninga** þarf að fylla reitina út eftir þörfum.
 4. Velja hnappinn **Í lagi**
@@ -180,13 +105,13 @@ Ef vaxtareikningar voru gefnir út fyrir mistök er hægt að hætta við þá �
 
 ### <a name="to-view-reminder-and-finance-charge-entries"></a>Innheimtubréfa- og vaxtafærslur skoðaðar:  
 Þegar innheimtubréf er sent er innheimtubréfafærslu búin til á síðunni **Innheimtubréf/Vaxtafærsla** fyrir hverja innheimtubréfslínu sem inniheldur viðskiptamannafærslu. Hægt er að fá yfirlit yfir færslur innheimtubréfa fyrir ákveðinn viðskiptamann.    
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 5.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.  
 2. Opna skal viðeigandi viðskiptamannaspjald og veljið síðan aðgerðina **fjárhagsfærslur**.
 3. Á síðunni **Færslur í viðskiptamannabók** er smellt er á línuna með bókarfærslunni sem á að skoða innheimtubréfafærslur fyrir og síðan er smellt á **Innheimtubréf/Vaxtafærslur**.
 
 ## <a name="multiple-interest-rates"></a>Margir vextir
 
-[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Frekari upplýsingar er að finna í [Setja upp marga Vaxtartaxta](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Frekari upplýsingar er að finna [í setja upp marga Vaxtartaxta](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

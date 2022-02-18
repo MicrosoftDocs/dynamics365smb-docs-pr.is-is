@@ -1,5 +1,5 @@
 ---
-title: Flytja inn margar Vörumyndir úr ZIP-skrá
+title: Margar vörumyndir fluttar inn úr ZIP-skrá
 description: Til að flytja inn margar myndir af vörum skaltu gefa myndaskrám nafn sem samsvarar vörunúmerunum þínum, þjappaðu þeim í ZIP-skrá og notaðu síðan síðuna Flytja inn vörumyndir.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,15 +11,15 @@ ms.search.keywords: product, image
 ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 81e628a80fe170789bb174cd393842bdf2db9af5
-ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
-ms.translationtype: MT
+ms.openlocfilehash: 5a43d696eab27a72c9f9b3c224d08feb9e99ccf4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7975019"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059675"
 ---
 # <a name="import-multiple-item-pictures"></a>Flytja inn margar vörumyndir
- Hægt er að flytja inn margar vörumyndir í einu. Gefðu einfaldlega myndaskránum þínum heiti sem samsvarar vörunúmerunum þínum, þjappaðu þeim í zip-skrá og notaðu síðan síðuna fyrir innflutning á vörumyndum til að stýra því hvaða vörumyndir á að flytja inn.
+Hægt er að flytja inn margar vörumyndir í einu. Gefðu einfaldlega myndaskránum þínum heiti sem samsvarar vörunúmerunum þínum, þjappaðu þeim í zip-skrá og notaðu síðan síðuna fyrir innflutning á vörumyndum til að stýra því hvaða vörumyndir á að flytja inn.
 
 Öll helstu skráarsnið eru studd.
 

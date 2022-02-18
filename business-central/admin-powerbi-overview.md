@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9ce0b5232a0629bb6248eaaaade69b7c7ebceb02
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6260edff16c0d9123d389f59f0d035b2e87766b4
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012342"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049512"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,7 +48,9 @@ Eftirfarandi tafla lýsir tiltækum eiginleikum.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] samþættist við Power BI í gegnum tengil með OData. Gagnagjafi fyrir Power BI-skýrslur kemur fyrir sem API-síður og OData-vefþjónustur.
 
-![Power BI högun fyrir samþættingu við Business Central.](./media/power-bi-architecture.png)
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Mynd Alt texti." lightbox="./media/power-bi-architecture.png":::
+
+Sem hefst í febrúar 2022, Power BI skýrslur vegna netbeinis úr aukafall, lesefni um [!INCLUDE[prod_short](includes/prod_short.md)] gagnagrunn skv. Gagnagrunneftirmeðferð er hluti af [lestrarkvarða](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) hæfileiki í [!INCLUDE[prod_short](includes/prod_short.md)] nettengingum. Þessi Skilgreining losar aðalgagnagrunn fyrir færslur, sem eykur afköst kerfisins. Tenging við eftirmynd ritvarðar gagnagrunns er óaðskiljanlegur hluti af veftenginu miðlægt og krefst engra auka uppsetningar á hlutanum. Allar nýjar skýrslur munu tengjast ritgagnasafninu sem er sjálfgefið. Eldri skýrslur munu enn nota aðalgagnagrunninn. Nánari upplýsingar eru [í Business Central 2021 Wave 2 áætlun](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
 ## <a name="general-flow"></a>Almennt flæði
 

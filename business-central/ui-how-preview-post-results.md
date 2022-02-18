@@ -1,8 +1,6 @@
 ---
-title: Forskoða færslur áður en þú bókar skjöl eða færslubók | Microsoft Docs
+title: Forskoða færslur áður en skjal eða færslubók er bókuð
 description: Þú getur gengið úr skugga um að færslur fyrir skjöl og færslubækur séu réttar áður en þær eru bókaðar í fjárhag.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: fc137cb8c45d935be28d5ededc435d2d4648f8bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3392698c48cd4d1febdf1e37d396ceed1ac37bf5
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441045"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101504"
 ---
 # <a name="preview-posting-results"></a>Forskoða Bókunarniðurstöður
 Á hverju skjali og færslubók sem er hægt að bóka, geturðu valið **forskoða bókun** hnappinn til að Yfirfara ólíkar færslugerðir sem verða stofnaðar þegar fylgiskjal eða færslubók er bókuð.

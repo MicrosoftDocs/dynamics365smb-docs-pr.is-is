@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2631307db3975eeb406662caac2edf2f9d83238c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323719"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101453"
 ---
 # <a name="application-compliance"></a>Reglufylgni forrits
 
@@ -77,7 +77,6 @@ Skila samþættum upplýsingar, samræmdum ferlum og verkfæri sem auðvelt er a
 - Spara tíma þegar þú býrð til staðlaðar skýrslur sem nota algengar viðskiptafæribreytur og skilyrði til að fullnægja dæmigerðum skýrslugerðarþörfum, allt frá samantekt pantana til aldursgreiningar viðskiptakrafa.
 - Framkvæma flóknar yfirferðir með einfaldri eða ítarlegri aðgerð viðskiptagreiningar.
 - Búa til sérsniðnar skýrslur og sýna í vöru og með því að nýta samþættingu við Microsoft PowerBI.
-- Hraða sendingu fjárhagsupplýsinga til viðskiptavina, hluthafa, eftirlitsstofnana og almennings með XBRL-skjölum sem byggjast á XML sem styðja við skipti á fjárhagsupplýsingum yfir mismunandi hugbúnaði og tækni, þ.m.t. internetinu.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Hjálpa til við að tryggja skýra slóð færslna
 

@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 04/01/2021
+ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d51e1657d6c28581a49af9b65b7bee8a27baa57f
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971094"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049667"
 ---
 # <a name="set-up-and-report-intrastat"></a>Setja upp og skrá Intrastat
 
@@ -28,10 +28,14 @@ ms.locfileid: "7971094"
 * **Uppsetning Intrastat**: Uppsetningarsíða Intrastat er notuð til að virkja skýrslugerð intrastat og setja á sjálfgefnar stillingar fyrir hana. Hægt er að tilgreina hvort eigi að gefa Intrastat-skýrslu um afhendingum (sendingum), kvittunum (komum) eða bæði, háð mörkum sem staðbundnar reglugerðir segja til um. Einnig er hægt að setja á sjálfgefnar færslugerðir fyrir venjuleg fylgiskjöl eða fylgiskjöl vöruskila, notaðar samkvæmt einkennum skýrslugerðar fyrir færslur.
 * **Sniðmát Instrastatbókar**: Nauðsynlegt er að setja upp sniðmát og keyrslur Intrastatbókarinnar sem notaðar verða. Þar sem Intrastat-skýrslugerð er framkvæmd mánaðarlega verður að stofna 12 intrastatbókarkeyrslur sem miðast við sama sniðmát.  
 * **Vörukóði**: Tolla- og skattyfirvöld hafa sett fram númerakóða sem flokka vörur og þjónustu. Þú tiltekur þessa kóða á vörum.
-* **Eðliskóðar færslu**: Lönd og svæði hafa ólíka kóða fyrir tegundir Instrastat viðskipti, eins og venjuleg innkaup og sala, skipti á skilavörum, og skipti á vörum sem ekki hefur verið skilað. Setja upp alla kóða sem eiga við í þínu landi/svæði. Þú notar þessa kóða í sölu- og innkaupaskjölum, og þegar þú vinnur vöruskil.  
+* **Eðliskóðar færslu**: Lönd og svæði hafa ólíka kóða fyrir tegundir Instrastat viðskipti, eins og venjuleg innkaup og sala, skipti á skilavörum, og skipti á vörum sem ekki hefur verið skilað. Setja upp alla kóða sem eiga við í þínu landi/svæði. Þú notar þessa kóða í sölu- og innkaupaskjölum, og þegar þú vinnur vöruskil. 
+
+    > [!NOTE]
+    > Byrjar í janúar 2022 Intrastat krefst mismunandi kóða færslu fyrir sendingar til einka einstaklinga eða VSK skráðra fyrirtækja og VSK skráðra fyrirtækja. Til samræmis við þessa kröfu er mælt með því að endurskoða og/eða bæta við nýjum náttúrukóðum í **færslugerðunum** síða accoridng til að uppfylla kröfur í þínu landi. Skoða skal Als-og uppfæra **reitinn Félagagerð** fyrir einstaklinga *sem eru EINSTAKIR eða ekki VSK-skráðir viðskiptamenn í viðkomandi* viðskiptavinasíðu **·**. Ef þú ert ekki viss um rétta félagagerð eða færslugerð sem á að nota, mælum við með að þú spyrjir sérfræðing á þínu landi eða svæði. 
+ 
 * **Flutningsmáti**: Það eru sjö einstölu kóðar fyrir Intrastat flutningsmáta. **1** fyrir sjóleið, **2** fyrir lest, **3** fyrir akstur, **4** fyrir flug, **5** fyrir póstsendingar, **7** fyrir fastar uppsetningar, og **9** fyrir eigin knúningsafl (til dæmis, flytja bíl með því að aka honum). [!INCLUDE[prod_short](includes/prod_short.md)] fer ekki fram á þessa kóða, en við mælum engu að síður með því að lýsingarnar beri með sér svipaða merkingu.  
 * **Viðskiptalýsingar**: Nota þær til að drýgja lýsingarnar af gerð viðskiptanna.  
-* **Upprunaland** : notað er tveggja-BÓKSTAFUR ISO alfa kóðar fyrir landið þar sem góan var fengin eða framleidd. Ef góðkunni var framleitt í fleiri en einu landi, þá var upprunaland í landinu þar sem það var verulega unnið. 
+* **Upprunaland**: notað er tveggja-BÓKSTAFUR ISO alfa kóðar fyrir landið þar sem góan var fengin eða framleidd. Ef góðkunni var framleitt í fleiri en einu landi, þá var upprunaland í landinu þar sem það var verulega unnið. 
 * **VSK-númer kennitölu félagasamfélags í aðildarríkinu innflutnings** : Þetta er VSK-kennitala rekstraraðila í aðildarríkinu í innflutningi. VSK-ID er einnig notað í skiptum innan ESB-útflutningsgagna meðal aðildarríkja og gerir aðildarríkjum kleift að ráðstafa mótteknum gögnum til innflutningsfyrirtækja í eigin landi. Tilkynningarskyldir aðilar verða að tilkynna um VSK-AUÐKENNI félagsins sem lýsti innan sambandsins kaupum á vörum í aðildarríkinu vegna innflutnings. 
 
 > [!NOTE]
@@ -68,7 +72,7 @@ Hægt er að flytja færsluna út í skrá sem þú getur sent til Instrat yfirv
 Í sumum löndum, eins og Spáni og Bretlandi, krefjast yfirvöld að Intrastatskýrslur innihaldi til dæmis sendingaraðferðina fyrir kaup eða nokkur önnur gildi þegar salan er yfir ákveðnum mörkum. Á síðunni **Uppsetning Intrastat** getur þú valið að gera **Uppsetning Instrastat-gátlista** til að setja skyldureiti í **Intrastatbók** síðuna .
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning Intrastat** og velja síðan viðkomandi tengil.
-2. Velja skal **Uppsetningaraðgerð fyrir intrastatlista**.
+2. Velja skal Uppsetningaraðgerð **fyrir** intrastatlista.
 3. Á síðunni **Uppsetning Intrastat-gátlista**, smelltu á **Reitarheiti** til að ná Intrastat skýrslureit sem þú vilt gera skyldu að fylla út.
 
 ### <a name="czechia"></a>Tékkland
@@ -110,7 +114,19 @@ Eftir að þú hefur fyllt út Intrastatbókina geturðu keyrt aðgerðina **Gá
 Keyrslan sækir allar birgðafærslur á upplýsingatímabilinu og setur þær inn í Intrastatbókina sem línur. Hægt er að breyta línunum ef þörf er á.  
 
 > [!IMPORTANT]  
-> Keyrslan sækir aðeins þær færslur sem eru með lands-/svæðiskóða og fengið hafa Intrastatkóða á síðunni **Lönd/svæði**. Þess vegna er brýnt að færa inn Intrastatkóta fyrir lands-/svæðiskótana sem keyrslan er fyrir.  
+> Keyrslan sækir aðeins þær færslur sem eru með lands-/svæðiskóða og fengið hafa Intrastatkóða á síðunni **Lönd/svæði**. Þess vegna er brýnt að færa inn Intrastatkóta fyrir lands-/svæðiskótana sem keyrslan er fyrir. Keyrslan stillir **VSK-kenni** samstarfsins á *qv 999999999999* fyrir einstaklinga eða skráð fyrirtæki í einkaeigu (viðskiptamenn með **reitinn félagagerð** stillt á *einstakling*) og notar gildið **í reitnum Tegund** traðslu í bókuðu birgðafærslu eða verkfærslu. 
+
+### <a name="to-modify-intrastat-journals-lines"></a>Intrastat-færslubókarlínum breytt
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Intrastatbók** og velja síðan viðkomandi tengil.  
+2. Á **Intrastat bók** síðunni, í reitnum **Heiti keyrslu** skal velja viðeigandi færslubókarkeyrslu og velja því næst hnappinn **Í lagi**.  
+3. Notandasúðan til að sía Intrastat-línur sem byggðar eru á sumum skilyrðum. Til dæmis, sía á **svæði fyrir VSK-auðkenni** félaga með gildið *qv 999999999999*.
+4. Velja **samnýta** tákn ![samnýta síðu í öðru forriti.](media/share-icon.png) Og velja **Edit í Excel**
+5. Í Excel er breyta intrastatbókarlínum sem síað er út. Til dæmis er gildum fyrir svæðisgerð færslugerða **breytt**.  
+6. Birta skal þær breytingar sem gerðar hafa verið á Excel aftur til[!INCLUDE[prod_short](includes/prod_short.md)]
+
+> [!Note]
+> Í [!INCLUDE[prod_short](includes/prod_short.md)] útgáfum sem ekki styðja [**Edit í Excel**](across-work-with-excel.md#edit-in-excel) fyrir færslubækur er hægt [að stofna skilgreiningarpakka](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) til að flytja út og flytja inn intrastatbókarlínur í Excel. 
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Senda Intrastat-skýrslu á eyðublaði eða sem skrá
 

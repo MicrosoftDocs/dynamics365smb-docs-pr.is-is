@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a511cc2496d32f2feee7c684d073395db2ef8c5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cd9ca9b1b3aac2f1c531090342d5c43bfa64943e
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445627"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059883"
 ---
 # <a name="trace-item-tracked-items"></a>Rekja vöruraktar vörur
 Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hvenær hún var fengin eða framleidd, millifærð, seld, notuð eða henni skilað. Einnig er hægt að finna öll núverandi tilvik af tilteknu rað- eða lotunúmeri í gagnagrunninum. Þetta er gert með því að nota vörurakningu og eiginleikann [Finna færslur](ui-find-entries.md).  
@@ -32,25 +33,25 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörurakning** og velja síðan viðkomandi tengil.  
 2.  Í afmörkunarreitunum efst á síðunni skal færa inn tiltekið vörunúmer eða afmörkun á vörunúmerum sem á að rekja.  
-3.  Í reitnum **Sýna íhluti** er valið hvort ætlunin sé einnig að sjá hvaðan íhlutirnir fyrir vörurnar komu. Valkostirnir í reitnum eru sem hér segir.  
+3.  **Í reitnum Sýna íhluti** er valið hvort einnig á að sjá hvar íhlutir úr vörunum komu. Eftirfarandi tafla lýsir valkostunum.  
 
     |Svæði|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Nr**|Þessi valkostur er valinn ef ætlunin er ekki að sjá neina íhluti.|  
-    |**Vara-eingöngu rakin**|Þessi valkostur er valinn ef ætlunin er að sjá eingöngu þá íhluti sem hafa lotu- eða raðnúmer.|  
-    |**ALLT**|Þessi valkostur er valinn ef ætlunin er að sjá alla íhlutina.|  
+    |**Nr**|Ekki sýna íhluti.|  
+    |**Vara-eingöngu rakin**|Sýna aðeins íhluti sem hafa lotunúmer eða raðnúmer.|  
+    |**Allt**|Sýna alla íhluti.|  
 
-4.  Í reitnum **Rakningaraðferð** er valin sú aðferð sem nota á til að rekja vöruna. Valkostirnir eru eftirfarandi  
+4.  **Í reitnum Rakningaraðferð** er valin aðferðin sem nota á til að rekja vöruna. Eftirfarandi tafla lýsir valkostunum.  
 
     |Svæði|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Notkun->Uppruni**|Þessi aðferð rekur vöruna frá því hvar hún var notuð til þess hvaðan hún kom. Til dæmis, ef framleidd vara var seld til viðskiptavinar, sýnir síðan **Vörurakning** þetta fyrst með söluafhendingarlínunni sem er síðan hægt að stækka til að sjá frá hvaða framleiðslupöntun hún kom.|  
-    |**Uppruni->Notkun**|Þessi aðferð rekur vöruna frá því hvar hún kom inn í birgðir til þess hvar hún var notuð. Til dæmis, ef framleidd vara var seld til viðskiptavinar, sýnir síðan **Vörurakning** þetta fyrst með tilbúinni framleiðslupöntun, sem er síðan hægt að stækka til að sjá söluafhendingarlínur þar sem varan var notuð.|  
+    |**Notkun->Uppruni**|Rekja atriðið hvaðan það var notað hvaðan það kom. Til dæmis, ef framleidd vara var seld til viðskiptavinar, sýnir síðan **Vörurakning** þetta fyrst með söluafhendingarlínunni sem er síðan hægt að stækka til að sjá frá hvaða framleiðslupöntun hún kom.|  
+    |**Uppruni->Notkun**|Rekja atriðið sem það kom á í birgðum þar sem það var notað. Til dæmis, ef framleidd vara var seld viðskiptamanni, **sýnir vörurakningarsíðan** þetta með tilbúnu framleiðslupöntuninni fyrst, sem síðan er hægt að stækka til að sjá Söluafhendingarlínur þar sem varan var notuð.|  
 
 5.  Velja skal **Rekja** aðgerðina til að keyra rakninguna.  
 
 > [!NOTE]  
->  Ef sama lota er móttekin í fleiri en einni færslu sýnir síðan **Vörurakning** hugsanlega ekki allar færslurnar. Aðeins notaðar færslur eru sýndar.  
+>  Aðeins notaðar færslur eru sýndar. Ef sama lota hefur verið móttekin í mörgum færslum getur verið að **vörurakningarsíðan** sýni ekki allar færslur.   
 
 > [!NOTE]  
 >  Ef lína fyrir ofan vörurakningarlínu hefur þegar rekið færsluferil er gátreiturinn **Þegar verið rakið** valinn. Til að veita einfaldara yfirlit eru slíkar undirliggjandi línur ekki sýndar.  

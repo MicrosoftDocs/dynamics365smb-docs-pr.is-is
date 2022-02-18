@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 35482dca465da05be01c4eed86e93d30a75e6dcf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441398"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115199"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
 Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota eftirfarandi vöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi:  
@@ -46,14 +47,15 @@ Eftirfarandi ferli eru byggð á uppsetningu einfaldra vöruhúsaðgerða í kri
 3.  Á flýtiflipanum **Vöruhús** skal velja gátreitinn **Þarf að ganga frá** til að gefa til kynna að þegar inn- eða innra upprunaskjal með hólfakóða er gefið út, er hægt að stofna birgðafrágang eða birgðahreyfingu.  
 4.  Veljið gátreitinn **Krefjast tínslu** til að gefa til kynna að þegar útleiðarskjal eða innra upprunaskjal með hólfakóta er stofnað skuli einnig stofna birgðatínslu- eða birgðahreyfingarskjal.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Til að skilgreina sjálfgefna hólfaskipan í framleiðslusvæðinu  
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Til að skilgreina sjálfgefna hólfaskipan í framleiðslusvæðinu
+
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.
 2. Opna birgðageymsluna sem setja á upp.  
 3.  Á flýtiflipanum **Hólf** í reitnum **Hólfkóti opins vinnslusalar** er færður inn kóti hólfsins á framleiðslusvæðinu með fjölda íhluta sem starfsmaður á vél getur notað án þess að biðja þurfi um vöruhúsaaðgerð til að færa þá í hólfið. Vörur sem eru settar í þetta hólf eru venjulega settar upp fyrir sjálfvirka bókun eða söfnun. Þetta þýðir að reiturinn **Birgðaskráningaraðferð** inniheldir **Áfram** eða **Afturábak**.  
 4. Í **Hólfkóti framleiðslu á innleið** færið inn kóta hólfsins á framleiðslusvæðinu sem íhlutir sem tíndir eru fyrir framleiðslu í þessari birgðageymslu eru sjálfgefið settir á áður en þeir eru notaðir. Vörur sem eru settar í þetta hólf eru venjulega settar upp fyrir handvirka notkunarbókun. Þetta þýðir að reiturinn **Birgðaskráningaraðferð** inniheldur **Handvirkt** eða **Tína + Áfram** eða **Tína + afturábak** fyrir vöruhúsatínslur og birgðahreyfingar.  
 
     > [!NOTE]  
-    >  Þegar birgðatínsla er notuð skilgreinir reiturinn **Hólfkóti** á íhlutalínu framleiðslupöntunar hólfið *taka* hvaðan íhlutir eru minnkaðir þegar notkun er bókuð. Þegar birgðahreyfingar eru notaðar, skilgreinir reiturinn **Hólfkóti** í framleiðslupöntunaríhlutalínum hólfið *setja* í aðgerðasvæðinu þar sem starfsmaður í vöruhúsi verður setja íhlutina.  
+    > Þegar birgðatínsla er notuð skilgreinir reiturinn **Hólfkóti** á íhlutalínu framleiðslupöntunar hólfið *taka* hvaðan íhlutir eru minnkaðir þegar notkun er bókuð. Þegar birgðahreyfingar eru notaðar, skilgreinir reiturinn **Hólfkóti** í framleiðslupöntunaríhlutalínum hólfið *setja* í aðgerðasvæðinu þar sem starfsmaður í vöruhúsi verður setja íhlutina.  
 
 5. Á flýtiflipanum **Hólf** í reitnum **Hólfkóti frá framleiðslu** er færður inn kóti hólfsins á framleiðslusvæðinu þar sem endanlegar vörur eru teknar úr sjálfkrafa þegar í ferlinu felst vöruhúsaðgerð. Í einfaldri vöruhúsastillingu er virkni skráð sem birgðafrágangur eða birgðahreyfing.  
 
@@ -61,7 +63,7 @@ Núna krefjast íhlutalínur framleiðslupöntunar með sjálfgefinn hólfakóta
 
 Þetta flæðirit sýnir hvernig reiturinn **Hólfkóði** í framleiðslupöntunaríhlutalínum er útfylltur samkvæmt uppsetningunni.  
 
-![Flæðirit hólfs.](media/binflow.png "BinFlow")    
+![Flæðirit hólfs.](media/binflow.png "BinFlow")
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Til að skilgreina sjálfgefna hólfaskipan í samsetningarsvæðinu
 Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota skal síðuna **Birgðahreyfing** í staðinn. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
@@ -136,8 +138,8 @@ Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
-[Samsetningardeild](assembly-assemble-items.md)    
+[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
+[Samsetningardeild](assembly-assemble-items.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

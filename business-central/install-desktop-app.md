@@ -8,20 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2021
+ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: babf20be3c22a3d4b7dd710e2486c59bc11351fe
-ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
+ms.openlocfilehash: 6372d08aef8dfaca6044101a17eea40d89d82722
+ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7596648"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8050906"
 ---
 # <a name="get-business-central-desktop-app"></a>Sækja Business Central-skjáborðsforrit
 
-Ef þú ert með Windows (PC) eða macOS-tölvu geturðu sett upp Business Central forrit á skjáborðið. 
-> [!NOTE]
-> Ef þú notar Business Central 2021 útgáfutímabil 1 eða eldra skaltu sækja forritið í [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848).
+Ef þú ert með Windows (PC) eða macOS-tölvu geturðu sett upp Business Central forrit á skjáborðið. Í App er unnið með viðskipti miðsvæðis á netinu og innanhúss.
 
 ## <a name="why-use-the-app"></a>Hvers vegna að nota forritið?
 
@@ -30,11 +28,23 @@ Business Central forritið líkist vefbiðlaranum, en það býður að auki upp
 - Forritið er aðgengilegt í **Upphafsvalmyndinni**, þú getur auðveldlega fest það við verkstikuna eða látið ræsa það sjálfkrafa þegar tölvan er ræst.
 - Almennt séð er forritið einnig hraðara og liprara á skjánum án breytinga á afköstum í samanburði við að keyra [!INCLUDE[prod_short](includes/prod_short.md)] í vafranum.
 - Forritið opnast í eigin glugga burtséð frá vafragluggum. Þessi eiginleiki auðveldar þér að finna það sem þú leitar að þegar þú keyrir mikið magn, mörg forrit eða vafraglugga.
-- Ef þú ert með fleiri en eitt umhverfi af Business Central (eingöngu á netinu) geturðu sett forritið upp sérstaklega fyrir hvert umhverfi fyrir sig.
+- Ef það eru fleiri en eitt Viðskiptataðalssvið (aðeins nettengt) er hægt að setja upp App sérstaklega fyrir hvert umhverfi.
 
      Þegar forritið er opnað fyrir tiltekið umhverfi er heiti umhverfisins haft með í titlinum á glugganum. Þegar unnið er í mörgum [!INCLUDE[prod_short](includes/prod_short.md)] umhverfum er hver forritsgluggi sérstaklega sýndur. Heitið auðveldar að sjá hvaða gluggi tengist hvaða umhverfi.
 
-## <a name="install-the-app"></a>Setja upp forritið
+## <a name="install-the-app-for-business-central-online"></a>Setja upp App fyrir viðskipti miðsvæðis á netinu
+
+Það eru tvær leiðir til að setja upp App fyrir viðskipti miðsvæðis á netinu. Hægt er að setja það upp beint úr vafranum eða úr Microsoft Store. Það er sama app, hvort sem þú notar þetta. Munurinn er sá að Uppsetning frá vafranum gerir þér kleift að setja upp App fyrir hvert umhverfi þegar það eru fleiri en eitt.
+
+### <a name="from-microsoft-store"></a>Úr netverslun Microsoft
+
+1. Fara í [netverslun Microsoft](https://go.microsoft.com/fwlink/?linkid=2182870).
+2. Veldu **fá** > **install**. 
+3. Þegar forritið hefur verið sett upp er valið **Opna** og síðan skráð inn í Business Central.
+
+Næst þegar þú vilt opna App skaltu leita að því í **valmyndinni Ræsa**.
+
+### <a name="from-the-browser"></a>Frá vaðinu
 
 1. Opnaðu [!INCLUDE[prod_short](includes/prod_short.md)] vefbiðlarann í annaðhvort Microsoft Edge eða Google Chrome.
 
@@ -54,16 +64,14 @@ Business Central forritið líkist vefbiðlaranum, en það býður að auki upp
 
 Þegar forrit er uppsett birtist það í **Upphafsvalmyndinni**. Ef þú hefur valið tiltekið umhverfi fyrir forritið er heiti umhverfisins bætt við forritsheitið í **Upphafsvalmyndinni**.
 
-### <a name="for-business-central-on-premises"></a>Fyrir Business Central á staðnum
+## <a name="install-the-app-for-business-central-on-premises"></a>Setja upp App fyrir fyrirtæki miðsvæðis innanhúss
 
-Uppsetning forritsins þegar þú notar Business Central á staðnum er í grunninn sú sama og lýst er hér að ofan. Ef þú ert bara með einn leigjanda skaltu opna Business Central í vafranum og velja svo annaðhvort ![Tákn fyrir uppsetningu forrits í Edge.](media/ui-edge-install-app-icon.png) **Forrit tiltækt. Setja upp Business Central** eða ![Tákn fyrir uppsetningu forrits í Chrome.](media/ui-chrome-install-app-icon.png) **Settu upp Business Central** eins og sýnt er hér að ofan. 
+Uppsetning á skjáborðsforritinu þegar þú ert að nota Business Central innanhúss er gert beint úr vafranum eins og [lýst er hér að ofan](#from-the-browser). Ef þú ert bara með einn leigjanda skaltu opna Business Central í vafranum og velja svo annaðhvort ![Tákn fyrir uppsetningu forrits í Edge.](media/ui-edge-install-app-icon.png) **Forrit tiltækt. Setja upp Business Central** eða ![Tákn fyrir uppsetningu forrits í Chrome.](media/ui-chrome-install-app-icon.png) **Settu upp Business Central** eins og sýnt er hér að ofan.
 
-Munurinn er þegar þú ert með marga leigjendur. Ólíkt [!INCLUDE[prod_short](includes/prod_short.md)] á netinu þar sem þú getur sett forritið upp aðskilið fyrir mismunandi umhverfi, í forritinu á staðnum er aðeins hægt að setja forritið upp fyrir einn leigjanda. Þannig að áður en þú setur forritið upp þegar þú ert með marga leigjendur skaltu ganga úr skugga um að skipta yfir í réttan leigjanda. Þegar forritið er uppsett og þú opnar það mun það opnast í leigjandanum.
+Munurinn er þegar þú ert með marga leigjendur. Ólíkt [!INCLUDE[prod_short](includes/prod_short.md)] á netinu, þar sem þú getur sett upp App fyrir mismunandi umhverfi, þá er aðeins hægt að setja upp App fyrir einn leigjanda. Svo áður en þú setur upp App þegar þú ert með marga leigjendur, Vertu viss um að skipta yfir á réttan leigjanda. Þegar forritið er uppsett og þú opnar það mun það opnast í leigjandanum.
 
-<!-- for FAQ or troubleshooting
-> [!NOTE]
-> To install the app, [!INCLUDE[prod_short](includes/prod_short.md)] must be configured for HTTPS. If it isn't, you won't see ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** in the browser. If you're having problems, contact your administrator or see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection) about how to configure HTTPS.
--->
+> [!IMPORTANT]
+> Ef þú ert að nota Business Central 2021 út Wave 1 (útgáfa 18) eða fyrr er ekki hægt að setja upp App eins og lýst er í þessari grein. Í staðinn er App sett upp úr [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Nánari upplýsingar og aðstoð við að setja upp þetta Legacy App er að finna [í því að undirbúa og setja upp Business Central App](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

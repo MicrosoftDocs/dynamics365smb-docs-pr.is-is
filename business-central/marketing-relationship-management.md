@@ -1,7 +1,6 @@
 ---
 title: Umsjón með venslum
 description: Tengslastjórnunareiginleikarnir styðja við sölutilburði þína og veita þér aðgang að upplýsingum um tengiliði og viðföng til að sinna viðskiptamönnum á skilvirkan hátt.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
+ms.search.forms: 9076, 9026
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: f37fa1be83c422062af1aafa7c19a36ee0455a2e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 09b9ecdc1d8f0b2a36193a6f931b2ac3fc03f4d4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325687"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059949"
 ---
 # <a name="managing-relationships"></a>Stjórnun tengsla
 Tengslastjórnunareiginleikar [!INCLUDE[prod_short](includes/prod_short.md)] auðvelda stjórnun og stuðning við markaðssetningu og sölu. Þessir eiginleikar veita aðgang að fullkomnum og nákvæmum upplýsingum svo hægt sé að einbeita sér að þeim viðskiptamönnum/tengiliðum sem ná á til.

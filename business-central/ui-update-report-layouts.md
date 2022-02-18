@@ -1,5 +1,5 @@
 ---
-title: Halda skýrsluútliti nútímalegu
+title: Uppfæra sérsniðið skýrsluútlit
 description: Kynntu þér hvernig á að uppfæra sérsniðið útlit skýrslu sem notað er í skýrslu þegar breytingar verða á hönnun á gagnasafni skýrslunnar sem dæmi.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99b0f191bf9890683bb6cbb68f7baef0342f9737
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3d3aabe01a9969e8665f24479d8b11b26b54d5b
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445277"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101478"
 ---
 # <a name="update-custom-report-layouts"></a>Uppfæra sérsniðið skýrsluútlit
+
 Stundum þarf að uppfæra sérsniðið skýrsluútlit sem er notað í skýrslu. Þetta er nauðsynlegt þegar breyting hefur verið gerð á hönnun gagnasafns skýrslu, til dæmis ef reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnasafni skýrslunnar. Ef skýrsluútlit krefst uppfærslu birtast villuboð þegar reynt er að forskoða, prenta eða vista skýrsluna.  
 
 Hægt er að uppfæra skýrsluútlit sjálfvirkt úr villuboðunum sem þú færð þegar þú keyrir skýrslu með því að velurðu **Já** hnappinn í villuboðunum. Eða áður en þú keyrir skýrslur, geturðu uppfæra tiltekið útlit skýrslu eða öll sérstillt skýrsluútlit sem gætu orðið fyrir áhrifum af breytingum á gagnamengi.  

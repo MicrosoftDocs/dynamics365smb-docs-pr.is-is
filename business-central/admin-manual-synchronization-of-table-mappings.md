@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e9cd03df1e26eca92f5a69d02d73caac902d2b6b
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435523"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049563"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Samstilla töfluvarpanir handvirkt
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Vörpun samþættingartöflu tengir [!INCLUDE[prod_short](includes/prod_short.md)]-töflu, t.d. viðskiptavin, við [!INCLUDE[prod_short](includes/cds_long_md.md)] töflu, t.d. reikning. Samstilling á vörpun samþættingartöflu gerir þér kleift að samþætta gögn í öllum færslum í [!INCLUDE[prod_short](includes/prod_short.md)]-töflunni og [!INCLUDE[prod_short](includes/cds_long_md.md)]-töflunni sem eru tengdar. Að auki, þó háð grunnstillingu töfluvörpunar, getur samstilling búið til og tengt nýjar færslur á lausn endastaðar fyrir ótengdar færslur á upprunastaðnum.  
 

@@ -11,12 +11,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012368"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049590"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Sækja innbót Business Central fyrir Outlook
 
@@ -24,7 +24,7 @@ Með [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að stjórna samski
 
 Til eru tvær leiðir til að sækja innbót Business Central fyrir uppsett Outlook en það fer eftir hlutverki þínu í fyrirtækinu:
 
-- Sem Microsoft 365 kerfisstjóri skal nota *miðlæga virkjun* til að setja upp viðbóta sjálfvirkt fyrir allt fyrirtækið, flokkana eða ákveðna notendur.
+- Microsoft 365 Sem kerfisstjóri skal nota *miðlæga virkjun* til að setja upp viðbóta sjálfvirkt fyrir allt fyrirtækið, flokkana eða ákveðna notendur.
 
 - Sem hvaða notandi sem er skaltu setja innbótina upp til eigin nota ef stjórnandi þinn hefur þegar innleitt hana fyrir þig.
 
@@ -55,7 +55,7 @@ Miðstýrð innleiðing er eiginleiki í Microsoft 365 Stjórnun sem notaður er
 
 - Í Microsoft 365 áskrift  
 - Notendum er úthlutað Microsoft 365 leyfi  
-- Microsoft 365 Reikningurinn hefur *alþjóðlegan stjórnanda* eða skipti um *stjórnendahlutverk*
+- Microsoft 365 Reikningurinn hefur alþjóðlegan stjórnanda *eða* skipti um *stjórnendahlutverk*
 
 ### <a name="deploy-the-add-in"></a>Setja upp innbótina
 
@@ -69,16 +69,16 @@ Miðstýrð innleiðing er eiginleiki í Microsoft 365 Stjórnun sem notaður er
 5. Á þessum tímapunkti er vinnunni sem þarf að gera í Business Central lokið þannig að þú getur valið **Lokið**.
 
    >[!TIP]
-   > Áður en þú velur **Next** skaltu velja **ferðinni í Microsoft 365 (opnast í nýjum glugga)** til að opna og skrá þig inn í Microsoft 365 admin Center í nýjum vafraglugga. Þú verður að fara í Microsoft 365 admin Center í seinna skrefi samt.
+   > Áður en þú velur **Next** skaltu velja **ferðinni Microsoft 365 í (opnast í nýjum glugga)** til að opna og skrá þig inn í Microsoft 365 admin Center í nýjum vafraglugga. Þú verður að fara Microsoft 365 í admin Center í seinna skrefi samt.
 
 6. Farðu í möppuna þar sem OutlookAddins.zip var sótt og dragðu út skrárnar **Contact Insights.xml** og **Document View.xml** úr zip-skránni yfir í möppu að eigin vali.
 
     Frekari upplýsingar er að finna í [Þjappa og afþjappa skrár](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Skráðu þig inn á Microsoft 365 admin Center, farðu svo í [Integrated apps](https://go.microsoft.com/fwlink/?linkid=2163967).
+7. Skráðu þig inn Microsoft 365 á admin Center, farðu svo í [Integrated apps](https://go.microsoft.com/fwlink/?linkid=2163967).
 
 8. Veldu **Hlaða upp sérsniðnum forritum**.
 9. Á síðunni **Hlaða upp forritum til að setja upp** skal velja **Hlaða upp skrá (.xml) úr tækinu** > **Velja skrá**.
-10. Veldu eina af viðbótarskránum sem þú dróst út áður, til dæmis **Content Insights.xml**.
+10. Veljið eina af þeim viðbótum sem unnar voru fyrr, til dæmis með því **að hafa samband við innsýn. XML**.
 11. Fylgdu leiðbeiningunum til að úthluta notendum og setja upp innbótina.
 12. Endurtaktu skref 9 til 11 fyrir hina innbótarskrána ef þú vilt.
 

@@ -1,5 +1,5 @@
 ---
-title: Hönnunarupplýsingar - Meðalkostnaður | Microsoft Docs
+title: Upplýsingar um hönnun-meðalkostnaður
 description: Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað við meðalkostnaðartímabil sem er sett upp í Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 87bbd5d77bc677220b82789e343af1bda2300cbd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d670fb96b0f29c8a34f7076429d6a56f834d2e5d
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215479"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115093"
 ---
 # <a name="design-details-average-cost"></a>Hönnunarupplýsingar: Meðalkostnaður
 Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað við meðalkostnaðartímabil sem er sett upp í [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -28,7 +29,7 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 |Svæði|Lýsing|  
 |---------------------------------|---------------------------------------|  
 |**Tímabil meðalinnk.verðs**|Tilgreinir á hvaða tímabili meðalkostnaður er reiknaður í. Eftirfarandi möguleikar eru til staðar:<br /><br /> -   **Dagur**<br />-   **Vika**<br />-   **Mánuður**<br />-   **Reikningstímabil**<br /><br /> Öll birgðaminnkun sem var bókuð innan tímabils meðalinnkaupsverðs fær meðalinnkaupsverðið sem reiknað er fyrir þetta tímabil.|  
-|**Meðalinnk.verð Teg. útreikn.**|Tilgreinir hvernig meðalkostnaður er reiknaður. Eftirfarandi möguleikar eru til staðar:<br /><br /> -   **Vara**<br />-   **Vörur, afbrigði og staðsetning**<br />     Ef þessi kostur er valinn reiknar kerfið út meðalinnkaupsverð á vöru fyrir hverja birgðageymslu og fyrir hvert afbrigði vörunnar í fyrirtækinu. Þetta þýðir að meðalinnkaupsverð þessarar vöru veltur á því hvar hún er geymd og hvaða afbrigði vörunnar (til dæmis litur) var valið.|  
+|**Meðalinnk.verð Teg. útreikn.**|Tilgreinir hvernig meðalkostnaður er reiknaður. Eftirfarandi möguleikar eru til staðar:<br /><br /> -   **Vara**<br />-   **Vörur, afbrigði og staðsetning**<br /> Ef þessi kostur er valinn reiknar kerfið út meðalinnkaupsverð á vöru fyrir hverja birgðageymslu og fyrir hvert afbrigði vörunnar í fyrirtækinu. Þetta þýðir að meðalinnkaupsverð þessarar vöru veltur á því hvar hún er geymd og hvaða afbrigði vörunnar (til dæmis litur) var valið.|  
 
 > [!NOTE]  
 >  Aðeins er hægt að nota meðalkostnaðartímabil og eina gerð útreikninga meðaltalskostnaðará hverju fjárhagsári.  
@@ -55,37 +56,37 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
  Eftirfarandi tafla sýnir hlut birgðahöfuðbókarfærslur fyrir sýnishorn meðalkostnaðarvöru, VARA1, áður en runuvinnslan **Leiðrétta kostnað - Birgðafærslur** hefur verið keyrð.  
 
-|**Bókunardags.**|**Tegund birgðafærslu**|**Magn**|**Kostnaðarupphæð (raunverul.)**|**Færslunr.**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Innkaup|1|20.00|1|  
-|01-01-20|Innkaup|1|40.00|2|  
-|01-01-20|Sala|-1|-20,00|3|  
-|02-01-20|Sala|-1|-40,00|4|  
-|02-02-20|Innkaup|1|100,00|5|  
-|02-03-20|Sala|-1|-100,00|6|  
+| **Bókunardags.** | **Tegund birgðafærslu** | **Magn** | **Kostnaðarupphæð (raunverul.)** | **Færslunr.** |
+|--|--|--|--|--|
+| 01-01-20 | Innkaup | 1 | 20.00 | 1 |
+| 01-01-20 | Innkaup | 1 | 40.00 | 2 |
+| 01-01-20 | Sala | -1 | -20,00 | 3 |
+| 02-01-20 | Sala | -1 | -40,00 | 4 |
+| 02-02-20 | Innkaup | 1 | 100,00 | 5 |
+| 02-03-20 | Sala | -1 | -100,00 | 6 |
 
 > [!NOTE]  
 >  Vegna þess að kostnaðarleiðrétting hefur ekki átt sér stað ennþá, mun reiturinn í **Kostnaðarupphæð Raunveruleg** birgðaminnkun samsvara birgðaaukningu sem hann er jafnaður við.  
 
  Eftirfarandi tafla sýnir færslur í töflunni **Upphafspunktur Meðalkostnaðarleiðrétting** sem gilda um virðisfærslur vegna birgðahöfuðbókarfærsla í undanfarandi töflu.  
 
-|**Vörunr.**|**Afbrigðiskóði**|**Staðsetningarkóði**|**Dagsetning virðismats**|**Kostnaður er leiðréttur**|  
-|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|VARA1||BLÁTT|01-01-20|Nei|  
-|VARA1||BLÁTT|02-01-20|Nei|  
-|VARA1||BLÁTT|02-02-20|Nei|  
-|VARA1||BLÁTT|02-03-20|Nei|  
+| **Vörunr.** | **Afbrigðiskóði** | **Staðsetningarkóði** | **Dagsetning virðismats** | **Kostnaður er leiðréttur** |
+|--|--|--|--|--|
+| VARA1 |  | BLÁTT | 01-01-20 | Nei |
+| VARA1 |  | BLÁTT | 02-01-20 | Nei |
+| VARA1 |  | BLÁTT | 02-02-20 | Nei |
+| VARA1 |  | BLÁTT | 02-03-20 | Nei |
 
  Eftirfarandi tafla sýnir sömu birgðahöfuðbókarfærslur eftir að runuvinnslan **Leiðrétta kostnað Birgðafærslur** hefur verið keyrð. Meðalkostnaður á dag er reiknaður og jafnaður við birgðaminnkun.  
 
-|**Bókunardags.**|**Tegund birgðafærslu**|**Magn**|**Kostnaðarupphæð (raunverul.)**|**Færslunr.**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Innkaup|1|20.00|1|  
-|01-01-20|Innkaup|1|40.00|2|  
-|01-01-20|Sala|-1|-30,00|3|  
-|02-01-20|Sala|-1|-30,00|4|  
-|02-02-20|Innkaup|1|100,00|5|  
-|02-03-20|Sala|-1|-100,00|6|  
+| **Bókunardags.** | **Tegund birgðafærslu** | **Magn** | **Kostnaðarupphæð (raunverul.)** | **Færslunr.** |
+|--|--|--|--|--|--|
+| 01-01-20 | Innkaup | 1 | 20.00 | 1 |
+| 01-01-20 | Innkaup | 1 | 40.00 | 2 |
+| 01-01-20 | Sala | -1 | -30,00 | 3 |
+| 02-01-20 | Sala | -1 | -30,00 | 4 |
+| 02-02-20 | Innkaup | 1 | 100,00 | 5 |
+| 02-03-20 | Sala | -1 | -100,00 | 6 |
 
 ### <a name="example-average-cost-period--month"></a>Dæmi Tímabil meðalinnk.verðs = mánuður  
  Þetta dæmi sýnir hvaða áhrif það hefur að reikna meðalkostnað samkvæmt meðalkostnaðartímabili eins mánaðar. Reiturinn **Útreikningsgerð meðalkostnaðar** á síðunni **Uppsetning birgða** er stilltur á **Vara**.  
@@ -94,24 +95,24 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
  Eftirfarandi tafla sýnir hlut birgðahöfuðbókarfærslur fyrir sýnishorn meðalkostnaðarvöru, VARA1, áður en runuvinnslan **Leiðrétta kostnað - Birgðafærslur** hefur verið keyrð.  
 
-|**Bókunardags.**|**Tegund birgðafærslu**|**Magn**|**Kostnaðarupphæð (raunverul.)**|**Færslunr.**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Innkaup|1|20.00|1|  
-|01-01-20|Innkaup|1|40.00|2|  
-|01-01-20|Sala|-1|-20,00|3|  
-|02-01-20|Sala|-1|-40,00|4|  
-|02-02-20|Innkaup|1|100,00|5|  
-|02-03-20|Sala|-1|-100,00|6|  
+| **Bókunardags.** | **Tegund birgðafærslu** | **Magn** | **Kostnaðarupphæð (raunverul.)** | **Færslunr.** |
+|--|--|--|--|--|
+| 01-01-20 | Innkaup | 1 | 20.00 | 1 |
+| 01-01-20 | Innkaup | 1 | 40.00 | 2 |
+| 01-01-20 | Sala | -1 | -20,00 | 3 |
+| 02-01-20 | Sala | -1 | -40,00 | 4 |
+| 02-02-20 | Innkaup | 1 | 100,00 | 5 |
+| 02-03-20 | Sala | -1 | -100,00 | 6 |
 
 > [!NOTE]  
 >  Vegna þess að kostnaðarleiðrétting hefur ekki átt sér stað ennþá, mun reiturinn í **Kostnaðarupphæð Raunveruleg** birgðaminnkun samsvara birgðaaukningu sem hann er jafnaður við.  
 
  Eftirfarandi tafla sýnir færslur í töflunni **Upphafspunktur Meðalkostnaðarleiðrétting** sem gilda um virðisfærslur vegna birgðahöfuðbókarfærsla í undanfarandi töflu.  
 
-|**Vörunr.**|**Afbrigðiskóði**|**Staðsetningarkóði**|**Dagsetning virðismats**|**Kostnaður er leiðréttur**|  
-|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|VARA1||BLÁTT|01-31-20|Nei|  
-|VARA1||BLÁTT|02-28-20|Nei|  
+| **Vörunr.** | **Afbrigðiskóði** | **Staðsetningarkóði** | **Dagsetning virðismats** | **Kostnaður er leiðréttur** |
+|--|--|--|--|--|
+| VARA1 |  | BLÁTT | 01-31-20 | Nei |
+| VARA1 |  | BLÁTT | 02-28-20 | Nei |
 
 > [!NOTE]  
 >  Virðisdagsetningin er stillt á síðasta dag meðalkostnaðartímabils, sem í þessu tilviki er síðasti dagur mánaðarins.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547049"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102448"
 ---
 # <a name="set-up-printers"></a>Setja upp prentara
 
@@ -34,7 +34,7 @@ Til að styðja við prentþarfirnar býður [!INCLUDE[prod_short](includes/prod
 
 ## <a name="set-up-universal-print"></a>Setja upp skýjaprentun
 
-Skýjaprentun er áskriftarþjónusta Microsoft 365 sem keyrir eingöngu á Microsoft Azure. Hún býður upp á miðstýrða prentstjórnun í gegnum gátt skýjaprentunar. [!INCLUDE[prod_short](includes/prod_short.md)] gerir uppsetningu prentara í skýjaprentun tiltæka biðlurum í gegnum viðbótina **Samþætting skýjaprentunar**.
+Universal PRINT er Microsoft 365 áskriftarþjónusta sem keyrir alfarið á Microsoft Azure. Hún býður upp á miðstýrða prentstjórnun í gegnum gátt skýjaprentunar. [!INCLUDE[prod_short](includes/prod_short.md)] gerir uppsetningu prentara í skýjaprentun tiltæka biðlurum í gegnum viðbótina **Samþætting skýjaprentunar**.
 
 ![Uppsetning skýjaprentunar.](media/Universal-Print-arch.png)
 
@@ -84,7 +84,7 @@ Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með 
 
     Hvernig leyfunum er úthlutað fer eftir því hvort verið er að samþætta við Business Central Online eða á staðnum.
 
-    - Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er leyfum úthlutað með því að nota stjórnendamiðstöð Microsoft 365.
+    - Með [!INCLUDE[prod_short](includes/prod_short.md)] netinu er leyfum úthlutað með því að Microsoft 365 nota stjórnun miðstöðvarinnar.
 
       Frekari upplýsingar er að finna í [Hjálp stjórnendamiðstöðvar Microsoft - Úthluta leyfum á notendur](/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -267,6 +267,9 @@ Tilgreind skýrsla er nú uppsett til prentunar í völdum sjálfgefnum prentara
 
 > [!NOTE]
 > Sértækara prentaraval hefur forgang fram yfir almennara prentaraval. Prentaraval sem hefur til dæmis gildi í reitunum **Notandakenni**, **Skýrslukenni** og **Prentaraheiti** hefur forgang fram yfir prentaraval sem er með auðar færslur í reitunum **Notandakenni** eða **Skýrslukenni**.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>Prentari að velja þegar skýrsla er keyrð
+Í stað þess að nota sjálfgefinn prentara þegar skýrsla er keyrð er hægt að hnekkja þessari stillingu af beiðingarsíðunni. Veldu einfaldlega wich-prentarann sem þú vilt nota fyrir þessa óskrá í skýrslunni í **prentarafellivalmyndinni**.
 
 ### <a name="sizing-print-jobs"></a>Stærð prentverka stillt
 

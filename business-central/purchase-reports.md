@@ -7,39 +7,21 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 70098fc89a47bfa29e3693c495c093a95066aad3
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543171"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102552"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Innkaupaskýrslur og greiningar í Business Central
 
 Innkaupaskýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] gera starfsmönnum í framleiðslu og rekstri kleift að fá innsýn í og tölfræði um núverandi og fyrri innkaupagerðir.  
 
 ## <a name="reports"></a>Skýrslur
-
-Eftirfarandi tafla lýsir sumum helstu skýrslunum í innkaupaskýrslum.
-
-|Skýrsla |Kenni hlutar|Description  |
-|---------|---------|---------|
-|**Innkaupaupplýsingar**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
-|**Lánardr. - 10 efstu**|311|Sýnir upplýsingar um innkaup frá lánardrottni á tilteknu tímabili. Hægt er að velja fjölda lánardrottna sem eru taldir með í skýrslu.<br>Lánardrottnum er raðað eftir upphæðum og hægt er að velja hvort þeim er raðað eftir innkaupaupphæð eða stöðu. Skýrslan gefur snöggt yfirlit yfir þá lánardrottna sem mest er keypt inn frá eða mest er skuldað.|
-|**Vörulisti lánardrottins** eða **Birgðalisti lánardrottna**|320 eða 720|Birtir lista yfir lánardrottna fyrir tilteknar vörur eða vörur fyrir tiltekna lánardrottna. Þar kemur fram innkaupsverð, útreiknaður afhendingartími og vörunúmer viðkomandi lánardrottins fyrir hverja einstaka vöru.<br>Þessi skýrsla er ekki tiltæk í Bandaríkjunum, Kanada og Mexíkó. Í staðinn skal nota **Birgðalisti lánardrottna** (10164) skýrsluna.|
-|**Lánardr. - Birgðakaup**|313|Þessi skýrsla sýnir lista yfir vörufærslur fyrir hvern lánardrottinn á tilteknu tímabili. Skýrslan felur í sér upplýsingar um reikningsfært magn, upphæð og hugsanlegan afslátt. Hana má til dæmis nota til að greina birgðainnkaup fyrirtækis og sýna hvort það sé samband milli afsláttar og birgðainnkaupa.|
-|**Birgðir - Kostn.og söluv.listi**|716|Birtir lista yfir verðupplýsingar um tilteknar vörur eða birgðaeiningar: innkaupsverð, síðasta innkaupsverð, einingarverð, hagnaðarprósenta og hagnaður.|
-|**Birgðir - til ráðst. skv. áætlun**|707|Til að fá yfirlit yfir tiltekna hluti/birgðahaldseiningar og framboð þeirra. Þessi skýrsla mun sýna uppsöfnuð gildi eins og brúttóþarfir, áætlaðar og fyrirhugaðar móttöku, birgðir o.s.frv. |
-|**Birgðir - Innkaup lánardrottna**|714|Birtir lista yfir þá lánardrottna sem fyrirtækið hefur keypt vörur af á tilgreindu tímabili. Þar kemur fram reikningsfært magn, upphæð og afsláttur. Nota má skýrsluna við greiningu á vörukaupum fyrirtækisins.|
-|**Birgðir - Innkaupapantanir**|709|Birtir lista yfir vörur sem eru í pöntun hjá lánardrottnum. Einnig eru þar upplýsingar um áætlaðan afhendingardag og magn og verð vara í biðpöntun. Skýrsluna má til dæmis nota til að sjá hvenær von er á vörum og hvort ítreka þurfi biðpantanir|
-|**Tiltækar innkaupafrátekningar**|409|Sýnir tiltækar vörur til afhendingar í innkaupafylgiskjölum, til dæmis skilapöntunum. Notandi tekur ákvörðun um hvort skýrslan eigi við stöðu hvers fylgiskjals eða hverrar innkaupalínu. <br>Þegar skýrslan er prentuð er líka hægt að láta kerfið uppfæra magnið sem er tiltækt til afhendingar í reitinn **Magn til móttöku** í innkaupalínunum. Á innkaupakreditreikningum og neikvæðum innkaupapöntunarlínum inniheldur **Magn til móttöku** reiturinn magnið til sendingar. Þá má nota skýrsluna til þess að tilgreina hvaða fylgiskjöl skal afhenda. **Athugaðu**: þessi skýrsla er ekki tiltæk fyrir ítarlega virkni vöruhúss.|
-<|**Sundurl. aldursgr. lánardr.**|11006| Sértækt fyrir DACH: Skýrsla sem hægt er að nota af teymisstjóra innkaupadeildarinnar og bókhaldsins. Hér færðu yfirlit yfir ógreidda reikninga lánardrottna, þar á meðal gjalddaga, gjaldmiðla og upphæðir. Grunnurinn eru opnar lánardrottnafærslur.| -->
-
-
-
+[!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
 ## <a name="tasks"></a>Verk
-
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
@@ -47,7 +29,6 @@ Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisi
 
 
 ## <a name="see-also"></a>Sjá einnig .
-
 [Innkaup sett upp](purchasing-setup-purchasing.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 

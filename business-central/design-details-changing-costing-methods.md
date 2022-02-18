@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: f8bb3bc0966e25e99213217501a5337f9440abfc
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 732bbc50f46573484682104e3beb71fbce1f5894
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215429"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115477"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Hönnunarupplýsingar: Breyta kostnaðarútreikningi fyrir vörur
 
@@ -78,18 +79,18 @@ Til að koma nýju vörunum að fullu í gagnið þarf að afrita handvirkt sum 
 
 |Svæði  |Hvað á að afrita  |Hvernig á að afrita það  |
 |---------|---------|---------|
-|Birgðir     |Birgðahaldseiningar (BHE)         |Athugið hvort birgðahaldseining sé tilgreind fyrir upprunalegu vöruna. Ef áætlunarfæribreytur hafa verið slegnar inn fyrir hvert birgðahaldseiningaspjald þarf að stofna handvirkt birgðahaldseininguna fyrir nýju vöruna. Ef færibreyturnar eru ekki tilgreindar, er hægt að nota runuvinnsluna **Stofna birgðahaldseiningu** af síðunni **Birgðaspjald** til að stofna gögnin.        |
-|     |Staðgengilsvörur         |Athugið hvort einhverjar staðgengilsvörur séu skilgreindar fyrir upprunalegu vöruna. Ef svo er skal flytja gögnin yfir í nýju vöruna. Til að skoða staðgengilsvörur skal nota aðgerðina **Staðgenglar** á síðunni **Birgðaspjald**.         |
-|     |Greiningarskýrslur         |Farið yfir skýrslur vörugreininga, sölugreininga og innkaupagreininga. Fyrir þá sem vísa til upprunalegra vara, er annaðhvort hægt að stofna nýja greiningarskýrslu með tilvísun í nýju vöruna (halda upprunalegri greiningarskýrslu til að nota sem feril) eða leiðrétta skýrslurnar þannig að þær vísi til nýju varanna.         |
-|     |Staðlaðar færslubækur         |Athugið hvort staðlaðar færslubækur vísi í upprunalegu vöruna og flytji gögnin til nýju vörunnar þegar á þarf að halda. Þessar upplýsingar finnast í stöðluðum færslubókum, sem eru aðgengilegar í birgðabókinni.          |
-|Sölur     |Fyrirframgreiðsluprósenta sölu         | Athugið hvort einhverjar fyrirframgreiðsluprósentur sölu eru skilgreindar fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða fyrirframgreiðsluprósentur, á síðunni **Birgðaspjald**, skal velja **Sölur** og síðan **Fyrirframgreiðsluprósentur**.        |
-|Innkaup     |Fyrirframgreiðsluprósenta innkaupa         |Athugið hvort einhverjar fyrirframgreiðsluprósentur innkaupa eru skilgreindar fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða fyrirframgreiðsluprósentur, á síðunni **Birgðaspjald**, skal velja **Innkaup** og síðan **Fyrirframgreiðsluprósentur**.                 |
-|Vöruhús     |Innihald hólfs         |Yfirfarið innihald hólfs sem skilgreint er fyrir upprunalega vöru. Ef dálkar á borð við lágmarks Magn, hámarks Magn, sjálfgefið og sérstakt hafa verið slegnir inn handvirkt og ef svo er þarf að stofna hólfainnihald fyrir nýju vöruna. Ef svo er ekki þarf ekki að grípa til neinna aðgerða. [!INCLUDE[prod_short](includes/prod_short.md)] vinnur með færslurnar þegar vöruhúsaskjöl og færslubækur eru skráðar.|
-|Vinnsla     |Verð verks         |Athugið hvort verð verka eru skilgreind fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Þessar upplýsingar eru aðgengilegar á síðunni **Verkspjald** í hlutanum **Upplýsingar um verk - fjöldi verða** á **Upplýsingakassasvæði**.         |
-|Þjónusta     |Hæfnistilfangaþjónusta         |Athugið hvort hæfnistilfangaþjónusta er skilgreind fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða hæfnistilfangaþjónustu skal nota aðgerðina **Hæfnistilfang** á síðunni **Birgðaspjald**.          |
-|     |Þættir þjónustuvöru         |Athugið hvort þættir eru skilgreindir fyrir upprunalegu þjónustuvöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða þætti þjónustuvöru, á síðunni **Birgðaspjald**, skal nota aðgerðina **Þjónustuvara** til að opna lista yfir tengdar þjónustuvörur og síðan velja aðgerðina **Þættir**.          |
-|Framleiðsla     |Framl.uppskriftir         |Athugið hvort einhverjar framleiðsluuppskriftir innihaldi upprunalegu vöruna og skiptið henni út fyrir nýju vöruna. Til að skipta út upprunalegu vörunni, á síðunni **Framleiðsluuppskriftir**, skal velja aðgerðina **Skipta út vöru framleiðsluuppskriftar**.         |
-|Samsetning     |Samsetningaruppskrift         |Athugið hvort einhverjar framleiðsluuppskriftir innihaldi upprunalegu vöruna og skiptið henni út handvirkt fyrir nýju vöruna.         |
+|Birgðir |Birgðahaldseiningar (BHE) |Athugið hvort birgðahaldseining sé tilgreind fyrir upprunalegu vöruna. Ef áætlunarfæribreytur hafa verið slegnar inn fyrir hvert birgðahaldseiningaspjald þarf að stofna handvirkt birgðahaldseininguna fyrir nýju vöruna. Ef færibreyturnar eru ekki tilgreindar, er hægt að nota runuvinnsluna **Stofna birgðahaldseiningu** af síðunni **Birgðaspjald** til að stofna gögnin.|
+| |Staðgengilsvörur |Athugið hvort einhverjar staðgengilsvörur séu skilgreindar fyrir upprunalegu vöruna. Ef svo er skal flytja gögnin yfir í nýju vöruna. Til að skoða staðgengilsvörur skal nota aðgerðina **Staðgenglar** á síðunni **Birgðaspjald**. |
+| |Greiningarskýrslur |Farið yfir skýrslur vörugreininga, sölugreininga og innkaupagreininga. Fyrir þá sem vísa til upprunalegra vara, er annaðhvort hægt að stofna nýja greiningarskýrslu með tilvísun í nýju vöruna (halda upprunalegri greiningarskýrslu til að nota sem feril) eða leiðrétta skýrslurnar þannig að þær vísi til nýju varanna. |
+| |Staðlaðar færslubækur |Athugið hvort staðlaðar færslubækur vísi í upprunalegu vöruna og flytji gögnin til nýju vörunnar þegar á þarf að halda. Þessar upplýsingar finnast í stöðluðum færslubókum, sem eru aðgengilegar í birgðabókinni.  |
+|Sölur |Fyrirframgreiðsluprósenta sölu | Athugið hvort einhverjar fyrirframgreiðsluprósentur sölu eru skilgreindar fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða fyrirframgreiðsluprósentur, á síðunni **Birgðaspjald**, skal velja **Sölur** og síðan **Fyrirframgreiðsluprósentur**.|
+|Innkaup |Fyrirframgreiðsluprósenta innkaupa |Athugið hvort einhverjar fyrirframgreiðsluprósentur innkaupa eru skilgreindar fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða fyrirframgreiðsluprósentur, á síðunni **Birgðaspjald**, skal velja **Innkaup** og síðan **Fyrirframgreiðsluprósentur**. |
+|Vöruhús |Innihald hólfs |Yfirfarið innihald hólfs sem skilgreint er fyrir upprunalega vöru. Ef dálkar á borð við lágmarks Magn, hámarks Magn, sjálfgefið og sérstakt hafa verið slegnir inn handvirkt og ef svo er þarf að stofna hólfainnihald fyrir nýju vöruna. Ef svo er ekki þarf ekki að grípa til neinna aðgerða. [!INCLUDE[prod_short](includes/prod_short.md)] vinnur með færslurnar þegar vöruhúsaskjöl og færslubækur eru skráðar.|
+|Vinnsla |Verð verks |Athugið hvort verð verka eru skilgreind fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Þessar upplýsingar eru aðgengilegar á síðunni **Verkspjald** í hlutanum **Upplýsingar um verk - fjöldi verða** á **Upplýsingakassasvæði**. |
+|Þjónusta |Hæfnistilfangaþjónusta |Athugið hvort hæfnistilfangaþjónusta er skilgreind fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða hæfnistilfangaþjónustu skal nota aðgerðina **Hæfnistilfang** á síðunni **Birgðaspjald**.  |
+| |Þættir þjónustuvöru |Athugið hvort þættir eru skilgreindir fyrir upprunalegu þjónustuvöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða þætti þjónustuvöru, á síðunni **Birgðaspjald**, skal nota aðgerðina **Þjónustuvara** til að opna lista yfir tengdar þjónustuvörur og síðan velja aðgerðina **Þættir**.  |
+|Framleiðsla |Framl.uppskriftir |Athugið hvort einhverjar framleiðsluuppskriftir innihaldi upprunalegu vöruna og skiptið henni út fyrir nýju vöruna. Til að skipta út upprunalegu vörunni, á síðunni **Framleiðsluuppskriftir**, skal velja aðgerðina **Skipta út vöru framleiðsluuppskriftar**. |
+|Samsetning |Samsetningaruppskrift |Athugið hvort einhverjar framleiðsluuppskriftir innihaldi upprunalegu vöruna og skiptið henni út handvirkt fyrir nýju vöruna. |
 
 > [!IMPORTANT]
 > Ef nýja aðferð kostnaðarútreikningsins er stöðluð ætti að slá inn gildi í reitinn **Staðlað kostnaðarverð** á síðunni **Birgðaspjald**. Hægt er að nota síðuna **Vinnublað staðlaðs kostnaðarverðs** til að stilla kostnaðarhlutdeildina á viðeigandi hátt. Frekari upplýsingar eru í [Uppfæra staðlað kostnaðarverð](finance-how-to-update-standard-costs.md).
@@ -116,23 +117,23 @@ Stofnið og bókið samsetningarpantanir til að flytja kostnað og birgðamagn 
 
 |Svæði  |Gildi sem á að færa inn  |
 |---------|---------|
-|Vörunr.     |Númer nýju vörunnar.         |
-|Magn     |Magnið í raunbirgðabók.<br> **Athugið:** Magnið sem er reiknað af raunbirgðabókum inniheldur ekki magnið sem er í pöntunum sem hefur ekki enn verið sent.          |
-|Afbrigðiskóði     |Sá sami og í raunbirgðabók.          |
-|Kóti birgðageymslu      |Sá sami og í raunbirgðabók.         |
-|Mælieiningarkóði     |Sá sami og í raunbirgðabók.         |
-|Hólfkóti     |Sá sami og í raunbirgðabók.         |
+|Vörunr. |Númer nýju vörunnar. |
+|Magn |Magnið í raunbirgðabók.<br> **Athugið:** Magnið sem er reiknað af raunbirgðabókum inniheldur ekki magnið sem er í pöntunum sem hefur ekki enn verið sent.  |
+|Afbrigðiskóði |Sá sami og í raunbirgðabók.  |
+|Kóti birgðageymslu  |Sá sami og í raunbirgðabók. |
+|Mælieiningarkóði |Sá sami og í raunbirgðabók. |
+|Hólfkóti |Sá sami og í raunbirgðabók. |
 
 #### <a name="lines"></a>Línur
 
 |Svæði  |Gildi sem á að færa inn  |
 |---------|---------|
-|Tegund     |Vara         |
-|Fj.     |Númer upprunalegu vörunnar.         |
-|Magn á     |1         |
-|Afbrigðiskóði     |Sá sami og í raunbirgðabók.         |
-|Kóti birgðageymslu      |Sá sami og í raunbirgðabók.         |
-|Mælieiningarkóði     |Sá sami og í raunbirgðabók.         |
+|Tegund |Vara |
+|Fj. |Númer upprunalegu vörunnar. |
+|Magn á |1 |
+|Afbrigðiskóði |Sá sami og í raunbirgðabók. |
+|Kóti birgðageymslu  |Sá sami og í raunbirgðabók. |
+|Mælieiningarkóði |Sá sami og í raunbirgðabók. |
 
 > [!NOTE]
 > Samsetningarpöntun getur aðeins meðhöndlað eina birgðahaldseiningu fyrir vöru hverju sinni. Stofna þarf samsetningarpöntun fyrir hverja samsetningu birgðahaldseiningar sem er með magn í birgðum.
@@ -153,15 +154,15 @@ Eftirfarandi tafla sýnir virk svæði þar sem hugsanlega er útistandandi magn
 
 |Svæði  |Hvar á að leita að útistandandi magni  |
 |---------|---------|
-|Sölur     |Söluskjöl, þ.m.t. pantanir, vöruskilapantanir, reikningar, tilboð, standandi pantanir og kreditreikningar         |
-|Birgðir     |Birgðabækur, frátekningar, vörurakning og vinnublað staðlaðs kostnaðarverðs         |
-|Innkaup     |Innkaupaskjöl, þ.m.t. pantanir, vöruskilapantanir, reikningar, tilboð, standandi pantanir og kreditreikningar         |
-|Áætlun     |Innkaupatillögublað, áætlanavinnublað og pantanaáætlun         |
-|Vöruhús     |Flutningspantanir, vöruhúsaafhendingar, vöruhúsabækur og vöruhúsatínsla, -frágangur og hreyfingar, innri tínsla og frágangur og vinnublöð hólfastofnunar         |
-|Samsetning     |Samsetningarskjöl, þ.m.t. pantanir, skilapantanir og standandi pantanir         |
-|Verk     |Verkáætlunarlínur og verkbókarlínur         |
-|Þjónusta     |Þjónustuskjöl og þjónustusamningar         |
-|Framleiðsla     |Framleiðslupantanir (áætlaðar, fastáætlaðar og losaðar)         |
+|Sölur |Söluskjöl, þ.m.t. pantanir, vöruskilapantanir, reikningar, tilboð, standandi pantanir og kreditreikningar |
+|Birgðir |Birgðabækur, frátekningar, vörurakning og vinnublað staðlaðs kostnaðarverðs |
+|Innkaup |Innkaupaskjöl, þ.m.t. pantanir, vöruskilapantanir, reikningar, tilboð, standandi pantanir og kreditreikningar |
+|Áætlun |Innkaupatillögublað, áætlanavinnublað og pantanaáætlun |
+|Vöruhús |Flutningspantanir, vöruhúsaafhendingar, vöruhúsabækur og vöruhúsatínsla, -frágangur og hreyfingar, innri tínsla og frágangur og vinnublöð hólfastofnunar |
+|Samsetning |Samsetningarskjöl, þ.m.t. pantanir, skilapantanir og standandi pantanir |
+|Verk |Verkáætlunarlínur og verkbókarlínur |
+|Þjónusta |Þjónustuskjöl og þjónustusamningar |
+|Framleiðsla |Framleiðslupantanir (áætlaðar, fastáætlaðar og losaðar) |
 
 ### <a name="block-the-original-item-from-further-use"></a>Útiloka upprunalega vöru frá frekari notkun
 

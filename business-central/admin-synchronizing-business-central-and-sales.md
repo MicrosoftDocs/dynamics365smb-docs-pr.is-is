@@ -1,6 +1,6 @@
 ---
 title: Samstilling og samþætting gagna | Microsoft Docs
-description: Samstillingarafritin gögn á milli taflna Microsoft Dataverse og Business Central, og heldur gögnunum í báðum kerfum upp til dags.
+description: Samstillingin afritar gögn milli tafla Microsoft Dataverse og Business Central og heldur gögnunum í báðum kerfum uppfærðum.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 09990c620dbd6bd3e1cd00af594426851a4c1546
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
-ms.translationtype: MT
+ms.openlocfilehash: a44777bce30cf4ab4cb07b5b1a05f36d8cbb87f7
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865364"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049797"
 ---
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Samstilla gögn í Viðskiptamiðinu við Microsoft Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Samstilling gagna í Business Central með Microsoft Dataverse
+
 
 Við samþættingu [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að ákveða hvort eigi að samstilla gögn á völdum svæðum [!INCLUDE[prod_short](includes/prod_short.md)] (t.d. viðskiptamenn, tengiliðir og sölumenn) við samsvarandi línur í [!INCLUDE[prod_short](includes/cds_long_md.md)] (s.s. reikningar, tengiliðir og notendur). Háð gerðar línu, er hægt að samstilla gögn úr [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)] eða öfugt. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -40,7 +40,7 @@ Samstilling notar eftirfarandi einingar:
 |Áætluð samstilling|Samstilla allar breytingar á gögnum fyrir allar töfluvarpanir.<br /><br /> Hægt er að samstilla [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] með áætluðu millibili með því að setja upp verk í verkröðinni.|[Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
 > [!NOTE]
-> Samstilling á milli [!INCLUDE[prod_short](includes/cds_long_md.md)][!INCLUDE[prod_short](includes/prod_short.md)] er byggð á áætlaðri keyrslu vinnsluraðarfærslna og tryggir ekki rauntímagögn samræmi milli tveggja þjónustu. Fyrir rauntíma gagnaskipti sem þú ættir að kanna á [sýndartöflum Viðskiptamiðaðrar stofnunar](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eða viðskipta.   
+> Samstilling á milli [!INCLUDE[prod_short](includes/cds_long_md.md)][!INCLUDE[prod_short](includes/prod_short.md)] er byggð á áætlaðri keyrslu vinnsluraðarfærslna og tryggir ekki rauntímagögn samræmi milli tveggja þjónustu. Fyrir rauntíma gagnaskipti sem þú ættir að kanna [á sýndartöflum](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) viðskiptamiðaðrar stofnunar eða viðskipta.   
 
 
 ## <a name="standard-table-mapping-for-synchronization"></a>Stöðluð töfluvörpun fyrir samstilling
@@ -60,7 +60,7 @@ Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_shor
 | Gjaldmiðill | Gjaldmiðill færslu | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
 > [!NOTE]
-> **Dataverse-** Aðgerðir verða ekki tiltækar á síðum, til dæmis síðunni viðskiptamannaspjald, fyrir færslur sem virða ekki töfluafmörkunina í vörpun samþættingartöflunnar.
+> **Dataverse** aðgerðirnar verða ekki tiltækar á síðum, til dæmis síðu viðskiptamannaspjalds, fyrir færslur sem virða ekki töflusíuna á vörpun samþættingartöflu.
 
 ### <a name="tip-for-admins-viewing-table-mappings"></a>Ábending fyrir stjórnendur: Skoðun töfluvarpana
 Hægt er að skoða vörpunina milli tafla í [!INCLUDE[prod_short](includes/cds_long_md.md)] og í [!INCLUDE[prod_short](includes/prod_short.md)] á síðunni **Vörpun samþættingartöflu** þar sem einnig er hægt að nota afmarkanir. Skilgreining á vörpun milli reita í [!INCLUDE[prod_short](includes/prod_short.md)]-töflum og dálka í [!INCLUDE[prod_short](includes/cds_long_md.md)]-töflum á síðunni **Vörpun samþættingarreits** þar sem hægt er að bæta við viðbótarreglum fyrir vörpun. Þetta getur til dæmis verið gagnlegt ef nauðsynlegt er að úrræðaleita samstillingu.

@@ -1,6 +1,6 @@
 ---
 title: Samþætting við Dynamics 365 Sales
-description: Lærðu hvernig á að fá Dynamics 365 Business Central tilbúið til að samþætta við Dynamics 365 Sales til að sjá hvað er að gerast á bakendanum.
+description: Kynntu þér hvernig þú sækir Dynamics 365 Business Central tilbúið til að samþætta við Dynamics 365 Sales til að sjá hvað er að gerast í bakvinnslunni.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5aa6849ebb591622828eed1cd40f5bd7be58262d
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
-ms.translationtype: MT
+ms.openlocfilehash: 0c044371622232177d97ea954bbd81e4671d70be
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865722"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049615"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Samþætting við Dynamics 365 Sales
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Hlutverk sölumannsins er oft talið sýnilegasti hlutinn í viðskiptum. Hins vegar getur það gagnast sölumönnum að geta fengið innsýn í viðskiptin og séð hvað er að gerast á bak við tjöldin. Með því að samþætta [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] er hægt að veita sölufólkinu þessa innsýn með því að gera því kleift að skoða upplýsingar í [!INCLUDE[prod_short](includes/prod_short.md)] á meðan það vinnur í [!INCLUDE[crm_md](includes/crm_md.md)]. Þegar sölutilboð er undirbúið getur það til dæmis verið gagnlegt að vita hvort nægar birgðir séu til staðar til að uppfylla pöntunina. Frekari upplýsingar er að finna í [Að nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -26,7 +26,7 @@ Hlutverk sölumannsins er oft talið sýnilegasti hlutinn í viðskiptum. Hins v
 > Þetta efnisatriði útskýrir ferlið við samþættingu á vefútgáfum af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)]. Frekari upplýsingar um grunnstillingu á staðnum er að finna í [Undirbúningur Dynamics 365 Sales fyrir samþættingu á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-dataverse"></a>Samþætting í gegnum Dataverse
-[!INCLUDE[prod_short](includes/prod_short.md)] er einnig samþætt við [!INCLUDE[prod_short](includes/cds_long_md.md)], sem auðveldar tengingu og samstillingu gagna við önnur Dynamics 365 forrit, t.d. [!INCLUDE[crm_md](includes/crm_md.md)] eða jafnvel forrit sem þú smíðar. Ef verið er að samþætta í fyrsta sinn verður að gera það í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)]. Nánari upplýsingar eru [í Samþætting við Dataverse](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] er einnig samþætt við [!INCLUDE[prod_short](includes/cds_long_md.md)], sem auðveldar tengingu og samstillingu gagna við önnur Dynamics 365 forrit, t.d. [!INCLUDE[crm_md](includes/crm_md.md)] eða jafnvel forrit sem þú smíðar. Ef þú ert að samþætta í fyrsta sinn þarf að gera það í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)]. Frekari upplýsingar er að finna í [Samþætting við Dataverse](admin-common-data-service.md).
 
 Ef þegar er búið að samþætta [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að halda áfram að samstilla gögn með uppsetningunni. Ef þú hins vegar uppfærir eða slekkur á [!INCLUDE[crm_md](includes/crm_md.md)]-samþættingunni, þarftu að tengjst í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)] til að kveikja á henni aftur. Frekari upplýsingar er að finna í [Uppfærsla samþættingar við Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
 
@@ -39,9 +39,9 @@ Samþætting við [!INCLUDE[prod_short](includes/prod_short.md)] gerist í gegnu
 ## <a name="permissions-and-security-roles-for-user-accounts-in-sales"></a>Heimildir og öryggishlutverk fyrir notandareikninga í Sales
 Þegar samþættingarlausnin er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef þessum heimildum er breytt þarf mögulega að endurstilla þær. Hægt er að gera það með því að setja samþættingarlausnina upp aftur eða velja **Endurvirkja samþættingarlausn** á síðunni **Uppsetning Dynamics 365-tengingar**. Eftirfarandi öryggishlutverk eru virkjuð:
 
-* Dynamics 365 Business Central samþættingarstjóri
-* Dynamics 365 Business Central samþættingarnotandi
-* Dynamics 365 Business Central vara til ráðstöfunar
+* Dynamics 365 Business Central Samþættingarstjórnandi
+* Dynamics 365 Business Central Samþættingarnotandi
+* Dynamics 365 Business Central Notandi afurðaframboðs
 
 ### <a name="connection-settings-in-the-setup-guide"></a>Tengingarstillingar í uppsetningarleiðbeiningum
 Hægt er að nota uppsetningarleiðbeiningar með hjálp til að setja upp tenginguna á fljótvirkan hátt og tilgreina ítarlega eiginleika, t.d. tengingu milli færslna.
@@ -54,14 +54,14 @@ Hægt er að nota uppsetningarleiðbeiningar með hjálp til að setja upp tengi
 | Svæði | Description |
 |--|--|
 | **Flytja inn Dynamics 365 Sales Solution** | Virkja þetta til að setja upp og grunnstilla samþættingarlausnina í [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
-| **Birta vefþjónustuna „Vara til ráðstöfunar“** | Gera fólki sem er að nota [!INCLUDE[crm_md](includes/crm_md.md)] kleift að skoða framboð á vörum (afurðum) í birgðum í [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta krefst [!INCLUDE[prod_short](includes/prod_short.md)]-notandareiknings með aðgangslykli vefþjónustu. Úthlutun lykilsins er ferli í tveimur skrefum. Í notandareikningnum í [!INCLUDE[prod_short](includes/prod_short.md)] verður þú að velja aðgerðina **Breyta vefþjónustulykli**. Í uppsetningarleiðbeiningum dynamics 365 Sölutengingar með hjálp verður að tilgreina Dynamics 365 Business Central OData vefþjónustuslóðina og veita [!INCLUDE[prod_short](includes/prod_short.md)] notandaskilríki til að fá aðgang að þjónustunni. Nánari upplýsingar er að finna í [Vefþjónustur OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
+| **Birta vefþjónustuna „Vara til ráðstöfunar“** | Gera fólki sem er að nota [!INCLUDE[crm_md](includes/crm_md.md)] kleift að skoða framboð á vörum (afurðum) í birgðum í [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta krefst [!INCLUDE[prod_short](includes/prod_short.md)]-notandareiknings með aðgangslykli vefþjónustu. Úthlutun lykilsins er ferli í tveimur skrefum. Í notandareikningnum í [!INCLUDE[prod_short](includes/prod_short.md)] verður þú að velja aðgerðina **Breyta vefþjónustulykli**. Í uppsetningarleiðbeiningum með hjálp fyrir uppsetningu Dynamics 365 Sales tengingar verður að tilgreina vefslóðina fyrir OData-vefþjónustu Dynamics 365 Business Central og veita [!INCLUDE[prod_short](includes/prod_short.md)] aðgangsupplýsingar notanda fyrir aðgang að þjónustunni. Nánari upplýsingar er að finna í [Vefþjónustur OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
 |**Notandanafn vefþjónustu Business Central OData** | Heiti [!INCLUDE[prod_short](includes/prod_short.md)]-notandareiknings sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar í [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum vefþjónustu OData. |
 | **Aðgangslykill vefþjónustu Business Central OData** | Aðgangslykill fyrir notandareikning sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar frá [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum vefþjónustu OData. Lyklinum er úthlutað til notanda sem er valinn í reitnum **Notandanafn fyrir vefþjónustu Business Central OData**. Til að fá lykilinn skal velja hnappinn **Fletta upp gildi** við hliðina á notandanafninu, velja notandann, velja **Stjórna** og síðan **Breyta**. Á notandaspjaldinu skal velja **Aðgerðir**, **Sannvottun** og síðan velja **Breyta vefþjónustulykli**. |
 | **Virkja samþættingu sölupöntunar** | Þegar fólk býr til sölupantanir í [!INCLUDE[crm_md](includes/crm_md.md)] og uppfyllir pantanir í [!INCLUDE[prod_short](includes/prod_short.md)] samþættar þetta ferlið í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna á [Virkja sölupöntunarferli samþættingar](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Þetta krefst þess að þú veitir aðgangsupplýsingar fyrir notandareikning stjórnanda í [!INCLUDE[crm_md](includes/crm_md.md)]. Nánari upplýsingar er að finna í [Meðhöndlun á gögnum sölupöntunar](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
 |**Virkja Dynamics 365 Sales Connection** | Virkja tenginguna við [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Dynamics 365 SDK útgáfa** | Þetta á aðeins við ef verið er að samþætta við útgáfu á staðnum af [!INCLUDE[crm_md](includes/crm_md.md)]. Þetta er hugbúnaðarþróunarpakki Dynamics 365 (einnig vísað í sem Xrm) sem er notaður tili að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[crm_md](includes/crm_md.md)]. Útgáfan verður að vera samhæf SDK-útgáfunni sem notuð er af [!INCLUDE[crm_md](includes/crm_md.md)] og sú sama eða nýrri og útgáfan sem er notuð af [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
-### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Tengingarstillingar á uppsetningarsíðu tengingar Microsoft Dynamics 365
+### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Stillingar tengingar á Uppsetning tengingar  Microsoft Dynamics 365
 
 Færðu inn eftirfarandi upplýsingar fyrri tenginguna frá [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -69,9 +69,9 @@ Færðu inn eftirfarandi upplýsingar fyrri tenginguna frá [!INCLUDE[crm_md](in
 |--|--|
 |**Dynamics 365 Sales vefslóð**|Vefslóð fyrir [!INCLUDE[crm_md](includes/crm_md.md)]-tilvikið þitt. Þetta gerir notendum kleift að opna samsvarandi færslur í [!INCLUDE[prod_short](includes/prod_short.md)] úr færslum í [!INCLUDE[crm_md](includes/crm_md.md)], svo sem reikningi eða vöru. [!INCLUDE[prod_short](includes/prod_short.md)]-færslur opnast í [!INCLUDE[prod_short](includes/prod_short.md)].|
 |**Kveikt er á vefþjónustunni Vara til ráðstöfunar**|Gera fólki sem er að nota [!INCLUDE[crm_md](includes/crm_md.md)] kleift að skoða framboð á vörum (afurðum) í birgðum í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þetta er virkjað þarf einnig að útvega notandanafn og aðgangslykli fyrir [!INCLUDE[crm_md](includes/crm_md.md)] til að nota til að senda fyrirspurn á vefþjónustu OData um framboð á vörum (afurðum). Nánari upplýsingar er að finna í [Vefþjónustur OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
-|**Vefþjónustuvefslóð Dynamics 365 Business Central OData**|Ef vefþjónusta fyrir ráðstöfun á vöru er virkjuð verður vefslóð fyrir vefþjónustu OData útvegað fyrir þig. Stillið þennan reit á vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)] tilvikið sem nota á.<br /><br /> Til að endurstilla reitinn á sjálfgefna vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)], skal velja aðgerðina **Endurstilla vefslóð vefbiðlara**.<br /><br /> Þessi reitur á aðeins við ef [!INCLUDE[prod_short](includes/prod_short.md)] samþættingarlausn er sett upp í [!INCLUDE[crm_md](includes/crm_md.md)].|
-|**Notandanafn Dynamics 365 Business Central OData vefþjónustu**|Heiti notandareiknings sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar frá [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum vefþjónustu OData.|
-|**Dynamics 365 Business Central OData vefþjónustuaðgangslykill**|Aðgangslykill fyrir notandareikning sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar frá [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum vefþjónustu OData. Lyklinum er úthlutað á notandann sem valinn er í **reitnum Dynamics 365 Business Central OData Web Service** Username. Til að fá lykilinn skal velja hnappinn **Fletta upp gildi** við hliðina á notandanafninu, velja notandann, velja **Stjórna** og síðan **Breyta**. Á notandaspjaldinu skal velja **Aðgerðir**, **Sannvottun** og síðan velja **Breyta vefþjónustulykli**.|
+|**Vefslóð fyrir vefþjónustu Dynamics 365 Business Central OData**|Ef vefþjónusta fyrir ráðstöfun á vöru er virkjuð verður vefslóð fyrir vefþjónustu OData útvegað fyrir þig. Stillið þennan reit á vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)] tilvikið sem nota á.<br /><br /> Til að endurstilla reitinn á sjálfgefna vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)], skal velja aðgerðina **Endurstilla vefslóð vefbiðlara**.<br /><br /> Þessi reitur á aðeins við ef [!INCLUDE[prod_short](includes/prod_short.md)] samþættingarlausn er sett upp í [!INCLUDE[crm_md](includes/crm_md.md)].|
+|**Dynamics 365 Business Central Notandanafn fyrir vefþjónustu OData**|Heiti notandareiknings sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar frá [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum vefþjónustu OData.|
+|**Dynamics 365 Business Central Aðgangslykill vefþjónustu OData**|Aðgangslykill fyrir notandareikning sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar frá [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum vefþjónustu OData. Lyklinum er úthlutað til notanda sem er valinn í reitnum **Dynamics 365 Business Central Notandanafn fyrir vefþjónustu OData**. Til að fá lykilinn skal velja hnappinn **Fletta upp gildi** við hliðina á notandanafninu, velja notandann, velja **Stjórna** og síðan **Breyta**. Á notandaspjaldinu skal velja **Aðgerðir**, **Sannvottun** og síðan velja **Breyta vefþjónustulykli**.|
 |**Dynamics 365 SDK útgáfa**|Ef verið er að samþætta við útgáfu á staðnum af [!INCLUDE[crm_md](includes/crm_md.md)], er þetta hugbúnaðarþróunarpakki Dynamics 365 (einnig vísað í sem Xrm) sem er notaður til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[crm_md](includes/crm_md.md)]. Útgáfan sem var valin verður að vera samhæf SDK-útgáfunni sem notuð er af [!INCLUDE[crm_md](includes/crm_md.md)]. Þessi útgáfa sem er til jafns á við eða nýrri en útgáfan sem er notuð af [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 Auk ofangreindra stillinga skal færa inn eftirfarandi stillingar fyrir [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -134,15 +134,15 @@ Til að nota nýju varpanirnar þarf að samstilla einingahópa, mælieiningu v�
 
 Eftirfarandi skref lýsa skrefunum til að hefja vörpun einingahópa:
 
-1. Gættu þess að afurðir í [!INCLUDE[crm_md](includes/crm_md.md)] séu ekki tengdar við vörur eða tilföng í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef svo er skaltu fara á **síðurnar Vörur** og/eða **Tilföng** og nota síuvalkostina til að velja tengdar færslur. Veldu síðan **Dynamics 365 Sales** aðgerðina og veldu **Uncouple**. Þetta tímasetur bakgrunnsvinnslu til að aftengja færslurnar. Á meðan verkið er í gangi er hægt að athuga stöðu þess með því að nota aðgerðina **Samstillingarkladdi**. Frekari upplýsingar er að finna í [Tenging og samstilling](admin-how-to-couple-and-synchronize-records-manually.md). 
+1. Gættu þess að afurðir í [!INCLUDE[crm_md](includes/crm_md.md)] séu ekki tengdar við vörur eða tilföng í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þær eru skal fara á **síðurnar** og/eða **forða** og nota síuvalkosti til að velja kostnaðarsömu færslur. Veldu **síðan Dynamics 365 söluaðgerðina** og veldu **afpar**. Þetta tímasetur bakgrunnsvinnslu til að aftengja færslurnar. Á meðan verkið er í gangi er hægt að athuga stöðu þess með því að nota aðgerðina **Samstillingarkladdi**. Frekari upplýsingar er að finna í [Tenging og samstilling](admin-how-to-couple-and-synchronize-records-manually.md). 
 2. Þar sem nýjar afurðir verða búnar til í [!INCLUDE[crm_md](includes/crm_md.md)] með nýjum einingahópum skal gera eitt af eftirfarandi til að forðast tvítekningu heita:
     
-    * Endurnefndu afurðirnar og taka þær svo úr umferð í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Taka afurðir úr umferð (sölumiðstöð)](/dynamics365/sales-enterprise/retire-product). Til að breyta vörunum þínum í Microsoft Excel skaltu skrá þig inn í Power Apps, velja umhverfið þitt, fara í **töfluna Vara** og velja síðan **flipann** Gögn. Hreinsa allar síur sem eru notaðar. Í hópnum **Gögn** skal velja aðgerðina **Breyta gögnum í Excel**. Bættu forskeyti eða viðskeyti við tengdar afurðir og taktu þær svo úr umferð.
+    * Endurnefndu afurðirnar og taka þær svo úr umferð í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Taka afurðir úr umferð (sölumiðstöð)](/dynamics365/sales-enterprise/retire-product). Til að magnbreyta afurðum notanda inn Microsoft Excel, skrá Power Apps þær inn, velja umhverfi, fara í **afurðatöflu** og velja **svo flipann gögn** . hreinsa síur sem er beitt. Í hópnum **Gögn** skal velja aðgerðina **Breyta gögnum í Excel**. Bættu forskeyti eða viðskeyti við tengdar afurðir og taktu þær svo úr umferð.
     * Taktu afurðirnar úr umferð og eyddu þeim. 
 
 3. Fylgdu þessum skrefum til að samstilla **Einingahópa**, **Mælieiningar**, **Vörur** og **Tilföng**:
     1. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal opna síðuna **Uppsetning tengingar fyrir Dynamics 365 Sales**.
-    2. Nota skal **aðgerðina Keyra fulla samstillingu** til að opna **Dataverse Full Synch. Fara yfir** síðu.
+    2. Notaðu aðgerðina **Keyra fulla samstillingu** til að opna síðuna **Dataverse Yfirfara fulla samstillingu**.
     3. Fyrir varpanirnar **VARA UOM**, **TILFANG UOM** OG **EININGAHÓPUR** skal velja aðgerðina **Ráðleggja fulla samstillingu**.
     4. Veldu aðgerðina **Samstilla allt**.
 
@@ -154,7 +154,7 @@ Eftirfarandi skref lýsa skrefunum til að hefja vörpun einingahópa:
 
 ### <a name="synchronization-rules"></a>Samstillingarreglur
 
-Í eftirfarandi töflu eru taldar upp reglurnar sem stjórna samstillingu milli [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta eru auk reglna sem skilgreindar eru fyrir Dataverse, sem einnig gilda. Frekari upplýsingar er að finna í [Stöðluð einingavörpun](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
+Í eftirfarandi töflu eru taldar upp reglurnar sem stjórna samstillingu milli [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta er viðbót við reglur sem skilgreindar eru fyrir Dataverse, sem eiga einnig við. Frekari upplýsingar er að finna í [Stöðluð einingavörpun](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
 > [!NOTE]  
 > Breytingar á gögnum í  sem voru gerðar af notandareikningi samþættingar eru ekki samstilltar. Mælt er með því að gögnum sé ekki breytt á meðan reikningurinn er notaður. Nánari upplýsingar er að finna í [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
@@ -172,7 +172,7 @@ Eftirfarandi skref lýsa skrefunum til að hefja vörpun einingahópa:
 
 ### <a name="synchronization-jobs-for-a-sales-integration"></a>Samstillingarverk fyrir samþættingu Sales
 
-Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenginga milli taflanna. Fleiri vinnslur eru tiltækar frá Dataverse. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](./admin-job-queues-schedule-tasks.md).
+Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenginga milli taflanna. Þetta eru aukaleg verk sem eru í boði úr Dataverse. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](./admin-job-queues-schedule-tasks.md).
 
 1. UNITOFMEASURE-samstillingarvinnsla Dynamics 365 Sales  
 2. TILFÖNG-AFURÐ fyrir samstillingarvinnslu Dynamics 365 Sales  
@@ -195,50 +195,50 @@ Eftirfarandi tafla lýsir sjálfgefnu samstillingarverkunum fyrir Sales.
 |POSTEDSALESINV-INV-Dynamics 365 Sales samstillingarvinnsla|Samstillir [!INCLUDE[crm_md](includes/crm_md.md)] reikninga við [!INCLUDE[prod_short](includes/prod_short.md)] bókaða sölureikninga.|Frá [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|REIKNINGAR-BÓKAÐIR SÖLUREIKNINGAR|30|1440<br> (24 klst.)|
 |Talnagögn viðskiptavinar - samstillingarvinnsla Dynamics 365 Sales|Uppfærir [!INCLUDE[crm_md](includes/crm_md.md)] reikninga með nýjustu [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamannagögnunum. Í [!INCLUDE[crm_md](includes/crm_md.md)] birtast upplýsingarnar í **Tölfræði fyrir Business Central-reikning** skjámynd flýtiyfirlits yfir reikninga sem eru tengdir við [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamenn.<br /><br /> Einnig er hægt að uppfæra þessi gögn handvirkt úr hverri viðskiptamannafærslu. Frekari upplýsingar er að finna í [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Athugið:** Þessi verkraðarfærsla á aðeins við ef [!INCLUDE[prod_short](includes/prod_short.md)] samþættingarlausnin er sett upp í [!INCLUDE[crm_md](includes/crm_md.md)]. |Á ekki við|Á ekki við|30|Á ekki við| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Tenging við útgáfur á staðnum af útgáfum Business Central 2019 útgáfubylgju 1 og Microsoft Dynamics NAV 2018
-Microsoft Power Platform [teymið hefur tilkynnt að það sé að](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) afskrifa sannvottunargerð Office365. Ef notað er [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum sem er eldra en útgáfutímabil 1 af Business Central 2019 þarf að nota sannvottunargerð OAuth til að tengjast [!INCLUDE[crm_md](includes/crm_md.md)] á netinu. Skrefin í þessum hluta lýsa því hvernig á að tengjast eftirfarandi útgáfum af vöru:
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Tenging við staðbundnar útgáfur af Business Central 2019 útgáfutímabil 1 og Microsoft Dynamics NAV 2018
+Microsoft Power Platform-teymið hefur [tilkynnt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) að það sé að úrelda sannvottunargerð Office 365. Ef notað er [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum sem er eldra en útgáfutímabil 1 af Business Central 2019 þarf að nota sannvottunargerð OAuth til að tengjast [!INCLUDE[crm_md](includes/crm_md.md)] á netinu. Skrefin í þessum hluta lýsa því hvernig á að tengjast eftirfarandi útgáfum af vöru:
 
 * Útgáfutímabil 1 af Business Central 2019
 * Microsoft Dynamics NAV 2018
 
 ### <a name="prerequisites"></a>Frumskilyrði
 
-- Þú verður að vera með Microsoft Azure-áskrift. Prufureikningur virkar fyrir forritsskráningu.
+- Nauðsynlegt er að vera með Microsoft Azure-áskrift. Prufureikningur virkar fyrir forritsskráningu.
 - [!INCLUDE[crm_md](includes/crm_md.md)] er grunnstillt til að nota eina af eftirfarandi sannvottunargerðum:
 
    - Office365 (eldra)
 
      > [!IMPORTANT]
-     > Gildir frá apríl 2022, Office365 (eldra) verður ekki lengur stutt. Frekari upplýsingar er að finna [í Mikilvægar breytingar (úreldingar) sem koma í Power Apps, Power Automate og þátttökuforritum viðskiptavina](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+     > Gildir frá apríl 2022, Office365 (eldra) verður ekki lengur stutt. Frekari upplýsingar eru í [Mikilvægar breytingar (afskriftir) væntanlegar í Power Apps, Power Automate og viðskiptavinaforritum](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
 
    - OAuth
 
-### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Til að tengja Business Central 2019 útgáfubylgju 1 og Dynamics NAV 2018
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Til að tengja Business Central 2019 útgáfutímabil 1 og Dynamics NAV 2018
 
-1. Flytja inn samþættingarlausn Microsoft Dynamics 365 Business Central inn í [!INCLUDE[crm_md](includes/crm_md.md)] umhverfið. Samþættingarlausnin er fáanleg í CrmCustomization möppunni á [!INCLUDE[prod_short](includes/prod_short.md)] DVD-diskinum eða Dynamics NAV 2018. Flytjið inn eitt af eitt af eftirfarandi eftir því hver útgáfa vörunnar er:
+1. Flytjið samþættingarlausn Microsoft Dynamics 365 Business Central inn í [!INCLUDE[crm_md](includes/crm_md.md)]-umhverfið. Samþættingarlausnin er í boði í möppunni CrmCustomization á DVD-uppsetningardisknum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] eða Dynamics NAV 2018. Flytjið inn eitt af eitt af eftirfarandi eftir því hver útgáfa vörunnar er:
 
    * Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur mappan DynamicsNAVIntegrationSolution_v9 og DynamicsNAVIntegrationSolution_v91. lausnir. Lausnin sem þú ættir að flytja inn veltur á þeirri útgáfu af [!INCLUDE[crm_md](includes/crm_md.md)] sem verið er að tengjast. [!INCLUDE[crm_md](includes/crm_md.md)] á netinu þarf samþættingarlausnina DynamicsNAVIntegrationSolution_v91.
-   * Fyrir Dynamics NAV 2018 skal setja upp DynamicsNAVIntegrationSolution lausnina.
+   * Fyrir Dynamics NAV 2018 skal setja upp DynamicsNAVIntegrationSolution-lausnina.
 
 2. Stofnið ógagnvirkan samþættingarnotanda í [!INCLUDE[crm_md](includes/crm_md.md)]-umhverfinu og úthlutið notandanum eftirfarandi öryggishlutverkum. Frekari upplýsingar er að finna í [Stofna ógagnvirkan notandareikning](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-   * Dynamics 365 Business Central samþættingarstjóri
-   * Dynamics 365 Business Central samþættingarnotandi
+   * Dynamics 365 Business Central Samþættingarstjórnandi
+   * Dynamics 365 Business Central Samþættingarnotandi
 
    > [!Important]
    > Þessi notandi má ekki hafa öryggishlutverk kerfisstjóra. Einnig er ekki hægt að nota reikning kerfisstjóra sem samþættingarnotanda.
 
-3.  Í Azure-gáttinni skal búa til forritsskráningu fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Nánari upplýsingar eru [í Skrá umsókn í Azure Active Directory](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+3.  Í Azure-gáttinni skal búa til forritsskráningu fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Skrá forrit í Azure Active Directory](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
   
    > [!NOTE]
-   > Við mælum með að þú skráir appið í sama leigjanda og Dataverse umhverfið þitt svo að þú þurfir ekki að samþykkja að láta forritið fá aðgang að umhverfinu. Ef þú skráir forritið í öðru umhverfi verður þú að skrá þig inn á Azure AD með því að nota stjórnandareikninginn fyrir Dataverse umhverfið þitt og veita samþykki.
+   > Mælt er með að forrið sé skráð í sama leigjanda og Dataverse-umhverfið þannig að ekki þurfi að samþykkja aðgang forritsins að umhverfinu. Ef þú skráir forritið í öðru umhverfi þarf að skrá sig inn í Azure AD með stjórnandareikningnum fyrir Dataverse-umhverfið og veita samþykki.
    >
-   > Auk þess má forritið sem þú skráir ekki vera með leynilykil. Að tengja forrit við leyndarmál við Dataverse er aðeins aðgengilegt í Business Central 2020 útgáfubylgju 1 og síðar.
+   > Auk þess má forritið sem þú skráir ekki vera með leynilykil. Að tengja forrit með leynilykli við Dataverse er aðeins í boði í Business Central 2020 útgáfutímabili 1 og síðar.
   
 4. Gerið eitt af eftirfarandi eftir því hver útgáfa vörunnar er:
 
-    * Í [!INCLUDE[prod_short](includes/prod_short.md)] skal leita að uppsetningu **tengingar Microsoft Dynamics 365** og velja síðan tengdan tengil. 
-    * Í Dynamics NAV 2018 skal leita að **Microsoft Dynamics 365 for Sales Connection Setup** og velja síðan tengdan tengil.
+    * Í [!INCLUDE[prod_short](includes/prod_short.md)] skal leita að **Microsoft Dynamics 365 uppsetning tengingar** og síðan velja viðkomandi tengil. 
+    * Í Dynamics NAV 2018 skal leita að **Microsoft Dynamics 365 for Sales Uppsetning tengingar** og síðan velja viðkomandi tengil.
 
 5. Í reitnum **Sannvottunargerð**, skal velja valkostinn fyrir OAuth. 
 6. Veljið SDK-útgáfu CRM sem samsvarar úrlausnarútgáfu sem flutt var inn í skrefi 1.
@@ -249,7 +249,7 @@ Microsoft Power Platform [teymið hefur tilkynnt að það sé að](/power-platf
 7. Sláið inn vefslóð [!INCLUDE[crm_md](includes/crm_md.md)]-umhverfisins og sláið síðan inn notandanafn og aðgangsorð fyrir samþættingarnotandann. 
 
    * Í [!INCLUDE[prod_short](includes/prod_short.md)] skal nota reitinn **Vistfang þjóns**.
-   * Í Dynamics NAV 2018 skal nota **reitinn Dynamics 365 Sales** URL.
+   * Í Dynamics NAV 2018 skal nota reitinn **Vefslóð Dynamics 365 Sales**.
 
 8. Í reitinn **Tengistrengur** skal tilgreina auðkenni forritsskráningarinnar. Þessi reitur er með tveimur merkjum þar sem tilgreina þarf kenni forrits.
 
@@ -266,7 +266,7 @@ Microsoft Power Platform [teymið hefur tilkynnt að það sé að](/power-platf
 9. Virkjaðu tenginguna.
 
 > [!Note]
-> Ef þú vilt skilgreina tengingu við [!INCLUDE[crm_md](includes/crm_md.md)]-tilvik með tiltekinni gerð sannvottunar skaltu fylla út reitina á flýtiflipanum **Upplýsingar um sannvottunargerð**. Frekari upplýsingar er að finna í [Sannvottun með vefþjónustu Microsoft Dataverse](/powerapps/developer/data-platform/authentication). Ekki er krafist þessa skrefs þegar tengd er netútgáfa af [!INCLUDE[prod_short](includes/prod_short.md)].
+> Ef þú vilt skilgreina tengingu við [!INCLUDE[crm_md](includes/crm_md.md)]-tilvik með tiltekinni gerð sannvottunar skaltu fylla út reitina á flýtiflipanum **Upplýsingar um sannvottunargerð**. Frekari upplýsingar eru í [Sannvottun með Microsoft Dataverse vefþjónustu](/powerapps/developer/data-platform/authentication). Ekki er krafist þessa skrefs þegar tengd er netútgáfa af [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="see-also"></a>Sjá einnig
 

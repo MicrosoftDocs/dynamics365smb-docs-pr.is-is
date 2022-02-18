@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: db872c8049550a497e2ee56a4a62bb69fa6a1854
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341334"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049849"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)] -gögn
 
@@ -150,6 +150,39 @@ Til að birta skýrslu skal velja **Birta** á flipanum **Heim** á borðanum e�
 - Deila skýrslum úr Power BI þjónustu
 
     Ef um er að ræða Power BI Pro-leyfi er hægt að deila skýrslunni til annarra, beint úr Power BI-þjónustunni. Frekari upplýsingar er að finna á [Power BI - Deila stjórnborði eða skýrslu](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+
+## <a name="fixing-problems"></a>Vandamál lagfærð
+
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Ekki er hægt að setja inn færslu. Gildandi tengingarásetningur er skrifvarin. " Villa við tengingu við sérsniðna API síðu
+
+> **GILDIR UM:** Business Central Online
+
+Sem hefst í febrúar 2022, nýjar skýrslur sem nota aðalgögn fyrirtækja munu tengjast lestri aðeins eftirmynd af aðalgagnagrunni viðskiptamiðsins að sjálfgefnu. Í einstaka tilfellum fer eftir síðunni hönnun, þú færð villu þegar þú reynir að tengjast og færð gögn af síðunni.
+
+1. Ræsið Power BI Desktop.
+2. Í borðhaldinu velurðu **Sækja Data** > **netþjónustu**.
+3. **Í rúðunni þjónusta** á netinu er valið **Dynamics 365 Business Central**, síðan **tengjast**.
+4. **Í glugganum Navigator** er API-endastöð valin sem á að hlaða gögn úr.
+5. Í forskoðunarglugganum hægra megin sérðu eftirfarandi villu:
+
+   *Dynamics365BusinessCentral: beiðni mistókst: fjarstýrð Þjónn skilaði villu: (400) slæm beiðni. (Ekki hægt að setja inn færslu. Gildandi tengingarásetningur er skrifvarin. CorrelationId: [...])".*
+
+6. Velja **umbreytingargögn** í stað **álags** eins og venjulega.
+7. Í **Power Query ritstjórn** er valið **ítarlegur ritstjóri** frá borði.
+8. Í línunni sem byrjar **á Source =**, skal skipta út eftirfarandi texta:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+   með
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
+   ```
+
+9. Valið **er gert**.
+10. Veldu **loka & sækja um** frá borði til að vista breytingarnar og loka Power Query riti.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

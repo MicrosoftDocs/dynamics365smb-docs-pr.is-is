@@ -1,7 +1,6 @@
 ---
 title: Hvernig vörutegundir virka
 description: Þú getur leiðrétt birgðaverðmat vöru með því að nota FIFO eða Meðalkostnaðaraðferð þegar vöruverð breytist ekki vegna viðskiptalegra ástæðna, heldur einhvers annars.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,17 +9,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0fc31469d13c0c84a7357ae99929d6efb30bbb47
-ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
-ms.translationtype: MT
+ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "7949044"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059623"
 ---
 # <a name="about-item-types"></a>Um vörutegundir
-Í **reitnum Tegund** á **vöruspjaldinu er** hægt að velja hvað varan er notuð í viðskiptunum, sem hefur áhrif á það hversu hægt er að stjórna vörunni í birgðum. Eftirfarandi töflulistum og lýsir þeim þremur tegundum atriða sem eru tiltæk.
+**Í reitnum Tegund** á **vöruspjaldinu** er hægt að velja hvað varan er notuð í viðskiptunum, sem hefur áhrif á það hversu hægt er að stjórna vörunni í birgðum. Eftirfarandi töflulistum og lýsir þeim þremur tegundum atriða sem eru tiltæk.
 
 |Valkostur|Dæmigerður tilgangur|
 |------|-----------|
@@ -29,7 +29,7 @@ ms.locfileid: "7949044"
 |Þjónusta|Vinnutímaeining, svo sem ráðgjöf í klukkustund, fyrir takmarkaðan stuðning fyrirtækis.|
 
 > [!NOTE]
-> **Þjónustan** og ekki **birgðagerðir** styðja ekki mælingar á magni birgða og virði. Aðeins valdar vörufærslugerðir og eiginleikar eru studdir.
+> **Þjónustan** og **ekki birgðagerðir** styðja ekki mælingar á magni birgða og virði. Aðeins valdar vörufærslugerðir og eiginleikar eru studdir.
 
 Í eftirfarandi töflu er listi yfir aðgerðirnar sem þrjár vörutegundir styðja.
 

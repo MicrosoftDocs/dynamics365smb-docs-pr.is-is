@@ -1,6 +1,6 @@
 ---
 title: Stjórna viðskiptavinum með notkun Dynamics 365 Sala (inniheldur Video) | Microsoft docs
-description: Hægt er að nota Dynamics 365 Sales innan Business Central til að varpa gögnum og hafa óaðfinnanlegur samþætting og samstillingu í heildarferlinu.
+description: Hægt er að nota Dynamics 365 Sala úr inni Viðskiptaseðla með óaðfinninni samþættingu og samstillingu í forsorgarferlinu.
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
+ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67d9915e4f60b20d0e871810dfc3d66450103a5a
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: MT
+ms.openlocfilehash: c0b6e3fe2229a43bd4e7fb7e7d0b56b152600d60
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940452"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115001"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Nota Dynamics 365 Sales úr Business Central
 Ef þú notar Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[prod_short](includes/prod_short.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
