@@ -13,7 +13,7 @@ ms.author: jswymer
 ROBOTS: NOINDEX
 ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
 ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2021
 ms.locfileid: "7748962"

@@ -13,7 +13,7 @@ ms.date: 09/23/2021
 ms.author: andreipa
 ms.openlocfilehash: 85fec80ca9b7f2184e67da58f9d05a86534e90ac
 ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 01/14/2022
 ms.locfileid: "7973545"

@@ -11,7 +11,7 @@ ms.search.form: 1752
 ms.date: 06/14/2021
 ms.openlocfilehash: ace00c39b6c5186e40d4f8eb20b0e7d7ad6030ce
 ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 01/19/2022
 ms.locfileid: "8012632"

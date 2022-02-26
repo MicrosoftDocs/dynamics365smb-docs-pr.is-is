@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: margoc
 ms.openlocfilehash: 85ae1bedbf1699f61517896943a3cc6e85f17222
 ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2021
 ms.locfileid: "5781914"

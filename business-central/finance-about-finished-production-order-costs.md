@@ -9,7 +9,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: f8e4c6b4a0db47c56650ea91410670d81bae4cef
 ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 01/14/2022
 ms.locfileid: "7973649"

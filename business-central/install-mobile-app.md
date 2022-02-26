@@ -12,7 +12,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
 ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 12/20/2021
 ms.locfileid: "7940077"
