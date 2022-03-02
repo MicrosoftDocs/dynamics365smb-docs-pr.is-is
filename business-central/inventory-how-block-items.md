@@ -2,7 +2,6 @@
 title: Hvernig á að loka á vörur í sölum eða innkaupum
 description: Hægt er að loka á vörur svo þær verði ekki slegnar inn í línur í innkaupa- eða söluskjölum ásamt því að verða bókaðar í færslu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 744d19675fe3ae95bcbaa56d6e8555ac734180e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 10f915a264508a105d449b3057c8c713d1eb25a5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441169"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130489"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Loka á vörur í sölum eða innkaupum
 Hægt er að loka á vöru svo hún verði ekki slegin inn í línur í innkaupa- eða söluskjölum og hægt er að loka á að hún verði bókuð í færslu. Til dæmis er þetta gagnlegt þegar vara er með þekktan galla. Ef einhver velur lokaða vöru á sölu- eða innkaupaskjali birtast skilaboð um að varan sé læst.

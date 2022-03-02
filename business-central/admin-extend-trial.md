@@ -2,7 +2,6 @@
 title: Framlengja prufuútgáfu af Business Central
 description: Ef þú þarft meiri tíma til að ákveða hvort þú gerist áskrifandi að Dynamics 365 Business Central geturðu framlengt prufuútgáfuna einu sinni. Kynntu þér valkostina.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
-ms.translationtype: HT
+ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184275"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129108"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?
 
@@ -29,7 +28,7 @@ Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti.
 
     Skráðu þig inn með tölvupóstsreikningnum sem þú notaðir þegar þú skráðir þig fyrir prufuútgáfunni.  
 
-    Ef þú hefur skráð þig inn með tölvupóstsreikningi úr [30 daga prufuáskrift af Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial) verður þú fyrst að framlengja Microsoft 365 prufutímann þinn eða kaupa Microsoft 365  áskrift. Frekari upplýsingar er að finna í [Framlengja prufuáskrift fyrir Microsoft 365  fyrir viðskipti](/microsoft-365/commerce/extend-your-trial).
+    Ef þú áritar þér með tölvupósti reikning úr [30 daga prufuútgáfu af Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), þá þarftu fyrst að framlengja Microsoft 365 próftímann, eða kaupa Microsoft 365 áskrift. Nánari upplýsingar má finna [í framlengja prufutíma Microsoft 365 fyrir fyrirtæki](/microsoft-365/commerce/extend-your-trial).
 2. Í tilkynningum efst í vinnusvæðinu skal velja **Framlengja prufuáskrift**.
 
     Ef þú hunsaðir tilkynninguna verður þú að skrá þig út og inn aftur.

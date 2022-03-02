@@ -2,7 +2,6 @@
 title: 'Uppsetning bestu venjur: Áætla færibreytur'
 description: Þetta efnisatriði útskýrir bestu starfsvenjur um hvernig eigi að setja upp valda reiti fyrir færibreytu áætlanagerðar með flýtiflipa áætlanagerðar á birgðakortinu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 72d6f07ca98fad0bed123c648025665add723c23
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: b491a986e3936389fa228fdb1bfc000627368b82
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320057"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129989"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Uppsetning bestu venjur: Áætla færibreytur
 Flýtiflipinn **Áætlun** á birgðaspjaldinu er þungamiðja birgðakeðju fyrirtækis. Uppsetning réttra áætlunarfæribreyta er mjög mikilvæg fyrir hagkvæma birgðastjórnun og gæði þjónustu við viðskiptamenn.  

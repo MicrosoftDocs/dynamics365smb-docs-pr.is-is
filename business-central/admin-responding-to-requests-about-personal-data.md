@@ -2,18 +2,17 @@
 title: Svara beiðnum um persónuleg gögn
 description: Í þessu efnisatriði er sagt frá því hvernig á að svara beiðnum um persónuupplýsingar. Þetta er þekkt sem beiðni skráðs einstaklings.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
 ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321963"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148851"
 ---
 # <a name="responding-to-requests-about-users-personal-data"></a>Svara beiðnum um persónuleg gögn notanda  
 Skráðir aðilar geta óskað eftir nokkrum tegundum aðgerða varðandi persónuupplýsingar þeirra. Til dæmis, samkvæmt almennu persónuverndarreglugerðinni (GDPR), hafa íbúar ESB rétt til að óska eftir útflutningi, eyðingu og breytingu á persónuupplýsingum sínum. Þetta er þekkt sem *Beiðni skráðs einstaklings*. Ef þú hefur flokkað trúnað gagna og ert viss um að þau séu rétt getur kerfisstjóri brugðist við beiðnum með því að nota valkostina undir **Gagnavernd** flipann í **Tæknistjóri** í Mínu hlutverki. Nánari upplýsingar um gagnaflokkun og flokkun á gagnatrúnaði í [!INCLUDE[prod_long](includes/prod_long.md)] er að finna í [Gagnaflokkun](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Flokkun á gagnatrúnaði](admin-classifying-data-sensitivity.md).  
@@ -35,7 +34,7 @@ Eftirfarandi tafla veitir dæmi um tegundir beiðna sem þú getur svarað.
 Skráður aðili getur óskað eftir því að þú hættir tímabundið með vinnslu á persónulegum gögnum hans. Til að heiðra slíkar beiðnir er hægt að merkja færslur þeirra sem lokaðar vegna persónuverndar til að hætta að vinna úr gögnum þeirra. Þegar skrá er merkt sem lokuð er ekki hægt að búa til nýjar færslur sem nota þessa færslu. Til dæmis getur þú ekki búið til nýjan reikning fyrir viðskiptavini þegar annað hvort viðskiptavinurinn eða seljandi er lokaður. Til að merkja skráðan aðila sem læstan skal opna spjaldið fyrir skráða aðilann, t.d. spjald viðskiptavinar, lánardrottins eða tengiliðs og velja gátreitinn **Lokað fyrir vegna persónuverndar**. Þú gætir þurft að velja **Sýna fleiri** til að birta reitinn.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Að meðhöndla beiðnir skráðra einstaklinga í prufuútgáfu
-Ákveðnar gerðir persónuupplýsinga eru hluti af Microsoft 365 reikningnum þínum og krefst stjórnunaraðgangs til að flytja út ef þú færð beiðni skráðs einstaklings frá notanda varðandi þessa tegund persónuupplýsinga samkvæmt almennu persónuverndarreglugerðinni (GDPR). Ferlið sem nær utan um beiðnir skráðs einstaklings fer eftir gerð [!INCLUDE[prod_short](includes/prod_short.md)] leigjandans.  
+Ákveðnar tegundir af persónugögnum eru hluti af reikningnum þínum Microsoft 365 og krefst aðgangi stjórnlagaráðs að útflutningi, ef gagnaefnisbeiðni berst frá notanda varðandi þessa tegund persónulegs Gagnavarnar samkvæmt almennri reglugerð um gagnavernd (GDPR). Ferlið sem nær utan um beiðnir skráðs einstaklings fer eftir gerð [!INCLUDE[prod_short](includes/prod_short.md)] leigjandans.  
 
 Ef þú hefur greitt áskrift fyrir [!INCLUDE[prod_short](includes/prod_short.md)] verður þú að hafa samband við handhafastjóra fyrirtækisins til að búa til beiðni skráðs einstaklings. Stjórnandi hefur stjórnunarréttindi og verkfæri til að uppfylla beiðni þína.  
 

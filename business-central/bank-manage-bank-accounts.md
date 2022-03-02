@@ -2,7 +2,6 @@
 title: Stjórna bankareikningum
 description: Með reglulegu millibili þarf að afstemma bankafjárhagsfærslur við viðkomandi bankafærslur á bankareikningunum þínum.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: reconcile
 ms.search.form: 377, 378, 165, 1284
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ee18708bfe8842cb8c865f2eed0bc49d83235333
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: a533a49e3a34d33242d556758ebe5cb68165c0bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8028959"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139964"
 ---
 # <a name="manage-and-reconcile-your-bank-accounts"></a>Stjórna og afstemma bankareikninga
 

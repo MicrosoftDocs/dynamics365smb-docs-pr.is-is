@@ -2,7 +2,6 @@
 title: Þjónustustýring sett upp | Microsoft Docs
 description: Yfirlit yfir verkhluta til að setja upp Þjónustustýringu sem hentar því hvernig fyrirtæki þitt stýrir þjónustunni.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778099"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140554"
 ---
 # <a name="setting-up-service-management"></a>Þjónustustýring sett upp
 Áður en þú getur byrjað að nota eiginleika Þjónustustýringarinnar í [!INCLUDE[prod_short](includes/prod_short.md)] þarf hins vegar að setja upp nokkur atriði. Til dæmis er hægt að stofna kótun fyrir staðlaða þjónustu, einkenni, og bilunarkóta, og setja upp þjónustuvörur og þjónustuvörugerðir sem þjónustudeild fyrirtækisins þarfnast.  

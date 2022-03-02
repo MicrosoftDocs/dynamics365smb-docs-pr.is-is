@@ -2,7 +2,6 @@
 title: 'Vinna með Kynning: Rekja rað- og lotunúmer'
 description: Þetta efnisatriði lýsir aðgerðunum sem þarf að grípa til til að koma í veg fyrir að selja gallaða vöru og einnig hvernig á að rekja og endurkalla vörur þegar þess gerist þörf.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: eff79c853e5976ce85705b790542854e0e2a6ebc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: aff1012c0a1b8ec409c14e0481c73c4fb51fde18
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445102"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144490"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Kynning: Rað-/lotunúmerarakning
 

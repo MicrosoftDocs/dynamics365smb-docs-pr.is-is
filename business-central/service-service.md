@@ -2,7 +2,6 @@
 title: Þjónustukerfi
 description: Kynntu þér hvernig á að nota eiginleika í Business Central sem eru hannaðir til að hafa umsjón með og fylgjast með þjónustum til að styðja verkstæði og þjónustuaðgerðir á staðnum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4e3f85ae3bc5f8672f148ad04388e5810cefb45f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 9b579b2b91d9699800b5fbf550c58c2e7caaa77d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320082"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142907"
 ---
 # <a name="service-management"></a>Þjónustukerfi
 > [!NOTE]

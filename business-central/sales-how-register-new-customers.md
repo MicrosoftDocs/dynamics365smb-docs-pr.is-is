@@ -1,8 +1,7 @@
 ---
-title: Skrá nýja viðskiptamenn með því að stofna viðskiptamannaspjald (inniheldur Video)
+title: Skrá nýja viðskiptamenn með því að búa til viðskiptamannaspjald (inniheldur myndskeið)
 description: Lýsir því hvernig skal stofna viðskiptamannaspjald til að skrá upplýsingar um alla nýja viðskiptamenn eða biðlara sem selt er til.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0e3745351039db7b4e24b8dfa1e31d920878aed0
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
-ms.translationtype: HT
+ms.openlocfilehash: f1b37df909e482f9f4102eab70ce82cdef999a12
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115259"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137004"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 

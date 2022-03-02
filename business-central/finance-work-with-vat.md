@@ -2,7 +2,6 @@
 title: Hvernig á að vinna með VSK í sölu og innkaupum
 description: Þetta efnisatriði lýsir ýmsum leiðum til að vinna með VSK bæði handvirkt og með sjálfvirkri uppsetningu til að uppfylla reglugerðir í tilteknu landi.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: effeb489bbffbc3647f30b371bc0c0a8f7f2e3c4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: ed3cbe00aac1faf920df6954ee1694bdabce9835
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970964"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133785"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Unnið með VSK í sölu og innkaupum
 Ef þitt land eða svæði krefst þess að reiknaður sé VSK skattur á sölu- og innkaupafærslur svo hægt sé talið upphæðirnar fram til skattayfirvalda, geturðu sett upp [!INCLUDE[prod_short](includes/prod_short.md)] þannig að VSK verði reiknaður sjálfkrafa á sölu- og innkaupaskjölum. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).

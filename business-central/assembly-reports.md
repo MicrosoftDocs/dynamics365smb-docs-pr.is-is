@@ -2,17 +2,16 @@
 title: Samsetningarskýrslur og greiningar í Business Central
 description: Finnið út hvaða samsetningarskýrslur eru í boði í staðlaðri útgáfu Business Central til að halda utan um reksturinn.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 95225e3d7bf16a13040ff1d3960107035c2e5d59
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
-ms.translationtype: HT
+ms.openlocfilehash: df8dbbc35f3eeaac62702f9156e74dc1a5b17dbc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102396"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133020"
 ---
 # <a name="assembly-reports-and-analytics-in-business-central"></a>Samsetningarskýrslur og greiningar í Business Central
 

@@ -2,7 +2,6 @@
 title: Afstemma greiðslur með því að nota eiginleikann Flytja mismun á reikning
 description: Lýsir því hvernig skal vinna greiðslur sem ekki er hægt að jafna við skjal, til dæmis þegar gengi gjaldmiðla veldur breytingum á upphæðum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2964f1fb9a0944d87adf77e9c2127a2fde5b13dd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 1f6fdc38e85944541c908c3c658f14496c619c0a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445452"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139444"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Afstemma greiðslur sem ekki er hægt að nota sjálfkrafa
 Stundum gætirðu þurft að meðhöndla greiðslur inna á bankareikninginn þinn sem ekki er hægt að jafna við tengdan opinn viðskiptavin, lánardrottin, eða bankareikningsfærslu. Ástæða kann að vera að ekkert skjal sé til í [!INCLUDE[prod_short](includes/prod_short.md)] sem hægt er að jafna greiðsluna á, eða tengda skjalið í [!INCLUDE[prod_short](includes/prod_short.md)] hefur aðra fjárhæð en færsluupphæðin, t.d. vegna gjaldeyrisviðskipta Á síðunni **Greiðsluafstemmingarbók**, birtast allar færsluupphæðir fyrir greiðslur sem eru enn ekki jafnaðar í reitnum **Mismunur**, þar með talið upphæðir sem ekki er hægt að jafna vegna ástæðna eins og þeirrar sem nefnd var hér að ofan.

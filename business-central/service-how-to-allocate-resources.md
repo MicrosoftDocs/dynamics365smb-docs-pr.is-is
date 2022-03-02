@@ -2,7 +2,6 @@
 title: Hvernig á að úthluta forða | Microsoft Docs
 description: Hægt er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs til að leiðrétta upphæðina sem verður reikningsfærð árlega.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4b84f2521e0b1c9e6026975b42db20947821b0db
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: ba3571eac4e26646507db2c67f0c2f77207a4566
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436431"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143063"
 ---
 # <a name="allocate-resources"></a>Úthluta forða
 Lykilþáttur þjónustukerfis er fólkið sem veitir þjónustuna. Hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að úthluta réttu fólki í viðeigandi verk. Úthlutun verka er hægt að byggja á þjónustusvæðinu sem starfsfólk er á eða því hvar þjónustan á sér stað. Auk þess er hægt að flokka forða saman þegar þjónustubeiðnum er svarað. Frekari upplýsingar eru í [Setja upp forðaúthlutun](service-how-setup-resource-allocation.md).

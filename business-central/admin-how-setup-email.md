@@ -2,7 +2,6 @@
 title: Setja upp email í Business Central (inniheldur Video)
 description: Lýsir því hvernig á að tengja tölvupóstsreikninga við Business Central til að hægt sé að senda skilaboð á útleið án þess að opna annað forrit.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7e71694e59dcd17072bb7616324953ca02117a89
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
-ms.translationtype: HT
+ms.openlocfilehash: dfeb85bae0329059d4dda9b5edc302b4d0e908e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115067"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142550"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Fólk í viðskiptum sendir upplýsingar og skjöl á borð við sölu- og innkaupapantanir og reikninga með tölvupósti á hverjum degi. Stjórnendur geta auðveldað verkið með því að tengja einn eða fleiri tölvupóstsreikninga við [!INCLUDE[prod_short](includes/prod_short.md)] þannig að hægt sé að senda skjöl án þess að þurfa að opna annað tölvupóstforrit. Hægt er að semja hver skilaboð fyrir sig með einföldum sniðsverkfærum eins og leturgerð, útliti, litum og svo framvegis og bæta við viðhengjum allt að 100 MB að stærð. Stjórnendur geta einnig sett upp skýrsluútlit sem inniheldur aðeins helstu upplýsingar úr fylgiskjölum. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).

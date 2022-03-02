@@ -2,20 +2,20 @@
 title: Setja upp og gefa út KPI-vefþjónustu fyrir fjárhagsskemu
 description: Í þessu efnisatriði er því lýst hvernig skuli sýna KPI-gögn fjárhagsskema byggt á tilteknum fjárhagsskemum.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: b224ea5e9bb2d0f53ce41c2dac66a1686dd5a90b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 29816a5812ce5d5cfe19b8c27b475ddd2090710f
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437002"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335423"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum
 Á síðunni **Uppsetning Fjárhagsskema KPI netþjónustu** getur þú ákveðið hvernig skal sýna KPI gögn fjárhagsskema og á hvaða einstaka fjárhagsskemum skuli byggja afkastavísa. Þegar þú velur **Birta netþjónustu** hnappinn bætast KPI gögn fjárhagsskema á lista yfir vefþjónustu sem birt hefur verið á síðunni **Vefþjónusta**.  

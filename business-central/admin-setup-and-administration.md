@@ -2,7 +2,6 @@
 title: Stjórnunarverk í Business Central
 description: Sumir verkhlutar í Business Central krefjast miðlægrar stjórnunar og uppsetningar. Sjáðu hverjir þeir eru og lærðu hvað skal gera.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 959a56e4bb7fcaac57b05d30dca4939ed2f8576d
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
-ms.translationtype: HT
+ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660132"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143869"
 ---
 # <a name="administration"></a>Stjórnun
 
@@ -34,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 
 |**Til að**|**Sjá**|  
 |------------|-------------|
-|Skilgreinið hverjir geta skráð sig inn á [!INCLUDE[prod_short](includes/prod_short.md)] með því að búa til notendur í Microsoft 365 stjórnendamiðstöð samkvæmt vöruleyfum.|[Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)|
+|Skilgreina hverjir geta skráð sig inn á með því að [!INCLUDE[prod_short](includes/prod_short.md)] stofna notendur í Microsoft 365 stjórnendamiðstöðinni samkvæmt afurðarleyfunum.|[Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)|
 |Úthluta heimildum til notendur, breyta heimildasöfnum og hópa notendur saman til að auðvelda heimildastjórnun.|[Úthluta leyfi til notenda og hópa](ui-how-users-permissions.md)|
 |Bæta við notendum, meðhöndla heimildir og aðgang að gögnum, úthluta hlutverkum.|[Vinna með forstillingar](admin-users-profiles-roles.md)|
 |Stjórna notandastillingum, t.d. fyrirtæki, hlutverk, tungumál, svæði og tímabelti.|[Notandastillingar](admin-manage-user-settings-preferences.md)|

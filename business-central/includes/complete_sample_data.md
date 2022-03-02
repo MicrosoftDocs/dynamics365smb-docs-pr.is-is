@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e6f79d0ba815afe772763880ecbd50ea8870a031
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 929345d028ee20336c41d6cdf432d7ae3752f374
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587456"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140216"
 ---
 > [!NOTE]
 > Þessi kynning þarf sýnigögn sem eru ekki fyrir hendi í hefðbundna sýnifyrirtækinu í [!INCLUDE[prod_short](prod_short.md)]. <!--For more information, see [To create a company with complete sample data in a sandbox](../admin-sandbox-environments.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).  

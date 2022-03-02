@@ -2,7 +2,6 @@
 title: Stofna og breyta sérsniðnum útlitsstillingum fyrir skýrslur og skjöl
 description: Kynntu þér hvernig skal stofna sérstillt útlit til að sérsníða útlit skýrslu þegar hún er skoðuð, prentuð eða vistuð.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3e16ff82492c3331be901c5be5d30de6d302787
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101056"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134718"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Búa til og breyta sérsniðnum skýrsluútlitum
 
@@ -56,7 +55,7 @@ Til að búa til sérsniðið útlit geturðu búið til afrit af öðru sérsni
 Sérsniðna útlitið hefur verið búið til. Þá er hægt að breyta sérsniðna útlitinu eftir þörfum.
 
 > [!TIP]
-> Hægt er að flytja niðurstöður skýrslunnar út í Excel-skrá til að skoða allt gagnasafnið, þar með talið alla dálkana, en án útlitsins. Excel-skráin getur hjálpað til við að staðfesta að skýrslan skili væntanlegum gögnum eða beri kennsl á vandamálin. Frekari upplýsingar er að finna í [Unnið með skýrslur - Senda í Excel](ui-work-report.md#send-to-excel).
+> Hægt er að flytja niðurstöður skýrslunnar út í Excel-skrá til að skoða allt gagnasafnið, þar með talið alla dálkana, en án útlitsins. Excel-skráin getur hjálpað til við að staðfesta að skýrslan skili væntanlegum gögnum eða beri kennsl á vandamálin. Nánari upplýsingar er að finna [í greina skýrslugögn með Excel](report-analyze-excel.md).
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Breyta sérsniðnu útliti
 

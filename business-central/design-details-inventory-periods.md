@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - birgðahaldstími
 description: Birgðahaldstíma má nota til að forðast vandamál varðandi stöður og birgðaverðmat með því að opna eða loka birgðahaldstímum til að takmarka bókanir á tilteknu tímabili.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 66624cd4a6992ed227055748f5e8bc972187a8dc
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
-ms.translationtype: HT
+ms.openlocfilehash: 77348fbf2ef37320b0bfa0ea56a0d395f9b4b142
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865697"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133889"
 ---
 # <a name="design-details-inventory-periods"></a>Hönnunarupplýsingar: birgðahaldstími
 Bakfærð færsla eða kostnaðarleiðréttingar hafa oft áhrif á stöðu og birgðaverðmat fyrri reikningstímabil sem teljast lokjuð. Þetta getur haft öfug áhrif á nákvæma skýrslugerð, sérstaklega hjá alþjóðlegum fyrirtækjum. Búnaður birgðahaldstíma má nota til að forðast slíka vandamál, með því að opna eða loka birgðahaldstímum til að takmarka bókanir á tilteknu tímabili.  

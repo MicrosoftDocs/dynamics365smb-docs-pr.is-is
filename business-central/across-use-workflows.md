@@ -2,7 +2,6 @@
 title: Nota verkflæði
 description: Hægt er að setja upp og nota verkflæði sem tengja verk viðskiptaferla eins og sjálfvirka bókun eða beiðni og samþykki samþykktar fyrir nýjar færslur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 51079e65deda165869d946b5efc11da85fb720e4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 2cbf60577e7c0c4f95fcb623fb448f8cb5bd7960
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446520"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138701"
 ---
 # <a name="using-workflows"></a>Nota verkflæði
 

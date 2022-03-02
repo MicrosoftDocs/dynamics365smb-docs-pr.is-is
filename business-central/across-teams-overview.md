@@ -2,7 +2,6 @@
 title: Business Central og Microsoft Teams samþættingaryfirlit | Microsoft Docs
 description: Samnýta Business Central-færslur beint í Teams-samtal.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,18 +9,18 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 943fd46025a736ae7f32f8fbb02fcacbefb32e8e
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011846"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138727"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams samþætting
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) er Microsoft 365 afurð sem gerir þér kleift að tengjast við aðra, vinna óaðfinnanlega og einfalda vinnu. [!INCLUDE [prod_short](includes/prod_short.md)] býður upp á forrit sem tengir Microsoft Teams við viðskiptagögn í [!INCLUDE [prod_short](includes/prod_short.md)] þannig að hægt sé að deila upplýsingum á fjótlegan hátt á meðal teymismeðlima, leita að tengiliðum og svara fyrirspurnum með skjótari hætti.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams)Microsoft 365 er afurð sem gerir þér kleift að tengjast við aðra, vinna óaðfinnanlega og einfalda vinnu. [!INCLUDE [prod_short](includes/prod_short.md)] býður upp á forrit sem tengir Microsoft Teams við viðskiptagögn í [!INCLUDE [prod_short](includes/prod_short.md)] þannig að hægt sé að deila upplýsingum á fjótlegan hátt á meðal teymismeðlima, leita að tengiliðum og svara fyrirspurnum með skjótari hætti.
 
 Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-skjáborði, farsímaforriti eða á vefnum.
 

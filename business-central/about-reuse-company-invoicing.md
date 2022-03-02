@@ -2,7 +2,6 @@
 title: Notkun Invoicing og Business Central | Microsoft Docs
 description: Hjáleið fyrir aðgang að Microsoft Invoicing þegar þú hefur skráð þig fyrir Dynamics 365 Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,22 +9,22 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439148"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134409"
 ---
-# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Nota sama Microsoft 365-reikninginn í [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft Invoicing
-Þegar þú skráir þig í prufuáskrift fyrir [!INCLUDE[prod_short](includes/prod_short.md)] geturðu farið í 30 daga matsáfanga, þú getur byrjað áskrift eða hættir að nota [!INCLUDE[prod_short](includes/prod_short.md)]. Í öllum tilvikum getur þú á einhverjum tímapunkti hafa séð eitthvað sem kallast **Microsoft Invoicing** og smellt á það. Þetta forrit var hluti af því sem er núna Microsoft 365 Business Standard og var áður þekkt sem Microsoft 365 Business Premium-áskrift, þannig hafa ekki allir séð þennan valkost við notkun Microsoft 365.  
+# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Nota sama Microsoft 365 lykil í [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft reikningsfæra
+Þegar þú skráir þig í prufuáskrift fyrir [!INCLUDE[prod_short](includes/prod_short.md)] geturðu farið í 30 daga matsáfanga, þú getur byrjað áskrift eða hættir að nota [!INCLUDE[prod_short](includes/prod_short.md)]. Í öllum tilvikum getur þú á einhverjum tímapunkti hafa séð eitthvað sem kallast **Microsoft Invoicing** og smellt á það. Þetta var App sem var hluti af því sem er núna Microsoft 365 Business Standard og var áður þekkt sem Microsoft 365 Business Premium áskrift, þannig að ekki allir munu hafa séð þann halla í reynslu sinni Microsoft 365.  
 
 Microsoft Invoicing er ekki lengur í boði, en ef þú þarft að skrá þig inn á Invoicing til að sækja gögnin þín gætirðu séð skilaboð um að þú hafir ekki aðgang að Microsoft Invoicing þar sem reikningurinn þinn er notaður í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Þú sérð svipuð skilaboð ef þú setur upp farsímaforritið fyrir Invoicing.  
 
 ## <a name="workaround"></a>Hjáleið
-Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)] deila verkvangi. Það þýðir að þú ert viðurkennd(ur) sem núverandi notandi [!INCLUDE[prod_short](includes/prod_short.md)] þegar þú smellir á Invoicing í stjórnendamiðstöð Microsoft 365. Ástæðan er sú að Invoicing getur ekki notað sama fyrirtæki og [!INCLUDE[prod_short](includes/prod_short.md)].  
+Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)] deila verkvangi. Það þýðir að notandinn er viðurkenndur sem notandi [!INCLUDE[prod_short](includes/prod_short.md)] þegar smellt er á reikningsfæra í Microsoft 365 admin Center. Ástæðan er sú að Invoicing getur ekki notað sama fyrirtæki og [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Þannig verður þú að skrá þig inn í [!INCLUDE[prod_short](includes/prod_short.md)] og endurnefna núverandi fyrirtæki þitt og búa síðan til nýtt fyrirtæki sem þú getur síðan notað í Invoicing. Engin gögn eru flutt eða skrifuð yfir í þessa hjáleið.
 
@@ -41,7 +40,7 @@ Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)] deila verkvangi. Þa
 7.  Þegar kerfið er tilbúið á ný skal nota hnappinn **Stofna nýtt fyrirtæki**.  
 8.  Í svarglugganum sem birtist skaltu tilgreina nafnið sem *Fyrirtækið mitt* og veldu valkostinn **Framleiðsla - Aðeins uppsetningargögn**.  
 
-Þetta tekur líka nokkrar mínútur. Þegar ferlinu lýkur geturðu fengið aðgang að Invoicing með Microsoft 365 Business. en aðeins til að flytja út gögn þar sem forritið Reikningar er úrelt.  
+Þetta tekur líka nokkrar mínútur. Þegar ferlinu lýkur verður hægt að fá aðgang að reikningsfærslu sem hluti af Microsoft 365 stöðluðu upplifun fyrirtækisins. en aðeins til að flytja út gögn þar sem forritið Reikningar er úrelt.  
 
 ### <a name="what-about-my-data"></a>Hvað með gögnin mín?
 Þegar þú endurnefnir upprunalega fyrirtækið mitt, verða gagnagrunnstöflurnar sem geyma núverandi [!INCLUDE[prod_short](includes/prod_short.md)] gögn þín endurnefnd, en gögnin sjálft eru ekki snert.  

@@ -1,8 +1,7 @@
 ---
-title: Úthluta lánardrottni forgangsstig (inniheldur myndskeið)
+title: Úthluta lánardrottni forgangsstigi (inniheldur myndefni)
 description: Þú getur úthlutað númerum til lánardrottins eða birgja til að forgangsraða þeim og auðvelda greiðslutillögur í Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: supplier, payment priority
 ms.search.form: 26, 27
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd6374288258baa07a8d91f4bc2dc210d33344fc
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
-ms.translationtype: HT
+ms.openlocfilehash: 41977fdf7d90082094e3cc9ff025a56b878a6b2c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953492"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131214"
 ---
 # <a name="prioritize-vendors"></a>Forgangsraða lánardrottnum
 [!INCLUDE[prod_short](includes/prod_short.md)] getur lagt til ýmsar greiðslur til lánardrottna t.d. greiðslur sem eru bráðum á gjalddaga eða greiðslur sem hægt er að fá afslátt af. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).

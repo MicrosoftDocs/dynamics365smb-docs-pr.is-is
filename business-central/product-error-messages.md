@@ -2,16 +2,15 @@
 title: Viðvaranir og villuboð
 description: Kynntu þér hvernig hægt er að leita úrræða og finna lausnir á villuboðum þegar unnið er í Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af846556e09a2c1246e5c6769399d2c9d545e4a8
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
-ms.translationtype: HT
+ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115616"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137628"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Viðvaranir og villuboð í Dynamics 365 Business Central
 

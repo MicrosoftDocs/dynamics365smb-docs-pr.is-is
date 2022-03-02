@@ -2,19 +2,18 @@
 title: Staðfesta VSK-skráningarnúmer
 description: Leyfið Business Central að staðfesta VSK-númer fyrir tengiliði þína, viðskiptamenn og lánardrottna samkvæmt VIES-þjónustu Evrópusambandsins fyrir staðfestingu VSK-númers.
 author: andregu
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 249, 575, 1279
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: a91ce36eed9350cf01285519f76a400c9ebef203
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: fce9a7d934012f3dbd65ee323f881767aeeadd8d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972854"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142134"
 ---
 # <a name="validate-vat-registration-numbers"></a>Staðfesta VSK-skráningarnúmer
 

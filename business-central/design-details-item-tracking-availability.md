@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - vörurakning framboð
 description: Síður fyrir vörurakningarlínur og samantekt vörurakningar veita gagnvirkar framboðsupplýsingar fyrir raðnúmer eða lotunúmer, sem eykur gagnsæi fyrir notendur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 707adc254b955ce80bbdb9efc2b22a0fb116d9d5
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 4fd66e1b6e5aff71ee10b0e24d9f25b81eb85887
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320864"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138623"
 ---
 # <a name="design-details-item-tracking-availability"></a>Hönnunarupplýsingar: vörurakning framboð
 Síðurnar **Vörurakningarlínur** og **Samantekt vörurakningar** veita gagnvirkar framboðsupplýsingar fyrir raðnúmer eða lotunúmer. Tilgangurinn með þessu er að auka gagnsæi fyrir notendur á fylgiskjölum á útleið, svo sem sölupöntunum, með því að sýna þeim hvaða raðnúmerum eða hve mörgum einingum lotunúmers er sem stendur úthlutað á önnur opin fylgiskjöl. Þetta minnkar óvissu sem stafar af tvöfaldri úthlutun og framkallar traust í pantanavinnslum að vörurakningarnúmerin og dagsetningar sem þeir eru að lofa á óbókuðum sölupöntunum sé hægt að uppfylla. Nánari upplýsingar eru á síðunni [Upplýsingar um hönnun: Vörurakningarlínur](design-details-item-tracking-lines-window.md).  

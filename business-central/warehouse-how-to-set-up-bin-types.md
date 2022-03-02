@@ -2,7 +2,6 @@
 title: Setja upp hólfategundir
 description: Úthlutaðu gerðum og einföldum flæðisaðgerðum á hólf og skilgreindu hvernig hólf eru notuð fyrir ákveðnar vöruhúsaaðgerðir.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b867079eb08790f2cfa091d0128a876499fb2045
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: f45908cf5a1d4352039cf83ab1db2719caca8a53
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971577"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334591"
 ---
 # <a name="set-up-bin-types"></a>Setja upp hólfategundir
-Hægt er að beina vöruflæðinu gegnum hólf sem skilgreind hafa verið fyrir tilteknar vöruhúsaaðgerðir. Notandinn úthlutar hverju hólfi grunnflæðisaðgerðir, og skilgreinir þannig hvernig hólfið verður notað í kerfinu, með því að úthluta því hólfategund.  
+Hægt er að beina vöruflæðinu gegnum hólf sem skilgreind hafa verið fyrir tilteknar vöruhúsaaðgerðir. Hvert hólf í grunnflæðiaðgerðum er gefið og þannig skilgreint hvernig hólf er notað með því að úthluta hólfagerð.  
 
 Til eru sex tegundir. Hægt er að reka vöruhúsið með öllum sex hólfategundunum sem mögulegar eru, eða nota aðeins hólfategundirnar RECEIVE, PUTPICK, SHIP og QC. Þessar fjórar hólfategundir gera kleift að gera tillögur um vöruflæði og gera notandanum kleift að skrá misræmi í birgðum.  
 

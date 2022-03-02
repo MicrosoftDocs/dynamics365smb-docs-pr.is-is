@@ -2,7 +2,6 @@
 title: Loka birgðafærslum sem voru búnar til með notkun fastrar jöfnunar
 description: Lærðu hvernig þú getur stofnað handvirkt fasta jöfnun milli færslu á innleið og upphaflegrar færslu á útleið í birgðabók.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 40
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e951666a06d9100a7a3e3127ec75412d49373a1b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: dfcab14c585873aca8b9f65d2ebd6d188771b4dc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971068"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138571"
 ---
 # <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók
 

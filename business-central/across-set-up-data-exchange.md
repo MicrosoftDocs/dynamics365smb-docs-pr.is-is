@@ -2,7 +2,6 @@
 title: Setja upp gagnaskipti til að senda og taka á móti skrám
 description: Settu upp gagnaskiptaramma til að skiptast á gögnum við ytri skrár; til að senda og taka á móti rafrænum skjölum eða flytja inn og út bankaskrár.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0b94d258a07ba65c81f329144d12a8b4e10093a9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 9736a1ea6c0da0381a14c8e77eabaaf752ea9f34
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325094"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133279"
 ---
 # <a name="setting-up-data-exchange"></a>Setja upp gagnaskipti
 Áður en hægt er að senda og taka á móti rafrænum skjölum eða flytja inn og út bankaskrár verður að setja upp gagnaskiptaumgjörð til að vinna úr umræddum skjölum. Auk þess verður að setja upp tengd svæði, t.d. viðskiptamenn sem fá senda rafræna reikninga eða AMC Banking 365 Fundamentals-viðbótina í tilvikum þar sem nota þarf utanaðkomandi þjónustuaðila til að umbreyta bankaskrám. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).  

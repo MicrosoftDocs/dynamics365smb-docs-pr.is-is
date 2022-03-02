@@ -2,7 +2,6 @@
 title: Myndgreiningarviðbót
 description: Viðbótin gerir þér kleift að greina myndir af tengiliðum og vörum til að finna eigindir, svo þú getir úthlutað þeim í Business Central á fljótlegan máta.
 author: brentholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: c2726efed6050dd4a2ada5e3056d446e16fb4e5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 65ec760458f1a30ef4810acdff01ebd9e0a699b2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434995"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140424"
 ---
 # <a name="the-image-analyzer-extension"></a>Myndgreiningarviðbót
 

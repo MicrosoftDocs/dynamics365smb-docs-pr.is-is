@@ -4,7 +4,6 @@ description: Hægt er að vista ytri viðskiptaskjöl með því að hengja skj�
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 65b0d704708232d0999cfc0e72a6380a00a4a273
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 609a57cd1d87a8a3518d6eaf7bc3fe8fc142953a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437728"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134357"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Stofna færslur yfir Skjöl á innleið, beint úr Skjöl og Færslur
 Hægt er að vista ytri viðskiptaskjöl í [!INCLUDE[prod_short](includes/prod_short.md)] með því að hengja skjöl við tengdar færslur skjala á innleið. Ef skjalið, s.s. innkaupareikningur, var upprunlega ekki færsla skjals á innleið, er samt hægt að stofna og tengja færslur skjals á innleið við það síðar. Einnig er hægt að hengja skjöl á innleið við bókuð innkaupa- og söluskjöl og við færslur lánardrottins, viðskiptamanns og fjárhagsfærslur með því að nota upplýsingakassann **Skjöl á innleið** á til dæmis síðunum **Bókaðir innkaupareikningar** og **Lánardrottnabók**.

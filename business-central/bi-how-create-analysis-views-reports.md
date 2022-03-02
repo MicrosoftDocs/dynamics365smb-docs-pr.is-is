@@ -1,21 +1,21 @@
 ---
-title: Stofna greiningarskýrslur| Microsoft Docs
+title: Stofna greiningarskýrslur
 description: Lýsir því hvernig stofna skal nýjar greiningarskýrslur fyrir sölu, innkaup og birgðir og búa til greiningarsniðmát.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: d874c55108a985cd4076e2bbcc8eec53287db008
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437052"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335501"
 ---
 #  <a name="create-analysis-reports"></a>Stofna greiningarskýrslur
 Sölustjórar þurfa að greina veltu, brúttóhagnað og aðrar lykilstærðir varðandi sölu með reglulegu millibili. Innkaupaaðilar hafa meiri áhuga á að greina innkaupamagn, fylgjast með frammistöðu birgja og innkaupaverði. Vöru- og birgðastjórar þurfa hins vegar upplýsingar um birgðaveltu, greiningu á hreyfingu birgða og upplýsingar um birgðavirði.  

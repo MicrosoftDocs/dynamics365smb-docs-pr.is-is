@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 01/31/2022
 ms.author: edupont
-ms.openlocfilehash: b34b69928304c08658d486fa50154cf41660a5bc
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: b703ef47b5e16736a2161551397b808daa77b037
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064798"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141152"
 ---
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 0.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-skýrsluuppsetning** og velja síðan viðkomandi tengil.  
 2. Til að láta notendur breyta svæðinu og senda þessa skýrslu inn skal velja **svæðið breyta sendum skýrslum**.  

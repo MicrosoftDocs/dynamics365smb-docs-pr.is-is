@@ -2,19 +2,18 @@
 title: Prufuútgáfa og áskrift
 description: Kynntu þér hvernig þú færð prufuútgáfu af Business Central, hvernig á að vinna með sandkassaumhverfi og hvernig á að skrá sig í áskrift.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 09/29/2021
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011547"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335527"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prufuútgáfa og áskrift
 
@@ -38,7 +37,7 @@ Ef þú vilt ekki nota [!INCLUDE [prod_short](includes/prod_short.md)] geturðu 
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Bættu eigin gögnum við tómt prufufyrirtæki
 
-Ef þú vilt prófa [!INCLUDE[prod_short](includes/prod_short.md)] með eigin gögn geturðu skipt yfir í ókeypis 30 daga prufutíma með auðu fyrirtæki. **Setja upp fyrirtækiið mitt** uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um reksturinn. Möguleiki er á því að flytja inn gögn úr fyrirliggjandi viðskiptastjórnunarlausn þannig að hægt sé að meta [!INCLUDE[prod_short](includes/prod_short.md)] með eigin gögnum. Við mælum hins vegar ekki með því að þú notir ókeypis prufutíma til að hjálpa þér að reka fyrirtækið þitt. Hafðu samband við [endursöluaðila](/dynamics365/business-central/across-faq#findpartner) til að fá frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[prod_short](includes/prod_short.md)].  
+Ef þú vilt prófa [!INCLUDE[prod_short](includes/prod_short.md)] með eigin gögn geturðu skipt yfir í ókeypis 30 daga prufutíma með auðu fyrirtæki. **Setja upp fyrirtækiið mitt** uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um reksturinn. Möguleiki er á því að flytja inn gögn úr fyrirliggjandi viðskiptastjórnunarlausn þannig að hægt sé að meta [!INCLUDE[prod_short](includes/prod_short.md)] með eigin gögnum. Við mælum hins vegar ekki með því að þú notir ókeypis prufutíma til að hjálpa þér að reka fyrirtækið þitt. Hafðu samband við [endursöluaðila](/dynamics365/business-central/across-faq#findpartner) til að fá frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[prod_short](includes/prod_short.md)]. Félaginn getur einnig aðstoðað þig við að yfirfæra gögnin þín á [!INCLUDE [prod_short](includes/prod_short.md)] netið.  
 
 Ef 30 dagar nægja ekki er hægt að framlengja prufutímann. Nánari upplýsingar er að finna í [Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?](admin-extend-trial.md).  
 
@@ -105,6 +104,7 @@ Stjórnandi [!INCLUDE[prod_short](includes/prod_short.md)] og endursöluaðili g
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algengar spurningar](across-faq.yml)  
 [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner)  
+[Yfirfæra gögn](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Að velja Dynamics 365 Business Central þróun sandkassaumhverfis](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Framlenging prufuútgáfu (sem stjórnandi)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

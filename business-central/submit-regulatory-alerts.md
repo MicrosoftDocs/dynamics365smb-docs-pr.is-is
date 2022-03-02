@@ -2,18 +2,17 @@
 title: Senda inn lögboðnar viðvaranir
 description: Ef þú veist um nýja löggjöf sem þarf stuðning eiginleika í Business Central, getur þú fylgst með þessum leiðarvísi til að senda lögboðna viðvörun til framleiðsluteymis.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 7601f1bef58ed914385957ef70ad8b924c4499a0
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319982"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335111"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sendu inn viðvaranir um eftirlitseiginleika sem miðast við tiltekið land/svæði
 
@@ -21,7 +20,7 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Innsending lögboðinnar viðvörunar í LCS
 
-1. Opnaðu https://lcs.dynamics.com og skráðu þig inn  
+1. [https://lcs.dynamics.com](https://lcs.dynamics.com) Fara í og skrá inn  
 
     Þú sérð verkin sem þú hefur aðgang að
 

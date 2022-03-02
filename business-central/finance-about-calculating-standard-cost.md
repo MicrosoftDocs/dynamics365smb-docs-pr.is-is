@@ -2,19 +2,18 @@
 title: Um umreikning staðalkostnaðar
 description: Í kerfi staðalkostnaðar er kostnaðarverð birgða ákvarðað á grundvelli ásættanlegs eða viðbúins kostnaðar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: 6b0b531c1a41d2f19941578f8f381d56e554cb96
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973701"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149154"
 ---
 # <a name="about-calculating-standard-cost"></a>Um umreikning staðalkostnaðar
 Mörg framleiðslufyrirtæki velja matsgrundvöll staðlaðs kostnaðarverðs. Þetta á einnig við fyrir fyrirtæki sem framkvæma létta framleiðslu, til dæmis samsetningu og röðun í sett. Í stöðluðu kostnaðarverðskerfi er kostnaðarverð birgða ákvarðað á grundvelli einhvers ásættanlegs eða viðbúins kostnaðar. Rannsóknir á fyrri kostnaði og áætluðum framtíðarkostnaði  geta skapað grundvöllinn fyrir stöðluðu kostnaðarverði. Þessi kostnaður er frystur þar til ákvörðun er tekin um að breyta honum. Raunverulegur kostnaður við framleiðslu vöru er frábrugðinn því staðlaða kostnaðarverði sem metið er. Raunverulegi kostnaðurinn er borinn saman við staðlað kostnaðarverð tiltekinnar vöru og munur á þeim eða *frávik* eru fundin og greind til að auðvelda stjórnun.  
@@ -97,7 +96,7 @@ Ferlið til að uppfæra eða reikna út staðlaðan kostnað samanstendur yfirl
 
 1.  Uppfærslu kostnaðar á íhluta- og afkastagetustigunum. Frekari upplýsingar, sjá **Leggja til staðlaðan vörukostnað** og **Leggja til staðlaðan afkastakostnað** runuvinnslurnar.  
 2.  Samstilling og samantekt íhluta- og afkastakostnaðarins til að reikna út heildarframleiðslukostnað varanna. Nánari upplýsingar er að finna í [Að reikna út staðalkostnað á samsetningaríhlut](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  Innleiðing staðlaðs kostnaðar sem færður var inn þegar fyrri keyrsla var keyrð. Staðlaður kostnaður tekur ekki gildi fyrr en hann er innleiddur. **Keyrslan innleiða breytingar á stöðluðu kostnaðarverði** er notuð sem uppfærir breytingar á stöðluðu kostnaðarverði á vörum með þær í töflunni vinnublað staðlaðs kostnaðarverðs.  
+3.  Innleiðing staðlaðs kostnaðar sem færður var inn þegar fyrri keyrsla var keyrð. Staðlaður kostnaður tekur ekki gildi fyrr en hann er innleiddur. **Keyrslan innleiða breytingar** á stöðluðu kostnaðarverði er notuð sem uppfærir breytingar á stöðluðu kostnaðarverði á vörum með þær í töflunni vinnublað staðlaðs kostnaðarverðs.  
 4.  Innleiðing breytinga til að uppfæra reitinn **Kostn.verð** á birgðaspjaldinu og framkvæmd endurmats á birgðum. Nánari upplýsingar eru í [Endurmat birgða](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Sjá einnig  

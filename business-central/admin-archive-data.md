@@ -2,7 +2,6 @@
 title: Viðbót gagnasafns
 description: Safnvistun gagna býr til kostnaðarlítið öryggisafrit af færslunum þínum.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: e2df40494f72260a1ce7e66f57ea1c96fb35b301
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012078"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130827"
 ---
 # <a name="the-data-archive-extension"></a>Viðbót gagnasafns
 Með tímanum mun fyrirtækið þitt safna umtalsverðu magni gagna og sem stjórnandi er það líklega góð hugmynd að hafa stefnu hvað varðar safnvistun gagna. Að hafa mikið af gögnum getur hægt á kerfinu, til dæmis gæti það tekið örlítið lengri tíma að búa til skýrslur eða jafnvel læsa færslum. Auk þess getur mikið gagnamagn leitt til aukins geymslukostnaðar.

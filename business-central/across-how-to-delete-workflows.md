@@ -2,7 +2,6 @@
 title: Hvernig á að Eyða verkflæðum
 description: Óhætt er að eyða verkflæði ef ljóst er að það sé ekki lengur í notkun. Öll tilvik verkflæðisskrefa sem eru skilgreind í verkflæði verða að hafa stöðuna **Lokið**.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 43801669b0189b4af521c32229ccb2d430fb210c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 8c9b91213d6f40d9cac7a0320ca4e26b23ca03b9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438383"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147225"
 ---
 # <a name="delete-workflows"></a>Eyða verkflæðum
 Óhætt er að eyða verkflæði ef ljóst er að það sé ekki lengur í notkun. Öll verkflæðistilvik sem eru skilgreind í verkflæði verða að hafa stöðuna **Lokið**.  

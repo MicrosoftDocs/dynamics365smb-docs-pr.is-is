@@ -2,7 +2,6 @@
 title: Flytja út jákvæðar launaskrár
 description: Hægt er að ganga úr skugga um að bankinn þinn taki eingöngu við fullgildum ávísunum með því að flytja út jákvæða greiðsluskrá sem inniheldur upplýsingar um lánardrottna og greiðslur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: check, clearing
 ms.search.form: 1231, 1232, 1233, 1234
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce185da68d8f7bb1ab82138e83015035a19cb056
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: a45ac4ca08f49a3ac27d93e31086ef06c167d971
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973493"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130567"
 ---
 # <a name="export-a-positive-pay-file"></a>Flytja út jákvæða greiðsluskrá
 Til að ganga úr skugga um að bankinn þinn eingöngu taki til fullgiltar athuganir og fjárhæðir getur þú flutt greiðslubréf sem inniheldur upplýsingar um söluaðila, athuga fjölda og greiðslu upphæð sem þú sendir til bankans til viðmiðunar þegar þú vinnur greiðslur.

@@ -1,8 +1,7 @@
 ---
 title: Nota vinnuskýrslur
-description: Lýsir því hvernig stofna á vinnuskjal, skilgreina vinnugerðir, fylla út vinnublaðið og senda það til samþykkis.
+description: Lýsir því hvernig á að stofna vinnuskýrslu, skilgreina vinnugerðir, fylla út vinnuskýrsluna og senda hana til samþykktar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,16 +10,16 @@ ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: bd163b5e8c4d96a28a1dd557d53b04dafe6829fd
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973126"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134978"
 ---
 # <a name="use-time-sheets"></a>Nota vinnuskýrslur
 
-Hægt er að nota vinnuskýrslur [!INCLUDE [prod_short](includes/prod_short.md)] til að rekja fjarvistir og til að rekja tíma og tilföng sem er varið í verk. Með tímastjórnun er hægt að auðkenna mál snemma og forðast tafir eða kostnað við útkeyrslur. Með vinnuskýrslum getur forði auðveldlega tilkynnt tímanotkun fyrir einstakling eða vél og getur stjórnandi auðveldlega farið yfir notkunina og úthlutun hennar. Í greininni er fjallað um hvernig stofna skal vinnuskjal, skilgreina vinnugerðir, fylla út vinnublaðið og senda það til samþykkis.  
+Hægt er að nota vinnuskýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] til að rekja fjarvistir og rekja tíma og tilföng sem er varið í verk. Með tímastjórnun er hægt að bera kennsl á vandamál snemma og forðast tafir eða framúrkeyrslu kostnaðar. Með vinnuskýrslum getur forði auðveldlega tilkynnt tímanotkun fyrir einstakling eða vél og stjórnandi getur auðveldlega skoðað notkunina og úthlutun hennar. Þessi grein lýsir því hvernig á að stofna vinnuskýrslu, skilgreina vinnugerðir, fylla út vinnuskýrsluna og senda hana til samþykktar.  
 
 Hægt er að afrita og nota verkáætlunarlínur í vinnuskýrslu. Með því móti þarf aðeins að færa upplýsingarnar inn á einum stað og línuupplýsingarnar eru alltaf réttar.
 
@@ -39,38 +38,38 @@ Hægt er að nota keyrsluna **Stofna vinnuskýrslur** til að setja upp vinnusk�
 > Notandi verður að hafa heimildir til að hægt sé að búa til vinnuskýrslur. Frekari upplýsingar eru í [Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnuskýrslur** og velja síðan viðkomandi tengil.
-2. Á **síðunni tímablöð** skal velja **aðgerðina stofna vinnuskýrslur**.
+2. **Á síðunni Vinnuskýrslur** skal velja aðgerðina **Stofna vinnuskýrslur**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Reitirnir **Nota vinnuskýrslu** og **Notandakenni eiganda vinnuskýrslu** verða að vera fylltir út á spjaldinu fyrir forða vinnuskýrslunnar.
 4. Velja hnappinn **Í lagi**.  
 
-Hægt er að skoða þau vinnublöð sem eru búin til á **síðunni tímablöð**. Hvert vinnublað er samsett úr einni eða fleiri línum sem skilgreinir tímann sem á að senda til samþykkis. Eftirfarandi tafla lýsir gerðum lína sem hægt er að bæta við vinnublaðið.
+Hægt er að skoða vinnuskýrslurnar sem hafa verið stofnaðar á **síðunni Vinnuskýrslur**. Hver vinnuskýrsla samanstendur af einni eða fleiri línum sem skilgreina tímann sem á að senda til samþykktar. Eftirfarandi tafla lýsir þeim gerðum lína sem hægt er að bæta við vinnuskýrsluna.
 
-| **Sviði** | **Lýsing** |
+| **Akur** | **Lýsing** |
 |---|---|
-| | Notið til að bæta athugasemd eða merki í **reitnum Lýsing í** tímablaðslínunni. Til dæmis er hægt að nota þennan reit til að flokka færslur í tímafærslum. Ef **reiturinn Tegund er hafður** auður fyrir tímablaðslínu er ekki hægt að færa inn tímavirði í reitina vikudagur fyrir þá línu. |
-| Fjarveru | Notaðu til að skrá tímann sem þú ert fjarverandi í vinnuviku. Til að ljúka upplýsingum fyrir línuna þarf að tilgreina tegund fjarvista í **reitnum Kóti Fjarvistafóði**. |
-| Samsetningarpöntun | Notað til að skrá tíma fyrir samsetningarpantanir. Tímablaðslína af þessari gerð er stofnuð við bókun samsetningarpöntunarlína sem tilfang er sett upp fyrir til að nota vinnuskýrslur. Ekki er hægt að velja línu handvirkt af þessari gerð. |
-| Vinnsla | Nota til að skrá tímanotkun fyrir verk. Til að ljúka upplýsingum fyrir línuna þarf að tilgreina verknúmerið og númer verkverksins sem á að skrá tíma. Hægt er að skrá tíma fyrir línur sem ekki hefur verið raðað.|
-| Forði | Notið til að skrá tímanotkun á forða. Til að ljúka við upplýsingar fyrir línuna skal gefa upp lýsingu á vinnunni. |
+| | Notið til að bæta við athugasemd eða merki í reitnum **Lýsing** í vinnuskýrslulínunni. Til dæmis er hægt að nota þennan reit til að flokka vinnuskýrslufærslur. Ef reiturinn Tegund **er** hafður auður fyrir vinnuskýrslulínu er ekki hægt að færa inn tímamörk í reitina virka daga fyrir þá línu. |
+| Fjarvera | Notaðu til að skrá þann tíma sem þú ert ekki í vinnuviku. Til að ljúka upplýsingunum fyrir línuna skal tilgreina tegund fjarvista í reitnum **Kóti orsakir fjarvistar.** |
+| Samsetningarpöntun | Notað til að skrá tíma fyrir samsetningarpantanir. Vinnuskýrslulína af þessari gerð er stofnuð við bókun samsetningarpantanalína sem forðinn er settur upp fyrir til að nota vinnuskýrslur. Ekki er hægt að velja línu af þessari gerð handvirkt. |
+| Vinnsla | Notið til að skrá tímanotkun fyrir verk. Til að ljúka upplýsingunum fyrir línuna skal tilgreina verknúmerið og verkhlutanúmerið sem skrá á tíma fyrir. Hægt er að skrá tíma fyrir línur sem ekki hefur verið raðað.|
+| Forði | Notið til að skrá tímanotkun forða. Til að ljúka upplýsingum fyrir línuna skal gefa lýsingu á verkinu. |
 | Þjónusta | Notið til að skrá tímanotkun fyrir þjónustupöntun eða þjónustukreditreikning. |
 
-Til dæmis að senda inn vinnublað fyrir vinnuviku þar sem unnið var að hreinsunarverkefnum flesta daga en hafði einn daginn slökkt á erindum, bætt var við línum sem Sýnidæmi í eftirfarandi töflu.
+Til dæmis, til að senda inn vinnuskýrslu fyrir vinnuviku þar sem unnið var við þrif á verkefnum flesta daga en átti einn frídag vegna læknisfundar, myndir þú bæta við línum eins og sýnt er í eftirfarandi töflu.
 
-| Tegund | Description | Kóti vinnutegundar | Kóti fjarvistategða |
+| Tegund | Description | Kóti vinnutegundar | Kóti fjarvistategundar |
 |--|--|--|--|
-| Forði | Vinnustundum | Þrif |  |
-| Fjarveru | Skipti um |  | Heilsu |
-|  | Ég þurfti að taka Þriðjudagsnámskeið vegna læknierinda. |  |  |
+| Forði | Vinnutími | Hreinsun |  |
+| Fjarvera | Frítími |  | Heilsa |
+|  | Ég þurfti að fara í frí á þriðjudaginn vegna læknisskoðunar. |  |  |
 
-Í þessu lágværa dæmi væri svo hægt að skrá viðkomandi tíma yfir viðkomandi daga á svæðunum fyrir hvern virkan dag.  
+Í þessu tilgátudæmi er síðan hægt að skrá viðeigandi tíma yfir viðkomandi daga í reitina fyrir hvern virkan dag.  
 
 > [!TIP]
-> Í flestum tilvikum mun fyrirtækið hafa fyrirframskilgreindar vinnugerðir fyrir ýmsar gerðir lína. Í þeim tilfellum velur þú bara viðkomandi tegund vinnu af listanum og svo bætir þú við þinni eigin lýsingu.  
+> Í flestum tilfellum mun fyrirtækið hafa fyrirfram skilgreindar vinnugerðir fyrir mismunandi gerðir lína. Í þeim tilvikum velurðu bara viðeigandi vinnutegund af listanum og síðan er eigin lýsingu bætt við.  
 >
-> Tegund vinnu er valin með því að velja :::image type="icon" source="media/assist-edit-icon.png" border="false"::: hnappinn í **reitnum Lýsing með því að** Velja **aðgerðina verkþáttarupplýsingar** og tilgreina hana síðan í síðunni sem opnast eða með því að velja hana í **reitnum Kóti vinnutegundar** eða reitnum **Kóti fjarvistar**. Í þessu tilfelli er hægt að hunsa [til að skilgreina vinnugerðir og bæta einu við](#to-define-work-types-and-add-one-to-a-time-sheet) vinnublaðshluta.  
+> Velja skal tegund vinnu með því að velja :::image type="icon" source="media/assist-edit-icon.png" border="false"::: hnappinn í **reitnum Lýsing** með því að velja aðgerðina **Upplýsingar um** aðgerðir aðgerðar og tilgreina hana síðan á síðunni sem opnast eða með því að velja hana í **reitnum Kóti** vinnutegundar eða **reitnum Kóti fjarvistategundar**, eftir því sem við á. Í þessu tilfelli er hægt að hunsa hlutann [Til að skilgreina vinnugerðir og bæta einni við vinnuskýrsluhlutann](#to-define-work-types-and-add-one-to-a-time-sheet).  
 
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Til að endurnýta vinnuskýrslulínur í öðrum vinnuskýrslum
 
@@ -86,22 +85,22 @@ Línurnar eru afritaðar, með upplýsingum eins og gerð og lýsingu. Til dæmi
 Eftirfarandi ferli lýsir því hvernig eigi að flýtistofna verkáætlunarlínur á vinnuskýrslu.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnuskýrslur** og velja síðan viðkomandi tengil.  
-2. Á **síðunni tímablöð** skal velja vinnuskýrslur fyrir viðkomandi tímabil.  
+2. Á síðunni **Vinnuskýrslur** skal velja vinnuskýrslu fyrir viðkomandi tímabil.  
 3. Veljið aðgerðina **Stofna línur úr verkáætlun**. Allar verkáætlunarlínur í tímabili vinnublaðsins eru afritaðar í vinnublaðið fyrir manneskjuna eða vélina í **Tilfang nr.** reitinn á vinnublaðsins.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Til að skilgreina tegundir vinnu og bæta tegund vinnu við vinnuskýrslu
 
-Hægt er að skilgreina vinnugerðina fyrir allar tímalínur fyrir þjónustupantanir, starfspantanir og forða. Með þeim hætti er hægt að bæta við upplýsingum sem þarf til að rukka viðskiptavininn og fyrir mismunandi tegundir af vinnu.  
+Hægt er að skilgreina vinnutegund fyrir allar vinnuskýrslulínur fyrir þjónustupantanir, verkpantanir og forða. Með þeim hætti er hægt að bæta við upplýsingum sem þarf til að rukka viðskiptavininn og fyrir mismunandi tegundir af vinnu.  
 
-1. Í **síðunni tímablöð** skal velja viðkomandi vinnuskýrslur.
-2. Í fyrstu línunum í **hlutanum** línur er **reiturinn Tegund valinn** og viðeigandi gerð er valin, eins og til dæmis *Forði*.  
-3. **Reiturinn** Lýsing er valinn og í **síðunni upplýsingar um forða í tímablaði** er fyllt út í reitina. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+1. **Á síðunni Vinnuskýrslur** skal velja viðeigandi vinnuskýrslu.
+2. Í fyrstu línunum í hlutanum **Línur** skal velja **reitinn Tegund** og velja síðan viðeigandi tegund, svo sem *Forði*.  
+3. Reiturinn Lýsing **er** valinn og síðan á **síðunni Sundurliðun vinnuskýrslulínuforða** er reitirnir fylltir út. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
     1. Ef engin tegund vinnu er til skal velja aðgerðina **Nýtt**.
-    2. Á **síðunni Vinnugerðir** eru reitirnir fylltir út eftir þörfum og síðan er snúið aftur til vinnublaðsins.
-4. Fyllið út restina af vinnublaðinu. Sjá [til að fylla út vinnubókarlínur og senda inn fyrir samþykktarhlutann til að fá frekari upplýsingar](#to-fill-in-time-sheet-lines-and-submit-for-approval).  
+    2. **Á síðunni Vinnutegundir** þarf að fylla reitina út eftir þörfum og fara síðan aftur í vinnuskýrsluna.
+4. Afgangurinn af vinnublaðinu er fylltur út. Nánari upplýsingar eru í hlutanum [Til að fylla út vinnuskýrslulínur og senda fyrir samþykki](#to-fill-in-time-sheet-lines-and-submit-for-approval).  
 
 > [!TIP]
-> Svipaðar ráðstafanir gilda um skilgreiningu fjarvistarkóða.
+> Svipuð skref eiga við um skilgreiningu fjarvistarkóða.
 
 ## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>Til að fylla út vinnuskýrslulínur og senda til samþykktar
 
@@ -111,20 +110,20 @@ Vinnuskýrsluskráning er rakin í klukkustundum, sem er stöðluð grunnmæliei
 2. Veljið vinnuskýrslu fyrir viðeigandi tímabili.
 3. Fyllið í reitina í línu eins og þörf krefur. Færið inn fjölda stunda sem forðinn notar hvern dag vikunnar.  
 
-    Í flestum tilfellum, til að fylgjast með vinnu, er bætt við *forðagæingu* og síðan er klukkustundum eytt í dag. Ef skrá á fjarvist er bætt við línu af gerðinni *fjarvist*.  
+    Í flestum tilfellum, til að rekja vinnu, er bætt við línu af tegundinni *Forði* og síðan er tímar skráðir á hverjum degi. Ef skrá á fjarvistir er bætt við línu af gerðinni *Fjarvistir*.  
 
     > [!TIP]  
     > Hægt er að fara yfir samtölu tímaskýrslustunda sem settar hafa verið inn í upplýsingakassann **Rauntími/áætlaður tími samantekt**  
 4. Endurtakið skref 3 fyrir aðrar tegundir vinnu sem forðinn innir af hendi.  
 
-    Næst þarf að ákveða hvort senda eigi allar línur á vinnublaðinu eða hvort senda eigi inn einstakar línur.  
+    Næst verður að ákveða hvort senda eigi allar línur á vinnuskýrslunni eða hvort senda eigi inn einstakar línur.  
 
-    * Til að senda vinnublaðið fyrir eina eða fleiri línur skal velja viðkomandi línu og velja síðan **senda** aðgerðina.
+    * Til að senda vinnuskýrslu fyrir eina eða fleiri línur skal velja viðeigandi línu og velja svo aðgerðina **Senda**.
 
-        Velja **aðeins valkostinn línur á innsendingarsíðu**. Línan breytir stöðu úr *opin* yfir í *innsend*.
-    * Til að senda vinnublaðið fyrir allar opnar línur skal velja **senda** aðgerðina efst á **síðu vinnublaðs**.  
+        Á innsendingarsíðunni skal velja aðeins **valkostinn** Valdar línur. Línan breytir stöðu úr *Opið* *í Sent*.
+    * Til að senda vinnuskýrslu fyrir allar opnar línur skaltu velja **aðgerðina Senda** efst **á síðunni Vinnuskýrsla**.  
 
-        Þú munt vera beðinn um að staðfesta að þú viljir senda allar opnu línurnar í gildandi vinnublaði.  
+        Þú verður beðinn um að staðfesta að þú viljir senda inn allar opnar línur á gildandi vinnuskýrslu.  
 
     > [!NOTE]  
     > Aðeins er hægt að senda tímaskýrslulínur sem innihalda skráðan tíma.  
@@ -215,7 +214,7 @@ Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir verk, er hægt a�
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnuskýrslur** og velja síðan viðkomandi tengil.
 2. Veljið aðgerðina **Færa vinnuskýrslur í safn**  
 3. Á síðunni **Færa vinnuskýrslur í safn** skal fylla út reitina eftir þörfum og velja síðan hnappinn **Í lagi**.  
-4. Til að fara yfir eldri vinnuskýrslur skal velja þá ![ljósaperu sem opnar aðgerðina segja.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnuskýrslusafn** eða **Vinnuskýrslusafn** verkstjóra og velja síðan viðkomandi tengil.
+4. Til að fara yfir safnvistaðar vinnuskýrslur skaltu velja ljósaperuna ![sem opnar aðgerðina Tell Me.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnuskýrslusafn** eða **Vinnuskýrslusafn** verkstjóra og velja síðan viðkomandi tengil.
 
 ## <a name="see-also"></a>Sjá einnig
 [Verkefnastjórnun](projects-manage-projects.md)  

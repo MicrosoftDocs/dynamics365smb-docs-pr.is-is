@@ -2,7 +2,6 @@
 title: Nota viðbót fyrir sölu- og birgðaforspá til að stjórna birðgum | Microsoft Docs
 description: Þessi viðbót aðstoðar þig við að spá fyrir um sölu, að fá skýrara yfirlit yfir líkur á birgðaskorti og jafnvel að fá aðstoð við að stofna áfyllingarbeiðnir til lánardrottna.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: 615212ee648993136aaa75c7cb1ab798615899ab
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
+ms.openlocfilehash: 4341abd51fa87e36394109dd71452b38df5062e1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940152"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140372"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Spá um sölu og birgðir viðbótina
 Birgðastjórnun er málamiðlun á milli notendaþjónustu og stjónun kostnaðar. Ein hliðin er sú að lágar birgðir krefjast minna veltufés, en, á hinn bóginn getur birgðaskortur hugsanlega leitt til tapaðrar sölu. Viðbótin fyrir sölu- og birgðaspá sér fyrir hugsanlegar sölur með því að nota söguleg gögn og veitir skýrt yfirlit yfir viðbúinn birgðaskort. Samkvæmt spá, aðstoðar viðbótin að stofna áfyllingarbeiðnir til lánardrottna þinna og sparar þér tíma.  
@@ -57,7 +56,7 @@ Til að spá fyrir um sölu í framtíðinni þarf vefþjónustan magnbundin gö
 6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu- og birgðaspár** og velja síðan viðkomandi tengil.  
 7. Stækkaðu flýtiflipann **Almennt** og fylltu síðan út reiti fyrir API-vefslóð og API-lykil.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
 
 
 ## <a name="see-also"></a>Sjá einnig

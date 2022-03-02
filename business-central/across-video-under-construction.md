@@ -2,7 +2,6 @@
 title: Efni í vinnslu
 description: Stundum eru gerðar breytingar á eiginleika sem gerir myndbandið villandi, þannig að við tökum myndbandið úr umferð meðan á uppfærslu efnis stendur.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 60713809c2095d337737736661e49f212a05dbc8
-ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
-ms.translationtype: HT
+ms.openlocfilehash: a36fe2932d7be2fae0185ee4e9106613e58de469
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651512"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133175"
 ---
 # <a name="sorry-this-content-is-under-construction"></a>Því miður er þetta efni í vinnslu
 

@@ -4,7 +4,6 @@ description: Til að skrá ytra skjal, eins og t.d. PDF, í Business Central, ve
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f7b0a1ef2e2c6621ea2997dfa9bfa6f4089e45b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 0b7d1bec4dbdcd608193bc01b94300794c1bdaef
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787158"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134097"
 ---
 # <a name="processing-incoming-documents"></a>Vinnsla skjala á innleið
 Til að skrá ytra skjal í [!INCLUDE[prod_short](includes/prod_short.md)] verður fyrst að stofna eða ljúka við færslu fyrir skjal á innleið. Þú getur gert þetta með handvirkt, eða þú getur tekið mynd af ytra skjal og síðan að búa til skjal á innleið með myndaskrá í viðhengi.

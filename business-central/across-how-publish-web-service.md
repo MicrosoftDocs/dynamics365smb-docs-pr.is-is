@@ -2,17 +2,16 @@
 title: Sýna hluti sem vefþjónustu
 description: Birta hluti sem vefþjónustu til að þeir séu undir eins í boði á Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 810
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bf12c7d415fc75841c4b9f88793ba5be69b21693
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: efa143d439a2f172ca3705d2c14d0fdc968b6a40
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011310"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129260"
 ---
 # <a name="publish-a-web-service"></a>Birta vefþjónustu
 

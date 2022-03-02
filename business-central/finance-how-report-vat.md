@@ -1,8 +1,7 @@
 ---
-title: Senda VSK-skýrslur til skattyfirvalda
+title: Senda VSK-skýrslur til skattayfirvalda
 description: Kynntu þér hvernig skal undirbúa skýrslu sem telur upp VSK-upphæðir af sölu yfir ákveðið tímabil, eða fyrir sölu og innkaup, og senda hana til skattyfirvalda.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0c041f2af2e59a8ed8be77a8d2eb029e48cb8258
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059936"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141178"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Senda VSK skýrslu inn til skattayfirvalda
 
@@ -27,16 +26,16 @@ Hægt er að nota eftirfarandi skýrslur :
 * Í **Sölulisti EC** Evrópubandalag (EC) söluyfirlitsskýrslu eru listar yfir VSK-upphæðir sem þú hefur safnað upp fyrir sölu til VSK-skráðra viðskiptamanna innan landa Evrópusambandsins (EU).  
 * **VSK skil** skýrslan inniheldur VSK fyrir sölu og innkaup til viðskiptamanna og frá lánardrottnum í öllum löndum sem notast við VSK.  
 
-Í báðum tilvikum er VSK reiknaður út frá uppsetningu VSK-bókunar og VSK-bókunarflokka sem settir hafa verið upp.
+Í báðum tilvikum er VSK reiknaður út frá VSK-bókunargrunninum og VSK-bókunarflokkunum sem settir hafa verið upp.
 
-Ef þú vilt skoða allan feril VSK færslna, þá býr hver VSK-bókun til færslu á **VSK-færslur** síðunni. Þessar færslur eru notaðar til að reikna VSK-upphæðir s.s. greiðslur og endurgreiðslur á tilteknu tímabili. Til að skoða VSK-færslur skaltu velja þá ![ljósaperu sem opnast Segðu aðgerðina 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-færslur** og velja síðan viðkomandi tengil.
+Ef þú vilt skoða allan feril VSK færslna, þá býr hver VSK-bókun til færslu á **VSK-færslur** síðunni. Þessar færslur eru notaðar til að reikna VSK-upphæðir s.s. greiðslur og endurgreiðslur á tilteknu tímabili. Til að skoða VSK-færslur skal velja Ljósaperuna ![sem opnar aðgerðina Tell Me aðgerðina 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-færslur** og velja síðan viðkomandi tengil.
 
 > [!NOTE]
 > Hverju [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi er ætlað að halda utan um eftirlitsskýrslugerð í einu landi. Hollenska útgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] sér til dæmis um VSK-skýrslugerð í Hollandi en ekki í öðrum löndum. Á sama hátt höndlar útgáfa í Bandaríkjunum [!INCLUDE[prod_short](includes/prod_short.md)] 1099 skýrslugerð í Bandaríkjunum og styður ekki VAT skýrslur í öðrum löndum, nema með viðbót sem umhverfi samstarfsaðila þíns eða breytingu á kóða tiltekins viðskiptavinar.
 
 ## <a name="about-the-ec-sales-list-report"></a>Um EC söluyfirlitsskýrslu
 
-Á vegum Evrópusambandsins (ESB) og í BRETLANDI eru öll fyrirtæki sem selja vörur og þjónustu til VSK-skráðra viðskiptamanna, þ.m.t. viðskiptamenn í öðrum aðildarríkjum Evrópusambandsins (ESB), að leggja fram rafræna útgáfu á sölulistum Evrópubandalagsins (EC) til tollayfirvalda og skattyfirvalda. **Skýrsla EC-sölulistans** virkar eingöngu fyrir LÖND innan ESB.
+Í Evrópusambandinu (ESB) og í Bretlandi verða öll fyrirtæki sem selja vörur og þjónustu til viðskiptavina sem eru með virðisaukaskatt, þ.m.t. viðskiptavini í öðrum löndum Evrópusambandsins (ESB), að skila rafrænni útgáfu af sölulista Evrópubandalagsins (EB) til tolla- og skattayfirvalda. Skýrslan **EC-sölulisti** virkar aðeins fyrir lönd innan ESB.
 
 Skýrslan inniheldur eina línu fyrir hverja tegund af viðskiptum við viðskiptavini, og sýnir heildarupphæð fyrir hverja tegund viðskipta. Hægt er að skrá þrjár gerðir viðskipta í skýrslunni:  
 
@@ -44,7 +43,7 @@ Skýrslan inniheldur eina línu fyrir hverja tegund af viðskiptum við viðskip
 * B2B þjónusta  
 * B2B Þríhliða vörur  
 
-*B2B* vörur og þjónusta tilgreina hvort góð eða þjónusta er seld og er stýrt af **þjónustustillingum** ESB í VSK-bókunargrunni. *B2B Þríhyrningar vörur* gefa til kynna hvort þú sért upptekinn í viðskiptum við þriðja aðila, og stýrt af **eu 3 aðila viðskiptastillingum** á söluskjölum, eins og sölupöntunum, reikningum, kreditreikningum o. s. frv.  
+*B2B* vörur og þjónusta tilgreina hvort þú seldir vöru eða þjónustu og er stjórnað af **stillingu ESB-þjónustunnar** í VSK-bókunaruppsetningunni. *B2B þríhliða vörur gefa til kynna hvort þú stundar* viðskipti við þriðja aðila og er stjórnað af **3-aðila viðskiptastillingu** ESB á söluskjölum, svo sem sölupöntunum, reikningum, kreditreikningum og svo framvegis.  
 
 Eftir að skattayfirvöld fara yfir skýrsluna, munu þau senda tengilið fyrirtækisins tölvupóst. Í [!INCLUDE[prod_short](includes/prod_short.md)] er tengiliðurinn tiltekinn á síðunni **Upplýsingar um fyrirtækið**. Áður en þú sendir inn skýrsluna skaltu vera viss um að tengiliður hafi verið valinn.  
 
@@ -66,25 +65,25 @@ Til að skila VSK til skattayfirvalda á rafrænu formi, þarf að tengja [!INCL
 2. Fylltu út nauðsynlega reiti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    > Ráðlegt er að er að prófa tenginguna. Það er gert með því **að velja gátreitinn Prófunarhamur** og undirbúa og senda VSK-skýrsluna eins og lýst er [í hlutanum til að undirbúa og senda hluta VSK-skýrslunnar](#to-prepare-and-submit-a-vat-report). Þegar þjónustan er á Prufustillingu, prófar hún hvort skattayfirvöld geti tekið á móti skýrslunni, og staðan á skýrslunni mun gefa til kynna hvort prufuinnsendingin hafi heppnast. Mikilvægt er að muna að þetta er ekki raunveruleg innsending. Ef senda á skýrsluna inn í raun, þarf að að hreinsa gátreitinn **Prufustilling** og endurtaka innsendingarferlið.
+    > Ráðlegt er að er að prófa tenginguna. Þetta er gert með því að velja **gátreitinn Prófunarhamur** og undirbúa síðan og senda inn VSK-skýrsluna eins og lýst er í hlutanum [Til að undirbúa og senda inn VSK-skýrslu](#to-prepare-and-submit-a-vat-report). Þegar þjónustan er á Prufustillingu, prófar hún hvort skattayfirvöld geti tekið á móti skýrslunni, og staðan á skýrslunni mun gefa til kynna hvort prufuinnsendingin hafi heppnast. Mikilvægt er að muna að þetta er ekki raunveruleg innsending. Ef senda á skýrsluna inn í raun, þarf að að hreinsa gátreitinn **Prufustilling** og endurtaka innsendingarferlið.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>Að setja upp VSK-skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-### <a name="to-set-up-vat-return-periods"></a>VSK-skilatímabil sett upp
+### <a name="to-set-up-vat-return-periods"></a>Uppsetning VSK-skilatímabila
 
-Ef fyrirtækið er ekki staðsett í BRETLANDI skal nota **síðuna VSK-skil tímabil** til að setja upp áætluð VSK-skil. Ef fyrirtæki þitt er staðsett í BRETLANDI, sjá [to tax Digital í](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md) Bretlandi.  
+Ef fyrirtækið þitt er ekki staðsett í Bretlandi skal nota **síðuna VSK-skil tímabil** til að setja upp áætluð VSK-skil. Ef fyrirtækið þitt er staðsett í Bretlandi, sjá [Making Tax Digital í Bretlandi](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **Skilatímabil** VSK og velja síðan tengda tengilinn.  
-2. **Í síðunni VSK-skilatímabil** er fyllt út í reitina til að setja upp fyrsta tímabilið. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
-3. Endurtaka skref 2 fyrir þau viðbótartímabil sem á að bæta við.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Skal færa inn **VSK-skilatímabil** og velja síðan tengda tengilinn.  
+2. **Á síðunni VSK-skilatímabil eru reitirnir fylltir** út til að setja upp fyrsta tímabilið. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
+3. Endurtakið skref 2 fyrir öll viðbótartímabil sem bæta á við.  
 
-Nú, þegar tími er kominn til að senda VSK-skýrslu fyrir VSK-tímabil, skal velja tímabilið á **síðunni VSK-skilatímabil** og velja **svo aðgerðina stofna var skilaaðgerð**. Síðan er **smellt á Skillínuaðgerðina** **leggja til línur** eins og lýst er í skrefi 3 í eftirfarandi ferli.  
+Nú, þegar kominn er að skila VSK-skýrslu fyrir VSK-skilatímabil, skal velja tímabilið á **síðunni VSK-skilatímabil** og velja **svo aðgerðina Stofna VAR-skil**. Á VSK-skilaspjaldinu **·** **skal síðan velja aðgerðina Leggja til línur** eins og lýst er í skrefi 3 í eftirfarandi ferli.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Undirbúa og senda inn VSK-skýrslu
 
-1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **EB-söluyfirlit** eða **VSK skil** og veldu síðan tengda tengilinn.  
+1. Veldu ljósaperuna ![sem opnar Tell Me eiginleikann 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **EB-söluyfirlit** eða **VSK skil** og veldu síðan tengda tengilinn.  
 2. Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Til að útbúa efni skýrslunnar, veljið aðgerðina **Leggja til línur**.  
 
@@ -115,26 +114,26 @@ Reglulega þarf að greiða nettó-VSK til skattayfirvalda. Ef þú þarft að g
 
 ## <a name="configuring-your-own-vat-reports"></a>Grunnstilla þínar eigin VSK skýrslur
 
-Hægt er að nota **skýrsluna EC-sölulisti** út-af-kassanum. Hins vegar er einnig hægt að stofna eigin skýrslur ef þróunarleyfi er fyrir hendi svo hægt sé að stofna kódeseiningar. Ef þú þarft aðstoð skaltu hafa samband við samstarfsaðila Microsoft.  
+Hægt er að **nota ec-sölulista** skýrsluna utan við reitinn. Hins vegar er einnig hægt að stofna eigin skýrslur ef þróunarleyfi er fyrir um að velja þannig að hægt sé að stofna kóðaeiningar. Ef þig vantar aðstoð skaltu hafa samband við samstarfsaðila Microsoft.  
 
 Eftirfarandi tafla lýsir kóðaeiningunum sem þú þarft að stofna fyrir skýrsluna þína.  
 
 | Codeunit | Það sem hún þarf að gera |
 |----|-----|
-|Tillögulínur| Sækja upplýsingar úr **töflunni VSK-færslur** og birta hana í LÍNUM á VSK-skýrslunni.|
+|Tillögulínur| Sækja upplýsingar úr töflunni **VSK-færslur** og birta þær í línum í VSK-skýrslunni.|
 |Efni | Stjórna sniði skýrslunnar. Til dæmis hvort þú notar XML eða JSON. Gerð sniðs sem á að nota fer eftir skilyrðum vefþjónustu skattayfirvalda. |
 |Sending | Stjórnaðu því hvernig og hvenær þú sendir inn skýrsluna, með tilliti til skilyrða skattayfirvalda. |
 |Svarstjóri | Stýra skilum frá skattayfirvöldum. Þau gætu t.d. sent tengilið fyrirtækisins tölvupóst. |
 |Hætta við | Senda inn afturköllun VSK skýrslu sem var send inn áður til skattayfirvalda. |  
 
 > [!Note]
-> Þegar kódeunits er stofnað fyrir skýrsluna er vakin athygli á gildinu í **reitnum VSK-skýrsla-útgáfa**. Þessi reitur verður að endurspegla útgáfuna af skýrslunni sem er eða var send til skattayfirvalda. Þú gætir til dæmis fært inn **2021** í reitinn til að gefa til kynna að skýrslan samræmist þeim kröfum sem voru í gildi það ár. Til að finna núgildandi útgáfu skal hafa samband við skattayfirvöld.  
+> Þegar kóðaeiningar eru stofnaðar fyrir skýrsluna skal gefa gaum að gildinu í reitnum **VSK-skýrsluútgáfa**. Þessi reitur verður að endurspegla útgáfuna af skýrslunni sem er eða var send til skattayfirvalda. Þú gætir til dæmis fært inn **2021** í reitinn til að gefa til kynna að skýrslan samræmist þeim kröfum sem voru í gildi það ár. Til að finna núgildandi útgáfu skal hafa samband við skattayfirvöld.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Setja upp útreikninga og bókunaraðferðir fyrir virðisaukandi skatta](finance-setup-vat.md)  
+[Setja upp útreikninga og bókunaraðferðir fyrir virðisaukaskatt](finance-setup-vat.md)  
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
 [Setja upp sölu](sales-setup-sales.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  

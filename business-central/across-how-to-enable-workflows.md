@@ -2,7 +2,6 @@
 title: Hvernig skal virkja verkflæði | Microsoft Docs
 description: Þegar verkflæði hefur verið stofnað og það á örugglega að ræsast verður að virkja verkflæðið.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 34f4582eabfcace038c54cb0b6a60d0e7217496b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: ec39dfd6a8b9c209060fbd5d17ba429c56a6f92f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438358"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136479"
 ---
 # <a name="enable-workflows"></a>Virkja verkflæði
 Þegar verkflæði hefur verið stofnað og það á örugglega að ræsast verður að virkja verkflæðið.  

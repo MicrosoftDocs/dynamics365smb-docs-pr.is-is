@@ -2,7 +2,6 @@
 title: Setja upp söluverð og afslætti fyrir viðskiptamenn | Microsoft Docs
 description: Lýsir því hvernig setja á upp og nota verð- og afsláttarsamninga fyrir söluskjöl.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5d03e3c567ed6a2932691cee58685e522814a03f
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
-ms.translationtype: HT
+ms.openlocfilehash: b62fd6f0c8bb7351b873ebe4a3f257406a827d79
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865547"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137030"
 ---
 # <a name="record-sales-prices-and-discounts"></a>Skrá söluverð og afslætti
 > [!NOTE]
@@ -183,7 +182,7 @@ Afsláttarprósentur eru tengdar við ákveðnar reikningsupphæðir á síðunn
 
 Til viðbótar við eða í staðinn fyrir afsláttarprósentu er hægt að tengja ákveðið þjónustugjald við ákveðna reikningsupphæð.  
 
-Fyrir þjálfun í afslætti í sölu, sjá [Setja upp afslætti fyrir viðskiptavini þína](/learn/modules/customer-discounts-dynamics-365-business-central/index) hjá Microsoft Learn.  
+Frekari þjálfun fyrir afslætti á sölum er að finna í [Setja upp afslætti fyrir viðskiptamenn þína](/learn/modules/customer-discounts-dynamics-365-business-central/index) í Microsoft Learn.  
 
 ### <a name="calculating-invoice-discounts-on-sales"></a>Reikna reikningsafsl. á sölu
 
@@ -260,7 +259,7 @@ Besta verð er lægsta leyfilega verð með hæsta leyfilega línuafslættinum �
 
 Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun hjá [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

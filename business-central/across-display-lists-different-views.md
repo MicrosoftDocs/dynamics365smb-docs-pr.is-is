@@ -2,7 +2,6 @@
 title: Leiðrétta það magn upplýsinga sem sést í listum
 description: Hægt er að birta lista sem ítarlegar línur sem veita mestar upplýsingar, eða sem reiti sem auðvelt er skima yfir og geta innihaldið smámyndir.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fcd046027cb8646da72182aba1320b165c00c020
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: 6d2fd979106f1ec9923eb3fed5717eb7e2c05b23
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012131"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141698"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Birting lista á mismunandi hátt
 Í efra hægra horni hvaða lista sem er í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna tákn sem breyta því hvernig færslulistinn er sýndur. Hægt er að birta lista sem ítarlegar línur sem er tilvalið þegar vinna þarf með marga reiti eða breyta reitum í listanum. En einnig er hægt að skipta yfir í birtingu færslna á reitum, sem er samandregið og sýnir færri reiti á tiltekinni færslu. Þetta er mjög gagnlegt til að fá yfirlit yfir margar færslur og er sérlega gagnlegt í smærri tækjum þar sem allt er samanþjappaðra og auðveldara er að pikka á hverja færslu.

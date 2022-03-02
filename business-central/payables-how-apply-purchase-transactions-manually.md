@@ -2,7 +2,6 @@
 title: Afstemma greiðslukvittanir lánardrottins eða endurgreiðslur í greiðslubók
 description: Til að vinna, jafna eða afstemma greiðslur eða endurgreiðslur lánardrottins, skal jafna upphæðina við eina eða fleiri opna lánardrottnafærslur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.search.form: 62, 233, 522, 623
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2be99ab30035a96d7c7d631caa84276d50a42b3e
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
-ms.translationtype: HT
+ms.openlocfilehash: a3ec4f46425a344276792f44fde29e23f695384f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953277"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145629"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Afstemma greiðslur lánardrottins með greiðslubók eða úr færslum í lánardrottnabók
 Þegar lánardrottni er greitt eða hann endurgreiðir verður að ákveða hvort jafna eigi greiðsluna eða endurgreiðsluna við eina eða fleiri opnar færslur. Hægt er að tilgreina nákvæma upphæð sem á að jafna við greiðslumóttökuna eða endurgreiðsluna, og svo aðeins að hluta til jafna við lánardrottnabókarfærslur. Jafna þarf öllum lánardrottnafærslum til að fá réttar lánardrottnaupplýsingar og skýrslur á reikningsyfirlitum og vöxtum.

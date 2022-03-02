@@ -2,18 +2,17 @@
 title: Uppfæra Gengi gjaldmiðils (inniheldur myndskeið)
 description: Fylgstu með upphæðum í mismunandi gjaldmiðlum með gjaldmiðilskóðum og leyfðu Business Central að hjálpa þér að stilla gengi erlendra gjaldmiðla fyrir bókaðar færslur með utanaðkomandi þjónustu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 07/23/2021
+ms.date: 02/17/2022
 ms.author: edupont
-ms.openlocfilehash: 93a5059be3810af4d0351c6508c5d6119eaa4015
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972880"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323267"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppfæra gengi
 
@@ -28,6 +27,9 @@ Fjárhagurinn þinn er settur upp til að nota staðbundna gjaldmiðilinn (SGM),
 
 > [!IMPORTANT]
 > Ef þú vilt nota annan skýrslugjaldmiðil fyrir fjárhagsskýrslur skaltu ganga úr skugga um að þú skiljir takmarkanirnar. Nánari upplýsingar er að finna í [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md).
+
+> [!NOTE]  
+> Þegar notaður er bókaður í fjárhag með gjaldmiðilskóta, svo sem að bóka útgjöld í færslubók með því að nota gjaldmiðilskóða, er færslunni umbreytt í ISK með því að nota gengi gjaldmiðilsins fyrir bókunardagsetninguna. Fjárhagsfærslan mun ekki innihalda upplýsingar um hvaða gjaldmiðill var notaður, aðeins gildi hans í ISK. Ef fylgjast á með upphaflegum gjaldmiðli, svo sem fyrir reikning, verður að nota sölu-og innkaupaskjöl sem og bankareikninga sem geyma upplýsingar um gjaldmiðilskóða fyrir færslurnar.
 
 ## <a name="currencies"></a>Gjaldmiðlar
 

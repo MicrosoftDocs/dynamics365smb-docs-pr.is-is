@@ -2,7 +2,6 @@
 title: Hvernig á að áætla frágang á vinnublöðum
 description: Settu vöruhúsið þitt þannig upp að móttökulínur séu tiltækar á vinnublaði frágangs þegar þú vilt skipuleggja frágangsleiðbeiningar fyrir móttökur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: b7bd6481c6347cfb9c8d02ba58f38101802a6caa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438183"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131120"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Áætla frágang á vinnublöðum
 Ef birgðageymslan krefst bæði frágangs- og móttökuvinnslu og áætla á frágangsleiðbeiningar fyrir margar móttökur, í stað þess að fara eftir leiðbeiningum sem forritið stofnar fyrir einstakar bókaðar móttökur, er hægt að nota frágangsvinnublaðið.  

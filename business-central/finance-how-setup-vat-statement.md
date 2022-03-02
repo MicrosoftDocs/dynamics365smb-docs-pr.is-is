@@ -2,7 +2,6 @@
 title: Uppsetning VSK-yfirlits
 description: Í þessu efnisatriði segir þér hvernig á að setja upp sniðmát fyrir VSK-yfirlit og heiti á VSK-yfirliti til að fullnægja breyttum kröfum skattyfirvalda.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,18 +10,18 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8243d846124a615ba6f5368967971c3b3d900919
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: c701813e596bb217cf6601091d55c528cf1ee2e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970597"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142212"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Setja upp sniðmát VSK-yfirlits og heiti VSK-yfirlits
 
-Skattayfirvöld geta breytt, og gera breytingar á, kröfum sínum hvað varðar bókun á VSK. Sniðmát VSK-yfirlita og Heiti VSK-yfirlita geta hjálpað þér að undirbúa fyrir komandi breytingar og gera umskiptin yfir í nýju kröfurnar þægilegri. Hægt er að nota sniðmát VSK-yfirlits til að setja upp mismunandi skýrslur þegar valið er að prenta yfirlitið. Hvert sniðmát VSK-yfirlits getur haft mörg heiti VSK-yfirlits sem skilgreina útreikninga og hægt er að stofna nýtt heiti VSK-yfirlits þegar kröfur breytast. Til dæmis kann eitt heiti að reikna út VSK fyrir þetta árið á grundvelli gildandi þarfa, og annað gæti reiknað út VSK samkvæmt þörfum fyrir næsta ár. Heiti eru einnig til upplýsingar um feril sniða VSK-yfirlits, til dæmis, til að hægt sé að skoða hvernig þú hefur reiknað út VSK á fyrri árum.
+Skattayfirvöld geta breytt, og gera breytingar á, kröfum sínum hvað varðar bókun á VSK. Sniðmát VSK-yfirlita og Heiti VSK-yfirlita geta hjálpað þér að undirbúa fyrir komandi breytingar og gera umskiptin yfir í nýju kröfurnar þægilegri. Hægt er að nota sniðmát VSK-yfirlits til að setja upp mismunandi skýrslur þegar valið er að prenta yfirlitið. Hvert sniðmát VSK-yfirlits getur haft mörg VSK-yfirlitsheiti sem síðan skilgreina útreikningana og hægt er að stofna nýtt heiti VSK-yfirlits þegar þarfir breytast. Til dæmis kann eitt heiti að reikna út VSK fyrir þetta árið á grundvelli gildandi þarfa, og annað gæti reiknað út VSK samkvæmt þörfum fyrir næsta ár. Heiti eru einnig til upplýsingar um feril sniða VSK-yfirlits, til dæmis, til að hægt sé að skoða hvernig þú hefur reiknað út VSK á fyrri árum.
 
-## <a name="to-define-a-vat-statement"></a>VSK-yfirlit skilgreindur
+## <a name="to-define-a-vat-statement"></a>VSK-yfirlit skilgreint
 
 VSK-yfirlit bjóða upp á að reikna út VSK-uppgjörsupphæð á ákveðnu tímabili, til dæmis fyrir ársfjórðung.
 

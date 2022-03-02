@@ -4,19 +4,18 @@ description: WorldPay Payments Standard Viðbótin gerir þér kleift að bjóð
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a5d492ec273bfccd016e8216510f3301234d931
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: dfb523d70938cd4110cca9f963de05bdf8033623
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322645"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132395"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard Viðbótin
 WorldPay Payments Standard Viðbótin gerir þér kleift að bjóða viðskiptavinum þægilega leið til að greiða í gegnum bankamillifærslu eða með kreditkortum. Greiðslur sem greiddar eru með greiðsluþjónustu munu yfirleitt einnig koma hraðar inn á bankareikninginn þinn.

@@ -2,7 +2,6 @@
 title: Þjónustuverðstjórnun
 description: Þjónustuverðstjórnun gerir þér kleift að setja upp verðflokka, verðlagningu og verðleiðréttingar þjónustu og fleira.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: e6cfc801e40bfae60dd687ede073bd4367e69092
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438283"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142961"
 ---
 # <a name="service-price-management"></a>Þjónustuverðstjórnun
 Þjónustuverðsstjórnaraðgerðin gerir kleift að setja besta verðið á þjónustupantanir, setja upp sérsniðna þjónustuverðsamninga fyrir viðskiptavini, bæta skilvirkni þjónustustarfsmanna og hraða reikningaferlinu.  

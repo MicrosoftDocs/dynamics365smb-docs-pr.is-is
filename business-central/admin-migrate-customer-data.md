@@ -2,24 +2,23 @@
 title: Flytja gögn viðskiptamanna
 description: Hægt er að flytja núverandi gögn viðskiptamanns úr fyrirliggjandi kerfi yfir í Business Central með því að nota RapidStart Services - eða einfaldlega slá þau beint inn í fyrirtækið.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437467"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335371"
 ---
 # <a name="migrate-customer-data"></a>Flytja gögn viðskiptamanna
 
-Hægt er að flytja núverandi gögn um viðskiptamenn úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[prod_short](includes/prod_short.md)] með því að nota RapidStart Services gagnaflutningstækni. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið.
+Hægt er að flytja núverandi gögn um viðskiptamenn úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[prod_short](includes/prod_short.md)] með því að nota RapidStart Services gagnaflutningstækni. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið. Einnig er hægt að nota **cloud Migration** handbókina hjálpa þér að flytja gögn. Frekari upplýsingar er að finna [í Flytja gögn](/dynamics365/business-central/dev-itpro/administration/migrate-data) í stjórnunarefninu.
 
 > [!NOTE]
 > Ekki er hægt að flytja út/flytja inn svæði af gerðinni Blob með Excel.

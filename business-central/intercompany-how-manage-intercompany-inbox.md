@@ -2,7 +2,6 @@
 title: Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur
 description: Færslur milli fyrirtækja sem berast þér rafrænt frá MF-félögum eru taldar upp í MF-innhólfinu, þar sem þú vinnur þær sjálfvirkt eða handvirkt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: incoming document
 ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2678d6b31a630d088a747464444fed76ee98a277
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 2e8959900cedbf538a289447ad57c2e64b51c55b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029431"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141074"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur
 Allar færslur milli fyrirtækja sem berast þér rafrænt frá MF-félögum eru taldar upp í MF-innhólfinu.  
@@ -50,7 +49,7 @@ Hægt er að nota reitinn **Sýna uppruna færslu** til að afmarka síðuna **M
 
  > [!NOTE]  
  > Ef millifyrirtækjafélagar eru í sama gagnagrunni, eru færslur framkvæmdar án þess að nota þurfi skrá eða tölvupóst. Sjá **Færslugerð** reitinn á síðunni **Millifyrirtækjafélagi**. <br /><br />
-Í því tilfelli, geturðu sett upp kerfi til að tengja fram hjá innhólfinu og úthólfinu með því að velja **Samþykkja færslur sjálfvirkt** gátreitinn á síðunni **Millifyrirtækjafélagi** og **Senda færslur sjálfvirkt** gátreitinn á síðunni **Uppsetning millifyrirtækis**. Aðeins er hægt að samþykkja utanaðkomandi samstæðufærslur ef verkáætlun er virkjuð. Frekari upplýsingar er að finna í [samskipun Verkáætlunarstillinga fyrir miðlægu Viðskiptaþjón](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
+Í því tilfelli, geturðu sett upp kerfi til að tengja fram hjá innhólfinu og úthólfinu með því að velja **Samþykkja færslur sjálfvirkt** gátreitinn á síðunni **Millifyrirtækjafélagi** og **Senda færslur sjálfvirkt** gátreitinn á síðunni **Uppsetning millifyrirtækis**. Aðeins er hægt að samþykkja utanaðkomandi samstæðufærslur ef verkáætlun er virkjuð. Frekari upplýsingar er að finna [í samskipun Verkáætlunarstillinga fyrir miðlægu Viðskiptaþjón](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Færslur milli fyrirtækja fluttar inn úr skrá:  
 Ef fyrirtækið er með milli-fyrirtækjafélaga sem er ekki í sama gagnagrunni og fyrirtækið er hægt að taka á móti færslum milli fyrirtækja frá félaganum í XML-skrá. Síðan þarf að flytja færslurnar inn í innhólfið.  

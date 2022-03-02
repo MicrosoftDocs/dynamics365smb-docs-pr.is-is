@@ -2,7 +2,6 @@
 title: Uppsetning bestu venja - Endurpöntunarstefnur | Microsoft Docs
 description: Svæðið Endurpöntunarstefna á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: e6c76729d5b8ecf2a42b0b749a951ee05cef96f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441448"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142880"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Uppsetning bestu venja: Endurpöntunarstefnur
 Svæðið **Endurpöntunarstefna** á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.  

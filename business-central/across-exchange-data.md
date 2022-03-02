@@ -2,7 +2,6 @@
 title: Gagnaskipti
 description: Skiptast á rafrænum viðskiptaskjölum, til dæmis bankaskrám, á milli Business Central og utanaðkomandi aðila.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 85f8a69d05366585bd11d651a6c093a4388433d9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 00bac7c92cf6b29cbd79f5b3f04eaa9dfab1ee2d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319641"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133435"
 ---
 # <a name="exchanging-data"></a>Gagnaskipti
 Hægt er að skipta á gögnum á milli [!INCLUDE[prod_short](includes/prod_short.md)] og ytri skráa í tengslum við algeng viðskiptaverk, s.s. að senda og taka á móti rafrænum skjölum og flytja inn og út bankaskrár.  

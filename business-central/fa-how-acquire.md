@@ -2,7 +2,6 @@
 title: Komast yfir eignir
 description: Hægt er að setja upp eign, úthluta afskriftabók, og skrá kaupverð eignarinnar.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: a7c74ef8e5dc7e40f6ea63962734074f35ac57a8
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: e0a60cbb82c99e3497a6f8d1907c261b6199e7ec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029249"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141211"
 ---
 # <a name="acquire-fixed-assets"></a>Komast yfir eignir
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Afskriftabók þarf að setja upp og tengja hverri eign áður en hægt er að komast yfir hana.
@@ -80,8 +79,8 @@ Ef kaup eru til dæmis bókuð með rangri dagsetningu þarf að leiðrétta han
 > Ekki er hægt að nota aðgerðina **Bakfæra viðskipti** fyrir eignarfærslur.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **eignafærslur** og velja síðan tengda tengilinn.  
-2. Á **síðunni eignafærslur** er færslan eða færslurnar sem á að hætta við valdar.  
-3. Veldu **valmyndina aðgerðir** og veldu síðan **aðgerðina Hætta við færslur**.
+2. **Á síðunni eignafærslur** er færslan eða færslurnar sem á að hætta við valdar.  
+3. **Veldu valmyndina aðgerðir** og veldu **síðan aðgerðina Hætta við færslur**.
 4. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 5. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 6. Þegar röng færsla eða færslur eru ógiltir, skal halda áfram og bóka rétt kaupverð.

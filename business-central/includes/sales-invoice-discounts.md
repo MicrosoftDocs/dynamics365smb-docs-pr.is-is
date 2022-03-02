@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95121642b62f33ea1fc160c103ee845816706530
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: ed62e60d3b5b1af2158d8adc6c411884ea4c12aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778648"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133577"
 ---
 Þegar allar vörur hafa verið færðar sem línur er hægt að reikna reikningsafslátt af öllu söluskjalinu með því að velja aðgerðina **Reikna reikningsafsl**.
 

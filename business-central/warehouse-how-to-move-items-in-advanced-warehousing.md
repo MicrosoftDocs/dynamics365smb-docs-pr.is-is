@@ -2,7 +2,6 @@
 title: Færa vörur í ítarlegri vöruhúsaskilgreiningu
 description: Þetta efnisatriði útskýrir hvernig háttsettur starfsmaður getur raðað hreyfanlegum vörum í ítarlegum vöruhúsaskilgreiningum - á við um staðsetningar með beinan frágang og tínslu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: cba0ff7da725d4113ed17f9121caabd2e6b54ce5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: b0550524262425502d8510d99137b4f2a7a6785b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439286"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139184"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Færa vörur með ítarlegum vöruhúsaaðgerðum
 Í ítarlegri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota beinan frágang og tínslu, sér reyndur starfsmaður um hreyfingar milli hólfa og útbýr hreyfingar í hreyfingavinnublaðinu og stofnar síðan hreyfingar sem starfsmenn vöruhússins framkvæma.  

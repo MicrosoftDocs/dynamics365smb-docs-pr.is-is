@@ -1,8 +1,7 @@
 ---
-title: Yfirlit yfir Forlokun skýrslna til að sannreyna nákvæmni lykils
+title: Yfirlit yfir skýrslur fyrir lokun til að sannreyna nákvæmni reiknings
 description: Veitir yfirsýn yfir skýrslurnar sem þú getur notað til að sannreyna nákvæmni reikninga áður en bókum er lokað við lok árs eða tímabils.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 877f2ed9ba278ccafb26266d85165b8cfc5589d3
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: 2ce238ea11f7bbe04639de64e6529ebe8c6ff2e9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012658"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139028"
 ---
 # <a name="using-pre-closing-reports"></a>Nota skýrslur fyrir lokun
 

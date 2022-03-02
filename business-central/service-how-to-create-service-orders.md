@@ -2,7 +2,6 @@
 title: Hvernig á að stofna Þjónustupantanir
 description: Kynntu þér mismunandi verkefni sem tengjast því að búa til þjónustupantanir í Business Central eins og að búa til nýja þjónustupöntun eða pantanir á grundvelli þjónustusamnings.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: adac8451aadd5aa5d6c772b16baefe60dea317b1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: d74aa4a4898010f4aeb3adfee37f4628dbea1f30
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441936"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140632"
 ---
 # <a name="create-service-orders"></a>Stofna þjónustupantanir
 Hægt er að nota síðuna **Þjónustupöntun** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns.  

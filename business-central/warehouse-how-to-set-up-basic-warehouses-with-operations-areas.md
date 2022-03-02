@@ -2,7 +2,6 @@
 title: Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
 description: Settu upp svæði vöruhúsaaðgerða og notaðu birgðahreyfingar, tínslu og frágang til að flytja vörur á milli þeirra.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
-ms.translationtype: HT
+ms.openlocfilehash: 7d64cb9cdba21d3a023c86fbb39e802a78945c2b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115199"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144204"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
 Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota eftirfarandi vöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi:  

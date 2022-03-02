@@ -2,7 +2,6 @@
 title: Kynning – Móttaka og frágangur í grunnstillingum vöruhúss
 description: Í Business Central er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, , allt eftir flækjustigi vöruhússins.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c5d3ce9b7bb02c12da8d62413c6c5722c59ee1d8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: cca66a1e693e63b1d83b6d37d3f8c2957b3edf46
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439311"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144516"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss
 

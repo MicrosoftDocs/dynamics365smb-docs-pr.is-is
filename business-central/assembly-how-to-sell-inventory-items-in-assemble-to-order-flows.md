@@ -2,7 +2,6 @@
 title: Hvernig á að selja birgðavörur með flæði samsetningarpantana
 description: Ef vara er sett upp fyrir samsetningu vegna pöntunar verður varan að vera sett saman fyrir sölupantanir og tengd samsetningarpöntun er þá sjálfkrafa stofnuð.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 35fa56c5a0b465f07a38bddc44f5f569283b2a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 2d68bb10c6ff7d153417dbdc491dd8abd75b7adc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435396"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146961"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Selja birgðavörur í flæðum samsetningar í pöntun
 Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvöru inniheldur **Samsetning til pöntunar** gerir sjálfgefna sölupöntunarvinnslan ráð fyrir því að varan sé ekki til í birgðum og að setja þurfi hana saman fyrir þessa tilteknu sölupöntun. Því er tengd samsetningarpöntun sjálfkrafa búin til þegar vöru er bætt við sölupöntunarlínu. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md). Ef hluti magns sölupöntunarinnar er þegar tiltækur í birgðum er hægt að minnka magn samsetningarpöntunarinnar með því að breyta reitnum **Magn til samsetningar til pöntunar** í sölupöntunarlínunni.  

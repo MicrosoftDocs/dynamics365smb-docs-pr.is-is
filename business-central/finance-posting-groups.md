@@ -2,7 +2,6 @@
 title: Uppsetning bókunarflokks
 description: Yfirlit yfir bókunarflokka sparar tíma og hjálpar við að koma í veg fyrir mistök þegar þú bókar færslur.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 01/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: c67b5cf378b959228edb52d4f5331cde5a063b89
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: ca9ec4e9d0e07306181e86d287e61747d34892a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029195"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128826"
 ---
 # <a name="set-up-posting-groups"></a>Setja upp bókunarflokka
 
@@ -49,7 +48,7 @@ Eftirfarandi tafla lýsir bókunarflokkana sem eru sérstaklega gerðir af gögn
 | Bókunarflokkar viðskm. |Skilgreindu lyklana sem þú vilt nota þegar þú sendir inn færslur viðskiptakrafa. Ef þú notar birgðir með kröfum eru það almenni viðskiptabókunarflokkurinn sem er úthlutaður viðskiptavininum þínum og almenni vörubókunarflokkurinn sem er úthlutaður birgðavöru sem ákvarða lyklana sem sölupöntunarlínur eru bókaðar á. Sjá *almenna viðskiptabókunarflokka* og *almenna vörubókunarflokka* í [kaflanum Almennir Bókunarflokkar](#general-posting-groups). Settu þetta upp á síðunni **Bókunarflokkar viðskiptamanna**. |
 | Bókunarflokkar lánardrottna |Tilgreindu hvar á að bóka færslur fyrir viðskiptaskuldir, þjónustureikninga og greiðsluafsláttarreikninga. Þetta er svipað og bókunarflokkur viðskiptamanns. Settu þetta upp á síðunni **Bókunarflokkar lánardrottna**. |
 | Birgðabókunarflokkar |Skilgreindu birgðabókunarflokka sem þú úthlutar síðan á viðeigandi vörureikninga á síðunni **Uppsetning birgðabókunar**. Síðan þegar bókaðar eru færslur sem tengjast vöru þá bókar kerfið í fjárhagsreikninginn sem settur var upp fyrir þá samsetningu birgðabókunarflokks og birgðageymslu sem tengist vörunni. Birgðabókunarflokkar bjóða einnig upp á góða leið til að skipuleggja birgðir þínar, þannig að þú getur aðskilið hluti eftir bókunarflokkum þegar þú býrð til skýrslur. Settu þetta upp á síðunni **Birgðabókunarflokkar**. |
-| Bókunarflokkar bankareikninga |Skilgreinið fjárhagsreikningana sem bankareikningsfærslurnar eru bókaðar á. Til dæmis getur þetta einfalt ferlið við að rekja færslr og samræma bankareikninga. Settu þetta upp á síðunni **Bókunarflokkar bankareikninga**. Mælt er með að þessir fjárhagsreikningar hafi **reitinn bein bókun** stillt á *Nr*. |
+| Bókunarflokkar bankareikninga |Skilgreinið fjárhagsreikningana sem bankareikningsfærslurnar eru bókaðar á. Til dæmis getur þetta einfalt ferlið við að rekja færslr og samræma bankareikninga. Settu þetta upp á síðunni **Bókunarflokkar bankareikninga**. Mælt er **með að þessir fjárhagsreikningar hafi reitinn bein bókun** stillt á *Nr*. |
 | Bókunarflokkur eigna |Skilgreina reikninga fyrir mismunandi gerðir útgjalda og kostnað, svo sem kaupkostnað, uppsafnaðan afskriftir, kaupkostnað við ráðstöfun, uppsafnað afskriftir við förgun, hagnað af sölu, tapi á förgun, viðhaldskostnaði og afskriftargjöldum. Settu þetta upp á síðunni **Eignabókunarflokkar**. |
 
 ## <a name="tax-posting-groups"></a>Skattbókunarflokkar
@@ -91,14 +90,14 @@ Uppsetningin þín ákvarðar hvenær bókun á sér stað. Til dæmis er tímas
 
 ## <a name="set-up-posting-groups-on-the-go"></a>Setja upp bókunarflokka á ferðinni
 
-Til að fá notendur ræsa hraðar er [!INCLUDE[prod_short](includes/prod_short.md)] boðið upp á aðstoð í gegnum tilkynningar um vantar fjárhagsreikninga í mismunandi bókunarflokka uppsetningar í skjölum. Til að fá þessar tilkynningar þarf að ganga úr skugga um að **fjárhagsreikningurinn vanti í bókunarflokk eða tilkynningu um uppsetningu og að** Tilkynning sé valin á **síðunni tilkynningar sem hægt er að komast í** frá **breytingunni þegar reiturinn tilkynningar er færð** inn á **síðuna mínar stillingar**.  
+Til að fá notendur ræsa hraðar er [!INCLUDE[prod_short](includes/prod_short.md)] boðið upp á aðstoð í gegnum tilkynningar um vantar fjárhagsreikninga í mismunandi bókunarflokka uppsetningar í skjölum. Til að fá þessar tilkynningar þarf að ganga úr skugga um að **fjárhagsreikningurinn vanti í bókunarflokk eða tilkynningu um uppsetningu** og að tilkynning sé valin á **síðunni tilkynningar** sem hægt er að komast í frá **breytingunni þegar reiturinn tilkynningar** er færð inn **á síðuna mínar stillingar**.  
 
 Þegar unnið er í skjali sem notar bókunarflokk eða-uppsetningu sem nauðsynlegur reikningur vantar kemur upp tilkynning. Veldu hlekkinn í notificationtil að opna síðu þar sem þú getur gert viðeigandi breytingar, gefið þér heimild til þess.  
 
 > [!NOTE]
-> Til að taka þig beint út í bókunarflokkinn eða uppsetninguna sem almennur Fjárhagslykill vantar fyrir [!INCLUDE[prod_short](includes/prod_short.md)] verður að stofna frátakaflokk eða-uppsetningu. Bókunarflokkar og uppsetningar eru leið fyrir endurskoðandann til að stýra því hvernig færslur eru bókaðar í fjárhag, þannig að eins er bara stofnun bókunarflokka og uppsetningar ekki leyfðar í fyrirtækinu þínu.  
+> Til að taka þig beint út í bókunarflokkinn eða uppsetninguna sem almennur Fjárhagslykill [!INCLUDE[prod_short](includes/prod_short.md)] vantar fyrir verður að stofna frátakaflokk eða-uppsetningu. Bókunarflokkar og uppsetningar eru leið fyrir endurskoðandann til að stýra því hvernig færslur eru bókaðar í fjárhag, þannig að eins er bara stofnun bókunarflokka og uppsetningar ekki leyfðar í fyrirtækinu þínu.  
 > 
-> Ef svo er þarf að gera **fjárhagsreikninginn óvirkan í bókunarflokki eða** tilkynningu og vinna síðan hjá endurskoðanda til að gera viðkomandi breytingar á bókunarflokknum, uppsetningunni eða skjalinu. Þetta er mikilvægt skref, því þegar skjöl eru bókuð eru ekki hægt að eyða öllum bókunarflokkum sem eru ranglega notaðir vegna þess að fjárhagsfærslur hafa stofnast fyrir þær. 
+> Ef svo er þarf að gera fjárhagsreikninginn óvirkan **í bókunarflokki eða** tilkynningu og vinna síðan hjá endurskoðanda til að gera viðkomandi breytingar á bókunarflokknum, uppsetningunni eða skjalinu. Þetta er mikilvægt skref, því þegar skjöl eru bókuð eru ekki hægt að eyða öllum bókunarflokkum sem eru ranglega notaðir vegna þess að fjárhagsfærslur hafa stofnast fyrir þær. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Úrræðaleita villur bókunarflokks
 

@@ -2,7 +2,6 @@
 title: Kynning - Útreikningur á VÍV fyrir verk
 description: Verk ná yfir notkun á vinnutíma starfsmanna, vélastundir, birgðahluti og aðrar gerðir notkunar sem þarf að fylgjast með í verkferlum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 0ee0720c6fe8f7b64e99344fc277a5c42a0243b9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588102"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148149"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Kynning: Útreikningur á VÍV fyrir verk
 

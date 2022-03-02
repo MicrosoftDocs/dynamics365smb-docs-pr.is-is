@@ -2,7 +2,6 @@
 title: Afstemma bankareikninga
 description: Í þessu efnisatriði er lýst hvernig á að afstemma færslurnar á innri bankareikningum við færslurnar í yfirlitum frá bankanum þínum.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: bank account balance, bank statement
 ms.search.form: 379, 388, 1290, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7880227a09696b6de8411a09ba04ebd3e2395543
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 89fc1b881ce738d50ae40088be265d3944491f21
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971484"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129000"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemma bankareikninga
 
@@ -37,7 +36,7 @@ Afstemming bankafærsla við innri bankafærslur er kölluð *samsvörun*. Hægt
 > [!NOTE]  
 > Ef bankayfirlitslínur tengjast tékkafærslum er ekki hægt að nota samsvörunaraðgerðirnar. Í staðinn þarf að velja aðgerðina **Jafna færslur** og velja síðan viðkomandi tékkafrærslu til að jafna bankayfirlitslínuna með.
 
-Þegar gildið í **reitnum Heildarstaða** í **rúðunni línur bankayfirlits jafnast út** heildarvirði **stöðu til að stemma** svæði við reitinn Staða í **Síðasta uppgjöri** í **glugganum bankareikningsfærslur er** hægt að velja **aðgerðina** Bóka. Ójafnar bankareikningsfærslur eru eftir á síðunni, sem gefur til kynna misræmi sem ætti að leysa til að stemma bankareikninginn af.
+Þegar gildið í **reitnum Heildarstaða** í **rúðunni línur** bankayfirlits jafnast út heildarvirði **stöðu til að stemma** svæði við reitinn **Staða í Síðasta uppgjöri** í **glugganum bankareikningsfærslur** er hægt að **Velja aðgerðina Bóka**. Ójafnar bankareikningsfærslur eru eftir á síðunni, sem gefur til kynna misræmi sem ætti að leysa til að stemma bankareikninginn af.
 
 Allar línur sem ekki er hægt að jafna, gefið til kynna með gildi í reitnum **Mismunur**, verða áfram á síðunni **Afstemming bankareiknings** eftir bókun. Þær tákna einhverskonar misræmi sem nauðsynlegt er að leysa úr áður en hægt er að ljúka afstemmingu bankareiknings. Dæmigerðar aðstæður fyrirtækis sem gætu valdið mismun:
 

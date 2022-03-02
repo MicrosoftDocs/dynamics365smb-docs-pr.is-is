@@ -2,7 +2,6 @@
 title: Byggja skýrslur á Power BI Desktop til að birta Business Central Data | Microsoft docs
 description: Notandi getur gert gögnin sín aðgengileg sem gagnaveitu í Power BI og byggt upp öflugar skýrslur um stöðu síns reksturs.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: db872c8049550a497e2ee56a4a62bb69fa6a1854
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049849"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141568"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)] -gögn
 
@@ -153,36 +152,36 @@ Til að birta skýrslu skal velja **Birta** á flipanum **Heim** á borðanum e�
 
 ## <a name="fixing-problems"></a>Vandamál lagfærð
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Ekki er hægt að setja inn færslu. Gildandi tengingarásetningur er skrifvarin. " Villa við tengingu við sérsniðna API síðu
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Ekki er hægt að setja inn færslu. Núverandi tengingarásetningur er skrifvarinn." Villa við tengingu við sérsniðna API-síðu
 
 > **GILDIR UM:** Business Central Online
 
-Sem hefst í febrúar 2022, nýjar skýrslur sem nota aðalgögn fyrirtækja munu tengjast lestri aðeins eftirmynd af aðalgagnagrunni viðskiptamiðsins að sjálfgefnu. Í einstaka tilfellum fer eftir síðunni hönnun, þú færð villu þegar þú reynir að tengjast og færð gögn af síðunni.
+Frá og með febrúar 2022 munu nýjar skýrslur sem nota Business Central gögn tengjast skrifvörðum eftirlíkingu af Business Central gagnagrunninum sjálfgefið. Í mjög sjaldgæfum tilvikum, eftir síðuhönnun, færðu villu þegar þú reynir að tengjast og fá gögn af síðunni.
 
 1. Ræsið Power BI Desktop.
-2. Í borðhaldinu velurðu **Sækja Data** > **netþjónustu**.
-3. **Í rúðunni þjónusta** á netinu er valið **Dynamics 365 Business Central**, síðan **tengjast**.
-4. **Í glugganum Navigator** er API-endastöð valin sem á að hlaða gögn úr.
-5. Í forskoðunarglugganum hægra megin sérðu eftirfarandi villu:
+2. Í borðanum skaltu velja **Sækja DataOnline** > **Services**.
+3. Í rúðunni **Netþjónusta** skal velja **Dynamics 365 Business Central** og tengjast **síðan**.
+4. **Í glugganum Navigator** skal velja API-endastöðina sem á að hlaða gögnum úr.
+5. Í forskoðunarrúðunni til hægri sést eftirfarandi villa:
 
-   *Dynamics365BusinessCentral: beiðni mistókst: fjarstýrð Þjónn skilaði villu: (400) slæm beiðni. (Ekki hægt að setja inn færslu. Gildandi tengingarásetningur er skrifvarin. CorrelationId: [...])".*
+   *Dynamics365BusinessCentral: Beiðni mistókst: Fjarþjónninn skilaði villu: (400) Röng beiðni. (Ekki er hægt að setja inn færslu. Núverandi tengingarásetningur er skrifvarinn. FylgniId: [...])".*
 
-6. Velja **umbreytingargögn** í stað **álags** eins og venjulega.
-7. Í **Power Query ritstjórn** er valið **ítarlegur ritstjóri** frá borði.
-8. Í línunni sem byrjar **á Source =**, skal skipta út eftirfarandi texta:
+6. Veldu **Umbreyta gögnum** í stað **hleðslu** eins og venjulega.
+7. Í **Power Query Ritstjóra** skal velja **Ítarlegur ritstjóri** úr borðanum.
+8. Í línunni sem byrjar á **Source =** skal skipta út eftirfarandi texta:
 
    ```
    Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
    ```
 
-   með
+   með:
 
    ```
    Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
    ```
 
-9. Valið **er gert**.
-10. Veldu **loka & sækja um** frá borði til að vista breytingarnar og loka Power Query riti.
+9. Veljið **Lokið**.
+10. Veldu **Loka &apply** frá borði til að vista breytingarnar og loka Power Query ritlinum.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

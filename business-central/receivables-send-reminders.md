@@ -2,7 +2,6 @@
 title: Senda áminningar um útistandandi stöður
 description: Frekari upplýsingar um hvernig á að gefa viðskiptamanni áminningu vegna gjaldfallinnar greiðslu.  Ber að greiða og bæta við gjöldum, eða gjalda til greiðslu vegna tafa.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 436, 437, 442, 431, 432
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 665ece7ac19e4ed7e6667110b852a285479d17be
-ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
-ms.translationtype: HT
+ms.openlocfilehash: 994112ead97dae4e0bb4c8e659c6f2f370934bbf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8105928"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143328"
 ---
 # <a name="send-reminders-of-outstanding-balances"></a>Senda áminningar um útistandandi stöður
 

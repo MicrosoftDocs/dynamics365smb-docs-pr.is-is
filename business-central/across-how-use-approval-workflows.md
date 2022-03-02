@@ -2,18 +2,17 @@
 title: Samþykkja eða hafna skjölum í verkflæði| Microsoft Docs
 description: Fara fram á, hafna eða framselja samþykkt á, til dæmis, innkaupa- eða söluskjali, sem hluta af verkflæði.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 653c9e0231e7f1f28e3fe2d6987dbbf4db327faf
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: bc60d2e8f7e79e717b8b79a9c18e7babf88d8fbb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588858"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134201"
 ---
 # <a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
 

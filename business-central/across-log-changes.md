@@ -2,7 +2,6 @@
 title: Endurskoðunar breytinga
 description: Hægt er að virkja breytingaskrá svo að þú hafir yfirlit yfir allar breytingar sem gerðar hafa verið á gögnum í röktum töflum. Þú getur einnig rakið aðgerðir með tilteknum gerðum aðgerðakladda.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2101a37c62b232e72cf5e773aeb0b2e6d6709927
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: c04be33b2c84cd89872765a3781ad2c553ced442
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011071"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138779"
 ---
 # <a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
 
@@ -32,7 +31,7 @@ Rakningarbreytingar geta haft áhrif á afköst, sem geta kostað tíma og auki�
 - Ekki bæta við færslum og bókuðum skjölum. Í staðinn skal forgangsraða kerfisreitum á borð við „Stofnað af“ og „Dagsetning stofnunar“.
 - Ekki nota rakningargerðina „Allir reitir“. Þess í stað skal velja nokkra reiti og rekja aðeins mikilvægustu reitina.
 
-Einnig vegna afkastaástæðna er slökkt á Breytingaskrá meðan á uppfærslu stendur í [!INCLUDE [prod_short](includes/prod_short.md)] næstu útgáfu. Auk þess að hraða uppfærsluferlinu hjálpar þetta einnig við að draga úr ringulreið í Chance-kladda. Um leið og uppfærslu er lokið byrjar kladdinn að rekja breytingar á ný.
+Einnig vegna afkastaástæðna er slökkt á Breytingaskrá meðan á uppfærslu [!INCLUDE [prod_short](includes/prod_short.md)] stendur í næstu útgáfu. Auk þess að hraða uppfærsluferlinu hjálpar þetta einnig við að draga úr ringulreið í Chance-kladda. Um leið og uppfærslu er lokið byrjar kladdinn að rekja breytingar á ný.
 
 > [!Important]
 > Breytingar sjást aðeins í **Breytingaskrárfærslum** þegar lota notanda er endurræst, sem gerist á eftirfarandi hátt:
@@ -72,7 +71,7 @@ Að halda viðkvæmum gögnum öruggum tryggja persónuvernd er mikilvægt flest
 Hægt er að nota uppsetningarleiðbeiningar **Uppsetning á breytingavöktun reits** með hjálp til að tilgreina reitina sem á að fylgjast með samkvæmt síuskilyrði á borð við flokkun gagnatrúnaðar fyrir reitina. Nánari upplýsingar er að finna í [Flokkun á gagnatrúnaðar](admin-classifying-data-sensitivity.md). Leiðarvísirinn gerir einnig kleift að tilgreina þann sem fær tölvupóststilkynningu þegar breyting á sér stað, og tölvupóstsreikninginn sem sendir tilkynninguna í tölvupósti. Tilgreinið bæði notandann sem fær tilkynningu og reikninginn sem tilkynningin verður send frá. Eftir að leiðarvísinum er lokið er hægt að vinna með stillingar fyrir reitavöktun á síðunni **Uppsetning reitavöktunar**. 
 
 > [!NOTE]
-> Þegar tilgreindur er Tölvupóstreikningur frá því að tilkynningar eru sendar þarf að bæta við **Microsoft 365** **reikningstegundum** eða SMTP. Senda skal tilkynningar frá reikningi sem er ekki tengdur við raunverulegan notanda. Þú getur því ekki valið reikningsgerðina **Núverandi notandi**. Tilkynningar verða ekki sendar ef þú gerir það. 
+> Þegar tilgreindur er Tölvupóstreikningur frá því að tilkynningar eru sendar þarf að bæta við **Microsoft 365** reikningstegundum eða **SMTP**. Senda skal tilkynningar frá reikningi sem er ekki tengdur við raunverulegan notanda. Þú getur því ekki valið reikningsgerðina **Núverandi notandi**. Tilkynningar verða ekki sendar ef þú gerir það. 
 
 Með tímanum stækkar listinn yfir færslur á síðunni **Kladdafærslur reitavöktunar**. Til að draga úr fjölda færslna er hægt að stofna varðveislureglu sem eyðir færslum eftir tiltekinn tíma. Frekari upplýsingar er að finna í [Skilgreina varðveislureglur](admin-data-retention-policies.md).
 

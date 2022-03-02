@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - vöruhúsakerfi | Microsoft Docs
 description: Þetta efnisatriði veitir yfirsýn yfir hönnunina, hugtökin og reglurnar á bak við eiginleika vöruhúsakerfisins í Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7a0576ce3141c9c35933ac78e11c3bfdcb0ba7f8
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
-ms.translationtype: HT
+ms.openlocfilehash: 1b1ec2e989db8c30c0e82f20c31be588dd90fbc1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214604"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149180"
 ---
 # <a name="design-details-warehouse-management"></a>Hönnunarupplýsingar vöruhúsakerfi
 Þessi fylgiskjöl veita yfirlit yfir hugtökin og reglurnar sem eru notaðar í valkostum Vöruhúsakerfa í [!INCLUDE[prod_short](includes/prod_short.md)]. Það útskýrir hönnun bak við helstu vörugeymsluaðgerðir og hvernig vörugeymslan vinnur með öðrum framboðskeðjuaðgerðum.  

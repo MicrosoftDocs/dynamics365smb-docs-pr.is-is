@@ -2,7 +2,6 @@
 title: Setja upp þjónustutilboð
 description: Þegar þjónustukerfi er sett upp þarf að ákveða hvaða þjónustu skal bjóða viðskiptamönnum og tímasetja þessa þjónustu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a3a61ba65136aa15836039ac54057eefff37f29d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 8d031b444233085a67279c6f2cc39d4f459bac96
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323886"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136926"
 ---
 # <a name="set-up-service-offerings"></a>Setja upp þjónustutilboð
 Þegar þjónustukerfi er sett upp þarf að ákveða hvaða þjónustu skal bjóða viðskiptamönnum og tímasetja þessa þjónustu. Þjónusta er gerð vinnu sem framkvæmd er af einum eða fleiri starfsmönnum og veitt viðskiptamanni. Þjónusta gæti til dæmis verið viðgerð á tölvu. Þjónustuvara er útbúnaðurinn eða varan sem þarfnast þjónustu, til dæmis tölvan sem þarf að gera við, uppsett hjá tilteknum viðskiptamanni. Þjónusta getur verið hluti af tengdum viðgerðar- eða viðhaldshlutum.  

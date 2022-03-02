@@ -3,7 +3,6 @@ title: Birta innsýn í aðgerðir í Mínu hlutverki
 description: Kynntu þér hvernig Essential Business Insights viðbótin flakkar á milli raða af viðskiptainnsýn í Mínu hlutverki.
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 458e7826979b75c370cb0a90d90c2d64c9ab599e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 75081547af3c98233870d0cbe68860ab52d8c38d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322670"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134770"
 ---
 # <a name="the-essential-business-insights-extension"></a>Essential Business Insights viðbótin
 Viðbótin Essential viðskiptainnsýn finnur áhugaverðar staðreyndir um viðskipti fyrirtækis þíns og birtir þær svipað eins og fyrirsagnir í dagblöðum í Mínu hlutverki. Það fer eftir því hvað viðbótin finnur í gögnum, innsýnin er frá síðustu viku, mánuði eða þremur mánuðum frá deginum í dag. Innsýnin uppfærist á 10 mínútna fresti.  

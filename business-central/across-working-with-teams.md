@@ -2,7 +2,6 @@
 title: Deila Business Central Records í Microsoft Teams
 description: Fá upplýsingar um notkun Business Central fyrir Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 3ad8b25fef8b486d4b2064e8c5117f0b25c6ec5b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587835"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147113"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Deila færslum Business Central og síðutenglum í Microsoft Teams
 
@@ -105,7 +104,7 @@ Frekari upplýsingar um hvernig nota á spjöld og upplýsingar spjalds er að f
 
 Beint af flestum innheimtusíðum eins og **Vörusíðum** og upplýsingasíðum eins og **Birgðaspjaldi** er hægt að senda tengil á síðuna til tiltekinna viðtakenda í samtali í Teams. Til dæmis er hægt að deila tengli á síað yfirlit yfir færslurnar þínar. Viðtakendur geta þá valið tengilinn til að opna síðuna í [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
- ![Deilingarvalmynd sýnd í spjaldi.](media/teams-share-link.png "Deilingarvalmyndin sýnd á spjaldi.")
+ ![!Valmyndinni samnýta sem birtist á spjaldi.](media/teams-share-link.png "Deilingarvalmyndin sýnd á spjaldi.")
 
 ### <a name="prerequisites"></a>Frumskilyrði
 Þú hefur aðgang að Microsoft Teams.
@@ -113,7 +112,7 @@ Beint af flestum innheimtusíðum eins og **Vörusíðum** og upplýsingasíðum
 ### <a name="share-a-link"></a>Deila tengli
 
 1. Í [!INCLUDE [prod_short](includes/prod_short.md)]\, skal opna síðuna sem á að deila.
-2. Efst á síðunni skal velja ![!Deila á aðrar forritsaðgerðir á síðum.](media/share-icon.png) síðan **Deila með Teams**.
+2. Efst á síðunni skaltu velja ![!Share í aðrar apps aðgerðir á síðum.](media/share-icon.png) síðan **Deila með Teams**.
 3. Ef beðið er um innskráningu í Teams með notandanafninu þínu og lykilorði.
 4. Á síðunni **Deila með Teams** skal slá inn heiti einstaklings, hóps eða rásar sem á að senda skilaboðin til. 
 5. Skilaboðaglugginn mun innihalda tengil á síðuna. Bættu við frekari upplýsingum ef þú vilt og veldu svo **Deila**.

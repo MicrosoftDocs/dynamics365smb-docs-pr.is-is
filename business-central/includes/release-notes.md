@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8c9cb9d74242f379cee0ba13cec5cade9ae48a27
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 63b42a5c861db6e33fbcdfccc385749a1b40d1bf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788028"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135803"
 ---
 > [!IMPORTANT]
 >

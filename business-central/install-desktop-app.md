@@ -2,7 +2,6 @@
 title: Ná í Business Central á skjáborðið
 description: Þessi grein lýsir því hvernig á að ná í Business Central-forritið á Windows eða MACiOS skjáborð.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: 6372d08aef8dfaca6044101a17eea40d89d82722
-ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
-ms.translationtype: HT
+ms.openlocfilehash: fe612bb6366647ca031b38122de30fc96cc66853
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8050906"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130463"
 ---
 # <a name="get-business-central-desktop-app"></a>Sækja Business Central-skjáborðsforrit
 

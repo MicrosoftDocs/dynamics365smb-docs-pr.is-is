@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - sléttun
 description: Sléttunar leifar geta átt sér stað þegar þú metur kostnað af birgðaminnkun sem mældur er í öðru magni en samsvarandi birgðaaukning.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 518433903f06c255c80dbba6d7e2982974a325a1
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: e3d8620c3691ec6fbf6929862a63f79eb46b5477
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318435"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139678"
 ---
 # <a name="design-details-rounding"></a>Hönnunarupplýsingar: sléttun
 Sléttunar leifar geta átt sér stað þegar þú metur kostnað af birgðaminnkun sem mælt er í öðru magni en samsvarandi birgðaaukning. Sléttunarleifar eru reiknaðar fyrir allar kostnaðarútreikninga þegar **Kostnaðarleiðrétting - Birgðafærsla** runuvinnsla er keyrð.  

@@ -2,7 +2,6 @@
 title: Safnvista sölu- og innkaupaskjöl
 description: Þú getur safnvistað sölu- og innkaupapöntunum, tilboðum, skilapöntunum og standandi pöntunum svo þú getur notað safnvistaða skjalið til að endurgera skjalið sem það var safnvistað frá.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 396fb417132d161b08b23498fe78d30b4a3be30f
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: dcb99e2c1231e95fca2eb9f8c36fc363a193cd82
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011784"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141626"
 ---
 # <a name="archive-documents"></a>Safnvista skjöl
 Þú getur safnvistað sölu- og innkaupapöntunum, tilboðum, skilapöntunum og standandi pöntunum, t.d. vegna þess að þú vilt vista afrit af skjali til að nota aftur seinna. Þú getur safnvistað sölu- eða innkaupaskjali nokkrum sinnum og vistað aðra safnvistaða útgáfu í hvert skipti.

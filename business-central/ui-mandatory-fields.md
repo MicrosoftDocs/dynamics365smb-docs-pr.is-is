@@ -1,22 +1,20 @@
 ---
-title: Nauðsynlegir reitir til að klára vinnslur | Microsoft Docs
+title: Reitir sem þarf til að ljúka ferlum
 description: Kynntu þér reiti sem eru merktir með rauðri stjörnu, sem gefur til kynna að þeir eru nauðsynlegir og það verður að fylla þá út til að klára vinnslu.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 386025d90301f780f8bf5927de495658a100825f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 2694b4489878d7d953d4075eaa5cc740b817d727
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775276"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335216"
 ---
 # <a name="detecting-mandatory-fields"></a>Greina áskilda reiti
 Þegar þú slærð inn gögn á síðum í [!INCLUDE[prod_short](includes/prod_short.md)] eru tilteknir reitir merktir með rauðri stjörnu. Rauða stjarnan merkir að fylla verður reitinn út til að ljúka tilteknu ferli sem notar reitinn, eins og að bóka færslu sem notar gildið í reitnum.

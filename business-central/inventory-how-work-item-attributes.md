@@ -2,7 +2,6 @@
 title: Setja upp Vörueigindi og úthluta þeim á vörur
 description: Lýsir því hvernig á að setja upp gildi vörueiginda, til dæmis sem hægt er nota sem leitarorð, og úthluta þeim á vörur og vöruflokka.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: categories, search words, facets
 ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d2c8eec702840e6046eab362a867317091a9c3aa
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: 73ee4d6e2c8a2630e75ff2ccb1210c46c58b4ba3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059361"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130373"
 ---
 # <a name="work-with-item-attributes"></a>Vinna með vörueigindir
 Þegar viðskiptamaður gerir fyrirspurn um vöru, annað hvort í beinum samskiptum eða í innbyggðri vefverslun getur hann spurt um vöruna eða leitað samkvæmt eiginleikum, t.d. hæð og árgerð. Til að veita þessa þjónustu við viðskiptamanninn er hægt að úthluta vörum mismunandi eigindargildum sem er svo hægt að nota við leit að vörum.

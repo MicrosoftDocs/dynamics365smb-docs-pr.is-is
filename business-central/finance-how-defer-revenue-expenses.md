@@ -2,7 +2,6 @@
 title: Fresta tekjum og öðrum útgjöldum
 description: Til að skrá tekjur og útgjöld á tímabilum þegar færslan var ekki bókuð, geturðu sjálfkrafa seinkað eða frestað þeim fram yfir tiltekna áætlun.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a99b8e5e14d7224fb23da3f59a5fe5274b2eef33
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 329a8db8dbae65f08ab4f0d12db43cde143077af
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971146"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138044"
 ---
 # <a name="defer-revenues-and-expenses"></a>Fresta tekjum og öðrum útgjöldum
 

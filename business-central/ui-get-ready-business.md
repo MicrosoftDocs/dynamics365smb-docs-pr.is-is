@@ -2,7 +2,6 @@
 title: Undirbúðu þig fyrir að gera viðskipti
 description: Útskýrir uppsetningarleiðbeiningar með aðstoð, myndbönd, hjálparefni og síður og síður sem skal nota til undirbúnings fyrir viðskipti í Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589133"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335032"
 ---
 # <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
 
@@ -70,9 +69,9 @@ Undir **Stillingar fyrirtækis** geturðu séð og breytt uppsetningarupplýsing
 
 ## <a name="adding-users-and-permissions"></a>Bæta við notendum og heimildum
 
-Ef þörf er á að bæta við fleiri notendum er það gert úr Office 365 stjórnendamiðstöðinni. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
+Ef þörf er á að bæta við fleiri notendum er það gert úr Microsoft 365 admin Center. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
 
-Þegar notendur hafa verið stofnaðir í Microsoft 365 er hægt að flytja þá inn á síðuna **Notendur** með því nota aðgerðina **Sækja uppfærslur úr Office 365**. Síðan geturðu haldið áfram að úthluta notendum heimildir og flokka þá í notendahópum. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
+Þegar notendur eru stofnaðir í Microsoft 365 er hægt að flytja þeir inn í **síðuna notendur** með því að **nota aðgerðina sækja uppfærslur frá Office 365**. Síðan geturðu haldið áfram að úthluta notendum heimildir og flokka þá í notendahópum. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
 ## <a name="product-help"></a>Hjálp fyrir afurð
 
@@ -94,6 +93,7 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr Office 365 stj�
 [Leita í hjálparsvæðinu](product-help-and-support.md#search-in-the-help-pane)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Microsoft Learn svæði](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Yfirfæra gögn](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

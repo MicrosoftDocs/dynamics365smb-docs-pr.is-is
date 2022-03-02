@@ -2,7 +2,6 @@
 title: Senda vörur
 description: Í þessu efnisatriði er lýst hvernig eigi að senda vörur úr vöruhúsinu eftir því hverjar skilgreiningar vöruhússins eru fyrir úrvinnslu sendingar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 941cc8b8ffeb22cc5cf14f400fd25bfc9479e66a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 4cf357c8fac13c4f6ed714ee108020adc53686cc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970821"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144412"
 ---
 # <a name="ship-items"></a>Senda vörur
 

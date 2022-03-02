@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - Bókun framleiðslupöntunar | Microsoft Docs
 description: Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442361"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146567"
 ---
 # <a name="design-details-production-order-posting"></a>Hönnunarupplýsingar: staða framleiðslupöntunar
 Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md). Hins vegar er kostnaðarrennsli fyrir samsetningarpantanir síður flókið, sérstaklega vegna þess að bókun samsetningarkostnaðar á sér aðeins stað einu sinni og myndar því ekki birgðir með verkum í vinnslu.

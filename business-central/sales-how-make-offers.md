@@ -2,7 +2,6 @@
 title: Gera sölutilboð
 description: Lestu um hvernig á að stofna sölutilboð eða skjal með beiðni um tilboð (RFQ) til að skrá tilboð til viðskiptavinar eða tilfangs um að selja vörur samkvæmt tilteknum skilmálum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 41, 9300
 ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: c4abee09dfe5b0f2d2e26680f2822552747b4b86
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
-ms.translationtype: HT
+ms.openlocfilehash: a493c2de0747e7674bd9e9771b63f8d3ddd1f534
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752392"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130177"
 ---
 # <a name="make-sales-quotes"></a>Gera sölutilboð
 

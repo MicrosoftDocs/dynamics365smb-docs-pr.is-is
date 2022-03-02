@@ -2,7 +2,6 @@
 title: Hvernig á að ganga frá vörum með birgðafrágangi
 description: Lestu um hvernig á að nota skjal birgðafrágangs til að skrá og bóka upplýsingar um frágang og móttöku fyrir upprunaskjölin.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e28e565858f4dc6fc1e01c614914b0b1620c9659
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 02d3f8dca5381ecebac7cb2d980841a2e5897846
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438108"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138155"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ganga frá vörum með birgðafrágangi
 Þegar birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttökuvinnslu skal nota fylgiskjalið **Birgðafrágangur** til að skrá og bóka frágang og afhendingarupplýsingar fyrir upprunaskjölin. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslu eða samsetningapöntun þar sem úttakið er tilbúið til frágangs.  

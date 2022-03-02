@@ -2,7 +2,6 @@
 title: Reynsla Accountant í Viðskiptamiðinu (inniheldur Video)
 description: Kynnið ykkur hlutverkamiðstöð endurskoðanda og fyrirtækjamiðstöðina sem styður innri og ytri endurskoðendur í fyrirtæki viðskiptavinar.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9d4c7884ead0b7821556c1db410f0fe06ea5aeff
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: 0f6594ae1e23f4047ff2bd8e44945eaf4284940c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029457"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142290"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -50,9 +49,9 @@ Við höfum auðveldað þér að bjóða ytri endurskoðanda. Einfaldlega opni�
 > [!IMPORTANT]  
 > Netfang endurskoðanda verður að vera vinnunetfang sem byggist á Azure Active Directory. Ef endurskoðandinn notar aðra gerð netfangs er ekki hægt að sena boðið.
 >
-> Þetta verk þarfnast aðgang til að stjórna notendum og leyfum í Azure Active Directory. Notandinn sem sendir þetta boð verður að fá hlutverk **altækrar stjórnunar** eða **notendahlutverki** í Microsoft 365 Stjórnun miðstöðvarinnar. Sjá [About admin-hlutverk](/microsoft-365/admin/add-users/about-admin-roles) í efnisstjórnun fyrir frekari upplýsingar Microsoft 365.  
+> Þetta verk þarfnast aðgang til að stjórna notendum og leyfum í Azure Active Directory. Notandinn sem sendir þetta boð verður að fá **hlutverk altækrar** stjórnunar eða **notendahlutverki** í Microsoft 365 Stjórnun miðstöðvarinnar. Sjá [About admin-hlutverk](/microsoft-365/admin/add-users/about-admin-roles) í Microsoft 365 efnisstjórnun fyrir frekari upplýsingar.  
 
-### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Bætti endurskoðanda ykkar við Microsoft 365 í Azure gáttinni
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Bætti endurskoðanda ykkar Microsoft 365 við í Azure gáttinni
 
 Ef stjórnandi þinn eða endursöluaðili vill ekki nota leiðarvísinn **Bjóða ytri endurskoðanda** geta þeir bætt við ytri notanda í Azure-gáttinni og úthlutað þessum notanda heimild *Ytri endurskoðanda*. Frekari upplýsingar er að finna í [Stutt leiðbeining: Bæta gestanotendum við skráasafnið þitt í Azure-gáttinni](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
@@ -93,7 +92,7 @@ Endurskoðandinn fær tölvupóst þar sem honum er tilkynnt að hann hafi fengi
 
 1. Opnið [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtækið sem gefa á endurskoðandanum aðgang að á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Notendur** og veldu síðan tengda tengilinn.  
-3. Veldu **aðgerðina sækja nýja notendur úr Microsoft 365**.
+3. **Veldu aðgerðina sækja nýja notendur úr Microsoft 365**.
 
 Þetta flytur notandareikninginn sem var búinn til í Azure-gáttinni inn í fyrirtækið. Frekari upplýsingar eru í [Að bæta við notanda í Business Central](ui-how-users-permissions.md#adduser).  
 

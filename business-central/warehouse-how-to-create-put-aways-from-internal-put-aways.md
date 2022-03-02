@@ -2,7 +2,6 @@
 title: Stofna Vöruskilapantanir innkaupa Frágangur úr innanhússfrágangi
 description: Þetta efnisatriði fjallar um hvernig á að tína og ganga frá án upprunaskjals, bæði hvernig á að búa til innri tínslu og hvernig á að búa til innri frágang.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 198c4fb8ead4179667e35957046b3446ce5d8065
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 609564faa1e0d5b1e7c364360315ca71b9ba3d06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444181"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140086"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Tína og ganga frá án upprunaskjals
 Þegar gengið hefur verið frá vörum og áður en þær eru tíndar til að fylla upp í framleiðslupöntun eða afhendingu eru þær geymdar í vöruhúsinu sem hluti af tiltækum birgðum.  

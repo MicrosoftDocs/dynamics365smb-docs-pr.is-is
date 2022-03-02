@@ -2,7 +2,6 @@
 title: Jafna greiðslur við ógreidd söluskjöl | Microsoft Docs
 description: Þú jafna upphæðir greiddar af viðskiptamönnum við tengt söluskjal og bóka svo greiðsluna til að uppfæra viðskiptamann, fjárhag og bankafærslur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9a2880437f802cb07617690361558745e06540eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: dab5042a6a72426453f92c67e2763d370ce8dff1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445401"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139484"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Afstemma greiðslur viðskiptamanna úr lista yfir ógreidd söluskjöl
 Þegar viðskiptamenn hafa greitt inn á rafrænan bankareikning, verður að jafna hverja greidda upphæð við tengt söluskjal og bóka svo greiðsluna til að uppfæra viðskiptamann, fjárhag og bankafærslur. Það fer eftir þörfum fyrirtækis þíns, þú getur fengið greitt og skráð þessi greiðslu á mismunandi vegu: handvirkt, sjálfkrafa og með greiðsluþjónustu.  

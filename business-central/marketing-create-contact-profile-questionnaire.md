@@ -2,7 +2,6 @@
 title: Nota forstillingar til að flokka tengiliði
 description: Lestu um hvernig á að setja upp spurningalista forstillingar til að auðvelda flokkun á notandasíðum viðskiptatengiliða.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588527"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140866"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Nota spurningalista forstillingar til að flokka viðskiptatengiliði
 Hægt er að setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn. Innan hvers spurningalista er hægt að setja upp þær mismunandi spurningar sem spyrja á tengiliðina.  

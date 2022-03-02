@@ -2,7 +2,6 @@
 title: Færa vörur eftir þörfum í einföldum vöruhúsaskilgreiningum
 description: Þetta efnisatriði útskýrir tilfallandi hreyfingar sem eru framkvæmdar þegar þú þarft að færa vörur milli hólfa án sérstakrar eftirspurnar frá upprunaskjali.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 11377c1944f47723b97fad9b5ffc699fa8255a4f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 1dd408f93a7111b6d389ae1c532bd7b1ec70d7bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444103"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140054"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa
 Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekki móttöku- eða sendingarhólfa, á sérstakra krafna frá upprunaskjali. Þessar tilfallandi hreyfingar gætu verið gerðar, til dæmis til að endurskipuleggja vöruhúsið, til að færa vörur í skoðunarsvæði eða til að flytja aukavörur í og úr framleiðslusvæði án kerfistengsla við upprunaskjal framleiðslupöntunar.  

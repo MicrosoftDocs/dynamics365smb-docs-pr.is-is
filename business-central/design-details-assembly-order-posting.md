@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - Bókun samsetningarpöntunar
 description: Bókun samsetningarpöntunar er byggð á sömu forsendum og bókun svipaðra aðgerða sölupantana og notkun/frálag framleiðslu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 2ec7e242bd174f3a825a29923b33642d035ec4ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442561"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132109"
 ---
 # <a name="design-details-assembly-order-posting"></a>Hönnunarupplýsingar: Bókun samsetningarpöntunar
 Bókun samsetningarpöntunar er byggð á sömu forsendum og bókun svipaðra aðgerða sölupantana og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.  

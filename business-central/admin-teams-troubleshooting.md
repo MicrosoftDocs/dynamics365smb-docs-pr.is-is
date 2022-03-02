@@ -2,7 +2,6 @@
 title: Úrræðaleit Microsoft Teams samþættingar
 description: Frekari upplýsingar um hvað hægt er að gera sem stjórnandi til að stjórna Microsoft Teams-samþættingu.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 376d1bebd79c225a54ca8544b757a719a55bfebd
-ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
-ms.translationtype: HT
+ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7596673"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147009"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -155,7 +154,7 @@ Sem kerfisstjóri, eru með Azure Active Directory stjórnandaheimildir, og getu
 
 ## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Get ekki skráð mig inn í gluggann Deila með Teams 
 
-Þetta vandamál getur komið upp af ýmsum ástæðum. Til dæmis þarf auðkennið sem þú notar til að skrá þig inn að hafa aðgang að Microsoft Teams, svo sem í gegnum Microsoft 365 áskrift.
+Þetta vandamál getur komið upp af ýmsum ástæðum. Auðkenni sem þú notar til að skrá þig inn þarf að hafa aðgang að Microsoft Teams, t.d. í gegnum Microsoft 365 áskrift.
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -2,7 +2,6 @@
 title: Reitavörpun fyrir útflutning bankagreiðsluskráa | Microsoft Docs
 description: Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f705334d42d27e22d9108a410ab91a213c725a4d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 46664dac24f5da8eab714f1be303e4fb7241496d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437753"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131035"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
 Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar um AMC Banking 365 Fundamentals-viðbótina er að finna í [með því að nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md).  

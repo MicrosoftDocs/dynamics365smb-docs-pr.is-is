@@ -1,21 +1,21 @@
 ---
-title: Hvernig á að færa inn gögn í Business Central
+title: Færa inn gögn í Business Central
 description: Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri hætti og af meiri nákvæmni. Grunnreglum og ítarlegum eiginleikum er lýst hér.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588958"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323033"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 

@@ -2,7 +2,6 @@
 title: Hvernig á að búa til nýtt fyrirtæki | Microsoft Docs
 description: Notaðu RapidStart Services töflur og síður til að stofna nýtt fyrirtæki þar sem framkvæma skal innleiðingu viðskiptamanns.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 0031a05821346aa061334e0f9ced1079fef2978b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439636"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130772"
 ---
 # <a name="create-a-new-company"></a>Búa til nýtt fyrirtæki
 Til að nota RapidStart Services fyrir [!INCLUDE[prod_short](includes/prod_short.md)] skal fyrst stofna nýtt fyrirtæki þar sem framkvæma skal innleiðingu viðskiptamanns. Þegar nýtt fyrirtæki er stofnað eru staðlaðar [!INCLUDE[prod_short](includes/prod_short.md)] töflur og síður búnar til, en engin gögn eru í þeim.

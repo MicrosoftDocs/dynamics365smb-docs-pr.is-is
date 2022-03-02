@@ -2,7 +2,6 @@
 title: Vinna með Framleiðslufjölskyldum í framleiðslu
 description: Þegar grunndagatal er sérsniðið fyrir fyrirtækið eða einhvern viðskiptafélaga eru breytingar á frídögum og virkum dögum færðar inn.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000790, 99000791, 99000792, 99000793
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70b545912b717a7a6f8753e2a1bf8a6442daefc4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: d786da721738c6c8907232d510954d2dcba224e4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972672"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135004"
 ---
 # <a name="work-with-production-families"></a>Vinna með framleiðslusamsafn
 
@@ -45,8 +44,8 @@ Stofnun framleiðslusamsafna dregur úr úrkastsmagninu vegna þess að það se
 
 [Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
-[...](production-manage-manufacturing.md)
-[Skipulagning framleiðslu](production-planning.md)   
+[Skipulagning framleiðslu](production-manage-manufacturing.md)
+[...](production-planning.md)   
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

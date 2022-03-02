@@ -2,21 +2,20 @@
 title: Sækja innbót Business Central fyrir Outlook
 description: Kynntu þér hvernig á að setja upp innbót Business Central fyrir Outlook fyrir fyrirtækið þitt eða til eigin nota.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832
+ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
-ms.translationtype: HT
+ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049590"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323191"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Sækja innbót Business Central fyrir Outlook
 
@@ -85,7 +84,7 @@ Miðstýrð innleiðing er eiginleiki í Microsoft 365 Stjórnun sem notaður er
 > [!IMPORTANT]
 > Grænt gátmerki birtist þegar innbótin er uppsett í stjórnendamiðstöðinni. Það getur þó liðið allt að sólarhringur áður en notendur sjá innbótina í Outlook-forritinu. Notendur gætu einnig þurft að endurræsa Outlook.
 
-Þegar því er lokið er alltaf hægt að breyta virkjun í Microsoft 365 admin Center eins og að úthluta fleiri notendum. Frekari upplýsingar um uppsetningu innbóta í stjórnendamiðstöðinni er að finna í [Setja upp innbætur í stjórnendamiðstöðinni](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Þegar því er lokið er alltaf hægt að breyta virkjuninni í Microsoft 365 stjórnendamiðstöð, eins og að úthluta fleiri notendum. Frekari upplýsingar um uppsetningu innbóta í stjórnendamiðstöðinni er að finna í [Setja upp innbætur í stjórnendamiðstöðinni](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Setja upp innbótina til eigin nota
 

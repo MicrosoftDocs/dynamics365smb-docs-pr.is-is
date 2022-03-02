@@ -2,7 +2,6 @@
 title: Endurskipulagning vöruhúsa
 description: Kynntu þér hvernig á að endurskipuleggja vöruhúsið með nýjum hólfakóðum og hólfaeinkennum til að ná fram eða viðhalda skilvirkari aðgerðum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: fe027e43c91723c4e2a24d8afab373f2b96b07eb
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
-ms.translationtype: HT
+ms.openlocfilehash: 97a8ff2971ca8cc6e34fb89cd5edbb092ac264a8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115231"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144282"
 ---
 # <a name="restructure-warehouses"></a>Endurskipulagning vöruhúsa
 Hugsanlega þarf að endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum. Ekki er ráðist í þess háttar aðgerðir oft en þær aðstæður geta komið upp að endurflokkun sé nauðsynleg til þess að ná fram eða viðhalda skilvirkni. Dæmi:  

@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 1fc425c828431852cacc100bb6499318025ea343
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
-ms.translationtype: HT
+ms.openlocfilehash: 3ec9760cc2b1225f4b06b142a0b32ac4178dcca6
+ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606484"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311262"
 ---
 # <a name="achieve-some-task-in-max-100-characters"></a>Ná sumum verknum með hámark 100 stafir
 
@@ -34,3 +34,5 @@ Munið að bæta einnig við Sjá einnig tenglum, og bæta nýju greininni við 
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Stjórnun](admin-setup-and-administration.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

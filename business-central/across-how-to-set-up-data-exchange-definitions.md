@@ -2,7 +2,6 @@
 title: Skilgreina hvernig rafræn gagnaskipti fara fram | Microsoft Docs
 description: Hægt er að nota ytri veitu, sem býður OCR-þjónustu, til að breyta PDF eða myndaskrám í rafræn skjöl.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: ba59e1164dbbe4cdd95cca31687b63db2af8018c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774687"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129234"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
 Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að skiptast á gögnum í tilgreindum töflum með gögnum á ytri skjölum, til dæmis senda og taka á móti rafrænum skjölum, flytja inn og flytja út bankagögn eða önnur gögn, t.d. launaskrá, gengi gjaldmiðils og vörulista. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).  

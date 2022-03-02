@@ -2,7 +2,6 @@
 title: Unnið með Business Central Data í Power BI| Microsoft docs
 description: Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central með Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f17546a46ec8d502e6fa1b73a49eb1ea0ed762b5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
-ms.translationtype: HT
+ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935262"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142576"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Unnið með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI
 

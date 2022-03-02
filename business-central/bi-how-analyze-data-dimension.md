@@ -1,23 +1,21 @@
 ---
 title: Greina gögn eftir víddum
 description: Þetta efnisatriði lýsir því hvernig skal greina ýmis viðskiptagögn eftir víddum. Víddir gefa meiri innsýn í viðskiptin svo hægt sé að meta upplýsingar.
-services: project-madeira
-documentationcenter: ''
 author: edupont
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9637aabd44f0714983a5d0ce129bf5bc9f1eaee4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ca377898f9dd49a55ec9113fc020054288c33910
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437077"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335059"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Greina gögn eftir víddum
 Í fjárhagsgreiningu er vídd tiltekin gögn sem má bæta við færslu sem einskonar merki. Þessi gögn eru notuð til að flokka saman færslur með svipuð einkenni, eins og viðskiptamenn, svæði, vörur og sölumenn og sækja þessa hópa á auðveldan hátt til greiningar. Víddir má nota fyrir færslur í færslubókum, skjölum og fjárhagsáætlunum. Heitið vídd lýsir því hvernig greiningin fer fram. Tvívíð greining gæti til dæmis verið sala eftir svæðum. Hins vegar er hægt að framkvæma flóknari greiningar með því að nota fleiri en tvær víddir þegar færsla er stofnuð, til dæmis sölu á hverja söluherferð, hvern viðskiptamann á hverju svæði. Frekari upplýsingar er að finna í [Unnið með víddir](finance-dimensions.md).

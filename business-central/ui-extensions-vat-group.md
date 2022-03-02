@@ -3,7 +3,6 @@ title: Viðbót fyrir stjórnun VSK-hóps
 description: Hægt er að tengjast við önnur fyrirtæki til að mynda VSK-hóp og vera annaðhvort meðlimur eða fulltrúa þess hóps þegar VSK er gefið upp.
 author: bholtorf
 manager: annbe
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029141"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132447"
 ---
 # <a name="the-vat-group-management-extension"></a>Viðbót fyrir stjórnun VSK-hóps
 
@@ -120,8 +119,8 @@ Til að gefa upp VSK fyrir hönd hópsins skal á síðunni **VSK-skýrslur** st
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
 [Setja upp virðisaukaskatt](finance-setup-vat.md)  
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
-[Tax Digital í Bretlandi](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
-[Norsk VSK-skýrsla í norsku útgáfunni](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Gerð Tax Digital í Bretlandi](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Norsk virðisaukaskattsskýrsla í norsku útgáfunni](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

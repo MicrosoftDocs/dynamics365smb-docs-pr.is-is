@@ -1,15 +1,14 @@
 ---
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9dea26c37e990eee9d25a887714873a1daf7e9fe
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 122a8fbaf741f9298c5f9c4a9971b714e1971b6c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724587"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135568"
 ---
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 22.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Vörur** skal velja aðgerðina **Nýtt**.

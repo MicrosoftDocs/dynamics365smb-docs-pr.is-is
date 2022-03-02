@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - vörurakning
 description: Vörurakningakerfið býður upp á þægilega meðhöndlun á rað- og lotunúmerum sem mögulega þarf til að uppfylla lagalegar kröfur eða aðstoða við meðhöndlun ábyrgðar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 55e8463e788e222265a0ec837196c55726caf53e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320290"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146619"
 ---
 # <a name="design-details-item-tracking"></a>Hönnunarupplýsingar: vörurakning
 Með sífellt flóknara flæði vara í framboðskeðjum nú til dags eykst mikilvægi þess fyrirtæki að geta rakið vörur. Vöktun færsluflæði vöru er lagaleg krafa fyrir birgja í heilbrigðis- og íðefnageiranum en í öðrum rekstri kann að vera gott að vakta vörur með ábyrgðir eða lokadag vegna þjónustu  við viðskiptamenn.  

@@ -1,22 +1,21 @@
 ---
 title: Sérstilling Business Central
 description: Lestu um mismunandi leiðir við að sérsníða Business Central til að bæta aðgengi að virkni og eiginleikum sem þú þarft mest á að halda við dagleg störf.
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7294eeb0c03dc1c494ce88e6d4e366b491070acf
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: 6eea88cf254b4d1b299a54c47d0e87774f0b21ae
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012762"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335296"
 ---
 # <a name="customize-business-central"></a>Sérstilla Business Central
 Það eru mismunandi leiðir til að sérstilla forritið til að gefa þér og samstarfsmönnum þínum aðgang að þeim eiginleikum, virkni og gögnum sem þú þarft mest á þann hátt sem hentar best daglegu starfi þínu. Það hvaða breytingar sjást veltur á því hvað þú gerir, eins og lýst er í þessari töflu.

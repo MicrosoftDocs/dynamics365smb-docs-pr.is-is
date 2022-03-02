@@ -1,8 +1,7 @@
 ---
-title: Sækja Business Central í fartækinu þínu (inniheldur myndskeið)
+title: Sækja viðskipti miðlægt í Fartækinu (inniheldur Video)
 description: Þetta efnisatriði lýsir ýmsum leiðum til að skoða og breyta Business Central-gögnum, senda í Excel og fleira í símanum þínum eða spjaldtölvu.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,16 +9,16 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
+ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940077"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138467"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Nota Business Central á fartækinu þínu
 
-Fá aðgang að gögnum [!INCLUDE[prod_short](includes/prod_short.md)] úr fartæki. Hægt er að skoða viðskiptagögn, nota eiginleika eins og senda í Excel eða Microsoft 365, skoða nýjustu myndrit og afkastavísa (KPI), sölutilboð og reikninga í tölvupósti, og taka myndir með eigin myndavél og tengja þær. Fylgið skrefunum hér að neðan til að sækja smáforritið og hefjist handa.
+Fá aðgang að gögnum [!INCLUDE[prod_short](includes/prod_short.md)] úr fartæki. Þú getur farið í gegnum viðskipagögn, notað aðgerðir eins og að senda í Excel eða Microsoft 365 skoðað dagkort og afkastavísa, sölutilboð í tölvupósti og reikninga og skotið og hengt myndir við myndavélina þína. Fylgið skrefunum hér að neðan til að sækja smáforritið og hefjist handa.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 

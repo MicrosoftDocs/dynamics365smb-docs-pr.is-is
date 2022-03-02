@@ -1,8 +1,7 @@
 ---
 title: Spá fyrir um seinkun á greiðslu fyrir söluskjöl
-description: Í þessu efnisatriði er útskýrt hvernig nota á fyrirspyrjandi líkanið til að spá fyrir um hvort reikningur verði greiddur á tíma.
+description: Þetta efnisatriði útskýrir hvernig á að nota forspárlíkanið okkar til að spá fyrir um hvort reikningur verði greiddur á réttum tíma.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: dd943c5ad9464b9ebd1629c5dbc8a3f5545e9d9c
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
+ms.openlocfilehash: c1c9f6a0aec94161b2043b5bf5cb5737bce3f8d2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940827"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136770"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Viðbót greiðsludráttarspár
 
@@ -108,7 +107,7 @@ Ef svo virðist sem ferli notanda stemmi ekki við staðlaða líkanið er samt 
 7. Veldu **Nota Azure-áskriftina mína** gátreitinn.
 8. Í **Innskráningarupplýsingar fyrir líkanið mitt** flýtiflipanum, sláðu inn API slóðina og API lykil fyrir líkanið.  .  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
 
 ## <a name="see-also"></a>Sjá einnig
 

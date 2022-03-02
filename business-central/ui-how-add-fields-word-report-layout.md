@@ -2,7 +2,6 @@
 title: Hvernig á að bæta reitum við Word-skýrsluútlit
 description: Þetta efnisatriði lýsir ferlinu við að bæta reitum í gagnasafni skýrslu við fyrirliggjandi Word-skýrsluútlit fyrir skýrslu.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
-ms.translationtype: HT
+ms.openlocfilehash: 036b6964b8a0e468bdfc4d2f3e44824b3daac9ee
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865339"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144724"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Bæta reitum við Word-skýrsluútlit
 Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndir. Þetta efnisatriði lýsir ferlinu við að bæta reitum í gagnasafni skýrslu við fyrirliggjandi Word-skýrsluútlit fyrir skýrslu. Reitum er bætt við með því að nota Word sérsniðinn XML-hluta fyrir skýrsluna og bæta við efnisstjórnun sem varpar í reiti gagnamengis skýrslunnar. Bæting reita þarfnast einhverrar þekkingar á gagnamengi skýrslunnar þannig að hægt er að bera kennsl á reitina sem á að bæta við útlitið.  
@@ -29,13 +28,13 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
      Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md).  
   
-2.  Sýna **flipann verktaki** í borði Microsoft Word.  
+2.  Sýna flipann **Hönnuður** á borða Microsoft Word.  
   
      Sjálfgefið er að **Hönnuður** er ekki sýnilegur í borðanum. Frekari upplýsingar eru í [Sýna flipann Hönnuður á borðanum](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
 3.  Á flipanum **Developer** skal velja **XML-vörpunarsvæði**.  
   
-4.  Í **XML-** **hlutafellirúðunni, á listanum sérsniðin XML-hluti**, skal velja sérsniðna XML-hlutann fyrir [!INCLUDE[prod_short](includes/prod_short.md)] skýrsluna sem vanalega síðast á listanum. Heiti sérstillta XML-hlutans er á eftirfarandi sniði:  
+4.  **Í XML** -hlutafellirúðunni, á **listanum sérsniðin XML-hluti**, skal velja sérsniðna XML-hlutann fyrir [!INCLUDE[prod_short](includes/prod_short.md)] skýrsluna sem vanalega síðast á listanum. Heiti sérstillta XML-hlutans er á eftirfarandi sniði:  
   
      urn:microsoft-dynamics-nav/reports/*skýrslu_heiti*/*/Kenni*  
   

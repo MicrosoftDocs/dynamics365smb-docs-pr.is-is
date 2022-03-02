@@ -2,7 +2,6 @@
 title: Hvernig á að takmarka og leyfa notkun á færslu
 description: Eigi að varna því að færsla sé notuð er hægt að virkja tvö verkflæðissvör í verkflæði sem stýrir notkun færslunnar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: bd7382730a70295693a9feb70ff67d9fb6344717
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 5382a05668e3dfcb02534788de607473494bafd2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438308"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134279"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Takmarka og heimila notkun á færslu
 Eigi að varna því að færsla sé notuð í tilteknum aðgerðum, til dæmis, ekki fyrr en færslan hefur verið samþykkt, er hægt að virkja tvö verkflæðissvör sem stýrir notkun færslu. Eitt verkflæðissvar mun takmarka notkun færslunnar eins og tilgreint er í verkflæðistilviki og skilyrðum. Annað verkflæðissvar mun heimila notkun færslunnar eins og tilgreint er í verkflæðistilviki og skilyrðum. Tvenns konar svörun er til í almennu útgáfunni af [!INCLUDE[prod_short](includes/prod_short.md)] í þessum tilgangi: **Takmarka notkun á færslu** og **heimila notkun á færslu**.

@@ -2,7 +2,6 @@
 title: Algengar spurningar um OneDrive for Business
 description: Fáðu svör við dæmigerðum spurningum um OneDrive for Business og Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3d9058b3b0f751729d5538f36454bd8244a3594f
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: f54e8b6290e9dd653180b3ea05246255b84dc2ae
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589440"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144051"
 ---
 # <a name="onedrive-for-business-faq"></a>Algengar spurningar um OneDrive for Business
 
@@ -29,7 +28,7 @@ Já. Hægt er að opna skrár í OneDrive úr [!INCLUDE[prod_short](includes/pro
 
 ## <a name="is-onedrive-the-same-as-sharepoint-for-storing-files"></a>Er OneDrive sama og SharePoint fyrir varðveislu skráa?
 
-Sem hluti af Microsoft 365-áskriftinni þinni býður fyrirtækið þitt upp á OneDrive, skráageymsluna þína í skýinu. OneDrive er sjálfgefið til einkanota, þar sem þú skipuleggur efnið þitt og velur hvaða skrár eða möppur á að deila og með hverjum. SharePoint býður hinsvegar upp á gagnageymslu í skýinu fyrir skrár sem deilt er með öðrum í fyrirtækinu.  
+Fyrirtækið veitir þér Microsoft 365 og skráageymslan þína í skýinu sem hluta af OneDrive áskriftinni. OneDrive er sjálfgefið til einkanota, þar sem þú skipuleggur efnið þitt og velur hvaða skrár eða möppur á að deila og með hverjum. SharePoint býður hinsvegar upp á gagnageymslu í skýinu fyrir skrár sem deilt er með öðrum í fyrirtækinu.  
 
 ## <a name="does-prod_short-support-consumer-onedrive"></a>Styður [!INCLUDE[prod_short](includes/prod_short.md)] notanda OneDrive?
 
@@ -37,11 +36,11 @@ Fj. Þessi samþætting er eingöngu ætluð OneDrive for Business og styður a�
 
 ## <a name="are-all-onedrive-for-business-plans-supported"></a>Er allar áskriftarleiðir OneDrive for Business studdar?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] styður ekki sjálfstæðar áskriftir fyrir OneDrive for Business. OneDrive verður að vera keypt sem hluti af áskriftarleið Microsoft 365 Business eða Microsoft 365 Enterprise. Frekari upplýsingar er að finna í [Bera saman verð og áskriftarleiðir OneDrive skýjageymslu](https://www.microsoft.com/microsoft-365/onedrive/compare-onedrive-plans?market=af&activetab=tab:primaryr2).  
+[!INCLUDE[prod_short](includes/prod_short.md)] styður ekki sjálfstæðar áskriftir fyrir OneDrive for Business. OneDrive þarf að kaupa sem hluta af Microsoft 365 viðskipta-eða Enterprise-áætlun. Frekari upplýsingar er að finna í [Bera saman verð og áskriftarleiðir OneDrive skýjageymslu](https://www.microsoft.com/microsoft-365/onedrive/compare-onedrive-plans?market=af&activetab=tab:primaryr2).  
 
 ## <a name="where-can-i-see-onedrive-service-health"></a>Hvar get ég séð OneDrive Service Health?
 
-Stjórnendur geta fengið aðgang að stjórnborði Service Health sem hluti af stjórnendamiðstöð Microsoft 365. Stjórnborðið inniheldur aðgengileika OneDrive þjónustu. 
+Stjórnendur geta nálgast þjónustu Health mælaborði sem hluta af Microsoft 365 admin Center. Stjórnborðið inniheldur aðgengileika OneDrive þjónustu. 
  
 ## <a name="is-onedrive-integration-available-to-prod_short-on-premises"></a>Er OneDrive samþætting í boði fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum?
 
@@ -84,7 +83,7 @@ Samþætting við OneDrive varð aðgengileg í 2021 útgáfutímabili 2.
 
 ## <a name="will-microsoft-continue-to-improve-the-integration-to-onedrive"></a>Heldur Microsoft áfram að bæta samþættinguna í OneDrive?
 
-Við hjá Microsoft erum stöðugt að hlusta á viðbrögð frá fjölbreyttu samfélagi notenda okkar og vinna með helstu tillögur samfélagsins. Til að fá upplýsingar um hvað er á döfinni varðandi samþættingar við forrit Microsoft 365 skal skoða [Útgáfuáætlun Dynamics 365](/dynamics365-release-plan/2021wave1).  
+Við hjá Microsoft erum stöðugt að hlusta á viðbrögð frá fjölbreyttu samfélagi notenda okkar og vinna með helstu tillögur samfélagsins. Til að fræðast um það sem næst er fyrir samþættingar með Microsoft 365 forritum er að finna í [Dynamics 365 úttektaráætluninni](/dynamics365-release-plan/2021wave1).  
 
 Ef þú vilt taka þátt í að bæta OneDrive samþættingu eða ert með hugmynd um hvernig skuli bæta skráadeilingu og samstarf í [!INCLUDE[prod_short](includes/prod_short.md)] geturðu bætt við hugmynd eða kosið um fyrirliggjandi hugmyndir á [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 

@@ -2,7 +2,6 @@
 title: Sérstilling Business Central og Dataverse
 description: Kynntu þér hvernig á að samstilla gögn milli Business Central og Dataverse.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 28a6a26e8065f16d201b8f1650685dd645805863
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
-ms.translationtype: HT
+ms.openlocfilehash: 937601cffe10fe7862aad48ec7f7bded37ad8e61
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049823"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130619"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Áætla samstillingu milli Business Central og Dataverse
 

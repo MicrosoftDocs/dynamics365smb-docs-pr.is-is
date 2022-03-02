@@ -2,18 +2,17 @@
 title: Setja upp tilkynningar verkflæðis
 description: Í þessu efnisatriði er sagt hvernig á að setja upp tilkynningar verkflæðis til að láta notanda vita að tilvik hafi komið upp sem þarf að bregðast við; verkflæðissvar er nauðsynlegt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: f0db9d63257d37fe6be5d31fc58541caf968907a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
-ms.translationtype: HT
+ms.openlocfilehash: a41dcc291fb46173533f6552b6c64de35d28bc01
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482433"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134019"
 ---
 # <a name="workflow-notifications"></a>Tilkynningar verkflæðis
 

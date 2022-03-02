@@ -2,7 +2,6 @@
 title: Skilgreina nákvæmari heimildir
 description: Í þessu efnisatriði er lýst hvernig eigi að skilgreina nákvæmari heimildir með því að veita ákveðnum notendum aðgang að hlutum og úthluta þeim heimildasamstæðum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,18 +10,18 @@ ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 9807, 9808, 9830, 9831
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 634e21f291d15c78e8d4415399b6877240217eff
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8028929"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146125"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfum til notenda og hópa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] öryggiskerfið gerir þér kleift að stjórna því hvaða hluti notandi hefur aðgang að í hverjum gagnagrunni eða umhverfi fyrir sig. Þú getur tilgreint fyrir hvern notanda hvort hann geti lesið, breytt eða slegið inn gögn í valda gagnagrunnshluti. Frekari upplýsingar er að finna í [Gagnaöryggi](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) í hjálp Developer and ITPro fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Áður en heimildum er úthlutað á notendur og notendaflokka þarf að skilgreina hverjir geta skráð sig inn með því að stofna notendur samkvæmt leyfinu sem skilgreint er í Microsoft 365 Stjórnun miðstöðvarinnar. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
+Áður en heimildum er úthlutað á notendur og notendaflokka þarf að skilgreina hverjir geta skráð sig inn með því að stofna notendur samkvæmt leyfinu sem skilgreint er Microsoft 365 í stjórnun miðstöðvarinnar. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] eru tvö stig heimilda fyrir gagnagrunnshluti:
 

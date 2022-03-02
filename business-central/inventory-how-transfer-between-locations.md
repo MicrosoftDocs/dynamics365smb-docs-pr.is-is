@@ -2,7 +2,6 @@
 title: Flytja vörur á milli vöruhúsastaða
 description: Lýsir hvernig á að flytja birgðir frá einum stað eða vörugeymslu til annars, annaðhvort með endurflokkunarfærslubók eða með flutningsfyrirmæli.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 166ac80202717ff3418b040ad01bccb1eb97ac66
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: b51bd44099c85ae16498e2f40abc86db7134cb1b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059387"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148499"
 ---
 # <a name="transfer-inventory-between-locations"></a>Flytja birgðir milli birgðageymslna
 Það er hægt að flytja birgðavörur milli tveggja staða með því að búa til flutningspantanir. Einnig er hægt að nota vöruendurflokkunarbók.

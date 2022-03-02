@@ -2,7 +2,6 @@
 title: Nota mælieiningakeyrslu framleiðslu
 description: Þetta efnisatriði sýnir yfirlit yfir hvernig á að vinna með mælieiningar framleiðslurunu í Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d0fed17c296932afd5f976d5cceb7a4b83c79dae
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 6e7d188adceffbc6044162e14de5cbb141c21b54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321242"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137498"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Vinna með mælieiningu framleiðslukeyrslu
 Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er framleiðslupöntun stofnuð sem notar mælieiningu framleiðslukeyrslu til að reikna út rétt magn íhluta meðan á keyrslunni **Endurnýjun framleiðslupöntunar** stendur. Dæmi um útreikning með mælieiningu framleiðslukeyrslu er þegar framleiddur hlutur er merktur á lager í stykkjum en framleiddur í tonnum.  

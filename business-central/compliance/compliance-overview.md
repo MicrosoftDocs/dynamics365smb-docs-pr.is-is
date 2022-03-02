@@ -3,7 +3,6 @@ title: Yfirlit yfir reglufylgni
 description: Yfirlit yfir Business Central-virkni er byggt á verkvangi sem gerir það auðvelt fyrir viðskiptavini að fara eftir reglufylgni og regluverki.
 author: sorenfriisalexandersen
 documentationcenter: ''
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 3995d8c22dbcadbff5aa19e3d1574d75802f9db4
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: c771776965a1535d3a16a07f008a017a4a4c8a33
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011020"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146827"
 ---
 # <a name="compliance-overview"></a>Yfirlit yfir reglufylgni
 

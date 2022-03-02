@@ -2,7 +2,6 @@
 title: Setja upp bankareikninga (inniheldur Video)
 description: Kynntu þér hvernig bankareikningar eru notaðir í Business Central og hvernig hægt er að stemma af upphæðir með bankanum.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: 49ddd48a03c8abe9ea9b396bebc4328e2be30104
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029275"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143739"
 ---
 # <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
 
@@ -91,7 +90,7 @@ Frá raunverulegum reikningi í bankanum berast oft óþekktar færslur sem grei
 2. Á síðunni **bankareikningar** skal velja aðgerðina **Nýtt**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    Til dæmis tengir Bankareikn **reikningsflokkinn** bankareikninginn við undirliggjandi fjárhagsreikning í efnahagsreikningi. Frekari upplýsingar er að finna í [Setja upp bókunarflokka](finance-posting-groups.md).
+    Til dæmis **tengir Bankareikn Reikningsflokkinn** bankareikninginn við undirliggjandi fjárhagsreikning í efnahagsreikningi. Frekari upplýsingar er að finna [í setja upp bókunarflokka](finance-posting-groups.md).
 
 > [!TIP]
 > Sumir reitir eru faldir þar til þú velur aðgerðina **Sýna fleiri**, yfirleitt vegna þess að þeir eru sjaldan notaðir. Öðrum verður að bæta við með sérstillingu. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).

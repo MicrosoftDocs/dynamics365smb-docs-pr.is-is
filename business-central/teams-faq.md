@@ -2,7 +2,6 @@
 title: Teams - Algengar spurningar
 description: Fáðu svör við dæmigerðum spurningum um Teams og Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: cd53825ced18cafab27571671a203cda82d3dcc9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587866"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147493"
 ---
 # <a name="teams-faq"></a>Teams - Algengar spurningar
 
@@ -107,7 +106,7 @@ Aðeins er um að ræða minniháttar mun og takmarkanir á milli Teams-biðlara
 
 ### <a name="what-is-the-best-way-for-me-to-demonstrate-prod_shortmd-and-microsoft-teams-to-prospective-customers"></a>Hver er besta leiðin fyrir mig til að sýna [!INCLUDE [prod_short.md](includes/prod_short.md)] og Microsoft Teams væntanlegum viðskiptamönnum?
 
-Ef þú ert endursöluaðili gætir þú viljað hafa umhverfi sem þú getur sýnt hugsanlegum viðskiptamönnum sem hluti af sölukynningu. Til að forðast að hafa áhrif á Microsoft Teams í fyrirtækinu þínu, geturðu náð í sýnireikning Microsoft 365 á [https://aka.ms/CDX](https://aka.ms/CDX). Þessi reikningur veitir þér fulla stjórn á óháðu Azure-fyrirtæki sem inniheldur Microsoft Teams og [!INCLUDE [prod_short.md](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Undirbúningur sýniumhverfa af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
+Ef þú ert endursöluaðili gætir þú viljað hafa umhverfi sem þú getur sýnt hugsanlegum viðskiptamönnum sem hluti af sölukynningu. Til að koma í veg fyrir að Microsoft Teams hafa áhrif á fyrirtækið þitt geturðu fengið Microsoft 365 prufu reikning á [https://aka.ms/CDX](https://aka.ms/CDX). Þessi reikningur veitir þér fulla stjórn á óháðu Azure-fyrirtæki sem inniheldur Microsoft Teams og [!INCLUDE [prod_short.md](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Undirbúningur sýniumhverfa af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
 ### <a name="does-the-prod_shortmd-app-for-teams-cater-for-my-customization-and-personalization"></a>Tekur [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams tillit til sérstillinga minna?
 
@@ -188,7 +187,7 @@ Til að sýna samskipti verður að skilgreina [!INCLUDE [prod_short.md](include
 
 ### <a name="can-i-call-a-contact-from-the-prod_shortmd-app-for-teams"></a>Get ég hringt í tengilið úr [!INCLUDE [prod_short.md](includes/prod_short.md)] forritinu fyrir Teams?
 
-[!INCLUDE [prod_short.md](includes/prod_short.md)] er með takmarkaða samþættingu við möguleika Teams-símtala. Ekki er hægt að hefja strax netsímtal úr tengiliðaspjaldinu eða glugga tengiliðaupplýsinga. Hins vegar, þegar tengiliðaupplýsingarnar eru skoðaðar í Teams-skjáborðsforritinu, er hægt að velja reit símanúmers til að hringja í það númer ef Teams er uppsett sem sjálfgefið hringiforrit í tækinu. Til að hringja í landlínu- eða farsímanúmer með almennu símkerfi gerir Teams kröfu um að forritið Microsoft 365 Business Voice sé til staðar. Frekari upplýsingar er að finna í [Hvað er Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
+[!INCLUDE [prod_short.md](includes/prod_short.md)] er með takmarkaða samþættingu við möguleika Teams-símtala. Ekki er hægt að hefja strax netsímtal úr tengiliðaspjaldinu eða glugga tengiliðaupplýsinga. Hins vegar, þegar tengiliðaupplýsingarnar eru skoðaðar í Teams-skjáborðsforritinu, er hægt að velja reit símanúmers til að hringja í það númer ef Teams er uppsett sem sjálfgefið hringiforrit í tækinu. Til að hringja í jarðlína eða farsímanúmer með PSTN, hefðbundnu símkerfi, krefst Teams þess að þú hafir Business Voice forritið Microsoft 365. Til að læra meira, sjá [Hvað er Microsoft 365 Business Voice](/MicrosoftTeams/business-voice/whats-business-voice)?.
 
 ### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>Hvernig skoða ég nýleg skjöl fyrir viðskiptavin eða lánardrottinn?
 

@@ -2,7 +2,6 @@
 title: Setja upp tölvupóstskráningu | Microsoft Docs
 description: Kynntu þér hvernig tölvupóstsamskipti milli sölufólks og viðskiptavina geta skapað alvöru sölutækifærum.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
-ms.translationtype: HT
+ms.openlocfilehash: 2abc0406fa8e86646d2382a4c7bbb1e228439728
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482346"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148409"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Fylgstu með tölvupóstsamskiptum milli sölufólks og tengiliða
 
@@ -31,7 +30,7 @@ Næst tengir þú [!INCLUDE[prod_short](includes/prod_short.md)] við Exchange O
 
 Hafist handa með tölvupóstskráningu í tveimur einföldum skrefum:
 
-1. Tengið [!INCLUDE[prod_short](includes/prod_short.md)] við Exchange Online fyrir Microsoft 365-áskriftina. Exchange Online sér um tölvupóstskilaboðin þín. Við höfum einfaldað þetta skref með því að bjóða upp á uppsetningarleiðbeiningar. Aðeins þarf innskráningarupplýsingar stjórnanda fyrir stjórnandareikning í Microsoft 365. Til að hefja leiðsögnina skaltu opna síðuna **Uppsetning með hjálp** og velja síðan **Setja upp tölvupóstskráningu**.  
+1. Tengjast [!INCLUDE[prod_short](includes/prod_short.md)] við Exchange Online áskriftina þína Microsoft 365. Exchange Online sér um tölvupóstskilaboðin þín. Við höfum einfaldað þetta skref með því að bjóða upp á uppsetningarleiðbeiningar. Þú þarft bara að hafa kerfisstjóra-skilríkin fyrir kerfisstjóra lykilinn í Microsoft 365. Til að hefja leiðsögnina skaltu opna síðuna **Uppsetning með hjálp** og velja síðan **Setja upp tölvupóstskráningu**.  
 
 2. Gakktu úr skugga um að gild netföng hafi verið slegin inn í [!INCLUDE[prod_short](includes/prod_short.md)] fyrir sölufólk og tengiliði, sem er háð því hvort um sé að ræða mögulega eða núverandi viðskiptavini. Til að gera það fyrir hvern viðskiptavin eða sölumann skal opna spjaldið **Tengiliður** eða **Sölumaður/innkaupaaðili** og kíkja í reitinn **Netfang**.
 

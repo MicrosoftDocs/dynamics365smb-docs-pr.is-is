@@ -2,7 +2,6 @@
 title: Stofna reikninga eða kreditreikninga fyrir þjónustu
 description: Kynntu þér hvernig þú getur á einfaldan hátt notað Business Central til að búa til kreditreikning fyrir þjónustu þína.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: ad5003e8dac33ac5886caa698650ba211c9b89ae
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 47ff02006af6182752ed110464b4c8aa493060c5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440154"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143089"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Stofna Þjónustureikninga eða kreditreikninga
 Auðveld reikningsfærsla þjónustupantana er lykileiginleiki [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að setja [!INCLUDE[prod_short](includes/prod_short.md)] kerfið upp þannig að þjónustutæknimaður á vettvangi geti stofnað reikning fyrir þjónustu sem ekki er tengd samningi eða pöntun. Einnig er hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að reikningsfæra þjónustusamninga reglulega. Reikningstímabil samnings ræður tíðni reikningsfærslu.

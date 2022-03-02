@@ -1,19 +1,18 @@
 ---
-title: Hvernig á að rekja sendingar
+title: Finna sendingar
 description: Notaðu rakningarþjónustu flutningsaðila á internetinu til að rekja pakkningar og fylgjast með framvindu sendingar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
+ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
-ms.translationtype: HT
+ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752367"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334487"
 ---
 # <a name="track-packages"></a>Finna sendingar
 Flestir flutningsaðilar bjóða upp á vefþjónustu sem gerir þér kleift að rekja stöðu pakkanna þinna á leiðinni. Þessar upplýsingar geta reynst gagnlegar í mörgum viðskiptaferlum, t.d. fyrir viðskiptamannaþjónustu. Ef fleiri en einn flutningsaðili er notaður er hægt að færa inn grunnupplýsingar um þá og síðan nota rakningarþjónustu þeirra beint af síðunum Bókaðar söluafhendingar, Bókaðir sölureikningar, Bókaðir sölukreditreikningar og Bókuð vöruskilamóttaka. Frekari upplýsingar er að finna í [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md). 

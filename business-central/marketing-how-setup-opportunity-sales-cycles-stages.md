@@ -2,7 +2,6 @@
 title: Setja upp söluferla tækifæris og söluþrep| Microsoft Docs
 description: Lýsir því hvernig skal skilgreina söluþrep, frá upphaflegum tengilið til lokunar, stofna söluferla og úthluta þeim til tækifæra í Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 16c72d0c0b2b14e73b390b585b505f00956ac4d4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: 5eb180d1190e56dc7a43354b5aef2637500a38be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059753"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148435"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Setja upp söluferla tækifæris og söluþrep
 Áður en hægt er að hefja notkun sölutækifæri þarf að setja upp söluferli og þrep söluferla. Söluferli samanstendur af röð þrepa sem fara frá fyrstu samskiptum til lokunar sölu. Hvert þrep hefur ákveðnar kröfur sem uppfylla þarf, til dæmis þarfnast sölutilboð áður en tækifæri getur farið á næsta þrep. Einnig er hægt að tilgreina sleppa megi þrepi. Hægt er að setja upp eins mörg söluferli og þarf, og hægt er að setja upp eins mörg þrep söluferla og þarf innan söluferlis.

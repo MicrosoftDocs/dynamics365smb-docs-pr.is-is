@@ -2,7 +2,6 @@
 title: Lágmarkskröfur fyrir notkun Business Central
 description: Kynntu þér lágmarkskröfur um kerfi og útgáfu til að nota Business Central á netinu eins og er útskýrt hér á eftir.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3c116786612b62587dd68dc90c358a5a51a24a29
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 8f0e9b608611c963cd31112a31d004108ad1ab73
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321417"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135186"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 
@@ -46,7 +45,7 @@ ms.locfileid: "6321417"
 -->
 ## <a name="outlook"></a>Outlook
 
-**Outlook-forrit:** Til að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2019 eða nýrra, Outlook á netinu, Outlook fyrir iOS, Outlook fyrir eða Outlook fyrir Android. Fyrirtækið þitt verður einnig að nota Microsoft 365 . Ekki er hægt að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum. 
+**Outlook-forrit:** Til að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2019 eða nýrra, Outlook á netinu, Outlook fyrir iOS, Outlook fyrir eða Outlook fyrir Android. Fyrirtækið verður einnig að nota Microsoft 365. Ekki er hægt að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum. 
 
 > [!IMPORTANT]
 > Frá og með Business Central 2021 útgáfutímabili 2 geturðu ekki lengur skráð þig inn á viðbótina Business Central í Outlook-útgáfum eldri en 2012 útgáfan.

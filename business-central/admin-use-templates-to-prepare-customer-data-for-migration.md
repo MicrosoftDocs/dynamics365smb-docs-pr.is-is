@@ -2,7 +2,6 @@
 title: Undirbúa flutning á viðskiptamannagögnum með sniðmátum
 description: Kynntu þér hvernig á að nota grunnstillingarsniðmát til að skipuleggja fyrirliggjandi aðalgögn viðskiptavinar áður en gögnin eru flutt í nýja fyrirtækið í Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
-ms.translationtype: HT
+ms.openlocfilehash: f0d8430be917981f84eb2841c0840a5b36a8d678
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649888"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143791"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Undirbúa flutning á viðskiptamannagögnum með sniðmátum
 

@@ -2,7 +2,6 @@
 title: Stjórna notendastillingum og kjörstillingum sem stjórnandi
 description: Stjórna notendastillingum og kjörstillingum í Dynamics 365 Business Central.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: user settings, preferences, language, region, time zone, reg
 ms.search.form: 9204
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: b3b4c857f006970fa3973a1203a7ddd8cffc2298
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: 779dcea91d2e856bfae847f98695ceed0c0d600e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011758"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145941"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Stjórna notendastillingum og kjörstillingum
 
@@ -44,7 +43,7 @@ Síðan **Spjald notandastillinga** er svipuð og síðan **Mínar stillingar** 
 
 - **Tungumál**  
 
-  Skilgreinir forritstungumál sem [!INCLUDE[prod_short](includes/prod_short.md)] birtir texta, textar og villuskilaboð á. Ef [!INCLUDE[prod_short](includes/prod_short.md)] notendur eru samstilltir frá Microsoft 365 eru Tungumálastillingarnar frá því Microsoft 365 notaðar, miðað við að notandinn vilji nota sömu stillingar í skrifstofuvörum og [!INCLUDE[prod_short](includes/prod_short.md)]. Stjórnandinn getur breytt sjálfgefinni stillingu og hver notandi getur valið á milli tiltækra tungumála á síðunni Mínar stillingar. En þau verða endurstillt í gildið frá Microsoft 365 því að næsta samstilling fer fram.
+  Skilgreinir forritstungumál sem [!INCLUDE[prod_short](includes/prod_short.md)] birtir texta, textar og villuskilaboð á. Ef [!INCLUDE[prod_short](includes/prod_short.md)] notendur eru samstilltir frá Microsoft 365 eru Tungumálastillingarnar frá Microsoft 365 því notaðar, miðað við að notandinn vilji nota sömu stillingar í skrifstofuvörum og [!INCLUDE[prod_short](includes/prod_short.md)]. Stjórnandinn getur breytt sjálfgefinni stillingu og hver notandi getur valið á milli tiltækra tungumála á síðunni Mínar stillingar. En þau verða endurstillt í gildið frá Microsoft 365 því að næsta samstilling fer fram.
 
   Ef tungumálastillingin úr Microsoft 365 samsvarar studdu tungumáli [!INCLUDE[prod_short](includes/prod_short.md)] verður þetta tungumál valið fyrir notandann.  
 
@@ -53,7 +52,7 @@ Síðan **Spjald notandastillinga** er svipuð og síðan **Mínar stillingar** 
   
 - **Svæði**  
 
-  Skilgreinir hvernig dagsetningar og tölustafir birtast í [!INCLUDE[prod_short](includes/prod_short.md)] -biðlaranum, svo sem hvort nota eigi evrópskar eða bandarískar dagsetningarsnið eða hvernig á að birta tugabrotin og þúsund skiltákn í upphæðum. Ef [!INCLUDE[prod_short](includes/prod_short.md)] notendur eru samstilltir frá Microsoft 365 eru svæðistilstillingarnar sem Microsoft 365 notaðar eru, forsenda þess að notandinn vilji nota sömu stillingar í skrifstofuvörum og [!INCLUDE[prod_short](includes/prod_short.md)]. Kerfisstjóri eða notandi getur breytt þessum stillingum handvirkt í [!INCLUDE[prod_short](includes/prod_short.md)] en þær verða endurstilltar í gildi frá Microsoft 365 því að næsta samstilling fer fram.
+  Skilgreinir hvernig dagsetningar og tölustafir birtast í [!INCLUDE[prod_short](includes/prod_short.md)] -biðlaranum, svo sem hvort nota eigi evrópskar eða bandarískar dagsetningarsnið eða hvernig á að birta tugabrotin og þúsund skiltákn í upphæðum. Ef [!INCLUDE[prod_short](includes/prod_short.md)] notendur eru samstilltir frá Microsoft 365 eru svæðistilstillingarnar Microsoft 365 sem notaðar eru, forsenda þess að notandinn vilji nota sömu stillingar í skrifstofuvörum og [!INCLUDE[prod_short](includes/prod_short.md)]. Kerfisstjóri eða notandi getur breytt þessum stillingum handvirkt í [!INCLUDE[prod_short](includes/prod_short.md)] en þær verða endurstilltar í gildi frá Microsoft 365 því að næsta samstilling fer fram.
 
 - **Tímabelti**  
 
@@ -64,7 +63,7 @@ Síðan **Spjald notandastillinga** er svipuð og síðan **Mínar stillingar** 
   [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)] Sem stjórnandi geturðu slökkt á fróðlegum ábendingum fyrir alla notendur, t.d. ef þú ert að innleiða notendur sem eru nú þegar kunnugir [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> Ef Microsoft 365 samstilling notanda er gerð á meðan notendur eru skráðir inn [!INCLUDE[prod_short](includes/prod_short.md)] verða þeir notendur að endurnýja vafrann eða skrá sig út og aftur í [!INCLUDE[prod_short](includes/prod_short.md)] til að sjá hugsanlegt annað tungumál sem er samstillt aðgerðinni.
+> Microsoft 365 Ef samstilling notanda er gerð á meðan notendur eru skráðir inn [!INCLUDE[prod_short](includes/prod_short.md)] verða þeir notendur að endurnýja vafrann eða skrá sig út og aftur í til [!INCLUDE[prod_short](includes/prod_short.md)] að sjá hugsanlegt annað tungumál sem er samstillt aðgerðinni.
 
 ## <a name="overview-of-all-user-specific-changes"></a>Yfirlit yfir notandabundnar breytingar
 

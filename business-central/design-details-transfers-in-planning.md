@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - Flutningur í áætlun | Microsoft Docs
 description: Þetta efnisatriði lýsir því hvernig á að nota flutningspantanir sem uppsprettu framboðs þegar verið er að áætla birgðastig.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d2c51e5851fec0c451c058fcb7330ce456d4525c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: e937c6f261c3fe2249a066b9c3f8819424f3d2f0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439586"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141282"
 ---
 # <a name="design-details-transfers-in-planning"></a>Hönnunarupplýsingar: Flutningur í áætlun
 Millifærslupantanir eru einnig uppspretta framboðs þegar unnið er á birgðahaldseiningarstigi. Þegar margar staðsetningar (vöruhús) eru notaðar er hægt að stilla áfyllingarkerfi birgðahaldseininga á Flutning og gefa þannig í skyn að staðsetningin verði áfyllt með því að flytja þangað varning af annarri staðsetningu. Í aðstæðum með fleiri vöruhús, fyrirtæki gætu haft keðju flutnings þar sem framboð til grænar staðsetningar er flutt frá gulum og framboð til gulra er flutt úr rauðum og svo framvegis. Í upphafi af keðjunni er áfyllingarkerfi Framl.pöntun eða innkaup.  

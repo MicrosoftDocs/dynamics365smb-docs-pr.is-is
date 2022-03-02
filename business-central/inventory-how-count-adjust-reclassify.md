@@ -2,7 +2,6 @@
 title: Talning, breytingar og endurflokkun birgða
 description: Framkvæma rauntalningu, gera neikvæðar eða jákvæðar leiðréttingar, og breyta upplýsingum, eins og t.d. staðsetningu eða lotunúmer, í birgðafærslum eða vöruhúsafærslum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5d8625434a661beb126ca234ea760038a6b75506
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: b25851a01a5687da3055a6b8e32becf8e6e9f018
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059701"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131614"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Talning, breytingar og endurflokkun birgða með færslubókum
 Minnst einu sinni á hverju fjárhagsári þarf að telja raunbirgðir (það er, telja allar vörur á lager) til að athuga hvort magnið sem skráð er í kerfinu sé það sama og raunbirgðir á lager. Þegar búið er að finna út úr raunbirgðum þarf að bóka þær í fjárhag þegar fram fer mat á birgðum við lok tímabils.

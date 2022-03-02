@@ -2,7 +2,6 @@
 title: Greiðslur og afstemmingar (DK) viðbótin
 description: Þessi viðbót gerir það auðvelt að flytja út skrár sem eru forstilltar til að uppfylla kröfur banka um rafræna skráningu.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef87f41ec58dbc37caff647ad577f1cfcc205dfc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 6ba51935ba71c3caa6a74f2fc7a69b06d8731422
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434886"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129917"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Greiðslur og afstemmingar (DK) viðbótin
 

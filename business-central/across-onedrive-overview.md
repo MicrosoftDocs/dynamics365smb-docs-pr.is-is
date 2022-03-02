@@ -2,18 +2,17 @@
 title: Business Central og OneDrive fyrir Business Integration
 description: Þú getur notað OneDrive fyrir Business til að geyma, hafa umsjón með og deila skrám á borð við skýrslur eða skráarviðhengi.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8965fe1c0f04c3b12fef984e71b7f2643f7f11c2
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: f2c8efa4a32ef18ee4db25919c7e4405649d54bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012576"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141464"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Business Central og OneDrive fyrir Business Integration
 OneDrive til viðskipta er skýgeymsluþjónusta sem er innifalin í Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] auðveldar geymslu, umsjón og deilingu skráa með öðrum í gegnum OneDrive. Þegar skrá er í OneDrive getur þú notið ríkulegs samstarfs úr netútgáfum af vörum Microsoft, t.d. Word, Excel og PowerPoint. Til dæmis er hægt að deila Word-skjali og þá getur þú og samstarfsfólk þitt breytt því saman í rauntíma. OneDrive gerir þér líka kleift að opna aðrar gerðir skráa, t.d. PDF. 

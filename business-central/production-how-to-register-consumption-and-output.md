@@ -2,7 +2,6 @@
 title: Skrá notkun úttaks fyrir framleiðslupöntun
 description: Þetta efnisatriði útskýrir hvernig á að skrá notkun og úttak fyrir losaða framleiðslupöntunarlínu sem sýnd er á síðu framleiðslubókar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 43f49adcc182f279126fbb8d2d6652153a626b4d
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 7fbb0d2c064df2b99fcbb58dde278ed8848f949f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973814"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137524"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu
 

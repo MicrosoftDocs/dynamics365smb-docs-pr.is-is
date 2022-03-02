@@ -2,7 +2,6 @@
 title: Setja upp aðra gjaldmiðla
 description: Fjárhagurinn þinn er settur upp til að nota staðbundna gjaldmiðilinn (SGM) og annar gjaldmiðill er settur upp sem viðbótargjaldmiðill með rétt gengi stillt.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: multiple currencies, foreign exchange rates
 ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 601ed7ceb9817b8bf24c12a260fd346087eed86f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 3df39a6054a73fb44c18c4893a253bfcd358f318
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972045"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132915"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Setja upp annan skýrslugjaldmiðil
 

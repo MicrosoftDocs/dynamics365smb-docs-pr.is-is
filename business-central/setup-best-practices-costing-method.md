@@ -2,7 +2,6 @@
 title: Uppsetning bestu venja - Aðferð kostnaðarútreiknings
 description: Á birgðaspjaldinu skilgreinir Kostnaðaraðferð hvernig kostnaðarflæði vörunnar er skráð og hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikninginn.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 30, 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7ba4b5547bd12a1c1db0e0920cc973098bcedf20
-ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
-ms.translationtype: HT
+ms.openlocfilehash: 8eafa5661bd61bc72df55171a2a2a79da045f0e8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8050985"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140503"
 ---
 # <a name="setup-best-practices-costing-method"></a>Uppsetning bestu venjur: Aðferð kostnaðarútreiknings
 

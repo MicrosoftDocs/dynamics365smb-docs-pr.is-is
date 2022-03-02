@@ -2,7 +2,6 @@
 title: VÍV-aðferðir við útreikning og skráningu á framvindu verks
 description: Lýsir mismunandi Verk í vinnslu (VÍV)-aðferðum sem hægt er að nota til að bóka, fylgjast með og reikna út fjárhagsupplýsingar fyrir verk sem eru í vinnslu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7fbe8faa3fc4d75f068ad585faddeb1b5186e70
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: bfae06855a633642ebc8032578f4f4c1bf4e35d3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970886"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131250"
 ---
 # <a name="understanding-wip-methods-in-project-management"></a>Skilningur á aðferðum VÍB í verkefnastjórnun
 

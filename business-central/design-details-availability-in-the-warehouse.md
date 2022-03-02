@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - Framboð í vöruhúsi | Microsoft Docs
 description: Kerfið þarf að halda sífelldri stjórn á vörum til ráðstöfunar í vöruhúsinu þannig að vörur á útleið gangi vel og sé skilað á sem besta hátt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 670fbfc0f7e576f92ef26e31418d0d44f6262eec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442536"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132082"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Hönnunarupplýsingar: Framboð á lager
 Kerfið þarf að halda sífelldri stjórn á vörum til ráðstöfunar í vöruhúsinu þannig að vörur á útleið gangi vel og sé skilað á sem besta hátt.  

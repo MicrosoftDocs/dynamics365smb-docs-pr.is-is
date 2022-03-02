@@ -2,7 +2,6 @@
 title: Flýtivísanir
 description: Heill listi yfir flýtivísanir til að vinna skilvirkt með gögnin þín.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
-ms.translationtype: HT
+ms.openlocfilehash: 490fbd0abb7bf6769e580c34f0958ec9babbe141
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865443"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135264"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -37,7 +36,7 @@ Flýtivísanir aðstoða við aðgengi og geta auðveldað flettingar og gert þ
 Flestar flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða macOS. Hins vegar eru nokkrar flýtileiðir frábrugðnar fyrir macOS. Þessar flýtileiðir eru tilgreindar með sviga í eftirfarandi hlutum.
 
 > [!NOTE]
-> Auk altækra flýtilykla sem lýst er í þessari grein eru nokkrir viðskiptatengdir flýtilyklar tiltækir. Til dæmis í almennri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)], F9 bókar skjal og CTRL+F7 sýnir fjárhagslegar færslur fyrir færslu þegar færslan er opnuð á korti. Þessi grein inniheldur nokkrar af algengari viðskiptatengdum flýtileiðum, sem eru sýndar í skáletri. Hafðu í huga að raunverulegar flýtileiðir geta verið aðrar í lausninni. Í notendaviðmótinu er flýtilykillinn sýndur í ábendingunni fyrir viðkomandi aðgerð.
+> Auk altækrar flýtilykla sem lýst er í þessari grein eru tiltæk ýmis fyrirtæki flýtivísanir. Til dæmis í almennri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)], F9 bókar skjal og CTRL+F7 sýnir fjárhagslegar færslur fyrir færslu þegar færslan er opnuð á korti. Í þessari grein eru nokkrar af algengari flýtileiðum Business-sértækra, sem sýndar eru á skáletri. Hafa þarf í huga að raunveruleg flýtivísanirnar geta verið ólíkar í þinni lausn. Í notendaviðmótinu er Flýtilykillinn sýndur í verkfærinu fyrir aðgerðina sem um ræðir.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Almennar flýtivísanir
 
@@ -85,13 +84,13 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |Alt+N|Settu inn nýja línu í breytanlegum lista á borð við síðuna **Fjárhagsáætlanir**.|Sama.|
 |Shift+F9|Bóka og prenta skjal.|Sama.|
 |Shift+F10 |Opnaðu valmynd valkosta sem eru í boði fyrir valda röð.|Sama.|
-|Alt+D|Opna víddasamstæðufærslurnar.|Sama.|
-|Ctrl+F7|Opnar færslur, skráir færslur, kostnaðarfærslur og svo framf.|
-|Ctrl+F9|Losa skjal.|Sama.|
-|*F7*|Opna talnagögn.|Sama.|
-|*F9*|Bóka, gefa út, skrá eða bakfæra skjal.|Sama.|
-|*Shift+Ctrl+F*|Senda tillögur að línum á síðu sjóðstreymis worsheets.|Á ekki við.|
-|*Shift+Ctrl+I*|Skoða rað- og lotunúmer sem úthlutað er á línuatriðið í skjalinu eða færslubókinni.|Á ekki við.|
+|ALT + D|Opnið víddasamstæðufærslurnar.|Sama.|
+|Ctrl+F7|Opnar færslur, skráir færslur, kostnaðarfærslur o. frv.|
+|Ctrl+F9|Úttektarskjal.|Sama.|
+|*F7*|Opna tölfræði.|Sama.|
+|*F9*|Bóka, senda, skrá eða bakfæra skjal.|Sama.|
+|*Shift + CTRL + F*|Senda tillögur um línur á síðunni sjóðstreymissorsendur.|Á ekki við.|
+|*Shift + Ctrl + I*|Skoða rað-og lotunúmer sem úthlutað er á línuatriðið í skjalinu eða færslubókinni.|Á ekki við.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts">Flett milli raða og dálka</a>
 
@@ -125,7 +124,7 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 |Ctrl+bilslá<br />(Ctrl+Cmd+bilslá)|Stækkið valið af línum til að hafa með línu sem áherslan er á.<br /><br />Þú getur notað þetta eftir að hafa notað Ctrl+uppör eða Ctrl+niðurör til að auka val þitt.|Á ekki við.|
 |Ctrl+A|Velja allar línur.|Á ekki við.|
 |Ctrl+C<br />(Cmd + C)|Afritaðu valdar raðirnar yfir á klippiborðið.|Já, en aðeins fyrir einn valinn reit.|
-|Ctrl+V<br />(Cmd + V)|Líma valdar línur af klemmuspjaldinu inn á núverandi síðu eða ytra skjal, eins og Microsoft Excel eða Outlook tölvupóst. Þú getur aðeins gert þetta í breytanlegum listum.|Á ekki við.|
+|Ctrl+V<br />(Cmd + V)|Límdu valdar raðir úr klippiborðinu inn í núverandi síðu eða ytri skjal, eins og Microsoft Excel eða Outlook tölvupóst. Þú getur aðeins gert þetta í breytanlegum listum.|Á ekki við.|
 |Shift+uppör|Stækkið valið af línum til að hafa með línuna fyrir ofan.|Á ekki við.|
 |Shift+niðurör|Stækkið valið af línum til að hafa með línuna fyrir neðan.|Á ekki við.|
 |Shift+síða upp<br />(Shift+Fn+uppör)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir ofan núverandi val af línum.|Á ekki við.|
@@ -150,9 +149,9 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
-|Alt+D|Opna víddasamstæðufærslurnar.|
+|ALT + D|Opnið víddasamstæðufærslurnar.|
 |Alt+F6|Víxla draga saman/útvíkka fyrir gildandi flýtiflipa eða hluta (undirsíða).|
-|Alt+F9|Stofna nýtt skjal og bóka það.|
+|Alt+F9|Stofnið nýtt skjal og bókið það.|
 |Alt+G|Opnið síðuna **Finna færslur** til að finna færslur sem tengjast bókuðu skjali. Virkar einnig í listum.|
 |Alt+N |Opnaðu síðu til að búa til nýja færslu; á sama hátt og aðgerðin **Nýtt** er valin. |
 |Alt+Shift+N |Lokaðu síðu og opnaðu nýja til að stofna nýja færslu; á sama hátt og aðgerðin **Í lagi og nýtt** er valin. |
@@ -162,15 +161,15 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 |Ctrl+uppör |Opnaðu færsluna á undan fyrir einingu.|
 |Ctrl+Insert |Setja inn nýja línu í skjal.|
 |Ctrl+Delete |Eyddu línunni, í skjölum, færslubókum og vinnublöðum.|
-|Ctrl+F7|Opnar færslur, skráir færslur, kostnaðarfærslur og svo framf.|
-|Ctrl+F9|Losa skjal.|
+|Ctrl+F7|Opnar færslur, skráir færslur, kostnaðarfærslur o. frv.|
+|Ctrl+F9|Úttektarskjal.|
 |Ctrl+Shift+F12 |Hámarkaðu hluta vörulína á skjalasíðu. Ýttu á lyklana aftur og farðu aftur í venjulegt útlit. Frekari upplýsingar er að finna í [Fókus á vörulínur](ui-enter-data.md#Focus).|
 |F6|Fara í næsta flýtiflipa|
-|*F7*|Opna talnagögn.|
-|*F9*|Bóka, gefa út, skrá eða bakfæra skjal.|
-|*Shift+Ctrl+F9*|Bóka, prenta og ganga frá vöruhúsamóttöku.|
+|*F7*|Opna tölfræði.|
+|*F9*|Bóka, senda, skrá eða bakfæra skjal.|
+|*Shift + CTRL + F9*|Bóka, prenta og ganga frá vöruhúsamóttöku.|
 |Shift+F6|Fara á fyrri flýtiflipa eða hluta (undirsíða).|
-|*Shift+F9*|Bóka og prenta skjal.|
+|*Shift + F9*|Bóka og prenta skjal.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Flýtileiðir flýtifærslu fyrir reiti
 

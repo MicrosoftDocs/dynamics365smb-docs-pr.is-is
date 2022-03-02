@@ -4,7 +4,6 @@ description: Þegar sérsniðið skýrsluútlit er skilgreint er hægt að velja
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 4b417c689c02a0252e3967379e33a88386ad694f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443744"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147467"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna
 Þegar sérsniðið skýrsluútlit er skilgreint er hægt að velja það af úr spjöldum viðskiptamanna og lánardrottna til að tilgreina hvaða útlit á að nota fyrir mismunandi tegundir skjala sem þú býrð til fyrir viðskiptamanninn eða lánardrottinn. Gildið í reitnum **Notkun** skilgreinir fyrir hvaða ferli skjalaútlitið verður notað, eins og **Áminning**, **Afhending** og **Staðfesting**.

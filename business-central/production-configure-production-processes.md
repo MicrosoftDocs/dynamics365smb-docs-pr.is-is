@@ -2,7 +2,6 @@
 title: Skilgreina framleiðsluferla
 description: Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og uppskriftir, leiðir, vélar og starfsmenn á vélum, að vera settur upp í kerfinu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d15f1dd84a151224189a52ae73f5276ac14afbc9
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: e2edca2f2a5b89575810ed2aa0ad3898cd6d01d3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972357"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135030"
 ---
 # <a name="setting-up-manufacturing"></a>Uppsetning framleiðslu
 
@@ -43,8 +42,8 @@ Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og 
 |Undirbúa vinnustöðvar og leiðir til að þær sýni úthýsta framleiðslu.|[Úthýsa framleiðslu til undirverktaka](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Sjá einnig
-[...](production-manage-manufacturing.md)
-[Skipulagning framleiðslu](production-planning.md)   
+[Skipulagning framleiðslu](production-manage-manufacturing.md)
+[...](production-planning.md)   
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

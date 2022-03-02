@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - vörurakning í vöruhúsi
 description: Vöruhúsaskjöl á innleið og útleið eru með staðlaða virkni fyrir úthlutun og val á vörurakningarnúmerum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 3bf30b7739e488eeb3610d191cfb4f3b20e0e79e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 0b101215e06e33bbbafdf0c38e18ac3ddaa6774a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320365"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141308"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Hönnunarupplýsingar: vörurakning í vöruhúsi
 Meðhöndlun á raðnúmeri eða lotunúmeri er aðallega vöruhúsaverkefni, og því eru öll vöruhúsaskjöl á innleið og útleið með staðlaða virkni fyrir úthlutun og val á vörurakningarnúmerum.  

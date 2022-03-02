@@ -2,7 +2,6 @@
 title: Business Central fyrir fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir | Microsoft Docs
 description: Business Central býður upp á möguleika sem styðja „hub-and-spoke“ viðskiptalíkan.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437367"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141100"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central fyrir fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir
 Stofnanir á mörgum svæðum nota oft „hub-and-spoke“ viðskiptalíkan þegar móðurfyrirtæki, eða höfuðstöðvar, stjórna heildarrekstri fyrirtækisins en þar sem hvert svæði starfar sem ein, sjálfstæð eining. Svæði eru oft dreifð landfræðilega og hafa mismunandi þörf fyrir deilingu upplýsinga með höfuðstöðvum fyrirtækisins. Auk þess hafa svæði yfirleitt ekki sömu þarfir og oft skortir úrræði til að viðhalda stóru kerfi.

@@ -2,7 +2,6 @@
 title: Setja upp Kóta fyrir Staðlaða þjónustu
 description: Kynntu þér hvernig setja á upp kóða fyrir reglubundnar þjónustuaðgerðir með fyrirframskilgreindu safni af þjónustulínum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c5f5e6dbe647fc8957c42a78163f6871d7a7b382
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: faf69b2bd3782b63030b87563d57524818a08bdb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436602"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139340"
 ---
 # <a name="set-up-standard-service-codes"></a>Setja upp staðlaða þjónustukóða
 

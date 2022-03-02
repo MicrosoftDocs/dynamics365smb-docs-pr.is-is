@@ -2,18 +2,17 @@
 title: Uppsetning fyrirframgreiðslu
 description: Kynntu þér hvernig á að skilgreina Business Central þannig að hægt sé að nota fyrirframgreiðslur til að reikningsfæra og innheimta innborganir frá viðskiptavinum og senda lánardrottnum innborganir.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: 39870723c78bc341ecd32b031503980740151c48
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100900"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128470"
 ---
 # <a name="set-up-prepayments"></a>Uppsetning fyrirframgreiðslu
 
@@ -24,12 +23,12 @@ Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun af
 Þú getur tilgreint prósentu línuupphæðarinnar sem verður reikningsfærð, fyrir viðskiptamann eða lánardrottin fyrir allar vörur eða valdar vörur. Þegar uppsetningu er lokið er hægt að búa til fyrirframgreiðslureikninga úr sölu- og innkaupapöntunum. Þú getur notað skilgreindu prósenturnar fyrir hverja sölu- eða innkaupalínu eða breytt upphæðunum á reikningnum eins og þarf. Til dæmis er hægt að tilgreina heildarupphæð fyrir alla pöntunina.  
 
 > [!NOTE]
-> Mælt er með því að fyrirframgreidd prósenta af 100 sé ekki notuð í eftirfarandi tilvikum:
+> Við mælum með að þú notir ekki fyrirframgreiðsluhlutfallið 100 í eftirfarandi tilvikum:
 >
-> * Ef þú ert í Norður-Ameríku. Vegna þess hvernig skattar eru reiknaðir er hægt að fá fyrirframgreiðslu upp á 100 á úthreyfingu með fyrirframgreiðslureikningum.
-> * Á öllum svæðum, ef greiðsluafsláttur er handvirkt dreginn frá reikningi. Fyrirframgreidd prósenta af 100 mun ekki sjálfkrafa fara upphæð sem dregst frá afslættinum.
+> * Ef þú ert í Norður-Ameríku. Vegna þess hvernig skattar eru reiknaðir getur fyrirframgreiðsluprósenta upp á 100 leitt til úthreyfinga með fyrirframgreiðslureikningum.
+> * Á öllum svæðum, ef greiðsluafsláttur er handvirkt dreginn frá reikningi. Fyrirframgreiðsluprósenta upp á 100 skilur ekki sjálfkrafa eftir upphæð sem draga á afsláttinn frá.
 >
-> Ef greiðsluprósenta af 100 er [!INCLUDE[prod_short](includes/prod_short.md)] notuð, gæti þurft að setja sléttunarfærslur af stað þegar verið er að nota fyrirframgreiðslu. Þegar það gerist þarf að velja fjárhagsreikning í **reitnum Reikningssléttunarlykill** á **síðunni Viðskiptamannabókaraflokkar**. Þetta gildir jafnvel þótt ekki hafi verið kveikt á **reikningssléttun** reikninga á **uppsetningarsíðu** söluins &. Ef ekki er tilgreindur lykill verður ekki hægt að bóka fyrirframgreiðslureikninga. 
+> Einnig, þegar þú ert að nota fyrirframgreiðsluprósentuna 100, [!INCLUDE[prod_short](includes/prod_short.md)] gæti þurft að búa til sléttunarfærslur utan stillingar. Þegar það gerist þarf að velja fjárhagsreikning í reitnum **Sléttunarreikningur** reiknings á **síðunni Bókunarflokkar viðskiptamanna**. Þetta á við jafnvel þótt ekki hafi verið kveikt á víxlun **reikningssléttunar** á **síðunni Sölugrunnur**. Ef reikningur er ekki tilgreindur er ekki hægt að bóka fyrirframgreiðslureikninga. 
 
 Þar sem fyrirframgreidd upphæð tilheyrir kaupanda þar til hann hefur móttekið vörur eða þjónustu þarf að setja upp fjárhagsreikninga til að geyma fyrirframgreiðsluupphæðir þar til lokareikningurinn er bókaður. Sölufyrirframgreiðslur þarf að skrá í skuldareikning þar til vörurnar eru afhentar. Fyrirframgreiðslur innkaupa þarf að skrá í eignareikning þar til vörurnar eru mótteknar. Auk þess þarf að setja upp sérstakan fjárhagsreikning fyrir hvert VSK-kenni.  
 
@@ -38,7 +37,7 @@ Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun af
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Bæta fyrirframgreiðslureikningum við almennan bókunargrunn  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning almennrar bókunar** og velja síðan viðkomandi tengil.
-2. **Á síðunni almennar bókunaruppsetningar** fyrir viðeigandi línur er fyllt út í eftirfarandi reiti:  
+2. **Á síðunni Alm. bókunargrunnur** fyrir viðeigandi línur eru eftirfarandi reitir fylltir út:  
 
     * **Fyrirframgreiðslureikn. sölu**  
     * **Fyrirframgr.reikn. innkaupa**  
@@ -51,13 +50,13 @@ Ef almennir fjárhagsreikningar hafa ekki enn verið settir upp fyrir fyrirframg
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Uppsetning númeraraðar fyrir fylgiskjöl fyrirframgreiðslu  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi** og velja svo viðeigandi tengil.
-2. **Á uppsetningarsíðu** sölu&, á **flipanum númeraröð**, er fyllt út í eftirfarandi reiti:  
+2. **Á síðunni Sölugrunnur** á flýtiflipanum **Númeraröð** eru eftirfarandi reitir fylltir út:  
 
    * **Bókuð fyrirframgr.reikn.nr.**
    * **Bókuð kr.reikn.nr. fyrirframgr.**
 
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Uppsetning innkaupa og viðskiptaskulda** og velja svo viðeigandi tengil.
-4. **Á uppsetningarsíðu** innkaupa & lánardrottna, á **flipanum númeraröð**, er fyllt út í eftirfarandi reiti:
+4. **Á síðunni Innkaupagrunnur** á flýtiflipanum **Númeraröð** eru eftirfarandi reitir fylltir út:
 
     * **Bókuð fyrirframgr.reikn.nr.**
     * **Bókuð kr.reikn.nr. fyrirframgr.**
@@ -81,7 +80,7 @@ Fyrir viðskiptamann eða lánardrottin er hægt að setja upp eina sjálfgefna 
 4. Skrefin eru endurtekin fyrir aðra viðskiptamenn og lánardrottna.  
 
 > [!TIP]
-> Einnig er hægt að **nálgast síðuna prósenta fyrirframgreiðslu á söluprósentu** af spjaldi viðskiptamanns eða lánardrottins.
+> Einnig er hægt að opna **síðuna Fyrirframgreiðsluprósentur** sölu á viðskiptamanna- eða lánardrottnaspjaldinu.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Til að ákvarða hvaða fyrirframgreiðsluprósenta hefur forgang  
 

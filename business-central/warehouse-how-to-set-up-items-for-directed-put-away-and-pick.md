@@ -2,7 +2,6 @@
 title: Setja upp beinan frágang og tínslu
 description: Settu upp birgðageymslur vöruhúss fyrir beinan frágang og tínslu sem gefur þér nýja virkni til að tryggja rekstur vöruhússins verði sem skilvirkastur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0c7a49208216b12c234c0b40576b26f4f39e9ab5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 4e83df2350ef8419a6de4e0fde9bf140660b943e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438033"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145213"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Setja upp vörur og birgðageymslur fyrir beinan frágang og tínslu
 Þegar vöruhús er sett upp fyrir beinan frágang og tínslu fást aðgerðir sem gera rekstur vöruhússins mun skilvirkari. Svo að þessar aðgerðir nýtist til fulls þarf að veita viðbótarupplýsingar um vörurnar sem hjálpa til við að reikna út skilvirkustu og bestu aðferðirnar til að stýra vöruhúsaaðgerðum. Nánari upplýsingar eru í [Upplýsingar um hönnun: Uppsetning vöruhúss](design-details-warehouse-setup.md).

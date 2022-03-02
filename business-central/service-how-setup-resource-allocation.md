@@ -2,7 +2,6 @@
 title: Setja upp forðaúthlutun | Microsoft Docs
 description: Lærðu hvernig kerfið getur hjálpað til við að tryggja að þú úthlutir þjónustu til einhvers sem hefur nauðsynlega eiginleika til veita hana.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 048372c75affe83f50d8fd84359d481fb64835fa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: a1455e315cf575d7ac7549113770d5cafa5012c8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436627"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139314"
 ---
 # <a name="set-up-resource-allocation"></a>Setja upp forðaúthlutun
 Til að tryggja að þjónustuverkhluti sé framkvæmdur svo vel sé, er mikilvægt að finna tilfang sem er hæft til starfans. Þú getur sett upp [!INCLUDE[prod_short](includes/prod_short.md)] svo það sé auðvelt að úthluta verkinu til einhvers sem er hæfur til þess. Í [!INCLUDE[prod_short](includes/prod_short.md)] er þetta nefnt _Forðaúthlutun_. Hægt er að úthluta til tilfanga út frá hæfni þeirra, tiltækileika, eða hvort þau eru á sama þjónustusvæði og viðskiptamaðurinn. 

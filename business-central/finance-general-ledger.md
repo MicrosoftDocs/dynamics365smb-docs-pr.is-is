@@ -2,7 +2,6 @@
 title: Skilja fjárhag og bókhaldslykil
 description: Lýsir fjárhag, bókhaldslyklum og reikningsflokkum. Notaðu síðu fjárhagsuppsetningar til að tilgreina meðhöndlun bókhaldsvandamála í fyrirtækinu.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 98aca02ceba638b65849ff8218bafe07be2190db
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 78d4ce41c4c6e85751134b51efe181380da8a0e4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973068"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138070"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Skilningur á fjárhag og bókhaldslyklum
 
@@ -56,7 +55,7 @@ Skýringin á reikningum sýnir allar almennar bókhaldsreikningar. Úr bókhald
 
 Þú getur sérsniðið uppbyggingu reikningsskila þinnar með því að kortleggja aðalbókarreikninga í reikningsflokkum.  
 
-**Síðan Flokkur fjárhagsreikninga** sýnir tegundir og undirflokka og fjárhagslykla sem er úthlutað á þá. Hægt er að stofna nýja undirflokka og úthluta þeim á fyrirliggjandi reikninga.  
+**Síðan Flokkur** fjárhagsreikninga sýnir tegundir og undirflokka og fjárhagslykla sem er úthlutað á þá. Hægt er að stofna nýja undirflokka og úthluta þeim á fyrirliggjandi reikninga.  
 
 Þú stofnar tegundaflokk með því að draga inn aðra undirflokka undir línu á síðunni **flokkar fjárhagsreikninga**. Það gerir það auðveldara fyrir þig að fá yfirlit, því hver flokkur sýnir heildarstöðu. Til dæmis er hægt að stofna undirflokka fyrir mismunandi tegundir eigna og síðan stofna tegundaflokka fyrir fastafjármunir miðað við veltufjármunir.  
 

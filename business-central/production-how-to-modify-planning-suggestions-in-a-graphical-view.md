@@ -2,7 +2,6 @@
 title: Breyta tillögum um áætlanagerð í myndrænu yfirliti
 description: Dæmigerð breyting verkþáttaáætlunar eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður en virknin Framkvæma aðgerðarboð er keyrð.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ab69ea915a4d7b1029b5fc833320f89e84fb6d98
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 08c685e37ccc6ee1fa3d4503cc40bd054b4a4ca1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438578"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146367"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Breyta áætlunartillögum í myndrænu yfirliti
 

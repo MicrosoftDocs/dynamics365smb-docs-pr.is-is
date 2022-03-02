@@ -2,7 +2,6 @@
 title: Uppsetning birgða
 description: Lýsir því hvernig á að setja upp birgðavinnslur, þar á meðal flutningsleiðir og birgðageymslur á borð við vöruhús.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 30, 461
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 870bcf2e7980ccf5717cbb93ada44087afe95c4d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: 4e5c1ef77c9053bb47ab3f800b3524bf24b6a7be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059458"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148461"
 ---
 # <a name="setting-up-inventory"></a>Uppsetning birgða
 Áður en hægt er að hefjast handa við að stýra vöruhúsaaðgerðum og birgðakostnaði þarf að grunnstilla reglur og gildi sem ráða birgðareglum fyrirtækisins.
