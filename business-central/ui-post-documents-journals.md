@@ -1,20 +1,22 @@
 ---
-title: Að bóka skjöl og færslubækur
+title: Yfirlit yfir bókanir á skjölum og færslubókum
 description: Þetta efnisatriði útskýrir bókunaraðgerðir og hvernig þú getur bókað skjöl og færslubækur í ýmsum fjárhagsbókum fyrirtækisins.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: edupont
-ms.openlocfilehash: 13c2639ab416fd472850fef5161f0f374024bb51
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: MT
+ms.openlocfilehash: 52a9330273dc82f349144e2d4392824f7c2ee33e
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335579"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012736"
 ---
 # <a name="posting-documents-and-journals"></a>Að bóka skjöl og færslubækur
 Bókun táknar reikningsaðgerðina að skrá viðskiptafærslur í hinar ýmsu höfuðbækur fyrirtækisins.

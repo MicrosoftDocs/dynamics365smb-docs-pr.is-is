@@ -2,6 +2,7 @@
 title: Rafræn skjöl í Business Central
 description: Þetta er yfirlit yfir hvernig á að nota gagnaskiptirammann til að hafa umsjón með skiptingu gagna í viðskiptaskjölum eins og bankaskrám og gengi gjaldmiðils.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 83a210cc41c720a1a92aa907697626c0d3dd0cd8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141724"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588377"
 ---
 # <a name="exchanging-data-electronically"></a>Rafræn gagnaskipti
 Hægt er að nota Data Exchange Framework til að stjórna skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga.

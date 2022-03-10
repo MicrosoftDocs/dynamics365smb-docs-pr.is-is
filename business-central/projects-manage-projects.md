@@ -2,18 +2,19 @@
 title: Verkefnastjórnun
 description: Þetta efnisatriði lýsir hvernig á að nota tilföng, vinnublöð og verk til að stjórna verkefnum og fjárhagsáætlunum þeirra.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
 ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: af4801956ce27bc282356400513fc22a03860784
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 2c53179960fc6b9ebd7a77193b13d271f22fe1b1
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146255"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101270"
 ---
 # <a name="project-management"></a>Verkefnastjórnun
 

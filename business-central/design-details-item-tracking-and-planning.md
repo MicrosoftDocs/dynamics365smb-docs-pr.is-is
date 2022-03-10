@@ -2,6 +2,7 @@
 title: Hönnunarupplýsingar - Vörurakning og áætlun | Microsoft Docs
 description: Vegna þess að þær eru geymdar í frátekningarkerfi, eru vörurakningarnúmer að fullu samstillt við pöntunarrakningarfærslur.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 82979335348a3a007acb34282495949b52b1c096
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: a01ddb4ac423df3f4ada16740550edf46949886a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142394"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215904"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Hönnunarupplýsingar: vörurakning og áætlun
 Vegna þess að þær eru geymdar í frátekningarkerfi, eru vörurakningarnúmer að fullu samstillt við pöntunarrakningarfærslur. Þetta þýðir að vörur með pöntunarrakningarfærslur má úthluta vörurakningarnúmerum. Hins vegar geta vörur með vörurakningarnúmerum orðið vörurakningarfærslur. Nánari upplýsingar eru í [Hönnunarupplýsingar: Vörurakningarhönnun](design-details-item-tracking-design.md).

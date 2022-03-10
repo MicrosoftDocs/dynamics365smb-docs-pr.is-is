@@ -2,6 +2,7 @@
 title: Stofna innkaupabeiðni til að biðja um tilboð
 description: Lýsir því hvernig skal stofna sölutilboð eða beiðni um tilboð (RFQ) fylgiskjal, til að skrá tilboð til viðskiptamanns um að selja tilteknar vörur með tilteknum skilmálum.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3a44d2760760d3456c21da8ae693f4736f06e78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 4608b9e3cace8445a1a4a364106c830fdfda301f
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137290"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953335"
 ---
 # <a name="request-quotes"></a>Biðja um tilboð
 

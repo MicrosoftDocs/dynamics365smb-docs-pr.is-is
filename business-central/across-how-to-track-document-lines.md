@@ -2,6 +2,7 @@
 title: Rekja pöntunarlínur til tengdra skjala
 description: Skoða skjöl sem tengjast sölu- og innkaupapöntunarlínum, eins og tilboð, sendingar, kvittanir og standandi pantanir til að bera kennsla á skjöl sem notuð eru til að vinna úr pöntunum.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 6560, 42, 50, 507, 509
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6a71c817570dd1a784995bbc41f095f0ce799c6f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 316536c7a44e4b1e3eb25c81fabb498c6b9a21a5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138831"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012184"
 ---
 # <a name="track-document-lines"></a>Rekja skjalalínur
 Þú getur skoðað skjöl sem tengjast sölupöntunarlínum og innkaupapöntunarlínum, þ.m.t. frá safnvistuðum pöntunarlínum. Viðeigandi skjöl sem hægt er að rekja fela í sér tilboð, afhendingar, móttökur og standandi pantanir. Þetta hjálpar þér að bera kennsl á skjöl sem notuð eru til að vinna úr pöntunum.  

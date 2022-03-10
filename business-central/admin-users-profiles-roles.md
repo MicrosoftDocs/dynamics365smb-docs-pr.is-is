@@ -2,17 +2,18 @@
 title: Stjórna notendum og hlutverkum
 description: Kynntu þér hvernig á að stjórna notandasíðum og hlutverkamiðstöðvum í Business Central. Notandasíður gera stjórnendum kleift að skilgreina og stjórna hvað notendur geta séð og gert á miðlægan hátt.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fa9bd31f0f9ff1705f9caa7f21d9f376febdb712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133123"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012489"
 ---
 # <a name="manage-user-profiles"></a>Stjórna notandasíðum
 

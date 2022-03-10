@@ -2,6 +2,7 @@
 title: Hönnunarupplýsingar - Reikningar í fjárhagnum | Microsoft Docs
 description: Til að afstemma birgðir og afkastahöfuðbókarfærslur við fjárhag eru tengdar virðisfærslur bókaðar á mismunandi reikninga í fjárhag.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: b1b3620234901c3b2a1eba5f5af7eb0e79449dc4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 41b94d44ba374ecbcad64a2b1da100fcf3e1a2ab
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146801"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215579"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Hönnunarupplýsingar: reikningar í fjárhagur
 Til að afstemma birgðir og afkastahöfuðbókarfærslur við fjárhag eru tengdar virðisfærslur bókaðar á mismunandi reikninga í fjárhag. Frekari upplýsingar, sjá [Hönnunarupplýsingar: afstemming við fjárhaginn](design-details-reconciliation-with-the-general-ledger.md)  

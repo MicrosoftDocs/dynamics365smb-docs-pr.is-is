@@ -2,6 +2,7 @@
 title: Sameina tvítekinn viðskiptamann eða lánardrottnafærslur
 description: Lýsir því hvernig á að sameina upplýsingar um viðskiptavini eða lánardrottna þegar einhverjir eru með tvíteknar birgðafærslur.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130125"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436852"
 ---
 # <a name="merge-duplicate-records"></a>Sameina tvíteknar færslur
 Með tímanum stofna ýmsir notendur nýjan viðskiptamann, lánardrottin eða tengiliðaspjöld, eða nýju færslurnar eru stofnaðar sjálfkrafa við flutning, og því getur gerst að viðskiptamaður, lánardrottinn eða tengiliður komi fram í kerfinu í fleiri en einni færslu. Í slíkum tilfellum er hægt að nota síðuna **Sameina tvítekið atriði** úr spjaldinu með færslunni sem á að halda í. Síðan veitir yfirlit yfir tvítekin reitargildi og býður upp á virkni til að velja hvaða gildum skuli halda eða fleygja þegar tvær færslur eru sameinaðar sem ein.

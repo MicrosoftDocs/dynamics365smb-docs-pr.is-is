@@ -2,6 +2,7 @@
 title: Stjórnun Microsoft Teams samþættingar við Business Central | Microsoft docs
 description: Stjórna samþættingu Business Central við Microsoft Teams.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147035"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589083"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Að stjórna Microsoft Teams samþættingu við [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -119,13 +120,13 @@ Eftir að kort hefur verið sent á spjall er kortið og reitirnir á kortinu af
 
 Einnig er hægt að nota upplýsingatálma til að koma í veg fyrir að einstaklingar eða hópar séu í samskiptum. Frekari upplýsingar er að finna í [Upplýsingatálmar í Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Ekki er hægt að beita aðgerðum til að koma í veg fyrir gagnatap í Microsoft 365 Öryggismiðstöðinni > Samræmisaðstaðan sérstaklega á kort. En hægt er að nota þau í spjallskilaboðunum sem innihalda kortin. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
+Eiginleika gagnatapsvarnar í öryggis- og reglufylgnimiðstöð Microsoft 365 er ekki hægt að nota sérstaklega fyrir spjöld. En hægt er að nota þau í spjallskilaboðunum sem innihalda kortin. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Bregðast við gagnabeiðnum
 
 Hægt er að leyfa teymismeðlimum og eigendum hópa að eyða skilaboðum sem innihalda viðkvæm spjöld með því að setja upp skilaboðareglur eins og: **Eigendur geta eytt sendum skilaboðum** og **Notendur geta eytt sendum skilaboð**. Frekari upplýsingar er að finna í [Stjórna skilaboðareglum í Teams](/microsoftteams/messaging-policies-in-teams).
 
-Efnisleit og eDiscovery samræmiseiginleikar Microsoft 365 í öryggismiðstöðinni er einnig hægt að nota á kort.
+Eftirlitseiginleika efnisleitar og eDiscovery í öryggis- og reglufylgnimiðstöð Microsoft 365 er einnig hægt að nota á spjöld.
 
 Þar sem gögn spjalds í Teams er afrit af gögnum í [!INCLUDE [prod_short](includes/prod_short.md)] er einnig hægt að nota [!INCLUDE [prod_short](includes/prod_short.md)]-eiginleika til að flytja út gögn viðskiptamanna ef þess er óskað. Frekari upplýsingar um persónuvernd í [!INCLUDE [prod_short](includes/prod_short.md)] er að finna í [Algengar spurningar um persónuvernd fyrir viðskiptamenn Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

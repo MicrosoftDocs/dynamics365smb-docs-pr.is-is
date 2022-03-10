@@ -2,6 +2,7 @@
 title: Ctrl-hugmyndir í hönnunarupplýsingum áætlanakerfis
 description: Virkni áætlanagerðar leggur til mögulegar aðgerðir sem notandi getur framkvæmt út frá eftirspurn/framboði og áætlunarfæribreytum vöru.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: b3c459ab6c4056b40c5e83db70a0cafab48359a1
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148669"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949095"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis
 
@@ -86,7 +87,7 @@ Frekari upplýsingar eru í [Pantanarakningartenglar við áætlunargerð](desig
 
 Þegar koma á á áætlun skiptir  röð útreikninga máli til að ljúka megi verkinu innan hæfilegs tíma. Að auki, forgangsröðun krafna og tilfanga gegna mikilvægu hlutverki við að afla sem bestum árangri.  
 
-Áætlanakerfið í [!INCLUDE[prod_short](includes/prod_short.md)] er knúið áfram af eftirspurn. Vörur á háu stigi skulu áætlaðar á undan lágstigsvörum því áætlunin fyrir hástigsvörur gæti myndað viðbótareftirspurn fyrir vörur á lægra stigi. Þetta þýðir til dæmis að smásölustaðsetningar skulu áætlaðar áður en dreifingarmiðstöðvar eru áætlapðar, vegna þess að áætlun fyrir smásala staðsetning getur falið frekari eftirspurn frá dreifingarmiðstöð. Í sundurliðuðum jöfnunarstigum þýðir þetta einnig að sölupöntun skuli ekki kveikja á nýrri framboðstekju ef hægt er að ná sölupöntuninni. Eins ætti ekki að úthluta framboð með tilteknu lotunúmeri til að uppfylla almenna eftirspurn ef önnur eftirspurn krefst þessara tilteknu lotu.  
+Áætlanakerfið í [!INCLUDE[prod_short](includes/prod_short.md)] er knúið áfram af eftirspurn. Vörur á háu stigi skulu áætlaðar á undan lágstigsvörum því áætlunin fyrir hástigsvörur gæti myndað viðbótareftirspurn fyrir vörur á lægra stigi. Þetta þýðir til dæmis að smásölustaðsetningar skulu áætlaðar áður en dreifingarmiðstöðvar eru áætlapðar, vegna þess að áætlun fyrir smásala staðsetning getur falið frekari eftirspurn frá dreifingarmiðstöð. Á nákvæmu jöfnunarstigi þýðir það einnig að sölupöntun ætti ekki að ræsa nýja framboðspöntun ef þegar útgefin framboðspöntun getur náð yfir sölupöntunina. Eins ætti ekki að úthluta framboð með tilteknu lotunúmeri til að uppfylla almenna eftirspurn ef önnur eftirspurn krefst þessara tilteknu lotu.  
 
 ### <a name="item-priority--low-level-code"></a>Vöruforgangur / Lægra stigs kóði
 
@@ -121,7 +122,7 @@ Nánari upplýsingar eru í [Hönnunarupplýsingar: Flutningur í áætlun](desi
 
 ### <a name="order-priority"></a>Forgangur pöntunar
 
-Innan tiltekinnar birgðahaldseiningar, táknar umbeðin eða tiltæk dagsetning hæsta forgang; eftirspurn í dag ætti að mæta áður en eftirspurn næstu viku er mætt. En burtséð frá þessu forgangskröfum er mismunandi eftirspurnar-og framboðstegundum raðað eftir viðskiptamikilvægi til að ákveða hvaða eftirspurn eigi að vera fullnægjandi áður en til annarrar eftirspurnar kemur. Á framboðshlið segir pöntunarforgangur til um hvaða uppsprettu framboðs á að jafna áður en aðrar uppsprettur framboðs eru jafnaðar.  
+Innan tiltekinnar birgðahaldseiningar, táknar umbeðin eða tiltæk dagsetning hæsta forgang; eftirspurn í dag ætti að mæta áður en eftirspurn næstu viku er mætt. En burtséð frá forgangsröðun af þessu tagi er mismunandi eftirspurn og framboðsgerðum raðað eftir mikilvægi fyrirtækisins til að ákveða hvaða eftirspurn ætti að vera fullnægjandi áður en önnur eftirspurn er fullnægjandi. Á framboðshlið segir pöntunarforgangur til um hvaða uppsprettu framboðs á að jafna áður en aðrar uppsprettur framboðs eru jafnaðar.  
 
 Frekari upplýsingar eru í [Forgangsröðun pantana](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 

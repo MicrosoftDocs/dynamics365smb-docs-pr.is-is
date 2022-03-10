@@ -1,7 +1,8 @@
 ---
 title: Setja upp vinnuskýrslur og samþykktarferli þeirra
-description: Vinnuskýrslur eru settar upp til að rekja tímann sem notaður er í verkum og verkum og aðstoðar við verkefnastjórnun, mönnun og afkastagetu
+description: Hægt er að setja upp vinnuskýrslur til að rekja tímann sem er notaður á verk og verk, sem hjálpa til við verkefnastjórnun, staffing og afkastagetu
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,26 +11,26 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 3eca8e42a6b57e4a78ffd3f2dace885ba66c3ddf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 21993ad4ee675384f7ffebfc77e0999d5dec05a6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147545"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972227"
 ---
 # <a name="set-up-time-sheets"></a>Setja upp vinnuskýrslur
 
-Vinnuskjöl í [!INCLUDE[prod_short](includes/prod_short.md)] meðhöndla tímaskráningu í vikulegum stigum sjö daga. Hægt er að nota þær til að rekja tímann sem notaður er í verkum og hægt er að nota þá til að skrá einfalda tímaskráningu tilfanga. Áður en hægt er að nota vinnuskýrslur þarf að tilgreina hvaða notendur senda vinnuskýrslur og hvernig skilgreina á vinnuskýrslur.  
+Vinnuskjöl í [!INCLUDE[prod_short](includes/prod_short.md)] meðhöndla tímaskráningu í vikulegum stigum sjö daga. Hægt er að nota þá til að rekja tímann sem notaður er á verkum og þá má nota til að skrá einfalda skráningu á forðatíma. Áður en hægt er að nota vinnuskýrslur verður að tilgreina hvaða notendur leggja fram vinnuskýrslur og hvernig á að samskipa vinnuskýrslur.  
 
 > [!TIP]
-> Í [!INCLUDE [prod_short](includes/prod_short.md)] eru *notendur vinnuskýrslu tilfanga*. Þannig er hægt að nota vinnuskýrslur til að rekja vinnu starfsmanna, til dæmis. Til að rekja störf eigin starfsmanna eða nota vinnuskýrslur til að rekja fjarvistir starfsmanna verður að tengja starfsmenn *við* *forða* í uppsetningarleiðbeiningum.  
+> Í [!INCLUDE [prod_short](includes/prod_short.md)], notendur vinnublaða eru *fjármagn*. Þannig er hægt að nota vinnuskýrslur til að fylgjast með starfi sem ekki eru starfsmenn, td. Til að rekja vinnu eigin starfsmanna eða til að nota vinnuskýrslur til að rekja fjarvistir starfsmanna þarf að tengja *starfsmenn* við *tilföng* í uppsetningarhandbókinni.  
 
-Einnig er hægt að tilgreina hvort og hvernig vinnuskýrslur eru samþykktar. Allt eftir þörfum fyrirtækisins er hægt að tilgreina:
+Einnig er tilgreint hvort og hvernig vinnuskýrslur eru samþykktar. Allt eftir þörfum fyrirtækisins er hægt að tilgreina:
 
 * Einn eða fleiri notendur sem vinnuskýrslustjóra og sem samþykkja allar vinnuskýrslur.
 * Vinnuskýrslusamþykkjandi fyrir hvern forða.
 
-Þegar búið er að setja upp vinnuskýrslur er hægt að stofna vinnuskýrslur fyrir forða og forðinn getur bókað vinnuskýrslulínur. Einnig er hægt að úthluta vinnuskýrslum á verkáætlunarlínur. Frekari upplýsingar eru í [Nota vinnuskýrslur](projects-how-use-time-sheets.md).  
+Þegar vinnuskýrslur hafa verið settar upp er hægt að stofna vinnuskýrslur fyrir tilföng og hægt er að bóka tímablaðslínur. Einnig er að tilgreina vinnuskýrslur í verkáætlunarlínum. Frekari upplýsingar eru í [Nota vinnuskýrslur](projects-how-use-time-sheets.md).  
 
 ## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Setja upp vinnuskýrslur með leiðbeiningum um uppsetningu
 
@@ -42,13 +43,13 @@ Frá og með 2021 útgáfutímabili 2 getur þú notað leiðbeiningar um uppset
 >
 > Sami eiginleiki auðveldar þér einnig að stjórna vinnuskýrslum í fartæki.
 
-Opna síðuna **Setja upp vinnuskýrslur** með hjálp uppsetningar af [síðunni Uppsetning](https://businesscentral.dynamics.com/?page=1801) með hjálp.
+Opna **uppsetningu vinnublaða með** aðstoð uppsetningarleiðbeininganna frá [síðunni aðstoð aðstoðar](https://businesscentral.dynamics.com/?page=1801).
 
 Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 
 1. Setja upp þátttakendur í vinnuskýrsluferli
 
-    Fyrsta síðan í handbókinni sýnir þér fjölda notenda í þínu [!INCLUDE [prod_short](includes/prod_short.md)]. Það sýnir einnig aðrar nauðsynlegar og valfrjálsar upplýsingar.  
+    Fyrsta síðan í leiðarvísinum sýnir þú fjölda notenda í þínum [!INCLUDE [prod_short](includes/prod_short.md)]. Þar koma einnig fram aðrar nauðsynlegar og valfrjálsar upplýsingar.  
 2. Tilgreina fyrsta dag vinnuviku í þessu fyrirtæki
 
     Fyrsti dagur vinnuviku verður sjálfgefinn fyrsti dagur fyrir allar vinnuskýrslur.
@@ -57,11 +58,11 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
     Þessi einstaklingur getur breytt og eytt öllum vinnuskýrslum. Auk þess er valfrjálst að bæta sama hlutverkinu við aðra einstaklinga á síðunni **Uppsetning notanda**.
 4. Setja upp tilföngin sem munu nota vinnuskýrslur og einstaklingana sem munu samþykkja vinnuskýrslur
 
-Í lok uppsetningarleiðbeiningar getur þú valið að leyfa [!INCLUDE [prod_short](includes/prod_short.md)] að búa til vinnuskýrslur út frá stillingunum þínum. Skoða nýju vinnuskýrslurnar á **síðunni Vinnuskýrslur** sem hægt er að opna [hér](https://businesscentral.dynamics.com/?page=951). Annars skal keyra uppsetningarleiðbeininguna aftur eða ljúka uppsetningunni handvirkt.  
+Í lok uppsetningarleiðbeiningar getur þú valið að leyfa [!INCLUDE [prod_short](includes/prod_short.md)] að búa til vinnuskýrslur út frá stillingunum þínum. Skoða nýju vinnublöðin á **síðunni tímablöð** sem opna má [hér](https://businesscentral.dynamics.com/?page=951). Annars skal keyra uppsetningarleiðbeininguna aftur eða ljúka uppsetningunni handvirkt.  
 
 ## <a name="set-up-time-sheets-manually"></a>Setja upp vinnuskýrslur handvirkt
 
-Eftirfarandi hlutar lýsa því hvernig vinnuskýrslur eru settar upp ef uppsetningarleiðbeiningar með hjálp setja upp vinnuskýrslur eru ekki **notaðar**.  
+Í eftirfarandi köflum er lýst hvernig á að setja upp vinnuskýrslur ef **leiðbeiningar um uppsetningu vinnublaða eru ekki notaðar**.  
 
 ### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Að setja upp almennar upplýsingar fyrir vinnuskýrslur handvirkt
 
@@ -98,7 +99,7 @@ Eftirfarandi hlutar lýsa því hvernig vinnuskýrslur eru settar upp ef uppsetn
 
 [Nota vinnuskýrslur fyrir verk](projects-how-use-time-sheets.md)  
 [Til að stofna vinnuskýrslur](projects-how-use-time-sheets.md#to-create-time-sheets)  
-[Skrá notkun eða notkun fyrir verk](projects-how-record-job-usage.md)  
+[Skrá notkun eða notkun verka](projects-how-record-job-usage.md)  
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  

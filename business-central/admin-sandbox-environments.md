@@ -2,6 +2,7 @@
 title: Sandkassaumhverfi
 description: Kynntu þér hvernig sérhæft umhverfi getur hjálpað þér að skoða, læra, sýna, þróa, úrræðaleita og prófa Business Central á öruggan hátt.
 author: SusanneWindfeldPedersen
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
@@ -10,19 +11,19 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142472"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940627"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandkassaumhverfi í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu geturðu auðveldlega náð þér í öruggt umhverfi þar sem hægt er að prófa, þjálfa eða leysa úr málum án þess að það trufli verkferla eða viðskiptagögn fyrirtækisins. Slíkt umhverfi sem ekki er hægt að framleiða í er kallað *sandkassi*. Sandkassaumhverfi er staðurinn, ótengdur framleiðslu, þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa þjónustuna í öruggu umhverfi án þess að eiga á hættu að hafa áhrif á gögnin eða stillingarnar í framleiðsluumhverfi þínu.  
 
 > [!TIP]
-> Landaði þú á þessari grein eftir að þú valdir nafnið á umhverfi þínu [!INCLUDE [prod_short](includes/prod_short.md)] í Top Bar? Eins er ekki hægt að breyta nafninu eða umhverfinu sem vegur. Þess í stað þarf að biðja kerfisstjóra um að breyta nafninu eða biðja þá um að samnýta tengilinn í annað umhverfi.
+> Landaði þú á þessari grein eftir að þú valdir nafnið á [!INCLUDE [prod_short](includes/prod_short.md)] umhverfi þínu í Top Bar? Eins er ekki hægt að breyta nafninu eða umhverfinu sem vegur. Þess í stað þarf að biðja kerfisstjóra um að breyta nafninu eða biðja þá um að samnýta tengilinn í annað umhverfi.
 
 Stjórnandi hefur umsjón með sandkassaumhverfum í [stjórnendamiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 

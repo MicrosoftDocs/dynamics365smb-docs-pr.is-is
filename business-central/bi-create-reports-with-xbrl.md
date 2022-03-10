@@ -4,6 +4,7 @@ description: XBRL er XML-miðað tölvumál til að merkja fjárhagsgögn og ger
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,17 +12,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a5e16c335730190b0db162876230c101f8319941
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135478"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101322"
 ---
 # <a name="create-reports-with-xbrl"></a>Stofna skýrslur með XBRL
 
 > [!NOTE]
-> Við erum að vinna að því að fjarlægja aðgerðir fyrir XBRL skýrslugerð frá [!INCLUDE[prod_short](includes/prod_short.md)]. Nánari upplýsingar er að finna [í Breytingar á losunarbylgju 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
+> Við erum að vinna í því að fjarlægja aðgerðirnar fyrir XBRL skýrslugerð [!INCLUDE[prod_short](includes/prod_short.md)]. Nánari upplýsingar má finna [í breytingum á 2022 1](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
 
 XBRL (eXtensible Business Reporting Language) er XML-miðað tölvumál fyrir viðskiptaskýrslugerð og gerir fyrirtækjum kleift að vinna úr og deila gögnum sínum á árangursríkan og nákvæman hátt. XBRL-áætlunin býður fjölda hugbúnaðarfyrirtækja sem framleiða bókhalds- og áætlunarkerfi og alþjóðlegum endurskoðendafyrirtækum altæka viðskiptaskýrslugerð. Markmið áætlunarinnar er að búa til staðal fyrir samræmda skýrslugerð viðskiptaupplýsinga fyrir banka, fjárfesta og ríkisstofnanir. Slíkar viðskiptaskýrslur geta falið í sér eftirfarandi atriði:  
 

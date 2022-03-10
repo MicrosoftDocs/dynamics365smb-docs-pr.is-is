@@ -2,17 +2,18 @@
 title: Uppsetning afskriftaaðferðar eignar sem notandi skilgreinir
 description: Í Business Central er hægt að nota afskriftaaðferð sem notandi skilgreinir til að skilgreina afskriftaaðferð eignar á síðu eignaspjalds.
 author: jill-kotel-andersson
+ms.service: dynamics365-business-central
 ms.reviewer: edupont
 ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 517c3cdb51762c3c0fadcf29ff1ad6dbf949f971
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 4c55d19f5019e8a9526396d4d253a1f9a9f40844
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144984"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724638"
 ---
 # <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Setja upp eignir með afskriftaaðferðum sem notandi skilgreinir
 

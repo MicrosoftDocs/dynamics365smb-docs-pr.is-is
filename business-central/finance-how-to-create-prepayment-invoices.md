@@ -2,6 +2,7 @@
 title: Stofna fyrirframgreiðslureikninga
 description: Takist á við aðstæður þar sem þú eða lánardrottinn þinn krefjast fyrirframgreiðslu. Notið sjálfgefnar prósentur fyrir hverja sölu- og innkaupalínu eða leiðréttið upphæðina eins og með þarf.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: c1374929790c27bd84733e506866a1e54cea9ffd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: ebce3f22b4977b9dfca506ce536abb8c7e5ad46b
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136063"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972019"
 ---
 # <a name="create-prepayment-invoices"></a>Stofna fyrirframgreiðslureikninga
 
@@ -47,7 +48,7 @@ Eftirfarandi ferli sýnir hvernig skal gefa út fyrirframgreiðslureikning fyrir
     Ef þú hefur tilgreint sjálfgefna fyrirframgreiðsluprósentuna annað hvort fyrir viðskiptavininn eða á flýtiflipanum **Fyrirframgreiðsla** í þessu skjali, er þetta gildi afritað í hverja línu. Hægt er að breyta innihaldi reitsins **Fyrirframgreiðsla %** í línunni.  
 
     > [!TIP]
-    > Ef reiturinn **Fyrirframgreiðsla %** sést ekki er hægt að bæta því við með sérstillingu.  Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
+    > Ef **reiturinn fyrirframgreiðsla% sést ekki** er hægt að bæta honum í gegnum sérsnið.  Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 4. Veldu **Upplýsingar** aðgerðina til að skoða heildarupphæð fyrirframgreiðslu.
 

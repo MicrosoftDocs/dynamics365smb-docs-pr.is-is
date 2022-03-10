@@ -9,7 +9,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8148851"

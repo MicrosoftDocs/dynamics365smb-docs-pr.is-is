@@ -2,6 +2,7 @@
 title: Hvernig á að stofna Þjónustutilboð
 description: Kynntu þér hvernig á að nota þjónustutilboð sem drög að þjónustupöntun og svo breyta tilboðinu í þjónustupöntun.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: eb96cbfee145b418334f49121acfaa5f867ee042
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 3a28ee7522faa1e08608deb00718bf955e0e4984
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143037"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441911"
 ---
 # <a name="create-service-quotes"></a>Stofna þjónustutilboð
 Þú getur hugsað um þjónustutilboð sem grunninn fyrir þjónustupöntunum. Þetta tvennt er í raun alveg eins. Bæði innihalda upplýsingar eins og þær hver viðskiptamaðurinn er, tegund pöntunar, varan sem þarf þjónustuna, reiknings- og afhendingarupplýsingar, og upplýsingar um hina raunverulegu þjónustuvinnu.

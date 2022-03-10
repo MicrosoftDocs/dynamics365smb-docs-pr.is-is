@@ -1,7 +1,8 @@
 ---
-title: Breyta því hvaða eiginleikar eru birtir
+title: Breyta hvaða aðgerðir eru sýndar
 description: Kynntu þér hvað notandaupplifunin Grunnur og Úrvals þýða fyrir notandaviðmótið, notkunarsvið og fyrirtækið þitt.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: b7b27d39997e0adccc6b27ec91386741620d27b8
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130016"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029115"
 ---
 # <a name="change-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
 [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að hjálpa stjórnendum að reka fyrirtæki, óháð stærð og margbreytileika þeirra. Varan inniheldur ómissandi eiginleika á borð við fjárhagsskýrslugerð, sölu, kaup og birgðastjórnun. Þegar umsvif fyrirtækis aukast er hægt að kveikja á annarri virkni, t.d. fyrir framleiðslu og þjónustustjórnun.
@@ -39,10 +40,10 @@ Upplifanir sem hægt er að velja í [!INCLUDE[prod_short](includes/prod_short.m
 Stillingin **Upplifun** gildir um alla notendur í fyrirtæki en hver notandi getur sérstillt eigin upplifun enn frekar með því að breyta útliti og efni á síðu. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Virkjar eiginleika úrvalsáskriftar eftir uppfærslu á áætlun
-Notendum er úthlutað á áætlanir í Microsoft 365 Stjórnendamiðstöð í tengslum við almenna vinnu til að stofna Business Central notendur. Frekari upplýsingar eru í [Bæta við notendum og úthluta leyfum á sama tíma](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
+Notendum er falið að gera áætlanir í Microsoft 365 Stjórnun miðstöðvarinnar í tengslum við almenna vinnu við að stofna notendur seðlabanka. Frekari upplýsingar eru í [Bæta við notendum og úthluta leyfum á sama tíma](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Til að uppfæra breytingar á áætlunum í flokkum notenda
-Þegar breyting hefur verið gerð á notendaáætlunum í Microsoft 365 Stjórnendamiðstöð, eins og fleiri notendum á Premium-áætlunina, verður að endurspegla breytinguna á [!INCLUDE[prod_short](includes/prod_short.md)].
+Þegar gerðar hafa verið breytingar á áætlunum notenda í Microsoft 365 Stjórnun, svo sem úthlutað er á fleiri notendum í kaupaukáætlun, verður að endurspegla breytinguna [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Skráðu þig inn sem stjórnanda.
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.

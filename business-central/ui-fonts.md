@@ -1,21 +1,21 @@
 ---
 title: Tiltækar leturgerðir
-description: Fræðast um foruppsettar leturgerðir sem hægt er að nota fyrir andlits-og andlitstilkynningar.
+description: Fræðast um fyrirfram uppsettar leturgerðir sem hægt er að nota fyrir skýrslur sem snúa utanaðkomandi.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: faa581a88a6c7503c34177db459345a24638a95a
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: MT
+ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
+ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334948"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7868302"
 ---
 # <a name="available-fonts"></a>Tiltækar leturgerðir
 
@@ -34,9 +34,9 @@ Eftirfarandi leturgerðir eru settar upp og hægt að nota í Word og RDLC skýr
 * Lucida Console
 * Segoe Print
 * Segoe Script
-* Segoe UI
-* Segoe UI Light
-* Segoe UI Semilight
+* Segoe notendaviðmót
+* Segoe HÍ ljós
+* Segoe undankeppni HÍ
 * Times New Roman
 
 ## <a name="fonts-for-checks"></a>Leturgerðir fyrir ávísanir
@@ -48,9 +48,9 @@ Auk MICR-leturgerða eru sérstakar öryggisleturgerðir í boði til að búa t
 Frekari upplýsingar er að finna í [Velja útlit ávísunar](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Leturgerðir fyrir strikamerki
-Letur til að mynda strikamerki eru uppsett og tiltæk til notkunar í bæði Word og RDLC-skýrslu.
+Leturgerðir til að búa til strikamerki eru settar upp og tiltækar til notkunar bæði í Word- og RDLC-skýrsluútliti.
 
-Eftirtalin táknmynd strikamera er studd:
+Eftirfarandi eins víddar strikamerkistákn eru studd:
 * Kóði 3 af 9 (Kóði 39)
 * Kóði 128
 * Kóði 93
@@ -58,8 +58,8 @@ Eftirtalin táknmynd strikamera er studd:
 * MSI
 * 2 af 5 fléttuð
 
-Eftirfarandi tveir vídda táknmynd eru studd:
-* Aztec
+Eftirfarandi tvívíð strikamerki eru studd:
+* Heiðrún
 * Gagnafylki
 * Maxicode
 * PDF417

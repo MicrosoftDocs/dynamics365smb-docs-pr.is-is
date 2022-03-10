@@ -2,6 +2,7 @@
 title: Flytja og bóka kostnaðarfærslur
 description: Áður en kostnaðarúthlutanir eru skilgreindar þarf að átta sig á hvaðan hinar ýmsu kostnaðarfærslur koma.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: fcff82e597a47541c5077de47594bb9916a40d67
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: a8470005ae732c1691983fd36c19c5f90724ba18
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136011"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100924"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Flytja og bóka kostnaðarfærslur
 

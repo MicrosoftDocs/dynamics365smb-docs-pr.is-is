@@ -2,6 +2,7 @@
 title: Meðhöndla birgða- og framleiðslukostnað
 description: Sjáðu hvernig ýmsir reitir, síður og skýrslur eru ætlaðar notendum sem vinna beint eða óbeint með kostnað á vörum eða aðgerðir.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9203aa99271bc5fba840b3d568adc098686ef961
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 82221de7c57e6130a3259ae7cf7be095e3c0571e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136096"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323341"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Meðhöndla birgða- og framleiðslukostnað
 Þótt margar aðgerðir kostnaðarbókhalds felist í innri ferlum sem notandinn kemur ekki nálægt, til dæmis jöfnun færslna og sjálfvirk kostnaðarleiðrétting, eru nokkrir reitir, síður og skýrslur sem ætluð eru notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða.  

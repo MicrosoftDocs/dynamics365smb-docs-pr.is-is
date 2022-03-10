@@ -2,20 +2,20 @@
 title: Fjöltyngi og staðfæring
 description: Kynntu þér áhrif tungumáls og svæðis á upplifun þína í Business Central. Breyttu tungumáli viðmótsins á síðunni Mínar stillingar.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5187d4f98360d7cf43300f86eda9e99dcbda4063
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
-ms.translationtype: MT
+ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323137"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588402"
 ---
 # <a name="changing-language-and-region"></a>Breyta tungumáli og svæði
 
@@ -26,7 +26,7 @@ Ef þú notar til dæmis kanadísku útgáfuna af [!INCLUDE[prod_short](includes
 Til að breyta tungumáli viðmótsins skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> Val á tungumálum verður stillt á Microsoft 365 forstillingu notanda ef kerfisstjóri samstillir notendur Microsoft 365 í [!INCLUDE[prod_short](includes/prod_short.md)].
+> Val á tungumálum verður endurstillt á stillinguna á Microsoft 365  sniðinu ef stjórnandi stillir notendur úr Microsoft 365  í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Breytingar á textum sem geymdir eru sem forritsgögn falla ekki undir fjöltyngismöguleikann. Þá snýst málið um forritshönnun og venjur. Dæmi um slíkt eru heiti á vörum í birgðaskrá eða athugasemdir sem sendar eru viðskiptavinum. Með öðrum orðum, slíkur texti er ekki þýddur.  
 
@@ -36,7 +36,7 @@ Breytingar á textum sem geymdir eru sem forritsgögn falla ekki undir fjöltyng
 ## <a name="changing-your-region-setting"></a>Svæðisstillingunni breytt
 Svæði er frábrugðinn bæði tungumáli og lagalegum skilyrðum á staðbundnum mörkuðum. Svæði segir til um hvernig gögn þín birtast hvað varðar skiltákn kommu, samstillingu til vinstri eða hægri, og nokkra aðra tiltekna hluti. Svæði kveður einnig á um kerfiseiningar í vafranum, eins og til dæmis aðgerðina að búa til nýtt atriði á lista.  
 
-Þú getur breytt svæðinu í vafraglugganum sem þú ert að vinna með í [!INCLUDE[prod_short](includes/prod_short.md)]. Berytingin á við þig en ekki aðra notendur í fyrirtækinu.  Val á svæði verður endurstillt á Microsoft 365 forstillingu notanda ef kerfisstjóri samstillir notendur úr Microsoft 365 í [!INCLUDE[prod_short](includes/prod_short.md)].
+Þú getur breytt svæðinu í vafraglugganum sem þú ert að vinna með í [!INCLUDE[prod_short](includes/prod_short.md)]. Berytingin á við þig en ekki aðra notendur í fyrirtækinu.  Val á svæði verður endurstillt á stillinguna í Microsoft 365 sniðinu ef stjórnandi þinni stillir notendur úr Microsoft 365 í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
 > Þegar þú breytir svæði birtist langur listi yfir tungumál og svæði. Val á svæði hefur hins vegar ekki áhrif á tungumál.  

@@ -2,6 +2,7 @@
 title: Hönnunarupplýsingar - uppsetning vöruhúss
 description: Vöruhúsavirkni inniheldur mismunandi flækjustig, sem er að mestu skilgreint með uppsetningu hólfsins á birgðageymsluspjöldum.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9014836d228ee5bd01a74129fa0ba2aa0dd8dcea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: c0559ef10dd8051b64d919b8a27d3af11cce2819
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142342"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325161"
 ---
 # <a name="design-details-warehouse-setup"></a>Hönnunarupplýsingar uppsetningvöruhúss
 

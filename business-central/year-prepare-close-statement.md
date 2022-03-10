@@ -2,6 +2,7 @@
 title: Yfirlit yfir skýrslur til að aðstoða undirbúning lokayfirlits | Microsoft Docs
 description: Færir þér yfirlit yfir skýrslurnar svo þú getir safnað saman upplýsingum til að undirbúa lokayfirlit fyrirtækisins þegar fjárhagsárinu er lokað.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e9eb5243541cdd365aa6a92b1278f38da531ed54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: c1ba1ecc8716586e661b8553f12319a87b4cb85c
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141822"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011520"
 ---
 # <a name="preparing-closing-statements"></a>Undirbúningur lokunaryfirlits
 Til eru margar staðlaðar skýrslur sem má nota til að safna saman upplýsingum sem eru nauðsynlegar til að búa til lokayfirlit fyrirtækisins.

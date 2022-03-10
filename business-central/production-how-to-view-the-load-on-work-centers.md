@@ -2,6 +2,7 @@
 title: Skoða álag á vinnu- og vélastöðvar
 description: Á vinnustöðvarspjaldinu er hægt að skoða álagið á vinnustöðvunum í kjölfar útgefinna framleiðslupantana.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 456347d55a62864877a969ee7997463f37b1b8e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 8553a09ec962a4cb88e406a1f569f33e6047d8ce
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140814"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972987"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Skoða álag á vinnu- og vélastöðvar
 

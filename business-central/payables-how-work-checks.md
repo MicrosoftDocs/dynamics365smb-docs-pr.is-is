@@ -1,7 +1,8 @@
 ---
-title: Gefa út, prenta, hætta við og ógilda tékka
+title: Útgáfa, prenta, hætta við og ógilda ávísanir
 description: Lýsir því hvernig skal gefa út ávísanir með því að nota greiðslubók, prenta ávísanir og ógilda eða skoða ávísanafjárhagsfærslur í Business Central.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b2c57c4a96021beb6e02564e7b24577f52b60922
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 24e12472ea02f91ff3a0a8d23295865ca2855ca5
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137810"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952961"
 ---
 # <a name="make-check-payments"></a>Framkvæma ávísanagreiðslur
 

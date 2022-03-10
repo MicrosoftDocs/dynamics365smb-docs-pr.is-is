@@ -2,6 +2,7 @@
 title: Hönnunarupplýsingar - bókunarstrúktúr vörurakningar
 description: Lærðu hvernig nota skal birgðabókarfærslur sem aðalflutningsaðili vörurakningarnúmera í bókunarskipulagi vörurakningar.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: b568e62a71b907e8d2f9cbc8eba43773be655b44
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 186f4d88fe7fe2b772ec579727fd62d4985c0cf9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136323"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320340"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Hönnunarupplýsingar: bókunarstrúktúr vörurakningar
 Til að jafna með birgðakostnaðarvirkni og til að fá einfaldari og öflugri lausn, erubirgðabókarfærslur notaðar sem aðalflutningsaðili vörurakningarnúmera.  

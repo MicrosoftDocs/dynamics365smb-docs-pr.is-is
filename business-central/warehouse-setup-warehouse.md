@@ -2,6 +2,7 @@
 title: Grunnstilling vöruhúsaferlis
 description: Dreifingaráætlun fyrirtækis endurspeglast í grunnstillingu vöruhúsaferla, t.d. birgðageymslur vöruhússins.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c2645f028dcf32e90d8e3f1260e4110401c4fe6f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 7864b7dcb09d0528f6f0674ae7af3740ab7e5951
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145161"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973233"
 ---
 # <a name="setting-up-warehouse-management"></a>Vöruhúsastjórnun sett upp
 

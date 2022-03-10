@@ -2,6 +2,7 @@
 title: 'Hönnunarupplýsingar: Uppbygging bókunarvélar'
 description: Bókunarviðmótið notar aðgerðir bókunarvélar til að undirbúa og setja inn fjárhagsfærslur og VSK-færslur.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: ff1b8330bf804fa89bafa18bf5a3c30471d94afe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 68375a306983551a51a59ac448b4f0bfa7ad6917
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131952"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318409"
 ---
 # <a name="design-details-posting-engine-structure"></a>Hönnunarupplýsingar: Uppbygging bókunarvélar
 Bókunarviðmót og sumar aðrar aðgerðir í kóðaeiningu 12 nota aðgerðir bókunarvélar til að undirbúa og setja inn færslur í fjárhag og VKS. Bókunarvélin er einnig ábyrg fyrir stofnun fjárhags.  

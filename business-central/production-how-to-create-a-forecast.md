@@ -2,6 +2,7 @@
 title: Búa til eftirspurnarspá
 description: Kynntu þér eiginleika eftirspurnarspár og hvernig hægt er að búa til sölu- og framleiðsluspár.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: f966b73f4917bf803c0f8c4c92eefcd222aeeea7
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140944"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971380"
 ---
 # <a name="create-a-demand-forecast"></a>Búa til eftirspurnarspá
 
@@ -72,7 +73,7 @@ Síðan stofnarðu sölupöntun með magn upp á 12 á staðsetningu VESTUR. Á�
 
 ### <a name="do-not-use-forecast-by-locations"></a>Ekki nota spá eftir staðsetningum
 
-Ef slökkt er **á skiptispám** með staðsetningu [!INCLUDE[prod_short](includes/prod_short.md)] skal hunsa birgðageymslukóta sem eru tilgreindir fyrir hverja eftirspurnarspá og samanlagða spár í spá fyrir auðar staðsetningar.  
+Ef slökkt er á **skiptispám með staðsetningu skal**[!INCLUDE[prod_short](includes/prod_short.md)] hunsa birgðageymslukóta sem eru tilgreindir fyrir hverja eftirspurnarspá og samanlagða spár í spá fyrir auðar staðsetningar.  
 
 Skoðið þetta dæmi: Fyrirtækið þitt kaupir og selur vörur á tveimur staðsetningum: AUSTUR og VESTUR. Fyrir báðar staðsetningarnar ertu búin(n) að skilgreina endurpöntunarstefnu frá lotu til lotu. Þú býrð til spá fyrir tvær staðsetningar:
 
@@ -108,8 +109,8 @@ Síðan stofnarðu sölupöntun með magn upp á 12 á staðsetningu VESTUR. Á�
 ## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
-[Framleiðslubirgðum](production-manage-manufacturing.md)
-[...](inventory-manage-inventory.md)  
+[...](production-manage-manufacturing.md)
+[Framleiðslubirgðum](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  

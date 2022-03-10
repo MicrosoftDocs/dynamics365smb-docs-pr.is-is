@@ -3,6 +3,7 @@ title: Hvernig vörutegundir virka
 description: Þú getur leiðrétt birgðaverðmat vöru með því að nota FIFO eða Meðalkostnaðaraðferð þegar vöruverð breytist ekki vegna viðskiptalegra ástæðna, heldur einhvers annars.
 documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,26 +12,26 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e902068398a636b5e205fa7d808066861059b901
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131692"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059623"
 ---
 # <a name="about-item-types"></a>Um vörutegundir
-Í reitnum **Tegund** á **síðunni Birgðaspjald** er hægt að velja til hvers varan er notuð í fyrirtækinu, sem hefur áhrif á að hve miklu leyti hægt er að stjórna vörunni í birgðum. Eftirfarandi tafla sýnir og lýsir þremur gerðum vara sem eru tiltækar.
+**Í reitnum Tegund** á **vöruspjaldinu** er hægt að velja hvað varan er notuð í viðskiptunum, sem hefur áhrif á það hversu hægt er að stjórna vörunni í birgðum. Eftirfarandi töflulistum og lýsir þeim þremur tegundum atriða sem eru tiltæk.
 
 |Valkostur|Dæmigerður tilgangur|
 |------|-----------|
-|Birgðir|Efnislegir hlutir, svo sem reiðhjól, símar og skrifborð, sem þú vilt geta notað öll birgðaferli fyrir. Þetta getur einnig innihaldið vörur sem ekki eru efnislegar, svo sem hugbúnaðarleyfi og áskriftir, ef vörurnar eru með kennitölur, svo sem raðnúmer. Hægt er að rekja að fullu vöruvirði og ráðstöfunarmagn í birgðum.|
-|Engar birgðir|Venjulega eru vörur sem ekki eru birgðum efnislegir hlutir, svo sem boltar eða pennar, sem fyrirtæki notar en vill ekki rekja að fullu í birgðum. Til dæmis vegna þess að þær eru lággjaldavörur og eru aðeins notaðar við innri vinnslu.|
+|Birgðir|Eðlislegir hlutir, svo sem reiðhjól, síma-og deskunarskápar, sem óskað er eftir að geti notað alla birgðaferla. Þetta geta einnig verið Óefnislegir hlutir eins og hugbúnaðarleyfi og áskriftir, ef vörurnar eru með kennitölum, eins og raðnúmerum. Hægt er að rekja gildi vöru og ráðstöfunarmagn í birgðum.|
+|Engar birgðir|Yfirleitt eru það ekki birgðavörur, til dæmis boltar eða pennar, sem fyrirtæki eyðir en vill ekki fullkomlega rekja birgðir. Til dæmis vegna þess að þeir eru lágkostnaðarliðir og eru aðeins notaðir innbyrðis.|
 |Þjónusta|Vinnutímaeining, svo sem ráðgjöf í klukkustund, fyrir takmarkaðan stuðning fyrirtækis.|
 
 > [!NOTE]
-> Gerðirnar **Þjónusta** og **ekki birgðir** styðja ekki rakningu á birgðamagni og gildum. Aðeins valdar vörufærslugerðir og aðgerðir eru studdar.
+> **Þjónustan** og **ekki birgðagerðir** styðja ekki mælingar á magni birgða og virði. Aðeins valdar vörufærslugerðir og eiginleikar eru studdir.
 
-Í eftirfarandi töflu er listi yfir aðgerðir sem vörugerðirnar þrjár styðja.
+Í eftirfarandi töflu er listi yfir aðgerðirnar sem þrjár vörutegundir styðja.
 
 |Gerð vöru|Sölur|Innkaup|Vinnunotkun|Þjónustunotkun|Samsetningarnotkun|Framleiðsla Notkun|Samsetningarfrálag|Framleiðslufrálag|Staðsetningarflutningur|Birgðatalning|Endurmat á birgðum|Birgðakostnaður|Vörurakning|Frátekning|Vörugeymsla|Áætlun|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|

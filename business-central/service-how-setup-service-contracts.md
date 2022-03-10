@@ -2,6 +2,7 @@
 title: Setja upp þjónustusamninga
 description: Kynntu þér hvernig á að setja upp þjónustusamninga með nauðsynlegum forsendum, þar á meðal þjónustusamningshópa, sniðmát fyrir samninga og sniðmát fyrir viðskiptavini.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 19e728ddf5394ad116cfc05eefecaec9d3e46871
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 65bee9492ebf24eb90ef8b22025a09e36d3602fa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132603"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436577"
 ---
 # <a name="set-up-service-contracts"></a>Setja upp þjónustusamninga
 Áður en þú vinnur með samninga verður þú að setja upp eftirfarandi: 

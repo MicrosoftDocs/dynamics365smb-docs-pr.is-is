@@ -1,7 +1,8 @@
 ---
-title: Stofna og stjórna fyrirtækjatengiliðum
+title: Stofna og stjórna tengiliðum fyrirtækis
 description: Settir eru upp sem tengiliðir allir ytri aðilar sem fyrirtækið hefur viðskiptatengsl við (til dæmis viðföng, viðskiptamenn, lánadrottnar og ráðgjafar).
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 815b4c406b203e32a0d424a2ecf76f7aa0564662
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: 581e89630782f4cfca364838002fa4eca4ddbb6d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131484"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060171"
 ---
 # <a name="managing-contacts"></a>Vinna með tengiliði
 

@@ -2,6 +2,7 @@
 title: Fjöldabóka framleiðslufrálag og keyrslutíma
 description: Frálagsmagnið sýnir framvindu vinnunnar sem lokið magn og notuð afköst vinnu eða vélastöðvar.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bbd2a3bf8eae3ced2ad063b0baa3b138cac46401
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135699"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970428"
 ---
 # <a name="batch-post-output-and-run-times"></a>Fjöldabóka frálag og keyrslutíma
 Frálagsmagnið sýnir framvindu vinnunnar sem lokið magn og notuð afköst vinnu eða vélastöðvar.
@@ -47,9 +48,9 @@ Ef síðasta aðgerðin var bókuð verður vörunni bætt við birgðir.
 ## <a name="see-also"></a>Sjá einnig
 
 [Bóka rýrnun handvirkt](production-how-to-post-scrap.md)
-[frálag bókunar](production-how-to-reverse-output-posting.md)
-
-[...](production-manage-manufacturing.md)[við framleiðsluuppsetningu framleiðslu](production-configure-production-processes.md)  
+[frálag bókunar við](production-how-to-reverse-output-posting.md)
+[...](production-manage-manufacturing.md)
+[framleiðsluuppsetningu framleiðslu](production-configure-production-processes.md)  
 [Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
