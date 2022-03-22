@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.search.form: 5605, 5551, 5600, 5628, 5629
+ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: e0a60cbb82c99e3497a6f8d1907c261b6199e7ec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 9ddd5c303415ea08eea19f0e869efd2b6022c24c
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141211"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366515"
 ---
 # <a name="acquire-fixed-assets"></a>Komast yfir eignir
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Afskriftabók þarf að setja upp og tengja hverri eign áður en hægt er að komast yfir hana.
@@ -78,9 +78,9 @@ Ef kaup eru til dæmis bókuð með rangri dagsetningu þarf að leiðrétta han
 > [!IMPORTANT]  
 > Ekki er hægt að nota aðgerðina **Bakfæra viðskipti** fyrir eignarfærslur.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **eignafærslur** og velja síðan tengda tengilinn.  
-2. **Á síðunni eignafærslur** er færslan eða færslurnar sem á að hætta við valdar.  
-3. **Veldu valmyndina aðgerðir** og veldu **síðan aðgerðina Hætta við færslur**.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, færa inn **eignafærslur** og velja síðan tengda tengilinn.  
+2. **Á síðunni Eignafærslur** skal velja færsluna eða færslurnar sem á að hætta við.  
+3. Valmyndin **Aðgerðir er** valin og síðan er aðgerðin **Hætta við færslur** valin.
 4. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 5. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 6. Þegar röng færsla eða færslur eru ógiltir, skal halda áfram og bóka rétt kaupverð.

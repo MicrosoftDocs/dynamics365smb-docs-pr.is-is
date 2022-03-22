@@ -1,7 +1,7 @@
 ---
 title: Uppsetning sléttunargerðar reikninga
 description: Ef þörf er á að slétta upphæðir reikninga þegar reikningar eru stofnaðir, má nota sjálfvirku sléttunaraðferðina sem er útskýrð hér.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5, 16, 118, 459, 460, 495
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 781027b74912e8971d27d6b6c7613243c135cc1f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 073c399d952b005efe5319b5363f9f34636a4b09
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143479"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381282"
 ---
 # <a name="set-up-invoice-rounding"></a>Uppsetning sléttunargerðar reikninga
 Ef þörf er á að slétta upphæðir reikninga þegar reikningar eru stofnaðir, má nota sjálfvirku sléttunaraðferðina. Þegar reikningur er sléttaður er bætt við aukalínu með sléttunarupphæðinni og þessi lína er bókuð með hinum reikningslínunum.

@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að hjáskipa vörum | Microsoft Docs
+title: Hjáskipa vörur
 description: Hjáskipunaraðgerðin er tiltæk ef birgðageymslan hefur verið sett upp þannig að hún krefjist vöruhúsamóttöku-og frágangsvinnslu.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15, 5703, 7302, 7332, 5768
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 367dd6915a168b208432116439aa89b94bded649
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 4031260a498eb2dd147be85392e6da709e76e681
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128464"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383616"
 ---
 # <a name="cross-dock-items"></a>Hjáskipa vörur
 Hjáskipunaraðgerðin er tiltæk ef birgðageymslan hefur verið sett upp þannig að hún krefjist vöruhúsamóttöku-og frágangsvinnslu.  

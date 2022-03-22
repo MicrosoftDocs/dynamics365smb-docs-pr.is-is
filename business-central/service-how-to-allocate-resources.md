@@ -1,7 +1,7 @@
 ---
 title: Hvernig á að úthluta forða | Microsoft Docs
 description: Hægt er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs til að leiðrétta upphæðina sem verður reikningsfærð árlega.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ba3571eac4e26646507db2c67f0c2f77207a4566
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 71cbdf87ba74c0cff1839fb4a3d4e1620884f407
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143063"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382690"
 ---
 # <a name="allocate-resources"></a>Úthluta forða
 Lykilþáttur þjónustukerfis er fólkið sem veitir þjónustuna. Hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að úthluta réttu fólki í viðeigandi verk. Úthlutun verka er hægt að byggja á þjónustusvæðinu sem starfsfólk er á eða því hvar þjónustan á sér stað. Auk þess er hægt að flokka forða saman þegar þjónustubeiðnum er svarað. Frekari upplýsingar eru í [Setja upp forðaúthlutun](service-how-setup-resource-allocation.md).

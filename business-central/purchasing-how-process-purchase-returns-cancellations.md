@@ -1,5 +1,5 @@
 ---
-title: Framkvæmd aftur eða ógildingar
+title: Vinna úr skilum eða ógildingum
 description: Útskýrir hvernig á að stofna og bóka innkaupakreditreikning þegar þú vilt skila vörum til lánardrottins eða afturkalla keypta þjónustu.
 author: SorenGP
 ms.topic: conceptual
@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.search.form: 6640, 6643
+ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b3e4111870af7d113c9552aa31854a3351c2d63f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 9b59271a3c1bf1558b7a4584ac3088b33ea0ee34
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131177"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382418"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Meðhöndlun innkaupaskila eða afturkallana
 

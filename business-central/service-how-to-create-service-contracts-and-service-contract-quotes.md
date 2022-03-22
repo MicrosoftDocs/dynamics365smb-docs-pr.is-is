@@ -1,7 +1,7 @@
 ---
 title: 'Hvernig á að: Vinna með þjónustusamninga og þjónustusamningstilboð | Microsoft Docs'
 description: Hægt er að stofna þjónustusamning annað hvort handvirkt eða úr þjónustusamningstilboði. Hægt er að stofna samning út frá samningstilboði.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0a9e90f19584e3586bac0cc80dac3b2cc0d9ce74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: dcd6ec21880a2f4e8fa9cf3fdd04be1eb4dd191b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134900"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383534"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Vinna með þjónustusamninga og þjónustusamningstilboð
 Hægt er að stofna þjónustusamning annað hvort handvirkt eða úr þjónustusamningstilboði. Hægt er að nota þjónustusamningstilboð sem aðdraganda að þjónustusamningi þar sem fyrirtækið gerir viðskiptamanni tilboð og fær samþykki hans svo að unnt sé að breyta tilboðinu í þjónustusamning. Ferlið við stofnun þjónustusamnings annars vegar og þjónustusamningstilboðs er nokkuð svipað.  

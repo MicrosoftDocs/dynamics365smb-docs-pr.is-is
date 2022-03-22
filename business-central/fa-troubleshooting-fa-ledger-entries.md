@@ -2,7 +2,7 @@
 title: Viðaukar úrræðaleit-eignafærslna
 description: Auðveldara er að vinna með heilar tölur. Notið þennan viðauka til að slétta upphæðir fyrir eignir í Eignahöfuðbók.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 8ce484583ef5eddc8e6aee675715487c3bd4e974
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142316"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382472"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>Viðaukar úrræðaleit-eignafærslna
 Notið úrræðaleit í eignafærslum til að slétta afskriftir og stofnupphæðir í eignafærslum við heilar tölur. Til dæmis að slétta upphæð 30,000.44 í 30.000. Dæmigerðar ástæður sléttunar eru gagnaflutninga, skyndilega er byrjað að bóka upphæðir í fjárhag, eða sérsnið búin til [!INCLUDE[prod_short](includes/prod_short.md)].

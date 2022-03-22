@@ -1,19 +1,19 @@
 ---
-title: Microsoft Dataverse Tengjast (inniheldur Video)
+title: Tengjast Microsoft Dataverse (inniheldur myndband)
 description: Settu upp tengingu milli Business Central og Dataverse. Yfirleitt stofna fyrirtæki tenginguna til að samþætta og samstilla gögn við annað Dynamics 365 Business-forrit.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8b5a393356f4028de8278bad3177592c8d26fe40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: f83764061bb341b0b9d6619a0c5d14cac6b664a9
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130749"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383832"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Tengjast við Microsoft Dataverse
 
@@ -39,7 +39,7 @@ ms.locfileid: "8130749"
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Uppsetning á tengingu við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-Fyrir allar gerðir Microsoft 365 sannvottunar er Tengingin við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] á **Dataverse síðu tengingaruppsetningar** sett upp. Við sannvottun er mælt með því að Uppsetningarleiðbeiningar fyrir Microsoft 365 tengingaraðstoðarmenn **Dataverse séu notaðar**. Leiðbeiningarnar auðvelda uppsetningu á tengingu og tilgreina ítarlega eiginleika, t.d. eignarhaldslíkan og upphaflega samstillingu.  
+Fyrir allar aðrar sannvottunargerðir en Microsoft 365 sannvottun er tengingin sett upp við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] á **Dataverse síðunni Uppsetning** tengingar. Til Microsoft 365 sannvottunar er mælt með því að uppsetningarleiðbeiningar með hjálp tengingar með **Dataverse hjálp séu notaðar**. Leiðbeiningarnar auðvelda uppsetningu á tengingu og tilgreina ítarlega eiginleika, t.d. eignarhaldslíkan og upphaflega samstillingu.  
 
 > [!IMPORTANT]
 > Við uppsetningu tengingarinnar við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] er stjórnandi beðinn um að gefa upp eftirfarandi heimildir til að skrá Azure-forritið sem heitir [!INCLUDE[prod_short](includes/prod_short.md)] samþætting við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:

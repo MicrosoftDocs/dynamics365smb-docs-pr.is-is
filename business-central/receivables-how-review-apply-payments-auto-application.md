@@ -1,5 +1,5 @@
 ---
-title: Staðfesta sjálfvirkt jafnaðar greiðslur, og endurjafna greiðslur handvirkt | Microsoft Docs
+title: Endurskoða og jafna greiðslur handvirkt eftir sjálfvirka jöfnun
 description: Eftir að greiðslur hafa verið jafnaðar sjálfvirkt, geturðu endurskoðað allar færslurnar fyrir greiðslu og endurjafnað handvirkt þær sem voru ekki jafnaðar rétt.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
+ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2844c7fc1969e2159c67f8783481fbbc143a39a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 9a4a25de9d1aab74c0c721fbdbda6704a2ae8666
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144906"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383058"
 ---
 # <a name="review-and-apply-payments-manually-after-automatic-application"></a>Endurskoða og jafna greiðslur handvirkt eftir sjálfvirka jöfnun
 Fyrir hverja færslubókarlínu sem táknar greiðslu í **greiðsluafstemmingarbók** síðunni geturðu opnað **greiðslujafnanir** síðuna til að sjá alla möguleika opinna færslna fyrir greiðsluna og skoðað ítarlegar upplýsingar fyrir hverja færslu um gagnasamsvaranir sem greiðslujöfnun byggir á. Hér er hægt að jafna handvirkt greiðslur eða endurjafna greiðslur sem voru jafnaðar sjálfkrafa á ranga færslu. Nánari upplýsingar um sjálfvirka jöfnun eru í [Afstemma greiðslur með því að nota sjálfvirka jöfnun](receivables-how-reconcile-payments-auto-application.md).

@@ -1,7 +1,7 @@
 ---
 title: Coupling og samstilling (inniheldur Video)
 description: Samstilling samþættingartöflu virkjar gagnasamþættingu í öllum færslum í töflu í Business Central og Dynamics 365 Sales töflu sem eru tengdar.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.search.form: 6250
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 71e0e319162e071d880ef4d314eb54cdd5d918f0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 4caf32bb0c7b4471809d8af3b899329c571d144f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136401"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381591"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Tengja og samstilla færslur milli Dataverse og Business Central
 

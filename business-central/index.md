@@ -8,16 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138493"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367203"
 ---
 # <a name="welcome-to-prod_long"></a>Velkomin(n) í[!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Forritið [!INCLUDE[prod_short](includes/prod_short.md)] er sveigjanlegt og fjölbreytt kerfi sem gerir fyrirtækjum kleift að halda utan um rekstur, þar á meðal fjármál, framleiðslu, sölu, afhendingu, verkefnastjórnun, þjónustu og meira til. Fyrirtæki geta auðveldlega bætt við eiginleikum sem henta landsvæði þeirra og sem má sérsníða fyrir sérhæfðustu atvinnugreinar.  
+
+[Lærðu hvernig á að fá ókeypis prufuáskrift hér](trial-signup.md).  
 
 Ef þú ert þegar með [!INCLUDE[prod_short](includes/prod_short.md)], skráir þú þig inn á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Annars skaltu [sækja](https://dynamics.microsoft.com/business-central/overview/), [skoða leiðarvísinn](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og hefja svo [frían prufuáskrift](https://go.microsoft.com/fwlink/?linkid=847861). Kíktu á [stutta leiðarvísa](quick-start-business-central.md) til að hjálpa þér að skilja betur [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar um innleiðingu í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna í [Undirbúningur fyrir að stunda viðskipti](ui-get-ready-business.md).  
 

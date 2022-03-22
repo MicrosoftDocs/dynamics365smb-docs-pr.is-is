@@ -1,7 +1,7 @@
 ---
 title: Stjórnun OneDrive samþættingar við Business Central
 description: Kynntu þér hvað þú getur gert til að stýra samþættingu milli Business Central og OneDrive for Business.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,19 +9,19 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 05/12/2021
 ms.author: bholtorf
-ms.openlocfilehash: 20c6eb27aa3af2557ce77993b11f759f2c329100
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 5debd01f9d26e5e1dc1abc1a0123073d0f7ee234
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144025"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382872"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Stjórnun OneDrive samþættingar við Business Central 
 Í þessari grein er að finna yfirlit yfir það sem stjórnandi getur gert til að stýra samþættingu OneDrive for Business við [!INCLUDE[prod_short](includes/prod_short.md)]. Viðskiptavinir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu njóta góðs af sjálfvirkri samþættingu, án viðbótaruppsetningar sem þarf til að nota þessa eiginleika. 
 
 ## <a name="minimum-requirements"></a>Lágmarkskröfur
 
-* Hver notandi verður að hafa leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] og OneDrive sem hluti af Microsoft 365 áætlun.
+* Hver notandi verður að hafa leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] og OneDrive sem hluta af Microsoft 365 áætlun.
 * OneDrive verður að vera sett upp fyrir hvern notanda fyrir sig.
 
 ## <a name="governance"></a>Stjórnunarhættir
@@ -67,7 +67,7 @@ Stjórnandi verður að setja upp tenginguna milli [!INCLUDE[prod_short](include
 
    For more information, see [Authenticating Business Central Users with Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory)-->
 
-Bættu við skráðri umsókn um Business Central í Azure AD leigutaki áætlunarinnar.Microsoft 365 Eins og aðrar Azure-þjónustur sem vinna með Business Central þarf OneDrive á skráningu forrits að halda í Azure Active Directory (Azure AD). Forritsskráningin býður upp á sannvottun og sannvottunarþjónustu milli Business Central og SharePoint, sem OneDrive notar.
+Bættu við skráðri umsókn um Business Central í Azure AD leigjanda áætlunarinnar Microsoft 365. Eins og aðrar Azure-þjónustur sem vinna með Business Central þarf OneDrive á skráningu forrits að halda í Azure Active Directory (Azure AD). Forritsskráningin býður upp á sannvottun og sannvottunarþjónustu milli Business Central og SharePoint, sem OneDrive notar.
 
 Grunnstilltu skráða forritið með eftirfarandi úthlutuðum heimildum fyrir SharePoint API:
 

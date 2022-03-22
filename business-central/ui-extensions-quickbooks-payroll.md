@@ -3,7 +3,7 @@ title: Notkun á QuickBooks innflutningsviðbót fyrir launaskrár | Microsoft D
 description: Þetta efnisatriði lýsir því hvernig skal nota viðbótina til að flytja inn launafærslur úr QuickBooks.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b40ede6ed0ebd5e4082b52f9645d26deb3d745c1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: f855080c2e26e7d7ddf4a012164ec91477387e2f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134744"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381141"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>QuickBooks-viðbótin fyrir innflutning á launaskrá
 Notaðu QuickBooks-viðbótin fyrir innflutning á launaskrá til að flytja inn launafærslur úr QuickBooks til fjárhagslykla í [!INCLUDE[prod_short](includes/prod_short.md)]. Til dæmis er þetta gagnlegt þegar þú ert að skipta frá QuickBooks í [!INCLUDE[prod_short](includes/prod_short.md)] eða ef þú útvistar launaskrána þína en vilt líka halda utan um það í [!INCLUDE[prod_short](includes/prod_short.md)].

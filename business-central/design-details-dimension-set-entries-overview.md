@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0585c4d266bed92ffb113701650bef5069109fc8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 06baf4789fb4630ee9ee7db74d5dab7aafa07e9b
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132030"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366699"
 ---
 # <a name="dimension-set-entries-overview"></a>Yfirlit yfir víddasamstæðufærslur
 Í þessu efnisatriði er lýst hvernig víddasamstæðufærslur eru geymdar og bókaðar í [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -48,7 +48,7 @@ Með því að vista víddasamstæður einu sinni í gagnagrunni, er gagnagrunns
 ## <a name="see-also"></a>Sjá einnig
 [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   
 [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   
-[Hönnunarupplýsingar: Færslur víddarsamstæða](design-details-dimension-set-entries.md)   
+[Hönnunarupplýsingar: Víddasamstæðufærslur](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

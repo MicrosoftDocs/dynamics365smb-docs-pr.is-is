@@ -7,17 +7,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.search.form: 17, 18, 20, 21, 37, 65, 99, 118, 312, 313, 314, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 78d4ce41c4c6e85751134b51efe181380da8a0e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 5f168132dc747e76c514ae1bd78e8d2f86a7b609
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138070"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366736"
 ---
-# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Skilningur á fjárhag og bókhaldslyklum
+# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Skilningur á fjárhag og bókhaldslykli
 
 Fjárhagur geymir fjárhagsgögn,  og bókhaldslykill birtir reikningana sem allar fjárhagsfærslur eru bókaðar í. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðan bókhaldslykil sem er tilbúin til að styðja þitt fyrirtæki.
 
@@ -37,7 +37,7 @@ Uppsetning aðalbókarinnar er kjarninn í fjárhagslegum ferlum vegna þess að
 Á sama hátt er á síðunni **Almennur bókunargrunnur** tilgreint hvernig á að setja upp samsetningar almennra viðskiptabókunarflokka og almenna vörubókunarflokka. Staða hópar korta aðila eins og viðskiptavini, seljendur, atriði, auðlindir og sölu- og kaupskjöl til almennra reikninga. Ein lína er fyllt út fyrir hverja samsetningu viðskiptabókunarflokks og vörubókunarflokks. En einnig er hægt að opna hverja línu á eigin bókunaruppsetningarspjaldi. Nánari upplýsingar eru í [Uppsetning bókunarflokka](finance-posting-groups.md).  
 
 > [!TIP]
-> Ef ekki er hægt að sjá svæðin sem leitað er að á **síðunni almennar bókunaruppsetningar** þá er lárétt Skrunrein notuð neðst á síðunni til að fletta til hægri.  
+> Ef ekki er hægt að sjá reitina sem leitað er að á **síðunni Alm. bókunargrunnur** skal nota lárétta skrunreinina neðst á síðunni til að fletta til hægri.  
 
 ## <a name="the-chart-of-accounts"></a>Bókhaldslykillinn
 
@@ -45,7 +45,7 @@ Skýringin á reikningum sýnir allar almennar bókhaldsreikningar. Úr bókhald
 
 * Skoða skýrslur sem sýna aðalbókaratriði og jafnvægi.  
 * Lokaðu rekstrarreikningi þínum.  
-* Opna skal fjárhagsreikningskort fjárhags (Fjárhagur) til að bæta við eða breyta stillingum.  
+* Opna fjárhagsreikningsspjaldið (fjárhagsreikningur) til að bæta við eða breyta stillingum.  
 * Sjá lista yfir pósthópa sem senda á þann reikning.
 * Skoða debet- og kreditstöður fyrir einstakan fjárhagsreikning  
 
@@ -55,7 +55,7 @@ Skýringin á reikningum sýnir allar almennar bókhaldsreikningar. Úr bókhald
 
 Þú getur sérsniðið uppbyggingu reikningsskila þinnar með því að kortleggja aðalbókarreikninga í reikningsflokkum.  
 
-**Síðan Flokkur** fjárhagsreikninga sýnir tegundir og undirflokka og fjárhagslykla sem er úthlutað á þá. Hægt er að stofna nýja undirflokka og úthluta þeim á fyrirliggjandi reikninga.  
+Síðan **Tegundir fjárhagsreikninga** sýnir flokka og undirflokka og fjárhagsreikninga sem þeim er úthlutað. Hægt er að stofna nýja undirflokka og úthluta þeim á fyrirliggjandi reikninga.  
 
 Þú stofnar tegundaflokk með því að draga inn aðra undirflokka undir línu á síðunni **flokkar fjárhagsreikninga**. Það gerir það auðveldara fyrir þig að fá yfirlit, því hver flokkur sýnir heildarstöðu. Til dæmis er hægt að stofna undirflokka fyrir mismunandi tegundir eigna og síðan stofna tegundaflokka fyrir fastafjármunir miðað við veltufjármunir.  
 

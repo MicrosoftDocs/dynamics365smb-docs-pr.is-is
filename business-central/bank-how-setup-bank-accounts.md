@@ -1,7 +1,7 @@
 ---
-title: Setja upp bankareikninga (inniheldur Video)
+title: Setja upp bankareikninga (inniheldur myndskeið)
 description: Kynntu þér hvernig bankareikningar eru notaðir í Business Central og hvernig hægt er að stemma af upphæðir með bankanum.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 49ddd48a03c8abe9ea9b396bebc4328e2be30104
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 4c305d4ba1f4208eb7a3c5845d4b32bb40f930e6
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143739"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382312"
 ---
 # <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
 
@@ -90,7 +90,7 @@ Frá raunverulegum reikningi í bankanum berast oft óþekktar færslur sem grei
 2. Á síðunni **bankareikningar** skal velja aðgerðina **Nýtt**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    Til dæmis **tengir Bankareikn Reikningsflokkinn** bankareikninginn við undirliggjandi fjárhagsreikning í efnahagsreikningi. Frekari upplýsingar er að finna [í setja upp bókunarflokka](finance-posting-groups.md).
+    Til dæmis tengir reiturinn **Bókunarflokkur** bankareikningsins við undirliggjandi fjárhagsreikning í efnahagsreikningi. Nánari upplýsingar eru í [Setja upp bókunarflokka](finance-posting-groups.md).
 
 > [!TIP]
 > Sumir reitir eru faldir þar til þú velur aðgerðina **Sýna fleiri**, yfirleitt vegna þess að þeir eru sjaldan notaðir. Öðrum verður að bæta við með sérstillingu. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
@@ -159,7 +159,7 @@ The following table explains key fields.
 > Einnig er hægt að tiltaka opnunarstöðu sem hluta af almennri gagnamyndun í nýjum fyrirtækjum með því að nota **Flytja viðskiptagögn** leiðbeiningar um uppsetningu með hjálp. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Mikilvægt er að opnunarstaðan sé ekki bókuð beint í fjárhag. Ef færslur í fjárhagsreikningnum sem eru bókaðar beint á fjárhagsreikninginn leiða yfirleitt til þess að ekki er hægt að stemma bankareikninginn af, eða ef um er að ræða bankareikninga á erlendum gjaldmiðli, leiðir mismunur til þess að þú bókar meiri bankaafstemmingar. Oft er opnunarbankainnistaða bókuð beint á bankareikning og upphæðin endar síðan í fjárhagsreikningnum. Einnig er hægt að bakfæra hana síðar á móti tilgreindum fjárhagsreikningi sem notaður var til að jafna stöðu opnunarfjárhags. Í báðum tilvikum þarf að jafna beina bókun við fjárhagsreikninginn áður en fyrsta bankaafstemming hefst, og þá sérstaklega svo ef bankareikninginn er í erlendum gjaldmiðli.  
+> Mikilvægt er að opnunarstaðan sé ekki bókuð beint í fjárhag. Ef færslur á fjárhagsreikningnum sem eru bókaðar beint á fjárhagsreikninginn leiða yfirleitt til þess að ekki er hægt að afstemma bankareikninginn eða, ef um er að ræða bankareikninga í erlendum gjaldmiðli, leiða til mismunar sem safnast upp þegar fleiri bankaafstemmingar eru bókaðar. Oft er opnunarbankastaðan bókuð beint á bankareikninginn og upphæðin endar síðan á fjárhagsreikningnum. Einnig er hægt að bakfæra hann síðar á móti tilgreindum fjárhagsreikningi sem notaður hefur verið til að jafna út fjárhagsstöðu opnunar. Í báðum tilvikum verður að jafna út beina bókun á fjárhagsreikning áður en fyrsta bankaafstemmingin er hafin og þá sérstaklega ef bankareikningurinn er í erlendum gjaldmiðli.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Til að setja upp bankareikning þinn til að flytja inn eða flytja út bankaskrár
 

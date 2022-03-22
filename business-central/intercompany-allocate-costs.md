@@ -3,7 +3,7 @@ title: Úthluta kostnaði til millifyrirtækjafélaga | Microsoft Docs
 description: Kynntu þér hvernig VSK-stillingar fyrir viðskiptamenn og lánardrottna stjórna því hvort og hvernig virðisaukaskattur er reiknaður.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137914"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382060"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Úthluta kostnaði til millifyrirtækjafélaga
 Þegar bókanir milli fyrirtækja eru notaðar til að flytja skjöl milli samstarfsfyrirtækja, þá stjórna VSK-tengdar stillingar (sérstaklega VSK-viðskiptabókunarflokkurinn) sem úthlutað er til viðskipamanna- eða lánardrottnalykla (sem tengjast millifyrirtækjafélagi) því hvort og hvernig virðisaukaskattur er reiknaður og skráður. Einnig er hægt að gera kostnaðardreifingu beint í innkaupapöntunum til samstarfsfyrirtækja. Til dæmis ef skráður er innkaupareikningur frá ytri lánardrottni og ætlunin er að dreifa einhverjum eða öllum kostnaði á eitt eða fleiri millifyrirtækjafélög.

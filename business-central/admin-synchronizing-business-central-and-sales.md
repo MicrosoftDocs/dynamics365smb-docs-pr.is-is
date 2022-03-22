@@ -1,7 +1,7 @@
 ---
 title: Samstilling og samþætting gagna | Microsoft Docs
 description: Samstillingin afritar gögn milli tafla Microsoft Dataverse og Business Central og heldur gögnunum í báðum kerfum uppfærðum.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ceef56f1b951b5c9f1621d463276ec1d22c44da4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 7c03e4491519a31aeaf11c4d52555ab222701c32
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148825"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383086"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Samstilling gagna í Business Central með Microsoft Dataverse
 
@@ -39,7 +39,7 @@ Samstilling notar eftirfarandi einingar:
 |Áætluð samstilling|Samstilla allar breytingar á gögnum fyrir allar töfluvarpanir.<br /><br /> Hægt er að samstilla [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] með áætluðu millibili með því að setja upp verk í verkröðinni.|[Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
 > [!NOTE]
-> Samstillingin á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] er byggð á áætlaðri framkvæmd verkraðarfærslna og tryggir ekki samræmi rauntímagagna milli tveggja þjónustu. Fyrir rauntíma gagnasamráð ættir þú að kanna [Business Central Virtual Tables](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eða Business Central API.   
+> Samstillingin á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] byggist á áætlaðri framkvæmd verkraðarfærslna og tryggir ekki samræmi rauntímagagna milli tveggja þjónustu. Fyrir samleitni gagna í rauntíma ættirðu að kanna [Sýndartöflur](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) Business Central eða Business Central API.   
 
 
 ## <a name="standard-table-mapping-for-synchronization"></a>Stöðluð töfluvörpun fyrir samstilling
@@ -55,7 +55,7 @@ Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_shor
 | Sölumaður/innkaupaaðili | Notandi | [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] tengiliðasía: **Staða** er **Nei**, **Notandi með leyfi** er **Já**, stilling samþættingarnotanda er **Nei** |
 | Viðskiptamaður | Reikningur | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] reikningssía: **Gerð vensla** er **Viðskiptavinur** og **Staða** er **Virkur**. [!INCLUDE[prod_short](includes/prod_short.md)] sía: **Lokað** er autt (viðskiptavinur er ekki útilokaður). |
 | Lánardrottinn | Reikningur | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] afmörkun á reikningi: **Venslagerð** er **Lánardrottinn** og **Staða** er **Virk**. [!INCLUDE[prod_short](includes/prod_short.md)] sía: **Lokað** er autt (lánardrottinn er ekki útilokaður). |
-| Tengiliður | Tengiliður | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] tengiliðasía: **Gerð** er **Einstaklingur** og tengilið er úthlutað á fyrirtæki. [!INCLUDE[prod_short](includes/cds_long_md.md)] tengiliðaafmörkun: Tengiliðnum er úthlutað á fyrirtæki og yfirtegund viðskiptamanns er **Viðskiptamaður**. |
+| Tengiliður | Tengiliður | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] tengiliðasía: **Gerð** er **Einstaklingur** og tengilið er úthlutað á fyrirtæki. [!INCLUDE[prod_short](includes/cds_long_md.md)] tengiliðaafmörkun: Tengiliðnum er úthlutað á fyrirtæki og yfirviðskiptamaðurinn er **Viðskiptamaður**. |
 | Gjaldmiðill | Gjaldmiðill færslu | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
 > [!NOTE]

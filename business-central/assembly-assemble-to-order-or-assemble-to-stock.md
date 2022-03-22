@@ -1,20 +1,21 @@
 ---
 title: Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
 description: Samsetningarvörur er hægt að veita með því að setja þær saman í pöntun eða setja þær saman í birgðir til að geyma þar til þeirra er óskað í sölupöntun.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1f90e732f71e59f37aa4e81bd87101979ef8aa0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: cc5f10097d26859805d9e03691dd1bb02e204a1e
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128950"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381565"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
 Samsetningarvörur geta verið veittar í eftirfarandi tvo ferla:  
@@ -69,7 +70,7 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
  Dæmi um það hvers vegna breyta ætti magni til að setja saman, er að notandi vill bóka afhendingu að hluta á birgðamagni áður en samsetningarfrálagið er afhent.  
 
- Eftirfarandi töflur útskýra reglur sem skilgreina lágmarks-og hámarksgildin sem hægt er að færa inn í **magnið sem á að setja saman** til að víkja af sjálfgefnu gildi í samsettri atburðarás. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
+ Eftirfarandi töflur útskýra reglurnar sem skilgreina lágmarks- og hámarksgildin sem hægt er að færa inn í reitinn **Magn til samsetningar** til að víkja frá sjálfgildinu í samsettum aðstæðum. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
 
 - Sölupantanalína
 
@@ -85,7 +86,7 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
     |**Upphafsgildi**| 7           | 7                | 0                             | 7                    |
     |**Breyta**      |              | 4 (sett inn sjálfgefið)|                         |                      |
 
-Samkvæmt þessu dæmi er aðeins hægt að breyta **magninu til að setja saman** svæði sem hér segir:  
+Á grundvelli þessa dæmis er aðeins hægt að breyta **reitnum Magn til samsetningar á** eftirfarandi hátt:  
 
 - Lágmarksmagn sem hægt er að færa inn er 1. Það er vegna þess að það verður í það minnsta að setja saman eina einingu svo hægt sé að selja fjórar einingar, að því gefnu að þær þrjár sem eftir standa séu tiltækar sem birgðir.  
 - Hámarksmagn sem hægt er að færa inn er 4. Þetta er til að tryggja það að ekki sé meira af þessari Samsetning til pöntunar vöru framleitt en það sem vantar fyrir söluna.  

@@ -1,5 +1,5 @@
 ---
-title: Undirbúðu þig fyrir að gera viðskipti
+title: Vertu klár í rekstur fyrirtækja
 description: Útskýrir uppsetningarleiðbeiningar með aðstoð, myndbönd, hjálparefni og síður og síður sem skal nota til undirbúnings fyrir viðskipti í Business Central.
 author: edupont04
 ms.topic: conceptual
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: be2e72edcbe41737dabbc703a322281dbddc310d
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335032"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367151"
 ---
-# <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
+# <a name="get-ready-for-doing-business"></a>Vertu klár í rekstur fyrirtækja
 
 Til hamingju, þú ert búinn að setja upp þitt fyrsta fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)].
 

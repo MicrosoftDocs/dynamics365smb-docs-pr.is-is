@@ -1,7 +1,7 @@
 ---
 title: Vörpun á töflum og reitum fyrir samstillingu | Microsoft docs
 description: Kynntu þér hvernig á að varpa töflum og reitum til að samstilla gögn milli Business Central og Microsoft Dataverse.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 844b053a307d88bd93d945a7927726fd28518000
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147139"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383138"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Vörpun á töflum og reitum fyrir samstillingu
 

@@ -1,7 +1,7 @@
 ---
-title: Setja upp greiðslumáta (inniheldur myndefni)
+title: Setja upp greiðslumáta (inniheldur myndskeið)
 description: Greiðsluhættir eru notaðir, til dæmis ávísun, bankamillifærsla, reiðufé eða PayPal, til að tilgreina hvernig sölu- og innkaupareikningar verða greiddir.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d911a3a0afc01a55d24ae570383f7dfa035d736f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: d3748e39dc75a8fb3fcda690d02f5bc1cb4484ce
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135342"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383190"
 ---
 # <a name="set-up-payment-methods"></a>Setja upp greiðsluhætti
 

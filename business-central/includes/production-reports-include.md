@@ -1,14 +1,14 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 0bfe45574f3f209ac5ee310546cd2ef0998ab417
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
+ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334540"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372022"
 ---
 Eftirfarandi tafla lýsir sumum helstu skýrslunum í framleiðslu.
 
@@ -22,6 +22,7 @@ Eftirfarandi tafla lýsir sumum helstu skýrslunum í framleiðslu.
 | [Samanburðarlisti vara UPPSKRIFTAR](https://businesscentral.dynamics.com?report=99000758)|Með skýrslunni fæst möguleiki á að bera saman svipaðar endanlegar vörur varðandi kostnað. Þá sérðu skráningu með öllum þáttum og kostnaði sem og nauðsynlegu magni. Útreikningardagsetningin er stillt á vinnudagsetninguna. |99000758|
 | [Talnagögn framleiðslupöntunar](https://businesscentral.dynamics.com?report=99000791)|Tilgreinir ýmsan uppsafnaðan kostnað valinnar framleiðslupöntunar.<br>Innihald skýrslunnar er mjög svipað síðunni **Upplýsingar um framl.pöntun**.<br>Fyrir framleiðslupantanir sem nota framleiðslustefnuna *Eftir pöntun* sýnir glugginn aðeins efnis- og afkastakostnað vara á efsta uppskriftarstigi.|99000791|
 | [Verkefnalisti afkastagetu](https://businesscentral.dynamics.com?report=99000780)|Sýnir framleiðslupantanirnar sem bíða vinnslu á vinnustöðvum og vélastöðvum. Útprent eru gerð yfir afkastagetu vinnu- eða vélastöðvarinnar). Í skýrslunni eru birtar upplýsingar eins og upphafs- og lokatími, dagsetning fyrir hverja framleiðslupöntun og ílagsmagn.|99000780|
-| [Álag á vinnustöð](https://businesscentral.dynamics.com?report=99000783)|Báðar skýrslur birta lista yfir álagið á vélastöð. Álagið á vinnu/vélastöð er samtalan af þeim fjölda stunda sem þarf vegna allra áætlaðra og raunverulegra pantana sem eru keyrðar í vinnustöðinni á tilteknu tímabili.|99000783|
-| [Álag á vélarstöð](https://businesscentral.dynamics.com?report=99000784)|Báðar skýrslur birta lista yfir álagið á vélastöð. Álagið á vinnu/vélastöð er samtalan af þeim fjölda stunda sem þarf vegna allra áætlaðra og raunverulegra pantana sem eru keyrðar í vinnustöðinni á tilteknu tímabili.|99000784|
+| [Álag á vinnustöð](https://businesscentral.dynamics.com?report=99000783)|Sýnir lista fyrir álagið á vinnustöð. Álagið á vinnustöð er Samtala nauðsynlegs fjölda skipta sem allar áætlaðar og raunverulegar pantanir eru keyrðar í vinnustöðunum á tilteknu tímabili.|99000783|
+| [Álag á vélarstöð](https://businesscentral.dynamics.com?report=99000784)|Sýnir lista fyrir álagið á vélarstöð. Álagið á vélarstöð er Samtala nauðsynlegs fjölda skipta sem allar áætlaðar og raunverulegar pantanir eru keyrðar í vinnustöðunum á tilteknu tímabili.|99000784|
 | [Listi yfir skammir Pöntunarskorts framl.](https://businesscentral.dynamics.com?report=99000788)|Skýrsluna má nota til að sjá alla íhluti sem ekki eru tiltækir vegna birgða sem vantar. Þannig er hægt að nota þetta yfirlit til að sjá tímanlega hvort tímalínan fyrir áætlaða eða útgefna framleiðslupöntun mun standast.|99000788|
+|[Framl. pöntun-útreikningur](https://businesscentral.dynamics.com?report=99000767)|Sýnir lista framleiðslupantana og kostnað þeirra. Í því felst væntanlegur vinnslukostnaður, væntanlegur kostnaður íhluta og Heildarkostnaður.|99000767|

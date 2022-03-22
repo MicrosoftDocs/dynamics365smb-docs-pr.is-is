@@ -1,7 +1,7 @@
 ---
 title: Efni í vinnslu
 description: Stundum eru gerðar breytingar á eiginleika sem gerir myndbandið villandi, þannig að við tökum myndbandið úr umferð meðan á uppfærslu efnis stendur.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: a36fe2932d7be2fae0185ee4e9106613e58de469
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 03886b96dc3118efd2048a5e0f6fa6a24492efd0
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133175"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384125"
 ---
 # <a name="sorry-this-content-is-under-construction"></a>Því miður er þetta efni í vinnslu
 

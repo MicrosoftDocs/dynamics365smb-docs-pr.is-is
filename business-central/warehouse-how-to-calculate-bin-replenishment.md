@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að Reikna út áfyllingu hólfs | Microsoft Docs
+title: Reikna út áfyllingu hólfs
 description: Þegar birgðageymslan er sett upp þannig að hún noti beinan frágang og tínslu er forgangsröðun frágangssniðmátsins tekið með í reikninginn þegar verið er að ganga frá móttökum.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e76b8906eb0ad494794b2bf474e0c635e9d95c80
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 8954eaacd2a78d8c1ef0c8a65f63c571e045d950
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134593"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381011"
 ---
 # <a name="calculate-bin-replenishment"></a>Reikna út áfyllingu hólfs
 Þegar birgðageymslan er sett upp þannig að hún noti beinan frágang og tínslu er forgangsröðun frágangssniðmátsins tekið með í reikninginn þegar verið er að ganga frá móttökum. Á meðal forgangsatriða eru fast lágmarks- og hámarksmagn tiltekins hólfs og hólfaflokkanir. Því fyllist á mest notuðu hólfin eftir því sem þau tæmast ef vörur berast jafnt og þétt.  
@@ -48,9 +49,9 @@ Næst þegar áfylling hólfa er reiknuð verða tillögurnar sem eytt er stofna
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Tínsla eftir FEFO](warehouse-picking-by-fefo.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
-[Samsetningardeild](assembly-assemble-items.md)    
-[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
+[Uppsetning vöruhúsakerfis](warehouse-setup-warehouse.md) 
+[Samsetningarstjórnun](assembly-assemble-items.md)
+[Hönnunarupplýsingar: Vöruhúsakerfi](design-details-warehouse-management.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

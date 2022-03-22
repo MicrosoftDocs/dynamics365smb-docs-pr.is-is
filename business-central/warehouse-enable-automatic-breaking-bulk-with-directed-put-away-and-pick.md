@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5703, 7352
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 82b0625cf36b0c304a28c1196aa76289d5711c15
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: f16fb21773a519edc77fca615d679e106b397af8
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144464"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382768"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Virkja sjálfvirk einingaskipti með beinum frágangi og tínslu
 Í birgðageymslum sem nota beinan frágang og tínslu er hægt að skipta einingum sjálfkrafa í [!INCLUDE[prod_short](includes/prod_short.md)], það er, skipta stærri mælieiningum í smærri þegar stofnaðar eru vöruhúsaleiðbeiningar sem uppfylla þarfir upprunaskjala, framleiðslupantana eða tínslu og frágangs innanhúss. Að skipta einingum getur stundum einnig þýtt að safna saman smærri mælieiningum, ef með þarf, til að mæta útleiðarbeiðnum með því að skipta stærri mælieiningum upprunaskjalsins eða framleiðslupöntunarinnar í smærri mælieiningar sem tiltækar eru í vöruhúsinu.   
@@ -46,9 +47,9 @@ Hægt er að skoða niðurstöðu umreikninga úr einni mælieiningu í aðra í
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
-[Samsetningardeild](assembly-assemble-items.md)    
-[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
+[Uppsetning vöruhúsakerfis](warehouse-setup-warehouse.md) 
+[Samsetningarstjórnun](assembly-assemble-items.md)
+[Hönnunarupplýsingar: Vöruhúsakerfi](design-details-warehouse-management.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

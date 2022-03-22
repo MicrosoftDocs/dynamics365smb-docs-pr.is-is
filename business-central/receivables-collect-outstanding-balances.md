@@ -1,20 +1,21 @@
 ---
 title: Innheimta útistandandi skuldir
-description: Lærðu að minna viðskiptavini á útistandandi greiðslur. Senda skal viðskiptavin yfirlit, gefa út innheimtubréf eða senda vaxtareikning.
+description: Lærðu hvernig á að minna viðskiptavini þína á útistandandi greiðslur. Senda viðskiptamannayfirlit, senda innheimtubréf eða senda vaxtareikning.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
+ms.search.form: 6, 25, 440, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: fe9dc2ed31244bbca601d90397dc813085817eb1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0974cce66734c5a25d87e87052fa82ad1e2a1c53
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144958"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366937"
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
 
@@ -110,7 +111,7 @@ Ef vaxtareikningar voru gefnir út fyrir mistök er hægt að hætta við þá �
 
 ## <a name="multiple-interest-rates"></a>Margir vextir
 
-[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Frekari upplýsingar er að finna [í setja upp marga Vaxtartaxta](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Nánari upplýsingar eru í [Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

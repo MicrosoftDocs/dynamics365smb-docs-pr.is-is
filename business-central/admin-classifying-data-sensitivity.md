@@ -1,19 +1,19 @@
 ---
 title: Flokkun á gagnatrúnaði
 description: Þú verður að tilgreina hvaða gerð af gögnum þú geymir um fólk svo að þú getir svarað beiðnum frá viðföngum gagnanna.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: 1752
 ms.date: 06/14/2021
-ms.openlocfilehash: 4ec4e6cd24c620829b35b7e3e25a27d4f127e045
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: ba629a40bee4f73c3d2a68395b138893265d7b0f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136427"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382364"
 ---
 # <a name="classifying-data-sensitivity-fields"></a>Reitir fyrir flokkun gagnatrúnaðar
 Til að flokka reiti sem innihalda viðkvæm eða persónuleg gögn getur Microsoft samstarfsaðili stillt eiginleikann ```DataClassification``` á reitum. Þetta krefst aðgangs að gagnagrunnstöflum, annaðhvort í gegnum þróunarumhverfið eða með því að keyra Windows PowerShell forskrift. Nánari upplýsingar eru í [Flokkun gagna](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  

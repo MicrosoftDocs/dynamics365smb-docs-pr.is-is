@@ -1,5 +1,5 @@
 ---
-title: Tengja sölupöntun við innkaupapöntun fyrir beina afhendingu (inniheldur myndefni) | Microsoft docs
+title: Gera beina afhendingu (inniheldur myndefni)
 description: Lýsir hvernig á að Búa til sölupöntun sem er tengd við innkaupapöntun til að virkja sendingu beint frá lánardrottni til viðskiptamanns.
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144828"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372044"
 ---
 # <a name="make-drop-shipments"></a>Beinar sendingar
 
@@ -40,12 +40,12 @@ Til að undirbúa beina sendingu, skal tilgreina í innkaupapöntuninni að send
 2. Í reitnum **Sendist til** skal velja **Heimilisfang viðskiptavinar**.
 3. Í reitnum **Viðskiptavinur** skal velja viðskiptavininn sem þú ert að selja til.
 4. Veljið aðgerðina **beinar sendingar** og veljið síðan aðgerðina **sækja sölupöntun**.
-5. Á síðunni **Sölulisti** er valin sölupöntun sem var útbúin í [Að stofna sölupöntun fyrir beina sendingu](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. **Á sölulistasíðunni** er sölupöntunin valin sem var útbúin í [til að stofna sölupöntun fyrir beina afhendingu](#to-create-a-sales-order-for-drop-shipment).
 6. Velja hnappinn **Í lagi**.
 
 Línuupplýsingar úr sölupöntun er sett í sölupöntunarlínu(r).
 
-Nú er hægt að segja lánardrottninum aðsenda vörur til viðskiptamanns, til dæmis, með því að póstleggja innkaupapöntun sem er PDF.     
+Nú er hægt að segja lánardrottninum aðsenda vörur til viðskiptamanns, til dæmis, með því að póstleggja innkaupapöntun sem er PDF. Ef seljandi lætur í té rakningarnúmer eða svipaðar upplýsingar er hægt að velja um að skrá þær upplýsingar í innkaupapöntunarlínu af gerðinni *Athugasemd*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Að stofna margar innkaupapantanir fyrir beinar sendingar
 

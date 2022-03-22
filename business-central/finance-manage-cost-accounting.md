@@ -1,20 +1,21 @@
 ---
-title: Bókhald fyrir kostnað | Microsoft Docs
-description: Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki. Til að hefjast handa við kostnaðarbókhald skal skoða eftirfarandi efnisatriði
+title: Yfirlit yfir bókhald fyrir kostnað
+description: Kostnaðarbókhald hjálpar þér að skilja kostnaðinn við rekstur fyrirtækis. Þessi grein veitir tengla á aðrar greinar með frekari upplýsingum.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 5add5fb45af8e12b86dbe72e12d0e38649b31464
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148637"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366803"
 ---
 # <a name="accounting-for-costs"></a>Bókhald fyrir kostnað
 Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki. Til að hefjast handa við kostnaðarbókhald skal skoða eftirfarandi efnisatriði  
