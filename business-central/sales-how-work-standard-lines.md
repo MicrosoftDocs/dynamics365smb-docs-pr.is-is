@@ -2,7 +2,6 @@
 title: Staðlaðar ítrekaðar sölu- og innkaupalínur
 description: Settu upp sölu- og innkaupalínur sem eru oft notaðar til að færa þær inn í sölu- og innkaupaskjöl og fylla þannig á fljótlegan hátt út í línurnar með stöðluðum upplýsingum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9704d088a92ef2a7799eaccebee0fff3fc35bcfd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 3fe6f144b8513f651293f56e10ecf3020c1d0760
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440179"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517740"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Stofna ítrekaðar sölu- og innkaupalínur
 Ef þú þarft oft að stofna innkaupa- og sölulínur með svipuðum upplýsingum, geturðu sett upp staðlaðar línur, sem þú getur svo fært inn í ítrekuð sölu- og innkaupaskjöl, til dæmis fyrir endurteknar áfyllingapantanir.  
@@ -79,7 +78,7 @@ Sölureikningar eru stofnaðir fyrir viðskiptamenn með stöðluðum sölukóð
 ## <a name="see-also"></a>Sjá einnig
 
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

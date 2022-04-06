@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/12/2021
+ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138727"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511234"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams samþætting
 
@@ -44,7 +44,7 @@ Frekari upplýsingar er að finna í [Leita að tengiliðum úr Microsoft Teams]
 
 Afrita tengil í hvaða færslu Business Central sem er og líma hann í spjall á Teams til að deila honum með samstarfsfólki. Forritið stækkar svo tengilinn í gagnvirkt spjald sem birtir upplýsingar um færsluna.
 
-[![Samþætting Teams við Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teyma samþættingu við rekstur miðsvæðis.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 Þegar á samtalinu stendur getur þú og samstarfsfólk þitt skoðað frekari upplýsingar um færsluna, breytt gögnum og gripið til aðgerða - án þess að fara úr Teams.
 
@@ -52,9 +52,9 @@ Frekari upplýsingar eru í [Deila færslum í Microsoft Teams](across-working-w
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Deila tenglum af síðum í Business Central með Teams
 
-Beint af flestum safn-og upplýsingasíðum í Aðalsafni fyrirtækja er hægt að nota **aðgerðina samnýta-teymi** úr ![!valmyndinni samnýta valmynd á síðum.](media/share-icon.png "Deilingarvalmyndin sýnd á spjaldi.") til að skrifa skilaboð, velja viðtakendur á borð við teymismeðlimi, hópa eða rásir og senda skilaboðin með tengli á síðu Business Central.
+Beint frá flestum söfnunar- og upplýsingasíðum í Business Central er hægt að nota aðgerðina **Deila með Teams** í ![Valmyndartákni deilingar á síðum.](media/share-icon.png "Deilingarvalmyndin sýnd á spjaldi.") til að skrifa skilaboð, velja viðtakendur á borð við teymismeðlimi, hópa eða rásir og senda skilaboðin með tengli á síðu Business Central.
 
-![!Valmyndinni samnýta sem birtist á spjaldi.](media/teams-share-link.png "Deilingarvalmyndin sýnd á spjaldi.")
+![Deilingarvalmynd sýnd í spjaldi.](media/teams-share-link.png "Deilingarvalmyndin sýnd á spjaldi.")
 
 Frekari upplýsingar er að finna í [Deila færslum og síðutenglum í Microsoft Teams](across-working-with-teams.md#share-link).
 
@@ -65,7 +65,7 @@ Frekari upplýsingar er að finna í [Deila færslum og síðutenglum í Microso
     Ef ekki er öruggt hvort reikningur er til staðar eða ef innskráningarupplýsingar vantar skal hafa samband við stjórnanda innan fyrirtækisins til að fá aðstoð við að hefjast handa.
 
     > [!TIP]
-    > Ef fyrirtækið er ekki með [!INCLUDE [prod_short](includes/prod_short.md)]-áskrift er hægt að skrá sig fyrir ókeypis prufuáskrift. Nánari upplýsingar er að finna í [Hafist handa með prufuútgáfu](across-preview.md#getting-started-with-a-trial).
+    > Ef fyrirtækið er ekki með [!INCLUDE [prod_short](includes/prod_short.md)]-áskrift er hægt að skrá sig fyrir ókeypis prufuáskrift. Nánari upplýsingar er að finna [í farið er í gang með prufu](across-preview.md#get-started-with-a-trial).
 
 2. Kerfisstjóri getur séð [Stjórnun Microsoft Teams Samþætting við Business Central](admin-teams-integration.md) til að fá upplýsingar um hvernig á að fá setja upp notendur til að virka með [!INCLUDE [prod_short](includes/prod_short.md)] og Teams.
 3. Setjið upp [!INCLUDE [prod_short](includes/prod_short.md)]-forrit í Teams. Skoðið [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið Microsoft Teams](across-install-app-for-teams.md).

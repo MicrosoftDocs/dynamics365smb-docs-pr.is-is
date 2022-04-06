@@ -10,12 +10,12 @@ ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.search.form: 6250
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4caf32bb0c7b4471809d8af3b899329c571d144f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bc46e165018d29684b116f7aac3745c9d533c42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381591"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517603"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Tengja og samstilla færslur milli Dataverse og Business Central
 
@@ -66,7 +66,7 @@ Hægt er að tilgreina gögnin sem á að samstilla fyrir einingu, t.d. viðskip
 Hægt er að aftengja eina eða fleiri færslur af listasíðum eða síðunni **Samstillingarvillur í tengdum gögnum** með því að velja eina eða fleiri línu og velja **Eyða tengingu**. Einnig er hægt að fjarlægja allar tengingar fyrir eina eða fleiri töfluvörpun á síðunni **Vörpun samþættingartöflu**.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md)
+[Nota Dynamics 365 Sala frá Viðskiptamiðinu](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

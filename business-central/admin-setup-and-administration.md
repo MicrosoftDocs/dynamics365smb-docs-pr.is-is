@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143869"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521177"
 ---
 # <a name="administration"></a>Stjórnun
 
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 
 |**Til að**|**Sjá**|  
 |------------|-------------|
-|Skilgreina hverjir geta skráð sig inn á með því að [!INCLUDE[prod_short](includes/prod_short.md)] stofna notendur í Microsoft 365 stjórnendamiðstöðinni samkvæmt afurðarleyfunum.|[Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)|
+|Skilgreinið hver getur skráð sig inn [!INCLUDE[prod_short](includes/prod_short.md)] með því að stofna notendur á Microsoft 365 admin Center samkvæmt vöruleyfum.|[Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)|
 |Úthluta heimildum til notendur, breyta heimildasöfnum og hópa notendur saman til að auðvelda heimildastjórnun.|[Úthluta leyfi til notenda og hópa](ui-how-users-permissions.md)|
 |Bæta við notendum, meðhöndla heimildir og aðgang að gögnum, úthluta hlutverkum.|[Vinna með forstillingar](admin-users-profiles-roles.md)|
 |Stjórna notandastillingum, t.d. fyrirtæki, hlutverk, tungumál, svæði og tímabelti.|[Notandastillingar](admin-manage-user-settings-preferences.md)|
@@ -67,7 +67,7 @@ Innri og úthlutaðir stjórnendur hafa aðgang að stjórnendamiðstöðinni [!
 
 [Viðskiptavirkni](across-business-functionality.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

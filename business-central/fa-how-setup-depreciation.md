@@ -2,17 +2,16 @@
 title: Uppsetning eignaafskrifta
 description: Ýmsar afskriftaaðferðir eru til. Í Business Central skilgreinir maður afskriftaaðferð eignar á síðunni **Eignaspjald**.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 166e0a534632b0bf67dc14a860088e6a846d6957
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: e70b14b5344acd9b59034b5847455417b8225182
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437863"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518208"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Setja upp eignaafskriftir
 
@@ -98,7 +97,7 @@ Ef þessi reitur er valinn eru afskriftir reiknaðar samkvæmt 365 daga ári, hv
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

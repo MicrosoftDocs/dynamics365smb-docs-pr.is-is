@@ -10,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17f307f76f4f34e431b8ee2239886d91bc2c26e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 366feb242578d79ece0553bc8fba570403d8cde1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140710"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520839"
 ---
 # <a name="set-up-purchasers"></a>Setja upp kaupendur
 Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp á síðu og úthluta hverjum þeirra kóða. Síðan er hægt að nota kótana til að undirbúa upplýsingar og afmarka upplýsingar í prentuðum skýrslum.<br><br>  
@@ -35,7 +35,7 @@ Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp á 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

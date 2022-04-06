@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147009"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528476"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -155,6 +155,10 @@ Sem kerfisstjóri, eru með Azure Active Directory stjórnandaheimildir, og getu
 ## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Get ekki skráð mig inn í gluggann Deila með Teams 
 
 Þetta vandamál getur komið upp af ýmsum ástæðum. Auðkenni sem þú notar til að skrá þig inn þarf að hafa aðgang að Microsoft Teams, t.d. í gegnum Microsoft 365 áskrift.
+
+## <a name="my-cards-no-longer-have-a-popout-button"></a>Kortin mín eru ekki lengur með popoff hnapp
+
+Frá og með apríl 2022, Tenglar sem birtir eru sem Compact kort í teymum munu ekki lengur innihalda **hnappinn Popout**. Til að opna það kort í eigin glugga, Veldu **hnappinn upplýsingar**, þá skaltu velja **Opna í vafra** frá sportvalmyndinni (**...**) efst í hægra horni gluggans.
 
 ## <a name="see-also"></a>Sjá einnig
 

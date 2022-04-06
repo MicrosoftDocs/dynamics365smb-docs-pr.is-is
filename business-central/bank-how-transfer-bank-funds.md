@@ -10,12 +10,12 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8716aeaa83ac9304e142af1603efef47c8044918
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 632f802678de33e7c00fa95dab38530a1364ff3b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148711"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511728"
 ---
 # <a name="transfer-bank-funds"></a>Flytja bankainnstæður
 
@@ -75,8 +75,8 @@ Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, ve
 
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

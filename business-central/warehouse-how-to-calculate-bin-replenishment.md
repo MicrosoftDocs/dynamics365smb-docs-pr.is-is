@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8954eaacd2a78d8c1ef0c8a65f63c571e045d950
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7495ddfae4a6a59caba08c0d40d97f5b9c5f0c85
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381011"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518654"
 ---
 # <a name="calculate-bin-replenishment"></a>Reikna út áfyllingu hólfs
 Þegar birgðageymslan er sett upp þannig að hún noti beinan frágang og tínslu er forgangsröðun frágangssniðmátsins tekið með í reikninginn þegar verið er að ganga frá móttökum. Á meðal forgangsatriða eru fast lágmarks- og hámarksmagn tiltekins hólfs og hólfaflokkanir. Því fyllist á mest notuðu hólfin eftir því sem þau tæmast ef vörur berast jafnt og þétt.  
@@ -49,10 +49,10 @@ Næst þegar áfylling hólfa er reiknuð verða tillögurnar sem eytt er stofna
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Tínsla eftir FEFO](warehouse-picking-by-fefo.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Uppsetning vöruhúsakerfis](warehouse-setup-warehouse.md) 
-[Samsetningarstjórnun](assembly-assemble-items.md)
-[Hönnunarupplýsingar: Vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md) 
+[samsetningarstýring](assembly-assemble-items.md)
+[hönnunar upplýsingar: vöruhúsastjórnun](design-details-warehouse-management.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

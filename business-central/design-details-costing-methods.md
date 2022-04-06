@@ -1,20 +1,20 @@
 ---
-title: Hönnunarupplýsingar - Aðferð kostn.útreiknings
+title: Kostnaðaraðferðir við hönnun lýsingar
 description: Í þessu efnisatriði er því lýst hvernig aðferð við kostnaðarútreikning hefur áhrif á það hvort raunverulegt og áætlað virði nýtist og sé notað við kostnaðarútreikning.
-author: brentholtorf
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 31, 8645
-ms.date: 06/14/2021
+ms.search.keywords: ''
+ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: c7c8106ff5e38efd35b361fcccc8ebd88602a475
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383348"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519805"
 ---
 # <a name="design-details-costing-methods"></a>Hönnunarupplýsingar: Aðferð kostn.útreiknings
 
@@ -35,7 +35,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[prod_short](includes/prod_short
 
 Á meðfylgjandi mynd sést kostnaðarflæði gegnum birgðir fyrir hverja kostnaðarmatsaðferð.  
 
- ![Kostnaðaraðferðir.](media/design_details_inventory_costing_7_costing_methods.png "Kostnaðaraðferðir")  
+![Sjónaraðferðir kostnaðarútreiknings.](media/design_details_inventory_costing_7_costing_methods.png "Sjónaraðferðir kostnaðarútreiknings")  
 
 Aðferð kostnaðarútreiknings eru mismunandi í því hvernig þeir meta birgðaminnkun og hvort þær nota raunkostnað eða staðalkostnað vörubirgðir sem grunn matsins. Eftirfarandi tafla útskýrir mismunandi einkenni. (LIFO-aðferðin er útilokuð þar sem hún er mjög svipuð FIFO-aðferðinni.)  
 
@@ -64,31 +64,17 @@ Eftirfarandi tafla sýnir birgðaaukningu og -minnkun sem dæmin eru byggð á.
 > [!NOTE]  
 > Magn í birgðaeiningum verður núll. Þar af leiðandi verður birgðavirði einnig að vera núll, hver sem aðferð kostnaðarútreiknings er.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun  
 
-- **FIFO**/**LIFO**/**Meðaltal**/**Sérstakt**  
-
-    Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem grunn fyrir verðmat (**FIFO (fyrst inn - fyrst út)**, **LIFO (síðast inn - fyrst út)**, **Meðaltal** eða **Tilgreint**), er birgðaaukning metin á kaupverði vörunnar.  
-
-    Eftirfarandi tafla sýnir hvernig birgðir sem aukast eru metnar fyrir allar kostnaðarmatsaðferðir utan **Staðlað**.  
-
-    |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01-01-20|1|10,00|1|  
-    |01-01-20|1|20,00|2|  
-    |01-01-20|1|30,00|3|  
+Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem grunn fyrir verðmat (**FIFO (fyrst inn - fyrst út)**, **LIFO (síðast inn - fyrst út)**, **Meðaltal** eða **Tilgreint**), er birgðaaukning metin á kaupverði vörunnar.  
 
 - **Staðlað**  
 
     Þegar notuð er kostnaðaraðferðin **Staðlað** er birgðaaukning metin á því staðalverði vörunnar sem er í gildi.  
 
-    Eftirfarandi tafla sýnir hvernig birgðir sem aukast eru metnar fyrir kostnaðarmatsaðferðina **Staðlað**.  
+#### <a name="standard"></a>Staðlað  
 
-    |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01-01-20|1|15,00|1|  
-    |01-01-20|1|15,00|2|  
-    |01-01-20|1|15,00|3|  
+Þegar notuð er kostnaðaraðferðin **Staðlað** er birgðaaukning metin á því staðalverði vörunnar sem er í gildi.  
 
 ### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun
 
@@ -96,9 +82,9 @@ Eftirfarandi tafla sýnir birgðaaukningu og -minnkun sem dæmin eru byggð á.
 
     Fyrir vörur sem nota aðferðina **FIFO (fyrst inn - fyrst út)** við kostnaðarútreikning eru vörurnar sem eru keyptar fyrst alltaf seldar fyrst (færsla númer 3, 2 og 1 í þessu dæmi). Í samræmi er birgðaminnkun verðmetin með því að nota virði fyrstu birgðaaukningarinnar.  
 
-    Kostnaður seldra vara er reiknuð með virði fyrstu birgðakaupa.  
+     Kostnaður seldra vara er reiknuð með virði fyrstu birgðakaupa.  
 
-    Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **FIFO (fyrst inn - fyrst út)**.  
+     Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **FIFO (fyrst inn - fyrst út)**.  
 
     |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
     |------------------|--------------|----------------------------|---------------|  
@@ -110,12 +96,12 @@ Eftirfarandi tafla sýnir birgðaaukningu og -minnkun sem dæmin eru byggð á.
 
     Fyrir vörur sem nota aðferðina **LIFO (síðast inn - fyrst út)** við kostnaðarútreikning eru vörurnar sem eru keyptar síðast alltaf seldar fyrst (færsla númer 3, 2 og 1 í þessu dæmi). Í samræmi er birgðaminnkun verðmetin með því að nota virði síðustu birgðaaukningarinnar.  
 
-    Kostnaður seldra vara er reiknuð með virði síðustu birgðakaupa.  
+     Kostnaður seldra vara er reiknuð með virði síðustu birgðakaupa.  
 
-    Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **LIFO (fyrst inn - fyrst út)**.  
+     Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **LIFO (fyrst inn - fyrst út)**.  
 
     |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
-    |------------------|--------------|----------------------------|---------------|  
+    |------------|--------|--------------------|---------|  
     |02-01-20|-1|-30,00|4|  
     |03-01-20|-1|-20,00|5|  
     |04-01-20|-1|-10,00|6|  
@@ -124,13 +110,13 @@ Eftirfarandi tafla sýnir birgðaaukningu og -minnkun sem dæmin eru byggð á.
 
     Aðferð við útreikning meðalkostnaðari **Meðaltal** metur birgðaminnkun með því að reikna út vegið meðaltal eftirstandandi birgða á síðasta degi meðalkostnaðartímabils þar sem birgðaminnkun var bókuð. Nánari upplýsingar eru í [Upplýsingar um hönnun: Meðalkostnaður](design-details-average-cost.md).  
 
-    Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **Meðaltal**.  
+     Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **Meðaltal**.  
 
-    |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |02-01-20|-1|-20,00|4|  
-    |03-01-20|-1|-20,00|5|  
-    |04-01-20|-1|-20,00|6|  
+    | Bókunardags. | Magn | Kostnaðarupphæð (raunverul.) | Færslunr. |
+    |--|--|--|--|
+    | 02-01-20 | -1 | -20,00 | 4 |
+    | 03-01-20 | -1 | -20,00 | 5 |
+    | 04-01-20 | -1 | -20,00 | 6 |
 
 - **Staðlað**  
 
@@ -160,13 +146,13 @@ Eftirfarandi tafla sýnir birgðaaukningu og -minnkun sem dæmin eru byggð á.
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
-[Hönnunarupplýsingar Frávik](design-details-variance.md)   
-[Hönnunarupplýsingar: Meðalkostnaður](design-details-average-cost.md)   
-[Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
-[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
-[Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
+ [Hönnunarupplýsingar Frávik](design-details-variance.md)   
+ [Hönnunarupplýsingar: Meðalkostnaður](design-details-average-cost.md)   
+ [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
+ [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
+ [Fjármál](finance.md)  
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

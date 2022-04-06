@@ -1,5 +1,5 @@
 ---
-title: Flytja vörur á milli vöruhúsastaða
+title: Flytja vörur milli birgðageymslna vöruhúss
 description: Lýsir hvernig á að flytja birgðir frá einum stað eða vörugeymslu til annars, annaðhvort með endurflokkunarfærslubók eða með flutningsfyrirmæli.
 author: SorenGP
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b51bd44099c85ae16498e2f40abc86db7134cb1b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 347550073fc4efad89c41f180c3a48747b91d7a7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148499"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511624"
 ---
 # <a name="transfer-inventory-between-locations"></a>Flytja birgðir milli birgðageymslna
 Það er hægt að flytja birgðavörur milli tveggja staða með því að búa til flutningspantanir. Einnig er hægt að nota vöruendurflokkunarbók.
@@ -63,7 +63,7 @@ Staðsetning og flutningsleiðir þurfa að vera uppsett til að flytja vörur. 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Uppsetning birgðageymsla](inventory-how-setup-locations.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 

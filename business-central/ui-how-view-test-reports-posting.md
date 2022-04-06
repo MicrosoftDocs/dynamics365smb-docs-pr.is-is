@@ -1,22 +1,20 @@
 ---
-title: Endurskoða prófunarskýrslu áður sölu- eða innkaupaskjal er bókað | Microsoft Docs
+title: Skoða prófunarskýrslu áður en sölu-eða innkaupaskjal er bókað
 description: Áður en þú bókar skjal, til dæmis pöntun eða kreditreikning, geturðu prófað og endurskoðað það til að leita að villum sem gætu hindrað bókun.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 16da8facc119a9cacf86b0603baef24bf819558a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445424"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522459"
 ---
 # <a name="view-test-reports-before-posting"></a>Skoða prufuskýrslur fyrir bókun
 Þegar á að bóka skjal, t.d. pöntun, reikning eða kreditreikning, er hægt að prófa skjalið til að tryggja að engin vandamál sem geta stöðvað bókunina séu til staðar.
@@ -33,7 +31,7 @@ Allir hlutar innkaupareikningsins eru prófaðir og niðurstöðurnar birtar í 
 
 ## <a name="see-also"></a>Sjá einnig
 [Bókun skjala og færslubóka](ui-post-documents-journals.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

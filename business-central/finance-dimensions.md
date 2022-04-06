@@ -10,15 +10,14 @@ ms.search.keywords: analysis, history, track, business intelligence
 ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 494a79283ba7917666e708d9b07acf9523ef15b8
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: e5579df4d63a4f800118ca320d60a984f203022b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366731"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517577"
 ---
-# <a name="working-with-dimensions"></a>Unnið með víddir
-
+# <a name="work-with-dimensions"></a>Vinna með víddir
 Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær í skjölum, t.d. sölupöntunum. Víddir geta til dæmis gefið í skyn verkið eða deildina sem færsla koma frá.  
 
 Til dæmis, í stað þess að setja upp sérstaka aðalbókarreikninga fyrir hverja deild og verkefni, getur þú notað víddir sem grundvöll fyrir greiningu og forðast að þurfa að stofna flókna bókhaldslykla. Frekari upplýsingar eru í [Viðskiptaupplýsingar](bi.md).
@@ -202,8 +201,7 @@ Síðan **Sjálfgefnar víddir-á margar línur** inniheldur eftirfarandi reiti:
 |**Gildiskóti víddar**|Sýnir annað hvort eitt víddargildi eða hugtakið (Misræmi). Ef víddargildi er í reitnum hafa allir upplýstir reitir sama sjálfgefna víddargildið í vídd. Ef hugtakið (Misræmi) er í reitnum hafa allir upplýstir reitir ekki sama sjálfgefna víddargildið í vídd. Ef smellt er reitinn er hægt að skoða lista yfir öll tiltæk víddargildi í vídd. Ef valið er víddargildi eru víddargildin sem eru valin skilgreind sem sjálfgefin víddargildi fyrir alla auðkennda reikninga.|
 |**Virðisbókun**|Sýnir annað hvort ein virðisbókunarregla eða hugtakið (Misræmi). Ef virðisbókunarregla er í reitnum hafa allir auðkenndir reitir sömu sjálfgefnu virðisbókunarregluna í víddargildi. Ef hugtakið (Misræmi) er í reitnum hafa allir auðkenndir reitir ekki sömu sjálfgefnu virðisbókunarregluna í víddargildi. Ef reiturinn Virðisbókun er valinn er hægt að skoða lista yfir virðisbókunarreglur. Ef valin er virðisbókunarregla er hún notuð fyrir alla auðkennda reikninga.|
 
-## <a name="using-dimensions"></a>Notkun vídda
-
+## <a name="use-dimensions"></a>Nota víddir
 Í skjalinu eins og sölupöntun, er hægt að bæta við víddaupplýsingum fyrir bæði einstaka fylgiskjalslínu og skjalið sjálft. Til dæmis, í **Sölupöntun** síðunni getur þú slegið inn víddarmörk fyrir fyrstu tvær flýtivísanirnar á einstökum sölulínum og þú getur bætt við stærri víddarupplýsingum ef þú velur hnappinn **Víddir**.  
 
 Ef þú vinnur í dagbók í staðinn geturðu bætt við víddargögn við færslu á sama hátt ef þú hefur sett upp flýtileiðarmörk sem reitir beint á blaðalínum.  
@@ -231,7 +229,7 @@ Altækar\-víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sj
 [Viðskiptaupplýsingar](bi.md)  
 [Fjármál](finance.md)  
 [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

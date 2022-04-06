@@ -2,7 +2,6 @@
 title: Setja upp grunndagatöl
 description: Hægt er að úthluta fyrirtækinu og viðskiptafélögum grunndagatali til að reikna út afhendinga- og móttökudagsetningar samkvæmt þeim vinnudögum sem tilgreindir eru.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: 0c6be4bc0c602363e4ae54cc27663d1eaa4091e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011837"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511837"
 ---
 # <a name="set-up-base-calendars"></a>Setja upp grunndagatöl
 
@@ -119,7 +118,7 @@ Grunndagatöl eru tengd fyrirtæki notanda, viðskiptamönnum, lánardrottnum, b
 [Innkaup](purchasing-manage-purchasing.md)  
 [Framleiðsla](production-manage-manufacturing.md)    
 [Birgðir](inventory-manage-inventory.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

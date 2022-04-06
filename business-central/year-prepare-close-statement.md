@@ -2,7 +2,6 @@
 title: Yfirlit yfir skýrslur til að aðstoða undirbúning lokayfirlits | Microsoft Docs
 description: Færir þér yfirlit yfir skýrslurnar svo þú getir safnað saman upplýsingum til að undirbúa lokayfirlit fyrirtækisins þegar fjárhagsárinu er lokað.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: c1ba1ecc8716586e661b8553f12319a87b4cb85c
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: d10ae12501feba348794c3deaa3ca66e221553b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011520"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521417"
 ---
 # <a name="preparing-closing-statements"></a>Undirbúningur lokunaryfirlits
 Til eru margar staðlaðar skýrslur sem má nota til að safna saman upplýsingum sem eru nauðsynlegar til að búa til lokayfirlit fyrirtækisins.
@@ -36,7 +35,7 @@ Til að sjá skýrslu skal velja ![Ljósapera sem opnar eiginleika Viðmótsleit
 
 ## <a name="see-also"></a>Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Viðskiptaupplýsingar](bi.md)
 
 

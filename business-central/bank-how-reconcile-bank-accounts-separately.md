@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.search.form: 379, 388, 389, 1290, 10124
+ms.search.form: 379, 388, 389, 1290, 1692, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ebc2680aea583410a0f1bab8f4ff1d35989eb36
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
+ms.openlocfilehash: e74df84ac5119e87aecd6a15e270dfd50fb1b117
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381089"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514492"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemma bankareikninga
 
@@ -124,7 +124,7 @@ Stundum geta verið vextir eða kostnaður á bankayfirlitinu. Slíkar bankayfir
 2. Á síðunni **Flytja bankaafstemmingu í almenna færslubók** skal tilgreina hvaða almenn færslubók skal nota, og veldu svo **OK** hnappinn.
 
     Síðan **almenn færslubók** opnast og inniheldur nýjar færslubókarlínur fyrir allar bankayfirlitslínur með fjárhagsfærslur sem vantar.
-3. Kláraðu færslubókarlína með viðeigandi upplýsingar, eins og mótreikningur. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
+3. Kláraðu færslubókarlína með viðeigandi upplýsingar, eins og mótreikningur. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 4. Til að yfirfara niðurstöður bókunar áður en þú bókar skaltu velja aðgerina **Prófunarskýrsla**. Skýrslan **Bankareikningsyfirlit** opnast og sýnir sömu reitina og í hausnum á síðunni **Afstemming bankareiknings**.
 5. Valið er **Bóka** aðgerðin.
 
@@ -174,7 +174,7 @@ Ef næst er gerð bankaafstemming fyrir ágúst skal íhuga að breyta gildunum 
 [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

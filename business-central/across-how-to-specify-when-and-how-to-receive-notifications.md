@@ -2,7 +2,6 @@
 title: Tilgreina hvenær og hvernig eigi að taka á móti Verkflæðistilkynningum
 description: Þegar notendur eru settir upp í samþykktarverkflæði er hægt að tilgreina hvernig og hvenær hver samþykktarnotandi fær tilkynningar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6812fa270066b03fa64a7d8c664ef4df8d28eff0
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
-ms.translationtype: HT
+ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102500"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522353"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Tilgreina hvenær og hvernig eigi að taka á móti Verkflæðistilkynningum
 Þegar samþykktarnotendur eru settir upp í verkflæði þar sem óskað er eftir að samþykkja breytingar, eins og þegar nýjar færslur eru stofnaðar eða þegar einhver biður um samþykki, verður að tilgreina hvernig og hvenær notandinn lætur vita. Til dæmis er hægt að tilgreina að samþykkinotandi fái tafarlaust tölvupóst þegar einhver stofnar nýjan viðskiptavin. Einnig er hægt að raða tilkynningum til að afhenda, t.d. vikulega eða mánaðarlega.

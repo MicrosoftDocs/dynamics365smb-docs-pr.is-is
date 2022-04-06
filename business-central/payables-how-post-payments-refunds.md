@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.search.form: 256, 233, 624, 1228
 ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: fa43027481ba7b9eb970182eb62b5e2aa728fb06
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 8b64ed6fc1342ec5f274b28f5a670bc329555e44
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367256"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520943"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Skrá greiðslur og endurgreiðslur í greiðslubókina
 
@@ -69,9 +69,9 @@ Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)  
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
 [Sérstilling verksvæðis](ui-personalization-user.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Hvernig á að stofna sérpantanir
 description: Kynntu þér hvernig á að stofna sérpöntun til að tiltekið vörulistaatriði sé sent tilteknum viðskiptamanni.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 80c26420a4a8e90a2a2b076169f6af505343ad76
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: d263be575b6f4102c25ff1b7fe2aa288058cbd22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440254"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518914"
 ---
 # <a name="create-special-orders"></a>Sérstakar pantanir stofnaðar
 Hægt er að stofna sérpöntun til að tiltekið vörulistaatriði sé sent tilteknum viðskiptamanni. Birgir sendir vöruna í vöruhús og þá má senda hana áfram til viðskiptamanns, annaðhvort sérstaklega eða með annarri pöntun.  
@@ -48,7 +47,7 @@ Tekið er tillit til stofnaðrar innkaupapöntunar fyrir sérpöntun af kerfinu 
 [Sala](sales-manage-sales.md)  
 [Beinar sendingar](sales-how-drop-shipment.md)   
 [Hönnunarupplýsingar: Endurpöntunarstefnur](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

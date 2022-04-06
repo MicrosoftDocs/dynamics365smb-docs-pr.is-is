@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 95ed69baac51d4c343c639e8ddcea2db29520340
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: a862cb514145d50d1a86816bbd3758055b41a872
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334659"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512733"
 ---
 # <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 Þú getur sérstillt vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
@@ -143,7 +143,7 @@ Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 

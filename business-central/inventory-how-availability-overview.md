@@ -3,7 +3,6 @@ title: Fá yfirlit yfir tiltækileika
 description: Hægt er að fá upplýsingar um tiltækar vörur milli birgðageymslna fyrir hverja sölu eða innkaupa atburðir eftir tímabili og fleiru.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: stock
 ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 01efc9191cad10414c344b4fe3a28ae2cef63ef9
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: d87f18b6af045e371cefe88ed35f62bc028fab2f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060117"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514986"
 ---
 # <a name="view-the-availability-of-items"></a>Skoða tiltækileika vöru
 Þegar um er að ræða viðskiptatengd verkefni er hægt að fá ítarlegar upplýsingar um hvenær og hvar vara er fáanleg, til dæmis þegar verið er að ræða við viðskiptavin um afhendingardag.
@@ -128,7 +127,7 @@ Ef einn eða fleiri samsetningaríhlutir eru ekki tiltækir endurspeglast það 
 [Uppsetning birgðageymsla](inventory-how-setup-locations.md)  
 [Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)  
 [Selja vörur](sales-how-sell-products.md)      
-[Unnið með Business Central](ui-work-product.md)  
+[Vinna með Viðskiptaseðla-](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 

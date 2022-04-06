@@ -4,7 +4,6 @@ description: Hægt er að setja forritið upp til að skrá sjálfkrafa samskipt
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 0d6365bda6f8d027f01cc9cfa381463fa925ad91
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 768cb420274450d38000fd6ffe8073c0c842f75a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437292"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519018"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Skrá sjálfvirkt samskipti við tengiliði
 Hægt er að setja forritið upp til að skrá sjálfkrafa samskipti vegna sölu, innkaupa- og þjónustuskjöl, forsíður, tölvupóst og símtöl, eins og:
@@ -33,7 +32,7 @@ Til að opna síðuna **Uppsetning samskiptasniðmáts** skal velja ![Ljósaperu
 
 ## <a name="see-also"></a>Sjá einnig
 [Skrá samskipti við tengiliði](marketing-interactions.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

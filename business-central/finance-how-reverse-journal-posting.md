@@ -10,12 +10,12 @@ ms.search.keywords: reimbursement
 ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2a9689db234280c2bcca5e32ade2a82488c15de5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8757ba52142990449d5d60273a73bdc146ffb240
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147727"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517499"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Bakfæra bókun Færslubókar og afturkalla kvittanir/sendingar
 
@@ -82,9 +82,9 @@ Eftirfarandi lýsir því hvernig á að afturkalla bókaða skilasendingu á v�
 
 [Afturkalla samsetningarbókun](assembly-how-to-undo-assembly-posting.md)  
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)  
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

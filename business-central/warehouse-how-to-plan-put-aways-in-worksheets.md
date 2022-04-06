@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b7bd6481c6347cfb9c8d02ba58f38101802a6caa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 109ebfef1650c365cb383aac56cf51ab9ee8231b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131120"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518548"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Áætla frágang á vinnublöðum
 Ef birgðageymslan krefst bæði frágangs- og móttökuvinnslu og áætla á frágangsleiðbeiningar fyrir margar móttökur, í stað þess að fara eftir leiðbeiningum sem forritið stofnar fyrir einstakar bókaðar móttökur, er hægt að nota frágangsvinnublaðið.  
@@ -67,7 +67,7 @@ Ef gátmerki er ekki sett í þennan reit eru stofnar forritið frágangsleiðbe
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

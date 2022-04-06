@@ -2,7 +2,6 @@
 title: Nota viðbót fyrir sölu- og birgðaforspá til að stjórna birðgum | Microsoft Docs
 description: Þessi viðbót aðstoðar þig við að spá fyrir um sölu, að fá skýrara yfirlit yfir líkur á birgðaskorti og jafnvel að fá aðstoð við að stofna áfyllingarbeiðnir til lánardrottna.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: 615212ee648993136aaa75c7cb1ab798615899ab
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
+ms.openlocfilehash: 6ee943f918ce1c4932a60daa60e45339ef1c368d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940152"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515278"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Spá um sölu og birgðir viðbótina
 Birgðastjórnun er málamiðlun á milli notendaþjónustu og stjónun kostnaðar. Ein hliðin er sú að lágar birgðir krefjast minna veltufés, en, á hinn bóginn getur birgðaskortur hugsanlega leitt til tapaðrar sölu. Viðbótin fyrir sölu- og birgðaspá sér fyrir hugsanlegar sölur með því að nota söguleg gögn og veitir skýrt yfirlit yfir viðbúinn birgðaskort. Samkvæmt spá, aðstoðar viðbótin að stofna áfyllingarbeiðnir til lánardrottna þinna og sparar þér tíma.  
@@ -26,7 +25,7 @@ Birgðastjórnun er málamiðlun á milli notendaþjónustu og stjónun kostnað
 > [!TIP]  
 >   Íhugaðu lengd tímabila sem þjónustan er notaður í útreikningum hennar. Frekari gögn sem veita verður því nákvæmari á predictions. Líka watch út fyrir mikið frávik í tímabil. Þeir eru einnig hefur predictions. Ef Azure AI finnur ekki næg gögn eða gögnin breytast við lotu mun þjónustan ekki framkvæma forspá.
 
-## <a name="using-the-forecasts"></a>Notkun spáa
+## <a name="use-the-forecasts"></a>Nota spár
 Þessi viðbót notar Azure AI til að spá fyrir um framtíðarsölu byggt á söluferli þínum til að hjálpa þér að komast hjá birgðaskorti. Til dæmis þegar valið er vöru á síðunni **Vörur** , í sýnir grafið á **vöruspá** svæðinu áætlaða sölu vörunnar á komandi tímabili. Þannig má sjá ef líklegt er að varan klárist fljótlega hjá þér.  
 
 Einnig má nota viðbótina til að leggja til þegar þarf að fylla á birgðir. T.d. ef þú stofnar innkaupapöntun Fabrikam af því þú vilt kaupa nýja skrifstofustólinn þeirra, mun sölu- og birgðaspárviðbótin leggja til að þú bætir einnig á birgðir LONDON-snúningsstólsins sem þú kaupir yfirleitt frá þessum lánardrottni. Það er vegna þess viðbótin spáir að þú munir klára úr birgðum þennan London-snúningsstól á næstu tveimur mánuðum, svo þú gætir viljað panta fleiri stóla nú þegar.  
@@ -57,7 +56,7 @@ Til að spá fyrir um sölu í framtíðinni þarf vefþjónustan magnbundin gö
 6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu- og birgðaspár** og velja síðan viðkomandi tengil.  
 7. Stækkaðu flýtiflipann **Almennt** og fylltu síðan út reiti fyrir API-vefslóð og API-lykil.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
 
 
 ## <a name="see-also"></a>Sjá einnig

@@ -10,12 +10,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0f6594ae1e23f4047ff2bd8e44945eaf4284940c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 538efe22006246cd4e5d78efb7e9678166688274
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142290"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523450"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -104,10 +104,10 @@ Ef á að veita aðgang að mörgum fyrirtækjum þarf að skrá sig inn í hver
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Lokaár og Tímabil](year-close-years-periods.md)  
-[Unnið með víddir](finance-dimensions.md)  
+[Vinna með víddir](finance-dimensions.md)  
 [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)  
 [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md)  
 
 

@@ -10,12 +10,12 @@ ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f8d97f10904664dc68bec6ccb85823a765a58aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1051b36f70eeb5d86aef04e7faf200660117232d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137888"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516162"
 ---
 # <a name="work-with-catalog-items"></a>Vinna með vörulistaatriði
 Þú getur boðið ákveðnar vörur til viðskiptamanna þinna til þæginda, sem þú vilt ekki stjórna í kerfinu þínu fyrr en þú byrjar að selja þær. Þegar þú vilt byrja að stjórna slíkum vörum í kerfinu þínu, getur þú breytt þeim í venjuleg birgðaspjöld á tvo vegu.
@@ -71,7 +71,7 @@ Hægt er síðan að fylla inn í eða breyta reitum á nýja birgðaspjaldinu e
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)|  
 [Birgðir](inventory-manage-inventory.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

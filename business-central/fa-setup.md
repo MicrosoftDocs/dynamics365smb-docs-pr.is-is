@@ -2,7 +2,6 @@
 title: Setja upp eignir
 description: Kynntu þér röð verkhluta sem þú þarft að framkvæma til að setja upp eignir, eins og t.d. þá sem tengjast vélum eða byggingum.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 874c1c18611f0aa165a8537642324334e8e0798a
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: 17e478464d49424d2eb929a297033605c91c25ba
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029537"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516344"
 ---
 # <a name="setting-up-fixed-assets"></a>Uppsetning eigna
 Áður en þú getur unnið með eignir þarftu að skilgreina nokkur atriði:  
@@ -47,7 +46,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

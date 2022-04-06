@@ -1,5 +1,5 @@
 ---
-title: Uppsetning birgðahaldseininga
+title: Hvernig setja á birgðahaldseiningar upp
 description: Hægt er að nota birgðaeiningar til að skrá upplýsingar um vörur fyrir tiltekna birgðageymslu eða tiltekinn afbrigðiskóta.
 author: SorenGP
 ms.topic: conceptual
@@ -10,15 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92be2a9cf0a3ef176d4f3fe1c51ec5543c30bca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 320a5315f569deeec8c86ce8246497f171fbb853
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131536"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517395"
 ---
 # <a name="set-up-stockkeeping-units"></a>Setja upp birgðahaldseiningar
-Hægt er að nota birgðahaldseiningar til að skrá upplýsingar um vörur fyrir tiltekna birgðageymslu eða afbrigðiskóta.  
+Hægt er að nota birgðaeiningar til að skrá upplýsingar um vörur fyrir tiltekna birgðageymslu eða afbrigðiskóta.  
 
 Birgðahaldseiningar eru viðbót við birgðaspjöldin. Þær koma ekki í staðinn fyrir þau þótt tengsl séu á milli þeirra. Með notkun birgðaeininga er hægt að aðgreina upplýsingar um vöru fyrir tilteknar birgðageymslur (svo sem vöruhús eða dreifingarmiðstöð) eða tiltekin afbrigði (svo sem mismunandi hillunúmer og mismunandi áfyllingarupplýsingar) fyrir sömu vöruna.  
 
@@ -46,7 +46,7 @@ Ef búa á til nokkrar birgðaeiningar fyrir vöru er keyrslan **Stofna birgðah
 [Birgðir](inventory-manage-inventory.md)  
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

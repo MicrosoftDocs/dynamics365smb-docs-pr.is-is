@@ -2,7 +2,6 @@
 title: Reikningsári og bókhaldstímabilum lokað
 description: Útskýrir verkhlutana sem felast í því að loka fjárhagsári og fjárhagstímabili, til dæmis að ganga úr skugga um að skjöl og færslubækur séu bókuð og staðfesta bankareikningsstöðu.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3faa427363d2d30ce387bbfe911f320064d3276a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 019dce4811470ef4c0d75ee3f69732e7f9af27f1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971785"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519389"
 ---
 # <a name="closing-years-and-periods"></a>Loka árum og tímabilum
 
@@ -41,7 +40,7 @@ Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir 
 ## <a name="see-also"></a>Sjá einnig
 
 [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

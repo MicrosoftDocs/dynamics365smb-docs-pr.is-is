@@ -2,18 +2,18 @@
 title: Senda skjöl og tölvupósta
 description: Þú getur skilgreint innihald til að setja inn í meginmál tölvupóstskeytis, til dæmis PayPal tengil. Þú getur líka sett skjöl í viðhengi tölvupóstskeyta.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: fdf34ffe09f5a57c45772a58fe6e8e4e9735be11
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588452"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515252"
 ---
 # <a name="send-documents-and-emails"></a>Senda skjöl og tölvupósta
 
@@ -54,7 +54,7 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 Hægt er að búa til tölvupósta fyrir tengiliði, viðskiptamenn, lánardrottna, sölufólk/innkaupendur og bankareikninga á fljótlegan hátt beint af síðunum fyrir þessar einingar. Veldu einfaldlega **Vinna úr** og síðan **Senda tölvupóst** til að opna ritil tölvupóstsins. Fyrir bankareikninga er aðgerðin **Senda tölvupóst** undir **Aðgerðir**.
 
 > [!TIP]
-> Ef þú sendir oft svipaða tölvupósta eða vilt senda á marga í einu, t.d. til að auglýsa markaðsherferð, getur Word-sniðmát með tölvupósti hraðað ferlinu. Þú getur búið til sniðmát fyrir aðila á borð við viðskiptamenn, lánardrottna og tengiliði sem býr til efni tölvupóstskilaboða fyrir þig og meira að segja aðlagar efnið að viðtakandanum út frá upplýsingum í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Word-sniðmát notuð fyrir mörg samskipti í einu](ui-mail-merge.md).  
+> Ef þú sendir oft svipaða tölvupósta eða vilt senda á marga í einu, t.d. til að auglýsa markaðsherferð, getur Word-sniðmát með tölvupósti hraðað ferlinu. Þú getur búið til sniðmát fyrir aðila á borð við viðskiptamenn, lánardrottna og tengiliði sem býr til efni tölvupóstskilaboða fyrir þig og meira að segja aðlagar efnið að viðtakandanum út frá upplýsingum í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna [í Notaðu Word sniðmát fyrir Magnsamskipti](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Skjöl sem eru merkt sem prentuð þegar þau eru send
 
@@ -76,7 +76,7 @@ Sum skjöl í [!INCLUDE[prod_short](includes/prod_short.md)] eru með reit sem t
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
 [Setja upp tölvupóst](admin-how-setup-email.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

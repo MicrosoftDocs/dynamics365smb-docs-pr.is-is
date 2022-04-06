@@ -4,7 +4,6 @@ description: Notaðu aðrar aðgerðir á síðu skjala á innleið til að fara
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 130a41d23a6e28979fad1e4999a1f620eaf7affe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 4244801207874f1629d59d4b3a66de98fb9d2bed
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437703"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522407"
 ---
 # <a name="create-incoming-document-records"></a>Stofna færslur skjala á innleið
 Á síðunni **Skjöl á innleið** er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur í. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til.
@@ -69,7 +68,7 @@ Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu 
 [Vinnsla skjala á innleið](across-process-income-documents.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

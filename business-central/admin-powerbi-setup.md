@@ -2,7 +2,6 @@
 title: Virkjun Power BI samþættingar við Business Central
 description: Kynntu þér hvernig á að setja upp Power BI. Með Power BI skýrslum geturðu öðlast innsýn, viðskiptaupplýsingar og afkastavísa (KPI) úr Business Central gögnum.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: c8f12e98196d8dd22ff63c73ffd3967cf256244c
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
-ms.translationtype: HT
+ms.openlocfilehash: b3eb777c7a495c5b4b73ace26151e53403f81f00
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049875"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521203"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Virkjun Power BI samþættingar við [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -81,7 +80,7 @@ Við hvert tækifæri er mælt með að nota API-síður í stað OData-vefþjó
 
     <!--
     > [!IMPORTANT]
-    > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Using OAuth to Authorize Business Central Web Services](/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth).-->
+    > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Use OAuth to Authorize Business Central Web Services](/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth).-->
 
 4. Búið til forritsskráningu fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Microsoft Azure.
 
@@ -112,9 +111,9 @@ Við hvert tækifæri er mælt með að nota API-síður í stað OData-vefþjó
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnagjafa](across-how-use-financials-data-source-powerapps.md)  
+[Notkunar [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

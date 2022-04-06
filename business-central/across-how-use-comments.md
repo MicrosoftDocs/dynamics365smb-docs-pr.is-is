@@ -10,12 +10,12 @@ ms.search.keywords: tasks, work
 ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 63b65f697e12090f5e4bfbc2ca11e30a6e167bab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 64c66324d97ee3dad268f6ff9dd8c18566d1e247
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129128"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512517"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Bæta við athugasemdum við kort og skjöl
 
@@ -40,7 +40,7 @@ Eftirfarandi lýsir því hvernig á að bæta athugasemd við birgðaspjald. Sk
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 

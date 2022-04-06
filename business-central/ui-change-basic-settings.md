@@ -2,21 +2,20 @@
 title: Breyta grunnstillingum fyrir núverandi notanda
 description: Kynntu þér hvernig þú getur breytt sumum stillingum í Business Central, til dæmis hlutverkinu þínu og Mitt hlutverk, fyrirtæki, vinnudagsetningu og tímabelti.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
-ms.search.form: 9022, 9019, 9027
+ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 38301359b6f13b809b2f980fdf5dc3b4a678451d
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: f466a12898422fb7c936972f0874d38ab2a6ab4b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029037"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515954"
 ---
 # <a name="change-basic-settings"></a>Breyta grundvallarstillingum
 
@@ -110,7 +109,7 @@ Veljið *Breyta þegar ég fæ tilkynningar* til að skoða eða breyta tilkynni
 ## <a name="see-also"></a>Sjá einnig
 
 [Stofna ný fyrirtæki](about-new-company.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,21 +2,20 @@
 title: Keyra runuvinnslur og XMLports
 description: Þú keyrir runuvinnslu til að vinna gögn og uppfæra upplýsingar, til dæmis að framkvæma tímabundnar bókhaldsaðgerðir eða útreikninga.
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.search.form: 672, 676, 682
+ms.search.form: 672, 676, 682, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 84741ec7d98e405aeb5792a5d1a907221eef11f7
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: cd61ebd816fe5b701d493f03816f78d90b59e4f6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100978"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512785"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Keyra runuvinnslur og XMLports
 
@@ -35,7 +34,7 @@ Hægt er að tímasetja hvenær runuvinnsla er keyrð. Frekari upplýsingar, sj�
 ## <a name="see-also"></a>Sjá einnig
 [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
 [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

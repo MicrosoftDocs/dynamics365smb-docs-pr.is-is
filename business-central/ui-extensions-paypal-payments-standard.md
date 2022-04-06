@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 6090e81dc4626b05154777d4f84dc0093281f75a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78ecb3147ef31bb2ced29aa3c316f9bd5c05ee0b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129891"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518836"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Viðbótin PayPal Payments Standard
 Viðskiptamenn þurfa stöðugt hærra þjónustustig, bæði hvað varðar gæði vöru en einnig hvað varðar valkosti afhendingar og greiðslu. PayPal Payments Standard gerir kleift að veita viðskiptamanninum meiri þjónustu.
@@ -38,7 +38,7 @@ Nánari upplýsingar eru í [Virkja greiðslu viðskiptamanns gegnum PayPal](sal
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

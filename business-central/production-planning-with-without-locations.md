@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 27f9b5002d96d55121272f992f58c9cf9748111f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 97ba3a62954ae2d38106f0dc7aa4f1080e483ef5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137472"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517844"
 ---
 # <a name="planning-with-or-without-locations"></a>Áætlanagerð með eða án birgðageymslna
 Varðandi áætlanir með eða án birgðageymslukóta í eftirspurnarlínum vinnur áætlanakerfið á einfaldan hátt þegar:  
@@ -157,7 +157,7 @@ Ef þú þar af leiðandi áætlar oft eftirspurn í birgðageymslum þá mælum
 [Innkaup](purchasing-manage-purchasing.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)  
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

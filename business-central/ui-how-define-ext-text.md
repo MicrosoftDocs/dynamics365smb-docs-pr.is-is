@@ -2,7 +2,6 @@
 title: Bæta við lengdum texta
 description: Þú getur bætt við auka línum til að lengja staðlaðan texta sem lýsir vöru, fjárhagsreikningi og öðrum gögnum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 391, 30
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0a9a56e44ecf9e832da99f60a6256aa93240e524
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: 92c741441d5a807f1757a1962acf06ce71a7af30
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101192"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521547"
 ---
 # <a name="add-extended-text"></a>Bæta við lengdum texta
 
@@ -44,7 +43,7 @@ Nú er hægt að bæta þessum lengda texta við skjöl. Eftirfarandi ferli úts
 ## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning birgða](inventory-setup-inventory.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

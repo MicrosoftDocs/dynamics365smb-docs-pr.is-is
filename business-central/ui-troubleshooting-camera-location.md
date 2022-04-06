@@ -9,12 +9,12 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.openlocfilehash: c484be64a252ae8f565bf04215b9a2191e572875
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5c5693b05d8590e569e0fb1b80993e35550c5ed5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138207"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518810"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Úrræðaleit: aðgangur að myndavél og staðsetningu
 
@@ -46,7 +46,7 @@ Eiginleikar myndavélar og staðsetningar eru aðeins tiltækir þegar verið er
 Eina undantekningin er tenging við `http://localhost`, sem notuð er í þróun og prófanir.
 
 
-## <a name="working-with-virtualization-technologies"></a>Unnið með sýndartækni
+## <a name="work-with-virtualization-technologies"></a>Vinna með Sýndaralization tækni
 
 Þegar þú tengist [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum fjartengt skjáborð eða annan sýndarbúnað er hugsanlegt að aðgangur að myndavél eða staðsetningu sé ekki í boði. Ef svo er skaltu nota efnislegt stjórnkerfi í staðinn.
 

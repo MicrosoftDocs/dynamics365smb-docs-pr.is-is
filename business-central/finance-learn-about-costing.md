@@ -2,7 +2,6 @@
 title: Um birgðakostnað
 description: Umsjón með birgðakostnaði snýst allt um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis, þ.m.t. skýrslugjöf um framleiðslukostnað og birgðakostnað.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 36420747117425e1f66e30ed6090f300e27776f4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 521cf2700c16bab71d13ea1282fbf4b09164b004
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325762"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513966"
 ---
 # <a name="about-inventory-costing"></a>Um birgðakostnað
 Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis. Það felur í sér skráningu framleiðslukostnaðar og vörukostnaðar, það er, virði vara.  
@@ -40,7 +39,7 @@ Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostna
 
 ## <a name="see-also"></a>Sjá einnig
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)    
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

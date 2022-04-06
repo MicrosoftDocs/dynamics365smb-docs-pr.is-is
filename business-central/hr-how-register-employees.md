@@ -10,12 +10,12 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b76ce1b15dde904ad3257b6f849e3629f293206c
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: fbf1647b23733beffc005b617beff185b183a6fe
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372053"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519096"
 ---
 # <a name="register-employees"></a>Skrá starfsmenn
 
@@ -67,7 +67,7 @@ Hægt er að nota önnur aðsetur til að halda utan um aðsetur starfsmanns, ti
 
 [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)
 
 

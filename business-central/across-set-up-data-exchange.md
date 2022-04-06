@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9736a1ea6c0da0381a14c8e77eabaaf752ea9f34
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7847387049dd799044ed3dca4b62a657b726b069
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133279"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517135"
 ---
 # <a name="setting-up-data-exchange"></a>Setja upp gagnaskipti
 Áður en hægt er að senda og taka á móti rafrænum skjölum eða flytja inn og út bankaskrár verður að setja upp gagnaskiptaumgjörð til að vinna úr umræddum skjölum. Auk þess verður að setja upp tengd svæði, t.d. viðskiptamenn sem fá senda rafræna reikninga eða AMC Banking 365 Fundamentals-viðbótina í tilvikum þar sem nota þarf utanaðkomandi þjónustuaðila til að umbreyta bankaskrám. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).  
@@ -31,7 +31,7 @@ ms.locfileid: "8133279"
 |Setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, viðskiptavini, lánardrottna, atriði, og mælieiningar, sem tengjast vörpunargögnum í [!INCLUDE[prod_short](includes/prod_short.md)]|[Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Setja upp bankareikning, lánardrottin og greiðslubók fyrir SEPA-millifærslur.|[Setja upp SEPA-kreditfærslur](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Undirbúið bankareikningssnið, greiðsluaðferðir og samninga við viðskiptavini um SEPA-beingreiðslur.|[Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)|  
-|Setja upp sannvottun notanda og vefslóð veitu AMC Banking 365 Fundamentals-viðbótarinnar sem er nauðsynleg til að umbreyta bankaskrám á snið bankans þíns.|[Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)|  
+|Setja upp sannvottun notanda og vefslóð veitu AMC Banking 365 Fundamentals-viðbótarinnar sem er nauðsynleg til að umbreyta bankaskrám á snið bankans þíns.|[AMC Banking 365 Fundamentals Nota viðaukann](ui-extensions-amc-banking.md)|  
 |Setja upp og virkja utanaðkomandi þjónustu sem gerir kleift að flytja inn bankayfirlit beint sem bankastreymi.|[Setja upp bankayfirlitsþjónustu](bank-how-setup-bank-statement-service.md)|  
 |Eftir að bankayfirlitsþjónusta er gerð virk skal tengja bankareikninga í [!INCLUDE[prod_short](includes/prod_short.md)]|[Bankareikningar settir upp](bank-how-setup-bank-accounts.md)|  
 |Undirbúið að setja upp nýja gagnaskiptaskilgreiningu fyrir tiltekna gagnaskrá eða straum með því að nota XML-skema skrárinnar til að fylla út í flýtiflipann **Dálkskilgreiningar** á síðunni **Bókunarskilgreining**.|[Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

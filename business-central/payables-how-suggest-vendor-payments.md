@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 439db2ccacf165d27db44e4c786e71a4372171f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ab9844f52f74e79283daafbe02f8cc2139c3ac9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137784"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522799"
 ---
 # <a name="suggest-vendor-payments"></a>Greiðslutillögur til lánardr.
 
@@ -54,8 +54,8 @@ Einnig er hægt að myndað sjálfkrafa greiðslulínur með gjalddaga til að r
 ## <a name="see-also"></a>Sjá einnig
 [Stjórna skuldum](payables-manage-payables.md)  
 [Framkvæma greiðslur](payables-make-payments.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

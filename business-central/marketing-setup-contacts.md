@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137836"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516110"
 ---
 # <a name="set-up-contacts"></a>Uppsetning tengiliða
 Þegar tengiliðir eru stofnaðir má færa inn nákvæmar upplýsingar, eins og þær starfsgreinar sem tengiliðirnir tilheyra og viðskiptatengsl við tengiliðina.
@@ -140,7 +140,7 @@ Vissar upplýsingar um tengiliðafyrirtæki eru þær sömu og um einstaklingste
 
 Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Nota forskilgreind sjálfgildi á nýja tengiliði
+## <a name="use-predefined-defaults-on-new-contacts"></a>Nota fyrirfram skilgreint sjálfgildi á nýjum tengiliðum
 Hægt er að láta forritið tilgreina sjálfkrafa ákveðinn tungumálskóða, umsjónarsvæðiskóða, sölumannskóða og lands-/svæðiskóða sem sjálfgildi þegar nýir einstaklingstengiliðir eru stofnaðir. Einnig er hægt að færa inn sjálfgefinn söluferliskóta sem forritið úthlutar sjálfkrafa á hvert nýtt tækifæri sem stofnað er. Þetta er sett upp í flýtiflipanum **Sjálfgildi** á síðunni **Uppsetning markaðssetningar**
 
 Reitaerfðir skrifast yfir sjálfgildi sem sett hafa verið upp. Ef enska hefur til dæmis verið sett upp sem sjálfgefið tungumál en tungumál tengiliðafyrirtækisins er þýska, úthlutar forritið þýsku sjálfkrafa sem tungumálakóta einstaklingstengiliðanna sem skráðir eru fyrir það fyrirtæki.
@@ -159,7 +159,7 @@ Hægt er að láta forritið leita sjálfkrafa leita að tvítekningum í hvert 
 [Vinna með tengiliði](marketing-contacts.md)  
 [Stofna tengiliðo](marketing-create-contact-companies.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

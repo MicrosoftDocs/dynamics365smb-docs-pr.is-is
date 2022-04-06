@@ -2,7 +2,6 @@
 title: Afhendingarmátar settir upp
 description: Hægt er að setja upp kóða fyrir hvern afhendingarmáta sem boðið er upp á og slá inn upplýsingar um þá.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: incoterms
 ms.search.form: 11, 130
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 032faa6e9266f966f0c6393eb1837e1ca9bc9f55
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
-ms.translationtype: HT
+ms.openlocfilehash: 4f55e4ac7aaad445a2db606fcbc46856f4800f18
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752496"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517766"
 ---
 # <a name="set-up-shipment-methods"></a>Afhendingarmátar settir upp
 
@@ -42,7 +41,7 @@ Afhendingarmáti ræðst oft af vörunni sjálfri, viðskiptamönnum eða lánar
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoterms á iccwbo.org](https://iccwbo.org/resources-for-business/incoterms-rules)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

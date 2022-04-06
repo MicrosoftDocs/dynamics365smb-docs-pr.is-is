@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e9bd9e44a92c952fe01636b1ef724491e479cf1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f7127569153ee98aaadcbb807432d852a4f22d0d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145239"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518706"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Kynning: Handvirk áætlun birgða
 
@@ -55,7 +55,7 @@ ms.locfileid: "8145239"
 ## <a name="setting-up-the-sample-data"></a>Uppsetning sýnigagna  
  Staðlaða CRONUS sýnifyrirtækið er eins og stendur með mikið af óáætlaðri eftirspurn. Í ólíkum verkefnum áætlana sem eru í þessari kynningu verður að víkja frá raunverulegu viðskiptaflæði með því að hundsa kröfur sem hafa gjalddaga sem stutt er í og nota þess í stað kröfur með gjalddaga sem er síðar.  
 
-## <a name="using-the-order-planning-page"></a>Síðan Pantanaáætlun notuð  
+## <a name="use-the-order-planning-page"></a>Nota síðuna Pantanáætlanagerð  
 
 Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetningum:  
 

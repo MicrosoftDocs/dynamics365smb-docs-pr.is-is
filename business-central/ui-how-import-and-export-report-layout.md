@@ -9,14 +9,17 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 03d92e13adc9208ec98eda57cfc1d6b6e93ab028
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f8f0af4e34f57ebe64f454901e7f9e237fe7018c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148305"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512759"
 ---
-# <a name="import-and-export-custom-report-layouts"></a>Flytja sérsniðið skýrsluútlit inn og út
+# <a name="legacy-import-and-export-custom-report-layouts"></a>Arfur Flytja inn og flytja út sérsniðna skýrslu
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
+
 Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skrá í og úr staðsetningu á tölvu og neti. Til dæmis er hægt að flytja út skýrsluútlit og senda síðan skrána til einhvers annars til breytinga. Sá einstaklingur getur gert breytingarnar á útlitinu og skilað skránni til þín til að flytja aftur inn.  
 
 > [!IMPORTANT]  
@@ -54,7 +57,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
 [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md)   
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
-[Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)    
+[Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

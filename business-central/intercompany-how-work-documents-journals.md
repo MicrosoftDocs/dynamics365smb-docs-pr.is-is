@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 600, 610
-ms.date: 06/16/2021
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: a258ea2039c69449d4743b62943395abb7c1d430
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367177"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519727"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Unnið með samstæðuskjöl og færslubækur
 Milli-fyrirtækjaskjöl eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga. Þegar milli-fyrirtækjaskjöl eða færslubókarlína eru bókuð í fyrirtækinu er samsvarandi fylgiskjal eða færslubókarlína stofnuð í MF-úthólfinu sem hægt er að flytja til félagans. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
@@ -39,11 +39,12 @@ Eftirfarandi aðferð lýsir því hvernig eigi að fylla út og senda sölupön
 > Ef þú framkvæmir skref 4, mun sölupöntunin verða færð yfir til úthólfs millifyrirtækisins þar sem þú getur sent hana síðar. Frekari upplýsingar er að finna í [Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Fært í milli-fyrirtækjabækur og bókað
-Þegar bókuð er almenn færslubókarlína í fyrirtækinu, er samsvarandi færslubókarlína stofunuð í MF-úthólfinu sem hægt er að flytja til félagans. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
+
+Þegar bókuð er almenn færslubókarlína í fyrirtækinu, er samsvarandi færslubókarlína stofunuð í MF-úthólfinu sem hægt er að flytja til félagans. Með 2022 sleppingu bylgju 1 er einnig hægt að setja upp fyrirtækið fyrir sjálfvirka stofnun samstæðufærslna frá samstæðufélögum, bókað í gegnum almenna færslubók innan samstæðu. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-færslubækur** og velja síðan viðkomandi tengil.  
-2. Viðeigandi færslubókarkeyrsla er opnaður. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
-3. Fyllið inn í reitina eftir þörfum.
+2. Viðeigandi færslubókarkeyrsla er opnaður. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
+3. Fyllið inn reitina eftir þörfum.
 4. Í reitinn **MF félagi fjárhagsreikningur nr.** færið inn MF fjárhagsreikninginn sem upphæðin verður bókuð á í fyrirtæki félagans.
 
     > [!NOTE]
@@ -53,11 +54,12 @@ Eftirfarandi aðferð lýsir því hvernig eigi að fylla út og senda sölupön
 Færslurnar sem þessu tengjast eru bókaðar í þínu fyrirtæki og færslubók með samsvarandi færslum er stofnuð í úthólfi millifyrirtækisins þar sem þú getur sent þær til fyrirtæki félagans. Frekari upplýsingar er að finna í [Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

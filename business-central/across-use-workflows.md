@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2cbf60577e7c0c4f95fcb623fb448f8cb5bd7960
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8fc4dc464e6562684db6b4ae67422f59cb641927
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138701"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511208"
 ---
-# <a name="using-workflows"></a>Nota verkflæði
+# <a name="use-workflows"></a>Nota verkflæði
 
 Verkflæði er röð verka sem aðgerð, skilyrði eða regla setur af stað. Verkflæði eru yfirleitt innleidd til að samþætta viðskiptagrunn við fyrirtæki, t.d. aðskilnað aðgangsheimilda, sameiningu ferla eða til að auka traust og ábyrgð.  
 
@@ -72,7 +72,7 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning verkflæðis](across-set-up-workflows.md)   
 [Verkflæði](across-workflow.md)   
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

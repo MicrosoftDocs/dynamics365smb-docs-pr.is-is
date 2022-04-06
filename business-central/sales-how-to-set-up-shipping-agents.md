@@ -2,7 +2,6 @@
 title: Hvernig á að setja upp flutningsaðila
 description: Kynntu þér hvernig á að setja upp kóða fyrir einstaka flutningsaðila og sláðu inn lýsandi upplýsingar um hvern og einn þeirra og þjónustuna sem þeir veita.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 1e74be125909db7f7d1c4301a33da1b12648e70a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 012fe136161d891cb4adde6ace120040f7da909a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440229"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513680"
 ---
 # <a name="set-up-shipping-agents"></a>Uppsetning flutningsaðila
 Hægt er að setja upp kóta fyrir einstaka flutningsaðila og færa inn upplýsingar um þá.  
@@ -44,7 +43,7 @@ Hægt er að setja upp ótakmarkaðan fjölda af þjónustuatriðum fyrir hvern 
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

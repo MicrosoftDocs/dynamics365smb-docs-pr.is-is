@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: 3db84a185c47976f5d7f3aa5f166c81e4a035a89
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ccdcf519d33c9b4ee23526e773ec8eccc9e0ebdd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133331"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517162"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Býr til Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "8133331"
 - Power BI Desktop.
 
 <!-- 
-For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
+For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
 ## <a name="create-a-report-for-a-list-page"></a>Búa til skýrslu fyrir listasíðu
 
@@ -92,7 +92,7 @@ Hægt er að breyta breidd og hæð skýrslunnar með því að velja **Sérsní
 Ef bakgrunnur skýringarinnar á að vera með bakgrunnslit Power BI upplýsingareitsins skal stilla bakgrunnslit skýrslu á *#FFFFFF* (hvítur). 
 
 > [!TIP]
-> Notið [!INCLUDE [prod_short](includes/prod_short.md)]-þemaskrá til að búa til skýrslur með sama litastíl og [!INCLUDE [prod_short](includes/prod_short.md)]-forritin. Frekari upplýsingar er að finna í [[!INCLUDE [prod_short](includes/prod_short.md)]-skýrsluþema notað](across-how-use-financials-data-source-powerbi.md#theme).
+> Notið [!INCLUDE [prod_short](includes/prod_short.md)]-þemaskrá til að búa til skýrslur með sama litastíl og [!INCLUDE [prod_short](includes/prod_short.md)]-forritin. Frekari upplýsingar [fást með því að [!INCLUDE [prod_short](includes/prod_short.md)] nota þema skýrslunnar](across-how-use-financials-data-source-powerbi.md#theme).
 
 ## <a name="reports-with-multiple-pages"></a>Skýrslur með mörgum síðum
 
@@ -127,7 +127,7 @@ Staðfestið að stærð skýrslu sé stillt á 325 x 310 pixla. Vista skal ský
 ## <a name="see-also"></a>Sjá einnig
 
 [Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Fjármál](finance.md)  

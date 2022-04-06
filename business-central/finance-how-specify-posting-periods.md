@@ -3,7 +3,6 @@ title: Tilgreina bókunartímabil
 description: Bókunartímabil (upphafs- og endadagsetningar) eru tilgreind til að setja upp hvenær notendur geta bókað í fjárhag.
 author: SorenGP
 editor: ''
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 969fdfd748ee71a86a91b192f2c5bd305292c762
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 558dcdf68f8ecc6a7c8def0b6a61a33d78f8f68b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972932"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516318"
 ---
 # <a name="specify-posting-periods"></a>Tilgreina bókunartímabil
 
@@ -35,7 +34,7 @@ Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbó
 
 [Fjármál](finance.md)  
 [Að klára Ferli í lok tímabila](year-how-complete-period-end-processes.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

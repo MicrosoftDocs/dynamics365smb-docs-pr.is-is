@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/26/2021
 ms.author: edupont
-ms.openlocfilehash: 5cec98907fd3ab3b95763abd45e03038e8ccec35
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 886099234469a475e831d8f767d0aa1cf0023ece
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146749"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518260"
 ---
 # <a name="application-design-details"></a>Upplýsingar um hönnun forrits
 
@@ -38,6 +38,6 @@ Hönnunarupplýsingar er ætlað innleiðurum, hönnuðum og yfirnotendum sem þ
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

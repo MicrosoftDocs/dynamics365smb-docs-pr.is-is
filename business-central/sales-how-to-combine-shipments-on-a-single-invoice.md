@@ -2,7 +2,6 @@
 title: Hvernig á að sameina afhendingar í einn reikning | Microsoft Docs
 description: Eigi að reikningsfæra fleiri en eina afhendingu saman er hægt að nota eiginleikann sameina afhendingar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
-ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
-ms.translationtype: HT
+ms.openlocfilehash: 0301e17b0082c2ac7be37670757065e4ff6fcaf7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7929581"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513732"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Sameina afhendingar einn reikning
 Eigi að reikningsfæra fleiri en eina afhendingu saman er hægt að nota eiginleikann sameina afhendingar.  
@@ -36,7 +35,7 @@ Eigi að reikningsfæra fleiri en eina afhendingu saman er hægt að nota eiginl
 7. Til að bóka reikningur er valið aðgerðin **bóka**.  
 
 > [!TIP]  
-> Ef pantanir hafa verið sendar þar sem **Selt-til viðskm. nr.** Er mismunandi eftir reitnum **Reikn., viðskm. nr.** eru línurnar ekki sýndar í **skýrslunni sækja afhendingarlínur**. Notið sérstillingar til að bæta við **reitnum Selt-til viðskiptamaður á** síðuna og Fjarlægið síuna. Nú er hægt að bæta afhendingarlínum á reikninginn óháð gildinu í reitnum **Selt-til viðskm.** , svo framarlega sem reiturinn **Reikn.** í sendingarlínunum samsvarar gildinu á sölureikningnum.  
+> Ef pantanir hafa verið sendar þar sem **Selt-til viðskm. nr.** Er mismunandi eftir reitnum **Reikn., viðskm. nr.** eru línurnar ekki sýndar í **skýrslunni sækja afhendingarlínur**. Notið sérstillingar til að bæta **við reitnum Selt-til Viðskiptamaður** á síðuna og Fjarlægið síuna. Nú er hægt að bæta afhendingarlínum á reikninginn óháð gildinu í reitnum **Selt-til viðskm.** , svo framarlega sem **reiturinn Reikn.** í sendingarlínunum samsvarar gildinu á sölureikningnum.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Til að sameina afhendingar sjálfkrafa á einn reikning  
 [!INCLUDE[prod_short](includes/prod_short.md)] mun aðeins velja sölupantanir þar sem **Sameina afhendingar** er valið. 
@@ -64,7 +63,7 @@ Skref 1 til 3 eru endurtekin fyrir öll skjöl sem urðu fyrir áhrifum, eins og
 
 ## <a name="see-also"></a>Sjá einnig  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

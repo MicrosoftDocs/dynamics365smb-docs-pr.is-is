@@ -2,18 +2,17 @@
 title: Stjórna notendum og hlutverkum
 description: Kynntu þér hvernig á að stjórna notandasíðum og hlutverkamiðstöðvum í Business Central. Notandasíður gera stjórnendum kleift að skilgreina og stjórna hvað notendur geta séð og gert á miðlægan hátt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: b17a4f5a375e4fa1ad067d2679b37bb3d0f5da95
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012489"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514148"
 ---
 # <a name="manage-user-profiles"></a>Stjórna notandasíðum
 
@@ -86,7 +85,7 @@ Sem kerfisstjóri er hægt að skilgreina þessar stillingar fyrir forstillingu 
     - **Sýna í hlutverkaleit** til að tilgreina hvort aðgerðir fyrir viðskiptaeiginleika sem eru hafðar með í forstillingunni sem birtist í eiginleikayfirliti hlutverkaleitar. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)
 
 ## <a name="to-export-profiles"></a>Flytja út forstillingar
-Hægt er að flytja út forstillingar úr [!INCLUDE[prod_short](includes/prod_short.md)], til dæmis til að endurnýta þær í öðrum leigjanda. Forstillingarnar eru fluttar út í zip-skrá sem inniheldur .al-skrár sem hægt er að endurnýta til að þróa viðbætur. Frekari upplýsingar er að finna í [Nota biðlarann til að stofna forstillingar og sérstillingar á síðunni](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Hægt er að flytja út forstillingar úr [!INCLUDE[prod_short](includes/prod_short.md)], til dæmis til að endurnýta þær í öðrum leigjanda. Forstillingarnar eru fluttar út í zip-skrá sem inniheldur .al-skrár sem hægt er að endurnýta til að þróa viðbætur. Frekari upplýsingar [fást með því að nota biðlarann til að stofna forstillingar og sérsnið](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * Á síðunni **Forstillingar (hlutverk)** skal velja aðgerðina **Flytja út forstillingar**.
 

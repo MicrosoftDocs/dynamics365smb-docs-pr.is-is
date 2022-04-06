@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.author: bholtorf
-ms.openlocfilehash: 39700bcb00aadf4a567da0487db58c17aefe58af
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381750"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517974"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -36,7 +36,7 @@ Flýtivísanir aðstoða við aðgengi og geta auðveldað flettingar og gert þ
 Flestar flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða macOS. Hins vegar eru nokkrar flýtileiðir frábrugðnar fyrir macOS. Þessar flýtileiðir eru tilgreindar með sviga í eftirfarandi hlutum.
 
 > [!NOTE]
-> Til viðbótar við altækar flýtilykla sem lýst er í þessari grein eru ýmsar viðskiptatengdar flýtileiðir í boði. Til dæmis í almennri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)], F9 bókar skjal og CTRL+F7 sýnir fjárhagslegar færslur fyrir færslu þegar færslan er opnuð á korti. Þessi grein inniheldur nokkrar af algengustu flýtileiðum sem tengjast viðskiptum, sem eru sýndar skáletraðar. Hafðu í huga að raunverulegar flýtileiðir geta verið mismunandi í lausninni þinni. Í notendaviðmótinu er flýtilykillinn sýndur í ábendingunni fyrir viðkomandi aðgerð.
+> Auk altækrar flýtilykla sem lýst er í þessari grein eru tiltæk ýmis fyrirtæki flýtivísanir. Til dæmis í almennri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)], F9 bókar skjal og CTRL+F7 sýnir fjárhagslegar færslur fyrir færslu þegar færslan er opnuð á korti. Í þessari grein eru nokkrar af algengari flýtileiðum Business-sértækra, sem sýndar eru á skáletri. Hafa þarf í huga að raunveruleg flýtivísanirnar geta verið ólíkar í þinni lausn. Í notendaviðmótinu er Flýtilykillinn sýndur í verkfærinu fyrir aðgerðina sem um ræðir.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Almennar flýtivísanir
 
@@ -84,13 +84,13 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |Alt+N|Settu inn nýja línu í breytanlegum lista á borð við síðuna **Fjárhagsáætlanir**.|Sama.|
 |Shift+F9|Bóka og prenta skjal.|Sama.|
 |Shift+F10 |Opnaðu valmynd valkosta sem eru í boði fyrir valda röð.|Sama.|
-|Alt+D|Opna víddasamstæðufærslurnar.|Sama.|
-|Ctrl+F7|Opnar fjárhagsfærslur, kladdafærslur, kostnaðarfærslur o.s.frv.|
-|Ctrl+F9|Gefa út skjal.|Sama.|
-|*F7*|Opna talnagögn.|Sama.|
-|*F9*|Bóka, gefa út, skrá eða bakfæra skjal.|Sama.|
-|*Shift+Ctrl+F*|Senda tillögur um línur á síðunni sjóðstreymisblöð.|Á ekki við.|
-|*Shift+Ctrl+I*|Skoða rað- og lotunúmer sem úthlutað er á línuatriðið í skjalinu eða færslubókinni.|Á ekki við.|
+|ALT + D|Opnið víddasamstæðufærslurnar.|Sama.|
+|Ctrl+F7|Opnar færslur, skráir færslur, kostnaðarfærslur o. frv.|
+|Ctrl+F9|Úttektarskjal.|Sama.|
+|*F7*|Opna tölfræði.|Sama.|
+|*F9*|Bóka, senda, skrá eða bakfæra skjal.|Sama.|
+|*Shift + CTRL + F*|Senda tillögur um línur á síðunni sjóðstreymissorsendur.|Á ekki við.|
+|*Shift + Ctrl + I*|Skoða rað-og lotunúmer sem úthlutað er á línuatriðið í skjalinu eða færslubókinni.|Á ekki við.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts">Flett milli raða og dálka</a>
 
@@ -149,9 +149,9 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
-|Alt+D|Opna víddasamstæðufærslurnar.|
+|ALT + D|Opnið víddasamstæðufærslurnar.|
 |Alt+F6|Víxla draga saman/útvíkka fyrir gildandi flýtiflipa eða hluta (undirsíða).|
-|Alt+F9|Búa til nýtt skjal og bóka það.|
+|Alt+F9|Stofnið nýtt skjal og bókið það.|
 |Alt+G|Opnið síðuna **Finna færslur** til að finna færslur sem tengjast bókuðu skjali. Virkar einnig í listum.|
 |Alt+N |Opnaðu síðu til að búa til nýja færslu; á sama hátt og aðgerðin **Nýtt** er valin. |
 |Alt+Shift+N |Lokaðu síðu og opnaðu nýja til að stofna nýja færslu; á sama hátt og aðgerðin **Í lagi og nýtt** er valin. |
@@ -161,15 +161,15 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 |Ctrl+uppör |Opnaðu færsluna á undan fyrir einingu.|
 |Ctrl+Insert |Setja inn nýja línu í skjal.|
 |Ctrl+Delete |Eyddu línunni, í skjölum, færslubókum og vinnublöðum.|
-|Ctrl+F7|Opnar fjárhagsfærslur, kladdafærslur, kostnaðarfærslur o.s.frv.|
-|Ctrl+F9|Gefa út skjal.|
+|Ctrl+F7|Opnar færslur, skráir færslur, kostnaðarfærslur o. frv.|
+|Ctrl+F9|Úttektarskjal.|
 |Ctrl+Shift+F12 |Hámarkaðu hluta vörulína á skjalasíðu. Ýttu á lyklana aftur og farðu aftur í venjulegt útlit. Frekari upplýsingar er að finna í [Fókus á vörulínur](ui-enter-data.md#Focus).|
 |F6|Fara í næsta flýtiflipa|
-|*F7*|Opna talnagögn.|
-|*F9*|Bóka, gefa út, skrá eða bakfæra skjal.|
-|*Shift+Ctrl+F9*|Bóka, prenta og ganga frá vöruhúsamóttöku.|
+|*F7*|Opna tölfræði.|
+|*F9*|Bóka, senda, skrá eða bakfæra skjal.|
+|*Shift + CTRL + F9*|Bóka, prenta og ganga frá vöruhúsamóttöku.|
 |Shift+F6|Fara á fyrri flýtiflipa eða hluta (undirsíða).|
-|*Shift+F9*|Bóka og prenta skjal.|
+|*Shift + F9*|Bóka og prenta skjal.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Flýtileiðir flýtifærslu fyrir reiti
 
@@ -240,12 +240,20 @@ Hlutverkaleit veitir yfirlit og flýtiaðgang að öllum viðskiptaeiginleikum s
 |SHIFT F3 eða CTRL+Uppör|Flytjið áherslu á fyrri eiginleikann sem fannst í hlutverkaleit.|
 |Ctrl+Shift|Stækkið eða minnkið alla undirhnúta ásamt hnútum á efsta stigi þegar aðgerðin **Stækka** eða **Minnka** er valin.|
 
+##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Tölutakkar Flýtihnappar
+
+Eftirfarandi tafla lýsir flýtivísunum á talnagrind.
+
+|Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
+|--------------------------------|----------|
+|Skiltákn Alt + tugabrot|Skipta skal úttaki aukalykillykils yfir á annað hvort tímabil (.) eða stafinn sem ákvarðaður **er af svæðastillingu** **síðunnar**. Frekari upplýsingar er að finna [í því að setja aukastaskiltákn sem notað er af lykilstjórnum](ui-enter-data.md#decimal).|
+
 ## <a name="see-also"></a>Sjá einnig .
 
 [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)  
 [Aðstoðareiginleikar](ui-accessibility.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algengar spurningar](across-faq.yml)  
 [Finna færslur](ui-find-entries.md)  
 

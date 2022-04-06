@@ -10,12 +10,12 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 754f278c352f4b7c20df84c64d1e90315dca70d9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 69ec5c81ff1c93fd4ab91540f3ad3e420171c6c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381353"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514830"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu
 Á síðunni **vörpun texta á reikning**, sem opnuð er af síðunni **Greiðsluafstemmingarbók**, er hægt að setja upp vörpun á milli texta í greiðslum og tiltekinni debet-, kredit- og mótreikninga til að greiðslurnar séu bókaðar í tiltekna reikninga þegar greiðsluafstemmingarbók er bókuð.
@@ -62,7 +62,7 @@ Til að bóka alltaf útgjöld sem tengjast gjöldum tiltekins banka, MyBank, ti
 [Sala](sales-manage-sales.md)  
 [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

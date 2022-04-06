@@ -2,7 +2,6 @@
 title: Rekja pöntunarlínur til tengdra skjala
 description: Skoða skjöl sem tengjast sölu- og innkaupapöntunarlínum, eins og tilboð, sendingar, kvittanir og standandi pantanir til að bera kennsla á skjöl sem notuð eru til að vinna úr pöntunum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 6560, 42, 50, 507, 509
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 316536c7a44e4b1e3eb25c81fabb498c6b9a21a5
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: 831087c068a75d37c30533e18f345d8a4de6129a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012184"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522327"
 ---
 # <a name="track-document-lines"></a>Rekja skjalalínur
 Þú getur skoðað skjöl sem tengjast sölupöntunarlínum og innkaupapöntunarlínum, þ.m.t. frá safnvistuðum pöntunarlínum. Viðeigandi skjöl sem hægt er að rekja fela í sér tilboð, afhendingar, móttökur og standandi pantanir. Þetta hjálpar þér að bera kennsl á skjöl sem notuð eru til að vinna úr pöntunum.  
@@ -34,7 +33,7 @@ Eftirfarandi ferli sýnir hvernig skal rekja með sölupöntunarlínu. Skrefin e
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

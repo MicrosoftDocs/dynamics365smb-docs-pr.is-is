@@ -2,7 +2,6 @@
 title: Kynning – Móttaka og frágangur í grunnstillingum vöruhúss
 description: Í Business Central er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, , allt eftir flækjustigi vöruhússins.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c5d3ce9b7bb02c12da8d62413c6c5722c59ee1d8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 17de3630859cec7a8ce14eb079cae3d60e5e66e6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439311"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520101"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss
 
@@ -147,7 +146,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
  [Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Hönnunarupplýsingar: vöruhúsaflæði inn](design-details-inbound-warehouse-flow.md)   
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
+ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: af6a19e55c339d7103e0e644368a30fd4a13a0a6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 337900111388e086e27a2d388843d4e1ab052eb6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136297"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518234"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Afskriftaaðferðir fyrir eignir
 
@@ -305,7 +306,7 @@ Ef um er að ræða þrjár afskriftabækur B1, B2 og B3 og afrita á færslur �
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

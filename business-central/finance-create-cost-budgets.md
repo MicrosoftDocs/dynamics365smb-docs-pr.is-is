@@ -2,7 +2,6 @@
 title: Stofna kostnaðaráætlanir
 description: Í þessu efnisatriði er að finna yfirlit yfir hvar skal stofna og greina kostnaðaráætlanir. Áætlunargerð í kostnaðarbókhaldi svipar til áætlunargerðar í fjárhag.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9b69af67128492122bb6d8ceada51572a5ab6e33
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 56757c07ae0bbc41ae2ac9fad6bc3318a1d0ab93
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970675"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520413"
 ---
 # <a name="creating-cost-budgets"></a>Stofna kostnaðaráætlanir
 
@@ -39,7 +38,7 @@ Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Ve
 [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)  
 [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)   
 [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

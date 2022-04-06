@@ -2,7 +2,6 @@
 title: Útgáfa, prenta, hætta við og ógilda ávísanir
 description: Lýsir því hvernig skal gefa út ávísanir með því að nota greiðslubók, prenta ávísanir og ógilda eða skoða ávísanafjárhagsfærslur í Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 24e12472ea02f91ff3a0a8d23295865ca2855ca5
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
-ms.translationtype: HT
+ms.openlocfilehash: 1b4d3f152f74e1bba9f30e7da45e1b910301b4df
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952961"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520231"
 ---
 # <a name="make-check-payments"></a>Framkvæma ávísanagreiðslur
 
@@ -84,7 +83,7 @@ Ef þú vilt endurskoða bókaða tékka, til dæmis til að staðfesta marga gr
 [Stjórna skuldum](payables-manage-payables.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

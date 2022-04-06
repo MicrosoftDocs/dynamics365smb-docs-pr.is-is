@@ -2,17 +2,17 @@
 title: Innkaupaskýrslur og greiningar
 description: Finnið út hvaða innkaupaskýrslur eru í boði í staðlaðri útgáfu Business Central til að halda utan um reksturinn.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_311, Report_312, Report_313, Report_320, Report_709, Report_707, Report_709, Report_714, Report_716, Report_720
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 70098fc89a47bfa29e3693c495c093a95066aad3
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
-ms.translationtype: HT
+ms.openlocfilehash: 84c5230e1d89ceeba98fa545a1d0581f4f34a15c
+ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102552"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455699"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Innkaupaskýrslur og greiningar í Business Central
 

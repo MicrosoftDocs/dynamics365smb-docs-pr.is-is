@@ -1,24 +1,25 @@
 ---
 title: Breyta því hvernig skýrsla lítur út með því að velja annað útlit
 description: Þú getur notað mismunandi útlit fyrir skýrslu, og skipt á milli útlits til að breyta því hvernig skýrsla lítur út.
-author: SorenGP
-ms.service: dynamics365-business-central
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a5115407dd7cfbb8760a5749432ca6fc37f9f933
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.date: 03/07/2022
+ms.author: jswymer
+ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101082"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515304"
 ---
-# <a name="change-the-current-report-layout"></a>Breyta núverandi skýrsluútliti
+# <a name="legacy-set-the-layout-used-by-a-report"></a>Arfur Stilla útlit sem skýrsla er notuð fyrir
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Skýrsla getur verið sett upp með fleiri en eitt skýrsluútliti, sem þú getur svo skipt milli eins og þörf er á.
 
@@ -31,9 +32,13 @@ Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja a
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Til að breyta því hvaða skýrsluútlit á að nota fyrir skýrslu eða skjal
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.  
-   Síðan **Val á útliti skýrslu** sýnir allar skýrslur sem eru í boði fyrir fyrirtæki sem er tiltekið í reitnum **Fyrirtæki** efst á síðunni. Reiturinn **Valið útlit** tilgreinir útlitið sem er verið að nota á skýrsluna.
-2. Stilltu reitinn **Fyrirtæki** efst á síðunni á fyrirtækið með skýrsluna.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.
+  
+   Á **valsíðu** skýrsluuppsetningar eru allar skýrslurnar sem eru tiltækar fyrir fyrirtækið sem er tilgreint í **svæðinu fyrirtæki** efst á síðunni. Lýsing á **útliti** <!-- **Selected Layout** -->Reitur tilgreinir útlitið sem er í notkun í skýrslunni.
+2. **Stillið svæðið fyrirtæki** efst í fyrirtækinu sem inniheldur skýrsluna.
+
+   Í þessum reit skulum við setja mismunandi skipulag fyrir sömu skýrsluskýrslu í mismunandi fyrirtækjum.
+
 3. Til að breyta útliti sem er notað í skýrslu skal velja röðina fyrir skýrsluna og stilla svo **Valið útlit** reitinn á einn af eftirfarandi valkostum:
    * **RDLC (innbyggt)**, notar innbyggt RDLC skýrsluútlit í skýrslunni.
    * **Word (innbyggt)**, notar innbyggt Word skýrsluútlit í skýrslunni.
@@ -45,6 +50,7 @@ Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja a
 Ef þú velur innbyggt RDLC skýrsluútlit, þá þarf ekkert að gera og útlitið er notað næst þegar skýrslan er keyrð.
 
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Til að breyta sérsniðnu útliti fyrir útlit skýrslu
+
 Einnig gæti þurft að breyta sérsniðnu útliti í notkun. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).
 
 Öll sérsniðin skýrsluútlit sem eru til fyrir skýrsluútlit í fyrirtæki eru talin upp á síðunni **Sérsniðin skýrsluútlit** . Á síðunni **Val á útliti skýrslu** er hægt að sjá hvaða sérsniðnu útlit eru í boði fyrir hverja skýrslu í gátreitnum **Sérstillt útlit** .
@@ -60,7 +66,7 @@ Nú er hægt að fara á spjöld viðskiptamanna og lánardrottna til að tilgre
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

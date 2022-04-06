@@ -1,25 +1,26 @@
 ---
 title: Flytja gögn viðskiptamanna
-description: Hægt er að flytja núverandi gögn viðskiptamanns úr fyrirliggjandi kerfi yfir í Business Central með því að nota RapidStart Services - eða einfaldlega slá þau beint inn í fyrirtækið.
-author: SorenGP
-ms.service: dynamics365-business-central
+description: Hægt er að flytja fyrirliggjandi gögn viðskiptavinar úr kerfi sem til er fyrir til að nota Aðalleiðbeiningar með uppsetningarforriti aðstoðar. Einnig er hægt að nota Excel og RapidStart Services.
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1799, 1807, 8632, 1800, 1340, 8614, 8615
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 492ec993dfbf33f90fc601b1d6f8f27319ee39c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437467"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515720"
 ---
 # <a name="migrate-customer-data"></a>Flytja gögn viðskiptamanna
 
-Hægt er að flytja núverandi gögn um viðskiptamenn úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[prod_short](includes/prod_short.md)] með því að nota RapidStart Services gagnaflutningstækni. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið.
+Hægt er að flytja fyrirliggjandi viðskiptavinagögn úr ERP-kerfinu sem til [!INCLUDE[prod_short](includes/prod_short.md)] eru á netinu með flutningsferli skýja fyrir studdar útgáfur. Einnig er hægt að flytja í [!INCLUDE [prod_short](includes/prod_short.md)] innanhúss með gagnaflutningsverkfærum af RapidStart Services og skipta síðan yfir í skýið. Frekari upplýsingar er að finna [í yfirfæra gögn til fyrirtækja miðlægt í netinu](/dynamics365/business-central/dev-itpro/administration/migrate-data) í admin efni (eingöngu á ensku).  
+
+Í þessari grein Lítum við á skilgreiningarskrár sem hægt er að flytja úr og flytja inn í [!INCLUDE [prod_short](includes/prod_short.md)]. Efnið var skrifað með innanhússvirkjanir í huga.  
 
 > [!NOTE]
 > Ekki er hægt að flytja út/flytja inn svæði af gerðinni Blob með Excel.

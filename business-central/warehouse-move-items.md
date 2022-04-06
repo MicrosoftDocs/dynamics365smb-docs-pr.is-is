@@ -2,7 +2,6 @@
 title: Færa vörur
 description: Í birgðum þarf hugsanlega að færa vörur á milli hólfa til þess að styðja við flæði í vöruhúsinu í daglegum aðgerðum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5712722f58523d372feb10710013fdbf53a464b2
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 7a44f0b716b219d7c65481c69abb3795129e8147
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971250"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511919"
 ---
 # <a name="moving-items"></a>Færa vörur
 
@@ -47,7 +46,7 @@ Birgðatengd verk talningar, leiðréttingar og endurflokkunar á vörum kann a�
 [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md) 
 [samsetningarstýring](assembly-assemble-items.md)
 [hönnunar upplýsingar: vöruhúsastjórnun](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

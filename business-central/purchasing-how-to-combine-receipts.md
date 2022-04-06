@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 136, 145, 146, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d108525de00685e0661b4817ecc5919501f14d9f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2fe6a0b680472ff695f9203c11868d79f51e9a0a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380907"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521833"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Sameina móttökur í einn reikning
 
@@ -52,7 +52,7 @@ Skref 1 til 3 eru endurtekin fyrir öll skjöl sem urðu fyrir áhrifum, eins og
 
 [Innkaup](purchasing-manage-purchasing.md)  
 [Leiðrétta eða afturkalla ógreidda innkaupareikninga](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

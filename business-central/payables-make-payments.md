@@ -2,7 +2,6 @@
 title: Yfirlit yfir verkefni sem á að stjórna greiðslum til lánardrottna
 description: Útskýrir verkhluta sem fela í sér stjórnun greiðslna til lánardrottna, eins og að bóka greiðslulínur og sækja yfirlit fyrir gjaldfallna stöðu.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2abf1886541e51e23b5ebc9bbb5dec1d4a83bd06
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: ba8b80508fbab49fddb4d9927d47af3ae1d9708a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101426"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520917"
 ---
 # <a name="making-payments"></a>Framkvæma greiðslur
 
@@ -34,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 | Til | Sjá |
 | --- | --- |
-|Skilja grunnaðgerðir síðunnar **Greiðslubók**, sem byggir á færslubókinni, til að búa sig undir að bóka greiðslur til lánardrottna eða starfsmanna.|[Vinna í færslubókum](ui-work-general-journals.md)|
+|Skilja grunnaðgerðir síðunnar **Greiðslubók**, sem byggir á færslubókinni, til að búa sig undir að bóka greiðslur til lánardrottna eða starfsmanna.|[Vinna við Almennar færslubækur](ui-work-general-journals.md)|
 |Bóka greiðslur til lánardrottna eða starfsmanna og endurgreiðslur til viðskiptamanna og valfrjálst jafna greiðslur til tengdra ógreiddra reikninga/kreditreikninga til að loka þeim sem greiddum.|[Skrá greiðslur og endurgreiðslur](payables-how-post-payments-refunds.md)|
 | Nota skal aðgerð á síðunni **Greiðslubók** til að leggja til lánardrottnagreiðslur samkvæmt völdum skilyrðum, eins og gjalddaga, afsláttarskilyrði og greiðslugetu þína. |[Greiðslutillögur til lánardr.](payables-how-suggest-vendor-payments.md) |
 | Gefið út tékka vegna lánardrottnagreiðslna eða endurgreiðslna til viðskiptavina, annað hvort sem útprent eða sem vélfærðan tékka. Ógilda tékka fyrir eða eftir bókun. |[Framkvæma ávísanagreiðslur](payables-how-work-checks.md) |
@@ -46,7 +45,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Stjórna skuldum](payables-manage-payables.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,28 +2,29 @@
 title: Búa til eftirspurnarspá
 description: Kynntu þér eiginleika eftirspurnarspár og hvernig hægt er að búa til sölu- og framleiðsluspár.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 06/22/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: f966b73f4917bf803c0f8c4c92eefcd222aeeea7
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971380"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512915"
 ---
 # <a name="create-a-demand-forecast"></a>Búa til eftirspurnarspá
 
-Þú getur búið til sölu- og framleiðsluspár á síðunni **Eftirspurnarspá**.  
+Hægt er að stofna sölu-og framleiðsluspár með **listasíðunni eftirspurnarspár**. Síðan er fyrir hverja spá tilgreindar ýmsar stillingar fyrir þá spá á **yfirlitssíðu** eftirspurnarspár.  
 
-Spárvirkni er notuð til að skapa áætlaða eftirspurn; raunveruleg eftirspurn er gerð eftir sölu- og framleiðslupöntunum. Á meðan verið er að stofna aðalframleiðsluáætlun er spáin reiknuð saman við söluna og framleiðslupantanirnar. Valkosturinn  *Íhlutur* á spánni ákvarðar hvers konar skilyrði á að taka tillit til í útreikningsferlinu. Ef spáin er fyrir söluvöru eru bara sölupantanir reiknaðar saman við spána. Ef hún er fyrir íhluti er aðeins háð eftirspurn úr íhlutum framleiðslupöntunar reiknuð saman við spána.  
+Spárvirkni er notuð til að skapa áætlaða eftirspurn; raunveruleg eftirspurn er gerð eftir sölu- og framleiðslupöntunum. Á meðan verið er að stofna aðalframleiðsluáætlun er spáin reiknuð saman við söluna og framleiðslupantanirnar. **Reiturinn Tegund** spár ákvarðar hvaða tegund af þörfum á að taka tillit til í nettunarferlinu. Ef spáin er fyrir *söluvöru* eru aðeins sölupantanir nettó spárnar. Ef hún er fyrir *íhluti* er aðeins háð eftirspurn eftir framleiðslupöntunaríhlutum nettó.  
 
 Spá gerir fyrirtækinu kleift að búa til "hvað ef" atburðarásir og áætla og mæta eftirspurn á skilvirkan máta sem borgar sig. Nákvæm spá getur breytt miklu um það hversu ánægðir viðskiptavinir eru hvað varðar dagsetningar pöntunarloforða og tímanlega afgreiðslu.  
+
+Með 2022 losunarbylgju 1 er einnig hægt að skilgreina rétt smáatriði í **spánni með staðsetningu** og **Spá eftir vöruvíddasvæðum** á **yfirlitssíðu** eftirspurnarspár. Síur og aðrar stillingar eru geymdar í **töflunni Eftirspurnarspárheiti**. Þannig að þú getir auðveldlega stoppað og haldið áfram vinnu þinni síðar. Ef fyrirtækið hefur verið uppfært í 2022 út bylgju 1, verður að skipta á nýju upplifuninni á [síðu aðgangsstjórnunar](admin-feature-management.md).  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Söluspár og Framleiðsluspár
 
@@ -34,7 +35,10 @@ Hægt er að nota spárvirknina í forritinu til að búa til sölu- eða framle
 
 Í flestum tilfellum breytir framleiðslustjórinn söluspánni svo að hún passi saman við framleiðsluskilyrðin en uppfylli samt söluspána.  
 
-Þú býrð til spá handvirkt á síðunni **Eftirspurnarspá**. Margar spár geta verið til í kerfinu og þeim er skipt eftir nafni og tegund. Hægt er að afrita og breyta spám eftir þörfum. Athuga ber að aðeins er hægt að nota eina skrá í einu til að gera áætlanir.  
+Þú býrð til spá handvirkt á síðunni **Eftirspurnarspá**. Margar spár geta verið til í kerfinu og þeim er skipt eftir nafni og tegund. Hægt er að afrita og breyta spám eftir þörfum. 
+
+> [!NOTE]
+> Aðeins ein spá gildir í áætlanagerð á hverjum tíma.
 
 Spáin samanstendur af fjölda færslna sem taka hver fyrir sig fram vörunúmer, spárdagsetningu og spáð magn. Spá vöru nær yfir tímabil sem skilgreinist eftir spárdagsetningunni og spárdagsetningu næstu (seinni) spárfærslu. Út frá áætlunarsjónarmiði ætti spáð magn að vera fyrir hendi í upphafi eftirspurnartímabilsins.  
 
@@ -73,7 +77,7 @@ Síðan stofnarðu sölupöntun með magn upp á 12 á staðsetningu VESTUR. Á�
 
 ### <a name="do-not-use-forecast-by-locations"></a>Ekki nota spá eftir staðsetningum
 
-Ef slökkt er á **skiptispám með staðsetningu skal**[!INCLUDE[prod_short](includes/prod_short.md)] hunsa birgðageymslukóta sem eru tilgreindir fyrir hverja eftirspurnarspá og samanlagða spár í spá fyrir auðar staðsetningar.  
+Ef slökkt er **á skiptispám** með staðsetningu [!INCLUDE[prod_short](includes/prod_short.md)] skal hunsa birgðageymslukóta sem eru tilgreindir fyrir hverja eftirspurnarspá og samanlagða spár í spá fyrir auðar staðsetningar.  
 
 Skoðið þetta dæmi: Fyrirtækið þitt kaupir og selur vörur á tveimur staðsetningum: AUSTUR og VESTUR. Fyrir báðar staðsetningarnar ertu búin(n) að skilgreina endurpöntunarstefnu frá lotu til lotu. Þú býrð til spá fyrir tvær staðsetningar:
 
@@ -109,12 +113,12 @@ Síðan stofnarðu sölupöntun með magn upp á 12 á staðsetningu VESTUR. Á�
 ## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
-[...](production-manage-manufacturing.md)
-[Framleiðslubirgðum](inventory-manage-inventory.md)  
+[Framleiðslubirgðum](production-manage-manufacturing.md)
+[...](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

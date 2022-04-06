@@ -2,20 +2,19 @@
 title: Vista og sérsníða listayfirlit
 description: Kynntu þér hvernig þú býrð til þín eigin yfirlit fyrir síaða lista og hvernig á að vista, endurnefna og hafa umsjón með þessum yfirlitum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6ac3489151d9e4e0ebf0867b94b59678bba0f35e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 05cd41ffea6b2c78747112925d4da1e8a74c67b6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445352"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518784"
 ---
 # <a name="save-and-personalize-list-views"></a>Vista og sérsníða listayfirlit
 Þegar búið er að setja afmörkun á lista og ætlunin er að geyma síuna síðar er hægt að vista hana sem yfirlit. Frekari upplýsingar um síulista er að finna í [Síur stilltar á lista](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -47,7 +46,7 @@ Ef ekki er gefið upp nafn verður það nefnt **Allt (afrit)**.
 ## <a name="see-also"></a>Sjá einnig
 [Algengar spurningar um listayfirlit](ui-views-faq.yml)  
 [Sérstilling verksvæðis](ui-personalization-user.md)    
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2ec7e242bd174f3a825a29923b33642d035ec4ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132109"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521047"
 ---
 # <a name="design-details-assembly-order-posting"></a>Hönnunarupplýsingar: Bókun samsetningarpöntunar
 Bókun samsetningarpöntunar er byggð á sömu forsendum og bókun svipaðra aðgerða sölupantana og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.  
@@ -114,7 +114,7 @@ Bókun sölupantanalína þar sem einn hluti er birgðamagn og annar er magn sam
  [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

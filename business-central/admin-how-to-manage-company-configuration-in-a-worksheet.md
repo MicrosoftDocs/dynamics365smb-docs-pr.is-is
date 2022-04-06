@@ -1,23 +1,24 @@
 ---
-title: Hvernig á að vinna með grunnstillingu fyrirtækis í vinnublaði
-description: Skilgreiningarvinnublaðið er aðalstaðsetningin þar sem hægt er að áætla, rekja og framkvæma grunnstillingarvinnu fyrirtækisins.
+title: Vinna með grunnstillingu fyrirtækis í vinnublaði
+description: Ef notuð RapidStart Services er skilgreiningarvinnublaðið er miðlægu Staðsetningin þar sem hægt er að áætla, rekja og framkvæma skilgreiningarverk fyrirtækisins.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8632
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: c678d48b202043110627a2c8b29ae12be045d38d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437963"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514201"
 ---
-# <a name="manage-company-configuration-in-a-worksheet"></a>Vinna með grunnstillingu fyrirtækis í vinnublaði
+# <a name="manage-company-configuration-in-a-worksheet-with-rapidstart-services"></a>Stjórna skilgreiningu fyrirtækis á vinnublaði með RapidStart Services
+
 Skilgreiningarvinnublaðið er aðalstaðsetningin þar sem hægt er að áætla, rekja og framkvæma skilgreiningarvinnu. Hægt er að stofna vinnublað fyrir hvert fyrirtæki sem unnið er með eða stofna staðlað skilgreiningarvinnublað sem hægt er að nota þegar mörg eins fyrirtæki eru skilgreind.  
 
 Fyrsta skrefið í að undirbúa grunnstillingarpakka er að velja fyrirtæki sem þegar hefur verið uppsett og breytt, svo það falli að flestum af þörfum þínum eftir lausnum. Þetta fyrirtæki er grunnlína fyrir grunnstillingarvinnu í nýjum fyrirtækjum. Á vinnublaðinu, eru töflurnar tilgreindar sem óskað er eftir að stillingar stjórni og meðhöndli. Þar sem flestar töflur í [!INCLUDE[prod_short](includes/prod_short.md)] eru tengdar og háðar öðrum töflum, ætti einnig að hafa þessar tengdu töflur með eins og nauðsyn krefur. Saman eru þessar töflur síðan grindin sem nýtt fyrirtæki er byggt á. Næstu skref hjálpa til við að virkja og síðan gangsetja stillingu þína.  
@@ -26,8 +27,9 @@ Til að aðstoða við eftirlit og yfirlestur á vinnu þinni skaltu nota **Skil
 
 Eftirfarandi ferli sýna hvernig eigi að bæta við og sérstilla töfluupplýsingar fyrir viðkomandi grunnstillingu.  
 
-## <a name="to-open-the-configuration-worksheet"></a>Til að opna skilgreiningarvinnublað  
-1.  Í [!INCLUDE[prod_short](includes/prod_short.md)], opnið fyrirtækið sem er grunnlína fyrir grunnstillingu og opnið síðan Mitt hlutverk RapidStart Services innleiðara.  
+## <a name="to-open-the-configuration-worksheet"></a>Til að opna skilgreiningarvinnublað
+
+1.  [!INCLUDE[prod_short](includes/prod_short.md)] Opnið fyrirtækið sem er grunngrunninn fyrir samskipan.  
 2.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Grunnstillingarvinnublað** og velja síðan viðkomandi tengil.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Til að bæta töflu við vinnublað  
@@ -41,9 +43,9 @@ Eftirfarandi ferli sýna hvernig eigi að bæta við og sérstilla töfluupplýs
     > [!NOTE]  
     > Tengdum töflu verður ekki bætt við **Sækja tengdar töflur** ef annaðhvort af eftirfarandi er satt:
     > - Tengslin eru skilyrt.  
-    > Dæmi: Ef tengdar töflur fást fyrir töfluna **Viðskiptamaður** verður töflunni **Staðsetning** ekki bætt við því hún er aðeins tengd töflunni **Viðskiptamaður** með vissum skilyrðum, þ.e. ef reiturinn **Staðsetningarkóði** í töflunni **Viðskiptamaður** er útfylltur.  
+    >     Dæmi: Ef tengdar töflur fást fyrir töfluna **Viðskiptamaður** verður töflunni **Staðsetning** ekki bætt við því hún er aðeins tengd töflunni **Viðskiptamaður** með vissum skilyrðum, þ.e. ef reiturinn **Staðsetningarkóði** í töflunni **Viðskiptamaður** er útfylltur.  
     > - Tengda taflan ef með afmörkunum.  
-    > Dæmi: Reitur í tengdu töflunni er með HVAR klausu. Ástæðan er að upplýsingar um þau tengsl sem í hlut eiga eru vistaðar í kerfistöflunni **Reitur**, sem er ekki algerlega aðgengileg forritinu.  
+    >     Dæmi: Reitur í tengdu töflunni er með HVAR klausu. Ástæðan er að upplýsingar um þau tengsl sem í hlut eiga eru vistaðar í kerfistöflunni **Reitur**, sem er ekki algerlega aðgengileg forritinu.  
     > Slíkum töflum þarf að bæta við handvirkt með því að fylgja skrefi 4 í þessum verklagsreglum.  
 
 8.  Til að breyta töflulistanum sem þá kemur skal velja töflu sem á að fjarlægja og síðan skal velja aðgerðina **Eyða**.  

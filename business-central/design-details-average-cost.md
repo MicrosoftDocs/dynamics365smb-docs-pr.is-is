@@ -2,7 +2,6 @@
 title: Upplýsingar um hönnun-meðalkostnaður
 description: Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað við meðalkostnaðartímabil sem er sett upp í Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d670fb96b0f29c8a34f7076429d6a56f834d2e5d
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
-ms.translationtype: HT
+ms.openlocfilehash: cdba126a3cdd6116f0067cac08bccadbdfc5a982
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115093"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519841"
 ---
 # <a name="design-details-average-cost"></a>Hönnunarupplýsingar: Meðalkostnaður
 Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað við meðalkostnaðartímabil sem er sett upp í [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -209,10 +208,10 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)   
  [Hönnunarupplýsingar: Kostnaðarleiðrétting](design-details-cost-adjustment.md)   
- [Hönnunarupplýsingar: Birgðajöfnun](design-details-item-application.md)  
+ [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

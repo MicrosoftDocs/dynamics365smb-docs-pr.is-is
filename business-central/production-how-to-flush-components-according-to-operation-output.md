@@ -2,7 +2,6 @@
 title: Birgðaskráning íhluta samkvæmt frálagi aðgerðar
 description: Þetta efnisatriði lýsir því hvernig á að losa hluti samkvæmt úttaki aðgerðar ásamt öðrum losunaraðferðum sem eiga hlut að máli.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 3e86bf736bb25a9270bec93fcabfa683a6f4ae5f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439094"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516059"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Birgðaskráning íhluta samkvæmt frálagi aðgerðar
 Hægt er að skilgreina mismunandi losunarleiðir til að gera skráningu á notkun íhluta sjálfvirka. 
@@ -127,6 +126,6 @@ Eftirfarandi tafla lýsir tiltækri losunaraðferð sem hægt er að tilgreina �
 [Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Setja upp almennar eignaupplýsingar
+title: Setja upp almennar EIGNAUPPLÝSINGAR
 description: Áður en þú getur byrjað að stjórna eignum, verður þú að setja upp sjálfgefna fjárhagsreikninga, bókunarflokka, úthlutunarlykla, færslubókasniðmát og keyrslur, og flokkskóða.
 author: edupont04
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6dbf3cbffebaf6c9ce06151a941d6517c6203863
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 9532dad89e3d88acf60e5c56af6c75ff9fc24fd1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366458"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523502"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Uppsetning almennra eignaupplýsinga
 Áður en hægt er að vinna með eignir, þarf að setja upp sjálfgefna fjárhagsreikninga, úthlutunarlykla, færslubókarsniðmát og keyrslur fyrir bókun á eign og endurflokkun og hægt er að flokka eignir í eignaflokka, til dæmis Áþreifanlegar og Óáþreifanlegar.
@@ -49,7 +49,7 @@ Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úth
 4. Endurtaktu skref 2 og 3 fyrir hverja bókunargerð sem ætlunin er að skilgreina úthlutunarlykla fyrir.
 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Setja upp sniðmát eignabóka
-Sniðmát er fyrirfram skilgreind uppsetning á færslubók. Í sniðmáti eru upplýsingar um ferilskóta, skýrslur og númeraraðir. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
+Sniðmát er fyrirfram skilgreind uppsetning á færslubók. Í sniðmáti eru upplýsingar um ferilskóta, skýrslur og númeraraðir. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem síðan **Færslubók eignar** er opnuð, en hægt er að setja upp önnur sniðmát færslubókar.  
 
@@ -122,7 +122,7 @@ Ef eignirnar eru ekki samþættar fjárhag er sleppt lið 6 og 8.
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

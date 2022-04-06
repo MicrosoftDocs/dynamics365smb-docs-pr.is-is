@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: 40642b524e44234cda8ef0bd468ff8eb47decb69
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4dda49e125445ab754ce63dc6b2fc530ca59fcc4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142264"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516979"
 ---
 # <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Áætla vinnslur fyrir leiðréttingu og afstemmingu birgðakostnaðar með fjárhag
 
@@ -60,4 +60,4 @@ Til að tímasetja verk fyrir afstemmingu birgða í fjárhag skal velja kóðae
 [Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)  
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

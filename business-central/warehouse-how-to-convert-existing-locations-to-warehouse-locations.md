@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 15
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ab867778edc60bf64591866a628bdb638d99c45
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 56a9cc0181b73c5490c6cbc499071e1bfbb63da2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383402"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512603"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Breyta fyrirliggjandi staðsetningum í vöruhúsastaðsetningar
 Hægt er að láta birgðageymslu sem til er nota svæði og hólf og vinna sem vöruhúsastað.  
@@ -48,7 +48,7 @@ Hægt er að stofna svæði og hólf fyrir eða eftir umbreytinguna. Eina hólfi
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

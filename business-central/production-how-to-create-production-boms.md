@@ -1,17 +1,17 @@
 ---
 title: Búa til framleiðsluuppskriftir
 description: Kynntu þér hvernig þú býrð til framleiðsluuppskriftir, nýjar útgáfur af framleiðsluuppskrift og hvernig á að nota formúlu fyrir útreikning á magni.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130255"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516901"
 ---
 # <a name="create-production-boms"></a>Búa til framleiðsluuppskriftir
 
@@ -85,6 +85,10 @@ Tengsl ólíkra íhluta eru skilgreind af reiknireglunni. Hægt er að nota efti
 - **Lengd x Breidd** - Magn = Magn á * Lengd x Breidd  
 - **Lengd x Breidd x Dýpt** - Magn = Magn á Lengd x Breidd x Dýpt  
 - **Þyngd** -Magn = Magn á x Þyngd  
+- **Fast magn** -Magn = Magn á
+
+> [!NOTE]
+> Formúla fyrir útreikning á **magni** tryggir að notkunarhluti íhlutarins sé sá sami án tillits til úrkomu eða frálagsmagns. Fyrir íhluti framleiðslupöntunar þegar **reiturinn útreikningsformúla** er stilltur á **Fast magn** **er gildið Væntanlegt magnsvæði** alltaf jafnt **magninu á hverju** svæði. Úrkastsprósentan sem er skilgreind í sömu línu er hunsuð. Fast magn er virt með **tiltækinu eftir uppskriftarskýrslu**. Skýrslan sýnir vöruna sem flöskuhálsinn ef tiltækt magn er minna en magnið í **yfirsvæðinu** Magn á eftir. Það **að geta Yfirgert** **efsta vörusvæði** er alltaf autt, óháð því magni sem er í boði. Fast magn er einnig innifalið í útreikningi fyrir staðlaðan kostnað. Lotustærðin fyrir framleiddu vöruna hefur áhrif á kostnaðinn sem er úthlutað fyrir eina vöru.
 
 ### <a name="example"></a>Dæmi
 
@@ -98,7 +102,7 @@ Framleiðsluuppskrift hljóðar upp á sjötíu málmhluti með víddina lengd =
 [Áætlun](production-planning.md)   
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

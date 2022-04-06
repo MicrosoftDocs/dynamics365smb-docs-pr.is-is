@@ -10,14 +10,16 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d629b2639325b95ab90db8aaf8ac9a3e5d51fc33
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134718"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511442"
 ---
-# <a name="create-and-modify-custom-report-layouts"></a>Búa til og breyta sérsniðnum skýrsluútlitum
+# <a name="legacy-create-and-modify-custom-report-layouts"></a>Arfur Stofna og breyta skipan sérsniðinnar skýrslu
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Sjálfgefið er að skýrsla hafa innbyggt skýrsluútlit, sem getur verið RDLC-skýrsluútlit, Word-skýrsluútlit eða bæði. Ekki er hægt að breyta innbyggðum útlitum. En þú getur búið til þín eigin sérsniðin útlit sem gerir þér kleift að breyta útliti skýrslu þegar hún er skoðuð, prentuð eða vistuð. Hægt er að búa til mörg sérsniðin skýrsluútlit fyrir sömu skýrsluna, og skipta svo á milli útlita fyrir skýrsluna eftir þörfum.
 
@@ -63,56 +65,56 @@ Til að breyta skýrsluútliti þarftu fyrst að flytja út skýrsluútlit sem s
 
 ### <a name="to-modify-a-custom-layout"></a>Skýrsluútliti sérsniðnu breytt
 
-1.  Þú flytur út sérsniðið útlit á síðunni **sérsniðið skýrsluútlit**. Ef þessi síða er ekki þegar opin skaltu leita að og opna síðuna **Val á skýrsluútliti**, velja skýrsluna sem þú vilt breyta útlitið fyrir og velja svo aðgerðina **Sérsniðið útlit**.  
-2.  Á síðunni **Sérsniðið skýrsluútlit** skal velja útlitið sem þú vilt breyta, veldu **Flytja út útlit** aðgerðina og svo velja **Vista** eða **Vista sem** til að vista skýrsluútlitsskjalið á staðsetningu í tölvunni eða á netkerfi.  
+1. Þú flytur út sérsniðið útlit á síðunni **sérsniðið skýrsluútlit**. Ef þessi síða er ekki þegar opin skaltu leita að og opna síðuna **Val á skýrsluútliti**, velja skýrsluna sem þú vilt breyta útlitið fyrir og velja svo aðgerðina **Sérsniðið útlit**.  
+2. Á síðunni **Sérsniðið skýrsluútlit** skal velja útlitið sem þú vilt breyta, veldu **Flytja út útlit** aðgerðina og svo velja **Vista** eða **Vista sem** til að vista skýrsluútlitsskjalið á staðsetningu í tölvunni eða á netkerfi.  
+3. Opnaðu skýrsluútlitsskjalið sem þú vistaðir og gerðu breytingar.
 
-3.  Opnaðu skýrsluútlitsskjalið sem þú vistaðir og gerðu breytingar.
+   Ef þú ert að breyta Word-útliti skaltu opna útlitsskjalið í Word. Til að breyta upplýsingum má sjá [vinnu með Word skipulag](ui-how-add-fields-word-report-layout.md)<!--the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout)-->.
 
-      Ef þú ert að breyta Word-útliti skaltu opna útlitsskjalið í Word. Fyrir upplýsingar um breytingar, sjá næsta hluta [Breytingar gerðar á skýrsluútlitinu](ui-how-create-custom-report-layout.md#MakeChangesToLayout).
+   Breyting RDLC-skýrsluútlits er flóknara en Word-skýrsluútlits. Frekari upplýsingar um það hvernig RDLC-skýrsluútliti er breytt eru í [Hanna RDLC-skýrsluútlit](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
-      Breyting RDLC-skýrsluútlits er flóknara en Word-skýrsluútlits. Frekari upplýsingar um það hvernig RDLC-skýrsluútliti er breytt eru í [Hanna RDLC-skýrsluútlit](/dynamics-nav/Designing-RDLC-Report-Layouts).
+   Mundu að vista breytingar þegar lokið.
 
-      Mundu að vista breytingar þegar lokið.
-
-4.  Farið aftur á síðuna **Sérsniðið skýrsluútlit**, veljið skýrsluútlit sem var flutt út og breytt og veljið svo **Flytja inn útlit** aðgerðina.  
+4. Farið aftur á síðuna **Sérsniðið skýrsluútlit**, veljið skýrsluútlit sem var flutt út og breytt og veljið svo **Flytja inn útlit** aðgerðina.  
 
 5. Í svarglugganum **Flytja inn** skal velja **Velja** til að finna og velja brreytt skjal skýrsluútlits og svo velja **Opna**.
 
 > [!IMPORTANT]
 > Mundu að flytja inn skjal skýrsluútlits sem þú breyttir. Annars verður nýja skýrsluútlitið ekki í boði.
 
-##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a>Búa til og breyta sérsniðnum skýrsluútlitum
+<!--
+##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
 
-Til að gera almennar sniðsbreytingar og útlitsbreytingar, t.d. að breyta leturgerð, bæta við og breyta töflu eða að fjarlægja gagnareit, skal einfaldlega nota grunnbreytingarvalkosti Word, líkt og gert er fyrir öll önnur Word skjöl.
+To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
 
-Ef þú ert að hanna Word-skýrsluútlit frá grunni eða bæta við nýjum gagnareitum skaltu byrja með því að bæta við töflu sem er með raðir og dálka sem munu að endingu innihalda gagnareitina.
+If you're designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 
 > [!TIP]  
-> Sýna hnitanetslínur töflu þannig að jaðrar töfluhólfanna sjáist. Mundu að fela hnitanetslínurnar þegar breytingum er lokið. Til að sýna eða fela töfluhnitalínur velurðu töfluna og svo, undir **Útlit** á flipanum **Tafla** velurðu **Skoða hnitalínur**.
+> Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Innfelling leturgerða í Word Layouts fyrir samræmi
+### Embedding Fonts in Word Layouts for Consistency
 
-Til að tryggja að skýrslur birtist alltaf og prentist með fyrirhuguðum leturgerðum, óháð því hvar notendur opna eða prenta skýrslurnar, geturðu fellt inn leturgerðirnar í Word skjalinu. Hins vegar geta innfelldar leturgerðir aukið stærð Word-skrá umtalsvert. Nánari upplýsingar um innfellingu leturgerða í Word, sjá [Fella inn leturgerðir í Word, PowerPoint eða Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Merkimiða- og gagnareitir fjarlægðir úr Word-útliti
+###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts
 
- Merkimiða- og gagnareitir skýrslu eru í efnisstjórnun í Word. Eftirfarandi mynd sýnir efnisstýringu þegar hún er valin í Word-skjalinu.  
+ Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
- ![Efnisstýring fyrir reit í Word-skýrsluútliti.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Content control for field in Word report layout.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
- Heiti merkisins eða heiti gagnareits er birt í efnisstjórnun. Í dæminu er heiti reitsins CompanyAddr1.  
+ The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a>Til að fjarlægja merki eða gagnareit  
+### To remove a label or data field  
 
-1. Hægri-smellir á reitinn sem á að eyða og svo **Fjarlægja efnisstýringu**.  
+1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
 
-     Efnisstjórnunin er fjarlægð en reitarheitið er til staðar sem texti.  
+     The content control is removed, but the field name remains as text.  
 
-2. Eyða skal textanum sem eftir er eftir því sem þörf krefur.  
+2. Delete the remaining text as needed.  
 
-### <a name="adding-data-fields"></a>Bæta við gagnareitum
+### Adding data fields
 
-Að bæta við gagnareitum úr gagnamengi skýrslu er betri leið og kallar á þekkingu gagnamengis skýrslunnar. Upplýsingar um það hvernig reitum er bætt við fyrir gögn, merkjum, gögnum og myndum er að finna í [Bæta reitum við Word skýrsluútlit](ui-how-add-fields-word-report-layout.md).  
+Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
@@ -121,10 +123,10 @@ Að bæta við gagnareitum úr gagnamengi skýrslu er betri leið og kallar á �
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md)  
 [Flytja inn og út sérsniðið skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)  
-[Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
+[Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
 [Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

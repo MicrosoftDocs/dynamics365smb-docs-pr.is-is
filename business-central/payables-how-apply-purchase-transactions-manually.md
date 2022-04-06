@@ -10,12 +10,12 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.search.form: 62, 233, 522, 623
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3ec4f46425a344276792f44fde29e23f695384f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 001d747391998df212bacf9dbde23ebbe240bc2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145629"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521937"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Afstemma greiðslur lánardrottins með greiðslubók eða úr færslum í lánardrottnabók
 Þegar lánardrottni er greitt eða hann endurgreiðir verður að ákveða hvort jafna eigi greiðsluna eða endurgreiðsluna við eina eða fleiri opnar færslur. Hægt er að tilgreina nákvæma upphæð sem á að jafna við greiðslumóttökuna eða endurgreiðsluna, og svo aðeins að hluta til jafna við lánardrottnabókarfærslur. Jafna þarf öllum lánardrottnafærslum til að fá réttar lánardrottnaupplýsingar og skýrslur á reikningsyfirlitum og vöxtum.
@@ -118,9 +118,9 @@ Ef færsla (Færsla 1) í einum gjaldmiðli er jöfnuð við færslu (Færsla 2)
 >   Ef færsla hefur verið jöfnuð með fleiri en einni jöfnunarfærslu verður að ógilda þá nýjustu fyrst.
 
 ## <a name="see-also"></a>Sjá einnig
-[Viðskiptaskuldir](payables-manage-payables.md)  
+[Til greiðslu](payables-manage-payables.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

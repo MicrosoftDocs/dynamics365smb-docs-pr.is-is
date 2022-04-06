@@ -1,39 +1,48 @@
 ---
 title: Business Central og OneDrive fyrir Business Integration
 description: Þú getur notað OneDrive fyrir Business til að geyma, hafa umsjón með og deila skrám á borð við skýrslur eða skráarviðhengi.
-author: brentholtorf
+author: jswymer
 ms.topic: overview
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
-ms.author: bholtorf
-ms.openlocfilehash: 522bf01d08e77e52b4fbcf32f2652c53208cf8ec
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 02/28/2022
+ms.author: jswymer
+ms.openlocfilehash: 371c090e321992ec2fdc0ee7cb218feaa6b16d9a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381830"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521229"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Business Central og OneDrive fyrir Business Integration
+
 OneDrive til viðskipta er skýgeymsluþjónusta sem er innifalin í Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] auðveldar geymslu, umsjón og deilingu skráa með öðrum í gegnum OneDrive. Þegar skrá er í OneDrive getur þú notið ríkulegs samstarfs úr netútgáfum af vörum Microsoft, t.d. Word, Excel og PowerPoint. Til dæmis er hægt að deila Word-skjali og þá getur þú og samstarfsfólk þitt breytt því saman í rauntíma. OneDrive gerir þér líka kleift að opna aðrar gerðir skráa, t.d. PDF. 
 
 ## <a name="getting-started"></a>Hafist handa
+
 Við höfum búið til tenginguna milli [!INCLUDE[prod_short](includes/prod_short.md)] á netinu og OneDrive og því er auðvelt að hefjast handa. Eina krafan er sú að notendur hafi opnað OneDrive að minnsta kosti einu sinni. 
 
-Á flestum síðum þar sem skrár eru tiltækar, svo sem í innhólfi skýrslunnar eða skrám sem hengar eru við færslur, finnur þú aðgerðina **Opna í OneDrive**.
+Á flestum síðum þar sem skrár eru tiltækar, svo sem í Skýrsluinnhólfinu eða skrám sem tengdar eru færslum, er hægt að finna **opnar inn OneDrive** og **samnýta** Aðgerðir.
 
-:::image type="content" source="media/Open in OneDrive.PNG" alt-text="Opna í OneDrive aðgerðin":::
+:::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="Glugginn opna í OneDrive og samnýta aðgerðir fyrir skýrslur":::
 
- 
-:::image type="content" source="media/OneDrive attachment.PNG" alt-text="Deila skrá í viðhengjum í OneDrive":::
 
-Þegar þú notar aðgerðina **Opna í OneDrive** í fyrsta skipti gerir [!INCLUDE[prod_short](includes/prod_short.md)] eftirfarandi í OneDrive þínu:
+:::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Glugginn opna í OneDrive og samnýta aðgerðir fyrir viðhengi":::
 
-1. Stofnar möppu sem heitir [!INCLUDE[prod_short](includes/prod_short.md)]. 
-2. Í [!INCLUDE[prod_short](includes/prod_short.md)] möppunni býr það til aðra möppu með sama heiti og fyrirtækið sem þú ert að vinna í. Ef unnið er í fleiri en einu fyrirtæki mun það búa til möppu fyrir fyrirtækið sem unnið er í þegar aðgerðin **Opna í OneDrive** er notuð. 
-3. Setur afrit af skránni sem þú valdir í möppuna og opnar svo skrána. Næst þegar þú notar aðgerðina afritar það aðeins og opnar skrána. 
+|Veldu...|Að...|Sjá frekari uppl...|
+|---------|-----|----------------|
+|Opnar í OneDrive|Afritið skrána í Aðalmöppu notanda OneDrive og opnið hana.|[Opnar í OneDrive](across-share-onedrive.md#open-in-onedrive) |
+|Hlutdeild|Afritaðu skrána yfir á þína OneDrive og Deildu henni með öðrum.|[Hlut í OneDrive](across-share-onedrive.md#share) |
 
-Mappan og efni hennar eru lokuð þar til þú ákveður að deila því með öðrum. Til dæmis gætir þú ákveðið að deila efni með einum eða fleiri samstarfsmönnum þínum eða jafnvel fólki utan fyrirtækisins. Frekari upplýsingar er að finna í [Deila OneDrive skrám og möppum](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+<!--
+When you use the **Open in OneDrive** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
+
+1. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)]. 
+2. In the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates another folder with the same name as the company you're working in. If you work in more than one company, it will create a folder for the company you're working in when you use the **Open in OneDrive** action. 
+3. Puts a copy of the file you selected in the folder, and then opens the file. The next time you use the action, it only copies and opens the file. 
+
+The folder and its content are private until you decide to share them with others. For example, you might decide to share content with one or more of your coworkers, or even people outside of your organization. For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+-->
 
 > [!NOTE]
 > Einnig er hægt að tengja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við OneDrive. Nokkur atriði þarf hinsvegar að hafa í huga til að það gangi upp. Frekari upplýsingar er að finna í [Skilgreining Business Central-þjóns innanhúss](admin-onedrive-integration.md#configuring-business-central-on-premises).

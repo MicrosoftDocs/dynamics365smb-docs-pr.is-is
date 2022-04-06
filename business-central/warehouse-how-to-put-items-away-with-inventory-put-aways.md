@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 02d3f8dca5381ecebac7cb2d980841a2e5897846
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 190a3925cfc692331e21e3cd2a2b41c68cc02d6f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138155"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511416"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ganga frá vörum með birgðafrágangi
 Þegar birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttökuvinnslu skal nota fylgiskjalið **Birgðafrágangur** til að skrá og bóka frágang og afhendingarupplýsingar fyrir upprunaskjölin. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslu eða samsetningapöntun þar sem úttakið er tilbúið til frágangs.  
@@ -76,7 +76,7 @@ Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofn
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

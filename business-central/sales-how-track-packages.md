@@ -7,12 +7,12 @@ ms.search.keywords: rfq
 ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8124aa575b7cc1883ce4509834583651c6746b2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334487"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518940"
 ---
 # <a name="track-packages"></a>Finna sendingar
 Flestir flutningsaðilar bjóða upp á vefþjónustu sem gerir þér kleift að rekja stöðu pakkanna þinna á leiðinni. Þessar upplýsingar geta reynst gagnlegar í mörgum viðskiptaferlum, t.d. fyrir viðskiptamannaþjónustu. Ef fleiri en einn flutningsaðili er notaður er hægt að færa inn grunnupplýsingar um þá og síðan nota rakningarþjónustu þeirra beint af síðunum Bókaðar söluafhendingar, Bókaðir sölureikningar, Bókaðir sölukreditreikningar og Bókuð vöruskilamóttaka. Frekari upplýsingar er að finna í [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md). 
@@ -36,7 +36,7 @@ Eftirfarandi ferli sýnir hvernig á að rekja pakka frá bókaðri sölusending
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

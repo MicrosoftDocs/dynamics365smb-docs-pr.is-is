@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: c88081d9489e66979e4cfc757a9f5ed317a85b8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 37bd1ae61aae45a988ab38f1e25be3f870814f77
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382664"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512889"
 ---
 # <a name="viewing-service-statistics"></a>Þjónustuupplýsingar skoðaðar
 Hægt er að nota tölfræði til að greina þjónustuskjöl og ákvarða hversu vel þú ert að stjórna þjónustuferlunum. Þú getur greint þjónustusamninga, vörur, tilboð, pantanir, reikninga og kreditreikninga með því að velja aðgerðina **Upplýsingar**. Fyrir þjónustuvörur og samninga, geturðu líka notað **Þjónustuvara Trendscape** eða **Samningur Trendscape** til að skoða yfirlit yfir þjónustufærslur fyrir sérstaka þjónustuvöru.   
@@ -62,7 +62,7 @@ Fyrir hverja færslutegund er hægt að skoða reikningsfærða upphæð, notkun
 
 * (Reikningsfærð upphæð Notkun (Kostnaður)) x 100 Reikningsfærð upphæð  
 
-## <a name="using-trendscapes"></a>Nota Trendscapes
+## <a name="use-trendscapes"></a>Nota Trendscapes
 Fyrir þjónustuvörur og þjónustusamninga, veita síðurnar **þjónustuvara Trendscape** eða **Þjónustusamningur Trendscape** skrunanlega samantekt yfir þjónustubókarfærslur yfir tiltekið tímabil fyrir tiltekna þjónustuvöru eða þjónustusamning. Til að skoða Trendscape, skal opna þjónustuvöruna eða þjónustusamninginn, velja **Upplýsingar** aðgerðina og síðan velja **Trendscape**.
 
 Þegar skrunað er upp eða niður eru upphæðirnar reiknaðar eftir því tímabili sem er valið í staðbundnum gjaldmiðli. Reiknaðar eru allar upphæðir af bókuðum þjónustufærslum, sem eru færslur sem eru stofnaðar þegar þjónustupantanir eða þjónustureikningar eru bókaðir.

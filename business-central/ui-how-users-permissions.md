@@ -2,55 +2,87 @@
 title: Búa til notendur samkvæmt leyfum
 description: Lýsir því hvernig skal bæta notendum við Business Central á netinu eða á staðnum samkvæmt leyfum.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 119, 6300, 6301, 6302, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
-ms.date: 04/01/2021
+ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
+ms.date: 03/23/2022
 ms.author: edupont
-ms.openlocfilehash: 5e11c7b88a17998086f0f11e809415248ad8f389
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
-ms.translationtype: HT
+ms.openlocfilehash: 52d8c0fb735bb0667f2219f5ed73e914e236014a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115341"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512153"
 ---
 # <a name="create-users-according-to-licenses"></a>Búa til notendur samkvæmt leyfum
 
-Í þessari grein er því lýst hvernig stjórnendur búa til notendur og skilgreina hverjir geta skráð sig inn í [!INCLUDE[prod_short](includes/prod_short.md)] og hvaða heimildir eru gefnar mismunandi gerðum notenda samkvæmt leyfunum.
+Í þessari grein er lýst hvernig kerfisstjórar stofna notendur og skilgreina hverjir geta skráð sig inn [!INCLUDE[prod_short](includes/prod_short.md)]. Í greininni er einnig fjallað um hvernig staðið skuli að úthlutun heimilda til mismunandi notenda samkvæmt virkjunarleyfum.
 
-Þegar notendur eru búnir til í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að úthluta þeim ákveðnum heimildum í gegnum heimildasamstæður og raða notendum í notendaflokka. Notendaflokkar auðvelda stjórnun heimilda fyrir marga notendur á sama tíma. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
+Þegar notendur eru stofnaðir í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að úthluta heimildum til þeirra með heimildastæðum og skipuleggja notendur í notendaflokkum. Notendaflokkar auðvelda stjórnun heimilda fyrir marga notendur á sama tíma. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
 Frekari upplýsingar um mismunandi gerðir leyfa og hvernig leyfi virka í [!INCLUDE[prod_short](includes/prod_short.md)] fást með því að sækja [leyfishandbók Dynamics 365-](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 > [!NOTE]
 > Ferlið við að stjórna notendum og leyfum er mismunandi eftir því hvort [!INCLUDE[prod_short](includes/prod_short.md)] er sett upp á netinu eða innanhúss. Það þarf að bæta notendum við [!INCLUDE [prod_short](includes/prod_short.md)] á netinu Microsoft 365. Í uppsetningum á staðnum er hægt að búa til, breyta og eyða notendum beint.  
 
-## <a name="managing-users-and-licenses-in-online-deployments"></a>Umsjón með notendum og leyfum uppsetningum á netinu
+## <a name="manage-users-and-licenses-in-online-tenants"></a>Umsjón með notendum og leyfum í netverslunum
 
-Í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er fjöldi notenda skilgreindur eftir áskriftinni og bætt við leigjandann þinn í Microsoft Partner Center, yfirleitt af Microsoft-samstarfsaðila þínum. Frekari upplýsingar er að finna í [Bæta nýjum viðskiptavin við](/partner-center/add-a-new-customer) og [Stofna, setja í bið eða segja upp áskriftum viðskiptamanna](/partner-center/create-a-new-subscription) í hjálp Microsoft Partner Center.
+[!INCLUDE[prod_short](includes/prod_short.md)] Í áskriftinni þinni skilgreinir þú fjölda notenda sem eru leyfðir. Notendum er bætt við þinn leigjanda í Microsoft Partner Center, yfirleitt af Microsoft samstarfsaðila. Frekari upplýsingar er að finna í [Bæta nýjum viðskiptavin við](/partner-center/add-a-new-customer) og [Stofna, setja í bið eða segja upp áskriftum viðskiptamanna](/partner-center/create-a-new-subscription) í hjálp Microsoft Partner Center.
 
-Til að skilgreina hverjir geta skráð sig inn á [!INCLUDE[prod_short](includes/prod_short.md)] þarf að úthluta vöruleyfum til notenda í samræmi við þau hlutverk sem þeir munu framkvæma í [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta er hægt að gera á eftirfarandi hátt:
+Til að skilgreina hver getur skráð sig inn [!INCLUDE[prod_short](includes/prod_short.md)] þarf að úthluta virkjunarleyfum til notenda samkvæmt þeirri vinnu sem þeir gera í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að úthluta leyfum með nokkrum hætti:
 
 - Kerfisstjóri fyrirtækisins Microsoft 365 getur gert það í [Microsoft 365 stjórnendamiðstöð](https://admin.microsoft.com). Nánari upplýsingar eru [í bæta við notendum sérstaklega eða að magni til Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - Microsoft-félagi getur úthlutað leyfum í Microsoft 365 admin Center eða í Microsoft samstarfsmiðstöðinni. Frekari upplýsingar er að finna í [Stjórnunarverk notanda fyrir viðskiptamannalykla](/partner-center/assign-licenses-to-users) í hjálp Microsoft Partner Center.
 
 Frekari upplýsingar er að finna í [Stjórnun Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) í hjálp stjórnenda.
 
+> [!NOTE]
+> Eftir að notendum hefur verið bætt í Microsoft 365 admin Center er mælt með því að uppfæra notendaupplýsingarnar í [!INCLUDE[prod_short](includes/prod_short.md)] eins fljótt og auðið er. Að halda utan um Notandaupplýsingar þetta er auðvelt að gera og hjálpar til við að tryggja að fólk geti alltaf skráð sig inn. Frekari upplýsingar er að finna [í til að bæta við notendum eða uppfæra notendaupplýsingar og leyfisúthlutanir í Viðskiptamiðnum](#adduser).<br>
+> 
+> Uppfærsla á notandaupplýsingum er sérstaklega mikilvæg ef þú hefur sérsniðið heimildasöfn að leyfinu. Ef nýr notandi reynir að skrá sig inn [!INCLUDE[prod_short](includes/prod_short.md)] áður en þeim er bætt við þá er það hugsanlega ekki hægt. Nánari upplýsingar eru [í Configure aðgangsheimildir byggðar á leyfum](#licensespermissions). 
+> 
+> Notendur sem upplifa vandann eru hins vegar í raun ekki lokaðir. Þeir geta annað hvort notað **aðgerðina fara aftur heim**, eða einfaldlega skrá sig inn aftur til að leysa málið.
+
+### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a> Skilgreina heimildir samkvæmt leyfum
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+Admins er hægt að samskipa heimildastæðum og notendaflokkum á grundvelli mismunandi leyfistegundum.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
+
+Til dæmis er forritið sem er almennt notað, *Dynamics 365 Business Central teymismeðlima*, stillt upp þannig að notendaflokkar *D365 Team* og *Excel flytja aðgerð* plús eftirfarandi heimildir:
+
+- D365 LESA
+- D365
+- BREYTA Í EXCEL-SKOÐA
+- ÚTFLUTNINGSSKÝRSLA EXCEL
+- SVEITARFÉLAGA
+
+Ef þetta er ekki rétt Uppsetning fyrir ákveðinn leigjanda getur admin breytt þeirri skilgreiningu. Sérsniðnar heimildir hafa hins vegar aðeins áhrif á nýja notendur sem fá úthlutað því leyfi. Ekki verður hægt að hafa áhrif á heimildir fyrir þá notendur sem eru tengdir leyfinu.  
+
+1. Skráðu þig inn í [!INCLUDE[prod_short](includes/prod_short.md)] með stjórnandareikningi.  
+2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **Leyfistelling** og veljið síðan tengda tengilinn.  
+
+    Ef þú ert þegar á **síðunni notendur** er hægt að keyra **uppfærslunotendur úr Microsoft 365** leiðbeiningum og svo á fyrstu blaðsíðu leiðbeininganna með því að velja **tengilinn skilgreina heimildir fyrir hvern leyfistengil**.  
+3. **Á síðunni um Leyfisskilgreiningar** er valið það leyfi sem á að sérsníða og síðan er **valið aðgerðin skilgreina**.  
+4. **Reiturinn sérsníða heimildir** er valinn til að skipta á sérsnið og gera síðan viðeigandi breytingar.  
+
+    Í okkar dæmi vill admin að fjarlægja heimildina til að breyta í Excel, þannig að þau fjarlægi *notendaflokk Excel-útflutnings* úr Team-félagi leyfishafa. Fara fram, nýir notendur sem eru tengdir Team meðlim leyfi munu ekki fá möguleika á að flytja út gögn í Excel. Ef skipulagið breytir hugarfari sínu um þetta þá geta þeir bara farið aftur **á síðuna leyfisveitingar** og slökkt á sérkennslunum fyrir þá leyfisgerð.  
+
+> [!IMPORTANT]
+> Þessi heimild tekur aðeins til gilda fyrir nýja notendur sem viðkomandi leyfi er úthlutað á sérsnið. Fyrirliggjandi notendur eru ekki uppfærðir. Mælt er með að sérsníða heimildir áður en byrjað er að úthluta notendaleyfum í Microsoft 365 admin Center.
+
 ### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Að bæta við notendum eða uppfæra notandaupplýsingar og úthlutunum leyfa í Business Central
-Eftir að þú hefur bætt við notendum eða breytt upplýsingum um notanda í Microsoft 365 admin Center er fljótlegt að flytja inn notendaupplýsingar inn á [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta felur í sér leyfisúthlutanir. 
+Eftir að þú hefur bætt við notendum eða breytt upplýsingum um notanda í Microsoft 365 admin Center er fljótlegt að flytja inn notendaupplýsingar inn á [!INCLUDE[prod_short](includes/prod_short.md)]. Innflutningurinn felur í sér leyfisverkefni. 
 
 1. Skráðu þig inn í [!INCLUDE[prod_short](includes/prod_short.md)] með stjórnandareikningi.
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.  
 3. Valið **er uppfæra notendur úr Microsoft 365**.
 
-Ef verið er að bæta við nýjum notendum er næsta skref að úthluta notendaflokkum og heimildum. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md). Ef notandaupplýsingar eru uppfærðar og uppfærslan felur í sér breytingu á leyfi, verður notendum úthlutað til viðeigandi notandaflokks og heimildasamstæður þeirra verða uppfærðar. Frekari upplýsingar er að finna á[Til að stjórna heimildum í gegnum notendaflokka](ui-define-granular-permissions.md).  
+Þegar nýjum notendum er bætt við er næsta skref að úthluta notendaflokkum og-heimildum. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md). Ef Notandaupplýsingar eru uppfærðar og uppfærslan felur í sér breytingu á leyfi, er notendum úthlutað til viðeigandi notendaflokks og heimildir þeirra eru uppfærðar. Frekari upplýsingar er að finna á[Til að stjórna heimildum í gegnum notendaflokka](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> Úthluta verður öllum notendum sama leyfið, annaðhvort Essential eða Premium. Frekari upplýsingar er að finna í Microsoft Dynamics 365 Business Central leyfishandbók. Leiðbeiningarnar eru í boði til niðurhals á vefsvæði [Business Central](https://dynamics.microsoft.com/business-central/overview/).
+> Öllum notendum í umhverfi verður að vera úthlutað sama leyfi, annað hvort nauðsynlegt eða Premium. Frekari upplýsingar er að finna í Microsoft Dynamics 365 Business Central leyfishandbók. Leiðbeiningarnar eru í boði til niðurhals á vefsvæði [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
 Nánari upplýsingar um samstillingu notendaupplýsinga með Microsoft 365 er að finna í [samstillingarhlutanum Microsoft 365](#m365).
 
@@ -59,7 +91,7 @@ Nánari upplýsingar um samstillingu notendaupplýsinga með Microsoft 365 er a�
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Til að fjarlægja aðgang notanda að kerfinu
 
-Í uppsetningu á netinu er hægt að fjarlægja aðgang notanda að [!INCLUDE[prod_short](includes/prod_short.md)]. Allar tilvísanir til notandans verða varðveittar, en notandinn getur ekki lengur skráð sig inn í virkar lotur fyrir notandann verða stöðvaðar.
+Í uppsetningu á netinu er hægt að fjarlægja aðgang notanda að [!INCLUDE[prod_short](includes/prod_short.md)]. Öllum tilvísunum til notandans er haldið leyndum. Notandinn getur hins vegar ekki skráð sig inn og virkar lotur fyrir notandann.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 2. Opnaðu síðuna **Notandaspjald** fyrir viðkomandi notanda og síðan, í reitnum **Staða** skal velja **Óvirkt**.
@@ -74,7 +106,7 @@ Einnig er hægt að fjarlægja leyfið frá notanda í Microsoft 365 admin Cente
 - Kerfisstjórinn getur bætt notandanum við með því að velja að **Uppfæra notendur úr Microsoft 365** aðgerð á **síðunni notendur** eins og lýst er [í til að bæta við notanda eða uppfæra notendaupplýsingar í miðlægum](#adduser) kafla viðskipta.
 - Leyfisupplýsingar uppfærast sjálfkrafa þegar notandinn skráir sig inn í fyrsta skipti.
 
-Í báðum tilvikum er fjöldi stillinga valinn sjálfkrafa. Þessi atriði eru talin upp í öðrum og þriðja dálkinum í töflunni hér að neðan.
+Í báðum tilvikum eru nokkrar stillingar gerðar sjálfvirkt. Þessar stillingar eru taldar upp í öðrum og þriðja dálkunum í töflunni hér að neðan.
 
 Ef notendaupplýsingum er breytt í Microsoft 365 er hægt að uppfæra [!INCLUDE[prod_short](includes/prod_short.md)] til samræmis við breytinguna. Eftir því hvað á að uppfæra er hægt að velja eina af aðgerðunum á síðunni **Notendur**. Aðgerðunum er lýst í síðustu þremur dálkunum í töflunni hér að neðan.
 
@@ -94,9 +126,9 @@ Ef notendaupplýsingum er breytt í Microsoft 365 er hægt að uppfæra [!INCLUD
 This section has been moved to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
 -->
 
-## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Umsjón með notendum og leyfum í uppsetningu innanhúss
+## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Umsjón með notendum og leyfum í innanhússvirkjanir
 
-Fyrir uppsetningu á staðnum er fjöldi notandaleyfa tilgreindur í leyfisskránni (.flf). Þegar stjórnandi eða Microsoft-samstarfsaðili hleður upp leyfisskránni getur stjórnandinn tilgreint hvaða notendur geta skráð sig inn á [!INCLUDE[prod_short](includes/prod_short.md)].
+Fyrir uppsetningu á staðnum er fjöldi notandaleyfa tilgreindur í leyfisskránni (.flf). Þegar kerfisstjóri eða Microsoft eru að hlaða niður [!INCLUDE[prod_short](includes/prod_short.md)] leyfisskránni geta þeir tilgreint hvaða notendur geta skráð sig inn.
 
 Fyrir uppsetningar innanhúss býr stjórnandinn til, breytir og eyðir notendum beint af síðunni **Notendur**.
 
@@ -123,6 +155,7 @@ Fyrir uppsetningar innanhúss býr stjórnandinn til, breytir og eyðir notendum
 [Leyfi í Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing)  
 [Bæta notendum við Microsoft 365 fyrir viðskipti](/microsoft-365/admin/add-users/add-users)  
 [Öryggi og vernd í Business Central (efni stjórnenda)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+[Úthluta notendum telemetrakenni](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights#assign-a-telemetry-id-to-users)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

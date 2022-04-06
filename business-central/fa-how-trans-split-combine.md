@@ -2,7 +2,6 @@
 title: Endurflokka eignir
 description: Eign er endurflokkuð til að flytja hana yfir í aðra deild, skipta henni upp eða sameina hana öðrum eignum.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3f95096a2c4cfaf80e3473c405e527014e6697a
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: 48f2735c39c3630611abcb785efc67cfd9473671
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029223"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511130"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Flytja, skipta upp eða sameina eignir
 
@@ -79,7 +78,7 @@ Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir s
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

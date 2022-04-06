@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 257, 259, 279
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d89c5795b9f4d0115469a505305bf3264eab613
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 08545d1bb23b8a70d10c6114f4840ce186aa94cc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133759"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515564"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Uppsetning upprunakóða og ástæðukóða fyrir endurskoðunarslóðir
 
@@ -91,10 +91,10 @@ Eftirfarandi ferli sýnir hvernig á að bæta ástæðukóða við færslubóka
 
 [Fjármál](finance.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
-[Unnið með víddir](finance-dimensions.md)  
+[Vinna með víddir](finance-dimensions.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

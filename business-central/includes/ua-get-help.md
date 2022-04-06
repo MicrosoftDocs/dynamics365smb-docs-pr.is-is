@@ -1,13 +1,13 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 09/27/2021
+ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 59b9cd9f5db84d499f1bc1355d25634fec6ad712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d3f8091f1c90ef1260ccfb8bb9851ad4a24d3345
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132287"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513550"
 ---
-[!INCLUDE[prod_short](prod_short.md)] inniheldur ábendingar fyrir reiti og aðgerðir og kennsluábendingar fyrir sumar mikilvægustu síðurnar sem hjálpa þér að fylgja mismunandi viðskiptaferlum. Fyrir hverja ábendingu og kennsluábendingu er hægt að velja tengilinn **Frekari upplýsingar** til að opna hjálpina fyrir síðuna sem um ræðir. Á öllum síðum skal nota *Ctrl+F1* á lyklaborðinu til að opna hjálpina fyrir síðuna sem um ræðir. Í öllum tækjum skal nota spurningamerkið efst í hægra horninu til að ná í síðuna **Hjálp og notendaþjónusta** og aðstoð með vöruna.  
+[!INCLUDE[prod_short](prod_short.md)] inniheldur verkfæraábendingar fyrir svæði og aðgerðir sem geta hjálpað til við að fylgja mismunandi viðskiptaferlum. Nokkrar af mikilvægustu síðunum eiga einnig og kenna ráð og ferðir til að hjálpa þér. Á hverri ábendingu og kennslu Ábending skaltu velja **tengilinn** frekari tengill til að opna hjálparrúðuna og finna upplýsingar um þá síðu sem um er að ræða. Á öllum síðum er notaður *Ctrl + F1* á lyklaborðinu til að opna hjálparrúðuna. Á hvaða tæki notar þú spurningarmerkið efst í hægra horninu til að fá til þess aðstoð.  

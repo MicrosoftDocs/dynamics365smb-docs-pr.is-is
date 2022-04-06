@@ -1,21 +1,22 @@
 ---
 title: Meðhöndlun gilda sem vantar fyrir valkosti
-description: Kynntu þér hvernig á að koma í veg fyrir að full samstilling misheppnist vegna þess að valkostir eru mismunandi í vörpuðum reitum. Þetta ferli krefst aðstoðar þróunaraðila.
+description: Kynntu þér hvernig á að koma í veg fyrir að full samstilling misheppnist vegna þess að valkostir eru mismunandi í vörpuðum reitum. Þetta ferli krefst aðstoðar frá hönnuði.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 1735b1e3d04b9b35653047b19587f84234389735
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 03/23/2022
+ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383374"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512491"
 ---
 # <a name="handling-missing-option-values"></a>Meðhöndlun gilda sem vantar fyrir valkosti
-
+> [!NOTE]
+> Í 2022 út bylgjan 1 hægt er að stofna eigin valvarpanir. Frekari upplýsingar fást [með því að sérsníða valkostsvörpun með Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Nýi möguleikinn krefst þess að kerfisstjórinn geri **aðgerðina uppfæra: varpa á valkostamengi í Dataverse án kóta** á **síðu aðgangsstjórnunar**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Þetta efnisatriði er ætlað tæknifólki. Ferlin sem það lýsir krefst aðstoðar þróunaraðila.
 

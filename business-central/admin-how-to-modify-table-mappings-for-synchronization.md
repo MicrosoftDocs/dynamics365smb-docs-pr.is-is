@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383138"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515746"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Vörpun á töflum og reitum fyrir samstillingu
 
@@ -85,7 +85,7 @@ Til dæmis notar samstillingarverkið SÖLUFÓLK – Dynamics 365 Sales samstill
 
 2.  Í færslu töfluvörpunar í listanum skal hreinsa reitinn **Samst. aðeins tengdar færslur**.  
 
-## <a name="using-configuration-templates-on-table-mappings"></a>Nota skilgreiningarsniðmát í töfluvörpunum
+## <a name="use-configuration-templates-on-table-mappings"></a>Nota skilgreiningarsniðmát í töfluvörpun
 Hægt er að úthluta skilgreiningarsniðmátum á töfluvarpanir til að nota fyrir nýjar línur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_short.md)] eða [!INCLUDE[prod_short](includes/cds_long_md.md)]. Fyrir hverja töfluvörpun má tilgreina skilgreiningarsniðmát til að nota fyrir nýjar [!INCLUDE[prod_short](includes/prod_short.md)] færslur og annað sniðmát til að nota fyrir nýjar [!INCLUDE[prod_short](includes/cds_long_md.md)] línur.  
 
 Ef sett er upp sjálfgefinn samstillingargrunnur verða skilgreiningarsniðmátin yfirleitt búin til sjálfkrafa og notuð á töfluvörpun fyrir [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamenn og [!INCLUDE[crm_md](includes/crm_md.md)] lykla: **CDSCUST** og **CDSACCOUNT**.  

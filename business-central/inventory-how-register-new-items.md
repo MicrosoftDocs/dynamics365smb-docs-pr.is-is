@@ -1,5 +1,5 @@
 ---
-title: Búðu til birgðaspjöld fyrir vörur eða þjónustu (inniheldur myndskeið)
+title: Búa til Vöruspjöld fyrir vörur eða þjónustu (inniheldur Video)
 description: Þú býrð til spjöld fyrir þjónustu sem þú selur sem klukkutíma og fyrir efnislegar vörur eins og t.d. samsetningaríhlutir, fullunnar vörur sem þú selur úr birgðum.
 author: SorenGP
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.search.keywords: item, finished good, component, raw material, assembly item,
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: a2d64fe3a04109246540a463597dbf49684b8913
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 83ebbe21771c8836e6998747733b82f5e4999c83
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148591"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522041"
 ---
 # <a name="register-new-items"></a>Skrá nýjar vörur
 
@@ -133,7 +133,7 @@ Til að sjá dæmi um hvernig hægt er að nota reitina í flýtiflipanum **Áæ
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
 [Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  
 [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

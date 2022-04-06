@@ -10,12 +10,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: cdaa582e11d3d0deaabb7282da54f65c447013e1
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 55dd366b65ee831989e09ea08f80b5d656993609
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381381"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521573"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard Viðbótin
 WorldPay Payments Standard Viðbótin gerir þér kleift að bjóða viðskiptavinum þægilega leið til að greiða í gegnum bankamillifærslu eða með kreditkortum. Greiðslur sem greiddar eru með greiðsluþjónustu munu yfirleitt einnig koma hraðar inn á bankareikninginn þinn.
@@ -26,7 +26,7 @@ Ef viðbótin er virkjuð, og sölureikningar eða sölupantanir eru sendar í t
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135959"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515642"
 ---
 # <a name="financial-management"></a>Fjármálastjórnun
 
@@ -36,7 +36,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stjórna birgða- og framleiðslukostnaði, búa til skýrslu um kostnað og afstemma kostnað við færslubókina.|[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)|
 | Skilja fjárhag og bókhaldslykil. |[Skilja fjárhag og bókhaldslykil](finance-general-ledger.md) |
 |Sameina aðalbókarfærslur frá mörgum fyrirtækjum í eitt sýndar „samstæðufyrirtæki" fyrir fjárhagsgreiningu.|[Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)|
-| Bæta við víddum fyrir meiri viðskiptagreind. |[Unnið með víddir](finance-dimensions.md) |
+| Bæta við víddum fyrir meiri viðskiptagreind. |[Vinna með víddir](finance-dimensions.md) |
 | Stofna fjárhagsáætlun til að spá fyrir um mismunandi fjármálaaðgerðir og úthluta víddum fyrir viðskiptaupplýsingar. |[Stofna fjárhagsáætlunum](finance-how-create-budgets.md) |
 |Skrá tekjur eða útgjöld beint í fjárhag án þess að bóka sérnýtt viðskiptaskjöl.|[Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)|
 |Bóka bakfærslur til að afturkalla virðisbókanir í færslubókinni eða magnbókanir á innkaupa- og söluskjöl. |[Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)|
@@ -69,8 +69,8 @@ Eftirfarandi myndband kynnir nokkra af helstu möguleikum í stjórnun fjármál
 [Lokun fjárhagstímabila](year-close-years-periods.md)  
 [Stjórna verkum](projects-manage-projects.md)  
 [Flytja inn gögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

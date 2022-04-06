@@ -4,15 +4,15 @@ description: Finnið út hvaða skýrslur og greiningar eru í boði í staðla�
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 347
+ms.search.form: 347, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: f55fb37ff9db8a7967cd3fbe480d88ca6fd3d75b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: bf6783d39fd161c2f3ec104515cc10197c6150cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137706"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515434"
 ---
 # <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Skýrslur og greiningar viðskiptaskulda í Business Central
 
@@ -25,7 +25,7 @@ Til að hjálpa þér að hafa umsjón með viðskiptaskuldum í [!INCLUDE [prod
 ## <a name="see-also"></a>Sjá einnig .
 
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
-[Unnið með víddir](finance-dimensions.md)  
+[Vinna með víddir](finance-dimensions.md)  
 [Eignaumsjón](fa-manage.md)  
 [Yfirlit yfir staðbundna virkni](about-localization.md)  
 [Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  

@@ -1,113 +1,35 @@
 ---
 title: Uppfæra Gengi gjaldmiðils (inniheldur myndskeið)
-description: Fylgstu með upphæðum í mismunandi gjaldmiðlum með gjaldmiðilskóðum og leyfðu Business Central að hjálpa þér að stilla gengi erlendra gjaldmiðla fyrir bókaðar færslur með utanaðkomandi þjónustu.
-author: SorenGP
+description: Ef upphæðir eru lagfærðar í mismunandi gjaldmiðlum er hægt að láta miðlæga aðstoð við að leiðrétta gengi bókaðra færslna með utanaðkomandi þjónustu.
+author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 02/17/2022
+ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
-ms.translationtype: HT
+ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323267"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523476"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppfæra gengi
 
-Þar sem fyrirtæki starfa í mörgum löndum/svæðum er nauðsynlegt fyrir þau að geta stundað viðskipti og skráð fjárhagslegar upplýsingar í fleiri en einum gjaldmiðli. Gjaldmiðill á staðnum er tilgreindur á síðunni **Fjárhagsgrunnur** eins og lýst er í greininni [Uppsetning fjárhagsgrunns](finance-setup-finance.md). Þegar staðbundinn gjaldmiðill hefur verið skilgreindur verður hann tómur gjaldmiðill. Þegar reiturinn **Gjaldmiðill** er auður merkir það að gjaldmiðillinn er SGM.  
-
-Því næst þarf að setja upp gjaldmiðilskóða fyrir hvern gjaldmiðil sem er notaður ef keypt er eða selt er í öðrum gjaldmiðlum en staðbundnum gjaldmiðli (SGM). Einnig er hægt að stofna bankareikninga með gjaldmiðlum. Hægt er að skrá fjárhagsfærslur í mismunandi gjaldmiðlum, en fjárhagsfærslan verður ávallt færð í staðbundnum gjaldmiðli (SGM).
-
-> [!Important]
-> Ekki skal búa til gjaldmiðilskóða bæði í **Fjárhagsáætlun** og á síðunni **Gjaldmiðlar**. Þetta mun skapa villu milli auðs gjaldmiðils og SGM kóðans í gjaldmiðlatöflunni og bankareikningar, viðskiptavinir eða lánardrottnar gætu verið stofnaðir óvart, sumir með auðan gjaldmiðil og aðrir með SGM kóðann.
-
-Fjárhagurinn þinn er settur upp til að nota staðbundna gjaldmiðilinn (SGM), en þú getur sett hann upp til að einnig nota annan gjaldmiðil með gengi stillt. Sé öðrum gjaldmiðli gefin svokölluð skilgreining Viðbótarskýrslugjaldmiðill mun [!INCLUDE[prod_short](includes/prod_short.md)] skrá upphæðirnar sjálfkrafa bæði í SGM og þessum viðbótarskýrslugjaldmiðli í hverri fjárhagsfærslu og í öðrum færslum á borð við færslur fyrir VSK. Nánari upplýsingar er að finna í [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md). Viðbótarskýrslugjaldmiðillinn er oftast notaður til að auðvelda fjárhagsskýrslugerð til eigenda sem búa í löndum/svæðum sem nota annan gjaldmiðil en staðbundinn gjaldmiðill (SGM).  
-
-> [!IMPORTANT]
-> Ef þú vilt nota annan skýrslugjaldmiðil fyrir fjárhagsskýrslur skaltu ganga úr skugga um að þú skiljir takmarkanirnar. Nánari upplýsingar er að finna í [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md).
-
-> [!NOTE]  
-> Þegar notaður er bókaður í fjárhag með gjaldmiðilskóta, svo sem að bóka útgjöld í færslubók með því að nota gjaldmiðilskóða, er færslunni umbreytt í ISK með því að nota gengi gjaldmiðilsins fyrir bókunardagsetninguna. Fjárhagsfærslan mun ekki innihalda upplýsingar um hvaða gjaldmiðill var notaður, aðeins gildi hans í ISK. Ef fylgjast á með upphaflegum gjaldmiðli, svo sem fyrir reikning, verður að nota sölu-og innkaupaskjöl sem og bankareikninga sem geyma upplýsingar um gjaldmiðilskóða fyrir færslurnar.
+Hægt er að skilgreina mismunandi gjaldmiðla í [!INCLUDE [prod_short](includes/prod_short.md)], til dæmis ef þú átt viðskipti í gjaldmiðlum öðrum en gjaldmiðli landsins. Síðan, til að hjálpa til við að fylgjast með breytingum á gengi gjaldmiðla, er hægt að stjórna gjaldmiðlunum handvirkt eða setja upp gjaldmiðilsgengisþjónustu.
 
 ## <a name="currencies"></a>Gjaldmiðlar
 
-> [!NOTE]  
+> [!TIP]  
 > Í [!INCLUDE[prod_short](includes/prod_short.md)], ef þú ert að leita að nýjustu upplýsingum um gengi erlendra gjaldmiðla eða eldri gengi, finnur þú það undir gjaldmiðli. Auk þessarar greinar geturðu skoðað [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md).
 
-Gjaldmiðilskóðarnir eru tilgreindir í **Gjaldmiðlar**, þ.m.t. viðbótarupplýsingar og stillingar sem eru nauðsynlegar fyrir hvern gjaldmiðilskóða.
+[!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-> [!TIP]
-> Búðu til gjaldmiðla með alþjóðlegum ISO-kóða þar sem kóðinn einfaldar vinnu við gjaldmiðilinn í framtíðinni.
-
-|Svæði|Description|  
-|---------------------------------|---------------------------------------|  
-|**Kóði**|Kenni gjaldmiðils.|
-|**Lýsing**|Frjáls textalýsing á færslunni.|
-|**ISO-kóði**|Alþjóðlegi þriggja bókstafa kóðinn tilheyrir gjaldmiðlinum sem er skilgreindur í ISO 4217.|
-|**ISO-talnakóði**|Alþjóðlega tilvísunin í gjaldmiðlinn sem er skilgreindur í ISO 4217.|
-|**Dagsetning gengis**|Nýjasta dagsetning gengis.|
-|**EMU-gjaldmiðill**|Tilgreinir hvort gjaldmiðillinn er gjaldmiðill EMB (Evrópska efnahags- og myntbandalagsins).|
-|**Reikningur innleysts hagnaðar**|Reikningurinn þar sem raunverulegur hagnaður verður bókaður þegar þú færð útistandandi greiðslur eða skráir raunverulegt gengi á greiðslur viðskiptaskulda. Dæmi um móttekna gjaldmiðilsfærslu er að finna í dæminu fyrir neðan þessa töflu. |
-|**Reikningur innleyst taps**|Reikningurinn þar sem raunverulegt tap verður bókað þegar þú færð útistandandi greiðslur eða skráir raunverulegt gengi á greiðslur viðskiptaskulda. Dæmi um móttekna gjaldmiðilsfærslu er að finna í dæminu fyrir neðan þessa töflu. |
-|**Reikningur óinnleysts hagnaðar**|Reikningurinn þar sem fræðilegur hagnaður verður bókaður þegar gjaldmiðlaleiðrétting er framkvæmd.|
-|**Reikningur áætlaðs taps**|Reikningurinn þar sem fræðilegt tap verður bókað þegar gjaldmiðlaleiðrétting er framkvæmd.|
-|**Sléttunarnákvæmni upphæða**|Sumir gjaldmiðlar hafa önnur snið fyrir reikningsupphæðir en þau sem eru tilgreind er á síðunni **Uppsetning fjárhagsgrunns**. Ef sléttunarnákvæmni er breytt fyrir gjaldmiðil verða allar reikningsupphæðir í gjaldmiðlinum sléttaðar með uppfærðri nákvæmni.|
-|**Aukastafir upphæðar**|Sumir gjaldmiðlar hafa önnur snið fyrir reikningsupphæðir en þau sem eru tilgreind er á síðunni **Uppsetning fjárhagsgrunns**. Ef tugasætum upphæðar er breytt fyrir gjaldmiðil verða allar reikningsupphæðir í gjaldmiðlinum sléttaðar með uppfærðum tugabrotum|
-|**Sléttunargerð reikninga**|Tilgreinir aðferðina sem nota skal ef slétta þarf fjárhæðirnar. Valkostirnir eru **Næst**, **Upp** og **Niður**.|
-|**Sléttunarnákvæmni einingaupphæða**|Sumir gjaldmiðlar hafa önnur snið fyrir einingaupphæðir en þau sem eru tilgreind er á síðunni **Uppsetning fjárhagsgrunns**. Ef sléttunarnákvæmni einingaupphæðar er breytt fyrir gjaldmiðil verða allar einingaupphæðir í gjaldmiðlinum sléttaðar með uppfærðri nákvæmni.|
-|**Aukastafir einingarupphæðar**|Sumir gjaldmiðlar hafa önnur snið fyrir einingaupphæðir en þau sem eru tilgreind er á síðunni **Uppsetning fjárhagsgrunns**. Ef tugasætum einingaupphæðar er breytt fyrir gjaldmiðil verða allar einingaupphæðir í gjaldmiðlinum sléttaðar með uppfærðum tugabrotum.|
-|**Sléttunarnákvæmni jöfnunar**|Tilgreinir bilið sem er leyft fyrir þennan gjaldmiðil sem sléttunarmismunur þegar færslum er jafnað hverri við aðra.|
-|**Umbreyting SGM sléttunar debetreikningur**|Tilgreinir upplýsingar um umreikning sem verða einnig að innihalda debetreikning ef setja á inn leiðréttingarlínur fyrir sléttunarmismun í færslubókum með virkninni **Setja inn sléttun umreiknings í SGM**.|
-|**Umbreyting SGM sléttunar kreditreikningur**|Tilgreinir upplýsingar um umreikning sem verða einnig að innihalda kreditreikning ef setja á inn leiðréttingarlínur fyrir sléttunarmismun í færslubókum með virkninni **Setja inn sléttun umreiknings í SGM**.|
-|**Síðast leiðrétt, dags.**|Dagsetning síðustu gjaldmiðlaleiðréttingar.|
-|**Síðast breytt, dags.**|Dagsetning breytingarinnar á uppsetningu gjaldmiðilsins.|
-|**Vikmörk greiðslu %**|Hámark greiðsluvikmarka % sem er stillt fyrir þennan gjaldmiðil. Frekari upplýsingar eru í [Greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Hám.upph. greiðsluvikmarka**|Hámarksfjárhæð greiðsluvikmarka fyrir þennan gjaldmiðil. Frekari upplýsingar eru í [Greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Gengisstuðull**|Tilgreinir sambandið milli gjaldmiðilsins og staðbundins gjaldmiðils samkvæmt raunverulegu gengi.|
-|**Reikningur orðins fjárh.hagn.**|Tilgreinir fjárhagsreikninginn sem gengishagnaður bókast í vegna leiðréttingar á milli staðbundins gjaldmiðils (SGM) og annars skýrslugjaldmiðils. Gengishagnaðurinn er reiknaður þegar keyrslan Leiðrétta gengi er keyrð til að leiðrétta fjárhagsreikninga. Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
-|**Reikningur orðins fjárh.taps**|Tilgreinir fjárhagsreikninginn sem gengistap bókast í vegna leiðréttingar á milli staðbundins gjaldmiðils (SGM) og annars skýrslugjaldmiðils. Gengishagnaðurinn er reiknaður þegar keyrslan Leiðrétta gengi er keyrð til að leiðrétta fjárhagsreikninga. Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
-|**Afgangsreikningur hagnaðar**|Tilgreinir fjárhagsreikning sem notaður er til að bóka afgangsupphæðir hagnaðar (sléttunarmismun) þegar annar skýrslugjaldmiðill er notaður í kerfishluta fjárhags. Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
-|**Afgangsreikningur taps**|Tilgreinir fjárhagsreikning sem notaður er til að bóka afgangsupphæðir taps (sléttunarmismun) þegar annar skýrslugjaldmiðill er notaður í kerfishluta fjárhags. Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
-|**Hám. VSK-mismunur leyfður**|Leyfileg hámarksupphæð vegna virðisaukaskattsmismunar í þessum gjaldmiðli. Frekari upplýsingar eru í [Handvirk breyting VSK-upphæða í sölu- og innkaupaskjölum](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
-|**Sléttunartegund VSK**|Tilgreinir sléttunaraðferð fyrir handvirka breytingu VSK-upphæða í sölu- og innkaupaskjölum. Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
+Gjaldmiðilskóðarnir á **listanum Gjaldmiðlar** eru tilgreindir, þar á meðal þær viðbótarupplýsingar og stillingar sem eru nauðsynlegar fyrir hvern gjaldmiðilskóða. Sjá [gjaldmiðla fyrir frekari upplýsingar](finance-set-up-currencies.md#curr)
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Dæmi um móttekna gjaldmiðilsfærslu
 
-Þegar þú færð reikning frá fyrirtæki í erlendum gjaldmiðli er nokkuð auðvelt að reikna út staðbundið verðgildi reikningsins miðað við gengi gjaldmiðilsins í dag. Hins vegar fylgir reikningnum oft greiðsluskilmálar svo að þú getur seinkað greiðslunni til síðari tíma, sem gefur til kynna hugsanlega annað gengi gjaldmiðils. Þetta vandamál ásamt því að bankagengi gjaldmiðla er alltaf annað en opinbert gengi gjaldmiðla gerir það að verkum að ekki er hægt að gera ráð fyrir nákvæmri upphæð í staðbundnum gjaldmiðli sem þarf til að ná að dekka reikninginn. Ef gjalddagi reikningsins er til næsta mánaðar gætir þú einnig þurft að endurmeta upphæðina í staðbundnum gjaldmiðli í lok mánaðarins. Leiðrétting gjaldmiðilsins er nauðsynleg vegna þess að nýja LCY-gildið sem krafist er til að standa undir reikningsupphæðinni gæti verið annað og skuldir fyrirtækisins við lánardrottin gætu hafa breyst. Nýja LCY-upphæðin gæti verið hærri eða lægri en fyrri upphæðin og mun því tákna hagnað eða tap. Þar sem reikningurinn hefur ekki enn verið greiddur telst hagnaðurinn eða tapið *óinnleyst*. Seinna er reikningurinn greiddur og bankinn hefur skilað raunverulegu gengi gjaldmiðilsins fyrir greiðsluna. Það er ekki fyrr en nú sem *innleystur* hagnaðurinn eða tapið er reiknað út. Þessi óinnleysti hagnaður eða tap er þá bakfærður og innleystur hagnaður eða tap er birt í staðinn.
-
-Í eftirfarandi dæmi er reikningur móttekinn 1. janúar með gjaldmiðilsupphæðinni 1000. Þá er gjaldmiðillinn 1,123.
-
-|Dagsetning|Aðgerð|Gjaldmiðilsupphæð|Tíðni fylgiskjals|LCY upphæð á skjali|Tíðni leiðréttingar|Reikningur óinnleysts hagnaðar|Greiðslutíðni|Reikningur innleysts taps|  
-|-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
-|1/1|**Reikningur**|1000|1,123|1123|||||
-|1/31|**Leiðrétting**|1000||1125|1,125|2|||
-|2/15|**Bakfærsla leiðréttingar við greiðslu**|1000||||-2|||
-|2/15|**Greiðsla**|1000||1120|||1,120|-3|
-
-Í lok mánaðarins er gerð gjaldmiðlaleiðrétting þar sem gjaldmiðilsgengi leiðréttingarinnar hefur verið stillt á 1,125, sem veldur óinnleystum hagnaði upp á 2.
-
-Við greiðslu sýnir raungengi gjaldmiðils sem skráð var í bankaviðskiptunum gengið 1,120.
-
-Hér er um óinnleysta færslu að ræða og því verður hún afturkölluð ásamt greiðslunni.
-
-Að lokum er greiðslan skráð og innleyst tap er bókað á reikning innleyst taps.
-
-## <a name="available-currency-functions"></a>Tiltækar aðgerðir gjaldmiðla
-
-Í eftirfarandi töflu er gerð grein fyrir lykilaðgerðum á síðunni **Gjaldmiðlar**. Sumar aðgerðirnar eru útskýrðar í næstu köflum.  
-
-|Valmynd|Aðgerð|Description|
-|-------------|--------------|------------------------------|
-|**Vinna**|**Stinga upp á reikningum**|Nota reikninga úr öðrum gjaldmiðlum. Algengustu reikningarnir verða settir inn.|
-||Breyta greiðsluvikmörkum|Breyta annaðhvort eða bæði hámarks greiðsluvikmörkum eða prósentutölu greiðsluvikmarka og afmarka eftir gjaldmiðli. Frekari upplýsingar eru í [Greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-||**Gengi**|Skoða uppfært gengi fyrir gjaldmiðlana sem eru notaðir.|
-||**Leiðrétta gengi**|Leiðrétta fjárhags-, viðskiptamanna-, lánadrottna- og bankareikningsfærslur til að staðan sé uppfærð ef gengið hefur breyst síðan færslurnar voru bókaðar.|
-||**Gengisleiðréttingarbók**|Skoða niðurstöður runuvinnslunnar **Leiðrétta gengi**. Ein lína er búin til fyrir hvern gjaldmiðil sem leiðréttur er, eða gjaldmiðil og bókunarflokk.|
-|**Gengisþjónusta**|**Gengisþjónustur**|Skoða eða breyta uppsetningunni á þjónustunni sem er sett upp til að sækja uppfært gengi gjaldmiðla þegar þú velur aðgerðina **Uppfæra gengi**.|
-||**Uppfæra gengi**|Sækja nýjasta gengi gjaldmiðils frá þjónustuveitu.|
-|**Skýrslur**|**Gengisjöfnuður**|Skoða stöðuna hjá öllum viðskiptamönnum og lánardrottnum bæði í erlendum gjaldmiðli og staðbundnum gjaldmiðli (SGM). Skýrslan sýnir tvær stöður í SGM. Einn er staðan í erlendum gjaldmiðli umreiknuð í SGM með því að nota gengi á tíma færslunnar. Hinn er staðan í erlendum gjaldmiðli umreiknuð í SGM með því að nota gengi á vinnudagsetningu.|
+[!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
 ## <a name="exchange-rates"></a>Gengi gjaldmiðils
 
@@ -203,9 +125,12 @@ Gildið í **Gengi** reitnum á síðunni **Gjaldmiðlar** er uppfært með nýj
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
+
+[Gjaldmiðlar í Viðskiptamiðinu](finance-currencies.md)  
+[Setja upp gjaldmiðla](finance-set-up-currencies.md)  
 [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)  
 [Lokaár og Tímabil](year-close-years-periods.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

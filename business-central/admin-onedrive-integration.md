@@ -1,22 +1,23 @@
 ---
 title: Stjórnun OneDrive samþættingar við Business Central
 description: Kynntu þér hvað þú getur gert til að stýra samþættingu milli Business Central og OneDrive for Business.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, share, browser
-ms.date: 05/12/2021
-ms.author: bholtorf
-ms.openlocfilehash: 5debd01f9d26e5e1dc1abc1a0123073d0f7ee234
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 02/28/2022
+ms.author: jswymer
+ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382872"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514596"
 ---
-# <a name="managing-onedrive-integration-with-business-central"></a>Stjórnun OneDrive samþættingar við Business Central 
+# <a name="managing-onedrive-integration-with-business-central"></a>Stjórnun OneDrive samþættingar við Business Central
+
 Í þessari grein er að finna yfirlit yfir það sem stjórnandi getur gert til að stýra samþættingu OneDrive for Business við [!INCLUDE[prod_short](includes/prod_short.md)]. Viðskiptavinir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu njóta góðs af sjálfvirkri samþættingu, án viðbótaruppsetningar sem þarf til að nota þessa eiginleika. 
 
 ## <a name="minimum-requirements"></a>Lágmarkskröfur
@@ -25,6 +26,7 @@ ms.locfileid: "8382872"
 * OneDrive verður að vera sett upp fyrir hvern notanda fyrir sig.
 
 ## <a name="governance"></a>Stjórnunarhættir
+
 Stjórnendamiðstöð SharePoint veitir víðtæka stjórn á reglum sem gilda um notkun á OneDrive í öllu fyrirtækinu. Altækir stjórnendur eða notendur sem eru með SharePoint stjórnandahlutverkið geta sett upp reglur sem skera úr um hver fær aðgang að OneDrive þar sem gögn eru geymd, líftími efnis og margt fleira. Eftirfarandi tenglar veita upplýsingar um oft notaða eiginleika og stillingar sem geta aukið samþættingu þína við [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 * [Stjórna samnýtingarstillingum](/sharepoint/turn-external-sharing-on-or-off)
@@ -39,9 +41,11 @@ Stjórnendamiðstöð SharePoint veitir víðtæka stjórn á reglum sem gilda u
 > Sumir eiginleikar eru hugsanlega aðeins í boði fyrir tilteknar áskriftarleiðir.
 
 ## <a name="managing-privacy"></a>Umsjón með persónuvernd
+
 Stjórnendur og notendur stjórna efninu sem geymt er í OneDrive og þessi gögn eru eingöngu í eigu fyrirtækisins þíns. Frekari upplýsingar er að finna í [Hvernig SharePoint og OneDrive tryggja öryggi gagna þinna í skýinu](/sharepoint/safeguarding-your-data). Þú getur einnig farið í [Persónuverndaryfirlýsingu Microsoft](https://privacy.microsoft.com/en-us/privacystatement) sem útskýrir gögnin sem Microsoft vinnur úr, hvernig Microsoft vinnur úr þeim og í hvaða tilgangi.
 
 ## <a name="restoring-onedrive-and-prod_short"></a>Að endurheimta OneDrive og [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Sem hluti af æfingu til að endurheimta eftir áfall gætu stjórnendur þurft að endurheimta [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi í öryggisafriti aftur í tíma og samstilla OneDrive geymslu til þess tíma. OneDrive veitir ýmis verkfæri fyrir þetta, t.d. endurheimt á OneDrive notanda aftur í tíma, endurheimta eldri útgáfu einstakrar skráar eða endurheimta eyddar skrár. Frekari upplýsingar er að finna í eftirfarandi greinum:
 
 * Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] skal skoða [Að endurheimta umhverfi í stjórnendamiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
@@ -67,9 +71,14 @@ Stjórnandi verður að setja upp tenginguna milli [!INCLUDE[prod_short](include
 
    For more information, see [Authenticating Business Central Users with Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory)-->
 
-Bættu við skráðri umsókn um Business Central í Azure AD leigjanda áætlunarinnar Microsoft 365. Eins og aðrar Azure-þjónustur sem vinna með Business Central þarf OneDrive á skráningu forrits að halda í Azure Active Directory (Azure AD). Forritsskráningin býður upp á sannvottun og sannvottunarþjónustu milli Business Central og SharePoint, sem OneDrive notar.
+Bættu við skráðu forriti fyrir miðlægt í þínum Azure AD leigjanda í áætluninni þinni Microsoft 365. Eins og aðrar Azure-þjónustur sem vinna með Business Central þarf OneDrive á skráningu forrits að halda í Azure Active Directory (Azure AD). Forritsskráningin býður upp á sannvottun og sannvottunarþjónustu milli Business Central og SharePoint, sem OneDrive notar.
 
 Grunnstilltu skráða forritið með eftirfarandi úthlutuðum heimildum fyrir SharePoint API:
+
+- Alletur. Fulleftirlit
+- User. Lesiwrite. allar 
+
+Fyrir viðskipti Mið 2021 út Wave 2 (útgáfa 19), setjið þessar heimildir í staðinn:
 
 - AllSites.Write
 - MyFiles.Write

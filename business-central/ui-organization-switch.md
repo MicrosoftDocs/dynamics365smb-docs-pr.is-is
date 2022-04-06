@@ -7,26 +7,30 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: fa2e18e135e9e81634a02e1b193b237c599fd5fc
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1190a09a1e4cb67cb5a7f75732a18980f0aff4aa
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382208"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514362"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skipta yfir í annað fyrirtæki eða umhverfi
+
+[!INCLUDE [prod_short](includes/prod_short.md)] er fáanlegt í mörgum mismunandi löndum og styður við margar mismunandi gerðir stofnana. Fyrirtækið gæti sett sig upp [!INCLUDE [prod_short](includes/prod_short.md)] þannig að það þurfi að skilja skilmálana *fyrir fyrirtækið* og *umhverfið*.  
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Nánari upplýsingar eru í [Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Ef skipt er oft á milli fyrirtækj, eða unnið er með [!INCLUDE[prod_short](includes/prod_short.md)] úr öðru forriti á borð við Microsoft Teams, getur verið auðvelt að missa sjónar á því hvar þú ert. Til að auðvelda þér að fylgjast með er hægt að bæta við merki sem birtir heiti fyrirtækisins þannig að þú getir staðfest á skjótan hátt að þú sért á réttum stað. Frekari upplýsingar er að finna á [Til að birta fyrirtækjamerkis fyrir flýtiaðgang að fyrirtækisupplýsingum](ui-change-basic-settings.md#badge).
 
+Allt frá því að vafra þinn getur þú einnig pinnað á mismunandi fyrirtæki í uppáhaldsstikluna.  
+
 ## <a name="switch-to-another-environment"></a>Skipta yfir í annað umhverfi
 
-Þegar þú ert skráð(ur) inn á [!INCLUDE[prod_short](includes/prod_short.md)] eru umhverfin sem hægt er að opna aðgengilegt á Office.com. 
+Þegar þú ert skráð(ur) inn á [!INCLUDE[prod_short](includes/prod_short.md)] eru umhverfin sem hægt er að opna aðgengilegt á Office.com.  
 
 1. Veldu táknið **Forritavalmynd** ![Forritavalmynd.](media/app-launcher-icon.png "Forritavalmynd býður upp á aðgang að fleiri eiginleikum").
-2. Ef þú sérð ekki forrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í glugganum sem opnast, veldu þá **Office 365**. Síðan skal færa inn **Business Central** í reitinn **Leita** eða velja **Öll forrit** > **Business-forrit**.   
+2. Ef þú sérð ekki forrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í glugganum sem opnast, veldu þá **Office 365**. Síðan skal færa inn **Business Central** í reitinn **Leita** eða velja **Öll forrit** > **Business-forrit**.  
 3. Það verður eitt [!INCLUDE[prod_short](includes/prod_short.md)] forrit sýnt fyrir hverja gerð umhverfis, eins og fyrir vinnslu eða sandkassa. Til að skipta yfir í annað umhverfi skaltu velja [!INCLUDE[prod_short](includes/prod_short.md)] forritið fyrir þá gerð umhverfis sem það er. Ef það eru fleiri en eitt umhverfi af ákveðinni gerð verður farið fram á að þú veljir umhverfið sem þú vilt opna.
 
 <!--
@@ -51,8 +55,9 @@ The following image shows tiles for accessing production and sandbox environment
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Stjórnunarmiðstöð Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
+[Umhverfi og fyrirtæki (eingöngu á ensku)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+[Stjórnunarmiðstöð Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

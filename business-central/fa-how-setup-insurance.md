@@ -2,7 +2,6 @@
 title: Setja upp Eignattryggva
 description: Sett er upp vátryggingarspjald og almennar vátryggingaupplýsingar til að stjórna vátryggingasviði eigna.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b981504f6a223e2558df8d67b4b8bb94859909a1
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: 1378a3090db4bfaa958a371c31416c98f887e73e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029327"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511028"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Uppsetning vátryggingar eignar.
 Til að stjórna vátryggingasviði eigna, þarf fyrst að setja upp nokkrar almennar vátryggingaupplýsingar og vátryggingarspjald á hvert tryggingaskírteini.
@@ -41,7 +40,7 @@ Hægt er að safna saman upplýsingum um hverja vátryggingu á vátryggingaspja
 3. Fyllið inn reitina eftir þörfum.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Uppsetning vátryggingabókasniðmáta
-[!INCLUDE[prod_short](includes/prod_short.md)] skapar sjálfkrafa vátryggingarsniðmát í fyrsta skipti sem þú opnar síðuna **Vátryggingabók**, en þú getur sett upp viðbótarsniðmát færslubókar. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] skapar sjálfkrafa vátryggingarsniðmát í fyrsta skipti sem þú opnar síðuna **Vátryggingabók**, en þú getur sett upp viðbótarsniðmát færslubókar. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sniðmát vátryggingabóka** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum.
@@ -61,7 +60,7 @@ Hægt er að setja upp keyrslur í sniðmáti vátryggingabókar. Gildin í keyr
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

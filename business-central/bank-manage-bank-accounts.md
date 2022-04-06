@@ -10,12 +10,12 @@ ms.search.keywords: reconcile
 ms.search.form: 377, 378, 165, 1284
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a533a49e3a34d33242d556758ebe5cb68165c0bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2903e6d8564a48464c1ae5ce493270f3b46781a1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139964"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516370"
 ---
 # <a name="manage-and-reconcile-your-bank-accounts"></a>Stjórna og afstemma bankareikninga
 
@@ -48,7 +48,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Flytja bankainnstæður](bank-how-transfer-bank-funds.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 

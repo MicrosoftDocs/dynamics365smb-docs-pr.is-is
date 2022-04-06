@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: bcf0e27710c66e71dd95710790af2c2ffd4ab5e0
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2530b6a5d562cfd22abd8ae097408388034a5711
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381460"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485004"
 ---
 # <a name="set-up-and-report-intrastat"></a>Setja upp og skrá Intrastat
 
@@ -27,7 +27,7 @@ ms.locfileid: "8381460"
 * **Uppsetning Intrastat**: Uppsetningarsíða Intrastat er notuð til að virkja skýrslugerð intrastat og setja á sjálfgefnar stillingar fyrir hana. Hægt er að tilgreina hvort eigi að gefa Intrastat-skýrslu um afhendingum (sendingum), kvittunum (komum) eða bæði, háð mörkum sem staðbundnar reglugerðir segja til um. Einnig er hægt að setja á sjálfgefnar færslugerðir fyrir venjuleg fylgiskjöl eða fylgiskjöl vöruskila, notaðar samkvæmt einkennum skýrslugerðar fyrir færslur.
 * **Sniðmát Instrastatbókar**: Nauðsynlegt er að setja upp sniðmát og keyrslur Intrastatbókarinnar sem notaðar verða. Þar sem Intrastat-skýrslugerð er framkvæmd mánaðarlega verður að stofna 12 intrastatbókarkeyrslur sem miðast við sama sniðmát.  
 * **Vörukóði**: Tolla- og skattyfirvöld hafa sett fram númerakóða sem flokka vörur og þjónustu. Þú tiltekur þessa kóða á vörum.
-* **Eðliskóðar færslu**: Lönd og svæði hafa ólíka kóða fyrir tegundir Instrastat viðskipti, eins og venjuleg innkaup og sala, skipti á skilavörum, og skipti á vörum sem ekki hefur verið skilað. Setja upp alla kóða sem eiga við í þínu landi/svæði. Þú notar þessa kóða í sölu- og innkaupaskjölum, og þegar þú vinnur vöruskil. 
+* **Eðliskóðar færslu**: Lönd og svæði hafa ólíka kóða fyrir tegundir Instrastat viðskipti, eins og venjuleg innkaup og sala, skipti á skilavörum, og skipti á vörum sem ekki hefur verið skilað. Setja upp alla kóða sem eiga við í þínu landi/svæði. Þessir kótar **eru notaðir í fastflipanum erlend viðskipti** í sölu-og innkaupaskjölum og þegar vinnslu er skilað. 
 
     > [!NOTE]
     > Byrjar í janúar 2022 Intrastat krefst mismunandi kóða færslu fyrir sendingar til einka einstaklinga eða VSK skráðra fyrirtækja og VSK skráðra fyrirtækja. Til samræmis við þessa kröfu er mælt með því að endurskoða og/eða bæta við nýjum náttúrukóðum í **færslugerðunum** síða accoridng til að uppfylla kröfur í þínu landi. Skoða skal Als-og uppfæra **reitinn Félagagerð** fyrir einstaklinga *sem eru EINSTAKIR eða ekki VSK-skráðir viðskiptamenn í viðkomandi* viðskiptavinasíðu **·**. Ef þú ert ekki viss um rétta félagagerð eða færslugerð sem á að nota, mælum við með að þú spyrjir sérfræðing á þínu landi eða svæði. 

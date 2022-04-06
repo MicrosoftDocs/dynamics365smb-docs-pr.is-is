@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381724"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519122"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Úrræðaleit og víddarleiðrétting
 
@@ -103,7 +103,7 @@ Ef afturköllunaraðgerðin er ekki í boði, t.d. vegna þess að margar breyti
 
 Farið varlega þegar stór færslusöfn eru leiðrétt, t.d. söfn sem innihalda meira en 10.000 færslur. Ef það er hægt þá mælum við með að nota síur til að keyra leiðréttingar á smærri gagnasöfnum. Það er einnig góð hugmynd að keyra leiðréttingar utan venjulegs vinnutíma. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Greiningaryfirlit og víddarleiðréttingar notaðar
+### <a name="use-analysis-views-with-dimension-corrections"></a>Nota greiningaryfirlit með Víddarleiðréttingum
 
 Ef **Uppfæra við bókun** er virkjað fyrir greiningaryfirlit, getur [!INCLUDE[prod_short](includes/prod_short.md)] skoðað þegar skjöl og færslubækur eru bókaðar. Einnig er hægt að uppfæra yfirlit með þessari stillingu virkjaða með niðurstöður víddarleiðréttinga. Til að gera það skal kveikja á **Uppfæra greiningaryfirlit**. Uppfærsla greiningaryfirlita getir haft áhrif á afköst, sérstkaklega fyrir stór gagnasöfn, og því er mælt með að greiningaryfirlit séu aðeins uppfærð fyrir lítil gagnasöfn.  
 
@@ -118,11 +118,11 @@ Ef leiðrétting klárast ekki mun viðvörun birtast á leiðréttingarspjaldin
 > [!NOTE]
 > Endurstilling ólokinnar leiðréttingar hefur ekki áhrif á uppfærslur greiningaryfirlita vegna þess að þær gerast undir lok leiðréttingarferlisins.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Kostnaðarbókhald með leiðréttum fjárhagsfærslum notað
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Nota Kostnaðarbókhald með leiðréttum fjárhagsfærslum
 
 Þegar búið er að leiðrétta víddir verða gögn kostnaðarbókhalds ósamstillt. Kostnaðarbókhald notar víddir til að safna saman upphæðum fyrir kostnaðarstaði og kostnaðarhluti og til að keyra kostnaðarúthlutanir. Að breyta víddum fyrir fjárhagsfærslur mun líklega þýða að þú endurkeyrir líkön kostnaðarbókhaldsins. Hvort sem þú þarft aðeins að eyða nokkrum kostnaðarskrám og endurkeyra úthlutanir, eða þú þarft að eyða öllu og endurkeyra öll líkönin þín, fer eftir gögnunum sem hafa verið uppfærð og hvernig möguleikar kostnaðarbókhaldsins eru settir upp. Það þarf að auðkenna handvirkt hvar víddarleiðréttingar hafa áhrif á kostnaðarbókhald og hvar er þörf á uppfærslum. [!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á sjálfvirka leið til að gera það sem stendur.
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Vinna með víddir](finance-dimensions.md)
-[Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)  
+[greina gögn eftir víddum](bi-how-analyze-data-dimension.md)  

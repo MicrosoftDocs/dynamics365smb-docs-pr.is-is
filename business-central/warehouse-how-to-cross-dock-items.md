@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 15, 5703, 7302, 7332, 5768
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4031260a498eb2dd147be85392e6da709e76e681
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a9621393c09de1a4d6cf21789fa1141763d94efe
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383616"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513316"
 ---
 # <a name="cross-dock-items"></a>Hjáskipa vörur
 Hjáskipunaraðgerðin er tiltæk ef birgðageymslan hefur verið sett upp þannig að hún krefjist vöruhúsamóttöku-og frágangsvinnslu.  
@@ -104,7 +104,7 @@ Ef hólf eru ekki notuð skal hafa hugfast að athuga hjáskipunarsvæðið anna
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

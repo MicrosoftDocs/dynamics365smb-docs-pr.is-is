@@ -1,7 +1,7 @@
 ---
 title: Uppfæra sérsniðið skýrsluútlit
 description: Kynntu þér hvernig á að uppfæra sérsniðið útlit skýrslu sem notað er í skýrslu þegar breytingar verða á hönnun á gagnasafni skýrslunnar sem dæmi.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144620"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517213"
 ---
-# <a name="update-custom-report-layouts"></a>Uppfæra sérsniðið skýrsluútlit
+# <a name="legacy-update-custom-report-layouts"></a>Arfur Uppfæra skipulag sérsniðinnar skýrslu
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Stundum þarf að uppfæra sérsniðið skýrsluútlit sem er notað í skýrslu. Þetta er nauðsynlegt þegar breyting hefur verið gerð á hönnun gagnasafns skýrslu, til dæmis ef reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnasafni skýrslunnar. Ef skýrsluútlit krefst uppfærslu birtast villuboð þegar reynt er að forskoða, prenta eða vista skýrsluna.  
 
@@ -28,9 +30,9 @@ Ekki geta allar breytingar á skýrsluútliti verið uppfærðar sjálfkrafa í 
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Uppfærir eitt eða fleiri Sérsniðin skýrsluútlit.  
 
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skýrsluútlit** og velja síðan viðkomandi tengil.  
+1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.  
 
-2.  Á síðunni **Skýrsluútlit** ef þú vilt uppfæra sérstaka skýrslu, skal velja útlitið af listanum og svo velja aðgerðina **Uppfæra útlit**. Eða, ef þú vilt uppfæra allt sérsniðið skýrsluútlit fyrir fyrirtækið, skal velja aðgerðina **Uppfæra allt útlit**.  
+2.  **Ef uppfæra á tiltekna skýrslu er útlit af listanum valið og síðan er** valið aðgerðina uppfæra uppsetningu **í uppsetningu skýrslunnar**. Eða, ef þú vilt uppfæra allt sérsniðið skýrsluútlit fyrir fyrirtækið, skal velja aðgerðina **Uppfæra allt útlit**.  
 
 Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur koma upp birtast skilaboð sem innihalda villurnar. Þá þarf handvirkt að breyta sérsniðin skýrsluútlit til að laga villurnar. Frekari upplýsingar eru í [Villur leiðréttar](ui-update-report-layouts.md#FixErrors).  
 
@@ -66,7 +68,7 @@ Eftir að útlitinu er breytt skaltu reyna að uppfæra það afur.
 
 ## <a name="see-also"></a>Sjá einnig  
  [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
- [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
+ [Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

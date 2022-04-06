@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 0b367c59b3d9be298fa7f42fe0b94018d99c94a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 28c9d8c9f24158f119ffffaeddd92590bee906cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148227"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515928"
 ---
 # <a name="preview-posting-results"></a>Forskoða Bókunarniðurstöður
 Á hverju skjali og færslubók sem er hægt að bóka, geturðu valið **forskoða bókun** hnappinn til að Yfirfara ólíkar færslugerðir sem verða stofnaðar þegar fylgiskjal eða færslubók er bókuð.
@@ -27,7 +27,7 @@ ms.locfileid: "8148227"
 
 ## <a name="see-also"></a>Sjá einnig
 [Bókun skjala og færslubóka](ui-post-documents-journals.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 

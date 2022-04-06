@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 0f305c6284a617594202ac8e38ce786d7019f489
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fe66a7341045058f2d5d5b5313d122cf442d3117
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139059"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514674"
 ---
 # <a name="closing-income-statement-accounts"></a>Rekstrarreikningum lokað
 Þegar reikningsári er lokið þarf að loka tímabilunum sem það skiptist í. Til að gera þetta skal keyra Runuvinnslan **Loka rekstrarreikningi** Þetta verk flytur niðurstöðutölur ársins yfir á efnahagsreikning og loka rekstrarreikningum. Það er gert með því að stofna línur í færslubók sem síðan er hægt að bóka.
@@ -38,7 +38,7 @@ Keyrsluna **Loka rekstrareikningi** má nota mörgum sinnum. Hægt er að bóka 
 [Bókum lokað](year-close-books.md)  
 [Bóka lokafærslu ársloka](year-how-post-year-end-close-entry.md)  
 [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

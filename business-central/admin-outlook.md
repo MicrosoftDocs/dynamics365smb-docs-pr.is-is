@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323191"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518338"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Sækja innbót Business Central fyrir Outlook
 
@@ -39,7 +39,7 @@ Innbót Business Central fyrir Outlook samanstendur af tveimur minni innbótum:
 
     Þegar tölvupóstur vísar á númer viðskiptaskjals í meginmáli tölvupósts býður þessi innbót upp á beinan tengil í línu úr meginmáli tölvupóstsins í raunverulegt viðskiptaskjal í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Frekar upplýsingar um hvað gert er við innbótina er að finna í [Notkun Business Central sem fyrirtækjainnhólf í Outlook](work-outlook-addin.md).
+Frekari upplýsingar um það sem gert er við viðbóta er að finna [í notkun Viðskiptaseðla sem fyrirtækið innanborðs í Outlook](work-outlook-addin.md).
 
 Boðið er upp á hverja innbót sem XML-skrá sem kallast *manifest* sem hver sá sem vill þess virkni þarf að setja upp í Outlook. Þessar skrár lýsa því hvernig á að virkja innbæturnar og tengjast Business Central þegar þær eru notaðar í Outlook. Yfirleitt vinnur stjórnandi með þessar skrár. Sem almennur notandi þarft þú í flestum tilfellum ekki að vinna með þessar skrár með beinum hætti. Annaðhvort mun stjórnandinn setja upp innbótina þannig að uppsetningin gerist sjálfkrafa fyrir þig eða þú munt nota innbyggða uppsetningu með hjálp til að fara í gegnum uppsetninguna.
 
@@ -84,7 +84,7 @@ Miðstýrð innleiðing er eiginleiki í Microsoft 365 Stjórnun sem notaður er
 > [!IMPORTANT]
 > Grænt gátmerki birtist þegar innbótin er uppsett í stjórnendamiðstöðinni. Það getur þó liðið allt að sólarhringur áður en notendur sjá innbótina í Outlook-forritinu. Notendur gætu einnig þurft að endurræsa Outlook.
 
-Þegar því er lokið er alltaf hægt að breyta virkjuninni í Microsoft 365 stjórnendamiðstöð, eins og að úthluta fleiri notendum. Frekari upplýsingar um uppsetningu innbóta í stjórnendamiðstöðinni er að finna í [Setja upp innbætur í stjórnendamiðstöðinni](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Þegar því er lokið er alltaf hægt að breyta virkjun í Microsoft 365 admin Center eins og að úthluta fleiri notendum. Frekari upplýsingar um viðbótarviðbætur í admin Center [fást í innleiða viðbætur í admin Center](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Setja upp innbótina til eigin nota
 
@@ -130,7 +130,7 @@ Nú geturðu byrjað að nota innbótina í Outlook.
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook)  
-[Notkun innbóta í Outlook á vefnum](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Nota viðbætur í Outlook á vefnum](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

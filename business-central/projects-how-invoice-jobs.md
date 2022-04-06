@@ -2,7 +2,6 @@
 title: Stofna verksölureikning til að reikningsfæra verk
 description: Lýsir því hvernig skal reikningsfæra viðskiptavini fyrir útgjöldum verks eftir því sem verki vindur fram og kostnaður safnast upp.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 444ecd4ea765983d2cd4c7c80962f8d2e66a737e
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 792b5a3640693b7d1be76b319dfc4e713085106f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973785"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516615"
 ---
 # <a name="invoice-jobs"></a>Reikningsfærsla verka
 Meðan á verkefninu stendur getur kostnaður vegna forðanotkunar, efnis og verktengdra innkaupa safnast upp. Þessar færslur eru bókaðar í verkbókina á vinnslutíma verksins. Mikilvægt er að allur kostnaður sé skráður í verkbókina áður en viðskiptavininum er sendur reikningur.
@@ -28,6 +27,8 @@ Hægt er að reikningsfæra allt verkið á síðunni **Verkhlutalínur** eða a
 
 > [!NOTE]  
 > Ef valið er **Reikningshæft** í reitnum **Verklínutegund** í söluskjölum fyrir verktengd innkaup verða stofnaðar verkáætlunarlínur sem eru tilbúnar til að vera reikningsfærðar á viðskiptamann. Frekari upplýsingar eru í [Sjá um birgðir verkefna](projects-how-manage-project-supplies.md).
+
+Einnig er hægt að reikningsfæra fyrirtæki sem er ekki endinn viðskiptavinur. Stundum er sá aðili sem verkefni er fyrir er ólíkur þeim aðila sem er að greiða frumvarpið. **Á síðunni vinnslur** er hægt að tilgreina viðskiptamanninn sem mun njóta góðs af verkinu í **reitunum Selt-til** og aðila sem á að reikningsfæra í **reitunum Reikn**. 
 
 ## <a name="to-create-multiple-job-sales-invoices"></a>Að búa til marga sölureikninga verks
 Hægt er að stofna reikning fyrir verk eða einn eða fleiri verkhluta fyrir viðskiptavin þegar verkinu sem á að reikningsfæra er lokið eða komið er að dagsetningu reikningafærslunnar, sem byggist á reikningsfærsluáætlun.
@@ -68,7 +69,7 @@ Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tím
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)         
 [Sala](sales-manage-sales.md)      
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

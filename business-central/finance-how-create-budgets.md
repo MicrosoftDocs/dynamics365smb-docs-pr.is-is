@@ -2,7 +2,6 @@
 title: Stofnun fjárhagsáætlana
 description: Lýsir því hvernig stofna skal fjárhagsáætlanir til að spá fyrir um mismunandi fjármálaaðgerðir og úthluta víddum fyrir viðskiptaupplýsingar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,18 +10,18 @@ ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 37be635e57090e6e661a76ac3c0d7ea8473796a1
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 87fb665d57aaa6c66b4b3c2659d9e93a6e51239d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971707"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514044"
 ---
 # <a name="create-gl-budgets"></a>Stofna fjárhagsáætlunum
 
 Hægt er að útbúa margar áætlanir fyrir sömu tímabil með því að stofna áætlanir undir aðskildum heitum. Fyrst er heiti áætlunar sett upp og áætlunarupphæðir færðar inn. Þá er heiti áætlunarinnar haft með við allar áætlunarfærslur sem stofnaðar eru.  
 
-Þegar áætlun er stofnuð er hægt að skilgreina fjórar víddir fyrir hverja áætlun. Þessar áætlanatengdu víddir kallast áætlanavíddir. Hægt er að velja áætlanavíddir fyrir hverja áætlun úr víddunum sem þegar hafa verið settar upp. Hægt er að nota áætlanavíddir til að afmarka áætlanir og til að bæta víddaupplýsingum við áætlanafærslur. Frekari upplýsingar er að finna í [Unnið með víddir](finance-dimensions.md).
+Þegar áætlun er stofnuð er hægt að skilgreina fjórar víddir fyrir hverja áætlun. Þessar áætlanatengdu víddir kallast áætlanavíddir. Hægt er að velja áætlanavíddir fyrir hverja áætlun úr víddunum sem þegar hafa verið settar upp. Hægt er að nota áætlanavíddir til að afmarka áætlanir og til að bæta víddaupplýsingum við áætlanafærslur. Sjá [vinnu með víddir fyrir frekari upplýsingar](finance-dimensions.md).
 
 Fjárhagsáætlanir spila stórt hlutverk þegar kemur að viðskiptaupplýsingum, eins og í fjárhagsskýrslu sem byggir á fjárhagsskema sem innihalda fjárhagsáætlanafærslur eða þegar verið er að greina áætlaðar og raunverulegar upphæðir í bókhaldslyklunum. Frekari upplýsingar eru í [Viðskiptaupplýsingar](bi.md).
 
@@ -59,7 +58,7 @@ Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum
 [Viðskiptaupplýsingar](bi.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Setja upp forða, vinnuskýrslur og verk
 description: Þetta efnisatriði lýsir hvernig á að setja upp tilföng, vinnublöð og verk til að stjórna verkefnum og fjárhagsáætlunum þeirra.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: projects
 ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 0780cf84b5c13934ccc9dcaf2d3576731cbf07a3
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 2f238da69365edcdd797f00e62e6d766b00feec7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973759"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522721"
 ---
 # <a name="setting-up-project-management"></a>Setja upp verkefnastjórnun
 
@@ -40,7 +39,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

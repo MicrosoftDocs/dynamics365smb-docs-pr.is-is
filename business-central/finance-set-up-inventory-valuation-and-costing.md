@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8dd8b86e7ff07b9500c094bd2e570dbb6a371754
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142082"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520309"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Uppsetning birgðaverðmats og kostnaðar
 
@@ -44,7 +44,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Uppsetning bestu venjur: Aðferð kostnaðarútreiknings](setup-best-practices-costing-method.md)  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
 [Hönnunarupplýsingar: Breyta kostnaðarútreikningi fyrir vörur](design-details-changing-costing-methods.md)  
-[Unnið með Business Central](ui-work-product.md)  
+[Vinna með Viðskiptaseðla-](ui-work-product.md)  
 [Fjármál](finance.md)  
 
 

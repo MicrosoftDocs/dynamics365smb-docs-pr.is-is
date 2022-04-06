@@ -2,7 +2,6 @@
 title: Rekja tengsl milli eftirspurnar og framboðs
 description: Þetta efnisatriði útskýrir mismunandi leiðir til að rekja tengsl milli framboðs og eftirspurnar á borð við rakningu á tengdum vörum og meðhöndlun á óröktum einingum áætlanagerðar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5830, 9101, 99000822, 99000855
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ed1dbf03838b478cc8ff9c5f2e357c5873e30703
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 377f0af230bd1a1d77bcbc303a9b5cdefcb42ca6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972698"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517870"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Rekja tengsl milli eftirspurnar og framboðs
 
@@ -62,7 +61,7 @@ Síðan inniheldur færslur sem standa fyrir órakið umframmagn í pöntunarrak
 [Hönnunarupplýsingar: Frátekning, rakning og aðgerðarboð](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

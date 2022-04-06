@@ -2,7 +2,6 @@
 title: Tínsla og afhending í einföldum vöruhúsaskilgreiningum
 description: Í Business Central er hægt að framkvæma ferli útleiða til að tína og afhenda á eftirfarandi fjóra vegu eftir því hvert flækjustig vöruhússins er.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439069"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513394"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
 
@@ -154,7 +153,7 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 [Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Hönnunarupplýsingar: vöruhúsaflæði á innleið](design-details-outbound-warehouse-flow.md)  
 [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

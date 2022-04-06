@@ -2,7 +2,6 @@
 title: 'Hvernig á að: Setja upp notendur verkflæðis'
 description: Áður en hægt er að stofna verkflæði verður að setja upp notendur sem taka þátt í þeim á síðu notendaflokks verkflæðis.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439921"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522379"
 ---
 # <a name="set-up-workflow-users"></a>Setja upp notendur verkflæðis
 

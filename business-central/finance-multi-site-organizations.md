@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 88877f719ec969fbca6dfd5928faf185b447bb42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382046"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520361"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central fyrir fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir
 Stofnanir á mörgum svæðum nota oft „hub-and-spoke“ viðskiptalíkan þegar móðurfyrirtæki, eða höfuðstöðvar, stjórna heildarrekstri fyrirtækisins en þar sem hvert svæði starfar sem ein, sjálfstæð eining. Svæði eru oft dreifð landfræðilega og hafa mismunandi þörf fyrir deilingu upplýsinga með höfuðstöðvum fyrirtækisins. Auk þess hafa svæði yfirleitt ekki sömu þarfir og oft skortir úrræði til að viðhalda stóru kerfi.
@@ -66,7 +66,7 @@ Tryggðu að fyrirtækið starfi í samræmi við viðskiptamarkmiðin með þv�
 
 | **Fyrirtækjakröfur** | **Hvernig Business Central styður það** | **Frekari upplýsingar** |
 |-------------------------|-------------------------|-------------------------|
-| Deila innsýn með síðum án víðtækrar tækniaðstoðar. | Búðu til KPI og stjórnborð viðskiptagreindar í Power BI byggt á gögnum þínum. | [Unnið með Business Central Data í Power BI](across-working-with-business-central-in-powerbi.md) |
+| Deila innsýn með síðum án víðtækrar tækniaðstoðar. | Búðu til KPI og stjórnborð viðskiptagreindar í Power BI byggt á gögnum þínum. | [Vinna við aðalgögn fyrirtækja í Power BI](across-working-with-business-central-in-powerbi.md) |
 | Búa til sérsniðnar fjárhagsskýrslur. | Búa til fjárhagsskýrslur byggðar á breytum. | [Viðskiptaupplýsingar](bi.md) |
 | Í samræmi við staðreyndir. | Búa til, skoða og deila skýrslum með innri og ytri hagsmunaaðilum. | [Fjárhagsskýrslur](finance-reports.md) |
 | Greindu gögnin í Excel. | Gátun, úrræðaleit og tilfallandi greiningar í Microsoft Excel. | [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md) |
@@ -83,7 +83,7 @@ API og XMLports einfalda ferlið við að tengja tilvik [!INCLUDE[prod_short](in
 | Birta og flytja inn XML-skjöl. | Nota má kóðaeiningur sem óbundnar aðgerðir til að styðja við birtingu og inntöku á XML-skjölum. Til að vinna úr XML-skjölum er hægt að nota XMLports. Óbundnar aðgerðir geta einnig búið til XML eða JSON skjal. | [XMLport Hlutir](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Auðvelda viðhald með rafrænum gagnaskiptum. | Hægt er að bæta við rafrænni gagnaskiptilausn til að nota sem samþættingarlag milli höfuðstöðvarfyrirtækisins og svæða. | [Gagnaskiptarammi](across-about-the-data-exchange-framework.md) |
 | Skipting gagna á milli mismunandi kerfa. | Notaðu XMLports til að búa til XML-skjöl sem síðan er hægt að skipta á milli höfuðstöðvarfyrirtækis sem notar eitt kerfi og svæða sem nota Business Central. | [XMLport Yfirlit](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
-| Skipuleggja flókin gagnaskipti. | Notaðu samsetningu XMLports með Business Central og Microsoft BizTalk Server til að fullnægja einstökum þörfum á svæðunum þínum.</br>Notaðu rafræna gagnaskiptilausn sem byggir á BizTalk Server and Commerce Gateway í Business Central ásamt XMLports fyrir flóknari kröfur. | [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md) |
+| Skipuleggja flókin gagnaskipti. | Notaðu samsetningu XMLports með Business Central og Microsoft BizTalk Server til að fullnægja einstökum þörfum á svæðunum þínum.</br>Notaðu rafræna gagnaskiptilausn sem byggir á BizTalk Server and Commerce Gateway í Business Central ásamt XMLports fyrir flóknari kröfur. | [Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md) |
 | Tengjast lausnum og þjónustu þriðja aðila<sup></sup>. | API setur punktatengingu milli Business Central og lausna og þjónustu<sup></sup> þriðju aðila. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
@@ -105,11 +105,11 @@ Höfuðstöðvar verða að geta brugðist skjótt við breytingum á rekstri á
 | **Fyrirtækjakröfur** | **Hvernig Business Central styður það** | **Frekari upplýsingar** |
 |-------------------------|-------------------------|-------------------------|
 | Búa sjálfkrafa til póstviðvaranir. | Setja upp viðvaranir í Power Automate sem mynda tölvupósta til að upplýsa þig um mikilvæg viðskiptaskilyrði á síðum eða samstarfsaðilum birgðakeðjunnar. | [Business Central og Power BI](admin-powerbi.md) |
-| Nota hefðbundnar eða sérsniðnar viðvaranir. | Nota 12 mismunandi sniðmát fyrir Business Central eða setja upp eigin viðvaranir sem henta fyrirtækinu. | [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md) |
+| Nota hefðbundnar eða sérsniðnar viðvaranir. | Nota 12 mismunandi sniðmát fyrir Business Central eða setja upp eigin viðvaranir sem henta fyrirtækinu. | [Nota Viðskiptamiðað í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun á Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

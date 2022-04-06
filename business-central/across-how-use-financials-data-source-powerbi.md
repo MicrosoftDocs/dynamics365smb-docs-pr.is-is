@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 926c614dcb28c7bde4ee8c0a611ac45aa7145fb8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141568"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523216"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)] -gögn
 
@@ -40,14 +40,14 @@ Notandi getur gert [!INCLUDE[prod_long](includes/prod_long.md)]-gögnin sín að
 
   - OData-vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
   
-    Yfirleitt er þessi vefslóð með sniðinu `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, til dæmis, `https://localhost:7048/BC160/ODataV4`. Ef um er að ræða virkjun með margleigjanda skal hafa leigjanda á vefslóðinni, til dæmis, `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    Yfirleitt hefur þessi VEFSLÓÐ sniðið `http[s]://[computer]:[port]/[serverinstance]/ODataV4` t.d`https://localhost:7048/BC190/ODataV4`. Ef um er að ræða virkjun til margra leigjenda skal meðal annars nefna leigjendur í VEFSLÓÐINNI, t.d`https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
   - Notandanafn og aðgangslykill vefþjónustu af [!INCLUDE[prod_short](includes/prod_short.md)] -reikningi.
 
     Til að sækja gögn úr [!INCLUDE[prod_short](includes/prod_short.md)] notar Power BI grunnsannvottun. Svo þarftu að fá notandanafn og aðgangslykil vefþjónustu til að tengjast. Reikningurinn gæti verið þinn eigin notandareikningur eða fyrirtækið kann að hafa sérstakan reikning í þeim tilgangi.
 
 - Hlaða niður [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema (valfrjálst).
 
-  Frekari upplýsingar er að finna á [Notkun [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema](#theme) í þessari grein.
+  Frekari upplýsingar er að finna [í notkun [!INCLUDE [prod_short](includes/prod_short.md)] þema](#theme) skýrslunnar í þessari grein.
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnaveitu í Power BI Desktop
 
@@ -82,7 +82,7 @@ Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prod_short](includes/pro
       - **Nafn fyrirtækis**
         - **Ítarlegt API**
 
-          Þessi mappa sýnir ítarlegar API-síður sem Microsoft gefur út, t.d. [API Business Central-sjálfvirkni](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) og [sérsniðnar API-síður fyrir Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Sérsniðnar API-síður eru ennfremur flokkaðar í möppur eftir eiginleikunum [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) af upprunakóða API-síðunnar.
+          Þessi mappa sýnir ítarlegar API-síður sem Microsoft gefur út, t.d. [API Business Central-sjálfvirkni](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) og [sérsniðnar API-síður fyrir Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Sérsniðnar API-síður eru frekar flokkaðar í möppur eftir [apipublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[Eiginleikar apigroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) eiginleika API-síðu frumkóða.
 
         - **Staðlað API v2.0**
 
@@ -152,36 +152,36 @@ Til að birta skýrslu skal velja **Birta** á flipanum **Heim** á borðanum e�
 
 ## <a name="fixing-problems"></a>Vandamál lagfærð
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Ekki er hægt að setja inn færslu. Núverandi tengingarásetningur er skrifvarinn." Villa við tengingu við sérsniðna API-síðu
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Ekki er hægt að setja inn færslu. Gildandi tengingarásetningur er skrifvarin. " Villa við tengingu við sérsniðna API síðu
 
 > **GILDIR UM:** Business Central Online
 
-Frá og með febrúar 2022 munu nýjar skýrslur sem nota Business Central gögn tengjast skrifvörðum eftirlíkingu af Business Central gagnagrunninum sjálfgefið. Í mjög sjaldgæfum tilvikum, eftir síðuhönnun, færðu villu þegar þú reynir að tengjast og fá gögn af síðunni.
+Sem hefst í febrúar 2022, nýjar skýrslur sem nota aðalgögn fyrirtækja munu tengjast lestri aðeins eftirmynd af aðalgagnagrunni viðskiptamiðsins að sjálfgefnu. Í einstaka tilfellum fer eftir síðunni hönnun, þú færð villu þegar þú reynir að tengjast og færð gögn af síðunni.
 
 1. Ræsið Power BI Desktop.
-2. Í borðanum skaltu velja **Sækja DataOnline** > **Services**.
-3. Í rúðunni **Netþjónusta** skal velja **Dynamics 365 Business Central** og tengjast **síðan**.
-4. **Í glugganum Navigator** skal velja API-endastöðina sem á að hlaða gögnum úr.
-5. Í forskoðunarrúðunni til hægri sést eftirfarandi villa:
+2. Í borðhaldinu velurðu **Sækja Data** > **netþjónustu**.
+3. **Í rúðunni þjónusta** á netinu er valið **Dynamics 365 Business Central**, síðan **tengjast**.
+4. **Í glugganum Navigator** er API-endastöð valin sem á að hlaða gögn úr.
+5. Í forskoðunarglugganum hægra megin sérðu eftirfarandi villu:
 
-   *Dynamics365BusinessCentral: Beiðni mistókst: Fjarþjónninn skilaði villu: (400) Röng beiðni. (Ekki er hægt að setja inn færslu. Núverandi tengingarásetningur er skrifvarinn. FylgniId: [...])".*
+   *Dynamics365BusinessCentral: beiðni mistókst: fjarstýrð Þjónn skilaði villu: (400) slæm beiðni. (Ekki hægt að setja inn færslu. Gildandi tengingarásetningur er skrifvarin. CorrelationId: [...])".*
 
-6. Veldu **Umbreyta gögnum** í stað **hleðslu** eins og venjulega.
-7. Í **Power Query Ritstjóra** skal velja **Ítarlegur ritstjóri** úr borðanum.
-8. Í línunni sem byrjar á **Source =** skal skipta út eftirfarandi texta:
+6. Velja **umbreytingargögn** í stað **álags** eins og venjulega.
+7. Í **Power Query ritstjórn** er valið **ítarlegur ritstjóri** frá borði.
+8. Í línunni sem byrjar **á Source =**, skal skipta út eftirfarandi texta:
 
    ```
    Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
    ```
 
-   með:
+   með
 
    ```
    Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
    ```
 
-9. Veljið **Lokið**.
-10. Veldu **Loka &apply** frá borði til að vista breytingarnar og loka Power Query ritlinum.
+9. Valið **er gert**.
+10. Veldu **loka & sækja um** frá borði til að vista breytingarnar og loka Power Query riti.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

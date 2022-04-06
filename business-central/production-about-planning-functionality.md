@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 14048cfe4d18df0002f51dacac658a6c07bc0155
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 693e7a3a5970e681840332f7b6899f1867e36bd1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135108"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512257"
 ---
 # <a name="about-planning-functionality"></a>Um áætlunaraðgerðir
 
@@ -170,8 +170,8 @@ Upplýsingar um áætlanagerð með birgðageymslum og flutningum er að finna �
 [Framleiðsla](production-manage-manufacturing.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

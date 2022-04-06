@@ -2,17 +2,17 @@
 title: Framleiðsluskýrslur og greiningar
 description: Finndu út hvaða framleiðsluskýrslur og greiningar eru í boði í staðlaðri útgáfu Business Central til að halda utan um reksturinn.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_5871, Report_5872, Report_99000753, Report_99000756, Report_99000757, Report_99000758, Report_99000791, Report_99000780, Report_99000783, Report_99000784, Report_99000788, Report_99000767
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 7807b97930e257ea0588b2965b1f155aa8aa3b72
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
-ms.translationtype: HT
+ms.openlocfilehash: 9163330c1150a4af17954d5788f24cf004dca6dd
+ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102578"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455556"
 ---
 # <a name="production-reports-and-analytics-in-business-central"></a>Framleiðsluskýrslur og greiningar í Business Central
 

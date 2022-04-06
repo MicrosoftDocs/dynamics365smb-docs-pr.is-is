@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - Reikningar í fjárhagnum | Microsoft Docs
 description: Til að afstemma birgðir og afkastahöfuðbókarfærslur við fjárhag eru tengdar virðisfærslur bókaðar á mismunandi reikninga í fjárhag.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 41b94d44ba374ecbcad64a2b1da100fcf3e1a2ab
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
-ms.translationtype: HT
+ms.openlocfilehash: b67dd40723f28cb4d59818deb302a1d35c7420e4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215579"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521073"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Hönnunarupplýsingar: reikningar í fjárhagur
 Til að afstemma birgðir og afkastahöfuðbókarfærslur við fjárhag eru tengdar virðisfærslur bókaðar á mismunandi reikninga í fjárhag. Frekari upplýsingar, sjá [Hönnunarupplýsingar: afstemming við fjárhaginn](design-details-reconciliation-with-the-general-ledger.md)  
@@ -99,7 +98,7 @@ Eftirfarandi tafla sýnir hvernig upphæðirnar sem á að bóka í fjárhag eru
  [Hönnunarupplýsingar: Væntanleg kostnaðarfærsla](design-details-expected-cost-posting.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

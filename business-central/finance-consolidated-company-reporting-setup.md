@@ -10,12 +10,12 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7135eb7b7b9ccb845bac1fe3ec5503201dc7b035
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 453cebcddb1fdfd2f3127fd08548deccc8fe1876
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383216"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512205"
 ---
 # <a name="set-up-company-consolidation"></a>Setja upp sameiningu fyrirtækis
 
@@ -137,7 +137,7 @@ Ef þú átt aðeins hlut í fyrirtæki geturðu tengt prósentutölu, sem samsv
 
 [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)  
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Flutningur viðskiptagagna í Excel](about-export-data.md)
 
 

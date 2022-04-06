@@ -10,12 +10,12 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f258805bfed9acf0cb43e42df54660bf52d54853
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 18e0a6cad715da0f06d289112311f3c00bf4e46d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366647"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521099"
 ---
 # <a name="manage-human-resources"></a>Hafa umsjón með mannauði
 
@@ -35,7 +35,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig
 
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)        
 
 

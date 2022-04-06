@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b25851a01a5687da3055a6b8e32becf8e6e9f018
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c683e2ff5960ce03f9c2083954c8250e2e6b39e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131614"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518052"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Talning, breytingar og endurflokkun birgða með færslubókum
 Minnst einu sinni á hverju fjárhagsári þarf að telja raunbirgðir (það er, telja allar vörur á lager) til að athuga hvort magnið sem skráð er í kerfinu sé það sama og raunbirgðir á lager. Þegar búið er að finna út úr raunbirgðum þarf að bóka þær í fjárhag þegar fram fer mat á birgðum við lok tímabils.
@@ -174,7 +174,7 @@ Einnig er hægt að nota aðgerðina **Leiðrétta birgðir** sem einfalda leið
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Leiðrétta birgðamagn margra vara í grunngerð vöruhúss
 Á síðunni **Birgðabók** er hægt að bóka birgðafærslu beint til að leiðrétta birgðaskrá í tengslum við innkaup, sölu og jákvæða eða neikvæða leiðréttingu án þess að nota fylgiskjöl.
 
-Ef birgðabókin er oft notuð til að bóka sömu eða svipaðar færslubókarlínur, til dæmis í tengslum við efnisnotkun, er hægt að nota síðuna **Stöðluð birgðabók** til að auðvelda þessa endurteknu vinnu. Frekari upplýsingar er að finna í [Unnið með staðlaðar færslubækur](ui-work-general-journals.md#working-with-standard-journals).
+Ef birgðabókin er oft notuð til að bóka sömu eða svipaðar færslubókarlínur, til dæmis í tengslum við efnisnotkun, er hægt að nota síðuna **Stöðluð birgðabók** til að auðvelda þessa endurteknu vinnu. Sjá [vinnu með staðlaðar færslubækur fyrir frekari upplýsingar](ui-work-general-journals.md#work-with-standard-journals).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðabækur** og velja síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -223,7 +223,7 @@ Nánari upplýsingar um flutning vara með fulla stjórn á magni sem sent er og
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)    
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

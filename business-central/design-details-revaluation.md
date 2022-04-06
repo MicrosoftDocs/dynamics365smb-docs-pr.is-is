@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - Endurmat
 description: Hægt er að endurmeta birgðir á grundvelli virðisgrundvallar sem endurspeglar nákvæmast birgðavirði.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 219c99e10e274bf2eeb99607b4499a4f94102237
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444306"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517629"
 ---
 # <a name="design-details-revaluation"></a>Hönnunarupplýsingar: Endurmat
 Hægt er að endurmeta birgðir á grundvelli virðisgrundvallar sem endurspeglar nákvæmast birgðavirði. Einnig er hægt að bakfæra endurmat, þannig að kostnaður við seldar vörur(kostnaður seldra vara) sé rétt uppfærður fyrir vöru sem hefur þegar verið seld. Vörur sem nota hefðbundna aðferð kostnaðarútreiknings og hafa ekki verið reikningsfærðar að fullu er einnig hægt að endurmeta.  
@@ -181,7 +180,7 @@ VÍG-birgðir er hægt að endurmeta svo framarlega sem endurmatsdagsetningin er
  [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)   
  [Hönnunarupplýsingar: Birgðavirði](design-details-inventory-valuation.md) [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,31 +6,31 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2021
+ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 0a901fca9da818459e8c94735c041dfbafff9471
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367203"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518130"
 ---
 # <a name="welcome-to-prod_long"></a>Velkomin(n) í[!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Forritið [!INCLUDE[prod_short](includes/prod_short.md)] er sveigjanlegt og fjölbreytt kerfi sem gerir fyrirtækjum kleift að halda utan um rekstur, þar á meðal fjármál, framleiðslu, sölu, afhendingu, verkefnastjórnun, þjónustu og meira til. Fyrirtæki geta auðveldlega bætt við eiginleikum sem henta landsvæði þeirra og sem má sérsníða fyrir sérhæfðustu atvinnugreinar.  
+[!INCLUDE[prod_short](includes/prod_short.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Forritið [!INCLUDE[prod_short](includes/prod_short.md)] er sveigjanlegt og fjölbreytt kerfi sem gerir fyrirtækjum kleift að halda utan um rekstur, þar á meðal fjármál, framleiðslu, sölu, afhendingu, verkefnastjórnun, þjónustu og meira til. Fyrirtæki geta auðveldlega bætt við eiginleikum sem henta landsvæði þeirra og sem má sérsníða fyrir sérhæfðustu atvinnugreinar. [!INCLUDE[prod_short](includes/prod_short.md)] er fljótlegt að innleiða, auðvelt að grunnstilla og einfaldleiki leiðir til nýjunga í vöruhönnun, þróun, framkvæmd og notagildi.  
 
-[Lærðu hvernig á að fá ókeypis prufuáskrift hér](trial-signup.md).  
-
-Ef þú ert þegar með [!INCLUDE[prod_short](includes/prod_short.md)], skráir þú þig inn á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Annars skaltu [sækja](https://dynamics.microsoft.com/business-central/overview/), [skoða leiðarvísinn](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og hefja svo [frían prufuáskrift](https://go.microsoft.com/fwlink/?linkid=847861). Kíktu á [stutta leiðarvísa](quick-start-business-central.md) til að hjálpa þér að skilja betur [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar um innleiðingu í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna í [Undirbúningur fyrir að stunda viðskipti](ui-get-ready-business.md).  
+Ef þú ert þegar með [!INCLUDE[prod_short](includes/prod_short.md)], skráir þú þig inn á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Annars, [fá yfirlitið](https://dynamics.microsoft.com/business-central/overview/), [taka leiðsögn leiðsögumann](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og læra síðan [hvernig byrjað er á frjálsri prufu](trial-signup.md). Kíktu á [stutta leiðarvísa](quick-start-business-central.md) til að hjálpa þér að skilja betur [!INCLUDE [prod_short](includes/prod_short.md)]. Til að [!INCLUDE[prod_short](includes/prod_short.md)] fá frekari upplýsingar um það, sjá [Ready on Business](ui-get-ready-business.md).  
 
 > [!TIP]
 > Komstu hingað af [!INCLUDE [prod_short](includes/prod_short.md)]? Ef þú ert ekki viss um hvar á að finna það sem þú ert að leita að er hægt að **sía eftir titlum** í yfirlitssvæðinu til vinstri eða nota reitinn **Leita** efst í vafraglugganum.  
 >
 > Einnig er hægt að nota leitareiginleikana í [!INCLUDE [prod_short](includes/prod_short.md)] til að finna viðeigandi fylgiskjöl. Frekari upplýsingar er að finna í [Finna síður og upplýsingar með „Segðu mér“](ui-search.md).
 
-## <a name="overview"></a>Yfirlit
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] er fljótlegt að innleiða, auðvelt að grunnstilla og einfaldleiki leiðir til nýjunga í vöruhönnun, þróun, framkvæmd og notagildi. Á yfirlitssvæðinu til vinstri er hægt að finna upplýsingar um notkun [!INCLUDE[prod_short](includes/prod_short.md)] í fyrirtækinu þínu. Finnið tengla á lýsingar á algengustu möguleikana í hlutanum [Viðskiptaferli](#business-processes).  
+## <a name="microsoft-docs"></a>Microsoft docs
+
+Á yfirlitssvæðinu til vinstri er hægt að finna upplýsingar um notkun [!INCLUDE[prod_short](includes/prod_short.md)] í fyrirtækinu þínu. Finnið tengla á lýsingar á algengustu möguleikana í hlutanum [Viðskiptaferli](#business-processes). Sjá einnig [nota docs.microsoft.com svæði til að læra fleiri](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more) kafla.  
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
@@ -45,7 +45,7 @@ Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsing
 
 - [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)
 - [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
-- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 - [Stjórnun](admin-setup-and-administration.md)
 - [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)
 - [Hönnunarupplýsingar hugbúnaðar](design-details-application-design.md)
@@ -102,10 +102,11 @@ Einnig er hægt að skoða myndbönd af nýjum og algengum möguleikum í myndba
 [Hafist handa með Business Central](ui-get-ready-business.md)  
 [Skoðaðu myndbandasafnið okkar](across-videos.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem mitt viðskiptainnhólf í Outlook](admin-outlook.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Viðskiptainnhólf mitt í Outlook](admin-outlook.md)  
 [Fáðu [!INCLUDE[prod_short](includes/prod_short.md)] í farsímann þinn](install-mobile-app.md)  
-[Unnið með víddir](finance-dimensions.md)  
+[Vinna með víddir](finance-dimensions.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
+[Notaðu síðuna docs.microsoft.com til að læra meira](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Samræmi](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Skilmálar netþjónustu](compliance/compliance-service-compliance.md#service-terms)  
 [Helstu uppfærslur og minni uppfærslur Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

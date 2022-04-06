@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 965a87d731a2e1d9cb2ae390add4536c77c6824c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381037"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520605"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa
 Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekki móttöku- eða sendingarhólfa, á sérstakra krafna frá upprunaskjali. Þessar tilfallandi hreyfingar gætu verið gerðar, til dæmis til að endurskipuleggja vöruhúsið, til að færa vörur í skoðunarsvæði eða til að flytja aukavörur í og úr framleiðslusvæði án kerfistengsla við upprunaskjal framleiðslupöntunar.  
@@ -75,7 +75,7 @@ Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekk
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

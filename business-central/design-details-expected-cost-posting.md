@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - Væntanleg kostnaðarfærsla
 description: Áætlaður kostnaður stendur til dæmis fyrir kostnað keyptrar vöru sem skráð var áður en reikningur fyrir vörunni var móttekinn.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
-ms.translationtype: HT
+ms.openlocfilehash: c2c3e7cd0e9f5ae88e63bd305927a20341e7559b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649838"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513097"
 ---
 # <a name="design-details-expected-cost-posting"></a>Hönnunarupplýsingar: Væntanlegur kostnaðarfærsla
 Áætlaður kostnaður stendur til dæmis fyrir kostnað keyptrar vöru sem skráð var áður en reikningur fyrir vörunni var móttekinn.  
@@ -100,7 +99,7 @@ Innkaupapöntun er bókuð sem móttekin Áætlaður kostnaður er 95,00 SGM.
  [Hönnunarupplýsingar Frávik](design-details-variance.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

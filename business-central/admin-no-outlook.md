@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79a02ba516c1359863ac552e66fce03287519a65
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ac4d66671d7eeb78c5fead20e7a43844c5d03c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144077"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517058"
 ---
-# <a name="using-business-central-without-outlook"></a>Nota Business Central án Outlook
+# <a name="use-business-central-without-outlook"></a>Nota viðskipti miðlægt án Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] er með Microsoft 365 djúpa samþættingu og hægt er að nota [!INCLUDE[prod_short](includes/prod_short.md)] sem viðskiptainnhólf í Outlook. En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[prod_short](includes/prod_short.md)] í vafra eða á fartækinu þínu.  
 
 ## <a name="sending-email"></a>Senda Tölvupóst
@@ -25,7 +25,7 @@ Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfa
 
 ## <a name="see-also"></a>Sjá einnig
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)  
+[Nota viðskipti miðlægt sem Viðskiptahólf í Outlook](admin-outlook.md)  
 [Sækja Business Central í fartækið mitt](install-mobile-app.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)
 

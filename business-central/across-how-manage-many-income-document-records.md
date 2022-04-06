@@ -4,7 +4,6 @@ description: Stilla hvaða skjöl á innleið skuli birtast sjálfgefið, eins o
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69c807a9c99b105782240c43d096a73ff01e2664
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: d9460bb8a972f3cd9ab812b14ef7f5a9e89f8ef4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775973"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523171"
 ---
 # <a name="manage-many-incoming-document-records"></a>Vinna með margar færslur skjala á innleið
 Þegar þú býrð til eða vinnur færslur fyrir skjal á innleið, getur fjöldi lína á síðunni **Skjöl á innleið** vaxið að marki þar sem þú tapar yfirsýn. Þess vegna getur þú stillt færslur fyrir skjal á innleið sem unnið, til að fjarlægja þá úr sjálfgefna yfirlitinu. Þegar valið er **Sýna Allt** aðgerð, geturðu skoðað bæði unnar og óunnar færslur.
@@ -56,7 +55,7 @@ Allar færslur skjala á innleið eru birtar , þar á meðal þær þar sem **u
 [Vinnsla skjala á innleið](across-process-income-documents.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

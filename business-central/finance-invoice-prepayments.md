@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 74f277ab22675cd490b136845a48062527469c05
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e1bc919488a1932338b71938cc4c6e2928cfc177
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147701"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514018"
 ---
 # <a name="invoicing-prepayments"></a>Reikningsfærsla fyrirframgreiðslna
 
@@ -22,7 +22,7 @@ ms.locfileid: "8147701"
 
 [!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
-Til dæmis er hægt að tilgreina heildarupphæð fyrir alla pöntunina eða dreifa fyrirframgreiðslunni yfir hverja línu í pöntuninni. Einnig er hægt að senda viðbótarfyrirframgreiðslureikninga ef t.d. vörum er bætt við pöntunina. Hægt er að auka magn eða bæta nýjum línum í pöntun eftir að búið er að senda fyrirframgreiðslu og bóka síðan annan fyrirframgreiddan reikning.  
+Til dæmis er hægt að tilgreina heildarupphæð fyrir alla pöntunina, eða að hægt sé að dreifa fyrirframgreiðslunni þvert á hverja línu í pöntuninni. Einnig er hægt að senda viðbótarfyrirframgreiðslureikninga ef t.d. vörum er bætt við pöntunina. Hægt er að auka magn eða bæta nýjum línum í pöntun eftir að búið er að senda fyrirframgreiðslu og bóka síðan annan fyrirframgreiddan reikning.  
 
 > [!NOTE]
 > Ef eyða á línu þar sem fyrirframgreiðsla hefur þegar verið reikningsfærð verður að gefa út kreditfyrirframgreiðslureikning áður en hægt er að eyða línunni.
@@ -41,7 +41,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

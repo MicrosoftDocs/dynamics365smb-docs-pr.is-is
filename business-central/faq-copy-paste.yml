@@ -2,12 +2,13 @@
 metadata:
   title: Algengar spurningar um að afrita og líma gögn
   description: Fáðu svör við algengum spurningum um að afrita og líma gögn úr reitum og línum af síðum Business Central.
-  ms.openlocfilehash: e52c60da284ba8144975c88b138ca4e7218fa2ab
-  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
-  ms.translationtype: HT
+  ms.topic: faq
+  ms.openlocfilehash: d2fa68425d164e47b0618a4c00e8e685afba6647
+  ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+  ms.translationtype: MT
   ms.contentlocale: is-IS
-  ms.lasthandoff: 05/28/2021
-  ms.locfileid: "6115743"
+  ms.lasthandoff: 04/01/2022
+  ms.locfileid: "8528424"
 title: Algengar spurningar um að afrita og líma
 summary: "Þú getur afritað eina eða fleiri raðir (færslur) úr lista eða einum reit á síðu og síðan líma það sem þú afritaðir á sömu síðu, aðra síðu eða ytri skjal (eins og Microsoft Excel og Outlook tölvupóst).  \n\nÍ stuttu máli, til að afrita, ýtirðu á CTRL+C (cmd+C í macOS) á lyklaborðinu þínu. Til að líma er stutt á CTRL+V (cmd+V í macOS). Það eru nokkrir aðrir flýtilyklar til að afrita og líma sem hjálpa þér að spara tíma þegar þú slærð inn gögn. Nánari upplýsingar um þetta er að finna í [Flýtilykla](keyboard-shortcuts.md#CopyRows). Þessi grein svarar algengum spurningum sem þú gætir haft um að afrita og líma.  \n"
 sections:
@@ -72,4 +73,7 @@ sections:
   - question: Af hverju fæ ég villuboð þegar ég líma raðir?
     answer: >
       Þegar líma inn í [!INCLUDE[prod_short](includes/prod_short.md)] er hver röð skoðuð til að ganga úr skugga um að gildi í hverjum dálki séu gild. Ef dálkur inniheldur gildi sem er ógilt er líming stöðvað og villuboð birtist. Til að forðast þetta skaltu ganga úr skugga um að dálkarnir hafi gild gildi áður en þú límir þá.
-additionalContent: "## <a name=\"next-steps\"></a>Næstu skref\nFinndu tengdar upplýsingar hér: \n  - [Aðstoðareiginleikar](ui-accessibility.md)  \n  - [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  \n  - [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Algengar spurningar](across-faq.yml)"
+  - question: Get ég einnig afritað tengla á síður og færslur?
+    answer: >
+      Já. Frekari upplýsingar er að finna [í Samnýting Viðskipagagna úr Viðskiptamiðinu](across-share-data-features.md).
+additionalContent: "## <a name=\"next-steps\"></a>Næstu skref\nFinndu tengdar upplýsingar hér: \n  - [Aðstoðareiginleikar](ui-accessibility.md)  \n  - [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  \n  - [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Algengar spurningar](across-faq.yml)"

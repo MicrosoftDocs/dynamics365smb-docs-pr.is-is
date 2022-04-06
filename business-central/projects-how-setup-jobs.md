@@ -2,19 +2,18 @@
 title: Setja upp verð fyrir verk og verkbókunarflokka
 description: Lýsir því hvernig setja á upp almennar upplýsingar um verk, og setja upp verð fyrir vörur verks, tilföng, og fjárhagsreikninga og verkbókunarflokka.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5b5a071bbaff4b0c5a95725fdf77af3887b5e00a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973285"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514909"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Setja upp verð fyrir verk og verkbókunarflokka
 
@@ -68,7 +67,6 @@ Eftirfarandi tafla sýnir hvernig upplýsingarnar í valfrjálsum svæðunum ver
 |**Verkatriði**|Reitirnir **Nr. verkhluta**, **Gjaldmiðilskóði** og **Línuafsl. %**. Gildið í reitnum **Einingarverð** fyrir vöruna verður notað í verkáætlunarlínum og verkbókum þegar þessi vara er slegin inn. Athugið að þetta verð hnekkir alltaf hefðbundnu viðskiptamannaverði („besta verð”) vöru. Ef nota skal hefðbundnar verðuppsetningar ætti ekki að stofna verð fyrir verkvöruna.|
 |**Fjárhagsreikningar**|Upplýsingar í reitunum **Verkhlutanr.**, **Gjaldmiðilskóti**, **Línuafsl. %**, **Stuðull einingarverðs** og **Kostn.verð** verða notaðar í verkáætlunarlínum og verkbókum þegar þessi fjárhagsreikningur er sleginn inn og honum bætt við verk. Gildið í reitnum **Einingarverð** fyrir verkkostnað fjárhags verður notað í verkáætlunarlínum og verkbókum þegar þessi fjárhagsreikningur er sleginn inn.|
 
----
 #### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2. Veljið viðeigandi verk og veljið svo aðgerðina **Söluverðlistar**.
@@ -110,7 +108,7 @@ Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að 
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

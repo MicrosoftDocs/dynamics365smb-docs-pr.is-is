@@ -8,21 +8,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: e95b60af569511a8a95154a53f80bcc235f883f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140476"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510598"
 ---
 # <a name="create-number-series"></a>Stofnun númeraraða
 
 Fyrir hvert fyrirtæki sem þú setur upp þarftu að úthluta einstökum kennitölum við hluti eins og aðalbókarreikninga, viðskiptavinar- og seljanda, reikninga og önnur skjöl. Númeraröð er ekki aðeins mikilvæg fyrir auðkenningu. Vel unnið númerakerfi gerir einnig auðveldara að stýra og greina fyrirtækið og getur fækkað villum sem upp koma í gagnafærslu.
 
 > [!Important]
-> Sjálfgefið er að eyður er ekki leyfð í númeraröðum vegna þess að nákvæmlega Ferill fjárhagsfærslna verður að vera tiltækur fyrir endurskoðun, samkvæmt lögum, og því verður að fylgja óbrotinn röð með engum Eydd númer.<br /><br />
+> Sjálfgefið er að eyður er ekki leyfð í númeraröðum vegna þess að nákvæmlega Ferill fjárhagsfærslna verður að vera tiltækur fyrir endurskoðun, samkvæmt lögum, og því verður að fylgja óbrotinn röð með engum Eydd númer.
+> 
 > Ef þú vilt leyfa eyður í tilteknum númeraröðum skaltu fyrst ráðfæra þig við endurskoðanda eða aðalbókara til að tryggja að þú farir eftir lagalegum skilyrðum í þínu landi/svæði. Nánari upplýsingar er að [finna í eyðurnar í númeraröðinni](#gaps-in-number-series).
 
 > [!NOTE]  
@@ -41,11 +42,14 @@ Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagn
 Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_short.md)] eru fjárhagsfærslur sem þarf að nota í röð númeraraðar. Viðskiptamannaspjald, sölutilboð og vöruhúsaaðgerðir eru dæmi um færslur sem eru úthlutaðar númeri úr númeraröðum en eru ekki háðar fjárhagsendurskoðun og/eða er hægt að eyða þeim. Til slíkrar númeraraðar er hægt að velja **Leyfa eyður í númeraröðum** í gátreitnum á síðunni **Númeraröð nr.**. Einnig er hægt að breyta þessari stillingu eftir að búið er að stofna númeraröðina. Frekari upplýsingar eru í [Búa til nýja númeraröð](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Hegðun nr. Reitur á skjölum og kortum
-Á sölu-, innkaupa og flutningsskjölum og á öllum kortum, **Nr.** hægt að fylla út sjálfkrafa með númeraröð eða handvirkt og hægt er að setja það upp svo það verði ósýnilegt.
+
+Á sölu-, innkaupa og flutningsskjölum og á öllum kortum, **Nr.** Hægt er að fylla út svæðið sjálfkrafa úr ákveðinni númeraröð eða bæta því handvirkt við. Undir vissum kringumstæðum **er hins vegar nr.** Er ósýnilegur til að koma í veg fyrir að hún sé breytt.  
 
 **númer** reitinn má fylla út á þrjá vegu:
 
-1. Ef aðeins ein númeraröð fyrir gerð skjals eða korts er til staðar þar sem gátreiturinn **Sjálfgefin nr.** er valinn og gátreiturinn **Handfærð nr.röð** er ekki valinn, þá er fyllt út í reitinn sjálfkrafa fyllt með næsta númeri í röðinni, og **Nr.** reiturinn verður ekki sýnilegur.
+1. Ef aðeins ein númeraröð fyrir gerð skjals eða korts er til staðar, og **reiturinn sjálfgefinn nr.** svæði er valinn og **reiturinn Handvirk nr.** ekki valinn fyrir þá númeraröð, er svæðið sjálfkrafa fyllt út með næsta númeri í röðinni. **númer** Reiturinn verður ekki sýnilegur á spjaldinu eða skjalinu.  
+
+    Jafnvel þótt sniðmát hafi verið skilgreint með ýmsum númerarröðum fyrir viðskiptamenn Ef númeraröðin sem er skilgreind á **uppsetningarsíðu** & söluinnkaupanna er sett upp á þennan hátt **er nr.** Svæði verður ósýnilegt á viðskiptamannaspjaldinu, sama hvaða sniðmát er notað. Sama gildir um aðrar tegundir korta og skjala.  
 
     > [!NOTE]  
     > Ef númeraröðin virkar ekki, til dæmis vegna þess að hún hefur númerin hafa klárast, þá **Nr.** reitur verður sýnilegur og þú getur handvirkt slegið inn númer eða leyst vandann á síðunni **Númeraraðir**.
@@ -71,11 +75,11 @@ Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_sh
 > [!TIP]
 > Til að leyfa notendum að tilgreina númer handvirkt þegar þeir skrá nýjan viðskiptavin eða lánardrottinn, til dæmis, **er reiturinn handvirkt nr.** í númeraröðinni. Til að afnema handvirka númerið hreinsast svæðið.
 
-Hægt er að úthluta númeraröðinni á sniðmátin sem eru sett upp fyrir mismunandi gerðir viðskiptavina og lánardrottna sem sölumennirnir og innkaupaaðilar bætast oftast við [!INCLUDE [prod_short](includes/prod_short.md)]. Í þeim tilvikum skal setja upp viðeigandi númeraröð, tengja þau í gegnum sambönd og bæta síðan við fyrstu númeraröðinni í viðkomandi sambandi á uppsetningarsíðu viðkomandi.  
+Hægt er að úthluta númeraröðinni á sniðmátin sem eru sett upp fyrir mismunandi gerðir viðskiptavina og lánardrottna sem sölumennirnir og innkaupaaðilar bætast oftast við [!INCLUDE [prod_short](includes/prod_short.md)]. Í þeim tilvikum skal setja upp viðeigandi númeraröð, tengja þau í gegnum sambönd og bæta síðan við fyrstu númeraröðinni í viðkomandi sambandi á uppsetningarsíðu viðkomandi. Þegar notandi stofnar viðskiptavin velja þeir sniðmát og nýr viðskiptamaður fær úthlutað númeri úr númeraröðinni sem er skilgreind fyrir það sniðmát.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Stofnun tengsla milli númeraraða
 
-Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað. Þegar samband er sett upp milli flokkarnúmeraraðar er öll tengd röð tengd við einn númerararkóta. Síðan er hægt að færa kótann í reit á **flipanum Tölusetning** fastflipa á einni af viðeigandi uppsetningarsíðu, svo sem **söluuppsetningu &**.  
+Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað. Þegar samband er sett upp milli flokkarnúmeraraðar er öll tengd röð tengd við einn númerararkóta. Síðan er hægt að færa kótann í reit á **flipanum Tölusetning** fastflipa á einni af viðeigandi uppsetningarsíðu, svo sem **söluuppsetningu** &.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Númeraraðir** og velja síðan viðkomandi tengil.
 2. Velja skal línuna með númeraröðinni sem á að stofna tengsl við. og veljið síðan **Tengsl**.
@@ -100,7 +104,7 @@ Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkoma
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

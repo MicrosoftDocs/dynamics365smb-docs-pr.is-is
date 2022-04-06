@@ -1,24 +1,23 @@
 ---
 title: Innsláttur dagsetninga og tíma í Business Central
 description: Lærðu hvernig á að slá inn dagsetningar og tíma, þar á meðal ýmsar ábendingar um framleiðni, svo sem hraðskrift, segð og afmarkanir.
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8254afc467474906dd80ae76ba134a0bce88c3a0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443644"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518862"
 ---
-# <a name="working-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tíma í dagatali
+# <a name="work-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tímasetningar dagatals
 
 [!INCLUDE[prod_short](includes/prod_long.md)] býður upp á margar leiðir til að slá inn dagsetningar og tíma, þar með talin öflugar aðgerðir sem flýta fyrir gagnaskráningu eða hjálpa þér að skrifa flókna dagatalssegðir. Það eru ýmsar staðir í forritinu þar sem þú getur slegið inn dagsetningar og tíma í reitum. Til dæmis, í sölupöntun, getur þú stillt afhendingardagsetningu. Þegar verið er að afmarka lista eða skýrslugögn er hægt að slá inn dagsetningar og tíma til að staðsetja aðeins þau gögn sem þú hefur áhuga á.
 
@@ -64,12 +63,15 @@ Vikunúmersskemað er alltaf ISO 8601, þar sem vika 1 er vikan sem inniheldur 4
 
 Í dagsetningarreit má færa inn tvær, fjórar, sex eða átta tölur:
 
--   Ef aðeins tvær tölur eru færðar inn þá túlkar kerfið þær sem daginn og bætir við mánuði og ári vinnudagsetningar.
+- Ef aðeins tvær tölur eru færðar inn þá túlkar kerfið þær sem daginn og bætir við mánuði og ári vinnudagsetningar.
 
--   Ef færðar eru inn fjórar tölur þá túlkar kerfið þær sem daginn og mánuðinn og bætir við ári vinnudagsetningar. Röð dags og mánaðar ræðst af svæðisstillingum þínum. Jafnvel þótt svæðisstillingar þínar séu með árið fyrir daginn og mánuðinn eru fjórir tölustafir túlkaðir sem dagur og mánuður.
+- Ef færðar eru inn fjórar tölur þá túlkar kerfið þær sem daginn og mánuðinn og bætir við ári vinnudagsetningar. Röð dags og mánaðar ræðst af svæðisstillingum þínum. Jafnvel þótt svæðisstillingar þínar séu með árið fyrir daginn og mánuðinn eru fjórir tölustafir túlkaðir sem dagur og mánuður.
 
--   Ef sú dagsetning sem færa á inn er á bilinu 01/01/1930 til 31/12/2029 má færa árið inn í tveimur tölum; annars skal færa árið inn með fjórum tölum.
+- Ef sú dagsetning sem færa á inn er á bilinu 01/01/1950 til 31/12/2049 má færa árið inn í tveimur tölum; annars skal færa árið inn með fjórum tölum.
 
+  > [!NOTE]
+  > Ef þú ert að nota [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss gæti tveggja stafa ársviðssvið verið annað. Stjórnendur geta breytt sviðinu með því að **Breyta calendartwodigityearmax** stillingu [!INCLUDE[prod_short](includes/prod_short.md)] þjónsins. Fyrir frekari upplýsingar sjá [samskipa Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+ 
 ### <a name="today"></a>Í dag
 
 Sláðu inn orðið fyrir _í dag_ á tungumálinu sem tilgreint er á síðunni **Mínar stillingar** til að stilla dagsetningu færslu á daginn í dag. Í stað þess að slá inn allt orðið geturðu slegið inn fyrsta hluta orðsins. Á ensku er t.d. hægt að slá inn _t_ eða _tod_ svo lengi sem það er ekki líka byrjunin á öðru orði.
@@ -131,7 +133,7 @@ Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notu
 
 Þú getur notað öll gild snið í síum dagsetningarbils. Til dæmis, mán14 3..t 4t beitt á reitarniðurstöður dagsetningartíma í síu frá kl. 03:00 á mánudag í viku 14 á núgildandi vinnudagsetningarári, innifalið, þar til í dag kl. 16:00, innifalið.
 
-## <a name="using-date-formulas"></a>Notkun dagsetningarreiknireglna
+## <a name="use-date-formulas"></a>Nota Dagsetningarformúlur
 Dagsetningarregla er stutt, skammstöfuð samsetning stafa og tölustafa sem tilgreinir hvernig skal reikna út dagsetningar. Þú getur slegið inn dagsetningarformúlur í ýmsa reiknireiti fyrir dagsetningar eða síur.
 
 > [!NOTE]
@@ -217,7 +219,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -337,7 +339,7 @@ Hægt er að sjá hvaða mælieining er notuð í reitnum tímalengd með því 
 Ef mælieiningin er til dæmis klukkustund, er númerinu 5 breytt í 5 klukkustundir.
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Dagsetning útreiknings fyrir kaup](purchasing-date-calculation-for-purchases.md)  
 [Skilgreining skilyrða í síum](ui-enter-criteria-filters.md)  
 

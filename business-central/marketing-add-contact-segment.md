@@ -1,22 +1,21 @@
 ---
-title: Skilgreina tengiliði í Hluta| Microsoft Docs
+title: Bæta tengiliðum við hluta
 description: Eftir að hafa stofnað hluta, geturðu bætt tengiliðum við hlutann, t.d. sem hluta af markaðsherferð sem beint er að tilteknum viðskiptavinum eða biðlara.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
+ms.search.form: 5091, 5093
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 975a6e769bbba3a32451fc1e9fda54da9cad401b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: d285e384ceef9e78fca764fdffaabb3ff439ea02
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135212"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519070"
 ---
 # <a name="add-contacts-to-segments"></a>Bæta tengiliðum við hluta
 Þegar hluti hefur verið stofnaður og gunnupplýsingar um hann færðar inn er tengiliðum gjarnan bætt við hlutann. Það er hægt að gera það handvirkt á síðunni **Hluti** en það er auðveldara og fljótlegra að nota aðgerðina **Bæta við tengiliðum**.
@@ -56,7 +55,7 @@ Hægt er að fækka í hlutum eins oft og óskað er eftir. Smellt er á aðger�
 [Stofna hluta](marketing-how-create-segment.md)   
 [Umsjón hluta](marketing-segments.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

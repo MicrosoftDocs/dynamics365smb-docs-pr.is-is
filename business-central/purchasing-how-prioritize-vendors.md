@@ -1,5 +1,5 @@
 ---
-title: Úthluta lánardrottni forgangsstigi (inniheldur myndefni)
+title: Úthluta lánardrottni forgangsstig (inniheldur myndskeið)
 description: Þú getur úthlutað númerum til lánardrottins eða birgja til að forgangsraða þeim og auðvelda greiðslutillögur í Business Central.
 author: SorenGP
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.search.keywords: supplier, payment priority
 ms.search.form: 26, 27
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41977fdf7d90082094e3cc9ff025a56b878a6b2c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 411163798b5af49a154e19243e556c010bffd5ee
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131214"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513784"
 ---
 # <a name="prioritize-vendors"></a>Forgangsraða lánardrottnum
 [!INCLUDE[prod_short](includes/prod_short.md)] getur lagt til ýmsar greiðslur til lánardrottna t.d. greiðslur sem eru bráðum á gjalddaga eða greiðslur sem hægt er að fá afslátt af. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
@@ -36,7 +36,7 @@ Ef ekki á að forgangsraða lánardrottni er reiturinn **Forgangur** skilinn ef
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382060"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522145"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Úthluta kostnaði til millifyrirtækjafélaga
 Þegar bókanir milli fyrirtækja eru notaðar til að flytja skjöl milli samstarfsfyrirtækja, þá stjórna VSK-tengdar stillingar (sérstaklega VSK-viðskiptabókunarflokkurinn) sem úthlutað er til viðskipamanna- eða lánardrottnalykla (sem tengjast millifyrirtækjafélagi) því hvort og hvernig virðisaukaskattur er reiknaður og skráður. Einnig er hægt að gera kostnaðardreifingu beint í innkaupapöntunum til samstarfsfyrirtækja. Til dæmis ef skráður er innkaupareikningur frá ytri lánardrottni og ætlunin er að dreifa einhverjum eða öllum kostnaði á eitt eða fleiri millifyrirtækjafélög.
@@ -90,7 +90,7 @@ Eftirfarandi ferli lýsir því hvernig á að úthluta kostnaði með því að
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

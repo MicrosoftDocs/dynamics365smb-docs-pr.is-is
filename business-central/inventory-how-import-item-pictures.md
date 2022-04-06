@@ -1,8 +1,7 @@
 ---
-title: Margar vörumyndir fluttar inn úr ZIP-skrá
+title: Flytja inn margar Vörumyndir úr ZIP-skrá
 description: Til að flytja inn margar myndir af vörum skaltu gefa myndaskrám nafn sem samsvarar vörunúmerunum þínum, þjappaðu þeim í ZIP-skrá og notaðu síðan síðuna Flytja inn vörumyndir.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: product, image
 ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5a43d696eab27a72c9f9b3c224d08feb9e99ccf4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: 44a3689c59a25b6c0aca25f69896e86beb71ea6c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059675"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522067"
 ---
 # <a name="import-multiple-item-pictures"></a>Flytja inn margar vörumyndir
 Hægt er að flytja inn margar vörumyndir í einu. Gefðu einfaldlega myndaskránum þínum heiti sem samsvarar vörunúmerunum þínum, þjappaðu þeim í zip-skrá og notaðu síðan síðuna fyrir innflutning á vörumyndum til að stýra því hvaða vörumyndir á að flytja inn.
@@ -54,7 +53,7 @@ Reiturinn **Staða innflutnings** er uppfærður til að sýna hvort innflutning
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

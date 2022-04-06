@@ -9,22 +9,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d9cf7f41f399d2747b554f3784c40b51fb9d71da
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c07a3cfc9807ddcb78a97dc342013ff6e498fee7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133253"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518442"
 ---
 # <a name="set-up-workflows"></a>Setja upp verkflæði
 
-Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði. Frekari upplýsingar eru í [Nota verkflæði](across-use-workflows.md).  
+Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði. Sjá [Use verkflæði fyrir frekari upplýsingar](across-use-workflows.md).  
 
  Áður en byrjað er að nota verkflæði verður að setja upp notendur verkflæðis og samþykktarnotendur, tilgreikna hvernig notendur fá tilkynningar um skref verkflæðis og stofna svo verkflæði, hugsanlega eftir að hafa sérsniðið kóða.  
 
  Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins.  
 
- Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki eru studd verður Microsoft-samstarfsaðili að virkja þau með kóðanum, en einnig er hægt að setja upp verkflæði með Power Automate. Frekari upplýsingar er að finna í [Notkun [!INCLUDE[prod_short](includes/prod_short.md)] í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md) eða [Tilvik í AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) í hjálp fyrir forritara, eftir því sem við á.
+ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki eru studd verður Microsoft-samstarfsaðili að virkja þau með kóðanum, en einnig er hægt að setja upp verkflæði með Power Automate. Nánari upplýsingar eru [í notkun [!INCLUDE[prod_short](includes/prod_short.md)] í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md) eða [atviki í Al](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) í Hjálp fyrir forritara, eftir því sem við á.
 
  Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 
@@ -51,7 +51,7 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
  [Nota verkflæði](across-use-workflows.md)   
  [Verkflæði](across-workflow.md)   
  [Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Vinna með Business Central](ui-work-product.md)
+ [Vinna með Viðskiptaseðla-](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

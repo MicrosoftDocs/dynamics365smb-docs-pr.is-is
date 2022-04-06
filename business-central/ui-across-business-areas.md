@@ -1,23 +1,21 @@
 ---
-title: Nota almennar aðgerðir á viðskiptasviðum | Microsoft Docs
-description: Frekari upplýsingar um aðgerðir og eiginleika sem eru algengir á viðskiptasviðum í Business Central.
-services: project-madeira
-documentationcenter: ''
+title: Notkun almennrar virkni þvert á Atvinnusvæði
+description: Læri um virkni og möguleika sem notuð eru yfir atvinnusvæði í miðborg fyrirtækja.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
+ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b6c64e9a86c462749eb24eb6e57118efd35fd47c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787503"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513602"
 ---
 # <a name="general-business-functionality"></a>Almenn viðskiptavirkni
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna tilteknar aðgerðir fyrir dæmigerð rekstrarsvið, s.s. fjármálasvið og sölur. Frekari upplýsingar eru í [Viðskiptavirkni](across-business-functionality.md).
@@ -25,7 +23,7 @@ ms.locfileid: "5787503"
 Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að nota fjölda viðskiptavirkni, s.s. skilgreina viðbættur texti fyrir skjalalínur og skipuleggja tengja viðskiptaverk í verkflæði.
 
 > [!NOTE]
-> Í viðbót við viðskiptatengdar aðgerðir sem lýst er í þessum kafla munt þú nota almennar aðgerðir notandaviðmóts á hverjum degi til að hafa samskipti við kerfið. Frekari upplýsingar er að finna í [Unnið með Business Central](ui-work-product.md).
+> Í viðbót við viðskiptatengdar aðgerðir sem lýst er í þessum kafla munt þú nota almennar aðgerðir notandaviðmóts á hverjum degi til að hafa samskipti við kerfið. Nánari upplýsingar er að finna hjá starfsemi [Miðsjá](ui-work-product.md).
 
 Í eftirfarandi töflu eru taldar upp þessar almennar viðskiptasvið auk tengla á efnisatriðin sem lýsa þeim.
 
@@ -42,7 +40,7 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 |Bókið margar sölur eða innkaupaskjöl saman, strax eða eins og áætlað var.|[Bóka mörg skjöl á sama tíma](ui-batch-posting.md)|  
 |Yfirfara niðurstöður bókunar áður en bókað er.|[Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md)|
 |Breyta völdum reitum fyrir bókuð sölu- eða innkaupaskjöl.|[Breyta bókuðum skjölum](across-edit-posted-document.md)|
-|Lærðu að vinna með Færslubækur, sem eru notaðar til að bóka fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og eignareikninga. |[Vinna í færslubókum](ui-work-general-journals.md) |
+|Lærðu að vinna með Færslubækur, sem eru notaðar til að bóka fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og eignareikninga. |[Vinna við Almennar færslubækur](ui-work-general-journals.md) |
 | tímasetja skýrslu þannig að hún keyri á tilteknum degi og tíma. |[Tímasetja keyrslu skýrslu](ui-work-report.md#ScheduleReport) |
 |Leyfðu kerfinu að hjálpa þér að ljúka verkum hraðar og réttar með því að forfylla í reiti eða klára línur með gögnum sem þú myndir annars þurfa að reikna og færa inn á eigin spýtur.|[Að láta Business Central leggja til gildi](ui-let-system-suggest-values.md)|
 |Skráðu utanaðkomandi skjöl, þ.m.t. skráarviðhengi þeirra, og búðu svo til handvirkt tengd skjöl eða umbreyttu skránum sjálfkrafa í rafræn skjöl.|[Skjöl á innleið](across-income-documents.md)|
@@ -50,7 +48,7 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 | Setja upp skilgreiningar gagnaskipta svo þú getir sent og tekið á móti rafrænum skjölum. |[Rafræn gagnaskipti](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Stjórnun](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

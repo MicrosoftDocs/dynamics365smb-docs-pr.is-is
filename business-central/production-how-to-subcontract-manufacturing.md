@@ -2,7 +2,6 @@
 title: Úthýsa framleiðslu til undirverktaka
 description: Þetta efnisatriði sýnir stækkað yfirlit yfir útvíkkaða virkni undirverktaka í Business Central, þ.m.t. reiti vinnustöðvar og leiðir.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2b3ecc4ac84c5b3958d2ada97c104e92dced9ed2
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: ec85406518757c9ba2b8560e88153dc5c6d899b6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972724"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515356"
 ---
 # <a name="subcontract-manufacturing"></a>Úthýsa framleiðslu til undirverktaka
 
@@ -96,7 +95,7 @@ Beinn kostnaður innkaupapöntunarinnar er bókaður í framleiðslupöntunina �
 [Áætlun](production-planning.md)      
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

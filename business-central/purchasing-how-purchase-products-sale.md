@@ -10,14 +10,14 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.search.form: 50, 51, 56, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f77234135fe1b7b0b3120c9b839c1873bdcb8b09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7fe34b7edcba01d25107ead47dc917dabde07a5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131187"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514856"
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Innkaupavörur til sölu með því að stofna innkaupareikninga
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Innkaup vara fyrir sölu með því að útbúa innkaupareikninga
 
 Frá sölupöntunum og sölureikningum geturðu notað aðgerð til stofna á skjótan hátt innkaupaskjöl fyrir vörumagn sem vantar en er krafist við söluna. Hægt er að nota tvær mismunandi aðgerðir, eftir gerð skjalsins.
 
@@ -70,7 +70,7 @@ Til að stofna stakan innkaupareikning fyrir eina eða fleiri línur í söluskj
 [Skrá innkaup](purchasing-how-record-purchases.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

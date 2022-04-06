@@ -2,7 +2,6 @@
 title: Stofna leiðir
 description: Þetta efnisatriði sýnir yfirlit yfir mismunandi leiðir til að búa til leiðir sem innihalda skilyrði og hvernig á að stofna tengla fyrir leiðir.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7145901e0a0b5f713f89be4223e694950e98e15e
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 9aca8b6308fc5a45e008bc5aba529f51e764c79d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972802"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516875"
 ---
 # <a name="create-routings"></a>Stofna leiðir
 
@@ -129,7 +128,7 @@ Gildistími útgáfunnar er tilgreindur í reitnum **Upphafsdagsetning**.
 [Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

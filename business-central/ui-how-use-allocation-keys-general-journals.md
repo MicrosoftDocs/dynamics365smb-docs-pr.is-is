@@ -2,7 +2,6 @@
 title: Nota úthlutunarlykla í færslubókum
 description: Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: cost accounting
 ms.search.form: 283, 284
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 347e4999be079d31aa06cc80a1b7c9858d19ff57
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: a803a9a7533de5ff94bbb41e73cc1877a25044af
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101296"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512231"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Nota úthlutunarlykla í færslubókum
 Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. Úthlutunin getur verið í magni, prósentu eða upphæð.
@@ -43,9 +42,9 @@ Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar fær
 4. Breyta viðeigandi reitum, og velja svo hnappinn **Í lagi**.
 
 ## <a name="see-also"></a>Sjá einnig
-[Vinna í færslubókum](ui-work-general-journals.md)  
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
 [Bókun skjala og færslubóka](ui-post-documents-journals.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

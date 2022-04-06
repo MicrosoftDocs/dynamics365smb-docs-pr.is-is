@@ -10,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: bc98fa2bc07320a4989ceca36a09a4cad3cd82ce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8427a75127775e1f10576067e4ea122e7f9ad8b3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147935"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523554"
 ---
 # <a name="maintain-fixed-assets"></a>Umsjón eigna
 Viðhaldskostnaður er reglubundinn kostnaður sem varið er til þess að viðhalda virði eigna. Ólíkt viðbótarfjárfestingum eykur hann ekki verðgildi.
@@ -87,7 +87,7 @@ Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbó
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

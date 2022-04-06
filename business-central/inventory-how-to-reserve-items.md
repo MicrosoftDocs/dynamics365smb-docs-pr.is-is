@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6dcd912dfae36e31bd2642b5f1427483f3095c19
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148565"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519701"
 ---
 # <a name="reserve-items"></a>Taka frá vörur
 Hægt er að taka vörur frá fyrir sölu-, innkaupa-, þjónustu, samsetningar- og framleiðslupantanir. Hægt er að taka frá vörur í birgðum eða á innleið í opnum skjalalínum eða færslubókarlínum. Þú framkvæmir vinnuna á síðunni **Frátekning**.
@@ -98,7 +98,7 @@ Eftirfarandi ferli byggist á sölupöntun.
 [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Hönnunarupplýsingar - vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
 [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

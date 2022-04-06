@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147493"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528580"
 ---
 # <a name="teams-faq"></a>Teams - Algengar spurningar
 
@@ -71,10 +71,6 @@ Já. En aðeins sumir eiginleikar forritsins virka með [Fella inn forrit](/dyna
 - Forritið virkar með tenglum sem byggja á mynstrinu **\*.bc.dynamics.com** sem er yfirleitt notað með Innfella forrit.
 - Tengiliðaleit er ekki í boði fyrir innfelld forrit sem koma í staðinn fyrir grunnforritið frá Microsoft.
 
-### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Hvar finn ég Teams-samþættingu í [!INCLUDE [prod_short.md](includes/prod_short.md)]-vefbiðlaranum? 
-
-Sem stendur er ekki búið að fella inn Teams-stjórnun eða Teams-eiginleika í [!INCLUDE [prod_short.md](includes/prod_short.md)]-vefbiðlaranum eða öðrum biðlurum.
-
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Virkar [!INCLUDE [prod_short.md](includes/prod_short.md)] með farsímaforriti Teams?
 
 Já. Hægt er að setja upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið úr Teams-skjáborðsforriti eða vafra eða af stjórnanda fyrir alla notendur. Þegar uppsett er [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið sjálfkrafa í boði í Teams fyrir iOS og Android. Í fartækjum er aðeins hægt að skoða spjöld sem aðrir senda, nálgast upplýsingar eða opna spjaldið í sérglugga til að nýta það til fulls í [!INCLUDE [prod_short.md](includes/prod_short.md)]-farsímaforritinu. Ekki er hægt að líma tengla sem víkka í spjöld þegar skilaboð eru samin eða leitað er að tengiliðum. Fyrir lágmarkskröfur farsíma skal skoða [Lágmarkskröfur fyrir notkun Business Central](product-requirements.md).
@@ -106,7 +102,7 @@ Aðeins er um að ræða minniháttar mun og takmarkanir á milli Teams-biðlara
 
 ### <a name="what-is-the-best-way-for-me-to-demonstrate-prod_shortmd-and-microsoft-teams-to-prospective-customers"></a>Hver er besta leiðin fyrir mig til að sýna [!INCLUDE [prod_short.md](includes/prod_short.md)] og Microsoft Teams væntanlegum viðskiptamönnum?
 
-Ef þú ert endursöluaðili gætir þú viljað hafa umhverfi sem þú getur sýnt hugsanlegum viðskiptamönnum sem hluti af sölukynningu. Til að koma í veg fyrir að Microsoft Teams hafa áhrif á fyrirtækið þitt geturðu fengið Microsoft 365 prufu reikning á [https://aka.ms/CDX](https://aka.ms/CDX). Þessi reikningur veitir þér fulla stjórn á óháðu Azure-fyrirtæki sem inniheldur Microsoft Teams og [!INCLUDE [prod_short.md](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Undirbúningur sýniumhverfa af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
+Ef þú ert endursöluaðili gætir þú viljað hafa umhverfi sem þú getur sýnt hugsanlegum viðskiptamönnum sem hluti af sölukynningu. Til að komast hjá því að hafa áhrif Microsoft Teams á fyrirtækið getur þú fengið Microsoft 365 sýnireikning kl [https://aka.ms/CDX](https://aka.ms/CDX). Þessi reikningur veitir þér fulla stjórn á óháðu Azure-fyrirtæki sem inniheldur Microsoft Teams og [!INCLUDE [prod_short.md](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Undirbúningur sýniumhverfa af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
 ### <a name="does-the-prod_shortmd-app-for-teams-cater-for-my-customization-and-personalization"></a>Tekur [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams tillit til sérstillinga minna?
 
@@ -187,7 +183,7 @@ Til að sýna samskipti verður að skilgreina [!INCLUDE [prod_short.md](include
 
 ### <a name="can-i-call-a-contact-from-the-prod_shortmd-app-for-teams"></a>Get ég hringt í tengilið úr [!INCLUDE [prod_short.md](includes/prod_short.md)] forritinu fyrir Teams?
 
-[!INCLUDE [prod_short.md](includes/prod_short.md)] er með takmarkaða samþættingu við möguleika Teams-símtala. Ekki er hægt að hefja strax netsímtal úr tengiliðaspjaldinu eða glugga tengiliðaupplýsinga. Hins vegar, þegar tengiliðaupplýsingarnar eru skoðaðar í Teams-skjáborðsforritinu, er hægt að velja reit símanúmers til að hringja í það númer ef Teams er uppsett sem sjálfgefið hringiforrit í tækinu. Til að hringja í jarðlína eða farsímanúmer með PSTN, hefðbundnu símkerfi, krefst Teams þess að þú hafir Business Voice forritið Microsoft 365. Til að læra meira, sjá [Hvað er Microsoft 365 Business Voice](/MicrosoftTeams/business-voice/whats-business-voice)?.
+[!INCLUDE [prod_short.md](includes/prod_short.md)] er með takmarkaða samþættingu við möguleika Teams-símtala. Ekki er hægt að hefja strax netsímtal úr tengiliðaspjaldinu eða glugga tengiliðaupplýsinga. Hins vegar, þegar tengiliðaupplýsingarnar eru skoðaðar í Teams-skjáborðsforritinu, er hægt að velja reit símanúmers til að hringja í það númer ef Teams er uppsett sem sjálfgefið hringiforrit í tækinu. Til að hringja í landlínur eða farsíma númer með PSTN, hefðbundnu símakerfi, teygt krefst þess að þú sért með Microsoft 365 Business Voice App. Til að fræðast meira, sérðu [Hvað er Microsoft 365 viðskiptaleg rödd](/MicrosoftTeams/business-voice/whats-business-voice)?.
 
 ### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>Hvernig skoða ég nýleg skjöl fyrir viðskiptavin eða lánardrottinn?
 
@@ -304,7 +300,11 @@ Já. Allir [!INCLUDE [prod_short.md](includes/prod_short.md)] eiginleikar í upp
 
 ### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Get ég komist inn á mitt svæði úr upplýsingaglugganum í Teams?
 
-Ef þú notar virkni í [!INCLUDE [prod_short.md](includes/prod_short.md)] sem hefur aðgang að núverandi staðsetningu þinni, t.d. með kortum, verður þú að nota Teams í vafranum eða farsímaforrit Teams. Staðsetning er ekki tiltæk þegar hóparnir nota skjáborðsforrit Teams. 
+Ef þú notar virkni í [!INCLUDE [prod_short.md](includes/prod_short.md)] sem hefur aðgang að núverandi staðsetningu þinni, t.d. með kortum, verður þú að nota Teams í vafranum eða farsímaforrit Teams. Staðsetning er ekki tiltæk þegar hóparnir nota skjáborðsforrit Teams.
+
+### <a name="how-do-i-open-the-details-in-a-new-window"></a>Hvernig opna ég upplýsingar í nýjum glugga?
+
+Popping gluggann Upplýsingaglugginn sem sér um að aðskilja glugga er gagnlegt fyrir multi-tasking eða fyrir að geta unnið með viðskiptagögn meðan enn er hægt að nota teyma spjall og aðgerðir á teymi. Til að opna smáatriði í eigin glugga velur **þú opna í vafra** frá ellipse valmyndinni (**...**) efst í hægra horninu á glugganum.
 
 ## <a name="collaborate-with-guests"></a>[Samvinna með gestum](#tab/collaborating)
 
@@ -346,7 +346,7 @@ Fj. Það eina sem þú þarft er gildan reikning sem hefur aðgang að Microsof
 
 ### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Er Deila með Teams í boði í öllum biðlurum Business Central? 
 
-Sem stendur er Deila með Teams eingöngu í boði í vefbiðlara fyrir tölvu og í upplýsingaglugga í Teams.  
+Að þessu sinni er hægt að samnýta í teymum í vefbiðlara skjáborðsins, í upplýsingaglugganum í teymum, og þegar síða er opnuð í nýjum glugga úr Outlook-viðbótalistanum.
 
 ### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Hvar finn ég Deila með Teams í Business Central? 
 

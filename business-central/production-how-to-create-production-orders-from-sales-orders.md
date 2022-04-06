@@ -2,7 +2,6 @@
 title: Búa til framleiðslupantanir úr sölupöntunum
 description: Kynntu þér mismunandi leiðir til að búa til framleiðslupantanir fyrir framleiðsluvörur beint úr sölupöntunum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000883, 99000884
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 493d47e13d9ad1d7a2424dec4cd3691e92068d73
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 5f24ee7b1e5fab2b54e9653e6bc98cfd87200770
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973363"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516823"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Búa til framleiðslupantanir úr sölupöntunum
 Hægt er að búa til framleiðslupantanir fyrir framleiðsluvörur beint frá sölupöntunum.  
@@ -51,7 +50,7 @@ Hægt er að velja um tvær leiðir til að búa til framleiðslupantanir eins o
 [Innkaup](purchasing-manage-purchasing.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

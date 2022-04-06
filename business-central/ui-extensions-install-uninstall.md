@@ -1,24 +1,23 @@
 ---
-title: Uppsetning og fjarlæging viðbóta í Business Central  | Microsoft Docs
+title: Setja upp og fjarlægja viðauka
 description: Frekari upplýsingar um uppsetningu og fjarlægingu viðbóta í Business Central.
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 06/03/2021
+ms.search.form: 2500
+ms.date: 03/25/2022
 ms.author: solsen
-ms.openlocfilehash: b9028bf88940a8c378469078ca680858b7702872
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589158"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514752"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Uppsetning og fjarlæging viðbóta í Business Central
+# <a name="install-and-uninstall-extensions-in-business-central"></a>Setja upp og fjarlægja viðauka í Viðskiptamiðinu
 
 Þú getur breytt [!INCLUDE[prod_short](includes/prod_short.md)] með því að setja viðbætur sem bæta t.d. við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis. Frekari upplýsingar eru í [Sérstilling Business Central með viðbótum](ui-extensions.md).
 
@@ -30,7 +29,7 @@ ms.locfileid: "7589158"
 > [!NOTE]  
 > Heimildasamstæðan **VIÐBÓTARSTJÓRNUN - STJÓRNANDI** var kynnt til sögunnar í Business Central 2021 útgáfutímabili 1 sem staðgengill fyrir **D365 VIÐBÓTASTJÓRNUN** heimildasamstæðuna í eldri útgáfum.
 
-## <a name="installing-an-extension"></a>Uppsetning viðbótar
+## <a name="install-an-extension"></a><a name="install"></a> Setja upp framlengingu
 
 Þú stjórnar viðbótum á síðunni **Viðbótastjórnun**. Hægt er að opna þessa síðu úr heimasvæðinu. Annars geturðu valið **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") efst í hægra horninu skal velja **Viðbót** og síðan velja viðkomandi tengil.  
 
@@ -76,14 +75,13 @@ Microsoft veitir eftirfarandi viðbætur:
 * [Viðbótin GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
 
-
-## <a name="uploading-a-per-tenant-extension-pte"></a>Hlaða upp viðbót fyrir hvern leigjanda (PTE)
+## <a name="upload-a-per-tenant-extension-pte"></a>Sækja um framlengingu á leigjanda (PTE)
 
 Þú hleður upp PTE með því að nota síðuna **Viðbótastjórnun**. Á síðunni **Viðbótastjórnun** skal fara í **Stjórna**, síðan velja **Hlaða upp viðbót**. Á síðunni **Hlaða og setja upp viðbót** skal tilgreina forritsskrána sem á að hlaða upp. Til að halda áfram skal velja hnappinn **Samþykkja** og síðan hnappinn **Nota** sem mun hefja innleiðingarferli PTE.
 
-Ef PTE inniheldur skemabreytingar með þáttaskilum er mögulegt að *þvinga* upphleðslu þess. Til að gera það skal í **Samstilling skema** velja valkostinn **Þvinga**. Samþykkja þarf staðfestingarglugga sem birtist áður en haldið er áfram. 
+Ef PTE inniheldur skemabreytingar með þáttaskilum er mögulegt að *þvinga* upphleðslu þess. Til að gera það skal í **Samstilling skema** velja valkostinn **Þvinga**. Samþykkja þarf staðfestingarglugga sem birtist áður en haldið er áfram.  
 
-## <a name="uninstalling-an-extension"></a>Fjarlæging viðbótar
+## <a name="uninstall-an-extension"></a>Fjarlægja nafnauka
 
 Hægt er að fjarlægja viðbót með því að nota **Viðbótastjórnun**. Ef þú fjarlægir viðbót og skiptir um skoðun geturðu sett viðbótina inn aftur. Þegar þú fjarlægir viðbót sem þú hefur verið að nota eru gögnin sjálfkrafa geymd svo ef þú vilt setja upp viðbótina aftur. Hægt er að velja að eyða gögnunum með viðbótinni. Þessu er stjórnað af gátreitnum **Eyða gögnum viðbótar**. Sjálfgefið er að þessi gátreitur sé *ekki virkur*.
 

@@ -2,7 +2,6 @@
 title: Hvernig á að Vinna með ábyrgðarstöðvar
 description: Ábyrgðarmiðstöð sem stjórnstöð hjálpar fyrirtækjum að setja upp notendamiðuð yfirlit yfir sölu- og innkaupaskjöl sem tengjast eingöngu hverri stöð.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e966e5050cf16ce60e07983f129be318706fbbf3
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: e551b7810bba9e75320ca11a2126b15f3b91d812
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059335"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521989"
 ---
 # <a name="work-with-responsibility-centers"></a>Vinna með ábyrgðarstöðvar
 
@@ -63,7 +62,7 @@ Til að setja þetta upp þarf að úthluta notendum ábyrgðarstöðvum á þre
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

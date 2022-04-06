@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: bf748b94ec2a53eb92464a94c1172dd6971c8389
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7cdd6e49f4d7cb4d63f70312a89266d020025b4f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134544"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518522"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ganga frá vörum með vöruhúsafrágangi
 Þegar birgðageymslan er sett þannig upp að hún krefst vöruhúsafrágangs- og vöruhúsamóttökuvinnslu eru vöruhúsafrágangsskjöl aðgerðin notuð til að stjórna frágangi á vörum.  
@@ -77,7 +77,7 @@ Tekið er mið af hólfaflokkuninni þegar fleiri en eitt hólf uppfylla skilyr�
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

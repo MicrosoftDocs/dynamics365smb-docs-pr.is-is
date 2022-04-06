@@ -2,7 +2,6 @@
 title: Tína vörur fyrir vöruhúsaafhendingu
 description: Kynntu þér hvernig á að nota skjöl vöruhúsatínslu til að stofna og vinna úr tínsluupplýsingum áður en vöruhúsaafhendingar eru bókaðar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b5b92c04fea101959c32775c768bbbaab22a7c3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 5d46916a96a55cf71c6b018fc66b4165c742b632
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441861"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518576"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Tína vörur fyrir vöruhúsaafhendingu
 Þegar staðsetningin er sett þannig upp að það krefjist vöruhúsatínsluvinnslu og vöruhúsaafhendingarvinnslu eru vöruhúsatínsluskjöl notuð til að stofna og sjá um tínsluupplýsingar fyrir bókun vöruhúsaafhendingar.  
@@ -79,7 +78,7 @@ Eftir að vöruhúsasendingin er bókuð, eru ýmis svæði í sölupöntunarlí
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

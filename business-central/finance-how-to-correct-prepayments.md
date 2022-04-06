@@ -2,7 +2,6 @@
 title: Leiðrétta fyrirframgreiðslur
 description: Hægt er að gera leiðréttingu á pöntun eftir að búið er að bóka fyrirframgreiðslureikning fyrir pöntunina og bæta nýjum línum við pöntun eftir að hafa gefið út fyrirframgreiðslu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ceaebd28d083c1dbebe69a5a02abff0952bf3311
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: cccfd5f5ca2b0e3d892e834465d628262f97151d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972889"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520387"
 ---
 # <a name="correct-prepayments"></a>Leiðrétta fyrirframgreiðslur
 
@@ -44,7 +43,7 @@ Eftirfarandi ferli sýnir hvernig gefa skal út kreditreikning fyrirframgreiðsl
 [Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)  
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

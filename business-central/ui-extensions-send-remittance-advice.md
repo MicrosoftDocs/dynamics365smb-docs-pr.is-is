@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: 256744599bcf30a6386ed5ef74b815e959b3b2bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c0204c74ce2adb463c6a8fe0036e59b6fdd06727
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132499"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521599"
 ---
 # <a name="send-remittance-advice"></a>Senda greiðslutilkynningu
 
@@ -32,7 +32,7 @@ Hægt er að senda greiðslutilkynningu á tvo vegu:
 
 [Greiðslutillögur til lánardr.](payables-how-suggest-vendor-payments.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum ](ui-extensions.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Rafræn millifærsla í ástralskri útgáfu](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
 [Framkvæma rafrænar greiðslur (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

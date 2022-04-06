@@ -10,16 +10,16 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ce44487a4c40e3997e95f883ac3cdf3a396e0d4b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382926"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514804"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum
 
-**Á síðunni Reglur** greiðslujöfnunar eru settar upp reglur til að stjórna því hvernig greiðslutexti (í bankafærslu) er sjálfkrafa jafnaður við texta á tengdum opnum (ógreiddum) reikningum, kreditreikningum eða öðrum færslum þegar aðgerðin **Jafna sjálfkrafa** er notuð á **síðunni Greiðsluafstemmingarbók**. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
+**Á síðunni greiðslujöfnun-reglur** eru settar fram reglur sem stjórna því hvernig greiðslutexti (í bankafærslu) er sjálfkrafa paraður með texta tengdum opnum (ógreiddum) reikningum, kreditreikningum eða öðrum færslum þegar aðgerðin jafna **er notuð** á **færslubók** greiðsluafstemminga. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
 Hægt er að setja upp greiðslujöfnunarreglur með því að velja hvaða gerðir gagna á greiðsluafstemmingarbókarlínu verða að passa við gögn á einni eða fleiri opinni færslu áður en tengda greiðslan er sjálfkrafa jöfnuð við opnu færslurnar. Gæði hverrar sjálfvirkrar jöfnunar er sýnd sem gildið **Lágt** til **Hátt** í reitnum **Áreiðanleiki jöfnunar** á síðunni **Greiðsluafstemmingarbók** samkvæmt greiðslujöfnunarreglunni sem var notuð.
 
@@ -86,7 +86,7 @@ Eftirfarandi tafla lýsir hefðbundnum greiðslujöfnunarreglur í [!INCLUDE[pro
 [Afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

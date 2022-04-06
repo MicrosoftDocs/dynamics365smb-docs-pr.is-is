@@ -10,15 +10,15 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 799d4adbfb0cf67513b0d65c735c377a8d58d914
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 5578a67baf1f6036c1a9f8804a9618f446e34006
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366601"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512440"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Greina gögn eftir víddum
-Í fjárhagsgreiningu er vídd tiltekin gögn sem má bæta við færslu sem einskonar merki. Þessi gögn eru notuð til að flokka saman færslur með svipuð einkenni, eins og viðskiptamenn, svæði, vörur og sölumenn og sækja þessa hópa á auðveldan hátt til greiningar. Víddir má nota fyrir færslur í færslubókum, skjölum og fjárhagsáætlunum. Heitið vídd lýsir því hvernig greiningin fer fram. Tvívíð greining gæti til dæmis verið sala eftir svæðum. Hins vegar er hægt að framkvæma flóknari greiningar með því að nota fleiri en tvær víddir þegar færsla er stofnuð, til dæmis sölu á hverja söluherferð, hvern viðskiptamann á hverju svæði. Frekari upplýsingar er að finna í [Unnið með víddir](finance-dimensions.md).
+Í fjárhagsgreiningu er vídd tiltekin gögn sem má bæta við færslu sem einskonar merki. Þessi gögn eru notuð til að flokka saman færslur með svipuð einkenni, eins og viðskiptamenn, svæði, vörur og sölumenn og sækja þessa hópa á auðveldan hátt til greiningar. Víddir má nota fyrir færslur í færslubókum, skjölum og fjárhagsáætlunum. Heitið vídd lýsir því hvernig greiningin fer fram. Tvívíð greining gæti til dæmis verið sala eftir svæðum. Hins vegar er hægt að framkvæma flóknari greiningar með því að nota fleiri en tvær víddir þegar færsla er stofnuð, til dæmis sölu á hverja söluherferð, hvern viðskiptamann á hverju svæði. Sjá [vinnu með víddir fyrir frekari upplýsingar](finance-dimensions.md).
 
 Gagnagreining með víddum gefur meiri innsýn í viðskiptin fyrir mat á upplýsingum, t.d. hversu vel fyrirtækið starfar, hvar því gengur vel eða illa og hvar ætti að ráðstafa meiri forða.
 
@@ -82,8 +82,8 @@ Eftirfarandi aðgerð er til að uppfæra greiningaryfirlit af síðunni **Grein
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
-[Unnið með víddir](finance-dimensions.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með víddir](finance-dimensions.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

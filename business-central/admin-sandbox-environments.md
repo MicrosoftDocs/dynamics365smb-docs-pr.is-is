@@ -2,7 +2,6 @@
 title: Sandkassaumhverfi
 description: Kynntu þér hvernig sérhæft umhverfi getur hjálpað þér að skoða, læra, sýna, þróa, úrræðaleita og prófa Business Central á öruggan hátt.
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
@@ -11,19 +10,19 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
+ms.openlocfilehash: 20637dcced16fe695d64c2b4d858483882c64f7a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940627"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518286"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandkassaumhverfi í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu geturðu auðveldlega náð þér í öruggt umhverfi þar sem hægt er að prófa, þjálfa eða leysa úr málum án þess að það trufli verkferla eða viðskiptagögn fyrirtækisins. Slíkt umhverfi sem ekki er hægt að framleiða í er kallað *sandkassi*. Sandkassaumhverfi er staðurinn, ótengdur framleiðslu, þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa þjónustuna í öruggu umhverfi án þess að eiga á hættu að hafa áhrif á gögnin eða stillingarnar í framleiðsluumhverfi þínu.  
 
 > [!TIP]
-> Landaði þú á þessari grein eftir að þú valdir nafnið á [!INCLUDE [prod_short](includes/prod_short.md)] umhverfi þínu í Top Bar? Eins er ekki hægt að breyta nafninu eða umhverfinu sem vegur. Þess í stað þarf að biðja kerfisstjóra um að breyta nafninu eða biðja þá um að samnýta tengilinn í annað umhverfi.
+> Landaði þú á þessari grein eftir að þú valdir nafnið á umhverfi þínu [!INCLUDE [prod_short](includes/prod_short.md)] í Top Bar? Eins er ekki hægt að breyta nafninu eða umhverfinu sem vegur. Þess í stað þarf að biðja kerfisstjóra um að breyta nafninu eða biðja þá um að samnýta tengilinn í annað umhverfi.
 
 Stjórnandi hefur umsjón með sandkassaumhverfum í [stjórnendamiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 
@@ -67,13 +66,13 @@ When the assisted setup guide completes, you can start exploring the new company
 
 Í sandkassaumhverfi er kveikt á **Hönnuður**. Hægt er að virkja hönnuðinn með því að velja hönnunartáknið ![Hönnuður.](./media/across-sandbox/sandbox-inclient-design-icon.png) á síðu eða með því að velja **Hanna** valmyndaratriðið í stillingavalmyndinni ![Stillingar](media/ui-experience/settings_icon_small.png).  
 
-Frekari upplýsingar er að finna í [Notkun hönnuðar](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) í efni hönnuðar og stjórnanda (aðeins á ensku).  
+Nánari upplýsingar eru [í notkun hönnunar](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) í efni forritara og admin (aðeins á ensku).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Prufuútgáfa og áskrift](across-preview.md)  
 [Stjórnun umhverfis í stjórnunarmiðstöð Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Vinnslu- og sandkassaumhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types)  

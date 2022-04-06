@@ -3,7 +3,6 @@ title: Búa til samskipti á tengiliði og hluta
 description: Lýsir hvernig á að stofna samskipti á milli þín og tengiliða og hluta í Business Central, eins og til dæmis beint tölvupóstsamband.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 73e8b515b62ac1334b6c156ff4330fc46b7a7414
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: f0e0660d1a93e462af3a7a74ccd1d6420ef86c3d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059805"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522903"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Búa til samskipti á tengiliði og hluta
 Hægt er að stofna samskipti til að skrá öll samskipti við viðskiptavinina og hlutana, til dæmis markpóstur.
@@ -53,7 +52,7 @@ Ef gátreiturinn **Stofna eftirfylgnihluta** er valinn verður nýr hluti búinn
 [Samskipti skráð](marketing-interactions.md)  
 [Vinna með tengiliði](marketing-contacts.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
-[Unnið með Business Central](ui-work-product.md)
+[Vinna með Viðskiptaseðla-](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

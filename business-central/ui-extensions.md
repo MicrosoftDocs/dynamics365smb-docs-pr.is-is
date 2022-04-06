@@ -1,30 +1,30 @@
 ---
-title: Setja upp viðbætur til að sérstilla Business Central
+title: Business Central Online sérstillt með viðbótum
 description: Kynntu þér allt um hvernig skal bæta virkni og sérstilla Business Central með því að setja upp viðbætur hér.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 08/25/2021
+ms.search.form: 2500, 2502
+ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 56c564274e396d9699286b18d882c2a21f8721ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587785"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510688"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online sérstillt með viðbótum
 
 Þú getur breytt [!INCLUDE[prod_short](includes/prod_short.md)] Online með því að setja viðbætur sem bæta við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis.
 
 > [!NOTE]
-> Til að setja upp eða fjarlægja viðbætur frá AppSource eða bæta við viðbótum fyrir hvern leigjanda fyrir sig eru réttar heimildir nauðsynlegar. Þú verður að vera meðlimur í EXTEND. STJÓR. - STJÓRNANDA Notendahópur eða þú verður að hafa EXTEND. STJÓR. - STJÓRNANDA heimildasamstæða. Ef þú ert stjórnandi geturðu úthlutað notendaflokkum og heimildum til annarra notenda fyrirtækisins.
+> Til að setja upp eða fjarlægja viðbætur frá AppSource eða bæta við viðbótum fyrir hvern leigjanda fyrir sig eru réttar heimildir nauðsynlegar. Þú verður annaðhvort að vera meðlimur **í D365 Extension Mgt.** notendaflokki eða þú verður að hafa **exten. MGT.-STJÓRNENDALEYFI** sett skýrt. Ef þú ert stjórnandi geturðu úthlutað notendaflokkum og heimildum til annarra notenda fyrirtækisins. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)  
 >
 > Til að nota virkni sem viðbót býður upp á, t.d. opna síður, keyra skýrslur, velja aðgerðir o.s.frv., verður þú að hafa fengið heimildasamstæðunum úthlutað sem settar eru upp sem hluti viðbótarinnar.
 
-> [!NOTE]  
-> Heimildasamstæðan **VIÐBÓTARSTJÓRNUN - STJÓRNANDI** var kynnt til sögunnar í Business Central 2021 útgáfutímabili 1 sem staðgengill fyrir **D365 VIÐBÓTASTJÓRNUN** heimildasamstæðuna í eldri útgáfum.
+<!-- [!NOTE]  
+> The **EXTEN. MGT. - ADMIN** permission set was introduced in 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.-->
 
 > [!IMPORTANT]  
 > Uppfærsla viðbóta á leigjanda og uppsetning AppSource viðbóta er ekki studd í gegnum **Viðbótastjórnun** síðu fyrir uppsetningar á forútgáfu. Ekki er hægt að setja upp viðbætur AppSource á staðnum, þar á meðal hýsingartengdar uppsetningar.
@@ -85,6 +85,7 @@ Samstarfsaðilar og endursöluaðilar Microsoft geta búið til viðbætur sem �
 
 ## <a name="see-also"></a>Sjá einnig
 
+[Setja upp og fjarlægja viðauka](ui-extensions-install-uninstall.md)  
 [Sérstilla Business Central](ui-customizing-overview.md)  
 [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)  
 [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md)  

@@ -1,5 +1,5 @@
 ---
-title: Yfirlit yfir skýrslur fyrir lokun til að sannreyna nákvæmni reiknings
+title: Yfirlit yfir Forlokun skýrslna til að sannreyna nákvæmni lykils
 description: Veitir yfirsýn yfir skýrslurnar sem þú getur notað til að sannreyna nákvæmni reikninga áður en bókum er lokað við lok árs eða tímabils.
 author: jswymer
 ms.topic: overview
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2ce238ea11f7bbe04639de64e6529ebe8c6ff2e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139028"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517714"
 ---
-# <a name="using-pre-closing-reports"></a>Nota skýrslur fyrir lokun
+# <a name="use-pre-closing-reports"></a>Nota skýrslur um Forlokun
 
 Margar staðlaðar skýrslur eru í boði til að sannreyna nákvæmni reikninganna áður en bókum er lokað í lok ársins eða í lok tímabils. Til dæmis má nota skýrsluna **Viðskiptamaður - Prófjöfnuður** til að votta að upphæð bókunarflokks viðskiptamanna sé jöfn upphæð á samsvarandi reikningi færslubókar á tilteknu tímabili.
 
@@ -39,7 +39,7 @@ Til að sjá skýrslu skal velja ![Ljósapera sem opnar eiginleika Viðmótsleit
 ## <a name="see-also"></a>Sjá einnig
 
 [Lokaár og Tímabil](year-close-years-periods.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 

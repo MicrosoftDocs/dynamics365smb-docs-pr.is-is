@@ -5,12 +5,12 @@ author: edupont04
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137628"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419313"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Viðvaranir og villuboð í Dynamics 365 Business Central
 
@@ -20,7 +20,7 @@ ms.locfileid: "8137628"
 
 Sjálfgefna útgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur lýsingar fyrir flesta reiti, dálka og aðgerðir sem hægt er að opna þegar heitið er valið. Ásamt kennsluábendingum fyrir mikilvægar síðar, myndatexta og leiðbeinandi texta, eru þessar ábendingar, eða skýringartextar, sem stendur okkar innleiðing af *innfelldri notendaaðstoð*, sem er mikilvægur þáttur í hugbúnaði í dag.  
 
-Ef spurningar vakna um reit eða annan þátt notandaviðmótsins, skal velja heitið og stutt lýsing birtist. Veldu tengilinn *Frekari upplýsingar* ef þetta nægir ekki.  
+Ef spurningar vakna um reit eða annan þátt notandaviðmótsins, skal velja heitið og stutt lýsing birtist. Veldu tengilinn *Frekari upplýsingar* ef þetta nægir ekki. Einnig er hægt að nota Hjálparrúðuna í afurð til að finna svör við spurningunum.  
 
 Frekari upplýsingar er að finna í [Dynamics 365 Business Central Líkan notendaaðstoðar](/dynamics365/business-central/dev-itpro/user-assistance) í stjórnunarefninu fyrir [!INCLUDE [prod_short](includes/prod_short.md)].  
 

@@ -2,7 +2,6 @@
 title: Hvernig á að flytja verkflæði inn og út | Microsoft Docs
 description: Til að flytja verkflæði í annan Business Central gagnagrunn, t.d. til að spara tíma þegar stofnað ný verkflæði, er hægt að flytja út og inn verkflæði.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc49fd08099823a3ab1adc02a006820fb4898e90
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: ece05f68c15384ab11ae492bd6f138da14bafc1c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438333"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513201"
 ---
 # <a name="export-and-import-workflows"></a>Flytja verkflæði inn og út
 Til að flytja verkflæði í annan [!INCLUDE[prod_short](includes/prod_short.md)] gagnagrunnur, t.d. til að spara tíma þegar stofnað ný verkflæði, er hægt að flytja út og inn verkflæði.  

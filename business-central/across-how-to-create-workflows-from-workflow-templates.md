@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d429b5acce6520b86a1272620379265fb01b1462
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 038494ebd8442c20239bc2426754389117ed95c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147269"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521333"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Búa til verkflæði úr verkflæðissniðmátum
 Hægt er að búa til verkflæði með verkflæðissniðmátum til að spara tíma þegar ný verkflæði eru stofnuð.  

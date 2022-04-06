@@ -2,7 +2,6 @@
 title: Fresta tekjum og öðrum útgjöldum
 description: Til að skrá tekjur og útgjöld á tímabilum þegar færslan var ekki bókuð, geturðu sjálfkrafa seinkað eða frestað þeim fram yfir tiltekna áætlun.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a99b8e5e14d7224fb23da3f59a5fe5274b2eef33
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 2feba527e33c2ded3275392420b3075cdab4228f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971146"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512993"
 ---
 # <a name="defer-revenues-and-expenses"></a>Fresta tekjum og öðrum útgjöldum
 
@@ -101,8 +100,8 @@ Fjárhagsfærslur sem á að bóka á tilgreindan frestunarreikning, til dæmis 
 
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

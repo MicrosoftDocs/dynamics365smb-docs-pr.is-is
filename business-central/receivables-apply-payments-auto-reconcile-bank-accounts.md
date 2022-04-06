@@ -2,7 +2,6 @@
 title: Afstemma bankareikninga og jafna greiðslur
 description: Útskýrir verkhluta sem fela í sér afstemmingu bankareikninga, krafna og skulda reikninga, bókanir inngreiðslna og útgjalda og sjálfvirka greiðslujöfnun.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1291, 1293, 1294
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12da473253ff3c494ec2c63e4fbfc32aedd5d1f9
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: f19f2a449e90476ed77d144c1faf715f21777f5e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101218"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522695"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Jafna greiðslur sjálfkrafa og afstemma bankareikninga
 Þú verður að reglulega samræma bankareikninga þína, kröfur og skuldir reikninga með því að sækja greiðslur skráð í bankanum til tengdra (ógreiddra) reikninga og lánshæfiseinkunnana eða annarra opna færslna í [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -32,7 +31,7 @@ Til að flytja inn bankareikninga sem bankafæða þarftu fyrst að setja upp og
 > [!TIP]
 > Einnig er hægt að flytja inn bankayfirlitsskrár á sniði kommu eða semíkommu (.CSV). Notið **Setja upp snið bankayfirlitsskráar** uppsetninguna með hjálp til að skilgreina innflutningssnið bankayfirlits og festa sniðið við bankareikning. Síðan er hægt að nota þessi snið þegar bankayfirlit er flutt inn á síðuna **Afstemming bankareiknings**.
 
-Einnig er hægt að nota AMC Banking 365 Fundamentals viðbótina til að umbreyta bankayfirliti sem þú fékkst úr bankanum þínum í gagnastraum sem hægt er að flytja inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md).  
+Einnig er hægt að nota AMC Banking 365 Fundamentals viðbótina til að umbreyta bankayfirliti sem þú fékkst úr bankanum þínum í gagnastraum sem hægt er að flytja inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar [fást með því að AMC Banking 365 Fundamentals nota viðaukann](ui-extensions-amc-banking.md).  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 
@@ -50,7 +49,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

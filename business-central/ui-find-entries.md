@@ -2,21 +2,20 @@
 title: Finna færslur
 description: Þessi grein lýsir því hvernig á að finna skjöl og færslur sem tengjast
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 344
+ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5c51ac2739ae3dabc94c519fd43ec2f591743da8
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: 6e6e6f6f622d1938fb2195bc2dde2c2ba689a59f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101530"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517688"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Leita að tengdum færslum fyrir bókuð skjöl 
 
@@ -30,7 +29,7 @@ ms.locfileid: "8101530"
 
 ## <a name="get-started"></a>Hefjast handa
 
-Eiginleiki færsluleitar er aðgengilegur á flestum síðum sem sýna bókuð skjöl eða bókaðar skjalafærslur - fyrir bæði lista og spjöld. Þannig að fyrsta skrefið er að opna eina af þessum síðum. Síðan skal annaðhvort velja aðgerðina **Leita að færslum** eða ýta á Alt+G.
+Eiginleiki færsluleitar er aðgengilegur á flestum síðum sem sýna bókuð skjöl eða bókaðar skjalafærslur - fyrir bæði lista og spjöld. Þannig að fyrsta skrefið er að opna eina af þessum síðum. Þá skal annað hvort velja **Find færslna** aðgerðina eða ýta á CTRL + ALT + G takkana.
 
 Síðan **Leita að færslum** inniheldur öll tengd skjöl og færslur samkvæmt skjalanúmerinu og bókunardagsetningunni. Síðan skiptist í þrjá hluta:
 
@@ -74,7 +73,7 @@ Hægt er að leita að færslum út frá upplýsingum um annaðhvort skjalið, v
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Unnið með Business Central](ui-work-product.md)  
+[Vinna með Viðskiptaseðla-](ui-work-product.md)  
 [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)  
 [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  
 

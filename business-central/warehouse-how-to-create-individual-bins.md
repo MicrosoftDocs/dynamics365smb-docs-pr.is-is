@@ -2,7 +2,6 @@
 title: Stofna hólf
 description: Búa til hópa af svipuðum hólfum í vinnublaði fyrir stofnun hólfs, stofna stök hólf í staðsetningaspjaldinu eða sjálfkrafa í vinnublaði fyrir stofnun hólfs.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: b76c6aee2e986580d1c131688d87716e08d338f8
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 4e41f61156dbc7248cc9cb1a99ca2b5c790ee036
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972594"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518602"
 ---
 # <a name="create-bins"></a>Stofna hólf
 
@@ -36,7 +35,7 @@ Að búa til sérnýtt hólf leiðir til svipaðrar aðgerðar í grunnvöruhús
 
 ### <a name="example"></a>Dæmi
 
-Vinnustöð er sett upp með hólfkóta í **reitnum til-Framleiðslukóti hólfs**. Íhlutalínur framleiðslupöntunar með þann hólfakóta krefjast þess að framvirkir íhlutir séu settir þar. Þar til íhlutir úr því hólfi hafa verið notaðir getur önnur íhlutaeftirspurn ollið tínslu eða notkun úr hólfinu vegna þess að íhlutirnir teljast enn vera tiltækt innihald hólfsins. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir eftirspurn íhlutar sem notar þetta hólf framleiðslu á innleið, þarf að velja reitinn **Sérnýtt** í línunni fyrir þann hólfakóða.
+Vinnustöð er sett upp með hólfkóta í **reitnum til-Framleiðslukóti** hólfs. Íhlutalínur framleiðslupöntunar með þann hólfakóta krefjast þess að framvirkir íhlutir séu settir þar. Þar til íhlutir úr því hólfi hafa verið notaðir getur önnur íhlutaeftirspurn ollið tínslu eða notkun úr hólfinu vegna þess að íhlutirnir teljast enn vera tiltækt innihald hólfsins. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir eftirspurn íhlutar sem notar þetta hólf framleiðslu á innleið, þarf að velja reitinn **Sérnýtt** í línunni fyrir þann hólfakóða.
 
 > [!Caution]
 > Vörur í sérstökum hólfum eru ekki varðar þegar þær eru tíndar eða notaðar sem framleiðsla eða samsetningaríhlutir með síðunni **Birgðatínsla**. Frekari upplýsingar eru í [Taka til fyrir framleiðslu eða samsetningu í einföldum vöruhúsagrunnstillingum](warehouse-how-to-pick-for-production.md).
@@ -84,7 +83,7 @@ Til að vinna með síðuna **Hólfastofnunarvinnublaði** þarftu að vera sett
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

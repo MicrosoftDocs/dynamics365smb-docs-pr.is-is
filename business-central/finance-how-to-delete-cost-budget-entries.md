@@ -2,7 +2,6 @@
 title: Eyða kostnaðaráætlunarfærslum
 description: Eyða kostnaðaráætlunarfærslum Keyrslan er notuð til að afturkalla kostnaðaráætlunarfærslur í kostnaðaráætlunardagbókinni.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09d9d378d02ca11d09739f49e12499acf484bcb8
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: a97185820c9b28e297c8e30ad0c3f921860b8267
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971030"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517473"
 ---
 # <a name="delete-cost-budget-entries"></a>Eyða kostnaðaráætlunarfærslum
 
@@ -39,7 +38,7 @@ Til að koma í veg fyrir gloppur í kostnaðaráætlunarfærslum og kostnaðars
 
 [Kostnaðarbókhald](finance-manage-cost-accounting.md)
 [Stofna kostnaðaráætlun](finance-create-cost-budgets.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

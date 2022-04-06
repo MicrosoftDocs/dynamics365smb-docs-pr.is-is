@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9409c33858f32628c9f8a85fe6d19fd5afb5986f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 34bbdae60f2e9e17cdd6f006f4af432658ee9dbe
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381884"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519867"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selja vörur sem eru settar saman í pöntun og birgðavörur saman
 Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvöru inniheldur **Setja saman í lager** gerir sjálfgefna sölupöntunarvinnslan ráð fyrir því að varan sé nú þegar samsett og að tína megi hana úr birgðum ef hún er til ráðstöfunar. Því er engin samsetningarpöntun búin til sjálfkrafa og tengd við sölupöntunarlínuna. Ef hluti magnsins eða allt magnið er ekki tiltækt er hægt að stofna samsetningarpöntun fyrir eftirstandandi magn með því að fylla út í reitinn **Magn til samsetningar til pöntunar** í sölupöntunarlínunni. Með þeim hætti er hægt að setja saman vöru til pöntunar jafnvel þótt hún sé sjálfgefið uppsett til að vera sett saman í birgðir.  
@@ -43,7 +43,7 @@ Svipaður sveigjanleiki er til þegar verið er að selja vörur sem á að safn
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

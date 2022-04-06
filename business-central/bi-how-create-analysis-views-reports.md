@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d874c55108a985cd4076e2bbcc8eec53287db008
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: c5b77c97edc202c90cf82b5820a31fa99cf97b8e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335501"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512387"
 ---
 #  <a name="create-analysis-reports"></a>Stofna greiningarskýrslur
 Sölustjórar þurfa að greina veltu, brúttóhagnað og aðrar lykilstærðir varðandi sölu með reglulegu millibili. Innkaupaaðilar hafa meiri áhuga á að greina innkaupamagn, fylgjast með frammistöðu birgja og innkaupaverði. Vöru- og birgðastjórar þurfa hins vegar upplýsingar um birgðaveltu, greiningu á hreyfingu birgða og upplýsingar um birgðavirði.  
@@ -105,7 +105,7 @@ Greiningarskýrslur eru notaðar til að til að greina sölu samkvæmt lykilst�
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

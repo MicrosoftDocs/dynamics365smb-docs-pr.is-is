@@ -2,7 +2,6 @@
 title: Deila Business Central Records í Microsoft Teams
 description: Fá upplýsingar um notkun Business Central fyrir Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 3ad8b25fef8b486d4b2064e8c5117f0b25c6ec5b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587835"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528450"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Deila færslum Business Central og síðutenglum í Microsoft Teams
 
@@ -46,7 +45,7 @@ Eftirfarandi hlutar útskýra mismunandi leiðir í smáatriðum.
 
 Með forriti Business Central fyrir Teams er hægt að afrita tengli úr hvaða Business Central-færslu sem er, t.d. viðskiptavina- eða sölupöntun, og líma tengilinn í samtal í Teams. Forritið tengir Microsoft Teams við viðskiptagögnin í [!INCLUDE [prod_short](includes/prod_short.md)]\. Því næst er tengillinn stækkaður í gagnvirkt spjald sem birtir upplýsingar um færsluna. Þegar á samtalinu stendur getur þú og samstarfsfólk þitt skoðað frekari upplýsingar um færsluna, breytt gögnum og gripið til aðgerða &mdash; án þess að fara úr Teams.
 
-[![Samþætting Teams við Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teyma samþættingu við rekstur miðsvæðis.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Frumskilyrði
 
@@ -61,38 +60,36 @@ Með forriti Business Central fyrir Teams er hægt að afrita tengli úr hvaða 
 1. Skráðu þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] með vafranum.
 2. Opnið færsluna sem á að deila.
 
-    Forritið er hannað til að birta síðu kortagerðar úr [!INCLUDE [prod_short](includes/prod_short.md)]\. Opnið því síðu sem sýnir eina færslu, eins og vöru, viðskiptavin eða sölupöntun. Ekki er hægt að nota hana fyrir hlutverkamiðstöðvar eða síður sem birta nokkrar færslur í lista.
+    Forritið er hannað til að birta kort fyrir nánast hvaða tegund af [!INCLUDE [prod_short](includes/prod_short.md)] síðu sem er. En hún veitir bestu upplifunina þegar hún er notuð fyrir síður sem sýna staka færslu, til dæmis vöru, viðskiptavin eða sölupöntun.
+3. Afritaðu tengilinn á síðuna.
 
-3. Afritið alla vefslóðina úr veffangastiku vafrans.
+    Það eru tvær leiðir til að afrita hlekkinn. Auðveldasta og ákjósanlegri leiðin er að **velja**![tákn með samnýta hluti í hlekknum aðalafritun. ](media/share-icon.png) > **·** Hin leiðin er að, afrita alla SLÓÐINA af veffangsrein vafrans.
 
-   ![Afritið vefslóð Business Central úr vafra.](media/teams-url-v2.png)
+    [![Afrita Aðalurl í fyrirtæki úr vafra.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Farið í Teams og hefjið samtal sem getur verið spjall við einstakling, hóp eða teymisrás.
+5. Líma skal tengilinn (URL) í skilaboðakassa þar sem skilaboð eru samsett.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Límið vefslóðina í skilaboðagluggann þar sem skrifuð eru skilaboð..
+    ![Límið vefslóð Business Central í Teams.](media/teams-paste-url-v2.png)
 
-   ![Límið vefslóð Business Central í Teams.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > Ef þú færð skilaboð eins og: *viðskiptamiðlarinn vill sýna sýnishorn af þessum tengli.*, það þýðir að þú átt ekki viðskipti miðlægt App fyrir teymi uppsett. Til að setja upp forritið velurðu **Sýna forskoðun** og fylgir leiðbeiningunum.
 6. Fyrsta skiptið sem tengill er límdur í samtal, verður beðið um innskráningu í [!INCLUDE [prod_short](includes/prod_short.md)] og að veita samþykki fyrir forritinu til að sækja gögn. Fylgið einfaldlega leiðbeiningunum á skjánum.
 
     > [!NOTE]
     > Aðeins þarf að gera þetta skref einu sinni.
-
 7. Bíðið augnablik á meðan spjald er búið til í skilaboðaglugganum.
-
 8. Þegar spjaldið birtist skal leita vel og vandlega í innihald þess eftir viðkvæmum upplýsingum áður en skilaboðin eru send. Þetta skref er mikilvægt vegna þess að þegar skilaboðin eru send geta allir í samtalinu séð spjaldið.
-
 9. Ef spjaldið lítur vel út skal velja **Senda** til að senda það í samtalið.
 
     > [!TIP]
     > Eftir að kortið birtist og áður en **Senda** er valið er hægt að eyða límdri vefslóð ef þú vilt.
-
 10. Til að fá frekari upplýsingar eða gera breytingar á færslunni sem birtist í spjaldinu skal velja **Upplýsingar**. Nánari upplýsingar er að finna í næsta hluta.
 
 ### <a name="view-card-details"></a>Skoða upplýsingar spjalds
 
-Þegar búið er að senda spjald á samtal, geta allir þátttakendur með [viðeigandi heimildir](admin-teams-integration.md#permissions) valið **Upplýsingar** til að opna glugga sem sýnir frekari upplýsingar um færsluna&mdash;og hugsanlega geta gert breytingar á henni. Það skiptir ekki máli hvort það sért þú sem sendir spjaldið eða sá sem fær spjaldið. Eiginleikinn **Upplýsingar** er sérstaklega gagnlegur viðtakendum af því að hann veitir þeim samanteknar, hnitmiðaðar upplýsingar um færsluna á fljótlegan hátt í stað þess að þurfa að renna yfir alla færsluna.
+Þegar búið er að senda spjald á samtal, geta allir þátttakendur með [viðeigandi heimildir](admin-teams-integration.md#permissions) valið **Upplýsingar** til að opna glugga sem sýnir frekari upplýsingar um færsluna&mdash;og hugsanlega geta gert breytingar á henni. Það skiptir ekki máli hvort það sért þú sem sendir spjaldið eða sá sem fær spjaldið. **Aðgerðin upplýsingar** gagnast sérstaklega vel þeim viðtakendum þar sem hún veitir þeim fljótt nákvæmar upplýsingar um færsluna.
 
-Upplýsingasíðan svipar til þess sem þú sérð í færslunni [!INCLUDE [prod_short](includes/prod_short.md)]. En það er örlítið aðlagað að Teams. Þegar skoðun er lokið og breytingar hafa verið gerðar skal loka glugganum til að fara aftur í samtalið í Teams.
+Upplýsingaglugginn er svipaður því sem sést í [!INCLUDE [prod_short](includes/prod_short.md)], en hann beinist að síðunni eða færslunni sem kortið snýst um. Þegar skoðun er lokið og breytingar hafa verið gerðar skal loka glugganum til að fara aftur í samtalið í Teams.
 
 Hér eru nokkur atriði sem vert er að hafa í huga þegar unnið er með upplýsingar spjalds:
 

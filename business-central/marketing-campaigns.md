@@ -2,7 +2,6 @@
 title: Setja upp markaðsherferðir í Business Central | Microsoft Docs
 description: Lýsir hvernig hægt er að setja upp og stunda markaðssetningarherferðir í Business Central til að hjálpa þér að koma auga á og laða að viðföng og varðveita viðskiptamenn.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e9ed545daaa9600beb96ebb19aaeb36fb3a518c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: ab9ad6e770e1a8c1c6ebc9e20d00e9f72ebec7c6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780733"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518966"
 ---
 # <a name="managing-marketing-campaigns"></a>Stjórnun markaðsherferða
 Öflug markaðsáætlun gerir fyrirtækinu kleift að finna, vinna og halda viðskiptamönnum. Markaðsáætlun samanstendur af ýmsum söluherferðum og öðrum samskiptum í tengslum við sölur og markaðssetningaraðgerðir. Þegar söluherferð er skipulögð þarf að ákveða hvaða tengiliði skal miða á, hvaða gerð söluherferðar (t.d. vörusýningu eða beinan auglýsingapóst) skal nota og hvaða sölumen munu framkvæma hvert verk.
@@ -50,7 +49,7 @@ Herferðir eru framkvæmdar ef sölufólki, og þú þarft að skapa aðgerðir 
 [Vinna með tengiliði](marketing-contacts.md)  
 [Umsjón hluta](marketing-segments.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
-[Vinna með Business Central](ui-work-product.md)  
+[Vinna með Viðskiptaseðla-](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

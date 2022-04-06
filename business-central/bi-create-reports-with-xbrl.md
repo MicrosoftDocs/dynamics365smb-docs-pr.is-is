@@ -4,7 +4,6 @@ description: XBRL er XML-miðað tölvumál til að merkja fjárhagsgögn og ger
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: d25637f00d8b7e6641d994a13e135a78bd72a215
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101322"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511754"
 ---
 # <a name="create-reports-with-xbrl"></a>Stofna skýrslur með XBRL
 
@@ -122,7 +121,7 @@ Fyrsta skrefið þegar beita á XBLR-aðgerðum er að flytja inn flokkunina í 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)    
 [Viðskiptaupplýsingar](bi.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

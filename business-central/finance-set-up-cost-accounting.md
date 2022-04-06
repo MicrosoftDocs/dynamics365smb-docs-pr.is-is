@@ -2,7 +2,6 @@
 title: Uppsetning kostnaðarbókhalds
 description: Áður en byrjað er að vinna með kostnaðarbókhald þarf að framkvæma uppsetningu. Hver kostnaðarfærsla verður að hafa úthlutaða kostnaðartegund og kóða kostnaðarstaðar eða kostnaðarhlut úthlutaðan.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: bf5e893dbdf7270174c631c1d830b647f74fd45b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970571"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520335"
 ---
 # <a name="setting-up-cost-accounting"></a>Uppsetning kostnaðarbókhalds
 
@@ -195,7 +194,7 @@ Fyrir hvern fjárhagsreikning er hægt að skilgreina sjálfgefið víddargildi 
 [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
 [Flytja og bóka kostnaðarfærslur](finance-transfer-and-post-cost-entries.md)   
 [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c19278d2d01ae6018e93b7856800ba6b06118278
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 54871f5a9aac3fe84e769d278fc21138a118ebb0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144672"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511468"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Envestnet Yodlee Bank Feeds Viðbótin
 
@@ -47,7 +47,7 @@ Frekari upplýsingar eru í [Setja upp Envestnet Yodlee Bank Feeds þjónustuna]
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum ](ui-extensions.md)    
 [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Stofna verkflæði til að tengja verk
 description: Hægt er að stofna verkflæði sem tengja viðskiptaferlisverk sem framkvæmd eru af ólíkum notendum og fela í sér kerfisverk eins og sjálfvirka bókun sem skref í verkflæði.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588227"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521281"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Stofna verkflæði til að tengja verk viðskiptaferla
 
@@ -105,7 +104,7 @@ Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður 
     >  Aðeins er hægt að breyta inndrætti skrefs sem ekki hefur skref á eftir sér.  
 
 12. Endurtakið skref 7 til 11 til að bæta fleiri verkflæðisskrefum við, annaðhvort fyrir eða eftir skrefið sem var verið að stofna.  
-13. Veljið gátreitinn **Virkja** til að tilgreina að verkflæði hefjist um leið og tilvik á fyrsta skerfi af gerðinni **Komustaður** á sér stað. Frekari upplýsingar eru í [Nota verkflæði](across-use-workflows.md).  
+13. Veljið gátreitinn **Virkja** til að tilgreina að verkflæði hefjist um leið og tilvik á fyrsta skerfi af gerðinni **Komustaður** á sér stað. Sjá [Use verkflæði fyrir frekari upplýsingar](across-use-workflows.md).  
 
 > [!NOTE]  
 > Ekki skal virkja verkflæði þar til víst er að verkflæði sé lokið að að umrædd verkflæðisskref geti hafist.  

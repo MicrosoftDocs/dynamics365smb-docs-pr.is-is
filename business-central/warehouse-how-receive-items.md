@@ -2,7 +2,6 @@
 title: Móttaka vara
 description: Þetta efnisatriði er yfirlit yfir mismunandi leiðir til að taka á móti vörum í vöruhúsi, t.d. vörum með innkaupapöntun eða vörum með vöruhúsamóttöku.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 577bbd63a24ba50844c6e76a3b64845f4fefc62a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: ebb230a7bd0e2008d16b33c0fb00bdbeac3177d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973259"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519493"
 ---
 # <a name="receive-items"></a>Móttaka vara
 
@@ -134,7 +133,7 @@ Kóði umframmóttöku er úthlutaður á vöruna. Allar innkaupapantanir eða v
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

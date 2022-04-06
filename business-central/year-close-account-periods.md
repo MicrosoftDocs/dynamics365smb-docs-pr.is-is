@@ -2,7 +2,6 @@
 title: Loka fjárhagstímabilum fyrir fjárhagsár
 description: Þessi grein lýsir því hvernig skal loka fjárhagstímabilum sem mynda fjárhagsárið fyrir árslokalokun.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 44f7b577855f1df9967fd59bee5148d9ec06d087
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 944c2e9a9955a38b079234cc3ef9fb365407a97a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973733"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514284"
 ---
 # <a name="close-accounting-periods"></a>Loka fjárhagstímabilum
 
@@ -44,7 +43,7 @@ Enda þótt reikningsári hafi verið lokað er enn hægt að bóka fjárhagsfæ
 [Bókum lokað](year-close-books.md)  
 [Bóka lokafærslu ársloka](year-how-post-year-end-close-entry.md)  
 [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

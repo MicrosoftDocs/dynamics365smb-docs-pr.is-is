@@ -4,14 +4,15 @@ description: Finnið út hvaða skýrslur og greiningar eru í boði í staðla�
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: 0ef32a974a86253a6418c2f0b1d3cc99cba0921c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: f674102844cf6dd6c5c93aa0036f8b73f10b8b61
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143401"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514778"
 ---
 # <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Skýrslur og greiningar viðskiptakrafna í Business Central
 
@@ -24,7 +25,7 @@ Til að hjálpa þér að hafa umsjón með viðskiptakröfum í [!INCLUDE [prod
 ## <a name="see-also"></a>Sjá einnig .
 
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
-[Unnið með víddir](finance-dimensions.md)  
+[Vinna með víddir](finance-dimensions.md)  
 [Eignaumsjón](fa-manage.md)  
 [Yfirlit yfir staðbundna virkni](about-localization.md)  
 [Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  

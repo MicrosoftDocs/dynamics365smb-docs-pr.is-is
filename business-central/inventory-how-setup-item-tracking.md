@@ -2,7 +2,6 @@
 title: Setja upp vörurakningu með raðnúmer, lotu og pakkanúmer
 description: Setjið upp vörurakning með raðnúmerum, lotunúmerum og pakkanúmerum
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: c6bfeeadda01ee82981f40eb49431fc6d40aebbc
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
-ms.translationtype: HT
+ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482508"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511559"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Setja upp vörurakningu með raðnúmer, lotu og pakkanúmer
 
@@ -94,6 +93,6 @@ Til að virkja vörurakningu þarftu fyrst að úthluta rakningarkóðum vöru �
 [Hönnunarupplýsingar: Vörurakning](design-details-item-tracking.md)  
 [Hönnunarupplýsingar - vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
 [Taka frá vörur](inventory-how-to-reserve-items.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

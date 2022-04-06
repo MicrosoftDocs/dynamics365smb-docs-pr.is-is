@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að grunnstilla ný fyrirtæki | Microsoft Docs
-description: Hægt er að skilgreina og sérstilla nýtt fyrirtæki sem búið var til. Til að fínstilla innleiðinguna framkvæmirðu grunnstillinguna þína í þremur skrefum.
+title: Grunnstilla ný fyrirtæki
+description: Hægt er að samskipa og sérsníða nýtt fyrirtæki sem búið er að stofna með RapidStart Services. Til að fínstilla innleiðinguna framkvæmirðu grunnstillinguna þína í þremur skrefum.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0964028b7d6e711e48e1361950d1ec6b4e14425
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8b3bdea227d5314d4b4f218fed59906db1995180
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130801"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515772"
 ---
-# <a name="configure-new-companies"></a>Grunnstilla ný fyrirtæki
+# <a name="configure-new-companies-with-rapidstart-services"></a>Samskipa ný fyrirtæki með RapidStart Services
 Til að grunnstilla nýtt fyrirtæki innleiðingarlausn þinni er vanalega fylgt eftir þremur áföngum. Í fyrsta áfanganum er grunnstillingarpakkinn fluttur inn, sem er .rapidstart-skrá með grunnstillingarupplýsingum. Í öðrum áfanganum er grunnstillingarupplýsingum breytt og þær notaðar á nýja fyrirtækið. Í lokaáfanganum er farið yfir og villur lagaðar.  
 
 Eftirfarandi ferli gera ráð fyrir að grunnstillingarpakkar hafi verið stofnaðir og vistaðir. Nánari upplýsingar eru í [Undirbúa grunnstillingarpakka](admin-how-to-prepare-a-configuration-package.md).  

@@ -1,5 +1,5 @@
 ---
-title: Tengjast Microsoft Dataverse (inniheldur myndband)
+title: Microsoft Dataverse Tengjast (inniheldur Video)
 description: Settu upp tengingu milli Business Central og Dataverse. Yfirleitt stofna fyrirtæki tenginguna til að samþætta og samstilla gögn við annað Dynamics 365 Business-forrit.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,12 +8,12 @@ ms.search.keywords: ''
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f83764061bb341b0b9d6619a0c5d14cac6b664a9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 57f8091d81870f9e58af80462259006d4cb822ae
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383832"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485033"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Tengjast við Microsoft Dataverse
 
@@ -25,21 +25,21 @@ ms.locfileid: "8383832"
 
 Áður en tengingin er búin til þarf að koma nokkrum upplýsingum á framfæri:  
 
-* Vefslóðin fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)] umhverfið sem á að tengjast við. Ef uppsetningarleiðbeiningin **Dataverse Uppsetning tengingar** með hjálp er notuð til að stofna tengingu finnum við umhverfin þín, en þú getur einnig slegið inn vefslóð fyrir annað umhverfi í leigjandanum þínum.  
+* Vefslóðin fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)] umhverfið sem á að tengjast við. Ef notuð er leiðbeiningar um **Dataverse uppsetningu tengingaraðstoðar** til að stofna tenginguna finnum við umhverfi notanda. Einnig er hægt að slá inn VEFSLÓÐ á annað umhverfi hjá leigjanda.  
 * Notandanafn og aðgangsorð reiknings sem er með heimildir stjórnanda í [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Ef þú ert með innanhúss [!INCLUDE[prod_short](includes/prod_short.md)] 2020 útgáfubylgju 1, útgáfu 16.5, skaltu lesa greinina [Nokkur þekkt vandamál](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Þú þarft að ljúka við útskýrða hjáleið áður en þú getur stofnað tengingu þína við [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-* Staðbundinn gjaldmiðill fyrirtækisins í [!INCLUDE[prod_short](includes/prod_short.md)] verður að vera sá sami og færslugjaldmiðillinn í [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Eftir að grunnfærsla er stillt í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] er ekki hægt að breyta henni. Frekari upplýsingar eru í [Færslugjaldmiðill (gjaldmiðill) einingunni](/powerapps/developer/data-platform/transaction-currency-currency-entity). Það þýðir að öll [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtæki sem þú tengir við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] stofnun verða að nota sama gjaldmiðil.
+* Staðbundinn gjaldmiðill fyrirtækisins í [!INCLUDE[prod_short](includes/prod_short.md)] verður að vera sá sami og færslugjaldmiðillinn í [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Þegar færsla hefur verið gerð í grunngjaldmiðlinum [!INCLUDE[cds_long_md](includes/cds_long_md.md)] er ekki hægt að breyta henni. Frekari upplýsingar eru í [Færslugjaldmiðill (gjaldmiðill) einingunni](/powerapps/developer/data-platform/transaction-currency-currency-entity). Öll [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtæki sem þú tengir við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] stofnun verða að nota sama gjaldmiðil.
 
 > [!IMPORTANT]
 >  [!INCLUDE[cds_long_md](includes/cds_long_md.md)] umhverfið má ekki vera í stjórnunarstillingu. Stjórnandastillingin veldur því að tengingin mistekst vegna þess að notandareikningur samþættingar fyrir tenginguna er ekki með heimildir stjórnanda. Frekari upplýsingar eru í [Stjórnunarsnið](/power-platform/admin/admin-mode).
 
 > [!Note]
 > Þessi skref útskýra ferlið fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu.
-> Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og ekki er notaður Azure Active Directory-reikningur til að tengjast [!INCLUDE [cds_long_md](includes/cds_long_md.md)], þarf einnig að tilgreina notandanafn og aðgangsorð notandareiknings fyrir samþættinguna. Þessi reikningur er kallaður reikningur „samþættingarnotanda“. Ef notaður er Azure Active Directory-reikningur er reikningur samþættingarnotanda ekki nauðsynlegur eða sýndur. Samþættingarnotandinn verður settur upp sjálfkrafa og þarf ekki leyfi.
+> Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss og notar Azure Active Directory ekki lykil til að tengjast [!INCLUDE [cds_long_md](includes/cds_long_md.md)], verður þú einnig að tilgreina notandanafn og aðgangsorð notandareiknings fyrir samþættingu. Þessi reikningur er kallaður reikningur „samþættingarnotanda“. Ef þú ert að nota Azure Active Directory lykil er reikningur fyrir samþættingu hvorki nauðsynlegur né birtur. Samþættingarnotandinn verður settur upp sjálfkrafa og þarf ekki leyfi.
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Uppsetning á tengingu við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-Fyrir allar aðrar sannvottunargerðir en Microsoft 365 sannvottun er tengingin sett upp við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] á **Dataverse síðunni Uppsetning** tengingar. Til Microsoft 365 sannvottunar er mælt með því að uppsetningarleiðbeiningar með hjálp tengingar með **Dataverse hjálp séu notaðar**. Leiðbeiningarnar auðvelda uppsetningu á tengingu og tilgreina ítarlega eiginleika, t.d. eignarhaldslíkan og upphaflega samstillingu.  
+Fyrir allar gerðir Microsoft 365 sannvottunar er Tengingin við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] á **Dataverse síðu tengingaruppsetningar** sett upp. Við sannvottun er mælt með því að Uppsetningarleiðbeiningar fyrir Microsoft 365 tengingaraðstoðarmenn **Dataverse séu notaðar**. Leiðbeiningarnar auðvelda uppsetningu á tengingu og tilgreina ítarlega eiginleika, t.d. eignarhaldslíkan og upphaflega samstillingu.  
 
 > [!IMPORTANT]
 > Við uppsetningu tengingarinnar við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] er stjórnandi beðinn um að gefa upp eftirfarandi heimildir til að skrá Azure-forritið sem heitir [!INCLUDE[prod_short](includes/prod_short.md)] samþætting við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
@@ -57,7 +57,7 @@ Leiðbeiningar um uppsetningu Dataverse tengingar getur auðveldað verkið við
 |---------|---------|
 |**Full samstilling**|Gögn eru aðeins í [!INCLUDE[prod_short](includes/prod_short.md)] , eða aðeins í [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Lagt er til að samstilla öll gögn frá þjónustunni sem er með þau við hina þjónustuna.|
 |**Engin samstilling**|Gögn eru til í báðum forritum og keyrsla samstillingar myndi búa til tvítekin gögn. Lagt er til að tengja færslur.|
-|**Fylgni ekki uppfyllt**|Gögn eru til í báðum forritum en ekki er hægt að samstilla línu eða töflu vegna þess að hún veltur á línu eða töflu sem er með tillögu um enga samstillingu. Ef til dæmis ekki er hægt að samstilla viðskiptamenn verður ekki heldur hægt að samstilla gögn fyrir tengiliði sem fylgja viðskiptamannagögnum.|
+|**Fylgni ekki uppfyllt**|Gögn eru til í báðum forritum en ekki er hægt að samstilla töfluna, því hún fer eftir röð eða töflu sem engin samstillingartilmæli hefur. Til dæmis, ef Viðskiptavinir geta ekki samstillt, þá eru ekki gögn fyrir tengiliði sem fara eftir viðskiptavinagögnum ekki samstillt annað hvort.|
 
 > [!IMPORTANT]
 > Yfirleitt er aðeins hægt að nota fulla samstillingu þegar forritin eru samþætt í fyrsta skipti og aðeins eitt forrit inniheldur gögn. Full samstilling getur reynst gagnleg í sýniumhverfi vegna þess að hún stofnar og tengir færslur sjálfkrafa í hverju forriti fyrir sig, sem flýtir fyrir því að geta hafið vinnu með samstillt gögn. Hinsvegar ætti aðeins að keyra fulla samstillingu ef þú vilt eina línu í [!INCLUDE[prod_short](includes/prod_short.md)] fyrir hverja línu í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] fyrir töfluvarpanirnar. Annars getur það leitt til tvítekinna færslna.
@@ -67,19 +67,19 @@ Leiðbeiningar um uppsetningu Dataverse tengingar getur auðveldað verkið við
 3. Fyllið inn reitina eftir þörfum.
 
 > [!NOTE]
-> Ef þú ert ekki beðin(n) um að skrá þig inn með stjórnandareikningnum þínum er það líklega vegna þess að lokað er fyrir sprettiglugga. Til að skrá þig inn skaltu leyfa sprettiglugga úr `https://login.microsoftonline.com`.
+> Ef notandi er ekki beðinn um að skrá sig inn með stjórnandareikninginn er hann líklega á því að POP-ups sé lokað. Til að skrá þig inn skaltu leyfa sprettiglugga úr `https://login.microsoftonline.com`.
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Að stofna eða vinna með tengingu handvirkt
 
-Eftirfarandi ferli útskýrir hvernig á að setja upp tenginguna á síðunni **Dataverse Uppsetning tengingar**. Þetta er einnig síðan þar sem stillingum fyrir samþættingu er stjórnað.
+Eftirfarandi ferli útskýrir hvernig á að setja upp tenginguna á síðunni **Dataverse Uppsetning tengingar**. Síðan tengingaruppsetning **Dataverse er í** Umsjón með samþættingarstillingum.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Dataverse Uppsetning tengingar** og velja síðan viðkomandi tengil.
 2. Færðu inn eftirfarandi upplýsingar fyrri tenginguna frá [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Svæði|Description|
     |-----|-----|
-    |**Vefslóð umhverfis**|Ef þú átt umhverfi í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] finnum við þau fyrir þig þegar þú keyrir uppsetningarleiðbeiningarnar. Ef þú vilt tengjast öðru umhverfi í öðrum leigjanda geturðu slegið inn innskráningarupplýsingar stjórnanda fyrir umhverfið og við finnum það fyrir þig. |
-    |**Virk**|Byrjaðu að nota samþættinguna. Ef tengingu er ekki komið á núna munu stillingar tengingar vera vistaðar en notendur geta ekki tengst [!INCLUDE[cds_long_md](includes/cds_long_md.md)] gögnum frá [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að koma aftur þessa síðu og virkja tenginguna seinna.  |
+    |**Vefslóð umhverfis**|Ef þú átt umhverfi í [!INCLUDE[cds_long_md](includes/cds_long_md.md)], finnum þá fyrir þér þegar þú keyrir Uppsetningarleiðbeiningarnar. Ef þú vilt tengjast ólíku umhverfi í öðrum leigjanda getur þú slegið inn skilríki umsjónarmanns fyrir umhverfið og við finnum það. |
+    |**Virk**|Byrjaðu að nota samþættinguna. Ef tengingin er ekki virk núna eru tengingarstillingarnar vistaðar en notendur geta ekki fengið aðgang [!INCLUDE[cds_long_md](includes/cds_long_md.md)] að gögnum [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að koma aftur þessa síðu og virkja tenginguna seinna.  |
 
 3. Í reitnum **Eignarhaldslíkan** skaltu velja hvort þú viljir að teymistafla í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] eigi nýjar færslur eða einn eða fleiri tilteknir notendur. Ef valið er **Einstaklingur** þarf að tilgreina hvern notanda fyrir sig. Ef valið er **Teymi** birtist sjálfgefna fyrirtækiseiningin í reitnum **Tengd fyrirtækiseining**.
 
@@ -88,7 +88,7 @@ Eftirfarandi ferli útskýrir hvernig á að setja upp tenginguna á síðunni *
 
     <!-- |Field|Description|
     |-----|-----|
-    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
+    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you're using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who don't have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account won't have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
 4. Til að prófa stillingar tengingar skal velja **Tenging** og síðan **Prófa tengingu**.  
 
@@ -107,35 +107,33 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 ## <a name="customize-the-match-based-coupling"></a>Sérstilla tengingu byggða á samsvörun
 
-Frá og með 2021 útgáfubylgju 2 getur þú tengt færslur í [!INCLUDE [prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] sem byggir á skilyrði samsvörunar sem stjórnandi skilgreinir.  
-
-Hægt er að ræsa algrímið fyrir samsvarandi færslur á eftirfarandi stöðum í [!INCLUDE [prod_short](includes/prod_short.md)]:
+Sem byrjar í 2021 2, kerfisstjóri getur fært inn skilyrði fyrir par-færslur sem byggjast á samstæðum. Hægt er að ræsa algrím fyrir jöfnunarfærslur frá eftirtöldum stöðum í [!INCLUDE [prod_short](includes/prod_short.md)]:
 
 * Listasíður sem sýna færslur sem eru samstilltar með [!INCLUDE [cds_long_md](includes/cds_long_md.md)], t.d. viðskiptavina- og vörusíður.  
 
     Veldu margar færslur og veldu síðan aðgerðina **Tengdar**, veldu **Dataverse**, veldu **Tenging** og veldu síðan **Tenging byggð á samsvörun**.
 
-    Þegar tengiferli sem byggir á samsvörun hefst í lista yfir aðalgögn verður tengivinnsla tímasett rétt eftir að þú hefur valið skilyrði tengingarinnar.  
+    Þegar samsvörsferlið er ræst af aðalgagnalista er afsláttarvinnsluaðferð áætluð eftir að viðmiðling er tilgreind.  
 * Síðan **Dataverse Yfirfara fulla samstillingu**.  
 
-    Þegar heildarsamstillingarferlið greinir að þú hafir aftengt færslur bæði í [!INCLUDE [prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] birtist tengill fyrir **Velja tengingarskilyrði** fyrir viðkomandi samþættingartöflu.  
+    Þegar heildarsamstillingarferlið uppgötvar óunnar færslur í og [!INCLUDE [prod_short](includes/prod_short.md)][!INCLUDE [cds_long_md](includes/cds_long_md.md)] birtist tengill í **samþættingartöflu fyrir velja festling Criteria**.  
 
-    Hægt er að hefja ferlið **Keyra fulla samstillingu** á síðunum **Dataverse Uppsetning tengingar** og **Uppsetning Dynamics 365-tengingar** og hægt er að hefja það sem skref í hjálparuppsetningunni **Setja upp tengingu við Dataverse** þegar þú velur að ljúka uppsetningu og keyra fulla samstillingu í lokin.  
+    Hægt er að ræsa keyrsluferlið í **fullri samstillingu** út **Dataverse frá Uppsetningarsíðum tengingaruppsetningarinnar** og **Dynamics 365**. Einnig er hægt að ræsa hana í **Uppsetning leiðbeininga um tengingu við Dataverse** aðstoðarmenn þegar uppsetningu er lokið.  
 
-    Þegar tengiferli sem byggir á samsvörun hefst á síðunni **Dataverse Yfirfara fulla samstillingu** verður tengivinnsla tímasett strax eftir að þú lýkur við uppsetninguna.  
+    Þegar samsvörun er hafin, frá því að **Dataverse Full Synch er ræst. Skoða** síðu, festingu vinnsla er áætluð eftir að uppsetningu er lokið.  
 * Listinn **Vörpun samþættingartöflu**.  
 
     Veldu vörpun, veldu aðgerðina **Tenging** og veldu svo **Tenging byggð á samsvörun**.
 
-    Þegar tengiferlið byggð á samsvörun hefst í vörpun samþættingartöflu mun tengivinnsla keyra fyrir allar aftengdar færslur í þeirri vörpun. Ef hún var keyrð fyrir safn af völdum færslum úr listanum mun hún aðeins keyra fyrir ótengdar færslur.
+    Þegar samsvörunarferlið er ræst frá vörpun samþættingartöflu, er festivinnsla keyrð fyrir allar óbyggðar færslur í kortvörpun. Einnig er hægt að velja óunnar færslur í listanum til að keyra vinnsluna aðeins fyrir færslurnar.
 
 Í öllum þremur tilvikum opnast síðan **Velja tengingarskilyrði** svo þú getir skilgreint viðeigandi tengingarskilyrði. Á þessari síðu skal sérstilla tenginguna með eftirfarandi verkum:
 
-* Veldu hvaða samsvörun reitir eiga að hafa við [!INCLUDE [prod_short](includes/prod_short.md)] færslur og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] einingar og veldu einnig hvort há- og lágstafir skipti máli við samsvörun reitsins.  
+* Velja svæðin sem á að nota til að jafna [!INCLUDE [prod_short](includes/prod_short.md)] færslur við [!INCLUDE [cds_long_md](includes/cds_long_md.md)] einingar. Hægt er að tilgreina hvort samsvörun sé Stafrétt.  
 
-* Tilgreindu hvort eigi að keyra samstillingu eftir tengingar á færslum og hvort færslan noti tvíátta vörpun, veldu einnig hvað eigi að gerast ef árekstrar koma fram á síðunni **Leysa úr uppfærsluárekstrum**.  
+* Tilgreinið hvort samstilla eigi eftir par-færslum. Ef færslur nota tvístefnuvörpun er einnig hægt að tilgreina hvað gerist ef árekstrar eru á listanum á **síðunni leysa Uppfærsluárekstra**.  
 
-* Forgangsraðaðu leit að færslunum með því að tilgreina *forgang samsvörunar* fyrir viðkomandi reitarvörpun. Forgangsröðun samsvörunar gerir leit algrímsins að samsvörun í mörgum endurtekningum eins og er skilgreint í reitargildunum í **Forgangsröð samsvörunar** í hækkandi röð. Autt gildi í reitnum **Forgangur samsvörunar** er túlkað sem forgangur 0 þannig að reitir með þetta gildi eru efst í forgangi.  
+* Forgangsraðaðu leit að færslunum með því að tilgreina *forgang samsvörunar* fyrir viðkomandi reitarvörpun. [!INCLUDE [prod_short](includes/prod_short.md)] mun leita að samsvörun í hækkandi röð sem byggist á gildinu í **reitnum samsvara forgangi**. Autt gildi í **svæðinu samsvörun forgangs** jafngildir forgangi 0 sem er mesti Forgangur. Reitir með 0 forgangi teljast sem fyrst.  
 
 * Tilgreindu hvort eigi að búa til nýtt tilvik einingar í [!INCLUDE [cds_long_md](includes/cds_long_md.md)] ef engin einkvæm ótengd samsvörun finnst með þessu skilyrði fyrir samsvörun. Til að virkja þennan möguleika skal velja aðgerðina **Stofna nýtt ef ekki tekst að finna samsvörun**.  
 
@@ -143,48 +141,44 @@ Hægt er að ræsa algrímið fyrir samsvarandi færslur á eftirfarandi stöðu
 
 Til að skoða niðurstöður tengingarverksins skal opna síðuna **Vörpun samþættingartöflu**, velja viðkomandi vörpun, velja aðgerðina **Tenging** og því næst velja aðgerðina **Verkkladdi fyrir tengingu samþættingar**.  
 
-Ef það eru einhverjar færslur sem voru ekki tengdar er hægt að kafa ofan í gildið í dálknum yfir misheppnaðar færslur sem mun birta lista yfir villur þar sem tilgreint er af hverju ekki tókst að tengja færslurnar.  
+Ef ekki tókst að fá færslur á par má velja gildið í **dálkinum í brást** til að opna lista yfir villur sem lýsa því hvers vegna það gerðist.  
 
-Misheppnuð tenging gerist oft í eftirfarandi tilvikum:
+Yfirleitt bregst festing við eftirfarandi ástæðum:
 
 * Ekkert samsvörunarskilyrði var skilgreint
 
-    Í þessu tilviki skaltu keyra tenginguna sem byggir á samsvörun aftur, en mundu að skilgreina skilyrði tengingarinnar.
+    Keyra samsvöruna saman aftur en munið að skilgreina afsláttarskilyrði.
 
-* Engin samsvörun fannst fyrir fjölda færsla samkvæmt völdum samsvöruðum reitum
+* Engin samsvörun fannst fyrir svæðin sem tilgreind voru í jöfnunarskilyrnum
 
-    Í því tilfelli skal endurtaka tenginguna með öðrum reitum samsvörunar.
+    Endurtakið festingu með mismunandi svæðum.
 
-* Fjölmargar samsvaranir fundust fyrir fjölda færslna samkvæmt völdum reitum samsvörunar  
+* Margar samstæður fundust fyrir nokkrum færslum sem byggðar voru á svæðunum sem tilgreind voru í jöfnunarskilyrð-  
 
-    Í því tilfelli skal endurtaka tenginguna með öðrum reitum samsvörunar.
+    Endurtakið festingu með mismunandi svæðum.
 
-* Ein samsvörun fannst, en samsvarandi færsla er þegar tengd við aðra færslu í [!INCLUDE [prod_short](includes/prod_short.md)]  
+* Samskip fannst en færslan er nú þegar komin á skrá í [!INCLUDE [prod_short](includes/prod_short.md)]  
 
-    Í því tilfelli skal endurtaka tenginguna með öðrum reitum samsvörunar eða skoða betur hvers vegna sú [!INCLUDE [cds_long_md](includes/cds_long_md.md)] eining er tengd við hina færsluna í [!INCLUDE [prod_short](includes/prod_short.md)].
+    Endurtaka skal festingu með mismunandi svæðum eða rannsaka hvers vegna [!INCLUDE [cds_long_md](includes/cds_long_md.md)] Einingin er sett í færsluna í [!INCLUDE [prod_short](includes/prod_short.md)].
 
 > [!TIP]
-> Til að veita þér betri yfirsýn yfir framvindu tengingarinnar sýnir reiturinn **Tengt við Dataverse** hvort tiltekin færsla sé tengd við [!INCLUDE [cds_long_md](includes/cds_long_md.md)] einingu eða ekki. Hægt er að sía listann yfir færslur sem verið er að samstilla við [!INCLUDE [cds_long_md](includes/cds_long_md.md)] af þessum reit.
+> Til að auðvelda þér að fá yfirlit yfir framvindu festivalið **Dataverse** sýnir reiturinn hvort færsla er tengd við [!INCLUDE [cds_long_md](includes/cds_long_md.md)] einingu. Hægt er að nota **Dataverse** reitinn miðskrá til að sía listann yfir færslurnar sem verið er að samstilla.
 
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Uppfæra tengingar frá Business Central Online til að nota auðkenningu sem byggir á skilríki
 > [!NOTE]
 > Þessi hluti á aðeins við fyrir leigjendur [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem eru hýstir hjá Microsoft. Það hefur engin áhrif á leigjendur á netinu sem eru hýstir hjá óháðum hugbúnaðarsölum og uppsetningar á staðnum.
 
-Í apríl 2022 mun [!INCLUDE[cds_long_md](includes/cds_long_md.md)] taka úr umferð auðkenningarleið Office365 (notandanafn/lykilorð). Frekari upplýsingar er að finna í [Auðkenningarleið Office365 tekin úr umferð](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Auk þess mun [!INCLUDE[prod_short](includes/prod_short.md)] í mars 2022 taka úr umferð notkun auðkenningu milli þjónusta sem byggir á leyniorði biðlara fyrir leigjendur á netinu og mun krefjast þess að notuð verði auðkenning milli þjónusta sem byggir á skilríkjum fyrir tengingar við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Leigjendur [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem óháðir hugbúnaðarsalar hýsa, og uppsetningar á staðnum, geta haldið áfram að nota auðkenningu með leyniorði biðlara til að tengjast [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+Í apríl 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] er afskráð úr Office365 sannvottunargerð (notendanafn/lykilorð). Frekari upplýsingar er að finna í [Auðkenningarleið Office365 tekin úr umferð](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Til viðbótar, í mars 2022, [!INCLUDE[prod_short](includes/prod_short.md)] er afskráð notkun umbjóðanda leyniþjónustu sem byggir á sannvottun skjólstæðinga á netinu vegna þjónustu við leigjendur. Nota verður sannvottun samkvæmt vottorði frá þjónustuveitu til tenginga [!INCLUDE[cds_long_md](includes/cds_long_md.md)] í. [!INCLUDE[prod_short](includes/prod_short.md)] nettengdir leigjendur sem eru hýstir hjá ISVs, og uppsetningar innanhúss, geta haldið áfram að nota leynibréf viðskiptavinar til sannvottunar.
 
-Til að koma í veg fyrir truflanir á samþættingum _verður að uppfæra_ tenginguna til að nota auðkenningu sem byggir á skilríki. Þó að breytingin sé áætluð mars 2022 mælum við eindregið með því að þú uppfærir eins fljótt og auðið er. Eftirfarandi skref útskýra hvernig á að uppfæra auðkenningu með skilríkjum. 
+Til að koma í veg fyrir truflanir á samþættingum _verður að uppfæra_ tenginguna til að nota auðkenningu sem byggir á skilríki. Þó svo að breytingin sé áætluð fyrir mars 2022 mælum við eindregið með að uppfært sé eins fljótt og auðið er. Eftirfarandi skref útskýra hvernig á að uppfæra auðkenningu með skilríkjum. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Til að uppfæra nettengingu við Business Central til að nota auðkenningu með skilríkjum
 
-> [!NOTE]
-> Auðkenning með skilríkjum er í boði í Business Central 2021, útgáfutímabili 1 og nýrri. Ef notuð er eldri útgáfa verður að uppfæra í Business Central 2021 útgáfu 1 fyrir mars 2022. Frekari upplýsingar er að finna í [Uppfærslur áætlaðar](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Ef vandamál koma upp skaltu hafa samband við samstarfsaðila eða notendaþjónustu.
-
-1. Í [Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) skaltu ganga úr skugga um að þú sért að nota Business Central 2021 útgáfutímabil 1 eða síðar (útgáfa 18 eða síðar).
-2. Gerðu eitt af eftirfarandi ef þú samþættar við Dynamics 365 Sales:
+1. Gerðu eitt af eftirfarandi ef þú samþættar við Dynamics 365 Sales:
    * Ef þú gerir það skaltu opna **Microsoft Dynamics Uppsetningarsíðu 365**.
    * Ef ekki skaltu opna **Dataverse Uppsetningarsíðu**.
-3. Veldu **Tenging** og síðan **Nota sannvottun vottorðs** til að uppfæra tenginguna til að nota sannvottun sem byggir á vottorði.
-4. Skráðu þig inn með innskráningarupplýsingum stjórnanda fyrir Dataverse. Innskráning ætti að taka innan við mínútu.
+2. Veldu **Tenging** og síðan **Nota sannvottun vottorðs** til að uppfæra tenginguna til að nota sannvottun sem byggir á vottorði.
+3. Skráðu þig inn með innskráningarupplýsingum stjórnanda fyrir Dataverse. Það ætti að taka minna en mínútu að skrá sig inn.
 
 > [!NOTE]
 > Þú verður að endurtaka þessi skref í hverju [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi, þar á meðal bæði framleiðslu- og sandkassaumhverfi, og í hverju fyrirtæki þar sem þú tengist [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
@@ -193,7 +187,7 @@ Til að koma í veg fyrir truflanir á samþættingum _verður að uppfæra_ ten
 
 Til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] þarf að gefa upp upplýsingar á síðunni **Dataverse Uppsetning tengingar**.
 
-Ef ætlunin er að tengjast með Azure Active Directory (Azure AD) reikningi þarf að skrá forrit í Azure AD og gefa upp auðkenni forritsins, leynilykil lyklageymslu og framsendingarslóðina sem á að nota. Framsend vefslóð er fyllt út fyrirfram og ætti að virka fyrir flestar uppsetningar. Nauðsynlegt er að setja upp uppsetninguna til að nota HTTPS. Frekari upplýsingar er að finna í [Skilgreining SSL til að tryggja örugga tengingu vefbiðlara Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Ef verið er að setja upp þjóninn til að hafa aðra heimasíðu er alltaf hægt að breyta vefslóðinni. Leynilykill biðlara verða vistaður sem dulkóðaður strengur í gagnagrunninum. 
+Til að tengjast með Azure Active Directory (Azure AD) lykli þarf að skrá umsókn í Azure AD. Þú munt þurfa að útvega umsóknarkennið, leynihólf lyklageymslu og beina VEFSLÓÐINA að notkun. Framsend vefslóð er fyllt út fyrirfram og ætti að virka fyrir flestar uppsetningar. Nauðsynlegt er að setja upp uppsetninguna til að nota HTTPS. Frekari upplýsingar er að finna í [Skilgreining SSL til að tryggja örugga tengingu vefbiðlara Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Ef þjónn er settur upp til að geta haft aðra heimasíðu er hægt að breyta SLÓÐINNI. Leynilykill biðlara verða vistaður sem dulkóðaður strengur í gagnagrunninum. 
 
 ### <a name="prerequisites"></a>Frumskilyrði
 
@@ -221,13 +215,13 @@ Eftirfarandi skref gera ráð fyrir að nota Azure AD til að stjórna auðkennu
     > Heiti Dynamics CRM API gæti breyst.
 
 5. Undir **Stjórna** skal velja **Vottorð og leynilyklar** og síðan stofna nýjan leynilykil fyrir forritið. Leynilykillinn verður notaður annaðhvort í [!INCLUDE[prod_short](includes/prod_short.md)], í reitnum **Leynilykill biðlara** á síðunni **Dataverse Uppsetning tengingar** eða geymdur í öruggri geymslu og hann látinn í té í áskriftartilviki eins og lýst var fyrr í þessu efnisatriði.
-6. Veljið **Yfirlit** og finnið svo gildið **Auðkenni forrits (biðlara)**. Þetta er biðlarakenni forritsins. Færa verður það inn annaðhvort á síðunni **Dataverse Uppsetning tengingar** í reitnum **Biðlarakenni** eða geyma það í öruggri geymslu og láta það í té í áskriftartilviki.
+6. Veljið **Yfirlit** og finnið svo gildið **Auðkenni forrits (biðlara)**. Þetta AUÐKENNI er Biðlarakenni forritsins. Færa verður það inn annaðhvort á síðunni **Dataverse Uppsetning tengingar** í reitnum **Biðlarakenni** eða geyma það í öruggri geymslu og láta það í té í áskriftartilviki.
 7. Í [!INCLUDE[prod_short](includes/prod_short.md)], á síðunni **Dataverse Uppsetning tengingar**, í reitnum **Vefslóð umhverfis**, skal færa inn vefslóðina fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-umhverfið.
 8. Til að virkja tenginguna við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] þarf að kveikja á víxlhnappnum **Virkjað**.
-9. Skráðu þig inn með stjórnandareikningnum fyrir Azure Active Directory (þessi reikningur verður að hafa gilt leyfi fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)] og má vera stjórnandi í [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-umhverfinu þínu). Eftir að þú skráir þig inn verður þú beðinn um að leyfa skráða forritinu þínu að skrá sig inn í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] fyrir hönd fyrirtækisins. Veita þarf samþykki til að ljúka uppsetningunni.
+9. Skráðu þig inn með stjórnandareikningnum fyrir Azure Active Directory (þessi reikningur verður að hafa gilt leyfi fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)] og má vera stjórnandi í [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-umhverfinu þínu). Eftir að þú hefur skráð þig inn færðu kvaðningu um að leyfa skráðu þinni umsókn að skrá þig inn fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)] hönd samtakanna. Veita þarf samþykki til að ljúka uppsetningunni.
 
    > [!NOTE]
-   > Ef þú ert ekki beðinn um að skrá þig inn með stjórnandareikningnum þínum, er það líklega vegna þess að lokað er fyrir sprettiglugga. Til að skrá þig inn skaltu leyfa sprettiglugga úr `https://login.microsoftonline.com`.
+   > Ef notandi er ekki beðinn um að skrá sig inn með stjórnandareikninginn er hann líklega á því að POP ups sé lokað. Til að skrá þig inn skaltu leyfa sprettiglugga úr `https://login.microsoftonline.com`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Að aftengjast [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 

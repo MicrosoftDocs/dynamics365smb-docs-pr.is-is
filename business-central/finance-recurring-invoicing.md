@@ -2,7 +2,6 @@
 title: Vinna með endurteknar tekjur
 description: Frekari upplýsingar um tiltæka valmöguleika sem gera þér kleift að senda greiðslureikninga til viðskiptavina þinna og skrá endurteknar tekjur.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 696ab59530c81cd19709f4e1bde3324bcaebbf5a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 96a4330b880ecfe760c146d4b7ae5778716725ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970990"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513914"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Vinna með endurteknar tekjur í [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -30,11 +29,11 @@ Mörg fyrirtæki eru að færa sig úr tekjulíkönum þar sem tekjur eru úr ei
 
 ### <a name="why-use-this-option"></a>Af hverju að nota þennan möguleika
 
-Með þessum valkosti eru sveigjanleg reikningsfærslutímabil skilgreind með [Dagsetningarformúlum](ui-enter-date-ranges.md#using-date-formulas).
+Með þessum valkosti er Sveigjanlegt reikningsfærslutímabil skilgreint með [Dagsetningarreiknireglum](ui-enter-date-ranges.md#use-date-formulas).
 
 Með þessum valkosti er hins vegar ekki hægt að prenta og senda reikninga í sjálfgefinni útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Frekari upplýsingar er að finna í [Vinna með Ítrekunarbækur](ui-work-general-journals.md#working-with-recurring-journals).  
+Sjá [vinnu með Ítrekunarbækur fyrir frekari upplýsingar](ui-work-general-journals.md#work-with-recurring-journals).  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Stofna marga reikninga byggða á ítrekunarverkbók verka
 
@@ -112,8 +111,8 @@ Nánari upplýsingar eru í [Endurteknar pantanir](LocalFunctionality/Norway/rec
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Dagsetningarreiknireglur](ui-enter-date-ranges.md#using-date-formulas)  
-[Vinna með Ítrekunarbækur](ui-work-general-journals.md#working-with-recurring-journals)  
+[Dagsetningarformúlur](ui-enter-date-ranges.md#use-date-formulas)  
+[Vinna með Ítrekunarbækur](ui-work-general-journals.md#work-with-recurring-journals)  
 [Stofna færslubókarlínur verks](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
 [Búa til marga sölureikninga verks](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Stofna ítrekaðar sölu- og innkaupalínur](sales-how-work-standard-lines.md)  

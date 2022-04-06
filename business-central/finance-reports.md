@@ -4,14 +4,15 @@ description: Finnið út hvaða fjárhagsskýrslur eru í boði í staðlaðri �
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
-ms.translationtype: HT
+ms.openlocfilehash: 2220bfacb8f94265363c30acbcde1cc6de745339
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311207"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514388"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Fjárhagsskýrslur og greiningar í Business Central
 
@@ -39,10 +40,10 @@ Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisi
 [Stofna kostnaðaráætlanir](finance-create-cost-budgets.md)  
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
 [Lokaár og Tímabil](year-close-years-periods.md)  
-[Nota skýrslur fyrir lokun](year-prepare-preclose-reports.md)  
+[Nota skýrslur um Forlokun](year-prepare-preclose-reports.md)  
 [Undirbúningur lokunaryfirlits](year-prepare-close-statement.md)  
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
-[Unnið með víddir](finance-dimensions.md)  
+[Vinna með víddir](finance-dimensions.md)  
 [Skýrslur og greiningar viðskiptakrafna](receivables-reports.md)  
 [Skýrslur og greiningar viðskiptaskulda](payables-reports.md)  
 [Skýrslur og greiningar eigna](fa-reports.md)  

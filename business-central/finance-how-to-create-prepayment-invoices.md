@@ -2,7 +2,6 @@
 title: Stofna fyrirframgreiðslureikninga
 description: Takist á við aðstæður þar sem þú eða lánardrottinn þinn krefjast fyrirframgreiðslu. Notið sjálfgefnar prósentur fyrir hverja sölu- og innkaupalínu eða leiðréttið upphæðina eins og með þarf.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: ebce3f22b4977b9dfca506ce536abb8c7e5ad46b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: db06612ed644f8db52d8c9e8247b6cc7fe9df339
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972019"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519174"
 ---
 # <a name="create-prepayment-invoices"></a>Stofna fyrirframgreiðslureikninga
 
@@ -48,7 +47,7 @@ Eftirfarandi ferli sýnir hvernig skal gefa út fyrirframgreiðslureikning fyrir
     Ef þú hefur tilgreint sjálfgefna fyrirframgreiðsluprósentuna annað hvort fyrir viðskiptavininn eða á flýtiflipanum **Fyrirframgreiðsla** í þessu skjali, er þetta gildi afritað í hverja línu. Hægt er að breyta innihaldi reitsins **Fyrirframgreiðsla %** í línunni.  
 
     > [!TIP]
-    > Ef **reiturinn fyrirframgreiðsla% sést ekki** er hægt að bæta honum í gegnum sérsnið.  Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
+    > Ef reiturinn fyrirframgreiðsla% **sést** ekki er hægt að bæta honum í gegnum sérsnið.  Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 4. Veldu **Upplýsingar** aðgerðina til að skoða heildarupphæð fyrirframgreiðslu.
 
@@ -75,8 +74,8 @@ Hægt er að gefa út viðbótar fyrirframgreiðslureikninga fyrir pöntunina. �
 [Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)  
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Sérstilling verksvæðis](ui-personalization-user.md)  
+[Vinna við að [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Sérsníða vinnusvæðið](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

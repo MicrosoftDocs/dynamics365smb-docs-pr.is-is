@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 10b9483d46caa9fff156a80f5301521ae9c36d63
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128637"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510766"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Yfirlit yfir verkefni til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -45,9 +45,9 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 |Lesið bestu starfsvenjur fyrir uppsetningar á vörum fyrir birgðakostnað og framboðsáætlanagerð.|[Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)|
 |Bættu gæði innleiðingar og styttu uppsetningartíma með verkfærasetti til að setja upp nýtt fyrirtæki með því að nota leiðsagnarforrit, sniðmát, vinnublöð og spurningalisti fyrir viðskiptavini.|[Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
 |Færðu upplýsingar viðskiptavina, lánardrottna, birgða og bankareikninga úr öðru kerfi yfir í [!INCLUDE[prod_short](includes/prod_short.md)]|[Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).|
-|Notaðu Business Central Outlook innbótina til að skoða fjárhagsgögn sem tengjast viðskiptamönnum og lánardrottnum, eða búðu til og sendu fjárhagsskjöl á borð við tilboð og reikninga.|[Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)|
+|Notaðu Business Central Outlook innbótina til að skoða fjárhagsgögn sem tengjast viðskiptamönnum og lánardrottnum, eða búðu til og sendu fjárhagsskjöl á borð við tilboð og reikninga.|[Nota viðskipti miðlægt sem Viðskiptahólf í Outlook](admin-outlook.md)|
 |Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central gögnum með Power BI og Business Central efnispökkunum.|[Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)|
-|Notandi getur notað Business Central-gögnin sín sem hluta af verkflæði í Power Automate.|[Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)|
+|Notandi getur notað Business Central-gögnin sín sem hluta af verkflæði í Power Automate.|[Nota Viðskiptamiðað í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)|
 |Gerðu Business Central gögnin þín aðgengileg sem gagnaveitu í Power Apps.|[Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Notaðu þar til gerðar Quickbooks færsluleiðbeiningar.|[Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)|
 |Fá aðgang að Business Central gögnunum þínum úr fartækinu.|[Nota Business Central á fartækinu þínu](install-mobile-app.md)|
@@ -63,6 +63,7 @@ Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[prod_short](i
 
 ## <a name="see-also"></a>Sjá einnig
 
+[Yfirlit yfir Fyrirtækjaupplýsingar](admin-company-information.md)  
 [Stjórnun](admin-setup-and-administration.md)  
 [Fjármál](finance.md)  
 [Sala](sales-manage-sales.md)  
@@ -73,7 +74,7 @@ Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[prod_short](i
 [Samsetningardeild](assembly-assemble-items.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  

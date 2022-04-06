@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1855391f5bf2c0807ac4ffcd8d42e0ea8122fd87
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141858"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520023"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Virkja Vörutínsla eftir FEFO
 Fyrst-fyrnt-fyrst-út (FEFO) er röðunaraðferð sem tryggir að elstu vörurnar, sem hafa elstu lokadagsetningarnar, eru tíndar fyrst.  
@@ -45,7 +45,7 @@ Ef reiturinn **Ströng lokasöludagsetning** er valinn á **Vörurakningarkóða
 [Vörur tíndar með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

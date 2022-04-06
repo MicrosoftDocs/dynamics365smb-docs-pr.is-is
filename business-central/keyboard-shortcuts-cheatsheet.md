@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6f4966a1132c4e389cb3b37f31d9dcc883d27b5
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384203"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511598"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur
 
@@ -79,11 +79,18 @@ ms.locfileid: "8384203"
 |-|-|
 |Ctrl+Shift+Enter|Fara í næsta reit flýtifærslu utan lista|
 |Enter/Shift+Enter|Fara í næsta/fyrri reit flýtifærslu|
+
 ##### <a name="report-preview"></a>Forskoðun skýrslu
 
 |Ýttu á þessa takka|Til að gera þetta|
 |-|-|
 |Ctrl+Heim/Loka|Fara á fyrstu/síðustu síðu|
+
+#### <a name="numeric-keypad"></a>Talnagrind
+
+|Ýttu á þessa takka|Til að gera þetta|  
+|-|-|
+|Skiltákn Alt + tugabrot|Víxla úttaki aukalykil aukastafa á talnagrind|
 
 > [!TIP]
 > Fyrir myndræna, prentvæna útgáfu velurðu eftirfarandi mynd og sækir PDF-skjalið.

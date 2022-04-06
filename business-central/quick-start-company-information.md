@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133655"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417614"
 ---
 # <a name="company-information-quick-start"></a>Stuttur leiðarvísir um fyrirtækjaupplýsingar
 
@@ -25,19 +26,14 @@ Til að hjálpa þér að koma fyrirtækinu af stað í [!INCLUDE[prod_short](in
 ## <a name="to-set-up-company-information"></a>Að setja upp upplýsingar fyrirtækis  
 
 1. Veldu táknið ![Sprocket til að opna stillingavalmyndina.](media/ui-experience/settings_icon_small.png) valmynd og veldu síðan aðgerðina **Upplýsingar um fyrirtæki**.
-2. Færðu upplýsingarnar inn í flýtiflipana eins og er lýst í eftirfarandi töflu.
+2. Færðu upplýsingarnar inn í flýtiflipana eins og er lýst í eftirfarandi töflu. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Svæði|Description|  
-    |-------------|---------------------------------------|  
-    |**Almennt**|Færðu inn almennar upplýsingar um fyrirtækið þitt, þ.m.t. lógó því það mun birtast á skjölum ætluðum viðskiptamönnum, t.d. reikningum sem þú sendir frá þér. |  
-    |**Samskipti**|Færðu inn grunnupplýsingar um tengiliði fyrirtækisins, t.d. símanúmer og netfang.|  
-    |**Greiðslur**| Fylltu út viðeigandi bankaupplýsingar til að tryggja að viðskiptamenn þínir geti greitt þér.|  
-    |**Sending**|Fylltu út viðeigandi sendingarupplýsingar svo þú getir sent og tekið á móti vörum frá og til fyrirtækisins.|  
-    |**Skattur**|Það fer eftir því í hvaða landi þú býrð hvort flýtiflipi fyrir skatt verður í boði. Ef hann er í boði skaltu fylla hann út.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
-Þegar þú hefur lokið við að fylla út upplýsingarnar máttu loka síðunni.  
+Þegar þú hefur lokið við að fylla út upplýsingarnar getur þú lokað síðunni.  
 
 ## <a name="see-also"></a>Sjá einnig  
 
+[Yfirlit yfir Fyrirtækjaupplýsingar](admin-company-information.md)  
+[Setja upp Fyrirtækjaupplýsingar á Ítalíu](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
-[Setja upp upplýsingar um fyrirtæki](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

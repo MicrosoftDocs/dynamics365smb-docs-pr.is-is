@@ -1,23 +1,25 @@
 ---
-title: Hvernig á að grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti | Microsoft Docs
-description: Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota RapidStart Services leiðsagnarforritið.
+title: Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti
+description: Hægt er að samskipa nýju fyrirtæki sem stofnað hefur verið með því að nota RapidStart Services skilgreiningarforrit í Viðskiptamiðinu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 03/28/2022
 ms.author: edupont
-ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 189701aef31c5bbdc3323b753667937775d59a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439661"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515798"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota RapidStart Services leiðsagnarforritið.
 
 Í eftirfarandi aðgerð hefur viðskiptamanninum verið veitt grunnstillingarpakki, sem er síðan uppsettur á tölvu. Viðskiptavinurinn opnar nýja fyrirtækið, sem inniheldur engin viðskiptamannagögn. Notandi eða viðskiptamaður fylgir síðan skrefunum í leiðsagnarforriti RapidStart Services sem lýst er í þessu ferli, til að veita grunnupplýsingar um fyrirtækið. Leiðsagnarforritið flytur inn skilgreiningarpakkann og notar svo pakkann á fyrirtækið.  

@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 841e964408750ec60e406262cacd53c2320d3d8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
+ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381686"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512050"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finndu síður og upplýsingar með Viðmótsleit  
 Þetta efnisatriði lýsir því hvernig Viðmótsleit getur hjálpað þér að komast hratt á staði eins og aðgerðir, síður eða skýrslur, finna upplýsingar um hvernig á að ljúka ákveðnu verki og uppgötva önnur forrit og ráðgjafarþjónustur fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -66,7 +66,7 @@ Við höfum sýnt Viðmótsleit frá ýmsum hagsmunaaðilum, bent á spurningarn
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með Business Central](ui-work-product.md)  
+[Vinna með Viðskiptaseðla-](ui-work-product.md)  
 [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)
 
 

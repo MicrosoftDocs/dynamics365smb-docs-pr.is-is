@@ -2,7 +2,6 @@
 title: Breyta hvaða aðgerðir eru sýndar
 description: Kynntu þér hvað notandaupplifunin Grunnur og Úrvals þýða fyrir notandaviðmótið, notkunarsvið og fyrirtækið þitt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7b27d39997e0adccc6b27ec91386741620d27b8
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029115"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521677"
 ---
 # <a name="change-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
 [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að hjálpa stjórnendum að reka fyrirtæki, óháð stærð og margbreytileika þeirra. Varan inniheldur ómissandi eiginleika á borð við fjárhagsskýrslugerð, sölu, kaup og birgðastjórnun. Þegar umsvif fyrirtækis aukast er hægt að kveikja á annarri virkni, t.d. fyrir framleiðslu og þjónustustjórnun.
@@ -65,7 +64,7 @@ Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[prod_short](in
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
 [Stofna ný fyrirtæki](about-new-company.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Leyfishandbók](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

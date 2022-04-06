@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f3781169dcf91eacaa8c0988a49d908f7f947f02
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e76e76fe97f3d4ca5dbe17c5d699cb64bbe5833
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145837"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513019"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Hönnunarupplýsingar: afstemming í fjárhagur
 Þegar birgðafærslur eins og söluafhendingar, framleiðslufrálag eða neikvæðar leiðréttingar eru bókaðar eru magnið og gildisbreytingarnar í birgðunum skráð í birgðafærslunum og virðisfærslurnar, hvort í sínu lagi. Næsta skrefið í ferlinu er að bóka birgðagildin í birgðareikningana í fjárhagnum.  
@@ -122,7 +122,7 @@ Frekari upplýsingar um vensl milli reikningsgerða og mismunandi gerðir virði
 [Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)
 [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Skrá nýja viðskiptamenn með því að stofna viðskiptamannaspjald (inniheldur Video)
 description: Lýsir því hvernig skal stofna viðskiptamannaspjald til að skrá upplýsingar um alla nýja viðskiptamenn eða biðlara sem selt er til.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0e3745351039db7b4e24b8dfa1e31d920878aed0
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
-ms.translationtype: HT
+ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115259"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520127"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 
@@ -88,6 +87,6 @@ Hægt er að velja um það að ekki séu birtar aðvaranir um að lánsfjárupp
 [Stofnun númeraraða](ui-create-number-series.md)  
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

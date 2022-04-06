@@ -10,12 +10,12 @@ metadata:
   ms.search.keywords: phone, tablet
   ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 2511135e9e0aebb3a813c5fede167d10b46f045a
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: 70e9bf530b2b640c42ee346d39ce6d06d5a7cee8
+  ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
   ms.translationtype: MT
   ms.contentlocale: is-IS
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8140320"
+  ms.lasthandoff: 03/31/2022
+  ms.locfileid: "8513472"
 title: Algengar spurningar um farsímaforrit
 summary: "Þessi grein svarar spurningum sem reynslumiklir notendur okkar spyrja oft um varðandi farsímaforritið fyrir [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -83,7 +83,7 @@ sections:
     answer: "Nánast, en ekki alveg. Skoðið listann í hlutanum [Er sama upplifunin í forritunum eins og í vafranum?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  \n"
   - question: >
       Get ég tengt forritið við innanhússlausnina?
-    answer: "Já, þú getur það! Það er örlítið mismunandi leið til að skrá sig inn, það er allt og sumt. Frekari upplýsingar eru í [Notkun Business Central á staðnum?](install-mobile-app.md#using-business-central-on-premises).  \n"
+    answer: "Já, þú getur það! Það er örlítið mismunandi leið til að skrá sig inn, það er allt og sumt. Frekari upplýsingar er að finna [í notkun Viðskiptamiðis innanhúss](install-mobile-app.md#use-business-central-on-premises)?.  \n"
   - question: >
       Getur gestanotandi notað forritið til að opna Business Central-lausnina?
     answer: "Fj. Gestanotendur eru notendur sem annar Azure Active Directory (AD) leigjandi en þinn hefur boðið. Í því tilviki mun forritið auðkenna hjá Azure AD leigjanda gestanotanda og reyna að opna endastöð Business Central í þeim leigjanda í staðinn fyrir þínum.  \n"

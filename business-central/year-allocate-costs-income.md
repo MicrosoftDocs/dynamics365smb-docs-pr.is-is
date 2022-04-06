@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 283, 5629
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f378289f5e6351b431a871110a778b4df8793bb
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 91741eea4d2ba780e7493e6aff256238bd542769
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367099"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511365"
 ---
 # <a name="allocate-costs-and-income"></a>Úthluta kostnaði og tekjum
 
@@ -27,7 +27,7 @@ Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar fær
 Nota má úthlutunareiginleika með ítrekunarfærslubókum og eignabókum.
 <!--You can also distribute the cost or revenue of a line to an intercompany partner when you post a sales or purchase document. When you post the document, a line will be posted in your general journal, and a corresponding line will be created in the intercompany outbox.-->
 
-Eftirfarandi ferli lýsa því hvernig skal búa sig undir það að úthluta kostnaði í ítrekunarfærslubók með því að skilgreina úthlutunarlykla. Þegar úthlutunarlyklar eru skilgreindir, er færslubókin kláruð og bókuð eins og hver önnur ítrekunarfærslubók. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
+Eftirfarandi ferli lýsa því hvernig skal búa sig undir það að úthluta kostnaði í ítrekunarfærslubók með því að skilgreina úthlutunarlykla. Þegar úthlutunarlyklar eru skilgreindir, er færslubókin kláruð og bókuð eins og hver önnur ítrekunarfærslubók. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla
 
@@ -55,9 +55,9 @@ Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga �
 
 ## <a name="see-also"></a>Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)    
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)    
 [Að bóka skjöl og færslubækur](ui-post-documents-journals.md)    
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 9ddd5c303415ea08eea19f0e869efd2b6022c24c
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 46d8b491727f566c9a96640e3dfb40cc0d417f40
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366515"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519252"
 ---
 # <a name="acquire-fixed-assets"></a>Komast yfir eignir
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Afskriftabók þarf að setja upp og tengja hverri eign áður en hægt er að komast yfir hana.
@@ -78,9 +78,9 @@ Ef kaup eru til dæmis bókuð með rangri dagsetningu þarf að leiðrétta han
 > [!IMPORTANT]  
 > Ekki er hægt að nota aðgerðina **Bakfæra viðskipti** fyrir eignarfærslur.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, færa inn **eignafærslur** og velja síðan tengda tengilinn.  
-2. **Á síðunni Eignafærslur** skal velja færsluna eða færslurnar sem á að hætta við.  
-3. Valmyndin **Aðgerðir er** valin og síðan er aðgerðin **Hætta við færslur** valin.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **eignafærslur** og velja síðan tengda tengilinn.  
+2. **Á síðunni eignafærslur** er færslan eða færslurnar sem á að hætta við valdar.  
+3. **Veldu valmyndina aðgerðir** og veldu **síðan aðgerðina Hætta við færslur**.
 4. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 5. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 6. Þegar röng færsla eða færslur eru ógiltir, skal halda áfram og bóka rétt kaupverð.
@@ -104,7 +104,7 @@ Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

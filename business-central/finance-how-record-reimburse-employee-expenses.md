@@ -10,12 +10,12 @@ ms.search.keywords: reimbursement
 ms.search.form: 63, 234, 625, 5224, 5237, 5238, 5239, 5240
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a8f731dd91d69ad7fa74f5755be519d10bc58667
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f02161c813719a00cc3d6935fddc99f0a8335e6d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135420"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515116"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Skrá og endurgreiða starfsmannaútgjöld
 
@@ -36,7 +36,7 @@ Ef starfsmenn eyða sínum eigin peningum í viðskiptaerindum, er hægt að bó
 Útgjöld starfsmanna eru bókuð á síðunni **Færslubók**.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubækur** og velja síðan viðkomandi tengil.  
-2. Viðeigandi færslubók keyrsla er opnaður. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
+2. Viðeigandi færslubók keyrsla er opnaður. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
 3. Fyllið í reitina eftir þörfum í nýrri færslubókarlínu. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]
@@ -52,8 +52,8 @@ Ef starfsmenn eyða sínum eigin peningum í viðskiptaerindum, er hægt að bó
 Þú endurgreiðir starfsmanni með því að bóka greiðslur á bankareikning hans á síðunni **greiðslubók**.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðslubækur** og velja síðan viðkomandi tengil.
-2. Viðeigandi greiðslubók keyrsla er opnaður. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
-3. Fyllið inn í reitina eftir þörfum. Frekari upplýsingar eru í [Greiðslur framkvæmdar](payables-make-payments.md).
+2. Viðeigandi greiðslubók keyrsla er opnaður. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
+3. Fyllið inn reitina eftir þörfum. Frekari upplýsingar eru í [Greiðslur framkvæmdar](payables-make-payments.md).
 4. Að öðrum kosti skal velja **Leggja til starfsmannagreiðslu** aðgerðina til að setja sjálfvirkt inn færslubókarlínu fyrir endurgreiðslu í bið til starfsmanns.
 5. Valið er **bóka** aðgerð til að skrá endurgreiðsluna.  
 
@@ -64,10 +64,10 @@ Ef starfsmenn eyða sínum eigin peningum í viðskiptaerindum, er hægt að bó
 ## <a name="see-also"></a>Sjá einnig
 
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)  
+[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
 [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

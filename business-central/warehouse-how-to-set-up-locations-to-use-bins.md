@@ -2,7 +2,6 @@
 title: Hvernig á að setja upp birgðageymslur til að þær noti hólf
 description: Hólf tákna grunnskipulag vöruhúss og eru notuð til að leggja fram tillögur að staðsetningu og birgðageymslu vöru.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 29ee70ffa50b018073b8f44a66588df3d822b5cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: e2fe316c9f310abe3eb3bc031146445a8ffa7cef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442955"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512023"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Setja upp birgðageymslur til að þær noti hólf
 Hólf tákna grunnvöruhúsauppbyggingu og eru notuð til að gera tillögur að staðsetningu vöru. Þegar hólfin hafa verið stofnuð er hægt að skilgreina nánar hvaða innihald á að setja í hvert hólf eða nota hólfið sem fljótandi hólf án tiltekins innihalds.  
@@ -49,7 +48,7 @@ Ef nota á hólf í birgðageymslu þarf fyrst að virkja aðgerðina á spjaldi
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

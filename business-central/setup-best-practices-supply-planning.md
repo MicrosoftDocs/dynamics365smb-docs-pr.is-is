@@ -2,7 +2,6 @@
 title: Uppsetning bestu venjur - Framboðsáætlun
 description: Þegar birgðaáætlun er sett upp og notuð rétt hjálpar hún fyrirtæki að forðast útskipun og minnka bæði pöntunar- og birgðakostnað.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: cb54a1baee3a6b7fc63a1f9db15bb79cddb0c108
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320032"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516537"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Uppsetning bestu venjur: Framboðsáætlun
 Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett upp og notuð rétt hjálpar hún fyrirtæki að forðast útskipun og minnka bæði pöntunar- og birgðakostnað.  
@@ -34,7 +33,7 @@ Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett up
  [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
  [Hönnunarupplýsingar: Áætlunarfæribreytur](design-details-planning-parameters.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

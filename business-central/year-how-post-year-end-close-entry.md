@@ -7,12 +7,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d426dc74506a244746d8696dc12f80a0ada3a58e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3b1f2bc55ce54153e6ca8f5fb4a3f8ccd0a459c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142699"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519415"
 ---
 # <a name="posting-the-year-end-closing-entry"></a>Lokunarfærsla ársloka bókuð
 
@@ -36,7 +36,7 @@ Eftir að runuvinnslan **Loka rekstrarreikningi** hefur verið notuð til að my
 [Loka fjárhagstímabilum](year-close-account-periods.md)  
 [Bókum lokað](year-close-books.md)  
 [Loka rekstrarreikningi](year-close-income-statement.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

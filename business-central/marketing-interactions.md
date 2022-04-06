@@ -3,7 +3,6 @@ title: Stjórna samskiptum við tengiliði
 description: Hægt er að vinna með hvers kyns samskipti milli fyrirtækisins og tengiliða þess, t.d. bréf, símtöl, fundir og þess háttar.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5082,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6a923884e7ea28def6335f063d04e5fab9365d81
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: ea1460810e24d2e78a7d4791aaaaf8a09a4c056c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059443"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517948"
 ---
 # <a name="record-interactions-with-contacts"></a>Skrá samskipti við tengiliði
 Uppsetning forrits til að skrá samskipti samanstendur af þessum verkum:
@@ -55,7 +54,7 @@ Hægt er að eyða samskiptaskráningarfærslum sem hafa verið afturkallaðar. 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
-[Unnið með Business Central](ui-work-product.md)  
+[Vinna með Viðskiptaseðla-](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

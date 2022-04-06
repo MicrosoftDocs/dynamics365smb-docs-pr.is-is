@@ -2,7 +2,6 @@
 title: Setja upp EIGNAVIÐHALD
 description: Til að stjórna viðgerðum á og þjónustu við eignir, ertu tilteknar almennar upplýsingar um viðhald, kóðar fyrir tegund verks, og bókunarlykil fyrir kostnað.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5600, 5642
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1aefc5d0e1453b2f43b9e72f587c0d9f90d07b4e
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: 05a9348d08a3255b3e2b438a540fc7a84de26b0d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029483"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518182"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Uppsetning eignarviðhalds
 Til að halda utan um viðhald eigna, þarf fyrst að setja upp nokkrar almennar viðhaldsupplýsingar, bókunarlykil viðhaldskostnaðar og viðhaldskóta fyrir tegundir vinnu, svo sem Venjubundin Þjónusta eða Viðgerð.
@@ -48,7 +47,7 @@ Til að bóka viðhaldskostnað, verður fyrst að Færa inn reikningsnúmer á 
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

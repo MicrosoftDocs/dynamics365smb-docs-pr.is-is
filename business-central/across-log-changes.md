@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c04be33b2c84cd89872765a3781ad2c553ced442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0fda7235af0868a87ac4d76afa3f1030cdf83600
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138779"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523242"
 ---
 # <a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
 
@@ -40,8 +40,7 @@ Einnig vegna afkastaástæðna er slökkt á Breytingaskrá meðan á uppfærslu
 > * Notandinn valdi annað fyrirtæki eða hlutverkamiðstöð.
 > * Notandinn skráði sig út og aftur inn.
 
-### <a name="working-with-the-change-log"></a>Vinna með breytingaskrá
-
+### <a name="work-with-the-change-log"></a>Vinna við breytingaskrá
 Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráningu virka eða óvirka. Þegar notandi kveikir eða slekkur á breytingaskrá er þessi verkþáttur skráður til að geta ævinlega séð hvaða notandi kveikti eða slökkti á breytingaskránni.
 
 Á síðunni **Breytingaskrár Uppsetning** ef aðgerðin **Töflur** er valin, skal tilgreina hvaða töflur á að rekja breytingar fyrir og hvaða breytingar á að rekja. [!INCLUDE[prod_short](includes/prod_short.md)] rekur einnig nokkrar kerfistöflur.
@@ -55,8 +54,7 @@ Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráni
 
 Á sumum síðum í [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að skoða aðgerðarkladda sem sýnir stöðu og allar villur úr skrám sem þú flytur út úr eða flytur inn í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="working-with-activity-logs"></a>Vinna með aðgerðakladda
-
+### <a name="work-with-activity-logs"></a>Vinna með Verkþáttarkladda
 Upplýsingarnar eru birtar á síðunni **Aðgerðarkladdi** í samræmi við samhengið sem þær eru opnaðar úr. Til dæmis er hægt að opna síðuna á síðunum **Uppsetning skjalaskiptaþjónustu**, **Skjal á innleið**, **Bókaður sölureikningur** og **Bókaður sölukreditreikningur**. Hægt er að tæma listann yfir kladdafærslur eða hreinsa lista yfir færslur sem eru eldri en sjö daga.  
 
 ## <a name="monitoring-sensitive-fields"></a>Fylgst með viðkvæmum reitum
@@ -82,7 +80,7 @@ Hægt er að stjórna stillingum fyrir reitavöktun, t.d. hvort senda eigi tilky
 > [!NOTE]
 > Þegar búið er að skrá einn eða fleiri rieti og hefja vöktun þarf að skrá sig út úr [!INCLUDE[prod_short](includes/prod_short.md)] og skrá sig inn aftur til að stillingarnar taki gildi.
 
-### <a name="working-with-field-monitoring"></a>Vinna með reitarvöktun
+### <a name="work-with-field-monitoring"></a>Vinna við Svæðsvöktun
 
 Færslur fyrir öll breytt gildi í vöktuðum reitum eru tiltækar á síðunni **Kladdafærslur vaktaðra reita**. Færslur innihalda til að mynda eftirfarandi upplýsingar:
 
@@ -109,7 +107,7 @@ Hægt er að búa til varðveislureglur til að eyða ónauðsynlegum gögnum í
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md)    
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skilgreina varðveislureglur](admin-data-retention-policies.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

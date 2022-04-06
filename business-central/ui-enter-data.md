@@ -1,5 +1,5 @@
 ---
-title: Færa inn gögn í Business Central
+title: Færa inn gögn í Viðskiptamiðinu
 description: Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri hætti og af meiri nákvæmni. Grunnreglum og ítarlegum eiginleikum er lýst hér.
 author: jswymer
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323033"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528549"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 
@@ -23,7 +23,8 @@ Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri
 
 Í dæmunum í þessu efnisatriði er notast við sýnigögn.
 
-## <a name="working-with-editable-fields"></a>Unnið með breytanlegum reitum
+## <a name="work-with-editable-fields"></a>Vinna með breytanleg svæði
+
 Reitirnir í [!INCLUDE[prod_short](includes/prod_short.md)] gætu innihaldið mismunandi breytanleg gögn, eins og texta eða gjaldmiðilsupphæðir. Breytanlegir reitir sýna yfirleitt innsláttarreit þar sem hægt er að slá inn gildi eða velja það. Óbreytanlegir reitir birtast yfirleitt með gráum bakgrunni.   
 
 Sumir breytanlegir reitir bjóða upp á val til að auðvelda þér að tilgreina gildi.  
@@ -57,6 +58,8 @@ Til að breyta gildi reits verður fyrst að velja þann reit. Þú stillir fók
 
 > [!NOTE]
 > Eftir að þú hefur tilgreint gildi mun Business Central aðeins athuga að það sé gilt eftir að þú smellir utan reitsins eða stillir áhersluna á aðra einingu, eins og á næsta reit.  
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
 ## <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -108,9 +111,9 @@ Frekari upplýsingar um sérstillingu er að finna í [Sérstilling verksvæðis
 
  Margir af reitunum eru með örvahnapp niður sem hægt er að velja. Örin er valin til að fá lista yfir gögn sem tiltæk eru til að færa inn í reitinn. Hnappurinn hefur tvær aðgerðir, eftir því hver tegund reitsins er:  
 
--   Uppfletting - Birtir upplýsingar úr annarri töflu sem færa má inn í reitinn. Hægt er að velja eina gagnaeiningu í einu.  
+- Uppfletting - Birtir upplýsingar úr annarri töflu sem færa má inn í reitinn. Hægt er að velja eina gagnaeiningu í einu.  
 
--   Fellival - Birtir safn valkosta sem í boði eru fyrir reitinn. Aðeins er hægt að velja einn kost.  
+- Fellival - Birtir safn valkosta sem í boði eru fyrir reitinn. Aðeins er hægt að velja einn kost.  
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Afrita og líma reiti og línur
 
@@ -160,7 +163,7 @@ Til að opna núverandi spjald eða skjal í nýjum glugga skal velja ![Opna ný
 > Ef unnið er í Safari-vafranum gæti sprettigluggavörn valdið því að nýi glugginn opnist ekki. Ef þetta er tilfellið skal tilgreina vefslóð afurðarinnar sem heimilaða vefsvæði. Frekari upplýsingar er að finna í [Breyta sérstillingum í Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Sama kann að gerast í öðrum vöfrum, svo sem Firefox. Frekari upplýsingar er að finna í [Stillingar sprettigluggavarnar í Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Önnur leið til að gera margt í einu er að opna [!INCLUDE[prod_short](includes/prod_short.md)] í tveimur eða fleiri vafragluggum. Þegar þetta er gert ætti að búa til nýjan flipa og síðan afrita/líma vefslóð upprunalega flipans í nýja flipann. Þetta býr til nýja lotu.   
+Önnur leið til að fjölga verkefnum er að opna [!INCLUDE[prod_short](includes/prod_short.md)] á tveimur eða fleiri flipa vafra. Þegar þetta er gert ætti að búa til nýjan flipa og síðan afrita/líma vefslóð upprunalega flipans í nýja flipann. Þetta býr til nýja lotu.   
 
 > [!NOTE]
 > Ekki skal nota aðgerðina **Tvítekning** í vafranum til að búa til nýjan flipa því að það getur leitt til þess að aðgerðir í einum flipa útiloki aðgerðir í öðrum flipa vegna þess að þeir tilheyra sömu lotunni.
@@ -171,26 +174,26 @@ Til að opna núverandi spjald eða skjal í nýjum glugga skal velja ![Opna ný
 
 ### <a name="examples"></a>Dæmi  
 
--   Ef tölurnar 19+19 eru slegnar inn er niðurstaðan í reitnum 38.  
+- Ef tölurnar 19+19 eru slegnar inn er niðurstaðan í reitnum 38.  
 
--   Ef tölurnar 41-9 eru slegnar inn er niðurstaðan í reitnum 32.  
+- Ef tölurnar 41-9 eru slegnar inn er niðurstaðan í reitnum 32.  
 
--   Ef tölurnar 12*4 eru slegnar inn er niðurstaðan í reitnum 48.  
+- Ef tölurnar 12*4 eru slegnar inn er niðurstaðan í reitnum 48.  
 
--   Ef tölurnar 12/4 eru slegnar inn er niðurstaðan í reitnum 3.  
+- Ef tölurnar 12/4 eru slegnar inn er niðurstaðan í reitnum 3.  
 
 ## <a name="entering-negative-numbers"></a>Neikvæðar tölur er færðar inn
 
 Hægt er að færa inn neikvæðar tölur eftir tveimur leiðum. Númerið -20.5 má færa inn sem:  
 
--   -20.5  
+- -20.5  
 
-    Eða
--   20.5-  
+  Eða
+- 20.5-  
 
- Í báðum tilfellum verður upphæðin skráð í sem -20.5.  
+Í báðum tilfellum verður upphæðin skráð í sem -20.5.  
 
- Ef síðasti stafur segðarinnar er **+** eða **-**, mun öll segðin verða skráð með því formerki. Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.  
+Ef síðasti stafur segðarinnar er **+** eða **-**, mun öll segðin verða skráð með því formerki. Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.  
 
 ## <a name="entering-dates-and-times"></a>Dagsetning og tími færð inn
 
@@ -201,15 +204,18 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 
 ### <a name="entering-dates"></a>Dagsetningar færðar inn
 
-Þú getur annaðhvort notað gagnaval til að velja dagsetningu úr dagbók eða fært inn dagsetningar handvirkt. Þessi hluti veitir stutt yfirlit yfir hvernig skuli slá inn dagsetningar. Frekari upplýsingar er að finna í [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md).
+Þú getur annaðhvort notað gagnaval til að velja dagsetningu úr dagbók eða fært inn dagsetningar handvirkt. Þessi hluti veitir stutt yfirlit yfir hvernig skuli slá inn dagsetningar. Frekari upplýsingar er að finna [í vinnu með Dagatalsdagsetningar og tímasetningar](ui-enter-date-ranges.md).
 
 Fyrir handvirka færslu á dagsetningu er hægt að færa inn tvær, fjórar, sex eða átta tölur:  
 
--   Tveir tölustafir eru túlkaðir sem dagur. Það mun bæta við mánuði og ári vinnudagsetningar.  
+- Tveir tölustafir eru túlkaðir sem dagur. Það mun bæta við mánuði og ári vinnudagsetningar.  
 
--   Fjórir tölustafir eru túlkaðir sem dagur og mánuður. Það mun bæta við ári vinnudagsetningarinnar.  
+- Fjórir tölustafir eru túlkaðir sem dagur og mánuður. Það mun bæta við ári vinnudagsetningarinnar.  
 
--   Ef sú dagsetning sem færa á inn er á bilinu 01/01/1930 til 31/12/2029 skaltu slá inn árið með tveimur tölustöfum. Annars skaltu slá inn ártal með fjórum tölustöfum.  
+- Ef sú dagsetning sem færa á inn er á bilinu 01/01/1950 til 31/12/2049 skaltu slá inn árið með tveimur tölustöfum. Annars skaltu slá inn ártal með fjórum tölustöfum.
+
+  > [!NOTE]
+  > Ef þú ert að nota [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss gæti tveggja stafa ársviðssvið verið annað. Stjórnendur geta breytt sviðinu með því að **Breyta calendartwodigityearmax** stillingu [!INCLUDE[prod_short](includes/prod_short.md)] þjónsins. Fyrir frekari upplýsingar sjá [samskipa Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 Einnig er hægt að færa inn dagsetningu sem vikudag með vikunúmeri. Einnig er hægt að færa inn ártal. Til dæmis þýðir Mán25 eða mán25 mánudagur í viku 25.  
 
@@ -267,14 +273,17 @@ Hér eru nokkur dæmi.
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum
 
-Þegar notaður er skiltáknslykill tugabrots á lyklaborði til að slá inn gögn, er raunverulegt skiltákn tugabrots sem slegið er inn í reitinn ákvarðað af svæðisstillingu Business Central. Þú stillir svæðið í Business Central á síðunni **Mínar stillingar**.
+Þegar aðgreiningarlykill með aukastöfum er notaður á talnaborði til að færa inn gögn eru raunveruleg tugabrot sem færð eru inn í svæðið ákvörðuð af svæðisstillingu þinni í Business Central. Flest svæði nota táknið tímabil (.) eða kommu (,) sem skiltákn fyrir tugagildi eins og vanalega sé í gjaldmiðilsupphæðir. Tugalykillinn á takkanum þínum lagar sig að þínu svæði. Oft er ýmist um að ræða tímabil eða kommu lykla á restinni af lyklaborðinu. Þú stillir svæðið í Business Central á **síðunni mínar stillingar**.
 
-Segjum til að mynda að notað sé talnaborð sem notar punkt (.) sem skiltáknslykil tugabrotsins. En gögn eru slegin inn fyrir svæðistungumál sem notar kommu (**,**) fyrir skiltákn tugabrotsins, eins og í dönsku (Danmörku) eða frönsku (Frakklandi). Þú vilt því að skiltákn eins og „1.23“ sé slegið inn sem „1,23“. Í þessu tilfelli er hægt að fara á síðuna **Mínar stillingar** og stilla **Svæðið** á það svæðistungumál sem á að nota, eins og **Danska (Danmörk)** eða **Franska (Frakkland)**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md#region).
+Segjum til dæmis að þú sért að nota Talnalykil sem notar tímabil (.) sem skilalykil aukastafa. En verið er að færa inn gögn fyrir svæðisbundin tungumál sem notast við kommu (**,**) fyrir aðgreiningu tugabrota eins og franska (Frakkland). Þú vilt því að skiltákn eins og „1.23“ sé slegið inn sem „1,23“. Í þessu tilfelli er hægt að **fara á síðuna stillingar** og stilla **svæðið** á Mark svæðisbundið tungumál til **Frakklands (Frakklands)**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> Það getur verið tilefni þegar nota á aðgreiningu aukastafa til að slá inn tímabil (.). Segjum til dæmis að farið hafi verið inn á dagsetningasvið í síu, eins `01/01/2022..04/01/2022`, eða hvað sem er, ef þarf tímabil. Til að móta þetta mál er ýtt á Skilalykla Alt + aukastafa á talnabykinu. Þessi lyklasamsetning skiptir aðgreiningarskilmerkjum milli útganga tímabils og skilta tugabrota eins og það er **ákvarðað með svæðastillingunni**.
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

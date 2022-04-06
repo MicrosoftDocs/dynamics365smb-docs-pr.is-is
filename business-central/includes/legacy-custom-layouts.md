@@ -1,0 +1,2 @@
+> [!NOTE]
+> Uppsetning sérsniðinnar skýrslu er arfgengur eiginleiki sem verið er að gefa út. Í staðinn skal hafist handa við að búa til notendaskilgreinda skipan eins og lýst [er hér](../ui-get-started-layouts.md).

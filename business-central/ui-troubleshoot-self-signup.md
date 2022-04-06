@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aaf3a30be1c04d1f5f30c157b20a1f10c51170a3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 9cc04e74a680edae64db5edbe13cc9185af043e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145265"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521469"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Úrræðaleit innskráning í sjálfsafgreiðslu
 Innskráning fyrir [!INCLUDE[prod_short](includes/prod_short.md)] er auðvelt og er hægt að gera mjög skjótan hátt. Hægt er að stofna reikning án endurgjalds jafnvel þó að þú sért fyrirtæki sem þegar er til. Þessi grein fjallar um vandamál sem gætu komið upp við innskráningu.
@@ -43,8 +43,10 @@ Til að sjá yfirlit yfir markaði sem nú eru studdir í Dynamics 365 skal sko�
 
 ## <a name="see-also"></a>Sjá einnig
 
+[Skráning í ókeypis Dynamics 365 Business Central prufutíma](trial-signup.md)  
+[Dynamics 365 Business Central prófspurningar ALGENGAR](trial-faq.md)  
 [Velkomin(n) í [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Staðbundin virkni](about-localization.md)  
 [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Alþjóðlegt framboð á Microsoft Dynamics 365](/dynamics365/get-started/availability)  

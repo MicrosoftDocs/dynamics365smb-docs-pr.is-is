@@ -2,7 +2,6 @@
 title: Grunnstilling vöruhúsaferlis
 description: Dreifingaráætlun fyrirtækis endurspeglast í grunnstillingu vöruhúsaferla, t.d. birgðageymslur vöruhússins.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7864b7dcb09d0528f6f0674ae7af3740ab7e5951
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 28c1ff79108f8192695a6faa524b06f409e9058e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973233"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518494"
 ---
 # <a name="setting-up-warehouse-management"></a>Vöruhúsastjórnun sett upp
 
@@ -49,7 +48,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnun samsetningarkerfis](assembly-assemble-items.md)
 [upplýsingar: vöruhúsastjórnun](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

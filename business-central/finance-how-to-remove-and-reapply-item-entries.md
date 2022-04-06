@@ -2,7 +2,6 @@
 title: Fjarlægja og endursetja birgðafærslur
 description: Hægt er að skoða og breyta handvirkt tilteknum birgðajöfnunarfærslum sem eru stofnaðar sjálfkrafa við birgðafærslur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 506, 521, 9125
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ec35c8f618a916661018719b4da05f7e2b43566
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: efe39fd4a4c800050deffc9c137274392f4b7dd0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971017"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515694"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjarlægja og endurjafna birgðabókafærslur
 Á síðunni **Vinnublað jöfnunar** er hægt að skoða og breyta handvirkt tilteknum birgðajöfnunarfærslum sem eru stofnaðar sjálfkrafa við birgðafærslur.  
@@ -80,7 +79,7 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
  [Meðhöndlun innkaupaskila eða afturkallana](purchasing-how-process-purchase-returns-cancellations.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   
  [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

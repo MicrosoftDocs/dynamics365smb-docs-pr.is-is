@@ -2,17 +2,16 @@
 title: Um lokinn framleiðslupantanakostnað
 description: Að ljúka framleiðslupöntun er lykillinn að því að ljúka við kostnaðarferli framleiðsluvöru. Lokakostnaður er reiknaður í runuvinnslunni Leiðr. kostnað - Birgðafærslur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 99000867
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f8e4c6b4a0db47c56650ea91410670d81bae4cef
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 375b6a4a57ae75a2f471db96cee5611736b39f34
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973649"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520439"
 ---
 # <a name="about-finished-production-order-costs"></a>Um lokinn framleiðslupantanakostnað
 
@@ -26,7 +25,7 @@ ms.locfileid: "7973649"
 
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

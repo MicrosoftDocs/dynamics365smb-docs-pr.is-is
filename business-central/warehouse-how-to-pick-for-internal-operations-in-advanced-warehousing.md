@@ -2,7 +2,6 @@
 title: Tína fyrir innri starfsemi með ítarlegum vöruhúsaskilgreiningum
 description: Ef birgðageymslurnar nota tiltekt sem og sendingu skal velja íhluti fyrir framleiðslu og samsetningaraðgerðir á tiltektarsíðu vöruhúss.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: d0e7db8e4aeade9865114769c659075971dd3c8d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445773"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518628"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss
 Í ítarlegri vöruhúsastillingu þar sem birgðageymslan notar tínslu auk afhendingar eru íhlutir tíndir fyrir framleiðslu- og samsetningarverkþætti á síðunni **Vöruhús - Tína**.  
@@ -60,7 +59,7 @@ Ef svæði innri starfsemi, s.s. framleiðsluvinnusalur, er sett upp með sjálf
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

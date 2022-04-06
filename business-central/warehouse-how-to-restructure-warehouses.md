@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 97a8ff2971ca8cc6e34fb89cd5edbb092ac264a8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ccac5101c5b28d81021a7229fe576f4eb7129746
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144282"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513238"
 ---
 # <a name="restructure-warehouses"></a>Endurskipulagning vöruhúsa
 Hugsanlega þarf að endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum. Ekki er ráðist í þess háttar aðgerðir oft en þær aðstæður geta komið upp að endurflokkun sé nauðsynleg til þess að ná fram eða viðhalda skilvirkni. Dæmi:  
@@ -87,7 +87,7 @@ Ef endurnefna á hólf þannig að allar færslur sem tengjast hólfinu séu ein
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

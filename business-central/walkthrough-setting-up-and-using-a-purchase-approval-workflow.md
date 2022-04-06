@@ -9,19 +9,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138181"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520075"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa
 
 Hægt er að gera sjálfvirkt ferli samþykktar á nýjar eða breyttar færslur, t.d. skjöl, færslubókarlínur og spjöld viðskiptamanna með því að stofna verkflæði með skrefum fyrir viðkomandi samþykkjendur. Áður en samþykkisverkflæði eru stofnaðar verður að setja upp samþykkjandi og staðgengill samþykkjanda fyrir hvern notanda samþykktar. Einnig er hægt að stilla upphæðartakmörk samþykkjenda til að skilgreina hvaða sölu- og innkaupafærslur þeir mega samþykkja. Samþykktarbeiðnir og aðrar tilkynningar er hægt að senda sem tölvupóst eða innri athugasemd. Fyrir hverja uppsetningu samþykktarnotanda má einnig setja upp hvenær þeim berast tilkynningar.
 
 > [!NOTE]
-> Til viðbótar við Workflow-virknina innan [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að nota Power Automate til að skilgreina verkflæði fyrir tilvik í [!INCLUDE[prod_short](includes/prod_short.md)]. Hafa skal í huga að þótt þetta séu tvö aðskilin verkflæðiskerfi, þá eru öll Flow-sniðmát sem búin eru til með Power Automate bætt við listann yfir verkflæðissniðmát innan [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md).  
+> Til viðbótar við Workflow-virknina innan [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að nota Power Automate til að skilgreina verkflæði fyrir tilvik í [!INCLUDE[prod_short](includes/prod_short.md)]. Hafa skal í huga að þótt þetta séu tvö aðskilin verkflæðiskerfi, þá eru öll Flow-sniðmát sem búin eru til með Power Automate bætt við listann yfir verkflæðissniðmát innan [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna [í notkun Viðskiptamiðis í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md).  
 
  Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
@@ -92,7 +92,7 @@ Stofna skal samþykktarverkflæði innkaupapöntunar með því að afrita skref
     Síðan **Verkflæði** opnast fyrir nýtt verkflæði sem inniheldur allar upplýsingarnar úr völdu sniðmáti. Við gildið í reitnum **Kóði** er bætt við *-01* til að gefa til kynna að þetta sé fyrsta verkflæðið sem er stofnað úr verkflæðissniðmátinu **Samþykktarverkflæði innkaupapöntunar**.  
 4. Á haus síðunnar **Verkflæði** skal velja gátreitinn **Virkjað**.  
 
-## <a name="using-the-approval-workflow"></a>Að nota samþykktarverkflæði
+## <a name="use-the-approval-workflow"></a>Nota samþykktarverkflæðið
 
 Nota nýja verkflæðið, verkflæði samþykktar fyrir Innkaupapöntun, með því að skrá þig fyrst inn sem Alicia í [!INCLUDE[prod_short](includes/prod_short.md)] til að fara fram á samþykki á innkaupapöntun. Síðan skaltu skrá þig inn sjálf(ur), skoða athugasemdina í hlutverkamiðstöð, fylgja tenglinum á samþykktarbeiðnina og síðan samþykkja beiðni.  
 
@@ -119,7 +119,7 @@ Almenna útgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur n
 
 Þú skilgreinir útfærslur af verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  
 
-Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki eru studd verður Microsoft-samstarfsaðili að virkja þau með kóðanum, en einnig er hægt að setja upp verkflæði með Power Automate. Frekari upplýsingar er að finna í [Notkun [!INCLUDE[prod_short](includes/prod_short.md)] í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md) eða [Tilvik í AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) í hjálp fyrir forritara, eftir því sem við á.
+Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki eru studd verður Microsoft-samstarfsaðili að virkja þau með kóðanum, en einnig er hægt að setja upp verkflæði með Power Automate. Nánari upplýsingar eru [í notkun [!INCLUDE[prod_short](includes/prod_short.md)] í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md) eða [atviki í Al](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) í Hjálp fyrir forritara, eftir því sem við á.
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -128,7 +128,7 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
 [Búa til verkflæði](across-how-to-create-workflows.md)  
 [Nota Samþykktarverkflæði](across-how-use-approval-workflows.md)  
 [Verkflæði](across-workflow.md)  
-[Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)  
+[Nota Viðskiptamiðað í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

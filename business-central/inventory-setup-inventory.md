@@ -2,7 +2,6 @@
 title: Uppsetning birgða
 description: Lýsir því hvernig á að setja upp birgðavinnslur, þar á meðal flutningsleiðir og birgðageymslur á borð við vöruhús.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 30, 461
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 870bcf2e7980ccf5717cbb93ada44087afe95c4d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: 90d0a563fa9be14bcc2aaa5a3dceb4d05bcff840
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059458"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512941"
 ---
 # <a name="setting-up-inventory"></a>Uppsetning birgða
 Áður en hægt er að hefjast handa við að stýra vöruhúsaaðgerðum og birgðakostnaði þarf að grunnstilla reglur og gildi sem ráða birgðareglum fyrirtækisins.
@@ -46,7 +45,7 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 [Stjórnun birgða](inventory-manage-inventory.md)  
 [Stjórnun innkaupa](purchasing-manage-purchasing.md)  
 [Stjórna sölu](sales-manage-sales.md)    
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 

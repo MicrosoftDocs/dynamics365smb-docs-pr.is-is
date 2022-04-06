@@ -2,7 +2,6 @@
 title: Stofna innihald hólfs
 description: Þegar búið er að setja upp hólfin er hægt að tilgreina vörurnar sem á að geyma í þeim og setja upp reglur sem stýra því hversu oft er fyllt á hólfin.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0ce279f17022ad62f3eb00c1713c794d3b5e1d1
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: ef6b031cfb87c74a62da85d0c7073a91e5e176e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970857"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520526"
 ---
 # <a name="create-bin-contents"></a>Stofna innihald hólfs
 
@@ -65,7 +64,7 @@ Ef gátmerki er sett inn í reitinn **Fast** er varan fest við hólfið sem þ�
 [Samsetningardeild](assembly-assemble-items.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Hönnunarupplýsingar uppsetningvöruhúss](design-details-warehouse-setup.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

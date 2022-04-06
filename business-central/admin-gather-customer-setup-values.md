@@ -1,28 +1,29 @@
 ---
 title: Safna uppsetningargildum viðskiptamanns
-description: Spurningalisti grunnstillingar hjálpar til við að draga úr innleiðingu með því að einfalda uppsetningu nýrra fyrirtækja og bjóða viðskiptavinum upp á Excel- eða XML-skrá.
+description: Ef óskað er að nota RapidStart Services það hjálpar spurningalistinn við að draga úr innleiðingunni með því að setja upp ný fyrirtæki og bjóða viðskiptavinum Excel eða XML-skrá.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8610, 8613
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 91c13c5b0fb67befd0c03e2662c545ff8231e6da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145971"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518390"
 ---
-# <a name="gather-customer-setup-values"></a>Safna uppsetningargildum viðskiptamanns
+# <a name="gather-customer-setup-values-with-rapidstart-services"></a>Safna upp uppsetningargildi viðskiptavina með RapidStart Services
 Grunnstillingarspurningalisti er notaður til að draga úr álagi við innleiðingarferli með því að straumlínulaga uppsetningarferlið fyrir nýja fyrirtækið. Hægt er að útbúa grunnstillingarspurningalista í [!INCLUDE[prod_short](includes/prod_short.md)] og senda svo til viðskiptavinar sem Excel .xls-skrá eða XML-skrá.  
 
 Hægt er að breyta öllum sjálfgildum í spurningalista í svo þau svari þörfum viðskiptavinar betur.  
 
 > [!TIP]  
->  Nánari upplýsingar um skilgreiningu uppsetningargilda í reitum framboðsáætlunar eru í [.Setja upp bestu starfsvenjur: Framboðsáætlun](setup-best-practices-supply-planning.md)  
+> Nánari upplýsingar um skilgreiningu uppsetningargilda í reitum framboðsáætlunar eru í [.Setja upp bestu starfsvenjur: Framboðsáætlun](setup-best-practices-supply-planning.md)  
 
 Þegar viðskiptavinur fyllir út spurningalista er skráin flutt inn í nýja [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtæki viðskiptavinarins. Þú og viðskiptavinurinn staðfestið svörin við spurningalistanum áður en þau eru notuð fyrir fyrirtækið.
 

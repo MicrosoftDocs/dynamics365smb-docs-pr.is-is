@@ -1,22 +1,20 @@
 ---
-title: Nauðsynlegir reitir til að klára vinnslur | Microsoft Docs
+title: Reitir sem þarf til að ljúka ferlum
 description: Kynntu þér reiti sem eru merktir með rauðri stjörnu, sem gefur til kynna að þeir eru nauðsynlegir og það verður að fylla þá út til að klára vinnslu.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 386025d90301f780f8bf5927de495658a100825f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: fd114fab64ac6d3f33db2b281d39c9d7a9fc9a1f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775276"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513499"
 ---
 # <a name="detecting-mandatory-fields"></a>Greina áskilda reiti
 Þegar þú slærð inn gögn á síðum í [!INCLUDE[prod_short](includes/prod_short.md)] eru tilteknir reitir merktir með rauðri stjörnu. Rauða stjarnan merkir að fylla verður reitinn út til að ljúka tilteknu ferli sem notar reitinn, eins og að bóka færslu sem notar gildið í reitnum.
@@ -29,7 +27,7 @@ Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fyll
 Á síðunni **Vöruspjald** birtist rauða stjarnan í reitnum **Lýsing** og til að gefa til kynna að ekki er hægt að færa vöruna inn a skjalalínu, eins og sölupöntun, nema reitirnir séu fylltir út.
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

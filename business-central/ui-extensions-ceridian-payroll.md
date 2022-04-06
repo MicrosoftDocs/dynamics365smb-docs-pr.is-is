@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1604bd9cdfd51bcfa35c0417df0d2b300038a5ec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 40dc8fec4ab6fe7c5756eff539c35c18cdc765ba
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138337"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521625"
 ---
 # <a name="the-ceridian-payroll-extension"></a>Ceridian Payroll viðbót
 
@@ -28,7 +28,7 @@ Eftirlitsgreiðslan um Ceridian Payroll gerir þér kleift að flytja inn launat
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum ](ui-extensions.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

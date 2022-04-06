@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7d040289fbcf85b67c32147e56f13797e3bd5447
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382558"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519571"
 ---
 # <a name="the-vat-group-management-extension"></a>Viðbót fyrir stjórnun VSK-hóps
 
@@ -91,7 +91,7 @@ Setjið upp meðlim VSK-hópsins með því að hefja uppsetningarleiðbeiningun
 
   Í Bretlandi yrði skilgreining VSK-skýrslu stillt á að skila VSK til HMRC. Viðbótin fyrir umsjón VSK-hóps afritar þessa uppsetningu, en skiptir út kóðaeiningu innsendingar fyrir aðra sem styður innsendingu til fulltrúa VSK-hópsins frekar en skattayfirvalda. Kóðaeiningin kemur frá Microsoft. Þegar þessu eru lokið skal velja **Áfram**.
 
-## <a name="using-the-vat-group-management-features"></a>Að nota eiginleikann fyrir umsjón VSK-hóps
+## <a name="use-the-vat-group-management-features"></a>Nota Stjórnunaraðgerðirnar VSK-Hópstjórnun
 
 Meðlimir VSK-hóps nota hefðbundin ferli til að ganga frá VSK-skýrslum. Eini munurinn liggur í að velja skýrsluútgáfuna **VATGROUP**, sem sendir VSK-skýrsluna til fulltrúa VSK-hópsins frekar en yfirvalda. Nánari upplýsingar er að finna [um VSK-skilaskýrslu](finance-how-report-vat.md#vatreturn).
 

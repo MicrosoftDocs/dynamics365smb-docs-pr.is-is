@@ -2,7 +2,6 @@
 title: Tína framleiðslu eða samsetningu í einföldu vöruhúsi
 description: Þegar staðsetning vöruhússins krefst tínsluvinnslu en ekki afhendingarvinnslu skal nota Birgðatínslusíðuna til að skipuleggja og skrá tínslu hluta.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: c3827bb8ab272b38972c17d79933ce0aa187e32d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: b7be198a27a5c0a95aacb9c6eca988681d097316
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445798"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515226"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss
 Hátturinn við frágang tínsluíhluta fyrir framleiðslu fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).
@@ -89,7 +88,7 @@ Við blandaðar aðstæður, þar sem fyrst þarf að setja saman hluta magnsins
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

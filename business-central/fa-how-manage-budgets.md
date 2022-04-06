@@ -2,7 +2,6 @@
 title: Stjórna EIGNAÁÆTLUNUM
 description: Til að hjálpa til við undirbúning fjárhagsáætlana og forspáa, eru settar upp upplýsingar um fjárfestingar, afskráningar og afskriftir eigna í framtíðinni.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: de86b4f985eb95ccf51cb9a31fd6f026f74b5f55
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
-ms.translationtype: HT
+ms.openlocfilehash: 1244fa4e0062a5f7b9586eba125fb0fa1a050ee1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029589"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523528"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Umsjón fjárhagsáætlana fyrir eignir
 Hægt er að setja upp áætlaðar eignir. Til dæmis leyfir þetta þér að taka með áætluð kaup og sölu í skýrslum.  
@@ -61,7 +60,7 @@ Keyra má skýrsluna **Eignir - Áætlað virði** til að skoða áætlað afsk
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

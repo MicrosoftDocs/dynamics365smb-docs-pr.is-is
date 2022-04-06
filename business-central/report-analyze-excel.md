@@ -1,31 +1,32 @@
 ---
-title: Greining á skýrslugögnum með Excel
-description: Lærðu að nota Excel til að greina gagnasett í skýrslunni.
+title: Greining á skýrslugögnum með Excel og XML
+description: Lærðu að nota Excel og XML til að greina gagnasett í skýrslunni.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
-ms.openlocfilehash: 60b28db92c6788b67aa1c290df800551515f1be7
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
-ms.translationtype: HT
+ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8104055"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521807"
 ---
-# <a name="analyzing-report-data-with-excel"></a>Greining á skýrslugögnum með Excel
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Greining á skýrslugögnum með Excel og XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-Ef um er að ræða forritara eða ítarnotanda hjálpar það við að skoða gögnin sem mynduð eru fyrir tiltekið skýrslugagnamengi á meðan nýjar skýrslur eru stofnaðar eða þeim breytt. Til að styðja þennan möguleika er hægt að flytja út skýrslugagnasafn sem hrágögn yfir í Excel vinnublað &mdash; beint af síðu skýrslubeiðninnar í biðlaranum. Í Excel er síðan hægt að gera tilfallandi greiningar á gögnum og greina mál.
+Ef um er að ræða forritara eða ítarnotanda hjálpar það við að skoða gögnin sem mynduð eru fyrir tiltekið skýrslugagnamengi á meðan nýjar skýrslur eru stofnaðar eða þeim breytt. Til að styðja þennan möguleika er hægt að flytja út skýrslugagnasafn sem hrágögn í Excel vinnubók eða XML skrá &mdash; beint. Í Excel er t.d. hægt að gera tilfallandi greiningar á gögnum og greina mál.
 
 ## <a name="get-started"></a>Hefjast handa
 
-Til að flytja DataSet skýrslu út í Excel Opnið þið skýrsluna í biðlaranum og á beiðasíðunni Veljið **Senda í** > **Microsoft Excel skjal (aðeins gögn)**. 
+Til að flytja út gagnasafn skýrslunnar í Excel vinnubók eða XML-skrá skaltu opna skýrsluna í biðlaranum og síðan á beiðsíðusíðunni Veldu **Senda í** > **Microsoft Excel skjal (aðeins gögn)** eða **XML skjal**. Skráin verður sótt í tækið þitt.
+
+## <a name="more-about-excel-data-only"></a>Meira um Excel (aðeins í gagnaveri)
 
 **Microsoft Excel Skjal (gagnaeinin)** valmöguleiki flytur út niðurstöður skýrslunnar og viðmiðin sem notuð voru til að mynda þau &mdash; en það felur ekki í sér útlit skýrslunnar. Excel-skráin mun innihalda allt gagnasafnið sem hrágögn, raðað í línur og dálka. Allir gagnadálkar í gagnasafni skýrslunnar eru innifaldir, óháð því hvort þeir eru notaðir í skýrsluútlitinu.
 

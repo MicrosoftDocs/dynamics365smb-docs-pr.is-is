@@ -10,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed0cf9383ed635e3f7b940ef4f28943ffb6bc1a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149050"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518104"
 ---
 # <a name="select-a-check-layout"></a>Velja útlit ávísunar
 
@@ -40,8 +40,7 @@ Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadísk
 
 Til að breyta einum af þessum sjálfgefnu útlitum ávísunar skal annaðhvort nota Word- eða RDLC-samþættingu. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).
 
-## <a name="using-micr-and-security-fonts"></a>Nota MICR og öryggisletur
-
+## <a name="use-micr-and-security-fonts"></a>Nota MICR og Öryggisletur
 Netútgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur foruppsettar leturgerðir á netþjónum sem hægt er að nota þegar útlit ávísana er skilgreint. Eftirfarandi lýsir því hvaða leturgerðir eru í boði og inniheldur tengla á ítarlegar upplýsingar þriðju aðila í leturgerðum.
 
 > [!Important]
@@ -100,7 +99,7 @@ Leturgerðir í öðrum tilgangi má einnig finna í [!INCLUDE[prod_short](inclu
 [Stjórna skuldum](payables-manage-payables.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)   
 [Að klára Ferli í lok tímabila](year-how-complete-period-end-processes.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 

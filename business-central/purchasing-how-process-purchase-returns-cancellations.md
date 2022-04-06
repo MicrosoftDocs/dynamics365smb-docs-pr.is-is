@@ -1,5 +1,5 @@
 ---
-title: Vinna úr skilum eða ógildingum
+title: Framkvæmd aftur eða ógildingar
 description: Útskýrir hvernig á að stofna og bóka innkaupakreditreikning þegar þú vilt skila vörum til lánardrottins eða afturkalla keypta þjónustu.
 author: SorenGP
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b59271a3c1bf1558b7a4584ac3088b33ea0ee34
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 643a0206bb5c84cb1530e24403094474d98f28f9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382418"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517317"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Meðhöndlun innkaupaskila eða afturkallana
 
@@ -193,7 +193,7 @@ Ef skila á vörum sem eru í mismunandi innkaupapöntunum til eins lánardrotti
 [Innkaup](purchasing-manage-purchasing.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)  
 [Leiðrétta eða afturkalla ógreidda innkaupareikninga](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md)  
 
 

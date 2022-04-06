@@ -2,7 +2,6 @@
 title: Skoðun og breytingar í Excel frá Viðskiptamiðinu (inniheldur Video)
 description: Lærðu hvernig hægt er að opna síðurnar í Microsoft Excel frá Business Central til að fá betri gagnagreiningar.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7800eb9d9852e8cc13eed26ce3e42fa318f7e185
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
+ms.openlocfilehash: f03e67b0205af92fcdbb731a74ffe7f4507c39d3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940252"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511260"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Skoða og breyta í Excel From Business Central
 
@@ -81,7 +80,7 @@ Ef uppsetning innbótarinnar gengur ekki af einhverjum ástæðum skaltu hafa sa
 ## <a name="see-also"></a>Sjá einnig
 
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
-[Unnið með Business Central](ui-work-product.md)  
+[Vinna með Viðskiptaseðla-](ui-work-product.md)  
 [Endurbætur á Excel-samþættingu í 2019 útgáfu 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 
 

@@ -1,10 +1,9 @@
 ---
-title: Setja upp æskilegar aðferðir við sendingu söluskjala (inniheldur myndskeið) | Microsoft-skjala
+title: Setja upp æskilega aðferð við að senda söluskjöl (inniheldur Video) | Microsoft docs
 description: Lýsir því hvernig setja skal upp aðferðir við að senda söluskjöl samkvæmt óskum viðskiptamanna, t.d. tölvupóstur, PDF, rafræn skjöl osfrv.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 676ac7ac1fb9f267221acc50e5b5f812b8460250
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
+ms.openlocfilehash: 38072f85f88e5c5ae64f6ceb30e9585a8abe7841
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7939878"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519044"
 ---
 # <a name="set-up-document-sending-profiles"></a>Setja upp sendisnið skjala
 Hægt er að setja upp hvern viðskiptavin með valinni aðferð við að senda söluskjöl til að þurfa ekki að velja sendingarvalkost í hvert skipti sem aðgerðin **Bóka og senda** er valin.
@@ -42,7 +41,7 @@ Hægt er að setja upp hvern viðskiptavin með valinni aðferð við að senda 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

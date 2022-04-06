@@ -2,7 +2,6 @@
 title: Greiðsluvikmörk og greiðsluafsláttarvikmörk
 description: Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: fa9e4abb37788b7aa8261ab0a5a705edef27e3c4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: f9cd8d837d94e9f90e48f84d4209bc3427d0b922
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972487"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523398"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
 Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum. Til dæmis eru greiðsluvikmörk yfirleitt fyrir litlar upphæðir sem myndi kosta meira að leiðrétta en að samþykkja. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
@@ -262,7 +261,7 @@ Venjulegar jöfnunarreglur
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

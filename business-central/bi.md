@@ -1,28 +1,26 @@
 ---
 title: Viðskiptaupplýsingar
 description: Business Central inniheldur ýmsa eiginleika sem hjálpa þér að safna saman, greina og deila mikilvægum gögnum fyrirtækisins fyrir viðskiptaupplýsingar og ákvarðantöku.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: be92e23a1dece6225a0700dc4fb3b718481367cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323744"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523138"
 ---
 # <a name="business-intelligence"></a>Viðskiptaupplýsingar
 Fyrirtæki safna saman gríðarlegu magni gagna á hverjum degi. Slík gögn er varða atriði eins og sölutölur, innkaup, rekstrarkostnað, laun starfsmanna og fjárhagsáætlun, eru verðmætar upplýsingar eða viðskiptaupplýsingar fyrir þá sem taka ákvarðanir innan fyrirtækja. [!INCLUDE[prod_short](includes/prod_short.md)] býður ýmsar aðgerðir til að aðstoða fyrirtæki við að safna saman, meta og deila gögnum fyrirtækisins.
 
-Virkni víddarinnar gegnir mikilvægu hlutverki í viðskiptaupplýsingum. Vídd samsvarar gögnum sem þú getur bætt við færslu sem nokkurs konar leiðarmerki. Þessi gögn eru notuð til að flokka saman færslur með svipuð einkenni, eins og viðskiptamenn, svæði, vörur og sölumenn og sækja þessa hópa á auðveldan hátt til greiningar. Víddir er meðal annars hægt að nota þegar skilgreina á greiningaryfirlit og þegar búa á til fjárhagsskemu fyrir skýrslugjöf. Frekari upplýsingar er að finna í [Unnið með víddir](finance-dimensions.md).
+Virkni víddarinnar gegnir mikilvægu hlutverki í viðskiptaupplýsingum. Vídd samsvarar gögnum sem þú getur bætt við færslu sem nokkurs konar leiðarmerki. Þessi gögn eru notuð til að flokka saman færslur með svipuð einkenni, eins og viðskiptamenn, svæði, vörur og sölumenn og sækja þessa hópa á auðveldan hátt til greiningar. Víddir er meðal annars hægt að nota þegar skilgreina á greiningaryfirlit og þegar búa á til fjárhagsskemu fyrir skýrslugjöf. Sjá [vinnu með víddir fyrir frekari upplýsingar](finance-dimensions.md).
 
 > [!TIP]
 > Hægt er að greina færslugögn út frá víddum á skjótan hátt með því að afmarka samtölur á bókhaldslyklum og færslum á öllum **Færslur** síður út frá víddum. Leitaðu að aðgerðinni **Stilla víddarafmörkun**.  
@@ -41,10 +39,10 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)    
-[Nota Business Central sem Power BI gagnaveita](across-how-use-financials-data-source-powerbi.md)  
+[Nota Viðskiptamiðlæga sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
 [Lokun fjárhagstímabila](year-close-years-periods.md)  
 [Flytja inn gögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

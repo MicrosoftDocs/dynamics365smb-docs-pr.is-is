@@ -2,20 +2,20 @@
 title: Greina raunverulegar og áætlaðar upphæðir
 description: Í þessu efnisatriði er lýst hvernig eigi að greina raunverulegar upphæðir samanborið við upphæðir fjárhagsáætlunar sem leið til að safna, greina og deila gögnum fyrirtækisins.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 120, 121, 422
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2bbdce7c34160ffc1eefc7e398574db8b642b657
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
-ms.translationtype: HT
+ms.openlocfilehash: e21454f52564d4c679cd20171189b0dc14bfe49f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688279"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523038"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Greina raunverulegar og áætlaðar upphæðir
 Hluti af því að safna saman, greina og deila upplýsingum fyrirtækis, er að skoða raunverulegar upphæðir í samanburði við áætlaðar upphæðir fyrir alla reikninga og nokkur tímabil.
@@ -70,7 +70,7 @@ Bókhaldslykillinn er í dálkunum til vinstri. Af dálkunum fimm lengst til hæ
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

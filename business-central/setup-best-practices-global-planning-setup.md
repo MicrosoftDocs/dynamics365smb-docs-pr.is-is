@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0220502f0c338ead004f5ed7ce704508a780a9f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a611abd26fd643e75d01aeaefb22a4d0083d5003
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146151"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510637"
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Uppsetning bestu venjur: Uppsetning altækra áætlanna
 Flýtiflipinn **Áætlun** á síðunni **Framleiðslugrunnur** inniheldur nokkra reiti sem skilgreina altækar reglur fyrir framboðsáætlun.  
@@ -33,7 +33,7 @@ Flýtiflipinn **Áætlun** á síðunni **Framleiðslugrunnur** inniheldur nokkr
  [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)   
  [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f855080c2e26e7d7ddf4a012164ec91477387e2f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: cd715ac63f9ce7068d5b02fce21e294b7a2231cf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381141"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511494"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>QuickBooks-viðbótin fyrir innflutning á launaskrá
 Notaðu QuickBooks-viðbótin fyrir innflutning á launaskrá til að flytja inn launafærslur úr QuickBooks til fjárhagslykla í [!INCLUDE[prod_short](includes/prod_short.md)]. Til dæmis er þetta gagnlegt þegar þú ert að skipta frá QuickBooks í [!INCLUDE[prod_short](includes/prod_short.md)] eða ef þú útvistar launaskrána þína en vilt líka halda utan um það í [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -29,7 +29,7 @@ Frekari upplýsingar er að finna í [innflutningur launafærsla](finance-how-im
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum ](ui-extensions.md)    
 [Fjármál](finance.md)    
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

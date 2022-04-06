@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 89c6f60e2c68866babb7efd2762766f957325a6a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c58d361a9b3d9732d4e29b4fea70e9f101c5e71f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137602"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520205"
 ---
 # <a name="set-up-standard-routing-lines"></a>Setja upp staðlaðar leiðarlínur
 
@@ -44,7 +44,7 @@ Notkun staðalverka einfaldar gerð og viðhald leiða. Gera þér kleift að b�
 [Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

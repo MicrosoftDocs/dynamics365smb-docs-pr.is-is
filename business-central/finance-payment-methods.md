@@ -1,5 +1,5 @@
 ---
-title: Setja upp greiðslumáta (inniheldur myndskeið)
+title: Setja upp greiðsluaðferðir (inniheldur Video)
 description: Greiðsluhættir eru notaðir, til dæmis ávísun, bankamillifærsla, reiðufé eða PayPal, til að tilgreina hvernig sölu- og innkaupareikningar verða greiddir.
 author: brentholtorf
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d3748e39dc75a8fb3fcda690d02f5bc1cb4484ce
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: abe1d874658c393b0d9795c1710e642b4e33add0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383190"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512959"
 ---
 # <a name="set-up-payment-methods"></a>Setja upp greiðsluhætti
 
@@ -48,7 +48,7 @@ Kreditreikningar vegna skila eru þó undantekningar vegna þess að peningar fl
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  
 [Setja upp greiðsluskilmála](finance-payment-terms.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

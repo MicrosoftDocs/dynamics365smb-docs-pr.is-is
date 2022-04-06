@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3a6d6b680ebfb89c376872d2dcd5cb6fb535d4a3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383296"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523606"
 ---
 # <a name="set-up-prices-and-discounts"></a>Setja upp verð og afslætti
 > [!NOTE]
@@ -99,7 +99,7 @@ Til að yfirfara verðlista og verð sem gilda fyrir tiltekna viðskiptamenn eð
 
 ---
 
-## <a name="working-with-invoice-discounts-and-service-charges"></a>Unnið með afslætti Sölureiknings og Þjónustugjöld
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Vinna með reikningsafslátt og þjónustugjöld
 Þegar reikningsafslættir eru notaðir fer afslátturinn sem er veittur eftir því hve reikningsupphæðin er há. Á síðunni **Reikningsafsláttur** er einnig hægt að leggja þjónustugjald á reikninga sem eru yfir tiltekinni upphæð.  <!--The Invoice Discounts page is hard to find.-->
 
 Áður en hægt er að veita reikningsafslátt af sölu þarf að færa tilteknar upplýsingar í forritið. Þú verður að ákveða hvaða viðskiptamenn fá þessa gerð afsláttar og afsláttarprósenturnar sem þú munt nota.  
@@ -198,4 +198,4 @@ Til að uppfæra verð fyrir margar vörur þarf að búa til nýjam verðlista 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

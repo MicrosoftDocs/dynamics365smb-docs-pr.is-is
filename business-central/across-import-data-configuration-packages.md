@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c6dc9d386bde8e4f8496f086141589ea4c89c73
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2918b554cf578baa0636f0a18bbbbf2fc8a4692
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136453"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516474"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Innflutningur viðskiptagagna úr öðrum fjárhagskerfum
 
@@ -40,7 +40,7 @@ Til að flytja inn myndir af vörum er hægt að nota þar til gerða aðgerð �
 > [!NOTE]  
 >   Vinna með stillingarpakka er ítarleg virkni og við mælum með að þú hafir samband við kerfisstjórann þinn. Nánari upplýsingar eru í [Gögn flutt inn úr eldri bókhaldshugbúnaði með því að nota grunnstillingarpakka](across-import-data-configuration-packages.md).
 
-## <a name="working-with-data-in-excel"></a>Unnið með gögn í Excel
+## <a name="work-with-data-in-excel"></a>Vinna með gögn í Excel
 Þegar sjálfgefinn grunnstillingarpakki er fluttur út í Excel inniheldur vinnubókin sem búin er til vinnublað fyrir hverja töflu í pakkanum. Til að einfalda verk er hægt að nýta XML-meðhöndlunarverkfærin sem byggð eru inn í Excel. Einnig er hægt að nota Excel innbyggðar aðgerðir til aðstoða við gagnsnið og að setja gögn í réttan flokk. Til dæmis, bætið við auðu vinnublaði og afritið eldri gögnin á það. Búið því næst til Excel-formúlu til að varpa gögnum í umbreytingarvinnublaðinu á milli reitanna í útflutta vinnublaðinu og eldri gögnum viðskiptamanns. Þegar búið er að varpa öllum gögnum, skal afrita afmörkun gagnanna á töflu á vinnublaðinu.  
 
 > [!IMPORTANT]  

@@ -6,17 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
-ms.translationtype: HT
+ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323059"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516511"
 ---
-# <a name="working-with-prod_short"></a>Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-prod_short"></a>Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.
 
@@ -43,7 +43,7 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, ví
 | Afmarka gögn í yfirlitum, skýrslum eða aðgerðum með því að nota sérstök tákn og stafi. |[Röðun, leit og síun í listum](ui-enter-criteria-filters.md) |
 |Kynntu þér hinar ýmsu almennu aðgerðir sem hjálpa þér að færa gögn inn fljótt og örugglega.|[Gagnainnfærsla](ui-enter-data.md)|
 |Kynntu þér hvernig á að afrita og líma göng með því að nota flýtilykla.|[Algengar spurningar um það að afrita og líma](faq-copy-paste.yml)|
-| Skoða eða vinna úr gögnum á tilteknu dagsetningabili. |[Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md) |
+| Skoða eða vinna úr gögnum á tilteknu dagsetningabili. |[Vinna með dagsetningar og tímasetningar dagatals](ui-enter-date-ranges.md) |
 | Sjá hvaða reiti verður að fylla út. |[Greina áskilda reiti](ui-mandatory-fields.md) |
 |Skilja hvernig staðsetning tölvunnar hefur áhrif á notendaviðmótið og hjálparsíðuna og hvernig á að breyta tungumálinu.|[Breyta tungumáli og landsstaðli](about-locale-language.md)|
 |Kynntu þér hvernig á að hafa samskipti við Excel nánast hvaðan sem er í [!INCLUDE[prod_short](includes/prod_short.md)]|[Skoða og breyta í Excel](across-work-with-excel.md)|
@@ -51,7 +51,7 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, ví
 | Breyta grundvallarstillingum eins og fyrirtæki, vinnudagsetningu og Mitt hlutverk. |[Grunnstillingum breytt](ui-change-basic-settings.md) |
 |Fáðu tilkynningu um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu.|[Stjórna tilkynningum](ui-smart-notifications.md)|
 | Breyta hvaða viðmótseiningar birtast og hvar eftir þörfum.|[Sérstilling verksvæðis](ui-personalization-user.md) |
-|Skilgreina, forskoða, prenta eða vista skýrslur og skilgreina og keyra runuvinnslur.|[Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)|
+|Skilgreina, forskoða, prenta eða vista skýrslur og skilgreina og keyra runuvinnslur.|[Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)|
 | Stjórna efni og sniði skýrslna og skjala, þ.m.t. hvaða gagnareitir gagnasafns skýrslu birtast í henni, stöðu þeirra, textastíl, myndir og meira.|[Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md) |
 |Fræðast um eiginleika og nothæfni [!INCLUDE[prod_short](includes/prod_short.md)] sem auðveldar aðgengi fatlaðra.|[Aðgengi og Flýtivísanir](ui-accessibility.md)|
 

@@ -2,7 +2,6 @@
 title: Vinna með skjöl á innleið| Microsoft Docs
 description: Hægt er að stjórna ytri viðskiptaskjölum á innleið, eins og greiðslukvittunum og PDF skrám, stjórna OCR verkum, og umbreyta skrám yfir í rafræn skjöl og færslur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e02cd4627219c7ea439155b2b91b61e03534dc2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
+ms.openlocfilehash: 4fa3b78aec171e4ffabede85245beb83b47f5f4a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788484"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523632"
 ---
 # <a name="incoming-documents"></a>Skjöl á innleið
 
@@ -48,7 +47,7 @@ Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 ## <a name="see-also"></a>Sjá einnig
 
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Bakfæra frálagsbókun
 description: Stundum verður að bakfæra frálagsbókun. Þetta efnisatriði lýsir ferlinu við að bakfæra bókun úttaks.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 43704140bf7dec64fdc38b073c722f79a15df4a6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 5a9fd8a1d4ac379c2c20d832f8cace206e549375
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970351"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516032"
 ---
 # <a name="reverse-output-posting"></a>Bakfæra frálagsbókun
 
@@ -36,7 +35,7 @@ Færslurnar í Frálagsbókinni eru bókaðar í vörubókina sem jákvæð lei�
  [Áætlun](production-planning.md)  
  [Birgðir](inventory-manage-inventory.md)  
  [Innkaup](purchasing-manage-purchasing.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

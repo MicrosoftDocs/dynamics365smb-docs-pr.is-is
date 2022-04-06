@@ -2,7 +2,6 @@
 title: Enduráætla eða uppfæra framleiðslupantanir beint
 description: Þetta efnisatriði sýnir ferlin við að enduráætla framleiðslupantanir og uppfæra framleiðslupantanir á beinan hátt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3cb90e09c5e4d23259dcaba23907bdaac7308c08
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 3554fc674732c68e47bfd28c033534d1686e1421
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971328"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515382"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Enduráætla eða uppfæra framleiðslupantanir beint
 
@@ -96,7 +95,7 @@ Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breyt
 [Innkaup](purchasing-manage-purchasing.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

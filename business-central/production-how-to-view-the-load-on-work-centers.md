@@ -2,7 +2,6 @@
 title: Skoða álag á vinnu- og vélastöðvar
 description: Á vinnustöðvarspjaldinu er hægt að skoða álagið á vinnustöðvunum í kjölfar útgefinna framleiðslupantana.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8553a09ec962a4cb88e406a1f569f33e6047d8ce
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 5e1963bb8978e67b98ff3e85d09e6294e084034b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972987"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515330"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Skoða álag á vinnu- og vélastöðvar
 
@@ -34,7 +33,7 @@ Reitirnir **Skoða eftir** og **Skoða sem** eru valdir í flýtiflipanum **Valk
 [Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

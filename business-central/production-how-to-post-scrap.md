@@ -2,7 +2,6 @@
 title: Bóka úrkast handvirkt
 description: Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í afkastabókina. Bent er á að úrkastsmagnið eykur ekki afkastamagnið.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000823
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d8fb54126741126e2316be39ccec94ad0cac0c4d
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: d28439357d179e41dfacbaa8504dc0a7fa98230e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970482"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516693"
 ---
 # <a name="post-scrap-manually"></a>Bóka úrkast handvirkt
 
@@ -39,7 +38,7 @@ Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í af
 [Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

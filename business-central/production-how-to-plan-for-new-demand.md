@@ -2,7 +2,6 @@
 title: Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun
 description: Þessa áætlanagerð er hægt að framkvæma á síðunni Pantanaáætlun sem birtir alla nýja eftirspurn auk upplýsinga um ráðstöfunarmagn og tillögum um framboð, þar á meðal staðgengilsvara.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5522, 5524, 5526
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2f8d31513984ced422d4bedae9c70cac703fd775
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: e95bc34c56364ebb12c63c250339f1de868b8a32
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972331"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516771"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun
 
@@ -125,7 +124,7 @@ Nú hefur verið áætlað fyrir óuppfylltri eftirspurn með því að gera vi�
 [Innkaup](purchasing-manage-purchasing.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)  
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skrá nýjar vörur](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

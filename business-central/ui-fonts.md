@@ -1,21 +1,21 @@
 ---
 title: Tiltækar leturgerðir
-description: Fræðast um fyrirfram uppsettar leturgerðir sem hægt er að nota fyrir skýrslur sem snúa utanaðkomandi.
+description: Fræðast um foruppsettar leturgerðir sem hægt er að nota fyrir andlits-og andlitstilkynningar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
-ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
-ms.translationtype: HT
+ms.openlocfilehash: 9183d86bcdc82c8a630fd5f58c58277c425219d0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7868302"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512811"
 ---
 # <a name="available-fonts"></a>Tiltækar leturgerðir
 
@@ -28,16 +28,7 @@ Netútgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur forupp
 
 Eftirfarandi leturgerðir eru settar upp og hægt að nota í Word og RDLC skýrslum:
 
-* Arial
-* Consolas
-* Courier New
-* Lucida Console
-* Segoe Print
-* Segoe Script
-* Segoe notendaviðmót
-* Segoe HÍ ljós
-* Segoe undankeppni HÍ
-* Times New Roman
+Angsana New, Angoaupc, Arial, Arial Black, Bahnschrift, Bahnschrift condensed, Bahnschrift Light, sedensed, Bahnschrift semlight, Bahnschrift semlight condensed, Bahnschrift ljós, Barskíi Light condenssed, Bahnjúkirift-Undanbands, Barkkschrift semsagt, bahnschrift Undanboltsed, Cambria stærðfræði, candara, Candara Light, TEIKNIMYNDASANS MS, Bahnschrift Semilight SemiConde, Batang, BatangChe, Browallia nýtt, BrowalliaUPC, Calibri, Calibri Light Huggun, Constanda, (Corbel, Corbel Light, Cordia nýa, CordiaUPC, the Sónsýra), New, DilleniaUPC, DotumChe, E-13B, Ebrima, EucrosiaUPC, Franklín Gautaic Medium, FreesiaUPC, Gabriola, Gadugi, Georgía, GulimChe, Gungsuh, GungsuhChe, IMPACT, Ink Free, IrisUPC, Jashverupc, Javanese Text, Khmer HÍ, KodchiangUPC, Latha, Leelawaeinleikari, Leelawadee HÍ, Leelawadee UI Málljós, LilyUPC, Lucida Stjórnborð, Lucida Sans Unicode, Malgun Gothic, Malgun Gotneska Semilight, Marlett, MICR, Microsoft Himalaya, Microsoft JhengHei, Microsoft JhengHei Light, Microsoft Jhengheei UI, Microsoft JhengHei HÍ Light, Microsoft nýtt Tai lue,,, Microsoft yahei, MS Pgotneic, MS UI Gotneska, MV boli, Microsoft PhagsPa, Microsoft Sans Serif, Microsoft Tai Le, Microsoft yahei, Microsoft Yahei Light, Microsoft VALLAHEIM HÍ, Microsoft YAHEI HÍ Light, Netto Baiti, mingliu, mingliu-ExtB, MingLiU_HKSCS, MingLiU_HKSCS-extb, Mongolian Baiti, Myanmar Text, Nirmala HÍ, Nirmala UI Málljós, Nsimsól, OCRB, Palatino Linotype, PMingLiU, PMingLiU-ExtB, Segoe MDL2, Segoe prent, Segoe handrit, Segoe UI, Segoe UI Black, Segoe UI emoji, Segoe UI sagnfræði, Segoe UI Light, Segoe UI semsagt, Segoe UI Semilight, Segoe UI Symbol, Shonar Bangla, simsól, Simsun-Extb, sitka Bannja, Sitka Display, Sitka fyrirsögn, sitka Small, Sitka Undirfyrirsögn, Sitka texta, sylfaen, tákn, Tahoma, Yu Gothic a, Yu gotneic UI, Yu gotneic UI ljós, Yu Gothic HÍ semsagt, Yu gauta New Roman, Trebuchet MS, Verdana, Vijaya, Vefdings, Wingdings, Yu Gotneic, Yu Gothic
 
 ## <a name="fonts-for-checks"></a>Leturgerðir fyrir ávísanir
 
@@ -48,9 +39,9 @@ Auk MICR-leturgerða eru sérstakar öryggisleturgerðir í boði til að búa t
 Frekari upplýsingar er að finna í [Velja útlit ávísunar](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Leturgerðir fyrir strikamerki
-Leturgerðir til að búa til strikamerki eru settar upp og tiltækar til notkunar bæði í Word- og RDLC-skýrsluútliti.
+Letur til að mynda strikamerki eru uppsett og tiltæk til notkunar í bæði Word og RDLC-skýrslu.
 
-Eftirfarandi eins víddar strikamerkistákn eru studd:
+Eftirtalin táknmynd strikamera er studd:
 * Kóði 3 af 9 (Kóði 39)
 * Kóði 128
 * Kóði 93
@@ -58,8 +49,8 @@ Eftirfarandi eins víddar strikamerkistákn eru studd:
 * MSI
 * 2 af 5 fléttuð
 
-Eftirfarandi tvívíð strikamerki eru studd:
-* Heiðrún
+Eftirfarandi tveir vídda táknmynd eru studd:
+* Aztec
 * Gagnafylki
 * Maxicode
 * PDF417
@@ -71,7 +62,7 @@ Frekari upplýsingar er að finna í [Letur strikamerkis í Business Central Onl
 
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Velja útlit ávísunar](finance-how-define-check-layouts.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-[Letur strikamerkis í Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[strikamerkósum með viðskiptum miðsvæðis á netinu](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

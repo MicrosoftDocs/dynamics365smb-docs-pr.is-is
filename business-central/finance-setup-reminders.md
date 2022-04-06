@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9456123c29b26c964acf974163ca31daa1e1b7c1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132837"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523372"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Setja upp skilmála og stig innheimtubréfa
 
@@ -94,7 +94,7 @@ Ef stofnaðar eru fleiri áminningar en skilgreind hafa verið stig fyrir verða
     Til dæmis, ef þú skrifar **Þú skuldar %9 %7 á gjalddaga %2.** mun innheimtubréfið innihalda eftirfarandi texta: **Þú skuldar 1.200,50 USD á gjalddaga 02-02-2014.**.
 
     > [!NOTE]
-    > Gjalddaginn er reiknaður samkvæmt dagsetningarreiknireglunni sem var slegin inn. Frekari upplýsingar er að finna í [Að nota dagsetningarreiknireglur](ui-enter-date-ranges.md#using-date-formulas).
+    > Gjalddaginn er reiknaður samkvæmt dagsetningarreiknireglunni sem var slegin inn. Sjá [Use Dagsetningarformúlur fyrir frekari upplýsingar](ui-enter-date-ranges.md#use-date-formulas).
 
 Þegar búið er að setja upp áminningarskilmálana með viðbótarstigum og texta þarf að færa einn kóðann á hvert viðskiptamannaspjald. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).  
 

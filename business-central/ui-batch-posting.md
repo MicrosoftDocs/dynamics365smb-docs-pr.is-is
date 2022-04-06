@@ -10,12 +10,12 @@ ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 024588a5fcb565935a47f63a73b7287879c0db8c
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 357a4a8d1eba62c3619439558cf81a5fc19f0963
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334957"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515980"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bóka mörg skjöl samtímis
 
@@ -130,7 +130,7 @@ Sem stjórnandi getur þú notað [Application Insights](/azure/azure-monitor/ap
 [Breyta bókuðum skjölum](across-edit-posted-document.md)  
 [Leiðrétta eða afturkalla ógreidda innkaupareikninga](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Unnið með Power BI Skýrslur í Business Central| Microsoft Docs
 description: Fáðu innsýn, viðskiptaupplýsingar og afkastavísi (KPI) úr Business Central gögnum með Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dbe5b2b5fd623d37f144a07b6570f6ee0714f9b9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588327"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510923"
 ---
-# <a name="working-with-power-bi-reports-in-prod_short"></a>Unnið með Power BI Skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-prod_short"></a>Vinna með Power BI skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Í þessari grein lærir þú nokkur grunnatriði við að skoða Power BI -skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -66,7 +65,7 @@ Tenging við Power BI frá [!INCLUDE [prod_short](includes/prod_short.md)] er sv
 
 Eftir tengingu er hægt að velja skýrslu úr Power BI-hlutanum á síðum.
 
-## <a name="working-with-power-bi-reports"></a>Unnið með Power BI skýrslur
+## <a name="work-with-power-bi-reports"></a>Vinna með Power BI skýrslur
 
 ### <a name="show-reports-on-list-pages"></a>Sýna skýrslur á listasíðum
 
@@ -110,7 +109,7 @@ Til að hlaða upp skýrslu skaltu velja aðgerðina **Hlaða upp skýrslu** úr
 Þegar skýrslunni hefur verið hlaðið upp á Power BI-vinnusvæðið þitt hleðst hún sjálfkrafa upp á Power BI-vinnusvæði annarra.
 
 > [!NOTE]
-> Til að hlaða upp skrá þarftu að vera með SUPER aðgangsheimildir í [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig er ekki hægt að hlaða upp skýrslum með [!INCLUDE [prod_short](includes/prod_short.md)] innanhúss. Á staðnum hleðurðu skýrslum beint á Power BI vinnusvæðið þitt. Frekari upplýsingar er að finna í [Unnið með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI](across-working-with-business-central-in-powerbi.md).
+> Til að hlaða upp skrá þarftu að vera með SUPER aðgangsheimildir í [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig er ekki hægt að hlaða upp skýrslum með [!INCLUDE [prod_short](includes/prod_short.md)] innanhúss. Á staðnum hleðurðu skýrslum beint á Power BI vinnusvæðið þitt. Nánari upplýsingar má finna [með því að vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI](across-working-with-business-central-in-powerbi.md).
 
 ## <a name="fixing-problems"></a>Vandamál lagfærð
 
@@ -135,7 +134,7 @@ Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI re
 [Business Central og Power BI](admin-powerbi.md)  
 [Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)]-gögn](across-how-use-financials-data-source-powerbi.md)  
 [Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Unnið með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI](across-working-with-business-central-in-powerbi.md)  
+[Vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI](across-working-with-business-central-in-powerbi.md)  
 [Power BI fyrir neytendur](/power-bi/consumer/end-user-consumer)  
 [„Nýtt útlit“ Power BI þjónustunnar](/power-bi/service-new-look)  
 [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -144,9 +143,9 @@ Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI re
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnagjafa](across-how-use-financials-data-source-powerapps.md)  
+[Notkunar [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

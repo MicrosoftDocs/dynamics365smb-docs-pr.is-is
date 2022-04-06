@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383428"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519519"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Word-sniðmát notuð fyrir mörg samskipti í einu
+# <a name="use-word-templates-for-bulk-communication"></a>Nota Word-sniðmát fyrir Magnsamskipti
 Microsoft Word-sniðmát geta auðveldað mörg samskipti í einu á prenti eða í tölvupósti með einingum á borð við tengiliði, viðskiptamenn og lánardrottna. Til dæmis er hægt að búa til bæklinga til að tilkynna viðskiptavinum um söluherferð, bréf til að tilkynna lánardrottnum um nýja innkaupastefnu eða boð til að fá tengiliði til að mæta á væntanlegan viðburð.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ Tengdar einingar deila reit, sem er oft kennimerki á borð við heiti, kóða e
 
 Hægt er að nota sniðmát í eina eða fleiri gerðir einingar, t.d. tengilið, beint af þessari síðu eða af síðu Word-sniðmátsins til að nota sniðmátið í öllum einingum af þeirri gerð.
 
-## <a name="using-word-templates-with-email"></a>Nota Word-sniðmát með tölvupósti
+## <a name="use-word-templates-with-email"></a>Notaðu Word sniðmát með tölvupósti
 Þú getur notað Word-sniðmát til að bæta efni við tölvupóstskeyti. Þegar úr býrð til tölvupóst getur þú valið aðgerðina **Nota Word-sniðmát** til að nota efnið úr sniðmáti fyrir skilaboðin. Þá þarftu að hafa búið til eitt eða fleiri sniðmát fyrir eininguna. Hægt er að nota eitt sniðmát í einu og þegar skipt er á milli sniðmáta breytast skilaboðin til að endurspegla efnið úr völdu sniðmáti.
 
 Þar að auki er hægt að nota aðgerðina **Bæta við skrá úr Word-sniðmáti** til að hengja efni sniðmátsins við tölvupóstinn sem skrá. Skráin mun nota sniðið sem þú tilgreindir fyrir úttak sniðmátsins.

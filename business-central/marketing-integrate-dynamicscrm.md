@@ -11,14 +11,14 @@ ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6868ec9cc77efa19090bc2325414b4c9976a8db7
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383888"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520995"
 ---
-# <a name="using-dynamics-365-sales-from-business-central"></a>Nota Dynamics 365 Sales úr Business Central
+# <a name="use-dynamics-365-sales-from-business-central"></a>Nota Dynamics 365 Sala frá Viðskiptamiðinu
 Ef þú notar Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[prod_short](includes/prod_short.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
 
 Áður en hægt er að nota möguleika samþættingar þarf kerfisstjórinn fyrst að setja upp tenginguna og skilgreina notendur í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -139,7 +139,7 @@ Til að samræma verðlista velurðu síðuna **Söluverðslisti**, **Tengt**, *
 ## <a name="see-also"></a>Sjá einnig
 [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Umsjón með venslum](marketing-relationship-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md)    
 [Yfirlit yfir Sales og sölumiðstöð](/dynamics365/customer-engagement/sales-enterprise/overview)  

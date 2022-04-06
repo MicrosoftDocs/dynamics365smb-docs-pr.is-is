@@ -2,7 +2,6 @@
 title: Uppsetning bestu venja - Endurpöntunarstefnur | Microsoft Docs
 description: Svæðið Endurpöntunarstefna á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: c67e185ba8994bd20712ca4606df0b5dd7c7682b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441448"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516563"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Uppsetning bestu venja: Endurpöntunarstefnur
 Svæðið **Endurpöntunarstefna** á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.  
@@ -45,7 +44,7 @@ Eftirfarandi tafla gefur upp bestu venjur til að velja milli fjögurra stefna.
  [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)   
  [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

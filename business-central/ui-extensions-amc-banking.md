@@ -9,14 +9,14 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 277842528290f3d3974c7e4b22030fa33e237dbd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ec7ba151f94a7209e81f8e695b3053885d0fcc24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381167"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510533"
 ---
-# <a name="using-the-amc-banking-365-fundamentals-extension"></a>Nota AMC Banking 365 Fundamentals viðbótina
+# <a name="use-the-amc-banking-365-fundamentals-extension"></a>AMC Banking 365 Fundamentals Nota viðaukann
 AMC Banking 365 Fundamentals viðbótin gerir það auðveldar sendingu gagna til bankans þíns og eykur áreiðanlega þeirra. Viðbótin tengir [!INCLUDE[prod_short](includes/prod_short.md)] við AMC Banking 365 Fundamentals fyrir Microsoft Dynamics 365 Business Central þjónustu sem getur breytt bankagögnum úr [!INCLUDE[prod_short](includes/prod_short.md)] í snið sem yfir 600 bankar í heiminum krefjast. Þannig er til dæmis auðveldara að millifæra greiðslur og kreditfærslur til lánardrottna með því að slá greiðslurnar inn í [!INCLUDE[prod_short](includes/prod_short.md)] og hlaða þeim svo upp í bankann þinn. Sniðin geta einnig jafnað út bankaafstemmingarferli. Frekari upplýsingar er að finna í [AMC Banking fyrir Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 
 > [!Note]
@@ -25,7 +25,7 @@ AMC Banking 365 Fundamentals viðbótin gerir það auðveldar sendingu gagna ti
 > [!NOTE]
 > Í almenn útgáfa af [!INCLUDE[prod_short](includes/prod_short.md)], er altæk þjónustuveita til að umbreyta bankagögnum í annað skráarsnið sem bankinn krefst að er uppsett og tengt. Í norður-amerískum útgáfum má nota sömu þjónustu til að senda greiðsluskrár sem rafræna millifærslu (EFT), t.d. kerfi rafrænnar greiðslumiðlunar sem er oft notuð, en með örlítið öðruvísi leiðum.
 
-## <a name="using-our-demonstration-account"></a>Notkun á sýnireikningi okkar
+## <a name="use-our-demonstration-account"></a>Notaðu Sýniareikninginn okkar
 [!INCLUDE[prod_short](includes/prod_short.md)] fylgir með sýnireikningi sem gerir þér kleift að prófa AMC Banking 365 Fundamentals-viðbótina. Við bjóðum upp á sjálfgefnar stillingar fyrir tengingu við AMC Banking, þar sem bankareikningar eru tilgreindir til að sækja gögn frá [!INCLUDE[prod_short](includes/prod_short.md)], auk nokkurra gagnaskiptaskilgreininga. Þú getur skoðað tengingarstillingarnar á síðunni **AMC Banking Uppsetning**. Fyrir bankareikninga bætir viðbótin gildum í reitina **Heiti banka**, **Nr. á skilaboðum kreditfærslu**, **Innflutningssnið bankayfirlits** og **Greiðsluútflutningssnið** á bankareikningspjöldum.
 
 Við veitum stillingarnar en til að prófa viðbótina verður þú að keyra leiðbeiningar um uppsetningu með hjálp til að nota þær. Til að keyra leiðarvísinn, á síðunni **AMC Banking Uppsetning**, skaltu velja aðgerðina **Uppsetning með hjálp**.
@@ -63,7 +63,7 @@ Fyrir hverja nýja heimildasamstæðu skal aðeins veita heimildina **Lesa** fyr
 4. Í reitnum **Númer fyrir skilaboð kreditfærslu** skaltu velja númeraröðina sem nota á fyrir skilaboð sem fylgja greiðslum.
 5. Í reitunum **Innflutningssnið bankayfirlits** og **Greiðsluútflutningssnið** skal velja þær gagnaskiptaskilgreiningar sem bankinn krefst.
 
-## <a name="using-the-extension"></a>Notkun viðbótarinnar
+## <a name="use-the-extension"></a>Nota viðaukann
 Ef þú notar þessa viðbót þarf aðeins að flytja út gögn á síðunni **Greiðslubækur** og síðan hlaða þeim upp á vefþjónustu bankans. Nánari upplýsingar er að finna í [Greiða með umreikningsþjónustu bankagagna eða SEPA kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
 > [!Note]

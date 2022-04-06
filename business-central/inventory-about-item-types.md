@@ -3,7 +3,6 @@ title: Hvernig vörutegundir virka
 description: Þú getur leiðrétt birgðaverðmat vöru með því að nota FIFO eða Meðalkostnaðaraðferð þegar vöruverð breytist ekki vegna viðskiptalegra ástæðna, heldur einhvers annars.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: 8beaa37b20acbbad54b46e231a5c60694f7a7d75
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059623"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518078"
 ---
 # <a name="about-item-types"></a>Um vörutegundir
 **Í reitnum Tegund** á **vöruspjaldinu** er hægt að velja hvað varan er notuð í viðskiptunum, sem hefur áhrif á það hversu hægt er að stjórna vörunni í birgðum. Eftirfarandi töflulistum og lýsir þeim þremur tegundum atriða sem eru tiltæk.
@@ -56,7 +55,7 @@ Hlutir viðskiptamanna sem þú framkvæmir þjónustu á, svo sem prentarar, ka
 [Uppsetning birgða](inventory-setup-inventory.md)  
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

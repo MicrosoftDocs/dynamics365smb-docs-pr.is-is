@@ -2,7 +2,6 @@
 title: Setja upp forðakostnað verks, verð og afkastagetu
 description: Til að nota forða og auðvelda verkefnastjórnun, tilgreinirðu kostnað og verð fyrir einstaka forða eða forðaflokka, og stillir afkastaveitu forða.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a91bf2cbd82f2b4c8374a1773a6603f52c47c581
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972253"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520891"
 ---
 # <a name="set-up-resources-for-projects"></a>Setja upp tilföng fyrir verk
 
@@ -27,8 +26,10 @@ Til að geta unnið með forðaaðgerðir á réttan hátt verður að setja upp
 Sjálfgefna upphæð á klukkustund þarf að tilgreina þegar forðinn er stofnaður. Ef í verki er til dæmis notast við ákveðna vél í fimm klukkustundir er verkið reiknað út frá upphæð á klukkustund.
 
 > [!NOTE]
-> Hægt að kaupa ytri tilföng, t.d. til að senda reikning á lánardrottin fyrir afhenta vinnu. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).<br /><br />
-> Í slíku tilfelli er mælt með því að nefna eða flokka slík ytri tilföng til að gefa til kynna tilgang þeirra svo að þeim sé ekki ruglað við innri tilföng notanda.
+> Hægt er að kaupa ytri tilföng, til dæmis til að reikningsfæra lánardrottin fyrir vinnu sem er afhent. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).<br /><br />
+> Við ytri tilföng mælum við með því að þú nafnir eða flokkir þá þannig að þeir ruglist ekki við innri tilföng þín.
+>  
+> Ef verið er að bóka samstæðufærslur þótt hægt sé að forða línu í sölupöntun er sölupöntuninni umbreytt í innkaupapöntun sem tengist tilfang. Ef nota á tilföng í MF-færslum er notuð **MF-innk. Nr.** Fjárhagsreikn. á forðaspjaldinu til að tilgreina lykilinn sem á að bóka útgjaldakað.
 
 ## <a name="to-set-up-a-resource"></a>að setja upp forða
 Stofna skal spjald fyrir hvern forða sem á að nota í verkefnum.
@@ -80,7 +81,7 @@ Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað 
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)         
 [Sala](sales-manage-sales.md)      
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

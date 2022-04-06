@@ -7,55 +7,62 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.search.form: 17, 18, 20, 21, 37, 65, 99, 118, 312, 313, 314, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 12/03/2021
+ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 5f168132dc747e76c514ae1bd78e8d2f86a7b609
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366736"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510849"
 ---
-# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Skilningur á fjárhag og bókhaldslykli
+# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Skilningur á fjárhag og bókhaldslyklum
 
 Fjárhagur geymir fjárhagsgögn,  og bókhaldslykill birtir reikningana sem allar fjárhagsfærslur eru bókaðar í. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðan bókhaldslykil sem er tilbúin til að styðja þitt fyrirtæki.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a>Uppsetning Uppsetning fjárhags og uppsetning almenns bókunargrunnur
+## <a name="general-ledger-setup-and-general-posting-setup"></a>Fjárhagsgrunnur og Almenn bókunaruppsetning
 
-Uppsetning aðalbókarinnar er kjarninn í fjárhagslegum ferlum vegna þess að það skilgreinir hvernig þú sendir gögn.  
+Uppsetning aðalbókarinnar er kjarninn í fjárhagslegum ferlum vegna þess að það skilgreinir hvernig þú sendir gögn. Tvær síður gegna mikilvægu hlut í skilgreiningu á fjármálaferlum:  
 
-Á síðunni **Uppsetning aðalbókarinnar** tilgreinir þú hvernig á að meðhöndla tiltekin reikningsskilaboð í fyrirtækinu þínu, svo sem:  
+* Á **síðu fjárhagsuppsetningarsíðunnar**
 
-* Sléttunarnákvæmni reikninga  
-* Snið aðseturs  
-* Fjárhagsskýrslugerð  
+    Á síðunni **Uppsetning aðalbókarinnar** tilgreinir þú hvernig á að meðhöndla tiltekin reikningsskilaboð í fyrirtækinu þínu, svo sem:  
 
-> [!TIP]
-> Síðan **Fjárhagsgrunnur** innheldur almenn svæði og svæði sem eiga sérstaklega við um heimaland þitt eða svæði. Ef þú ert ekki viss um merkingu reits mælum við með því að þú hafir samband við endurskoðandann þinn til að ákvarða hvort hann skiptir máli fyrir fyrirtækið þitt.  
+    * Sléttunarnákvæmni reikninga  
+    * Snið aðseturs  
+    * Fjárhagsskýrslugerð  
 
-Á sama hátt er á síðunni **Almennur bókunargrunnur** tilgreint hvernig á að setja upp samsetningar almennra viðskiptabókunarflokka og almenna vörubókunarflokka. Staða hópar korta aðila eins og viðskiptavini, seljendur, atriði, auðlindir og sölu- og kaupskjöl til almennra reikninga. Ein lína er fyllt út fyrir hverja samsetningu viðskiptabókunarflokks og vörubókunarflokks. En einnig er hægt að opna hverja línu á eigin bókunaruppsetningarspjaldi. Nánari upplýsingar eru í [Uppsetning bókunarflokka](finance-posting-groups.md).  
+    > [!TIP]
+    > Síðan **Fjárhagsgrunnur** innheldur almenn svæði og svæði sem eiga sérstaklega við um heimaland þitt eða svæði. Ef þú ert ekki viss um merkingu reits mælum við með því að þú hafir samband við endurskoðandann þinn til að ákvarða hvort hann skiptir máli fyrir fyrirtækið þitt. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-> [!TIP]
-> Ef ekki er hægt að sjá reitina sem leitað er að á **síðunni Alm. bókunargrunnur** skal nota lárétta skrunreinina neðst á síðunni til að fletta til hægri.  
+    Opnaðu síðuna [hér](https://businesscentral.dynamics.com/?page=118)
+* **Síðan Almenn bókunaruppsetning**
 
-## <a name="the-chart-of-accounts"></a>Bókhaldslykillinn
+    Á sama hátt er á síðunni **Almennur bókunargrunnur** tilgreint hvernig á að setja upp samsetningar almennra viðskiptabókunarflokka og almenna vörubókunarflokka. Staða hópar korta aðila eins og viðskiptavini, seljendur, atriði, auðlindir og sölu- og kaupskjöl til almennra reikninga. Ein lína er fyllt út fyrir hverja samsetningu viðskiptabókunarflokks og vörubókunarflokks. En einnig er hægt að opna hverja línu á eigin bókunaruppsetningarspjaldi. Nánari upplýsingar eru í [Uppsetning bókunarflokka](finance-posting-groups.md).  
+
+    > [!TIP]
+    > Ef ekki er hægt að sjá svæðin sem leitað er að á **síðunni almennar bókunaruppsetningar** þá er lárétt Skrunrein notuð neðst á síðunni til að fletta til hægri.  
+
+    Opnaðu síðuna [hér](https://businesscentral.dynamics.com/?page=314)
+
+## <a name="the-chart-of-accounts"></a>Bókhaldslykilinn
 
 Skýringin á reikningum sýnir allar almennar bókhaldsreikningar. Úr bókhaldslyklinum geturðu gert hluti eins og:  
 
 * Skoða skýrslur sem sýna aðalbókaratriði og jafnvægi.  
 * Lokaðu rekstrarreikningi þínum.  
-* Opna fjárhagsreikningsspjaldið (fjárhagsreikningur) til að bæta við eða breyta stillingum.  
+* Opna skal fjárhagsreikningskort fjárhags (Fjárhagur) til að bæta við eða breyta stillingum.  
 * Sjá lista yfir pósthópa sem senda á þann reikning.
 * Skoða debet- og kreditstöður fyrir einstakan fjárhagsreikning  
 
-Þú getur bætt við, breytt eða eytt almennum bókhaldsreikningum. Til að koma í veg fyrir misræmi geturðu þó ekki eytt almennri aðalbókareikning ef gögnin eru notuð í töflureikningi.  
+Þú getur bætt við, breytt eða eytt almennum bókhaldsreikningum. Til að koma í veg fyrir misræmi er ekki hægt að eyða almennum fjárhagslykli ef gögn þess eru notuð í bókhaldslyklum. Einnig að byrja með 2022 út bylgju 2, einnig er hægt að útiloka eyðingu lykla á viðkvæmum tímabilum. Sjá [Eyða reikningum](finance-setup-chart-accounts.md#delete-accounts) fyrir frekari upplýsingar.  
 
-## <a name="account-categories"></a>tegundir reikninga
+## <a name="account-categories"></a>Lykiltegundir
 
 Þú getur sérsniðið uppbyggingu reikningsskila þinnar með því að kortleggja aðalbókarreikninga í reikningsflokkum.  
 
-Síðan **Tegundir fjárhagsreikninga** sýnir flokka og undirflokka og fjárhagsreikninga sem þeim er úthlutað. Hægt er að stofna nýja undirflokka og úthluta þeim á fyrirliggjandi reikninga.  
+**Síðan Flokkur** fjárhagsreikninga sýnir tegundir og undirflokka og fjárhagslykla sem er úthlutað á þá. Hægt er að stofna nýja undirflokka og úthluta þeim á fyrirliggjandi reikninga.  
 
 Þú stofnar tegundaflokk með því að draga inn aðra undirflokka undir línu á síðunni **flokkar fjárhagsreikninga**. Það gerir það auðveldara fyrir þig að fá yfirlit, því hver flokkur sýnir heildarstöðu. Til dæmis er hægt að stofna undirflokka fyrir mismunandi tegundir eigna og síðan stofna tegundaflokka fyrir fastafjármunir miðað við veltufjármunir.  
 
@@ -69,14 +76,14 @@ Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir *Reiðufé* und
 
     * Einn fyrir sjóð  
     * Einn fyrir ávísanareikninginn þinn  
-2. Tilgreindu viðbótarskýrslugerðina **Reiðufé** fyrir þessar undirflokka.  
+2. Tilgreina skal annars staðgreiðslureikninga **annarrar skýrsluskilgreiningar** fyrir þessa undirflokka.  
 3. Haltu þeim í undirflokknum **Handbært fé**.  
 
 Í næsta skipti sem þú stofnar reikningaskipta birtist efnahagsreikningur þín í heildarjöfnuði fyrir peninga og tvær línur með jafnvægi fyrir smáskatta og eftirlitsreikning.  
 
-## <a name="getting-a-quick-overview"></a>Flýtiyfirlit sótt
+## <a name="get-a-quick-overview"></a>Fá flýtiyfirlit
 
-Á síðu bókhaldslykla eru sýndir reikningar í stigveldislista sem býður upp á skjótan aðgang að helstu upplýsingum fyrir hvern reikning. Ekki er þó hægt að breyta listanum og ef þú ert með mikið af reikningum gætirðu þurft að fletta töluvert til að skoða upplýingar fyrir mismunandi reikninga. Ef þú vilt aðeins fá fljótlegt yfirlit yfir grunnupplýsingar, t.d. nettóbreytingar og nettóstöður, er síðan **Yfirlit bókhaldslykils** gagnleg leið til þess. Útlit dálksins á síðunni er nú það sama og er að finna á síðu bókhaldslykils (það eru bara færri dálkar) og því þarftu ekki að flakka á milli og þú getur stækkað eða fellt saman stigveldin til að þjappa saman yfirlitinu. Til að auðvelda að fara á milli síðna er síðan **Yfirlit bókhaldslykils** aðgengileg á síðu bókhaldslykils.
+**Síðan Bókhaldslykill** birtir lykla í stigveldislista sem býður upp á hraðan aðgang að lykilupplýsingum hvers lykils. Listinn er þó kyrrstæður og ef um marga reikninga er að ræða gæti þurft að gera dálítið af rollu til að skoða upplýsingar fyrir ólíka lykla. Ef þú vilt aðeins fá fljótlegt yfirlit yfir grunnupplýsingar, t.d. nettóbreytingar og nettóstöður, er síðan **Yfirlit bókhaldslykils** gagnleg leið til þess. Dálkaútlitið á síðunni er nú það sama og þú munt finna á **síðu bókhaldslykilsins** (það eru bara færri af þeim) svo þú munt ekki þurfa að endurraða þér og þú getur stækkað eða fellt stigveldi til að þjappa yfirlitið. Til að auðvelda að skipta á milli síðna þá **er yfirlitssíður** bókhaldslykils tiltæk úr **síðunni Bókhaldslykill**.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Aðgangur til að stofna og breyta reikningum og reikningsflokkum
 
@@ -85,7 +92,7 @@ Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir *Reiðufé* und
 ## <a name="see-also"></a>Sjá einnig
 
 [Fjármál](finance.md)  
-[Uppsetning eða breyting á bókhaldslykli](finance-setup-chart-accounts.md)  
+[Setja upp eða breyta bókhaldslykli](finance-setup-chart-accounts.md)  
 [Viðskiptaupplýsingar](bi.md)  
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
 

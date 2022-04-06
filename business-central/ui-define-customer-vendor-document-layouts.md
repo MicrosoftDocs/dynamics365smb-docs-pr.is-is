@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4b417c689c02a0252e3967379e33a88386ad694f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147467"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510740"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna
 Þegar sérsniðið skýrsluútlit er skilgreint er hægt að velja það af úr spjöldum viðskiptamanna og lánardrottna til að tilgreina hvaða útlit á að nota fyrir mismunandi tegundir skjala sem þú býrð til fyrir viðskiptamanninn eða lánardrottinn. Gildið í reitnum **Notkun** skilgreinir fyrir hvaða ferli skjalaútlitið verður notað, eins og **Áminning**, **Afhending** og **Staðfesting**.
@@ -59,8 +59,8 @@ Netfang tengiliðarins er nú sett inn í línu skjalauppsetningar þannig að s
 [Flytja inn og út sérsniðið skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
-[Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
-[Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
+[Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
+[Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

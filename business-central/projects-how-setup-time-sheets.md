@@ -2,7 +2,6 @@
 title: Setja upp vinnuskýrslur og samþykktarferli þeirra
 description: Hægt er að setja upp vinnuskýrslur til að rekja tímann sem er notaður á verk og verk, sem hjálpa til við verkefnastjórnun, staffing og afkastagetu
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 21993ad4ee675384f7ffebfc77e0999d5dec05a6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: b9453285ce1bf18f3eeef3c3148f6dd00921c03f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972227"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510818"
 ---
 # <a name="set-up-time-sheets"></a>Setja upp vinnuskýrslur
 
@@ -43,7 +42,7 @@ Frá og með 2021 útgáfutímabili 2 getur þú notað leiðbeiningar um uppset
 >
 > Sami eiginleiki auðveldar þér einnig að stjórna vinnuskýrslum í fartæki.
 
-Opna **uppsetningu vinnublaða með** aðstoð uppsetningarleiðbeininganna frá [síðunni aðstoð aðstoðar](https://businesscentral.dynamics.com/?page=1801).
+Opna uppsetningu vinnublaða með **aðstoð uppsetningarleiðbeininganna frá** síðunni aðstoð aðstoðar [.](https://businesscentral.dynamics.com/?page=1801)
 
 Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 
@@ -58,11 +57,11 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
     Þessi einstaklingur getur breytt og eytt öllum vinnuskýrslum. Auk þess er valfrjálst að bæta sama hlutverkinu við aðra einstaklinga á síðunni **Uppsetning notanda**.
 4. Setja upp tilföngin sem munu nota vinnuskýrslur og einstaklingana sem munu samþykkja vinnuskýrslur
 
-Í lok uppsetningarleiðbeiningar getur þú valið að leyfa [!INCLUDE [prod_short](includes/prod_short.md)] að búa til vinnuskýrslur út frá stillingunum þínum. Skoða nýju vinnublöðin á **síðunni tímablöð** sem opna má [hér](https://businesscentral.dynamics.com/?page=951). Annars skal keyra uppsetningarleiðbeininguna aftur eða ljúka uppsetningunni handvirkt.  
+Í lok uppsetningarleiðbeiningar getur þú valið að leyfa [!INCLUDE [prod_short](includes/prod_short.md)] að búa til vinnuskýrslur út frá stillingunum þínum. Skoða nýju vinnublöðin á **síðunni tímablöð** sem opna [má hér](https://businesscentral.dynamics.com/?page=951). Annars skal keyra uppsetningarleiðbeininguna aftur eða ljúka uppsetningunni handvirkt.  
 
 ## <a name="set-up-time-sheets-manually"></a>Setja upp vinnuskýrslur handvirkt
 
-Í eftirfarandi köflum er lýst hvernig á að setja upp vinnuskýrslur ef **leiðbeiningar um uppsetningu vinnublaða eru ekki notaðar**.  
+Í eftirfarandi köflum er lýst hvernig á að setja upp vinnuskýrslur ef leiðbeiningar um **uppsetningu vinnublaða** eru ekki notaðar.  
 
 ### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Að setja upp almennar upplýsingar fyrir vinnuskýrslur handvirkt
 
@@ -105,7 +104,7 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

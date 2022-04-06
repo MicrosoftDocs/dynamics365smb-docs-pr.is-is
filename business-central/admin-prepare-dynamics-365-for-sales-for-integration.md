@@ -9,17 +9,17 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: addc48ca52ea27ee7c63b8f8c1b44af8a2f1eb63
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b4fb329c076cab03b6ea5ccc78813ad57ae29db3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383106"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517031"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Samþætting við Dynamics 365 Sales
 
 
-Hlutverk sölumannsins er oft talið sýnilegasti hlutinn í viðskiptum. Hins vegar getur það gagnast sölumönnum að geta fengið innsýn í viðskiptin og séð hvað er að gerast á bak við tjöldin. Með því að samþætta [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] er hægt að veita sölufólkinu þessa innsýn með því að gera því kleift að skoða upplýsingar í [!INCLUDE[prod_short](includes/prod_short.md)] á meðan það vinnur í [!INCLUDE[crm_md](includes/crm_md.md)]. Þegar sölutilboð er undirbúið getur það til dæmis verið gagnlegt að vita hvort nægar birgðir séu til staðar til að uppfylla pöntunina. Frekari upplýsingar er að finna í [Að nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md).
+Hlutverk sölumannsins er oft talið sýnilegasti hlutinn í viðskiptum. Hins vegar getur það gagnast sölumönnum að geta fengið innsýn í viðskiptin og séð hvað er að gerast á bak við tjöldin. Með því að samþætta [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] er hægt að veita sölufólkinu þessa innsýn með því að gera því kleift að skoða upplýsingar í [!INCLUDE[prod_short](includes/prod_short.md)] á meðan það vinnur í [!INCLUDE[crm_md](includes/crm_md.md)]. Þegar sölutilboð er undirbúið getur það til dæmis verið gagnlegt að vita hvort nægar birgðir séu til staðar til að uppfylla pöntunina. Frekari upplýsingar [fást í use Dynamics 365 Sala frá Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
 > Þetta efnisatriði útskýrir ferlið við samþættingu á vefútgáfum af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)]. Frekari upplýsingar um grunnstillingu á staðnum er að finna í [Undirbúningur Dynamics 365 Sales fyrir samþættingu á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
@@ -80,6 +80,7 @@ Auk ofangreindra stillinga skal færa inn eftirfarandi stillingar fyrir [!INCLUD
 | **Kveikt er á samþættingu sölupöntunar** | Gerðu notendum kleift að senda inn sölupantanir og virkjuð tilboð í [!INCLUDE[crm_md](includes/crm_md.md)] og síðan skoða og vinna úr þeim í [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta samþættar ferlið í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna á [Virkja sölupöntunarferli samþættingar](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Stofna sölupantanir sjálfvirkt** | Stofna sölupöntun í [!INCLUDE[prod_short](includes/prod_short.md)] þegar notandi stofnar og sendir inn eina í [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Vinna sölutilboð sjálfkrafa** | Vinna úr sölutilboði í [!INCLUDE[prod_short](includes/prod_short.md)] þegar notandi stofnar og virkjar eitt slíkt í [!INCLUDE[crm_md](includes/crm_md.md)]. Nánari upplýsingar er að finna í [Meðhöndlun á gögnum sölutilboðs](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+|**Samhæfa Synch sölupantana**|Samstilla sölupantanir í báðar áttir. Til dæmis ef viðskiptavinur breytir hugarfari sínu um vöruna eða magnið sem hann pantaði í [!INCLUDE[crm_md](includes/crm_md.md)] er hægt að vinna breytinguna [!INCLUDE[prod_short](includes/prod_short.md)] með því að skjalgera söluskjalið og stofna nýtt. Sama gildir um breytingar skv [!INCLUDE[prod_short](includes/prod_short.md)]. Til dæmis, þegar verð, skattaupphæðir eða áætlaðar sendingardagsetningar breytast breytist breytingarnar sjálfkrafa í [!INCLUDE[crm_md](includes/crm_md.md)]. Þetta hjálpar seljendum að fylgjast með nýjustu breytingum og stöðu tilboða og pantana.|
 
 <!--
 ### User Account Settings
@@ -104,7 +105,7 @@ Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_shor
 | Tækifæri | Tækifæri | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 | Sölureikningshaus | Reikningsfæra | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Sölureikningslína | Reikningsfæra vöru | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Sölupöntunarhaus | Sölupöntun | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Sía söluhauss: **Gerð skjals** er Pöntun, **Staða** er útgefin |
+| Sölupöntunarhaus | Sölupöntun | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] <br><br> Til að samstilla í báðar áttir þarf að kveikja á **Tvískipaðri** Synch-sölupöntun skipta á **síðunni Dynamics 365-tengingaruppsetningarsíðu**.| [!INCLUDE[prod_short](includes/prod_short.md)] Sía söluhauss: **Gerð skjals** er Pöntun, **Staða** er útgefin |
 | Athugasemdir sölupöntunar | Athugasemdir sölupöntunar | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]

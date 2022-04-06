@@ -2,7 +2,6 @@
 title: Gera sölutilboð
 description: Lestu um hvernig á að stofna sölutilboð eða skjal með beiðni um tilboð (RFQ) til að skrá tilboð til viðskiptavinar eða tilfangs um að selja vörur samkvæmt tilteknum skilmálum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 41, 9300
 ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: c4abee09dfe5b0f2d2e26680f2822552747b4b86
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
-ms.translationtype: HT
+ms.openlocfilehash: 0264e689947745122d3de8879dc7e050aef3103f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752392"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521729"
 ---
 # <a name="make-sales-quotes"></a>Gera sölutilboð
 
@@ -105,6 +104,6 @@ Breytingin fjarlægir sölutilboðið úr gagnagrunninum. Sölureikningur eða s
 [Uppsetning sölu](sales-setup-sales.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Safnvista skjöl](across-how-to-archive-documents.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

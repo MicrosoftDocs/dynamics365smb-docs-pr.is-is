@@ -1,8 +1,7 @@
 ---
 title: Nota skilgreiningu á ný fyrirtæki
-description: Þegar búið er að stofna grunnstillingarpakka skal virkja pakka til viðskiptamanns fyrir innleiðingu. Grunnstillingin er notuð með nýju auðu fyrirtæki.
+description: Þegar búið er að stofna grunnstillingarpakka skal virkja pakka til viðskiptamanns fyrir innleiðingu. Afbrigðið er notað með nýju tómu fyrirtæki ef það er notað RapidStart Services.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8eaffa61361a9cbcc01af3585090dc0939eaa4d8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
+ms.openlocfilehash: 14b97b1f635fab5671c478106680c2b723ca86c2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324101"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522275"
 ---
-# <a name="apply-configurations-to-new-companies"></a>Nota skilgreiningu á ný fyrirtæki
+# <a name="apply-configurations-to-new-companies-with-rapidstart-services"></a>Beita afbrigðum á ný fyrirtæki með RapidStart Services
 Þegar búið er að stofna grunnstillingarpakka er næsta skrefið að virkja pakka til viðskiptamanns fyrir innleiðingu. Þú vinnur með grunnstillingarpakkann innan fyrirtækis sem er nýtt og autt.  
 
  Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.

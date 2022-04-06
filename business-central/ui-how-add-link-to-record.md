@@ -2,7 +2,6 @@
 title: Bæta við viðhengjum, tenglum og athugasemdum á færslum
 description: Setja tengil í skjal eða vefsíðu á tiltekna skrá, s.s. viðskiptavin eða fylgiskjal.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 76829c832bfde71d46b2fa2a942aa68db9f5701a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: e3f1e3f63c8e27d081a89f6d8626b8b392a6e02b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588781"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519545"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum
 
@@ -97,7 +96,7 @@ Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnu
 Athugasemdin er nú hengd við sölupöntunina.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  
 

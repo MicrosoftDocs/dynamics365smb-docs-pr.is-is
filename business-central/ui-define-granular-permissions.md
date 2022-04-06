@@ -7,39 +7,103 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 9807, 9808, 9830, 9831
-ms.date: 06/23/2021
+ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: ca0373fc55fb14d43dae9ce5bc51c0063c88a2af
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146125"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522513"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfum til notenda og hópa
 
-[!INCLUDE[prod_short](includes/prod_short.md)] öryggiskerfið gerir þér kleift að stjórna því hvaða hluti notandi hefur aðgang að í hverjum gagnagrunni eða umhverfi fyrir sig. Þú getur tilgreint fyrir hvern notanda hvort hann geti lesið, breytt eða slegið inn gögn í valda gagnagrunnshluti. Frekari upplýsingar er að finna í [Gagnaöryggi](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) í hjálp Developer and ITPro fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
+Stjórnendur nota [!INCLUDE[prod_short](includes/prod_short.md)] öryggiskerfið til að stýra því hvaða hlutir notandi getur fengið aðgang að í hverjum gagnagrunni eða umhverfi ásamt leyfum sem þeim er úthlutað. Þú getur tilgreint fyrir hvern notanda hvort hann geti lesið, breytt eða slegið inn gögn í valda gagnagrunnshluti. Ítarlegar upplýsingar er að finna [í gagnaöryggi](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) í efni hönnuða og stjórnsýslu fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Áður en heimildum er úthlutað á notendur og notendaflokka þarf að skilgreina hverjir geta skráð sig inn með því að stofna notendur samkvæmt leyfinu sem skilgreint er Microsoft 365 í stjórnun miðstöðvarinnar. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] eru tvö stig heimilda fyrir gagnagrunnshluti:
 
 - Heildarheimildir í samræmi við leyfi, einnig nefnt réttindi.
-- Nákvæmari heimildir eins og þeim er úthlutað innan [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Til að auðvelda þér að stjórna heimildum fyrir marga notendur geturðu raðað þeim í notendaflokka og þar með úthlutað eða breytt einni heimildasamstæðu fyrir marga notendur í einni aðgerð. Frekari upplýsingar er að finna á[Til að stjórna heimildum í gegnum notendaflokka](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
+  Í leyfum eru sjálfgefin leyfi sett. Byrjað í 2022 1. viðurkenningar getur sérsniðið þessar sjálfgefnu heimildir að viðeigandi leyfistegundum. Nánari upplýsingar eru [í Configure aðgangsheimildir byggðar á leyfum](ui-how-users-permissions.md#licensespermissions).  
+- Ítarlegri heimilda sem þeim er úthlutað innan frá [!INCLUDE[prod_short](includes/prod_short.md)].
+
+  Í þessari grein er lýst hvernig hægt er að skilgreina, nota og beita heimildum innan [!INCLUDE [prod_short](includes/prod_short.md)] til að breyta sjálfgefnu skilgreiningunni.  
+
+[!INCLUDE [prod_short](includes/prod_short.md)] á netinu eru sjálfgefnir notendaflokkar sem eru úthlutaðir notendum sjálfkrafa á grundvelli leyfis. Hægt er að breyta sjálfgefnu skilgreiningunni með því að breyta eða bæta við notendaflokkum, heimildaflokkum og heimildum. Eftirfarandi tafla lýsir lykilaðstæður til að breyta sjálfgefnum heimildum.  
+
+|Til að  |Sjá  |
+|---------|---------|
+|Til að auðvelda þér að stjórna heimildum fyrir marga notendur geturðu raðað þeim í notendaflokka og þar með úthlutað eða breytt einni heimildasamstæðu fyrir marga notendur í einni aðgerð.| [Heimildir til að stjórna heimildum í gegnum notendaflokka](#to-manage-permissions-through-user-groups) |
+|Að stjórna heimildastæðum fyrir ákveðna notendur | [Notendum úthlutað heimildasöfn](#to-assign-permission-sets-to-users) |
+|Að læra að skilgreina heimildasafn|[Heimild sett til að stofna eða breyta](#to-create-or-modify-a-permission-set)|
+|Til að stjórna tilteknum heimildum|[Heimildir stofnaðar eða þeim breytt handvirkt](#to-create-or-modify-permissions-manually)|
+|Til að skoða eða leysa úr heimildum notanda|[Til að fá yfirsýn yfir heimildir notanda](#to-get-an-overview-of-a-users-permissions)|
+|Fræðsla um öryggi á skráastigi|[Öryggissíur takmarka aðgang notanda að tilteknum færslum í töflu](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
-> Viðbótaraðferð við að skilgreina hvaða eiginleika notandi hefur aðgang að er með því að stilla reitinn **Upplifun** á síðunni **Fyrirtækjaupplýsingar**. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
+> Viðbótaraðferð við að skilgreina hvaða aðgerðir notendur hafa aðgang að er með því að **Stilla upplifunarsvæðið** á **upplýsingasíðu** fyrirtækisins. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 >
 > Einnig er hægt að skilgreina hvað notendur sjá í notandaviðmótinu og hvernig þeir nota heimilaða virkni sína á síðum. Þetta er gert í gegnum forstillingar sem þú úthlutar til mismunandi notenda í samræmi við starfshlutverk þeirra eða deild. Frekari upplýsingar er að finna í [Vinna með forstillingar](admin-users-profiles-roles.md) og [Sérstillingar [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
+## <a name="to-manage-permissions-through-user-groups"></a>Að stjórna heimildum í gegnum notendaflokka
+
+Notendaflokkar aðstoða við að stjórna heimildastæðum víðs vegar um fyrirtækið. [!INCLUDE [prod_short](includes/prod_short.md)] á netinu eru sjálfgefnir notendaflokkar sem eru úthlutaðir notendum sjálfkrafa á grundvelli leyfis. Hægt er að bæta notendum handvirkt við notendaflokk og hægt er að stofna nýja notendaflokka sem afrit af þeim sem fyrir eru.  
+
+Þú byrjar á því að stofna notendahóp. Síðan úthlutarðu heimildasamstæðum til hópsins til að skilgreina hvaða hluti notendur hópsins hafa aðgang að. Þegar þú bætir notanda í hópinn gilda heimildasamstæður sem skilgreindar eru fyrir hópinn líka fyrir notandann.
+
+Heimildasett sem er úthlutað til notanda í gegnum notendahóp er áfram samstillt þannig að breyting á heimildum notendahópsins ná sjálfkrafa til notandans. Ef þú fjarlægir notanda úr notendahópi eru heimildir viðkomandi afturkallaðar sjálfkrafa.
+
+### <a name="to-add-users-to-a-user-group"></a>Notendum bætt við notendaflokk
+
+Eftirfarandi ferli útskýrir hvernig á að búa til notendaflokka handvirkt. Notendaflokkur er stofnaður sjálfvirkt með því að sjá [til að afrita notendaflokk og allar heimildir](#to-copy-a-user-group-and-all-its-permission-sets) þess.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendaflokkar** og velja síðan viðkomandi tengil.
+
+    1. Einnig, á síðunni **Notendur**, veldu aðgerðina **Notandaflokkar**.
+2. Á síðunni **Notandaflokkur** er valin aðgerðin **Meðlimir notandaflokks**.
+3. Á síðunni **Meðlimir notandaflokks** er valin aðgerðin **Bæta við notendum**.
+
+### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Til að afrita notendaflokk og öll heimildarsöfn
+
+Til að fljótt skilgreina nýja notendaflokka geturðu afritað öll heimildarsöfn frá núgildandi notendaflokki yfir í nýjan notendaflokk.
+
+> [!NOTE]
+> Meðlimir úr notendaflokki eru ekki afritaðar í nýja notendaflokkinn. Þú verður að bæta þeim við handvirkt eftir á. Frekari upplýsingar er að finna í [til að bæta notendum við kaflann notendaflokkur](#to-add-users-to-a-user-group).
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendaflokkar** og velja síðan viðkomandi tengil.
+2. Veldu notendaflokkinn sem þú vilt afrita og veldu síðan aðgerðina **Afrita notendaflokk**.
+3. Í reitinn **Nýr kóði notendaflokks** skal færa inn heiti fyrir flokkinn og velja síðan hnappinn **Í lagi**.
+
+Nýja notendaflokknum er bætt við síðuna **Notendaflokkar**. Halda áfram að bæta við notendum. Frekari upplýsingar er að finna í [til að bæta notendum við kaflann notendaflokkur](#to-add-users-to-a-user-group).  
+
+### <a name="to-assign-permission-sets-to-user-groups"></a>Til að úthluta leyfishópum á notendahópa
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendaflokkar** og velja síðan viðkomandi tengil.
+2. Veldu notendaflokkinn sem á að úthluta á þessum heimildum til.  
+
+    Öll heimildasöfn sem er nú þegar úthlutuð til notandans eru birtar í upplýsingakassanum **Heimildasöfn**.
+3. Veldu aðgerðina **Heimildasamstæður notanda** til að opna síðuna **Heimildasamstæður notanda**.
+4. Á síðunni **Heimildasöfn notanda** skal fylla út reitina eins og þörf krefur í nýrri línu.
+
+### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>Til að úthluta heimildasamstæðu á síðunni **Heimildasamstæða eftir notendahópum**
+
+Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til notanda á síðunni **Heimildasamstæða eftir notendahópum**.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
+2. Á síðunni **Notendur** skal velja viðeigandi notanda, og þá velja aðgerðina **Heimildasamstæða eftir notendahópum**.
+3. Á síðunni **heimildasamstæða eftir notanda** veldu **[nafn notendaflokks]** gátreitinn á línu fyrir viðkomandi heimildasamstæðu til að tengja samstæðuna við notandann.
+4. Veldu **Allir notendahópar** gátreitinn til að úthluta heimildasamstæðunni til allra notenda.
+
+Einnig er hægt að úthluta heimildum sem settar eru beint til notanda.
+
 ## <a name="to-assign-permission-sets-to-users"></a>Til að úthluta heimildasamstæðu á notendur
 
-Heimildasamstæða er safn heimilda fyrir tiltekna gagnagrunnshluti. Öllum notendum verða að hafa verið úthlutað eitt eða fleiri heimildasöfn áður en þeir geta opnað [!INCLUDE[prod_short](includes/prod_short.md)].
+Heimildasamstæða er safn heimilda fyrir tiltekna gagnagrunnshluti. Öllum notendum verða að hafa verið úthlutað eitt eða fleiri heimildasöfn áður en þeir geta opnað [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-[!INCLUDE[prod_short](includes/prod_short.md)] lausn inniheldur fjölda fyrirfram skilgreindra heimildasamstæðna sem eru bætt við af Microsoft eða þjónustuveitunni þinni. Þú getur einnig bætt við nýjum heimildasamstæðum sem eru sniðin að þörfum fyrirtækisins. Nánari upplýsingar er að finna í [Að búa til eða breyta heimildasamstæðum](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+[!INCLUDE[prod_short](includes/prod_short.md)] lausn inniheldur fjölda fyrirfram skilgreindra heimildasamstæðna sem eru bætt við af Microsoft eða þjónustuveitunni þinni. Þú getur einnig bætt við nýjum heimildasamstæðum sem eru sniðin að þörfum fyrirtækisins. Frekari upplýsingar er að finna í [til að stofna eða breyta hluta heimildstæðis](#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Ef þú vilt ekki takmarka aðgang notanda meira en þegar hefur verið skilgreint með leyfi geturðu úthlutað notanda sérstakri heimildasamstæðu sem kallast SUPER. Þessi heimildasamstæða tryggir að notandinn geti fengið aðgang að öllum hlutum sem eru tilgreindir í leyfi.
@@ -62,9 +126,10 @@ Heimildasamstæða er safn heimilda fyrir tiltekna gagnagrunnshluti. Öllum note
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Til að úthluta heimildasamstæðu á síðunni Heimildasamstæða eftir notanda
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
-2. Á síðunni **Notendur** skal velja viðeigandi notanda, og þá velja aðgerðina **Heimildasamstæða eftir notanda**.
+2. **Á síðunni notendur** er heimildinni sem **er stillt á notandi** valið.
 3. Á síðunni **heimildasamstæða eftir notanda** veldu **[notandanafnið]** gátreitinn á línu fyrir viðkomandi heimildasamstæðu til að tengja samstæðuna við notandann.
-4. Veldu **Allir notendur** gátreitinn til að úthluta heimildasamstæðunni til allra notenda.
+
+    Veldu **Allir notendur** gátreitinn til að úthluta heimildasamstæðunni til allra notenda.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>Fá yfirlit yfir heimildir notanda
 
@@ -91,6 +156,11 @@ Heimildasamstæða er safn heimilda fyrir tiltekna gagnagrunnshluti. Öllum note
 
 > [!NOTE]  
 > Þegar þú breytir heimildasamstæðu munu breytingarnar einnig eiga við um aðra notendur sem hafa heimildarsamstæðuna úthlutað.
+
+### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Öryggissíur takmarka aðgang notanda að tilteknum færslum í töflu
+
+Fyrir öryggi á færslustigi í [!INCLUDE[prod_short](includes/prod_short.md)] notarðu öryggissíur til að takmarka aðgang notanda að gögnum í töflu. Þú býrð til öryggissíur á töflugögnum. Öryggissía lýsir færslusafni í töflu sem notandi hefur aðgangsheimild að. Þú getur til dæmis tilgreint að notandi geti aðeins lesið færslur sem innihalda upplýsingar um tiltekinn viðskiptavin. Þetta þýðir að notandinn getur ekki nálgast færslur sem innihalda upplýsingar um aðra viðskiptavini. Frekari upplýsingar er að finna [í notkun öryggisafmarkanir](/dynamics365/business-central/dev-itpro/security/security-filters) í innihaldi stjórnunar.
+
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Að búa til eða breyta heimildasamstæðu
 
@@ -172,68 +242,18 @@ Hins vegar þarf notandi ekki að hafa ótakmarkaðan aðgang að töflunni Söl
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Að stofna eða breyta heimildum með skráning við aðgerðir þínar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Heimildasamstæður** og velja síðan viðkomandi tengil.
-2. Einnig, á síðunni **Notendur**, veldu aðgerðina **Heimildarsöfn**.
-3. Á síðunni **Heimildarsöfn**, veldu aðgerðina **Nýtt**.
-4. Fyllið í reitina eftir þörfum í nýrri línu.
-5. Veljið aðgerðina **Heimildir**.
-6. Á síðunni **Heimildir** skal velja aðgerðina **Skrá heimildir** og velja svo aðgerðina **Byrja**.
+
+    Einnig, á síðunni **Notendur**, veldu aðgerðina **Heimildarsöfn**.
+2. Á síðunni **Heimildarsöfn**, veldu aðgerðina **Nýtt**.
+3. Fyllið í reitina eftir þörfum í nýrri línu.
+4. Veljið aðgerðina **Heimildir**.
+5. Á síðunni **Heimildir** skal velja aðgerðina **Skrá heimildir** og velja svo aðgerðina **Byrja**.
 
     Þetta setur af stað skráningarferli sem heldur utan um allar aðgerðir þínar í notandaviðmótinu.
-7. Farðu á hinar ýmsu síður og aðgerðir í [!INCLUDE[prod_short](includes/prod_short.md)] sem þú vilt að notendur með þessa heimildasamstæðu fái aðgang að. Þú verður að ljúka verkinu sem ætlunin er að skrá heimildir fyrir.
-8. Þegar á að ljúka við skráningu er farið aftur á síðuna **Heimildir** og svo valið **Stöðva** aðgerðina.
-9. Velja **Já** hnappinn til að bæta skráð heimildir við nýja heimildasafnið.
-10. Fyrir hvern hlutar á skráningar listanum, tilgreinið ef notendur geta sett inn, breytt eða eytt skráningum í skráningartöflunum.
-
-## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Öryggisafmarkanir - Að takmarka aðgang notanda að tilteknum færslum í töflu
-
-Fyrir öryggi á færslustigi í [!INCLUDE[prod_short](includes/prod_short.md)] notarðu öryggissíur til að takmarka aðgang notanda að gögnum í töflu. Þú býrð til öryggissíur á töflugögnum. Öryggissía lýsir færslusafni í töflu sem notandi hefur aðgangsheimild að. Þú getur til dæmis tilgreint að notandi geti aðeins lesið færslur sem innihalda upplýsingar um tiltekinn viðskiptavin. Þetta þýðir að notandinn getur ekki nálgast færslur sem innihalda upplýsingar um aðra viðskiptavini. Nánari upplýsingar eru í [Að nota öryggissíur](/dynamics365/business-central/dev-itpro/security/security-filters) í Developer og IT Pro hjálpinni.
-
-## <a name="to-manage-permissions-through-user-groups"></a>Að stjórna heimildum í gegnum notendaflokka
-
-Þú getur sett upp notendahópa til að hjálpa þér að stjórna heimildasamstæðum fyrir hópa notenda í fyrirtæki þínu.
-
-Þú byrjar á því að stofna notendahóp. Síðan úthlutarðu heimildasamstæðum til hópsins til að skilgreina hvaða hluti notendur hópsins hafa aðgang að. Þegar þú bætir notanda í hópinn gilda heimildasamstæður sem skilgreindar eru fyrir hópinn líka fyrir notandann.
-
-Heimildasett sem er úthlutað til notanda í gegnum notendahóp er áfram samstillt þannig að breyting á heimildum notendahópsins ná sjálfkrafa til notandans. Ef þú fjarlægir notanda úr notendahópi eru heimildir viðkomandi afturkallaðar sjálfkrafa.
-
-### <a name="to-group-users-in-user-groups"></a>Til hópnotenda í notandaflokkum
-
-Eftirfarandi ferli útskýrir hvernig á að búa til notendaflokka handvirkt. Til að búa til notendaflokka sjálfkrafa skal skoða [Að afrita notendaflokk og allar heimildasamstæður hans](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendaflokkar** og velja síðan viðkomandi tengil.
-2. Einnig, á síðunni **Notendur**, veldu aðgerðina **Notandaflokkar**.
-3. Á síðunni **Notandaflokkur** er valin aðgerðin **Meðlimir notandaflokks**.
-4. Á síðunni **Meðlimir notandaflokks** er valin aðgerðin **Bæta við notendum**.
-
-### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Til að afrita notendaflokk og öll heimildarsöfn
-
-Til að fljótt skilgreina nýja notendaflokka geturðu afritað öll heimildarsöfn frá núgildandi notendaflokki yfir í nýjan notendaflokk.
-
-> [!NOTE]
-> Meðlimir úr notendaflokki eru ekki afritaðar í nýja notendaflokkinn. Þú verður að bæta þeim við handvirkt eftir á. Nánari upplýsingar er að finna í [Að flokka notendur í notendaflokka](ui-define-granular-permissions.md#to-group-users-in-user-groups).
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendaflokkar** og velja síðan viðkomandi tengil.
-2. Veldu notendaflokkinn sem þú vilt afrita og veldu síðan aðgerðina **Afrita notendaflokk**.
-3. Í reitinn **Nýr kóði notendaflokks** skal færa inn heiti fyrir flokkinn og velja síðan hnappinn **Í lagi**.
-
-Nýja notendaflokknum er bætt við síðuna **Notendaflokkar**. Halda áfram að bæta við notendum. Nánari upplýsingar er að finna í [Að flokka notendur í notendaflokka](ui-define-granular-permissions.md#to-group-users-in-user-groups).  
-
-### <a name="to-assign-permission-sets-to-user-groups"></a>Til að úthluta leyfishópum á notendahópa
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendaflokkar** og velja síðan viðkomandi tengil.
-2. Veldu notendaflokkinn sem á að úthluta á þessum heimildum til.
-Öll heimildasöfn sem er nú þegar úthlutuð til notandans eru birtar í upplýsingakassanum **Heimildasöfn**.
-3. Veldu aðgerðina **Heimildasamstæður notanda** til að opna síðuna **Heimildasamstæður notanda**.
-4. Á síðunni **Heimildasöfn notanda** skal fylla út reitina eins og þörf krefur í nýrri línu.
-
-### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>Til að úthluta heimildasamstæðu á síðunni **Heimildasamstæða eftir notendahópum**
-
-Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til notanda á síðunni **Heimildasamstæða eftir notendahópum**.
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
-2. Á síðunni **Notendur** skal velja viðeigandi notanda, og þá velja aðgerðina **Heimildasamstæða eftir notendahópum**.
-3. Á síðunni **heimildasamstæða eftir notanda** veldu **[nafn notendaflokks]** gátreitinn á línu fyrir viðkomandi heimildasamstæðu til að tengja samstæðuna við notandann.
-4. Veldu **Allir notendahópar** gátreitinn til að úthluta heimildasamstæðunni til allra notenda.
+6. Farðu á hinar ýmsu síður og aðgerðir í [!INCLUDE[prod_short](includes/prod_short.md)] sem þú vilt að notendur með þessa heimildasamstæðu fái aðgang að. Þú verður að ljúka verkinu sem ætlunin er að skrá heimildir fyrir.
+7. Þegar á að ljúka við skráningu er farið aftur á síðuna **Heimildir** og svo valið **Stöðva** aðgerðina.
+8. Velja **Já** hnappinn til að bæta skráð heimildir við nýja heimildasafnið.
+9. Fyrir hvern hlutar á skráningar listanum, tilgreinið ef notendur geta sett inn, breytt eða eytt skráningum í skráningartöflunum.
 
 ## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Til að fjarlægja úreltar heimildir úr öllum heimildasamstæðum
 
@@ -247,7 +267,6 @@ Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað, 
 2. Á síðunni **Notandauppsetning** opnast, skal velja **Nýtt** aðgerð.
 3. Í reitnum **Kenni notanda**, skal færa inn kenni notanda, eða velja reitinn til að sjá alla núverandi Windows notendur innan kerfisins.
 4. Fyllið inn reitina eftir þörfum.
-
 
 ## <a name="viewing-permission-changes-telemetry"></a>Skoða fjarmælingar heimildabreytinga 
 
@@ -265,7 +284,8 @@ Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að se
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Stjórnun](admin-setup-and-administration.md)  
 [Bæta notendum við Microsoft 365 fyrir viðskipti](/microsoft-365/admin/add-users/add-users)  
-[Öryggi og vernd í Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) í Developer og ITPro hjálp
+[Öryggi og vernd í Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) í Developer og ITPro hjálp  
+[Úthluta notendum telemetrakenni](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights#assign-a-telemetry-id-to-users)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

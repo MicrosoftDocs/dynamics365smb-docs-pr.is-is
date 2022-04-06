@@ -2,18 +2,17 @@
 title: Samþykkja eða hafna skjölum í verkflæði| Microsoft Docs
 description: Fara fram á, hafna eða framselja samþykkt á, til dæmis, innkaupa- eða söluskjali, sem hluta af verkflæði.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 653c9e0231e7f1f28e3fe2d6987dbbf4db327faf
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588858"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517655"
 ---
 # <a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
 
@@ -21,7 +20,7 @@ ms.locfileid: "7588858"
 
 Setja upp samþykktarverkflæði á síðunni **Verkflæði**. Einnig verður að setja upp samþykkisnotendur, þar á meðal viðeigandi mörk upphæða, á síðunni **Uppsetning samþykkisnotanda**. Nánari upplýsingar er að finna í [Uppsetning Verkflæði](across-set-up-workflows.md).  
 
-Í viðbót við samþykktarverkflæði sem lýst er í þessu efnisatriði, geturðu framkvæmt ýmis önnur verkflæðisverk. Frekari upplýsingar, [Nota verkflæði](across-use-workflows.md).
+Í viðbót við samþykktarverkflæði sem lýst er í þessu efnisatriði, geturðu framkvæmt ýmis önnur verkflæðisverk. Fyrir frekari upplýsingar, [Notið verkflæði](across-use-workflows.md).
 
 Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur, viðskiptamannaspjöld og birgðaspjöldum eru tilbúin til að byrja sem leiðarvísir. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).
 
@@ -90,7 +89,7 @@ Aðgerðin **Senda samþykkistilkynningar sem komnar eru fram yfir á tíma** ka
 [Sala](sales-manage-sales.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

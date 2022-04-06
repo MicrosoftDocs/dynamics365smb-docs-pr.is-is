@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: a4877cf45e4cbf035e2914b72e10f4d7a4102e59
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 737ca33780c83a5f44576e623296976b0fc1fdd9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145863"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522981"
 ---
 # <a name="design-details-inventory-valuation"></a>Hönnunarupplýsingar: Birgðavirði
 Birgðaverðmat er ákvörðun kostnaðar sem er úthlutað til birgðavara, eins og lýst með eftirfarandi jöfnu.  
@@ -57,7 +57,7 @@ Tilgangurinn með VÍV-verðmati á birgðum er að ákvarða virði þeirra var
 [Hönnunarupplýsingar: Bókun framleiðslupöntunar](design-details-production-order-posting.md)
 [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

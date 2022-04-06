@@ -2,19 +2,18 @@
 title: Stofna vinnsluspjald fyrir vinnu og tilgreina verkefni
 description: Í nýju verkefni skal stofna verkspjald sem inniheldur verkhluta starfsins og áætlunarlínur, til að auðvelda þér að stjórna framvindu og fjárhagsáætlunum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e47aeba75459a7360ff3de87df3582b0cc0a4c17
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101244"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519623"
 ---
 # <a name="create-jobs"></a>Stofna verk
 Þegar nýtt verk er stofnað verður að stofna verkspjald með samþættum verkhlutum og áætlunarlínum, sem skipt er upp í tvö lög.  
@@ -27,6 +26,8 @@ Lagskiptingin gerir kleift að skipta verkinu í smærri verk og notast við ít
 
 > [!TIP]
 > Veldu aðgerðina **Nýtt Verk** í hlutverkamiðstöðinni **Verkefnastjóri** til að setja af stað uppsetningarleiðsögn sem leiðir notandann í gegnum skrefin við að stofna verk með samþættum verkhlutum og áætlunarlínum. Eftirfarandi ferli sýnir hvernig á að framkvæma skrefin handvirkt. Til að sjá dæmi um hvernig á að búa til starf handvirkt skal fara í [Myndband: Hvernig á að stofna verk Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
+
+Stundum er sá aðili sem tekur á móti þjónustu annar en sá aðili sem er að greiða reikninginn. **Á síðunni vinnslur** er hægt að tilgreina viðskiptamanninn sem mun njóta góðs af verkinu í **reitunum Selt-til** og aðila sem á að reikningsfæra í **reitunum Reikn**. Einnig er hægt að tilgreina hvar vinnan gerist með því að velja af lista yfir Aðsetur sendist á viðskiptamanninn, bæta við upplýsingum um ytri tilvísanir til að einfalda samskipti um verkið og skrifa yfir staðlaða fjárhagslega skilmála verksins.
 
 ## <a name="to-create-a-job-card"></a>Til að stofna verkspjald
 Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur fyrir það.
@@ -74,7 +75,7 @@ Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Áætlunar
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

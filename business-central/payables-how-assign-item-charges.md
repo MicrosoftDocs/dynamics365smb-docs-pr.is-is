@@ -10,12 +10,12 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 6cfebffb12eb2cd7ffa84e12a07c01968c429069
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd8485bf4d679e740f60c8cc38e5912953b5b0bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145603"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522825"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
 Til að tryggja rétt verðmat, verða birgðavörurnar þínar að bera allan auka kostnað, eind og t.d. farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér. Í innkaupum, þá samanstendur raunkostnaður innkeyptrar vöru af innkaupaverði frá lánardrottni og öllu beinu viðbótarvörugjaldi sem hægt er að leggja á einstaka móttöku eða endursendar afhendingar. Það getur verið fyrirtækjum jafnmikilvægt að kunna skil á kostnaði við afhendingu seldrar vöru eins og að vita raunkostnað aðkeyptrar vöru.
@@ -83,7 +83,7 @@ Kostnaðaraukinn á þessum aðgreinda innkaupareikningi er nú úthlutað til v
 [Stjórna skuldum](payables-manage-payables.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

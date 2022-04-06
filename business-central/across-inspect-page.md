@@ -6,16 +6,15 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 99dd133c3f3ab05806976c5fe840f81dcd8e1403
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440900"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517175"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Skoðun á Síðum í Business Central
 
@@ -23,7 +22,7 @@ Eiginleiki fyrir eftirlit með síðu gerir þér kleift að ná í upplýsingar
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## <a name="working-with-page-inspection"></a>Vinna með síðueftirlit
+## <a name="work-with-page-inspection"></a>Vinna við Síðuskoðun
 
 Þú byrjar síðueftirlit á **Hjálp og notendaþjónusta**. Veldu spurningamerkið efst í hægra horninu, svo **Hjálp og notendaþjónusta** og svo **Kanna síður og gögn**. Einnig er hægt að nota flýtilykilinn **Ctrl+Alt+F1**.
 
@@ -47,7 +46,7 @@ Notendur sem fá heimildir í **Kerfishlutur 5330** geta enn opnað rúðuna **E
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

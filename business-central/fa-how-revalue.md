@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5628, 5629, 5633
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 56b2beb44811ff0effa548eb72b4cf3ba2f59e69
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 7934e272652f175360d58ea3643fa28c5551c082
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366855"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512293"
 ---
 # <a name="revalue-fixed-assets"></a>Endurmeta eignir
 Endurmat eigna getur samanstaðið af uppfærslu, niðurfærslu, og leiðréttingum á almennu virði.
@@ -119,7 +119,7 @@ Ef þú valdir ekki gátreitinn **Afskr. þar til eignabókunardags.** glatar ei
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

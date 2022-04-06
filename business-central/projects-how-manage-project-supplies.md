@@ -2,7 +2,6 @@
 title: Stjórna verkbirgðum
 description: Lýsir mismunandi leiðum til að hafa umsjón með framboð og innkaupum á efni og þjónustu fyrir verk.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, material, purchase
 ms.search.form: 98, 1020
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 54158c8d10dd85b9ac8243059e1dfdbfd299e882
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 5683baf005fe8dc89cf5f133f790e5682fb5c173
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971837"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516589"
 ---
 # <a name="manage-job-supplies"></a>Stjórna verkbirgðum
 Það er mikilvægur og óaðskiljanlegur hluti af framkvæmd allra verka að hafa umsjón með framboði á vöru, þjónustu og útgjöldum. Nota má birgðamagn eða gera verktengd innkaup með innkaupapöntunum og/eða innkaupareikningum. Sem dæmi má nefna þjónustuverk á tölvu sem krefst þess að nýr diskur sé keyptur. Þá er búinn til innkaupareikningur til kaupa á nýjum diski og verkið, sem nota á diskinn í, er skráð.
@@ -54,7 +53,7 @@ Ef þú verður fyrir óvenjulegum útgjöldum eða útgöldum sökum eins verks
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)         
 [Sala](sales-manage-sales.md)      
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

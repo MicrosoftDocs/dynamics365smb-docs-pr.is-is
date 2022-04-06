@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 201,206, 207, 271, 493
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 749ef6e4da9ffe8997647eae67d25362b7dbab6d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9e2d8b51381e3fd89f9fab423485fc52cee46071
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143435"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517369"
 ---
 # <a name="use-resources-for-jobs"></a>Nota tilföng fyrir verk
 
@@ -77,9 +77,9 @@ Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt
 
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  
-[Innkaup](purchasing-manage-purchasing.md)  
-[Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Innkaup](purchasing-manage-purchasing.md)         
+[Sala](sales-manage-sales.md)     
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

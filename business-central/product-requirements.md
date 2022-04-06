@@ -1,20 +1,20 @@
 ---
 title: Lágmarkskröfur fyrir notkun Business Central
 description: Kynntu þér lágmarkskröfur um kerfi og útgáfu til að nota Business Central á netinu eins og er útskýrt hér á eftir.
-author: edupont04
+author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 8f0e9b608611c963cd31112a31d004108ad1ab73
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/31/2022
+ms.author: jswymer
+ms.openlocfilehash: 8a2c342f31dc4c17bb34af22ffc912dcc51c5cf9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135186"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514414"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 
@@ -24,25 +24,16 @@ ms.locfileid: "8135186"
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.
   
-**Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra. 
+**Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra. Skjáborðs-App fyrir seðla Business virkar ekki með Firefox.
  
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Safari á OSX.  
 
 ## <a name="mobile-devices"></a>Fartæki
 
-**Windows:** Windows 10 S, Home, Pro, Enterprise eða Education (32-bita og 64-bita útgáfur).
-
 **Android (spjaldtölva og sími):** Ein af síðustu þremur stóru útgáfunum og uppfærslur þeirra.
 
 **iOS (iPad og iPhone):** Ein af síðustu þremur stóru útgáfunum og uppfærslur þeirra.
 
-<!--
-
-**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
-**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] for iPad and iPhone requires iOS 10.0 or later.  
-**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1 GB of RAM and Android 6.0 or higher.  
-**Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smart phones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
--->
 ## <a name="outlook"></a>Outlook
 
 **Outlook-forrit:** Til að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2019 eða nýrra, Outlook á netinu, Outlook fyrir iOS, Outlook fyrir eða Outlook fyrir Android. Fyrirtækið verður einnig að nota Microsoft 365. Ekki er hægt að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum. 
@@ -50,8 +41,8 @@ ms.locfileid: "8135186"
 > [!IMPORTANT]
 > Frá og með Business Central 2021 útgáfutímabili 2 geturðu ekki lengur skráð þig inn á viðbótina Business Central í Outlook-útgáfum eldri en 2012 útgáfan.
   
-**Vafrar:** Þegar [!INCLUDE[prod_short](includes/prod_short.md)] er notað sem fyrirtækisinnhólf í Outlook í vafra krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein. 
- 
+**Vafrar:** Þegar [!INCLUDE[prod_short](includes/prod_short.md)] er notað sem fyrirtækisinnhólf í Outlook í vafra krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein.
+
 **Verkvangar:** Þegar þú notar [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-innbótina í Outlook fyrir iOS eða Outlook fyrir  Android þarf farsíminn þinn að keyra kerfi sem eru studd fyrir fartæki fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="teams"></a>Teymi
@@ -78,7 +69,7 @@ Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af ef
 - Firefox fyrir Windows
 - Safari fyrir macOS
 
-## <a name="using-business-central-on-premises"></a>Notkun Business Central á staðnum
+## <a name="use-business-central-on-premises"></a>Nota Viðskiptamiðað innanhúss
 
 Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Frekari upplýsingar er að finna í [Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) og [Yfirlit uppsetningar](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 

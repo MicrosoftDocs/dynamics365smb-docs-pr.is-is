@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134149"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519186"
 ---
-# <a name="using-the-prod_short-apps-in-power-bi"></a>Með [!INCLUDE [prod_short](includes/prod_short.md)]-forritunum í Power BI
+# <a name="use-the-prod_short-apps-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)] Notaðu appið í Power BI
 
 > **Á VIÐ:** [!INCLUDE [prod_long](includes/prod_long.md)] á netinu 
 
@@ -156,7 +156,7 @@ Power BI-forritið sýnir aðeins gögn úr [!INCLUDE[prod_short](includes/prod_
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Unnið með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI](across-working-with-business-central-in-powerbi.md)  
+[Vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI](across-working-with-business-central-in-powerbi.md)  
 [Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)]-gögn](across-how-use-financials-data-source-powerbi.md)  
 [Power BI fyrir neytendur](/power-bi/consumer/end-user-consumer)  
 [„Nýtt útlit“ Power BI þjónustunnar](/power-bi/service-new-look)  
@@ -166,9 +166,9 @@ Power BI-forritið sýnir aðeins gögn úr [!INCLUDE[prod_short](includes/prod_
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnagjafa](across-how-use-financials-data-source-powerapps.md)  
+[Notkunar [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 1726162e25b3a488df0d179c702c9c99afcc5c91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 053b834e122d5d5331642dcb9232a76a8bc1dbeb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143973"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514571"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Fínstilling Outlook fyrir fyrirtækjainnhólf þitt 
 
@@ -29,7 +29,7 @@ Uppfæra í Outlook útgáfu 2012 eða nýrri.
 
 ### <a name="how-to-check-your-version-of-outlook"></a>Hvernig á að athuga útgáfu þína af Outlook
 
-Hvort sem þú notar Office 2019 eða Microsoft 365 skaltu fylgja þessari Microsoft support handbók til að athuga hvaða útgáfu af Outlook þú hefur:  
+Hvort sem þú notar Office 2019 eða Microsoft 365 fylgir þessari Microsoft Support Guide til að athuga hvaða útgáfu af Outlook þú ert með:  
 
 [Um Office: Hvaða útgáfu af Office er ég að nota?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 
@@ -81,7 +81,7 @@ Gerðu eftirfarandi til að athuga hvort Microsoft Edge WebView2 sé uppsett á 
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook)  
-[Notkun innbóta í Outlook á vefnum](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Nota viðbætur í Outlook á vefnum](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

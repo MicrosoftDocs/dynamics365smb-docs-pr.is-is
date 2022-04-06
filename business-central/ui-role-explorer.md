@@ -2,20 +2,20 @@
 title: Skoða og fletta í síðum eftir hlutverki
 description: Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir hlutverkið þitt og önnur hlutverk með hlutverkaleitinni.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: role explorer, find features, navigate
+ms.search.form: RoleExplorer, 9020, 9022, 9027, 9018
 ms.date: 08/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ba09bdcb19e65b317737412fa97403bef417e2c6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
+ms.openlocfilehash: 00831e4109f765f9ae0d275acc3f0c9902e1dae2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588933"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512075"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Að finna síður með hlutverkaleit
 
@@ -96,6 +96,6 @@ Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eig
 ## <a name="see-also"></a>Sjá einnig
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

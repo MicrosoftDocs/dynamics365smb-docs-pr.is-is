@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5212, 5211, 5200
+ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 77ae09aebd78c870cc92d01700fc9a9188f340ee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: deb54eae1b6b6494043ae1ed0d3fc5cbdf2bab22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146437"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516240"
 ---
 # <a name="manage-employee-absence"></a>Haldið utan um fjarvistir starfsmanna
 Til að geta haldið utan um fjarvistir starfsmanns er nauðsynlegt að skrá fjarveru á síðuna **Skráning fjarvista**. Þá er hægt að skoða þær á ýmsan hátt eins og þarf til greiningar og skráningar.
@@ -69,7 +69,7 @@ Hægt er að skrá fjarvistir starfsmanna daglega eða á einhverjum öðru tím
 ## <a name="see-also"></a>Sjá einnig
 [Hafa umsjón með mannauði](hr-manage-human-resources.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)
 
 

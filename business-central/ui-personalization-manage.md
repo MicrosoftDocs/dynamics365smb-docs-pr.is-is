@@ -2,18 +2,17 @@
 title: Sérsníða síður fyrir hlutverk
 description: Kynntu þér hvernig á að sérsníða notandaviðmótið fyrir forstillingu (hlutverk) þannig að allir notendur þess sjái sérsniðið vinnusvæði.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 370429bfbcc1d93c7cce8d40cf844eb021109e39
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: eb00a19bd5d61e8ed465e3765ef38561ce058554
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101030"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521521"
 ---
 # <a name="customize-pages-for-profiles"></a>Sérsníða síður fyrir forstillingar
  Notendur geta sérstillt síður vinnusvæðisins síns sitt að vild. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
@@ -71,7 +70,7 @@ Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyri
 [Vinna með forstillingar](admin-users-profiles-roles.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

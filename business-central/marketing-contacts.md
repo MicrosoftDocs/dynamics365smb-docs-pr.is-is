@@ -2,7 +2,6 @@
 title: Stofna og stjórna tengiliðum fyrirtækis
 description: Settir eru upp sem tengiliðir allir ytri aðilar sem fyrirtækið hefur viðskiptatengsl við (til dæmis viðföng, viðskiptamenn, lánadrottnar og ráðgjafar).
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 581e89630782f4cfca364838002fa4eca4ddbb6d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
-ms.translationtype: HT
+ms.openlocfilehash: 02c5ff657faba046ae7bd83a27e5694c8fb3ef8f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060171"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519675"
 ---
 # <a name="managing-contacts"></a>Vinna með tengiliði
 
@@ -37,7 +36,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  
-[Unnið með Business Central](ui-work-product.md)  
+[Vinna með Viðskiptaseðla-](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

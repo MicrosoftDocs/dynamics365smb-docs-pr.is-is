@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142576"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510944"
 ---
-# <a name="working-with-prod_short-data-in-power-bi"></a>Unnið með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI
+# <a name="work-with-prod_short-data-in-power-bi"></a>Vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI
 
 Í þessari grein lærir þú undirstöðuatriði varðandi vinnu við skýrslur og mælaborð í Power BI sem nota [!INCLUDE [prod_short](includes/prod_short.md)] sem gagnaveitu. Greinin fjallar um suma þætti sem munu hjálpa til við að hefjast handa sem [!INCLUDE[prod_short](includes/prod_short.md)] notandi. Almennar leiðbeiningar og leiðbeiningar um notkun á Power BI er að finna í [Power BI fylgigögnum fyrir neytendur](/power-bi/consumer).
 
@@ -64,7 +64,7 @@ Frekari upplýsingar er að finna á [Hlaða upp skýrslu á þjónustu](/power-
 > Til að hlaða upp skýrslu þarftu að hafa [Premium afkastagetu](/power-bi/service-premium-what-is) vinnusvæði. Nánari upplýsingar er að finna í [Stjórnun Premium eiginleika](/power-bi/admin/service-premium-capacity-manage). 
 
 > [!TIP]
-> Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á netinu geturðu einnig hlaðið upp skýrslu úr [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Unnið með Power BI kýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] Hlaða upp skýrslum](across-working-with-powerbi.md#upload).
+> Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á netinu geturðu einnig hlaðið upp skýrslu úr [!INCLUDE[prod_short](includes/prod_short.md)]. Sjá [vinnu með Power BI skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] -senda skýrslur fyrir frekari upplýsingar](across-working-with-powerbi.md#upload).
 
 ## <a name="share-reports-with-others"></a><a name="share"></a>Deila skýrslum með öðrum
 
@@ -82,7 +82,7 @@ Til að deila skýrslu, í listaskýrslum, eða í opinni skýrslu skal velja **
 [Business Central og Power BI](admin-powerbi.md)  
 [Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)]-gögn](across-how-use-financials-data-source-powerbi.md)  
 [Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Unnið með Power BI Skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
+[Vinna með Power BI skýrslur í[!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
 [Power BI fyrir neytendur](/power-bi/consumer/end-user-consumer)  
 [„Nýtt útlit“ Power BI þjónustunnar](/power-bi/service-new-look)  
 [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -91,9 +91,9 @@ Til að deila skýrslu, í listaskýrslum, eða í opinni skýrslu skal velja **
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnagjafa](across-how-use-financials-data-source-powerapps.md)  
+[Notkunar [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

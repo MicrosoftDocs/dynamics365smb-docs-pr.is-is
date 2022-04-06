@@ -2,7 +2,6 @@
 title: Hönnunarupplýsingar - Bókun framleiðslupöntunar | Microsoft Docs
 description: Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 51d04edb267ba2d75b4ed57d1587b40994f009cc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442361"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511702"
 ---
 # <a name="design-details-production-order-posting"></a>Hönnunarupplýsingar: staða framleiðslupöntunar
 Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md). Hins vegar er kostnaðarrennsli fyrir samsetningarpantanir síður flókið, sérstaklega vegna þess að bókun samsetningarkostnaðar á sér aðeins stað einu sinni og myndar því ekki birgðir með verkum í vinnslu.
@@ -109,7 +108,7 @@ Raunkostnaður er bókaður á framleiðslupöntunina og borinn saman við stað
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md) [Fjármál](finance.md)  
- [Unnið með Business Central](ui-work-product.md)
+ [Vinna með Viðskiptaseðla-](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

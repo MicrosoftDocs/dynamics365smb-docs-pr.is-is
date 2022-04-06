@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7351, 7382, 9330
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2a9f24087303cd4570adad5124c996e84204dc97
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: da2f937c50e5634a5f4e3abe6d1eae9064916f52
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382260"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513264"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Færa íhluti á aðgerðasvæði í grunnskilgreiningu vöruhúss
 Ef vöruvinnsla fer fram í vöruhúsi gæti þurft að færa vörur á milli innri hólfa í samræmi við innri upprunaskjöl, svo sem framleiðslu-, samsetningar- eða þjónustupantanir úr birgðageymslu.  
@@ -75,7 +75,7 @@ Að öðru kostir getur starfsmaður í vöruhúsi stofnað hana með því að 
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

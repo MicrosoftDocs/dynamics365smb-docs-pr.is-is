@@ -4,7 +4,6 @@ description: Þetta efnisatriði lýsir því hvernig þú getur unnið úr söl
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: d67e1d1eda6cf3ae80ebad185a0db3fadd3eec1b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 927e90a5e25205873a3d0784c7065b9735dc7b24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437603"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515460"
 ---
 # <a name="process-sales-opportunities"></a>Meðhöndla sölutækifæri
 Þegar tækifæri er stofnað eru margar aðgerðir til að stjórna tækifæri og vinna það til enda.
@@ -87,7 +86,7 @@ Ef tækifæri kemur í kjölfar söluferlis, er hægt að flytja það fram eða
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

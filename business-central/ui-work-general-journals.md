@@ -10,14 +10,14 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e697127998351040cb21c44c8383f1f64581bf4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381327"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518758"
 ---
-# <a name="working-with-general-journals"></a>Vinna í færslubókum
+# <a name="work-with-general-journals"></a>Vinna við Almennar færslubækur
 
 Flestar fjárhagsfærslur eru bókaðar í fjárhag gegnum sérstök viðskiptaskjöl, eins og innkaupareikninga og sölupantanir. Einnig er hægt að vinna úr viðskiptaaðgerðum, svo sem kaupum, greiðslum, notkun ítrekunarbóka til að bóka ítrekanir eða endurgreiðslum vegna útgjalda starfsmanna með því að bóka færslubókarlínur í ýmsum færslubókum í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -34,7 +34,7 @@ Upplýsingarnar sem eru færðar inn í færslubók eru til bráðabirgða og þ
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="using-journal-templates-and-batches"></a>Nota sniðmát færslubóka og keyrslur
+## <a name="use-journal-templates-and-batches"></a>Nota sniðmát og keyrslur færslubóka
 
 Til eru nokkur færslubókarsniðmát. Hvert sniðmát færslubókar er með sérstaka síðu með ákveðnum aðgerðum og reitum sem verða að styðja aðgerðirnar, eins og síðan **greiðsluafstemmingarbók** til að vinna bankagreiðslur og síðan **greiðslubók** til að borga lánardrottnum þínum eða endurgreiða starfsmönnum. Frekari upplýsingar er að finna í [Framkvæma greiðslur](payables-make-payments.md) og [Afstemma greiðslur viðskiptamanns við inngreiðslubók eða úr færslum í viðskiptamannabók](receivables-how-apply-sales-transactions-manually.md).
 
@@ -51,7 +51,9 @@ Til að hjálpa til við að koma í veg fyrir tafir við bókun er hægt að kv
 
 Þegar staðfesting er valin birtist **Athugun á færslubók** upplýsingareiturinn við hliðina á færslubókarlínunum og sýnir vandamál í núverandi línu og allri rununni. Staðfesting kemur upp þegar verið er að hlaða fjárhagsbókarkeyrslu, og þegar önnur færslubókarlína er valin. **Heildarfjöldi vandamála** reiturinn í upplýsingareitnum sýnir heildarfjölda vandamála sem [!INCLUDE[prod_short](includes/prod_short.md)] fann og hægt er að velja hann til að opna yfirlit yfir vandamálin. 
 
-Hægt er að nota **Sýna línur með vandamál** og **Sýna allar línur** aðgerðirnar til að skipta á milli færslubókarlína sem eru með vandamál og þeirra sem eru það ekki. Nýi **Upplýsingar færslubókarlínu** gátreiturinn veitir flýtiyfirlit og aðgang að gögnum úr færslubókarlínum, svo sem fjárhagsreikningi, viðskiptamanni eða lánardrottni, sem og bókunaruppsetningu fyrir tiltekna lykla.     
+Hægt er að nota **Sýna línur með vandamál** og **Sýna allar línur** aðgerðirnar til að skipta á milli færslubókarlína sem eru með vandamál og þeirra sem eru það ekki. Nýi **Upplýsingar færslubókarlínu** gátreiturinn veitir flýtiyfirlit og aðgang að gögnum úr færslubókarlínum, svo sem fjárhagsreikningi, viðskiptamanni eða lánardrottni, sem og bókunaruppsetningu fyrir tiltekna lykla.   
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Bakfæra færslubækur til að leiðrétta mistök
 Þegar unnið er með færslubækur sem eru með margar línur og eitthvað fer úrskeiðis er mikilvægt að það sé einfalt að leiðrétta mistökin. Á síðunni **Bókuð færslubók** eru aðgerðir sem kynnu að gagnast.
@@ -73,7 +75,7 @@ Ef stofnaðir voru sjálfgefnir mótreikningar fyrir bókakeyrslur á síðunni 
 > [!NOTE]  
 > VSK er reiknaður út á aðskilin hátt fyrir aðalreikninginn og mótreikninginn, þannig að þar er hægt að nota mismunandi VSK prósentuhlutfall.
 
-## <a name="working-with-recurring-journals"></a>Vinna með Ítrekunarbækur
+## <a name="work-with-recurring-journals"></a>Vinna með Ítrekunarbækur
 Ítrekunarbók er færslubók með sérstökum reitum til að stjórna færslum sem eru bókaðar reglulega með litlum eða engum breytingum, t.d. leigu, áskriftum, rafmagni og hita. Með því að nota þessa reiti fyrir endurteknar færslur er hægt að bóka bæði fastar og breytilegar upphæðir. Einnig er hægt að tilgreina sjálfvirkar bakfærslur daginn eftir bókunardagsetningu. Einnig er hægt að nota úthlutunarlykla til að skipta ítrekunarfærslum niður á ýmsa reikninga. Nánari upplýsingar eru í [Úthluta upphæðum ítrekunarbókar á nokkra reikninga](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Með ítrekunarbók þarf aðeins einu sinni að setja inn færslur sem bókaðar verða reglulega. Það þýðir að reikningar, víddir og víddargildi o.s.frv sem fært er inn verður áfram í færslubókinni að lokinni bókun. Óhjákvæmilegar leiðréttingar má gera við hverja bókun.
@@ -97,7 +99,7 @@ Reiturinn ákvarðar hvernig upphæðin í færslubókarlínunni er meðhöndlu�
 > Hægt er að fylla út VSK-reitina annaðhvort í ítrekunarbókarlínu eða úthlutunarbókarlínu en ekki í báðum. Það ma sem sagt einungis fylla þá út á síðunni **Úthlutanir** ef samsvarandi línur í ítrekunarbókinni hafa ekki verið fylltar út.
 
 ### <a name="recurring-frequency-field"></a>Reitur ítrekunartíðni
-Reiturinn ákvarðar hversu oft skuli bóka færsluna í bókarlínunni. Þetta er reitur með dagsetningarreiknireglu og það verður að fylla hann út fyrir ítrekunarbókarlínur. Frekari upplýsingar er að finna í [Að nota dagsetningarreiknireglur](ui-enter-date-ranges.md#using-date-formulas).
+Reiturinn ákvarðar hversu oft skuli bóka færsluna í bókarlínunni. Þetta er reitur með dagsetningarreiknireglu og það verður að fylla hann út fyrir ítrekunarbókarlínur. Sjá [Use Dagsetningarformúlur fyrir frekari upplýsingar](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Dæmi
 Ef þarf að bóka færslubókarlínuna í hverjum mánuði skal færa inn „1M“. Eftir hverja bókun er dagsetningin í reitnum **Bókunardags.** uppfærð í sama mánaðardag næsta mánaðar.
@@ -145,7 +147,7 @@ Uppsafnanir eru yfirleitt bókaðar með föstum, breytilegum eða bakfærslum �
 > [!NOTE]
 > Sjálfgefið er að reiturinn **Útreikningur bakfærsludags** sé ekki tiltækur á síðunni **Ítrekunarfærslubækur**. Til að nota svæðið þarf að bæta því við með því að sérsníða síðuna. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-## <a name="working-with-standard-journals"></a>Vinna með Staðlaðar færslubækur
+## <a name="work-with-standard-journals"></a>Vinna við staðlaðar færslubækur
 Þegar bókarlínur sem líklegt er að verði stofnaðar aftur hafa verið stofnaðar er hægt að vista þær sem staðlaða færslubók áður en bókin er bókuð. Þessi virkni gildir um birgðabækur og almennar færslubækur.
 
 > [!NOTE]  
@@ -218,7 +220,7 @@ Gildi í **Skjal nr.** reitnum breytast þar sem þörf er á, þannig að núme
 [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)  
 [Úthluta kostnaði og tekjum](year-allocate-costs-income.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Endurmat birgða í endurmatsbókinni](inventory-how-revalue-inventory.md)  
 [Talning, breytingar og endurflokkun birgða með færslubókum](inventory-how-count-adjust-reclassify.md)  

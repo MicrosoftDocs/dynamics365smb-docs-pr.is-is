@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 901f3899ef164d3d24dbc5c4e2226b840c97c945
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137186"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522643"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Stjórna vistuðum stillingum fyrir skýrslur og runuvinnslur
 
-Þegar skýrslur eru keyrðar er notendum yfirleitt sýnd síða sem gerir þeim kleift að velja valkosti og síur fyrir breytingar á gögnum sem eru í mynduðu skýrslunni. Þessi síða heitir *beiðssían*. Skýrsla getur innihaldið eitt eða fleiri *vistaðar stillingar* sem notendur geta notað á skýrsluna úr beiðnisíðunni. *Vistuð stillingar* eru skoðaður fyrirfram skilgreind valkosti og afmarkanir. Notkun vistaðra stillinga er fljótleg og áreiðanleg leið til að búa til skýrslur sem innihalda rétt gögn. Frekari upplýsingar fást með því [að nota sjálfgefnar gildi fyrir forskilgreindar stillingar](ui-work-report.md#SavedSettings).
+Þegar skýrslur eru keyrðar er notendum yfirleitt sýnd síða sem gerir þeim kleift að velja valkosti og síur fyrir breytingar á gögnum sem eru í mynduðu skýrslunni. Þessi síða heitir *beiðssían*. Skýrsla getur innihaldið eitt eða fleiri *vistaðar stillingar* sem notendur geta notað á skýrsluna úr beiðnisíðunni. *Vistuð stillingar* eru skoðaður fyrirfram skilgreind valkosti og afmarkanir. Notkun vistaðra stillinga er fljótleg og áreiðanleg leið til að búa til skýrslur sem innihalda rétt gögn. Frekari upplýsingar fást [í use vistuðum stillingum](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
 > Þetta efnisatriði vísar í *skýrslur* en svipaðar upplýsingar eiga við um *runuvinnslur*.
@@ -57,6 +57,7 @@ Ef réttar heimildir eru til staðar er hægt að skoða, stofna og breyta vistu
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
+[Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

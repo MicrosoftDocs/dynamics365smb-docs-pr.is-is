@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d1a7121f74cf58289e0bf4ce6a80080c071f64fe
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 44c9cdadc47a40f8915f3134018c062d90fe06c5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383480"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511676"
 ---
-# <a name="working-with-accounting-periods-and-fiscal-years"></a>Unnið með fjárhagstímabil og fjárhagsár
+# <a name="work-with-accounting-periods-and-fiscal-years"></a>Vinna með bókhaldstímabil og reikningsár
 
 Fjárhagstímabil, sem einnig eru þekkt sem skýrslutímabil, eru tímabil þar sem fyrirtæki eða stofnun greinir frá fjárhagslegri frammistöðu, t.d. með því að búa til rekstrarreikning eða efnahagsreikning. Venjulega tengjast fjárhagstímabil fjárhagsári fyrirtækis, sem geta innihaldið nokkur fjárhagstímabil, svo sem mánuði eða ársfjórðunga.
 

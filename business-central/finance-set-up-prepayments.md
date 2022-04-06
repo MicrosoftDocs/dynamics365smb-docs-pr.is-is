@@ -2,18 +2,17 @@
 title: Uppsetning fyrirframgreiðslu
 description: Kynntu þér hvernig á að skilgreina Business Central þannig að hægt sé að nota fyrirframgreiðslur til að reikningsfæra og innheimta innborganir frá viðskiptavinum og senda lánardrottnum innborganir.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
-ms.translationtype: HT
+ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100900"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516214"
 ---
 # <a name="set-up-prepayments"></a>Uppsetning fyrirframgreiðslu
 
@@ -102,7 +101,7 @@ Með öðrum orðum, fyrirframgreiðsluprósentan í viðskiptamannsspjaldinu á
 [Reikna vöru- og þjónustuskatt á fyrirframgreiðslum á Nýja-Sjálandi](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Skilja fjárhag og bókhaldslykil](finance-general-ledger.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Hönnunarupplýsinga - Frávik | Microsoft Docs
 description: Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostnað, eins og lýst er í eftirfarandi formúlu.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3b6ec6cbd2ebef6ff2cd44a49284821485d63f6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: db015f330a89a164b7636b4f44a265f528e9cc3f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439561"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513045"
 ---
 # <a name="design-details-variance"></a>Hönnunarupplýsingar Frávik
 Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostnað, eins og lýst er í eftirfarandi formúlu.  
@@ -63,7 +62,7 @@ Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostn
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md) [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
- [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,17 +2,17 @@
 title: Söluskýrslur og greiningar
 description: Finnið út hvaða söluskýrslur eru í boði í staðlaðri útgáfu Business Central til að halda utan um reksturinn.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_107, Report_111, Report_112, Report_113, Report_119, Report_121, Report_129, Report_209, Report_708, Report_713, Report_718, Report_813, Report_7313
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: bb41c0e03da4163735663fbc3c402905e702dffd
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
-ms.translationtype: HT
+ms.openlocfilehash: 416318805626e853fcd8d1964c3ed4e172de0f90
+ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102422"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455498"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Söluskýrslur og greiningar í Business Central
 

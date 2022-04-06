@@ -2,18 +2,17 @@
 title: Skýrsluval í Business Central
 description: Kynntu þér hvernig á að setja upp skýrslurnar sem þú notar til að prenta ýmsar tegundir skjala í Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 04/01/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 0e79f1414e73b94ce9bc6bf6e3ae3402e2d29d66
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
-ms.translationtype: HT
+ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012473"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512453"
 ---
 # <a name="report-selection-in-business-central"></a>Skýrsluval í Business Central
 
@@ -44,6 +43,7 @@ Sjálfgefna útgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] innihel
 * **Skýrsluval – vöruhús**  
 * **Skýrsluval - Bankareikningur**  
 * **Innheimtubréf/vaxtareikningur skýrsluvals**  
+* **Skýrsluval-starf**  
 
 ## <a name="example-report-selection-for-sales-documents"></a>Dæmi: Skýrsluval fyrir söluskjöl
 
@@ -69,6 +69,15 @@ Til dæmis á síðunum **Skýrsluval - Sala** og **Skýrsluval - innkaup** hjá
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
 [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md)  
 [Setja upp prentara](ui-specify-printer-selection-reports.md)  
-
+[Ársskýrslur og Greinaskil á Viðskiptaaðalfundi](finance-reports.md)  
+[Viðskiptaskýrslur og greinaskil í viðskiptabönkum miðlæg](receivables-reports.md) 
+[viðskiptaskýrsla og greinaskil í viðskiptamiðinu](payables-reports.md)  
+[Eignaskýrslur og Greinaskil í Viðskiptamiðinu](fa-reports.md)  
+[Verkefnaskýrslur og Greinaskil í Viðskiptamiðinu](project-reports.md)  
+[Söluskýrslur og Greinaskil í Viðskiptamiðinu](sales-reports.md)  
+[Innkaupaskýrslur og Greinaskil í Viðskiptamiðinu](purchase-reports.md)  
+[Birgðir og Vöruhúsatínslur og Analytics í viðskiptum miðlægt](inventory-WMS-reports.md)  
+[Samsetningarskýrslur og Greinaskil í Viðskiptamiðinu](assembly-reports.md)  
+[Framleiðsluskýrslur og Greinaskil í Viðskiptamiðinu](production-reports.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

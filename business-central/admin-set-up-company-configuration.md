@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e142f8aef14ea82d67de0c51a996e4f6a6b43dbf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143935"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513175"
 ---
-# <a name="set-up-company-configuration"></a>Uppsetning grunnstillingu fyrirtækis
+# <a name="set-up-company-configuration-with-rapidstart-services"></a>Setja upp skilgreiningu fyrirtækis með RapidStart Services
+
 Innleiðingarferlið hefst með samstarfsaðili Microsoft. Sem samstarfsaðili ertu ábyrgur fyrir því að fara gegnum upplýsingar um skilgreiningar og stofna pakka sem viðskiptavinur getur auðveldlega notað. Áður en nýtt fyrirtæki er stofnað í [!INCLUDE [prod_short](includes/prod_short.md)] á netinu eða staðnum er ráðlagt að áætla hvernig það muni vera grunnstillt. Hafa þarf í huga grunnuppsetningargögn og tegundir gagna sem [!INCLUDE[prod_short](includes/prod_short.md)] lausnin krefst. Allar þessar upplýsingar eru sameinaðar í grunnstillingarpakka.
 
 RapidStart Services býður einnig upp á verkfæri sem verða notuð til að flytja eldri gögn, eins og viðskiptamenn og lánardrottnar.  

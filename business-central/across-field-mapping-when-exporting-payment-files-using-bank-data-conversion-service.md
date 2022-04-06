@@ -2,7 +2,6 @@
 title: Reitavörpun fyrir útflutning bankagreiðsluskráa | Microsoft Docs
 description: Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f705334d42d27e22d9108a410ab91a213c725a4d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
+ms.openlocfilehash: 31f6c59f13bed6fdb62624b56ad732824af77230
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437753"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519330"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
-Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar um AMC Banking 365 Fundamentals-viðbótina er að finna í [með því að nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md).  
+Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Nánari upplýsingar um AMC Banking 365 Fundamentals framlengingunni [fást í notat AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
 >  Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir þjónustuna geta séð eitthvað af gögnunum. Þjónustuveita, AMC Consult A/S, er ábyrg fyrir persónuvernd gagnanna. Nánari upplýsingar er að finna í [AMC-persónuverndarstefnu](https://go.microsoft.com/fwlink/?LinkId=510158).  
@@ -72,8 +71,8 @@ Eftirfarandi tafla inniheldur lista yfir reiti í [!INCLUDE[prod_short](includes
 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
-[Rafræn gagnaskipti](across-data-exchange.md)
-[Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md)   
+[Skiptast á gögnum rafrænt](across-data-exchange.md)
+[skal AMC Banking 365 Fundamentals nota viðaukann](ui-extensions-amc-banking.md)   
 [Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 
 

@@ -10,12 +10,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b4f48182e6d4356e9621dc5a041945700f5d7599
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3469abf51165af7dcbdeb9c97e867829fe97ff22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143926"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513149"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -47,9 +47,9 @@ Eftirfarandi tafla lýsir tiltækum eiginleikum.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] samþættist við Power BI í gegnum tengil með OData. Gagnagjafi fyrir Power BI-skýrslur kemur fyrir sem API-síður og OData-vefþjónustur.
 
-:::image type="content" source="./media/power-bi-architecture.png" alt-text="Alt texti myndar." lightbox="./media/power-bi-architecture.png":::
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Mynd Alt texti." lightbox="./media/power-bi-architecture.png":::
 
-Frá og með febrúar 2022 Power BI eru skýrslur fyrir [!INCLUDE[prod_short](includes/prod_short.md)] netið fengnar úr auka, skrifvarinni gagnagrunnseftirmynd. Eftirmynd gagnagrunnsins er hluti af lestrargetunni [á](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) [!INCLUDE[prod_short](includes/prod_short.md)] netinu. Þessi skilgreining losar um aðalgagnagrunninn fyrir færslur sem eykur afköst kerfisins. Tenging við skrifvarinn gagnagrunnseftirmynd er órjúfanlegur hluti af Business Central nettenginu og krefst engrar aukauppsetningar af þinni hálfu. Allar nýjar skýrslur tengjast sjálfgefið skrifvörðum gagnagrunnsafmynd. Gamlar skýrslur munu enn nota aðalgagnagrunninn. Frekari upplýsingar er að finna í [Business Central 2021 Release Wave 2 Plan](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
+Sem hefst í febrúar 2022, Power BI skýrslur vegna netbeinis úr aukafall, lesefni um [!INCLUDE[prod_short](includes/prod_short.md)] gagnagrunn skv. Gagnagrunneftirmeðferð er hluti af [lestrarkvarða](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) hæfileiki í [!INCLUDE[prod_short](includes/prod_short.md)] nettengingum. Þessi Skilgreining losar aðalgagnagrunn fyrir færslur, sem eykur afköst kerfisins. Tenging við eftirmynd ritvarðar gagnagrunns er óaðskiljanlegur hluti af veftenginu miðlægt og krefst engra auka uppsetningar á hlutanum. Allar nýjar skýrslur munu tengjast ritgagnasafninu sem er sjálfgefið. Eldri skýrslur munu enn nota aðalgagnagrunninn. Nánari upplýsingar eru [í Business Central 2021 Wave 2 áætlun](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
 ## <a name="general-flow"></a>Almennt flæði
 
@@ -78,9 +78,9 @@ Eftirfarandi skýringarmynd sýnir grunnverkflæði fyrir notendur þegar verið
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnagjafa](across-how-use-financials-data-source-powerapps.md)  
+[Notkunar [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
