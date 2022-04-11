@@ -2,7 +2,6 @@
 title: 'Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð | Microsoft Docs'
 description: Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginleika pöntunarrakningar og aðgerðaboða.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 4671954cd059360e4f16db5cb4a4faf3ce01aff4
-ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
-ms.translationtype: HT
+ms.openlocfilehash: a45ba50302d2d50fae805c67ae51cb4d95b61d48
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "7949051"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131900"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð
 Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginleika pöntunarrakningar og aðgerðaboða.  
@@ -111,7 +110,7 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  Þessi meginregla felur í sér að breyting á eftirspurn leiðir til samsvarandi ójafnvægi á framboðshlið pöntunarnets. Hins vegar leiðir birgðabreyting til samsvarandi ójafnvægis á eftirspurnarhlið pantanakerfisins. Í raun er pöntunarnetið í síbreytilegu flæði því notendur slá inn, breyta og eyða pöntunum. Pöntunarrakning vinnur pantanir kvikt, bregst við öllum breytingum á þeim tíma sem þær eru færðar inn í kerfið og verða hluti af pöntunarnetinu. Um leið og ný pöntunarrakning er stofnuð er pöntunarnetið í jafnvægi, en aðeins þangað til að næsta breyting á sér stað.  
 
- Til að auka gagnsæi útreikninga í áætlunarkerfinu **birtir síðan Órakin áætlunareiningar** órakið magn sem táknar mismuninn á magni milli þekktrar eftirspurnar og framboðs sem lagt er til. Hver lína á síðunni vísar til orsakar af umframmagni, svo sem **Standandi pöntun**, **Öryggisbirgðastig**, **Fast endurpöntunarmagn**, **Lágmarks pöntunarmagn**, **Sléttun** eða **Hömlur**.  
+ Til að auka gagnsæi útreikninga í áætlanakerfinu er síðan á **síðunni Órakin áætlanagerð** í óraklegu magni sem sýnir muninn á magni milli þekktra eftirspurnar og leiðbeinandi framboðs. Hver lína á síðunni vísar til orsakar af umframmagni, svo sem **Standandi pöntun**, **Öryggisbirgðastig**, **Fast endurpöntunarmagn**, **Lágmarks pöntunarmagn**, **Sléttun** eða **Hömlur**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Mótbókun í pöntunarrakningu  
  Ólíkt frátekningum, sem getur aðeins verið gert gegn fyrirliggjandi vörumagni, er pantanarakning möguleg fyrir allar pöntunarnetseiningar sem eru hluti af netpantanaútreikningi áætlanakerfisins. Nettókröfur eru reiknaðar út með eftirfarandi hætti:  

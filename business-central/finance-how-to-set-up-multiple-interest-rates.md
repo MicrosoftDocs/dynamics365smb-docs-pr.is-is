@@ -2,7 +2,6 @@
 title: Setja upp marga vexti til að seinka greiðslu
 description: Í þessu efnisatriði er sagt hvernig á að reikna út gjöld með mörgum vöxtum fyrir tiltekið tímabil.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 6, 431, 432, 572
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6d90f8e042899495bfc8e171d7e69f7e5b4fdb36
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
-ms.translationtype: HT
+ms.openlocfilehash: 997a6e587a94d4d4a20db5f01a79ad0fd295df61
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971604"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135442"
 ---
 # <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Setja upp marga vexti til að seinka greiðslu
 
@@ -33,7 +32,7 @@ Til dæmis tilgreinir ríkisstjórn hámarksvexti sem má leggja á neytendur. V
 4. Velja hnappinn **Í lagi**.  
 5. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skilmálar innheimtubréfa** og velja síðan viðkomandi tengil.  
 6. Á síðunni **Skilmálar innheimtubréfa** skal velja nauðsynlega skilmála innheimtubréfs og síðan velja aðgerðina **Stig**.  
-7. Á **síðunni stig innheimtubréfa**, fyrir viðeigandi stig innheimtubréfs, er **reiturinn Reikna vexti valinn**.  
+7. **Á síðunni stig** innheimtubréfa, fyrir viðeigandi stig innheimtubréfs, er reiturinn Reikna vexti **valinn**.  
 
 Þegar gefið er út minnisblað vaxtareiknings, sýnir það vaxtagjöldin með mörgum vöxtum fyrir tiltekið tímabil. Minnisblaðið inniheldur einnig samskiptaupplýsingar viðskiptavinar, fyrirtækið sem gefur út minnisblaðið og viðbótar- og heildarfjárhæðina. Upphafsfærsla minnisblaðsins birtist í feitletruðu. Vaxtagjöldin eru reiknuð með mörgum vöxtum á tilteknu tímabili og eru prentuð eftir upphafsfærslu minnisblaðsins.  
 

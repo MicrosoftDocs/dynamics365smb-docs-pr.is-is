@@ -2,21 +2,20 @@
 title: Yfirlit yfir skýrslur
 description: Sjá hvaða skýrslur eru tiltækar á öllum hagsvæðum staðlaða útgáfunnar af Business Central svo hægt sé að halda utan um reksturinn.
 author: KennieNP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 02/02/2022
 ms.author: kepontop
-ms.openlocfilehash: 1f193ae0fd5ebda7fe90b9db78fc5a1de1e21d64
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
-ms.translationtype: HT
+ms.openlocfilehash: 3e1c49636b0a41dfe3a4fd63d7dffae221f738da
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8104054"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143193"
 ---
 # <a name="report-overview"></a>Yfirlit yfir skýrslur
 
-[!INCLUDE [prod_short](includes/prod_short.md)] kemur með margar byggðskýrslur sem hægt er að nota út-hólinn til að styðja við reksturinn.  
+[!INCLUDE [prod_short](includes/prod_short.md)]kemur með margar byggðskýrslur sem hægt er að nota út-hólinn til að styðja við reksturinn.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 

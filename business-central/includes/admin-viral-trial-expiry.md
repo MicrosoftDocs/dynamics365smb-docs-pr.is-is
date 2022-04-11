@@ -1,16 +1,16 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 05/31/2021
+ms.date: 02/21/2022
 ms.author: edupont
-ms.openlocfilehash: 8fcc45855c3f49039a667732d61c0d63f82e1e61
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
+ms.openlocfilehash: 417fa23a38117111d2a27d2ea1c2dec36438dbb9
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129078"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366112"
 ---
 > [!NOTE]
->  Ef [!INCLUDE [prod_short](prod_short.md)] prufuútgáfa er ekki notuð 45 daga telur Microsoft að prufutíminn sé útrunnin og [!INCLUDE [prod_short](prod_short.md)] er eytt.
+> [!INCLUDE [prod_short](prod_short.md)] Ef próftími er skilinn eftir ónotaður í 45 daga, telur Microsoft að réttarhöldin séu útrunnin og að [!INCLUDE [prod_short](prod_short.md)] leigjanda sé eytt.
 >
 > Ef prufunni er breytt í greidda áskrift áður en prufuáskriftin rennur út á niðurtalningin í 45 daga án notkunar ekki við.
