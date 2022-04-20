@@ -10,23 +10,23 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d629b2639325b95ab90db8aaf8ac9a3e5d51fc33
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
+ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511442"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557173"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>Arfur Stofna og breyta skipan sérsniðinnar skýrslu
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Sjálfgefið er að skýrsla hafa innbyggt skýrsluútlit, sem getur verið RDLC-skýrsluútlit, Word-skýrsluútlit eða bæði. Ekki er hægt að breyta innbyggðum útlitum. En þú getur búið til þín eigin sérsniðin útlit sem gerir þér kleift að breyta útliti skýrslu þegar hún er skoðuð, prentuð eða vistuð. Hægt er að búa til mörg sérsniðin skýrsluútlit fyrir sömu skýrsluna, og skipta svo á milli útlita fyrir skýrsluna eftir þörfum.
+Sjálfgefið er að skýrsla hafi innbyggt skýrsluútlit sem getur verið annað hvort RDLC-Skýrsluuppsetning, Word-Skýrsluuppsetning eða bæði. Ekki er hægt að breyta innbyggðu útliti en það getur skapað sérsniðna skipan. Í skýrslu geta verið margar sérsniðnar skýrslur um uppsetningu sem gerir þér kleift að skipta uppsetningunni sem er notuð eftir þörfum.
 
 > [!NOTE]  
 > Í [!INCLUDE[prod_short](includes/prod_short.md)] táknar hugtakið "skýrsla" einnig utanaðkomandi skjöl, s.s. sölureikninga og pöntunarstaðfestingar sem þú sendir til viðskiptavina sem PDF skjöl.
 
-Til að búa til sérsniðið útlit geturðu búið til afrit af öðru sérsniðið útliti eða bætt við nýju sérsniðnu útliti, sem í flestum tilfellum er byggt á innbyggða útlitinu. Þegar þú bætir við nýju sérsniðnu útliti geturðu valið að bæta við RDLC-skýrsluútliti, Word-skýrsluútliti eða bæði. Nýja sérsniðna útlitið verður sjálfkrafa byggt á innbyggða útlitinu fyrir skýrsluna ef það er til staðar. Ef ekkert innbyggt útlit er til fyrir gerðina er nýtt autt útlit stofnað. Þú verður að breyta og hanna þetta auða útlit frá grunni. Frekari upplýsingar um RDLC- og Word-skýrsluútlit, innbyggð útlit, sérsniðið útlit og fleira eru í [stjórna skýrsluútliti](ui-manage-report-layouts.md).  
+Ef búa á til sérsniðið útlit er annað hvort gert afrit af sérsniðnu útliti eða bætt við nýju sérsniði sem er oft Byggt á innbyggðu útliti. Þegar bætt er við nýju sérsniðnu útliti er hægt að bæta við gerð RDLC eða Word-skýrslu, eða báðum. Nýtt sérsniðinn skipulag verður Byggt á innbyggðu útliti fyrir skýrsluna, sé þess nokkur völ. Ef ekkert innbyggt útlit er til fyrir gerðina er nýtt autt útlit stofnað. Þú verður að breyta og hanna þetta auða útlit frá grunni. Frekari upplýsingar um RDLC- og Word-skýrsluútlit, innbyggð útlit, sérsniðið útlit og fleira eru í [stjórna skýrsluútliti](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Notaðu reikningsáætlanir til að fá innsýn í fjárhagsupplýsingar sem eru geymdar í bókhaldslyklum. Frekari upplýsingar er að finna í [Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md).
@@ -73,7 +73,7 @@ Til að breyta skýrsluútliti þarftu fyrst að flytja út skýrsluútlit sem s
 
    Breyting RDLC-skýrsluútlits er flóknara en Word-skýrsluútlits. Frekari upplýsingar um það hvernig RDLC-skýrsluútliti er breytt eru í [Hanna RDLC-skýrsluútlit](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
-   Mundu að vista breytingar þegar lokið.
+   Munið að vista breytingarnar þegar þið eruð búin.
 
 4. Farið aftur á síðuna **Sérsniðið skýrsluútlit**, veljið skýrsluútlit sem var flutt út og breytt og veljið svo **Flytja inn útlit** aðgerðina.  
 

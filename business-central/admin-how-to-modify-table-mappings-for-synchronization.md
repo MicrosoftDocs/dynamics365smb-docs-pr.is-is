@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
+ms.openlocfilehash: e6e7d42af64db3c1725e9f4b54ba7ca4e4b16320
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515746"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557406"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Vörpun á töflum og reitum fyrir samstillingu
 
@@ -28,6 +28,9 @@ Samþættingartafla er tafla í gagnagrunninum [!INCLUDE[prod_short](includes/pr
 
 > [!Note]
 > Ef verið er að nota staðbundna útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] eru varpanir samþættingartöflu geymdar í töflu 5335 samþættingartöfluvarpanir þar sem hægt er að skoða og breyta vörpunum. Flóknar varpanir og samstillingarreglur eru skilgreina í codeunit 5341. 
+
+### <a name="additional-mappings"></a>Viðbótarvörpun 
+Greiðsluskilmálar, sendingaraðferðir og flutningsaðilar geta breyst og það getur verið mikilvægt að geta aðlagað þá. Ef þú virkjar **eiginleikauppfærsluna: Varpa á Dataverse valkostastilli án kóðaaðgerða**[á síðunni Stjórnun eiginleika](https://businesscentral.dynamics.com/?page=2610) er hægt að bæta handvirkt við samþættingartöfluvörpunum fyrir greiðsluskilmála (GREIÐSLUSKILMÁLA), sendingaraðferðir (SENDINGARAÐFERÐ) og flutningsaðila (SHIPPING AGENT). Þessi vörpun getur hjálpað til við að tryggja að reglurnar séu þær sömu fyrir þessar uppsetningar í [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ### <a name="synchronization-rules"></a>Samstillingarreglur
 Samþætingartöfluvörpun inniheldur einnig reglur sem hafa áhrif á hvernig samstillingarverk samþættingar samstilla færslur í töflunni [!INCLUDE[prod_short](includes/prod_short.md)] og töflu í [!INCLUDE[prod_short](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
@@ -85,7 +88,7 @@ Til dæmis notar samstillingarverkið SÖLUFÓLK – Dynamics 365 Sales samstill
 
 2.  Í færslu töfluvörpunar í listanum skal hreinsa reitinn **Samst. aðeins tengdar færslur**.  
 
-## <a name="use-configuration-templates-on-table-mappings"></a>Nota skilgreiningarsniðmát í töfluvörpun
+## <a name="use-configuration-templates-on-table-mappings"></a>Nota skilgreiningarsniðmát á töfluvörpunum
 Hægt er að úthluta skilgreiningarsniðmátum á töfluvarpanir til að nota fyrir nýjar línur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_short.md)] eða [!INCLUDE[prod_short](includes/cds_long_md.md)]. Fyrir hverja töfluvörpun má tilgreina skilgreiningarsniðmát til að nota fyrir nýjar [!INCLUDE[prod_short](includes/prod_short.md)] færslur og annað sniðmát til að nota fyrir nýjar [!INCLUDE[prod_short](includes/cds_long_md.md)] línur.  
 
 Ef sett er upp sjálfgefinn samstillingargrunnur verða skilgreiningarsniðmátin yfirleitt búin til sjálfkrafa og notuð á töfluvörpun fyrir [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamenn og [!INCLUDE[crm_md](includes/crm_md.md)] lykla: **CDSCUST** og **CDSACCOUNT**.  

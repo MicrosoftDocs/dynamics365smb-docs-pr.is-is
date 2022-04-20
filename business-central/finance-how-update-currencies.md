@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523476"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557354"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppfæra gengi
 
@@ -31,7 +31,7 @@ Gjaldmiðilskóðarnir á **listanum Gjaldmiðlar** eru tilgreindir, þar á me�
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Gengi gjaldmiðils
+## <a name="exchange-rates"></a>Gengi
 
 Gengi eru verkfærin til að reikna gildi staðbundins gjaldmiðils (SGM) fyrir hverja gjaldmiðilsfærslu. Eftirfarandi reitir eru á síðunni **Gengi**:
 
@@ -68,6 +68,12 @@ Runuvinnslan **Leiðrétta gengi** er notuð til að lagfæra handvirkt gengi b�
 
 > [!TIP]
 > Hægt er að nota þjónustu til að uppfæra gengi sjálfkrafa í kerfinu. Frekari upplýsingar er að finna í [Að setja upp þjónustu um gengi gjaldmiðils](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Þetta leiðréttir hins vegar ekki gengi í þegar bókuðum færslum. Til að uppfæra gengi á bókuðum færslum skaltu nota runuvinnsluna **Leiðrétta gengi**.
+
+Hægt er að forskoða áhrifin sem leiðrétting mun hafa á bókun áður en þú bókar í raun með því að velja **Forskoðun** á **síðunni Leiðrétta gengi gjaldmiðla**. Þar að auki er hægt að velja hvort Fjárhagsbókun verði Sundurliðuð (í hverri færslu) eða tekin saman (eftir gjaldmiðli) með því að velja **samantekt færslna**. Einnig er hægt að tilgreina hvernig eigi að meðhöndla víddir fyrir bókanir áætlaðs hagnaðar og taps með því að velja einn af eftirfarandi valkostum í **reitnum flytja víddargildi**:  
+
+- **Upprunafærsla** : fjárhagsfærslur fyrir áætlaðan hagnað og tap verða með víddargildi sem flutt eru frá leiðréttum færslunni.
+- **Eftir fjárhagsreikningi** : fjárhagsfærslur fyrir áætlaðan hagnað og tap verða með víddargildi sem flutt eru frá áætluðum ávinningi og TAPI upprunafærslna fyrir víddarstillingar í fjárhagsreikningum.
+- **Enginn flutningur** : fjárhagsfærslur fyrir áætlaðan hagnað og-tap verða ekki með víddargildi.
 
 ### <a name="effect-on-customers-and-vendors"></a>Áhrif á viðskiptamenn og lánardrottna
 

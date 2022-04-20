@@ -1,9 +1,9 @@
 # [Velkomin(n) í Business Central](index.md)
 # [Nýtt og áætlað](product-news.md)
-# Hefjast handa
+# Leiðsögn
 ## [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
-## Læra
+## Upplýsingar
 ### [Business Central námskrá](readiness/readiness-learning-catalog.md)
 ### [Business Central á Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Kynningar á viðskiptaferli
@@ -226,7 +226,7 @@
 ### [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)
 ### [Láta Aðaltillögur Viðskiptaráðs í gildi](ui-let-system-suggest-values.md)
 
-### Skjöl á innleið
+### Fylgiskjöl á innleið
 #### [Yfirlit skjala á innleið](across-income-documents.md)
 #### [Setja upp skjöl á innleið](across-how-setup-income-documents.md)
 #### Vinna úr skjölum sem berast
@@ -568,7 +568,7 @@
 ### [Skrá starfsmenn](hr-how-register-employees.md)
 ### [Haldið utan um fjarvistir starfsmanna](hr-how-manage-absence.md)
 
-## Áætlun
+## Áætlanagerð
 ### [Framleiðslaáætlun](production-planning.md)
 ### [Um áætlunaraðgerðir](production-about-planning-functionality.md)
 ### [Áætla með eða án birgðageymslna](production-planning-with-without-locations.md)
@@ -1289,7 +1289,7 @@
 ##### [Velta í fjárhagsbók vöru](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
 ##### [Stofna vöruskýrslu TORG-29](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
 ##### [Farmbréf](LocalFunctionality/Russia/bill-of-lading.md)
-#### Starfsmannahald
+#### Mannauður
 ##### [Starfsmannahald í rússneskri útgáfu](LocalFunctionality/Russia/Human-Resources.md)
 ##### [Laun](LocalFunctionality/Russia/Payroll.md)
 ##### [Stofnun gjalda og frádrátta fyrir starfsmann](LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md)
@@ -1580,7 +1580,7 @@
 #### Notkun Microsoft Teams með Viðskiptaseðla-
 ##### [Yfirlit](across-teams-overview.md)
 ##### [Stjórna samþættingu teyma](admin-teams-integration.md)
-##### [Afal Business miðlægt App fyrir teyma](across-install-app-for-teams.md)
+##### [Setja upp Business Central App fyrir hópana](across-install-app-for-teams.md)
 ##### [Leita að viðskiptavinum, lánardrottnum og tengiliðum](across-search-contacts-teams.md)
 ##### [Samnýta færslur og Síðutenglar í teymum](across-working-with-teams.md)
 ##### [Skipta um fyrirtæki og aðrar stillingar](across-teams-settings.md)

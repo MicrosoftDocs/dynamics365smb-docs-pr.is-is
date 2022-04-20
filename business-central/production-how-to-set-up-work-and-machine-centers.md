@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52f84c4c4b30aa09094806e238fe4f72232f5e62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
+ms.openlocfilehash: 639a0a8cc8c7c3efa9e7331a1db45dc031f4515b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517896"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557224"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Setja upp vinnu- og vélastöðvar
 
@@ -39,18 +39,19 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Í reitnum **Vinnustöðvarhópur** skal velja efra-stigs forðaflokkun sem vinnustöðin er flokkuð undir, ef það á við. Valið er **Nýtt** aðgerðin í felllilistanum.  
-5. Veljið reitinn **Lokaður** til að koma í veg fyrir að vinnustöðin verði notuð í vinnslu. Þetta þýðir að frálag er ekki hægt að bóka fyrir vörur sem er framleidd í vinnustöðinni. Frekari upplýsingar eru í [Bóka framleiðslufrálag](production-how-to-post-output-quantity.md).
-6. Í reitinn **Innk.verð** er færður inn kostnaður við að framleiða eina mælieiningu í þessari vinnustöð, án annarra kostnaðarliða. Þessi kostnaður er oft kallaður *beinn vinnutaxti*.  
-7. Í reitinn **Óbein kostnaðar %** er færður inn almennur aðgerðakostnaður við notkun vinnustöðvarinnar sem hlutfall af Innkaupsverði. Þessari hlutfallslegu upphæð er bætt við beinan kostnað í útreikningum á kostnaðarverði.  
-8. Í reitinn **Hlutf. sameiginl. kostn.** er færður inn kostnaður vegna vinnustöðvar sem ekki kemur aðgerðum beint við, s.s. viðhaldskostnað, sem algilda tölu.  
+5. **Í svæðinu aukavinnustöð** skal velja vinnustöðin sem á að nota ef þessi vinnustöð er ekki tiltæk eða þegar krafa fer yfir afkastagetu hennar. Önnur vinnustöð er aðeins til upplýsingar og fylgir ekki sjálfkrafa með í áætlunarferlum.
+6. Veljið reitinn **Lokaður** til að koma í veg fyrir að vinnustöðin verði notuð í vinnslu. Þetta þýðir að frálag er ekki hægt að bóka fyrir vörur sem er framleidd í vinnustöðinni. Frekari upplýsingar eru í [Bóka framleiðslufrálag](production-how-to-post-output-quantity.md).
+7. Í reitinn **Innk.verð** er færður inn kostnaður við að framleiða eina mælieiningu í þessari vinnustöð, án annarra kostnaðarliða. Þessi kostnaður er oft kallaður *beinn vinnutaxti*.  
+8. Í reitinn **Óbein kostnaðar %** er færður inn almennur aðgerðakostnaður við notkun vinnustöðvarinnar sem hlutfall af Innkaupsverði. Þessari hlutfallslegu upphæð er bætt við beinan kostnað í útreikningum á kostnaðarverði.  
+9. Í reitinn **Hlutf. sameiginl. kostn.** er færður inn kostnaður vegna vinnustöðvar sem ekki kemur aðgerðum beint við, s.s. viðhaldskostnað, sem algilda tölu.  
 
     Reiturinn **Kostn.verð** inniheldur reiknað kostnaðarverð einnar mælieiningar, með öllum kostnaðarliðum, í þessari vinnustöð, sem hér segir:  
 
     Kostnaðarverð = Innkaupsverð + (Innkaupsverð x Óbein kostnaðar %) + Hlutfall sameiginlegs kostnaðar.  
 
-9. Í reitnum **Útreikningur kostn.verðs** er tilgreint hvort útreikningurinn hér að ofan sé byggður á tímafjölda:  **Tími**; eða fjölda framleiddra eininga:  **Einingar**.  
-10. Veljið reitinn **Tiltekinn einingarkostnaður** ef á að skilgreina einingarkostnað vinnustöðvar í leiðarlínunni þar sem hann er notaður. Slíkt kann að eiga við aðgerðir með verulegan mismun í kostnaði afkastagetu miðað við það sem er venjulega unnið í vinnustöðinni.  
-11. Í reitnum **Birgðaskráningaraðferð** er valið hvort reikna á og bóka frálagsbókun á þessari vinnustöð handvirkt eða sjálfvirkt með annarri hvorri eftirfarandi aðferð.
+10. Í reitnum **Útreikningur kostn.verðs** er tilgreint hvort útreikningurinn hér að ofan sé byggður á tímafjölda:  **Tími**; eða fjölda framleiddra eininga:  **Einingar**.  
+11. Veljið reitinn **Tiltekinn einingarkostnaður** ef á að skilgreina einingarkostnað vinnustöðvar í leiðarlínunni þar sem hann er notaður. Slíkt kann að eiga við aðgerðir með verulegan mismun í kostnaði afkastagetu miðað við það sem er venjulega unnið í vinnustöðinni.  
+12. Í reitnum **Birgðaskráningaraðferð** er valið hvort reikna á og bóka frálagsbókun á þessari vinnustöð handvirkt eða sjálfvirkt með annarri hvorri eftirfarandi aðferð.
 
     |Valkostur|Description|
     |------|-----------|
@@ -61,17 +62,17 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
     > [!NOTE]
     > Ef nauðsyn krefur er hægt að hunsa losunaraðferðina hér fyrir einstakar aðgerðir með því að breyta stillingunni í leiðarlínum
 
-12. Í reitinn **Mælieiningarkóði** er færð inn tímaeiningin þar sem þessi kostnaðarútreikningur og afkastagetuáætlun vinnustöðvar eru gerð.
+13. Í reitinn **Mælieiningarkóði** er færð inn tímaeiningin þar sem þessi kostnaðarútreikningur og afkastagetuáætlun vinnustöðvar eru gerð.
     Til að geta fylgst stöðugt með notkun verður fyrst að setja upp mæliaðferð. Einingarnar sem eru færðar inn eru grunneiningar. Vinnslutíminn er til dæmis mældur í klukkustundum og mínútum.
 
     > [!NOTE]  
     > Ef valið er að nota Dagar Skal hafa það í huga að 1 dagur = 24 klukkustundir - en ekki 8 (vinnustundir).
 
-13. Í reitnum **Geta** er tilgreint hvort vinnustöð er með fleiri en einn einstakling við vinnu og eina vél í vinnslu á sama tíma. Ef uppsetning [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur ekki Vélastöðvaraðgerð verður gildið í þessum reit að vera **1**.  
-14. Í reitinn **Skilvirkni** er fært inn hlutfall áætlaðra staðlaðra afkasta sem þessi vinnustöð afkastar í raun. Ef fært er inn **100** þýðir það að raunveruleg afköst vinnustöðvarinnar eru þau sömu og staðlaða afkastagetan.  
-15. Velja skal **Sameinað dagatal** gátreitinn ef þú ert líka að nota vélstöðvar. Þetta tryggir að dagatalsfærslur verði settar saman frá vélastöðva dagatölum.  
-16. Í reitnum **Dagatalskóti verkstæðis** veljið dagatal verkstæðis. Nánari upplýsingar eru í [Búa til dagatal verkstæðis](production-how-to-create-work-center-calendars.md).  
-17. Í reitnum **Biðraðartími** er tilgreindur fastur tími sem þarf að líða áður en úthlutað verk er hafið á þessari vinnustöð. 
+14. Í reitnum **Geta** er tilgreint hvort vinnustöð er með fleiri en einn einstakling við vinnu og eina vél í vinnslu á sama tíma. Ef uppsetning [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur ekki Vélastöðvaraðgerð verður gildið í þessum reit að vera **1**.  
+15. Í reitinn **Skilvirkni** er fært inn hlutfall áætlaðra staðlaðra afkasta sem þessi vinnustöð afkastar í raun. Ef fært er inn **100** þýðir það að raunveruleg afköst vinnustöðvarinnar eru þau sömu og staðlaða afkastagetan.  
+16. Velja skal **Sameinað dagatal** gátreitinn ef þú ert líka að nota vélstöðvar. Þetta tryggir að dagatalsfærslur verði settar saman frá vélastöðva dagatölum.  
+17. Í reitnum **Dagatalskóti verkstæðis** veljið dagatal verkstæðis. Nánari upplýsingar eru í [Búa til dagatal verkstæðis](production-how-to-create-work-center-calendars.md).  
+18. Í reitnum **Biðraðartími** er tilgreindur fastur tími sem þarf að líða áður en úthlutað verk er hafið á þessari vinnustöð. 
 
 > [!NOTE]
 > Nota skal biðtíma til að veita smá tíma á milli þess þegar íhluturinn kemur á vél eða vinnustöð og þegar aðgerðin hefst í raun. Ef til dæmis hlutur er afhentur vélastöð klukkan 10:00 en það tekur klukkustund að festa hann við vél hefst aðgerðin ekki fyrr en 11:00. Biðtíminn yrði þá ein klukkustund. Gildið úr reitnum **Biðraðartími** á véla- eða Vinnustöðvarspjaldi plús samtala gildanna í reitunum **Uppsetningartími**, **Keyrslutími**, **Biðtími** og **Flutningstími** í vöruleiðarlínunni gefa afgreiðslutímann í framleiðslu vörunnar. Þetta hjálpar til við að gefa upp nákvæman framleiðslutíma alls.  
