@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512050"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655749"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finndu síður og upplýsingar með Viðmótsleit  
 Þetta efnisatriði lýsir því hvernig Viðmótsleit getur hjálpað þér að komast hratt á staði eins og aðgerðir, síður eða skýrslur, finna upplýsingar um hvernig á að ljúka ákveðnu verki og uppgötva önnur forrit og ráðgjafarþjónustur fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -33,6 +33,8 @@ Neðst í glugganum **Viðmótsleit** er aðgerð sem heitir **kanna**, sem opna
 
 > [!NOTE]  
 >   Ef þú vilt nota lyklaborðið skaltu nota dálkalykilinn og örvatakkana til að velja atriði í niðurstöðum. Ef þú ýtir á færslulykilinn á lyklaborðinu þínu án þess að velja niðurstöðu, opnar [!INCLUDE[prod_short](includes/prod_short.md)] niðurstöðuna sem er fyrst skráð.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ### <a name="finding-an-action-on-the-current-page"></a>Finna aðgerð á núverandi síðu
 **Á núverandi síðu** hluti er hægt að finna og framkvæma aðgerðir á síðunni sem þú hefur opnað. Til dæmis, ef síðan **Sölutilboð** er opin og þú skrifar „viðskiptamaður“, inniheldur hlutinn aðgerð sem opnar viðskiptamannskortið fyrir þann viðskiptamann sem valinn er í sölutilboði.

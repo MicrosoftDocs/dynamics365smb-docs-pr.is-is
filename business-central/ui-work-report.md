@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: fade19b2ecb4d2c17b5d5775074f2f715496a908
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f2129ff54f49637fb8abbcae374a2e9f7e5d7c2e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512681"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655229"
 ---
 # <a name="run-and-print-reports"></a>Keyra og prenta skýrslur
 
@@ -26,7 +26,7 @@ Runuvinnslur og XMLports gera meira eða minna það sama og skýrslur, en eru m
 > [!NOTE]
 > Þetta efnisatriði vísar aðallega í „skýrsla“, en svipaðar upplýsingar gilda um runuvinnslur og XMLport.
 
-## <a name="get-started"></a>Hefjast handa
+## <a name="get-started"></a>Hafist handa
 
 Þú finnur skýrslur í flipanum **Skýrslur** á völdum síðum eða þú getur leitað með því að nota ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") til að finna skýrslur eftir nafni.
 

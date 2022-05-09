@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b5030646d04e31983025e054992fa0fb71cf5b4e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 04ef2fdd1020444711257230688fea927332ed83
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513862"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626266"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Skrá neyslu eða notkun fyrir verk
 
@@ -69,6 +69,23 @@ Skoða má verknotkun allt að lokum verkefnis í einu skrefi. Til þess er notu
 4. Uppfærið bókina með þeim breytingum sem kann að vera þörf á.  
 5. Veljið **Bókun**.
 
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Stofna birgðir og vöruhúsatínsluskjöl fyrir vinnslu
+
+Ef stofna á tínsluskjöl birgða og vöruhúss fyrir vinnslur verður kerfisstjórinn að gera **uppfærsluaðgerðina virka: Virkja birgðatínslu og vöruhúsatiltekt frá vinnslum** á **síðunni Feature Management**.
+
+Aðgerðin bætir **birgðatínslu** og **Stofna vöruhúsatínsluaðgerðir** á **vinnsluspjaldið**. Til að stofna eða skrá tínsluskjal eru notaðar **frágangs-/tínslulínur/hreyfingalínur** eða **skráðar aðgerðir tínslulínur**. Nánari upplýsingar um tínslur er að finna [í tínsluvörum](warehouse-pick-items.md)
+
+Hægt er að nota aðgerðirnar undir eftirfarandi skilyrðum:
+* **Staða** vinnslunnar er **opin**.
+* **Línugerð** verkáætlunarlínunnar er **áætlun** eða **bæði áætlun og innheimt**.
+* **Gerð** verkáætlanalínuna er **Vara**.
+* **Krefjast tínslu** er virkjað fyrir tengda staðsetningu.
+* **Beinn tínsla og frágangur** er óvirkur.
+
+> [!NOTE] 
+> Þrátt fyrir að stillingin sé kölluð **krefjast tínslu** er enn hægt að bóka notkun beint úr verkbókarlínunni fyrir birgðageymsluna. Ef birgðageymslan er sett upp þannig að krafist sé tínsluvinnslu en ekki afhendingarvinnslu er síðan Birgðatínsla **notuð** til að skipuleggja og prenta tiltektarupplýsingar. Einnig er hægt að nota síðuna til að færa inn og bóka tínsluna sem aftur bókar notkun varanna. 
+> 
+> Ef birgðageymslan er sett upp þannig að krafist sé bæði tínslu-og afhendingarvinnslu sem valin var bæði **krefjast tínslu** og **þarfnast afhendingar** á **síðunni Birgðageymsluspjald** Notið **síðuna Vöruhúsatínsla** til að sjá um tínsluna. Vöruhúsatínslur eru svipaðar og Birgðatínslur. Munurinn er sá að frekar en að bóka tiltektarupplýsingarnar sem tínslan er skráð í. Þessi skráning bókar ekki notkun, það gerir bara þær vörur sem eru tiltækar til bókunar. Sem vöruhúsastjóri er hægt að nota tínsluvinnublað til að skipuleggja tínsluupplýsingar áður en leiðbeiningar fyrir einstakar vöruhúsatínslur eru stofnaðar
 
 
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Til að fara yfir áætlunarlínur verkfærslu
@@ -87,7 +104,7 @@ Skoða má verknotkun allt að lokum verkefnis í einu skrefi. Til þess er notu
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)         
 [Sala](sales-manage-sales.md)      
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

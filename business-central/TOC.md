@@ -1569,6 +1569,7 @@
 ##### [Samstilla við tengiliði í Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Fínstilla Outlook](admin-outlook-optimize.md)
 ##### [Nota viðskipti miðlægt án Outlook](admin-no-outlook.md)
+##### [FAQ](ui-outlook-addin-faq.yml)
 ### Setja upp skýrslur
 #### [Skýrsluval](across-report-selections.md)
 ### Setja upp tengingar
@@ -1611,6 +1612,7 @@
 #### [Breyting frá Fljótssbótabók yfir í Viðskiptamiðstöð](across-quickbooks-to-business-edition.md)
 #### [Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)
 #### [Flytja inn viðskiptagögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)
+### [Upplýsingar um fyrirtæki](admin-company-information.md)
 ### [Stofnun númeraraða](ui-create-number-series.md)
 ### [Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)
 ### [Setja upp prentara](ui-specify-printer-selection-reports.md)

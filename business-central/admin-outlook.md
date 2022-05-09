@@ -7,19 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518338"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654915"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Sækja innbót Business Central fyrir Outlook
 
-Með [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að stjórna samskiptum fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum. Einnig er hægt að búa til og senda fjárhagsleg skjöl, t.d. verðtilboð og reikninga.  
+Með [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að stjórna samskiptum fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. [!INCLUDE[prod_short](includes/prod_short.md)] Með Outlook viðbóunni Sérðu Fjárhagsleg gögn sem tengjast viðskiptavinum og lánardrottnum. Einnig er hægt að búa til og senda fjárhagsleg skjöl, t.d. verðtilboð og reikninga.  
 
 Til eru tvær leiðir til að sækja innbót Business Central fyrir uppsett Outlook en það fer eftir hlutverki þínu í fyrirtækinu:
 
@@ -42,6 +42,9 @@ Innbót Business Central fyrir Outlook samanstendur af tveimur minni innbótum:
 Frekari upplýsingar um það sem gert er við viðbóta er að finna [í notkun Viðskiptaseðla sem fyrirtækið innanborðs í Outlook](work-outlook-addin.md).
 
 Boðið er upp á hverja innbót sem XML-skrá sem kallast *manifest* sem hver sá sem vill þess virkni þarf að setja upp í Outlook. Þessar skrár lýsa því hvernig á að virkja innbæturnar og tengjast Business Central þegar þær eru notaðar í Outlook. Yfirleitt vinnur stjórnandi með þessar skrár. Sem almennur notandi þarft þú í flestum tilfellum ekki að vinna með þessar skrár með beinum hætti. Annaðhvort mun stjórnandinn setja upp innbótina þannig að uppsetningin gerist sjálfkrafa fyrir þig eða þú munt nota innbyggða uppsetningu með hjálp til að fara í gegnum uppsetninguna.
+
+> [!IMPORTANT]
+> Að vinna með margfallt umhverfi? Viðskiptamiðað við Outlook er hannað til að vinna með eitt miðlægt umhverfi fyrirtækja. Þegar viðbótin er uppsett er nafn umhverfisins innifalið í farmskrá viðbóta. Þessi Skilgreining þýðir að viðbótin mun aðeins tengjast því umhverfi sem hún var uppsett frá. Til að nota viðbóta við annað umhverfi opnist þú umhverfið og setur upp viðbóta aftur.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Setja upp innbótina með miðlægri innleiðingu sem stjórnandi
 

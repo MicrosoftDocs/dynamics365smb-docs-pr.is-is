@@ -9,17 +9,17 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: f0112cfb60321a44d833ad6a51db209a71494bf1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6026f9ea7a0adeb66f6c543365cf7caeb91a7628
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513940"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654943"
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
 Áður en þú getur byrjað að reka fyrirtækið þitt verður þú að tilgreina reglur og sjálfgefin gildi fyrir það hvernig stjórna á fjárhagsferlum fyrir fyrirtækið. Fyrsta skrefið er að setja upp kjarna bókhaldsskráningar fyrirtækisins - bókhaldslyklana. Síðan eru settir upp bókunarflokkar, sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.
 
-Hægt er að setja upp suma fjárhagsuppsetningu sjálfkrafa með uppsetningarleiðbeiningum með hjálp og suma verður að gera handvirkt. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md). Á **uppsetningarsíðu** fjárhags Tilgreinir hvernig á að meðhöndla mörg mismunandi fjárhagsmálefni í fyrirtækinu. Þessi síða er til dæmis notuð til að tilgreina reikningssléttun upplýsinga, gjaldmiðilskóta staðbundnu gjaldmiðilsins, aðseturssnið og hvort nota eigi aðra skýrslugjaldmiðli. Frekari upplýsingar er að finna í [Að skilja fjárhag og bókhaldslykla](finance-general-ledger.md).  
+Hægt er að setja upp suma fjárhagsuppsetningu sjálfkrafa með uppsetningarleiðbeiningum með hjálp og suma verður að gera handvirkt. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md). Á **uppsetningarsíðu** fjárhags Tilgreinir hvernig á að meðhöndla mörg fjárhagsmálefni í fyrirtækinu. Þessi síða er til dæmis notuð til að tilgreina reikningssléttun upplýsinga, gjaldmiðilskóta staðbundnu gjaldmiðilsins, aðseturssnið og hvort nota eigi aðra skýrslugjaldmiðli. Frekari upplýsingar er að finna í [Að skilja fjárhag og bókhaldslykla](finance-general-ledger.md).  
 
 Hægt er að nota víddir til að bæta mismunandi gerðum upplýsinga við öll viðskipti. Hægt er að setja upp grunnvíddir fyrirtækisins eins og *verk* og *deildir*. Síðar er hægt að bæta við fleiri víddum eftir þörfum, og setja upp tímabundnar víddir sem nota á í takmarkaðan tíma, til dæmis í tengslum við söluherferð. Frekari upplýsingar er að finna í [Unnið með víddir](finance-dimensions.md).
 
@@ -27,7 +27,7 @@ Ljúka þarf mörgum af uppsetningarverkhlutunum áður en hægt er að hefja sk
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
-| Til að | Sjá |
+| Til | Sjá |
 | --- | --- |
 |Skoða eða breyta fjárhagslysum sem allar fjárhagsfærslur eiga að bókast á|[Setja upp eða breyta bókhaldslykli](finance-setup-chart-accounts.md)|
 | Tilgreinið hvernig viðskiptavinir eiga að greiða og hvernig á að greiða lánardrottnum. |[Setja upp greiðsluhætti](finance-payment-methods.md) |
