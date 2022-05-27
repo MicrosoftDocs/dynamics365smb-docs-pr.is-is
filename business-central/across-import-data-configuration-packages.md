@@ -7,81 +7,82 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2021
+ms.date: 05/10/2022
 ms.author: edupont
-ms.openlocfilehash: f2918b554cf578baa0636f0a18bbbbf2fc8a4692
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a189f2f10ad9e8f2ab0063987fbafefd4ad1948f
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516474"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740366"
 ---
-# <a name="importing-business-data-from-other-finance-systems"></a>Innflutningur viðskiptagagna úr öðrum fjárhagskerfum
+# <a name="import-business-data-from-other-finance-systems"></a>Flytja inn Viðskipagögn úr öðrum Fjármálakerfum
 
 Þegar notandi skráir sig í [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að ákveða að búa til autt fyrirtæki svo hægt sé að hlaða upp eigin gögnum og prófa áfram nýja [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtækið. Það fer eftir því fjárhagskerfi sem fyrirtækið notar í dag hvernig og hvort hægt er að millifæra upplýsingar um viðskiptamenn, lánardrottna, birgðir og bankareikninga.  
 
 Hægt er að ræsa leiðarvísi um uppsetningu með hjálp frá Mitt hlutverk sem hjálpar til við að flytja viðskiptagögn úr Excel-skrá eða öðrum sniðum. Þær skráategundir sem hægt er að hlaða upp fer eftir viðbótunum sem í boði eru. Til dæmis er hægt að yfirfæra gögn úr QuickBooks vegna þess að [!INCLUDE[prod_short](includes/prod_short.md)] felur í sér viðbót sem sér um umbreytingu úr QuickBooks. Ef notandi vill yfirfæra gögn úr öðrum fjárhagskerfum þarf annað hvort að athuga hvort viðbót er í boði fyrir það kerfi eða flytja gögnin inn úr Excel.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur sniðmát fyrir viðskiptamenn, lánardrottna og birgðavörur sem hægt er að nota þegar gögnum er hlaðið upp.
-
-Hægt er að flytja aðalgögn og sum færslugögn úr öðrum fjárhagskerfum á grundvelli sjálfgefins grunnstillingarpakka í [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Grunnstillingarpakkar** er hægt að vinna með pakka til að flytja inn og staðfesta gögnin áður en pakkinn er notaður.  
+[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur sniðmát fyrir viðskiptamenn, lánardrottna og birgðavörur sem hægt er að nota þegar gögnum er hlaðið upp. Til að flytja inn myndir af vörum er hægt að nota þar til gerða aðgerð á síðunni **Uppsetning birgða**. Frekari upplýsingar er að finna í [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md).
 
 > [!TIP]  
-> Mælt er með því að nota leiðsagnarforrit fyrir gagnafærslu til að flytja inn gögn frá Dynamics GP, Dynamics NAV eða QuickBooks. Frekari upplýsingar er að finna í [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) í stjórnendaefninu eða [QuickBooks gagnaflutning](ui-extensions-quickbooks-data-migration.md).
-
-> [!NOTE]  
-> Fyrir stærri innleiðingarverk getur þú notað RapidStart Services fyrir [!INCLUDE[prod_short](includes/prod_short.md)], sem er víðtækt verkfærasafn til að setja upp nýjar lausnir sem byggjast á viðskiptakröfum viðskiptamanna og uppsetningargögnum. RapidStart Services býður einnig upp á virkni til að flytja inn viðskiptagögn. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
-
-Til að flytja inn myndir af vörum er hægt að nota þar til gerða aðgerð á síðunni **Uppsetning birgða**. Frekari upplýsingar er að finna í [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md).
-
-## <a name="importing-data-from-configuration-packages"></a>Innflutningur gagna úr grunnstillingarpakka
-[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur stillingarpakka sem þú getur flutt út í Excel og sett upp gögnin þín þar. Síðan er hægt að flytja aftur inn gögnin úr Excel. Pakkinn samanstendur af 27 töflum, þar með talið aðalgögnum, svo sem viðskiptavinum, söluaðilum, hlutum og reikningum, öðrum grunnuppsetningartöflum eins og sendingarkostnaði og viðskiptatöflum eins og söluhaus og línum.  
-
-> [!NOTE]  
->   Vinna með stillingarpakka er ítarleg virkni og við mælum með að þú hafir samband við kerfisstjórann þinn. Nánari upplýsingar eru í [Gögn flutt inn úr eldri bókhaldshugbúnaði með því að nota grunnstillingarpakka](across-import-data-configuration-packages.md).
+> Mælt er með því að nota leiðsagnarforrit fyrir gagnafærslu til að flytja inn gögn frá Dynamics GP, Dynamics NAV eða QuickBooks. Sjá [Yfirfærsla innanhúss til fyrirtækja miðlægt](/dynamics365/business-central/dev-itpro/administration/migrate-data) í innihaldi stjórnunarefnisins eða [gagnaflutningsgagna til að fá frekari upplýsingar](ui-extensions-quickbooks-data-migration.md).
 
 ## <a name="work-with-data-in-excel"></a>Vinna með gögn í Excel
+
+Hægt er að nota Excel viðbóta til að útbúa tiltækt efni til notkunar í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Skoða og breyta í Excel úr Business Central](across-work-with-excel.md).  
+
+## <a name="import-data-from-configuration-packages"></a>Flytja inn gögn úr Samskipanarpakka
+
+Fyrir stærri innleiðingarvinnu er hægt að setja upp lausnasértækt samskipanarpakka. Frekari upplýsingar er að finna [í setja upp Samskipanarpakka](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) fyrirtækis (aðeins á ensku) í innihaldi stjórnunar.  
+
+> [!NOTE]  
+> Vinna við skilgreiningarpakka er ítarleg virkni og við mælum með því að þú hafir samband við endursölufélaga þinn. Frekari upplýsingar er að finna [í setja upp Samskipanarpakka](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) fyrirtækis (aðeins á ensku).
+
+Hægt er að flytja aðalgögn og sum færslugögn úr öðrum fjárhagskerfum á grundvelli sjálfgefins grunnstillingarpakka í [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Grunnstillingarpakkar** er hægt að vinna með pakka til að flytja inn og staðfesta gögnin áður en pakkinn er notaður. Til dæmis er hægt að flytja skilgreiningarpakkann út í Excel og setja gögnin upp þar. Síðan er hægt að flytja aftur inn gögnin úr Excel. Pakkinn samanstendur af 27 töflum, þar með talið aðalgögnum, svo sem viðskiptavinum, söluaðilum, hlutum og reikningum, öðrum grunnuppsetningartöflum eins og sendingarkostnaði og viðskiptatöflum eins og söluhaus og línum.  
+
 Þegar sjálfgefinn grunnstillingarpakki er fluttur út í Excel inniheldur vinnubókin sem búin er til vinnublað fyrir hverja töflu í pakkanum. Til að einfalda verk er hægt að nýta XML-meðhöndlunarverkfærin sem byggð eru inn í Excel. Einnig er hægt að nota Excel innbyggðar aðgerðir til aðstoða við gagnsnið og að setja gögn í réttan flokk. Til dæmis, bætið við auðu vinnublaði og afritið eldri gögnin á það. Búið því næst til Excel-formúlu til að varpa gögnum í umbreytingarvinnublaðinu á milli reitanna í útflutta vinnublaðinu og eldri gögnum viðskiptamanns. Þegar búið er að varpa öllum gögnum, skal afrita afmörkun gagnanna á töflu á vinnublaðinu.  
 
 > [!IMPORTANT]  
->  Ekki breyta dálkum í vinnublöðunum. Ef gögnin eru færð, þeim breytt eða þeim eytt er ekki hægt að flytja vinnublaðið inn í [!INCLUDE[prod_short](includes/prod_short.md)].
+> Ekki breyta dálkum í vinnublöðunum. Ef gögnin eru færð, þeim breytt eða þeim eytt er ekki hægt að flytja vinnublaðið inn í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > Ekki er hægt að flytja út/flytja inn svæði af gerðinni Blob með Excel.
 
-## <a name="tables-in-the-default-configuration-package"></a>Töflur í sjálfgefnum grunnstillingarpakka
+### <a name="tables-in-the-default-configuration-package"></a>Töflur í sjálfgefnum grunnstillingarpakka
+
 Sjálfgefni grunnstillingarpakkinn styður eftirfarandi töflur:
 
--   Greiðsluskilmálar
--   Verðflokkur viðskiptamanna
--   Afhendingarmáti
--   Sölumaður/innkaupaaðili
--   Birgðageymsla
--   Fjárhagsreikningur
--   Viðskiptavinur
--   Lánardrottinn
--   Atriði
--   Söluhaus
--   Sölulína
--   Innkaupahaus
--   Innkaupalína
--   Almenn Færslubókarlína
--   Birgðabókarlína
--   Bókunarflokkur viðskm.
--   Bókunarflokkur lánardr.
--   Birgðabókunarflokkur
--   Mælieining
--   Almenn Viðskiptabókunarflokkur
--   Almenn Afurðarbókunarflokkur
--   Almennur bókunargrunnur
--   Umsjónarsvæði
--   Vöruflokkur
--   Söluverð
--   Innkaupsverð
+- Greiðsluskilmálar
+- Verðflokkur viðskiptamanna
+- Afhendingarmáti
+- Sölumaður/innkaupaaðili
+- Birgðageymsla
+- Fjárhagsreikningur
+- Viðskiptavinur
+- Lánardrottinn
+- Atriði
+- Söluhaus
+- Sölulína
+- Innkaupahaus
+- Innkaupalína
+- Almenn Færslubókarlína
+- Birgðabókarlína
+- Bókunarflokkur viðskm.
+- Bókunarflokkur lánardr.
+- Birgðabókunarflokkur
+- Mælieining
+- Almenn Viðskiptabókunarflokkur
+- Almenn Afurðarbókunarflokkur
+- Almennur bókunargrunnur
+- Umsjónarsvæði
+- Vöruflokkur
+- Söluverð
+- Innkaupsverð
 
 ## <a name="see-also"></a>Sjá einnig
-[Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+[Flutningur á gögnum innanhúss til fyrirtækja miðlægt á netinu (á ensku eingöngu)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+[Setja upp Samskipanarpakka fyrirtækis](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  
 [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)  
 [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)
 

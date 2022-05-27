@@ -1,5 +1,5 @@
 ---
-title: Setja upp tölvupóstsskráningu
+title: Setja upp tölvupóstskráningu
 description: Kynntu þér hvernig tölvupóstsamskipti milli sölufólks og viðskiptavina geta skapað alvöru sölutækifærum.
 author: brentholtorf
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 03/22/2022
 ms.search.form: 1680, 1811, 5076
 ms.author: bholtorf
-ms.openlocfilehash: fc755362a5b29cca9eb8e8e403374e173cff3630
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516136"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729938"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Fylgstu með tölvupóstsamskiptum milli sölufólks og tengiliða
 Fáðu meira út úr samskipunum milli sölumanna þinna og viðskiptavina með því að kveikja á tölvupóstskiptum í Gantt tækifæri. [!INCLUDE[prod_short](includes/prod_short.md)] getur unnið með Exchange Online til að halda skrá yfir skilaboð á inn- og útleið. Þú getur skoðað og greint innihald skilaboða á síðunni **Samskiptaskráningarfærslur**.
@@ -57,7 +57,7 @@ Hægt er að leyfa öðrum notanda að opna tölvupóstskeyti í skiptum sem ten
 ### <a name="create-mail-flow-rules"></a>Stofna póstflæðisreglur
 Reglur um póstflæði leita að tilteknum skilyrðum í boðum og grípa til aðgerða á þeim. Stofnið tvær reglur um póstflæði út frá upplýsingunum í eftirfarandi töflu. Frekari upplýsingar er að finna á [Reglum um póstflæði í Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) og [Aðgerðum reglu um póstflæði í Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
-|Tilgangur  |Name  |Nota þessa reglu ef ...  |Gera eftirfarandi ...  |
+|Tilgangur  |Nafn  |Nota þessa reglu ef ...  |Gera eftirfarandi ...  |
 |---------|---------|---------|---------|
 |Regla fyrir móttekinn tölvupóst     |Skrá tölvupóst sem sendur er til þessa fyrirtækis|Sendandi er staðsettur utan stofnunar og er viðtakandi staðsettur inni í fyrirtækinu|BCC tölvupóstreikningurinn sem er tilgreindur fyrir samnýtta pósthólfið.|
 |Regla fyrir sendan tölvupóst     |Skrá tölvupóst sem sendur er frá þessu fyrirtæki|Sendandi er staðsettur inni í fyrirtækinu og er viðtakandi staðsettur utan fyrirtækisins.|BCC tölvupóstreikningurinn sem er tilgreindur fyrir samnýtta pósthólfið.|
@@ -67,7 +67,7 @@ Reglur um póstflæði leita að tilteknum skilyrðum í boðum og grípa til a�
 
 ---
 
-## <a name="setting-up-prod_short-to-log-email-messages"></a>Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)] til að skrá tölvupóstskilaboð
+## <a name="set-up-prod_short-to-log-email-messages"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] skráningu tölvupóstboða
 Þessar leiðbeiningar eru þær sömu fyrir bæði núverandi og nýjar upplifanir.
 
 Hafist handa með tölvupóstskráningu í tveimur einföldum skrefum:
@@ -89,14 +89,27 @@ Hafist handa með tölvupóstskráningu í tveimur einföldum skrefum:
 - Skoðaðu innihald tölvupóstsins sem var sendur á milli með því að velja **Vinna** og svo **Sýna viðhengi**.
 - Snúðu tölvupóstsamskiptum við sölutækifæri. Ef skráning er vænleg er hægt að kveikja á henni í tækifæri og stýra svo framvindu hennar að sölu. Til að kveikja á tölvupóstsamskiptum við tækifæri þarf að velja færsluna, vinna **síðan** og **Stofna tækifæri**. Nánari upplýsingar er að finna í [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md).
 
-## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Að tengja útgáfur á staðnum við Microsoft Exchange
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Mörk pósthólfs og möppumarka Exchange Online
+Það eru takmörk á pósthólfi og möppumörkum í Exchange Online, svo sem takmörk fyrir möppustærðum og fjölda skilaboða. Sjá [Exchange Online takmarkanir](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) og [takmörk fyrir almenningsmöppum í Exchange Server fyrir frekari upplýsingar](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] Verslanir Innskráðu tölvupóstskeyti í möppu í Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] geymir einnig tengil við hvert skráð boð. Tenglarnir opna innskráða pósta í Exchange Online úr samskiptaskráningarfærslum, tengiliðaspjaldi og salespersons-spjaldsíðum í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef innskráður boð er fært í aðra möppu verður hlekkurinn brotinn. Til dæmis gætu skilaboð verið færð handvirkt, eða Exchange Online ef til vill sjálfkrafa hefja sjálfvirka skiptingu þegar geymslu er náð.
+
+Eftirfarandi leiðbeiningar geta hjálpað til við að forðast að brjóta tengla í Exchange Online boð.
+
+1. Ekki flytja fyrirliggjandi boð í aðra möppu eftir að stillingum tölvupóstsskráningarinnar er breytt. Halda tiltækum skilaboðum þar sem þeir eru mun Varðveittir tenglar. Tenglar á skilaboð í nýju möppunni verða gildir.
+2. Forðastu að ná í pósthólfið og möppumörk. Ef þú ert um það bil að ná hámarki, taktu eftirfarandi skref:
+    1. Setja upp nýtt samnýtta pósthólf (ný reynsla) eða nýja samnýtta möppu (núverandi upplifun) í Exchange Online.
+    2. Uppfæra reglur um tölvupóstflæði í Exchange Online.
+    3. Uppfærðu uppsetningu tölvupóstskráningar þinnar í Business miðlægt í samræmi
+
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Tengja útgáfur innanhúss við Microsoft Exchange
 
 Hægt er að tengja [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss við Exchange innanhúss eða Exchange Online fyrir tölvupóstsskráningu. Fyrir báðar útgáfur af Exchange eru stillingar fyrir tenginguna í boði á síðunni **Uppsetning markaðssetningar**. Fyrir Exchange Online er einnig hægt að nota uppsetningarleiðbeiningar með hjálp.
 
 > [!IMPORTANT]
 > Nýja reynslan styður ekki tengingu við skipti innanhúss. Ef nota þarf Exchange innanhúss, skal ekki virkja uppfærsluuppfærslu fyrir nýja reynslu.
 
-## <a name="connecting-to-exchange-on-premises"></a>Tenging við húsum innanhúss
+## <a name="connect-to-exchange-on-premises"></a>Tengjast húsum innanhúss
 ## <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)
 Til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss við Exchange innanhúss er hægt á síðunni **Uppsetning markaðssetningar** að nota **Grunnútfærsla** sem **Sannvottunargerð** og síðan slá inn innskráningarupplýsingar fyrir notandareikninginn fyrir Exchange innanhúss. Því næst skal kveikja á **Virkja** til að hefja skráningu á tölvupósti.
 
@@ -105,10 +118,10 @@ Nýja reynslan styður ekki tengingar við skipti innanhúss.
 
 ---
 
-## <a name="connecting-to-exchange-online"></a>Tengist við Exchange Online
+## <a name="connect-to-exchange-online"></a>Tengst Exchange Online
 Til að tengjast Exchange Online þarf að skrá umsókn í Azure Active Directory. Gefið umsóknarkenninu, leyniorð lyklageymslu og beina vefslóð sem nota á fyrir skráninguna. Beina veffangið er forstillt og ætti að virka fyrir flestar uppsetningar. Frekari upplýsingar eru í [Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
-Einnig þarf að nota **OAuth2** sem **Tegund auðkenningar**. Einnig þarf að skrá umsókn í Azure Active Directory. Gefið umsóknarkenninu, leyniorð lyklageymslu og beina vefslóð sem nota á fyrir skráninguna. Framsend vefslóð er fyllt út fyrirfram og ætti að virka fyrir flestar uppsetningar. Frekari upplýsingar eru í Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Exchange Online.
+Einnig þarf að nota **OAuth2** sem **Tegund** auðkenningar. Einnig þarf að skrá umsókn í Azure Active Directory. Gefið umsóknarkenninu, leyniorð lyklageymslu og beina vefslóð sem nota á fyrir skráninguna. Framsend vefslóð er fyllt út fyrirfram og ætti að virka fyrir flestar uppsetningar. Frekari upplýsingar eru í Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Exchange Online.
 
 Nauðsynlegt er að setja upp uppsetninguna til að nota HTTPS. Frekari upplýsingar er að finna í [Skilgreining SSL til að tryggja örugga tengingu vefbiðlara Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Ef þjónn er settur upp til að geta haft aðra heimasíðu er hægt að breyta SLÓÐINNI. Leynilykill biðlara verða vistaður sem dulkóðaður strengur í gagnagrunninum.
 
@@ -214,6 +227,8 @@ Slökkva á núverandi uppsetningu, breyta notandanum á **síðunni skráning**
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn **email Innskráning** og veldu svo tengda tengilinn. 
 2. Velja **skal aðgerðir** og **Endurnýja tákn**.
 3. Skráðu þig inn með Exchange Online reikningnum sem áætlaða vinnslan mun nota til að tengjast samnýttu pósthólfinu og vinna úr tölvupósti.
+
+
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun tengsla](marketing-relationship-management.md)

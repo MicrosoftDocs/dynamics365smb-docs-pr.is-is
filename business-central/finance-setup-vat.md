@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
-ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519226"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740312"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts
 
@@ -210,7 +210,7 @@ Til að reikna VSK rétt fyrir sölu til ESB-landa/ svæða ætti að:
 
 Upphæðir í fylgiskjölum sem ekki hafa verið bókaðar eru sléttaðar og birtar á þann hátt sem samsvarar lokasléttun upphæða sem búið er að bóka. VSK er reiknaður fyrir heilt skjal, sem þýðir að VSK sem er reiknaður í fylgiskjali er byggður á summu allra lína með sama VSK-kenni í skjalinu.  
 
-## <a name="set-up-vat-reporting"></a>Setja upp VSK-skýrslugerð
+## <a name="set-up-vat-reporting"></a>Setja upp VSK-skýrslur
 
 Setja þarf upp upplýsingar um hvernig skattyfirvöld í landi eða svæði þurfa að senda VSK-skýrslur. Eftirfarandi skref sýna þær upplýsingar sem oftast eru notaðar. Hins vegar gæti landið eða svæðið þurft Viðbótarskref. Nánari upplýsingar er að finna í viðkomandi grein í *kaflanum staðbundnu virknikaflar* í Panel til vinstri.
 
@@ -218,13 +218,22 @@ Setja þarf upp upplýsingar um hvernig skattyfirvöld í landi eða svæði þu
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Uppsetning sniðmáta VSK-yfirlits og heiti VSK-yfirlits](finance-how-setup-vat-statement.md)  
-[Uppsetning á óinnleystum virðisaukaskatti](finance-setup-unrealized-vat.md)  
+[Setja upp sniðmát VSK-yfirlits og heiti VSK-yfirlits](finance-how-setup-vat-statement.md)  
+[Setja upp óinnleystan virðisauka](finance-setup-unrealized-vat.md)  
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
 [Vinna með Breytingarverkfæri VSK-hlutfalls](finance-how-use-vat-rate-change-tool.md)  
 [Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md)  
 [Staðbundin virkni í Business Central](about-localization.md)  
+[VSK-skýrsla í þýsku útgáfunni](LocalFunctionality/Germany/vat-reporting.md)  
+[Belgískur VSK](LocalFunctionality/Belgium/belgian-vat.md)  
+[Ítalskur VSK](LocalFunctionality/Italy/italian-vat.md)  
+[Setja upp rafrænar VSK-og ICP-skýrslur í hollensku útgáfunni](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[VSK-skýrslur í spænsku útgáfunni](LocalFunctionality/Spain/vat-reports.md)  
+[Setja upp VSK fyrir vöru og þjónustu í áströlsku útgáfunni](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[VSK í tékknesku útgáfunni](LocalFunctionality/Czech/finance-vat.md)  
+[VSK-skýrsla í norsku útgáfunni](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Skrá yfir vöru/þjónustuskatt og Samræmddur Virðisaukaskattur í Kanada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

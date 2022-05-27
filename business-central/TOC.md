@@ -239,19 +239,7 @@
 
 ### Verkflæði
 #### [Yfirlit yfir verkflæði](across-workflow.md)
-#### Setja upp verkflæði
-##### [Setja upp verkflæði](across-set-up-workflows.md)
-##### [Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)
-##### [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)
-##### [Tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)
-##### [Tilgreina hvenær og hvernig á að fá tilkynningar](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Stofna og breyta skipan](ui-get-started-layouts.md)
-<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
-##### [Setja upp tölvupóst](admin-how-setup-email.md)
-##### [Búa til verkflæði](across-how-to-create-workflows.md)
-##### [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)
-##### [Flytja verkflæði inn og út](across-how-to-export-and-import-workflows.md)
-##### [Walkthrough: setja upp og nota Innkaupasamþykktarverkflæði](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Nota Viðskiptamiðað í Power Automate streymi](across-how-use-financials-data-source-flow.md)
 #### Nota verkflæði
 ##### [Nota verkflæði](across-use-workflows.md)
 ##### [Virkja verkflæði](across-how-to-enable-workflows.md)
@@ -259,7 +247,7 @@
 ##### [Takmarka og heimila notkun á færslu](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md)
 ##### [Eyða verkflæðum](across-how-to-delete-workflows.md)
-
+<!--data exchange-->
 ### Skiptast á gögnum rafrænt
 #### [Yfirlit OData Exchange](across-data-exchange.md)
 #### [Um gagnaskiptaramma](across-about-the-data-exchange-framework.md)
@@ -672,6 +660,16 @@
 #### [Bókun þjónustu](service-service-posting.md)
 #### [Bóka þjónustupantanir og kreditreikninga](service-how-to-post-service-orders.md)
 #### [Lána og taka á móti lánsbúnaði](service-how-to-lend-receive-loaners.md)
+<!--Shopify-->
+## Netverslun með Shopify
+### [Byrjaðu með Shopify tengiflugi](shopify/get-started.md)
+### [Samstilla vörur með Shopify](shopify/synchronize-items.md)
+### [Samstilla viðskiptavini við Shopify](shopify/synchronize-customers.md)
+### [Samstilla og uppfylla sölupantanir með Shopify](shopify/synchronize-orders.md)
+### [Verk keyrð í bakgrunni](shopify/background.md)
+### [Úrræðaleit fyrir Shopify Tengivirki](shopify/troubleshoot.md)
+### [FAQ fyrir Shopify tengivirkið](shopify/shopify-faq.md)
+
 <!--Company Hub-->
 ## Fyrirtækjamiðstöð
 ### [Stýra vinnu í mörgum fyrirtækjum með fyrirtækjamiðstöðinni](company-hub.md)
@@ -770,6 +768,7 @@
 ##### [Fyrirtækisnúmer og útibúsnúmer](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Takmarka bókunartímabilið](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Stilla vinnudagsetningu sem bókunardagsetningu](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
+##### [Gera Sniðmát færslubókar áskilin](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
 
 ### Kanada
 #### [Staðbundin virkni í kanadískri útgáfu](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -823,6 +822,7 @@
 #### VSK
 ##### [Prenta VSK-afstemmingarskýrslur](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VSK-VIES-skýrslugerð](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [Uppsetning VSK-skráningarnúmer fyrir Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Bankaþjónusta og greiðslur
 ##### [FIK-upplýsingar í greiðsluafstemmingarbók](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Greiðslur og afstemmingar (DK) viðbótin](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -1329,6 +1329,7 @@
 ##### [Útistandandi Cartera-eining](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Greiðslur Cartera-einingar](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Gerðir reiknings eða kreditreiknings í sölu- og innkaupaskjölum](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [Setja upp SII fyrir VSK-skýrslu](LocalFunctionality/Spain/sii-setup.md)
 #### Core-fjármál
 ##### [Setja upp og loka stöðum rekstrarreiknings](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Draga inn og villuleita bókhaldslykla](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1572,6 +1573,17 @@
 ##### [FAQ](ui-outlook-addin-faq.yml)
 ### Setja upp skýrslur
 #### [Skýrsluval](across-report-selections.md)
+### Setja upp samþykktarverkflæði eftir sniðmátum
+#### [Setja upp samþykktarverkflæði](across-set-up-workflows.md)
+#### [Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)
+#### [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)
+#### [Tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)
+#### [Tilgreina hvenær og hvernig eigi að taka á móti Verkflæðistilkynningum](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Búa til verkflæði](across-how-to-create-workflows.md)
+#### [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Flytja verkflæði inn og út](across-how-to-export-and-import-workflows.md)
+#### [Walkthrough: setja upp og nota Innkaupasamþykktarverkflæði](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+<!--Connectors-->
 ### Setja upp tengingar
 #### [Sækja innbót Business Central fyrir Excel](admin-deploy-excel-addin.md)
 #### Nota viðskipti miðlægt sem Viðskiptahólf í Outlook 
@@ -1606,7 +1618,8 @@
 ###### [Notaðu starfsemi miðlægu apps í Power BI](across-powerbi-business-central-apps.md)
 ##### [Algengar spurningar](power-bi-faq.md)
 #### Notkun Power Automate með Viðskiptaseðla-
-##### [Nota Viðskiptamiðað í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)
+##### [Nota Viðskiptamiðað í Power Automate streymi](across-how-use-financials-data-source-flow.md)
+##### [Úrræðaleit vegna sjálfvirkra verkflæða](across-flow-troubleshoot.md)  
 #### Notkun Power Apps með Viðskiptaseðla-
 ##### [Tenging við aðalgögn fyrirtækisins til að byggja upp fyrirtæki App use Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Breyting frá Fljótssbótabók yfir í Viðskiptamiðstöð](across-quickbooks-to-business-edition.md)
@@ -1760,23 +1773,6 @@
 ### [Flokka næmi fyrir gögn](admin-classifying-data-sensitivity.md)
 ### [Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md)
 ### [Stofna ný fyrirtæki](about-new-company.md)
-### Setja upp fyrirtæki með RapidStart Services
-#### [RapidStart Yfirlit](admin-set-up-a-company-with-rapidstart.md)
-#### Uppsetning grunnstillingu fyrirtækis
-##### [Yfirlit yfir grunnstillingu fyrirtækis](admin-set-up-company-configuration.md)
-##### [Vinna með grunnstillingu fyrirtækis í vinnublaði](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-##### [Undirbúa grunnstillingarpakka](admin-how-to-prepare-a-configuration-package.md)
-#### Nota skilgreiningu á ný fyrirtæki
-##### [Nota skilgreiningu á ný fyrirtæki](admin-apply-configuration-to-new-companies.md)
-##### [Stofna nýtt fyrirtæki](admin-how-to-create-a-new-company.md)
-##### [Grunnstilla ný fyrirtæki](admin-how-to-configure-new-companies.md)
-##### [Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [Afrita gögn yfir í ný fyrirtæki](admin-how-to-copy-data-to-new-companies.md)
-##### [Stofna opnunarstöður færslubókar](admin-how-to-create-journal-opening-balances.md)
-#### [Safna saman uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md)
-#### [Undirbúa flutning á viðskiptamannagögnum með sniðmátum](admin-use-templates-to-prepare-customer-data-for-migration.md)
-#### [Flytja gögn viðskiptamanna](admin-migrate-customer-data.md)
-#### [Ábendingar og góð ráð: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### [Skrá breytingar](across-log-changes.md)
 ### [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)
 ### [Stjórna geymslu með því að þjappa gögnum eða eyða skjölum](admin-manage-documents.md)

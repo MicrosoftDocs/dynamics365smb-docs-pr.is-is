@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2530b6a5d562cfd22abd8ae097408388034a5711
-ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
-ms.translationtype: MT
+ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8485004"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740338"
 ---
 # <a name="set-up-and-report-intrastat"></a>Setja upp og skrá Intrastat
 
@@ -125,7 +125,7 @@ Keyrslan sækir allar birgðafærslur á upplýsingatímabilinu og setur þær i
 6. Birta skal þær breytingar sem gerðar hafa verið á Excel aftur til[!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!Note]
-> Í [!INCLUDE[prod_short](includes/prod_short.md)] útgáfum sem ekki styðja [**Edit í Excel**](across-work-with-excel.md#edit-in-excel) fyrir færslubækur er hægt [að stofna skilgreiningarpakka](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) til að flytja út og flytja inn intrastatbókarlínur í Excel. 
+> Í [!INCLUDE[prod_short](includes/prod_short.md)] útgáfum sem ekki styðja [**Edit í Excel**](across-work-with-excel.md#edit-in-excel) fyrir færslubækur er hægt að stofna skilgreiningarpakka til að flytja út og flytja inn intrastatbókarlínur í Excel. Nánari upplýsingar má finna [í yfirfæra gögn til fyrirtækja miðlægt](/dynamics365/business-central/dev-itpro/administration/migrate-data) í efni stjórnunar.
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Senda Intrastat-skýrslu á eyðublaði eða sem skrá
 
@@ -167,6 +167,7 @@ Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin ti
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Fjármálastjórnun](finance.md)
 
 
