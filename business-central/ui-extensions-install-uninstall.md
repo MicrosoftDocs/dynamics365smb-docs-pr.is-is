@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: solsen
-ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
+ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514752"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8804657"
 ---
 # <a name="install-and-uninstall-extensions-in-business-central"></a>Setja upp og fjarlægja viðauka í Viðskiptamiðinu
 
@@ -38,16 +38,16 @@ Hægt er að fá nýjar viðbætur úr markaðstorginu á [AppSource.microsoft.c
 > [!NOTE]  
 > Skráðu þig inn á [AppSource.microsoft.com](https://appsource.microsoft.com/) með því að nota netfangið sem þú notar fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Nota sama tölvupóstreikning fyrir aðra þjónustu og vörur fyrir er hnökralausa upplifun.  
 
-Einnig er hægt að fá að markaðstorgið úr [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **framlengingarstjórnun** geturðu séð eftirnöfnin sem eru í uppsettri röð og þú getur opnað **Framlengingarmarkað** síðu sem sýnir [!INCLUDE[prod_short](includes/prod_short.md)] viðbætur sem eru í boði í AppSource. Ef valið er *Fleiri öpp* tengilinn, er farið með þig á [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Einnig er hægt að fá að markaðstorgið úr [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **framlengingarstjórnun** geturðu séð eftirnöfnin sem eru í uppsettri röð og þú getur opnað **Framlengingarmarkað** síðu sem sýnir [!INCLUDE[prod_short](includes/prod_short.md)] viðbætur sem eru í boði í AppSource. Ef þú velur *fleiri apps* tengil þá ert þú að taka til [AppSource . microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-Ef þú velur viðbót geturðu lesið um hvað viðbótin gerir, og þú getur fengið aðgang að hjálp fyrir viðbótinni til að læra meira. Þegar valið er að fá viðbót, verðurðu að samþykkja skilmála um notkun. Ef þú færð viðbótina frá AppSource vefsíðu verður þú skráð (ur) inn í [!INCLUDE[prod_short](includes/prod_short.md)] til að ljúka uppsetningunni.  
+Ef þú velur viðbót geturðu lesið um hvað viðbótin gerir, og þú getur fengið aðgang að hjálp fyrir viðbótinni til að læra meira. Þegar valið er að fá viðbót, verðurðu að samþykkja skilmála um notkun. Ef þú færð framlengingu af AppSource heimasíðu þá skráir þú þig inn til [!INCLUDE[prod_short](includes/prod_short.md)] að klára uppsetninguna.  
 
 Þegar þú setur upp viðbót gætirðu þurft að setja það upp, svo sem að tilgreina reikning til notkunar með **PayPal-greiðslustaðall fyrir [!INCLUDE[prod_short](includes/prod_short.md)]** framlengingu.
 Aðrar viðbætur bæta einfaldlega reitum við fyrirliggjandi síðu, eða þeir bæta við nýjum síðum, til dæmis.
 
-Ef þú fjarlægir viðbót og skiptir um skoðun geturðu sett hana inn aftur. Þegar þú fjarlægir viðbót sem þú hefur verið að nota, eru gögnin geymd svo að ef þú setur þau upp aftur, eru gögnin þínn enn tiltæk. Einhverjar viðbætur eru nauðsynlegar. Þú ert að koma í veg fyrir að þetta sé fjarlægt af síðunni **Viðbótastjórnun**. Ef þú prófar birtast villuboð.
+Ef þú fjarlægir viðbót og skiptir um skoðun geturðu sett hana inn aftur. Þegar þú fjarlægir viðbót sem þú hefur verið að nota, eru gögnin geymd svo að ef þú setur þau upp aftur, eru gögnin þínn enn tiltæk. Einhverjar viðbætur eru nauðsynlegar. Þú ert hindraður í að fjarlægja þessa viðauka af síðunni um **Framlengingarstjórnun**. Ef þú prófar birtast villuboð.
 
-Sumar viðbætur eru veittar af Microsoft, og aðrar viðbætur eru veittar af [öðrum fyrirtækjum.](ui-extensions-other.md) Allar viðbætur eru prófaðar áður en þær eru gerðar tiltækar til þin, en við mælum með að þú farir í gegnum tenglana sem eru veittir með hverri viðbót til að læra meira um viðbótina áður en þú setur hana upp.
+Sumar viðbætur eru veittar af Microsoft, og aðrar viðbætur eru veittar af [öðrum fyrirtækjum.](ui-extensions-other.md) Allir Viðaukar eru prófaðir áður en þeir eru gerðir aðgengilegir, en mælt er með því að nálgast þau tengsl sem bjóðast við hverja framlengingu til að fá frekari upplýsingar um framlengingu áður en valið er að setja það upp.
 
 Microsoft veitir eftirfarandi viðbætur:
 
@@ -77,17 +77,21 @@ Microsoft veitir eftirfarandi viðbætur:
 
 ## <a name="upload-a-per-tenant-extension-pte"></a>Sækja um framlengingu á leigjanda (PTE)
 
-Þú hleður upp PTE með því að nota síðuna **Viðbótastjórnun**. Á síðunni **Viðbótastjórnun** skal fara í **Stjórna**, síðan velja **Hlaða upp viðbót**. Á síðunni **Hlaða og setja upp viðbót** skal tilgreina forritsskrána sem á að hlaða upp. Til að halda áfram skal velja hnappinn **Samþykkja** og síðan hnappinn **Nota** sem mun hefja innleiðingarferli PTE.
+Þú hleður upp PTE með því að nota síðuna **Viðbótastjórnun**. Á síðunni **Viðbótastjórnun** skal fara í **Stjórna**, síðan velja **Hlaða upp viðbót**. Á síðunni **Hlaða og setja upp viðbót** skal tilgreina forritsskrána sem á að hlaða upp. Til að halda áfram skal velja **hnappinn Samþykkja** og síðan **Virkja hnappinn, sem mun hefja ferlið á því að nota** Pte.
 
-Ef PTE inniheldur skemabreytingar með þáttaskilum er mögulegt að *þvinga* upphleðslu þess. Til að gera það skal í **Samstilling skema** velja valkostinn **Þvinga**. Samþykkja þarf staðfestingarglugga sem birtist áður en haldið er áfram.  
+Ef PTE inniheldur breytingar á grindarverki er mögulegt að *knýja* fram upphleðslu þess. Til að gera það skal í **Samstilling skema** velja valkostinn **Þvinga**. Þú færð staðfestingarglugga til að samþykkja áður en haldið er áfram.  
 
 ## <a name="uninstall-an-extension"></a>Fjarlægja nafnauka
 
-Hægt er að fjarlægja viðbót með því að nota **Viðbótastjórnun**. Ef þú fjarlægir viðbót og skiptir um skoðun geturðu sett viðbótina inn aftur. Þegar þú fjarlægir viðbót sem þú hefur verið að nota eru gögnin sjálfkrafa geymd svo ef þú vilt setja upp viðbótina aftur. Hægt er að velja að eyða gögnunum með viðbótinni. Þessu er stjórnað af gátreitnum **Eyða gögnum viðbótar**. Sjálfgefið er að þessi gátreitur sé *ekki virkur*.
+Hægt er að fjarlægja viðbót með því að nota **Viðbótastjórnun**. Til að fjarlægja nafnauka er það valið á síðunni og síðan er **fjarlægingaraðgerðin** valin. Ef þú fjarlægir viðbót og skiptir um skoðun geturðu sett viðbótina inn aftur.
+
+Þegar búið er að fjarlægja framlengingu sem þú hefur notað, er sjálfgefið að gögn séu varðveitt ef framlenging er sett upp aftur. Hægt er að velja að eyða gögnunum með viðbótinni. Þessari aðgerð er stjórnað af Gagnatrofann **með því að** Eyða framlenginu. Sjálfgefið er að slökkt **sé** á þessum rofa. Þegar reynt er að kveikja á **Skiptigagnagögnum** eyðu-Framlengingar fyrir framlengingu færðu staðfestingarglugga og þú verður að velja **Já** til að kveikja á honum. **Eftir að kveikt er á Framlengingargagnagögnum** er hægt að fjarlægja eftirnafn og biðja um staðfestingu á að þú viljir fjarlægja eftirnafn og eyða gögnunum.
 
 > [!IMPORTANT]  
-> Ef **Eyða gögnum viðbótar** er valið birtist staðfestingargluggi og þú verður að velja **Í lagi**. Ef hakað er í **Eyða gögnum viðbótar** er hægt að fjarlægja viðbótina og beðið er um staðfestingu á því að þú viljir fjarlægja viðbótina og eyða gögnunum. Ekki er hægt að afturkalla þessa aðgerð.
-Sumar viðbætur eru nauðsynlegar. Þú ert að koma í veg fyrir að þetta sé fjarlægt af síðunni **Viðbótastjórnun**. Ef þú prófar birtast villuboð.  
+> - Það geta verið aðrir Viðaukar sem krefjast eða fara eftir viðaukanum sem á að fjarlægja til þess að vinna. Um aðra viðauka vísast til *háðs*. Ekki er hægt að fjarlægja framlengingu nema háði þeirra sé einnig tekinn niður.
+> - Þegar valið er að fjarlægja nafnauka sem hefur einn eða fleiri háðan þá fær maður staðfestingarglugga sem er listi háðs og spyr hvort þú viljir fjarlægja eftirnafn og allan hans háða. Þú verður að velja **Já** til að halda áfram.
+> - Ef kveikt er á gagnarofi til að **Eyða framlengingu eyða öll gögn fyrir viðaukanum** auk **gögnum fyrir alla háða** viðauka. Ekki er hægt að afturkalla þessa aðgerð.
+> - Sumar viðbætur eru nauðsynlegar. Þú ert að koma í veg fyrir að þetta sé fjarlægt af síðunni **Viðbótastjórnun**. Ef þú prófar birtast villuboð.  
 
 ## <a name="see-also"></a>Sjá einnig
 

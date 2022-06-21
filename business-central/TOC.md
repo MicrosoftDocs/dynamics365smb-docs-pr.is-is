@@ -101,13 +101,13 @@
 ## Prófa
 ### [Skráning í ókeypis Dynamics 365 Business Central prufutíma](trial-signup.md)
 ### [Dynamics 365 Business Central prófspurningar ALGENGAR](trial-faq.md)
-### [Prufuútgáfa og áskrift](across-preview.md)
+### [Rannsóknum og áskriftum (eingöngu á ensku)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Vertu klár í rekstur fyrirtækja](ui-get-ready-business.md)
 ### [Úrræðaleit fyrir sjálfsafgreiðslu þjónustu](ui-troubleshoot-self-signup.md)
 ### [Framlengja útgáfu prufutíma](admin-extend-trial.md)
 ### [Segja upp áskrift að eða fjarlægja Business Central](admin-cancel.md)
 ## Kaupa
-### [Byrjaðu með áskrift](across-preview.md#get-started-with-a-subscription)
+### [Byrjaðu með áskrift](trial-signup.md#get-started-with-a-subscription)
 ### [Vertu klár í rekstur fyrirtækja](ui-get-ready-business.md)
 
 ## Flýtiræsingar
@@ -358,6 +358,7 @@
 #### [Um birgðakostnað](finance-learn-about-costing.md)
 #### [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)
 #### [Um umreikning staðalkostnaðar](finance-about-calculating-standard-cost.md)
+#### [Um útreikning á kostnaðarverði](finance-about-calculating-unit-cost.md)
 #### [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)
 #### [Vinna við birgðatímabil](finance-how-to-work-with-inventory-periods.md)
 #### [Setja upp birgðamat og kostnaðarútreikning](finance-set-up-inventory-valuation-and-costing.md)
@@ -1424,6 +1425,7 @@
 ##### [Bandarískur virðisaukaskattur](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Skráning virðisaukaskatts í Bandaríkjunum](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Skráning færslna sem gilda fyrir 1099 í Bandaríkjunum](LocalFunctionality/UnitedStates/tax-1099.md)  
+##### [Setja upp og nota eyðublað IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Setja upp neysluskatt og innkaupaskatt](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Setja upp óinnleystan virðisaukaskatt og greiðsluafslátt sölu](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Bankaþjónusta og greiðslur
@@ -1474,6 +1476,7 @@
 #### [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md)
 #### [Skrá sérstök söluverð og afslætti](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Setja upp verðflokka viðskiptamanna](sales-how-to-set-up-customer-price-groups.md)
+#### [Setja upp afsláttarflokka viðskiptamanna](sales-how-to-set-up-customer-discount-groups.md)
 #### [Setja upp sölumenn](sales-how-setup-salespeople.md)
 #### [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md)
 #### [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)
@@ -1811,12 +1814,12 @@
 #### [QuickBooks Online Gagnaflutningur](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks-viðbótin fyrir innflutning á launaskrá](ui-extensions-quickbooks-payroll.md)
 #### [Sölu- og birgðaspár](ui-extensions-sales-forecast.md)
-#### [Umsjón VSK-hópa](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 gagnaflutningur](ui-extensions-c5-data-migration.md)
 #### [DK - Greiðslur og afstemmingar](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Skráarsnið skatts](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io UK póstnúmer](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [UK-VSK-Hópstjórnun](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA - Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
 #### [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)
 ## Samgena með Dynamics 365 sölu

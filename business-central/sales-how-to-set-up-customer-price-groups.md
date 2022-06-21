@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
 ms.author: edupont
-ms.openlocfilehash: 9b2ff8cca6abf8c1f849039deff5a441427bf112
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9abd79500966a946228834166ef554e6a3e70911
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143141"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950066"
 ---
 # <a name="set-up-customer-price-groups"></a>Setja upp verðflokka viðskiptamanna
   
@@ -63,6 +63,9 @@ Endurtaktu skref 4 til 8 fyrir hverja vöru sem á að stofna söluverð fyrir.
 
 ## <a name="see-also"></a>Sjá einnig
 
+[Sala](sales-manage-sales.md)  
+[Uppsetning sölu](sales-setup-sales.md)  
 [Skrá sérstök söluverð og afslætti](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Uppsetning afsláttarflokka viðskiptamanna](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,57 +1,57 @@
 ---
-title: Algengar spurningar um prufuáskrift
-description: Lausnir á algengum spurningum sem tengjast Dynamics 365 Business Central uppsetningu og stjórnun prufu. Lærðu hvernig á að leysa vettvang og app-sérstakur málefni.
+title: Prófspurningar ALGENGAR
+description: Lausnir algengra spurninga sem tengjast Dynamics 365 Business Central reynslusetningum og stjórnun. Lærðu að leysa upp vettvangs-og App-mál.
 author: edupont04
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 6cb42322383506a7b6633952cb171cb7c6602339
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367280"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805153"
 ---
-# <a name="dynamics-365-business-central-trial-faq"></a>Dynamics 365 Business Central algengar spurningar um rannsókn
+# <a name="dynamics-365-business-central-trial-faq"></a>Dynamics 365 Business Central prófspurningar ALGENGAR
 
 [!INCLUDE [beethoven-trial](includes/beethoven-trial.md)]
 
-### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Get ég breytt réttarhöldunum í greitt leyfi?
+### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Get ég umbreytt réttarkerfinu í launað leyfi?
 
-Já, þú getur það! Frekari upplýsingar er að finna í [Byrja með áskrift](across-preview.md#get-started-with-a-subscription).  
+Já, þú getur það! Nánari upplýsingar er að finna [í gang með áskrift](trial-signup.md#get-started-with-a-subscription).  
 
-### <a name="what-are-the-trial-limits-and-quotas"></a>Hver eru prufumörkin og kvótarnir?
+### <a name="what-are-the-trial-limits-and-quotas"></a>Hvað eru prófmörk og kvótar?
 
-Ókeypis prufuáskriftin inniheldur sýnishornagögn. Ef þú vilt prófa Business Central með eigin gögnum geturðu skipt yfir í ókeypis 30 daga prufuáskrift með tómu fyrirtæki. Sjá Trials and Subscriptions fyrir frekari upplýsingar [[!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md).  
+Ókeypis próftaka inniheldur sýnishorn af gögnum. Ef þú vilt prófa Business Central með þínum eigin gögnum getur þú skipt yfir í ókeypis 30 daga prufutíma hjá Tæmdu fyrirtæki. Kerfisstjóri getur fræðst um rannsóknir og áskriftir [hér](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-### <a name="how-do-i-start-using-the-trial"></a>Hvernig byrja ég að nota réttarhöldin?
+### <a name="how-do-i-start-using-the-trial"></a>Hvernig byrja ég að nota prufup?
 
-Eftir að þú skráir þig í prufutímann kemur þú á sjálfgefnu heimasíðuna. Heimasíðan veitir tengla á nokkur algengustu verkefnin og þú getur nálgast ábendingar og ferðir í vörunni.  
+Eftir að þú skráir þig í prófhefið kemur þú á sjálfgefna heimasíðu. Heimasíðan veitir tengla í nokkur af algengustu verkefnum og hægt er að nálgast í vöruábendingum og á ferðum.  
 
-Uppsetningarleiðbeiningar með hjálp geta hjálpað til við að setja upp hluti. Frekari upplýsingar er að finna í [Fá tilbúinn til að stunda viðskipti](ui-get-ready-business.md).  
+Leiðbeiningar um uppsetningu hjálpartækja geta hjálpað þér að setja hlutina upp. Frekari upplýsingar má fá með því að sjá [tilbúinn fyrir rekstur](ui-get-ready-business.md).  
 
-### <a name="what-features-are-available-in-the-trial"></a>Hvaða eiginleikar eru í boði í réttarhöldunum?
+### <a name="what-features-are-available-in-the-trial"></a>Hvaða eiginleikar eru í boði í prufunni?
 
-The frjáls réttarhald inniheldur næstum alla getu í miklum eigu [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Fá tilbúinn til að stunda viðskipti](ui-get-ready-business.md).  
+Fría réttin felur í sér nánast alla möguleika í gríðarmiklum eigu [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar má fá með því að sjá [tilbúinn fyrir rekstur](ui-get-ready-business.md).  
 
-### <a name="how-long-does-the-trial-last"></a>Hversu lengi standa réttarhöldin yfir?
+### <a name="how-long-does-the-trial-last"></a>Hvað endast réttarhöldin lengi?
 
-Ókeypis Business Central prufuáskriftin varir eins lengi og þú vilt, að því tilskildu að þú haldir áfram að skrá þig inn. En ef þú vilt nota eigin gögn verður þú að skipta yfir í 30 daga rannsókn.  
+Fríverslunarmiðun frjálsu viðskipta varir eins lengi og þú vilt, að því gefnu að þú haldir áfram innskráningu. En ef nota á eigin gögn þarf að skipta yfir í 30 daga prufutíma.  
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-### <a name="how-do-i-remove-sample-data-from-the-trial"></a>Hvernig fjarlægi ég sýnishorn úr rannsókninni?
+### <a name="how-do-i-remove-sample-data-from-the-trial"></a>Hvernig fjarlægi ég sýnishorn úr prófgögnum?
 
-Skiptu yfir í 30 daga prufuáskriftina og bættu síðan við eigin gögnum. Frekari upplýsingar er að finna í [Flytja innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) í stjórnunarefninu (aðeins á ensku).  
+Skiptu yfir í 30 daga prufutíma og bættu svo við þínum eigin gögnum. Nánari upplýsingar er að finna [í yfirfæra gögn á netinu](/dynamics365/business-central/dev-itpro/administration/migrate-data) til Viðskiptamiðaðrar miðlægu í admin-efninu (aðeins á ensku).  
 
-### <a name="how-do-i-restore-sample-data"></a>Hvernig endurheimti ég sýnishornsgögn?
+### <a name="how-do-i-restore-sample-data"></a>Hvernig endurheimti ég sýnishorn gögn?
 
-Þú getur ekki. Ef þú eyðir óvart sýnishornsgögnum skaltu biðja stjórnandann þinn um að búa til nýtt sandkassaumhverfi. Frekari upplýsingar er að finna [í Framleiðslu- og sandkassaumhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types) í admin efni (aðeins á ensku).  
+Þú getur það ekki. Ef gögn eru eyðilögð óvart skal biðja kerfisstjóra um að stofna nýtt sandkasssumhverfi. Nánari upplýsingar er að finna [í framleiðslu og sandkassa umhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types) í admin efni (aðeins á ensku).  
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Skráðu þig fyrir ókeypis Dynamics 365 Business Central prufuáskrift](trial-signup.md)  
+[Skráning í ókeypis Dynamics 365 Business Central prufutíma](trial-signup.md)  
 [Algengar spurningar um notkun Business Central](across-faq.yml)  
 [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Prufuútgáfa og áskrift](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)] Rannsóknum og áskriftum](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

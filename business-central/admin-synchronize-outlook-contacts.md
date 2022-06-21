@@ -1,7 +1,7 @@
 ---
 title: Samnýta tengiliði milli Viðskiptamiðis og Outlook
 description: Þessi þjónusta er djúp Samþætting við Microsoft 365 svo hægt sé að samnýta tengiliði milli Outlook og Viðskiptamiðis.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,45 +9,54 @@ ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 6c4ed5dfa89fdafe6e685d6566a57cb604adacdb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.author: bholtorf
+ms.openlocfilehash: 571dce9d79532cb3659ec952a585764af78c5161
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513123"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799879"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Samstilla tengiliði í Business Central við tengiliði í Microsoft Outlook
 
-Þú getur séð sömu tengiliði í [!INCLUDE[prod_short](includes/prod_short.md)] eins og þú sérð í Outlook ef þú setur upp samstillingu tengiliðar. Til dæmis, ef þú ert sölumaður gætir þú gert eitthvað af vinnunni þinni í Outlook og eitthvað af vinnu þinni í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef tengiliðirnir eru þeir sömu á báðum stöðum er vinnan þín einfaldari.  
+Hægt er að setja upp samstillingu tengiliða þannig að tengiliðirnir [!INCLUDE[prod_short](includes/prod_short.md)] þínir hafi sömu upplýsingar og Tengiliðirnir þínir í Microsoft Outlook. Ef þú ert til dæmis Sölumaður þá gætir þú unnið í Outlook og [!INCLUDE[prod_short](includes/prod_short.md)] á sama tíma. Ef tengiliðirnir eru þeir sömu á báðum stöðum er vinnan þín einfaldari.  
 
-Sérstök mappa í Outlook gerir auðvelt um vik að finna tengiliði og þú getur stillt síu til að samstilla aðeins tengiliðina frá [!INCLUDE[prod_short](includes/prod_short.md)] sem þú vilt sjá í Outlook. Þegar samstilling samskipta er sett upp geturðu byrjað samstillingu handvirkt eða sett upp sjálfvirka samstillingu sem mun halda tengiliðunum í samstillingu með reglulegu millibili.  
+Sjálfgefið er að tengiliðirnir sem verið er að samtengjast séu geymdir **í aðalmöppu** í uppáhaldi í Möppurúðunni í Outlook. Mappan Aðalmappa getur auðveldað auðkenningu tengiliða sem verið er að sambúa. Hægt er að setja afmarkanir til að samstilla aðeins tiltekna tengiliði úr [!INCLUDE[prod_short](includes/prod_short.md)] í Outlook. Eftir að samstilling hefur verið sett upp er hægt að samstilla handvirkt eða gera ferlið að samstilla á áætluðum grunni.  
 
 ## <a name="set-up-synchronization"></a>Uppsetning samstillingar
-Þú setur upp hvernig þú vilt samstilla tengiliði með Outlook á síðunni **Uppsetning Exchange-samstillingar** í [!INCLUDE[prod_short](includes/prod_short.md)]. Forstilling í því að hafa notandaforstillinguna í [!INCLUDE[prod_short](includes/prod_short.md)] verður að tilgreina Microsoft 365 tölvupóstreikning. Hægt er að haka við þetta í **Microsoft 365 kaflanum sannvottun** í notandaforstillingunni á **listanum yfir notendur**.  
+Þú setur upp hvernig þú vilt samstilla tengiliði með Outlook á síðunni **Uppsetning Exchange-samstillingar** í [!INCLUDE[prod_short](includes/prod_short.md)]. Forstilling í því að hafa notandaforstillinguna í [!INCLUDE[prod_short](includes/prod_short.md)] verður að tilgreina Microsoft 365 tölvupóstreikning. Hægt er að haka í þessa stillingu í **Microsoft 365 hlutanum sannvottun** í notandaforstillingunni á **listanum yfir notendur**. 
 
-Síðan á síðunni **Uppsetning Exchange-samstillingar** getur þú sannprófað að tengingin við Exchange virki og síðan sett upp samstillingu samskipta. Opnaðu síðuna **Uppsetning samstillingar tengiliða** og byrjaðu samstillinguna. Valfrjálst er að stilla síu til að velja úr þá tengiliði sem á að samstilla milli [!INCLUDE[prod_short](includes/prod_short.md)] og Outlook. Til dæmis er hægt að stilla síu fyrir nafn, gerð, fyrirtæki eða álíka. Þú getur einnig breytt sjálfgefna heiti möppunnar sem tengiliðirnir munu samstillast í Outlook. Sjálfgefið heiti er *Business Central*.  
+**Á genginu samkv. Uppsetningarsíðu** er hægt að staðfesta að tengingin við Exchange sé að virka og setja síðan upp samstillingu tengiliða. **Frá eigendaskiptum samkv. Uppsetningarsíðu** er hægt að **Opna samkeyrslu tengiliðar. Uppsetningarsíðu** og ræsa samstillingu. Valfrjálst er að setja afmörkun til að tilgreina hvaða tengiliði skuli samstilla. Til dæmis er hægt að afmarka eftir nafni, tegund, fyrirtæki o. is. Einnig er hægt að breyta sjálfgefnu heiti möppunnar í Outlook sem tengiliðirnir samstilla við.  
 
-Þegar þessi samstilling hefur verið sett upp, eru allar breytingar sem þú gerir á tengiliðnum í annaðhvort Outlook eða í [!INCLUDE[prod_short](includes/prod_short.md)] samstilltast við hvort annað.  
+Hver Samkeyrsla notanda getur einnig sett upp sína eigin Gengissamstillingu og sett sínar eigin afmarkanir á hvaða tengiliði á að samstilla.  
 
-Sérhver samstarfsfélagi þinn getur einnig sett upp eigin Exchange-samstillingu og sett sína eigin síu til að velja úr hvaða tengiliði skal samstilla.  
+Eftir að samstilling hefur verið sett upp er hægt að samstilla breytingar á tengiliðinn handvirkt eða gera ferlið sjálfvirkt með því að setja upp færslu í Verkröð. Nánari upplýsingar um sjálfvirkni er að finna í næsta kafla í þessari grein.
+
+### <a name="automate-synchronization"></a>Gera samstillingu sjálfvirkt
+Hægt er að stofna færslu í vinnslu sem mun samstilla tengiliði samkvæmt áætlun sem skilgreind er. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md). 
+
+Í eftirfarandi töflu er listi yfir stillingarnar á **Færsluspjaldssíðu Vinnslubiðkorts** sem eru til að samstilla tengiliði:
+
+|Svæði|Stilling fyrir tengilið samkeyrslu|
+|-----|-----|
+|Gerð hlutar sem á að keyra|Codeunit|
+|Auðkenni hlutar í keyrslu|6700|
 
 ## <a name="synchronize-contacts"></a>Samstilla tengiliði
-Ef þú ert vanur því að vinna með tengiliði í [!INCLUDE[prod_short](includes/prod_short.md)], þá mun þér finnast það auðvelt að hefja samstillinguna handvirkt hvenær sem það hentar þér úr listanum **Tengiliðir**. Valið **er samstilla við Microsoft 365** aðgerð og síðan er ákveðið hvort breyta eigi afmörkuninni sem sett hefur verið upp. Þegar þú velur hnappinn „Í lagi“ byrjar samstillingin strax og nýjustu breytingum er komið á tengiliðina þína í Outlook.  
-
-Í listanum **Tengiliðir** geturðu samstillt tengiliði á tvo vegu:
+Ef þú ert vanur að vinna með tengiliði í [!INCLUDE[prod_short](includes/prod_short.md)] finnst þér auðvelt að samstilla handvirkt **í tengiliðalistanum** hvenær sem það hentar þér. Hægt er að samstilla tengiliði á tvennan hátt:
 
 * **Samkeyra við Microsoft 365**
 
-  Þessi aðgerð samstillir allar breytingar frá [!INCLUDE[prod_short](includes/prod_short.md)] því að Microsoft 365 fyrri samstilling byggist á síðustu Breyttu dagsetningu. Nýir Tengiliðir Microsoft 365 verða samstilltir aftur til að [!INCLUDE[prod_short](includes/prod_short.md)] einnig. Þetta er venjulega hraðar en að gera fulla samstillingu.  
+  Samstilla allar breytingar frá [!INCLUDE[prod_short](includes/prod_short.md)] til Microsoft 365 sem voru gerðar eftir síðustu samstillingu, Byggt á síðustu Breyttu dagsetningu. Einnig verða nýir Tengiliðir Microsoft 365 samstilltir [!INCLUDE[prod_short](includes/prod_short.md)]. Yfirleitt er þessi aðgerð hraðari en Full samkeyrslu. 
 
 * **Full Samkeyrsla við Microsoft 365**
 
-  Þessi aðgerð samstillir alla tengiliði í báðar áttir óháð síðasta samstillingardegi og síðasta breytingardegi.  
+  Samstilla skal alla tengiliði í báðar áttir, óháð síðustu samkeyrsludagsetningu og síðustu Breyttu dagsetningu.  
 
-Í báðum tilvikum eru tengiliðir aðeins samstilltir frá Outlook ef þeir hafa nauðsynlega reiti útfyllta. Nauðsynlegir reitir til að samstilla við Microsoft 365 eru **Nafn**, **Netfang** og þeir verða að vera af gerðinni manneskja. [!INCLUDE[prod_short](includes/prod_short.md)] er aðalsniðmát tengslaupplýsinganna, þannig að [!INCLUDE[prod_short](includes/prod_short.md)] tengslaupplýsingarnar verða vistaðar ef tvítekningar eiga sér stað.  
+Í báðum tilvikum eru tengiliðir aðeins samstilltir frá Outlook ef þeir hafa nauðsynlega reiti útfyllta. Nauðsynlegir reitir til að samstilla við Microsoft 365 eru **Heiti**, **Netfang** og tengiliðurinn verður að vera af tegundinni **manneskja**. [!INCLUDE[prod_short](includes/prod_short.md)] er uppruni tengiliðarins og [!INCLUDE[prod_short](includes/prod_short.md)] því verða upplýsingar um tengiliði vistaðar ef um tvítekningar er að ræða.  
 
-Í Outlook eru tengiliðirnir frá [!INCLUDE[prod_short](includes/prod_short.md)] sýndir í möppu undir **Aðrir tengiliðir** í yfirlitinu **Einstaklingar**. Ef þú þekkir ekki einstaklingsyfirlitið í Outlook, þá geturðu farið í það frá leiðsagnavalkostunum neðst til vinstri í Outlook.  
+> [!NOTE]
+> Ef tengilið er eytt í Outlook en henni [!INCLUDE[prod_short](includes/prod_short.md)] er haldið við skal tengiliðurinn afþakkaður í Outlook næst þegar hann er samstillinn. 
 
 ## <a name="see-also"></a>Sjá einnig
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  

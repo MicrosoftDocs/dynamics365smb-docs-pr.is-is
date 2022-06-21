@@ -1,22 +1,53 @@
 ---
 title: Hafist handa með tengibúnað fyrir Shopify
 description: Fyrstu skrefin þegar tenging milli Viðskiptamiðseðla og Shopify
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 2b88995cad8cfe0c3688ca062643f2d339fed9bf
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768100"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808934"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Byrjaðu með Shopify tengiflugi
 
-[!INCLUDE [prod_short](../includes/prod_short.md)] gefur þér sveigjanleikann til að tengja verslunina þína Shopify (eða verslanir) við hana til að hámarka framleiðni fyrirtækisins þíns. Þú getur stjórnað og skoðað innsýn frá fyrirtæki þínu og Shopify vefversluninni sem eina einingu með því að Shopify nota tengitengið. Til að nota Shopify með [!INCLUDE [prod_short](../includes/prod_short.md)] þarf að fylgja nokkur skref. Þessi síða þjónar sem leiðarvísir til að ljúka samþættingu verslunar þinnar Shopify við [!INCLUDE [prod_short](../includes/prod_short.md)].
+Tengdu þína Shopify verslun (eða verslanir) við [!INCLUDE [prod_short](../includes/prod_short.md)] og hámarkar framleiðni fyrirtækisins. Stjórnaðu og Skoðaðu innsýn frá þínu fyrirtæki og þinni Shopify verslun sem eina einingu. 
+
+Í Shopify tengivirkinu felst eftirfarandi hæfileiki:
+
+- Aðstaða fyrir fleiri en eina Shopify búð  
+
+  - Hver búð hefur sitt skipulag, þar á meðal safn vara, birgðageymslur sem eru notaðar til að reikna út birgðir og verðlista.  
+- Samkeyrsla á bi-stefnumarkandi atriðum eða afurðum  
+
+  - Í Connector eru samkeyrðar myndir, vöruafbrigði, strikamerki, vörunúmer lánardrottins, lengdir textar og seðlar.  
+  - Flytja út eigindi vöru í Shopify.  
+  - Nota valda verðflokka viðskiptamanna og afslætti til að skilgreina verð sem fluttur er út í Shopify.  
+  - Ákveða hvort vörur megi stofna sjálfvirkt eða leyfa ekki uppfærslur á fyrirliggjandi afurðum.  
+- Samstilling birgðastita  
+
+  - Velja skal nokkra eða alla tiltæka staði í [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  - Uppfæra birgðastig á mörgum stöðum í Shopify.  
+- Bi-stefnumiðuð samstilling viðskiptavina  
+
+  - Snjallkort viðskiptavina með síma og tölvupósti.  
+  - Nota skal landssniðmát þegar Viðskiptavinir eru stofnaðir, sem hjálpar til að tryggja að skattastillingar séu réttar.  
+- Innflutningur á pöntunum frá Shopify  
+
+  - Við innflutninginn er hægt að stofna viðskiptamenn sjálfkrafa í [!INCLUDE [prod_short](../includes/prod_short.md)] eða ákveða að stjórna viðskiptavinunum í Shopify.  
+  - Taka með pantanir sem Shopify stofnaðar eru á öðrum leiðum, til dæmis POS eða Amazon.  
+  - Sendingarkostnaður, gjafakort, ábendingar, siglinga-og greiðsluaðferðir, tilfærslur og hætta á svikum.  
+  - Fá upplýsingar um útborgun úr Shopify greiðslum.  
+- Auðveldar mælingar á uppfyllingu upplýsinga  
+
+  - Valfrjálst er að skrifa vörurakningarupplýsingar frá [!INCLUDE [prod_short](../includes/prod_short.md)] í Shopify.  
+
+Til að nota Shopify með [!INCLUDE [prod_short](../includes/prod_short.md)] hefur þú nokkra hluti til að gera fyrst. Þessi grein þjónar sem leiðarvísir til að ljúka samþættingu verslunar þinnar Shopify við [!INCLUDE [prod_short](../includes/prod_short.md)].
 
 ## <a name="prerequisites-for-shopify"></a>Forsendur fyrir Shopify
 
@@ -27,7 +58,7 @@ Heimilt verður að:
 
 Til að stofna nýjan Shopify reikning eða undirritað fyrir ókeypis 14 daga prufutíma, vafra til [Shopify](https://www.shopify.com/). Nánari upplýsingar um það hvernig eigi að stofna og sérsníða netverslun er að finna [Shopify í hjálparmiðstöðinni](https://help.shopify.com/).
   
-- Aðrar sölurásir eru t.d. Shopify studdar sölurásum.
+Aðrar sölurásir eru t.d. Shopify studdar sölurásum.
 
 ### <a name="recommended-settings"></a>Ráðleggingar um stillingar
 
@@ -37,27 +68,27 @@ Til að vita meira um Shopify stillingar fyrir kynningu og prufuáætlanir, sjá
 
 ## <a name="prerequisites-for-business-central"></a>Forsendur fyrir starfrækslu miðlægu
 
-- Gakktu úr skugga um að **tenging til Shopify[!INCLUDE[prod_short](../includes/prod_short.md)]** Framlengingar sé uppsett.
+- Gakktu úr skugga um að **[Shopify forritið tengi](https://go.microsoft.com/fwlink/?linkid=2196238)** uppsett.
 
-Framlengingunni er foruppsett fyrir öll ný merki ups og rannsóknir. Ef setja þarf upp viðbætur af Markaðstaunum má heimsækja [skrárendingar og fjarlægja](../ui-extensions-install-uninstall.md#install) uppsetningu. Fylgdu skrefunum sem talin eru upp hér á eftir ef þú ert ekki með [!INCLUDE[prod_short](../includes/prod_short.md)].
-<!--
-## Installing the **Dynamics 365 Business Central** app to your Shopify online store
+Forritið er fyrirfram uppsett fyrir allar nýjar skrápur og rannsóknir. Frekari upplýsingar um uppsetningu á apps er sett upp af Markaðstaunum við uppsetningu og uppsetningu [á](../ui-extensions-install-uninstall.md#install) Óskránum. Fylgdu skrefunum sem talin eru upp hér á eftir ef þú ert ekki með [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is optional and can be skipped.
+## <a name="installing-the-dynamics-365-business-central-app-to-your-shopify-online-store"></a>**Dynamics 365 Business Central** Uppsetning á forritinu í Shopify netverslun
 
-1. Locate the [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) app on the [Shopify AppStore](https://apps.shopify.com/)
-2. Choose the **Add App** button. Sign-in into your Shopify account if prompted. Select the required online shop if you've more than one.
-3. After reviewing privacy and permissions, choose the **Install App** button.
-  You can find and open the installed **Dynamics 365 Business Central** app in the **Apps** section on the sidebar of **Shopify admin**.
-4. Choose **Sign up now** to start [!INCLUDE[prod_short](../includes/prod_short.md)] trial or **Sign in** if you already have [!INCLUDE[prod_short](../includes/prod_short.md)]. You'll be redirected to your [!INCLUDE[prod_short](../includes/prod_short.md)] at [Business Central](https://businesscentral.dynamics.com).
-5. The next steps should be done in [!INCLUDE[prod_short](../includes/prod_short.md)].
--->
+Fyrir fyrirliggjandi [!INCLUDE[prod_short](../includes/prod_short.md)] er þetta þrep valfrjálst og því má sleppa.
+
+1. [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) Finndu App [Shopify í AppStore](https://apps.shopify.com/)
+2. **Veldu hnappinn Bæta við forriti**. Skráðu þig inn á reikninginn þinn Shopify ef beðið er um. Veldu nauðsynlega vefbúð ef þú ert með fleiri en einn.
+3. Eftir að **hafa áfrýjað persónuvernd og heimildum skal velja hnappinn setja upp App**.
+  Hægt er að finna og opna uppsett **Dynamics 365 Business Central** App í **apps** -hlutanum á hliðarstikunni **Shopify admin**.
+4. Veldu **skrá núna** til að byrja [!INCLUDE[prod_short](../includes/prod_short.md)] að prufa eða **skrá þig inn** ef þú ert þegar með [!INCLUDE[prod_short](../includes/prod_short.md)]. Þú munt framvísa þér á [!INCLUDE[prod_short](../includes/prod_short.md)] Viðskiptamiðinu. [...](https://businesscentral.dynamics.com)
+5. Næstu skref ættu að vera höfð í [!INCLUDE[prod_short](../includes/prod_short.md)].
+
 ## <a name="connecting-business-central-to-the-shopify-online-store"></a>Tenging Viðskiptamiðlana við Shopify netverslunina
 
 1. Farðu í Search ![ljósapera sem opnar aðgerðina Segðu mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **Shopify búð** og veljið tengdan tengil.
 2. Valið er aðgerðin **Nýtt**.  
 3. **Í reitinn Kóti** er viðeigandi kóti færður inn.  
-4. Í **Shopify svæðinu URL** skal slá inn vefslóð vefverslunar, sem þarf að tengjast.
+4. Í **Shopify svæðinu URL** skal slá inn vefslóð vefverslunar, sem þarf að tengjast. Notaðu eftirfarandi snið:`https://{shop}.myshopify.com/`.
 5. Virkja **virkjunina** skipta, yfirfara og samþykkja skilmálana.
 6. Ef beðið er, Skráðu þig inn í reikninginn þinn Shopify, farðu yfir persónuvernd og heimildir og veldu **síðan hnappinn setja upp App**.
 

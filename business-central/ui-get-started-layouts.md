@@ -10,16 +10,19 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 95d8aaf6749a2f02b1f586a2f235d3a5eaa7c21f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9dafc8e193ccf3c47947be6508a0917a45393c91
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524201"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950040"
 ---
 # <a name="get-started-creating-report-layouts"></a>Byrja að búa til Skýrsluskipulag
 
 Business Central kemur með mörgum innbyggðum skipan sem hægt er að nota á skýrslurnar. Aðra skipan kann að hafa verið bætt við sem hluta af öðrum viðaukum. En það er líka hægt að búa til eigin skýrslur annað hvort frá grunni eða byggja fyrirliggjandi skipulag.
+
+> [!IMPORTANT]
+> Einnig er hægt að nota skýrsluskipulag til að bæta efni í bréfapóstum. Skýrsluútlit getur til dæmis sparað tíma og hjálpað til við að tryggja samræmi með því að endurnýta sama efni þegar þú átt samskipti við viðskiptavini þína. Ef nota á sérsniðna skýrslu með tölvupósti verður skrárgerðin fyrir útlitinu að vera Word. Ekki er hægt að nota RDLC-skrárgerðina. Nánari upplýsingar er að finna [í setja upp endurnýtanlega texta og skipulag](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="overview"></a>Yfirlit
 
@@ -37,7 +40,7 @@ Með þetta hugtak í huga. Það eru í rauninni þrjú eða fjögur verk sem e
 >
 > Til að fræðast um muninn á útliti og notandaskilgreiningu er að finna [í layout Source](ui-manage-report-layouts.md#layout-sources).
 
-## <a name="get-started"></a>Hefjast handa
+## <a name="get-started"></a>Hafist handa
 
 Raunveruleg verkefni eru breytileg eftir því hver staðan er. Notaðu eftirfarandi töflu til að hjálpa þér að byrja.
 
@@ -113,12 +116,12 @@ Afritun er fljótleg leið til að búa til nýtt útlit sem er eins og tiltækt
 4. Aftur á **útlit** skýrslunnar er nýja útlitaðgerðin **valin**.
 5. Eftirfarandi reitir eru fylltir út:
 
-   |Svæði|Description|Skylt|
+   |Svæði|Lýsing|Áskilið|
    |-----|-----------|---------|
-   |Kenni skýrslu|Stilla á KENNIÐ sem skýrslan er tengd|já|
-   |Heiti útlits| Sláið inn stutta lýsingu á heitinu til að auðvelda auðvelt að auðkenna það.|já|
-   |Description| Sláðu inn ítarlegri upplýsingar um útlitið. |nei|
-   |Valkostir sniðs|Stilla þetta svæði til að stemma af gerð útlits, eins og Word, Excel eða RDLC.|já|
+   |Skýrslukenni|Stilla á KENNIÐ sem skýrslan er tengd|já|
+   |Heiti uppsetningar| Sláið inn stutta lýsingu á heitinu til að auðvelda auðvelt að auðkenna það.|já|
+   |Lýsing| Sláðu inn ítarlegri upplýsingar um útlitið. |nei|
+   |Sniðvalkostir|Stilla þetta svæði til að stemma af gerð útlits, eins og Word, Excel eða RDLC.|já|
 
 6. Veldu **OK** > **Veldu** til að opna skrárexplorer í tækinu.
 7. Finna og velja Excel-skrána og velja **síðan opna**.

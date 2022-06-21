@@ -1,20 +1,20 @@
 ---
 title: Flýtivísanir
 description: Heill listi yfir flýtivísanir til að vinna skilvirkt með gögnin þín.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
-ms.author: bholtorf
-ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 0e5ad41e6109d53a998f1c3ad8280b92a602a50e
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517974"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799691"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -51,14 +51,15 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 |Alt+Shift+F2|Skipta á milli **Upplýsingar** og **Fylgiskjöl** í upplýsingakassanum.|
 |Alt+O|Bættu nýrri athugasemd við völdu færsluna, jafnvel þótt upplýsingakassinn sé ekki opinn.|
 |Alt+Q<br />(Ctrl+Option+Q)|Opnaðu gluggann **Viðmótsleið**. Frekari upplýsingar er að finna í [Finna síður og upplýsingar með „Segðu mér“](ui-search.md).|
+|CTRL + ALT + Q<br />(CTRL + Option + cmd + Q)|**Opnið síðuna finna færslur** til að finna skjöl og færslur sem tengjast hverri annarri samkvæmt algengum upplýsingum, eins og númeri fylgiskjals eða bókunardagsetningu. Nánari upplýsingar, sjá [finna tengdar Entires fyrir bókuð skjöl](ui-find-entries.md)|
 |Alt+N |Opna síðu til að búa til nýja færslu. (Svipað og að velja aðgerðirnar **Nýtt** og **+**.)|
 |Alt+Shift+N |Velja nýlega stofnaða síðu og opna nýja til að búa til nýja færslu. Á sama hátt bókar ALT+F9 skjal og býr til nýtt.|
 |Alt+T|Opna síðuna **Mínar stillingar**.|
-|Alt+hægri ör|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur ![AssistEdit](media/assist-edit-icon.png "AssistEdit hnappur"). hnappur. Þetta er notað þegar venjulegi fellilistahnappur (Alt+Niðurör) í sama reitnum er notaður í öðrum tilgangi.|
+|Alt+hægri ör|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur ![AssistEdit](media/assist-edit-icon.png "AssistEdit hnappur"). hnappur. Notað þegar venjulegur fellitakki (Alt + ör) í sama reit er notaður í öðrum tilgangi.|
 |Ctrl+Alt+Shift+C|Birta upplýsingar í merki fyrirtækis.|
 |Ctrl+Alt+F1|Opna og loka glugganum fyrir síðueftirlit. Glugginn fyrir síðueftirlit sýnir upplýsingar um síðuna, t.d. upprunatöflu, reiti, síur, viðbætur og fleira.<br /><br />Frekari upplýsingar er að finna í [Eftirlit með síðum](across-inspect-page.md).|
 |Ctrl+C |Afrita gildið á reit. Ef reiturinn er í fókus og þú hefur ekki valið neinn texta í reitnum mun þetta afrita allt gildið. Ef þú hefur valið einhvern texta í reitnum er eingöngu valilnn texti afritaður.|
-|Ctrl+F1|Opnaðu Business Central hjálpina fyrir síðuna.|
+|Ctrl+F1|[Opna hjálparrúðuna](product-help-and-support.md#help-pane) eða aðalhjálpargrein [í Microsoft docs](/dynamics365/business-central/), eftir aðalútgáfu fyrirtækisins.|
 |Ctrl+F12|Skiptu á milli breiðs og þröngs útlits á yfirliti.|
 |Ctrl+Smella|Fletta við sérstillingu eða sérsnið þegar aðgerðin er auðkennd með örvaoddi. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).|  
 |Ctrl+F5|Endurhlaða [!INCLUDE[prod_short](includes/prod_short.md)] forritið. (Svipað og að velja endurnýja/endurhlaða í vafranum.)|
@@ -89,7 +90,7 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |Ctrl+F9|Úttektarskjal.|Sama.|
 |*F7*|Opna tölfræði.|Sama.|
 |*F9*|Bóka, senda, skrá eða bakfæra skjal.|Sama.|
-|*Shift + CTRL + F*|Senda tillögur um línur á síðunni sjóðstreymissorsendur.|Á ekki við.|
+|*Shift + CTRL + F*|Senda tillögur að línum á vinnublöðum sjóðstreymissaðlablaðsins.|Á ekki við.|
 |*Shift + Ctrl + I*|Skoða rað-og lotunúmer sem úthlutað er á línuatriðið í skjalinu eða færslubókinni.|Á ekki við.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts">Flett milli raða og dálka</a>
@@ -238,7 +239,7 @@ Hlutverkaleit veitir yfirlit og flýtiaðgang að öllum viðskiptaeiginleikum s
 |F3|Opnið reitinn **Leita** í hlutverkaleit til að finna eiginleika samkvæmt uppgefnu leitarorði eða hugtaki.|
 |F3 eða Ctrl+niðurör|Færir áherslu á næsta fundna eiginleika hlutverkaleitar. F3 flytur áhersluna í reitinn **Leita** á eftir síðasta fundna eiginleikanum.|
 |SHIFT F3 eða CTRL+Uppör|Flytjið áherslu á fyrri eiginleikann sem fannst í hlutverkaleit.|
-|Ctrl+Shift|Stækkið eða minnkið alla undirhnúta ásamt hnútum á efsta stigi þegar aðgerðin **Stækka** eða **Minnka** er valin.|
+|Ctrl+Shift|Útvíkka eða fella saman alla undirhnúta auk topphnúa þegar aðgerðin Útvíkka **eða** fella **er valin**.|
 
 ##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Tölutakkar Flýtihnappar
 

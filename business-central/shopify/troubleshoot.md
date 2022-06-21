@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768102"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808865"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Úrræðaleit vegna Shopify Aðalsamstillingar og viðskipta
 
@@ -56,9 +56,8 @@ Ef [!INCLUDE[prod_short](../includes/prod_short.md)] ekki er hægt að Shopify t
 
 1. Fara á leitarljósaperu ![sem opnast Segðu mér lögun.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **Shopify búð** og veljið tengdan tengil.
 2. Veljið verslunina sem sækja á aðgangstakið til að opna **Shopify Vinnukortasíðuna**.
-3. **Kótinn er færður í reitinn Kóti**.  
-4. **Veldu aðgangsaðgerðina** beiðni.
-5. Ef beðið er um áritun á reikninginn þinn Shopify.
+3. **Veldu aðgangsaðgerðina** beiðni.
+4. Ef beðið er skal skrá sig inn Shopify á reikninginn.
 
 ## <a name="see-also"></a>Sjá einnig
 

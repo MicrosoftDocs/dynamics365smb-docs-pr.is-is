@@ -1,18 +1,18 @@
 ---
 title: Samstilla og uppfylla sölupantanir
 description: Setja upp og keyra innflutning og vinnslu sölupöntunar úr Shopify.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: e7c54cc620011d238942c093a05918e2f4e57c7d
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4e8d640f6de61d642037a55fdfeb09e32f197a96
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768097"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809014"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Samstilla og uppfylla sölupantanir
 
@@ -27,7 +27,7 @@ Regluleg Shopify pöntun getur haft aukaupphæðir ofan á, eins og sendingargj�
 - **Ábending reikningur**  
 
 Gera **sjálfvirkt stofna pantanir** til að stofna söluskjöl sjálfvirkt í [!INCLUDE[prod_short](../includes/prod_short.md)] pöntuninni sem Shopify er flutt inn.
-Söluskjalið í [!INCLUDE[prod_short](../includes/prod_short.md)] inniheldur tengil við Shopify pöntunina. Ef, er virkjað **Shopify Pöntunarnr. á Doc. línu** þá verða þessar upplýsingar endurteknar í sölulínu af gerðinni *comment*.
+Söluskjalið í [!INCLUDE[prod_short](../includes/prod_short.md)] inniheldur tengil við Shopify pöntunina. Ef hakað er í **Shopify Pöntunarnr. í Doc. Line** verða þessar upplýsingar endurteknar í sölulínur af gerðinni *Athugasemd*.
 
 **Í reitnum upprunasvæði** skattsvæðis er hægt að tilgreina forgang að því hvernig velja á skattsvæðiskóta eða VSK-viðskiptabókunarflokk á grundvelli aðseturs. Þetta þrep á við um lönd með VSK en hægt er að nota það fyrir VSK-lönd. Nánar er fjallað [um Skattaleg ummæli](synchronize-orders.md#tax-remarks).
 
@@ -71,16 +71,20 @@ Eftirfarandi ferli lýsir því hvernig á að flytja inn og uppfæra sölupönt
 
 Einnig er hægt að leita að **Samstillingarpöntunum úr Shopify** runuvinnslu.
 
-Þegar innflutningi er lokið er hægt að kanna Shopify pöntunina og finna allar tengdar upplýsingar, svo sem greiðslufærslur, sendingarkostnað, uppfylla, hættustig. Einnig er hægt að sjá pöntunarstaðfestingu sem send er viðskiptavininum með því að velja **Shopify aðgerðina staða**.
+Áætla má að verkefnið sé framkvæmt með sjálfvirkum hætti. Frekari upplýsingar er að finna [í Schedule endurtekin verk](background.md#to-schedule-recurring-tasks).
+
+## <a name="review-imported-orders"></a>Yfirfara innfluttar pantanir
+
+Þegar innflutningi er lokið er hægt að kanna Shopify pöntunina og finna allar tengdar upplýsingar. Til dæmis er að finna greiðslufærslur, sendingarkostnað, hættustig eða uppfylt ef pöntunin hefur verið uppfyllt Shopify. Einnig er hægt að sjá allar pöntunarstaðfestingar sem hafa verið sendar viðskiptavininum með því að **Shopify Velja aðgerðina staða**.
 
 > [!NOTE]  
 > Hægt er að vafra um **Shopify gluggann pantanir** beint og þú sérð pantanir með *opinni* stöðu úr öllum verslunum. Til að fara yfir fullgerðar pantanir þarf að opna **Shopify pantanassíðu** úr glugganum tiltekið **Shopify verkstæðisspjald**.
 
-## <a name="create-sales-document-in-business-central"></a>Stofna söluskjal í Viðskiptamiðinu
+## <a name="create-sales-documents-in-business-central"></a>Stofna söluskjöl í Viðskiptamiðinu
 
-**Ef Sjálfvirk pantanavíxla** eru virkjuð á **Shopify verkstæðisspjaldi**, reynir það [!INCLUDE[prod_short](../includes/prod_short.md)] að búa til söluskjal þegar pöntun er flutt inn. Ef um er að ræða vinnslu sem tekur til atriða, til dæmis ef Viðskiptamaður eða afurð vantar, þarf að laga vandann og reyna að stofna sölupöntun aftur.
+**Ef Sjálfvirk pantanavíxla** eru virkjuð á **Shopify verkstæðisspjaldi**, reynir það [!INCLUDE[prod_short](../includes/prod_short.md)] að búa til söluskjal þegar pöntun er flutt inn. Ef vinnslan er keyrð í úthreyfingar, eins og ef Viðskiptamaður eða afurð vantar, þarf að lagfæra vandann. Þá getur þú prófað að stofna sölupöntunina aftur.
 
-### <a name="to-create-sales-document"></a>Til að stofna söluskjal
+### <a name="to-create-sales-documents"></a>Söluskjöl stofnuð
 
 1. Fara á leitarljósaperu ![sem opnast Segðu mér lögun.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **Shopify búð** og veljið tengdan tengil.
 2. Veljið verslunina þar sem á að samstilla pantanir til að opna **Shopify spjald-síðu vinnukorts**.
@@ -88,7 +92,7 @@ Einnig er hægt að leita að **Samstillingarpöntunum úr Shopify** runuvinnslu
 4. Veljið pöntunina sem stofna á söluskjal fyrir og veljið **aðgerðina stofna söluskjöl**.
 5. Velja **Já**.
 
-Shopify Ef pöntunin krefst uppfyllingar **verður sölupöntunin** stofnuð til að uppfylla Shopify pantanirnar. Til dæmis, þau sem innihalda aðeins gjafakort **verður sölureikningurinn** stofnaður.
+Shopify Ef pöntunin krefst uppfyllingar **verður sölupöntunin** stofnuð. Til að uppfylla Shopify fyllilega pantanir, t.d. þær pantanir sem innihalda aðeins gjafakort eða eru þegar Afgreiddar í Shopify, **þá fær sölureikningurinn** búið til.
 
 Söluskjal er nú stofnað og hægt er að stjórna því með notkun staðalvirkleikaeiginleika [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -102,7 +106,7 @@ Ef stillingarnar koma í veg fyrir að viðskiptavinur geti stofnað sjálfkrafa
 
 ### <a name="tax-remarks"></a>Skattaleg ummæli
 
-Þegar innflutt Shopify pöntun inniheldur upplýsingar um skatta, fá skattstofnar endurreiknað þegar söluskjal er stofnað. Þess vegna er mikilvægt að VSK-reikning/Skattastillingar séu réttar skv [!INCLUDE[prod_short](../includes/prod_short.md)].
+Á meðan innflutt Shopify pöntun inniheldur upplýsingar um skatta, fá skattaútreiknaðar þegar söluskjal er stofnað. Að endurendurreikna skiptir miklu máli að VSK/skattstillingarnar eru réttar í [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Margfeldi afurðskatts/VSK-vaxta. Sumar vörutegundir eru til dæmis gjaldskyldar fyrir minni skatthlutföll. Þær vörur þurfa að [!INCLUDE[prod_short](../includes/prod_short.md)] vera til í og vera kortlagðar í Shopify vörum. Að öðrum kosti er notaður VSK-vörubókunarflokkurinn til að nota sjálfvirka stofnun týnandi vara.
 

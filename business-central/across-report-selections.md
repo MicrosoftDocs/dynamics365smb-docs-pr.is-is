@@ -7,27 +7,27 @@ ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9106b1ac3f6b179e26c8dfb01212b88e92b694fe
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512453"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950200"
 ---
 # <a name="report-selection-in-business-central"></a>Skýrsluval í Business Central
 
-Hægt er að setja upp sjálfgefnar skýrslur sem verða notaðar til að prenta hin ýmsu skjöl fyrir sölu og innkaup, svo sem pantanir, tilboð, reikninga og kreditreikninga. Ef til dæmis um er að ræða tiltekið útlit fyrir sölureikninga er hægt að tilgreina þá skýrslu á síðunni **Skýrsluval - Sala** þannig að hún verði notuð til að senda eða prenta sölureikninga.  
+Hægt er að setja upp sjálfgefnar skýrslur til að nota við prentun skjala fyrir sölu og innkaup, svo sem pantanir, tilboð og reikninga. Ef til dæmis um er að ræða tiltekið útlit fyrir sölureikninga er hægt að tilgreina þá skýrslu á síðunni **Skýrsluval - Sala** þannig að hún verði notuð til að senda eða prenta sölureikninga.  
 
-Síðurnar **Skýrsluval** tilgreina hvaða skýrsla verður prentuð við mismunandi aðstæður. [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur sjálfgefnar skilgreiningar, en hægt er að breyta þeim. Einnig er hægt að bæta skýrslum við síðurnar **Skýrsluval** ef á að prenta fleiri en eina skýrslu fyrir hverja skjalagerð sem dæmi.  
+Síðurnar **Skýrsluval** tilgreina hvaða skýrsla verður prentuð við mismunandi aðstæður. [!INCLUDE [prod_short](includes/prod_short.md)] gefur sjálfgefin afbrigði en hægt er að breyta þeim ef þörf krefur. Einnig er hægt að bæta skýrslum við síðurnar **Skýrsluval** ef á að prenta fleiri en eina skýrslu fyrir hverja skjalagerð sem dæmi.  
 
 ## <a name="available-report-selections"></a>Skýrsluval í boði
 
-[!INCLUDE [prod_short](includes/prod_short.md)] inniheldur mismunandi síður **Skýrsluvals** fyrir mismunandi svæði. Eftirfarandi töflur útskýra hvar hægt er að finna upplýsingar um mismunandi síður.  
+[!INCLUDE [prod_short](includes/prod_short.md)] inniheldur mismunandi síður **Skýrsluvals** fyrir mismunandi svæði. Eftirfarandi tafla lýsir því hvar hægt er að finna upplýsingar um hinar ólíku síður.  
 
 |Svæði eða verkefni  |Frekari upplýsingar|
 |--------------|----------|
 |Dæmi um hvernig skýrsluval virkar (sala)|[Skýrsluval fyrir söluskjöl](#example-report-selection-for-sales-documents)|
-|Sjálfgefið útlit fyrir tölvupósta með sölu- og innkaupaskjölum  |[Setja upp endurnýtanlega texta og útlit tölvupósts fyrir sölu- og innkaupaskjöl](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
+|Sjálfgefið útlit fyrir tölvupósta með sölu- og innkaupaskjölum  |[Setja upp Endurnýtanlegan Senditexta og útlit fyrir sölu-og innkaupaskjöl](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Skilgreina útlit ávísana     |[Velja útlit ávísunar](finance-how-define-check-layouts.md) |
 |Skilgreina skýrslur fyrir VSK-skýrslugerð (Þýskaland)|[Setja upp skýrslur fyrir VSK og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
@@ -51,19 +51,19 @@ Síðan **Skýrsluval - Sala** skilgreinir sjálfgefnar skýrslur til að nota �
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Sumar skjalagerðir er hægt að senda sem tölvupóstviðhengi en aðrar ekki. Hver síða **Skýrsluvals** sýnir viðbótarreiti ef gerðin styður tölvupóst.  
+Sumar gerðir skjala er hægt að senda sem viðhengi í tölvupósti, og aðrir geta það ekki. Ef hægt er að senda tegund skjals í tölvupósti **mun Skýrsluvalssían** innihalda aukareiti.  
 
 Til dæmis á síðunum **Skýrsluval - Sala** og **Skýrsluval - innkaup** hjálpa eftirfarandi reitir þér við að setja upp tölvupóst:
 
-|Heiti reits |Description  |
+|Heiti reits |Lýsing  |
 |-----------|-------------|
-|**Nota fyrir meginmál tölvupósts**| Tilgreinir samanteknar upplýsingar, eins og númer reiknings, gjalddaga og tengil greiðsluþjónustu, sem verða settar inn í meginmál tölvupóstsins sem á að senda.        |
-|**Nota fyrir tölvupóstsviðhengi**| Tilgreinir að tengt fylgiskjal verði hengt við tölvupóstinn.|
-|**Lýsing á útliti meginmáls tölvupósts**|Tilgreinir útlit á meginmáli tölvupósts sem er notað, yfirleitt sérsniðið skýrsluútlit. |
+|**Nota fyrir meginmál tölvupósts**| Setja inn samanteknar upplýsingar, svo sem reikningsnúmer, gjalddaga og greiðsluþjónustutengil, í tölvupósti.        |
+|**Nota fyrir tölvupóstsviðhengi**| Tengja tengda skjalið við netfangið.|
+|**Lýsing á útliti meginmáls tölvupósts**|Tilgreinið líkamsútlit tölvupósts sem nota á. Algengast er að útlitið sé sérsniðið skýrslusnið. |
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Setja upp endurnýtanlega texta og útlit tölvupósts fyrir sölu- og innkaupaskjöl](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
+[Setja upp Endurnýtanlegan Senditexta og skipulag](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Velja útlit ávísunar](finance-how-define-check-layouts.md)  
 [Setja upp skýrslur fyrir VSK og Intrastat (Þýskaland)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  

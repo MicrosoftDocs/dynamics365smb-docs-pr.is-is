@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655749"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799431"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finndu síður og upplýsingar með Viðmótsleit  
 Þetta efnisatriði lýsir því hvernig Viðmótsleit getur hjálpað þér að komast hratt á staði eins og aðgerðir, síður eða skýrslur, finna upplýsingar um hvernig á að ljúka ákveðnu verki og uppgötva önnur forrit og ráðgjafarþjónustur fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -50,11 +50,13 @@ Síður og verkefni sem eru skráðar eru háð þeirri reynslu notenda sem þú
 ### <a name="finding-a-report-or-archived-information"></a>Finna skýrslu eða safnvistaðar upplýsingar
 **Fara í skýrslur og greiningu** kafla býður aðgang að skýrslugerðartólum. Til dæmis getur þú opnað **Efnahagsreikningur** skýrsluna af listanum eða fengið aðgang að safnvistuðum skjölum og öðrum upplýsingum.  
 
-### <a name="finding-information-in-the-help"></a>Hvernig finna á upplýsingar í Hjálp
-Undir **Fylgiskjöl** muntu sjá greinar úr [!INCLUDE[prod_short](includes/prod_short.md)] skjalinu sem lýsa hugtökum og veita skref fyrir skref leiðbeiningar til að klára verkefni í forritinu.    
+<!-- removed in v20 because of Help pane
+### Finding Information in the Help
+Under **Documentation** you will see articles from the [!INCLUDE[prod_short](includes/prod_short.md)] documentation that describe concepts and provide step-by-step guidance for completing tasks in the application.    
 
 > [!NOTE]  
-> Fylgiskjöl fyrir viðbót þriðja aðila er ekki innifalið í niðurstöðum.
+> Documentation for third-party extensions is not included in the results.
+-->
 
 ### <a name="getting-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Fáðu meiri virkni með því að finna forrit á Microsoft AppSource
 Samfélag samstarfsaðila okkar er að þróa forrit á fullu sem bæta möguleikum við [!INCLUDE[prod_short](includes/prod_short.md)]. Hlutinn **Fá frá Microsoft AppSource** birtir forrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] sem eru í boði á Microsoft AppSource og tengjast leitarorðinu sem þú leitaðir eftir.

@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654969"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805229"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Stofna ný fyrirtæki í[!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -32,11 +32,11 @@ Ef þú ákveður að bæta fyrirtæki við þitt [!INCLUDE[prod_short](includes
 Leiðsagnarforrit uppsetningar býður upp á tvö sniðmát og auða valkosti:
 
 - **Mat - Sýnigögn**  
-    Hér er stofnað fyrirtæki sem svipar til sýnifyrirtækisins hvað varðar sýnigögn og uppsetningargögn. Þessi tegund af fyrirtæki býðst þér án þess að skipta yfir á [30 daga prufutíma](across-preview.md#add-your-own-data-to-an-empty-trial-company), sem hinar Gerðirnar gera.  
+    Hér er stofnað fyrirtæki sem svipar til sýnifyrirtækisins hvað varðar sýnigögn og uppsetningargögn. Þessi tegund af fyrirtæki býðst þér án þess að skipta yfir á 30 daga prufutíma, sem hinar Gerðirnar gera.  
 - **Framleiðsla - Aðeins uppsetningargögn**  
-    Hér er stofnað fyrirtæki sem svipar til **Mitt fyrirtæki** hvað varðar uppsetningargögn, en er án sýnigagna. Þú munt geta notað þetta fyrirtæki í [30 daga prufutíma](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Hér er stofnað fyrirtæki sem svipar til **Mitt fyrirtæki** hvað varðar uppsetningargögn, en er án sýnigagna. Þú munt geta notað þetta fyrirtæki í 30 daga prufutíma.  
 - **Stofna nýtt - Engin gögn**  
-    Hér er stofnað autt fyrirtæki án uppsetningargagna. Þú munt geta notað þetta fyrirtæki í [30 daga prufutíma](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Hér er stofnað autt fyrirtæki án uppsetningargagna. Þú munt geta notað þetta fyrirtæki í 30 daga prufutíma.  
 
 Ef þú vilt byrja auðveldlega með nýtt fyrirtæki, skal velja **Framleiðsla - Aðeins uppsetningargögn** og síðan flytja inn þín eigin viðskiptagögn, eins og viðskiptamenn, vörur og lánardrottnar. **Veldu nýja** sniðmátið ef þú vilt setja allt frá grunni upp. Í því tilfelli, geturðu nýtt þér **Uppsetning fyrirtækis** leiðsagnarforrit með stuðningi til að stíga fyrstu skrefin með nauðsynleg uppsetningargögn.  
 
@@ -44,6 +44,8 @@ Ef þú vilt byrja auðveldlega með nýtt fyrirtæki, skal velja **Framleiðsla
 > Þegar þú stofnar nýtt fyrirtæki, líða nokkrar mínútur áður en þú getur komist inn í það í [!INCLUDE[prod_short](includes/prod_short.md)]. Uppsetningarstaðan á síðunni **Fyrirtæki** sýnir hvenær nýja fyrirtækið er tilbúið fyrir þig. Þá geturðu skipt yfir í nýja fyrirtækið með því að nota **Mínar stillingar**.  
 
 Á 30 daga prufutíma þínum getur þú búið til hvaða fjölda af nýjum fyrirtækjum, en þau verða aðeins tiltæk meðan á rannsókn þinni stendur. Nánari upplýsingar má nálgast með því að hafa samband við [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila þinn. Sjá einnig [Dynamics 365 Business Central reynslusögur PRÓFAÐRA FAQ](trial-faq.md) gr.  
+
+Kerfisstjóri getur fræðst um rannsóknir og áskriftir [hér](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ## <a name="copy-a-company"></a>Afrita fyrirtæki
 
@@ -84,7 +86,6 @@ Frekari upplýsingar eru í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Prufuútgáfa og áskrift](across-preview.md)  
 [Skilningur á innviðum viðskipta miðlægt á netinu (Enska Only)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

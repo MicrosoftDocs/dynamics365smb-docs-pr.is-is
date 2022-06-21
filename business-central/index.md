@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 0a901fca9da818459e8c94735c041dfbafff9471
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 07dfa98c8499a2a9c7de9d5005d941f8d65aa7fb
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518130"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805075"
 ---
 # <a name="welcome-to-prod_long"></a>Velkomin(n) í[!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -71,6 +71,7 @@ Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsing
 ## <a name="development-and-administration-content"></a>Efni þróunar og stjórnunar
 
 - [Þróun og stjórnun](/dynamics365/business-central/dev-itpro/index)
+- [Rannsóknum og áskriftum](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 - [Þróun í AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Reglur og leiðbeiningar fyrir AL-kóða](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)

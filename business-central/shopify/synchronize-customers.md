@@ -1,18 +1,18 @@
 ---
 title: Samstilla viðskiptavini
 description: Flytja inn viðskiptavini úr eða út í Shopify
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768101"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808862"
 ---
 # <a name="synchronize-customers"></a>Samstilla viðskiptavini
 
@@ -25,8 +25,8 @@ ms.locfileid: "8768101"
 
 *Innflutningspöntunin úr Shopify* aðgerð reynir að velja viðskiptavin í eftirfarandi röð:
 
-1. **Ef sjálfgefinn viðskm. nr.** Er skilgreindur í **Shopify Viðskiptamannssniðmátinu** fyrir samsvarandi land, þá **er sjálfgefinn Viðskiptamaður nr.** Er notaður, óháð stillingum í **innflutningi viðskiptavinar úr Shopify** og **viðskiptavinarvörpun**.
-2. Ef **Viðskiptamaður flytja úr Shopify** og **Sjálfgefinn viðskiptamanns.** Er tilgreindur er síðan **sjálfgefna Viðskiptavinarnr.** Er notað.
+1. **Ef sjálfgefinn viðskm. nr.** Er skilgreindur í **Shopify Viðskiptamannssniðmátinu** fyrir samsvarandi land og síðan **Sjálfgefinn Viðskiptamaður nr.** Er notaður, óháð stillingum í **innflutningi viðskiptavinar úr Shopify** og **viðskiptavinarvörpun**. Sjá [viðskiptamannasniðmát á landi](synchronize-customers.md#customer-template-per-country) fyrir frekari upplýsingar.
+2. Ef **Viðskiptamaður er innflutningur frá Shopify** stillt á *ekkert* og **Sjálfgefið viðskm.** Er skilgreindur í **Shopify verkstæðisspjaldinu** þá **er sjálfgefinn viðskm. nr.** Er notað.
 
 Næstu skref fara eftir **gerð** viðskiptavinarkortanna.
 
@@ -76,7 +76,7 @@ Núverandi viðskiptavini er hægt að Shopify Flytja út í í fjöldasöng. Þ
 
 ### <a name="populate-customer-information-in-shopify"></a>Fylla út upplýsingar um viðskiptavin í Shopify
 
-Viðskiptavinur í Shopify hefur fornafn, eftirnafn, netfang og/eða símanúmer. Hægt er að fylla út fyrsta nafn og eftirnafn, Byggt á gögnum af viðskiptamannaspjaldi í [!INCLUDE[prod_short](../includes/prod_short.md)].
+Viðskiptavinur í Shopify hefur fornafn, eftirnafn, netfang og/eða símanúmer. Hægt er að fylla út fyrsta nafn og eftirnafn af viðskiptamannaspjaldinu í [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Forgangur|Svæði í viðskiptamannaspjaldi|Lýsing|
 |------|------|-----------|
@@ -100,6 +100,8 @@ Fyrir aðsetur þar sem notað er land/hérað er valið *kóti* eða *Heiti* í
 3. **Veljið aðgerðina samstilla viðskiptavin**.
 
 Einnig er hægt að **nota aðgerðina** Ræsa viðskiptavin samkeyrslu **Shopify í glugganum Viðskiptavinir** eða leita að **keyrslu samstillingarviðskiptamanna**.
+
+Áætla má að verkefnið sé framkvæmt með sjálfvirkum hætti. Frekari upplýsingar er að finna [í Schedule endurtekin verk](background.md#to-schedule-recurring-tasks).
 
 ## <a name="see-also"></a>Sjá einnig
 

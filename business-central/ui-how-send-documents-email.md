@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e791eb8f066085b8230aeac4c85a82c67093f06
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655575"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950491"
 ---
 # <a name="send-documents-and-emails"></a>Senda skjöl og tölvupósta
 
@@ -44,7 +44,7 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 7. Í reitnum **Viðhengi** er myndaður reikningur sjálfgefið hengdur við sem PDF-skrá.
 8. Í reitinn **Meginmál** skal slá inn stutt skilaboð til viðtakanda.
 
-    Ef texti tölvupósts sértækur fyrir skjal er settur upp á síðunni **Skýrsluval - Sala** er reiturinn **Meginmálslínur** útfylltur sjálfkrafa. Frekari upplýsingar eru í [Setja upp endurnýtanlega texta og útlit tölvupósts fyrir sölu- og innkaupaskjöl](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
+    Ef texti tölvupósts sértækur fyrir skjal er settur upp á síðunni **Skýrsluval - Sala** er reiturinn **Meginmálslínur** útfylltur sjálfkrafa. Nánari upplýsingar er að finna [í setja upp endurnýtanlega texta og skipulag](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 9. Veldu hnappinn **Í lagi** til að senda tölvupóstinn.
 
 > [!NOTE]  

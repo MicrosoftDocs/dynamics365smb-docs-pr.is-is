@@ -1,62 +1,60 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 8f46c780d88df95264137814f0f49d72dd17bc75
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: fd1448c9fd32b359bf40a02b90a3ee6a66a5d685
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367281"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950256"
 ---
-## <a name="sign-up"></a>Skráning
+## <a name="sign-up"></a>Skilti
 
-### <a name="which-email-address-i-should-use-to-sign-up"></a>Hvaða netfang ætti ég að nota til að skrá mig?
+### <a name="which-email-address-i-should-use-to-sign-up"></a>Hvaða netfang sem ég ætti að nota til að skrá þig?
 
-Notaðu netfang vinnunnar eða skólans. Við munum koma réttarhöldunum þínum á framfæri á reikningi fyrirtækis þíns. Þú getur ekki notað netföng frá tölvupóstþjónustu neytenda eða fjarskiptafyrirtækjum, svo sem outlook.com, hotmail.com, gmail.com, og öðrum.  
+Notaðu vinnu eða skólanetfang. Við munum koma á framfæri prufu þinni á reikningi fyrirtækisins. Þú getur ekki notað netföng sem neytandi hefur sent póstþjónustu eða fjarskiptaþjónustu, s.s. *outlook.com*, *hotmail.com*, *gmail.com* og aðrir.  
 
-### <a name="what-are-the-system-requirements-for-the-trial"></a>Hverjar eru kerfiskröfur fyrir réttarhöldin?
+### <a name="what-are-the-system-requirements-for-the-trial"></a>Hverjar eru kerfiskröfur réttarkerfisins?
 
-Þetta app er ský-undirstaða þjónusta sem þarf ekki sérstakan hugbúnað annan en uppfærðan vafra, þó að sumar takmarkanir eigi við.  
+Þetta App er skýjaþjónusta sem ekki þarf sérstakan hugbúnað annað en að nota vefvafra, þó einhverjar takmarkanirnar eigi við.  
 
-### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant"></a>Hvernig skrái ég mig í réttarhöldin án Microsoft 365 leigjanda?
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant"></a>Hvernig skrái ég mig í prófrannsókn án þess að Microsoft 365 leigjandi?
 
-Þú getur ekki. Notaðu netfang vinnu eða skóla.
+Þú getur það ekki. Notaðu vinnu-eða skólnetfang.
 
-### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service"></a>Get ég skráð mig í önnur Dynamics 365 forrit eins og sölu-, markaðs- og þjónustuver?
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service"></a>Get ég skráð mig fyrir öðrum Dynamics 365 apps eins og sölu, markaðsmálum og þjónustu við viðskiptavini?
 
-Já, þú getur það. Til að skoða allar tiltækar prófanir skaltu [fara á síðuna prufumiðstöð](https://dynamics.microsoft.com/dynamics-365-free-trial). Þú getur notað sama tölvupóstreikning til að skrá þig fyrir mismunandi rannsóknum.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
+Já, þú getur það. Til að skoða allar tiltækar rannsóknir er [farið á síðuna prufa Hub](https://dynamics.microsoft.com/dynamics-365-free-trial). Hægt er að nota sama póstreikning til að skrá sig fyrir mismunandi rannsóknum.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
 
-## <a name="trial-app"></a>Prufuforrit
+## <a name="trial-app"></a>Prufu App
 
-### <a name="i-didnt-receive-the-trial-details-email-after-signing-up-what-should-i-do"></a>Ég fékk ekki upplýsingar um réttarhöldin eftir að hafa skráð mig, hvað ætti ég að gera?
+### <a name="i-didnt-receive-the-trial-details-email-after-signing-up-what-should-i-do"></a>Ég fékk ekki senda upplýsingar um prófsmáta eftir undirritun, hvað á ég að gera?
 
-Þegar þú skráir þig fyrir réttarhöldin færðu tölvupóst með upplýsingum um réttarhöldin. Ef þú sérð ekki tölvupóstinn í pósthólfinu þínu skaltu athuga ruslpóstmöppuna þína. Einnig er hægt að nota eftirfarandi skref til að fá aðgang að forritinu þínu:
+Þegar þú skráir þig í próftíma færðu tölvupóst með upplýsingum um prófsmáta. Ef þú sérð ekki tölvupóstinn í innhólfinu þínu skaltu athuga ruslmöppuna þína. Einnig er hægt að nota eftirfarandi skref til að fá aðgang að forritinu:
 
-1. [Farðu á prufusíðuna](https://go.microsoft.com/fwlink/?linkid=847861), veldu *Fjármál og aðgerðir* og veldu **Dynamics 365 Business Central** síðan, á **kortinu, prófaðu ókeypis** hnappinn.  
-2. Sláðu inn netfang vinnu eða skóla. Þér verður vísað í prufuforritið þitt.  
+1. [Farðu á prufusíðuna](https://go.microsoft.com/fwlink/?linkid=847861), Veldu *fjármál og aðgerðir* og svo á **Dynamics 365 Business Central** spjaldinu, Veldu **reyna laust** hnappinn.  
+2. Sláðu inn vinnu-eða netfang skóla þíns. Þú munt framvísa prufu-forritinu þínu.  
 
-### <a name="how-do-i-add-more-users-to-a-trial"></a>Hvernig bæti ég fleiri notendum við prufuáskrift?
+### <a name="how-do-i-add-more-users-to-a-trial"></a>Hvernig bæti ég fleiri notendum við prófgráðu?
 
-Til að bæta við notendum skaltu biðja kerfisstjórann um að fara í [Microsoft 365 stjórnendamiðstöðina](https://admin.microsoft.com) þar sem þeir geta fylgt [leiðbeiningum](/microsoft-365/admin/add-users/add-users) stjórnandamiðstöðvarinnar til að bæta notendum við prufuleyfismörkin. Ef notandinn sem verið er að bæta við er þegar með Microsoft 365 reikning skal úthluta honum viðeigandi leyfi. Frekari upplýsingar er að finna [í Úthluta leyfum til notenda](/microsoft-365/admin/manage/assign-licenses-to-users) í efninu Microsoft 365.
+Til að bæta við notendum verður Stjórnandinn að fara í [Microsoft 365 stjórnstöðina](https://admin.microsoft.com). Þá geta þeir sem [fylgja leiðbeiningum admin Center](/microsoft-365/admin/add-users/add-users) bætt notendum upp á prufuleyfismörk réttarins. Ef notandinn sem verið er að bæta við hefur Microsoft 365 lykil skal úthluta þeim viðeigandi leyfi. Sjá [úthluta leyfum til notenda](/microsoft-365/admin/manage/assign-licenses-to-users) í Microsoft 365 innihaldi fyrir frekari upplýsingar.
 
-### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>Hversu marga notendur get ég bætt við prufuumhverfið mitt?
+### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>Hversu marga notendur get ég bætt við reynsluumhverfið mitt?
 
-Þú getur bætt ótakmarkaðan fjölda notenda við prufuumhverfið.
+Hægt er að bæta ótakmörkuðum fjölda notenda við í prufuumhverfið.
 
-### <a name="how-do-i-reset-the-trial-environment"></a>Hvernig endurstilli ég réttarumhverfið?
+### <a name="how-do-i-reset-the-trial-environment"></a>Hvernig Endurstillir ég prufuumhverfið?
 
-Þú getur ekki endurstillt réttarumhverfið. En admin þinn getur búið til ferskt sandkassa umhverfi þar sem þú getur spilað í kring með ýmsum getu. Frekari upplýsingar er að finna [í Framleiðslu- og sandkassaumhverfi í stjórnunarefninu](/dynamics365/business-central/dev-itpro/administration/environment-types).  
+Ekki er hægt að endurstilla prufuumhverfið. En Biddu þína admin um að búa til ferskt sandkassa umhverfi svo að þú getir spilað um við hina ýmsu getu. Nánari upplýsingar er að finna [í framleiðslu og sandkassa umhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types) í admin-efni.  
 
-Ef þú vilt hætta við [!INCLUDE [prod_short](prod_short.md)] á prufutímabili verður þú að biðja kerfisstjórann um Microsoft 365 að fjarlægja prufuáskriftina af reikningi fyrirtækisins í [Microsoft 365 stjórnendamiðstöðinni](https://admin.microsoft.com/). Sjá einnig [Afskrá eða Fjarlægja [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md).  
+Ef óskað er eftir að hætta [!INCLUDE [prod_short](prod_short.md)] við á reynslutíma þarf að biðja Microsoft 365 kerfisstjóra um að fjarlægja prufuáskriftina af reikningi fyrirtækisins í [Microsoft 365 umsjónarmiðstöðinni](https://admin.microsoft.com/). Sjá einnig [óáskrift eða fjarlægja [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md).  
 
-Ef þú skráðir þig fyrir Dynamics 365 Business Central því að nota reikning sem ekki er Microsoft 365 viðskiptareikningur ertu ekki með Microsoft 365 kerfisstjóra. Til að segja upp áskrift verður þú að hafa samband við afpöntunarteymið [!INCLUDE[prod_short](prod_short.md)] með því að senda tölvupóst á [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Þú verður að hafa nafn leigjanda þíns [!INCLUDE[prod_short](prod_short.md)] með í skilaboðunum svo að við getum borið kennsl á þig. Þessar upplýsingar er að finna á **síðunni Hjálp og stuðningur** sem hægt er að nálgast á **?** . Frekari upplýsingar er að finna í [Tilföng fyrir hjálp og stuðning](../product-help-and-support.md).  
+## <a name="trial-expiration-and-extension"></a>Gildistími og framlenging próf
 
-## <a name="trial-expiration-and-extension"></a>Gildistími og framlenging réttarhalda
+### <a name="how-do-i-extend-the-trial"></a>Hvernig lengja réttarhöldin?
 
-### <a name="how-do-i-extend-the-trial"></a>Hvernig framlengi ég réttarhöldin?
-
-Hægt er að framlengja réttarhöldin fyrir annað prufutímabil. Leiðbeiningar er að finna í [Þarftu meiri tíma til að ákveða hvort þú eigir að gerast áskrifandi?](../admin-extend-trial.md). Þú getur framlengt réttarhöldin einu sinni.
+Hægt er að framlengja réttarhöldin um annað próftímabil. Til að fá leiðbeiningar, sjá [þarf meiri tíma til að ákveða hvort áskrift?](../admin-extend-trial.md). Þú getur einu sinni framlengt réttarstöðu þína.
 
 [!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: 344
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: a577e4723f7880b9e94babd645b7f35324e7d1ea
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: c5c35c8bc6a3a7827ae2893c79ce883bff6b05ea
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654788"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799850"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Leita að tengdum færslum fyrir bókuð skjöl 
 
@@ -27,9 +27,9 @@ ms.locfileid: "8654788"
 
 Þessi eiginleiki er gagnlegur til að hafa upp á fjárhagsfærslum sem urðu til vegna ákveðinna viðskipta. Þegar leitað er eftir skjalanúmeri, er hægt að prenta samantektina úr skýrslu skjalafærslna.
 
-## <a name="get-started"></a>Hefjast handa
+## <a name="get-started"></a>Hafist handa
 
-Eiginleiki færsluleitar er aðgengilegur á flestum síðum sem sýna bókuð skjöl eða bókaðar skjalafærslur - fyrir bæði lista og spjöld. Þannig að fyrsta skrefið er að opna eina af þessum síðum. Þá skal annað hvort velja **Find færslna** aðgerðina eða ýta á CTRL + ALT + G takkana.
+Aðgerðin finna færslur er fúslega tiltæk á nánast hvaða síðu sem er með því að styðja á CTRL + ALT + Q lyklana. Frá síðum sem sérstaklega birtast bókuð skjöl eða bókaðar skjalafærslur &mdash; fyrir bæði lista og kort &mdash; er hægt að opna aðgerðina með því að **Velja aðgerðina finna færslur**.
 
 Síðan **Leita að færslum** inniheldur öll tengd skjöl og færslur samkvæmt skjalanúmerinu og bókunardagsetningunni. Síðan skiptist í þrjá hluta:
 

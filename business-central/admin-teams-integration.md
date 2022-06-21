@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147035"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799772"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Að stjórna Microsoft Teams samþættingu við [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -30,16 +30,18 @@ ms.locfileid: "8147035"
 
 - Nauðsynleg leyfi
 
-    Eftirfarandi tafla gefur yfirlit yfir leyfin sem þarf til að eiginleikar [!INCLUDE [prod_short](includes/prod_short.md)]-forritsins virki í Teams.
+    Í [!INCLUDE[prod_short](includes/prod_short.md)] App þarf hópleyfi í gegnum Microsoft 365 fyrirtæki eða Enterprise áskrift. Ósjálfstæðra teyma áskriftir eins og Microsoft Teams (Free) eða Microsoft Teams Essentials eru ekki studdar.
 
-    |Hvað|Teams-leyfi|[!INCLUDE [prod_short](includes/prod_short.md)] leyfi|
-    |----|---|---|
-    |Leita að [!INCLUDE [prod_short](includes/prod_short.md)] tengiliðum.|![gátmerki.](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
-    |Límið tengil við [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtal og sendið hann sem spjald.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
-    |Deildu tengli frá síðu í [!INCLUDE [prod_short](includes/prod_short.md)] með samtali í Teams.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
-    |Skoðið spjald [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtali.|![gátmerki](media/check.png "ávísun")||
-    |Skoðið frekari upplýsingar um spjald fyrir [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtali.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
-    |Opnaðu tengil á síðu í [!INCLUDE [prod_short](includes/prod_short.md)] úr samtali.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
+    Flestir Eiginleikar [!INCLUDE[prod_short](includes/prod_short.md)] App fyrir hópana þurfa [!INCLUDE [prod_short](includes/prod_short.md)] einnig leyfi, eins og sést í eftirfarandi töflu.
+
+    |Hvað|[!INCLUDE [prod_short](includes/prod_short.md)] leyfi|
+    |----|---|
+    |Leita að [!INCLUDE [prod_short](includes/prod_short.md)] tengiliðum.|![gátmerki](media/check.png "ávísun")|
+    |Límið tengil við [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtal og sendið hann sem spjald.|![gátmerki](media/check.png "ávísun")|
+    |Deildu tengli frá síðu í [!INCLUDE [prod_short](includes/prod_short.md)] með samtali í Teams.|![gátmerki](media/check.png "ávísun")|
+    |Skoðið spjald [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtali.||
+    |Skoðið frekari upplýsingar um spjald fyrir [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtali.|![gátmerki](media/check.png "ávísun")|
+    |Opnaðu tengil á síðu í [!INCLUDE [prod_short](includes/prod_short.md)] úr samtali.|![gátmerki](media/check.png "ávísun")|
 
 - Leyfa forskoðanir vefslóða
 
@@ -85,7 +87,7 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
 > [!NOTE]
 > Til að setja upp miðlæga innleiðingu verður Teams-reikningurinn þinn að vera með hlutverkið **Stjórnandi Teams Service** eða **Altækur stjórnandi**.
 
-1. Í Business Central skal velja ![Stækkunargler sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Miðlæg innleiðing Teams** og velja síðan viðkomandi tengil. Eða veldu [hér](https://businesscentral.dynamics.com/?page=1833) til að opna síðuna beint.
+1. Í Business Central er valið ![stækkunarglerið sem opnar aðgerðina segja til um.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Miðlæg innleiðing Teams** og velja síðan viðkomandi tengil. Eða veldu [hér](https://businesscentral.dynamics.com/?page=1833) til að opna síðuna beint.
 2. Lestu upplýsingarnar í **Setja upp Business Central-forritið fyrir Teams**, veldu síðan **Næsta**.
 3. Opnaðu [Stjórnendamiðstöð Teams](https://go.microsoft.com/fwlink/?linkid=2163970) og ljúktu eftirfarandi skrefum.
     1. Farðu í **Forrit Teams** > **Reglur uppsetningar**.

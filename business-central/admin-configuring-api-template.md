@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 06/07/2022
 ms.author: solsen
-ms.openlocfilehash: f5c91eb303d26f88af56613790ce0d5aa5d7854a
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: e38c8143cfad1fc4b0c7bbc4bd2995e0e48d264f
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740258"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950409"
 ---
 # <a name="configure-api-templates"></a>Skilgreina API-sniðmát
 
@@ -30,6 +30,9 @@ Til að nota sniðmát með API-safninu verður þú fyrst að setja upp og skil
 ## <a name="assign-the-template-to-an-api"></a>Úthluta sniðmátinu á API
 
 Til að úthluta API sniðmáti verður þú að fara í gegnum eftirfarandi skref.
+
+> [!NOTE]  
+> API-sniðmát er aðeins hægt að setja upp með eftirtöldum síðum API: Tengiliðir, Countriessvæði, Gjaldmiðlar, viðskiptamenn, starfsmenn, Itemflokkar, paymentMethods, paymentTerms, Shipmentaðferðir, Unitsofmál og Lánardrottnar.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **API-uppsetning** og veldu tengda tengilinn.
 2. Veljið **Nýtt** og veljið síðan gildið á **Röðun** fyrir færsluna.  

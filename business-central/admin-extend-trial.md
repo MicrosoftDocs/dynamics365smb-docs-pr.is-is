@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381221"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805101"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?
 
@@ -52,8 +52,8 @@ Ef framlengda prufutímabilið þitt er útrunnið geturðu fengið [áskrift](h
 
 ## <a name="see-also"></a>Sjá einnig
 
+[Rannsóknum og áskriftum (eingöngu á ensku)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Stofna ný fyrirtæki](about-new-company.md)  
-[Prufuútgáfa og áskrift](across-preview.md)  
 [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner)  
 [Framlenging prufuútgáfu (sem stjórnandi)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Hefjast handa sem endursöluaðili Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/29/2021
+ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 7f9d04f5437ab37273fd02f8c40b3f44b3247b9c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513576"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805127"
 ---
 # <a name="get-ready-for-doing-business"></a>Vertu klár í rekstur fyrirtækja
 
@@ -77,6 +77,28 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr Microsoft 365 a
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
 
+### <a name="set-up-your-company-in-prod_short"></a>Fyrirtækið er sett upp í[!INCLUDE[prod_short](includes/prod_short.md)]
+
+Greinarnar [byrja strax](quick-start-business-central.md) geta hjálpað þér að taka fyrstu skrefin í uppsetningu [!INCLUDE [prod_short](includes/prod_short.md)] fyrir fyrirtækið þitt. Í [!INCLUDE [prod_short](includes/prod_short.md)] sýnir síðan **Uppsetning með hjálp** leiðbeiningar um uppsetningu sem geta hjálpað þér. Það fer eftir hlutverkinu þínu og landi eða svæði hvaða uppsetningarleiðbeiningar með hjálp sjást í eftirfarandi töflu:
+
+| Uppsetning með hjálp | Description |
+| -------------- | ----------- |
+| Setja upp fyrirtæki notanda |Býr til nýja prufuútgáfu af fyrirtæki fyrir þig til að færa inn gögn í og prófa [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Setja upp Verkflæði samþykktar |Setur upp möguleikann á að tilkynna samþykkjanda sjálfkrafa þegar notandi reynir að stofna eða breyta ákveðnum gildum í gögnum á borð við skjöl, færslubókarlínur eða spjöld. Til dæmis er hægt að setja upp samþykki fyrir upphæðir hærri en tilgreind mörk. |
+| Setja upp tölvupóst |Undirbýr þig fyrir að senda tölvupóst beint frá t.d. sölupöntunum eða tengiliðum í [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Setja upp eigið fyrirtækjainnhólf í Outlook |Býr þig undir að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. |
+| Flytja viðskiptagögn |Gerir þér kleift að flytja fyrirliggjandi gögn fyrirtækisins, svo sem lánardrottna, viðskiptamenn og vörur úr Excel eða Quickbooks. |
+| Setja upp tölvupóstsskráningu |Setur upp möguleikann á að skrá tölvupóstsamskipti í [!INCLUDE[prod_short](includes/prod_short.md)] til að fylgja eftir samskiptum. |
+| Setja upp Verkflæði samþykktar vöru |Setur upp möguleikann á að senda boð til samþykkjanda þegar notandi breytir eða stofnar vöru. |
+| Setja upp Verkflæði samþykktar viðskiptamanns |Setur upp möguleikann á að tilkynna samþykkjanda sjálfkrafa þegar notandi reynir að stofna eða breyta spjaldi viðskiptamanns. |
+| Setja upp Verkflæði samþykktar greiðslu |Setur upp möguleikann á að senda boð til samþykkjanda þegar notandi sendir greiðslubókarlínur til samþykktar. |
+| Setja upp Dynamics 365 Sales tengingu |Setur upp tengingu við Dynamics 365 Sales sem býður upp á að samstilla gögn, svo sem tengiliði og upplýsingar um sölupantanir. |
+| Uppsetning sjóðsstreymisspár |Setur upp myndrit fyrir Sjóðstreymisspá, þannig að hægt er að skoða fyrirsjánlegt sjóðstreymi inn í og út úr rekstrinum. Myndritið er tiltækur á **Endurskoðandi Mitt hlutverk**. |
+| Setja upp skýrslugerðargögn|Setur upp gagnasöfn sem hægt er að nota til að byggja upp kraftmiklar skýrslur með því að nota Excel eða Power BI, til dæmis. |
+| Bjóða ytri bókara |Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, geturðu boðið þeim í þitt [!INCLUDE[prod_short](includes/prod_short.md)] svo þeir geti unnið með þín fjárhagsgögn. |
+
+**Uppsetning með hjálp** síðan getur innihaldið aðrar færslur. Þegar farið er í gegnum uppsetningu verður uppsetningin merkt sem **Lokið**. Þú getur sett upp önnur svæði fyrirtækisins með því að nota handvirka uppsetningu. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+
 ## <a name="next-steps"></a>Næstu skref
 
 Á grundvelli yfirfærðra gagna, geturðu nú farið í að stofna nýjar sölur eða innkaupaskjöl. Nota hlutann **Aðgerðir** á þinni heimasíðu til að stofna á fljótlegan hátt nýjar sölutilboð, sölureikningur, sölupöntun, innkaupareikningur eða skráning greiðslna. Skoðaðu [Stutta leiðarvísa](quick-start-business-central.md) til að koma þér í gegnum fyrstu skrefin.  
@@ -88,13 +110,13 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr Microsoft 365 a
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Yfirlit yfir Fyrirtækjaupplýsingar](admin-company-information.md)  
 [Aðgengi og Flýtivísanir](ui-accessibility.md)  
-[Prufuútgáfa og áskrift](across-preview.md)  
 [Viðskiptavirkni](across-business-functionality.md)  
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
 [Leita í hjálparsvæðinu](product-help-and-support.md#search-in-the-help-pane)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Microsoft Learn svæði](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Yfirfæra gögn](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+[Rannsóknum og áskriftum](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

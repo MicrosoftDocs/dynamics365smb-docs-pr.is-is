@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/31/2022
+ms.date: 06/08/2022
 ms.author: jswymer
-ms.openlocfilehash: 8a2c342f31dc4c17bb34af22ffc912dcc51c5cf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514414"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950437"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 
@@ -22,17 +22,20 @@ ms.locfileid: "8514414"
 
 ## <a name="browsers"></a>Vafrar
 
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.
+**Microsoft Edge:**[!INCLUDE[prod_short](includes/prod_short.md)] er ætlað að vinna með gildandi útgáfu af Microsoft Edge.
   
-**Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra. Skjáborðs-App fyrir seðla Business virkar ekki með Firefox.
+**Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra.
  
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Safari á OSX.  
 
+> [!TIP]
+> Setja skal [!INCLUDE[prod_short](includes/prod_short.md)][upp app á ræsivalmyndinni](install-desktop-app.md#install-the-app-for-business-central-online) með Microsoft Edge vafrunum eða Chrome-vafra.
+
 ## <a name="mobile-devices"></a>Fartæki
 
-**Android (spjaldtölva og sími):** Ein af síðustu þremur stóru útgáfunum og uppfærslur þeirra.
+**Android(Tablet og Phone):** Ein af nýjustu þremur stærstu stýrikerfisútgáfunum og uppfærslur þeirra.
 
-**iOS (iPad og iPhone):** Ein af síðustu þremur stóru útgáfunum og uppfærslur þeirra.
+**iOS (iPad og iPhone):** Ein af nýjustu þremur stærstu stýrikerfi útgáfu og uppfærslum þeirra.
 
 ## <a name="outlook"></a>Outlook
 
@@ -51,7 +54,9 @@ ms.locfileid: "8514414"
 
 **Vafrarnir:** Þegar [!INCLUDE[prod_short](includes/prod_short.md)] forritið er notað fyrir Teams í vafranum (vefbiðlara) krefst forritið þess að tölvan keyri einn af studdu vöfrum sem fram koma fyrr í þessari grein. 
 
-**Verkvangar:** Þegar [!INCLUDE[prod_short](includes/prod_short.md)] forritið er notað í Teams fyrir IOS eða Android krefst forritið þess að fartækið keyri einn af studdum fartækjaverkvöngum, sem koma fram fyrr í þessari grein.
+**Pallborðsumræður:** þegar þú notar [!INCLUDE[prod_short](includes/prod_short.md)] App í teymum fyrir IOS eða Android getur App krafist þess að Farsíminn þinn sé keyrður einn af studdum Hreyfanlegur pallbíla sem fram kemur fyrr í þessari grein.
+
+**Stuðningsáskrift:**[!INCLUDE[prod_short](includes/prod_short.md)] App fyrir hópana styður Microsoft 365 viðskipti og Enterprise áskriftir en ekki sjálfstæða teyma áskriftir eins og Microsoft Teams (Free) eða Microsoft Teams Essentials.
 
 ## <a name="excel"></a>Excel
 
@@ -64,18 +69,22 @@ ms.locfileid: "8514414"
 
 Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af eftirfarandi vöfrum:
 
-- Nýi Microsoft Edge
+- Microsoft Edge
 - Chrome fyrir Windows
 - Firefox fyrir Windows
 - Safari fyrir macOS
 
 ## <a name="use-business-central-on-premises"></a>Nota Viðskiptamiðað innanhúss
 
-Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Frekari upplýsingar er að finna í [Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) og [Yfirlit uppsetningar](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Sjá [Kerfisþarfir fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) og [Yfirlit yfir](/dynamics365/business-central/dev-itpro/deployment/deployment) virkjun fyrir frekari upplýsingar.  
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
+[Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  
+[Fengið viðskipti miðlægt Desktop App](install-desktop-app.md)  
+[Nota Business Central á fartækinu þínu](install-mobile-app.md)  
+[Umsjón með samskiptum fyrirtækja í Microsoft Outlook](admin-outlook.md)  
+[Rekstur miðsvæðis og Microsoft Teams Samþætting](across-teams-overview.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

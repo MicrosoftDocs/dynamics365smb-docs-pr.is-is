@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511234"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805049"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams samþætting
 
@@ -65,7 +65,7 @@ Frekari upplýsingar er að finna í [Deila færslum og síðutenglum í Microso
     Ef ekki er öruggt hvort reikningur er til staðar eða ef innskráningarupplýsingar vantar skal hafa samband við stjórnanda innan fyrirtækisins til að fá aðstoð við að hefjast handa.
 
     > [!TIP]
-    > Ef fyrirtækið er ekki með [!INCLUDE [prod_short](includes/prod_short.md)]-áskrift er hægt að skrá sig fyrir ókeypis prufuáskrift. Nánari upplýsingar er að finna [í farið er í gang með prufu](across-preview.md#get-started-with-a-trial).
+    > Ef fyrirtækið er ekki með [!INCLUDE [prod_short](includes/prod_short.md)]-áskrift er hægt að skrá sig fyrir ókeypis prufuáskrift. Nánari upplýsingar er að finna [hjá Innskráning í ókeypis Dynamics 365 Business Central prufutíma](trial-signup.md).
 
 2. Kerfisstjóri getur séð [Stjórnun Microsoft Teams Samþætting við Business Central](admin-teams-integration.md) til að fá upplýsingar um hvernig á að fá setja upp notendur til að virka með [!INCLUDE [prod_short](includes/prod_short.md)] og Teams.
 3. Setjið upp [!INCLUDE [prod_short](includes/prod_short.md)]-forrit í Teams. Skoðið [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið Microsoft Teams](across-install-app-for-teams.md).

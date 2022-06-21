@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: aa5e24755b44b2ce7b36a9a6062bf0168c5ddb89
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518732"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799560"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu
 
@@ -95,9 +95,9 @@ Pála vill að allir viðskiptamenn þurfi að borga 20% fyrirfram fyrir vöru 1
 
     |**Tegund sölu**|**Kóti sölu**|**Vörunr.**|**Fyrirframgreiðsla %**|  
     |--------------------|--------------------|------------------|----------------------|  
-    |**Viðskiptamaður**|**20000**|**1896-S**|**40**|  
-    |**Allir viðskiptamenn**| |**1896-S**|**20**|  
-
+    |**Viðskiptamaður**|**20000**|**1896-S**|**40**|
+    |**Viðskiptamaður**|**20000**|**1900-S**|**30**|  
+    
     > [!TIP]
     > Eftir landshlutum eða svæðum verður einnig að tilgreina skattflokkskóta á **þann kostnað & bókun** fastflipa fyrir vöruna 1896-S. Þegar sýnifyrirtækið er notað er þetta svæði þegar stillt.
 
@@ -178,7 +178,7 @@ Næsta dag hringir viðskiptamaðurinn í Súsönnu og gerir breytingar á pönt
 1. Á síðunni **Sölupöntun** skal velja aðgerðina **Losa** og síðan **Enduropna**.  
 2. Á línunni fyrir vöruna **1896-S**, í reitnum **Magn** skal slá inn **2**.  
 
-    Í aðgerðinni **Pöntun** skal velja **Upplýsingar**. **Upphæð fyrirframgreiðslunnar án VSK** er í reit 768,04 **og** reiturinn **fyrirframkr. Gr. reikn., án VSK** -reits inniheldur **417,76**. Þetta sýnir að til er önnur fyrirframgreiðsluupphæð sem hefur ekki verið reikningsfærð ennþá.  
+    Í aðgerðinni **Pöntun** skal velja **Upplýsingar**. **Upphæð fyrirframgreiðslu án VSK** er í reit **768,04** og Reikn., kr. án **VSK** ., í **reit 417,76**. Þetta sýnir að til er önnur fyrirframgreiðsluupphæð sem hefur ekki verið reikningsfærð ennþá.  
 3. Til að bóka reikning fyrir aðra fyrirframgreiðslu er valin **Aðgerðir**, síðan **Bókun**, síðan **Fyrirframgreiðsla** og síðan er valin **Bóka og prenta fyrirframgreiðslureikning**
 4. Veldu **Já** til að bóka reikninginn.  
 

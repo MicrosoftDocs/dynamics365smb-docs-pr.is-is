@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516214"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799613"
 ---
 # <a name="set-up-prepayments"></a>Uppsetning fyrirframgreiðslu
 
@@ -92,6 +92,19 @@ Pöntun getur haft prósentu fyrirframgreiðslu í söluhausnum og aðra prósen
 4. Fyrirframgreiðsluprósentan í sölu- eða innkaupahausnum.  
 
 Með öðrum orðum, fyrirframgreiðsluprósentan í viðskiptamannsspjaldinu á eingöngu við ef engin prósenta er sett upp fyrir vöruna. Ef innihaldi reitsins **Fyrirframgreiðsla %** er hinsvegar breytt á sölu- eða innkaupahausnum eftir að búið er að stofna línurnar er fyrirframgreiðsluprósenta allra lína uppfærð. Á þennan hátt er auðveldara að stofna pöntun með fasta fyrirframgreiðsluprósentu, sama hvaða prósenta er uppsett í vörum.
+
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Til að gefa út sölupantanir sjálfvirkt þegar fyrirframgreiðslur eru jafnaðar
+
+Hægt er að spara tíma með því að setja upp verkraðarafærslu sem mun sjálfkrafa gefa út sölupantanir sem krefjast fyrirframgreiðslu eftir að greiðslum er beitt. Ef vinnslan er sjálfvirkt vistuð er skrefið að losa sölupöntunina.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi** og velja svo viðeigandi tengil.
+2. **Í fyrirframgr. Reiturinn Sjálfvirk uppfærslutíðni**, Tilgreinið hversu oft eigi að keyra verkraðarafærslu.
+
+> [!TIP]
+> Ef þú ert hér skaltu íhuga að bæta við safeguard gegn sendingu eða reikningsfærslum sem hafa ógreiddar forsöluupphæðir. Ef kveikt er á **ávísunarreglu** fyrir víxlun, [!INCLUDE[prod_short](includes/prod_short.md)] kemur ekki í veg fyrir að fólk bóki pantanir með útistandandi fyrirframgreiðsluupphæðum.
+
+3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkraðarfærslur** og velja síðan viðkomandi tengil.
+4. Uppsetning á **UPD. Fyrirframreikningur biðlauna Færsla í vinnslubiðröð sölu**, til dæmis, með því að nota stillingarnar á **endurtekningarflipanum** til að áætla hversu oft á að keyra hana. Frekari upplýsing er [í nota Starfaraðir til að áætla verk](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-also"></a>Sjá einnig  
 

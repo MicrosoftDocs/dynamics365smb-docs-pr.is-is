@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e8229b1d911b51e065b3d5a94fff1a0253bd5e26
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518416"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950092"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Sækja innbót Business Central fyrir Excel
 
@@ -123,15 +123,14 @@ Netþjónustur eins og staðgenglar eða eldveggir verða að leyfa flutning mil
 
 Stundum lenda notendur í vandræðum með Excel-innbótina. Þessi hluti gefur upp ábendingar um hvernig á að opna fyrir notendur við ákveðnar aðstæður.
 
-|Gefa út  |Lausn eða hjáleið  |Athugasemdir  |
+|Vandamál  |Lausn eða hjáleið  |Athugasemdir  |
 |---------|---------|---------|
 |Viðbótin ræsist ekki|Athugaðu hvort innbótin sé sett upp miðlægt. Eða athugaðu hvort notandi er útilokaður frá því að setja hana upp á staðnum. | Stjórnandinn getur stillt Office þannig að notendur geti ekki sótt innbætur. Í þeim tilvikum verður stjórnandi að setja innbótina upp miðlægt. Frekari upplýsingar er að finna í [Setja upp innbætur í stjórnendamiðstöðinni](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Gögn hlaðast ekki inn í Excel|Prófið tenginguna með því að opna annan lista í Excel frá [!INCLUDE [prod_short](includes/prod_short.md)]. Eða opnaðu vinnubókina í Excel í vafra.|Ef notandinn hefur tilgreint heiti fyrirtækis sem inniheldur sérstafi getur innbótin ekki tengst. |
 |Gögn geta ekki birt aftur í [!INCLUDE [prod_short](includes/prod_short.md)].|Prófaðu tenginguna með því að opna vinnubókina í Excel í vafra. |Stundum getur viðbótin lokað fyrir birtingarverk. Ef síðan er stækkuð eða sérstillt skal fjarlægja viðbæturnar og reyna síðan aftur.|
 |Dagsetningarnar eru rangar  |Excel gæti sýnt tímasetningar og dagsetningar á öðru sniði en [!INCLUDE [prod_short](includes/prod_short.md)]. Þetta skilyrði gerir þau ekki röng og gögnin í [!INCLUDE [prod_short](includes/prod_short.md)] vilja ekki láta klúðrast.|         |
 |Fyrir sumar listasíður koma upp stöðugar villlur þegar mörgum línum er breytt í Excel. Þetta skilyrði getur komið upp ef OData-köll fela í sér Flowfield og reiti utan stýringar á endurtekningu.|Á síðunni **Vefþjónustur** skal velja gátreitina **Útiloka óbreytanlegt Flowfields** og **Útiloka reiti utan við endurtekningu** fyrir birta síðu. Með því að velja þessa gátreiti er óbreytanlegu Flowfields og reitnum úr eTag-útreikningnum útilokað. |Þessi gátreitir eru sjálfgefið faldir. Til að sýna síðuna **Vefþjónustur** skal nota [sérstillingu](/dynamics365/business-central/ui-personalization-user). |
-
-
+|Notendur geta ekki lengur skráð sig inn í viðbóta. Þegar þeir reyna að skrá sig inn hættir ferlið án útfyllingar.| Þetta vandamál stafaði hugsanlega af uppfærslu sem við gerðum við bætiefni, einhvern tíma í júlí 2022. Nánari upplýsingar og fix er að finna [í breyta Excel viðbóta-skilgreiningunni til að styðjast við júlí 2022 uppfærsla](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|[!INCLUDE [prod_short](includes/prod_short.md)] Á aðeins við um|
 
 <!--
 ## Deploy the Excel add-in for Business Central online

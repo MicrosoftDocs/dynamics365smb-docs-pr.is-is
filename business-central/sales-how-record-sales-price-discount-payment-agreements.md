@@ -1,5 +1,5 @@
 ---
-title: Setja upp söluverð og afslætti fyrir viðskiptamenn | Microsoft Docs
+title: Skrá sérstök söluverð og afslætti
 description: Lýsir því hvernig verðlagning og afsláttarsamningar eru skilgreindir fyrir söluskjöl.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2021
+ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 5f3d851356954ddf71411190f5f486633936c05a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729842"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950148"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Skrá sérstök söluverð og afslætti
+
 > [!NOTE]
-> Á útgáfutímabili 2 árið 2020 gáfum við út einfaldaðri ferla til að setja upp og hafa umsjón með verðum og afsláttum. Ef þú ert nýr viðskiptamaður sem ert að nota þessa útgáfu þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> 2020 losun Wave 2 kynnt ný, straumlínulagað ferli fyrir uppsetningu og umsjón með verði og afslætti. Ef þú ert nýr viðskiptavinur með nýjustu útgáfuna, þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] styður ýmsar aðferðir við verðhjöðnun, svo sem:
+
 * Eitt verð-passar-allar týpur þar sem vara er alltaf seld á sama verði.
 * Sérstökum verðsamningum við tiltekna viðskiptamenn, eða hópa viðskiptavina.
 * Herferðir þegar Sala uppfyllir skilyrði fyrir sérstöku tilboði. Til dæmis gætu skilyrðin verið þegar pöntun uppfyllir lágmarksmagn, er á undan ákveðinni dagsetningu eða hefur ákveðna tegund af vöru.  
 
-Til að nota grunnverðslíkan þarf aðeins að tilgreina einingarverð þegar sett er upp vara eða Forði. Það verð verður alltaf notað í söluskjölum. Fyrir ítarlegri líkön, til dæmis, þegar bjóða á upp á Sérstök verð fyrir söluherferð er hægt að tilgreina skilyrði á **síðunni söluverð**. Hægt er að bjóða upp á sérverð eftir samsetningu á eftirfarandi upplýsingum: 
+Til að nota grunnverðslíkan þarf aðeins að tilgreina einingarverð þegar sett er upp vara eða Forði. Það verð verður alltaf notað í söluskjölum. Fyrir ítarlegri líkön, til dæmis, þegar bjóða á upp á Sérstök verð fyrir söluherferð er hægt að tilgreina skilyrði á **síðunni söluverð**. Hægt er að bjóða upp á sérverð eftir samsetningu á eftirfarandi upplýsingum:  
 
 * Viðskiptavinur
 * Atriði
@@ -176,34 +178,36 @@ Til að uppfæra verð fyrir margar vörur þarf að búa til nýjam verðlista 
 ---
 
 ## <a name="best-price-calculation"></a>Útreikningur besta verðs
-Þegar búið er að skrá sérstakt verð og línuafslátt fyrir sölu og innkaup [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar besta verðið í sölu-og innkaupaskjölum og í vinnslu-og birgðabókarlínum.
 
-Besta verðið er lægsta verðið með hæsta línuafslátt sem leyfður er á tiltekinni dagsetningu. [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar út besta verðið þegar það bætir við einingarverði og afsláttarprósentu línuafsláttar í skjala-og færslubókarlínum.
+Þegar búið er að skrá sérstakt verð og línuafslátt fyrir sölu og innkaup [!INCLUDE[prod_short](includes/prod_short.md)] reiknar besta verðið í sölu-og innkaupaskjölum og í vinnslu-og birgðabókarlínum.
+
+Besta verðið er lægsta verðið með hæsta línuafslátt sem leyfður er á tiltekinni dagsetningu. [!INCLUDE[prod_short](includes/prod_short.md)] reiknar út besta verðið þegar það bætir við einingarverði og afsláttarprósentu línuafsláttar í skjala-og færslubókarlínum.
 
 > [!NOTE]  
-> Eftirfarandi lýsir því hvernig besta verð er reiknað fyrir sölu. Útreikningurinn er sá sami fyrir innkaup.
+> Eftirfarandi lýsir því hvernig besta verð er reiknað fyrir sölu. Fyrir innkaup eru Útreikningarnir Svipaðir en er byggður á tiltækum færibreytum. Til dæmis eru Vöruafsláttarflokkar ekki studdir fyrir innkaup.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)]kannar samsetningu reikningsfærslu á viðskiptamann og vöru og velur svo rétt viðeigandi verð og afslátt samkvæmt eftirfarandi skilyrðum:
+1. [!INCLUDE[prod_short](includes/prod_short.md)]kannar samsetningu reikningsfærslu á viðskiptamann og vöru og velur svo rétt viðeigandi verð og afslátt samkvæmt eftirfarandi skilyrðum:
 
-    - Er þessi viðskiptamaður með sérstakan samning um verð eða línuafslætti, eða tilheyrir viðskiptamaðurinn hóp með slíkan samning?
-    - Fellur varan eða vöruafsláttarflokkurinn á línunni undir þessa samninga?
-    - Er pöntunardagsetningin (eða bókunardagsetning reikningsins og kreditreikningsins) á milli upphafs- og lokadagsetningar verðs/línuafsláttar?
-    - Er mælieiningarkóti tilgreindur? Ef svo er leitar [!INCLUDE[d365fin](includes/d365fin_md.md)] að verði/línuafslætti með sama mælieiningarkóða og verði/afslætti án mælieiningarkóða.
+    * Er þessi viðskiptamaður með sérstakan samning um verð eða línuafslætti, eða tilheyrir viðskiptamaðurinn hóp með slíkan samning?
+    * Fellur varan eða vöruafsláttarflokkurinn á línunni undir þessa samninga?
+    * Er pöntunardagsetningin (eða bókunardagsetning reikningsins og kreditreikningsins) á milli upphafs- og lokadagsetningar verðs/línuafsláttar?
+    * Er mælieiningarkóti tilgreindur? Ef svo er leitar [!INCLUDE[prod_short](includes/prod_short.md)] að verði/línuafslætti með sama mælieiningarkóða og verði/afslætti án mælieiningarkóða.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] Athugar hvort einhver verð-/afsláttarsamningar eigi við upplýsingar í skjalinu eða færslubókarlínunni. Þar setur hann inn viðeigandi einingaverð og línuafsláttarprósentu með eftirfarandi skilyrðum:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] Athugar hvort einhver verð-/afsláttarsamningar eigi við upplýsingar í skjalinu eða færslubókarlínunni. Þar setur hann inn viðeigandi einingaverð og línuafsláttarprósentu með eftirfarandi skilyrðum:
 
-    - Er krafa um lágmarksmagn til staðar í samningi um verð/afslátt sem er uppfyllt?
-    - Er krafa um gjaldmiðil til staðar í samningi um verð/afslátt sem er uppfyllt? Ef svo er, er lægsta verðið og hæsti línuafsláttur fyrir þann gjaldmiðil bætt við, jafnvel þótt staðbundinn gjaldmiðill myndi veita betra verð. Ef ekkert verð-/afsláttarsamkomulag er fyrir tilgreindan gjaldmiðilskóta skal [!INCLUDE[d365fin](includes/d365fin_md.md)] Setja inn lægsta verðið og hæsta línuafsláttinn í staðbundna gjaldmiðilinn þinn.
+    * Er krafa um lágmarksmagn til staðar í samningi um verð/afslátt sem er uppfyllt?
+    * Er krafa um gjaldmiðil til staðar í samningi um verð/afslátt sem er uppfyllt? Ef svo er, er lægsta verðið og hæsti línuafsláttur fyrir þann gjaldmiðil bætt við, jafnvel þótt staðbundinn gjaldmiðill myndi veita betra verð. Ef ekkert verð-/afsláttarsamkomulag er fyrir tilgreindan gjaldmiðilskóta skal [!INCLUDE[prod_short](includes/prod_short.md)] Setja inn lægsta verðið og hæsta línuafsláttinn í staðbundna gjaldmiðilinn þinn.
 
 Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Afslættir Sölureiknings og Þjónustugjöld
+
 Þegar reikningsafslættir eru notaðir fer afslátturinn sem er veittur eftir því hve reikningsupphæðin er há. Á síðunni **Reikningsafsláttur viðskm** er einnig hægt að leggja þjónustugjald á reikninga sem eru yfir tiltekinni upphæð.  
 
 Áður en hægt er að veita reikningsafslátt af sölu þarf að tilgreina tilteknar upplýsingar. Taka þarf eftirfarandi ákvarðanir:  
 
-- Hvaða Viðskiptavinir fái þessa tegund afsláttar?  
-- Hvaða afsláttarprósentur þú notar?  
+* Hvaða Viðskiptavinir fái þessa tegund afsláttar?  
+* Hvaða afsláttarprósentur þú notar?  
 
 Ef þú vilt að reikningsafslættir séu reiknaðir sjálfkrafa skal á síðunni **Uppsetning sölugrunns** kveikja á víxlhnappnum **Reikna út reikningsafslátt**.  
 
@@ -231,7 +235,7 @@ Frekari þjálfun fyrir afslætti á sölum er að finna í [Setja upp afslætti
 2. Opna skal viðeigandi viðskiptamannaspjald og veljið svo aðgerðina **Línuafslættir**.
 3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyllt er út lína fyrir hverja samsetningu sem veitir sérstakan sölulínuafslátt fyrir viðskiptamanninn.
 
-> [!Note]
+> [!NOTE]
 > Þegar söluverðið **og** Sölulínuafsláttin **eru opnuð** frá tilteknum viðskiptamanni **eru reitirnir sölutegund síu** og **Kóti sölukóða** stilltir fyrir viðskiptavininn og ekki er hægt að breyta honum eða fjarlægja hann.
 >
 > Til að setja upp verð eða línuafslætti fyrir alla viðskiptamenn, verðflokk viðskiptamanns eða herferð verður að opna síðurnar af birgðaspjaldi. Einnig er hægt að nota síðuna **Vinnublað söluverðs** fyrir söluverð. Frekari upplýsingar eru í [Til að magnuppfæra vöruverð](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
@@ -277,6 +281,8 @@ Næsta skref er að setja upp nýja skilmála fyrir sölureikningsafslætti.
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
+[Uppsetning verðflokka viðskiptamanna](sales-how-to-set-up-customer-price-groups.md)  
+[Uppsetning afsláttarflokka viðskiptamanna](sales-how-to-set-up-customer-discount-groups.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

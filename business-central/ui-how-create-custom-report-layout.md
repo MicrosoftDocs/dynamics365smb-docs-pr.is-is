@@ -8,37 +8,39 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 04/01/2021
+ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557173"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950383"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>Arfur Stofna og breyta skipan sérsniðinnar skýrslu
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Sjálfgefið er að skýrsla hafi innbyggt skýrsluútlit sem getur verið annað hvort RDLC-Skýrsluuppsetning, Word-Skýrsluuppsetning eða bæði. Ekki er hægt að breyta innbyggðu útliti en það getur skapað sérsniðna skipan. Í skýrslu geta verið margar sérsniðnar skýrslur um uppsetningu sem gerir þér kleift að skipta uppsetningunni sem er notuð eftir þörfum.
+Sjálfgefið er að skýrslur séu með innbyggðu skýrsluútliti. Útlitið getur verið annað hvort RDLC-skýrsluútlit, Word-skýrslusnið eða bæði. Ekki er hægt að breyta innbyggðu útliti en það getur skapað sérsniðna skipan. Skýrsla getur haft marga skipan sérsniðinnar skýrslu.
 
 > [!NOTE]  
 > Í [!INCLUDE[prod_short](includes/prod_short.md)] táknar hugtakið "skýrsla" einnig utanaðkomandi skjöl, s.s. sölureikninga og pöntunarstaðfestingar sem þú sendir til viðskiptavina sem PDF skjöl.
 
-Ef búa á til sérsniðið útlit er annað hvort gert afrit af sérsniðnu útliti eða bætt við nýju sérsniði sem er oft Byggt á innbyggðu útliti. Þegar bætt er við nýju sérsniðnu útliti er hægt að bæta við gerð RDLC eða Word-skýrslu, eða báðum. Nýtt sérsniðinn skipulag verður Byggt á innbyggðu útliti fyrir skýrsluna, sé þess nokkur völ. Ef ekkert innbyggt útlit er til fyrir gerðina er nýtt autt útlit stofnað. Þú verður að breyta og hanna þetta auða útlit frá grunni. Frekari upplýsingar um RDLC- og Word-skýrsluútlit, innbyggð útlit, sérsniðið útlit og fleira eru í [stjórna skýrsluútliti](ui-manage-report-layouts.md).  
+Ef búa á til sérsniðið útlit er annað hvort afritað sérsniðið útlit eða bætt við nýju sérsniðnu útliti. Sérsniðnar uppsetningar eru oft byggðar á innbyggðu útliti. Þegar bætt er við nýju sérsniðnu útliti er hægt að bæta við gerð RDLC eða Word-skýrslu, eða báðum. Nýtt sérsniðinn skipulag verður Byggt á innbyggðu útliti fyrir skýrsluna, sé þess nokkur völ. Ef ekkert innbyggt útlit er til fyrir gerðina er nýtt autt útlit stofnað. Þú verður að breyta og hanna þetta auða útlit frá grunni. Frekari upplýsingar um RDLC- og Word-skýrsluútlit, innbyggð útlit, sérsniðið útlit og fleira eru í [stjórna skýrsluútliti](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Notaðu reikningsáætlanir til að fá innsýn í fjárhagsupplýsingar sem eru geymdar í bókhaldslyklum. Frekari upplýsingar er að finna í [Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md).
 
-Þegar sérsniðið skýrsluútlit er skilgreint er hægt að velja það úr spjöldum viðskiptamanna og lánardrottna til að tilgreina að valið útlit á að nota fyrir skjöl sem þú býrð til fyrir viðskiptamanninn eða lánardrottin. Frekari upplýsingar eru í [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md).
+Eftir að skipulag sérsniðinnar skýrslu hefur verið skilgreint er hægt að velja þær á kortasíðum viðskiptamannaspjald og lánardrottnaspjald. Uppsetningaskipan verður notuð þegar skjöl eru stofnuð fyrir viðskiptavininn eða lánardrottininn. Frekari upplýsingar eru í [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md).
+
+Einnig er hægt að nota sérsniðna skýrsluskipan til að bæta efni í bréfapóstum. Skýrsluútlit getur sparað tíma og hjálpað til við að tryggja samræmi með því að endurnýta sama efni þegar þú átt samskipti við viðskiptavini þína. Ef nota á sérsniðna skýrslu með tölvupósti verður skrárgerðin fyrir útlitinu að vera Word. Ekki er hægt að nota RDLC-skrárgerðina. Nánari upplýsingar er að finna [í setja upp endurnýtanlega texta og skipulag](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="to-create-a-custom-layout"></a>Til að búa til sérsniðið útlit
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.
 
     Síðan **Val á útliti skýrslu** sýnir allar skýrslur sem eru í boði fyrir fyrirtæki sem er tiltekið í reitnum **Heiti fyrirtækis** efst á síðunni.
-2. Stilltu reitinn **Fyrirtæki** á fyrirtækið sem búa á til skýrsluútliti fyrir.
+2. **Í reitnum Heiti** fyrirtækis skal velja fyrirtækið sem stofna á skýrsluuppsetningu fyrir.
 3. Veldu röðina fyrir skýrsluna sem þú vilt stofna útlitið fyrir, og veldu svo **Sérsniðið útlit** aðgerðina.  
 
    Síðan **Sérsniðið skýrsluútlit** birtist og sýnir öll sérsniðin útlit sem eru í boði fyrir völdu skýrsluna.
@@ -47,8 +49,8 @@ Ef búa á til sérsniðið útlit er annað hvort gert afrit af sérsniðnu út
    Afrit af sérsniðna útlitinu birtist á síðunni **Sérsniðið skýrsluútlit** með orðunum *Afrit af* í **lýsing** reitnum.
 5. Ef þú vilt bæta við nýju sérsniðnu útliti sem byggir á innbyggðu útliti skaltu fara í gegnum eftirfarandi skref:  
    1. Valið er aðgerðin **Nýtt**. Síðan **Setja inn innbyggt útlit fyrir skýrslu** birtist. Reitirnir **Auðkenni** og **Heiti** eru fylltir inn sjálfkrafa.
-   2. Til að bæta við sérsniðnu Word-skýrsluútliti skaltu velja **Setja inn Word-útlit** gátreitinn.
-   3. Til að bæta við sérsniðnu RDLC-skýrsluútliti skaltu velja **Setja inn RDLC-útlit** gátreitinn.
+   2. Ef bæta á við gerð útlits sérsniðinnar Word skal kveikja á uppsetningu **á** Setja inn Word-víxlun.
+   3. Ef bæta á við sérsniðgerð RDLC-skýrslu skal kveikja á **uppsetningu RDLC-útlits**.
    4. Velja hnappinn **Í lagi**.  
 
     Nýja sérsniðna útlitið birtist nú á síðunni **Sérsniðið skýrsluútlit**. Ef nýtt útlit byggir á innbyggðu útliti er það með orðin **Afrit af innbyggðu útiliti** í reitnum **Lýsing**. Ef ekkert innbyggt útlit var til staðar fyrir skýrsluna þá er nýja útlitið með orðin **Nýtt útlit** í reitnum **Lýsing**, sem táknar að sérsniðna útlitið er autt.

@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fed722bb5929da100c1c92e63aebb1f10cf53d0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fa615d3e0753b7f1aa9cd602168a393849765079
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520683"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950226"
 ---
 # <a name="report-and-document-layouts-overview"></a>Yfirlit yfir skýrslur og Skjalaskipan
 
@@ -23,6 +23,8 @@ Skýrslusnið stjórnar efni og sniði skýrslunnar, þar á meðal hvaða gagna
 
 > [!NOTE]  
 > Í [!INCLUDE[prod_short](includes/prod_short.md)] táknar hugtakið "skýrsla" einnig utanaðkomandi skjöl, s.s. sölureikninga og pöntunarstaðfestingar sem þú sendir til viðskiptavina sem PDF skjöl.
+
+Einnig er hægt að nota skýrsluskipulag til að bæta efni í bréfapóstum. Skýrsluútlit getur til dæmis sparað tíma og hjálpað til við að tryggja samræmi með því að endurnýta sama efni þegar þú átt samskipti við viðskiptavini þína. Ef nota á sérsniðna skýrslu með tölvupósti verður skrárgerðin fyrir útlitinu að vera Word. Ekki er hægt að nota RDLC-skrárgerðina. Nánari upplýsingar er að finna [í setja upp endurnýtanlega texta og skipulag](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="introduction"></a>Kynning
 
@@ -43,7 +45,7 @@ Skýrsla getur verið uppsett með mismunandi útliti sem hægt er að skipta á
 
 Til eru fjórar gerðir af útliti sem hægt er að nota á skýrslur: Word, RDLC, Excel og utanumhald.
 
-### <a name="word"></a>Orðið
+### <a name="word"></a>Word
 
 Ritskipan er byggð á Word skjölum (. docx skrárgerð). Orð skipulag gera þér kleift að hanna skipulag skýrslu með notkun Microsoft Word. Word skipulag ákvarðar efnisþætti skýrslunnar hvernig þeim efnisþáttum er raðað upp og hvernig þeir líta út. Word-útlitsskjal notar gjarnan töflur til að raða efni, þar sem í frumunum geta verið gagnasvæði, texti eða myndir.
 
@@ -134,7 +136,7 @@ For information about how to switch the layout currently used on a report, see [
 [Skilgreina sérstakt útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

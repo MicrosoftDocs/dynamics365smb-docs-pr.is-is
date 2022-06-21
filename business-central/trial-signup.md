@@ -5,13 +5,13 @@ author: edupont04
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
-ms.date: 04/05/2022
-ms.openlocfilehash: 6e911b0f6b3dc9544e877aee16d52a10d54c4031
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.date: 05/25/2022
+ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557119"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805179"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Skráning í ókeypis Dynamics 365 Business Central prufutíma
 
@@ -30,14 +30,26 @@ Viðskiptamiðlæg býður upp á ókeypis prufutíma. Eftir snöggan undirrita�
 - [Fá afkvæmi](ui-work-product.md)  
 - [Skjótt byrjar](quick-start-business-central.md)  
 
+## <a name="get-started-with-a-subscription"></a>Byrjaðu með áskrift
+
+Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner). Endursöluaðili getur hjálpað þér að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] í samræmi við fyrirtækið þitt, þar á meðal flutt inn gögn úr fyrra kerfi. Einnig er hægt að sérstilla [!INCLUDE[prod_short](includes/prod_short.md)] með því að bæta við forritum frá [Markaðstorgi Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
+
+[!INCLUDE[prod_short](includes/prod_short.md)] notar Microsoft 365 á netinu. Ef fyrirtækið þitt notar aðra gerð af tölvupóstuppsetningu getur verið að endursöluaðili geti aðstoðað þig við að flytja, eða látið þig vita ef þú ættir að nota [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss.  
+
+Einnig er hægt að hafa samband við [[!INCLUDE[prod_short](includes/prod_short.md)] Söluteymi](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+Frekari upplýsingar um hvað hægt er að gera við [!INCLUDE [prod_short](includes/prod_short.md)] eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md) og [Viðskiptavirkni](across-business-functionality.md).  
+
 ## <a name="additional-resources"></a>Viðbótarfjármagn
 
 - [Kanna þjálfun á Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Skoðaðu myndbandasafnið okkar](across-videos.md)  
 - [Prófspurningar ALGENGAR](trial-faq.md)  
-- [Prufuútgáfa og áskrift](across-preview.md)  
 - [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)  
-- [Byrjaðu með áskrift](across-preview.md#get-started-with-a-subscription)  
 - [Sérstilling verksvæðis](ui-personalization-user.md)  
 - [Keyra og prenta skýrslur](ui-work-report.md)  
 - [Aðgengi og Flýtivísanir](ui-accessibility.md)  
+- [Rannsóknum og áskriftum (fyrir stjórnendur)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
