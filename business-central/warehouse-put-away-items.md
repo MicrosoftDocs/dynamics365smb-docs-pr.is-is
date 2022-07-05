@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5770, 5783, 5784, 5786, 5795, 7334, 7352, 7354, 7356, 7375, 7379, 7390, 7394, 7396, 9312, 9315, 9343
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 1a18d62f5b2c9f98bd3ece41eeb871221003cccd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4ae110e18307105893e9ee3efccf136ff3efe02f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519971"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079481"
 ---
 # <a name="putting-items-away"></a>Vörufrágangur
 
@@ -39,13 +39,15 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Skipta frágangslínu til þess að setja hluta af frágangsmagninu í tiltækt hólf því merkta hólfið er orðið fullt.|[Skipta aðgerðalínum vöruhúss](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Fá tafarlausan aðgang að frágangi sem notandi hefur fengið úthlutað sem starfsmaður vöruhúss.|[Finna vöruhúsaúthlutanir](warehouse-how-to-find-your-warehouse-assignments.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/receive-put-away-items/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md) 
-[samsetningarstýring](assembly-assemble-items.md)
-[hönnunar upplýsingar: vöruhúsastjórnun](design-details-warehouse-management.md)  
+[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
+[Samsetningardeild](assembly-assemble-items.md)  
+[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 81073838cc6bfd1858a3b3d18cd554b62080704a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950383"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075344"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>Arfur Stofna og breyta skipan sérsniðinnar skýrslu
 
@@ -126,8 +126,8 @@ Adding data fields from a report dataset is a more advanced and requires some kn
 [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md)  
 [Flytja inn og út sérsniðið skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)  
 [Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
-[Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md) 
-[Business Intelligence](bi.md)  
+[Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)  
+[Viðskiptaupplýsingar](bi.md)  
 [Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

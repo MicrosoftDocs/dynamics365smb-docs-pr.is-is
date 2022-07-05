@@ -10,12 +10,12 @@ ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: cef011656fcd705a598d54719d4f7328debb8cea
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510598"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077477"
 ---
 # <a name="create-number-series"></a>Stofnun númeraraða
 
@@ -79,7 +79,7 @@ Hægt er að úthluta númeraröðinni á sniðmátin sem eru sett upp fyrir mis
 
 ## <a name="to-create-relationships-between-number-series"></a>Stofnun tengsla milli númeraraða
 
-Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað. Þegar samband er sett upp milli flokkarnúmeraraðar er öll tengd röð tengd við einn númerararkóta. Síðan er hægt að færa kótann í reit á **flipanum Tölusetning** fastflipa á einni af viðeigandi uppsetningarsíðu, svo sem **söluuppsetningu** &.  
+Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað. Þegar komið er á tengslum milli flokka af númeraröðum eru allar skyldar raðir tengdar einum númeraraðarkóta. Síðan er hægt að færa kótann í reit á **flipanum Tölusetning** fastflipa á einni af viðeigandi uppsetningarsíðu, svo sem **söluuppsetningu** &.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Númeraraðir** og velja síðan viðkomandi tengil.
 2. Velja skal línuna með númeraröðinni sem á að stofna tengsl við. og veljið síðan **Tengsl**.
@@ -98,11 +98,10 @@ Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölu
 
 Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkomandi korti eða skjali, í samræmi við þær stillingar sem þú gerðir á númeraröðinni.  
 
-
-
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
+
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

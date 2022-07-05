@@ -229,13 +229,11 @@
 ### Fylgiskjöl á innleið
 #### [Yfirlit skjala á innleið](across-income-documents.md)
 #### [Setja upp skjöl á innleið](across-how-setup-income-documents.md)
-#### Vinna úr skjölum sem berast
-##### [Vinnsla skjala á innleið](across-process-income-documents.md)
-##### [Stofna færslur skjala á innleið](across-how-create-income-document-records.md)
-##### [Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)
-##### [Stofna færslur yfir Skjöl á innleið, beint úr Skjöl og Færslur](across-how-connect-disconnect-income-document-records.md)
-##### [Finna bókuð fylgiskjöl án færslu skjals á innleið](across-how-find-posted-documents-without-income-document-records.md)
-##### [Vinna með margar færslur skjala á innleið](across-how-manage-many-income-document-records.md)
+#### [Stofna færslur skjala á innleið](across-how-create-income-document-records.md)
+#### [Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)
+#### [Stofna færslur yfir Skjöl á innleið, beint úr Skjöl og Færslur](across-how-connect-disconnect-income-document-records.md)
+#### [Finna bókuð fylgiskjöl án færslu skjals á innleið](across-how-find-posted-documents-without-income-document-records.md)
+#### [Vinna með margar færslur skjala á innleið](across-how-manage-many-income-document-records.md)
 
 ### Verkflæði
 #### [Yfirlit yfir verkflæði](across-workflow.md)
@@ -1424,8 +1422,8 @@
 #### Skattur
 ##### [Bandarískur virðisaukaskattur](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Skráning virðisaukaskatts í Bandaríkjunum](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [Skráning færslna sem gilda fyrir 1099 í Bandaríkjunum](LocalFunctionality/UnitedStates/tax-1099.md)  
 ##### [Setja upp og nota eyðublað IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Reglugerð 1099 um breytingu og upplýsingaskyldu](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Setja upp neysluskatt og innkaupaskatt](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Setja upp óinnleystan virðisaukaskatt og greiðsluafslátt sölu](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Bankaþjónusta og greiðslur

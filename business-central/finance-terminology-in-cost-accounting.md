@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6e5f1e99daea56fda5a1a36e0e2b1fb69c332dc5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92f44504f97c4203585486fc937ed3bb560ad5d4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519148"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076540"
 ---
 # <a name="terminology-in-cost-accounting"></a>Orðalisti í kostnaðarbókhaldi
 
@@ -49,8 +49,11 @@ ms.locfileid: "8519148"
 |Breytilegur kostnaður|Breytilegur kostnaður er útgjöld sem breytast í hlutfalli við aðgerðir fyrirtækis. Breytilegur kostnaður er summa jaðarkostnaðar yfir allar framleiddar einingar. Fastur og breytilegur kostnaður myndar tvo hluta af heildarkostnaði.|  
 |Afbrigði|Afbrigði er notað sem valfrjálst notandaskilgreint merki fyrir úthlutanir. Tilgangur merkisins er til að sía flokka úthlutunar.|  
 
-## <a name="see-also"></a>Sjá einnig  
- [Um kostnaðarbókhald](finance-about-cost-accounting.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
+
+ [Um kostnaðarbókhald](finance-about-cost-accounting.md)  
  [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
  [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

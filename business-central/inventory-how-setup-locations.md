@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515512"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077268"
 ---
 # <a name="set-up-locations"></a>Uppsetning birgðageymsla
 
@@ -27,6 +27,7 @@ Síðan er hægt að búa til skjalalínur fyrir tilgreinda staðsetningu, skoð
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Staðsetningarspjöld
+
 Upplýsingar um birgðageymslu, eins og vöruhús eða dreifingarmiðstöð, eru á **síðunni Birgðageymsluspjald**. Hver geymsla fær heiti og kóða. Hægt er að færa birgðageymslukóðann inn annars staðar í forritinu þegar skrá þarf færslur vegna tiltekinnar birgðageymslu.  
 
 Hægt er að færa inn upplýsingar um hólf og um skipan vöruhússins fyrir hverja staðsetningu. Það fer eftir vöruhúsaskipaninni sem er valin, en hægt er að nota valkostina á flýtiflipanum **Hólf** til að skilgreina hólfin sem verða notuð sem sjálfgefin hólf þegar millifærslur fara fram. Ef notaður er beinn frágangur og tínsla er hægt að nota flesta kostina á flýtuflipanum **Hólf** til að tilgreina hvernig eigi að nota mismunandi þróaðar vöruhúsaaðgerðir.  
@@ -76,9 +77,12 @@ Ef stofna á hólfin á svæðum má gera það á síðunni **Svæði**.
 Hins vegar er hægt að velja að setja bara upp eitt svæði og skipuleggja vöruhúsið aðeins eftir hólfum. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Sjálfgefnar víddir staðsetningar
+
 Settar eru upp sjálfgefnar víddir fyrir staðsetningu á **síðunni Birgðageymsluspjald** með því að velja **staðsetningu** og svo **víddir**. Sjálfgefnar víddir staðsetningar eru afritaðar í færslubækur og fylgiskjöl þegar birgðageymslan er tilgreind í línu en hægt er að eyða eða breyta víddinni í línunni ef þörf krefur. Hægt er að krefjast þess að fólk tilgreini víddir fyrir tiltekna staði áður en þeir geta bókað færslu. Einnig er hægt að taka með víddargildin birgðageymsluvíddir í **sjálfgefinni forgangsröð** og **víddarsamsetningum** fyrir samsetningar forgangs og víddarreglna.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)  

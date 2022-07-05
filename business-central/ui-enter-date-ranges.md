@@ -10,12 +10,12 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ba8dc155f3f25aa69907a729b1e235606a5268f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655099"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076800"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tímasetningar dagatals
 
@@ -330,6 +330,7 @@ Orðið fyrir „tími“ á tungumálinu sem notað er af [!INCLUDE[prod_short]
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Færið inn tímalengd
+
 Sumir reitir í forritinu tákna tímalengd eða magn liðins tíma, í stað tiltekins dagsetningar eða tíma. Hægt er að færa inn tímalengd sem tölu og mælieiningu.
 
 Hér eru nokkur dæmi.
@@ -349,7 +350,9 @@ Til að sjá hvaða mælieiningu er verið að nota í reitnum tímalengd er rit
 
 Ef mælieiningin er til dæmis klukkustund, er númerinu 5 breytt í 5 klukkustundir.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Dagsetning útreiknings fyrir kaup](purchasing-date-calculation-for-purchases.md)  

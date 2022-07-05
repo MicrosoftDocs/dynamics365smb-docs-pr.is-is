@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c67e185ba8994bd20712ca4606df0b5dd7c7682b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516563"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077529"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Uppsetning bestu venja: Endurpöntunarstefnur
+
 Svæðið **Endurpöntunarstefna** á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.  
 
 Einn grundvöllur undir bestu venjur til að velja endurpöntunarstefnu er ABC-flokkun vörunnar. Þegar ABC-flokkun er notuð fyrir birgðastjórnun og framboðsáætlun er hlutum stýrt í samræmi við þrjá mismunandi flokka eftir virði þeirra og magni í samræmi við heildarmagn á lager. Virði-rúmmal dreifing á klösunum þremur er sýnd á eftirfarandi töflu.
@@ -40,9 +41,12 @@ Eftirfarandi tafla gefur upp bestu venjur til að velja milli fjögurra stefna.
 |**Fast endurpöntunarmagn**|Notist fyrir C vörur.<br /><br /> Sameina með færibreytum endurpöntunarmarks.<br /><br /> Við framleiðslu skal nota þetta fyrir íhluti á lægsta stigi.<br /><br /> Ekki nota ef varan er oft frátekin.|C vörur, eins og tebollar, eru verðlitlar vörur með mikilli og reglulegri pöntunartíðni. Besta endurpöntunarstefnan fyrir C-vörur er því sú sem tryggir stöðugt framboð með því að vera alltaf yfir endurpöntunarpunkti.<br /><br /> Taki notandinn frá magn fyrir fjarlæga eftirspurn truflar þar forsendur áætlunarinnar. Jafnvel þótt áætlað birgðastig sé leyfilegt með tilliti til endurpöntunarmarks, má magnið ekki vera til staðar vegna frátekningarinnar.|  
 |**Hámarksmagn**|Notist fyrir C vörur með háan birgðakostnað eða geymslutakmarkanir.<br /><br /> Sameina við eina eða fleiri pöntunarbreytur (lágmarks-/hámarkspöntunarmagn eða fjöldapanta).|C vörur, eins og tebollar, eru verðlitlar vörur með mikilli og reglulegri pöntunartíðni. Besta endurpöntunarstefnan fyrir C-vörur er sú sem tryggir stöðugan fáanleika með því að vera alltaf yfir endurpöntunarpunkti, en undir hámarks birgðamagni.<br /><br /> Til að breyta ráðlagðri röð gætirðu viljað lækka pöntunarmagnið niður í tiltekið hámarksmagn pöntunar, hækkað í tiltekið lágmarksmagn pöntunar, eða sléttað til að passa við tilgreint pöntunarmargfeldi. **Athugið:** Ef endurpöntunarmark er notað haldast birgðir á milli þess og hámarksmagns.|  
 
-## <a name="see-also"></a>Sjá einnig  
- [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)   
- [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
+
+ [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
+ [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur](design-details-handling-reordering-policies.md)  
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
  [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

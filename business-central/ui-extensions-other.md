@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfdcf37464a032b6d999d525e67eecadb961ca4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba87c96e23a3905e555a3c5fbf361758f2f76664
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129943"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075708"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Business Central viðbætur frá öðrum veitum
 
@@ -22,7 +22,9 @@ ms.locfileid: "8129943"
 
 Listi yfir viðbætur frá öðrum fyrirtækjum lengist í hverjum mánuði. Fylgstu því með á [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) og fáðu forrit sem aðstoða þig í vinnunni í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  

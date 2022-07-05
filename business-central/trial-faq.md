@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 995d7277d67b3db4360210e80b417b8a62d6b1a8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805153"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077086"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Dynamics 365 Business Central prófspurningar ALGENGAR
 
@@ -49,9 +49,14 @@ Skiptu yfir í 30 daga prufutíma og bættu svo við þínum eigin gögnum. Nán
 
 Þú getur það ekki. Ef gögn eru eyðilögð óvart skal biðja kerfisstjóra um að stofna nýtt sandkasssumhverfi. Nánari upplýsingar er að finna [í framleiðslu og sandkassa umhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types) í admin efni (aðeins á ensku).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Sjá einnig .
 
 [Skráning í ókeypis Dynamics 365 Business Central prufutíma](trial-signup.md)  
 [Algengar spurningar um notkun Business Central](across-faq.yml)  
 [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Rannsóknum og áskriftum](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

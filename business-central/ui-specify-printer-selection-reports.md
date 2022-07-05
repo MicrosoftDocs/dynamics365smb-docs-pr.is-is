@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655285"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075656"
 ---
 # <a name="set-up-printers"></a>Setja upp prentara
 
@@ -269,13 +269,16 @@ Tilgreind skýrsla er nú uppsett til prentunar í völdum sjálfgefnum prentara
 > Sértækara prentaraval hefur forgang fram yfir almennara prentaraval. Prentaraval sem hefur til dæmis gildi í reitunum **Notandakenni**, **Skýrslukenni** og **Prentaraheiti** hefur forgang fram yfir prentaraval sem er með auðar færslur í reitunum **Notandakenni** eða **Skýrslukenni**.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Prentari að velja þegar skýrsla er keyrð
+
 Í stað þess að nota sjálfgefinn prentara þegar skýrsla er keyrð er hægt að hnekkja þessari stillingu af beiðingarsíðunni. Veldu einfaldlega wich-prentarann sem þú vilt nota fyrir þessa óskrá í skýrslunni í **prentarafellivalmyndinni**.
 
 ### <a name="sizing-print-jobs"></a>Stærð prentverka stillt
 
 Skýjaprentun er hönnuð fyrir skjöl af hæfilegri stærð. Flestar skýjaþjónustur, þ.m.t. PrintNode og HP ePrint, eru með 10 MB hámark fyrir hvert verk. Ef þú þarft að prenta stærri skýrslur gætirðu þurft að skipta þeim í margar útprentanir.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Prenta skýrslu](ui-work-report.md#PrintReport)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

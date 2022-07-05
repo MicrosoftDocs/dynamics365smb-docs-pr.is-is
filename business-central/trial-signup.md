@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805179"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077503"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Skráning í ókeypis Dynamics 365 Business Central prufutíma
 
@@ -43,9 +43,10 @@ Einnig er hægt að hafa samband við [[!INCLUDE[prod_short](includes/prod_short
 
 Frekari upplýsingar um hvað hægt er að gera við [!INCLUDE [prod_short](includes/prod_short.md)] eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md) og [Viðskiptavirkni](across-business-functionality.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="additional-resources"></a>Viðbótarfjármagn
 
-- [Kanna þjálfun á Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Skoðaðu myndbandasafnið okkar](across-videos.md)  
 - [Prófspurningar ALGENGAR](trial-faq.md)  
 - [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)  

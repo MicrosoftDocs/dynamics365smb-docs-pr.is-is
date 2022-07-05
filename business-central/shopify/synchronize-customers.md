@@ -7,35 +7,35 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808862"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077789"
 ---
 # <a name="synchronize-customers"></a>Samstilla viðskiptavini
 
-Þegar pöntun er flutt inn frá Shopify eru upplýsingar um viðskiptavin nauðsynlegar fyrir frekari vinnslu skjalsins í [!INCLUDE[prod_short](../includes/prod_short.md)]. Um tvo meginkosti er að ræða og samsetningar þeirra:
+Þegar pöntun er innflutt frá Shopify er nauðsynlegt að upplýsingar um viðskiptavininn séu frekari vinnslu skjalsins [!INCLUDE[prod_short](../includes/prod_short.md)]. Um tvo meginkosti er að ræða og samsetningar þeirra:
 
-* Nota sérstakan viðskiptavin fyrir allar pantanir.
-* Flytja raunverulegar upplýsingar um viðskiptavin úr Shopify. Þessi valkostur er einnig tiltækur þegar viðskiptamaður er útflutt í Shopify frá [!INCLUDE[prod_short](../includes/prod_short.md)] fyrst.
+* Notið sérstakan viðskiptavin fyrir allar pantanir.
+* Flytja inn raunverulegar upplýsingar um viðskiptavin úr Shopify. Þessi valkostur er einnig tiltækur þegar Viðskiptavinir eru flutt í Shopify[!INCLUDE[prod_short](../includes/prod_short.md)] fyrsta sinn.
 
-## <a name="how-connector-chooses-which-customer-to-use"></a>Hvernig tengistykki kýs hvaða viðskiptavin á að nota
+## <a name="how-the-connector-chooses-which-customer-to-use"></a>Hvernig Tenglarnir velja hvaða viðskiptavin á að nota
 
-*Innflutningspöntunin úr Shopify* aðgerð reynir að velja viðskiptavin í eftirfarandi röð:
+*Innflutningspöntunin úr Shopify* aðgerðinni reynir að velja viðskiptavin í eftirfarandi röð:
 
-1. **Ef sjálfgefinn viðskm. nr.** Er skilgreindur í **Shopify Viðskiptamannssniðmátinu** fyrir samsvarandi land og síðan **Sjálfgefinn Viðskiptamaður nr.** Er notaður, óháð stillingum í **innflutningi viðskiptavinar úr Shopify** og **viðskiptavinarvörpun**. Sjá [viðskiptamannasniðmát á landi](synchronize-customers.md#customer-template-per-country) fyrir frekari upplýsingar.
-2. Ef **Viðskiptamaður er innflutningur frá Shopify** stillt á *ekkert* og **Sjálfgefið viðskm.** Er skilgreindur í **Shopify verkstæðisspjaldinu** þá **er sjálfgefinn viðskm. nr.** Er notað.
+1. **Ef sjálfgefinn viðskm. nr.** Er skilgreindur í **Shopify Viðskiptamannssniðmátinu** fyrir samsvarandi land er síðan **sjálfgefna Viðskiptavinasvæðið nr.** Er notað án tillits til stillinga í **reitum innflutnings Shopify** -og **Viðskiptavinavörpunargerðar**. Sjá [viðskiptamannasniðmát á landi](synchronize-customers.md#customer-template-per-country) fyrir frekari upplýsingar.
+2. **Ef innflutningur Shopify** viðskiptavinar er stilltur á *ekkert* og **sjálfgefna viðskiptavinarnr.** Er skilgreindur í **Shopify verkstæðisspjaldinu** þá **er sjálfgefinn viðskm. nr.** Er notað.
 
-Næstu skref fara eftir **gerð** viðskiptavinarkortanna.
+Næstu skref fara **eftir gerð** Viðskiptavinakortsvörunar.
 
-* **Alltaf skal nota sjálfgefinn viðskiptavin**, síðan er viðskiptamaðurinn skilgreindur í reitnum **Sjálfgefinn Viðskiptamaður nr.** Svæði í **Shopify glugganum Spjald** verslunar.
-* **Með tölvupósti/síma**, reynir tengin að finna núverandi viðskiptavin með auðkenni fyrst, þá með tölvupósti, og svo í síma. Ef viðskiptavinurinn finnst ekki-Connector stofnar nýr viðskiptamaður.
-* **Eftir uppskrift**, reynir tengivirkið að finna viðskiptavin sem til er eftir kenni fyrst og síðan með upplýsingum um aðsetur eftir uppskrift. Ef ekki fundið-þá stofnar Connector nýjan viðskiptavin.
+* **Alltaf skal taka sjálfgefinn viðskiptavin**, þá notar tengivirkið viðskiptavininn sem skilgreindur er í **sjálfgefnum viðskm.** Svæðinu á **Shopify vinnukortasíðunni**.
+* **Með tölvupósti/síma**, reynir tengivirkið að finna núverandi viðskiptavin með auðkenni fyrst, þá með tölvupósti, og síðan í síma. Ef viðskiptavinurinn finnst ekki-Connector stofnar nýr viðskiptamaður.
+* **Með því að** frumskrá upplýsingar reynir Tengillinn að finna viðskiptavininn sem er fyrstur með kennið fyrst og síðan með upplýsingum um aðsetur í reitnum Reikningur. Ef ekki fundið-þá stofnar Connector nýjan viðskiptavin.
 
 > [!NOTE]  
-> Tengillinn notar upplýsingar úr Bill-til address og stofnar viðskiptamann í [!INCLUDE[prod_short](../includes/prod_short.md)]. Selt-til-viðskiptamaður er jafnt og Reikn.
+> Í tengivirkinu eru notaðar upplýsingar úr reitnum aðsetur og stofnar viðskiptamannsins [!INCLUDE[prod_short](../includes/prod_short.md)] sem er Reikn. Selt-til-viðskiptamaður er jafnt og Reikn.
 
 ## <a name="important-settings-when-importing-customers-from-shopify"></a>Mikilvægar stillingar við innflutning viðskiptavina frá Shopify
 
@@ -43,21 +43,21 @@ Annað hvort er hægt að flytja inn viðskiptavini Shopify í fjöldaeða ásam
 
 |Svæði|Lýsing|
 |------|-----------|
-|**Innflutningur viðskiptavina frá Shopify**|Velja **alla viðskiptamenn** ef þú ætlar að flytja inn viðskiptavini úr Shopify í magni; annað hvort nota **handvirkt aðgerðina samstillingarviðskiptavinur** eða vinnslubiðröð með því að færa endurteknar uppfærslur. Án tillits til vals verða upplýsingar um viðskiptavin alltaf fluttar inn ásamt pöntun. Hins vegar fer notkun þessara upplýsinga eftir **Shopify sniðmátum** og stillingum viðskiptavinar í **reitnum Tegund** kortlagningar.|
-|**Gerð Kortvörpun viðskiptavinar**|Skilgreinið hvernig tengja á Connector við vörpun.<br>- **Með tölvupósti/Phone** ef Connector er óskað að varpa innfluttu Shopify viðskiptavinunum á viðskiptavin sem til eru í [!INCLUDE[prod_short](../includes/prod_short.md)] tölvupósti og síma.</br>- **Hjá BillTo info** eigi Connector að varpa innfluttu Shopify viðskiptamanni á viðskiptavininn í [!INCLUDE[prod_short](../includes/prod_short.md)] því að nota aðsetursupplýsingar þess aðila sem tekur við reikningnum.</br>Veljið **alltaf taka sjálfgefinn viðskiptavin** ef kerfið á að nota viðskiptavin úr reitnum **Sjálfgefið viðskm.** . |
+|**Innflutningur viðskiptavina frá Shopify**|Veljið **alla viðskiptamenn** ef þú ætlar að flytja inn viðskiptavini úr Shopify í magni; heldur handvirkt í **aðgerðinni samstilling viðskiptamanna** eða vinnslubiðröð með endurteknum uppfærslum. Án tillits til vals verða upplýsingar um viðskiptavin alltaf fluttar inn ásamt pöntuninni. Hins vegar fer notkun þessara upplýsinga eftir **Shopify sniðmátum** og stillingum viðskiptavinar í **reitnum Tegund** kortlagningar viðskiptamanns.|
+|**Gerð Kortvörpun viðskiptavinar**|Skilgreinið hvernig tengja á Connector við vörpunaraðgerðina.<br>- **Með tölvupósti/Phone** ef óskað er eftir að Connector kortberi innflutta Shopify viðskiptavininn við viðskiptavin í [!INCLUDE[prod_short](../includes/prod_short.md)] notkun með tölvupósti og síma.</br>- **Með því að reikningsfæra upplýsingar** ef óskað er eftir að Connector kortberi innflutta Shopify viðskiptavininn við viðskiptavin sem hann er í [!INCLUDE[prod_short](../includes/prod_short.md)] með upplýsingum um aðsetursupplýsingar aðilans sem tekur við reikningnum.</br>Veljið **alltaf taka sjálfgefinn viðskiptavin** ef kerfið á að nota viðskiptavin úr reitnum **Sjálfgefið viðskm.** . |
 |**Shopify Hægt að uppfæra viðskiptavini**| Veljið ef óskað er eftir að Connector uppfæri viðskiptavini sem finnast þegar **eftir valkosti með tölvupósti/síma** eða **samkvæmt Frumupplýsingum** af frumvarpi í **reitinn Tegund** viðskiptavinarkortlagningar.|
-|**Sjálfvirk stofnun óþekktra viðskiptamanna**| Veljið ef óskað er að Connector vanti til að stofna viðskiptavini, þegar **Valkostir með tölvupósti/síma** eða **með Billto-upplýsingum** eru valdir í **reitnum Tegund** kortvörpun viðskiptavinar. Nýr viðskiptamaður verður stofnaður með innfluttu gögnum og **Sniðmátskóta viðskiptamanns sem tilgreindur er á síðum vinnukorta** eða **Shopify sniðmáta** **Shopify fyrir** viðskiptavin. Takið eftir að Shopify viðskiptavinurinn þarf að hafa minnst eitt aðsetur. Ef þessi valkostur er ekki virkjaður þarf að stofna viðskiptavin handvirkt og tengja hann við Shopify viðskiptamanninn. Þú getur alltaf haft frumkvæði að stofnun viðskiptavinar handvirkt á **Shopify pöntunarsíðunni**.|
-|**Sniðmátskóti viðskiptamanns**|Notað ásamt **sjálfvirkum stofna óþekktum viðskiptavina**.<br> Velja sjálfgefið sniðmát sem á að nota fyrir sjálfvirka stofna viðskiptavini. Hægt er að skilgreina sniðmát fyrir hvert land/svæði í **Shopify glugganum Sniðmát** viðskiptamanns sem er gagnlegt fyrir réttan skattaútreikning. Nánar er fjallað [um Skattaleg ummæli](synchronize-orders.md#tax-remarks).|
+|**Sjálfvirk stofnun óþekktra viðskiptamanna**| Veljið ef óskað er að Connector vanti til að stofna viðskiptamenn, þegar **Valkostir með tölvupósti/síma** eða **eftir uppskrift** eru valdir í **reitnum Tegund** kortvörpun viðskiptavinar. Nýr viðskiptamaður verður stofnaður með innfluttu gögnunum og Sniðmátskóta viðskiptamanns sem **tilgreindur er á** síðum vinnukorta **Shopify eða** sniðmáts **Shopify** viðskiptamanns. Takið eftir að Shopify viðskiptavinurinn þarf að hafa minnst eitt aðsetur. Ef þessi valkostur er ekki virkjaður þarf að stofna viðskiptavin handvirkt og tengja hann við Shopify viðskiptamanninn. Þú getur alltaf haft frumkvæði að stofnun viðskiptavinar handvirkt á **Shopify pöntunarsíðunni**.|
+|**Sniðmátskóti viðskiptamanns**|Notað ásamt **sjálfvirkum stofna óþekktum viðskiptavina**.<br> Velja sjálfgefið sniðmát sem á að nota fyrir sjálfvirka stofna viðskiptavini. Ganga þarf úr skugga um að valið sniðmát innihaldi Skyldusvæðin eins og **Alm. viðsk.** **Bókunarflokkur, bókunarflokkur** viðskm., VSK eða VSK-tengd svæði.<br> Hægt er að skilgreina sniðmát fyrir hvert land/svæði á **Shopify síðunni sniðmát** viðskiptamanns sem er gagnlegt fyrir réttan skattaútreikning. Nánar er fjallað [um Skattaleg ummæli](synchronize-orders.md#tax-remarks).|
 
 ### <a name="customer-template-per-country"></a>Sniðmát viðskiptavinar fyrir hvert land
 
-Sumar stillingar er hægt að skilgreina á lands-/svæðisstigi eða á stöðu-/héraðsstigi. Hægt er að skilgreina stillingarnar í [sendingu og afhendingar](https://www.shopify.com/admin/settings/shipping) kl Shopify.
+Sumar stillingar er hægt að skilgreina á lands-/svæðisstigi eða á ríki/héraðsstigi. Hægt er að skilgreina stillingarnar í [sendingu og afhendingar](https://www.shopify.com/admin/settings/shipping) kl Shopify.
 
 **Shopify Viðskiptamannssniðmátið** gerir notanda kleift að gera eftirfarandi við hvert land:
 
 1. **Tilgreinið sjálfgefið viðskm. nr.**, sem tekur forgang yfir valið í **reitum innflutnings Shopify** -og **Viðskiptavinavörpunargerðar**. Það er notað í innfluttu sölupöntuninni.
-2. Skilgreinið **Sniðmátskóða viðskiptamanns sem er notaður til að stofna viðskiptamenn sem vantar, ef** Óþekkt viðskiptamódel **er** virkt. Ef **Sniðmátskóti** viðskiptamanns er auður notar **aðgerðin sniðmátskóta** viðskiptamanns sem tilgreindur er á **Shopify verkstæðisspjaldinu**.
-3. Í sumum tilfellum er **Sniðmátskóti** viðskiptamanns á landi ekki nægur til að tryggja réttan útreikning skatta. T.d. vegna löndaðrar með virðisaukaskatti.
+2. Skilgreinið **Sniðmátskóða viðskiptamanns sem er notaður til að stofna viðskiptavini sem vantar ef** Óþekkt viðskiptamódel **er** virkt. **Ef Sniðmátskóti** viðskiptamanns er auður notar **aðgerðin sniðmátskóta** viðskiptamanns sem tilgreindur er á **Shopify verkstæðisspjaldinu**.
+3. Í sumum tilvikum er **Sniðmátskóti** viðskiptamanns sem skilgreindur er fyrir land ekki nægur til að tryggja réttan útreikning skatta. T.d. vegna löndaðrar með virðisaukaskatti. Í þessu tilviki **gætu skattasvæðin** verið gagnleg viðbót.
 
 > [!NOTE]  
 > Landskótarnir ISO 3166-1 Alpha-2 landskótum. Sjá [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode) fyrir nánari upplýsingar.
@@ -68,11 +68,11 @@ Núverandi viðskiptavini er hægt að Shopify Flytja út í í fjöldasöng. Þ
 
 |Svæði|Lýsing|
 |------|-----------|
-|**Útflutningur viðskiptavina á Shopify**|Veljið ef ætlunin er að flytja út alla viðskiptamenn með gilt tölvupóstfang úr [!INCLUDE[prod_short](../includes/prod_short.md)]Shopify í í magnskrá, annað hvort með handvirkt, **aðgerðin samstillingarviðskiptavinir** eða vinnslubiðröð í vinnsluröð fyrir endurteknar uppfærslur.|
-|**Hægt að uppfæra Shopify viðskiptavini**|Notað ásamt **útflutningi viðskiptavinar til Shopify**. Gera hana virka ef mynda á uppfærslur síðar frá [!INCLUDE[prod_short](../includes/prod_short.md)] fyrir viðskiptamenn sem eru þegar til í Shopify.|
+|**Útflutningur viðskiptavina á Shopify**|Veljið ef ætlunin er að flytja út alla viðskiptamenn með gilt tölvupóstfang úr [!INCLUDE[prod_short](../includes/prod_short.md)]Shopify í í magnskrá, annað hvort með handvirkt, með **aðgerðinni samstilling viðskiptavina** eða vinnslubiðröð fyrir endurteknar uppfærslur.|
+|**Hægt að uppfæra Shopify viðskiptavini**|Notað ásamt **útflutningsviðskiptamanninum til að Shopify** setja. Gera það virkt ef mynda á uppfærslur síðar frá [!INCLUDE[prod_short](../includes/prod_short.md)] fyrir viðskiptamenn sem eru þegar til í Shopify.|
 
 > [!NOTE]  
-> Þegar Viðskiptavinir Shopify hafa verið stofnaðir gæti verið gott að senda bein fundarboð til viðskiptavina. Það hvetur þá til að virkja reikninginn sinn.
+> Þegar viðskiptamennirnir Shopify hafa verið stofnaðir gæti verið gott að senda bein fundarboð til viðskiptavina. Það hvetur þá til að virkja reikninginn sinn.
 
 ### <a name="populate-customer-information-in-shopify"></a>Fylla út upplýsingar um viðskiptavin í Shopify
 
@@ -91,18 +91,18 @@ Viðskiptavinur í Shopify er einnig með sjálfgefið aðsetur þar sem fornafn
 |1|**Heiti**|Hæsta Forgangur ef **reiturinn Heiti Uppruni** í **Shopify verkstæðisspjaldinu** inniheldur *Heiti* fyrirtækis.|
 |2|**Nefndu 2**|Lægsta forgang ef **reiturinn 2 Upprunakort** á **Shopify verkstæðisspjaldinu** inniheldur *Heiti* fyrirtækis.|
 
-Fyrir aðsetur þar sem notað er land/hérað er valið *kóti* eða *Heiti* í **reitnum** Upprunagátt á **Shopify verkstæðisspjaldinu** til að tilgreina hvaða tegund af gögnum er geymd í [!INCLUDE[prod_short](../includes/prod_short.md)] í **reitnum land**.
+Fyrir heimilisföng þar sem land/hérað er notað er valið *kóti* eða *Heiti* í **reitnum** Upprunagátt á **Shopify verkstæðisspjaldinu** til að tilgreina hvaða tegund af gögnum er geymd í [!INCLUDE[prod_short](../includes/prod_short.md)] í **reitnum land**.
 
 ## <a name="sync-customers"></a>Viðskiptavinir samkaupa
 
-1. Fara á leitarljósaperu ![sem opnast Segðu mér lögun.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **Shopify búð** og veljið tengdan tengil.
-2. Veljið verslunina þar sem á að samstilla viðskiptavini til að opna **Shopify spjald** -síðu verkstæðis.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **Shopify búð** og veljið síðan tengda tengilinn.
+2. Veljið verslunina þar sem á að samstilla viðskiptavini til að opna **Shopify síðuna Verkstæðisspjald**.
 3. **Veljið aðgerðina samstilla viðskiptavin**.
 
-Einnig er hægt að **nota aðgerðina** Ræsa viðskiptavin samkeyrslu **Shopify í glugganum Viðskiptavinir** eða leita að **keyrslu samstillingarviðskiptamanna**.
+Einnig er hægt að **nota samstillingaraðgerðina** **Shopify Ræsa viðskiptavin í glugganum Viðskiptavinir** eða leita að **keyrslunni samstilla viðskiptamenn**.
 
 Áætla má að verkefnið sé framkvæmt með sjálfvirkum hætti. Frekari upplýsingar er að finna [í Schedule endurtekin verk](background.md#to-schedule-recurring-tasks).
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
 
 [Byrjaðu með Tengimynt fyrir Shopify](get-started.md)  

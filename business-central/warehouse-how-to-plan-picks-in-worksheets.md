@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515200"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078337"
 ---
 # <a name="plan-picks-in-worksheets"></a>Skipuleggja tínslur á vinnublaðinu
 
@@ -33,6 +33,7 @@ Ef vöruhúsið er sett upp þannig að það krefjist bæði tiltektar- og afhe
 > Upplýsingar um almenna tínslu íhluta fyrir samsetningarpantanir, þar á meðal þegar samsetningaríhlutur er ekki hluti af söluafhendingu, eru í [Tína fyrir framleiðslu eða samsetningu í grunngerð ítarlegs vöruhúss](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="sorting-lines-on-a-pick-worksheet"></a>Röðun lína á vinnublaði tiltektar
+
 Hægt er að raða línum eftir vöru, hillunúmeri, upprunaskjali, gjalddaga eða áfangastað. Hér eru nokkur dæmi um hvernig röðun getur reynst gagnleg.
 
 * Ef raðað er eftir gjalddaga er hægt að eyða öllum línum öðrum en þeim sem þarf að sinna strax. Minna áríðandi línum er ekki eytt þannig séð, heldur fara þær aftur á vinnublaðið **Tínsluval**. Þegar tínslan er stofnuð hefur línunum þegar verið raðað eftir gjalddaga og hægt er að úthluta tínslunni á starfsmann.
@@ -52,7 +53,9 @@ Hægt er að raða línum eftir vöru, hillunúmeri, upprunaskjali, gjalddaga e�
 8. Veldu hnappinn **Prenta** til þess að prenta tínsluleiðbeiningarnar.  
 9. Eftir að tínslu er lokið skal velja aðgerðina **Skrá**.  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  

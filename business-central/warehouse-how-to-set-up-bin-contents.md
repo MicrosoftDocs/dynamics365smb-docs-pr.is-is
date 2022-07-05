@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef6b031cfb87c74a62da85d0c7073a91e5e176e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9135514b6f788aab99b3433a04ad28ec36064e30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520526"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074355"
 ---
 # <a name="create-bin-contents"></a>Stofna innihald hólfs
 
@@ -55,7 +55,9 @@ Ef gátmerki er sett inn í reitinn **Fast** er varan fest við hólfið sem þ�
 
 Á þessu vinnublaði er hægt að vinna með nokkrar hólfainnihaldslínur fyrir nokkur hólf og fá þannig gott yfirlit yfir hvað er sett í hin ýmsu hólf á tilteknu svæði, gangi eða rekka.  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/set-up-zones-bins/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Reikna út áfyllingu hólfs](warehouse-how-to-calculate-bin-replenishment.md)  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

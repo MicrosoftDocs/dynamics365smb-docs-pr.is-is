@@ -1,25 +1,27 @@
 ---
 title: Leita að bókuðum skjölum án skjala á innleið
-description: Hægt að nota leitaraðgerð til að finna fjárhagsfærslur fyrir bókuð innkaupa- og söluskjöl sem hafa ekki rafræn skjöl á innleið, eins og t.d. innfluttir reikningar.
+description: Hægt er að leita að fjárhagsfærslum fyrir bókuð innkaupa-og söluskjöl sem hafa ekki innsend rafræn skjöl, svo sem innflutta reikninga.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2021
+ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: ed6a73ce5f2f5ab1fd94d261e0c7ceed24eb66d5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ad50260df068d38cb8266e04434eb4faf4d052f3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519893"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076046"
 ---
 # <a name="find-posted-documents-without-incoming-document-records"></a>Finna bókuð fylgiskjöl án færslu skjals á innleið
-Á síðunum **Bókhaldslyklar** og **Fjárhagsfærslur** er hægt að nota leitaraðgerð til að finna fjárhagsfærslur fyrir bókuð innkaupa- og söluskjöl sem hafa ekki færslur fyrir skjöl á innleið og tengjast miðlægt við fyrirliggjandi færslur eða stofna nýjar með viðhengdum skrám.
+
+**Í bókhaldslykilinn og** **á síðum bókhaldanna** er hægt að nota Leitaraðgerð til að finna fjárhagsfærslur fyrir bókuð innkaupa-og söluskjöl sem hafa ekki færslur á innleið og svo tengja þær við eldri færslur eða stofna nýjar með viðhengdar skjalaskrár.
 
 ## <a name="to-find-posted-documents-without-incoming-document-records"></a>Hvernig á að finna bókuð fylgiskjöl án færslu skjals á innleið
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.
 2. Veljið línu fyrir þann fjárhagsreikning þar sem skoða á fjárhagsfærslur og bókuð innkaupa- og söluskjöl án færslna fyrir skjöl á innleið og veljið síðan **bókuð skjöl án skjal á innleið**
 3. Einnig, Valið er **fjárhagsfærslur** aðgerð.
@@ -28,17 +30,23 @@ ms.locfileid: "8519893"
 Síðan **Bókuð fylgiskjöl án skjals á innleið** opnast og hún sýnir bókuð innkaupa- og söluskjöl án færslna fyrir skjöl á innleið sem tengjast fjárhagsfærslum á fjárhagsreikningi sem síðan var opnuð fyrir. Síðan getur birt mest 1000 línur í einu. Sjálfgefið inniheldur reiturinn **dagsetningarafmörkun** því síu sem takmarkar línurnar við færslur með bókunardagsetningum frá upphafi bókhaldstímabils til vinnudagsetningar.
 
 ## <a name="to-connect-found-documents-to-existing-incoming-document-records"></a>Til að tengja fundin skjöl við fyrirliggjandi færslur skjala á innleið
+
 1. Á síðunni **Bókuð fylgiskjöl án skjals á innleið** skal velja línu fyrir bókað skjal sem á að tengja við fyrirliggjandi færslu skjals á innleið, og veljið svo aðgerðina velja **skjal á innleið**.
 2. Á síðunni **Skjöl á innleið** skal velja færslu fyrir skjal á innleið sem tengja á við bókað skjal sem fannst og velja svo hnappinn **Í lagi**.
 3. Á síðunni **Bókuð fylgiskjöl án skjals á innleið** er valin færsla skjals á innleið nú tengt við bókaða skjalið, eins og sjá má í upplýsingakassanum **skrár fyrir skjal á innleið**.
 
-Ef viðkomandi færsla skjals á innleið er ekki til á síðunni **skjal á innleið** er hægt að stofna hana. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).
+Ef viðeigandi færsla á innleið er ekki til á **síðunni utanaðkomandi skjöl**, þá er hægt að stofna hana. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).
 
-## <a name="see-also"></a>Sjá einnig
-[Vinnsla skjala á innleið](across-process-income-documents.md)  
-[Skjöl á innleið](across-income-documents.md)  
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
+
+[Stofna komandi skjalaskrár](across-how-create-income-document-records.md)
+[nota OCR til að kveikja PDF-og myndskrár í rafrænum skjölum](across-how-use-ocr-pdf-images-files.md)
+[Stofna skjalaskrár í innleið beint úr skjölum og færslum](across-how-connect-disconnect-income-document-records.md)
+[komandi skjala](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

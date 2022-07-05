@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3e8fea25e921288db80b993ff2911dc7b473fb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 16adda82dbc45bcff61934d57de7a4e46f8477cf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523294"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075292"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Kynning: Útreikningur á VÍV fyrir verk
 
@@ -22,7 +22,8 @@ ms.locfileid: "8523294"
 
 Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á ýmsum kostnaði sem fylgir notkun forða í tilteknu verkefni. Verk ná yfir notkun á vinnutíma starfsmanna, vélastundir, birgðahluti og aðrar gerðir notkunar sem þarf að fylgjast með í verkferlum. Ef verk stendur yfir í langan tíma verður hugsanlega að flytja þennan kostnað á VÍV-reikning (verk í vinnslu) á efnahagsreikningi á meðan verkinu er lokið. Þannig er hægt að samþykkja kostnaðinn og söluna á rekstrarreikningnum þegar það á við.  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna  
+## <a name="about-this-walkthrough"></a>Um kynninguna
+
  Þessi kynning fjallar um eftirfarandi verk:  
 
 -   Útreikning á VÍV.  
@@ -33,16 +34,20 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
  Hvert skref í ferlinu virðisreiknar og færir verkfærslurnar í fjárhaginn. Útreikningur og bókun eru aðskilin svo hægt sé að fara yfir gögn og gera breytingar áður en bókað er í fjárhaginn. Þess vegna þarf að ganga úr skugga um að allar upplýsingar séu réttar eftir að útreikningskeyrslur eru keyrðar og áður en bókunarkeyrslur eru keyrðar.  
 
-## <a name="roles"></a>Hlutverk  
+## <a name="roles"></a>Hlutverk
+
  Þessi kynning notar Tinnu sem meðlim verkefnateymisins.  
 
-## <a name="prerequisites"></a>Frumskilyrði  
+## <a name="prerequisites"></a>Frumskilyrði
+
  Áður en hægt er að framkvæma verk hér í kynningunni þarf að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] í tölvunni.  
 
-## <a name="story"></a>Ferill  
+## <a name="story"></a>Ferill
+
  Þessi kynning einblínir á fyrirtækið CRONUS International Ltd., hönnunar- og ráðgjafafyrirtæki sem hannar og setur upp nýja innviði á borð við ráðstefnusali og skrifstofur, með húsgögn, aukahluti og geymslueiningar. Mest vinnan í CRONUS er verkefnatengd og Trausti, meðlimur í verkefnateymi, notar verk til að geta haft yfirlit yfir hvert verk í vinnslu sem CRONUS hefur verið ræst en einnig þau verk sem lokið er. Sum verkin geta verið mjög löng og tekið marga mánuði. Tinna getur notað VÍV reikninginn til að skrá yfirstandandi vinnu og rekja kostnað í verkinu.  
 
-## <a name="calculating-wip"></a>Útreikningur á VÍV  
+## <a name="calculating-wip"></a>Útreikningur á VÍV
+
  CRONUS hefur tekið að sér langt verk sem nær yfir nokkur bókhaldstímabil. Tinna, sem er teymismeðlimur í verkefninu, reiknar út verk í vinnslu (VÍV) til að tryggja að ársreikningur fyrirtækisins verði réttur.  
 
  Tinna mun velja tiltekinn hóp verkhluta sem tekin verða með í VÍV-útreikninginn. Á síðunni **Verkhlutalínur verks** getur hún tilgreint þessar línur í dálkinum **VÍV-samtala**.  
@@ -109,7 +114,8 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 > [!NOTE]  
 >  Verk í vinnslu og samþykki eru bara reiknuð. Er ekki bókað í fjárhag. Til þess þarf að keyra keyrsluna **Bóka VÍV í fjárhag** þegar búið er að reikna VÍV og samþykki.
 
-## <a name="posting-wip-to-general-ledger"></a>VÍV bókað í fjárhag  
+## <a name="posting-wip-to-general-ledger"></a>VÍV bókað í fjárhag
+
  Þegar Tinna hefur reiknað VÍV fyrir þetta verk getur hún bókað það í fjárhaginn.  
 
 ### <a name="to-post-wip-to-general-ledger"></a>VÍV bókað í fjárhag  
@@ -132,7 +138,8 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 10. Á flýtiflipanum **VÍV og samþykki** skal athuga að í dálkinum **Bókað** er reiturinn **Samþ. fjárhagsupph. kostnaðar** nú útfylltur, sem þýðir að það tókst að bóka VÍV í fjárhag.  
 11. Velja hnappinn **Í lagi** til að loka spjaldinu.  
 
-## <a name="reversing-a-wip-posting"></a>Bakfærsla VÍV-bókunar  
+## <a name="reversing-a-wip-posting"></a>Bakfærsla VÍV-bókunar
+
  Tinna ákveður að reikna hefði átt þá verkhluta verks sem ekki voru hafðir með í VÍV í VÍV. Hún getur bakfært rangar bókanir án þess að bóka nýjar VÍV-bókanir.  
 
 ### <a name="to-reverse-a-wip-posting"></a>Bakfærsla VÍV-bókunar  
@@ -154,13 +161,17 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
     > [!NOTE]  
     >  Gefum okkur að Tricia hafi reiknað út og bókað WIP fyrir verk með röngum dagsetningum. Í kjölfar aðferðarinnar sem var rædd hér á undan, getur hún bakfært rangar bókanir, leiðrétt dagsetningarnar og endurbókað í fjárhag.  
 
-## <a name="next-steps"></a>Næstu þrep  
+## <a name="next-steps"></a>Næstu þrep
+
  Í þessari kynningu var farið yfir skrefin í útreikningi á VÍV í [!INCLUDE[prod_short](includes/prod_short.md)]. Í stærri verkum kann að vera gagnlegt að flytja kostnaðinn í VÍV-reikning reglulega á meðan verkið er unnið. Í kynningunni var sýnt hvernig á að undanskilja verkhlutalínur frá útreikningi. Sýnir einnig hvenær þörf er á endurreikningi. Og að lokum, þessi kynning sýnir hvernig á að bóka VÍV í fjárhag. Dæmi um bakfærslu VÍV-bókunar í fjárhag er einnig tekin með.  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+
+## <a name="see-also"></a>Sjá einnig
+
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
- [Kynning: Stýring verkefna með verkum](walkthrough-managing-projects-with-jobs.md)   
- [Að skila VÍV aðferðir](projects-understanding-wip.md)   
+ [Kynning: Stýring verkefna með verkum](walkthrough-managing-projects-with-jobs.md)  
+ [Að skilja VÍV-aðferðir](projects-understanding-wip.md)  
  [Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)  
  [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

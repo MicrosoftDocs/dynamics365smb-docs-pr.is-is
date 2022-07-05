@@ -8,14 +8,15 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626396"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074693"
 ---
 # <a name="create-jobs"></a>Stofna verk
+
 Þegar nýtt verk er stofnað verður að stofna verkspjald með samþættum verkhlutum og áætlunarlínum, sem skipt er upp í tvö lög.  
 
 Fyrsta lagið samanstendur af verkhlutum. Það verður að stofna að minnsta kosti einn verkhluta fyrir hvert verk vegna þess að allar bókanir vísa til verkhluta. Ef a.m.k. einn verkhluti er í verkinu er hægt að setja upp áætlunarlínur og bóka notkun fyrir verkið.
@@ -34,6 +35,7 @@ Stundum er sá aðili sem tekur á móti þjónustu annar en sá aðili sem er a
 * Skrifa yfir staðlaða fjárhagslega skilmála verksins.
 
 ## <a name="to-create-a-job-card"></a>Til að stofna verkspjald
+
 Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur fyrir það.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
@@ -44,6 +46,7 @@ Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur
 >   Ef vinnuskýrslur eru notaðar í verkinu þarf einnig að tilnefna ábyrgan aðila. Einstaklingurinn getur samþykkt vinnuskýrslur fyrir starfsmannaverkefni sem tengjast verkinu. Frekari upplýsingar eru í [Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Til að búa til verkhluta fyrir verk
+
 Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur í sér. Verkefnum er tilgreint með því að stofna eina línu fyrir hvert verk á **fastflipanum** verk á **síðunni vinnsluspjald**. Hvert verk verður að hafa að minnsta kosti einn verkhluta.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.
@@ -54,6 +57,7 @@ Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur 
 6. Til að tilgreina verkhluta með upplýsingum um aðra verkhluta skal velja aðgerðina **Afrita verkhluta frá** og fylla svo út reitina eins og þörf krefur og velja hnappinn **Í lagi**.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Til að stofna verkáætlunarlínu fyrir verk
+
 Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Í áætlunarlínu er hægt að fanga upplýsingarnar sem á að rekja fyrir vinnslu. Til dæmis er hægt að rekja tilföng sem vinnslan krefst, eða þær vörur sem þörf er á. Til dæmis er verkefni að fá viðskiptavin til að samþykkja vinnu. Verkið er tengt við áætlunarlínur fyrir vörur eins og að hitta viðskiptavininn og úthluta forða.  
 
 Áætlunarlína getur verið ein af eftirfarandi tegundum.  
@@ -73,7 +77,9 @@ Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Í áætlu
 4. Á síðunni **Verkáætlunarlínur** skal fylla út reitina eins og þörf krefur í nýrri línu.
 5. Endurtakið skref 3 og 4 fyrir allar verkhlutalínur sem þarf fyrir verkhlutann.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-new-job/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Myndband: Hvernig á að stofna verk í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

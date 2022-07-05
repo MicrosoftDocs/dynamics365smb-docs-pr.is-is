@@ -10,12 +10,12 @@ ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: fffc72eaa44207779a751c3d85381f830f651eb3
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 398c32043297e6900754da535f01a3fb5059c204
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655021"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076826"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 
@@ -282,7 +282,9 @@ Segjum til dæmis að þú sért að nota Talnalykil sem notar tímabil (.) sem 
 > [!TIP]
 > Það getur verið tilefni þegar nota á aðgreiningu aukastafa til að slá inn tímabil (.). Segjum til dæmis að farið hafi verið inn á dagsetningasvið í síu, eins `01/01/2022..04/01/2022`, eða hvað sem er, ef þarf tímabil. Til að móta þetta mál er ýtt á Skilalykla Alt + aukastafa á talnabykinu. Þessi lyklasamsetning skiptir aðgreiningarskilmerkjum milli útganga tímabils og skilta tugabrota eins og það er **ákvarðað með svæðastillingunni**.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,20 +10,22 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 317c8d5da772dbead39330f068df59e1603d525b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6228c53173995680bcef50f3135ba406a24e1d23
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517005"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075968"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
+
 Samsetningarvörur geta verið veittar í eftirfarandi tvo ferla:  
 
 -   Setja saman í pöntun.  
 -   Setja saman í birgðir.  
 
-## <a name="assemble-to-order"></a>Samsetning til pöntunar  
+## <a name="assemble-to-order"></a>Samsetning til pöntunar
+
 Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja í birgðir þar sem búist er við að þær verði sérsniðnar að þörfum viðskiptavinar eða vegna þess að lágmarka á birgðakostnað sem því að veita þær rétt í tíma. Stuðningsaðgerðirnar eru meðal annars:  
 
 -   Hæfni til að sérstilla samsetningarvörur þegar tekið er við sölupöntun.  
@@ -43,7 +45,8 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
  Til að virkja þetta ferli er verður reiturinn **Samsetningarregla** á birgðaspjaldinu að vera **Sameina í pöntun**.  
 
-## <a name="assemble-to-stock"></a>Setja saman í birgðir  
+## <a name="assemble-to-stock"></a>Setja saman í birgðir
+
  Yfirleitt er *setja saman í birgðir* notað fyrir vörur sem á að setja saman á undan sölu, s.s. þegar söluherferð fyrir sett er undirbúin og þau geymd í birgðum áður en þær eru pantaðar. Þessar vörur eru yfirleitt staðlaðar vörur eins og innpökkuð sett sem þú býður ekki upp á að séu sérsniðin eftir beiðni viðskiptavina.  
 
  Í sameina á lager vinnslunni, er varan sett saman án sölueftirspurnar og er geymd á lager í vöruhúsinu sem birgðavara fyrir seinni sölu eða notkun sem millivara. Nánari upplýsingar, sjá [Sameina vörur](assembly-how-to-assemble-items.md). Frá þessum tímapunkti er varan tínd og unnin sem stök vara og meðhöndluð sem fullunnin framleiðsluvara.  
@@ -55,7 +58,8 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
  Til að virkja þetta ferli er verður reiturinn **Samsetningarregla** á birgðaspjaldinu að vera **Setja saman í birgðir**.  
 
-## <a name="combination-scenarios"></a>Samsetningaraðstæður  
+## <a name="combination-scenarios"></a>Samsetningaraðstæður
+
  Almenn reglu í samsetningarstjórnun er að þegar samsetningarpöntunarmagn er sameinað í sölupöntunarlínu, verður að afhenda það á undan birgðamagninu.  
 
  Ef samsetningarpöntun tengist sölupöntunarlínu verður gildið í reitnum **Magn sett saman í pöntun** í sölupöntunarlínunni afritað í reitinn **Magn sett saman** í gegnum **Magn** í haus samsetningarpöntunarinnar. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -72,7 +76,7 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
  Eftirfarandi töflur útskýra reglur sem skilgreina lágmarks-og hámarksgildin sem hægt er að færa inn í **magnið sem á að setja saman** til að víkja af sjálfgefnu gildi í samsettri atburðarás. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
 
-- Sölupantanalína
+- Sölupöntunarlína
 
     |                | **Magn** | **Magn til afhendingar** | **Magn til samsetningar til pöntunar** | **Afhent magn** |
     |----------------|--------------|------------------|-------------------------------|----------------------|
@@ -91,7 +95,9 @@ Samkvæmt þessu dæmi er aðeins hægt að breyta **magninu til að setja saman
 - Lágmarksmagn sem hægt er að færa inn er 1. Það er vegna þess að það verður í það minnsta að setja saman eina einingu svo hægt sé að selja fjórar einingar, að því gefnu að þær þrjár sem eftir standa séu tiltækar sem birgðir.  
 - Hámarksmagn sem hægt er að færa inn er 4. Þetta er til að tryggja það að ekki sé meira af þessari Samsetning til pöntunar vöru framleitt en það sem vantar fyrir söluna.  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  

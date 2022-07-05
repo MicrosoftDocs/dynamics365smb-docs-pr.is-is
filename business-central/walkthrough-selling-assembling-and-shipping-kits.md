@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd48bd5134fcd42ccee67cbc54eb32b3d8c5a63
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c0ce6cc58d5876f99d82a0c177cb760bfdd9468
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148045"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075266"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Kynning: Selja, setja saman og afhenda sett
 
@@ -26,16 +26,19 @@ Sérstök virkni er til staðar til að stýra sendingu sameiningarpöntunarmagn
 
 Í einfaldri vöruhúsagrunnstillingu, þegar magn samsetningarpöntunar er tilbúið til afhendingar, bókar starfsmaður í vöruhúsi birgðatínslu fyrir sölupöntunarlínuna. Þetta stofnar birgðahreyfingu fyrir íhlutina, bókar samsetningarfrálagið og sölupöntunarsendinguna. Nánari upplýsingar eru í [Meðhöndlun íhluta pantanasamsetninga við birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna  
+## <a name="about-this-walkthrough"></a>Um kynninguna
+
 Þessi kynning fjallar um eftirfarandi verk:  
 
-### <a name="setting-up-assembly-items"></a>Uppsetning Samsetningaríhlutir.  
+### <a name="setting-up-assembly-items"></a>Uppsetning Samsetningaríhlutir.
+
 Einkennandi fyrir samsetningarvörur er áfyllingarkerfi þeirra og samsetningaruppskriftin. Samsetningarstefna vörunnar getur annaðhvort verið samsetning-til-pöntunar (ATO) eða samsetning-í-birgðir (ATS). Í þessum hluta er fjallað um eftirfarandi verkhluta:  
 
 -   Uppsetning viðeigandi áfyllingarkerfis og samsetningarreglu á nýja samsetningarvöruspjaldinu.  
 -   Stofnun samsetningaruppskriftar sem skráir samsetningaríhlutina og forðann sem fara í samsetningarvöruna.  
 
-### <a name="selling-customized-assembly-items"></a>Sala sérsniðinna samsetningaríhluta  
+### <a name="selling-customized-assembly-items"></a>Sala sérsniðinna samsetningaríhluta
+
 [!INCLUDE[prod_short](includes/prod_short.md)] veitir þann sveigjanleika að geta fært inn bæði magn birgða og magn samsetningarpöntunar í eina sölupöntunarlínu. Í þessum hluta er fjallað um eftirfarandi verkhluta:  
 
 -   Stofnun á hreinni ATO sölupöntunarlínu þar sem ekki er allt magn tiltækt og verður að setja saman fyrir afhendingu.  
@@ -44,20 +47,23 @@ Einkennandi fyrir samsetningarvörur er áfyllingarkerfi þeirra og samsetningar
 -   Stofnun blandaðrar sölupöntunarlínu þar sem hlutar af sölumagninu koma úr birgðum og það sem eftir stendur verður að setja saman fyrir afhendingu.  
 -   Að skilja ATO-ráðstöfunarviðvaranir.  
 
-### <a name="planning-for-assembly-items"></a>Áætlun fyrir samsetningaríhluti  
+### <a name="planning-for-assembly-items"></a>Áætlun fyrir samsetningaríhluti
+
 Samsetningareftirspurn og -framboð eru meðhöndluð með áætlunarkerfinu, rétt eins og fyrir innkaup, flutning og framleiðslu. Í þessum hluta er fjallað um eftirfarandi verkhluta:  
 
 -   Að keyra endurgerðaráætlun fyrir vörur sem hafa sölueftirspurn fyrir samsett framboð.  
 -   Myndar samsetningarpöntun til að uppfylla magn í sölulínu fyrir áskilda afhendingardagsetningu.  
 
-### <a name="assembling-items"></a>Samsetning á vörum  
+### <a name="assembling-items"></a>Samsetning á vörum
+
 Samsetningarpantanir virka á svipaðan hátt og framleiðslupantanir, nema að notkun og frálag eru skráð og bókuð beint úr pöntuninni. Þegar vörurnar eru settar saman í birgðir, hefur samsetningarstarfsmaðurinn fullan aðgang að öllum haus- og línureitum. Þegar vörurnar eru settar saman í pöntun þar sem magni og röðunardagsetningum er lofað til viðskiptavinar er ekki hægt að breyta ákveðnum reitum í samsetningarpöntuninni. Í því tilfelli er samsetning bókuð úr vöruhúsaafhendingu tengdrar sölupöntunar. Í þessum hluta er fjallað um eftirfarandi verkhluta.  
 
 -   Skráningu og bókun samsetningarnotkunar og -frálags í birgðir.  
 -   Farið í vöruhúsaafhendingarlínuna úr ATO-samsetningarpöntun til að skrá samsetningarvinnu.  
 -   Farið í ATO-samsetningarpöntun úr vöruhúsaafhendingarlínu til að endurskoða sjálfvirkt innfærð gögn.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Afhenda Samsetningarvörur úr Birgðir og Sett saman í pöntun  
+### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Afhenda Samsetningarvörur úr Birgðir og Sett saman í pöntun
+
 Sérstakar virkni er til staðar til að stýra sendingu af sameiningarpantanamagni. Í þessum hluta er fjallað um eftirfarandi verkhluta:  
 
 -   Stofnun vöruhúsatínslu fyrir samsetningarvörur í birgðum og fyrir samsetningaríhluti sem á að setja saman fyrir afhendingu.  
@@ -66,7 +72,8 @@ Sérstakar virkni er til staðar til að stýra sendingu af sameiningarpantanama
 -   Afhenda samsetningarpöntunarmagn.  
 -   Afhending birgðasamsetningarvörur.  
 
-## <a name="roles"></a>Hlutverk  
+## <a name="roles"></a>Hlutverk
+
 Þessi kynning sýnir þau verk sem framkvæmd eru með eftirfarandi hlutverkum notenda:  
 
 -   Sölupöntunarvinnsla  
@@ -75,7 +82,8 @@ Sérstakar virkni er til staðar til að stýra sendingu af sameiningarpantanama
 -   Tínslumaður  
 -   Afhending Ábyrgðaraðili  
 
-## <a name="prerequisites"></a>Frumskilyrði  
+## <a name="prerequisites"></a>Frumskilyrði
+
 Áður en hægt er að framkvæma verk hér í kynningunni þarf að gera eftirfarandi:  
 
 -   Setja upp [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -108,7 +116,8 @@ Fjarlægja skal sjálfgefinn afhendingartíma fyrir innri ferli á eftirfarandi 
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Ferill  
+## <a name="story"></a>Ferill
+
 Þann 23. janúar, tekur Súsanna, sem sér um úrvinnslu sölupantanna, við pöntun frá Verkstæðinu fyrir þrjár einingar af Setti B, sem er ATO-vara. Allar þrjár einingarnar eru sérsniðnar og verða að innihalda öflug skjákort og auka RAM-einingu. Diskadrifin eru uppfærð í DWD, vegna þess að CD drif eru ekki tiltæk. Súsanna veit að hægt er að setja einingarnar saman strax, þannig að hún lætur ráðlagða sendingardagsetningu vera 23. janúar  
 
 Á sama tíma pantar viðskiptamaðurinn fimmtán einingar af setti A með sérstakri beiðni um að fimm einingar verði sérstilltar þannig að þær innihaldi öflugt skjákort. Þótt sett A sé yfirleitt birgðasamsetningarvara, sameinar pantanavinnslan sölulínumagnið til að selja tíu einingar úr birgðum og sameina fimm sérsniðnar einingar svo hægt sé að vinna pöntunina. Tíu einingar af setti A eru ekki tiltækar og þurfa að berast í birgðir fyrst í gegnum samsetningarpöntun samkvæmt samsetningarstefnu vörunnar. Súsanna fær að vita frá samsetningardeild að ekki sé hægt að ljúka við einingar úr samstæðu A í núverandi viku. Hún stillir afhendingardagsetningu seinni sölupöntunarlínunnar, fyrir blandað ATO og birgðamagn, á 27. janúar og upplýsir viðskiptamann um að 15 einingar af setti A verði afhentar fjórum dögum síðar en einingarnar þrjár úr setti B. Til að gefa sendingardeild merki um að þessi sölupöntun krefjist samsetningar, stofnar Susan vöruhúsaafhendingarfylgiskjal úr sölupöntuninni.  
@@ -135,7 +144,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
 Þegar sölupöntunin er bókuð síðar sem fullkomlega reikningsfærð eru sölupöntunin og tengdu samsetningarpantanirnar fjarlægðar.  
 
-## <a name="prepare-sample-data"></a>Undirbúa sýnigögn  
+## <a name="prepare-sample-data"></a>Undirbúa sýnigögn
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðabækur vöruhúss** og velja síðan viðkomandi tengil.  
 2.  Velja reitinn **Heiti keyrslu** og velja síðan sjálfgefnu færslubókina.  
@@ -433,7 +442,10 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Þegar Tækjabúð greiðir fyrir móttöku á tölvunum 18 úr CRONUS, eru sölupantanirnar og tengdar samsetningarpantanir fjarlægðar.  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
+
  [Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Sameina vörur](assembly-how-to-assemble-items.md)   
  [Tína vörur fyrir vöruhúsaafhendingu](warehouse-how-to-pick-items-for-warehouse-shipment.md)   

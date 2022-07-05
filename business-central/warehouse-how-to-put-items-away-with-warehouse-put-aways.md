@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7cdd6e49f4d7cb4d63f70312a89266d020025b4f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 3e638e00fc648a720d09520fb62aa3ad25324673
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518522"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078273"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ganga frá vörum með vöruhúsafrágangi
+
 Þegar birgðageymslan er sett þannig upp að hún krefst vöruhúsafrágangs- og vöruhúsamóttökuvinnslu eru vöruhúsafrágangsskjöl aðgerðin notuð til að stjórna frágangi á vörum.  
 
 Þegar vöruhúsamóttaka er bókuð uppfærir kerfið upprunaskjölin, s.s. innkaup, millifærslu inn eða söluvöruskilapöntun, bókar móttekið magn á birgðahöfuðbók og sendir línurnar um vörurnar sem mótteknar voru í frágangsaðgerð vöruhússins. Ef innanhússfrágangur og tínsla er notuð getur innanhússfrágangurinn einnig stofnað línur fyrir frágang.  
@@ -25,7 +26,8 @@ ms.locfileid: "8518522"
 
 Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í þessu efnisatriði er hægt að hægt að stofna frágang úr tengdri bókaðri vöruhúsamóttöku. Þetta kemur að notum ef búið er að eyða frágangslínum, eða ef notuð hafa verið beinn frágangur og tínsla og ákvörðun hefur verið tekin um að nota ekki vinnublað frágangs, vegna þess að hægt að stofna eða endurstofna frágangsleiðbeiningar fyrir bókaðar móttökulínur.  
 
-## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Frágangur á vörum án beins frágangs og tínslu  
+## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Frágangur á vörum án beins frágangs og tínslu
+
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Frágangur** og velja síðan viðkomandi tengil.  
 2.  Opnar vöruhúsafrágang sem er tilbúin til meðhöndlunar.  
 
@@ -33,7 +35,8 @@ Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í 
 3.  Í hverri línu í reitnum **Magn til afgreiðslu** er ritað magnið sem ganga skal frá.  
 4.  Þegar lokið hefur verið við að ganga frá vörunum er smellt á **Skrá frágang** aðgerðina til að skrá það að aðgerðinni sé lokið og gera vörurnar tiltækar fyrir tínslu.  
 
-## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Frágangur á vörum með beinum frágangi og tínslu  
+## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Frágangur á vörum með beinum frágangi og tínslu
+
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Frágangur** og velja síðan viðkomandi tengil.
     Hafi frágangsleiðbeiningar verið stofnaðar sést frágangur í vöruhúsi.  
 2.  Opnar vöruhúsafrágang sem á að vinna með.  
@@ -59,7 +62,8 @@ Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í 
 
 Tekið er mið af hólfaflokkuninni þegar fleiri en eitt hólf uppfylla skilyrði frágangssniðmátsins. Ef bæði skilyrði frágangssniðmáts og hólfaflokkun eru þau sömu er valið hólf með hærra númeri.
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Til að búa til frágang úr bókaðri uppskrift  
+## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Til að búa til frágang úr bókaðri uppskrift
+
  Ef birgðageymsla notar bæði frágangsvinnslu og móttökuvinnslu og búið er að eyða frágangslínum, eða ef notuð hafa verið beinn frágangur og tínsla og ákvörðun hefur verið tekin um að nota ekki vinnublað frágangs, þá er hægt að stofna eða endurstofna frágangsleiðbeiningar fyrir bókaðar móttökulínur.
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókuð vöruhúsamóttaka** og velja síðan viðkomandi tengil.  
@@ -69,13 +73,16 @@ Tekið er mið af hólfaflokkuninni þegar fleiri en eitt hólf uppfylla skilyr�
     Ef reiturinn **Staða fylgiskjals** er auður hefur alls ekki verið gengið frá móttökunni. Annars sýnir reiturinn að móttaka hafi verið frágengin að hluta eða öllu leyti.  
 
 4.  Ef gengið hefur verið frá móttökunni að hluta eða alls ekki er smellt á aðgerðina **stofna frágang**.  
-5.  Beiðnisíða keyrslunnar er fyllt út til að stofna fráganginn eins og best þykir og síðan er **Í lagi** hnappurinn valinn.   
+5.  Beiðnisíða keyrslunnar er fyllt út til að stofna fráganginn eins og best þykir og síðan er **Í lagi** hnappurinn valinn.  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/receive-put-away-items/)
+
+## <a name="see-also"></a>Sjá einnig .
+
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
-[Samsetningardeild](assembly-assemble-items.md)    
+[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
+[Samsetningardeild](assembly-assemble-items.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

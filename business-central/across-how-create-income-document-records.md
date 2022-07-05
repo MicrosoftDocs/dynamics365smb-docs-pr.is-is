@@ -1,32 +1,32 @@
 ---
 title: Stofna færslur skjala á innleið
 description: Notaðu aðrar aðgerðir á síðu skjala á innleið til að fara yfir kvittanir vegna kostnaðar, hafa umsjón með OCR-verkum, umbreyta skrám skjala á innleið og hengja ytri skrár við.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/11/2021
+ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 4244801207874f1629d59d4b3a66de98fb9d2bed
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9c8bf606d7f4e421bd2819d804b6b5aac780b652
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522407"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079403"
 ---
 # <a name="create-incoming-document-records"></a>Stofna færslur skjala á innleið
+
 Á síðunni **Skjöl á innleið** er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur í. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til.
 
-Til að skrá ytra skjal í [!INCLUDE[prod_short](includes/prod_short.md)] verður fyrst að stofna eða ljúka við færslu fyrir skjal á innleið. Þú getur gert þetta með handvirkt, eða þú getur tekið mynd af ytra skjal og síðan að búa til skjal á innleið með myndaskrá í viðhengi.
+Ef skrá á utanaðkomandi skjal í [!INCLUDE[prod_short](includes/prod_short.md)] er fyrst að stofna eða ljúka færslu á innleið. Hægt er að gera verkin handvirkt eða taka ljósmynd af ytra skjalinu til að stofna komandi skjalaskrá með myndskrá sem viðhengi.
 
-Áður en hægt er að nota valkostinn Skjöl á innleið þarf að framkvæma áskilda uppsetningu. Frekari upplýsingar eru í [Setja upp skjöl á innleið](across-how-setup-income-documents.md).
+Áður en hægt er að nota **aðgerðina utanaðkomandi skjöl** þarf að framkvæma uppsetninguna sem þarf. Frekari upplýsingar eru í [Setja upp skjöl á innleið](across-how-setup-income-documents.md).
 
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Til að samþykkja eða hafna fylgiskjali á innleið
-Ef notendur eiga að geta stofnað reikninga eða færslubókarlínur úr færslum skjala á innleið nema skjöl séu fyrst samþykkt er hægt að setja upp samþykkjendur sem verða að samþykkja færslur áður en þær má vinna.
+
+Hafi skjölin **um** innleið verið sett upp til að þurfa samþykki til að stofna skjöl verða notendur með viðeigandi réttindi að samþykkja færslurnar áður en þær eru unnar. Frekari upplýsingar er að finna [í því að setja upp samþykkjendur um færslur utanaðkomandi skjals](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Skjöl á innleið** og velja síðan viðkomandi tengil.
 2. Valin er línan með skjalinu sem á að samþykkja eða hafna og síðan valið á **Samþykkja** eða **Hafna** aðgerðir.
@@ -34,41 +34,49 @@ Ef notendur eiga að geta stofnað reikninga eða færslubókarlínur úr færsl
 Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu skjal á innleið valinn. Notandi sem stjórnar t.d. stofnun innkaupareikninga getur haldið áfram að vinna úr færslunni.
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Til að stofna færslur skjala á innleið með því að taka mynd
+
 > [!NOTE]  
->   Eftirfarandi ferli á aðeins við um [!INCLUDE[prod_short](includes/prod_short.md)] biðlara spjaldtölva og síma.
+> Eftirfarandi ferli á aðeins við um [!INCLUDE[prod_short](includes/prod_short.md)] töflu-og símabiðlarar.
 
-1. Á forritastikunni skal velja **Stofna skjal á innleið úr myndavél** reitinn og fara svo í skref 4..
-2. Að öðrum kosti skal á forritastikunni velja valkostahnappinn, velja **Skjöl á innleið** og velja svo **Öll**.
-3. Á síðunni **Skjöl á innleið** skal velja úrfellingarmerkishnappinn og svo **Stofna úr myndavél**. Kveikt er á myndavél spjaldtölvu eða síma.
-4. Takið mynd af skjali, t.d. innkaupakvittun, sem á að vinna sem skjal á innleið, og veljið svo hnappur **Í lagi**.
+1. Í hlutverkamiðstöðinni er valið **Búa til Viðtökuskjal úr myndavélakerfi** og síðan er farið í skref 4.
+2. Að öðrum kosti skaltu velja þá ![ljósaperu sem opnar aðgerðina segja mér upp.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Skjöl á innleið** og velja síðan viðkomandi tengil.
+3. **Á síðunni utanaðkomandi skjöl** skal velja **nýtt** og velja **síðan búa til úr myndavél**. Kveikt er á myndavél spjaldtölvu eða síma.
+4. Taka ljósmynd af skjali, til dæmis innkaupamóttöku, sem á að vinna sem skjal sem þegar er til, og velja **þannig hnappinn nota**.
 
-    Ný færsla skjals á innleið er stofnað með mynd í viðhengi.
+    Ný innsend skjalaskrá er búin til með mynd sem fylgir.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Til að hengja mynd við skjal á innleið færsla með því að taka mynd
-> [!NOTE]  
->   Eftirfarandi ferli á aðeins við um [!INCLUDE[prod_short](includes/prod_short.md)] biðlara spjaldtölva og síma.
 
-1. Á forritastikunni velja valkostahnappinn, velja **Skjöl á innleið** og velja svo **Öll**.
+> [!NOTE]  
+> Eftirfarandi ferli á aðeins við um [!INCLUDE[prod_short](includes/prod_short.md)] töflu-og símabiðlarar.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Skjöl á innleið** og velja síðan viðkomandi tengil.
 2. Opnið kort fyrir fyrirliggjandi færsla skjal á innleið.
-3. Á síðunni **Skjal á innleið** skal velja úrfellingarmerkishnappinn og svo **Hengja við mynd úr myndavél**. Kveikt er á myndavél spjaldtölvu eða síma.
-4. Takið mynd af skjali, t.d. innkaupakvittun, sem á að vinna sem skjal á innleið, og veljið svo hnappur **Í lagi**.
+3. Á færslusíðu skjals er valið **ferli** og síðan valið **hengja upp mynd úr myndavél**. Kveikt er á myndavél spjaldtölvu eða síma.
+4. Taka ljósmynd af skjali, til dæmis innkaupamóttöku, sem á að vinna sem skjal sem þegar er til, og velja **þannig hnappinn nota**.
 
     Myndin er hengja við færsla skjal á innleið.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Tila ð búa til færslu skjals á innleið handvirkt
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Skjöl á innleið** og velja síðan viðkomandi tengil.
-2. Aðgerðin **Stofna úr Skrá** er valin.  
+2. Velja **skal nýtt** og síðan **aðgerðina stofna úr skrá**.  
 3. Á síðunni **Setja inn skrá** skal velja skrá og svo **Opna**. Skráin er hengd við sjálfkrafa.
 4. Einnig er hægt að velja aðgerðina **Nýtt**.
-5. Ef tengja á skrá, skal velja **Tengja Skrá** aðgerð.
+5. Til að tengja skrá er hægt að velja **ferli og síðan** tengja **skráraðgerðina**.
 6. Á síðunni **Setja inn skrá** skal velja skrána sem táknar skjalið á innleið og svo hnappinn **Opna**.
 7. Á síðunni **Skjal á innleið** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Sjá einnig
-[Vinnsla skjala á innleið](across-process-income-documents.md)  
-[Skjöl á innleið](across-income-documents.md)  
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
+
+[Nota OCR til að kveikja PDF-og myndskrár í rafrænum skjölum](across-how-use-ocr-pdf-images-files.md)
+[Stofnið skjalaskrár sem berast beint úr skjölum og færslum](across-how-connect-disconnect-income-document-records.md)
+[til að finna bókuð skjöl án þess að skjalaskjöl](across-how-find-posted-documents-without-income-document-records.md)
+[séu móttekin á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

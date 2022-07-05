@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8999ad14b3937ddcbc0f0935338173a35f698b30
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0c6579f302bfcd5aa8b210eaa5f717c1712a4bd8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136796"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076280"
 ---
 # <a name="cloud-migration-base-extension"></a>Grunnviðbót skýjaflutnings
 
@@ -23,7 +23,9 @@ ms.locfileid: "8136796"
 
 Þegar tengingin er skilgreind er hægt að flytja gögn úr innanhússlausn í [!INCLUDE[prod_short](includes/prod_short.md)] Online. Þessi viðbót mun virka í tengslum við viðbót fyrir eftirlíkingu gagna sem er tiltæk fyrir tiltekna lausn þína á staðnum. Frekari upplýsingar eru í [Keyra verkfæri skýjaflutnings](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/connect-intelligent-cloud-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Keyra verkfæri skýjaflutnings](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Snjallskýsviðbætur fyrir flutningi í skýi](ui-extensions-data-replication.md)  

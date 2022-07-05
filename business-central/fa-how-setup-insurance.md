@@ -10,29 +10,33 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1378a3090db4bfaa958a371c31416c98f887e73e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e5d22e409ec2b9dcd24b210d92a7c87df8df5380
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511028"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075578"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Uppsetning vátryggingar eignar.
+
 Til að stjórna vátryggingasviði eigna, þarf fyrst að setja upp nokkrar almennar vátryggingaupplýsingar og vátryggingarspjald á hvert tryggingaskírteini.
 
 ## <a name="to-set-up-general-insurance-information"></a>Uppsetning almennra vátryggingaupplýsinga
+
 Til að nota tryggingaraðgerðirnar í [!INCLUDE[prod_short](includes/prod_short.md)] verður þú að setja upp almennar tryggingarupplýsingar.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning eigna** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>Uppsetning vátryggingategunda
+
 Hægt er að flokka vátryggingar, til dæmis í tryggingar vegna þjófnaðar eða brunatryggingu. Vátryggingategundirnar eru notaðar á vátryggingaspjaldinu.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tryggingargerðir** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum.
 
 ## <a name="to-set-up-insurance-cards"></a>Uppsetning vátryggingaspjalda
+
 Hægt er að safna saman upplýsingum um hverja vátryggingu á vátryggingaspjaldinu.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Trygging** og velja síðan viðkomandi tengil.  
@@ -40,12 +44,14 @@ Hægt er að safna saman upplýsingum um hverja vátryggingu á vátryggingaspja
 3. Fyllið inn reitina eftir þörfum.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Uppsetning vátryggingabókasniðmáta
+
 [!INCLUDE[prod_short](includes/prod_short.md)] skapar sjálfkrafa vátryggingarsniðmát í fyrsta skipti sem þú opnar síðuna **Vátryggingabók**, en þú getur sett upp viðbótarsniðmát færslubókar. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sniðmát vátryggingabóka** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>Uppsetning vátryggingabókakeyrslna
+
 Hægt er að setja upp keyrslur í sniðmáti vátryggingabókar. Gildin í keyrslunni eru notuð sem sjálfgildi ef reitirnir í færslubókarlínunum hafa ekki verið fylltir út. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sniðmát vátryggingabóka** og velja síðan viðkomandi tengil.  
@@ -55,7 +61,10 @@ Hægt er að setja upp keyrslur í sniðmáti vátryggingabókar. Gildin í keyr
 > [!NOTE]  
 >   Tölur hafa sérstaka þýðingu í færslubókarheitum. Ef tala er í heiti færslubókarsniðmáts, hækkar hún sjálfkrafa um einn í hvert sinn sem færslubókin er bókuð. Ef til dæmis HH1 er fært inn í reitinn **Heiti**, mun færslubókarheitið breytast í HH2 eftir bókun.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+
+## <a name="see-also"></a>Sjá einnig .
+
 [Uppsetning eigna](fa-setup.md)  
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: 609678742ccf9593407e96ea412a377f37c8abf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c0800642804b8e8c9e1dc629224bfac77b174500
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524214"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075734"
 ---
 # <a name="working-with-excel-layouts"></a>Unnið með Excel-skipulag
 
@@ -38,7 +38,7 @@ Hér eru nokkur meiri ávinningur af notkun Excel-uppsetningar:
   - [Spár og greining](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
 - Nota uppsetta samþættingu viðbætur og forrita eins Power Automate og flæðisl OneDrive.
 
-## <a name="get-started"></a>Hefjast handa
+## <a name="get-started"></a>Hafist handa
 
 Það eru í rauninni tvö verkefni sem taka þátt í uppsetningu Excel-útlits á skýrslu:
 
@@ -121,7 +121,7 @@ Nokkrar sértækar kröfur eru gerðar við uppbyggingu Excel-vinnubókar. Ef kr
 
 [![Sýnir mismunandi einingar Excel-útlits.](media/excel-layout-callouts-2.png)](media/excel-layout-callouts-2.png#lightbox)
 
-|Fj.|Eining|Description|Skylt|
+|Nr.|Atriði|Lýsing|Áskilið|
 |---|-------|----|---|
 |1|**Gagnablað**|<ul><li>Verður að hafa **nafngögn**</li><li>Getur aðeins innihaldið eina töflu og töfluna verður að nefna **gögn**</li></ul>|![Er skylda](media/check.png) | 
 |2|**Gagnatöflu**|<ul><li>Verður að hafa **nafngögn**</li><li>Verður að vera a.m.k. einn dálkur.</li><li>Getur aðeins innihaldið dálka sem eru í skýrslunni DataSet.</li><li>Verður að byrja í fyrstu frumu **a1** á **gagnablaðinu**</li></ul>|![Er skylda](media/check.png)|
@@ -143,10 +143,10 @@ Til að draga saman það sem hægt er og má ekki gera á **gagnablaðinu**:
 [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md)  
 [Flytja inn og út sérsniðið skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)  
 [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
-[Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md) 
-[Business Intelligence](bi.md)  
+[Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)  
+[Viðskiptaupplýsingar](bi.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Greining á skýrslugögnum með Excel](report-analyze-excel.md).
+[Greining á skýrslugögnum með Excel](report-analyze-excel.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

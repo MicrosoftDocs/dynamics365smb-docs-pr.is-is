@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4391b73a6e7f26262349abaeff751dd8f0f6c4e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515668"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076566"
 ---
 # <a name="set-up-posting-groups"></a>Setja upp bókunarflokka
 
@@ -35,29 +35,30 @@ Bókunarflokkar falla undir þrjú atriði:
 
 Í eftirfarandi köflum er lýst bókunarflokkum undir hverju Umbrella.  
 
-## <a name="general-posting-groups"></a>Almennir Bókunarflokkar
+## <a name="general-posting-groups"></a>Almennir bókunarflokkar
 
 Eftirfarandi tafla lýsir almennum bókunarflokkum.
 
-| Tegund | Description |
+| Gerð | Lýsing |
 | --- | --- |
 | Almennir viðskiptabókunarflokkar |Úthlutaðu þessum hópi á viðskiptavini og lánardrottna til að tilgreina hverjum þú selur og hverjum þú kaupir frá. Setjið upp þessa bókunarflokka á **síðunni Alm. viðskiptabókunarflokkar**. Þegar þú gerir það skaltu hugsa um hversu marga hópa þú þarft fyrir niðurbrog á sölu og kaupum. Til dæmis geturðu flokkað viðskiptavini og lánardrottna eftir svæði, eða eftir tegund viðskipta. |
 | Almennir vörubókunarflokkar |Úthlutaðu þessum hópi á hluti og tilföng til að tilgreina hvað þú selur og hvað þú kaupir. Setjið upp þessa bókunarflokka á **síðunni Alm. vörubókunarflokkar**. Þegar þú gerir það skaltu hugsa um fjölda hópa sem þú þarft til að brjóta niður sölu eftir vöru (atriði og foprði) og kaup eftir vörum. Til dæmis, skaltu skipta þessum hópum eftir hráefnum, smásölu, tilföngum, getu og svo framvegis. |
 | Uppsetning almenns bókunargrunns |Sameina viðskipti og vörubókunarflokka, og veldu lyklana til að bóka á. Fyrir hverja samsetningu viðskipta- og vöruskiptahópa er hægt að tengja saman fjölda aðalbókarreikninga. Til dæmis er hægt að bóka sölu á sömu vöru á mismunandi fjárhagslykla þar sem viðskiptavinum er úthlutað á ólíka viðskiptabókunarflokka. Stillið þessi afbrigði upp á **síðunni Almenn bókunaruppsetning**. |
 
-## <a name="specific-posting-groups"></a>Ákveðnir Bókunarflokkar
+## <a name="specific-posting-groups"></a>Sértækir bókunarflokkar
 
 Eftirfarandi tafla lýsir bókunarflokkana sem eru sérstaklega gerðir af gögnum.
 
-|Tegund | Description |
+|Gerð | Lýsing |
 | --- | --- |
-| Bókunarflokkar viðskm. |Skilgreindu lyklana sem þú vilt nota þegar þú sendir inn færslur viðskiptakrafa. Ef birgðir eru notaðar með útistandandi reikningum sem eru bókaðir á sölupöntunarlínurnar sem eru ákvarðaðar af almennum viðskiptabókunarflokki sem er tengdur viðskiptamanni og almennum vörubókunarflokki sem birgðavara úthlutar vörunni. Sjá *almenna viðskiptabókunarflokka* og *almenna vörubókunarflokka* í [kaflanum Almennir Bókunarflokkar](#general-posting-groups). Setjið upp þessa bókunarflokka á **síðunni viðsk. bókunarflokkar**. |
-| Bókunarflokkar lánardrottna |Tilgreindu hvar á að bóka færslur fyrir viðskiptaskuldir, þjónustureikninga og greiðsluafsláttarreikninga. Þetta er svipað og bókunarflokkur viðskiptamanns. Setjið upp þessa bókunarflokka á **síðunni lánardr. bókunarflokkar**. |
-| Birgðabókunarflokkar |Skilgreindu birgðabókunarflokka sem þú úthlutar síðan á viðeigandi vörureikninga á síðunni **Uppsetning birgðabókunar**. Síðan þegar bókaðar eru færslur sem tengjast vöru þá bókar kerfið í fjárhagsreikninginn sem settur var upp fyrir þá samsetningu birgðabókunarflokks og birgðageymslu sem tengist vörunni. Birgðabókunarflokkar bjóða einnig upp á góða leið til að skipuleggja birgðir þínar, þannig að þú getur aðskilið hluti eftir bókunarflokkum þegar þú býrð til skýrslur. Setjið upp þessa bókunarflokka á **síðunni Birgðabókunarflokkar**. |
+| Bókunarflokkur viðskm. |Skilgreindu lyklana sem þú vilt nota þegar þú sendir inn færslur viðskiptakrafa. Ef birgðir eru notaðar með útistandandi reikningum sem eru bókaðir á sölupöntunarlínurnar sem eru ákvarðaðar af almennum viðskiptabókunarflokki sem er tengdur viðskiptamanni og almennum vörubókunarflokki sem birgðavara úthlutar vörunni. Sjá *almenna viðskiptabókunarflokka* og *almenna vörubókunarflokka* í [kaflanum Almennir Bókunarflokkar](#general-posting-groups). Setjið upp þessa bókunarflokka á **síðunni viðsk. bókunarflokkar**. |
+| Bókunarflokkur lánardr. |Tilgreindu hvar á að bóka færslur fyrir viðskiptaskuldir, þjónustureikninga og greiðsluafsláttarreikninga. Þetta er svipað og bókunarflokkur viðskiptamanns. Setjið upp þessa bókunarflokka á **síðunni lánardr. bókunarflokkar**. |
+| Birgðabókunarflokkur |Skilgreindu birgðabókunarflokka sem þú úthlutar síðan á viðeigandi vörureikninga á síðunni **Uppsetning birgðabókunar**. Síðan þegar bókaðar eru færslur sem tengjast vöru þá bókar kerfið í fjárhagsreikninginn sem settur var upp fyrir þá samsetningu birgðabókunarflokks og birgðageymslu sem tengist vörunni. Birgðabókunarflokkar bjóða einnig upp á góða leið til að skipuleggja birgðir þínar, þannig að þú getur aðskilið hluti eftir bókunarflokkum þegar þú býrð til skýrslur. Setjið upp þessa bókunarflokka á **síðunni Birgðabókunarflokkar**. |
 | Bókunarflokkar bankareikninga |Skilgreinið fjárhagsreikningana sem bankareikningsfærslurnar eru bókaðar á. Til dæmis getur þetta einfalt ferlið við að rekja færslr og samræma bankareikninga. Setjið upp þessa bókunarflokka á **síðu bankareiknings bókunarflokka**. Mælt er **með að þessir fjárhagsreikningar hafi reitinn bein bókun** stillt á *Nr*. |
 | Bókunarflokkur eigna |Skilgreina reikninga fyrir mismunandi gerðir útgjalda og kostnað, svo sem kaupkostnað, uppsafnaðan afskriftir, kaupkostnað við ráðstöfun, uppsafnað afskriftir við förgun, hagnað af sölu, tapi á förgun, viðhaldskostnaði og afskriftargjöldum. Setjið upp þessa bókunarflokka á **síðunni Eignabókunarflokkar**. |
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Staðgengdarflokkum viðskiptamanna-eða lánardrottna skipt í skjöl
+
 Hægt er að láta fólk velja aðra bókunarflokka viðskiptavina en sjálfgildi þegar þeir eru að vinna með sölu-eða innkaupaskjöl og færslubækur.
 
 Ef leyfa á breytingum á bókunarflokkum viðskiptamanna skal velja **Leyfa breytta bókunarflokka** á **uppsetningarsíðum sölu &** og **þjónustukerfisgrunni** og **uppsetningarsíðu innkaupa &** lánardrottna fyrir breytingar á bókunarflokki lánardrottins.
@@ -72,7 +73,7 @@ Eftir að þetta hefur verið sett upp er hægt að velja um leyfilega bókunarf
 
 Eftirfarandi tafla lýsir skatttengdum bókunarflokkum.
 
-| Tegund | Description |
+| Gerð | Lýsing |
 | --- | --- |
 | Skattaviðskiptabókunarflokkar |Ákveða hvernig á að reikna og bóka söluskatti fyrir viðskiptavini og lánardrottna. Setjið upp þessa bókunarflokka á **síðunni VSK viðskiptabókunarflokkar**. Þegar þú gerir það skaltu athuga hversu marga hópa þú þarft. Það gæti til dæmis farið eftir þáttum eins og staðbundinni löggjöf og hvort þú átt viðskipti bæði innanlands og alþjóðlega. |
 | Skattavörubókunarflokkar |Tilgreindu skattaútreikninga sem þarf til að fá þær tegundir af forða sem þú kaupir eða selur. |
@@ -129,10 +130,13 @@ Bókunarflokkar eru með ítarlegustu hlutunum til að setja upp í [!INCLUDE[pr
 > [!NOTE]
 > Villumeðhöndlunin sem lýst er hér að ofan er ekki í boði fyrir vöru, tilfang, starfsmann og færslubók eigna eða fyrir fjárhagslykla sem bætt er við í staðbundnum útgáfum bókunarflokka.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Sjá einnig .
+
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1447627f14d08e1e432d613298f4b29592864d4d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520891"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078935"
 ---
 # <a name="set-up-resources-for-projects"></a>Setja upp tilföng fyrir verk
 
@@ -32,6 +32,7 @@ Sjálfgefna upphæð á klukkustund þarf að tilgreina þegar forðinn er stofn
 > Ef verið er að bóka samstæðufærslur þótt hægt sé að forða línu í sölupöntun er sölupöntuninni umbreytt í innkaupapöntun sem tengist tilfang. Ef nota á tilföng í MF-færslum er notuð **MF-innk. Nr.** Fjárhagsreikn. á forðaspjaldinu til að tilgreina lykilinn sem á að bóka útgjaldakað.
 
 ## <a name="to-set-up-a-resource"></a>að setja upp forða
+
 Stofna skal spjald fyrir hvern forða sem á að nota í verkefnum.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tilföng** og velja síðan viðkomandi tengil.
@@ -39,6 +40,7 @@ Stofna skal spjald fyrir hvern forða sem á að nota í verkefnum.
 3. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Að setja upp forðaflokk
+
 Hægt er að flokka forða saman í einn forðaflokk. Geta og áætlanir forðaflokka eru samsafn einstakra forða. Einnig er hægt að tilgreina getu forðaflokka, annaðhvort óháð samanlögðu verðmæti eða til viðbótar við það.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tilfangaflokkar** og velja síðan viðkomandi tengil.
@@ -46,6 +48,7 @@ Hægt er að flokka forða saman í einn forðaflokk. Geta og áætlanir forðaf
 3. Fyllið inn í svæðin eftir þörfum.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Að setja upp afkastagetu fyrir forða
+
 Til að reikna út hve lengi forði getur tengst verki verður fyrst að setja afkastagetuna upp sem tiltækan tíma á tímabilinu á verkdagatalinu. Þessi uppsetning er notuð þegar verkáætlunarlínur sem innihalda forðann eru fylltar út. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tilföng** og velja síðan viðkomandi tengil.
@@ -58,6 +61,7 @@ Til að reikna út hve lengi forði getur tengst verki verður fyrst að setja a
 8. Lokaðu síðunni.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Til að setja upp annan forðakostnað
+
 Auk kostnaðarins sem tilgreindur er á forðaspjaldinu er hægt að setja upp annan kostnað fyrir hvern forða. Ef til dæmis er greitt hærra tímakaup vegna yfirvinnu starfsmanna er hægt að setja upp forðakostnað fyrir yfirvinnu. Þessi annar kostnaður sem settur er upp fyrir forða kemur í stað kostnaðarins á forðaspjaldinu þegar forðinn er notaður í forðabókinni.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tilföng** og velja síðan viðkomandi tengil.  
@@ -68,6 +72,7 @@ Auk kostnaðarins sem tilgreindur er á forðaspjaldinu er hægt að setja upp a
 **Athugasemd** Til að setja upp forðakostnað fyrir allan forðann og alla forðaflokka er síðan **Forðakostnaður** opnuð og reitirnir síðan fylltir út.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Til að setja upp annað forðaverð
+
 Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað verð fyrir hvern forða. Þetta annað verð getur verið háð skilyrðum. Það getur verið háð því hvort forðinn sé notaður í tilteknu verki eða verktegund.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tilföng** og velja síðan viðkomandi tengil.
@@ -75,12 +80,15 @@ Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað 
 3. Á síðunni **Forðaverð** skal fylla út reitina í línu eins og þörf krefur.
 4. Endurtaka skal skref 3 fyrir hvert annað verð sem setja skal upp.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
+## <a name="see-also"></a>Sjá einnig .
+
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  
-[Innkaup](purchasing-manage-purchasing.md)         
-[Sala](sales-manage-sales.md)      
+[Innkaup](purchasing-manage-purchasing.md)  
+[Sala](sales-manage-sales.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

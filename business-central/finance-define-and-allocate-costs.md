@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149128"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075552"
 ---
 # <a name="defining-and-allocating-costs"></a>Skilgreina og úthluta kostnaði
 
@@ -60,7 +60,7 @@ Hver úthlutun samanstendur af úthlutunaruppruna og einu eða fleiri úthlutuna
 
 Kvika úthlutunaraðferðin byggist á breytanlegum gildum. Til dæmis fjöldi starfsmenn í kostnaðarstöð eða seldar vörur af kostnaðarhlut á tilteknu tímabili. Níu forskilgreindir úthlutunargrunnar og tólf kvik dagsetningarsvið eru í boði. Mismunandi afmarkanir eru settar á grundvelli úthlutunargrunns.  
 
-### <a name="setting-filters"></a>Afmarkanir settar
+### <a name="setting-filters"></a>Afmarkanir stilltar
 
 Eftirfarandi tafla sýnir hvaða afmarkanir eru mögulegar fyrir mismunandi úthlutunargrunna og hvaða gildi eru leyfileg í reitunum **Nr. afmörkunar** og **Afmörkun hóps**. Ýtið á F1 í reitnum **Kóði gagnaafmörkunar** til að sjá nákvæmari lýsingu.  
 
@@ -143,12 +143,14 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] notar sölutölur fyrri ára til að reikna hlut 1596.50 SGM með 100 prósentum fyrir pakka IT EQUIPMENT. Þetta merkir að öllum seldum vörum síðasta árs verður úthlutað á kostnaðarhlutinn IT EQUIPMENT.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
 
- [Uppsetning kostnaðarbókhalds](finance-set-up-cost-accounting.md)   
- [Flytja og bóka kostnaðarfærslur](finance-transfer-and-post-cost-entries.md)   
- [Kostnaðarreikningur](finance-manage-cost-accounting.md)   
- [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)   
+## <a name="see-also"></a>Sjá einnig .
+
+ [Uppsetning kostnaðarbókhalds](finance-set-up-cost-accounting.md)  
+ [Flytja og bóka kostnaðarfærslur](finance-transfer-and-post-cost-entries.md)  
+ [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
+ [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)  
  [Um kostnaðarbókhald](finance-about-cost-accounting.md)
 
 

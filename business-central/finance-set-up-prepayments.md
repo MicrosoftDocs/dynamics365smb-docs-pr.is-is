@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: cf7f84b8ba0c7622f08856b677e3559cc669e7ed
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799613"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078675"
 ---
 # <a name="set-up-prepayments"></a>Uppsetning fyrirframgreiðslu
 
@@ -106,7 +106,9 @@ Hægt er að spara tíma með því að setja upp verkraðarafærslu sem mun sj�
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkraðarfærslur** og velja síðan viðkomandi tengil.
 4. Uppsetning á **UPD. Fyrirframreikningur biðlauna Færsla í vinnslubiðröð sölu**, til dæmis, með því að nota stillingarnar á **endurtekningarflipanum** til að áætla hversu oft á að keyra hana. Frekari upplýsing er [í nota Starfaraðir til að áætla verk](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .  
 
 [Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)  
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 04ef2fdd1020444711257230688fea927332ed83
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 1cfb8fcb086b258ece6de68850b627c19f3bfbcd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626266"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075838"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Skrá neyslu eða notkun fyrir verk
 
@@ -99,7 +99,10 @@ Hægt er að nota aðgerðirnar undir eftirfarandi skilyrðum:
 2. Veljið viðeigandi verkbók og veljið svo aðgerðina **Færslur**.  
 3. Á síðunni **Verkfærslur** er aðgerðin **Sýna áætlunarlínur verks** valin.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+
+## <a name="see-also"></a>Sjá einnig .
+
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)         

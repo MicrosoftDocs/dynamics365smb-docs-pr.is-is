@@ -7,19 +7,19 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 56c564274e396d9699286b18d882c2a21f8721ef
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 88f445116f1b9897cabc2cc3756f6c6f414288c3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510688"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079013"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online sérstillt með viðbótum
 
 Þú getur breytt [!INCLUDE[prod_short](includes/prod_short.md)] Online með því að setja viðbætur sem bæta við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis.
 
 > [!NOTE]
-> Til að setja upp eða fjarlægja viðbætur frá AppSource eða bæta við viðbótum fyrir hvern leigjanda fyrir sig eru réttar heimildir nauðsynlegar. Þú verður annaðhvort að vera meðlimur **í D365 Extension Mgt.** notendaflokki eða þú verður að hafa **exten. MGT.-STJÓRNENDALEYFI** sett skýrt. Ef þú ert stjórnandi geturðu úthlutað notendaflokkum og heimildum til annarra notenda fyrirtækisins. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)  
+> Til að setja upp eða fjarlægja viðbætur frá AppSource eða bæta við viðbótum fyrir hvern leigjanda fyrir sig eru réttar heimildir nauðsynlegar. Annaðhvort þarf að vera meðlimur **í D365 Extension Mgt.** Notendaflokkur eða þá verður að hafa **exten.-admin** heimild sett skýrt fram. Ef þú ert stjórnandi geturðu úthlutað notendaflokkum og heimildum til annarra notenda fyrirtækisins. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)  
 >
 > Til að nota virkni sem viðbót býður upp á, t.d. opna síður, keyra skýrslur, velja aðgerðir o.s.frv., verður þú að hafa fengið heimildasamstæðunum úthlutað sem settar eru upp sem hluti viðbótarinnar.
 
@@ -83,7 +83,9 @@ Samstarfsaðilar og endursöluaðilar Microsoft geta búið til viðbætur sem �
 > [!NOTE]
 > Ef þú ert samstarfsaðili Microsoft eða endursöluaðili og hefur áhuga á að bjóða upp á lista yfir forrit sem mælt er með skaltu skoða [Mæla með forritum úr AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp og fjarlægja viðauka](ui-extensions-install-uninstall.md)  
 [Sérstilla Business Central](ui-customizing-overview.md)  

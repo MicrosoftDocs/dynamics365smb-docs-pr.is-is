@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5774, 5776, 5777, 5785, 5793, 5797, 7318, 7364, 7401, 8909, 9000, 9008, 9009, 9050, 9053, 9056
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d8cc547aa5187c270228a1e2dcd562eeb7f1cbb3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 95e0655f863ea5559cad92f7bc0d89fc47a1b1c4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511971"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074329"
 ---
 # <a name="warehouse-management"></a>Vöruhúsastjórnun
 
@@ -39,12 +39,14 @@ Birgðatengd verk talningar, leiðréttingar og endurflokkunar á vörum kann a�
 |Tína til vörur fyrir afhendingu, flutning eða til notkunar í framleiðslu eða samsetningu, samkvæmt tilgreindu aðgerðaflæði vöruhúss.|[Tína vörur](warehouse-pick-items.md)|
 |Skrá afhendingu vara frá vöruhúsabirgðageymslum, annað hvort með sölupöntun eingöngu, í einfaldri birgðageymsluuppsetningu, eða með vöruhúsaafhendingu, ef skyldi vera sjálfvirkt vöruhúsaferli, að hluta eða í heild, í birgðageymslunni.|[Senda vörur](warehouse-how-ship-items.md)|  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
-[Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md) 
-[samsetningarstýring](assembly-assemble-items.md)
-[hönnunar upplýsingar: vöruhúsastjórnun](design-details-warehouse-management.md)  
+[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
+[Samsetningardeild](assembly-assemble-items.md)  
+[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

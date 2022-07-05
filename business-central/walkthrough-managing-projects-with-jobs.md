@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513420"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076748"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Kynning: Stýring verkefna með verkum
 
@@ -24,54 +24,63 @@ ms.locfileid: "8513420"
 
  Kynningin nær til uppsetningar nýs verks og einnig til nokkurra algengari verkefna eins og að meðhöndlun á föstu verði, framkvæmd greiðslu með inngreiðslu, bókun sölureikninga vinnu og afritun.  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna  
+## <a name="about-this-walkthrough"></a>Um kynninguna
+
  Þessi kynning fjallar um eftirfarandi verk:  
 
-### <a name="setting-up-a-job"></a>Uppsetning vinnu  
+### <a name="setting-up-a-job"></a>Uppsetning vinnu
+
  Það er mjög einfalt að stofna verk með uppsetningu skipulagningar áætlunar fyrir verk. Þessi kynning fer yfir eftirfarandi atriði:  
 
 - Hvernig setja skal upp verkhlutalínur og áætlunarlínur.  
 - Stofna tiltekið verð fyrir vörur, forða og fjárhagsreikninga.  
 - Reikningsfærslu fyrir verk.  
 
-### <a name="handling-fixed-prices"></a>Unnið með fast verð  
+### <a name="handling-fixed-prices"></a>Unnið með fast verð
+
  Í verkum má meðhöndla fast verð og verð fyrir þjónustu eða vörur sem er fyrirfram samþykkt við viðskiptavini. Í þessari kynningu er hægt að gera eftirfarandi:  
 
 - Sjá hvernig samningsbundnar - og reikningsupphæðir eru ákveðnar.  
 - Gera ráð fyrir viðbótarvinnu í áætluninni sem hefur ekki verið reikningsfærð.  
 
-### <a name="copying-a-job"></a>Afritun verks  
+### <a name="copying-a-job"></a>Afritun verks
+
  Þetta dæmi sýnir hvernig á að afrita hluta eða allt verk pöntunar til að draga úr handvirkum innslætti gagna og auka á nákvæmni. Þar á meðal eftirfarandi:  
 
 - Afritun hluta af verki í nýtt verk.  
 - Afritun verðs fyrir sérstakt verk.  
 - Afritun áætlunarlína.  
 
-### <a name="making-payment-by-installment"></a>Framkvæma greiðslu með inngreiðslu  
+### <a name="making-payment-by-installment"></a>Framkvæma greiðslu með inngreiðslu
+
  Þegar stór kostnaðarsöm verk vara í langan tíma, gerir viðskiptavinurinn oft samkomulag við fyrirtækið um að greiða með inngreiðslum. Þetta dæmi sýnir hvernig greiðslur með inngreiðslum eru meðhöndlaðar og tekur til:  
 
 - Stofna greiðslu með inngreiðslu fyrir verk.  
 - Reikningsfærslu greiðslna til viðskiptavina.  
 - Bókhald til notkunar í verki sem er hannað fyrir greiðslu með inngreiðslu.  
 
-## <a name="roles"></a>Hlutverk  
+## <a name="roles"></a>Hlutverk
+
  Þessi kynning nær yfir verk fyrir eftirfarandi hlutverk:  
 
 - Verkefnastjóri  
 - Meðlimur verkefnateymis  
 
-## <a name="prerequisites"></a>Frumskilyrði  
+## <a name="prerequisites"></a>Frumskilyrði
+
  Áður en hægt er að framkvæma verk hér í kynningunni þarf að gera eftirfarandi:  
 
 - Setja upp CRONUS sýnigagnagrunn.
 - Stofna nokkur sett sýnigagna með því að nota skrefin sem koma hér á eftir.  
 
-## <a name="story"></a>Ferill  
+## <a name="story"></a>Ferill
+
 Þessi kynning einblínir á fyrirtækið CRONUS, hönnunar- og ráðgjafafyrirtæki sem hannar og setur upp húsgögn, aukahluti og geymslueiningar (t.d. í fundarsölum og skrifstofum). Mest af vinnunni er verkefnatengd. Petra er verkefnastjóri hjá CRONUS. Hann notar verk til að fá yfirsýn yfir hvert verk sem er í gangi hjá CRONUS og lokin verk. Hann sér yfirleitt um að semja við viðskiptavini og skrá helstu atriði, þ.e. verk- og áætlunarlínur auk verðs, inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Hann sér að það er einfalt að búa til, uppfæra og fara yfir upplýsingar. Petra kann einnig vel hvernig verk eru afrituð og inngreiðslur í [!INCLUDE[prod_short](includes/prod_short.md)].
 
  Trausti, meðlimur í verkefnateymi sem heyrir undir Petru, ber ábyrgð á verkinu og fylgjast með. Hún fyllir inn eigin vinnu, auk vinnu sem framkvæmd er af tæknifólki í hverju verki. Hún skráir vörurnar sem þeir hafa notað og kostnaðinn sem það hefur haft í för með sér.  
 
-## <a name="preparing-sample-data"></a>Undirbúa sýnigögn  
+## <a name="preparing-sample-data"></a>Undirbúa sýnigögn
+
  Til undirbúnings fyrir þessa kynningu þarf að bæta Tinnu við sem nýjum tilföngum.  
 
 ### <a name="to-prepare-the-sample-data"></a>Til að undirbúa sýnigögnin  
@@ -109,7 +118,8 @@ ms.locfileid: "8513420"
 
 4.  Velja hnappinn **Í lagi** til að vista breytingarnar.
 
-## <a name="setting-up-a-job"></a>Uppsetning vinnu  
+## <a name="setting-up-a-job"></a>Uppsetning vinnu
+
  Í þessu dæmi hefur CRONUS náð samningum við viðskiptamann, Progressive Home Furnishings, um að hanna fundar- og matsal þeirra. Viðskiptamaðurinn er staðsettur í Bandaríkjunum og verkefnið krefst sérstaks hugbúnaðar. Verkefnastjóri nær samkomulagi við viðskiptamanninn og stofnar verk sem nær yfir samkomulagið.  
 
 ### <a name="to-set-up-a-job"></a>Uppsetning verks  
@@ -202,7 +212,8 @@ ms.locfileid: "8513420"
 
 4. Lokaðu síðunni. Samtölur eru uppfærðar á síðunni **Verkhlutalínur verks**.  
 
-## <a name="calculating-remaining-usage"></a>Útreikningur á notuðum eftirstöðvum  
+## <a name="calculating-remaining-usage"></a>Útreikningur á notuðum eftirstöðvum
+
  Tinna, sem er teymismeðlimur í verkefninu, hefur unnið í verkinu í nokkurn tíma og vill skrá tímana sína og notkun á verkið. Hún hefur verið unnið fleiri klukkutíma en það sem um var samið við viðskiptavininn. Hún notar keyrsluna **Reikna notaðar eftirstöðvar** til að reikna eftirstöðvar fyrir verk í verkbók. Keyrslan reiknar út, fyrir hvert verk, mismuninn milli áætlaðrar notkunar vöru, forða og fjárhagsútgjalda, og notkunar í raun samkvæmt bókuðum verkbókarfærslum. Eftirstandandi notkun er síðan sýnd í verkbókinni, og má bóka hana þaðan.  
 
 ### <a name="to-calculate-remaining-usage"></a>Eftirstöðvar notkunar reiknaðar  
@@ -219,7 +230,8 @@ ms.locfileid: "8513420"
 
 Línurnar eru bókaðar.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Reikningur verksölu stofnaður og bókaður  
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Reikningur verksölu stofnaður og bókaður
+
  Næst skal Trausti stofna nýjan reikning fyrir allt verkið eða fyrir hluta af verkinu. Einnig má hengja reikninginn við annan reikning fyrir sama viðskiptavin fyrir sama verkið. Í þessu tilfelli, er reikningar gerðir fyrir allt verkið, þar sem verkinu er lokið.  
 
 ### <a name="to-create-a-job-sales-invoice"></a>Stofnun reiknings fyrir verksölu  
@@ -252,7 +264,8 @@ Línurnar eru bókaðar.
 2.  Veldu **Upplýsingar** aðgerðina. Hægt er að fara yfir nákvæmar upplýsingar um verkkostnað, kostnað og hagnað í bæði innlendri og erlendri mynt.  
 3.  Velja hnappinn **Loka** til að loka síðunni **Verkupplýsingar**.  
 
-## <a name="handling-fixed-prices"></a>Unnið með fast verð  
+## <a name="handling-fixed-prices"></a>Unnið með fast verð
+
  CRONUS hefur tekið að sér að setja upp fundarsali. Verkefnastjórinn Petra þarf gott yfirlit yfir verkhluta verksins ásamt kostnaðaráætlun og kostnaði sem stofnað hefur verið til fyrir hvern verkhluta. Auk þess vill hann vita heildarverð samningsins fyrir verkið og upphæðin sem hefur verið reikningsfærð fram að þessu. Hann hefur náð samkomulagi við viðskiptamanninn varðandi fast verð fyrir verk.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Föstu verði verka stýrt  
@@ -443,17 +456,20 @@ Eftirfarandi ferli sýnir hvernig eigi að stofna nýtt verk, stilla verðlagnin
 2.  Á síðunni **Stofna sölureikning** stillið dagsetninguna í dag sem bókunardagsetning, tilgreinið **Fyrir hvert verk**, og veljið hnappinn **Í lagi** til að búa til reikning með sjálfgefnum upplýsingum. Velja hnappinn **Í lagi** til að loka staðfestingarsíðunni.  
 3.  Velja aðgerðina **Sölureikningur/kreditreikningur**. Á sölureikningnum sést að einungis útborgunin er innifalin í reikningnum. Nú má senda reikninginn til viðskiptamannsins eins og samið var um.  
 
-## <a name="next-steps"></a>Næstu þrep  
+## <a name="next-steps"></a>Næstu þrep
+
  Í kynningunni var farið yfir grunnskrefin í að vinna með verk í [!INCLUDE[prod_short](includes/prod_short.md)]. Aflað hefur verið þekkingar um hvernig á að stofna nýtt verk, hvernig afrita á verk og hvernig á að meðhöndla greiðslur. Einnig hefur gefist færi á að skoða sýning á því hvernig fylgst er með vinnustundum og reikninga stofnaðir.  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/create-jobs/)
 
- [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)   
- [Setja upp verkefnastjórnun](projects-setup-projects.md)   
- [Notkun tilfanga](projects-how-use-resources.md)   
- [Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)   
+## <a name="see-also"></a>Sjá einnig .
+
+ [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
+ [Setja upp verkefnastjórnun](projects-setup-projects.md)  
+ [Nota tilföng](projects-how-use-resources.md)  
+ [Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)  
  [Reikningsfærsla verka](projects-how-invoice-jobs.md)  
- [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

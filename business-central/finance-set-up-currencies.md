@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: f36d255c555c9ac83205a675bc7647cb02e0b3c2
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
+ms.openlocfilehash: e501f61f61aec9d9ffc4acd9607ee6b9cf22e74f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419528"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074901"
 ---
 # <a name="set-up-currencies"></a>Setja upp gjaldmiðla
 
@@ -26,7 +26,7 @@ Notaðu utanaðkomandi þjónustu til að fá nýjustu gengi gjaldmiðla inn á 
 
 Eftirfarandi tafla lýsir svæðunum á **listanum Gjaldmiðlar**.
 
-|Svæði|Description|  
+|Svæði|Lýsing|  
 |---------------------------------|---------------------------------------|  
 |**Kóði**|Kenni gjaldmiðils.|
 |**Lýsing**|Frjáls textalýsing á færslunni.|
@@ -62,7 +62,7 @@ Eftirfarandi tafla lýsir svæðunum á **listanum Gjaldmiðlar**.
 
 Í eftirfarandi töflu er gerð grein fyrir lykilaðgerðum á síðunni **Gjaldmiðlar**.  
 
-|Valmynd|Aðgerð|Description|
+|Valmynd|Aðgerð|Lýsing|
 |-------------|--------------|------------------------------|
 |**Vinna**|**Stinga upp á reikningum**|Nota reikninga úr öðrum gjaldmiðlum. Algengustu reikningarnir verða settir inn.|
 ||**Breyta greiðsluvikmörkum**|Breyta annaðhvort eða bæði hámarks greiðsluvikmörkum eða prósentutölu greiðsluvikmarka og afmarka eftir gjaldmiðli. Frekari upplýsingar eru í [Greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
@@ -79,45 +79,50 @@ Eftirfarandi tafla lýsir svæðunum á **listanum Gjaldmiðlar**.
 
 ## <a name="rounding-currencies"></a>Sléttun gjaldmiðla
 
-Til að stjórna gjaldmiðlum sem ekki nota aukastafi og til að forðast óþarfa aukastaf í erlendum gjaldmiðli er hægt að nota tvo mismunandi sléttunareiginleika:
+Til að vinna með gjaldmiðla sem nota ekki tugabrot og til að forðast óþörf tugabrot í erlendum gjaldmiðlum er hægt að nota tvo mismunandi sléttunareiginleika:
 
-- Eining-sléttun upphæðar  
+- Sléttun einingaupphæða  
 
-- Sléttun upphæðar  
+- Sléttun upphæða  
 
-Þessir eiginleikar geta starfað sjálfstætt eða í samsetningu. Að auki geta aðgerðirnar starfað í tengslum við reikningssléttun.
+Þessa eiginleika má nota sinn í hvoru lagi eða saman. Auk þess er hægt að nota þessa eiginleika með sléttun reiknings.
 
-Öfugt við reikningssléttun, hafa sléttunaraðgerðirnar upphæð og einingaupphæð-sléttun aðeins áhrif á upphæðir í erlendum gjaldmiðli-ekki samsvarandi upphæðir í ISK. Þessar tvær aðgerðir munu ekki leiða til neins í bókunum á fjárhagslykli. Þar af leiðandi þarf ekki að tilgreina almennan fjárhagslykil á bókunarflokkum eða annars staðar.
+Ólíkt eiginleikanum sléttun reiknings hafa eiginleikarnir sléttun upphæða og sléttun einingaupphæða aðeins áhrif á upphæðir í erlendum gjaldmiðli-ekki samsvarandi upphæðir í SGM. Þessir tveir eiginleikar skila ekki af sér neinum færslum í fjárhagsreikninga. Því þarf ekki að tilgreina fjárhagsreikning í bókunarflokkum eða annarsstaðar.
 
-### <a name="unit-amount-rounding"></a>Eining-sléttun upphæðar
+### <a name="unit-amount-rounding"></a>Sléttun einingaupphæða
 
 Sléttunareiginleiki einingar-upphæðar stýrir því hvernig söluverð vara og forða í erlendum gjaldmiðlum eru sléttuð í sölu-og innkaupalínum. Tilgreina verður reglur fyrir hvern gjaldmiðil fyrir sig, í reitnum Sléttunarnákvæmni **í einingu-upphæð á** listanum Gjaldmiðlar **.**
 
-Sléttunaraðgerðin eining-upphæð er notuð sjálfkrafa í hvert sinn sem færð er inn vara eða númer forða í sölulínu. Ef reikningurinn er fyrir viðskiptavin með gjaldmiðilskóta er vörunni eða forðaverðinu umbreytt í gjaldmiðil viðskiptavinarins. Verðið er sléttað samkvæmt Sléttunarnákvæmni fyrir gjaldmiðilinn.
+Eiginleikinn sléttun einingaupphæða er notaður sjálfkrafa í hvert skipti sem vara eða forðanúmer er færð inn í sölulínu. Ef reikningurinn er fyrir viðskiptamann með gjaldmiðilskóta er verði vörunnar eða forðans breytt í gjaldmiðil viðskiptamannsins. Verðið er sléttað samkvæmt sléttunarnákvæmni einingaupphæða fyrir gjaldmiðilinn.
 
-### <a name="amount-rounding"></a>Sléttun upphæðar
+### <a name="amount-rounding"></a>Sléttun upphæða
 
 Sléttunaraðgerðin upphæð stýrir því hvernig upphæðir í erlendum gjaldmiðlum eru sléttaðar í færslubókarlínum, sölulínum og innkaupalínum. Tilgreina verður reglur fyrir hvern gjaldmiðil fyrir sig, í **reitnum Upphæðarsléttunarnákvæmni** á **listanum Gjaldmiðlar**.
 
-Upphæðir í erlendum gjaldmiðlum eru sléttar þegar fyllt er í og bókað í almennar færslubókarlínur, sölulínur og innkaupalínur.
+Upphæðir í erlendum gjaldmiðlum eru sléttaðar þegar fyllt er út í færslubókarlínur, sölulínur og innkaupalínur og þær bókaðar.
 
 ## <a name="exchange-rates"></a>Gengi gjaldmiðla
 
-Hægt er að skrá gengi fyrir hvern erlendan gjaldmiðil og tilgreina frá hvaða dagsetningum gengi gjaldmiðla gildir. Til dæmis er hægt að færa inn daglegt gengi, Mánaðarlegt gengi eða ársfjórðungsleg gengi fyrir hvern erlendan gjaldmiðil.
+Hægt er að skrá gengi fyrir hvern erlendan gjaldmiðil og tilgreina frá hvaða dagsetningu gengin gilda. Til dæmis er hægt að færa inn dag-, mánaðar- eða ársfjórðungsgengi hvers erlends gjaldmiðils.
 
 Hægt er að varðveita sögulegt gengi í **síðunni gengi** gjaldmiðla fyrir tilvísanir. Þegar þú þarft að uppfæra gengi, getur þú notað **hnappinn Uppfæra gengi gjaldmiðla** til að fá nýjasta gengi frá utanaðkomandi þjónustuaðila.
 
 ## <a name="general-ledger-accounts"></a>Fjárhagsreikninga
 
-Ekki er hægt að tengja gjaldmiðilskóða við fjárhagslykla þar sem upphæðir í fjárhagsreikningum eru í ISK. Ef þú ert með bankalán í USD og setur innborganir á bankareikning í SEK, geturðu fylgst með þessum reikningum með því að setja upp bankareikninga í USD og SEK. Með bókunarflokkum er hægt að tengja lykla við viðeigandi fjárhagslykla. Í fjárhag er andvirði upphæðanna sýnt í ISK.
+Ekki er hægt að tengja gjaldmiðilskóta við fjárhagsreikninga þar sem upphæðir í fjárhag eru í SGM. Ef fyrirtækið er með lán í USD og setur innborgun á bankareikning í SEK er hægt að fylgjast með þessum reikningum með því að setja upp bankareikninga í USD og SEK. Með bókunarflokkum er hægt að tengja reikningana við viðeigandi fjárhagsreikninga. Í fjárhagnum eru upphæðirnar birtar í SGM.
 
-Hægt er að færa gjaldmiðilskóða í færslubókarlínu og bóka línuna í fjárhagslykil. Viðeigandi gengi er notað til að umreikna upphæðina í ISK áður en hún er bókuð á fjárhagsreikninginn.  
+Hægt er að færa gjaldmiðilskóta inn í færslubókarlínu og bóka línuna í fjárhagsreikning. Viðeigandi gengi er notað til að breyta upphæðinni í SGM áður en hún er bókuð í fjárhagsreikninginn.  
 
 ## <a name="example-of-a-receivable-currency-transaction"></a>Dæmi um móttekna gjaldmiðilsfærslu
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/currencies-exchange-rates-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Sjá einnig .
 
 [Uppfæra gengi](finance-how-update-currencies.md)  
 [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 28c1ff79108f8192695a6faa524b06f409e9058e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: db5db1518e4064a158e83ccfef1409d919a4e35d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518494"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075630"
 ---
 # <a name="setting-up-warehouse-management"></a>Vöruhúsastjórnun sett upp
 
@@ -42,13 +42,15 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Samlaga strikamerkjalesara að vöruhúsakerfislausninni. Eingöngu fyrir uppsetningu á staðnum.|[Nota sjálfvirkt gagnatökukerfi (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/set-up-warehouse-management/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Hönnun samsetningarkerfis](assembly-assemble-items.md)
-[upplýsingar: vöruhúsastjórnun](design-details-warehouse-management.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Samsetningardeild](assembly-assemble-items.md)  
+[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514122"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078779"
 ---
 # <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
 
@@ -157,6 +157,7 @@ The following table explains key fields.
 -->
 
 ## <a name="entering-an-opening-balance"></a>Færa inn opnunarstöðu
+
 Til að fylla út í reitinn **Staða** með onunarstöðu verður þú að bóka fjárhagsfærslu bankareiknings með upphæðinni. Hægt er að gera þetta með því að framkvæma afstemmingu bankareiknings. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Einnig er hægt að tiltaka opnunarstöðu sem hluta af almennri gagnamyndun í nýjum fyrirtækjum með því að nota **Flytja viðskiptagögn** leiðbeiningar um uppsetningu með hjálp. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
@@ -165,6 +166,7 @@ Til að fylla út í reitinn **Staða** með onunarstöðu verður þú að bók
 > Mikilvægt er að opnunarstaðan sé ekki bókuð beint í fjárhag. Ef færslur í fjárhagsreikningnum sem eru bókaðar beint á fjárhagsreikninginn leiða yfirleitt til þess að ekki er hægt að stemma bankareikninginn af, eða Bankareikningar fyrir erlendan gjaldmiðil, verður mismunur sem er bókaður eins og meiri bankaafstemmingar. Oft er opnunarbankainnistaða bókuð beint á bankareikning og upphæðin endar síðan í fjárhagsreikningnum. Einnig er hægt að bakfæra hana síðar á móti fjárhagsreikningnum sem er notaður til að jafna opnunarfjárhagsstöðu. Í báðum tilvikum verður að jafna beina bókun við fjárhagsreikninginn áður en fyrsta bankaafstemming hefst, og sérstaklega svo ef bankareikninginn er í erlendum gjaldmiðli.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Til að setja upp bankareikning þinn til að flytja inn eða flytja út bankaskrár
+
 Svæðin sem tengjast inn-og útflutningi á bankastraumum og skrám eru á **flutningi** fastflipa á **síðu bankareikningsreikningsins**. Nánari upplýsingar má finna [í AMC Banking 365 Fundamentals notkun viðaukanum](ui-extensions-amc-banking.md) og [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
@@ -240,7 +242,9 @@ Eftir að nýi bankareikningurinn hefur verið stofnaður ættir þú einnig að
 
 Til að fá samþjappaðra yfirlit yfir sjóðsreikninga í fjárhagsskýrslugerð skal nota reikningana **Samtala í upphafi** og **Samtala í lok** í bókhaldslyklinum, línurnar **Samtölur** í fjárhagsskemum eða flokkum fjárhagsreikninga. Frekari upplýsingar er að finna í hlutanum [Viðskiptagreind og Financial Reporting](bi.md).
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Uppsetning bókunarflokka](finance-posting-groups.md)  

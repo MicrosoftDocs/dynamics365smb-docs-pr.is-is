@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: e70b14b5344acd9b59034b5847455417b8225182
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518208"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079195"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Setja upp eignaafskriftir
 
@@ -40,6 +40,7 @@ Afskriftabækur eru settar upp þar sem eru skilgreindar mismunandi leiðir til 
 Ef þú til dæmis losar þig við eign þar sem afskriftabókin tilgreinir ekki sléttun en fjárhagsuppsetning fyrirtækisins krefst sléttunar, þá þegar þú losar þig við eignina muntu sjá villuboð um að upphæð verði að vera sléttuð í fjárhagsfærslu.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Úthluta afskriftabók á eign.
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
 2. Valin er eignin sem setja á upp eignaafskriftabók fyrir.
 3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **afskriftabók**.
@@ -53,6 +54,7 @@ Ef þú til dæmis losar þig við eign þar sem afskriftabókin tilgreinir ekki
     > Þegar afskriftaaðferðin sem skilgreind er af notanda er notuð þarf að úthluta afskriftabókinni á annan hátt. Frekari upplýsingar er að finna í [Setja upp afskriftaaðferð sem skilgreind er af notanda](fa-how-setup-user-defined-depreciation-method.md).
 
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Til að tengja afskriftabók við margar eignir með keyrslu
+
 Ef tengja á afskriftabók við nokkrar eignir er hægt að keyra **Stofna eignaafskriftabækur** runuvinnsluna til að stofna eignaafskriftabækur.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
@@ -66,6 +68,7 @@ Ef tengja á afskriftabók við nokkrar eignir er hægt að keyra **Stofna eigna
 7. Velja hnappinn **Í lagi**.
 
 ## <a name="to-set-up-depreciation-posting-types"></a>Uppsetning bókunartegundir afskrifta:
+
 Fyrir hverja afskriftabók þarf að stilla hvernig [!INCLUDE[prod_short](includes/prod_short.md)] á að meðhöndla ýmsar bókunartegundir. Til dæmis hvort bókun eigi að vera í debet eða kredit og hvort taka eigi bókunartegund með í afskriftargrunni.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afskriftabækur** og velja síðan viðkomandi tengil.  
@@ -78,6 +81,7 @@ Fyrir hverja afskriftabók þarf að stilla hvernig [!INCLUDE[prod_short](includ
 Sterklega er mælt með því að uppsetningunni fyrir afskriftarbækur sem búið er að bóka í sé ekki breytt. Breytingarnar hafa ekki áhrif á færslur sem þegar er búið að bóka og sem myndu gera tölfræðigögn afskriftarbókarinnar óáreiðanleg.
 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Uppsetning Sjálfgefinna sniðmáta og -keyrslna fyrir afskriftir eigna.
+
 Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverja afskriftabók. Þú notar þessi sjálfgildi til að afrita línur úr einni bók í aðra, búa til færslubókarlínur með því að keyra **Reikna afskrift** eða **Vísitala eigna** runuvinnslurnar, afrita kaupverð í vátryggingabókina.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afskriftabækur** og velja síðan viðkomandi tengil.  
@@ -91,8 +95,10 @@ Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverj
 
 Ef þessi reitur er valinn eru afskriftir reiknaðar samkvæmt 365 daga ári, hver mánuður er reiknaður með sama dagafjölda og á almanaki. Undantekning er febrúar á hlaupári, sem verður 28 daga en ekki 29. Vegna þessa verða öll ár 365 dagar, líka hlaupár.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/configure-depreciation-books/)
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
+
 [Uppsetning eigna](fa-setup.md)  
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  

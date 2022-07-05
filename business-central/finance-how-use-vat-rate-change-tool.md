@@ -1,6 +1,6 @@
 ---
 title: Stjórna breytingum VSK-hlutfalls
-description: Lærðu hvernig á að nota verkfærið Dynamics 365 Business Central VSK-hlutfall til að breyta VSK-taxta á grundvelli staðbundinnar löggjafar.
+description: Lærðu að nota verkfæri fyrir VSK-hlutfall fyrir Dynamics 365 Business Central breytingar á VSK-taxta samkvæmt staðbundinni löggjöf.
 author: andregu
 ms.topic: conceptual
 ms.reviewer: edupont
@@ -9,12 +9,12 @@ ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550,
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: ce98367d08c399e8c1a93140bad6fbecd04dda95
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a71497451c56053b1f3c76a1bc58262ec2eb7ca7
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135394"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079117"
 ---
 # <a name="managing-vat-rate-changes"></a>Stjórna breytingum VSK-hlutfalls
 
@@ -105,7 +105,9 @@ Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöð
 > [!IMPORTANT]  
 > Eftir prófun á umreikningi er reiturinn **Umbreytt** í töflu **Breyting á VSK gengi í skráningarfærslu** valinn og reiturinn **Umbreytt dagsetning** í töflunni **Breyting á VSK gengi í skráningarfærslu** sýnir umreiknuðu dagsetninguna.  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/rate-change-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp virðisaukaskatt](finance-setup-vat.md)  
 [Uppsetning á óinnleystum virðisaukaskatti](finance-setup-unrealized-vat.md)  

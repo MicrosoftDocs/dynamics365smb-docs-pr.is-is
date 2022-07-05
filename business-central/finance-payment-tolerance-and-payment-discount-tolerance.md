@@ -9,21 +9,23 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: f9cd8d837d94e9f90e48f84d4209bc3427d0b922
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6619789b38cc8dc33e7985f35d77075df4914ad2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523398"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074927"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
+
 Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum. Til dæmis eru greiðsluvikmörk yfirleitt fyrir litlar upphæðir sem myndi kosta meira að leiðrétta en að samþykkja. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
 
 Hægt er að nota greiðsluvikmörk þannig að allar útistandandi upphæðir hafa leyfilegt hámark greiðsluvikmarka. Ef greiðsluvikmörk eru uppfyllt verður greiðsluupphæðin greind. Ef greiðsluupphæðin er vangreiðsla mun vangreiðslan loka öllum eftirstöðvum. Sundurliðuð fjárhagsfærsla er bókuð á greiðslufærsluna þannig að engar eftirstöðvar eru eftir á jöfnuðu reikningsfærslunni. Ef skilyrði um greiðsluvikmörk eru uppfyllt og greiðsluupphæðin er ofgreiðsla þá verður sundurliðuð fjárhagsfærsla bókuð á greiðslufærsluna þannig að engar eftirstöðvar eru eftir á greiðslufærslunni.
 
 Hægt er að nota vikmörk greiðsluafsláttar þannig, að ef greiðsluafsláttur er veittur eftir dagsetningu greiðsluafsláttar verður hann bókaður á greiðslureikning eða greiðsluvikmarkareikning.
 
-## <a name="applying-payment-tolerance-to-multiple-documents"></a>Nota greiðsluvikmörkin á mörg skjöl  
+## <a name="applying-payment-tolerance-to-multiple-documents"></a>Nota greiðsluvikmörkin á mörg skjöl
+
 Stakt fylgiskjal hefur sömu greiðsluvikmörk hvort sem það er jafnað eitt og sér eða með öðrum fylgiskjölum. Samþykki á síðbúnum greiðsluafslætti þegar notuð eru afsláttarvikmörk á mörg fylgiskjöl, gerist sjálfkrafa fyrir hvert fylgiskjal þar sem eftirfarandi regla er rétt:  
 
 *dagsetning greiðsluafsláttar < greiðsludagsetning (í aðalfærslu) <= dagsetning greiðsluvikmarka*  
@@ -40,7 +42,8 @@ Hægt er að velja að birta viðvörun sem byggist á mismunandi aðstæðum fy
 
 Nánari upplýsingar er að finna í [Að gera viðvaranir greiðsluvikmarka virkar eða óvirkar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
-## <a name="to-set-up-tolerances"></a>Vikmörk sett upp  
+## <a name="to-set-up-tolerances"></a>Vikmörk sett upp
+
 Með vikmörkum á dögum og upphæðum er hægt að loka reikningi þó að greiðsla nái ekki alveg upphæðinni á reikningnum, hvort sem um er að ræða að gjalddagi sé liðinn, vörum hafi verið skilað eða smávillu. Þetta á einnig við um endurgreiðslur og kreditreikninga.  
 
 Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilgreina bókunaraðferðir fyrir vikmörk greiðsluafsláttar og greiðsluvikmörk og keyra síðan keyrsluna **Breyta greiðsluvikmörkum**.  
@@ -67,6 +70,7 @@ Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilg
 >  Þegar vikmörk eru sett upp athugar [!INCLUDE[prod_short](includes/prod_short.md)] hvort einhverjar færslur séu opnar og reiknar vikmörk fyrir þær færslur að auki.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Til að virkja eða slökkva á greiðsluvikmarkaviðvörun
+
 Viðvörun um vikmörk greiðslu birtist þegar jöfnun er bókuð með stöðu sem er innan heimilla vikmarka. Hægt er að velja um hvernig staðan skuli bókuð og skráð.    
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Fjárhagsgrunnur** á flipanum **Jöfnun** skaltu kveikja á **Viðvörun um greiðsluvikmörk** til að virkja viðvörunina. Til að gera viðvörunina óvirka skaltu slökkva á þessu.  
@@ -74,7 +78,8 @@ Viðvörun um vikmörk greiðslu birtist þegar jöfnun er bókuð með stöðu 
 > [!NOTE]  
 >  Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluvikmörk** síðuna er **Láta stöðu standa sem eftirstöðvar**. Sjálfgefinn valkostur fyrir síðuna **Viðvörun greiðsluafsláttarvikmarka** er **Ekki samþykkja síðbúinn staðgreiðsluafslátt**.
 
-## <a name="to-block-payment-tolerance-for-customers"></a>Lokað á greiðsluvikmörk viðskiptavina  
+## <a name="to-block-payment-tolerance-for-customers"></a>Lokað á greiðsluvikmörk viðskiptavina
+
 Sjálfgildið fyrir greiðsluvikmörk er heimilað. Ef greiðsluvikmörk eiga ekki að vera heimil fyrir tiltekin viðskiptamann eða lánardrottinn skal loka á vikmörk á viðkomandi viðskiptamanns- eða lánardrottinsspjaldi. Eftirfarandi sýnir hvernig farið er að þessu fyrir viðskiptamann. Skrefin eru svipuð fyrir lánardrottinn.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinur** eða **Lánardrottinn** og velja síðan viðkomandi tengil.  
@@ -84,6 +89,7 @@ Sjálfgildið fyrir greiðsluvikmörk er heimilað. Ef greiðsluvikmörk eiga ek
 >  Ef viðskiptamaður eða lánardrottinn hafa opnar færslur verður að loka á greiðsluvikmörk í opnum færslum.
 
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Dæmi 1 - útreikningur vikmarka fyrir eitt fylgiskjal
+
 Hér á eftir koma nokkur dæmi sem sýna áætlaða vikmarkaútreikninga og bókanir sem upp geta komið við mismunandi aðstæður.  
 
 Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
@@ -116,10 +122,12 @@ Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
 |14|1,000|20|5|15/01/03|20/01/03|>20/01/03|980|Ekkert|Nei, 20 við reikning|0|0|  
 |15|1,000|20|5|15/01/03|20/01/03|>20/01/03|975|Ekkert|Nei, 25 við reikning|0|0|  
 
-### <a name="payment-range-diagrams"></a>Skýringar greiðslusviða  
+### <a name="payment-range-diagrams"></a>Skýringar greiðslusviða
+
 Í tengslum við dæmið að ofan eru skýringar á greiðslusviðum sem hér segir:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Greiðsludagsetning <=15/01/03 (Dæmi 1-3)  
+#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Greiðsludagsetning <=15/01/03 (Dæmi 1-3)
+
 Eftirstöðvar á hverja  
 
 Venjulegar jöfnunarreglur  
@@ -130,7 +138,8 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Greiðsludagsetning er á milli 16/01/03 og 20/01/03 (dæmi 4-9)  
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Greiðsludagsetning er á milli 16/01/03 og 20/01/03 (dæmi 4-9)
+
 Eftirstöðvar á hverja  
 
 Venjulegar jöfnunarreglur  
@@ -141,7 +150,8 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Greiðsludagsetning er eftir 20.01.03 (Dæmi 10-15)  
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Greiðsludagsetning er eftir 20.01.03 (Dæmi 10-15)
+
 Eftirstöðvar á hverja  
 
 Venjulegar jöfnunarreglur  
@@ -153,6 +163,7 @@ Venjulegar jöfnunarreglur
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Dæmi 2 útreikningur vikmarka fyrir fjölda fylgiskjala
+
 Hér á eftir koma nokkur dæmi sem sýna áætlaða vikmarkaútreikninga og bókanir sem upp geta komið við mismunandi aðstæður. Dæmin eru takmörkuð við þau tilvik sem enda með því að öllum færslum í jöfnuninni sé lokað.  
 
 Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
@@ -199,10 +210,12 @@ Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**>22/01/03**|**2000**|**Ekkert**|**Já**|**0**|**0**|  
 |30|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|PaymentTolerance|Já|0|5|  
 
-### <a name="payment-range-diagrams"></a>Skýringar greiðslusviða  
+### <a name="payment-range-diagrams"></a>Skýringar greiðslusviða
+
 Í tengslum við dæmið að ofan eru skýringar á greiðslusviðum sem hér segir:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Greiðsludagsetning <=15/01/03 (Dæmi 1-3)  
+#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Greiðsludagsetning <=15/01/03 (Dæmi 1-3)
+
 Eftirstöðvar á hverja  
 
 Venjulegar jöfnunarreglur  
@@ -213,7 +226,8 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Greiðsludagsetning er á milli 16.01.03 og 17.01.03 (dæmi 4-9)  
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Greiðsludagsetning er á milli 16.01.03 og 17.01.03 (dæmi 4-9)
+
 Eftirstöðvar á hverja  
 
 Venjulegar jöfnunarreglur  
@@ -224,7 +238,8 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Greiðsludagsetning er á milli 18.01.03 og 20.01.03 (dæmi 10-21)  
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Greiðsludagsetning er á milli 18.01.03 og 20.01.03 (dæmi 10-21)
+
 Eftirstöðvar á hverja  
 
 Venjulegar jöfnunarreglur  
@@ -235,7 +250,8 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Greiðsludagsetning er á milli 21.01.03 og 22.01.03 (dæmi 22-27)  
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Greiðsludagsetning er á milli 21.01.03 og 22.01.03 (dæmi 22-27)
+
 Eftirstöðvar á hverja  
 
 Venjulegar jöfnunarreglur  
@@ -246,7 +262,8 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Greiðsludagsetning er eftir 22.01.03 (Dæmi 28-30)  
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Greiðsludagsetning er eftir 22.01.03 (Dæmi 28-30)
+
 Eftirstöðvar á hverja  
 
 Venjulegar jöfnunarreglur  
@@ -257,7 +274,10 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/enter-payments-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
+
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  

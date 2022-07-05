@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 56757c07ae0bbc41ae2ac9fad6bc3318a1d0ab93
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 171e046e68cd3eaabbb10b0e1aeacb508cbc76b4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520413"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078127"
 ---
 # <a name="creating-cost-budgets"></a>Stofna kostnaðaráætlanir
 
@@ -32,11 +32,13 @@ Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Ve
 |Sjá dagbækur og færslur kostnaðaráætlana.|**Fjárhagsáætlunarskrá**|  
 |Prenta samanburð kostnaðaráætlunar með því að nota ýmsar skýrslur.|**Kostnaðarbókhald Staða-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðarbókhald Yfirlit-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarstað** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarhluta** skýrsla|  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/cost-accounting-reports-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
 [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)  
-[Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)   
+[Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)  
 [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

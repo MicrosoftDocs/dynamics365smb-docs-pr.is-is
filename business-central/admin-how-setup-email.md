@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950463"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041427"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Fólk í viðskiptum sendir upplýsingar og skjöl á borð við sölu- og innkaupapantanir og reikninga með tölvupósti á hverjum degi. Kerfisstjórar geta tengt einn eða fleiri tölvupóstreikninga við til [!INCLUDE[prod_short](includes/prod_short.md)] að senda skjöl án þess að þurfa að opna App fyrir tölvupóst. Hægt er að setja hvert boð fyrir sig með grunnsniðs verkfærum, svo sem leturgerðum, stílum, litum o. s. frv., og bæta viðhengjum um allt að 100 MB. Auk þess gera skýrsluskipanir kerfisstjóra kleift að taka aðeins með helstu upplýsingar úr skjölum. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
@@ -44,7 +44,7 @@ Eftirfarandi tafla lýsir þeim tölvupóstsviðbótum sem eru sjálfgefið í b
 |**SMTP tengi**|Nota skal SMTP-samskiptareglu til að senda tölvupósta.|Leyfa skal samskipti í gegnum SMTP-póstþjóninn. |
 
 > [!NOTE]
-> Í **Microsoft 365 tengivirkinu** og **núgildandi notendaviðmóti** nota þeir reikningarnir sem settir voru upp fyrir notendur í Microsoft 365 stjórnstöðinni fyrir Microsoft 365 áskriftina. Til að senda tölvupóst með viðbótunum verða notendur að vera með gilt leyfi fyrir Exchange Online. Auk þess krefjast þessir Viðaukar að **stillingin leyfa HttpClient** sé virkjuð. Til að athuga hvort hún sé virk fyrir þessa viðauka er farið á **síðuna Viðaukar**, nafn valið og síðan **er valkosturinn samskipa** valinn.
+> Í **Microsoft 365 tengivirkinu** og **núgildandi notendaviðmóti** nota þeir reikningarnir sem settir voru upp fyrir notendur í Microsoft 365 stjórnstöðinni fyrir Microsoft 365 áskriftina. Til að senda tölvupóst með viðbótunum verða notendur að vera með gilt leyfi fyrir Exchange Online. Að auki, í sandkassa umhverfi, þurfa þessir Viðaukar að **Leyfa stillingu httpclient beiðni** er virkjuð. Til að athuga hvort hún sé virk fyrir þessa viðauka er farið á **síðuna Viðaukar**, nafn valið og síðan **er valkosturinn samskipa** valinn.
 
 > Utanaðkomandi notendur, eins og fulltrúar viðurkenningar og utanbókarnotenda, geta ekki notað þessa viðauka til að senda tölvupóstskeyti frá [!INCLUDE[prod_short](includes/prod_short.md)].
 

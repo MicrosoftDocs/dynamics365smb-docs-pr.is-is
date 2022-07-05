@@ -7,12 +7,12 @@ ms.search.keywords: administration, admin, key, optional, feature management, ea
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: a3cc650067c18da1594e2381413f8dd76966ab3a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ca23cb79f3ef95db1cb7c9528805d37a7560fc8a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141386"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077659"
 ---
 # <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Virkjun nýrra og væntanlegra eiginleika fyrir tíma
 
@@ -21,6 +21,8 @@ Hægt er að virkja suma nýja eiginleika fram í tímann, þannig að hægt er 
 Þegar Microsoft gefur út eiginleika eða endurhætta hönnun eiginleika með minniháttar uppfærslum eru sumir eiginleikar ekki strax virkir. Stjórnendur geta virkjað hvern eiginleika á síðunni **Eiginleikastjórnun** . Þegar eiginleiki hefur verið virkjaður verður hann í boði fyrir alla notendur í því umhverfi, sama hvernig þeir fá aðgang að [!INCLUDE[prod_short](includes/prod_short.md)]. Óhætt er að slökkva á eiginleikum aftur. Þessir eiginleikar eru aðeins tímabundið valfrjálsir.
 
 Nánari upplýsingar um [eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

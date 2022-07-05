@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: b9453285ce1bf18f3eeef3c3148f6dd00921c03f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1c5314d8aba0b31d02491da1e588f7a23c83a38
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510818"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078961"
 ---
 # <a name="set-up-time-sheets"></a>Setja upp vinnuskýrslur
 
@@ -94,10 +94,12 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 > [!NOTE]  
 > Ekki er hægt að auðkenni samþykkjanda vinnuskýrslu ef tíma fyrir eru tímaskýrslur sem ekki hefur verið unnið með og sem hafa stöðuna **Sent** eða **Opið**.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Nota vinnuskýrslur fyrir verk](projects-how-use-time-sheets.md)  
-[Til að stofna vinnuskýrslur](projects-how-use-time-sheets.md#to-create-time-sheets)  
+[Hvernig á að stofna vinnuskýrslur](projects-how-use-time-sheets.md#to-create-time-sheets)  
 [Skrá notkun eða notkun verka](projects-how-record-job-usage.md)  
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Verkefnastjórnun](projects-manage-projects.md)  

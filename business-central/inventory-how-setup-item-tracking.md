@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: be30d89ca6ad6c80b27b0cc8f5e619b6ad5c7782
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511559"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078023"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Setja upp vörurakningu með raðnúmer, lotu og pakkanúmer
 
@@ -85,10 +85,12 @@ Til að virkja vörurakningu þarftu fyrst að úthluta rakningarkóðum vöru �
 3. Á flýtiflipanum **Vörurakning** skal úthluta viðeigandi vörurakningarkóðum og velja **Vörurakningarkóði**, **Raðnúmerin** og **Lotunúmerin**.
     1. Einnig er hægt að búa til nýjan vörurakningarkóða með því að velja aðgerðina **Nýtt**.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/prepare-item-tracking/)
 
-[Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)
-[Rekja vöru-Raktar vörur](inventory-how-to-trace-item-tracked-items.md)  
+## <a name="see-also"></a>Sjá einnig .
+
+[Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
+[Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar: Vörurakning](design-details-item-tracking.md)  
 [Hönnunarupplýsingar - vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  

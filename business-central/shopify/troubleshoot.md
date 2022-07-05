@@ -1,34 +1,34 @@
 ---
 title: Úrræðaleit vegna Shopify aðalsamstillingar og viðskipta
-description: Lærðu hvað á að gera ef eitthvað er athugavert við samstillingu gagna á milli Shopify og Viðskiptamiðst.
+description: Lærðu hvað á að gera ef eitthvað fór úrskeiðis við samstillingu gagna á milli Shopify og Viðskiptamiðst
 ms.date: 05/16/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: 83678c6c81b29a524405699425be877459b6568d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808865"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075318"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Úrræðaleit vegna Shopify Aðalsamstillingar og viðskipta
 
-Það er hægt að keyra inn í aðstæður þar sem leysa þarf vandamál. Þessi síða skilgreinir skref til að leysa úr nokkrum algengum aðstæðum sem kunna að koma upp.
+Mögulegt er að keyra inn í aðstæður þar sem leysa þarf vandamál þegar samstillt er við gögn á milli Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)]. Þessi síða skilgreinir skref til að leysa úr nokkrum algengum aðstæðum sem kunna að koma upp.
 
 ## <a name="logs"></a>Skrár
 
-Ef samstillingarverk mistekst er hægt að virkja innskráningu með því **að** gera kladda virka **Shopify óvirka í verkstæðisspjaldinu**. Ræsa samstillingarverk handvirkt og yfirfara kladda.
+Ef samstillingarverk mistekst er hægt að virkja innskráningu með því að **Virkja skráningu virkja** skipta á **Shopify verkstæðisspjaldinu**. Kveikja handvirkt á samstillingarverkinu og yfirfara kladda.
 
-1. Fara á leitarljósaperu ![sem opnast Segðu mér lögun.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **Shopify kladdafærslur** og velja tengdan tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, slá inn **Shopify kladdafærslur** og velja síðan tengda tengilinn.
 2. Veljið tengda kladdafærslu og Opnið **Shopify gluggann kladdafærsla**.
-3. Endurskoðunarbeiðni, Stöðukóði og Lýsing og svar.
+3. Farið yfir beiðnina, stöðukóðann og lýsinguna og svarið.
 
-Munið að skipta út innskráningu til að forðast neikvæð áhrif á afköst og auka í gagnagrunnsstærð.
+Munið að skipta síðar um skráningu til að forðast neikvæð áhrif á afköst og aukningu í gagnagrunnsstærð.
 
-**Shopify Í glugganum kladdafærslur** er hægt að kalla fram eyðingu á öllum kladdafærslum eða þeim sem eru eldri en sjö daga.
+**Shopify Í glugganum kladdafærslur** er hægt að kalla fram eyðingu allra kladdafærslna eða þeirra sem eru eldri en sjö daga.
 
 ## <a name="data-capture"></a>Gagnatöku
 
@@ -50,15 +50,43 @@ Fyrir bestan árangur flytur Connector aðeins viðskiptavini, afurðir og panta
 
 Þessi aðgerð á aðeins að samtengjast frá Shopify til [!INCLUDE[prod_short](../includes/prod_short.md)] og getur verið gagnlegt ef endurheimta þarf Eydd gögn, svo sem afurðir, viðskiptamenn eða eyddar pantanir.
 
-## <a name="update-the-access-token"></a>Uppfæra aðgangsstákn
+## <a name="request-the-access-token"></a>Beiðni um aðgangsstákn
 
-Ef [!INCLUDE[prod_short](../includes/prod_short.md)] ekki er hægt að Shopify tengjast reikningnum skaltu reyna aftur að endurstilla aðgangstófan.
+Ef [!INCLUDE[prod_short](../includes/prod_short.md)] ekki er hægt að tengjast Shopify reikningnum skaltu reyna að biðja um aðgangstófan Shopify. Þessa beiðni gæti verið þörf ef til staðar eru snúningar Öryggislyklar eða breytingar á nauðsynlegum heimildum (umfang).
 
-1. Fara á leitarljósaperu ![sem opnast Segðu mér lögun.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **Shopify búð** og veljið tengdan tengil.
+1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **Shopify verslanir** og veljið síðan tengda tengilinn.
 2. Veljið verslunina sem sækja á aðgangstakið til að opna **Shopify Vinnukortasíðuna**.
 3. **Veldu aðgangsaðgerðina** beiðni.
 4. Ef beðið er skal skrá sig inn Shopify á reikninginn.
 
-## <a name="see-also"></a>Sjá einnig
+**Víxl með AccessKey** -víxli verða virkjuð.
+
+### <a name="verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment"></a>Sannprófa og leyfa heimildir til að gera HTTP-beiðnir þegar keyrðar eru í umhverfi sem ekki er í framleiðslu
+
+Til þess að vinna rétt Shopify þarf tengivirkið leyfi til að gera HTTP beiðnir. Við prófanir í Sandkössum eru HTTP beiðnir um að allir Viðaukar séu bannaðir.
+
+1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **Framlengingarstjórnun** og velja síðan tengda tengilinn.
+2. *Shopify Veljið Connector* Extension.
+3. Velja skal **samskipanaraðgerð** til að opna **síðuna framlengingarstilling**.
+4. Ganga þarf úr skugga um að **Leyfa Beiðnabeiðingar** HTTPClient séu virkar.
+
+## <a name="rotate-the-shopify-access-key"></a>Shopify Snúa aðgangslyklinum
+
+Eftirfarandi ferli lýsa hvernig á að snúa aðgangstáknum Shopify sem Connector notar Shopify til að fá aðgang að vefversluninni.
+
+### <a name="in-shopify"></a>Í Shopify
+
+1. **Shopify Frá admin**, Farðu í [apps](https://www.shopify.com/admin/apps).
+2. Í röðinni með *Dynamics 365 Business Central* * App skal velja **DELETE**.
+3. Í skilaboðunum sem birtist velurðu **Eyða**.
+
+### <a name="in-prod_short"></a>Í [!INCLUDE[prod_short](../includes/prod_short.md)]
+
+1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **Shopify verslanir** og veljið síðan tengda tengilinn.
+2. Veljið verkstæðið sem á að snúa aðgangstakið við til að opna **Shopify Vinnukortasíðuna**.
+3. **Veldu aðgangsaðgerðina** beiðni.
+4. Ef beðið er, Skráðu þig inn í reikninginn þinn Shopify, farðu yfir persónuvernd og heimildir og veldu **síðan hnappinn setja upp App**.
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Byrjaðu með Tengimynt fyrir Shopify](get-started.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 80544cf5d3e2f9e55fcf22037c7d44df98f22635
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520127"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076878"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 
@@ -26,6 +26,7 @@ Viðskiptamenn eru uppruni tekna. Þú verður að skrá þig hver viðskiptavin
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Bæta við nýjum viðskiptavinum
+
 Hægt er að bæta við nýjum viðskiptamanni handvirkt með því að fylla út reitina á síðunni **Viðskiptamannaspjald** eða hægt er að nota sniðmát sem innihalda fyrirframskilgreindar upplýsingar. Til dæmis er hægt að búa til sniðmát fyrir mismunandi forstillingargerðir viðskiptamanna. Með því að nota sniðmát sparast tími þegar nýjum viðskiptamönnum er bætt við og það hjálpar til við að tryggja að upplýsingarnar séu réttar hverju sinni. Ef þú stofnar sniðmát fyrir fleiri en eina gerð af viðskiptamanni geturðu valið sniðmátið sem á að nota þegar þú bætir við viðskiptamanni. Ef þú býrð aðeins til eitt sniðmát verður það notað fyrir alla nýja viðskiptamenn. Þegar sniðmát er stofnað geturðu notað aðgerðina **Nota sniðmát** til að nota það í einum eða fleiri viðskiptamönnum. Til að búa til sniðmát fyllir þú inn upplýsingarnar sem þú vilt endurnota á síðu viðskiptamannaspjaldsins og vistar það síðan sem sniðmát. Frekari upplýsingar er að finna í [Að vista viðskiptamannaspjald sem sniðmát](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
 > [!TIP]
@@ -80,7 +81,9 @@ Hægt er að velja um það að ekki séu birtar aðvaranir um að lánsfjárupp
     |**Upphæð vanskila**|Svæðið **Gjaldfallin staða** í spjaldi viðskiptamanns er athugað og viðvörun birtist ef staða viðskiptamanns er gjaldfallin.|
     |**Engin aðvörun**|Engar viðvaranir eru sýndar um stöðu viðskiptavinar.|
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Skilgreina Greiðsluhætti](finance-payment-methods.md)  
 [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)  

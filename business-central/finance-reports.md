@@ -7,12 +7,12 @@ ms.search.keywords: reporting
 ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 2220bfacb8f94265363c30acbcde1cc6de745339
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 865b547cb91f6cfda4b5b9a020d77c0fd4e54ba0
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514388"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078101"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Fjárhagsskýrslur og greiningar í Business Central
 
@@ -23,7 +23,7 @@ Fjárhagsskýrslugerð fyrir [!INCLUDE [prod_short](includes/prod_short.md)] ger
 ## <a name="reports"></a>Skýrslur
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="tasks"></a>Verk
+## <a name="tasks"></a>Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
@@ -34,6 +34,8 @@ Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisi
 * [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
 * [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)  
 * [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521281"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077737"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Stofna verkflæði til að tengja verk viðskiptaferla
 
@@ -179,7 +179,9 @@ Eftirfarandi mynd sýnir yfirlit yfir niðurstöður ferlisins.
 
 Næst þarftu að prófa verkflæðið með því að opna lánardrottin sem er til staðar og breyta heitinu. Staðfestu að samþykkisbeiðni sé gerð um breytingu á heiti lánardrottins.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)  
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  

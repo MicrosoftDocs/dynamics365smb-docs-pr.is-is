@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521047"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075604"
 ---
 # <a name="design-details-assembly-order-posting"></a>Hönnunarupplýsingar: Bókun samsetningarpöntunar
 Bókun samsetningarpöntunar er byggð á sömu forsendum og bókun svipaðra aðgerða sölupantana og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.  
@@ -107,6 +107,13 @@ Birgðafærslan sem myndast við bókun á sölu fyrir samsetningu-til-pöntunar
 Birgðahöfuðbókarfærslur af gerðinni Sala, sem leiða af bókun magns sem er sett saman í pöntun, eru merktar með **Já** í reitnum **Setja saman í pöntun**.  
 
 Bókun sölupantanalína þar sem einn hluti er birgðamagn og annar er magn samsetningarpöntunar býr til aðskildar birgðabókarfærslur; eina fyrir birgðamagn og aðra fyrir magn samsetningarpöntunar.  
+
+### <a name="posting-dates"></a>Bókunardagsetningar
+
+Almennt eru bókunardagsetningar afritaðar úr sölupöntun í tengda samsetningarpöntunina. Bókunardagsetningin í samsetningarpöntuninni uppfærist sjálfkrafa þegar breytt er bókunardagsetningu í sölupöntuninni beint eða óbeint, svo sem ef breytt er bókunardagsetningunni í birgðahús, Birgðatínsla eða sem hluti af magnbókun.
+
+Hægt er að breyta bókunardagsetningunni handvirkt í samsetningarpöntuninni. Hins vegar er ekki hægt að bóka dagsetningu síðar í tengdu sölupöntuninni. Kerfið heldur þessari dagsetningu nema uppfæra bókunardagsetningu í sölupöntuninni.
+
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   

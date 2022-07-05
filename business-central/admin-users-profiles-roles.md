@@ -7,12 +7,12 @@ ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: b17a4f5a375e4fa1ad067d2679b37bb3d0f5da95
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a44338ca10dee37bba6d78ec1c73cb7b156bd2b3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514148"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079273"
 ---
 # <a name="manage-user-profiles"></a>Stjórna notandasíðum
 
@@ -145,7 +145,10 @@ Sem kerfisstjóri á [!INCLUDE[prod_short](includes/prod_short.md)] ánetinu er 
 
 Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er t.d. hægt að stjórna lotum með því að nota SQL Server Management Studio. Frekari upplýsingar er að finna í [tæknileg fylgiskjöl SQL Server](/sql/sql-server).  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/users-security-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
+
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
 [Sérstilling verksvæðis](ui-personalization-user.md)  

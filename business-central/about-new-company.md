@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 4fcc6d93c234e6c7a5b7b62514f53157878fee81
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805229"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079429"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Stofna ný fyrirtæki í[!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -79,7 +79,9 @@ Frekari upplýsingar eru í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-
 
 Í contoso Coffee forritinu eru til sýnigögn til að auðvelda þér að kanna ítarlega getu [!INCLUDE [prod_short](includes/prod_short.md)]. Finndu App í AppSource, og Settu það upp í tómt fyrirtæki, t.d. fyrirtæki í sandkassa umhverfi. Nánari upplýsingar má finna [í kynningu á kaffi sýnishornum](contoso-coffee/contoso-coffee-intro.md).  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilla Business Central](ui-customizing-overview.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
@@ -87,5 +89,6 @@ Frekari upplýsingar eru í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Skilningur á innviðum viðskipta miðlægt á netinu (Enska Only)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
