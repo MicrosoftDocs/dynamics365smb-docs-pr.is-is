@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075083"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129903"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Verkflæði í Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ Sjálfgefin útgáfa [!INCLUDE [prod_short](includes/prod_short.md)] styður þr
 
 * Sjálfvirk samþykktarverkflæði út frá innbyggðu verkflæðissniðmátum  
 
-  **Á síðunni verkflæðissniðmát** er hægt að sjá öll tiltæk verkflæði. Prufuútgáfa af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur fjölda forskilgreindra verkflæða sem sniðmát verkflæðis sem hægt er að afrita til að stofna verkflæði. Þegar verkflæðissniðmát er opnað af **síðunni verkflæði sniðmátsins** og heiti verkflæðisins byrjar *á MS-* þá er sniðmáti verkflæðis bætt við Microsoft.  
+  **Á síðunni verkflæðissniðmát** er hægt að sjá öll tiltæk verkflæði. Prufuútgáfa af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur mörg forskilgreind verkflæði með verkflæðissniðmátum sem hægt er að afrita til að stofna verkflæði. Þegar verkflæðissniðmát er opnað af **síðunni verkflæði sniðmátsins** og heiti verkflæðisins byrjar *á MS-* þá er sniðmáti verkflæðis bætt við Microsoft.  
 * Sjálfvirkt streymi sem þú setur upp sjálfur  
 
   Öll verkflæðissniðmát sem eru stofnuð með Power Automate er bætt við listann yfir verkflæðissniðmát innan [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna [í notkun Viðskiptamiðis í Power Automate streymi](across-how-use-financials-data-source-flow.md).  
@@ -32,15 +32,15 @@ Sjálfgefin útgáfa [!INCLUDE [prod_short](includes/prod_short.md)] styður þr
 
 ## <a name="power-automate-flows"></a>Power Automate streymir
 
-Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] Online er hægt að skrá sig fyrir Power Automate og byggja svo upp öfluga sjálfvirka streymi sem þú getur keyrt að innan [!INCLUDE [prod_short](includes/prod_short.md)] frá. Nánari upplýsingar eru í notkun í flæðisjá [[!INCLUDE[prod_short](includes/prod_short.md)] . Power Automate](across-how-use-financials-data-source-flow.md)  
+Með því að nota [!INCLUDE [prod_short](includes/prod_short.md)] online getur þú skráð þig fyrir Power Automate og byggja síðan upp öfluga sjálfvirka streymdi sem þú getur keyrt að innan [!INCLUDE [prod_short](includes/prod_short.md)] frá. Nánari upplýsingar eru í notkun í flæðisjá [[!INCLUDE[prod_short](includes/prod_short.md)] . Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## <a name="automated-approval-workflows"></a>Sjálfvirk samþykktarverkflæði
 
 Samþykktarverkflæði er stofnað með því að skrá þátt skrefanna í línunum. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins.  
 
-Ef viðskiptaaðstæður krefjast verkflæðistilviddar eða viðbragða sem ekki er stutt í sjálfgefnu útgáfuna skal skrá sig í Power Automate. Nánari upplýsingar eru í notkun í flæðisjá [[!INCLUDE[prod_short](includes/prod_short.md)] . Power Automate](across-how-use-financials-data-source-flow.md) Einnig er hægt að sækja app eða vinna með Microsoft samstarfsaðila til að sérsníða forritskóða.  
+[!INCLUDE[workflow](includes/workflow.md)]
 
-Til að setja upp og nota verkflæði sem ekki eru skilgreind í Power Automate skal athuga eftirfarandi greinar:  
+Til að setja upp og nota verkflæði sem ekki eru skilgreind í Power Automate, Athugið eftirfarandi greinar:  
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  

@@ -1,57 +1,61 @@
 ---
 title: Setja upp tilkynningar verkflæðis
-description: Í þessu efnisatriði er sagt hvernig á að setja upp tilkynningar verkflæðis til að láta notanda vita að tilvik hafi komið upp sem þarf að bregðast við; verkflæðissvar er nauðsynlegt.
+description: Í þessari grein er sagt til um hvernig eigi að setja upp verkflæðistilkynningar til að viðvörun notanda um að tilvik hafi orðið til þess að þau geti brugðist við; verkflæðissvar er nauðsynlegt.
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a41dcc291fb46173533f6552b6c64de35d28bc01
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99c08769429eef51a1d52e142d455ccd227781c7
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134019"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130011"
 ---
 # <a name="workflow-notifications"></a>Tilkynningar verkflæðis
 
-Setja upp verkflæðin til að láta notendur vita sjálfkrafa þegar þeir þurfa að skoða skref í því verkflæði. Mörg Verkflæðissvör snúast um að láta notendur vita að tilvik hafi átt sér stað og þeir þurfi að bregðast við því. Til dæmis getur eitt skref í verkflæði verið að tilvik óski eftir að Notandi 1 samþyki nýja færslu, og að svarið sé að tilkynning sé send til notanda 2, samþykkjanda. Í næsta verkflæðisskrefi getur tilvikið verið að Notandi 2 samþyki færsluna, og svarið að tilkynning sé send til notanda 3 til að hefja tengt ferli samþykktu færslunnar. Í öllum skref verkflæðis sem snúast um samþykki eru tilkynningar tengdar samþykktarfærslu. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
+Setja upp verkflæðin til að láta notendur vita sjálfkrafa þegar þeir þurfa að skoða skref í því verkflæði. Mörg Verkflæðissvör snúast um að láta notendur vita að tilvik hafi átt sér stað og þeir þurfi að bregðast við því.
+
+Til dæmis er hægt að stilla þann notanda 2, notandi samþykkjanda, fær tilkynningu í hvert sinn sem notandi 1 biður um samþykki fyrir nýrri færslu. Í næsta verkflæðisskrefi er notandi 3 látinn vita eftir að notandi 2 samþykkir færsluna til að hefja tengda vinnslu færslunnar. Með verkflæðisskrefum er hver tilkynning bundin við samþykktarfærslu. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
 > [!NOTE]  
-> Almenna útgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] styður tilkynningar sem tölvupóst og innri athugasemdir.  
+> Sjálfgefin útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður tilkynningar sem tölvupóstur og sem innri athugasemdir.  
 
 > [!IMPORTANT]  
 > Allar verkflæðistilkynningar eru sendar um verkröð. Ganga skal úr skugga um að verkröð í uppsetningu sé sett upp þannig að hún meðhöndli verkflæðistilkynningar og að gátreiturinn **Byrja sjálfkrafa frá þjóni** sé valinn. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
 ## <a name="set-up-notifications"></a>Setja upp tilkynningar
 
-Sett eru upp mismunandi verkflæðistilkynningar á viðkomandi stöðum:  
+Hægt er að setja upp mismunandi þætti verkflæðistilkynninga á eftirfarandi stöðum:  
 
 * Tilkynning samþykktaraðila
 
     Fyrir samþykktarverkflæði eru settir upp viðtakendur verkflæðistilkynninga með því að fylla út línu á síðunni **Notandauppsetning samþykktar** fyrir hvern notanda sem tekur þátt í verkflæðinu.  
 
-    Ef notandi 2 er t.d tilgreindur í **Kenni samþykktaraðila** reitnum á línu fyrir notanda 1 þá er tilkynning um samþykktarbeiðni send til notanda 1. Frekari upplýsingar eru í [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md).  
+    Ef notandi 2 er t.d tilgreindur í **Kenni samþykktaraðila** reitnum á línu fyrir notanda 1 þá er tilkynning um samþykktarbeiðni send til notanda 2. Frekari upplýsingar eru í [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md).  
 * Áætlanir tilkynninga
 
     Hægt er að stilla hvenær og hvernig notendur fá tilkynningar verkflæðis með því að fylla út **Áætlun tilkynninga** síðuna fyrir hvern notanda verkflæðis. Frekari upplýsingar eru í [Tilgreina hvenær og hvernig á að fá tilkynningar](across-how-to-specify-when-and-how-to-receive-notifications.md).  
 * Sérsníða tilkynningar í tölvupósti
 
-    Ef þú vilt geturðu sérsniðið innihald á tilkynningu tölvupósts með því að breyta skýrslu 1320, Tilkynningapóstur. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).  
+    Sé þess óskað, er hægt að aðlaga efni tilkynningar í tölvupósti með því að breyta skýrslu 1320, netfang tilkynningar. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).  
 
     > [!NOTE]
     > Eigi að nota tölvupóst sem tilkynningamáta þarf að setja upp tölvupóst bæði fyrir sendanda og móttakanda í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Setja upp tölvupóst](admin-how-setup-email.md).
 
 * Svarmöguleikar
 
-    Sett er upp tiltekið efni og reglur um tilkynningar verkflæðis þegar verkflæðið er stofnað. Þetta er gert með því að velja valkosti á síðunni **Valkostir fyrir verkflæðissvar** fyrir verkflæðissvarið sem táknar tilkynninguna. Frekari upplýsingar eru í skrefi 9 í [Stofna verkflæði](across-how-to-create-workflows.md).  
+    Sett er upp tiltekið efni og reglur um tilkynningar verkflæðis þegar verkflæðið er stofnað. Veljið valkosti sérsniðsvalkosta á **síðunni viðbrögð** við verkflæði fyrir verkflæðissvarið sem stendur fyrir tilkynninguna. Sjá skref 9 í [Create verkflæði til að fá frekari upplýsingar](across-how-to-create-workflows.md#to-create-a-workflow).  
 
 * Tilkynna sendanda
 
-    Fyrir samþykktarverkflæði skal bæta við svarskrefi verkflæðis til að tilkynna sendanda þegar beiðni hefur verið samþykkt eða henni hafnað. Frekari upplýsingar eru í skrefi 9 í [Stofna verkflæði](across-how-to-create-workflows.md).  
+    Fyrir samþykktarverkflæði skal bæta við svarskrefi verkflæðis til að tilkynna sendanda þegar beiðni hefur verið samþykkt eða henni hafnað. Sjá skref 9 í [Create verkflæði til að fá frekari upplýsingar](across-how-to-create-workflows.md#to-create-a-workflow).  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
 [Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)  

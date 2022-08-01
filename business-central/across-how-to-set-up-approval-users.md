@@ -1,6 +1,6 @@
 ---
 title: Setja upp notendur samþykktar
-description: Áður en hægt er að stofna verkflæði sem fela í sér samþykktarskref verður að setja upp verkflæðisnotendur sem taka þátt í samþykktarferlinu með Uppsetningu á notendur samþykktar.
+description: Áður en hægt er að stofna verkflæði sem fela í sér samþykktarskref verður að setja upp verkflæðinotendur sem taka þátt í samþykktarferlum á síðu Samþykktarnotanda.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7602481a357a9b9e362a7b6fc0d605de04f44537
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129208"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129795"
 ---
 # <a name="set-up-approval-users"></a>Setja upp notendur samþykktar
 
@@ -39,14 +39,14 @@ ms.locfileid: "8129208"
     |**Kóði sölumanns/innk.aðila**|Tilgreina skal sölumann eða kaupanda kóða sem gildir um notandann í **Sölum./Innk. kóði** reitnum.<br /><br /> Vanalega er reiturinn **Sölum./Innk. kóði** fylltur út ef sölumaður eða kaupandi sem er ábyrgur fyrir viðskiptamanninum eða lánardrottni er einnig aðilinn sem þarf að samþykkja sölu eða innkaupabeiðinina.|  
     |**Notandakenni samþykkjanda**|Velja notandakenni notanda sem verður að samþykkja beiðnir sem gerðar eru af notandanum í reitnum **Notandakenni**.|  
     |**Takmörk samþykktar á sölu**|Tilgreina hámarkssöluupphæð í SGM sem notandi í **Notandakenni** reitnum getur samþykkt.|  
-    |**Ótakmörkuð söluheimild**|Tilgreina að notandi í **Notandakenni** reitnum getur samþykkt allar sölubeiðnir saman hver upphæð þeirra er.<br /><br /> Sé þessi gátreitur valinn er ekki hægt að fylla út **Samþykktarmörk söluupphæðar** reitinn.|  
+    |**Ótakmörkuð söluheimild**|Tilgreina að notandi í **Notandakenni** reitnum getur samþykkt allar sölubeiðnir saman hver upphæð þeirra er.<br /><br /> Ef þessi gátreitur er valinn er ekki hægt að **fylla út reitinn samþykkisöluupphæðarmörk** sölu.|  
     |**Takmörk samþykktar á innkaupum**|Tilgreina hámarkssöluupphæð í SGM sem notandi í **Notandakenni** reitnum getur samþykkt.|  
-    |**Ótakmörkuð innkaupaheimild**|Tilgreina að notandi í **Notandakenni** reitnum getur samþykkt allar sölubeiðnir saman hver upphæð þeirra er.<br /><br /> Sé þessi gátreitur valinn er ekki hægt að fylla út **Samþykktarmörk söluupphæðar** reitinn.|  
+    |**Ótakmörkuð innkaupaheimild**|Tilgreina að notandi í **Notandakenni** reitnum getur samþykkt allar sölubeiðnir saman hver upphæð þeirra er.<br /><br /> Ef þessi gátreitur er valinn er ekki hægt að **fylla út reitinn samþykkisöluupphæðarmörk** sölu.|  
     |**Takmörk samþykktar á beiðni**|Tilgreina hámarksupphæð í SGM sem notandi í **Notandakenni** reitnum getur samþykkt fyrir innkaupabeiðni.<br /><br /> Til að nota þennan reit þarf að velja **Keðja samþykkjenda** valkostinn í **Gerð takmarkana fyrir samþykktaraðila** reitnum á síðunni **Verkflæðissvörun**.|  
-    |**Ótakmörkuð samþykktarbeiðniheimild**|Tilgreina að notandi í **Notandakenni** reitnum getur samþykkt öll kauptilboð saman hver upphæð þeirra er.<br /><br /> Sé þessi gátreitur valinn er ekki hægt að fylla út **samþykktarmörk pantanaupphæðar** reitinn.|  
-    |**Staðgengill**|Velja notandakenni notanda sem verður að samþykkja beiðnir sem gerðar eru af notandanum í reitnum **Notandakenni** ef notandinn í **Samþykktaraðilakenni** reitnum er ekki laus. <br /><br />**Athugið:** Staðgengillinn getur annaðhvort verið notandinn í reitnum **Staðgengill**, beini samþykkjandinn eða samþykktarstjórnandi, í þessari forgangsröð. Frekari upplýsingar eru í [Nota verkflæði samþykktar](across-how-use-approval-workflows.md).|  
+    |**Ótakmörkuð samþykktarbeiðniheimild**|Tilgreina að notandi í **Notandakenni** reitnum getur samþykkt öll kauptilboð saman hver upphæð þeirra er.<br /><br /> Ef þessi gátreitur er valinn, þá er ekki hægt að **fylla út reitinn samþykkisupphæð beiðni um samþykki**.|  
+    |**Staðgengill**|Veljið NOTANDAKENNI notandans sem þarf að samþykkja beiðnir frá notandanum í **reitnum notandakenni** ef notandinn í **Kenni samþykkis** er ekki tiltækur. <br /><br />**Athugið:** Staðgengillinn getur annaðhvort verið notandinn í reitnum **Staðgengill**, beini samþykkjandinn eða samþykktarstjórnandi, í þessari forgangsröð. Frekari upplýsingar eru í [Nota verkflæði samþykktar](across-how-use-approval-workflows.md).|  
     |**Netfang**|Tilgreina netfang notanda í **Notandakenni** reitnum.|  
-    |**Samþykktastjórnandi**|Tilgreina notandann sem hefur rétt til að opna fyrir samþykktarverkflæði, t.d. með því að úthluta samþykktarbeiðnum á nýja samþykkjendur og eyða samþykktarbeiðnum sem hafa fallið á tíma.|
+    |**Samþykktastjórnandi**|Tilgreinið notandann sem hefur réttindi til að loka ólæsa samþykktarverkflæði. D. með því að ráðstafa samþykkisbeiðnum til nýrra staðgengilsvara og eyða gjaldföllnum samþykkisbeiðnum.|
 
     > [!Note]
     > Aðeins einn einstaklingur getur verið stjórnandi samþykkis.
@@ -54,14 +54,16 @@ ms.locfileid: "8129208"
 3. Til að prófa uppsetningu samþykkts notanda, skal velja aðgerðina **Uppsetning samþykkts notanda**.  
 4. Endurtaka skal þrep 2 til 3 fyrir hvern notanda sem á að stofna sem notanda samþykkis.  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-workflows/)
 
-[Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)   
-[Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)   
-[Búa til verkflæði](across-how-to-create-workflows.md)   
-[Uppsetning verkflæðis](across-set-up-workflows.md)   
-[Kynning: Uppsetning og notkun verkflæði innkaupasamþykktar](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Verkflæði](across-workflow.md)   
+## <a name="see-also"></a>Sjá einnig .
+
+[Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)  
+[Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  
+[Búa til verkflæði](across-how-to-create-workflows.md)  
+[Uppsetning verkflæðis](across-set-up-workflows.md)  
+[Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Verkflæði](across-workflow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

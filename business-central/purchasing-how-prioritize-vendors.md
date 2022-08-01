@@ -10,14 +10,15 @@ ms.search.keywords: supplier, payment priority
 ms.search.form: 26, 27
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 411163798b5af49a154e19243e556c010bffd5ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ed025f130fc2de9be77c373ab9b651844496b8a7
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513784"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144203"
 ---
 # <a name="prioritize-vendors"></a>Forgangsraða lánardrottnum
+
 [!INCLUDE[prod_short](includes/prod_short.md)] getur lagt til ýmsar greiðslur til lánardrottna t.d. greiðslur sem eru bráðum á gjalddaga eða greiðslur sem hægt er að fá afslátt af. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
 
 Fyrst verður að forgangsraða lánardrottnum með því að úthluta númerum á þá.
@@ -25,6 +26,7 @@ Fyrst verður að forgangsraða lánardrottnum með því að úthluta númerum 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>Lánardrottnum forgangsraðað
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
 2. Veljið viðeigandi lánardrottin og veljið því næst **Breyta**.
 3. Í reitinn **Forgangur** skal færa inn númer.
@@ -33,10 +35,11 @@ Fyrst verður að forgangsraða lánardrottnum með því að úthluta númerum 
 
 Ef ekki á að forgangsraða lánardrottni er reiturinn **Forgangur** skilinn eftir auður. Síðan ef notuð er aðgerðin greiðslutillaga er lánardrottininn settur á lista á eftir öllum lánardrottnunum sem hafa forgangsnúmer. Hægt er að færa inn eins mörg forgangsstig og nauðsynlegt er.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
+
+[Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

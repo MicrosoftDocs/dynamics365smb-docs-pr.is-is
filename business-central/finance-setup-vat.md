@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740312"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130119"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts
 
@@ -171,6 +171,21 @@ Hægt er að breyta eða eyða VSK-klausu og þá birtast breytingarnar í mynda
 2. Veljið aðgerðina **Þýðingar**.  
 3. Í reitnum **Tungumálakóði** skal velja tungumál sem þýtt er yfir á.  
 4. Í reitunum **Lýsing** og **Lýsing 2** eru færðar inn þýðingar á lýsingunum. Þessi texti er birtur í þýddum VSK-skýrsluskjölum.  
+
+### <a name="to-specify-extended-text-for-vat-clauses"></a>Lengdur texti tilgreindur fyrir VSK-ákvæði
+
+> [!NOTE]  
+> Ef land eða svæði þess þarf lengri texta fyrir VSK-ákvæði en sjálfgefnu útgáfuna er hægt að tilgreina lengri texta fyrir VSK-ákvæði sem *lengri texta* svo að hann prenti í sölu-og innkaupaskýrslum.  
+
+1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 11.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-ákvæði** og velja síðan viðkomandi tengil.  
+2. Velja skal aðgerðina fyrir **lengda texta**.  
+3. Fyllt er í reitina **Kóti** og **Lýsing**.  
+3. Valið er aðgerðin **Nýtt**.  
+4. Hægt er að **velja kóta** allra tungumálskóta eða tilgreina viðeigandi tungumál í **reitnum Tungumálskóti** ef tungumálakótar eru notaðir.  
+5. Reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru fylltir út ef afmarka á tímabil fyrir lengdan texta.  
+6. **Skrifa lengdan texta fyrir VSK-ákvæði í textalínur**.  
+7. Veljið viðeigandi reiti fyrir fylgiskjalstegundum þar sem prenta á lengda textann.  
+8. Loka síðunni.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Stofna VSK-bókunaruppsetningu til að sjá um VSK af innflutningi
 

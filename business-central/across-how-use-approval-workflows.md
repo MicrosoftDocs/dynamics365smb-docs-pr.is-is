@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 46c81fa887af70e7a2f516df38ec003392b1dabd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a4dcb5c9f12190a662c4f45bbadcfdddee70fa7f
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079351"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129822"
 ---
 # <a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
 
@@ -20,7 +20,7 @@ ms.locfileid: "9079351"
 
 Setja upp samþykktarverkflæði á síðunni **Verkflæði**. Einnig verður að setja upp samþykkisnotendur, þar á meðal viðeigandi mörk upphæða, á síðunni **Uppsetning samþykkisnotanda**. Nánari upplýsingar er að finna í [Uppsetning Verkflæði](across-set-up-workflows.md).  
 
-Í viðbót við samþykktarverkflæði sem lýst er í þessu efnisatriði, geturðu framkvæmt ýmis önnur verkflæðisverk. Fyrir frekari upplýsingar, [Notið verkflæði](across-use-workflows.md).
+Auk samþykktarverkfallverkða sem lýst er í þessari grein er hægt að framkvæma ýmis önnur verkflæðiverk. Sjá [Use verkflæði](across-use-workflows.md) fyrir frekari upplýsingar.
 
 Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur, viðskiptamannaspjöld og birgðaspjöldum eru tilbúin til að byrja sem leiðarvísir. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).
 
@@ -31,9 +31,9 @@ Eftirfarandi verkið er framkvæmt af samþykktarnotanda.
 1. Á síðunni sem táknar færsluna er valið **Senda samþykktarbeiðni** aðgerðin.
 2. Til að sjá allar samþykktarbeiðnir þínar skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, færa inn **Samþykktarbeiðnifærslur** og velja síðan viðkomandi tengil.  
 
-Staða samþykktarfærslunnar er uppfærð úr **Stofnað** í **Opið**. Staða færslunnar, til dæmis innkaupareikningur, er uppfærð úr **Opin** í **Bíður samþykkis** og er áfram lokuð fyrir breytngar þar til allir samþykkjendur hafa samþykkt færsluna.
+Staða samþykktarfærslunnar er uppfærð úr **Stofnað** í **Opið**. Staða færslunnar, til dæmis innkaupareikningur, er uppfærður úr **opin** í **Bið eftir samþykkt** og enn er læst fyrir vinnslu þar til allir samþykkjendur hafa samþykkt færsluna.
 
-Þegar samþykkjandi hefur samþykkt færslu breytist staðan í **Losuð** Þá er hægt að halda áfram verkefni með færsluna.
+Þegar allir nauðsynlegir samþykkjendur hafa samþykkt færsluna breytist staðan í **Útgefin**. Þá er hægt að halda áfram verkefni með færsluna.
 
 ## <a name="to-cancel-requests-for-approval"></a>Hætt við beiðnir um samþykki
 
@@ -65,7 +65,7 @@ Ef samþykkjendastigveldi er til staðar mun færslustaða vera **Bíður samþy
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
-Til að koma í veg fyrir að skjöl safnist upp með öðru móti stífla verkflæði getur sá sem bað um samþykktina eða samþykkjandinn úthlutað samþykktarbeiðni til staðgengilssamþykkjanda. Staðgengil getur annað hvort verið tilgreindur staðgengill, beinn samþykkjandi eða stjórnandi samþykkis, í þeirri forgangsröð. Þessi aðgerð er yfirleitt notuð ef samþykkjandi er ekki við og getur ekki samþykkt beiðnir fyrir lokadaginn.
+Til að koma í veg fyrir að skjöl safnist upp með öðru móti stífla verkflæði getur sá sem bað um samþykktina eða samþykkjandinn úthlutað samþykktarbeiðni til staðgengilssamþykkjanda. Staðgengil getur annað hvort verið tilgreindur staðgengill, beinn samþykkjandi eða stjórnandi samþykkis, í þeirri forgangsröð. Þessi aðgerð er vanalega notuð ef samþykkjandi er ekki tiltæk eða getur ekki samþykkt beiðnir fyrir gjalddaga.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Beiðnir til að samþykkja** og velja síðan viðkomandi tengil.
 2. Velja eina eða fleiri línur fyrir samþykktarbeiðni sem á að úthluta á staðgengil til samþykktar, og veldu síðan aðgerðina **framselja**.
@@ -76,9 +76,9 @@ Tilkynning um að samþykkja beiðnina er send til staðgengilssamþykkjanda.
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
-Með reglulegu millibili kann að þurfa að minna notendur samþykktarverkflæðis á beiðnir sem eru fallnar á tíma og sem þeir þurfa að bregðast við. Virknin **Senda samþykkistilkynningar sem komnar eru fram yfir á tíma** er notuð fyrir þetta.
+Með reglulegu millibili kann að þurfa að minna notendur samþykktarverkflæðis á beiðnir sem eru fallnar á tíma og sem þeir þurfa að bregðast við. Aðgerðin senda samþykkt Áfallnar tilkynningar **er notuð** til að minna notendur á.
 
-Aðgerðin **Senda samþykkistilkynningar sem komnar eru fram yfir á tíma** kannar allar opnar samþykktar færslur sem eru fallnar á tíma. Allir samþykkjendur með a.m.k. eina samþykkt fram yfir á tíma fá tilkynningu með lista yfir þær samþykktarfærslur sem fallnar eru á tíma. Afrit af tilkynningu er sent til samþykkjenda þeirra og allra sendenda samþykkta sem fallnar eru á tíma. Þetta er gagnlegt ef nauðsynlegt er að framselja samþykktarfærslu sem fallin er á tíma til staðgengils.
+Aðgerðin **Senda samþykkistilkynningar sem komnar eru fram yfir á tíma** kannar allar opnar samþykktar færslur sem eru fallnar á tíma. Allir samþykkjendur með a.m.k. eina samþykkt fram yfir á tíma fá tilkynningu með lista yfir þær samþykktarfærslur sem fallnar eru á tíma. Afrit af tilkynningu er sent til samþykkjenda þeirra og allra sendenda samþykkta sem fallnar eru á tíma. Þessi Síðasta skref hjálpar til ef samþykkja þarf samþykktarfærslu vanskila í staðgengilsvara.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Samþykktarbeiðnir sem eru fallnar á tíma** og velja síðan viðkomandi tengil.
 2. Á síðunni **Samþykktarbeiðnir komin fram yfir á tíma** er valið á **Samþykktarbeiðnir komin fram yfir á tíma Tilkynningar** aðgerð.

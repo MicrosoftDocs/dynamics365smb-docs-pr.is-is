@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077372"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130227"
 ---
 # <a name="use-workflows"></a>Nota verkflæði
 
 Verkflæði er röð verka sem aðgerð, skilyrði eða regla setur af stað. Verkflæði eru yfirleitt innleidd til að samþætta viðskiptagrunn við fyrirtæki, t.d. aðskilnað aðgangsheimilda, sameiningu ferla eða til að auka traust og ábyrgð.  
 
-Verkflæðin eru hönnuð til að stofna beiðnir vegna samþykktar á nýju gildi en geyma hinsvegar gamla gildið ef beiðnin verður ekki samþykkt. Nýja gildið verður ekki innleitt fyrr en síðasta beiðnin er samþykkt.  
+Verkflæðinu er ætlað að skapa beiðnir um samþykki á nýju gildi en halda gömlu gildi sínu Ef beiðnin er ekki samþykkt. Nýja gildið verður ekki útfært fyrr en Síðasta beiðni er samþykkt.  
 
 Viðskiptagrunnurinn gæti verið samþykki á:
 
@@ -37,7 +37,7 @@ Eftirfarandi skýringarmynd sýnir dæmi um verkflæði með samþykktarröð se
 
 ![Mynd af verkflæði með samþykktarröð.](media/Workflows/approval-flow.png)
 
-Í þessu dæmi verður fyrsti samþykktaraðilinn að samþykkja beiðnina áður en beiðnin er send á næsta samþykktaraðilann. Ef beiðnin er ekki samþykkt af fyrsta samþykktaraðilanum verður beiðnin aldrei send á næsta samþykktaraðilann.  
+Í þessu dæmi verður fyrsti samþykktaraðilinn að samþykkja beiðnina áður en beiðnin er send á næsta samþykktaraðilann. Ef beiðnin er ekki samþykkt af fyrsta samþykkjanda, fer beiðnin aldrei til næsta samþykkjanda.  
 
 Leiðin sem farin er frá upphaflegri ræsingu verkflæðisins getur verið breytileg eftir því hvers eðlis samþykktin er.  
 
@@ -45,29 +45,29 @@ Eftirfarandi mynd sýnir samhliða samþykki sem notandi setur af stað. Með þ
 
 ![Mynd af verkflæði með samhliða samþykki.](media/Workflows/approval-flow-2.png)
 
-Verkflæðið er hinsvegar ekki samþykkt fyrr en allir samþykktaraðilar hafa samþykkt beiðnirnar eins og sýnt er á eftirfarandi mynd:  
+Hins vegar er verkfall ekki samþykkt fyrr en allar beiðnir hafa verið samþykktar af samþykkjendum, eins og sést á eftirfarandi mynd:  
 
 ![Mynd af höfnuðu verkflæði með samhliða samþykki.](media/Workflows/approval-flow-3.png)
 
 > [!NOTE]  
 > Ekki er hægt að búa til verkflæði með mörgum samþykktaraðilum og ætlast til þess að allt verkflæðið verði samþykkt eftir að fyrsta beiðnin hefur verið samþykkt. Samþykkja þarf allar beiðnir svo að verkflæðið verði samþykkt.
 
-Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Einnig er hægt að stofna sama verkflæðið oftar en einu sinni. Hvert verkflæði er ræst af tilviki með mismunandi síum. Þetta er gagnlegt ef samþykkisbeiðni í einni deild þarf að vera samþykkt af einum samþykktaraðila, en samþykkisbeiðnir í öðrum deildum þurfa að vera samþykktar af öðrum samþykktaraðila. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.  
+Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Það er líka hægt að stofna sama verkflæði oftar en einu sinni. Hægt er að kveikja á hverju verkflæði með mismunandi síum. Þetta er gagnlegt ef samþykkja þarf samþykkisbeiðni í einni deild með einum samþykkjanda, á meðan samþykkisbeiðnir á öðrum deildum verða að vera samþykktar af öðrum samþykkjanda. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.  
 
- Áður en hægt er að byrja að nota verkflæði verður að setja upp notendur verkflæðis, stofna verkflæði, hugsanlega eftir að hafa sérsniðið kóða og tilgreina hvernig notendur fá tilkynningar. Nánari upplýsingar er að finna í [Uppsetning Verkflæði](across-set-up-workflows.md).  
+Áður en hægt er að byrja að nota verkflæði verður að setja upp notendur verkflæðis, stofna verkflæði, hugsanlega eftir að hafa sérsniðið kóða og tilgreina hvernig notendur fá tilkynningar. Nánari upplýsingar er að finna í [Uppsetning Verkflæði](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > Dæmigerð verkflæðisskref eru um notendur sem biðja um samþykki verka og samþykkjendur sem samþykkja eða hafna samþykktarbeiðnum. Því vísa mörg efni um hvernig nota eigi verkflæði til Samþykktir.  
 
- Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
+ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.  
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
 |Stilla verkflæði á að hefjast þegar fyrsta færslupunktstilvik á sér stað.|[Virkja verkflæði](across-how-to-enable-workflows.md)|  
 |Samþykktarbeiðni fyrir verk, sem samþykktaraðili samþykkirðu, hafnarðu eða úthlutar samþykktum, og sendir eða ferð yfir samþykktartilkynningar.|[Nota Samþykktarverkflæði](across-how-use-approval-workflows.md)|  
 |Stofna verkflæðisskreft sem takmarka sérstakri færslugerð sé notuð áður en tiltekið tilvik á sér stað, til dæmis að færsla sé samþykkt.|[Takmarka og heimila notkun á færslu](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Skoða verkflæðisskrefatilvik með stöðuna Lokið.|[Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md)|  
-|Eyða verkflæði sem á örugglega ekki að nota aftur.|[Eyða verkflæðum](across-how-to-delete-workflows.md)|  
+|Skoða skref verkflæðis fyrir stöðuna **lokið**.|[Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md)|  
+|Eyða verkflæði sem þú ert örugglega ekki lengur að nota.|[Eyða verkflæðum](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-workflows/)
 

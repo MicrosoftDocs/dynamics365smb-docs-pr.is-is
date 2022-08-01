@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 301856bcf246f7546992de588472459e1bbec378
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077737"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130092"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Stofna verkflæði til að tengja verk viðskiptaferla
 
@@ -22,9 +22,9 @@ Hægt er að stofna verkflæði sem tengja viðskiptaferlisverk sem framkvæmd e
 
 Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af verkflæðistilvikum sem breytt er af tilvikaskilyrðum og verkflæðisviðbrögðum með viðbragðavalkostum. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins.  
 
-Þegar verkflæði eru stofnuð er hægt að afrita skref úr núgildandi verkflæði eða úr verkflæðissniðmátum. Verkflæðissniðmát eru óbreytanleg verkflæði sem eru til staðar í altæku útgáfunni af [!INCLUDE[prod_short](includes/prod_short.md)]. Kóði fyrir verkflæðissniðmát sem er bætt við af Microsoft eru merkt með "MS-", eins og í "MS-PIW". Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
+[!INCLUDE[workflow](includes/workflow.md)]
 
-Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki eru studd verður Microsoft-samstarfsaðili að virkja þær með því að búa til viðbót sem innleiðir viðeigandi verkflæðistilvik.  
+Þegar verkflæði eru stofnuð er hægt að afrita skref úr núgildandi verkflæði eða úr verkflæðissniðmátum. Verkflæðissniðmát eru óbreytanleg verkflæði sem eru til staðar í altæku útgáfunni af [!INCLUDE[prod_short](includes/prod_short.md)]. Kóði fyrir verkflæðissniðmát sem er bætt við af Microsoft eru merkt með "MS-", eins og í "MS-PIW". Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
 
 > [!NOTE]  
 > Allar tilkynningar um verkflæðisskref eru sendar um verkröð. Gakktu úr skugga um að verkröðin endurspegli viðskiptaþarfir þínar. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).  
@@ -33,15 +33,18 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
 
 Verkflæðið skiptist í þrennt:
 
-1) **Þegar atburður** Þetta er þar sem ræsingin er valin.
-    Dæmi um ræsingu gæti verið:
-    - Aðalgagnafærslu er breytt
-    - Færslubókarlína er stofnuð
-    - skjal á innleið er búið til eða gefið út
-    - Óskað er eftir samþykki skjals
+1. **Þegar atburður**  
+   Hér er kveikurinn valinn.  
+   Dæmi um ræsingu gæti verið:
+   * Aðalgagnafærslu er breytt
+   * Færslubókarlína er stofnuð
+   * Komandi skjal er stofnað eða gefið út
+   * Óskað er eftir samþykki skjals
 
-2) **Með því skilyrði** **Skilyrðin** eru tengd tilvikinu og opna á að búa til síur þegar tilvikið er ræst
-3) **Svarið sem fylgir** **Svörin** svara því hvað felst í næsta skrefi vinnunnar.
+2. **Um skilyrði**  
+   **Skilyrðin** tengjast tilvikinu og opnast fyrir að búa til afmarkanir um hvenær atvikið er ræst.
+3. **Þá svarar**  
+   Í **svörunum** er brugðist við því hvað næstu skref í atvinnulífinu eru.
 
 Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður við nýjum tilvikum með þróun á viðbót.
 
@@ -50,13 +53,13 @@ Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**. Síðan **Verkflæði** opnast.  
 3. Í **Kóði** reitinn skal slá inn að hámarki 20 stafi til að auðkenna verkflæðið.  
-4. Til að stofna verkflæði úr verkflæðissniðmáti, skal velja á síðunni **Verkflæði** aðgerðina **Stofna verkflæði úr sniðmáti**. Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Til að stofna verkflæðið úr sniðmáti verkflæðis, á **síðunni verkflæði**, skal velja **nýja verkflæðið úr sniðmátinu** aðgerð. Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Í **Lýsing** reitnum skal lýsa verkflæðinu.  
 6. Í **Flokkur** reitnum skal tilgreina hvaða flokki verkflæðið tilheyrir.  
 7. Í reitnum **Þegar tilvik** skal tilgreina tilvik sem verður að eiga sér stað til að að verkflæðisskref geti hafist.  
 
-    Þegar reiturinn er valinn opnast síðan **Verkflæðitilvik** þar sem hægt er að velja úr öllum tilvikum verkflæðis sem til eru.  
-8. Í reitnum **Skilyrði**, tilgreinið eitt eða fleiri skilyrði sem þarf að uppfylla áður en tilvikið í **Þegar tilvik** reitnum getur átt sér stað.  
+    Þegar svæðið **er valið opnast síðan verkflæðistilvik** þar sem valið er úr öllum tiltækum viðburðum verkflæðis.  
+8. **Í reitnum skilyrði** skal tilgreina eitt eða fleiri skilyrði sem verður að vera uppfyllt áður en atburðurinn í **reitnum tilvik** getur átt sér stað.  
 
     Þegar reiturinn er valinn opnast síðan **Skilyrði tilviks** þar sem valið er úr lista yfir síureit sem eru viðeigandi sem skilyrði fyrir viðkomandi tilvik. Hægt er að bæta nýja afmörkunarreitirnir sem á að nota sem atburðurinn skilyrði. Þú stillir tilvikaaðstæður með sama hætti og þú stillir afmarkanir á skýrslubeiðnisíðum.  
 
@@ -66,17 +69,17 @@ Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður 
     2. Í reitnum **Stjórnandi** skal velja annað hvort **Minnkað**, **Aukið**, eða **Breytt**.  
 9. Í reitnum **Þá svörun**, tilgreinið viðbrögð sem fylgja þegar verkflæðistilvik á sér stað.  
 
-     Þegar reiturinn er valinn opnast síðan **Verkflæðiviðbrögð** þar sem hægt er að velja úr öllum verkflæðisviðbrögðum sem til eru og stilla valkosti viðbragðs fyrir valda viðbragðið.  
-10. Á flýtiflipanum **Valkostir fyrir valið svar** tilgreinið valkosti fyrir verkflæðissvarið með því að elja gildi í ýmsum reitum sem birtast, sem hér segir:  
+     Þegar svæðið **er valið opnast síða verkflæðisviðbragða** þar sem valið er úr svörum við tiltækum verkflæði og svarvalkostum fyrir valið svar.  
+10. **Á valkostunum fyrir valda svörun svarflipa**, Tilgreinið valkosti fyrir svar við verkflæði með því að velja gildi í mismunandi reitum sem birtast hér:  
 
     1. Til að tilgreian valkosti fyrir verkflæðissvar sem felur í sér að senda tilkyningu skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
         |Svæði|Description|  
         |-----|-----------|  
-        |**Tilkynna sendanda**|Tilgreindu hvort samþykkisbeiðandi fái tilkynningu í staðinn fyrir viðtakanda samþykkisbeiðninnar. Ef gátreiturinn er valinn er slökkt á reitnum **Notandaauðkenni viðtakanda** vegna þess að tilkynning berst til þess sem sendi beiðnina fær tilkynningu í staðinn. Heiti verkflæðissvars breytist til samræmis, í **Búa til tilkynningu fyrir &lt;Sendanda&gt;**. Ef gátreiturinn er ekki valinn er heiti verkflæðissvars **Búa til tilkynningu fyrir &lt;Notanda&gt;**.
-        |**Notandaauðkenni viðtakanda**|Tilgreina þarf notanda sem tilkynningin verður að senda á. **Athugið**: Þessi valmöguleiki er aðeins tiltækur fyrir verkflæðisvörun með staðgengil fyrir tiltekinn notanda. Fyrir verkflæðissvör án staðgengils notenda er móttakandi tilkynningar yfirleitt skilgreinist eftir notandauppsetning samþykktar.|  
+        |**Tilkynna sendanda**|Tilgreindu hvort samþykkisbeiðandi fái tilkynningu í staðinn fyrir viðtakanda samþykkisbeiðninnar. Ef gátreiturinn er valinn er slökkt á reitnum **Notandaauðkenni viðtakanda** vegna þess að tilkynning berst til þess sem sendi beiðnina fær tilkynningu í staðinn. Heiti verkflæðissvars breytist til samræmis, í **Búa til tilkynningu fyrir &lt;Sendanda&gt;**. Ef gátreiturinn er ekki valinn er **Heiti verkflæðissvars stofnað tilkynning fyrir &lt; notanda&gt;**.
+        |**Notandaauðkenni viðtakanda**|Tilgreina þarf notanda sem tilkynningin verður að senda á. **Athugið**: Þessi valmöguleiki er aðeins tiltækur fyrir verkflæðisvörun með staðgengil fyrir tiltekinn notanda. Fyrir verkflæði viðbragða án frátakara fyrir notendur er tilkynningarviðtalið yfirleitt skilgreint með **notandauppsetningu** samþykktarinnar.|  
         |**Færslugerð tilkynningar**|Tilgreinir hvort tilkynning verkflæðis hafi farið af stað vegna breytinga á færslu, samþykktarbeiðni eða því að gögn séu ekki til á réttum tíma.|
-        |**Tengja marksíðu**|Tilgreindu aðra síðu sem tengill í tilkynningunni opnar í stað þeirrar sjálfgefnu. Athugið að síðan verður að hafa sömu upprunatöflu og viðkomandi færsla.|
+        |**Tengja marksíðu**|Tilgreindu aðra síðu sem tengill í tilkynningunni opnar í stað þeirrar sjálfgefnu. Síðan verður að hafa sömu upprunatöflu og færslan sem um er að ræða.|
         |**Sérsniðinn tengill**|Tilgreindu vefslóð tengils sem er bætt við tilkyninninguna auk tengilsins við síðuna.|  
 
     2. Til að tilgreina valkosti fyrir verkflæðissvar sem felur í sér að senda tilkynningu skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
@@ -87,7 +90,7 @@ Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður 
         |**Framselja eftir**|Tilgreina ef og þegar samþykkisbeiðni er sjálfkrafa úthluta á viðeigandi varamann. Hægt er að velja sjálfkrafa að úthluta einn, tvo eða fimm dögum eftir þá dagsetning þegar beðið var um samþykkt.|
         |**Gerð samþykkjanda**|Tilgreina hver er samþykkjandi, samkvæmt uppsetningu á notendum samþykktar og notendur verkflæði. Þegar reiturinn er stilltur á **Sölumaður/innkaupaaðili** tilgreinir sú stilling að notandinn sem settur er upp í reitnum **Sölumaður/Innk. Kóði** á síðunni **Uppsetning á notanda samþykktar** ákvarði samþykkjanda. Færslur fyrir samþykktarbeiðni eru þá stofnaðar samkvæmt gildinu í reitnum **Afmörkunargerð samþykkjanda**. Frekari upplýsingar eru í [Setja upp notendur samþykktar](across-how-to-set-up-workflow-users.md).|
         |**Sýna staðfestingarskilaboð**|Tilgreina ef staðfestingarskilaboð birtist notendum eftir að þeir óska ​​eftir samþykki.|
-        |**Afmörkunargerð samþykkjanda**|Tilgreindu hvernig samþykktartakmarkanir þeirra sem samþykkja hafa áhrif á færslur samþykktarbeiðna sem eru stofnaðar fyrir þau. Hæfur samþykkjandi er samþykkjandi sem hefur samþykktarmörk sem eru hærri en gildið á umræddri beiðni. Eftirfarandi valmöguleikar eru til staðar: <ol><li>**Keðja samþykkjenda** tilgreinir að færslur samþykktarbeiðni eru stofnaðar fyrir alla samþykkjendur frá og með fyrsta samþykkjanda sem uppfyllir skilyrði</li><li>**Beinn samþykkjandi** tilgreinir að samþykktarbeiðnisfærsla er aðeins stofnuð fyrir næsta samþykkjanda, sama hver samþykktarmörk hans eru.</li><li>**Fyrsti hæfi samþykkjandi** tilgreinir að samþykktarbeiðnisfærsla er aðeins stofnuð fyrir fyrsta samþykkjanda sem uppfyllir skilyrði.</li></ol>|
+        |**Afmörkunargerð samþykkjanda**|Tilgreindu hvernig samþykktartakmarkanir þeirra sem samþykkja hafa áhrif á færslur samþykktarbeiðna sem eru stofnaðar fyrir þau. Hæfur samþykkjandi er samþykkjandi sem hefur samþykktarmörk sem eru hærri en gildið á umræddri beiðni. Eftirfarandi möguleikar eru til staðar: <ol><li>**Keðja samþykkjenda** tilgreinir að færslur samþykktarbeiðni eru stofnaðar fyrir alla samþykkjendur frá og með fyrsta samþykkjanda sem uppfyllir skilyrði</li><li>**Beinn samþykkjandi** tilgreinir að samþykktarbeiðnisfærsla er aðeins stofnuð fyrir næsta samþykkjanda, sama hver samþykktarmörk hans eru.</li><li>**Fyrsti hæfi samþykkjandi** tilgreinir að samþykktarbeiðnisfærsla er aðeins stofnuð fyrir fyrsta samþykkjanda sem uppfyllir skilyrði.</li></ol>|
     3. Til að tilgreina valkostir fyrir verkflæðissvar sem inniheldur að stofna færslubókarlínur skal fylla í reitirnir eins og lýst er í eftirfarandi töflu.  
 
         |Svæði|Description|  
@@ -103,8 +106,8 @@ Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður 
     > [!NOTE]  
     >  Aðeins er hægt að breyta inndrætti skrefs sem ekki hefur skref á eftir sér.  
 
-12. Endurtakið skref 7 til 11 til að bæta fleiri verkflæðisskrefum við, annaðhvort fyrir eða eftir skrefið sem var verið að stofna.  
-13. Veljið gátreitinn **Virkja** til að tilgreina að verkflæði hefjist um leið og tilvik á fyrsta skerfi af gerðinni **Komustaður** á sér stað. Sjá [Use verkflæði fyrir frekari upplýsingar](across-use-workflows.md).  
+12. Endurtakið skref 7 til 11 til að bæta við fleiri verkflæðisskrefum, annað hvort á undan eða eftir skrefinu sem búið var að stofna.  
+13. Kveikja skal á **Virkjapunktinum** til að tilgreina að verkflæðið byrji um leið og atburður á upphafsstigi **af gerðinni** færsla kemur. Sjá [Use verkflæði](across-use-workflows.md) fyrir frekari upplýsingar.  
 
 > [!NOTE]  
 > Ekki skal virkja verkflæði þar til víst er að verkflæði sé lokið að að umrædd verkflæðisskref geti hafist.  
@@ -114,7 +117,7 @@ Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður 
 
 ## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Dæmi um hvernig nýtt verkflæði er búið til með því að nota fyrirliggjandi tilvik
 
-Í eftirfarandi dæmi er nýtt vinnuferli gert til að samþykkja breytingar á nafni núverandi lánardrottni:
+Í dæminu hér á eftir er nýtt verkflæði samþykkt til að samþykkja breytingar á heitinu á núverandi lánardrottni:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**. Síðan **Verkflæði** opnast.
@@ -139,7 +142,7 @@ Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður 
     Frekari upplýsingar eru í [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md).  
     6. Bættu við þriðja svarinu: *Senda samþykktarbeiðni fyrir færsluna og stofna tilkynningu.*  
     7. Bættu við fjórða svarinu: *Sýna skilaboð „%1“* og síðan í hlutanum **Valkostir fyrir valið svar**, í skilaboðareitnum, skaltu tilgreina **Samþykktarbeiðni var send**.  
-    8. Veldu hnappinn Í lagi til að fara aftur í verkflæðisskrefið.  
+    8. **Veldu OK** hnappinn til að fara aftur í verkflæðisskrefið.  
 
 5. Í næstu línu skal bæta við nýju verkflæðisskrefi fyrir *Samþykktarbeiðni er samþykkt.* tilvik.  
 
@@ -149,7 +152,7 @@ Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður 
 
       Niðurstaðan úr þessu skrefi er að skilyrðið er svohljóðandi: *Bíður samþykkis:0* til að gefa til kynna að þetta sé síðasti samþykkjandinn.  
     4. Í reitnum **Þá svar** skal velja tengilinn **Velja svar** og síðan á síðunni **Verkflæðissvör**, í reitnum **Velja svar**, skal velja svarið *Senda samþykktarbeiðni fyrir færsluna og stofna tilkynningu*.  
-    5. Velja hnappinn Í lagi.  
+    5. Velja hnappinn **Í lagi**.  
 6. Í næstu línu bætir þú við öðru verkflæðisskrefi fyrir tilvikið *Samþykktarbeiðni er samþykkt*.  
 
     1. Í reitnum **Þegar tilvik** skal tilgreina *Samþykktarbeiðni er samþykkt*.
@@ -157,27 +160,27 @@ Fyrir báðar gerðir tilvika eru tilvikin skilgreind af kerfinu. Bæta verður 
 
       Niðurstaðan úr þessu skrefi er að skilyrðið er svohljóðandi: *Bíður samþykkis:>0* til að gefa til kynna að þetta sé *ekki* síðasti samþykkjandinn.  
     3. Í reitnum **Þá svar** skal velja tengilinn **Velja svar** og síðan á síðunni **Verkflæðissvör**, í reitnum **Velja svar**, skal velja svarið *Senda samþykktarbeiðni fyrir færsluna og stofna tilkynningu*.  
-    4. Veldu hnappinn Í lagi.  
-7. Í næstu línu skal bæta við nýju verkflæðisskrefi fyrir tilvikið *Samþykktarbeiðni er hafnað*.  
+    4. Velja hnappinn **Í lagi**.  
+7. Í næstu línu er verkflæðisskrefi bætt við fyrir *samþykktarbeiðni er framselt* tilvik.  
+
+    1. **Í reitnum þegar atburður** er tilgreindur *samþykktarbeiðni er úthlutin*.  
+    2. Í reitnum **Með skilyrði** skal halda gildinu *Alltaf*.  
+    3. Í reitnum **Þá svar** skal velja tengilinn **Velja svar** og síðan á síðunni **Verkflæðissvör**, í reitnum **Velja svar**, skal velja svarið *Senda samþykktarbeiðni fyrir færsluna og stofna tilkynningu*.  
+    4. Velja hnappinn **Í lagi**.  
+8. Í næstu línu skal bæta við öðru verkflæðisskrefi fyrir tilvikið *Samþykktarbeiðni er hafnað*.  
 
     1. Í reitnum **Þegar tilvik** skal tilgreina *Samþykktarbeiðni er hafnað*.  
     2. Í reitnum **Með skilyrði** skal halda gildinu *Alltaf*.  
     3. Í reitnum **Þá svar** skal velja tengilinn **Velja svar** og síðan á síðunni **Verkflæðissvör**, í reitnum **Velja svar**, skal velja svarið *Fleygja nýju gildunum*.  
     4. Veldu tengilinn **Bæta fleiri svörum við** og bættu síðan færslu við fyrir *Hafna samþykktarbeiðni fyrir færsluna og stofna tilkynningu*
-    5. Veldu hnappinn Í lagi.  
-8. Í næstu línu skal bæta við öðru verkflæðisskrefi fyrir tilvikið *Samþykktarbeiðni er hafnað*.  
+    5. Velja hnappinn **Í lagi**.  
+9. Ef gera á verkflæðið virkt er kveikt á **virkjunni** skipta.  
 
-    1. Í reitnum **Þegar tilvik** skal tilgreina *Samþykktarbeiðni er hafnað*.  
-    2. Í reitnum **Með skilyrði** skal halda gildinu *Alltaf*.  
-    3. Í reitnum **Þá svar** skal velja tengilinn **Velja svar** og síðan á síðunni **Verkflæðissvör**, í reitnum **Velja svar**, skal velja svarið *Senda samþykktarbeiðni fyrir færsluna og stofna tilkynningu*.  
-    4. Veldu hnappinn Í lagi.  
-9. Til að virkja verkflæðið skal velja reitinn **Virkjað**.  
-
-Eftirfarandi mynd sýnir yfirlit yfir niðurstöður ferlisins.  
+Eftirfarandi mynd gefur yfirlit yfir niðurstöður þessarar aðgerðar.  
 
 :::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Skýring á samþykktarverkflæði lánardrottnaheitis.":::
 
-Næst þarftu að prófa verkflæðið með því að opna lánardrottin sem er til staðar og breyta heitinu. Staðfestu að samþykkisbeiðni sé gerð um breytingu á heiti lánardrottins.
+Næst skal prófa verkflæðið með því að opna fyrirliggjandi lánardrottnaspjald og breyta nafni þeirra. Staðfestið að samþykktarbeiðni sé send eftir að nafni lánardrottins er breytt.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-workflows/)
 

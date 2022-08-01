@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8beaa37b20acbbad54b46e231a5c60694f7a7d75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c397de29bf2d2c23d5fedb9f3566ebd0e62dd183
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518078"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144086"
 ---
 # <a name="about-item-types"></a>Um vörutegundir
 **Í reitnum Tegund** á **vöruspjaldinu** er hægt að velja hvað varan er notuð í viðskiptunum, sem hefur áhrif á það hversu hægt er að stjórna vörunni í birgðum. Eftirfarandi töflulistum og lýsir þeim þremur tegundum atriða sem eru tiltæk.
@@ -24,7 +24,7 @@ ms.locfileid: "8518078"
 |Valkostur|Dæmigerður tilgangur|
 |------|-----------|
 |Birgðir|Eðlislegir hlutir, svo sem reiðhjól, síma-og deskunarskápar, sem óskað er eftir að geti notað alla birgðaferla. Þetta geta einnig verið Óefnislegir hlutir eins og hugbúnaðarleyfi og áskriftir, ef vörurnar eru með kennitölum, eins og raðnúmerum. Hægt er að rekja gildi vöru og ráðstöfunarmagn í birgðum.|
-|Engar birgðir|Yfirleitt eru það ekki birgðavörur, til dæmis boltar eða pennar, sem fyrirtæki eyðir en vill ekki fullkomlega rekja birgðir. Til dæmis vegna þess að þeir eru lágkostnaðarliðir og eru aðeins notaðir innbyrðis.|
+|Ekki í birgðum|Yfirleitt eru það ekki birgðavörur, til dæmis boltar eða pennar, sem fyrirtæki eyðir en vill ekki fullkomlega rekja birgðir. Til dæmis vegna þess að þeir eru lágkostnaðarliðir og eru aðeins notaðir innbyrðis.|
 |Þjónusta|Vinnutímaeining, svo sem ráðgjöf í klukkustund, fyrir takmarkaðan stuðning fyrirtækis.|
 
 > [!NOTE]
@@ -32,11 +32,11 @@ ms.locfileid: "8518078"
 
 Í eftirfarandi töflu er listi yfir aðgerðirnar sem þrjár vörutegundir styðja.
 
-|Gerð vöru|Sölur|Innkaup|Vinnunotkun|Þjónustunotkun|Samsetningarnotkun|Framleiðsla Notkun|Samsetningarfrálag|Framleiðslufrálag|Staðsetningarflutningur|Birgðatalning|Endurmat á birgðum|Birgðakostnaður|Vörurakning|Frátekning|Vörugeymsla|Áætlun|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|Birgðir|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|
-|Engar birgðir|Já|Já|Já|Já|Já|Já|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|
-|Þjónusta|Já|Já|Já|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|
+|Vörutegund|Sölur|Innkaup|Vinnunotkun|Þjónustunotkun|Samsetningarnotkun|Framleiðsla Notkun|Samsetningarfrálag|Framleiðslufrálag|Staðsetningarflutningur|Birgðatalning|Endurmat á birgðum|Birgðakostnaður|Vörurakning|Frátekning|Vörugeymsla|Áætlanagerð|Áætlun pöntunar|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Birgðir|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|
+|Ekki í birgðum|Já|Já|Já|Já|Já|Já|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Já|
+|Þjónusta|Já|Já|Já|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Já|
 
 ## <a name="costing-methods-for-types-of-items"></a>Kostnaðaraðferðir fyrir vörutegundir
 Þegar birgðafærslur eru bókaðar eru magnið og gildisbreytingarnar í birgðunum skráð í birgðafærslunum og virðisfærslurnar, hvort í sínu lagi. 

@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 83678c6c81b29a524405699425be877459b6568d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075318"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129641"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Úrræðaleit vegna Shopify Aðalsamstillingar og viðskipta
 
@@ -77,7 +77,7 @@ Eftirfarandi ferli lýsa hvernig á að snúa aðgangstáknum Shopify sem Connec
 ### <a name="in-shopify"></a>Í Shopify
 
 1. **Shopify Frá admin**, Farðu í [apps](https://www.shopify.com/admin/apps).
-2. Í röðinni með *Dynamics 365 Business Central* * App skal velja **DELETE**.
+2. Í röðinni með **Dynamics 365 Business Central** App skal velja **DELETE**.
 3. Í skilaboðunum sem birtist velurðu **Eyða**.
 
 ### <a name="in-prod_short"></a>Í [!INCLUDE[prod_short](../includes/prod_short.md)]

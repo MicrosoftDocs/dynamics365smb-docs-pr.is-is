@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077268"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129677"
 ---
 # <a name="set-up-locations"></a>Uppsetning birgðageymsla
 
@@ -77,8 +77,7 @@ Ef stofna á hólfin á svæðum má gera það á síðunni **Svæði**.
 Hins vegar er hægt að velja að setja bara upp eitt svæði og skipuleggja vöruhúsið aðeins eftir hólfum. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Sjálfgefnar víddir staðsetningar
-
-Settar eru upp sjálfgefnar víddir fyrir staðsetningu á **síðunni Birgðageymsluspjald** með því að velja **staðsetningu** og svo **víddir**. Sjálfgefnar víddir staðsetningar eru afritaðar í færslubækur og fylgiskjöl þegar birgðageymslan er tilgreind í línu en hægt er að eyða eða breyta víddinni í línunni ef þörf krefur. Hægt er að krefjast þess að fólk tilgreini víddir fyrir tiltekna staði áður en þeir geta bókað færslu. Einnig er hægt að taka með víddargildin birgðageymsluvíddir í **sjálfgefinni forgangsröð** og **víddarsamsetningum** fyrir samsetningar forgangs og víddarreglna.
+Settar eru **upp sjálfgefnar víddir fyrir staðsetningu á síðunni Birgðageymsluspjald** með því að velja **víddir**. Eftir sem áður er sjálfgefnum víddum staðsetningar úthlutað á skjöl þegar valin er birgðageymslan í línu. Ef þörf krefur er hægt að eyða eða breyta víddinni í línunni. **Í reitnum gildisbókun** er hægt að krefjast þess að fólk tilgreini víddir staðsetningar áður en hægt er að bóka færslu. Ef ætlunin er að leyfa fólki að velja aðeins tilteknar víddarvaldar er hægt að tilgreina þær í **reitnum leyfð gildi**. Einnig er hægt að taka með víddargildi staðsetningarvídda á **síðunni Forgangur** sjálfgefinnar víddar og fyrir samsetningar af forgangi og víddarreglum á **síðunni víddir vídda**.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

@@ -10,28 +10,28 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512361"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129733"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum
 
-Notaðu reikningsáætlanir til að fá innsýn í fjárhagsupplýsingar sem eru geymdar í bókhaldslyklum. Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi og bera saman fjárhagsfærslur og færslur í fjárhagsáætlunarskýrslu. Niðurstöðurnar birtast í myndritum í Mínu hlutverki, eins og myndrit sjóðstreymis, og í skýrslum á borð við tekjuyfirlit og skýrslum efnahagsreiknings.
+Notaðu reikningsáætlanir til að fá innsýn í fjárhagsupplýsingar sem eru geymdar í bókhaldslyklum. Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi og bera saman fjárhagsfærslur og færslur í fjárhagsáætlunarskýrslu. Niðurstöðurnar birta í sjókortum og skýrslum á mitt hlutverkamiðstöð, svo sem sjóðstreymissrit og rekstraryfirlit efnahags-og Efnahagsskýrslu.
 
 Þú opnar þessar tvær skýrslur til dæmis með aðgerðinni **Fjárhagsyfirlit** í Mínu hlutverki viðskiptastjórnanda og endurskoðanda.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] veitir nokkrar sýnishornareikninga sem hægt er að nota strax eða þú getur sett upp eigin línur og dálka til að tilgreina tölurnar sem þú vilt bera saman. Notendur getur þú búið til fjárhagskema til að reikna út framlegð fyrir víddir eins og deildir eða hópa viðskiptamanna. Hægt er að búa til eins margar sérsniðnar fjárhagsskýrslur og óskað er.  
+[!INCLUDE[prod_short](includes/prod_short.md)] gefur til sýnis fjárhagsskema sem nota má strax. Einnig er hægt að setja upp eigin línur og dálka til að tilgreina tölurnar til að bera saman. Til dæmis er hægt að stofna fjárhagsskema til að reikna út hagnaðarframlegð á víddir eins og deildir eða viðskiptavinaflokka. Fjöldi sérsniðinna fjárhagsfullyrðinga sem hægt er að stofna er ótakmarkaður.  
 
-Uppsetning fjárhagsskema krefst skilnings á fjárhagsgögnum í bókhaldslyklinum. Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum. Þetta krefst þess að fjárhagsáætlanir séu búnar til. Frekari upplýsingar eru í [Stofna fjárhagsáætlun](finance-how-create-budgets.md).
+Uppsetning fjárhagsskema krefst skilnings á fjárhagsgögnum í bókhaldslyklinum. Til dæmis er hægt að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum, en það krefst þess að stofnaðar séu áætlanir. Frekari upplýsingar eru í [Stofna fjárhagsáætlun](finance-how-create-budgets.md).
 
-## <a name="account-schedules"></a>Fjárhagsskema
+## <a name="account-schedules"></a>Fjárhagsskemu
 
-Fjárhagsskemu eru notuð til að flokka reikninga á bókhaldslyklinum á máta sem hentar til framsetningar á upplýsingum um þá reikninga. Hægt er að setja upp margvísleg útlit til að skilgreina upplýsingarnar sem á að finna í bókhaldslyklinum. Eitt meginhlutverk fjárhagsskema er að gera útreikninga sem er ekki hægt að framkvæma beint í bókhaldslyklinum, eins og að búa til millisamtölu fyrir hóp reikninga sem má fella inn í nýjar upphæðir og síðan nota í öðrum upphæðum. Notendur geta til dæmis búið til fjárhagskema til að reikna út framlegð fyrir víddir eins og deildir eða hópa viðskiptamanna. Þar að auki er hægt að sía fjárhagsfærslur og fjárhagsáætlanafærslur, t.d. eftir hreyfingum eða debetupphæð.
+Fjárhagsskema skipuleggur reikninga frá bókhaldslykli á vegu sem gerir gögn auðveld í gjöf. Hægt er að setja upp margvísleg útlit til að skilgreina upplýsingarnar sem á að finna í bókhaldslyklinum. Fjárhagsskema bjóða upp á stað fyrir útreikninga sem ekki er hægt að gera beint í bókhaldslyklum. Til dæmis er hægt að stofna millisamtölur fyrir flokka lykla og þá fela það samtölu í öðrum samtölum. Annað dæmi er að reikna út hagnaðarspássíur á víddir eins og deildir eða viðskiptavinaflokka. Þar að auki er hægt að afmarka fjárhagsfærslur og áætlunarfærslur fjárhags, til dæmis með nettóbreytingu eða debetupphæð.
 
-Einnig er hægt að bera saman tvö eða fleiri fjárhagsskemu og dálkauppsetningar með því að nota formúlur. Með slíkum samanburði má framkvæma eftirfarandi atriði:
+Einnig er hægt að bera saman tvö eða fleiri fjárhagsskema og dálkauppsetningar með því að nota formúlur sem gerir kleift að grípa eftirfarandi aðgerðir:
 
 * Búa til sérsniðnar viðskiptaskýrslur.
 * Búa til eins mörg fjárhagsskemu og þörf er á, þar sem hver þeirra ber einstakt heiti.
@@ -50,28 +50,33 @@ Hægt er að nota lykiltegundir fjárhagsreikninga til að breyta sniði fjárha
 
 Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi eða bera saman fjárhagsfærslur og fjárhagsáætlunarfærslur. Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum.
 
-Fjárhagsskemu í stöðluðu útgáfunni af [!INCLUDE[prod_short](includes/prod_short.md)] eru grunnurinn að stöðluðu fjárhagsskýrslunum sem mögulega passa ekki þörfum reksturs þíns. Til að búa til þínar eigin fjárhagsskýrslur á fljótlegan hátt geturðu byrjað á því að afrita fyrirliggjandi fjárhagsskema. Sjá þrep 3 hér að neðan.
+Fjárhagsskemu í stöðluðu útgáfunni af [!INCLUDE[prod_short](includes/prod_short.md)] eru grunnurinn að stöðluðu fjárhagsskýrslunum sem mögulega passa ekki þörfum reksturs þíns. Til að stofna eigin fjárhagsskýrslur er hægt að byrja á því að afrita fyrirliggjandi fjárhagsskema eins og lýst er í skrefi 3.
 
-Á síðunni **Yfirlit fjárhagsskema** er þar sem fjárhagsskýrsla er forskoðuð sem fjárhagsskemað skilgreinir. Í eftirfarandi er mikilvægt að skilja að það sem er sett upp sem línur og dálkar fjárhagsskema er aðeins hægt að sjá og staðfesta á síðunni **Yfirlit fjárhagsskema**, sem er opnuð í fjárhagsskema með því að velja aðgerðina **Yfirlit**. Sjálf síðan **Fjárhagsskema** er aðeins uppsetningarsvæði.  
+> [!TIP]
+> Eftir að fjárhagsskema hefur verið stofnað er hægt að nota **síðuna Fjárhagsskemayfirlit** til að forskoða og Villuleita fjárhagsskýrsluna sem fjárhagsáætlunin skilgreinir. Til að opna síðuna skaltu velja **yfirlitsaðgerðina**.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsskema** og svo velja viðeigandi tengil.  
 2. Á síðunni **Heiti fjárhagsskema** skal velja aðgerðina **Nýtt** til að búa til nýtt heiti á fjárhagsskema.
-3. Að öðrum kosti skal velja aðgerðina **Afrita fjárhagsskema**, fylla í reitina tvo, og velja svo hnappinn **Í lagi**.
+3. Ef óskað er eftir að endurnýta stillingar í fjárhagsskema sem þegar er til skal velja **aðgerðina afrita fjárhagsskema**.
 4. Fyllið inn reitina eftir þörfum. **Í svæðinu sjálfgefin Dálkauppsetning** er fyrirliggjandi útlit valið. Hægt er að breyta því síðar.
 
-    Dálkauppsetning er notuð til að skilgreina dálka eftir ólíkum færibreytum sem fjárhagsgögn í línunum eru sýndar út frá. Til dæmis er hægt að hanna dálkauppsetningu til að bera saman nettóbreytingu og stöðu fyrir sama tímabilið á þessu ári og síðasta ári, með fjórum dálkum. Frekari upplýsingar er að finna í [Til að breyta dálkaútliti](bi-how-work-account-schedule.md#to-edit-a-column-layout).
+    Dálkauppsetningar skilgreina dálka fyrir færibreyturnar sem fjárhagsgögnin í línunum eru sýndar í. Til dæmis gæti Dálkauppsetning innihaldið fjóra dálka sem gera samanburð nettó breytingu og stöðu fyrir sama tímabil á þessu ári og síðasta ári. Frekari upplýsingar er að finna í [Til að breyta dálkaútliti](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Veljið aðgerðina **Breyta fjárhagsskema**.
-6. Búðu til línu fyrir hvern fjárhagslegan þátt sem þú vilt að birtist í skýrslunni, t.d. eina línu fyrir núverandi eignir og aðra línu fyrir annars konar eignir. Til að fá hugmyndir skal skoða fyrirliggjandi fjárhagsskema í sýnifyrirtækinu CRONUS.
+6. Eftir því hvað á að greina er best að velja **Setja inn fjárhagsreikninga**, **Setja inn CF-reikninga** og **Setja inn aðgerðir kostnaðargerða** til að stofna línu fyrir hverja fjármálseiningu. Til dæmis gæti verið ein lína fyrir núverandi eignir og aðra línu fyrir eignir. Til innblásturs má sjá fjárhagsskemu í CRONUS sýnifyrirtækinu.
+
+    > [!NOTE]
+    > Reitnum **Línustengur.** Reitur sýnir fyrstu 10 stafi auðkennis, til dæmis lykilnúmer. Ef bætt er við einingum með kennum sem byrja á sömu 10 stöfum eru tvítekningar í reitnum **línustilur.** . Ef þörf krefur er hægt að breyta handvirkt identnarar eftir að einingarnar hafa verið settar inn. Auðkenni eru birt í **reitnum Samantekt**.
+
 7. Veljið aðgerðina **Yfirlit** til að sjá viðeigandi fjárhagsskýrslu.
 8. Á síðunni **Yfirlit fjárhagsskema**, í reitnum **Heiti dálkauppsetningar** veldu aðra dálkauppsetningu til að sjá fjárhagsgögn út frá öðrum færibreytum.
 9. Velja hnappinn **Í lagi**.
 
-Þú hefur nú skilgreint grundvöll fjárhagsskemans, línur fjárhagsgagna sem eiga að birtast og fyrirliggjandi uppsetningu dálka til að sýna gögnin í línunum eftir hverri mismunandi færibreytu fyrir sig. Ef sjálfgefin dálkauppsetning sem þú valdir í skrefi 4 passar ekki áformum þínum, þá skaltu fylgja næsta ferli.
+Nú er búið að skilgreina grundvöll fjárhagsskemunar, línur fjárhagsgagna sem á að birta og fyrirliggjandi útlit dálka til að sýna gögnin á línunum á mismunandi færibreytum. Ef sjálfgefna dálkaútlitið sem var valið í skrefi 4 henti ekki tilgangi þínum er næsta ferli fylgt.
 
 ### <a name="to-edit-a-column-layout"></a>Til að breyta dálkauppsetningu
 
-Dálkauppsetningar eru notaðar til að skilgreina dálkana sem eiga að vera í skýrslunni sem fylgir. Til dæmis er hægt að hanna uppsetningu í þeim tilgangi að bera saman breytingu og stöðu fyrir samsvarandi tímabil milli þessa árs og síðasta árs. Hægt er að hafa allt að 15 dálka. Þetta er gagnlegt til dæmis ef skoða á fjárhagsáætlanir í 12 mánuði og taka með dálk sem sýnir heildina.
+Dálkauppsetningar eru notaðar til að skilgreina dálkana sem eiga að vera í skýrslunni sem fylgir. Til dæmis er hægt að hanna uppsetningu í þeim tilgangi að bera saman breytingu og stöðu fyrir samsvarandi tímabil milli þessa árs og síðasta árs. Hægt er að hafa allt að 15 dálka, sem hentar vel t.d. til að skoða áætlanir í 12 mánuði með dálki sem sýnir heildina.
 
 > [!NOTE]
 > Prentuð/forskoðuð/vistuð útgáfa af fjárhagsskema getur mest sýnt fimm dálka. Ef fjárhagsskemað er aðeins ætlað til greiningar á síðunni **Yfirlit fjárhagsskema** er hægt að búa til eins marga dálka og þarf til.
@@ -86,7 +91,7 @@ Dálkauppsetningar eru notaðar til að skilgreina dálkana sem eiga að vera í
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Stofnun dálks sem reiknar prósentur:
 
-Stundum getur verið þörf á dálkum í fjárhagsskema til að reikna prósentur heilda. Til dæmis, ef nokkrar línur skipta sölu eftir vídd kann að vera þörf á dálki sem birtir prósentu heildarsölu sem hver lína stendur fyrir.
+Stundum getur verið þörf á dálkum í fjárhagsskema til að reikna prósentur heilda. Ef til dæmis eru raðir sem brjóta niður sölu eftir víddum gæti dálkurinn óskað eftir að tilgreina prósentu heildarsölu í hverri línu.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsskema** og svo velja viðeigandi tengil.
 2. Á síðunni **Heiti fjárhagsskema** veljið fjárhagsskema.  
@@ -99,7 +104,7 @@ Stundum getur verið þörf á dálkum í fjárhagsskema til að reikna prósent
 
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Uppsetning fjárhagsskema með yfirlitum
 
-Hægt er að nota fjárhagsskema til að búa til reikning sem ber saman upphæðir fjárhagsreiknings og fjárhagsáætlunar.
+Hægt er að nota fjárhagsskema til að stofna uppgjörsskýrslu sem ber saman almennar fjárhagstölur og upphæðir í fjárhagsáætlun.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsskema** og svo velja viðeigandi tengil.
 2. Á síðunni **Heiti fjárhagsskema** veljið fjárhagsskema.  
@@ -108,9 +113,9 @@ Hægt er að nota fjárhagsskema til að búa til reikning sem ber saman upphæ�
 5. **Veljið aðgerðina Setja inn fjárhagsreikninga**.  
 6. Reikningarnir sem eiga að vera í yfirlitinu eru valdir og smellt á **Í lagi**.
 
-    Reikningarnir eru ekki settir inn í fjárhagsskemað. Einnig er hægt að breyta dálkauppsetningunni.  
+    Reikningarnir eru ekki settir inn í fjárhagsskemað. Einnig er hægt að breyta dálkaútlitinu ef þess er óskað.  
 7. Veljið aðgerðina **Yfirlit**.  
-8. Á síðunni **Yfirlit fjárhagsskema** á flýtiflipanum **Víddarafmarkanir** skal stilla afmörkun fjárhagsáætlunar á æskilegt afmörkunarheiti.  
+8. **Á fjárhagsskemayfirlitssíðu**, á **flipanum víddir** fastflipann, Stillið áætlunarafmörkunina á síuheitið sem á að nota.  
 9. Velja hnappinn **Í lagi**.  
 
 Nú er hægt að afrita áætlunaryfirlitið og líma það inn í töflureikni.  
@@ -119,9 +124,9 @@ Nú er hægt að afrita áætlunaryfirlitið og líma það inn í töflureikni.
 
 Fjárhagsskemað þitt getur borið saman niðurstöður mismunandi reikningstímabila, svo sem þessum mánuði miðað við sama mánuð í fyrra. Til að gera þetta skal opna síðuna **Dálkaútlit** og sérstilla hana með því að bæta reitnum **Reikniregla samanburðartímabils** við sem dálki. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md). Hægt er að stilla þennan reit á reiknireglu tímabils.  
 
-Reikningstímabil þarf ekki að vera háð almanakinu, en þó verður að vera sami fjöldi reikningstímabila á öllum fjárhagsárum, þótt tímabilin geti verið mislöng.  
+Reikningstímabil þarf ekki að samræmast dagatalinu. Hins vegar verður hvert reikningsár að hafa sama fjölda bókhaldstímabila þó að hvert tímabil geti verið mismunandi eftir Lengdum.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] nýtir reikniregluna fyrir tímabil til að reikna út upphæð frá samanburðartímabili miðað við tímabilið sem fæst við dagsetningarafmörkun á skýrslubeiðninni. Samanburðartímabilið byggir á upphafsdagsetningu dagsetningarsíunnar. Skammstafanirnar sem eiga við eru eftirfarandi:
+[!INCLUDE[prod_short](includes/prod_short.md)] notar tímabilsjöfuna til að reikna upphæðina út frá samanburðartímabili miðað við tímabil sem afmörkun skýrslunnar stóð yfir í skýrslunni. Samanburðartímabilið byggir á upphafsdagsetningu dagsetningarsíunnar. Skammstafanirnar sem eiga við eru eftirfarandi:
 
 | Skammstöfun | Description                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -147,10 +152,10 @@ Ef þú vilt reikna eftir venjulegum tímabilum þarf í staðinn að slá inn r
 > [!NOTE]
 > Það er ekki alltaf augljóst hvaða tímabil þú ert að bera saman vegna þess að þú getur stillt afmörkunardagsetningu í skýrslu sem nær yfir aðrar dagsetningar en reikningstímabilin sem endurspeglast í gögnum bókhaldslykilsins. Til dæmis stofnar þú fjárhagsskema þar sem þú vilt bera þetta tímabil saman við sama tímabil í fyrra, þannig að þú stillir reitinn **Reikniregla samanburðardagsetningar** á *-1RÁ*. Síðan keyrir þú skýrsluna 28. febrúar og setur afmörkunardagsetninguna á janúar og febrúar. Fyrir vikið ber fjárhagsskemað saman janúar og febrúar á þessu ári við janúar á síðasta ári, sem er eina reikningstímabilið sem hefur verið lokið á þessum tveimur árum.  
 
-Nánari upplýsingar um dagsetningarformúlur [fást með því að vinna með dagsetningar og tíma dagatals](ui-enter-date-ranges.md).  
+Nánari upplýsingar um dagsetningarformúlur [fást með því að vinna með dagsetningar og tíma](ui-enter-date-ranges.md) dagatals.  
 
 ## <a name="import-or-export-account-schedules"></a>Flytja fjárhagsskemu inn eða út
-Hægt er að flytja fjárhagsskemu inn og út sem RapidStart skilgreiningarpakka. Þetta er til dæmis gagnlegt til þess að samnýta þau með öðrum fyrirtækjum. Pakkinn er búinn til í .rapidstart skrá, sem afhendir innihald pakkans á samþjöppuðu formi.
+Hægt er að flytja fjárhagsskemu inn og út sem RapidStart skilgreiningarpakka. Til dæmis er skilgreiningarpakkar gagnlegir til að samnýta þær með öðrum fyrirtækjum. Pakkinn er búinn til í .rapidstart skrá, sem afhendir innihald pakkans á samþjöppuðu formi.
 
 ### <a name="to-import-and-export-account-schedules"></a>Reikningsáætlanir innflutnings og útflutnings
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsskema** og svo velja viðeigandi tengil.

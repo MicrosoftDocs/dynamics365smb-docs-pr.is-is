@@ -440,7 +440,7 @@
 ### [Selja vörur](sales-how-sell-products.md)
 ### [Prenta tiltektarlistann](sales-how-print-picking-list.md)
 ### [Bóka sölu](ui-post-sales.md)
-### [Stofna ítrekaðar sölu- og innkaupalínur](sales-how-work-standard-lines.md)
+### [Stofna endurteknar sölulínur](sales-how-work-standard-lines.md)
 ### [Beinar sendingar](sales-how-drop-shipment.md)
 ### [Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)
 ### [Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md)
@@ -472,7 +472,7 @@
 ### [Vinna með standandi innkaupapantanir](sales-how-to-create-blanket-sales-orders.md)
 ### [Númer ytri fylgiskjala á innkaupaskjölum](purchasing-ext-doc-no.md)
 ### [Færa inn ytri fylgiskjalsnúmer](across-enter-external-document-numbers.md)
-
+### [Stofna endurteknar innkaupalínur](purchasing-how-work-recurring-purchase-lines.md)
 
 ## Birgðir
 ### [Yfirlit yfir birgðir](inventory-manage-inventory.md)
@@ -1472,6 +1472,7 @@
 #### [Setja upp sölu](sales-setup-sales.md)
 #### [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)
 #### [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md)
+#### [Setja upp verð og afslætti](across-prices-and-discounts.md)
 #### [Skrá sérstök söluverð og afslætti](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Setja upp verðflokka viðskiptamanna](sales-how-to-set-up-customer-price-groups.md)
 #### [Setja upp afsláttarflokka viðskiptamanna](sales-how-to-set-up-customer-discount-groups.md)
@@ -1483,9 +1484,11 @@
 ### Setja upp innkaup
 #### [Setja upp innkaup](purchasing-setup-purchasing.md)
 #### [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)
-#### [Skrá sérstakt söluverð og sérstaka afslætti](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Setja upp bankareikninga lánardrottins](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Forgangsraða lánardrottnum](purchasing-how-prioritize-vendors.md)
 #### [Setja upp kaupendur](purchasing-how-setup-purchasers.md)
+#### [Setja upp verð og afslætti](across-prices-and-discounts.md)
+#### [Skrá sérstakt söluverð og sérstaka afslætti](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Setja upp birgðir
 #### [Setja upp birgðir](inventory-setup-inventory.md)
 #### [Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md)
@@ -1772,6 +1775,7 @@
 ### [Stjórna notendastillingum og kjörstillingum](admin-manage-user-settings-preferences.md)
 ### [Setja upp prentara](ui-specify-printer-selection-reports.md)
 ### [Flokka næmi fyrir gögn](admin-classifying-data-sensitivity.md)
+### [Staða persónuverndartilkynninga](privacy-notices-status.md)
 ### [Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md)
 ### [Stofna ný fyrirtæki](about-new-company.md)
 ### [Skrá breytingar](across-log-changes.md)

@@ -8,31 +8,38 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 04/01/2021
+ms.date: 07/04/2022
 ms.author: edupont
-ms.openlocfilehash: f00062efdb2e2489c911e531d7a9c8236034a110
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a289d51127360fa5fe155072ff3f7f6695b95b59
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520787"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144196"
 ---
 # <a name="setting-up-purchasing"></a>Uppsetning innkaupa
+
 Áður en hægt er að hefjast handa við að stýra kaupferlum þarf að grunnstilla reglur og gildi sem ráða kaupreglum fyrirtækisins.
 
 Skilgreina verður almenna uppsetningu, s.s. hvaða innkaupaskjöl eru nauðsynleg og hvernig gildi þeirra eru bókuð. Þessi almenna uppsetning fer yfirleitt fram við innleiðingu í upphafi.
 
 Sérstakar raðir verkefna sem tengjast skráningu nýrra lánardrottna er að skrá öll sérstök verð eða afsláttarsamninga sem þú hefur með hverjum lánardrottni.
 
-Farið er nánar yfir uppsetningu kaupa sem tengjast fjármunum, svo sem greiðsluaðferðir og gjaldmiðlar í hlutanum Uppsetning fjárhags. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
+Farið er nánar yfir uppsetningu kaupa sem tengjast fjármunum, svo sem greiðsluaðferðir og gjaldmiðlar í hlutanum Uppsetning fjárhags. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md). Á sama hátt er hægt að finna birgðatengda Innkaupagrunnur eins og mælieiningar og Vörurakningarkótar í [hlutanum Birgðagrunnur](inventory-setup-inventory.md).
 
 | Til | Sjá |
 | --- | --- |
-| Stofna lánardrottnaspjald fyrir alla lánardrottna keypt er af.|[Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md) |
-| Skráið inn mismunandi afslætti og sérverð sem lánardrottinn veitir, sem fer eftir vörum, magni og/eða dagsetningum. |[Skráning innkaupaverðs, afsláttar og greiðslusamkomulags](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Stofnið lánardrottinsspjald fyrir hvern lánardrottinn sem er keypt úr. |[Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md) |
 | Lánardrottnum forgangsraðað |[Forgangsraða lánardrottnum](purchasing-how-prioritize-vendors.md) |
-| Kaupendur settir upp |[Setja upp kaupendur](purchasing-how-setup-purchasers.md) |
-|Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
+| Færið inn upplýsingar um bankareikning-þar á meðal IBAN og SWIFT-kóða á spjald lánardrottins. | [Setja upp bankareikninga lánardrottins](purchasing-how-set-up-vendors-bank-accounts.md) |
+| Setja upp innkaupaaðila, úthluta þeim lánardrottnum og kóðum til að rekja talnagögn. |[Setja upp kaupendur](purchasing-how-setup-purchasers.md) |
+| Færðu inn mismunandi afslætti og sérstakt verð sem lánardrottnar veita þér eftir vöru, magni og/eða dagsetningu. |[Skráning innkaupaverðs, afsláttar og greiðslusamkomulags](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Skilgreinið hvað greitt er fyrir vörur og þjónustu sem fyrirtækið kaupir.  | [Setja upp verð og afslætti](across-prices-and-discounts.md) |
+| Stofna staðlaðar línur til að setja inn í ítrekunarinnkaupaskjöl. | [Setja upp endurteknar innkaupalínur](purchasing-how-work-recurring-purchase-lines.md) |
+| Stofna röð verka til að tengja vinnslur sem framkvæmdar eru af mismunandi notendum, svo sem að biðja um og samþykkja innkaupapantanir. | [Setja upp verkflæði fyrir Innkaupasamþykkt](across-set-up-workflows.md) |
+| Stjórna samskiptum fyrirtækja við lánardrottna, flytja inn móttekin reikningsskjöl og skrá nýja birgja með Outlook email biðlara. | [Setja upp Viðskiptaaðalinnbót í Outlook](admin-outlook.md) |
+| Fara yfir kostnaðarinnhreyfingar, umbreyta pappír og rafræn skjöl í færslubókarlínur og digitalize pappírsreikninga frá lánardrottnum. | [Setja upp skjöl á innleið](across-how-setup-income-documents.md) |
+| Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir. |[Skýrsluval í Business Central](across-report-selections.md)|
 
 > [!TIP]
 > Það fer eftir landfræðilegri staðsetningu þinni hvaða reiti sumar síður innihalda sem ekki er lýst í greinunum sem eru gefnar upp hér vegna þess að þær gilda um staðbundna virkni eða sérstillingar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -41,12 +48,12 @@ Farið er nánar yfir uppsetningu kaupa sem tengjast fjármunum, svo sem greiðs
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Setja upp Yfirlit](setup.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

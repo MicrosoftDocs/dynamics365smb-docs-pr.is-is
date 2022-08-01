@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 57d106918230007484f37979b416d44277c86035
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 187ff9bad2fb8bf320872759115e98b326b689c8
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075135"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130200"
 ---
 # <a name="set-up-workflow-users"></a>Setja upp notendur verkflæðis
 
@@ -40,7 +40,7 @@ Verkflæðisnotendur sem virka sem samþykktarnotendur, bæði samþykkjendur be
     |Svæði|Description|  
     |---------------------------------|---------------------------------------|  
     |**Notandanafn**|Tilgreina notanda sem mun taka þátt í verkflæði.<br /><br /> Notandi verður að vera til á síðunni **Uppsetning notanda**. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).|  
-    |**Nr. raðar**|Tilgreina í hvaða röð notandi verkflæðis virkjast í verkflæði, út frá öðrum notendum. Þennan reit er t.d. hægt að nota til að tilgreina hvenær notandi samþykkir í samsvörun við aðra samþykkjendur þegar notaður er valkostur **Notandahópur verkflæðis** í reitnum **Gerð samþykkjanda** á tengdu verkflæðissvari. **Ábending:** Til að skilgreina að samþykktarbeiðni sé ekki samþykkt fyrr en margar jafn samþykkjendur hafa samþykkt, án tillits til stigveldi, skal setja upp flatan notendahóp verkflæðis með því að úthluta sömu númeraröð til viðeigandi samþykkjanda.|  
+    |**Nr. raðar**|Tilgreina í hvaða röð notandi verkflæðis virkjast í verkflæði, út frá öðrum notendum. Þennan reit er t.d. hægt að nota til að tilgreina hvenær notandi samþykkir í samsvörun við aðra samþykkjendur þegar notaður er valkostur **Notandahópur verkflæðis** í reitnum **Gerð samþykkjanda** á tengdu verkflæðissvari.<br /><br /> **Ábending:** til að skilgreina að samþykktarbeiðni krefst þess að margir jafnsettir notendur hafi samþykkt hana, óháð stigveldi, er notendaflokkur verkflæðis settur upp með því að úthluta sama raðnúmeri til viðeigandi samþykkjendur.|  
 6. Endurtaka skref 5 til að bæta við fleiri notendum verkflæðis við notendaflokkinn.  
 7. Endurtaka skref 2 til 6 til að bæta við fleiri notendaflokkum verkflæðis.  
 

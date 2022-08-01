@@ -9,43 +9,45 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ece05f68c15384ab11ae492bd6f138da14bafc1c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1a52d4b4bff0f96023b6206e6cb8cad3d9e59276
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513201"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129930"
 ---
 # <a name="export-and-import-workflows"></a>Flytja verkflæði inn og út
+
 Til að flytja verkflæði í annan [!INCLUDE[prod_short](includes/prod_short.md)] gagnagrunnur, t.d. til að spara tíma þegar stofnað ný verkflæði, er hægt að flytja út og inn verkflæði.  
 
- Önnur leið til að búa til verkflæði er að búa til verkflæði úr verkflæðissniðmátum. Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
+Önnur leið til að búa til verkflæði er að búa til verkflæði úr verkflæðissniðmátum. Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
 
- Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  
+Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  
 
-## <a name="to-export-a-workflow"></a>Til að flytja út verkflæði  
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
-2.  Veljið Verkflæði og smellið á hnappinn **Flytja út í skrá**.  
-3.  Á síðunni **Flytja út skrá** skal velja hnappinn **Vista**.  
-4.  Á síðunni **Flytja út** skal velja staðsetningu skrána og svo hnappinn **Vista**.  
+## <a name="to-export-a-workflow"></a>Til að flytja út verkflæði
 
-## <a name="to-import-a-workflow"></a>Til að flytja inn verkflæði  
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
-2.  Aðgerðin **Flytja inn úr skrá** er valin.  
-3.  Á síðunni **Flytja inn** skal velja XML-skrá sem inniheldur verkflæðið og velja svo hnappinn **opna**.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
+2. Veljið Verkflæði og smellið á hnappinn **Flytja út í skrá**.  
+
+## <a name="to-import-a-workflow"></a>Til að flytja inn verkflæði
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
+2. Aðgerðin **Flytja inn úr skrá** er valin.  
+3. **Á innflutningssíðunni** skal **velja hnappinn Velja**, velja XML-skrána sem inniheldur verkflæðið og velja **hnappinn opna**.  
 
 > [!CAUTION]  
->  Ef verkflæðiskóðinn er þegar til í gagnagrunnur verður skrifað yfir verkflæðisskref með skrefum í innfluttu verkflæði.  
+> Ef verkflæðiskóðinn er þegar til í gagnagrunnur verður skrifað yfir verkflæðisskref með skrefum í innfluttu verkflæði.  
 
-## <a name="see-also"></a>Sjá einnig  
- [Búa til verkflæði](across-how-to-create-workflows.md)   
- [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)   
- [Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md)   
- [Eyða verkflæðum](across-how-to-delete-workflows.md)   
- [Kynning: Uppsetning og notkun verkflæði innkaupasamþykktar](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Uppsetning verkflæðis](across-set-up-workflows.md)   
- [Nota verkflæði](across-use-workflows.md)   
- [Verkflæði](across-workflow.md)   
+## <a name="see-also"></a>Sjá einnig .
+
+[Búa til verkflæði](across-how-to-create-workflows.md)  
+[Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)  
+[Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md)  
+[Eyða verkflæðum](across-how-to-delete-workflows.md)  
+[Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Uppsetning verkflæðis](across-set-up-workflows.md)  
+[Nota verkflæði](across-use-workflows.md)  
+[Verkflæði](across-workflow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

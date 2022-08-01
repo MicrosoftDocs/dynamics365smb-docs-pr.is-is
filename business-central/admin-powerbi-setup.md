@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 07/13/2022
 ms.author: jswymer
-ms.openlocfilehash: c893513098d5078995e6cab09abcf0d2e0bb2769
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 5be0366c2d26e809e966844fc6851cfc5d9e29b7
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950357"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144302"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Virkjun Power BI samþættingar við [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,24 +31,24 @@ Með [!INCLUDE[prod_short](includes/prod_short.md)] fá notendur ókeypis Power 
 
 Frekari upplýsingar er að finna í [Leyfi fyrir Power BI þjónustunni fyrir notendur í fyrirtækinu](/power-bi/admin/service-admin-licensing-organization) eða [Skráning á þjónustunni Power BI sem einstaklingur](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="expose-data-through-api-pages-or-odata-web-services"></a><a name="exposedata"></a>Birta gögn í gegnum API-síður eða OData-vefþjónustur
+## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a> Fletta ofan í gögnum í gegnum API eða OData vefþjónustu
 
-Business Central býður upp á tvær leiðir til að birta gögn sem Power BI skýrslur geta notað: API-síður og OData-vefþjónustur.
+Aðalvefur fyrirtækja býður upp á tvær leiðir til að fletta ofan af Power BI gögnum sem hægt er að nota skýrslur: API-síður eða fyrirspurnum og opnum Gagnagagnasamskiptareglur (OData).
 
-### <a name="api-pages"></a>API-síður
+### <a name="api-pages-and-queries"></a>API-síður og fyrirspurnir
 
-> **GILDIR UM:** Eingöngu Business Central á netinu 
+> **GILDIR UM:** Eingöngu Business Central á netinu
 
-API-síða er sérstök tegund af síðu sem er búin til í AL-kóða sem veitir aðgang að gagnagrunnstöflum í gegnum REST-þjónustu, virkjuð með OData v4, sem byggir á stuðningi veftengingar. Ekki er hægt að birta slíka síðu í notandaviðmótinu, en er ætlað til að setja á stofn áreiðanlegar samþættingarþjónustur.
+Hönnuðir geta skilgreint síðuhluti og Fyrirspurnarhluti sem eru af gerðinni *API*. Þannig geta þeir flett upp á gögnum úr gagnagrunnstöflum í gegnum vefkróka-studd, OData v4-virkjað, HVÍLT þjónusta. Ekki er hægt að birta þessa tegund gagna í notendaviðmótinu heldur er það ætlað til að byggja upp áreiðanlega samþættingu þjónustu.
 
 Business Central á netinu er í boði með safni af innbyggðu API sem hægt er að nota til að sækja gögn fyrir algengustu viðskiptaeiningarnar, eins og viðskiptavini, vörur, sölupantanir og margt fleira. Engin viðbótarvinna eða uppsetning er nauðsynleg til að nota þessi API sem gagnagjafa fyrir Power BI skýrslur. Frekari upplýsingar um þessi API er að finna í [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
-Business Central á netinu styður einnig sérsniðin API. Þróunaraðilar Business Central-lausna geta búið til sínar eigin API-síður og pakkað þeim í viðbætur. Þú setur síðan viðaukunum á framfæri við leigjanda. Þegar upp er komin notar þú síður API fyrir Power BI skýrslurnar, eins og þú myndir gera við innbyggðan APIs (v 2.0). Frekari upplýsingar um hvernig á að búa til API-síður er að finna í [Þróun á sérsniðnu API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Business Central á netinu styður einnig sérsniðin API. Forritarar miðlægu lausna í viðskiptafræði geta búið til sínar eigin API-síður og fyrirspurnir og pakka þeim inn í apps. Þú setur síðan upp forritin á leigjandanum. Þegar upp er komin notar þú síður API fyrir Power BI skýrslurnar, eins og þú myndir gera við innbyggðan APIs (v 2.0). Frekari upplýsingar um það hvernig eigi að stofna API með því að fletta upp síðum eða fyrirspurnum er að finna [í sérsniðnum API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
 
 > [!IMPORTANT]
-> Sem hefst í febrúar 2022, Power BI skýrslur vegna [!INCLUDE[prod_short](includes/prod_short.md)] netverslunar eru úr aukaföllum, lesnir gagnagrunnseftirmynd af sýningarástæðum. Þar af leiðandi ætti AL verktaki að forðast að hanna síður API sem gerir breytingar á gagnagrunni meðan síðurnar eru að opna eða hlaða færslum. Sérstaklega þarf að huga að kóðanum á AL-kveikjum: Onopen, OnOpenPage, Onfindmet, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord. Þessar gagnagrunnsbreytingar geta í sumum tilvikum valdið afkastavandamálum og komið í veg fyrir að skýrslan endurhressigögn. Frekari upplýsingar er að finna [í afkastamikunum greinum í þróunarhjálp fyrir forritara](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) í bransanum.
+> Sem hefst í febrúar 2022, Power BI skýrslur vegna [!INCLUDE[prod_short](includes/prod_short.md)] netverslunar eru úr aukaföllum, lesnir gagnagrunnseftirmynd af sýningarástæðum. Þar af leiðandi ætti AL verktaki að forðast að hanna síður API sem gerir breytingar á gagnagrunni meðan síðurnar eru að opna eða hlaða færslum. Sérstaklega þarf að huga að kóðanum á AL-kveikjum: Onopen, OnOpenPage, Onfindmet, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord. Þessar gagnagrunnsbreytingar geta í sumum tilvikum valdið afkastavandamálum og komið í veg fyrir að skýrslan endurhressigögn. Nánari upplýsingar er að finna [í afkastamikunum greinum](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) í Þróunarefni fyrirtækja í miðborg.
 >
-> Í einstaka tilfellum orsakar hegðunin villu þegar notandi reynir að fá gögn af API síðu fyrir skýrslu í Power BI Desktop. Ef hins vegar breytingar á gagnagrunni eru nauðsynlegar á síðunni Power BI Desktop sérsniðin API geta notendur þvingað hegðunina. Frekari upplýsingar er að finna [í byggingarskýrslum Power BI til að birta aðalgögn](across-how-use-financials-data-source-powerbi.md#fixing-problems) fyrirtækja.
+> Í einstaka tilfellum orsakar hegðunin villu þegar notandi reynir að fá gögn frá API fyrir skýrslu í Power BI Desktop. Ef hins vegar gagnagrunnsbreytingar eru nauðsynlegar í sérsniðnu API Power BI Desktop geta notendur þvingað hegðunina. Frekari upplýsingar er að finna [í byggingarskýrslum Power BI til að birta aðalgögn](across-how-use-financials-data-source-powerbi.md#fixing-problems) fyrirtækja.
 
 ### <a name="odata-web-services"></a>OData-vefþjónustur
 
@@ -94,7 +94,7 @@ Við hvert tækifæri er mælt með að nota API-síður í stað OData-vefþjó
 
     Áður en notendur geta notað Power BI í [!INCLUDE[prod_short](includes/prod_short.md)] verður stjórnandi Azure-forrits að veita samþykki fyrir Power BI-þjónustunni.
 
-    Til að koma á fyrstu tengingunni skal opna [!INCLUDE[prod_short](includes/prod_short.md)] og keyra **Hefjast handa með Power BI** úr hlutverkamiðstöðinni. Þessi aðgerð mun leiða þig í gegnum samþykktarferlið og fara yfir Power BI-leyfið þitt. Þegar beðið er um innskráningu skal nota innskráningu með Azure-stjórnendareikningi. Frekari upplýsingar er að finna í [Tengjast við Power BI - aðeins einu sinni](across-working-with-powerbi.md#connect).
+    Til að gera upphafstengingu, opna [!INCLUDE[prod_short](includes/prod_short.md)] og keyra **þarf að byrja með Power BI** af heimasíðunni. Þessi aðgerð mun leiða þig í gegnum samþykktarferlið og fara yfir Power BI-leyfið þitt. Þegar beðið er um innskráningu skal nota innskráningu með Azure-stjórnendareikningi. Frekari upplýsingar er að finna í [Tengjast við Power BI - aðeins einu sinni](across-working-with-powerbi.md#connect).
 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)

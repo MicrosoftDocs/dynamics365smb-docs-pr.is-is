@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0feba901ac569c0cbd714f8ea3d3c271c82425bd
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078779"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144140"
 ---
 # <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
 
@@ -88,7 +88,7 @@ Frá raunverulegum reikningi í bankanum berast oft óþekktar færslur sem grei
 
 ## <a name="to-set-up-bank-accounts"></a>Bankareikningar settir upp
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Á síðunni **bankareikningar** skal velja aðgerðina **Nýtt**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -169,7 +169,7 @@ Til að fylla út í reitinn **Staða** með onunarstöðu verður þú að bók
 
 Svæðin sem tengjast inn-og útflutningi á bankastraumum og skrám eru á **flutningi** fastflipa á **síðu bankareikningsreikningsins**. Nánari upplýsingar má finna [í AMC Banking 365 Fundamentals notkun viðaukanum](ui-extensions-amc-banking.md) og [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Opnaðu kortið fyrir bankareikning sem þú vilt flytja út eða flytja inn bankaskrár fyrir.
 3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Flytja**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -222,14 +222,7 @@ Myndin sýnir leið greiðslan á útleið:
 
 Reitir á **Flutningur** flýtiflipanum á síðunni **Bankareikningsspjald lánardrottins** eru tengdir útflutningi á bankastraumum og skrám. Frekari upplýsingar [fást með því AMC Banking 365 Fundamentals að nota húsnæðis](ui-extensions-amc-banking.md) -og [Útflutningsgreiðslur í bankarskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
-2. Opnaðu kortið fyrir lánardrottinn með bankareikning sem þú sendir út greiðslubankaskrár til.
-3. Veldu aðgerðina **Bankareikningar**.
-4. Af **Lista yfir reikninga lánardrottins** skal velja viðeigandi bankareikning eða bæta við nýjum bankareikningi.  
-5. Á síðunni **Bankareikn.spjald lánardr** á flipanum **Flutningur** fylltu inn reitina eftir því sem þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!WARNING]
-> Sumir reitir í bankareikningi lánardrottins innihalda viðkvæm gögn eins og reitirnir **Útibúsnúmer banka**, **Bankareikningsnr.**, **SWIFT-kóði** og **IBAN-númer**. Frekari upplýsingar er að finna í [Fylgjast með viðkvæmum reitum](across-log-changes.md#monitoring-sensitive-fields).
+[!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 ## <a name="changing-your-bank-account"></a>Bankareikningnum breytt
 
@@ -257,6 +250,5 @@ Til að fá samþjappaðra yfirlit yfir sjóðsreikninga í fjárhagsskýrsluger
 [Greiðsluafstemming](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Skilja fjárhag og bókhaldslykil](finance-general-ledger.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
