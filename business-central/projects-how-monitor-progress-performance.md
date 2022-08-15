@@ -8,80 +8,126 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
-ms.date: 04/01/2021
+ms.date: 08/04/2022
 ms.author: edupont
-ms.openlocfilehash: ee69503fa830d21ed433e88c3d8f55a42a4ec1bb
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8dc52a0d00c7596eb2333e92e8e77f4d1caaa243
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074667"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227446"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Fylgst með framvindu og afköstum
 
-Þegar verk er unnið er efni, forði og annar kostnaður notuð og þetta þarf að bóka á verkið. Verk í vinnslu (VÍV) er eiginleiki þar sem hægt er að meta fjárhagslegt virði verka í fjárhag eftir því sem verkinu miðar áfram. Oft er kostnaður bókaður áður en verk er reikningsfært. Þegar aðeins kostnaður hefur verið bókaður verður fjárhagsyfirlitið ónákvæmt. Frekari upplýsingar eru í [Að skilja VÍV-aðferðir](projects-understanding-wip.md)
+Með aðgerðinni verk í vinnslu (VÍV) er hægt að áætla fjárhagslegt virði áframhaldandi vinnslu í fjárhag.
 
-Til að rekja gildi í fjárhagnum er hægt að reikna út VÍV og bóka gildið í fjárhag.
+Eftir því sem líður á vinnsluna er efni og tilföng notað og kostnaður sem stofnað er til við vinnsluna verður bókaður. Í mörgum tilfellum gæti verið hægt að bóka útgjöld fyrir vinnslu áður en reikningsfært er. En ef aðeins útgjöldin eru bókuð er fjárhagsuppgjörið þitt ónákvæmt. Til að rekja Raunverulegt gildi vinnslunnar skal reikna út VÍV og bóka hana í fjárhag. Lærðu meira á að [skilja VÍV-aðferðir](projects-understanding-wip.md).
 
 VÍV má reikna út byggt á eftirfarandi:
 
-* Kostnaðargildi
-* Sölugildi
-* Auðkennanlegur kostnaður
-* Prósentum lokið
+* Kostnaðarvirði
+* Söluandvirði
+* Þekktra ocst
+* Prósenta sem er lokið
 * Samningi lokið
 
-Til að skoða niðurstöður með annarri aðferð er hægt að breyta aðferðinni og reikna Verk í vinnslu á nýjan leik. Engin takmörk eru á því hversu oft VÍV er reiknað. VÍV er aðeins reiknað en er ekki bókað í fjárhag. Þegar VÍV hefur verið reiknað út er hægt að bóka það í fjárhag.
+<!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
+<!--Unhide the above paragraph?-->
 
-## <a name="to-create-a-job-wip-method"></a>Til að búa til VÍV-aðferð fyrir verk
+## <a name="create-a-job-wip-method"></a>Stofna VÍV-aðferð fyrir verk
 
-Hægt er að búa til VÍV-aðferð sem endurspeglar þarfir fyrirtækisins. Þegar búið er að stofna það, er hægt að velja það sem sjálfgefna VÍV-reikningsaðferð fyrir verk sem verða notuð í fyrirtækinu.  
+Stofnið VÍV-aðferð sem uppfyllir þarfir fyrirtækisins og Stillið það sem sjálfgildi.  
 
 > [!NOTE]
-> Þegar búið er að nota nýju aðferðina til að stofna VÍV-færslur, er ekki hægt að eyða aðferðinni eða breyta henni.  
+> Þegar ný aðferð hefur verið notuð til að stofna VÍV-færslur er ekki hægt að breyta eða eyða þeirri aðferð.  
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VÍV-aðferð verks** og velja síðan viðkomandi tengil.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **verkvíg-aðferðir**, velja síðan tengda tengilinn.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Lokaðu síðunni.   
-4. Til að gera þetta að sjálfgefinni aðferð velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning verks** og velja síðan viðkomandi tengil.  
+4. Til að gera þetta að sjálfgefinni aðferð velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **uppsetningaruppsetningu** og velja síðan tengda tengilinn.  
 5. Í reitnum **Sjálfgefin vÍv-aðferð** veljið aðferðina af listanum.
 
-## <a name="to-define-a-wip-method-for-a-job"></a>Til að skilgreina VÍV aðferð fyrir verk
+## <a name="define-a-wip-method-for-a-job"></a>Skilgreina VÍV-aðferð fyrir vinnslu
 
-Þegar nýtt verk er stofnað þarf að tilgreina hvaða VÍV-aðferð skuli eiga við. Í sumum tilfellum er þegar búið að stilla sjálfgefna VÍV-aðferð verka.
+Þegar ný vinnsla er stofnuð þarf að tilgreina hvaða vinnslu VÍV-aðferð á við. Í sumum tilvikum er VINNSLUVÍV-aðferðin sem er notuð er þegar stillt sem sjálfgildi.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.
-2. Valið er aðgerðin **Nýtt**. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn **vinnslur**, veldu síðan tengda tengilinn.
+2. Valið er aðgerðin **Nýtt**. Frekari upplýsingar í [Stofna vinnslur](projects-how-create-jobs.md).  
 3. Á síðunni **Verkspjald** skal velja VÍV-aðferð úr listanum í reitnum **VÍV-aðferð**. Ef sjálfgefin aðferð hefur verið skilgreind er hægt að velja annan valkost ef þess gerist þörf.  
 
-## <a name="to-calculate-wip"></a>Útreikningur VÍV
+### <a name="define-a-wip-method-for-a-job-task"></a>Skilgreina VÍV-aðferð fyrir vinnsluverk
 
-Hægt er að ákvarða VÍV-upphæð sem bóka skal á efnahagsreikning fyrir árslokaskýrslu. Þetta má gera með því að nota keyrsluna **Verkreikna VÍV**.  
+Hægt er að tilgreina VÍV-aðferð fyrir verkhluta, útiloka nokkur vinnsluverk frá VÍV-reikniverki eða flokka verk sem skal kótað saman. 
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk - Reikna VÍV** og velja síðan viðkomandi tengil.  
+Ef reikna á VÍV fyrir hvert vinnsluverk fyrir sig er VÍV-bókun skilgreindar víddir tiltekinna verka.
+
+**VÍV-Samtala** Tilgreinir verkhluta verks sem á að flokka saman þegar VÍV og Viðurkenning er reiknað. Í hvaða flokk verkefna þarf að vera eitt verkefni sem fullnægir tveimur skilyrðum:
+<!--But doesn't the parenthetical below contradict this -* if there is no total, the application sets the total for you, meaning the condition does not HAVE to be satisfied, right? Or am I missing something?-->
+
+* **Er með VÍV-heildarstillt** á *samtölu*. (Ef ekki eru starfsverkefni með **VÍV-heildarstillt** á *samtölu*, *Samtala* er stillt sjálfkrafa á síðustu verkverklínu þegar VÍV er reiknað í fyrsta sinn.)
+
+* **Hefur starf Verk nr.** númer sem er lokaorð í flokki eða bili verkhluta verks.
+
+Eftirfarandi tafla lýsir valkostunum þremur:
+
+| Svæði | Lýsing |
+|--|--|
+| **\<blank\>** | Skiljið eftir autt ef verkverkið er hluti af verki hóps. |
+| **Samtals** | Skilgreinir afmörkun eða flokk verka sem eru innifalin í útreikningi VÍV og viðurkenningar. Innan flokksins eru allir verkhluta sem með **gerð** verkverkhluta settir á til **bókunar** teknir með í VÍV-samtölu, nema að VÍV-heildarreitur **verks** er stilltur að **undanskildum**. |
+| **Útilokað** | Á aðeins við um verkefni við **gerð** starfsverkefnabókar **·**, í hvaða tilvikum er VERKIÐ ekki innifalið þegar VÍV og Viðurkenning er reiknað. |
+
+Í dæminu hér á eftir er vinnsluverkefnum skipt í tvær VÍV-heildarsamtölu, þar sem **sýnt er hvernig svæðið VÍV-Samtals** virkar:
+
+|Verklag nr.|Lýsing|Gerð verks|**VÍV-Samtals** svæði|  
+|------------------|----------------------|----------------------|----------------------|  
+|1000|Undirbúningur|Byrja-Samtals|\<blank\>|
+|1010|.    Þrif|Bóka|**Útilokað**|
+|1099|Undirbúningur í heild|Enda-Samtals|\<blank\>|
+|1100|Teppalagning|Byrja-Samtals|\<blank\>|
+|1110|.    Límbera gólf|Bóka|**Útilokað**|
+|1120|.    Leggja teppi|Bóka|\<blank\>|
+|1199|Teppalagning í heild|Enda-Samtals|\<blank\>|
+|1200|Ljúka|Byrja-Samtals|\<blank\>|
+|1210|.    Ryksuga teppi|Bóka|\<blank\>|
+|1299|Frágangur í heild|Enda-Samtals|**Samtals**|
+|1300|Villuleiðrétting|Byrja-Samtals|\<blank\>|
+|1310|.    Villuleiðrétting|Bóka|\<blank\>|
+|1399|Alger leiðrétting á villu|Enda-Samtals|**Samtals**|
+
+Þú munt taka eftir:
+
+* *1000* í gegnum *1299* : vís reiknar sérstaklega fyrir þennan flokk atvinnuverkefna. Athugið þó að tvö verkefnanna, 1010 og 1110, eru undanskilin í útreikningi á VÍV því vinnsluverkgerðin er **bókuð**.
+
+* *1300* í gegnum *1399* : vís reiknar sérstaklega fyrir þennan flokk atvinnuverkefna.
+
+## <a name="calculate-wip"></a>Reikna VÍV
+
+Hægt er að ákvarða VÍV-upphæð til að bóka á efnahagslykla fyrir lokskýrslugerð fyrir tímabilið. Keyrslan Reikna VÍV **verk er** notuð til að gera þetta.  
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **vinnsluna reikna VÍV** og velja síðan tengda tengilinn.  
 2. Veljið aðgerðina **Reikna VÍV**.
 3. Á síðunni **Verk - Reikna VÍV** þarf að fylla reitina út eins og þörf krefur.
 4. Velja hnappinn **Í lagi**.  
 
 > [!NOTE]  
->   Keyrslan reiknar einungis út VÍV. Er ekki bókað í fjárhag. Til að gera það verður að keyra keyrsluna **Bóka VÍV á fjárhag** þegar VÍV hefur verið reiknað. Nánari upplýsingar má finna hér á eftir.
+>   Keyrslan reiknar aðeins út VÍV, hún bókar hana ekki í fjárhag. Ef bóka á það skal keyra **keyrsluna Bóka VÍV í fjárhag** eftir að VÍV hefur verið reiknað. Frekari upplýsingar á eftirfarandi hátt.
 
-## <a name="to-post-wip"></a>Til að bóka VÍV
+## <a name="post-wip"></a>Bóka VÍV
 
-Þegar VÍV hefur verið reiknað er hægt að bóka það á efnahagsreikning fyrir árslokaskýrslu. Þetta má gera með því að nota keyrsluna **Bóka VÍV á fjárhag**.
+Þegar VÍV hefur verið reiknað er hægt að bóka það á efnahagslykla fyrir lokskýrslugerð fyrir tímabilið. Þetta má gera með því að nota keyrsluna **Bóka VÍV á fjárhag**.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Verk - Bóka VÍV í fjárhag** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **verkbókun VÍV í fjárhag** og velja síðan tengdan tengil.  
 2. Á síðunni **Verk - Bóka VÍV í fjárhag** skal fylla reitina út eins og þörf krefur.  
 3. Velja hnappinn **Í lagi**.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Að reikna út og bóka verklokafærslur
+## <a name="calculate-and-post-job-completion-entries"></a>Reikna og bóka verklokafærslur
 
-Þegar öllum aðgerðum verks hefur verið lokið, þar með talin bókun notkunar og reikningsfærsla, þarf að uppfæra verkið svo að **Staða** þess sé **Lokið**. Síðan þarf að bakfæra VÍV sem hefur verið bókað í fjárhag.
+Þegar lokið hefur verið við alla verkþætti fyrir vinnslu, þar á meðal notkun bókunar og reikningsfærslu, verður að uppfæra vinnsluna **í** **lokið**. Síðan þarf að bakfæra VÍV sem hefur verið bókað í fjárhag.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn **vinnslur**, veldu síðan tengda tengilinn.  
 2. Veljið opið verk og veljið svo aðgerðina **Breyta**.
 3. Í reitnum **Staða** skal velja **Lokið**.
-4. Fylgið aðstoðarskrefunum til að reikna og bóka VÍV. Einnig er hægt að fylgja skrefum 5 og 6 til að gera það handvirkt.  
+4. Fylgdu leiðbeiningum um aðstoð til að reikna út og bóka VÍV. Eða fylgja skrefum 5 og 6 þannig að það sé gert handvirkt.  
 5. Veljið aðgerðina **Reikna VÍV**.
 6. Á síðunni **Verk - Reikna VÍV** þarf að fylla reitina út eins og þörf krefur.  
 
@@ -91,25 +137,26 @@ Hægt er að ákvarða VÍV-upphæð sem bóka skal á efnahagsreikning fyrir á
 
      VÍV-fjárlagsfærslur verks sem voru stofnaðar með keyrslunni munu nú hafa gátmerki í reitnum **Verki lokið** til að sýna að þær eru lokafærslur.
 
-## <a name="to-view-job-ledger-entries"></a>Verkdagbókarfærslur skoðaðar:
+## <a name="view-job-ledger-entries"></a>Skoða verkfærslur
 
-Allar færslur sem tengjast verki eru skráðar í verkdagbækur og tölusettar í réttri röð, byrjað á 1. Í verkdagbókinni er hægt að fá yfirlit um verkfærslurnar.    
+Allar starfstengda færslur eru skráðar í verkdagbækur og raðar tölusettar, sem hefjast 1. Í verkdagbókinni er hægt að fá yfirlit um verkfærslurnar.    
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkdagbækur** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **verkdagbækur** og velja tengdan tengil.
 2. Valin er viðeigandi dagbók og síðan skal velja aðgerðina **Verklínur**.
 
 Á síðunni **Verkfærslur** er hægt að fara yfir færslur sem tengjast verki.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+## <a name="find-related-training-at-microsoft-learn"></a>Finna tengdar þjálfun hjá [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Stjórna verkum](projects-manage-projects.md)  
+[Walkthrough-útreikningur á vinnu í gangi vegna vinnu](walkthrough-calculating-work-in-process-for-a-job.md)
+[Umsjón verkefna](projects-manage-projects.md)  
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

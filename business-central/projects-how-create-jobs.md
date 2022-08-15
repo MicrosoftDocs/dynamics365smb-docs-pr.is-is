@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074693"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227473"
 ---
 # <a name="create-jobs"></a>Stofna verk
 
@@ -43,7 +43,15 @@ Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur
 3. Til að tilgreina verkið með upplýsingum um önnur verk skal velja aðgerðina **Afrita verk** og fylla svo út reitina eins og þörf krefur og velja hnappinn **Í lagi**.
 
 > [!NOTE]  
->   Ef vinnuskýrslur eru notaðar í verkinu þarf einnig að tilnefna ábyrgan aðila. Einstaklingurinn getur samþykkt vinnuskýrslur fyrir starfsmannaverkefni sem tengjast verkinu. Frekari upplýsingar eru í [Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md).
+> Ef vinnuskýrslur eru notaðar í verkinu þarf einnig að tilnefna ábyrgan aðila. Einstaklingurinn getur samþykkt vinnuskýrslur fyrir starfsmannaverkefni sem tengjast verkinu. Frekari upplýsingar eru í [Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md).
+
+Einnig er augljóst að merkja skal aðgerðir í verki sem lokað er með því að **nota lokað** svæði. í eftirfarandi töflu er lýst hvaða áhrif Valkostirnir hafa fyrir þennan reit.
+
+|Valkostur  |Lýsing  |
+|---------|---------|
+|Autt |Allar aðgerðir eru leyfðar.|
+|Bóka    |Hægt er að vinna með áætlunarlínur, en bókun vegna verksins er lokuð. Sé þessi kostur valinn hefur það í för með sér að hvorki er hægt að bóka notkun né sölu verksins.|
+|Allt  |Allar aðgerðir eru lokaðar.|
 
 ## <a name="to-create-tasks-for-a-job"></a>Til að búa til verkhluta fyrir verk
 

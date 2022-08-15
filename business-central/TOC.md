@@ -1308,6 +1308,7 @@
 ##### [Skýrsla 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Stofna skýrslu 349](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Setja upp skýrslur 340 fyrir lítil fyrirtæki](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
+##### [Setja upp SII fyrir VSK-skýrslu](LocalFunctionality/Spain/sii-setup.md)
 ##### [Búa til sniðmát fyrir fjarvirk VSK-yfirlit á textaskráarsniði](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Búa til sniðmát fyrir fjarvirk VSK-yfirlit á XML-skráarsniði](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [Flytja út VSK-yfirlit á XML-sniði](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
@@ -1328,7 +1329,6 @@
 ##### [Útistandandi Cartera-eining](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Greiðslur Cartera-einingar](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Gerðir reiknings eða kreditreiknings í sölu- og innkaupaskjölum](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
-##### [Setja upp SII fyrir VSK-skýrslu](LocalFunctionality/Spain/sii-setup.md)
 #### Core-fjármál
 ##### [Setja upp og loka stöðum rekstrarreiknings](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Draga inn og villuleita bókhaldslykla](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)

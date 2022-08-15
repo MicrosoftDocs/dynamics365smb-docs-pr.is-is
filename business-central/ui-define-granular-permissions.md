@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 05/09/2022
+ms.date: 07/27/2022
 ms.author: edupont
-ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729830"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227500"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfum til notenda og hópa
 
@@ -82,6 +82,10 @@ Til að fljótt skilgreina nýja notendaflokka geturðu afritað öll heimildars
 3. Í reitinn **Nýr kóði notendaflokks** skal færa inn heiti fyrir flokkinn og velja síðan hnappinn **Í lagi**.
 
 Nýja notendaflokknum er bætt við síðuna **Notendaflokkar**. Halda áfram að bæta við notendum. Frekari upplýsingar er að finna í [til að bæta notendum við kaflann notendaflokkur](#to-add-users-to-a-user-group).  
+
+> [!IMPORTANT]
+> Þú færð villuleitarvillu ef þú ert að reyna að tengja notendaflokk við notandann sem vísar í heimildasamstæðu sem var skilgreind í óuppsettri framlengingu. Það er vegna þess að App-KENNI framlengingarinnar er villuleitað þegar vísað er í það. Ef notandi á að úthluta notanda notendaflokks er annaðhvort hægt að setja hann upp aftur, fjarlægja tilvísun í fjarlægða framlengingu úr heimildasamstæðu, eða fjarlægja það leyfi sem sett er úr notendaflokki.
+
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Til að úthluta leyfishópum á notendahópa
 
@@ -179,7 +183,7 @@ Heimildasamstæður virka sem geymir fyrir heimildir, svo að þú getir auðvel
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Heimildasamstæður** og velja síðan viðkomandi tengil.
 2. Til að búa til nýtt heimildasamstæðu, veldu **Nýtt** aðgerðina.
-3. Fyllt er í reitina í nýju línunni. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Þegar þú hefur búið til heimildasamstæðu verður þú að bæta við raunverulegum heimildum. Nánari upplýsingar er að finna í [Að búa til eða breyta heimildum handvirkt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
+3. Fyllt er í reitina í nýju línunni. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Þegar búið er að stofna heimildasafn þarf að bæta við raunverulegar heimildir. Nánari upplýsingar er að finna í [Að búa til eða breyta heimildum handvirkt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
 ### <a name="to-copy-a-permission-set"></a>Til að afrita heimildasamstæðu
 
