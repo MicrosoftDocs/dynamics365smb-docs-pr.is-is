@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed56b0724b19d971b8dc98ea79807423403fd83
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129766"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317435"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
 
-Starfbiðraðir gera notendum kleift að raða og keyra tilteknar skýrslur og kódeseiningar. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis er hægt að keyra **sölumannskýrsluna Sölumaður * Söluupplýsingar** vikulega til að fylgjast með sölu eftir sölumönnum í hverri viku eða keyra samþykkiseiningin biður **um** samþykki á kótaeiningu daglega til að koma í veg fyrir að skjöl gangi upp.
+Starfbiðraðir gera notendum kleift að raða og keyra tilteknar skýrslur og kódeseiningar. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis gæti verið æskilegt að keyra **skýrsluna Sölumaður-Söluupplýsingar** vikulega til að fylgjast með sölu eftir sölumönnum í hverri viku eða keyra samþykkiseiningin biður **um** samþykki á kótaeiningu daglega til að koma í veg fyrir að skjöl gangi upp.
 
 Síðan **Verkraðarfærslur** birtir öll núverandi verk. Ef bætt er við nýrri verkraðarafærslu sem á að raða upp verður að gefa upp einhverjar upplýsingar. Dæmi:
 * Gerð hlutarins sem á að keyra, til dæmis skýrslu eða Codeunit. Þú verður að hafa heimild til að keyra viðkomandi skýrslu eða Codeunit.

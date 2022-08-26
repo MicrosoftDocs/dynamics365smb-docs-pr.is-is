@@ -665,6 +665,7 @@
 ### [Samstilla vörur með Shopify](shopify/synchronize-items.md)
 ### [Samstilla viðskiptavini við Shopify](shopify/synchronize-customers.md)
 ### [Samstilla og uppfylla sölupantanir með Shopify](shopify/synchronize-orders.md)
+### [Setja upp skatta fyrir Shopify tenginguna](shopify/setup-taxes.md)
 ### [Verk keyrð í bakgrunni](shopify/background.md)
 ### [Úrræðaleit fyrir Shopify Tengivirki](shopify/troubleshoot.md)
 ### [FAQ fyrir Shopify tengivirkið](shopify/shopify-faq.md)

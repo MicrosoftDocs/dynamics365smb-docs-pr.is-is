@@ -7,23 +7,25 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 0f8c8bf1f9f9c56f1790bf8fd6727eab6977ad3c
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655385"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317355"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skipta yfir í annað fyrirtæki eða umhverfi
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er fáanlegt í mörgum mismunandi löndum og styður við margar mismunandi gerðir stofnana. Fyrirtækið gæti sett sig upp [!INCLUDE [prod_short](includes/prod_short.md)] þannig að það þurfi að skilja skilmálana *fyrir fyrirtækið* og *umhverfið*.  
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Nánari upplýsingar eru í [Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)]
+
+Nánari upplýsingar eru í [Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Ef skipt er oft á milli fyrirtækj, eða unnið er með [!INCLUDE[prod_short](includes/prod_short.md)] úr öðru forriti á borð við Microsoft Teams, getur verið auðvelt að missa sjónar á því hvar þú ert. Til að auðvelda þér að fylgjast með er hægt að bæta við merki sem birtir heiti fyrirtækisins þannig að þú getir staðfest á skjótan hátt að þú sért á réttum stað. Frekari upplýsingar er að finna á [Til að birta fyrirtækjamerkis fyrir flýtiaðgang að fyrirtækisupplýsingum](ui-change-basic-settings.md#badge).
 
-Allt frá því að vafra þinn getur þú einnig pinnað á mismunandi fyrirtæki í uppáhaldsstikluna.  
+Allt frá vafra er einnig hægt að pinna mismunandi fyrirtæki í eftirlætisstiku.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -32,8 +34,11 @@ Allt frá því að vafra þinn getur þú einnig pinnað á mismunandi fyrirtæ
 Þegar þú ert skráð(ur) inn á [!INCLUDE[prod_short](includes/prod_short.md)] eru umhverfin sem hægt er að opna aðgengilegt á Office.com.  
 
 1. Veldu táknið **Forritavalmynd** ![Forritavalmynd.](media/app-launcher-icon.png "Forritavalmynd býður upp á aðgang að fleiri eiginleikum").
-2. Ef þú sérð ekki forrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í glugganum sem opnast, veldu þá **Office 365**. Síðan skal færa inn **Business Central** í reitinn **Leita** eða velja **Öll forrit** > **Business-forrit**.  
-3. Það verður eitt [!INCLUDE[prod_short](includes/prod_short.md)] forrit sýnt fyrir hverja gerð umhverfis, eins og fyrir vinnslu eða sandkassa. Til að skipta yfir í annað umhverfi skaltu velja [!INCLUDE[prod_short](includes/prod_short.md)] forritið fyrir þá gerð umhverfis sem það er. Ef það eru fleiri en eitt umhverfi af ákveðinni gerð verður farið fram á að þú veljir umhverfið sem þú vilt opna.
+2. Í rúðunni sem opnast, leita að og velja [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þú sérð [!INCLUDE[prod_short](includes/prod_short.md)] ekki, Veldu **öll forrit**, þá færðu inn **miðlægt** í **leitargluggann**.
+
+   :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="Microsoft 365 App-kynnirinn sem sýnir Viðskiptamiðað tiln.":::  
+
+3. Ef fleiri en eitt umhverfi eru til staðar er beðið um að velja umhverfið til að komast að.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.

@@ -1,18 +1,18 @@
 ---
 title: Úrræðaleit vegna Shopify aðalsamstillingar og viðskipta
 description: Lærðu hvað á að gera ef eitthvað fór úrskeiðis við samstillingu gagna á milli Shopify og Viðskiptamiðst
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 4ccbe8ac97eba568ff82d965f24b86ab58c95f81
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129641"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317246"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Úrræðaleit vegna Shopify Aðalsamstillingar og viðskipta
 
@@ -86,6 +86,16 @@ Eftirfarandi ferli lýsa hvernig á að snúa aðgangstáknum Shopify sem Connec
 2. Veljið verkstæðið sem á að snúa aðgangstakið við til að opna **Shopify Vinnukortasíðuna**.
 3. **Veldu aðgangsaðgerðina** beiðni.
 4. Ef beðið er, Skráðu þig inn í reikninginn þinn Shopify, farðu yfir persónuvernd og heimildir og veldu **síðan hnappinn setja upp App**.
+
+## <a name="known-issues"></a>Þekkt atriði
+
+### <a name="gen-bus-posting-group-must-have-a-value-in-customer-it-cannot-be-zero-or-empty"></a>Almenn Strætisvagn. bókunarflokkur verður að hafa gildi í viðsk. Það má ekki vera núll eða autt.
+
+Reiturinn **Kóti viðskiptamannssniðmáts er fylltur út í glugganum Spjald-gluggi með sniðmátinu sem hefur** gen. viðsk. bókunarflokks **Shopify .** **·** Viðskiptamannssniðmátið er ekki eingöngu notað fyrir stofnun viðskiptamanna heldur einnig útreikning söluverðs og við stofnun söluskjala.
+
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Innflutningur á gögnum til Shopify verkstæðis er ekki virkjaður. Fara í verkstæðisspjaldið til að gera það virkt.
+
+**Shopify Í glugganum verkstæðisspjald** er kveikt á reitnum **Leyfa samkeyrslu til að Shopify** skipta.  Þessari víxlun er ætlað að vernda vefverslunina með því að sækja kynningu á gögnum [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="see-also"></a>Sjá einnig .
 

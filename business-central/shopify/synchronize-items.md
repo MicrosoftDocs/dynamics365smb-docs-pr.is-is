@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c7aea0d0b3d9a8902e704a2d390d6a244e8cbbef
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808960"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317300"
 ---
 # <a name="synchronize-items-and-inventory"></a>Samstilla vörur og birgðir
 
@@ -89,6 +89,8 @@ Eftirfarandi stillingar láta þig hafa umsjón með ferlinu við útflutning á
 |**Birgðastöðvar raktar**|Velja hvernig kerfið á að fylla út reitinn rekja birgðir **fyrir afurðir sem fluttar eru** út í Shopify. Hægt er að uppfæra ráðstöfunarupplýsingar úr [!INCLUDE[prod_short](../includes/prod_short.md)] fyrir afurðir þar Shopify sem birgðahald er virkjað. Sjá [Inventory](synchronize-items.md#sync-inventory-to-shopify) fyrir frekari upplýsingar.|
 |**Sjálfgefin Birgðastefna**|Velja *afnot* til að koma í veg fyrir neikvæða kaupliði Shopify megin. |
 |**Hægt að uppfæra Shopify afurðir**|Tilgreinið hvort [!INCLUDE[prod_short](../includes/prod_short.md)] aðeins megi stofna vörur eða geta uppfært vörur einnig. Veljið þennan valkost ef að eftir að Upphafleg Samkeyrsla sem sett var af stað með **aðgerðinni bæta við vöru** er notuð til að uppfæra afurðir handvirkt með **samstillingu afurðaaðgerða** eða gegnum vinnslubiðröð í endurteknum uppfærslum. Munið að velja **Shopify** **í svæðið vara samkv**.|
+|**Sniðmátskóti viðskiptamanns**|Velja sjálfgefið sniðmát sem á að nota við verðútreikninga. Sjá [Setup skatta](setup-taxes.md) fyrir frekari upplýsingar.|
+
 
 ### <a name="fields-mapping-overview"></a>Yfirlit yfir vörpun svæða
 
@@ -100,18 +102,18 @@ Eftirfarandi stillingar láta þig hafa umsjón með ferlinu við útflutning á
 |Titilsíða titils|Festa gildi: tóm, sjá [auglýsingat-hock uppfærslur á Shopify vörum](synchronize-items.md#ad-hock-updates-of-shopify-products). |Ekki notaður.|
 |SEO meta Lýsing|Festa gildi: tóm, sjá [auglýsingat-hock uppfærslur á Shopify vörum](synchronize-items.md#ad-hock-updates-of-shopify-products). |Ekki notaður.|
 |Geymslumiðill|**Mynd**, nánari upplýsingar má finna [í myndum samstillingarvöru](synchronize-items.md#sync-item-images)|**Mynd**|
-|Verð|Útreikningur á verði í lok-Viðskiptamaður inniheldur vöruverðsflokk, vöruafsláttarflokk, gjaldmiðilskóða og sniðmátskóta viðskiptamanns. |Ekki notaður.|
+|Verð|Útreikningur á verði í lok-Viðskiptamaður inniheldur vöruverðsflokk, vöruafsláttarflokk, gjaldmiðilskóða og sniðmátskóta viðskiptamanns. |**Einingaverð**|
 |Bera saman á verðlagi|Útreikningur á verði án afsláttar inniheldur vöruverðsflokk, vöruafsláttarflokk, gjaldmiðilskóða og sniðmátskóta viðskiptamanns. |Ekki notaður.|
 |Kostnaður á vöru|**Kostnaðarverð**|**Kostnaðarverð**|
 |BHE|Sjá **Skunarvörpun** í [útflutningsvörur á Shopify](synchronize-items.md#export-items-to-shopify)| Sjá [hvernig birgðahaldseining og strikamerki hafa áhrif á Shopify vörpun og stofnun vara og vöruvíddasamsetningar](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |Strikamerki|**Vörutilvísun** af gerðinni strikamerskóti|**Vörutilvísun** af gerðinni strikamerskóti|
 |Rekja magn|**Samkvæmt birgðatrakinu** á **Shopify verkstæðisspjaldinu**. Sjá [Inventory](synchronize-items.md#sync-inventory-to-shopify) fyrir frekari upplýsingar.|Ekki notaður.|
 |Halda áfram að selja þegar út af hlutabréfum|**Samkvæmt sjálfgefinni Birgðastefnu** í **Shopify verkstæðisspjaldinu**. Ekki flutt inn.|Ekki notaður.|
-|Gerð|**Lýsing** á **tegundakóða vörunnar**. Ef tegundin er ekki tilgreind í Shopify er henni bætt við sem sérsniðna gerð.|**Kóði vöruflokks**. Kortlagning eftir lýsingu.|
+|Gerð|**Lýsing** á **tegundakóða vörunnar**. Ef tegundin er ekki tilgreind í Shopify er henni bætt við sem sérsniðna gerð.|**Kóði** vöruflokks. Kortlagning eftir lýsingu.|
 |Lánardrottinn|**Nafn** lánardrottins úr **Lánardr.** |**Nr.** lánardrottins Vörpun eftir nafni.|
 |Þyngd|**Brúttóþyngd**.|Ekki notaður.|
 |Skattskylt|Fast gildi: virkjað.|Ekki notaður.|
-|Skattkóðar|**Kóta** skattflokks. Á aðeins við um virðisaukaskatt. Sjá [skatta](synchronize-orders.md#tax-remarks) fyrir frekari upplýsingar. |Ekki notaður.|
+|Skattkóðar|**Kóta** skattflokks. Á aðeins við um virðisaukaskatt. Sjá [Setup skatta](setup-taxes.md) fyrir frekari upplýsingar. |Ekki notaður.|
 
 ### <a name="tags"></a>Efnisorð notenda
 
@@ -197,7 +199,7 @@ Verð má flytja út fyrir samstilltar vörur með þeim hætti sem lýst er hé
 
 ### <a name="price-calculation-remarks"></a>Athugasemdir við verðútreikning
 
-* Fyrir verðútreikninga er mikilvægt að hafa gildið í **reitnum sjálfgefið Viðskiptamannssniðmát**. [!INCLUDE[prod_short](../includes/prod_short.md)] notar gildið **í reitnum VSK-viðskiptaflokkur** til að reikna út verð með VSK. Hægt er að stofna verðflokk viðskiptamanns þar sem reiturinn verð með VSK er valinn **og viðeigandi gildi tilgreint í** reitnum VSK viðsk. bókun gr. (verð) **.**
+* Fyrir verðútreikninga er mikilvægt að hafa gildið í **reitnum sjálfgefið Viðskiptamannssniðmát**. Sjá [Setup skatta](setup-taxes.md) fyrir frekari upplýsingar.
 * **Færið inn gjaldmiðilskóða** ef vefverslunin notar annan GJALDMIÐIL en ISK. Tilgreindur Gjaldmiðill verður að hafa gengi skilgreint. Ef vefverslunin notar sama gjaldmiðil og [!INCLUDE[prod_short](../includes/prod_short.md)] er reiturinn hafður auður.
 * Þegar ákvarðað er verð, [!INCLUDE[prod_short](../includes/prod_short.md)] notar "Lægsta verð" rökin. Það þýðir að ef einingarverð sem er skilgreint á birgðaspjaldinu er lægra en það sem er skilgreint í verðflokknum er einingarverðið frá birgðaspjaldinu notað.
 
