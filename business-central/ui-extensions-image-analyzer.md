@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
+ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8fd9a592ab0d827fb1866eec80a0771f85d91a38
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8852056c5981c8db65f9048af850abbfe086c658
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512837"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361882"
 ---
 # <a name="the-image-analyzer-extension"></a>Myndgreiningarviðbót
 
@@ -123,13 +124,12 @@ Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður
 
 Einnig er hægt að fjarlægja viðbótina alveg. Það er alltaf hægt að sækja þetta aftur af AppSource. Frekari upplýsingar er að finna [í setja upp og fjarlægja viðauka í Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með vörueigindir](inventory-how-work-item-attributes.md)  
 [Flokka vörur](inventory-how-categorize-items.md)  
 [Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

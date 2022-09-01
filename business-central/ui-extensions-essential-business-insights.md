@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
+ms.search.form: 1439,
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3980b900a1fe261ae45c2eb1dc6e5395a01cb02d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: f703448f15c7284f51a2876ccd2b83b9a2351b9d
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384021"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361746"
 ---
 # <a name="the-essential-business-insights-extension"></a>Essential Business Insights viðbótin
+
 Viðbótin Essential viðskiptainnsýn finnur áhugaverðar staðreyndir um viðskipti fyrirtækis þíns og birtir þær svipað eins og fyrirsagnir í dagblöðum í Mínu hlutverki. Það fer eftir því hvað viðbótin finnur í gögnum, innsýnin er frá síðustu viku, mánuði eða þremur mánuðum frá deginum í dag. Innsýnin uppfærist á 10 mínútna fresti.  
 
 Ef þú vilt skoða nánar innsýn getur þú valið það að fara í uppruna hennar. Til dæmis, ef þú vilt fá upplýsingar um stærsta sölureikning sem var bókaður í síðustu viku, er hægt að velja innsýnina til að birta reikninginn.
@@ -35,8 +37,8 @@ Eftirfarandi tafla lýsir innsýninni sem viðbótin útvegar fyrir Mitt hlutver
 |Verkefnastjóri| Sýnir kveðju og tengil á afurðarupplýsingar.|
 |Stjórnandi| Sýnir kveðju og tengil á afurðarupplýsingar.|
 
-## <a name="see-also"></a>Sjá einnig
-[Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)
+## <a name="see-also"></a>Sjá einnig .
 
+[Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

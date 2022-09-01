@@ -9,20 +9,20 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 97e2e4e63d1a0d694cf881ed1fff8523d50fbb46
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 620a1af0deff6f9615b38706dd3f53f3db285008
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077633"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362068"
 ---
 # <a name="create-prepayment-invoices"></a>Stofna fyrirframgreiðslureikninga
 
-Ef þú gerir kröfu um að viðskiptavinir inni greiðslu af hendi áður en þú sendir pöntun til þeirra getur þú notað aðgerð fyrirframgreiðslu. Sama gildir ef lánardrottinn þinn krefst þess að þú innir greiðslu af hendi áður en hann sendir pöntun til þín.  
+Ef þú þarfnast þess að Viðskiptavinir greiði áður en þú pantar pöntunina er hægt að nota fyrirframgreiðsluaðgerðirnar. Sama gildir ef seljandi krefst þess að Bú sitt sé greitt áður en hann skipar pöntunina.  
 
-Hægt er að hefja fyrirframgreiðsluferlið þegar búið er að stofna sölu- eða innkaupapöntun. Ef um er að ræða sjálfgefna fyrirframgreiðsluprósentu fyrir tiltekna vöru í pöntuninni eða fyrir þennan viðskiptavin eða lánardrottin, verður hún sjálfkrafa innifalin á fyrirframgreiðslureikningnum. Einnig er hægt að tilgreina fyrirframgreiðsluprósentuna fyrir allt skjalið.
+Hægt er að hefja fyrirframgreiðsluferlið þegar búið er að stofna sölu- eða innkaupapöntun. Ef sjálfgefin fyrirframgreiðsluprósenta er fyrir vöru í pöntuninni, eða fyrir viðskiptavin eða lánardrottinn, verður prósentan tekin með í fyrirframgreiðslureikninginn. Einnig er hægt að tilgreina fyrirframgreiðsluprósentuna fyrir allt skjalið.
 
-Þegar búið er að stofna sölu- eða innkaupapöntun er hægt að stofna fyrirframgreiðslureikning. Hægt er að nota sjálfgefnar prósentur fyrir sölu- og innkauplínur eða leiðrétta upphæðina eins og með þarf. Til dæmis er hægt að tilgreina heildarupphæð fyrir alla pöntunina.  
+Þegar búið er að stofna sölu-eða innkaupapöntun er hægt að stofna fyrirframgreiðslureikning fyrir hann. Annaðhvort nota sjálfgefnu prósenturnar fyrir hverja sölu-eða innkaupalínu eða leiðrétta upphæðina. Til dæmis væri hægt að tilgreina heildarupphæð fyrir alla pöntunina.  
 
 Eftirfarandi ferli sýnir hvernig skal gefa út fyrirframgreiðslureikning fyrir sölupöntun. Skrefin eru svipuð fyrir innkaupapöntun.  
 
@@ -31,20 +31,20 @@ Eftirfarandi ferli sýnir hvernig skal gefa út fyrirframgreiðslureikning fyrir
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Stofna nýja sölupöntun fyrir viðeigandi viðskiptavin. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).  
 
-    Á flýtiflipanum **Fyrirframgreiðsla** tilgreinir svæðið **Fyrirframgreiðsla %** prósentuna sem á að nota til að reikna út fyrirframgreiðsluupphæðina. Ef sjálfgefin fyrirframgreiðsluprósenta er á spjaldi viðskiptavinar er svæðið sjálfkrafa fylltur út. Hægt er að breyta prósentunni. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
+    Á flýtiflipanum **Fyrirframgreiðsla** tilgreinir svæðið **Fyrirframgreiðsla %** prósentuna sem á að nota til að reikna út fyrirframgreiðsluupphæðina. Ef það er sjálfgefin fyrirframgreiðsluprósenta á viðskiptamannaspjaldinu er reiturinn fylltur út sjálfkrafa. Hægt er að breyta prósentunni. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
 
     Veldu svæðið **Þjappa fyrirframgreiðslu** ef óskað er eftir að stofna línur á fyrirframgreiðslureikningnum sem sameinar línur úr sölupöntuninni ef:  
 
     - Þær eru með sama fjárhagsreikninginn fyrir fyrirframgreiðslur samkvæmt stillingum í almenna bókunargrunninum.  
     - Þeir hafa sömu víddir.  
 
-    Ekki velja svæðið **Þjappa fyrirframgreiðslu** ef þú vilt tilgreina fyrirframgreiðslureikning með einni línu fyrir hverja sölupöntunarlínu sem hefur fyrirframgreiðsluprósentu.  
+    Ef tilgreina á fyrirframgreiðslureikning með einni línu fyrir hverja sölupöntunarlínu sem hefur fyrirframgreiðsluprósentu skal ekki velja **reitinn þjappa fyrirframgreiðslu**.  
 
     Gjalddagi fyrirframgreiðslunnar er sjálfkrafa reiknaður út frá gildinu í reitnum **Greiðsluskilmálakóði fyrirframgr.**.
 
 3. Sölulínurnar eru fylltar út.  
 
-    Ef þú hefur tilgreint sjálfgefna fyrirframgreiðsluprósentuna annað hvort fyrir viðskiptavininn eða á flýtiflipanum **Fyrirframgreiðsla** í þessu skjali, er þetta gildi afritað í hverja línu. Hægt er að breyta innihaldi reitsins **Fyrirframgreiðsla %** í línunni.  
+    Ef tilgreint er sjálfgefið hlutfall fyrirframgreiðslu fyrir viðskiptavin eða á **flipanum fyrirframgreiðsla** á þessu fylgiskjali er þetta gildi afritað í hverja línu. Hægt er að breyta innihaldi reitsins **Fyrirframgreiðsla %** í línunni.  
 
     > [!TIP]
     > Ef reiturinn fyrirframgreiðsla% **sést** ekki er hægt að bæta honum í gegnum sérsnið.  Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
@@ -55,19 +55,23 @@ Eftirfarandi ferli sýnir hvernig skal gefa út fyrirframgreiðslureikning fyrir
 
     Ef reiturinn **Verð ásamt VSK** er valinn er hægt að breyta reitnum **Upphæð fyrirframgreiðslu með VSK**.  
 
-    Ef þú breytir innihaldi reitsins **Fyrirframgreiðsluupphæð**, mun upphæðinni verða dreift hlutfallslega á milli allra lína, nema þeirra sem hafa **0** í reitnum **Fyrirframgreiðsla %**.  
+    Ef efni **reitsins upphæð** fyrirframgreiðslu er breytt er upphæðinni dreift í hlutfalli við **allar línur nema línur sem hafa** 0 **í reitnum fyrirframgreiðsla%**.  
 
 5. Til að prenta prufuskýrslu áður en fyrirframgreiðslureikningurinn er bókaður skal velja aðgerðina **Fyrirframgreiðsla**, og síðan aðgerðina **Prufuskýrsla fyrirframgreiðslu**.  
 6. Til að bóka fyrirframgreiðslureikningurinn skal velja aðgerðina **Fyrirframgreiðsla**, og síðan aðgerðina **Bóka fyrirframgreiðslureikning**.  
 
     Fyrirframgreiðslureikningur er bókaður og prentaður með því að velja aðgerðina **Bóka og prenta fyrirframgr.reikning**.  
 
-Hægt er að gefa út viðbótar fyrirframgreiðslureikninga fyrir pöntunina. Þetta er gert með því að hækka upphæð fyrirframgreiðslunnar í einni eða fleiri línum, leiðrétta dagsetningu fylgiskjalsins, ef þess þarf, og bóka fyrirframgreiðslureikninginn. Nýr reikningur er stofnaður fyrir mismuninn á milli reikningsfærðra upphæða fyrirframgreiðslu og nýju fyrirframgreiðsluupphæðarinnar.  
+Hægt er að gefa út aðra fyrirframgreiðslureikninga fyrir pöntunina. Til að gefa út annan reikning er upphæð fyrirframgreiðslu aukin í einni eða fleiri línum, stilla dagsetningu fylgiskjals ef þörf krefur og bóka fyrirframgreiðslureikninginn. Nýr reikningur er stofnaður fyrir mismuninn á milli reikningsfærðra upphæða fyrirframgreiðslu og nýju fyrirframgreiðsluupphæðarinnar.  
 
 > [!NOTE]  
 > Ef þú ert í Norður Ameríku, geturðu ekki breytt fyrirframgreiðsluprósentunni eftir að fyrirframgreiðslureikningurinn hefur verið bókaður. Í N-amerísku útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] er komið í veg fyrir þetta, því útreikningur söluskatts yrði annars rangur.  
 
- Þegar hægt er að bóka restina af reikningnum er hann bókaður eins og hver annar reikningur og fyrirframgreiðsluupphæðin er sjálfvirkt dregin frá þeirri upphæð sem greiða á.  
+ Þegar þú ert tilbúinn að bóka afganginn af reikningnum skaltu bóka hann eins og þú bókar hvaða reikning sem er og upphæð fyrirframgreiðslu verður dregin frá upphæðinni sem er á gjalddaga.  
+
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Uppfæra stöðu fyrirframgreiddra pantana og reikninga sjálfkrafa
+
+Hægt er að flýta pöntunar-og reikningsvinnslu með því að setja upp vinnsluraðarfærslur sem uppfæra sjálfkrafa stöðu skjalanna. Þegar Greiðslureikningur er greiddur geta færslur í vinnslubiðröð sjálfkrafa breytt stöðu skjals úr **fyrirframgreiddum** reikningi í **Útgefin**. Þegar verkraðarafærslur eru settar upp verður kostnaðareining sem nota á sé **383 UPD. Fyrirframreikningur biðlauna** Sölvi **383 UPD. Fyrirframreikningur biðlauna Innkaupa**. Mælt er með því að færslurnar séu keyrðar oft, til dæmis á hverri mínútu. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 

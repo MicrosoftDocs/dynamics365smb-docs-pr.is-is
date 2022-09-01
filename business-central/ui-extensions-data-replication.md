@@ -6,16 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, import, implement
+ms.search.keywords: app, add-in, manifest, customize, import, implement
+ms.search.form: 4021, 4026, 4031, 4090, 4091, 4092, 4093, 4094, 4095, 4096, 4097, 40027,
 ms.reviewer: edupont
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5c18605da5ba115f39d46c317eaf51278c8948cf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e04a5ba015914a39c87a9966c317a7b5f1e3d55a
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129969"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361966"
 ---
 # <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Skýjaflutningsviðbætur fyrir flutning á Business Central Online
 
@@ -40,7 +41,7 @@ Ef þú ert að nota Dynamics GP skaltu ná í viðbæturnar **Snjallskýsgrunns
 
 Ef þú ert að nota Dynamics SL skaltu ná í viðbæturnar **Snjallskýsgrunnur**, **Microsoft Dynamics SL-snjallský** og **Microsoft Dynamics SL-ferlissnjalllisti** og keyra svo **Uppsetningu skýjaflutnings** leiðbeiningar um uppsetningu með hjálp.  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
 
 [Grunnviðbót skýjaflutnings](ui-extensions-intelligent-cloud.md)  
 [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

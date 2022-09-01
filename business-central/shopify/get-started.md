@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808934"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361556"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Byrjaðu með Shopify tengiflugi
 
@@ -26,26 +27,26 @@ Tengdu þína Shopify verslun (eða verslanir) við [!INCLUDE [prod_short](../in
 - Samkeyrsla á bi-stefnumarkandi atriðum eða afurðum  
 
   - Í Connector eru samkeyrðar myndir, vöruafbrigði, strikamerki, vörunúmer lánardrottins, lengdir textar og seðlar.  
-  - Flytja út eigindi vöru í Shopify.  
-  - Nota valda verðflokka viðskiptamanna og afslætti til að skilgreina verð sem fluttur er út í Shopify.  
-  - Ákveða hvort vörur megi stofna sjálfvirkt eða leyfa ekki uppfærslur á fyrirliggjandi afurðum.  
+  -    Flytja út eigindi vöru í Shopify.  
+  -    Nota valda verðflokka viðskiptamanna og afslætti til að skilgreina verð sem fluttur er út í Shopify.  
+  -    Ákveða hvort vörur megi stofna sjálfvirkt eða leyfa ekki uppfærslur á fyrirliggjandi afurðum.  
 - Samstilling birgðastita  
 
-  - Velja skal nokkra eða alla tiltæka staði í [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Uppfæra birgðastig á mörgum stöðum í Shopify.  
+  -    Velja skal nokkra eða alla tiltæka staði í [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  -    Uppfæra birgðastig á mörgum stöðum í Shopify.  
 - Bi-stefnumiðuð samstilling viðskiptavina  
 
-  - Snjallkort viðskiptavina með síma og tölvupósti.  
-  - Nota skal landssniðmát þegar Viðskiptavinir eru stofnaðir, sem hjálpar til að tryggja að skattastillingar séu réttar.  
+  -    Snjallkort viðskiptavina með síma og tölvupósti.  
+  -    Nota skal landssniðmát þegar Viðskiptavinir eru stofnaðir, sem hjálpar til að tryggja að skattastillingar séu réttar.  
 - Innflutningur á pöntunum frá Shopify  
 
-  - Við innflutninginn er hægt að stofna viðskiptamenn sjálfkrafa í [!INCLUDE [prod_short](../includes/prod_short.md)] eða ákveða að stjórna viðskiptavinunum í Shopify.  
-  - Taka með pantanir sem Shopify stofnaðar eru á öðrum leiðum, til dæmis POS eða Amazon.  
-  - Sendingarkostnaður, gjafakort, ábendingar, siglinga-og greiðsluaðferðir, tilfærslur og hætta á svikum.  
+  -    Við innflutninginn er hægt að stofna viðskiptamenn sjálfkrafa í [!INCLUDE [prod_short](../includes/prod_short.md)] eða ákveða að stjórna viðskiptavinunum í Shopify.  
+  -    Taka með pantanir sem Shopify stofnaðar eru á öðrum leiðum, til dæmis POS eða Amazon.  
+  -    Sendingarkostnaður, gjafakort, ábendingar, siglinga-og greiðsluaðferðir, tilfærslur og hætta á svikum.  
   - Fá upplýsingar um útborgun úr Shopify greiðslum.  
 - Auðveldar mælingar á uppfyllingu upplýsinga  
 
-  - Valfrjálst er að skrifa vörurakningarupplýsingar frá [!INCLUDE [prod_short](../includes/prod_short.md)] í Shopify.  
+  -    Valfrjálst er að skrifa vörurakningarupplýsingar frá [!INCLUDE [prod_short](../includes/prod_short.md)] í Shopify.  
 
 Til að nota Shopify með [!INCLUDE [prod_short](../includes/prod_short.md)] hefur þú nokkra hluti til að gera fyrst. Þessi grein þjónar sem leiðarvísir til að ljúka samþættingu verslunar þinnar Shopify við [!INCLUDE [prod_short](../includes/prod_short.md)].
 

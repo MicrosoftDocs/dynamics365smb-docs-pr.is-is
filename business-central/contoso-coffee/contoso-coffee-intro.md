@@ -4,14 +4,15 @@ description: Yfirlit yfir áætlanir um hvernig contoso kaffi sýnishorn gögn g
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 782e8258bb04ac09ee0596fff34fccdca592e26e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524197"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362094"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Kynning á contoso kaffi sýnigögnum
 
@@ -55,7 +56,7 @@ Bættu appinu við tómt fyrirtæki í borgandi áskrift eða sem hluta af prufu
 
 Þegar viðeigandi forrit eru sett upp er farið á [kaffisíðuna contoso Coffee](https://businesscentral.dynamics.com/?page=4760) í [!INCLUDE [prod_short](../includes/prod_short.md)] og breytt sjálfgefnum stillingum sem henta þínum þörfum. Eftirfarandi töflur lýsa stillingum:  
 
-|Svæði  |Description  |
+|Svæði  |Lýsing  |
 |---------|---------|
 |**Upphafsár** |Tilgreinir fyrsta árið sem óskað er eftir að nota á contoso-Kaffisýnigögnin. Allt frá uppsetningu félagsins er árið annað hvort almanaksárið eða reikningsár.|
 |**Staðsetning framleiðslu** |Tilgreinir vöruhúsið sem nota á fyrir framleiðsluaðgerðir. Sjálfið er fyrir norðan *en hægt er* að breyta því þannig að það henti þörfum.|
@@ -64,10 +65,10 @@ Bættu appinu við tómt fyrirtæki í borgandi áskrift eða sem hluta af prufu
 |**Afkastageta-almennur vörubókunarflokkur**    |Tilgreinir kóta vara eða forða sem þarf að nota til að bóka afkastagetu.|
 |**Smásala-almennur vörubókunarflokkur**    |Tilgreinir kóta vara eða forða sem þarf að nota til að bóka smásölu.|
 |**Hráefni almennur vörubókunarflokkur**    |Tilgreinir kóta vara eða forða sem nota þarf við bókun hráefnis. |
-|**VSK-kóði**    |Tilgreinir fyrirliggjandi VSK-afurðaflokk sem verður notaður fyrir vörur.|
+|**VSK-kóði**    |Tilgreinir fyrirliggjandi vöruflokk virðisaukaskatts sem verður notaður fyrir vörur.|
 |**Afbúinn Kóði**    |Tilgreinir vöruflokk sem verður notaður fyrir tilbúnar vörur.|
 |**Verðstuðull**     |Tilgreinir hvaða Stuðull á að umreikna verð frá USD/EUR yfir í staðbundinn gjaldmiðil. *1* merkir að verðið sé sama fjárhæð í hvaða gjaldmiðli sem er. Hærri tala verður notuð til að fá verð í gjaldmiðli landsins. |
-|**Sléttunarnákvæmni**  |Skilgreinir hvernig útreiknaða notkunarmagn er sléttað þegar það er fært inn í línur í notkun færslubókar. Magn sem er minna en 0,5 verður sléttað niður. Magn jöfn eða hærri en 0,5 verður sléttað.|
+|**Sléttunarnákvæmni**  |Skilgreinir hvernig reiknað notkunarmagn er sléttað þegar það er fært inn á notkunarbókarlínur. Magn sem er minna en 0,5 verður sléttað niður. Magn jöfn eða hærri en 0,5 verður sléttað.|
 
 Þegar þú ert tilbúin, Veldu þá aðgerðina búa til **sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn, en þá Ertu tilbúinn að keyra hinar ýmsu aðstæður.  
 

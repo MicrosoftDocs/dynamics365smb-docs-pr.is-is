@@ -6,14 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 1080, 1081, 1083, 1085, 1087, 1089
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e538d6ddef44948785c76bd1cf55b9bdd80c111c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ae7499827c03a6b67b507c0145e6553018b46108
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076254"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362054"
 ---
 # <a name="the-microsoft-pay-extension"></a>Microsoft Pay Viðbótin
 
@@ -29,7 +30,7 @@ ms.locfileid: "9076254"
 
 Viðskiptamenn þurfa stöðugt hærra þjónustustig, bæði hvað varðar gæði vöru en einnig hvað varðar valkosti afhendingar og greiðsluþjónustu. Microsoft Pay þjónustan gerir kleift að veita viðskiptamanninum meiri þjónustu.
 
-Microsoft Pay viðbótin bætir við Microsoft Pay tengli við söluskjölin þín svo viðskiptamenn geti auðveldlega borgað með því að nota Microsoft Pay. Síðan geturðu sent skjölin með tölvupósti til að bjóða upp á betri þjónustu við viðskiptavina og stytta tímann sem það tekur greiðslu viðskiptavina að koma inn á bankareikning þinn.
+Microsoft Pay viðbótin bætir við Microsoft Pay tengli við söluskjölin þín svo viðskiptamenn geti auðveldlega borgað með því að nota Microsoft Pay. Þá er hægt að senda skjölin með tölvupósti til að veita hærri þjónustu og stytta þann tíma sem það tekur fyrir greiðslur viðskiptavina til að koma á bankareikninginn þinn.
 
 Microsoft Pay Viðbótin veitir eftirfarandi ávinning:
 - Greiðslur viðskiptamanns berast hraðar á bankareikning þinn.
@@ -41,10 +42,10 @@ Microsoft Pay Viðbótin veitir eftirfarandi ávinning:
 
 Það er ókeypis að virkja viðbætur greiðsluþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)] en hafa þarf samband við greiðsluþjónustuna til að stofna reikning. Nánari upplýsingar eru í [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
+
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

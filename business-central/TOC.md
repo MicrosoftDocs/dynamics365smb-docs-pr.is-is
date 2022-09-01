@@ -296,6 +296,7 @@
 #### [Loka á viðskiptamenn](receivables-how-block-customers.md)
 #### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
+#### [Virðisaukaskattur í sjálfgefna útgáfu af Viðskiptaseðla-](sales-tax-concept.md)
 
 ### Stjórna skuldum
 #### [Yfirlit viðskiptaskulda](payables-manage-payables.md)

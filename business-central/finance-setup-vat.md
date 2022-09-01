@@ -7,55 +7,53 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 1877, 470, 471, 472
+ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: e0703d6dfccc2ec97213c89f42b8d74b3d320e1c
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130119"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361583"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts
 
-Neytendur og fyrirtæki greiða virðisaukaskatt (VSK) þegar þau kaupa vörur eða þjónustu. Upphæð VSK til greiðslu getur verið mismunandi, það fer eftir nokkrum þáttum. Í [!INCLUDE[prod_short](includes/prod_short.md)] er settur upp VSK til að tilgreina Taxtar sem á að nota við útreikning á skattupphæðum á grundvelli eftirfarandi færibreyta:
+Neytendur og fyrirtæki greiða virðisaukaskatt (VSK) þegar þau kaupa vörur eða þjónustu. Upphæð VSK til greiðslu getur verið mismunandi, það fer eftir nokkrum þáttum. Í [!INCLUDE[prod_short](includes/prod_short.md)] er settur upp VSK til að tilgreina gjaldmiðla sem eru notaðir til að reikna skattupphæðir, sem byggðar eru á eftirfarandi færibreytum:
 
 * Hverjum selt er  
 * Hverjum keypt er af  
 * Það sem er selt  
 * Hvað keypt er  
 
-Hægt er að setja upp VSK-útreikning handvirkt, en það getur verið bæði snúið og tímafrekt. Til að auðvelda, útveguðum við uppsetningarleiðsögn með hjálp sem nefnist **VSK Uppsetning** sem hjálpar til við verkstig. Mælt er með að nota uppsetningarleiðsögn til að setja upp VSK.
+Hægt er að setja upp VSK-útreikninga handvirkt en það getur verið erfiður og tímafrekann. Það er vegna þess að mjög auðvelt er að nota VSK-taxta fyrir mistök og búa til rangar skýrslur um VSK-tengdar. Ef gera á uppsetningu á VSK auðveldari er mælt með því að nota leiðbeiningar um **VSK** sem fylgja í afurðin. 
 
-> [!NOTE]  
-> Hægt er að nota leiðbeiningarnar, aðeins ef þú hefur stofnað Mitt fyrirtæki, og hefur ekki bókað færslur sem innihalda VSK. Annars er mjög auðvelt að nota mismunandi VSK taxta af misgáning og gera VSK-skýrslum ónákvæmt.  
-
-Ef setja á upp VSK-útreikninga sjálfur eða bara á að fræðast um hvert skref er lýsing á því í þessari grein að finna lýsingar á hverju skrefi.  
+Ef þú vilt hins vegar setja upp VSK-útreikninga sjálfur eða vilt bara fá upplýsingar um hvert skref er þessi grein að finna lýsingar á hverju þrepi:  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Nota leiðbeiningar fyrir uppsetningu VSK-uppsetningar til að setja upp VSK (ráðlegt)
+## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>VSK er settur upp með uppsetningarleiðbeiningum með VSK (ráðlegt > 
 
-Mælt er með að nota VSK-uppsetningarleiðsögn með hjálp til að setja upp VSK í [!INCLUDE[prod_short](includes/prod_short.md)].
+> [!NOTE]
+> Aðeins er hægt að **nota VSK-Uppsetningarleiðbeiningarnar** ef fyrirtæki *mitt hefur verið stofnað og ekki hafa enn verið bókaðar færslur sem FELA í* sér VSK.
 
 Til að ræsa uppsetningleiðbeiningar með hjálp, fylgið þessum skrefum:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp**.  
-2. Velja **Setja upp VSK** og ljúkið við skrefin.
-3. Þegar uppsetningu hjálpar er lokið skal fara á **síðuna VSK-bókunargrunnur** og athuga hvort fylla þurfi í fleiri reiti samkvæmt staðbundnum kröfum í útgáfunni [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Staðbundin virkni í Business Central](about-localization.md)  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið og færa inn **aðstoðar uppsetningu**. 
+2. Valið **er setja upp virðisauka (VAT)** og ljúka við skrefin.
+3. Þegar uppsetningu aðstoðar er lokið er farið á **síðuna VSK-bókunargrunnur** til að kanna hvort fylla þurfi í fleiri reiti samkvæmt staðbundnum kröfum í útgáfunni af [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar á [staðbundinni virkni í Aðalstarfsemi](about-localization.md).  
 
 ### <a name="check-the-vat-posting-setup"></a>Athuga skal VSK-bókunaruppsetninguna
 
-Til að styðja þig í að byrja hratt [!INCLUDE [prod_short](includes/prod_short.md)] sýnir þú tilkynningar ef Fjárhagur vantar (fjárhagsreikningar) eru í bókunarflokkum eða bókunaruppsetningar eins og **bókunaruppsetning** VSK. Hægt er að skipta þessari gerð tilkynninga á eða úr með því að *nota fjárhagsreikninga sem vantar í bókunarflokk eða tilkynningu í uppsetningu* á **síðunni tilkynningar** mínar. Farðu **bara á síðuna stillingarnar** og veldu *svo breytinguna þegar ég fæ tilkynningar.* .  
+Til að styðja ræsingu á byrjun [!INCLUDE [prod_short](includes/prod_short.md)] lætur þú vita um þann sem vantar fjárhag (fjárhags-) reikninga í bókunarflokkum eða bókunaruppsetningar, eins og á **síðunni VSK bókunaruppsetning**. Hægt er að gera þessa gerð tilkynningar óvirkt með því að nota *fjárhagsreikning vantar í bókunarflokk eða tilkynningu í uppsetningu* á **síðunni tilkynningar**. Farðu **bara á síðuna stillingarnar** og veldu *svo breytinguna þegar ég fæ tilkynningar.* .  
 
 Ef slík tilkynning er valin, [!INCLUDE [prod_short](includes/prod_short.md)] stofnar sjálfkrafa þær bókunaruppsetningar sem eru byggðar á bókunarflokkum í skjalinu eða færslubókinni sem verið er að vinna að.  
 
-Á þessu stigi er ef til vill bara hægt að fylla út í þá sem vantar fjárhagsreikninga. Seinna var svo hugsanlega hægt að átta sig á uppsetningunni þegar frekari betrumbæta var bætt. [!INCLUDE [prod_short](includes/prod_short.md)] leyfir ekki eyðingu VSK-bókunaruppsetningar og almennrar bókunaruppsetningar þegar færslur eru stofnaðar á grundvelli slíkra afbrigða. Sem byrjar í 2022 1. er hægt að nota **reitinn lokaður** á **uppsetningarsíðu** VSK-bókunar til að koma í veg fyrir að notendur hafi rangt með uppsetningu sem er ekki lengur viðeigandi fyrir nýjar bókanir.
+Á þessum tímapunkti er bara hægt að fylla út reitina sem vantar. En síðar, þegar uppsetningin er ítarlegri, mætti gera grein fyrir því að Upphafleg Uppsetning er röng. Og [!INCLUDE [prod_short](includes/prod_short.md)] leyfir ekki EYÐINGU VSK-bókunaruppsetningar og almennrar bókunaruppsetningar þegar færslur hafa verið stofnaðar á grundvelli slíkra afbrigða. Svo að byrja í 2022 1. gr. er hægt að nota **reitinn lokaður** á **uppsetningarsíðu** VSK-bókunar til að koma í veg fyrir að notendur hafi rangt með uppsetningu sem tengist ekki lengur nýjum bókunum.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Setja upp VSK-númer fyrir land eða svæði
 
-Til að ganga úr skugga um að rétt VSK-númer séu slegin inn er hægt að skilgreina snið fyrir VSK-númer sem eru notuð í löndum eða svæðum þar sem viðskipti notanda eru stunduð. [!INCLUDE[prod_short](includes/prod_short.md)] mun birta villuboð þegar einhver gerir mistök eða nota snið sem er rangt fyrir landið eða svæðið.
+Til að hjálpa fólki að færa inn gild VSK-númer er hægt að skilgreina snið VSK-númeranna sem eru notuð í þeim löndum eða svæðum sem fyrirtæki á í viðskiptum við. [!INCLUDE[prod_short](includes/prod_short.md)] birtast villuboð ef einhver gerir mistök eða notar snið sem er rangt fyrir landið eða svæðið.
 
 Til að setja upp VSK-númer skal fylgja eftirfarandi skrefum:
 
@@ -67,26 +65,27 @@ Til að setja upp VSK-númer skal fylgja eftirfarandi skrefum:
 * **@** Krefst stafs. Þetta snið er ekki Stafrétt.  
 * **?** Leyfir hvaða staf sem er.  
 
-    > [!Tip]
-    > Hægt er að nota þessa stafi svo framarlega sem þeir eru alltaf til staðar í sniði landsins eða svæðisins. Ef t.d. þarf að hafa með punkt eða bandstrik milli talna skal skilgreina sniðið sem ##.####.### eða @@-###-###.  
+    > [!TIP]
+    > Hægt er að nota þessa stafi svo framarlega sem þeir eru alltaf til staðar í sniði landsins eða svæðisins. Þannig að ef þú þarft að taka með tímabil eða hyphen á milli stæða er hægt að skilgreina sniðið sem # #. # # # #. # # # eða @ @-# # #-# #.  
 
 ## <a name="set-up-vat-business-posting-groups"></a>Uppsetning VSK-viðskiptabókunarflokka
 
 VSK-viðskiptabókunarflokkar á að tákna markaðina þar sem þú stundar viðskiptum við viðskiptamenn og lánardrottna, og tilgreina hvernig á að reikna og bóka VSK á sérhverjum markaði. Dæmi um VSK viðskiptabókunarflokka eru **Innanlands** og **Evrópusambandið (ESB)**.  
 
-Nota skal kóða sem auðvelt er að muna og er auðkennandi fyrir viðskiptaflokkinn, til dæmis **ESB**, **Ekki-ESB**, eða **Innlent**. Kótinn þarf að vera einstakur. Þú getur sett upp eins marga kóða og þörf krefur, en ekki er hægt að nota sama kóðann oftar en einu sinn í einni töflu.
+Nota skal kóða sem auðvelt er að muna og er auðkennandi fyrir viðskiptaflokkinn, til dæmis **ESB**, **Ekki-ESB**, eða **Innlent**. Hver Kóði verður að vera Einkvæmur, merkir að hægt er að setja upp eins marga kóta og þörf er á en ekki er hægt að hafa sama kótann oftar en einu sinni í töflu.
 
 Til að setja upp VSK-viðskiptabókunarflokk er þessu skrefum fylgt:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-viðskiptabókunarflokk** og velja síðan viðkomandi tengil.  
-2. Fyllið inn í svæðin eftir þörfum.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **VSK-viðskiptabókunarflokka** og velja síðan tengda tengilinn.  
+2. Fyllið inn reitina eftir þörfum.
 
-Sjálfgefnir VSK-viðskiptabókunarflokkar eru settir upp með því að tengja þá við almenna viðskiptabókunarflokka. [!INCLUDE[prod_short](includes/prod_short.md)] úthlutar sjálfkrafa VSK-viðskiptabókunarflokkinum þegar þú úthlutar viðskiptabókunarflokki til viðskiptamanns, lánardrottins eða fjárhagsreiknings.
+Hægt er að setja upp sjálfgefna VSK-viðskiptabókunarflokka með því að tengja þá við almenna viðskiptabókunarflokka. [!INCLUDE[prod_short](includes/prod_short.md)] úthlutar sjálfkrafa VSK-viðskiptabókunarflokkinum þegar þú úthlutar viðskiptabókunarflokki til viðskiptamanns, lánardrottins eða fjárhagsreiknings.
 
 ## <a name="set-up-vat-product-posting-groups"></a>Uppsetning VSK-vörubókunarflokka
 
-VSK-vörubókunarflokkar tákna þær vörur og tilföng sem þú kaupir eða selur, og ákvarða hvernig skal reikna út og bóka VSK eftir tegund vöru eða tilfangs sem eru keypt eða seld.  
-Góð regla er að nota kóða sem auðvelt er að muna og lýsa taxtanum, eins og **ÁN-VSK** eða **Núll**, **VSK10** eða **Skertur** fyrir 10% VSK, og **VSK25** eða **Staðlað** fyrir 25%.
+VSK-vörubókunarflokkar tákna vörurnar og tilfang sem er keypt eða Selt og ákvarða hvernig á að reikna og bóka VSK eftir gerð vörunnar eða forðunarinnar.
+
+Gott ráð er að nota kóta sem auðvelt er að muna og lýsa hlutfallinu, svo sem **Nei-VAT** eða **núll**, **VAT10** eða **lækka** í 10 prósenta VSK og **VAT25** eða **staðalinn** fyrir 25 prósent.
 
 Til að setja upp VSK-viðskiptabókunarflokk er þessu skrefum fylgt:
 
@@ -141,11 +140,11 @@ Eftirfarandi hlutar útskýra hvernig á að úthluta VSK-bókunarflokkum til ei
 
 ## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Setja upp ákvæði til að útskýra VSK undanþegna eða óstaðlaða VSK-taxta
 
-VSK-klausa er sett upp til að lýsa upplýsingum um hvaða tegund VSK er notuð. Reglur stjórnvalda gætu krafist þessara upplýsinga. Þegar búið er að setja upp VSK-ákvæði og tengja það við VSK-bókunaruppsetningu, birtist VSK-ákvæðið á öllum prentuðum söluskjölum sem nota VSK-bókunaruppsetningarflokkinn.
+VSK-klausa er sett upp til að lýsa upplýsingum um hvaða tegund VSK er notuð. Upplýsingarnar kunna að vera nauðsynlegar samkvæmt reglum stjórnvalda. Þegar búið er að setja upp VSK-ákvæði og tengja það við VSK-bókunaruppsetningu, birtist VSK-ákvæðið á öllum prentuðum söluskjölum sem nota VSK-bókunaruppsetningarflokkinn.
 
 Ef með þarf er einnig hægt að tilgreina hvernig skal þýða VSK ákvæði yfir á öðrum tungumálum. Þegar söluskjal sem inniheldur VSK-kenni er stofnað og prentað, mun skjalið innihalda VSK-ákvæðið sem var þýtt. Tilgreindur tungumálakóðinn á viðskiptamannaspjaldinu ákvarðar tungumálið.
 
-Þegar óhefðbundin VSK-hlutföll eru notuð í mismunandi skjalagerðum, t.d. reikningum eða kreditreikningum, er venjulega krafist þess að fyrirtæki láti undanþágutexta (VSK-klausu) fylgja með til að útskýra af hverju minni virðisaukaskattur eða enginn virðisaukaskattur hefur verið reiknaður. Hægt er að skilgreina mismunandi VSK-klausur til að hafa með í viðskiptaskjölum eftir gerð skjals, t.d. reikningur eða kreditreikningur. Þetta er gert á síðunni **VSK-klausur eftir skjalagerð**.
+Þegar óhefðbundin VSK-hlutföll eru notuð í mismunandi skjalagerðum, t.d. reikningum eða kreditreikningum, er venjulega krafist þess að fyrirtæki láti undanþágutexta (VSK-klausu) fylgja með til að útskýra af hverju minni virðisaukaskattur eða enginn virðisaukaskattur hefur verið reiknaður. Hægt er að skilgreina mismunandi VSK-klausur til að hafa með í viðskiptaskjölum eftir gerð skjals, t.d. reikningur eða kreditreikningur. Það er gert **í VSK-ákvæðum eftir tegund** fylgiskjals.
 
 Hægt er að breyta eða eyða VSK-klausu og þá birtast breytingarnar í myndaðri skýrslu. [!INCLUDE[prod_short](includes/prod_short.md)] geymir hins vegar breytingasöguna. Í skýrslunni eru VSK-klausulýsingar prentaðar og birtar fyrir allar línur í skýrslunni ásamt VSK-upphæðinni og upphæð VSK-stofnsins. Ef VSK-klausa hefur ekki verið skilgreind fyrir neinar línur í söluskjalinu er öllum hlutanum sleppt þegar skýrslan er prentuð.
 
@@ -155,8 +154,8 @@ Hægt er að breyta eða eyða VSK-klausu og þá birtast breytingarnar í mynda
 2. Á **VSK ákvæði** síðunni, skal búa til nýja línu.  
 3. Í reitnum **Kóði** er auðkenni ákvæðisins slegið inn. Þessi kóði er notuð til að úthluta ákvæðinu á VSK-bókunarflokka.  
 4. Í reitnum **Lýsing** er færður inn texti VSK-undanþágu sem þú vilt að birtist á fylgiskjölum sem geta innihaldið VSK. **Í reitinn Lýsing 2** er ritaður meiri texti ef þörf krefur. Textinn verður sýndur á nýjum skjalalínum.
-5. Veldu aðgerðina **Lýsing eftir gerð skjals**.
-6. Á síðunni **VSK-klausur eftir skjalagerð** skal fylla í reitina til að setja upp hvaða texta VSK-undanþágu á að birta fyrir hvaða skjalagerð.  
+5. **Velja lýsinguna eftir aðgerð skjalgerðar**.
+6. **Á síðunni VSK-ákvæði eftir tegund** fylgiskjals er fyllt í reitina til að setja upp hvaða VSK-undanþágutexta á að birta sem skjalagerð.  
 7. Valfrjálst: Til að úthluta VSK-ákvæði til VSK-bókunaruppsetningar strax, veljið **Uppsetning**, og velja síðan ákvæðið. Ef þú vilt bíða, er hægt að úthluta ákvæðinu síðar á síðunni **VSK-Bókunaruppsetning**.  
 8. Valfrjálst: Til að tilgreina hvernig skal þýða VSK-ákvæðið er **Þýðingar** aðgerðin valin.
 
@@ -179,13 +178,13 @@ Hægt er að breyta eða eyða VSK-klausu og þá birtast breytingarnar í mynda
 
 1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 11.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-ákvæði** og velja síðan viðkomandi tengil.  
 2. Velja skal aðgerðina fyrir **lengda texta**.  
-3. Fyllt er í reitina **Kóti** og **Lýsing**.  
 3. Valið er aðgerðin **Nýtt**.  
-4. Hægt er að **velja kóta** allra tungumálskóta eða tilgreina viðeigandi tungumál í **reitnum Tungumálskóti** ef tungumálakótar eru notaðir.  
-5. Reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru fylltir út ef afmarka á tímabil fyrir lengdan texta.  
-6. **Skrifa lengdan texta fyrir VSK-ákvæði í textalínur**.  
-7. Veljið viðeigandi reiti fyrir fylgiskjalstegundum þar sem prenta á lengda textann.  
-8. Loka síðunni.  
+4. Reitirnir Kóti **tungumáls og** Lýsing **eru** fylltir út.  
+5. Hægt er að **velja kóta** allra tungumálskóta eða tilgreina viðeigandi tungumál í **reitnum Tungumálskóti** ef tungumálakótar eru notaðir.  
+6. Reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru fylltir út ef afmarka á tímabil fyrir lengdan texta.  
+7. **Skrifa lengdan texta fyrir VSK-ákvæði í textalínur**.  
+8. Veljið viðeigandi reiti fyrir fylgiskjalstegundum þar sem prenta á lengda textann.  
+9. Loka síðunni.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Stofna VSK-bókunaruppsetningu til að sjá um VSK af innflutningi
 
@@ -202,7 +201,7 @@ Til að setja upp kóða fyrir VSK vegna innflutnings, skal fylgja þessum skref
 
 ## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Nota bakfærðan VSK fyrir viðskipti milli ESB-landa eða svæða
 
-Sum fyrirtæki verða að nota bakfærðan VSK þegar þau eiga viðskipti við önnur fyrirtæki. Reglan gildir til dæmis fyrir innkaup frá ESB-löndum/svæðum og sölu til ESB-landa/svæða.  
+Sum fyrirtæki verða að nota bakfærðan VSK þegar þau eiga viðskipti við önnur fyrirtæki. Þessi regla gildir til dæmis um innkaup frá ESB löndum/svæðum og sölu til ESB-landa/-svæða.  
 
 > [!NOTE]  
 > Þessi regla á við þegar skipt er við fyrirtæki sem eru skráð VSK-skyld í öðrum ESB-löndum/svæðum. Ef skipt er beint við viðskiptamenn í öðrum ESB-löndum/svæðum ætti að hafa samband við skattayfirvöld til að fá upplýsingar um viðeigandi VSK-reglur.  
@@ -216,7 +215,7 @@ VSK er ekki reiknaður á sölu til VSK-skyldra fyrirtækja í öðrum ESB-lönd
 
 Til að reikna VSK rétt fyrir sölu til ESB-landa/ svæða ætti að:  
 
-* Setja upp línu fyrir sölu með sömu upplýsingum fyrir innkaup. Ef línur eru þegar uppsettar í glugganum VSK-bókunargrunnur fyrir innkaup frá ESB-löndum/-svæðum er einnig hægt að nota línurnar fyrir sölu.  
+* Setja upp línu fyrir sölu með sömu upplýsingum fyrir innkaup. Ef línur hafa þegar verið settar upp á **uppsetningarsíðu** VSK vegna INNKAUPA frá ESB löndum/svæðum þá er einnig hægt að nota þessar línur til sölu.  
 * Úthluta VSK-viðskiptabókunarflokkunum í reitnum **VSK viðsk.bókunarflokkur** á flýtiflipanum **Reikningar** í viðskiptamannaspjöldum ESB-viðskiptamanna. Einnig ætti að færa inn VSK-númer viðskiptamannsins í reitnum **VSK-númer** á flýtiflipanum **Erlent**.  
 
 Þegar sala til viðskiptamanns í öðru ESB-landi/svæði er bókuð er VSK-upphæðin reiknuð og VSK-færsla með upplýsingum um bakfærðan VSK og VSK-stofn (upphæðina sem notuð er til að reikna VSK-upphæðina) stofnuð. Engar færslur eru bókaðar í VSK-reikningana í fjárhagnum.
@@ -227,11 +226,13 @@ Upphæðir í fylgiskjölum sem ekki hafa verið bókaðar eru sléttaðar og bi
 
 ## <a name="set-up-vat-reporting"></a>Setja upp VSK-skýrslur
 
-Setja þarf upp upplýsingar um hvernig skattyfirvöld í landi eða svæði þurfa að senda VSK-skýrslur. Eftirfarandi skref sýna þær upplýsingar sem oftast eru notaðar. Hins vegar gæti landið eða svæðið þurft Viðbótarskref. Nánari upplýsingar er að finna í viðkomandi grein í *kaflanum staðbundnu virknikaflar* í Panel til vinstri.
+Setja þarf upp upplýsingar um hvernig skattyfirvöld í landi eða svæði þurfa að senda VSK-skýrslur. Eftirfarandi skref sýna þær upplýsingar sem oftast eru notaðar. Hins vegar gæti viðkomandi land eða svæði þarfnast annarra skrefa. Nánari upplýsingar er að finna í viðkomandi grein í *kaflanum staðbundnu virknikaflar* í Panel til vinstri.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp sniðmát VSK-yfirlits og heiti VSK-yfirlits](finance-how-setup-vat-statement.md)  
 [Setja upp óinnleystan virðisauka](finance-setup-unrealized-vat.md)  
@@ -249,8 +250,5 @@ Setja þarf upp upplýsingar um hvernig skattyfirvöld í landi eða svæði þu
 [VSK í tékknesku útgáfunni](LocalFunctionality/Czech/finance-vat.md)  
 [VSK-skýrsla í norsku útgáfunni](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 [Skrá yfir vöru/þjónustuskatt og Samræmddur Virðisaukaskattur í Kanada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
-
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

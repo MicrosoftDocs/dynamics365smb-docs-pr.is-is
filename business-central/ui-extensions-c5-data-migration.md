@@ -6,27 +6,29 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: extension, migrate, data, C5, import
+ms.search.keywords: extension, migrate, data, C5, import
+ms.search.form: 1860, 1861, 1862, 1863, 1864, 1867, 1868, 1869, 1874, 1882, 1883, 1884, 1885, 1886, 1888, 1890, 1891, 1892, 1893, 1894, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1906
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6f8c90eeb5b99f5591db7847e9d48124c910e328
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0def51f435cf836d681a56a75f3ac5fece4d87ea
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381115"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361691"
 ---
 # <a name="the-c5-data-migration-extension"></a>C5-gagnaflutningsviðbótin
 
 Þessi viðbót auðveldar flutning viðskiptamanna, lánardrottna, vara og fjárhagsreikninga úr Microsoft Dynamics C5 2012 í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að flytja elrdi færslur fyrir fjárhagsreikning.
 
-> [!Note]
+> [!NOTE]
 > Fyrirtækið í [!INCLUDE[prod_short](includes/prod_short.md)] má ekki innihalda gögn. Að auki skaltu ekki búa til viðskiptavini, lánardrottna, vörur eða reikninga fyrr en flutningur lýkur.
 
-## <a name="what-data-is-migrated"></a>Hvaða gögn eru flutt?
+## <a name="what-data-is-migrated"></a>Hvaða gögn eru yfirfærð?
+
 Eftirfarandi gögn eru flutt fyrir hverja einingu:
 
-### <a name="customers"></a>Viðskiptavinum
+### <a name="customers"></a>Viðskiptavinir
 
 * Tengiliður  
 * Birgðageymsla
@@ -86,7 +88,7 @@ Ef reikningar eru fluttir eru eftirfarandi gögn einnig flutt:
 * Birgðabókarkeyrsla
 * Opnar færslur (birgðafærslur)
 
-> [!Note]
+> [!NOTE]
 > Ef opnar færslur eru til staðar sem nota erlenda gjaldmiðla er gengi þeirra einnig flutt inn. Önnur gengi eru ekki flutt inn.
 
 ### <a name="chart-of-accounts"></a>Bókhaldslykill
@@ -94,10 +96,10 @@ Ef reikningar eru fluttir eru eftirfarandi gögn einnig flutt:
 * Staðlaðar víddir: Deild, kostnaðarstaður, tilgangur  
 * Sögulegar fjárhagsfærslur  
 
-> [!Note]
+> [!NOTE]
 > Sögulegar fjárhagsfærslur eru meðhöndlaðir aðeins öðruvísi. Þegar þú flytur gögn stillirðu færibreytuna **Núverandi tímabil**. Þessi færibreyta tilgreinir hvernig á að vinna úr fjárhagsfærslum. Færslur eftir þessa dagsetningu eru fluttar hver fyrir sig. Færslum fyrir þessa dagsetningu er safnað saman fyrir hvern reikning og fluttar sem ein upphæð. Segjum sem dæmi að það séu færslur á árunum 2015, 2016, 2017, 2018 og þú tilgreinir 1. janúar 2017 í reit núverandi tímabils. Fyrir hvern reikning verður upphæðum fyrir færslur á eða fyrir 31. desember 2016 safnað saman í eina færslubókarlínu fyrir hverja fjárhagsfærslu. Allar færslur eftir þennan dag verða fluttar hver fyrir sig.
 
-## <a name="file-size-requirements"></a>Kröfur um skráarstærð
+## <a name="file-size-requirements"></a>Kröfur um stærð skráa
 
 Stærsta skráin sem þú getur hlaðið upp til [!INCLUDE[prod_short](includes/prod_short.md)] er 150 MB. Ef skráin sem þú ert að flytja út úr C5 er stærri en það, skaltu íhuga að flytja gögn í mörgum skrám. Til dæmis, flytja eina eða tvær gerðir eininga úr C5, svo sem viðskiptavinum og lánardrottnum, í skrá, og síðan flytja út hluti í annarri skrá, og svo framvegis. Hægt er að flytja inn skrár hver í sínu lagi í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -107,16 +109,16 @@ Stærsta skráin sem þú getur hlaðið upp til [!INCLUDE[prod_short](includes/
 
 1. Í C5 skaltu nota **Flytja út gagnagrunn** eiginleikann til að flytja út gögnin. Sendu síðan útflutningsmöppuna í þappaða möppu.  
 2. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Gagnaflutningur** og velja síðan **Gagnaflutningur**.  
-3. Ljúka skal skrefunum í leiðbeiningum um uppsetningu með hjálp. Gakktu úr skugga um að velja **Flytja inn úr Microsoft Dynamcis C5 2012** sem gagnagjafa.  
+3. Ljúka skal skrefunum í leiðbeiningum um uppsetningu með hjálp. Gættu þess að velja **flytja inn frá Microsoft Dynamics C5 2012** sem gagnagjafi.  
 
-## <a name="viewing-the-status-of-the-migration"></a>Skoðun stöðu á flutningi
+## <a name="viewing-the-status-of-the-migration"></a>Skoðun á stöðu yfirfærslunnar
 
-Nota skal síðuna **Gagnaflutningsyfirlit** til að sjá stöðu flutningsins. Síðan sýnir upplýsingar, svo sem fjöldi færslna sem flutningurinn mun innihalda, stöðu flutningsins og fjölda vara sem hafa verið fluttar og hvort flutningur þeirra tókst. Hún sýnir einnig fjölda villna, gerir þér kleift að rannsaka hvað fór úrskeiðis og, þegar mögulegt er, auðveldar það að fara í færsluna til að laga vandamálin. Nánari upplýsingar eru í næsta hluta þessa efnisatriðis.  
+Nota skal síðuna **Gagnaflutningsyfirlit** til að sjá stöðu flutningsins. Síðan koma fram upplýsingar eins og Fjöldi eininga sem yfirfærslan felur í sér, stöðu yfirfærslunnar og fjölda þeirra atriða sem hafa verið yfirfærð og hvort þau hafi skilað árangri. Hún sýnir einnig fjölda villna, gerir þér kleift að rannsaka hvað fór úrskeiðis og, þegar mögulegt er, auðveldar það að fara í færsluna til að laga vandamálin. Nánari upplýsingar eru í næsta hluta þessa efnisatriðis.  
 
-> [!Note]
+> [!NOTE]
 > Meðan beðið er eftir stöðu flutningsins þarf að uppfæra síðuna til að birta niðurstöðurnar.
 
-## <a name="how-to-avoid-double-posting"></a>Hvernig á að koma í veg fyrir tvíbókun
+## <a name="how-to-avoid-double-posting"></a>Hvernig komast megi hjá tvíbókun
 
 Til að koma í veg fyrir tvíbókanir í fjárhagnum eru eftirfarandi mótreikningar notaðir fyrir opnar færslur:  
 
@@ -124,7 +126,7 @@ Til að koma í veg fyrir tvíbókanir í fjárhagnum eru eftirfarandi mótreikn
 * Fyrir viðskiptavini notum við viðskiptakröfureikninginn frá bókunarflokki viðskiptavinar.  
 * Fyrir vörur búum við til almennan bókunargrunn þar sem leiðréttingarreikningurinn er reikningurinn sem er tilgreindur sem birgðarreikningur í birgðabókunargrunni.  
 
-## <a name="correcting-errors"></a>Leiðrétting villna
+## <a name="correcting-errors"></a>Leiðrétta villur
 
 Ef eitthvað fer úrskeiðis og villur koma upp sýnir **Staða** reiturinn **Lokið með villum** og **Villutalning** reiturinn mun sýna fjöldann. Til að skoða lista yfir villurnar er hægt að opna **Villur í gagnaflutningi** síðuna með því að velja:  
 
@@ -135,13 +137,13 @@ Ef eitthvað fer úrskeiðis og villur koma upp sýnir **Staða** reiturinn **Lo
 
 Eftir að þú hefur lagað eina eða fleiri villur getur þú valið **Flytja** til að flytja aðeins einingarnar sem þú lagaðir án þess að þurfa að hefja flutninginn aftur.  
 
-> [!Tip]
+> [!TIP]
 > Ef þú hefur lagað fleiri en eina villu geturðu notað **Velja fleira** valkostinn til að velja margar línur til að flytja. Ef villur eru til staðar sem ekki er mikilvægt að laga geturðu valið þær og svo **Sleppa vali**.
 
-> [!Note]
+> [!NOTE]
 > Ef vörur eru til staðar sem er að finna í uppskrift gætir þú þurft að flytja oftar en einu sinni ef upprunalega varan er ekki stofnuð fyrir afbrigðið sem vísa til hennar. Ef afbrigðið er búið til fyrst getur tilvísunin í upprunalegu vöruna valdið villuboðum.  
 
-## <a name="verifying-data-after-migrating"></a>Staðfesting gagna eftir flutning
+## <a name="verifying-data-after-migrating"></a>Sannprófa gögn eftir yfirfærslu
 
 Ein leið til að sannreyna að gögnin hafi verið rétt flutt inn er með því að skoða eftirfarandi síður í C5 og [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -150,16 +152,15 @@ Ein leið til að sannreyna að gögnin hafi verið rétt flutt inn er með þv�
 |Viðskm.færslur| Almennar færslubækur| CUSTMIGR |
 |Lánardr.færslur| Almennar færslubækur| VENDMIGR|
 |Birgðafærslur| Birgðabækur| ITEMMIGR |
-|Fjárhagsfærslur| Almennar færslubækur| GLACMIGR |
+|Fjárhagsfærslur| Færslubækur| GLACMIGR |
 
-## <a name="stopping-data-migration"></a>Stöðvun gagnaflutnings
+## <a name="stopping-data-migration"></a>Flutningur stöðvunar gagna
 
 Þú getur hætt að flytja gögn með því að velja **Hætta við allan flutning**. Ef þú gerir það er líka hætt við allan flutning sem bíður.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
