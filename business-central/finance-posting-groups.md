@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 03/24/2022
+ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: MT
+ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076566"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460779"
 ---
 # <a name="set-up-posting-groups"></a>Setja upp bókunarflokka
 
@@ -59,9 +59,11 @@ Eftirfarandi tafla lýsir bókunarflokkana sem eru sérstaklega gerðir af gögn
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Staðgengdarflokkum viðskiptamanna-eða lánardrottna skipt í skjöl
 
+[!INCLUDE [preview](includes/preview.md)]
+
 Hægt er að láta fólk velja aðra bókunarflokka viðskiptavina en sjálfgildi þegar þeir eru að vinna með sölu-eða innkaupaskjöl og færslubækur.
 
-Ef leyfa á breytingum á bókunarflokkum viðskiptamanna skal velja **Leyfa breytta bókunarflokka** á **uppsetningarsíðum sölu &** og **þjónustukerfisgrunni** og **uppsetningarsíðu innkaupa &** lánardrottna fyrir breytingar á bókunarflokki lánardrottins.
+Ef leyfa á breytingum á bókunarflokkum viðskiptamanna er valið **Leyfa marga bókunarflokka** á **uppsetningarsíðum sölu &** og **þjónustukerfislegum** grunni og **uppsetningarsíðu innkaupa &** lánardrottna fyrir breytingar á bókunarflokki lánardrottins.
 
 **Á bókunarflokkum viðskiptamanna** -eða **bókunarflokka** lánardrottna er hægt að tilgreina bókunarflokkana til að leyfa sem staðgengilsvörur með því að velja **skipti**. Staðgengilbókunarflokkar geta komið í stað sjálfgefinna bókunarflokka viðskiptamanna eða lánardrottna sem tilgreindir eru fyrir viðskiptavin eða lánardrottinn.
 

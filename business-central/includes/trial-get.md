@@ -3,12 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: 0f6ce66b4bb534d1cc2c66414fe08254f68253b2
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 8dcebacabc62e9744fb0c70e535f9fdd498047e6
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557454"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461049"
 ---
 1. [Farðu á prufusíðuna](https://go.microsoft.com/fwlink/?linkid=847861), Veldu *fjármál og aðgerðir* og svo á **Dynamics 365 Business Central** spjaldinu, Veldu **reyna laust** hnappinn.  
 2. Sláðu inn vinnu-eða netfang skóla þíns og önnur nánari upplýsingar. Þú munt framvísa réttarhöldum kl [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
@@ -24,4 +24,4 @@ Ef þú ákveður að nota [!INCLUDE [prod_short](prod_short.md)] ekki er hægt 
 
 [!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]
 
-Hafir þú rekist á vandamál, athugað [reynslusögur](../trial-faq.md) eða [Algengar spurningar](../across-faq.yml) greinar til að finna svör við spurningum þínum. Ef ekki er hægt að skrá sig í prófgreinina er leitað í [þjónustuveri Sjálfsþjónustu](../ui-troubleshoot-self-signup.md) til að leita sér ráðlegginga. Einnig er hægt að hafa samband [við samstarfsaðila](/dynamics365/business-central/across-faq#findpartner) og biðja þá um að búa til ókeypis prufutíma eða aðra tegund af Forskoðun [!INCLUDE[prod_short](prod_short.md)] fyrir þig.  
+Hafir þú rekist á vandamál, athugað [reynslusögur](../trial-faq.md) eða [Algengar spurningar](../across-faq.yml) greinar til að finna svör við spurningum þínum. Ef ekki er hægt að skrá sig í prófgreinina er leitað í [þjónustuveri Sjálfsþjónustu](../ui-troubleshoot-self-signup.md) til að leita sér ráðlegginga. Einnig er hægt að hafa samband [við samstarfsaðila](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) og biðja þá um að búa til ókeypis prufutíma eða aðra tegund af Forskoðun [!INCLUDE[prod_short](prod_short.md)] fyrir þig.  

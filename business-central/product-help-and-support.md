@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.openlocfilehash: 33cd44d4aab7f22dd8ea2cbad7fd21a4955142a0
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516927"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460622"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -105,14 +105,14 @@ Við ræðum um nýja möguleika á [bloggsvæði Dynamics 365](https://cloudblo
 
 Langtímayfirlitið, [!INCLUDE[prod_short](includes/prod_short.md)] [síða vegvísis](https://dynamics.microsoft.com/roadmap/business-central/), sýnir almennar forgangsraðanir fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á næstum árum.  
 
-### <a name="do-more-with-your-trial"></a>Gerðu meira með prufu þinni
+### <a name="do-more-with-your-trial"></a>Gera meira með prufuútgáfunni
 
 Þessi kafli gefur þér flýtileiðir á Microsoft AppSource þar sem þú getur fundið lausnir og þjónustur frá samstarfsaðilum [!INCLUDE[prod_short](includes/prod_short.md)]. Notaðu tenglana til að kanna alla eiginleika [!INCLUDE[prod_short](includes/prod_short.md)] áður en þú ákveður hvort þú viljir kaupa áskrift. Einnig er hægt að finna tengil til að hafa samband við söluteymið.
 
 > [!NOTE]
 > Þessi hluti er aðeins tiltækur í [!INCLUDE[prod_short](includes/prod_short.md)] reynslusögum á netinu. Ef þegar er keypt [!INCLUDE[prod_short](includes/prod_short.md)] er hlutinn ekki lengur sýnilegur.
 
-### <a name="give-feedback"></a>Gefa álit
+### <a name="give-feedback"></a>Senda ábendingu
 
 Á [Hugmyndasvæði Dynamics 365](https://aka.ms/bcideas) getur þú komið með tillögur um nýja eiginleika. Þitt innlegg fer beint til ólokinnar hönnunar Business Central til skoðunar og forgangsröðunar.  
 
@@ -131,14 +131,14 @@ Til að aðstoða þig eða samstarfsaðila þinn við úrræðaleit getur þú 
 - [Fylgjast með og greina fjarmælingar](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Virkja sendingu fjarmælingar til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-### <a name="report-a-problem"></a>Tilkynna mál
+### <a name="report-a-problem"></a>Tilkynna vandamál
 
 Endursöluaðili [!INCLUDE[prod_short](includes/prod_short.md)] mun veita þér tæknilega aðstoð. Þessi kafli auðveldar þér að hafa samband við endursölufélaga þína ef þeir hafa sent upplýsingar um stuðningtengilið þeirra. Ef meðeigandi þinn [!INCLUDE[prod_short](includes/prod_short.md)] getur þá ekki leyst vandann þá hækka þeir stuðningsmiða við Microsoft.  
 
 Frekari upplýsingar er að finna í [Senda stuðningsvandamál til Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) í efni fyrir stjórnendur.  
 
 > [!NOTE]
-> Með [!INCLUDE[prod_short](includes/prod_short.md)] netinu **er vandaður** hluti skýrslunnar aðeins tiltækur ef greitt hefur verið fyrir [!INCLUDE[prod_short](includes/prod_short.md)] áskrift. Ef þú hefur skráð þig í prufur og hefur ekki keypt [!INCLUDE[prod_short](includes/prod_short.md)], þá ertu ekki með endursölu félaga, og þú getur ekki haft samband við stuðningshólið Microsoft. Hægt er að finna [!INCLUDE[prod_short](includes/prod_short.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner).  
+> Með [!INCLUDE[prod_short](includes/prod_short.md)] netinu **er vandaður** hluti skýrslunnar aðeins tiltækur ef greitt hefur verið fyrir [!INCLUDE[prod_short](includes/prod_short.md)] áskrift. Ef þú hefur skráð þig í prufur og hefur ekki keypt [!INCLUDE[prod_short](includes/prod_short.md)], þá ertu ekki með endursölu félaga, og þú getur ekki haft samband við stuðningshólið Microsoft. Hægt er að finna [!INCLUDE[prod_short](includes/prod_short.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Nánari upplýsingar má [finna um hvernig finn ég endursala félaga?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 >
 > Með [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss er þessi hluti aðeins fáanlegur í 2020 útgáfu Wave 2 (útgáfa 18) og nýrri.
 
@@ -232,7 +232,7 @@ Sama gildir ef notað er [!INCLUDE [prod_short](includes/prod_short.md)] á sta�
 
 [Business Central námskrá](readiness/readiness-learning-catalog.md)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
-[Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner)  
+[Hvernig finn ég endursölu félaga?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Hjálparkerfi (Aðeins í boði á ensku)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Bloggfærsla: Finna réttar úrlausnir og veita endurgjöf](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Þróunaraðili Business Central og skjalastjórnun](/dynamics365/business-central/dev-itpro/)  

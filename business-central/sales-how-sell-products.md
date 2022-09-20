@@ -6,104 +6,111 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order
+ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments,
 ms.search.form: 42, 48, 9305
-ms.date: 01/19/2022
+ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 102fa04db203d8b1fe05d63629fbe24f49193112
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: MT
+ms.openlocfilehash: d40adc9e0d21b89f7b648862b08be8456287bd50
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077841"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460968"
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Selja vörur með sölupöntun viðskiptavinar  
+# <a name="sell-products-with-a-customer-sales-order"></a>Selja vörur með sölupöntun viðskiptavinar
 
-Þessi grein veitir notendum leiðbeiningar um hvenær á að nota sölupöntun viðskiptavinar frekar en bara reikning. Ef söluferlið krefst þess að aðeins hægt að afhenda hluta pöntunarmagns, til dæmis þar sem allt magnið er ekki tiltæk í einu, og selja svo viðkomandi vörur með því að búa til sölupöntun fyrir viðskiptavin.  
+Í þessari grein er að finna leiðbeiningar um hvenær nota skal sölupöntun viðskiptavinar auk reiknings. Ef söluferlið krefst þess að aðeins sé hægt að senda hluta af pöntun, ef allt magnið er ekki tiltækt strax, verður að vinna úr þeirri sölu með því að gera sölupöntun.
 
-Ef vara er seld með því að afhenda beint frá lánardrottni til viðskiptamanns, sem bein sending þarf að einnig nota sölupantanir. Frekari upplýsingar eru í [Beinar sendingar](sales-how-drop-shipment.md). Frá öllum sjónarhornum séð virka sölupantanir á sama hátt og sölureikningar. Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md).
+Einnig þarf að nota sölupantanir ef seldar eru vörur sem afhendast beint frá lánardrottni til viðskiptamanns, í það sem kallað er bein afhending. Frekari upplýsingar er að gera í [beinni afhendingu](sales-how-drop-shipment.md). Að öllu öðru leyti þykir sölupantana vinna á sama hátt og sölureikningar. Frekari upplýsingar við [Reikningsölu](sales-how-invoice-sales.md).
 
-Þegar þú afhenda vörur, hvort sem er að fullu eða hluta, bókarðu sölupöntunina sem afhenta eða sem senda og reikningsfærða til að stofna viðkomandi vörufærslur og færslur í viðskiptamannabók í kerfinu. Við bókun sölupöntunar, er einnig hægt að senda skjalið í tölvupósti sem PDF viðhengi. Hægt er að láta meginmálslínur tölvupósts vera útfyllt fyrirfram með samantekt á pöntuninni og greiðsluupplýsingum, eins og tengli í PayPal. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
+Þegar þú afhenda vörur, hvort sem er að fullu eða hluta, bókarðu sölupöntunina sem afhenta eða sem senda og reikningsfærða til að stofna viðkomandi vörufærslur og færslur í viðskiptamannabók í kerfinu. Þegar sölupöntunin er bókuð er einnig hægt að senda hana með tölvupósti sem PDF viðhengi. Hægt er að forfylla netfangið í pósti með samantekt á pöntunar-og greiðsluupplýsingum, t.d. hlekk á PayPal. Frekari upplýsingar sendist á [vörur](warehouse-how-ship-items.md) og [Sendið skjöl með tölvupósti](ui-how-send-documents-email.md).
 
-Í viðskiptaumhverfi þar sem viðskiptavinurinn greiðir strax, til dæmis með PayPal eða reiðufé, er greiðsla skráð strax þegar þú bókar sölupöntunina sem reikningsfærða, þ.e.a.s. bókaða sölureikningnum er lokað sem að fullu jöfnuðum. Í reitnum **Kóði greiðslumáta** í sölupöntuninni þarf að velja viðeigandi. Sjá undir skrefi 8. Fyrir rafrænar greiðslur á borð við PayPal þarf einnig að fylla inn í reitinn **Greiðsluþjónusta**. Nánari upplýsingar eru í [Virkja greiðslur viðskiptamanns í gegnum greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
+Í viðskiptaumhverfi þar sem viðskiptavinurinn greiðir strax, til dæmis með PayPal eða reiðufé, er greiðsla skráð strax þegar þú bókar sölupöntunina sem reikningsfærða, þ.e.a.s. bókaða sölureikningnum er lokað sem að fullu jöfnuðum. Í reitnum **Kóði greiðslumáta** í sölupöntuninni þarf að velja viðeigandi. Sjá þrep 5 hér að neðan. Fyrir rafrænar greiðslur á borð við PayPal þarf einnig að fylla inn í reitinn **Greiðsluþjónusta**. [Frekari upplýsingar um virkja viðskiptavinagreiðslur í gegnum greiðsluþjónustu](sales-how-enable-payment-service-extensions.md).
 
-Þú getur jafnvel búið til beingreiddar pantanir fyrir óskráða viðskiptavini með því að fyrst setja upp „viðskiptamannaspjald fyrir reiðufé" sem þú bendir á í sölupöntuninni. Frekari upplýsingar eru í [Setja upp viðskiptamenn með reiðufé](finance-how-to-set-up-cash-customers.md).
+Jafnvel er hægt að stofna beinar greiðrar pantanir fyrir viðskiptavini sem ekki eru skráðir með því að setja fyrst upp "staðgreiðsluviðskiptavinur", sem bent er á í sölupöntuninni. Frekari upplýsingar er að setja upp hjá [viðskiptavinum](finance-how-to-set-up-cash-customers.md).
 
-## <a name="to-create-a-sales-order"></a>Sölupöntun stofnuð
+## <a name="create-a-sales-order"></a>Stofna sölupöntun
 
 > [!NOTE]  
 > Eftirfarandi aðferð gerir ráð fyrir því að viðskiptavinurinn sé þegar settur upp. Sjá leiðbeiningar um hvernig þetta er gert í [Skrá nýja viðskiptavini](sales-how-register-new-customers.md).
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikn, færa inn **sölupantanir** og velja síðan tengda tengilinn.
 2. Veljið **Nýtt** til að stofna nýja færslu.
 3. Í reitnum **Viðskiptamaður** er fært inn nafn núverandi viðskiptamanns.
 
-    Aðrir reitir á síðunni **Sölupöntun** eru nú fylltir út með stöðluðum upplýsingum um viðskiptamanninn sem valinn hefur verið.  
+    Önnur svæði á **sölupöntunarsíðunni** eru nú fyllt út með stöðluðum upplýsingum um valinn viðskiptavin.  
 
 4. Fylltu í eftirstandandi reiti á síðunni **sölupöntun** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    > Ef þú leyfir viðskiptavininum að greiða strax, til dæmis með kreditkorti eða PayPal, þá skaltu fylla út reitinn **Kóði greiðslumáta**. Greiðslan er þá skráð um leið og þú bókar sölupöntunina sem reikningsfærða. Ef þú velur REIÐUFÉ, þá er greiðslan skráð á tilteknum mótreikningi.
+    > Ef þú leyfir viðskiptavininum að greiða strax, til dæmis með kreditkorti eða PayPal, þá skaltu fylla út reitinn **Kóði greiðslumáta**. Greiðslan er þá skráð um leið og þú bókar sölupöntunina sem reikningsfærða. Ef valið *er reiðufé* er greiðslan skráð í tilgreindan mótreikning.
 
-    Þú ert nú tilbúinn að fylla út í sölupöntunarlínurnar með birgðavöru eða þjónustu sem selja á viðskiptamanninum.
+    Nú er hægt að fylla út sölupöntunarlínurnar með birgðavörum eða þjónustu sem viðskiptamaðurinn á að kaupa.
 
-    Ef endurteknar sölulínur hafa verið settar upp fyrir viðskiptamanninn, svo sem mánaðarlegar endurnýjunarpantanir, er hægt að færa línuna inn í pöntunina með því að velja aðgerðina **Endurteknar sölulínur**.
-5. Á **Línur** Flýtiflipanum í **Tegund** reitnum, veldu hvaða tegund framleiðsluflokks, kostnaðarauka eða færslu þú munt bókað fyrir viðskiptamanninn með sölulínunni.
+    Ef settar hafa verið upp endurteknar sölulínur fyrir viðskiptavininn, eins og mánaðarleg áfyllingarpöntun, er hægt að setja þessar línur inn í pöntunina með því að **Velja aðgerðina Sækja endurteknar sölulínur**.
+5. **Á vöruflipanum línur** í **reitnum Tegund** er valið hvaða tegund vöru, gjaldi eða færslu verður bókað á viðskiptamanninn í sölulínunni.
 
 6. Í reitnum **númer** sleginn inn fjöldi birgðavöru eða þjónustu.
 
-    Þú skilur **nr.** reitur tómur í eftirfarandi tilfellum:
+    Þú skilur **nr.** Reiturinn er auður ef línan er fyrir:
 
-    * Ef línan er ætluð athugasemd. Rita athugasemdina í **Lýsing** reitinn.
-    * Ef línan er fyrir vörulistavöru. Velja **Velja vörulistaatriði** aðgerð. Nánari upplýsingar er að finna í [Vinna með vörulistaatriði](inventory-how-work-nonstock-items.md).
+    * Athugasemd. Rita athugasemdina í **Lýsing** reitinn.
+    * Vörulistavöru. Velja **Velja vörulistaatriði** aðgerð. Frekari upplýsingar í [vinnu við vörulistavörur](inventory-how-work-nonstock-items.md).
 7. Í reitinn **Magn** er fært magn vara sem á að selja.
 
     > [!NOTE]  
-    > Fyrir vörur af tegundinni *Forði* eða *Þjónusta* er magnið tímaeining, t.d. klukkutímar, eins og gefið er til kynna í reitnum **Mælieiningarkóði** í línunni. Frekari upplýsingar eru í [Setja upp mælieiningu vara](inventory-how-setup-units-of-measure.md).
+    > Fyrir vörur af *forðanum* eða *þjónustugerðinni* er magnið tímaeining eins og til dæmis klukkustundir, eins og tilgreint er í **reitnum Mælieiningarkóti** í línunni. [Frekari upplýsingar er að setja upp í vörueiningum](inventory-how-setup-units-of-measure.md).
 
-    Reiturinn **línuupphæð** uppfærist til að sýna að gildið í reitnum **einingarverð** margfaldað með gildinu í reitnum **magn**.
+    **Reiturinn Línuupphæð** er uppfærður svo að hún sýni gildið í **reitnum Einingarverð** margfaldað með númerinu í **reitnum Magn**.
 
     Verð- og línuupphæðirnar eru sýndar með eða án VSK, en það fer eftir því hvað var valið í reitnum **verð með skatti** á viðskiptamannaspjaldinu.
 8. Í reitnum **Línuafsláttur %**, færið inn prósentutölu ef veita á viðskiptamanninum afslátt af vörunni. Gildið í reitnum **Línuupphæð** er uppfært til samræmis.
 
-    Ef sérstakt vöruverð hefur verið sett upp á flýtiflipanum **Afslættir söluverðs og sölulínu** á viðskiptamanns- eða birgðaspjaldinu uppfærist verðið og upphæðin á tilboðslínunni sjálfvirkt ef umsamin verðviðmið hafa náðst. Nánari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Til að bæta við athugasemd um pöntunarlínu sem viðskiptavinurinn getur séð á prentuðu sölupöntuninni, skrifaðu athugasemd í **Lýsingarsvæði** sviði í auða línu.  
-10. Endurtakið skref 5 til 9 fyrir hverja birgðavöru sem selja á viðskiptamanninum.
+    Ef sett hafa verið upp Sérstök vöruverð á **söluverði og sölulínuafslætti á föstu-Vöruafsláttur** á viðskiptamanna-eða birgðaspjaldinu þá uppfærist verðið og upphæðin í tilboðslínunni sjálfkrafa ef Umsamin verðskilyrði eru uppfyllt. Frekari upplýsingar hjá [Skráning söluverð, afsláttur og Greiðslusamningar](sales-how-record-sales-price-discount-payment-agreements.md).
+9. Ef bæta á við athugasemd um pöntunarlínuna sem viðskiptavinurinn getur séð á prentuðu sölupöntuninni, Skrifið þá athugasemd í tóma línu í **reitnum Lýsing**.  
+10. Endurtakið skref 5 til 9 fyrir hverja vöru sem viðskiptamaðurinn á að kaupa.
 
-    Samtölureitirnir undir línunum uppfærast sjálfkrafa eftir því sem þú stofnar eða breytir línum til að sýna upphæðir sem verða bókaðar í fjárhagnum.
+    Samtölur reita undir línunum eru sjálfkrafa uppfærðar þegar línur eru stofnaðar eða þeim breytt til að birta upphæðirnar sem á að bóka í fjárhag.
 
     > [!NOTE]
-    > Í örfáum tilfellum kunna bókaðar upphæðir að sýna aðra upphæðir en þær sem sýndar eru í samtölureitunum. Venjulega gerist það vegna sléttunarútreiknings í tengslum við virðisaukaskatt.
+    > Í örfáum tilfellum kunna bókaðar upphæðir að sýna aðra upphæðir en þær sem sýndar eru í samtölureitunum. Þetta er vanalega vegna sléttunarútreikninga í tengslum við virðisauka (VAT) eða virðisaukaskatt.
     >
-    > Til að kanna upphæðirnar sem koma til með að vera bókaðar skal nota síðuna **Tölfræðilegar upplýsingar** sem tekur sléttunarútreikninga til greina. Einnig, ef þú velur aðgerðina **Gefa út**, verða samtölureitirnir uppfærðir til að hafa sléttunarútreikninga með.  
+    > Til að kanna upphæðirnar sem verða í raun og veru eftir er notuð **upplýsingasíða** sem tekur mið af sléttunarútreikningum. Einnig, ef þú velur aðgerðina **Gefa út**, verða samtölureitirnir uppfærðir til að hafa sléttunarútreikninga með.  
 
-11. Í reitnum **Afsláttarupphæð reiknings** er hægt að færa inn upphæð sem draga á frá gildinu sem sýnt er í reitnum **Heildarupphæð með skatti**.
+11. Í reitnum Upphæð **reikningsafsláttar er hægt að færa inn upphæðina sem á að draga frá gildinu sem er í reitnum Samtals í** reitnum heildarskattur **.**
 
-    Ef reikningsafslættir hafa verið settir upp fyrir viðskiptamanninn, er tilgreint prósentugildi sjálfvirkt fært inn í reitinn **reikningsafsláttur %** ef viðmiðum hefur verið mætt og upphæðin færð inn í reitinn **afsláttarupphæð án skatts**. Nánari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
-12. Til að afhenda Aðeins hluta pöntunarmagns, skal færa magn í reitinn **magn til Afhendingar** reit. Gildið er afritað í reitinn **magn til Reikningsfærslu**.
-13. Til að reikningsfæra Aðeins hluta sends magns, skal færa magn í reitinn **magn til að reikningsfæra** . Magnið verður að vera minna en gildið í reitnum **Magn til að senda**.  
+    Ef búið er að setja upp reikningsafslátt fyrir viðskiptavininn er gildið sem er sjálfkrafa sett inn í **reitinn reikningsafsláttur** færður inn ef forsendurnar eru uppfylltar og tengd upphæð sett inn í **reitinn Reikningsafsl. afsl. upphæð án skatts**. Frekari upplýsingar hjá [Skráning söluverð, afsláttur og Greiðslusamningar](sales-how-record-sales-price-discount-payment-agreements.md).
+12. Ef aðeins á að senda hluta af pöntunarmagninu er magnið fært inn í **reitinn Magn til sendingar**. Gildið afritar sjálfkrafa í **reitinn Magn í reikning**.
+
+    > [!NOTE]
+    > **Ef reiturinn flutningsráð** er stilltur sem **heill** í **flipanum Afhending og innheimtur** er ekki hægt að bóka hlutaafhendingar. Frekari upplýsingar á [ferli hlutaafhendingar](sales-how-send-partial-shipments.md).
+13. Til að reikningsfæra aðeins hluta afhentra magns er magnið fært inn í **reitinn Magn til reikningsfærslu**. Magnið verður að vera minna en gildið í reitnum **Magn til að senda**.  
 14. Þegar sölupöntunarlínunum er lokið, skal velja **bóka og senda** aðgerðina.
 
 [!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
-**Bóka og Senda á staðfestingu** svarglugginn birtir þá aðferð sem viðskiptamaðurinn vill nota til að taka á móti fylgiskjölum. Hægt er að breyta sendingaraðferð með því að velja uppflettihnappinn fyrir reitinn **senda skjal** Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).
+**Bóka og Senda á staðfestingu** svarglugginn birtir þá aðferð sem viðskiptamaðurinn vill nota til að taka á móti fylgiskjölum. Hægt er að breyta sendingaraðferð með því að velja uppflettihnappinn fyrir reitinn **senda skjal** Frekari upplýsingar um uppsetningu á [stillingum](sales-how-setup-document-send-profiles.md) skjalasendingar.
 
-Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og sölupöntunin er frálag sem PDF fylgiskjal. Þegar sölupantanir eru að fullu bókaðar, er þær fjarlægður af lista sölupantana og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölureikninga og lista yfir bókaðar söluafhendingar.  
+Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og sölupöntunin er frálag sem PDF fylgiskjal. Þegar sölupöntunin er fullbókuð er hún fjarlægð af listanum yfir sölupantanir og henni er skipt út fyrir ný skjöl á listanum yfir bókaða sölureikninga og lista yfir bókaðar söluafhendingar.  
 
 ## <a name="external-document-number"></a>Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun kl [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Sjá einnig .
 
+[Reikningsfæra sölur](sales-how-invoice-sales.md)  
+[Sölubókun](ui-post-sales.md)  
+[Senda vörur](warehouse-how-ship-items.md)  
+[Beinar sendingar](sales-how-drop-shipment.md)  
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Prenta tiltektarlistann](sales-how-print-picking-list.md)  
+[Vinna hlutaafhendingar](sales-how-send-partial-shipments.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
