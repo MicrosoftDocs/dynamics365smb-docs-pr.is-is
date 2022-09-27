@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 01b48fad86c805da2120477fc9f6d5f0f5bcdb94
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799746"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533887"
 ---
 # <a name="set-up-and-report-intrastat"></a>Setja upp og skrá Intrastat
 
@@ -173,7 +173,7 @@ Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin ti
 
 Á síðunni **Tollflokkar** skal bæta við öllum kóðum sem eru notaðir. Áður en bókun hefst skal færa kóða inn á birgðaspjald. Þegar kóðar hafa verið settir upp skulu þeir færðir inn í reitinn **Tollflokkar** á birgðaspjaldinu. Einnig skal fylla út reitinn **Nettóvigt** á birgðaspjaldi.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

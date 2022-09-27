@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 187ff9bad2fb8bf320872759115e98b326b689c8
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
-ms.translationtype: MT
+ms.openlocfilehash: 95730ff31c963695c94a64d36a8f980bddfbb72b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130200"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530946"
 ---
 # <a name="set-up-workflow-users"></a>Setja upp notendur verkflæðis
 
@@ -44,7 +44,7 @@ Verkflæðisnotendur sem virka sem samþykktarnotendur, bæði samþykkjendur be
 6. Endurtaka skref 5 til að bæta við fleiri notendum verkflæðis við notendaflokkinn.  
 7. Endurtaka skref 2 til 6 til að bæta við fleiri notendaflokkum verkflæðis.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

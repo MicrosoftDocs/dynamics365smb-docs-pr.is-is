@@ -7,12 +7,12 @@ metadata:
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
   ms.date: 09/07/2022
   ms.author: edupont
-  ms.openlocfilehash: 13f6de4c6f01fbe7a525d7b1f18d3f83f12cb6c3
-  ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-  ms.translationtype: HT
+  ms.openlocfilehash: 186731bff985900492a7353556f97862984b60cc
+  ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+  ms.translationtype: MT
   ms.contentlocale: is-IS
-  ms.lasthandoff: 09/09/2022
-  ms.locfileid: "9460995"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "9535345"
 title: Algengar spurningar um notkun Business Central
 summary: "Þessi hluti inniheldur svör við algengum spurningum um nýskráningu fyrir prufuáskrift, kaup á áskrift og notkun á [!INCLUDE[prod_short](includes/prod_short.md)]. Kynntu þér líka hvernig þú færð tæknilega aðstoð.  \n"
 sections:
@@ -36,7 +36,7 @@ sections:
       Já. [!INCLUDE [prod_short](includes/prod_short.md)] er bjartsýni gagnvart netvirkjun, og sumir geta keyrt á húsnæði aðeins undir vissum kringumstæðum, á meðan aðrir eru ekki studdir yfirleitt. [Frekari upplýsingar eru ekki innleiddar í innanhússvirkjanir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (aðeins á ensku).
   - question: >
       Get ég fengið þjálfun í Business Central?
-    answer: "Já, þú getur það! Hægt er að finna ókeypis netnámskeið á [Microsoft Learn vefsvæðinu](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Einnig er hægt að biðja endursölufélaga um frekari þjálfun. Ef þú veist ekki hver það er skaltu skoða hlutann [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  \n\nFrekari upplýsingar um þjálfun í sem Microsoft veitir fyrir Microsoft 365 er að finna á síðunni [Microsoft Dynamics 365 þjálfun](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nMeira efni er veitt af [!INCLUDE[prod_short](includes/prod_short.md)] samfélaginu, svo sem leiðbeiningar [um Dynamics 365 Business Central Microsoft](https://leanpub.com/dynamics) Field sem eru skrifaðar af samstarfsaðila.  \n"
+    answer: "Já, þú getur það! Hægt er að finna frítt eLearning efni á [Microsoft Training setrinu](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Einnig er hægt að biðja endursölufélaga um frekari þjálfun. Ef þú veist ekki hver það er skaltu skoða hlutann [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  \n\nFrekari upplýsingar um þjálfun í sem Microsoft veitir fyrir Microsoft 365 er að finna á síðunni [Microsoft Dynamics 365 þjálfun](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nMeira efni er veitt af [!INCLUDE[prod_short](includes/prod_short.md)] samfélaginu, svo sem leiðbeiningar [um Dynamics 365 Business Central Microsoft](https://leanpub.com/dynamics) Field sem eru skrifaðar af samstarfsaðila.  \n"
   - question: Hvernig fæ ég tækniþjónustu fyrir Business Central?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] er selt í gegnum samstarfsaðila og þú ættir að hafa samband við endursöluaðila til að fá aðstoð vegna tæknilegra vandamála. Ef meðeigandi þinn [!INCLUDE[prod_short](includes/prod_short.md)] getur þá ekki leyst vandann þá hækka þeir stuðningsmiða við Microsoft.  \n\nLæra meira at [hjálpa og styðja](product-help-and-support.md) og [Hvernig finn ég endurseljandi félaga?](#how-do-i-find-a-reselling-partner) kafla.  \n"
   - question: >
@@ -50,7 +50,7 @@ sections:
     answer: "Ef reynsla þín á **upplýsingasíðunni** er stillt **á Essential**, þá eru notendaeiningar fyrir framleiðslu-og þjónustustjórnun ekki sýnilegar þér því þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar eru birtar í [Breyta hvaða aðgerðir eru sýndar](ui-experiences.md).  \n"
   - question: >
       Hvers vegna eru nýjar upplýsingar ekki í boði á mínu tungumáli?
-    answer: "Á docs.microsoft.com setrinu eru efni um virkni fyrirtækja birt á nokkrum tungumálum. Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru gefnar út á ensku er hún síðan send burt fyrir þýðingar inn á studd tungumálin. Þetta þýðir að þú munt ekki geta lesið þetta nýja efni á þínu eigin tungumáli í allt að fjórar vikur.  \n\nVið skiljum vandamálin sem þetta getur valdið, og við hvetjum notendur til að leita eftir því sem þeir leita að á ensku ef þeir geta ekki fundið það á sínu eigin tungumáli.  \n"
+    answer: "Microsoft Learn efni um virkni fyrirtækja er gefið út á nokkrum tungumálum. Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru gefnar út á ensku er hún síðan send burt fyrir þýðingar inn á studd tungumálin. Þetta þýðir að þú munt ekki geta lesið þetta nýja efni á þínu eigin tungumáli í allt að fjórar vikur.  \n\nVið skiljum vandamálin sem þetta getur valdið, og við hvetjum notendur til að leita eftir því sem þeir leita að á ensku ef þeir geta ekki fundið það á sínu eigin tungumáli.  \n"
   - question: Hvaða netfang get ég notað með Business Central?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] Online krefst að þú notir vinnu- eða skólanetfang fyrir nýskráningu. [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er ekki stutt netföng sem neytandi hefur veitt póstþjónustu eða fjarskiptarveitur. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  \n\nEf þú reynir að skrá þig með persónulegu netfangi færðu skilaboð sem gefa til kynna að nota vinnu-eða skólannetfang. Frekari upplýsingar í [Úrræðaleit Sjálfsafþjónustu undirritaðs](ui-troubleshoot-self-signup.md).  \n\nEf ætlunin er að virkja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum þá er hægt að nota aðrar sannvottunaraðferðir. Frekari upplýsingar við [virkjun á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  \n"
   - question: >

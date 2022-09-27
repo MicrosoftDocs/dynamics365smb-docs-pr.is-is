@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: fa615d3e0753b7f1aa9cd602168a393849765079
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 0c5a8d8e9cbb556b25a3b1c5ee6069ac07c7cc9f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950226"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534778"
 ---
 # <a name="report-and-document-layouts-overview"></a>Yfirlit yfir skýrslur og Skjalaskipan
 
@@ -126,7 +126,7 @@ For information about how to switch the layout currently used on a report, see [
 
 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -136,7 +136,7 @@ For information about how to switch the layout currently used on a report, see [
 [Skilgreina sérstakt útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

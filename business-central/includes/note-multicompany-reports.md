@@ -1,0 +1,2 @@
+> [!NOTE]
+> Þar var hægt að fá gögn frá ýmsum fyrirtækjum í einni skýrslu með OData vefþjónustum. En síðan [!INCLUDE [prod_short](prod_short.md)] 2021 Slepptu Wave 2 er aðeins ODataV4 studd sem ekki flytja út gögn úr mörgum fyrirtækjum. **$Expand** virka í Power BI því að þú gætir hugsað þér að vera önnur leið til að búa til skýrsluna í mörgum fyrirtækjum, er ekki hægt að nota hana heldur. Þar verður stofnaður dálkur með nafni fyrirtækisins en ekki fylla hann út með gögnum fyrirtækisins eftir endurnýjun.

@@ -10,12 +10,12 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 06be08bce312cfcdd0bc6eef0e50890244734dba
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 027a79180dbc8a1a9ea53da9548d2b39a1852cdc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074641"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533536"
 ---
 # <a name="invoice-jobs"></a>Reikningsfærsla verka
 
@@ -66,7 +66,7 @@ Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tím
 > [!NOTE]  
 >   Ofangreint ferli er svipað þegar verið er að stofna, yfirfara og bóka verktengdan sölukreditreikning.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -74,7 +74,7 @@ Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tím
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

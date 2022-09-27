@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 271b9f032df685b5eac1c3bddca037326ea4c1d6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fb3616fdffc340ec8d4a327cfc2fefd577b78af1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520735"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528115"
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
 
@@ -113,7 +113,7 @@ Ef vaxtareikningar voru gefnir út fyrir mistök er hægt að hætta við þá �
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Frekari upplýsingar er að finna [í setja upp marga Vaxtartaxta](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 

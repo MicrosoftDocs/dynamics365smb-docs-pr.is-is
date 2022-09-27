@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1447627f14d08e1e432d613298f4b29592864d4d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 88f1756c7d0b499fa582bd861a81d1b45a83a46b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078935"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531999"
 ---
 # <a name="set-up-resources-for-projects"></a>Setja upp tilföng fyrir verk
 
@@ -80,7 +80,7 @@ Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað 
 3. Á síðunni **Forðaverð** skal fylla út reitina í línu eins og þörf krefur.
 4. Endurtaka skal skref 3 fyrir hvert annað verð sem setja skal upp.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -89,7 +89,7 @@ Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað 
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

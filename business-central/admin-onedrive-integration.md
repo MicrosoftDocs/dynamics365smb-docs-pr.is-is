@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514596"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524494"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Stjórnun OneDrive samþættingar við Business Central
 
-Í þessari grein er að finna yfirlit yfir það sem stjórnandi getur gert til að stýra samþættingu OneDrive for Business við [!INCLUDE[prod_short](includes/prod_short.md)]. Viðskiptavinir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu njóta góðs af sjálfvirkri samþættingu, án viðbótaruppsetningar sem þarf til að nota þessa eiginleika. 
+Í þessari grein er að finna yfirlit yfir það sem stjórnandi getur gert til að stýra samþættingu OneDrive for Business við [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] Viðskiptavinir á netinu njóta sjálfvirkrar samþættingar án aukauppsetningarinnar sem þarf til að nota þessa eiginleika. 
 
 ## <a name="minimum-requirements"></a>Lágmarkskröfur
 
@@ -40,20 +40,20 @@ Stjórnendamiðstöð SharePoint veitir víðtæka stjórn á reglum sem gilda u
 > [!NOTE]
 > Sumir eiginleikar eru hugsanlega aðeins í boði fyrir tilteknar áskriftarleiðir.
 
-## <a name="managing-privacy"></a>Umsjón með persónuvernd
+## <a name="managing-privacy"></a>Umsjón með friðlýsingu
 
 Stjórnendur og notendur stjórna efninu sem geymt er í OneDrive og þessi gögn eru eingöngu í eigu fyrirtækisins þíns. Frekari upplýsingar er að finna í [Hvernig SharePoint og OneDrive tryggja öryggi gagna þinna í skýinu](/sharepoint/safeguarding-your-data). Þú getur einnig farið í [Persónuverndaryfirlýsingu Microsoft](https://privacy.microsoft.com/en-us/privacystatement) sem útskýrir gögnin sem Microsoft vinnur úr, hvernig Microsoft vinnur úr þeim og í hvaða tilgangi.
 
 ## <a name="restoring-onedrive-and-prod_short"></a>Að endurheimta OneDrive og [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Sem hluti af æfingu til að endurheimta eftir áfall gætu stjórnendur þurft að endurheimta [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi í öryggisafriti aftur í tíma og samstilla OneDrive geymslu til þess tíma. OneDrive veitir ýmis verkfæri fyrir þetta, t.d. endurheimt á OneDrive notanda aftur í tíma, endurheimta eldri útgáfu einstakrar skráar eða endurheimta eyddar skrár. Frekari upplýsingar er að finna í eftirfarandi greinum:
+Sem hluti af æfingu til að endurheimta eftir áfall gætu stjórnendur þurft að endurheimta [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi í öryggisafriti aftur í tíma og samstilla OneDrive geymslu til þess tíma. OneDrive býður upp á ýmis verkfæri til þess eins að endurheimta OneDrive fyrri tíma, endurheimta fyrri útgáfu af einstakri skrá eða endurheimta eyddar skrár. Frekari upplýsingar er að finna í eftirfarandi greinum:
 
 * Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] skal skoða [Að endurheimta umhverfi í stjórnendamiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 * Fyrir OneDrive skal skoða [Endurheimta OneDrive](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
 
-## <a name="configuring-business-central-on-premises"></a>Að grunnstilla Business Central á staðnum
+## <a name="configuring-business-central-on-premises"></a>Skilgreining fyrirtækja miðsvæðis innanhúss
 
-Stjórnandi verður að setja upp tenginguna milli [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og OneDrive. Ólíkt [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er tengingin ekki sjálfvirk. Ef tengingin er ekki stillt geta notendur ekki notað eiginleikana fyrir OneDrive. 
+Stjórnandi verður að setja upp tenginguna milli [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og OneDrive. Ólíkt [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er tengingin ekki sjálfvirk. Ef tengingin er ekki stillt geta notendur ekki notað eiginleikana fyrir OneDrive.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er aðeins hægt að tengja við OneDrive sem Microsoft hýsir í skýinu. Að tengja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við gagnageymslu minna svæða á SharePoint Server er ekki stutt.
 
@@ -64,7 +64,7 @@ Stjórnandi verður að setja upp tenginguna milli [!INCLUDE[prod_short](include
 >* Að flytja út skýrslu í skrá mun sjálfkrafa afrita skrána í OneDrive, síðan opna hana í Excel Online, Word Online eða OneDrive. 
 >* Aðrir eiginleikar gætu einnig opnast sjálfkrafa í OneDrive.
 
-### <a name="to-prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Að undirbúa [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum undir tengingu við OneDrive
+### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Útbúið [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss fyrir tengingu við OneDrive
 
 <!-- 
 1. For the best experience Configure Azure Active Directory (AD) authentication.
@@ -86,12 +86,12 @@ Fyrir viðskipti Mið 2021 út Wave 2 (útgáfa 19), setjið þessar heimildir �
 
 Þú gerir þetta verk í Azure-gáttinni. Vertu viss um að afrita auðkenni forrits (biðlara) og leyniorð biðlara sem skráða forritið notar. Þú þarft þessar upplýsingar fyrir næsta verki.
 
-Frekari upplýsingar um skráningu forrits og stillingar á heimildum er að finna í [Skrá forrit í Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) í hjálparefni þróunaraðila og upplýsingatækni.
+Nánari upplýsingar um forsendur reiknings, skráningu umsóknar og skilgreiningu heimilda, sjá [skrá inn umsókn í Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) hjá HÖNNUÐI og það Pro Help.
 
 > [!TIP]
 > Ef forrit hefur þegar verið skráð sem hluti af samþættingu við aðra vöru Microsoft á borð við Power BI, þá getur þú notað forritsskráninguna aftur. Í þessu tilviki þarftu bara að stilla SharePoint heimildirnar.
 
-### <a name="to-set-up-the-connection-in-prod_short-on-premises"></a>Að setja upp tenginguna í [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum
+### <a name="set-up-the-connection-in-prod_short-on-premises"></a>Setja upp tengingu í [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss
 
 <!--
 > [!NOTE]
@@ -117,8 +117,10 @@ Frekari upplýsingar um skráningu forrits og stillingar á heimildum er að fin
 > [!IMPORTANT]
 > Uppsetningarsíða SharePoint tengingar er notuð til að stilla marga eldri eiginleika. Í **Almenna** hlutanum er tengingin við OneDrive stillt og hlutinn **Samnýtt skjöl** framsendir skrár í SharePoint í staðinn. Eldri SharePoint eiginleikinn verður tekinn úr umferð á næstunni. Við mælum með að þú stillir ekki hlutann **Samnýtt skjöl**.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
+
 [Business Central og OneDrive fyrir Business Integration](across-onedrive-overview.md)  
 [Opna Business Central Files í OneDrive](across-share-onedrive.md)  
-[OneDrive ALGENGAR SPURNINGAR](admin-onedrive-faq.md)
+[OneDrive ALGENGAR SPURNINGAR](admin-onedrive-faq.md)  
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]

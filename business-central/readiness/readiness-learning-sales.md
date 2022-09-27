@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 9830e4e842cc7fe3febcbe809547ad26701f527d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60fc44ff10b762c3cba9bbae2447982214b34e24
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781839"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535129"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Vörulisti samstarfsaðila vegna sölu og markaðssetningar
 
@@ -22,17 +22,17 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 
 | Efni     | Description    | Snið                                | Lengd              |
 |-------------|----------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Aðeins fyrir samstarfsaðila) Þessi lota gerir grein fyrir gildi Business Central. Business Central er sérlega gagnlegt vegna þess að það er samþættast við aðra skýjaþjónustu Microsoft, þ.m.t. Microsoft 365 og hægt er að sérsníða það eða stækka fyrir tilteknar þarfir í iðnaði með Power Apps, Power Automate og Power BI. | Myndband                                 | 8 mínútur 5 sekúndur |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Aðeins fyrir samstarfsaðila) Þessi lota gerir grein fyrir gildi Business Central. Miðborg býður upp á frábær gildi þar sem hún er samþætt við aðra þjónustu í Microsoft, þar á meðal Microsoft 365 og hægt er að aðlaga eða útvíkkað fyrir sérstakar þarfir Power Apps iðnaðar, Power Automate og Power BI. | Myndband                                 | 8 mínútur 5 sekúndur |
 | [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/) | Skoða Dynamics 365 Business Central möguleika    | Vefsvæði    |                     |
-| [Dynamics 365 Business Central](/learn/modules/dynamics-365-business-central/)            | Þessi eining sýnir eiginleika forrita, ávinning og dæmi um Dynamics 365 Business Central í aðgerð.    | Ókeypis námsleið á netinu á eigin hraða | 24 mínútur          |
+| [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | Þessi eining sýnir eiginleika forrita, ávinning og dæmi um Dynamics 365 Business Central í aðgerð.    | Ókeypis námsleið á netinu á eigin hraða | 24 mínútur          |
 
 ## <a name="getting-started"></a>Hafist handa<a name="get-started"></a>
 
 | Efni   | Description   | Snið                                | Lengd              |
 |-----------|---------------|---------------------------------------|---------------------|
-| [Hafist handa í Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)                          | Hefur þú áhuga á Business Central? Ef svo er þá veitir þessi námsleið góða kynningu. Hún fjallar um hvernig á að setja upp prufuútgáfu, veitir grunnupplýsingar um það sem er í boði og sýnir sérsniðna valkosti sem hægt er að gera til að sérsníða Business Central fyrir þína eigin notkun.          | Ókeypis námsleið á netinu á eigin hraða | 3 klukkustundir 4 mínútur   |
-| [Vinna með Microsoft Dynamics 365 Business Central notendaviðmót](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Viltu þér notendaviðmótið fyrir Business Central? Þessi námsleið sýnir þér notandaviðmótið og einnig hvernig þú getur sérsniðið það. Þar er einnig fjallað um önnur viðmót á borð við snjallsíma.    | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur  |
-| [Sýndu fagleg vinnubrögð með gögnum í Business Central](/learn/paths/work-pro-data-dynamics-365-business-central) | Ertu rétt að byrja að nota Business Central? Þessi námsbraut mun hjálpa þér að undirbúa þig fyrir gagnagerðir Business Central og hvernig hægt er að finna upplýsingar sem þú þarft í forritinu.      | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur  |
+| [Byrjaðu með Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/)                          | Hefur þú áhuga á Business Central? Ef svo er þá veitir þessi námsleið góða kynningu. Hún fjallar um hvernig á að setja upp prufuútgáfu, veitir grunnupplýsingar um það sem er í boði og sýnir sérsniðna valkosti sem hægt er að gera til að sérsníða Business Central fyrir þína eigin notkun.          | Ókeypis námsleið á netinu á eigin hraða | 3 klukkustundir 4 mínútur   |
+| [Vinna með notendaviðmót Microsoft Dynamics 365 Business Central](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Viltu þér notendaviðmótið fyrir Business Central? Þessi námsleið sýnir þér notandaviðmótið og einnig hvernig þú getur sérsniðið það. Þar er einnig fjallað um önnur viðmót á borð við snjallsíma.    | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur  |
+| [Vinna eins og Atvinnumaður með gögn í viðskipta-seðlabankar](/training/paths/work-pro-data-dynamics-365-business-central) | Ertu rétt að byrja að nota Business Central? Þessi námsbraut mun hjálpa þér að undirbúa þig fyrir gagnagerðir Business Central og hvernig hægt er að finna upplýsingar sem þú þarft í forritinu.      | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur  |
 | [Spilunarlisti Business Central YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube lendingarsíða fyrir Dynamics 365 Business Central-myndbönd  | YouTube Myndbönd  |                     |
 
 ## <a name="grow-your-business"></a>Stækkaðu fyrirtækið þitt<a name="grow"></a>
@@ -46,6 +46,5 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | [Áætlun skýjalausnarþjónustu - samanburður á stuðningsáætlunum samstarfsaðila](https://partner.microsoft.com/support/partnersupport) | Horfðu á þetta myndband til að sjá hvernig þú getur valið rétta stuðningsáætlun fyrir fyrirtækið þitt. Sjáðu síðan samanburð hlið við hlið hér að neðan.    | Vefsvæði                               |                       |
 | [Hraðari sala með SureStep í skýi](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Aðeins fyrir samstarfsaðila) Söluferlið fyrir hraðari sölu með SureStep í skýi er byggt á þörfum nútímakaupanda og kappkostar við að höfða til tilfinninga og reynslu snemma í söluferlinu. Þessi röð myndbanda og tilfanga útskýrir hefðbundið söluferli sem er sérstaklega hannað til að koma í stað dæmigerðra lausna í sölutækni með tímafrekum skýringum sem yfirleitt leiða til mjög sérhæfðrar vörukynningar, flókinna söluferla og löngum innleiðingarverkum. Safn tilfanga inniheldur fjölda sérstilltra sniðmáta svo þú getur búið til þitt eigið safn af sölum til að styðja við hraðari sölu. | Vefsvæði     |                       |
 | [Viðbót við Transition Partner Playbook (júlí 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Þessi viðbót við Transition Partner Playbook býður upp á nokkrar uppfærslur og nýjar leiðbeiningar til samstarfsaðila um að tryggja núverandi viðskiptamannahóp frá samkeppni og nýjum SaaS.  | PowerPoint-skyggnusýning | 15 glærur |
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

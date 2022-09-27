@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 33cd44d4aab7f22dd8ea2cbad7fd21a4955142a0
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
+ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460622"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531702"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -87,7 +87,7 @@ Kaflinn **Finna það** inniheldur tvo tengla á hjálp fyrir afurð:
   
 - Lendingarsíða hjálpar fyrir [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Virkni í sjálfgefnu útgáfunni af [!INCLUDE[prod_short](includes/prod_short.md)] er lýst á svæðinu [Docs.microsoft.com](/dynamics365/business-central). Frekari upplýsingar er að finna [í notkun docs.microsoft.com setursins til að fræðast um fleiri](#use-the-docsmicrosoftcom-site-to-learn-more) kafla. Einnig er hægt að stækka og sérstilla [!INCLUDE[prod_short](includes/prod_short.md)] með forritum frá AppSource. Öll forrit bjóða upp á tengla við viðkomandi afurðarhjálp svo þú getir alltaf fundið leiðarvísi fyrir mismunandi verkflæði í þinni útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)].  
+  Aðgerðinni í sjálfgefnu útgáfunni af [!INCLUDE[prod_short](includes/prod_short.md)] er lýst í [Dynamics 365 Business Central leiðbeiningunum](/dynamics365/business-central) til að fá nánari upplýsingar [um kaflann fylgigögn](#learn-more-using-the-product-documentation) með fylgiskjölum. Einnig er hægt að stækka og sérstilla [!INCLUDE[prod_short](includes/prod_short.md)] með forritum frá AppSource. Öll forrit bjóða upp á tengla við viðkomandi afurðarhjálp svo þú getir alltaf fundið leiðarvísi fyrir mismunandi verkflæði í þinni útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="community"></a>Samfélag
 
@@ -151,13 +151,13 @@ Til að láta samstarfsaðila vita um vandamál skal velja tengilinn til að ann
 > [!NOTE]
 > Upplýsingar um stuðningstengiliði er ekki að finna [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss.
 
-## <a name="use-the-docsmicrosoftcom-site-to-learn-more"></a>Nota vefsvæðið docs.microsoft.com til að fá frekari upplýsingar
+## <a name="learn-more-using-the-product-documentation"></a>Frekari notkun á fylgigögnum með vöru
 
-Grunnútgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] er stækkuð og sérstillt af stóru samfélagi samstarfsaðila. Hver samstarfsaðili og margir viðskiptavinir setja upp sína eigin hjálp á eigin vefsvæðum. En alltaf er hægt að fara á svæðið [docs.microsoft.com](index.md) til að fá nánari upplýsingar. Svæðið hýsir efni af ýmsu tagi, eins og eftirfarandi:
+Grunnútgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] er stækkuð og sérstillt af stóru samfélagi samstarfsaðila. Hver samstarfsaðili og margir viðskiptavinir setja upp sína eigin hjálp á eigin vefsvæðum. En þú getur alltaf farið [Dynamics 365 Business Central á heimildasíðuna](index.md) til að fræðast meira. Svæðið hýsir efni af ýmsu tagi, eins og eftirfarandi:
 
 - [Hugmyndafræðilegt efni um viðskiptahætti](index.md)  
 - [Fylgigögn fyrir þróunaraðila](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
-- [Ókeypis námsleiðir og rafrænt námsefni í mörgum notandaforstillingum](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Fríar námsleiðir og kennslueiningar í mörgum notendaforstillingum](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 Í þessum hluta er hægt að fá upplýsingar um hvernig á að vafra um efni viðskiptaaðgerða.  
 
@@ -165,7 +165,7 @@ Grunnútgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] er stækkuð o
 
 ### <a name="content-on-the-site"></a>Efni á vefsvæðinu
 
-[Þessi hluti](index.md) á svæði docs.microsoft.com hýsir efni frá Microsoft sem stendur fyrir stoðina *Frekari upplýsingar* í líkani notandaaðstoðar. Að hluta *til læra fleiri* efni hyggst svara þeim spurningum sem notendaviðmótið getur ekki svarað, eins og eftirfarandi:
+[Þessi hluti hýsir efni frá Microsoft sem táknar að](index.md) læra fleiri Microsoft Learn kokteila *í* líkani notendahjálpar. Að hluta *til læra fleiri* efni hyggst svara þeim spurningum sem notendaviðmótið getur ekki svarað, eins og eftirfarandi:
 
 - Hvar passar þessi síða inn í stærra verkflæðið?  
 - Hvað gerist svo?  
@@ -180,11 +180,11 @@ Efnisyfirlitið inniheldur efnisflokk sem lýsir [staðbundnum aðgerðum](about
 Efni staðbundinna aðgerða lýsir möguleikunum í [!INCLUDE [prod_short](includes/prod_short.md)] sem geta hjálpað þér að fylgja studdum markaði, t.d. skattaskýrslum og öðrum skýrslum. Í sumum tilfellum er munurinn á milli sjálfgefinnar útgáfu og landsmiðaðrar útgáfu ekki sýnilegur notendum. Í öðrum tilvikum verða notendur að setja upp skýrslugerð eða rafræna reikningsfærslu á sérstakan hátt. Ef ekki finnst Lýsing á ákveðnum hnappi eða aðgerðum í almenna hlutanum er Vonandi hægt að finna hann í *hlutanum staðbundin virkni*.  
 
 > [!TIP]
-> Á docs.microsoft.com svæðinu sem og í leitarniðurstöðunum í leitir.is og í Hjálparrúðunum Sýna niðurstöður nokkur samhengi fyrir markgreininguna. Í samhenginu er tengillinn sem gæti sýnt heiti lands eða stutta lýsingu sem kallar á ákveðinn möguleika eða land sem dæmi.
+> Á learn.microsoft.com svæðinu sem og í leitarniðurstöðunum í leitir.is og í Hjálparrúðunum Sýna niðurstöður nokkur samhengi fyrir markgreininguna. Í samhenginu er tengillinn sem gæti sýnt heiti lands eða stutta lýsingu sem kallar á ákveðinn möguleika eða land sem dæmi.
 
 ### <a name="finding-other-content"></a>Annað efni fundið
 
-Ef viðkomandi grein svarar ekki spurningum þínum er hægt að finna annað efni á tvennan hátt á vefsvæðinu docs.microsoft.com:
+Ef þú lenda á grein sem svarar ekki spurningunni þinni getur þú fundið önnur efni á tvennan hátt á Microsoft Learn:
 
 - Nota reitinn **Afmarka eftir titli** í efnisyfirlitinu vinstra megin á vefsvæðinu
 
@@ -197,21 +197,21 @@ Ef viðkomandi grein svarar ekki spurningum þínum er hægt að finna annað ef
 
 ### <a name="languages"></a>Tungumál
 
-Efni um viðskiptaaðgerðir er gefið út á mörgum tungumálum. Þegar þú lenda á docs.microsoft.com svæði innan úr vörunni þá Sérðu innihaldið á sama tungumáli og þú hefur tilgreint í [!INCLUDE [prod_short](includes/prod_short.md)], nema það tungumál sé ekki tiltækt á docs.microsoft.co.  
+Efni um viðskiptaaðgerðir er gefið út á mörgum tungumálum. Þegar þú land Microsoft Learn inn í vöruna Sérðu innihaldið á sama tungumáli og þú hefur tilgreint í [!INCLUDE [prod_short](includes/prod_short.md)], nema það tungumál sé ekki tiltækt Microsoft Learn.  
 
 Hægt er að breyta tungumálinu með því að breyta vefslóðinni eða nota skiptihnapp tungumáls neðst í vinstra horni vefsvæðisins.  
 
 Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru gefnar út á ensku er hún síðan send burt fyrir þýðingar inn á studd tungumálin. Í sumum tilfellum er ekki hægt að lesa þetta nýja efni á eigin tungumáli í allt að fjórar vikur, en í flestum tilfellum tekur það aðeins eina viku eða tvær. Þú getur alltaf skoðað nýjustu upplýsingarnar með því að skipta yfir í tungumálið *en-us*.  
 
-Fyrir hvert tungumál er efnisyfirlit þýtt, en efnið í hlutanum *Staðbundin virkni* er á ensku nema fyrir landið sem samsvarar núverandi tungumáli. Til dæmis í dönsku útgáfunni af docs.microsoft.com vefsvæðinu (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`) er hægt að sjá færslur fyrir ástralska staðbundna virkni á dönsku í efnisyfirlitinu, en greinarnar eru á ensku. Aðeins greinarnar fyrir danska staðbundna virkni eru þýddar á dönsku.  
+Fyrir hvert tungumál er efnisyfirlit þýtt, en efnið í hlutanum *Staðbundin virkni* er á ensku nema fyrir landið sem samsvarar núverandi tungumáli. Í dönsku útgáfunni af Microsoft Learn (`https://learn.microsoft.com/da-dk/dynamics365/business-central/`) má til dæmis sjá færslur ástralskrar staðbundinnar virkni í dönsku í efnisyfirlitinu en Greinarnar eru á ensku. Aðeins greinarnar fyrir danska staðbundna virkni eru þýddar á dönsku.  
 
 ### <a name="recommended-content"></a>Ráðlagt efni
 
-Í mars 2021 kom nýr hluti undir flestar greinar á svæðinu docs.microsoft.com. Hlutinn **Ráðlagt efni** er sjálfkrafa búinn til samkvæmt því hvernig hver grein er notuð með hinum hluta vefsvæðisins docs.microsoft.com. Hlekkurinn er ekki kyrrstæður og breytist með tímanum.
+Mars 2021 kom nýr kafli fram undir flestum greinum um Microsoft Learn. Hlutinn **Ráðlagt efni** er sjálfkrafa búinn til samkvæmt því hvernig hver grein er notuð með hinum hluta svæðisins. Hlekkurinn er ekki kyrrstæður og breytist með tímanum.
 
 ### <a name="tell-us-what-you-think"></a>Segðu okkur hvað þér finnst
 
-Á docs.microsoft.com, er hver grein með tvo hnappa neðst í greininni. *Þessi virkjunarhnappur* sendir þig á síðuna hugmyndir og á **þessari síðu** er hægt að senda inn ábendingar um efnið í gegnum GitHub. Í báðum tilvikum þarf að stofna reikning ef hann er ekki þegar með einn. Fyrir *ábending um vöru* verður þú að skrá þig inn með tölvupóstsreikningi vinnunnar eða fyrirtækisins. Til að fá *aðgang að GitHub* er hægt að nota hvaða netfang sem er þegar reikningur er stofnaður.  
+Með Microsoft Learn, hver grein hefur tvo hnappa aftast í greininni. *Þessi virkjunarhnappur* sendir þig á síðuna hugmyndir og á **þessari síðu** er hægt að senda inn ábendingar um efnið í gegnum GitHub. Í báðum tilvikum þarf að stofna reikning ef hann er ekki þegar með einn. Fyrir *ábending um vöru* verður þú að skrá þig inn með tölvupóstsreikningi vinnunnar eða fyrirtækisins. Til að fá *aðgang að GitHub* er hægt að nota hvaða netfang sem er þegar reikningur er stofnaður.  
 
 Við fögnum framlagi þínu, bæði sem pull-beiðnum með ábendingum eða leiðréttingum um efnið og sem GitHub-vandamál með villum eða spurningum. En hafið það í huga að ábending og framlag til *dynamics365smb-docs* repo er um efnið en ekki vöruna.  
 
@@ -220,7 +220,7 @@ Við fögnum framlagi þínu, bæði sem pull-beiðnum með ábendingum eða lei
 
 ### <a name="navigating-to-other-parts-of-the-site"></a>Farið á aðra hluta síðunnar
 
-Docs.microsoft.com hýsir efni fyrir aðrar vörur og annars konar efni. Notið tenglana efst á vefsvæðinu til að komast á svæðið [Microsoft Learn svæðið](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) svæðið eða á [Útgáfuáætlanir Dynamics 365](/dynamics365/release-plans/) sem dæmi. Einnig er hægt að finna tengil á svæðið [Dynamics 365 samfélag](https://community.dynamics.com/) sem dæmi.  
+Microsoft Learn hosts efni fyrir aðrar vörur og annars konar efni. Notaðu tenglana efst á setrinu til að vafra [um Microsoft-þjálfunarsetrið](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) eða [Dynamics 365 losunaráætlanirnar](/dynamics365/release-plans/), td. Einnig er hægt að finna tengil á svæðið [Dynamics 365 samfélag](https://community.dynamics.com/) sem dæmi.  
 
 ## <a name="apps-and-other-solutions"></a>Forrit og aðrar lausnir
 
@@ -238,6 +238,6 @@ Sama gildir ef notað er [!INCLUDE [prod_short](includes/prod_short.md)] á sta�
 [Þróunaraðili Business Central og skjalastjórnun](/dynamics365/business-central/dev-itpro/)  
 [Úrlausnir fyrir hjálp og notendaþjónustu fyrir samstarfsaðila](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Tæknilegur stuðningur](/dynamics365/business-central/dev-itpro/technical-support)  
-[Microsoft Learn svæði](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Microsoft Learn vef](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

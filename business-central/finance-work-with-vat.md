@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417520"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530919"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Unnið með VSK í sölu og innkaupum
 Ef land eða svæði notanda þarf að reikna út og tilkynna virðisauka (VSK) í sölu-og innkaupafærslum er hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til ÚTREIKNINGS VSK. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).
@@ -42,9 +42,9 @@ Eftirfarandi tafla birtir yfirlit yfir það hvernig forritið reiknar upphæði
 |**Verð með VSK í birgðaspjaldi**|**Verð með VSK reit**|**Aðgerð framkvæmd**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |Ekki virkjað|Ekki virkjað|**Einingarverð** á birgðaspjaldinu er afritað í reitinn **Ein.verð án VSK** í sölulínunum.|  
-|Ekki virkjað|Virkjaðar|Forritið reiknar VSK-upphæð á einingu og bætir við **Ein.verð** á Vöruspjaldinu. Þetta heildareiningaverð er síðan fært í **reitinn** EININGARVERÐ með VSK í sölulínunum.|  
-|Virkjaðar|Ekki virkjað|Forritið reiknar VSK-upphæðina sem er innifalin í **reitnum Einingarverð** á **BIRGÐASPJALDINU** með VSK-PRÓSENTUNNI sem tengist VSK-Tengibrautinni. Bókunargr. (verð) og samsetningu VSK-framl. bókunarflokks. **Einingaverðið** í birgðaspjaldinu, mínus VSK-upphæðin, er því næst fært inn í reitinn **Ein.verð án VSK** í sölulínunum. Frekari upplýsingar er að finna [í notkun VSK-viðskiptabókunarflokka og verðflokka](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups) viðskiptamanna.|  
-|Virkjaðar|Virkjaðar|**Einingarverðið** í birgðaspjaldinu er afritað í reitinn **Ein.verð með VSK** í sölulínunum.|
+|Ekki virkjað|Virk|Forritið reiknar VSK-upphæð á einingu og bætir við **Ein.verð** á Vöruspjaldinu. Þetta heildareiningaverð er síðan fært í **reitinn** EININGARVERÐ með VSK í sölulínunum.|  
+|Virk|Ekki virkjað|Forritið reiknar VSK-upphæðina sem er innifalin í **reitnum Einingarverð** á **BIRGÐASPJALDINU** með VSK-PRÓSENTUNNI sem tengist VSK-Tengibrautinni. Bókunargr. (verð) og samsetningu VSK-framl. bókunarflokks. **Einingaverðið** í birgðaspjaldinu, mínus VSK-upphæðin, er því næst fært inn í reitinn **Ein.verð án VSK** í sölulínunum. Frekari upplýsingar er að finna [í notkun VSK-viðskiptabókunarflokka og verðflokka](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups) viðskiptamanna.|  
+|Virk|Virk|**Einingarverðið** í birgðaspjaldinu er afritað í reitinn **Ein.verð með VSK** í sölulínunum.|
 
 #### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>VSK-viðskiptabókunarflokkar og Verðflokkar viðskiptamanna notaðir 
 Ef bera á verð með VSK er hægt að nota VSK-viðskiptabókunarflokka til að reikna út upphæðina á grundvelli uppsetningar VSK-bókunar fyrir flokkinn. Frekari upplýsingar er að finna [í setja upp VSK-viðskiptabókunarflokka](finance-setup-vat.md#set-up-vat-business-posting-groups).
@@ -193,7 +193,7 @@ Til að skoða vottorðahóp byrjarðu á síðunni **Afhendingarvottorð** og u
 > * Til að stofna vottorð afhendingarvottorðs handvirkt  
 > * Til að prenta afhendingarvottorð.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0512e0f77f563b92c0ffcf4c2430a3a3ee329bbb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510944"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532782"
 ---
 # <a name="work-with-prod_short-data-in-power-bi"></a>Vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI
 
@@ -31,6 +31,8 @@ Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skrá
 Power BI þjónustan hýsir allar skýrslur sem eru í boði. Til að sjá skýrslu skal velja **Vinnusvæðið mitt** > **Skýrslur**. Veljið svo skýrsluna sem á að skoða.
 
 Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er sjálfkrafa hægt að hafa sjálfgefnar skýrslur á vinnusvæðinu. Ef stofna á eigin skýrslur er hægt að nota Power BI Desktop til að stofna skýrslur og birta þær síðan á eigin vinnusvæði. Frekari upplýsingar er að finna í [Hafist handa með skýrslur í Power BI Desktop til að birta [!INCLUDE [prod_long](includes/prod_long.md)] gögn](across-how-use-financials-data-source-powerbi.md).
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 Ef þú ert að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum þarftu að byrja frá grunni með því að nota Power BI Desktop. Hægt er að dreifa Power BI skýrslum sem skrám, sem hægt er að hlaða upp.
 
@@ -75,14 +77,14 @@ Til að deila skýrslu, í listaskýrslum, eða í opinni skýrslu skal velja **
 > [!NOTE]
 > Þú verður að hafa  [Power BI Pro-leyfi](/power-bi/service-features-license-type) og fólkið sem þú deilir með einnig. Efnið verður að vera á vinnusvæði með [Premium réttindi](/power-bi/service-premium-what-is). Nánari upplýsingar eru í [Aðferðir við að deila vinnu þinn í Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)]-gögn](across-how-use-financials-data-source-powerbi.md)  
 [Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Vinna með Power BI skýrslur í[!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
+[Vinna með Power BI skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
 [Power BI fyrir neytendur](/power-bi/consumer/end-user-consumer)  
 [„Nýtt útlit“ Power BI þjónustunnar](/power-bi/service-new-look)  
 [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  

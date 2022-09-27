@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 08/11/2022
 ms.author: edupont
-ms.openlocfilehash: d727242c772d1eba2959747c2fcd151a7a330009
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: e68a85cfb15841f45b048cabaad2e279de19b73b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361664"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534886"
 ---
 # <a name="reserve-items"></a>Taka frá vörur
 
@@ -107,7 +107,7 @@ Eftirfarandi ferli byggist á sölupöntun.
 7. Veldu hnappinn **Í lagi** til að opna síðuna **Frátekning** sem sýnir aðeins framboð með tiltekna vörurakningarnúmerinu. Ef ekki eru til neinar sérstakar frátekningar á vörurakningarnúmerin sem hafa verið tilgreind fyrir þessa línu er hægt að upplýsa magnið sem þegar hefur verið frátekið.  
 8. Veljið annað hvort **Auto Reserve** eða **Reserve frá núverandi Línuaðgerð** til að stofna frátekningu á tilteknum vörurakningarnúmerum.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/manage-outbound-serial-lot-numbers/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -115,6 +115,6 @@ Eftirfarandi ferli byggist á sölupöntun.
 [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Hönnunarupplýsingar: vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
 [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 612dc8ada170ae6925bd3121db324cec1624ce68
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515304"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530136"
 ---
 # <a name="legacy-set-the-layout-used-by-a-report"></a>Arfur Stilla útlit sem skýrsla er notuð fyrir
 
@@ -62,7 +62,7 @@ Heiti á völdu sérsniðnu útliti er nú sýnt í reitnum **Sérstillt útlit*
 
 Nú er hægt að fara á spjöld viðskiptamanna og lánardrottna til að tilgreina hvaða útlit á að nota fyrir önnur skjöl sem eru búin til fyrir viðkomandi viðskiptamann eða lánardrottinn, eins og staðfestingu á pöntun eða greiðsluáminningar. Frekari upplýsingar eru í [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  

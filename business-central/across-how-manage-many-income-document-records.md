@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 6d8e7ca27450d22ea3ae065cd0dcdf72effd82d1
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 211798c30c3f94fb24fac2bf706baeb2811b99b0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079637"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529488"
 ---
 # <a name="manage-many-incoming-document-records"></a>Vinna með margar færslur skjala á innleið
 
@@ -53,7 +53,7 @@ Allar aðsendar skjalaskrár eru birtar, þar á **meðal færslur þar sem unni
 > [!NOTE]  
 > Einnig má framkvæma þessa aðgerð fyrir einstaka færslu á síðunni **Spjald fyrir skjöl á innleið** .
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
   
@@ -61,7 +61,7 @@ Allar aðsendar skjalaskrár eru birtar, þar á **meðal færslur þar sem unni
 [Stofna skjalafærslur beint úr skjölum og](across-how-connect-disconnect-income-document-records.md)
 [innsendum skjölum](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

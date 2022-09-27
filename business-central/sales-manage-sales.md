@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell
 ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 501f719c185177f8c9554d8f10c3f026df36169a
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
+ms.openlocfilehash: d6db11d2cb8f7d2cb0906146d03f423b815c29d1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460914"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535746"
 ---
 # <a name="sales"></a>Sölur
 
@@ -59,9 +59,7 @@ Fyrir öll söluferli er hægt að setja inn verkflæði samþykktar, til dæmis
 |Upplýsa viðskiptamenn þína um afhendingardag pöntunar með því að reikna út annað hvort hægt að lofa eða tiltækt að lofa dasetninguna.|[Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)|
 |Leysa úr misskilningi þegar tvær eða fleiri færslur eru til fyrir sama viðskiptamann.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun kl [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/).
-
-## <a name="see-also"></a>Sjá einnig .
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  

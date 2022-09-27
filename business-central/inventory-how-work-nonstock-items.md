@@ -10,12 +10,12 @@ ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
 ms.date: 06/20/2022
 ms.author: bholtorf
-ms.openlocfilehash: c12eb256d4e7f1e211e28dacf4c403406dba3d85
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: deeca03327afa4b231cb9b4ce23088334fa50153
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077008"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532107"
 ---
 # <a name="work-with-catalog-items"></a>Vinna með vörulistaatriði
 
@@ -68,7 +68,7 @@ Hægt er síðan að fylla inn í eða breyta reitum á nýja birgðaspjaldinu e
 > [!NOTE]  
 > Vörutilvísun er sjálfkrafa vara milli vörunúmers lánardrottins og nýja vörunúmersins þíns. Frekari upplýsingar er að finna í [Nota vörutilvísanir](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

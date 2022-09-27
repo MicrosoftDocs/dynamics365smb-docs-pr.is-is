@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: ''
 ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2f306fee236fda2bae4863e0e793239c2168f125
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
+ms.openlocfilehash: 1bae22c83f1e7138fbfe16bb39aea3ad9d65d788
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461103"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531000"
 ---
 # <a name="posting-purchases"></a>Bókun innkaupa
 
@@ -58,7 +58,7 @@ Hægt er annað hvort að bóka, eða bóka og prenta. Ef valið er að bóka og
 
 Þú getur breytt ákveðnum reitum í bókuðum innkaupaskjölum, t.d. reitnum **Greiðslutilvísun**. Frekari upplýsingar er að [breyta bókuðum fylgiskjölum](across-edit-posted-document.md). Til að fá fleiri mikilvæg svæði sem hafa áhrif á endurskoðunarslóðina þarf að bakfæra eða afturkalla bókun. Frekari upplýsingar í [Bakfæra færslubók bókanir og afturkalla móttökur/afhendingar](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun kl [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## <a name="see-also"></a>Sjá einnig .
 

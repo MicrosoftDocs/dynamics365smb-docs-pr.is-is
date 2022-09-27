@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87fb665d57aaa6c66b4b3c2659d9e93a6e51239d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 22f0ecdf185d3b2e31d23dd2492223179328d103
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514044"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533133"
 ---
 # <a name="create-gl-budgets"></a>Stofna fjárhagsáætlunum
 
@@ -49,7 +49,7 @@ Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum
 > [!NOTE]
 > Bókhaldslykillinn, sem fjárhagsáætlanir byggjast á, eru með línum af lyklagerðinni Fyrirsögn sem innihalda samtölu línanna fyrir neðan. Þegar þú flytur út fjárhagsáætlun eru gögn í öllum línum flutt út óháð gerð lykils. Hins vegar er aðeins hægt að flytja aftur inn gögn í línum af lyklagerðinni Bókun. Samkvæmt því: <br /><br /> **Þegar þú flytur inn fjárhagsáætlun verður öllum gildum sem voru til í fyrirsagnarlínum eytt.** <br /><br /> Þetta er til að koma í veg fyrir rangar samtölur eftir innflutning gagna sem hafa verið búin til eða breytt í Excel.<br /><br /> **Atburðarás**: Þú veist að nýi áætlaði launakostnaðurinn kemur til með að vera 1.200.000 SGM. Þú vilt að launadeildin áætli fyrir þessar þrjár tilteknu línur (af lyklagerðinni Bókun) fyrir starfsmenn í fullu starfi, starfsmenn í hlutastarfi og tímabundin aðstoð. Línurnar þrjár eru flokkaðar undir fyrirsagnarlínu launa.<br /><br />Þú slærð inn 1.200.000 í fyrirsagnarlínuna, flytur út fjárhagsáætlunina í Excel og sendir hana svo til launadeildarinnar og biður hana um að úthluta 1.200.000 SGM.<br /><br /> Launadeildin úthlutar upphæðinni á bókunarlyklana þrjá. Þegar þú flytur aftur inn í fjárhagsáætlun er fyllt út í lyklana þrjá með nýju Excel-gögnunum, sem verður samanlagt 1.200.000 SGM og fyrirsagnarlínan er auð.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -58,7 +58,7 @@ Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum
 [Viðskiptaupplýsingar](bi.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

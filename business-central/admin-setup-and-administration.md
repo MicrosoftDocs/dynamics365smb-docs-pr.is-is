@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4995a1776beacd444912124da5e9e6315f6a22f8
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 8d961c1d54dda71651eb81c6dfab05733d0207fc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740206"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533241"
 ---
 # <a name="administration-tasks"></a>Verkefni í stjórnsýslu
 
@@ -61,7 +61,7 @@ Innri og úthlutaðir stjórnendur hafa aðgang að stjórnendamiðstöðinni [!
 |Stjórna notandalotum, þar á meðal að hætta við lotu ef lokað er á notandann.|[Stjórna lotum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
 |Skilgreina leigjanda til að senda fjarmælingargögn til Azure Application Insights til að fá betri greiningu og úrræðaleit.|[Virkja sendingu fjarmælingar til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 

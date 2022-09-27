@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 92f44504f97c4203585486fc937ed3bb560ad5d4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: cee2ced8b51de66de847c0132e8ce35a08b7b229
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076540"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532161"
 ---
 # <a name="terminology-in-cost-accounting"></a>Orðalisti í kostnaðarbókhaldi
 
@@ -49,7 +49,7 @@ ms.locfileid: "9076540"
 |Breytilegur kostnaður|Breytilegur kostnaður er útgjöld sem breytast í hlutfalli við aðgerðir fyrirtækis. Breytilegur kostnaður er summa jaðarkostnaðar yfir allar framleiddar einingar. Fastur og breytilegur kostnaður myndar tvo hluta af heildarkostnaði.|  
 |Afbrigði|Afbrigði er notað sem valfrjálst notandaskilgreint merki fyrir úthlutanir. Tilgangur merkisins er til að sía flokka úthlutunar.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

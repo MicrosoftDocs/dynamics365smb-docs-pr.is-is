@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e942adc661b31dbb181624ff66ebd33a2d50b255
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514804"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531081"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum
 
@@ -77,16 +77,16 @@ Eftirfarandi tafla lýsir hefðbundnum greiðslujöfnunarreglur í [!INCLUDE[pro
 | Lítill              | 1        | Öll                 | Nr                             | Engar niðurstöður                     |
 | Lítill              | 2        | Að hluta             | Nr                             | Margar niðurstöður               |
 | Lítill              | 3        | Að hluta             | Nr                             | Engar niðurstöður                     |
-| Lítill              | 4        | Nr                    | Nr                             | Ein niðurstaða                      |
-| Lítill              | 5        | Nr                    | Nr                             | Margar niðurstöður               |
+| Lítill              | 4        | Nr.                    | Nr.                             | Ein niðurstaða                      |
+| Lítill              | 5        | Nr.                    | Nr.                             | Margar niðurstöður               |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

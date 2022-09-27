@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b2e1b0971d6fe8c9c48ba2e0ca03271429c9841d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 213e7abb6dbfeacb5d095399932be5b6849b3c6b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076618"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528385"
 ---
 # <a name="about-cost-accounting"></a>Um kostnaðarbókhald
 
@@ -74,7 +74,7 @@ Hægt er að búa til eins margar kostnaðaráætlanir og þörf er á. Hægt er
 
 Flestar skýrslur og talnagögn eru byggð á bókuðum kostnaðurfærslum. Hægt er að stilla röðun niðurstaðna og nota afmarkanir til að skilgreina hvaða gögn þurfi að birta. Hægt er að búa til skýrslur fyrir greiningu kostnaðardreifingar. Ennfremur er hægt að nota stöðluð fjárhagsskemu til að skilgreina hvernig skýrslur fyrir myndrit yfir kostnaðartegundir birtast.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

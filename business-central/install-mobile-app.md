@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 075af1a6b1d02a68a84d504b7ffa8602b50b17f8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515590"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534086"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Nota Business Central á fartækinu þínu
 
@@ -58,13 +58,13 @@ Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum getur �
 > [!NOTE]
 > Ef þú átt í vandræðum með að fá forritið til að virka rétt skaltu tala við kerfisstjóra. Hugsanlega vantar frumskilyrði eða þá að stilling er ófullnægjandi. Frekari upplýsingar er að finna í [Undirbúningur umhverfis fyrir farsímaforrit](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) eða [Úrræðaleit Business Central farsímaforrits á staðnum](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Algengar spurningar um farsímaforrit](ui-mobile-faq.yml)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: 3e04e348c55fa487f8a7776c0f197210c3cacb49
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b188268feeb483a62ee82990ba3cf92b5afa1606
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519753"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528975"
 ---
 # <a name="get-business-central-desktop-app"></a>Sækja Business Central-skjáborðsforrit
 
@@ -72,7 +72,7 @@ Munurinn er þegar þú ert með marga leigjendur. Ólíkt [!INCLUDE[prod_short]
 > [!IMPORTANT]
 > Ef þú ert að nota Business Central 2021 út Wave 1 (útgáfa 18) eða fyrr er ekki hægt að setja upp App eins og lýst er í þessari grein. Í staðinn er App sett upp úr [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Nánari upplýsingar og aðstoð við að setja upp þetta Legacy App er að finna [í því að undirbúa og setja upp Business Central App](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

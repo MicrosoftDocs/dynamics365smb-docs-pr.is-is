@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 0feba901ac569c0cbd714f8ea3d3c271c82425bd
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 922d80f054b2daea6c06b7c440ac3605fa0bd243
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144140"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529380"
 ---
 # <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
 
@@ -235,7 +235,7 @@ Eftir að nýi bankareikningurinn hefur verið stofnaður ættir þú einnig að
 
 Til að fá samþjappaðra yfirlit yfir sjóðsreikninga í fjárhagsskýrslugerð skal nota reikningana **Samtala í upphafi** og **Samtala í lok** í bókhaldslyklinum, línurnar **Samtölur** í fjárhagsskemum eða flokkum fjárhagsreikninga. Frekari upplýsingar er að finna í hlutanum [Viðskiptagreind og Financial Reporting](bi.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 1557507aa108a64ad36fea5237e030ff31028779
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2fd135bc18f347539ba7fedcfe4b48e7bb314daf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075760"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532404"
 ---
 # <a name="sorting-searching-and-filtering"></a>Röðun, leit og síun
 
@@ -308,13 +308,13 @@ Notaðu `%myvendors` í lánardrottinn **Nr** reitnum, til að birta allar skrá
 |-----------------------|-----------------------|  
 |`%myvendors`|Lánardrottnar í **Mínir lánardrottnar** í Mitt hlutverk. |  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)  
 [Vista og sérsníða listayfirlit](ui-views.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

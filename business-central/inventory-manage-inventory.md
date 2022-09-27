@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f14c7d9f4fc99c0b6d44ff1cd971f05f979b7fdd
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 568ccee7e01aacb429e6ed2e2b69daf91f67b488
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361719"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530028"
 ---
 # <a name="manage-inventory"></a>Stjórna birgðum
 
@@ -60,14 +60,14 @@ Eftirfarandi tafla sýnir tengd verk.
 |Umsjón með rekstri fyrirtækja í söluskrifstofum, innkaupadeildum eða verksmiðjuáætlunarstofum á mörgum stöðum.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
 |Notið tilföng með sértækum aðgerðum fyrir ýmsa þjónustu og þjónustuvöru.|[Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/paths/get-started-inventory-management/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/get-started-inventory-management/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

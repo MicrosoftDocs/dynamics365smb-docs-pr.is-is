@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: a4dcb5c9f12190a662c4f45bbadcfdddee70fa7f
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
-ms.translationtype: MT
+ms.openlocfilehash: 55e7861d479ee5d4415ca776f969b722464ddcc3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129822"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531918"
 ---
 # <a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
 
@@ -83,7 +83,7 @@ Aðgerðin **Senda samþykkistilkynningar sem komnar eru fram yfir á tíma** ka
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Samþykktarbeiðnir sem eru fallnar á tíma** og velja síðan viðkomandi tengil.
 2. Á síðunni **Samþykktarbeiðnir komin fram yfir á tíma** er valið á **Samþykktarbeiðnir komin fram yfir á tíma Tilkynningar** aðgerð.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

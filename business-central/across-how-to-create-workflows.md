@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: 301856bcf246f7546992de588472459e1bbec378
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
-ms.translationtype: MT
+ms.openlocfilehash: 7f3db5df7c4ea03969eff2efe1a8d019f006ad40
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130092"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531810"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Stofna verkflæði til að tengja verk viðskiptaferla
 
@@ -182,7 +182,7 @@ Eftirfarandi mynd gefur yfirlit yfir niðurstöður þessarar aðgerðar.
 
 Næst skal prófa verkflæðið með því að opna fyrirliggjandi lánardrottnaspjald og breyta nafni þeirra. Staðfestið að samþykktarbeiðni sé send eftir að nafni lánardrottins er breytt.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

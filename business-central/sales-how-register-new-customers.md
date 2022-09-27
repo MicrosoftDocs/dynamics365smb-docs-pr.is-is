@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/01/2022
 ms.author: edupont
-ms.openlocfilehash: 846e781fac2dc6d99e614e6cd46be980f86554d2
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
+ms.openlocfilehash: 22fed660ba176bbce8375d03a7c6a5bf9e20b01b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460941"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533800"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 
@@ -88,7 +88,7 @@ Hægt er að velja um að láta viðvaranir ekki segja að farið hafi verið yf
     |**Upphæð vanskila**|Svæðið **Gjaldfallin staða** í spjaldi viðskiptamanns er athugað og viðvörun birtist ef staða viðskiptamanns er gjaldfallin.|
     |**Engin aðvörun**|Engar kreditviðvaranir eru sýndar varðandi stöðu viðskiptavinarins.|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun kl [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Sjá einnig .
 

@@ -7,12 +7,12 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 251376700e140043705ce05fcf47f7ebbb0dcd4b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 422466c83d3f86f9afa611f5ef578482eadaf275
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079611"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531756"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Tengir við Microsoft Dataverse
 
@@ -31,7 +31,7 @@ Eftirfarandi skref veita yfirlit yfir skrefin til að samþætta [!INCLUDE[prod_
 
 ## <a name="getting-started-with-prod_short"></a>Hafist handa með [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Til að hefjast handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] þarf Microsoft Power Apps reikning. Ef þú ert ekki þegar með Power Apps-reikning er hægt að fá einn ókeypis með því að fara á [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og velja tengilinn **Hefjumst handa ókeypis**. Frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] er að finna í einingunni [Hafist handa með Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) úr Microsoft Learn.
+Til að hefjast handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] þarf Microsoft Power Apps reikning. Ef þú ert ekki þegar með Power Apps-reikning er hægt að fá einn ókeypis með því að fara á [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og velja tengilinn **Hefjumst handa ókeypis**. Frekari upplýsingar um hvernig hafist er handa við [!INCLUDE[prod_short](includes/cds_long_md.md)] er að finna í hafist er [handa við Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) kerfiseininguna Microsoft Training.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Gagnasamstilling í báðar áttir eða aðra áttina
 
@@ -62,7 +62,7 @@ Frekari upplýsingar um hvert hlutverk, t.d. heimildar- og aðgangsstig, er að 
 
 Við uppsetningu tengingar eru varpanir samþættingartöflu, sem þarf til að samstilla gögn, búnar til. Einingum í [!INCLUDE[prod_short](includes/cds_long_md.md)] er varpað í töflur og töflureiti í Business Central í gegnum samþættingartöflur. Frekari upplýsingar er að finna í [Stöðluð einingavörpun fyrir samstillingu](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

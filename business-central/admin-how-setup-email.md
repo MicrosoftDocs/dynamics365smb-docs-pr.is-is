@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
-ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
+ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "9041427"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534292"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Fólk í viðskiptum sendir upplýsingar og skjöl á borð við sölu- og innkaupapantanir og reikninga með tölvupósti á hverjum degi. Kerfisstjórar geta tengt einn eða fleiri tölvupóstreikninga við til [!INCLUDE[prod_short](includes/prod_short.md)] að senda skjöl án þess að þurfa að opna App fyrir tölvupóst. Hægt er að setja hvert boð fyrir sig með grunnsniðs verkfærum, svo sem leturgerðum, stílum, litum o. s. frv., og bæta viðhengjum um allt að 100 MB. Auk þess gera skýrsluskipanir kerfisstjóra kleift að taka aðeins með helstu upplýsingar úr skjölum. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
@@ -229,7 +229,7 @@ Ef þú átt í vandræðum með að nota SMTP-samskiptareglurnar til að senda 
 
 -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/set-up-email/)
 
 ## <a name="see-also"></a>Sjá einnig
 

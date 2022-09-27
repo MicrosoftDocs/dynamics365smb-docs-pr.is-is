@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
-ms.translationtype: MT
+ms.openlocfilehash: 767b2873e0c7307a9642aa3b38d049b4869f7a1b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130227"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531189"
 ---
 # <a name="use-workflows"></a>Nota verkflæði
 
@@ -69,7 +69,7 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 |Skoða skref verkflæðis fyrir stöðuna **lokið**.|[Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md)|  
 |Eyða verkflæði sem þú ert örugglega ekki lengur að nota.|[Eyða verkflæðum](across-how-to-delete-workflows.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

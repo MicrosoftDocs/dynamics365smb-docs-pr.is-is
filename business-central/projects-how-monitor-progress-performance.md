@@ -10,12 +10,12 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.date: 08/04/2022
 ms.author: edupont
-ms.openlocfilehash: 8dc52a0d00c7596eb2333e92e8e77f4d1caaa243
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.openlocfilehash: 9b4c511c0cdaa6be6147ab1df3672f07b58c2b81
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227446"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528922"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Fylgst með framvindu og afköstum
 
@@ -146,7 +146,7 @@ Allar starfstengda færslur eru skráðar í verkdagbækur og raðar tölusettar
 
 Á síðunni **Verkfærslur** er hægt að fara yfir færslur sem tengjast verki.  
 
-## <a name="find-related-training-at-microsoft-learn"></a>Finna tengdar þjálfun hjá [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training"></a>Finna tengt [Microsoft þjálfun](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

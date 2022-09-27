@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 07dfa98c8499a2a9c7de9d5005d941f8d65aa7fb
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 0f1e728b67555fcbde041f556265824b1a64a169
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805075"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529029"
 ---
 # <a name="welcome-to-prod_long"></a>Velkomin(n) í[!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -30,11 +30,11 @@ Ef þú ert þegar með [!INCLUDE[prod_short](includes/prod_short.md)], skráir 
 
 ## <a name="microsoft-docs"></a>Microsoft docs
 
-Á yfirlitssvæðinu til vinstri er hægt að finna upplýsingar um notkun [!INCLUDE[prod_short](includes/prod_short.md)] í fyrirtækinu þínu. Finnið tengla á lýsingar á algengustu möguleikana í hlutanum [Viðskiptaferli](#business-processes). Sjá einnig [nota docs.microsoft.com svæði til að læra fleiri](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more) kafla.  
+Á yfirlitssvæðinu til vinstri er hægt að finna upplýsingar um notkun [!INCLUDE[prod_short](includes/prod_short.md)] í fyrirtækinu þínu. Finnið tengla á lýsingar á algengustu möguleikana í hlutanum [Viðskiptaferli](#business-processes). Sjá einnig [frekari upplýsingar um kaflann fylgigögn með fylgiskjölum](product-help-and-support.md#learn-more-using-the-product-documentation).
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-Einnig er hægt að [fara í myndbandasafn okkar](across-videos.md), eða byrja á [Hefjast handa á Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) námsleið [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Einnig [er hægt að fara í](across-videos.md) myndbandasafnið [okkar, eða byrja með Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) -námslóð [í Microsoft Training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
 > Nema annað sé tilgreint, endurspeglar efnið á Docs.microsoft.com-vefsvæðinu nýjustu útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] á netinu. Ef fyrirtækið notar aðra útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] á netinu gæti einhverjir eiginleikar ekki enn verið tiltækir. Ef fyrirtækið notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum gætirðu verið að nota eldri útgáfu. Frekari upplýsingar er að finna á [Algengar spurningar](across-faq.yml).
@@ -76,9 +76,9 @@ Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsing
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Reglur og leiðbeiningar fyrir AL-kóða](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## <a name="learn"></a>Læra
+## <a name="learn"></a>Upplýsingar
 
-Finna ókeypis rafrænt námsefni fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Finndu frítt e-Learning efni fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á [Microsoft Training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 Einnig er hægt að skoða myndbönd af nýjum og algengum möguleikum í myndbandasafninu okkar. Frekari upplýsingar er að finna á [Skoðaðu myndbandasafnið okkar](across-videos.md).  
 
@@ -94,11 +94,11 @@ Einnig er hægt að skoða myndbönd af nýjum og algengum möguleikum í myndba
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Dynamics 365 Business Central Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Dynamics 365 Business Central þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
 [Hafist handa með Business Central](ui-get-ready-business.md)  
 [Skoðaðu myndbandasafnið okkar](across-videos.md)  
@@ -107,7 +107,7 @@ Einnig er hægt að skoða myndbönd af nýjum og algengum möguleikum í myndba
 [Fáðu [!INCLUDE[prod_short](includes/prod_short.md)] í farsímann þinn](install-mobile-app.md)  
 [Vinna með víddir](finance-dimensions.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
-[Notaðu síðuna docs.microsoft.com til að læra meira](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
+[Frekari notkun á fylgigögnum með vöru](product-help-and-support.md#learn-more-using-the-product-documentation)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Samræmi](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Skilmálar netþjónustu](compliance/compliance-service-compliance.md#service-terms)  
 [Helstu uppfærslur og minni uppfærslur Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

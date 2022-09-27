@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: b282ea2aeec8e28b36bdadfdb57065e8c9e0c727
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c10fc78e461b273483a16720dafdf7f99882573e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075057"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529326"
 ---
 # <a name="create-reports-with-xbrl"></a>Stofna skýrslur með XBRL
 
@@ -114,12 +114,12 @@ Fyrsta skrefið þegar beita á XBLR-aðgerðum er að flytja inn flokkunina í 
 6.  Til að flytja inn tenglagrunninn skal velja aðgerðina **Flytja inn**.  
 7.  Velja **Já** til að tengja tenglagrunninn við skemað.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/xbrl-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)    
 [Viðskiptaupplýsingar](bi.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

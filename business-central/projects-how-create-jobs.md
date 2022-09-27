@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.openlocfilehash: 180a6cfc4ce6efb11df8faccd5909f527f6393e3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227473"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528948"
 ---
 # <a name="create-jobs"></a>Stofna verk
 
@@ -85,7 +85,7 @@ Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Í áætlu
 4. Á síðunni **Verkáætlunarlínur** skal fylla út reitina eins og þörf krefur í nýrri línu.
 5. Endurtakið skref 3 og 4 fyrir allar verkhlutalínur sem þarf fyrir verkhlutann.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/create-new-job/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-new-job/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -94,7 +94,7 @@ Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Í áætlu
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

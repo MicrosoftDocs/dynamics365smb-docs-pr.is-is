@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8ab57ff6e28abf3a40b9507375d33ffb4f1f33a3
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655489"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528813"
 ---
 # <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 
@@ -150,11 +150,11 @@ Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
 - Breytingar á síðu í rúðunni taka gildi á síðunni þar sem alltaf er sýnt.  
 - Aðeins er hægt að bæta við reitum og dálkum úr fyrirfram skilgreindum lista sem byggir á síðunni. Ekki er hægt að stofna nýjar.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 

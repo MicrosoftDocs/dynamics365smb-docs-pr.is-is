@@ -10,16 +10,16 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 257, 259, 279
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08545d1bb23b8a70d10c6114f4840ce186aa94cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ab140d214c25735bf8158a2255f8f35ba246442c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515564"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535156"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Uppsetning upprunakóða og ástæðukóða fyrir endurskoðunarslóðir
 
-Öllum bókuðum færslum er sjálfvirkt úthlutað upprunakóða þannig að hægt er að rekja færslur til uppruna þeirra. Ef gefa á færslum upprunakóða til viðbótar má nota ástæðukóða. Ástæðukóðar gefa til kynna hvar færsla var stofnuð. Þegar ástæðukóðar eru settir upp má úthluta þeim til heilla bókarsniðmáta og bókarkeyrslna, og hægt er að úthluta þeim til einstakra bókarlína og skjala.  
+Öllum bókuðum færslum er sjálfvirkt úthlutað upprunakóða þannig að hægt er að rekja færslur til uppruna þeirra. Ef gefa á færslum upprunakóta til viðbótar má nota ástæðukóta. Ástæðukótar gefa til kynna hvar færsla var stofnuð. Þegar ástæðukóðar eru settir upp má úthluta þeim til heilla bókarsniðmáta og bókarkeyrslna, og hægt er að úthluta þeim til einstakra bókarlína og skjala.  
 
 Nota skal kóða sem auðvelt er að muna og eru lýsandi. Hægt er að setja upp ótakmarkaðan fjölda kóða.
 
@@ -83,9 +83,9 @@ Eftirfarandi ferli sýnir hvernig á að bæta ástæðukóða við færslubóka
 
 2. Kóðinn er færður í reitinn **Ástæðukóði** í sölu- eða innkaupahaus.
 
-Þegar reikningurinn er bókaður afritast ástæðukóðinn í allar fjarhags-, viðskiptamanna- og lánardrottnafærslur. Ekki er hægt að úthluta mismunandi ástæðukóðum í einstakar innkaupa- og sölulínur vegna þess að allar línur bókast sem ein færsla.
+Þegar reikningurinn er bókaður afritast ástæðukóðinn í allar fjarhags-, viðskiptamanna- og lánardrottnafærslur. Ekki er hægt að úthluta mismunandi ástæðukótum í einstakar innkaupa- og sölulínur vegna þess að allar línur bókast sem ein færsla.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 

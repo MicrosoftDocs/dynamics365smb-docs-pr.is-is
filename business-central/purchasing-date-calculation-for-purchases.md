@@ -10,12 +10,12 @@ ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 779c2ac1b043cee6f2578f3a642a26a8bb3156c8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079533"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530541"
 ---
 # <a name="calculate-dates-for-purchases"></a>Reikna dagsetningar fyrir innkaup
 
@@ -42,7 +42,7 @@ Ef það er Umbeðin móttökudagsetning á innkaupapöntunarlínunni þá er da
 Ef Umbeðin móttökudagsetning er tilgreind á innkaupapöntunarlínu er dagsetningin tengd við nýjar línur um leið og þær eru stofnaðar. Hægt er að breyta eða fjarlægja dagsetninguna í línunum.  
 
 > [!NOTE]
-> Ef ferlið þitt er byggt á útreikningi aftur í tímann, t.d. ef þú notar umbeðna móttökudagsetningu til að fá pöntunardagsetninguna, ráðleggjum við þér að þú notir dagsetningarreiknireglur sem eru með fastri tímalengd á borði við „5D“ fyrir fimm daga eða „1V“ fyrir eina viku. Dagsetningarreiknireglur án fastra tímalengda, t.d „NV“ fyrir núverandi viku eða „NM“ fyrir núverandi mánuð, getur leitt til rangra útreikninga á dagsetningum. Nánari upplýsingar um dagsetningarformúlur [fást með því að vinna með dagsetningar og tíma dagatals](ui-enter-date-ranges.md).
+> Ef ferlið þitt er byggt á útreikningi aftur í tímann, t.d. ef þú notar umbeðna móttökudagsetningu til að fá pöntunardagsetninguna, ráðleggjum við þér að þú notir dagsetningarreiknireglur sem eru með fastri tímalengd á borði við „5D“ fyrir fimm daga eða „1V“ fyrir eina viku. Dagsetningarreiknireglur án fastra tímalengda, t.d „NV“ fyrir núverandi viku eða „NM“ fyrir núverandi mánuð, getur leitt til rangra útreikninga á dagsetningum. Nánari upplýsingar um dagsetningarformúlur [fást með því að vinna með dagsetningar og tíma](ui-enter-date-ranges.md) dagatals.
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Reiknað án óskar um afhendingardag
 
@@ -64,13 +64,13 @@ Hægt er að tilgreina handvirkt dagsetningarreikniregluna á línum. Að öðru
 3. Birgðahaldseiningarspjald
 4. Lánardrottnaspjald
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Dagsetning útreiknings fyrir sölu.](sales-date-calculation-for-sales.md)  
 [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

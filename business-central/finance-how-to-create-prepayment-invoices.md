@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 620a1af0deff6f9615b38706dd3f53f3db285008
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: ffb2adb5a0ec43da14ee7fd9126c3293ea73ab22
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362068"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534913"
 ---
 # <a name="create-prepayment-invoices"></a>Stofna fyrirframgreiðslureikninga
 
@@ -73,7 +73,7 @@ Hægt er að gefa út aðra fyrirframgreiðslureikninga fyrir pöntunina. Til a�
 
 Hægt er að flýta pöntunar-og reikningsvinnslu með því að setja upp vinnsluraðarfærslur sem uppfæra sjálfkrafa stöðu skjalanna. Þegar Greiðslureikningur er greiddur geta færslur í vinnslubiðröð sjálfkrafa breytt stöðu skjals úr **fyrirframgreiddum** reikningi í **Útgefin**. Þegar verkraðarafærslur eru settar upp verður kostnaðareining sem nota á sé **383 UPD. Fyrirframreikningur biðlauna** Sölvi **383 UPD. Fyrirframreikningur biðlauna Innkaupa**. Mælt er með því að færslurnar séu keyrðar oft, til dæmis á hverri mínútu. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

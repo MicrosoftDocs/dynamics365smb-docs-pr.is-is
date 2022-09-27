@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 136, 145, 146, 9308
 ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 10543531b6ffc7d7543ae768a2410379e75b6c80
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.openlocfilehash: dc1fa2e308ce0920815a5766d4e077a2eb0ce62a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227392"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534535"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Sameina móttökur í einn reikning
 
@@ -48,7 +48,7 @@ Að öðrum kosti skal eyða einstökum pöntunum handvirkt.
 
 Skref 1 til 3 eru endurtekin fyrir öll skjöl sem urðu fyrir áhrifum, eins og auðar innikaupapantanir.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

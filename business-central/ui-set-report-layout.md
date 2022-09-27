@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 9cc827630c5acfeba2efc860d8baf67cd31bb404
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524200"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535854"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Uppsetning á uppsetningu sem notuð er í skýrslu
 
@@ -25,7 +25,7 @@ Skýrslusnið ákvarðar útlit skýrslu. Það stýrir því hvaða gagnasvæð
 
 Þegar mörg fyrirtæki eru í umsókninni eru sett á stofn skipulag á hverju fyrirtæki. Þannig að sama skýrsla í einu fyrirtæki getur haft annað skipulag í öðru fyrirtæki.
 
-## <a name="get-started"></a>Hefjast handa
+## <a name="get-started"></a>Hafist handa
 
 Það eru tvær leiðir til að stilla hvaða útlit á að nota skýrsluna. Ein leiðin er frá **valsíðu** skýrsluuppsetningar. Hin leiðin er af **síðu skýrsluuppsetningar**. Hver síða hefur kosti, t.d.: 
 
@@ -62,7 +62,7 @@ Skýrslusnið ákvarðar útlit skýrslu. Það stýrir því hvaða gagnasvæð
 
 Skýrslum er ætlað að nota uppsetningu sem sjálfgildi. Hægt er að skipta aftur í upprunalega sjálfgefna uppsetningu úr **skýrsluuppsetningu valsíðu**. Veldu bara skýrsluna, Veldu **síðan endurheimta sjálfgefna valaðgerð** efst á síðunni.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

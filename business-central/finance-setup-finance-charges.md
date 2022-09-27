@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.search.form: 6, 494
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 565654d8f7a4dd38aceccbcc39e722bad89bf67e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 27378e1c2c12077bdb04aa9f1e2b93f27fe048dc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077607"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528277"
 ---
 # <a name="set-up-finance-charge-terms"></a>Setja upp vaxtaskilmála
 
@@ -68,7 +68,7 @@ Að auki er sérhver skilgreining í töflunni Vaxtaskilmálar tengdur undirtöf
 |%8|Innihald reitsins **gjaldmiðilskóði** á bréfshaus vaxtareiknings|  
 |%9|Innihald reitsins **bókunardagsetning** á bréfshaus vaxtareiknings|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/send-memos-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

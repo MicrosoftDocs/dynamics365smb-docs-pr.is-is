@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 43489631d1e59c26838287f77ba2ec5136da194e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: MT
+ms.openlocfilehash: 8915015f015642a85439fbdd5511271b06a8358f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362334"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531297"
 ---
 # <a name="set-up-printers"></a>Setja upp prentara
 
@@ -276,12 +276,12 @@ Tilgreind skýrsla er nú uppsett til prentunar í völdum sjálfgefnum prentara
 
 Skýjaprentun er hönnuð fyrir skjöl af hæfilegri stærð. Flestar skýjaþjónustur, þ.m.t. PrintNode og HP ePrint, eru með 10 MB hámark fyrir hvert verk. Ef þú þarft að prenta stærri skýrslur gætirðu þurft að skipta þeim í margar útprentanir.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Prenta skýrslu](ui-work-report.md#PrintReport)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Keyra runuvinnslur](ui-how-run-batch-jobs.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 

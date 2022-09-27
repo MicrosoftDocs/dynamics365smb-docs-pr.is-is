@@ -7,12 +7,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 43b5a4181b50da65f25be3f3fc73a0e01fd885af
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 874234154c7a2ae2e8cf0444794a2b4fbdcbcf5e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361762"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534211"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Greina fjárhagsskýrslur í Excel Microsoft Excel.
 
@@ -56,7 +56,7 @@ Fyrirframskilgreindar Excel-skýrslur eru byggðar á gögnum í núverandi fyri
 
 Viðbótin gerir þér kleift að fá fersk gögn úr [!INCLUDE [prod_short](includes/prod_short.md)] og þú getur ýtt breytingum aftur í [!INCLUDE [prod_short](includes/prod_short.md)]. Möguleikinn til að ýta gögnum til baka í gagnagrunn er hins vegar ekki fyrir hendi vegna þeirra fjárhagslegu skýrslna sem hægt er að skoða í Excel.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

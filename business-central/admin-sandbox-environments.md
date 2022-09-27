@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130174"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529731"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandkassaumhverfi í [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ Stjórnandi hefur umsjón með sandkassaumhverfum í [stjórnendamiðstöðinni]
 
 Ef þú vilt til dæmis búa til sandkassa sem viðmið getur stjórnandi þinn búið til sérhæft umhverfi í stjórnendamiðstöðinni. Frekari upplýsingar eru í [Vinnslu- og sandkassaumhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types) í þróunar- og stjórnunarefni.  
 
-Einnig er hægt að nota sandkassa til þjálfunar á öruggan hátt, t.d. til að fylgja námsleið úr [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) því það er öruggt umhverfi til að gera tilraunir í. Ef eitthvađ fer úrskeiđis eyđir mađur einfaldlega sandkassanum og byrjar upp á nýtt.  
+Einnig er óhætt að nota sandkassar til þjálfunar, eins og til að fylgja eftir námsbraut úr [Microsoft þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), því það er öruggt umhverfi til að gera tilraunir með. Ef eitthvađ fer úrskeiđis eyđir mađur einfaldlega sandkassanum og byrjar upp á nýtt.  
 
 Að því loknu geturðu fjarlægt sandkassann með því að nota stjórnstöðina.  
 
@@ -70,7 +70,7 @@ Nánari upplýsingar eru [í notkun hönnunar](/dynamics365/business-central/dev
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

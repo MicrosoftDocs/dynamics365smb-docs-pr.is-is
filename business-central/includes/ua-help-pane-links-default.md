@@ -4,22 +4,22 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 7d5c66cd9213953558b4066a83818bbcd0debabc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f574fbb444752b1c8b0761df80dbfdc98e8123e6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524212"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531675"
 ---
 - Tengill um þessa síðu
 
   Efst í rúðunni sýnir spjald stutta lýsingu á viðkomandi síðu, ef hún er til. Ef ekki er til blaðsíðulýsing þá gefur kortið út staka hlekk á grein um síðuna.  
 
-  Ef [!INCLUDE[prod_short](prod_short.md)] ekki er hægt að finna viðkomandi hlekk birtum við lendingarsíðuna á [Docs.microsoft.com](/dynamics365/business-central). Til dæmis, ef síðan var hluti af forriti sem bætti ekki samhengislegu Hjálparvörpun við [!INCLUDE[prod_short](prod_short.md)], *Lærðu Tengillinn* við lendingarsíðuna.  
+  Ef [!INCLUDE[prod_short](prod_short.md)] ekki er hægt að finna viðeigandi tengil birtum við lendingarsíðuna í [Microsoft docs](/dynamics365/business-central) . Til dæmis, ef síðan var hluti af forriti sem bætti ekki samhengislegu Hjálparvörpun við [!INCLUDE[prod_short](prod_short.md)], *Lærðu Tengillinn* við lendingarsíðuna.  
 
-- Tenglar á tengdar greinar úr Microsoft docs  
+- Tenglar á skyldar greinar
 
-  Þessir tenglar tengjast þessari síðu og breytast ef fært er á aðra síðu. Tenglarnir takmarkast við docs.microsoft.com svæði. Ef það eru fleiri en þrír tenglar, Veldu þá *Sýna fleiri* tengil til að stækka kortið. Veldu hvaða tengil og tengda grein opnast í nýjum vafraflipa.  
+  Þessir tenglar tengjast þessari síðu og breytast ef fært er á aðra síðu. Tenglarnir takmarkast við learn.microsoft.com svæði. Ef það eru fleiri en þrír tenglar, Veldu þá *Sýna fleiri* tengil til að stækka kortið. Veldu hvaða tengil og tengda grein opnast í nýjum vafraflipa.  
 - Tenglar á efni fyrir forrit á þessari síðu  
 
   Þessir tenglar eru byggðir á einhverju App sem nær yfir síðuna eða skilgreinir síðuna.  

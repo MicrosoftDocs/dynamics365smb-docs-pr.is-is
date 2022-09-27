@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 0888a0a47f3a5ae58dcf7712218f801cde1711c5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129677"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528304"
 ---
 # <a name="set-up-locations"></a>Uppsetning birgðageymsla
 
@@ -48,7 +48,7 @@ Sumir valreitir fara eftir stillingum á **síðunni Birgðageymsluspjald** til 
 
 Hægt er að breyta uppsetningu staðsetninga síðar en ekki er hægt að breyta uppsetningu staðsetninga sem hafa birgðafærslur.  
 
-Ef þú ert með marga staði getur þú skilgreint flutningsleiðir á milli birgðageymslna. Frekari upplýsingar er að finna [í til að stofna flutningsleið](inventory-how-setup-locations.md#to-create-a-transfer-route). 
+Ef þú ert með marga staði getur þú skilgreint flutningsleiðir á milli birgðageymslna. Frekari upplýsingar er að finna [í til að stofna flutningsleið](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### <a name="to-create-a-transfer-route"></a>Flutningsleið búin til
 
@@ -79,7 +79,7 @@ Hins vegar er hægt að velja að setja bara upp eitt svæði og skipuleggja vö
 ## <a name="default-dimensions-for-locations"></a>Sjálfgefnar víddir staðsetningar
 Settar eru **upp sjálfgefnar víddir fyrir staðsetningu á síðunni Birgðageymsluspjald** með því að velja **víddir**. Eftir sem áður er sjálfgefnum víddum staðsetningar úthlutað á skjöl þegar valin er birgðageymslan í línu. Ef þörf krefur er hægt að eyða eða breyta víddinni í línunni. **Í reitnum gildisbókun** er hægt að krefjast þess að fólk tilgreini víddir staðsetningar áður en hægt er að bóka færslu. Ef ætlunin er að leyfa fólki að velja aðeins tilteknar víddarvaldar er hægt að tilgreina þær í **reitnum leyfð gildi**. Einnig er hægt að taka með víddargildi staðsetningarvídda á **síðunni Forgangur** sjálfgefinnar víddar og fyrir samsetningar af forgangi og víddarreglum á **síðunni víddir vídda**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -88,9 +88,8 @@ Settar eru **upp sjálfgefnar víddir fyrir staðsetningu á síðunni Birgðage
 [Stofna hólf](warehouse-how-to-create-individual-bins.md)  
 [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772455"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530190"
 ---
 # <a name="business-central-learning-catalog"></a>Business Central námskrá
 
@@ -24,9 +24,9 @@ Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutver
 
     Ákvarðar þú hvort það eigi að fjárfesta í nýrri tækni? 
 
-    [Kynnið ykkur viðskiptagildi Business Central (ókeypis námsleið á netinu á eigin hraða)](/learn/modules/dynamics-365-business-central/)
+    [Lærðu viðskiptaleg verðmæti á viðskiptamiðinu (frjálst, sjálfpakkandi námslóð á netinu)](/training/modules/dynamics-365-business-central/)
 
-    [Hafist handa (ókeypis námsleið á netinu á eigin hraða)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Hafist handa (frjálst, sjálfpökkuð námslóð á netinu)](/training/paths/get-started-dynamics-365-business-central/)
 
     [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/)
 
@@ -40,9 +40,9 @@ Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutver
 
     Fékkstu einfaldlega nýtt forrit til að nota? 
 
-    [Hafist handa (ókeypis námsleið á netinu á eigin hraða)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Hafist handa (frjálst, sjálfpökkuð námslóð á netinu)](/training/paths/get-started-dynamics-365-business-central/)
 
-    [Business Central námsleiðir (ókeypis námsleið á netinu á eigin hraða)](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+    [Viðskiptafræði aðalnámskrá (frjáls, sjálfstyrking á netinu á námsleiðum)](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 
     [Business Central myndbönd á YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
@@ -58,7 +58,7 @@ Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutver
 
     Þarftu að skrifa kóða til að samþættast við önnur gögn, víkka virkni grunnkerfisins eða byggja flókið forrit?
 
-    [Business Central námsleiðir (ókeypis námsleið á netinu á eigin hraða)](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
+    [Viðskiptafræði aðalnámskrá (frjáls, sjálfstyrking á netinu á námsleiðum)](/training/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
 
     [Fylgiskjöl forritunar](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 
@@ -70,7 +70,7 @@ Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutver
     
     Ert þú sérfræðingur fyrirtækjaléns? 
 
-    [Business Central námsleiðir (ókeypis námsleið á netinu á eigin hraða)](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
+    [Viðskiptafræði aðalnámskrá (frjáls, sjálfstyrking á netinu á námsleiðum)](/training/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
 
     [Business Central myndbönd á YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 

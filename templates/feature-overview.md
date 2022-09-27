@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/05/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 5ff9d51f0f1b05436aff60b870915a5410baaef3
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: ccb4d451841c6f9dc41e7837ea768f0d77f7895f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311288"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533456"
 ---
 # <a name="achieve-some-task-or-get-the-overview-in-max-100-characters"></a>Náðu í verkefni eða fáðu yfirsýn í hámark 100 stafir
 
 Flott kynningu á getu með fullt af vinsælum orðum. Notaðu [!INCLUDE [prod_short](includes/prod_short.md)] fyrir afurðarheitið og skrifaðu í virkum setningum á borð við „Klára verkið hraðar“ og „Með þessum möguleika getur þú blabla“.  
 
-Ábendingar um MarkDown og stíl er að finna í [Leiðbeiningar fyrir Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Fyrir ábendingar um MarkDown og Style er að finna [Leiðbeiningar fyrir höfunda Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Munið að bæta einnig við Sjá einnig tenglum, og bæta nýju greininni við TOC.md skrána.  
 

@@ -10,12 +10,12 @@ ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 29f66fae0413bb0f8a757cfceedce8e0504e8686
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 1d246e342d286e75da5aacaf1e6a305c5d0559e4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362276"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534643"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Skilningur á fjárhag og bókhaldslyklum
 
@@ -95,7 +95,7 @@ Næst þegar fjárhagsskemu eru mynduð birtist stöðuyfirlitið í eftirfarand
 
 Í litlu fyrirtæki, eins og CRONUS sýnifyrirtækinu, geta flestir notendur ritstýra bókhaldslyklinum. Nema notendum með leyfi TEYMISMEÐLIM. Stærri stofnanir nota hins vegar yfirleitt hlutverk og heimildir til að takmarka aðgang að ritfærslulyklum. Ef þú ert kerfisstjóri, eða ert með **hlutverk Viðskiptastjóra** eða **endurskoðanda**, getur þú stýrt notendaleyfi til að veita réttum einstaklingum aðgang að viðkomandi töflum. Frekari upplýsingar er að finna í [Að fá yfirlit yfir leyfi notanda](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/business-central-configure-general-ledger-setup/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

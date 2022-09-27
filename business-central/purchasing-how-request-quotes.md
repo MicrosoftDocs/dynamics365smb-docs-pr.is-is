@@ -10,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 6444b795bf95b4da45d5d09bd6d6b7d5177c277a
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
+ms.openlocfilehash: 113e562a6d8f5b29df6ff2800cc93a151a1d57e8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461130"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532593"
 ---
 # <a name="request-quotes"></a>Biðja um tilboð
 
@@ -37,7 +37,7 @@ Innkaupabeiðnin er fjarlægt úr gagnagrunninum. Innkaupapöntun er stofnuð sa
 > [!NOTE]
 > Ekki er hægt að umbreyta innkaupatilboði í innkaupareikning beint eins og það er hægt með sölutilboðum. Upplýsingar um það hvernig eigi að stofna innkaupareikning eru lesnar til að lesa [færslukaup með innkaupareikningum](purchasing-how-record-purchases.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun kl [Microsoft Learn](/learn/modules/create-purchase-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/learn/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Sjá einnig .
 
