@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520995"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585865"
 ---
 # <a name="use-dynamics-365-sales-from-business-central"></a>Nota Dynamics 365 Sala frá Viðskiptamiðinu
 Ef þú notar Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[prod_short](includes/prod_short.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
@@ -76,7 +76,7 @@ Einnig er hægt að umbreyta handvirkt innsendum sölupöntunum úr [!INCLUDE[cr
 
 Ef lýsingin á vörunni í upprunalegu sölupöntuninni er löng er stofnuð ný sölupöntunarlína af gerðinni **Athugasemd** til þess að rúma allan texta sölupöntunarinnar í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Uppfærslur á reitum sölupöntunarhausa, t.d. reitiri fyrir síðustu sendingardagsetningu eða umbeðinn afhendingardag, sem er varpað í **SÖLUPÖNTUN-PÖNTUN** vörpun samþættingartöflu eru samstilltar reglubundið í [!INCLUDE[crm_md](includes/crm_md.md)]. Ferli eins og losun á sölupöntun og afhendingu eða reikningsfærslu á sölupöntun eru bókuð á tímalínu sölupöntunar í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Kynning á aðgerðastraumum](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Uppfærslur á reitum sölupöntunarhausa, t.d. reitiri fyrir síðustu sendingardagsetningu eða umbeðinn afhendingardag, sem er varpað í **SÖLUPÖNTUN-PÖNTUN** vörpun samþættingartöflu eru samstilltar reglubundið í [!INCLUDE[crm_md](includes/crm_md.md)]. Ferli eins og gefa út, sendingu og reikningsfæra sölupöntun eru bókuð á tímalínu sölupöntunar í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Kynning á aðgerðastraumum](/dynamics365/sales-enterprise/manage-activities). Til að virkja bókun og verkþætti fyrir pantanir í [!INCLUDE[crm_md](includes/crm_md.md)] er að finna [í setja upp aðgangsstýringum til að fá aðgang að upplýsingum um bókanir sérsniðinnar einingar](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) í þátttöku í upplýsingamerki viðskiptavina. Með greininni er átt við þátttöku viðskiptavina innanhúss en skrefin eru þau sömu fyrir netútgáfuna. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > Reglubundin samstilling sem byggir á **SALESORDER-ORDER** samþættingartaflavörpun virkar aðeins þegar samþætting sölupöntunar er virkjuð. Frekari upplýsingar er að finna í [Tengistillingar á uppsetningarsíðu Sales-tengingar](admin-prepare-dynamics-365-for-sales-for-integration.md). Aðeins sölupantanir búnar til úr innsendum sölupöntunum í [!INCLUDE[crm_md](includes/crm_md.md)] eru samstilltar. Frekari upplýsingar er að finna í [Virkja sölupöntunarferli samþættingar](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).

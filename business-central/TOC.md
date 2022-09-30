@@ -113,8 +113,11 @@
 ## Flýtiræsingar
 ### [Stuttir leiðarvísar Business Central](quick-start-business-central.md)
 ### [Setja upp upplýsingar um fyrirtæki](quick-start-company-information.md)
+### [Færa inn fjárhagslegar upplýsingar](quick-start-financial-information.md)
 ### [Selja vörur og þjónustu](quick-start-sell-products-and-services.md)
 ### [Kaupa vörur og þjónustu](quick-start-procurement.md)
+### [Sérsníða og prenta skýrslur og skjöl](quick-start-reports-and-documents.md)
+### [Fá innsýn með viðskiptagreind](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Fá afkvæmi í Viðskiptamiðinu
@@ -239,13 +242,13 @@
 ### Verkflæði
 #### [Yfirlit yfir verkflæði](across-workflow.md)
 #### [Nota Viðskiptamiðað í Power Automate streymi](across-how-use-financials-data-source-flow.md)
-#### Nota verkflæði
-##### [Nota verkflæði](across-use-workflows.md)
-##### [Virkja verkflæði](across-how-to-enable-workflows.md)
-##### [Nota Samþykktarverkflæði](across-how-use-approval-workflows.md)
+#### Nota Samþykktarverkflæði
+##### [Nota samþykktarverkflæði](across-use-workflows.md)
+##### [Virkja samþykktarverkflæði](across-how-to-enable-workflows.md)
+##### [Hvernig nota á samþykktarverkflæði](across-how-use-approval-workflows.md)
 ##### [Takmarka og heimila notkun á færslu](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md)
-##### [Eyða verkflæðum](across-how-to-delete-workflows.md)
+##### [Eyða samþykktarverkflæði](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Skiptast á gögnum rafrænt
 #### [Yfirlit OData Exchange](across-data-exchange.md)
@@ -1585,11 +1588,11 @@
 #### [Setja upp samþykktarverkflæði](across-set-up-workflows.md)
 #### [Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)
 #### [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)
-#### [Tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)
+#### [Tilkynningar um samþykktarverkflæði](across-setting-up-workflow-notifications.md)
 #### [Tilgreina hvenær og hvernig eigi að taka á móti Verkflæðistilkynningum](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Búa til verkflæði](across-how-to-create-workflows.md)
+#### [Stofna samþykktarverkflæði](across-how-to-create-workflows.md)
 #### [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Flytja verkflæði inn og út](across-how-to-export-and-import-workflows.md)
+#### [Flytja samþykktarverkflæði út og flytja út](across-how-to-export-and-import-workflows.md)
 #### [Walkthrough: setja upp og nota Innkaupasamþykktarverkflæði](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Setja upp tengingar
@@ -1626,7 +1629,7 @@
 ###### [Notaðu starfsemi miðlægu apps í Power BI](across-powerbi-business-central-apps.md)
 ##### [Algengar spurningar](power-bi-faq.md)
 #### Notkun Power Automate með Viðskiptaseðla-
-##### [Nota Viðskiptamiðað í Power Automate streymi](across-how-use-financials-data-source-flow.md)
+##### [Nota Power Automate flæði í Viðskiptamiðinu](across-how-use-financials-data-source-flow.md)
 ##### [Úrræðaleit vegna sjálfvirkra verkflæða](across-flow-troubleshoot.md)  
 #### Notkun Power Apps með Viðskiptaseðla-
 ##### [Tenging við aðalgögn fyrirtækisins til að byggja upp fyrirtæki App use Power Apps](across-how-use-financials-data-source-powerapps.md)

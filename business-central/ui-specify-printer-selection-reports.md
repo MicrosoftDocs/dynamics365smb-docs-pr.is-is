@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 8915015f015642a85439fbdd5511271b06a8358f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
+ms.openlocfilehash: c1b55f213ad738deb03a5f13afccbc8f4bac10b2
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531297"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585703"
 ---
 # <a name="set-up-printers"></a>Setja upp prentara
 
@@ -135,7 +135,7 @@ Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með 
 
 Nú er hægt að bæta prenturunum við [!INCLUDE[prod_short](includes/prod_short.md)], setja upp sjálfgefna prentara fyrir skýrslur og prenta.  
 
-### <a name="add-universal-printer-printers-to-business-central"></a>Bæta prenturum skýjaprentunar við Business Central
+### <a name="add-universal-print-printers-to-business-central"></a>Bæta við Universal PRINT prenturum yfir í Business Central
 
 Þegar prentarar hafa verið settir upp og þeim deilt í skýjaprentun verður hægt að bæta þeim við Business Central til að nota. Til eru tvær leiðir til að bæta við prenturum skýjaprentunar. Hægt er að bæta öllum prenturum við í einu eða einum í einu.
 

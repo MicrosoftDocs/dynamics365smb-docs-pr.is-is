@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að Eyða verkflæðum
+title: Hvernig á að eyða samþykktarverkflæði
 description: Ef þú ert viss um að verkflæði sé ekki lengur í notkun er hægt að eyða því. Öll tilvik verkflæðisskrefa sem eru skilgreind í verkflæði verða að hafa stöðuna **Lokið**.
 author: SorenGP
 ms.topic: conceptual
@@ -7,41 +7,44 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.search.form: 1500,
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2243b6e79f087d505c179bb3b1932aa8d2491339
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: e93adde3ffdc520433df26f5735d021d5b64bf19
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129957"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585595"
 ---
-# <a name="delete-workflows"></a>Eyða verkflæðum
+# <a name="delete-approval-workflows"></a>Eyða samþykktarverkflæði
 
-Ef þú ert viss um að verkflæði sé ekki lengur í notkun er hægt að eyða því. Öll verkflæðistilvik sem eru skilgreind í verkflæði verða að hafa stöðuna **Lokið**.  
+Ef eitthvert verkflæði er ekki lengur í notkun er hægt að eyða því. Öll tilvik verkflæðisskrefa sem skilgreind eru í verkflæðinu verða að hafa **stöðuna Lokið**.
 
-> [!CAUTION]  
-> Þegar verkflæði er eytt munu allar upplýsingar verkflæðisins glatast.  
+> [!CAUTION]
+> Þegar verkflæði er eytt tapast allar upplýsingar í verkflæðinu.
 
-Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  
+Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Verkflæðisskrefum er skilgreint með því að fylla út reiti í verkflæðislínum með því að nota fasta lista yfir tilvik og svargildi sem tákna áætlanir sem styðja með forritskóta Frekari upplýsingar um [stofnun Samþykktarverkflæðis](across-how-to-create-workflows.md).
 
-## <a name="to-delete-a-workflow"></a>Að eyða verkflæði
+## <a name="delete-a-workflow"></a>Eyða verkflæði
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
-2. Veljið verkflæði sem á að eyða.  
-3. Velja skal aðgerðina **Eyða**.  
-4. Að öðrum kosti er hægt að opna það verkflæði sem á að eyða.  
-5. Á síðunni **Verkflæði** skal velja aðgerðina **Eyða**.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **verkflæði** og velja síðan tengdan tengil.
+2. Veljið verkflæðið sem á að eyða.
+3. Velja skal aðgerðina **Eyða**.
+4. Að öðrum kosti er hægt að opna verkflæðið sem á að eyða.
+5. Á síðunni **Verkflæði** skal velja aðgerðina **Eyða**.
+
+> [!NOTE]
+> Ef verkflæði er eytt þarf það að vera óvirkt. Ef gera á verkflæði óvirkt er það opnað á **síðunni verkflæði** og síðan er slökkt á **virkjunni** skipta.
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Búa til verkflæði](across-how-to-create-workflows.md)  
-[Virkja verkflæði](across-how-to-enable-workflows.md)  
+[Stofna samþykktarverkflæði](across-how-to-create-workflows.md)  
+[Virkja samþykktarverkflæði](across-how-to-enable-workflows.md)  
+[Nota samþykktarverkflæði](across-use-workflows.md)  
 [Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md)  
 [Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Uppsetning verkflæðis](across-set-up-workflows.md)  
-[Nota verkflæði](across-use-workflows.md)  
+[Uppsetning Samþykktarverkflæðis](across-set-up-workflows.md)  
 [Verkflæði](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

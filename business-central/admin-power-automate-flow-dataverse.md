@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
-ms.translationtype: HT
+ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524506"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585892"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Power Automate Nota flæði fyrir viðvaranir við Dataverse einingarbreytingar
 
@@ -54,11 +54,14 @@ Kerfisstjórar geta búið til sjálfvirkt flæði í Power Automate því tilky
 Gögn eru samstillt á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] í gegnum samþættingarnotandareikning. Til að hunsa breytingarnar sem Samstillingin býr til þarf að stofna skilyrði skref í flæði sem útilokar breytingar á notandareikning samþættingarins.  
 
 1. **Bæta við færðu línu eftir auðkenni frá Dataverse** skrefi á eftir flæðikveikjunni með eftirfarandi stillingum. Frekari upplýsingar er að finna [í fá röð eftir kenni Dataverse](/power-automate/dataverse/get-row-id).
+
     1. **Í reitnum töfluheiti** er hægt að velja **notendur**
     2. **Í reitnum LÍNUKENNI** er breytt (gildi) **valið** úr flæðigimröðinni.  
+
 2. Bæta við skilyrði skrefi á eftir **eða** stillingum til að auðkenna notandareikninginn samþættingarlykil.
     1. Aðalnetfang notandans er **að finna** contoso.com **·**
     2. Fullt nafn **notanda** inniheldur **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+
 3. Bæta við segja stýringu til að stöðva flæðið ef einingunni var breytt af notandareikninginn sameining.
 
 Eftirfarandi mynd sýnir hvernig á að skilgreina flæðikveikjuna og flæðiskilyrðin.
@@ -73,6 +76,7 @@ Ef rennslið er ekki stöðvað af skilyrðinu verður að tilkynna [!INCLUDE[pr
 2. Aðgerðin stofna færslu (v3) **er** valin.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Stillingar fyrir [!INCLUDE[prod_short](includes/prod_short.md)] tengibúnað":::
+
 3. **Notaðu Assist breytingarhnappinn (...)** í efra hægra horninu til að bæta tengingunni við [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Við tengingu skal fylla út **reitina heiti** umhverfis og **fyrirtækis**.
 5. **Í API-tegundarsvæðinu** er fært inn **Microsoft/dataverse/v 1.0**.
@@ -87,7 +91,8 @@ Eftirfarandi mynd sýnir hvernig áklæði á að líta út.
 Þegar lykli er bætt við, eytt eða breytt er í [!INCLUDE [cds_long_md](includes/cds_long_md.md)] umhverfi mun þetta flæði gera eftirfarandi aðgerðir:
 
 1. Kalla á [!INCLUDE[prod_short](includes/prod_short.md)] umhverfið sem tilgreint var í [!INCLUDE[prod_short](includes/prod_short.md)] tengivirkinu.
-2. [!INCLUDE[prod_short](includes/prod_short.md)] Nota API til að setja inn færslu með **einingarheitinu** sem á að **lykla** í **Dataverse töflunni færslubreyting**. 3. [!INCLUDE[prod_short](includes/prod_short.md)] ræsum vinnslu færslunnar sem samstillir viðskiptamenn með lykla.
+2. [!INCLUDE[prod_short](includes/prod_short.md)] Nota API til að setja inn færslu með **entityname** **-lykli** í **Dataverse töfluna færslubreyting**. Þessi færibreyta er nákvæmt heiti Dataverse einingarinnar sem verið er að búa til flæðið fyrir.
+3. [!INCLUDE[prod_short](includes/prod_short.md)] ræsum vinnslu færslunnar sem samstillir viðskiptamenn með lykla.
 
 ## <a name="see-also"></a>Sjá einnig
 
