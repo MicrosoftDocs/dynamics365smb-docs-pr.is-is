@@ -1,26 +1,27 @@
 ---
 title: Fjárhagsskýrslur og greiningar
-description: Finnið út hvaða fjárhagsskýrslur eru í boði í staðlaðri útgáfu Business Central til að halda utan um reksturinn. Notið skýrslu 38 fyrir hagnað/tap (P & L) skýrslugerð.
+description: Sjáðu hvaða ársskýrslur og greinaskil eru í boði í staðlaðri útgáfu Viðskiptamiðlags þannig að þú getir fylgst með viðskiptunum. Notið skýrslu 38 fyrir hagnað/tap (P & L) skýrslugerð.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
-ms.date: 04/12/2021
+ms.date: 08/24/2022
 ms.author: edupont
-ms.openlocfilehash: 7e9ad9fa80a4690439b34abe2ccf65d84ed714ca
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 8838569a1077a5c9befc1ab11daab49432563d3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529218"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605084"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Fjárhagsskýrslur og greiningar í Business Central
 
-Fjárhagsskýrslugerð fyrir [!INCLUDE [prod_short](includes/prod_short.md)] gerir fjármála og viðskiptafagfólk kleift að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum. [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur nokkrar skýrslur, rakningaraðgerðir og verkfæri sem aðstoða endurskoðendur eða stjórnendur sem bera ábyrgð á skýrslugjöf til fjármáladeildarinnar. Fjárhagsskýrslugerð felur í sér stuðning fyrir víddir, þannig að lyklahlutar eða víddir séu strax í boði. Engin verkfæri til viðbótar eða skilgreiningarskref eru nauðsynleg.  
+Fjárhagsskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gefur fjármála-og viðskiptasérfræðingum vald til að stofna, viðhalda, dreifa og skoða ársreikninga. Fer umfram hefðbundnar skýrslugjafar að hjálpa til við skilvirkari hönnun ýmsar gerðir skýrslna. [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur nokkrar skýrslur, rakningaraðgerðir og tól til að aðstoða endurskoðendur eða ráðamenn sem bera ábyrgð á skýrslugerð til fjármáladeildarinnar. Fjárhagsskýrsla felur í sér stuðning við víddir, svo að lykilhlutar eða víddir séu tiltæk strax; Ekki er þörf á öðrum verkfærum eða skilgreiningarskrefum.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
 ## <a name="reports"></a>Skýrslur
+
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Verkefni
@@ -28,8 +29,8 @@ Fjárhagsskýrslugerð fyrir [!INCLUDE [prod_short](includes/prod_short.md)] ger
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Greina raunverulegar og áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md)  
-* [Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)  
-* [Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Undirbúa fjárhagsskýrslugerð með fjárhagslegum gögnum og lykilflokkum](bi-how-work-account-schedule.md)  
+* [Setja upp og birta KPMG-vefþjónustu byggða á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
 * [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)  
 * [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
 * [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)  

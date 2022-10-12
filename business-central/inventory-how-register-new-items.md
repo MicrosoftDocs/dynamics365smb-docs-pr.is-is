@@ -1,6 +1,6 @@
 ---
 title: Búa til Vöruspjöld fyrir vörur eða þjónustu (inniheldur Video)
-description: Þú býrð til spjöld fyrir þjónustu sem þú selur sem klukkutíma og fyrir efnislegar vörur eins og t.d. samsetningaríhlutir, fullunnar vörur sem þú selur úr birgðum.
+description: Þú stofnar vöruspjöld fyrir þjónustur sem þú selur í eins og klukkustundum og fyrir efnislegar vörur. Dæmi eru um samsetninguna vörur og tilbúnar vörur sem eru seldar úr birgðum.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
+ms.date: 09/26/2022
 ms.author: edupont
-ms.openlocfilehash: 7af83072b6b20ba9b56c06c0fb7321707a425776
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 945197681e32f6d77ede2f1b0e727892a64d8277
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532917"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604949"
 ---
 # <a name="register-new-items"></a>Skrá nýjar vörur
 
@@ -23,19 +23,20 @@ Vörur, ásamt öðrum framleiðsluvörum, eru grundvöllur fyrirtækisins, vör
 
 Birgðaspjald inniheldur upplýsingarnar sem þarf til að kaupa, selja, geyma og tilkynna vörur.
 
-Birgðaspjaldið getur verið af gerðinni **Birgðir**, **Þjónusta** eða **Ekki birgðir** til að tilgreina hvort vara er raunbirgðaeining, launatímaeining eða efnisleg eining sem ekki er rakin í birgðum. Nánari upplýsingar er að finna í [Um vörugerðir](inventory-about-item-types.md).
+Birgðaspjald getur verið af gerðinni **Birgðir**, **þjónusta** eða **ekki birgðir** til að tilgreina hvort varan er efnisleg Birgðaeining, Vinnueining eða efnisleg eining sem er ekki rakin í birgðum. Nánari upplýsingar er að finna í [Um vörugerðir](inventory-about-item-types.md).
 
-Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu í uppskrift. Í [!INCLUDE[prod_short](includes/prod_short.md)] getur uppskrift verið annað hvort framleiðsluuppskrift eða samsetningaruppskrift, út frá notkun. Nánari upplýsingar er að finna í [Vinna með uppskrift.](inventory-how-work-BOMs.md)
+Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu í uppskrift. Fræðast meira um samsetningaruppskriftir og framleiðsluuppskriftir í [vinnunni með uppskriftum](inventory-how-work-BOMs.md).
 
 Ef sama varan er keypt frá fleiri en einum lánardrottni, er hægt að tengja þessa lánardrottna við birgðaspjaldið. Lánardrottnarnir munu þá birtast á síðunni **Vörulisti lánardrottins**, þannig að þú getir auðveldlega valið annan lánardrottin.
 
-Vörur sem þú býður viðskiptamönnum þínum en þú vilt ekki stjórna í kerfinu þínu fyrr en þú byrjar að selja þær er hægt að setja upp sem vörulistaatriði. Vörulistaatriðum skal ekki rugla saman við venjulegar vörur af gerðinni **Engar birgðir**. Nánari upplýsingar er að finna í [Vinna með vörulistaatriði](inventory-how-work-nonstock-items.md).  
+*Vörulistavörur* eru vörur sem þú býður viðskiptavinum þínum en þú vilt ekki stjórna þeim í kerfinu fyrr en þú byrjar að selja þær. Vörulistavörur eru ekki venjuleg vara af gerðinni **ekki birgðastöð**. Frekari upplýsingar í [vinnu við vörulistavörur](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > Ef vörusniðmát er til fyrir mismunandi vörutegundir, þá birtist síða þar sem búið er til nýtt birgðaspjald og hægt er að velja viðeigandi sniðmát. Ef aðeins eitt vörusniðmát er fyrir hendi, nota ný birgðaspjöld alltaf það sniðmát.
 
 Eftirfarandi ferli skýrir hvernig á að búa til birgðaspjald frá grunni. Einnig er hægt að búa til ný birgðaspjöld með því að afrita birgðaspjald sem þegar er til staðar. Frekari upplýsingar er að finna í [Afrita fyrirliggjandi vörur í Búa til nýjar vörur](inventory-how-copy-items.md).  
 
+<br />
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Að búa til nýtt vöruspjald
@@ -59,13 +60,13 @@ Ef nota á þetta birgðaspjald sem sniðmát þegar ný birgðaspjöld eru búi
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Til að endurnota víddir í sniðmátum, veljið aðgerðina **Víddir**. Síðan **Víddarsniðmát** opnast og sýnir alla víddarkóða sem settir eru upp fyrir vöruna.
 4. Breyta eða færa inn víddarkóta sem munu gilda fyrir ný birgðaspjöld sem stofnuð eru með sniðmátinu.
-5. Þegar lokið hefur verið við nýja vörusniðmátið skal velja hnappinn **Í lagi**.
+5. Þegar þú hefur lokið nýju vörusniðmátinu skaltu velja hnappinn í **lagi**.
 
 Vörusniðmátinu verður bætt við lista vörusniðmáta þannig að hægt er að nota það til að búa til ný birgðaspjöld.
 
 ### <a name="items-used-in-production-orders"></a>Vörur notaðar í framleiðslupöntunum
 
-Ef skrá á vörur sem eru svo notaðar í framleiðslupöntunum er áfyllingarkerfið tilgreint sem *Framl. pöntun* á flipanum **Áfylling**. Frekari upplýsingar eru í [Um framleiðslupantanir](production-about-production-orders.md).  
+Ef óskað er eftir að skrá vörur sem eru notaðar í framleiðslupöntunum er áfyllingarkerfið sem *framl. pöntun á* fastaflipanum **Áfylling** tilgreint. Frekari upplýsingar eru í [Um framleiðslupantanir](production-about-production-orders.md).  
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Margir lánardrottnar settir upp fyrir vörur
 
@@ -82,17 +83,17 @@ Lánardrottnarnir munu nú birtast á síðunni **Vörulisti lánardrottins**, s
 
 ## <a name="set-up-item-substitutions"></a>Setja upp staðgengilsvörur
 
-Þú getur sett upp staðgengilsvörur, svo sem aðrar vörur sem hægt er að nota í staðinn fyrir upprunalegu vöruna.
+Hægt er að setja upp vörur til að hafa skiptiaðgerðir eins og aðrar vörur sem hægt er að nota í stað upprunalegu vörunnar.
 
 ### <a name="to-make-an-item-substitution"></a>Til að búa til staðgengilsvöru:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
-2. Finndu viðeigandi vöru og smelltu síðan á **Vörunúmer** til að opna vöruspjaldið.  
-3. Veljið aðgerðina **Tengt**, síðan **Vara** og svo **Staðgenglar** að opna aðgerðina á síðu staðgengilsvörufærslu.  
+2. Viðeigandi vara er fundin og síðan er **valið Vörunr.**  
+3. **Tengdar aðgerðir eru valdar og síðan er valið** Vara **og síðan** skipt út til að opna **færslusíðu** vörustaðgengilstengingar **·**.  
 4. Veljið **Nr. staðgengilsvöru** og svo skiptivöru af listanum.
-5. Farið í að fylla út eða breyta öðrum reitum á síðunni eftir þörfum.
+5. Fyllið út eða breyið öðrum reitum á síðunni eftir þörfum.
 
-Þegar magnið sem beðið er um, svo sem í sölulínu, er meira en magnið sem er tiltækt í birgðum þá birtast skilaboð sem að tilkynna að staðgengilsvörur séu til.
+Þegar Umbeðið magn er meira en magnið sem er tiltækt í birgðum birtast skilaboð um að staðgengilsvörur séu til.
 
 > [!NOTE]  
 > Athugaðu að staðgengilsvörur valda ekki sjálfkrafa því að vöru sé skipt út fyrir aðra vöru, til dæmis þegar sölupöntun er stofnuð eða í uppskrift. Þess í stað verður þér gert viðvart um að staðgengilsvara standi til boða.
@@ -101,15 +102,17 @@ Lánardrottnarnir munu nú birtast á síðunni **Vörulisti lánardrottins**, s
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
+Frekari upplýsingar um afbrigði í [Umsjón afurðarafbrigða](inventory-item-variants.md).  
+
 ## <a name="deleting-item-cards"></a>Eyða birgðaspjöldum
 
-Ef þú hefur bókað færslu fyrir vöru er ekki hægt að eyða spjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar birgðirverðmat eða endurskoðun. Til að eyða birgðaspjöldum með fjárhagsfærslum skaltu hafa samband við samstarfsaðila Microsoft til að gera það í gegnum kóða.  
+Ef færsla hefur verið bókuð fyrir vöru er ekki hægt að eyða spjaldinu þar sem þörf kann að vera á birgðamati eða endurskoðun. Til að eyða birgðaspjöldum með fjárhagsfærslum skaltu hafa samband við samstarfsaðila Microsoft til að gera það í gegnum kóða.  
 
 ## <a name="manage-inventory-in-warehouses"></a>Stjórna birgðum í vöruhúsum
 
-Þegar ný vara er skráð munu reitir sjást sem tengjast vöruhúsakerfinu, sérstaklega í flýtiflipanum **Vöruhús**. Ef fyrirtækið notar ekki möguleika vöruhúsakerfisins í [!INCLUDE [prod_short](includes/prod_short.md)], þá má sleppa þessum reitum.  
+Þegar ný vara er skráð er hægt að sjá svæði sem eru tengd vöruhúsastjórnun, sérstaklega á **fastflipanum vöruhús**. Ef fyrirtækið notar ekki getu til að nota vöruhúsastjórnun í [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að hunsa þau svæði.  
 
-Ef fyrirtækið setur síðar upp vöruhúsastjórnun skal í flestum tilfellum fara aftur í hverja fyrirliggjandi vöru til að ganga úr skugga um að þær séu með réttar upplýsingar í hinum ýmsu reitum svo hægt sé að keyra vöruhúsakerfisferla eins og vænst er. Þessar upplýsingar geta falið í sér reiti á borð við **Kóði vöruhúsaflokks** eða **Kóði frágangssniðmáts**. Nánari upplýsingar eru í [Upplýsingar um hönnun: Uppsetning vöruhúss](design-details-warehouse-setup.md).  
+Ef fyrirtækið setur síðar upp vöruhúsastjórnun er mælt með því að gengið sé úr skugga um að hver núverandi vara hafi réttar upplýsingar í hinum ýmsu reitum. Þannig geta vöruhúsaferlarnir keyrt eins og til er ætlast. Upplýsingarnar geta haft svæði eins og **kóta vöruhúsaflokks** eða **kóta** frágangssniðmáts. Nánari upplýsingar eru í [Upplýsingar um hönnun: Uppsetning vöruhúss](design-details-warehouse-setup.md).  
 
 ## <a name="planning"></a>Áætlun
 
@@ -123,7 +126,8 @@ Til að sjá dæmi um hvernig hægt er að nota reitina í flýtiflipanum **Áæ
 
 [Birgðir](inventory-manage-inventory.md)  
 [Setja upp mælieiningar](inventory-how-setup-units-of-measure.md)  
-[Tollflokkar](finance-how-setup-report-intrastat.md#tariff-numbers)  
+[Stjórna afurðarafbrigðum](inventory-item-variants.md)  
+[Setja upp Intrastat-skýrslugerð](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Stofnun númeraraða](ui-create-number-series.md)  
 [Uppsetning bókunarflokka](finance-posting-groups.md)  
@@ -135,7 +139,7 @@ Til að sjá dæmi um hvernig hægt er að nota reitina í flýtiflipanum **Áæ
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
 [Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  
 [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

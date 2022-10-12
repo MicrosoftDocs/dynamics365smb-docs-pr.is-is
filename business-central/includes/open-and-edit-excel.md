@@ -1,0 +1,1 @@
+Ef fyrirtækið hefur skilgreint OneDrive fyrir kerfiseiginleika er Excel vinnubók opnuð í vafranum með því að nota Excel fyrir vefinn. Ef þú ert ekki að nota OneDrive fyrir Kerfiseiginleika, þá er vinnubókin sótt í tækið þitt. Þaðan er hægt að opna það með annað hvort Excel Desktop App eða Excel fyrir vefinn, eftir því hvað er í notkun.

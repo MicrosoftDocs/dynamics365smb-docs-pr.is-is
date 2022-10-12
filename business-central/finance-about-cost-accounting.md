@@ -7,22 +7,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
-ms.date: 06/16/2021
+ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 213e7abb6dbfeacb5d095399932be5b6849b3c6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d820ebaa77f05c3c98dd625426fe2e4a07ce18cd
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528385"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606749"
 ---
 # <a name="about-cost-accounting"></a>Um kostnaðarbókhald
 
 Kostnaðarbókhald getur hjálpað til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki. Kostnaðarbókhaldsupplýsingar er gerðar til að greina.  
 
--   Hvers konar kostnaður fylgir rekstri fyrirtækis?  
--   Hvar á kostnaður sér stað?  
--   Hver ber kostnað?  
+- Þær tegundir kostnaðar sem þú hefur af því að reka fyrirtæki  
+- Þar sem kostnaður kemur fram
+- Hver ber kostnaðinn  
 
 Í kostnaðarbókhaldi er raunverulegum og áætluðum kostnaði aðgerða, deilda, afurða og verkefna úthlutað til að greina arðsemi fyrirtækisins.  
 
@@ -30,11 +30,11 @@ Kostnaðarbókhald getur hjálpað til við að kunna skil á kostnaði sem fels
 
 Kostnaðarbókhald hefur eftirfarandi aðalíhluti:  
 
--   Kostnaðartegundir, kostnaðarstaðir og kostnaðarhlutir  
--   Kostnaðarfærslur og kostnaðarbækur  
--   Kostnaðarúthlutanir  
--   Kostnaðaráætlanir
--   Kostnaðarskýrsla  
+- Kostnaðartegundir, kostnaðarstaðir og kostnaðarhlutir  
+- Kostnaðarfærslur og kostnaðarbækur  
+- Kostnaðarúthlutanir  
+- Kostnaðaráætlanir
+- Kostnaðarskýrsla  
 
 Eftirfarandi skýringarmynd sýnir verkflæðið í kostnaðarbókhaldi.  
 
@@ -44,44 +44,43 @@ Eftirfarandi skýringarmynd sýnir verkflæðið í kostnaðarbókhaldi.
 
 Kostnaðartegundir , kostnaðarstaðir og kostnaðarhlutir eru skilgreindir til að greina kostnað, hvaðan hann kemur og hver eigi að bera kostnaðinn.  
 
-Myndrit yfir kostnaðartegundir er skilgreint með skipulagi og virkni sem er svipuð og fjárhagsbókhaldslykill. Hægt er að flytja fjárhagsrekstrarreikning eða stofna eigið myndrit yfir kostnaðartegundir.  
+Fyrst er hægt að skilgreina gerð kostnaðargerða með skipulagi og aðgerðum sem líkjast bókhaldslykli fjárhagslyklinum. Hægt er að stofna þitt eigið graf af kostnaðargerðum eða gera það með því að millifæra á rekstrarreikning fjárhags.  
 
-Kostnaðarstaðir deildir og framlegðarstöðvar sem bera ábyrgð á kostnaði og tekjum. Oft eru fleiri kostnaðarstaðir settir upp í kostnaðarbókhaldi en í hvaða víddum sem er sem settar eru upp í fjárhag. Í fjárhag eru yfirleitt einungis notuð fyrsta stigs kostnaðarstaðir fyrir beinan kostnað og upphaflegan kostnað. Í kostnaðarbókhaldi eru nýir kostnaðarstaðir stofnaðir fyrir ný úthlutunarstig.  
+Kostnaðarstöðum eru deildir og framlegðarmiðstöðvar sem ber ábyrgð á kostnaði og tekjum. Oft eru fleiri kostnaðarstaðir settir upp í kostnaðarbókhaldi en í hvaða víddum sem er sem settar eru upp í fjárhag. Í fjárhag eru yfirleitt einungis notuð fyrsta stigs kostnaðarstaðir fyrir beinan kostnað og upphaflegan kostnað. Í kostnaðarbókhaldi eru nýir kostnaðarstaðir stofnaðir fyrir ný úthlutunarstig.  
 
-Kostnaðurhlutir eru afurðir, afurðaflokkar eða þjónustur fyrirtækis. Þetta eru fullbúnar vörur fyrirtækis sem bera kostnaðinn.  
+Kostnaðarhlutir eru afurðir, Vöruflokkar eða þjónusta sem fyrirtæki býður upp á. Þetta eru "tilbúnar vörur" hjá fyrirtæki sem bera kostnaðinn.  
 
-Hægt að er að tengja kostnaðarstaði við deildir og kostnaðaríhluti við verk í fyrirtækinu. Hins vegar er hægt að tengja kostnaðarstaði og kostnaðarhluti við hvaða víddir í fjárhag sem er og bæta samtölum og titlum við þá.  
+Hægt að er að tengja kostnaðarstaði við deildir og kostnaðaríhluti við verk í fyrirtækinu. Í gegnum fjárhaginn er hægt að tengja kostnaðarstöðvar og kostnaðarhluti við allar víddir og viðbót við þær upplýsingar með millisamtölum og titlum.  
 
 ## <a name="cost-entries-and-cost-journals"></a>Kostnaðarfærslur og kostnaðarbækur
 
-Hægt er að flytja rekstrarkostnað frá fjárhag. Hægt er að flytja kostnaðarfærslur úr fjárhag sjálfkrafa í kostnaðarfærslur með hverri bókun. Einnig er hægt að nota keyrslu til að flytja fjárhagsfærslur í kostnaðarfærslur á grundvelli daglegra eða mánaðarlegra færslna.  
+Hægt er að flytja rekstrarkostnað frá fjárhag. Hægt er að flytja kostnaðarfærslur úr fjárhag sjálfkrafa í kostnaðarfærslur með hverri bókun. Einnig er hægt að nota runuvinnslu til að flytja fjárhagsfærslur í kostnaðarfærslur sem byggðar eru á daglegum eða mánaðarlegum samantektarbókunum.  
 
 Í kostnaðarbókum er hægt að bóka kostnað og aðgerðir sem ekki koma úr fjárhag og sem myndast almennt ekki með úthlutun. Til dæmis er hægt að bóka hreinan rekstrarkostnað, innri gjöld, úthlutanir og leiðréttingarfærslur milli kostnaðartegunda, kostnaðarstaða og kostnaðarhluta í sitthvoru lagi eða með reglulegu millibili.  
 
 ## <a name="cost-allocations"></a>Kostnaðarúthlutanir
 
-Úthlutanir færa kostnað og tekjur milli kostnaðartegund, kostnaðarstaða og kostnaðarhluta. Sameiginlegur kostnaður er fyrst bókaður á kostnaðarstaði og síðan gjaldfærður á kostnaðarhluti. Til dæmis gæti þetta verið gert í söludeild sem selur nokkrar afurðir samtímis. Hægt er að úthluta beinum kostnaði beint til kostnaðarliðar, t. d. efni sem keypt er fyrir tiltekna vöru.  
+Úthlutanir færa kostnað og tekjur milli kostnaðartegund, kostnaðarstaða og kostnaðarhluta. Sameiginlegur kostnaður er fyrst bókaður á kostnaðarstaði og síðan gjaldfærður á kostnaðarhluti. Dæmi um þetta væri söludeild sem selur nokkrar vörur á sama tíma. Rekstrarkostnaður deildarinnar, svo sem laun, vistir og Ferðakostnaður, miðast fyrst og fremst við sölukostnaðarstöðina sem síðan er úthlutað á milli mismunandi framleiðsluhluta (kostnaðarhluti) sem seldir eru ásamt þeim efnum sem keypt eru (Beinn kostnaður) til notkunar í þeim.
 
-Úthlutunarstofninn sem er notaður og nákvæmni úthlutunarskilgreiningar hafa áhrif á niðurstöðu kostnaðarúthlutunar. Úthlutunarskilgreiningin er notuð til að úthluta kostnaði fyrst frá svokölluðum frumkostnaðarstöðum til aðalkostnaðarstaða og síðan frá kostnaðarstöðum til kostnaðarhluta.  
+Úthlutunargrunnurinn sem notaður er og nákvæmni úthlutunarskilgreiningarinnar hefur áhrif á niðurstöður kostnaðarúthlutana. Úthlutunarskilgreiningin er notuð til að úthluta kostnaði fyrst frá svokölluðum frumkostnaðarstöðum til aðalkostnaðarstaða og síðan frá kostnaðarstöðum til kostnaðarhluta.  
 
-Hver úthlutun samanstendur af úthlutunaruppruna og einu eða fleiri úthlutunarmörkum. Hægt er að úthluta raunveruleg gildi eða áætluðum gildum með að nota fasta úthlutunaraðferð sem byggir á ákveðnu gildi, s.s. fermetrum, eða fetum eða skilgreindu úthlutunarhlutfalli 5: 2: 4. Einnig er hægt að úthluta raunverulegum eða áætluðum gildum með kvikri úthlutunaraðferð með níu fyrirframskilgreindum úthlutunargrunnum og 12 kvikum tímabilum.  
+Hver úthlutun samanstendur af úthlutunaruppruna og einu eða fleiri úthlutunarmörkum. Hægt er að úthluta raunverulegum gildum eða áætluðum gildum með fastri úthlutunaraðferð sem byggð er á Óákveðið gildi, til dæmis ferningsmyndefni eða stofnúthlutunarhlutfallinu sem er 5:2:4. Einnig er hægt að úthluta raunverulegum eða áætluðum gildum með kvikri úthlutunaraðferð með níu fyrirframskilgreindum úthlutunargrunnum og 12 kvikum tímabilum.  
 
 ## <a name="cost-budgets"></a>Kostnaðaráætlanir
 
-Hægt er að búa til eins margar kostnaðaráætlanir og þörf er á. Hægt er að afrita kostnaðaráætlun í fjárhagsáætlun og öfugt. Hægt er að flytja áætlaðan kostnað sem raunkostnað.  
+Við gerð fjárhagsáætlana í fjárhag er hægt að stofna fjárhagsáætlanir fyrir kostnað á tilteknu tímabili (fjárhagsári), til dæmis, sem hægt er að nota á kostnaðarstöð (fyrirtækjadeild) eða kostnaðarhlut (vöru eða þjónustu). Hægt er að stofna eins margar kostnaðaráætlanir og þörf krefur. Þá er hægt að afrita kostnaðaráætlun yfir í fjárhag fjárhagsáætlun og öfugt. Og hægt er að flytja áætlaðan kostnað sem raunverulegan kostnað.
 
 ## <a name="cost-reporting"></a>Kostnaðarskýrsla
 
-Flestar skýrslur og talnagögn eru byggð á bókuðum kostnaðurfærslum. Hægt er að stilla röðun niðurstaðna og nota afmarkanir til að skilgreina hvaða gögn þurfi að birta. Hægt er að búa til skýrslur fyrir greiningu kostnaðardreifingar. Ennfremur er hægt að nota stöðluð fjárhagsskemu til að skilgreina hvernig skýrslur fyrir myndrit yfir kostnaðartegundir birtast.  
+Flestar skýrslur og talnagögn eru byggð á bókuðum kostnaðurfærslum. Hægt er að stilla röðun niðurstaðna og nota afmarkanir til að skilgreina hvaða gögn þurfi að birta. Hægt er að búa til skýrslur fyrir greiningu kostnaðardreifingar. Að auki er hægt að nota staðlaðar ársskýrslur til að skilgreina hvernig skýrslur fyrir gerð kostnaðartegunda eru birtar.  
 
 ## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
- [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
- [Fjármál](finance.md)  
- [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)  
- [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Kostnaðarreikningur](finance-manage-cost-accounting.md)  
+[Fjármál](finance.md)  
+[Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

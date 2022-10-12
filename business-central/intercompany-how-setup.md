@@ -10,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7add9cf10ff90ff978c67cf691b2f7e5c6b87bdd
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 32a0005f2ebbc6bfc87c21fed8469c86535e15de
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460860"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607284"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Setja upp bókun millifyrirtækjafærslu
 
@@ -56,6 +56,10 @@ Ef gerðar verða sölufærslur milli fyrirtækja sem innihalda forða þarf að
 
 > [!NOTE]
 > Á [!INCLUDE[prod_short](includes/prod_short.md)] Online er ekki hægt að nota skráarstaðsetningar til að flytja færslur til samstarfsaðila þar sem [!INCLUDE[prod_short](includes/prod_short.md)] hefur ekki aðgang að staðbundna netinu þínu. Ef þú velur **Staðsetning skráar** í reitnum **Flutningsgerð**, er **Möppuslóð** ekki í boði. Þess í stað er skránni hlaðið niður í niðurhalsmöppuna á tölvunni þinni. Þú sendir síðan skrána til einhvers í samstarfsfyrirtækinu, til dæmis í tölvupósti. Við mælum með því að þú notir **Tölvupóstur** í staðinn til að fá beinna samband.
+
+> [!NOTE]
+> Þegar verið **er** að breyta bókun innan samstæðu á **Síðuspjaldi** fyrirtækjakorta [!INCLUDE[prod_short](includes/prod_short.md)] boðar viðvörun um innkaupareikninga sem afrita upprunalegu innkaupapöntunina. Því er mikilvægt að hafa viðskiptaferla til að stjórna tvítekningum. Til dæmis með því að eyða slíkum innkaupapöntunum þegar tekið er á móti innkaupareikningi frá MF-félaga.
+
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Hvernig á að: Setja upp lánardrottna og viðskiptamenn millifyrirtækis
 

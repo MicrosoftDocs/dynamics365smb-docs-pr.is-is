@@ -1,5 +1,5 @@
 ---
-title: Skilgreina framleiðsluferla
+title: Grunnstilling framleiðsluferlis
 description: Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og uppskriftir, leiðir, vélar og starfsmenn á vélum, að vera settur upp í kerfinu.
 author: SorenGP
 ms.topic: conceptual
@@ -9,24 +9,22 @@ ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 45fec99ad6082f8d0bb7258415477df833712b41
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523320"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605766"
 ---
 # <a name="setting-up-manufacturing"></a>Uppsetning framleiðslu
 
 Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og uppskriftir, leiðir, vélar og starfsmenn á vélum, að vera settur upp í kerfinu.
 
-Í kerfinu teljast starfsmenn á vélum og vélar til vélastöðva sem má flokka í vinnustöðvar og vinnustöðvahópa. Þegar þessi forði er þekktur má úthluta á hann aðgerðum samkvæmt skilgreindri uppskrift vörunnar, og leiðarskipulagi, og samkvæmt afkastagetu véla- eða vinnustöðvarinnar. Einnig er hægt að ákvarða afkastagetu hjá hverjum forða. Afkastageta er ákvörðuð út frá tiltækum vinnustundum á hverri véla- og vinnustöð og er stjórnað af dagatölum fyrir hvert stig. Í dagatali vinnustöðvar eru tilgreindir vinnudagar eða -stundir, vaktir, frídagar og fjarvistir sem hafa áhrif á mögulega heildarafkastagetu (oftast mæld í mínútum). Allt er þetta ákvarðað af tilgreindum gildum skilvirkni og getu.  
+Í kerfinu teljast starfsmenn á vélum og vélar til vélastöðva sem má flokka í vinnustöðvar og vinnustöðvahópa. Þegar þessi forði er þekktur má úthluta á hann aðgerðum samkvæmt skilgreindri uppskrift vörunnar, og leiðarskipulagi, og samkvæmt afkastagetu véla- eða vinnustöðvarinnar. Einnig er hægt að ákvarða afkastagetu hjá hverjum forða. Afkastageta er ákvörðuð út frá tiltækum vinnustundum á hverri véla- og vinnustöð og er stjórnað af dagatölum fyrir hvert stig. Dagatal vinnustöðvar tilgreinir vinnudaga eða-tíma, vaktir, frídaga og fjarvistir sem eru tiltæk fyrir brúttó afkastagetu vinnustöðvarinnar (yfirleitt mælt í mínútum). Allt er þetta ákvarðað af tilgreindum gildum skilvirkni og getu.  
 
 Þegar framleiðsla hefur verið sett upp, er hægt að skipuleggja og framkvæma framleiðsluskipanir. Frekari upplýsingar eru í [Áætlunargerð](production-planning.md) og [Framleiðsla](production-manage-manufacturing.md).  
 
-
-
- Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
+Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
@@ -41,12 +39,12 @@ Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og 
 |Nota staðlaða verkhluta til að einfalda stofnun leiða með því að bæta aukaupplýsingum snögglega við ítrekað ferli.|[Setja upp staðlaðar leiðarlínur](production-how-set-up-standard-routing-lines.md)|  
 |Undirbúa vinnustöðvar og leiðir til að þær sýni úthýsta framleiðslu.|[Úthýsa framleiðslu til undirverktaka](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Sjá einnig
-[Skipulagning framleiðslu](production-manage-manufacturing.md)
-[...](production-planning.md)   
+## <a name="see-also"></a>Sjá einnig .
+
+[Framleiðsla](production-manage-manufacturing.md)  
+[Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

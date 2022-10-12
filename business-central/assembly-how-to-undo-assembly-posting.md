@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a485162cb194f7f16ff7c33c3e4a095865d35daf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8a3588e83ad0a75c4ac9167329659b25ed52320e
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520465"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606333"
 ---
 # <a name="undo-assembly-posting"></a>Afturkalla samsetningarbókun
+
 Stundum gæti þurft að afturkalla bókaða samsetningarpöntun, til dæmis ef pöntunin var bókuð með mistökum sem þarf að leiðrétta, eða vegna þess að hana hefði ekki átt að bóka til að byrja með og verður því að afturkalla.
 
 Þegar bókuð samsetningarpöntun er bókuð er færslubunki stofnaður í birgðahöfuðbók til að snúa við upphaflegum færslum. Hver neikvæð frálagsfærsla fyrir samsetningaríhlutinn er bakfærð með jákvæðri frálagsfærslu. Hver neikvæð notkunarfærsla fyrir samsetningaríhlut er bakfærð með jákvæðri notkunarfærslu. Fastur kostnaður er stofnaður sjálfkrafa á milli leiðréttingarfærslna og upphaflegu færslna til að tryggja nákvæma bakfærslu kostnaðar.  
@@ -39,7 +40,8 @@ Auk þess er aðeins hægt að endurheimta samsetningarpantanir ef línunúmer o
 
 Eftirfarandi ferli lýsir því hvernig eigi afturkalla bókaðar samsetningarpantanir þar sem vörurnar voru settar saman í birgðir. Eigi að afturkalla bókaðar samsetningarpantanir þar sem vörur voru settar saman í sölupöntun þarf að nota aðgerðina **Afturkalla afhendingu** í bókuðu afhendingunni sem tengist bókuðu samsetningarpöntuninni. Frekari upplýsingar er að finna í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md). Afturköllun bókaðrar samsetningarpöntunar gerist síðan sjálfkrafa eins og lýst er í þessu efnisatriði.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a>Til að afturkalla bókun samsetningarpöntunar  
+## <a name="to-undo-posting-of-an-assembly-order"></a>Til að afturkalla bókun samsetningarpöntunar
+
 1.  Til að afturkalla bókaða samsetningarpöntun skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðar samsetningarpantanir** og velja síðan viðkomandi tengil.  
 
     Síðan **Bókaðar samsetningarpantanir** opnast og birtir eina eða fleiri bókaðar samsetningarpantanir sem eru bókaðar úr viðkomandi samsetningarpöntun. Hverja hlutabókun stofnar aðskilda bókaða samsetningarpöntun.  
@@ -53,11 +55,12 @@ Eftirfarandi ferli lýsir því hvernig eigi afturkalla bókaðar samsetningarpa
 > [!NOTE]  
 >  Til að endurheimta magn úr mörgum hlutabókunum í samsetningarpöntun þarf að afturkalla allar bókaðar samsetningarpantanir sem um ræðir með því að fylgja skrefum 1 til 3 hér að ofan fyrir hverja bókaða samsetningarpöntun.  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig .
+
 [Samsetningardeild](assembly-assemble-items.md)  
 [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)  
-[Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md)    
-[Vinna með uppskriftir](inventory-how-work-BOMs.md)  
+[Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md)  
+[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -9,25 +9,26 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317435"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607100"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
 
-Starfbiðraðir gera notendum kleift að raða og keyra tilteknar skýrslur og kódeseiningar. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis gæti verið æskilegt að keyra **skýrsluna Sölumaður-Söluupplýsingar** vikulega til að fylgjast með sölu eftir sölumönnum í hverri viku eða keyra samþykkiseiningin biður **um** samþykki á kótaeiningu daglega til að koma í veg fyrir að skjöl gangi upp.
+Síðan Verkraðarafærslur gera notendum kleift að raða og keyra tilteknar skýrslur og kódeseiningar. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis er hægt að keyra **sölumannskýrsluna Sölumaður * Söluupplýsingar** vikulega til að fylgjast með sölu eftir sölumönnum í hverri viku eða keyra samþykkiseiningin biður **um** samþykki á kótaeiningu daglega til að koma í veg fyrir að skjöl gangi upp.
 
 Síðan **Verkraðarfærslur** birtir öll núverandi verk. Ef bætt er við nýrri verkraðarafærslu sem á að raða upp verður að gefa upp einhverjar upplýsingar. Dæmi:
+
 * Gerð hlutarins sem á að keyra, til dæmis skýrslu eða Codeunit. Þú verður að hafa heimild til að keyra viðkomandi skýrslu eða Codeunit.
 * Nafn og HLUTARKENNI hlutarins. 
 * Færibreytur til að tilgreina hegðun verkraðarafærslu. Til dæmis er hægt að bæta við færibreytu til að sent einungis bókaðar sölupantanir. 
 * Þegar, og hversu oft, keyrir verkraðarafærsla.
 
 > [!IMPORTANT]  
-> Ef notað er SUPER-heimildasafnið sem fylgir með [!INCLUDE[prod_short](includes/prod_short.md)] hafa bæði þú og þínir notendur heimild til að keyra alla hluti innan leyfisins. Það er enn ekki nóg fyrir úthlutaðan stjórnanda eða notendur með tækjaleyfi, sem geta ekki stofnað verkraðafærslur.
+> Ef þér hefur verið úthlutað SUPER heimildasamstæðu sem fylgir [!INCLUDE[prod_short](includes/prod_short.md)] hefur þú heimild til að keyra alla hluti sem eru í leyfinu þínu. Ef hlutverk fulltrúa er úthlutað er hægt að stofna og tímasetja verkraðarafærslur en aðeins kerfisstjórar og leyfir notendur geta keyrt þær. Notendur með Tækjaleyfi geta ekki búið til eða keyrt vinnslubiðröð.
 
 Eftir að verkraðir eru settar upp og í keyrslu getur staðan breyst eins og fylgir hér á eftir innan hvers endurtekins tímabils:
 
@@ -73,7 +74,7 @@ Síðan **Áætluð verk** í [!INCLUDE [prod_short](includes/prod_short.md)] s�
 Til dæmis eru allar áætlaðar framkvæmdir stöðvaðar ef fyrirtækið er í umhverfi sem er afrit af öðru umhverfi. Notaðu síðuna **Áætluð verk** til að stilla verk sem tilbúin til keyrslu í verkröðinni.  
 
 > [!NOTE]
-> Innri stjórnendur og notendur geta áætlað keyrslu á verkum. Úthlutaðir stjórnendur geta það ekki.
+> Innri stjórnendur og notendur sem hafa leyfi geta áætlað að verk séu keyrð. Framsettir stjórnendur geta sett upp og raðað verkefnum sem á að keyra en aðeins notendur geta keyrt þá.
 
 ## <a name="the-my-job-queue-part"></a>Hlutinn fyrir Mína verkröð
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 85c83a08907f9f5b441b3f09c1a09131684707a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517175"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606495"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Skoðun á Síðum í Business Central
 
@@ -22,15 +22,11 @@ Eiginleiki fyrir eftirlit með síðu gerir þér kleift að ná í upplýsingar
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## <a name="work-with-page-inspection"></a>Vinna við Síðuskoðun
+## <a name="work-with-page-inspection"></a>Vinna við síðuskoðun
 
 Þú byrjar síðueftirlit á **Hjálp og notendaþjónusta**. Veldu spurningamerkið efst í hægra horninu, svo **Hjálp og notendaþjónusta** og svo **Kanna síður og gögn**. Einnig er hægt að nota flýtilykilinn **Ctrl+Alt+F1**.
 
-Rúðan **Eftirlit með síðu** opnast á hliðinni. Eftirfarandi skýringarmynd sýnir rúðuna **Eftirlit með síðu** á síðunni **Sölupöntun**.
-
-![Eftirlit með síðu.](media/page-inspection-example.png)
-
-Þegar rúðan **Eftirlit með síðu** opnast fyrst, sýnir hún upplýsingar sem á við um hlut aðalsíðunnar.
+Rúðan **Eftirlit með síðu** opnast á hliðinni. Þegar rúðan opnast fyrst birtast upplýsingar sem eiga við hlut í aðalsíðu.
 
 Notaðu lyklaborðið eða benditækið til að færa fókusinn á aðrar einingar á síðunni. Þegar Upplýsingakassi er valinn eða hluti á aðalsíðunni verður afmarkaða svæðið auðkennt með ramma og rúðan **Eftirlit með síðu** birtir upplýsingar um valda einingu. Til dæmis sýnir skýringarmyndin hér á undan upplýsingar um listahlutann á síðunni **Sölupöntun**. Þar sem þú ferð yfir á aðrar síður í forritinu mun rúðan **Eftirlit með síðu** uppfærast sjálfkrafa með síðuupplýsingum um leið og þú ferð á milli.
 
@@ -38,15 +34,14 @@ Frekari upplýsingar um hvað er sýnt í síðueftirliti er að finna í [Síð
 
 Ef upplýsingarnar sjást ekki sem þú býst við að sjá í rúðunni **Eftirlit með síðu** ertu líklega ekki með nauðsynlegar heimildir eins og er lýst í næsta hluta.
 
-## <a name="controlling-access-to-page-inspection-details"></a>Upplýsingar um stjórnun á aðgangi að síðueftirliti
+## <a name="controlling-access-to-page-inspection-details"></a>Stjórna aðgangi að upplýsingum síðuskoðun
 
 Sem stjórnandi er hægt að stýra aðgangi að ítarlegum upplýsingum sem eru sýndar í rúðunni **Eftirlit með síðu** með því að stilla heimildir sem notendur eru með. Til að veita aðgangsheimild notanda að ítarlegum upplýsingum skal gefa notendum heimildina **Keyra** í **Kerfis** hlutanum **5330**. Hægt er að veita þessa heimild með því að nota heimildasamstæðu (t.d. **D365 úrræðaleit**) eða notendaflokk (t.d. **D365 úrræðaleit**). Nánari upplýsingar um heimildir má finna í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).
 
 Notendur sem fá heimildir í **Kerfishlutur 5330** geta enn opnað rúðuna **Eftirlit með síðu**, en þeir munu aðeins sjá reitina **Síða** og **Tafla** sem birta grunnupplýsingar sem hægt er að senda áfram til þjónustudeildar.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

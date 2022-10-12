@@ -10,23 +10,23 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 07cccf188ed476a3dba4fa71ec7de20620cbd6f1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e9d53a6369e2955e0e097471e70cb83438540539
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534697"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607046"
 ---
 # <a name="assemble-items"></a>Sameina vörur
 
 Ef reiturinn **Áfyllingarkerfi** á birgðaspjaldinu inniheldur **Samsetning** er sjálfgefin afhendingaraðferð vörunnar að setja hana saman úr skilgreindum íhlutum og mögulega með skilgreindum forða.  
 
-Íhluti og forð sem fara í þess háttar samsetningarvörur verður að skilgreina í samsetningaruppskrift. Nánari upplýsingar er að finna í [Vinna með uppskrift.](inventory-how-work-BOMs.md)  
+Íhluti og forð sem fara í þess háttar samsetningarvörur verður að skilgreina í samsetningaruppskrift. Frekari upplýsingar fást með því [að vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md).
 
 Samsetningarvörur er hægt að setja upp fyrir tvo mismunandi samsetningarferla:  
 
--   Setja saman í birgðir.  
--   Setja saman í pöntun.  
+- Setja saman í birgðir.  
+- Setja saman í pöntun.  
 
 Yfirleitt er **Setja saman í birgðir** notað fyrir vörur sem á að setja saman á undan sölu, s.s. þegar söluherferð fyrir sett er undirbúin og þau geymd í birgðum áður en þær eru pantaðar. Þessar vörur eru yfirleitt staðlaðar vörur eins og innpökkuð sett sem þú býður ekki upp á að séu sérsniðin eftir beiðni viðskiptavina.  
 
@@ -74,10 +74,9 @@ Eftir að bókun tekst, er samsetningarvaran bókuð sem frálag birgðageymsluk
 ## <a name="see-also"></a>Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
-[Vinna með uppskriftir](inventory-how-work-BOMs.md)  
+[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

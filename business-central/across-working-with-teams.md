@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528450"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617794"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Deila færslum Business Central og síðutenglum í Microsoft Teams
 
@@ -102,21 +102,27 @@ Frekari upplýsingar um hvernig nota á spjöld og upplýsingar spjalds er að f
 
 Beint af flestum innheimtusíðum eins og **Vörusíðum** og upplýsingasíðum eins og **Birgðaspjaldi** er hægt að senda tengil á síðuna til tiltekinna viðtakenda í samtali í Teams. Til dæmis er hægt að deila tengli á síað yfirlit yfir færslurnar þínar. Viðtakendur geta þá valið tengilinn til að opna síðuna í [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
- ![Deilingarvalmynd sýnd í spjaldi.](media/teams-share-link.png "Deilingarvalmyndin sýnd á spjaldi.")
+[![! Valmyndinni samnýta sem birtist á spjaldi.](media/teams-share-link-v2.png "Deilingarvalmyndin sýnd á spjaldi.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Frumskilyrði
-Þú hefur aðgang að Microsoft Teams.
+
+- Þú hefur aðgang að Microsoft Teams.
+- Valfrjálst Þú hefur sett upp [!INCLUDE [prod_short](includes/prod_short.md)] App í teymum. 
+
+  Með App uppsett, skilaboð sem send eru með hlekknum fylgja með er einnig hægt að taka með Compact kort fyrir síðuna. Frekari upplýsingar um uppsetningu forritsins er að finna í [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md).
 
 ### <a name="share-a-link"></a>Deila tengli
 
 1. Í [!INCLUDE [prod_short](includes/prod_short.md)]\, skal opna síðuna sem á að deila.
 2. Efst á síðunni skal velja ![!Deila á aðrar forritsaðgerðir á síðum.](media/share-icon.png) síðan **Deila með Teams**.
 3. Ef beðið er um innskráningu í Teams með notandanafninu þínu og lykilorði.
-4. Á síðunni **Deila með Teams** skal slá inn heiti einstaklings, hóps eða rásar sem á að senda skilaboðin til. 
-5. Skilaboðaglugginn mun innihalda tengil á síðuna. Bættu við frekari upplýsingum ef þú vilt og veldu svo **Deila**.
+4. Á síðunni **Deila með Teams** skal slá inn heiti einstaklings, hóps eða rásar sem á að senda skilaboðin til.
+5. Skilaboðaglugginn mun innihalda tengil á síðuna. [!INCLUDE [prod_short](includes/prod_short.md)] Ef App fyrir hópana er uppsett mun spjald fyrir tengda færslu eða síðu einnig birtast í skilaboðakassa.
+
+   Bættu við frekari upplýsingum ef þú vilt og veldu svo **Deila**.
 6. Tenglinum hefur nú verið deilt. Ef þú vilt fara í samtalið skaltu velja **Fara í Teams**.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  
@@ -127,6 +133,5 @@ Beint af flestum innheimtusíðum eins og **Vörusíðum** og upplýsingasíðum
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

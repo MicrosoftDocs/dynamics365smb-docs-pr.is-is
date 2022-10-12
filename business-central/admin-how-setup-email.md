@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534292"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606387"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Fólk í viðskiptum sendir upplýsingar og skjöl á borð við sölu- og innkaupapantanir og reikninga með tölvupósti á hverjum degi. Kerfisstjórar geta tengt einn eða fleiri tölvupóstreikninga við til [!INCLUDE[prod_short](includes/prod_short.md)] að senda skjöl án þess að þurfa að opna App fyrir tölvupóst. Hægt er að setja hvert boð fyrir sig með grunnsniðs verkfærum, svo sem leturgerðum, stílum, litum o. s. frv., og bæta viðhengjum um allt að 100 MB. Auk þess gera skýrsluskipanir kerfisstjóra kleift að taka aðeins með helstu upplýsingar úr skjölum. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
@@ -73,7 +73,9 @@ Uppsetningarleiðbeiningarnar **Setja upp tölvupóst** með hjálp geta komið 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Úthluta aðstæðum tölvupósts á tölvupóstsreikninga
 Tölvupóstaðstæður eru ferlar sem fela í sér að senda skjal. T.d. sölu-eða innkaupapöntun eða tilkynningu um slíkt, t.d. boð til ytri endurskoðanda. Sérstaka tölvupóstreikninga má nota við tilteknar aðstæður. Til dæmis er hægt að tilgreina að allir notendur sendi alltaf söluskjöl frá einum reikningi, innkaupaskjöl frá öðrum og vöruhúsa- eða framleiðsluskjöl frá þriðja reikningi. Hægt er að úthluta, rökstyðja og fjarlægja áætlanir þegar óskað er. Aðeins er hægt að úthluta atburðarás á einn tölvupóstlykil í einu. Sjálfgefinn Tölvupóstreikningur verður notaður fyrir allar aðstæður sem eru ekki tengdar við lykil.
- 
+
+**Á úthlutunarsíðu Aðstæðusúthlutun** er hægt að velja **setja defrault viðhengi** aðgerð til að bæta viðhengi við tölvupóststilraaðstæður. Viðhengið verður alltaf tiltækt þegar notandi setur saman tölvupóst vegna skjals sem tengist atburðarásinni. Hver tölvupóstaðstaða getur haft eitt eða fleiri sjálfgefin viðhengi. Sjálfgefnum viðhengjum er sjálfkrafa bætt við tölvupóst fyrir atburðarásina. Til dæmis, þegar sölupöntun er send með tölvupósti, verður sjálfgefnu viðhenginu sem er tilgreint fyrir atburðarásina bætt við. Birting sjálfgefinna viðhengis í **kaflanum viðhengi** neðst á **tónsíðu sem er með tölvupósti**. Hægt er að bæta handvirkt við tölvupósti sem ekki er sjálfgefið viðhengi við netfangið.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,12 +103,12 @@ Hægt er að stýra þeim tölvupósti sem notandi getur séð í Bréfapóstum 
 >  **Ef reiturinn NOTANDAKENNI** er auður og síðan er valið stefnuaðgerð tölvupóstsins, er sú regla sem skilgreind er á við um alla notendur tilgreind.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Setja upp Endurnýtanlegan Senditexta og skipulag
-Hægt er að nota skýrslur til að taka með helstu upplýsingar úr sölu-og innkaupaskjölum í texta fyrir tölvupóst. Þetta ferli lýsir því hvernig á að setja upp skýrsluna **Sala - Reikningur** fyrir bókaða sölureikninga, en ferlið er svipað fyrir aðrar skýrslur.
+Hægt er að nota skýrslur til að hafa lykilupplýsingar úr sölu-, innkaupa-og þjónustuskjölum í textum fyrir tölvupóst. Þetta ferli lýsir því hvernig á að setja upp skýrsluna **Sala - Reikningur** fyrir bókaða sölureikninga, en ferlið er svipað fyrir aðrar skýrslur.
 
 > [!NOTE]
 > Ef nota á útlitið til að búa til efni fyrir tölvupóstskeyti verður að nota Word-skrárgerðina fyrir útlitið.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skýrsluval - Sala** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, sláið inn **Skýrsluval-sölu** og veljið síðan tengda tengilinn.
 2. Á síðunni **Skýrsluval - Sala** í reitnum **Notkun** skal velja **Reikningur**.
 3. Í nýrri línu í reitnum **Skýrslukenni** skal velja t.d. staðlaða skýrslu 1306.
 4. Veljið gátreitinn **Nota fyrir meginmál tölvupósts**.
@@ -128,7 +130,7 @@ Einnig er hægt að velja **gildandi notanda** til að leyfa fólki að senda sk
 
 Eftirfarandi eru dæmi um hvernig Senda sem og Senda fyrir hönd eru notuð í [!INCLUDE[prod_short](includes/prod_short.md)]:
 
- * Hægt er að kaupa eða sölupantana sem sendar eru lánardrottnum og viðskiptamönnum til að koma í stað gamans _noreply@yourcompanyname.com_ aðsetri.
+ * Innkaupa-eða sölupantanir sem sendar eru lánardrottnum og viðskiptamönnum birtast _á á noreply@yourcompanyname.com_ Netfang.
  * Þegar verkflæðið þitt sendir samþykktarbeiðni í tölvupósti með netfangi beiðanda.
 
 > [!Note]

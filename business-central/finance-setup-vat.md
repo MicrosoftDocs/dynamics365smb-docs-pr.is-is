@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
+ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 148d6657d3fffeaa7b5415338517f1688264ae98
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532944"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617912"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts
 
@@ -32,7 +32,7 @@ Ef þú vilt hins vegar setja upp VSK-útreikninga sjálfur eða vilt bara fá u
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>VSK er settur upp með uppsetningarleiðbeiningum með VSK (ráðlegt > 
+## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>VSK settur upp með uppsetningarleiðbeiningum fyrir uppsetningu (ráðlegt)
 
 > [!NOTE]
 > Aðeins er hægt að **nota VSK-Uppsetningarleiðbeiningarnar** ef fyrirtæki *mitt hefur verið stofnað og ekki hafa enn verið bókaðar færslur sem FELA í* sér VSK.
@@ -50,6 +50,21 @@ Til að styðja ræsingu á byrjun [!INCLUDE [prod_short](includes/prod_short.md
 Ef slík tilkynning er valin, [!INCLUDE [prod_short](includes/prod_short.md)] stofnar sjálfkrafa þær bókunaruppsetningar sem eru byggðar á bókunarflokkum í skjalinu eða færslubókinni sem verið er að vinna að.  
 
 Á þessum tímapunkti er bara hægt að fylla út reitina sem vantar. En síðar, þegar uppsetningin er ítarlegri, mætti gera grein fyrir því að Upphafleg Uppsetning er röng. Og [!INCLUDE [prod_short](includes/prod_short.md)] leyfir ekki EYÐINGU VSK-bókunaruppsetningar og almennrar bókunaruppsetningar þegar færslur hafa verið stofnaðar á grundvelli slíkra afbrigða. Svo að byrja í 2022 1. gr. er hægt að nota **reitinn lokaður** á **uppsetningarsíðu** VSK-bókunar til að koma í veg fyrir að notendur hafi rangt með uppsetningu sem tengist ekki lengur nýjum bókunum.
+
+## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Setja upp sjálfgefna VSK-dagsetningu fyrir skjöl og færslubækur
+VSK-skýrsla í [!INCLUDE [prod_short](includes/prod_short.md)] er byggð á **dagsetningunni** VSK til að taka með VSK-færslur á VSK-skýrslum á VSK-tímabili. Hægt er að breyta VSK-dagsetningunni í öllum skjölum og færslubókum, en Tilgreina verður sjálfgildi fyrir VSK-dagsetningu.
+
+> [!NOTE]
+> Aftre bókar skjalið eða færslubókina **birtist VSK-dagsetningin** í **VSK-færslum** og **fjárhagsfærslum** sem og á bókaða skjalinu ef til er.
+
+Ef setja á upp sjálfgildi fyrir VSK-dagsetningu er eftirfarandi þrepum fylgt:
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið og Færið inn **fjárhagsuppsetningu** og veljið síðan tengda tengilinn.  
+2. **Á flipanum Almennt** í **reitnum sjálfgefið VSK-dagsetning** er valið annaðhvort **Bókunardagsetning** eða **Dagsetning** fylgiskjals.
+3. Loka síðunni.  
+
+> [!NOTE]
+> **Sjálfgefið er að SJÁLFGEFIN VSK-dagsetning** sé **bókunardagsetningin**.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Setja upp VSK-númer fyrir land eða svæði
 
@@ -76,7 +91,7 @@ Nota skal kóða sem auðvelt er að muna og er auðkennandi fyrir viðskiptaflo
 
 Til að setja upp VSK-viðskiptabókunarflokk er þessu skrefum fylgt:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **VSK-viðskiptabókunarflokka** og velja síðan tengda tengilinn.  
+1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **VSK-viðskiptabókunarflokka** og velja síðan tengda tengilinn.  
 2. Fyllið inn reitina eftir þörfum.
 
 Hægt er að setja upp sjálfgefna VSK-viðskiptabókunarflokka með því að tengja þá við almenna viðskiptabókunarflokka. [!INCLUDE[prod_short](includes/prod_short.md)] úthlutar sjálfkrafa VSK-viðskiptabókunarflokkinum þegar þú úthlutar viðskiptabókunarflokki til viðskiptamanns, lánardrottins eða fjárhagsreiknings.
@@ -89,7 +104,7 @@ Gott ráð er að nota kóta sem auðvelt er að muna og lýsa hlutfallinu, svo 
 
 Til að setja upp VSK-viðskiptabókunarflokk er þessu skrefum fylgt:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-vörubókunarflokk** og velja síðan viðkomandi tengil.  
+1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-vörubókunarflokk** og velja síðan viðkomandi tengil.  
 2. Fyllið inn reitina eftir þörfum.
 
 ## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Sameina VSK-bókunarflokka í VSK bókunaruppsetningar
@@ -100,7 +115,7 @@ Hægt er að setja upp ótakmarkaðan fjölda samsetninga. Ef flokka á saman sa
 
 Til að sameina VSK-bókunaruppsetningar skal fylgja eftirfarandi skrefum:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 5.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-bókunargrunnur** og velja síðan viðkomandi tengil.
+1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 5.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-bókunargrunnur** og velja síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Úthluta VSK-bókunarflokkum sjálfgefið á margar einingar
@@ -118,14 +133,14 @@ Eftirfarandi hlutar útskýra hvernig á að úthluta VSK-bókunarflokkum til ei
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Hvernig á að úthluta VSK-bókunarflokkum til einstakra fjárhagsreikninga
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 6.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
+1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 6.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
 2. Opna **Fjárhagsreikningur** spjaldið fyrir reikninginn.  
 3. Á **Bókun** Flýtiflipanum, í **Alm. bókunartegund** reitnum, er valið annaðhvort **Sölu** eða **Innkaupa**.  
 4. Velja skal VSK-bókunarflokkana til að nota fyrir sölureikninginn eða kaupreikninginn.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Að úthluta VSK-viðskiptabókunarflokkum til viðskiptamenn og lánardrottna.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 7.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinur** eða **Lánardrottinn** og velja síðan viðkomandi tengil.  
+1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 7.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinur** eða **Lánardrottinn** og velja síðan viðkomandi tengil.  
 2. Á **Viðskiptamaður** eða **Lánardrottinn** spjaldinu, víkið flýtiflipann **Reikningar**.  
 3. Veljið VSK-viðskiptabókunarflokkana.  
 

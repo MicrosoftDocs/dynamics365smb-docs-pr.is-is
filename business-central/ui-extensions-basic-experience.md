@@ -10,12 +10,12 @@ ms.search.keywords: C5, financials, extension
 ms.search.form: 20600,
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4304a42f865086de3337deb3a49b1f1512e0e201
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: b0443ef53a564e103810543225cc0c4a0c6bced7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362222"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606036"
 ---
 # <a name="the-basic-experience-extension"></a>Viðbót grunnupplifunar
 
@@ -24,29 +24,29 @@ Ef þú hefur verið með Microsoft Dynamics C5 geta samstarfsaðilar Microsoft 
 Þessi viðbót er ætluð fyrir lítil fyrirtæki og getur stutt við allt að þrjá notendur. Ef þörf er á fleiri notendum þarf að uppfæra í [!INCLUDE[prod_short](includes/prod_short.md)]-leyfi og fjarlægja þessa viðbót.
 
 > [!NOTE]
-> Eins og staðan er í dag er þessi viðbót aðeins í boði fyrir viðskiptamenn í Danmörku og á Íslandi. 
+> Frá og með nú er þessi framlenging eingöngu í boði hjá viðskiptavinum í Danmörku og á Íslandi.
 
 ## <a name="whats-available"></a>Hvað er í boði
 
 Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplifunar er sett upp.
 
-|Svæði  |Aðgerð  |
+|Svæðarit  |Aðgerð  |
 |---------|---------|
-|**Fjárhagur** |Grunnfjármál, fjárhagsskema, eignir, bankakerfi, bankaafstemming, greiðslur, beingreiðsla, víddir, margir gjaldmiðlar, fjárhagsáætlanir, verkflæði, skjalastjórnun/stafakennsl, sameining, ótakmörkuð fyrirtæki|
-|**Viðskiptakröfur/sala** |Grunnviðskiptakröfur, reikningsfærsla sölu, söluafslættir, verðlagning, virðisaukaskattur, tengslastjórnun |
-|**Viðskiptaskuldir/innkaup** |Grunnviðskiptaskuldir, reikningsfærsla innkaupa |
-|**Verkefnastjórnun** |Verk, verðlagning verks, vinnuskýrslur, úthlutun, verkefni, tilföng |
-|**Birgðir** |Grunnbirgðir, staðgenglar vörur, millivísun vöru |
+|**Fjárhagur** |Grunnfjármál, ársskýrslur, Eignastýring, bankastjórnun, bankaafstemmingar, greiðslur, Beingreiðsla, víddir, margir Gjaldmiðlar, fjárhagsáætlanir, verkflæði, skjalastjórnun/OCR, sameining, Ótakmörkuð fyrirtæki|
+|**Viðskiptakröfur/Sala** |Grunnviðskiptakröfur, sölureikningsfærslur, söluafslættir, verðlagning, Virðisaukaskattur, snertistýring |
+|**Viðskiptaskuldir/innkaup** |Grunnviðskiptaskuldir, Reikningsfærsla innkaupa |
+|**Verkefnastjórnun** |Störf, verðlagningu verka, vinnuskýrslur, úthlutanir, verkefni, aðföng |
+|**Birgðir** |Grunnbirgðir, staðgengur vara, Millivísun vöru |
 
 ## <a name="getting-started"></a>Hafist handa
 
 Þessi viðbót er aðeins öðruvísi en flestar og þú þarft aðstoð frá samstarfsaðila Microsoft til að setja hana upp. Bara þannig að þú vitir hverju þú mátt búast við, þá er hér mikil yfirsýn yfir það hvað samstarfsaðili Microsoft mun gera.
 
-1. Stofna nýjan [!INCLUDE[prod_short](includes/prod_short.md)] leigjanda. Þetta gæti verið annaðhvort prufuútgáfa eða CSP-útgáfa.
+1. Stofna nýjan [!INCLUDE[prod_short](includes/prod_short.md)] leigjanda. Þetta getur verið annaðhvort Prufuveita (CSP) útgáfa.
 2. Bætið að minnsta kosti einum notanda við sem er úthlutað á leyfi grunnupplifunar á Azure Active Directory-reikningnum.
 3. Fjarlægið öll fyrirtæki, þar á meðal sýnifyrirtækið Cronus.
 4. Stofnið nýtt fyrirtæki sem inniheldur engin sýnigögn eða uppsetningar.
-5. Bætið við **Sýniútgáfu RapidStart** pakkanum. <!--what does the pockage contain?-->
+5. Bætið við **Sýniútgáfu RapidStart** pakkanum. <!--what does the package contain?-->
 6. Sækið og setjið upp viðbót grunnupplifunar úr AppSource.
 
 ## <a name="migrating-data"></a>Flutningur gagna

@@ -10,15 +10,16 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c388cdb7780e8af5a3da1c35bd31f9263df879d3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 41e682a54861857ce0ee36bbbf34924c5795b11b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520491"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605462"
 ---
 # <a name="create-blanket-assembly-orders"></a>Búa til standandi samsetningarpantanir
-Hægt er að nota samsetningarstjórnun til að sérsníða samsetningaríhlut eftir beiðni viðskiptavinar á meðan söluferlinu stendur. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
+
+Hægt er að nota samsetningarstýringu til að sérsníða beiðni um samsetninguna á viðskiptamanninn í söluferlinu. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
 
  Eins og fyrir aðrar tegundir vöru, er einnig hægt að stofna standandi sölupantanir fyrir sérsniðnar samsetningarvörur áður en gerðar eru reglulegar eiginlegar sölupantanir í samræmi við standandi pöntunarsamninginn. Þetta ferli felur í sér nokkur aukaskref í samanburði við stofnun venjulegrar standandi sölupöntunar, og notar afbrigði tengdrar samsetningarpöntunar, sem er standandi samsetningarpöntun.
 
@@ -26,6 +27,7 @@ Hægt er að nota samsetningarstjórnun til að sérsníða samsetningaríhlut e
 >  Eins og allar standandi pantanir er magn í standandi samsetningarpöntunum aðeins spár og er ekki tilbúið fyrr en þeim er breytt í raunverulegar samsetningarpantanir. Þess vegna eru pöntunaraðgerðir, eins og útreikningur á tiltæku magni, frátektir og vörurakning, ekki virkar á standandi samsetningarpöntunum.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Til að stofna standandi samsetningarpöntun fyrir samsetningu\-í\-vörupöntun  
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Standandi sölupantanir** og velja síðan viðkomandi tengil.  
 2. Stofna nýja standandi sölupöntun með eina línu fyrir samsetningu vöru. Frekari upplýsingar eru í [Stofna standandi sölupantanir](sales-how-to-create-blanket-sales-orders.md).  
 3. Í reitnum **Magn sem setja á saman í pöntun** í standandi samsetningarpöntunarlínu skal slá inn heildarmagn.
@@ -40,10 +42,11 @@ Hægt er að nota samsetningarstjórnun til að sérsníða samsetningaríhlut e
 
 Tengd standandi samsetningartilboð og allar sérstillingar tengjast við þessa nýju sölupöntun til undirbúnings á samsetningu vöru eða vörum sem á að selja.  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
+
 [Reikningsfærðar standandi sölupantanir búnar til](sales-how-to-create-blanket-sales-orders.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
-[Vinna með uppskriftir](inventory-how-work-BOMs.md)  
+[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,21 +1,21 @@
 ---
 title: Stofna spjald lánardrottins til að skrá nýjan lánardrottin (inniheldur Video)
 description: Lærðu að stofna lánardrottnaspjald til að skrá nýjan lánardrottin eða birgi og vista lánardrottinsspjöld sem sniðmát.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532040"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606641"
 ---
 # <a name="register-new-vendors"></a>Skráning nýrra lánardrottna
 
@@ -41,6 +41,10 @@ Hægt er að bæta nýjum lánardrottnum handvirkt með því að fylla út **ko
 > Það getur reynst gagnlegt að sérsníða síðuna **Sniðmát lánardrottins** þegar þú stofnar sniðmát. Til dæmis ef óskað er eftir að bæta við svæði sem ekki er þegar birt á síðunni. Frekari upplýsingar eru [í hlutanum sérsníða vinnusvæði](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 Einnig er hægt að stofna lánardrottinn úr sniðmáti. Frekari upplýsingar er að [fá í stofnun viðskiptamanns, lánardrottins, starfsmanns eða bankareiknings í Tengiliðahluta](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+
+Greiðsluvistföng eru notuð þegar prentaðar eru ávísanir til að greiða lánardrottnum og Lánardrottnar geta haft mörg póstföng greiðslna. Til dæmis gæti lánardrottinn framsent vöru frá dótturfyrirtæki en vill fá greiðslu í höfuðstöðvum sínum. [!INCLUDE [prod_short](includes/prod_short.md)] gerir kleift að setja upp mörg póstföng fyrir hvern lánardrottinn og hægt er að velja rétta staðinn til að senda greiðslur til á grundvelli reiknings-eftir-reikningi.
+
+Greiðsla-til aðsetra á Kortasíðum lánardrottins er tilgreind og á Fastflipanum afhendingar& á innkaupapantanir og reikninga. Þegar greiðslubókarlínur eru stofnaðar með því að nota Launadrottinn eða stofna Greiðsluaðgerðir á listasíðu eða Lánardrottnasíðu lánardrottins eða jafna færslur í greiðslubók er úthlutuð póstnúmeri í lánardrottnafærslu úthlutað. Hægt er að skrifa yfir þetta gildi.
 
 ### <a name="to-create-a-new-vendor"></a>Að búa til nýjan lánardrottinn
 

@@ -10,12 +10,12 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72a88c90de9407bfe71486022085623b8e426087
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 93c504b139003c4d2385e4c906390302784ed1c5
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530217"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607230"
 ---
 # <a name="categorize-items"></a>Flokka vörur
 
@@ -55,9 +55,10 @@ Ef þú skiptir um skoðun varðandi vöruflokk, getur þú eytt honum. Ef honum
 ## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með vörueigindir](inventory-how-work-item-attributes.md)  
+[Stjórna afurðarafbrigðum](inventory-item-variants.md)  
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

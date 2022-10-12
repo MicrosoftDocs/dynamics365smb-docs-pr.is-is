@@ -1,26 +1,26 @@
 ---
 title: Um áætlunaraðgerðir
-description: Áætlunarkerfið í Dynamics 365 Business Central tekur öll gögn um eftirspurn og framboð með í reikninginn, reiknar út niðurstöðurnar og kemur með tillögur að því að jafna framboðið og eftirspurnina.
-author: SorenGP
+description: Áætlanagerð tekur öll eftirspurn og framboð gagna mið af því, nets árangurinn og gerir tillögur um jöfnun framboðs til að mæta eftirspurninni.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535424"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606965"
 ---
 # <a name="about-planning-functionality"></a>Um áætlunaraðgerðir
 
 Áætlunarkerfið tekur öll gögn um eftirspurn og framboð með í reikninginn, reiknar út niðurstöðurnar og kemur með tillögur að því að jafna framboðið og eftirspurnina.  
 
-Frekari og nákvæmari upplýsingar, sjá [Hönnunarupplýsingar: Framboðsáætlun](design-details-supply-planning.md)  
+Nánari upplýsingar eru í [Upplýsingar um hönnun: áætlun birgða](design-details-supply-planning.md).  
 
 > [!NOTE]  
 > Fyrir öll þau svið sem minnst er á í þessu efnisatriði, lesa ábendingarnar til að skilja virkni þeirra. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Frekari og nákvæmari upplýsingar, sjá [Hönnunarupplýsingar: Framboðsáæt
 Áætlanagerð hefur tvo hluta: eftirspurn og framboð. Halda þarf þeim í jafnvægi til að tryggja það að eftirspurninni sé annað á tímanlegan og hagkvæman hátt.  
 
 - Eftirspurn er notað sem almennt heiti yfir hvers konar brúttóþörf eins og sölupöntun, þjónustupöntun, íhlutaþörf frá samsetningu eða framleiðslupantanir, millifærslur á útleið, standandi pöntun eða spá. Þar að auki býður forritið upp á nokkrar aðrar tæknilegar tegundir eftirspurnar - eins og neikvæða framleiðslu- eða innkaupapöntun, neikvætt birgðamat og innkaupaskil.  
-- Framboð er það orð sem er mest notað fyrir hvaða tegund af áfyllingu sem er, eins og birgðir, innkaupapöntun, samsetningarpöntun, framleiðslupöntun eða millifærslu á innleið. Á sama hátt getur verið til neikvæð sölu- eða þjónustupöntun, neikvæð íhlutaþörf eða innkaupaskil – sem er allt á einhvern hátt dæmi um framboð.  
+- Með birgðahaldi er átt við hvers konar áfyllingu eins og birgðir, innkaupapöntun, samsetningarpöntun, framleiðslupöntun eða millifærslu á innleið. Samsvarandi getur verið neikvæð sölu-eða þjónustupöntun, neikvæð íhlutaþörf eða söluskil sem einnig tákna framboð.  
 
 Annað markmið áætlunarkerfisins er að tryggja það að birgðamagnið hækki ekki að óþörfu. Í tilfelli minnkandi eftirspurnar mun áætlunarkerfið leggja til að annað hvort verði þeim áfyllingarpöntunum sem eru fyrir hendi frestað, þær minnkaðar eða afpantaðar.  
 
@@ -158,9 +158,12 @@ Síðan **Innkaupatillögublað** sýnir vörur sem þú vilt panta. Hægt er a�
 
 - Hægt er að nota aðgerðina **Sérpöntun** til að færa inn í línur innkaupatillögublaðsins. Þessi aðgerð notar runuvinnsluna **Sækja sölupantanir** til að ákveða hvaða sölupöntunarlínur eigi að úthluta fyrir sérpöntun.
 
-Innkaupatillögulínur eru með nákvæmum upplýsingum um vörurnar sem þarf að endurpanta. Hægt er að breyta og eyða línunum til að leiðrétta áfyllingaráætlunina og vinna frekar úr línunum með því að nota keyrsluna **Framkvæma aðgerðarboð**.
+Innkaupatillögulínur eru með nákvæmum upplýsingum um vörurnar sem þarf að endurpanta. Hægt er að breyta og eyða línunum til að leiðrétta áfyllingaráætlunina og vinna frekar úr línunum með því að nota keyrsluna **Framkvæma aðgerðarboð**. 
 
 Upplýsingar um áætlanagerð með birgðageymslum og flutningum er að finna í [Áætlanagerð með eða án birgðageymslna](production-planning-with-without-locations.md).
+
+> [!TIP]
+> Þegar verið er að **vinna á síðum innkaupatillögublaðs** eða **áætlunarvinnublaða** er hægt að raða línunum með því að raða á dálkheiti. Þetta er sérstaklega gagnlegt á síðunni Áætlunarvinnublað þar sem hægt er að nota þær í mörgum framleiðslupöntunum. Sjálfgefið er að **línum sé raðað eftir reitnum Vörunr**. Til að flokka línur fyrir Fjölþrepa pöntun, raða eftir **Nr. Pöntunarnr.** . **Einnig geta svæðin MPS pöntunar** -og **áætlunarstig** hjálpað til við að sýna stigveldi línanna.
 
 ## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/plan-items-dynamics-365-business-central/)
 
@@ -173,7 +176,7 @@ Upplýsingar um áætlanagerð með birgðageymslum og flutningum er að finna �
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

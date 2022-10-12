@@ -10,12 +10,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 369ee2b4aded272a8a3a21fe810b4b6c62dd1de0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585430"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606522"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Nota Power Automate rennur í [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -43,9 +43,7 @@ Með Power Automate er hægt að búa til viðskiptastreymi beint í hús og tre
 
 ## <a name="instant-flows"></a>Augnablik streyma
 
-Að byrja í 2022 1 (maí 2022), [!INCLUDE [prod_short](includes/prod_short.md)] nettengdir viðurkenningar geta [skipt á aðgerð](admin-feature-management.md) til að gera mögulegt að keyra Power Automate flæði frá flestum lista, spjaldi og skjalssíðum. Frekari upplýsingar í reitnum [Setja upp sjálfvirka verkflæði](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) gr. um stjórnunarinnihald.
-
-Þegar admin hefur tengst [!INCLUDE [prod_short](includes/prod_short.md)] við Power Automate er hægt að sjá hvaða streymi fyrirtækið hefur bætt við þegar aðgerðin automate **er valin** á viðkomandi síðum. Skyndilausnir eru keyrðar án þess að fara [!INCLUDE [prod_short](includes/prod_short.md)].
+[!INCLUDE [prod_short](includes/prod_short.md)] hægt að Power Automate keyra áklæði frá flestum lista, spjaldtölvu og skjalsíðum. Þegar admin hefur tengst [!INCLUDE [prod_short](includes/prod_short.md)] við Power Automate er hægt að sjá hvaða streymi fyrirtækið hefur bætt við þegar aðgerðin automate **er valin** á viðkomandi síðum. Skyndilausnir eru keyrðar án þess að fara [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar í reitnum [Setja upp sjálfvirka verkflæði](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) gr. um stjórnunarinnihald.
 
 Þessi augnablik opnast á síðu inni [!INCLUDE [prod_short](includes/prod_short.md)] á netinu þannig að þú getur haldið áfram innan samhengis viðskiptaferlisins sem þú varst í miðri. Aðgerðin automate **er** valin — í sumum síðum sem eru hreifður undir **valmyndinni fleiri Valkostir** — Veljið **Power Automate** valmyndaratriðið og veljið síðan viðeigandi tengil til að ræsa verkflæðið. Tengingin Power Automate sem þegar er uppsett fyrir þig.
 
@@ -62,7 +60,7 @@ Sýnishorn af sniðmátum má finna til að laga fyrirtækið og öll tiltæk kv
 
 ## <a name="manage-automated-workflows"></a>Stjórna sjálfvirkum verkflæði
 
-Hægt er að búa til nýjar rennur eða stjórna tiltækum Power Automate flæði í [!INCLUDE [prod_short](includes/prod_short.md)] á **síðunni stjórna Power Automate streymi**. Frekari upplýsingar í [Umsjón Power Automate með sjóðstreymi](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows.md) í stjórnunarinnihaldi.
+Hægt er að búa til nýjar rennur eða stjórna tiltækum Power Automate flæði í [!INCLUDE [prod_short](includes/prod_short.md)] á **síðunni stjórna Power Automate streymi**. Frekari upplýsingar í [Umsjón Power Automate með sjóðstreymi](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) í stjórnunarinnihaldi.
 
 Einnig er hægt að stjórna tiltækum Power Automate verkflæði á **síðunni verkflæði** í [!INCLUDE[prod_short](includes/prod_short.md)]. Síðan er listi yfir innbyggð samþykkt og Power Automate verkflæði, með valkostum fyrir Hið síðarnefnda til að gera/óvirka, eyða og skoða verkflæðið á Power Automate vefsvæðinu.
 

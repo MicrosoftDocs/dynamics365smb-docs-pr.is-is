@@ -10,12 +10,12 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 877e4bf26b0af7675fe71f791e0bfe53159b9d70
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533079"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606090"
 ---
 # <a name="customize-business-central"></a>Sérstilla Business Central
 
@@ -29,7 +29,8 @@ ms.locfileid: "9533079"
 |Breytið vinnusvæði notenda með því að sérsníða hlutverk þeirra.|Breytir notandaviðmótinu fyrir forstillingu (hlutverk) þannig að allir notendur þess hlutverks sjái sérsniðið vinnusvæði. Stjórna sérstillingum notenda með því að slökkva á möguleikanum á því að sérstilla síður og hreinsa sérstillingar síðu.|Notendur í tilteknu fyrirtæki.|[Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)|
 |Breyta hvaða viðmótseiningar eru sýnilegar.|Stillingin **Upplifun** ákvarðar hversu mikil virkni er sýnd í notandaviðmótinu. Veldu á milli Grunns og Úrvals.|Notendur í tilteknu fyrirtæki.|[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)|
 |Virkja liti í hlutverkamiðstöðvum til að merkja mikilvægi.|Setjið upp Bunka sem birtast í hlutverkamiðstöð notenda þannig að þeir innihaldi vísi sem breytir um lit eftir gildum í bunkum.|Notendur í tilteknu fyrirtæki.|[Setja upp litaðan vísi á bunka](admin-how-set-up-colored-indicator-on-cues.md)|
-|Setja upp viðbót|Viðbætur eru líkt og smáforrit sem bæta við virkni, breyta hegðun, veita þér aðgang að nýjum netþjónustum og fleira. Til dæmis veitir Microsoft viðbót sem veitir samþættingu við PayPal Payments Standard.|Allir notendur í öllum fyrirtækjum.|[Sérstilling með viðbótum](ui-extensions.md)|
+|Setja upp App|Setja upp forrit sem bæta virkni, breyta hegðun, veita aðgang að nýjum þjónustum á netinu og fleira. Til dæmis býður Microsoft upp á App sem veitir samþættingu við PayPal greiðslur.|Allir notendur í öllum fyrirtækjum.|[Sérsníða með forritum](ui-extensions.md)|
+
 > [!NOTE]
 > Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga. Þess vegna geta notendur með **Grunnútgáfu** stundum lesið um virkni og viðmótseiginleika sem ekki eru sýnilegir í notendaviðmóti þeirra. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 

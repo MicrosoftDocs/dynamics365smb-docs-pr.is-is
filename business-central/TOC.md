@@ -2,7 +2,7 @@
 # [Nýtt og áætlað](product-news.md)
 # Leiðsögn
 ## [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)
-<!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
+<!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Upplýsingar
 ### [Business Central námskrá](readiness/readiness-learning-catalog.md)
 ### [Viðskiptamiðnám](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -20,7 +20,7 @@
 #### [Kynning: Útreikningur á VÍV fyrir verk](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
-#### [Kynning: Gera sjóðstreymisspár með því að nota fjárhagsskemu](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Walkthrough: að gera Sjóðstreymisspá með fjárhagsskýrslum](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 <!-- Contoso-->
 ### Contoso Coffee sýnigögn fyrir framleiðslu
 #### [Kynning á contoso kaffi sýnigögnum](contoso-coffee/contoso-coffee-intro.md)
@@ -124,6 +124,7 @@
 ### [Yfirliti yfir almenna virkni](ui-work-product.md)
 ### [Prentvænt yfirlitsblað](ui-work-product.md#cheatsheet)
 ### [Finndu síður og upplýsingar með Segðu mér](ui-search.md)
+### [Leita að tilteknum gögnum](ui-search-data.md)
 ### [Finna síður með Hlutverkayfirlitunum](ui-role-explorer.md)
 ### [Algengar spurningar um Viðmótsleit](ui-search-faq.md)
 ### [Raða, leita og sía](ui-enter-criteria-filters.md)
@@ -196,10 +197,11 @@
 ### [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)
 ### [Skoðaðu myndbandasafnið okkar](across-videos.md)
 ### [Sækja tækniaðstoð](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
-<!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+
+<!--## Microsoft Learn training
+### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
 #### [Get Ready for Doing Business](ui-get-ready-business.md)
@@ -225,6 +227,7 @@
 ### [Bóka mörg skjöl á sama tíma](ui-batch-posting.md)
 ### [Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md)
 ### [Breyta bókuðum skjölum](across-edit-posted-document.md)
+### [Stöðureitur á skjölum](ui-document-status.md)
 ### [Vinna við Almennar færslubækur](ui-work-general-journals.md)
 ### [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)
 ### [Láta Aðaltillögur Viðskiptaráðs í gildi](ui-let-system-suggest-values.md)
@@ -257,7 +260,6 @@
 ##### [Setja upp gagnaskipti](across-set-up-data-exchange.md)
 ##### [Setja upp skjalaskiptaþjónustu](across-how-to-set-up-a-document-exchange-service.md)
 ##### [Setja upp skjöl á innleið](across-how-setup-income-documents.md)
-##### [Uppfæra gengi](finance-how-update-currencies.md)
 ##### [Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [AMC Banking 365 Fundamentals Nota viðaukann](ui-extensions-amc-banking.md)
@@ -275,7 +277,6 @@
 ##### [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
-##### [Uppfæra gengi](finance-how-update-currencies.md)
 ##### [Reitarvörpum við innflutning SEPA CAMT skráa](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Reitarvörpun fyrir AMC Banking 365 Fundamentals viðbótina](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
@@ -301,6 +302,7 @@
 #### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
 #### [Virðisaukaskattur í sjálfgefna útgáfu af Viðskiptaseðla-](sales-tax-concept.md)
+#### [Vinna með Intrastat-skýrslugerð](finance-how-report-intrastat.md)
 
 ### Stjórna skuldum
 #### [Yfirlit viðskiptaskulda](payables-manage-payables.md)
@@ -416,19 +418,19 @@
 ### [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)
 ### [Umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)
 ### [Stjórna breytingum á VSK-taxta](finance-how-use-vat-rate-change-tool.md)
-### [Walkthrough: gera sjóðstreymisspár með fjárhagsáætlunum](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### [Walkthrough: gera Sjóðstreymisspá með fjárhagsskýrslum](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
 ### [Flytja bankainnstæður](bank-how-transfer-bank-funds.md)
 ### [Stofna Bankainnlán](bank-create-bank-deposits.md)
 ### [Upplifun endurskoðanda í Business Central](finance-accounting.md)
 ### [Fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir](finance-multi-site-organizations.md)
 
-## Viðskiptagreind og Financial Reporting
-### [Yfirlit yfir viðskiptagreind og Financial Reporting](bi.md)
+## Upplýsingaöflun og skýrslugjöf fjármálafyrirtækja
+### [Upplýsingagjöf og skýrsla um skýrslugerð í fjármálaviðskiptum](bi.md)
 ### [Fjárhagsskýrslur](finance-reports.md)
 ### [Greina raunverulegar og áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md)
-### [Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)
-### [Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+### [Undirbúa fjárhagsskýrslugerð með fjárhagslegum gögnum og lykilflokkum](bi-how-work-account-schedule.md)
+### [Setja upp og birta KPMG-vefþjónustu byggða á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
 ### [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)
 ### [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)
@@ -456,7 +458,7 @@
 ### [Sameina afhendingar einn reikning](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)
 ### [Finna sendingar](sales-how-track-packages.md)
-### [Dagsetning útreiknings fyrir sölu.](sales-date-calculation-for-sales.md)
+### [Útreikningur afhendingardagsetningar fyrir sölu](sales-date-calculation-for-sales.md)
 ### [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)
 ### [Vinna með endurteknar tekjur](finance-recurring-invoicing.md)
 ### [Færa inn ytri fylgiskjalsnúmer](across-enter-external-document-numbers.md)
@@ -486,6 +488,7 @@
 ### [Skrá nýjar vörur](inventory-how-register-new-items.md)
 ### [Vinna með uppskriftir](inventory-how-work-BOMs.md)
 ### [Flokka vörur](inventory-how-categorize-items.md)
+### [Stjórna afurðarafbrigðum](inventory-item-variants.md)  
 ### [Vinna með vörueigindir](inventory-how-work-item-attributes.md)
 ### [Vinna með vörulista](inventory-how-work-nonstock-items.md)
 ### [Telja og leiðrétta fylgiskjöl birgðahalds](inventory-how-count-inventory-with-documents.md)
@@ -588,7 +591,7 @@
 ### [Selja vörur sem eru settar saman í pöntun og birgðavörur saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ### [Búa til standandi samsetningarpantanir](assembly-how-to-create-blanket-assembly-orders.md)
 ### [Afturkalla samsetningarbókun](assembly-how-to-undo-assembly-posting.md)
-### [Vinna með uppskriftir](inventory-how-work-BOMs.md)
+### [Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)
 ### [Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)
 
 ## Framleiðsla
@@ -629,8 +632,8 @@
 #### [Tína til vörur](warehouse-pick-items.md)
 #### [Vörur tíndar með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)
 #### [Tína vörur fyrir vöruhúsaafhendingu](warehouse-how-to-pick-items-for-warehouse-shipment.md)
-#### [Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss](warehouse-how-to-pick-for-production.md)
-#### [Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+#### [Tínsla fyrir framleiðslu, samsetningu eða vinnslur í Grunnvöruvöruhúsi](warehouse-how-to-pick-for-production.md)
+#### [Tínsla fyrir framleiðslu, samsetningu eða vinnslur í ítarlegum Vöruhúsafbrigðum](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 #### [Skipuleggja tínslur á vinnublaðinu](warehouse-how-to-plan-picks-in-worksheets.md)
 #### [Tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 #### [Tína eftir FEFO](warehouse-picking-by-fefo.md)
@@ -671,7 +674,6 @@
 ### [Samstilla vörur með Shopify](shopify/synchronize-items.md)
 ### [Samstilla viðskiptavini við Shopify](shopify/synchronize-customers.md)
 ### [Samstilla og uppfylla sölupantanir með Shopify](shopify/synchronize-orders.md)
-### [Setja upp skatta fyrir Shopify tenginguna](shopify/setup-taxes.md)
 ### [Verk keyrð í bakgrunni](shopify/background.md)
 ### [Úrræðaleit fyrir Shopify Tengivirki](shopify/troubleshoot.md)
 ### [FAQ fyrir Shopify tengivirkið](shopify/shopify-faq.md)
@@ -1228,11 +1230,11 @@
 ### Rússland
 #### [Staðbundin virkni í rússneskri útgáfu](LocalFunctionality/Russia/russia-local-functionality.md)
 #### Core-fjármál
-##### [Yfirlit fjárhagsskema](LocalFunctionality/Russia/account-schedules-overview.md)
-##### [Flytja inn og flytja út fjárhagsskema](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
-##### [Skilgreina viðbót fjárhagsskema](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
-##### [Skilgreina fasta fjárhagsskema](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
-##### [Vinna með fjárhagsskemu](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
+##### [Yfirlit yfir ársskýrslur](LocalFunctionality/Russia/account-schedules-overview.md)
+##### [Flytja inn og út ársskýrslur](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
+##### [Skilgreina viðauka ársreiknings](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
+##### [Skilgreina fasta ársskýrslu](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
+##### [Vinna með ársskýrslur](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
 ##### [Samskipti fjárhagsbókar](LocalFunctionality/Russia/general-ledger-correspondence.md)
 ##### [Gjaldmiðill](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 ##### [Setja upp ábyrgðarfulla starfsmenn og ítarleg yfirlit](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
@@ -1340,7 +1342,7 @@
 ##### [Setja upp og loka stöðum rekstrarreiknings](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Draga inn og villuleita bókhaldslykla](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
 ##### [Hunsa afslætti í fjárhagslyklum](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
-##### [Flytja út fjárhagsskemu á ASC-sniði](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
+##### [Flytja út ársskýrslur á ASC-sniði](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
 ##### [Prenta skýrslur reikningsskilabóka](LocalFunctionality/Spain/how-to-print-account-book-reports.md)
 ##### [Prenta sölu- og innkaupareikningsbækur](LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md)  
 ##### [Færslunúmer](LocalFunctionality/Spain/transaction-numbers.md)
@@ -1427,7 +1429,7 @@
 ### Bandaríkin
 #### [Staðbundin virkni í bandarískri útgáfu](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Skattur
-##### [Bandarískur virðisaukaskattur](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Uppsetning grunnskatts](LocalFunctionality/UnitedStates/us-tax-setup.md)  
 ##### [Skráning virðisaukaskatts í Bandaríkjunum](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Setja upp og nota eyðublað IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Reglugerð 1099 um breytingu og upplýsingaskyldu](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
@@ -1449,7 +1451,7 @@
 #### [Setja upp greiðsluhætti](finance-payment-methods.md)
 #### [Setja upp greiðsluskilmála](finance-payment-terms.md)
 #### [Setja upp bókunarflokka](finance-posting-groups.md)
-#### [Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)
+#### [Undirbúa fjárhagsskýrslugerð með fjárhagslegum gögnum og lykilflokkum](bi-how-work-account-schedule.md)
 #### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)
 #### [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md)
@@ -1467,7 +1469,7 @@
 #### [Setja upp bókhaldslykil](finance-setup-chart-accounts.md)
 #### [Setja upp Sjóðstreymissgreiningu](finance-setup-cash-flow-analyses.md)
 #### [Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md)
-#### [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat.md)
+#### [Setja upp Intrastat-skýrslugerð](finance-how-setup-report-intrastat.md)
 #### [Nota úthlutunarlykla í færslubókum](ui-how-use-allocation-keys-general-journals.md)
 ### Uppsetning bankaþjónustu
 #### [Setja upp bankastarfsemi](bank-setup-banking.md)
@@ -1583,7 +1585,7 @@
 ##### [Nota viðskipti miðlægt án Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
 ### Setja upp skýrslur
-#### [Skýrsluval](across-report-selections.md)
+#### [Skýrsluval fyrir skjöl](across-report-selections.md)
 ### Setja upp samþykktarverkflæði eftir sniðmátum
 #### [Setja upp samþykktarverkflæði](across-set-up-workflows.md)
 #### [Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)
@@ -1613,7 +1615,8 @@
 #### Notkun OneDrive í viðskiptum við miðlægu viðskiptafyrirtæki
 ##### [Yfirlit](across-onedrive-overview.md)
 ##### [Stjórnun OneDrive fyrir samþættingu fyrirtækja](admin-onedrive-integration.md)
-##### [Opna aðalskrár fyrirtækja í OneDrive](across-share-onedrive.md)
+###### [Skilgreining OneDrive samþættingar við fyrirtæki miðsvæðis innanhúss](admin-onedrive-integration-onpremises.md)
+##### [Opna og deila skrám í OneDrive](across-share-onedrive.md)
 ##### [OneDrive ALGENGAR SPURNINGAR](admin-onedrive-faq.md)
 #### Notkun Power BI með Viðskiptaseðla-
 ##### [Kynning](admin-powerbi.md)
@@ -1653,9 +1656,9 @@
 ### [Keyra skýrslur](ui-work-report.md)
 ### [Bókari skýrsla](ui-bookmarks.md)
 ### [Greina skýrslugögn með Excel](report-analyze-excel.md)
-<!--### [Using the report inbox] (missing.md)-->
 ### [Prenta skýrslur](ui-specify-printer-selection-reports.md#default)
 ### [Stundaðu skýrslur](ui-work-report.md#ScheduleReport)
+### [Hluta-og útflutningsskýrslur með Skýrsluinnhólfinu](ui-work-report-inbox.md)
 ### [Stjórna vistuðum skýrslum-stillingum](reports-saving-reusing-settings.md)
 ### [Stilla útlit sem skýrsla er notuð fyrir](ui-set-report-layout.md)
 ### [Arfur Stilla útlit sem skýrsla er notuð fyrir](ui-how-change-layout-currently-used-report.md)
@@ -1663,7 +1666,7 @@
 ## Innbyggðar skýrslur
 ### [Yfirlit yfir skýrslur](reports-available-reports.md)
 ### Fjármál
-#### [Fjármál Analytics](bi.md)
+#### [Upplýsingarit um Fjármál fyrirtækja](bi.md)
 #### [Greina fjárhagsyfirlit með Excel](finance-analyze-excel.md)
 #### [Lykiltölur fjárhagsskýrslur](finance-reports.md)
 #### [Skýrslur viðskiptavina](receivables-reports.md)
@@ -1704,7 +1707,7 @@
 
 ### Samsetningardeild
 #### [Skýrslur þingstjórnar](assembly-reports.md)
-#### [Skoða uppbyggingu uppskriftar (BOM)](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+#### [Skoða uppbyggingu uppskriftar (BOM)](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
 
 ### Framleiðsla
 #### [Framleiðsluskýrslur](production-reports.md)
@@ -1723,13 +1726,13 @@
 ### [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)
 ### [Greining Blaðsíðugagna í Excel](across-work-with-excel.md)
 ### [Greining á skýrslugögnum með Excel](report-analyze-excel.md)
-### [Fjármál Analytics](bi.md)
+### [Upplýsingarit um Fjármál fyrirtækja](bi.md)
 
 ## Innbyggður Analytics 
 ### [Yfirlit](reports-built-in-analytics.md)
 ### [Snjöll innsýn](about-intelligent-cloud.md)
 ### [Vinna með Power BI skýrslur](across-working-with-powerbi.md)
-### [Fjármál Analytics](bi.md)
+### [Upplýsingarit um Fjármál fyrirtækja](bi.md)
 ### [Greina fjárhagsyfirlit með Excel](finance-analyze-excel.md)
 ### [Sameina Fjárhagsleg gögn frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)
 ### [Notkun skýrslu Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)

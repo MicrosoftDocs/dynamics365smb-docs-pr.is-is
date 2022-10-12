@@ -5,18 +5,18 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/28/2022
+ms.date: 08/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 2e1cc04d265541c87244dcd6c13b14327f07cc2f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 99077273617613a2bd5fd949ead836605432b9aa
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516422"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607446"
 ---
-# <a name="opening-and-sharing-business-central-files-in-onedrive"></a>Opnun og miðlun Viðskiptamiðaðrar skrár í OneDrive
+# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Opnun og miðlun aðalskrár fyrirtækja í Microsoft OneDrive
 
-[!INCLUDE[prod_short](includes/prod_short.md)] auðveldar geymslu, umsjón og deilingu skráa með öðrum í gegnum OneDrive fyrir Business. Á flestum síðum þar sem skrár eru tiltækar, svo sem í Skýrsluinnhólfinu eða skrám sem tengdar eru færslum, er hægt að finna **Opna í OneDrive** og **samnýta**.
+[!INCLUDE[prod_short](includes/prod_short.md)] auðveldar þeim að geyma, stjórna og samnýta skrár með öðrum í gegnum Microsoft OneDrive fyrir viðskipti. Á flestum síðum með tiltækum skrám, eins og í Skýrsluinnhólfinu eða þegar skrár eru tengdar við færslur, er hægt að finna **opnar OneDrive** og **samnýta** Aðgerðir.
 
 
 :::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="Glugginn opna í OneDrive og samnýta aðgerðir fyrir skýrslur":::
@@ -24,38 +24,37 @@ ms.locfileid: "8516422"
 
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Glugginn opna í OneDrive og samnýta aðgerðir fyrir viðhengi":::
 
-<!--
-:::image type="content" source="media/Open in OneDrive.PNG" alt-text="The Open in OneDrive action":::
-
- 
-:::image type="content" source="media/OneDrive attachment.PNG" alt-text="Share file attachments in OneDrive":::
--->
 
 ## <a name="open-in-onedrive"></a>Opnar í OneDrive
 
-**Opni í OneDrive** aðgerðinni afritar skrána yfir OneDrive í og opnar skrána í vefforritum þeirra, líkt og Excel online, Word á netinu og PowerPoint á netinu. 
+**Glugginn opna í OneDrive** aðgerð afritar skrána yfir OneDrive í og opnar síðan skrána í forritinu eins og Microsoft Excel netinu, Microsoft Word á netinu eða í Microsoft PowerPoint á netinu. 
 
-<!--## Working with Different Types of Files-->
+<!--## Working with different types of files-->
 
-Þegar þú velur **Opna í OneDrive** mun [!INCLUDE[prod_short](includes/prod_short.md)] þekkja Excel, Word og PowerPoint-skrár og opnar þær í netforritum þeirra, þ.e. Excel Online, Word Online og PowerPoint Online. Þú getur skrifað athugasemdir, breytt og unnið með öðrum án þess að fara úr vafranum.
+Þegar þú velur **Opna í OneDrive** mun [!INCLUDE[prod_short](includes/prod_short.md)] þekkja Excel, Word og PowerPoint-skrár og opnar þær í netforritum þeirra, þ.e. Excel Online, Word Online og PowerPoint Online. 
 
-Fyrir aðrar vinsælar skrárgerðir, eins og PDFs, textaskrár og myndir, OneDrive veitir skrá áhorfendum sem bjóða upp á möguleika til prentunar, samnýtingar og fleira. Ef ekki er hægt að skoða skrá í OneDrive þá gæti verið beðið um að sækja hana.
+Með því að nota netútgáfur þessara forrita getur þú Notfærðu þér, breytt og notað í samvinnu við aðra án þess að fara úr vafranum.
 
-## <a name="share"></a>Hlutdeild
+Fyrir aðrar vinsælar skráargerðir á borð við PDF, textaskrár og myndir býður OneDrive upp á skráarskoðun sem er með eiginleika fyrir prentun, deilingu og fleira. Ef ekki er hægt að skoða skrá í OneDrive þá gæti verið beðið um að sækja hana.
 
-**Hlutaaðgerðin** afritar skrána í OneDrive og við skulum deila skránni með öðrum og sjá hverja þú hefur þegar samnýtt skrána með. Þegar samnýting **aðgerðar er valin** opnast eftirfarandi síða.
+## <a name="share"></a>Deila
 
-:::image type="content" source="media/share-to-onedrive-dialog.PNG" alt-text="Deila skrá í OneDrive":::
+**Hlutaaðgerðin** afritar skrána þannig að OneDrive hægt er að sjá með hverjum er verið að samnýta hana auk þess að deila skránni með öðru fólki. Þegar samnýting **aðgerðar er valin** opnast eftirfarandi síða.
 
-Kannast kannski við síðuna ef þú kannast við OneDrive hana. Þú hefur tvo valkosti við að samnýta skrána: **tengill** og **Afrita tengil**.
+:::image type="content" source="media/share-to-onedrive-dialog-v2.PNG" alt-text="Deila skrá í OneDrive":::
 
-- **Senda tengil** Leyfðu þér að deila skránum með ákveðnum einstaklingum. Þeir sem þú deilir skránni munu fá tölvupóst með tengli á skrána. Skráin birtist einnig í **sameiginlegum** kafla þeirra OneDrive. Byrjaðu á því að slá inn netföng eða nöfn tengiliða í **nafni, flokki eða netfangi**.
+Ef þú kannast við OneDrive þig, Kannastu við að þekkja síðuna hér til hliðar. Þú sérð þig hafa tvo valkosti við að samnýta skrána: **tengill** og **Afrita tengil**.
 
-- **Afrita tengil** afritar tengil í skrána á OneDrive þú getur notað tengilinn á öðrum stöðum eins og Facebook, Twitter eða tölvupósti. 
+- **Senda tengil** Leyfðu þér að deila skránum með ákveðnum einstaklingum. Þeir sem þú deilir skránni munu fá tölvupóst með tengli á skrána. Skráin birtist einnig í **sameiginlegum** kafla þeirra OneDrive. Byrjaðu á því að slá inn netföng eða nöfn tengiliða í **nafni, flokki eða netfangi**. Koma með skilaboð hér að neðan um **nafn, hóp eða netfang** ef þess er óskað.
 
-Áður en hlekkurinn er sendur eða afritaður er heimildinni stillt á skrána sem fólk á að hafa. Hægt er að sjá gildandi stillingu undir **hlekknum** senda tengil **og** Copy. Í flestum tilfellum verður **hver sem við tengilinn getur breytt til að opna tengilinn**, eftir stillingum sem kerfisstjóri hefur sett. Til að breyta heimildinni skaltu velja tengilinn og gera breytingar á **síðunni Link stillingar**.
+  > [!TIP]
+  > Ef þú vilt setja skilaboðin í Outlook skaltu velja **hnappinn í Outlook**. Hlekkurinn verður settur inn í drög að tölvupósti og allir sem þú færðir til að deila með verða á **listanum til**. Með þessum valkosti er hægt að semja tölvupóst með öllum eiginleikum Outlook, þar á meðal að sníða texta, bæta við öðrum viðhengjum, setja inn myndir eða töflur og bæta við viðtakanda CC eða BCC.
 
-Samnýting eiginleika í Viðskiptamiðinu er byggð á OneDrive. Til að fræðast meira um samnýtingu og aðgangsheimildir, sjá [Share OneDrive skrár og möppur](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+- **Afrita tengil** afritar skráatengil sem hægt er að nota til að samnýta skrána í gegnum forrit eins og Facebook, Twitter eða email. 
+
+Áður en skráatengill er sendur eða afritaður skal stilla heimildastig sem fólk á að hafa. Hægt er að sjá gildandi stillingu undir **hlekknum** senda tengil **eða** Afrita. Í flestum tilfellum verður **hver með tengilinn getur breytt**, allt eftir stillingum stjórnanda. Til að breyta heimildinni skaltu velja tengilinn og gera breytingar á **síðunni Link stillingar**.
+
+Samnýting eiginleika í Viðskiptamiðinu er byggð á OneDrive. Frekari upplýsingar um OneDrive samnýtingu og aðgangsheimildir [samnýta OneDrive skrár og möppur](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
 > [!NOTE]
 > **Share** -aðgerðin er ekki tiltæk í Business Central App fyrir farsíma.
@@ -65,29 +64,44 @@ Samnýting eiginleika í Viðskiptamiðinu er byggð á OneDrive. Til að fræð
 Þegar aðgerðin opna í eða Share er notuð **í fyrsta sinn er OneDrive** eftirfarandi atriði: **·**[!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. **Opnar síðuna yfirfara Skilmálar og skilyrði**. Lestu síðuna og ef þú samþykkir skilmálana velur **þú samþykkja** að halda áfram.
-2. **Opnar tínslusíðuna reikningur** Veldu reikninginn þinn eða **Notaðu annan lykil** ef þú sérð ekki eigin, Sláðu þá inn notandanafn og aðgangsorð við kvaðningu.
+2. **Opnar reikning** tínslusíðu. Veldu þinn reikning eða **Notaðu annan lykil** ef þú sérð ekki eigin, Sláðu þá inn viðeigandi notandanafn og aðgangsorð við kvaðningu.
 3. Stofnar möppu sem heitir [!INCLUDE[prod_short](includes/prod_short.md)] í OneDrive. 
-4. Í [!INCLUDE[prod_short](includes/prod_short.md)] möppunni býr það til aðra möppu með sama heiti og fyrirtækið sem þú ert að vinna í. Ef unnið er í fleiri en einu fyrirtæki mun það stofna möppu fyrir fyrirtækið sem unnið er í þegar **Opið er í OneDrive** og **samnýta** Aðgerðir. 
-5. Setur afrit af skránni sem þú valdir í möppuna og opnar svo skrána. Næst þegar þú notar aðgerðina afritar það aðeins og opnar skrána. 
+4. [!INCLUDE[prod_short](includes/prod_short.md)] Innan möppunnar býr hún til möppu með sama heiti og fyrirtækið sem verið er að vinna í. Ef þú vinnur í fleiri en einu fyrirtæki, [!INCLUDE[prod_short](includes/prod_short.md)] býr til möppu fyrir hvert fyrirtæki sem þú ert að vinna í þegar aðgerðin opna í **eða OneDrive** Share **er notuð**. 
+5. Setur afrit af skránni sem var valin í möppunni heiti fyrirtækis og opnar síðan skrána. 
+
+Því næst er aðgerðin Open í **eða OneDrive** Share **notuð**, [!INCLUDE[prod_short](includes/prod_short.md)] aðeins afrit og opnar skráin. 
 
 ## <a name="managing-multiple-copies-of-a-file"></a>Umsjón með mörgum eintökum af skrá
 
-Þegar valið **er opna í OneDrive** eða **samnýta** er skráin afrituð úr [!INCLUDE[prod_short](includes/prod_short.md)] möppunni í OneDrive. Ef þú breytir skránni í OneDrive verða afritin af skránni öðruvísi. Til að uppfæra [!INCLUDE[prod_short](includes/prod_short.md)] með nýjustu skránni skal fjarlægja núverandi skrá úr [!INCLUDE[prod_short](includes/prod_short.md)] og síðan hlaða upp nýjasta afritinu.
+Þegar valið **er opna í OneDrive** eða **samnýta** er skráin afrituð úr [!INCLUDE[prod_short](includes/prod_short.md)] möppunni í OneDrive. Ef skránni er breytt í OneDrive mun sú skrá vera önnur [!INCLUDE[prod_short](includes/prod_short.md)] en skráin. Til að uppfæra [!INCLUDE[prod_short](includes/prod_short.md)] með nýjustu skrá útgáfuna skal fjarlægja skrána [!INCLUDE[prod_short](includes/prod_short.md)] sem fyrir er og hlaða upp nýjasta afritið.
 
-Einnig, þegar skrá með sama heiti er þegar til í OneDrive, [!INCLUDE[prod_short](includes/prod_short.md)] gefst kostur á annaðhvort að skipta út skránni eða halda báðum skránum við. Ef valið er að geyma báðar skrárnar er nýja skráin afrituð í OneDrive og gefið skrárheiti með viðskeytinu, eins og "vörur (2). xlsx". Upprunalega skráin er ekki breytt. 
+Ef skrá með sama heiti er þegar til í OneDrive er hægt að fá eftirfarandi valkosti:
 
-Ef valið er að skipta út skránni er nýju skránni bætt við útgáfuferil þeirrar skráar. Upprunalega skráin er ekki týnd og hægt er að skoða eða endurheimta fyrri útgáfur af henni. 
+- **Nota fyrirliggjandi**
+
+  Þessi valkostur opnast eða deilir skránni sem er þegar geymd í OneDrive í stað þess að afrita skrána úr Business Central.
+  
+- **Skipta um**
+  
+  Þessi valkostur kemur í stað þeirrar skrár sem fyrir er í OneDrive með skránni sem var valin úr Business Central. Upprunalega skráin er ekki týnd &mdash; hægt er að sjá og endurheimta hana með útgáfusögunni í OneDrive. [Frekari upplýsingar um endurheimt eldri útgáfu af skrá sem geymd er í OneDrive](https://support.microsoft.com/office/restore-a-previous-version-of-a-file-stored-in-onedrive).
+
+- **Halda bæði**
+ 
+  Þessi valkostur heldur þeirri skrá sem fyrir er og vistar skrána sem var valin úr aðalskrá undir öðru heiti. Nýja nafnið svipar til þess sem til er nefnt, nema með viðskeyttum töluliðum eins og "atriðum (2). xlsx".
 
 ## <a name="about-your-business-central-folder-on-onedrive"></a>Um starfrækslu miðlægu möppunnar á OneDrive
 
-Mappan og efni hennar eru lokuð þar til þú ákveður að deila því með öðrum. Til dæmis gætir þú ákveðið að deila efni með einum eða fleiri samstarfsmönnum þínum eða jafnvel fólki utan fyrirtækisins. Þú getur nálgast OneDrive á síðunni **Mínar stillingar** með því að velja tengilinn í reitnum **Skýjageymsla**. Frekari upplýsingar er að finna í [Deila OneDrive skrám og möppum](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+Mappan og efni hennar eru lokuð þar til þú ákveður að deila því með öðrum. Svo þú gætir ákveðið að deila efni með einum eða fleirum starfsmönnum eða jafnvel fólki utan fyrirtækisins. 
+
+Þú getur nálgast OneDrive á síðunni **Mínar stillingar** með því að velja tengilinn í reitnum **Skýjageymsla**. Frekari upplýsingar er að [samnýta OneDrive skrár og möppur](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
 :::image type="content" source="media/my-settings-cloud-storage.PNG" alt-text="Skýjageymslureiturinn í mínum stillingum":::
 
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
+
 [Business Central og OneDrive samþætting](across-onedrive-overview.md)  
 [Stjórnun OneDrive samþættingar við Business Central](admin-onedrive-integration.md)  
 [OneDrive ALGENGAR SPURNINGAR](admin-onedrive-faq.md)

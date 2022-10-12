@@ -4,18 +4,18 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: f574fbb444752b1c8b0761df80dbfdc98e8123e6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 83453858afb9cbaa893252e712fa408b27483b45
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531675"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607608"
 ---
 - Tengill um þessa síðu
 
   Efst í rúðunni sýnir spjald stutta lýsingu á viðkomandi síðu, ef hún er til. Ef ekki er til blaðsíðulýsing þá gefur kortið út staka hlekk á grein um síðuna.  
 
-  Ef [!INCLUDE[prod_short](prod_short.md)] ekki er hægt að finna viðeigandi tengil birtum við lendingarsíðuna í [Microsoft docs](/dynamics365/business-central) . Til dæmis, ef síðan var hluti af forriti sem bætti ekki samhengislegu Hjálparvörpun við [!INCLUDE[prod_short](prod_short.md)], *Lærðu Tengillinn* við lendingarsíðuna.  
+  Ef [!INCLUDE[prod_short](prod_short.md)] ekki er hægt að finna viðkomandi hlekk birtum við lendingarsíðuna í [Microsoft Learn](/dynamics365/business-central). Til dæmis, ef síðan var hluti af forriti sem bætti ekki samhengislegu Hjálparvörpun við [!INCLUDE[prod_short](prod_short.md)], *Lærðu Tengillinn* við lendingarsíðuna.  
 
 - Tenglar á skyldar greinar
 

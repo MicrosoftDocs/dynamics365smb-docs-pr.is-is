@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135985"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605111"
 ---
 # <a name="set-up-payment-terms"></a>Setja upp greiðsluskilmála
 
@@ -35,7 +35,7 @@ Ef senda á viðskiptavini áminningar um gjaldfallnar greiðslur þarf að setj
 > [!TIP]
 > Í grunnútgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] , eru greiðsluskilmálar með hlutagreiðslu ekki studdir. Þess í stað verður að nota fyrirframgreiðsluaðgerðina. Nánari upplýsingar um það eru í [Setja upp fyrirframgreiðslur](finance-set-up-prepayments.md).
 >
-> Í sumum löndum *getur* þú sett upp greiðsluskilmála með hlutagreiðslum. Frekari upplýsingar um það hvort þessi valkostur er studdur í þínu landi er að finna í **Staðbundin virkni** hlutanum á yfirlitssvæðinu á vinstri hlið svæðisins [Docs.microsoft.com](about-localization.md).
+> Í sumum löndum *getur* þú sett upp greiðsluskilmála með hlutagreiðslum. Ef þú vilt fræðast um hvort þessi hæfileiki er studdur í þínu landi Sérðu **kaflann staðbundin virkni** í skoðunarrúðunni vinstra megin á [Microsoft Learn](about-localization.md) grein.
 
 ## <a name="see-also"></a>Sjá einnig
 

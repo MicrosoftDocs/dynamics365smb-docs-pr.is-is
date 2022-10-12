@@ -1,6 +1,6 @@
 ---
 title: Búa til tilboð með samsetningarpöntun
-description: Hægt er að nota samsetningarstjórnun til að sérsníða samsetningaríhlut eftir beiðni viðskiptavinar á meðan söluferlinu stendur.
+description: Hægt er að nota samsetningarstýringu til að sérsníða beiðni um samsetninguna á viðskiptamanninn í söluferlinu.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,16 +10,16 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79d7e9ac5e3a71002af168ee02feef1a76671fce
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 7ba67db5f2ba0e01dc2b3b13dca162de714b3127
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528412"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607311"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Búa til tilboð með samsetningarpöntun
 
-Hægt er að nota samsetningarstjórnun til að sérsníða samsetningaríhlut eftir beiðni viðskiptavinar á meðan söluferlinu stendur. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
+Hægt er að nota samsetningarstýringu til að sérsníða beiðni um samsetninguna á viðskiptamanninn í söluferlinu. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Eins og þegar seld er hvers kyns önnur tegund af vöru, er einnig hægt að stofna sölutilboð fyrir sérsniðna samsetningarvöru áður en henni er umbreytt í sölupöntun. Þetta ferli felur í sér nokkur aukaskref í samanburði við stofnun venjulegs standandi sölutilboðs, og notar afbrigði tengdrar samsetningarpöntunar, sem er samsetningartilboð.
 
@@ -45,7 +45,7 @@ Eins og þegar seld er hvers kyns önnur tegund af vöru, er einnig hægt að st
 ## <a name="see-also"></a>Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
-[Vinna með uppskriftir](inventory-how-work-BOMs.md)  
+[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

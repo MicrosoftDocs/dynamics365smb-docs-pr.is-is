@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: bb39763e80acc25604f3a1528f5c6db286a5c1dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535490"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607662"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Yfirlit yfir verkhluta sem felur í sér lokun fjárhagstímabila
 
@@ -24,32 +24,32 @@ ms.locfileid: "9535490"
 
 * Tilgreindu kerfisbundið og notendasértækt bókunartímabil.  
 
-    Þetta tilgreinir dagsetningar þar sem hægt er að bóka. Þú gætir viljað leyfa bókun í byrjun tímabilsins eða í lok tímabilsins, allt eftir fyrirtækinu. Frekari upplýsingar eru í [Tilgreina bókunartímabil](finance-how-specify-posting-periods.md).  
-* Allar nauðsynlegar fjárhagsleiðréttingar eru framkvæmdar.  
-* Ítrekunarbækur eru uppfærðar og bókaðar.  
+    Þetta tilgreinir dagsetningar þar sem hægt er að bóka. Þú gætir viljað leyfa bókun í byrjun tímabilsins eða í lok tímabilsins, allt eftir fyrirtækinu. Frekari upplýsingar er að tilgreina í [Bókunartímabilum](finance-how-specify-posting-periods.md).  
+* Gera allar nauðsynlegar leiðréttingar á fjárhag (fjárhags-)  
+* Uppfæra og bóka Ítrekunarbækur.  
   <!--* Process Consolidations-->
-* Fjárhagsskema keyrt sem hér segir:  
-  * Síðan **Fjárhagsskema** er opnaður og smellt á aðgerðina **Prenta**.  
+* Keyra ársskýrslur sem hér segir:  
+  * **Opnið síðu Fjármálaskýrslna** og veljið síðan **prenthaðgerðinn**.  
 
-## <a name="sales-and-receivables"></a>Sala and útistandandi
+## <a name="sales-and-receivables"></a>Sölu-og Skammtímakröfur
 
 * Allar sölupantanir, reikningar, kreditreikningar og vöruskilapantanir eru bókaðar.  
 * Inngreiðslubókin er bókuð.  
-* Uppfæra og birta bækur tímarit sem tengjast sölu og útistandandi.  
+* Uppfæra og bóka Ítrekunarbækur sem tengjast sölu og rekjanleika.  
 * Afstemma viðskiptakröfur við færslubók.  
 * Runuvinnslan **Eyða reikningsf. sölupöntunum** er keyrð.  
 
-## <a name="purchases-and-payables"></a>Innkaup og viðskiptaskuldir
+## <a name="purchases-and-payables"></a>Innkaup og skuldir
 
 * Allar pantanir, reikningar, kreditreikningar og vöruskilapantanir eru bókaðar.  
 * Allar greiðslubækur eru bókaðar.  
-* Ítrekunarfærslubækur tengdar innkaupum og viðskiptaskuldum eru uppfærðar og bókaðar.  
+* Uppfæra og bóka Ítrekunarbækur sem tengjast innkaupum og skuldum.  
 * Skýrslan **Aldursgreindar skuldir** er keyrð og skuldir stemmdar af við fjárhaginn.  
 * Runuvinnslan **Eyða reikningsf. innk.pöntunum** er keyrð.  
 
 ## <a name="fixed-assets"></a>Eignir
 
-* Allur viðhaldskostnaður hefur verið bókaður í gegnum Eignabók eða Reikningar
+* Bóka allan viðhaldskostnað sem hefur verið bókaður í gegnum eignabækur eða reikninga.
 * Leiðréttingar eru bókaðar
 * Uppfærsla er bókuð
 * Afskriftir eru bókaðar
@@ -57,11 +57,11 @@ ms.locfileid: "9535490"
 
 ## <a name="intercompany"></a>Milli fyrirtækja
 
-* Vinna úr færslum á milli fyrirtækja
+* Vinna samstæðufærslur.
 
-## <a name="calculate-and-process-sales-tax"></a>VSK er reiknaður og unninn
+## <a name="calculate-and-process-sales-tax"></a>Reikna og vinna virðisaukaskatt
 
-* Lokið er við skattyfirlit.  
+* Fylla út heildarskattframað.  
 
 ## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
@@ -70,6 +70,5 @@ ms.locfileid: "9535490"
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Bókum lokað](year-close-books.md)  
 [Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9203aa99271bc5fba840b3d568adc098686ef961
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b911692aa899eac88b74322e21454c87659a75a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136096"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605570"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Meðhöndla birgða- og framleiðslukostnað
+
 Þótt margar aðgerðir kostnaðarbókhalds felist í innri ferlum sem notandinn kemur ekki nálægt, til dæmis jöfnun færslna og sjálfvirk kostnaðarleiðrétting, eru nokkrir reitir, síður og skýrslur sem ætluð eru notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða.  
 
  Úthlutun kostnaðarauka til innkaupaskjala er dæmi um óbeinan kostnaðarbókhaldsverkhluta. Uppfærsla einingarkostnaðar samsetningar eða framleiðsluuppskriftarvöru er dæmi um beinni kostnaðarbókhaldsverkhluta.  
@@ -28,13 +29,14 @@ ms.locfileid: "8136096"
 |Uppfæra reglulega eða sjálfkrafa kostnaðarverð einnar vöru eða fleiri til að flytja fram kostnaðarbreytingar innhreyfingarfærslna, eins og við kaup eða framleiðslufrálag til viðeigandi útleiðarfærslu, eins og vegna notkunar eða flutninga.|[Leiðr. kostnað vara](inventory-how-adjust-item-costs.md)|  
 |Fá innsýn í virkni meðalkostnaðar til að taka verðákvarðanir eða rekja verðbreytingar vegna villna við gagnainnslátt.|[Skrá nýjar vörur](inventory-how-register-new-items.md)|  
 |Búa til kostnaðarverð framleiðsluvöru með því að færa inn kostnaðarliðina þrjá: Efniskostnað, afkastakostnað og undirverktakakostnað.|[Um umreikning staðalkostnaðar](finance-about-calculating-standard-cost.md)|  
-|Reikna kostnaðarverð framleiðsluuppskriftar miðað við kostnaðarverð undirliggjandi íhluta.|[Vinna með uppskriftir](inventory-how-work-BOMs.md)|  
+|Reikna kostnaðarverð framleiðsluuppskriftar miðað við kostnaðarverð undirliggjandi íhluta.|[Vinna með uppskriftir](inventory-how-work-BOMs.md) |  
 |Ljúka kostnaðarferli framleiðsluvöru með því að stilla kostnað og afstemma virðisfærslurnar við færslubókina.|[Um lokinn framleiðslupantanakostnað](finance-about-finished-production-order-costs.md)|  
 |Breyta gildi vöru í birgðum eða gildi einnar birgðafærslu, t.d. innkaupa.|[Endurmat birgða](inventory-how-revalue-inventory.md)|
 |Afturkalla handvirkt birgðajöfnunarfærslu eða setja aftur upp birgðafærslur sem forritið bjó til.|[Fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Nota skal reitinn **Jafnað frá færslu** í birgðabókinni til að stofna handvirkt fasta jöfnun milli færslu á innleið og upphaflegrar færslu á útleið.|[Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig .
+
 [Stjórna Birgðakostnaður](finance-manage-inventory-costs.md)
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)
 

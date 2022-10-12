@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 82d08e1c072f74434ad50943a97baf77712cb171
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1348066d757abc9768fe97fd6b5f7a337f96c5f6
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529407"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607127"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Skoða og breyta í Excel From Business Central
 
-Með síðum sem birta lista yfir færslur í línum og dálkum, eins og lista yfir viðskiptavini, sölupantanir eða reikninga, geturðu flutt út listannn í Microsoft Excel og skoðað hann þar. Þú hefur tvo valkosti til að skoða í Excel en það fer eftir síðunni. Báðir valkostirnir eru í boði undir tákninu **Deila** ![Deila síðu í öðru forriti.](media/share-icon.png) efst á síðu. Þú getur annaðhvort valið aðgerina **Opna í Excel** eða aðgerðina **Breyta í Excel** á síðunni. Í þessari grein er munurinn á aðgerðunum tveimur útskýrður.
+Með síðum sem birta lista yfir færslur í línum og dálkum, eins og lista yfir viðskiptavini, sölupantanir eða reikninga, geturðu flutt út listannn í Microsoft Excel og skoðað hann þar. Þú hefur tvo valkosti til að skoða í Excel en það fer eftir síðunni. Báðir valkostirnir eru í boði undir tákninu **Deila** ![Deila síðu í öðru forriti.](media/share-icon.png) efst á síðu. Þú getur annaðhvort valið aðgerina **Opna í Excel** eða aðgerðina **Breyta í Excel** á síðunni. Í þessari grein er útskýrt nánar aðgerðirnar tvær.
 
 ## <a name="open-in-excel"></a>Opna í Excel
 
@@ -27,8 +27,7 @@ Með aðgerðinni **Opna í Excel** er hægt að gera breytingar á færslum í 
 - Með þessari aðgerð tekur Excel allar síur á síðunni til greina sem takmarka færslurnar sem eru sýndar. Excel-vinnubókin mun innihalda sömu línur og dálka sem birtast á síðunni í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Þessi aðgerð virkar bæði í Windows og macOS.
-
-- Frá og með uppfærslu 18.3 er einnig hægt að skoða lista sem eru sýndir í síðuhlutum, eins og línurnar í sölupöntun. 
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
 > [!NOTE]
 > **Open í Excel** aðgerðin er sjálfgefið tiltæk fyrir [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss. Ef þú setur hins vegar upp [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss fyrir breytingar í Excel er **Opna í Excel** aðgerðinni skipt út fyrir aðgerðina **Breyta í Excel**.
@@ -41,12 +40,21 @@ Aðgerðin **Breyta í Excel** er í boði í flestum listum en ekki öllum. Me�
 
 - Með þessari aðgerð tekur Excel flestar síur á síðunni til greina sem takmarka færslurnar sem eru sýndar, þannig að Excel-vinnubókin innihaldi nánast sömu færslur og dálka.
 
-- Til að fá nýjustu gögnin úr [!INCLUDE[prod_short](includes/prod_short.md)] skal velja **Uppfæra** í glugga Excel-innbótar.
+- Til að fá nýjustu gögnin úr [!INCLUDE[prod_short](includes/prod_short.md)] skal velja **Refresh** í Viðbóingarrúðunni Excel.
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-- Hægt er að skipta um fyrirtæki sem unnið er með. Til að skipta um fyrirtæki velur þú táknið **Valkostir** ![Valkostir Excel-innbótar.](media/cogwheel.png "Valkostir Excel-innbótar") í glugga Excel-innbótar skal síðan velja fyrirtækið í reitnum **Fyrirtæki**.  
+### <a name="first-time-sign-in"></a>Fyrsta innskráning
 
-    > [!IMPORTANT]
-    > Þegar skipt er um fyrirtæki skal ganga úr skugga um að reiturinn **Umhverfi** sé ekki auður. Ef svo er skal stilla hann á einn af tiltækum valkostum, annars virkar innbótin ekki sem skyldi.  
+Aðgerðin **Breyta í Excel** krefst þess að innbót Business Central sé uppsett í Excel. Í sumum tilvikum gæti kerfisstjórinn hafa sett upp innbótina til að setja sjálfkrafa upp fyrir þig. Í þessu tilviki þarftu bara að skrá þig inn í Business Central í glugga **Excel-innbótar** með notandanafni og lykilorði. Annars opnast glugginn **Ný Office-innbót**. Til að setja upp innbótina skal velja **Treysta þessari innbót** sem mun setja upp innbótina beint úr Office-versluninni.
+
+Ef viðbótin er ekki uppsett skal annaðhvort hafa samband við admin eða reyna að setja það upp handvirkt. Frekari upplýsingar er að finna í [Setja upp innbótina handvirkt til eigin nota](admin-deploy-excel-addin.md#install).
+
+### <a name="work-across-environments-and-companies"></a>Vinna þvert á umhverfi og fyrirtæki
+
+Hægt er að skipta um fyrirtæki sem unnið er með. Til að skipta um fyrirtæki velur þú táknið **Valkostir** ![Valkostir Excel-innbótar.](media/cogwheel.png "Valkostir Excel-innbótar") í glugga Excel-innbótar skal síðan velja fyrirtækið í reitnum **Fyrirtæki**.  
+
+> [!IMPORTANT]
+> Þegar skipt er um fyrirtæki skal ganga úr skugga um að reiturinn **Umhverfi** sé ekki auður. Ef svo er skal stilla hann á einn af tiltækum valkostum, annars virkar innbótin ekki sem skyldi.  
 
 Ef verið er að gera breytingar á innbótinni verður að endurhlaða hana til að uppfæra tenginguna. Til að endurhlaða skal nota valmyndina ![Excel-innbót](media/excel-addin-menu.png "Valkostir Excel-innbótar") efst í hægra horni innbótarinnar. Ef ekki er hægt að hlaða innbótinni skal tala við kerfisstjórann. Ef þú ert kerfisstjórinn skaltu skoða [Sækja innbót Business Central fyrir Excel](admin-deploy-excel-addin.md).
 
@@ -55,20 +63,9 @@ Ef verið er að gera breytingar á innbótinni verður að endurhlaða hana til
 >
 > Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er aðgerðin **Breyta í Excel** aðeins í boði ef stjórnandi hefur stillt Excel-innbótina og aðeins í boði fyrir vefbiðlara. Ef stjórnendur langar að fræðast betur um hvernig eigi að setja upp Excel-innbótina má finna upplýsingar um það í [Setja upp Excel-innbótina fyrir Business Central Data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
+### <a name="limits-when-using-excel-for-the-web"></a>Takmarkanir við notkun Excel fyrir vefinn 
 
-<!-- Note for later: here we're immediately jumping to pretty advanced topics like changing company or reloading the addin. Fine to keep them for now. In the future, we will first need to explain in more detail the actual functionality of the addin, primarily these sub-sections:
-
-Refreshing record data in Excel
-Editing and publishing back to Business Central
-Creating new records from Excel
-Crafting your own editable Excel.
-Point (4) is where it gets interesting for changing/specifying company, environment and other connection settings-->
-
-### <a name="first-time-sign-in"></a>Fyrsta innskráning
-
-Aðgerðin **Breyta í Excel** krefst þess að innbót Business Central sé uppsett í Excel. Í sumum tilvikum gæti kerfisstjórinn hafa sett upp innbótina til að setja sjálfkrafa upp fyrir þig. Í þessu tilviki þarftu bara að skrá þig inn í Business Central í glugga **Excel-innbótar** með notandanafni og lykilorði. Annars opnast glugginn **Ný Office-innbót**. Til að setja upp innbótina skal velja **Treysta þessari innbót** sem mun setja upp innbótina beint úr Office-versluninni.
-
-Ef uppsetning innbótarinnar gengur ekki af einhverjum ástæðum skaltu hafa samband við stjóranda eða reyna að setja hana upp handvirkt. Frekari upplýsingar er að finna í [Setja upp innbótina handvirkt til eigin nota](admin-deploy-excel-addin.md#install).
+Þegar **breytt er í Excel** notað á listasíðum fyrir töflur með mörgum dálkum, gæti vinnubók með of mörgum dálkum verið skoðuð í Excel fyrir vefinn. [!INCLUDE[prod_short](includes/prod_short.md)] takmarkar sjálfkrafa útfluttu vinnubók í 100 dálka þegar OneDrive er samskipað fyrir eiginleika kerfisins. 
 
 ## <a name="see-the-differences-between-the-options"></a>Sjá muninn á milli valkostanna
 <br><br>  

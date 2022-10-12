@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531702"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607716"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -51,7 +51,7 @@ ms.locfileid: "9531702"
 Notaðu leitarsvæðið efst í Hjálparúðunni til að leita eftir ráðgjöf um notkun vörunnar, innbyggðan möguleika og tiltæk þjálfunareiningar. Eftir því hvað leitarskilmálarnir varðar sýnir rúðan fimm eða fleiri tengla með stuttri lýsingu. Veldu tengil eða fínstilltu leitarskilyrðið. Þegar þú velur tengil opnast markgreinin í nýjum vafraflipa. Þú getur valið að losa vafragluggann svo þú getir skoðað viðeigandi upplýsingar við hliðina á [!INCLUDE [prod_short](includes/prod_short.md)]. Glugginn helst opinn á meðan þú flettir í gegnum [!INCLUDE [prod_short](includes/prod_short.md)] þannig að efnið sem þú leitaðir að helst sýnilegt.  
 
 > [!NOTE]
-> Í gildandi útgáfu [!INCLUDE [prod_short](includes/prod_short.md)] í, gildir leitarsvæðið í hjálparrúðunni aðeins um efni sem birt [eru á Docs.microsoft.com](/dynamics365/business-central) svæði.
+> Í gildandi útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] er aðeins á leitarsvæðinu í hjálparrúðunni efni sem birt [Dynamics 365 Business Central eru í fylgigögnum](/dynamics365/business-central)Microsoft Learn.
 
 ## <a name="help--support-page"></a>Hjálpar- og stuðningssíða
 
@@ -83,7 +83,7 @@ Kaflinn **Finna það** inniheldur tvo tengla á hjálp fyrir afurð:
 
 - Hjálp um síðuna sem þú varst að skoða í [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Þessi tengill er myndaður sjálfkrafa. Ef [!INCLUDE[prod_short](includes/prod_short.md)] ekki er hægt að finna viðkomandi hlekk er lendingarsíða á [Docs.microsoft.com](index.md) fyrir sjálfgefna útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] er sýnd. Til dæmis, ef síðan var hluti af forriti sem bætti ekki samhengislegu Hjálparvörpun við [!INCLUDE[prod_short](includes/prod_short.md)], *Lærðu Tengillinn* við lendingarsíðuna.  
+  Þessi tengill er myndaður sjálfkrafa. Ef [!INCLUDE[prod_short](includes/prod_short.md)] ekki er hægt að finna viðkomandi hlekk [er lendingarsíða á Microsoft Learn](index.md) fyrir sjálfgefna útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] sýnd. Til dæmis, ef síðan var hluti af forriti sem bætti ekki samhengislegu Hjálparvörpun við [!INCLUDE[prod_short](includes/prod_short.md)], *Lærðu Tengillinn* við lendingarsíðuna.  
   
 - Lendingarsíða hjálpar fyrir [!INCLUDE[prod_short](includes/prod_short.md)]  
 

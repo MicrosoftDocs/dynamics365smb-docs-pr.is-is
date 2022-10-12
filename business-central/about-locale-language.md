@@ -10,12 +10,12 @@ ms.search.keywords: language, locale, localization, culture, region, regional se
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 23cb50952e1fda9a8dc46398aaf5054e7e03e3ed
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655515"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606830"
 ---
 # <a name="changing-language-and-region"></a>Breyta tungumáli og svæði
 
@@ -58,14 +58,14 @@ Sum fyrirtæki nota ytri þjónustu sem staðfestir upplýsingar um aðsetur í 
 
 ## <a name="languages-of-the-prod_short-help"></a>Tungumál [!INCLUDE[prod_short](includes/prod_short.md)] hjálparinnar
 
-Hjálparefni sjálfgefinnar útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] útgefnum á setri Microsoft docs. Efnið er aðgengilegt á mismunandi tungumálum. Ef þú nálgast skjölin innanfrá [!INCLUDE[prod_short](includes/prod_short.md)], mun efnið birtast á þínu tungumáli. Sjálfgefið er að ef tiltekin síða er ekki tiltæk á tungumáli notanda þá birtist hún á ensku.
+Hjálparefni sjálfgefinnar útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] útgefnum á Microsoft Learn. Efnið er aðgengilegt á mismunandi tungumálum. Ef farið er í heimildaskráningu úr innu [!INCLUDE[prod_short](includes/prod_short.md)] þá birtist efnið á þínu tungumáli. Sjálfgefið er að ef tiltekin síða er ekki tiltæk á tungumáli notanda þá birtist hún á ensku.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Hvernig breyti ég tungumálinu Microsoft Docs svæðis?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Hvernig breyti ég tungumáli á Microsoft Learn síðuna?
 
 Það er einfalt - skrunaðu neðst á síðu vafrans og veldu hnattmerkið neðst í vinstra horninu.
 
 > [!NOTE]  
-> Á listanum má sjá öll tungumál sem eru studd af Microsoft Docs vefsvæðinu. [!INCLUDE[prod_short](includes/prod_short.md)] er í boði í tilteknum löndum/svæðum og [!INCLUDE [prod_short](includes/prod_short.md)] Hjálparefnið er ekki tiltækt á öllum tungumálum sem Microsoft Docs vefsvæðið styður.
+> Listinn sýnir öll tungumál sem setrið styður Microsoft Learn. [!INCLUDE[prod_short](includes/prod_short.md)] er aðgengilegt í takmörkuðum fjölda landa/svæða og [!INCLUDE [prod_short](includes/prod_short.md)] hjálparefnið er ekki aðgengilegt á öllum tungumálum sem Microsoft Learn setrið styður.
 
 ## <a name="see-also"></a>Sjá einnig
 

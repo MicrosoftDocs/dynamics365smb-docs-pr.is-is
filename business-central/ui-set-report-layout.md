@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
-ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d63bfb699932261e0e9b74ef3aebcbd52bc53604
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535854"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606884"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Uppsetning á uppsetningu sem notuð er í skýrslu
 
@@ -27,15 +27,17 @@ Skýrslusnið ákvarðar útlit skýrslu. Það stýrir því hvaða gagnasvæð
 
 ## <a name="get-started"></a>Hafist handa
 
-Það eru tvær leiðir til að stilla hvaða útlit á að nota skýrsluna. Ein leiðin er frá **valsíðu** skýrsluuppsetningar. Hin leiðin er af **síðu skýrsluuppsetningar**. Hver síða hefur kosti, t.d.: 
+Nokkrar leiðir eru færar til að stilla hvaða skipulag er notað í skýrslu. Hver leið hefur kosti, eftir því hvað þú ert að leita að: 
 
-- Síðan Valsíða **fyrir** uppsetningu skýrslu Birtir lista yfir allar skýrslur.
+- Frá síðu skýrslubeiðninnar
 
-  Á þessari síðu kemur fram hvað gildandi útlit skýrslu er. Auk þess er hægt að setja skipulag í mismunandi fyrirtæki, án þess að þurfa að skipta fyrirtækinu sem unnið er með.
+  Þegar skýrsla er sett upp sem á að keyra er skýrslubeiðninnar síða með **Skýrsluútlitsvæðinu** sem sýnir núverandi sjálfgefið útlit skýrslunnar sem notuð er í skýrslunni. Hægt er að nota þennan reit til að skipta tímabundið yfir í annað tiltækt útlit. Eftir að skýrslan hefur verið keyrð, mun útlitið snúa aftur í sjálfgefna útlitið. Nánari upplýsingar má finna [í keyra og prenta skýrslur](ui-work-report.md#switching-the-report-layout).
 
-- Á **síðunni skipulag uppsetningar** birtist allt tiltækt skipulag fyrir hverja skýrslu í gildandi fyrirtæki.
+- **Úr skýrsluuppsetningu valsíðu**
 
-  Auðvelt er að finna ákveðið útlit með því að raða eða sía listann. Þegar útlitið er fundið er hægt að stilla það fyrir skýrslu með einu vali.
+  Síðan Valsíða **fyrir** uppsetningu skýrslu Birtir lista yfir allar skýrslur. Á þessari síðu kemur fram hvað gildandi sjálfgefið útlit skýrslu er. Það gerir þér kleift að setja skipulag í mismunandi fyrirtæki, án þess að þurfa að skipta fyrirtækinu sem þú starfar hjá.
+
+- **Úr síðu uppsetningar** skýrslunnar á **síðunni útlit** skýrslu Birtir allt tiltækt skipulag fyrir hverja skýrslu í gildandi fyrirtæki. Það er einnig notað til að tilgreina sjálfgefið útlit fyrir skýrslur. Auðvelt er að finna ákveðið útlit með því að raða eða sía listann. Þegar útlitið er fundið er hægt að stilla það fyrir skýrslu með einu vali.
 
   > [!NOTE]
   > Ekki er hægt að nota **síðuna Uppsetning skýrslu** fyrir Word og RDLC sem voru stofnaðar með **aðgerðinni sérsnið sérsniðinnar uppsetningar**. Í raun sést ekki í þessar sérsniðnu uppsetningar sem eru skráðar á **síðu skýrsluuppsetningar**. Aðeins er hægt að stilla þær með því að nota **valsíðu** skýrsluútlits.

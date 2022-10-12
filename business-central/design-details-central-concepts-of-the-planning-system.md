@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148669"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605165"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis
 
-Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um. Þá, í samræmi við lágstigskóða (uppskriftarstaðsetningu), kallar runuvinnslan á kóðaeininguna, sem reiknar út birgðaáætlun með því að jafna framboð-eftirspurn og stinga upp á aðgerðum fyrir notandann. Ráðlagðar aðgerðir birtast sem línu á áætlunvinnublaðinu eða innkaupatillögunni.  
+Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um. Síðan, í samræmi við lágstigs kóða (UPPSKRIFTARSTÖÐU), kallar keyrslan kótaeiningu, sem reiknar út framboðstegundin eftir að mótframboð-krafa er sett upp og stingur upp á hugsanlegum aðgerðum sem notandinn á að taka. Ráðlagðar aðgerðir birtast sem línu á áætlunvinnublaðinu eða innkaupatillögunni.  
 
 ![Innihald síðu áætlunarvinnublaðs.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Innihald síðu áætlunarvinnublaðs")  
 
@@ -32,7 +32,7 @@ MRP og MPS, Reikna nettóbreytingaráætlun og Reikna endurgerðaráætlun eru a
 
 Hafið í huga að áætlanakerfið inniheldur ekki sérstakan grunn fyrir afkastaveitujöfnun eða fínstillingu. Því er slík áætluð vinna framkvæmd sem aðskilinn þáttur. Skortur á beinni samþættingu á milli þessara tveggja svæða merkir einnig að veruleg geta eða breytingar á áætlun munu útheimnta endurkeyrslu á áætlanagerð.  
 
-## <a name="planning-parameters"></a>Áætlunarfæribreytur
+## <a name="planning-parameters"></a>Færibreytur áætlana
 
 Áætlunarfæribreytur sem notandi velur fyrir vöru eða vöruflokk stjórnar því hvaða aðgerðum áætlunarkerfið stingur upp á við ýmsar aðstæður. Áætlunarfæribreyturnar eru skilgreindar á hverju birgðaspjaldi til að stýra því hvenær, hversu mikið og hvernig er fyllt á.  
 
@@ -50,7 +50,7 @@ Með öðrum orðum, það er gert ráð fyrir að áætlun fyrir fortíðina er
 
 Frekari upplýsingar eru í [Takast á við pantanir fyrir upphafsdag áætlanagerðar](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
-## <a name="dynamic-order-tracking-pegging"></a>Breytilegar pöntunarrakningar (vörpum)
+## <a name="dynamic-order-tracking-pegging"></a>Kvika pöntun Rakning (pegging)
 
 Breytilegar pöntunarrakningar, með samtímis stofnun aðgerðaskilaboða í áætlanavinnublaði, er ekki hluti af framboðsáætlanakerfi í [!INCLUDE[prod_short](includes/prod_short.md)]. Þessi eiginleiki tengir, í rauntíma, eftirspurnina og magnið sem uppfyllir hana, í hvert skipti sem framboð er stofnað eða því breytt.  
 
@@ -64,7 +64,7 @@ Nánari upplýsingar eru í [Upplýsingar um hönnun: Frátekning, Vörurakning 
 
 Í fyrirtækjum með lítið vöruflæði og minna þróaða vöruuppbyggingu getur verið fullnægjandi til að nota kvika pöntunarrakningu sem helstu leiðir til framboðsáætlanagerðar. Hins vegar, í umhverfi þar sem meira er um að vera ætti alltaf að nota áætlanakerfið til að tryggja rétt jafnaða framboðsáætlun.  
 
-### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Breytilegar pöntunarrakningar vs. áætlanakerfi
+### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynamic pöntunarmælingar á móti í áætlanakerfi
 
 Fljótt á litið kann það að virðast erfitt að greina á milli áætlunarkerfis og kvikrar pöntunarrakningar. Bæði sýna frálag í áætlanavinnublaði með því að leggja virkninni sem skipuleggjandi ætti að taka. Hins vegar er mismunandi hvernig þessi framleiðsla er framleidd.  
 
@@ -82,13 +82,13 @@ Eftir áætlunarkeyrslu eru engin aðgerðaboð eftir í töflunni Aðgerðarbo�
 
 Frekari upplýsingar eru í [Pantanarakningartenglar við áætlunargerð](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
-## <a name="sequence-and-priority-in-planning"></a>Röð og forgangur í áætlun
+## <a name="sequence-and-priority-in-planning"></a>Röð og forgangur í áætlanagerð
 
 Þegar koma á á áætlun skiptir  röð útreikninga máli til að ljúka megi verkinu innan hæfilegs tíma. Að auki, forgangsröðun krafna og tilfanga gegna mikilvægu hlutverki við að afla sem bestum árangri.  
 
 Áætlanakerfið í [!INCLUDE[prod_short](includes/prod_short.md)] er knúið áfram af eftirspurn. Vörur á háu stigi skulu áætlaðar á undan lágstigsvörum því áætlunin fyrir hástigsvörur gæti myndað viðbótareftirspurn fyrir vörur á lægra stigi. Þetta þýðir til dæmis að smásölustaðsetningar skulu áætlaðar áður en dreifingarmiðstöðvar eru áætlapðar, vegna þess að áætlun fyrir smásala staðsetning getur falið frekari eftirspurn frá dreifingarmiðstöð. Í sundurliðuðum jöfnunarstigum þýðir þetta einnig að sölupöntun skuli ekki kveikja á nýrri framboðstekju ef hægt er að ná sölupöntuninni. Eins ætti ekki að úthluta framboð með tilteknu lotunúmeri til að uppfylla almenna eftirspurn ef önnur eftirspurn krefst þessara tilteknu lotu.  
 
-### <a name="item-priority--low-level-code"></a>Vöruforgangur / Lægra stigs kóði
+### <a name="item-priority--low-level-code"></a>Forgangur/Lágstigskóti vöru
 
 Í framleiðslu-umhverfi, eftirspurn fyrir lokið, seljanlega vöru mun leiða í unnum eftirspurn fyrir íhluti sem eru í tilbúna hlutnum. Uppbygging uppskriftar stjórnar íhlutauppbyggingunni og getur náð yfir nokkur stig hálfunninna vara. Áætlun vöru á einu stigi veldur afleiddri eftirspurn fyrir íhluti á næsta stigi, og svo koll af kolli. Þetta leiðir á endanum til afleiddrar eftirspurnar fyrir keyptar vörur. Þar af leiðandi áætlar áætlanakerfi vörur í flokkunarröð þeirra í stigveldi uppskrifa og byrjar á loknum seljanlegum vörum á efsta stigi og heldur áfram niður eftir vörustigveldinu að lægra skipuðum vörum (samkvæmt lágstigskóða)  
 
@@ -98,7 +98,7 @@ Tölurnar sýnir í hvaða röð kerfið gerir tillögur um framboðspantanir á
 
 Frekari upplýsingar um hluti tengda framleiðslu eru í [Hleðsla birgðaforstillinga](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-#### <a name="optimizing-performance-for-low-level-calculations"></a>Fínstilla afköst fyrir lágstigsútreikninga
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Hagræðing vegna lágmörkun útreikninga
 
 Útreikningar á lágstigskóða geta haft áhrif á afköst kerfis. Til að draga úr áhrifunum er hægt að gera **Útreikning á breytilegum lágstigskóða** óvirkan á síðunni **Framleiðsluuppsetning**. Þegar það er gert leggur [!INCLUDE[prod_short](includes/prod_short.md)] til að stofnuð sé endurtekin verkraðarfærsla sem mun uppfæra lágstigskóða daglega. Hægt er að ganga úr skugga um að vinnslan keyri utan vinnutíma með því að tilgreina upphafstíma í reitnum **Fyrsti upphafsdagur/tími**.
 
@@ -107,33 +107,33 @@ Einnig er hægt að virkja reiknireglu sem hraðar útreikningi á lágstigskó�
 > [!IMPORTANT]
 > Ef valið er að fínstilla afköst notar [!INCLUDE[prod_short](includes/prod_short.md)] nýjar útreikningsaðferðir til að ákvarða lágstigskóða. Ef um er að ræða viðbót sem treystir á þau tilvik sem notast er við í gamla útreikningunum, getur viðbótin hætt að virka.   
 
-### <a name="locations--transfer-level-priority"></a>Birgðageymslur / Forgangur millifærslustigs
+### <a name="locations--transfer-level-priority"></a>Forgangur staðsetningar/flutnings-stigs
 
-Fyrirtæki sem starfa á fleiri en einum stað getur þurft að áætla fyrir hverja staðsetningu fyrir sig. Til dæmis getur öryggisbirgðastig vöru og endurpöntunarstefna verið mismunandi frá einum stað til annars. Í þessu tilviki, verða að vera tilgreind áætlunarfæribreyta fyrir hverja vöru og einnig á stað.  
+Fyrirtæki sem starfa á fleiri en einum stað getur þurft að áætla fyrir hverja staðsetningu fyrir sig. Til dæmis getur öryggisbirgðastig vöru og Endurpöntunarstefna verið mismunandi frá einum stað til annars. Í þessu tilviki, verða að vera tilgreind áætlunarfæribreyta fyrir hverja vöru og einnig á stað.  
 
 Þetta er stutt við notkun birgðahaldseiningar, þar sem einstaka áætlunarfæribreytur geta verið tilgreindar á birgðahaldseiningarstigi. Hægt er að líta á BHE sem vöru í tiltekinni birgðageymslu. Ef notandi hefur ekki skilgreint birgðahaldseiningu fyrir þessa staðsetningu notar forritið sjálfgefið þær færibreytur sem voru stilltar á birgðaspjaldinu. Forritið reiknar út áætlun fyrir aðeins virkar staðsetningar, sem eru staðsetningar þar sem er fyrirliggjandi eftirspurn eða framboð á viðkomandi vöru.  
 
-Í meginatriðum hvaða vara sem er hægt að meðhöndla á hverjum stað, en nálgun forritsins á staðsetningarhugtakið er alveg ströng. Til dæmis er ekki hægt að uppfylla sölupöntun á einum stað með magni í birgðum af öðrum stað. Magn birgða þarf fyrst að flytja af þeirri staðsetningu sem tilgerind er á sölupöntun.  
+Í grundvallaratriðum er hægt að afgreiða öll atriði á hvaða stað sem er, en nálgun umsóknar á staðsetningarhugtakinu er nokkuð ströng. Til dæmis er ekki hægt að uppfylla sölupöntun á einum stað með magni í birgðum af öðrum stað. Magn birgða þarf fyrst að flytja af þeirri staðsetningu sem tilgerind er á sölupöntun.  
 
 ![Áætlanagerð fyrir birgðahaldseiningar.](media/NAV_APP_supply_planning_1_SKU_planning.png "Áætlanagerð fyrir birgðahaldseiningar")  
 
 Nánari upplýsingar eru í [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md).  
 
-### <a name="order-priority"></a>Forgangur pöntunar
+### <a name="order-priority"></a>Forgangsröðun pöntunar
 
 Innan tiltekinnar birgðahaldseiningar, táknar umbeðin eða tiltæk dagsetning hæsta forgang; eftirspurn í dag ætti að mæta áður en eftirspurn næstu viku er mætt. En burtséð frá þessu forgangskröfum er mismunandi eftirspurnar-og framboðstegundum raðað eftir viðskiptamikilvægi til að ákveða hvaða eftirspurn eigi að vera fullnægjandi áður en til annarrar eftirspurnar kemur. Á framboðshlið segir pöntunarforgangur til um hvaða uppsprettu framboðs á að jafna áður en aðrar uppsprettur framboðs eru jafnaðar.  
 
 Frekari upplýsingar eru í [Forgangsröðun pantana](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
-## <a name="demand-forecasts-and-blanket-orders"></a>Eftirspurnarspá og standandi pantanir
+## <a name="demand-forecasts-and-blanket-orders"></a>Eftirspurnarspár og standandi pantanir
 
-Spá og standandi pöntun endurspegla bæði vænta eftirspurn. Standandi pöntunin, sem nær yfir ætluð kaup viðskiptamanns á tilteknum tíma, er ætlað að minnka óvissu í heildarspá. Standandi pöntunin er spá fyrir tiltekinn viðskiptamann ofan á ótilgreindri spá sem útskýrð er hér að neðan.  
+Spá og standandi pöntun endurspegla bæði vænta eftirspurn. Standandi pöntunin sem fjallar um fyrirhugaða innkaup viðskiptavinar yfir ákveðinn tíma, virkar til að minnka óvissu um heildarspána. Standandi pöntunin er spá fyrir tiltekinn viðskiptamann ofan á ótilgreindri spá sem útskýrð er hér að neðan.  
 
 ![Áætlanagerð með spám.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Áætlanagerð með spám")  
 
 Frekari upplýsingar eru í [Spá um eftirspurn er minnkuð eftir sölupöntunum](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
-## <a name="planning-assignment"></a>Úthlutað á áætlun
+## <a name="planning-assignment"></a>Skipulagning úthlutunar
 
 Allar vörur ættu að vera áætlaðar en aftur á móti er engin ástæða til að reikna áætlun fyrir vöru nema eftirspurnar- eða framboðsmynstur hafi breyst síðan áætlun var síðast reiknuð.  
 
@@ -143,7 +143,7 @@ Ef notandi hefur slegið inn nýja sölupöntun eða breytt pöntun sem fyrir er
 
 Fyrir margar staðsetningar fer úthlutunin fram á vörustigi hverrar samsetningar staðsetningar. Ef, til dæmis, sölupöntun hefur verið búin til á aðeins einum stað, úthlutar forritið vörunni á þeim tiltekna stað fyrir áætlanagerð.  
 
-Ástæðan fyrir að velja vörur fyrir áætlun grundvallast á afköstum kerfisins. Ef engin breyting hefur orðið á framboðs- og eftirspurnarmynstri vörunnar leggur áætlanakerfið ekki til neinar ráðstafanir. Ef áætlun væri ekki úthlutað yrði kerfið að gera útreikninga fyrir allar vörur til að finna út hvernig á að áætla og það myndi ganga um of á kerfið.  
+Ástæðan fyrir að velja vörur fyrir áætlun grundvallast á afköstum kerfisins. Ef engin breyting á eftirspurnarmynstri vöru hefur átt sér stað mun áætlanakerfið ekki benda til þess að grípa þurfi til aðgerða. Ef áætlun væri ekki úthlutað yrði kerfið að gera útreikninga fyrir allar vörur til að finna út hvernig á að áætla og það myndi ganga um of á kerfið.  
 
 Tæmandi skrá yfir ástæður fyrir úthlutun vöru í áætlanagerð er að finna í [Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md).  
 
@@ -168,13 +168,13 @@ Kerfið meðhöndlar afbrigði og staðsetningarkóða sem vöruvídd á sölup�
 
 Frekari upplýsingar um hvernig áætlanakerfi vinna með staðsetningarkóða eftir pöntun eru í [Hönnunarupplýsingar: Eftirspurn í autt birgðageymslu](design-details-balancing-demand-and-supply.md).  
 
-## <a name="item-attributes"></a>Vörueigindir
+## <a name="item-attributes"></a>Eigindir vöru
 
 Fyrir utan almennar vöruvíddir, eins og vörunúmer, afbrigðiskóða, birgðageymslukóða og pöntunarger, geta eftirspurnar- og framboðstilvik haft í för með sér frekari skilgreiningar í rað-/lotunúmerum. Áætlanakerfið skipuleggur þessar eigindir á ákveðinn hátt, allt eftir reglustigi.  
 
 Tengill á milli pantana á milli eftirspurnar og framboðs er önnur gerð eigindar sem hefur áhrif á áætlunarkerfið.  
 
-### <a name="specific-attributes"></a>Tilgreindir eiginleikar
+### <a name="specific-attributes"></a>Tilteknar eigindir
 
 Ákveðin eigindir á eftirspurn eru sérstakar og verður að passa nákvæmlega við samsvarandi framboð. Eftirfarandi tvær sérstakar eigindir eru til:  
 
@@ -188,7 +188,7 @@ Fyrir þessar eigindir beitir áætlanakerfið eftirfarandi reglum:
 
 Í samræmi, ef eftirspurn eftir sérstökum eigindum er ekki hægt að uppfylla með birgðum eða áætluðum framboði mun áætlunarkerfið stinga upp á nýrri framboðspöntun til að dekka þessa sérstöku eftirspurn án tillits til áætlunarfæribreyta.  
 
-### <a name="non-specific-attributes"></a>Ótilgreindar eigindir
+### <a name="non-specific-attributes"></a>Óákveðnar eigindir
 
 Rað/Lotunúmeraðar vöru án ákveðinna vörurakningaruppsetningar kunna að bera raðnúmer / lotunúmeri sem þurfa ekki að beita á nákvæmlega sama raðnúmer / lotunúmer, en hægt er að beita á allir raðnúmer / lotunúmer. Þetta gefur áætlanakerfinu meira frelsi til að para saman, t.d. raðaðri eftirspurn með röðuðu framboði, vanalega í birgðum.  
 
@@ -198,7 +198,7 @@ Frekari upplýsingar eru í [Raðnúmer/lotunúmer eru hlaðin eftir lýsingarst
 
 Frekari upplýsingar um hvernig áætlanakerfi jafnar eigindir eru í [Tenglar vöru-/raðnúmers og pöntun-í-pöntun eru undanskildir frosna svæðinu](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
-## <a name="order-to-order-links"></a>Tenglar á milli pantana
+## <a name="order-to-order-links"></a>Pöntunartenglar til að panta
 
 Vinnsla á milli pantana merkir að vara er keypt, samsett eða framleidd til að uppfylla sérstaka eftirspurn. Venjulega tekur hún til A-vara og ástæða fyrir að velja þessa stefnu getur verið að eftirspurn er hverfandi, sem afhendingartími er óveruleg, eða nauðsynlegar eigindir mismunandi.  
 
@@ -250,7 +250,7 @@ Neyðarviðvörun birtist í tveimur aðstæðum:
 -   Þegar birgðir eru neikvæðar á upphafsdagsetningu áætlunar.  
 -   Þegar framboðs- eða eftirspurnaratvik eru til aftur í tíma.  
 
-Ef birgðir eru neikvæðar á upphafsdegi áætlunarinnar stingur kerfið upp á neyðarframboði með neikvæða magninu fyrir upphafsdagsetninguna. Upphafsdagsetningin og magn neyðarpöntunarinnar eru tiltekin í viðvörunartextanum. Frekari upplýsingar er að finna í [Að takast á við áætlaða neikvæða birgðastöðu](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
+Ef birgðir vöru eru neikvæðar á upphafsdegi áætlunar stingur áætlunarkerfið upp á neyðarbirgðum fyrir neikvætt magn til að koma á upphafsdegi áætlunar. Upphafsdagsetningin og magn neyðarpöntunarinnar eru tiltekin í viðvörunartextanum. Frekari upplýsingar er að finna í [Að takast á við áætlaða neikvæða birgðastöðu](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Allar skjalalínur með skiladagsetningar á undan upphafsdagsetningu áætlunarinnar eru settar í eina neyðarpöntun til að varan berist á áætlaðri upphafsdagsetningu.  
 
@@ -292,14 +292,14 @@ Reitinn má handvirkt stilla af notanda, þó í sumum tilfellum verður að ver
 
 Nánari upplýsingar um það hvernig þessi reitur er notaður eru í [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md).  
 
-## <a name="order-planning"></a>Pantanaáætlun
+## <a name="order-planning"></a>Pantanáætlun
 
 Verkfæri grunnframboðsáætlanagerðar á síðunni **Pantanaáætlun** er hannað fyrir handvirka ákvarðanatöku. Það tekur ekki tillit til áætlanagerðarfæribreytur og er því ekki rætt frekar í þessu skjali. Frekari upplýsingar eru í [Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Ekki er ráðlegt er að nota pantanaáætlun ef fyrirtækið notar þegar áætlunarvinnublöð eða innkaupatillagnablöð. Framboðspantanir sem stofnaðar eru á síðunni **Pantanaáætlun** geta breyst eða verið eytt á meðan sjálfvirk áætlanagerð er keyrð. Það er vegna þess að sjálfvirk áætlanagerð er keyrð með áætlunarfæribreytum og hugsanlega tekur notandinn sem gerir handvirka áætlun á síðunni Pantanaáætlun ekki tillit til þeirra.  
 
-##  <a name="finite-loading"></a>Takmarkað álag
+## <a name="finite-loading"></a>Takmörkuð hleðsla
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er staðlað ERP kerfi, ekki stjórnkerfi afgreiðslu eða verslunar. Hún áætlar gerlega nýtingu tilfanga með því að leggja fram grófa áætlun en stofnar ekki og viðheldur sjálfkrafa ítarlegum áætlunum, byggðum á reglum um forgangsröðun eða bestun.  
 
@@ -308,19 +308,18 @@ Fyrirhuguð notkun á tilföngum með takmarkaða getu er 1): að forðast yfir�
 Við áætlum á tilföngum með takmarkaða getu tryggir kerfið að engin tilföng séu hlaðin yfir skilgreina getu (hættumörk) Þetta er gert með því að úthluta hverri virkni á næsta tiltekna tímabil. Ef tímabilið er ekki nógu langt til að hægt sé að ljúka allri aðgerðinni verður aðgerðinni skipt í tvo eða fleiri hluta á næstu tiltæku tímabilum.  
 
 > [!NOTE]  
->  Í tilviki uppskiptingar starfssemi er uppsetningartíma aðeins  úthlutað einu sinni vegna þess að það er gert ráð fyrir að sumir handvirk jöfnun sé gerð til að hámarka áætlun.  
+> Í tilviki uppskiptingar starfssemi er uppsetningartíma aðeins  úthlutað einu sinni vegna þess að það er gert ráð fyrir að sumir handvirk jöfnun sé gerð til að hámarka áætlun.  
 
 Hömlutíma má bæta við tilföng til að draga úr skiptingu reksturs Þetta gerir kerfinu kleift að áætla hleðslu á síðasta mögulega dag með því auka álagsprósentuna lítillega ef það er hægt að minnka fjölda virkni sem er skipt.  
 
 Þetta lýkur grind miðlægra hugmynda sem tengjast framboðsáætlunargerð í [!INCLUDE[prod_short](includes/prod_short.md)]. Í eftirfarandi köflum er dýpra kafað í þessar hugmyndir og þær settar í samhengi við áætlanagerðarverklag, jöfnun eftirspurnar og framboðs, sem og notkun á endurpöntunarstefna.  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
 
-[Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md)   
-[Hönnunarupplýsingar: Áætlunarfæribreytur](design-details-planning-parameters.md)   
-[Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)   
-[Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
-[Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)
-
+[Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md)  
+[Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)  
+[Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)  
+[Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur](design-details-handling-reordering-policies.md)  
+[Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

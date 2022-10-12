@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 34bbdae60f2e9e17cdd6f006f4af432658ee9dbe
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dafd52a1a2925c0347a455810ad727b8b89706dc
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519867"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607257"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selja vörur sem eru settar saman í pöntun og birgðavörur saman
+
 Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvöru inniheldur **Setja saman í lager** gerir sjálfgefna sölupöntunarvinnslan ráð fyrir því að varan sé nú þegar samsett og að tína megi hana úr birgðum ef hún er til ráðstöfunar. Því er engin samsetningarpöntun búin til sjálfkrafa og tengd við sölupöntunarlínuna. Ef hluti magnsins eða allt magnið er ekki tiltækt er hægt að stofna samsetningarpöntun fyrir eftirstandandi magn með því að fylla út í reitinn **Magn til samsetningar til pöntunar** í sölupöntunarlínunni. Með þeim hætti er hægt að setja saman vöru til pöntunar jafnvel þótt hún sé sjálfgefið uppsett til að vera sett saman í birgðir.  
 
 Svipaður sveigjanleiki er til þegar verið er að selja vörur sem á að safna í pöntunina og hluti magnsins er í birgðum sem á að draga frá samsetningarpöntuninni. Frekari upplýsingar eru í [Selja birgðavörur í flæðum samsetningar í pöntun](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
@@ -28,7 +29,8 @@ Svipaður sveigjanleiki er til þegar verið er að selja vörur sem á að safn
 > [!NOTE]  
 >  Eftirfarandi ferli inniheldur ekki stöðluðu sölupöntunarskrefin sem þarf að fylgja áður en samsetningarpöntun er stofnuð fyrir ótiltækt magn.
 
-## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Til að selja vörur sem eru settar saman í pöntun og birgðavörur saman  
+## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Til að selja vörur sem eru settar saman í pöntun og birgðavörur saman
+
 1.  Í sölupöntunarlínu fyrir birgðir sem stillt eru til að vera safnað í birgðir, færið inn magn í reitinn **Magn** sem er umfram birgðir. Síðan **Kanna ráðstöfunargetu** birtist. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md).
 2.  Athugið reitinn **Heildarmagn** (neikvætt gildi), sem færa á inn í næsta skrefi.  
 3.  Í reitnum **Magn til samsetningar til pöntunar** er færður inn gildið úr fyrra skrefi.  
@@ -38,9 +40,10 @@ Svipaður sveigjanleiki er til þegar verið er að selja vörur sem á að safn
 > [!CAUTION]  
 >  Hægt er að fylla út svæðið **Hólfkóði** í sölupöntuninni fyrirfram samkvæmt **Setja saman til pöntunar afhendingarhólfskóði** eða **Hólfakóði frá samsetningu** svæðinu á birgðageymsluspjaldinu. Í því tilfelli gæti reiturinn **Hólfkóti** í sölupöntunarlínunni verið rangur fyrir þessa samsetningu magns samsetningarpöntunar og birgðasamsetningar. Góð regla er að skoða reitinn **Hólfkóti** og ganga úr skugga um að staðsetningin virki fyrir allt magn. Að öðrum kosti skal færa inn tvenns konar mismunandi magn í aðskildar sölupöntunarlínur.  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig .
+
 [Samsetningardeild](assembly-assemble-items.md)  
-[Vinna með uppskriftir](inventory-how-work-BOMs.md)  
+[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

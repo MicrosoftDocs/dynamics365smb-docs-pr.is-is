@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d7eac169dc75f81f1d696a4a1e7344b5235a83a3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9d6acc41574870d691a14913ed0222df36dbeb74
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529094"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605516"
 ---
 # <a name="defer-revenues-and-expenses"></a>Fresta tekjum og öðrum útgjöldum
 
@@ -95,6 +95,18 @@ Fjárhagsfærslur sem á að bóka á tilgreindan frestunarreikning, til dæmis 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Samantekt frestunar sölu** og velja síðan viðkomandi tengil.
 2. Á síðunni **Samantekt frestunar sölu** í reitnum **Staða frá og með** skal færa inn dagsetninguna upp að því marki sem þú vilt skoða frestaðar tekjur.
 3. Veldu hnappinn **Vista**.
+
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Til að tilgreina tímabil sem leyfir bókun deferral-bókunar
+
+Hægt er að tilgreina tímabil þar sem fólk getur bókað færslur með því að færa inn dagsetningar í **Bókun leyfð frá** og **Bókun leyfð í** svæði sem hér segir:
+
+* Fyrir alla notendur á **síðunni Fjárhagsgrunnur**
+* Fyrir ákveðna notendur á **síðunni Notandauppsetning**
+
+Ef það er gert verður að gera undantekningu fyrir deferrals til að leyfa að þau séu bókuð utan tímabilsins. Ef skilgreina á tímabilið er þessum skrefum fylgt.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **fjárhagsskipulag** eða **notandagrunnur** og velja síðan tengda tengilinn.
+2. Í reitnum **heimila Deferral posting** og **Leyfa bókun á** deferral posting skal færa inn upphafs-og lokadagsetningu tímabilsins.
 
 ## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/processing-invoices-dynamics-365-business-central/)
 

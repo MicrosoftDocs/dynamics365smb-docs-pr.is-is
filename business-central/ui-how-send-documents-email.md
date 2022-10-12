@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532350"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607203"
 ---
 # <a name="send-documents-and-emails"></a>Senda skjöl og tölvupósta
 
@@ -51,10 +51,13 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 > Ef þú vilt ekki tilgreina stillingar tölvupósts í hvert sinn sem skjal er sent í tölvupósti er hægt að velja **Já (nota sjálfgefnar stillingar)** valkostinn í **Tölvupóstur** reitnum á síðunni **Senda skjal til**. Í því tilfelli mun síðan **Senda tölvupóst** ekki opnast. Sjá skref 4. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Að setja saman og senda tölvupóst
+
 Hægt er að búa til tölvupósta fyrir tengiliði, viðskiptamenn, lánardrottna, sölufólk/innkaupendur og bankareikninga á fljótlegan hátt beint af síðunum fyrir þessar einingar. Veldu einfaldlega **Vinna úr** og síðan **Senda tölvupóst** til að opna ritil tölvupóstsins. Fyrir bankareikninga er aðgerðin **Senda tölvupóst** undir **Aðgerðir**.
 
 > [!TIP]
 > Ef þú sendir oft svipaða tölvupósta eða vilt senda á marga í einu, t.d. til að auglýsa markaðsherferð, getur Word-sniðmát með tölvupósti hraðað ferlinu. Þú getur búið til sniðmát fyrir aðila á borð við viðskiptamenn, lánardrottna og tengiliði sem býr til efni tölvupóstskilaboða fyrir þig og meira að segja aðlagar efnið að viðtakandanum út frá upplýsingum í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna [í Notaðu Word sniðmát fyrir Magnsamskipti](ui-mail-merge.md).  
+
+Ef þér hefur verið úthlutað tölvupóstaðstæðum sem tengjast einingunni sem þú ert að senda tölvupóstinn á eða skjalið sem þú sendir, gæti viðhengi verið sjálfkrafa bætt við skilaboðin þín. Það er vegna þess að sjálfgefinni viðhengi hefur verið úthlutað til tölvupóstaðstoðina. Hægt er að eyða viðhenginu ef ekki á að senda það með boðunum. Frekari upplýsingar er að finna í [Úthluta aðstæðum tölvupósts á tölvupóstsreikninga](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Skjöl sem eru merkt sem prentuð þegar þau eru send
 

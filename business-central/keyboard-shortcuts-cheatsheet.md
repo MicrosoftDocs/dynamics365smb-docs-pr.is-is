@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/23/2022
+ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799534"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605797"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur
 
@@ -37,6 +37,7 @@ ms.locfileid: "8799534"
 |Ctrl+Shift+F12|Línuatriðahluti hámarkaður á skjalssíðu|
 |Ctrl+F1|Opnaðu hjálparrúðuna eða hjálpargrein|
 |Ctrl+Smella|Fletta upp þegar sérstilla á og sérsníða|
+|Ctrl+O|Skiptu fyrirtæki eða umhverfi|
 |Shift+F12|Opnaðu hlutverkaleit sem er yfirlit yfir eiginleika.|
 |F5/Ctrl+F5|Endurnýja/endurhlaða síðan|
 |Tab/Shift+Tab|Færa áherslu á næstu/fyrri einingu|

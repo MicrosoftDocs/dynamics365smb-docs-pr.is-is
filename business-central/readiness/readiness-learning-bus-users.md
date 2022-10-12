@@ -2,15 +2,15 @@
 title: Námskrá fyrir fyrirtækisnotanda
 description: Finndu allt það nám sem er í boði fyrir Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 21c87640e09966a705b59905da9d126b5c8b604e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5b977ba37c4bd827fd44e6cd897010eaadd64ec1
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528761"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607797"
 ---
 # <a name="business-users-learning-catalog"></a>Námskrá fyrir fyrirtækisnotanda
 
@@ -18,7 +18,7 @@ Fékkstu einfaldlega nýtt forrit til að nota?
 
 Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og frá einföldustu til ítarlegustu þátta. Ef efni er til á mörgum sniðum látum við þig vita svo þú getir valið það þjálfunarsnið sem hentar þínum þörfum best.  
 
-## <a name="getting-started"></a>Hafist handa<a name="get-started"></a>
+## <a name="getting-started"></a>Hafist handa
 
 | Efni                                                                                                                               | Description                                                                                                                                                                                                                                                                                      | Snið                                | Lengd             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -26,7 +26,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | [Vinna með notendaviðmót Microsoft Dynamics 365 Business Central](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Viltu þér notendaviðmótið fyrir Business Central? Þessi námsleið sýnir þér notandaviðmótið og einnig hvernig þú getur sérsniðið það. Þar er einnig fjallað um önnur viðmót á borð við snjallsíma.                                                                               | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur |
 | [Vinna eins og Atvinnumaður með gögn í viðskipta-seðlabankar](/training/paths/work-pro-data-dynamics-365-business-central)                                    | Ertu rétt að byrja að nota Business Central? Þessi námsbraut mun hjálpa þér að undirbúa þig fyrir gagnagerðir Business Central og hvernig hægt er að finna upplýsingar sem þú þarft í forritinu.                                                                                                  | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur |
 
-## <a name="financials"></a>Fjármál<a name="financials"></a>
+## <a name="financials"></a>Financials
 | Efni                                                                                                                                                         | Description                                                                                                                                                                                                                                                                                            | Snið                                | Lengd             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Setja upp Fjármálastjórnun í Microsoft Dynamics 365 Business Central](/training/paths/set-up-financial-management-dynamics-365-business-central/)                     | Viltu nota Business Central fyrir fjármálastjórnun? Þá er þessi námsleið fyrir þig. Þar er fjallað um uppsetningu númeraraða, kóða færsluslóða, bókunarflokka, vídda og bókhaldslykla.                                                                                   | Ókeypis námsleið á netinu á eigin hraða | 3 klukkustundir 13 mínútur |

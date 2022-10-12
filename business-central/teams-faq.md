@@ -7,38 +7,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 10/01/2021
+ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528580"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606117"
 ---
 # <a name="teams-faq"></a>Teams - Algengar spurningar
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-Þessi grein svarar einhverjum þeirra spurninga sem þú gætir haft um notkun á Teams og [!INCLUDE [prod_short](includes/prod_short.md)].
+Í þessari grein eru svör einhverra þeirra spurninga sem þú gætir haft um að vinna með Microsoft Teams og [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="general"></a>[Almennt](#tab/general)
 
 ### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>Hvernig skrái ég mig inn á [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið í Teams?
 
-Þegar forritið hefur verið uppsett verður þú beðin(n) um að skrá þig inn í fyrsta skiptið sem þú notar forritið, þegar þú afritar [!INCLUDE [prod_short.md](includes/prod_short.md)]-tengil í Teams-spjall eða velur aðgerðina **Upplýsingar** á spjaldi í Teams. Það fer eftir biðlara Teams hvort þú þurfir að slá inn innskráningarupplýsingar þínar sem þú notar til að skrá þig inn í [!INCLUDE [prod_short.md](includes/prod_short.md)].
+Eftir uppsetningu á forritinu ertu beðinn um að skrá þig inn fyrst þegar þú notar hann, þegar þú klínir [!INCLUDE [prod_short.md](includes/prod_short.md)] tengil í teyma spjall, eða velja **details** aðgerð á spjald í teymum. Eftir því sem teymum skjólstæðinga gætir þarf að færa inn þau Persónuskilríki sem notuð eru til aðgangs [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ### <a name="how-do-i-sign-out-of-the-prod_shortmd-app-in-teams"></a>Hvernig skrái ég mig inn í [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið í Teams?
 
-Til að skrá þig út sem núverandi notandi í Teams sem þú notar til að tengjast við [!INCLUDE [prod_short.md](includes/prod_short.md)] skaltu fara í skrifglugga í hvaða spjalli sem er og hægrismella á [!INCLUDE [prod_short.md](includes/prod_short.md)]-táknið fyrir neðan, síðan velja **Stillingar**. Þegar glugginn birtist skaltu athuga núgildandi innskráð auðkenni og velja síðan **Útskrá**.
+Til að skrá þig út úr auðkenni í teymum sem þú notaðir til að tengjast [!INCLUDE [prod_short.md](includes/prod_short.md)] skaltu fara í hvaða spjallkassa semja skal, hægrismella á [!INCLUDE [prod_short.md](includes/prod_short.md)] táknið undir og velja **síðan Settings**. Þegar glugginn birtist skaltu athuga núgildandi innskráð auðkenni og velja síðan **Útskrá**.
 
-### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>Er Teams forritið tengt við [!INCLUDE [prod_short.md](includes/prod_short.md)] á staðnum? 
+### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>Er App fyrir hópana að [!INCLUDE [prod_short.md](includes/prod_short.md)] tengjast innanhúss? 
 
-Fj.  Forritið [!INCLUDE [prod_short.md](includes/prod_short.md)] fyrir Teams virkar eingöngu með [!INCLUDE [prod_short.md](includes/prod_short.md)] á netinu. Ekki eru til neinar áskriftarleiðir til að styðja [!INCLUDE [prod_short.md](includes/prod_short.md)]-uppsetningargerðir&mdash;eins og innanhúss, blandað ský eða einkaský&mdash;sem Microsoft hvorki hýsir né stýrir með beinum hætti.
+Nr.  Forritið [!INCLUDE [prod_short.md](includes/prod_short.md)] fyrir Teams virkar eingöngu með [!INCLUDE [prod_short.md](includes/prod_short.md)] á netinu. Það eru engar áætlanir til að styðja [!INCLUDE [prod_short.md](includes/prod_short.md)] gerðir &mdash; virkjunar eins og innanhúss, Hybrid-ský eða Einkaský &mdash; sem Microsoft hýsir ekki eða hefur umsjón með beint.
 
 ### <a name="does-the-app-work-with-multiple-companies-and-environments"></a>Virkar forritið með mörgum fyrirtækjum og umhverfum? 
 
-Já. Til að leita að tengiliðum í öðru fyrirtæki skal fara í [Stillingar](across-teams-settings.md). Þegar [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið stækkar tengil í spjald verður tengillinn að innihalda heiti umhverfis og fyrirtækis fyrir forritið til að passa við færsluna í rétta fyrirtækinu. Þú getur límt tengla á hvaða fyrirtæki og umhverfi sem er, sem þú hefur aðgang að innan fyrirtækisins og frá [!INCLUDE [prod_short.md](includes/prod_short.md)]-reikningnum sem þú notaðir til að skrá þig inn á. Þátttakendur í spjallinu munu sjá spjaldið. En ekki verður hægt að skoða upplýsingar spjaldsins nema þeir hafi heimildir í fyrirtækinu eða umhverfinu þar sem færslan er geymd.
+Já. Til að leita að tengiliðum í öðru fyrirtæki skal fara í [Stillingar](across-teams-settings.md). [!INCLUDE [prod_short.md](includes/prod_short.md)] Þegar App stækkar tengil inn á kort verður hlekkurinn að innihalda umhverfið og fyrirtækjaheitin fyrir App samsvara því að skráning sé rétt hjá fyrirtækinu. Þú getur límt tengla á hvaða fyrirtæki og umhverfi sem er, sem þú hefur aðgang að innan fyrirtækisins og frá [!INCLUDE [prod_short.md](includes/prod_short.md)]-reikningnum sem þú notaðir til að skrá þig inn á. Þátttakendur í spjallinu munu sjá spjaldið. En ekki verður hægt að skoða upplýsingar spjaldsins nema þeir hafi heimildir í fyrirtækinu eða umhverfinu þar sem færslan er geymd.
 
 ### <a name="in-which-countries-or-regions-is-the-prod_shortmd-app-available"></a>Í hvaða löndum eða svæðum er [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið aðgengilegt? 
 
@@ -46,20 +46,20 @@ Já. Til að leita að tengiliðum í öðru fyrirtæki skal fara í [Stillingar
 
 ### <a name="does-the-prod_shortmd-app-work-with-any-localization-of-prod_shortmd"></a>Virkar [!INCLUDE [prod_short.md](includes/prod_short.md)] forritið með einhverri staðfæringu [!INCLUDE [prod_short.md](includes/prod_short.md)]? 
 
-Já. Forritinu er ætlað að vinna með hvaða staðfærslu af [!INCLUDE [prod_short.md](includes/prod_short.md)] sem er, hvort sem sú staðfærsla er í boði Microsoft eða annars samstarfsaðila. Frekari upplýsingar eru í [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
+Já. Forritinu er ætlað að vinna með hvaða staðfærslu af [!INCLUDE [prod_short.md](includes/prod_short.md)] sem er, hvort sem sú staðfærsla er í boði Microsoft eða annars samstarfsaðila. Frekari upplýsingar um [framboð lands/svæðis og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="which-languages-does-the-prod_shortmd-app-support"></a><a name="language"></a>Hvaða tungumál styður [!INCLUDE [prod_short.md](includes/prod_short.md)] forritið?
 
 Tveir hlutir ákvarða tungumálið sem er notað fyrir kort og kortaupplýsingar í Teams:
 
 1. Tungumálið þitt í Teams sem þú getur séð í reikningsstillingum þínum í Teams. 
-2. Tungumálið þitt í [!INCLUDE [prod_short.md](includes/prod_short.md)], sem þú getur skoðað [!INCLUDE [prod_short.md](includes/prod_short.md)]-vefbiðlarann í (sjá [Breyta grunnstillingu - Tungumál](ui-change-basic-settings.md#language)).
+2. Tungumálið þitt í [!INCLUDE [prod_short.md](includes/prod_short.md)], sem þú sérð í [!INCLUDE [prod_short.md](includes/prod_short.md)] vefbiðlaranum (sjá [Breyta Basic stillingu-tungumáli](ui-change-basic-settings.md#language)).
 
 Eftirfarandi tafla útskýrir hvernig upplifunin er frábrugðin skeytum höfunda og viðtakenda, háð tungumálastillingum og þeim tungumálum sem eru í boði.
 
 |Hver|Kort|Kortaupplýsingar |
 |-|----|--------------| 
-|Höfundur skeytis |Birtist á tungumáli sem tilgreint er í Teams. Ef [!INCLUDE [prod_short.md](includes/prod_short.md)] er ekki á sama tungumáli er kortið birt á ensku. |Birtist á því tungumáli sem er tilgreint fyrir þig í [!INCLUDE [prod_short.md](includes/prod_short.md)].  sem kann að innihalda tungumál frá tungumálaforritum sem samstarfsaðilar bjóða upp á. |
+|Höfundur skeytis |Birtist á tungumáli sem tilgreint er í Teams. Ef [!INCLUDE [prod_short.md](includes/prod_short.md)] er ekki á sama tungumáli er kortið birt á ensku. |Birt í tungumálinu sem tilgreint er fyrir þig í [!INCLUDE [prod_short.md](includes/prod_short.md)], sem getur innihaldið tungumál úr tungumálaforritum sem samstarfsaðilar veita. |
 |Viðtakandi skeytis |Birtist á því tungumáli sem skeyti höfundar er á. |Birtist á því tungumáli sem tilgreint er fyrir þig í [!INCLUDE [prod_short.md](includes/prod_short.md)]. |
 
 Fyrir lista yfir studd tungumál fyrir [!INCLUDE [prod_short.md](includes/prod_short.md)] skal skoða [Studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
@@ -73,57 +73,57 @@ Já. En aðeins sumir eiginleikar forritsins virka með [Fella inn forrit](/dyna
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Virkar [!INCLUDE [prod_short.md](includes/prod_short.md)] með farsímaforriti Teams?
 
-Já. Hægt er að setja upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið úr Teams-skjáborðsforriti eða vafra eða af stjórnanda fyrir alla notendur. Þegar uppsett er [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið sjálfkrafa í boði í Teams fyrir iOS og Android. Í fartækjum er aðeins hægt að skoða spjöld sem aðrir senda, nálgast upplýsingar eða opna spjaldið í sérglugga til að nýta það til fulls í [!INCLUDE [prod_short.md](includes/prod_short.md)]-farsímaforritinu. Ekki er hægt að líma tengla sem víkka í spjöld þegar skilaboð eru samin eða leitað er að tengiliðum. Fyrir lágmarkskröfur farsíma skal skoða [Lágmarkskröfur fyrir notkun Business Central](product-requirements.md).
+Já. Hægt er að setja upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið úr Teams-skjáborðsforriti eða vafra eða af stjórnanda fyrir alla notendur. Þegar uppsett er [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið sjálfkrafa í boði í Teams fyrir iOS og Android. Í fartækjum er aðeins hægt að skoða spjöld sem aðrir senda, nálgast upplýsingar eða opna spjaldið í sérglugga til að nýta það til fulls í [!INCLUDE [prod_short.md](includes/prod_short.md)]-farsímaforritinu. Ekki er hægt að líma tengla sem stækka í spjöld þegar þau eru að semja skilaboð eða leita að tengiliðum. Frekari kröfur um lágmarkskröfur [um notkun Viðskiptamiðis](product-requirements.md).
 
 ### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Er [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams það sama og [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir iOS og Android?
 
-Fj. Forritið fyrir Teams er innbót við Microsoft Teams og sérstaklega hannað fyrir sameiginlega upplifun sem kviknar á í Teams. [!INCLUDE [prod_short.md](includes/prod_short.md)]-farsímaforritið veitir hinsvegar fjölbreytta upplifun fyrir þig til að vinna með [!INCLUDE [prod_short.md](includes/prod_short.md)]-gögn á farsímaforritinu.
+Fj. App fyrir hópana er viðbót við Microsoft Teams og eingöngu ætlað til samvinnu innan teyma. [!INCLUDE [prod_short.md](includes/prod_short.md)] Einnig sendir appið frá sér ríka reynslu til að vinna með [!INCLUDE [prod_short.md](includes/prod_short.md)] gögn um farseðla.
 
-Farsímanotendur eru hvattir til að setja upp bæði farsímaforritið og forritið fyrir Teams til að fá sem mest út úr [!INCLUDE [prod_short.md](includes/prod_short.md)]. Með bæði forritin uppsett er hægt að velja aðgerðina **Opna í sérglugga** á spjaldi í Teams til að opna upplýsingar spjaldsins í [!INCLUDE [prod_short.md](includes/prod_short.md)]-farsímaforritinu. Til að fá upplýsingar um uppsetningu á [!INCLUDE [prod_short.md](includes/prod_short.md)] Teams farsímaforriti skaltu skoða:
+Farsímanotendur eru hvattir til að setja upp bæði farsímaforritið og forritið fyrir Teams til að fá sem mest út úr [!INCLUDE [prod_short.md](includes/prod_short.md)]. Með bæði forritin uppsett er hægt að velja aðgerðina **Opna í sérglugga** á spjaldi í Teams til að opna upplýsingar spjaldsins í [!INCLUDE [prod_short.md](includes/prod_short.md)]-farsímaforritinu. Frekari upplýsingar um uppsetningu á [!INCLUDE [prod_short.md](includes/prod_short.md)] forritum og teymum farsíma er að finna í:
 
 - [Nota Business Central á fartækinu þínu](install-mobile-app.md)
-- [Sækja Teams-farsímaforritið](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) á Microsoft Support
+- [Fá Hópin af Farsímaforriti](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) í Microsoft Support
 
 ### <a name="does-the-prod_shortmd-app-work-in-all-teams-clients"></a>Virkar [!INCLUDE [prod_short.md](includes/prod_short.md)] forritið í öllum Teams biðlurum?
 
-Fj. [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams er ekki stutt þegar það er sett upp sem pakki fyrir macOS eða Linux. Á þessum verkvangi er hægt að opna Teams með því að nota studdan vafra í staðinn.
+Nr. [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams er ekki stutt þegar það er sett upp sem pakki fyrir macOS eða Linux. Á þeim vettvangi er hægt að nálgast teymi með studdum vafra í staðinn.
 
 Fyrir lágmarkskröfur í [!INCLUDE [prod_short.md](includes/prod_short.md)] skal skoða [Lágmarkskröfur fyrir notkun Business Central](product-requirements.md#teams).
 
-Frekari upplýsingar um val á Teams-biðlurum og hvernig eigi að setja þá upp er að finna í [Ná í biðlara fyrir Microsoft Teams](/microsoftteams/get-clients) í fylgigögnum Teams.
+Til að fræðast nánar um val á teymum viðskiptavina og hvernig á að setja þau upp er að finna [Sækja biðlara Microsoft Teams](/microsoftteams/get-clients) í fylgihópunum.
 
 ### <a name="which-teams-client-is-best-for-prod_shortmd"></a>Hvaða biðlara Teams hentar best fyrir [!INCLUDE [prod_short.md](includes/prod_short.md)]?
 
 Aðeins er um að ræða minniháttar mun og takmarkanir á milli Teams-biðlara sem geta haft áhrif á upplifun þína á [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritinu fyrir Teams. Þegar velja á Teams-biðlara skal hafa í huga að:
 
 - Ekki er hægt að opna myndavélina og staðsetningu í upplýsingaglugganum í skjáborðsforriti Teams.
-- Ekki er hægt að virkja símanúmer úr upplýsingaglugganum í Teams fyrir iOS, Teams fyrir Android eða Teams í vafranum.
-- Að nota Microsoft Edge með Teams í vafranum gerir þér kleift að vinna á auðveldan hátt í mörgum notendum og reikningum með því að skrá þig inn í Teams úr mismunandi prófílum. Til að fá upplýsingar um notkun prófíla í Microsoft Edge skal skoða [Skrá sig inn og stofna marga prófíla í Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) í notendaþjónustu Microsoft.
+- Ekki er hægt að virkja símanúmerin úr upplýsingaglugganum í teymum fyrir iOS, Android eða í vafra.
+- Microsoft Edge Með teymum í vafranum er auðvelt að vinna á milli margra kenna og lykla með því að skrá sig inn í teyma frá mismunandi reglum. Til að fræðast um notkun forstillingar í Microsoft Edge, sjá [Innskráning í og búa til margar forstillingar í Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) Microsoft Support.
 
 ### <a name="what-is-the-best-way-for-me-to-demonstrate-prod_shortmd-and-microsoft-teams-to-prospective-customers"></a>Hver er besta leiðin fyrir mig til að sýna [!INCLUDE [prod_short.md](includes/prod_short.md)] og Microsoft Teams væntanlegum viðskiptamönnum?
 
-Ef þú ert endursöluaðili gætir þú viljað hafa umhverfi sem þú getur sýnt hugsanlegum viðskiptamönnum sem hluti af sölukynningu. Til að komast hjá því að hafa áhrif Microsoft Teams á fyrirtækið getur þú fengið Microsoft 365 sýnireikning kl [https://aka.ms/CDX](https://aka.ms/CDX). Þessi reikningur veitir þér fulla stjórn á óháðu Azure-fyrirtæki sem inniheldur Microsoft Teams og [!INCLUDE [prod_short.md](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Undirbúningur sýniumhverfa af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
+Ef þú ert endursöluaðili gætir þú viljað hafa umhverfi sem þú getur sýnt hugsanlegum viðskiptamönnum sem hluti af sölukynningu. Til að komast hjá því að hafa áhrif Microsoft Teams á fyrirtækið getur þú fengið Microsoft 365 sýnireikning kl [https://aka.ms/CDX](https://aka.ms/CDX). Þessi reikningur veitir þér fulla stjórn á óháðu Azure-fyrirtæki sem inniheldur Microsoft Teams og [!INCLUDE [prod_short.md](includes/prod_short.md)]. Lærðu meira við [að undirbúa Sýnisumhverfi af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
-### <a name="does-the-prod_shortmd-app-for-teams-cater-for-my-customization-and-personalization"></a>Tekur [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams tillit til sérstillinga minna?
+### <a name="does-the-prod_shortmd-app-for-teams-cater-to-my-customization-and-personalization"></a>[!INCLUDE [prod_short.md](includes/prod_short.md)] Kemur App fyrir hópana til móts við sérsnið og sérstillingar?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams getur sýnt spjöld fyrir tengla á síður viðskiptamanna og taflna í [!INCLUDE [prod_short.md](includes/prod_short.md)], t.d. þær síður og töflur sem koma úr þínum eigin sérstilltu viðbótum eða frá AppSource.
 
-Reitirnir sem birtast á spjaldi í Teams geta einnig orðið fyrir áhrifum af sérstillingum [!INCLUDE [prod_short.md](includes/prod_short.md)] sem settar eru upp fyrir fyrirtækið þitt. Spjöld taka ekki neinar hlutverkamiðaðar sérstillingar eða sérstillingar notanda með í reikninginn. Hins vegar sýnir upplýsingagluggi spjalds færsluupplýsingar eins og þú sæir þær í [!INCLUDE [prod_short.md](includes/prod_short.md)], þ.m.t. allar viðbætur, sérstillingar hlutverks og sérstillingar notanda.
+Reitirnir sem birtast á spjaldi í Teams geta einnig orðið fyrir áhrifum af sérstillingum [!INCLUDE [prod_short.md](includes/prod_short.md)] sem settar eru upp fyrir fyrirtækið þitt. Spjöld taka ekki neinar hlutverkamiðaðar sérstillingar eða sérstillingar notanda með í reikninginn. Hins vegar glugginn spjald-upplýsingar sýnir færsluupplýsingar eins og notandi myndi sjá í, þar á meðal í [!INCLUDE [prod_short.md](includes/prod_short.md)] viðaukum, sérsniðum hlutverka og notendasérsnið.
 
-Þegar leitað er að tengiliðum verða reitirnir sem eru paraðir í reitnum **Tengiliðir** og reitirnir sem eru sýndir í leitarniðurstöðunum ekki fyrir áhrifum frá neinum sérstillingum.
+Þegar leitað er að tengiliðum eru reitirnir sem samsvara svæðunum í **tengiliðatöflunni** og svæðunum sem birtast í leitarniðurstöðunum ekki hrifnir af sérsniði eða sérsérstillingar.
 
 ### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Hvernig hafa heimildirnar sem forritið krefst áhrif á persónuvernd mína?
 
-Áður en [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið er sett upp fyrir Teams, er hægt að fara yfir lágmarksheimildirnar sem þarf til að forritið virki. Með því að setja upp forritið samþykkir þú að forritið hafi heimild til að taka á móti skilaboðum og gögnum sem þú gefur upp og að Teams hafi heimild til að vista og vinna úr þeim skilaboðum.
+Áður en [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið er sett upp fyrir Teams, er hægt að fara yfir lágmarksheimildirnar sem þarf til að forritið virki. Með því að setja upp App er þér gefið App heimild til að taka á móti skeytum og gögnum sem þú gefur upp til þess og þú gefur hópum leyfi til að geyma og vinna þau skilaboð.
 
-Einnig þurfa sumir eiginleikar [!INCLUDE [prod_short.md](includes/prod_short.md)] að opna ytri tengla eða fá aðgang að myndavélinni þinni eða staðsetningu. Segjum til að mynda að þú viljir taka mynd af innkaupareikningi til að vinna úr. [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið notar ekki þessa möguleika án þíns samþykkis og þeir eru aðeins notaðir af ákveðnum eiginleikum í glugganum **Upplýsingar**. Þegar einn af þessum eiginleikum er notaður í fyrsta skipti mun Teams sýna svarglugga þar sem beðið er um að þú veitir aðgang að nauðsynlegum möguleikum tækisins.
+Einnig þurfa sumir eiginleikar [!INCLUDE [prod_short.md](includes/prod_short.md)] að opna ytri tengla eða fá aðgang að myndavélinni þinni eða staðsetningu. Svo Segjum sem svo að þú hafir viljað ná mynd af innkaupareikningi til úrvinnslu. [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið notar ekki þessa möguleika án þíns samþykkis og þeir eru aðeins notaðir af ákveðnum eiginleikum í glugganum **Upplýsingar**. Þegar ein af þessum aðgerðum er notuð í fyrsta sinn birtir Teytir svarglugga sem biður um að veittur sé aðgangur að þeirri tækjagetu sem krafist er.
 
 - Í skjáborðsforriti Teams ferðu yfir og lagar heimildir forritsins í glugganum **Stillingar**. Veldu prófílmynd efst í forritinu, veldu **Stillingar** > **Heimildir** og veldu síðan [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið.
 
 - Fyrir Teams í vafranum og Teams fyrir iOS eða Android er hægt að yfirfara eða stilla heimildir úr stillingum vafrans eða tækis.
 
 > [!NOTE]
-> Nákvæmlega hvaða eiginleikar [!INCLUDE [prod_short.md](includes/prod_short.md)] biðja þig um heimildir fer eftir viðbótarforritum og sérstillingum sem settar eru á [!INCLUDE [prod_short.md](includes/prod_short.md)]-umhverfið sem þú tengist við.
+> Nákvæmlega hvaða [!INCLUDE [prod_short.md](includes/prod_short.md)] Aðgerðir birta kvaðningu um heimildir veltur á bætiefnum og sérsniðnum forritum til [!INCLUDE [prod_short.md](includes/prod_short.md)] umhverfisins sem tengst er við.
 
 ### <a name="where-can-i-learn-about-my-privacy"></a>Hvar finn ég upplýsingar um persónuvernd? 
 
@@ -137,13 +137,13 @@ Til að fjarlægja forritið sem þú settir upp fyrir þig skaltu fara í skrif
 
 ### <a name="will-microsoft-continue-to-improve-the-prod_shortmd-app-for-teams"></a>Heldur Microsoft áfram að bæta [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams?
 
-Við hjá Microsoft erum stöðugt að hlusta á viðbrögð frá fjölbreyttu samfélagi notenda okkar og vinna með helstu tillögur samfélagsins. Frekari upplýsingar um það hvað er næst fyrir [!INCLUDE [prod_short.md](includes/prod_short.md)] forritið fyrir Teams má finna í [útgáfuáætlun Dynamics 365](/dynamics365-release-plan/2021wave1/).
+Við hjá Microsoft erum stöðugt að hlusta á viðbrögð frá fjölbreyttu samfélagi notenda okkar og vinna með helstu tillögur samfélagsins. Til að fræðast um hvað næst fyrir [!INCLUDE [prod_short.md](includes/prod_short.md)] App fyrir hópana er að finna í [úttektaráætluninni](/dynamics365-release-plan/2021wave1/) Dynamics 365.
 
 Ef þú vilt taka þátt í því að bæta forritið fyrir Teams eða ert með hugmynd sem myndi hjálpa til við að einfalda vinnu þína eða samstarf við aðra í Teams, skaltu bæta við hugmynd eða kjósa um fyrirliggjandi hugmyndir á [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Hvar finn ég Teams-samþættingu í vefbiðlara Business Central? 
+### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Hvar finn ég teyma samþættingu inni á vefgátt fyrirtækja? 
 
-Fyrir virkni í vefbiðlaranum sem tengist við Teams skal skoða [Deila færslu- og síðutenglum í Microsoft Teams](across-working-with-teams.md#share-link).
+Upplýsingar um virkjunina í vefbiðlaranum sem tengir teymi eru [í samnýta færslur og síðan tengla í Microsoft Teams](across-working-with-teams.md#share-link).
 
 ## <a name="search-for-contacts"></a>[Leita að tengiliðum](#tab/contacts)
 
@@ -153,10 +153,9 @@ Fyrir virkni í vefbiðlaranum sem tengist við Teams skal skoða [Deila færslu
 
 ### <a name="which-fields-in-the-contacts-table-can-i-search"></a>Að hvaða reitum í tengiliðatöflunni get ég leitað?
 
-Þegar leitarorð eru slegin inn í leitarreitinn eru leitarorðin borin saman við flesta reiti í töflunni **Tengiliðir**. Reitirnir innihalda t.d. **Nr.**, **Heiti**, **Aðsetur**, **Símanr.** eða **Farsímanr.** og **Netfang**. 
+Þegar leitarorð eru slegin inn í leitarreitinn eru leitarorðin borin saman við flesta reiti í töflunni **Tengiliðir**. Í reitunum er t.d. að **finna nr.**, **Nafn**, **heimilisfang**, **Símanr.** Eða **farsímanotkun** og **póstsvæðum**. 
 
 Leitarskilmálar eru ekki paraðir við neina sérsniðna reiti sem forrit og viðbætur bæta við **Tengiliðir** töfluna.
-
 ### <a name="do-search-results-include-companies-and-persons"></a>Ná leitarniðurstöður yfir fyrirtæki og einstaklinga?
 
 Já. Í [!INCLUDE [prod_short.md](includes/prod_short.md)] geta tengiliðir verið af gerðinni **Fyrirtæki** eða **Einstaklingur** þar sem einn eða fleiri einstaklingar geta tengst fyrirtæki. Í leitarniðurstöðum eru fyrirtæki og einstaklingar með önnur tákn.
@@ -183,7 +182,7 @@ Til að sýna samskipti verður að skilgreina [!INCLUDE [prod_short.md](include
 
 ### <a name="can-i-call-a-contact-from-the-prod_shortmd-app-for-teams"></a>Get ég hringt í tengilið úr [!INCLUDE [prod_short.md](includes/prod_short.md)] forritinu fyrir Teams?
 
-[!INCLUDE [prod_short.md](includes/prod_short.md)] er með takmarkaða samþættingu við möguleika Teams-símtala. Ekki er hægt að hefja strax netsímtal úr tengiliðaspjaldinu eða glugga tengiliðaupplýsinga. Hins vegar, þegar tengiliðaupplýsingarnar eru skoðaðar í Teams-skjáborðsforritinu, er hægt að velja reit símanúmers til að hringja í það númer ef Teams er uppsett sem sjálfgefið hringiforrit í tækinu. Til að hringja í landlínur eða farsíma númer með PSTN, hefðbundnu símakerfi, teygt krefst þess að þú sért með Microsoft 365 Business Voice App. Til að fræðast meira, sérðu [Hvað er Microsoft 365 viðskiptaleg rödd](/MicrosoftTeams/business-voice/whats-business-voice)?.
+[!INCLUDE [prod_short.md](includes/prod_short.md)] er með takmarkaða samþættingu við möguleika Teams-símtala. Ekki er hægt að hefja strax netsímtal úr tengiliðaspjaldinu eða glugga tengiliðaupplýsinga. Hins vegar, þegar tengiliðaupplýsingarnar eru skoðaðar í Teams-skjáborðsforritinu, er hægt að velja reit símanúmers til að hringja í það númer ef Teams er uppsett sem sjálfgefið hringiforrit í tækinu. Til að hringja í landlínur eða farsíma númer með PSTN, hefðbundnu símakerfi, teygt krefst þess að þú sért með Microsoft 365 Business Voice App. Til að fræðast meira, sérðu [Hvað er Microsoft 365 viðskiptaleg rödd?](/MicrosoftTeams/business-voice/whats-business-voice).
 
 ### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>Hvernig skoða ég nýleg skjöl fyrir viðskiptavin eða lánardrottinn?
 
@@ -233,7 +232,7 @@ Eftir innskráningu í [!INCLUDE [prod_short.md](includes/prod_short.md)] forrit
 
 Forritið gæti einnig beðið þig að fara í **Stillingar** ef þú ert ekki með [!INCLUDE [prod_short.md](includes/prod_short.md)] áskrift, ekkert [!INCLUDE [prod_short.md](includes/prod_short.md)] umhverfi eða reikningurinn þinn er ekki með [!INCLUDE [prod_short.md](includes/prod_short.md)] leyfi.
 
-### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Ég vil leita að vörum eða færslum úr öðrum töflum. Get ég gert það úr Teams?
+### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Mig langar að leita að vörum eða færslum úr öðrum töflum. Get ég gert það úr Teams?
 
 Ekki er hægt að leita í öðrum töflum eins og er. [!INCLUDE [prod_short.md](includes/prod_short.md)] forritið fyrir Teams leitar aðeins í [!INCLUDE [prod_short.md](includes/prod_short.md)] tengiliðalistanum sem getur innihaldið lánardrottna, viðskiptavini og aðra tengiliði.
 
@@ -264,13 +263,13 @@ Að eyða skilaboðum sem innihalda spjald hvorki eyðir né hefur áhrif á nei
 
 Fj. Reitargildi á spjaldi í Teams, þ.m.t. allar myndir, byggja á tiltækum gögnum þegar spjaldið var sent á spjall. [!INCLUDE [prod_short.md](includes/prod_short.md)] kort endurnýjast ekki sjálfkrafa í Teams. 
 
-### <a name="will-others-see-my-card-if-they-dont-have-the-prod_shortmd-app-for-teams"></a>Munu aðrir sjá kortið mitt ef það er ekki með [!INCLUDE [prod_short.md](includes/prod_short.md)] forritið fyrir Teams? 
+### <a name="will-others-see-my-card-if-they-dont-have-the-prod_shortmd-app-for-teams"></a>Vilja aðrir sjá kortið mitt ef þeir eru [!INCLUDE [prod_short.md](includes/prod_short.md)] ekki með App fyrir hópana? 
 
 Þegar þú býrð til og sendir skilaboð á spjallinu sem inniheldur spjald munu allir notendur sjá spjaldið&mdash; jafnvel þótt þeir hafi ekki sett upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams.
 
 ### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Hvernig kemst ég að því hvaða fyrirtæki spjald í Teams tilheyrir?
 
-Ef unnið er á milli [!INCLUDE [prod_short.md](includes/prod_short.md)]-fyrirtækja skal tala við stjórnandann um að virkja merki fyrirtækis fyrir hvert fyrirtæki fyrir sig. Þegar þetta er virkt birtist þessi vísbending í öllum upplýsingagluggum innan Teams og sýnir fyrirtækið og umhverfið sem færslan tilheyrir. Til að komast að því hvernig á að setja upp upplýsingatákn fyrirtækis skal skoða [Að birta upplýsingatákn fyrirtækis fyrir flýtiaðgang að upplýsingum um fyrirtæki](ui-change-basic-settings.md#badge).
+Ef unnið er á milli [!INCLUDE [prod_short.md](includes/prod_short.md)]-fyrirtækja skal tala við stjórnandann um að virkja merki fyrirtækis fyrir hvert fyrirtæki fyrir sig. Þegar þetta er virkt birtist þessi vísbending í öllum upplýsingagluggum innan Teams og sýnir fyrirtækið og umhverfið sem færslan tilheyrir. Til að læra að setja upp fyrirtækjamerkis, sjá [birta merki](admin-company-information.md#badge) fyrirtækis.
 
 ## <a name="work-with-card-details"></a>[Vinna með kortaupplýsingar](#tab/carddetails)
 
@@ -300,7 +299,7 @@ Já. Allir [!INCLUDE [prod_short.md](includes/prod_short.md)] eiginleikar í upp
 
 ### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Get ég komist inn á mitt svæði úr upplýsingaglugganum í Teams?
 
-Ef þú notar virkni í [!INCLUDE [prod_short.md](includes/prod_short.md)] sem hefur aðgang að núverandi staðsetningu þinni, t.d. með kortum, verður þú að nota Teams í vafranum eða farsímaforrit Teams. Staðsetning er ekki tiltæk þegar hóparnir nota skjáborðsforrit Teams.
+Ef þú notar virkni í [!INCLUDE [prod_short.md](includes/prod_short.md)] þeim aðgerðum sem núverandi staðsetning samræmir, svo sem með kortum, verður þú að nota teyjar í vafranum eða teyma Mobile appið. Staðsetning er ekki tiltæk þegar hóparnir nota skjáborðsforrit Teams.
 
 ### <a name="how-do-i-open-the-details-in-a-new-window"></a>Hvernig opna ég upplýsingar í nýjum glugga?
 
@@ -320,13 +319,13 @@ Frekari upplýsingar um annað sem er líkt og ólíkt milli gsta og teymismeðl
 
 ### <a name="how-does-a-guest-user-install-the-prod_shortmd-app"></a>Hvernig setur gestanotandi upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið? 
 
-Gestir hafa ekki aðgang að markaðstorgi forritsins til að setja sjálfir upp forrit. Hinsvegar er hægt að setja forritið sjálfkrafa upp fyrir þá samkvæmt reglum fyrirtækisins. Önnur leið fyrir gestanotanda til að setja upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið er þegar þeir fá spjallskilaboð sem innihalda [!INCLUDE [prod_short.md](includes/prod_short.md)]-spjald. Í slíku tilviki velur notandinn hnappinn **Upplýsingar** eða valmyndina á spjaldinu, setur síðan upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið sem á að nota fyrir fyrirtækið þitt. Þegar forritið hefur verið sett upp fær notandi ekki sjálfkrafa neinar heimildir fyrir aðgang að gögnum frá [!INCLUDE [prod_short.md](includes/prod_short.md)].
+Gestir hafa ekki aðgang að markaðstorgi forritsins til að setja sjálfir upp forrit. Forritið getur þó sett upp sjálfvirkt fyrir þær samkvæmt reglum fyrirtækisins. Önnur leið fyrir gestanotanda til að setja upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið er þegar þeir fá spjallskilaboð sem innihalda [!INCLUDE [prod_short.md](includes/prod_short.md)]-spjald. Í slíku tilviki velur notandinn hnappinn **Upplýsingar** eða valmyndina á spjaldinu, setur síðan upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið sem á að nota fyrir fyrirtækið þitt. Þegar forritið hefur verið sett upp fær notandi ekki sjálfkrafa neinar heimildir fyrir aðgang að gögnum frá [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ## <a name="share-to-teams"></a>[Deila með Teams](#tab/share)
 
 ### <a name="does-share-to-teams-send-a-compact-card"></a>Sendir Deila með Teams samandregið spjald? 
 
-Sem stendur er aðeins deilt djúptengli á síðuna. Viðtakendur sjá tengil í skilaboðinu þínu sem þeir geta valið að fara með í [!INCLUDE [prod_short.md](includes/prod_short.md)] í nýjum vafraglugga. 
+Já. Hlekkurinn stækkar sjálfkrafa í kort ef þú ert með Business Central App fyrir teyma uppsett. 
 
 ### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Fá viðtakendur skilaboðin frá mér eða frá þjónustureikningi Business Central? 
 

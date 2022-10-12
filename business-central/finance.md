@@ -1,6 +1,6 @@
 ---
 title: Fjármálastjórnun (inniheldur Video)
-description: Kynntu þér hvernig Business Central styður við þarfir þínar fyrir fjárhagsstjórnun, reikningshald, endurskoðun og bókhald.
+description: Lærðu hvernig Viðskiptamiðað styður við þarfir þínar fyrir Fjármálastjórnun, bókhald, endurskoðun og bókhald.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
@@ -8,20 +8,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bd8bd7089be89c9d5a2f57b53b104a2b5ac2a565
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515642"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605003"
 ---
 # <a name="financial-management"></a>Fjármálastjórnun
 
-[!INCLUDE[prod_short](includes/prod_short.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaða skilgreiningu fyrir flest fjármálaferli, en hægt er að breyta því þannig að þarfir fyrirtækja henti þörfum fyrirtækisins. Frekari upplýsingar er að setja upp í [fjármálum](finance-setup-finance.md).
 
-Sjálfgefin forstilling inniheldur bókhaldslykill og staðlaða bókunarflokka sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.  
+Sjálfgefið afbrigði inniheldur bókhaldslykil og staðlaða bókunarflokka sem gera það ferli að úthluta sjálfgefnum fjárhagsbókunarlyklum til viðskiptamanna, lánardrottna og vara með skilvirkari aðferð.  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 
@@ -29,39 +29,39 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | --- | --- |
 | Jafna greiðslur á innleið, stemma af bankareikninga við jöfnun greiðslu og innheimta útistandandi skuldir. |[Stjórnun skulda](receivables-manage-receivables.md) |
 | Framkvæma greiðslur, jafna greiðslur á útleið og vinna með ávísanir. |[Stjórna skuldum](payables-manage-payables.md) |
-|Láttu viðskiptavini þína senda inn greiðslu áður en þú afhendir þeim, eða senda inn greiðslu til lánardrottna þinna áður en þeir afhenda þér.|[Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)|
-| Stemma af bankareikninga og færa fjármuni milli bankareikninga. |[Afstemming bankareikninga](bank-manage-bank-accounts.md) |
+|Biðjið viðskiptavini ykkar að senda greiðslu áður en þið Sendið á þá, eða að senda lánardrottnum fyrirspurn áður en þeir Sendist til þín.|[Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)|
+| Stemma af og millifæra fé á milli bankareikninga. |[Afstemming bankareikninga](bank-manage-bank-accounts.md) |
 |Setja upp millifyrirtækjafélaga og vinna færslur, handvirkt eða sjálfvirkt, á milli lögaðila innan sama fyrirtækis.|[Vinna með millifyrirtækjafærslur](intercompany-manage.md)|
 |Greina kostnaðinn sem hlýst af því að reka fyrirtækið með því að úthluta raunverulegum og áætluðum kostnaði aðgerða, deilda, afurða og verkefna til kostnaðarstaða.|[Kostnaðarreikningur](finance-manage-cost-accounting.md)|
-|Stjórna birgða- og framleiðslukostnaði, búa til skýrslu um kostnað og afstemma kostnað við færslubókina.|[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)|
-| Skilja fjárhag og bókhaldslykil. |[Skilja fjárhag og bókhaldslykil](finance-general-ledger.md) |
+|Stjórna birgða-og framleiðslukostnaði og til að tilkynna og stemma kostnað við fjárhag.|[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)|
+| Nánar um fjárhag og bókhaldslykla (COA). |[Skilja fjárhag og bókhaldslykil](finance-general-ledger.md) |
 |Sameina aðalbókarfærslur frá mörgum fyrirtækjum í eitt sýndar „samstæðufyrirtæki" fyrir fjárhagsgreiningu.|[Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)|
 | Bæta við víddum fyrir meiri viðskiptagreind. |[Vinna með víddir](finance-dimensions.md) |
-| Stofna fjárhagsáætlun til að spá fyrir um mismunandi fjármálaaðgerðir og úthluta víddum fyrir viðskiptaupplýsingar. |[Stofna fjárhagsáætlunum](finance-how-create-budgets.md) |
-|Skrá tekjur eða útgjöld beint í fjárhag án þess að bóka sérnýtt viðskiptaskjöl.|[Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)|
-|Bóka bakfærslur til að afturkalla virðisbókanir í færslubókinni eða magnbókanir á innkaupa- og söluskjöl. |[Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)|
+| Stofna fjárhagsáætlanir fyrir fjárhag (fjárhagsfærslur) til að spá fyrir um fjárhagslega verkþætti og úthluta víddum fyrir viðskiptagreindaraðgerðir. |[Stofna fjárhagsáætlunum](finance-how-create-budgets.md) |
+|Skrá tekjur og gjöld beint í fjárhag án bókunar tileinkuð viðskiptaskjölum.|[Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)|
+|Bakfæra færslur til að afturkalla gildisbókanir í færslubók eða magnbókunum í innkaupa-og söluskjölum. |[Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)|
 |úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. |[Úthluta kostnaði og tekjum](year-allocate-costs-income.md) |
-| Úthluta viðbótarkostnaði sem þú stofnar til í viðskiptum, eins og t.d. flutning og meðhöndlun, á viðeigandi vörur svo kostnaðurinn endurspeglist í birgðaverðmati. |[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md) |
-|Bóka persónuleg útgjöld starfsmanna sem hljótast af vinnutengdum aðgerðum og endurgreiða starfsmönnum með því að greiða inn á bankareikning þeirra.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|
-| Sjá tekjur og útgjöld á öðrum tíma en þegar færslur voru bókaðar. |[Fresta tekjum og öðrum útgjöldum](finance-how-defer-revenue-expenses.md)|
-| Frekari upplýsingar um tiltæka valmöguleika sem gera þér kleift að senda greiðslureikninga til viðskiptavina þinna og skrá endurteknar tekjur. |[Vinna með endurteknar tekjur](finance-recurring-invoicing.md)|
+| Úthluta aukakostnaði, svo sem Farm-og efnismeðhöndlunarkostnaði sem notandi verður fyrir við viðskipti, til að taka þátt. Þannig endurspeglast kostnaðurinn í birgðamat. |[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md) |
+|Bóka starfsmannskostnað vegna vinnutengdrar starfsemi og gera endurgreiðslur beint til bankareikninga starfsmanna.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|
+| Úthluta tekjum og útgjöldum til tímabila sem eru önnur en þegar færslurnar bókast í raun. |[Fresta tekjum og öðrum útgjöldum](finance-how-defer-revenue-expenses.md)|
+| Fræðast um tiltæka valkosti sem gera kleift að senda áskriftarreikninga til viðskiptamanna og skrá endurteknar tekjur. |[Vinna með endurteknar tekjur](finance-recurring-invoicing.md)|
 |Læra hvernig skal nota viðbótar gjaldmiðla og uppfæra gengi gjaldmiðla sjálfvirkt. |[Uppfæra gengi](finance-how-update-currencies.md)|
 | Flytja inn launafærslur úr launaveitu í fjárhag. |[Flytja inn launafærslur](finance-how-import-payroll-transactions.md)|
-|Notaðu aðgerðir til að reikna VSK skattur á sölu- og innkaupafærslur svo hægt sé talið upphæðirnar fram til skattayfirvalda.|[Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)|
-|Undirbúa skýrslu sem telur upp VSK-upphæðir af sölu og senda hana til skattyfirvalda í ESB. | [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
+|Reikna virðisauka (VAT) í sölu-og innkaupafærslum svo hægt sé að tilkynna upphæðirnar til skattyfirvalda.|[Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)|
+|Útbúa skýrslu sem skráir VSK frá sölu, og senda skýrsluna til skattyfirvalda í Evrópusambandinu (ESB). | [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
 |Breyttu þjónustusamningum handvirkt til að breyta virðisaukaskattshlutfalli þeirra.|[Umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)|
 | Fylgstu með sjóðstreymi þínu. |[Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md) |
-|Fylgist með ferli frá upphafi til enda um það hvernig eigi að nota reikningsáætlanir til að búa til sjóðstreymisspár.|[Kynning: Gera sjóðstreymisspár með því að nota fjárhagsskemu](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
-| Vinna með fjárhagsskýrslur og yfirlit í Excel. |[Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md) |
-|Kynnið ykkur hvernig á að nota Hlutverkamiðstöð endurskoðanda, bjóða ytri endurskoðanda og nota fyrirtækjamiðstöðina til að stjórna reikningum fyrir marga viðskiptamenn.|[Upplifun endurskoðanda í Business Central](finance-accounting.md)|  
+|Fylgið lokaferlinu sem lýsir því hvernig nota á ársskýrslur til að gera Sjóðstreymisspá.|[Walkthrough: að gera Sjóðstreymisspá með fjárhagsskýrslum](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Vinna með ársreikninga og yfirlit í Microsoft Excel. |[Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md) |
+|Lærðu að nota hlutverkamiðstöð endurskoðanda, taktu þátt í ytri bókhaldi og Notaðu fyrirtækið Hub til að stjórna lyklum margra biðlara.|[Upplifun endurskoðanda í Business Central](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Horfa á kynningarmyndband
+## <a name="take-a-video-tour"></a>Taktu vídeó ferð
 
-Eftirfarandi myndband kynnir nokkra af helstu möguleikum í stjórnun fjármála. <br><br>  
+Þetta myndband kynnir nokkra af lykilgetu til að stjórna fjármálum. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Sala](sales-manage-sales.md)  
@@ -73,6 +73,5 @@ Eftirfarandi myndband kynnir nokkra af helstu möguleikum í stjórnun fjármál
 [Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

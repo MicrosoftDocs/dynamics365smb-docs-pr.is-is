@@ -10,17 +10,18 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dfe8f1aa36f19372363c5e23994328d15f8a5b77
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: c026f7b8374dd78b4c3f06d76d43e3ffac0198b2
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534265"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607073"
 ---
 # <a name="assembly-management"></a>Samsetningardeild
+
 Til að styðja fyrirtæki sem selja viðskiptavinum sínum vörur þar sem íhlutir eru sameinaðir í einföldum ferlum án þess að framleiðsluaðgerðir séu nauðsynlekir inniheldur [!INCLUDE[prod_short](includes/prod_short.md)] eiginleika til að setja saman vörur sem samþættast með fyrirliggjandi eiginleikum, t.d. sölu, áætlunum, frátektum og vöruhúsaaðgerðum.  
 
- Samsetningarvaran er skilgreind sem seljanleg vara sem inniheldur samsetningaruppskrift. Nánari upplýsingar er að finna í [Vinna með uppskrift.](inventory-how-work-BOMs.md)
+ Samsetningarvaran er skilgreind sem seljanleg vara sem inniheldur samsetningaruppskrift. Frekari upplýsingar fást með því [að vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md).
 
  Samsetningarpantanir eru innri pantanir, rétt eins og framleiðslupantanir, sem eru notaðar til að stjórna samsetningarferli og til að tengja söluþarfirnar við viðeigandi vöruhúsaaðgerðir. Samsetningarpantanir eru ólíkar öðrum pöntunartegundum því þær fela í sér bæði frálag og notkun við bókun. Haus samsetningarpöntunarinnar hagar sér svipað og frálagsbókarlína og samsetningarpöntunarlínur haga sér svipað og notkunarfærslubókarlínur.  
 
@@ -43,12 +44,12 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Þegar verið er að selja samsetningarvörur úr birgðum og allar vörur eru ekki tiltækar, þá er hægt að hefja samsetningarpöntun sem sjálfkrafa veitir hluta af eða allt sölupöntunarmagnið.|[Selja vörur sem eru settar saman í pöntun og birgðavörur saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
 |Búa til sérsniðnar samsetningarvörur fyrir standandi sölupantanir áður en gerðar eru reglulegar eiginlegar sölupantanir í samræmi við standandi pöntunarsamninginn.|[Búa til standandi samsetningarpantanir](assembly-how-to-create-blanket-assembly-orders.md)|
 |Afturkalla bókaða samsetningarpöntun, til dæmis ef pöntunin var bókuð með mistökum sem þarf að leiðrétta.|[Afturkalla samsetningarbókun](assembly-how-to-undo-assembly-posting.md)|
-|Nánar um muninn á samsetningaruppskriftum og framleiðsluuppskriftum og viðeigandi vinnslumismun.|[Vinna með uppskriftir](inventory-how-work-BOMs.md)|
+|Lærðu að vinna með samsetningaruppskriftir og helstu mismun að framl. uppskriftum.|[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)|
 |Nánar um hvernig samsetningarnotkun og frálag eru meðhöndluð við bókun samsetningarpantana og hvernig afleiddur vörukostnaður og forðakostnaður eru unnir og dreift á fjárhag.|[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)|  
 
 ## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
@@ -56,9 +57,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

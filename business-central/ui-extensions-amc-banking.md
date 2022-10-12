@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank, format, data
 ms.search.form: 20100, 20101, 20102, 20105, 20106, 20107, 20109,
-ms.date: 06/23/2021
+ms.date: 09/20/2022
 ms.author: bholtorf
-ms.openlocfilehash: 64c0128329a0499d9e5e33e53b7d09c8d28e29d4
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 0502d92d5c18a04bcc273a60a4070054a0466055
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361799"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606911"
 ---
 # <a name="use-the-amc-banking-365-fundamentals-extension"></a>AMC Banking 365 Fundamentals Nota viðaukann
 
@@ -51,7 +51,7 @@ Að hefjast handa felur aðeins í sér nokkur einföld skref og leiðbeiningar 
 
 Nánari upplýsingar er að finna í [Til að afrita heimildasamstæðu](ui-define-granular-permissions.md#to-copy-a-permission-set).
 
-Fyrir hverja nýja heimildasamstæðu skal aðeins veita heimildina **Lesa** fyrir **AMC Banking Uppsetningartafla (20101)**. Nánari upplýsingar er að finna í [Að búa til eða breyta heimildum handvirkt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
+Fyrir hverja nýja heimildasamstæðu skal aðeins veita heimildina **Lesa** fyrir **AMC Banking Uppsetningartafla (20101)**. Frekari upplýsingar er að finna [í til að stofna eða breyta heimildum handvirkt](ui-define-granular-permissions.md#to-create-a-permission-set).
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Til að tengja viðbótina við AMC Banking
 

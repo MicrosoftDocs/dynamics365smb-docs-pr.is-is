@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
-ms.date: 05/19/2021
+ms.date: 09/09/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ab3005c7958e6ce7cd112c495ba6bb1d0ae2366
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0d7f1dac73181845fe0329fc2c45bb0e8e53ccfb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381968"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606360"
 ---
 # <a name="onedrive-for-business-faq"></a>Algengar spurningar um OneDrive for Business
 
@@ -36,50 +36,60 @@ Fj. Þessi samþætting er eingöngu ætluð OneDrive for Business og styður a�
 
 ## <a name="are-all-onedrive-for-business-plans-supported"></a>Er allar áskriftarleiðir OneDrive for Business studdar?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] styður ekki sjálfstæðar áskriftir fyrir OneDrive for Business. OneDrive þarf að kaupa sem hluta af Microsoft 365 viðskipta-eða Enterprise-áætlun. Frekari upplýsingar er að finna í [Bera saman verð og áskriftarleiðir OneDrive skýjageymslu](https://www.microsoft.com/microsoft-365/onedrive/compare-onedrive-plans?market=af&activetab=tab:primaryr2).  
+[!INCLUDE[prod_short](includes/prod_short.md)] styður ekki sjálfstæða áætlun fyrir OneDrive fyrirtæki. OneDrive þarf að kaupa sem hluta af Microsoft 365 viðskipta-eða Enterprise-áætlun. Frekari upplýsingar er að finna í [Bera saman verð og áskriftarleiðir OneDrive skýjageymslu](https://www.microsoft.com/microsoft-365/onedrive/compare-onedrive-plans?market=af&activetab=tab:primaryr2).  
 
 ## <a name="where-can-i-see-onedrive-service-health"></a>Hvar get ég séð OneDrive Service Health?
 
-Stjórnendur geta nálgast þjónustu Health mælaborði sem hluta af Microsoft 365 admin Center. Stjórnborðið inniheldur aðgengileika OneDrive þjónustu. 
+Stjórnendur geta nálgast þjónustu Health mælaborði sem hluta af Microsoft 365 admin Center. Stjórnborðið inniheldur aðgengileika OneDrive þjónustu. Fara í [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
 ## <a name="is-onedrive-integration-available-to-prod_short-on-premises"></a>Er OneDrive samþætting í boði fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum?
 
-Já, en ólíkt [!INCLUDE[prod_short](includes/prod_short.md)] á netinu þarf að viðbótaruppsetningu. Frekari upplýsingar er að finna í [Skilgreining Business Central-þjóns innanhúss](admin-onedrive-integration.md#configuring-business-central-on-premises).  
+Já, en Ólíkt [!INCLUDE[prod_short](includes/prod_short.md)] á netinu þá krefst það meiri uppsetningar. Nánari upplýsingar er að finna [í skilgreiningu Viðskiptamiðis innanhúss](admin-onedrive-integration-onpremises.md).  
 
 ## <a name="does-prod_short-on-premises-connect-with-sharepoint-server"></a>Tengist [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við SharePoint Server?
 
-Fj. Þessi samsetning uppsetningar er ekki studd jafnvel þótt SharePoint Server er með Mín svæði virk.  
+Nr. Þessi virkjunarsamsetning er ekki studd, jafnvel þótt SharePoint þjónn hafi virkjað mínar síður.  
 
 ## <a name="does-prod_short-online-connect-with-sharepoint-server"></a>Tengist [!INCLUDE[prod_short](includes/prod_short.md)] á netinu við SharePoint Server?
 
-Fj. Þessi samsetning uppsetningar er ekki studd jafnvel þótt SharePoint Server er með Mín svæði virk.  
+Nr. Þessi virkjunarsamsetning er ekki studd, jafnvel þótt SharePoint þjónn hafi virkjað mínar síður.  
 
 ## <a name="how-does-this-work-in-an-organization-with-multiple-environments"></a>Hvernig virkar þetta í fyrirtæki með mörgum umhverfum?
 
-Samþættingin gerir ráð fyrir að heiti fyrirtækja séu einkvæm milli [!INCLUDE[prod_short](includes/prod_short.md)] umhverfa. Þegar heiti fyrirtækja eru einkvæm í móðurfyrirtækinu mun skrá sem er opnuð í OneDrive afrita skrána í möppu sem heitir eftir núverandi fyrirtæki. Ef heiti fyrirtækja eru ekki einkvæm yfir öll umhverfi gætu skrár úr fyrirtækjum sem bera sama heitið verið settar saman í eina möppu.  
+Samþættingin gerir ráð fyrir að heiti fyrirtækja séu einkvæm milli [!INCLUDE[prod_short](includes/prod_short.md)] umhverfa. Þegar heiti fyrirtækja eru einkvæm í móðurfyrirtækinu mun skrá sem er opnuð í OneDrive afrita skrána í möppu sem heitir eftir núverandi fyrirtæki. Ef nöfn fyrirtækja eru ekki einkvæm yfir umhverfi mega skrár úr eins og heiti fyrirtækja verða settar saman í sömu möppu.  
 
 ## <a name="weve-changed-company-name-what-happens-to-my-previous-files"></a>Við höfum breytt heiti fyrirtækis. Hvað verður um gömlu skrárnar mínar?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] flytur ekki sjálfkrafa skrár sem þú opnaðir áður í OneDrive yfir í nýju möppuna. Eftir að fyrirtækið hefur verið endurnefnt mun aðgerðin Opna í OneDrive afrita skrárnar í möppu sem er með nýja heiti fyrirtækisins.   
+[!INCLUDE[prod_short](includes/prod_short.md)] breytir ekki sjálfkrafa skrám sem opnaðar voru fyrr í OneDrive nýju möppunni. Eftir að fyrirtækið hefur verið endurnefnt mun aðgerðin Opna í OneDrive afrita skrárnar í möppu sem er með nýja heiti fyrirtækisins.   
 
-## <a name="when-attaching-files-to-prod_short-how-do-i-pick-a-file-from-onedrive"></a>Þegar skrár eru hengdar við [!INCLUDE[prod_short](includes/prod_short.md)] hvernig vel ég skrá úr OneDrive? 
-[!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á skráaval í skýi. Þú verður að sækja skrána úr OneDrive og yfir í tækið þitt og síðan hlaða henni upp í [!INCLUDE[prod_short](includes/prod_short.md)]. 
+## <a name="when-attaching-files-to-prod_short-how-do-i-pick-a-file-from-onedrive"></a>Þegar skrár eru hengdar við [!INCLUDE[prod_short](includes/prod_short.md)] hvernig vel ég skrá úr OneDrive?
+
+[!INCLUDE[prod_short](includes/prod_short.md)] kanst bjóða út á skúlaskrá tíni. Þú verður að sækja skrána úr OneDrive og yfir í tækið þitt og síðan hlaða henni upp í [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="i-want-to-open-files-in-sharepoint-instead-how-do-i-do-this"></a>Í staðinn vil ég opna skrár í SharePoint. Hvernig geri ég það?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á eiginleika til að afrita skrár í SharePoint og opna þær úr SharePoint safninu. Hafðu samband við samstarfsaðila Microsoft til að átta þig á möguleikum þínum eða leitaðu að forritum í AppSource.  
+[!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á aðgerðir til að afrita skrár til SharePoint og opna þær úr SharePoint safni. Hafðu samband við samstarfsaðila Microsoft til að átta þig á möguleikum þínum eða leitaðu að forritum í AppSource.  
 
 ## <a name="how-do-i-turn-off-integration-to-onedrive"></a>Hvernig slekk ég á samþættingu í OneDrive?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] á netinu býður ekki upp á leið til að gera samþættingu virka eða óvirka í OneDrive.  
+Keyra skal leiðbeiningar með **OneDrive** uppsetningu uppsetningarhjálpar og slökkva á **notkun OneDrive fyrir App-aðgerðir** og **nota OneDrive til að rofna aðgerðir** kerfisins. 
 
 ## <a name="should-i-use-the-sharepoint-connection-setup-page-to-connect-to-sharepoint"></a>Ætti ég að nota SharePoint uppsetningarsíðu tengingar til að tengjast við SharePoint?
 
-Þetta er eldri eiginleiki þar sem allar [!INCLUDE[prod_short](includes/prod_short.md)] skrár frá öllum notendum eru sendar í eina SharePoint möppu. Mælt er með því að stilla ekki flýtiflipa samnýttra skjala á SharePoint uppsetningarsíðu tengingar vegna þess að við erum að vinna að því að úrelda þennan eiginleika.  
+Þetta er eldri eiginleiki þar sem allar [!INCLUDE[prod_short](includes/prod_short.md)] skrár frá öllum notendum eru sendar í eina SharePoint möppu. Mælt er með að ekki sé hægt að samskipa Fastflipanum samnýttu skjölin á **SharePoint síðunni Uppsetning** tengingar því þessi síða hefur verið [tekin](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) úr sambandi og verður fjarlægð í 2023 út wave 2, útgáfa 23,0.  Mælt er með að uppsetningin **OneDrive sé notuð** í staðinn.  
 
 ## <a name="which-version-of-prod_short-supports-onedrive"></a>Hvaða útgáfa af [!INCLUDE[prod_short](includes/prod_short.md)] styður OneDrive?
 
 Samþætting við OneDrive varð aðgengileg í 2021 útgáfutímabili 2.  
+
+## <a name="which-features-are-affected-by-onedrive-integration"></a><a name="features"></a> Hvaða aðgerðir hafa áhrif á OneDrive samþættingu?
+
+**OneDrive** Í uppsetningarleiðbeiningum fyrir uppsetningu aðstoðar við OneDrive uppsetningu samþættingar er hægt að kveikja eða slökkva á aðgerðum til að meðhöndla aðalskrár fyrirtækja í OneDrive. Aðgerðunum er skipt milli tveggja kosta:
+
+|Valkostur|Lýsing|
+|------|----------|
+|**Nota OneDrive fyrir App eiginleika**|Ef þessi valkostur **er kveiki eru opnu í OneDrive** og **Deildu** aðgerðunum gerðar aðgengilegar á skrám í Business Central, eins og skrár sem tengjast fylgiskjölum eða í skýrsluinnhólfinu. Þessar aðgerðir láta notendur afrita, opna og samnýta skrár í OneDrive. Frekari upplýsingar fást með því [að opna og samnýta aðalskrár fyrirtækja í OneDrive](across-share-onedrive.md).
+|**Nota OneDrive fyrir kerfiseiginleika**|Kveikja á þessum valkosti virkjar eftirfarandi aðgerðir:<ul><li> **Opinn í Excel** og **Breyta í Excel** Aðgerðir á listasíðum Afritaðu sjálfkrafa Excel-skrána yfir OneDrive á, Opnaðu hana svo í Excel á netinu. Nánari upplýsingar er að finna [í Skoða og breyta í Excel](across-work-with-excel.md).</li><li> Þegar skýrsla er send í Excel eða Word skráum þá afritar þú skrána OneDrive sjálfvirkt, opnar hana síðan í Excel eða Word á netinu. Frekari upplýsingar er að finna [í Vista skýrslu í skrá](ui-work-report.md#saving-a-report-to-a-file).|
 
 ## <a name="will-microsoft-continue-to-improve-the-integration-to-onedrive"></a>Heldur Microsoft áfram að bæta samþættinguna í OneDrive?
 
@@ -91,16 +101,23 @@ Ef þú vilt taka þátt í að bæta OneDrive samþættingu eða ert með hugmy
 
 Í þessum hluta koma fram upplýsingar um hvernig á að bera kennsl á og lagfæra vandamál sem kunna að koma upp þegar OneDrive er notað með [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="i-have-to-sign-in-each-time-i-open-a-file"></a>Ég þarf að skrá mig inn í hvert skipti sem ég opna skrá
-
-Þetta er því miður þekkt vandamál og við erum að vinna í að leysa málið. Við gerum ráð fyrir að upplifunin verði þægilegri í næstu uppfærslu.  
-
 ### <a name="business-central-cant-find-my-onedrive"></a>Business Central finnur ekki OneDrive
 
 Þegar þessi skilaboð birtast: „Ekki tókst að ákvarða staðsetningu OneDrive for Business. Hafa skal samband við samstarfsaðila til að setja hana upp,“ skal athuga hvort notandinn hafi opnað aðgang sinn að OneDrive að minnsta kosti einu sinni. Ef viðkomandi hefur ekki gert það skaltu biðja hann/hana um að fara á portal.office.com/onedrive til að setja hana upp. Það getur tekið nokkra stund. Ef skilaboðin birtast enn eftir sólarhring skaltu hafa samband við notendaþjónustu.  
  
+### <a name="im-having-problems-sharing-from-outlook"></a>Ég er í vandræðum með að samnýta Outlook
+
+[Ekki er hægt að samnýta OneDrive skrár af Outlook.com](https://support.microsoft.com/en-us/office/can-t-share-onedrive-files-from-outlook-com-05d4cb21-40a2-40e3-b111-82cddb82d22f) í Microsoft Support.
+
+### <a name="actions-open-in-onedrive-and-share-are-missing"></a>Aðgerðir sem opna á OneDrive og deila vantar
+
+Þar ARA nokkur atriði er hægt er að athuga:
+
+- Athugið að kveikt er á Forritseiginleikum OneDrive í uppsetningarleiðbeiningum með **OneDrive aðstoð uppsetningar**. Sjá [Configure OneDrive með OneDrive Setup](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup).
+- Athugaðu að Microsoft OneDrive er stillt á að **Samþykkja** **stöðusíðu** persónuverndartilkynninga. Sjá [Persónuverndartilkynningar um stöðu](privacy-notices-status.md).
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Business Central og OneDrive samþætting](across-onedrive-overview.md)  
 [Stjórnun OneDrive samþættingar við Business Central](admin-onedrive-integration.md)  
 [Opna Business Central Files í OneDrive](across-share-onedrive.md)  

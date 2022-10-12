@@ -1,55 +1,55 @@
 ---
-title: Setja upp og fjarlægja viðauka
-description: Frekari upplýsingar um uppsetningu og fjarlægingu viðbóta í Business Central.
+title: Setja upp og fjarlægja forrit
+description: Lærðu hvernig hægt er að setja upp og fjarlægja forrit og viðauka í viðskiptafræði miðlægt.
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.search.form: 2500
-ms.date: 05/24/2022
+ms.search.form: 2500, 20350
+ms.date: 09/22/2022
 ms.author: solsen
-ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
-ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
+ms.openlocfilehash: db08c13d5e6a5dd29cf9a32b56ab3b5fa9ce77f9
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804657"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605982"
 ---
-# <a name="install-and-uninstall-extensions-in-business-central"></a>Setja upp og fjarlægja viðauka í Viðskiptamiðinu
+# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Uppsetningar-og Fjarlægðarviðbætur (apps) í viðskiptum miðlægt
 
-Þú getur breytt [!INCLUDE[prod_short](includes/prod_short.md)] með því að setja viðbætur sem bæta t.d. við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis. Frekari upplýsingar eru í [Sérstilling Business Central með viðbótum](ui-extensions.md).
+Hægt er að breyta [!INCLUDE[prod_short](includes/prod_short.md)] með því að setja upp forrit sem t.d. bæta við aðgerðum, breyta hegðun eða veita þér aðgang að nýrri netþjónustu. Frekari upplýsingar eru í [Sérstilling Business Central með viðbótum](ui-extensions.md).
 
 > [!NOTE]
-> Til að setja upp eða fjarlægja viðbætur frá AppSource eða bæta við viðbótum fyrir hvern leigjanda fyrir sig eru réttar heimildir nauðsynlegar. Þú verður að vera meðlimur í EXTEND. STJÓR. - STJÓRNANDA Notendahópur eða þú verður að hafa EXTEND. STJÓR. - STJÓRNANDA heimildasamstæða. Ef þú ert stjórnandi geturðu úthlutað notendaflokkum og heimildum til annarra notenda fyrirtækisins.
+> Til að setja upp eða fjarlægja forrit úr AppSource eða bæta við forritum sem eru á lager þarf að hafa réttar heimildir. Þú verður að vera meðlimur í EXTEND. STJÓR. - STJÓRNANDA Notendahópur eða þú verður að hafa EXTEND. STJÓR. - STJÓRNANDA heimildasamstæða. Ef þú ert stjórnandi geturðu úthlutað notendaflokkum og heimildum til annarra notenda fyrirtækisins.
 >
 > Til að nota virkni sem viðbót býður upp á, t.d. opna síður, keyra skýrslur, velja aðgerðir o.s.frv., verður þú að hafa fengið heimildasamstæðunum úthlutað sem settar eru upp sem hluti viðbótarinnar.
 
-> [!NOTE]  
-> Heimildasamstæðan **VIÐBÓTARSTJÓRNUN - STJÓRNANDI** var kynnt til sögunnar í Business Central 2021 útgáfutímabili 1 sem staðgengill fyrir **D365 VIÐBÓTASTJÓRNUN** heimildasamstæðuna í eldri útgáfum.
+Til að nota virkni sem viðbót býður upp á, t.d. opna síður, keyra skýrslur, velja aðgerðir o.s.frv., verður þú að hafa fengið heimildasamstæðunum úthlutað sem settar eru upp sem hluti viðbótarinnar.
 
 ## <a name="install-an-extension"></a><a name="install"></a> Setja upp framlengingu
 
-Þú stjórnar viðbótum á síðunni **Viðbótastjórnun**. Hægt er að opna þessa síðu úr heimasvæðinu. Annars geturðu valið **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") efst í hægra horninu skal velja **Viðbót** og síðan velja viðkomandi tengil.  
+Þú stjórnar forritum og viðaukum á **síðunni um framlengingarstjórnun**. Hægt er að opna þessa síðu úr heimasvæðinu. Annars geturðu valið **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") efst í hægra horninu skal velja **Viðbót** og síðan velja viðkomandi tengil.  
 
-Hægt er að fá nýjar viðbætur úr markaðstorginu á [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Hér getur þú séð allar tiltækar viðbætur fyrir [!INCLUDE[prod_short](includes/prod_short.md)], og þú getur fengið forrit, viðbætur og innihaldsefni fyrir aðrar Microsoft vörur. Stilltu viðeigandi síur, skoðaðu upplýsingar um hverja viðbót og fáðu viðbót fyrir þinn [!INCLUDE[prod_short](includes/prod_short.md)].  
+Hægt er að fá nýtt App frá markaðstorginu á [AppSource . microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Markaðstorgið býður upp á öll tiltæk forrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)], plús forrit og innihald pakkningar fyrir aðrar vörur frá Microsoft. Stilltu viðeigandi síur, skoðaðu upplýsingar um hverja viðbót og fáðu viðbót fyrir þinn [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
 > Skráðu þig inn á [AppSource.microsoft.com](https://appsource.microsoft.com/) með því að nota netfangið sem þú notar fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Nota sama tölvupóstreikning fyrir aðra þjónustu og vörur fyrir er hnökralausa upplifun.  
 
-Einnig er hægt að fá að markaðstorgið úr [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **framlengingarstjórnun** geturðu séð eftirnöfnin sem eru í uppsettri röð og þú getur opnað **Framlengingarmarkað** síðu sem sýnir [!INCLUDE[prod_short](includes/prod_short.md)] viðbætur sem eru í boði í AppSource. Ef þú velur *fleiri apps* tengil þá ert þú að taka til [AppSource . microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Einnig er hægt að fá til að AppSource frá [!INCLUDE[prod_short](includes/prod_short.md)]. **Á síðunni um Framlengingarstjórnun** má sjá appið sem nú er uppsett og hægt er að opna síðu um **framlengingarmarkaðinn** sem sýnir [!INCLUDE[prod_short](includes/prod_short.md)] appið sem nú er aðgengilegt í AppSource. Ef þú velur *fleiri apps* tengil þá ert þú að taka til [AppSource . microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-Ef þú velur viðbót geturðu lesið um hvað viðbótin gerir, og þú getur fengið aðgang að hjálp fyrir viðbótinni til að læra meira. Þegar valið er að fá viðbót, verðurðu að samþykkja skilmála um notkun. Ef þú færð framlengingu af AppSource heimasíðu þá skráir þú þig inn til [!INCLUDE[prod_short](includes/prod_short.md)] að klára uppsetninguna.  
+Ef þú velur App getur þú lesið þér til um hvað forritið gerir og þú getur nálgast Hjálp fyrir app til að fræðast meira. Þegar valið er að fá App þarf að samþykkja notkunarskilmála. Ef þú færð App af AppSource vefsvæðinu þá skráir þú þig inn til [!INCLUDE[prod_short](includes/prod_short.md)] að klára uppsetninguna.  
 
-Þegar þú setur upp viðbót gætirðu þurft að setja það upp, svo sem að tilgreina reikning til notkunar með **PayPal-greiðslustaðall fyrir [!INCLUDE[prod_short](includes/prod_short.md)]** framlengingu.
-Aðrar viðbætur bæta einfaldlega reitum við fyrirliggjandi síðu, eða þeir bæta við nýjum síðum, til dæmis.
+Þegar þú hefur sett upp App gætir þú þurft að setja það upp. Sum forrit krefjast þess að upplýsingar séu gefnar upp áður en hægt er að nota þær. Eftir að þú setur upp **PayPal greiðslur staðlaða** App þarftu að tilgreina netfangið eða Reikningskenni kaupenda fyrir PayPal reikninginn þinn. Til að setja upp app, eða til að finna út hvaða upplýsingar þú þarft, á **síðunni uppsetta viðaukann**, skaltu velja **aðgerðina Setja upp**.  
 
-Ef þú fjarlægir viðbót og skiptir um skoðun geturðu sett hana inn aftur. Þegar þú fjarlægir viðbót sem þú hefur verið að nota, eru gögnin geymd svo að ef þú setur þau upp aftur, eru gögnin þínn enn tiltæk. Einhverjar viðbætur eru nauðsynlegar. Þú ert hindraður í að fjarlægja þessa viðauka af síðunni um **Framlengingarstjórnun**. Ef þú prófar birtast villuboð.
+Önnur forrit bæta einfaldlega reitum við síðu sem fyrir er, eða þau bæta við nýrri síðu, td.
 
-Sumar viðbætur eru veittar af Microsoft, og aðrar viðbætur eru veittar af [öðrum fyrirtækjum.](ui-extensions-other.md) Allir Viðaukar eru prófaðir áður en þeir eru gerðir aðgengilegir, en mælt er með því að nálgast þau tengsl sem bjóðast við hverja framlengingu til að fá frekari upplýsingar um framlengingu áður en valið er að setja það upp.
+Ef þú fjarlægir App og skiptir um skoðun getur þú sett það upp aftur. Þegar þú fjarlægir App sem þú hefur verið að nota, eru gögnin varðveitt þannig að ef þú setur upp forritið aftur, þá er gögnin þín enn tiltæk. Til eru nokkur forrit sem eru nauðsynleg. Þú ert hindraður í að fjarlægja þessi forrit af síðunni um **Framlengingarstjórnun**. Ef þú prófar birtast villuboð.
 
-Microsoft veitir eftirfarandi viðbætur:
+Sum forrit eru veitt af Microsoft, og önnur forrit eru veitt af [öðrum fyrirtækjum](ui-extensions-other.md). Öll forrit eru prófuð áður en þau eru gerð aðgengileg þér, en við mælum með að þú fáir aðgang að þeim tenglum sem fylgja hverju app til að fá frekari upplýsingar um App áður en þú velur að setja það upp.
+
+Microsoft gefur út eftirfarandi apps:
 
 * [AMC Banking 365 Fundamentals Viðbót](ui-extensions-amc-banking.md)
 * [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
@@ -65,7 +65,7 @@ Microsoft veitir eftirfarandi viðbætur:
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 * [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)
 * [QuickBooks Online Gagnaflutningur](ui-extensions-quickbooks-online-data-migration.md)
-* [Quickbooks-viðbótin fyrir innflutning á launaskrá](ui-extensions-quickbooks-payroll.md)
+* [Hraðlestrarskrá um innflutning í Fljótsbókum](ui-extensions-quickbooks-payroll.md)
 * [Sölu- og birgðaspár](ui-extensions-sales-forecast.md)
 * [VSK-flokkur](ui-extensions-vat-group.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
@@ -75,23 +75,28 @@ Microsoft veitir eftirfarandi viðbætur:
 * [Viðbótin GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
 
+## <a name="set-up-an-extension"></a>Setja upp framlengingu
+Þegar þú hefur sett upp App gætir þú þurft að setja það upp. Til dæmis, fyrir **PayPal greiðslur staðall fyrir [!INCLUDE[prod_short](includes/prod_short.md)]** App þarf að tilgreina PayPal reikninginn sem á að nota. Ef það er raunin, þegar uppsetningu lýkur [!INCLUDE[prod_short](includes/prod_short.md)] mun spyrja hvort þú viljir setja upp forritið strax. Uppsetningar er hægt að krefjast fyrir App að vinna, eða valfrjálst.
+
+Ef valið er að setja forritið upp strax og það er með nauðsynlega uppsetningu [!INCLUDE[prod_short](includes/prod_short.md)] opnast nauðsynleg Uppsetning. Uppsetningin getur verið annað hvort síða þar sem færðar eru inn upplýsingar, eða aðstoðarleiðbeiningar um uppsetningu sem hjálpa til við að fara í gegnum skrefin. Ef uppsetningunni er ekki lokið í einni ferð er hægt að **nota uppsetningar fyrir _Heiti App_** -síðu sem birtir allar uppsetningar fyrir App. Nauðsynlegar uppsetningar tilgreindar með **feitletrubókstöfum**.
+
 ## <a name="upload-a-per-tenant-extension-pte"></a>Sækja um framlengingu á leigjanda (PTE)
 
 Þú hleður upp PTE með því að nota síðuna **Viðbótastjórnun**. Á síðunni **Viðbótastjórnun** skal fara í **Stjórna**, síðan velja **Hlaða upp viðbót**. Á síðunni **Hlaða og setja upp viðbót** skal tilgreina forritsskrána sem á að hlaða upp. Til að halda áfram skal velja **hnappinn Samþykkja** og síðan **Virkja hnappinn, sem mun hefja ferlið á því að nota** Pte.
 
 Ef PTE inniheldur breytingar á grindarverki er mögulegt að *knýja* fram upphleðslu þess. Til að gera það skal í **Samstilling skema** velja valkostinn **Þvinga**. Þú færð staðfestingarglugga til að samþykkja áður en haldið er áfram.  
 
-## <a name="uninstall-an-extension"></a>Fjarlægja nafnauka
+## <a name="uninstall-an-app"></a>Fjarlægja App
 
-Hægt er að fjarlægja viðbót með því að nota **Viðbótastjórnun**. Til að fjarlægja nafnauka er það valið á síðunni og síðan er **fjarlægingaraðgerðin** valin. Ef þú fjarlægir viðbót og skiptir um skoðun geturðu sett viðbótina inn aftur.
+App er fjarlægt með því að **nota síðuna Framlengingarstjórnun**. Til að fjarlægja App er það valið á síðunni og síðan er **fjarlægingaraðgerðin** valin. Ef þú fjarlægir App og skiptir um skoðun þá getur þú sett upp forritið aftur.
 
-Þegar búið er að fjarlægja framlengingu sem þú hefur notað, er sjálfgefið að gögn séu varðveitt ef framlenging er sett upp aftur. Hægt er að velja að eyða gögnunum með viðbótinni. Þessari aðgerð er stjórnað af Gagnatrofann **með því að** Eyða framlenginu. Sjálfgefið er að slökkt **sé** á þessum rofa. Þegar reynt er að kveikja á **Skiptigagnagögnum** eyðu-Framlengingar fyrir framlengingu færðu staðfestingarglugga og þú verður að velja **Já** til að kveikja á honum. **Eftir að kveikt er á Framlengingargagnagögnum** er hægt að fjarlægja eftirnafn og biðja um staðfestingu á að þú viljir fjarlægja eftirnafn og eyða gögnunum.
+Þegar þú fjarlægir App sem þú hefur verið að nota, er sjálfgefið að gögnin varðveitist ef þú setur upp forritið aftur. Þú getur þess í stað valið að eyða gögnunum með forritinu. Þessari aðgerð er stjórnað af Gagnatrofann **með því að** Eyða framlenginu. Sjálfgefið er að slökkt **sé** á þessum rofa. Þegar þú reynir að kveikja á **DELETE-Framlengingargagnagögnum** fyrir App færðu staðfestingarglugga og velur **Já** til að kveikja á því. **Þegar kveikt er á Framlengingargagnagögnum** er hægt að fjarlægja App og biðja um staðfestingu á að fjarlægja eigi App og eyða gögnunum.
 
 > [!IMPORTANT]  
-> - Það geta verið aðrir Viðaukar sem krefjast eða fara eftir viðaukanum sem á að fjarlægja til þess að vinna. Um aðra viðauka vísast til *háðs*. Ekki er hægt að fjarlægja framlengingu nema háði þeirra sé einnig tekinn niður.
-> - Þegar valið er að fjarlægja nafnauka sem hefur einn eða fleiri háðan þá fær maður staðfestingarglugga sem er listi háðs og spyr hvort þú viljir fjarlægja eftirnafn og allan hans háða. Þú verður að velja **Já** til að halda áfram.
-> - Ef kveikt er á gagnarofi til að **Eyða framlengingu eyða öll gögn fyrir viðaukanum** auk **gögnum fyrir alla háða** viðauka. Ekki er hægt að afturkalla þessa aðgerð.
-> - Sumar viðbætur eru nauðsynlegar. Þú ert að koma í veg fyrir að þetta sé fjarlægt af síðunni **Viðbótastjórnun**. Ef þú prófar birtast villuboð.  
+> - Það geta verið önnur forrit sem krefjast eða velta fyrir sér App sem á að fjarlægja til þess að virka. Þessi önnur forrit eru nefnd sem *háði*. Ekki er hægt að fjarlægja App nema að háði þeirra sé einnig tekinn niður.
+> - Þegar þú velur að fjarlægja App sem er með einn eða fleiri háða færðu staðfestingarglugga sem skráir háða og spyr hvort þú viljir fjarlægja App og allan þess háðan. Þú verður að velja **Já** til að halda áfram.
+> - Ef kveikt er á gagnrofi með því **að eyða framlengingu verður forritinu eytt og öll gögn fyrir App** Plus **-gögnin öll háð forritum** fjarlægð. Ekki er hægt að afturkalla þessa aðgerð.
+> - Sum forrit eru nauðsynleg. Þú ert að koma í veg fyrir að þetta sé fjarlægt af síðunni **Viðbótastjórnun**. Ef þú prófar birtast villuboð.  
 
 ## <a name="see-also"></a>Sjá einnig
 

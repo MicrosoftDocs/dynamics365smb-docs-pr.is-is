@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532728"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617849"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Senda VSK skýrslu inn til skattayfirvalda
 
@@ -30,7 +30,7 @@ Hægt er að nota eftirfarandi skýrslur um byggðakvóta:
 
     VSK-Vöruskilaskýrslan inniheldur VSK fyrir sölu og innkaup til viðskiptamanna og lánardrottna í öllum löndum sem nota VSK.  
 
-Í báðum tilvikum er VSK reiknaður út frá uppsetningu VSK-bókunar og VSK-bókunarflokka sem settir hafa verið upp.
+Í báðum tilvikum er VSK reiknaður út frá uppsetningu VSK-bókunar og VSK-bókunarflokka sem settir hafa verið upp. [!INCLUDE[prod_short](includes/prod_short.md)] Sýnir VSK-færslur samkvæmt **VSK-dagsetningu**.
 
 Ef þú vilt skoða allan feril VSK færslna, þá býr hver VSK-bókun til færslu á **VSK-færslur** síðunni. Þessar færslur eru notaðar til að reikna VSK-upphæðir s.s. greiðslur og endurgreiðslur á tilteknu tímabili. Til að skoða VSK-færslur skaltu velja þá ![ljósaperu sem opnast Segðu aðgerðina 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-færslur** og velja síðan viðkomandi tengil.
 

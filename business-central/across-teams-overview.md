@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 03/04/2022
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805049"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607425"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams samþætting
 
@@ -52,7 +52,7 @@ Frekari upplýsingar eru í [Deila færslum í Microsoft Teams](across-working-w
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Deila tenglum af síðum í Business Central með Teams
 
-Beint frá flestum söfnunar- og upplýsingasíðum í Business Central er hægt að nota aðgerðina **Deila með Teams** í ![Valmyndartákni deilingar á síðum.](media/share-icon.png "Deilingarvalmyndin sýnd á spjaldi.") til að skrifa skilaboð, velja viðtakendur á borð við teymismeðlimi, hópa eða rásir og senda skilaboðin með tengli á síðu Business Central.
+Beint frá flestum söfnunar- og upplýsingasíðum í Business Central er hægt að nota aðgerðina **Deila með Teams** í ![Valmyndartákni deilingar á síðum.](media/share-icon.png "Deilingarvalmyndin sýnd á spjaldi.") Tákn til að rita skilaboð, velja viðtakendur eins og liðsmeðlimi, flokka eða rásir og senda skilaboðin með tengli og í aðalsíðu viðskipta.
 
 ![Deilingarvalmynd sýnd í spjaldi.](media/teams-share-link.png "Deilingarvalmyndin sýnd á spjaldi.")
 

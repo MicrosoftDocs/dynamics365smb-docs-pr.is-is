@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 05/23/2022
+ms.date: 08/16/2022
 ms.author: jswymer
-ms.openlocfilehash: 3fe47ef19e9a8dbc66c13461aa1255bc21490421
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 38dec472417e49fe974ed72f6eac2fdf4dffde3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531135"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606668"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -56,15 +56,16 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 |Alt+Shift+N |Velja nýlega stofnaða síðu og opna nýja til að búa til nýja færslu. Á sama hátt bókar ALT+F9 skjal og býr til nýtt.|
 |Alt+T|Opna síðuna **Mínar stillingar**.|
 |Alt+hægri ör|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur ![AssistEdit](media/assist-edit-icon.png "AssistEdit hnappur"). hnappur. Notað þegar venjulegur fellitakki (Alt + ör) í sama reit er notaður í öðrum tilgangi.|
-|Ctrl+Alt+Shift+C|Birta upplýsingar í merki fyrirtækis.|
+|Ctrl+Alt+Shift+C|Birta upplýsingar í merki fyrirtækis. Þessari flýtileið var hætt í viðskiptum Mið 2022 út Wave 2 (útgáfa 21) og skipt út fyrir Ctrl + O. |
 |Ctrl+Alt+F1|Opna og loka glugganum fyrir síðueftirlit. Glugginn fyrir síðueftirlit sýnir upplýsingar um síðuna, t.d. upprunatöflu, reiti, síur, viðbætur og fleira.<br /><br />Frekari upplýsingar er að finna í [Eftirlit með síðum](across-inspect-page.md).|
 |Ctrl+C |Afrita gildið á reit. Ef reiturinn er í fókus og þú hefur ekki valið neinn texta í reitnum mun þetta afrita allt gildið. Ef þú hefur valið einhvern texta í reitnum er eingöngu valilnn texti afritaður.|
-|Ctrl+F1|[Opna hjálparrúðuna](product-help-and-support.md#help-pane) eða aðalhjálpargrein [í Microsoft docs](/dynamics365/business-central/), eftir aðalútgáfu fyrirtækisins.|
+|Ctrl+F1|[Opna hjálparrúðuna](product-help-and-support.md#help-pane) eða aðalhjálpargrein [Microsoft Learn](/dynamics365/business-central/) fyrir fyrirtæki, eftir aðalútgáfu fyrirtækisins.|
 |Ctrl+F12|Skiptu á milli breiðs og þröngs útlits á yfirliti.|
 |Ctrl+Smella|Fletta við sérstillingu eða sérsnið þegar aðgerðin er auðkennd með örvaoddi. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).|  
 |Ctrl+F5|Endurhlaða [!INCLUDE[prod_short](includes/prod_short.md)] forritið. (Svipað og að velja endurnýja/endurhlaða í vafranum.)|
 |F5|Endurnýja gögnin á núverandi síðu.<br /><br />Notaðu þennan lykil til að tryggja að gögnin á síðunni séu ný með öllum breytingum sem aðrir gera á meðan þú ert að vinna.|
-|Innfært|Virkja eða fá aðgang að hlutanum eða stjórninni sem er í brennidepli.|
+|Ctrl+O|**Opnið rúðuna tiltæk fyrirtæki** til að skipta yfir í annað fyrirtæki eða umhverfi. Frekari upplýsingar eru í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md).|
+|Færslulykill|Virkja eða fá aðgang að hlutanum eða stjórninni sem er í brennidepli.|
 |Esc|Loka núverandi síðu eða fellilista.|
 |Dálklykill|Færa áhersluna á næstu stýringu eða einingu á síðu, t.d. aðgerðir, hnappa, reiti eða fyrirsagnir lista.|
 |SHIFT+DÁLKLYKILL|Færa brennidepil yfir á fyrri stjórnun eða einingu á síðu, svo sem aðgerðir, hnappa, reiti eða listahausa.|

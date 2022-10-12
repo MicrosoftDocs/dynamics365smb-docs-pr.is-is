@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: bd729acaab521cb32b152f297950c7616c78aad7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524628"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606009"
 ---
 # <a name="the-image-analyzer-extension"></a>Myndgreiningarviðbót
 
@@ -117,7 +117,7 @@ Einnig er hægt að nota eigin reikning fyrir API Tölvuvision, t.d. ef á að g
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Þjónustutengingar** og veldu síðan **Uppsetning myndgreiningar**.  
 2. Hreinsið svæðið virkja með **Myndgreindri** mynd.  
 
-Einnig er hægt að fjarlægja viðbótina alveg. Það er alltaf hægt að sækja þetta aftur af AppSource. Frekari upplýsingar er að finna [í setja upp og fjarlægja viðauka í Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  
+Einnig er hægt að fjarlægja viðbótina alveg. Það er alltaf hægt að sækja þetta aftur af AppSource. Frekari upplýsingar er að finna [í setja upp og fjarlægja viðauka í Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
 ## <a name="see-also"></a>Sjá einnig .
 

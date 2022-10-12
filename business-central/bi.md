@@ -1,50 +1,52 @@
 ---
-title: Viðskiptaupplýsingar
-description: Business Central inniheldur ýmsa eiginleika sem hjálpa þér að safna saman, greina og deila mikilvægum gögnum fyrirtækisins fyrir viðskiptaupplýsingar og ákvarðantöku.
+title: Upplýsingarit um Fjármál fyrirtækja
+description: Í Viðskiptamiðinu eru margir möguleikar til að safna, greina og deila verðmætum gögnum um fyrirtæki til viðskiptagreindar og ákvarðanatöku.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 103, 198, 490
-ms.date: 06/14/2021
+ms.search.form: 103, 108, 198, 490
+ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: be92e23a1dece6225a0700dc4fb3b718481367cb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5f706773b90d799ad4643b05d04085f0dfa4db7b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523138"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605219"
 ---
-# <a name="business-intelligence"></a>Viðskiptaupplýsingar
-Fyrirtæki safna saman gríðarlegu magni gagna á hverjum degi. Slík gögn er varða atriði eins og sölutölur, innkaup, rekstrarkostnað, laun starfsmanna og fjárhagsáætlun, eru verðmætar upplýsingar eða viðskiptaupplýsingar fyrir þá sem taka ákvarðanir innan fyrirtækja. [!INCLUDE[prod_short](includes/prod_short.md)] býður ýmsar aðgerðir til að aðstoða fyrirtæki við að safna saman, meta og deila gögnum fyrirtækisins.
+# <a name="financial-business-intelligence"></a>Upplýsingarit um Fjármál fyrirtækja
 
-Virkni víddarinnar gegnir mikilvægu hlutverki í viðskiptaupplýsingum. Vídd samsvarar gögnum sem þú getur bætt við færslu sem nokkurs konar leiðarmerki. Þessi gögn eru notuð til að flokka saman færslur með svipuð einkenni, eins og viðskiptamenn, svæði, vörur og sölumenn og sækja þessa hópa á auðveldan hátt til greiningar. Víddir er meðal annars hægt að nota þegar skilgreina á greiningaryfirlit og þegar búa á til fjárhagsskemu fyrir skýrslugjöf. Sjá [vinnu með víddir fyrir frekari upplýsingar](finance-dimensions.md).
+Fyrirtæki taka upp gríðarlegt magn af gögnum við daglegar athafnir. Þessi gögn, sem endurspegla slíka hluti sem sölutölur fyrirtækisins, innkaup, rekstrarútgjöld, laun starfsmanna og fjárhagsáætlanir, endurspegla verðmætar upplýsingar, eða viðskiptagreind (BI), til ákvarðanatöku. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur margar aðgerðir sem hjálpa til við að safna, greina og samnýta gögn fyrirtækisins.
+
+**Víddirnar** Aðgerðir gegna mikilvægu hlutverki í viðskiptagreind. Vídd er gögn sem hægt er að bæta við færslu sem færibreytu. Hægt er að nota hann til að flokka færslur sem hafa svipaða eiginleika, eins og til dæmis viðskiptamenn, svæði, vörur og sölumann og sækja auðveldlega þessa flokka til greiningar. Meðal annars er hægt að nota víddir þegar greiningaryfirlit og stofnun fjárhagsskýrslna eru skilgreind. Lærðu meira í [vinnunni með víddum](finance-dimensions.md).
 
 > [!TIP]
-> Hægt er að greina færslugögn út frá víddum á skjótan hátt með því að afmarka samtölur á bókhaldslyklum og færslum á öllum **Færslur** síður út frá víddum. Leitaðu að aðgerðinni **Stilla víddarafmörkun**.  
+> Flýtileiðin til að greina Transactional gögn er hægt að sía samtölur í bókhaldslykli og allar færslur á **færslum** síðum eftir víddum. Leitaðu að aðgerðinni **Stilla víddarafmörkun**.  
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
+Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.  
 
 | Til | Sjá |
 | --- | --- |
 |Skoða raunverulegar upphæðir í samanburði við áætlaðar upphæðir fyrir alla reikninga og nokkur tímabil.|[Greina raunverulegar og áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md)|
-|Búa til nýtt fjárhagsskema til að skilgreina ársreikninga fyrir skýrslugjöf eða fyrir sýningu í formi myndrits.|[Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)|
-|Greindu fjárhagslega frammistöðu þína með því að setja upp KPI á grundvelli fjárhagskemu sem þú gefur svo út sem vefþjónustur. Hægt er að skoða útgefna afkastavísa fyrir fjárhagsskemað á vefsíðu eða flytja þá inn í Microsoft Excel með OData vefþjónustu.|[Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
-|Setja upp greiningaryfirlit, til að greina gögn með víddum.|[Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)|
+|Stofna nýjar ársskýrslur til að skilgreina fjárhagsyfirlit til skýrslugerðar eða til að birta sem töflur.|[Útbúa ársskýrslur með fjárhagslegum gögnum og lykiltegundum](bi-how-work-account-schedule.md)|
+|Greinið fjárhagslega frammistöðu þína með því að setja upp afkastavísa (KPIs) sem byggist á fjárhagsskýrslum sem síðan eru birt sem vefþjónustur. Hægt er að skoða útgefnar ársskýrslur afkastavísa á vefsvæði eða flytja inn til að Microsoft Excel nota vefþjónustu OData.|[Setja upp og birta KPMG-vefþjónustu byggða á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
+|Setja upp Yfirlit til að greina gögn með notkun vídda.|[Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)|
 |Búa til ný greiningaryfirlit fyrir sölu, innkaup og birgðir og búa til greiningarsniðmát.|[Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)|
-|Gera virka fjárhagsskýrslugerð fyrir alþjóðleg bókhaldsfyrirtæki með stöðluðu XBRL.|[Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)|
-|Breyta ástæðu aðgangs að gagnagrunni fyrir skýrslur, síður af API-gerð og fyrirspurnir til að draga úr álagi og auka afköst.|[Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)|
+|Gera altækar fjárhagsskýrslur virkar fyrir alþjóðleg bókhaldsfyrirtæki með XBRL-staðli.|[Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)|
+|Breyta skal ásetningi um aðgang að gagnagrunni á skýrslum, síðum fyrir API-gerð og fyrirspurnum til að draga úr hleðslu og bæta afköst.|[Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>Sjá einnig
-[Fjármál](finance.md)    
+## <a name="see-also"></a>Sjá einnig .
+
+[Fjármál](finance.md)  
 [Nota Viðskiptamiðlæga sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
 [Lokun fjárhagstímabila](year-close-years-periods.md)  
 [Flytja inn gögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Yfirlit yfir viðskiptagreind og skýrslugerð](reports-bi-reporting.md)  
+[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

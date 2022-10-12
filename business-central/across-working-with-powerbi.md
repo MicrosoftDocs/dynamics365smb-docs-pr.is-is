@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535318"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606441"
 ---
-# <a name="work-with-power-bi-reports-in-prod_short"></a>Vinna með Power BI skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-prod_short"></a>Vinna með Power BI skýrslur í[!INCLUDE [prod_short](includes/prod_short.md)]
 
 Í þessari grein lærir þú nokkur grunnatriði við að skoða Power BI -skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -49,10 +49,10 @@ Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum
 2. Uppsetningarleiðbeiningin **Setja upp Power BI skýrslur í Business Central** hefst. Veldu **Næst** til að halda áfram.
 3. Á síðunni **Athugaðu Power BI-leyfið þitt**. Framkvæmdu eitt af eftirfarandi skrefum:
 
-    - Ef þú hefur ekki enn skráð þig fyrir Power BI skaltu velja [Fara á Power BI heimasíðu](https://powerbi.microsoft.com). Skráðu þig fyrir reikningi, farðu síðan aftur á [!INCLUDE[prod_short](includes/prod_short.md)] og kláraðu uppsetninguna.
+    - Ef þú hefur ekki enn skráð þig fyrir Power BI skaltu velja [Fara á Power BI heimasíðu](https://powerbi.microsoft.com). Skráðu þig á reikning, komdu svo aftur í [!INCLUDE[prod_short](includes/prod_short.md)] og Kláraðu uppsetninguna.
 
     - Ef þú ert þegar með leyfi skaltu velja **Næst**.
-4. Á næstu síðu mun [!INCLUDE[prod_short](includes/prod_short.md)] nú hlaða upp sýniútgáfu af skýrslu í Power BI. Þetta tekur nokkrar mínútur, svo það er gert í bakgrunni. Til að ljúka uppsetningunni skal velja **Næst** og síðan **Ljúka**.
+4. Á næstu síðu mun [!INCLUDE[prod_short](includes/prod_short.md)] nú hlaða upp sýniútgáfu af skýrslu í Power BI. Þetta skref tekur nokkrar mínútur og svo er það gert í bakgrunni. Til að ljúka uppsetningunni skal velja **Næst** og síðan **Ljúka**.
 
 Tengingarferlið hefst. Við ferlið hefur [!INCLUDE [prod_short](includes/prod_short.md)] samskipti við Power BI-þjónustuna til að komast að því hvort þú sért með gildan Power BI-reikning og leyfi. Þegar leyfið þitt hefur verið staðfest birtast sjálfgefna Power BI-skýrslan á heimasíðunni þinni. Ef engin skýrsla birtist er hægt að velja skýrslu úr hlutanum.
 
@@ -69,9 +69,14 @@ Eftir tengingu er hægt að velja skýrslu úr Power BI-hlutanum á síðum.
 
 ### <a name="show-reports-on-list-pages"></a>Sýna skýrslur á listasíðum
 
-[!INCLUDE[prod_long](includes/prod_long.md)] inniheldur Power BI upplýsingareit á nokkrum lyklalistasíðum. Þessi upplýsingareitinn veitir frekari innsýn í gögnin á listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Ef þú sérð ekki þennan hluta skaltu fara í aðgerðarstikuna og velja **Aðgerðir** > **Birta** > **Sýna/fela Power BI Skýrslur**.
+[!INCLUDE[prod_long](includes/prod_long.md)] inniheldur Power BI upplýsingareit á nokkrum lyklalistasíðum. Þessi Upplýsingakassi veitir frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu.
 
 Frekari upplýsingar um hvernig á að búa til skýrslur fyrir listasíður er að finna í [Stofna Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> Ef þú sérð Power BI ekki upplýsingakassa gæti hún verið falin á vinnusvæðinu þínu eftir sérstillingar. ![Velja stillingar.](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") Teiknið og veljið **síðan sérsníða** aðgerð. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
+>
+> Eða ef eldri útgáfa af Viðskiptamiðinu er í er farið í aðgerðreinina, valið **·** > **aðgerðaskjár** > **Sýna/fela Power BI skýrslur**.
 
 ### <a name="switch-reports"></a>Skipta í aðra skýrslu
 
@@ -121,7 +126,7 @@ Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI re
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Skilaboð: Engar skýrslur eru virkar. Veljið Velja skýrslu til að sjá hvaða skýrslur er hægt að birta.
 
-Þessi skilaboð birtast ef ekki tókst að virkja sjálfgefna skýrslu á Power BI vinnusvæði. Eða það var virkjað en uppfærðist ekki. Farðu í skýrsluna á Power BI vinnusvæðinu, velja **Gagnasafn**, **Stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnasafnið hefur verið endurnýjað er farið aftur í [!INCLUDE[prod_short](includes/prod_short.md)] og valið skýrslu handvirkt af **Velja skýrslur** síðunni.
+Þessi skilaboð birtast ef ekki tókst að virkja sjálfgefna skýrslu á Power BI vinnusvæði. Eða það var virkjað en uppfærðist ekki. Farðu í skýrsluna á Power BI vinnusvæðinu, velja **Gagnasafn**, **Stillingar** og uppfæra svo skilríkin handvirkt. Þegar DataSet hefur verið endurnýjað er farið aftur í [!INCLUDE[prod_short](includes/prod_short.md)] og skýrslan valin handvirkt af **síðunni velja skýrslur**.
 
 #### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Ekki er hægt að sjá skýrslur á síðu skýrsluvals á listasíðunni
 
@@ -143,7 +148,6 @@ Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI re
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnagjafa](across-how-use-financials-data-source-powerapps.md)  
 [Notkunar [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
 

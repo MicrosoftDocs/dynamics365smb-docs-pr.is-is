@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530919"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617821"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Unnið með VSK í sölu og innkaupum
 Ef land eða svæði notanda þarf að reikna út og tilkynna virðisauka (VSK) í sölu-og innkaupafærslum er hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til ÚTREIKNINGS VSK. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).
@@ -61,6 +61,18 @@ Eftir því hvað á að gera er hægt að úthluta VSK-viðskiptabókunarflokki
 
 #### <a name="examples"></a>Dæmi
 Þættir eins og landið eða svæðið sem þú ert að selja í, eða þá tegund atvinnugreinar sem þú selur til, geta haft áhrif á þann virðisaukaskatt sem þarf að vera lykill fyrir. Til dæmis gæti veitingasalur rukka 6% VSK fyrir máltíðir sem eru borðaðar á húsverði, og 17% fyrir takeaway. Til að ná því er stofnaður VSK-viðskiptabókunarflokkur (verð) fyrir hús og einn fyrir takeaway.
+
+## <a name="working-with-vat-date"></a>Unnið með VSK-dagsetningu
+### <a name="vat-date-in-documents"></a>VSK-dagsetning í skjölum
+Þegar ný sölu-, innkaupa-eða innkaupaskjöl eru **stofnuð mun VSK-dagsetningin** vera byggð á stillingunni í **reitnum sjálfgefið VSK-dagsetning** á **uppsetningarsíðu** fjárhags. Þetta sjálfgefna gildi getur verið það sama og **Bókunardagsetning** eða **Dagsetning** fylgiskjals. Ef þörf er á annarri VSK-dagsetningu er hægt að breyta gildinu handvirkt í **reitnum VSK-dagsetning**. Þegar skjalið **er bókað birtist VSK-dagsetningin** á bókunarskjalinu og í VSK-og fjárhagsfærslur.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>VSK-dagsetning leiðrétt í bókuðum færslum
+Í sumum aðstæðum er nauðsynlegt að breyta VSK-dagsetningu, jafnvel þótt skjalið hafi verið bókað og þetta er hægt að gera í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef breyta **á VSK-dagsetningu** fyrir bókuð skjöl þarf að fylgja þessum skrefum:
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-færslur** og velja síðan viðkomandi tengil.
+2. Finna færsluna með röngum VSK-dagsetningu.
+3. Smelltu **á breyta lista** aðgerð og Sláðu inn rétta dagsetningu í **reitinn VSK-dagsetning**.
+4. Loka síðunni.
+5. Nýjum VSK-dagsetningu verður breytt í tengdum **fjárhagsfærslum** og bókaða skjalið ef er til.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Handvirk breyting VSK-upphæða í sölu- og innkaupaskjölum  
 Hægt er að gera leiðréttingar á bókuðum VSK-færslum þannig að hægt sé að breyta heildarsölu-eða VSK-upphæðum í virðisaukaskatti án þess að breyta VSK-grunni. Til dæmis ef reikningur berst frá lánardrottni með ranga VSK-upphæð.  
