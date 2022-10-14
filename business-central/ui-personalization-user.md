@@ -1,21 +1,21 @@
 ---
 title: Sérsníða síður (inniheldur Video)
 description: Kynntu þér hvernig á að sérstilla notendaviðmótið og aðlaga vinnusvæðið þitt til að henta því hvernig þú vinnur í Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 10/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528813"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652165"
 ---
 # <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 
@@ -79,9 +79,15 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 |Bæta nýrri aðgerð við síðu eða skýrslu í Mitt hlutverk.|Af marksíðu, síður skýrslubeiðna eða glugga Viðmótsleitar skal velja bókamerkjatákn.|Sjá [Síða eða skýrsla bókamerkt í Mitt hlutverk](ui-bookmarks.md)|
 |Byrja alltaf að birta listann sem stækkaðan eða dreginn saman|**Veldu Útvíkkaðu allan** eða **fella allan** hnapp í efsta vinstra horni listans. Einnig er hægt að **Útvíkka alla** aðgerð eða **fella allar** Aðgerðir saman í valmynd fyrsta dálksins. |Á við um stiveldislista sem hægt er að fella saman|
 
-## <a name="personalizing-actions"></a><a name="Actions"></a>Sérstilling aðgerða
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a> Sérsníða aðgerðrein og valmyndir
 
-Sérstilling gerir þér kleift að ákveða hvaða aðgerðir á að sýna á yfirlits- og aðgerðarstikunni og í hlutverkamiðstöðvum og hvar á að sýna þær. Þú getur sýnt, falið eða fært stakar aðgerðir eða hóp aðgerða. Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og á öðrum viðmótseiningum. Það sem þú hins vegar getur gert við aðgerð eða hóp aðgerða fer eftir því hvar aðgerðin eða hópur aðgerða er staðsettur. Besta leiðin til að komast að því er að fara í sérsnið og láta svo örvaoddinn leiðbeina þér.
+Sérsnið leyfir að hægt sé að ákveða hvaða aðgerðir eigi að sýna á skoðunarstofum og aðgerðarbörum og á hlutverkamiðstöðvum og hvar eigi að sýna þær. Þú getur sýnt, falið eða fært stakar aðgerðir eða hóp aðgerða.
+
+Í 2022 út Wave 2 við bjóðum upp á fleiri leiðir fyrir þig til að gera Miðbæjarfyrirtæki þitt. Eftirfarandi myndband sýnir hvernig hægt er að sérsníða aðgerðir á síðum og hlutverkamiðstöðvum.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og á öðrum viðmótseiningum. Það sem þú hins vegar getur gert við aðgerð eða hóp aðgerða fer eftir því hvar aðgerðin eða hópur aðgerða er staðsettur. Besta leiðin til að komast að því er að fara í sérsnið og láta svo örvaoddinn leiðbeina þér.
 
 Það eru nokkur hugtök sem þú ættir að kynna þér til að skilja betur sérstillingaraðgerðina: *aðgerðahópur* og *uppfærður flokkur*.  
 

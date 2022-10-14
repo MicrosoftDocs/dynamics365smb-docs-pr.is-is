@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606144"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652192"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Skrá sérstök söluverð og afslætti
 
@@ -93,7 +93,7 @@ Flestar nýjar upplifanir á söluverðunum eru svipaðar og núverandi upplifun
     * Sölur
     * Innkaup
     * Verksala
-    * Verkinnkaup 
+    * Verkinnkaup
 
     Hægt er að breyta öllum verðum þessara svæða á **síðunni verð vinnublaðs**. Sjálfgefnu verðlistarnir verða stilltir á **uppsetningu sölu&**, **innkaupa &** og **uppsetningarsíðum verka**. 
 
@@ -252,7 +252,7 @@ Afsláttarprósentur eru **tengiltvinnupphæðir á tilteknar reikningsupphæði
 Til viðbótar við eða í staðinn fyrir afsláttarprósentu er hægt að tengja ákveðið þjónustugjald við ákveðna reikningsupphæð.  
 
 > [!TIP]  
-> Áður en hafist er handa við að setja upplýsingarnar inn í forritið er gott að útbúa uppkast af því afsláttarformi sem á að nota. Þannig er auðveldara að átta sig á því hvaða viðskiptamenn er hægt að tengja við sama reikningsafsláttarsíðu. Eftir því sem setja þarf upp færri síður, þeim mun fljótlegra er að færa inn grunnupplýsingarnar.
+> Áður en þessar upplýsingar eru færðar inn er ágætt að útbúa grein fyrir þeirri afsláttarskipan sem á að nota. Skipulag gerir það auðveldara að ákvarða hvaða Viðskiptavinir geta verið tengdir sama reikningsafsláttarsíðunni. Eftir því sem setja þarf upp færri síður, þeim mun fljótlegra er að færa inn grunnupplýsingarnar.
 
 Til að fá þjálfun í afslætti í sölu, sjá [Setja upp afslætti fyrir viðskiptavini](/training/modules/customer-discounts-dynamics-365-business-central/index) þína.
 
