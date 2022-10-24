@@ -4,7 +4,7 @@
       "docset_name": "d365businesscentral",
       "build_source_folder": "business-central",
       "build_output_subfolder": "d365businesscentral",
-      "locale": "is-is",
+      "locale": "is-IS",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": true,
@@ -18,7 +18,7 @@
     }
   ],
   "notification_subscribers": [
-    "edupont@microsoft.com",
+    "bholtorf@microsoft.com",
     "solsen@microsoft.com"
   ],
   "sync_notification_subscribers": [
@@ -36,7 +36,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.is-is",
+      "url": "https://github.com/Microsoft/templates.docs.msft.is-IS",
       "branch": "main",
       "branch_mapping": {}
     },
