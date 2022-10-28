@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
+ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652165"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716571"
 ---
 # <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 
@@ -155,6 +155,12 @@ Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
 - Breytingar sem þú gerir munu taka gildi í öllum Mitt hlutverk. Ef þú til dæmis gerir breytingu á listanum Viðskiptavinir þegar Mitt hlutverk er stillt á Viðskiptastjórnandi, munt þú einnig sjá breytinguna á síðunni **Viðskiptamenn** þegar Mitt hlutverk er stillt á Sölupöntunarvinnsla.
 - Breytingar á síðu í rúðunni taka gildi á síðunni þar sem alltaf er sýnt.  
 - Aðeins er hægt að bæta við reitum og dálkum úr fyrirfram skilgreindum lista sem byggir á síðunni. Ekki er hægt að stofna nýjar.
+- **Power Automate** Atriðið í aðgerðarrein
+  - Ekki er hægt að hylja eða flytja sjálfvirka vöru eða **undireiningu og aðgerðir** hans búa til flæði **Power Automate** og **stjórna** flæði. **·**
+  - Hægt er að flytja streymi sem eru undir **sjálfgera** vörunni en ekki má hylja þær með sérforriti. Ef flæðið er fært yfir á áfangastað fjarlægir það ekki atriðið úr **sjálfvirka** atriðu.
+
+   > [!TIP]
+   > Kerfisstjóri getur falið **sjálfvirkniatriðið** frá notendum. Frekari upplýsingar er að setja upp [í Power Automate samþættingu](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
