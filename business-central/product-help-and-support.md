@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 0df97fbafd160e932700b5f66de455d50ff8f645
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607716"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728573"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -114,9 +114,13 @@ Langtímayfirlitið, [!INCLUDE[prod_short](includes/prod_short.md)] [síða vegv
 
 ### <a name="give-feedback"></a>Senda ábendingu
 
-Á [Hugmyndasvæði Dynamics 365](https://aka.ms/bcideas) getur þú komið með tillögur um nýja eiginleika. Þitt innlegg fer beint til ólokinnar hönnunar Business Central til skoðunar og forgangsröðunar.  
+Um það bil einu sinni á ársfjórðungi [!INCLUDE [prod_short](includes/prod_short.md)] safnar hópurinn svörum frá notendum okkar um hversu ánægðir þeir eru með vöruna. Auk einkunna má einnig gefa skriflegar athugasemdir. Með því að gefa okkur sértækar og actionanlegar athugasemdir hjálpar þú verkfræðingi okkar að forgangsraða þeim vöruendurbótum sem við fjárfestum í. Þú getur einnig samþykkt að haft verði samband við þig um athugasemdina. Ef þú gerir það þá er þér boðið á hópfundi á tíma sem er hentugt fyrir þig. Hægt er að afla vörutillagna hvenær sem er á heimasíðu okkar [Dynamics 365](https://aka.ms/bcideas).  
 
-Gakktu úr skugga um að þú leitir í lista yfir innsendar tillögur. Líklegt er að einhver hafi þegar sent inn eitthvað svipað og að sú færsla hafi hugsanlega þegar fengið atkvæði. Gefðu atkvæði ef hugmynd hefur þegar verið send inn til að koma henni í forgang við hönnunarferlinu.  
+### <a name="product-suggestions"></a>Afurðatillögur
+
+[Á heimasíðu Dynamics 365](https://aka.ms/bcideas) er hægt að gefa tillögur um nýja möguleika og getu. Inntakið fer beint inn á verkfræðiverkefni Aðalmiðsins fyrir rannsókn og forgangsröðun.  
+
+Gakktu úr skugga um að þú leitir í lista yfir innsendar tillögur. Það er möguleiki á því að einhver hafi nú sent eitthvað svipað og sú færsla gæti hafa þegar fengið atkvæði. Gefðu atkvæði ef hugmynd hefur þegar verið send inn til að koma henni í forgang við hönnunarferlinu.  
 
 ### <a name="troubleshooting"></a>Úrræðaleit
 
@@ -138,7 +142,7 @@ Endursöluaðili [!INCLUDE[prod_short](includes/prod_short.md)] mun veita þér 
 Frekari upplýsingar er að finna í [Senda stuðningsvandamál til Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) í efni fyrir stjórnendur.  
 
 > [!NOTE]
-> Með [!INCLUDE[prod_short](includes/prod_short.md)] netinu **er vandaður** hluti skýrslunnar aðeins tiltækur ef greitt hefur verið fyrir [!INCLUDE[prod_short](includes/prod_short.md)] áskrift. Ef þú hefur skráð þig í prufur og hefur ekki keypt [!INCLUDE[prod_short](includes/prod_short.md)], þá ertu ekki með endursölu félaga, og þú getur ekki haft samband við stuðningshólið Microsoft. Hægt er að finna [!INCLUDE[prod_short](includes/prod_short.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Nánari upplýsingar má [finna um hvernig finn ég endursala félaga?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
+> Með [!INCLUDE[prod_short](includes/prod_short.md)] netinu **er vandaður** hluti skýrslunnar aðeins tiltækur ef greitt hefur verið fyrir [!INCLUDE[prod_short](includes/prod_short.md)] áskrift. Ef þú hefur skráð þig í prufur og hefur ekki keypt [!INCLUDE[prod_short](includes/prod_short.md)], þá ertu ekki með endursölu félaga, og þú getur ekki haft samband við stuðningshólið Microsoft. Hægt er að finna [!INCLUDE[prod_short](includes/prod_short.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Nánari upplýsingar má [finna um hvernig finn ég endursala félaga](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)?.  
 >
 > Með [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss er þessi hluti aðeins fáanlegur í 2020 útgáfu Wave 2 (útgáfa 18) og nýrri.
 

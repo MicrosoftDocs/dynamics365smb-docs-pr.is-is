@@ -1,5 +1,5 @@
 ---
-title: Úrræðaleit vegna Shopify aðalsamstillingar og viðskipta
+title: Úrræðaleit vegna Shopify Aðalsamstillingar og viðskipta
 description: Læra hvað á að gera ef eitthvað fer úrskeiðis við samstillingu gagna á milli Shopify og viðskipta-seðlabankar
 ms.date: 08/19/2022
 ms.topic: article
@@ -8,14 +8,14 @@ ms.search.form: 30118, 30119, 30120,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 47b0d72283b4d017bb522c3e71f6c61501b59d5b
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 37fb8069f6149cc89c1c53f671eafe3788f54ccf
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361942"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728357"
 ---
-# <a name="troubleshooting-shopify-and-business-central-synchronization"></a>Úrræðaleit Shopify og miðlæg samstilling viðskipta
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Úrræðaleit vegna Shopify Aðalsamstillingar og viðskipta
 
 Mögulegt er að keyra inn í aðstæður þar sem leysa þarf vandamál þegar samstillt er við gögn á milli Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)]. Þessi síða skilgreinir villuleitarskref fyrir nokkrar algengar aðstæður sem kunna að koma upp.
 
@@ -67,7 +67,7 @@ Ef [!INCLUDE[prod_short](../includes/prod_short.md)] mun ekki tengjast Shopify r
 Til að vinna rétt Shopify þarf tengivirkið leyfi til að gera HTTP beiðnir. Við prófun í sandkassa er http-beiðnirnar bannaðar öllum viðaukum.
 
 1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **framlengingarstjórnun** og veljið tengdan tengil.
-2. *Shopify Veljið Connector* Extension.
+2. **Shopify Veljið Connector** Extension.
 3. Velja skal **samskipanaraðgerð** til að opna **síðuna framlengingarstilling**.
 4. Ganga þarf úr skugga um að **Leyfa Beiðnabeiðingar** HTTPClient séu virkar.
 
@@ -90,13 +90,17 @@ Eftirfarandi ferli lýsa því hvernig aðgangstákn sem notað er Shopify sem C
 
 ## <a name="known-issues"></a>Þekkt atriði
 
-*Alm. viðsk. bókunarflokkurinn* má ekki vera núll eða tómur; það verður að vera í gildi í viðskiptamannasvæðinu. Til að leiðrétta:
+### <a name="the-gen-bus-posting-group-cannot-be-zero-or-empty-there-must-be-a-value-in-the-customer-field"></a>*Alm. viðsk. bókunarflokkurinn* má ekki vera núll eða tómur; gildi verður í viðskiptamannasvæðinu
 
-**Shopify Á vinnukortasíðunni** er reiturinn sniðmát **viðskiptamanns fylltur út** með sniðmátinu sem hefur **Alm. útfylling bókunarflokks**. Viðskiptamannssniðmátið er eingöngu notað fyrir stofnun viðskiptamanna heldur einnig útreikning söluverðs og við stofnun söluskjala.
+**Shopify Á vinnukortasíðunni** er reiturinn sniðmát **viðskiptamanns fylltur út** með sniðmátinu sem hefur **Alm. útfylling bókunarflokks**. Viðskiptamannssniðmátið er eingöngu notað fyrir stofnun viðskiptamanna heldur einnig fyrir útreikning söluverðs og við stofnun söluskjala.
 
 ### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Innflutningur á gögnum til Shopify verkstæðis er ekki virkjaður. Fara í verkstæðisspjaldið til að virkja það
 
-**Shopify Í glugganum verkstæðisspjald** er kveikt á reitnum **Leyfa samkeyrslu til að Shopify** skipta.  Þessari víxlun er ætlað að vernda vefverslunina með því að sækja kynningu á gögnum [!INCLUDE[prod_short](../includes/prod_short.md)].
+**Shopify Í glugganum verkstæðisspjald** er kveikt á reitnum **Leyfa samkeyrslu til að Shopify** skipta. Þessari víxlun er ætlað að vernda vefverslunina með því að sækja kynningu á gögnum [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+### <a name="oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Oauth Villa invalid_request: Ekki tókst að finna Shopify API-forrit með api_key
+
+Það virðist vera notað [App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), þar sem BIÐLARASLÓÐIN hefur sniðið:`https://[application name].bc.dynamics.com`. Shopify Connector virkar ekki fyrir Emblu apps. Frekari upplýsingar er að finna [í því hvað Microsoft-vörur eru tengivirkið sem Shopify er tiltækt](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
 
 ## <a name="see-also"></a>Sjá einnig .
 

@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716533"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728468"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Verkflæði í Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ Sjálfgefin útgáfa [!INCLUDE [prod_short](includes/prod_short.md)] styður þr
 * Power Automate streymir
 
   * Sjálfvirk streymi sem eru ræst upp eftir atvikum (eins og færsla eða skjalastofnun, breyting eða eyðing) í [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig innifalið eru samþykkisflæði sem er stofnað í Power Automate þeirri kveikju þegar beðið er um samþykki í [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Skyndiflæði sem er sjálfvirkt ræst af **lista**, spjöld og fylgiskjalssíðum. 
+  * Skyndiflæði sem er sjálfvirkt ræst af **lista**, spjöld og fylgiskjalssíðum.
 
     Virkja og kveikja Power Automate handvirkt á flæði á [!INCLUDE[prod_short](includes/prod_short.md)] færslu, eins og viðskiptavin, vöru eða sölupöntun, með valkostum til að vinna úr upplýsingum bæði innan og utan (með samþættum verkfærum).
 
@@ -44,11 +44,12 @@ Með [!INCLUDE [prod_short](includes/prod_short.md)] netinu er hægt að skrá s
 
 ## <a name="approval-workflows"></a>Samþykktarverkflæði
 
-Samþykktarverkflæði er stofnað með því að skrá þátt skrefanna í línunum. Hvert skref samanstendur af:
-- Verkflæðistilvik, sem er stjórnað eftir atvikum skilyrðum
-- Svar við verkflæði, sem er stjórnað af svarmöguleikum.
+Stofna samþykktarverkflæði með því að skilgreina hvað ræsir verkflæðið og hvað gerist næst, eins og hér segir:
 
-Til að skilgreina verkflæðisskref er fyllt út í reiti í verkflæðislínum með föstum lista yfir tilvik og svargildi sem tákna aðstæður sem styðja með forritskóta.<!--What are the "values"? Can we give an example?-->
+* Verkflæðistilvik, sem er stjórnað eftir atvikum skilyrðum.
+* Svar við verkflæði, sem er stjórnað af svarmöguleikum.
+
+Til að skilgreina verkflæðisskref skal fylla út reiti í verkflæðislínum með því að nota tilvikin og svargildin sem tákna studd tilvik.
 
 Dæmi um tilvik samþykktarverkfallsins eru meðal annars stofnun sölu-eða innkaupapantana/tilboða/reikninga, Verðbreytingar, lánardrottna-eða viðskiptamannabókanir og fleira.
 

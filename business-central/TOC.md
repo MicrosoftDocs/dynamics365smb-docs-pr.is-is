@@ -674,6 +674,8 @@
 ### [Samstilla vörur með Shopify](shopify/synchronize-items.md)
 ### [Samstilla viðskiptavini við Shopify](shopify/synchronize-customers.md)
 ### [Samstilla og uppfylla sölupantanir með Shopify](shopify/synchronize-orders.md)
+### [Samstilla færslur og útborganir](shopify/transactions-and-payouts.md)
+### [Setja upp skatta fyrir Shopify tenginguna](shopify/setup-taxes.md)
 ### [Verk keyrð í bakgrunni](shopify/background.md)
 ### [Úrræðaleit fyrir Shopify Tengivirki](shopify/troubleshoot.md)
 ### [FAQ fyrir Shopify tengivirkið](shopify/shopify-faq.md)
@@ -1775,7 +1777,7 @@
 ### [Reglufylgni þjónustu](compliance/compliance-service-compliance.md)
 ### [Vottanir](compliance/compliance-certifications.md)
 ## [Yfirlit yfir þjónustu (aðeins enska)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
-
+## [Prufuaðgerðir sem tengjast öðrum Microsoft-þjónustum](privacy-connected-services.md)
 # Þróun og stjórnun
 ## [Hefjast handa með fylgiskjöl þróunar og stjórnunar](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Verkefni stjórnenda í Business Central

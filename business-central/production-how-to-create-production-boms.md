@@ -1,18 +1,18 @@
 ---
 title: Búa til framleiðsluuppskriftir
 description: Kynntu þér hvernig þú býrð til framleiðsluuppskriftir, nýjar útgáfur af framleiðsluuppskrift og hvernig á að nota formúlu fyrir útreikning á magni.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: production bom, bills of material,
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: 06d1b507e4414b3d77bbeb6a500342e5269438e3
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607824"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728546"
 ---
 # <a name="create-production-boms"></a>Búa til framleiðsluuppskriftir
 
@@ -21,7 +21,7 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
 [!INCLUDE[prod_short](includes/prod_short.md)] styður einnig samsetningaruppskriftir. Samsetningarpantanir eru notaðar til að gera lokaafurð úr íhlutum með einföldu ferli sem hægt er að vinna með einu eða fleiri tilföngum, sem ekki eru vélar eða vinnustöðvar, eða án nokkurra tilfanga. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru. Frekari upplýsingar er að finna í [Samsetningaruppskriftir eða framleiðsluuppskriftir](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
-> **Contoso kaffi sýniforritið Data** App inniheldur sýnivörur fyrir margvíslegar AÐSTÆÐUR framleiðsluuppskrifta sem hægt er að nota á prófunarumhverfi, þar á meðal á meðan á rannsókn stendur. Lærðu að setja upp contoso Coffee gögnin og finna gönguleið fyrir mismunandi aðstæður við [inngang að contoso Coffee sýnigögnum](/contoso-coffee/contoso-coffee-intro.md).
+> **Contoso kaffi sýniforritið Data** App inniheldur sýnivörur fyrir margvíslegar AÐSTÆÐUR framleiðsluuppskrifta sem hægt er að nota á prófunarumhverfi, þar á meðal á meðan á rannsókn stendur. Lærðu að setja upp contoso Coffee gögnin og finna gönguleið fyrir mismunandi aðstæður við [inngang að contoso Coffee sýnigögnum](contoso-coffee/contoso-coffee-intro.md).
 
 Áður en þú getur sett upp leið verður eftirfarandi að vera á réttum stað:  
 
@@ -96,13 +96,13 @@ Tengsl ólíkra íhluta eru skilgreind af reiknireglunni. Hægt er að nota efti
 
 ### <a name="example"></a>Dæmi
 
-Í FRAMLEIÐSLUUPPSKRIFT eru 70 málmhlutir með lengd = 0,20 m og breidd = 0,15 m. Gildin eru færð inn á eftirfarandi hátt: Reikniregla = Lengd x Breidd, Lengd = 20, Breidd = 15, Magn á = 70. Magnið fæst með Magn á x Lengd * Breidd, þ.e., Magn = 70 x 0.20 m x 0.15 m = 2.1 m2.  
+Framl. UPPSKRIFT krefst 70 Metal hlutar með lengd víddanna = 0,20 m og breidd = 0,15 m. Gildin eru færð inn á eftirfarandi hátt: Reikniregla = Lengd x Breidd, Lengd = 20, Breidd = 15, Magn á = 70. Magnið fæst með Magn á x Lengd * Breidd, þ.e., Magn = 70 x 0.20 m x 0.15 m = 2.1 m2.  
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Stofna leiðir](production-how-to-create-routings.md)  
 [Stjórna afurðarafbrigðum](inventory-item-variants.md)  
-[Walkthrough: afbrigði](/contoso-coffee/variants.md)  
+[Walkthrough: afbrigði](contoso-coffee/variants.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
 [Áætlun](production-planning.md)  
