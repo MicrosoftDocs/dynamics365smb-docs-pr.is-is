@@ -1610,6 +1610,7 @@
 ##### [Stjórna samþættingu teyma](admin-teams-integration.md)
 ##### [Setja upp Business Central App fyrir hópana](across-install-app-for-teams.md)
 ##### [Leita að viðskiptavinum, lánardrottnum og tengiliðum](across-search-contacts-teams.md)
+##### [Bæta við Aðalflipa viðskipta í rás eða spjall](across-teams-tab.md)
 ##### [Samnýta færslur og Síðutenglar í teymum](across-working-with-teams.md)
 ##### [Skipta um fyrirtæki og aðrar stillingar](across-teams-settings.md)
 ##### [Teams - Algengar spurningar](teams-faq.md)
@@ -1784,6 +1785,12 @@
 ### [Verkefni stjórnenda](admin-setup-and-administration.md)
 ### [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
 ### [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)
+### Aðgangur með Microsoft 365 leyfum
+#### [Yfirlit](admin-access-with-m365-license.md)
+#### [Setja upp aðgang með Microsoft 365 leyfum](admin-access-with-m365-license-setup.md)
+#### [Flæði notendaaðgengis](admin-access-with-m365-license-flow.md)
+<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Leysa](admin-access-with-m365-license-troubleshooting.md) 
 ### [Vinna með forstillingar](admin-users-profiles-roles.md)
 ### [Stjórna notendastillingum og kjörstillingum](admin-manage-user-settings-preferences.md)
 ### [Setja upp prentara](ui-specify-printer-selection-reports.md)
