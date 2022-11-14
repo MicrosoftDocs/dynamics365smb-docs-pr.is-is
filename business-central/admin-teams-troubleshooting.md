@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528476"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744762"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -159,6 +159,23 @@ Sem kerfisstjóri, eru með Azure Active Directory stjórnandaheimildir, og getu
 ## <a name="my-cards-no-longer-have-a-popout-button"></a>Kortin mín eru ekki lengur með popoff hnapp
 
 Frá og með apríl 2022, Tenglar sem birtir eru sem Compact kort í teymum munu ekki lengur innihalda **hnappinn Popout**. Til að opna það kort í eigin glugga, Veldu **hnappinn upplýsingar**, þá skaltu velja **Opna í vafra** frá sportvalmyndinni (**...**) efst í hægra horni gluggans.
+
+## <a name="cant-pin-a-card-to-tab"></a>Ekki hægt að pinna spjald á flipa
+
+Nokkrar ástæður eru fyrir þessu vandamáli.
+
+- Ef kortinu var deilt úr leit ég þá er ekki hægt að skipa í flipann. 
+
+- Ekki er hægt að pinna fyrr en þú bætir við fyrsta flipa fyrirtækisins. Þetta mál þekkist í teymum. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Einhver bætti við flipa en Flipinn sýnir ekki fyrir mig
+
+Þetta vandamál er vegna þess að þú ert ekki með BC App fyrir Teyjar í uppsetningu. Aðeins þeir sem eru með App uppsett munu sjá flipa í Aðalviðskiptum.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Aðrir sjá mismunandi röðun eða dálkaskipan en það sem flipinn höfundur sér
+
+Þetta vandamál er líklegt vegna þess að deilt hefur verið um yfirlit lista sem er persónulegt Yfirlit. Í þessu tilfelli þarf að vinna með kerfisstjóra til að stofna annað hvort Listayfirlit sem fjallar um mismunandi hlutverk í rásinni/spjallinu eða búa til þetta Yfirlit fyrir skipulagið í heild sinni þannig að allir geti fengið samræmt Yfirlit.
+
 
 ## <a name="see-also"></a>Sjá einnig
 

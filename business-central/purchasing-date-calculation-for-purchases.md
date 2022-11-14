@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
-ms.date: 02/06/2022
+ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530541"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744951"
 ---
 # <a name="calculate-dates-for-purchases"></a>Reikna dagsetningar fyrir innkaup
 
@@ -42,11 +42,11 @@ Ef það er Umbeðin móttökudagsetning á innkaupapöntunarlínunni þá er da
 Ef Umbeðin móttökudagsetning er tilgreind á innkaupapöntunarlínu er dagsetningin tengd við nýjar línur um leið og þær eru stofnaðar. Hægt er að breyta eða fjarlægja dagsetninguna í línunum.  
 
 > [!NOTE]
-> Ef ferlið þitt er byggt á útreikningi aftur í tímann, t.d. ef þú notar umbeðna móttökudagsetningu til að fá pöntunardagsetninguna, ráðleggjum við þér að þú notir dagsetningarreiknireglur sem eru með fastri tímalengd á borði við „5D“ fyrir fimm daga eða „1V“ fyrir eina viku. Dagsetningarreiknireglur án fastra tímalengda, t.d „NV“ fyrir núverandi viku eða „NM“ fyrir núverandi mánuð, getur leitt til rangra útreikninga á dagsetningum. Nánari upplýsingar um dagsetningarformúlur [fást með því að vinna með dagsetningar og tíma](ui-enter-date-ranges.md) dagatals.
+> Ef ferlið þitt er byggt á útreikningi aftur í tímann, t.d. ef þú notar umbeðna móttökudagsetningu til að fá pöntunardagsetninguna, ráðleggjum við þér að þú notir dagsetningarreiknireglur sem eru með fastri tímalengd á borði við „5D“ fyrir fimm daga eða „1V“ fyrir eina viku. Dagsetningarreiknireglur án fastra tímalengda, t.d „NV“ fyrir núverandi viku eða „NM“ fyrir núverandi mánuð, getur leitt til rangra útreikninga á dagsetningum. Nánari upplýsingar um dagsetningarformúlur [fást með því að vinna með dagsetningar og tíma dagatals](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Reiknað án óskar um afhendingardag
+## <a name="calculating-without-a-requested-receipt-date"></a>Reiknar án umbeðinnar móttökudagsetningar
 
-Ef innkaupapöntunarlína er færð inn án umbeðinnar afhendingardagsetningar er reiturinn Pöntunardagsetning **í línunni,** dagsetningin í **reitnum Pöntunardagsetning** í innkaupapöntunarhausnum. Þessi dagsetning er annað hvort dagsetningin sem færð var inn eða vinnudagsetningin. Dagsetningarnar eru reiknaðar út fyrir innkaupapöntunarlínuna með pöntunardagsetninguna sem byrjunarreit, sem hér segir:  
+Ef innkaupapöntunarlína er færð inn án umbeðinnar móttökudagsetningar, **sýnir reiturinn Pöntunardagsetning** í línunni dagsetninguna í **reitnum Pöntunardagsetning** í innkaupapöntunarhausnum. Þessi dagsetning er annað hvort dagsetningin sem færð var inn eða vinnudagsetningin. Dagsetningarnar eru reiknaðar út fyrir innkaupapöntunarlínuna með pöntunardagsetninguna sem byrjunarreit, sem hér segir:  
 
 - Pöntunardagur + Útreikningur afgreiðslutíma = Ráðgerð móttökudagsetning.  
 - Áætlaður móttökudagur + afgreiðslutími á vörum inn í vöruhús + öryggisforskot = væntanlegur móttökudagur  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 00bac7c92cf6b29cbd79f5b3f04eaa9dfab1ee2d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bb5886d46e780a32f0d0e58d0f62c58cacdc91a7
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133435"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744735"
 ---
 # <a name="exchanging-data"></a>Gagnaskipti
 Hægt er að skipta á gögnum á milli [!INCLUDE[prod_short](includes/prod_short.md)] og ytri skráa í tengslum við algeng viðskiptaverk, s.s. að senda og taka á móti rafrænum skjölum og flytja inn og út bankaskrár.  
@@ -34,6 +34,7 @@ Hægt er að skipta á gögnum á milli [!INCLUDE[prod_short](includes/prod_shor
 |Gefið bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningum viðskiptavina á bankareikninga fyrirtækisins í samræmi við uppsetningu SEPA-beingreiðslna.|[Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Nota gengi þjónustuveitu gjaldeyrisviðskipta til að uppfæra síðuna **Gengi**.|[Uppfæra gengi](finance-how-update-currencies.md)|  
 |Skoðið hvaða skráareiginleikar eru varpaðir á reiti í [!INCLUDE[prod_short](includes/prod_short.md)] við innflutning SEPA CAMT yfirlitsskráa.|[Reitarvörpum við innflutning SEPA CAMT skráa](across-field-mapping-when-importing-sepa-camt-files.md)|  
+|Flytja út gögn fyrir Intrastat-skýrslugerð [!INCLUDE[prod_short](includes/prod_short.md)].|[Setja upp Intrastat-skýrslugerð](finance-how-setup-report-intrastat.md)|
 |Skoðaðu hvaða reitum í [!INCLUDE[prod_short](includes/prod_short.md)] hefur verið varpað á skráareiginleika við útflutning greiðsluskráa með AMC Banking 365 Fundamentals viðbótinni.|[Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  

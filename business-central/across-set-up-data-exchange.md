@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d2b4ac035f3c6336a5bc5646cbc0145bb671788a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529434"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744924"
 ---
 # <a name="setting-up-data-exchange"></a>Setja upp gagnaskipti
 
@@ -35,6 +35,7 @@ ms.locfileid: "9529434"
 |Setja upp sannvottun notanda og vefslóð veitu AMC Banking 365 Fundamentals-viðbótarinnar sem er nauðsynleg til að umbreyta bankaskrám á snið bankans þíns.|[AMC Banking 365 Fundamentals Nota viðaukann](ui-extensions-amc-banking.md)|  
 |Setja upp og virkja utanaðkomandi þjónustu sem gerir kleift að flytja inn bankayfirlit beint sem bankastreymi.|[Setja upp bankayfirlitsþjónustu](bank-how-setup-bank-statement-service.md)|  
 |Eftir að bankayfirlitsþjónusta er gerð virk skal tengja bankareikninga í [!INCLUDE[prod_short](includes/prod_short.md)]|[Bankareikningar settir upp](bank-how-setup-bank-accounts.md)|  
+|Setja upp gagnaútflutning fyrir Intrastat-skýrslugerð í [!INCLUDE[prod_short](includes/prod_short.md)].|[Setja upp Intrastat-skýrslugerð](finance-how-setup-report-intrastat.md)|
 |Undirbúið að setja upp nýja gagnaskiptaskilgreiningu fyrir tiltekna gagnaskrá eða straum með því að nota XML-skema skrárinnar til að fylla út í flýtiflipann **Dálkskilgreiningar** á síðunni **Bókunarskilgreining**.|[Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Setja upp Data Exchange Framework til að gera notendum kleift að taka á móti nýju sniði innkaupaskjala, senda ný snið söluskjala, flytja inn nýjar bankaskrá eða önnur gagnaskipti.|[Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)|  
 

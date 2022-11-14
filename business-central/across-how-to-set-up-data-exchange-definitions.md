@@ -1,19 +1,19 @@
 ---
 title: Skilgreina hvernig skipst er á gögnum rafrænt
 description: Skilgreina hvernig fyrirtæki Miðgengi gögn með ytri skrám eins og rafrænum skjölum, bankagögnum, vörulistum og fleiru.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 09/15/2022
-ms.author: edupont
-ms.openlocfilehash: 53cb2bc92b4d56f767944593a5f5300510c2a944
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 11/03/2022
+ms.author: bholtorf
+ms.openlocfilehash: 324fa2e1576deb3f9cb4b082f065218d1576fd78
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607527"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744870"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
 
@@ -129,6 +129,7 @@ Sem byrjar í 2022 2, einnig er hægt að flokka eftir hvaða svæði sem er me�
     |**Töflukenni**|Tilgreinið töflu sem geymir reitina til eða frá sem gögn er skipst á samkvæmt vörpun.|  
     |**Notist sem millitafla**|Tilgreinið hvort taflan sem var valin í **Tafla Kenni** reitnum er millitafla þar sem innflutt gögn eru geymd áður en þeim er varpað á marktöfluna.<br /><br /> Venjulega er notuð millitafla þar sem gagnaskiptaskilgreiningar eru notaðar til að flytja inn og umbreyta rafrænum skjölum, t.d. reikningum lánardrottins í innkaupareikning í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar um skiptast á [gögnum rafrænt](across-data-exchange.md).|  
     |**Heiti**|Sláðu inn heiti fyrir vörpunaruppsetninguna.|  
+    |**Lyklavísitölur**|Specifiy lyklaatriðaskrá til að raða Upprunafærslur fyrir útflutning.|
     |**Kóðaeining forvörpunar**|Tilgreinið kóðaeining sem undirbúa vörpun á milli reita í [!INCLUDE[prod_short](includes/prod_short.md)] og ytri gögn.|  
     |**Vörpunarkóðaeining**|Tilgreinið kóðaeiningu sem er notað til að kortleggja tilgreind dálka eða XML-gagnastök í reiti í ​​[!INCLUDE[prod_short](includes/prod_short.md)]|  
     |**Kóðaeining eftirávörpunar**|Tilgreinið kóðaeiningu sem lýkur vörpun á milli reita í [!INCLUDE[prod_short](includes/prod_short.md)] og ytri gagna. **Athugið:** Þegar eiginleiki AMC Banking 365 Fundamentals viðbótarinnar er notaður umreiknar kóðaeiningin útflutt gögn úr [!INCLUDE[prod_short](includes/prod_short.md)] yfir í almennt snið sem er tilbúið til útflutnings. Til að flytja inn breytir kóðaeiningin ytri gögnum í snið sem hægt er að flytja inn í [!INCLUDE[prod_short](includes/prod_short.md)].|
@@ -161,6 +162,13 @@ Sem byrjar í 2022 2, einnig er hægt að flokka eftir hvaða svæði sem er me�
      |**Umbreytingarregla**|Tilgreinið regluna sem umbreytir innfluttum texta í studd gildi áður en hægt er að tengja hann við tiltekið svæði. Þegar valið er gildi í þessu svæði er sama gildið fært inn í **reitinn Umbreytingarregla** í **Reitun Exch. Field vörpun svæði buf.** Töflu og öfugt. Sjá næsta kafla fyrir frekari upplýsingar um tiltækar umbreytingarreglur sem hægt er að nota.|
      |**Forgangur**|Tilgreinið pöntunina sem á að vinna svæðvarpana úr. Svæðisvörpun með hæsta forgangsnúmeri verður fyrst unnin.|
 
+4. **Á flipanum Flokkun** á svæðinu eru tilgreindar reglur sem nota skal til að flokka svæðin þegar skráin er stofnuð með því að fylla út svæðin eins og lýst er í eftirfarandi töflu.  
+
+     |Svæði|Lýsing|  
+     |--------------------------------- |---------------------------------------|  
+     |**Kenni reits**|Sérstilla númer svæðisins í ytri skrá sem er notuð við flokkun og þessi reitur verður að vera stilltur af notanda.|
+     |**Skýringartexti reits**|Tilgreinið yfirskrift svæðisins í ytri skránni sem er notuð við flokkun.|
+
 ## <a name="transformation-rules"></a>Umbreytingarreglur
 
 Ef gildin í reitunum sem verið er að skrá eru mismunandi verður að nota umbreytingarreglur fyrir skilgreiningar gagnaskipta til að gildin verði þau sömu. Umbreytingarreglur fyrir gagnaskiptaskilgreiningar eru skilgreindar með því að opna fyrirliggjandi skilgreiningu eða búa til nýja skilgreiningu og síðan í flýtiflipanum **Línuskilgreiningar** skal velja **Stjórna** og síðan **Reitavörpun**. Boðið er upp á forskilgreindar reglur, en einnig má búa til sínar eigin. Í eftirfarandi töflu er tegundum umbreytinga lýst sem hægt er að nota.
@@ -180,6 +188,8 @@ Ef gildin í reitunum sem verið er að skrá eru mismunandi verður að nota um
 |**Samsvörun í reglulegum segðum**|Nota skal reglulega segð til að finna eitt eða fleiri gildi. Þessi regla svipar til **undirstrengs** og **reglubundinnar tjáningar-skipta**.|
 |**Endurmat**|Þessi umbreytingarregla er Ítarlegur valkostur sem krefst aðstoðar frá hönnuði. Það virkjar samþættingartilvik sem þú getur gerst áskrifandi að ef þú vilt nota þinn eigin breytingarkóða. Ef þú ert verktaki og vilt nota þennan valkost, sjá kaflann hér á eftir.|
 |**Dag- og tímasetningasnið**|Skilgreinið hvernig birta á núverandi dagsetningu og tíma dags.|
+|**Uppfletting svæða**|Nota reiti úr mismunandi töflum. Til að nota það þarftu að fylgja einhverjum reglum. Fyrst skal nota **töflukenni** til að tilgreina kenni töflunnar sem inniheldur færsluna fyrir reitiluppfletting. Síðan, í **REITNUM kenni** upprunasvæðis, skal tilgreina kenni svæðisins sem inniheldur færsluna fyrir Uppfletting svæðisins. Loks skal tilgreina KENNI svæðisins til að finna færsluna fyrir Uppfletting svæðis í **reitnum Mark-kenni**. Að öðrum kosti skal nota **reitinn Uppflettiregla** svæðis til að tilgreina gerð svæðis uppflettinga. **Fyrir marksvæðið** er gildið úr **svæðiskenni** marksins notað, jafnvel þótt það sé autt. **Fyrir upprunalega gildið ef Mark er autt** er upprunalegt gildi notað ef reiturinn er auður.|
+|**Umferð**|Slétta gildið í þessu svæði með frekari reglum. Fyrst skal tilgreina sléttunarnákvæmni í **reitnum nákvæmni**. Þá skal í **stefnu** reita tilgreina sléttunarstefnu.|
 
 > [!NOTE]  
 > Frekari upplýsingar um dagsetningar og tíma-snið á [staðalformi og tímasniðs-strengir](/dotnet/standard/base-types/standard-date-and-time-format-strings).
