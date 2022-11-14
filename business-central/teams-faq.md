@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606117"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744705"
 ---
 # <a name="teams-faq"></a>Teams - Algengar spurningar
 
@@ -145,6 +145,92 @@ Ef þú vilt taka þátt í því að bæta forritið fyrir Teams eða ert með 
 
 Upplýsingar um virkjunina í vefbiðlaranum sem tengir teymi eru [í samnýta færslur og síðan tengla í Microsoft Teams](across-working-with-teams.md#share-link).
 
+## <a name="business-central-tabs"></a>[Aðalflipar viðskipta](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a> Hver getur séð innihald flipa?
+
+Hver sá sem er á spjallinu eða rás hver hefur:
+
+1. Viðskiptablaðið Central App fyrir hópa uppsett.
+2. Annað hvort er með aðalleyfi frá starfsemi eða hefur fengið aðgang að miðborg með leyfi sínu Microsoft 365.
+3. Heimildir til að skoða gögnin á bls.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a> Hvaðan kemur efnið sem mælt er með?
+
+Ráðlagt efni sem hægt er að velja úr í **flipaefnisvalkostinum** flipi á flipanum er byggt á hlutverkamiðstöðinni. Í efni mælisins eru einungis listasíður eins og viðskiptamenn, sölupantanir og Lánardrottnar sem ekki eru með óefnislega kortasíðu eins ákveðinn viðskiptavin eða lánardrottinn.
+
+Sérstaklega er mælt með innihaldi:
+
+- Aðgerðir í efstasundi í valmynd hlutverkamiðstöðvarinnar
+- Allar listasíður sem þú ert með bókamerktar.
+- Ef Listasíða býður upp á ólík yfirlit, þar með talið hvaða Yfirlit þú stofnaðir, þá er einnig verið að fá að velja úr þeim skoðunum
+
+Hægt er að bæta listasíðum við ráðlagt efni með því að bæta við bókamerkjum. Einnig er hægt að fjarlægja ráðlagt efni með því að eyða bókamerki. Til að fá upplýsingar um hvernig eigi að bæta við eða eyða bókamerkjum Sérðu [bókamerki á síðu eða skýrslu á hlutverkamiðstöðinni](ui-bookmarks.md).
+
+Ef umhverfi eða fyrirtæki er skipt á flipavalkostinum er efni sem mælt er með breytt Byggt á hlutverkamiðstöð og bókamerki fyrir umhverfið og fyrirtæki sem skipt er yfir í.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Þegar ég bý til flipa, er það að veita fólki heimildir í rásinni eða spjallinu?
+
+Nr. Að búa til flipa hefur ekki áhrif á heimildir og notendur verða þegar að hafa heimild fyrir þeim gögnum þegar þeir komast á flipann.
+
+### <a name="can-i-chat-alongside-a-tab"></a>Get ég spjallað við þig um flipa?
+
+Já. Notaðu spjalltáknið til að hefja samtalið. Þessi spjallþráður er síðan tengdur við flipann. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Ef ég fjarlægi flipa úr spjalli eða rásum er einhverju fyrirtæki miðlægt gögnum eytt?
+
+Nr.
+
+### <a name="can-i-safely-rename-a-tab"></a>Má ég örugglega endurnefna flipa?
+
+Já. Efni flipans er ekki ótengt raunverulegu heiti flipans. Endurnefna í Will! 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>Ég þarf að vinna þvert á verkefni í mismunandi gluggum. Get ég gert þetta?
+
+Já. Hægt er að skjóta út flipanum í eigin vafraglugga til að sýna vefbiðlara Viðskiptamiðis. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>Get ég bætt við eða pinnað flipa á Hópfundum?
+
+Nr. Viðskiptablaðið Central App fyrir teymum styður ekki flipa á fundum.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Ekki er hægt að bæta við flipa ef nota á ÓHS URL eins og *. bc.dynamics.com (en getur pinni)
+
+Ekki studd.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Þegar ég geri hluti í flipanum, eins og vafra, Resort beita síu eða leit, sjá aðrir breytingar?
+
+Nr. Aðeins breytingar á svæði eða aðgerðir í gangi hafa áhrif á hvernig aðrir sjá innihald flipans.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Endurnýjast flipainnihald sjálfkrafa? Ef ekki, hvernig endurnýjaði ég það?
+
+Efnið endurnýjast ekki sjálfkrafa og þessi hnappur er ekki endurnýjaður. Besta leiðin til að endurnýja efnið er að ganga úr skugga um að það sé upp á gögn, skilja eftir flipann og koma svo aftur. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Birtir þetta lista og færslur úr sérsniðum og viðbótum?
+
+Já. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Þegar ég bæti við flipa, mun fólk sjá það á mínu tungumáli?
+
+Nr. Hver notandi skoðar innihald flipans á tungumáli, svæðis-og tímasvæði stillingum úr Business Central. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Get ég haft marga flipa sem vísar á mismunandi efni?
+
+Já.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Get ég líka bætt við flipum til að spjalla við eina manneskju?
+
+Já, svo lengi sem spjallið er ekki uppkast (það er, skilaboð hafa ekki verið send til að koma af því spjallborði) og hinn aðilinn hefur Viðskiptablaðið Central App uppsett líka.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>Get ég skipt fyrirtækjum innan flipa?
+
+Nr. 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Er þetta öðruvísi en að nota Teymislegt getuleysi til að búa til flipa sem hýsir vefsíðu?
+
+Já. Við mælum ekki með því að nota nálgun. Í mörgum tilfellum gengur það ekki upp hjá Seðlabankaviðskiptum.
+
 ## <a name="search-for-contacts"></a>[Leita að tengiliðum](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Hvaða töflum leitar forritið í?
@@ -156,6 +242,7 @@ Upplýsingar um virkjunina í vefbiðlaranum sem tengir teymi eru [í samnýta f
 Þegar leitarorð eru slegin inn í leitarreitinn eru leitarorðin borin saman við flesta reiti í töflunni **Tengiliðir**. Í reitunum er t.d. að **finna nr.**, **Nafn**, **heimilisfang**, **Símanr.** Eða **farsímanotkun** og **póstsvæðum**. 
 
 Leitarskilmálar eru ekki paraðir við neina sérsniðna reiti sem forrit og viðbætur bæta við **Tengiliðir** töfluna.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>Ná leitarniðurstöður yfir fyrirtæki og einstaklinga?
 
 Já. Í [!INCLUDE [prod_short.md](includes/prod_short.md)] geta tengiliðir verið af gerðinni **Fyrirtæki** eða **Einstaklingur** þar sem einn eða fleiri einstaklingar geta tengst fyrirtæki. Í leitarniðurstöðum eru fyrirtæki og einstaklingar með önnur tákn.
