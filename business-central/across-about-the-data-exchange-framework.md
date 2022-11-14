@@ -10,16 +10,16 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d5c8a96066311eb7e2050507b6c4f27066a70f62
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134383"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744651"
 ---
 # <a name="about-the-data-exchange-framework"></a>Um gagnaskiptaramma
 
-Hægt er að nota Data Exchange Framework til að stjórna skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga.
+Hægt er að nota Gagnaskiptarammann til að hafa umsjón með skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öðrum gagnaskrám hjá viðskiptafélögum eða yfirvöldum.
 
 Sem kerfisstjóri eða Microsoft-samstarfsaðili er hægt að nota rammann í nýjum samþættingaraðgerðum með því að setja upp hvaða gögn á að skiptast á og hvernig. Til dæmis er skráasnið fyrir skipti á gögnum sem er að finna í bankaskrám, rafrænna skráa, gengi gjaldmiðla, og annarra með ERP-kerfi breytilegt eftir birgi gagnaskráarinnar eða straumsins og eftir landi/svæði. [!INCLUDE[prod_short](includes/prod_short.md)] styður ýmis skráarsnið fyrir bankaskrár og gagnaþjónustustaðla. Til að veita stuðning á öðrum rafrænu formi er notaður gagnaskiptarammi.
 
@@ -58,6 +58,10 @@ Til að flytja út kreditfærslur SEPA skal velja hnappinn **Flytja greiðslur �
 Hægt er að setja upp ytri þjónusta til að gæta þess að gengi gjaldmiðils sé rétt. Þjónustan sem veitir uppfært gengi gjaldmiðils er virk af skilgreiningu gagnaskipta. Til samræmis er síðan **Uppsetningarspjald fyrir uppfærslu gengis** samantekið yfirlit síðunnar **Gagnaskiptaskilgreining** fyrir skilgreiningu gagnaskipta sem um ræðir.  
 
 Fyrir öll gagnaskipti í XML-skrám er hægt að undirbúa gagnaskiptauppsetninguna með því að hlaða tengdum XML-skemaskrám á síðunni **XML-skemaskoðun**. Hér eru fyrst valin gagnastökin sem á að skiptast á við [!INCLUDE[prod_short](includes/prod_short.md)] og svo skal annaðhvort hefja gagnaskiptiskilgreiningu eða mynda XMLport.
+
+## <a name="intrastat"></a>Intrastat
+
+[!INCLUDE[prod_short](includes/prod_short.md)] notar Gagnaskiptarammann fyrir Intrastat-skýrslugerð þar sem auðvelt er að stofna tímastimplaðar skrár með mismunandi sniðum fyrir útflutning. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur tilbúin snið fyrir staðbundin lönd sem og fyrir sjálfgefna útgáfu. En þú getur breytt út af-kassanum skýrsluna eða gert þitt eigið.
 
 ## <a name="see-also"></a>Sjá einnig
 
