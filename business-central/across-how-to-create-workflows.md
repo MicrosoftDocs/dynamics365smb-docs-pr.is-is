@@ -1,24 +1,24 @@
 ---
 title: Stofna samþykktarverkflæði til að tengja verk
-description: Hægt er að stofna verkflæði sem tengja verk-ferli sem eru mismunandi og eru kerfisverk, svo sem Sjálfvirk bókun, sem verkflæðisskref.
-author: SorenGP
+description: Lærðu að stofna verkflæði sem tengja verk við mismunandi fólk í viðskiptaferlum.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/08/2022
-ms.author: edupont
-ms.openlocfilehash: d2d9f3f91210b2a4d8d67890d01018565d8ef087
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 11/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9586000"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763257"
 ---
-# <a name="create-workflows-to-connect-business-process-tasks"></a>Stofna verkflæði til að tengja verk viðskiptaferla
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Stofna verkflæði til að tengja verk í viðskiptaferlum
 
-Hægt er að stofna verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.  
+Hægt er að stofna verkflæði sem tengja verk í viðskiptaferlum sem eru framkvæmd af mismunandi notendum. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.  
 
 **Á verkflæðissíðunni**, Stofna verkflæði með því að skrá þátt skrefanna í línunum. Hvert skref samanstendur af verkflæðistilvikum sem breytt er af tilvikaskilyrðum og verkflæðisviðbrögðum með viðbragðavalkostum. Verkflæðisskrefum er skilgreint með því að fylla út reiti í verkflæðislínum með því að nota fasta lista yfir tilvik og svargildi sem tákna áætlanir sem styðja með forritskóta  
 
@@ -73,7 +73,10 @@ Fyrir bæði atburði og viðbrögð eru kostirnir kerfisvarinn. Nýjar þær þ
 
     1. Til að tilgreian valkosti fyrir verkflæðissvar sem felur í sér að senda tilkyningu skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
-       |Svæði|Description|
+    > [!NOTE]
+    > Þessi svæði eru breytileg eftir því hvaða svörun hefur verið valin.
+
+       |Svæði|Lýsing|
        |-----|-----------|
        |**Tilkynna sendanda**|Tilgreindu hvort samþykkisbeiðandi fái tilkynningu í staðinn fyrir viðtakanda samþykkisbeiðninnar. Ef gátreiturinn er valinn er slökkt á reitnum **Notandaauðkenni viðtakanda** vegna þess að tilkynning berst til þess sem sendi beiðnina fær tilkynningu í staðinn. Heiti verkflæðissvars breytist til samræmis, í **Búa til tilkynningu fyrir &lt;Sendanda&gt;**. Ef gátreiturinn er ekki valinn er **Heiti verkflæðissvars stofnað tilkynning fyrir &lt; notanda&gt;**.|
        |**Notandaauðkenni viðtakanda**|Tilgreina notandann sem senda verður tilkynninguna til. **Athugið**: Þessi valmöguleiki er aðeins tiltækur fyrir verkflæðisvörun með staðgengil fyrir tiltekinn notanda. Fyrir verkflæði viðbragða án frátakara fyrir notendur er tilkynningarviðtalið yfirleitt skilgreint með **notandauppsetningu** samþykktarinnar.|
@@ -83,19 +86,19 @@ Fyrir bæði atburði og viðbrögð eru kostirnir kerfisvarinn. Nýjar þær þ
 
     2. Til að tilgreina valkosti fyrir verkflæðissvar sem felur í sér að senda tilkynningu skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
-        |Svæði|Description|  
-        |-----|-----------|  
-        |**Reikniregla gjalddaga**|Tilgreina hversu margir dagar mega líða þar til leysa þarf úr samþykktarbeiðni frá þeim degi sem hún var send.|
-        |**Framselja eftir**|Tilgreinið hvort og þá hvenær samþykktarbeiðni er úthlutin sjálfkrafa til viðeigandi staðgengils. Hægt er að velja sjálfkrafa að úthluta einn, tvo eða fimm dögum eftir þá dagsetning þegar beðið var um samþykkt.|
-        |**Gerð samþykkjanda**|Tilgreina hver er samþykkjandi, samkvæmt uppsetningu á notendum samþykktar og notendur verkflæði. Þegar reiturinn er stilltur **á Sölumaður/innkaupaaðili** er notandinn sem er settur upp í **salespers./Purch. Reiturinn Kóti** á **uppsetningarsíðu** samþykktarnotanda ákvarðar samþykkjandinn. Færslur fyrir samþykktarbeiðni eru þá stofnaðar samkvæmt gildinu í reitnum **Afmörkunargerð samþykkjanda**. Frekari upplýsingar um [uppsetningu Samþykktarnotenda](across-how-to-set-up-workflow-users.md).|
-        |**Sýna staðfestingarskilaboð**|Tilgreina ef staðfestingarskilaboð birtist notendum eftir að þeir óska ​​eftir samþykki.|
-        |**Afmörkunargerð samþykkjanda**|Tilgreinið hvernig samþykkjandi samþykktarmörk hafa áhrif þegar samþykktarbeiðafærslur eru stofnaðar fyrir þær. Hæfur samþykkjandi er samþykkjandi sem hefur samþykktarmörk sem eru hærri en gildið á umræddri beiðni. Eftirfarandi möguleikar eru til staðar: <ol><li>**Keðja samþykkjenda** tilgreinir að færslur samþykktarbeiðni eru stofnaðar fyrir alla samþykkjendur frá og með fyrsta samþykkjanda sem uppfyllir skilyrði</li><li>**Beinn samþykkjandi** tilgreinir að samþykktarbeiðnisfærsla er aðeins stofnuð fyrir næsta samþykkjanda, sama hver samþykktarmörk hans eru.</li><li>**Fyrsti hæfi samþykkjandi** tilgreinir að samþykktarbeiðnisfærsla er aðeins stofnuð fyrir fyrsta samþykkjanda sem uppfyllir skilyrði.</li></ol>|
+       |Svæði|Description|  
+       |-----|-----------|  
+       |**Reikniregla gjalddaga**|Tilgreina hversu margir dagar mega líða þar til leysa þarf úr samþykktarbeiðni frá þeim degi sem hún var send.|
+       |**Framselja eftir**|Tilgreinið hvort og þá hvenær samþykktarbeiðni er úthlutin sjálfkrafa til viðeigandi staðgengils. Hægt er að velja sjálfkrafa að úthluta einn, tvo eða fimm dögum eftir þá dagsetning þegar beðið var um samþykkt.|
+       |**Gerð samþykkjanda**|Tilgreina hver er samþykkjandi, samkvæmt uppsetningu á notendum samþykktar og notendur verkflæði. Þegar reiturinn er stilltur **á Sölumaður/innkaupaaðili** er notandinn sem er settur upp í **salespers./Purch. Reiturinn Kóti** á **uppsetningarsíðu** samþykktarnotanda ákvarðar samþykkjandinn. Færslur fyrir samþykktarbeiðni eru þá stofnaðar samkvæmt gildinu í reitnum **Afmörkunargerð samþykkjanda**. Frekari upplýsingar um [uppsetningu Samþykktarnotenda](across-how-to-set-up-workflow-users.md).|
+       |**Sýna staðfestingarskilaboð**|Tilgreina ef staðfestingarskilaboð birtist notendum eftir að þeir óska ​​eftir samþykki.|
+       |**Afmörkunargerð samþykkjanda**|Tilgreinið hvernig samþykkjandi samþykktarmörk hafa áhrif þegar samþykktarbeiðafærslur eru stofnaðar fyrir þær. Hæfur samþykkjandi er samþykkjandi sem hefur samþykktarmörk sem eru hærri en gildið á umræddri beiðni. Eftirfarandi möguleikar eru til staðar: <ol><li>**Keðja samþykkjenda** tilgreinir að færslur samþykktarbeiðni eru stofnaðar fyrir alla samþykkjendur frá og með fyrsta samþykkjanda sem uppfyllir skilyrði</li><li>**Beinn samþykkjandi** tilgreinir að samþykktarbeiðnisfærsla er aðeins stofnuð fyrir næsta samþykkjanda, sama hver samþykktarmörk hans eru.</li><li>**Fyrsti hæfi samþykkjandi** tilgreinir að samþykktarbeiðnisfærsla er aðeins stofnuð fyrir fyrsta samþykkjanda sem uppfyllir skilyrði.</li><li>**Tiltekinn samþykkjandi** Tilgreinir að notandinn hafi valið í **reitnum Kenni** samþykkjanda.</li></ol>|
     3. Til að tilgreina valkostir fyrir verkflæðissvar sem inniheldur að stofna færslubókarlínur skal fylla í reitirnir eins og lýst er í eftirfarandi töflu.  
 
-        |Svæði|Description|  
-        |-----|-----------|  
-        |**Heiti sniðmáts færslubókar**|Tilgreina heiti sniðmáts færslubókarinnar sem stofnuð eru í tilteknu bókarlínurnar.|  
-        |**Heiti færslubókarkeyrslu**|Tilgreina heiti sniðmáts færslubókarrununnar sem stofnuð eru í tilteknu bókarlínurnar.|  
+       |Svæði|Description|  
+       |-----|-----------|  
+       |**Heiti sniðmáts færslubókar**|Tilgreina heiti sniðmáts færslubókarinnar sem stofnuð eru í tilteknu bókarlínurnar.|  
+       |**Heiti færslubókarkeyrslu**|Tilgreina heiti sniðmáts færslubókarrununnar sem stofnuð eru í tilteknu bókarlínurnar.|  
 
 11. Velja skal hnappana **Auka inndrátt** og **Minnka inndrátt** til að draga tilviksheiti inn í reitnum **Þegar** til að skilgreina stöðu skrefsins í verkflæðinu.  
 

@@ -1,24 +1,25 @@
 ---
 title: Tilgreina hvenær og hvernig eigi að taka á móti Verkflæðistilkynningum
 description: Þegar notendur eru settir upp í samþykktarverkflæði er hægt að tilgreina hvernig og hvenær hver samþykktarnotandi fær tilkynningar.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 663, 1500, 1512, 1513,
 ms.date: 09/09/2022
-ms.author: edupont
-ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.author: bholtorf
+ms.openlocfilehash: 74387ee5cb8581d8b8e1cce5c1d1c8850cd6c842
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585510"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763263"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Tilgreina hvenær og hvernig eigi að taka á móti Verkflæðistilkynningum
 
-Þegar samþykktarnotendur eru settir upp í verkflæði þar sem óskað er eftir að samþykkja breytingar, eins og þegar nýjar færslur eru stofnaðar eða þegar einhver biður um samþykki, verður að tilgreina hvernig og hvenær samþykktarnotandinn er látinn vita. Til dæmis er hægt að tilgreina samþykkinotanda til að fá strax tölvupóst þegar einhver stofnar nýjan viðskiptavin. Einnig er hægt að raða tilkynningunum sem á að halda og afhenda þær t.d. með vikulegu eða mánaðarlegu millibili.
+Þegar samþykktarnotendur eru settir upp í verkflæði þar sem óskað er eftir að samþykkja breytingar, eins og þegar nýjar færslur eru stofnaðar eða þegar einhver biður um samþykki, verður að tilgreina hvernig og hvenær eigi að tilkynna notanda samþykkisins. Til dæmis er hægt að tilgreina að samþykkinotandi fái tafarlaust tölvupóst þegar einhver stofnar nýjan viðskiptavin. Einnig er hægt að raða tilkynningunum sem á að halda og afhenda þær t.d. með vikulegu eða mánaðarlegu millibili.
 
 Fólk getur einnig breytt uppsetningu tilkynninga með því að velja **Breyta tilkynningastillingum** á hvaða tilkynningu sem er.  
 
@@ -38,10 +39,10 @@ Margar samþykktarverkflæðisskref eru um að tilkynna notendum að tilvik sem 
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **notendauppsetningu** samþykkisins, velja síðan tengda tengilinn.  
 2. Velja skal línuna fyrir notandann sem setja á upp óskir um tilkynningar fyrir og velja **síðan uppsetningaraðgerðina** tilkynning.  
-3. **Á uppsetningarsíðu** tilkynninga er fyllt út í reitina eins og lýst er í eftirfarandi töflu.  
+3. **Á uppsetningarsíðu** verkflæðistilkynninga er fyllt út í reitina eins og lýst er í eftirfarandi töflu.  
 
    > [!NOTE]
-   > Ef Uppsetningarsíða **tilkynningarinnar er opnuð** frá **uppsetningarsíðu** samþykktarnotanda er tilkynningaskyldan tengd notandanum. Samþykkinotandinn skal alltaf taka við verkflæðistilkynningum í samræmi við uppsetningu tilkynningarinnar. Ef aðgerðin segja *aðgerðina er notuð* til að opna **uppsetningarsíðu** tilkynninga, gildir tilkynningauppsetningin fyrir alla notendur.
+   > Ef Uppsetningarsíða **verkflæðistilkynninga er opnuð** frá **uppsetningarsíðu** samþykktarnotanda er tilkynningaskyldan tengd við samþykkinotandann. Samþykkinotandinn skal alltaf taka við verkflæðistilkynningum í samræmi við uppsetningu tilkynningarinnar. Ef aðgerðin segja *aðgerðina er notuð* til að opna **uppsetningarsíðu** verkflæðistilboðanna á tilkynningauppsetningin við um alla notendur.
 
    |Svæði|Lýsing|
    |-----|-----------|
@@ -66,7 +67,7 @@ Margar samþykktarverkflæðisskref eru um að tilkynna notendum að tilvik sem 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Breyta hvenær og hvernig notandi fær tilkynningar
 
 1. Á einni af þeim tilkynningum sem þú hefur móttekið, annaðhvort sem tölvupóstur eða athugasemd, skaltu velja **Breyta tilkynningastillingum**.  
-2. Á uppsetningarsíðu **tilkynningarinnar er breytt tilkynningarkjörum eins og þeim er lýst í skrefum 3-5 hér að** framan.
+2. **Á uppsetningarsíðu** verkflæðistilkynninga skaltu breyta þátttökustillingum eins og lýst er í skrefum 3-5 hér að ofan.
    1. Staðfesta að rétt tilkynning sé valin undir **reitnum Tilkynningagerð**.
    2. Veljið hvort fá eigi tilkynningu um tölvupóst eða athugasemd undir **Tilkynningaraðferðarsvæði**.
    3. **Veljið Tilkynningaráætlunina** til að breyta tíðni og endurtekningu þeirra tilkynninga sem sendar eru.
