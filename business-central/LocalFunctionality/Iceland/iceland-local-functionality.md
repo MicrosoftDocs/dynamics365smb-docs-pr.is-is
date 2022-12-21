@@ -1,8 +1,7 @@
 ---
 title: Staðbundnar aðgerðir fyrir Ísland
 description: Þetta efnisatriði veitir tengla á lýsingar á eiginleikum sem eru sérstaklega fyrir íslenska útgáfu Dynamics 365 Business Central.
-author: bholtorf
-ms.service: dynamics365-business-central
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1cccd9e82f7de1f779fa74d3323b45d499367ae5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 52889fc793862f19e84164227f70cde047005842
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782207"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516502"
 ---
 # <a name="iceland-local-functionality"></a>Staðbundnar aðgerðir fyrir Ísland
 
@@ -36,7 +35,7 @@ Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslensk
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Unnið með [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]

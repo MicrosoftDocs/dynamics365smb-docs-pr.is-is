@@ -4,7 +4,6 @@ description: Þetta efnisatriði lýsir því hvernig á að varpa fyrirframskil
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e855272329000cc8fe142f7a5d280d2942d5d293
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: eb774cb66ae3ed8f2f88e4fe6971cb34f6c30637
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439167"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148937"
 ---
 # <a name="map-irs-numbers-to-chart-of-accounts-in-the-icelandic-version"></a>Varpa skattstofunúmerum í bókhaldslykla í íslenskri útgáfu
 Fyrirtæki á Íslandi þurfa að senda gagnaskrá á fyrirfram tilgreindu formi til skattyfirvalda. Áður en hægt er að gera þetta þarf að varpa fyrirfram skilgreindum reikningskóða skattstofu (Internal Revenue Service) í fjárhagsreikning.  
