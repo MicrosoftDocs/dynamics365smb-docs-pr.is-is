@@ -1,5 +1,5 @@
 ---
-title: Vinna með snjallar tilkynningar og tilgreina hvenær þú sérð þær
+title: Vinna með snjalltilkynningar og tilgreina hvenær þær eiga að birtast
 description: Þú getur fengið tilkynningar sem upplýsa þig um stöðubreytingar eða atburði, t.d. gjaldfallna stöðu eða lága birgðastöðu.
 author: brentholtorf
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.search.form: ''
 ms.author: bholtorf
 ms.openlocfilehash: ee3f03eb59df2c991cd0a87dd6e10c07000311cc
 ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 04/29/2022
 ms.locfileid: "8654839"

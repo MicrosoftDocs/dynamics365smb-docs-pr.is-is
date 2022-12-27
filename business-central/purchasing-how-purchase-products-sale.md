@@ -12,12 +12,12 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: b7fe34b7edcba01d25107ead47dc917dabde07a5
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8514856"
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Innkaup vara fyrir sölu með því að útbúa innkaupareikninga
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Kaupa vörur fyrir sölu með því að stofna innkaupareikninga
 
 Frá sölupöntunum og sölureikningum geturðu notað aðgerð til stofna á skjótan hátt innkaupaskjöl fyrir vörumagn sem vantar en er krafist við söluna. Hægt er að nota tvær mismunandi aðgerðir, eftir gerð skjalsins.
 

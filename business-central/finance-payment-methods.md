@@ -1,5 +1,5 @@
 ---
-title: Setja upp greiðsluaðferðir (inniheldur Video)
+title: Setja upp greiðsluhætti (inniheldur myndskeið)
 description: Greiðsluhættir eru notaðir, til dæmis ávísun, bankamillifærsla, reiðufé eða PayPal, til að tilgreina hvernig sölu- og innkaupareikningar verða greiddir.
 author: brentholtorf
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.openlocfilehash: ef92b2ade7c18a57438a6a87a939070cb42a9fb1
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9530622"
@@ -43,14 +43,14 @@ Kreditreikningar vegna skila eru þó undantekningar vegna þess að peningar fl
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinur** eða **Lánardrottinn** og velja síðan viðkomandi tengil.
 2. Í reitnum **Kóði greiðslumáta** skal velja greiðslumátann sem á að nota að sjálfgefnu viðskiptavin eða lánardrottin.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  
 [Setja upp greiðsluskilmála](finance-payment-terms.md)  
 [Fjármál](finance.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

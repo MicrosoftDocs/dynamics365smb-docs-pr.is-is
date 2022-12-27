@@ -12,7 +12,7 @@ ms.date: 07/09/2021
 ms.author: edupont
 ms.openlocfilehash: 8b64ed6fc1342ec5f274b28f5a670bc329555e44
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8520943"
@@ -69,7 +69,7 @@ Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md)  
-[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna í færslubókum](ui-work-general-journals.md)  
 [Sérstilling verksvæðis](ui-personalization-user.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

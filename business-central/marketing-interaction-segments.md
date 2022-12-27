@@ -1,5 +1,5 @@
 ---
-title: Halda utan um hluta og tengd samskipti
+title: Vera upplýst(ur) um hluta og samskipti þeim tengdum
 description: Kynntu þér hvernig skal stofna hluta og skilgreina hópa tengiliða og tiltaka samskipti fyrir hluta.
 author: jswymer
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.openlocfilehash: 51af368a1ec6e01e8df377cb8c8423edd57154d6
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8522859"
@@ -49,7 +49,7 @@ Upplýsingar um samskiptin sem varða hlutann geta birst á **hlutahausnum**. Ti
 [Skrá samskipti við tengiliði](marketing-interactions.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
-[Vinna með Viðskiptaseðla-](ui-work-product.md)
+[Vinna með Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

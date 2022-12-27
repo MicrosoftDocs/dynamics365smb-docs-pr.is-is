@@ -1,5 +1,5 @@
 ---
-title: Skilgreina API-sniðmát
+title: Grunnstilla API-sniðmát
 description: Lýsir skrefunum sem þú verður að taka til að grunnstilla API sniðmát fyrir Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.date: 06/07/2022
 ms.author: solsen
 ms.openlocfilehash: e38c8143cfad1fc4b0c7bbc4bd2995e0e48d264f
 ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/12/2022
 ms.locfileid: "8950409"
 ---
-# <a name="configure-api-templates"></a>Skilgreina API-sniðmát
+# <a name="configure-api-templates"></a>Grunnstilla API-sniðmát
 
 API-safnið fyrir [!INCLUDE[prod_short_md](includes/prod_short.md)] gefur einfaldaða framsetningu á undirliggjandi einingum. Allir eiginleikarnir í forritinu fara ekki í gegnum tengt API. Síðan **API-uppsetning** gerir þér kleift að skilgreina sniðmát sem eru notuð til að fylla í tóma eiginleika í einingu þegar þú býrð til POST-aðgerð í gegnum API. 
 
@@ -25,14 +25,14 @@ Til dæmis, ef grunnstillingarsniðmát er skilgreint fyrir vörueininguna, þeg
 
 ## <a name="setting-up-the-entity-template"></a>Uppsetning sniðmátseiningar
 
-Til að nota sniðmát með API-safninu verður þú fyrst að setja upp og skilgreina eiginleika fyrir sniðmátið. Hægt er að setja upp þessi sniðmát á síðunni **Grunnstillingarsniðmát**. Sjá [Yfirfærsla innanhúss til fyrirtækja miðlægt á netinu](/dynamics365/business-central/dev-itpro/administration/migrate-data) (á ensku eingöngu) í innihaldi stjórnunarefnis fyrir frekari upplýsingar.  
+Til að nota sniðmát með API-safninu verður þú fyrst að setja upp og skilgreina eiginleika fyrir sniðmátið. Hægt er að setja upp þessi sniðmát á síðunni **Grunnstillingarsniðmát**. Frekari upplýsingar er að finna í [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) (aðeins á ensku) í efni stjórnanda.  
 
 ## <a name="assign-the-template-to-an-api"></a>Úthluta sniðmátinu á API
 
 Til að úthluta API sniðmáti verður þú að fara í gegnum eftirfarandi skref.
 
 > [!NOTE]  
-> API-sniðmát er aðeins hægt að setja upp með eftirtöldum síðum API: Tengiliðir, Countriessvæði, Gjaldmiðlar, viðskiptamenn, starfsmenn, Itemflokkar, paymentMethods, paymentTerms, Shipmentaðferðir, Unitsofmál og Lánardrottnar.
+> Aðeins er hægt að setja upp API-sniðmát með eftirfarandi API-síðum: countriesRegions, gjaldmiðlum, viðskiptamönnum, starfsmönnum, itemCategories, paymentMethods, paymentTerms, shipmentMethods, unitsOfMeasure og lánardrottnum.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **API-uppsetning** og veldu tengda tengilinn.
 2. Veljið **Nýtt** og veljið síðan gildið á **Röðun** fyrir færsluna.  
@@ -53,7 +53,7 @@ Til að úthluta API sniðmáti verður þú að fara í gegnum eftirfarandi skr
 ## <a name="see-also"></a>Sjá einnig
 
 [Fylgiskjöl API](/dynamics-nav/fin-graph)  
-[Þróa Tengiforrit fyrir [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Þróun á Connect Apps fyrir [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Virkja API](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Endastöðvar fyrir API](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Stjórnun](admin-setup-and-administration.md)

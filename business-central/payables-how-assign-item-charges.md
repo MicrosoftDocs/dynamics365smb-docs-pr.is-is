@@ -1,5 +1,5 @@
 ---
-title: Úthluta kostnaðarauka á sölu og innkaup (inniheldur Video)
+title: Úthlutun kostnaðarauka á sölu og innkaup (inniheldur myndskeið)
 description: Úthlutaðu kostnaðarauka þegar þú þarft að setja aukinn kostnað á birgðavörur, t.d. flutningskostnað og kostnað vegna meðhöndlunar, sem kemur upp þegar vörur eru keyptar eða seldar.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 06/22/2021
 ms.author: edupont
 ms.openlocfilehash: 626af5eb217548b3813a137c16b7a84c1e860da2
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528734"
@@ -79,14 +79,14 @@ Ef þú færð sendan reikning fyrir kostnaðaraukann eftir að þú bókaðir u
 
 Kostnaðaraukinn á þessum aðgreinda innkaupareikningi er nú úthlutað til vörunnar á bókuðu innkaupamóttökunni, og þar með uppfærist birgðagildi vörunnar með kostnaði kostnaðaraukans.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

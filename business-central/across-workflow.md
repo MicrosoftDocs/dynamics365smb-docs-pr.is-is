@@ -1,6 +1,6 @@
 ---
 title: Verkflæði í Dynamics 365 Business Central
-description: Nota innbyggða verkflæðistilvik til að setja upp samþykktarverkflæði fyrir viðbót við sjálfvirk verkflæði Byggt á Power Automate. Hægt er að setja upp skref til að úthluta verkum á ólíka einstaklinga sem hluta af mismunandi verkum í viðskiptaferli.
+description: Notaðu innbyggða möguleika verkflæðis til að setja upp samþykktarverkflæði til að bæta við sjálfvirk verkflæði sem byggja á Power Automate. Hægt er að setja upp skref til að úthluta verkum á mismunandi fólk sem hluti af mismunandi verkum viðskiptaferla.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -10,68 +10,68 @@ ms.date: 10/10/2022
 ms.custom: bap-template
 ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
 ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/28/2022
 ms.locfileid: "9728468"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Verkflæði í Dynamics 365 Business Central
 
-Hægt er að setja upp og nota verkflæði til að tengja verk-ferliverkin sem eru unnin af mismunandi notendum. Kerfisverk, svo sem Sjálfvirk bókun, er hægt að taka með sem þrep í verkflæði. Kerfisverk geta verið á undan eða eftir notendaverkefnum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.
+Hægt er að setja upp og nota verkflæði til að tengja verk viðskiptaferla sem framkvæmd eru af ólíkum notendum. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa með sem skref í verkflæðum. Á undan eða eftir kerfisverkum geta komið verk notanda. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.
 
-Sjálfgefin útgáfa [!INCLUDE [prod_short](includes/prod_short.md)] styður þrjár gerðir verkflæða:
+Sjálfgefin útgáfa af [!INCLUDE [prod_short](includes/prod_short.md)] styður þrjár gerðir af verkflæðum:
   
-* Power Automate streymir
+* Power Automate flæði
 
-  * Sjálfvirk streymi sem eru ræst upp eftir atvikum (eins og færsla eða skjalastofnun, breyting eða eyðing) í [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig innifalið eru samþykkisflæði sem er stofnað í Power Automate þeirri kveikju þegar beðið er um samþykki í [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Skyndiflæði sem er sjálfvirkt ræst af **lista**, spjöld og fylgiskjalssíðum.
+  * Sjálfvirk flæði sem fara af stað vegna tilviks (t.d. stofnun, breyting eða eyðing færslu eða skjals) í [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig fylgir með samþykktarflæði sem búin eru til í Power Automate sem fara af stað þegar óskað er eftir samþykki í [!INCLUDE[prod_short](includes/prod_short.md)].
+  * Skyndiflæði sem eru ræst handvirkt af aðgerðinni **Sjálfvirkni** af síðum lista, spjalda og skjala.
 
-    Virkja og kveikja Power Automate handvirkt á flæði á [!INCLUDE[prod_short](includes/prod_short.md)] færslu, eins og viðskiptavin, vöru eða sölupöntun, með valkostum til að vinna úr upplýsingum bæði innan og utan (með samþættum verkfærum).
+    Búðu til og ræstu handvirkt Power Automate flæði í [!INCLUDE[prod_short](includes/prod_short.md)] færslu, eins og viðskiptamanni, vöru eða sölupöntun, með valkostum til að hafa áhrif á upplýsingar bæði innan og utan (með samþættingarverkfæri).
 
-* Samþykktarverkflæði samkvæmt sniðmátum sem hafa verið byggð á verkflæði
+* Samþykktarflæði sem byggja á innbyggðum verkflæðissniðmátum
 
-  **Á síðunni verkflæðissniðmát** er hægt að sjá öll tiltæk verkflæði. Prufuútgáfa af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur mörg forskilgreind verkflæði fyrir sniðmát verkflæðis sem hægt er að afrita til að stofna ný. Þegar sniðmát er opnað á **síðunni verkflæðissniðmát** og verkflæðisheitið byrjar *MS-* síðan var sniðmátinu bætt við af Microsoft.
+  Á síðunni **Verkflæðissniðmát** geturðu séð öll tiltæk verkflæði. Prufuútgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur mörg forskilgreind verkflæði sem koma fram í verkflæðissniðmátum sem hægt er að afrita til að búa til ný. Þegar sniðmát er opnað á síðunni **Verkflæðissniðmát** og heiti verkflæðis hefst á *MS-*, þá var sniðmátinu bætt við af Microsoft.
 
-## <a name="power-automate-flows"></a>Power Automate streymir
+## <a name="power-automate-flows"></a>Power Automate flæði
 
-Með [!INCLUDE [prod_short](includes/prod_short.md)] netinu er hægt að skrá sig Power Automate til að smíða öflug sjálfvirk verkflæði. Þú keyrir verkflæðið innan [!INCLUDE [prod_short](includes/prod_short.md)] frá. Flæðin geta tengst innri og ytri gagnagjöfum og verkfærum, án þess að kóðun þekkingar.
+Með [!INCLUDE [prod_short](includes/prod_short.md)] á netinu geturðu skráð þig fyrir Power Automate til að búa til öflug sjálfvirk verkflæði. Þessi verkflæði eru keyrð í [!INCLUDE [prod_short](includes/prod_short.md)]. Flæðin geta tengt saman innri og ytri gagnagjafi og verkfæri án þess að reynslu í kóðun.
 
 |**Til að** |**Sjá**|
 |-------|-------|
-|Byrja með Power Automate og búa til flæði, keyra augnablik streyma|[Nota Power Automate rennur í[!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
-|Frekari upplýsingar um hvernig á að stofna, breyta og stjórna streymi|[Setja upp sjálfvirka Flæðistreyta](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) og [Setja upp skyndilausnir](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
-|Setja upp Power Automate samþættingu við [!INCLUDE[prod_short](includes/prod_short.md)] fyrir notendur sem admin|[Setja upp Power Automate samþættingu](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
+|Hefjast handa með Power Automate og flæði búin til, keyrir skyndiflæði|[Nota Power Automate flæði í [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
+|Kynntu þér hvernig á að stofna, breyta og stjórna flæðum|[Setja upp sjálfvirkt flæði](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) og [Setja upp skyndiflæði](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
+|Setja upp Power Automate samþættingu við[!INCLUDE[prod_short](includes/prod_short.md)] fyrir notendur sem stjórnandi|[Setja upp Power Automate samþættingu](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## <a name="approval-workflows"></a>Samþykktarverkflæði
+## <a name="approval-workflows"></a>Samþykktarflæði
 
-Stofna samþykktarverkflæði með því að skilgreina hvað ræsir verkflæðið og hvað gerist næst, eins og hér segir:
+Búðu til samþykktarverkflæði með því að skilgreina hvað byrjar verkflæðið og hvað gerist næst á eftirfarandi hátt:
 
-* Verkflæðistilvik, sem er stjórnað eftir atvikum skilyrðum.
-* Svar við verkflæði, sem er stjórnað af svarmöguleikum.
+* Verkflæðistilvik, sem er breytt af skilyrðum tilviks.
+* Verkflæðissvar, sem er breytt af valkostum svars.
 
-Til að skilgreina verkflæðisskref skal fylla út reiti í verkflæðislínum með því að nota tilvikin og svargildin sem tákna studd tilvik.
+Til að skilgreina verkflæðisskref skal fylla út reitina í verkflæðislínum með gildum tilviks og svars sem stendur fyrir studdar aðstæður.
 
-Dæmi um tilvik samþykktarverkfallsins eru meðal annars stofnun sölu-eða innkaupapantana/tilboða/reikninga, Verðbreytingar, lánardrottna-eða viðskiptamannabókanir og fleira.
+Dæmi um tilvik samþykktarverkflæðis eru t.d. stofnun sölu- eða innkaupapantana/tilboða/reikninga, verðbreytingar, breytingar á lánardrottni eða viðskiptamanni og fleira.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
 | **Til að** | **Sjá** |
 |--|--|
-| Setja upp notendur samþykktarverkflæðis, tilgreina hvernig notendur fá tilkynningu og stofna nýtt verkflæði. (Ef stofna á nýtt verkflæði fyrir Óstudd aðstæður þarf að innleiða verkflæðiatriðin sem þarf með því að sérsníða forritskóða.) | [Setja upp samþykktarverkflæði](across-set-up-workflows.md) |
-| Virkja samþykktarverkflæði, vinna með verkflæðistilkynningar, þar sem beðið er um og samþykkt verkflæðisskref. Setja verkflæði í skjalasafn eða eyða. | [Nota samþykktarverkflæði](across-use-workflows.md) |
+| Settu upp notendur samþykktarverkflæðis, skilgreindu hvernig notendur fá tilkynningu og búðu til ný verkflæði. (Til að búa til ný verkflæði fyrir óstuddar aðstæður skal innleiða nauðsynlegar verkflæðiseiningar með því að sérsníða kóða forrits.) | [Setja upp Verkflæði samþykktar](across-set-up-workflows.md) |
+| Virkjaðu samþykktarverkflæði, svaraðu tilkynningum verkflæðis, þar á meðal beiðni um og samþykkt verkflæðisskrefs. Setja verkflæði í skjalasafn eða eyða. | [Nota Samþykktarverkflæði](across-use-workflows.md) |
 
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Stjórna verkum](projects-manage-projects.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] Úrræðaleit vegna sjálfvirkra verkflæða](across-flow-troubleshoot.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Úrræðaleitaðu sjálfvirku [!INCLUDE[prod_short](includes/prod_short.md)] verkflæðin þín](across-flow-troubleshoot.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

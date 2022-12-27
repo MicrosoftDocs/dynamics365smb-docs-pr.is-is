@@ -1,6 +1,6 @@
 ---
-title: Gjaldmiðlar í Viðskiptamiðinu
-description: Fá yfirlit yfir hvernig viðskipti miðlægt skilgreinir staðbundinn gjaldmiðil þinn á móti þeim erlenda gjaldmiðli sem þú átt viðskipti við.
+title: Gjaldmiðlar í Business Central
+description: fá yfirlit yfir hvernig Business Central skilgreinir staðbundinn gjaldmiðil á móti erlendum gjaldmiðlum sem þú stundar viðskipti með.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
@@ -9,12 +9,12 @@ ms.date: 03/15/2022
 ms.author: edupont
 ms.openlocfilehash: 7eabe6a9c17431b3e2965edcbf832d37133f4f9f
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532755"
 ---
-# <a name="currencies-in-business-central"></a>Gjaldmiðlar í Viðskiptamiðinu
+# <a name="currencies-in-business-central"></a>Gjaldmiðlar í Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
@@ -25,7 +25,7 @@ ms.locfileid: "9532755"
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-Gjaldmiðilskóðarnir á **listanum Gjaldmiðlar** eru tilgreindir, þar á meðal þær viðbótarupplýsingar og stillingar sem eru nauðsynlegar fyrir hvern gjaldmiðilskóða. Sjá [gjaldmiðla fyrir frekari upplýsingar](finance-set-up-currencies.md#curr)
+Gjaldmiðilskóðarnir eru tilgreindir í listanum **Gjaldmiðlar**, þ.m.t. viðbótarupplýsingar og stillingar sem eru nauðsynlegar fyrir hvern gjaldmiðilskóða. Sjá [Gjaldmiðlar](finance-set-up-currencies.md#curr) fyrir frekari upplýsingar.
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Dæmi um móttekna gjaldmiðilsfærslu
 
@@ -35,11 +35,11 @@ Gjaldmiðilskóðarnir á **listanum Gjaldmiðlar** eru tilgreindir, þar á me�
 
 Gengi eru verkfærin til að reikna gildi staðbundins gjaldmiðils (SGM) fyrir hverja gjaldmiðilsfærslu. Frekari upplýsingar eru í [Uppfæra gengi gjaldmiðils](finance-how-update-currencies.md).  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Setja upp gjaldmiðla](finance-set-up-currencies.md)  
+[Uppsetning gjaldmiðla](finance-set-up-currencies.md)  
 [Uppfæra gengi](finance-how-update-currencies.md)  
 [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)  
 [Lokaár og Tímabil](year-close-years-periods.md)  

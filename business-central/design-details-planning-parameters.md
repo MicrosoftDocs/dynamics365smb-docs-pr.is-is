@@ -11,7 +11,7 @@ ms.date: 07/21/2021
 ms.author: edupont
 ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8131978"
@@ -119,7 +119,7 @@ Ef valkosturinn **Framleiða-eftir-pöntun** er notaður greinir áætlanakerfi�
 
 Notaðu lágstigskóða til að gera afleidda eftirspurn eftir framvindu íhluta í gegnum lægri stig uppskriftarinnar. Til að fá ítarlegri útskýringu á þessu skaltu skoða [Vöruforgangur / lágstigskóði](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
-Hægt er að tengja lágstigskóða hverjum hlut í vöru sem gerð er úr mörgum hlutum eða inndreginni uppskrift. Efsta samsetningarstigið telst vera stig 0 - fullunna varan. Því hærra sem númer lágstigskóða er því aftar er varan í röðinni. Endanleg vara hefur til dæmis lágstigskóðann 0, og þeir hlutar hennar sem fara í samsetningu á henni eru með lágstigskóðana 1, 2, 3 og svo framvegis. Niðurstaðan er áætlun íhluta sem eru samstilltir þörfum allra framar raðaðra stiga. Þegar áætlun er reiknuð er uppskriftin opnuð í áætlunar-vinnublaðinu og brúttóþörfum fyrir 0-stigið er raðað niður áætlunarstigin sem brúttóþarfir næsta áætlunarstigs.
+Hægt er að tengja lágstigskóða hverjum hlut í vöru sem gerð er úr mörgum hlutum eða inndreginni uppskrift. Efsta samsetningarstigið telst vera stig 0 - fullunna varan. Því hærra sem númer lágstigskóta er því aftar er varan í röðinni. Endanleg vara hefur til dæmis lágstigskótann 0, og þeir hlutar hennar sem fara í samsetningu á henni eru með lágstigskótana 1, 2, 3 og svo framvegis. Niðurstaðan er áætlun íhluta sem eru samstilltir þörfum allra framar raðaðra stiga. Þegar áætlun er reiknuð er uppskriftin opnuð í áætlunar-vinnublaðinu og brúttóþörfum fyrir 0-stigið er raðað niður áætlunarstigin sem brúttóþarfir næsta áætlunarstigs.
 
 Veldu reitinn **Gagnvirkur lágstigskóði** til að tilgreina hvort samstundis eigi að úthluta og reikna lágstigskóða fyrir hvern íhlut í afurðarskipulaginu. Þessi aðgerð getur haft neikvæð áhrif á afköst kerfisins ef um mikið af gögnum er að ræða, til dæmis í  sjálfvirkri kostnaðarleiðréttingu. Hafa ber í huga að þessi aðgerð er ekki afturvirk og því rétt að íhuga notkun eiginleikans fyrirfram.
 
@@ -129,7 +129,7 @@ Veldu reitinn **Gagnvirkur lágstigskóði** til að tilgreina hvort samstundis 
 > Ef reiturinn **Gagnvirkur lágstigskóði** er ekki valinn þarf að keyra keyrsluna **Reikna lágstigskóða** áður en framboðsáætlun er reiknuð (runuvinnslan **Reikna áætlun**).  
 
 > [!NOTE]
-> Jafnvel þegar reiturinn **Gagnvirkur lágstigskóði** er valinn breytast lágstigskóðar íhlutavara ekki á gagnvirkan hátt ef yfiruppskrift er eytt eða stillt sem óvottuð. Þetta getur gerst vegna vandamála við að bæta nýjum vörum við lok vörusamsetningar þar sem farið gæti verið yfir hámarksfjölda lágstigskóða. Þess vegna er best að nota runuvinnsluna **Reikna lágstigskóða** oft þegar unnið er með stórar vörusamsetningar til að halda samsetningunni.  
+> Jafnvel þegar reiturinn **Gagnvirkur lágstigskóði** er valinn breytast lágstigskóðar íhlutavara ekki á gagnvirkan hátt ef yfiruppskrift er eytt eða stillt sem óvottuð. Þetta getur gerst vegna vandamála við að bæta nýjum vörum við lok vörusamsetningar þar sem farið gæti verið yfir hámarksfjölda lágstigskóta. Þess vegna er best að nota runuvinnsluna **Reikna lágstigskóða** oft þegar unnið er með stórar vörusamsetningar til að halda samsetningunni.  
 
 ### <a name="optimize-low-level-code-calculation"></a>Fínstilla útreikning fyrir lágstigskóða
 

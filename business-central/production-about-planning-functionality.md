@@ -1,6 +1,6 @@
 ---
 title: Um áætlunaraðgerðir
-description: Áætlanagerð tekur öll eftirspurn og framboð gagna mið af því, nets árangurinn og gerir tillögur um jöfnun framboðs til að mæta eftirspurninni.
+description: Áætlun tekur öll gögn um eftirspurn og framboð með í reikninginn, reiknar út niðurstöðurnar og kemur með tillögur að því að jafna framboðið og eftirspurnina.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,7 +11,7 @@ ms.date: 08/30/2022
 ms.author: bholtorf
 ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9606965"
@@ -30,7 +30,7 @@ Nánari upplýsingar eru í [Upplýsingar um hönnun: áætlun birgða](design-d
 Áætlanagerð hefur tvo hluta: eftirspurn og framboð. Halda þarf þeim í jafnvægi til að tryggja það að eftirspurninni sé annað á tímanlegan og hagkvæman hátt.  
 
 - Eftirspurn er notað sem almennt heiti yfir hvers konar brúttóþörf eins og sölupöntun, þjónustupöntun, íhlutaþörf frá samsetningu eða framleiðslupantanir, millifærslur á útleið, standandi pöntun eða spá. Þar að auki býður forritið upp á nokkrar aðrar tæknilegar tegundir eftirspurnar - eins og neikvæða framleiðslu- eða innkaupapöntun, neikvætt birgðamat og innkaupaskil.  
-- Með birgðahaldi er átt við hvers konar áfyllingu eins og birgðir, innkaupapöntun, samsetningarpöntun, framleiðslupöntun eða millifærslu á innleið. Samsvarandi getur verið neikvæð sölu-eða þjónustupöntun, neikvæð íhlutaþörf eða söluskil sem einnig tákna framboð.  
+- Framboð á við um hvaða tegund af áfyllingu sem er, eins og birgðir, innkaupapöntun, samsetningarpöntun, framleiðslupöntun eða millifærslu á innleið. Á sama hátt getur verið til neikvæð sölu- eða þjónustupöntun, neikvæð íhlutaþörf eða innkaupaskil sem stendur einnig fyrir framboð.  
 
 Annað markmið áætlunarkerfisins er að tryggja það að birgðamagnið hækki ekki að óþörfu. Í tilfelli minnkandi eftirspurnar mun áætlunarkerfið leggja til að annað hvort verði þeim áfyllingarpöntunum sem eru fyrir hendi frestað, þær minnkaðar eða afpantaðar.  
 
@@ -163,9 +163,9 @@ Innkaupatillögulínur eru með nákvæmum upplýsingum um vörurnar sem þarf a
 Upplýsingar um áætlanagerð með birgðageymslum og flutningum er að finna í [Áætlanagerð með eða án birgðageymslna](production-planning-with-without-locations.md).
 
 > [!TIP]
-> Þegar verið er að **vinna á síðum innkaupatillögublaðs** eða **áætlunarvinnublaða** er hægt að raða línunum með því að raða á dálkheiti. Þetta er sérstaklega gagnlegt á síðunni Áætlunarvinnublað þar sem hægt er að nota þær í mörgum framleiðslupöntunum. Sjálfgefið er að **línum sé raðað eftir reitnum Vörunr**. Til að flokka línur fyrir Fjölþrepa pöntun, raða eftir **Nr. Pöntunarnr.** . **Einnig geta svæðin MPS pöntunar** -og **áætlunarstig** hjálpað til við að sýna stigveldi línanna.
+> Þegar unnið er á síðunum **Innkaupatillögublað** eða **Áætlunarvinnublað** geturðu skipulagt línurnar með því að raða eftir dálkheiti. Þetta er sérstaklega gagnlegt á síðunni Áætlunarvinnublað því að hægt er að nota hana fyrir marglaga framleiðslupantanir. Línum er sjálfgefið raðað eftir reitnum **Vörunúmer**. Til að flokka línur fyrir marglaga pöntun skal raða eftir **Tilv. pöntunarnr** . Einnig geta reitirnir **MPS-pöntun** og **Áætlunarstig** hjálpað til við að sýna stigveldi línanna.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -176,7 +176,7 @@ Upplýsingar um áætlanagerð með birgðageymslum og flutningum er að finna �
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

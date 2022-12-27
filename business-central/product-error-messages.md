@@ -7,7 +7,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
 ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/15/2022
 ms.locfileid: "8419313"
@@ -20,7 +20,7 @@ ms.locfileid: "8419313"
 
 Sjálfgefna útgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur lýsingar fyrir flesta reiti, dálka og aðgerðir sem hægt er að opna þegar heitið er valið. Ásamt kennsluábendingum fyrir mikilvægar síðar, myndatexta og leiðbeinandi texta, eru þessar ábendingar, eða skýringartextar, sem stendur okkar innleiðing af *innfelldri notendaaðstoð*, sem er mikilvægur þáttur í hugbúnaði í dag.  
 
-Ef spurningar vakna um reit eða annan þátt notandaviðmótsins, skal velja heitið og stutt lýsing birtist. Veldu tengilinn *Frekari upplýsingar* ef þetta nægir ekki. Einnig er hægt að nota Hjálparrúðuna í afurð til að finna svör við spurningunum.  
+Ef spurningar vakna um reit eða annan þátt notandaviðmótsins, skal velja heitið og stutt lýsing birtist. Veldu tengilinn *Frekari upplýsingar* ef þetta nægir ekki. Einnig er hægt að nota hjálparsvæðið í vörunni til að finna svör við spurningum þínum.  
 
 Frekari upplýsingar er að finna í [Dynamics 365 Business Central Líkan notendaaðstoðar](/dynamics365/business-central/dev-itpro/user-assistance) í stjórnunarefninu fyrir [!INCLUDE [prod_short](includes/prod_short.md)].  
 

@@ -1,6 +1,6 @@
 ---
 title: Safnvista sölu- og innkaupaskjöl
-description: Hægt er að vista sölu-og innkaupapantanir, tilboð, skilapantanir og standandi pantanir og endurheimta frumrit ef þörf krefur.
+description: Þú getur safnvistað sölu- og innkaupapöntunum, tilboðum, skilapöntunum og standandi pöntunum og endurheimt upprunalegt ef þörf krefur.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,39 +11,39 @@ ms.date: 03/06/2022
 ms.author: bholtorf
 ms.openlocfilehash: c81248844f603f80304822c0ce089c666f9be9bc
 ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/12/2022
 ms.locfileid: "8950330"
 ---
 # <a name="archive-documents"></a>Safnvista skjöl
-Hægt er að safnvista sölu-og innkaupapantanir, beiðnir, skilapantanir og standandi pantanir. Skjalavistunarskjöl gerir kleift að endurheimta frumritið, ef þörf krefur. Þú getur safnvistað sölu- eða innkaupaskjali nokkrum sinnum og vistað aðra safnvistaða útgáfu í hvert skipti.
+Þú getur safnvistað sölu- og innkaupapöntunum, tilboðum, skilapöntunum og standandi pöntunum. Safnvistun skjala gerir þér kleift að endurheimta upprunalegt ef þörf krefur. Þú getur safnvistað sölu- eða innkaupaskjali nokkrum sinnum og vistað aðra safnvistaða útgáfu í hvert skipti.
 
-Í eldri söluskjölum þar sem upprunalega er enn til og er ekki bókað er hægt að nota **endurheimtaraðgerðina** til að skrifa yfir gildandi skjal með eldri útgáfu. 
+Fyrir safnvistuð söluskjöl þar sem upprunalega skjalið er enn til og er ekki bókað er hægt að nota aðgerðina **Endurheimta** til að skrifa yfir núverandi skjal með safnvistaðri útgáfu. 
 
-Í eldri skjölum þar sem upprunalega er eytt er aðeins hægt að endurnýta efnið með því að afrita gögnin, t.d. með því að **nota afritið frá aðgerð skjals**.  
+Fyrir safnvistuð skjöl þar sem upprunalega skjalinu er eytt geturðu aðeins notað efnið aftur með því að afrita gögnin, til dæmis með aðgerðinni **Afrita úr skjali**.  
 
 ## <a name="to-set-up-automatic-document-archiving"></a>Setja upp sjálfvirka safnvistun
 
-Hægt er að setja upp sjálfvirka skjalavistun sölu-og innkaupapantana, tilboð, standandi pantanir og skilapantanir. Þegar kveikt er á sjálfvirkri skjalavistun er ný útgáfa af skjalaða skjalinu stofnuð þegar einhver gerir eftirfarandi atriði:
+Hægt er að setja upp sjálfvirka safnvistun á sölu- og innkaupapöntunum, tilboðum, standandi pöntunum og vöruskilapöntunum. Þegar kveikt er á sjálfvirkri safnvistun er ný útgáfa af safnvistaða skjalinu búin til þegar einhver gerir eftirfarandi:
 
-* Breytir eða eyðir skjali.
-* Prentar, hleður niður eða sendir skjal með tölvupósti.
-* Breytir tilboði í pöntun eða reikning.
-* Bókar pöntun.
+* Breytir eða eyðir athugasemd.
+* Prentar, sækir eða sendir skjal í tölvupósti.
+* Umbreytir tilboði í pöntun eða reikning.
+* Leggur inn pöntun.
 
 Eftirfarandi ferli sýnir hvernig skal setja upp sjálfvirka safnvistun á söluskjölum. Skrefin eru svipuð fyrir innkaupaskjöl.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi** og velja svo viðeigandi tengil.
-2. **Á flipanum skjalavistun** er tilgreint hvort eigi að kveikja á sjálfvirkri skjalavistun fyrir ýmsar gerðir söluskjala. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+2. Í flýtiflipanum **Safnvistun** skal tilgreina hvort kveikja eigi á sjálfvirkri safnvistun fyrir ýmsar tegundir af söluskjölum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Í eftirfarandi töflu er lýst valkostum fyrir **reitinn Safntilboð**.
+Eftirfarandi tafla lýsir valkostunum fyrir reitinn **Safnvista tilboð**.
 
 |Valkostur|Lýsing|
 |------|-----------|
-|**Aldrei**| Ekki skrá sölubeiðnir þegar þeim er eytt.|
-|**Spurning**|Hvetjið notandann til að velja hvort á að vista sölutilboð þegar þeim er eytt.|
-|**Alltaf**|Safnvista sölutilboð sjálfkrafa þegar því er eytt.|
+|**Aldrei**| Ekki safnvista sölutilboð þegar þeim er eytt.|
+|**Spurning**|Biddu notandann um að velja hvort eigi að safnvista sölutilboðum þegar þeim er eytt.|
+|**Alltaf**|Safnvista sölutilboðum sjálfkrafa þegar þeim er eytt.|
 
 ## <a name="to-archive-a-sales-order"></a>Til að safnvista sölupöntun
 
@@ -57,19 +57,19 @@ Sölupöntunin er safnvistuð. Hægt er að skoða hana á síðunni **Safnvista
 
 ## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Að endurheimta óbókaða sölupöntun úr skjalasafninu
 
-Eftirfarandi ferli lýsir því hvernig á að endurheimta skjalaðar sölupantanir í upprunalegu sölupöntunina. Endurheimt skjals er aðeins möguleg þegar upprunalega skjalið hefur ekki verið bókað. Skrefin eru svipuð fyrir allar pantanir, standandi pantanir, vöruskilapantanir og tilboð.
+Eftirfarandi ferli útskýrir hvernig skal endurheimta safnvistaða sölupöntun í upprunalega sölupöntun. Endurheimt skjals er aðeins möguleg þegar upprunalega skjalið hefur ekki verið bókað. Skrefin eru svipuð fyrir allar pantanir, standandi pantanir, vöruskilapantanir og tilboð.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Safnvistaðar sölupantanir** og velja síðan viðkomandi tengil.
 2. Valin er safnvistuð sölupöntun, eða útgáfa af henni, sem á að endurheimta og velja síðan aðgerðina **Endurheimta**.  
 
-Innihaldi upprunalegu sölupöntunarinnar er skipt út fyrir skjalaða útgáfuna.
+Efni upprunalegrar sölupöntunar er skipt út fyrir safnvistuðu útgáfuna.
 
 ## <a name="to-delete-archived-sales-orders"></a>Eyða safnvistuðum sölupöntunum
 
 Eftirfarandi ferli sýnir hvernig skal eyða safnvistuðum sölupöntunum. Skrefin eru svipuð fyrir aðrar safnvistaðar sölur og innkaupaskjöl.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Safnvistaðar sölupantanir** og velja síðan viðkomandi tengil.  
-2. **Veljið viðeigandi afmarkanir á síðunni eyða eldri útgáfum** og smellið síðan á **Útgáfusíðuna** Eyða skjalasafni söltunarinnar.  
+2. Veldu aðgerðina **Eyða eldri útgáfum** og síðan á síðunni **Eyða safnvistuðum útgáfum af sölupöntunum** skaltu velja viðeigandi síur.  
 3. Velja hnappinn **Í lagi**.
 
 ## <a name="see-also"></a>Sjá einnig

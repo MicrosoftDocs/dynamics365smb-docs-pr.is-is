@@ -9,7 +9,7 @@ ms.date: 10/27/2021
 ms.author: edupont
 ms.openlocfilehash: 72e5be73b78e702bfa006a79b6c3a46c8b11ed96
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9531162"
@@ -23,12 +23,12 @@ Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun af
 Þú getur tilgreint prósentu línuupphæðarinnar sem verður reikningsfærð, fyrir viðskiptamann eða lánardrottin fyrir allar vörur eða valdar vörur. Þegar uppsetningu er lokið er hægt að búa til fyrirframgreiðslureikninga úr sölu- og innkaupapöntunum. Þú getur notað skilgreindu prósenturnar fyrir hverja sölu- eða innkaupalínu eða breytt upphæðunum á reikningnum eins og þarf. Til dæmis er hægt að tilgreina heildarupphæð fyrir alla pöntunina.  
 
 > [!NOTE]
-> Mælt er með því að fyrirframgreidd prósenta af 100 sé ekki notuð í eftirfarandi tilvikum:
+> Mælt er með því að ekki sé notuð 100 prósenta fyrirframgreiðslu í eftirfarandi tilvikum:
 >
-> * Ef þú ert í Norður-Ameríku. Vegna þess hvernig skattar eru reiknaðir er hægt að fá fyrirframgreiðslu upp á 100 á úthreyfingu með fyrirframgreiðslureikningum.
-> * Á öllum svæðum, ef greiðsluafsláttur er handvirkt dreginn frá reikningi. Fyrirframgreidd prósenta af 100 mun ekki sjálfkrafa fara upphæð sem dregst frá afslættinum.
+> * Ef þú ert í Norður-Ameríku. Vegna þess hvernig skattar eru reiknaðir er prósenta fyrirframgreiðslu 100 sem getur leitt til vandamál með fyrirframgreiðslureikninga.
+> * Á öllum svæðum, ef greiðsluafsláttur er handvirkt dreginn frá reikningi. Fyrirframgreiðsluprósenta 100 mun ekki sjálfkrafa skilja eftir upphæð sem draga þarf afsláttinn frá.
 >
-> Ef greiðsluprósenta af 100 er [!INCLUDE[prod_short](includes/prod_short.md)] notuð, gæti þurft að setja sléttunarfærslur af stað þegar verið er að nota fyrirframgreiðslu. Þegar það gerist þarf að velja fjárhagsreikning í **reitnum Reikningssléttunarlykill** á **síðunni Viðskiptamannabókaraflokkar**. Þetta gildir jafnvel þótt ekki hafi verið kveikt á **reikningssléttun** reikninga á **uppsetningarsíðu** söluins &. Ef ekki er tilgreindur lykill verður ekki hægt að bóka fyrirframgreiðslureikninga. 
+> Þegar þú notar fyrirframgreiðsluprósentuna 100 gæti [!INCLUDE[prod_short](includes/prod_short.md)] einnig þurft að stofna sléttunarfærslur mótbókunar. Þegar það gerist þarftu að velja fjárhagsreikning í reitnum **Sléttunarlykill reiknings** á síðunni **Bókunarflokkar viðskiptamanns**. Þetta á við jafnvel þótt þú hafir ekki kveikt á **Sléttun reiknings** á síðunni **Uppsetning sölugrunns**. Ef þú tilgreinir ekki lykil geturðu ekki bókað fyrirframgreiðslureikninga. 
 
 Þar sem fyrirframgreidd upphæð tilheyrir kaupanda þar til hann hefur móttekið vörur eða þjónustu þarf að setja upp fjárhagsreikninga til að geyma fyrirframgreiðsluupphæðir þar til lokareikningurinn er bókaður. Sölufyrirframgreiðslur þarf að skrá í skuldareikning þar til vörurnar eru afhentar. Fyrirframgreiðslur innkaupa þarf að skrá í eignareikning þar til vörurnar eru mótteknar. Auk þess þarf að setja upp sérstakan fjárhagsreikning fyrir hvert VSK-kenni.  
 
@@ -37,7 +37,7 @@ Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun af
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Bæta fyrirframgreiðslureikningum við almennan bókunargrunn  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning almennrar bókunar** og velja síðan viðkomandi tengil.
-2. **Á síðunni almennar bókunaruppsetningar** fyrir viðeigandi línur er fyllt út í eftirfarandi reiti:  
+2. Á síðunni **Almennur bókunargrunnur**, fyrir viðeigandi línur, skal fylla út eftirfarandi reiti:  
 
     * **Fyrirframgreiðslureikn. sölu**  
     * **Fyrirframgr.reikn. innkaupa**  
@@ -50,13 +50,13 @@ Ef almennir fjárhagsreikningar hafa ekki enn verið settir upp fyrir fyrirframg
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Uppsetning númeraraðar fyrir fylgiskjöl fyrirframgreiðslu  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi** og velja svo viðeigandi tengil.
-2. **Á uppsetningarsíðu** sölu&, á **flipanum númeraröð**, er fyllt út í eftirfarandi reiti:  
+2. Á síðunni **Uppsetning sölugrunns**, í flýtiflipanum **Númeraraðir**, skal fylla út eftirfarandi reiti:  
 
    * **Bókuð fyrirframgr.reikn.nr.**
    * **Bókuð kr.reikn.nr. fyrirframgr.**
 
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Uppsetning innkaupa og viðskiptaskulda** og velja svo viðeigandi tengil.
-4. **Á uppsetningarsíðu** innkaupa & lánardrottna, á **flipanum númeraröð**, er fyllt út í eftirfarandi reiti:
+4. Á síðunni **Uppsetning innkaupagrunns**, í flýtiflipanum **Númeraraðir**, skal fylla út eftirfarandi reiti:
 
     * **Bókuð fyrirframgr.reikn.nr.**
     * **Bókuð kr.reikn.nr. fyrirframgr.**
@@ -80,7 +80,7 @@ Fyrir viðskiptamann eða lánardrottin er hægt að setja upp eina sjálfgefna 
 4. Skrefin eru endurtekin fyrir aðra viðskiptamenn og lánardrottna.  
 
 > [!TIP]
-> Einnig er hægt að **nálgast síðuna prósenta fyrirframgreiðslu á söluprósentu** af spjaldi viðskiptamanns eða lánardrottins.
+> Einnig er hægt að opna síðuna **Fyrirframgreiðsluprósentur sölu** úr viðskiptamanna- eða lánardrottnaspjaldi.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Til að ákvarða hvaða fyrirframgreiðsluprósenta hefur forgang  
 
@@ -93,20 +93,20 @@ Pöntun getur haft prósentu fyrirframgreiðslu í söluhausnum og aðra prósen
 
 Með öðrum orðum, fyrirframgreiðsluprósentan í viðskiptamannsspjaldinu á eingöngu við ef engin prósenta er sett upp fyrir vöruna. Ef innihaldi reitsins **Fyrirframgreiðsla %** er hinsvegar breytt á sölu- eða innkaupahausnum eftir að búið er að stofna línurnar er fyrirframgreiðsluprósenta allra lína uppfærð. Á þennan hátt er auðveldara að stofna pöntun með fasta fyrirframgreiðsluprósentu, sama hvaða prósenta er uppsett í vörum.
 
-## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Til að gefa út sölupantanir sjálfvirkt þegar fyrirframgreiðslur eru jafnaðar
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Að gefa út sölupantanir sjálfkrafa þegar fyrirframgreiðslur eru jafnaðar
 
-Hægt er að spara tíma með því að setja upp verkraðarafærslu sem mun sjálfkrafa gefa út sölupantanir sem krefjast fyrirframgreiðslu eftir að greiðslum er beitt. Ef vinnslan er sjálfvirkt vistuð er skrefið að losa sölupöntunina.
+Hægt er að spara tíma með því að setja upp verkraðarfærslu sem gefur sjálfkrafa út sölupantanir sem krefjast fyrirframgreiðslu eftir að greiðslur eru jafnaðar. Að gera ferlið sjálfvirkt sparar þér skrefið við að gefa út sölupöntunina.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi** og velja svo viðeigandi tengil.
-2. **Í fyrirframgr. Reiturinn Sjálfvirk uppfærslutíðni**, Tilgreinið hversu oft eigi að keyra verkraðarafærslu.
+2. Í reitnum **Tíðni sjálfvirkrar uppfærslu fyrirfgr.** skal tilgreina hversu oft á að keyra verkraðarfærsluna.
 
 > [!TIP]
-> Ef þú ert hér skaltu íhuga að bæta við safeguard gegn sendingu eða reikningsfærslum sem hafa ógreiddar forsöluupphæðir. Ef kveikt er á **ávísunarreglu** fyrir víxlun, [!INCLUDE[prod_short](includes/prod_short.md)] kemur ekki í veg fyrir að fólk bóki pantanir með útistandandi fyrirframgreiðsluupphæðum.
+> Á meðan þú ert hér skaltu íhuga að bæta við vörn gegn afhendingu eða reikningsfærslu sölupantana sem eru með ógreiddar upphæðir fyrirframgreiðslu. Ef þú kveikir á **Athuga fyrirfgr. við bókun** mun [!INCLUDE[prod_short](includes/prod_short.md)] koma í veg fyrir að fólk geti bókað pantanir með útistandandi fyrirframgreiðsluupphæðir.
 
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkraðarfærslur** og velja síðan viðkomandi tengil.
-4. Uppsetning á **UPD. Fyrirframreikningur biðlauna Færsla í vinnslubiðröð sölu**, til dæmis, með því að nota stillingarnar á **endurtekningarflipanum** til að áætla hversu oft á að keyra hana. Frekari upplýsing er [í nota Starfaraðir til að áætla verk](admin-job-queues-schedule-tasks.md).
+4. Settu upp til dæmis verkraðarfærsluna **Uppf. fyrirfgr.sölu í bið** með því að nota stillingarnar í flýtiflipanum **Endurtekning** til að tímasetja hversu oft á að keyra hana. Frekari upplýsingar er að finna í [Nota verkraðir til að tímasetja verk](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .  
 

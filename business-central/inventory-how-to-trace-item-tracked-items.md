@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: 584205dba5f8f7d566475ef9d13a97c25949545b
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9531837"
@@ -33,25 +33,25 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörurakning** og velja síðan viðkomandi tengil.  
 2.  Í afmörkunarreitunum efst á síðunni skal færa inn tiltekið vörunúmer eða afmörkun á vörunúmerum sem á að rekja.  
-3.  **Í reitnum Sýna íhluti** er valið hvort einnig á að sjá hvar íhlutir úr vörunum komu. Eftirfarandi tafla lýsir valkostunum.  
+3.  Í reitnum **Sýna íhluti** skal velja hvort ætlunin sé einnig að sjá hvaðan íhlutirnir fyrir vörurnar komu. Eftirfarandi tafla lýsir valkostunum.  
 
     |Svæði|Lýsing|  
     |----------------------------------|---------------------------------------|  
     |**Nr**|Ekki sýna íhluti.|  
-    |**Vara-eingöngu rakin**|Sýna aðeins íhluti sem hafa lotunúmer eða raðnúmer.|  
+    |**Vara-eingöngu rakin**|Sýna aðeins íhluti sem eru með lotu- eða raðnúmer.|  
     |**Allt**|Sýna alla íhluti.|  
 
-4.  **Í reitnum Rakningaraðferð** er valin aðferðin sem nota á til að rekja vöruna. Eftirfarandi tafla lýsir valkostunum.  
+4.  Í reitnum **Rakningaraðferð** skal velja aðferðina sem nota á til að rekja vöruna. Eftirfarandi tafla lýsir valkostunum.  
 
     |Svæði|Lýsing|  
     |----------------------------------|---------------------------------------|  
-    |**Notkun->Uppruni**|Rekja atriðið hvaðan það var notað hvaðan það kom. Til dæmis, ef framleidd vara var seld til viðskiptavinar, sýnir síðan **Vörurakning** þetta fyrst með söluafhendingarlínunni sem er síðan hægt að stækka til að sjá frá hvaða framleiðslupöntun hún kom.|  
-    |**Uppruni->Notkun**|Rekja atriðið sem það kom á í birgðum þar sem það var notað. Til dæmis, ef framleidd vara var seld viðskiptamanni, **sýnir vörurakningarsíðan** þetta með tilbúnu framleiðslupöntuninni fyrst, sem síðan er hægt að stækka til að sjá Söluafhendingarlínur þar sem varan var notuð.|  
+    |**Notkun->Uppruni**|Rektu vöruna frá því hvar hún var notuð og hvaðan hún kom. Til dæmis, ef framleidd vara var seld til viðskiptavinar, sýnir síðan **Vörurakning** þetta fyrst með söluafhendingarlínunni sem er síðan hægt að stækka til að sjá frá hvaða framleiðslupöntun hún kom.|  
+    |**Uppruni->Notkun**|Rektu vöruna frá því hvar hún kom inn í birgðir og þangað sem hún var notuð. Til dæmis, ef framleidd vara var seld til viðskiptavinar, sýnir síðan **Vörurakning** þetta fyrst með tilbúinni framleiðslupöntun, sem er síðan hægt að stækka til að sjá söluafhendingarlínur þar sem varan var notuð.|  
 
 5.  Velja skal **Rekja** aðgerðina til að keyra rakninguna.  
 
 > [!NOTE]  
->  Aðeins notaðar færslur eru sýndar. Ef sama lota hefur verið móttekin í mörgum færslum getur verið að **vörurakningarsíðan** sýni ekki allar færslur.   
+>  Aðeins notaðar færslur eru sýndar. Ef sama lota er móttekin í mörgum færslum sýnir síðan **Vörurakning** hugsanlega ekki allar færslurnar.   
 
 > [!NOTE]  
 >  Ef lína fyrir ofan vörurakningarlínu hefur þegar rekið færsluferil er gátreiturinn **Þegar verið rakið** valinn. Til að veita einfaldara yfirlit eru slíkar undirliggjandi línur ekki sýndar.  
@@ -65,7 +65,7 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 3. Í reitina **Raðnúmer** og **Lotunúmer** skal færa inn vörurakningarnúmer sem ætlunin er að rekja.  
 4. Velja skal aðgerðina **Finna** til að finna öll tilvik um rað- eða lotunúmerið í gagnagrunninum.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

@@ -11,7 +11,7 @@ ms.date: 08/16/2022
 ms.author: jswymer
 ms.openlocfilehash: 38dec472417e49fe974ed72f6eac2fdf4dffde3c
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9606668"
@@ -36,7 +36,7 @@ Flýtivísanir aðstoða við aðgengi og geta auðveldað flettingar og gert þ
 Flestar flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða macOS. Hins vegar eru nokkrar flýtileiðir frábrugðnar fyrir macOS. Þessar flýtileiðir eru tilgreindar með sviga í eftirfarandi hlutum.
 
 > [!NOTE]
-> Auk altækrar flýtilykla sem lýst er í þessari grein eru tiltæk ýmis fyrirtæki flýtivísanir. Til dæmis í almennri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)], F9 bókar skjal og CTRL+F7 sýnir fjárhagslegar færslur fyrir færslu þegar færslan er opnuð á korti. Í þessari grein eru nokkrar af algengari flýtileiðum Business-sértækra, sem sýndar eru á skáletri. Hafa þarf í huga að raunveruleg flýtivísanirnar geta verið ólíkar í þinni lausn. Í notendaviðmótinu er Flýtilykillinn sýndur í verkfærinu fyrir aðgerðina sem um ræðir.
+> Auk altækra flýtilykla sem lýst er í þessari grein er hægt að nálgast fjölda sértækra flýtilykla. Til dæmis í almennri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)], F9 bókar skjal og CTRL+F7 sýnir fjárhagslegar færslur fyrir færslu þegar færslan er opnuð á korti. Í þessari grein eru nokkrar af algengari viðskiptatengdum flýtileiðum sem sýndar eru með skáletri. Hafðu í huga að raunverulegar flýtileiðir geta verið öðruvísi í lausninni þinni. Í notandaviðmótinu er flýtilykillinn sýndur í ábendingunni fyrir viðkomandi aðgerð.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Almennar flýtivísanir
 
@@ -51,20 +51,20 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 |Alt+Shift+F2|Skipta á milli **Upplýsingar** og **Fylgiskjöl** í upplýsingakassanum.|
 |Alt+O|Bættu nýrri athugasemd við völdu færsluna, jafnvel þótt upplýsingakassinn sé ekki opinn.|
 |Alt+Q<br />(Ctrl+Option+Q)|Opnaðu gluggann **Viðmótsleið**. Frekari upplýsingar er að finna í [Finna síður og upplýsingar með „Segðu mér“](ui-search.md).|
-|CTRL + ALT + Q<br />(CTRL + Option + cmd + Q)|**Opnið síðuna finna færslur** til að finna skjöl og færslur sem tengjast hverri annarri samkvæmt algengum upplýsingum, eins og númeri fylgiskjals eða bókunardagsetningu. Nánari upplýsingar, sjá [finna tengdar Entires fyrir bókuð skjöl](ui-find-entries.md)|
+|Ctrl+Alt+Q<br />(Ctrl+Option+Cmd+Q)|Opnaðu síðuna **Finna færslur** til að finna skjöl og færslur sem tengjast hver annarri út frá algengum upplýsingum, eins og skjalanúmeri eða bókunardagsetningu. Frekari upplýsingar er að finna í [Að finna tengdar færslur fyrir bókuð skjöl](ui-find-entries.md)|
 |Alt+N |Opna síðu til að búa til nýja færslu. (Svipað og að velja aðgerðirnar **Nýtt** og **+**.)|
 |Alt+Shift+N |Velja nýlega stofnaða síðu og opna nýja til að búa til nýja færslu. Á sama hátt bókar ALT+F9 skjal og býr til nýtt.|
 |Alt+T|Opna síðuna **Mínar stillingar**.|
-|Alt+hægri ör|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur ![AssistEdit](media/assist-edit-icon.png "AssistEdit hnappur"). hnappur. Notað þegar venjulegur fellitakki (Alt + ör) í sama reit er notaður í öðrum tilgangi.|
-|Ctrl+Alt+Shift+C|Birta upplýsingar í merki fyrirtækis. Þessari flýtileið var hætt í viðskiptum Mið 2022 út Wave 2 (útgáfa 21) og skipt út fyrir Ctrl + O. |
+|Alt+hægri ör|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur ![AssistEdit](media/assist-edit-icon.png "AssistEdit hnappur"). hnappur. Notað þegar venjulegi fellilistahnappur (Alt+Niðurör) í sama reitnum er notaður í öðrum tilgangi.|
+|Ctrl+Alt+Shift+C|Birta upplýsingar í merki fyrirtækis. Þessi flýtileið var tekin úr notkun í Business Central 2022 útgáfutímabili 2 (útgáfu 21) og skipt út fyrir Ctrl+O. |
 |Ctrl+Alt+F1|Opna og loka glugganum fyrir síðueftirlit. Glugginn fyrir síðueftirlit sýnir upplýsingar um síðuna, t.d. upprunatöflu, reiti, síur, viðbætur og fleira.<br /><br />Frekari upplýsingar er að finna í [Eftirlit með síðum](across-inspect-page.md).|
 |Ctrl+C |Afrita gildið á reit. Ef reiturinn er í fókus og þú hefur ekki valið neinn texta í reitnum mun þetta afrita allt gildið. Ef þú hefur valið einhvern texta í reitnum er eingöngu valilnn texti afritaður.|
-|Ctrl+F1|[Opna hjálparrúðuna](product-help-and-support.md#help-pane) eða aðalhjálpargrein [Microsoft Learn](/dynamics365/business-central/) fyrir fyrirtæki, eftir aðalútgáfu fyrirtækisins.|
+|Ctrl+F1|Opnaðu [hjálparsvæðið](product-help-and-support.md#help-pane) eða hjálpargrein Business Central í [Microsoft Learn](/dynamics365/business-central/) eftir því hvaða útgáfu af Business Central þú ert með.|
 |Ctrl+F12|Skiptu á milli breiðs og þröngs útlits á yfirliti.|
 |Ctrl+Smella|Fletta við sérstillingu eða sérsnið þegar aðgerðin er auðkennd með örvaoddi. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).|  
 |Ctrl+F5|Endurhlaða [!INCLUDE[prod_short](includes/prod_short.md)] forritið. (Svipað og að velja endurnýja/endurhlaða í vafranum.)|
 |F5|Endurnýja gögnin á núverandi síðu.<br /><br />Notaðu þennan lykil til að tryggja að gögnin á síðunni séu ný með öllum breytingum sem aðrir gera á meðan þú ert að vinna.|
-|Ctrl+O|**Opnið rúðuna tiltæk fyrirtæki** til að skipta yfir í annað fyrirtæki eða umhverfi. Frekari upplýsingar eru í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md).|
+|Ctrl+O|Opnaðu gluggakistuna **Tiltæk fyrirtæki** til að skipta yfir í annað fyrirtæki eða umhverfi. Frekari upplýsingar eru í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md).|
 |Færslulykill|Virkja eða fá aðgang að hlutanum eða stjórninni sem er í brennidepli.|
 |Esc|Loka núverandi síðu eða fellilista.|
 |Dálklykill|Færa áhersluna á næstu stýringu eða einingu á síðu, t.d. aðgerðir, hnappa, reiti eða fyrirsagnir lista.|
@@ -86,13 +86,13 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |Alt+N|Settu inn nýja línu í breytanlegum lista á borð við síðuna **Fjárhagsáætlanir**.|Sama.|
 |Shift+F9|Bóka og prenta skjal.|Sama.|
 |Shift+F10 |Opnaðu valmynd valkosta sem eru í boði fyrir valda röð.|Sama.|
-|ALT + D|Opnið víddasamstæðufærslurnar.|Sama.|
-|Ctrl+F7|Opnar færslur, skráir færslur, kostnaðarfærslur o. frv.|
-|Ctrl+F9|Úttektarskjal.|Sama.|
-|*F7*|Opna tölfræði.|Sama.|
-|*F9*|Bóka, senda, skrá eða bakfæra skjal.|Sama.|
-|*Shift + CTRL + F*|Senda tillögur að línum á vinnublöðum sjóðstreymissaðlablaðsins.|Á ekki við.|
-|*Shift + Ctrl + I*|Skoða rað-og lotunúmer sem úthlutað er á línuatriðið í skjalinu eða færslubókinni.|Á ekki við.|
+|Alt+D|Opna færslur víddasafns.|Sama.|
+|Ctrl+F7|Opna fjárhagsfærslur, annálafærslur, kostnaðarfærslur og svo framvegis.|
+|Ctrl+F9|Gefa út skjal.|Sama.|
+|*F7*|Opna talnagögn|Sama.|
+|*F9*|Bóka, gefa út, skrá eða bakfæra skjal.|Sama.|
+|*Shift+Ctrl+F*|Senda tillögur að línum á síðunni fyrir sjóðstreymisvinnublöð.|Á ekki við.|
+|*Shift+Ctrl+I*|Skoða rað- og lotunúmer sem úthlutað er á línuatriði í skjalinu eða færslubókinni.|Á ekki við.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts">Flett milli raða og dálka</a>
 
@@ -151,9 +151,9 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
-|ALT + D|Opnið víddasamstæðufærslurnar.|
+|Alt+D|Opna færslur víddasafns.|
 |Alt+F6|Víxla draga saman/útvíkka fyrir gildandi flýtiflipa eða hluta (undirsíða).|
-|Alt+F9|Stofnið nýtt skjal og bókið það.|
+|Alt+F9|Búa til nýtt skjal og bóka það.|
 |Alt+G|Opnið síðuna **Finna færslur** til að finna færslur sem tengjast bókuðu skjali. Virkar einnig í listum.|
 |Alt+N |Opnaðu síðu til að búa til nýja færslu; á sama hátt og aðgerðin **Nýtt** er valin. |
 |Alt+Shift+N |Lokaðu síðu og opnaðu nýja til að stofna nýja færslu; á sama hátt og aðgerðin **Í lagi og nýtt** er valin. |
@@ -163,15 +163,15 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 |Ctrl+uppör |Opnaðu færsluna á undan fyrir einingu.|
 |Ctrl+Insert |Setja inn nýja línu í skjal.|
 |Ctrl+Delete |Eyddu línunni, í skjölum, færslubókum og vinnublöðum.|
-|Ctrl+F7|Opnar færslur, skráir færslur, kostnaðarfærslur o. frv.|
-|Ctrl+F9|Úttektarskjal.|
+|Ctrl+F7|Opna fjárhagsfærslur, annálafærslur, kostnaðarfærslur og svo framvegis.|
+|Ctrl+F9|Gefa út skjal.|
 |Ctrl+Shift+F12 |Hámarkaðu hluta vörulína á skjalasíðu. Ýttu á lyklana aftur og farðu aftur í venjulegt útlit. Frekari upplýsingar er að finna í [Fókus á vörulínur](ui-enter-data.md#Focus).|
 |F6|Fara í næsta flýtiflipa|
-|*F7*|Opna tölfræði.|
-|*F9*|Bóka, senda, skrá eða bakfæra skjal.|
-|*Shift + CTRL + F9*|Bóka, prenta og ganga frá vöruhúsamóttöku.|
+|*F7*|Opna talnagögn|
+|*F9*|Bóka, gefa út, skrá eða bakfæra skjal.|
+|*Shift+Ctrl+F9*|Bóka, prenta, og ganga frá vöruhúsamóttöku.|
 |Shift+F6|Fara á fyrri flýtiflipa eða hluta (undirsíða).|
-|*Shift + F9*|Bóka og prenta skjal.|
+|*Shift+F9*|Bóka og prenta skjal.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Flýtileiðir flýtifærslu fyrir reiti
 
@@ -240,22 +240,22 @@ Hlutverkaleit veitir yfirlit og flýtiaðgang að öllum viðskiptaeiginleikum s
 |F3|Opnið reitinn **Leita** í hlutverkaleit til að finna eiginleika samkvæmt uppgefnu leitarorði eða hugtaki.|
 |F3 eða Ctrl+niðurör|Færir áherslu á næsta fundna eiginleika hlutverkaleitar. F3 flytur áhersluna í reitinn **Leita** á eftir síðasta fundna eiginleikanum.|
 |SHIFT F3 eða CTRL+Uppör|Flytjið áherslu á fyrri eiginleikann sem fannst í hlutverkaleit.|
-|Ctrl+Shift|Útvíkka eða fella saman alla undirhnúta auk topphnúa þegar aðgerðin Útvíkka **eða** fella **er valin**.|
+|Ctrl+Shift|Stækkaðu eða dragðu saman alla undirhnúta ásamt hnútum á efsta stigi þegar aðgerðin **Stækka** eða **Draga saman** er valin.|
 
-##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Tölutakkar Flýtihnappar
+##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Flýtileiðir talnaborðs
 
-Eftirfarandi tafla lýsir flýtivísunum á talnagrind.
+Eftirfarandi tafla lýsir flýtileiðum á talnaborði.
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
-|Skiltákn Alt + tugabrot|Skipta skal úttaki aukalykillykils yfir á annað hvort tímabil (.) eða stafinn sem ákvarðaður **er af svæðastillingu** **síðunnar**. Frekari upplýsingar er að finna [í því að setja aukastaskiltákn sem notað er af lykilstjórnum](ui-enter-data.md#decimal).|
+|Alt+Tákn fyrir aukastaf|Skiptu úttaki á skiltáknslykli tugabrots í annaðhvort (.) eða stafinn sem stillingin **Svæði** skilgreinir á síðunni **Mínar stillingar**. Frekari upplýsingar eru í [Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum](ui-enter-data.md#decimal).|
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)  
 [Aðstoðareiginleikar](ui-accessibility.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algengar spurningar](across-faq.yml)  
 [Finna færslur](ui-find-entries.md)  
 

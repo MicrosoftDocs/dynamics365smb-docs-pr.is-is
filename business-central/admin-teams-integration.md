@@ -11,7 +11,7 @@ ms.date: 11/03/2022
 ms.author: jswymer
 ms.openlocfilehash: 0290a9224691bbcab8e3a7dbef185e1507a3b75a
 ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/04/2022
 ms.locfileid: "9744789"
@@ -30,9 +30,9 @@ ms.locfileid: "9744789"
 
 - Nauðsynleg leyfi
 
-    Í [!INCLUDE[prod_short](includes/prod_short.md)] App þarf hópleyfi í gegnum Microsoft 365 fyrirtæki eða Enterprise áskrift. Ósjálfstæðra teyma áskriftir eins og Microsoft Teams (Free) eða Microsoft Teams Essentials eru ekki studdar.
+    Forritið [!INCLUDE[prod_short](includes/prod_short.md)] krefst Teams-leyfis í gegnum Microsoft 365 fyrirtækja- eða enterprise-áskrift. Sjálfstæðar Teams-áskriftir eins og Microsoft Teams (ókeypis) eða Microsoft Teams grunnþættir eru ekki studdar.
 
-    Flestir Eiginleikar [!INCLUDE[prod_short](includes/prod_short.md)] App fyrir hópana þurfa [!INCLUDE [prod_short](includes/prod_short.md)] einnig leyfi, eins og sést í eftirfarandi töflu.
+    Flestir eiginleikar [!INCLUDE[prod_short](includes/prod_short.md)] forritsins fyrir Teams þurfa einnig [!INCLUDE [prod_short](includes/prod_short.md)] leyfi eins og sýnt er í eftirfarandi töflu.
 
     |Hvað|[!INCLUDE [prod_short](includes/prod_short.md)] leyfi|
     |----|---|
@@ -87,7 +87,7 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
 > [!NOTE]
 > Til að setja upp miðlæga innleiðingu verður Teams-reikningurinn þinn að vera með hlutverkið **Stjórnandi Teams Service** eða **Altækur stjórnandi**.
 
-1. Í Business Central er valið ![stækkunarglerið sem opnar aðgerðina segja til um.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Miðlæg innleiðing Teams** og velja síðan viðkomandi tengil. Eða veldu [hér](https://businesscentral.dynamics.com/?page=1833) til að opna síðuna beint.
+1. Í Business Central skal velja ![Stækkunargler sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Miðlæg innleiðing Teams** og velja síðan viðkomandi tengil. Eða veldu [hér](https://businesscentral.dynamics.com/?page=1833) til að opna síðuna beint.
 2. Lestu upplýsingarnar í **Setja upp Business Central-forritið fyrir Teams**, veldu síðan **Næsta**.
 3. Opnaðu [Stjórnendamiðstöð Teams](https://go.microsoft.com/fwlink/?linkid=2163970) og ljúktu eftirfarandi skrefum.
     1. Farðu í **Forrit Teams** > **Reglur uppsetningar**.
@@ -121,13 +121,13 @@ Eftir að kort hefur verið sent á spjall er kortið og reitirnir á kortinu af
 
 Einnig er hægt að nota upplýsingatálma til að koma í veg fyrir að einstaklingar eða hópar séu í samskiptum. Frekari upplýsingar er að finna í [Upplýsingatálmar í Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Tálmun á gagnatap aðgerðir í öryggismálum & ekki er Microsoft 365 hægt að beita sérstaklega spjöllum. En hægt er að nota þau í spjallskilaboðunum sem innihalda kortin. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
+Eiginleika gagnatapsvarnar í öryggis- og reglufylgnimiðstöð Microsoft 365 er ekki hægt að nota sérstaklega fyrir spjöld. En hægt er að nota þau í spjallskilaboðunum sem innihalda kortin. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Bregðast við gagnabeiðnum
 
 Hægt er að leyfa teymismeðlimum og eigendum hópa að eyða skilaboðum sem innihalda viðkvæm spjöld með því að setja upp skilaboðareglur eins og: **Eigendur geta eytt sendum skilaboðum** og **Notendur geta eytt sendum skilaboð**. Frekari upplýsingar er að finna í [Stjórna skilaboðareglum í Teams](/microsoftteams/messaging-policies-in-teams).
 
-Efnisleit og eDiscovery-samræmiseiginleikar í Microsoft 365 öryggis-& samræmisaðgerðum er einnig hægt að nota á spjöld.
+Eftirlitseiginleika efnisleitar og eDiscovery í öryggis- og reglufylgnimiðstöð Microsoft 365 er einnig hægt að nota á spjöld.
 
 Þar sem gögn spjalds í Teams er afrit af gögnum í [!INCLUDE [prod_short](includes/prod_short.md)] er einnig hægt að nota [!INCLUDE [prod_short](includes/prod_short.md)]-eiginleika til að flytja út gögn viðskiptamanna ef þess er óskað. Frekari upplýsingar um persónuvernd í [!INCLUDE [prod_short](includes/prod_short.md)] er að finna í [Algengar spurningar um persónuvernd fyrir viðskiptamenn Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

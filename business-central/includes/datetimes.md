@@ -5,7 +5,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 44cd8156e66be7736da4f1c51f507715d7842478
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8147415"
@@ -24,7 +24,7 @@ ms.locfileid: "8147415"
 |1.12.22 5|01-12-22 05:00:00|
 |1.12.22|01-12-22 00:00:00|
 |11 12|11/gildandi mánuður/gildandi ár 12:00:00|
-|1112 12|11/12/gildandi ár 12:00:00|
+|1112 12|11-12-gildandi ár 12:00:00|
 |d eða dagurinn í dag|dagurinn í dag 00:00:00|
 |t tími|gildandi tími dagsins í dag|
 |d 10:30|dagurinn í dag 10:30:00|

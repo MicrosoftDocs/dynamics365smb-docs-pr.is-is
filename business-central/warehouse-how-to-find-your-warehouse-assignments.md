@@ -11,7 +11,7 @@ ms.date: 06/24/2021
 ms.author: edupont
 ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8513290"
@@ -35,10 +35,10 @@ Hægt er að nota reitinn **Úthlutað notandakenni** á hausnum til að merkja 
 
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md) 
-[samsetningarstýring](assembly-assemble-items.md)
-[hönnunar upplýsingar: vöruhúsastjórnun](design-details-warehouse-management.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
+[Uppsetning vöruhúsakerfis](warehouse-setup-warehouse.md) 
+[Samsetningarstjórnun](assembly-assemble-items.md)
+[Hönnunarupplýsingar: Vöruhúsakerfi](design-details-warehouse-management.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

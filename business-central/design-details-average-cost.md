@@ -1,5 +1,5 @@
 ---
-title: Upplýsingar um hönnun-meðalkostnaður
+title: Hönnunarupplýsingar - Meðalkostnaður
 description: Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað við meðalkostnaðartímabil sem er sett upp í Business Central.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 06/08/2021
 ms.author: edupont
 ms.openlocfilehash: cdba126a3cdd6116f0067cac08bccadbdfc5a982
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8519841"
@@ -208,7 +208,7 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)   
  [Hönnunarupplýsingar: Kostnaðarleiðrétting](design-details-cost-adjustment.md)   
- [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
+ [Hönnunarupplýsingar: Birgðajöfnun](design-details-item-application.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
  [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

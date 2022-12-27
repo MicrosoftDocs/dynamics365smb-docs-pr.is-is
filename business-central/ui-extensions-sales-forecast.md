@@ -12,7 +12,7 @@ ms.date: 12/20/2021
 ms.author: edupont
 ms.openlocfilehash: ad8a1b1945331c9db4ef326bdf2bb36e68b35aaa
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533509"
@@ -21,7 +21,7 @@ ms.locfileid: "9533509"
 
 Birgðastjórnun er málamiðlun á milli notendaþjónustu og stjónun kostnaðar. Ein hliðin er sú að lágar birgðir krefjast minna veltufés, en, á hinn bóginn getur birgðaskortur hugsanlega leitt til tapaðrar sölu. Viðbótin fyrir sölu- og birgðaspá sér fyrir hugsanlegar sölur með því að nota söguleg gögn og veitir skýrt yfirlit yfir viðbúinn birgðaskort. Samkvæmt spá, aðstoðar viðbótin að stofna áfyllingarbeiðnir til lánardrottna þinna og sparar þér tíma.  
 
-## <a name="setting-up-forecasting"></a>Setja upp spár
+## <a name="setting-up-forecasting"></a>Spáruppsetning
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er tengingin við [Azure AI](https://azure.microsoft.com/overview/ai-platform/) þegar sett upp fyrir þig. En hægt er að grunnstilla spá til að nota aðra tímabilsgerð til að gefa skýrslur samkvæmt, eins og að breyta úr spám samkvæmt mánuðum í spám samkvæmt ársfjórðungum. Einnig er hægt að velja fjölda tímabila sem á að reikna spá eftir, eftir því hversu grófgerð spáin á að vera. Við að leggja til að spá eftir mánuðum og með 12 mánaða sjóndeildarhring fyrir spána.
 
@@ -64,7 +64,7 @@ Til að spá fyrir um sölu í framtíðinni þarf vefþjónustan magnbundin gö
 6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu- og birgðaspár** og velja síðan viðkomandi tengil.  
 7. Stækkaðu flýtiflipann **Almennt** og fylltu síðan út reiti fyrir API-vefslóð og API-lykil.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

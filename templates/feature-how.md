@@ -8,7 +8,7 @@ ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
 ms.openlocfilehash: dc225dad42ba5f05fc4cbd4b091377fa04063b9f
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528465"
@@ -17,7 +17,7 @@ ms.locfileid: "9528465"
 
 Til að fá frekari upplýsingar um hvernig á að ljúka flóknum verkum skal skoða sérstakar hjálpargreinar. Notaðu [!INCLUDE [prod_short](includes/prod_short.md)] fyrir afurðarheitið.  
 
-Fyrir ábendingar um MarkDown og Style er að finna [Leiðbeiningar fyrir höfunda Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Ábendingar um MarkDown og stíl er að finna í [Leiðbeiningar fyrir Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Munið að bæta einnig við Sjá einnig tenglum, og bæta nýju greininni við TOC.md skrána.  
 

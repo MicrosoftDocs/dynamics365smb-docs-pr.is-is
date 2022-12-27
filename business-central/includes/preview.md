@@ -1,1 +1,1 @@
-> **FORSKOÐUN:** Þessi eiginleiki er í forskoðun.
+> **FORÚTGÁFA:** Þessi eiginleiki er í forútgáfu.

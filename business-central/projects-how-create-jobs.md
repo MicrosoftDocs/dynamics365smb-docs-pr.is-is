@@ -1,5 +1,5 @@
 ---
-title: Stofna vinnsluspjald fyrir vinnu og tilgreina verkefni
+title: Stofna verkspjald fyrir verk og tilgreina verkhluta
 description: Í nýju verkefni skal stofna verkspjald sem inniheldur verkhluta starfsins og áætlunarlínur, til að auðvelda þér að stjórna framvindu og fjárhagsáætlunum.
 author: SorenGP
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.date: 08/03/2022
 ms.author: edupont
 ms.openlocfilehash: 180a6cfc4ce6efb11df8faccd5909f527f6393e3
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528948"
@@ -23,16 +23,16 @@ Fyrsta lagið samanstendur af verkhlutum. Það verður að stofna að minnsta k
 
 Hitt lagið samanstendur af áætlunarlínum sem tilgreina ítarlega notkun forða, vara og ýmis fjárhagsleg útgjöld.
 
-Lagskiptingin gerir kleift að skipta verkinu í smærri verk og notast við ítarlegri upplýsingar við fjárhagsáætlun, tilboð og skráningu. Auk þess veitir það innsýn í framvindu verksins. Þú getur til dæmis fylgst með hvort þú sért að hitta tilnefnda áfanga eða ef þú ert á miða til að uppfylla væntingar fjárhagsáætlunar.
+Lagskiptingin gerir kleift að skipta verkinu í smærri verk og notast við ítarlegri upplýsingar við fjárhagsáætlun, tilboð og skráningu. Auk þess veitir það innsýn í framvindu verksins. Til dæmis er hægt að rekja hvort notandinn nái tilskildum áföngum, eða hvort hann sé á réttri leið til að ná væntingum áætlunar.
 
 > [!TIP]
 > Veldu aðgerðina **Nýtt Verk** í hlutverkamiðstöðinni **Verkefnastjóri** til að setja af stað uppsetningarleiðsögn sem leiðir notandann í gegnum skrefin við að stofna verk með samþættum verkhlutum og áætlunarlínum. Eftirfarandi ferli sýnir hvernig á að framkvæma skrefin handvirkt. Til að sjá dæmi um hvernig á að búa til starf handvirkt skal fara í [Myndband: Hvernig á að stofna verk Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
-Stundum er sá aðili sem tekur á móti þjónustu annar en sá aðili sem er að greiða reikninginn. **Á síðunni vinnslur** er hægt að tilgreina viðskiptamanninn sem mun njóta góðs af verkinu í **reitunum Selt-til** og aðila sem á að reikningsfæra í **reitunum Reikn**. Einnig má veita eftirfarandi upplýsingar: 
+Stundum er sá aðili sem fær þjónustuna annar en aðilinn sem borgar reikninginn. Á síðunni **Störf** er hægt að tilgreina viðskiptamanninn sem mun njóta góðs af verkinu í reitunum **Selt-til** og aðilann sem á að reikningsfæra í reitnum **Reikningsfæra á**. Einnig er hægt að útvega eftirfarandi upplýsingar: 
 
-* Þar sem vinnan mun gerast með því að velja úr lista yfir Aðsetur sendist á viðskiptamanninn.
+* Þar sem vinnan mun gerast með því að velja úr lista yfir sendist til aðsetur fyrir viðskiptamanninn.
 * Bæta við upplýsingum um ytri tilvísanir til að einfalda samskipti um verkefnið.
-* Skrifa yfir staðlaða fjárhagslega skilmála verksins.
+* Skrifaðu yfir stöðluðu fjármálaskilmála verksins.
 
 ## <a name="to-create-a-job-card"></a>Til að stofna verkspjald
 
@@ -45,7 +45,7 @@ Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur
 > [!NOTE]  
 > Ef vinnuskýrslur eru notaðar í verkinu þarf einnig að tilnefna ábyrgan aðila. Einstaklingurinn getur samþykkt vinnuskýrslur fyrir starfsmannaverkefni sem tengjast verkinu. Frekari upplýsingar eru í [Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md).
 
-Einnig er augljóst að merkja skal aðgerðir í verki sem lokað er með því að **nota lokað** svæði. í eftirfarandi töflu er lýst hvaða áhrif Valkostirnir hafa fyrir þennan reit.
+Merkja má aðgerðir sem útilokaðar með því að nota reitinn **Útilokað**. eftirfarandi tafla lýsir áhrif valkostanna fyrir þessa reiti.
 
 |Valkostur  |Lýsing  |
 |---------|---------|
@@ -55,7 +55,7 @@ Einnig er augljóst að merkja skal aðgerðir í verki sem lokað er með því
 
 ## <a name="to-create-tasks-for-a-job"></a>Til að búa til verkhluta fyrir verk
 
-Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur í sér. Verkefnum er tilgreint með því að stofna eina línu fyrir hvert verk á **fastflipanum** verk á **síðunni vinnsluspjald**. Hvert verk verður að hafa að minnsta kosti einn verkhluta.
+Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur í sér. Þú tilgreinir verk með því að stofna eina línu á verk í flýtiflipanum **Verk** á síðunni **Verkspjald**. Hvert verk verður að hafa að minnsta kosti einn verkhluta.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.
 2. Opnið verkspjaldið fyrir viðeigandi verk.
@@ -66,18 +66,18 @@ Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur 
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Til að stofna verkáætlunarlínu fyrir verk
 
-Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Í áætlunarlínu er hægt að fanga upplýsingarnar sem á að rekja fyrir vinnslu. Til dæmis er hægt að rekja tilföng sem vinnslan krefst, eða þær vörur sem þörf er á. Til dæmis er verkefni að fá viðskiptavin til að samþykkja vinnu. Verkið er tengt við áætlunarlínur fyrir vörur eins og að hitta viðskiptavininn og úthluta forða.  
+Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Áætlunarlína getur sótt upplýsingarnar sem á að rekja fyrir verk. Til dæmis er hægt að rekja tilföngin sem verkið krefst eða vörurnar sem þarf. Til dæmis gætirðu verið með verk sem snýst um að fá viðskiptamann til að samþykkja vinnu. Þú tengir verkið vði áætlunarlínur fyrir vörur eins og að hitta viðskiptamanninn og úthluta tilfangi.  
 
 Áætlunarlína getur verið ein af eftirfarandi tegundum.  
 
 | Gerð | Lýsing |
 | --- | --- |
-| **Fjárhagsáætlun** |Sýnir áætlaða notkun og kostnað við verkið, yfirleitt í verkefni af tíma- og efnisgerð. Ekki er hægt að reikningsfæra áætlunarlínur af þessari gerð. |
+| **Fjárhagsáætlun** |Sýnir áætlaða notkun og kostnað við verkið, yfirleitt í verkefni af tíma- og efnisgerð. Áætlunarlínur af þessari gerð er ekki hægt að reikningsfæra. |
 | **Reikningshæft** |Sýnir áætlaða reikningsfærslu til viðskiptamanns, yfirleitt í verkefni með fast verð. |
 | **Bæði fjárhagsáætlun og reikningshæft** |Sýnir áætlaða notkun sem jafngildir því sem á að reikningsfæra. |
 
 > [!NOTE]
-> Þegar upplýsingar um verkáætlunarlínur eru færðar inn eru kostnaðarupplýsingar sjálfkrafa fylltar inn. Til dæmis er kostnaður, verð og afsláttur fyrir aðföng og vörur samkvæmt upplýsingum úr forðagæsinni og vöru. 
+> Þegar upplýsingar um verkáætlunarlínur eru færðar inn eru kostnaðarupplýsingar fylltar út sjálfkrafa. Sem dæmi má taka að kostnaður, verð og afsláttur tilfanga og vara byggir á upplýsingum frá tilfanginu og vörunni. 
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.
 2. Opnið viðeigandi verkspjald.
@@ -85,7 +85,7 @@ Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Í áætlu
 4. Á síðunni **Verkáætlunarlínur** skal fylla út reitina eins og þörf krefur í nýrri línu.
 5. Endurtakið skref 3 og 4 fyrir allar verkhlutalínur sem þarf fyrir verkhlutann.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-new-job/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-new-job/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -94,7 +94,7 @@ Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Í áætlu
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

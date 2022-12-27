@@ -12,7 +12,7 @@ metadata:
   ms.author: mikebc
   ms.openlocfilehash: ff5b79e1aeb7954712dc624cef9a6bbaf486279f
   ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: is-IS
   ms.lasthandoff: 09/30/2022
   ms.locfileid: "9607635"
@@ -35,19 +35,19 @@ sections:
       Nokkrar ástæður geta verið fyrir því að geta ekki séð táknið fyrir vistun og valmyndina ásamt yfirlitum á afmörkunarsvæðinu.
 
 
-      Ein ástæðan gæti verið sú að sérstilling er ekki virk fyrir notandahlutverkið þitt. Í því tilviki er enn fremur aðgangur að kerfisskoðunum sem er Staðlaður hluti af síðunum. Hægt er að breyta þessum yfirlitum, t.d. með því að breyta eða bæta við síum. Þú bara getur ekki vistað breytingarnar. Önnur ástæða gæti verið sú að síðan sem þú ert að skoða er síða af gerðinni *vinnublað* en &mdash;ekki listi.
+      Ein ástæðan gæti verið sú að sérstilling er ekki virk fyrir notandahlutverkið þitt. Í slíku tilfelli ertu enn með aðgang að kerfisyfirlitum sem eru staðlaður hluti síðanna. Hægt er að breyta þessum yfirlitum, t.d. með því að breyta eða bæta við síum. Þú bara getur ekki vistað breytingarnar. Önnur ástæða gæti verið sú að síðan sem þú ert að skoða er síða af gerðinni *vinnublað* en &mdash;ekki listi.
   - question: >
       Á hvaða síðugerðum get ég notað listayfirlit?
     answer: >
       Yfirlit eru aðeins í boði á listasíðum.
   - question: >
-      Hvernig veit ég hvort ég er á lista tegund síðu?
+      Hvernig veit ég hvort ég er á síðu sem er listasíða?
     answer: >
       Notaðu síðueftirlitið. Til að opna síðueftirlit skal ýta á Ctrl+Alt+F1. Því næst skal í reitnum **Síða** leita að orðinu **Listi** í sviganum í lokin.
   - question: >
       Eru yfirlit einnig tiltæk á öðrum formeiginleikum?
     answer: >
-      Já. Allar skoðanir sem þú vistar á skjáborðskoðara eða Desktop-App verða einnig tiltækar á töflu, smartphone eða í innfelldri tölvu Microsoft Teams. Ekki er hægt að breyta eða sérsníða yfirlit í fartækjum.
+      Já. Öll yfirlit sem þú vistar í vafra skjáborðsins eða skjáborðsforritið verða einni í boði í spjaldtölva, snjallsíma eða þegar innfellt í Microsoft Teams. Ekki er hægt að breyta eða sérsníða yfirlit í fartækjum.
   - question: >
       Eru persónuleg yfirlit mín alltaf aðgengileg?
     answer: >
@@ -63,7 +63,7 @@ sections:
   - question: >
       Hvernig deili ég yfirliti mínu með öðrum?
     answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á að deila nákvæmu listayfirliti. En hægt er að deila núverandi síum þannig að aðrir notendur geti séð sams konar lista yfir færslur. Í vefbiðlara Viðskiptamiðunar er hægt að velja Yfirlit Notaðu **síðan aðgerðina afrita tengil** til að afrita slóðina á klemmuspjaldið. Afritaðu bara SLÓÐINA og Deildu henni með samstarfsmönnum þínum. Ekki er tryggt að samnýting á síum gefi viðtakandanum sömu síur og þú sérð í vafranum þínum.
+      [!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á að deila nákvæmu listayfirliti. En hægt er að deila núverandi síum þannig að aðrir notendur geti séð sams konar lista yfir færslur. Í vefbiðlara Business Central skal velja yfirlit og síðan nota eiginleikann **Afrita tengil** til að afrita vefslóðin á klippiborðið. afritaðu bara vefslóðina og deildu henni með samstarfsmönnum þínum. Ekki er tryggt að samnýting á síum gefi viðtakandanum sömu síur og þú sérð í vafranum þínum.
   - question: >
       Get ég leitað að yfirlitum í glugganum „Viðmótsleit“?
     answer: >
@@ -88,9 +88,9 @@ sections:
       Yfirlitin sem birtast á öllum listum eru samandregin persónuleg yfirlit þín ásamt kerfisskoðunum. Kerfisyfirlit kunna að koma úr viðskiptaforritinu, úr viðbótum eða kunna að vera sértæk ef listinn var sérsniðinn fyrir hlutverkið þitt.
   - question: >
       Hvers vegna eru sum yfirlit með færri valkosti?
-    answer: "Sum yfirlit bjóða aðeins upp á valkostinn að vista afrit af yfirlitinu, á meðan aðrir leyfa ekki að breytingar á yfirlitinu séu vistaðar. Það hvernig yfirlitið var búið til ákvarðar valmöguleikana sem eru tiltækir fyrir það yfirlit. Hægt er að búa til yfirlit á marga vegu:\n\n- Persónuleg yfirlit sem þú vistaðir\n- Kerfisyfirlit sem eru staðlaður hluti viðskiptaforrits, eða bætt við af viðbótum eða hlutverkatilgreindum yfirlitum. Ólíkt persónulegum yfirlitum er ekki hægt að vista breytingar á síum aftur í það kerfisyfirlit.\n- Eldri kerfisyfirlit sem eru staðlaður hluti viðskiptaforrits en voru stofnuð með eldri útgáfum af [!INCLUDE[prod_short](includes/prod_short.md)]. Þessi yfirlit bjóða upp á færri valkosti. Aðeins er hægt að vista þau sem nýtt yfirlit og ekki er hægt að fela þau eða endurraða þeim. Ekki verður boðið upp á eldri kerfisyfirlit við uppfærslu í framtíðinni á [!INCLUDE[prod_short](includes/prod_short.md)].\n\n> [!NOTE]\n> Byrjað er með Business Central 2023 2, eldri Yfirlit verða ekki lengur studd og birtast ekki á listasíðunni. Lærðu tæknilegar upplýsingar um hvernig hönnuðir geta flutt sig yfir á nútíma listsýningar [til að yfirfæra frá gömlum skoðunum til nútímahorfs](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). \n"
+    answer: "Sum yfirlit bjóða aðeins upp á valkostinn að vista afrit af yfirlitinu, á meðan aðrir leyfa ekki að breytingar á yfirlitinu séu vistaðar. Það hvernig yfirlitið var búið til ákvarðar valmöguleikana sem eru tiltækir fyrir það yfirlit. Hægt er að búa til yfirlit á marga vegu:\n\n- Persónuleg yfirlit sem þú vistaðir\n- Kerfisyfirlit sem eru staðlaður hluti viðskiptaforrits, eða bætt við af viðbótum eða hlutverkatilgreindum yfirlitum. Ólíkt persónulegum yfirlitum er ekki hægt að vista breytingar á síum aftur í það kerfisyfirlit.\n- Eldri kerfisyfirlit sem eru staðlaður hluti viðskiptaforrits en voru stofnuð með eldri útgáfum af [!INCLUDE[prod_short](includes/prod_short.md)]. Þessi yfirlit bjóða upp á færri valkosti. Aðeins er hægt að vista þau sem nýtt yfirlit og ekki er hægt að fela þau eða endurraða þeim. Ekki verður boðið upp á eldri kerfisyfirlit við uppfærslu í framtíðinni á [!INCLUDE[prod_short](includes/prod_short.md)].\n\n> [!NOTE]\n> Frá og með Business Central 2023 útgáfutímabili 2 verða eldri yfirlit ekki lengur studd og ekki sýnd á listasíðunni. Kynntu þér tæknilegar upplýsingar um hvernig þróunaraðilar geta flutt yfir í nútímalegri listayfirlit í [Flutningur úr eldra yfirliti og yfir í nútímalegri yfirlit](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). \n"
   - question: >
-      Hvernig fæ ég eldri takmarkanir á eldri kerfissjónarmið?
+      Hvernig get ég komist hjá takmörkunum eldri kerfisyfirlita?
     answer: >
       Eldri kerfisyfirlit eru listayfirlit sem þróunaraðilar hafa stofnað í eldri útgáfum af [!INCLUDE[prod_short](includes/prod_short.md)] með því að setja þær á síðuna Mitt hlutverk. Þessi yfirlit eru nú birt beint á listasíðunni en bjóða upp á færri sérstillingar og færri valmöguleika. Hægt er að breyta eldra kerfisyfirliti í persónulegt yfirlit sem er fullkomlega sérstillanlegt, einfaldlega með því að vista það sem eldra yfirlit. Á sama hátt geta stjórnendur valið að umbreyta eldri kerfisyfirlitum sem bundin eru við tiltekin hlutverk með því að sérsníða notandahlutverkið og vista eldri yfirlitið sem nýtt yfirlit yfir hlutverkaleik.
 

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: margoc
 ms.openlocfilehash: 60fc44ff10b762c3cba9bbae2447982214b34e24
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9535129"
@@ -22,7 +22,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 
 | Efni     | Description    | Snið                                | Lengd              |
 |-------------|----------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Aðeins fyrir samstarfsaðila) Þessi lota gerir grein fyrir gildi Business Central. Miðborg býður upp á frábær gildi þar sem hún er samþætt við aðra þjónustu í Microsoft, þar á meðal Microsoft 365 og hægt er að aðlaga eða útvíkkað fyrir sérstakar þarfir Power Apps iðnaðar, Power Automate og Power BI. | Myndband                                 | 8 mínútur 5 sekúndur |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Aðeins fyrir samstarfsaðila) Þessi lota gerir grein fyrir gildi Business Central. Business Central er sérlega gagnlegt vegna þess að það er samþættast við aðra skýjaþjónustu Microsoft, þ.m.t. Microsoft 365 og hægt er að sérsníða það eða stækka fyrir tilteknar þarfir í iðnaði með Power Apps, Power Automate og Power BI. | Myndband                                 | 8 mínútur 5 sekúndur |
 | [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/) | Skoða Dynamics 365 Business Central möguleika    | Vefsvæði    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | Þessi eining sýnir eiginleika forrita, ávinning og dæmi um Dynamics 365 Business Central í aðgerð.    | Ókeypis námsleið á netinu á eigin hraða | 24 mínútur          |
 
@@ -30,9 +30,9 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 
 | Efni   | Description   | Snið                                | Lengd              |
 |-----------|---------------|---------------------------------------|---------------------|
-| [Byrjaðu með Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/)                          | Hefur þú áhuga á Business Central? Ef svo er þá veitir þessi námsleið góða kynningu. Hún fjallar um hvernig á að setja upp prufuútgáfu, veitir grunnupplýsingar um það sem er í boði og sýnir sérsniðna valkosti sem hægt er að gera til að sérsníða Business Central fyrir þína eigin notkun.          | Ókeypis námsleið á netinu á eigin hraða | 3 klukkustundir 4 mínútur   |
-| [Vinna með notendaviðmót Microsoft Dynamics 365 Business Central](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Viltu þér notendaviðmótið fyrir Business Central? Þessi námsleið sýnir þér notandaviðmótið og einnig hvernig þú getur sérsniðið það. Þar er einnig fjallað um önnur viðmót á borð við snjallsíma.    | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur  |
-| [Vinna eins og Atvinnumaður með gögn í viðskipta-seðlabankar](/training/paths/work-pro-data-dynamics-365-business-central) | Ertu rétt að byrja að nota Business Central? Þessi námsbraut mun hjálpa þér að undirbúa þig fyrir gagnagerðir Business Central og hvernig hægt er að finna upplýsingar sem þú þarft í forritinu.      | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur  |
+| [Hafist handa í Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/)                          | Hefur þú áhuga á Business Central? Ef svo er þá veitir þessi námsleið góða kynningu. Hún fjallar um hvernig á að setja upp prufuútgáfu, veitir grunnupplýsingar um það sem er í boði og sýnir sérsniðna valkosti sem hægt er að gera til að sérsníða Business Central fyrir þína eigin notkun.          | Ókeypis námsleið á netinu á eigin hraða | 3 klukkustundir 4 mínútur   |
+| [Vinna með Microsoft Dynamics 365 Business Central notendaviðmót](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Viltu þér notendaviðmótið fyrir Business Central? Þessi námsleið sýnir þér notandaviðmótið og einnig hvernig þú getur sérsniðið það. Þar er einnig fjallað um önnur viðmót á borð við snjallsíma.    | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur  |
+| [Sýndu fagleg vinnubrögð með gögnum í Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Ertu rétt að byrja að nota Business Central? Þessi námsbraut mun hjálpa þér að undirbúa þig fyrir gagnagerðir Business Central og hvernig hægt er að finna upplýsingar sem þú þarft í forritinu.      | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur  |
 | [Spilunarlisti Business Central YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube lendingarsíða fyrir Dynamics 365 Business Central-myndbönd  | YouTube Myndbönd  |                     |
 
 ## <a name="grow-your-business"></a>Stækkaðu fyrirtækið þitt<a name="grow"></a>

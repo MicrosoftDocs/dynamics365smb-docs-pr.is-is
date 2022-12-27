@@ -11,7 +11,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: 49cc2e9c461974dcdb6fa0612aa9abc11629bd9b
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8523424"
@@ -36,7 +36,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Nota aðgerðir sérstaks kostnaðar fyrir hversdagslegar vörufærslur í vöruaðgerðum.|[Meðhöndla birgða- og framleiðslukostnað](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Reglulega verður að uppfæra staðlað kostnaðarverð íhluta, í samsetningu eða framleiðsluuppskrift, og leggja nýja kostnaðinn saman við yfirvöruna.|[Uppfæra staðlaðan kostnað](finance-how-to-update-standard-costs.md)|
 |Skoða og breyta handvirkt tilteknum birgðajöfnunarfærslum sem eru stofnaðar sjálfkrafa við birgðafærslur.|[Fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)|
-|Stjórna framkvæmd í lok tímabils og búa til skýrslur um verk, t.d. að reikna út virði birgða og bóka kostnað í færslubók.|[Skýrslukostnaður og afstemmingar við fjárhag](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
+|Stjórna framkvæmd í lok tímabils og búa til skýrslur um verk, t.d. að reikna út virði birgða og bóka kostnað í færslubók.|[Tilkynna kostnað og afstemma við fjárhag](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Kynntu þér hvernig þú getur notað verkröðina til að færa verkin til að leiðrétta birgðakostnað eða afstemma hann við fjárhag í bakgrunni.|[Leiðrétta og afstemma birgðakostnað í fjárhag með verkröð](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Sjá einnig  
@@ -44,7 +44,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
  [Birgðir](inventory-manage-inventory.md)   
  [Sala](sales-manage-sales.md)   
  [Innkaup](purchasing-manage-purchasing.md)  
- [Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

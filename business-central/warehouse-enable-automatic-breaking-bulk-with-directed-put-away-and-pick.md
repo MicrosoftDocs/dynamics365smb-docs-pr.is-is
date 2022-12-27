@@ -1,6 +1,6 @@
 ---
 title: Einingaskipti með beinum frágangi og tínslu
-description: Lærðu hvernig á að gera sjálfvirka rofa magnaða með beinan frágang og tínslu, ásamt rofbulgi í tínslum, frágangi, hreyfingum og fleiru.
+description: Kynntu þér hvernig á að virkja sjálfvirk einingaskipti með beinum frágangi og tínslu ásamt því að einingaskipta í tínslum, frágangi, hreyfingum og fleira.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -12,36 +12,36 @@ ms.date: 11/04/2022
 ms.author: bholtorf
 ms.openlocfilehash: d5e8ab6f0e60ab8874669c7e5127411acc58957b
 ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/04/2022
 ms.locfileid: "9744678"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Virkja sjálfvirk einingaskipti með beinum frágangi og tínslu
 
-Fyrir staðsetningar sem nota beinan frágang og tínslu er [!INCLUDE[prod_short](includes/prod_short.md)] hægt að rjúfa stærri mælieiningar í smærri mælieiningum þegar það stofnar vöruhúsaleiðbeiningar fyrir upprunaskjöl, framleiðslupantanir eða innri tínslur og frágang. Einingaskiptafjöldi getur einnig þýtt að safna vörum í smærri mælieiningar til að jafna út magn stærri mælieininga á upprunaskjali eða framleiðslupöntun.
+Fyrir birgðageymslur sem nota beinan frágang og tínslu getur [!INCLUDE[prod_short](includes/prod_short.md)] skipt stærri mælieiningum niður í smærri mælieiningar þegar stofnaðar eru vöruhúsaleiðbeiningar fyrir upprunaskjöl, framleiðslupantanir eða innri tínslu og frágang. Að einingaskipta getur einnig þýtt að safna saman vörum í smærri mælieiningum sem jafngilda magni stærri mælieiningar í upprunaskjali eða framleiðslupöntun.
 
-## <a name="breakbulk-in-picks"></a>Einingamagn í pallbílum  
+## <a name="breakbulk-in-picks"></a>Einingaskipti í tínslum  
 
-Ef geyma á vörur í nokkrum mismunandi mælieiningum á stað og leyfa þeim að vera sjálfkrafa sameinaðar í tiltektarferlinu skal kveikja á **Einingaskiptalaginu** á birgðageymsluspjaldinu. Eftir á til að uppfylla verk [!INCLUDE [prod_short](includes/prod_short.md)] verður að leita að vöru í sömu mælieiningu. Ef hann finnur ekki einn, [!INCLUDE [prod_short](includes/prod_short.md)] stingur upp á að þú brjóir stærri mælieiningu inn á mælieininguna sem er nauðsynleg.  
+Ef þú vilt geyma vörur í nokkrum mismunandi mælieiningum í birgðageymslu og leyfa að sameina þær sjálfkrafa í tínsluferlinu skaltu kveikja á **Leyfa einingaskipti** í birgðageymsluspjaldinu. Eftir á, til að uppfylla verk mun [!INCLUDE [prod_short](includes/prod_short.md)] leita að vöru í sömu mælieiningunni. Ef ekkert finnst mun [!INCLUDE [prod_short](includes/prod_short.md)] stinga upp á því að skipta niður stærri mælieiningu í mælieiningu sem þarf.  
 
-Ef aðeins smærri mælieiningar eru tiltækar [!INCLUDE [prod_short](includes/prod_short.md)] verður að leggja til að vörum sé safnað til að uppfylla magnið í afhendingunni eða framleiðslupöntuninni. Í raun er stærri mælieiningunum á upprunaskjalinu í smærri einingar fyrir tínslu.  
+Ef aðeins smærri mælieiningar eru í boði mun [!INCLUDE [prod_short](includes/prod_short.md)] stinga upp á því að safna saman vörur til að uppfylla magnið í afhendingu eða framleiðslupöntun. Í raun er stærri mælieiningunum á upprunaskjalinu í smærri einingar fyrir tínslu.  
 
-## <a name="breakbulk-in-put-aways"></a>Einingafrágangur í frágangi  
+## <a name="breakbulk-in-put-aways"></a>Einingaskipti í frágangi  
 
-Í vöruhúsafrágangi er [!INCLUDE [prod_short](includes/prod_short.md)] lagt til stað aðgerðarlína í frágangsmælieiningunni. Til dæmis gæti hún stungið upp á stykkjum þó að vörurnar komi í aðra mælieiningu.  
+Í vöruhúsafrágangi stingur [!INCLUDE [prod_short](includes/prod_short.md)] upp á að setja aðgerðarlínur í mælieiningu frágangsins. Til dæmis gæti það stungið upp á stykkjum þótt vörurnar komi í annarri mælieiningu.  
 
-## <a name="breakbulk-in-movements"></a>Rofmagn í hreyfingum  
+## <a name="breakbulk-in-movements"></a>Einingaskipti í hreyfingum  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] Einnig er hægt að einingamagn í áfyllingarhreyfingum ef **einingaskipti** skipta á **síðunni reikna reikningsafáfyllingar** eru kveikt.  
+[!INCLUDE [prod_short](includes/prod_short.md)] getur einnig einingaskipt í áfyllingarhreyfingum ef kveikt er á **Leyfa einingaskipti** á síðunni **Reikna út áfyllingu hólfs**.  
 
 Hægt er að skoða niðurstöðu umreikninga úr einni mælieiningu í aðra í einingaskiptalínum í frágangs-, tínslu- eða hreyfingaleiðbeiningum.  
 
 > [!NOTE]  
-> Ef reiturinn **Einingaskiptaafmörkun** er valinn í haus vöruhúsaleiðbeininga mun forritið fela einingaskiptalínur þegar stærri mælieiningin mun verða notuð að fullu. Ef bretti eru 12 stykki og þú notar öll 12 stykkin velur tínslan þá að taka 1 bretti og setur 12 stykki. Ef hins vegar þarf að velja aðeins 9 stykki einingaskiptalínur eru ekki faldar þótt reiturinn einingaskiptaafmörkun **hafi verið valinn**. Línurnar eru ekki faldar því þá þarf að setja eftirstandandi þrjú stykki einhvers staðar í vöruhúsið.  
+> Ef reiturinn **Einingaskiptaafmörkun** er valinn í haus vöruhúsaleiðbeininga mun forritið fela einingaskiptalínur þegar stærri mælieiningin mun verða notuð að fullu. Ef til dæmis 12 stykki eru á bretti og nota á öll 12 stykkin mun tínslan þá benda þér á að taka 1 bretti og setja 12 stykki. Hins vegar, ef þú verður að tína aðeins 9 stykki eru einingaskiptu línurnar ekki faldar, jafnvel þótt þú hafir valið reitinn **Sía einingaskipta**. Línurnar eru ekki faldar því þú verður að setja hin þrjú stykkin einhvers staðar í vöruhúsið.  
 
 > [!NOTE]  
-> Ef mælieiningarnar eiga að vera ákjósanlega í vöruhúsinu, einnig í tengslum við rofmagn, ætti að reyna að:  
+> Ef þú vilt að mælieiningarnar virki sem best í vöruhúsinu, líka hvað varðar einingaskipti, ættirðu að reyna að:  
 >
 > - Setja upp grunnmælieiningu sem minnstu mælieininguna sem búist er við að unnið verði með í vöruhúsaferlum.  
 > - Setja upp aukamælieiningar fyrir vöruna sem er margfeldi af grunnmælieiningunni.  
@@ -50,10 +50,10 @@ Hægt er að skoða niðurstöðu umreikninga úr einni mælieiningu í aðra í
 
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md)
-[samsetningarstýring](assembly-assemble-items.md)
-[hönnunar upplýsingar: vöruhúsastjórnun](design-details-warehouse-management.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Uppsetning vöruhúsakerfis](warehouse-setup-warehouse.md) 
+[Samsetningarstjórnun](assembly-assemble-items.md)
+[Hönnunarupplýsingar: Vöruhúsakerfi](design-details-warehouse-management.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

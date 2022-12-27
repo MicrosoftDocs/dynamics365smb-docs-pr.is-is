@@ -11,7 +11,7 @@ ms.date: 06/22/2021
 ms.author: edupont
 ms.openlocfilehash: 0ac99e89d271a7511b400cda3498c94384e5d397
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8522773"
@@ -186,7 +186,7 @@ Hins vegar er Framleiðslubókin frábrugðin Notkunar- og Frálagsbókunum að 
 [Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Stuttir leiðarvísar Business Central
-description: Farðu upp og keyrum með viðskiptafræði Central með skjótum upphafsgreinum og ábendingum sem auðvelda þér að fylla á fyrstu Critical svæðin.
+description: Komdu þér í gang með Business Central með greinum um stutta leiðarvísa og ábendingar sem hjálpa þér að fylla út fyrstu mikilvægu reitina.
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
@@ -11,24 +11,24 @@ ms.date: 08/25/2022
 ms.author: edupont
 ms.openlocfilehash: 244062b9e8c9768da040f6635f61092a7e1e9770
 ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/23/2022
 ms.locfileid: "9585730"
 ---
 # <a name="business-central-quick-starts"></a>Stuttir leiðarvísar Business Central
 
-Snöggar upphafsgreinar hjálpa þér að koma þér upp fyrr svo þú getir byrjað að framkvæma grunnaðgerðir [!INCLUDE[prod_short](includes/prod_short.md)] sem þú þarft.
+Greinar um stutta leiðarvísa auðvelda þér að setja upp fyrr þannig að þú getir byrjað að nota [!INCLUDE[prod_short](includes/prod_short.md)] grunnaðgerðirnar sem þú þarft.
 
-Í eftirfarandi hlutum eru boðið upp á Byrjendanámskeið sem hjálpa þér að kynnast þeim eiginleikum sem þú þarft í [!INCLUDE[prod_short](includes/prod_short.md)]. Í hverri snöggræstu byrjun finnur þú tengla í ítarlegri efni um virkjunina, ættir að þurfa þess.
+Eftirfarandi hlutar bjóða upp á leiðarvísa fyrir byrjendur sem koma þér í kynni við eiginleikana sem þú þarft í [!INCLUDE[prod_short](includes/prod_short.md)]. Í hverjum leiðarvísi finnur þú tengla í ítarlegra efni um virknina ef þú þarft á því að halda.
 
 ## <a name="provide-basic-information-about-your-company"></a>Gefðu upp grunnupplýsingar um fyrirtækið þitt
 
-Fyrsta skrefið er að veita grunnupplýsingar um fyrirtækið þitt. Þar á meðal eru upplýsingar eins og heimilisfang, Bankareikningar, Virðisauki (númer virðisaukaskatts) o. s. frv. Þú munt finna það útskýrt í [fyrirtækinu upplýsingar Flýtistart](quick-start-company-information.md).
+Fyrsta skrefið er að veita grunnupplýsingar um fyrirtækið þitt. Þar á meðal eru upplýsingar um heimilisfang, bankareikninga, VSK-númer og svo framvegis. Þetta er útskýrt í [Stuttur leiðarvísir um fyrirtækjaupplýsingar](quick-start-company-information.md).
 
-## <a name="prepare-basic-financial-information"></a>Undirbúa grunn-fjárhagsupplýsingar
+## <a name="prepare-basic-financial-information"></a>Undirbúa grunnupplýsingar um fjármál
 
-Næst er komið að því að koma inn á fjárhagslegar upplýsingar fyrirtækisins svo þú sért tilbúinn til að stunda viðskipti. Innifalinn er notaður [!INCLUDE[prod_short](includes/prod_short.md)] bókhaldslyklar (COA) til að spara tíma. Og ef þörf er á er hægt að aðlaga það í örfáum skrefum með því að [fylgja Fjárhagsupplýsingunum snöggt í byrjun](quick-start-financial-information.md).
+Næst er komið að því að slá inn fjárhagsupplýsingar fyrirtækisins svo að allt sé til reiðu fyrir viðskipti. Notaðu bókhaldslykil sem fylgir [!INCLUDE[prod_short](includes/prod_short.md)] til að spara tíma. Og ef á þarf að halda er hægt að sérsníða hann í nokkrum skrefum með því fylgja [Stuttur leiðarvísir um fjárhagsupplýsingar](quick-start-financial-information.md).
 
 <!--
 ## Financial Basics
@@ -39,7 +39,7 @@ Financial Information
 
 ## <a name="print-reports-and-customize-documents"></a>Prenta skýrslur og sérsníða skjöl
 
-Lærðu að sérsníða og prenta skýrslur og skjöl, svo sem sölureikninga til að henta betur þörfum fyrirtækisins í [grunnskýrslum og Frálagsnögga skjala](quick-start-reports-and-documents.md).
+Kynntu þér hvernig hægt er að sérsníða og prenta skýrslur og skjöl á borð við sölureikninga til að falla betur að viðskiptaþörfum þínum í [Stuttur leiðarvísir um frálag grunnskýrslna og skjala](quick-start-reports-and-documents.md).
 
 <!-- Reports and Documents  
 (final reports, but also documents - how do I style invoices to work better for me?)
@@ -47,7 +47,7 @@ Lærðu að sérsníða og prenta skýrslur og skjöl, svo sem sölureikninga ti
 
 ## <a name="sell-products-and-services"></a>Selja vörur og þjónustu
 
-Komast fljótt upp og keyra selda vöru og þjónustu með því að [fylgja Flýtistart fyrir sölugrein](quick-start-sell-products-and-services.md).
+Komdu þér hratt í gang með því að selja vörur og þjónustu með því að fara eftir greininni [Stuttur leiðarvísir fyrir sölu](quick-start-sell-products-and-services.md).
 
 <!--
 (customer, items, things on stock or not, orders versus invoices, get paid on time, etc.)
@@ -55,15 +55,15 @@ Komast fljótt upp og keyra selda vöru og þjónustu með því að [fylgja Fl�
 
 ## <a name="buy-products-and-services"></a>Kaupa vörur og þjónustu
 
-Lærðu að kaupa vörur og þjónustu í [Flýtistart fyrir innkaupagrein](quick-start-procurement.md).  
+Kynntu þér hvernig á að kaupa vörur og þjónustu í greininni [Stuttur leiðarvísir fyrir innkaup](quick-start-procurement.md).  
 
 <!--
 (buy stuff, register in inventory, pay vendor)
 -->
 
-## <a name="understand-your-company-with-business-intelligence"></a>Skilningur fyrirtækisins með viðskiptagreind
+## <a name="understand-your-company-with-business-intelligence"></a>Fáðu skilning á fyrirtækinu þínu með viðskiptagreind
 
-Umbreyta viðskipagögnum þínum í verðmæta innsýn með verkfærunum sem voru sýnd í [Viðskiptagreindarflýtibyrjun](quick-start-business-intelligence.md).
+Umbreyttu viðskiptagögnum þínum í verðmæta innsýn með því að nota verkfærin sem sýnd eru í [Stuttur leiðarvísir um viðskiptagreind](quick-start-business-intelligence.md).
 
 <!--
 Business Intelligence  

@@ -1,5 +1,5 @@
 ---
-title: Kostnaðaraðferðir við hönnun lýsingar
+title: 'Hönnunarupplýsingar: Aðferð kostn.útreiknings'
 description: Í þessu efnisatriði er því lýst hvernig aðferð við kostnaðarútreikning hefur áhrif á það hvort raunverulegt og áætlað virði nýtist og sé notað við kostnaðarútreikning.
 author: bholtorf
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 03/24/2022
 ms.author: bholtorf
 ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8519805"
@@ -35,7 +35,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[prod_short](includes/prod_short
 
 Á meðfylgjandi mynd sést kostnaðarflæði gegnum birgðir fyrir hverja kostnaðarmatsaðferð.  
 
-![Sjónaraðferðir kostnaðarútreiknings.](media/design_details_inventory_costing_7_costing_methods.png "Sjónaraðferðir kostnaðarútreiknings")  
+![Myndræn framsetning kostnaðarútreiknings.](media/design_details_inventory_costing_7_costing_methods.png "Myndræn framsetning kostnaðarútreikninga")  
 
 Aðferð kostnaðarútreiknings eru mismunandi í því hvernig þeir meta birgðaminnkun og hvort þær nota raunkostnað eða staðalkostnað vörubirgðir sem grunn matsins. Eftirfarandi tafla útskýrir mismunandi einkenni. (LIFO-aðferðin er útilokuð þar sem hún er mjög svipuð FIFO-aðferðinni.)  
 

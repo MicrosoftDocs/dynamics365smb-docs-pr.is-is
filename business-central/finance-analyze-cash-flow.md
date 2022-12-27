@@ -1,5 +1,5 @@
 ---
-title: Greining sjóðstreymis
+title: Greina sjóðsstreymi
 description: Lýsir hvernig á að nota feril bundins reiðufés, tekjur og útgjöld, sjóðstreymi og sjóðstreymisspá myndrit til að greina fortíð og framtíð streymi peninga inn og út úr fyrirtækinu þínu.
 author: brentholtorf
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 12/20/2021
 ms.author: bholtorf
 ms.openlocfilehash: c0625964c396611a46575af8aee11da2144e3194
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9529272"
@@ -48,14 +48,14 @@ Ef þú vilt skoða spáina, auk þess að spá færslum, geturðu einnig skoða
 2. Veldu sjóðstreymisspá, og veldu síðan **Sjóðstreymisvinnublað**.  
 3. Í á **Sjóður Flæði Vinnublað** síðunni, velja sem **Vinnublað Tillögulínur** aðgerð.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning Fjármála](finance-setup-finance.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md)  
-[Spáð sjóðstreymi í Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)  
-[Setja upp sjóðstreymisspár með Azure AI í Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)  
+[Spáðu fyrir um sjóðstreymið í Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Setja upp sjóðstreymisspár með Azure-gervigreind í Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

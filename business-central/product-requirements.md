@@ -11,7 +11,7 @@ ms.date: 08/23/2022
 ms.author: jswymer
 ms.openlocfilehash: 34fc581e0140826e957b50b649d3b72573403552
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9607689"
@@ -22,24 +22,24 @@ ms.locfileid: "9607689"
 
 ## <a name="browsers"></a>Vafrar
 
-**Microsoft Edge:**[!INCLUDE[prod_short](includes/prod_short.md)] er ætlað að vinna með gildandi útgáfu af Microsoft Edge.
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.
   
 **Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra.
  
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Safari á OSX.  
 
 > [!TIP]
-> Setja skal [!INCLUDE[prod_short](includes/prod_short.md)][upp app á ræsivalmyndinni](install-desktop-app.md#install-the-app-for-business-central-online) með Microsoft Edge vafrunum eða Chrome-vafra.
+> Settu upp [!INCLUDE[prod_short](includes/prod_short.md)] [forritið í upphafsvalmyndinni](install-desktop-app.md#install-the-app-for-business-central-online) með Microsoft Edge eða Chrome-vafra.
 
 ## <a name="mobile-devices"></a>Fartæki
 
-**Android(Tablet og Phone):** Ein af nýjustu þremur stærstu stýrikerfisútgáfunum og uppfærslur þeirra.
+**Android (spjaldtölva og sími):** Ein af síðustu þremur stóru stýrikerfisútgáfunum og uppfærslur þeirra.
 
-**iOS (iPad og iPhone):** Ein af nýjustu þremur stærstu stýrikerfi útgáfu og uppfærslum þeirra.
+**iOS (iPad og iPhone):** Ein af síðustu þremur stóru stýrikerfisútgáfunum og uppfærslur þeirra.
 
 ## <a name="outlook"></a>Outlook
 
-**Outlook-forrit:** Til að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2019 eða nýrra, Outlook á netinu, Outlook fyrir iOS, Outlook fyrir eða Outlook fyrir Android. Fyrirtækið verður einnig að nota Microsoft 365. Ekki er hægt að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum. 
+**Outlook-forrit:** Til að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2019 eða nýrra, Outlook á netinu, Outlook fyrir iOS, Outlook fyrir eða Outlook fyrir Android. Fyrirtækið þitt verður einnig að nota Microsoft 365. Ekki er hægt að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum. 
 
 **Vafrar:** Þegar [!INCLUDE[prod_short](includes/prod_short.md)] er notað sem fyrirtækisinnhólf í Outlook í vafra krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein.
 
@@ -51,9 +51,9 @@ ms.locfileid: "9607689"
 
 **Vafrarnir:** Þegar [!INCLUDE[prod_short](includes/prod_short.md)] forritið er notað fyrir Teams í vafranum (vefbiðlara) krefst forritið þess að tölvan keyri einn af studdu vöfrum sem fram koma fyrr í þessari grein. 
 
-**Pallborðsumræður:** þegar þú notar [!INCLUDE[prod_short](includes/prod_short.md)] App í teymum fyrir IOS eða Android getur App krafist þess að Farsíminn þinn sé keyrður einn af studdum Hreyfanlegur pallbíla sem fram kemur fyrr í þessari grein.
+**Verkvangar:** Þegar [!INCLUDE[prod_short](includes/prod_short.md)] forritið er notað í Teams fyrir IOS eða Android krefst forritið þess að fartækið keyri einn af studdum fartækjaverkvöngum, sem koma fram fyrr í þessari grein.
 
-**Stuðningsáskrift:**[!INCLUDE[prod_short](includes/prod_short.md)] App fyrir hópana styður Microsoft 365 viðskipti og Enterprise áskriftir en ekki sjálfstæða teyma áskriftir eins og Microsoft Teams (Free) eða Microsoft Teams Essentials.
+**Studd áskrift:** [!INCLUDE[prod_short](includes/prod_short.md)] forritið fyrir Teams-notendaþjónustu Microsoft 365 Business- og Enterprise-áskriftir, en ekki sjálfstæðar Teams-áskriftr eins og Microsoft Teams (ókeypis) eða Microsoft Teams Essentials.
 
 ## <a name="excel"></a>Excel
 
@@ -68,17 +68,17 @@ Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af ef
 - Firefox fyrir Windows
 - Safari fyrir macOS
 
-## <a name="use-business-central-on-premises"></a>Nota Viðskiptamiðað innanhúss
+## <a name="use-business-central-on-premises"></a>Fyrir Business Central á staðnum
 
-Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Sjá [Kerfisþarfir fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) og [Yfirlit yfir](/dynamics365/business-central/dev-itpro/deployment/deployment) virkjun fyrir frekari upplýsingar.  
+Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Frekari upplýsingar er að finna í [Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) og [Yfirlit uppsetningar](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  
-[Fengið viðskipti miðlægt Desktop App](install-desktop-app.md)  
+[Sækja Business Central-skjáborðsforritið](install-desktop-app.md)  
 [Nota Business Central á fartækinu þínu](install-mobile-app.md)  
-[Umsjón með samskiptum fyrirtækja í Microsoft Outlook](admin-outlook.md)  
-[Rekstur miðsvæðis og Microsoft Teams Samþætting](across-teams-overview.md)  
+[Umsjón með Business-samskiptum í Microsoft Outlook](admin-outlook.md)  
+[Business Central og Microsoft Teams samþætting](across-teams-overview.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

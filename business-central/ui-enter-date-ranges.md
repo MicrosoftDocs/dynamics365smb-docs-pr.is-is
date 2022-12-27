@@ -12,20 +12,20 @@ ms.date: 06/23/2021
 ms.author: edupont
 ms.openlocfilehash: d3e060d5a6d3632dcade331cef7f2c9f0ecb4027
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534751"
 ---
-# <a name="work-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tímasetningar dagatals
+# <a name="work-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tíma í dagatali
 
-Hægt er að færa inn dagsetningar og tímasetningar á marga vegu. [!INCLUDE[prod_short](includes/prod_long.md)] inniheldur öfluga eiginleika sem flýta fyrir gagnafærslu eða hjálpa þér að skrifa flókna framsetningu dagatals. Það eru ýmsar staðir í forritinu þar sem þú getur slegið inn dagsetningar og tíma í reitum. Til dæmis, í sölupöntun, getur þú stillt afhendingardagsetningu. Við síun lista eða skýrslugagna er hægt að færa inn dagsetningar og tímasetningar til að aðeins að klína gögn sem þú hefur áhuga á.
+Hægt er að færa inn dagsetningar og tíma á marga vegu. [!INCLUDE[prod_short](includes/prod_long.md)] inniheldur öfluga eiginleika sem hraða gagnaskráningu eða hjálpa þér að skrifa flóknar segðir dagatals. Það eru ýmsar staðir í forritinu þar sem þú getur slegið inn dagsetningar og tíma í reitum. Til dæmis, í sölupöntun, getur þú stillt afhendingardagsetningu. Þegar verið er að afmarka lista eða skýrslugögn er hægt að slá inn dagsetningar og tíma til að staðsetja aðeins þau gögn sem þú hefur áhuga á.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="check-your-region-and-language-settings"></a>Athugaðu svæði og tungumálastillingar
 
-**Síðan stillingarnar mínar stillingar** tilgreina **svæði** og **tungumál** sem þú notar í forritinu. Þessar stillingar hafa áhrif á hvernig þú slærð inn dagsetningar og tíma.
+**Mínar stillingar** síðan tilgreinir **Svæði** og **Tungumál** sem þú notar í forritinu. Þessar stillingar hafa áhrif á hvernig þú slærð inn dagsetningar og tíma.
 
 - **Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir.
 
@@ -43,10 +43,10 @@ The following sections describe how you can enter dates, times, datetimes, durat
 Í dagsetningarreitinn getur þú slegið inn dagsetningu með því að nota staðlaða sniðið fyrir svæðisstillingu þína. Mismunandi svæði geta notað mismunandi skiltákn milli daga, mánaða og ára. Til dæmis, sum svæði nota bandstrik (mm-dd-áááá) og önnur nota áfram skástrik (mm/dd/áááá).  
 
 > [!TIP]
-> Hægt er að nota hvaða Skilrúm sem er, jafnvel bil, og dagsetningunni verður sjálfkrafa breytt til að nota skiltákn sem samsvara svæðinu þínu.
+> Þú getur notað hvaða skiltákn sem er, jafnvel bil, og dagsetningin verður sjálfkrafa breytt til að nota skiltákn sem passa við svæðið þitt.
 
 > [!NOTE]
-> Sniðið þar sem dagsetningarnar eru birtar í prentuðum skýrslum eða send skjöl eru ekki áhrif af eigin vali á svæðisstillingu.
+> Sniðið sem dagsetningar eru birtar á í prentuðum skýrslum eða skjölum sendum í tölvupósti eru ekki undir áhrifum af persónulegu vali þínu á svæðisstillingu.
 
 Til að vinna á afkastameiri hátt með dagsetningar og tíma geturðu notað eitthvað af þeim aðferðum eða sniði sem lýst er í eftirfarandi köflum.
 
@@ -60,9 +60,9 @@ Sjá einnig [Flýtilyklar í dagsetningarvali dagatals](keyboard-shortcuts.md#ca
 
 ### <a name="day-week-year-pattern"></a>Dagur\-vika\-ár mynstur
 
-Þú getur slegið inn dagsetningu sem vikudag og síðan vikunúmer og, ef þú vilt, ár. Til dæmis þýðir Mán25 eða mán25 mánudagur í viku 25. Ef ekki er fært inn ár er ár vinnudags notað.
+Þú getur slegið inn dagsetningu sem vikudag og síðan vikunúmer og, ef þú vilt, ár. Til dæmis þýðir Mán25 eða mán25 mánudagur í viku 25. Ef þú slærð ekki inn ár er ár vinnudagsetningar notað.
 
-Í stað þess að slá inn allt orðið fyrir vikudaginn getur þú slegið inn hluta af orðinu, með því að byrja á byrjuninni. Ef árekstrar verða (s.s. með s sem gæti verið Laugardagur eða Sunnudagur) eru Dagarnir metnir samkvæmt svæðastillingunni. Inntak er fyrst metið miðað við vinnudagsetningu og dag hvern, sem æskilegt er að hafa í huga við stykkja. _T.d. þýðir t_ þegar merkir í dag, svo það getur ekki átt við þriðjudaga eða fimmtudaga.
+Í stað þess að slá inn allt orðið fyrir vikudaginn getur þú slegið inn hluta af orðinu, með því að byrja á byrjuninni. Ef um er að ræða árekstur (eins og til dæmis f sem gæti verið fimmtudagur eða föstudagur) eru dagarnir metnir í samræmi við svæðisstillingu. Inntakið er fyrst metið með hliðsjón af vinnudegi og í dag líka, sem þú vilt hafa í huga við styttingu. Til dæmis þýðir _t_ „today“ og getur þar af leiðandi ekki þýtt „Tuesday“ eða „Thursday“.
 
 Vikunúmersskemað er alltaf ISO 8601, þar sem vika 1 er vikan sem inniheldur 4. janúar, eða vikan sem inniheldur fyrsta fimmtudag ársins.
 
@@ -70,38 +70,38 @@ Vikunúmersskemað er alltaf ISO 8601, þar sem vika 1 er vikan sem inniheldur 4
 
 Í dagsetningarreit má færa inn tvær, fjórar, sex eða átta tölur:
 
-- Ef aðeins eru færðar inn tveir tölustafir þá er túlkaður sem sá dagur og þá bætist við Mánuðurinn og árið sem vinnudagsetningin er.
+- Ef aðeins tvær tölur eru færðar inn þá túlkar kerfið þær sem daginn og bætir við mánuði og ári vinnudagsetningar.
 
-- Ef fjórir tölustafir eru færðir inn er túlkaður sem sá dagur og Mánuðurinn og þá bætist við ár vinnudagsins. Röð dags og mánaðar ræðst af svæðisstillingum þínum. Jafnvel þótt svæðisstillingar þínar séu með árið fyrir daginn og mánuðinn eru fjórir tölustafir túlkaðir sem dagur og mánuður.
+- Ef færðar eru inn fjórar tölur þá túlkar kerfið þær sem daginn og mánuðinn og bætir við ári vinnudagsetningar. Röð dags og mánaðar ræðst af svæðisstillingum þínum. Jafnvel þótt svæðisstillingar þínar séu með árið fyrir daginn og mánuðinn eru fjórir tölustafir túlkaðir sem dagur og mánuður.
 
 - Ef sú dagsetning sem færa á inn er á bilinu 01/01/1950 til 31/12/2049 má færa árið inn í tveimur tölum; annars skal færa árið inn með fjórum tölum.
 
   > [!NOTE]
-  > Ef þú ert að nota [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss gæti tveggja stafa ársviðssvið verið annað. Stjórnendur geta breytt sviðinu með því að **Breyta calendartwodigityearmax** stillingu [!INCLUDE[prod_short](includes/prod_short.md)] þjónsins. Fyrir frekari upplýsingar sjá [samskipa Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+  > Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum getur tveggja stafa árabilið verið mismunandi. Stjórnendur geta breytt bilinu með því að breyta stillingunni **CalendarTwoDigitYearMax** á [!INCLUDE[prod_short](includes/prod_short.md)] þjóninum. Frekari upplýsingar er að finna í [Skilgreining Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
 ### <a name="today"></a>Í dag
 
-Sláðu inn orðið fyrir _í dag_ á tungumálinu sem tilgreint er á síðunni **Mínar stillingar** til að stilla dagsetningu færslu á daginn í dag. Í stað þess að slá inn allt orðið geturðu slegið inn fyrsta hluta orðsins. Á ensku má til dæmis nefna _t_ eða _TOD_, svo framarlega sem það er ekki einnig upphaf annars orðs.
+Sláðu inn orðið fyrir _í dag_ á tungumálinu sem tilgreint er á síðunni **Mínar stillingar** til að stilla dagsetningu færslu á daginn í dag. Í stað þess að slá inn allt orðið geturðu slegið inn fyrsta hluta orðsins. Á ensku er t.d. hægt að slá inn _t_ eða _tod_ svo lengi sem það er ekki líka byrjunin á öðru orði.
 
 ### <a name="period"></a>Tímabili
 
-Til að sía á tilteknu fjárhagstímabili, sláðu inn í dagsetningarreit stafinn t, eða orðið tímabil, og síðan númer sem tilgreinir fjárhagstímabilið, t.d. t2 eða timabil4. Bókhaldstímabilið er miðað við fjárhagsár núverandi vinnudags sem er stillt í hlutverki þínu. Til dæmis, ef vinnudagsetningin er **03/21/22, þá** er P1 _, eða bara_ p _, afmarkanir á fyrsta bókhaldstímabili reikningsársins 2022 (s. 01/01/22.. 01/31_ /22). _P15_ á bókhaldstímabilinu 15 frá byrjun reikningsárs 2022 (s. 03/01/23.. 03/31/23).
+Til að sía á tilteknu fjárhagstímabili, sláðu inn í dagsetningarreit stafinn t, eða orðið tímabil, og síðan númer sem tilgreinir fjárhagstímabilið, t.d. t2 eða timabil4. Bókhaldstímabilið er miðað við fjárhagsár núverandi vinnudags sem er stillt í hlutverki þínu. Ef vinnudagur er til dæmis **03/21/22**, þá _p1_ eða aðeins _p_, síar á fyrsta fjárhagstímabili fjárhagsársins 2022 (eins og 01/01/22..01/31/22). _p15_ síar á fimmtánda fjárhagstímabilinu frá upphafi fjárhagsársins 2022 (eins og 01/03/23..31/03/23).
 
 Fjárhagstímabilin eru skilgreind á síðunni **Fjárhagstímabil**. Til að skoða eða breyta fjárhagstímabilum skaltu opna síðuna [hér](https://businesscentral.dynamics.com/?page=100).
 
 ### <a name="work-date"></a>Vinnudagsetning
 
-Nota vinnudagsetningu til að tilgreina dagsetningu sem er ekki dagsetning dagsins í færslum. Til dæmis er vinnudagsetning gagnleg þegar þú þarft að setja á ákveðna dagsetningu fyrir margar skrár. Þú tilgreinir vinnudagsetninguna á síðunni **Mínar stillingar**. 
+Notaðu vinnudagsetningu til að tilgreina dagsetningu sem er ekki dagurinn í dag í færslum. Til dæmis er vinnudagsetning gagnleg þegar þú þarft að setja á ákveðna dagsetningu fyrir margar skrár. Þú tilgreinir vinnudagsetninguna á síðunni **Mínar stillingar**. 
 
 Fljótleg leið til að slá inn vinnudagsetningu í skrár er að slá inn hluta orðsins eða allt orðið _vinnu_ og byrja á fyrsta stafnum á tungumálinu sem þú notar [!INCLUDE[prod_short](includes/prod_long.md)]. Á ensku er t.d. hægt að færa inn _w_ eða _work_. Tungumálið er einnig tilgreint á síðunni **Mínar stillingar**.
 
-Ef ekki hefur verið tilgreind Vinnudagsetning verður dagsetningin í dag notuð. Frekari upplýsingar eru í [Breyta grunnstillingum eins og vinnudagsetningu](ui-change-basic-settings.md#work-date).
+Ef engin vinnudagsetning hefur verið tilgreind verður dagurinn í dag notaður. Frekari upplýsingar eru í [Breyta grunnstillingum eins og vinnudagsetningu](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Lokunardagsetning
 
-Þegar reikningsári er lokað er hægt að nota lokunardagsetningu til að sýna að færsla sé lokunarfærsla. Lokunardagsetning tæknilega er á milli tveggja dagsetninga, til dæmis milli 31. desember og 1. janúar.
+Þegar reikningsári er lokað er hægt að nota lokunardagsetningu til að sýna að færsla sé lokunarfærsla. Lokunardagsetning er í raun milli tveggja dagsetninga, til dæmis 31. des. og 1. jan.
 
-Til að tilgreina að dagsetning sé lokadagsetning skaltu setja N rétt fyrir dagsetningu, svo sem N123101. Notaðu þetta snið ásamt öllum dagsetningarmynstrinu.
+Til að tilgreina að dagsetning sé lokadagsetning skaltu setja N rétt fyrir dagsetningu, svo sem N123101. Notaðu þetta snið saman með öllum dagsetningarmynstrunum.
 
 ### <a name="examples"></a>Dæmi
 
@@ -119,7 +119,7 @@ Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notu
 |1112|vinnudagsetningarár/11/12.|
 |d eða dagurinn í dag|dagurinn í dag|
 |t4|dagsetningabil sem felur í sér fjórða reikningstímabilið, svo sem 01/04/20..30/04/20|
-|V eða vinnudagsetningu|vinnudagsetningin|
+|v eða vinnudagsetning|vinnudagsetningin|
 |m eða mánudagur|Mánudagur vinnudagsetningarvikunnar|
 |þr eða þriðjudagur|Þriðjudagur vinnudagsetningarvikunnar|
 |la eða laugardagur|Laugardagur vinnudagsetningarvikunnar|
@@ -135,12 +135,12 @@ Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notu
 |**Merking**|**Dæmi um segð (dagsetning)**|**Gögn sem eru höfð með síunni**|
 |-----------|---------------------|--------------------|
 |Millibil|12 15 00..01 15 01<br /><br />..12 15 00<br /><br />t1..t4|Skrár með dagsetningar á milli og að meðtöldum 12 15 00 og 01 15 01.<br /><br />Færslur með dagsetningar 12 15 00 eða fyrr.<br /><br />Dagsetningabil sem inniheldur annað, þriðja og fjórða reikningstímabilið, svo sem 01/01/20..30/04/20.|
-|Annaðhvort eða|12 15 00\|12 16 00|Skrár með dagsetningar annaðhvort 12 15 00 eða 12 16 00. Ef það eru færslur með dagsetningum á báða dagana birtast þær allar.|
+|Annaðhvort eða|12 15 00\|12 16 00|Skrár með dagsetningar annaðhvort 12 15 00 eða 12 16 00. Ef til eru færslur með dagsetningar á báðum dögum verða þær allar birtar.|
 |Samsetning|12 15 00\|12 01 00..12 10 00  <br /><br />..12 14 00\|12 30 00..|Skrár með dagsetningar 12 15 00 eða á dagsetningum á milli og að meðtöldum 12 01 00 og 12 10 00.  <br /><br />Skrár með dagsetningar 12 14 00 eða fyrr, eða 12 30 00 eða síðar, það er, allar skrár nema þær sem eru með dagsetningar á milli og að meðtöldum 12 15 00 og 12 29 00.|
 
 Þú getur notað öll gild snið í síum dagsetningarbils. Til dæmis, mán14 3..t 4t beitt á reitarniðurstöður dagsetningartíma í síu frá kl. 03:00 á mánudag í viku 14 á núgildandi vinnudagsetningarári, innifalið, þar til í dag kl. 16:00, innifalið.
 
-## <a name="use-date-formulas"></a>Nota Dagsetningarformúlur
+## <a name="use-date-formulas"></a>Nota dagsetningarformúlur
 
 Dagsetningarregla er stutt, skammstöfuð samsetning stafa og tölustafa sem tilgreinir hvernig skal reikna út dagsetningar. Þú getur slegið inn dagsetningarformúlur í ýmsa reiknireiti fyrir dagsetningar eða síur.
 
@@ -175,7 +175,7 @@ Eftirfarandi dæmi sýnir hvernig á að nota N, fyrir núverandi, og tímaeinin
 |LV|Núverandi vika|
 |LM|Líðandi mánuður|
 
-Eftirfarandi dæmi sýnir hvernig á að nota tölueiningu og tíma. Tala má ekki vera stærri en 9999.
+Eftirfarandi dæmi sýnir hvernig á að nota tölueiningu og tíma. Tala getur ekki verið hærri en 9999.
 
 |  Segð  |  Merking  |
 |--------------|-----------|
@@ -294,7 +294,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 ## <a name="entering-times"></a>Tími færður inn
 
-Þegar tímasetningar eru færðar inn er hægt að setja inn skiltákn sem eru ekki fyrir rými sem eiga að vera á milli eininga. Ef notaðir eru tvöfaldir tölustafir fyrir hverja einingu upp að millisekúndum þá er það ekki áskilið.
+Þegar tímasetningar eru slegnar inn er hægt að setja inn hvaða skiltákn án bils sem er milli eininga. Ef notaðir eru tvöfaldir stafir fyrir hverja einingu fram að millisekúndum, þá er það ekki nauðsynlegt.
 
 Þú þarft aðeins að skrifa stærsta einingar sem þú þarfnast; restin verður stillt á núll. Þú getur einnig sleppt öllum f.h./e.h. vísum.
 
@@ -318,10 +318,10 @@ The following example shows how you can use a minus sign to indicate a date in t
 |053005050|05:30:05.05|
 
 > [!NOTE]
-> Millisekúndur eru túlkaðir sem tugabrottur. Til dæmis þýðir 3, 30 og 300 þýðir allt 300 millisekúndur, á meðan 03 þýðir 30 og 003 þýðir 3 millisekúndur.
+> Millisekúndur eru túlkaðar sem tugabrotstákn. Til dæmis þýðir 3, 30 og 300 þýðir allt 300 millisekúndur, á meðan 03 þýðir 30 og 003 þýðir 3 millisekúndur.
 
 > [!IMPORTANT]
-> Þú getur ekki notað 24:00 til að meina miðnætti, eða nota hvaða verðmæti sem er hærri en 24:00.
+> Ekki er hægt að nota 24:00 til að tákna miðnætti eða notað gildi sem er hærra en 24:00.
 
 Orðið fyrir „tími“ á tungumálinu sem notað er af [!INCLUDE[prod_short](includes/prod_long.md)] verður metið við núverandi tíma á tölvunni þinni eða fartækinu. Þú getur slegið inn hvaða hluta orðsins sem er, með því að byrja á byrjuninni, eins og til dæmis T eða TÍM.
 
@@ -346,11 +346,11 @@ Hér eru nokkur dæmi.
 
 Einnig er hægt að færa inn tölu og þá er henni sjálfkrafa breytt í tímalengd. Tölunni sem færð er inn er breytt samkvæmt sjálfgefnu mælieiningunni sem hefur verið tilgreind fyrir reitinn tímalengd.
 
-Til að sjá hvaða mælieiningu er verið að nota í reitnum tímalengd er ritað númer. Síðan er hægt að sjá hvaða mælieiningu það breytir.
+Hægt er að sjá hvaða mælieining er notuð í reitnum tímalengd með því að færa inn tölu. Síðan er hægt að sjá í hvaða mælieiningu hún er umreiknuð í.
 
 Ef mælieiningin er til dæmis klukkustund, er númerinu 5 breytt í 5 klukkustundir.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

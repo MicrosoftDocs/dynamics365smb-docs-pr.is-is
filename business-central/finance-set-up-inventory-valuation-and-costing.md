@@ -8,7 +8,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8520309"
@@ -44,7 +44,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Uppsetning bestu venjur: Aðferð kostnaðarútreiknings](setup-best-practices-costing-method.md)  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
 [Hönnunarupplýsingar: Breyta kostnaðarútreikningi fyrir vörur](design-details-changing-costing-methods.md)  
-[Vinna með Viðskiptaseðla-](ui-work-product.md)  
+[Vinna með Business Central](ui-work-product.md)  
 [Fjármál](finance.md)  
 
 

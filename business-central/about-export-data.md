@@ -1,6 +1,6 @@
 ---
-title: Flytja inn aðalgögn fyrirtækisins í Excel
-description: Hægt er að flytja út fjárhagsskýrslur og viðskiptagreindargögn úr viðskiptafræði miðlægt í Excel eða opna gögnin í Excel.
+title: Flyttu út Business Central gögnin þín í Excel
+description: Þú getur flutt út fjárhagsskýrslur og gögn um viðskiptagreind frá Business Central yfir í Excel, eða opnað gögnin í Excel.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
@@ -12,14 +12,14 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: adfb0a98f79f3e32656e6e9f6b95172e6a83dd39
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9529947"
 ---
-# <a name="export-your-business-data-to-excel"></a>Flytja Viðskipdata gögnin út í Excel
+# <a name="export-your-business-data-to-excel"></a>Flytja viðskiptagögn í Excel
 
-Excel er öflugt tæki til að vinna með gögn. Að innu [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að opna hvaða lista sem er í Excel. Jafnvel er hægt að breyta gögnum í Excel og senda þau svo aftur inn [!INCLUDE [prod_short](includes/prod_short.md)]. Sami hæfileiki auðveldar þér að taka gögnin með þér ef þú ákveður að hætta í áskrift.
+Excel er öflugt verkfæri til að vinna með gögn. Þar inni [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að opna hvaða lista sem er í Excel. Þú getur jafnvel breytt gögnum í Excel og sent þau svo aftur í [!INCLUDE [prod_short](includes/prod_short.md)]. Með sama möguleika er auðvelt að taka gögnin með sér ef þú ákveður að segja upp áskriftinni.
 
 ## <a name="opening-lists-in-excel"></a>Opnar lista í Excel
 
@@ -28,7 +28,7 @@ Hægt er að opna gögn í Excel úr hvaða færslubók, lista eða vinnublaði 
 > [!NOTE]
 > Notaðu þennan valkost þegar þú vilt ekki gera breytingar og birta þessar breytingar aftur í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Hver listi inniheldur nokkra dálka. Útflutningur í Excel felur í sér þá dálka sem eru í núverandi yfirliti. Dálkunum er breytt með því að opna flýtivalmynd fyrir hvaða dálk sem er og tilgreina síðan hvaða dálka á að skoða. Listinn yfir dálkana er mismunandi fyrir flesta lista. Dálkarnir endurspegla skipulagið í gagnagrunninum sem geymir gögnin þín. Ef þú ert ekki viss um hvaða gerð af gögnum tiltekinn dálkur inniheldur, bættu þá við yfirlitið þitt. Það er alltaf hægt að fjarlægja það aftur.  
+Hver listi inniheldur nokkra dálka. Útflutningur í Excel inniheldur alla dálka sem eru í núverandi yfirlit. Breyta dálkum með því að opna flýtivalmynd fyrir hvaða dálk sem er og tilgreina svo hvaða dálka á að sjá. Dálkalistinn er mismunandi fyrir flesta lista. Dálkarnir endurspegla uppbyggingu gagnagrunnsins sem geymir gögnin þín. Ef þú ert ekki viss um hvaða tegund gagna tiltekinn dálkur inniheldur skaltu bæta þeim við yfirlitið. Það er alltaf hægt að fjarlægja þá aftur.  
 
 ### <a name="edit-data-in-excel"></a>Breyta gögnum í Excel
 
@@ -38,7 +38,7 @@ Upplifun þín af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur innb
 
 Ef notandi ákveður að hætta í áskrift að [!INCLUDE[prod_short](includes/prod_short.md)], getur hann flutt gögnin sín út í Excel og tekið þau með sér í næsta fjárhagskerfi.  
 
-Þú getur flutt allar síður en þú þarft ef til vill. Notandi skal því íhuga að flytja út eftirfarandi veigamiklar síður og muna að bæta öllum dálkum við eins og lýst var áður:  
+Hægt er að flytja út allar síður en það gæti verið meira en notandi þarf í raun á að halda. Notandi skal því íhuga að flytja út eftirfarandi veigamiklar síður og muna að bæta öllum dálkum við eins og lýst var áður:  
 
 * Bókhaldslykill  
 * Viðskiptavinir  
@@ -46,7 +46,7 @@ Ef notandi ákveður að hætta í áskrift að [!INCLUDE[prod_short](includes/p
 * Bankar  
 * Vörur  
 
-Ef óskað er eftir öllum fjárhagslegum hreyfingum eins og er þá er það mikið gagnamagn og því fer útflutningurinn oft í meira en nokkrar mínútur í senn. Fjárhagsfærslurnar eru sýndar á síðunni **Fjárhagsfærslur**.  
+Ef einnig á að hafa allar fjárhagsfærslur með líka er það mjög mikið magn af gögnum og útflutningur mun því oft taka meira en nokkrar mínútur. Fjárhagsfærslurnar eru sýndar á síðunni **Fjárhagsfærslur**.  
 
 Við mælum með að notandi íhugi einnig að flytja út gögn af eftirfarandi síðum:  
 
@@ -78,7 +78,7 @@ Við mælum með að notandi íhugi einnig að flytja út gögn af eftirfarandi 
 
 Frekari upplýsingar er að finna í [Að fá yfirlit yfir leyfi notanda](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsögn áskriftar að [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
@@ -86,7 +86,7 @@ Frekari upplýsingar er að finna í [Að fá yfirlit yfir leyfi notanda](ui-def
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
 [Fjármál](finance.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

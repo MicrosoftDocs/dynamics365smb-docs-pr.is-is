@@ -1,6 +1,6 @@
 ---
-title: Hluta-og útflutningsskýrslur með Skýrsluinnhólfinu
-description: Notaðu síðuna Skýrsluinnhólf til að sækja, deila og flytja út skýrslur í Viðskiptamiðinu.
+title: Deila og flytja út skýrslur með skýrsluinnhólfinu
+description: Notaðu síðu skýrsluinnhólfsins til að sækja, deila og flytja út skýrslur í Business Central.
 author: rubenseishima
 ms.topic: conceptual
 ms.devlang: na
@@ -12,59 +12,59 @@ ms.date: 08/08/2022
 ms.author: a-reishima
 ms.openlocfilehash: 055e592047b6dafdc7aad89cca321d2438ddb990
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9608478"
 ---
-# <a name="share-and-export-reports-with-the-report-inbox"></a>Hluta-og útflutningsskýrslur með Skýrsluinnhólfinu
+# <a name="share-and-export-reports-with-the-report-inbox"></a>Deila og flytja út skýrslur með skýrsluinnhólfinu
 
-Á **síðunni Innhólf** skýrslunnar er listi yfir áætlaðar skýrslur sem notandinn myndar í [!INCLUDE[prod_short](includes/prod_short.md)] og má aðeins nota til að fá ekki aðeins aðgang að skýrslunum sem voru myndaðar, heldur einnig til að samnýta og opna skrárnar í OneDrive fyrir fyrirtæki.
+Síðan **Skýrsluinnhólf** sýnir tímasettar skýrslur sem notandi hefur búið til í [!INCLUDE[prod_short](includes/prod_short.md)] og hægt er að nota ekki bara til að fá aðgang að skýrslunum heldur líka til að deila og opna skrárnar í OneDrive fyrir fyrirtæki.
 
 > [!TIP]
-> Eftirfarandi aðgerðir eru einnig tiltækar í **hlutanum innhólfið** í hlutverkamiðstöðinni. Ef hluti er ekki birtur í viðmóti þínu, Lærðu að sérsníða hlutverkamiðstöðina þína hér: [Sérsníða vinnusvæðið](ui-personalization-user.md).
+> Eftirfarandi aðgerðir eru einnig aðgengilegar í hlutanum **Skýrsluinnhólf** í „Mínu hlutverki“. Ef hlutinn birtist ekki í viðmótinu þínu geturðu kynnt þér hvernig hægt er að sérsníða „Mitt hlutverk“ hér: [Sérsníða vinnusvæðið þitt](ui-personalization-user.md).
 
 ## <a name="download-generated-reports"></a>Sækja myndaðar skýrslur
 
-Til að vista fyrri skýrslur skal opna **Skýrsluinnsíðusíðuna** með eftirfarandi leiðbeiningum:
+Til að vista fyrri skýrslur skal opna síðuna **Skýrsluinnhólf** með því að fylgja þessum skrefum:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn **Report Innhólf**, veldu síðan tengda tengilinn.  
-2. **Á Skýrsluinnhólfinu** á síðunni skal velja viðkomandi skýrslu.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skýrsluinnhólf**, velja síðan viðkomandi tengil.  
+2. Á síðunni **Skýrsluinnhólf** skal velja æskilega skýrslu.
 
 > [!NOTE]
-> Síðan er ekki listi yfir fyrri skýrslur sem myndaðar voru með prentaðgerðinni **eða vistaðar sem skrá** í valmyndinni skýrslur **.**
+> Síðan sýnir ekki fyrri skýrslur sem voru búnar til með því að nota aðgerðina **Prenta** eða vistaðar sem skrá í valmyndinni **Skýrslur**.
 >
-> Skrárnar sem voru myndaðar eru vistaðar með sniðinu sem er skilgreint þegar skýrslan er röðunin og hægt er að breyta henni á **síðunni Vinnsluraðarfærslur** ásamt endurtekningum og öðrum stillingum. Lærðu að breyta sniði skýrsluskrárinnar og setja upp viðbótarvalkosti í [Umsjón með áætluðum endurteknum skýrslum](ui-work-report.md#manage-scheduled-recurring-reports).
+> Skrárnar sem eru búnar til eru vistaðar á því sniði sem skilgreint er þegar skýrslan er tímasett og hægt er að breyta þeim á síðunni **Verkraðarfærslur** ásamt endurtekningunni og öðrum stillingum. Kynntu þér hvernig á að breyta skýrsluskráarsniðinu og stilla viðbótarvalkosti á [Stjórna tímasettum endurteknum skýrslum](ui-work-report.md#manage-scheduled-recurring-reports).
 
 ## <a name="open-generated-reports-in-onedrive"></a>Opna myndaðar skýrslur í OneDrive
 
-Til að flytja skýrsluna út í Microsoft OneDrive fyrir fyrirtæki, veljið skýrsluna á **síðunni Skýrsluinnhólf** og **Veljið opna í OneDrive** aðgerðinni. Skýrslan er síðan afrituð [!INCLUDE[prod_short](includes/prod_short.md)] í möppuna í OneDrive og opnuð í nýjum vafraglugga þar sem hægt er að prenta út og stjórna skjalaskránni.
+Til að flytja skýrsluskrána út til Microsoft OneDrive for Business skal velja skýrsluna á síðunni **Skýrsluinnhólf** og velja aðgerðina **Opna í OneDrive**. Skýrslan er síðan afrituð í viðkomandi [!INCLUDE[prod_short](includes/prod_short.md)] möppu OneDrive og opnuð í nýjum vafraglugga, þar sem hægt er að prenta og hafa umsjón með skjalaskránni.
 
 > [!IMPORTANT]
 >
-> Skýrslur sem eru stilltar þannig að þær **renna út á áætlun skýrslusíða** og afritað í OneDrive eru ekki sjálfkrafa fjarlægðar úr samnýttu möppunni.
+> Skýrslur sem eru stilltar á að renna út á síðunni **Tímasetja skýrslu** og afritaðar úr OneDrive eru sjálfkrafa fjarlægðar úr samnýttri möppu.
 
-## <a name="share-scheduled-reports"></a>Samnýta raðaðar skýrslur
+## <a name="share-scheduled-reports"></a>Deila tímasettum skýrslum
 
-Samnýting skýrslna með samvinnubönkum er einnig möguleg á **síðunni Skýrsluinnhólf**. Velja skýrsluna og velja **Share** -aðgerðina. **Á síðunni senda tengil** skal velja hver getur opnað skrána, skilgreint breytingar á heimildum og valið **síðan senda** til að senda tengil til að fá aðgang að vistuðu skýrslunni.
+Einnig er hægt að deila skýrslum með samstarfsaðilum á síðunni **Skýrsluinnhólf**. Veldu skýrsluna og veldu aðgerðina **Deila**. Á síðunni **Senda tengil** skal velja þá sem geta opnað skrána, skilgreint breytingaheimildir, síðan velja **Senda** til að senda tengil til að fá aðgang að vistaðri skýrslu.
 
 > [!NOTE]
-> Frekari upplýsingar um OneDrive samþættingu og aðgerðir eru í, þar á [!INCLUDE[prod_short](includes/prod_short.md)] meðal um uppsetningu og valkosti upphafstíma til að takast á við árekstra skrárheita, lesa [opnun og samnýta skrár í OneDrive](across-share-onedrive.md) gr.
+> Til að fá frekari upplýsingar um OneDrive samþættingu og eiginleika í [!INCLUDE[prod_short](includes/prod_short.md)], þar á meðal fyrstu uppsetningu og valkosti til að takast á við árekstra skráarheita skal lesa greinina [Opnun og deiling skráa í OneDrive](across-share-onedrive.md).
 >
-> Með því að **samnýta aðgerðina gerir skýrsluskrá sem er tiltæk öðrum notendum aðeins þann** fyrir Business og heldur ekki lista yfir áætlaða skýrslu í Skýrsluinnhólfinu OneDrive sínu **·**.
+> Með aðgerðinni **Deila** verður mynduð skýrsluskrá í boði fyrir aðra notendur aðeins í OneDrive for Business og sýnir ekki tímasetta skýrslu í **Skýrsluinnhólfinu**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun kl [Microsoft Learn](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/build-reports/).
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Keyra og prenta skýrslur](ui-work-report.md)  
-[Tiltækar skýrslur í[!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
+[Tiltækar skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Nota skýrslur í daglegu starfi](reports-use-reports.md)  
-[Yfirlit yfir viðskiptagreind og skýrslugerð](reports-bi-reporting.md)  
+[Viðskiptagreind og skýrsluyfirlit](reports-bi-reporting.md)  
 [Setja upp prentara](ui-specify-printer-selection-reports.md)  
-[Vinna með dagsetningar og tímasetningar dagatals](ui-enter-date-ranges.md)  
+[Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md)  
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] og OneDrive samþættingu](across-onedrive-overview.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] og OneDrive samþætting](across-onedrive-overview.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

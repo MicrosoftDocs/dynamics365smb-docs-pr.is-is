@@ -1,5 +1,5 @@
 ---
-title: Setja upp almennar EIGNAUPPLÝSINGAR
+title: Setja upp almennar eignaupplýsingar
 description: Áður en þú getur byrjað að stjórna eignum, verður þú að setja upp sjálfgefna fjárhagsreikninga, bókunarflokka, úthlutunarlykla, færslubókasniðmát og keyrslur, og flokkskóða.
 author: edupont04
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 4f56c74eb3fd9bf80381171e304700c90caaee8b
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533671"
@@ -129,7 +129,7 @@ Ef verið er að nota eignirnar í [!INCLUDE[prod_short](includes/prod_short.md)
 
 Ef eignirnar eru ekki samþættar fjárhag er sleppt lið 6 og 8.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -137,7 +137,7 @@ Ef eignirnar eru ekki samþættar fjárhag er sleppt lið 6 og 8.
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

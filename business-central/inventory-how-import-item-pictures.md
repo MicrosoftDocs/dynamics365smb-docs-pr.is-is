@@ -1,5 +1,5 @@
 ---
-title: Flytja inn margar Vörumyndir úr ZIP-skrá
+title: Flytja inn margar myndir af vörum úr ZIP-skrá
 description: Til að flytja inn margar myndir af vörum skaltu gefa myndaskrám nafn sem samsvarar vörunúmerunum þínum, þjappaðu þeim í ZIP-skrá og notaðu síðan síðuna Flytja inn vörumyndir.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: 44a3689c59a25b6c0aca25f69896e86beb71ea6c
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8522067"

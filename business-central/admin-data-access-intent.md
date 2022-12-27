@@ -1,5 +1,5 @@
 ---
-title: Umsjón með aðgengi að gagnagrunni á Viðskiptamiðmið-
+title: Umsjón með ástæðu aðgangs að gagnagrunni í Business Central
 description: Breyta ástæðu aðgangs að gagnagrunni fyrir skýrslur, API-síður og fyrirspurnir.
 author: jswymer
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.openlocfilehash: 15300f780cbe92a1f5e288979a1c84f34f63cb1a
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532431"
@@ -49,12 +49,12 @@ Síðan **Listi yfir ástæður fyrir aðgangi að gagnagrunni** gerir þér kle
     > [!NOTE]
     > Ef hlutur sem er breytanlegur, eins og Viðskiptamannaspjald, er stilltur á **Skrifvarið**, verður aðalgagnagrunnurinn ennþá notaður óháð ástæðu fyrir aðgangi, sem gerir notendum kleift að gera breytingar eins og venjulega.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptavirkni](across-business-functionality.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

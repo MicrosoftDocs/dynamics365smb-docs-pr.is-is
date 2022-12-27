@@ -1,6 +1,6 @@
 ---
 title: Stofna nýjar virðisfærslur fyrir vörur í birgðum| Microsoft Docs
-description: Lýsir því hvernig á að meta eða afskrifa virðisfærslur eins eða fleiri vara í birgðum með því að bóka gildandi, útreiknað gildi.
+description: Lýsir því hvernig skal auka eða rýra virðisfærslur einnar eða fleiri vara í birgðum með því að bóka núgildandi og útreiknað virði þeirra.
 documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
@@ -13,7 +13,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: edad8dcc23a204f4dcfabfa43a9c83918f63f416
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8511547"

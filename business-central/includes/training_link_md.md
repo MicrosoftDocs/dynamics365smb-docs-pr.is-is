@@ -1,1 +1,1 @@
-Fá [þjálfun!](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+Fáðu [þjálfun!](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)

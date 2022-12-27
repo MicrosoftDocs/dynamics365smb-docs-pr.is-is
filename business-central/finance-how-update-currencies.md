@@ -1,6 +1,6 @@
 ---
-title: Uppfæra Gengi gjaldmiðils (inniheldur myndskeið)
-description: Ef upphæðir eru lagfærðar í mismunandi gjaldmiðlum er hægt að láta miðlæga aðstoð við að leiðrétta gengi bókaðra færslna með utanaðkomandi þjónustu.
+title: Uppfæra gengi (inniheldur myndskeið)
+description: Ef fylgst er með upphæðum í mismunandi gjaldmiðlum er hægt að leyfa Business Central að hjálpa þér að stilla gengi erlendra gjaldmiðla fyrir bókaðar færslur með utanaðkomandi þjónustu.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
@@ -9,14 +9,14 @@ ms.date: 03/15/2022
 ms.author: edupont
 ms.openlocfilehash: 190e6f13202edf7ac5bb6792369bbeca6682a829
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528331"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppfæra gengi
 
-Hægt er að skilgreina mismunandi gjaldmiðla í [!INCLUDE [prod_short](includes/prod_short.md)], til dæmis ef þú átt viðskipti í gjaldmiðlum öðrum en gjaldmiðli landsins. Síðan, til að hjálpa til við að fylgjast með breytingum á gengi gjaldmiðla, er hægt að stjórna gjaldmiðlunum handvirkt eða setja upp gjaldmiðilsgengisþjónustu.
+Hægt er að skilgreina mismunandi gjaldmiðla í [!INCLUDE [prod_short](includes/prod_short.md)], t.d. ef þú stundar viðskipti í öðrum gjaldmiðlum en staðbundnum gjaldmiðli. Síðan, til að hjálpa þér að fylgjast með breytingum á gengi gjaldmiðla, getur þú stjórnað gjaldmiðlunum handvirkt eða sett upp gjaldmiðlaþjónustu.
 
 ## <a name="currencies"></a>Gjaldmiðlar
 
@@ -25,7 +25,7 @@ Hægt er að skilgreina mismunandi gjaldmiðla í [!INCLUDE [prod_short](include
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-Gjaldmiðilskóðarnir á **listanum Gjaldmiðlar** eru tilgreindir, þar á meðal þær viðbótarupplýsingar og stillingar sem eru nauðsynlegar fyrir hvern gjaldmiðilskóða. Sjá [gjaldmiðla fyrir frekari upplýsingar](finance-set-up-currencies.md#curr)
+Gjaldmiðilskóðarnir eru tilgreindir í listanum **Gjaldmiðlar**, þ.m.t. viðbótarupplýsingar og stillingar sem eru nauðsynlegar fyrir hvern gjaldmiðilskóða. Sjá [Gjaldmiðlar](finance-set-up-currencies.md#curr) fyrir frekari upplýsingar.
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Dæmi um móttekna gjaldmiðilsfærslu
 
@@ -69,11 +69,11 @@ Runuvinnslan **Leiðrétta gengi** er notuð til að lagfæra handvirkt gengi b�
 > [!TIP]
 > Hægt er að nota þjónustu til að uppfæra gengi sjálfkrafa í kerfinu. Frekari upplýsingar er að finna í [Að setja upp þjónustu um gengi gjaldmiðils](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Þetta leiðréttir hins vegar ekki gengi í þegar bókuðum færslum. Til að uppfæra gengi á bókuðum færslum skaltu nota runuvinnsluna **Leiðrétta gengi**.
 
-Hægt er að forskoða áhrifin sem leiðrétting mun hafa á bókun áður en þú bókar í raun með því að velja **Forskoðun** á **síðunni Leiðrétta gengi gjaldmiðla**. Þar að auki er hægt að velja hvort Fjárhagsbókun verði Sundurliðuð (í hverri færslu) eða tekin saman (eftir gjaldmiðli) með því að velja **samantekt færslna**. Einnig er hægt að tilgreina hvernig eigi að meðhöndla víddir fyrir bókanir áætlaðs hagnaðar og taps með því að velja einn af eftirfarandi valkostum í **reitnum flytja víddargildi**:  
+Hægt er að forskoða hvaða áhrif leiðrétting hefur á bókun áður en þú bókar í alvöru með því að velja **Forskoða** á síðunni **Leiðrétta gengi**. Auk þess er hægt að velja hvort almennar fjárhagsbókanir verið ítarlegar (á hverja færslu) eða teknar saman (á hvern gjaldmiðil) með því að velja **Taka saman færslur**. Einnig er hægt að tilgreina hvernig á að meðhöndla víddir fyrir bókanir á óinnleystum hagnaði og tapi með því að velja einn af eftirfarandi valkostum í reitnum **Flytja víddargildi**:  
 
-- **Upprunafærsla** : fjárhagsfærslur fyrir áætlaðan hagnað og tap verða með víddargildi sem flutt eru frá leiðréttum færslunni.
-- **Eftir fjárhagsreikningi** : fjárhagsfærslur fyrir áætlaðan hagnað og tap verða með víddargildi sem flutt eru frá áætluðum ávinningi og TAPI upprunafærslna fyrir víddarstillingar í fjárhagsreikningum.
-- **Enginn flutningur** : fjárhagsfærslur fyrir áætlaðan hagnað og-tap verða ekki með víddargildi.
+- **Upprunafærsla**: Fjárhagsfærslur fyrir óinnleystan hagnað og tap mun láta flytja víddargildi úr leiðréttu færslunni.
+- **Eftir fjárhagsreikningi**: Fjárhagsfærslur fyrir óinnleystan hagnað og tap mun láta flytja gildi úr upprunafærslu víddarstillinga fyrir fjárhagsreikning óinnleysts hagnaðar og taps.
+- **Engin millifærsla**: Fjárhagsfærslur fyrir óinnleystan hagnað og tap verða ekki með víddargildi.
 
 ### <a name="effect-on-customers-and-vendors"></a>Áhrif á viðskiptamenn og lánardrottna
 
@@ -108,7 +108,7 @@ Leiðréttingarfærslunum er úthlutað sjálfgefnu víddunum í reikningunum se
 Þú getur notað ytri þjónustu til að halda gjaldeyrisviðskiptum þínum uppfærðum, t.d. FloatRates. 
 
 > [!NOTE]
-> Flestar gengisþjónustur veita gögn sem eru samhæfð fyrir innflutningvinnsluna í [!INCLUDE[prod_short](includes/prod_short.md)]. Hins vegar stundum eru gögnin sniðin öðruvísi og þá þarf að sérsníða innflutningsferlið. Hægt er að nota gagnaskiptarammann til að gera það með því að bæta við eigin Codeunit. Þú munt líklega þurfa aðstoð frá hönnuði til að gera það. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).
+> Flestar gengisþjónustur veita gögn sem samrýmast innflutningsferlinu í [!INCLUDE[prod_short](includes/prod_short.md)]. Stundum eru gögnin þó sniðin á annan hátt og þú þarft að sérsníða innflutningsferlið. Hægt er að nota gagnaskiptarammann til að gera það með því að bæta við eigin kóðaeiningu. Þú þarft líklega aðstoð frá þróunaraðila til að gera þetta. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónusta um gengi gjaldmiðils** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð.
@@ -128,15 +128,15 @@ Leiðréttingarfærslunum er úthlutað sjálfgefnu víddunum í reikningunum se
 
 Gildið í **Gengi** reitnum á síðunni **Gjaldmiðlar** er uppfært með nýjustu gengi gjaldmiðilsins.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Gjaldmiðlar í Viðskiptamiðinu](finance-currencies.md)  
-[Setja upp gjaldmiðla](finance-set-up-currencies.md)  
+[Gjaldmiðlar í Business Central](finance-currencies.md)  
+[Uppsetning gjaldmiðla](finance-set-up-currencies.md)  
 [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)  
 [Lokaár og Tímabil](year-close-years-periods.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

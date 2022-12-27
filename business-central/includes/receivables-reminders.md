@@ -5,14 +5,14 @@ ms.date: 02/09/2022
 ms.author: edupont
 ms.openlocfilehash: fc1788acfb1b11a90327ac72ce83d7fa4981e602
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8143349"
 ---
-Hægt er að nota áminningar til að minna viðskiptamenn á gjaldfallnar upphæðir. Einnig er hægt að nota innheimtubréf til að reikna út vaxtagjöld eins og vexti eða gjöld og láta þau fylgja með áminningunni.
+Hægt er að nota áminningar til að minna viðskiptamenn á gjaldfallnar upphæðir. Einnig er hægt að nota áminningar til að reikna út vexti og annan kostnað og hafa þær upplýsingar með í áminningunni.
 
-Áður en hægt er að stofna áminningar þarf að setja upp skilmála áminninga og tengja þá við viðskiptamenn. Frekari upplýsingar er að finna [í setja upp skilmála innheimtubréfs og stig](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] Innihald **síðunnar fyrir vaxtaskilmála** ákvarðar hvort vextir eru reiknaðir á innheimtubréf.  
+Áður en hægt er að stofna áminningar þarf að setja upp skilmála áminninga og tengja þá við viðskiptamenn. Frekari upplýsingar eru í [Setja upp skilmála og stig innheimtubréfa](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] Innihald síðunnar **Vaxtaskilmálar** ákveður hvort vextir eru reiknaðir í áminningunni.  
 
 Hægt er að keyra reglulega keyrsluna **Stofna innheimtubréf** til að stofna áminningar fyrir alla viðskiptamenn með gjaldfallnar skuldir eða stofna áminningu handvirkt fyrir einstaka viðskiptamenn og láta reikna línurnar og fylla þær út sjálfvirkt.  
 
@@ -35,7 +35,7 @@ Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að 
 
 Á síðunni **Innheimtubréf** geturðu fyllt í flýtiflipann **Almennt** handvirkt og svo látið fylla í línurnar sjálfvirkt.
 
-1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun aftur 2.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innheimtubréf** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika viðmótsleitar aftur 2.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innheimtubréf** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
 3. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**.
 4. Veljið aðgerðina **Leggja til innheimtubr.línur**.
@@ -52,7 +52,7 @@ Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að 
 
 Nokkrar leiðir eru í boði til að ákvarða hvaða texti birtist á prentuðu innheimtubréfi. Í einstaka tilvikum gæti þurft að skipta út byrjunar- og endatexta gildandi stigs með texta af öðru stigi.
 
-1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun enn á ný 3.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innheimtubréf** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika viðmótsleitar í enn eitt skiptið 3.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innheimtubréf** og velja síðan viðkomandi tengil.
 2. Opna skal viðeigandi innheimtubréf, og síðan velja **uppfæra innheimtubréf texti** aðgerðina.
 3. Á síðunni **uppfæra innheimtubréf texti** er fært inn stigið sem óskað er eftir í reitnum **Stig innheimtubréfs**.
 4. Velja hnappinn **Í lagi** til að uppfæra byrjunar- og endatexta.
@@ -75,7 +75,7 @@ Ef gátreitirnir **Bóka vexti** og **Bóka viðbótargjöld** eru valdir á sí
 
 Að auki getur sending innheimtubréfs leitt af sér VSK-færslur.
 
-1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun einnig hér 4.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innheimtubréf** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika viðmótsleitar einnig hér 4.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innheimtubréf** og velja síðan viðkomandi tengil.
 2. Velja skal viðeigandi innheimtubréf, og síðan velja **Senda út** aðgerðina.
 3. Á síðunni **Senda út innheimtubréf** þarf að fylla reitina út eftir þörfum.
 4. Velja hnappinn **Í lagi**.

@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: mikebc
 ms.openlocfilehash: 0ff7ee2a56b762609e2b15f101c1e4abc9bd46cd
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533349"
@@ -22,7 +22,7 @@ Hægt er að virkja suma nýja eiginleika fram í tímann, þannig að hægt er 
 
 Nánari upplýsingar um [eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

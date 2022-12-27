@@ -1,5 +1,5 @@
 ---
-title: Uppsetning texta-Lyklavörpun fyrir endurteknar greiðslur
+title: Setja upp vörpun texta á reikning fyrir endurteknar greiðslur
 description: Tengja texta á greiðslum við sérstaka reikninga, til að greiðslur séu bókaðar á reikningana þegar greiðsluafstemmingarbók er bókuð.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 4acc962c596bf2ba8eb857d488eb4fc0045f79cc
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9529191"
@@ -58,7 +58,7 @@ Til að bóka alltaf útgjöld sem tengjast gjöldum tiltekins banka, MyBank, ti
 | --- | --- | --- | --- | --- |
 | MyBank |AUTT |60400|Fjárhagur |AUTT |
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

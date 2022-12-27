@@ -9,69 +9,69 @@ ms.date: 08/16/2022
 ms.author: bholtorf
 ms.openlocfilehash: 0cc18a4a84e24ce58d486275442ba686ed559047
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605955"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skipta yfir í annað fyrirtæki eða umhverfi
 
-[!INCLUDE [prod_short](includes/prod_short.md)] er fáanlegt í mörgum mismunandi löndum og styður við margar mismunandi gerðir stofnana. Fyrirtækið kann að velja að skipuleggja vinnu í [!INCLUDE [prod_short](includes/prod_short.md)] mörgum *fyrirtækjum* og *umhverfi*. Þessi grein hjálpar til við að skilja lykilmuninn og hvernig unnið er þvert á þá.
+[!INCLUDE [prod_short](includes/prod_short.md)] er í boði í mörgum mismunandi löndum og styður margar mismunandi gerðir af fyrirtækjum. Fyrirtækið þitt gæti valið að skipuleggja vinnu í [!INCLUDE [prod_short](includes/prod_short.md)] í mörgum *fyrirtækjum* og *umhverfum*. Þessi grein hjálpar þér að skilja helsta muninn og hvernig á að vinna sig í gegnum hann.
 
 ## <a name="about-companies-and-environments"></a>Um fyrirtæki og umhverfi
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 > [!TIP]
-> Ef skipt er oft á milli fyrirtækj, eða unnið er með [!INCLUDE[prod_short](includes/prod_short.md)] úr öðru forriti á borð við Microsoft Teams, getur verið auðvelt að missa sjónar á því hvar þú ert. Til að auðvelda þér að fylgjast með er hægt að bæta við merki sem birtir heiti fyrirtækisins þannig að þú getir staðfest á skjótan hátt að þú sért á réttum stað. Nánari upplýsingar er að finna [í Display fyrirtækjamerkis](admin-company-information.md#badge).
+> Ef skipt er oft á milli fyrirtækj, eða unnið er með [!INCLUDE[prod_short](includes/prod_short.md)] úr öðru forriti á borð við Microsoft Teams, getur verið auðvelt að missa sjónar á því hvar þú ert. Til að auðvelda þér að fylgjast með er hægt að bæta við merki sem birtir heiti fyrirtækisins þannig að þú getir staðfest á skjótan hátt að þú sért á réttum stað. Frekari upplýsingar eru í [Birta upplýsingatákn fyrirtækis](admin-company-information.md#badge).
 > 
-> Allt frá vafra er einnig hægt að pinna mismunandi fyrirtæki í eftirlætisstiku.  
+> Það fer eftir vafranum þínum en þú getur einnig fest mismunandi fyrirtæki við eftirlætisstikuna.  
 
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## <a name="features-for-switching-company-or-environment"></a>Aðgerðir til að skipta um fyrirtæki eða umhverfi
+## <a name="features-for-switching-company-or-environment"></a>Eiginleikar til að skipta um fyrirtæki eða umhverfi
 
-Það eru til örfáir Eiginleikar sem þú getur notað til að skipta fyrirtækinu eða umhverfinu sem þú vinnur. Eftirfarandi tafla ber saman möguleika á lögun, sem útskýrð er nánar í köflum sem fylgja.
+Það eru nokkrir eiginleikar sem þú getur notað til að skipta um fyrirtæki eða umhverfi þegar þú vinnur. Eftirfarandi tafla ber saman möguleika eiginleikans, sem eru útskýrðir nánar í næstu hlutum.
 
-|Eiginleiki|Skipta um fyrirtæki|Skipta um umhverfi|Skiptiborð í nýjum vafraflipa| Aðgengilegt innanhúss|
+|Eiginleiki|Skipa um fyrirtæki|Skipta um umhverfi|Skipta í nýjum vafraglugga| Í boði á staðnum|
 |-------|--------------|------------------|-------------------------|----------------------|
-|[Skipafélagið rofi](#use-the-company-switcher)|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
-|[App-ræsing](#use-the-app-launcher)||![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")||
+|[Skipt um fyrirtæki](#use-the-company-switcher)|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
+|[Forritavalmynd](#use-the-app-launcher)||![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")||
 |[Mínar stillingar](#use-my-settings)|![gátmerki](media/check.png "ávísun")|||![gátmerki](media/check.png "ávísun")|
-|[Fyrirtækjnöf](#use-company-hub)|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")||
+|[Fyrirtækjamiðstöð](#use-company-hub)|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")||
 
-## <a name="use-the-company-switcher"></a>Nota skiptifyrirtækið
+## <a name="use-the-company-switcher"></a>Nota fyrirtækjaskipti
 
-Að nota fyrirtækið skipari er líklega fljótasta og mest fjölhæfur leið til að skipta um fyrirtæki. Fyrirtækið skipari er rúðuþurrkur sem eru fúslega fáanlegar frá hvaða síðu sem er. Rúðan gefur yfirlit yfir öll fyrirtæki í öllu umhverfi sem notandi hefur aðgang að og skiptir sér beint í &mdash; það sem er annað hvort á sama vafraflipanum eða nýtt. Það hentar sérstaklega vel þegar unnið er í mörgum fyrirtækjum yfir mismunandi umhverfi.
+Að nota fyrirtækjaskiptinn er líklega fljótlegasta og fjölbreyttasta leiðin til að skipta um fyrirtæki. Fyrirtækjaskiptirinn er svæði sem er aðgengilegt á öllum svæði. Svæðið sýnir yfirlit yfir öll fyrirtæki í öllum umhverfum sem þú hefur aðgang að og gerir þér kleift að skipta beint yfir í öll þeirra&mdash;annaðhvort í sama vafraglugganum eða nýjum. Það er sérstaklega gagnlegt þegar unnið er í mörgum fyrirtækjum í mismunandi umhverfi.
 
-1. Í efra hægra horninu, nálægt leitartákninu, sérðu annað hvort táknið fyrir venjulegt fyrirtæki eins og ![skotteiknið fyrir fyrirtæki.](media/ui-experience/company-icon.png "Birtir sundurtákn fyrirtækisins sem notað er þegar eitt umhverfi er til staðar") Og ![Company-Icon-mult-Env](media/ui-experience/company-icon-multi-env.png "Birtir sundurtákn fyrirtækisins sem notað er þegar mörg umhverfi eru til staðar"), eða [sérsniðinn Skjöldur](admin-company-information.md#badge) fyrir fyrirtækið sem þú starfar hjá. Velja táknið til að opna sundurvirka rúðuna fyrirtækisins.
+1. Efst í hægra horninu, nálægt leitartákninu, sérðu annaðhvort staðlað tákn fyrirtækis, t.d. ![fyrirtækiskóða ræsiforrits](media/ui-experience/company-icon.png "Sýnir tákn fyrirtækjaskiptis sem notað er í einu umhverfi") og ![fjölumhverfi fyrirtækiskóða](media/ui-experience/company-icon-multi-env.png "Sýnir tákn fyrirtækjaskiptis sem notað er í mörgum umhverfum") eða [sérsniðið upplýsingatákn](admin-company-information.md#badge) fyrir fyrirtækið sem þú ert að vinna í. Veldu táknið til að opna svæði fyrirtækjaskiptis.
 
-   :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Sýnir tákn fyrirtækisins í fyrirsögn Viðskiptamiðis viðskiptavinar.":::  
+   :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Sýnir tákn fyrirtækjaskiptis í haus Business Central-biðlarans":::  
 
    > [!TIP]
-   > Einnig er hægt að nota flýtivísunina CRTL + O til að opna rúðuna.
-2. **Í rúðunni tiltæk fyrirtæki** skal velja fyrirtækið sem á að skipta yfir í, velja **skiptiörina** og velja svo einn af eftirfarandi valkostum:
+   > Einnig er hægt að nota Crtl+O flýtilykilinn til að opna svæðið.
+2. Á svæðinu **Tiltæk fyrirtæki** skaltu velja fyrirtækið sem þú vilt skipta yfir í, velja örina **Skipta**, síðan velja einn af eftirfarandi valkostum:
 
    |Valkostur|Lýsing|
    |------|-----------|
-   |Skipta|Opnar hlutverkamiðstöð valins fyrirtækis í sama vafraflipa sem verið er að vinna í. Fyrirtækið verður sjálfgefið fyrirtæki sem opnast í Aðalviðskiptum þar til skipt er á ný eða fyrirtækinu breytt með því að nota **stillingarnar**. |
-   |Opna í nýjum flipa|Opnar hlutverkamiðstöð valins fyrirtækis í nýjum vafraflipa með því að halda upprunalegu fyrirtæki opinni á öðrum flipanum.|
-   |Opna í nýjum flipa og fara á sömu síðu|Þessi valkostur er aðeins virkur á listasíðum, eins og viðskiptavinum, sölupöntunum eða vörum. Það opnar sama lista en fyrir valið fyrirtæki í nýjum vafraflipa. |
+   |Skipta|Opnar hlutverkamiðstöð fyrir valið fyrirtæki í sama vafraglugga og verið er að vinna í. Fyrirtækið verður sjálfgefna fyrirtækið sem opnast í Business Central, þar til þú skiptir aftur eða breytir fyrirtækinu með því að nota **Mínar stillingar**. |
+   |Opna í nýjum flipa|Opnar hlutverkamiðstöð fyrir valið fyrirtæki í nýjum vafraglugga, heldur upprunalega fyrirtækinu opnu í hinum flipanum.|
+   |Opna á nýjum flipa og fara á sömu síðu|Þessi valkostur er aðeins virkur á listasíðum, eins og viðskiptamönnum, sölupöntunum eða vörum. Hann opnar sama lista, en fyrir valið fyrirtæki, í nýjum vafraglugga. |
 
 > [!TIP]
-> Stutt er á F5 til að endurnýja lista yfir umhverfi og fyrirtæki.
+> Ýttu á F5 til að uppfæra lista yfir umhverfi og fyrirtæki.
 
-## <a name="use-the-app-launcher"></a>Nota forritið App
+## <a name="use-the-app-launcher"></a>Nota forritavalmyndina
 
 Þegar þú ert skráð(ur) inn á [!INCLUDE[prod_short](includes/prod_short.md)] eru umhverfin sem hægt er að opna aðgengilegt á Office.com.  
 
-1. Veldu teiknið fyrir forritstáknið á **forritinu** . ![.](media/app-launcher-icon.png "Forritavalmynd býður upp á aðgang að fleiri eiginleikum")
-2. Í rúðunni sem opnast, leita að og velja [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þú sérð [!INCLUDE[prod_short](includes/prod_short.md)] ekki, Veldu **öll forrit**, þá færðu inn **miðlægt** í **leitargluggann**.
+1. Veldu táknið **Forritavalmynd** ![Forritavalmynd.](media/app-launcher-icon.png "Forritavalmynd býður upp á aðgang að fleiri eiginleikum").
+2. Í svæðinu sem opnast er hægt að leita að og velja [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þú sérð ekki [!INCLUDE[prod_short](includes/prod_short.md)] skaltu velja **Öll forrit** og slá svo inn **Business Central** í reitinn **Leita**.
 
-   :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="Microsoft 365 App-kynnirinn sem sýnir Viðskiptamiðað tiln.":::  
+   :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="Microsoft 365 forritavalmyndin sem sýnir reit Business Central.":::  
 
-3. Ef fleiri en eitt umhverfi eru til staðar er beðið um að velja umhverfið til að komast að.
+3. Ef það eru fleiri en eitt umhverfi verður þú beðin(n) um að velja umhverfið sem á að opna.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
@@ -80,9 +80,9 @@ The following image shows tiles for accessing production and sandbox environment
 -->
 ## <a name="use-my-settings"></a>Nota mínar stillingar
 
-Þegar þú ert skráður inn á [!INCLUDE[prod_short](includes/prod_short.md)], getur þú á einfaldan hátt skipt yfir í annað fyrirtæki í sama umhverfi. Þegar búið er að gera skiptin er fyrirtækið sem þú velur að verða sjálfgefið fyrirtæki og opnar það næst þegar þú skráir þig inn.
+Þegar þú ert skráð(ur) inn í [!INCLUDE[prod_short](includes/prod_short.md)] geturðu skipt yfir í annað fyrirtæki á fljótlegan hátt í sama umhverfinu. Þegar búið er að skipta yfir verður fyrirtækið sem þú velur sjálfgefið fyrirtæki og birtist næst þegar þú skráir þig inn.
 
-1. Í horninu efst til hægri eru stillingar teiknartákns **valdar**![.](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja **síðan aðgerðina stillingar**.
+1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Mínar stillingar**.
 
     > [!TIP]
     > Einnig er hægt að nota flýtilykilinn Alt+T til að opna síðuna Mínar stillingar á skjótan hátt.
@@ -93,18 +93,18 @@ The following image shows tiles for accessing production and sandbox environment
 > [!TIP]
 > Góð aðferð við að fara beint í sjálfgefna fyrirtækið þegar þú skráir þig inn og ekki þurfa að tilgreina umhverfið er að bæta vefslóðinni á eftirlætislistann þinn eftir að þú skráir þig inn.
 
-## <a name="use-company-hub"></a>Nota nöf fyrirtækis
+## <a name="use-company-hub"></a>Nota fyrirtækjamiðstöð
 
-*Fyrirtækjnöf* er mjög sérhæfð hlutverkamiðstöð sem gefur fjárhagslegt yfirlit yfir fyrirtæki og umhverfi. Fáanlegt sem [framlenging](ui-extensions-company-hub.md), fyrirtækið Hub útvegar Mælaborð með safngögnum fyrir hvert fyrirtæki sem þú hefur aðgang að. Heimasíðan birtir fjárhagslega afkastavísa og bein tengsl við einstök umhverfi og fyrirtæki. Frekari upplýsingar er að finna í [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md).
+*Fyrirtækjamiðstöð* er mjög sérhæfð hlutverkamiðstöð sem gefur fjárhagslega yfirsýn yfir fyrirtæki og umhverfi. Fyrirtækjamiðstöðin er í boði sem [viðbót](ui-extensions-company-hub.md) og býður upp á stjórnborð með samantektargögnum fyrir hvert fyrirtæki sem þú hefur aðgang að. Heimasíðan sýnir fjármálatengda afkastavísa (KPI) og beinan tengil á stök umhverfi og fyrirtæki. Frekari upplýsingar er að finna í [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md).
 
-[![Sýnir fyrirtækjahub-síðuna sem skráir öll fyrirtæki.](media/company-hub.png)](media/company-hub.png#lightbox)  
+[![Sýnir síðu fyrirtækjamiðstöðvar sem sýnir öll fyrirtæki.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
-[Umhverfi og fyrirtæki (eingöngu á ensku)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
-[Upplýsingar um fyrirtæki](admin-company-information.md)  
+[Umhverfi og fyrirtæki (aðeins enska)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+[Stofngögn](admin-company-information.md)  
 [Stjórnunarmiðstöð Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

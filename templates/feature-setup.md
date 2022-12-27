@@ -8,7 +8,7 @@ ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
 ms.openlocfilehash: 66327ff91c22111e288bcb6b15d7b510cf498688
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9535371"
@@ -17,7 +17,7 @@ ms.locfileid: "9535371"
 
 Notaðu [!INCLUDE [prod_short](includes/prod_short.md)] fyrir afurðarheitið og skrifaðu í virkum setningum á borð við „Klára verkið hraðar“ og „Með þessum möguleika getur þú blabla“.  
 
-Fyrir ábendingar um MarkDown og Style er að finna [Leiðbeiningar fyrir höfunda Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Ábendingar um MarkDown og stíl er að finna í [Leiðbeiningar fyrir Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Munið að bæta einnig við Sjá einnig tenglum, og bæta nýju greininni við TOC.md skrána.  
 

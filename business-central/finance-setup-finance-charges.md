@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 27378e1c2c12077bdb04aa9f1e2b93f27fe048dc
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528277"
@@ -68,7 +68,7 @@ Að auki er sérhver skilgreining í töflunni Vaxtaskilmálar tengdur undirtöf
 |%8|Innihald reitsins **gjaldmiðilskóði** á bréfshaus vaxtareiknings|  
 |%9|Innihald reitsins **bókunardagsetning** á bréfshaus vaxtareiknings|  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/send-memos-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

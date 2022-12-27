@@ -12,7 +12,7 @@ ms.date: 06/22/2021
 ms.author: edupont
 ms.openlocfilehash: 027a79180dbc8a1a9ea53da9548d2b39a1852cdc
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533536"
@@ -29,7 +29,7 @@ Hægt er að reikningsfæra allt verkið á síðunni **Verkhlutalínur** eða a
 > [!NOTE]  
 > Ef valið er **Reikningshæft** í reitnum **Verklínutegund** í söluskjölum fyrir verktengd innkaup verða stofnaðar verkáætlunarlínur sem eru tilbúnar til að vera reikningsfærðar á viðskiptamann. Frekari upplýsingar eru í [Sjá um birgðir verkefna](projects-how-manage-project-supplies.md).
 
-Einnig er hægt að reikningsfæra fyrirtæki sem er ekki endinn viðskiptavinur. Stundum er sá aðili sem verkefni er fyrir er ólíkur þeim aðila sem er að greiða frumvarpið. **Á síðunni vinnslur** er hægt að tilgreina viðskiptamanninn sem mun njóta góðs af verkinu í **reitunum Selt-til** og aðila sem á að reikningsfæra í **reitunum Reikn**. 
+Einnig er hægt að reikningsfæra fyrirtæki sem er ekki endaviðskiptamaður. Stundum er sá aðili sem verkefni er unnið fyrir annar en sá sem er að borga reikninginn. Á síðunni **Störf** er hægt að tilgreina viðskiptamanninn sem mun njóta góðs af verkinu í reitunum **Selt-til** og aðilann sem á að reikningsfæra í reitnum **Reikningsfæra á**. 
 
 ## <a name="to-create-multiple-job-sales-invoices"></a>Að búa til marga sölureikninga verks
 
@@ -66,7 +66,7 @@ Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tím
 > [!NOTE]  
 >   Ofangreint ferli er svipað þegar verið er að stofna, yfirfara og bóka verktengdan sölukreditreikning.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -74,7 +74,7 @@ Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tím
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

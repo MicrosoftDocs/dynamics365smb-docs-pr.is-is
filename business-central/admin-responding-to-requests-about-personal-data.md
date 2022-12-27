@@ -9,7 +9,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.openlocfilehash: 8c37617355582748658d20dfac9578bbf4b33d1d
 ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/04/2022
 ms.locfileid: "8382126"
@@ -34,7 +34,7 @@ Eftirfarandi tafla veitir dæmi um tegundir beiðna sem þú getur svarað.
 Skráður aðili getur óskað eftir því að þú hættir tímabundið með vinnslu á persónulegum gögnum hans. Til að heiðra slíkar beiðnir er hægt að merkja færslur þeirra sem lokaðar vegna persónuverndar til að hætta að vinna úr gögnum þeirra. Þegar skrá er merkt sem lokuð er ekki hægt að búa til nýjar færslur sem nota þessa færslu. Til dæmis getur þú ekki búið til nýjan reikning fyrir viðskiptavini þegar annað hvort viðskiptavinurinn eða seljandi er lokaður. Til að merkja skráðan aðila sem læstan skal opna spjaldið fyrir skráða aðilann, t.d. spjald viðskiptavinar, lánardrottins eða tengiliðs og velja gátreitinn **Lokað fyrir vegna persónuverndar**. Þú gætir þurft að velja **Sýna fleiri** til að birta reitinn.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Að meðhöndla beiðnir skráðra einstaklinga í prufuútgáfu
-Ákveðnar tegundir persónuupplýsinga eru hluti af reikningnum þínum Microsoft 365 og krefjast stjórnunaraðgangs til útflutnings, ef þú færð beiðni skráðs einstaklings frá notanda varðandi þessa tegund persónuupplýsinga samkvæmt almennu persónuverndarreglugerðinni (GDPR). Ferlið sem nær utan um beiðnir skráðs einstaklings fer eftir gerð [!INCLUDE[prod_short](includes/prod_short.md)] leigjandans.  
+Ákveðnar gerðir persónuupplýsinga eru hluti af Microsoft 365 reikningnum þínum og krefst stjórnunaraðgangs til að flytja út ef þú færð beiðni skráðs einstaklings frá notanda varðandi þessa tegund persónuupplýsinga samkvæmt almennu persónuverndarreglugerðinni (GDPR). Ferlið sem nær utan um beiðnir skráðs einstaklings fer eftir gerð [!INCLUDE[prod_short](includes/prod_short.md)] leigjandans.  
 
 Ef þú hefur greitt áskrift fyrir [!INCLUDE[prod_short](includes/prod_short.md)] verður þú að hafa samband við handhafastjóra fyrirtækisins til að búa til beiðni skráðs einstaklings. Stjórnandi hefur stjórnunarréttindi og verkfæri til að uppfylla beiðni þína.  
 

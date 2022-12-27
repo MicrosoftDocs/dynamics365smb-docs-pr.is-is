@@ -1,5 +1,5 @@
 ---
-title: Setja upp staðalverkhluta fyrir aðgerðir
+title: Setja upp staðalverk fyrir aðgerðir
 description: Kynntu þér hvernig þú setur upp stöðluð verk og bætir stöðluðum verkum við rekstur til að einfalda viðhald á leiðum.
 author: SorenGP
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 06/22/2021
 ms.author: edupont
 ms.openlocfilehash: c58d361a9b3d9732d4e29b4fea70e9f101c5e71f
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8520205"

@@ -12,7 +12,7 @@ ms.date: 06/23/2021
 ms.author: edupont
 ms.openlocfilehash: 19e44bf675e02df3494338fb729f9d28081ca6bd
 ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/29/2022
 ms.locfileid: "9361840"
@@ -21,7 +21,7 @@ ms.locfileid: "9361840"
 
 Viðskiptamenn þurfa stöðugt hærra þjónustustig, bæði hvað varðar gæði vöru en einnig hvað varðar valkosti afhendingar og greiðslu. PayPal Payments Standard gerir kleift að veita viðskiptamanninum meiri þjónustu.
 
-Í stað þess að innheimta greiðslur með gíró eða kreditkort getur boðið að viðskiptamenn greiði gegnum PayPal reikning þeirra . Þegar þú sendir sölureikning með tölvupósti þá er PayPal tengill í meginmáli tölvupósts og í meðfylgjandi PDF skjali. Þegar viðskiptamaður velur tengilinn birtist þjónustusíða fyrir PayPal reikning hans þar sem nákvæmar greiðsluupplýsingar fyrir söluna koma fram. Viðskiptamaður getur síðan greiða reikning og sem hverja aðra PayPal greiðslu.
+Í stað þess að innheimta greiðslur með gíró eða kreditkort getur boðið að viðskiptamenn greiði gegnum PayPal reikning þeirra . Þegar sölureikningur er sendur með tölvupósti er tengill fyrir PayPal í meginmáli tölvupóstsins og í viðhengdu PDF-skjali. Þegar viðskiptamaður velur tengilinn birtist þjónustusíða fyrir PayPal reikning hans þar sem nákvæmar greiðsluupplýsingar fyrir söluna koma fram. Viðskiptamaður getur síðan greiða reikning og sem hverja aðra PayPal greiðslu.
 
 Staðlaða PayPal greiðsluþjónustan býður upp á eftirfarandi kosti:
 

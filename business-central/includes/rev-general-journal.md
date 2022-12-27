@@ -5,7 +5,7 @@ ms.date: 10/27/2022
 ms.author: bholtorf
 ms.openlocfilehash: a686428deb5dae023c80a3c668605c98772db021
 ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/28/2022
 ms.locfileid: "9728706"
@@ -17,10 +17,10 @@ ms.locfileid: "9728706"
 * **Afrita valdar línur í færslubók** - Afrita aðeins línurnar sem þú velur.
 * **Afrita fjárhagsdagbók í færslubók** - Afrita allar línur sem tilheyra sömu fjárhagsdagbók.
 
-Þessar aðgerðir gera kleift að stofna afrit af færslubókarlínu eða runu og tilgreina svo:
+Þessar aðgerðir gera þér kleift að búa til afrit af almennri færslubókarlínu eða runu og tilgreina svo:
 
 * Bókin sem afrita á línurnar í
 * Hvort með gagnstæðum formerkjum (bakfærslubók)
 * Önnur bókunardagsetning eða fylgiskjalsnúmer
 
-Ef leyfa á að færslubækur séu afritaðar í bókaðar færslubækur, á **færslubókarsniðmátunum** eða **á almennum færslubókarkeyrðum**, er gátreiturinn afrita í bókaðar færslubókarlínur **færslubókar valinn**. Þegar búið er að leyfa fólki að afrita bókaðar færslubækur er hægt að slökkva á afritun fyrir tilteknar runur.
+Til að leyfa að afrita færslubækur í bókaðar færslubækur skal á síðunum **Sniðmát færslubóka** eða **Færslubókarkeyrsla** velja gátreitinn **Afrita í bókaðar færslubókarlínur**. Þegar búið er að leyfa fólki að afrita bókaðar færslubækur er hægt að slökkva á afritun fyrir tilteknar runur.

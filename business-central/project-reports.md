@@ -9,7 +9,7 @@ ms.date: 06/01/2021
 ms.author: andreipa
 ms.openlocfilehash: 43aded1d5b69d3e464221dd492df9a7ef96c19fa
 ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/17/2022
 ms.locfileid: "8455750"
@@ -21,7 +21,7 @@ Verkskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gerir starf
 ## <a name="reports"></a>Skýrslur
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## <a name="tasks"></a>Verk
+## <a name="tasks"></a>Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 

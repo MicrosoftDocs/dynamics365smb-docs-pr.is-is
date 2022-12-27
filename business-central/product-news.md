@@ -8,7 +8,7 @@ ms.date: 06/22/2021
 ms.author: edupont
 ms.openlocfilehash: 3c26215511829512241a2aac1d20880beca251cb
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532134"
@@ -21,7 +21,7 @@ ms.locfileid: "9532134"
 
 Eftirfarandi listi veitir upplýsingar um nýjustu útgáfuna af [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-* [2022 losun bylgjupappa 1](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features)  
+* [2022 útgáfutímabil 1](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features)  
 * [2021 útgáfutímabil 2](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
 * [2021 útgáfutímabil 1](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
 

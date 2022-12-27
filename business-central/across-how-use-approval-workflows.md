@@ -1,5 +1,5 @@
 ---
-title: Samþykkja eða hafna skjölum í verkflæðum
+title: Samþykkja eða hafna skjölum í verkflæði
 description: Fara fram á, hafna eða framselja samþykkt á, til dæmis, innkaupa- eða söluskjali, sem hluta af verkflæði.
 author: SorenGP
 ms.topic: conceptual
@@ -10,90 +10,90 @@ ms.date: 09/12/2022
 ms.author: edupont
 ms.openlocfilehash: f1d7ef11d97d1643bb52085c13696b8831c169b6
 ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/23/2022
 ms.locfileid: "9585541"
 ---
-# <a name="how-to-use-approval-workflows"></a>Hvernig nota á samþykktarverkflæði
+# <a name="how-to-use-approval-workflows"></a>Hvernig á að nota samþykktarverkflæði
 
 Þegar færsla, svo sem innkaupaskjal eða viðskiptamannaspjald sem stofnað hefur verið þarfnast samþykktar aðila innan fyrirtækisins er send samþykktarbeiðni sem hluti af verkflæði. Beiðnin um samþykki færslu verður send til viðeigandi samþykkjanda á grundvelli þess hvernig verkflæðið hefur verið sett upp.
 
-Setja upp samþykktarverkflæði á síðunni **Verkflæði**. Einnig þarf að setja upp samþykktarnotendur, þar á meðal viðeigandi upphæðarmörk á **uppsetningarsíðu** samþykktarnotanda. Frekari upplýsingar um [uppsetningu verkflæðisins eru settar upp](across-set-up-workflows.md).  
+Setja upp samþykktarverkflæði á síðunni **Verkflæði**. Einnig verður að setja upp samþykkisnotendur, þar á meðal viðeigandi mörk upphæða, á síðunni **Uppsetning samþykkisnotanda**. Frekari upplýsingar má finna á [Setja upp verkflæði samþykktar](across-set-up-workflows.md).  
 
-Auk samþykktarverkfallverkinna sem lýst er í þessari grein er hægt að framkvæma ýmis önnur verkflæðiverk. Frekari upplýsingar um [samþykktarverkflæði nota](across-use-workflows.md).
+Í viðbót við samþykktarverkflæði sem lýst er í þessari grein geturðu framkvæmt ýmis önnur verkflæðisverk. Frekari upplýsingar má finna á [Nota Samþykktarverkflæði](across-use-workflows.md).
 
-Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur, viðskiptamannaspjöld og birgðaspjöldum eru tilbúin til að byrja sem leiðarvísir. Lærðu meira á [að undirbúa þig fyrir viðskipti](ui-get-ready-business.md).
+Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur, viðskiptamannaspjöld og birgðaspjöldum eru tilbúin til að byrja sem leiðarvísir. Frekari upplýsingar eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).
 
-## <a name="request-a-record-approval"></a>Beiðni um skráningu samþykkis
+## <a name="request-a-record-approval"></a>Biðja um samþykki á færslu
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda.
 
 1. Á síðunni sem táknar færsluna er valið **Senda samþykktarbeiðni** aðgerðin.
-2. Til að sjá allar samþykktarbeiðnir þínar skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Táknið, færa inn **Samþykktarbeiðafærslur** og velja síðan tengda tengilinn.  
+2. Til að sjá allar samþykktarbeiðnir þínar skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, fara í **Færslur samþykktarbeiðni**, velja síðan viðkomandi tengil.  
 
-Staða samþykktarfærslunnar er uppfærð úr **Stofnað** í **Opið**. Staða færslunnar, eins og innkaupareikningur, er uppfærð frá **opnu** til **samþykkis** í bið og enn er læst fyrir vinnslu þar til allir samþykkjendur hafa samþykkt færsluna.
+Staða samþykktarfærslunnar er uppfærð úr **Stofnað** í **Opið**. Staða færslunnar, til dæmis innkaupareiknings, er uppfærð úr **Opin** í **Bíður samþykkis** og er áfram lokuð fyrir úrvinnslu þar til allir samþykktaraðilar hafa samþykkt færsluna.
 
-Þegar allir nauðsynlegir samþykkjendur hafa samþykkt færsluna breytist staðan í **Útgefin**. Síðan er hægt að halda áfram að vinna með skráninguna.
+Þegar allir nauðsynlegir samþykktaraðilar hafa samþykkt færsluna breytist staðan í **Útgefin**. Þá er hægt að halda áfram að vinna með færsluna.
 
 ## <a name="cancel-approval-requests"></a>Hætta við samþykktarbeiðnir
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
-Viðskiptavinur getur óskað eftir að breyta pöntun eftir að hún hefur verið send til samþykktar. Í þessu tilfelli er hægt að hætta við samþykktarferlið, gera nauðsynlegar breytingar á pöntuninni og biðja um samþykki á ný.
+Viðskiptamaður kann að vilja breyta pöntun eftir að hún hefur verið lögð fram til samþykktar. Í slíku tilfelli má hætta við samþykktarferlið og gera nauðsynlegar breytingar á pöntuninni og síðan biðja aftur um samþykki.
 
-- Á síðunni sem birtir færsluna skal velja aðgerðina hætta á **samþykki**.
+- Á síðunni sem sýnir færsluna skal velja aðgerðina **Hætta við samþykktarbeiðni**.
 
-Þegar hætt hefur verið við samþykktarbeiðnina uppfærist staðan á samþykktarfærslunni í **Hætt við**. Staða færslunnar er uppfærð úr **Bíður samþykktar** í **Opið**. Á þessu stigi getur samþykktarferlið hafist að nýju.
+Þegar hætt hefur verið við samþykktarbeiðnina uppfærist staðan á samþykktarfærslunni í **Hætt við**. Staða færslunnar er uppfærð úr **Bíður samþykktar** í **Opið**. Nú getur samþykktarferlið hafist að nýju.
 
-## <a name="approve-or-reject-approval-requests"></a>Samþykkja eða hafna samþykkisbeiðnum
+## <a name="approve-or-reject-approval-requests"></a>Samþykkja eða hafna samþykktarbeiðnum
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
-Hægt er að vinna samþykktarbeiðnir á **síðunni beiðnir til samþykktar** og þar með samþykkja margar beiðnir í einu. Einnig er hægt að samþykkja einstakar færslur með því að velja tengilinn í tilkynningunni sem berst.
+Hægt er að vinna úr samþykktarbeiðnum á síðunni **Beiðnir til að samþykkja**, þ.m.t. að samþykkja margar beiðnum í einu. Að öðrum kosti er hægt að samþykkja einstakar færslur með því að velja tengilinn í tilkynningunni sem þú færð.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Beiðnir til að samþykkja** og velja síðan viðkomandi tengil.
-2. Veljið eina eða fleiri línur af færslunum sem á að samþykkja eða hafna.
+2. Veldu eina eða fleiri línur í færslunni/færslunum sem á að samþykkja eða hafna.
 3. Valið er **Samþykkja**, **Hafna**, eða **Framselja** aðgerðir.
 
-Þegar færsla hefur verið samþykkt eða hafnað, breytist samþykktarstaðan í **reitnum Staða** í samþykkt **eða** hafnað **, eftir því sem við á.**
+Þegar færsla hefur verið samþykkt eða henni hafnað breytist samþykktarstaða í reitnum **Staða** í **Samþykkt** eða **Hafnað**.
 
-Ef stigveldi samþykkjanda er sett upp er **Staða færslunnar í bið samþykkis** þar til allir umbeðna samþykkjendur hafa samþykkt færsluna. Þá breytist staða færslunnar í **Útgefin**.
+Ef stigveldi samþykktaraðila er uppsett er færslustaðan **Bíður samþykktar** þar til allir samþykktaraðilar hafa samþykkt færsluna. Þá mun staða færslunnar breytast í **Útgefið**.
 
 Á sama tíma breytist samþykktarstaða úr **Stofnað** í **opið** um leið og samþykktarbeiðni fyrir færsla er stofnuð. Ef beiðni er hafnað berytist samþykktarstaða í **Hafnað**. Staðan er áfram **opið** eða **Hafnað** þar til allir samþykkjendur hafa samþykki beiðnina.
 
-## <a name="delegate-approval-requests"></a>Beiðni um samþykki fulltrúa
+## <a name="delegate-approval-requests"></a>Framselja samþykktarbeiðnir
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
-Til að koma í veg fyrir að færslur komi upp eða hindri verkflæðið getur samþykkjandinn og samþykktarstjórnandinn framselt samþykkisbeiðni til staðgengils. Staðgengil getur annað hvort verið tilgreindur staðgengill, beinn samþykkjandi eða stjórnandi samþykkis, í þeirri forgangsröð. Þessi aðgerð er vanalega notuð ef samþykkjandi er ekki tiltæk eða getur ekki samþykkt beiðnir fyrir gjalddaga.
+Til að koma í veg fyrir að færslur safnist upp eða stífla verkflæðið á annan hátt getur samþykktaraðili og samþykktarstjórnandi úthlutað samþykktarbeiðni á staðgengil samþykktaraðila. Staðgengil getur annað hvort verið tilgreindur staðgengill, beinn samþykkjandi eða stjórnandi samþykkis, í þeirri forgangsröð. Þessi aðgerð er yfirleitt notuð ef samþykktaraðili er ekki við eða getur ekki samþykkt beiðnir fyrir lokadaginn.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **beiðnir til samþykktar** og veljið síðan tengda tengilinn.
-2. Velja skal eina eða fleiri beiðnir samþykktarbeiðna sem á að úthluta til samþykkjanda og velja **síðan** staðgengilsaðgerðina.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Beiðnir til að samþykkja**, velja síðan viðkomandi tengil.
+2. Veldu eina eða fleiri línur fyrir samþykktarbeiðnir sem á að úthluta á staðgengil samþykktaraðila og veldu síðan aðgerðina **Úthluta**.
 
 Tilkynning um að samþykkja beiðnina er send til staðgengilssamþykkjanda.
 
-## <a name="manage-overdue-approval-requests"></a>Stjórna beiðnum um samþykkt vanskila
+## <a name="manage-overdue-approval-requests"></a>Stjórna samþykktarbeiðnum sem eru komnar fram yfir á tíma
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
-Með reglulegu millibili þarf að minna notendur á samþykktarverkflæði vegna vanskila á samþykktabeiðnum; Aðgerðin senda samþykkt Áfallnar tilkynningar **er notuð** til að gera það.
+Með reglulegu millibili þarftu að minna notendur samþykktarverkflæðis á samþykktarbeiðnir sem komnar eru fram yfir tímann; þú notar aðgerðina **Senda samþykktartilkynningar sem komnar eru fram yfir tíma** til að gera það.
 
-Tilkynningarnar **sem** eru sendar gjaldfallnar virka ávísanir fyrir allar opnar samþykktabeiðnir sem nú eru fallnar. Hver samþykkjandi með minnst eina gjaldfallna samþykktarfærslu fær tilkynningu með listann yfir allar samþykktarbeiðnir þeirra um Vanskil. Afrit af tilkynningu er sent til samþykkjenda þeirra og allra sendenda samþykkta sem fallnar eru á tíma. Þessi Síðasta skref hjálpar til ef samþykkja þarf samþykktarfærslu vanskila í staðgengilsvara.
+Aðgerðin **Senda samþykktartilkynningar sem komnar eru fram yfir tíma** kannar allar opnar samþykktar beiðnir sem eru fallnar á tíma. Allir samþykkjendur með a.m.k. eina samþykkt fram yfir á tíma fá tilkynningu með lista yfir þær samþykktarfærslur sem fallnar eru á tíma. Afrit af tilkynningu er sent til samþykkjenda þeirra og allra sendenda samþykkta sem fallnar eru á tíma. Þetta síðasta skref er gagnlegt ef úthluta þarf samþykktarfærslu sem komin er fram yfir tíma á staðgengil.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Samþykktarbeiðnir sem eru fallnar á tíma** og velja síðan viðkomandi tengil.
 2. Á síðunni **Samþykktarbeiðnir komin fram yfir á tíma** er valið á **Samþykktarbeiðnir komin fram yfir á tíma Tilkynningar** aðgerð.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Nota samþykktarverkflæði](across-use-workflows.md)  
+[Nota Samþykktarverkflæði](across-use-workflows.md)  
 [Verkflæði](across-workflow.md)  
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
 [Sala](sales-manage-sales.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

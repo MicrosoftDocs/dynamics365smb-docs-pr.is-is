@@ -1,5 +1,5 @@
 ---
-title: Vinna með Framleiðslufjölskyldum í framleiðslu
+title: Vinna með framleiðslusamsafn í framleiðslu
 description: Þegar grunndagatal er sérsniðið fyrir fyrirtækið eða einhvern viðskiptafélaga eru breytingar á frídögum og virkum dögum færðar inn.
 author: SorenGP
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 9732817de350d4fe709802b9726a3ad8d364ec5e
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8521911"
@@ -44,11 +44,11 @@ Stofnun framleiðslusamsafna dregur úr úrkastsmagninu vegna þess að það se
 
 [Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
-[Skipulagning framleiðslu](production-manage-manufacturing.md)
-[...](production-planning.md)   
+[Framleiðsla](production-manage-manufacturing.md)
+[Áætlun](production-planning.md)   
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

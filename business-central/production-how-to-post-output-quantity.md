@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8522747"
@@ -46,13 +46,13 @@ Ef síðasta aðgerðin var bókuð verður vörunni bætt við birgðir.
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Bóka rýrnun handvirkt](production-how-to-post-scrap.md)
-[frálag bókunar](production-how-to-reverse-output-posting.md)
-
-[...](production-manage-manufacturing.md)[við framleiðsluuppsetningu framleiðslu](production-configure-production-processes.md)  
+[Bóka rýrnun handvirk](production-how-to-post-scrap.md)
+[Bakfæra frálagsbókun](production-how-to-reverse-output-posting.md)
+[Framleiðsla](production-manage-manufacturing.md)
+[Setja upp framleiðslu](production-configure-production-processes.md)  
 [Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

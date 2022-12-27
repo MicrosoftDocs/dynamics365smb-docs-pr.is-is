@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsskýrslur og greiningar
-description: Sjáðu hvaða ársskýrslur og greinaskil eru í boði í staðlaðri útgáfu Viðskiptamiðlags þannig að þú getir fylgst með viðskiptunum. Notið skýrslu 38 fyrir hagnað/tap (P & L) skýrslugerð.
+description: Finnið út hvaða fjárhagsskýrslur eru í boði í staðlaðri útgáfu Business Central til að halda utan um reksturinn. Notaðu skýrslu 38 fyrir skýrslugerð hagnaðar/taps.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -9,14 +9,14 @@ ms.date: 08/24/2022
 ms.author: edupont
 ms.openlocfilehash: 8838569a1077a5c9befc1ab11daab49432563d3c
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605084"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Fjárhagsskýrslur og greiningar í Business Central
 
-Fjárhagsskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gefur fjármála-og viðskiptasérfræðingum vald til að stofna, viðhalda, dreifa og skoða ársreikninga. Fer umfram hefðbundnar skýrslugjafar að hjálpa til við skilvirkari hönnun ýmsar gerðir skýrslna. [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur nokkrar skýrslur, rakningaraðgerðir og tól til að aðstoða endurskoðendur eða ráðamenn sem bera ábyrgð á skýrslugerð til fjármáladeildarinnar. Fjárhagsskýrsla felur í sér stuðning við víddir, svo að lykilhlutar eða víddir séu tiltæk strax; Ekki er þörf á öðrum verkfærum eða skilgreiningarskrefum.  
+Fjárhagsskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gefur fjármála- og viðskiptafólki völd til að stofna, viðhalda, innleiða og skoða fjárhagsyfirlit. Fer út fyrir takmarkanir hefðbundinnar skýrslugerðar til að hjálpa þér að hanna mismunandi gerðir af skýrslum. [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur nokkrar skýrslur, rakningaraðgerðir og verkfæri sem aðstoða endurskoðendur eða stjórnendur sem bera ábyrgð á skýrslugjöf til fjármáladeildarinnar. Fjárhagsskýrslugerð felur í sér stuðning fyrir víddir þannig að lyklahlutar eða víddir eru strax í boði; ekki er þörf á öðrum verkfærum eða grunnstillingarskrefum.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
@@ -29,21 +29,21 @@ Fjárhagsskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gefur 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Greina raunverulegar og áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md)  
-* [Undirbúa fjárhagsskýrslugerð með fjárhagslegum gögnum og lykilflokkum](bi-how-work-account-schedule.md)  
-* [Setja upp og birta KPMG-vefþjónustu byggða á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Útbúa Financial Reporting með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md)  
+* [Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
 * [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)  
 * [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
 * [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)  
 * [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Stofna kostnaðaráætlanir](finance-create-cost-budgets.md)  
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
 [Lokaár og Tímabil](year-close-years-periods.md)  
-[Nota skýrslur um Forlokun](year-prepare-preclose-reports.md)  
+[Nota skýrslur fyrir lokun](year-prepare-preclose-reports.md)  
 [Undirbúningur lokunaryfirlits](year-prepare-close-statement.md)  
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
 [Vinna með víddir](finance-dimensions.md)  

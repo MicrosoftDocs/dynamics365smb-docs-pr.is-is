@@ -12,23 +12,23 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.openlocfilehash: 0c5a8d8e9cbb556b25a3b1c5ee6069ac07c7cc9f
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534778"
 ---
-# <a name="report-and-document-layouts-overview"></a>Yfirlit yfir skýrslur og Skjalaskipan
+# <a name="report-and-document-layouts-overview"></a>Yfirlit yfir skýrslu- og skjalaútlit
 
-Skýrslusnið stjórnar efni og sniði skýrslunnar, þar á meðal hvaða gagnasvæði í skýrslugagnabanka kemur fram í skýrslunni og hvernig þeim er raðað, textastíl, myndum og fleiru. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að breyta því hvaða útlit er notað í skýrslu, búa til nýtt útlit eða breyta fyrirliggjandi útliti.
+Útlit skýrslu stjórnar efni og sniði skýrslunnar, þ.m.t. hvaða gagnareitir gagnasafn skýrslu birtast í henni, stöðu þeirra, textastíl, myndir og meira. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að breyta því hvaða útlit er notað í skýrslu, búa til nýtt útlit eða breyta fyrirliggjandi útliti.
 
 > [!NOTE]  
 > Í [!INCLUDE[prod_short](includes/prod_short.md)] táknar hugtakið "skýrsla" einnig utanaðkomandi skjöl, s.s. sölureikninga og pöntunarstaðfestingar sem þú sendir til viðskiptavina sem PDF skjöl.
 
-Einnig er hægt að nota skýrsluskipulag til að bæta efni í bréfapóstum. Skýrsluútlit getur til dæmis sparað tíma og hjálpað til við að tryggja samræmi með því að endurnýta sama efni þegar þú átt samskipti við viðskiptavini þína. Ef nota á sérsniðna skýrslu með tölvupósti verður skrárgerðin fyrir útlitinu að vera Word. Ekki er hægt að nota RDLC-skrárgerðina. Nánari upplýsingar er að finna [í setja upp endurnýtanlega texta og skipulag](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
+Einnig er hægt að nota skýrsluútlit til að bæta efni við tölvupóstskeyti. Til dæmis getur skýrsluútlit sparað tíma og tryggt samræmi með því að endurnota sama efnið þegar haft er samband við viðskiptamenn. Til að nota sérsniðið skýrsluútlit með tölvupósti verður skráargerðin fyrir útlitið að vera Word. Ekki er hægt að nota RDLC-skráargerðina. Frekari upplýsingar eru í [Setja upp endurnýtanlega texta og útlit tölvupósts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="introduction"></a>Kynning
 
-Einkum setur skýrsluskipan fram eftirfarandi atriði:
+Skýrsluútlit setur einkum eftirfarandi upp:
 
 * Merkið og gagnareitir sem taka á með úr gagnamengi tiltekinnar [!INCLUDE[prod_short](includes/prod_short.md)] skýrslu.
 * Textasniðið, eins og leturgerð, stærð og litur.
@@ -39,68 +39,68 @@ Skýrsla getur verið uppsett með mismunandi útliti sem hægt er að skipta á
 
 <!--You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).-->
 
-Það eru tveir mikilvægir þættir í skýrsluskipan sem hafa áhrif á það hvernig unnið er með þá: *útlitsgerð* og *Uppruni útlits*. Gerð útlits Tilgreinir hvers konar skrá sem útlitið byggist á. Uppruni útlits segir til um uppruna útlitins.
+Tveir mikilvægir þættir í skýrsluútliti munu hafa áhrif á hvernig þú vinnur með þau: *útlitsgerðin* og *útlitsuppruninn*. Gerð útlits gefur til kynna hvers konar skrá útlitið byggir á. Uppruni útlits gefur til kynna uppruna útlitsins.
 
-## <a name="layout-types"></a>Gerðir útlits
+## <a name="layout-types"></a>Útlitsgerðir
 
-Til eru fjórar gerðir af útliti sem hægt er að nota á skýrslur: Word, RDLC, Excel og utanumhald.
+Þú getur notað fjórar gerðir útlita í skýrslum: Word, RDLC, Excel og ytra.
 
 ### <a name="word"></a>Word
 
-Ritskipan er byggð á Word skjölum (. docx skrárgerð). Orð skipulag gera þér kleift að hanna skipulag skýrslu með notkun Microsoft Word. Word skipulag ákvarðar efnisþætti skýrslunnar hvernig þeim efnisþáttum er raðað upp og hvernig þeir líta út. Word-útlitsskjal notar gjarnan töflur til að raða efni, þar sem í frumunum geta verið gagnasvæði, texti eða myndir.
+Word-útlit byggja á Word-skjölum (.docx-skráargerð). Word-útlit gerir þér kleift að hanna skýrsluútlit með Microsoft Word. Word útlit ákvarðar innihald skýrslunnar og stjórnar því hvernig þeir efnisþættir raðast og hvernig þeir líta út. Word útlitsskjal notar vanalega töflur til að raða efni, þar sem hólf geta innihaldið gögn, reiti, texta eða myndir.
 
-[![Dæmi um Word-skýrsluútlit skjals fyrir Seðlabankaviðskipti.](media/word-layout-overview.png)](media/word-layout-overview.png#lightbox) 
+[![Dæmi um skjal word-skýrsluútlits fyrir Business Central.](media/word-layout-overview.png)](media/word-layout-overview.png#lightbox) 
 
 <!--![Example of a word report layout document for Business Central.](media/nav_wordreportlayout_edit_in_word_example.png) -->
 
-Nánari upplýsingar má finna [í vinnu með Word skipulag](ui-how-add-fields-word-report-layout.md).
+Nánari upplýsingar eru í [Vinna með Word-útlit](ui-how-add-fields-word-report-layout.md).
 
 ### <a name="excel"></a>Excel
 
-Excel skipulag byggir á Microsoft Excel vinnubókum (. xlsx skrárgerð). Þeir gera kleift að stofna skýrslur með því að nota kunnuglegar Excel-aðgerðir til að samantekta, greina og kynna gögn með verkfærum eins og formúlum, PivotTables, Pivotgrösum og fleira.
+Excel-útlit byggir á Microsoft Excel vinnubókum (.xlsx skráargerð). Þær gera þér kleift að búa til skýrslur með því að nota Excel-eiginleika til að taka saman, greina og kynna gögn með verkfærum eins og formúlum, PivotTable, PivotChart og fleirum.
 
-[![Sýnir dæmi um Excel útlit.](media/excel-layout-2.png)](media/excel-layout-2.png#lightbox)
+[![Sýnir dæmi um Excel-útlit.](media/excel-layout-2.png)](media/excel-layout-2.png#lightbox)
 
-Sjá [vinnu með Excel-skipan](ui-excel-report-layouts.md) fyrir frekari upplýsingar.
+Nánari upplýsingar eru í [Vinna með Excel-útlit](ui-excel-report-layouts.md).
 
-### <a name="rdlc"></a>RDLC-
+### <a name="rdlc"></a>RDLC
 
-RDLC-skipan byggja á skrárgerð fyrir biðlaraskilgreiningar (. RDL eða. RDLC-skrár). Þessi skipan er stofnuð og henni breytt með SQL Server Report Builder eða Microsoft RDLC-Skýrsluhönnuði. Hönnunarhugmynd fyrir RDLC-uppsetningu er svipuð og Word skipulag, þar sem útlitið ræður því hvaða svæði á að sýna og hvernig þeim er raðað. Hins vegar er hanna RDLC-skipan mun ítarlegri en Word-skipulag.
+RDLC-útlit eru byggð á útlitsskrám skýrsluskilgreiningar biðlara (.rdl eða .rdlc-skráargerðir). Þessi útlit eru búin til og þeim breytt með SQL Server Report Builder eða Microsoft RDLC Report Designer. Hönnunarhugmyndin fyrir RDLC-útlit er svipuð og fyrir Word-útlitið þar sem útlitið ákveður hvaða reiti á að sýna og hvernig þeim er raðað upp. Hönnun RDLC-útlits er hins vegar ítarlegra en Word-útlits.
 
-[![Sýnir dæmi um uppsetningu RDLC.](media/rdlc-layout-overview.png)](media/rdlc-layout-overview.png#lightbox)
+[![Sýnir dæmi um RDLC-útlit.](media/rdlc-layout-overview.png)](media/rdlc-layout-overview.png#lightbox)
 
-Frekari upplýsingar [fást í vinnu með RDLC-skipan](ui-rdlc-report-layouts.md).
+Nánari upplýsingar eru í [Vinna með RDLC-útlit](ui-rdlc-report-layouts.md).
 
 ### <a name="external"></a>Ytri
 
-Gerð ytri útlits vísar til ítarlegrar gerðar sem er sérstaklega hönnuð fyrir tilteknar skýrslur. Skýrslurnar og skipulag sjálfir koma gjarnan frá samstarfsaðilum, ekki Microsoft. Raunveruleg skrárgerð útlits mun vera breytileg eftir veitunni.
+Gerð ytra útlits vísar til ítarlegrar gerðar sem er sérstaklega hönnuð fyrir tilteknar skýrslur. Skýrslurnar og útlitin sjálf eru yfirleitt fengin frá samstarfsaðilum, ekki Microsoft. Raunveruleg skráargerð útlitsins fer eftir veitunni.
 
-Frekari upplýsingar er að finna [í þróun sérsniðinna](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render) skýrslna.
+Frekari upplýsingar er að finna í [Þróun myndþýðingar á sérsniðinni skýrslu](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## <a name="layout-sources"></a>Heimildir útlits
+## <a name="layout-sources"></a>Útlitsupprunar
 
-Auk tegundanna er skipulag frekar skipt í þrjá flokka eftir uppruna þeirra eða uppruna.
+Auk gerðar er útlitum frekar skipt niður í þrjá flokka út frá uppruna þeirra.
 
-* Skipulag viðaukauppsetningar
+* Útlit viðbóta
 
-   Framlengingarskipulag er útlit sem er hluti af framlengingu sem sett hefur verið upp í appinu. Þessi uppsetning er vanalega stöðluð skipan sem Microsoft veitir, til dæmis í grunnforritinu. Eða gætu þær verið uppsetningar sem eru innifaldar í viðaukum frá öðrum hugbúnaðarveitum. Hægt er að þekkja viðaukaskipan á **síðu skýrsluuppsetningar** þar sem nafn viðaukann og útgefanda er sýnt í **viðaukdálkinum**.
+   Útlit viðbóta eru útlit sem eru hluti af viðbót sem hefur verið sett upp í umhverfinu. Þessi útlit eru yfirleitt stöðluð útlit sem Microsoft býður upp á, t.d. í grunnforritinu. Eða þau gætu verið útlit sem eru hlut af viðbótum úr öðrum hugbúnaðarveitum. Hægt er að þekkja útlit viðbóta á síðunni **Skýrsluútlit** því að heiti viðbótar og útgefanda er sýnt í dálkinum **Viðbót**.
 
-* Skipulag notandaskilgreinds
+* Útlit skilgreind af notanda
 
-   Hin upprunaliga skipan er endaliga-notandinn. Í innu Business Central getur notandi með réttar heimildir bætt við nýju útliti á ýmsa vegu. Til dæmis væri hægt að ræsa núgildandi framlengingarútlit eða annað Notandaskilgreint. **Í útliti skýrslunnar** mun Notandaskilgreint útlit vera með tóma **viðaukadálk**.
+   Hinn uppruni útlita er endanotandinn. Í Business Central getur notandi með réttar heimildir bætt við nýjum útlitum á ýmsan hátt. Til dæmis er hægt að byrja á núverandi útliti viðbótar eða öðru útlit skilgreindu af notanda. Í **Skýrsluútliti** verður útlit skilgreint af notanda með auðan dálk fyrir **Viðbót**.
 
-   Frekari upplýsingar er að finna [í fá hóf að búa til Skýrsluskipulag](ui-get-started-layouts.md).
+   Frekari upplýsingar eru í [Hefjast handa við að búa til skýrsluútlit](ui-get-started-layouts.md).
 
-* Sérsniðnar uppsetningar
+* Sérstilla útlit
 
-  Sérsniðnar uppsetningar eru einnig skipulag sem eru stofnaðar af notendum. Munurinn er sá að þessar skipanir eru búnar til úr eldri **síðu sérsniðinnar uppsetningar** á skýrslum og þær eru bara orð og RDLC-gerð. Þó að hægt sé að stofna sérsniðna skipan er verið að búa þær til í þágu notendaskilgreinds uppsetningar.
+  Sérsniðin útlit eru einnig útlit sem notendur búa til. Munurinn er sá að þessi útlit eru búin til á eldri síðunni **Sérsniðin skýrsluútlit** og þau geta bara verið af Word- eða RDLC-gerðinni. Þótt þú getir enn búið til sérsniðin útlit er verið að taka þau úr umferð og nota frekar útlit skilgreind af notanda.
 
-  Frekari upplýsingar er að finna [í (Legacy) stofna og breyta skipan](ui-how-create-custom-report-layout.md) sérsniðinnar skýrslu.
+  Nánari upplýsingar er að finna í [(Eldra) Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).
 
-Fyrir upplýsingar sem hjálpa þér að ákveða hvaða tegund er best fyrir þig, sérðu [ákveða hvaða gerð af útliti þú vilt](ui-get-started-layouts.md#decide).
+Fyrir upplýsingar sem hjálpa þér að ákveða hvaða gerð er best fyrir þig skaltu skoða [Taktu ákvörðun um hvers konar útlit þú vilt nota](ui-get-started-layouts.md#decide).
 
 > [!IMPORTANT]
-> Eitt mikilvægt atriði til muna er að ekki er hægt að breyta framlengingarútliti frá Viðskiptamiðinu. Til dæmis er ekki leyfilegt að breyta heiti útlits eða upphleðslu og skipta henni út fyrir aðra útgáfu. Ef þú reynir færðu villuskilaboð. Stofna þarf Notandaskilgreint eða sérsniðið útlit á grundvelli framlengingarútlits í staðinn.
+> Eitt mikilvægt atriði til að hafa í huga er að þú getur ekki breytt útlitum viðbóta úr biðlara Business Central. Til dæmis máttu ekki breyta heiti útlitsins eða gerðinni, eða hlaða upp og skipta því út fyrir aðra útgáfu. Ef það er reynt koma upp villuboð. Í staðinn þarftu að búa til notandaskilgreint útlit eða sérsniðið útlit sem byggir á útliti viðbótarinnar.
 
 <!--
 ### Built-in and custom report layouts
@@ -126,7 +126,7 @@ For information about how to switch the layout currently used on a report, see [
 
 
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

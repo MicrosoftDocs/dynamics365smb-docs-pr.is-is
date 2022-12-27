@@ -11,7 +11,7 @@ ms.date: 08/31/2021
 ms.author: edupont
 ms.openlocfilehash: c298903d62da4cfd346a46ff1978ab91644fb13f
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533268"
@@ -85,7 +85,7 @@ Til að virkja vörurakningu þarftu fyrst að úthluta rakningarkóðum vöru �
 3. Á flýtiflipanum **Vörurakning** skal úthluta viðeigandi vörurakningarkóðum og velja **Vörurakningarkóði**, **Raðnúmerin** og **Lotunúmerin**.
     1. Einnig er hægt að búa til nýjan vörurakningarkóða með því að velja aðgerðina **Nýtt**.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -95,6 +95,6 @@ Til að virkja vörurakningu þarftu fyrst að úthluta rakningarkóðum vöru �
 [Hönnunarupplýsingar: Vörurakning](design-details-item-tracking.md)  
 [Hönnunarupplýsingar - vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
 [Taka frá vörur](inventory-how-to-reserve-items.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

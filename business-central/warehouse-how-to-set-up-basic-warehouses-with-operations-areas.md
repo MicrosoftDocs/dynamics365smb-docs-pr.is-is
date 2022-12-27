@@ -12,7 +12,7 @@ ms.date: 06/25/2021
 ms.author: edupont
 ms.openlocfilehash: 0f90d7e92f4196a27712a1eedbd3cd66c15a9fc2
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534022"
@@ -142,7 +142,7 @@ Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir
 > [!NOTE]  
 >  Hólfið verður að vera tómt áður en hægt er að velja eða hreinsa svæðið **Sérnýtt**.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

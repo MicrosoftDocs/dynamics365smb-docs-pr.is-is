@@ -11,7 +11,7 @@ ms.date: 08/19/2022
 ms.author: jswymer
 ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605797"
@@ -27,7 +27,7 @@ ms.locfileid: "9605797"
 |Alt+Shift+N|Lokið nýstofnaðri færslu og Stofnið nýja|
 |Alt+O|Bæta við nýrri athugasemd fyrir völdu færsluna|
 |Alt+Q|Opna **Segðu mér**|
-|CTRL + ALT + Q|Opna **finna færslur**|
+|Ctrl+Alt+Q|Opna **Finna færslur**|
 |Alt+Upp|Opna ábendingu eða staðfestingarvillu|
 |Alt+Niðurör|Opna fellilista eða flettu upp|
 |Alt+T|Opna síðuna **Mínar stillingar**|
@@ -35,9 +35,9 @@ ms.locfileid: "9605797"
 |Ctrl+Insert|Setja inn nýja línu í skjali|
 |Ctrl-Delete|Eyða línunni í fylgiskjali, færslubók eða vinnublaði|
 |Ctrl+Shift+F12|Línuatriðahluti hámarkaður á skjalssíðu|
-|Ctrl+F1|Opnaðu hjálparrúðuna eða hjálpargrein|
+|Ctrl+F1|Opnaðu hjálparsvæðið eða hjálpargreinina|
 |Ctrl+Smella|Fletta upp þegar sérstilla á og sérsníða|
-|Ctrl+O|Skiptu fyrirtæki eða umhverfi|
+|Ctrl+O|Skipa um fyrirtæki eða umhverfi|
 |Shift+F12|Opnaðu hlutverkaleit sem er yfirlit yfir eiginleika.|
 |F5/Ctrl+F5|Endurnýja/endurhlaða síðan|
 |Tab/Shift+Tab|Færa áherslu á næstu/fyrri einingu|
@@ -88,11 +88,11 @@ ms.locfileid: "9605797"
 |-|-|
 |Ctrl+Heim/Loka|Fara á fyrstu/síðustu síðu|
 
-#### <a name="numeric-keypad"></a>Talnagrind
+#### <a name="numeric-keypad"></a>Talnaborð
 
 |Ýttu á þessa takka|Til að gera þetta|  
 |-|-|
-|Skiltákn Alt + tugabrot|Víxla úttaki aukalykil aukastafa á talnagrind|
+|Alt+Tákn fyrir aukastaf|Víxla úttaki skiltáknslykils tugabrots á talnaborði|
 
 > [!TIP]
 > Fyrir myndræna, prentvæna útgáfu velurðu eftirfarandi mynd og sækir PDF-skjalið.

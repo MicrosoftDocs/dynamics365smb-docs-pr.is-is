@@ -1,5 +1,5 @@
 ---
-title: Flýtiræsing sölu (inniheldur Video)
+title: Stuttur leiðarvísir um sölu (inniheldur myndband)
 description: Kynntu þér hvernig á að fylla út fyrstu mikilvægu reitina um vörur og viðskiptamenn í Business Central svo þú getir hafið söluferli.
 author: jill-kotel-andersson
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 09/29/2021
 ms.author: edupont
 ms.openlocfilehash: b607da4fbf5ab99eb8a3af1e939fe915151e00b0
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8135607"

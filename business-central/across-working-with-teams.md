@@ -11,7 +11,7 @@ ms.date: 09/22/2022
 ms.author: jswymer
 ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
 ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/03/2022
 ms.locfileid: "9617794"
@@ -45,7 +45,7 @@ Eftirfarandi hlutar útskýra mismunandi leiðir í smáatriðum.
 
 Með forriti Business Central fyrir Teams er hægt að afrita tengli úr hvaða Business Central-færslu sem er, t.d. viðskiptavina- eða sölupöntun, og líma tengilinn í samtal í Teams. Forritið tengir Microsoft Teams við viðskiptagögnin í [!INCLUDE [prod_short](includes/prod_short.md)]\. Því næst er tengillinn stækkaður í gagnvirkt spjald sem birtir upplýsingar um færsluna. Þegar á samtalinu stendur getur þú og samstarfsfólk þitt skoðað frekari upplýsingar um færsluna, breytt gögnum og gripið til aðgerða &mdash; án þess að fara úr Teams.
 
-[![Teyma samþættingu við rekstur miðsvæðis.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
+[![Samþætting Teams við Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Frumskilyrði
 
@@ -60,19 +60,19 @@ Með forriti Business Central fyrir Teams er hægt að afrita tengli úr hvaða 
 1. Skráðu þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] með vafranum.
 2. Opnið færsluna sem á að deila.
 
-    Forritið er hannað til að birta kort fyrir nánast hvaða tegund af [!INCLUDE [prod_short](includes/prod_short.md)] síðu sem er. En hún veitir bestu upplifunina þegar hún er notuð fyrir síður sem sýna staka færslu, til dæmis vöru, viðskiptavin eða sölupöntun.
+    Forritið er hannað til að sýna spjald fyrir næstum hvaða tegund af [!INCLUDE [prod_short](includes/prod_short.md)] síðu sem er. En það býður upp á bestu upplifunina þegar það er notað fyrir síður sem sýna eina færslu, t.d. vöru, viðskiptamann eða sölupöntun.
 3. Afritaðu tengilinn á síðuna.
 
-    Það eru tvær leiðir til að afrita hlekkinn. Auðveldasta og ákjósanlegri leiðin er að **velja**![tákn með samnýta hluti í hlekknum aðalafritun. ](media/share-icon.png) > **·** Hin leiðin er að, afrita alla SLÓÐINA af veffangsrein vafrans.
+    Hægt er að afrita tengilinn á tvo vegu. Auðveldasta og ákjósanlegasta leiðin er að velja **Deila** ![Deilingartákn í Business Central](media/share-icon.png) > **Afrita tengil**. Hin leiðin er að afrita alla vefslóðina úr veffangastiku vafrans.
 
-    [![Afrita Aðalurl í fyrirtæki úr vafra.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
+    [![Afritið vefslóð Business Central úr vafra.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Farið í Teams og hefjið samtal sem getur verið spjall við einstakling, hóp eða teymisrás.
-5. Líma skal tengilinn (URL) í skilaboðakassa þar sem skilaboð eru samsett.
+5. Límið tengilinn (slóðina) í skilaboðagluggann þar sem skrifuð eru skilaboð.
 
     ![Límið vefslóð Business Central í Teams.](media/teams-paste-url-v2.png)
 
     > [!TIP]
-    > Ef þú færð skilaboð eins og: *viðskiptamiðlarinn vill sýna sýnishorn af þessum tengli.*, það þýðir að þú átt ekki viðskipti miðlægt App fyrir teymi uppsett. Til að setja upp forritið velurðu **Sýna forskoðun** og fylgir leiðbeiningunum.
+    > Ef þú færð skilaboð eins og: *Business Central vill sýna forskoðun á þessum tengli* þýðir það að þú ert ekki með Business Central-forritið fyrir Teams uppsett. Til að setja upp forritið skal velja **Sýna forskoðun** og fylgja leiðbeiningunum.
 6. Fyrsta skiptið sem tengill er límdur í samtal, verður beðið um innskráningu í [!INCLUDE [prod_short](includes/prod_short.md)] og að veita samþykki fyrir forritinu til að sækja gögn. Fylgið einfaldlega leiðbeiningunum á skjánum.
 
     > [!NOTE]
@@ -87,9 +87,9 @@ Með forriti Business Central fyrir Teams er hægt að afrita tengli úr hvaða 
 
 ### <a name="view-card-details"></a>Skoða upplýsingar spjalds
 
-Þegar búið er að senda spjald á samtal, geta allir þátttakendur með [viðeigandi heimildir](admin-teams-integration.md#permissions) valið **Upplýsingar** til að opna glugga sem sýnir frekari upplýsingar um færsluna&mdash;og hugsanlega geta gert breytingar á henni. Það skiptir ekki máli hvort það sért þú sem sendir spjaldið eða sá sem fær spjaldið. **Aðgerðin upplýsingar** gagnast sérstaklega vel þeim viðtakendum þar sem hún veitir þeim fljótt nákvæmar upplýsingar um færsluna.
+Þegar búið er að senda spjald á samtal, geta allir þátttakendur með [viðeigandi heimildir](admin-teams-integration.md#permissions) valið **Upplýsingar** til að opna glugga sem sýnir frekari upplýsingar um færsluna&mdash;og hugsanlega geta gert breytingar á henni. Það skiptir ekki máli hvort það sért þú sem sendir spjaldið eða sá sem fær spjaldið. Eiginleikinn **Upplýsingar** er sérstaklega gagnlegur viðtakendum af því að hann veitir þeim samanteknar, hnitmiðaðar upplýsingar um færsluna á fljótlegan hátt.
 
-Upplýsingaglugginn er svipaður því sem sést í [!INCLUDE [prod_short](includes/prod_short.md)], en hann beinist að síðunni eða færslunni sem kortið snýst um. Þegar skoðun er lokið og breytingar hafa verið gerðar skal loka glugganum til að fara aftur í samtalið í Teams.
+Upplýsingaglugginn er svipaður því sem þú myndir sjá í [!INCLUDE [prod_short](includes/prod_short.md)] en hann einblínir á síðuna eða færsluna sem spjaldið er um. Þegar skoðun er lokið og breytingar hafa verið gerðar skal loka glugganum til að fara aftur í samtalið í Teams.
 
 Hér eru nokkur atriði sem vert er að hafa í huga þegar unnið er með upplýsingar spjalds:
 
@@ -102,14 +102,14 @@ Frekari upplýsingar um hvernig nota á spjöld og upplýsingar spjalds er að f
 
 Beint af flestum innheimtusíðum eins og **Vörusíðum** og upplýsingasíðum eins og **Birgðaspjaldi** er hægt að senda tengil á síðuna til tiltekinna viðtakenda í samtali í Teams. Til dæmis er hægt að deila tengli á síað yfirlit yfir færslurnar þínar. Viðtakendur geta þá valið tengilinn til að opna síðuna í [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
-[![! Valmyndinni samnýta sem birtist á spjaldi.](media/teams-share-link-v2.png "Deilingarvalmyndin sýnd á spjaldi.")](media/teams-share-link-v2.png#lightbox)
+[![!Deilingarvalmynd sýnd í spjaldi.](media/teams-share-link-v2.png "Deilingarvalmyndin sýnd á spjaldi.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Frumskilyrði
 
 - Þú hefur aðgang að Microsoft Teams.
-- Valfrjálst Þú hefur sett upp [!INCLUDE [prod_short](includes/prod_short.md)] App í teymum. 
+- (Valkvæmt) Þú hefur sett upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið  í Teams. 
 
-  Með App uppsett, skilaboð sem send eru með hlekknum fylgja með er einnig hægt að taka með Compact kort fyrir síðuna. Frekari upplýsingar um uppsetningu forritsins er að finna í [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md).
+  Með forritið uppsett munu skilaboð sem þú sendir með tenglinum einnig innihalda samandregið spjald fyrir síðuna. Frekari upplýsingar um uppsetningu forritsins er að finna í [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md).
 
 ### <a name="share-a-link"></a>Deila tengli
 
@@ -117,7 +117,7 @@ Beint af flestum innheimtusíðum eins og **Vörusíðum** og upplýsingasíðum
 2. Efst á síðunni skal velja ![!Deila á aðrar forritsaðgerðir á síðum.](media/share-icon.png) síðan **Deila með Teams**.
 3. Ef beðið er um innskráningu í Teams með notandanafninu þínu og lykilorði.
 4. Á síðunni **Deila með Teams** skal slá inn heiti einstaklings, hóps eða rásar sem á að senda skilaboðin til.
-5. Skilaboðaglugginn mun innihalda tengil á síðuna. [!INCLUDE [prod_short](includes/prod_short.md)] Ef App fyrir hópana er uppsett mun spjald fyrir tengda færslu eða síðu einnig birtast í skilaboðakassa.
+5. Skilaboðaglugginn mun innihalda tengil á síðuna. Ef [!INCLUDE [prod_short](includes/prod_short.md)] forritið fyrir Team er uppsett mun spjald fyrir tengdu færsluna eða síðuna einnig birtast í upplýsingareitnum.
 
    Bættu við frekari upplýsingum ef þú vilt og veldu svo **Deila**.
 6. Tenglinum hefur nú verið deilt. Ef þú vilt fara í samtalið skaltu velja **Fara í Teams**.

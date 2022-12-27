@@ -11,7 +11,7 @@ ms.date: 06/11/2021
 ms.author: edupont
 ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
 ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/04/2022
 ms.locfileid: "9744924"
@@ -32,14 +32,14 @@ ms.locfileid: "9744924"
 |Setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, viðskiptavini, lánardrottna, atriði, og mælieiningar, sem tengjast vörpunargögnum í [!INCLUDE[prod_short](includes/prod_short.md)]|[Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Setja upp bankareikning, lánardrottin og greiðslubók fyrir SEPA-millifærslur.|[Setja upp SEPA-kreditfærslur](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Undirbúið bankareikningssnið, greiðsluaðferðir og samninga við viðskiptavini um SEPA-beingreiðslur.|[Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)|  
-|Setja upp sannvottun notanda og vefslóð veitu AMC Banking 365 Fundamentals-viðbótarinnar sem er nauðsynleg til að umbreyta bankaskrám á snið bankans þíns.|[AMC Banking 365 Fundamentals Nota viðaukann](ui-extensions-amc-banking.md)|  
+|Setja upp sannvottun notanda og vefslóð veitu AMC Banking 365 Fundamentals-viðbótarinnar sem er nauðsynleg til að umbreyta bankaskrám á snið bankans þíns.|[Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)|  
 |Setja upp og virkja utanaðkomandi þjónustu sem gerir kleift að flytja inn bankayfirlit beint sem bankastreymi.|[Setja upp bankayfirlitsþjónustu](bank-how-setup-bank-statement-service.md)|  
 |Eftir að bankayfirlitsþjónusta er gerð virk skal tengja bankareikninga í [!INCLUDE[prod_short](includes/prod_short.md)]|[Bankareikningar settir upp](bank-how-setup-bank-accounts.md)|  
-|Setja upp gagnaútflutning fyrir Intrastat-skýrslugerð í [!INCLUDE[prod_short](includes/prod_short.md)].|[Setja upp Intrastat-skýrslugerð](finance-how-setup-report-intrastat.md)|
+|Settu upp gagnaútflutning fyrir Intrastat-skýrslugerð í [!INCLUDE[prod_short](includes/prod_short.md)].|[Setja upp Intrastat skýrslugerð](finance-how-setup-report-intrastat.md)|
 |Undirbúið að setja upp nýja gagnaskiptaskilgreiningu fyrir tiltekna gagnaskrá eða straum með því að nota XML-skema skrárinnar til að fylla út í flýtiflipann **Dálkskilgreiningar** á síðunni **Bókunarskilgreining**.|[Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Setja upp Data Exchange Framework til að gera notendum kleift að taka á móti nýju sniði innkaupaskjala, senda ný snið söluskjala, flytja inn nýjar bankaskrá eða önnur gagnaskipti.|[Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

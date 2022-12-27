@@ -1,6 +1,6 @@
 ---
-title: Stofna nýja framl. UPPSKRIFT og UPPSKRIFTARÚTGÁFU
-description: Walkof til að læra hvernig á að bæta öðrum kaffibaunum saman við vörulínu contoso Coffee í Business Central.
+title: Stofna nýja framleiðsluuppskrift og uppskriftarútgáfu
+description: Kynning til að komast að því hvernig á að bæta annarri kaffivél við vörulínu Contoso Coffee í Business Central.
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -8,76 +8,76 @@ author: edupont04
 ms.author: andreipa
 ms.openlocfilehash: 3c631e0285e0fdc6db5bf70cd0f5167741f602f9
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8524196"
 ---
-# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Walkthrough: Búa til nýja framl. UPPSKRIFT og uppskriftarútgáfu
+# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Kynning: Stofna nýja framleiðsluuppskrift og uppskriftarútgáfu
 
-Í þessari grein tökum við á móti þér leiðbeiningar til að nota contoso kaffi sýnigögnin til að vinna með uppskriftir í framleiðsluferlum.  
+Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að vinna með uppskriftir í framleiðsluferlunum.  
 
 ## <a name="scenario"></a>Aðstæður
 
-Contoso Coffee hefur ákveðið að bæta öðrum kaffibaunum við vörulínuna sína: **SP-SCM1008 Airpot Lite**. Þessi kaffivél er eins og sú sem til er í vöru **SP-SCM1009 Airpot**, nema að hún inniheldur ekki hlýjan disk, **SP-BOM1104**. Í aðskildu skrefi er on/Off ljósið, **SP-BOM1106** fjarlægt fyrir útgáfu af Airpot Lite uppskriftinni.
+Contoso Coffee hefur ákveðið að bæta við annarri kaffivél við vörulínuna: **SP-SCM1008 Airpot Lite**. Þessi kaffivél er eins og núverandi vara **SP-SCM1009 Airpot**, nema að hún inniheldur ekki hitaplötuna, **SP-BOM1104**. Í aðskildu skrefi er ljósrofinn **SP-BOM1106** fjarlægður fyrir útgáfu af uppskrift Airpot Lite.
 
-Oscar, vinnsluverkfræðingur hjá Contoso Coffee, verður að setja upp nýja framleiðsluuppskrift til að skilgreina upphafskröfur íhluta fyrir Airpot Læsi. Hann verður þá að setja upp nýja uppskriftarútgáfu, með upphafsdegi 01. júlí, til að samræma við frekari áætlanir um að gefa út aðra útgáfu.
+Oscar, ferlahönnuður hjá Contoso Coffee, verður að setja upp nýja framleiðsluuppskrift til að skilgreina upphaflegar þarfir íhluta fyrir Airpot Lite. Hann verður síðan að setja upp nýja uppskriftarútgáfu með upphafsdeginu 1. júlí til að passa við frekari áætlanir um útgáfu annarrar útgáfu.
 
 ## <a name="steps"></a>Skref
 
-1. Búa til nýja framl. UPPSKRIFT fyrir Airpot Lite.
+1. Stofnaðu nýja framleiðsluuppskrift fyrir Airpot Lite.
 
-    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **framl. uppskrift** og veljið síðan tengda tengilinn.  
+    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Framleiðsluuppskrift** og velja síðan viðkomandi tengil.  
 
-    2. **Velja nýju** aðgerðina og síðan eru reitirnir fylltir út eins og lýst er í eftirfarandi töflu.  
+    2. Veldu aðgerðina **Nýtt** og fylltu svo út reitina eins og lýst er í eftirfarandi töflu.  
 
-        |Svæði  |Gildi:  |
+        |Svæði  |Virði  |
         |---------|---------|
         |**Nr.** |SP-SCM1008|
-        |**Lýsing** |Airpot Lite|
-        |**Mælieiningarkóti**|STYKKI  |
+        |**Lýsing** |Airpot lite|
+        |**Mælieiningarkóði**|PCH  |
 
-2. Afrita uppskriftaríhluti úr framleiðsluuppskrift **SP-SCM1009**.
+2. Afritaðu íhluti uppskriftar úr framleiðsluuppskriftinni **SP-SCM1009**.
 
-    1. Velja skal **aðgerðina AFRITA uppskrift**.
+    1. Veldu aðgerðina **Afrita uppskrift**.
 
-    2. **Á síðunni framl uppskriftir** er hægt að velja línuna **SP-SCM1009, airpot** og velja **síðan OK** hnappinn.
+    2. Á síðunni **Framleiðsluuppskriftir** skal velja línuna fyrir **SP-SCM1009 Airpot** og síðan velja hnappinn **Í lagi**.
 
-3. Breyttu íhlutunum fyrir nýju framleiðsluuppskriftina eins og lýst er í atburðarásinni.
+3. Breyttu íhlutunum fyrir nýju framleiðsluuppskriftina eins og lýst er í sviðsmyndinni.
 
-    1. **Á vöruflipanum línur** er valin lína fyrir vöruna **SP-BOM1104** og síðan er **valið aðgerðin eyða línu**.  
+    1. Í flýtiflipanum **Línur** skal velja línuna fyrir vöruna **SP-BOM1104** og síðan velja aðgerðina **Eyða línu**.  
 
-4. Lögð fram nýja UPPSKRIFTIN.  
+4. Vottaðu nýju uppskriftina.  
 
-    1. **Í reitinn Staða** skal velja *Vottað*.  
+    1. Í reitnum **Staða** skal velja *Vottað*.  
 
-5. Stofnið framleiðsluuppskriftarútgáfu fyrir Airpot Læsi.
+5. Stofnaðu útgáfu framleiðsluuppskriftar fyrir Airpot Lite.
 
-    1. **Veljið útgáfuaðgerðina**.
+    1. Veldu aðgerðina **Útgáfur**.
 
-    2. **Á listasíðu** framl. uppskriftarútgáfunnar er valin **aðgerðin** og reitirnir síðan fylltir út eins og lýst er í eftirfarandi töflu.  
+    2. Á síðunni **Útgáfulisti framl.uppskr** skal velja aðgerðina **Ný** og síðan fylla út reitina eins og lýst er í eftirfarandi töflu.  
 
-        |Svæði  |Gildi:  |
+        |Svæði  |Virði  |
         |---------|---------|
-        |**Kóði útgáfu** |02|
+        |**Útgáfukóði** |02|
         |**Lýsing** |Airpot Lite, v2|
-        |**Mælieiningarkóti**|STYKKI  |  
-        |**Upphafsdagsetning**|Júlí 01  |  
+        |**Mælieiningarkóði**|PCH  |  
+        |**Upphafsdagsetning**|01. júlí  |  
 
-6. Afrita íhlutalínur úr framleiðsluuppskriftinni í nýju UPPSKRIFTARÚTGÁFUNA.
+6. Afritaðu íhlutalínurnar úr framleiðsluuppskriftinni í nýju uppskriftarútgáfuna.
 
-    1. **Veljið aðgerðina AFRITA uppskrift** og veljið **svo Já** -hnappinn til að afrita ÍHLUTI úr upprunalegu framleiðsluuppskriftinni.
+    1. Veldu aðgerðina **Afrita uppskrift** veldu síðan hnappinn **Já** til að afrita íhlutina úr upprunalegri framleiðsluuppskrift.
 
-7. Fjarlægið vöruna **SP-BOM1106, kveikt/slökkt á ljósinu** frá útgáfuþáttunum.
+7. Fjarlægðu vöruna **SP-BOM1106, Ljósrofi** úr íhlutum útgáfunnar.
 
-8. Lögð fram ný UPPSKRIFTAÚTGÁFA.
+8. Vottaðu nýju uppskriftarútgáfuna.
 
-    1. **Í reitinn Staða** skal velja *Vottað*.  
+    1. Í reitnum **Staða** skal velja *Vottað*.  
 
-    2. Loka UPPSKRIFTAÚTGÁFUNNI
+    2. Lokaðu uppskriftarútgáfunni
 
-Nýja kaffiframleiðandann er nú sett upp sem framleiðsluuppskrift með einni útgáfu.  
+Nýja kaffivélin er nú sett upp sem framleiðsluuppskrift með einni útgáfu.  
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Kynning á contoso kaffi sýnigögnum](contoso-coffee-intro.md)  
+[Kynning á sýnigögnum Contoso Coffee](contoso-coffee-intro.md)  

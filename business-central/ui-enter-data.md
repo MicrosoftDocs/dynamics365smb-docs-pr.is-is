@@ -1,5 +1,5 @@
 ---
-title: Færa inn gögn í Viðskiptamiðinu
+title: Færa gögn inn í Business Central
 description: Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri hætti og af meiri nákvæmni. Grunnreglum og ítarlegum eiginleikum er lýst hér.
 author: jswymer
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 03/23/2022
 ms.author: jswymer
 ms.openlocfilehash: ecf23184faea42895973d11115904606d715d31a
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528620"
@@ -25,7 +25,7 @@ Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri
 
 Í dæmunum í þessu efnisatriði er notast við sýnigögn.
 
-## <a name="work-with-editable-fields"></a>Vinna með breytanleg svæði
+## <a name="work-with-editable-fields"></a>Vinna með breytanlega reiti
 
 Reitirnir í [!INCLUDE[prod_short](includes/prod_short.md)] gætu innihaldið mismunandi breytanleg gögn, eins og texta eða gjaldmiðilsupphæðir. Breytanlegir reitir sýna yfirleitt innsláttarreit þar sem hægt er að slá inn gildi eða velja það. Óbreytanlegir reitir birtast yfirleitt með gráum bakgrunni.   
 
@@ -165,7 +165,7 @@ Til að opna núverandi spjald eða skjal í nýjum glugga skal velja ![Opna ný
 > Ef unnið er í Safari-vafranum gæti sprettigluggavörn valdið því að nýi glugginn opnist ekki. Ef þetta er tilfellið skal tilgreina vefslóð afurðarinnar sem heimilaða vefsvæði. Frekari upplýsingar er að finna í [Breyta sérstillingum í Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Sama kann að gerast í öðrum vöfrum, svo sem Firefox. Frekari upplýsingar er að finna í [Stillingar sprettigluggavarnar í Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Önnur leið til að fjölga verkefnum er að opna [!INCLUDE[prod_short](includes/prod_short.md)] á tveimur eða fleiri flipa vafra. Þegar þetta er gert ætti að búa til nýjan flipa og síðan afrita/líma vefslóð upprunalega flipans í nýja flipann. Þetta býr til nýja lotu.   
+Önnur leið til að gera margt í einu er að opna [!INCLUDE[prod_short](includes/prod_short.md)] í tveimur eða fleiri vafragluggum. Þegar þetta er gert ætti að búa til nýjan flipa og síðan afrita/líma vefslóð upprunalega flipans í nýja flipann. Þetta býr til nýja lotu.   
 
 > [!NOTE]
 > Ekki skal nota aðgerðina **Tvítekning** í vafranum til að búa til nýjan flipa því að það getur leitt til þess að aðgerðir í einum flipa útiloki aðgerðir í öðrum flipa vegna þess að þeir tilheyra sömu lotunni.
@@ -206,7 +206,7 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 
 ### <a name="entering-dates"></a>Dagsetningar færðar inn
 
-Þú getur annaðhvort notað gagnaval til að velja dagsetningu úr dagbók eða fært inn dagsetningar handvirkt. Þessi hluti veitir stutt yfirlit yfir hvernig skuli slá inn dagsetningar. Frekari upplýsingar er að finna [í vinnu með Dagatalsdagsetningar og tímasetningar](ui-enter-date-ranges.md).
+Þú getur annaðhvort notað gagnaval til að velja dagsetningu úr dagbók eða fært inn dagsetningar handvirkt. Þessi hluti veitir stutt yfirlit yfir hvernig skuli slá inn dagsetningar. Frekari upplýsingar er að finna á [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md).
 
 Fyrir handvirka færslu á dagsetningu er hægt að færa inn tvær, fjórar, sex eða átta tölur:  
 
@@ -217,7 +217,7 @@ Fyrir handvirka færslu á dagsetningu er hægt að færa inn tvær, fjórar, se
 - Ef sú dagsetning sem færa á inn er á bilinu 01/01/1950 til 31/12/2049 skaltu slá inn árið með tveimur tölustöfum. Annars skaltu slá inn ártal með fjórum tölustöfum.
 
   > [!NOTE]
-  > Ef þú ert að nota [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss gæti tveggja stafa ársviðssvið verið annað. Stjórnendur geta breytt sviðinu með því að **Breyta calendartwodigityearmax** stillingu [!INCLUDE[prod_short](includes/prod_short.md)] þjónsins. Fyrir frekari upplýsingar sjá [samskipa Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+  > Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum getur tveggja stafa árabilið verið mismunandi. Stjórnendur geta breytt bilinu með því að breyta stillingunni **CalendarTwoDigitYearMax** á [!INCLUDE[prod_short](includes/prod_short.md)] þjóninum. Frekari upplýsingar er að finna í [Skilgreining Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 Einnig er hægt að færa inn dagsetningu sem vikudag með vikunúmeri. Einnig er hægt að færa inn ártal. Til dæmis þýðir Mán25 eða mán25 mánudagur í viku 25.  
 
@@ -275,19 +275,19 @@ Hér eru nokkur dæmi.
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum
 
-Þegar aðgreiningarlykill með aukastöfum er notaður á talnaborði til að færa inn gögn eru raunveruleg tugabrot sem færð eru inn í svæðið ákvörðuð af svæðisstillingu þinni í Business Central. Flest svæði nota táknið tímabil (.) eða kommu (,) sem skiltákn fyrir tugagildi eins og vanalega sé í gjaldmiðilsupphæðir. Tugalykillinn á takkanum þínum lagar sig að þínu svæði. Oft er ýmist um að ræða tímabil eða kommu lykla á restinni af lyklaborðinu. Þú stillir svæðið í Business Central á **síðunni mínar stillingar**.
+Þegar notaður er skiltáknslykill tugabrots á talnaborði til að slá inn gögn, er raunverulegt skiltákn tugabrots sem slegið er inn í reitinn ákvarðað af svæðisstillingu Business Central. Flest svæði nota punkt (.) eða kommu (,) sem skiltákn fyrir tugabrot, eins og þú myndir yfirleitt sjá í upphæðum gjaldmiðla. Tugabrotslykillinn á talnaborðinu aðlagast að svæðinu þínu. Hann er oft ólíkur punkta- eða kommulykli á hinum hluta lyklaborðsins. Þú stillir svæðið í Business Central á síðunni **Mínar stillingar**.
 
-Segjum til dæmis að þú sért að nota Talnalykil sem notar tímabil (.) sem skilalykil aukastafa. En verið er að færa inn gögn fyrir svæðisbundin tungumál sem notast við kommu (**,**) fyrir aðgreiningu tugabrota eins og franska (Frakkland). Þú vilt því að skiltákn eins og „1.23“ sé slegið inn sem „1,23“. Í þessu tilfelli er hægt að **fara á síðuna stillingar** og stilla **svæðið** á Mark svæðisbundið tungumál til **Frakklands (Frakklands)**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md#region).
+Segjum til að mynda að notað sé talnaborð sem notar punkt (.) sem skiltáknslykil tugabrotsins. En gögn eru slegin inn fyrir svæðistungumál sem notar kommu (**,**) fyrir skiltákn tugabrotsins, eins og í frönsku (Frakklandi). Þú vilt því að skiltákn eins og „1.23“ sé slegið inn sem „1,23“. Í þessu tilfelli er hægt að fara á síðuna **Mínar stillingar** og stilla **Svæðið** á það svæðistungumál sem á að nota, eins og **Franska (Frakkland)**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md#region).
 
 > [!TIP]
-> Það getur verið tilefni þegar nota á aðgreiningu aukastafa til að slá inn tímabil (.). Segjum til dæmis að farið hafi verið inn á dagsetningasvið í síu, eins `01/01/2022..04/01/2022`, eða hvað sem er, ef þarf tímabil. Til að móta þetta mál er ýtt á Skilalykla Alt + aukastafa á talnabykinu. Þessi lyklasamsetning skiptir aðgreiningarskilmerkjum milli útganga tímabils og skilta tugabrota eins og það er **ákvarðað með svæðastillingunni**.
+> Það geta komið upp tilfelli þar sem þú vilt nota skiltákn tugabrots til að færa inn punkt (.). Gefum okkur til dæmis að þú hafir slegið inn dagsetningabil í síu, t.d. `01/01/2022..04/01/2022`, eða eitthvað sem krefst punkts. Til að fylgja þessum dæmi skaltu ýta á lyklana „Alt+Tákn fyrir aukastaf“ á talnaborðinu. Þessi lyklasamsetning skiptir skiltákni tugabrots sem kemur með punkt og skiltákni tugabrots sem ákvarðast af **Svæðisstillingunni**.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

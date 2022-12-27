@@ -8,7 +8,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605111"
@@ -35,7 +35,7 @@ Ef senda á viðskiptavini áminningar um gjaldfallnar greiðslur þarf að setj
 > [!TIP]
 > Í grunnútgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] , eru greiðsluskilmálar með hlutagreiðslu ekki studdir. Þess í stað verður að nota fyrirframgreiðsluaðgerðina. Nánari upplýsingar um það eru í [Setja upp fyrirframgreiðslur](finance-set-up-prepayments.md).
 >
-> Í sumum löndum *getur* þú sett upp greiðsluskilmála með hlutagreiðslum. Ef þú vilt fræðast um hvort þessi hæfileiki er studdur í þínu landi Sérðu **kaflann staðbundin virkni** í skoðunarrúðunni vinstra megin á [Microsoft Learn](about-localization.md) grein.
+> Í sumum löndum *getur* þú sett upp greiðsluskilmála með hlutagreiðslum. Frekari upplýsingar um það hvort þessi valkostur er studdur í þínu landi er að finna í **Staðbundin virkni** hlutanum á yfirlitssvæðinu á vinstri hlið svæðisins [Microsoft Learn](about-localization.md) greinarinnar.
 
 ## <a name="see-also"></a>Sjá einnig
 

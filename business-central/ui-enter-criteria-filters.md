@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.openlocfilehash: 2fd135bc18f347539ba7fedcfe4b48e7bb314daf
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532404"
@@ -134,7 +134,7 @@ Hægt er að stilla einfalda síu beint á lista innan með síusvæðinu, þ.e.
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Afmarkanir stilltar í skýrslum, runuvinnslum og XMLports
 
-Fyrir skýrslur og XMLports eru síurnar sýnilegar beint á beiðnisíðunni. Beiðnisíðan sýnir síðustu notuðu síur samkvæmt valinu í reitnum **Nota sjálfgildi úr**. Frekari upplýsingar fást [í use vistuðum stillingum](ui-work-report.md#SavedSettings).
+Fyrir skýrslur og XMLports eru síurnar sýnilegar beint á beiðnisíðunni. Beiðnisíðan sýnir síðustu notuðu síur samkvæmt valinu í reitnum **Nota sjálfgildi úr**. Frekari upplýsingar eru í [Nota vistaðar stillingar](ui-work-report.md#SavedSettings).
 
 Helsti **Sía**-hlutinn sýnir sjálfgefna síureiti sem notaðir eru til að afmarka hvaða færslur á að taka með í skýrslu eða XMLport. Til að bæta við síu skal velja aðgerðina **+ Sía**. Svo skal færa inn heiti reitsins sem á að sía eftir eða velja reit af fellilistanum.
 
@@ -156,7 +156,7 @@ Dálkar sem þegar eru með síur eru auðkenndir með ![Síutákninu.](media/ui
 Þegar skilyrði eru sett er hægt að nota alla sömu tölustafi og bókstafi sem venjulega eru notaðir í reitnum. En það eru líka til safn sértákna sem hægt er að nota sem virknitákn til að sía niðurstöður enn frekar. Eftirfarandi hlutar útskýra þessi tákn og hvernig á að nota þau sem virknitákn í síum.
 
 > [!TIP]
-> Nánari upplýsingar um síunardagsetningar og tímasetningar fást [í vinnu með Dagatalsdagsetningar og tímasetningar](ui-enter-date-ranges.md).
+> Frekari upplýsingar um síun dagsetninga og tímasetninga er að finna í [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]
 > - Aðstæður kunna að koma upp þar sem gildið sem á að sía inniheldur tákn sem er virknitákn. Frekari upplýsingar um hvað skuli gera í slíkum aðstæðum er að finna í [Gildi síuð sem innihalda tákn](#symbols) til að fá frekari leiðbeiningar um hvað skuli til bragðs taka í þessum aðstæðum.
@@ -176,7 +176,7 @@ Dálkar sem þegar eru með síur eru auðkenndir með ![Síutákninu.](media/ui
 |`22..23`|Frá 22. þessa mánaðar – þessa árs 00:00:00 til 23. þessa mánaðar – þessa árs 23:59:59| 
 
 > [!TIP]
-> Ef notaður er talnagrind getur Aukastafir skilalykillinn Afkastað öðru en tímabili (.). Ef skipta á um tímabil er ýtt á Skilalykla Alt + tugabrot á talnaborðinu. Þegar skipta á aftur út er ýtt á ' Alt + tugabrot ' aftur. Frekari upplýsingar er að finna [í því að setja aukastaskiltákn sem notað er af lykilstjórnum](ui-enter-data.md#decimal).
+> Ef talnaborð er notað getur skiltákn tugabrots komið með staf annan en punkt (.). Til að skipta yfir í tímabil skal ýta á lyklana „Alt+Tákn fyrir aukastaf“ á talnaborðinu. Þegar á að skipta aftur yfir skal ýta aftur á „Alt+Tákn fyrir aukastaf“. Frekari upplýsingar eru í [Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum](ui-enter-data.md#decimal).
 
 #### <a name="124-eitheror"></a>(&#124;) Annaðhvort eða
 
@@ -308,13 +308,13 @@ Notaðu `%myvendors` í lánardrottinn **Nr** reitnum, til að birta allar skrá
 |-----------------------|-----------------------|  
 |`%myvendors`|Lánardrottnar í **Mínir lánardrottnar** í Mitt hlutverk. |  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)  
 [Vista og sérsníða listayfirlit](ui-views.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

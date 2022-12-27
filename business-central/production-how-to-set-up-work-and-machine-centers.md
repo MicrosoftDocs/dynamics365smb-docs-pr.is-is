@@ -1,6 +1,6 @@
 ---
 title: Setja upp vinnu- og vélastöðvar
-description: Vinnustöðvarspjald skipuleggur föst gildi og kröfur framleiðsluforðanna og stjórnar því framleiðsla sem er framkvæmd í þeirri vinnustöð.
+description: Vinnustöðvarspjald skipuleggur föst gildi og þarfir viðkomandi framleiðsluforða og stjórnar þannig afköstum framleiðslu þeirrar vinnustöðvar.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 639a0a8cc8c7c3efa9e7331a1db45dc031f4515b
 ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 04/08/2022
 ms.locfileid: "8557224"
@@ -39,7 +39,7 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Í reitnum **Vinnustöðvarhópur** skal velja efra-stigs forðaflokkun sem vinnustöðin er flokkuð undir, ef það á við. Valið er **Nýtt** aðgerðin í felllilistanum.  
-5. **Í svæðinu aukavinnustöð** skal velja vinnustöðin sem á að nota ef þessi vinnustöð er ekki tiltæk eða þegar krafa fer yfir afkastagetu hennar. Önnur vinnustöð er aðeins til upplýsingar og fylgir ekki sjálfkrafa með í áætlunarferlum.
+5. Í reitnum **Önnur vinnustöð** skal velja vinnustöðina sem á að nota ef vinnustöðin er ekki í boði eða þegar eftirspurn er umfram getu. Önnur vinnustöð er aðeins til upplýsinga og er ekki sjálfkrafa höfð með í áætlunarferlum.
 6. Veljið reitinn **Lokaður** til að koma í veg fyrir að vinnustöðin verði notuð í vinnslu. Þetta þýðir að frálag er ekki hægt að bóka fyrir vörur sem er framleidd í vinnustöðinni. Frekari upplýsingar eru í [Bóka framleiðslufrálag](production-how-to-post-output-quantity.md).
 7. Í reitinn **Innk.verð** er færður inn kostnaður við að framleiða eina mælieiningu í þessari vinnustöð, án annarra kostnaðarliða. Þessi kostnaður er oft kallaður *beinn vinnutaxti*.  
 8. Í reitinn **Óbein kostnaðar %** er færður inn almennur aðgerðakostnaður við notkun vinnustöðvarinnar sem hlutfall af Innkaupsverði. Þessari hlutfallslegu upphæð er bætt við beinan kostnað í útreikningum á kostnaðarverði.  

@@ -12,16 +12,16 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.openlocfilehash: 12b51af89894c428120ddd6c4639a397bd8a4d97
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9529245"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Setja upp sniðmát VSK-yfirlits og heiti VSK-yfirlits
 
-Skattayfirvöld geta breytt, og gera breytingar á, kröfum sínum hvað varðar bókun á VSK. Sniðmát VSK-yfirlita og Heiti VSK-yfirlita geta hjálpað þér að undirbúa fyrir komandi breytingar og gera umskiptin yfir í nýju kröfurnar þægilegri. Hægt er að nota sniðmát VSK-yfirlits til að setja upp mismunandi skýrslur þegar valið er að prenta yfirlitið. Hvert sniðmát VSK-yfirlits getur haft mörg heiti VSK-yfirlits sem skilgreina útreikninga og hægt er að stofna nýtt heiti VSK-yfirlits þegar kröfur breytast. Til dæmis kann eitt heiti að reikna út VSK fyrir þetta árið á grundvelli gildandi þarfa, og annað gæti reiknað út VSK samkvæmt þörfum fyrir næsta ár. Heiti eru einnig til upplýsingar um feril sniða VSK-yfirlits, til dæmis, til að hægt sé að skoða hvernig þú hefur reiknað út VSK á fyrri árum.
+Skattayfirvöld geta breytt, og gera breytingar á, kröfum sínum hvað varðar bókun á VSK. Sniðmát VSK-yfirlita og Heiti VSK-yfirlita geta hjálpað þér að undirbúa fyrir komandi breytingar og gera umskiptin yfir í nýju kröfurnar þægilegri. Hægt er að nota sniðmát VSK-yfirlits til að setja upp mismunandi skýrslur þegar valið er að prenta yfirlitið. Hvert sniðmát VSK-yfirlits getur haft mörg VSK-Yfirlitsheiti sem skilgreina skal útreikninga í og hægt er að stofna nýtt heiti VSK-yfirlits þegar kröfur breytast. Til dæmis kann eitt heiti að reikna út VSK fyrir þetta árið á grundvelli gildandi þarfa, og annað gæti reiknað út VSK samkvæmt þörfum fyrir næsta ár. Heiti eru einnig til upplýsingar um feril sniða VSK-yfirlits, til dæmis, til að hægt sé að skoða hvernig þú hefur reiknað út VSK á fyrri árum.
 
-## <a name="to-define-a-vat-statement"></a>VSK-yfirlit skilgreindur
+## <a name="to-define-a-vat-statement"></a>Að skilgreina VSK-yfirlit
 
 VSK-yfirlit bjóða upp á að reikna út VSK-uppgjörsupphæð á ákveðnu tímabili, til dæmis fyrir ársfjórðung.
 
@@ -45,7 +45,7 @@ Eftir að þú hefur skilgreint VSK-yfirlit geturðu forskoðað það til að g
 4. Í línunum þar sem reiturinn **Tegund** innheldur **Samtala VSK-færslna** er hægt að sjá lista yfir VSK-færslur með því að smella á upphæðina í reitnum **Upphæð dálks**.
 5. Hægt er að nota sérstillingu til að sýna fleiri svæði á línunum. Til dæmis „Áætlaða grunnupphæð“ og „Áætluð VSK-upphæð“ ef áætlaður VSK er notaður.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

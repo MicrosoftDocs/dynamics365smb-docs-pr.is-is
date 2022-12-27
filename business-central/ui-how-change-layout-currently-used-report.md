@@ -12,12 +12,12 @@ ms.date: 03/07/2022
 ms.author: jswymer
 ms.openlocfilehash: 612dc8ada170ae6925bd3121db324cec1624ce68
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9530136"
 ---
-# <a name="legacy-set-the-layout-used-by-a-report"></a>Arfur Stilla útlit sem skýrsla er notuð fyrir
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Eldra) Velja útlit sem skýrslan notar
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -34,10 +34,10 @@ Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja a
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.
   
-   Á **valsíðu** skýrsluuppsetningar eru allar skýrslurnar sem eru tiltækar fyrir fyrirtækið sem er tilgreint í **svæðinu fyrirtæki** efst á síðunni. Lýsing á **útliti** <!-- **Selected Layout** -->Reitur tilgreinir útlitið sem er í notkun í skýrslunni.
-2. **Stillið svæðið fyrirtæki** efst í fyrirtækinu sem inniheldur skýrsluna.
+   Síðan **Val á útliti skýrslu** sýnir allar skýrslur sem eru í boði fyrir fyrirtæki sem er tiltekið í reitnum **Fyrirtæki** efst á síðunni. **Lýsing á útliti** <!-- **Selected Layout** -->reiturinn tilgreinir útlitið sem er notað í skýrslunni.
+2. Settu reitinn **Fyrirtæki** efst á fyrirtækið sem skýrslan tilheyrir.
 
-   Í þessum reit skulum við setja mismunandi skipulag fyrir sömu skýrsluskýrslu í mismunandi fyrirtækjum.
+   Þessi reitur gerir þér kleift að velja mismunandi útlit fyrir sömu skýrslu í mismunandi fyrirtækjum.
 
 3. Til að breyta útliti sem er notað í skýrslu skal velja röðina fyrir skýrsluna og stilla svo **Valið útlit** reitinn á einn af eftirfarandi valkostum:
    * **RDLC (innbyggt)**, notar innbyggt RDLC skýrsluútlit í skýrslunni.
@@ -62,11 +62,11 @@ Heiti á völdu sérsniðnu útliti er nú sýnt í reitnum **Sérstillt útlit*
 
 Nú er hægt að fara á spjöld viðskiptamanna og lánardrottna til að tilgreina hvaða útlit á að nota fyrir önnur skjöl sem eru búin til fyrir viðkomandi viðskiptamann eða lánardrottinn, eins og staðfestingu á pöntun eða greiðsluáminningar. Frekari upplýsingar eru í [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

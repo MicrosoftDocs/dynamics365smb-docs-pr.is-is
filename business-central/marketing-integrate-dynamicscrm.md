@@ -1,6 +1,6 @@
 ---
-title: Stjórna viðskiptavinum með notkun Dynamics 365 Sala (inniheldur Video) | Microsoft docs
-description: Hægt er að nota Dynamics 365 Sala úr inni Viðskiptaseðla með óaðfinninni samþættingu og samstillingu í forsorgarferlinu.
+title: Hafa umsjón með viðskiptavinum sem nota Dynamics 365 Sales Microsoft 365 | Microsoft Docs
+description: Hægt er að nota Dynamics 365 Sales í Business Central með hnökralausri samþættingu og samstillingu í heildarferlinu.
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.date: 09/16/2022
 ms.author: bholtorf
 ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
 ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/23/2022
 ms.locfileid: "9585865"
 ---
-# <a name="use-dynamics-365-sales-from-business-central"></a>Nota Dynamics 365 Sala frá Viðskiptamiðinu
+# <a name="use-dynamics-365-sales-from-business-central"></a>Nota Dynamics 365 Sales úr Business Central
 Ef þú notar Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[prod_short](includes/prod_short.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
 
 Áður en hægt er að nota möguleika samþættingar þarf kerfisstjórinn fyrst að setja upp tenginguna og skilgreina notendur í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -76,7 +76,7 @@ Einnig er hægt að umbreyta handvirkt innsendum sölupöntunum úr [!INCLUDE[cr
 
 Ef lýsingin á vörunni í upprunalegu sölupöntuninni er löng er stofnuð ný sölupöntunarlína af gerðinni **Athugasemd** til þess að rúma allan texta sölupöntunarinnar í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Uppfærslur á reitum sölupöntunarhausa, t.d. reitiri fyrir síðustu sendingardagsetningu eða umbeðinn afhendingardag, sem er varpað í **SÖLUPÖNTUN-PÖNTUN** vörpun samþættingartöflu eru samstilltar reglubundið í [!INCLUDE[crm_md](includes/crm_md.md)]. Ferli eins og gefa út, sendingu og reikningsfæra sölupöntun eru bókuð á tímalínu sölupöntunar í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Kynning á aðgerðastraumum](/dynamics365/sales-enterprise/manage-activities). Til að virkja bókun og verkþætti fyrir pantanir í [!INCLUDE[crm_md](includes/crm_md.md)] er að finna [í setja upp aðgangsstýringum til að fá aðgang að upplýsingum um bókanir sérsniðinnar einingar](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) í þátttöku í upplýsingamerki viðskiptavina. Með greininni er átt við þátttöku viðskiptavina innanhúss en skrefin eru þau sömu fyrir netútgáfuna. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Uppfærslur á reitum sölupöntunarhausa, t.d. reitiri fyrir síðustu sendingardagsetningu eða umbeðinn afhendingardag, sem er varpað í **SÖLUPÖNTUN-PÖNTUN** vörpun samþættingartöflu eru samstilltar reglubundið í [!INCLUDE[crm_md](includes/crm_md.md)]. Ferli eins og útgáfa, afhending og reikningsfærsla sölupöntunar eru bókuð í tímalínu sölupöntunar í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Kynning á aðgerðastraumum](/dynamics365/sales-enterprise/manage-activities). Til að virkja bókun og aðgerðir fyrir pantanir í [!INCLUDE[crm_md](includes/crm_md.md)] skal skoða [Setja upp glósustýringu til að fá aðgang að upplýsingum um bókanir fyrir sérsniðna einingu](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) í fylgiskjölum Customer Engagement. Greinin vísar í Customer Engagement á staðnum en skrefin eru þau sömu fyrir netútgáfuna. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > Reglubundin samstilling sem byggir á **SALESORDER-ORDER** samþættingartaflavörpun virkar aðeins þegar samþætting sölupöntunar er virkjuð. Frekari upplýsingar er að finna í [Tengistillingar á uppsetningarsíðu Sales-tengingar](admin-prepare-dynamics-365-for-sales-for-integration.md). Aðeins sölupantanir búnar til úr innsendum sölupöntunum í [!INCLUDE[crm_md](includes/crm_md.md)] eru samstilltar. Frekari upplýsingar er að finna í [Virkja sölupöntunarferli samþættingar](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).

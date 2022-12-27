@@ -1,6 +1,6 @@
 ---
-title: Vinna við RDLC-skipan
-description: Fá kynningu á skipan RDLC-skýrslunnar.
+title: Vinna með RDLC-útlit
+description: Fáðu kynningu á RDLC-skýrsluútlitum.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -12,51 +12,51 @@ ms.date: 03/14/2022
 ms.author: jswymer
 ms.openlocfilehash: 0d3a1ce19b094fa77ae332a8dc90f1e8b3712cbf
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532485"
 ---
-# <a name="working-with-rdlc-layouts"></a>Vinna við RDLC-skipan
+# <a name="working-with-rdlc-layouts"></a>Vinna með RDLC-útlit
 
-RDLC-skipan byggja á skrárgerð fyrir biðlaraskilgreiningar (. RDL eða. RDLC-skrár). Hönnunarhugmyndir fyrir RDLC-skipulag eru svipaðar og aðrar gerðir útlits. Útlitið ræður því hvaða svæði á að sýna og hvernig þeim er raðað. Hins vegar er hönnun RDLC mun ítarlegri en Word og Excel-skipulag.
+RDLC-útlit eru byggð á útlitsskrám skýrsluskilgreiningar biðlara (.rdl eða .rdlc-skráargerðir). Hönnunarhugmyndirnar fyrir RDLC-útlit eru svipaðar og fyrir aðrar útlitsgerðir. Útlitið ræður hvaða reiti á að sýna og hvernig þeim er raðað. Hönnun RDLC-útlits er hins vegar ítarlegra en Word- og Excel-útlits.
 
 [![Sýnir mismunandi einingar RDLC-útlits.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
 ## <a name="required-tools"></a>Nauðsynleg verkfæri
 
-Til að breyta skipan RDL er hægt að nota annað hvort Microsoft SQL Server Skýrslusmið eða Microsoft RDLC-Skýrsluhönnuði.
+Til að breyta RDL-útliti er hægt að nota annaðhvort Microsoft SQL Server Report Builder eða Microsoft RDLC Report Designer.
 
-- Skýrslusmiður er Stand-eingi forrit uppsett á tölvunni af notanda eða stjórnanda. Með Business Central innanhúss er Skýrslusmiður settur upp sjálfvirkt með uppsetningu miðlægu þjónsins. Nánari upplýsingar um uppsetningu skýrslusmiðs er að finna [í setja upp Skýrslusmið](/sql/reporting-services/install-windows/install-report-builder) í fylgigögnum SQL Server.
+- Report Builder er sjálfstætt forrit sem þú eða stjórnandi þinn hefur sett upp í tölvunni þinni. Með Business Central á staðnum er Report Builder sjálfkrafa settur upp með uppsetningu Business Central Server. Frekari upplýsingar um uppsetningu Report Builder er að finna í [Setja upp Report Builder](/sql/reporting-services/install-windows/install-report-builder) í fylgiskjölum SQL Server.
 
-- RDLC-skýrsla hönnuð í viðauka fyrir Visual Studio 2017 og nýrri. Hægt er að sækja og setja upp RDLC Skýrsluhönnuði úr [Visual Studio markaðstorginu](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
+- RDLC Report Designer er viðbót fyrir Visual Studio 2017 og nýrra. Þú getur sótt og sett upp RDLC Report Designer á [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## <a name="create-and-modify-rdlc-layouts"></a>Stofna og breyta um RDLC-skipan
+## <a name="create-and-modify-rdlc-layouts"></a>Stofna og breyta RDLC-útlitum
 
-Að búa til og breyta RDLC-skipan er Ítarlegt verk sem er vanalega gert af orkunotendum eða hönnuðum. Grunnhugtökin eru ekki sértæk fyrir skipulag miðlægu skýrslunnar. Af þessum ástæðum er m.a. vísað í eftirfarandi fylgigögn:
+Að búa til og breyta RDLC-útlitum er ítarlegt verk sem yfirleitt yfirnotendur eða þróunaraðilar gera. Grunnhugmyndirnar eru ekki sértækar fyrir skýrsluútlit Business Central. Af þessum sökum vísum við þér á eftirfarandi fylgiskjöl:
 
-- [Stofna RDL-útlit skýrslu](/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout)
+- [Búa til RDL-útlitsskýrslu](/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout)
 
-    Í þessari grein er útskýrt hvernig á að búa til RDLC-skýrsluuppsetningu úr AL-kóða.
+    Þessi grein útskýrir hvernig á að búa til RDLC-skýrsluútlit með AL-kóða.
 
-- [Skýrslur, hlutar og skýrsluskilgreiningar](/sql/reporting-services/report-design/reports-report-parts-and-report-definitions-report-builder-and-ssrs?)
+- [Skýrslur, skýrsluhlutar og skýrsluskilgreiningar](/sql/reporting-services/report-design/reports-report-parts-and-report-definitions-report-builder-and-ssrs?)
 
- Tenglar í fylgigögn með SQL Server Reporting Services fyrir RDL/RDLC. Í þessum fylgigögnum er útskýrt hugtökin  
-Bak við RDL/RDLC og hvernig á að nota Skýrslusmið.
+ Þetta tengir þig inn á fylgiskjöl SQL Server Reporting Services fyrir RDL/RDLC. Þessi fylgiskjöl útskýra hugmyndina  
+á bak við RDL/RDLC og hvernig á að nota Report Builder.
 
 > [!NOTE]
-> Skýrslusmiður þekkir aðeins. RDL-skrárgerð;, ekki. RDLC. Útlitsskrár fluttar úr skrárgerðum fyrirtækja miðlægt. RDLC. Svo til að breyta þessu útliti í Skýrslusmið þarf að endurnefna skrárgerðina. RDL.
+> Report Builder þekkir aðeins .rdl-skráargerð;, ekki .rdlc. Útlitsskrár fluttar út úr Business Central eru: .rdlc-skráargerðir. Þannig að til breyta þessu útliti í Report Builder skal endurnefna skráargerðina sem .rdl.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
-[Stilla útlit sem skýrsla er notuð fyrir](ui-set-report-layout.md)  
-[Byrja að búa til Skýrsluskipulag](ui-get-started-layouts.md)  
+[Stilla útlit sem skýrsla notar](ui-set-report-layout.md)  
+[Hefjast handa við að búa til skýrsluútlit](ui-get-started-layouts.md)  
 [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
 [Viðskiptaupplýsingar](bi.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Greining á skýrslugögnum með Excel](report-analyze-excel.md).
+[Greina skýrslugögn með Excel](report-analyze-excel.md).
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

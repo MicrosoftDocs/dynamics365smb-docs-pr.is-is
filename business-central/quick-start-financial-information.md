@@ -1,6 +1,6 @@
 ---
-title: Fjárhagslegar upplýsingar Flýtistart
-description: Fáðu fyrirtækið þitt tilbúið til viðskipta með því að setja upp fjárhagslegar upplýsingar í Viðskiptamiðinu.
+title: Stuttur leiðarvísir um fjárhagsupplýsingar
+description: Búðu fyrirtækið þitt undir viðskipti með því að setja upp fjárhagsupplýsingarnar í Business Central.
 author: rubenseishima
 ms.topic: conceptual
 ms.devlang: na
@@ -12,83 +12,83 @@ ms.date: 08/25/2022
 ms.author: a-reishima
 ms.openlocfilehash: 6d8383015e977acffe94555eec00bfb8f104085d
 ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/23/2022
 ms.locfileid: "9586031"
 ---
-# <a name="financial-information-quick-start"></a>Fjárhagslegar upplýsingar Flýtistart
+# <a name="financial-information-quick-start"></a>Stuttur leiðarvísir um fjárhagsupplýsingar
 
-Eftir að upplýsingar um grunnfyrirtæki hafa verið færðar inn [!INCLUDE[prod_short](includes/prod_short.md)] er eitt af næstu skrefum að ljúka við fjárhaghlutann. Þetta er ekki einungis gert til að taka við eða gera greiðslur, heldur einnig til að stjórna og skrá inn tölur um viðskipti.
+Eftir að hafa slegið inn grunnupplýsingar fyrirtækisins í [!INCLUDE[prod_short](includes/prod_short.md)] er eitt af næstu skrefum að ljúka við fjármálahlutann. Þetta er ekki bara gert til að taka á móti eða senda greiðslu heldur líka til að stjórna og gefa upp númer fyrirtækisins á viðeigandi hátt.
 
-## <a name="the-chart-of-accounts"></a>Bókhaldslykilinn
+## <a name="the-chart-of-accounts"></a>Bókhaldslykillinn
 
-Bókhaldslykillinn (COA) býður upp á Yfirlit um fjármál félagsins, listar upp reikninga í skipulögðum flokkum eins og eignir, skuldir, tekjur, kostnað seldra vara og kostnað. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlað bókhaldslykli sem hægt er að sérsníða að bókhaldsvenjum fyrirtækisins.
+Bókhaldslykillinn býður upp á yfirlit yfir fjármál fyrirtækisins, sýnir lista yfir reikninga í skipulögðum flokkum eins og eignum, skuldum, tekjum, kostnaði seldra vara og útgjöldum. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðan bókhaldslykil sem hægt er að sérsníða að bókhaldsvenjum fyrirtækisins.
 
 ## <a name="set-up-the-chart-of-accounts"></a>Uppsetning bókhaldslykla
 
-Eftirfarandi myndband sýnir hvernig bókhaldslykillinn er settur upp í [!INCLUDE[prod_short](includes/prod_short.md)].
+Eftirfarandi myndband sýnir hvernig á að setja upp bókhaldslykilinn í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 <br /><br />
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-### <a name="add-an-account-to-the-chart-of-accounts"></a>Bæta reikningi við bókhaldslykla
+### <a name="add-an-account-to-the-chart-of-accounts"></a>Bæta reikningi við bókhaldslykilinn
 
-Ef bæta á við lykli sem er sjálfgefinn í [!INCLUDE[prod_short](includes/prod_short.md)] — til dæmis garðaþjónustu — Fylgdu eftirfarandi leiðbeiningum:
+Til að bæta við reikningi sem er ekki sjálfgefið innifalinn í [!INCLUDE[prod_short](includes/prod_short.md)], t.d. garðyrkjuþjónusta, skal fylgja þessum skrefum:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **bókhaldslykil** og veljið síðan tengda tengilinn.
-2. **Velja nýja** aðgerð til að opna **síðuna fjárhagsreikningspjald**.
-3. Færið inn eftirfarandi gögn í samsvarandi svæði á **flipanum Almennt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill**, velja síðan viðkomandi tengil.
+2. Veldu aðgerðina **Nýr** til að opna síðuna **Fjárhagsspjald**.
+3. Færðu inn eftirfarandi gögn í samsvarandi reiti í flýtiflipanum **Almennt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    | Svæði | Gögn |
    | --- | --- |
    | **Nr.** | 61250 |
-   | **Heiti** | Garðaþjónusta |
-   | **Tekjur/staða** | Rekstrarreikningur |
-   | **Lykiltegund** | Útgjöld |
+   | **Heiti** | Garðyrkjuþjónusta |
+   | **Rekstur/efnahagur** | Rekstrarreikningur |
+   | **Reikningsflokkur** | Útgjöld |
    | **Undirflokkur reiknings** | Viðgerða- og viðhaldskostnaður |
-   | **Debet/kredit** | Bæði |
+   | **Debet/Kredit** | Bæði |
    | **Tegund reiknings** | Bóka |
 
-4. **Á bókunarflipanum** festing eru færð inn eftirtalin gögn:
+4. Í flýtiflipanum **Bókun** skal færa inn eftirfarandi gögn:
 
    | Svæði | Gögn |
    | --- | --- |
-   | **Alm. bókunargerð** | Innkaup |
-   | **Alm. bókunarflokkur** | Innanlands |
-   | **Bókunarflokkur framl. bókunar** | Þjónusta |
+   | **Alm. bókunartegund** | Innkaup |
+   | **Alm. viðsk.bókunarflokkur** | Innanlands |
+   | **Alm. vörubókunarflokkur** | Þjónusta |
 
-5. Reitirnir sem eftir eru eru fylltir út á **spjaldinu** fjárhagsreikningur eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Fylltu út eftirstandandi reiti á síðunni **Fjárhagsspjald** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="get-an-overview-of-the-chart-of-accounts"></a>Fá yfirlit yfir bókhaldslykla
+### <a name="get-an-overview-of-the-chart-of-accounts"></a>Fá yfirlit yfir bókhaldslykilinn
 
-Ef þörf er á fleiri þjöppuð yfirlit yfir bókhaldslykla, án dálka fyrir bókunarflokka, bókunargerð eða tegund kostnaðar, er til dæmis **Listi yfir Yfirlit** bókhaldslykla yfir helstu upplýsingar fyrir hvern lykil í minni töflu. Auk þess er hægt að fella niður eða Útvíkka flokka til að fela reikningana inni í þeim.
+Ef þú þarft þéttara yfirlit yfir bókhaldslykil, án dálka fyrir bókunarflokka, bókunargerð eða kostnaðargerð sem dæmi, sýnir **Yfirlit bókhaldslykils** meginupplýsingar fyrir hvern reikning í smærri töflu. Þar að auki er hægt að draga saman eða stækka hópa til að fela aðgangana inni í þeim.
 
-Til að birta yfirlitið skal velja **Yfirlit yfir** Aðgerðir bókhaldslykilsins á **síðunni Bókhaldslykill** eða leita að aðgerðinni með því að nota ![ljósapera sem opnar aðgerðina segja aðgerð 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera").
+Til að birta yfirlitið skaltu velja aðgerðina **Yfirlit bókhaldslykils** á síðunni **Bókhaldslykill** eða leita að eiginleika með ![Ljósapera sem opna eiginleika viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera").
 
-Meiri upplýsingar um bókhaldslykilinn og fjárhag við [að skilja fjárhag og bókhaldslykla](finance-general-ledger.md).
+Frekari upplýsingar um bókhaldslykilinn og fjárhaginn er að finna í [Að skilja fjárhaginn og bókhaldslykilinn](finance-general-ledger.md).
 
-## <a name="set-up-bank-accounts"></a>Setja upp bankareikninga
+## <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
 
-Bankareikningum í [!INCLUDE[prod_short](includes/prod_short.md)] skrá bankafærslur og eru tengdir við færslur í bókhaldslyklum. Eftirfarandi myndband sýnir hvernig Bankareikningar eru settir upp.
+Bankareikningar í [!INCLUDE[prod_short](includes/prod_short.md)] skrá bankafærslur og tengjast færslum í bókhaldslyklinum. Eftirfarandi myndband sýnir hvernig á að setja upp bankareikninga.
 
 <br /><br />
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **bankareikninga** og veljið síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar**, velja síðan viðkomandi tengil.
 2. Á síðunni **bankareikningar** skal velja aðgerðina **Nýtt**.
-3. Í reitnum **númer** Kenni eins og *B010* kemur sjálfkrafa inn ef það er Tölusettur raðlisti fyrir bankareikninga. Ef ekki, Færið inn einstaka samsetningu.
+3. Í reitnum **númer** reitur, auðkenni eins og *B010* verður slegið inn sjálfkrafa ef númeraraðalisti er valinn fyrir bankareikninga. Ef ekki skal færa inn einkvæma samsetningu.
 
-   Reiturinn er annar en **Bankareikningur nr.** er einnig tiltækur á **flipanum Almennt**.
-4. Reitirnir á síðu bankareiknings kortsins **eru** fylltir út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+   Reiturinn er annar en í reitnum **Bankareikningsnr.** sem einnig er í boði í flýtiflipanum **Almennt**.
+4. Fylla skal út í reitina á síðunni **Bankareikningsspjald** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun kl [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Setja upp bókhaldslykil](finance-setup-chart-accounts.md)  
+[Uppsetning bókhaldslykla](finance-setup-chart-accounts.md)  
 [Bankareikningar settir upp](bank-how-setup-bank-accounts.md)  
 [Keyra og prenta skýrslur](ui-work-report.md)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  

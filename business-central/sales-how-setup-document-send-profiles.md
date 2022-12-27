@@ -1,5 +1,5 @@
 ---
-title: Setja upp æskilega aðferð við að senda söluskjöl (inniheldur Video) | Microsoft docs
+title: Setja upp útvaldar aðferðir við að senda söluskjöl (inniheldur myndskeið) | Microsoft Docs
 description: Lýsir því hvernig setja skal upp aðferðir við að senda söluskjöl samkvæmt óskum viðskiptamanna, t.d. tölvupóstur, PDF, rafræn skjöl osfrv.
 author: SorenGP
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: d858c39b26ae75446bd73fc09f8df3845c1fb73d
 ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9076384"

@@ -1,6 +1,6 @@
 ---
-title: Keyra fulla áætlanagerð, MPS eða MRP
-description: Áætlanakerfið getur reiknað út annaðhvort áætlun fyrir aðalframleiðsluáætlun (MPS) eða efnisþörf (MRP) fyrir beiðnina eða hvort tveggja samtímis.
+title: Keyra fulla áætlunargerð, MPS eða MRP
+description: Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,14 +11,14 @@ ms.date: 06/22/2021
 ms.author: edupont
 ms.openlocfilehash: 35263f54400865c88694a483bda195957a8f8db4
 ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 04/08/2022
 ms.locfileid: "8557250"
 ---
-# <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlanagerð, MPS eða MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlunargerð, MPS eða MRP
 
-Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlanakerfið getur reiknað annaðhvort áætlun fyrir aðalframleiðsluáætlun (MPS) eða efnisþörf (MRP) á beiðni eða það getur reiknað hvort tveggja samtímis.  
+Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.  
 
 -   MPS er útreikningur á aðalframleiðsluáætlun byggt á raunverulegri eftirspurn og eftirspurnarspá. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
 -   MRP er útreikningur á efnisþörfum sem byggjast á raunverulegri eftirspurn eftir hlutum og eftirspurnarspá á hlutastigi. MRP er eingöngu reiknað fyrir vörur sem eru ekki MPS-vörur. Tilgangur MRP er bjóða upp á tímasettar áætlanir þannig að viðeigandi vara er til á viðeigandi tíma, á viðeigandi stað og í viðeigandi magni.  

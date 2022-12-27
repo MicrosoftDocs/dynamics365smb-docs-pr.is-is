@@ -13,24 +13,24 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: c397de29bf2d2c23d5fedb9f3566ebd0e62dd183
 ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/13/2022
 ms.locfileid: "9144086"
 ---
 # <a name="about-item-types"></a>Um vörutegundir
-**Í reitnum Tegund** á **vöruspjaldinu** er hægt að velja hvað varan er notuð í viðskiptunum, sem hefur áhrif á það hversu hægt er að stjórna vörunni í birgðum. Eftirfarandi töflulistum og lýsir þeim þremur tegundum atriða sem eru tiltæk.
+Í reitnum **Tegund** á síðunni **Birgðaspjald** er hægt að velja í hvað varan er notuð í fyrirtækinu, sem hefur áhrif á hvernig þú getur stjórnað vörunni í birgðum. Eftirfarandi tafla sýnir og lýsir þeim þremur tegundum vara sem eru tiltækar.
 
 |Valkostur|Dæmigerður tilgangur|
 |------|-----------|
-|Birgðir|Eðlislegir hlutir, svo sem reiðhjól, síma-og deskunarskápar, sem óskað er eftir að geti notað alla birgðaferla. Þetta geta einnig verið Óefnislegir hlutir eins og hugbúnaðarleyfi og áskriftir, ef vörurnar eru með kennitölum, eins og raðnúmerum. Hægt er að rekja gildi vöru og ráðstöfunarmagn í birgðum.|
-|Ekki í birgðum|Yfirleitt eru það ekki birgðavörur, til dæmis boltar eða pennar, sem fyrirtæki eyðir en vill ekki fullkomlega rekja birgðir. Til dæmis vegna þess að þeir eru lágkostnaðarliðir og eru aðeins notaðir innbyrðis.|
+|Birgðir|Efnislegir hlutir eins og reiðhjól, símar og skrifborð þar sem þú vilt geta notað alla birgðaferla. Þetta getur einnig átt við óefnislega hluti eins og hugbúnaðarleyfi og áskriftir ef vörurnar eru með auðkennisnúmerum, t.d. raðnúmerum. Þú getur fylgst að fullu með virði og framboði vöru í birgðum.|
+|Ekki í birgðum|Yfirleitt eru hlutir sem ekki eru í birgðum efnislegir hlutir, t.d. boltar eða pennar, sem fyrirtæki notar en vill ekki rekja birgðir að fullu. Til dæmis vegna þess að þetta eru kostnaðarlitlar vörur og eru aðeins notaðar innanhúss.|
 |Þjónusta|Vinnutímaeining, svo sem ráðgjöf í klukkustund, fyrir takmarkaðan stuðning fyrirtækis.|
 
 > [!NOTE]
-> **Þjónustan** og **ekki birgðagerðir** styðja ekki mælingar á magni birgða og virði. Aðeins valdar vörufærslugerðir og eiginleikar eru studdir.
+> Gerðirnar **Þjónusta** og **Ekki í birgðum** styðja ekki rakningu á birgðamagni eða virði. Aðeins valdar færslugerðir og eiginleikar eru studd.
 
-Í eftirfarandi töflu er listi yfir aðgerðirnar sem þrjár vörutegundir styðja.
+Í eftirfarandi töflu er listi yfir eiginleikana sem gerðirnar þrjár styðja.
 
 |Vörutegund|Sölur|Innkaup|Vinnunotkun|Þjónustunotkun|Samsetningarnotkun|Framleiðsla Notkun|Samsetningarfrálag|Framleiðslufrálag|Staðsetningarflutningur|Birgðatalning|Endurmat á birgðum|Birgðakostnaður|Vörurakning|Frátekning|Vörugeymsla|Áætlanagerð|Áætlun pöntunar|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|

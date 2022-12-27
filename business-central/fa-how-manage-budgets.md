@@ -1,5 +1,5 @@
 ---
-title: Stjórna EIGNAÁÆTLUNUM
+title: Umsjón fjárhagsáætlana fyrir eignir
 description: Til að hjálpa til við undirbúning fjárhagsáætlana og forspáa, eru settar upp upplýsingar um fjárfestingar, afskráningar og afskriftir eigna í framtíðinni.
 author: edupont04
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: a39ff86ea1bc8b3a2e772b8b3b557cdf863f8d7f
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528359"
@@ -60,7 +60,7 @@ Keyra má skýrsluna **Eignir - Áætlað virði** til að skoða áætlað afsk
 4. Flýtiflipinn **Eignir** er hafður auður ef taka á allar eignir með. Ritaðu **Nei** í reitinn **Áætluð eign** til að undanskilja áætlaðar eignir eða **Já** til að skoða einungis áætlaðar eignir.
 5. Veljið hnappinn **Prenta** eða **Forskoðun**.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -68,7 +68,7 @@ Keyra má skýrsluna **Eignir - Áætlað virði** til að skoða áætlað afsk
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

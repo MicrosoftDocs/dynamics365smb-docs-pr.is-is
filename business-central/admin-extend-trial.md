@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.openlocfilehash: 70d2631be9c126645752ba363b4645081314f6dc
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533403"
@@ -20,7 +20,7 @@ ms.locfileid: "9533403"
 
 Það er mikilvægt að taka réttar ákvarðanir þegar þú velur viðskiptaforrit og við vitum að það getur tekið tíma að kanna alla kima [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þú þarft meiri tíma til að gera upp hug þinn getur þú framlengt prufutímanum í aðra 30 daga. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum.
 
-Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti. Þú getur ekki framlengt hann tvisvar sinnum, að minnsta kosti ekki þú sjálf/ur. Ef þú hefur þegar framlengt tímabilið getur Microsoft samstarfsaðilinn þinn lengt það aftur. Það er einnig aðeins hægt að gera í eitt skipti. Ef þú ert ekki nú þegar að vinna með félaga, sérðu [Hvernig finn ég endursala félaga](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)?.  
+Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti. Þú getur ekki framlengt hann tvisvar sinnum, að minnsta kosti ekki þú sjálf/ur. Ef þú hefur þegar framlengt tímabilið getur Microsoft samstarfsaðilinn þinn lengt það aftur. Það er einnig aðeins hægt að gera í eitt skipti. Ef þú vinnur ekki með samstarfsaðila skaltu skoða [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 
 ## <a name="to-extend-your-trial-period"></a>Til að framlengja prufutímabilið
 
@@ -28,7 +28,7 @@ Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti.
 
     Skráðu þig inn með tölvupóstsreikningnum sem þú notaðir þegar þú skráðir þig fyrir prufuútgáfunni.  
 
-    Ef þú áritar þér með tölvupósti reikning úr [30 daga prufuútgáfu af Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), þá þarftu fyrst að framlengja Microsoft 365 próftímann, eða kaupa Microsoft 365 áskrift. Nánari upplýsingar má finna [í framlengja prufutíma Microsoft 365 fyrir fyrirtæki](/microsoft-365/commerce/extend-your-trial).
+    Ef þú hefur skráð þig inn með tölvupóstsreikningi úr [30 daga prufuáskrift af Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial) verður þú fyrst að framlengja Microsoft 365 prufutímann þinn eða kaupa Microsoft 365 áskrift. Frekari upplýsingar er að finna í [Framlengja prufuáskrift fyrir Microsoft 365 fyrir viðskipti](/microsoft-365/commerce/extend-your-trial).
 2. Í tilkynningum efst í vinnusvæðinu skal velja **Framlengja prufuáskrift**.
 
     Ef þú hunsaðir tilkynninguna verður þú að skrá þig út og inn aftur.
@@ -50,13 +50,13 @@ Ef framlengda prufutímabilið þitt er útrunnið geturðu fengið [áskrift](h
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Rannsóknum og áskriftum (eingöngu á ensku)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
+[Prufuútgáfur og áskriftir (aðeins á ensku)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Stofna ný fyrirtæki](about-new-company.md)  
-[Hvernig finn ég endursölu félaga?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
+[Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Framlenging prufuútgáfu (sem stjórnandi)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Hefjast handa sem endursöluaðili Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

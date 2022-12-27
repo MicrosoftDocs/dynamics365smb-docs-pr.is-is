@@ -12,7 +12,7 @@ ms.date: 06/15/2021
 ms.author: edupont
 ms.openlocfilehash: db722d702dbfa6499c5ae259313af8915b95d51c
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534238"
@@ -90,7 +90,7 @@ Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbó
 2. Fyllið inn reitina eftir þörfum.
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -98,7 +98,7 @@ Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbó
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

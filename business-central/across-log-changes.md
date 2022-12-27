@@ -1,5 +1,5 @@
 ---
-title: Endurskoðunar breytinga
+title: Breytingar á endurskoðun
 description: Hægt er að virkja breytingaskrá svo að þú hafir yfirlit yfir allar breytingar sem gerðar hafa verið á gögnum í röktum töflum. Þú getur einnig rakið aðgerðir með tilteknum gerðum aðgerðakladda.
 author: edupont04
 ms.topic: get-started-article
@@ -12,7 +12,7 @@ ms.date: 03/24/2022
 ms.author: edupont
 ms.openlocfilehash: 0fda7235af0868a87ac4d76afa3f1030cdf83600
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8523242"
@@ -31,7 +31,7 @@ Rakningarbreytingar geta haft áhrif á afköst, sem geta kostað tíma og auki�
 - Ekki bæta við færslum og bókuðum skjölum. Í staðinn skal forgangsraða kerfisreitum á borð við „Stofnað af“ og „Dagsetning stofnunar“.
 - Ekki nota rakningargerðina „Allir reitir“. Þess í stað skal velja nokkra reiti og rekja aðeins mikilvægustu reitina.
 
-Einnig vegna afkastaástæðna er slökkt á Breytingaskrá meðan á uppfærslu [!INCLUDE [prod_short](includes/prod_short.md)] stendur í næstu útgáfu. Auk þess að hraða uppfærsluferlinu hjálpar þetta einnig við að draga úr ringulreið í Chance-kladda. Um leið og uppfærslu er lokið byrjar kladdinn að rekja breytingar á ný.
+Einnig af afkastaástæðum er slökkt á breytingaskránni við uppfærslu á [!INCLUDE [prod_short](includes/prod_short.md)] í næstu útgáfu. Auk þess að flýta uppfærsluferlinu dregur þetta einnig úr óþarfa óreiðu í breytingaskránni. Um leið og uppfærslu er lokið byrjar skráin að rekja breytingar á ný.
 
 > [!Important]
 > Breytingar sjást aðeins í **Breytingaskrárfærslum** þegar lota notanda er endurræst, sem gerist á eftirfarandi hátt:
@@ -40,7 +40,7 @@ Einnig vegna afkastaástæðna er slökkt á Breytingaskrá meðan á uppfærslu
 > * Notandinn valdi annað fyrirtæki eða hlutverkamiðstöð.
 > * Notandinn skráði sig út og aftur inn.
 
-### <a name="work-with-the-change-log"></a>Vinna við breytingaskrá
+### <a name="work-with-the-change-log"></a>Vinna með breytingaskrá
 Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráningu virka eða óvirka. Þegar notandi kveikir eða slekkur á breytingaskrá er þessi verkþáttur skráður til að geta ævinlega séð hvaða notandi kveikti eða slökkti á breytingaskránni.
 
 Á síðunni **Breytingaskrár Uppsetning** ef aðgerðin **Töflur** er valin, skal tilgreina hvaða töflur á að rekja breytingar fyrir og hvaða breytingar á að rekja. [!INCLUDE[prod_short](includes/prod_short.md)] rekur einnig nokkrar kerfistöflur.
@@ -54,7 +54,7 @@ Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráni
 
 Á sumum síðum í [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að skoða aðgerðarkladda sem sýnir stöðu og allar villur úr skrám sem þú flytur út úr eða flytur inn í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="work-with-activity-logs"></a>Vinna með Verkþáttarkladda
+### <a name="work-with-activity-logs"></a>Vinna með aðgerðakladda
 Upplýsingarnar eru birtar á síðunni **Aðgerðarkladdi** í samræmi við samhengið sem þær eru opnaðar úr. Til dæmis er hægt að opna síðuna á síðunum **Uppsetning skjalaskiptaþjónustu**, **Skjal á innleið**, **Bókaður sölureikningur** og **Bókaður sölukreditreikningur**. Hægt er að tæma listann yfir kladdafærslur eða hreinsa lista yfir færslur sem eru eldri en sjö daga.  
 
 ## <a name="monitoring-sensitive-fields"></a>Fylgst með viðkvæmum reitum
@@ -69,7 +69,7 @@ Að halda viðkvæmum gögnum öruggum tryggja persónuvernd er mikilvægt flest
 Hægt er að nota uppsetningarleiðbeiningar **Uppsetning á breytingavöktun reits** með hjálp til að tilgreina reitina sem á að fylgjast með samkvæmt síuskilyrði á borð við flokkun gagnatrúnaðar fyrir reitina. Nánari upplýsingar er að finna í [Flokkun á gagnatrúnaðar](admin-classifying-data-sensitivity.md). Leiðarvísirinn gerir einnig kleift að tilgreina þann sem fær tölvupóststilkynningu þegar breyting á sér stað, og tölvupóstsreikninginn sem sendir tilkynninguna í tölvupósti. Tilgreinið bæði notandann sem fær tilkynningu og reikninginn sem tilkynningin verður send frá. Eftir að leiðarvísinum er lokið er hægt að vinna með stillingar fyrir reitavöktun á síðunni **Uppsetning reitavöktunar**. 
 
 > [!NOTE]
-> Þegar tilgreindur er Tölvupóstreikningur frá því að tilkynningar eru sendar þarf að bæta við **Microsoft 365** reikningstegundum eða **SMTP**. Senda skal tilkynningar frá reikningi sem er ekki tengdur við raunverulegan notanda. Þú getur því ekki valið reikningsgerðina **Núverandi notandi**. Tilkynningar verða ekki sendar ef þú gerir það. 
+> Þegar þú tilgreinir tölvupóstsreikninginn sem á að senda tilkynningar frá verður þú annaðhvort að bæta við reikningsgerðunum **Microsoft 365** eða **SMTP**. Senda skal tilkynningar frá reikningi sem er ekki tengdur við raunverulegan notanda. Þú getur því ekki valið reikningsgerðina **Núverandi notandi**. Tilkynningar verða ekki sendar ef þú gerir það. 
 
 Með tímanum stækkar listinn yfir færslur á síðunni **Kladdafærslur reitavöktunar**. Til að draga úr fjölda færslna er hægt að stofna varðveislureglu sem eyðir færslum eftir tiltekinn tíma. Frekari upplýsingar er að finna í [Skilgreina varðveislureglur](admin-data-retention-policies.md).
 
@@ -80,7 +80,7 @@ Hægt er að stjórna stillingum fyrir reitavöktun, t.d. hvort senda eigi tilky
 > [!NOTE]
 > Þegar búið er að skrá einn eða fleiri rieti og hefja vöktun þarf að skrá sig út úr [!INCLUDE[prod_short](includes/prod_short.md)] og skrá sig inn aftur til að stillingarnar taki gildi.
 
-### <a name="work-with-field-monitoring"></a>Vinna við Svæðsvöktun
+### <a name="work-with-field-monitoring"></a>Vinna með reitarvöktun
 
 Færslur fyrir öll breytt gildi í vöktuðum reitum eru tiltækar á síðunni **Kladdafærslur vaktaðra reita**. Færslur innihalda til að mynda eftirfarandi upplýsingar:
 

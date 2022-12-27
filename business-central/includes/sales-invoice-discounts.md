@@ -5,28 +5,28 @@ ms.date: 10/05/2022
 ms.author: bholtorf
 ms.openlocfilehash: 8849f1c5d33cd1f826e7f53be317cb01e513fcd1
 ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/12/2022
 ms.locfileid: "9652138"
 ---
-Þegar búið er að bæta við öllum vörunum í línum er hægt að reikna reikningsafslátt fyrir allt söluskjalið með því að **Velja aðgerðina reikna reikningsafslátt**.
+Þegar allar vörur hafa verið settar inn í línur er hægt að reikna út reikningsafsláttinn fyrir allt söluskjalið með því að velja aðgerðina **Reikna út reikningsafslátt**.
 
-Afslátturinn er reiknaður út frá öllum línum í söluskjalinu þar sem **gátreiturinn Leyfa reikningsafslátt** er valinn. Sjálfgefið er að reikningsafsláttur sé leyfður. Hins vegar eru línur með kostnaðarauka t.d. ekki teknar með í útreikningi reikningsafsláttar. Til að sækja um afslátt á slíkar línur er gildi fært inn í **reitinn Upphæð** línuafsláttar í línunum.  
+Afslátturinn er reiknaður út frá öllum línum í söluskjalinu þar sem hakað er í gátreitinn **Leyfa reikningsafslátt**. Reikningsafslættir eru sjálfgefið leyfðir. Línur með kostnaðarauka eru hins vegar til dæmis ekki teknar með í útreikningi reikningsafsláttar. Til að nota afslátt á slíkar línur skal færa inn gildi í reitinn **Línuafsláttarupphæð** í línunum.  
 
 > [!NOTE]
-> Sjálfgefið er að **Reitirnir leyfa reikningsafsláttarupphæð** **og** Línuafsláttur séu faldir í línum. Ef svæðin eru ekki tiltæk er hægt að bæta þeim við með því að sérsníða síðuna. Frekari upplýsingar eru í [Sérstilling verksvæðis](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Reitirnir **Leyfa reikningsafsl.** og **Línuafsláttarupphæð** eru sjálfgefið faldir í línum. Ef reitirnir eru ekki tiltækir geturðu bætt þeim við með því að sérsníða síðuna. Frekari upplýsingar eru í [Sérstilling verksvæðis](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 > [!TIP]
-> **Ef reiturinn Reikna reikn. afsl** ., er valinn á **síðu sölu-og söluuppsetningarinnar** reiknast reikningsafsláttur sjálfkrafa. Þegar útreikningarnir gerast mismunandi er farið eftir tegund söluskjals sem notað er.
+> Ef reiturinn **Reikna reikn.afsl.** er valinn á síðunni **Sölugrunnur** þá hefur reikningsafslátturinn verið reiknaður sjálfvirkt. Þegar útreikningurinn er mismunandi, eftir því um hvers konar söluskjal er að ræða.
 >
-> Ef verið er að nota sölupöntun er afslátturinn reiknaður þegar bætt er við línu. Fyrir öll önnur söluskjöl, til dæmis sölureikninga, er afslátturinn reiknaður þegar þú gerir einhverja af eftirfarandi aðgerðum:
+> Ef þú ert að nota sölupöntun er afslátturinn reiknaður út þegar þú bætir við línu. Fyrir öll önnur söluskjöl, t.d. sölureikninga, er afslátturinn reiknaður út þegar þú gerir eina af eftirfarandi aðgerðum:
 >
 > * Skoða tölfræði
 > * Skoða prufuskýrslu
 > * Prenta
 > * Færsla
 
-Reikningsafsláttarskilyrði eru **skilgreind fyrir viðskiptavin á síðunni reikningsafsláttur** Reikningsafsl. Kerfið notar gjaldmiðilskóðann í sölureikningnum til að finna skilmála reikningsafsláttar í samsvarandi gjaldmiðli.
+Þú skilgreinir skilmála reikningsafsláttar fyrir viðskiptamann á síðunni **Reikningsafsl. viðskm.**. Kerfið notar gjaldmiðilskóðann í sölureikningnum til að finna skilmála reikningsafsláttar í samsvarandi gjaldmiðli.
 
-Ef reikningsafsláttur hefur ekki verið skilgreindur fyrir erlendan gjaldmiðil eru afsláttarkjör á **síðunni viðsk. reikningsafsláttur** notaður til að reikna út afsláttinn. Útreikningarnir nota staðbundinn gjaldmiðil og það gengi sem gilti á bókunardegi skjalsins.
+Ef þú hefur ekki skilgreint reikningsafslætti fyrir erlenda gjaldmiðla eru afsláttarskilmálar á síðunni **Reikningsafsl. viðskm.** notaðir til að reikna afsláttinn. Útreikningurinn notar staðbundinn gjaldmiðil og gengi sem var gilt á bókunardagsetningu skjalsins.

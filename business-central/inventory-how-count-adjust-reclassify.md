@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: 40e11554ab073c62b33b0623fc2bbd5a8038f686
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533295"
@@ -187,7 +187,7 @@ Einnig er hægt að nota aðgerðina **Leiðrétta birgðir** sem einfalda leið
 
 Á síðunni **Birgðabók** er hægt að bóka birgðafærslu beint til að leiðrétta birgðaskrá í tengslum við innkaup, sölu og jákvæða eða neikvæða leiðréttingu án þess að nota fylgiskjöl.
 
-Ef birgðabókin er oft notuð til að bóka sömu eða svipaðar færslubókarlínur, til dæmis í tengslum við efnisnotkun, er hægt að nota síðuna **Stöðluð birgðabók** til að auðvelda þessa endurteknu vinnu. Sjá [vinnu með staðlaðar færslubækur fyrir frekari upplýsingar](ui-work-general-journals.md#work-with-standard-journals).
+Ef birgðabókin er oft notuð til að bóka sömu eða svipaðar færslubókarlínur, til dæmis í tengslum við efnisnotkun, er hægt að nota síðuna **Stöðluð birgðabók** til að auðvelda þessa endurteknu vinnu. Frekari upplýsingar eru í [Vinna með Staðlaðar færslubækur](ui-work-general-journals.md#work-with-standard-journals).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðabækur** og velja síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -233,7 +233,7 @@ Eftirfarandi dæmi byggist á staðsetningarkóði. Skrefin eru svipuð fyrir a�
 
 Nánari upplýsingar um flutning vara með fulla stjórn á magni sem sent er og móttekið eru í [Flytja birgðir milli staða](inventory-how-transfer-between-locations.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/adjust-inventory/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

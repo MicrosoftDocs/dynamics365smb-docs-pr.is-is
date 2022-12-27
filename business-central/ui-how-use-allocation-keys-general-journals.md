@@ -12,7 +12,7 @@ ms.date: 06/29/2021
 ms.author: edupont
 ms.openlocfilehash: a803a9a7533de5ff94bbb41e73cc1877a25044af
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8512231"
@@ -42,8 +42,8 @@ Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar fær
 4. Breyta viðeigandi reitum, og velja svo hnappinn **Í lagi**.
 
 ## <a name="see-also"></a>Sjá einnig
-[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
-[Bókun skjala og færslubóka](ui-post-documents-journals.md)  
+[Vinna í færslubókum](ui-work-general-journals.md)  
+[Að bóka skjöl og færslubækur](ui-post-documents-journals.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

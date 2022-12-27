@@ -1,5 +1,5 @@
 ---
-title: Setja upp Viðskiptablaðið Central App í Microsoft Teams
+title: Setja upp Business Central-forritið í Microsoft Teams
 description: Hvernig á að setja upp Business Central fyrir Microsoft Teams.
 author: jswymer
 ms.topic: get-started-article
@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8516448"
@@ -20,7 +20,7 @@ ms.locfileid: "8516448"
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-Í þessari grein lærir þú hvernig á að setja upp [!INCLUDE [prod_short](includes/prod_short.md)] App fyrir [Microsoft Teams](https://www.microsoft.com/microsoft-teams/). Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-vefnum, á skjáborði eða í farsímaforriti.
+Í þessari grein verður útskýrt hvernig á að setja upp [!INCLUDE [prod_short](includes/prod_short.md)] fyrir [Microsoft Teams](https://www.microsoft.com/microsoft-teams/). Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-vefnum, á skjáborði eða í farsímaforriti.
 
 > [!NOTE]
 > Kerfisstjórinn gæti hafa sett hlutina upp þannig að forritið sé sjálfkrafa sett upp fyrir þig. Til að athuga hvort forritið sé uppsett skaltu opna Teams og velja svo **Forrit**. Leitaðu að **Business Central** og veldu það svo þegar þú finnur það. Ef þú sérð **Opna** á síðu **Business Central** er forritið þegar uppsett.  
@@ -60,7 +60,7 @@ Hægt er að setja upp Business Central á þrjá vegu:
 5. Veljið **Bæta við**.
 
 > [!TIP]
-> Ef tengill er á aðalsíðu fyrirtækja í hópsamtali og þú ert ekki með App uppsett þá færðu skilaboð eins og: **Viðskiptamiðlarinn vill sýna sýnishorn af þessum tengli.** Til að setja upp forritið velurðu **Sýna forskoðun** og fylgir leiðbeiningunum.
+> Ef þú límir tengil á síðu Business Central í Teams-spjall og ert ekki með forritið uppsett færðu skilaboð eins og: **Business Central vill sýna forskoðun á þessum tengli.** Til að setja upp forritið skal velja **Sýna forskoðun** og fylgja leiðbeiningunum.
 
 **Valkostur 3: Úr Business Central**
 
@@ -70,7 +70,7 @@ Hægt er að setja upp Business Central á þrjá vegu:
 4. Bíddu eftir að Teams opni og að Business Central birtist, veldu síðan **Bæta við**.
 
 > [!NOTE]
-> Með hvorum valmöguleikann getur þú verið beðinn um að skrá þig inn [!INCLUDE [prod_short](includes/prod_short.md)]. Veljið **innskráningartengil** og fylgið leiðbeiningunum til að færa inn innskráningarnafn og aðgangsorð fyrir [!INCLUDE [prod_short](includes/prod_short.md)].
+> Sama hvor valkosturinn er valinn kann notandinn að vera beðinn um að skrá sig inn í [!INCLUDE [prod_short](includes/prod_short.md)]. Veljið **innskráningartengil** og fylgið leiðbeiningunum til að færa inn innskráningarnafn og aðgangsorð fyrir [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Næsta skref
 

@@ -12,7 +12,7 @@ ms.date: 07/06/2021
 ms.author: bholtorf
 ms.openlocfilehash: be2f6e3efdfd34d59c55a3addeefb5646454b3bb
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8516266"
@@ -31,7 +31,7 @@ ms.locfileid: "8516266"
 
 ## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Uppsetning AMC Banking 365 Fundamentals viðbótarinnar
 
-Virkið AMC Banking 365 Fundamentals viðbótina til að umbreyta hvers kyns bankayfirlitsskrá í snið sem hægt er að flytja inn eða til að umbreyta útfluttum greiðsluskrám í það snið sem bankinn krefst. Frekari upplýsingar [fást með því að AMC Banking 365 Fundamentals nota viðaukann](ui-extensions-amc-banking.md).
+Virkið AMC Banking 365 Fundamentals viðbótina til að umbreyta hvers kyns bankayfirlitsskrá í snið sem hægt er að flytja inn eða til að umbreyta útfluttum greiðsluskrám í það snið sem bankinn krefst. Frekari upplýsingar eru í [Nota AMC Banking 365 Fundamentals-viðbótina](ui-extensions-amc-banking.md).
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Uppsetning SEPA-kreditfærslna
 
@@ -93,7 +93,7 @@ Fyllið út greiðslubókina með línum fyrir greiðslu á gjalddaga til lánar
 Í almennu útgáfunni af [!INCLUDE[prod_short](includes/prod_short.md)] er AMC Banking 365 Fundamentals viðbótin í boði. Í Norður-Ameríku útgáfum má nota sömu viðbót til að senda greiðslu skrám sem rafrænar millifærslu (EFT) en með ofurlítið annarri vinnslu. Sjá skref 6 í [Til að flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
-> Áður en hægt er að flytja út greiðsluskrár í greiðslubókina, verður að tiltaka rafrænt sniði bankareikningnum sem við á, og verður að virkja AMC Banking 365 Fundamentals viðbótina. Frekari upplýsingar er að finna [í](bank-how-setup-bank-accounts.md) Setja upp bankareikninga [og AMC Banking 365 Fundamentals nota viðaukann](ui-extensions-amc-banking.md). Þar að auki þarf að velja **Leyfa útflutning greiðslu** gátreiturinn á síðunni **Almennar Færslubókakeyrslur**. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
+> Áður en hægt er að flytja út greiðsluskrár í greiðslubókina, verður að tiltaka rafrænt sniði bankareikningnum sem við á, og verður að virkja AMC Banking 365 Fundamentals viðbótina. Frekari upplýsingar er að finna í [Setja upp bankareikninga](bank-how-setup-bank-accounts.md) og [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md). Þar að auki þarf að velja **Leyfa útflutning greiðslu** gátreiturinn á síðunni **Almennar Færslubókakeyrslur**. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
 Síðan **Skráningar kreditmillifærslna** er notuð til að skoða greiðsluskrár sem hafa verið fluttar út úr greiðslubókinni. Á þessari síðu er einnig hægt að endurflytja út greiðsluskrár ef um er að ræða tæknilegar villur eða breytingar á skrá. Þó er bent á að ekki eru sýndir á þessari síðu útfluttar EFT skrár og þær geta ekki verið fluttar út aftur.  
 
@@ -156,9 +156,9 @@ Hægt er að endurútflytja greiðsluskrár af síðunni **Skráningar kreditmil
 
 ## <a name="see-also"></a>Sjá einnig
 
-[AMC Banking 365 Fundamentals Nota viðaukann](ui-extensions-amc-banking.md)  
+[Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
-[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna í færslubókum](ui-work-general-journals.md)  
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)  
 
 

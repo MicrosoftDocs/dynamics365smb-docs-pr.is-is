@@ -11,53 +11,53 @@ ms.date: 08/19/2022
 ms.author: edupont
 ms.openlocfilehash: 64b6b3e3aa74d51b78a62bf2c89e630452c662bb
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605439"
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
 
-Áður en hægt er að hefja keyrslu á fyrirtæki þarf að tilgreina hvernig á að stjórna ferli í fjármálum fyrirtækja. Í fyrsta lagi er settur upp kjarni úr bókhaldsfærslum félagsins: bókhaldslykillinn (COA). Síðan eru Bókunarflokkar settir upp sem gera það að að úthluta sjálfgefnum fjárhagsbókunarlyklum til viðskiptamanna, lánardrottna og vara með skilvirkari aðferð.
+Áður en þú getur byrjað að reka fyrirtækið þitt verður þú að tilgreina hvernig stjórna á fjármálaferlum fyrirtækisins. Fyrsta seturðu upp kjarnann í bókhaldsfærslum fyrirtækisins: bókhaldslyklana. Síðan eru settir upp bókunarflokkar, sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.
 
-Hægt er að setja upp suma fjárhagsuppsetningu sjálfkrafa með uppsetningarleiðbeiningum með hjálp og suma verður að gera handvirkt. Lærðu meira á [að undirbúa þig fyrir viðskipti](ui-get-ready-business.md). Á **uppsetningarsíðu** fjárhags er tilgreint hvernig á að meðhöndla mismunandi bókhaldsferla fyrirtækisins. Til dæmis er þessi síða notuð til að tilgreina reikningssléttun upplýsinga, gjaldmiðilskóta staðbundnu gjaldmiðilsins, aðseturssnið og hvort nota eigi aðra skýrslugjaldmiðli. Lærðu meira á [að skilja fjárhag og bókhaldslykla](finance-general-ledger.md).  
+Hægt er að setja upp suma fjárhagsuppsetningu sjálfkrafa með uppsetningarleiðbeiningum með hjálp og suma verður að gera handvirkt. Frekari upplýsingar eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md). Á síðunni **Fjárhagsgrunnur** er tilgreint hvernig eigi að haga öllum bókhaldsferlum fyrirtækisins. Til dæmis má er hægt að nota þessa síðu til að tilgreina upplýsingar um sléttun reiknings, gjaldmiðilskóða fyrir staðbundinn gjaldmiðil, aðseturssnið og hvort nota eigi annan skýrslugjaldmiðil. Frekari upplýsingar má finna á [Að skilja fjárhag og bókhaldslykil](finance-general-ledger.md).  
 
-Hægt er að nota víddir til að bæta mismunandi gerðum upplýsinga við öll viðskipti. Hægt er að setja upp grunnvíddir fyrirtækisins eins og *verk* og *deildir*. Síðar bætast við fleiri víddir þegar þörf er á þeim. Til dæmis er hægt að setja upp tímabundnar víddir til að nota á takmörkuðu tímabili, eins og á söluherferð. Frekari upplýsingar í [vinna með víddir](finance-dimensions.md).
+Hægt er að nota víddir til að bæta mismunandi gerðum upplýsinga við öll viðskipti. Hægt er að setja upp grunnvíddir fyrirtækisins, svo sem *Verkefni* og *Deildir*. Seinna skal bæta við fleiri víddum þegar þú þarft á þeim að halda. Til dæmis er hægt að setja upp tímabundnar víddir sem nota í takmarkaðan tíma, svo sem í söluherferð. Frekari upplýsingar eru í [Unnið með víddir](finance-dimensions.md).
 
-Ljúka þarf mörgum uppsetningarverkefnum áður en hægt er að hefja skráningu fjárhagslegra færslna, en hægt er að leiðrétta flestar stillingar eftir þörfum. Að því sögðu eru valfrjáls uppsetningarverkefni einnig. Til dæmis þarf aðeins að setja upp samstæðubókanir og sameiningar ef verið er að vinna með mörg fyrirtæki. Og önnur uppsetningarverkefni, svo sem að tilgreina það tímabil sem bókanir eru leyfðar, gæti þurft að endurtaka reglulega.  
+Ljúka þarf mörgum af uppsetningarverkunum áður en hægt er að hefja skráningu á fjárhagsfærslum, en hægt er að breyta flestum stillingum eftir þörfum. Að því sögðu eru líka til valfrjáls uppsetningarverk. Til dæmis þarf aðeins að setja upp bókanir og sameiningar milli fyrirtækja ef unnið er með mörg fyrirtæki. Og önnur uppsetningarverk, svo sem tilgreiningu tímabilsins þar sem bókanir eru leyfðar, þarf hugsanlega að endurtaka með reglulegu millibili.  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
 | Til | Sjá |
 | --- | --- |
-|Skoða eða breyta fjárhagslykli sem allar fjárhagsfærslur eru bókaðar fyrir|[Setja upp eða breyta bókhaldslykli](finance-setup-chart-accounts.md)|
+|Skoða eða breyta fjárhagsreikningum þar sem allar fjárhagsfærslur eru bókaðar|[Setja upp eða breyta bókhaldslyklum](finance-setup-chart-accounts.md)|
 | Tilgreinið hvernig viðskiptavinir eiga að greiða og hvernig á að greiða lánardrottnum. |[Setja upp greiðsluhætti](finance-payment-methods.md) |
-| Tilgreina greiðsluskilmála til að stjórna gjalddögum og reikna hugsanlegan staðgreiðsluafslátt.|[Setja upp greiðsluskilmála](finance-payment-terms.md) |
-| Tilgreinið bókunarhópa sem kortleggja aðila eins og viðskiptavini, seljendur, atriði, auðlindir og sölu- og kaupskjöl til almennra reikninga. |[Setja upp bókunarflokka](finance-posting-groups.md)|
-|Stofnið fjárhagsskýrslur og Skilgreinið lykiltegundir sem ákvarða innihald fjárhagslegra sjókorta og skýrslna, svo sem skýrslna um efnahag og rekstrarskýrslur.|[Undirbúa fjárhagsskýrslugerð með fjárhagslegum gögnum og lykilflokkum](bi-how-work-account-schedule.md)|
-|Setja upp vikmörk sem kerfið lokar reikningi þótt greiðslan, þar með talinn afsláttur, nái ekki að fullu yfir upphæðina á reikningnum.|[Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+| Tilgreindu greiðsluskilmála til að sjá um gjalddaga og reikna út hugsanlega greiðsluafslætti.|[Setja upp greiðsluskilmála](finance-payment-terms.md) |
+| Tilgreinið bókunarhópa sem kortleggja aðila eins og viðskiptavini, seljendur, atriði, auðlindir og sölu- og kaupskjöl til almennra reikninga. |[Uppsetning bókunarflokka](finance-posting-groups.md)|
+|Búðu til fjárhagsskýrslur og skilgreindu lyklaflokka sem ákvarða efni fjárhagsgrafa og fjárhagsskýrslna á borð við skýrslur efnahagsreiknings og rekstrarreiknings.|[Útbúa Financial Reporting með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md)|
+|Hægt er að setja upp vikmörk þannig að kerfið loki reikningi ef greiðsla, að meðteknum afslætti, nær ekki upp í fulla upphæð á reikningnum.|[Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Uppsetning fjárhagstímabila. |[Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md) |
-|Setja upp reikningsskilmála sem minna viðskiptavini á að gera greiðslu.|[Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md)|
-| Skilgreina hvernig virðisaukandi skattur (VSK) er innheimtur fyrir sölu til skattyfirvalda. |[Setja upp virðisaukaskatt (VSK)](finance-setup-vat.md)|
+|Settu upp skilmála sem minna viðskiptamenn þína á að ganga frá greiðslu.|[Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md)|
+| Skilgreindu hvernig VSK-upphæðir sem fengnar eru fyrir sölu eru gefnar fram til skattayfirvalda. |[Setja upp virðisaukaskatt (VSK)](finance-setup-vat.md)|
 |Undirbúa að nota óinnleystan VSK í tengslum við greiðslumátann reiðufé.|[Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé](finance-setup-unrealized-vat.md)|
-|Tilgreinið erlenda gjaldmiðla sem viðskipti eru skilgreind í eða Tilkynnið færslur í.|[Setja upp gjaldmiðla](finance-set-up-currencies.md)|
-| Setja upp aðgerðir sölu-og innkaupa til að halda utan um greiðslur í erlendri mynt.|[Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
-|Skilgreinið einn eða fleiri viðbótargjaldmiðil svo upphæðir séu sjálfkrafa tilkynntar í staðbundnu gjaldmiðli (ISK) og öðrum skýrslugjaldmiðli í hverri færslu fjárhags og annarra færslna.|[Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)|
+|Skilgreindu erlenda gjaldmiðla sem þú stundar viðskipti í eða gefur upp færslur í.|[Uppsetning gjaldmiðla](finance-set-up-currencies.md)|
+| Settu eiginleika sölu og innkaupa upp til að afgreiða greiðslur í erlendum gjaldmiðlum.|[Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Skilgreindu einn eða fleiri viðbótargjaldmiðla þannig að upphæðir séu sjálfkrafa gefnar upp í bæði staðbundnum gjaldmiðli (SGM) og í öðrum skýrslugjaldmiðli fyrir hverja fjárhagsfærslu og aðrar færslur.|[Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)|
 |Stilla reglulega jafngildi viðbótargjaldmiðils til að bæta upp sveiflur í gengi.|[Uppfæra gengi](finance-how-update-currencies.md)|
-|Skilgreina marga vexti til að nota fyrir mismunandi tímabil fyrir seinkaðar greiðslur í verslunarfærslum.|[Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md)|
-|Raða eftir upphæðum sem á að slétta sem reikningar eru stofnaðir í sjálfkrafa.|[Uppsetning sléttunargerðar reikninga](finance-set-up-invoice-rounding.md)|
+|Skilgreindu marga vexti sem á að nota fyrir mismunandi tímabil fyrir seinkaðar greiðslur í viðskiptafærslum.|[Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md)|
+|Hagaðu því þannig að upphæðir verði sjálfkrafa sléttar þegar reikningar eru stofnaðir.|[Uppsetning sléttunargerðar reikninga](finance-set-up-invoice-rounding.md)|
 | Bæta nýjum reikningum við eldri bókhaldslykil. |[Uppsetning bókhaldslykilsins](finance-setup-chart-accounts.md) |
 | Setjið upp viðskiptaupplýsingar (BI) töflur til að greina sjóðstreymi. |[Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md) |
-|Gera reikningsfærslur viðskiptavina ekki settar upp í kerfinu.|[Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md)|
-| Setja upp Intrastat-skýrslugerð og senda skýrsluna til yfirvalda. | [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat.md)|
-|Tryggja skal að röksemdafærslu sé úthlutað milli mismunandi lykla, svo sem magn, prósentu eða upphæðar þegar færslubókin er bókuð.|[Nota úthlutunarlykla í færslubókum](ui-how-use-allocation-keys-general-journals.md)|
-|Setja upp upprunakóða og ástæðukóða til að aðstoða við að fylgjast með endurskoðunarslóðum.|[Uppsetning upprunakóða og ástæðukóða fyrir endurskoðunarslóðir](finance-setup-trail-codes.md)|
+|Virkjaðu reikningsfærslu viðskiptamanna sem eru ekki uppsettir í kerfinu.|[Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md)|
+| Uppsetning á Intrastat skýrslugerð, og senda inn skýrsluna til yfirvalda | [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat.md)|
+|Gakktu úr skugga um að færslubókarfærslu sé úthlutað milli mismunandi lykla, t.d. magn, prósenta eða upphæð, þegar bókað er í færslubókina.|[Nota úthlutunarlykla í færslubókum](ui-how-use-allocation-keys-general-journals.md)|
+|Settu upp upprunakóða og ástæðukóða til að fylgjast með endurskoðunarslóðum.|[Uppsetning upprunakóða og ástæðukóða fyrir endurskoðunarslóðir](finance-setup-trail-codes.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
 > [!TIP]
-> Í sumum Þjónustusíðum fyrirtækja getur verið svæði sem ekki er lýst í greinum sem talin eru upp hér að ofan þar sem þau eiga við staðbundna virkni eða sérsnið. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+> Það fer eftir landfræðilegri staðsetningu þinni hvaða reiti sumar Business Central-síður geta innihaldið sem ekki er lýst í greinunum sem eru gefnar upp hér fyrir ofan vegna þess að þær gilda um staðbundna virkni eða sérstillingar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -66,7 +66,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Vinna með víddir](finance-dimensions.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

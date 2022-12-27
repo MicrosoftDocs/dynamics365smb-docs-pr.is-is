@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 95194e3afed89d8a5636e53e1da76c20d81296ef
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8522539"
@@ -34,7 +34,7 @@ Eftirfarandi tafla gefur upp bestu venjur um uppsetningu reitsins **Kostnaðara�
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
+[Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
 [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

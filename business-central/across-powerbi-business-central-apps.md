@@ -1,5 +1,5 @@
 ---
-title: Notaðu starfsemi miðlægu apps í Power BI
+title: Notka Business Central-forrit í Power BI
 description: Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central gögnum með Business Central forritunum fyrir Power BI.
 author: jswymer
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.openlocfilehash: a0ea051ec39b290706b30da455fce518cd7bdcd0
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533376"
 ---
-# <a name="use-the-prod_short-apps-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)] Notaðu appið í Power BI
+# <a name="use-the-prod_short-apps-in-power-bi"></a>Nota [!INCLUDE [prod_short](includes/prod_short.md)]-forrit í Power BI
 
 > **Á VIÐ:** [!INCLUDE [prod_long](includes/prod_long.md)] á netinu 
 
@@ -150,7 +150,7 @@ Power BI-forritið sýnir aðeins gögn úr [!INCLUDE[prod_short](includes/prod_
 - [Velja reit](/power-bi/service-dashboard-tiles) til opna undirliggjandi skýrslu.  
 - Sjálfgefið er að gagnasafnið sé ekki áætlað til endurnýjunar. Hægt er að breyta uppfærsluáætluninni eða uppfæra hana hvenær sem er í **Uppfæra núna**. Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -159,17 +159,17 @@ Power BI-forritið sýnir aðeins gögn úr [!INCLUDE[prod_short](includes/prod_
 [Vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI](across-working-with-business-central-in-powerbi.md)  
 [Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)]-gögn](across-how-use-financials-data-source-powerbi.md)  
 [Viðskiptaupplýsingar](bi.md)  
-[Vertu klár í rekstur fyrirtækja](ui-get-ready-business.md)  
+[Undirbúðu þig fyrir viðskiptin](ui-get-ready-business.md)  
 [Flytja inn viðskiptagögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
-[Setja upp[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnagjafa](across-how-use-financials-data-source-powerapps.md)  
-[Notkunar [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
+[Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
 [Power BI fylgiskjöl](/power-bi/)  
-[Hvað er Power BI ?](/power-bi/fundamentals/power-bi-overview)  
+[Hvað er Power BI?](/power-bi/fundamentals/power-bi-overview)  
 [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
-[Kynning á datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
-[Kynning á dataflows og Data sjálfsafþjónustu](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
+[Kynning á gagnaskemmum](/power-bi/transform-model/datamarts/datamarts-overview)  
+[Kynning á gagnaflæðum og gagnaundirbúningur sjálfsafgreiðslu](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

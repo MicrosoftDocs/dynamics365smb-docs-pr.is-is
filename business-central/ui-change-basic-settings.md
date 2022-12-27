@@ -12,7 +12,7 @@ ms.date: 08/31/2022
 ms.author: jswymer
 ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9606063"
@@ -29,9 +29,9 @@ Hlutverkið táknar heimasíðuna, upphafssíðu sem er hönnuð fyrir þarfir t
 
 * Efst gerir yfirlitið þér kleift að skipta á milli viðskiptavina, lánardrottna, vara og annarra mikilvægra lista yfir upplýsingar. Á svipaðan hátt leyfa aðgerðir þér að hefja verkefni, svo sem að búa til nýjan sölureikning, beint af heimasíðunni.
 
-* Í miðju er að **finna athafnasvæði**, sem sýnir núverandi gögn og hægt er að velja til að skoða ítarlegri upplýsingar. Afkastavísa má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Þú getur einnig byggt upp lista af uppáhalds viðskiptavinum á heimasíðunni fyrir reikninga sem þú ert oft í viðskiptum við eða þarft að veita sérstaka athygli.
+* Fyrir miðju er að finna svæðið **Aðgerðir** sem sýnir núverandi gögn og má velja til að skoða nákvæmari upplýsingar. Afkastavísa má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Þú getur einnig byggt upp lista af uppáhalds viðskiptavinum á heimasíðunni fyrir reikninga sem þú ert oft í viðskiptum við eða þarft að veita sérstaka athygli.
 
-### <a name="change-the-role"></a>Breyta hlutverkinu
+### <a name="change-the-role"></a>Breyta hlutverki
 
 Sjálfgefið hlutverk þitt er **Viðskiptastjórnandi**, en hægt er að velja annað hlutverk sem uppfyllir þarfir þínar betur.  
 
@@ -43,10 +43,10 @@ Sjálfgefið hlutverk þitt er **Viðskiptastjórnandi**, en hægt er að velja 
 
 Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að hafa mörg fyrirtæki í gagnagrunni, en aðeins hægt að velja eitt í einu. Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn.
 
-**Reiturinn fyrirtæki** sýnir fyrirtækið sem þú starfar í og þú getur notað það til að skipta yfir í annað fyrirtæki. Nafn fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðgerð sem hægt er að velja um að fara aftur í hlutverkamiðstöðina.
+Reiturinn **Fyrirtæki** sýnir fyrirtækið sem þú ert að vinna í og þú getur notað hann til að skipta yfir í annað fyrirtæki. Heiti fyrirtækisins er alltaf birt uppi í vinstra horninu og virkar sem aðgerð sem hægt er að velja til að fara til baka í Mitt hlutverk.
 
 > [!TIP]
-> Einnig er hægt að breyta fyrirtækinu með því að nota skiptiborð fyrirtækisins (CRTL + O). Nánari upplýsingar um þessa eiginleika og aðrar leiðir til að breyta fyrirtæki eða umhverfi má sjá [með því að skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md).
+> Einnig er hægt að breyta fyrirtækinu með því að nota fyrirtækjaskiptinn (Crtl+O). Frekari upplýsingar um þennan eiginleika og aðrar leiðir til að breyta fyrirtæki eða umhverfi er að finna í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md).
 
 Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn. Þú getur stofnað nýtt fyrirtæki með sérstilltum gögnum. Nánari upplýsingar eru í [Stofna ný fyrirtæki](about-new-company.md).
 
@@ -71,7 +71,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 
 ## <a name="work-date"></a><a name="work-date"></a>Vinnudagur
 
-Dagsetningin sem er algengust er dagurinn í dag. Heimilt er að breyta vinnudagsetningunni tímabundið þannig að hægt sé að framkvæma verk, t.d. að ljúka viðskiptum fyrir dagsetningu sem er ekki í dag.
+Dagsetningin sem er algengust er dagurinn í dag. Þú gætir þurft að breyta tímabundið vinnudagsetningu til að framkvæma verk, eins og að klára færslur fyrir dagsetningu sem er ekki núverandi dagsetning.
 
 > [!TIP]  
 > Í öllum dagsetningarreitum skal slá inn **t** til að færa aftur inn daginn í dag og slá inn **w** til að færa fljótt inn vinnudagsetninguna sem er gildið í reitnum **Vinnudagsetning** á síðunni **Mínar stillingar**.
@@ -91,7 +91,7 @@ Ef vinnudagsetning er ekki stillt á núverandi dag (daginn í dag), þá á öl
 
 ## <a name="region"></a><a name="region"></a> Svæði
 
-**Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir. Hún ákvarðar líka hvaða stafur er notaður sem skiltákn tugabrots þegar talnalyklaborð er notað til að slá inn gögn. Frekari upplýsingar um [ritun gagna](ui-enter-data.md#decimal).
+**Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir. Hún ákvarðar líka hvaða stafur er notaður sem skiltákn tugabrots þegar talnalyklaborð er notað til að slá inn gögn. Frekari upplýsingar eru í [Gagnainnfærsla](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Tungumál
 
@@ -107,17 +107,17 @@ Tilgreinir tímabeltið þar sem þú ert. Við fyrstu innskráningu á [!INCLUD
 
 ## <a name="notifications"></a>Tilkynningar
 
-*Veldu breytinguna þegar ég fæ sendar tilkynningar* tengill til að skoða eða breyta tilkynningum sem fást um tiltekin tilvik eða stöðubreytingar, eins og þegar verið er að reikningsfæra á viðskiptavin sem hefur gjaldfallna stöðu eða tiltækar birgðir eru lægri en magnið sem verið er að fara að selja. Frekari upplýsingar í [Umsjón með tilkynningum](ui-smart-notifications.md).
+Veljið *Breyta þegar ég fæ tilkynningar* til að skoða eða breyta tilkynningum um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu, eða þegar tiltækar birgðir eru lægri en magnið sem þú ert að fara að selja. Frekari upplýsingar er að finna á [Stjórnun tilkynninga](ui-smart-notifications.md).
 
 ## <a name="teaching-tips"></a>Kennsluábendingar
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Stofna ný fyrirtæki](about-new-company.md)  
 

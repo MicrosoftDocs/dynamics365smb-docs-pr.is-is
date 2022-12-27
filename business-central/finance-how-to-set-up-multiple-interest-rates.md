@@ -1,5 +1,5 @@
 ---
-title: Setja upp marga vexti til að seinka greiðslu
+title: Setja upp marga vexti fyrir seinkaða greiðslu
 description: Í þessu efnisatriði er sagt hvernig á að reikna út gjöld með mörgum vöxtum fyrir tiltekið tímabil.
 author: SorenGP
 ms.topic: conceptual
@@ -11,14 +11,14 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: 997a6e587a94d4d4a20db5f01a79ad0fd295df61
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8135442"
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Setja upp marga vexti til að seinka greiðslu
+# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Setja upp marga vexti fyrir seinkaða greiðslu
 
-Hægt er að nota mismunandi vexti fyrir mismunandi tímabil fyrir seinkaðar greiðslur í verslunarviðskiptum. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
+Hægt er að nota mismunandi vexti fyrir mismunandi tímabil fyrir seinkaðar greiðslur í færslum viðskipta. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
 Til dæmis tilgreinir ríkisstjórn hámarksvexti sem má leggja á neytendur. Vöxtum er hægt að breyta tvisvar á ári, 1. janúar og 1. júlí. Vextir á milli fyrirtækja eru samþykktir af báðum aðilum og engin takmörk eru fyrir þennan viðskiptavinaflokk. Tilkynntir vextir eru vanalega fjórum prósentum hærri en vextir venjulegra banka.
 
@@ -32,7 +32,7 @@ Til dæmis tilgreinir ríkisstjórn hámarksvexti sem má leggja á neytendur. V
 4. Velja hnappinn **Í lagi**.  
 5. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skilmálar innheimtubréfa** og velja síðan viðkomandi tengil.  
 6. Á síðunni **Skilmálar innheimtubréfa** skal velja nauðsynlega skilmála innheimtubréfs og síðan velja aðgerðina **Stig**.  
-7. **Á síðunni stig** innheimtubréfa, fyrir viðeigandi stig innheimtubréfs, er reiturinn Reikna vexti **valinn**.  
+7. Á síðunni **Stig innheimtubréfs** skal velja reitinn **Reikna út vexti** fyrir viðeigandi stig innheimtubréfa.  
 
 Þegar gefið er út minnisblað vaxtareiknings, sýnir það vaxtagjöldin með mörgum vöxtum fyrir tiltekið tímabil. Minnisblaðið inniheldur einnig samskiptaupplýsingar viðskiptavinar, fyrirtækið sem gefur út minnisblaðið og viðbótar- og heildarfjárhæðina. Upphafsfærsla minnisblaðsins birtist í feitletruðu. Vaxtagjöldin eru reiknuð með mörgum vöxtum á tilteknu tímabili og eru prentuð eftir upphafsfærslu minnisblaðsins.  
 

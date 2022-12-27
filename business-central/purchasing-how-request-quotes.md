@@ -1,6 +1,6 @@
 ---
 title: Stofna innkaupabeiðni til að biðja um tilboð
-description: Lýsir því hvernig á að stofna sölutilboð eða tilboðsbeiðni (RFQ) til að skrá tilboð til viðskiptamanns til að selja vörur undir ákveðnum skilmálum.
+description: Lýsir því hvernig skal stofna sölutilboð eða beiðni um tilboð (RFQ) fylgiskjal, til að skrá tilboð til viðskiptamanns um að selja tilteknar vörur með tilteknum skilmálum.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -12,32 +12,32 @@ ms.date: 08/08/2022
 ms.author: edupont
 ms.openlocfilehash: 870fa31361770f5bd773f22ff24a54d65a4b80a3
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9607581"
 ---
 # <a name="request-quotes"></a>Biðja um tilboð
 
-Hægt er að nota innkaupabeiðni sem forkaup fyrir innkaupapöntun, sem síðan er breytt í innkaupareikning.
+Hægt er að nota innkaupabeiðni sem uppkast fyrir innkaupapöntun sem síðan er hægt að breyta í innkaupareikning.
 
-## <a name="create-a-purchase-quote"></a>Stofna kauptilboð
+## <a name="create-a-purchase-quote"></a>Stofna innkaupabeiðni
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, slá inn **innkaupatilboð** og velja síðan tengda tengilinn.
-2. Stofna nýtt skjal á sama hátt og þú býrð til innkaupapöntun. Frekari upplýsingar við [skráningu innkaupa](purchasing-how-record-purchases.md).
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupabeiðnir**, velja síðan viðkomandi tengil.
+2. Stofna nýtt skjal á sama hátt og þú býrð til innkaupapöntun. Frekari upplýsingar eru á [Skrá innkaup](purchasing-how-record-purchases.md).
 
-## <a name="convert-a-purchase-quote-to-a-purchase-order"></a>Breyta innkaupatilboði í innkaupapöntun
+## <a name="convert-a-purchase-quote-to-a-purchase-order"></a>Umbreyta innkaupabeiðni í innkaupapöntun
 
-Þegar tilboð lánardrottins hefur verið samþykkt er hægt að umbreyta því í innkaupapöntun til að vinna innkaupin.
+Þegar þú hefur samþykkt tilboð lánardrottins geturðu breytt því í innkaupapöntun til að vinna úr innkaupunum.
 
-1. Innkaupabeiðnin sem á að umbreyta er opnuð og síðan er **valið aðgerðin gera pöntun**.
+1. Opnaðu innkaupabeiðnina sem þú vilt umbreyta og veldu síðan aðgerðina **Búa til pöntun**.
 
-Innkaupabeiðnin er fjarlægt úr gagnagrunninum. Innkaupapöntun er stofnuð samkvæmt upplýsingunum í innkaupabeiðninni sem hægt er að nota til að vinna innkaupin og bóka síðan innkaupareikning. **Í reitnum tilboð nr.** á bæði innkaupapöntuninni og innkaupareikningi er hægt að sjá númer innkaupabeiðninnar sem þeir voru gerðir úr.
+Innkaupabeiðnin er fjarlægt úr gagnagrunninum. Innkaupapöntun er stofnuð út frá upplýsingum í innkaupabeiðninni þar sem hægt er að nota til að vinna úr innkaupunum og síðan bóka innkaupareikninginn. Í reitnum **Tilboðsnr.** í bæði innkaupapöntun og innkaupareikningi er hægt að sjá fjölda innkaupabeiðna sem þau voru gerð úr.
 
 > [!NOTE]
-> Ekki er hægt að umbreyta innkaupatilboði í innkaupareikning beint eins og það er hægt með sölutilboðum. Upplýsingar um það hvernig eigi að stofna innkaupareikning eru lesnar til að lesa [færslukaup með innkaupareikningum](purchasing-how-record-purchases.md).
+> Ekki er hægt að breyta innkauptilboði í innkaupareikning á beinan hátt, eins og er hægt með sölutilboð. Upplýsingar um hvernig á að stofna innkaupareikning er að finna í [Skrá innkaup með innkaupareikningum](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-purchase-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Sjá einnig .
 

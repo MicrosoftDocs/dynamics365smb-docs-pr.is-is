@@ -11,7 +11,7 @@ ms.date: 06/14/2021
 ms.author: edupont
 ms.openlocfilehash: 429e32d8d4675812b503efc9a22cdded6e21023e
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8523007"
@@ -31,7 +31,7 @@ ms.locfileid: "8523007"
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Vinna við Almennar færslubækur](ui-work-general-journals.md)
-[hönnun upplýsingar: almenna bókalína (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
+[Vinna með færslubækur](ui-work-general-journals.md)
+[Hönnunarupplýsingar: Bókunarlína færslubókar (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

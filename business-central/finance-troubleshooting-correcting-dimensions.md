@@ -12,7 +12,7 @@ ms.date: 09/27/2021
 ms.author: bholtorf
 ms.openlocfilehash: 2f9662df035851c1700a3b5ca01b71a418832dbf
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532836"
@@ -103,7 +103,7 @@ Ef afturköllunaraðgerðin er ekki í boði, t.d. vegna þess að margar breyti
 
 Farið varlega þegar stór færslusöfn eru leiðrétt, t.d. söfn sem innihalda meira en 10.000 færslur. Ef það er hægt þá mælum við með að nota síur til að keyra leiðréttingar á smærri gagnasöfnum. Það er einnig góð hugmynd að keyra leiðréttingar utan venjulegs vinnutíma. 
 
-### <a name="use-analysis-views-with-dimension-corrections"></a>Nota greiningaryfirlit með Víddarleiðréttingum
+### <a name="use-analysis-views-with-dimension-corrections"></a>Nota greiningaryfirlit og víddarleiðréttingar
 
 Ef **Uppfæra við bókun** er virkjað fyrir greiningaryfirlit, getur [!INCLUDE[prod_short](includes/prod_short.md)] skoðað þegar skjöl og færslubækur eru bókaðar. Einnig er hægt að uppfæra yfirlit með þessari stillingu virkjaða með niðurstöður víddarleiðréttinga. Til að gera það skal kveikja á **Uppfæra greiningaryfirlit**. Uppfærsla greiningaryfirlita getir haft áhrif á afköst, sérstkaklega fyrir stór gagnasöfn, og því er mælt með að greiningaryfirlit séu aðeins uppfærð fyrir lítil gagnasöfn.  
 
@@ -118,11 +118,11 @@ Ef leiðrétting klárast ekki mun viðvörun birtast á leiðréttingarspjaldin
 > [!NOTE]
 > Endurstilling ólokinnar leiðréttingar hefur ekki áhrif á uppfærslur greiningaryfirlita vegna þess að þær gerast undir lok leiðréttingarferlisins.
 
-### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Nota Kostnaðarbókhald með leiðréttum fjárhagsfærslum
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Nota kostnaðarbókhald með leiðréttum fjárhagsfærslum
 
 Þegar búið er að leiðrétta víddir verða gögn kostnaðarbókhalds ósamstillt. Kostnaðarbókhald notar víddir til að safna saman upphæðum fyrir kostnaðarstaði og kostnaðarhluti og til að keyra kostnaðarúthlutanir. Að breyta víddum fyrir fjárhagsfærslur mun líklega þýða að þú endurkeyrir líkön kostnaðarbókhaldsins. Hvort sem þú þarft aðeins að eyða nokkrum kostnaðarskrám og endurkeyra úthlutanir, eða þú þarft að eyða öllu og endurkeyra öll líkönin þín, fer eftir gögnunum sem hafa verið uppfærð og hvernig möguleikar kostnaðarbókhaldsins eru settir upp. Það þarf að auðkenna handvirkt hvar víddarleiðréttingar hafa áhrif á kostnaðarbókhald og hvar er þörf á uppfærslum. [!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á sjálfvirka leið til að gera það sem stendur.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

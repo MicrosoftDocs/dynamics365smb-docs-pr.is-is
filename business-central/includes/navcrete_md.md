@@ -26,7 +26,7 @@ translation.priority.ht:
 - sv-se
 ms.openlocfilehash: da38396d06ca99fc3562c91ce07d0ad735e984f7
 ms.sourcegitcommit: 659cbd179d207b21fce2e365d60b423680d5156a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/15/2019
 ms.locfileid: "2622378"

@@ -13,7 +13,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.openlocfilehash: f0e0660d1a93e462af3a7a74ccd1d6420ef86c3d
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8522903"
@@ -52,7 +52,7 @@ Ef gátreiturinn **Stofna eftirfylgnihluta** er valinn verður nýr hluti búinn
 [Samskipti skráð](marketing-interactions.md)  
 [Vinna með tengiliði](marketing-contacts.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
-[Vinna með Viðskiptaseðla-](ui-work-product.md)
+[Vinna með Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

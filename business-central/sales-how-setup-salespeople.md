@@ -1,5 +1,5 @@
 ---
-title: Setja upp sölumann (inniheldur Video) | Microsoft docs '
+title: Setja upp sölumann (inniheldur myndskeið) | Microsoft Docs
 description: Þú getur sett upp kennimerki fyrir sérhvern sölumann, til að geta fylgst með frammistöðu einstakra sölumanna og úthlutað tengilið sölumanni.
 author: SorenGP
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 6a1254cb18546556b977eb009a819806e62ee2ca
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9531648"
@@ -31,7 +31,7 @@ ms.locfileid: "9531648"
 
 Hægt er að nota sölumenn í mismunandi tengslastjórnun og markaðsvinnu. Þú getur til dæmis úthlutað verki til sölufólks, þannig að verkið sé hluti af sölutækifæri sem sölumanninum hefur verið úthlutað. Nánari upplýsingar, sjá [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

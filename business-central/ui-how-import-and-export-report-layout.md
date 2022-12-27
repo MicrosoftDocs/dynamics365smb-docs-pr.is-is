@@ -1,5 +1,5 @@
 ---
-title: Innflutningur og útflutningur skýrsla-og Skjalauppsetningar
+title: Flytja inn og út skýrslu- og skjalaútlit
 description: Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skrá í og úr staðsetningu á tölvu og neti.
 author: SorenGP
 ms.topic: conceptual
@@ -11,12 +11,12 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: f0384ea780065c72e6fd4ca3ff95d2ec771a20ea
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528142"
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a>Arfur Flytja inn og flytja út sérsniðna skýrslu
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Eldra) Flytja sérsniðið skýrsluútlit inn og út
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -51,7 +51,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
  Upprunalega sérsniðna skýrsluútlitinu er skipt út með innflutta skýrsluútlitinu.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

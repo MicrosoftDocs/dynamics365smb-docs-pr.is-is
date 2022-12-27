@@ -5,23 +5,23 @@ ms.date: 04/05/2022
 ms.author: edupont
 ms.openlocfilehash: 8dcebacabc62e9744fb0c70e535f9fdd498047e6
 ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/09/2022
 ms.locfileid: "9461049"
 ---
-1. [Farðu á prufusíðuna](https://go.microsoft.com/fwlink/?linkid=847861), Veldu *fjármál og aðgerðir* og svo á **Dynamics 365 Business Central** spjaldinu, Veldu **reyna laust** hnappinn.  
-2. Sláðu inn vinnu-eða netfang skóla þíns og önnur nánari upplýsingar. Þú munt framvísa réttarhöldum kl [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
+1. Opnaðu [svæði prufuútgáfu](https://go.microsoft.com/fwlink/?linkid=847861), veldu *Fjármál og rekstur* og síðan í spjaldinu **Dynamics 365 Business Central** skaltu velja hnappinn **Prófa ókeypis**.  
+2. Sláðu inn vinnu- eða skólanetfangið þitt og aðrar upplýsingar. Farið verður með þig í prufuútgáfuna á [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
 
-Prufaðu að taka nokkra stund að hlaða, þá geturðu byrjað að nota App. **Gátlisti fyrir byrjað** tekur þig í gegnum skrefin til að gera þig tilbúna í viðskiptum. Skrefin eru breytileg eftir landinu og öllum iðnaði sem þú hefur bætt á þína [!INCLUDE [prod_short](prod_short.md)] starfsemi.  
+Það tekur smástund að hlaða inn prufuútgáfunni, síðan geturðu byrjað að nota forritið. Gátlistinn **Hefjast handa** fer með þig í gegnum skrefin til að undirbúa þig undir viðskipti. Skrefin eru mismunandi eftir löndum og aðgerðum innan atvinnugreina sem þú hefur bætt við [!INCLUDE [prod_short](prod_short.md)].  
 
-Inn [!INCLUDE[prod_short](prod_short.md)] munu sumir hlutir kannast við þig, og aðrir hlutir gætu verið ókunnugir. Þegar þú skráir þig fyrst inn á sýnifyrirtækið færðu aðgang að a ræst kort með tengli til að sýna sýniferðir. Frekari upplýsingar má fá með því að sjá [tilbúinn fyrir rekstur](../ui-get-ready-business.md) og fljótlega hefjast [greinar](../quick-start-business-central.md).  
+Í [!INCLUDE[prod_short](prod_short.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Þegar þú skráir þig fyrst inn í sýnifyrirtækið færðu aðgang að „Hefjast handa“ spjaldinu með tengil á sýnikynningar. Nánari upplýsingar er að finna í greinunum [Að undirbúa sig fyrir viðskipti](../ui-get-ready-business.md) og [stuttir leiðarvísar](../quick-start-business-central.md).  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](ua-get-help.md)]
 
-Ef þú ákveður að nota [!INCLUDE [prod_short](prod_short.md)] ekki er hægt að láta prufað renna út.  
+Ef þú vilt ekki nota [!INCLUDE [prod_short](prod_short.md)] geturðu látið prufuútgáfuna renna út.  
 
 [!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]
 
-Hafir þú rekist á vandamál, athugað [reynslusögur](../trial-faq.md) eða [Algengar spurningar](../across-faq.yml) greinar til að finna svör við spurningum þínum. Ef ekki er hægt að skrá sig í prófgreinina er leitað í [þjónustuveri Sjálfsþjónustu](../ui-troubleshoot-self-signup.md) til að leita sér ráðlegginga. Einnig er hægt að hafa samband [við samstarfsaðila](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) og biðja þá um að búa til ókeypis prufutíma eða aðra tegund af Forskoðun [!INCLUDE[prod_short](prod_short.md)] fyrir þig.  
+Ef þú lendir í vandræðum skaltu skoða [Algengar spurningar um prufuútgáfu](../trial-faq.md) eða [Algengar spurningar](../across-faq.yml) til að fá svör við sumum spurningum þínum. Ef þú getur ekki skráð þig fyrir prufuútgáfunni skaltu skoða greinina [Úrræðaleit fyrir innskráningu í sjálfsafgreiðslu](../ui-troubleshoot-self-signup.md) til að fá ábendingar. Þú getur einnig haft samband við [samstarfsaðila](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) og beðið hann um að búa til ókeypis prufu eða öðruvísi forútgáfu af [!INCLUDE[prod_short](prod_short.md)] fyrir þig.  

@@ -1,6 +1,6 @@
 ---
 title: Stofna fastáætlaða framleiðslupöntun og breyta henni
-description: Walkthrough fyrir framleiðslustjólögu á contoso Coffee sem vill búa til fastáætlaða framleiðslupöntun og breyta henni síðan.
+description: Kynning fyrir framleiðslustjóra hjá Contoso Coffee sem vill stofna fastáætlaða framleiðslupöntun og síðan breyta henni.
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -8,61 +8,61 @@ author: edupont04
 ms.author: andreipa
 ms.openlocfilehash: 7a057e144ed6825435c62f565eeaaa73974fedf9
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8524219"
 ---
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Walkthrough: stofna fastáætlaða framleiðslupöntun og breyta henni
+# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Kynning: Stofna fastáætlaða framleiðslupöntun og breyta henni
 
-Í þessari grein tökum við á móti þér leiðbeiningar til að nota contoso kaffi sýnigögnin til að vinna með framleiðslupantanir.  
+Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að vinna með framleiðslupantanir.  
 
 ## <a name="scenario"></a>Aðstæður
 
-Eduardo, framleiðsluskipuleggjandi á contoso Coffee, verður að stofna nýja framleiðslupöntun fyrir 10 eininga vöru **SP-SCM1009, Airpot** sem verður að vera á gjalddaga 28. apríl. Hann afturvirkar tímaáætlun þessa og staðfestir að hann geti byrjað pöntun þann 27. apríl.  
+Eduardo, framleiðslustjóri hjá Contoso Coffee, verður að stofna nýja framleiðslupöntun fyrir 10 einingar af vörunni **SP-SCM1009, Airpot** sem þarf að afhenda 28. apríl. Hann áætlar þetta aftur í tímann og staðfestir að hann geti hafið pöntunina 27. apríl.  
 
-Stuttu eftir að hann lýkur þessu verkefni er hann beðinn um að hækka pöntunina í 50 einingar. Þegar hann gerir þetta er afturvirk röðunarvirkni sem ýtir á upphafsdagsetningu pöntunar of snemma. Svo hann framsenda áætlun frá 23 apríl til þess að ákvarða raunhæfan lokadagsetningu.  
+Stuttu eftir að hann lýkur þessu verki er hann beðinn um að auka pöntunina upp í 50 einingar. Þegar hann gerir það ýtir aðgerð röðunar afturábak upphafsdagsetningu pöntunarinnar of snemma. Þannig að hann færir pöntunina fram frá 23. apríl til að geta ákveðið raunhæfari lokadag.  
 
 ## <a name="steps"></a>Skref
 
-1. Stofnið upphaflegu framleiðslupöntunina fyrir 10 einingar af vörunni **SP-SCM1009, Airpot**.
+1. Stofnaðu upphaflegu framleiðslupöntunina fyrir 10 einingum af vörunni **SP-SCM1009, Airpot**.
 
-    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **fastáætlaða** framleiðslupöntun og veljið síðan tengda tengilinn.  
+    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
 
-    2. **Velja nýju** aðgerðina og síðan eru reitirnir fylltir út eins og lýst er í eftirfarandi töflu.  
+    2. Veldu aðgerðina **Nýtt** og fylltu svo út reitina eins og lýst er í eftirfarandi töflu.  
 
-        |Svæði  |Gildi:  |
+        |Svæði  |Virði  |
         |---------|---------|
-        |**Tegund uppruna** |Vara|
-        |**Upprunnr.** |SP-SCM1009|
+        |**Tegund uppruna** |Atriði|
+        |**Upprunanúmer** |SP-SCM1009|
         |**Magn** |10|
-        |**Gjalddaga**|Apríl 28  |
+        |**Skiladagur**|Apríl 28  |
 
-    3. **Velja aðgerðina Endurnýja framleiðslupöntun**.  
+    3. Veldu aðgerðina **Uppfæra framleiðslupöntun**.  
 
-    4. **Á síðunni Endurnýja framleiðslupöntun** er tekið við öllum sjálfgildi og síðan er **hnappurinn í lagi** valinn til að hefja ferlið.  
+    4. Á síðunni **Uppfæra framleiðslupöntun** samþykkir þú allar sjálfgefnar stillingar og velur svo hnappinn **Í lagi** til að hefja ferlið.  
 
-        Í núgildandi uppsetningu notar þetta ferli afturvirkt röðun. Í nýju línunni í framleiðslupöntuninni er Upphafsdagsetningin 26 apríl.  
+        Í núverandi uppsetningu notar þetta ferli áætlanagerð aftur í tímann. Í nýju línunni í framleiðslupöntuninni er upphafsdagsetningin 26. apríl.  
 
-2. Breyið magni framleiðslupöntunarinnar í 50 einingar og tímasetja pöntunina.  
+2. Breyttu magni framleiðslupöntunarinnar í 50 einingar og tímasettu pöntunina.  
 
-    1. **Í línunum** **í framleiðsluuppskriftinni** er valin Nýlega bætt lína og í **reitnum Magn** er fært inn *50*.  
+    1. Í flýtiflipanum **Línur** fyrir **Framleiðsluuppskrift** skal velja nýlega viðbættri línu og síðan í reitinn **Magn** skal slá inn *50*.  
 
-3. **Velja aðgerðina Endurnýja framleiðslupöntun**.  
+3. Veldu aðgerðina **Uppfæra framleiðslupöntun**.  
 
-    Upphafsdagsetningunni hefur nú verið ýtt aftur í apríl 20. Þetta er ekki viðunandi dagsetning fyrir Eduardo.
+    Upphafsdegi hefur nú verið ýtt aftur til 20. apríl. Þetta er ekki ásættanleg dagsetning fyrir Eduardo.
 
-4. Ræsa framvirkt röðun fyrir framleiðslupöntunina.
+4. Settu í gang áætlanagerð fram í tímann fyrir framleiðslupöntunina.
 
-    1. **Á flipanum áætlun** er reiturinn Upphafsdagsetning **stilltur** á til *23* apríl.
+    1. Í flýtiflipanum **Tímasetja** skal stilla reitinn **Upphafsdagur** á *23. apríl*.
 
-    Byrjað verður til leygardagin nú 25 apríl og Lokadagsetningin er 2 maí. Gjalddagi fyrir pöntunina er settur einum degi síðar, 3 maí. Eduardo veit nú að það mun taka til maí 3 til að skila auknu pöntuninni.
+    Upphaf pöntunarinnar er nú 25. apríl og lokadagurinn er 2. maí. Gjalddagi pöntunarinnar er settur degi síður, 3. maí. Eduardo veit nú að það mun taka til 3. maí að afhenda aukna pöntun.
 
 > [!NOTE]
-> Ef pöntun er röðunin á upphafs-eða lokadagsetningu þarf ekki að gera keyrsluna Endurnýja framleiðslupöntun **vegna þess að** allar dagsetningar endurreikast sjálfkrafa.
+> Áætlun pöntunar með því að breyta upphafs- eða lokadegi krefst ekki runuvinnslunnar **Uppfæra framleiðslupöntun** því að allar dagsetningar endurreiknast sjálfkrafa.
 
-Nýja framleiðslupöntunin er nú sett upp og eru kröfur Eduardo uppfylltar.  
+Nýja framleiðslupöntunin er nú sett upp og kröfur Eduardo eru uppfylltar.  
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Kynning á contoso kaffi sýnigögnum](contoso-coffee-intro.md)  
+[Kynning á sýnigögnum Contoso Coffee](contoso-coffee-intro.md)  

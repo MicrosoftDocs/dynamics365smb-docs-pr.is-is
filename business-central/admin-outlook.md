@@ -12,18 +12,18 @@ ms.date: 04/27/2022
 ms.author: jswymer
 ms.openlocfilehash: 302de4dbae96280f7127091a367184af25c8c29a
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532809"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Sækja innbót Business Central fyrir Outlook
 
-Með [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að stjórna samskiptum fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. [!INCLUDE[prod_short](includes/prod_short.md)] Með Outlook viðbóunni Sérðu Fjárhagsleg gögn sem tengjast viðskiptavinum og lánardrottnum. Einnig er hægt að búa til og senda fjárhagsleg skjöl, t.d. verðtilboð og reikninga.  
+Með [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að stjórna samskiptum fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-innbótinni sérðu fjárhagsgögn sem tengjast viðskiptamönnum og lánardrottnum. Einnig er hægt að búa til og senda fjárhagsleg skjöl, t.d. verðtilboð og reikninga.  
 
 Til eru tvær leiðir til að sækja innbót Business Central fyrir uppsett Outlook en það fer eftir hlutverki þínu í fyrirtækinu:
 
-- Microsoft 365 Sem kerfisstjóri skal nota *miðlæga virkjun* til að setja upp viðbóta sjálfvirkt fyrir allt fyrirtækið, flokkana eða ákveðna notendur.
+- Sem stjórnandi Microsoft 365 skal nota *Miðlæga innleiðingu* til að setja upp innbótina sjálfkrafa fyrir allt fyrirtækið, hópa eða tiltekna notendur.
 
 - Sem hvaða notandi sem er skaltu setja innbótina upp til eigin nota ef stjórnandi þinn hefur þegar innleitt hana fyrir þig.
 
@@ -39,25 +39,25 @@ Innbót Business Central fyrir Outlook samanstendur af tveimur minni innbótum:
 
     Þegar tölvupóstur vísar á númer viðskiptaskjals í meginmáli tölvupósts býður þessi innbót upp á beinan tengil í línu úr meginmáli tölvupóstsins í raunverulegt viðskiptaskjal í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Frekari upplýsingar um það sem gert er við viðbóta er að finna [í notkun Viðskiptaseðla sem fyrirtækið innanborðs í Outlook](work-outlook-addin.md).
+Frekar upplýsingar um hvað gert er við innbótina er að finna í [Nota Business Central sem fyrirtækjainnhólf í Outlook](work-outlook-addin.md).
 
 Boðið er upp á hverja innbót sem XML-skrá sem kallast *manifest* sem hver sá sem vill þess virkni þarf að setja upp í Outlook. Þessar skrár lýsa því hvernig á að virkja innbæturnar og tengjast Business Central þegar þær eru notaðar í Outlook. Yfirleitt vinnur stjórnandi með þessar skrár. Sem almennur notandi þarft þú í flestum tilfellum ekki að vinna með þessar skrár með beinum hætti. Annaðhvort mun stjórnandinn setja upp innbótina þannig að uppsetningin gerist sjálfkrafa fyrir þig eða þú munt nota innbyggða uppsetningu með hjálp til að fara í gegnum uppsetninguna.
 
 > [!IMPORTANT]
-> Að vinna með margfallt umhverfi? Viðskiptamiðað við Outlook er hannað til að vinna með eitt miðlægt umhverfi fyrirtækja. Þegar viðbótin er uppsett er nafn umhverfisins innifalið í farmskrá viðbóta. Þessi Skilgreining þýðir að viðbótin mun aðeins tengjast því umhverfi sem hún var uppsett frá. Til að nota viðbóta við annað umhverfi opnist þú umhverfið og setur upp viðbóta aftur.
+> Unnið með mörg umhverfi? Business Central-innbótin fyrir Outlook er hönnuð til að vinna með eitt Business Central-umhverfi. Þegar innbótin er sett upp er heiti umhverfisins haft með í skrá innbótarinnar. Þessi grunnstilling þýðir að innbótin mun aðeins tengjast við umhverfið þar sem hún var sett upp. Til að nota innbótina með öðru umhverfi opnarðu umhverfið og setur innbótina upp aftur.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Setja upp innbótina með miðlægri innleiðingu sem stjórnandi
 
-Miðstýrð innleiðing er eiginleiki í Microsoft 365 Stjórnun sem notaður er til að setja sjálfvirkt upp viðbætur í Office apps notenda, líkt og Outlook. Þetta er ráðlagða leiðin fyrir stjórnendur til að setja upp Office-innbætur fyrir notendur og hópa innan fyrirtækisins.
+Miðlæg innleiðing er eiginleiki í Microsoft 365 stjórnendamiðstöð sem þú notar til setja sjálfkrafa upp innbætur í Office-forritum notanda eins og Outlook. Þetta er ráðlagða leiðin fyrir stjórnendur til að setja upp Office-innbætur fyrir notendur og hópa innan fyrirtækisins.
 
 > [!NOTE]
 > Fyrir Business Central á staðnum skal skoða [Að setja upp innbót fyrir Outlook-samþættingu við Business Central á staðnum](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) í efni fyrir stjórnendur (eingöngu á ensku).
 
 ### <a name="prerequisites"></a>Frumskilyrði
 
-- Í Microsoft 365 áskrift  
-- Notendum er úthlutað Microsoft 365 leyfi  
-- Microsoft 365 Reikningurinn hefur alþjóðlegan stjórnanda *eða* skipti um *stjórnendahlutverk*
+- Microsoft 365 áskrift  
+- Notendur fá úthlutað Microsoft 365 leyfi  
+- Reikningurinn þinn hjá Microsoft 365 er með hlutverkið *Altækur stjórnandi* eða *Exchange-stjórnandi*
 
 ### <a name="deploy-the-add-in"></a>Setja upp innbótina
 
@@ -71,23 +71,23 @@ Miðstýrð innleiðing er eiginleiki í Microsoft 365 Stjórnun sem notaður er
 5. Á þessum tímapunkti er vinnunni sem þarf að gera í Business Central lokið þannig að þú getur valið **Lokið**.
 
    >[!TIP]
-   > Áður en þú velur **Next** skaltu velja **ferðinni Microsoft 365 í (opnast í nýjum glugga)** til að opna og skrá þig inn í Microsoft 365 admin Center í nýjum vafraglugga. Þú verður að fara Microsoft 365 í admin Center í seinna skrefi samt.
+   > Áður en þú velur **Næsta** skaltu velja tengilinn **Opna Microsoft 365 (opnast í nýjum glugga)** til að opna og skrá þig inn í stjórnendamiðstöð Microsoft 365 í nýjum vafraglugga. Þú verður hvort sem er að fara í stjórnendamiðstöð Microsoft 365 síðar.
 
 6. Farðu í möppuna þar sem OutlookAddins.zip var sótt og dragðu út skrárnar **Contact Insights.xml** og **Document View.xml** úr zip-skránni yfir í möppu að eigin vali.
 
     Frekari upplýsingar er að finna í [Þjappa og afþjappa skrár](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Skráðu þig inn Microsoft 365 á admin Center, farðu svo í [Integrated apps](https://go.microsoft.com/fwlink/?linkid=2163967).
+7. Skráðu þig inn í stjórnendamiðstöð Microsoft 365 og farðu svo í [Samþætt forrit](https://go.microsoft.com/fwlink/?linkid=2163967).
 
 8. Veldu **Hlaða upp sérsniðnum forritum**.
 9. Á síðunni **Hlaða upp forritum til að setja upp** skal velja **Hlaða upp skrá (.xml) úr tækinu** > **Velja skrá**.
-10. Veljið eina af þeim viðbótum sem unnar voru fyrr, til dæmis með því **að hafa samband við innsýn. XML**.
+10. Veldu eina af viðbótarskránum sem þú dróst út áður, til dæmis **Contact Insights.xml**.
 11. Fylgdu leiðbeiningunum til að úthluta notendum og setja upp innbótina.
 12. Endurtaktu skref 9 til 11 fyrir hina innbótarskrána ef þú vilt.
 
 > [!IMPORTANT]
 > Grænt gátmerki birtist þegar innbótin er uppsett í stjórnendamiðstöðinni. Það getur þó liðið allt að sólarhringur áður en notendur sjá innbótina í Outlook-forritinu. Notendur gætu einnig þurft að endurræsa Outlook.
 
-Þegar því er lokið er alltaf hægt að breyta virkjun í Microsoft 365 admin Center eins og að úthluta fleiri notendum. Frekari upplýsingar um viðbótarviðbætur í admin Center [fást í innleiða viðbætur í admin Center](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
+Þegar því er lokið er alltaf hægt að breyta uppsetningunni í stjórnendamiðstöð Microsoft 365 á borð við að úthluta fleiri notendum. Frekari upplýsingar um uppsetningu innbóta í stjórnendamiðstöðinni er að finna í [Setja upp innbætur í stjórnendamiðstöðinni](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Setja upp innbótina til eigin nota
 
@@ -122,7 +122,7 @@ Ef þú notar Business Central á staðnum getur verið að uppsetning innbótar
 
 Nú geturðu byrjað að nota innbótina í Outlook.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -133,7 +133,7 @@ Nú geturðu byrjað að nota innbótina í Outlook.
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook)  
-[Nota viðbætur í Outlook á vefnum](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Nota innbætur í Outlook á vefnum](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

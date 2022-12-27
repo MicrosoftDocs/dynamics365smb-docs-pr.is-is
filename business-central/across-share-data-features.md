@@ -1,6 +1,6 @@
 ---
-title: Samnýtingu gagna
-description: Fræðast um mismunandi leiðir til að deila viðskipagögnum úr Viðskiptamiðinu.
+title: Deila gögnum
+description: Kynntu þér ólíkar leiðir til að deila viðskiptagögnum úr Business Central.
 author: jswymer
 ms.topic: conceptual
 ms.workload: na
@@ -9,66 +9,66 @@ ms.date: 09/21/2022
 ms.author: jswymer
 ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9607473"
 ---
-# <a name="sharing-business-data-from-business-central"></a>Hlutdeild Viðskipagagna frá Viðskiptamiðinu
+# <a name="sharing-business-data-from-business-central"></a>Deiling viðskiptagagna úr Business Central
 
-Samvinna fólks innan og utan fyrirtækis er óaðskiljanlegur hluti flestra fyrirtækja. [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á nokkra möguleika fyrir samnýtingu viðskipdata, líkt og lista yfir færslur, tilteknar færslur eða skjöl. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
+Samstarf fólks innan og utan fyrirtækis er ómissandi þáttur í flestum viðskiptum. [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á ýmsa eiginleika til að deila viðskiptagögnum, eins og lista yfir færslur, tilteknar færslur eða skjöl. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
-Með öllum þessum aðgerðum er aðgangur að gögnum varin með leyfi og heimildir rekstraraðila miðlægu.
+Með öllum þessum eiginleikum er aðgangur að gögnum varinn með leyfi og heimildum Business Central.
 
-## <a name="copying-a-link"></a>Að afrita tengil
+## <a name="copying-a-link"></a>Afrita tengil
 
-![Stutt](media/check.png) Viðskipti miðsvæðis á netinu ![Stutt](media/check.png) Rekstur miðsvæðis innanhúss
+![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
-Frá hvaða síðu sem er getur þú afritað slóð síðunnar, síðan límt og dreift henni í annars konar miðlum eins og tölvupóstum, teymum spjalli eða textaskilaboðum. Auðveldasta leiðin til að afrita tengil er að með því að velja **Share** > **Copy hlekk** efst á síðunni. Önnur leið er að afrita SLÓÐINA beint úr nafnakassa vafrans.
+Frá hvaða síðu sem er geturðu afritað vefslóð síðunnar, síðan líma hana og dreifa henni með öðrum miðlum eins og tölvupósti, Teams-spjalli eða textaskilaboðum. Einfaldasta leiðin til að afrita tengil er með því að velja **Deila** > **Afrita tengil** efst á síðunni. Önnur leið er að afrita vefslóðina beint úr veffangareit vafrans.
 
-### <a name="modify-the-page-link"></a>Breyta síðu tengils
+### <a name="modify-the-page-link"></a>Breyta tengli síðunnar
 
-Þegar búið er að afrita tengil, áður en það er sent, er hægt að breyta SLÓÐINNI til að vinna úr því sem sést þegar síðan opnast. Til dæmis er hægt að bæta við síum eða tilgreina annað fyrirtæki.
+Þegar þú afritar tengil og áður en þú sendir hann geturðu breytt vefslóðinni til að stýra því hvað er sýnt þegar síðan opnast. Til dæmis er hægt að bæta við síum eða tilgreina annað fyrirtæki.
 
-Frekari upplýsingar er að finna [á Vefbiðlaraslóðinni](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
+Fyrir frekari upplýsingar er að finna í [Vefslóð vefbiðlara](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
 ### <a name="about-filtered-lists"></a>Um síaða lista
 
-Með því að nota síurúðuna á listasíðum er hægt að nota afmarkanir til að þrengja færslurnar sem sýndar eru á listanum. Ef afritunartengill **er notaður** eða afritað úr vafranum tekur síðutengill ekki með sér breytingar á síðunni. Notendur sem opna tengilinn sjá fullt safn. Leiðin til að geyma síuna á söfnunarsíðu hlekki er að vista síaða síðu sem **Sýn** fyrst. Því næst skaltu opna Úrið og afrita tengilinn þaðan.
+Með því að nota síusvæðið á listasíðum geturðu notað síur til að þrengja færslurnar sem sýndar eru í listanum. Ef notuð er aðgerðin **Afrita tengil** eða vefslóðin úr vafranum er afrituð mun síðutengillinn ekki innihalda síubreytingarnar þínar. Notendur sem opna tengilinn munu sjá allt safnið. Besta leiðin til að halda síun á síðutengli safnsins er að vista fyrst síuðu síðuna sem **Yfirlit**. Opnaðu svo yfirlitið og afritaðu tengilinn þaðan.
 
 Nánari upplýsingar er að finna í [Flokkun, leit og síun](ui-enter-criteria-filters.md).
 
-## <a name="sharing-to-teams"></a>Samnýting á teymum
+## <a name="sharing-to-teams"></a>Deila með Teams
 
-![Stutt](media/check.png) Viðskipti miðsvæðis á netinu ![Ekki studd](media/x-icon.png) Rekstur miðsvæðis innanhúss
+![Stutt](media/check.png) Business Central Online ![Ekki stutt](media/x-icon.png) Business Central á staðnum
 
-Beint af flestum söfnuninni og upplýsingasíðunum er hægt að senda tengil á síðuna á fólk, flokka spjall eða rásir. Deildu t.d. tengli í afmarkað yfirlit yfir færslurnar þínar. Ef þú hefur sett upp [!INCLUDE[prod_short](includes/prod_short.md)] App fyrir hópana þá stækkar hlekkurinn sjálfkrafa í geisladisk til að þú fylgir með skilaboðunum þínum. Viðtakendur velja síðan tengilinn eða kortið til að opna síðuna í Viðskiptamiðinu.
+Beint úr flestum safnsíðum og upplýsingasíðum geturðu sent tengil á síðuna til einstaklinga, hópspjalls eða rása. Til dæmis deila tengli á síað yfirlit yfir færslurnar þínar. Ef þú hefur sett upp [!INCLUDE[prod_short](includes/prod_short.md)] forritið fyrir Teams mun tengillinn sjálfkrafa stækka í samandregið spjald sem þú getur haft með skilaboðunum. Viðtakendur velja síðan tengilinn eða spjaldið til að opna síðuna í Business Central.
 
-Frekari upplýsingar [fást í Samnýting færslna og Síðutenglum í teymum](across-working-with-teams.md).
+Nánari upplýsingar eru í [Deila færslum og síðutenglum í Teams](across-working-with-teams.md)
 
-## <a name="sharing-through-onedrive"></a>Hlutdeild í gegnum OneDrive
+## <a name="sharing-through-onedrive"></a>Samnýting með OneDrive
 
-![Stutt](media/check.png) Viðskipti miðsvæðis á netinu ![Stutt](media/check.png) Rekstur miðsvæðis innanhúss
+![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
-Viðskiptamiðlæg gerir það auðvelt að geyma, stjórna og samnýta skrár með öðru fólki í gegnum OneDrive fyrir fyrirtæki. Á flestum síðum þar sem skrár eru tiltækar, svo sem í Skýrsluinnhólfinu eða skrám sem tengdar eru færslum, er hægt að **finna opnu í OneDrive** og **samnýta** Aðgerðir. Báðar aðgerðirnar vista afrit af skrá á OneDrive. Þegar inn OneDrive er komið er hægt að nota það fyrir samnýtingu og framlegmöguleika á skránni. Munurinn á aðgerðunum er sá að **OneDrive** opnar skrána í OneDrive. **Deildu** opnar síðu við skulum velja hver á að deila skránni með. Viðtakendur munu fá tilkynningu í tölvupósti um að nálgast skrána frá OneDrive kl.
+Business Central auðveldar geymslu, umsjón og deilingu skráa með öðrum í gegnum OneDrive fyrir Business. Á flestum síðum þar sem skrár eru tiltækar, svo sem í innhólfi skýrslunnar eða skrám sem hengdar eru við færslur, finnur þú aðgerðirnar **Opna í OneDrive** og **Deila**. Báðar aðgerðir vista afrit af skrá á OneDrive. Þegar hún er í OneDrive geturðu notað deilingar- og framlagseiginleika á skrána. Munurinn á aðgerðum er sá að **Opna í OneDrive** opnar skrána í OneDrive. **Deila** opnar síðu sem gerir þér kleift að velja með hverjum þú vilt deila skránni. Viðtakendur fá tilkynningu í tölvupósti um að opna skrána úr OneDrive.
 
-Frekari upplýsingar fást [í Samnýting skráa í OneDrive](across-share-onedrive.md).
+Frekari upplýsingar er að finna í [Deiling skráa í OneDrive](across-share-onedrive.md).
 
-## <a name="opening-in-excel"></a>Opnun í Excel
+## <a name="opening-in-excel"></a>Opna í Excel
 
-![Stutt](media/check.png) Viðskipti miðsvæðis á netinu ![Stutt](media/check.png) Rekstur miðsvæðis innanhúss
+![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
-Ef listasíður og listar eru innfelldir á síðu er hægt að **nota Open í aðgerð í Excel**. Þessi aðgerð flytur lista yfir skráningar í Excel vinnubók (. xlsx File), sem hægt er að samnýta með öðrum. Í vinnubókinni er einnig hægt að nota hlutaaðgerðina sem er hluti af Excel.
+Fyrir listasíður og lista sem felldir eru inn á síðu er hægt að nota aðgerðina **Opna í Excel**. Þessi aðgerð flytur út lista yfir færslur í Excel-vinnubók (.xlsx-skrá), sem þú getur deilt með öðrum. Í vinnubókinni er einnig hægt að nota eiginleika deilingar sem er hluti af Excel.
 
-Nánari upplýsingar er að finna [í Skoða og breyta í Excel](across-work-with-excel.md).
+Frekari upplýsingar er að finna í [Skoða og breyta í Excel](across-work-with-excel.md).
 
-## <a name="sharing-rows-or-tables"></a>Samnýtingarlínur eða töflur
+## <a name="sharing-rows-or-tables"></a>Deila röðum eða töflum
 
-![Stutt](media/check.png) Viðskipti miðsvæðis á netinu ![Stutt](media/check.png) Rekstur miðsvæðis innanhúss
+![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
-Hægt er að samnýta eina eða fleiri færslur í lista. Ýttu á flýtivísunina CTRL + C til að afrita á klemmuspjaldið þitt. Límið síðan það sem þú afritaðir í annað forrit með því að ýta á Ctrl + V. Til dæmis, afritun á þremur sölupöntunum og líma sem inn á tölvupóst birtast pöntunum í fallega niðrá töflu.
+Þú getur deilt einni eða fleiri færslum í lista. Ýtið bara á Ctrl+C flýtilykilinn til að afrita á klippiborðið. Límdu svo það sem þú afritaðir inn í annað forrit með því að ýta á Ctrl+V. Til dæmis mun afritun á þremur sölupöntunum og líming þeirra í tölvupóst sýna pantanirnar í snyrtilegri töflu.
 
-Frekari upplýsingar [fást í Copy og PASTE FAQ](faq-copy-paste.yml).
+Nánari upplýsingar eru í [Algengar spurningar um að afrita og líma](faq-copy-paste.yml).
 
 ## <a name="see-also"></a>Sjá einnig
 

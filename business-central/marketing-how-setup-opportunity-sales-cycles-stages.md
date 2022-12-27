@@ -12,18 +12,18 @@ ms.date: 05/27/2022
 ms.author: jswymer
 ms.openlocfilehash: 4d87bc092ceffafecd460380a8a7d93849e988e6
 ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/27/2022
 ms.locfileid: "8808986"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Setja upp söluferla tækifæris og söluþrep
 
-Áður en sölutækifæri eru notuð þarf að setja upp söluferli og Söluferlaþrep. Söluferli samanstendur af röð þrepa sem fara frá fyrstu samskiptum til lokunar sölu. Fyrir hvert þrep eru skilgreindar þær þarfir sem þarf að uppfylla, svo sem að krefjast sölutilboðs, áður en tækifæri kemst á næsta stig. Einnig er hægt að tilgreina sleppa megi þrepi. Hægt er að setja upp eins mörg söluferli og þörf krefur. Hægt er að setja upp eins mörg söluferli og þörf krefur innan söluferlis.
+Áður en hægt er að hefja notkun sölutækifæra þarf að setja upp söluferli og þrep söluferla. Söluferli samanstendur af röð þrepa sem fara frá fyrstu samskiptum til lokunar sölu. Fyrir hvert stig skilgreinir þú allar kröfur sem þarf að uppfylla, t.d. krafa um sölutilboð, áður en tækifæri getur farið yfir á næsta stig. Einnig er hægt að tilgreina sleppa megi þrepi. Setja má upp eins mörg söluferli og þarf. Hægt er að setja upp eins mörg stig söluferlis og þarf innan söluferlis.
 
-Til að nota söluferli tækifæris verður að setja upp söluferli, skilgreina mismunandi þrep ferlisins og tengja þá lotu við tækifæri. Úthlutun viðeigandi aðgerð eða verkhlutum til tækifærisins getur líka verið hluti af uppsetningu söluferlis.
+Til að nota söluferli tækifæris þarftu að setja upp söluferlin, skilgreina mismunandi stig ferlisins og síðan úthluta ferlinu á tækifæri. Úthlutun viðeigandi aðgerð eða verkhlutum til tækifærisins getur líka verið hluti af uppsetningu söluferlis.
 
-Í greininni er einnig fjallað um hvernig skuli setja upp verkefni og verkþætti og hvernig skuli úthluta verkefnum. Nánari upplýsingar er að finna í [Að setja upp verkþætti með verkum](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
+Þessi grein lýsir því líka hvernig skal setja upp verkhluta og aðgerðir og hvernig skal úthluta verkhlutum og aðgerðum. Nánari upplýsingar er að finna í [Að setja upp verkþætti með verkum](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Uppsetning söluferlakóða tækifæris
 
@@ -45,7 +45,7 @@ Eftir að þú bætir við þrepaferli tækifæris geturðu byrjað að bæta vi
 
 ## <a name="to-set-up-activities-with-tasks"></a>Uppsetning aðgerða með verkhlutum
 
-Hægt er að sameina mörg verk, svo sem verk sem hvert stendur fyrir skref, í verkþætti. Aðgerðaverkhlutar tengjast hverjum öðrum í gegnum dagsetningarformúlu. Hægt er að úthluta aðgerðum á tækifæri, sölufólk eða tengiliði.
+Þú getur sameinað mörg verk, t.d. verk sem hvert og eitt stendur skref, í aðgerðum. Aðgerðaverkhlutar tengjast hverjum öðrum í gegnum dagsetningarformúlu. Hægt er að úthluta aðgerðum á tækifæri, sölufólk eða tengiliði.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Aðgerðir** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -56,9 +56,9 @@ Hægt er að sameina mörg verk, svo sem verk sem hvert stendur fyrir skref, í 
 Þegar settur er upp verkhluti, geturðu úthlutað honum til sölutækifæra og þar með úthlutað aðgerðinni sem verkhlutinn tilheyrir.
 
 > [!NOTE]
-> Ekki er hægt að stofna verk af gerðinni *fundur* í [!INCLUDE [prod_short](includes/prod_short.md)] online. Þéttleiki krefst aðgangs að virkjun innanhúss.
+> Ekki er hægt að búa til verk af gerðinni *Fundur* í [!INCLUDE [prod_short](includes/prod_short.md)] á netinu. Möguleikinn krefst aðgangs að uppsetningu á staðnum.
 
-Eftirfarandi ferli lýsir því hvernig á að úthluta verkþáttarverkum á tækifæri. Skrefin eru svipuð þegar verkefnum er úthlutað til sölumanna og tengiliða.
+Eftirfarandi ferli sýnir hvernig á að úthluta aðgerð verks til að skapa tækifæri. Skrefin eru sambærileg við það þegar verkhlutum er úthlutað til sölufólks og tengiliða.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tækifæri** og velja síðan viðkomandi tengil.
 2. Veljið tækifæri og veljið svo aðgerðina **Verkhlutar**.
@@ -66,7 +66,7 @@ Eftirfarandi ferli lýsir því hvernig á að úthluta verkþáttarverkum á t�
 4. Á síðunni **Stofna verkhluta** skal fylla inn í reitina eins og þörf krefur. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
     > [!TIP]
-    > Eins og sjá má í **reitnum tækifæri** er sjálfkrafa úthlutað verki á viðkomandi tækifæri.
+    > Eins og þú sérð í reitnum **Tækifæri** er verkinu sjálfkrafa úthlutað á viðeigandi tækifæri.
 5. Velja hnappinn **Í lagi**.
 6. Á síðunni **Verkhlutalisti** skal velja nýjan verkhluta og síðan aðgerðina **Úthluta aðgerðum**.
 7. Á síðunni **Úthluta aðgerð** skal fylla út reitina eftir þörfum og smellið veljið síðan hnappinn **Í lagi**.

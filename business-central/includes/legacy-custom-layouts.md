@@ -1,2 +1,2 @@
 > [!NOTE]
-> Uppsetning sérsniðinnar skýrslu er arfgengur eiginleiki sem verið er að gefa út. Í staðinn skal hafist handa við að búa til notendaskilgreinda skipan eins og lýst [er hér](../ui-get-started-layouts.md).
+> Sérsniðið skýrsluútlit er eldri eiginleiki sem verið er að taka úr notkun. Í staðinn ættir þú að búa til notendaskilgreind útlit eins og lýst er [hér](../ui-get-started-layouts.md).

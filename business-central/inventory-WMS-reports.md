@@ -9,7 +9,7 @@ ms.date: 06/01/2021
 ms.author: andreipa
 ms.openlocfilehash: e12bace02d46429b6899395b3e792ac498374d6d
 ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/17/2022
 ms.locfileid: "8455541"
@@ -22,7 +22,7 @@ Birgða- og vöruhúsaskýrsla í [!INCLUDE [prod_short](includes/prod_short.md)
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
 
-## <a name="tasks"></a>Verk
+## <a name="tasks"></a>Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 

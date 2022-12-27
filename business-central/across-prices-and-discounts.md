@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.openlocfilehash: 5afe559e9f3e741db5c75b5cf3026caf50a1ce97
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9530703"
@@ -104,7 +104,7 @@ Til að yfirfara verðlista og verð sem gilda fyrir tiltekna viðskiptamenn eð
 
 ---
 
-## <a name="work-with-invoice-discounts-and-service-charges"></a>Vinna með reikningsafslátt og þjónustugjöld
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Vinna með afslætti Sölureiknings og Þjónustugjöld
 
 Þegar reikningsafslættir eru notaðir fer afslátturinn sem er veittur eftir því hve reikningsupphæðin er há. Á síðunni **Reikningsafsláttur** er einnig hægt að leggja þjónustugjald á reikninga sem eru yfir tiltekinni upphæð.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -119,7 +119,7 @@ Afsláttarprósentur eru tengdar við ákveðnar reikningsupphæðir á síðunn
 Til viðbótar við (eða í staðinn fyrir) afsláttarprósentu er hægt að tengja ákveðið þjónustugjald við ákveðna reikningsupphæð.  
 
 > [!TIP]  
-> Áður en þessar upplýsingar eru færðar inn er góð hugmynd að undirbúa afsláttarformið fyrst þannig að það sé auðveldara að sjá hvaða viðskiptamenn á að tengja við sömu reikningsafsláttarsíðuna. Frekari upplýsingar um afslætti í sölu er að finna [í setja upp afslætti fyrir viðskiptamenn](/training/modules/customer-discounts-dynamics-365-business-central/index).
+> Áður en þessar upplýsingar eru færðar inn er góð hugmynd að undirbúa afsláttarformið fyrst þannig að það sé auðveldara að sjá hvaða viðskiptamenn á að tengja við sömu reikningsafsláttarsíðuna. Frekari upplýsingar um afslætti á sölum er að finna í [Setja upp afslætti fyrir viðskiptamenn þína](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Að setja upp reikningsafslátt fyrir viðskiptamann
 
@@ -205,13 +205,13 @@ Til að uppfæra verð fyrir margar vörur þarf að búa til nýjam verðlista 
 
 Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[d365fin](includes/d365fin_md.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur. Frekari upplýsingar er að finna í [Útreikningur besta verðs](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

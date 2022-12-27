@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 4e768b9cdcf4b6a7e32ee26a74a876604bad614f
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9535621"
@@ -105,7 +105,7 @@ Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að 
 | **Samþykktur kostnaðarreikningur** |Útgjaldareikningurinn sem inniheldur samþykkt útgjöld verksins. Það er vanalega debetkostnaðarreikningur. |
 | **Samþykktur sölureikningur** |Tekjureikningurinn sem inniheldur samþykktar tekjur verksins. Það er vanalega kredittekjureikningur. |
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

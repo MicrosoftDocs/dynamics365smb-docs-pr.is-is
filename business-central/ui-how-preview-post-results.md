@@ -1,5 +1,5 @@
 ---
-title: Forskoða færslur áður en skjal eða færslubók er bókuð
+title: Forskoða færslur áður en þú bókar skjöl eða færslubók
 description: Þú getur gengið úr skugga um að færslur fyrir skjöl og færslubækur séu réttar áður en þær eru bókaðar í fjárhag.
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: solsen
 ms.openlocfilehash: 28c9d8c9f24158f119ffffaeddd92590bee906cb
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8515928"
@@ -26,7 +26,7 @@ ms.locfileid: "8515928"
    Síðan **Forskoðun fjárhagsfærslna** sýnir hvaða færslur verða stofnaðar þegar innkaupareikningur er bókaður.
 
 ## <a name="see-also"></a>Sjá einnig
-[Bókun skjala og færslubóka](ui-post-documents-journals.md)  
+[Að bóka skjöl og færslubækur](ui-post-documents-journals.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 

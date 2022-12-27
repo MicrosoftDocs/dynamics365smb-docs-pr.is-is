@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: fbf1647b23733beffc005b617beff185b183a6fe
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8519096"
@@ -21,7 +21,7 @@ ms.locfileid: "8519096"
 
 Til að nota virkni Human Resources þarf fyrst að bæta við hverjum starfsmanni fyrir sig með því að fylla út reitina á síðunni **Starfsmannaspjald**.
 
-## <a name="adding-new-employees"></a>Bæta við nýjum starfsmönnum
+## <a name="adding-new-employees"></a>Nýjum starfsmönnum bætt við
 
 Hægt er að bæta við nýjum starfsmönnum handvirkt með því að fylla út reitina á síðunni **Starfsmannaspjald** eða hægt er að nota sniðmát sem innihalda fyrirframskilgreindar upplýsingar. Til dæmis er hægt að stofna sniðmát fyrir mismunandi forstillingargerðir starfsmanna. Með því að nota sniðmát sparast tími þegar nýjum starfsmönnum er bætt við og það hjálpar til við að tryggja að upplýsingarnar séu réttar hverju sinni. Ef þú stofnar sniðmát fyrir fleiri en eina gerð af starfsmanni geturðu valið sniðmátið sem á að nota þegar þú bætir við starfsmanni. Ef þú býrð aðeins til eitt sniðmát verður það notað fyrir alla nýja starfsmenn. Þegar sniðmát er stofnað geturðu notað aðgerðina **Nota sniðmát** til að nota það í einum eða fleiri starfsmönnum. Til að búa til sniðmát fyllir þú inn upplýsingarnar sem þú vilt endurnota á síðu starfsmannaspjaldsins og vistar það síðan sem sniðmát.
 

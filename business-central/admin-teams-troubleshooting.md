@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
 ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/04/2022
 ms.locfileid: "9744762"
@@ -154,27 +154,27 @@ Sem kerfisstjóri, eru með Azure Active Directory stjórnandaheimildir, og getu
 
 ## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Get ekki skráð mig inn í gluggann Deila með Teams 
 
-Þetta vandamál getur komið upp af ýmsum ástæðum. Auðkenni sem þú notar til að skrá þig inn þarf að hafa aðgang að Microsoft Teams, t.d. í gegnum Microsoft 365 áskrift.
+Þetta vandamál getur komið upp af ýmsum ástæðum. Til dæmis þarf auðkennið sem þú notar til að skrá þig inn að hafa aðgang að Microsoft Teams, svo sem í gegnum Microsoft 365 áskrift.
 
-## <a name="my-cards-no-longer-have-a-popout-button"></a>Kortin mín eru ekki lengur með popoff hnapp
+## <a name="my-cards-no-longer-have-a-popout-button"></a>Spjöldin mín eru ekki lengur með sprettihnapp
 
-Frá og með apríl 2022, Tenglar sem birtir eru sem Compact kort í teymum munu ekki lengur innihalda **hnappinn Popout**. Til að opna það kort í eigin glugga, Veldu **hnappinn upplýsingar**, þá skaltu velja **Opna í vafra** frá sportvalmyndinni (**...**) efst í hægra horni gluggans.
+Frá og með apríl 2022 munu tenglar sem sýndir eru í samandregnu spjaldi í Teams ekki lengur innihalda hnappinn **Sprettimynd**. Til að opna spjaldið í eigin glugga skal velja **Upplýsingar**, síðan velja **Opna í vafra** úr fellivalmyndinni (**...**) efst í hægra horni gluggans.
 
-## <a name="cant-pin-a-card-to-tab"></a>Ekki hægt að pinna spjald á flipa
+## <a name="cant-pin-a-card-to-tab"></a>Ekki er hægt að festa spjald á flipa
 
 Nokkrar ástæður eru fyrir þessu vandamáli.
 
-- Ef kortinu var deilt úr leit ég þá er ekki hægt að skipa í flipann. 
+- Ef spjaldinu var deilt úr „Leita í mér“, þá er ekki hægt að festa það á flipann. 
 
-- Ekki er hægt að pinna fyrr en þú bætir við fyrsta flipa fyrirtækisins. Þetta mál þekkist í teymum. 
+- Ekki er hægt festa fyrr en fyrsta Business Central-flipanum er bætt við. Þetta er þekkt vandamál í Teams. 
 
-## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Einhver bætti við flipa en Flipinn sýnir ekki fyrir mig
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Einhver bætti við flipa en flipinn birtist ekki hjá mér
 
-Þetta vandamál er vegna þess að þú ert ekki með BC App fyrir Teyjar í uppsetningu. Aðeins þeir sem eru með App uppsett munu sjá flipa í Aðalviðskiptum.
+Þetta vandamál er vegna þess að þú ert ekki með BC-forritið fyrir Teams uppsett. Aðeins þeir sem eru með forritið uppsett sjá Business Central-flipana.
 
-## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Aðrir sjá mismunandi röðun eða dálkaskipan en það sem flipinn höfundur sér
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Aðrir sjá aðra röðun eða dálkaútlit en það sem höfundur flipans sér
 
-Þetta vandamál er líklegt vegna þess að deilt hefur verið um yfirlit lista sem er persónulegt Yfirlit. Í þessu tilfelli þarf að vinna með kerfisstjóra til að stofna annað hvort Listayfirlit sem fjallar um mismunandi hlutverk í rásinni/spjallinu eða búa til þetta Yfirlit fyrir skipulagið í heild sinni þannig að allir geti fengið samræmt Yfirlit.
+Þetta vandamál er líklega vegna þess að þú deildir listayfirliti sem er eigið yfirlit. Í þessu tilviki skaltu vinna með stjórnanda þínum til að búa til annaðhvort hlutverkamiðað listayfirlit sem nær yfir mismunandi hlutverk í rásinni/spjallinu eða búa til þetta yfirlit fyrir allt fyrirtækið þannig að allir geti fengið samræmt yfirlit.
 
 
 ## <a name="see-also"></a>Sjá einnig

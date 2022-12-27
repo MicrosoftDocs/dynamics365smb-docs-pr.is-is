@@ -11,7 +11,7 @@ ms.date: 06/24/2021
 ms.author: edupont
 ms.openlocfilehash: 417d6bcb596e5f3aef3644ff464105d1eb8014e7
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9531324"
@@ -22,7 +22,7 @@ ms.locfileid: "9531324"
 
 Listi yfir viðbætur frá öðrum fyrirtækjum lengist í hverjum mánuði. Fylgstu því með á [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) og fáðu forrit sem aðstoða þig í vinnunni í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

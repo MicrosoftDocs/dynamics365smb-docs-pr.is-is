@@ -9,18 +9,18 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9606171"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni
 
-Sumir vinna í mörgum fyrirtækjum í [!INCLUDE [prod_short](includes/prod_short.md)], og sumir vinna einnig fyrir fleiri en eina stofnun, svo sem ytri endurskoðendur eða starfsmenn og stjórnendur samsteypa með mörgum dótturfyrirtækjum. Fyrir þessa notendur, og marga aðra, þá þjónar fyrirtækið sem lendingarsíða sem gefur fjárhagslegt yfirlit yfir fyrirtæki og umhverfi. Það veitir notendum verkfæri til að stjórna vinnu þvert á mismunandi umhverfi sem þeir vinna í, yfir fyrirtæki, umhverfi og svæði.  
+Sumir vinna í mörgum fyrirtækjum í [!INCLUDE [prod_short](includes/prod_short.md)], og sumir vinna einnig fyrir fleiri en eina stofnun, svo sem ytri endurskoðendur eða starfsmenn og stjórnendur samsteypa með mörgum dótturfyrirtækjum. Fyrir þessa notendur og marga aðra er miðstöð fyrirtækisins lendingarsíða sem gefur fjármálayfirlit yfir fyrirtæki og umhverfi. Hún veitir notendum verkfæri til að stjórna vinnu í hinum ýmsu umhverfum sem þeir vinna í, á milli fyrirtækja, umhverfa og svæða.  
 
 Hægt er að opna fyrirtækjamiðstöðina með því að kveikja á hlutverkinu **Fyrirtækjamiðstöð** í mínum stillingum eða með því að opna síðuna **Fyrirtækjamiðstöð**. Hægt er að gera sömu vinnu á báðum stöðum en aðgerðir eru örlítið öðruvísi staðsettar í valmyndum.  
 
-[![Sýnir fyrirtækjahub-síðuna sem skráir öll fyrirtæki.](media/company-hub.png)](media/company-hub.png#lightbox)  
+[![Sýnir síðu fyrirtækjamiðstöðvar sem sýnir öll fyrirtæki.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > Hægt er að tengja fyrirtækjamiðstöð við eins mörg fyrirtæki og þörf krefur. Hins vegar er aðeins hægt að tengja fyrirtækjamiðstöð við fyrirtæki sem eru hýst á [!INCLUDE [prod_short](includes/prod_short.md)] á netinu.
@@ -65,9 +65,9 @@ Listinn **Notandaverkefni mín** hjálpar þér að forgangsraða verkefnum yfir
 
 Þú getur til dæmis raðað eftir skiladegi eða öðrum gerðum gagna sem hjálpa þér að forgangsraða fyrir daginn. Listinn sýnir sjálfgefið öll verkefni sem eru úthlutað á þig, en þú getur sett upp síur til að sýna t.d. aðeins verkefni sem eru merkt sem forgangsverkefni.  
 
-Til að taka til verk er það valið af listanum yfir verkefni sem bíður notanda. Á borðanum opnar tengillinn **Fara í verkhluta** síðuna þar sem þú getur unnið verkið.  
+Til að sækja verkefni skaltu velja það af listanum yfir verkefni notanda í bið. Á borðanum opnar tengillinn **Fara í verkhluta** síðuna þar sem þú getur unnið verkið.  
 
-Þegar verki hefur verið lokið skal merkja það sem lokið.  
+Þegar þú hefur lokið verki skaltu merkja það sem lokið.  
 
 Frekari upplýsingar um fyrirtæki og umhverfi er að finna í [Umhverfistenglar](company-hub-add-company.md#environment-links).  
 
@@ -88,7 +88,7 @@ En til að bæta við fyrirtæki verður þú að hafa fengið aðgang að einu 
 
 Til dæmis, ef þú ert endurskoðandi getur viðskiptavinir þínir boðið þér í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Bjóða ytri endurskoðanda í þitt Business Central](finance-accounting.md#inviteaccountant).  
 
-Kerfisstjórar geta notað leiðbeiningar með uppsetningarleiðbeiningum aðstoðar til að bæta þér við [!INCLUDE [prod_short](includes/prod_short.md)] eða geta bætt á viðkomandi Azure AD lykil í Microsoft 365 stjórnstöðinni. Frekari upplýsingar er að finna í [Stjórna notendum og hópum](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Stjórnendur geta notað sömu uppsetningarleiðbeiningar með aðstoð til að bæta þér við [!INCLUDE [prod_short](includes/prod_short.md)], eða þeir geta bætt þér við þér í viðeigandi Azure AD-reikning í stjórnendamiðstöð Microsoft 365. Frekari upplýsingar er að finna í [Stjórna notendum og hópum](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## <a name="see-also"></a>Sjá einnig .
 

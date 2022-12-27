@@ -1,5 +1,5 @@
 ---
-title: Umsjón með eignum (inniheldur Video)
+title: Stjórna eignum (inniheldur myndskeið)
 description: Kynntu þér virkni eigna og fáðu yfirsýn yfir það hvernig skuli vinna með og stjórna eignum.
 author: edupont04
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 06/15/2021
 ms.author: edupont
 ms.openlocfilehash: 5bd6ff8d27b17e413c418de64bea7ded8428e892
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9529299"
@@ -53,7 +53,7 @@ Eftirfarandi myndband fjallar um grunnatriði eigna.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/manage-fixed-assets-transactions/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -61,7 +61,7 @@ Eftirfarandi myndband fjallar um grunnatriði eigna.
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

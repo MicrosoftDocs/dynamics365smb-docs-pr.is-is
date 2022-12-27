@@ -1,5 +1,5 @@
 ---
-title: Leiðrétta það magn upplýsinga sem sést í listum
+title: Stilla fjölda smáatriða sem birtast á listum
 description: Hægt er að birta lista sem ítarlegar línur sem veita mestar upplýsingar, eða sem reiti sem auðvelt er skima yfir og geta innihaldið smámyndir.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: afa3806cd0597ffe04c516f586ea58fab83c0bc2
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8515850"

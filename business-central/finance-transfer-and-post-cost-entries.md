@@ -11,7 +11,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: b822ed9b6a9fa6d784d8f2846d74cd0c98550b0d
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532863"
@@ -104,7 +104,7 @@ Fyrir stakar kostnaðarfærslur flytur [!INCLUDE[prod_short](includes/prod_short
 
 Í töflunni **Kostnaðarskráning**, [!INCLUDE[prod_short](includes/prod_short.md)] stofnar færslu með upprunaflutningnum frá fjárhag. Færslan skráir fyrstu og síðustu færslunúmer fjárhagsfærslna sem eru fluttar, til viðbótar við fyrstu og síðustu færslunúmer kostnaðarfærslnanna sem eru stofnaðar.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

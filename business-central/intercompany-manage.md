@@ -12,7 +12,7 @@ ms.date: 08/11/2021
 ms.author: edupont
 ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8511650"
@@ -75,7 +75,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
-[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna í færslubókum](ui-work-general-journals.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

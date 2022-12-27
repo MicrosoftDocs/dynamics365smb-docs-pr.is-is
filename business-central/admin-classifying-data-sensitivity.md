@@ -10,7 +10,7 @@ ms.search.form: 1752
 ms.date: 06/14/2021
 ms.openlocfilehash: ba629a40bee4f73c3d2a68395b138893265d7b0f
 ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/04/2022
 ms.locfileid: "8382364"

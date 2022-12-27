@@ -11,7 +11,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ms.openlocfilehash: 7c03e4491519a31aeaf11c4d52555ab222701c32
 ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/04/2022
 ms.locfileid: "8383086"
@@ -39,7 +39,7 @@ Samstilling notar eftirfarandi einingar:
 |Áætluð samstilling|Samstilla allar breytingar á gögnum fyrir allar töfluvarpanir.<br /><br /> Hægt er að samstilla [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] með áætluðu millibili með því að setja upp verk í verkröðinni.|[Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
 > [!NOTE]
-> Samstillingin á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] byggist á áætlaðri framkvæmd verkraðarfærslna og tryggir ekki samræmi rauntímagagna milli tveggja þjónustu. Fyrir samleitni gagna í rauntíma ættirðu að kanna [Sýndartöflur](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) Business Central eða Business Central API.   
+> Samstillingin á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] byggir á tímasettir keyrslu á verkraðarfærslum og tryggir ekki samræmi rauntímagagna milli þjónustanna tveggja. Fyrir samræmi í rauntímagögnum ættirðu að skoða [Sýndartöflur Business Central](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eða Business Central API.   
 
 
 ## <a name="standard-table-mapping-for-synchronization"></a>Stöðluð töfluvörpun fyrir samstilling
@@ -55,7 +55,7 @@ Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_shor
 | Sölumaður/innkaupaaðili | Notandi | [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] tengiliðasía: **Staða** er **Nei**, **Notandi með leyfi** er **Já**, stilling samþættingarnotanda er **Nei** |
 | Viðskiptamaður | Reikningur | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] reikningssía: **Gerð vensla** er **Viðskiptavinur** og **Staða** er **Virkur**. [!INCLUDE[prod_short](includes/prod_short.md)] sía: **Lokað** er autt (viðskiptavinur er ekki útilokaður). |
 | Lánardrottinn | Reikningur | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] afmörkun á reikningi: **Venslagerð** er **Lánardrottinn** og **Staða** er **Virk**. [!INCLUDE[prod_short](includes/prod_short.md)] sía: **Lokað** er autt (lánardrottinn er ekki útilokaður). |
-| Tengiliður | Tengiliður | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] tengiliðasía: **Gerð** er **Einstaklingur** og tengilið er úthlutað á fyrirtæki. [!INCLUDE[prod_short](includes/cds_long_md.md)] tengiliðaafmörkun: Tengiliðnum er úthlutað á fyrirtæki og yfirviðskiptamaðurinn er **Viðskiptamaður**. |
+| Tengiliður | Tengiliður | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] tengiliðasía: **Gerð** er **Einstaklingur** og tengilið er úthlutað á fyrirtæki. [!INCLUDE[prod_short](includes/cds_long_md.md)] tengiliðasía: Tengiliðnum er úthlutað á fyrirtæki og yfireining viðskiptamannsgerðar er **Viðskiptamaður** |
 | Gjaldmiðill | Gjaldmiðill færslu | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
 > [!NOTE]

@@ -11,24 +11,24 @@ ms.date: 10/01/2021
 ms.author: edupont
 ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9607100"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
 
-Síðan Verkraðarafærslur gera notendum kleift að raða og keyra tilteknar skýrslur og kódeseiningar. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis er hægt að keyra **sölumannskýrsluna Sölumaður * Söluupplýsingar** vikulega til að fylgjast með sölu eftir sölumönnum í hverri viku eða keyra samþykkiseiningin biður **um** samþykki á kótaeiningu daglega til að koma í veg fyrir að skjöl gangi upp.
+Síða verkraðarfærslna gerir notendum kleift að tímasetja og keyra tilteknar skýrslur og kóðaeiningar. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis gætirðu viljað keyra skýrsluna **Sölumaður * sölutölur** vikulega til að rekja sölu sölumanns í hverri viku eða keyra kóðaeininguna **Framselja samþykktarbeiðnir** daglega til að koma í veg fyrir að skjöl safnist upp.
 
-Síðan **Verkraðarfærslur** birtir öll núverandi verk. Ef bætt er við nýrri verkraðarafærslu sem á að raða upp verður að gefa upp einhverjar upplýsingar. Dæmi:
+Síðan **Verkraðarfærslur** birtir öll núverandi verk. Ef þú bætir við nýrri verkraðarfærslu sem á að tímasetja þarftu að gefa upp nokkrar upplýsingar. Dæmi:
 
-* Gerð hlutarins sem á að keyra, til dæmis skýrslu eða Codeunit. Þú verður að hafa heimild til að keyra viðkomandi skýrslu eða Codeunit.
-* Nafn og HLUTARKENNI hlutarins. 
-* Færibreytur til að tilgreina hegðun verkraðarafærslu. Til dæmis er hægt að bæta við færibreytu til að sent einungis bókaðar sölupantanir. 
-* Þegar, og hversu oft, keyrir verkraðarafærsla.
+* Gerð hlutarins sem á að keyra, t.d. skýrsla eða kóðaeining. Þú verður að vera með heimild til að keyra tiltekna skýrslu eða kóðaeiningu.
+* Heiti og hlutarkenni hlutarins. 
+* Færibreytur til að tilgreina virkni verkraðarfærslu. Til dæmis er hægt að bæta við færibreytu til að sent einungis bókaðar sölupantanir. 
+* Hvenær og hversu oft keyra á verkraðarfærsluna.
 
 > [!IMPORTANT]  
-> Ef þér hefur verið úthlutað SUPER heimildasamstæðu sem fylgir [!INCLUDE[prod_short](includes/prod_short.md)] hefur þú heimild til að keyra alla hluti sem eru í leyfinu þínu. Ef hlutverk fulltrúa er úthlutað er hægt að stofna og tímasetja verkraðarafærslur en aðeins kerfisstjórar og leyfir notendur geta keyrt þær. Notendur með Tækjaleyfi geta ekki búið til eða keyrt vinnslubiðröð.
+> Ef þér er úthlutað SUPER-heimildasamstæðunni sem fylgir með [!INCLUDE[prod_short](includes/prod_short.md)] hefurðu heimild til að keyra alla hluti sem eru innifaldir í leyfinu þínu. Ef þú ert með úthlutað stjórnandahlutverki geturðu búið til og tímasett verkraðarfærslur, en aðeins stjórnendur og notendur með leyfi geta keyrt þær. Notendur með tækjaleyfi geta ekki búið til eða keyrt verkraðarfærslur.
 
 Eftir að verkraðir eru settar upp og í keyrslu getur staðan breyst eins og fylgir hér á eftir innan hvers endurtekins tímabils:
 
@@ -38,11 +38,11 @@ Eftir að verkraðir eru settar upp og í keyrslu getur staðan breyst eins og f
 * **Villa**  
 * **Lokið**  
 
-Eftir að verki lýkur með góðum árangri er horfið frá listanum yfir verkraðarafærslur, nema að um endurtekin verk sé að ræða. Fyrir endurteknar vinnslur **er reiturinn fyrsti Upphafstími** leiðréttur til að sýna næst þegar vinnslan er áætluð í keyrslu.  
+Eftir að verki lýkur er það fjarlægt af lista yfir verkraðarfærslur nema það sé endurtekið verk. Fyrir endurtekin verk er reiturinn **Fyrsti upphafstími** stilltur til að sýna næsta áætlaða keyrslutíma verksins.  
 
 ## <a name="monitor-status-or-errors-in-the-job-queue"></a>Fylgjast með stöðu eða villum í verkröð
 
-Gögn sem vinnsluröðin myndar er geymd í gagnagrunninum, svo hægt sé að leita að villum í vinnslubiðröð.  
+Gögn sem verkröðin býr til eru geymd í gagnagrunninum þannig að þú getur úrræðaleitað villur verkraðar.  
 
 Fyrir hverja verkraðarfærslu er hægt að skoða og breyta stöðunni. Við stofnun verkraðarfærslu er staða hennar stillt á **Bið**. T.d. er hægt að setja stöðuna á **Tilbúið** og svo aftur í **Í bið**. Annars eru stöðuupplýsingar uppfærðar sjálfkrafa.
 
@@ -50,14 +50,14 @@ Eftirfarandi tafla lýsir gildum reitsins **Staða**.
 
 | Staða | Lýsing |
 |--|--|
-| Tilbúið | Verkraðarafærsla er tilbúin til keyrslu. |
-| Í vinnslu | Vinnsla raðarafærslu er í vinnslu. Þessi reitur uppfærist á meðan vinnsluröðin er í gangi. |
-| Í bið | Sjálfgefin staða verkraðarafærslu þegar hún er stofnuð. Veljið aðgerðina **Stilla stöðu í tilbúið** til að breyta stöðunni í **Tilbúið**. **Veldu settið í halda** aðgerð til að snúa stöðunni í **biðstöðu**. |
-| Villa | Eitthvað fór úrskeiðis. Velja **skal sýna villu** til að sýna villuskilaboð. |
-| Klárað | Vinnsla raðarfærslu er lokið. |
+| Tilbúið | Verkraðarfærslan er tilbúin til keyrslu. |
+| Í vinnslu | Verkraðarfærslan er í vinnslu. Þessi reitur uppfærist á meðan verkröðin er í gangi. |
+| Í bið | Sjálfgefin staða verkraðarfærslunnar þegar hún er búin til. Veljið aðgerðina **Stilla stöðu í tilbúið** til að breyta stöðunni í **Tilbúið**. Veldu aðgerðina **Setja í bið** til að snúa aftur í stöðuna **Í bið**. |
+| Villa | Eitthvað fór úrskeiðis. Veldu **Sýna villu** til að sýna villuboðin. |
+| Klárað | Verkraðarfærslunni er lokið. |
 
 > [!Tip]  
-> Færslur í vinnslubiðröð hætta keyrslu þegar villa kemur upp. Þetta getur til dæmis verið vandamál þegar færsla tengist utanríkisþjónustu, t.d. bankastraumi. Ef þjónustan er tímabundið ekki tiltæk og færslan í vinnslu getur ekki tengst, sýnir færslan villu og hættir keyrslu. Þú verður að endurræsa verkraðarafærslu handvirkt. Hins vegar er **hámark nr. Tilraunir** og endurkeyra (sek.) **svæði geta hjálpað til** við að forðast þetta ástand. **Hámark nr. af Tilraunaborði** er tilgreint hversu oft færslu í vinnslubiðröð getur mistekist áður en hætt er að reyna keyrslu. **Í reitnum endurkeyra (sek.)** er hægt að tilgreina tímafjölda, í sekúndum, á milli tilrauna. Samsetning þessara tveggja reita gæti haldið þeirri færslu í vinnslu áfram þar til utanríkisþjónustan verður tiltæk.
+> Verkraðarfærslur hætta að keyra þegar villa kemur upp. Þetta getur til dæmis verið vandamál þegar færsla tengist utanaðkomandi þjónustu, til dæmis bankastraumi. Ef þjónustan er ekki í boði í augnablikinu og verkraðarfærslan getur ekki tengst mun færslan sýna villu og stöðva keyrslu. Þú þarft að endurræsa verkraðarfærsluna handvirkt. Reitirnir **Hámarksfjöldi tilrauna** og **Töf á endurtekinni keyrslu (sek.)** geta hins vegar hjálpað þér að koma í veg fyrir þessar aðstæður. Reiturinn **Hámarksfjöldi tilrauna** gerir þér kleift að tilgreina hversu oft verkraðarfærsla getur mistekist áður en hún hættir að reyna að keyra. Reiturinn **Töf á endurtekinni keyrslu (sek.)** gerir þér kleift að tilgreina tímann, í sekúndum, á milli tilrauna. Samsetning þessara tveggja reita gæti haldið verkraðarfærslunni gangandi þar til ytri þjónustan verður tiltæk.
 
 ### <a name="to-view-status-for-any-job"></a>Til að skoða stöðu fyrir hvaða verk sem er
 
@@ -71,21 +71,21 @@ Eftirfarandi tafla lýsir gildum reitsins **Staða**.
 
 Síðan **Áætluð verk** í [!INCLUDE [prod_short](includes/prod_short.md)] sýnir hvaða verk eru tilbúin fyrir keyrslu í verkröðinni. Á síðunni má einnig sjá upplýsingar um fyrirtækið sem hvert verk er sett upp til að keyra í. Hins vegar er aðeins hægt að keyra verk sem merkt eru að tilheyri núverandi umhverfi.  
 
-Til dæmis eru allar áætlaðar framkvæmdir stöðvaðar ef fyrirtækið er í umhverfi sem er afrit af öðru umhverfi. Notaðu síðuna **Áætluð verk** til að stilla verk sem tilbúin til keyrslu í verkröðinni.  
+Til dæmis hætta öll tímasett verk ef fyrirtækið er í umhverfi sem er afrit af öðru umhverfi. Notaðu síðuna **Áætluð verk** til að stilla verk sem tilbúin til keyrslu í verkröðinni.  
 
 > [!NOTE]
-> Innri stjórnendur og notendur sem hafa leyfi geta áætlað að verk séu keyrð. Framsettir stjórnendur geta sett upp og raðað verkefnum sem á að keyra en aðeins notendur geta keyrt þá.
+> Innri stjórnendur og notendur með leyfi geta tímasett keyrslur á verkum. Úthlutaðir stjórnendur geta sett upp og tímasett verk til að keyra, en aðeins notendur með leyfi geta keyrt þau.
 
 ## <a name="the-my-job-queue-part"></a>Hlutinn fyrir Mína verkröð
 
-Í **hlutanum vinnslan Biðtími** í hlutverkamiðstöðinni eru sýndar þær biðraðarfærslur sem byrjað var á en eru ekki tilbúnar. Sjálfgefið er að hlutinn sé ekki birtur en hægt er að bæta honum við hlutverkamiðstöðina. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).  
+Hlutinn **Mín verkröð** í hlutverkamiðstöðinni þinni sýnir verkraðarfærslur sem þú hefur byrjað á, en er enn ekki lokið. Að sjálfgefnu er hlutinn ekki sýndur, en þú getur bætt honum við í hlutverkamiðstöðina. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).  
 
-Hlutinn sýnir eftirfarandi upplýsingar:
+Eftirtaldir hlutur sýnir eftirfarandi upplýsingar:
 
-* Hvaða skjöl með KENNI þínu í **reitnum úthlutað NOTANDAKENNI** eru í vinnslu eða eru í biðröð, þar á meðal skjöl sem eru bókuð í bakgrunni. 
-* Hvort Villa hafi verið þegar fylgiskjal var bókað eða í verkraðarafærslu. 
+* Hvaða skjöl með auðkenninu þínu í reitnum **Úthlutað notandakenni** verið er að vinna úr eða eru í biðröð, þ.m.t. skjöl sem eru að bókast í bakgrunni. 
+* Villa kom upp við bókun skjals eða í verkraðarfærslu. 
 
-Hluti vinnslubiðraðar leyfir einnig að hætta við bókun skjals.
+Hlutinn „Mín verkröð“ gerir þér einnig kleift að hætta við bókun skjals.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Til að skoða villu ú hlutanum Mín verkröð
 
@@ -102,11 +102,11 @@ Frekari upplýsingar eru í [Tímasetja keyrslu skýrslu](ui-work-report.md#Sche
 
 ### <a name="schedule-synchronization-between-prod_short-and-prod_short"></a>Tímastilla samstillingu á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Ef samþætt [!INCLUDE[prod_short](includes/prod_short.md)][!INCLUDE[prod_short](includes/cds_long_md.md)] hefur verið, gerir vinnsluröðin áætlun þegar samstilla á gögn. Eftir því sem við á um stefnu og reglur sem skilgreindar hafa verið getur verkraðarafærsla stofnað færslur í einu forriti til að stemma af færslur í hinni. Gott dæmi er þegar notandi skráir tengilið inn [!INCLUDE[crm_md](includes/crm_md.md)], hægt er að setja upp verkraðarafærslu sem hefur samband við þig í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Áætla samstillingu milli Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+Ef þú hefur samþætt [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[prod_short](includes/cds_long_md.md)] gerir verkröðin þér kleift að tímasetja hvenær á að samstilla gögn. Verkraðarfærslan getur stofnað færslur í einu forriti til að samsvara færslum í öðrum eftir því hvaða stefna og reglur hafa verið skilgreindar. Gott dæmi er þegar þú skráir tengilið í [!INCLUDE[crm_md](includes/crm_md.md)] getur verkraðarfærslan sett upp þann tengilið fyrir þig í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Áætla samstillingu milli Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ### <a name="schedule-the-posting-of-sales-and-purchase-orders"></a>Áætla bókun sölu- og innkaupapantana
 
-Hægt er að nota verkraðarafærslur til að áætla viðskiptaferli sem á að keyra í bakgrunni. Til dæmis eru bakgrunnsverk gagnleg þegar margir notendur bóka sölupantanir á sama tíma, en aðeins er hægt að vinna eina pöntun í einu. Frekari upplýsingar eru í [Að setja upp bókun í bakgrunni með verkraðir](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+Þú getur notað verkraðarfærslur til að tímasetja viðskiptaferla á að keyra í bakgrunni. Til dæmis eru bakgrunnsverk gagnleg þegar margir notendur bóka sölupantanir samtímis, en einungis er hægt að afgreiða eina pöntun í einu. Frekari upplýsingar eru í [Að setja upp bókun í bakgrunni með verkraðir](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
 
 ## <a name="monitor-the-job-queue-with-telemetry"></a>Fylgjast með verkröðinni með fjarmælingu
 

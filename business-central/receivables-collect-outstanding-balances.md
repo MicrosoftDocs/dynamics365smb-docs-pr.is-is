@@ -1,6 +1,6 @@
 ---
 title: Innheimta útistandandi skuldir
-description: Lærðu að minna viðskiptavini á útistandandi greiðslur. Senda skal viðskiptavin yfirlit, gefa út innheimtubréf eða senda vaxtareikning.
+description: Kynntu þér hvernig á að minna viðskiptavini á útistandandi greiðslur. Sendu yfirlit viðskiptamanns, gefðu út áminningu eða sendu vaxtareikning.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -12,7 +12,7 @@ ms.date: 02/09/2022
 ms.author: edupont
 ms.openlocfilehash: fb3616fdffc340ec8d4a327cfc2fefd577b78af1
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528115"
@@ -111,9 +111,9 @@ Ef vaxtareikningar voru gefnir út fyrir mistök er hægt að hætta við þá �
 
 ## <a name="multiple-interest-rates"></a>Margir vextir
 
-[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Frekari upplýsingar er að finna [í setja upp marga Vaxtartaxta](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]Frekari upplýsingar eru í [Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 

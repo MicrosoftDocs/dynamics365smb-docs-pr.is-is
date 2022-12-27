@@ -12,14 +12,14 @@ ms.date: 06/10/2021
 ms.author: edupont
 ms.openlocfilehash: d5c8a96066311eb7e2050507b6c4f27066a70f62
 ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/04/2022
 ms.locfileid: "9744651"
 ---
 # <a name="about-the-data-exchange-framework"></a>Um gagnaskiptaramma
 
-Hægt er að nota Gagnaskiptarammann til að hafa umsjón með skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öðrum gagnaskrám hjá viðskiptafélögum eða yfirvöldum.
+Hægt er að nota Data Exchange Framework til að stjórna skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga eða yfirvalds.
 
 Sem kerfisstjóri eða Microsoft-samstarfsaðili er hægt að nota rammann í nýjum samþættingaraðgerðum með því að setja upp hvaða gögn á að skiptast á og hvernig. Til dæmis er skráasnið fyrir skipti á gögnum sem er að finna í bankaskrám, rafrænna skráa, gengi gjaldmiðla, og annarra með ERP-kerfi breytilegt eftir birgi gagnaskráarinnar eða straumsins og eftir landi/svæði. [!INCLUDE[prod_short](includes/prod_short.md)] styður ýmis skráarsnið fyrir bankaskrár og gagnaþjónustustaðla. Til að veita stuðning á öðrum rafrænu formi er notaður gagnaskiptarammi.
 
@@ -61,7 +61,7 @@ Fyrir öll gagnaskipti í XML-skrám er hægt að undirbúa gagnaskiptauppsetnin
 
 ## <a name="intrastat"></a>Intrastat
 
-[!INCLUDE[prod_short](includes/prod_short.md)] notar Gagnaskiptarammann fyrir Intrastat-skýrslugerð þar sem auðvelt er að stofna tímastimplaðar skrár með mismunandi sniðum fyrir útflutning. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur tilbúin snið fyrir staðbundin lönd sem og fyrir sjálfgefna útgáfu. En þú getur breytt út af-kassanum skýrsluna eða gert þitt eigið.
+[!INCLUDE[prod_short](includes/prod_short.md)] notar Data Exchange Framework fyrir Intrastat-skýrslugerð þar sem þú getur auðveldlega búið til tímastimplaðar skrár á mismunandi sniði fyrir útflutning. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur tilbúin snið fyrir staðfærð lönd sem og sjálfgefna útgáfu. En þú getur breytt tilbúinni skýrslu eða gert þína eigin.
 
 ## <a name="see-also"></a>Sjá einnig
 

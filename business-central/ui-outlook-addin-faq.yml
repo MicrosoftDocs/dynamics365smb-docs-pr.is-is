@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Viðbætur við viðskiptahjálp í Outlook
-  description: Sjá svör við algengum spurningum um notkun á Aðalviðbótum fyrir Outlook.
+  title: Algengar spurningar um innbót Business Central fyrir Outlook
+  description: Sjá svör við algengum spurningum um notkun Business Central-innbótar fyrir Outlook.
   author: jswymer
   ms.topic: faq
   ms.devlang: na
@@ -12,12 +12,12 @@ metadata:
   ms.author: jswymer
   ms.openlocfilehash: 6749b3117c71223db191d0c79c17eef2f385fc05
   ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: is-IS
   ms.lasthandoff: 04/29/2022
   ms.locfileid: "8656411"
-title: Viðbætur við viðskiptahjálp í Outlook
-summary: "Þessi grein svarar spurningum sem notendur spyrja oft um Viðskiptamiðað Add-in í Outlook.   \n"
+title: Algengar spurningar um innbót Business Central fyrir Outlook
+summary: "Þessi grein svarar spurningum sem notendur spyrja oft um innbót Business Central fyrir Outlook.   \n"
 sections:
 - name: Hunsað
   questions:

@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 2f325a332093765e35a807bc4a9d4fede88f7150
 ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9074790"
@@ -138,7 +138,7 @@ Vissar upplýsingar um tengiliðafyrirtæki eru þær sömu og um einstaklingste
 
 Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).
 
-## <a name="use-predefined-defaults-on-new-contacts"></a>Nota fyrirfram skilgreint sjálfgildi á nýjum tengiliðum
+## <a name="use-predefined-defaults-on-new-contacts"></a>Nota forskilgreinda sjálfgildi á nýju tengiliðina
 Hægt er að láta forritið tilgreina sjálfkrafa ákveðinn tungumálskóða, umsjónarsvæðiskóða, sölumannskóða og lands-/svæðiskóða sem sjálfgildi þegar nýir einstaklingstengiliðir eru stofnaðir. Einnig er hægt að færa inn sjálfgefinn söluferliskóta sem forritið úthlutar sjálfkrafa á hvert nýtt tækifæri sem stofnað er. Þetta er sett upp í flýtiflipanum **Sjálfgildi** á síðunni **Uppsetning markaðssetningar**
 
 Reitaerfðir skrifast yfir sjálfgildi sem sett hafa verið upp. Ef enska hefur til dæmis verið sett upp sem sjálfgefið tungumál en tungumál tengiliðafyrirtækisins er þýska, úthlutar forritið þýsku sjálfkrafa sem tungumálakóta einstaklingstengiliðanna sem skráðir eru fyrir það fyrirtæki.

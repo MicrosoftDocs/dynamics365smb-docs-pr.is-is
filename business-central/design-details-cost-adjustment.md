@@ -11,7 +11,7 @@ ms.date: 06/14/2021
 ms.author: edupont
 ms.openlocfilehash: 5dcadd2cb9712fb2cfa69dfed921c205698d524b
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8511156"

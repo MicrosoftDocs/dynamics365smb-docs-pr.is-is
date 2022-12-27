@@ -7,28 +7,28 @@ metadata:
   ms.author: edupont
   ms.openlocfilehash: 42e9278371ac9736d9d6a0d4b8e288fbe295c863
   ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: is-IS
   ms.lasthandoff: 11/04/2022
   ms.locfileid: "9744816"
 title: Algengar spurningar um rafrænar reikningsfærslur
-summary: "Byggðasamlagsins um skjalavörslu sendir rafrænan reikning til Vörumervaktar, þjónustuaðila sem leggur fram rafræna reikninga til PEPPOL eða NemHandel viðtakenda. En þjónustan styður takmarkaðan fjölda af útgáfum.   \n\nÞetta algengu spurningar svara sumum af helstu spurningunum um rafræna reikningsfærslu.  \n"
+summary: "Innbyggða skjalaskiptiþjónustan sendir rafræna reikninga á TradeShift sem er þjónustuaðili sem sendir rafræna reikninga til PEPPOL eða viðtakenda NemHandel. En þjónustan styður takmarkaðan fjölda af útgáfum.   \n\nÞetta algengu spurningar svara sumum af helstu spurningunum um rafræna reikningsfærslu.  \n"
 sections:
 - name: Almennt
   questions:
   - question: Hvert er vandamálið?
     answer: Innbyggður stuðningur PEPPOL notar API frá TradeShift. En það API styður ekki nýrri útgáfur af PEPPOL.
   - question: Hver er Síðasta útgáfa af PEPPOL sem TradeShift API studdi?
-    answer: Í síðustu útgáfu af PEPPOL sem studd er af Vörumshift API er **PEPPOL BIS 2,1**.
+    answer: Síðasta útgáfa af PEPPOL sem TradeShift API studdi er **PEPPOL BIS 2.1**.
   - question: Hver er síðasta útgáfa af PEPPOL sem Business Central studdi?
-    answer: Í síðustu útgáfu af PEPPOL sem studd er af sjálfgefinni útgáfu af Business Central er **PEPPOL BIS 3,0**. Við munum halda fyrirliggjandi skjalaskiptaþjónustu út frá TradeShift svo framarlega sem TradeShift styðji núverandi API. Þar að auki höldum við áfram að styðja snið rafrænna reikninga sem eru þegar studd.
+    answer: Nýjasta útgáfan af PEPPOL sem sjálfgefin útgáfa af Business Central styður er **PEPPOL BIS 3.0**. Við munum halda fyrirliggjandi skjalaskiptaþjónustu út frá TradeShift svo framarlega sem TradeShift styðji núverandi API. Þar að auki höldum við áfram að styðja snið rafrænna reikninga sem eru þegar studd.
 - name: " Forrit"
   questions:
   - question: Eru til forrit sem geta hjálpað okkur með rafræna reikningsfærslu?
     answer: >
       Já! Eftirfarandi listi inniheldur dæmi um forrit fyrir Business Central sem styðja rafræna reikningsfærslu á nýjustu sniðunum. Athugið að þetta er ekki tæmandi listi:
 
-      - [Pagero-E-reikningsfæra App (Belgía, Danmörk, Þýskaland, Finnland, Frakkland, Ítalía, Luxemburg, Noregur, Sádi-Arabía, Singapúr, Spánn, Svíþjóð, Bretland, USA)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
+      - [Pagero - Rafrænt reikningsfærsluforrit (Belgía, Danmörk, Þýskaland, Finnland, Frakkland, Ítalía, Lúxemborg, Noregur, Sádi-Arabía, Singapúr, Spánn, Svíþjóð, Bretland, Bandaríkin)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
 
       - [Oseberg Solutions - E-invoice PEPPOL Bis (Noregur)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_peppol%7CPAPPID.49206e10-c889-400d-8465-bde6555e00fc)
 
@@ -52,5 +52,5 @@ sections:
 - name: B2G krafa í Þýskalandi
   questions:
   - question: Hvað með B2G skilyrði í Þýskalandi?
-    answer: Fyrir Business Central notendur sem eru með viðskiptavini hjá þýska ríkinu og þurfa B2G reikninga, verða frá og með 27. nóvember 2020 að senda reikninga á staðbundnum sniðum, svo sem *XRechnung* eða *ZUGFeRD*.  Þetta verður stutt af forritum eins og [belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview) eða [Pagero E-reikningsfærslu](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6).
+    answer: Fyrir Business Central notendur sem eru með viðskiptavini hjá þýska ríkinu og þurfa B2G reikninga, verða frá og með 27. nóvember 2020 að senda reikninga á staðbundnum sniðum, svo sem *XRechnung* eða *ZUGFeRD*.  Þetta verður stutt af forritum á borð við [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview) eða [Pagero E-Invoicing](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6).
 additionalContent: "## <a name=\"next-steps\"></a>Næstu skref\nFinndu tengdar upplýsingar hér: \n  - [Senda rafræn skjöl](sales-how-to-send-electronic-documents.md)"

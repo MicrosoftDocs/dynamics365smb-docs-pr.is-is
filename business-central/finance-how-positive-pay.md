@@ -1,5 +1,5 @@
 ---
-title: Flytja út jákvæðar launaskrár
+title: Flytja út jákvæðar greiðsluskrár
 description: Hægt er að ganga úr skugga um að bankinn þinn taki eingöngu við fullgildum ávísunum með því að flytja út jákvæða greiðsluskrá sem inniheldur upplýsingar um lánardrottna og greiðslur.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 1e3ef74e8d407f9cafb2b67131167bdbfefe4872
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8517551"
@@ -61,7 +61,7 @@ Til að flytja út jákvæðar greiðslur
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
-[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna í færslubókum](ui-work-general-journals.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

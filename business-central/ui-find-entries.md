@@ -12,7 +12,7 @@ ms.date: 05/23/2022
 ms.author: jswymer
 ms.openlocfilehash: 3c89d9f3044a8fd0d0fa7f811f1b2f01978e4302
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532377"
@@ -29,7 +29,7 @@ ms.locfileid: "9532377"
 
 ## <a name="get-started"></a>Hafist handa
 
-Aðgerðin finna færslur er fúslega tiltæk á nánast hvaða síðu sem er með því að styðja á CTRL + ALT + Q lyklana. Frá síðum sem sérstaklega birtast bókuð skjöl eða bókaðar skjalafærslur &mdash; fyrir bæði lista og kort &mdash; er hægt að opna aðgerðina með því að **Velja aðgerðina finna færslur**.
+Eiginleikinn til að finna færslu er tiltækur á næstum öllum síðum með því að ýta á Ctrl+Alt+Q. Á síðum sem birta sérstaklega bókuð skjöl eða bókaðar skjalafærslur&mdash;fyrir bæði lista og spjöld&mdash;er einnig hægt að opna eiginleikann með því að velja aðgerðina **Finna færslur**.
 
 Síðan **Leita að færslum** inniheldur öll tengd skjöl og færslur samkvæmt skjalanúmerinu og bókunardagsetningunni. Síðan skiptist í þrjá hluta:
 
@@ -69,11 +69,11 @@ Hægt er að leita að færslum út frá upplýsingum um annaðhvort skjalið, v
 > [!TIP]
 > Til að fá nokkur dæmi um notkun á **Leita að færslum** skal skoða [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Vinna með Viðskiptaseðla-](ui-work-product.md)  
+[Vinna með Business Central](ui-work-product.md)  
 [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)  
 [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  
 

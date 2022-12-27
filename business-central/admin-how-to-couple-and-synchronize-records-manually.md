@@ -1,5 +1,5 @@
 ---
-title: Coupling og samstilling (inniheldur Video)
+title: Tengja og samstilla (inniheldur myndskeið)
 description: Samstilling samþættingartöflu virkjar gagnasamþættingu í öllum færslum í töflu í Business Central og Dynamics 365 Sales töflu sem eru tengdar.
 author: brentholtorf
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 10/01/2021
 ms.author: bholtorf
 ms.openlocfilehash: 2bc46e165018d29684b116f7aac3745c9d533c42
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8517603"
@@ -25,7 +25,7 @@ ms.locfileid: "8517603"
 > Tenging og samstilling gagna við er aðeins í boði ef kerfisstjórinn hefur búið til tengingu milli [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)]. Fljótleg leið til að athuga þetta er að opna spjaldið **Viðskiptamaður** og leita að aðgerðinni **Setja upp tengingu**. Ef aðgerðin er tiltæk eru forritin tengd.   
 
 ## <a name="video-example"></a>Myndbandsdæmi
-Þetta myndefni sýnir festingu og samstillingu gagna í samhengi við samþættingu [!INCLUDE[crm_md](includes/crm_md.md)].
+Þetta myndband sýnir tengingar- og samstillingargögn í samhengi samþættingar við [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 
@@ -66,7 +66,7 @@ Hægt er að tilgreina gögnin sem á að samstilla fyrir einingu, t.d. viðskip
 Hægt er að aftengja eina eða fleiri færslur af listasíðum eða síðunni **Samstillingarvillur í tengdum gögnum** með því að velja eina eða fleiri línu og velja **Eyða tengingu**. Einnig er hægt að fjarlægja allar tengingar fyrir eina eða fleiri töfluvörpun á síðunni **Vörpun samþættingartöflu**.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Nota Dynamics 365 Sala frá Viðskiptamiðinu](marketing-integrate-dynamicscrm.md)
+[Nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

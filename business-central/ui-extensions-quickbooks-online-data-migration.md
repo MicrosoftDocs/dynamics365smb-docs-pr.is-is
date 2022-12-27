@@ -12,7 +12,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.openlocfilehash: 4c0e9a89b81e9d967482d79e91b4aa05619fc658
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528572"
@@ -67,7 +67,7 @@ Auðvelt er að hefjast handa Það eina sem þú þarft að gera er að keyra *
 * Ef þú ert að nota VSK, þarftu kannski að bæta viðskiptabókunarflokki og vörubókunarflokki við uppsetningu bókana svo þú getir bókað VSK upphæðir.
 * Staðfesta upphafsstöðu reikninga í fjárhagnum. QuickBooks Online geymir ekki núgildandi stöðu fyrir alla reikninga, og því gætirðu þurft að leiðrétta upphafstöður.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

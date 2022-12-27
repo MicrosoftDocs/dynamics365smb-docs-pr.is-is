@@ -11,7 +11,7 @@ ms.date: 06/11/2021
 ms.author: jswymer
 ms.openlocfilehash: 7aa2fee69e6d7725e4986b44d3f657d6ca9c4819
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534319"
@@ -92,7 +92,7 @@ Hægt er að breyta breidd og hæð skýrslunnar með því að velja **Sérsní
 Ef bakgrunnur skýringarinnar á að vera með bakgrunnslit Power BI upplýsingareitsins skal stilla bakgrunnslit skýrslu á *#FFFFFF* (hvítur). 
 
 > [!TIP]
-> Notið [!INCLUDE [prod_short](includes/prod_short.md)]-þemaskrá til að búa til skýrslur með sama litastíl og [!INCLUDE [prod_short](includes/prod_short.md)]-forritin. Frekari upplýsingar [fást með því að [!INCLUDE [prod_short](includes/prod_short.md)] nota þema skýrslunnar](across-how-use-financials-data-source-powerbi.md#theme).
+> Notið [!INCLUDE [prod_short](includes/prod_short.md)]-þemaskrá til að búa til skýrslur með sama litastíl og [!INCLUDE [prod_short](includes/prod_short.md)]-forritin. Frekari upplýsingar er að finna í [Nota [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema notað](across-how-use-financials-data-source-powerbi.md#theme).
 
 ## <a name="reports-with-multiple-pages"></a>Skýrslur með mörgum síðum
 
@@ -122,12 +122,12 @@ Sannprófa verður að skýrslan sem notandi vill að birtist sé fyrsta síðan
 
 Staðfestið að stærð skýrslu sé stillt á 325 x 310 pixla. Vista skal skýrsluna og síðan endurnýja listasíðuna.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)  
-[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  
+[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Fjármál](finance.md)  

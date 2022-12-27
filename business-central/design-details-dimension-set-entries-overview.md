@@ -11,7 +11,7 @@ ms.date: 06/14/2021
 ms.author: edupont
 ms.openlocfilehash: 06baf4789fb4630ee9ee7db74d5dab7aafa07e9b
 ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/01/2022
 ms.locfileid: "8366699"
@@ -48,7 +48,7 @@ Með því að vista víddasamstæður einu sinni í gagnagrunni, er gagnagrunns
 ## <a name="see-also"></a>Sjá einnig
 [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   
 [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   
-[Hönnunarupplýsingar: Víddasamstæðufærslur](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
+[Hönnunarupplýsingar: Færslur víddarsamstæða](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

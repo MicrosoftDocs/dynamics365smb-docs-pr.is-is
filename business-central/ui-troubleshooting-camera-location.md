@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.topic: conceptual
 ms.openlocfilehash: d2b967e3541eee99f7e96978e866f79faabaecdd
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605874"
@@ -46,7 +46,7 @@ Eiginleikar myndavélar og staðsetningar eru aðeins tiltækir þegar verið er
 Eina undantekningin er tenging við `http://localhost`, sem notuð er í þróun og prófanir.
 
 
-## <a name="work-with-virtualization-technologies"></a>Vinna með Sýndaralization tækni
+## <a name="work-with-virtualization-technologies"></a>Vinna með sýndartækni
 
 Þegar þú tengist [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum fjartengt skjáborð eða annan sýndarbúnað er hugsanlegt að aðgangur að myndavél eða staðsetningu sé ekki í boði. Ef svo er skaltu nota efnislegt stjórnkerfi í staðinn.
 

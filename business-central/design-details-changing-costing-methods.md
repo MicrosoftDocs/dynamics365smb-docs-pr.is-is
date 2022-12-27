@@ -12,7 +12,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.openlocfilehash: 1f726a40e23fcfcc5d00616965111254ebcd14d8
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8512335"
@@ -45,7 +45,7 @@ Aðferð kostnaðarútreiknings stjórnar kostnaðarútreikningum þegar vörur 
 
 Nánari upplýsingar eru í [Upplýsingar um hönnun: Kostnaðarútreikningar](design-details-costing-methods.md).
 
-## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Nota Samsetningartillögur til að breyta úthlutunum fyrir kostnaðaraðferð
+## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Nota samsetningarpantanir til að breyta úthlutunum á aðferðum kostnaðarútreikninga
 
 Þessi hluti útskýrir eftirfarandi skref til að breyta aðferð kostnaðarútreiknings sem er úthlutað á vöru:
 

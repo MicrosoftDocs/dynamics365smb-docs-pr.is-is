@@ -10,7 +10,7 @@ ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
 ms.date: 10/05/2021
 ms.openlocfilehash: fa47de1f771f70667eddbc240cd534d123b26008
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9535558"

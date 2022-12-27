@@ -12,13 +12,13 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
 ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/03/2022
 ms.locfileid: "9617821"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Unnið með VSK í sölu og innkaupum
-Ef land eða svæði notanda þarf að reikna út og tilkynna virðisauka (VSK) í sölu-og innkaupafærslum er hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til ÚTREIKNINGS VSK. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).
+Ef landið eða svæðið þitt krefst þess að reiknaður sé virðisaukaskattur (VSK) á sölu- og innkaupafærslur er hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að reikna VSK. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).
 
 Það eru samt sem áður VSK-tengd verkefni sem þú getur innt af hendi handvirkt. Þú gætir t.d. þurft að leiðrétta bókaða upphæð ef þú uppgötvar að lánardrottinn notar annars konar sléttunaraðferð.  
 
@@ -26,60 +26,60 @@ Ef land eða svæði notanda þarf að reikna út og tilkynna virðisauka (VSK) 
 > Hægt er að láta [!INCLUDE[prod_short](includes/prod_short.md)] villuleita VSK-númer og aðrar upplýsingar um fyrirtæki þegar skjöl eru búin til eða uppfærð. Frekari upplýsingar er að finna í [Villuleita VSK-númer](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Útreikningur og birting VSK-upphæða í sölu- og innkaupaskjölum  
-Þegar þú velur vörunúmer í **Nr.** í [!INCLUDE[prod_short](includes/prod_short.md)] sölu-eða innkaupaskjali, **fyllir út einingarverð** og **Línuupphæð**. Einingarverðið er reiknað og flutt úr annaðhvort **birgða** spjaldinu eða leyfilegum vöruverðum vörunnar og viðskiptamannsins. [!INCLUDE[prod_short](includes/prod_short.md)] reiknar út línuupphæðina þegar magn línunnar er fært inn.  
+Þegar þú velur vörunúmer í **Nr.** reitnum á sölu- eða innkaupaskjali, [!INCLUDE[prod_short](includes/prod_short.md)] fyllir út reitina **Einingarverð** og **Línuupphæð**. Einingarverðið er reiknað og flutt úr annaðhvort **birgða** spjaldinu eða leyfilegum vöruverðum vörunnar og viðskiptamannsins. [!INCLUDE[prod_short](includes/prod_short.md)] reiknar einungis Línuupphæð þegar magn er fært inn fyrir línuna.  
 
-Ef einingarverð og línuupphæðir eiga að vera með VSK, til dæmis ef verið er að selja í smásölu, skal velja **gátreitinn með VSK** -gátreit á skjalinu. Frekari upplýsingar [fást með eða án VSK í verði og línuupphæðum](#including-or-excluding-vat-in-prices-and-line-amounts). 
+Ef þú vilt að einingarverð og línuupphæðir innihaldi VSK, til dæmis ef þú selur neytendum smásölu skaltu velja gátreitinn **Verð með VSK** í skjalinu. Frekari upplýsingar er að finna í [Taka með eða útiloka VSK í verðum og línuupphæðum](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-Hægt er að reikna og birta VSK-upphæðir í sölu-og innkaupaskjölum á annan hátt, eftir því hvaða tegund viðskiptamanns eða lánardrottins er verið að eiga við. Einnig er hægt að breyta útreiknaðri VSK-upphæðinni handvirkt, til dæmis, þannig að hún samsvari þeirri VSK-upphæð sem lánardrottinn hefur reiknað af tiltekinni færslu.
+Hægt er að reikna og birta VSK-upphæðir í sölu- og innkaupaskjölum á mismunandi máta, samkvæmt tegund viðskiptamannsins eða lánardrottinsins sem notandi á viðskipti við. Einnig er til dæmis hægt að breyta reiknuðum VSK-upphæðum handvirkt svo þær passi við VSK-upphæðina sem reiknuð er af lánardrottni viðkomandi færslu.
 
-### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Með eða án VSK í verði og línuupphæðir
-Ef valið **er verð með VSK** -gátreit á söluskjali þá hefur VSK-upphæð í **einingarverðinu** og **línuupphæðarreitinn** með. Sjálfgefið er að gildin í þessum reitum innihalda ekki VSK. Nöfn svæðanna endurspegla hvort um sé að ræða VSK.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Taka með eða útiloka VSK í verðum eða línuupphæðum
+Ef gátreiturinn **Verð með VSK** er valinn í söluskjali verða reitirnir **Einingarverð** og **Línuupphæð** með VSK. Gildin í þessum reitum eru sjálfgefið ekki með VSK. Heiti reitanna endurspegla hvort VSK sé innifalinn í verðinu.  
 
-Hægt er að setja upp sjálfgefna stillingu á **Verð með VSK** fyrir öll söluskjöl viðskiptamanns í reitnum **Verð með VSK** á spjaldinu **Viðskiptamaður**. Einnig er hægt að setja upp vöruverð þannig að þau séu með eða án VSK. Yfirleitt er VSK á birgðaspjaldinu. 
+Hægt er að setja upp sjálfgefna stillingu á **Verð með VSK** fyrir öll söluskjöl viðskiptamanns í reitnum **Verð með VSK** á spjaldinu **Viðskiptamaður**. Einnig er hægt að setja upp vöruverð þannig að þau séu með eða án VSK. Yfirleitt munu verð í birgðaspjaldinu ekki innihalda VSK. 
 
 Eftirfarandi tafla birtir yfirlit yfir það hvernig forritið reiknar upphæðir einingarverðs fyrir söluskjöl þegar engin verð eru sett upp á síðunni **Söluverð**:  
 
 |**Verð með VSK í birgðaspjaldi**|**Verð með VSK reit**|**Aðgerð framkvæmd**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|Ekki virkjað|Ekki virkjað|**Einingarverð** á birgðaspjaldinu er afritað í reitinn **Ein.verð án VSK** í sölulínunum.|  
-|Ekki virkjað|Virk|Forritið reiknar VSK-upphæð á einingu og bætir við **Ein.verð** á Vöruspjaldinu. Þetta heildareiningaverð er síðan fært í **reitinn** EININGARVERÐ með VSK í sölulínunum.|  
-|Virk|Ekki virkjað|Forritið reiknar VSK-upphæðina sem er innifalin í **reitnum Einingarverð** á **BIRGÐASPJALDINU** með VSK-PRÓSENTUNNI sem tengist VSK-Tengibrautinni. Bókunargr. (verð) og samsetningu VSK-framl. bókunarflokks. **Einingaverðið** í birgðaspjaldinu, mínus VSK-upphæðin, er því næst fært inn í reitinn **Ein.verð án VSK** í sölulínunum. Frekari upplýsingar er að finna [í notkun VSK-viðskiptabókunarflokka og verðflokka](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups) viðskiptamanna.|  
+|Ekki virkt|Ekki virkt|**Einingarverð** á birgðaspjaldinu er afritað í reitinn **Ein.verð án VSK** í sölulínunum.|  
+|Ekki virkt|Virk|Forritið reiknar VSK-upphæð á einingu og bætir við **Ein.verð** á Vöruspjaldinu. Heildareiningarverðið er svo fært inn í reitinn **Ein. verð með Vsk** í sölulínunum.|  
+|Virk|Ekki virkt|Forritið reiknar VSK-upphæðina sem er innifalin í **Einingaverð** reitnum á **Birgðaspjald** með VSK-prósentunni sem tengist samsetningu VSK-viðskiptabókunarflokksins (verð) og VSK-vörubókunarflokksins. **Einingaverðið** í birgðaspjaldinu, mínus VSK-upphæðin, er því næst fært inn í reitinn **Ein.verð án VSK** í sölulínunum. Frekari upplýsingar er að finna í [Notkun VSK-viðskiptabókunarflokka og verðflokka viðskiptamanns](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
 |Virk|Virk|**Einingarverðið** í birgðaspjaldinu er afritað í reitinn **Ein.verð með VSK** í sölulínunum.|
 
-#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>VSK-viðskiptabókunarflokkar og Verðflokkar viðskiptamanna notaðir 
-Ef bera á verð með VSK er hægt að nota VSK-viðskiptabókunarflokka til að reikna út upphæðina á grundvelli uppsetningar VSK-bókunar fyrir flokkinn. Frekari upplýsingar er að finna [í setja upp VSK-viðskiptabókunarflokka](finance-setup-vat.md#set-up-vat-business-posting-groups).
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Notkun VSK-viðskiptabókunarflokka og verðflokka viðskiptamanna 
+Ef þú vilt að VSK sé innifalinn í verði geturðu notað VSK-viðskiptabókunarflokka til að reikna út upphæðina út frá VSK-bókunargrunni fyrir flokkinn. Frekari upplýsingar er að finna í [Setja upp VSK-viðskiptabókunarflokka](finance-setup-vat.md#set-up-vat-business-posting-groups).
 
-Eftir því hvað á að gera er hægt að úthluta VSK-viðskiptabókunarflokki til viðskiptamanna eða söluskjöl á eftirfarandi hátt:
+Þú getur úthlutað VSK-viðskiptabókunarflokk á viðskiptamanna- eða söluskjöl á eftirfarandi hátt, eftir því hvað þú vilt gera:
 
-* Ef nota á sama VSK-taxta fyrir alla viðskiptamenn er hægt að velja flokk í **reitnum VSK viðskiptabókunarflokkur (verð)** á **sölusíðunni. &**.
-* Ef nota á VSK-taxta fyrir tiltekinn viðskiptavin er hægt að velja flokk í **reitnum VSK viðskiptabókunarflokkur (verð)** á **síðunni viðskiptamannaspjald**. 
-* Ef nota á VSK-taxta fyrir tiltekinn viðskiptavin er hægt að velja flokk í **reitnum VSK viðskiptabókunarflokkur (verð)** á **síðunni Viðskiptamannaverðflokkur**. Þetta á t.d. vel við þegar óskað er eftir að verð eigi við um alla viðskiptamenn á ákveðnu landsvæði eða tiltekna Atvinnugrein.
-* Í öllum söluskjölum í **reitnum VSK-viðskiptabókunarflokkur**. VSK-upphæðin sem er tilgreind fyrir flokkinn er aðeins notuð fyrir skjalið sem unnið er við.
+* Til að nota sama VSK-hlutfall fyrir alla viðskiptamenn er hægt að velja reitinn **VSK-viðskiptabókunarflokkur (verð)** á síðunni **Uppsetning sölugrunns**.
+* Til að nota VSK-hlutfall fyrir tiltekinn viðskiptamann geturðu valið flokk í reitnum **VSK-viðskiptabókunarflokkur (verð)** á síðunni **Viðskiptamannaspjald**. 
+* Til að nota VSK-hlutfall fyrir tiltekna viðskiptamenn geturðu valið flokk í reitnum **VSK-viðskiptabókunarflokkur (verð)** á síðunni **Verðflokkur viðskiptamanns**. Þetta er til dæmis gagnlegt þegar þú vilt að verð gildi um alla viðskiptamenn á ákveðnu landfræðilegu svæði eða í tiltekinni atvinnugrein.
+* Í öllum söluskjölum í reitnum **VSK-viðskiptabókunarflokkur**. VSK-upphæðin sem tilgreind er fyrir flokkinn er aðeins notaður fyrir skjalið sem þú ert að vinna í þessa stundina.
 
 > [!NOTE]
-> Ef flokkur í **reitnum VSK-viðskiptabókunarflokkur (verð)** er ekki TILGREINDUR verður VSK ekki innifalinn í verði.
+> Ef þú tilgreinir ekki flokk í reitnum **VSK-viðskiptabókunarflokkur (verð)** verður VSK ekki með í verðinu.
 
 #### <a name="examples"></a>Dæmi
-Þættir eins og landið eða svæðið sem þú ert að selja í, eða þá tegund atvinnugreinar sem þú selur til, geta haft áhrif á þann virðisaukaskatt sem þarf að vera lykill fyrir. Til dæmis gæti veitingasalur rukka 6% VSK fyrir máltíðir sem eru borðaðar á húsverði, og 17% fyrir takeaway. Til að ná því er stofnaður VSK-viðskiptabókunarflokkur (verð) fyrir hús og einn fyrir takeaway.
+Þættir á borð við landið eða svæðið sem þú selur í eða tegund atvinnugreinar sem þú selur til getur haft áhrif á VSK-upphæðina sem gera þarf grein fyrir. Veitingastaður gæti til dæmis rukkað 6% VSK fyrir máltíðir sem eru borðaðar á staðnum og 17% fyrir sóttan mat. Til að ná því býrðu til VSK-viðskiptabókunarflokk (verð) fyrir á staðnum og einn fyrir sótt.
 
-## <a name="working-with-vat-date"></a>Unnið með VSK-dagsetningu
+## <a name="working-with-vat-date"></a>Unnið með VSK dags.
 ### <a name="vat-date-in-documents"></a>VSK-dagsetning í skjölum
-Þegar ný sölu-, innkaupa-eða innkaupaskjöl eru **stofnuð mun VSK-dagsetningin** vera byggð á stillingunni í **reitnum sjálfgefið VSK-dagsetning** á **uppsetningarsíðu** fjárhags. Þetta sjálfgefna gildi getur verið það sama og **Bókunardagsetning** eða **Dagsetning** fylgiskjals. Ef þörf er á annarri VSK-dagsetningu er hægt að breyta gildinu handvirkt í **reitnum VSK-dagsetning**. Þegar skjalið **er bókað birtist VSK-dagsetningin** á bókunarskjalinu og í VSK-og fjárhagsfærslur.
+Þegar þú býrð til ný sölu- eða innkaupaskjöl verður **VSK-dagsetning** byggð á stillingunni í reitnum **Sjálfgefinn VSK-dagur** á síðunni **Fjárhagsgrunnur**. Þetta sjálfgefna gildi getur verið það sama og **Bókunardagsetning** eða **Dagsetning skjals**. Ef þú þarft aðra VSK-dagsetningu getur þú breytt gildinu handvirkt í reitnum **VSK-dagsetning**. Þegar þú bókar skjalið verður **VSK-dagsetning** sýnd í bókunarskjalinu og í VSK- og fjárhagsfærslum.
 
 ### <a name="correcting-vat-date-in-posted-entries"></a>VSK-dagsetning leiðrétt í bókuðum færslum
-Í sumum aðstæðum er nauðsynlegt að breyta VSK-dagsetningu, jafnvel þótt skjalið hafi verið bókað og þetta er hægt að gera í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef breyta **á VSK-dagsetningu** fyrir bókuð skjöl þarf að fylgja þessum skrefum:
+Í sumum tilvikum er nauðsynlegt að breyta VSK-dagsetningunni jafnvel þótt skjalið hafi verið bókað og þetta er hægt að gera í [!INCLUDE[prod_short](includes/prod_short.md)]. Til að breyta **VSK-dagsetningu** fyrir bókuð skjöl þarftu að fylgja þessum skrefum:
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-færslur** og velja síðan viðkomandi tengil.
-2. Finna færsluna með röngum VSK-dagsetningu.
-3. Smelltu **á breyta lista** aðgerð og Sláðu inn rétta dagsetningu í **reitinn VSK-dagsetning**.
+2. Finna færslu með rangri VSK dagsetningu.
+3. Smelltu á aðgerðina **Breyta lista** og sláðu inn rétta dagsetningu í reitinn **VSK-dagsetning**.
 4. Loka síðunni.
-5. Nýjum VSK-dagsetningu verður breytt í tengdum **fjárhagsfærslum** og bókaða skjalið ef er til.
+5. Nýrri VSK-dagsetningu verður breytt í tengdum **Fjárhagsfærslum** og í bókuðu skjali ef það er til.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Handvirk breyting VSK-upphæða í sölu- og innkaupaskjölum  
-Hægt er að gera leiðréttingar á bókuðum VSK-færslum þannig að hægt sé að breyta heildarsölu-eða VSK-upphæðum í virðisaukaskatti án þess að breyta VSK-grunni. Til dæmis ef reikningur berst frá lánardrottni með ranga VSK-upphæð.  
+Hægt er að leiðrétta bókaðar VSK-færslur svo hægt sé að breyta samtals VSK-upphæð fyrir sölu og innkaup án þess að breyta VSK-stofninum. Ef þú færð til dæmis reikning frá lánardrottni með rangri VSK-upphæð.  
 
 Jafnvel þótt ein eða fleiri samsetningar hafi verið settar upp til að afgreiða VSK vegna innflutnings, þarf að setja upp að minnsta kosti einn VSK-vörubókunarflokk. Til dæmis er hægt að gefa honum heitið **LEIÐRÉTTA** fyrir leiðréttingu, nema hægt sé að nota sama fjárhagsreikning í reitnum **Reikningur innskatts** í VSK-bókunargrunnslínunni. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).
 
-Ef staðgreiðsluafsláttur hefur verið reiknaður á grundvelli reikningsuppupphæðar sem felur í sér VSK er staðgreiðsluafsláttur hluti endursöluafsláttar reiknaður af VSK-upphæðinni þegar staðgreiðsluafslátturinn er veittur. Athygli er vakin á því að virkja þarf reitinn **Leiðrétta v. greiðsluafsl.** bæði í fjárhagsgrunni almennt og í VSK-bókunargrunni fyrir tilteknar samsetningar á VSK-viðskiptabókunarflokki og VSK-vörubókunarflokki.  
+Ef greiðsluafsláttur er reiknaður af reikningsupphæð sem inniheldur VSK er mögulegt að bakfæra greiðsluafsláttarhluta VSK þegar greiðsluafsláttur er veittur. Athygli er vakin á því að virkja þarf reitinn **Leiðrétta v. greiðsluafsl.** bæði í fjárhagsgrunni almennt og í VSK-bókunargrunni fyrir tilteknar samsetningar á VSK-viðskiptabókunarflokki og VSK-vörubókunarflokki.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Til að setja kerfið upp fyrir handvirka VSK-færslu í söluskjölum
 Eftirfarandi lýsir því hvernig á að virkja handvirkar VSK-breytingar á söluskjölum. Skrefin eru svipuð á síðunni **Uppsetning innkaupa og viðskiptaskulda**.
@@ -205,7 +205,7 @@ Til að skoða vottorðahóp byrjarðu á síðunni **Afhendingarvottorð** og u
 > * Til að stofna vottorð afhendingarvottorðs handvirkt  
 > * Til að prenta afhendingarvottorð.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 

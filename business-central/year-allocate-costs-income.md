@@ -1,5 +1,5 @@
 ---
-title: Yfirlit yfir verkefni sem úthluta á kostnaði og tekjum
+title: Yfirlit yfir verkefni við að úthluta kostnaði og tekjum
 description: Útskýrir verkhluta sem felur í sér að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð.
 author: SorenGP
 ms.topic: overview
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 91741eea4d2ba780e7493e6aff256238bd542769
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8511365"
@@ -55,9 +55,9 @@ Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga �
 
 ## <a name="see-also"></a>Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  
-[Vinna við Almennar færslubækur](ui-work-general-journals.md)    
+[Vinna í færslubókum](ui-work-general-journals.md)    
 [Að bóka skjöl og færslubækur](ui-post-documents-journals.md)    
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Stjórna samskiptum við tengiliði
+title: Vinna með samskipti við tengiliði
 description: Hægt er að vinna með hvers kyns samskipti milli fyrirtækisins og tengiliða þess, t.d. bréf, símtöl, fundir og þess háttar.
 documentationcenter: ''
 author: jswymer
@@ -13,7 +13,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.openlocfilehash: ea1460810e24d2e78a7d4791aaaaf8a09a4c056c
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8517948"
@@ -54,7 +54,7 @@ Hægt er að eyða samskiptaskráningarfærslum sem hafa verið afturkallaðar. 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
-[Vinna með Viðskiptaseðla-](ui-work-product.md)  
+[Vinna með Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

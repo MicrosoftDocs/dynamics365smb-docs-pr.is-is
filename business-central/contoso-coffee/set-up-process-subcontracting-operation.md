@@ -1,6 +1,6 @@
 ---
-title: Setja upp og vinna Úthýsingaraðgerð
-description: Walkmeð til að læra hvernig setja á upp og vinna undirverktaka í Viðskiptamiðinu.
+title: Setja upp og vinna úr aðgerð úthýsingar
+description: Kynning á hvernig á að setja upp og vinna úr úthýsingaraðgerð í Business Central.
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -8,76 +8,76 @@ author: edupont04
 ms.author: andreipa
 ms.openlocfilehash: 9227abbfe25ca5a1b3c6775865712f22b31f721b
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8524213"
 ---
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Setja upp og vinna Úthýsingaraðgerð
+# <a name="set-up-and-process-a-subcontracting-operation"></a>Setja upp og vinna úr aðgerð úthýsingar
 
-Í þessari grein tekur þú á móti skrefunum til að nota contoso Coffee sýnigögnin í úthýsingu.
+Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee í úthýsingu.
 
 ## <a name="scenario"></a>Aðstæður
 
-Þú ert framleiðslustjósinn í contoso Coffee. Vegna takmarkana á afkastagetu er ætlunin að nota undirverktaka til að framleiða vöruna **SP-SCM1009, Airpot**.
+Þú ert framleiðslustjóri á Contoso Coffee. Vegna takmarkana á afkastagetu ætlar þú að nota úthýsingu til að framleiða vöruna **SP-SCM1009 Airpot**.
 
-Hér er stofnuð ný Útgefin framleiðslupöntun fyrir 12 eininga vöru SP-SCM1009, Airpot, með leiðara-SP-SCM1009-SUB-2. Nota skal undirvinnublaðið til að mynda innkaupapöntun fyrir framleiðsluna og ljúka aðgerðinni með því að taka við og reikningsfæra innkaupapöntunina.
+Hér býrðu til nýja útgefna framleiðslupöntun fyrir 12 einingar af vörunni SP-SCM1009 Airpot, með leið - SP-SCM1009-SUB-2. Notaðu vinnublað undirverktakasamninga til að stofna innkaupapöntun fyrir framleiðsluna og síða ljúka aðgerðinni með því að taka á móti og reikningsfæra innkaupapöntunina.
 
 ## <a name="steps"></a>Skref
 
-1. Stofnið nýja útgefna framleiðslupöntun fyrir 12 eininga vöru SP-SCM1009, Airpot.
+1. Stofnaðu nýja útgefna framleiðslupöntun fyrir 12 einingar af vörunni SP-SCM1009, Airpot.
 
     1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Losuð framleiðslupöntun** og velja síðan viðkomandi tengil.  
 
-    2. **Velja nýju** aðgerðina og síðan eru reitirnir fylltir út eins og lýst er í eftirfarandi töflu.  
+    2. Veldu aðgerðina **Nýtt** og fylltu svo út reitina eins og lýst er í eftirfarandi töflu.  
 
-        |Svæði  |Gildi:  |
+        |Svæði  |Virði  |
         |---------|---------|
-        |**Tegund uppruna** |Vara|
-        |**Upprunnr.** |SP-SCM1009|
-        |**Magn** |100%|
-    3. **Velja aðgerðina Endurnýja framleiðslupöntun**.  
+        |**Tegund uppruna** |Atriði|
+        |**Upprunanúmer** |SP-SCM1009|
+        |**Magn** |100|
+    3. Veldu aðgerðina **Uppfæra framleiðslupöntun**.  
 
-2. Skipta um leið í SP-SCM1009-SUB-2 í framleiðslupöntunarlínunni og endurnýjast síðan framleiðslupöntunin aðeins fyrir leiðarkerfi.  
+2. Skiptu um leið í SP-SCM1009-SUB-2 í framleiðslupöntunarlínunni og uppfærðu síðan framleiðslupöntunina en aðeins fyrir leið.  
 
-    1. Bæta reitnum framleiðsluleið við línurnar í útgefinni framleiðslupöntun.<!--in code, this is marked as visible=false-->
+    1. Bættu reit framleiðsluleiðarnr. við línurnar í útgefinni framleiðslupöntun.<!--in code, this is marked as visible=false-->
 
-    2. **Breyta leiðarnúmeri** reits úr *SP-SCM1009-raðganga* í *SP-SCM1009-SUB-2*.  
+    2. Breyttu reitnum **Leiðarnúmer** úr *SP-SCM1009-SERIAL* í *SP-SCM1009-SUB-2*.  
 
-    3. **Velja aðgerðina Endurnýja framleiðslupöntun**.  
+    3. Veldu aðgerðina **Uppfæra framleiðslupöntun**.  
 
-    4. **Á beiðni um endurnýjun framleiðslupöntunar** skal hreinsa **reiti lína** og **íhluta** svo að verkið verði aðeins keyrt fyrir leiðara og velja svo hnappinn í **lagi**.
+    4. Á beiðnisíðunni **Uppfæra framleiðslupöntun** skal hreins reitina **Línur** og **Íhlutaþörf** þannig að verkið mun aðeins keyra fyrir leið og veldu síðan hnappinn **Í lagi**.
 
-3. Nota skal undirvinnublaðið til að mynda innkaupapöntun fyrir undirverktaka-aðgerðina í framleiðslupöntuninni sem var stofnuð í skrefi 2.  
+3. Notaðu vinnublað undirverktakasamninga til að búa til innkaupapöntun fyrir aðgerð undirverktaka í framleiðslupöntuninni sem stofnuð var í skrefi 2.  
 
-    1. Veldu þá ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **úthýsingu vinnublaða** og velja síðan tengda tengilinn.  
+    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublöð undirverktaka** og velja síðan viðkomandi tengil.  
 
-    2. **Velja aðgerðina reikna Undirsamninga**.
+    2. Veldu aðgerðina **Reikna undirverktakasamninga**.
 
-    3. **Velja reitinn Samþykkja aðgerðaboð** fyrir nýju línuna.
+    3. Veldu reitinn **Samþykkja aðgerðaboð** fyrir nýju línuna.
 
     4. Veljið aðgerðina **Framkvæma aðgerðaboð**.  
 
-    5. **Á síðunni framkvæma aðgerðarnr. –** beiðni um boð, samþykkja öll sjálfgefin gildi og velja **síðan OK** hnappinn.
+    5. Á beiðnisíðunni **Framkv. aðg.boð - Beiðni** skal samþykkja öll sjálfgefin gildi og síðan velja hnappinn **Í lagi**.
 
-    6. Að keyrslunni lokinni skal velja hnappinn í **lagi** til að loka vinnublaði undirverktaka.  
+    6. Þegar runuvinnslunni lýkur skal velja hnappinn **Í lagi** til að loka undirverktakavinnublaðinu,  
 
-4. Taka við og reikningsfæra innkaupapöntunina.  
+4. Taktu á móti og reikningsfærðu innkaupapöntunina.  
 
-    1. Veldu þá ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **innkaupapantanir** og velja síðan tengda tengilinn.  
+    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.  
 
-    2. **Á lista innkaupapantana** er fundin innkaupapöntun úr undirverktökum lánardrottins 82000.
+    2. Á listanum **Innkaupapantanir** skal finna innkaupapöntunina úr lánardrottini 82000 undirverktaka.
 
-    3. **Í reitinn lánardrottnareikningur** er fært inn *542349*.
+    3. Í reitinn **Reikningsnúmer lánardrottins** skal færa inn *542349*.
 
-    4. **Á flipanum Línur** er línan valin og síðan er **reiturinn Beinn kostnaður** stilltur á *18*.
+    4. Í flýtiflipanum **Línur** skal velja línuna og síðan stilla reitinn **Beinn kostnaður** á *18*.
 
     5. Valið er **Bóka** aðgerðin.  
 
-    6. Veldu **móttöku og reikningvalkostinn** í beiðninni.  
+    6. Í skilaboðum beiðninnar skal velja valkostinn **Taka á móti og reikningsfæra**.  
 
-Úrtak vöru SP-SCM1009 Airpot er nú skráð.
+Úttak vörunnar SP-SCM1009 Airpot er nú skráð.
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Kynning á contoso kaffi sýnigögnum](contoso-coffee-intro.md)  
+[Kynning á sýnigögnum Contoso Coffee](contoso-coffee-intro.md)  

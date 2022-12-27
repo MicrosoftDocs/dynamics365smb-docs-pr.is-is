@@ -13,7 +13,7 @@ ms.date: 06/10/2021
 ms.author: edupont
 ms.openlocfilehash: 3c8e4dde3ddf684f9402b98634cbc74c34058933
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8519945"
@@ -53,7 +53,7 @@ Bókuð söluafhending er uppfærð.
 
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Bókun skjala og færslubóka](ui-post-documents-journals.md)  
+[Að bóka skjöl og færslubækur](ui-post-documents-journals.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

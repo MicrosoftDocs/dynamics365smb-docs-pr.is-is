@@ -1,6 +1,6 @@
 ---
-title: Prufuaðgerðir sem tengjast öðrum Microsoft-þjónustum
-description: Yfirlit yfir Microsoft-þjónustu sem Viðskiptamiðinu tengist við prufuútgáfuna.
+title: Prófunareiginleikar sem tengjast annarri Microsoft-þjónustu
+description: Yfirlit yfir Microsoft-þjónustu sem Business Central tengist með prufuútgáfunni.
 author: jswymer
 ms.topic: overview
 ms.service: dynamics365-business-central
@@ -10,31 +10,31 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.openlocfilehash: baad6c682a744d87cd6e2d2c0536a06a7b349384
 ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/28/2022
 ms.locfileid: "9728707"
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Prufuaðgerðir sem tengjast öðrum Microsoft-þjónustum 
+# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Prófunareiginleikar sem tengjast öðrum Microsoft-þjónustum 
 
-[!INCLUDE[prod_long](includes/prod_long.md)] er alhliða viðskiptastjórnunarlausn sem er djúpt samþætt Microsoft 365 framleiðni forrita og Power Platform. Ókeypis prufuútgáfa af Business Central getur tengst mörgum mismunandi Microsoft-þjónustum sem fyrst þarf að samskipa og virkja. Til að fá sem mest út úr lausu prufunni hafa sumir þessara eiginleika sjálfkrafa virkað fyrir þig. Jafnvel þó tengingin frá [!INCLUDE[prod_short](includes/prod_short.md)] sé virkjuð er þessi þjónusta ekki innifalin í prufutíma þínum og þarf að kaupa hana sérstaklega nema þú hafir það nú þegar.
+[!INCLUDE[prod_long](includes/prod_long.md)] er yfirgripsmikil viðskiptastjórnunarlausn sem er samþætt við Microsoft 365 framleiðniforritum og Power Platform. Ókeypis prufuáskriftin þín af Business Central getur tengst mörgum mismunandi Microsoft þjónustum sem þú verður fyrst að stilla og virkja. Til að fá sem mest út úr ókeypis prufuútgáfunni hafa sumir þessarar eiginleika verið sjálfkrafa virkjaðir fyrir þig. Þótt tengingin úr [!INCLUDE[prod_short](includes/prod_short.md)] sé virk eru þessar þjónustur ekki hluti af prufuútgáfunni og þarf að kaupa þær sér nema þú sért nú þegar með þær.
 
-Taflan hér fyrir neðan gefur til kynna tengingar við Microsoft-þjónustur sem virkjast sjálfkrafa fyrir [!INCLUDE[prod_short](includes/prod_short.md)] rannsóknir:
+Taflan hér að neðan sýnir tengingar við Microsoft-þjónustur sem eru sjálfkrafa virkar í [!INCLUDE[prod_short](includes/prod_short.md)] prufuútgáfum:
 
-|Heiti þjónustu|Tenging virkjast sjálfkrafa |Þjónusta hefur samband við innskráningu á Viðskiptamiðis- |Dæmi um aðgerðir sem nota þessa þjónustu | Læra hvernig á að stjórna tengingunni og aðgerðunum sem nota hana|  
+|Heiti þjónustu|Tenging er sjálfkrafa virk |Haft er samband við þjónustu við innskráningu í Business Central |Dæmi um eiginleika sem notar þessa þjónustu | Kynntu þér hvernig á að stjórna tengingu og eiginleikum sem nota hana|  
 |------------|-------------|--------|------------|-------------|
-|Microsoft Teams|Já|Nr.|**Samnýta til að teyma** aðgerð á **birgðaspjaldi** |[Stjórnun teyma samrýmist starfsemi Miðstjórnar-](admin-teams-integration.md)|  
-|Microsoft OneDrive fyrir fyrirtæki|Já|Nr.|**Opna í OneDrive** aðgerð á **vöruviðhengi** |[Umsjón OneDrive með samþættingu við rekstur miðsvæðis](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
-| Microsoft Power Automate |Já|Nr.|**Gera** sjálfvirkar aðgerðir á **birgðaspjaldi** |[Setja upp Power Automate samþættingu](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|  
+|Microsoft Teams|Já|Nr.|Aðgerðin **Deila í Teams** í **Birgðaspjaldinu** |[Umsjón með samþættingu Teams við Business Central](admin-teams-integration.md)|  
+|Microsoft OneDrive fyrir fyrirtæki|Já|Nr.|Aðgerðin **Opna í OneDrive** í viðhengjum **Vöru** |[Stjórnun OneDrive samþættingar við Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
+| Microsoft Power Automate |Já|Nr.|Aðgerðin **Sjálfvirkni** í **Birgðaspjaldinu** |[Setja upp Power Automate samþættingu](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|  
 
 > [!NOTE]
-> Með því að nota aðgerðir sem tengjast þessum þjónustum: 
+> Með því að nota eiginleika sem tengjast við þessar þjónustur: 
 >
-> - Samþykkis fyrir gögnunum sem verið er að samnýta með Microsoft-þjónustunni. Ef fyrirtækið hefur virkjað þessa þjónustu í öðru landi eða svæði skal tenging þjónustunnar leiða til þess að gögnin fari yfir mörk gagnagjafar. Tryggja skal að staðfestar reglur um fyrirtækið og stjórnvöld samræmi skilyrði fyrir gagnahaldskröfum áður en haldið er áfram að nota þessar aðgerðir. 
-> - Þú gætir haft áhrif á þjónustu sem ekki er í þrifum. Ef þessi þjónusta er notuð í framleiðslu hjá fyrirtækinu og ekki er hægt að meta þau ásamt miðlægum öðrum notendum þessara þjónustu sem ekki geta tekið þátt í þessari prufuútgáfu [!INCLUDE[prod_short](includes/prod_short.md)].
-> - [!INCLUDE[prod_short](includes/prod_short.md)] getur einnig tengst Microsoft Services eða þjónustu þriðja aðila, allt eftir sérstillingum og viðaukum sem þú eða kerfisstjóri þinn hafa sett upp í prufunni [!INCLUDE[prod_short](includes/prod_short.md)]. Upplýsingar um hvernig Viðauki framfylgir gögnunum þínum er að hafa samband við framleiðarforritara eða fylgja friðlýsingarhlekknum í framlengingu á AppSource. 
+> - Þú samþykkir að gögnum þínum verði deilt með þeirri Microsoft-þjónustu. Ef fyrirtækið þitt hefur sett upp þessar þjónustur í mismunandi löndum og svæðum getur tengin við þessa þjónustu valdið því að gögn fari yfir mörk gagnastaðsetningar. Gakktu úr skugga um að staðfesta reglur fyrirtækisins og kröfur yfirvalda um reglufylgni fyrir staðsetningu gagna áður en þú byrjar að nota þessa eiginleika. 
+> - Þú getur haft áhrif á þjónustur sem eru ekki prufuútgáfur. Ef þessar þjónustur eru notaðar í framleiðslu af fyrirtækinu þínu og eru ekki metnar saman með Business Central getur það haft áhrif á aðra notendur þessarar þjónustu sem taka ekki þátt í þessari prufuútgáfu af [!INCLUDE[prod_short](includes/prod_short.md)].
+> - þú [!INCLUDE[prod_short](includes/prod_short.md)] getur einnig tengst Microsoft þjónustum eða þjónustum þriðju aðila eftir því hvaða stillingar og viðbætur þú eða stjórnandi þinn hafið sett upp í [!INCLUDE[prod_short](includes/prod_short.md)] prófuninni. Til að fá upplýsingar um hvernig viðbæturnar þínar vinna úr gögnunum skaltu hafa samband við þróunaraðila viðbótarinnar eða fylgja tengli persónuverndar fyrir viðbótina í AppSource. 
 
-Persónuvernd þína skiptir okkur miklu máli. Frekari upplýsingar um hvernig Microsoft vinnur gögnin þín eru skoðuð með [persónuverndaryfirlýsingu](https://go.microsoft.com/fwlink/?linkid=521839) Microsoft.
+Persónuvernd þín er okkur mikilvæg. Til að fá að vita meira um hvernig Microsoft vinnur úr gögnunum þínum skaltu skoða yfirlýsingu [Microsoft um persónuvernd](https://go.microsoft.com/fwlink/?linkid=521839).
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

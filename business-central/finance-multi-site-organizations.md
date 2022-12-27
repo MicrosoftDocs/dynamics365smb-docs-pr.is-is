@@ -11,7 +11,7 @@ ms.date: 10/01/2020
 ms.author: bholtorf
 ms.openlocfilehash: 88877f719ec969fbca6dfd5928faf185b447bb42
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8520361"
@@ -66,7 +66,7 @@ Tryggðu að fyrirtækið starfi í samræmi við viðskiptamarkmiðin með þv�
 
 | **Fyrirtækjakröfur** | **Hvernig Business Central styður það** | **Frekari upplýsingar** |
 |-------------------------|-------------------------|-------------------------|
-| Deila innsýn með síðum án víðtækrar tækniaðstoðar. | Búðu til KPI og stjórnborð viðskiptagreindar í Power BI byggt á gögnum þínum. | [Vinna við aðalgögn fyrirtækja í Power BI](across-working-with-business-central-in-powerbi.md) |
+| Deila innsýn með síðum án víðtækrar tækniaðstoðar. | Búðu til KPI og stjórnborð viðskiptagreindar í Power BI byggt á gögnum þínum. | [Vinna með Business Central Data í Power BI](across-working-with-business-central-in-powerbi.md) |
 | Búa til sérsniðnar fjárhagsskýrslur. | Búa til fjárhagsskýrslur byggðar á breytum. | [Viðskiptaupplýsingar](bi.md) |
 | Í samræmi við staðreyndir. | Búa til, skoða og deila skýrslum með innri og ytri hagsmunaaðilum. | [Fjárhagsskýrslur](finance-reports.md) |
 | Greindu gögnin í Excel. | Gátun, úrræðaleit og tilfallandi greiningar í Microsoft Excel. | [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md) |
@@ -105,7 +105,7 @@ Höfuðstöðvar verða að geta brugðist skjótt við breytingum á rekstri á
 | **Fyrirtækjakröfur** | **Hvernig Business Central styður það** | **Frekari upplýsingar** |
 |-------------------------|-------------------------|-------------------------|
 | Búa sjálfkrafa til póstviðvaranir. | Setja upp viðvaranir í Power Automate sem mynda tölvupósta til að upplýsa þig um mikilvæg viðskiptaskilyrði á síðum eða samstarfsaðilum birgðakeðjunnar. | [Business Central og Power BI](admin-powerbi.md) |
-| Nota hefðbundnar eða sérsniðnar viðvaranir. | Nota 12 mismunandi sniðmát fyrir Business Central eða setja upp eigin viðvaranir sem henta fyrirtækinu. | [Nota Viðskiptamiðað í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md) |
+| Nota hefðbundnar eða sérsniðnar viðvaranir. | Nota 12 mismunandi sniðmát fyrir Business Central eða setja upp eigin viðvaranir sem henta fyrirtækinu. | [Nota Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun á Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  

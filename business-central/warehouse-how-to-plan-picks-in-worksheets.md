@@ -11,7 +11,7 @@ ms.date: 10/13/2021
 ms.author: edupont
 ms.openlocfilehash: 667aa2702d064e44b9b52dc167e2372f98d7944f
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9530406"
@@ -53,7 +53,7 @@ Hægt er að raða línum eftir vöru, hillunúmeri, upprunaskjali, gjalddaga e�
 8. Veldu hnappinn **Prenta** til þess að prenta tínsluleiðbeiningarnar.  
 9. Eftir að tínslu er lokið skal velja aðgerðina **Skrá**.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

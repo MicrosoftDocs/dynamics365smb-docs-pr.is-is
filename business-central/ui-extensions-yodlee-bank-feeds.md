@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 1e2c1b1b9030033ec35c79e478d0d5bd5246b3d6
 ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/29/2022
 ms.locfileid: "9361995"
@@ -40,7 +40,7 @@ Envestnet Yodlee Bank Feeds þjónustan veitir eftirfarandi ávinning:
 * Styður handvirka ásamt sjálfvirk bankastreymi.
 * Gerir mögulega útvistun greiðsluafstemmingar til endurskoðanda með því að veita aðgang að bankayfirlitum.
 
-## <a name="available-bank-feeds"></a>Tiltækir bankastraumar
+## <a name="available-bank-feeds"></a>Bankastreymi í boði
 
 Hægt er að skoða hvort banki sé studdur með því að setja upp og tengjast við Envestnet Yodlee Bank Feeds-þjónustuna. Bankinn mun birtast á listanum ef hann er studdur af Envestnet Yodlee.
 

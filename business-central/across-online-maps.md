@@ -1,6 +1,6 @@
 ---
-title: Notaðu online kort til að finna staðsetningar og áttir
-description: Lærðu að nota aðsetursgögn í Viðskiptamiðinu miðlægt til að fá netkort með leiðarstefnum.
+title: Nota kortaþjónustu til að finna staðsetningar og leiðsagnir
+description: Frekari upplýsingar um notkun aðsetursgagna í Business Central til að fá kortaþjónustu með leiðsögnum.
 author: rubenseishima
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,48 +9,48 @@ ms.date: 07/15/2022
 ms.author: a-reishima
 ms.openlocfilehash: b4ce0b91b3187f7daf9a0b77b29c41f1054d1d2c
 ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/09/2022
 ms.locfileid: "9461244"
 ---
-# <a name="use-online-maps-to-find-locations-and-directions"></a>Notaðu online kort til að finna staðsetningar og áttir
+# <a name="use-online-maps-to-find-locations-and-directions"></a>Nota kortaþjónustu til að finna staðsetningar og leiðsagnir
 
-Hægt er að fá kort hjá kortaþjónustunni sem sýnir heimilisfang og staðsetningu viðskiptamanns eða lánardrottins, eða mynda leiðaráttir til þeirra. **Hægt er að nálgast aðgerðina á netkortinu** á eftirfarandi kortum í [!INCLUDE[prod_short](includes/prod_short.md)]:
+Hægt er að sækja kort hjá kortaþjónustu sem sýnir aðsetur og staðsetningu viðskiptamanns eða lánardrottins eða búa til leiðsagnir til að komast þangað. Hægt er að nálgast eiginleikann **Kortaþjónusta** á eftirfarandi spjöldum í [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-* Staðsetningarspjald
+* Birgðageymsluspjald
 * Viðskiptamannaspjald
-* Lánardrottnaspjaldi
+* Lánardrottnaspjald
 * Forðaspjald
 * Vinnsluspjald
-* Spjald fyrir bankareikning
+* Bankareikningsspjald
 * Tengiliðaspjald
-* Starfsmannakort
+* Starfsmannaspjald
 * Sendist-til - Aðsetur
 
 > [!NOTE]
-> Ef enginn kóti er í **reitnum Lands-/svæðiskóti** mun netkortið ekki finna til leiðbeiningar.
+> Ef enginn kóði er í reitnum **Lands-/svæðiskóði** finnur netkortaþjónustan ekki stefnuna.
 
-## <a name="find-a-location-in-an-online-map"></a>Finndu staðsetningu í netkorti
+## <a name="find-a-location-in-an-online-map"></a>Finna staðsetningu í kortaþjónustu
 
-1. Opna eitt af þeim kortum sem fjallað er um hér að framan.
-2. **Veldu á netinu kortið** eða **Sýndu á kortaaðgerð**.
-3. **Velja skal þetta aðsetursvæði** og velja **síðan í lagi**.
-4. Hið skilgreinda netkort opnast með staðsetningu aðseturs sem skilgreint er á spjaldinu.
+1. Opnaðu eitt af spjöldunum sem sýnd eru hér að ofan.
+2. Veldu aðgerðina **Kortaþjónusta** eða **Sýna á korti**.
+3. Veldu reitinn **Þetta aðsetur** og veldu síðan **Í lagi**.
+4. Grunnstillta kortaþjónustan opnast með staðsetningu aðseturs sem skilgreint er í spjaldinu.
 
-## <a name="get-route-directions-from-your-location"></a>Sækja leiðarleiðbeiningar frá staðsetningu þinni
+## <a name="get-route-directions-from-your-location"></a>Fá leiðarlýsingu frá staðsetningu þinni
 
-1. Opna eitt af þeim kortum sem fjallað er um hér að framan.
-2. **Veldu á netinu kortið** eða **Sýndu á kortaaðgerð**.
-3. **Veldu stefnurnar úr reitnum Birgðageymsla** og veldu **síðan í lagi**.
-4. Hið skilgreinda netkort opnast með leiðarleiðbeiningum að þeim stað sem skilgreindur er á spjaldinu.
+1. Opnaðu eitt af spjöldunum sem sýnd eru hér að ofan.
+2. Veldu aðgerðina **Kortaþjónusta** eða **Sýna á korti**.
+3. Veldu reitinn **Leiðsagnir frá staðsetningu minni**, veldu svo **Í lagi**.
+4. Grunnstillta kortaþjónustan opnast með leiðarlýsingum á staðsetninguna sem skilgreind er í spjaldinu.
 
 > [!NOTE]
-> Netkortið opnast í sjálfgefnum vafra eða app, sem getur beðið um aðgang að gögnum staðsetningargagna tækisins.
+> Kortaþjónustan opnast í sjálfgefnum vafra eða forriti, sem getur beðið um aðgang að staðsetningargögnum tækisins.
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Setja upp online kort](across-online-maps-setup.md)  
+[Setja upp Online Map](across-online-maps-setup.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

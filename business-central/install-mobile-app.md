@@ -1,5 +1,5 @@
 ---
-title: Sækja viðskipti miðlægt í Fartækinu (inniheldur Video)
+title: Nota Business Central á fartækinu þínu (inniheldur myndskeið)
 description: Þetta efnisatriði lýsir ýmsum leiðum til að skoða og breyta Business Central-gögnum, senda í Excel og fleira í símanum þínum eða spjaldtölvu.
 author: jswymer
 ms.topic: get-started-article
@@ -11,14 +11,14 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ms.openlocfilehash: 075af1a6b1d02a68a84d504b7ffa8602b50b17f8
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534086"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Nota Business Central á fartækinu þínu
 
-Fá aðgang að gögnum [!INCLUDE[prod_short](includes/prod_short.md)] úr fartæki. Þú getur farið í gegnum viðskipagögn, notað aðgerðir eins og að senda í Excel eða Microsoft 365 skoðað dagkort og afkastavísa, sölutilboð í tölvupósti og reikninga og skotið og hengt myndir við myndavélina þína. Fylgið skrefunum hér að neðan til að sækja smáforritið og hefjist handa.
+Fá aðgang að gögnum [!INCLUDE[prod_short](includes/prod_short.md)] úr fartæki. Hægt er að skoða viðskiptagögn, nota eiginleika eins og senda í Excel eða Microsoft 365, skoða nýjustu myndrit og afkastavísa (KPI), sölutilboð og reikninga í tölvupósti, og taka myndir með eigin myndavél og tengja þær. Fylgið skrefunum hér að neðan til að sækja smáforritið og hefjist handa.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
@@ -40,7 +40,7 @@ Nú ætti notandi að hafa aðgang að [!INCLUDE[prod_short](includes/prod_short
 > [!TIP]
 > Ef ætlunin er að tengja forritið í sandkasssumhverfi skal velja hnappinn **Ítarlegir valkostir** og velja svo innskráningarvalkostinn **Sandkassi í skýi**. Ef þú ert með fleiri en eitt sandkassahverfi skaltu svo velja viðeigandi umhverfi.
 
-## <a name="use-business-central-on-premises"></a>Nota viðskipti miðsvæðis innanhúss?
+## <a name="use-business-central-on-premises"></a>Nota Business Central á staðnum?
 
 Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum getur þú einnig notað farsímaforritið. Uppsetningin er svipuð, en þó með fáeinum undantekningum.
 
@@ -58,13 +58,13 @@ Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum getur �
 > [!NOTE]
 > Ef þú átt í vandræðum með að fá forritið til að virka rétt skaltu tala við kerfisstjóra. Hugsanlega vantar frumskilyrði eða þá að stilling er ófullnægjandi. Frekari upplýsingar er að finna í [Undirbúningur umhverfis fyrir farsímaforrit](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) eða [Úrræðaleit Business Central farsímaforrits á staðnum](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Algengar spurningar um farsímaforrit](ui-mobile-faq.yml)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

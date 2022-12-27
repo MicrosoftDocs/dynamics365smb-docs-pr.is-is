@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir skýrslur
-description: Sjá hvaða skýrslur eru tiltækar á öllum hagsvæðum staðlaða útgáfunnar af Business Central svo hægt sé að halda utan um reksturinn.
+title: Skýrsluyfirlit
+description: Sjáðu hvaða skýrslur eru í boði á öllum virkum svæðum í staðlaðri útgáfu Business Central til að halda utan um reksturinn.
 author: KennieNP
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -8,76 +8,76 @@ ms.date: 02/02/2022
 ms.author: kepontop
 ms.openlocfilehash: 3e1c49636b0a41dfe3a4fd63d7dffae221f738da
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8143193"
 ---
-# <a name="report-overview"></a>Yfirlit yfir skýrslur
+# <a name="report-overview"></a>Skýrsluyfirlit
 
-[!INCLUDE [prod_short](includes/prod_short.md)]kemur með margar byggðskýrslur sem hægt er að nota út-hólinn til að styðja við reksturinn.  
+Margar innbyggðar skýrslur fylgja [!INCLUDE [prod_short](includes/prod_short.md)] sem hægt er að nota tilbúnar til að styðja við reksturinn.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## <a name="key-financial-reports"></a>Lykiltölur fjárhagsskýrslur
+## <a name="key-financial-reports"></a>Mikilvægustu fjárhagsskýrslurnar
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-Nánari upplýsingar má finna [í ársskýrslur og greinargerð í viðskipta-](finance-reports.md)
+Frekari upplýsingar er að finna í [Fjárhagsskýrslur og greiningar í Business Central](finance-reports.md)
 
 ## <a name="accounts-receivable-reports"></a>Skýrslur viðskiptavina
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
-Frekari upplýsingar er að finna [í viðskiptabönkum og hjá Greiningarfyrirtæki](receivables-reports.md)
+Frekari upplýsingar er að finna í [Skýrslur og greiningar viðskiptakrafna í Business Central](receivables-reports.md)
 
-## <a name="accounts-payable-reports"></a>Skýrslur lánardrottna
+## <a name="accounts-payable-reports"></a>Skýrslur í Viðskiptavinir
 
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
-Frekari upplýsingar er að finna [í viðskiptabönkum og hjá Greiningarfyrirtæki](payables-reports.md)
+Frekari upplýsingar er að finna í [Skýrslur og greiningar viðskiptaskulda í Business Central](payables-reports.md)
 
 ## <a name="sales-reports"></a>Söluskýrslur
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-Nánari upplýsingar er að finna [í söluskýrslum og Analytics í viðskiptum seðla-](sales-reports.md)
+Frekari upplýsingar er að finna í [Söluskýrslur og greiningar í Business Central](sales-reports.md)
 
 ## <a name="purchase-reports"></a>Innkaupaskýrslur
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-Nánari upplýsingar má finna [í innkaupaskýrslum og Analytics í Viðskiptamiðunum](purchase-reports.md)
+Frekari upplýsingar er að finna í [Innkaupaskýrslur og greiningar í Business Central](purchase-reports.md)
 
 ## <a name="inventory-and-warehouse-reports"></a>Skýrslur birgða og vöruhúss
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-Nánari upplýsingar má finna [í birgða-og Vöruhússkýrslum og Analytics í Viðskiptamiðunum](inventory-wms-reports.md)
+Frekari upplýsingar er að finna í [Birgða- og vöruhúsaskýrslur og Analytics í Business Central](inventory-wms-reports.md)
 
 ## <a name="project-reports"></a>Verkskýrslur
 
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-Nánari upplýsingar er að finna [í Verkskýrslum og Greinaskil í viðskiptafræði miðlægt](project-reports.md)
+Frekari upplýsingar er að finna í [Verkskýrslur og greiningar í Business Central](project-reports.md)
 
 ## <a name="fixed-assets-reports"></a>Skýrslur eigna
 
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
-Nánari upplýsingar má finna [í Eignaskýrslum og Greinaskil í Viðskiptamiðinu](fa-reports.md)
+Frekari upplýsingar er að finna í [Skýrslur og greiningar eigna í Business Central](fa-reports.md)
 
-## <a name="assembly-reports"></a>Skýrslur um samsetningar
+## <a name="assembly-reports"></a>Samsetningskýrslur
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-Frekari upplýsingar er að finna [í skýrslum um áhættustjórnun og Greinaskil í Viðskiptamiðinu](assembly-reports.md)
+Frekari upplýsingar er að finna í [Skýrslur samsetningarstjórnunar og greiningar í Business Central](assembly-reports.md)
 
 ## <a name="production-reports"></a>Framleiðsluskýrslur
 
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
-Nánari upplýsingar má finna [í Framleiðsluskýrslum og Analytics í Viðskiptamiðinu](production-reports.md)
+Frekari upplýsingar er að finna í [Framleiðsluskýrslur og greiningar í Business Central](production-reports.md)
 
 ## <a name="see-also"></a>Sjá einnig .
 

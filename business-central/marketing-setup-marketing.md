@@ -1,5 +1,5 @@
 ---
-title: Setja upp upplýsingar um markaðssetningu og Tengslastjórnun
+title: Setja upp upplýsingar um markaðssetningu og tengiliðastjórnun
 description: Hægt er að setja upp markaðssetningu og tengiliðastjórnun í Business Central til að hámarka ávinning sambanda við viðskiptamenn og viðföng, og bæta herferðir og kynningar.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: a91592818e5e486f58857da07d5d9dc0390d5fba
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8517922"
@@ -32,7 +32,7 @@ Vissar upplýsingar um tengiliðafyrirtæki eru þær sömu og um einstaklingste
 
 Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).
 
-## <a name="use-predefined-defaults-on-new-contacts"></a>Nota fyrirfram skilgreint sjálfgildi á nýjum tengiliðum
+## <a name="use-predefined-defaults-on-new-contacts"></a>Nota forskilgreinda sjálfgildi á nýju tengiliðina
 Hægt er að láta forritið tilgreina sjálfkrafa ákveðinn tungumálskóða, umsjónarsvæðiskóða, sölumannskóða og lands-/svæðiskóða sem sjálfgildi þegar nýir einstaklingstengiliðir eru stofnaðir. Einnig er hægt að færa inn sjálfgefinn söluferliskóta sem forritið úthlutar sjálfkrafa á hvert nýtt tækifæri sem stofnað er.
 
 Reitaerfðir skrifast yfir sjálfgildi sem sett hafa verið upp. Ef enska hefur til dæmis verið sett upp sem sjálfgefið tungumál en tungumál tengiliðafyrirtækisins er þýska, úthlutar forritið þýsku sjálfkrafa sem tungumálakóta einstaklingstengiliðanna sem skráðir eru fyrir það fyrirtæki.

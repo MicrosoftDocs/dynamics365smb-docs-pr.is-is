@@ -11,7 +11,7 @@ ms.date: 06/08/2021
 ms.author: edupont
 ms.openlocfilehash: 7ad41e67eb84149f2c17ea5d00fce0b6cd306f74
 ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/01/2022
 ms.locfileid: "8366162"
@@ -73,7 +73,7 @@ EXIT(DimSet.ID);
 
 ## <a name="see-also"></a>Sjá einnig
     
- [Upplýsingar um hönnun: Víddasamstæðufærslur](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
+ [Hönnunarupplýsingarn: Færslur víddarsamstæða](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
  [Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)   
  [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   
  

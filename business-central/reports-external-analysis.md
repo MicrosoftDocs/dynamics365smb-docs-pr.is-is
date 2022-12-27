@@ -1,6 +1,6 @@
 ---
-title: Greina gögn í Viðskiptagreindarverkfærum
-description: Veitir yfirlit yfir hvernig ytri verkfæri viðskiptagreindar geta haft samskipti við Business Central gögn.
+title: Greina gögn í verkfærum viðskiptagreindar
+description: Veitir yfirlit yfir hvernig ytri verkfæri viðskiptagreindar geta átt samskipti við gögn Business Central.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
@@ -11,25 +11,25 @@ ms.date: 02/03/2022
 ms.author: edupont
 ms.openlocfilehash: 498b0e43a6858d1729f0828c34f7917fe7a4ab9a
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8130203"
 ---
-# <a name="analyze-data-in-business-intelligence-tools"></a>Greina gögn í Viðskiptagreindarverkfærum
+# <a name="analyze-data-in-business-intelligence-tools"></a>Greina gögn í verkfærum viðskiptagreindar
 
-Ef þú kýst að nota viðskiptagreindartæki sem eru ekki felld inn í [!INCLUDE[prod_short](includes/prod_short.md)], veitir þessi síða leiðbeiningar um verkfæri og aðferðir til að ná þessu fram.
+Ef þú vilt frekar nota verkfæri viðskiptagreindar sem eru ekki felld inn í [!INCLUDE[prod_short](includes/prod_short.md)] bauð þessi síða upp á leiðsögn í verkfærum og aðferðum til að ná þessu.
 
-| Til að | Sjá |
+| Til | Sjá |
 | --- | --- |
-|Greina gögn með eigin Power BI auðlind| [Notkun Power BI með Viðskiptaseðla-](admin-powerbi.md) |
-|Greina fjárhagsskýrslur með Excel| [Greina fjárhagsyfirlit með Excel](finance-analyze-excel.md) |
-|Dragðu út gögn í gagnavöruhús eða gagnavatn. |[Útdráttur gagna í vöruhús gagna eða gögn vatna](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
-|Lesa Business Central gögn með API.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)|
+|Greina gögn með eigin Power BI forða| [Notkun Power BI með Business Central](admin-powerbi.md) |
+|Greina fjárhagsskýrslur með Excel| [Greina fjárhagsskýrslur með Excel](finance-analyze-excel.md) |
+|Dragðu út gögn í gagnaver eða gagnalind. |[Draga út gögn í gagnageymslur eða gagnalindir](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
+|Lestu gögn Business Central með API.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)|
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Viðskiptagreind og skýrslugerð Yfirlit](reports-use-reports.md)
+[Viðskiptagreind og skýrsluyfirlit](reports-use-reports.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

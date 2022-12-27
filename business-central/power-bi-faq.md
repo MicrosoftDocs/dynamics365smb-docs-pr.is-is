@@ -11,7 +11,7 @@ ms.date: 04/22/2021
 ms.author: jswymer
 ms.openlocfilehash: 487e93faa458f34c10b6928b862a3abecacc2759
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9531405"
@@ -125,7 +125,7 @@ Hér eru aðrar síður sem innihalda stærri, ósíaða **Power BI skýrsluhlut
 <!-- 5 -->
 ### <a name="is-there-any-way-to-filter-a-dataset-from-business-central-before-i-pull-it-into-power-bi-instead-of-applying-filters-afterwards"></a>Er einhver leið til að sía gagnasafn frá Business Central *áður* en ég dreg það inn í Power BI, í stað þess að nota síur á eftir?
 
-Til að sía stærri gagnasöfn er auðveldasta leiðin að setja afmörkun á Power BI skýrsluna með því að breyta Power Query formúlunni. Flestar þær síur sem eru stilltar á þennan hátt verða færðar yfir á Business Central í gegnum födlun fyrirspurna. Sjá [Regluleg uppfærsla fyrir gagnamengi](/power-bi/admin/service-premium-incremental-refresh).
+Til að sía stærri gagnasöfn er auðveldast að setja síu á Power BI skýrsluna með því að breyta Power Query formúlunni. Flestar þær síur sem eru stilltar á þennan hátt verða færðar yfir á Business Central í gegnum födlun fyrirspurna. Sjá [Regluleg uppfærsla fyrir gagnamengi](/power-bi/admin/service-premium-incremental-refresh).
 
 Ekki hægt að setja upp síu fyrir vefþjónustugögnin innan Business Central eins og er. Ef forritið þarf að setja upp síu innan Business Central þarf að stofna sérsniðið Business Central forrit í þeim tilgangi.
 
@@ -139,25 +139,25 @@ Fj. Ekki núna.
 
 Þegar kemur að vefþjónustu eru birtar fyrirspurnir yfirleitt hraðari en samsvarandi birtar síður. Ástæðan er sú að fyrirspurnir eru sérstilltar til að lesa gögn og innihalda ekki kveikjur á borð við OnAfterGetRecord.
 
-Vefþjónustur byggja á síðum eða fyrirspurnum sem eru byggðar fyrir aðgang af vefnum og yfirleitt ekki bestuð fyrir aðgangi frá utanaðkomandi þjónustu. Jafnvel þó að Business miðlæg tengibygging styðji enn við að sækja gögn af vefþjónustu hvetjum við þig til að nota API-síður í stað vefþjónustu hvenær sem mögulegt er.
+Vefþjónustur eru byggðar á síðum eða fyrirspurnum sem búnar eru til fyrir aðgang á vefnum og yfirleitt ekki fínstilltar fyrir aðgang í gegnum ytri þjónustur. Jafnvel þótt Business Central-tengill styðji enn að fá gögn frá vefþjónustum hvetjum við þig til að nota API-síður í stað vefþjónustu þegar það er hægt.
 
 <!-- 13 --> 
 ### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Getur endanotandi búið til vefþjónustu með dálki sem er í töflu Business Central en ekki síðu? Eða þarf þróunaraðilinn að stofna sérsniðna fyrirspurn? 
 
-Það er nú engin leið að bæta nýju sviði við vefþjónustu. API síður bjóða upp á fullan sveigjanleika á síðuskipan, þannig að forritari getur útbúið nýja API síðu til að mæta þessari þörf. 
+Sem stendur er ekki til nein leið til að bæta nýjum reit við vefþjónustuna. API-síður bjóða upp á fullan sveigjanleika á skipulagi síðunnar þannig að þróunaraðili getur búið til nýja API-síðu til að uppfylla þessa kröfu. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Get ég tengt Power BI við skrifvarinn gagnagrunnsþjón Business Central Online? 
 
-Þessi virkni verður til boða fljótlega. Sem hefst í febrúar 2022, nýjar skýrslur sem eru stofnaðar á grundvelli viðskipta miðlægt á netinu verður reynt sjálfvirkt að tengjast lestri gagnasafnsgagna. Þetta veldur því að skýrslur þínar endurnýjast hraðar, og munu hafa minni áhrif á sýningar ef þú ert að nota miðborg á meðan skýrsla er endurnýjuð. Við mælum samt, hvenær sem mögulegt er, að þú tímaaðir skýrslurnar þínar til endurnýjunar utan venjulegs vinnutíma.
+Boðið verður upp á þessa virkni bráðlega. Frá og með febrúar 2022 munu nýjar skýrslur sem þú býrð til og byggja á gögnum Business Central Online reyna að tengjast eftirmynd af skrifvörðum gagnagrunni. Þetta verður til þess að skýrslurnar uppfærast hraðar og munu hafa minni áhrif á afköst ef Business Central er notað á meðan skýrsla er að uppfærast. Við mælum samt með því að tímasetja skýrslurnar á að uppfærast utan venjulegs vinnutíma þegar það er hægt.
 
-Ef þú ert með gamlar skýrslur byggðar á aðalgögnum viðskipta verða þær ekki í sambandi við gagnasafnið lesa.
+Ef þú ert með gamlar skýrslur sem byggja á gögnum Business Central tengjast þær ekki eftirmynd af skrifvörðum gagnagrunni.
 
-### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it"></a><a name="databasemods"></a> Ég hef reynt að forskoða nýja tengivirkið um febrúar 2022 uppfærslu. Þegar ég tengi við síðuna sérsniðin viðskipti mín, þá fæ ég villuna "getur ekki sett inn færslu. Núverandi tengingarásetningur er skrifvarin. ". Hvernig get ég lagað það?
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it"></a><a name="databasemods"></a>Ég hef prófað prufuútgáfuna af nýja tenglinum fyrir uppfærsluna í febrúar 2022. Þegar ég tengist sérstilltri API-síðu Business Central fæ ég villuna „Get ekki sett inn færsluna. Núverandi fyrirætlan tengingar er ritvarin.“. Hvernig get ég lagað þetta?
 
-Með nýju Tengivirki verða nýjar skýrslur sem nota aðalgögn fyrirtækja tengjast lestri aðeins eftirmynd af aðalgagnagrunni viðskiptamiðsins. Þessi breyting mun koma árangurstengingu batnað. Í einstaka tilfellum gæti það þó valdið villunni. Þessi villa kemur vanalega til vegna þess að sérsniðið API er að gera breytingar á miðlægum færslum fyrirtækja þegar Power BI reynt er að fá gögnin. Einkum gerist það sem hluti af AL-kveikjum: Onopen, OnOpenPage, Onfindmet, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord.
+Með nýja tenglinum munu nýjar skýrslur sem nota Business Central-gögn sjálfgefið tengjast ritvarinni eftirmynd af gagnagrunni Business Central. Þessi breyting hefur í för með sér bætt afköst. Í sjaldgæfum tilfellum getur hún hins vegar leitt til villu. Þessi villa kemur yfirleitt upp vegna þess að sérstillt API er að gera breytingar á færslum Business Central á meðan Power BI reynir að sækja gögnin. Það gerist helst sem hluti af AL-kveikjum: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord.
 
-Til að laga þetta mál með því að þvinga rekstraraðila Central Connector til að leyfa þessa hegðun, sjá [byggingarskýrslur Power BI til að birta aðalgögn um vandamál í viðskiptum](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+Til að leysa úr þessu vandamáli með því að þvinga Business Central-tengilinn til að leyfa þessa hegðun skal skoða [Að búa til Power BI skýrslur til að sýna gögn Business Central - Lagfæring vandamála](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
 <!--
 In general, we recommend avoiding any database modifications in API pages when they're opening or loading records, because they cause performance issues and might cause your report refresh to fail. In some cases, you might still need to make a database modification when your custom API page opens or loads records. You can force the Business Central connector to allow this behavior. Do the following steps when getting data from Business Central for the report in Power BI Desktop:
@@ -243,24 +243,24 @@ Já. Þessar ítarlegu aðstæður hjálpa við að viðhalda góðum árangri B
 
 Við erum að skoða þennan eiginleika. Power BI býður upp á ítarleg API til að stjórna skýrsluútfærslum. Frekari upplýsingar eru í [Kynning á innleiðingasölukeðjum](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values"></a>Þegar ég fæ gögn frá Viðskiptamiðl til að nota í skýrslunum mínum Power BI þá sé ég nokkur gildi eins og " _x0020_ ". Hvað eru þessi gildi?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values"></a>Þegar ég fæ gögn frá Business Central til að nota í Power BI skýrslunum mínum sé ég nokkur gildi eins og „_x0020_“. Hvað eru þessi gildi?
 
-Sumar API-síður, þar á meðal flest API v 2.0, eiga að vera með svæði sem byggja á [Al enum-hlutum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Svæði sem byggjast á AL upptalningarhlutum verða að hafa nöfn sem eru samræmd og alltaf þau sömu, þannig að síur í skýrslunni virka &mdash; ekki alveg sama tungumálið eða stýrikerfið sem þú ert að nota. Af þessum sökum eru reitirnir á grundvelli Al upptøku ekki þýddir og eru dulkóðaðar til að forðast neinn sérstakan staf, þar á meðal rýmið. Þegar tómur valkostur er í AL fasttextahlutnum er hann kóðaður í „_x0020_“. Alltaf er hægt að umbreyta gögnum á Power BI ef sýna á mismunandi gildi fyrir þessa reiti, til dæmis „Tómt“.
+Sumar API-síður, þar á meðal flestar API v2.0 síður, eru með reiti sem byggja á [AL-fasttextahlutum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Reitir byggðir á AL fasttextahlutum verða að hafa nöfn sem eru samræmd og alltaf eins svo að síur á skýrslunni virka alltaf&mdash;óháð tungumálinu eða stýrikerfinu sem er notað. Þess vegna eru reitirnir sem byggjast á AL fasttexta ekki þýddir og eru kóðaðir til að koma í veg fyrir sérstafi, þ.m.t. bilið. Þegar tómur valkostur er í AL fasttextahlutnum er hann kóðaður í „_x0020_“. Alltaf er hægt að umbreyta gögnum á Power BI ef sýna á mismunandi gildi fyrir þessa reiti, til dæmis „Tómt“.
 
 
 ---
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Power BI Leyfi](admin-powerbi-setup.md#license)  
-[Rekstur miðsvæðis og Power BI Kynning](admin-powerbi.md)  
+[Power BI Leyfisveiting](admin-powerbi-setup.md#license)  
+[Business Central og Power BI kynning](admin-powerbi.md)  
 [Power BI Yfirlit yfir samþættingu](admin-powerbi-overview.md)  
 [Virkja Power BI í Business Central](admin-powerbi-setup.md)  
-[Vinnu við Power BI skýrslur í starfsemi seðla-](across-working-with-powerbi.md)  
-[Vinna við aðalgögn fyrirtækja í Power BI](across-working-with-business-central-in-powerbi.md)  
-[Byggingarskýrslur Power BI til birtingar aðalgögn fyrirtækja](across-how-use-financials-data-source-powerbi.md)  
+[Vinna með Power BI skýrslur í Business Central](across-working-with-powerbi.md)  
+[Vinna með Business Central Data í Power BI](across-working-with-business-central-in-powerbi.md)  
+[Búa til Power BI skýrslur til að sýna gögn frá Business Central](across-how-use-financials-data-source-powerbi.md)  
 [Power BI fylgiskjöl](/power-bi/)  
 
 

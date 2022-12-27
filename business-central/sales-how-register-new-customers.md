@@ -1,6 +1,6 @@
 ---
-title: Skrá nýja viðskiptamenn með því að stofna viðskiptamannaspjald (inniheldur Video)
-description: Lýsir því hvernig á að stofna viðskiptamannaspjald til að skrá upplýsingar um hvern nýjan viðskiptavin eða biðlara sem selt er.
+title: Skrá nýja viðskiptamenn með því að stofna viðskiptamannaspjald (inniheldur myndskeið)
+description: Lýsir því hvernig skal stofna viðskiptamannaspjald til að skrá upplýsingar um alla nýja viðskiptamenn eða viðskiptavin sem selt er til.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -12,93 +12,93 @@ ms.date: 09/01/2022
 ms.author: edupont
 ms.openlocfilehash: 22fed660ba176bbce8375d03a7c6a5bf9e20b01b
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533800"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 
-Viðskiptavinir eru uppspretta tekna þinna. Þú verður að skrá þig hver viðskiptavinur sem þú selur sem viðskiptavinakort. Viðskiptamannaspjöld innihalda þær upplýsingar sem þarf til að selja vörur til viðskiptavinarins. Lærðu meira við [Reikningsölu](sales-how-invoice-sales.md) og [skráðu nýjar vörur](inventory-how-register-new-items.md).  
+Viðskiptamenn eru tekjuleiðin þín. Þú verður að skrá þig hver viðskiptavinur sem þú selur sem viðskiptavinakort. Viðskiptamannaspjöld innihalda upplýsingarnar sem þarf til að selja viðskiptamanninum vörur. Frekari upplýsingar er að finna í [Reikningsfæra sölur](sales-how-invoice-sales.md) og [Skrá nýjar vörur](inventory-how-register-new-items.md).  
 
-Áður en hægt er að skrá nýja viðskiptamenn þarf að setja upp ýmsa sölukóta til að velja úr þegar viðskiptamannaspjöld eru fyllt út. Frekari upplýsingar um [uppsetningu sölust](sales-setup-sales.md).
+Áður en hægt er að skrá nýja viðskiptamenn þarf að setja upp ýmsar sölukóða sem hægt er að velja úr þegar viðskiptamannaspjöldin eru fyllt út. Frekari upplýsingar má finna á [Uppsetning sölu](sales-setup-sales.md).
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Bæta við nýjum viðskiptavinum
 
-Hægt er að bæta nýjum viðskiptavinum handvirkt með því að fylla út **síðu viðskiptamannaspjald** eða nota sniðmát sem hefur að geyma forskilgreindar upplýsingar. Til dæmis er hægt að stofna sniðmát fyrir mismunandi gerðir af forstillingum viðskiptavina. Notkun sniðmáta sparar tíma við að bæta við nýjum viðskiptavinum og hjálpar til við að tryggja að upplýsingarnar séu réttar í hvert sinn. 
+Hægt er að bæta við nýjum viðskiptamanni handvirkt með því að fylla út síðuna **Viðskiptamannaspjald** eða hægt er að nota sniðmát sem innihalda fyrirframskilgreindar upplýsingar. Til dæmis er hægt að búa til sniðmát fyrir mismunandi forstillingargerðir viðskiptamanna. Með því að nota sniðmát sparast tími þegar nýjum viðskiptamönnum er bætt við og það hjálpar til við að tryggja að upplýsingarnar séu réttar hverju sinni. 
 
-Ef þú stofnar:
-* Mörg sniðmát til að nota með fleiri en einni gerð af viðskiptavini er hægt að velja viðeigandi sniðmát þegar viðskiptamanni er bætt við.
-* Aðeins eitt sniðmát er notað fyrir alla nýja viðskiptamenn. 
+Ef þú býrð til:
+* Mörg sniðmát til að nota með fleiri en einni tegund viðskiptamanns, þú getur valið hentugt sniðmát þegar þú bætir við sniðmáti.
+* Aðeins eitt sniðmát, það er notað fyrir alla nýja viðskiptavini. 
 
-Þegar sniðmát er stofnað geturðu notað aðgerðina **Nota sniðmát** til að nota það í einum eða fleiri viðskiptamönnum. Ef stofna á sniðmát skal fylla út upplýsingarnar sem á að endurnýta á **Viðskiptamannakortssíðunni** og vista það síðan sem sniðmát. Frekari upplýsingar eru [í til að vista viðskiptamannaspjaldið sem sniðmátshluta](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template).
+Þegar sniðmát er stofnað geturðu notað aðgerðina **Nota sniðmát** til að nota það í einum eða fleiri viðskiptamönnum. Til að búa til sniðmát skaltu fylla inn upplýsingarnar sem á að nota aftur á síðunni **Viðskiptamannaspjald**, síðan vista hana sem sniðmát. Frekari upplýsingar eru í hlutanum [Til að vista viðskiptamannaspjaldið sem sniðmát](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template).
 
 > [!TIP]
-> Það getur reynst gagnlegt að sérsníða síðuna **Sniðmát viðskiptamanns** þegar þú stofnar sniðmát. Þú gætir til dæmis viljað bæta reitnum **Lánamark** við sniðmátið. Frekari upplýsingar eru [í hlutanum sérsníða vinnusvæði](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Það getur reynst gagnlegt að sérsníða síðuna **Sniðmát viðskiptamanns** þegar þú stofnar sniðmát. Þú gætir til dæmis viljað bæta reitnum **Lánamark** við sniðmátið. Frekari upplýsingar er að finna í hlutanum [Sérsníða vinnusvæðið](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-Þú getur einnig stofnað viðskiptamann út frá tengilið. Frekari upplýsingar eru [í til að stofna viðskiptavin, lánardrottinn, starfsmann eða bankareikning í Tengiliðahluta](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+Þú getur einnig stofnað viðskiptamann út frá tengilið. Frekari upplýsingar eru í hlutanum [Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Að stofna nýtt viðskiptamannaspjald
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
-**Verðin & afslættir** Action eru Valkostir til að stjórna sérstöku verði eða afslætti fyrir viðskiptavin þegar pöntun uppfyllir ákveðin skilyrði. Dæmi um slík skilyrði gætu verið þegar þau eru að kaupa ákveðna vöru, panta lágmarksmagn eða kaupa fyrir dagsetningu eins og þegar herferð lýkur. Frekari upplýsingar hjá [Skráning söluverð, afsláttur og Greiðslusamningar](sales-how-record-sales-price-discount-payment-agreements.md).
+Með aðgerðinni **Verð og afsláttur** er hægt að hafa umsjón með sérverði eða afslætti fyrir viðskiptamann þegar pöntun uppfyllir ákveðin skilyrði. Dæmi um slíkt skilyrði gæti verið þegar viðkomandi kaupir ákveðna vöru, pantar lágmarksmagn eða kaupir fyrir dagsetningu, til dæmis þegar söluherferð lýkur. Frekari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Viðskiptamaðurinn hefur nú verið skráður og viðskiptamannaspjaldið má nú nota í söluskjölum.  
 
 ### <a name="to-save-the-customer-card-as-a-template"></a>Til að vista viðskiptamannaspjaldið sem sniðmát
 
-Hægt er að nota viðskiptamannaspjald sem sniðmát þegar ný viðskiptamannaspjöld eru stofnuð.
+Þú getur notað viðskiptamannaspjald sem sniðmát þegar ný viðskiptamannaspjöld eru búin til.
 
 1. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Vista sem sniðmát**. Síðan **Viðskiptamannasniðmát** opnast og sýnir viðskiptamannaspjaldið sem sniðmát.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Til að endurnota víddir í sniðmátum, veljið aðgerðina **Víddir**. **Síðan Víddarsniðmát** opnast sem sýnir hvaða víddarkótar eru settir upp fyrir viðskiptavininn.
-4. Breyta eða færa inn víddarkóta sem eiga við um ný viðskiptamannaspjöld sem búin eru til með þessu sniðmáti.  
-5. Þegar nýju viðskiptavinarsniðmátinu hefur verið lokið er valið **í lagi**.
+3. Til að endurnota víddir í sniðmátum, veljið aðgerðina **Víddir**. Síðan **Víddarsniðmát** opnast og sýnir alla víddarkóða sem settir eru upp fyrir viðskiptamanninn.
+4. Breyttu eða færðu inn víddarkóða sem þú vilt nota fyrir ný viðskiptamannaspjöld sem stofnuð eru með þessu sniðmáti.  
+5. Þegar lokið hefur verið við nýja viðskiptamannasniðmátið skal velja **Í lagi**.
 
-Viðskiptamannssniðmátinu er bætt við lista yfir viðskiptamannssniðmát og hægt er að nota það til að stofna ný viðskiptamannaspjöld.
+Viðskiptamannasniðmátinu verður bætt við lista viðskiptamannasniðmáta og hægt er að nota það til að búa til ný viðskiptamannaspjöld.
 
 ## <a name="deleting-customer-cards"></a>Eyðir viðskiptavinaspjöldum
 
-Ef færsla viðskiptamanns hefur verið bókuð er ekki hægt að eyða viðskiptamannaspjaldinu þar sem þörf kann að verða á fjárhagsfærslunum. Til að eyða viðskiptamannaspjöldum með fjárhagsfærslum skal hafa samband við samstarfsaðila Microsoft til að gera það með kóða.  
+Ef þú hefur bókað færslu fyrir viðskiptamann er ekki hægt að eyða viðskiptamannaspjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar í endurskoðun. Til að eyða viðskiptamannaspjöldum með fjárhagsfærslum skal hafa samband við samstarfsaðila Microsoft til að gera það með kóða.  
 
 ## <a name="managing-credit-limits"></a>Stjórna lánamörkum
 
-Lánamörk, stöður og greiðsluskilmálar gera [!INCLUDE [prod_short](includes/prod_short.md)] kleift að gefa út viðvörun um lánamark og gjaldfallna stöðu þegar sölupöntun er slegin inn. Enn fremur er hægt að reikningsfæra orð og vaxtahugtak innheimtubréfs og til greiðslu vaxta og/eða aukagjalds.  
+Lánamörk, stöður og greiðsluskilmálar gera [!INCLUDE [prod_short](includes/prod_short.md)] kleift að gefa út viðvörun um lánamark og gjaldfallna stöðu þegar sölupöntun er slegin inn. Ennfremur gera einingar innheimtuskilmála og vaxtaskilmála þér kleift að reikningsfæra vexti og/eða aukagjöld.  
 
-Í **reitnum lánamark** á viðskiptamannaspjaldi er tilgreint Hámarksupphæð sem viðskiptamaður leyfir að fari fram úr greiðslujöfnuði áður en viðvaranir eru sendar. Síðan þegar færðar eru inn upplýsingar í færslubækur, tilboð, pantanir og reikninga mun [!INCLUDE [prod_short](includes/prod_short.md)] prófa söluhausana og stakar sölulínur til að sjá hvort farið hafi verið yfir lánamarkið.
+Reiturinn **Lánamark** á viðskiptamannaspjaldinu tilgreinir hámarksupphæð sem viðskiptamaðurinn má fara umfram greiðslustöðuna áður en viðvörun er gefin út. Síðan þegar færðar eru inn upplýsingar í færslubækur, tilboð, pantanir og reikninga mun [!INCLUDE [prod_short](includes/prod_short.md)] prófa söluhausana og stakar sölulínur til að sjá hvort farið hafi verið yfir lánamarkið.
 
-Hægt er að bóka þó að farið hafi verið yfir lánamark. Ef reiturinn er hafður auður eru engin mörk á hámarksskuld viðkomandi viðskiptamanns.  
+Hægt er að bóka þótt farið hafi verið yfir lánamarkið. Ef reiturinn er hafður auður eru engin mörk á hámarksskuld viðkomandi viðskiptamanns.  
 
-Hægt er að velja um að láta viðvaranir ekki segja að farið hafi verið yfir lánamark viðskiptamanns og hægt er að tilgreina hvaða gerðir viðvörunar á að skoða.
+Hægt er að velja að fá ekki viðvaranir sem segja að farið hafi verið yfir lánamark viðskiptamanns og hægt er að tilgreina hvers konar viðvaranir þú vilt sjá.
 
 ### <a name="to-specify-credit-limit-warnings"></a>Viðvaranir lánamarks tilgreindar
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **& uppsetningu** sölu og velja síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi**, velja svo viðeigandi tengil.
 
 2. Í flýtiflipanum **Almennt**, í reitnum **Viðvaranir lánamarks**, skal velja viðeigandi valkost eins og lýst er í eftirfarandi töflu:
 
     |Valkostur| Description|
     |------|------------|
-    |**Báðar aðvaranir**| Bæði **lánamark** og **gjaldfallin** svæði á spjaldi viðskiptamanns eru athuguð og viðvörun sýnd Ef viðskiptamaðurinn fer yfir lánamark sitt eða hefur Vanskil.|
+    |**Báðar aðvaranir**| Báðir reitirnir **Lánamark** og **Gjaldfallin staða** á spjaldi viðskiptamannsins eru athugaðir og aðvörun er send ef viðskiptamaður fer yfir lánamarkið eða er með gjaldfallna stöðu.|
     |**Hámarksskuld**|Gildið í reitnum **Lánamark** á spjaldi viðskiptavinar er borið saman við innistæðu hans, og viðvörun birtist ef innistæðan er yfir þessari upphæð.|
     |**Upphæð vanskila**|Svæðið **Gjaldfallin staða** í spjaldi viðskiptamanns er athugað og viðvörun birtist ef staða viðskiptamanns er gjaldfallin.|
-    |**Engin aðvörun**|Engar kreditviðvaranir eru sýndar varðandi stöðu viðskiptavinarins.|
+    |**Engin aðvörun**|Engar lánaviðvaranir eru sýndar varðandi stöðu viðskiptamanns.|
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Skilgreina Greiðsluhætti](finance-payment-methods.md)  
 [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)  
 [Stofnun númeraraða](ui-create-number-series.md)  
-[Gera hlutaafhendingar virka með Sendingarráðgjöf](sales-how-send-partial-shipments.md)  
+[Virkja hlutaafhendingu með sendingarráðleggingum](sales-how-send-partial-shipments.md)  
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
-[Notaðu online kort til að finna staðsetningar og áttir](across-online-maps.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Nota kortaþjónustu til að finna staðsetningar og leiðsagnir](across-online-maps.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

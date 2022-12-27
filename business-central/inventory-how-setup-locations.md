@@ -1,6 +1,6 @@
 ---
-title: Setja upp Staðsetningarspjald og skilgreina flutningsleiðir (inniheldur myndskeið)
-description: Ef þú kaupir, geymir eða selur vörur á fleiri en einum stað getur þú stillt upp hverjum stað fyrir sig sem stað.
+title: Uppsetning staðsetningarspjalds og skilgreining flutningsleiða (inniheldur myndskeið)
+description: Ef þú kaupir, geymir eða selur hluti á fleiri en einum stað getur þú sett hvern stað upp sem staðsetningu.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -12,14 +12,14 @@ ms.date: 07/05/2022
 ms.author: bholtorf
 ms.openlocfilehash: 882c7c0506439aba55d5b1c2d0cc23bd79db9d6e
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605807"
 ---
 # <a name="set-up-locations"></a>Uppsetning birgðageymsla
 
-Staðsetningar eru staðir eins og vöruhús þar sem notandi kaupir, geymir eða selur vörur. [!INCLUDE [prod_short](includes/prod_short.md)] notar Staðsetningar til að halda utan um birgðir í bæði einföldum og flóknum vöruhúsaferlum.
+Staðsetningar eru staðir eins og vöruhús þar sem vörur eru keyptar, geymdar eða seldar. [!INCLUDE [prod_short](includes/prod_short.md)] notar staðsetningar til að hjálpa til við að fylgjast með birgðum í bæði einföldum og flóknum vöruhúsaferlum.
 
 Síðan er hægt að búa til skjalalínur fyrir tilgreinda staðsetningu, skoða tiltækileika eftir staðsetningu og flytja birgðir milli staða. Frekari upplýsingar eru í [Stjórna birgðum](inventory-manage-inventory.md).
 <br><br>  
@@ -28,15 +28,15 @@ Síðan er hægt að búa til skjalalínur fyrir tilgreinda staðsetningu, skoð
 
 ## <a name="location-cards"></a>Staðsetningarspjöld
 
-Upplýsingar um birgðageymslu, eins og vöruhús eða dreifingarmiðstöð, eru á **síðunni Birgðageymsluspjald**. Hver geymsla fær heiti og kóða. Hægt er að færa birgðageymslukóðann inn annars staðar í forritinu þegar skrá þarf færslur vegna tiltekinnar birgðageymslu.  
+Upplýsingar um staðsetningu eins og vöruhús eða dreifingarmiðstöð eru tilgreindar á síðunni **Birgðageymsluspjald**. Hver geymsla fær heiti og kóða. Hægt er að færa birgðageymslukóðann inn annars staðar í forritinu þegar skrá þarf færslur vegna tiltekinnar birgðageymslu.  
 
-Hægt er að færa inn upplýsingar um hólf og um skipan vöruhússins fyrir hverja staðsetningu. Á eftir vöruhúsaefnunum er hægt að nota valkostina á **flipanum hólf** til að tilgreina hólfin sem á að nota sjálfgefið fyrir færslur. Ef notaður er beinn frágangur og tínsla eru Valkostirnir á **hólfsvaranum** festing sem skilgreinir hvernig nota á ítarlegar vöruhúsaaðgerðir.  
+Hægt er að færa inn upplýsingar um hólf og um skipan vöruhússins fyrir hverja staðsetningu. Það fer eftir vöruhúsareglunum þínum, en hægt er að nota valkostina í flýtiflipanum **Hólf** til að tilgreina hólfin sem á að nota sjálfgefið fyrir færslur. Ef notaður er beinn frágangur og tínsla gera valkostirnir í flýtiflipanum **Hólfareglur** þér kleift að nota ítarlega eiginleika vöruhúsavinnu.  
 
-Sumir valreitir fara eftir stillingum á **síðunni Birgðageymsluspjald** til að takmarka óstuddar uppsetningarsamsetningar.  
+Sumir valreitir eru háðir stillingum á síðunni **Birgðageymsluspjald** til að takmarka óstuddar samsetningar uppsetningar.  
 
-**Veldu svæðin** eða **bingóaðgerðir** til að skoða upplýsingar um svæði og hólf sem eru skilgreind fyrir birgðageymsluna.
+Veldu **Svæði** eða **Hólf** aðgerðirnar til að skoða upplýsingar um svæði og hólf sem gætu verið skilgreint fyrir birgðageymsluna.
 
-### <a name="to-set-up-a-location"></a>Staðsetning sett upp
+### <a name="to-set-up-a-location"></a>Uppsetning birgðageymslna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
@@ -44,11 +44,11 @@ Sumir valreitir fara eftir stillingum á **síðunni Birgðageymsluspjald** til 
 4. Endurtakið skref 2 og 3 fyrir hverja staðsetningu þar sem á að halda utan um birgðir.
 
 > [!NOTE]  
-> Margir reitir á birgðageymsluspjaldinu tengjast meðhöndlun vara í ferlum á innleið og útleið í vöruhúsi. Þessi svæði eiga ekki við fyrirtæki sem krefjast ekki flókinnar vöruhúsaaðgerða. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).
+> Margir reitir á síðu birgðageymsluspjalsins vísa til meðhöndlunar vara í vöruhúsaferli á inn- og útleið. Þessir reitir skipta ekki máli fyrir fyrirtæki sem þurfa ekki flókna vöruhúsavirkni. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
-Hægt er að breyta skilgreiningunni á birgðageymslu svo framarlega sem hún er ekki með birgðafærslum.  
+Hægt er að breyta grunnstillingu staðsetningar svo lengi sem hún er ekki með birgðabókafærslur.  
 
-Ef þú ert með marga staði getur þú skilgreint flutningsleiðir á milli birgðageymslna. Frekari upplýsingar er að finna [í til að stofna flutningsleið](inventory-how-setup-locations.md#to-create-a-transfer-route).
+Hægt er að skilgreina flutningsleiðir milli staða ef margir staðir eru til staðar. Nánari upplýsingar eru í [Flutningsleið búin til](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### <a name="to-create-a-transfer-route"></a>Flutningsleið búin til
 
@@ -60,22 +60,22 @@ Nú er hægt að flytja birgðavörur milli tveggja staða. Nánari upplýsingar
 
 ## <a name="bins"></a>Hólf
 
-Hólar standa fyrir grunnvöruhúsauppbyggingu og geta stungið upp á hvar setja á vörur. Hólfin geta innihaldið innihald eða verið fljótandi hólf án tiltekins innihalds. 
+Hólf tákna grunnskipulag vöruhúss og geta gefið til kynna hvar eigi að setja vörur. Hólfin geta verið með efni eða verið fljótandi hólf án tiltekins efnis. 
 
-Ef nota á hólfaðgerðina í birgðageymslu er á **síðunni** Birgðageymsluspjald **á fastflipanum vöruhús** og kveikt á **hólfinu skylda**. Hægt er að hanna vöruflæði á staðnum með því að tilgreina hólfakóta í svæðunum fyrir ferli vöruhússins á **festiflipum hólfa** og **hólfs**.
+Til að nota hólfavirknina á staðsetningu, á síðunni **Birgðageymsluspjald**, í flýtiflipanum **Vöruhús**, skal kveikja á **Hólf áskilið**. Þú getur hannað vöruflæðið á staðsetningunni með því að tilgreina hólfakóða í reitnum fyrir vöruhúsaferlin í flýtiflipunum **Hólf** og **Hólfareglur**.
 
 > [!NOTE]
-> Áður en hægt er að tilgreina hólfakóta á staðsetningu verður að stofna hólfakóta. Nánari upplýsingar er að finna í [Setja upp hólf](warehouse-how-to-create-individual-bins.md) og [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).  
+> Áður en hægt er að tilgreina hólfakóða á staðsetningu þarf að búa til hólfakóða. Nánari upplýsingar er að finna í [Setja upp hólf](warehouse-how-to-create-individual-bins.md) og [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="zones"></a>Svæði
 
-Ef stofna á hólfin á svæðum má gera það á síðunni **Svæði**. Þegar hólfum er úthlutað á hólf [!INCLUDE [prod_short](includes/prod_short.md)] afritast upplýsingar úr svæðinu yfir í hólfin. Einnig er hægt að velja að setja upp eitt svæði og nota hólf ein til að skipuleggja vöruhúsið. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
+Ef stofna á hólfin á svæðum má gera það á síðunni **Svæði**. Þegar svæðum er úthlutað á hólf afritar [!INCLUDE [prod_short](includes/prod_short.md)] upplýsingar af svæðinu og í hólfin. Einnig er hægt að velja að setja upp eitt svæði og nota hólf út af fyrir sig til að skipuleggja vöruhúsið. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Sjálfgefnar víddir staðsetningar
+## <a name="default-dimensions-for-locations"></a>Sjálfgefnar víddir fyrir birgðageymslur
 
-Settar eru **upp sjálfgefnar víddir fyrir staðsetningu á síðunni Birgðageymsluspjald** með því að velja **víddir**. Eftir sem áður er sjálfgefnum víddum staðsetningar úthlutað á skjöl þegar valin er birgðageymslan í línu. Ef þörf krefur er hægt að eyða eða breyta víddinni í línunni. **Í reitnum gildisbókun** er hægt að krefjast þess að fólk tilgreini víddir staðsetningar áður en hægt er að bóka færslu. Ef ætlunin er að leyfa fólki að velja aðeins tiltekin víddargildi er hægt að tilgreina gildin í **reitnum leyfð gildi**. Einnig er hægt að taka með víddargildi staðsetningarvídda á **síðunni Forgangur** sjálfgefinnar víddar og fyrir samsetningar af forgangi og víddarreglum á **síðunni víddir vídda**.
+Þú velur sjálfgefnar víddir fyrir birgðageymslu á síðunni **Birgðageymsluspjald** með því að velja **Víddir**. Eftir það er sjálfgefnum víddum birgðageymslunnar úthlutað á skjöl þegar birgðageymslan er valin í línu. Ef þörf krefur er hægt að eyða eða breyta víddinni í línunni. Í reitnum **Virðisbókun** er hægt að krefja fólk um að tilgreina víddir fyrir birgðageymslur áður en það getur bókað færslu. Ef leyfa á fólki að velja aðeins eitt ákveðið víddargildi er hægt að tilgreina gildin í reitnum **Sía fyrir leyfileg gildi**. Einnig er hægt að hafa með víddargildi birgðageymslu á síðunni **Forgangur sjálfgefinnar víddar** og fyrir samsetningar á forgangi og víddarreglum á síðunni **Víddasamsetningar**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun hjá [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

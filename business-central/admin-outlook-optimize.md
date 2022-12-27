@@ -11,7 +11,7 @@ ms.date: 05/12/2021
 ms.author: jswymer
 ms.openlocfilehash: 053b834e122d5d5331642dcb9232a76a8bc1dbeb
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8514571"
@@ -29,7 +29,7 @@ Uppfæra í Outlook útgáfu 2012 eða nýrri.
 
 ### <a name="how-to-check-your-version-of-outlook"></a>Hvernig á að athuga útgáfu þína af Outlook
 
-Hvort sem þú notar Office 2019 eða Microsoft 365 fylgir þessari Microsoft Support Guide til að athuga hvaða útgáfu af Outlook þú ert með:  
+Hvort sem þú notar Office 2019 eða Microsoft 365 skaltu fylgja þessum leiðbeiningum frá notendaþjónustu Microsoft til að athuga hvaða útgáfu af Outlook þú ert með:  
 
 [Um Office: Hvaða útgáfu af Office er ég að nota?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 
@@ -81,7 +81,7 @@ Gerðu eftirfarandi til að athuga hvort Microsoft Edge WebView2 sé uppsett á 
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook)  
-[Nota viðbætur í Outlook á vefnum](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Nota innbætur í Outlook á vefnum](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

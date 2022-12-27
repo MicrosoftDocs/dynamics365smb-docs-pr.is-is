@@ -12,14 +12,14 @@ ms.date: 08/03/2022
 ms.author: edupont
 ms.openlocfilehash: dc1fa2e308ce0920815a5766d4e077a2eb0ce62a
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534535"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Sameina móttökur í einn reikning
 
-Ef reikningsfæra á fleiri en eina innkaupamóttöku í einu er hægt að velja margar móttökulínur á innkaupareikningi.  
+Ef reikningsfæra á fleiri en eina innkaupakvittun í einu er hægt að velja margar móttökulínur í innkaupareikningnum.  
 
 Áður en hægt er að búa til sameinaða innkaupamóttöku, þarf að vera búið að bóka fleiri en eina móttöku frá sama lánardrottininn í sama gjaldmiðlinum. Það er að segja, það þarf að vera búið að fylla út tvær eða fleiri innkaupapantanir og bóka þær sem mótteknar en ekki reikningsfærðar.  
 
@@ -48,7 +48,7 @@ Að öðrum kosti skal eyða einstökum pöntunum handvirkt.
 
 Skref 1 til 3 eru endurtekin fyrir öll skjöl sem urðu fyrir áhrifum, eins og auðar innikaupapantanir.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

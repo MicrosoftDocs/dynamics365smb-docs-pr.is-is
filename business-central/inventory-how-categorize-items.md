@@ -1,5 +1,5 @@
 ---
-title: Skipuleggja vörur í flokkum (inniheldur Video) | Microsoft docs
+title: Skipuleggja hluti í flokkum (inniheldur myndskeið) | Microsoft Docs
 description: Til að fá hjálp við að leita að og finna vörur, er hægt að úthluta eiginleikum vöru og skipuleggja vörur í flokkum.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 93c504b139003c4d2385e4c906390302784ed1c5
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9607230"
@@ -50,7 +50,7 @@ Ef þú skiptir um skoðun varðandi vöruflokk, getur þú eytt honum. Ef honum
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -58,7 +58,7 @@ Ef þú skiptir um skoðun varðandi vöruflokk, getur þú eytt honum. Ef honum
 [Stjórna afurðarafbrigðum](inventory-item-variants.md)  
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

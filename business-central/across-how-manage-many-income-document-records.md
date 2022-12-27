@@ -1,5 +1,5 @@
 ---
-title: Skilgreina hvaða utanaðkomandi Doktorsnemar eigi að sjá
+title: Skilgreina hvaða skjöl á innleið skal skoða
 description: Stilla hvaða skjöl á innleið skuli birtast sjálfgefið, eins og t.d. rafrænir reikningar, til að bæta yfirsýn yfir færslur sem búið er að vinna og færslur sem á eftir að vinna.
 author: SorenGP
 ms.topic: conceptual
@@ -11,17 +11,17 @@ ms.date: 06/14/2022
 ms.author: edupont
 ms.openlocfilehash: 211798c30c3f94fb24fac2bf706baeb2811b99b0
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9529488"
 ---
 # <a name="manage-many-incoming-document-records"></a>Vinna með margar færslur skjala á innleið
 
-Þegar þú býrð til eða vinnur færslur fyrir skjal á innleið, getur fjöldi lína á síðunni **Skjöl á innleið** vaxið að marki þar sem þú tapar yfirsýn. Þess vegna er hægt að setja aðsendar skjalaskýrslur til *vinnslu* til að fjarlægja þær úr sjálfgefnu yfirliti. Þegar valið er **Sýna Allt** aðgerð, geturðu skoðað bæði unnar og óunnar færslur.
+Þegar þú býrð til eða vinnur færslur fyrir skjal á innleið, getur fjöldi lína á síðunni **Skjöl á innleið** vaxið að marki þar sem þú tapar yfirsýn. Þess vegna getur þú stillt færslur fyrir skjal á innleið sem *unnið*, til að fjarlægja þá úr sjálfgefna yfirlitinu. Þegar valið er **Sýna Allt** aðgerð, geturðu skoðað bæði unnar og óunnar færslur.
 
 > [!NOTE]  
-> Ekki er hægt að breyta upplýsingum, tengja skrár eða framkvæma annað ferli í færslum á innleið sem eru stilltar á *unnið*. Fyrst þarf að setja það upp í *óupphituðu*.
+> Ekki er hægt að breyta upplýsingum, hengja við skrár eða framkvæma aðra vinnslu á færslum fyrir skjöl á innleið sem eru stillt á *Unnið*. Fyrst þarf að stilla hana á *Óunnið*.
 
 **Úrvinnsla** gátreiturinn er sjálfkrafa valinn fyrir færslur fyrir skjal á innleið sem hafa verið unnar, en einnig er hægt að haka við eða afhaka gátreitinn handvirkt. Það fer eftir viðskiptaferli þínu, hvort færsla fyrir skjal á innleið geti verið unnið þegar tengt skjal hefur verið stofnað fyrir hana eða skrá hengd við.
 
@@ -42,7 +42,7 @@ ms.locfileid: "9529488"
 
 1. Á síðunni **Skjal á innleið** skal velja aðgerðina **sýna allt**.
 
-Allar aðsendar skjalaskrár eru birtar, þar á **meðal færslur þar sem unninn** gátreitur er ekki valinn.
+Allar færslur skjala á innleið eru sýndar, þar á meðal færslur þar sem gátreiturinn **Afgreitt** er ekki valinn.
 
 ## <a name="to-add-incoming-document-records-to-the-default-view"></a>Bæta við færslu skjals á innleið við sjálfgefna yfirlitinu
 
@@ -53,13 +53,13 @@ Allar aðsendar skjalaskrár eru birtar, þar á **meðal færslur þar sem unni
 > [!NOTE]  
 > Einnig má framkvæma þessa aðgerð fyrir einstaka færslu á síðunni **Spjald fyrir skjöl á innleið** .
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
   
-[Stofna komandi skjalaskrár](across-how-create-income-document-records.md)
-[Stofna skjalafærslur beint úr skjölum og](across-how-connect-disconnect-income-document-records.md)
-[innsendum skjölum](across-income-documents.md)  
+[Stofna færslur skjala á innleið](across-how-create-income-document-records.md)
+[Stofna færslur yfir skjöl á innleið, beint úr skjölum og færslum](across-how-connect-disconnect-income-document-records.md)
+[Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

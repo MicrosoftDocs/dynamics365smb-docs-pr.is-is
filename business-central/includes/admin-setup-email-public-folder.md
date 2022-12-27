@@ -5,7 +5,7 @@ ms.date: 02/15/2022
 ms.author: edupont
 ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8142498"
@@ -13,7 +13,7 @@ ms.locfileid: "8142498"
 > [!NOTE]
 > Eftirfarandi hlutar gera ráð fyrir að þú hafir stjórnandaaðgang að Exchange Online.
 
-Áður en hægt er að setja upp póstinnskráningu þarf að undirbúa Office 365 [almenningsmöppur](/exchange/collaboration-exo/public-folders/public-folders). Hægt er að gera þetta í [Exchange stjórnendamiðstöðinni](/exchange/exchange-admin-center?preserve-view=true) eða nota [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
+Áður en hægt er að setja upp tölvupóstsskráningu þarf að undirbúa Office 365 með [opnum möppum](/exchange/collaboration-exo/public-folders/public-folders). Hægt er að gera þetta í [Exchange stjórnendamiðstöðinni](/exchange/exchange-admin-center?preserve-view=true) eða nota [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
 
 > [!TIP]
 > Ef þú vilt nota [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true) getur þú leitað eftir innblæstri um hvernig á að setja upp forskrift í sýnisforskriftinni sem við birtum í [BCTech-geymslunni](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
@@ -30,7 +30,7 @@ Stofna stjórnandahlutverkshóp fyrir opnar möppur á grunni upplýsinganna í 
 |Valin hlutverk  |Opnar möppur            |
 |Valdir notendur  |Tölvupóstur notandareiknings sem Business Central mun nota til að keyra verk tölvupóstsskráningar|
 
-Nánari upplýsingar fást með því [að stjórna hlutverkaflokkum í Exchange Online](/exchange/permissions-exo/role-groups).
+Frekari upplýsingar eru í [Stjórna hlutverkahópum í Exchange Online](/exchange/permissions-exo/role-groups).
 
 ### <a name="create-a-new-public-folder-mailbox"></a>Stofna nýja almenna möppu í pósthólfi
 
@@ -40,7 +40,7 @@ Stofnið nýtt pósthólf með opna möppu á grundvelli upplýsinganna í eftir
 |----------------|--------------------------|
 |Name            |Opið pósthólf            |
 
-Nánari upplýsingar má finna [í Create almenningsmöppu](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
+Nánari upplýsingar má finna í [Búa til opið pósthólf](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 ### <a name="create-new-public-folders"></a>Stofna nýjar almenningsmöppur
 
@@ -50,7 +50,7 @@ Nánari upplýsingar má finna [í Create almenningsmöppu](/exchange/collaborat
     - `\Email Logging\Queue\`
     - `\Email Logging\Storage\`
 
-Frekari upplýsingar má fá [með því að stofna opinbera möppu](/exchange/collaboration-exo/public-folders/create-public-folder).
+Nánari upplýsingar má finna í [Búa til opna möppu](/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ### <a name="set-public-folder-ownership"></a>Setja eignarhald á opna möppu
 
@@ -60,7 +60,7 @@ Frekari upplýsingar er að finna í [Úthluta heimildum fyrir opnu möppuna](/e
 
 ### <a name="mail-enable-the-queue-public-folder"></a>Virkja tölvupóst fyrir *biðröð* opinnar möppu
 
-  Nánari upplýsingar er að finna [í Mail-gera í almenningsrafmöppu](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
+  Frekari upplýsingar er að finna á [Kveikja eða slökkva á tölvupósti fyrir opna möppu](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder)
 
 ### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Þegar tölvupóstur er virkjaður er hægt að senda tölvupóst á *biðröð* opnu möppunnar
 

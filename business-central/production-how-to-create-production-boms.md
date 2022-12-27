@@ -9,7 +9,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.openlocfilehash: 06d1b507e4414b3d77bbeb6a500342e5269438e3
 ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/28/2022
 ms.locfileid: "9728546"
@@ -21,7 +21,7 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
 [!INCLUDE[prod_short](includes/prod_short.md)] styður einnig samsetningaruppskriftir. Samsetningarpantanir eru notaðar til að gera lokaafurð úr íhlutum með einföldu ferli sem hægt er að vinna með einu eða fleiri tilföngum, sem ekki eru vélar eða vinnustöðvar, eða án nokkurra tilfanga. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru. Frekari upplýsingar er að finna í [Samsetningaruppskriftir eða framleiðsluuppskriftir](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
-> **Contoso kaffi sýniforritið Data** App inniheldur sýnivörur fyrir margvíslegar AÐSTÆÐUR framleiðsluuppskrifta sem hægt er að nota á prófunarumhverfi, þar á meðal á meðan á rannsókn stendur. Lærðu að setja upp contoso Coffee gögnin og finna gönguleið fyrir mismunandi aðstæður við [inngang að contoso Coffee sýnigögnum](contoso-coffee/contoso-coffee-intro.md).
+> Forritið **Sýnigögn Contoso Coffee** innihalda sýnivörur fyrir ýmsar aðstæður framleiðsluuppskriftar sem hægt er að nota í prófunarumhverfi, þ.m.t. í prufuútgáfu. Kynntu þér hvernig á að setja upp göng Contoso Coffee og finna kynningar fyrir mismunandi aðstæður í [Kynning á sýnigögnum Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).
 
 Áður en þú getur sett upp leið verður eftirfarandi að vera á réttum stað:  
 
@@ -30,7 +30,7 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
 
 ## <a name="to-create-a-production-bom"></a>Búa til framleiðsluuppskrift
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **framl. uppskriftir** og veljið síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Framleiðsluuppskriftir**, velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Til að hægt sé að breyta uppskriftinni verður reiturinn **Staða** að vera stilltur á **Ný** eða **Í þróun**. Til að ræsa hana þarf að stilla **Staða** á **Vottað**.  
@@ -38,8 +38,8 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
     Haldið áfram til að fylla út í framleiðsluuppskriftarlínurnar
 5. Í reitnum **Tegund** er valið hvort vara á þessari uppskriftarlínu er venjuleg vara eða framleiðsluuppskrift. Ef varan á línunni er framleiðsluuppskrift þá verður hún þegar að vera til staðar sem vottuð framleiðsluuppskrift.  
 6. Í reitnum **númer** er umræddri vöru eða framleiðsluuppskrift flett upp og hún valin eða hún slegin handvirkt í reitinn.  
-7. **Í reitinn Magn á hvert** svæði skal slá inn hversu margar einingar af vörunni fara í yfirvöruna, t.d. 4 hjól fyrir 1 bíl.  
-8. **Í reitnum Úrkast%** er hægt að færa inn fast hlutfall íhluta sem hafa rýrnað við framleiðslu. Þegar íhlutirnir eru tilbúnir til notkunar í útgefinni framleiðslupöntun er hlutfallinu bætt við áætlað magn (í reitnum  **Notkunarmagn**) í framleiðslubók. Frekari upplýsingar eru í [Skrá Notkun og frálag](production-how-to-register-consumption-and-output.md).  
+7. Í reitnum **Magn á** er fært inn hversu margar einingar vörunnar fara í yfirvöruna, t.d. 4 dekk á 1 bifreið.  
+8. Í reitnum **Úrkast %** er hægt að slá inn fast hlutfall íhluta sem er fleygt meðan á framleiðslu stendur. Þegar íhlutirnir eru tilbúnir til notkunar í útgefinni framleiðslupöntun er hlutfallinu bætt við áætlað magn (í reitnum  **Notkunarmagn**) í framleiðslubók. Frekari upplýsingar eru í [Skrá Notkun og frálag](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  Þetta úrkastshlutfall stendur fyrir íhluti sem er fleygt á meðan á framleiðslu stendur (þegar tekið er úr birgðum) á meðan úrkastshlutfall á leiðarlínum stendur fyrir frálagi sem er fleygt (áður en það verður birgðir).  
@@ -50,16 +50,16 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
 12. Nú er hægt að hengja nýju framleiðsluuppskriftina við spjald viðkomandi yfirvöru. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Til að endurreikna staðalkostnað vörunnar á birgðaspjaldinu skal velja **aðgerðina framleiðsla** og velja **síðan aðgerðina Calc. staðlað kostnaðarverð**.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Til að endurreikna staðlað kostnaðarverð vörunnar úr birgðaspjaldinu skal velja **Framleiðsla** og síðan smellt á **Reikna staðlað kostn.verð** aðgerðina.  
 
-## <a name="to-create-a-new-version-of-a-production-bom"></a>Ný útgáfa af FRAMLEIÐSLUUPPSKRIFT búin til
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Gerð nýrra útgáfa af framleiðsluuppskriftum
 
 Nýjar útgáfur af framl.uppskriftum eru t.d. notaðar þegar vöru er skipt út með annarri vöru, eða þegar viðskiptamaður krefst sérstakrar útgáfu af vörunni. Útgáfureglan gerir kleift að stjórna ólíkum útgáfum af framleiðsluuppskrift. Uppbygging framleiðsluuppskriftarútgáfunnar samsvarar uppbyggingu framleiðsluuppskriftanna. Grundvallarmunurinn er gildistími á útgáfunum. Gildistíminn er skilgreindur af upphafsdagsetningu.  
 
 Upphafsdagsetningin sýnir upphaf tímabilsins sem útgáfan er í gildi. Upphafsdagsetningin er alltaf afmörkunarviðmiðun fyrir útreikninga og mat. Uppskriftarútgáfan er gild þar til næsta útgáfa tekur gildi samkvæmt upphafsdagsetningu hennar.  
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **framl. uppskriftir** og veljið síðan tengda tengilinn.  
-2. Velja FRAMLEIÐSLUUPPSKRIFTINA sem á að afrita og velja **síðan útgáfuaðgerðina**.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Framleiðsluuppskriftir**, velja síðan viðkomandi tengil.  
+2. Veldu framleiðsluuppskriftina sem á að afrita, veldu síðan aðgerðina **Útgáfur**.  
 3. Valið er aðgerðin **Nýtt**.  
 4. Fyllið inn reitina eftir þörfum.
 5. Einstakt auðkenni útgáfunnar er fært inn í reitinn **Útgáfukóti**. Hvaða samsetning af tölum og bókstöfum er leyfileg.  
@@ -74,13 +74,13 @@ Gildistími útgáfunnar er tilgreindur í reitnum **Upphafsdagsetning**.
 >
 > Velja skal valkostinn **Framl.uppskr.** ef nota á annan skuggaframleiðsluuppskrift í línunni.  
 >
-> Skuggauppskriftir eru notaðar til að skipuleggja vörur./ Þessi gerð FRAMLEIÐSLUUPPSKRIFTAR leiðir aldrei til fullunninnar afurðar en er eingöngu notuð til að ákvarða háða eftirspurn. Skuggauppskriftir hafa ekki eigin aðalgögn.
+> Skuggauppskriftir eru notaðar til að skipuleggja vörur./ Þessi fram.uppskriftartegund leiðir aldrei af sér fullunna vöru, en er notuð sérstaklega til að ákvarða háða eftirspurn. Skuggauppskriftir hafa ekki eigin aðalgögn.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Formúla magnútreiknings í framleiðsluuppskriftum
+## <a name="quantity-calculation-formula-on-production-boms"></a>Magnreikniformúla á framleiðsluuppskriftir
 
-Magnið er reiknað með að taka tillit til mismunandi vídda sem einnig eru færðar inn í framl. uppskriftarlínurnar. Víddirnar vísa til pöntunareiningar á viðkomandi vöru. Hægt er að færa inn lengd, breidd, dýpt og þyngd inn sem víddir.  
+Magnið er reiknað samkvæmt mismunandi víddum sem einnig eru færðar í framleiðsluuppskriftarlínurnar línurnar. Víddirnar vísa til pöntunareiningar á viðkomandi vöru. Hægt er að færa inn lengd, breidd, dýpt og þyngd sem víddir.  
 
-Dálkarnir útreikningsformúla, lengd, breidd, dýpt og þyngd birtast ekki þar sem þeir eru aðeins notaðir af sumum notendum. Ef notandi vill nota magnreikninga þarf fyrst að birta þessa dálka.  
+Dálkarnir Tegund útreiknings, Lengd, Breidd, Dýpt og Þyngd  birtast ekki þar sem aðeins fáeinir notendur nota þá. Ef notandi vill nota magnreikninga þarf fyrst að birta þessa dálka.  
 
 Tengsl ólíkra íhluta eru skilgreind af reiknireglunni. Hægt er að nota eftirfarandi valkosti sem reiknireglu:  
 
@@ -89,27 +89,27 @@ Tengsl ólíkra íhluta eru skilgreind af reiknireglunni. Hægt er að nota efti
 - **Lengd x Breidd** - Magn = Magn á * Lengd x Breidd  
 - **Lengd x Breidd x Dýpt** - Magn = Magn á Lengd x Breidd x Dýpt  
 - **Þyngd** -Magn = Magn á x Þyngd  
-- **Fast magn** -Magn = Magn á
+- **Fast magn** - Magn = Magn á
 
 > [!NOTE]
-> Formúla fyrir útreikning á **magni** tryggir að notkunarhluti íhlutarins sé sá sami án tillits til úrkomu eða frálagsmagns. Fyrir íhluti framleiðslupöntunar þegar **reiturinn útreikningsformúla** er stilltur á **Fast magn** **er gildið Væntanlegt magnsvæði** alltaf jafnt **magninu á hverju** svæði. Úrkastsprósentan sem er skilgreind í sömu línu er hunsuð. Fast magn er virt með **tiltækinu eftir uppskriftarskýrslu**. Skýrslan sýnir vöruna sem flöskuhálsinn ef tiltækt magn er minna en magnið í **yfirsvæðinu** Magn á eftir. Það **að geta Yfirgert** **efsta vörusvæði** er alltaf autt, óháð því magni sem er í boði. Fast magn er einnig innifalið í útreikningi fyrir staðlaðan kostnað. Lotustærðin fyrir framleiddu vöruna hefur áhrif á kostnaðinn sem er úthlutað fyrir eina vöru.
+> Reikniformúlan **Fast magn** tryggir að notkun íhluts sé sú sama óháð því hvert magn rýrnunar eða úttaks er. Fyrir íhluti framleiðslupöntunar, þegar reiturinn **Reikniformúla** er stilltur á **Fast magn**, er gildið í reitnum **Væntanlegt magn** alltaf jafnt og magnið í reitnum **Magn á**. Rýrnunarprósentan sem er skilgreind í sömu línunni er hunsuð. Fast magn er virt af skýrslunni **Framboð eftir uppskrift**. Skýrslan sýnir vöruna sem flöskuháls ef tiltækt magn er minna en magnið í reitnum **Magn á yfireiningu**. Reitirnir **Get gert yfireiningu** og **Get gert aðalvöru** eru alltaf auðir óháð því hvert tiltækt magn er. Fast magn er einnig innifalið í útreikningum fyrir staðalkostnað. Lotustærðin fyrir framleidda vöru hefur áhrif á kostnaðinn sem eru úthlutað fyrir eina vöru.
 
 ### <a name="example"></a>Dæmi
 
-Framl. UPPSKRIFT krefst 70 Metal hlutar með lengd víddanna = 0,20 m og breidd = 0,15 m. Gildin eru færð inn á eftirfarandi hátt: Reikniregla = Lengd x Breidd, Lengd = 20, Breidd = 15, Magn á = 70. Magnið fæst með Magn á x Lengd * Breidd, þ.e., Magn = 70 x 0.20 m x 0.15 m = 2.1 m2.  
+Framleiðsluuppskrift þarf 70 málmhluta með lengd = 0,20 m og breidd = 0,15 m. Gildin eru færð inn á eftirfarandi hátt: Reikniregla = Lengd x Breidd, Lengd = 20, Breidd = 15, Magn á = 70. Magnið fæst með Magn á x Lengd * Breidd, þ.e., Magn = 70 x 0.20 m x 0.15 m = 2.1 m2.  
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Stofna leiðir](production-how-to-create-routings.md)  
 [Stjórna afurðarafbrigðum](inventory-item-variants.md)  
-[Walkthrough: afbrigði](contoso-coffee/variants.md)  
+[Kynning: Afbrigði](contoso-coffee/variants.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
 [Áætlun](production-planning.md)  
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
-[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
+[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

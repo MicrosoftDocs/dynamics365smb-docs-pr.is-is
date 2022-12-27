@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: solsen
 ms.openlocfilehash: 4e3cd6ff452d6c763e267c208331c60d647db482
 ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 04/29/2022
 ms.locfileid: "8655598"

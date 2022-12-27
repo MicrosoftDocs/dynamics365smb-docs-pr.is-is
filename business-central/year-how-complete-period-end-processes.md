@@ -1,5 +1,5 @@
 ---
-title: Valfrjáls starfsemi fyrir lokunartímabil
+title: Valfrjálsar aðgerðir fyrir lokun tímabila
 description: Þetta efnisatriði útskýrir valfrjáls ferli og aðgerðir fyrir lokun fjárhagstímabila í Business Central.
 author: jswymer
 ms.topic: overview
@@ -11,7 +11,7 @@ ms.date: 08/29/2022
 ms.author: jswymer
 ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9607662"
@@ -24,32 +24,32 @@ ms.locfileid: "9607662"
 
 * Tilgreindu kerfisbundið og notendasértækt bókunartímabil.  
 
-    Þetta tilgreinir dagsetningar þar sem hægt er að bóka. Þú gætir viljað leyfa bókun í byrjun tímabilsins eða í lok tímabilsins, allt eftir fyrirtækinu. Frekari upplýsingar er að tilgreina í [Bókunartímabilum](finance-how-specify-posting-periods.md).  
-* Gera allar nauðsynlegar leiðréttingar á fjárhag (fjárhags-)  
-* Uppfæra og bóka Ítrekunarbækur.  
+    Þetta tilgreinir dagsetningar þar sem hægt er að bóka. Þú gætir viljað leyfa bókun í byrjun tímabilsins eða í lok tímabilsins, allt eftir fyrirtækinu. Frekari upplýsingar eru í [Tilgreina bókunartímabil](finance-how-specify-posting-periods.md).  
+* Gerðu allar nauðsynlegar leiðréttingar á fjárhagnum.  
+* Ítrekunarbækur eru uppfærðar og bókaðar.  
   <!--* Process Consolidations-->
-* Keyra ársskýrslur sem hér segir:  
-  * **Opnið síðu Fjármálaskýrslna** og veljið síðan **prenthaðgerðinn**.  
+* Keyrðu fjárhagsskýrslur á eftirfarandi hátt:  
+  * Opnaðu síðuna **Fjárhagsskýrslur**, veldu síðan aðgerðina **Prenta**.  
 
-## <a name="sales-and-receivables"></a>Sölu-og Skammtímakröfur
+## <a name="sales-and-receivables"></a>Sala and útistandandi
 
 * Allar sölupantanir, reikningar, kreditreikningar og vöruskilapantanir eru bókaðar.  
 * Inngreiðslubókin er bókuð.  
-* Uppfæra og bóka Ítrekunarbækur sem tengjast sölu og rekjanleika.  
+* Uppfærðu og bókaðu endurteknar færslubækur sem tengjast sölu og útistandandi.  
 * Afstemma viðskiptakröfur við færslubók.  
 * Runuvinnslan **Eyða reikningsf. sölupöntunum** er keyrð.  
 
-## <a name="purchases-and-payables"></a>Innkaup og skuldir
+## <a name="purchases-and-payables"></a>Innkaup og viðskiptaskuldir
 
 * Allar pantanir, reikningar, kreditreikningar og vöruskilapantanir eru bókaðar.  
 * Allar greiðslubækur eru bókaðar.  
-* Uppfæra og bóka Ítrekunarbækur sem tengjast innkaupum og skuldum.  
+* Uppfærðu og bókaðu endurteknar færslubækur sem tengjast innkaupum og viðskiptaskuldum.  
 * Skýrslan **Aldursgreindar skuldir** er keyrð og skuldir stemmdar af við fjárhaginn.  
 * Runuvinnslan **Eyða reikningsf. innk.pöntunum** er keyrð.  
 
 ## <a name="fixed-assets"></a>Eignir
 
-* Bóka allan viðhaldskostnað sem hefur verið bókaður í gegnum eignabækur eða reikninga.
+* Allur viðhaldskostnaður hefur verið bókaður í gegnum Eignabók eða Reikningar
 * Leiðréttingar eru bókaðar
 * Uppfærsla er bókuð
 * Afskriftir eru bókaðar
@@ -57,18 +57,18 @@ ms.locfileid: "9607662"
 
 ## <a name="intercompany"></a>Milli fyrirtækja
 
-* Vinna samstæðufærslur.
+* Vinna úr færslum á milli fyrirtækja.
 
-## <a name="calculate-and-process-sales-tax"></a>Reikna og vinna virðisaukaskatt
+## <a name="calculate-and-process-sales-tax"></a>VSK er reiknaður og unninn
 
-* Fylla út heildarskattframað.  
+* Lokið er við skattyfirlit.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Bókum lokað](year-close-books.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

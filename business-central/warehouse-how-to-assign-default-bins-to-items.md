@@ -12,7 +12,7 @@ ms.date: 06/25/2021
 ms.author: edupont
 ms.openlocfilehash: ac50c7cf8aaf68ab0846a79788bb13e63a3c8b50
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8513368"
@@ -41,9 +41,9 @@ Stundum getur þurft að skipta um sjálfgefið hólf vöru eða gefa nýrri vö
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md) 
-[samsetningarstýring](assembly-assemble-items.md)
-[hönnunar upplýsingar: vöruhúsastjórnun](design-details-warehouse-management.md)  
+[Uppsetning vöruhúsakerfis](warehouse-setup-warehouse.md) 
+[Samsetningarstjórnun](assembly-assemble-items.md)
+[Hönnunarupplýsingar: Vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

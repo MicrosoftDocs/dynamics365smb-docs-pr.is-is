@@ -1,5 +1,5 @@
 ---
-title: Stýra sölutækifærum og ábendingum
+title: Umsjón sölutækifæra og ábendinga
 description: Lýsir hvernig stjórna má í Business Central ábendingum eða sölutækifærum sem birtast, og tengja tækifærin við sölumann svo hægt sé að fylgjast með hugsanlegri sölu.
 documentationcenter: ''
 author: jswymer
@@ -13,7 +13,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.openlocfilehash: 2f797aa72591d9d6f62fedbf080a1261d0caf3a4
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8522858"

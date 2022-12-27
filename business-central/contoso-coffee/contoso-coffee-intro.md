@@ -1,96 +1,96 @@
 ---
-title: Kynning á contoso kaffi sýnigögnum
-description: Yfirlit yfir áætlanir um hvernig contoso kaffi sýnishorn gögn geta aðstoðað við að læra hvernig hægt er að nýta framleiðslugetu í Viðskiptamiðinu.
+title: Kynning á sýnigögnum Contoso Coffee
+description: Yfirlit yfir aðstæður þar sem sýnigögn Contoso Coffee geta hjálpað þér að læra hvernig á að nota framleiðslumöguleikana í Business Central.
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: MT
+ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362094"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788213"
 ---
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Kynning á contoso kaffi sýnigögnum
+# <a name="introduction-to-contoso-coffee-demo-data"></a>Kynning á sýnigögnum Contoso Coffee
 
-Contoso Coffee er skálduð fyrirtæki sem framleiðir neytendaumbúðir og viðskiptalegar Kaffivélar. **Contoso-kaffiforrit** fyrir miðborg bæta við sýnigögnum sem nota má til að læra hvernig á að nota framleiðslugetu í viðskiptamiðinu.  
+Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. **Contoso Coffee** forritin fyrir Business Central bæta við sýnigögnum sem hægt er að nota til að komast að því hvernig á að nota framleiðslumöguleikana í Business Central.  
 
-Forritið gefur fjórar vörur sem eru bestar fyrir mismunandi atburðarás:
+Forritið býður upp á fjórar vörur sem eru fínstilltar fyrir mismunandi aðstæður:
 
 - **SP-SCM1009 Airpot**  
 
-  Þessi vara er uppskrift með millisamsetningu, **leið**. Nota það til að sýna staðlað framleiðsluflæði. Það er sett upp með öðrum leiðum sem hægt er að nota til að sýna fram á ýmsar aðstæður sem fela í sér undirverktaka. Aðferð kostnaðarútreiknings er *stöðluð*.  
+  Þessi vara er uppskrift með undirsamsetningu, **Leið**. Notaðu það til að sýna hefðbundið framleiðsluflæði. Hún er sett upp með öðrum leiðum sem hægt er að nota til að sýna ýmsar aðstæður sem fela í sér undirverktaka. Kostnaðarútreikningurinn er *Staðlaður*.  
 
 - **SP-SCM1011 Airpot Duo**  
 
-  Þessi vara krefst vörurakningar og er með íhlut sem einnig krefst vörurakningar. Aðferð við slitameðferð er *Sérstök*.  
+  Þessi vara þarf vörurakningu og er með íhlut sem þarf líka vörurakningu. Kostnaðarútreikningurinn er *Sértækur*.  
 
 - **SP-SCM1004 Autodrip**  
 
-  Þessi vara er UPPSKRIFT með millisamsetningu, **leið**. Mælt er með því að sýna hinar ýmsu andlitsmeðferðir bæði fyrir íhluti og aðgerðir. Aðferð kostnaðarútreiknings er *stöðluð*.
+  Þessi vara er uppskrift með undirsamsetningu, **Leið**. Við mælum með því til að sýna ýmsar birgðaskráningaaðferðir bæði fyrir íhluti og aðgerðir. Kostnaðarútreikningurinn er *Staðlaður*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
-  Þessi vara hefur þrjú afbrigði og þrjár uppskriftir sem hægt er að tengja birgðaeiningum við. Afurðin notar skuggauppskriftahugmyndina. Aðferð kostnaðarútreiknings er *stöðluð*.
+  Þessi vara er með þremur afbrigðum og þremur uppskriftum sem hægt er að úthluta á birgðahaldseiningar. Varan notar hugmyndina á bak við skuggauppskrift. Kostnaðarútreikningurinn er *Staðlaður*.
 
-Framleiðsluverkþættir fyrir allar aðstæður nota *norðurstaðsetningu*.  
+Framleiðsluaðgerðir fyrir allar aðstæður nota staðsetninguna *NORÐUR*.  
 
 > [!IMPORTANT]
-> Áður en þú keyrir einhvern af atburðarásinni fyrir contoso Coffee, bóka allar birgðabókarlínur með opnunarstöðum. Nánari kröfur er að finna í kaflanum um [contoso Coffee](#set-up-contoso-coffee-data).
+> Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Frekari kröfur er að finna í hlutanum [Setja upp gögn Contoso Coffee](#set-up-contoso-coffee-data).
 
-## <a name="set-up-contoso-coffee-data"></a>Setja upp contoso-Kaffigögn
+## <a name="set-up-contoso-coffee-data"></a>Setja upp Contoso Coffee gögn
 
-Til að nota contoso Coffee sýnigögnin þarf að setja upp tvö forrit í viðkomandi fyrirtæki í [!INCLUDE [prod_short](../includes/prod_short.md)]:  
+Til að nota sýnigögn Contoso Coffee þarftu að setja upp tvö forrit í viðeigandi fyrirtæki í [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
-- **Contoso kaffi sýnishorn DataSet**  
+- **Gagnamengi Contoso Coffee**  
 
-    Þetta App afhendir sýnigögn fyrir grunnforritið.  
-- **Útlitslækinn kaffi sýnishorn DataSet (Country ID)**  
+    Þetta forrit afhendir sýnigögn fyrir grunnforritið.  
+- **Sýnigagnamengi Contoso Coffee (auðkenni lands)**  
 
-    Þetta App bætir landlegu efni ofan á grunnforritið.
+    Þetta forrit bætir landsbundnu efni við efst í grunnforritið.
 
-Bættu appinu við tómt fyrirtæki í borgandi áskrift eða sem hluta af prufu. Til dæmis, stofna nýtt fyrirtæki með engin sýnishorn af gögnum úr **uppsetningarleiðbeiningum fyrir nýja fyrirtæki** sem hægt er að opna í **listanum fyrirtæki**. Bættu þá appinu við af [markaðstorginu](../ui-extensions-install-uninstall.md#install) ef þær eru ekki þegar á skrá á **síðu framlengingarstjórnunar**.  
+Bættu forritunum við autt fyrirtæki í greiddri áskrift eða sem hluti af prufuáskrift. Stofnaðu til dæmis nýtt fyrirtæki með engin sýnigögn úr uppsetningarleiðbeiningunni **Stofna nýtt fyrirtæki** sem hægt er að opna úr listanum **Fyrirtæki**. Bættu síðan við forritunum úr [markaðstorginu](../ui-extensions-install-uninstall.md#install) ef þau eru ekki þegar sýnd á síðunni **Viðbótastjórnun**.  
 
-Þegar viðeigandi forrit eru sett upp er farið á [kaffisíðuna contoso Coffee](https://businesscentral.dynamics.com/?page=4760) í [!INCLUDE [prod_short](../includes/prod_short.md)] og breytt sjálfgefnum stillingum sem henta þínum þörfum. Eftirfarandi töflur lýsa stillingum:  
+Þegar viðeigandi forrit hafa verið sett upp skal fara á síðuna [Sýnigögn Contoso Coffee](https://businesscentral.dynamics.com/?page=4760) í [!INCLUDE [prod_short](../includes/prod_short.md)] og breyta sjálfgefnum stillingum svo þær henti þínum þörfum. Eftirfarandi töflur lýsa stillingunum.  
 
 |Svæði  |Lýsing  |
 |---------|---------|
-|**Upphafsár** |Tilgreinir fyrsta árið sem óskað er eftir að nota á contoso-Kaffisýnigögnin. Allt frá uppsetningu félagsins er árið annað hvort almanaksárið eða reikningsár.|
-|**Staðsetning framleiðslu** |Tilgreinir vöruhúsið sem nota á fyrir framleiðsluaðgerðir. Sjálfið er fyrir norðan *en hægt er* að breyta því þannig að það henti þörfum.|
-|**Gerð fyrirtækis**    |Tilgreinir hvort gildandi fyrirtæki verði að tilkynna virðisaukaskatt eða virðisaukaskatt. |
-|**Innlendir-Almennir viðskiptabókunarflokkar**|Tilgreinir viðskiptakóta fyrir innlenda viðskiptavini og lánardrottna. Viðskiptakóðar eru notaðir þegar færslur eru bókaðar. |
-|**Afkastageta-almennur vörubókunarflokkur**    |Tilgreinir kóta vara eða forða sem þarf að nota til að bóka afkastagetu.|
-|**Smásala-almennur vörubókunarflokkur**    |Tilgreinir kóta vara eða forða sem þarf að nota til að bóka smásölu.|
-|**Hráefni almennur vörubókunarflokkur**    |Tilgreinir kóta vara eða forða sem nota þarf við bókun hráefnis. |
-|**VSK-kóði**    |Tilgreinir fyrirliggjandi vöruflokk virðisaukaskatts sem verður notaður fyrir vörur.|
-|**Afbúinn Kóði**    |Tilgreinir vöruflokk sem verður notaður fyrir tilbúnar vörur.|
-|**Verðstuðull**     |Tilgreinir hvaða Stuðull á að umreikna verð frá USD/EUR yfir í staðbundinn gjaldmiðil. *1* merkir að verðið sé sama fjárhæð í hvaða gjaldmiðli sem er. Hærri tala verður notuð til að fá verð í gjaldmiðli landsins. |
-|**Sléttunarnákvæmni**  |Skilgreinir hvernig reiknað notkunarmagn er sléttað þegar það er fært inn á notkunarbókarlínur. Magn sem er minna en 0,5 verður sléttað niður. Magn jöfn eða hærri en 0,5 verður sléttað.|
+|**Upphafsár** |Tilgreinir fyrsta árið sem á að nota fyrir sýnigögn Contoso Coffee. Árið er annað hvort almanaksár eða reikningsár en það fer eftir uppsetningu fyrirtækisins.|
+|**Framleiðslustaður** |Tilgreinir vöruhúsið sem á að nota fyrir framleiðsluaðgerðir. *NORÐUR* er sjálfgefið en hægt er að breyta því eftir þörfum.|
+|**Tegund fyrirtækis**    |Tilgreinir hvort núverandi fyrirtæki þurfi að tilkynna um virðisaukaskatt eða söluskatt. |
+|**Innlendur – almennur viðskiptabókunarflokkur**|Tilgreinir viðskiptakóða fyrir innlenda viðskiptavini og lánardrottna. Viðskiptakóðarnir eru notaðir þegar færslur eru bókaðar. |
+|**Afkastageta – almennur vörubókunarflokkur**    |Tilgreinir kóða fyrir vörur eða tilföng sem verður að nota til að bóka afkastagetu.|
+|**Smásala – almennur vörubókunarflokkur**    |Tilgreinir kóða fyrir vörur eða tilföng sem verður að nota til að bóka smásölu.|
+|**Hráefni – almennur vörubókunarflokkur**    |Tilgreinir kóða fyrir vörur eða tilföng sem verður að nota til að bóka hráefni. |
+|**Grunnkóði virðisaukaskatts**    |Tilgreinir fyrirliggjandi vöruflokk virðisaukaskatts sem verður notaður fyrir vörur.|
+|**Kóði fyrir fullbúið**    |Tilgreinir fyrirliggjandi vöruflokk sem verður notaður fyrir tilbúnar vörur.|
+|**Verðstuðull**     |Tilgreinir stuðul til að umbreyta verði úr USD/EUR í staðbundinn gjaldmiðil. *1* þýðir að verðið er sama upphæð í hvaða gjaldmiðli sem er. Hærri tala verður notuð til að fá verðið í staðbundnum gjaldmiðli. |
+|**Sléttunarnákvæmni**  |Skilgreinir hvernig reiknað notkunarmagn er sléttað þegar það er fært inn á notkunarbókarlínur. Magn undir 0,5 verður sléttað niður Magn sem er 0,5 eða meira verður sléttað upp.|
 
-Þegar þú ert tilbúin, Veldu þá aðgerðina búa til **sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn, en þá Ertu tilbúinn að keyra hinar ýmsu aðstæður.  
+Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
 ## <a name="scenarios"></a>Dæmi
 
-Útlaginn kaffi sýnikennsla styður nú við eftirfarandi Aðstæður til prófs og þjálfunar:
+Sýnigögn Contoso Coffee styðja núna eftirfarandi aðstæður fyrir prófun og þjálfun:
 
-1. [Stofna nýja framl. UPPSKRIFT og UPPSKRIFTARÚTGÁFU](create-new-production-bom-version.md)  
+1. [Stofna nýja framleiðsluuppskrift og uppskriftarútgáfu](create-new-production-bom-version.md)  
 2. [Stofna nýja leið](create-new-routing.md)  
 3. [Stofna fastáætlaða framleiðslupöntun og breyta henni](create-firm-planned-production-order-change.md)  
-4. [Sameina sjálfvirka og handvirka Flushing](combine-automatic-manual-flushing.md)  
-5. [Nota Pantanáætlanagerð til að stofna og taka frá framboð](order-planning-create-reserve-supply.md)  
-6. [Setja upp og vinna Úthýsingaraðgerð](set-up-process-subcontracting-operation.md)  
-7. [Setja upp nýtt geymslurými](set-up-new-capacity.md)  
-8. [Spáreftirspurn fyrir vöruafbrigði með mismunandi uppskriftum](variants.md)  
+4. [Sameina sjálfvirka og handvirka birgðaskráningu](combine-automatic-manual-flushing.md)  
+5. [Nota pantanaáætlun til að búa til og bakfæra framboð](order-planning-create-reserve-supply.md)  
+6. [Setja upp og vinna úr úthýsingaraðgerð](set-up-process-subcontracting-operation.md)  
+7. [Setja upp nýja getu](set-up-new-capacity.md)  
+8. [Spá fyrir um eftirspurn eftir vöruafbrigðum með mismunandi uppskriftum úthlutuðum](variants.md)  
 
-Lestu leiðbeiningar fyrir hverja atburðarás í viðkomandi grein.  
+Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.  
 
 > [!IMPORTANT]
-> Þessir gönguhópar krefjast þess að notendaupplifun sé stillt á *aukagjald* á **upplýsingasíðu** félagsins.
+> Þessar kynningar krefjast þess að upplifun notanda sé stillt á *Premium* á síðunni **Fyrirtækjaupplýsingar**.
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Framleiðsla](../production-manage-manufacturing.md)  
-[Framleiðsluskýrslur og Greinaskil í Viðskiptamiðinu](../production-reports.md)  
+[Framleiðsluskýrslur og greiningar í Business Central](../production-reports.md)  

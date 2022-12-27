@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: b0ab0afa97af7c0fda88c963a585a2e1ba481dd6
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8516006"
@@ -29,7 +29,7 @@ Mikilvægt er að færa inn rétt uppsetningargildi frá upphafi til að ný vi�
 
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
-[Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
+[Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

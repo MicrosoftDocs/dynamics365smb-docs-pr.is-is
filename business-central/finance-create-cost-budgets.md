@@ -11,7 +11,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: 71ed144297e1f7b98b5fcb7252a216258719f68a
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533644"
@@ -32,7 +32,7 @@ Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Ve
 |Sjá dagbækur og færslur kostnaðaráætlana.|**Fjárhagsáætlunarskrá**|  
 |Prenta samanburð kostnaðaráætlunar með því að nota ýmsar skýrslur.|**Kostnaðarbókhald Staða-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðarbókhald Yfirlit-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarstað** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarhluta** skýrsla|  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -40,7 +40,7 @@ Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Ve
 [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)  
 [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)  
 [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

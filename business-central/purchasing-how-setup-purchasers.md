@@ -1,5 +1,5 @@
 ---
-title: Setja upp innkaupaaðila og úthluta kaupendum (inniheldur Video)
+title: Setja upp innkaupaaðila og úthluta innkaupaaðilum til lánardrottna  (inniheldur myndskeið)
 description: Ef nokkrir innkaupaaðilar vinna hjá fyrirtækinu þínu, getur þú skipulagt þá til tölfræðilegrar greiningar.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: e8e73553fe4c66fef08c78c0411f76fe481b34fc
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534805"
@@ -35,7 +35,7 @@ Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp á 
 2. Viðeigandi lánardrottnaspjald er opnað fyrir lánardrottininn sem verður úthlutað kaupanda.
 3. Í reitnum **Kóði innkaupaaðila** skal velja viðeigandi kóða innkaupaaðila og loka svo síðunni.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

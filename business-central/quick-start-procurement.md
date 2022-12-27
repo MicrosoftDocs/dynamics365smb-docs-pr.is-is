@@ -1,5 +1,5 @@
 ---
-title: Flýtiræsing á innkaupum (inniheldur Video)
+title: Stuttur leiðarvísir um innkaup (inniheldur myndband)
 description: Kynntu þér hvernig á að fylla út fyrstu mikilvægu reitina um lánardrottna í Business Central svo þú getir byrjað að kaupa vörur og þjónustu.
 author: jill-kotel-andersson
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 09/29/2021
 ms.author: edupont
 ms.openlocfilehash: d5ec92099a7439bfb9a059105b0f1ce377534117
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8128740"

@@ -12,7 +12,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.openlocfilehash: 3d99c3ae307d8f0e4324fd14d86bddc85a916fcd
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605408"
@@ -74,36 +74,36 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
  Dæmi um það hvers vegna breyta ætti magni til að setja saman, er að notandi vill bóka afhendingu að hluta á birgðamagni áður en samsetningarfrálagið er afhent.  
 
- Eftirfarandi töflur útskýra reglur sem skilgreina lágmarks-og hámarksgildin sem hægt er að færa inn í **magnið sem á að setja saman** til að víkja af sjálfgefnu gildi í samsettri atburðarás. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
+ Eftirfarandi tafla útskýrir reglurnar sem skilgreina lágmarks- og hámarksgildi sem hægt er að færa inn í reitinn **Magn til samsetningar** til að víkja frá sjálfgildinu í samsetningardæmi. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
 
 - Sölupöntunarlína
 
     |                | **Magn** | **Magn til afhendingar** | **Magn til samsetningar til pöntunar** | **Afhent magn** |
     |----------------|--------------|------------------|-------------------------------|----------------------|
     |**Upphafsgildi**| 10          | 7                | 7                             | 0                    |
-    |**Breyta**      |              | 4                |                               |                      |
+    |**Breyting**      |              | 4                |                               |                      |
 
 - Samsetningarpöntunarhaus
 
     |                | **Magn** | **Magn til afhendingar** | **Magn til samsetningar til pöntunar** | **Afhent magn** |
     |----------------|--------------|------------------|-------------------------------|----------------------|
     |**Upphafsgildi**| 7           | 7                | 0                             | 7                    |
-    |**Breyta**      |              | 4 (sett inn sjálfgefið)|                         |                      |
+    |**Breyting**      |              | 4 (sett inn sjálfgefið)|                         |                      |
 
-Samkvæmt þessu dæmi er aðeins hægt að breyta **magninu til að setja saman** svæði sem hér segir:  
+Samkvæmt þessu dæmi er aðeins hægt að breyta reitnum **Magn til samsetningar** á eftirfarandi hátt:  
 
 - Lágmarksmagn sem hægt er að færa inn er 1. Það er vegna þess að það verður í það minnsta að setja saman eina einingu svo hægt sé að selja fjórar einingar, að því gefnu að þær þrjár sem eftir standa séu tiltækar sem birgðir.  
 - Hámarksmagn sem hægt er að færa inn er 4. Þetta er til að tryggja það að ekki sé meira af þessari Samsetning til pöntunar vöru framleitt en það sem vantar fyrir söluna.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
-[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
+[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

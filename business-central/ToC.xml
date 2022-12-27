@@ -44,7 +44,7 @@
     </Node>
     <Node Name="" DisplayName="Uppsetning bankaþjónustu" Page="bank-setup-banking.html">
       <Node Name="" DisplayName="Hvernig á að setja upp Bankareikninga lánardrottna" Page="bank-how-setup-bank-accounts.html"/>
-      <Node Name="" DisplayName="Hvernig á að setja upp AMC Banking 365 Fundamentals viðbótina" Page="bank-how-setup-bank-data-conversion-service.html"/>
+      <Node Name="" DisplayName="Hvernig á að: setja upp AMC Banking 365 Fundamentals viðbótina" Page="bank-how-setup-bank-data-conversion-service.html"/>
     </Node>
     <Node Name="" DisplayName="Uppsetning sölu" Page="sales-setup-sales.html">
       <Node Name="" DisplayName="Hvernig á að Skrá nýja viðskiptamenn" Page="sales-how-register-new-customers.html"/>

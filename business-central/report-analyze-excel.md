@@ -1,6 +1,6 @@
 ---
-title: Greining á skýrslugögnum með Excel og XML
-description: Lærðu að nota Excel og XML til að greina gagnasett í skýrslunni.
+title: Greining skýrslugagna með Excel og XML
+description: Kynntu þér hvernig þú notar Excel og XML til að greina gagnasafn skýrslu.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -11,26 +11,26 @@ ms.date: 03/16/2022
 ms.author: jswymer
 ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8521807"
 ---
-# <a name="analyzing-report-data-with-excel-and-xml"></a>Greining á skýrslugögnum með Excel og XML
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Greining skýrslugagna með Excel og XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-Ef um er að ræða forritara eða ítarnotanda hjálpar það við að skoða gögnin sem mynduð eru fyrir tiltekið skýrslugagnamengi á meðan nýjar skýrslur eru stofnaðar eða þeim breytt. Til að styðja þennan möguleika er hægt að flytja út skýrslugagnasafn sem hrágögn í Excel vinnubók eða XML skrá &mdash; beint. Í Excel er t.d. hægt að gera tilfallandi greiningar á gögnum og greina mál.
+Sem þróunaraðili eða vanur notandi er hjálplegt að skoða gögnin sem eru búin til fyrir tiltekið gagnasafn skýrslu á meðan þú býrð til nýjar skýrslur eða breytir þeim sem fyrir eru. Til að styðja við þennan möguleika er hægt að flytja út gagnasafn skýrslu sem hrá gögní Excel-vinnubók eða XML-skrá&mdash;beint. Í Excel er til dæmis hægt að gera tilfallandi greiningu á gögnum og greina vandamál.
 
-## <a name="get-started"></a>Hefjast handa
+## <a name="get-started"></a>Hafist handa
 
-Til að flytja út gagnasafn skýrslunnar í Excel vinnubók eða XML-skrá skaltu opna skýrsluna í biðlaranum og síðan á beiðsíðusíðunni Veldu **Senda í** > **Microsoft Excel skjal (aðeins gögn)** eða **XML skjal**. Skráin verður sótt í tækið þitt.
+Til að flytja gagnasafn skýrslu út í Excel-vinnubók eða XML-skrá skal opna skýrsluna í biðlaranum, síðan á beiðnisíðunni velja **Senda til** > **Microsoft Excel skjal (aðeins gögn)** eða **XML-skjal**. Skránni verður hlaðið niður í tækið þitt.
 
-## <a name="more-about-excel-data-only"></a>Meira um Excel (aðeins í gagnaveri)
+## <a name="more-about-excel-data-only"></a>Meira um Excel (aðeins gögn)
 
-**Microsoft Excel Skjal (gagnaeinin)** valmöguleiki flytur út niðurstöður skýrslunnar og viðmiðin sem notuð voru til að mynda þau &mdash; en það felur ekki í sér útlit skýrslunnar. Excel-skráin mun innihalda allt gagnasafnið sem hrágögn, raðað í línur og dálka. Allir gagnadálkar í gagnasafni skýrslunnar eru innifaldir, óháð því hvort þeir eru notaðir í skýrsluútlitinu.
+Valkosturinn **Microsoft Excel Skjal (aðeins gögn)** flytur út niðurstöður skýrslunnar og skilyrðið sem var notað til að mynda þær&mdash;en hún inniheldur ekki skýrsluútlitið. Excel-skráin mun innihalda allt gagnasafnið sem hrágögn, raðað í línur og dálka. Allir gagnadálkar í gagnasafni skýrslunnar eru innifaldir, óháð því hvort þeir eru notaðir í skýrsluútlitinu.
 
-Þegar þú hefur Excel-skrána geturðu byrjað að greina gögnin. Til dæmis er hægt að sía gögnin og nota Power Pivot til að birta það.
+Þegar Excel-skráin er komin er hægt að greina gögnin. Til dæmis er hægt að sía gögnin og nota Power Pivot til að birta þau.
 
 Í hvert skipti sem þú flytur út niðurstöður er nýtt vinnublað búið til. Með því að nota valkostinn **Microsoft Excel Skjal (aðeins gögn)** er hægt að keyra sömu skýrsluna og endurnota sniðsbreytingar. Til dæmis fyrir Power Pivot geturðu keyrt skýrsluna aftur fyrir annað tímabil, afritað niðurstöðurnar í vinnublaðið og síðan uppfært vinnublaðið. Einnig er hægt að finna skýrslugerðarforrit í [AppSource](https://appsource.microsoft.com/).
 
@@ -39,9 +39,9 @@ Til að flytja út gagnasafn skýrslunnar í Excel vinnubók eða XML-skrá skal
 
 ## <a name="for-administrators"></a>Fyrir stjórnendur
 
-- **Microsoft Excel Skjal (aðeins gögn)** var kynnt sem valfrjáls eiginleiki í útgáfutímabili 1, uppfærslu 18.3 fyrir árið 2021. Ef veita á notendum aðgang að þessari aðgerð þegar 2021 losun bylgju 1 er keyrð skal virkja **DataSet Microsoft Excel fyrir skjalauppfærslu** í **aðgangsstjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management). Í 2021 útgáfu Wave 2 varð þessi eiginleiki varanlegur, svo ekki verður hægt að virkja hann.
+- **Microsoft Excel Skjal (aðeins gögn)** var kynnt sem valfrjáls eiginleiki í útgáfutímabili 1, uppfærslu 18.3 fyrir árið 2021. Til að veita notendum aðgang að þessum eiginleika skal virkja 2021 útgáfutímabil 1, virkja eiginleikauppfærsluna **Vista gagnasafn skýrslu í Microsoft Excel skjal** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management). Á útgáfutímabili 2 fyrir árið 2021 er þessi eiginleiki varanlegur og þarf þá ekki að virkja hann.
 
-- Til að nota **Microsoft Excel skjal (aðeins gögn)** þarf notendareikninga að **Leyfa útflutningsskýrslu útflutnings-DataSet yfir Excel** -heimild. Hægt er að veita notendum þessa heimild með því að **úthluta verkfærum** eða **Flytja út skýrslu með Excel** heimildinni. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
+- Til að nota **Microsoft Excel skjal (aðeins gögn)** þurfa notandareikningar á leyfinu **Leyfa aðgerð til að flytja út skýrslugagnasafn í Excel** að halda. Hægt er að gefa notendum þessa heimild með því að úthluta annaðhvort heimildasamstæðunni **Verkfæri úrræðaleitar** eða **Flytja út skýrslu í Excel**. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
 ## <a name="for-developers-and-advanced-users"></a>Fyrir þróunaraðila og reynslumikla notendur
 
@@ -58,7 +58,7 @@ Frekari upplýsingar um skýrsluhönnun er að finna í [Yfirlit skýrslu](/dyna
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Unnið með skýrslur](ui-work-report.md)  
+[Unnið með Skýrslur](ui-work-report.md)  
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

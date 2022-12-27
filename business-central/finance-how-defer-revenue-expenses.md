@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: 9d6acc41574870d691a14913ed0222df36dbeb74
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605516"
@@ -96,26 +96,26 @@ Fjárhagsfærslur sem á að bóka á tilgreindan frestunarreikning, til dæmis 
 2. Á síðunni **Samantekt frestunar sölu** í reitnum **Staða frá og með** skal færa inn dagsetninguna upp að því marki sem þú vilt skoða frestaðar tekjur.
 3. Veldu hnappinn **Vista**.
 
-## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Til að tilgreina tímabil sem leyfir bókun deferral-bókunar
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Tilgreina tímabil þar sem heimilt er að bóka frestun
 
-Hægt er að tilgreina tímabil þar sem fólk getur bókað færslur með því að færa inn dagsetningar í **Bókun leyfð frá** og **Bókun leyfð í** svæði sem hér segir:
+Hægt er að tilgreina tímabil þar sem fólk getur bókað færslur með því að slá inn dagsetningar í reitina **Leyfa bókun frá** og **leyfa bókun til** sem hér segir:
 
-* Fyrir alla notendur á **síðunni Fjárhagsgrunnur**
-* Fyrir ákveðna notendur á **síðunni Notandauppsetning**
+* Fyrir alla notendur, á síðunni **Fjárhagsgrunnur**
+* Fyrir tiltekna notendur, á síðunni **Notandauppsetning**
 
-Ef það er gert verður að gera undantekningu fyrir deferrals til að leyfa að þau séu bókuð utan tímabilsins. Ef skilgreina á tímabilið er þessum skrefum fylgt.
+Ef þú hefur gert það verður þú að gera undantekningu fyrir frestanir til að hægt sé að bóka þær utan tímabilsins. Til að skilgreina tímabilið skal fylgja þessum skrefum.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **fjárhagsskipulag** eða **notandagrunnur** og velja síðan tengda tengilinn.
-2. Í reitnum **heimila Deferral posting** og **Leyfa bókun á** deferral posting skal færa inn upphafs-og lokadagsetningu tímabilsins.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsgrunnur** eða **Notandauppsetning** og velja síðan viðeigandi tengil.
+2. Í reitina **Leyfa bókun frestana frá** og **Leyfa bókun frestana til** skal færa inn upphafs- og lokadagsetningu fyrir tímabilið.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
-[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna í færslubókum](ui-work-general-journals.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

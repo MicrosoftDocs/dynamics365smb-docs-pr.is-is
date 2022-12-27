@@ -12,7 +12,7 @@ ms.date: 06/14/2021
 ms.author: edupont
 ms.openlocfilehash: dafd52a1a2925c0347a455810ad727b8b89706dc
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9607257"
@@ -43,7 +43,7 @@ Svipaður sveigjanleiki er til þegar verið er að selja vörur sem á að safn
 ## <a name="see-also"></a>Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
-[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
+[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

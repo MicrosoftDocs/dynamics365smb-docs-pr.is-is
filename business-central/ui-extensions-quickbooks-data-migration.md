@@ -12,7 +12,7 @@ ms.date: 06/24/2021
 ms.author: edupont
 ms.openlocfilehash: 620218c86be81578b7f40ab74434d4004d5f2db2
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9530865"
@@ -22,7 +22,7 @@ ms.locfileid: "9530865"
 Þessi viðbót auðveldar flutning viðskiptamanna, lánardrottna og vara úr QuickBooks í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef fyrirtækið notar QuickBooks er hægt að flytja út viðeigandi upplýsingar og opna síðan leiðarvísi fyrir uppsetningu með hjálp til að hlaða gögnunum upp í [!INCLUDE[prod_short](includes/prod_short.md)].  
 Nánari upplýsingar eru í [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).
 
-## <a name="data-from-quickbooks-desktop"></a>Gögn úr skjáborði Fljótbókar
+## <a name="data-from-quickbooks-desktop"></a>Gögn frá QuickBooks Desktop
 
 Þú getur flutt inn eftirfarandi gögn úr QuickBooks Online til Business Central:
 
@@ -55,7 +55,7 @@ Til þess að fá gögnin þín úr QuickBooks Desktop þarftu að hlaða niður
 > [!NOTE]
 > Að svo stöddu er gagnaútflutningstólið aðeins með QuickBooks 2017 og 2018.
 
-## <a name="finding-the-quickbooks-data-migration-extension"></a>Leit að gagnaflutendagögnum Fljótsbóka
+## <a name="finding-the-quickbooks-data-migration-extension"></a>Finna viðbótin QuickBooks-gagnaflutningar
 
 Viðbótin QuickBooks gagnaflutningar er sett upp og tilbúin til keyrslu sem samþættur hluti af Gagnaflutningar uppsetningarleiðbeiningar með aðstoð. Ef þú ert tilbúinn til að byrja núna og hefur flutt út gögnin þín úr QuickBooks skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp** og velja síðan viðkomandi tengil. Veljið **Flytja viðskiptagögn** og fara síðan eftir skrefunum í leiðbeiningunum.  
 
@@ -66,7 +66,7 @@ Viðbótin QuickBooks gagnaflutningar er sett upp og tilbúin til keyrslu sem sa
 Ef þú ert að nota VSK, þarftu kannski að bæta viðskiptabókunarflokki og vörubókunarflokki við uppsetningu bókana svo þú getir bókað VSK upphæðir.
 Staðfesta upphafsstöðu reikninga í fjárhagnum. QuickBooks geymir ekki núgildandi stöðu fyrir alla reikninga, og því gætirðu þurft að leiðrétta upphafstöður.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

@@ -9,7 +9,7 @@ ms.date: 06/01/2021
 ms.author: andreipa
 ms.openlocfilehash: 9163330c1150a4af17954d5788f24cf004dca6dd
 ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/17/2022
 ms.locfileid: "8455556"
@@ -21,7 +21,7 @@ Framleiðsluskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] ger
 ## <a name="reports"></a>Skýrslur
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
-## <a name="tasks"></a>Verk
+## <a name="tasks"></a>Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 

@@ -1,5 +1,5 @@
 ---
-title: Setja upp bankareikninga (inniheldur Video)
+title: Upspetning bankareikninga (inniheldur myndskeið)
 description: Kynntu þér hvernig bankareikningar eru notaðir í Business Central og hvernig hægt er að stemma af upphæðir með bankanum.
 author: brentholtorf
 ms.topic: conceptual
@@ -12,38 +12,38 @@ ms.date: 01/24/2022
 ms.author: edupont
 ms.openlocfilehash: deb1ac60e40306d9a8730b825b038e663bd51166
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605327"
 ---
 # <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
 
-Þú notar bankareikninga í [!INCLUDE[prod_short](includes/prod_short.md)] til að fylgjast með bankafærslunum þínum. Lyklar geta verið útnefni í gjaldmiðli landsins eða í erlendum gjaldmiðli. Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun. Bankareikningarnir fela í sér aukaaðgerðir fyrir [afstemmingu](receivables-apply-payments-auto-reconcile-bank-accounts.md) greiðslu, [afstemmingu](bank-how-reconcile-bank-accounts-separately.md) banka og innflutnings-og útflutning á bankaskrám. Bankareikningarnir geta einnig verið teknir með í færslum í almennum færslubókum. Hver bankareikningur er tengdur við reikning í bókhaldslyklinum í gegnum tilskilinn bókunarflokk bankareiknings. Með því að nota bankareikning í greiðslufærslu verður til færsla sjálfkrafa stofnuð bæði fyrir bankareikninginn og tengdan fjárhag (Fjárhagsreikningur).  
+Þú notar bankareikninga í [!INCLUDE[prod_short](includes/prod_short.md)] til að fylgjast með bankafærslunum þínum. Hægt er að hafa reikninga í SGM eða erlendum gjaldmiðli. Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun. Bankareikningarnir innihalda aukalega virkni fyrir [afstemmingu greiðslna](receivables-apply-payments-auto-reconcile-bank-accounts.md), [afstemmingu banka](bank-how-reconcile-bank-accounts-separately.md) og inn- og útflutning bankaskráa. Bankareikningarnir geta einnig verið teknir með í færslum í almennum færslubókum. Hver bankareikningur er tengdur við reikning í bókhaldslyklinum í gegnum tilskilinn bókunarflokk bankareiknings. Með því að nota bankareikning í greiðslufærslu verður færsla sjálfkrafa stofnuð bæði á bankareikningi og tengdum fjárhagsreikningi.  
 
 Bankareikningar virka mismunandi eftir því hvort gjaldmiðilskóði er tilgreindur:
 
-- Ef Gjaldmiðilskóði er auður
+- Ef gjaldmiðilskóði er auður
 
-  Allar færslur á bankareikninginn eru í gjaldmiðli landsins (ISK) fyrir gildandi fyrirtæki. Ef færsla fer fram á reikningnum í öðrum gjaldmiðli eru upphæðirnar bókaðar á reikninginn í LCY samkvæmt viðkomandi gengi gjaldmiðils. Gefa verður einhverjar ávísanir út úr þessum lykli í ISK. Ef bankareikningurinn er notaður í færslubók verður færslubókarlínan sjálfkrafa hluti af auðum gjaldmiðilskóða.  
+  Allar færslur á bankareikningnum verða í staðbundnum gjaldmiðli (SGM) fyrir núverandi fyrirtæki. Ef færsla fer fram á reikningnum í öðrum gjaldmiðli eru upphæðirnar bókaðar á reikninginn í LCY samkvæmt viðkomandi gengi gjaldmiðils. Allar ávísanir sem eru gefnar út frá þessum reikningi verða að vera gefnar út í SGM. Ef bankareikningurinn er notaður í færslubók verður færslubókarlínan sjálfkrafa hluti af auðum gjaldmiðilskóða.  
   
 - Gjaldmiðilskóði er tilgreindur
 
-  Allar færslur sem gerðar eru til og ávísanir sem gefnar eru út á þennan lykil verða að vera í sama gjaldmiðli og tilgreint er á reikningnum.
+  Allar færslur sem gerðar eru fyrir og ávísanir gefnar út frá þessum reikningi verða að vera í sama gjaldmiðli og tilgreindur er á reikningnum.
 
-Hægt er að vista tíma í gagnafærslu með því að gera bankareikning að sjálfgefnum lykli til að nota fyrir gjaldmiðilinn sem tilgreindur er fyrir lykilinn. Ef það er gert er lykillinn tengdur við sölu-og þjónustuskjöl sem nota gjaldmiðilinn. Ef gera á lykilinn sjálfgefið fyrir sölu-og þjónustuskjöl á **Bankareikbankakortu** skal kveikja á **notkun sem sjálfgildi gjaldmiðilsvíxilsins**. Ef þörf krefur er hægt að velja annan lykil þegar verið er að vinna í skjali.
+Þú getur sparað þér tíma við gagnafærslu með því að gera bankareikning sjálfgefinn reikning sem á að nota fyrir gjaldmiðilinn sem tilgreindur er fyrir reikninginn. Ef þú gerir það er reikningnum úthlutað á sölu- og þjónustuskjöl sem nota gjaldmiðilinn. Til að gera reikninginn sjálfgefinn fyrir sölu- og þjónustuskjöl, á síðunni **Bankareikningsspjald**, skaltu kveikja á **Nota sem sjálfgefið fyrir gjaldmiðil**. Ef þörf krefur er hægt að velja annan reikning þegar unnið er í skjali.
 
-Bankareikningur er óaðskiljanlegur hluti af [!INCLUDE[prod_short](includes/prod_short.md)] og gegnir hlutverki við margvíslega aðra getu. Eftirfarandi mynd sýnir mikilvægustu tengslin:
+Bankareikningur er samþættur hluti af [!INCLUDE[prod_short](includes/prod_short.md)] og gegnir hlutverki í mörgum öðrum möguleikum. Eftirfarandi mynd sýnir mikilvægustu tengslin:
 
 ![Skýring á tengslum bankareiknings.](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
 
-Hægt er að sjá að stofnun á bankareikningi gerir það aðgengilegt í öllum þeim stöðum sem sýndir eru hér að ofan, auk þess að speglast í viðkomandi fjárhagsreikningi og á **upplýsingasíðu** félagsins.
+Þú sérð að stofnun bankareiknings gerir hann aðgengilegan á öllum stöðum sem sýndir eru hér að ofan ásamt því að vera sýndir á viðkomandi fjárhagsreikningi og á síðunni **Fyrirtækjaupplýsingar**.
 
-Bankareikningur er yfirleitt vaktaðir daglega til að ganga úr skugga um að nýjar greiðslur frá viðskiptavinum séu skráðar eins fljótt og auðið er. Þetta hjálpar til við að tryggja að raunveruleg staða viðskiptamanns endurspeglist í [!INCLUDE[prod_short](includes/prod_short.md)]. Sem gefa sölum einstaklingum, bókamönnum og öðrum starfsmönnum aðgang að sem flestum viðeigandi og upp-upplýsingum upplýsingar svo þeir komist hjá því að gera óþarfa símtöl við viðskiptavin varðandi gjaldfallna reikninga eða tafir á sendingum.  
+Yfirleitt er fylgst með bankareikningi daglega til að ganga úr skugga um að nýjar greiðslur frá viðskiptavinum séu skráðar eins fljótt og hægt er. Þetta hjálpar til við að tryggja að raunveruleg staða viðskiptamanns komi fram í [!INCLUDE[prod_short](includes/prod_short.md)]. Það veitir sölufólki, endurskoðendum og öðrum starfsmönnum aðgang að mikilvægustu og nýjustu upplýsingum svo að þeir forðist að hringja í viðskiptamanninn að óþörfu vegna reikninga á gjalddaga eða tafa á sendingum.  
 
 ![Skýring á bankagreiðslu.](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
 
-Annað verkefni er að flytja inn gjaldeyristekjur lánardrottins með innleysta Gengi gjaldmiðils til að ganga úr skugga um að raunveruleg Staða lánardrottna sé upp-til skv. Með því [að nota greiðsluafstemmingargetu](receivables-apply-payments-auto-reconcile-bank-accounts.md) er auðveldasta leiðin að gera það. Í **Greiðsluafstemmingarbók** er hægt að flytja inn bankafærslur beint frá netbanka og láta bóka þér meira og minna sjálfkrafa. Færslubókin greinir og bókar sjálfkrafa eftirfarandi:  
+Annað verk er að flytja inn gjaldmiðilsgreiðslur lánardrottins með raunverulegu gengi gjaldmiðils til að ganga úr skugga um að raunveruleg staða lánardrottna sé uppfærð. Að nota möguleikann [greiðsluafstemming](receivables-apply-payments-auto-reconcile-bank-accounts.md) er auðveldasta leiðin til að gera þetta. Í **Greiðsluafstemmingarbók** er hægt að flytja inn bankafærslur beint frá netbanka og láta bóka þér meira og minna sjálfkrafa. Færslubókin greinir og bókar sjálfkrafa eftirfarandi:  
 
 - Beingreiðslur frá viðskiptavinum  
 - Greiðslur viðskiptavinar á stökum reikningum  
@@ -54,51 +54,51 @@ Annað verkefni er að flytja inn gjaldeyristekjur lánardrottins með innleysta
 - Endurteknar greiðslur lánardrottna og áskriftir  
 - Bankakostnaður og vextir  
 
-Greiðsluuppgjör gefur verulegan tímasparnað í bókun á innleið og útsendum greiðslum. Hins vegar er ekki tekið tillit til færslna á bankareikningi í [!INCLUDE[prod_short](includes/prod_short.md)] 100% rétt fyrr en bankaafstemmingar eru keyrðar.  
+Greiðsluafstemming sparar umtalsverðan tíma við bókun á greiðslum á innleið og útleið. Færslurnar á bankareikningnum í [!INCLUDE[prod_short](includes/prod_short.md)] eru hinsvegar ekki álitnar 100% réttar fyrr en bankaafstemming er keyrð.  
 
 Bankaafstemming er notuð til að ganga úr skugga um að bankareikningurinn í [!INCLUDE[prod_short](includes/prod_short.md)] samsvari ytri reikningnum í bankanum.  
 
  ![Skýring á afstemming bankareiknings.](media/Set-Up-Bank-Accounts/BankReconciliation.png)
 
-Í skýringarmynd hér að ofan táknar leftside-hliðin bankareikninginn í [!INCLUDE[prod_short](includes/prod_short.md)] og réttingarhliðin táknar færslur sem fluttar hafa verið inn frá bankanum í gegnum bankaforrit á netinu. Skýringarmyndin í miðjunni sýnir færslurnar frá báðum hliðum, sem er bankaafstemmingin.
+Á myndinni hér að ofan táknar vinstri hliðin bankareikninginn í [!INCLUDE[prod_short](includes/prod_short.md)] og hægri hliðin táknar færslurnar sem fluttar eru inn frá bankanum gegnum netbankaforritið. Skýringarmyndin í miðjunni sýnir færslurnar frá báðum hliðum, sem er bankaafstemmingin.
 
-Raunverulegi bankinn ætti að kannast við flestar færslur frá bankareikningnum í [!INCLUDE[prod_short](includes/prod_short.md)]. Með fáum undantekningum er m.a. átt við eftirfarandi tilvik:  
+Raunverulegi bankinn ætti að kannast við flestar færslur frá bankareikningnum í [!INCLUDE[prod_short](includes/prod_short.md)]. Þær fáu undantekningar fela í sér eftirfarandi tilvik:  
 
 - Leiðréttingar bókaðar í [!INCLUDE[prod_short](includes/prod_short.md)]  
-- Athuganir sem gefnar eru út sem hafa ekki enn verið gjaldsendar 
-- Lánardrottinsgreiðslur sem hafa enn ekki verið samþykktar af bankanum  
+- Útgefnar ávísanir sem ekki er búið að innleysa 
+- Greiðslur lánardrottna sem bankinn hefur ekki enn samþykkt  
 
-Af efnislegum reikningi í bankanum eru færslur sem ekki eru greindar í greiðsluafstemmingarbókinni koma allan tímann, eins og til dæmis eftirfarandi:  
+Frá raunverulegum reikningi í bankanum berast oft færslur sem greiðsluafstemmingarbókin ber ekki kennsl á, t.d. eftirfarandi:  
 
 - Nýjar áskriftir lánardrottins  
 - Greiðslur viðskiptavina án lýsingar
 - Bankavextir
-- Bankagjöld
-- Gjöld vegna kreditkorta ekki enn tilkynnt
+- Bankakostnaður
+- Kreditkortagjöld sem hafa ekki verið tilkynnt
 
-Því betra sem þú ert við vörpun upplýsinga í greiðsluafstemmingarbók, því fleiri færslur bókast sjálfkrafa og auðveldari regluleg bankaafstemming verður.
+Því betri sem þú ert í að kortleggja upplýsingar í greiðsluafstemmingarbókinni, því fleiri færslur eru bókaðar sjálfkrafa og þeim mun auðveldari verður reglubundna bankaafstemmingin.
 
-Sjá í myndbandinu hér að neðan grunnskrefin til að setja upp bankareikning í [!INCLUDE[prod_short](includes/prod_short.md)].
+Sjá í myndbandinu hér að neðan grunnskref til að setja upp bankareikning í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 <br /><br />
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
 > [!WARNING]
-> Sumir reitir geta innihaldið viðkvæm gögn eins og reitirnir **Útibúsnúmer banka**, **Bankareikningsnr.**, **SWIFT-kóði** og **IBAN-númer**. Lærðu meira á að [vakta viðkvæm svæði](across-log-changes.md#monitoring-sensitive-fields).
+> Sumir reitir geta innihaldið viðkvæm gögn eins og reitirnir **Útibúsnúmer banka**, **Bankareikningsnr.**, **SWIFT-kóði** og **IBAN-númer**. Frekari upplýsingar er að finna á [Fylgst með viðkvæmum reitum](across-log-changes.md#monitoring-sensitive-fields).
 
 ## <a name="to-set-up-bank-accounts"></a>Bankareikningar settir upp
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **bankareikninga** og veljið síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar**, velja síðan viðkomandi tengil.
 2. Á síðunni **bankareikningar** skal velja aðgerðina **Nýtt**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    Dæmi um það **væri reiturinn Bankareikn. bókunarflokkur** sem tengir bankareikning við undirliggjandi fjárhagsreikning í efnahagslykil. Frekari upplýsingar um [uppsetningu bókunarflokka](finance-posting-groups.md).
+    Dæmi væri reiturinn **Bókunarflokkur bankareiknings** sem tengir bankareikninginn við undirliggjandi fjárhagsreikning í efnahagsreikningnum. Frekari upplýsingar er að finna á [Uppsetning bókunarflokka](finance-posting-groups.md).
 
 > [!TIP]
-> Sum svæði eru falin þar til valið er að **Sýna** Aðgerðir, gjarnan vegna þess að þau eru sjaldan notuð. Öðrum verður að bæta við með sérstillingu. Frekari upplýsingar er að sérsníða á [vinnusvæðinu](ui-personalization-user.md).
+> Sumir reitir eru faldir þar til þú velur aðgerðina **Sýna fleiri**, yfirleitt vegna þess að þeir eru sjaldan notaðir. Öðrum verður að bæta við með sérstillingu. Frekari upplýsingar er að finna á [Sérstilling verksvæðis](ui-personalization-user.md).
 
-Hægt er að stofna eins marga bankareikninga og þarf fyrir reksturinn. Fyrir hvern bankareikning þarf að tilgreina upplýsingar sem auðkenna bankareikninginn á einkvæman hátt. Þessar upplýsingar eru meðal annars landfræðilegs aðseturs bankans; númeraröð fyrir mismunandi gerðir færslna, til dæmis beingreiðslu-og kreditfærslur; gjaldeyrisupphæðir eru tilgreindar í; og upplýsingar notaðar við innflutning á bankauppgjörum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+Hægt er að stofna eins marga bankareikninga og þarf fyrir reksturinn. Fyrir hvern bankareikning þarf að tilgreina upplýsingar sem auðkenna bankareikninginn á einkvæman hátt. Þessar upplýsingar fela í sér heimilisfang bankans, númeraraðir fyrir mismunandi færslugerðir, eins og beingreiðslu og kreditfærslur, gjaldmiðilinn sem upphæðar eru gefnar upp í og upplýsingar sem eru notaðar til að flytja inn bankayfirlit. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 <!--
 The following table explains key fields.
 
@@ -157,36 +157,36 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance"></a>Til að færa inn opnunarstöðu
+## <a name="to-enter-an-opening-balance"></a>Að færa inn opnunarstöðu
 
-Til að fylla út **reitinn Staða** í með opnunarstöðu verður að bóka bankareiknings-færslu með upphæðinni sem um ræðir. Hægt er að gera þetta með því að framkvæma afstemmingu bankareiknings. Frekari upplýsingar á [afstemmingu bankareikninga](bank-how-reconcile-bank-accounts-separately.md).  
+Til að fylla út í reitinn **Staða** með opnunarstöðu verður þú að bóka fjárhagsfærslu bankareiknings með upphæðinni. Hægt er að gera þetta með því að framkvæma afstemmingu bankareiknings. Frekari upplýsingar er að finna á [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).  
 >
-> Einnig er hægt að innleiða opnunarstöðuna sem hluta af almennri gagnastofnun í nýjum fyrirtækjum með því að nota leiðbeiningar um uppsetningu á Viðskipdata **fyrir** aðstoðarmenn yfirfæra. Lærðu meira á [að undirbúa þig fyrir viðskipti](ui-get-ready-business.md).  
+> Einnig er hægt að tiltaka opnunarstöðu sem hluta af almennri gagnamyndun í nýjum fyrirtækjum með því að nota **Flytja viðskiptagögn** leiðbeiningar um uppsetningu með hjálp. Frekari upplýsingar eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Ekki bóka opnunarstöðuna beint í fjárhag. Ef færslur í fjárhagsreikningnum sem voru bókaðar beint á hann leiðir yfirleitt til þess að ekki er hægt að stemma bankareikninginn af. Með bankareikningum erlendra gjaldmiðla er svo reynd afleiðing mismunar sem safnast upp eftir því sem meiri bankaafstemmingar eru bókaðar. Venjulega er opnunarbankainnistaða bókuð beint á bankareikning og upphæðin endar í fjárhagsreikningnum. Síðar er hægt að bakfæra hana úr fjárhagsreikningnum sem er notaður til að jafna opnunarfjárhagsstöðu. Í öðru tilfelli verður að jafna beina bókun við fjárhagsreikninginn áður en fyrsta bankaafstemming &mdash; hefst, sérstaklega ef bankareikninginn er í erlendum gjaldmiðli.
+> Ekki bóka opnunarstöðuna beint í fjárhaginn. Að vera með færslur í fjárhagsreikningnum sem voru bókaðar beint í hann leiðir yfirleit til þess að ekki sé hægt að afstemma bankareikninginn. Með bankareikningum í erlendum gjaldmiðli leiðir slíkt verklag til þess að mismunur safnast upp eftir því sem þú bókar fleiri bankaafstemmingar. Yfirleitt er opnunarstaða í banka bókuð beint á bankareikninginn og upphæðin endar á fjárhagsreikningnum. Annars geturðu seinna bakfært hana út af fjárhagsreikningnum sem þú notar jafna opnunarstöðu fjárhagsins. Í báðum tilvikum þarf að jafna allar beinar bókanir á fjárhagsreikninginn áður en þú byrjar fyrstu bankaafstemminguna&mdash;sérstaklega ef bankareikningurinn er í erlendum gjaldmiðli.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Til að setja upp bankareikning þinn til að flytja inn eða flytja út bankaskrár
 
-Svæðin sem tengjast inn-og útflutningi á bankastraumum og skrám eru á **flutningi** fastflipa á **síðu bankareikningsreikningsins**. Lærðu meira á [að AMC Banking 365 Fundamentals nota framlengingunni](ui-extensions-amc-banking.md) og [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).
+Reitirnir sem tengjast innflutningi og útflutningi bankastraums og skráa eru í flýtiflipanum **Millifærsla** á síðunni **Bankareikningsspjald**. Frekari upplýsingar er að finna í [Notkun AMC Banking 365 Fundamentals viðbótar](ui-extensions-amc-banking.md) og [Setja upp Envestnet Yodlee Bank Feeds þjónustu](bank-how-setup-bank-statement-service.md).
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **bankareikninga** og veljið síðan tengda tengilinn.
-2. Opna skal spjald fyrir bankareikninginn sem er að flytja út eða flytja inn bankaskrár fyrir.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar**, velja síðan viðkomandi tengil.
+2. Opnaðu spjaldið fyrir bankareikninginn sem þú ætlar að flytja út og inn bankaskrár fyrir.
 3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Flytja**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Mismunandi útflutningsþjónusta skráa og snið þeirra þurfa mismunandi uppsetningargildi á síðunni **Bankareikningsspjald**. Notandi verður upplýstur um röng eða uppsetningargildi þegar skráin er flutt út. Lestu stuttar lýsingar svæðanna vandlega eða vísaðu í efnisatriði tengda ferlinu. Til dæmis þarf að flytja út greiðsluskrá fyrir Norður-ameríska flutningssjóði (EFIENT) og krefjast þess að **Reitirnir í Síðasta greiðslutilkynningu nr** . og **flutningnr.** verði fylltir út. Frekari upplýsingar við [útflutning greiðslur í Bankarskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+> Mismunandi útflutningsþjónusta skráa og snið þeirra þurfa mismunandi uppsetningargildi á síðunni **Bankareikningsspjald**. Þú færð upplýsingar um röng eða týnd uppsetningargildi þegar þú flytur skrána út. Lestu stuttar lýsingar á reitunum vandlega eða vísaðu til viðkomandi efnisferlis. Til dæmis, við útflutning greiðsluskráar fyrir kortamillifærslu NA (EFT) þarf að fylla út reitina **Síðasta greiðslutilkynningarnúmer** og **Kenninúmer**. Frekari upplýsingar er að finna á [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 
 Reitirnir í flýtiflipanum **Flutningur** á bankareikningnum þjóna mismunandi tilgangi, eftir því hvort greiðslan er á innleið eða útleið.
 
-Útskýring hér að neðan sýnir leið á inngreiðslum (tölur í lýsingunni samsvara þeim sem eru í útskýringu):
+Myndin hér að neðan sýnir leið inngreiðslna (tölurnar í lýsingunni samsvara þeim á myndinni):
 
 :::row:::
     :::column:::
 
 1. Færslurnar eru fluttar út af bankareikningnum á annaðhvort læsilegu .csv-sniði eða sniði bankans.
-2. *Skilgreining gagnaskipta* varpar upplýsingunum í skránni í reitina í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar í [Setja upp gagnaskipti](across-set-up-data-exchange.md)
-3. *Útflutningur/innflutningsuppsetning* gagna skilgreinir útflutning eða innflutning og tengla í skilgreiningu gagnaskipta.
+2. *Skilgreining gagnaskipta* varpar upplýsingunum í skránni í reitina í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Setja upp gagnaskipti](across-set-up-data-exchange.md)
+3. *Uppsetning útflutnings/innflutnings gagna* skilgreinir innflutning eða útflutning og tengir við skilgreiningu gagnaskipta.
 4. *Bankayfirlitin á innflutningssniðinu* tengja innflutningsuppsetninguna við bankareikninginn.
 5. Greiðslurnar eru fluttar inn gegnum síðuna **Greiðsluafstemmingarbók** eða **Afstemming bankareiknings**.
 
@@ -198,18 +198,18 @@ Reitirnir í flýtiflipanum **Flutningur** á bankareikningnum þjóna mismunand
   :::column-end:::
 :::row-end:::
 
-Innsendar greiðslur eru alltaf fluttar inn í **Greiðsluafstemmingarbók** eða beint inn á **afstemmingarsíðu** bankareiknings. Á hinn bóginn geta greiðslur á útleið komið úr hvaða greiðslubók sem er. Einu forsendurnar eru þær að velja þarf reitinn **Leyfa útflutning greiðslu** í viðkomandi runu greiðslubókar.
+Greiðslur á innleið eru alltaf fluttar inn gegnum síðuna **Greiðsluafstemmingarbók** eða beint á síðuna **Afstemming bankareiknings**. Á hinn bóginn geta greiðslur á útleið komið úr hvaða greiðslubók sem er. Einu forsendurnar eru þær að velja þarf reitinn **Leyfa útflutning greiðslu** í viðkomandi runu greiðslubókar.
 
-Útskýringamynd hér sýnir leiðina á útleið greiðslur (tölur í lýsingunni samsvara þeim sem eru í útskýringu):
+Myndin hér að neðan sýnir leið útgreiðslna (tölur í lýsingunni samsvara þeim sem eru á myndinni):
 
 :::row:::
     :::column:::
 
-6. Færslurnar byggja á greiðslubók sem hefur verið útbúin fyrir útflutning á greiðslum í skrá.
+6. Færslurnar eru fylltar út í greiðslubók sem hefur verið útbúin fyrir útflutning á greiðslum í skrá.
 7. *Bankayfirlitin á innflutningssniðinu* tengja innflutningsuppsetninguna við bankareikninginn.
-8. *Útflutningur/innflutningsuppsetning* gagna skilgreinir útflutning eða innflutning og tengla í skilgreiningu gagnaskipta.
-9. *Skilgreining gagnaskipta* varpar upplýsingunum í skránni í reitina í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar í sjá [Setja upp gagnaskipti](across-set-up-data-exchange.md)
-10. Greiðslurnar eru fluttar út úr greiðslubókinni og fluttar inn í bankareikninginn.
+8. *Uppsetning útflutnings/innflutnings gagna* skilgreinir innflutning eða útflutning og tengir við skilgreiningu gagnaskipta.
+9. *Skilgreining gagnaskipta* varpar upplýsingunum í skránni í reitina í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna á [Setja upp gagnaskipti](across-set-up-data-exchange.md)
+10. Greiðslurnar eru fluttar út úr greiðslubókinni og fluttar inn á bankareikninginn.
 
   :::column-end:::
   :::column:::
@@ -221,22 +221,22 @@ Innsendar greiðslur eru alltaf fluttar inn í **Greiðsluafstemmingarbók** eð
 
 ## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Til að setja upp bankareikninga lánardrottna fyrir útflutning bankaskráa
 
-**Í reitunum flutningur** Fastflipi á **spjaldi** bankareikningssíða lánardrottins tengist útflutningi á bankastraumum og skrám. [Frekari upplýsingar um AMC Banking 365 Fundamentals notkun húsnæðis](ui-extensions-amc-banking.md) -og [Útflutningsgreiðslna á bankarskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+Reitir á **Flutningur** flýtiflipanum á síðunni **Bankareikningsspjald lánardrottins** eru tengdir útflutningi á bankastraumum og skrám. Frekari upplýsingar er að finna í [Nota AMC Banking 365 Fundamentals viðbót](ui-extensions-amc-banking.md) og [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 ## <a name="changing-your-bank-account"></a>Bankareikningnum breytt
 
-Ef nota á annan bankareikning fyrir viðskiptin þarf að stofna nýja bankareikninginn í [!INCLUDE[prod_short](includes/prod_short.md)]. Mælt er með því að nota ekki upplýsingar um reikninginn sem er nú í notkun vegna þess að það getur leitt til rangra gagna. Til dæmis gæti opnunarstaðan verið röng eða bankagjaldið gæti hætt að virka á réttan hátt. Það er mikilvægt að halda núverandi og nýjum reikningum aðskildum.
+Til að nota annan bankareikning fyrir reksturinn þarf að stofna nýja bankareikninginn í [!INCLUDE[prod_short](includes/prod_short.md)]. Mælt er með því að nota ekki upplýsingar um reikninginn sem er nú í notkun vegna þess að það getur leitt til rangra gagna. Til dæmis gæti opnunarstaðan verið röng eða bankagjaldið gæti hætt að virka á réttan hátt. Það er mikilvægt að halda núverandi og nýjum reikningum aðskildum.
 
-Eftir að nýi bankareikningurinn hefur verið stofnaður ættir þú einnig að stofna nýjan bókunarflokk bankans og úthluta honum á nýjan fjárhagslykil. Hægt er að endurnota fyrirliggjandi bankabókunarflokk og eru bankafærslur bókaðar á sömu fjárhagslykla og aðra bankareikninga sem aðrir viðskiptabókunarflokkar banka. Hins vegar er mælt með því að stofna nýjan bókunarflokk bankans og fjárhagslykil svo afstemmingarnar verði auðveldari.
+Eftir að nýi bankareikningurinn hefur verið stofnaður ættir þú einnig að stofna nýjan bókunarflokk bankans og úthluta honum á nýjan fjárhagslykil. Þú getur endurnotað fyrirliggjandi bókunarflokk bankans og bankafærslur verða bókaðar á sömu fjárhagslyklana eins og hinir bankareikningarnir sem deila bókunarflokki bankans. Hins vegar er mælt með því að stofna nýjan bókunarflokk bankans og fjárhagslykil svo afstemmingarnar verði auðveldari.
 
 > [!NOTE]
 > Mundu að upplýsingar um bankareikning á opnum sölureikningum sýna enn upprunalega bankareikninginn. Samkvæmt því er líklegt að greiðslur verði enn bókaðar á þann reikning. Við mælum með því að þú haldir báðum reikningunum virkum í ákveðið langan tíma eftir breytinguna.
 
-Til að fá þéttari Sýn á lausafjárreikningana í fjárhagsskýrslugerð eru notaðir **samtölu-og** endareikningar **í bókhaldslykli,** samantektarlínurnar **í fjárhagsskýrslum eða** fjárhagsreikningstegundir. Frekari upplýsingar er að fá í [viðskiptagreind og Fjárhagsskýrsluhluta](bi.md).
+Til að fá samþjappaðra yfirlit yfir sjóðsreikninga í fjárhagsskýrslugerð skal nota reikningana **Samtala í upphafi** og **Samtala í lok** í bókhaldslyklinum, línurnar **Samtölur** í fjárhagsskýrslum eða flokkum fjárhagsreikninga. Frekari upplýsingar er að finna í [Viðskiptagreind og Financial Reporting](bi.md) hlutanum.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -247,9 +247,9 @@ Til að fá þéttari Sýn á lausafjárreikningana í fjárhagsskýrslugerð er
 [SEPA-beingreiðsla í Business Central](finance-collect-payments-with-sepa-direct-debit.md)  
 [Setja upp bankareikning fyrir SEPA-beingreiðslu](finance-collect-payments-with-sepa-direct-debit.md#to-set-up-your-bank-account-for-sepa-direct-debit)  
 [Setja upp bankareikning fyrir SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-set-up-a-bank-account-for-sepa-credit-transfer)  
-[Gera skal AMC Banking 365 Fundamentals greiðslur með framlengingu eða SEPA Kreditmillifærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Greiðsluafstemming](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Skilja fjárhag og bókhaldslykil](finance-general-ledger.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

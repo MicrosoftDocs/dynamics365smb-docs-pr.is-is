@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605766"
@@ -20,7 +20,7 @@ ms.locfileid: "9605766"
 
 Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og uppskriftir, leiðir, vélar og starfsmenn á vélum, að vera settur upp í kerfinu.
 
-Í kerfinu teljast starfsmenn á vélum og vélar til vélastöðva sem má flokka í vinnustöðvar og vinnustöðvahópa. Þegar þessi forði er þekktur má úthluta á hann aðgerðum samkvæmt skilgreindri uppskrift vörunnar, og leiðarskipulagi, og samkvæmt afkastagetu véla- eða vinnustöðvarinnar. Einnig er hægt að ákvarða afkastagetu hjá hverjum forða. Afkastageta er ákvörðuð út frá tiltækum vinnustundum á hverri véla- og vinnustöð og er stjórnað af dagatölum fyrir hvert stig. Dagatal vinnustöðvar tilgreinir vinnudaga eða-tíma, vaktir, frídaga og fjarvistir sem eru tiltæk fyrir brúttó afkastagetu vinnustöðvarinnar (yfirleitt mælt í mínútum). Allt er þetta ákvarðað af tilgreindum gildum skilvirkni og getu.  
+Í kerfinu teljast starfsmenn á vélum og vélar til vélastöðva sem má flokka í vinnustöðvar og vinnustöðvahópa. Þegar þessi forði er þekktur má úthluta á hann aðgerðum samkvæmt skilgreindri uppskrift vörunnar, og leiðarskipulagi, og samkvæmt afkastagetu véla- eða vinnustöðvarinnar. Einnig er hægt að ákvarða afkastagetu hjá hverjum forða. Afkastageta er ákvörðuð út frá tiltækum vinnustundum á hverri véla- og vinnustöð og er stjórnað af dagatölum fyrir hvert stig. Í dagatali vinnustöðvar eru tilgreindir vinnudagar eða -stundir, vaktir, frídagar og fjarvistir sem hafa áhrif á mögulega heildarafkastagetu (oftast mæld í mínútum). Allt er þetta ákvarðað af tilgreindum gildum skilvirkni og getu.  
 
 Þegar framleiðsla hefur verið sett upp, er hægt að skipuleggja og framkvæma framleiðsluskipanir. Frekari upplýsingar eru í [Áætlunargerð](production-planning.md) og [Framleiðsla](production-manage-manufacturing.md).  
 

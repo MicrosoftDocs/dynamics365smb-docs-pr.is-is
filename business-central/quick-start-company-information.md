@@ -12,7 +12,7 @@ ms.date: 03/14/2022
 ms.author: edupont
 ms.openlocfilehash: e2ee4c75deebcca1a774a6472e08db12984114d2
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528169"
@@ -30,14 +30,14 @@ Til að hjálpa þér að koma fyrirtækinu af stað í [!INCLUDE[prod_short](in
 
     [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
-Þegar þú hefur lokið við að fylla út upplýsingarnar getur þú lokað síðunni.  
+Þegar þú hefur lokið við að fylla út upplýsingarnar máttu loka síðunni.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .  
 
-[Yfirlit yfir Fyrirtækjaupplýsingar](admin-company-information.md)  
-[Setja upp Fyrirtækjaupplýsingar á Ítalíu](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
+[Yfirlit fyrirtækjaupplýsinga](admin-company-information.md)  
+[Setja upp upplýsingar um fyrirtæki á Ítalíu](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
 
 

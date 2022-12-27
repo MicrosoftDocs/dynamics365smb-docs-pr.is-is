@@ -13,7 +13,7 @@ ms.date: 04/01/2021
 ms.author: soalex
 ms.openlocfilehash: 779dcea91d2e856bfae847f98695ceed0c0d600e
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8145941"
@@ -43,27 +43,27 @@ Síðan **Spjald notandastillinga** er svipuð og síðan **Mínar stillingar** 
 
 - **Tungumál**  
 
-  Skilgreinir forritstungumál sem [!INCLUDE[prod_short](includes/prod_short.md)] birtir texta, textar og villuskilaboð á. Ef [!INCLUDE[prod_short](includes/prod_short.md)] notendur eru samstilltir frá Microsoft 365 eru Tungumálastillingarnar frá Microsoft 365 því notaðar, miðað við að notandinn vilji nota sömu stillingar í skrifstofuvörum og [!INCLUDE[prod_short](includes/prod_short.md)]. Stjórnandinn getur breytt sjálfgefinni stillingu og hver notandi getur valið á milli tiltækra tungumála á síðunni Mínar stillingar. En þau verða endurstillt í gildið frá Microsoft 365 því að næsta samstilling fer fram.
+  Skilgreinir forritstungumál sem [!INCLUDE[prod_short](includes/prod_short.md)] birtir texta, textar og villuskilaboð á. Ef [!INCLUDE[prod_short](includes/prod_short.md)] notendur eru samstilltir frá Microsoft 365 eru tungumálastillingar frá Microsoft 365 notaðar, að því gefnu að notandinn vilji nota sömu stillingar í Office-vörum og [!INCLUDE[prod_short](includes/prod_short.md)]. Stjórnandinn getur breytt sjálfgefinni stillingu og hver notandi getur valið á milli tiltækra tungumála á síðunni Mínar stillingar. En þær verða endurstilltar á gildið frá Microsoft 365 þegar næsta samstilling er framkvæmd.
 
-  Ef tungumálastillingin úr Microsoft 365 samsvarar studdu tungumáli [!INCLUDE[prod_short](includes/prod_short.md)] verður þetta tungumál valið fyrir notandann.  
+  Ef tungumálastillingin úr Microsoft 365 samsvarar studdu tungumáli í [!INCLUDE[prod_short](includes/prod_short.md)] verður slíkt tungumál valið fyrir notandann.  
 
   > [!NOTE]
   > Hugsanlega þarf að setja upp tungumálaforrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] til að birta tungumálið á réttan hátt. Þar af leiðandi er það góð venja að setja upp nauðsynleg tungumálaforrit áður en einhver notandi skráir sig inn í fyrsta skipti þannig að þeir fái góða upplifun frá byrjun. Frekari upplýsingar er að finna í listanum yfir [studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
   
 - **Svæði**  
 
-  Skilgreinir hvernig dagsetningar og tölustafir birtast í [!INCLUDE[prod_short](includes/prod_short.md)] -biðlaranum, svo sem hvort nota eigi evrópskar eða bandarískar dagsetningarsnið eða hvernig á að birta tugabrotin og þúsund skiltákn í upphæðum. Ef [!INCLUDE[prod_short](includes/prod_short.md)] notendur eru samstilltir frá Microsoft 365 eru svæðistilstillingarnar Microsoft 365 sem notaðar eru, forsenda þess að notandinn vilji nota sömu stillingar í skrifstofuvörum og [!INCLUDE[prod_short](includes/prod_short.md)]. Kerfisstjóri eða notandi getur breytt þessum stillingum handvirkt í [!INCLUDE[prod_short](includes/prod_short.md)] en þær verða endurstilltar í gildi frá Microsoft 365 því að næsta samstilling fer fram.
+  Skilgreinir hvernig dagsetningar og tölustafir birtast í [!INCLUDE[prod_short](includes/prod_short.md)] -biðlaranum, svo sem hvort nota eigi evrópskar eða bandarískar dagsetningarsnið eða hvernig á að birta tugabrotin og þúsund skiltákn í upphæðum. Ef [!INCLUDE[prod_short](includes/prod_short.md)] notendur eru samstilltir frá Microsoft 365 eru svæðisstillingarnar frá Microsoft 365 notaðar, að því gefnu að notandinn vill nota sömu stillingar í Office-vörum og [!INCLUDE[prod_short](includes/prod_short.md)]. Stjórnandi eða notandi getur breytt þessum stillingum handvirkt í [!INCLUDE[prod_short](includes/prod_short.md)], en þær verða endurstilltar á gildið frá Microsoft 365 þegar næsta samstilling er framkvæmd.
 
 - **Tímabelti**  
 
-  Skilgreinir tímabeltið þar sem notandinn er staðsettur. Sem stendur er þetta ekki samstillt út frá Microsoft 365 og verður að vera stillt handvirkt.  
+  Skilgreinir tímabeltið þar sem notandinn er staðsettur. Sem stendur er þetta ekki samstillt af Microsoft 365 og verður að stilla handvirkt.  
 
 - **Kennsluábendingar**
 
   [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)] Sem stjórnandi geturðu slökkt á fróðlegum ábendingum fyrir alla notendur, t.d. ef þú ert að innleiða notendur sem eru nú þegar kunnugir [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> Microsoft 365 Ef samstilling notanda er gerð á meðan notendur eru skráðir inn [!INCLUDE[prod_short](includes/prod_short.md)] verða þeir notendur að endurnýja vafrann eða skrá sig út og aftur í til [!INCLUDE[prod_short](includes/prod_short.md)] að sjá hugsanlegt annað tungumál sem er samstillt aðgerðinni.
+> Ef samstilling Microsoft 365 -notanda er gerð á meðan notendur eru skráðir inn í [!INCLUDE[prod_short](includes/prod_short.md)] verða slíkir notendur að uppfæra vafrann eða skrá sig út og aftur inn í [!INCLUDE[prod_short](includes/prod_short.md)] til að sjá þeir geti séð annað tungumál sem er stillt með samstillingaraðgerðinni.
 
 ## <a name="overview-of-all-user-specific-changes"></a>Yfirlit yfir notandabundnar breytingar
 

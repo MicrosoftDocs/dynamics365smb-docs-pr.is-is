@@ -1,6 +1,6 @@
 ---
-title: Sameina sjálfvirka og handvirka Flushing
-description: Walkthrough fyrir framleiðslustjóran á contoso Coffee, sem vill sameina sjálfvirka og handvirka andlitsgerð.
+title: Sameina sjálfvirka og handvirka birgðaskráningu
+description: Kynning fyrir framleiðslustjóra hjá Contoso Coffee sem vill sameina sjálfvirka og handvirka birgðaskráningu.
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -8,107 +8,107 @@ author: edupont04
 ms.author: andreipa
 ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
 ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9078753"
 ---
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Walkthrough: sameina sjálfvirka og handvirka Andlitsroða
+# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Kynning: Sameina sjálfvirka og handvirka birgðaskráningu
 
-Í þessari grein tekur þú á móti skrefunum til að nota contoso Coffee sýnigögnin í andlitsroða.  
+Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee í birgðaskráningu.  
 
 ## <a name="scenario"></a>Aðstæður
 
-Þú ert framleiðslustjósinn í contoso Coffee. Stofna verður nýja framleiðslupöntun fyrir tíu eininga vöru SP-SCM1004, AutoDrip. Sumir þættir og aðgerðir verða áfram rof, aðrir afturábak roðnum út frá mismunandi aðstæðum.
+Þú ert framleiðslustjóri á Contoso Coffee. Stofna þarf nýja framleiðslupöntun fyrir tíu einingar af vörunni SP-SCM1004, AutoDrip. Sumir þættir og aðgerðir verða birgðaskráðar framvirkt, aðrar afturvirkt, eftir því hver skilyrðin eru.
 
 ## <a name="steps"></a>Skref
 
-> [Ath!] Munið að leiðrétta birgðir eftir bókun birgðabókar með opnunarstöðum.
+> [Athugaðu!] Mundu að laga birgðir með því að bóka birgðabók með opnunarstöðum.
 
-1. Stofna fastáætlaða framleiðslupöntun fyrir fimm einingar af vöru **SP-SCM1004, AutoDrip** á *Norður* -staðsetningu. Fyrir ráðgjöf, sjá [Walkthrough: stofna fastáætlaða framleiðslupöntun og breyta henni](create-firm-planned-production-order-change.md).  
+1. Stofnaðu fastáætlaða framleiðslupöntun fyrir fimm einingar af vörunni **SP-SCM1004, AutoDrip** á staðsetningunni *NORÐUR*. Leiðbeiningar er að finna í [Kynning: Stofna fastáætlaða framleiðslupöntun og breyta henni](create-firm-planned-production-order-change.md).  
 
-2. Sleppið framleiðslupöntuninni.
+2. Losa framleiðslupöntunina.
 
-    1. **Velja stöðuaðgerðina** Breyta.  
+    1. Veldu aðgerðina **Breyta stöðu**.  
 
-    2. Í síðunni sem birtist er nýi Stöðureiturinn **settur** *út* og síðan er **Já** -hnappnum valinn.  
+    2. Í síðunni sem birtist skal stilla reitinn **Ný staða** á *Losað* og síðan velja hnappinn **Já**.  
 
-        Skilaboð sem hafa stöðulínum birtist og vísar til sjálfvirkrar notkunar. Þessu er fylgt eftir með staðfestingarskilaboðum um að pöntuninni sé breytt til að fá stöðuna *Útgefin*.  
+        Skilaboð sem eru með stöðustiku birtist og vísar í sjálfvirka notkun. Þessu er fylgt eftir með staðfestingarboðum um að pöntuninni sé breytt til að hún fái stöðuna *Losað*.  
 
-    3. Velja skal **OK** hnappinn til að loka staðfestingarboðunum.
+    3. Velja hnappinn **Í lagi** til að loka staðfestingarskilaboðunum.
 
-3. Fara yfir vöru-og Getubókarfærslur fyrir framleiðslupöntunina.
+3. Farðu yfir birgða- og afkastahöfuðbókarfærslur fyrir framleiðslupöntunina.
 
     1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Losuð framleiðslupöntun** og velja síðan viðkomandi tengil.  
 
-    2. Framleiðslupöntunin er opnuð með 5 eininga sjálfvirkri kaffivél í sjálfvirka Borvél.  
+    2. Opnaðu framleiðslupöntunina með 5 einingum af AutoDrip kaffivél.  
 
-    3. Aðgerðin birgðafærslurnar **er** valin.  
+    3. Veldu aðgerðina **Birgðabókafærslur**.  
 
-        Varan **SP-BOM1305 Skrúfgangur Hex M3 ZINK** er roðinn tafarlaust með fullt Væntanlegt magn. Síðan er að **Loka birgðafærslum** síðu.  
+        Varan **SP-BOM1305 Screw Hex M3 Zink** er birgðaskráð um leið með fullu væntu magni. Lokaðu síðunni **Birgðabókafærslur**.  
 
-    4. Aðgerðin Getubókarfærslur **er** valin.  Athugaðu að líkamssamsetningaraðgerðarfærslu var einnig lokið á augnabliki þegar pöntun var gefin út. Glugganum Getubókarfærslur **er** lokað.
+    4. Veldu aðgerðina **Færslur afkastahöfuðbókar**.  Athugaðu að færslu samsetningaraðgerðar meginhluta var lokið um leið og pöntunin var losuð. Lokaðu glugganum **Færslur afkastahöfuðbókar**.
 
-    Hægt er að tæma íhlutavörur handvirkt með notkun notkunar eða framleiðslubókar. Handvirk roði gerir notandanum kleift að leiðrétta magn fyrir bókun. Til dæmis ef þörf er á viðbótarmagni til að þekja lítið gæðahráefni.
-4. Skola íhluti handvirkt.  
-    1. Veldu þá ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notkunarbók** og velja síðan viðkomandi tengil.  
+    Þú getur birgðaskráð íhluti varanna sjálfkrafa með því að nota notkunarbókina eða framleiðslubókina. Handvirk birgðaskráning gerir þér kleift að laga magnið fyrir bókun. Til dæmis ef þörf er á auknu magni til að ná yfir hráefni í lágum gæðum.
+4. Birgðaskráðu íhluti handvirkt.  
+    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notkunarbók** og velja síðan viðkomandi tengil.  
 
-    2. **Veljið reikniaðgerðina notkun**.  
+    2. Veldu aðgerðina **Reikna notkun**.  
 
-    3. **Í síðunni** Reikna notkunarbeiðni **á framleiðslupöntuninni** er afmörkun tilgreind fyrir tiltekna pöntun í reitnum **Pöntunarnr.** Svæðinu og velja **síðan OK** hnappinn. Eftir beiðni um runuvinnslu lokar með því að **Notkunarbókarsíðan** fyllir út þá íhluti sem þarfnast handvirkrar notkunar.
+    3. Á beiðnisíðunni **Reikna notkun**, í flýtiflipanum **Framleiðslupöntun**, skal skilgreina síu fyrir tiltekna pöntun í **Pöntunarnr.**. reit og smellið á hnappinn **Í lagi**. Eftir að beiðnisíða runuvinnslunnar, taktu eftir að síðan **Notkunarbók** fyllist út með íhlutunum sem þarfnast handvirkrar notkunar.
 
-    4. Valið **er bóka** aðgerð. Loka notkunarbókinni.
+    4. Veldu **Bóka** aðgerðina. Lokaðu notkunarbókinni.
 
-5. Skrá útlag handvirkt fyrir rafspelkunni.  
+5. Skráðu úttak handvirkt fyrir rafmagnsleiðslur.  
 
-    Fylla verður út handvirkt í **uppsetningartíma** og **keyra tímasvæði**. Einnig er hægt að tilgreina framleitt magn og rýrnun. Færið inn *3* sem afkastamagn og bókið úttakið.
+    Fylltu handvirkt út í reitina **Uppsetn.tími** og **Keyrslutími**. Einnig er hægt að tilgreina raunverulegt framleitt magn og rýrrnun. Sláðu inn *3* sem úttaksmagnið og bókaðu úttakið.
 
-    1. Veldu þá ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Úttaksbók** og velja síðan viðkomandi tengil.  
+    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Úttaksbók** og velja síðan viðkomandi tengil.  
 
-    2. **Stofnið nýja færslubókarlínu á síðunni úttaksbókarlína**.  
+    2. Á síðunni **Úttaksbók** skal stofna nýja færslubókarlínu.  
 
-    3. **Í Pöntunarnr.** Reit skal tilgreina pöntunina.  
+    3. Í **Pöntunarnr.** reitinn, tilgreinið röðina.  
 
-    4. Velja skal **aðgerðina opna leið**.  
+    4. Veldu aðgerðina **Opna leið**.  
 
-        Síðan Frálagsbók **er** aðeins fyllt út með aðgerðarlínunni fyrir rafhringing.
+        Síðan **Úttaksbók** fyllist út með aðgerðarlínu aðeins fyrir rafmagnsleiðslur.
 
-    5. Reiturinn Keyrslutími **er** stilltur á *10*.  
+    5. Stillið **Keyrslutími** reitinn á *10*.  
 
-    6. Breyta skal **magnsvæðinu** úr *5* í *3*.
+    6. Breyta reitnum **Magn** úr *5* í *3*.
 
-    7. Veldu **Bóka**.  
-    8. Loka úttaksbók.
+    7. Velja **Bóka**.  
+    8. Lokaðu úttaksbókinni.
 
-6. Skoðið birgðafærslurnar fyrir framleiðslupöntunina.
+6. Farðu yfir birgðabókafærslurnar fyrir framleiðslupöntunina.
 
-    1. Í síðunni fyrir framleiðslupöntunina er aðgerðin birgðafærsla **valin**.  
+    1. Á síðunni fyrir framleiðslupöntunina skaltu velja aðgerðina **Birgðabókafærslur**.  
 
-    Varan **SP-BOM1302, skjár** stjórnborðs er bókuð með magninu *3*, byggð á raunverulegu úttaki, á meðan **SP-BOM1303, hnappurinn** er bókaður með fullt Væntanlegt magn. Síðan er að **Loka birgðafærslum** síðu.
+    Varan **SP-BOM1302, stjórnborðsskjár** er bókuð með magn upp á *3* sem byggir á raunverulegu úttaki, en **SP-BOM1303, hnappur** er bókaður með fullu væntu magni. Lokaðu síðunni **Birgðabókafærslur**.
 
-7. Ljúka skal framleiðslupöntuninni.  
+7. Ljúka framleiðslupöntuninni.  
 
-    1. **Velja stöðuaðgerðina** Breyta.
-    2. Í síðunni sem birtist er nýi Stöðureiturinn **settur** *á lokið* og síðan er **Já** -hnappurinn valinn.  
+    1. Veldu aðgerðina **Breyta stöðu**.
+    2. Á síðunni sem kemur upp skal stilla reitinn **Ný staða** á *Lokið* og síðan velja hnappinn **Já**.  
 
-        Skilaboð birtast með stöðulínu sem endurspeglar sjálfvirka notkun. Þessu er fylgt eftir með staðfestingarskilaboðum um að pöntuninni sé breytt í pöntun með stöðuna *lokið*. Afgreidd framleiðslupöntun hefur sama númer og hún hafði með stöðuna *Útgefin*.
-    3. Velja skal **OK** hnappinn til að loka staðfestingarboðunum.
+        Skilaboð birtast með stöðustiku sem sýnir sjálfvirka notkun. Þar á eftir koma staðfestingarskilaboð um að pöntuninni sé breytt í pöntun með stöðuna *Lokið*. Tilbúin framleiðslupöntun er með sama númerið og hún var með með stöðunni *Losuð*.
+    3. Velja hnappinn **Í lagi** til að loka staðfestingarskilaboðunum.
 
-8. Fara yfir vöru-og Getubókarfærslur fyrir framleiðslupöntunina.
+8. Farðu aftur yfir birgða- og afkastahöfuðbókarfærslur fyrir framleiðslupöntunina.
 
-    1. Aðgerðin Getubókarfærslur **er** valin.  
+    1. Veldu aðgerðina **Færslur afkastahöfuðbókar**.  
 
-        Færslu umbúðaaðgerða lauk í augnablikinu þegar pöntunin var gefin út. Magn framleiddra (úttaks) er 5 *, óháð úttaki fyrra skrefs*. Síðunni Getubókarfærslunum **er** lokað.
+        Færslu pökkunaraðgerða var lokið um leið og pöntunin var losuð. Framleitt (úttak) magn er *5* burtséð frá úttaki fyrra skrefsins. Lokaðu síðunni **Færslur afkastahöfuðbókar**.
 
-    2. Aðgerðin birgðafærslurnar **er** valin.  
+    2. Veldu aðgerðina **Birgðabókafærslur**.  
 
-        Magnið í birgðafærslu af gerðinni *Framleiðsla* er jafnt úttaksmagni í getubókarfærslunni. Notagagn **SP-BOM1301, hústæki AutoDrip**, og **SP-BOM1304, Ryðfrítt still hitapumpa** er 5 fyrir bæði þar sem Væntanleg framleiðsla og raunveruleg framleiðsla er sú sama. 
+        Magnið í færslu afkastahöfuðbókar af gerðinni *Úttak* er jafnt og úttaksmagnið í færslu afkastahöfuðbókar. Notað magn af **SP-BOM1301, Housing AutoDrip** og **SP-BOM1304, Stainless still thermal carafe** er 5 fyrir bæði því að vænt úttak og raunverulegt úttak er það sama. 
 
-    3. Síðan er að **Loka birgðafærslum** síðu.  
+    3. Lokaðu síðunni **Birgðabókafærslur**.  
 
-Það er það fyrir handvirkar og sjálfvirkar andlitsflúðaíhluti.
+Þetta er allt og sumt um handvirka og sjálfvirka birgðaskráningu íhluta.
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Tæma íhluti eftir úttak aðgerðar](../production-how-to-flush-components-according-to-operation-output.md)  
-[Kynning á contoso kaffi sýnigögnum](contoso-coffee-intro.md)  
+[Birgðaskráning íhluta samkvæmt frálagi aðgerðar](../production-how-to-flush-components-according-to-operation-output.md)  
+[Kynning á sýnigögnum Contoso Coffee](contoso-coffee-intro.md)  

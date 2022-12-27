@@ -1,6 +1,6 @@
 ---
 title: Tiltækar leturgerðir
-description: Fræðast um foruppsettar leturgerðir sem hægt er að nota fyrir andlits-og andlitstilkynningar.
+description: Kynntu þér foruppsettar leturgerðir sem hægt er að nota fyrir skýrslur út á við.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -12,7 +12,7 @@ ms.date: 11/30/2021
 ms.author: edupont
 ms.openlocfilehash: 65a8379d2b6c534fd69022e4b7c6a7062b6d1471
 ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 04/29/2022
 ms.locfileid: "8654813"
@@ -28,7 +28,7 @@ Netútgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur forupp
 
 Eftirfarandi leturgerðir eru settar upp og hægt að nota í Word og RDLC skýrslum:
 
-Angsana New, Angoaupc, Arial, Arial Black, Bahnschrift, Bahnschrift condensed, Bahnschrift Light, sedensed, Bahnschrift semlight, Bahnschrift semlight condensed, Bahnschrift ljós, Barskíi Light condenssed, Bahnjúkirift-Undanbands, Barkkschrift semsagt, bahnschrift Undanboltsed, Cambria stærðfræði, candara, Candara Light, TEIKNIMYNDASANS MS, Bahnschrift Semilight SemiConde, Batang, BatangChe, Browallia nýtt, BrowalliaUPC, Calibri, Calibri Light Huggun, Constanda, (Corbel, Corbel Light, Cordia nýa, CordiaUPC, the Sónsýra), New, DilleniaUPC, DotumChe, E-13B, Ebrima, EucrosiaUPC, Franklín Gautaic Medium, FreesiaUPC, Gabriola, Gadugi, Georgía, GulimChe, Gungsuh, GungsuhChe, IMPACT, Ink Free, IrisUPC, Jashverupc, Javanese Text, Khmer HÍ, KodchiangUPC, Latha, Leelawaeinleikari, Leelawadee HÍ, Leelawadee UI Málljós, LilyUPC, Lucida Stjórnborð, Lucida Sans Unicode, Malgun Gothic, Malgun Gotneska Semilight, Marlett, MICR, Microsoft Himalaya, Microsoft JhengHei, Microsoft JhengHei Light, Microsoft Jhengheei UI, Microsoft JhengHei HÍ Light, Microsoft nýtt Tai lue,,, Microsoft yahei, MS Pgotneic, MS UI Gotneska, MV boli, Microsoft PhagsPa, Microsoft Sans Serif, Microsoft Tai Le, Microsoft yahei, Microsoft Yahei Light, Microsoft VALLAHEIM HÍ, Microsoft YAHEI HÍ Light, Netto Baiti, mingliu, mingliu-ExtB, MingLiU_HKSCS, MingLiU_HKSCS-extb, Mongolian Baiti, Myanmar Text, Nirmala HÍ, Nirmala UI Málljós, Nsimsól, OCRB, Palatino Linotype, PMingLiU, PMingLiU-ExtB, Segoe MDL2, Segoe prent, Segoe handrit, Segoe UI, Segoe UI Black, Segoe UI emoji, Segoe UI sagnfræði, Segoe UI Light, Segoe UI semsagt, Segoe UI Semilight, Segoe UI Symbol, Shonar Bangla, simsól, Simsun-Extb, sitka Bannja, Sitka Display, Sitka fyrirsögn, sitka Small, Sitka Undirfyrirsögn, Sitka texta, sylfaen, tákn, Tahoma, Yu Gothic a, Yu gotneic UI, Yu gotneic UI ljós, Yu Gothic HÍ semsagt, Yu gauta New Roman, Trebuchet MS, Verdana, Vijaya, Vefdings, Wingdings, Yu Gotneic, Yu Gothic
+Angsana New, AngsanaUPC, Arial, Arial Black, Bahnschrift, Bahnschrift Condensed, Bahnschrift Light, Bahnschrift Light Condensed, Bahnschrift Light SemiCondensed, Bahnschrift SemiBold, Bahnschrift SemiBold Condensed, Bahnschrift SemiBold SemiConden, Bahnschrift SemiCondensed, Bahnschrift SemiLight, Bahnschrift SemiLight Condensed, Bahnschrift SemiLight SemiConde, Batang, BatangChe, Browallia New, BrowalliaUPC, Calibri, Calibri Light, Cambria, Cambria Math, Candara, Candara Light, Comic Sans MS, Consolas, Constantia, Corbel, Corbel Light, Cordia New, CordiaUPC, Courier New, DilleniaUPC, Dotum, DotumChe, E-13B, Ebrima, EucrosiaUPC, Franklin Gothic Medium, FreesiaUPC, Gabriola, Gadugi, Georgia, Gulim, GulimChe, Gungsuh, GungsuhChe, Impact, Ink Free, IrisUPC, JasmineUPC, Javanese Text, Khmer UI, KodchiangUPC, Latha, Leelawadee, Leelawadee UI, Leelawadee UI Semilight, LilyUPC, Lucida Console, Lucida Sans Unicode, Malgun Gothic, Malgun Gothic Semilight, Marlett, MICR, Microsoft Himalaya, Microsoft JhengHei, Microsoft JhengHei Light, Microsoft JhengHei UI, Microsoft JhengHei UI Light, Microsoft New Tai Lue, Microsoft PhagsPa, Microsoft Sans Serif, Microsoft Tai Le, Microsoft YaHei, Microsoft YaHei Light, Microsoft YaHei UI, Microsoft YaHei UI Light, Microsoft Yi Baiti, MingLiU, MingLiU-ExtB, MingLiU_HKSCS, MingLiU_HKSCS-ExtB, Mongolian Baiti, MS Gothic, MS PGothic, MS UI Gothic, MV Boli, Myanmar Text, Nirmala UI, Nirmala UI Semilight, NSimSun, OCRB, Palatino Linotype, PMingLiU, PMingLiU-ExtB, Segoe MDL2 Assets, Segoe Print, Segoe Script, Segoe UI, Segoe UI Black, Segoe UI Emoji, Segoe UI Historic, Segoe UI Light, Segoe UI Semibold, Segoe UI Semilight, Segoe UI Symbol, Shonar Bangla, SimSun, SimSun-ExtB, Sitka Banner, Sitka Display, Sitka Heading, Sitka Small, Sitka Subheading, Sitka Text, Sylfaen, Symbol, Tahoma, Times New Roman, Trebuchet MS, Verdana, Vijaya, Webdings, Wingdings, Yu Gothic, Yu Gothic Light, Yu Gothic Medium, Yu Gothic UI, Yu Gothic UI Light, Yu Gothic UI Semibold, Yu Gothic UI Semilight
 
 ## <a name="fonts-for-checks"></a>Leturgerðir fyrir ávísanir
 
@@ -39,9 +39,9 @@ Auk MICR-leturgerða eru sérstakar öryggisleturgerðir í boði til að búa t
 Frekari upplýsingar er að finna í [Velja útlit ávísunar](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Leturgerðir fyrir strikamerki
-Letur til að mynda strikamerki eru uppsett og tiltæk til notkunar í bæði Word og RDLC-skýrslu.
+Leturgerðir til að mynda strikamerki eru settar upp og hægt að nota í Word- og RDLC-skýrsluútliti.
 
-Eftirtalin táknmynd strikamera er studd:
+Eftirfarandi einvíð strikamerkjatákn eru studd:
 * Kóði 3 af 9 (Kóði 39)
 * Kóði 128
 * Kóði 93
@@ -49,7 +49,7 @@ Eftirtalin táknmynd strikamera er studd:
 * MSI
 * 2 af 5 fléttuð
 
-Eftirfarandi tveir vídda táknmynd eru studd:
+Eftirfarandi tvívíð strikamerkjatákn eru studd:
 * Aztec
 * Gagnafylki
 * Maxicode
@@ -63,6 +63,6 @@ Frekari upplýsingar er að finna í [Letur strikamerkis í Business Central Onl
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Velja útlit ávísunar](finance-how-define-check-layouts.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-[strikamerkósum með viðskiptum miðsvæðis á netinu](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
+[Leturgerð strikamerkis með Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: ae7499827c03a6b67b507c0145e6553018b46108
 ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/29/2022
 ms.locfileid: "9362054"
@@ -30,7 +30,7 @@ ms.locfileid: "9362054"
 
 Viðskiptamenn þurfa stöðugt hærra þjónustustig, bæði hvað varðar gæði vöru en einnig hvað varðar valkosti afhendingar og greiðsluþjónustu. Microsoft Pay þjónustan gerir kleift að veita viðskiptamanninum meiri þjónustu.
 
-Microsoft Pay viðbótin bætir við Microsoft Pay tengli við söluskjölin þín svo viðskiptamenn geti auðveldlega borgað með því að nota Microsoft Pay. Þá er hægt að senda skjölin með tölvupósti til að veita hærri þjónustu og stytta þann tíma sem það tekur fyrir greiðslur viðskiptavina til að koma á bankareikninginn þinn.
+Microsoft Pay viðbótin bætir við Microsoft Pay tengli við söluskjölin þín svo viðskiptamenn geti auðveldlega borgað með því að nota Microsoft Pay. Síðan geturðu sent skjölin með tölvupósti til að bjóða upp á betri þjónustu við viðskiptavina og stytta tímann sem það tekur greiðslu viðskiptavina að koma inn á bankareikning þinn.
 
 Microsoft Pay Viðbótin veitir eftirfarandi ávinning:
 - Greiðslur viðskiptamanns berast hraðar á bankareikning þinn.

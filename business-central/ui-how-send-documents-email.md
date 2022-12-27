@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9607203"
@@ -44,7 +44,7 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 7. Í reitnum **Viðhengi** er myndaður reikningur sjálfgefið hengdur við sem PDF-skrá.
 8. Í reitinn **Meginmál** skal slá inn stutt skilaboð til viðtakanda.
 
-    Ef texti tölvupósts sértækur fyrir skjal er settur upp á síðunni **Skýrsluval - Sala** er reiturinn **Meginmálslínur** útfylltur sjálfkrafa. Nánari upplýsingar er að finna [í setja upp endurnýtanlega texta og skipulag](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
+    Ef texti tölvupósts sértækur fyrir skjal er settur upp á síðunni **Skýrsluval - Sala** er reiturinn **Meginmálslínur** útfylltur sjálfkrafa. Frekari upplýsingar eru í [Setja upp endurnýtanlega texta og útlit tölvupósts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 9. Veldu hnappinn **Í lagi** til að senda tölvupóstinn.
 
 > [!NOTE]  
@@ -55,9 +55,9 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 Hægt er að búa til tölvupósta fyrir tengiliði, viðskiptamenn, lánardrottna, sölufólk/innkaupendur og bankareikninga á fljótlegan hátt beint af síðunum fyrir þessar einingar. Veldu einfaldlega **Vinna úr** og síðan **Senda tölvupóst** til að opna ritil tölvupóstsins. Fyrir bankareikninga er aðgerðin **Senda tölvupóst** undir **Aðgerðir**.
 
 > [!TIP]
-> Ef þú sendir oft svipaða tölvupósta eða vilt senda á marga í einu, t.d. til að auglýsa markaðsherferð, getur Word-sniðmát með tölvupósti hraðað ferlinu. Þú getur búið til sniðmát fyrir aðila á borð við viðskiptamenn, lánardrottna og tengiliði sem býr til efni tölvupóstskilaboða fyrir þig og meira að segja aðlagar efnið að viðtakandanum út frá upplýsingum í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna [í Notaðu Word sniðmát fyrir Magnsamskipti](ui-mail-merge.md).  
+> Ef þú sendir oft svipaða tölvupósta eða vilt senda á marga í einu, t.d. til að auglýsa markaðsherferð, getur Word-sniðmát með tölvupósti hraðað ferlinu. Þú getur búið til sniðmát fyrir aðila á borð við viðskiptamenn, lánardrottna og tengiliði sem býr til efni tölvupóstskilaboða fyrir þig og meira að segja aðlagar efnið að viðtakandanum út frá upplýsingum í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Nota Word-sniðmát fyrir mörg samskipti í einu](ui-mail-merge.md).  
 
-Ef þér hefur verið úthlutað tölvupóstaðstæðum sem tengjast einingunni sem þú ert að senda tölvupóstinn á eða skjalið sem þú sendir, gæti viðhengi verið sjálfkrafa bætt við skilaboðin þín. Það er vegna þess að sjálfgefinni viðhengi hefur verið úthlutað til tölvupóstaðstoðina. Hægt er að eyða viðhenginu ef ekki á að senda það með boðunum. Frekari upplýsingar er að finna í [Úthluta aðstæðum tölvupósts á tölvupóstsreikninga](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
+Ef þér er úthlutað tölvupóstaðstæðum sem tengjast einingunni sem þú ert að senda tölvupóst á, eða skjalið sem þú ert að senda, gæti viðhengi verið sjálfkrafa bætt við skeytið. Það er vegna þess að sjálfgefnu viðhengi hefur verið úthlutað á tölvupóstaðstæður. Þú getur eytt viðhenginu ef þú vilt ekki senda það með skeytinu. Frekari upplýsingar er að finna í [Úthluta aðstæðum tölvupósts á tölvupóstsreikninga](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Skjöl sem eru merkt sem prentuð þegar þau eru send
 
@@ -72,7 +72,7 @@ Sum skjöl í [!INCLUDE[prod_short](includes/prod_short.md)] eru með reit sem t
 
 Í **Úthólf tölvupósts** finnurðu tölvupóstana sem þú vistaðir sem drög og tölvupósta sem ekki tókst að senda, sem dæmi, ef netfangið var ógilt. Fyrir skilaboð sem ekki tókst að senda er hægt að velja **Sýna villu** eða **Rannsaka villu** til að úrræðaleita vandann.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/set-up-email/)
 
 ## <a name="see-also"></a>Sjá einnig
 

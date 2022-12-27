@@ -1,5 +1,5 @@
 ---
-title: Breyta hvaða aðgerðir eru sýndar
+title: Breyta því hvaða eiginleikar eru sýndir
 description: Kynntu þér hvað notandaupplifunin Grunnur og Úrvals þýða fyrir notandaviðmótið, notkunarsvið og fyrirtækið þitt.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8521677"
@@ -39,10 +39,10 @@ Upplifanir sem hægt er að velja í [!INCLUDE[prod_short](includes/prod_short.m
 Stillingin **Upplifun** gildir um alla notendur í fyrirtæki en hver notandi getur sérstillt eigin upplifun enn frekar með því að breyta útliti og efni á síðu. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Virkjar eiginleika úrvalsáskriftar eftir uppfærslu á áætlun
-Notendum er falið að gera áætlanir í Microsoft 365 Stjórnun miðstöðvarinnar í tengslum við almenna vinnu við að stofna notendur seðlabanka. Frekari upplýsingar eru í [Bæta við notendum og úthluta leyfum á sama tíma](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
+Áætlunum er úthlutað til notenda í stjórnendamiðstöðinni Microsoft 365 í tengslum við almennu vinnuna til að búa til notendur Business Central. Frekari upplýsingar eru í [Bæta við notendum og úthluta leyfum á sama tíma](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Til að uppfæra breytingar á áætlunum í flokkum notenda
-Þegar gerðar hafa verið breytingar á áætlunum notenda í Microsoft 365 Stjórnun, svo sem úthlutað er á fleiri notendum í kaupaukáætlun, verður að endurspegla breytinguna [!INCLUDE[prod_short](includes/prod_short.md)].
+Þegar þú hefur gert breytingu á áætlunum notenda í stjórnendamiðstöðinni Microsoft 365, á borð við að úthluta fleiri notendum á úrvalsáskriftina, verður þú að endurspegla breytinguna í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Skráðu þig inn sem stjórnanda.
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.

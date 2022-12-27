@@ -1,6 +1,6 @@
 ---
 title: Telja og leiðrétta birgðir
-description: Lýsir því hvernig á að telja efnislegar birgðir og nota birgðaskjöl til að leiðrétta lagerbirgðir.
+description: Lýsir því hvernig á að telja efnislegar birgðir og nota birgðaskjöl til að laga lagerbirgðir.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 5b2e1e7a9ea7c6f2ed49c146e7e52ffdfa28c28c
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532674"
@@ -243,7 +243,7 @@ Hægt er að tilgreina skýrslurnar sem þarf að prenta á mismunandi stigum me
 > [!NOTE]
 > Tiltækar skýrslur kunna að vera mismunandi eftir staðfæringu landsins. Grunnforritið inniheldur ekkert útlit.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/adjust-inventory/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -253,7 +253,7 @@ Hægt er að tilgreina skýrslurnar sem þarf að prenta á mismunandi stigum me
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

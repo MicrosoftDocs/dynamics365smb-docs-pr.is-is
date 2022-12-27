@@ -1,5 +1,5 @@
 ---
-title: Unnið með Aðalstarfsemi fyrirtækja (inniheldur Video)
+title: Vinna með Business Central (inniheldur myndskeið)
 description: Lýsir þeirri almennu virkni sem þú notar til að vinna með gögn í Business Central, eins og t.d. að færa inn gildi, raða gögnum og breyta yfirliti.
 author: SorenGP
 ms.topic: conceptual
@@ -11,12 +11,12 @@ ms.date: 06/25/2021
 ms.author: edupont
 ms.openlocfilehash: 761bd759e66ca557dfd7537bb2b4fefb049da3da
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528545"
 ---
-# <a name="work-with-prod_short"></a>Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-prod_short"></a>Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.
 
@@ -45,7 +45,7 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, ví
 | Afmarka gögn í yfirlitum, skýrslum eða aðgerðum með því að nota sérstök tákn og stafi. |[Röðun, leit og síun í listum](ui-enter-criteria-filters.md) |
 |Kynntu þér hinar ýmsu almennu aðgerðir sem hjálpa þér að færa gögn inn fljótt og örugglega.|[Gagnainnfærsla](ui-enter-data.md)|
 |Kynntu þér hvernig á að afrita og líma göng með því að nota flýtilykla.|[Algengar spurningar um það að afrita og líma](faq-copy-paste.yml)|
-| Skoða eða vinna úr gögnum á tilteknu dagsetningabili. |[Vinna með dagsetningar og tímasetningar dagatals](ui-enter-date-ranges.md) |
+| Skoða eða vinna úr gögnum á tilteknu dagsetningabili. |[Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md) |
 | Sjá hvaða reiti verður að fylla út. |[Greina áskilda reiti](ui-mandatory-fields.md) |
 |Skilja hvernig staðsetning tölvunnar hefur áhrif á notendaviðmótið og hjálparsíðuna og hvernig á að breyta tungumálinu.|[Breyta tungumáli og landsstaðli](about-locale-language.md)|
 |Kynntu þér hvernig á að hafa samskipti við Excel nánast hvaðan sem er í [!INCLUDE[prod_short](includes/prod_short.md)]|[Skoða og breyta í Excel](across-work-with-excel.md)|
@@ -86,7 +86,7 @@ En aðgerðirnar geta einnig litið öðruvísi út, eða jafnvel ekki verið ti
 
 En þegar þú opnar sömu listasíðu á heimasíðunni þinni er aðgerðin **Hafa umsjón með** ekki til staðar. Í staðinn, til að opna einstaka sölupöntun, velur þú bara reitinn **Númer**. Í þessari yfirliti er ekki hægt að festa aðgerðastikuna.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 

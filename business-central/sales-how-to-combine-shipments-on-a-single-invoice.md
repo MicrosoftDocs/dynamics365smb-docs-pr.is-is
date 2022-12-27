@@ -11,7 +11,7 @@ ms.date: 12/16/2021
 ms.author: edupont
 ms.openlocfilehash: 074cedb3620b751d4ddb366153bbbb494ae030da
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534123"
@@ -37,7 +37,7 @@ Eigi að reikningsfæra fleiri en eina afhendingu saman er hægt að nota eiginl
 7. Til að bóka reikningur er valið aðgerðin **bóka**.  
 
 > [!TIP]  
-> Ef pantanir hafa verið sendar þar sem **Selt-til viðskm. nr.** Er mismunandi eftir reitnum **Reikn., viðskm. nr.** eru línurnar ekki sýndar í **skýrslunni sækja afhendingarlínur**. Notið sérstillingar til að bæta **við reitnum Selt-til Viðskiptamaður** á síðuna og Fjarlægið síuna. Nú er hægt að bæta afhendingarlínum á reikninginn óháð gildinu í reitnum **Selt-til viðskm.** , svo framarlega sem **reiturinn Reikn.** í sendingarlínunum samsvarar gildinu á sölureikningnum.  
+> Ef þú ert með sendar pantanir þar sem **Selt-til viðskiptamannanr.** er frábrugðið **Reikningsfærist á viðskiptamannanr.** eru þessar línur ekki sýndar í skýrslunni **Sækja afhendingarlínur**. Notaðu sérstillingu til að bæta reitnum **Selt-til viðskiptamaður** við síðuna og fjarlægðu síuna. Nú er hægt að bæta afhendingarlínum við reikninginn burtséð frá gildinu í **Selt-til viðskiptamannanr.** reitur, svo lengi sem **Reikningsfærist-til viðskiptamannanr.** reiturinn í afhendingarlínunum passar við gildið á sölureikningnum.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Til að sameina afhendingar sjálfkrafa á einn reikning
 
@@ -65,12 +65,12 @@ Að öðrum kosti skal eyða einstökum sölupöntunum handvirkt.
 
 Skref 1 til 3 eru endurtekin fyrir öll skjöl sem urðu fyrir áhrifum, eins og auðar sölupantanir.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

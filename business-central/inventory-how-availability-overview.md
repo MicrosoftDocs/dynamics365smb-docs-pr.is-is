@@ -13,7 +13,7 @@ ms.date: 09/21/2022
 ms.author: edupont
 ms.openlocfilehash: b30c38789dcfe3c6fd639fedc1f8f2a7b0d0d47a
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605847"
@@ -113,18 +113,18 @@ Síðan **Framboð á vöru eftir mælieiningu** sýnir vöruframboð eftir mæl
 > [!NOTE]  
 > Til að halda þessum upplýsingum nákvæmum verður þú að umreikna mælieiningar vörunnar. Ef þú kaupir til dæmis vöru á einni mælieiningu, eins og kassa, og þú selur vörur í annarri einingu, eins og stykkjum, verður þú að nota birgðabók til að umbreyta mælieiningum eða „taka vörurnar úr kassanum“. Hægt er að nota neikvæða leiðréttingarvörulínu til að minnka birgðir á mælieiningu innkaupa, til dæmis reiti, og jákvæða leiðréttingu til að auka birgðir á mælieiningu sölu, til dæmis stykki. 
 
-## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>Til að skoða framboð á vöru með afbrigðum hennar
+## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>Til að skoða framboð vöru eftir afbrigðum hennar
 
-**Síðan vara til ráðstöfunar eftir** vöruvíddasamsetningu sýnir raunverulegt og áætlaða framboð vöru sem flokkuð er samkvæmt afbrigðiskóta.
+Síðan **Vara til ráðstöfunar eftir afbrigði** sýnir raunverulegt og áætlað framboð á vöru sem flokkuð er samkvæmt afbrigðiskóða.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.
 2. Opnið spjald þeirrar vöru sem á að skoða ráðstöfun fyrir.
-3. **Veljið ráðstöfunarmagn vöru eftir** aðgerð og veljið **svo afbrigðisaðgerðina**.
+3. Veldu aðgerðina **Vara til ráðstöfunar eftir** og veldu svo aðgerðina **Afbrigði**.
 
-    **Síðan vara til ráðstöfunar eftir vöruvíddasamsetningu** sýnir ráðstöfunarmagn fyrir hverja vöru sem til er fyrir vöruna. Síðan er tóm ef engin afbrigði eru til fyrir vöruna.
+    Síðan **Vara til ráðstöfunar eftir afbrigði** sýnir framboð fyrir öll afbrigði sem eru til fyrir vöruna. Síðan er auð ef engin afbrigði eru til fyrir vöruna.
 
-4. **Í yfirliti eftir** svæði skal velja lengd þess tímabils sem á að skoða.
-5. Skoða tiltækar tölur í mismunandi magnsvæðum fyrir hverja línu.
+4. Í reitnum **Skoða eftir** veljið lengd tímabilsins sem á að skoða.
+5. Skoða ráðstöfunartölur í ólíkum magnreitum fyrir hverja línu.
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
@@ -149,12 +149,12 @@ Ef einn eða fleiri samsetningaríhlutir eru ekki tiltækir endurspeglast það 
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
-[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
+[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  
 [Uppsetning birgðageymsla](inventory-how-setup-locations.md)  
 [Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)  
 [Selja vörur](sales-how-sell-products.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Vinna með Viðskiptaseðla-](ui-work-product.md)  
+[Vinna með Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

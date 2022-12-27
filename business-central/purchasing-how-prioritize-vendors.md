@@ -1,5 +1,5 @@
 ---
-title: Úthluta lánardrottni forgangsstig (inniheldur myndskeið)
+title: Úthluta forgangsstigi til lánardrottins (inniheldur myndskeið)
 description: Þú getur úthlutað númerum til lánardrottins eða birgja til að forgangsraða þeim og auðvelda greiðslutillögur í Business Central.
 author: SorenGP
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: ed025f130fc2de9be77c373ab9b651844496b8a7
 ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/13/2022
 ms.locfileid: "9144203"

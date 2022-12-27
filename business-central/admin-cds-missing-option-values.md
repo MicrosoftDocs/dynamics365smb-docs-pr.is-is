@@ -1,6 +1,6 @@
 ---
 title: Meðhöndlun gilda sem vantar fyrir valkosti
-description: Kynntu þér hvernig á að koma í veg fyrir að full samstilling misheppnist vegna þess að valkostir eru mismunandi í vörpuðum reitum. Þetta ferli krefst aðstoðar frá hönnuði.
+description: Kynntu þér hvernig á að koma í veg fyrir að full samstilling misheppnist vegna þess að valkostir eru mismunandi í vörpuðum reitum. Þetta ferli krefst hjálpar frá þróunaraðila.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 03/23/2022
 ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8512491"
 ---
 # <a name="handling-missing-option-values"></a>Meðhöndlun gilda sem vantar fyrir valkosti
 > [!NOTE]
-> Í 2022 út bylgjan 1 hægt er að stofna eigin valvarpanir. Frekari upplýsingar fást [með því að sérsníða valkostsvörpun með Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Nýi möguleikinn krefst þess að kerfisstjórinn geri **aðgerðina uppfæra: varpa á valkostamengi í Dataverse án kóta** á **síðu aðgangsstjórnunar**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Í 2022 útgáfutímabil 1 er hægt að búa til eigin varpanir valkosta. Frekari upplýsingar er að finna í [Sérstilling vörpunarvalkosta með Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Nýju möguleikarnir krefjast þess að stjórnandinn virki **Eiginleikauppfærsla: Varpa í valkostasafn í Dataverse án kóða** á síðunni **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Þetta efnisatriði er ætlað tæknifólki. Ferlin sem það lýsir krefst aðstoðar þróunaraðila.
 

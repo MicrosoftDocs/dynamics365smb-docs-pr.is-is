@@ -11,7 +11,7 @@ ms.date: 06/22/2021
 ms.author: jswymer
 ms.openlocfilehash: d3e427a4fbff866edfa7b03b23f22ee797ef037b
 ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9074772"
@@ -42,7 +42,7 @@ Hægt er að stofna tækifæri af síðunni **Tækifæralisti**. En yfirleitt er
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
-[Vinna með Viðskiptaseðla-](ui-work-product.md)
+[Vinna með Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

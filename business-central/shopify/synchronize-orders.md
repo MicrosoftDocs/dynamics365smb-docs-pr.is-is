@@ -1,6 +1,6 @@
 ---
-title: Samstilla og uppfylla sölupantanir
-description: Setja upp og keyra innflutning og vinnslu sölupöntunar úr Shopify.
+title: Samræma og uppfylla sölupantanir
+description: Setja upp og keyra innflutning og vinnslu sölupöntunar frá Shopify.
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -10,178 +10,178 @@ ms.author: andreipa
 ms.reviewer: solsen
 ms.openlocfilehash: 2e79d19fd2fd03ec245c020cb9004809bccb5ec4
 ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/28/2022
 ms.locfileid: "9728330"
 ---
-# <a name="synchronize-and-fulfill-sales-orders"></a>Samstilla og uppfylla sölupantanir
+# <a name="synchronize-and-fulfill-sales-orders"></a>Samræma og uppfylla sölupantanir
 
-Þessi grein lýsir nauðsynlegum stillingum og skrefum sem Ljúka þarf við til að samstilla og uppfylla sölupantanir með Shopify í [!INCLUDE[prod_short](../includes/prod_short.md)].
+Þessi grein lýsir áskildum stillingum og skrefum sem þú verður að ljúka til að samstilla og uppfylla sölupantanir með Shopify í [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Stilla innflutning á pöntunum á Shopify verkstæðisspjaldinu
+## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Setja innflutning pantana á Shopify Verslunarkortið
 
-Regluleg Shopify pöntun getur innihaldið kostnað auk millisamtölu, s.s. sendingargjalda eða ef þær eru virkjaðar, ábendingar. Þessar upphæðir eru bókaðar beint á fjárhagsreikninginn sem á að nota fyrir tilteknar færslugerðir:
+Venjuleg Shopify pöntun getur falið í sér kostnað til viðbótar við millisamtöluna, svo sem sendingargjöld eða, ef slíkt er virkt, ábendingar. Þessar upphæðir eru settar beint á fjárhag sem þú vilt nota fyrir tilteknar tegundir færslna:
 
 * **Reikningur sendingarkostnaðar**
-* **Seldan gjafakortið reikning** ; frekari upplýsingar hjá [gjafakorti](synchronize-orders.md#gift-cards)
-* **Ábending reikningur**  
+* **Seldur gjafakortsreikningur** frekari upplýsingar er að finna á [Gjafakort](synchronize-orders.md#gift-cards)
+* **Þjórfésreikningur**  
 
-Gera **sjálfvirkt stofna pantanir** til að stofna söluskjöl sjálfvirkt í [!INCLUDE[prod_short](../includes/prod_short.md)] pöntuninni sem Shopify er flutt inn.
+Virkja sjálfvirkar **Stofna pantanir sjálfkrafa** til að búa til söluskjöl sjálfkrafa [!INCLUDE[prod_short](../includes/prod_short.md)] þegar Shopify pöntunin hefur verið flutt inn.
 
-Söluskjalið í [!INCLUDE[prod_short](../includes/prod_short.md)] inniheldur tengil við Shopify pöntunina. Ef hakað er í **Shopify Pöntunarnr. í reitnum Doc. lína** eru þessar upplýsingar endurteknar í sölulínur af gerðinni *Athugasemd*.
+Söluskjalið í [!INCLUDE[prod_short](../includes/prod_short.md)] inniheldur tengil á Shopify pöntunina. Ef valið er reiturinn **Shopify Pöntunarnr. í skjalalínu**, þessar upplýsingar eru endurteknar í sölulínum af gerðinni *Athugasemd*.
 
-**Í reitnum upprunasvæði** skattsvæðis er hægt að stilla forgang að því hvernig velja á skattsvæðiskóta eða VSK-viðskiptabókunarflokk samkvæmt aðsetri. Í innfluttu Shopify pöntuninni eru upplýsingar um skatta en skattalækkunum fá að endurreikna þegar söluskjalið er stofnað þannig að mikilvægt er að VSK-/skattstillingarnar séu réttar í [!INCLUDE[prod_short](../includes/prod_short.md)]. Frekari upplýsingar um skatta er að finna [í setja upp skatta fyrir Shopify tenginguna](setup-taxes.md).
+Í reitnum **Uppruni skattsvæðis** er hægt að setja forgang um hvernig velja á skattsvæðiskóða eða VSK-viðskiptabókunarflokk miðað við heimilisfang. Innflutt Shopify pöntun inniheldur upplýsingar um skatta en skattarnir eru endurreiknaðir þegar söluskjalið er stofnað og því er mikilvægt að stillingar VSK/skatta séu réttar í [!INCLUDE[prod_short](../includes/prod_short.md)]. Frekari upplýsingar um skatta er að finna í [Setja upp skatta Setja upp skatta fyrir Shopify tenginguna](setup-taxes.md).
 
 ### <a name="shipment-method-mapping"></a>Vörpun afhendingarmáta
 
-Kóti **afhendingarmáta fyrir söluskjöl sem** fluttur er inn Shopify er hægt að fylla út sjálfvirkt. Stilla **þarf vörpun** afhendingaraðferðar.
+**Kóða afhendingarmáta** fyrir söluskjöl innflutt frá Shopify er hægt að fylla út sjálfkrafa. Þú þarft að skilgreina **Vörpun afhendingarmáta**.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikni, Sláðu inn **Shopify verslanir** og veldu síðan tengda tengilinn.
-2. Veljið verkstæðið sem skilgreina á vörpun á til að opna **Shopify vinnukortasíðuna**.
-3. **Veljið aðgerðina vörpun** afhendingarmáta. Þetta stofnar sjálfkrafa færslur fyrir sendingaraðferðir sem eru [**skilgreindar í stillingum sendinga**](https://www.shopify.com/admin/settings/payments) í **Shopify admin**.
-4. **Í reitnum Nafn** er hægt að sjá heiti sendingaraðferðarinnar Shopify.
-5. **Færið inn Aðferðarkóta** fyrir afhendingarmáta samsvarandi Sendingaraðferð í [!INCLUDE[prod_short](../includes/prod_short.md)].
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Shopify Verslanir** og velja síðan viðkomandi tengil.
+2. Veljið þá verslun sem á að skilgreina vörpun fyrir til að opna síðuna **Shopify Verslunarkort**.
+3. Veldu aðgerðina **Vörpun afhendingarmáta**. Þetta býr sjálfkrafa til skrár fyrir sendingarmáta sem skilgreindir eru í stillingum [**Sendingar**](https://www.shopify.com/admin/settings/payments) í **Shopify stjórnandamiðstöðinni**.
+4. Í reitnum **Heiti** er hægt að sjá heiti sendingarmáta frá Shopify.
+5. Sláðu inn **Kóða sendingarmáta** ásamt samsvarandi sendingarmáta í [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 > [!NOTE]  
-> Ef mörg sendingargjöld eru tengd sölupöntun verður aðeins valin ein Sendingaraðferð og henni úthlutað á söluskjalið.
+> Ef mörg flutningsgjöld eru tengd við sölupöntun verður aðeins eitt valið og úthlutað á söluskjalið.
 
 ### <a name="location-mapping"></a>Vörpun staðsetningar
 
-Vörpun staðsetningarinnar er nauðsynleg í þrennu skyni:
+Vörpun staðsetningar er nauðsynleg í þrenns konar tilgangi:
 
-* Til að samstilla birgðir, frekari upplýsingar er að finna [í samstillingarbirgðum til Shopify](synchronize-items.md#sync-inventory-to-shopify)
-* Til að fylla út í **birgðageymslukótann** fyrir söluskjöl flutt inn Shopify. Þetta er mikilvægt þegar **Birgðageymsla áskilin** er virkjuð á **birgðauppsetningarspjaldinu**, annars er ekki hægt að stofna söluskjöl.
-* Til að uppfæra Shopify pöntunina með upplýsingum um uppfyllingu sem er byggð á síðunni fyrir **bókaða söluafhendingar**.
+* Til að samstilla birgðir, til að fá frekari upplýsingar, sjá [Samstilla birgðir við Shopify](synchronize-items.md#sync-inventory-to-shopify)
+* Til að fylla inn **Staðsetningarkóði** fyrir söluskjöl flutt inn úr Shopify. Þetta er mikilvægt þegar valkosturinn **Staðsetning áskilin** er virkjuð á **Uppsetning birgða**, annars geturðu ekki búið til söluskjöl.
+* Til að uppfæra Shopify pöntunina með upplýsingum um uppfyllingu sem byggjast á síðunni **Bókuð söluafhending**.
 
-1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikni, Sláðu inn **Shopify verslanir** og veldu síðan tengda tengilinn.
-2. Veljið verslunina þar sem á að samskipa vörpun birgðageymslna til að opna **Shopify vinnukortasíðuna**.
-3. **Veldu staðsetningaraðgerðina** til að opna **Shopify verkstæðisstaðastöðunum**.
-4. **Velja aðgerðina Sækja Shopify staðsetningar** til að flytja inn alla staði sem skilgreindir eru í Shopify. Þær má finna í stillingum staðsetningar [**í stjórnborðinu þínu**](https://www.shopify.com/admin/settings/locations)**Shopify .** Athugið að Staðsetningin sem er merkt sem *sjálfgefin* verður notuð við innflutning óuppfylltra Shopify pantana.
-5. **Færa skal inn sjálfgefinn birgðageymslukóta** með samsvarandi staðsetningu í [!INCLUDE[prod_short](../includes/prod_short.md)].
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Shopify Verslanir** og velja síðan viðkomandi tengil.
+2. Veljið verslunina sem á að stilla vörpun staðsetnigna fyrir til að opna síðuna **Shopify Verslunarkort**.
+3. Veldu aðgerðina **Staðsetningar** til að opna **Shopify Staðsetningar verslunar**.
+4. Veldu aðgerðina **Sækja Shopify Staðsetningar** til að flytja inn allar staðsetningarnar sem skilgreindar eru í Shopify. Þú finnur þær í stillingunum [**Staðsetningar**](https://www.shopify.com/admin/settings/locations) í stjórnendamiðstöð **Shopify þínu**. Athugaðu að staðsetningin sem merkt er sem *Sjálfgefin* verður notuð þegar óuppfylltar Shopify pantanir eru fluttar inn.
+5. Sláðu inn **Sjálfgefinn staðsetningarkóða** með samsvarandi staðsetningu í [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="run-the-order-synchronization"></a>Keyra pöntunarsamstillingu
+## <a name="run-the-order-synchronization"></a>Keyra samstillingu pöntunar
 
-Eftirfarandi ferli lýsir því hvernig á að flytja inn og uppfæra sölupöntunum.
+Eftirfarandi ferli lýsir því hvernig eigi að flytja inn og uppfæra sölupantanir.
 
 > [!NOTE]  
-> Eldri pantanir í Shopify má ekki flytja inn. Afvirkja **sjálfkrafa pöntunarvalkostinn** í **hlutanum** **pöntunarvinnsla** í útskráningarstillingum í **Shopify** stjórnborðinu til að ganga úr skugga um að allar pantanir séu fluttar inn [!INCLUDE[prod_short](../includes/prod_short.md)] í. Ef flytja þarf inn geymdar pantanir skal nota **ónauðsynlegar** aðgerðir á [pöntunum](https://www.shopify.com/admin/orders) á síðunni á **Shopify** stjórnborðinu.
+> Ekki er Shopify hægt að flytja inn safnvistaðar pantanir. Slökktu á valkostinum **Safnvista pöntunina sjálfkrafa** í hlutanum **Úrvinnsla pantana** í stillingum fyrir **Útskráningu** í glugganum **Shopify Stjórnandi** til að tryggja að allar pantanir séu fluttar inn til [!INCLUDE[prod_short](../includes/prod_short.md)]. Ef þú þarft að flytja inn safnvistaðar pantanir skaltu nota aðgerðina **Taka pantanir úr geymslu** á síðunni [Pantanir](https://www.shopify.com/admin/orders) í glugganum **ShopifyStjórnandi**.
 
-1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikni, Sláðu inn **Shopify verslanir** og veldu síðan tengda tengilinn.
-2. Veljið verslunina þar sem á að flytja inn pantanir til að opna **Shopify Vinnukortasíðuna**.
-3. **Velja pantanin** aðgerð.
-4. **Veldu samkeyrslupantanirnar úr Shopify** aðgerðinni.
-5. Skilgreina afmarkanir í pöntunum eftir þörfum. Til dæmis er hægt að flytja inn fullgreiddar pantanir eða þær sem eru með lághættustig.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Shopify Verslanir** og velja síðan viðkomandi tengil.
+2. Velja verslun sem flytja á inn pantanir fyrir til að opna síðu **Shopify Verslunarkortsins**.
+3. Veldu aðgerðina **Pantanir**.
+4. Veldu aðgerðina **Samstilla pantanir frá Shopify**.
+5. Skilgreina síur á pöntunum eftir þörfum. Til dæmis er hægt að flytja inn pantanir sem hafa verið greiddar að fullu eða þær sem eru með lágt áhættustig.
 6. Velja hnappinn **Í lagi**.
 
-Einnig er hægt að leita að **Samkeyrsluskipanunum úr Shopify** keyrslunni.
+Einnig er hægt að leita að runuvinnslunni **Samstilla pantanir frá Shopify**.
 
-Áætla má að verkefnið sé framkvæmt með sjálfvirkum hætti. Frekari upplýsingar um [tímasetningu endurtekinna verka](background.md#to-schedule-recurring-tasks).
+Þú getur skipulagt verkið sem á að framkvæma á sjálfvirkan hátt. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
 
 ## <a name="review-imported-orders"></a>Yfirfara innfluttar pantanir
 
-Þegar innflutningi er lokið er hægt að kanna Shopify pöntunina og finna allar tengdar upplýsingar, svo sem greiðslufærslur, sendingarkostnað, hættustig eða uppfyllum, ef pöntunin hefur verið uppfyllt Shopify. Einnig er hægt að sjá allar pöntunarstaðfestingar sem hafa verið sendar viðskiptavininum með því að **Shopify Velja aðgerðina staða**.
+Þegar innflutningi er lokið er hægt að skoða Shopify pöntunina og finna allar tengdar upplýsingar, svo sem greiðslufærslur, sendingarkostnað, áhættustig eða uppfyllingu, ef pöntunin var þegar uppfyllt á Shopify. Þú getur einnig séð allar staðfestingar pöntunar sem hefur verið send til viðskiptavinarins með því að velja aðgerðina **Shopify Stöðusíða**.
 
 > [!NOTE]  
-> Hægt er að **Shopify vafra um gluggann pantanir** beint og þú sérð pantanir með *opinni* stöðu úr öllum verslunum. Til að fara yfir fullfrágengnar pantanir þarf að opna **Shopify pantanassíðan** úr glugganum tiltekið **Shopify verkstæðisspjald**.
+> Þú getur farið beint í gluggann **Shopify Pantanir** og þá birtast pantanir í stöðunni *opnar* í öllum verslunum. Til að fara yfir pantanir sem er lokið verður að opna síðuna **Shopify Pantanir** í sérstökum glugga **Shopify Verslunarkort**.
 
-## <a name="create-sales-documents-in-business-central"></a>Stofna söluskjöl í Viðskiptamiðinu
+## <a name="create-sales-documents-in-business-central"></a>Stofna söluskjöl í Business Central
 
-**Ef Sjálfvirk pantanavíxla** eru virkjuð á **Shopify verkstæðisspjaldinu**[!INCLUDE[prod_short](../includes/prod_short.md)] er reynt að stofna söluskjal þegar pöntunin er flutt inn. Ef málefni eins og viðskiptamaður sem vantar eða er stofnuð þarf að lagfæra vandamálin og stofna síðan sölupöntunina aftur.
+Ef valkosturinn **Stofna pantanir sjálfkrafa** er virkur á **Shopify Verslunarkortinu**, [!INCLUDE[prod_short](../includes/prod_short.md)]reynir það að búa til söluskjal þegar pöntunin hefur verið flutt inn. Ef vandamál koma upp eins og að viðskiptavin eða vöru vantar þarftu að laga vandamálin og búa svo til sölupöntunina aftur.
 
-### <a name="to-create-sales-documents"></a>Söluskjöl stofnuð
+### <a name="to-create-sales-documents"></a>Til að búa til söluskjöl
 
-1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikni, Sláðu inn **Shopify verslanir** og veldu síðan tengda tengilinn.
-2. Veljið verslunina þar sem á að samstilla pantanir til að opna **Shopify Vinnukortasíðuna**.
-3. **Velja pantanin** aðgerð.
-4. Veljið pöntunina sem stofna á söluskjal fyrir og veljið **aðgerðina stofna söluskjöl**.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Shopify Verslanir** og velja síðan viðkomandi tengil.
+2. Velja verslun sem á að samstilla pantanir fyrir til að opna síðuna **Shopify Verslunarkort**.
+3. Veldu aðgerðina **Pantanir**.
+4. Veljið röðina sem stofna á söluskjal fyrir og veljið aðgerðina **Búa til söluskjöl**.
 5. Velja **Já**.
 
-Shopify Sölupöntun **er stofnuð ef pöntunin krefst uppfyllingar**. Til að uppfylla Shopify pantanir, t.d. þær pantanir sem innihalda aðeins gjafakort eða eru þegar Afgreiddar í Shopify, **verður sölureikningur** stofnaður.
+Ef Shopify pöntunin krefst uppfyllingar **er Sölupöntun** stofnuð. Fyrir uppfylltar Shopify pantanir, svo sem þær pantanir sem innihalda aðeins gjafakort eða eru þegar meðhöndlaðar í Shopify verslunum, verður stofnaður **Sölureikningur**.
 
-Söluskjal er nú stofnað og hægt er að stjórna því með venjulegri [!INCLUDE[prod_short](../includes/prod_short.md)] virkni.
+Söluskjal er nú búið til og hægt er að stjórna því með því að nota hefðbundna [!INCLUDE[prod_short](../includes/prod_short.md)] virkni.
 
-### <a name="manage-missing-customers"></a>Stjórna týndan viðskiptavin
+### <a name="manage-missing-customers"></a>Vinna með viðskiptavini sem vantar
 
-Ef stillingarnar koma í veg fyrir að viðskiptavinur geti stofnað sjálfkrafa og rétt núverandi viðskiptavinur finnst ekki þarf að úthluta viðskiptamanni Shopify pöntuninni handvirkt. Það eru nokkrar leiðir til að gera þetta:
+Ef stillingarnar þínar koma í veg fyrir að viðskiptavinur sé stofnaður sjálfkrafa og réttur viðskiptavinur finnst ekki þarftu að úthluta viðskiptavini í Shopify pöntunina handvirkt. Nokkrar leiðir eru til að gera þetta:
 
-* Hægt er að úthluta reitnum **Selt-til viðskm.** Og **Reikn. að viðskm. nr.** Beint á **Shopify síðuna pantanir** með því að velja viðskiptavin af listanum yfir fyrirliggjandi viðskiptamenn.
-* Hægt er að velja sniðmátskóta viðskiptamanns og stofna síðan og úthluta viðskiptamanninum **með aðgerðinni stofna nýjan viðskiptavin** á **Shopify síðunni pantanir**.
-* Hægt er að varpa viðskiptamanni á tengda viðskiptavininn í glugganum Viðskiptavinir **Shopify og velja** síðan aðgerðina leita að vörpun **Shopify á** pantanasíðunni **·** . **Shopify**
+* Þú getur úthlutað **Selt-til viðskm.nr.** og **Reikn. færist á viðskm.** beint á síðunni **Shopify Pantanir** með því að velja viðskiptavin af listanum yfir núverandi viðskiptavini.
+* Hægt er að velja sniðmátskóða fyrir viðskiptavini, búa síðan til og úthluta viðskiptavini í gegnum aðgerðina **Búa til nýjan viðskiptavin** á síðunni **Shopify Pantanir**.
+* Þú getur varpað núverandi viðskiptavin við tengdan **Shopify Viðskiptavin** í glugganum **Shopify Viðskiptavinir** og valið síðan aðgerðina **Leita að vörpun** á síðunni **Shopify Pantanir**.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>Hvernig Tenglarnir velja hvaða viðskiptavin á að nota
+### <a name="how-the-connector-chooses-which-customer-to-use"></a>Hvernig tengillinn velur hvaða viðskiptavin á að nota
 
-*Innflutningspöntunin úr Shopify* aðgerðinni reynir að velja viðskiptamenn í eftirfarandi röð:
+Aðgerðin *Flytja inn pöntun frá Shopify* reynir að velja viðskiptavini í eftirfarandi röð:
 
-1. **Ef sjálfgefinn viðskm. nr.** Er skilgreindur í **Shopify Viðskiptamannssniðmátinu** fyrir samsvarandi land er síðan **sjálfgefna Viðskiptavinasvæðið nr.** Er notað án tillits til stillinga í **reitum innflutnings Shopify** -og **Viðskiptavinavörpunargerðar**. Frekari upplýsingar um [sniðmát viðskiptavinar fyrir hvert land](synchronize-customers.md#customer-template-per-country).
-2. **Ef innflutningur Shopify** viðskiptavinar er stilltur á *ekkert* og **sjálfgefna viðskiptavinarnr.** Er skilgreindur á **Shopify Vinnukortasíðunni**, þá **er sjálfgefinn viðskm. nr.** Er notað.
+1. Ef **Sjálfgefið númer viðskiptavinar.** reiturinn er skilgreindur í **Shopify Sniðmát viðskiptavinar** fyrir samsvarandi land og svo **Sjálfgefið nr. viðskiptavinar.** er notað óháð stillingum reitanna **Innflutningur viðskiptavinar frá Shopify** og **Vörpunargerð viðskiptavinar**. Frekari upplýsingar eru á [Sniðmát viðskiptavinar eftir landi](synchronize-customers.md#customer-template-per-country).
+2. Ef valkosturinn **Innflutningur viðskiptavinar frá Shopify** er stilltur á *Ekkert* og **Sjálfgefið nr. viðskiptavinar.** er skilgreint á síðunni **Shopify Verslunarkort** þá er **Sjálfgefið nr. viðskiptavinar.** er notað.
 
-Næstu skref fara **eftir gerð** Viðskiptavinakortsvörunar.
+Næstu skref fara eftir **Tegund vörpunar viðskiptavinar**.
 
-* Ef það er **alltaf tekið sjálfgefinn viðskiptavin**, þá notar tengivirkið viðskiptavininn sem skilgreindur er í **sjálfgefnum viðskm.** Reitnum á **Shopify Vinnukortasíðunni**.
-* Ef hún er **með tölvupósti/síma** þá reynir tengin að finna núverandi VIÐSKIPTAVIN með auðkenni fyrst, þá með tölvupósti, og svo eftir símanúmeri. Ef viðskiptavinurinn finnst ekki stofnar Connector nýjan viðskiptavin.
-* Ef upplýsingar **eru** eftir uppskriftinni reynir Tengillinn að finna viðskiptavininn sem er fyrstur með kennið fyrst og síðan með upplýsingum um aðsetur í frumgögnum. Ef viðskiptavinurinn finnst ekki stofnar Connector nýjan viðskiptavin.
+* Ef það er **Alltaf taka sjálfgefna viðskiptavininn**, þá notar tengillinn viðskiptavininn sem er skilgreindur í **Sjálfgefið nr. viðskiptavinar**. reitinn á síðunni **Shopify Verslunarkort**.
+* Ef það er með **Eftir netfangi/síma** reynir tengillinn að finna núverandi viðskiptavin fyrst eftir skilríkjum, síðan eftir netfangi og að síðustu eftir símanúmeri. Ef viðskiptavinurinn finnst ekki stofnar tengillinn nýjan viðskiptavin.
+* Ef það er **Eftir upplýsingum um „reikningsfæra á“** reynir tengillinn að finna fyrst þann viðskiptavin sem er til staðar með skilríkjum og síðan með upplýsingum um heimilisfang. Ef viðskiptavinurinn finnst ekki stofnar tengillinn nýjan viðskiptavin.
 
 > [!NOTE]  
-> Í tengivirkinu eru notaðar upplýsingar úr reitnum aðsetur og stofnar viðskiptamannsins sem er Reikn [!INCLUDE[prod_short](../includes/prod_short.md)]. Selt-til-viðskiptamaður er sá sami og Reikn.
+> Tengillinn notar upplýsingar frá heimilisfanginu sem reikningsfært er á og býr til viðskiptamanninn sem reikningsfært er á í [!INCLUDE[prod_short](../includes/prod_short.md)]. Selt-til - Viðskiptavinur er sami viðskiptavinur og reikningsfært er á.
 
-### <a name="impact-of-order-editing"></a>Áhrif breytinga á pöntun
+### <a name="impact-of-order-editing"></a>Áhrif pöntunarbreytinga
 
 Í Shopify:
 
 |Breyta|Áhrif|
 |------|-----------|
-|Breyta uppfyllingu | Upprunaleg staðsetning verður samsýnd [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|Breyta pöntun og breyta magni| Pöntunarhaus og fylgitöflur verða uppfærðar í [!INCLUDE[prod_short](../includes/prod_short.md)], línur verða ekki. |
-|Breyta pöntun og bæta við nýrri vöru | Pöntunarhaus verður uppfærður, línur renna ekki. |
+|Breyta uppfyllingarstaðsetningu | Upphafleg staðsetning verður samstillt við [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Breyta pöntun og breyta magni| Haus pöntunar og viðbótartöflur verða uppfærðar í [!INCLUDE[prod_short](../includes/prod_short.md)], línur breytast ekki. |
+|Breyta pöntun og bæta við nýjum hlut | Haus pöntunar verður uppfærður, línur breytast ekki. |
 
 Í [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Breyta|Áhrif|
 |------|-----------|
-|Breyttu staðsetningunni í annan stað, kortlögðu Shopify staðsetningarinnar. Bóka sendingu. | Þegar búið er að samstilla uppfyllingu verður Staðsetningin uppfærð í Shopify. |
-|Breyttu staðsetningunni í annan stað, ekki varpað á Shopify birgðageymslur. Bóka sendingu. | Ekki er Samstaða um uppfyllingu Shopify. |
-|Breyta minnkun magns. Bóka sendingu. | Shopify Pöntunin verði merkt sem að hluta til uppfyllt. |
-|Bæta við nýju atriði. Bóka sendingu. | Shopify Pöntunin verður merkt sem uppfylltur. Línur verða ekki uppfærðar. |
+|Breyta staðsetningu í aðra staðsetningu, varpað yfir í Shopify staðsetningar. Bóka afhendingu. | Eftir að búið er að samstilla uppfyllinguna verður staðsetningin uppfærð í Shopify. |
+|Breyta staðsetningu í aðra staðsetningu, ekki varpaða í Shopify staðsetningar. Bóka afhendingu. | Fullyrðingin verður ekki samstillt við Shopify. |
+|Breyta eða minnka magn. Bóka afhendingu. | Shopify Pöntunin verður merkt sem uppfyllt að hluta. |
+|Bæta við nýju atriði. Bóka afhendingu. | Shopify Pöntunin verður merkt sem uppfyllt. Línur verða ekki uppfærðar. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Samstilla sendingar á Shopify
+## <a name="synchronize-shipments-to-shopify"></a>Samstilla sendingar við Shopify
 
-Þegar sölupöntun sem búin er til úr Shopify pöntun er afhent er hægt að samstilla afhendingarnar með Shopify.
+Þegar sölupöntun sem stofnuð er úr Shopify pöntun send er hægt að samstilla sendingarnar við Shopify.
 
-1. Veldu þá ![ljósaperu sem opnast Segðu mér lögun 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **samstillingu afhendingar við Shopify** og velja síðan tengda tengilinn.
-2. Skilgreinið afmarkanir á afhendingum eftir þörfum. Til dæmis er hægt að uppfæra sendingu sem er bókuð á tiltekinni dagsetningu.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið slá inn **Samstilla sendingar við Shopify** og velja síðan viðkomandi tengil.
+2. Skilgreina síur á sendingum eftir þörfum. Til dæmis er hægt að uppfæra sendingu sem er bókuð á tilteknum degi.
 3. Velja hnappinn **Í lagi**.
 
-Röðin sem í Shopify verður er merkt sem uppfyllt. Viðskiptavinurinn fær sjálfkrafa tilkynningu um sendingu sendingar eða textaskilaboð (SMS). Ef flutningsaðili og rakningarkóði eru tilgreind á sendingunni eru rakningarupplýsingar hafðar með í tölvupóstinum.
+Pöntunin Shopify verður merkt sem uppfyllt. Viðskiptavinur fær sjálfkrafa tilkynningu um sendingu með tölvupósti eða textaskilaboðum (SMS). Ef afhendingaraðili og rakningarkóði eru tilgreindir í sendingunni eru rakningsupplýsingarnar innifaldar í tölvupóstinum.
 
-Einnig er hægt að **nota aðgerðina samstilla sendingar** í Shopify sölupöntunum eða Shopify síðum verkstæðisáætlana.
+Einnig er hægt að nota aðgerðina **Samstilla afhendingar** á síðunum Shopify Sölupantanir eða Shopify Verslunarsíður.
 
-Áætla má að verkefnið sé framkvæmt með sjálfvirkum hætti. Frekari upplýsingar um [tímasetningu endurtekinna verka](background.md#to-schedule-recurring-tasks).
+Þú getur skipulagt verkið sem á að framkvæma á sjálfvirkan hátt. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
 
->Mikilvægt Staðsetningin, þar á meðal auður Birgðageymsla, sem er skilgreind í bókuðu afhendingarlínunni verður að hafa samsvarandi færslu í Shopify birgðageymslunni. Annars verður þessi lína ekki send aftur til Shopify. Frekari upplýsingar á [staðsetningarvörpun](synchronize-orders.md#location-mapping).
+>[Mikilvægt] Staðsetningin, þar á meðal auða staðsetningin, sem skilgreind er í Bókaðri afhendingarlínu, verður að hafa samsvarandi færslu í Shopify staðsetningunni. Að öðrum kosti verður þessi lína ekki send aftur til Shopify. Frekari upplýsingar er að finna á [Vörpun staðsetningar](synchronize-orders.md#location-mapping).
 
-Munið að keyra **Samstillingarpantanir frá Shopify** til að uppfæra stöðu pöntunar í [!INCLUDE[prod_short](../includes/prod_short.md)]. Í tengimyningum er einnig Skjalasafn að fullu greidd og fullnaðarpantanir í báða Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)] að því gefnu að skilyrðin séu uppfyllt.
+Munið að keyra **Samstilla pantanir frá Shopify** til að uppfæra uppfyllingarstöðu pöntunar í [!INCLUDE[prod_short](../includes/prod_short.md)]. Virkni tengilsins safnvistar einnig að fullu greiddar og uppfylltar pantanir bæði í Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)] að því gefnu að skilyrðin séu uppfyllt.
 
-### <a name="shipping-agents-and-tracking-url"></a>Farmflutningar og rakningarvefslóð
+### <a name="shipping-agents-and-tracking-url"></a>Flutningsaðilar og rakningarvefslóð
 
-**Ef bókaða söluafhendingarskjalið** inniheldur **kóta** flutningsfyrirtækisins og/eða **pakkakengingu nr.** verða þessar upplýsingar sendar til Shopify og viðskiptavinarins í tölvupósti afhendingarstaðfestingarinnar.
+Ef skjalið **Bókuð söluafhending** inniheldur **Flutningsaðilakóða** og/eða **Leitarnr. sendingar**, verða þessar upplýsingar sendar til Shopify og til viðskiptavinar í staðfestingarpósti sendingar.
 
-Rakningarfyrirtækið er fyllt út í eftirfarandi pöntun (frá hæsta til lægsta) samkvæmt færslunni flutningsaðili:
+Rakningarfyrirtækið er fyllt út í eftirfarandi röð (frá hæsta til lægsta) miðað við umboðsskrá flutningsaðila:
 
-* **Shopify Rakstrarfélagið**
+* **ShopifyRakningarfyrirtæki**
 * **Heiti**
 * **Kóði**
 
-**Ef SVÆÐIÐ slóð rakans slóðar** er fyllt út fyrir flutningsskrá staðfestingar þá inniheldur staðfestingakurl einnig RAKNINGARVEFSLÓÐ.
+Ef reiturinn **Rakningarvefslóð sendingar** er fylltur út fyrir skrá flutningsaðila mun staðfesting sendingar einnig innihalda rakningarvefslóð.
 
-## <a name="gift-cards"></a>Gjafakortum
+## <a name="gift-cards"></a>Gjafakort
 
-Shopify Í versluninni er hægt að selja gjafakort, sem hægt er að nota til að greiða fyrir alvöru vörur.
+Í Shopify versluninni er hægt að selja gjafakort sem hægt er að nota til að greiða fyrir raunverulegar vörur.
 
-Þegar verið er að fást við gjafakort er mikilvægt að slá inn gildi í **reitinn Selt gjafakort** í **Shopify verkstæðisglugganum**. Samstíga seldum gjafakortum ásamt pöntunum í takt. Notuð gjafakort verða einnig flutt inn með pöntuninni en nú sem færsluhirti. Takið eftir að gjafakortið minnkar ekki upphæðina í reikning.
+Þegar unnið er með gjafakort er mikilvægt að slá inn gildi í reitinn **Seldur gjafakortsreikningur** í glugganum **Shopify Verslunarkort**. Selda gjafakortið verður samstillt ásamt pöntunum í línu. Einnig verður flutt inn notað gjafakort með pöntuninni en nú sem færsla. Taktu eftir að gjafakortið lækkar ekki upphæðina sem á að reikningsfæra.
 
-Til að yfirfara Útgefin og notuð gjafakort skal velja þá ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn **gjafakort** og veldu síðan tengda tengilinn.
+Til að yfirfara nýja birgðaspjaldið og notuð gjafakort skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið og færa inn **Gjafakort** og velja síðan viðkomandi tengil.
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Byrjaðu með Tengimynt fyrir Shopify](get-started.md)  
+[Hafist handa með tengilinn fyrir Shopify](get-started.md)  

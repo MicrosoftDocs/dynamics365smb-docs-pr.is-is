@@ -12,7 +12,7 @@ ms.date: 06/25/2021
 ms.author: edupont
 ms.openlocfilehash: 46b6cbd88cf23974e5fd11453c328c1669c8e19c
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534427"
@@ -73,7 +73,7 @@ Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekk
     > [!NOTE]  
     >  Ólíkt því sem gildir um hreyfingaskjöl, stofna hreyfingar sem bókaðar eru með endurflokkunarbókinni ekki vöruhúsabeiðni um að framkvæma efnislega verkið.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

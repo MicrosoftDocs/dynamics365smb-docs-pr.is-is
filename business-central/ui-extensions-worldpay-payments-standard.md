@@ -11,7 +11,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.openlocfilehash: 0815d36f6b6b5e3fd94a1ebab0dbd2e591dffaa7
 ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/29/2022
 ms.locfileid: "9362136"

@@ -12,7 +12,7 @@ ms.date: 07/12/2021
 ms.author: edupont
 ms.openlocfilehash: a0bf6bb146893f4ba16e2565134f15389380eab0
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528196"
@@ -98,7 +98,7 @@ Breytingin fjarlægir sölutilboðið úr gagnagrunninum. Sölureikningur eða s
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

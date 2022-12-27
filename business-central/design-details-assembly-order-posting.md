@@ -11,7 +11,7 @@ ms.date: 06/15/2021
 ms.author: edupont
 ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
 ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9075604"
@@ -110,15 +110,15 @@ Bókun sölupantanalína þar sem einn hluti er birgðamagn og annar er magn sam
 
 ### <a name="posting-dates"></a>Bókunardagsetningar
 
-Almennt eru bókunardagsetningar afritaðar úr sölupöntun í tengda samsetningarpöntunina. Bókunardagsetningin í samsetningarpöntuninni uppfærist sjálfkrafa þegar breytt er bókunardagsetningu í sölupöntuninni beint eða óbeint, svo sem ef breytt er bókunardagsetningunni í birgðahús, Birgðatínsla eða sem hluti af magnbókun.
+Almennt eru bókunardagsetningar afritaðar úr sölupöntun í tengda samsetningarpöntun. Bókunardagsetningin í samsetningarpöntuninni er sjálfkrafa uppfærð þegar bókunardagsetningunni í sölupöntun er breytt beint eða óbeint, t.d. ef breytt er bókunardagsetningu í vöruhúsasendingu, birgðatínslu eða sem hluti af magnbókun.
 
-Hægt er að breyta bókunardagsetningunni handvirkt í samsetningarpöntuninni. Hins vegar er ekki hægt að bóka dagsetningu síðar í tengdu sölupöntuninni. Kerfið heldur þessari dagsetningu nema uppfæra bókunardagsetningu í sölupöntuninni.
+Hægt er að breyta bókunardagsetningunni í samsetningarpöntun handvirkt. Hins vegar má hún ekki koma á eftir bókunardagsetningunni í tengdu sölupöntuninni. Kerfið heldur þessari dagsetningu nema þú uppfærir bókunardagsetninguna í sölupöntuninni.
 
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: staða framleiðslupöntunar](design-details-production-order-posting.md)   
- [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
+ [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
  [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -1,5 +1,5 @@
 ---
-title: Setja upp kóta fyrir Eftirlitsslóðir
+title: Setja upp kóða fyrir endurskoðunarslóðir
 description: Kynntu þér verkin til að setja upp upprunakóða og ástæðukóða sem þú getur notað til að fylgjast með eftirlitsferðum.
 author: edupont04
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: ab140d214c25735bf8158a2255f8f35ba246442c
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9535156"
@@ -85,7 +85,7 @@ Eftirfarandi ferli sýnir hvernig á að bæta ástæðukóða við færslubóka
 
 Þegar reikningurinn er bókaður afritast ástæðukóðinn í allar fjarhags-, viðskiptamanna- og lánardrottnafærslur. Ekki er hægt að úthluta mismunandi ástæðukótum í einstakar innkaupa- og sölulínur vegna þess að allar línur bókast sem ein færsla.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -94,7 +94,7 @@ Eftirfarandi ferli sýnir hvernig á að bæta ástæðukóða við færslubóka
 [Vinna með víddir](finance-dimensions.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

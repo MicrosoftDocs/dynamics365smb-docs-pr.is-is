@@ -1,5 +1,5 @@
 ---
-title: Fjarlægja og endursetja birgðafærslur
+title: Fjarlægja og endurjafna birgðafærslur
 description: Hægt er að skoða og breyta handvirkt tilteknum birgðajöfnunarfærslum sem eru stofnaðar sjálfkrafa við birgðafærslur.
 author: SorenGP
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: efe39fd4a4c800050deffc9c137274392f4b7dd0
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8515694"
@@ -78,7 +78,7 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
 [Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Meðhöndlun innkaupaskila eða afturkallana](purchasing-how-process-purchase-returns-cancellations.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   
- [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
+ [Hönnunarupplýsingar: Birgðajöfnun](design-details-item-application.md)  
  [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

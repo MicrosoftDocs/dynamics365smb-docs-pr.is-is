@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8518156"
@@ -103,7 +103,7 @@ Sérhver reikningur birtist einn sér í línu, (í framhaldi af uppbyggingu bó
 Ef gögn fyrirtækiseiningar eru í öðrum gagnagrunni þarf að flytja gögnin út í skrá áður en hægt er að hafa þau með í samstæðunni. Flytja þarf hvert fyrirtæki fyrir sig. Í þessum tilgangi skal nota runuvinnsluna **Útflutningur samstæðu**.  
 
 > [!TIP]
-> Notið sama ferlið til að flytja út sameinuð gögn sem þarf að senda til Dynamics 365 Finance, svo sem ef núverandi fyrirtækiseining er dótturfyrirtæki og móðurfyrirtækið notar Dynamics 365 Finance.
+> Notaðu sama ferlið til að flytja út sameinuð gögn sem þarf að senda á Dynamics 365 Finance, t.d. ef núverandi fyrirtækiseining er dótturfyrirtæki og móðurfyrirtækið notar Dynamics 365 Finance.
 
 Þegar búið er að keyra runuvinnsluna, eru allar færslur í fjárhagsreikninga unnar. Samtala er fengin og flutt út úr efni færslna í reitunum **Upphæð** í sérhverri samsetningu valinnar víddar og dagsetningar. Þá er unnið úr næstu samsetningu valinnar víddar og dagsetningar með sama reikningsnúmeri og síðan úr samsetningu næsta reikningsnúmers og svo framvegis.  
 

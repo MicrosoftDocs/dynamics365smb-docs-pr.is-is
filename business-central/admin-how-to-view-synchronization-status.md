@@ -1,5 +1,5 @@
 ---
-title: Skoða stöðu samstillingarvinnslu (inniheldur Video)
+title: Skoða stöðu samstillingarverka (inniheldur myndskeið)
 description: Notaðu síðuna Samstillingarvillur í tengdum gögnum til að skoða stöðu samstillingarverka sem hafa verið keyrðar fyrir tengdar færslur í samþættingum.
 author: brentholtorf
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ms.openlocfilehash: c98cadba0a9bdf21a89a6c50dd61d805f0547685
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8521255"
@@ -59,7 +59,7 @@ Ef einingu með einstefnutengingu er eytt í [!INCLUDE[prod_short](includes/prod
 
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Nota Dynamics 365 Sala frá Viðskiptamiðinu](marketing-integrate-dynamicscrm.md)
+[Nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

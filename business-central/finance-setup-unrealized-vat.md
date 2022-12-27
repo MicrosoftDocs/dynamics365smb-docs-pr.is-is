@@ -1,5 +1,5 @@
 ---
-title: Setja upp óinnleystan virðisauka
+title: Setja upp óinnleystan virðisaukaskatt
 description: Ef þú ert að nota bókhaldsreikning getur þú tilgreint hvernig á að meðhöndla óinnleyst virðisaukaskatt vegna sölu og kaupa.
 author: brentholtorf
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.openlocfilehash: 1ae48b042cf3df00a1d62a6871136e2526b3db0c
 ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/14/2022
 ms.locfileid: "8417696"
@@ -23,7 +23,7 @@ Ef þú ert að nota reikningsskilaaðferðir í reiðufé, getur þú sett upp 
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Nota fjárhagsreikninga fyrir óinnleystan virðisaukaskatt
 
-Hægt er að velja að VSK-upphæðir verði reiknaðar og bókaðar á bráðabirgðafjárhagsreikning þegar reikningur er bókaður, og síðan bókaður á rétta fjárhagsreikninginn og settur í VSK-yfirlitin þegar endanlega greiðsluupphæð reikningsins er bókuð. Áður en hægt er að gera þetta þarf að ljúka við [VSK-bókunaruppsetninguna](finance-setup-vat.md).
+Hægt er að velja að VSK-upphæðir verði reiknaðar og bókaðar á bráðabirgðafjárhagsreikning þegar reikningur er bókaður, og síðan bókaður á rétta fjárhagsreikninginn og settur í VSK-yfirlitin þegar endanlega greiðsluupphæð reikningsins er bókuð. Áður en þetta er hægt þarf að ljúka við [VSK-bókunargrunninn](finance-setup-vat.md).
 
 Til að nota reikninga fyrir óinnleyst virðisaukaskatt skaltu fylgja þessum skrefum:
 

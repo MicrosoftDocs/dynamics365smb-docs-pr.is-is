@@ -12,7 +12,7 @@ metadata:
   ms.author: edupont
   ms.openlocfilehash: 70e9bf530b2b640c42ee346d39ce6d06d5a7cee8
   ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: is-IS
   ms.lasthandoff: 03/31/2022
   ms.locfileid: "8513472"
@@ -79,11 +79,11 @@ sections:
 
       | Sjálfvirkur inntaksfókus í fyrsta breytanlega reit síðu | Ekki tiltækt. | Ekki tiltækt. | `Customer Card` síðuna.<BR /><BR />Í vafranum verður fókusinn sjálfkrafa á fyrsta breytanlega reitnum (eins og reitnum `Name`) sem gerir kleift að breyta gildinu strax.<BR /><BR />Í spjaldtölvu- og farsímaforritum verður þessi reitur ekki í fókus; þess í stað þarf fyrst að velja reitinn handvirkt til að gera breytingar.|
   - question: >
-      Er það sama upplifun á töflum og símum?
+      Er upplifunin eins í spjaldtölvum og símum?
     answer: "Nánast, en ekki alveg. Skoðið listann í hlutanum [Er sama upplifunin í forritunum eins og í vafranum?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  \n"
   - question: >
       Get ég tengt forritið við innanhússlausnina?
-    answer: "Já, þú getur það! Það er örlítið mismunandi leið til að skrá sig inn, það er allt og sumt. Frekari upplýsingar er að finna [í notkun Viðskiptamiðis innanhúss](install-mobile-app.md#use-business-central-on-premises)?.  \n"
+    answer: "Já, þú getur það! Það er örlítið mismunandi leið til að skrá sig inn, það er allt og sumt. Frekari upplýsingar er að finna í [Nota Business Central á staðnum?](install-mobile-app.md#use-business-central-on-premises).  \n"
   - question: >
       Getur gestanotandi notað forritið til að opna Business Central-lausnina?
     answer: "Fj. Gestanotendur eru notendur sem annar Azure Active Directory (AD) leigjandi en þinn hefur boðið. Í því tilviki mun forritið auðkenna hjá Azure AD leigjanda gestanotanda og reyna að opna endastöð Business Central í þeim leigjanda í staðinn fyrir þínum.  \n"

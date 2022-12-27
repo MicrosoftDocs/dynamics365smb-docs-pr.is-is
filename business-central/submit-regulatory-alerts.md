@@ -9,7 +9,7 @@ ms.date: 06/25/2021
 ms.author: soalex
 ms.openlocfilehash: 7601f1bef58ed914385957ef70ad8b924c4499a0
 ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/23/2022
 ms.locfileid: "8335111"
@@ -20,7 +20,7 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Innsending lögboðinnar viðvörunar í LCS
 
-1. [https://lcs.dynamics.com](https://lcs.dynamics.com) Fara í og skrá inn  
+1. Opnaðu [https://lcs.dynamics.com](https://lcs.dynamics.com) og skráðu þig inn  
 
     Þú sérð verkin sem þú hefur aðgang að
 

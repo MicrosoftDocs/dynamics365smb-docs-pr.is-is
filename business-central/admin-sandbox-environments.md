@@ -12,7 +12,7 @@ ms.date: 12/20/2021
 ms.author: solsen
 ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9529731"
@@ -22,13 +22,13 @@ ms.locfileid: "9529731"
 Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu geturðu auðveldlega náð þér í öruggt umhverfi þar sem hægt er að prófa, þjálfa eða leysa úr málum án þess að það trufli verkferla eða viðskiptagögn fyrirtækisins. Slíkt umhverfi sem ekki er hægt að framleiða í er kallað *sandkassi*. Sandkassaumhverfi er staðurinn, ótengdur framleiðslu, þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa þjónustuna í öruggu umhverfi án þess að eiga á hættu að hafa áhrif á gögnin eða stillingarnar í framleiðsluumhverfi þínu.  
 
 > [!TIP]
-> Landaði þú á þessari grein eftir að þú valdir nafnið á umhverfi þínu [!INCLUDE [prod_short](includes/prod_short.md)] í Top Bar? Eins er ekki hægt að breyta nafninu eða umhverfinu sem vegur. Þess í stað þarf að biðja kerfisstjóra um að breyta nafninu eða biðja þá um að samnýta tengilinn í annað umhverfi.
+> Lentirðu á þessari grein eftir að þú valdir nafnið á [!INCLUDE [prod_short](includes/prod_short.md)] umhverfinu þínu í efstu stikunni? Sem stendur er ekki hægt að breyta nafninu eða umhverfinu á þennan hátt. Þess í stað verður þú að biðja stjórnanda þinn um að breyta nafninu eða biðja hann um að deila tenglinum í annað umhverfi.
 
 Stjórnandi hefur umsjón með sandkassaumhverfum í [stjórnendamiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 
 Ef þú vilt til dæmis búa til sandkassa sem viðmið getur stjórnandi þinn búið til sérhæft umhverfi í stjórnendamiðstöðinni. Frekari upplýsingar eru í [Vinnslu- og sandkassaumhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types) í þróunar- og stjórnunarefni.  
 
-Einnig er óhætt að nota sandkassar til þjálfunar, eins og til að fylgja eftir námsbraut úr [Microsoft þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), því það er öruggt umhverfi til að gera tilraunir með. Ef eitthvađ fer úrskeiđis eyđir mađur einfaldlega sandkassanum og byrjar upp á nýtt.  
+Einnig er hægt að nota sandkassa til þjálfunar á öruggan hátt, t.d. til að fylgja námsleið úr [Microsoft-þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) því það er öruggt umhverfi til að gera tilraunir í. Ef eitthvađ fer úrskeiđis eyđir mađur einfaldlega sandkassanum og byrjar upp á nýtt.  
 
 Að því loknu geturðu fjarlægt sandkassann með því að nota stjórnstöðina.  
 
@@ -66,16 +66,16 @@ When the assisted setup guide completes, you can start exploring the new company
 
 Í sandkassaumhverfi er kveikt á **Hönnuður**. Hægt er að virkja hönnuðinn með því að velja hönnunartáknið ![Hönnuður.](./media/across-sandbox/sandbox-inclient-design-icon.png) á síðu eða með því að velja **Hanna** valmyndaratriðið í stillingavalmyndinni ![Stillingar](media/ui-experience/settings_icon_small.png).  
 
-Nánari upplýsingar eru [í notkun hönnunar](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) í efni forritara og admin (aðeins á ensku).  
+Frekari upplýsingar er að finna í [Nota hönnuð](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) í efni hönnuðar og stjórnanda (aðeins á ensku).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Rannsóknum og áskriftum](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)] Prufuútgáfa og áskrift](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 [Stjórnun umhverfis í stjórnunarmiðstöð Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Vinnslu- og sandkassaumhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types)  
 

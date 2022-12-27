@@ -5,7 +5,7 @@ metadata:
   ms.topic: faq
   ms.openlocfilehash: d2fa68425d164e47b0618a4c00e8e685afba6647
   ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: is-IS
   ms.lasthandoff: 04/01/2022
   ms.locfileid: "8528424"
@@ -75,5 +75,5 @@ sections:
       Þegar líma inn í [!INCLUDE[prod_short](includes/prod_short.md)] er hver röð skoðuð til að ganga úr skugga um að gildi í hverjum dálki séu gild. Ef dálkur inniheldur gildi sem er ógilt er líming stöðvað og villuboð birtist. Til að forðast þetta skaltu ganga úr skugga um að dálkarnir hafi gild gildi áður en þú límir þá.
   - question: Get ég einnig afritað tengla á síður og færslur?
     answer: >
-      Já. Frekari upplýsingar er að finna [í Samnýting Viðskipagagna úr Viðskiptamiðinu](across-share-data-features.md).
+      Já. Frekari upplýsingar er að finna í [Deiling viðskiptagagna úr Business Central](across-share-data-features.md).
 additionalContent: "## <a name=\"next-steps\"></a>Næstu skref\nFinndu tengdar upplýsingar hér: \n  - [Aðstoðareiginleikar](ui-accessibility.md)  \n  - [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  \n  - [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Algengar spurningar](across-faq.yml)"

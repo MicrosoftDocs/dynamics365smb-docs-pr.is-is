@@ -1,6 +1,6 @@
 ---
-title: Tímabundin gagnagreining á tilfallandi
-description: Gefur yfirlit yfir aðgerðirnar sem styðja tilfallandi gagnagreiningar á verkefnum í Aðalafurð fyrirtækja.
+title: Tilfallandi gagnagreining
+description: Gefur upp yfirlit yfir eiginleikana sem styðja tilfallandi gagnagreiningarverk í vöru Business Central.
 author: edupont04
 ms.topic: get-started-article
 ms.devlang: na
@@ -11,24 +11,24 @@ ms.date: 08/19/2022
 ms.author: edupont
 ms.openlocfilehash: 690aa39a73705b25a804111fbe939298a528c96a
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9607905"
 ---
-# <a name="ad-hoc-data-analysis"></a>Tímabundin Gagnagreining á tilfallandi
+# <a name="ad-hoc-data-analysis"></a>Tilfallandi gagnagreining
 
-Stundum þarf að greina gögn á [!INCLUDE[prod_short](includes/prod_short.md)] þann hátt sem ekki er fyrir hendi í staðlaðri skýrslu. Þetta er oft kallað "tilfallandi Greining." Hér fyrir neðan eru tenglar til að fá aðstoð við að læra hvernig á að framkvæma hana.
+Stundum þarf að greina gögn í [!INCLUDE[prod_short](includes/prod_short.md)] með aðferð sem er ekki í boði í staðlaðri skýrslu. Þetta er oft kallað „tilfallandi greining“. Hér fyrir neðan eru tenglar til að hjálpa þér að læra hvernig á að framkvæma það.
 
 | Til | Sjá |
 | --- | --- |
-| Lærðu að greina gögn einfaldlega með því að nota röðun, leit og Síuaðgerðir. | [Raða, leita og sía](ui-enter-criteria-filters.md) og [Leita og sía FAQ](ui-search-filter-faq.yml) |
-| Skoða og greina gögn frá síðu í Microsoft Excel | [Skoða og breyta í Excel](across-work-with-excel.md) |
-| Skoða og greina gögn úr skýrslu DataSet í Excel. | [Vista gagnasett í Excel úr beiðssíðu](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
-| Skoða og greina Fjárhagsleg gögn sem nota fjárhagsskýrslur. | [Fjármál Analytics](bi.md) |
+| Kynntu þér hvernig á að greina gögn einfaldlega með því að nota röðunar-, leitar- og síunaraðgerðir. | [Röðun, leit, og síun](ui-enter-criteria-filters.md) og [Algengar spurningar um leit og síun](ui-search-filter-faq.yml) |
+| Skoða og greina gögn af síðu í Microsoft Excel | [Skoða og breyta í Excel](across-work-with-excel.md) |
+| Skoða og greina gögn úr gagnasafni skýrslu í Excel. | [Vista skýrslugagnasafn í Excel af beiðnisíðunni](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
+| Skoða og greina fjárhagsgögn með því að nota fjárhagsskýrslur. | [Fjárhagsgreiningar](bi.md) |
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Yfirlit yfir viðskiptagreind og skýrslugerð](ui-work-report.md)
+[Viðskiptagreind og skýrsluyfirlit](ui-work-report.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

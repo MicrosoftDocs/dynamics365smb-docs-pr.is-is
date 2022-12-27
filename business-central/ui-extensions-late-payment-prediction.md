@@ -1,6 +1,6 @@
 ---
 title: Spá fyrir um seinkun á greiðslu fyrir söluskjöl
-description: Í þessu efnisatriði er útskýrt hvernig nota á fyrirspyrjandi líkanið til að spá fyrir um hvort reikningur verði greiddur á tíma.
+description: Þetta efnisatriði útskýrir hvernig á að nota spálíkanið okkar til að spá fyrir um hvort reikningur verði greiddur á réttum tíma.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -12,7 +12,7 @@ ms.date: 12/20/2021
 ms.author: bholtorf
 ms.openlocfilehash: a2b6cc372846ec525c9f035aa98c5daafbf31913
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533765"
@@ -33,7 +33,7 @@ Til að virkja viðbótina handvirkt skaltu fylgja þessum skrefum:
 > [!NOTE]
 > Ef ákveðið er að virkja viðbótina handvirkt skal hafa í huga að [!INCLUDE[prod_short](includes/prod_short.md)] leyfir þér ekki að gera það ef gæði líkansins eru léleg. Gæði líkansins gefur til kynna hversu nákvæmar spár líkansins eru líklegar til að verða. Nokkrir þættir geta haft áhrif á gæði líkansins. Til dæmis getur verið að ekki hafi verið nægjanlega mikið af gögnum eða að þau voru ekki nógu fjölbreytt. Hægt er að skoða gæði líkansins sem þú ert að nota núna á síðunni **Uppsetning greiðsludráttaspár**. Þú getur einnig tilgreint lágmarksþröskuld fyrir gæði líkansins.   
 
-## <a name="viewing-all-payment-predictions"></a>Skoða alla greiðsluspá
+## <a name="viewing-all-payment-predictions"></a>Skoðar allar greiðsluspár
 
 Ef þú virkjar viðbót verður **Greiðslur sem spáð er að munu dragast** flís tiltæk í **Viðskiptastjórnandi** í Mitt hlutverk. Flísin sýnir fjölda greiðslna sem spáð er að dragist, og gerir þér kleift að opna **viðskiptamannafærslur** síðuna þar sem þú getur grafið dýpra í bókaða reikninga. Það eru þrjár dálkar sem veita skal eftirtekt:  
 
@@ -44,7 +44,7 @@ Ef þú virkjar viðbót verður **Greiðslur sem spáð er að munu dragast** f
 > [!TIP]
 > Síðan Viðskiptamannafærslur sýnir einnig Upplýsingakassa til hægri. Á meðan þú ert að yfirfara spár, geta upplýsingarnar í **Upplýsingar um viðskiptamenn** hlutanum verið gagnlegar. Þegar þú velur reikninginn í listanum birtir hlutinn upplýsingar um viðskiptamanninn. Það gerir þér jafnframt kleift að hefja aðgerðir strax. Ef viðskiptamaður setur til dæmis oft veskið sitt á rangan stað getur þú opnað viðskiptamannakortið frá Upplýsingakassanum og útilokað viðskiptamanninn frá framtíðarsölu.  
 
-## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Greiðsluspá skoðuð fyrir tiltekið söluskjal
+## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Skoðar greiðsluspá fyrir tiltekið söluskjal
 
 Þú getur einnig sagt fyrir um greiðsludrátt fyrirfram. Á síðunum **Sölutilboð**, **Sölupantanir** og **Sölureikningar** geturðu notað **Spá fyrir um greiðslu** aðgerðina til að búa til spá fyrir söluskjalið sem þú ert að skoða.
 
@@ -118,7 +118,7 @@ Ef svo virðist sem ferli notanda stemmi ekki við staðlaða líkanið er samt 
 7. Veldu **Nota Azure-áskriftina mína** gátreitinn.
 8. Í **Innskráningarupplýsingar fyrir líkanið mitt** flýtiflipanum, sláðu inn API slóðina og API lykil fyrir líkanið.  .  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/predict-late-payments-sales-documents/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

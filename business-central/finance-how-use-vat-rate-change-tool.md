@@ -1,6 +1,6 @@
 ---
 title: Stjórna breytingum VSK-hlutfalls
-description: Lærðu að nota verkfæri fyrir VSK-hlutfall fyrir Dynamics 365 Business Central breytingar á VSK-taxta samkvæmt staðbundinni löggjöf.
+description: Kynntu þér hvernig þú notar breytingarverkfæri VSK-hlutfalls fyrir Dynamics 365 Business Central til að breyta VSK-taxta í samræmi við löggjöf á staðnum.
 author: andregu
 ms.topic: conceptual
 ms.reviewer: edupont
@@ -11,7 +11,7 @@ ms.date: 06/16/2021
 ms.author: andregu
 ms.openlocfilehash: 92a0b0aa49a0cdcd2eb2c619c690e85a7b3620f7
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528439"
@@ -105,7 +105,7 @@ Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöð
 > [!IMPORTANT]  
 > Eftir prófun á umreikningi er reiturinn **Umbreytt** í töflu **Breyting á VSK gengi í skráningarfærslu** valinn og reiturinn **Umbreytt dagsetning** í töflunni **Breyting á VSK gengi í skráningarfærslu** sýnir umreiknuðu dagsetninguna.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

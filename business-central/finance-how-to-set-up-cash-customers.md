@@ -11,7 +11,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ms.openlocfilehash: 537c25d60282712f66afcdcfe9e44eb99bd2291f
 ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8139548"
@@ -39,7 +39,7 @@ Ekki er hægt að gera reikning án viðskiptamannsnúmers. Þetta á við þó 
 
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)
-[Fjármál](finance.md)  
+[Finance](finance.md)  
 
 
 

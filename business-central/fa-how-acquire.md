@@ -12,7 +12,7 @@ ms.date: 12/03/2021
 ms.author: edupont
 ms.openlocfilehash: 92ef679d915954425eddbe5caf6674e0b42a396a
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9529893"
@@ -83,9 +83,9 @@ Ef kaup eru til dæmis bókuð með rangri dagsetningu þarf að leiðrétta han
 > [!IMPORTANT]  
 > Ekki er hægt að nota aðgerðina **Bakfæra viðskipti** fyrir eignarfærslur.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **eignafærslur** og velja síðan tengda tengilinn.  
-2. **Á síðunni eignafærslur** er færslan eða færslurnar sem á að hætta við valdar.  
-3. **Veldu valmyndina aðgerðir** og veldu **síðan aðgerðina Hætta við færslur**.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Eignafærslur** og veldu síðan viðeigandi tengil.  
+2. Á síðunni **Eignafærslur** skal velja færslu eða færslur sem á að hætta við.  
+3. Veldu valmyndina **Aðgerðir** og veldu síðan aðgerðina **Hætta við færslur**.
 4. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 5. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 6. Þegar röng færsla eða færslur eru ógiltir, skal halda áfram og bóka rétt kaupverð.
@@ -105,7 +105,7 @@ Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
 > [!NOTE]
 > Ef hrakvirði er til staðar fyrir eign verður það gildi notað í afskriftabókun í stað gildis í reitnum **Bókfært lokavirði** á síðunni **Eignaafskriftarbækur** . Frekari upplýsingar eru í [Til að stjórna bókfærðu lokavirði](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/purchase-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/purchase-fixed-assets/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -113,7 +113,7 @@ Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

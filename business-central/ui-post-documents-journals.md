@@ -11,7 +11,7 @@ ms.search.form: ''
 ms.author: edupont
 ms.openlocfilehash: 2f423724af5a65e6f82e93dffdd746496545ce28
 ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 04/29/2022
 ms.locfileid: "8655341"
@@ -28,14 +28,14 @@ Eftirfarandi tafla lýsir skyldum verkum, með tenglum í efnisatriði þar sem 
 | Fræðast um bókun innkaupaskjala. |[Bókun innkaupa](ui-post-purchases.md) |
 | Fræðast um bókun söluskjala. |[Sölubókun](ui-post-sales.md) |
 | Bókið margar sölur eða innkaupaskjöl saman, strax eða eins og áætlað var.|[Bóka mörg skjöl á sama tíma](ui-batch-posting.md)|
-| Fræðast um bókun færslubóka. |[Vinna við Almennar færslubækur](ui-work-general-journals.md) |
+| Fræðast um bókun færslubóka. |[Vinna í færslubókum](ui-work-general-journals.md) |
 | Forskoða, á síðu, færslurnar sem verða stofnaðar þegar þú bókar. |[Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md) |
 | Í skýrslu er hægt að forskoða færslur sem verða stofnaðar þegar bókað er. |[Skoða prufuskýrslur fyrir bókun](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Breyta bókuðum skjölum](across-edit-posted-document.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

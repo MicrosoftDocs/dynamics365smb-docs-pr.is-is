@@ -11,7 +11,7 @@ ms.date: 06/11/2021
 ms.author: edupont
 ms.openlocfilehash: 611f3ac405c66996ed5ec1e1f275ccb5eaccd3d5
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9530730"
@@ -67,7 +67,7 @@ Til að tengjast Business Central á staðnum þarf að búa til forrit í Trade
 
 Ef þú kýst frekar að geyma forritskennið og leynilykilinn á annarri staðsetningu, geturðu skilið reiti biðlarakennis og leynilykils biðlara eftir auða og skrifað viðbót til að sækja auðkennið og leynilykilinn frá staðsetningunni. Hægt er að gefa upp leynilykilinn við keyrslu með því að gerast áskrifandi að tilvikum OnGetClientId og OnGetClientSecret í codeunit 1410 „Stjórnun skjalaskiptaþjónustu“.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 

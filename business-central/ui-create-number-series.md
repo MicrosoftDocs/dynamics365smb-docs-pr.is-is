@@ -1,6 +1,6 @@
 ---
 title: Stofnun númeraraða
-description: Lærðu að setja upp númeraraðir sem úthluta einkvæmum kennikóðum á lykla og skjöl í Business Central.
+description: Lærðu hvernig á að setja upp númeraröð sem úthlutar einstökum auðkenniskóðum til reikninga og skjala í Business Central.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
@@ -12,7 +12,7 @@ ms.date: 03/24/2022
 ms.author: edupont
 ms.openlocfilehash: 980159c84e139b5adde024d7c6b1ff832eb79923
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528600"
@@ -24,7 +24,7 @@ Fyrir hvert fyrirtæki sem þú setur upp þarftu að úthluta einstökum kennit
 > [!Important]
 > Sjálfgefið er að eyður er ekki leyfð í númeraröðum vegna þess að nákvæmlega Ferill fjárhagsfærslna verður að vera tiltækur fyrir endurskoðun, samkvæmt lögum, og því verður að fylgja óbrotinn röð með engum Eydd númer.
 > 
-> Ef þú vilt leyfa eyður í tilteknum númeraröðum skaltu fyrst ráðfæra þig við endurskoðanda eða aðalbókara til að tryggja að þú farir eftir lagalegum skilyrðum í þínu landi/svæði. Nánari upplýsingar er að [finna í eyðurnar í númeraröðinni](#gaps-in-number-series).
+> Ef þú vilt leyfa eyður í tilteknum númeraröðum skaltu fyrst ráðfæra þig við endurskoðanda eða aðalbókara til að tryggja að þú farir eftir lagalegum skilyrðum í þínu landi/svæði. Frekari upplýsingar er að finna í hlutanum [Eyður í númeraröðum](#gaps-in-number-series).
 
 > [!NOTE]  
 > Við mælum með að þú notir sömu númeraraða kóða eins og þú sérð skráða á síðunni **nr. Raðarlisti** í CRONUS sýnifyrirtækinu. Codes eins og *P-INV +* gætu ekki skilað þér strax, en [!INCLUDE[prod_short](includes/prod_short.md)] hefur marga sjálfgefna stillingar sem eru háð þessum númeraröðakóðum.
@@ -41,15 +41,15 @@ Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagn
 ## <a name="gaps-in-number-series"></a>Eyður í númeraröðum
 Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_short.md)] eru fjárhagsfærslur sem þarf að nota í röð númeraraðar. Viðskiptamannaspjald, sölutilboð og vöruhúsaaðgerðir eru dæmi um færslur sem eru úthlutaðar númeri úr númeraröðum en eru ekki háðar fjárhagsendurskoðun og/eða er hægt að eyða þeim. Til slíkrar númeraraðar er hægt að velja **Leyfa eyður í númeraröðum** í gátreitnum á síðunni **Númeraröð nr.**. Einnig er hægt að breyta þessari stillingu eftir að búið er að stofna númeraröðina. Frekari upplýsingar eru í [Búa til nýja númeraröð](ui-create-number-series.md#to-create-a-new-number-series).
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Hegðun nr. Reitur á skjölum og kortum
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Hegðun nr. reitur á skjölum og kortum
 
-Á sölu-, innkaupa og flutningsskjölum og á öllum kortum, **Nr.** Hægt er að fylla út svæðið sjálfkrafa úr ákveðinni númeraröð eða bæta því handvirkt við. Undir vissum kringumstæðum **er hins vegar nr.** Er ósýnilegur til að koma í veg fyrir að hún sé breytt.  
+Á sölu-, innkaupa og flutningsskjölum og á öllum kortum, **Nr.** hægt er að fylla út í reitinn sjálfkrafa úr fyrirframskilgreindum númeraröðum eða bæta honum við handvirkt. Undir ákveðnum kringumstæðum er **nr.** reiturinn ósýnilegur til að koma í veg fyrir að þú breytir honum.  
 
 **númer** reitinn má fylla út á þrjá vegu:
 
-1. Ef aðeins ein númeraröð fyrir gerð skjals eða korts er til staðar, og **reiturinn sjálfgefinn nr.** svæði er valinn og **reiturinn Handvirk nr.** ekki valinn fyrir þá númeraröð, er svæðið sjálfkrafa fyllt út með næsta númeri í röðinni. **númer** Reiturinn verður ekki sýnilegur á spjaldinu eða skjalinu.  
+1. Ef aðeins ein númeraröð fyrir tegund skjals eða spjalds er til staðar og reiturinn **Sjálfgefin nr.** er valinn og reiturinn **Handvirk nr.** er ekki valinn fyrir þá númeraröð, þá er fyllt út í reitinn sjálfkrafa fyllt með næsta númeri í röðinni. **númer** reiturinn verður ekki sýnilegur á spjaldinu eða skjalinu.  
 
-    Jafnvel þótt sniðmát hafi verið skilgreint með ýmsum númerarröðum fyrir viðskiptamenn Ef númeraröðin sem er skilgreind á **uppsetningarsíðu** & söluinnkaupanna er sett upp á þennan hátt **er nr.** Svæði verður ósýnilegt á viðskiptamannaspjaldinu, sama hvaða sniðmát er notað. Sama gildir um aðrar tegundir korta og skjala.  
+    Jafnvel þótt þú skilgreinir sniðmát með ýmsum númeraröðum fyrir viðskiptamenn, ef númeraröðin sem er skilgreind á síðunni **Uppsetning sölugrunns** er sett upp á þennan hátt, þá verður **Nr.** reiturinn ósýnilegur á viðskiptamannaspjaldinu, sama hvaða sniðmát þú notar. Það sama á við um aðrar tegundir spjalda og skjala.  
 
     > [!NOTE]  
     > Ef númeraröðin virkar ekki, til dæmis vegna þess að hún hefur númerin hafa klárast, þá **Nr.** reitur verður sýnilegur og þú getur handvirkt slegið inn númer eða leyst vandann á síðunni **Númeraraðir**.
@@ -73,13 +73,13 @@ Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_sh
 6. Endurtakið skref 5 fyrir sem margar mismunandi notkun á númeraröðinni sem þörf er á. Reiturinn **Upphafsdagsetning** skilgreinir svæðið sem númeraröðin er virk.  
 
 > [!TIP]
-> Til að leyfa notendum að tilgreina númer handvirkt þegar þeir skrá nýjan viðskiptavin eða lánardrottinn, til dæmis, **er reiturinn handvirkt nr.** í númeraröðinni. Til að afnema handvirka númerið hreinsast svæðið.
+> Til að gera notendum kleift að tilgreina númer handvirkt þegar þeir skrá nýjan viðskiptamann eða lánardrottin skal til dæmis velja reitinn **Handvirk nr.** í sjálfri númeraröðinni. Til að leyfa ekki handvirk númer skal hreinsa reitinn.
 
-Hægt er að úthluta númeraröðinni á sniðmátin sem eru sett upp fyrir mismunandi gerðir viðskiptavina og lánardrottna sem sölumennirnir og innkaupaaðilar bætast oftast við [!INCLUDE [prod_short](includes/prod_short.md)]. Í þeim tilvikum skal setja upp viðeigandi númeraröð, tengja þau í gegnum sambönd og bæta síðan við fyrstu númeraröðinni í viðkomandi sambandi á uppsetningarsíðu viðkomandi. Þegar notandi stofnar viðskiptavin velja þeir sniðmát og nýr viðskiptamaður fær úthlutað númeri úr númeraröðinni sem er skilgreind fyrir það sniðmát.  
+Hægt er að úthluta númeraröðum á sniðmátin sem þú setur upp fyrir mismunandi gerðir af viðskiptamönnum og lánardrottnum sem sölufólkið þitt og kaupendur bæta oftast við [!INCLUDE [prod_short](includes/prod_short.md)]. Í því tilviki skaltu setja upp viðkomandi númeraraðir, tengja þær í gegnum vensl og bæta síðan fyrstu númeraröðinni í viðkomandi vensl við viðkomandi uppsetningarsíðu. Síðan, þegar notandi býr til viðskiptamann, velur hann viðeigandi sniðmát og nýi viðskiptamaðurinn fær úthlutað númeri úr númeraröðinni sem er skilgreind fyrir það sniðmát.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Stofnun tengsla milli númeraraða
 
-Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað. Þegar komið er á tengslum milli flokka af númeraröðum eru allar skyldar raðir tengdar einum númeraraðarkóta. Síðan er hægt að færa kótann í reit á **flipanum Tölusetning** fastflipa á einni af viðeigandi uppsetningarsíðu, svo sem **söluuppsetningu** &.  
+Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað. Þegar komið er á tengslum milli flokka af númeraröðum eru allar skyldar raðir tengdar einum númeraraðarkóta. Síðan getur þú slegið þann kóða inn í reit í flýtiflipanum **Tölusetning** á einni viðeigandi uppsetningarsíðu, t.d. **Sölugrunnur**.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Númeraraðir** og velja síðan viðkomandi tengil.
 2. Velja skal línuna með númeraröðinni sem á að stofna tengsl við. og veljið síðan **Tengsl**.
@@ -98,12 +98,12 @@ Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölu
 
 Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkomandi korti eða skjali, í samræmi við þær stillingar sem þú gerðir á númeraröðinni.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

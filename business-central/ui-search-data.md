@@ -1,6 +1,6 @@
 ---
 title: Leita að tilteknum gögnum
-description: Þú getur notað leitina þegar þú vilt finna tiltekna færslu.
+description: Hægt er að leita þegar þú vilt finna tiltekna færslu.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -12,34 +12,34 @@ ms.date: 09/20/2022
 ms.author: bholtorf
 ms.openlocfilehash: a97668a12b6571b11b21a56f0737a8aea9387b01
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9608481"
 ---
 # <a name="search-for-a-record-in-your-data"></a>Leita að færslu í gögnunum þínum
 
-Þegar finna á tiltekna færslu eða gildi skaltu nota **aðgerðina leita að gögnum** til að leita að henni. Byrjaðu leit á hlutverkamiðstöðinni þinni á eftirfarandi hátt:
+Þegar þú vilt finna tiltekna færslu eða gildi skaltu nota eiginleikann **Leita að gögnum** til að leita að því. Byrjaðu leit í „Mínu hlutverki“ á eftirfarandi hátt:
 
-* **Nota aðgerðina leita að gögnum**
-* Nota skal samsetninguna CTRL + ALT + F-flýtilykil.
+* Notaðu aðgerðina **Leita að gögnum**
+* Notaðu Ctrl+Alt+F flýtilyklasamsetninguna.
 
 ## <a name="how-search-works"></a>Hvernig leit virkar
 
-Þegar þú hefur [!INCLUDE[prod_short](includes/prod_short.md)] slegið inn lykilorðið þitt byrjar leitin í bakgrunni og fer í gegnum hvert borð eitt í einu. Leitarniðurstöður byrja að birtast eftir að lokið er við hverja töflu. 
+Eftir að þú hefur slegið inn leitarorðin byrjar [!INCLUDE[prod_short](includes/prod_short.md)] leitin þína í bakgrunni og fer í gegnum hverja töflu fyrir sig. Leitarniðurstöður fara að birtast eftir að það lýkur við töflu. 
 
-Ef slegið er inn fleiri en eitt leitarorð, þá innihalda niðurstöðurnar aðeins færslur sem hafa öll orðin með í völdum reitum.
+Ef þú slærð inn fleiri en eitt leitarorð munu niðurstöðurnar aðeins innihalda færslur sem eru með öll orðin í einhverjum af völdu reitunum.
 
-Síðan niðurstöður sýnir þrjár síðast uppfærðar færslur. Ef það eru fleiri en þrjú er hægt að velja **Sýna allt** til að birta þau.
+Á niðurstöðusíðunni koma fram þrjár færslur sem voru síðast uppfærðar. Ef það koma fram fleiri en þrjár er hægt að velja **Sýna allt** til að sýna þær.
 
-Í hvert skipti sem þú velur leitarniðurstöðu þá aukast vinsældir borðsins og það mun koma hærra í árangurinn. Auk þess verður færslan fundin hraðar ef leitað er að henni í framtíðinni.
+Í hvert sinn sem þú velur leitarniðurstöðu eykur þú vinsældir töflunnar og hún birtist ofar í niðurstöðunum. Færslan mun auk þess finnast hraðar ef þú leitar að henni í framtíðinni.
 
 > [!NOTE]
-> Hausar á sölu-, innkaupa-og þjónustuskjölum tákna í raun mismunandi skjalagerðir eins og tilboð, reikningar og pantanir. Fyrirsagnir eru meðhöndlaðar eins og þær væru töflur. Ef lykilorðið fannst í línu á einhverju af þessum skjölum, þegar leitarniðurstaðan á síðunni fyrir skjalið birtist, og ekki bara línan.
+> Hausar á sölu-, innkaupa- og þjónustuskjölum tákna í raun mismunandi skjalategundir, t.d. tilboð, reikninga og pantanir. Hausar eru meðhöndlaðir eins og þeir væru töflur. Ef leitarorðið þitt fannst í línu í einu þessara skjala, þegar þú velur leitarniðurstöðuna, birtist síðan fyrir skjalið en ekki bara línan.
 
 ## <a name="getting-started"></a>Hafist handa
 
-Hægt er að flýta niðurstöðum með því að velja svæðin á töflunum sem eiga að vera í leitarunum. Töflurnar og svæðin sem hægt er að velja breytileg eftir eru mismunandi eftir hlutverkamiðstöðinni. Sjálfgefið er að allar töflur og svæði eru valin, sem geta hæglega leitað. Mælt er með að útiloka eins margar töflur og reiti og unnt er.
+Hægt er að flýta fyrir niðurstöðum með því að velja reitina í töflunum sem eiga að vera með í leitunum. Töflurnar og reitirnir sem hægt er að velja á milli eru mismunandi eftir „Mínu hlutverki“. Allar töflur og reitir eru sjálfgefið valið, sem getur hægt á leitinni. Mælt er með að þú undanskiljir eins margar töflur og reiti og þú getur.
 
 ## <a name="see-also"></a>Sjá einnig
 

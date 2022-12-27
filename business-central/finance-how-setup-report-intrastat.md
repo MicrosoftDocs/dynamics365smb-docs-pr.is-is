@@ -1,6 +1,6 @@
 ---
-title: Setja upp Intrastat-skýrslugerð
-description: Lærðu að setja upp Intrastat-skýrslugerðaraðgerðir til að tilkynna viðskipti með fyrirtæki í öðrum löndum ESB.
+title: Setja upp Intrastat skýrslugerð
+description: Lærið hvernig skal setja upp Intrastat skýrslugerð og hvernig skal skrá viðskipti við fyrirtæki í öðrum ESB-löndum.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: na
@@ -12,260 +12,260 @@ ms.date: 09/02/2022
 ms.author: altotovi
 ms.openlocfilehash: b6adddb338af36f07abe4c6cb67c8113657ccb7c
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605489"
 ---
-# <a name="set-up-intrastat-reporting"></a>Setja upp Intrastat-skýrslugerð
+# <a name="set-up-intrastat-reporting"></a>Setja upp Intrastat skýrslugerð
 
-Öll fyrirtæki Evrópusambandsins (ESB) verða að tilkynna viðskipti sín með öðrum ríkjum ESB/svæðum. Fyrirtæki þurfa að tilkynna flutning vöru til tölfræðiyfirvalda í heimalandi sínu mánaðarlega og skila þarf skýrslu til skattyfirvalda. Intrastat er kerfið til að safna talnagögnum um vörur í þessum löndum/svæðum. Intrastat-skýrsla **er notuð** til að ljúka reglubundinni Intrastat-skýrslugerð (að jafnaði mánaðarlega), söfnun, upptöku og skýrslugerð um viðskipti með vörur samkvæmt löggjöf landsins.
+Öll fyrirtæki í löndum innan Evrópusambandsins (ESB) þurfa að gefa öðrum löndum/svæðum innan sambandsins skýrslur um viðskipti sín. Einnig þarf að gefa hagstofu viðkomandi lands/svæðis mánaðarlega skýrslu um hreyfingu vöru og skýrsluna þarf að afhenda skattayfirvöldum. Intrastat er kerfið til að safna saman tölfræði um vöruviðskipti innan þessara landa/svæða. Þú notar **Intrastat-skýrsla** til að ljúka reglubundinni Intrastat skýrslugerð (yfirleitt mánaðarlega), söfnun, skráningu og skýrslugerð vegna vöruviðskipta í samræmi við löggjöf á hverjum stað.
 
-Intrastat-skýrslugerð byggir á grunnreglum ESB sem gilda um öll lönd; í reynd er þó einhver munur innan einstakra landa. Hvert land hefur sínar reglur um hvað nákvæmlega og hvernig á að tilkynna.
-
-> [!NOTE]
-> Upplýsingar um Intrastat eiga ekki við um tilfærslu þjónustu milli landa heldur einungis á vörum (vörum og eignum). Ef staðbundin stjórnvöld krefjast skráningar á þjónustu á milli landa er hægt að gera það með **aðgerðinni Þjónustuskýrsla**.
->
-> Gert er ráð fyrir að þessi eiginleiki verði fáanlegur frá nóvember 2022 sem app á [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646) þannig að ef þú vilt nota hann þarftu fyrst að setja hann upp á **síðu Framlengingarstjórnunar**.
-
-> [!IMPORTANT]
-> Þessi grein fjallar um nýja Intrastat-reynslu sem fáanleg er frá [!INCLUDE[prod_short](includes/prod_short.md)] útgáfu 21. Hafa skal samband við kerfisstjóra til að fá upplýsingar um hvaða útgáfu fyrirtækið á að nota og til að virkja nýju virkjunina.
->
-> Lesa Intrastat-uppsetningu og notkunargrein síðustu útgáfu með [því að setja upp og Intrastat-](finance-how-setup-report-intrastat-v20.md) skýrslu.
-
-## <a name="enable-the-new-intrastat-experience"></a>Gera nýja Intrastat-reynslu
-
-Í 2022-2, [!INCLUDE[prod_short](includes/prod_short.md)] felur í sér endurhannaðan Intrastat-reynslu með auknum eiginleikum. Ef nýi Intrastat-aðgerðin er ekki virkjuð í umhverfi notanda er hægt að gera hana virka handvirkt af stjórnanda á **síðunni Feature Management**.
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **aðgangsstjórnun** og veljið síðan tengda tengilinn.
-2. **Á síðunni Feature Management** er aðgerðin uppfærsla valin **: skipta skal fyrirliggjandi Intrastat-aðgerðum með nýju viðaukalínunni** Intrastat. Frekari upplýsingar um aðgangsstýringu til að [Virkja komandi möguleika fram í tímann](/dynamics365/business-central/dev-itpro/administration/feature-management) í efni stjórnunar.
-3. **Í dálkinum virkt fyrir** dálk skal velja **alla notendur**.
-4. Lestu skýringu á hvernig kerfið verður uppfært og veldu **Já** ef þú samþykkir.
-5. Veldu **áfram** og þú munt fá grunnuppsetningu fyrir Intrastat. Lesa meira um Intrastat-uppsetninguna í [kaflanum Intrastat-afbrigði](#intrastat-configuration).
-6. Eftir að uppsetningu lýkur er valið **Ljúka** til að byrja að nota nýju Intrastat-reynsluna.
-
-> [!IMPORTANT]
-> Hafðu í huga að ekki er hægt að nota gamlar og nýjar upplifanir samhliða. Áður en framlenging er gerð í framleiðsluumhverfi er mælt með því að gera fyrst og prófa þessa aðgerð í sandkassa umhverfi með afriti af framleiðslugögnum áður en þetta er gert í vinnsluumhverfi. Þegar ný notendareynsla er virkjuð í vinnsluumhverfinu er ekki hægt að snúa aftur í gömlu Intrastat-aðgerðirnar.
+Intrastat skýrslugerð er byggð á grunnreglugerðum ESB sem gilda í öllum löndum, hins vegar er í reynd þó nokkur munur á milli landanna. Í hverju landi gilda sérstakar reglur um hvað nákvæmlega á að tilkynna og hvernig.
 
 > [!NOTE]
-> Það veltur á staðsetningu fyrirtækisins að aðgerðin sem lýst er hér að ofan verði næg. Til að landa með sértækar aðgerðir fyrir Intrastat-skýrslugerð ætti að gera Intrastat-App kleift að auki að auka við kjarnann.
+> Intrastat upplýsingar eiga ekki við um þjónustuflutninga milli landa, heldur aðeins vörur (vörur og eignir). Ef stjórnvöld á staðnum gera kröfu um að hreyfing þjónustu sé skráð milli landa er hægt að gera það með því að nota eiginleikann **Þjónustuyfirlýsing**.
+>
+> Gert er ráð fyrir að þessi eiginleiki verði í boði frá og með nóvember 2022 sem forrit á [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646) svo ef þú vilt nota hann þarftu fyrst að setja hann upp á síðunni **Viðbótastjórnun**.
 
-## <a name="intrastat-configuration"></a>Skilgreining Intrastat
+> [!IMPORTANT]
+> Þessi grein fjallar um nýja Intrastat reynslu í boði frá [!INCLUDE[prod_short](includes/prod_short.md)] útgáfu 21. Hafðu samband við kerfisstjóra til að fá upplýsingar um hvaða útgáfu fyrirtækið notar og til að virkja nýja eiginleikann.
+>
+> Lestu fyrri útgáfu af Intrastat uppsetningar- og notkunargrein á [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-Áður en hægt er að nota Intrastat skýrslur eru nokkrar skilgreiningar sem þarf að setja upp.
+## <a name="enable-the-new-intrastat-experience"></a>Gera nýju Intrastat upplifunina virka
 
-### <a name="intrastat-reporting-setup"></a>Uppsetning Intrastat-tilkynninga
+Útgáfutímabil 2 árið 2022 [!INCLUDE[prod_short](includes/prod_short.md)] felur í sér endurhannaða Intrastat upplifun með ítarlega eiginleika. Ef nýi Intrastat eiginleikinn er ekkiur virk í umhverfinu þínu getur stjórnandi virkjað hana handvirkt á síðunni **Eiginleikastjórnun**.
 
-**Síðan Uppsetning** Intrastat-tilkynninga er notuð til að virkja Intrastat-skýrslugerð og stilla sjálfgildi fyrir hana. Hægt er að tilgreina hvort þörf sé á að skrá Intrastat úr sendingum (sendingar), kvittanir (komur) eða hvort tveggja eftir því sem þrösspokar eru settir af viðkomandi reglugerðum. Einnig er hægt að stilla sjálfgefnar færslugerðir fyrir regluleg og skilageg skjöl, notuð fyrir eðli færslutilkynninga.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eiginleikastjórnun** og velja síðan viðkomandi tengil.
+2. Á síðunni **Eiginleikastjórnun** skaltu velja **Eiginleikauppfærsla: Skipta út núverandi Intrastat-virkni fyrir nýja Intrastat-viðbótarlínu**. Frekari upplýsingar um eiginleikastjórnun hjá [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management) í efni fyrir stjórnendur.
+3. Á dálknum **Virkja fyrir** skal velja **Alla notendur**.
+4. Lestu útskýringuna á því hvernig kerfið verður uppfært og veldu **Já** ef þú samþykkir það.
+5. Veldu **Áfram** og þá færðu grunnuppsetningu fyrir Intrastat. Lestu meira um uppsetningu Intrastat í hlutanum [Stilling Intrastat](#intrastat-configuration).
+6. Eftir að uppsetningu er lokið skaltu velja **Ljúka** til að byrja að nota nýju Intrastat upplifunina.
 
-Uppsetning Intrastat-skýrslugerðar:
+> [!IMPORTANT]
+> Hafðu í huga að þú getur ekki notað gamlar og nýjar upplifanir samhliða. Áður en viðbótin er virkjuð í framleiðsluumhverfi er mælt með því að þessi eiginleiki sé fyrst virkjaður og prófaður í sandkassaumhverfi með afriti af framleiðslugögnum áður en þetta er gert í framleiðsluumhverfi. Þegar þú hefur virkjað nýja notendaupplifun í framleiðsluumhverfinu getur þú ekki farið aftur í gömlu Intrastat-aðgerðirnar.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **uppsetningu** Intrastat-skýrslu og veljið síðan tengda tengilinn.
-2. **Opnið almenna** fastflipann og fyllið svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Taflan hér að neðan lýsir nokkrum helstu svæðunum:
+> [!NOTE]
+> Það fer eftir staðsetningu fyrirtækisins hvort nóg sé að virkja eiginleikann sem lýst er hér að ofan. Í löndum með sérstaka eiginleika fyrir Intrastat skýrslugerð, ættir þú að virkja svæðisbundna Intrastat-forritið viðbótar við meginviðbótina.
+
+## <a name="intrastat-configuration"></a>Uppsetning Intrastat
+
+Áður en hægt er að nota Intrastat skýrslur þarf að setja upp nokkrar stillingar.
+
+### <a name="intrastat-reporting-setup"></a>Uppsetning Intrastat-skýrslugerðar
+
+Síðan **Uppsetning Intrastat-skýrslugerðar** er notuð til að virkja Intrastat-skýrslugerð og velja sjálfgefnar stillingar fyrir hana. Hægt er að tilgreina hvort eigi að gefa Intrastat-skýrslu um afhendingum (sendingum), kvittunum (komum) eða bæði, háð mörkum sem staðbundnar reglugerðir segja til um. Einnig er hægt að velja sjálfgefnar færslugerðir fyrir venjuleg fylgiskjöl eða fylgiskjöl vöruskila, notaðar samkvæmt einkennum skýrslugerðar fyrir færslur.
+
+Svona á að setja upp Intrastat-skýrslugerð:
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning Intrastat-skýrslu** og velja síðan viðkomandi tengil.
+2. Opnaðu flýtiflipann **Almennt** og fylltu út reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Taflan hér að neðan lýsir nokkrum lykilreitum:
 
    | Svæði | Lýsing |
    | --- | --- |
-   | **Skýrslutökur** | Tilgreinir að taka verði með mótteknar vörur sem berast í Intrastat-skýrslum. |
-   | **Tilkynna vörusendingar** | Tilgreinir að taka verði með afgreiddar vörur sem eru sendar í Intrastat-skýrslum. |
-   | **Sendingar á grundvelli**  | Tilgreinir landskóða fyrir Intrastat-skýrslulínur. Hægt er að velja einn af valkostunum: **Selt-til lands**, **Reikn-lands** eða **Sendist-til-** land. |
-   | **VSK nr. Byggður á** | Tilgreinir á grundvelli hvaða kóta viðskiptavinar/lánardrottins Virðisaukaskattur (VSK) er tekinn fyrir Intrastat-skýrsluna. Hægt er að velja einn af valkostunum: **Selt-til VSK** eða **Reikn**. |
-   | **Fyrirtæki VSK nr. á skrá** | Tilgreinir hvernig VSK-númer fyrirtækis flytur út í Intrastat-skrána. Hægt er að velja einn af valkostunum: VSK-reg. nr., bæta við landskóta ESB sem forskeyti og fjarlægja ESB-landskóta úr VSK-reg. nr. |
-   | **VSK númer lánardrottins á skrá** | Tilgreinir hvernig VSK-númer lánardrottins er flutt út í Intrastat-skrána. Hægt er að velja einn af valkostunum: VSK-reg. nr., bæta við landskóta ESB sem forskeyti og fjarlægja ESB-landskóta úr VSK-reg. nr. |
-   | **Viðskiptavild VSK nr. á skrá** | Tilgreinir hvernig VSK-númer viðskiptavinar er flutt út í Intrastat-skrána. Hægt er að velja einn af valkostunum: VSK-reg. nr., bæta við landskóta ESB sem forskeyti og fjarlægja ESB-landskóta úr VSK-reg. nr. |
-   | **Fá VSK fyrir félaga** | Tilgreinir hvaða gerð af **skýrslulínu** VSK-númer félaga er uppfærð. Aðeins er hægt að velja um innhreyfingar, aðeins fyrir sendingu eða báðar tegundir af línum, allt eftir staðbundnum þörfum. |
-3. Opnið sjálfgefna fastflipann fyrir **færslur** og fyllið svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Taflan hér að neðan lýsir nokkrum helstu svæðunum:
+   | **Skrá kvittanir** | Tilgreinir að taka verði með mótteknar vörur sem berast í Intrastat-skýrslum. |
+   | **Skrá afhendingar** | Tilgreinir að taka verði með afgreiddar vörur sem eru sendar í Intrastat-skýrslum. |
+   | **Sendingar byggðar á**  | Tilgreinir landskóða fyrir Intrastat-skýrslulínur. Hægt er að velja um einn af eftirfarandi kostum: **Selt-til – Land**, **Reikningsfærist á - Heiti lands** eða **Sendist til - Heiti lands**. |
+   | **VSK-nr. byggt á** | Tilgreinir á grundvelli hvaða viðskiptavinar/lánardrottins VSK-númer er tekið fyrir Intrastat-skýrsluna. Hægt er að velja um einn af eftirfarandi valkostum: **Selt-til – VSK** eða **Reikningsfærslu-VSK**. |
+   | **Skráð VSK-númer fyrirtækis** | Tilgreinir hvernig VSK-númer fyrirtækisins er flutt út í Intrastat skrána. Þú getur valið einn af eftirfarandi valkostum: VSK-númer með því að bæta við ESB-landskóða sem forskeyti og fjarlægja ESB-landskóða úr VSK-númeri. |
+   | **Skráð VSK-númer lánardrottins** | Tilgreinir hvernig VSK-númer lánardrottins er flutt út í Intrastat skrána. Þú getur valið einn af eftirfarandi valkostum: VSK-númer með því að bæta við ESB-landskóða sem forskeyti og fjarlægja ESB-landskóða úr VSK-númeri. |
+   | **Skráð VSK-númer viðskiptamanns** | Tilgreinir hvernig VSK-númer viðskiptavinar er flutt út í Intrastat skrána. Þú getur valið einn af eftirfarandi valkostum: VSK-númer með því að bæta við ESB-landskóða sem forskeyti og fjarlægja ESB-landskóða úr VSK-númeri. |
+   | **Fá VSK samstarfsaðila** | Tilgreinir frá hvaða tegund **Intrastat-skýrslulínu** VSK-númer samstarfsaðila er uppfært. Þú getur valið aðeins fyrir kvittun, aðeins fyrir sendingu eða báðar tegundir línu, allt eftir kröfum á hverjum stað fyrir sig. |
+3. Opnaðu flýtiflipann **Sjálfgefnar færslur** og fylltu út reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Taflan hér að neðan lýsir nokkrum lykilreitum:
 
    | Svæði | Lýsing |
    | --- | --- |
-   | **Sjálfgefin Trans-gerð** | Tilgreinir sjálfgefna færslugerð fyrir reglulegar söluafhendingar, þjónustuafhendingar og innkaupakvittanir. |
-   | **Sjálfgefin Trans-gerð – skil** | Tilgreinir sjálfgefna færslugerð fyrir söluskil, þjónustuskil og innkaupaskil. |
-   | **Sjálfgefinn Einkabímaður VSK nr.** | Tilgreinir sjálfgefinn einka VSK númer ef einkaaðilinn verður að hafa sérvalið VSK-númer á Intrastat-skýrslunni. |
-   | **Sjálfgefin 3-aðila viðskipti VSK nr.** | Tilgreinir sjálfgefið númer þriggja aðila á viðskiptum VSK ef VSK númer er ekki til. |
-   | **Sjálfgefinn VSK fyrir Óþekkt ríki** | Tilgreinir sjálfgefið VSK-númer af óþekktri stöðu. |
-   | **Sjálfgefinn Lands-/svæðiskóti** | Tilgreinir sjálfgefna viðtökulandskótann. |
-4. **Opnið skýrslugerðarfastflipann** og fyllið svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Taflan hér að neðan lýsir nokkrum helstu svæðunum:
+   | **Sjálfgefin færslugerð** | Tilgreinir sjálfgefna færslugerð fyrir reglulegar söluafhendingar, þjónustuafhendingar og innkaupakvittanir. |
+   | **Sjálfgefin færslugerð - Skil** | Tilgreinir sjálfgefna færslugerð fyrir söluvöruskil, þjónustuskil og innkaupaskil. |
+   | **Sjálfgefið VSK-nr. einstaklings** | Tilgreinir sjálfgefið VSK-númer einstaklings, ef viðkomandi einstaklingur verður að vera með sérstakt VSK-númer í Intrastat-skýrslunni. |
+   | **Sjálfgefið VSK-nr. þriðja aðila** | Tilgreinir sjálfgefið VSK-númer þriðja aðila ef þú hefur ekki VSK-númer viðkomandi. |
+   | **Sjálfvalinn VSK fyrir óþekkt ríki** | Tilgreinir sjálfgefið VSK-númer fyrir óþekkt ríki. |
+   | **Sjálfgefinn lands-/svæðiskóði** | Tilgreinir sjálfgefinn kóða móttökulands. |
+4. Opnaðu flýtiflipann **Skýrslugerð** og fyllið út reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Taflan hér að neðan lýsir nokkrum lykilreitum:
 
    | Svæði | Lýsing |
    | --- | --- |
-   | **Aff. Kóði gagnaexi.** | Tilgreinir skilgreiningarkóta gagnaskipta til að búa til Intrastat-skrána. Það virkar aðeins ef **reiturinn skiptar kvittanir/afhendingar** er stilltur sem **Nr**. |
-   | **Skipta út kvittunum/afhendingum skrám** | Tilgreinir hvort skrá eigi inn innhreyfingar og sendingar í tveimur aðskildum skrám. |
-   | **Zip-skrá (-ar)** | Tilgreinir hvort skýrsluskráin (-s) skuli bætast við. zip skrána. |
-   | **Data Exch. def. Code – kvittun** | Tilgreinir skilgreiningarkóta gagnaskipta til að búa til Intrastat-skrá fyrir mótteknar vörur. Það virkar aðeins ef **reiturinn skiptar kvittanir/afhendingar** er stilltur sem **Já**. |
-   | **Data Exch. def. Code – sending** | Tilgreinir skilgreiningarkóta gagnaskipta sem mynda Intrastat-skrá fyrir afhentar vörur. Það virkar aðeins ef **reiturinn skiptar kvittanir/afhendingar** er stilltur sem **Já**. |
-5. **Opnið númerfastflipann** til að setja upp **Intrastat-nr**.
+   | **Skilgreiningarkóði gagnaskipta** | Tilgreinir skilgreiningarkóða gagnaskipta til að búa til Instrastat-skrá. Það virkar aðeins ef reiturinn **Skipta skrám innhreyfinga/afhendinga** er stilltur á **Nei**. |
+   | **Skipta skrám innhreyfinga/afhendinga** | Tilgreinir hvort tilkynna skuli um innhreyfingar og afhendingar í tveimur aðskildum skrám. |
+   | **Zip-skrá(-r)** | Tilgreinir hvort bæta eigi skýrsluskrá(m) við .zip-skrá. |
+   | **Skilgreiningarkóði gagnaskipta - Innhreyfing** | Tilgreinir skilgreiningarkóða gagnaskipta til að búa til Instrastat-skrá fyrir mótteknar vörur. Þetta virkar einungis ef reiturinn **Skipta skrám innhreyfinga/afhendinga** á **Já**. |
+   | **Skilgreiningarkóði gagnaskipta - Afhending** | Tilgreinir skilgreiningarkóða gagnaskipta til að búa til Instrastat-skrá fyrir sendar vörur. Þetta virkar einungis ef reiturinn **Skipta skrám innhreyfinga/afhendinga** á **Já**. |
+5. Opnaðu flýtiflipann **Tölusetning** til að setja upp **Intrastat-númer**.
 
-### <a name="set-up-a-reporting-file"></a>Setja upp skýrslugerðarskrá
+### <a name="set-up-a-reporting-file"></a>Setja upp skýrsluskrá
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **upplýsingar um Gengisskilgreiningar** og velja síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið og færsa inn **Skilgreiningar gagnaskipta** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
-3. **Á flipanum Almennt** skal lýsa gagnaskiptaskilgreiningu, gerð gagnaskráa, skiltákn dálka, tengd kódeunits, XMLport og öðrum svæðum með því að fylla út reitina.
-4. **Í flipanum Fastlínuskilgreiningar** skal lýsa sniði línanna í gagnaskránni með því að fylla út svæðin **eftir reitnum Tegund** línu og þar sem skilgreina þarf fjölda dálka fyrir þessa línu.
-5. **Á flipanum fastir í Dálkaskilgreiningum** er fyllt út í línuna fyrir hvern áætlaðan dálk. Hægt er að skilgreina dálkheiti, gagnagerðir (*texta*, *dagsetningu* eða *aukastafi*), lengd línunnar með fastri breidd sem geymir dálkinn ef skráin er af gerðinni fastur texti og nokkrar aðrar færibreytur.
-6. Svæðvörpun **svæða** er valin í fastflipa línuskilgreiningar **til að opna** síðuna vörpun **svæða.**
-7. Ný færsla er stofnuð og á **flipanum Almennt** skal velja RÉTTA **töflukennið** (fyrir **Intrastat-skýrslulínuna**, velja 4812) og fylla síðan út fleiri reiti:
-   1. Tilgreinið lyklaatriðaskrá til að raða Upprunafærslur fyrir útflutning í **reitnum lyklaatriðaskrá**.
-   2. Velja rétta **vörpun Kódeseiningar**.
-8. **Á flipanum Flýtivörpun í Svæðarpun** bætast við dálkar sem áður voru skilgreindir í **fastflipa Dálkaskilgreininganna**, síðan er eftirfarandi bætt við:
-   1. **TILGREINIÐ kenni** svæðis fyrir hvern dálk.
-   2. Tilgreinið umbreytingarregluna **fyrir hvern dálk sem þörf er á**. Hún Tilgreinir regluna sem umbreytir innfluttum texta í studd gildi áður en hægt er að tengja hann við tiltekið svæði í [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar gildi er valið í þessu svæði er nákvæmt gildið fært inn í **reitinn umbreytingarregla** í **Reitun Exch. Field vörpun svæði buf.** Töflu og öfugt.
-9. Ef flokka þarf færslur út frá einhverjum dálkum skal **Velja reitina sem á að nota við flokkun svæðisins**.
+3. Á flýtiflipanum **Almennt** skal lýsa skilgreiningu á gagnaskiptum, gerð gagnaskrár, skiltákni, tengdum kóðaeiningum, XMLport, og öðrum reitum með því að fylla út reitina.
+4. Á flýtiflipanum **Línuskilgreiningar** skal lýsa sniði lína í gagnaskránni með því að fylla út reitina sem byggðir eru reitnum **Línugerð** og þar þarf að skilgreina fjölda dálka fyrir þessa línu.
+5. Á flýtiflipanum **Dálkskilgreiningar** er fyllt út í línuna fyrir hvern fyrirhugaðan dálk. Þú getur skilgreint heiti dálka, gagnagerðir (*Texti*, *Dagsetning*, eða *Tugabrot*), lengd línu af fastri breidd sem inniheldur dálkinn ef skráin er af gerðinni Fastur texti og nokkrar færibreytur til viðbótar.
+6. Veldu aðgerðina **Reitavörpun** á flýtiflipanum **Línuskilgreiningar** til að opna síðuna **Reitavörpun**.
+7. Búa til nýju færsluna og á flýtiflipanum **Almennt** velurðu rétt **Töflukenni** (fyrir **Línu Intrastat-skýrslu**, veldu 4812) og fyllir síðan út í fleiri reiti:
+   1. Tilgreina lykilvísi til að raða upprunafærslum fyrir útflutning í reitnum **Lykilvísir**.
+   2. Veljið viðeigandi **Vörpunarkóðaeiningu**.
+8. Á flýtiflipanum **Reitavörpum** bætið þið við dálkum sem þið höfðuð áður stillt á flýtiflipanum **Dálkskilgreiningar** og bætið svo eftirfarandi við:
+   1. Tilgreinið **Auðkenni reitar** fyrir hvern dálk.
+   2. Tilgreindu **Umbreytingarreglu** dálk sem þú þarft á að halda. Tilgreinir reglu sem umbreytir innfluttum texta í stutt gildi áður en hægt er varpa því á tiltekinn reiti í [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar gildi er valið í þessum reit er nákvæmar gildi slegið inn í reitinn **Umbreytingarregla** í töflunni **Biðminni vörpunar gagnaskiptareits** og öfugt.
+9. Ef þú þarft að flokka færslur út frá einhverjum dálkum, á flýtiflipanum **Flokkun reits**, veldu reitina sem þú vilt nota fyrir hópun.
 
 > [!NOTE]
-> [!INCLUDE[prod_long](includes/prod_long.md)] forskilgreinda gagnaskiptaskilgreiningu fyrir Intrastat fyrir öll staðbundin lönd. Frekari upplýsingar um stofnun nýrra skilgreininga [á gagnaskiptum við uppsetningu á settum gögnum gr. um](across-how-to-set-up-data-exchange-definitions.md) gagnaskipti.
+> [!INCLUDE[prod_long](includes/prod_long.md)] kemur með forstilltri skilgreiningu gagnaskipta fyrir Intrastat fyrir öll staðbundin lönd. Frekari upplýsingar um hvernig á að búa til nýja skilgreiningu gagnaskipta er að finna í greininni [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Setja skyldusvæði með gátlista Intrastat-skýrslu
+### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Stilltu áskilda reiti með gátlistanum fyrir Intrastat-skýrsluna
 
-Í sumum löndum krefjast yfirvöld þess að Intrastat-skýrslur séu til dæmis afhendingaraðferðir vegna innkaupa eða annað gildi þegar Sala fer yfir ákveðinn þröskuld.
+Í sumum löndum krefjast yfirvöld að Intrastat-skýrslur innihaldi til dæmis sendingaraðferðina fyrir kaup eða nokkur önnur gildi þegar salan er yfir ákveðnum mörkum.
 
-Til að stilla skyldusvæði og/eða gildi á **síðu Intrastat-skýrslu**:
+Gerðu eftirfarandi til að stilla áskilda reiti og/eða gildi á **Intrasat-skýrslusíðunni**:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **uppsetningu** Intrastat-skýrslu, velja síðan tengda tengilinn.
-2. **Veljið aðgerðina Gátlisti** Intrastat-skýrslu.
-3. Bæta nauðsynlegum línum til að athuga með eftirfarandi leiðbeiningum:
-   1. Reiturinn Nr. **er** stilltur á svæði sem þarf að athuga fyrir gildi sem ekki eru tóm.
-   2. **Reiturinn sía segð** er fylltur út ef þörf krefur, samkvæmt eftirfarandi reglum:
-      1. Þegar Síusíðan **er opnuð** skal velja **síuna** sem nota á til að stöðva.
-      2. Í næsta skrefi skal velja gildi sem tengist **afmörkuninni** sem notuð var.
-      3. Ef fleiri afmarkanir er þörf til að fylla á þennan tiltekna reit er hægt að bæta annarri síu við eftir sömu skrefum.
-      4. Þegar lokið er við að færa inn afmarkanir fyrir valið svæði er valið **í lagi**.
-   3. **Gátreiturinn bakfærða síu** er valinn til að tilgreina að reiturinn fyrir svæðin sé aðeins keyrður á þeim línum sem stemma ekki við síunarsegðina. Ef línan er ekki afmörkuð er þetta svæði hunsað.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Uppsetningu Intrastat-skýrsla** og velja síðan viðkomandi tengil.
+2. Veldu aðgerðina **Gátlisti fyrir Intrastat-skýrslu**.
+3. Bættu við áskildum línum til að athuga með því að nota eftirfarandi leiðbeiningar:
+   1. Stilltu **Reit nr.** á reit sem þarf að athuga fyrir gildi sem ekki er tómt.
+   2. Fylltu út reitinn **Segðargerð síu** ef þörf krefur, í samræmi við eftirfarandi reglur:
+      1. Þegar **Síusíðan** er opnuð skaltu velja **Síuna** þú þarft að nota við athugunina.
+      2. Veldu gildi sem tengist **Síunni** sem þú notaðir næsta skrefi.
+      3. Ef þú ert með fleiri síur sem þú þarft að fylla í fyrir þennan tiltekna reit getur þú bætt annarri síu við með því að fylgja sömu skrefum.
+      4. Þegar þú klárar að slá inn síurnar fyrir valda reitinn, veldu **Í lagi**.
+   3. Veldu reitinn **Öfug segð afmörkunar** til að tilgreina að athugun á reitum sé aðeins keyrð á þær línur sem samsvara ekki segðargerð síu. Ef línan er ekki síuð er þessi reitur hunsaður.
 
 > [!NOTE]
-> Þegar Afmörkunarsíðan **er opnuð** úr **afmörkunarsegðalínunni** er hægt að nota allar staðlaðar síusegðar sem tengjast reitnum sem á að afmarka.
+> Þegar **Síusíðan** er opnuð úr **Síusegðarínunni** er hægt að nota allar staðlaðar síusegðir í tengslum við tiltekinn reit sem á að sía.
 >
-> Gæta skal varúðar við uppsetningu villuleitarreglna, þar sem þær geta verið mismunandi hér á landi.
+> Farðu varlega í að setja upp villuleitarreglur þar sem þær geta verið mismunandi eftir löndum.
 
-## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Nota sérsniðna kódeseiningar við Intrastat-skýrslugerð
+## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Nota sérstillta kóðaeiningar í Intrastat-skýrslum
 
-Ef óskað er eftir að breyta því hvernig Intrastat virkar og sjálfgefið afbrigði er ekki nægilegt er hægt að sérsníða kerfið með því að víkka út staðalaðgerðirnar. Ef þörf er á frekari breytingum á virkni Intrastat er hægt að þróa eigin kódeunits. Þegar kódeunits er stofnað þarf þó að gera frekari breytingar til að nota þær. Að stilla kerfið þannig að það noti eigin hluti:
+Ef þú vilt breyta því hvernig Intrastat virkar og sjálfgefnar stillingar duga ekki getur þú sérsniðið kerfið með því að bæta við stöðluðu eiginleikana. Ef þörf er á að breyta hegðun Intrastat frekar er hægt að þróa eigin kóðaeiningar. Þegar þú býrð til kóðaeiningar þarftu hins vegar að gera fleiri breytingar til að nota þær. Til að skilgreina kerfið til að nota eigin hluti:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **skilgreiningu** VSK-skýrslna og velja síðan tengda tengilinn.
-2. **Á skilgreiningarsíðunni** VSK-skýrslur skal bæta við nýrri línu.
-3. **Í reitnum Tegund** VSK-skýrslu skal velja **valkostinn Intrastat-** skýrsla.
-4. **Í reitnum útgáfureitur** VSK-skýrslu skal tilgreina útgáfu skýrslunnar.
-5. Að því loknu er hægt að bæta við kódeseiningum fyrir eftirfarandi valkosti: a. **Í reitnum leggja til línur í kenni** kódeunit skal tilgreina nýja kódeunit fyrir línur í Intrastat-skýrslulínunum.
-   b. **Í REITNUM kenni** innihalds kódeunit skal tilgreina nýja Codeunit fyrir útflutning gagna sem skrá með því að nota skilgreiningu gagnaskipta.
-   c. **Í reitnum Villuleita Kódeunit ID** skal tilgreina nýju kódeeiningarnar fyrir villuleit í línum Intrastat-skýrslu.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skilgreining VSK-skýrslna** og velja síðan viðkomandi tengil.
+2. Á síðunni **Skilgreining VSK-skýrslna** er nýrri línu bætt við.
+3. Í reitnum **Gerð VSK-skýrslu** skal velja valkostinn **Intrastat-skýrsla**.
+4. Í reitnum **Útgáfa VSK-skýrslu** skal tilgreina útgáfu skýrslunnar.
+5. Eftir það er hægt að bæta við kóðaeiningum þínum fyrir eftirfarandi valkosti: a. Á reitnum **Kenni kóðaeiningar tillögulína**, tilgreindu nýju kóðaeininguna til að stinga upp á línum í Intrastat-skýrslulínunum.
+   b. Í reitnum **Kenni kóðaeiningar efnis** skaltu tilgreina nýju kóðaeininguna til að flytja gögn út sem skrá með því að nota skilgreiningu gagnaskipta.
+   c. Í reitnum **Staðfesta kenni kóðaeiningar** tilgreindu nýju kóðaeiningarnar til að staðfesta niðurstöður í Intrastat-skýrslulínunum.
 
 > [!IMPORTANT]
 >
-> Þessi lína verður að vera auð ef stöðluð kódeunits er notuð. Aðeins ætti að stofna línu og samskipa henni ef séreiningar hafa verið þróaðar.
+> Þessi lína verður að vera auð ef notaðar eru hefðbundnar kóðaeiningar. Þú ættir aðeins að búa til línu og stilla hana ef þú hefur búið til sérsniðnar kóðaeiningar.
 
-## <a name="other-intrastat-configurations"></a>Aðrar Intrastat-skilgreiningar
+## <a name="other-intrastat-configurations"></a>Aðrar Intrastat stillingar
 
 > [!IMPORTANT]
-> Viðskiptamanna-og lánardrottnaspjöld eru svæði, **gerð** Intrastat-félaga sem hefur sömu valkostagildi og **reiturinn félagagerð** : "" (autt), *fyrirtæki* og *einstaklingur*. **Reiturinn Tegund** Intrastat-félaga hefur skipt út **reitnum Tegund** félagar í Intrastat-skýrslu. **Reiturinn Félagagerð** er notaður í svæðinu fyrir eitt Evrugreiðslusvæði (SEPA) til að skilgreina SEPA-beina Debetskemað (CORE eða B2B). **Reiturinn Tegund** Intrastat-félaga er eingöngu notaður fyrir Intrastat-skýrslugerð. Þannig er hægt að tilgreina mismunandi gildi fyrir svæðin tvö ef þörf krefur.
+> Á viðskiptavina- og lánardrottnaspjöldum er reitur, **Gerð Intrastat-viðskiptafélaga**, sem hefur sömu valkosti og reiturinn **Gerð viðskiptafélaga**: „“ (tómt), *Fyrirtæki* og *Einstaklingur*. Reiturinn **Gerð Intrastat-viðskiptafélaga** hefur komið í stað reitsins **Gerð viðskiptafélaga** í Intrastat-skýrslugerð. Reiturinn **Gerð viðskiptafélaga** er notaður á sameiginlega evrópska greiðslusvæðinu (SEPA) til að skilgreina SEPA beingreiðslukerfið (CORE eða B2B). Reiturinn **Gerð Intrastat-viðskiptafélaga** er aðeins notaður fyrir Intrastat-skýrslugerð. Þannig er hægt að tilgreina mismunandi gildi fyrir reitina tvo ef þörf krefur.
 >
-> **Ef reiturinn Tegund** Intrastat-félaga er hafður auður er gildið úr **reitnum Tegund** félaga notað við Intrastat-skýrslugerð.
+> Ef reiturinn **Gerð Intrastat-viðskiptafélaga** er hafður auður er gildið úr reitnum **Gerð viðskiptafélaga** notað við Intrastat-skýrslugerð.
 
-Fyrir **utan uppsetningu** Intrastat-skýrslu, **skilgreiningar** á gögnum og **gátlista** Intrastat-skýrslu þarf einnig að samskipa öðrum stillingum:
+Fyrir utan **Uppsetning Intrastat-skýrslu**, **Skilgreiningar gagnaskipta** og **Gátlisti Intrastat-skýrslu** þarftu einnig að stilla aðrar stillingar:
 
 | Síða | Lýsing |
 | ---- | ----------- |
-| **Lönd/svæði** | Áður en byrjað er að nota Intrastat skýrslur verður einnig að setja upp **síðuna lönd/svæði**. Á þessari síðu þarf að bæta við **lands-/svæðiskóði** og **Intrastat-kóða** til að tilgreina kóta fyrir land/svæði sem á að eiga viðskipti við, þar sem það verður notað við Intrastat skýrslugerð. |
-| **Tollskrárnúmerum** | Víða um land koma toll-og skattyfirvöld í 8 stafa kóða fyrir ýmsar vörur. Ef birgðafærslur eiga að innihalda nauðsynlegar upplýsingar þegar kerfið flytur þær í Intrastat-bókarlínuna verður að færa inn vörukóðann á **síðunni Tollflokkar**. Finndu kótana fyrir vörurnar sem fyrirtækið tekur við og Sláðu þær inn á **síðuna Tollflokkar**. |
-| **Samgöngumáta** | Það eru 7 1-stafa kóðar fyrir Intrastat-flutningsaðferðir. **1** fyrir fjöðrun **, 2** fyrir Rail, **3** fyrir veg, **4** fyrir loft, **5** fyrir innsetningar, **7** fyrir fastar uppsetningar og **9** fyrir eigin própút (til dæmis að flytja bíl með því að aka honum). [!INCLUDE[prod_short](includes/prod_short.md)] krefst ekki þessara tilteknu kóða; Við mælum hins vegar með að lýsingarnar gefi svipaða merkingu. |
-| **Færslugerðir** | Lönd og svæði hafa mismunandi kóða fyrir gerðir Intrastat-færslna, svo sem venjulega kaup og sölu, skipti á skilavörum og skipti á vörum sem ekki er skilað. Setja upp alla kóta sem eiga við um land/svæði notanda. Þessir kótar eru síðan notaðir **í fastflipanum erlend viðskipti** í sölu-og innkaupaskjölum og þegar vinnslu er skilað. |
-| **Færslulýsingar** | Setja upp kóða fyrir viðauka lýsingar færslugerðarinnar. |
+| **Lönd/svæði** | Áður en byrjað er að nota Intrastat-skýrslur þarf einnig að setja upp síðu **landa/svæða**. Á þessari síðu verður þú að bæta við kóða **Lands-/svæðakóti í ESB** og **Intrastat-kóða** til að tilgreina kóða fyrir landið/svæðið sem stunduð eru viðskipti, þar sem hann verður notaður við Intrastat-skýrslugerð. |
+| **Tollflokkar** | Í mörgum löndum hafa tolla- og skattayfirvöld komið á 8 stafa kóða vegna ýmiss konar vörur. Ef birgðafærslur eiga að fela í sér áskildar upplýsingar þegar kerfið flytur þær í Intrastat-bókarlínu verður fyrst að færa inn vörukóði á síðunni **Tollflokkar**. Finna skal kóða þeirra vörutegunda sem fyrirtæki notanda verslar með og færa þá inn á síðunni **Tollflokkar**. |
+| **Flutningsmátar** | Það eru sjö einstölu kóðar fyrir Intrastat flutningsmáta. **1** fyrir sjóleið, **2** fyrir lest, **3** fyrir akstur, **4** fyrir flug, **5** fyrir póstsendingar, **7** fyrir fastar uppsetningar, og **9** fyrir eigin knúningsafl (t.d., flytja bíl með því að aka honum). [!INCLUDE[prod_short](includes/prod_short.md)] fer ekki fram á þessa tilgreindu kóða, en við mælum engu að síður með því að lýsingarnar beri með sér svipaða merkingu. |
+| **Tegundir viðskipta** | Lönd og svæði hafa ólíka kóða fyrir tegundir Instrastat viðskipti, eins og venjuleg innkaup og sala, skipti á skilavörum, og skipti á vörum sem ekki hefur verið skilað. Setja upp alla kóða sem eiga við í þínu landi/svæði. Þessir kóðar eru síðan notaðir á flýtiflipanum **Erlend viðskipti** á sölu- og innkaupaskjölum og þegar unnið er úr skilum. |
+| **Lýsingar viðskipta** | Setja upp kóða til viðbótar við lýsingar á tegundum viðskipta. |
   > [!NOTE]
-  > Byrjar í janúar 2022 Intrastat þarf að hafa mismunandi kóta fyrir færslur fyrir sendingar til einstaklinga eða VSK skráðra fyrirtækja og VSK skráðra fyrirtækja. Til samræmis við þessa kröfu er mælt með því að endurskoða og/eða bæta við nýjum eðli viðskipta á **síðunni tegundir** viðskipta í samræmi við kröfur í þínu landi. Einnig ætti að athuga í reitnum Tegund Intrastat-félaga og uppfæra **einstakling** fyrir einstaka eða ekki VSK-skráða viðskiptaviðskiptavini á viðkomandi *viðskiptavinasíðu* . **·** Ef þú ert ekki viss um rétta gerð Intrastat-félaga eða færslugerð sem á að nota, mælum við með að þú spyrjir sérfræðing á þínu landi eða svæði.
+  > Intrastat gerir frá og með janúar 2022 kröfu um mismunandi eðliskóða viðskipta fyrir sendingar til einstaklinga sem eru ekki skráðir VSK-skyldir eða fyrirtækja sem eru skráð VSK-skyld. Við mælum með því að yfirfara og/eða bæta við nýjum eðliskóðum viðskipta á síðunni **Tegundir viðskipta** í samræmi við kröfurnar í þínu landi. Þú ættir einnig að athuga og uppfæra reitinn **Gerð Intrastat-viðskiptafélaga** í *Einstakling* fyrir einstaklinga sem eru ekki skráðir VSK-skyldir eða fyrirtæki sem eru skráð VSK-skyld á viðkomandi síðu **Viðskiptavinar**. Ef þú ert ekki viss um rétta tegund Intrastat-viðskiptafélaga eða tegund viðskipta sem á að nota mælum við með því að þú spyrjir sérfræðing í þínu landi eða svæði.
 
-| **Sviði** | **Lýsing** |
+| **Reitur** | **Lýsing** |
 | --------- | --------------- |
-| **Nettóþyngd** | Þyngd er ein af grunnskilgreiningum sem tengjast Intrastat-skýrslugerð þar sem **Heildarþyngd** er skylda til skýrslugerðar. Til að vera tilbúin í þessa kröfu þarf einnig að fylla út **reitinn Nettóþyngd** á vörunni eða eignaspjaldinu. |
-| **Kóði upprunakóða** | Notaðu tveggja bókstafa ISO alfa kóðana á vöru-eða eignaspjaldi fyrir landið þar sem góan var fengin eða framleidd. Ef góðkunni var framleitt í fleiri en einu landi, þá var upprunaland í landinu þar sem það var verulega unnið. |
-| **VSK-númer kennitölu félagasamfélags í aðildarríkinu innflutnings** | Þá er VSK-kennitala meðrekstraraðila í aðildarríkinu í innflutningi. VSK-ID er einnig notað við skipti innan ESB-útflutningsgagna meðal aðildarríkjanna og heimilar aðildarríkjunum að ráðstafa mótteknum gögnum til innflutningsfyrirtækja í eigin landi. Tilkynningarskyldir aðilar þurfa að tilkynna sig á VSK-AUÐKENNI félagsins sem lýsti innan sambandsins kaupum á vörum í aðildarríkinu vegna innflutnings. |
+| **Nettóþyngd** | Þyngd er ein af grunnstillingum sem tengjast Intrastat-skýrslugerð þar sem **Heildarþyngdin** er áskilin við skýrslugerð. Til að vera tilbúinn fyrir þessa kröfu verður einnig að fylla út í reitinn **Nettóþyngd** á birgðar- eða eignarspjaldinu. |
+| **Kóði upprunalands** | Notaðu tveggja bókstafa ISO-alfakóða birgðar- eða eignaspjaldinu fyrir landið þar sem varan var fengin eða framleidd. Ef varan var framleidd í fleiri en einu landi er upprunalandið síðasta landið þar sem töluvert var unnið með hana. |
+| **VSK-númer samstarfsaðila í aðildarríkinu þar sem innflutningur fer fram** | Þetta er VSK-númer samstarfsaðila í aðildarríkinu þar sem innflutningur fer fram. VSK-númerið er einnig notað til að skiptast á upplýsingum um útflutning milli aðildarríkja ESB og gerir aðildarríkjunum kleift að úthluta mótteknum gögnum til innflutningsfyrirtækisins í eigin landi. Tilkynningarskyldar vörur verða að tilgreina VSK-númer fyrirtækis sem taldi fram til tolls vegna vörukaupa í aðildarríkinu þar sem innflutningur fer fram. |
 
 Einnig er hægt að setja upp:
 
 * **Vörukóði**: Tolla- og skattyfirvöld hafa sett fram númerakóða sem flokka vörur og þjónustu. Þú tiltekur þessa kóða á vörum.
-* **Svæði** : viðbótarupplýsingar um lönd og svæði.
-* **Innsláttar-/brottfararstaðir** : Tilgreinið þá staði sem eru sendingar eða móttöku vara til eða frá öðrum löndum. Flugvöllur er dæmi um innslátt eða brottfararstað. Komu/brottfararstaði er hægt að færa inn í sölu- og innkaupskjöl á flýtiflipanum **Erlend viðskipti**. Þessar upplýsingar verða einnig afritaðar úr birgðafærslum þegar Intrastatbók er stofnuð.
-* **Viðbótarmælieining** : magn vöru fyrir Intrastat skýrslugerð getur verið annað hvort nettóvigt (í kílóum) eða fylgieining. Ef viðbótareiningar eru nauðsynlegar verður að skilgreina þær fyrir vöru og eignir.
+* **Svæði**: Viðbótarupplýsingar um lönd og svæði.
+* **Komu/brottfarastaðir**: Tilgreina staðsetningar þar sem vöruafhending og móttaka fara fram í viðskiptum við önnur lönd. Flugstöðin er dæmi um komu-brottfararstað. Komu/brottfararstaði er hægt að færa inn í sölu- og innkaupskjöl á flýtiflipanum **Erlend viðskipti**. Þessar upplýsingar verða einnig afritaðar úr birgðafærslum þegar Intrastatbók er stofnuð.
+* **Viðbótarmælieining**: Magn vara til Intrastat-skýrslugerðar getur verið annað hvort nettóþyngd (í kílógrömmum) eða viðbótareining. Ef þörf er á viðbótareiningum verður að stilla þær fyrir vörur og eignir.
 
-#### <a name="set-up-transport-methods"></a>Setja upp flutningsaðferðir
+#### <a name="set-up-transport-methods"></a>Settu upp flutningsmáta
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn **flutningsaðferðir**, veldu síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningsmátar** og velja síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="set-up-transaction-nature-codes"></a>Setja upp náttúrukóða færslu
+#### <a name="set-up-transaction-nature-codes"></a>Uppsetning eðliskóða viðskipta
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn **færslugerðir** og velja tengdan tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu **Tegundir viðskipta** og veldu síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="other-related-configurations"></a>Aðrar tengdar skilgreiningar
+### <a name="other-related-configurations"></a>Aðrar tengdar stillingar
 
-Áður en Intrastat-skýrsluaðgerðin er notuð þarf að skilgreina Sum svæði á vörunni, eignir, viðskiptavin og lánardrottnaspjöld.
+Áður en þú notar eiginleika Intrastat-skýrslugerðar þarftu að stilla nokkra reiti á birgða-, eignar-, viðskiptavina- og lánardrottnaspjaldi.
 
 #### <a name="item-cards"></a>Birgðaspjöld
 
-Allar nauðsynlegar upplýsingar tengdar Intrastat á birgðaspjöldum:
+Gerðu eftirfarandi til að setja upp allar áskildar upplýsingar er tengjast Intrastat á birgðarpjöldum:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **atriði** og veljið síðan tengda tengilinn.
-2. Velja atriðið sem á að samskipa.
-3. **Útvíkkið kostnaðinn & bókun** og fyllið út **reitina Gjaldsvæði**, **viðbótarmælieining**, Kóti lands/svæðis og **upprunakóða**.
-4. **Útvíkka birgðafastann** **og færa inn tugagildi í** reitinn Nettóþyngd.
-
-> [!NOTE]
-> Hægt er að nota mismunandi mælieiningar sem viðbótarmælieiningar. Ef þetta er ekki það sama og **grunnmælieiningin** þarf að skilgreina þessar mælieiningar á **síðunni Mælieiningar vöru**.
-
-#### <a name="fixed-asset-cards"></a>Eignaspjöll
-
-Að setja upp allar nauðsynlegar upplýsingar sem tengjast Intrastat á eignaspjöldum:
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn **eignir** og veldu síðan tengda tengilinn.
-2. Velja eignina sem á að samskipa.
-3. Útvíkka þarf **fastflipann Intrastat** og fylla út **reitina tollverð**, **nettóþyngd** og **viðbótarmælieining**.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur**, velja síðan viðkomandi tengil.
+2. Veldu vöru til að stilla.
+3. Stækkaðu flýtiflipann **Kostnaður og bókanir** og fylltu út reitina **Tollflokkskóði**, **Viðbótarmælieining** og **Kóði upprunalands/-svæðis**.
+4. Stækkaðu flýtiflipann **Birgðir** og sláðu inn tölugildið í reitinn **Nettóþyngd**.
 
 > [!NOTE]
-> Hægt er að nota mismunandi mælieiningar sem viðbótarmælieiningar. En hvaða **Mælieiningarkóti** sem valin er, verður magn **hans** í Intrastat-skýrslum alltaf 1.
+> Þú getur notað mismunandi mælieiningar sem viðbótarmælieiningar. Ef hún er ekki sú sama og **Grunnmælieiningin** þarftu að stilla þessa mælieiningu á síðunni **Mælieiningar**.
 
-#### <a name="vendor-cards"></a>Lánardrottnaspjöldum
+#### <a name="fixed-asset-cards"></a>Eignaspjöld
 
-Áður en lánardrottinn er notaður við Intrastat-skýrslugerð þarf að vera búið að sérmerkja **lands-/svæðiskóða** og **VSK-númer.** fyrir hvern þeirra eru auk frekari upplýsinga á kortasíðu **lánardrottna þeirra**:
+Gerðu eftirfarandi til að setja upp allar áskildar upplýsingar er tengjast Intrastat á eignaspjöldum:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **lánardrottna** og veljið síðan tengda tengilinn.
-2. Veljið þann lánardrottinn sem á að samskipa.
-3. **Á flipanum Intrastat-** fastvirði er hægt að stilla sjálfgefin gildi fyrir **sjálfgefna gerð. tegund**, **Sjálfgefin Flutningstillagerð-skil**, og **sjálfgefna flutningsmáta**.
-4. **Útvíkkið fastflipann greiðslur** og Veljið valkostinn í **reitnum Intrastat-félagagerð** til að tilgreina hvort lánardrottinn er einstaklingur eða fyrirtæki í Intrastat-skýrslugerð.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
+2. Veldu eignina sem á að stilla.
+3. Stækkaðu flýtiflipann **Intrastat** og fylltu út reitina **Tollflokkskóði**, **Nettóþyngd** og **Viðbótarmælieining**.
 
-#### <a name="customer-cards"></a>Viðskiptamannaspjöld
+> [!NOTE]
+> Þú getur notað mismunandi mælieiningar sem viðbótarmælieiningar. Óháð því hvaða **Mælieiningarkóða** sem þú velur, verður **Magn** hans í Intrastat-skýrslum alltaf 1.
 
-Áður en viðskiptavinur er notaður við Intrastat-skýrslugerð verður að vera búið að sérvera **lands-/svæðiskóta** og **VSK-númer.** fyrir hvern þeirra, auk frekari upplýsinga á kortasíðu **þeirra** viðskiptavina:
+#### <a name="vendor-cards"></a>Lánardrottnaspjöld
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **viðskiptamenn** og veljið síðan tengda tengilinn.
-2. Velja viðskiptavininn sem á að samskipa.
-3. **Á flipanum Intrastat-** fastvirði er hægt að stilla sjálfgefin gildi fyrir **sjálfgefna gerð. tegund**, **Sjálfgefin Flutningstillagerð-skil**, og **sjálfgefna flutningsmáta**.
-4. **Útvíkkið fastflipann greiðslur** og Veljið valkostinn í **reitnum Intrastat-félagagerð** til að tilgreina hvort lánardrottinn er einstaklingur eða fyrirtæki í Intrastat-skýrslugerð.
+Áður en þú notar lánardrottinn í Intrastat-skýrslugerð verður þú að vera með sérstakan **Lands-/svæðiskóða** og **VSK-númer** auk frekari upplýsinga á síðunni **Lánardrottnaspjald**.
 
-#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Útiloka vörur og eignir úr Intrastat-skýrslugerð
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
+2. Velja skal lánardrottinn sem á að stilla.
+3. Á flýtiflipanum **Intrastat** er hægt að stilla sjálfgefin gildi í reitunum **Sjálfgefna tegund viðskipta**, **Tegund viðskipta - Skil** og **Sjálfgefinn flutningsmáti**.
+4. Stækkaðu flýtiflipann **Greiðslur** og veldu valkostinn í reitnum **Gerð Intrastat-viðskiptafélaga** til að tilgreina hvort lánardrottinn er einstaklingur eða fyrirtæki í Intrastat-skýrslugerð.
 
-Ef ástæða er til að undanskilja tiltekna vöru eða eign sem útiloka á Intrastat-skýrslugerð frá þarf að breyta um valkost á spjaldinu þeirra.
+#### <a name="customer-cards"></a>Kort viðskiptavina
 
-##### <a name="exclude-an-item-from-intrastat-reporting"></a>Útiloka vöru frá Intrastat-skýrslu
+Áður en viðskiptavinur er notaður í Intrastat-skýrslugerð verður hann að vera með sérstakan **Lands-/svæðiskóða** og **VSK-númer** fyrir hvern og einn til viðbótar við frekari upplýsingar á síðunni fyrir **Kort viðskiptavina**:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **atriði** og veljið síðan tengda tengilinn.
-2. Velja atriðið sem á að samskipa.
-3. **Útvíkka kostnaðinn & bókun** og velja **síðan reitinn útiloka Intrastat-skýrslu**.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
+2. Veldu viðskiptavin til að stilla.
+3. Á flýtiflipanum **Intrastat** er hægt að stilla sjálfgefin gildi í reitunum **Sjálfgefna tegund viðskipta**, **Tegund viðskipta - Skil** og **Sjálfgefinn flutningsmáti**.
+4. Stækkaðu flýtiflipann **Greiðslur** og veldu valkostinn í reitnum **Gerð Intrastat-viðskiptafélaga** til að tilgreina hvort lánardrottinn er einstaklingur eða fyrirtæki í Intrastat-skýrslugerð.
 
-##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Útiloka eign úr Intrastat-skýrslu
+#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Útiloka vörur og eignir frá Intrastat-skýrslugerð
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn **eignir** og veldu síðan tengda tengilinn.
-2. Velja eignina sem á að samskipa.
-3. **Útvíkka Intrastat-** fastflipann og velja **síðan reitinn útiloka Intrastat-skýrslu**.
+Ef ástæða er til að útiloka tiltekna vöru eða eign frá Intrastat-skýrslugerð þarftu að breyta valkosti á korti viðkomandi.
 
-## <a name="country-specific-intrastat-setup"></a>Uppsetning Intrastat-sérlands
+##### <a name="exclude-an-item-from-intrastat-reporting"></a>Útiloka vöru frá Intrastat-skýrslugerð
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur**, velja síðan viðkomandi tengil.
+2. Veldu vöru til að stilla.
+3. Stækkaðu flýtiflipann **Kostnaður og bókanir** og veldu svo reitinn **Útiloka frá Intrastat-skýrslu**.
+
+##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Útiloka eign frá Intrastat-skýrslugerð
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
+2. Veldu eignina sem á að stilla.
+3. Stækkaðu flýtiflipann **Intrastat** og veldu svo reitinn **Útiloka frá Intrastat-skýrslu**.
+
+## <a name="country-specific-intrastat-setup"></a>Intrastat-uppsetning háð landi
 
 <!-- PM's note: Currently, we will add only the 'Overview' topic; the topic 'Manage Intrastat Country Specifics' and country details will wait until 21.1 when I update with all country-based details -->
 
-Kröfur um Intrastat eru svipaðar í öllum aðildarríkjum EB, þótt þar séu mikilvægar undantekningar. Við kenningarskyldu skal vera einvörðungu beitt í öllum aðildarríkjunum. Hins vegar er munur á framkvæmd þar sem sum aðildarríkin veita leiðbeiningar um hvernig almennum meginreglum í reglugerðinni skuli beitt við tilteknar aðstæður (t.d. viðskiptaleg sýni, skil á vörum o. s. frv.). Þessar leiðbeiningar gætu valdið mismunandi árangri við ýmsar aðstæður í aðildarríkjum ESB. Vegna þess að í sumum löndum hafa sumir aukalega ákveðnar upplýsingar aðskildar frá öðrum löndum og þeir hafa einnig annað skráarsnið fyrir skýrslugerð.
+Krafa Intrastat er svipuð í öllum aðildarríkjum ESB, en á því eru mikilvægar undantekningar. Fræðilega ættu reglurnar gilda á sama hátt í öllum aðildarríkjum. Hins vegar er munur á innleiðingu vegna þess að sum aðildarríki gefa leiðbeiningar um hvernig beita skuli almennum reglum í reglugerðinni við tilteknar aðstæður (t.d. sýnishornum af vörum, vöruskil o.s.frv.). Þessar leiðbeiningar kunna að skila mismunandi niðurstöður við ýmsar aðstæður í aðildarríkjum ESB. Þess vegna eru sum lönd með einhverjar sérstakar viðbótarupplýsingar aðgreindar frá öðrum löndum og þau eru einnig með annað skráarsnið fyrir skýrslugerð.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun kl [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Intrastat-skýrsla í Viðskiptamiðinu](finance-how-report-intrastat.md)  
+[Intrastat-skýrslugerð í Business Central](finance-how-report-intrastat.md)  
 [Fjármálastjórnun](finance.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

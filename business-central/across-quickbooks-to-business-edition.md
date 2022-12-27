@@ -1,5 +1,5 @@
 ---
-title: Flytja gögn úr QuickBooks-forriti
+title: Flytja gögn úr QuickBooks App
 description: Hægt er að flytja gögn eins og viðskiptamenn, lánardrottna, birgðavörur og fjárhagsreikninga úr QuickBooks forritum í Business Central, Business Edition.
 author: brentholtorf
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.openlocfilehash: 01a02459e75d20c217b747502db8548567db597d
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9535291"
@@ -35,7 +35,7 @@ Til að fá nánari upplýsingar skaltu lesa um viðbótina sem hentar QuickBook
 
 Ef þú ert tilbúinn til að byrja núna skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp** og velja síðan viðkomandi tengil. Veljið **Flytja viðskiptagögn** og fara síðan eftir skrefunum í leiðbeiningunum.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

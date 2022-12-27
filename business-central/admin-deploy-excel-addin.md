@@ -11,14 +11,14 @@ ms.date: 10/07/2021
 ms.author: jswymer
 ms.openlocfilehash: e9120463e2876e7513ac8011918039167760172d
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9532998"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Sækja innbót Business Central fyrir Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur innbót fyrir Excel sem gerir notendum kleift að velja aðgerðina **Breyta í Excel** á ákveðnum síðum til að opna gögnin í Excel-vinnublaði. Þessi aðgerð er önnur en **opin í Excel** Action því hún leyfir notendum að gera breytingar í Excel, birta síðan breytingarnar aftur til[!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur innbót fyrir Excel sem gerir notendum kleift að velja aðgerðina **Breyta í Excel** á ákveðnum síðum til að opna gögnin í Excel-vinnublaði. Þessi aðgerð er önnur en aðgerðin **Opna í Excel** vegna þess að hún gerir notendum kleift að gera breytingar í Excel, síðan birta breytingarnar aftur í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## <a name="overview"></a>Yfirlit
 
@@ -31,15 +31,15 @@ Innbótin er kölluð **Microsoft Dynamics Office-innbót** og hún er í boði 
 
 ### <a name="about-deployment-as-an-admin"></a>Um uppsetningu sem stjórnandi
 
-Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu eru nokkrir uppsetningarmöguleikar til að fá innbótina fyrir notendur. Einn valkostur er *einstaklingsbundið* þar sem þú leyfir notendum að setja innbótina upp. Með þessum valkosti verða notendur að hafa aðgang að niðurhali skráa úr Office-versluninni. Annar valkostur er að setja upp *miðlæga virkjun* í Microsoft 365 Stjórnun til að virkja viðbóingu sjálfkrafa á öllu fyrirtæki, flokkum eða tilteknum notendum. Miðlæg innleiðing býður upp á leið til að ná í innbótina fyrir notendur ef fyrirtækið þitt veitir notendum ekki aðgang að Office-versluninni.
+Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu eru nokkrir uppsetningarmöguleikar til að fá innbótina fyrir notendur. Einn valkostur er *einstaklingsbundið* þar sem þú leyfir notendum að setja innbótina upp. Með þessum valkosti verða notendur að hafa aðgang að niðurhali skráa úr Office-versluninni. Annar valkostur er að setja upp *Miðlæga innleiðingu* í stjórnendamiðstöð Microsoft 365 til að setja sjálfkrafa upp innbótina í öllu fyrirtækinu, hópnum eða hjá tilteknum notendum. Miðlæg innleiðing býður upp á leið til að ná í innbótina fyrir notendur ef fyrirtækið þitt veitir notendum ekki aðgang að Office-versluninni.
 
 Fyrir notandann er uppsetningin öðruvísi fyrir uppsetningarleiðirnar tvær:
 
 - Með einstaklingsbundinni uppsetningu velur nýr notandi aðgerðina **Breyta í Excel**, glugginn **Ný Office-innbót** opnast í Excel. Til að setja upp innbótina velur notandinn **Treysta þessari innbót** sem mun fyrir vikið setja upp innbótina beint úr Office-versluninni. Notendur skrá sig síðan inn í [!INCLUDE[prod_short](includes/prod_short.md)] með notandanafni og lykilorði.
 
-- Með miðlægri innleiðingu velur nýr notandi aðgerðina **Breyta í Excel**, innbótin verður sjálfkrafa sett upp í Excel úr miðlægri innleiðingu; ekki Office-verslun. Það eina sem notendur þurfa að gera er að skrá sig inn á[!INCLUDE[prod_short](includes/prod_short.md)]
+- Með miðlægri innleiðingu velur nýr notandi aðgerðina **Breyta í Excel**, innbótin verður sjálfkrafa sett upp í Excel úr miðlægri innleiðingu; ekki Office-verslun. Það eina sem notendur þurfa að gera er að skrá sig inn í [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Með báðum þessum virkjunarkostum er viðbótin sjálfkrafa samstillt til að tengjast [!INCLUDE[prod_short](includes/prod_short.md)] . Þriðji virkjunarkostur er Handvirk Uppsetning á viðbóta beint úr Excel. Með þessum valkosti munu notendur þurfa að samskipa viðbóta til að tengjast[!INCLUDE[prod_short](includes/prod_short.md)]
+Með báðum þessum uppsetningarmöguleikum er innbótin sjálfkrafa stillt til að tengjast við [!INCLUDE[prod_short](includes/prod_short.md)]Þriðji uppsetningarmöguleikinn er að setja innbótina upp handvirkt beint úr Excel. Með þessum valkosti þurfa notendur að stilla innbótina til að tengjast við [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Skipt úr einstaklingsbundinni uppsetningu í miðlæga innleiðingu eða öfugt
 
@@ -53,7 +53,7 @@ Með báðum þessum virkjunarkostum er viðbótin sjálfkrafa samstillt til að
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Setja upp innbótina með miðlægri innleiðingu
 
-Miðlæg innleiðing er eiginleiki í Microsoft 365 Stjórnun sem notaður er til að setja sjálfvirkt upp viðbætur í Office apps fyrir notendur, eins og Excel. Til að hjálpa þér með miðlæga innleiðingu inniheldur [!INCLUDE[prod_short](includes/prod_short.md)] hjálparuppsetninguna **Miðlæg innleiðing Excel-innbótar**.
+Miðlæg innleiðing er eiginleiki í Microsoft 365 stjórnendamiðstöð sem þú notar til setja sjálfkrafa upp innbætur í Office-forritum notanda eins og Excel. Til að hjálpa þér með miðlæga innleiðingu inniheldur [!INCLUDE[prod_short](includes/prod_short.md)] hjálparuppsetninguna **Miðlæg innleiðing Excel-innbótar**.
 
 ### <a name="before-you-begin"></a>Áður en hafist er handa
 
@@ -62,15 +62,15 @@ Miðlæg innleiðing er eiginleiki í Microsoft 365 Stjórnun sem notaður er ti
 - Ef þú ert að skipta úr einstaklingsbundinni uppsetningu skaltu skoða [Skipta úr einstaklingsbundinni uppsetningu í miðlæga innleiðingu](#switch)
 
 > [!NOTE]
-> Virkjun miðlægrar innleiðingar hefur áhrif á eiginleika sem nota Excel-innbótina, svo sem aðgerðina **Breyta í Excel**. Það hefur engin áhrif á aðra Excel tengda eiginleika og eða heimildir sem úthlutað er til notenda í[!INCLUDE[prod_short](includes/prod_short.md)]
+> Virkjun miðlægrar innleiðingar hefur áhrif á eiginleika sem nota Excel-innbótina, svo sem aðgerðina **Breyta í Excel**. Hún hefur engin áhrif á aðra Excel tengda eiginleika og/eða heimildir sem notendur fá úthlutað í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Setja upp miðlæga innleiðingu innbótarinnar
 
-Þú munt starfa í bæði [!INCLUDE[prod_short](includes/prod_short.md)] og Microsoft 365 admin Center.
+Þú munt vinna bæði í [!INCLUDE[prod_short](includes/prod_short.md)] og í stjórnendamiðstöð Microsoft 365.
 
 1. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") færa inn **Miðlæg innleiðing Excel-innbótar**, síðan velja viðkomandi tengil.
 2. Lestu upplýsingarnar á síðunni **Uppsetning Excel-innbótar í Business Central** og veldu **Næsta**.
-3. Skráðu þig inn [Microsoft 365 á admin Center](https://go.microsoft.com/fwlink/?linkid=2163967) og farðu **í Integrated apps**<!--**Add-ins**-->.
+3. Skráðu þig inn í [Microsoft 365Stjórnendamiðstöð](https://go.microsoft.com/fwlink/?linkid=2163967) og farðu í **Samþætt forrit**<!--**Add-ins**-->.
 
     Ljúktu eftirfarandi skrefum til að skilgreina innbótina sem á að setja upp úr Office-verslun: 
     1. Veldu **Sækja forrit** til að opna Office-verslun (AppSource). <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->
@@ -79,16 +79,16 @@ Miðlæg innleiðing er eiginleiki í Microsoft 365 Stjórnun sem notaður er ti
     4. Farðu yfir **Samþykkja heimildarbeiðnir**, veldu síðan **Næsta** > **Ljúka uppsetningu**.
     5. Bíddu eftir græna gátmerkið við hliðina á **Uppsett** birtist fyrir innbótina, veldu síðan **Lokið**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       Innbótin birtist á síðunni **Innbætur**. Frekari upplýsingar um viðbótarviðbætur í Microsoft 365 admin Center [fást í innleiða viðbætur í admin Center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
-4. Fara skal aftur **í Excel-viðbót við uppsetningu miðstýrða virkjunar** aðstoðar í [!INCLUDE[prod_short](includes/prod_short.md)] og velja **Next**.
+       Innbótin birtist á síðunni **Innbætur**. Frekari upplýsingar um uppsetningu innbóta í Microsoft 365 stjórnendamiðstöðinni er að finna í [Setja upp innbætur í stjórnendamiðstöðinni](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
+4. Farðu aftur í hjálparuppsetninguna **Miðlæg innleiðing Excel-innbótar** í [!INCLUDE[prod_short](includes/prod_short.md)] og veldu **Næsta**.
 5. Kveiktu á **Nota miðstýrða innleiðingu** og veldu **Ljúka**.
 
     Ef þú kveikir ekki á þessum rofa sækir [!INCLUDE[prod_short](includes/prod_short.md)] innbótina beint úr Office-versluninni.
 
-Þegar því er lokið er alltaf hægt að breyta virkjun í Microsoft 365 admin Center eins og að úthluta fleiri notendum. Frekari upplýsingar um viðbótarviðbætur í admin Center [fást í innleiða viðbætur í admin Center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
+Þegar því er lokið er alltaf hægt að breyta uppsetningunni í stjórnendamiðstöð Microsoft 365 á borð við að úthluta fleiri notendum. Frekari upplýsingar um uppsetningu innbóta í stjórnendamiðstöðinni er að finna í [Setja upp innbætur í stjórnendamiðstöðinni](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
-> Ef þú ert með fleiri en eitt umhverfi þarf að keyra hjálparuppsetninguna **Miðlæg innleiðing Excel-innbótar** í hverju umhverfi þar sem þú vilt nota miðlæga innleiðingu. Hins vegar þarf ekki að skilgreina miðlæga virkjun inn á Microsoft 365 ný. Það eina sem þú þarft að gera er að kveikja á rofanum **Nota miðstýrða innleiðingu** í uppsetningu með hjálp. 
+> Ef þú ert með fleiri en eitt umhverfi þarf að keyra hjálparuppsetninguna **Miðlæg innleiðing Excel-innbótar** í hverju umhverfi þar sem þú vilt nota miðlæga innleiðingu. Þú þarft hinsvegar ekki að skilgreina aftur miðlæga innleiðingu í Microsoft 365. Það eina sem þú þarft að gera er að kveikja á rofanum **Nota miðstýrða innleiðingu** í uppsetningu með hjálp. 
 
 > [!NOTE]
 > Allt að sólarhringur getur liðið áður en innbótin er sett upp sjálfkrafa í Excel fyrir notendur.
@@ -113,7 +113,7 @@ Ef notandi getur ekki tengst sjálfkrafa geturðu opnað fyrir hann með því a
 4. Þegar beðið er um það skaltu skrá þig inn með notandanafni og aðgangsorði Business Central.
 5. Þú mátt velja umhverfið og fyrirtækið sem þú vilt tengjast við.
 
-Viðbótin er nú tengd við [!INCLUDE [prod_short](includes/prod_short.md)], og hægt er að breyta gögnum og gefa út breytingar [!INCLUDE [prod_short](includes/prod_short.md)] á.  
+Innbótin er nú tengd við [!INCLUDE [prod_short](includes/prod_short.md)] og hægt er að breyta gögnum og birta breytingarnar í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Undirbúa tæki og netkerfi fyrir Excel-innbótina
 
@@ -126,11 +126,11 @@ Stundum lenda notendur í vandræðum með Excel-innbótina. Þessi hluti gefur 
 |Vandamál  |Lausn eða hjáleið  |Athugasemdir  |
 |---------|---------|---------|
 |Viðbótin ræsist ekki|Athugaðu hvort innbótin sé sett upp miðlægt. Eða athugaðu hvort notandi er útilokaður frá því að setja hana upp á staðnum. | Stjórnandinn getur stillt Office þannig að notendur geti ekki sótt innbætur. Í þeim tilvikum verður stjórnandi að setja innbótina upp miðlægt. Frekari upplýsingar er að finna í [Setja upp innbætur í stjórnendamiðstöðinni](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
-|Gögn hlaðast ekki inn í Excel|Prófið tenginguna með því að opna annan lista í Excel frá [!INCLUDE [prod_short](includes/prod_short.md)]. Eða opnaðu vinnubókina í Excel í vafra.|Ef notandinn hefur tilgreint heiti fyrirtækis sem inniheldur sérstafi getur innbótin ekki tengst. |
-|Gögn geta ekki birt aftur í [!INCLUDE [prod_short](includes/prod_short.md)].|Prófaðu tenginguna með því að opna vinnubókina í Excel í vafra. |Stundum getur viðbótin lokað fyrir birtingarverk. Ef síðan er stækkuð eða sérstillt skal fjarlægja viðbæturnar og reyna síðan aftur.|
-|Dagsetningarnar eru rangar  |Excel gæti sýnt tímasetningar og dagsetningar á öðru sniði en [!INCLUDE [prod_short](includes/prod_short.md)]. Þetta skilyrði gerir þau ekki röng og gögnin í [!INCLUDE [prod_short](includes/prod_short.md)] vilja ekki láta klúðrast.|         |
+|Gögn hlaðast ekki inn í Excel|Prófaðu tenginguna með því að opna annan lista í Excel úr [!INCLUDE [prod_short](includes/prod_short.md)]. Eða opnaðu vinnubókina í Excel í vafra.|Ef notandinn hefur tilgreint heiti fyrirtækis sem inniheldur sérstafi getur innbótin ekki tengst. |
+|Ekki er hægt að birta gögn aftur í [!INCLUDE [prod_short](includes/prod_short.md)].|Prófaðu tenginguna með því að opna vinnubókina í Excel í vafra. |Stundum getur viðbótin lokað fyrir birtingarverk. Ef síðan er stækkuð eða sérstillt skal fjarlægja viðbæturnar og reyna síðan aftur.|
+|Dagsetningarnar eru rangar  |Excel gæti sýnt tíma og dagsetningar á öðru sniði en [!INCLUDE [prod_short](includes/prod_short.md)]. Þetta skilyrði gerir þau ekki röng og gögnin í [!INCLUDE [prod_short](includes/prod_short.md)] skemmast ekki.|         |
 |Fyrir sumar listasíður koma upp stöðugar villlur þegar mörgum línum er breytt í Excel. Þetta skilyrði getur komið upp ef OData-köll fela í sér Flowfield og reiti utan stýringar á endurtekningu.|Á síðunni **Vefþjónustur** skal velja gátreitina **Útiloka óbreytanlegt Flowfields** og **Útiloka reiti utan við endurtekningu** fyrir birta síðu. Með því að velja þessa gátreiti er óbreytanlegu Flowfields og reitnum úr eTag-útreikningnum útilokað. |Þessi gátreitir eru sjálfgefið faldir. Til að sýna síðuna **Vefþjónustur** skal nota [sérstillingu](/dynamics365/business-central/ui-personalization-user). |
-|Notendur geta ekki lengur skráð sig inn í viðbóta. Þegar þeir reyna að skrá sig inn hættir ferlið án útfyllingar.| Þetta vandamál stafaði hugsanlega af uppfærslu sem við gerðum við bætiefni, einhvern tíma í júlí 2022. Nánari upplýsingar og fix er að finna [í breyta Excel viðbóta-skilgreiningunni til að styðjast við júlí 2022 uppfærsla](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|[!INCLUDE [prod_short](includes/prod_short.md)] Á aðeins við um|
+|Notendur geta ekki lengur skráð sig inn á innbótina. Þegar þeir reyna að skrá sig inn stöðvast ferlið án þess að ljúka því.| Þetta vandamál gæti verið vegna uppfærslu sem við gerðum á innbótinni einhvern tímann í júlí 2022. Frekari upplýsingar og lagfæringar er að finna í [Breyta Excel-innbótinni til að styðja við uppfærslu frá júlí 2022](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Á aðeins við um [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum|
 
 <!--
 ## Deploy the Excel add-in for Business Central online
@@ -165,12 +165,12 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
-[Vinna með Viðskiptaseðla-](ui-work-product.md)  
+[Vinna með Business Central](ui-work-product.md)  
 [Endurbætur á Excel-samþættingu í 2019 útgáfu 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 
 

@@ -1,5 +1,5 @@
 ---
-title: Yfirlit yfir verklag við lokun bækistöð
+title: Yfirlit yfir verkhluta lokun bóka
 description: Kynntu þér ferlið þegar bókum er lokað fyrir fjárhagsárið eða tímabilið og hvað gerist eftir að þú lokar við enda árs.
 author: jswymer
 ms.topic: overview
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.openlocfilehash: 2c959f3c3c0aad3a44ea2ebfa60aed395720f562
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8511893"

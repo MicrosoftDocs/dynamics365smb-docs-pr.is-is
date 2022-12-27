@@ -12,7 +12,7 @@ ms.date: 02/09/2022
 ms.author: edupont
 ms.openlocfilehash: 24188a9eddda8d91e33058039b092ed8fcb37414
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9534616"
@@ -94,16 +94,16 @@ Ef stofnaðar eru fleiri áminningar en skilgreind hafa verið stig fyrir verða
     Til dæmis, ef þú skrifar **Þú skuldar %9 %7 á gjalddaga %2.** mun innheimtubréfið innihalda eftirfarandi texta: **Þú skuldar 1.200,50 USD á gjalddaga 02-02-2014.**.
 
     > [!NOTE]
-    > Gjalddaginn er reiknaður samkvæmt dagsetningarreiknireglunni sem var slegin inn. Sjá [Use Dagsetningarformúlur fyrir frekari upplýsingar](ui-enter-date-ranges.md#use-date-formulas).
+    > Gjalddaginn er reiknaður samkvæmt dagsetningarreiknireglunni sem var slegin inn. Frekari upplýsingar eru í [Nota dagsetningarformúlur](ui-enter-date-ranges.md#use-date-formulas).
 
 Þegar búið er að setja upp áminningarskilmálana með viðbótarstigum og texta þarf að færa einn kóðann á hvert viðskiptamannaspjald. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/send-reminders-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
-[Senda áminningar um útistandandi stöður](receivables-send-reminders.md)  
+[Senda innheimtubréf vegna útistandandi stöðu](receivables-send-reminders.md)  
 [Setja upp vaxtaskilmála](finance-setup-finance-charges.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 

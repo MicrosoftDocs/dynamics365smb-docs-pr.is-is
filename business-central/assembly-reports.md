@@ -9,7 +9,7 @@ ms.date: 06/01/2021
 ms.author: andreipa
 ms.openlocfilehash: e518b25ef67dd2abaee2dc0775fe1ccc18e8dbe8
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605381"
@@ -31,6 +31,6 @@ Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisi
 ## <a name="see-also"></a>Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
-[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
+[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

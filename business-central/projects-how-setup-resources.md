@@ -1,5 +1,5 @@
 ---
-title: Setja upp forðakostnað verks, verð og afkastagetu
+title: Setja upp forðaskostnað, verð og afkastagetu verks
 description: Til að nota forða og auðvelda verkefnastjórnun, tilgreinirðu kostnað og verð fyrir einstaka forða eða forðaflokka, og stillir afkastaveitu forða.
 author: SorenGP
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 88f1756c7d0b499fa582bd861a81d1b45a83a46b
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9531999"
 ---
-# <a name="set-up-resources-for-projects"></a>Setja upp tilföng fyrir verk
+# <a name="set-up-resources-for-projects"></a>Setja upp forða fyrir verkefni
 
 Til að geta unnið með forðaaðgerðir á réttan hátt verður að setja upp forðann og tengt verð og kostnað. Verktengt verð, afslættir og reglur um verðstuðul eru sett upp á verkspjaldinu. Hægt er að tilgreina kostnað og verð einstaks forða, forðaflokka eða alls tiltæks forða hjá fyrirtækinu.
 
@@ -26,10 +26,10 @@ Til að geta unnið með forðaaðgerðir á réttan hátt verður að setja upp
 Sjálfgefna upphæð á klukkustund þarf að tilgreina þegar forðinn er stofnaður. Ef í verki er til dæmis notast við ákveðna vél í fimm klukkustundir er verkið reiknað út frá upphæð á klukkustund.
 
 > [!NOTE]
-> Hægt er að kaupa ytri tilföng, til dæmis til að reikningsfæra lánardrottin fyrir vinnu sem er afhent. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).<br /><br />
-> Við ytri tilföng mælum við með því að þú nafnir eða flokkir þá þannig að þeir ruglist ekki við innri tilföng þín.
+> Hægt er að kaupa ytri forða, t.d. til að senda reikning á lánardrottin fyrir afhenta vinnu. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).<br /><br />
+> Fyrir ytri forða er mælt með að gefa þeim heiti eða flokka þá svo þeim sé ekki ruglað saman við innri forða.
 >  
-> Ef verið er að bóka samstæðufærslur þótt hægt sé að forða línu í sölupöntun er sölupöntuninni umbreytt í innkaupapöntun sem tengist tilfang. Ef nota á tilföng í MF-færslum er notuð **MF-innk. Nr.** Fjárhagsreikn. á forðaspjaldinu til að tilgreina lykilinn sem á að bóka útgjaldakað.
+> Ef samstæðufærslur eru bókaðar, þótt hægt sé að setja forða í línu eða sölupöntun, ef sölupöntun er breytt í innkaupapöntun móttökumegin, verður forðinn ekki hafður með. Til að nota forða í samstæðufærslum skal nota reitinn **Fjárh.reikn.nr MF-innkaupa** á forðaspjaldinu til að tilgreina reikninginn sem á að bóka útgjöldin á.
 
 ## <a name="to-set-up-a-resource"></a>að setja upp forða
 
@@ -80,7 +80,7 @@ Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað 
 3. Á síðunni **Forðaverð** skal fylla út reitina í línu eins og þörf krefur.
 4. Endurtaka skal skref 3 fyrir hvert annað verð sem setja skal upp.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>Sjá einnig .
 
@@ -89,7 +89,7 @@ Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað 
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Vinna með[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

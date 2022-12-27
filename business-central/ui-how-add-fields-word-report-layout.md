@@ -11,18 +11,18 @@ ms.date: 11/25/2021
 ms.author: jswymer
 ms.openlocfilehash: 8effef3436575529a4bff82f60ec7922f1fd9bd6
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8513524"
 ---
-# <a name="work-with-word-layouts"></a>Vinna með Orðskipulag
+# <a name="work-with-word-layouts"></a>Vinna með Word-útlit
 
-Á Word-skýrsluformi ræður innihald og snið skýrslu þegar hún er forskoðuð og prentuð út frá Viðskiptamiðinu. Þessi uppsetning er búin til og þeim breytt með notkun Microsoft Word.
+Word-skýrsluútlit ákvarðar efni og snið skýrslunnar þegar hún er forskoðuð og prentuð úr Business Central. Þú býrð til og breytir þessum útlitum með Microsoft Word.
 
-[![Dæmi um Word-skýrsluútlit skjals fyrir Seðlabankaviðskipti.](media/word-layout.png)](media/word-layout.png#lightbox) 
+[![Dæmi um skjal word-skýrsluútlits fyrir Business Central.](media/word-layout.png)](media/word-layout.png#lightbox) 
 
-Þegar Word-skýrsluútlit er breytt eru svæðin í skýrslgagnamengi sem á að hafa með í skýrslunni og hvernig svæðunum er raðað. Einnig er almennt snið skýrslunnar skilgreint, eins og textaleturgerð og stærð, spássíur og bakgrunnsmyndir. Yfirleitt er efni skýrslunnar raðað með því að bæta töflum við útlitið.
+Þegar þú breytir Word-skýrsluútliti tilgreinir þú reiti í gagnasafni skýrslunnar sem eiga að vera í skýrslu og hvernig reitunum er raðað. Þú skilgreinir líka almennt snið skýrslunnar, t.d. leturgerð og stærð texta, spássíu og bakgrunnsmyndir. Þú raðar yfirleitt efni skýrslunnar með því að bæta töflum við útlitið.
 
 Til að gera almennar sniðsbreytingar og útlitsbreytingar, t.d. að breyta leturgerð, bæta við og breyta töflu eða að fjarlægja gagnareit, skal einfaldlega nota grunnbreytingarvalkosti Word, líkt og gert er fyrir öll önnur Word skjöl.
 
@@ -54,11 +54,11 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
 3. Á flipanum **Developer** skal velja **XML-vörpunarsvæði**.  
   
-4. **Í XML** -hlutafellirúðunni, á **listanum sérsniðin XML-hluti**, skal velja sérsniðna XML-hlutann fyrir [!INCLUDE[prod_short](includes/prod_short.md)] skýrsluna sem vanalega síðast á listanum. Heiti sérstillta XML-hlutans er á eftirfarandi sniði:  
+4. Á svæðinu **XML-vörpun**, á fellilistanum **Sérsniðinn XML-hluti** velurðu sérsniðinn XML-hluta fyrir [!INCLUDE[prod_short](includes/prod_short.md)]-skýrslu, sem er vanalega síðast á listanum. Heiti sérstillta XML-hlutans er á eftirfarandi sniði:  
   
      `urn:microsoft-dynamics-nav/reports/<report_name>/<ID>`  
 
-     `<report_name>` er nafnið sem skýrslan er tengd 
+     `<report_name>` er heitið sem er úthlutað á skýrsluna. 
 
      `<ID>` er kenninúmer skýrslunnar.  
   
@@ -91,14 +91,14 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
     3. Endurtakið skref a og b fyrir hvern reit.  
   
-## <a name="adding-image-fields"></a>Bæta við myndasvæðum
+## <a name="adding-image-fields"></a>Bæta við myndareitum
 
 Gagnasafn skýrslu getur innihaldið reit sem inniheldur mynd, t.d. fyrirtækjamerki eða mynd af hlut. Til að bæta við mynd úr skýrslugagnamenginu er sett inn efnisstjórnunin **Mynd**.  
   
 Myndir birtast efst í hægra horni efnisstýringar og laga stærð sína sjálfvirkt þannig að þær passi við mörk efnisstjórnunar.  
   
 > [!IMPORTANT]  
-> Aðeins er hægt að bæta við myndum á sniði sem Word styður, t.d. .bmp, .jpeg, og .png skráargerðir. Ef bætt er við mynd sem hefur snið sem ekki er studd af Word, kemur upp villa þegar skýrslan er keyrð af [!INCLUDE[prod_short](includes/prod_short.md)] biðlaranum.  
+> Aðeins er hægt að bæta við myndum á sniði sem Word styður, t.d. .bmp, .jpeg, og .png skráargerðir. Ef þú bætir við mynd á sniði sem Word styður ekki færðu villu þegar þú keyrir skýrsluna úr [!INCLUDE[prod_short](includes/prod_short.md)] biðlaranum.  
   
 ### <a name="to-add-an-image"></a>Til að bæta við mynd  
   
@@ -108,11 +108,11 @@ Myndir birtast efst í hægra horni efnisstýringar og laga stærð sína sjálf
   
 3. Til að auka eða minnka myndastærðina dregurðu stærðarhandfang frá eða að miðju efnisstjórnunar.  
 
-##  <a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Fjarlægja merkingar og gagnasvæði
+##  <a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Merkja- og gagnareitir fjarlægðir
 
 Merkimiða- og gagnareitir skýrslu eru í efnisstjórnun í Word. Eftirfarandi mynd sýnir efnisstýringu þegar hún er valin í Word-skjalinu.  
 
-![Efnisstýring fyrir svæði í uppsetningu Word-skýrslu.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+![Efnisstýring fyrir reit í Word-skýrsluútliti.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
 Heiti merkisins eða heiti gagnareits er birt í efnisstjórnun. Í dæminu er heiti reitsins CompanyAddr1.  
 
@@ -128,7 +128,7 @@ Heiti merkisins eða heiti gagnareits er birt í efnisstjórnun. Í dæminu er h
 
 Word-skýrsluútlit byggja á *sérsniðnum XML-hlutum*. Sérsniðinn XML-hluti fyrir skýrslu samanstendur af þáttum sem samsvara gagnahlutum, dálkum og merkingum sem saman mynda gagnamengi skýrslunnar. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Sérsniðinn XML-hluti er notaður til að varpa gögnunum í skýrslu þegar skýrslan er keyrð.
 
-### <a name="xml-structure-of-custom-xml-part"></a>XML-uppbygging sérsniðinnar XML-hluta
+### <a name="xml-structure-of-custom-xml-part"></a>XML bygging sérsniðins XML-hluta
 
 Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.  
   
@@ -141,15 +141,15 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Gögn og dálkar sem eru ívafin á efsta stigi gagnahlutar. Dálkar eru listaðir í stafrófsröð undir viðkomandi gagnahlut.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Lokar atriði.|  
   
-### <a name="custom-xml-part-in-word"></a>Custom XML-hluti í Word
+### <a name="custom-xml-part-in-word"></a>Sérsniðinn XML-hluti í Word
 
  Í Word opnarðu sérsniðinn XML-hluta á svæðinu **XML-vörpun** og notar svo svæðið til að varpa einingum í efnisstjórnun í Word-skjalinu. Svæðið **XML-vörpun** er aðgengilegt úr flipanum **Hönnuður** (nánari upplýsingar er að finna í [Sýna flipann Hönnuður á borðanum](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
- Einingarnar í **XML vörpun** svæðinu birtast með uppsetningu sem svipar til XML upprunans. Merkimiðareitir eru flokkaðir saman undir sameiginlegri einingu í **Merkimiðar** og gagnaatriðum og dálkum er raðað í stigveldisskipan sem samsvarar XML-upprunanum, með dálkar í stafrófsröð. Einingar eru auðkenndar með heiti dálks eins og skilgreint er í gagnasafni skýrslunnar í AL-kóða. Sjá [skilgreiningu á DataSet](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset) fyrir frekari upplýsingar.  
+ Einingarnar í **XML vörpun** svæðinu birtast með uppsetningu sem svipar til XML upprunans. Merkimiðareitir eru flokkaðir saman undir sameiginlegri einingu í **Merkimiðar** og gagnaatriðum og dálkum er raðað í stigveldisskipan sem samsvarar XML-upprunanum, með dálkar í stafrófsröð. Einingar eru auðkenndar á dálkheiti eins og það er skilgreint í gagnasafni skýrslunnar í AL-kóða. Frekari upplýsingar eru í [Skilgreina gagnasafni](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  Eftirfarandi mynd sýnir einfaldan sérsniðinn XML-hluta úr fyrri hluta í **XML-vörpun** svæðinu í Word skjali.  
   
- ![Myndskeið af XML-Vörpunarrúðunni í Word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Hluti af XML-vörpunarsvæði í word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 * Til að bæta merki eða reit við útlitið er sett inn efnisstjórnun sem varpar í eininguna á svæðinu **XML-vörpun**.  
   

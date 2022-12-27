@@ -1,5 +1,5 @@
 ---
-title: Skoða prófunarskýrslu áður en sölu-eða innkaupaskjal er bókað
+title: Skoða prófunarskýrslu áður sölu- eða innkaupaskjal er bókað
 description: Áður en þú bókar skjal, til dæmis pöntun eða kreditreikning, geturðu prófað og endurskoðað það til að leita að villum sem gætu hindrað bókun.
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: solsen
 ms.openlocfilehash: 2ff8cc312188b10db9b7bc4e12d58a784c9c09fc
 ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 04/29/2022
 ms.locfileid: "8655336"

@@ -1,6 +1,6 @@
 ---
-title: Sameina stöður fyrir fyrirtæki sem er Viðskiptamaður og lánardrottinn
-description: Lýsir því hvernig á að sameina stöður fyrir viðskiptavin sem er einnig lánardrottinn.
+title: Sameina stöður fyrir fyrirtæki sem er viðskiptamaður og lánardrottinn
+description: Lýsir því hvernig á að sameina stöður fyrir viðskiptamann sem er einnig lánardrottinn.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -12,55 +12,55 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.openlocfilehash: 66e97780c2f8d4cd771c774fa306fd8197d36c95
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8521021"
 ---
-# <a name="consolidate-balances-for-a-company-that-is-a-customer-and-a-vendor"></a>Sameina stöður fyrir fyrirtæki sem er Viðskiptamaður og lánardrottinn
-Fyrirtæki sem þú átt viðskipti við gætu bæði verið viðskiptamaður og lánardrottinn. Þegar það er tilfellið er hægt að komast hjá því að gera óþarfar greiðslur eða kvittanir og ef til vill spara á Færslugjöld, með því að styrkja stöður viðskiptavina og lánardrottna fyrirtækisins. Samstæða tengir saman stöður fyrirtækisins sem lánardrottinn og sem viðskiptavin og heldur nets þeirri upphæð þannig að annað hvort staða viðskiptamanns eða lánardrottins er eftir því hvaða upphæð var hærri. 
+# <a name="consolidate-balances-for-a-company-that-is-a-customer-and-a-vendor"></a>Sameina stöður fyrir fyrirtæki sem er viðskiptamaður og lánardrottinn
+Fyrirtæki sem þú átt í viðskiptum við gæti verið bæði viðskiptamaður og lánardrottinn. Þegar svo er geturðu forðast að framkvæma ónauðsynlegar greiðslur eða móttökur og hugsanlega sparað í færslugjöldum með því að sameina stöður viðskiptamanns og lánardrottins í fyrirtækinu. Sameining ber saman stöður fyrirtækisins sem lánardrottinn og sem viðskiptamaður og finnur síðan nettóupphæðina þannig að annaðhvort stendur eftir staða viðskiptamanns eða lánardrottins eftir því hvor upphæðin er hærri. 
 
-Til að sameina stöðuna þarf fyrst að tengja viðskiptamanninn og lánardrottnafyrirtækin í gegnum tengilið sem er með gerðinni **fyrirtæki**. Viðskiptavinur eða lánardrottinn getur aðeins haft einn tengilið af gerðinni **fyrirtæki**. Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).
+Til að sameina stöðurnar þarf fyrst að tengja fyrirtæki viðskiptamanns og lánardrottins í gegnum tengilið sem er af gerðinni **Fyrirtæki**. Viðskiptamaður og lánardrottinn geta aðeins verið með einn tengilið af gerðinni **Fyrirtæki**. Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).
 
-Þegar búið er að tengja fyrirtækin þá **býður viðskiptamannaspilið** upp á **stöðuna sem lánardrottinn** og **lánardrottnaspjaldið** **hefur stöðuna sem viðskiptavinur**.
+Eftir að þú hefur tengt fyrirtækin býður síðan **Viðskiptamannaspjald** upp á reitinn **Staða sem lánardrottinn** og síðan **Lánardrottnaspjald** inniheldur reitinn **Staða sem viðskiptamaður**.
 
-Þó er það ekki krafa, að viðskiptamenn og lánardrottnafyrirtæki séu yfirleitt sami Lögaðili. 
+Þótt það sé ekki skilyrði eru fyrirtæki viðskiptamanns og lánardrottins yfirleitt sami lögaðilinn. 
 
 ## <a name="before-you-start"></a>Verður að byrja fyrir
-Áður en stöður eru sameinaðar skal tilgreina nokkrar stillingar á **síðu markaðsuppsetningarsíðunnar**. 
+Áður en þú sameinar stöður skal tilgreina nokkrar stillingar á síðunni **Uppsetning markaðssetningar**. 
 
-* **Á flipanum samskipti** þarf að tilgreina viðskiptatengslakóta í **svæðunum viðskiptamenn** og **Lánardrottnar**. [!INCLUDE[prod_short](includes/prod_short.md)] notar þessar upplýsingar til að ákvarða tegund tengsla sem á að birta fyrir tengiliði. 
-* Valfrjálst: á **flipanum tvítekningar er leit á tvítekningum** snúið við eða slökkt á henni. Leit er sjálfkrafa kveikt í tvítekningu. Sjá [handling tvítekningar](#handling-duplicates) fyrir frekari upplýsingar. 
+* Í flýtiflipanum **Samskipti** þarf að tilgreina kóða viðskiptatengsla í reitunum **Viðskiptamenn** og **Lánardrottnar**. [!INCLUDE[prod_short](includes/prod_short.md)] notar þessar upplýsingar til að ákvarða tegund tengsla sem á að sýna fyrir tengiliði. 
+* Valfrjálst: Kveiktu eða slökktu á tvítekinni leit í flýtiflipanum **Tvítekningar**. Kveikt er sjálfgefið á tvítekinni leit. Frekari upplýsingar eru í [Meðhöndlun tvítekninga](#handling-duplicates). 
 
-## <a name="link-an-existing-customer-and-vendor-company-thorough-a-contact"></a>Tengja tengilið og fyrirtæki sem þegar er til Ítarlegt
-Eftirfarandi skref lýsa því hvernig á að tengja viðskiptavin og lánardrottin í gegnum tengilið.
+## <a name="link-an-existing-customer-and-vendor-company-thorough-a-contact"></a>Tengja fyrirliggjandi fyrirtæki viðskiptamanns og lánardrottins í gegnum tengilið
+Eftirfarandi skref lýsa því hvernig á að tengja saman viðskiptamann og lánardrottinn í gegnum tengilið.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinur** eða **Lánardrottinn** og velja síðan viðkomandi tengil.
-2. Velja skal viðskiptavin eða lánardrottinn og velja **síðan aðgerðina tengiliður**.
-3. Ef annað er ekki í **reitnum viðskiptatengsl** en **enginn** verður að fjarlægja tengslin. Til að gera það skaltu nota **aðgerðina viðskiptatengsl** og eyða síðan venslunum. 
-4. Eftir því hvort viðskiptavinur eða lánardrottinn **er** valinn í skrefi 1 skal velja þá **ljósaperu sem** opnar aðgerðina segja. ![...](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd og síðan inn í andstæðan teig. Það er, ef lánardrottinn er valinn **, ætti að leita til** viðskiptamanns **.**
-5. Velja skal lánardrottinn eða viðskiptavin og velja **síðan Tengiliðir**.
-6. Velja skal **tengilinn með fyrirliggjandi** aðgerð og svo **valkostinn Viðskiptamaður** eða **Lánardrottinn**.
-7. Veljið viðskiptavin eða lánardrottinn.
+2. Veldu viðskiptamann eða lánardrottinn og veldu síðan aðgerðina **Tengiliður**.
+3. Ef reiturinn **Viðskiptatengsl tengiliðar** inniheldur gildi annað en **Engin** þarf að fjarlægja tengslin. Til að gera það skal nota aðgerðina **Viðskiptatengsl** og síðan eyða tengslunum. 
+4. Eftir því hvort þú valdir **Viðskiptamann** eða **Lánardrottinn** í skrefi 1 velurðu ![Ljósaperuna sem opnar eiginleika viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið og færir síðan inn gagnstæðan aðila. Það er að segja ef þú valdir **Lánardrottinn** ættir þú að leita að **Viðskiptamanni**.
+5. Veldu lánardrottinn eða viðskiptamann og veldu síðan aðgerðina **Tengiliðir**.
+6. Veldu aðgerðina **Tengja við fyrirliggjandi** og síðan valkostinn **Viðskiptamaður** eða **Lánardrottinn**.
+7. Veldu viðskiptamann eða lánardrottinn.
 
-## <a name="create-a-vendor-from-a-customer-or-vice-versa"></a>Stofna lánardrottin úr viðskiptamanni, eða öfugt
-Hægt er að stofna nýjan lánardrottinn úr fyrirliggjandi viðskiptamanni, eða nýjum viðskiptamanni frá lánardrottni. **Opnið** tengiliðasíðuna **á síðunum Viðskiptamaður** eða **Lánardrottinn**. **Velja aðgerðina stofna sem** aðgerð og síðan annað hvort valkosti fyrir **viðskiptavin** eða **lánardrottna**. 
+## <a name="create-a-vendor-from-a-customer-or-vice-versa"></a>Stofnaðu lánardrottinn úr viðskiptamanni eða öfugt
+Hægt er að stofna nýjan lánardrottinn úr fyrirliggjandi viðskiptamanni eða nýjan viðskiptamann úr lánardrottni. Á síðunum **Viðskiptamaður** eða **Lánardrottinn** skal opna síðuna **Tengiliður**. Veldu aðgerðina **Stofna sem** og síðan annaðhvort valkostinn **Viðskiptamaður** eða **Lánardrottinn**. 
 
-## <a name="create-a-new-customer-or-vendor-and-link-them-through-a-vendor-or-customer-contact"></a>Stofna nýjan viðskiptavin eða lánardrottinn og tengja þá við tengilið lánardrottins eða viðskiptavinar
-1. Stofna nýjan viðskiptavin eða lánardrottinn. Frekari upplýsingar er að finna [í skrá nýja viðskiptamenn](sales-how-register-new-customers.md) eða [skrá nýja viðskiptamenn](sales-how-register-new-customers.md).
-2. Þegar viðskiptamaður eða lánardrottinn er settur upp skal velja **aðgerðina stofna** og velja **síðan valkosti viðskiptavinar** eða **lánardrottins**. 
+## <a name="create-a-new-customer-or-vendor-and-link-them-through-a-vendor-or-customer-contact"></a>Stofna nýjan viðskiptamann eða lánardrottin og tengja þá í gegnum tengilið lánardrottins eða viðskiptamanns
+1. Stofna nýjan viðskiptavin eða lánardrottinn. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md) eða [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).
+2. Þegar viðskiptamaður eða lánardrottinn hefur verið settur upp skal velja aðgerðina **Stofna** og síðan velja annaðhvort valkostinn **Viðskiptamaður** eða **Lánardrottinn**. 
 
-## <a name="to-consolidate-the-customer-and-vendor-balances-for-a-contact-company"></a>Til að sameina stöður viðskiptamanna og lánardrottna fyrir tengiliðafyrirtæki
-**Á síðunni greiðslubók** er aðgerðin nettó-viðskiptamanna-/lánardrottnastaða **notuð** til að sameina stöður viðskiptamanna og lánardrottna í eina nettóupphæð. Aðgerðin stofnar en bókar ekki greiðslubókarlínur sem innihalda nettóstöðu.
+## <a name="to-consolidate-the-customer-and-vendor-balances-for-a-contact-company"></a>Að sameina stöður viðskiptamanns og lánardrottins fyrir fyrirtæki tengiliðar
+Á síðunni **Greiðslubók** skal nota aðgerðina **Nettóstöður viðskiptamanns/lánardrottins** til að sameina stöður viðskiptamanns og lánardrottins í eina nettóupphæð. Aðgerðin býr til, en bókar ekki, greiðslubókarlínur sem innihalda nettóstöðurnar.
 
 > [!NOTE]
-> Ef viðskiptamanna-eða lánardrottnastöður innihalda upphæðir sem eru í mismunandi gjaldmiðlum er stofnuð lína fyrir upphæðina í hverjum gjaldmiðli.
+> Ef stöður viðskiptamanns eða lánardrottins innihalda upphæðir sem eru í öðrum gjaldmiðlum er lína stofnuð fyrir upphæðina í hverju gjaldmiðli.
 
-## <a name="handling-duplicates"></a>Meðhöndlun tvítekningum
-Ef kveikt er á tvítekningu á **flipanum tvítekningar** á **uppsetningarsíðu** markaðssetningar birtist viðvörun þegar gildum reita sem eru hluti uppsetningarinnar fyrir tvíteknum leitarstrengjum er breytt. Þegar Tvítekning finnst er hægt að grípa til eftirfarandi aðgerða:
+## <a name="handling-duplicates"></a>Meðhöndlun tvítekninga
+Ef þú kveikir á tvítekinni leit í flýtiflipanum **Tvítekningar** á síðunni **Uppsetning markaðssetningar** mun viðvörun birtast þegar þú breytir gildum reita sem eru hluti af uppsetningunni fyrir tvítekna leitarstrengi. Þegar tvítekning finnst er hægt að grípa til eftirfarandi aðgerða:
 
-* Sameinið tvítekna tengiliði í einum tengilið sem er sá sami fyrir bæði viðskiptavininn og lánardrottininn með því að nota **blöndunartækin** á **síðunni tengiliðaspjald**. Yfirleitt er aðeins aðeins gert við sameinaða tengiliði þegar viðskiptamaður og lánardrottinn eru sami Lögaðili. Frekari upplýsingar er að finna í [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md). 
-* Eyða viðskiptatengslum lánardrottins eða tengiliða lánardrottins og nota **síðan tengilinn við fyrirliggjandi** aðgerð til að tengja við annan tengilið.    
+* Sameinaðu tvítekna tengiliði í einn tengilið sem er sá sami fyrir bæði viðskiptamann og lánardrottin með því að nota möguleikann **Sameina við** á síðunni **Tengiliðaspjald**. Yfirleitt er sameining tengiliða eingöngu gerð þegar viðskiptamaður og lánardrottinn eru sami lögaðilinn. Frekari upplýsingar er að finna í [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md). 
+* Eyddu viðskiptatengslum lánardrottins fyrir tengilið lánardrottins eða viðskiptamanns og notaðu síðan aðgerðina **Tengja við fyrirliggjandi** til að tengja við annan tengilið.    
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  

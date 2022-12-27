@@ -1,6 +1,6 @@
 ---
 title: Flýtiræsing viðskiptagreindar
-description: Lærðu hvernig seðlabankinn hjálpar til við að umbreyta gögnum fyrirtækisins yfir í Gantt innsýn með skýrslum viðskiptagreindarskýrslna og mælaborðum.
+description: Kynntu þér hvernig Business Central aðstoðar þig við að umbreyta gögnum fyrirtækisins í innsýn sem hægt er að nýta sér með skýrslur og stjórnborðum viðskiptagreindar.
 author: rubenseishima
 ms.topic: conceptual
 ms.devlang: na
@@ -12,45 +12,45 @@ ms.date: 08/17/2022
 ms.author: a-reishima
 ms.openlocfilehash: 7fddf26a712dc4f6f225de8fd20024fb755c63ee
 ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/23/2022
 ms.locfileid: "9586030"
 ---
 # <a name="business-intelligence-quick-start"></a>Flýtiræsing viðskiptagreindar
 
-Að geta safnað og greint sífellt vaxandi magn af gögnum á ógreinilegan hátt er ómetanlegur hluti af því að sinna viðskiptum þessa dagana. [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á mörg Viðskiptagreindarverkfæri &mdash; bæði innbyggð og samþætt annarri þjónustu &mdash; til að hjálpa fyrirtækinu í ákvörðunarferlinu.
+Það er ómetanlegur þáttur í við að stunda viðskipti þessa dagana að geta safnað og greint sívaxandi magni gagna sem hægt er að nýta sér. [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á mörg verkfæri viðskiptagreindar&mdash;bæði innbyggð og samþætt við aðrar þjónustur&mdash;til að hjálpa fyrirtækinu þínu að taka ákvarðanir.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a>Fá innsýn á helstu atriði vaxtar
+## <a name="get-insights-on-your-key-points-of-interest"></a>Fáðu innsýn í helstu lykilatriði
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur innbyggðar töflur sem hægt er að birta í **innsýn** hluta á heimasíðuna þína, sem nær *til tekna & útgjalda*, *sjóðstreymis*, *sölutilhögunar* og annarra skýrslna. Hægt er að finna aukalykil af árangursþáttum (kpis) á greindum skýi á **innsýn** síðu sem birtir Gantt upplýsingar frá fjármálum, birgðum, sölu og innkaupum:
+[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur innbyggð gröf sem hægt er að sýna hluta **Innsýnar** á heimasíðunni, sem nær yfir *tekjur og útgjöld*, *sjóðstreymi*, *söluhegðun* og aðrar skýrslur. Þú getur fundið frekari árangursmælikvarði (KPI) á síðunni **Intelligent Cloud-innsýn** sem sýnir upplýsingar úr fjármálum, birgðum, sölu og innkaupum sem hægt er að nýta sér:
 
-* Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikni, inn **greindur ský innsýn**, velja síðan tengda hlekki.
+* Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Intelligent Cloud-innsýn**, velja síðan viðkomandi tengil.
 
-Hægt er að velja tiltæk gagnaspil og innsýn til að opna tengda fjárhagssíðu. Í **greindum skýi innsýn** síðu er einnig notuð tenging við fyrirliggjandi Power BI og Azure vélar Learning áskriftir til að sýna greiningar og spá mælaborðum.
+Hægt er að velja tiltæk gagnaspjöld og innsýn til að opna tengda fjárhagssíðu. Síðan **Intelligent Cloud-innsýn** notar einnig tengingu við fyrirliggjandi áskriftir að Power BI og Azure-vélnámi til að sýna stjórnborð greiningar og spár.
 
 ## <a name="set-up-power-bi-integration"></a>Setja upp Power BI samþættingu
 
-Þú getur tengst [!INCLUDE[prod_short](includes/prod_short.md)] með Power BI til að búa til skarpstilkandi skýrslur og öflug Mælaborð. Power BI Samþætting veitir marga valkosti til að veita innsýn sem byggist á gögnum fyrirtækisins, þar á meðal margs konar Útlitshönnun, síum og birtingu sérstillingar.
+Þú getur tengt [!INCLUDE[prod_short](includes/prod_short.md)] við Power BI til að búa til gagnlegar skýrslur og öflug stjórnborð. Power BI samþætting býður upp á marga valkosti til að veita innsýn út frá viðskiptagögnum, þ.m.t. fjölbreyttar sérstillingar á myndrænni framsetningu, síun og birtingu.
 
-1. Á heimasíðunni þinni velur þú að **byrja með Power BI** Link.
-2. Veldu **Next**.
-3. **Veldu aðgerðina fara Power BI á heimasíðuaðgerð**, Skráðu þig inn með reikningnum þínum Power BI eða byrjaðu að prufa að nota vinnunetfang þitt.
-4. Aftur á **síðuna setja upp Power BI skýrslur**, velja **Next**.
-5. Á næsta skjá, velja **næst til að hlaða sýnisskýrslu á**, velja Power BI síðan **ljúka**.
+1. Á heimasíðunni þinni skaltu velja tengilinn **Hefjast handa með Power BI**.
+2. Velja **Næsta**.
+3. Veldu aðgerðina **Fara á Power BI heimasíðuna**, skráðu þig inn með Power BI reikningnum eða byrjaðu prufuáskrift með vinnunetfanginu.
+4. Aftur á síðunni **Setja upp Power BI skýrslur** skaltu velja **Næsta**.
+5. Á næstu skjámynd skaltu velja **Næsta** til að hlaða upp sýniskýrslu á Power BI, síðan velja **Ljúka**.
 
-Upphleðsla skýrslunnar tekur nokkrar mínútur en hægt er að halda áfram vinnu [!INCLUDE[prod_short](includes/prod_short.md)] við á meðan á flutningi stendur. Eftir upphleðslan er hægt að velja **aðgerðina velja skýrslur** í **Power BI skýrslum** hluta á heimasíðunni til að birta tiltæk Mælaborð.
+Það tekur nokkrar mínútur að hlaða upp skýrslunni, en þú getur haldið áfram að vinna í [!INCLUDE[prod_short](includes/prod_short.md)] meðan á flutningi stendur. Eftir upphleðsluna geturðu valið aðgerðina **Velja skýrslur** í hlutanum **Power BI skýrslur** á heimasíðunni til að birta tiltæk stjórnborð.
 
-Power BI Samþætting við [!INCLUDE[prod_short](includes/prod_short.md)] felur í sér sýnishorn mælaborðs fyrir sýnifyrirtæki CRONUS. Auðvelt er að setja upp tilbúin-notuð Mælaborð og DataSet-tengla með því að vafra um **apps** -hlutann í Power BI vefsvæðinu. Þar munt þú sjá tiltæk smáforrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] það samþætta og birta gögn úr fjármálum, sölum og öðrum sviðum. Lærðu meira um Power BI aðgerðirnar í þessum [viðskiptum miðlægt og Power BI](admin-powerbi.md) í greininni og Sjáðu hvernig þú býrð til eigin Mælaborð hjá [fá Byrjaðu að búa í Power BI þjónustunni](/power-bi/fundamentals/service-get-started).
+Power BI samþætting við [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur sýnishorn af stjórnborði fyrir sýnifyrirtækið Cronus. Auðvelt er að setja upp fleiri tengla af tilbúnum stjórnborðum og gagnasöfnum með því að vafra um hlutann **Forrit** á Power BI vefsvæðinu. Þar sérðu tiltæk forrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] sem samþætta og sýna gögn úr fjármálum, sölu og öðrum svæðum. Frekari upplýsingar um Power BI eiginleikana er að finna í þessari [Business Central og Power BI](admin-powerbi.md) grein og hvernig á að búa til sín eigin stjórnborð í [Byrja að búa til í Power BI þjónustu](/power-bi/fundamentals/service-get-started).
 
-Einnig er hægt að búa til sjónrænar skýrslur sem eru byggðar á [!INCLUDE[prod_short](includes/prod_short.md)] með því að **Microsoft Excel nota valkostinn skrárgerð (aðeins gagnaskrá)** á síðum skýrslubeiðninnar. Frekari upplýsingar er að fá í [keyra og prenta skýrslur](ui-work-report.md).
+Einnig er hægt að búa til myndrænar skýrslur sem byggja á [!INCLUDE[prod_short](includes/prod_short.md)] með því að nota valkost skráargerðar **Microsoft Excel skjal (aðeins gögn)** á síðum skýrslubeiðna. Frekari upplýsingar er að finna í [Keyra og prenta skýrslur](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengdar þjálfun kl [Microsoft Learn](/learn/paths/use-power-bi).
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-power-bi).
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Viðskiptagreining og Ársskýrsla](bi.md)  
+[Viðskiptagreining og Financial Reporting](bi.md)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
-[Vinnu við Power BI skýrslur í starfsemi seðla-](across-working-with-powerbi.md)  
+[Vinna með Power BI skýrslur í Business Central](across-working-with-powerbi.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

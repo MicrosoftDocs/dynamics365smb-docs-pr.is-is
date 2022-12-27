@@ -12,7 +12,7 @@ ms.date: 12/20/2021
 ms.author: edupont
 ms.openlocfilehash: 811bf9e69e75bbc3b46a20a5c3d4a6226abcdccc
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9530595"
@@ -25,7 +25,7 @@ Að skilja sjóðinnstreymi og útstreymi er lykillinn að farsælum fyrirtækja
 
 Hugtakið *Sjóðstreymi* er notað til að tilgreina inngreiðslur að frádregnum útgreiðslum yfir valið tímabil. Það er mat á peningaupphæðina sem búist er við að flæði inn og út úr fyrirtækinu og inniheldur allar áætlaðar tekjur og útgjöld.
 
-## <a name="work-with-cash-flow"></a>Vinna með sjóðstreymi
+## <a name="work-with-cash-flow"></a>Vinna með sjóðsstreymi
 
 Eftirfarandi mynd sýnir yfirlit yfir það hvernig hægt er að vinna með sjóðstreymi.
 
@@ -76,7 +76,7 @@ Spána er svo hægt að nota sem verkfæri til ákvörðunar í innri stjórnun 
 
 [Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md)  
 [Greina sjóðsstreymi](finance-analyze-cash-flow.md)  
-[Spáð sjóðstreymi í Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)  
-[Setja upp sjóðstreymisspár með Azure AI í Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)  
+[Spáðu fyrir um sjóðstreymið í Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Setja upp sjóðstreymisspár með Azure-gervigreind í Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

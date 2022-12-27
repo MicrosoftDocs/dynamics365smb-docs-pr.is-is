@@ -1,5 +1,5 @@
 ---
-title: Gera beina afhendingu (inniheldur myndefni)
+title: Gera beinar afhendingar (inniheldur myndband)
 description: Lýsir hvernig á að Búa til sölupöntun sem er tengd við innkaupapöntun til að virkja sendingu beint frá lánardrottni til viðskiptamanns.
 author: SorenGP
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: f04f49c301b38236be1dda3334e8560584a4e6b4
 ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9528894"
@@ -33,32 +33,32 @@ Til að undirbúa beina sendingu, er stofnuð sölupöntun fyrir vöru og tilgre
 2. Á velta pöntunarlínunni fyrir dropatilboðið skaltu velja hnappinn **Senda sendingu**. 
 
 > [!TIP]
-> Sjálfgefið er að gátreiturinn bein afhending sé ekki tiltækur á línunum. Ef það er ekki hægt má bæta því við með því að sérsníða þann hluta síðunnar sem inniheldur línurnar. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
+> Gátreiturinn „Bein afhending“ er sjálfgefið ekki í boði í línunum. Ef svo er ekki getur þú bætt honum við með því að sérsníða þann hluta síðunnar sem inniheldur línurnar. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Innkaupapöntunin stofnuð fyrir beina sendingu
 
 Til að undirbúa beina sendingu, skal tilgreina í innkaupapöntuninni að senda þarf hana til viðskiptamannsins, ekki til þín.
 
-1. Stofna innkaupapöntun. Ekki fylla hvaða reiti sem er á línunum. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
+1. Stofna innkaupapöntun. Ekki fylla inn í neina reiti á línunum. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 2. Í reitnum **Sendist til** skal velja **Heimilisfang viðskiptavinar**.
-3. **Í reitinn Viðskiptamaður** er valinn viðskiptavinurinn sem á að selja.
+3. Í reitnum **Viðskiptamaður** skal velja viðskiptamanninn sem þú ert að selja til.
 4. Veljið aðgerðina **beinar sendingar** og veljið síðan aðgerðina **sækja sölupöntun**.
-5. **Á sölulistasíðunni** er sölupöntunin valin sem var útbúin í [til að stofna sölupöntun fyrir beina afhendingu](#to-create-a-sales-order-for-drop-shipment).
+5. Á síðunni **Sölulisti** er valin sölupöntun sem var útbúin í [Að stofna sölupöntun fyrir beina sendingu](#to-create-a-sales-order-for-drop-shipment).
 6. Velja hnappinn **Í lagi**.
 
 Línuupplýsingar úr sölupöntun er sett í sölupöntunarlínu(r).
 
-Nú er hægt að segja lánardrottni að senda vörurnar beint til viðskiptavinarins. Til dæmis mætti senda þá pöntun í tölvupósti. 
+Nú getur þú sagt lánardrottinum þínum að senda vörurnar beint til viðskiptamanns. Til dæmis væri hægt að senda viðkomandi pöntunina með tölvupósti. 
 
-Ef seljandi leggur fram rakningarnúmer eða svipaðar upplýsingar má bæta við þær upplýsingum í innkaupapöntunarlínu af gerðinni *comment*.  
+Ef lánardrottinn þinn gefur upp rakningarnúmer eða svipaðar upplýsingar geturðu bætt þeim upplýsingum við í innkaupapöntunarlínu af gerðinni *Athugasemd*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Að stofna margar innkaupapantanir fyrir beinar sendingar
 
 Einnig er hægt að nota innkaupatillögublað til að stofna innkaupapöntunina fyrir lánardrottin. 
 
-Kosturinn við að nota innkaupatillögubók er að hann getur stofnað innkaupapantanir fyrir allar útistandandi afhendingar. Það þýðir að þú munt ekki búa til hvern og einn fyrir sig.
+Kosturinn við að nota innkaupatillögublaðið er sá að hægt er að stofna innkaupapantanir fyrir allar útistandandi beinar sendingar. Það þýðir að þú þarft ekki að búa til hverja fyrir sig.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, færa inn **Innkaupatillögublöð** og velja síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublöð beiðni** og velja síðan viðkomandi tengil.
 2. Veljið aðgerðina **beinar sendingar** og veljið síðan aðgerðina **sækja sölupöntun**.
 3. Velja hnappinn **Í lagi**.
 4. Yfirfara innkaupapöntunarlínur, og í reitnum **Lánardrottnanr.** skal velja lánardrottin sem veitir nauðsynlegar vörur. 
@@ -78,7 +78,7 @@ Kosturinn við að nota innkaupatillögubók er að hann getur stofnað innkaupa
 4. Veljið aðgerðina **bóka** eða **Bóka og senda**.
 5. Síðan er annað hvort valið **senda** valkosturinn til að reikningsfæra síðar eða valkostinn **senda og reikningsfæra** eigi að reikningsfæra strax.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft-þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 

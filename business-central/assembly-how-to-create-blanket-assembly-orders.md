@@ -12,14 +12,14 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 41e682a54861857ce0ee36bbbf34924c5795b11b
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605462"
 ---
 # <a name="create-blanket-assembly-orders"></a>Búa til standandi samsetningarpantanir
 
-Hægt er að nota samsetningarstýringu til að sérsníða beiðni um samsetninguna á viðskiptamanninn í söluferlinu. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
+Hægt er að nota samsetningarstjórnun til að sérsníða samsetningaríhlut eftir beiðni viðskiptavinar á meðan söluferlinu stendur. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
 
  Eins og fyrir aðrar tegundir vöru, er einnig hægt að stofna standandi sölupantanir fyrir sérsniðnar samsetningarvörur áður en gerðar eru reglulegar eiginlegar sölupantanir í samræmi við standandi pöntunarsamninginn. Þetta ferli felur í sér nokkur aukaskref í samanburði við stofnun venjulegrar standandi sölupöntunar, og notar afbrigði tengdrar samsetningarpöntunar, sem er standandi samsetningarpöntun.
 
@@ -46,7 +46,7 @@ Tengd standandi samsetningartilboð og allar sérstillingar tengjast við þessa
 
 [Reikningsfærðar standandi sölupantanir búnar til](sales-how-to-create-blanket-sales-orders.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
-[Vinna með Samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
+[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

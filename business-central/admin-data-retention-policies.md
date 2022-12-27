@@ -1,5 +1,5 @@
 ---
-title: Hreinsa gögn með Varðveislustefnu
+title: Hreinsa gögn með varðveislureglum
 description: Hægt er að tilgreina hversu oft á að eyða tilteknum gerðum af gögnum.
 author: brentholtorf
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.openlocfilehash: a6fee7aedd8fca20e032bc3ac67e5f9e26d1fb22
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8517083"

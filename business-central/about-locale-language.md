@@ -12,34 +12,34 @@ ms.date: 04/01/2021
 ms.author: edupont
 ms.openlocfilehash: 23cb50952e1fda9a8dc46398aaf5054e7e03e3ed
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9606830"
 ---
 # <a name="changing-language-and-region"></a>Breyta tungumáli og svæði
 
-[!INCLUDE[prod_short](includes/prod_short.md)] er í boði á mörgum mörkuðum og tungumálum um allan heim. Á þeim mörkuðum þar sem [!INCLUDE[prod_short](includes/prod_short.md)] er völ á, eru eftirlitsaðgerðir tiltækar til að aðstoða fyrirtæki með eftirlitsskylda byrði. [!INCLUDE[prod_short](includes/prod_short.md)] geta birt á mismunandi tungumálum. Jafnvel er hægt að breyta tungumálinu sem notað er til að birta texta. Breytingin er tafarlaus þegar þú hefur verið skráð/ur sjálfkrafa út og inn aftur. Stillingin á við þig en ekki alla aðra í fyrirtækinu.  
+[!INCLUDE[prod_short](includes/prod_short.md)] er í boði á fjölda markaða og tungumála um allan heim. Á mörkuðum þar sem [!INCLUDE[prod_short](includes/prod_short.md)] er í boði er hægt að aðstoða fyrirtæki með eftirlitsskyldar aðgerðir með eftirlitseiginleikum. [!INCLUDE[prod_short](includes/prod_short.md)] getur birtst á mismunandi tungumálum. Þú getur jafnvel breytt tungumálinu sem notað er til að birta texta. Breytingin gerist strax, þegar þú hefur sjálfkrafa verið skráð(ur) út og inn aftur. Stillingin á við þig en ekki alla aðra í fyrirtækinu.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-Þú ert til dæmis að nota kanadísku útgáfuna af [!INCLUDE[prod_short](includes/prod_short.md)]. Það þýðir að hægt er að sjá notendaviðmót á ensku, þýsku, frönsku eða öðru tungumáli, en það er samt kanadíska útgáfan af [!INCLUDE[prod_short](includes/prod_short.md)]. Það er ekki sama og [!INCLUDE[prod_short](includes/prod_short.md)] í Þýskalandi þar sem virkni hefur verið aðlöguð gagnvart þeim kröfum markaðarins.  
+Til dæmis ertu að nota kanadísku útgáfuna af [!INCLUDE[prod_short](includes/prod_short.md)]. Það þýðir að þú getur séð notendaviðmótið á ensku, þýsku, frönsku eða öðru tungumáli en þetta er samt sem áður kanadíska útgáfan af [!INCLUDE[prod_short](includes/prod_short.md)]. Hún er ekki sú sama og [!INCLUDE[prod_short](includes/prod_short.md)] í Þýskalandi þar sem virkni hefur verið löguð að kröfum markaðarins.  
 
 Til að breyta tungumáli viðmótsins skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> Val á tungumálum verður stillt á Microsoft 365 forstillingu notanda ef kerfisstjóri samstillir notendur Microsoft 365 í [!INCLUDE[prod_short](includes/prod_short.md)].
+> Val á tungumálum verður endurstillt á stillinguna á Microsoft 365 sniðinu ef stjórnandi stillir notendur úr Microsoft 365 í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Ekki er hægt að breyta textum sem eru geymdir sem forritagögn. Dæmi um slíka texta eru nöfn vara í birgðum, eða athugasemdir viðskiptamanns. Með öðrum orðum eru þessar tegundir texta ekki þýddir.  
+Ekki er hægt að breyta textum sem eru geymdir sem forritsgögn. Dæmi um slíkt eru heiti á vörum í birgðaskrá eða athugasemdir sem sendar eru viðskiptavinum. Með öðrum orðum er slíkur texti ekki þýddur.  
 
 > [!NOTE]  
-> [!INCLUDE[prod_short](includes/prod_short.md)] styður aðeins eitt kerfi stafatákna fyrir gögn. Því getur verið að sum stafatáknin séu ekki studd í þínu umhverfi og vandamál komi upp þegar sótt eru gögn sem færð voru inn með öðru táknkerfi. Til dæmis er hugsanlegt að umhverfi þitt styðji aðeins ensku og rússnesku stafi. Ef gögn eru færð inn á öðru tungumáli kann það að vera að það sé ekki rétt geymt. Hafa skal samband við kerfisstjóra til að fá upplýsingar um hvaða tungumál eru studd í þínu [!INCLUDE[prod_short](includes/prod_short.md)].  
+> [!INCLUDE[prod_short](includes/prod_short.md)] styður aðeins eitt kerfi stafatákna fyrir gögn. Því getur verið að sum stafatáknin séu ekki studd í þínu umhverfi og vandamál komi upp þegar sótt eru gögn sem færð voru inn með öðru táknkerfi. Til dæmis getur verið að umhverfi þitt styðji aðeins enska og rússneska stafi. Ef gögn eru færð inn á öðru tungumáli verða þau hugsanlega ekki vistuð rétt. Hafa skal samband við kerfisstjóra til að fá upplýsingar um hvaða tungumál eru studd í þínu [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="changing-your-region-setting"></a>Svæðisstillingunni breytt
 
-Svæði er frábrugðinn bæði tungumáli og lagalegum skilyrðum á staðbundnum mörkuðum. Svæði ákvarðar hvernig gögn eru kynnt fyrir sjálfum sér, svo sem skiltákn aukastafa og hvernig textajöfnun til vinstri eða hægra megin. Svæðið ákvarðar einnig suma kerfiseiningar vafrans eins og aðgerðina til að búa til nýtt atriði í lista.  
+Svæði er frábrugðinn bæði tungumáli og lagalegum skilyrðum á staðbundnum mörkuðum. Svæði ákvarðar hvernig gögnin þín birtast, svo sem tugabrot, og hvort texti er stilltur til vinstri eða hægri. Svæði kveður einnig á um kerfiseiningar í vafranum, eins og aðgerðina að búa til nýtt atriði á lista.  
 
-Þú getur breytt svæðinu í vafraflipanum sem þú ert að nota til að vinna í [!INCLUDE[prod_short](includes/prod_short.md)]. Berytingin á við þig en ekki aðra notendur í fyrirtækinu.  Val á svæði verður endurstillt á Microsoft 365 forstillingu notanda ef kerfisstjóri samstillir notendur úr Microsoft 365 í [!INCLUDE[prod_short](includes/prod_short.md)].
+Þú getur breytt svæðinu í vafraglugganum sem þú ert að vinna með í [!INCLUDE[prod_short](includes/prod_short.md)]. Berytingin á við þig en ekki aðra notendur í fyrirtækinu.  Val á svæði verður endurstillt á stillinguna í Microsoft 365 sniðinu ef stjórnandi þinn stillir notendur úr Microsoft 365 í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
 > Þegar þú breytir svæði birtist langur listi yfir tungumál og svæði. Val á svæði hefur hins vegar ekki áhrif á tungumál.  
@@ -58,14 +58,14 @@ Sum fyrirtæki nota ytri þjónustu sem staðfestir upplýsingar um aðsetur í 
 
 ## <a name="languages-of-the-prod_short-help"></a>Tungumál [!INCLUDE[prod_short](includes/prod_short.md)] hjálparinnar
 
-Hjálparefni sjálfgefinnar útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] útgefnum á Microsoft Learn. Efnið er aðgengilegt á mismunandi tungumálum. Ef farið er í heimildaskráningu úr innu [!INCLUDE[prod_short](includes/prod_short.md)] þá birtist efnið á þínu tungumáli. Sjálfgefið er að ef tiltekin síða er ekki tiltæk á tungumáli notanda þá birtist hún á ensku.
+Hjálparefnið fyrir sjálfgefna útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] birtist í Microsoft Learn. Efnið er fáanlegt á mismunandi tungumálum. Ef þú nálgast skjölin úr [!INCLUDE[prod_short](includes/prod_short.md)], mun efnið birtast á þínu tungumáli. Ef tiltekin síða er ekki tiltæk á þínu tungumáli er hún birt á ensku.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Hvernig breyti ég tungumáli á Microsoft Learn síðuna?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Hvernig breyti ég tungumáli Microsoft Learn svæðisins?
 
 Það er einfalt - skrunaðu neðst á síðu vafrans og veldu hnattmerkið neðst í vinstra horninu.
 
 > [!NOTE]  
-> Listinn sýnir öll tungumál sem setrið styður Microsoft Learn. [!INCLUDE[prod_short](includes/prod_short.md)] er aðgengilegt í takmörkuðum fjölda landa/svæða og [!INCLUDE [prod_short](includes/prod_short.md)] hjálparefnið er ekki aðgengilegt á öllum tungumálum sem Microsoft Learn setrið styður.
+> Á listanum má sjá öll tungumál sem eru studd af Microsoft Learn vefsvæðinu. [!INCLUDE[prod_short](includes/prod_short.md)] er í boði í tilteknum löndum/svæðum og [!INCLUDE [prod_short](includes/prod_short.md)] Hjálparefnið er ekki tiltækt á öllum tungumálum sem Microsoft Learn styður.
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -12,7 +12,7 @@ ms.date: 03/09/2022
 ms.author: edupont
 ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
 ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8519727"
@@ -40,7 +40,7 @@ Eftirfarandi aðferð lýsir því hvernig eigi að fylla út og senda sölupön
 
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Fært í milli-fyrirtækjabækur og bókað
 
-Þegar bókuð er almenn færslubókarlína í fyrirtækinu, er samsvarandi færslubókarlína stofunuð í MF-úthólfinu sem hægt er að flytja til félagans. Með 2022 sleppingu bylgju 1 er einnig hægt að setja upp fyrirtækið fyrir sjálfvirka stofnun samstæðufærslna frá samstæðufélögum, bókað í gegnum almenna færslubók innan samstæðu. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
+Þegar bókuð er almenn færslubókarlína í fyrirtækinu, er samsvarandi færslubókarlína stofunuð í MF-úthólfinu sem hægt er að flytja til félagans. Með 2022 útgáfutímabili 1 er einnig hægt að setja upp fyrirtækið fyrir sjálfvirka stofnun á mótteknum færslum milli fyrirtækja úr millifyrirtækjafélögum sem bókaðar eru í gegnum MF-færslubókina. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-færslubækur** og velja síðan viðkomandi tengil.  
 2. Viðeigandi færslubókarkeyrsla er opnaður. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
@@ -58,7 +58,7 @@ Færslurnar sem þessu tengjast eru bókaðar í þínu fyrirtæki og færslubó
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
-[Vinna við Almennar færslubækur](ui-work-general-journals.md)  
+[Vinna í færslubókum](ui-work-general-journals.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

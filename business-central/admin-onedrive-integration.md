@@ -11,67 +11,67 @@ ms.date: 02/28/2022
 ms.author: jswymer
 ms.openlocfilehash: cb9f91caa06ed1b5bf579bf4be477c906a588faf
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9606306"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Stjórnun OneDrive samþættingar við Business Central
 
-Í þessari grein er að finna yfirlit yfir það sem stjórnandi getur gert til að stýra samþættingu OneDrive for Business við [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] Viðskiptavinir á netinu njóta sjálfvirkrar samþættingar án auka uppsetningar sem þarf til að nota opna og samnýta í OneDrive aðgerðum. Með uppsetningarleiðbeiningum fyrir **OneDrive** uppsetningu aðstoðar er hægt að veita notendum aðgang að enn fleiri OneDrive eiginleikum, eins og að opna Excel-skrá eða slökkva jafnvel á OneDrive&mdash; öllum eiginleikum.  
+Í þessari grein er að finna yfirlit yfir það sem stjórnandi getur gert til að stýra samþættingu OneDrive for Business við [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] netviðskiptavinir njóta sjálfvirkrar samþættingar án viðbótaruppsetningar sem þarf til að nota opna og deila í OneDrive eiginleikum. Með uppsetningaleiðbeiningunum **OneDrive uppsetning** geturðu gefið notendum aðgang að jafnvel fleiri OneDrive eiginleikum, eins og að opna Excel-skrá í OneDrive&mdash;eða jafnvel slökkva á öllum eiginleikum.  
 
-## <a name="configure-onedrive-for-integration-with-business-central"></a>Skilgreining OneDrive á samþættingu við rekstur miðsvæðis
+## <a name="configure-onedrive-for-integration-with-business-central"></a>Grunnstilla OneDrive fyrir samþættingu við Business Central
 
-Í þessum kafla er fjallað um kröfur sem þarf að uppfylla í OneDrive til að skilgreina samþættingu við rekstur miðsvæðis og verkefni hægt að gera til að stýra samþættingu.
+Í þessum hluta er rætt um kröfur sem þarf að uppfylla í OneDrive til að Business grunnstilli samþættinguna við Business Central og verk sem þú getur gert til að stjórna samþættingunni.
 
 ### <a name="minimum-requirements"></a>Lágmarkskröfur
 
-* Hver notandi verður að hafa leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] og OneDrive sem hluta af Microsoft 365 áætlun.
+* Hver notandi verður að hafa leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] og OneDrive sem hluta af áskriftarleið Microsoft 365.
 * OneDrive verður að vera sett upp fyrir hvern notanda fyrir sig.
 
-### <a name="managing-privacy"></a>Umsjón með friðlýsingu
+### <a name="managing-privacy"></a>Umsjón með persónuvernd
 
 > [!IMPORTANT]
-> Ef þú hefur valið að nota Seðlabanka og OneDrive til mismunandi landa eða svæða eru skrárnar sem myndaðar voru af viðskiptamiðunum og settar í OneDrive maí milli landamæra gagnaresita. Tryggja skal að staðfestar reglur um fyrirtækið og stjórnvöld samræmi skilyrði fyrir gagnabúskröfur áður en tengingin OneDrive er gerð virk.
+> Ef þú hefur valið að innleiða Business Central og OneDrive í mismunandi löndum og svæðum geta skrár sem Business Central býr til og eru settar í OneDrive farið yfir mörk gagnastaðsetningar. Gakktu úr skugga um að staðfesta reglur fyrirtækisins og kröfur yfirvalda um reglufylgni fyrir staðsetningu gagna áður en þú virkjar tenginguna við OneDrive.
 
 Stjórnendur og notendur stjórna efninu sem geymt er í OneDrive og þessi gögn eru eingöngu í eigu fyrirtækisins þíns. Frekari upplýsingar er að finna í [Hvernig SharePoint og OneDrive tryggja öryggi gagna þinna í skýinu](/sharepoint/safeguarding-your-data). Þú getur einnig farið í [Persónuverndaryfirlýsingu Microsoft](https://privacy.microsoft.com/en-us/privacystatement) sem útskýrir gögnin sem Microsoft vinnur úr, hvernig Microsoft vinnur úr þeim og í hvaða tilgangi.
 
-Með því að gera þessa þjónustutengingu samþykka:
+Virkjun þessarar þjónustutengingar samþykkir:
 
-(a) að deila gögnum frá Dynamics 365 Business Central með þjónustuaðila, sem mun nota hann í samræmi við skilmála þess og persónuverndarstefnu; (b) samræmismagn þjónustuveitunnar getur verið annað en Dynamics 365 Business Central ; og (c) Microsoft kann að samnýta tengiliðaupplýsingar notanda með þessum þjónustuaðila ef þörf er á því til að vinna og leysa þjónustuna af.
+(a) til að deila gögnum úr Dynamics 365 Business Central með þjónustuveitunni, sem mun nota þau samkvæmt skilmálum hennar og persónuverndarstefnu; (b) reglufylgnistig þjónustuveitunnar getur verið annað enDynamics 365 Business Central; og (c) Microsoft kann að deila samskiptaupplýsingum þínum með þessari þjónustuveitu ef þess er þörf til að hægt sé að nota og úrræðaleita þjónustuna.
 
 ## <a name="configure-business-central"></a>Grunnstilla Business Central
 
-Með Viðskiptamiðinu miðlægt er tengingin á milli viðskiptamiðanna OneDrive sjálfkrafa skilgreind fyrir þig og OneDrive aðgerðirnar eru fúslega tiltækar notendum. Ef slökkva á einhverjum eða öllum aðgerðum burt er hægt að nota Uppsetningarleiðbeiningar fyrir **OneDrive** uppsetningu aðstoðar í aðalbiðlara viðskiptavinar.
+Með Business Central Online er tengingin á milli Business Central og OneDrive sjálfkrafa stillt fyrir þig og OneDrive eiginleikarnir eru sjálfgefið tiltækir fyrir notendur. Ef þú vilt slökkva á sumum eða öllum eiginleikunum getur þú notað uppsetningarleiðbeiningarnar **OneDrive uppsetning** í biðlara Business Central.
 
-Skilgreining viðskiptamiðis innanhúss er ólík því tengingin á milli viðskiptamiðis OneDrive er ekki skilgreind fyrir þig. Þú verður að gera það handvirkt. Nánari upplýsingar fást með því að samskipa [samþættingu við Viðskiptamiðsjá OneDrive innanhúss](admin-onedrive-integration-onpremises.md).
+Að grunnstilla Business Central á staðnum er öðruvísi vegna þess að tengingin milli Business Central og OneDrive er ekki grunnstillt fyrir þig. Þú verður að gera þetta handvirkt. Frekari upplýsingar er að finna í [Grunnstilling OneDrive samþættingar við Business Central á staðnum](admin-onedrive-integration-onpremises.md).
 
-### <a name="about-multiple-environments"></a>Um fjölum umhverfi
+### <a name="about-multiple-environments"></a>Um mörg umhverfi
 
-OneDrive Samþætting er skilgreind fyrir hvert umhverfi, þ.e. stillingarnar eiga við öll fyrirtæki í því umhverfi. Ef fyrirtækið hefur fleiri en eitt umhverfi þarf að skilgreina OneDrive samþættingu fyrir hverja.
+OneDrive samþætting er stillt í hverju umhverfi. Þ.e. stillingarnar þínar munu gildi í öllum fyrirtækjum í því umhverfi. Ef fyrirtækið þitt er með fleiri en eitt umhverfi þarftu að stilla OneDrive samþættingu fyrir hvert og eitt.
 
 ### <a name="prerequisites"></a>Frumskilyrði
 
-- Óbein, breyta og eyða (IMD) heimild um Þjónustuaðstæður **í töfluskjali** sem lágmarks
+- Óbein breytingar- og eyðingarheimild í töflu **Aðstæður skjalaþjónustu** sem lágmark
 
-### <a name="configure-onedrive-using-onedrive-setup"></a>Samskipa OneDrive með OneDrive uppsetningarforriti
+### <a name="configure-onedrive-using-onedrive-setup"></a>Stilla OneDrive með OneDrive uppsetningu
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn **OneDrive uppsetningu** og veljið síðan tengda tengilinn. 
-2. Í fyrsta sinn sem þú keyrir uppsetningarforritið hjálpar þú í **næði**. Lestu upplýsingarnar á síðunni og ef þú samþykkir skilmálana velur **þú að samþykkja** að halda áfram.
-3. **Á síðunni Skilgreina skrármeðhöndlun** eru Eftirtaldir valkostir til að velja úr:
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **OneDrive Uppsetning** og velja síðan viðkomandi tengil. 
+2. Í fyrsta sinn sem þú opnar aðstoðina sérðu **Persónuvernd**. Lestu upplýsingarnar á síðunni og ef þú samþykkir skilmálana skaltu velja **Samþykkja** til að halda áfram.
+3. Á síðunni **Stilla meðhöndlun skráa** ertu með eftirfarandi valkosti til að velja úr:
 
    [!INCLUDE[onedrive-feature-options](includes/onedrive-feature-options.md)]
-4. Veldu **næst**>**Done**.
+4. Veldu **Áfram**>**Lokið**.
 
-### <a name="switching-to-new-onedrive-integration-after-upgrade"></a>Skipta yfir í nýja OneDrive samþættingu eftir uppfærslu
+### <a name="switching-to-new-onedrive-integration-after-upgrade"></a>Skipt yfir í nýja OneDrive samþættingu eftir uppfærslu
 
-**OneDrive** Uppsetning aðstoðar-hjálparinnar var kynnt í 2022 útgáfu Wave 2, útgáfu 21,0. OneDrive Áður fyrr var Samþætting notuð **SharePoint Uppsetning** tengingar, sem hefur verið afskrifaðar og verður fjarlægð í 2023 út Wave 2, útgáfa 23,0. Eftir að þú hefur uppfært í útgáfu 21, OneDrive munt þú vinna enn eins og áður. En við mælum með því að skipt sé yfir í nýja OneDrive samþættingu. Ef þessi rofi er gerður mun það verða auðveldara þegar Uppsetning **SharePoint tengingar er á** endanum fjarlægð. Auk þess sem það gerir kleift að nota leiðbeiningar um **OneDrive** uppsetningu uppsetningarhjálpar til að stjórna OneDrive aðgerðunum sem eru aðgengilegar fyrir notendur. **OneDrive** Uppsetningarforritið aðstoðar við umskiptin úr eldri SharePoint uppsetningu auðveld og óaðfinnalaus.
+Hjálparuppsetningin **OneDrive uppsetning** var kynnt árið 2022 á útgáfutímabili 2, útgáfu 21.0. Áður notaði OneDrive samþættingin **Uppsetning SharePoint tengingar**, sem hefur verið úrelt og verður fjarlægð í 2023 útgáfutímabili 2, útgáfu 23.0. Þegar þú hefur uppfært í útgáfu 21 mun OneDrive enn virka eins og áður. En við mælum með því að þú skiptir yfir í nýju OneDrive samþættinguna. Að skipta yfir núna auðveldar hlutina þegar **Uppsetning SharePoint tengingar** verður að lokum fjarlægð. Auk þess gerir það þér kleift að nota uppsetningarleiðbeininguna **OneDrive uppsetning** til að stjórna OneDrive eiginleikum sem þú getur nálgast. Uppsetningarleiðbeiningin **OneDrive uppsetning** auðveldar og einfaldar færslu úr eldri SharePoint uppsetning.
 
-Til að skipta, bara opna og keyra **OneDrive uppsetningarforritið aðstoð til uppsetningar** beint eða opna **SharePoint uppsetningarsíðu** tengingar og velja **fara í nýja OneDrive uppsetningu** í tilkynningunni efst á síðunni. Fylgja skal uppsetningarleiðbeiningum eins og lýst er í fyrri hlutanum.
+Til að skipta skal bara opna og keyra uppsetningarleiðbeininguna **OneDrive uppsetning** eða opna síðuna **Uppsetning SharePoint tengingar** og velja **Fara í OneDrive uppsetningu** í tilkynningunni efst á síðunni. Fylgdu uppsetningarleiðbeiningunum eins og lýst er í hlutanum á undan.
 
 ## <a name="restoring-onedrive-and-prod_short"></a>Að endurheimta OneDrive og [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Sem hluti af hörmulegu bataferli gætu Kerfisstjórar þurft að endurheimta [!INCLUDE[prod_short](includes/prod_short.md)] netumhverfi til að taka öryggisafrit frá einu í tímann og samstilla OneDrive geymslu við sama punkt í tíma. OneDrive Veitir endurheimt ýmis verkfæri eins og að endurheimta OneDrive fyrri tíma, endurheimta fyrri útgáfu af einstakri skrá eða endurheimta eyddar skrár. Frekari upplýsingar er að finna í eftirfarandi greinum:
+Sem hluti af æfingu til að endurheimta eftir áfall gætu stjórnendur þurft að endurheimta [!INCLUDE[prod_short](includes/prod_short.md)] netumhverfi í öryggisafriti aftur í tíma og samstilla OneDrive geymslu til þess tíma. OneDrive veitir ýmis verkfæri fyrir endurheimt, t.d. endurheimt á OneDrive notanda aftur í tíma, endurheimta eldri útgáfu einstakrar skráar eða endurheimta eyddar skrár. Frekari upplýsingar er að finna í eftirfarandi greinum:
 
 * Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] skal skoða [Að endurheimta umhverfi í stjórnendamiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 * Fyrir OneDrive skal skoða [Endurheimta OneDrive](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)

@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
 ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9607338"
@@ -20,27 +20,27 @@ ms.locfileid: "9607338"
 
 Þetta efnisatriði veitir yfirlit um hvernig á að setja upp notendareikninga sem er krafist til að samþætta [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-administrator-user-account"></a>Setja upp notandareikning kerfisstjóra
+## <a name="set-up-the-administrator-user-account"></a>Setja upp notandareikning stjórnanda
 
-Bæta þarf notandareikning kerfisstjóra við [!INCLUDE[prod_short](includes/prod_short.md)] sem notanda í [!INCLUDE[cds_long](includes/cds_long_md.md)]. Þegar tengingin er sett upp milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] við munum nota þennan lykil einu sinni til að setja upp og samskipa einhverjum nauðsynlegum íhlutum.
+Þú verður að bæta við notandareikningi stjórnanda fyrir [!INCLUDE[prod_short](includes/prod_short.md)] sem notandi í [!INCLUDE[cds_long](includes/cds_long_md.md)]. Þegar tengingin er sett upp á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] notum við þennan reikning í eitt skipti til að setja upp og grunnstilla nokkra nauðsynlega íhluti.
 
 > [!IMPORTANT]
-> Notandareikninginn Kerfisstjóri þarf að fá leyfi notanda með **öryggishlutverki** kerfisstjóra á [!INCLUDE[prod_short](includes/cds_long_md.md)] umhverfinu og altæka stjórnun á þeim leigjanda sem umhverfið tilheyrir. Þessi reikningur þarf ekki leyfi til [!INCLUDE[prod_short](includes/prod_short.md)], þar sem hann verður eingöngu nýttur til að ráðstafa þjónustunni hjá [!INCLUDE[prod_short](includes/cds_long_md.md)] leigjanda og til að sinna uppsetningarverkefnum.
+> Notandareikningur stjórnandans þarf að vera leyfður notandi með öryggishlutverkið **Kerfisstjóri** í [!INCLUDE[prod_short](includes/cds_long_md.md)] umhverfinu og altækur stjórnandi í leigjandanum sem umhverfið tilheyrir. Þessi reikningur þarf ekki leyfi til að [!INCLUDE[prod_short](includes/prod_short.md)] því hann verður notaður aðeins til að úthluta þjónustunni í [!INCLUDE[prod_short](includes/cds_long_md.md)] leigjandanum og til að gera uppsetningarverk.
 >
-> Þegar uppsetningu tengingar er lokið er hægt að fjarlægja þennan [!INCLUDE[prod_short](includes/cds_long_md.md)] notanda. Sameining mun halda áfram að nota notandareikninginn sem er sjálfkrafa stofnaður sérstaklega fyrir samþættingu.
+> Eftir að tengingu uppsetningar er lokið er hægt að fjarlægja þennan [!INCLUDE[prod_short](includes/cds_long_md.md)] notanda. Samþættingin heldur áfram að nota notandareikninginn sem er búinn sjálfkrafa til fyrir samþættinguna.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Heimilda-og öryggishlutverk fyrir notendareikninga í [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Heimildir og öryggishlutverk fyrir notandareikninga í [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Grunnsamþættingarlausnin stofnar eftirfarandi hlutverk í [!INCLUDE[cds_long](includes/cds_long_md.md)] fyrir samþættingu:
+Grunnlausn samþættingar býr til eftirfarandi hlutverk í [!INCLUDE[cds_long](includes/cds_long_md.md)] fyrir samþættinguna:
 
-* **Samþættingarkerfisstjóri** : leyfir notendum að stjórna tengingunni milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long](includes/cds_long_md.md)]. Venjulega eru þessu aðeins úthlutað á notandareikninginn sem er búinn til sjálfkrafa fyrir samstillingu.
-* **Samþættingarnotandi** : leyfir notendum að fá aðgang að samstilltum gögnum. Venjulega er þessu úthlutað á notandareikninginn sem er sjálfkrafa búinn til fyrir samstillingu og á aðra notendur sem þurfa að skoða eða fá aðgang að samstilltum gögnum.
+* **Samþættingarstjórnandi** - Gerir notendum kleift að stjórna tengingunni milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long](includes/cds_long_md.md)]. Venjulega eru þessu aðeins úthlutað á notandareikninginn sem er búinn til sjálfkrafa fyrir samstillingu.
+* **Samþættingarnotandi** - Gerir notendum kleift að fá aðgang að samstilltum gögnum. Venjulega er þessu úthlutað á notandareikninginn sem er sjálfkrafa búinn til fyrir samstillingu og á aðra notendur sem þurfa að skoða eða fá aðgang að samstilltum gögnum.
 
 > [!NOTE]
 >
-> **Hugbúnaðarnotandinn** og **samþættingarhlutverk** samþættingar ættu aðeins að nota forritnotandann sem keyrir samþættingu. Notandinn þarf [!INCLUDE[prod_short](includes/prod_short.md)] ekki úthlutað eða [!INCLUDE[cds_long](includes/cds_long_md.md)] leyfi.
+> Aðeins notandi forritsins sem keyrir samþættinguna ætti að nota hlutverkin **Samþættingarstjórnandi** og **Samþættingarnotandi**. Notandi forritsins þarf ekki [!INCLUDE[prod_short](includes/prod_short.md)] eða [!INCLUDE[cds_long](includes/cds_long_md.md)] leyfið úthlutað.
 
-Þegar Grunnsamþættingarlausnin er sett upp samskipar hún heimildum notandareiknings samþættingar. Ef þeim heimildum er breytt handvirkt er hægt að endurstilla þær. Velja **skal endurvirkjalausn** á **Dataverse síðunni Uppsetning** tengingar til að setja upp grunnsamþættingarlausnina. Þetta skref mun virkja öryggishlutverk Aðalsamþættingar fyrirtækja.
+Þegar grunnsamþættingarlausn er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef þeim heimildum er breytt handvirkt er hægt að endurstilla þær. Veldu **Endurvirkja samþættingarlausn** á síðunni **Uppsetning Dataverse tengingar** til að setja aftur upp grunnsamþættingarlausnina. Þetta skref mun innleiða öryggishlutverk Business Central-samþættingar.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
