@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
+ms.search.form: '99000842, 99000843, 99000861, 99000862, 99000863'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3554fc674732c68e47bfd28c033534d1686e1421
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515382"
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a>Enduráætla eða uppfæra framleiðslupantanir beint
+# Enduráætla eða uppfæra framleiðslupantanir beint
 
 Aðgerðin **Enduráætla** er venjulega notuð eftir íhlutum, sem standa fyrir undirliggjandi framleiðslupantanir, hefur verið bætt við eða þeim breytt. Þessi áætlunaraðgerð reiknar breytingar sem gerðar eru á íhlutum og leiðarlínum. Hún tekur með vörur í neðri framleiðsluuppskriftum og kann að stofna nýjar framleiðslupantanir fyrir þær.  
 
@@ -34,7 +28,7 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 > [!NOTE]
 > Ef aðgerðin Uppfæra er notuð til að endurreikna framleiðslupöntunarlínur, er eldri framleiðslupöntunarlínunum eytt og nýjar línur eru reiknaðar.  
 
-## <a name="to-replan-a-production-order"></a>Enduráætla Framleiðslupöntun
+## Enduráætla Framleiðslupöntun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
 2. Opna framleiðslupöntunina sem á að enduráætla.  
@@ -63,7 +57,7 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 > [!NOTE]  
 > Breytingar sem gerðar eru með aðgerðinni **Enduráætla** hafa að öllum líkindum í för með sér breytingar á afkastaþörf framleiðslupöntunarinnar og því gæti þurft að endurtímasetja aðgerðir í kjölfarið.  
 
-## <a name="to-refresh-a-production-order"></a>Framleiðslupöntun endurnýjuð
+## Framleiðslupöntun endurnýjuð
 
 Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breytt þarf einnig að uppfæra upplýsingar um framleiðslupöntun. Eftirfarandi aðferð sýnir hvernig íhlutirnir eru reiknaðir fyrir fastáætlaða framleiðslupöntun. Skrefin eru svipuð fyrir Leiðarlínur.
 
@@ -86,7 +80,7 @@ Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breyt
 > [!NOTE]  
 > Þegar framl.pöntunaríhlutir eru reiknaður eyðast fyrri breytingar á íhlutunum.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Áætlun](production-planning.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

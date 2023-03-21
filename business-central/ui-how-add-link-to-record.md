@@ -1,58 +1,58 @@
 ---
-title: Bæta við viðhengjum, tenglum og athugasemdum á færslum
-description: Setja tengil í skjal eða vefsíðu á tiltekna skrá, s.s. viðskiptavin eða fylgiskjal.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: e3f1e3f63c8e27d081a89f6d8626b8b392a6e02b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519545"
+title: 'Bæta við viðhengjum, tenglum og athugasemdum á færslum'
+description: 'Tengja tengil við skjal eða vefsvæði við tiltekna færslu, til dæmis viðskiptavin eða skjal.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 02/24/2023
+ms.custom: bap-template
 ---
-# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum
+# Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum
 
-Í upplýsingareitnum á flestum spjöldum og skjölum er hægt að hengja við skrár, bæta við tenglum og skrifa athugasemdir. Einnig er hægt að gera þetta á listasíðunni með því að velja tengda línu fyrir tengla og athugasemd.
+Á flestum listasíðum, kortum og fylgiskjölum er hægt að tengja skrár, bæta við tenglum og skrifa athugasemdir á  **viðhengis**  -flipanum í  **FACTBOX**  rúðunni. Talan í titli flipans gefur til kynna hversu margar viðhengdar skrár, tenglar eða athugasemdir eru til fyrir spjaldið eða skjalið.
 
-Til að skoða eða breyta einhverjum þessara tengdu upplýsingargerða verður fyrst að opna flipann **Viðhengi** í upplýsingareitnum. Talan fyrir aftan dálktitilinn gefur til kynna hversu margar viðhengdar skrár, tenglar eða upplýsingar eru til staðar fyrir kortið eða skjalið.
+ **Á flipanum Línur**  er einnig hægt að nota viðhengið  **·**  til að tengja skjöl við tiltekna línu. Til dæmis gæti verið æskilegt að tengja hönnunarlýsingar við vöru á innkaupareikningi.
 
-Viðhengi, tenglar og athugasemdirnar eru hengd við sem spjaldið eða skjalið er unnið úr í öðrum stöðum, t.d. frá yfirstandandi sölupöntun á bókuðum sölureikningi. Hins vegar eru engar viðhengisgerðirnar úttak úr kerfinu, til dæmis við prentun eða þegar verið er að vista í skrá.
+Viðhengi, tenglar og Minnismiðar vera tengdir kortinu eða skjalinu meðan unnið er í öðrum ríkjum. Til dæmis frá áframhaldandi sölupöntuninni í bókaðan sölureikning. Hins vegar eru engar viðhengisgerðirnar úttak úr kerfinu, til dæmis við prentun eða þegar verið er að vista í skrá.
+
+Einnig er hægt að bæta viðhengjum við tölvupóstinn sem sendur er úr [!INCLUDE [prod_short](includes/prod_short.md)]. Þegar sendur er tölvupóstur beint úr skjali eins og sölutilboð,  **leyfir aðgerðin bæta skrá úr upprunaskjali**  að velja skrár sem tengjast því. Aðeins er hægt að velja skrár sem tengdar eru við skjalið. Ekki er hægt að velja skrár sem tengdar eru línum.
 
 > [!NOTE]
 > Þegar verið er að senda og reikningsfæra sölu- eða innkaupapöntun verður viðhengið aðeins hengt við endanlegan reikning pöntunarinnar. Á sama hátt, þegar verið er að reikningsfæra með frestunaraðgerðinni, tengist viðhengið aðeins fjárhagsfærslum skjalsins en ekki fyrir frestunarfærslur.
 >
 > Ef pöntun er eytt áður en hún er reikningsfærð er viðhengið einnig fjarlægt. Þegar innkaupapantanir eru reikningsfærðar með aðgerðinni Sækja móttökulínur úr innkaupareikningi er viðhenginu á innkaupapöntunum ekki bætt við innkaupareikninginn.
 
-## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Til að hengja skrá við innkaupareikning
-Hægt er að tengja allar gerðir skráa, sem innihalda texta, mynd eða myndskeið við spjald eða skjal. Þetta er til dæmis gagnlegt þegar óskað er eftir að vista reikning lánardrottins sem PDF-skrá á tengdum innkaupareikningi í [!INCLUDE[prod_short](includes/prod_short.md)].
+## Til að hengja skrá við innkaupareikning
+
+Hægt er að tengja hvaða tegund af skrá fyrir sig, til dæmis texta, mynd eða myndskrár, á spjald, fylgiskjal eða í línu í skjali. Þetta er til dæmis gagnlegt þegar óskað er eftir að vista reikning lánardrottins sem PDF-skrá á tengdum innkaupareikningi í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
-> Skrár sem eru hengdar við eiginleikann skjöl á innleið eru ekki teknar með á flipanum **Viðhengi**. Frekari upplýsingar er að finna í [Skjöl á innleið](across-income-documents.md).
+> Skrár sem eru tengdar við eiginleikann skjöl eru ekki hafðar með á  **flipanum viðhengi**  . Nánari upplýsingar er að finna  [í incoming skjölum](across-income-documents.md). Sama gildir um skrár sem hengdar eru á línur í skjölum.
 
 Eftirfarandi ferli byggist á innkaupareikningur. Skrefin eru svipuð fyrir öll önnur studd skjöl og kort.
 
+> [!TIP]
+> Ef viðhengið er tiltekið í línu í skjali er hægt að hengja það við línuna. Línan er valin og síðan er  **valin aðgerðin viðhengi** .
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.
-2. Opnaðu sölupöntunina sem á að hengja skrá við.
-3. Í upplýsingareitnum skal opna flipann **Viðhengi**.
+2. Opna innkaupareikning sem á að tengja skrá við.
+3.  **Í FACTBOX**  rúðunni skal velja  **flipann viðhengi** .
 4. Veljið gildið fyrir aftan reitinn **Skjöl**, eins og „0“.
 5. Á síðunni **Skjöl í viðhengi** í reitnum **Viðhengi** skal velja hnappinn **Velja skrá**.
-5. Veldu skrá frá hvaða staðsetningu sem er og veldu svo hnappinn **Opna**.
+6. Veldu skrá frá hvaða staðsetningu sem er og veldu svo hnappinn **Opna**.
 
 Skráin er nú hengd við innkaupareikninginn.
 
-## <a name="to-view-an-attached-file"></a>Til að skoða viðhengda skrá
-1. Í upplýsingareitnum skal opna flipann **Viðhengi**.
+## Til að skoða viðhengda skrá
+
+1.  **Opnið**  flipann viðhengja  **á FACTBOX**  rúðunni.
 2. Veljið gildið fyrir aftan reitinn **Skjöl**, eins og „1“.
 3. Á síðunni **Viðhengd fylgiskjöl** skaltu velja aðgerðina **Forskoðun**.
 4. Opnaðu skrána sem var hlaðið niður.
 
-## <a name="to-save-a-document-as-a-pdf-attachment"></a>Vista skjal sem PDF-viðhengi
+## Vista skjal sem PDF-viðhengi
+
 Í hvert sinn sem vista þarf skjal sem skrá er hægt að nota aðgerðina **Hengja við sem PDF** til að ná í núverandi innihald skjals sem PDF-skrá hengda við FactBox skjalsins. Þetta er gagnlegt, til dæmis þegar skjöl fylgja mörgum skrefum í ferli, svo sem söluferli eða samþykktarverkflæði og ætlunin er að vísa til útprentunar af fyrra skrefi.
 
 Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll studd skjöl.
@@ -62,7 +62,8 @@ Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll studd
 
 PDF-skrá með núverandi innihaldi sölupöntunarinnar er bætt við flipann **Viðhengi** í FactBox.
 
-## <a name="to-add-a-link-from-an-item-card"></a>Til að bæta við tengli af birgðaspjaldi
+## Til að bæta við tengli af birgðaspjaldi
+
 Hægt er að bæta við tengli af korti eða skjali á einhverja vefslóð. Þetta er gagnlegt, til dæmis þegar tengja á birgðaspjald við vörulista birgis.
 
 Eftirfarandi aðferð er byggð á birgðaspjaldi. Skrefin eru svipuð fyrir öll önnur studd kort og skjöl.
@@ -79,7 +80,8 @@ Eftirfarandi aðferð er byggð á birgðaspjaldi. Skrefin eru svipuð fyrir öl
 
 Tengillinn er nú tengdur við birgðaspjaldið.  
 
-## <a name="to-write-a-note-on-a-sales-order"></a>Til að skrifa athugasemd á sölupöntun
+## Til að skrifa athugasemd á sölupöntun
+
 Hægt er að skrifa athugasemd á skjal eða kort, til dæmis til að skrifa sérstakar leiðbeiningar fyrir aðra notendur skjalsins eða kortsins. Hægt er að hafa skráartengla og vefslóðir með í athugasemdum.
 
 > [!NOTE]
@@ -95,7 +97,7 @@ Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnu
 
 Athugasemdin er nú hengd við sölupöntunina.
 
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  

@@ -6,24 +6,19 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 7a057e144ed6825435c62f565eeaaa73974fedf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524219"
 ---
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Kynning: Stofna fastáætlaða framleiðslupöntun og breyta henni
+
+# Kynning: Stofna fastáætlaða framleiðslupöntun og breyta henni
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að vinna með framleiðslupantanir.  
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður
 
 Eduardo, framleiðslustjóri hjá Contoso Coffee, verður að stofna nýja framleiðslupöntun fyrir 10 einingar af vörunni **SP-SCM1009, Airpot** sem þarf að afhenda 28. apríl. Hann áætlar þetta aftur í tímann og staðfestir að hann geti hafið pöntunina 27. apríl.  
 
 Stuttu eftir að hann lýkur þessu verki er hann beðinn um að auka pöntunina upp í 50 einingar. Þegar hann gerir það ýtir aðgerð röðunar afturábak upphafsdagsetningu pöntunarinnar of snemma. Þannig að hann færir pöntunina fram frá 23. apríl til að geta ákveðið raunhæfari lokadag.  
 
-## <a name="steps"></a>Skref
+## Skref
 
 1. Stofnaðu upphaflegu framleiðslupöntunina fyrir 10 einingum af vörunni **SP-SCM1009, Airpot**.
 
@@ -63,6 +58,6 @@ Stuttu eftir að hann lýkur þessu verki er hann beðinn um að auka pöntunina
 
 Nýja framleiðslupöntunin er nú sett upp og kröfur Eduardo eru uppfylltar.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning á sýnigögnum Contoso Coffee](contoso-coffee-intro.md)  

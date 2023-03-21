@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607338"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Uppsetning á notendareikningum fyrir samþættingu við Microsoft Dataverse
+# Uppsetning á notendareikningum fyrir samþættingu við Microsoft Dataverse
 
 Þetta efnisatriði veitir yfirlit um hvernig á að setja upp notendareikninga sem er krafist til að samþætta [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-administrator-user-account"></a>Setja upp notandareikning stjórnanda
+## Setja upp notandareikning stjórnanda
 
 Þú verður að bæta við notandareikningi stjórnanda fyrir [!INCLUDE[prod_short](includes/prod_short.md)] sem notandi í [!INCLUDE[cds_long](includes/cds_long_md.md)]. Þegar tengingin er sett upp á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] notum við þennan reikning í eitt skipti til að setja upp og grunnstilla nokkra nauðsynlega íhluti.
 
@@ -29,7 +23,7 @@ ms.locfileid: "9607338"
 >
 > Eftir að tengingu uppsetningar er lokið er hægt að fjarlægja þennan [!INCLUDE[prod_short](includes/cds_long_md.md)] notanda. Samþættingin heldur áfram að nota notandareikninginn sem er búinn sjálfkrafa til fyrir samþættinguna.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Heimildir og öryggishlutverk fyrir notandareikninga í [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Heimildir og öryggishlutverk fyrir notandareikninga í [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Grunnlausn samþættingar býr til eftirfarandi hlutverk í [!INCLUDE[cds_long](includes/cds_long_md.md)] fyrir samþættinguna:
 
@@ -135,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samþætting við Microsoft Dataverse](admin-common-data-service.md)  
 [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

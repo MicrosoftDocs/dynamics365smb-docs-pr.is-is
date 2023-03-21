@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7600, 7601, 7602, 5703
+ms.search.form: '7600, 7601, 7602, 5703'
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0c6be4bc0c602363e4ae54cc27663d1eaa4091e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511837"
 ---
-# <a name="set-up-base-calendars"></a>Setja upp grunndagatöl
+# Setja upp grunndagatöl
 
 Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, birgjum og stöðvum grunndagatali. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu. Þegar nýtt grunndagatal er sett upp felst meginverkefnið í að tilgreina og skilgreina þá frídaga sem eiga að gilda.  
 
-## <a name="to-set-up-a-base-calendar"></a>Uppsetning grunndagatals
+## Uppsetning grunndagatals
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Grunndagatal** og velja síðan viðkomandi tengil.  
 2.  Valið er **Nýtt** aðgerð.  
@@ -42,7 +36,7 @@ Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, bi
 >  Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageymsluna hefur áhrif á það hvernig dagsetningarnar eru reiknaðar út og sléttaðar til virkra daga.
 Tilgreinir dagsetningarformúlu fyrir þann tíma sem það tekur að fylla á vöruna. Hann er notaður til að reikna reitinn **Áætluð dagsetning innhreyfingar** ef reiknað er út áfram og reitinn **Pöntunardagsetning** ef reiknað er út afturábak. Sjá [Útreikn. afhendingartíma](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## <a name="lead-time-calculation"></a>Útreikn. afhendingartíma
+## Útreikn. afhendingartíma
 
 Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageymsluna hefur áhrif á það hvernig dagsetningarnar eru reiknaðar út og sléttaðar til virkra daga. Í samræmi við það eru dagsetningarreitirnir tveir í innkaupapöntunarlínunum reiknaðir á eftirfarandi hátt við ólík skilyrði.
 
@@ -59,7 +53,7 @@ Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageym
 
 Innihald **Biðtími Útreikningur** reitsins er afritað annað hvort úr birgðaspjaldinu eða birgðahaldseiningarspjaldinu, ef biðtími er skilgreindur fyrir vöruna, eða á síðunni **Vörulisti lánardrottins**, ef biðtíminn er skilgreindur fyrir lánardrottin.
 
-## <a name="to-customize-a-calendar"></a>Dagatal sérsniðið:
+## Dagatal sérsniðið:
 Þegar grunndagatal er sérsniðið fyrir fyrirtækið eða einhvern viðskiptafélaga eru breytingar á frídögum og virkum dögum færðar inn.
 
 Til dæmis sýnir grunndagatal yfirleitt alla laugardaga sem frídaga, en sérsniðið dagatal fyrir tiltekna stöð kann að sýna alla laugardaga í nóvember og desember fram að jólum sem virka daga.
@@ -92,7 +86,7 @@ Ef ekki er fyllt út í reitinn **Kóti flutningsaðila** í pöntunarlínu er d
 > [!NOTE]  
 > Ef breytingar eru gerðar á grunndagatali sem sérsniðin dagatöl eru byggð á uppfærir kerfið líka öll sérsniðin dagatöl sjálfvirkt.
 
-## <a name="to-assign-a-base-calendar"></a>Úthlutun grunndagatals  
+## Úthlutun grunndagatals  
 Hér á eftir er tekið dæmi af áætlun afhendingardagsetninga á sölupöntunarlínum fyrir viðskiptamann.
 
 Grunndagatöl eru tengd fyrirtæki notanda, viðskiptamönnum, lánardrottnum, birgðastöðvum og flutningsaðilum á eftirfarandi hátt:  
@@ -114,7 +108,7 @@ Grunndagatöl eru tengd fyrirtæki notanda, viðskiptamönnum, lánardrottnum, b
 > [!NOTE]  
 >  Ekki er hægt að búa til sérsniðnar dagatalsfærslur fyrr en fyrirtækinu hefur verið úthlutað grunndagatal.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  
 [Framleiðsla](production-manage-manufacturing.md)    
 [Birgðir](inventory-manage-inventory.md)  

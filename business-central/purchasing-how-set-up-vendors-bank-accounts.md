@@ -1,30 +1,24 @@
 ---
 title: Uppsetning lánardrottnabankareikninga
-description: Kynntu þér hvernig á að tengja bankareikninga við lánardrottnaspjöl í Business Central, þ.m.t. tengslaupplýsingar, SWIFT- og IBAN-númer.
+description: 'Kynntu þér hvernig á að tengja bankareikninga við lánardrottnaspjöl í Business Central, þ.m.t. tengslaupplýsingar, SWIFT- og IBAN-númer.'
 author: rubenseishima
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
-ms.openlocfilehash: 8c6faa8adadb62449d1067f877b40176bc15d034
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529631"
 ---
-# <a name="set-up-vendor-bank-accounts"></a>Uppsetning lánardrottnabankareikninga
+# Uppsetning lánardrottnabankareikninga
 
 Rétt eins og hægt er að nota upplýsingar um bankareikninga í [!INCLUDE [prod_short](includes/prod_short.md)] til að fylgjast með bankafærslum fyrirtækisins er einnig hægt að stilla bankaupplýsingar fyrir lánardrottna. Gögn um bankareikning lánardrottins geta einfaldað greiðslur til birgis þegar þau eru sameinuð við [AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md) eða eiginleikann [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) sem dæmi.
 
-## <a name="add-or-edit-a-vendor-bank-account"></a>Bæta við eða breyta bankareikningi lánardrottins
+## Bæta við eða breyta bankareikningi lánardrottins
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 > [!TIP]
 > Hægt er að stilla fleiri bankareikninga lánardrottins á síðunni **Bankareikningslisti lánardrottins**.
 
-## <a name="set-up-a-preferred-vendor-bank-account"></a>Setja upp æskilegan bankareikning lánardrottins
+## Setja upp æskilegan bankareikning lánardrottins
 
 Ef lánardrottinn er með einn eða fleiri bankareikninga og þú vilt stilla annan valkost fyrir greiðslubókarlínurnar skal fylgja þessum skrefum:
 
@@ -32,9 +26,9 @@ Ef lánardrottinn er með einn eða fleiri bankareikninga og þú vilt stilla an
 2. Opnaðu spjaldið fyrir lánardrottin.
 3. Í flýtiflipanum **Greiðslur** skal velja sjálfgefinn bankareikning lánardrottins í reitnum **Æskilegur bankareikningskóði**.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  

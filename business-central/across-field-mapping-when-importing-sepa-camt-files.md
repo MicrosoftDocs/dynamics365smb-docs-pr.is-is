@@ -1,29 +1,23 @@
 ---
 title: Reitarvörpum við innflutning SEPA CAMT skráa | Microsoft Docs
 description: Á Evrópumörkuðum er hægt að flytja inn bankayfirlitsskrár með svæðisbundnum SEPA stöðlum (sameiginlegt evrópskt greiðslusvæði).
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: db90358fcca87bc7217d48efa7577e8d4a835c58
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521359"
+ms.date: 01/06/2023
+ms.custom: bap-template
 ---
-# <a name="field-mapping-when-importing-sepa-camt-files"></a>Reitarvörpum við innflutning SEPA CAMT skráa
+# Reitarvörpum við innflutning SEPA CAMT skráa
+
 [!INCLUDE[prod_short](includes/prod_short.md)] styður svæðisbundinn SEPA-staðall (sameiginlegt evrópskt greiðslusvæði) fyrir innflutning SEPA-bankayfirlita (CAMT-snið). Frekari upplýsingar eru í [Nota AMC Banking 365 Fundamentals-viðbótina](ui-extensions-amc-banking.md).  
 
- SEPA CAMT-staðallinn er með staðbundin afbrigði. Því kann að vera nauðsynlegt að breyta almennri skilgreiningu gagnaskipta táknað með **SEPA CAMT** kóðanum í **Skilgreiningar fyrir bókunarskipti** síðunni til að laga hana að staðbundnum útgáfum staðalsins. Eftirfarandi töflur sýna vörpun frá einingu í reit fyrir töflur 81, 273 og 274 í SEPA CAMT-framkvæmd í [!INCLUDE[prod_short](includes/prod_short.md)].  
+ SEPA CAMT-staðallinn er með staðbundin afbrigði. Því gæti þurft að breyta almennum gagnaskiptaskilgreiningum (táknað  **SEPA CAMT**  Code á  **síðunni skilgreiningar**  á gögnum) til að aðlaga það að staðbundnum breytileika staðalsins. Eftirfarandi töflur sýna vörpun frá einingu í reit fyrir töflur 81, 273 og 274 í SEPA CAMT-framkvæmd í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Frekari upplýsingar um að búa til eða stilla gagnaskiptaskilgreiningu eru í [Setja upp gagnaskiptaskilgreiningar](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>CAMT gagnakortalagning á reitum í færslubókarlínu (81)  
+## CAMT gagnakortalagning á reitum í færslubókarlínu (81)  
 
 |Slóð staks|Skilaboðaeining|Gagnagerð|Lýsing|Auðkenni neikvæðs formerkis|Nr. reits|Heiti reits|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -35,14 +29,14 @@ ms.locfileid: "8521359"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Óskipulagt|Texti|Upplýsingarnar til að gera samsvörun / afstemmingu á færslu með þeim vörum sem greiðsla er ætlað að stemma af, svo sem viðskiptareikningar í reikningskröfukerfi í ómótaðan formi||8|Lýsing|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texti|Viðbótarupplýsingar um færslu||1222|Færsluupplýsingar|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>CAMT gagnakortalagning á reitum í bankanum Acc. Afstemming töflu (273)  
+## CAMT gagnakortalagning á reitum í bankanum Acc. Afstemming töflu (273)  
 
 |Slóð staks|Skilaboðaeining|Gagnagerð|Lýsing|Auðkenni neikvæðs formerkis|Nr. reits|Heiti reits|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Dagsetning|Dagsetning og tími þegar skilaboðin voru búin til||3|Dags. yfirlits|  
 |Stmt/Bal/Amt|Upphæð|Tugakerfið|Upphæð sem skilar nettóupphæðum fyrir allar debet- og kreditfærslur.||4|Lokastaða yfirlits|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>CAMT gagnakortalagning á reiti í bankanum Acc. Afstemming línutölfu (274)  
+## CAMT gagnakortalagning á reiti í bankanum Acc. Afstemming línutölfu (274)  
 
 |Slóð staks|Skilaboðaeining|Gagnagerð|Lýsing|Auðkenni neikvæðs formerkis|Nr. reits|Heiti reits|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -61,10 +55,11 @@ ms.locfileid: "8521359"
 > [!IMPORTANT]
 > Í innflutningi á CAMT-bankayfirlitum, býst [!INCLUDE[prod_short](includes/prod_short.md)] við að hver færsla sé einkvæm, sem þýðir að reiturinn **Færslukenni** sem kemur úr merkinu *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* í CAMT-skránni, verður að vera einkvæmt innan opnu afstemmingar bankareikningsins. Ef upplýsingarnar eru ekki til staðar, hunsar [!INCLUDE[prod_short](includes/prod_short.md)] greiðsluna. Ef fyrri bankaafstemming á sama bankareikningi var bókuð með sama færslukenninu eins og í núverandi innflutningi, afstemmist núverandi færsla ekki sjálfkrafa en er enn hægt að flytja inn.
 
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
+
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)  
-[Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)   
+[Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)  
 [Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md)  
 

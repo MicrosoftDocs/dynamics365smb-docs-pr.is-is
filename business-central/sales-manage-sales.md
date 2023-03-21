@@ -1,23 +1,17 @@
 ---
 title: Yfirlit yfir umsjónarverkhluta sölu
-description: Lestu allt um hvernig á að nota þjónustu Business Central til að hafa umsjón með söluaðgerðum viðskiptamanna í sölureikningum, pöntunum, tilboðum og fleiru.
+description: 'Lestu allt um hvernig á að nota þjónustu Business Central til að hafa umsjón með söluaðgerðum viðskiptamanna í sölureikningum, pöntunum, tilboðum og fleiru.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell
+ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: d6db11d2cb8f7d2cb0906146d03f423b815c29d1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535746"
 ---
-# <a name="sales"></a>Sölur
+# Sölur
 
 Búinn er til sölureikningur eða sölupöntun til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.
 
@@ -59,7 +53,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Upplýsa viðskiptamenn þína um afhendingardag pöntunar með því að reikna út annað hvort hægt að lofa eða tiltækt að lofa dasetninguna.|[Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)|
 |Leysa úr misskilningi þegar tvær eða fleiri færslur eru til fyrir sama viðskiptamann.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/sell-items-services-dynamics-365-business-central/).
+## Sjá tengda [Microsoft þjálfun](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  

@@ -1,6 +1,6 @@
 ---
 title: Setja upp sölumann (inniheldur myndskeið) | Microsoft Docs
-description: Þú getur sett upp kennimerki fyrir sérhvern sölumann, til að geta fylgst með frammistöðu einstakra sölumanna og úthlutað tengilið sölumanni.
+description: 'Þú getur sett upp kennimerki fyrir sérhvern sölumann, til að geta fylgst með frammistöðu einstakra sölumanna og úthlutað tengilið sölumanni.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a1254cb18546556b977eb009a819806e62ee2ca
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531648"
 ---
-# <a name="set-up-salespeople"></a>Setja upp sölumenn
+# Setja upp sölumenn
 
 Í mörgum fyrirtækjum þarf jafnan að fylgjast með starfi einstaklinga (t.d. sölumanna) svo hægt sé að nota upplýsingar sem þeim tengjast við að reikna sölulaun eða bónus, svo að dæmi sé tekið. Skoða, til dæmis skýrsluna um **sölulaun sölumanns**. Fyrirtæki gæti einnig viljað úthluta tengiliðum á viðeigandi sölumann.
 
@@ -24,16 +18,16 @@ ms.locfileid: "9531648"
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
-## <a name="to-set-up-a-salesperson-code"></a>Uppsetning sölumannskóða
+## Uppsetning sölumannskóða
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölumenn** og velja síðan viðkomandi tengil.
 2. Á síðunni **Sölumenn** skal velja aðgerðina **Nýtt**.
 
 Hægt er að nota sölumenn í mismunandi tengslastjórnun og markaðsvinnu. Þú getur til dæmis úthlutað verki til sölufólks, þannig að verkið sé hluti af sölutækifæri sem sölumanninum hefur verið úthlutað. Nánari upplýsingar, sjá [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  

@@ -4,17 +4,11 @@ description: Setja þarf upp hvern gjaldmiðil ef keypt er eða selt í öðrum 
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
-ms.search.form: 5, 118
+ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 5ea475ca6f01cc953d4feb8ea1b4135d384b8ec0
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528251"
 ---
-# <a name="set-up-currencies"></a>Uppsetning gjaldmiðla
+# Uppsetning gjaldmiðla
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -22,7 +16,7 @@ Notið ytri þjónusta til að fá nýjasta gengi gjaldmiðils í gluggann **Gja
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="currencies"></a><a name="curr"></a>Gjaldmiðlar
+## <a name="curr"></a>Gjaldmiðlar
 
 Eftirfarandi tafla lýsir reitunum á listanum **Gjaldmiðlar**.
 
@@ -55,10 +49,10 @@ Eftirfarandi tafla lýsir reitunum á listanum **Gjaldmiðlar**.
 |**Reikningur orðins fjárh.taps**|Tilgreinir fjárhagsreikninginn sem gengistap bókast í vegna leiðréttingar á milli staðbundins gjaldmiðils (SGM) og annars skýrslugjaldmiðils. Gengishagnaðurinn er reiknaður þegar keyrslan Leiðrétta gengi er keyrð til að leiðrétta fjárhagsreikninga. Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
 |**Afgangsreikningur hagnaðar**|Tilgreinir fjárhagsreikning sem notaður er til að bóka afgangsupphæðir hagnaðar (sléttunarmismun) þegar annar skýrslugjaldmiðill er notaður í kerfishluta fjárhags. Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
 |**Afgangsreikningur taps**|Tilgreinir fjárhagsreikning sem notaður er til að bóka afgangsupphæðir taps (sléttunarmismun) þegar annar skýrslugjaldmiðill er notaður í kerfishluta fjárhags. Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
-|**Hám. VSK-mismunur leyfður**|Leyfileg hámarksupphæð vegna virðisaukaskattsmismunar í þessum gjaldmiðli. Frekari upplýsingar eru í [Handvirk breyting VSK-upphæða í sölu- og innkaupaskjölum](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
+|**Hám. VSK-mismunur leyfður**|Leyfileg hámarksupphæð vegna virðisaukaskattsmismunar í þessum gjaldmiðli. Sjá  [Leiðrétting á VSK-upphæðum handvirkt í sölu-og innkaupaskjölum](finance-work-with-vat.md#correcting-vat-amounts-manually-on-sales-and-purchase-documents). Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
 |**Sléttunartegund VSK**|Tilgreinir sléttunaraðferð fyrir handvirka breytingu VSK-upphæða í sölu- og innkaupaskjölum. Þessi reitur er kannski ekki sýnilegur sjálfkrafa. Hægt er að sækja hana með því að sérstilla síðuna.|
 
-### <a name="available-currency-functions"></a>Tiltækar aðgerðir gjaldmiðla
+### Tiltækar aðgerðir gjaldmiðla
 
 Í eftirfarandi töflu er gerð grein fyrir lykilaðgerðum á síðunni **Gjaldmiðlar**.  
 
@@ -73,11 +67,11 @@ Eftirfarandi tafla lýsir reitunum á listanum **Gjaldmiðlar**.
 ||**Uppfæra gengi**|Sækja nýjasta gengi gjaldmiðils frá þjónustuveitu.|
 |**Skýrslur**|**Gengisjöfnuður**|Skoða stöðuna hjá öllum viðskiptamönnum og lánardrottnum bæði í erlendum gjaldmiðli og staðbundnum gjaldmiðli (SGM). Skýrslan sýnir tvær stöður í SGM. Einn er staðan í erlendum gjaldmiðli umreiknuð í SGM með því að nota gengi á tíma færslunnar. Hinn er staðan í erlendum gjaldmiðli umreiknuð í SGM með því að nota gengi á vinnudagsetningu.|
 
-## <a name="lcy-and-other-currencies"></a>SGM og aðrir gjaldmiðlar
+## SGM og aðrir gjaldmiðlar
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="rounding-currencies"></a>Sléttun gjaldmiðla
+## Sléttun gjaldmiðla
 
 Til að vinna með gjaldmiðla sem nota ekki tugabrot og til að forðast óþörf tugabrot í erlendum gjaldmiðlum er hægt að nota tvo mismunandi sléttunareiginleika:
 
@@ -89,37 +83,37 @@ Til að vinna með gjaldmiðla sem nota ekki tugabrot og til að forðast óþö
 
 Ólíkt eiginleikanum sléttun reiknings hafa eiginleikarnir sléttun upphæða og sléttun einingaupphæða aðeins áhrif á upphæðir í erlendum gjaldmiðli-ekki samsvarandi upphæðir í SGM. Þessir tveir eiginleikar skila ekki af sér neinum færslum í fjárhagsreikninga. Því þarf ekki að tilgreina fjárhagsreikning í bókunarflokkum eða annarsstaðar.
 
-### <a name="unit-amount-rounding"></a>Sléttun einingaupphæða
+### Sléttun einingaupphæða
 
 Eiginleikinn sléttun einingaupphæða stýrir hvernig söluverð fyrir vörur og forða í erlendum gjaldmiðlum eru sléttaðir í sölu- og innkaupalínum. Tilgreina þarf reglurnar fyrir hvern gjaldmiðil sérstaklega í reitnum **Eining - Sléttunarnákvæmni** í listanum **Gjaldmiðlar**.
 
 Eiginleikinn sléttun einingaupphæða er notaður sjálfkrafa í hvert skipti sem vara eða forðanúmer er færð inn í sölulínu. Ef reikningurinn er fyrir viðskiptamann með gjaldmiðilskóta er verði vörunnar eða forðans breytt í gjaldmiðil viðskiptamannsins. Verðið er sléttað samkvæmt sléttunarnákvæmni einingaupphæða fyrir gjaldmiðilinn.
 
-### <a name="amount-rounding"></a>Sléttun upphæða
+### Sléttun upphæða
 
 Eiginleikinn sléttun upphæða stýrir hvernig upphæðir í erlendum gjaldmiðlum eru sléttaðar í færslubókarlínum, sölulínum og innkaupalínum. Tilgreina þarf reglurnar fyrir hvern gjaldmiðil sérstaklega í reitnum **Upph. sléttunarnákvæmni** í listanum **Gjaldmiðlar** .
 
 Upphæðir í erlendum gjaldmiðlum eru sléttaðar þegar fyllt er út í færslubókarlínur, sölulínur og innkaupalínur og þær bókaðar.
 
-## <a name="exchange-rates"></a>Gengi
+## Gengi
 
 Hægt er að skrá gengi fyrir hvern erlendan gjaldmiðil og tilgreina frá hvaða dagsetningu gengin gilda. Til dæmis er hægt að færa inn dag-, mánaðar- eða ársfjórðungsgengi hvers erlends gjaldmiðils.
 
 Hægt er að halda sögulegu gengi á síðunni **Gengi gjaldmiðila** til viðmiðunar. Þegar uppfæra þarf gengi er hægt að nota hnappinn **Uppfæra gengi** til að fá nýjasta gengi frá utanaðkomandi þjónustuaðila.
 
-## <a name="general-ledger-accounts"></a>Fjárhagsreikningar
+## Fjárhagsreikningar
 
 Ekki er hægt að tengja gjaldmiðilskóta við fjárhagsreikninga þar sem upphæðir í fjárhag eru í SGM. Ef fyrirtækið er með lán í USD og setur innborgun á bankareikning í SEK er hægt að fylgjast með þessum reikningum með því að setja upp bankareikninga í USD og SEK. Með bókunarflokkum er hægt að tengja reikningana við viðeigandi fjárhagsreikninga. Í fjárhagnum eru upphæðirnar birtar í SGM.
 
 Hægt er að færa gjaldmiðilskóta inn í færslubókarlínu og bóka línuna í fjárhagsreikning. Viðeigandi gengi er notað til að breyta upphæðinni í SGM áður en hún er bókuð í fjárhagsreikninginn.  
 
-## <a name="example-of-a-receivable-currency-transaction"></a>Dæmi um móttekna gjaldmiðilsfærslu
+## Dæmi um móttekna gjaldmiðilsfærslu
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppfæra gengi](finance-how-update-currencies.md)  
 [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)  

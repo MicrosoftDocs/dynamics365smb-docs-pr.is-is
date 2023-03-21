@@ -7,14 +7,9 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "9788213"
 ---
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Kynning á sýnigögnum Contoso Coffee
+
+# Kynning á sýnigögnum Contoso Coffee
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. **Contoso Coffee** forritin fyrir Business Central bæta við sýnigögnum sem hægt er að nota til að komast að því hvernig á að nota framleiðslumöguleikana í Business Central.  
 
@@ -41,7 +36,7 @@ Framleiðsluaðgerðir fyrir allar aðstæður nota staðsetninguna *NORÐUR*.
 > [!IMPORTANT]
 > Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Frekari kröfur er að finna í hlutanum [Setja upp gögn Contoso Coffee](#set-up-contoso-coffee-data).
 
-## <a name="set-up-contoso-coffee-data"></a>Setja upp Contoso Coffee gögn
+## Setja upp Contoso Coffee gögn
 
 Til að nota sýnigögn Contoso Coffee þarftu að setja upp tvö forrit í viðeigandi fyrirtæki í [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -72,7 +67,7 @@ Bættu forritunum við autt fyrirtæki í greiddri áskrift eða sem hluti af pr
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
-## <a name="scenarios"></a>Dæmi
+## Dæmi
 
 Sýnigögn Contoso Coffee styðja núna eftirfarandi aðstæður fyrir prófun og þjálfun:
 
@@ -90,7 +85,7 @@ Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
 > [!IMPORTANT]
 > Þessar kynningar krefjast þess að upplifun notanda sé stillt á *Premium* á síðunni **Fyrirtækjaupplýsingar**.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framleiðsla](../production-manage-manufacturing.md)  
 [Framleiðsluskýrslur og greiningar í Business Central](../production-reports.md)  

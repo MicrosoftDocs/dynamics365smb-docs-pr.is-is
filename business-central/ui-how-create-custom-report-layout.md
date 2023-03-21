@@ -1,23 +1,17 @@
 ---
 title: Stofna og breyta sérsniðið útlit fyrir skýrslur og skjöl
-description: Kynntu þér hvernig skal stofna sérstillt útlit til að sérsníða útlit skýrslu þegar hún er skoðuð, prentuð eða vistuð.
+description: 'Kynntu þér hvernig skal stofna sérstillt útlit til að sérsníða útlit skýrslu þegar hún er skoðuð, prentuð eða vistuð.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604778"
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Eldra) Búa til og breyta sérsniðnum skýrsluútlitum
+# (Eldra) Búa til og breyta sérsniðnum skýrsluútlitum
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -35,7 +29,7 @@ Til að búa til sérsniðið útlit skal annaðhvort afrita fyrirliggjandi sér
 
 Einnig er hægt að nota sérsniðið skýrsluútlit til að bæta efni við tölvupóst. Skýrsluútlit geta sparað tíma og tryggt samræmi með því að endurnota sama efnið þegar haft er samband við viðskiptamenn. Til að nota sérsniðið skýrsluútlit með tölvupósti verður skráargerðin fyrir útlitið að vera Word, ekki er hægt að nota RDLC-skráargerð. Frekari upplýsingar má finna á [Setja upp endurnýtanlega texta og útlit tölvupósts ](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Búa til sérsniðið útlit
+## Búa til sérsniðið útlit
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.
 
@@ -60,11 +54,11 @@ Sérsniðna útlitið hefur verið búið til og hægt er að breyta því eftir
 > [!TIP]
 > Hægt er að flytja niðurstöður skýrslunnar út í Microsoft Excel skrá til að skoða allt gagnasafnið, þar með talið alla dálkana, en án útlitsins. Excel-skráin getur hjálpað til við að staðfesta að skýrslan skili væntanlegum gögnum eða beri kennsl á vandamálin. Frekari upplýsingar er að finna í [Greining skýrslugagna með Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Breyta sérsniðnu útliti
+## <a name="ModifyCustomLayout"></a>Breyta sérsniðnu útliti
 
 Til að breyta sérsniðnu skýrsluútliti þarftu fyrst að flytja út skýrsluútlit sem skrá á staðsetningu í tölvunni þinni eða neti. Opnaðu síðan útflutt skjal og gerðu breytingarnar. Þegar þú hefur lokið við að gera breytingarnar flyturðu inn skýrsluútlitið.
 
-### <a name="modify-a-custom-layout"></a>Breyta sérsniðnu útliti
+### Breyta sérsniðnu útliti
 
 1. Flytja út sérsniðið útlit á síðunni **Sérsniðið skýrsluútlit**. Ef sú síða er ekki þegar opin skaltu leita að og opna síðuna **Val á skýrsluútliti**, velja skýrsluna sem þú vilt breyta útliti fyrir og velja svo aðgerðina **Sérsniðið útlit**.  
 2. Á síðunni **Sérsniðið skýrsluútlit** skal velja útlitið sem þú vilt breyta, veldu **Flytja út útlit** aðgerðina og svo velja **Vista** eða **Vista sem** til að vista skýrsluútlitsskjalið á staðsetningu í tölvunni eða á netkerfi.  
@@ -117,9 +111,9 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md)  

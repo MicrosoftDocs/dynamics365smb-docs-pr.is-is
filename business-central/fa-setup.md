@@ -1,23 +1,17 @@
 ---
 title: Uppsetning eigna
-description: Kynntu þér röð verkhluta sem þú þarft að framkvæma til að setja upp eignir, eins og t.d. þá sem tengjast vélum eða byggingum.
+description: 'Kynntu þér röð verkhluta sem þú þarft að framkvæma til að setja upp eignir, eins og t.d. þá sem tengjast vélum eða byggingum.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
+ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d537d22d3273c2185016904779eab0ff030d201
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530244"
 ---
-# <a name="setting-up-fixed-assets"></a>Uppsetning eigna
+# Uppsetning eigna
 
 Áður en þú getur unnið með eignir þarftu að skilgreina nokkur atriði:  
 
@@ -42,9 +36,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Læra um mismunandi Aðferðir við afskriftir eigna |[Afskriftaaðferðir](fa-depreciation-methods.md) |
 | Finndu út hvernig á að nota notandaskilgreindar afskriftaaðferðir. |[Uppsetning afskriftaaðferða sem notandi skilgreinir](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-fixed-assets-management/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  

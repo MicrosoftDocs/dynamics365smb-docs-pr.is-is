@@ -1,21 +1,15 @@
 ---
 title: Stofna verkspjald fyrir verk og tilgreina verkhluta
-description: Í nýju verkefni skal stofna verkspjald sem inniheldur verkhluta starfsins og áætlunarlínur, til að auðvelda þér að stjórna framvindu og fjárhagsáætlunum.
+description: 'Í nýju verkefni skal stofna verkspjald sem inniheldur verkhluta starfsins og áætlunarlínur, til að auðvelda þér að stjórna framvindu og fjárhagsáætlunum.'
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: project management, task
-ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
+ms.search.keywords: 'project management, task'
+ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 180a6cfc4ce6efb11df8faccd5909f527f6393e3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528948"
 ---
-# <a name="create-jobs"></a>Stofna verk
+# Stofna verk
 
 Þegar nýtt verk er stofnað verður að stofna verkspjald með samþættum verkhlutum og áætlunarlínum, sem skipt er upp í tvö lög.  
 
@@ -34,7 +28,7 @@ Stundum er sá aðili sem fær þjónustuna annar en aðilinn sem borgar reiknin
 * Bæta við upplýsingum um ytri tilvísanir til að einfalda samskipti um verkefnið.
 * Skrifaðu yfir stöðluðu fjármálaskilmála verksins.
 
-## <a name="to-create-a-job-card"></a>Til að stofna verkspjald
+## Til að stofna verkspjald
 
 Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur fyrir það.
 
@@ -53,7 +47,7 @@ Merkja má aðgerðir sem útilokaðar með því að nota reitinn **Útilokað*
 |Bóka    |Hægt er að vinna með áætlunarlínur, en bókun vegna verksins er lokuð. Sé þessi kostur valinn hefur það í för með sér að hvorki er hægt að bóka notkun né sölu verksins.|
 |Allt  |Allar aðgerðir eru lokaðar.|
 
-## <a name="to-create-tasks-for-a-job"></a>Til að búa til verkhluta fyrir verk
+## Til að búa til verkhluta fyrir verk
 
 Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur í sér. Þú tilgreinir verk með því að stofna eina línu á verk í flýtiflipanum **Verk** á síðunni **Verkspjald**. Hvert verk verður að hafa að minnsta kosti einn verkhluta.
 
@@ -64,7 +58,7 @@ Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur 
 5. Endurtakið skref 3 og 4 fyrir alla verkhluta sem þarf fyrir verkið.
 6. Til að tilgreina verkhluta með upplýsingum um aðra verkhluta skal velja aðgerðina **Afrita verkhluta frá** og fylla svo út reitina eins og þörf krefur og velja hnappinn **Í lagi**.
 
-## <a name="to-create-planning-lines-for-a-job"></a>Til að stofna verkáætlunarlínu fyrir verk
+## Til að stofna verkáætlunarlínu fyrir verk
 
 Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Áætlunarlína getur sótt upplýsingarnar sem á að rekja fyrir verk. Til dæmis er hægt að rekja tilföngin sem verkið krefst eða vörurnar sem þarf. Til dæmis gætirðu verið með verk sem snýst um að fá viðskiptamann til að samþykkja vinnu. Þú tengir verkið vði áætlunarlínur fyrir vörur eins og að hitta viðskiptamanninn og úthluta tilfangi.  
 
@@ -85,9 +79,9 @@ Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Áætlunar
 4. Á síðunni **Verkáætlunarlínur** skal fylla út reitina eins og þörf krefur í nýrri línu.
 5. Endurtakið skref 3 og 4 fyrir allar verkhlutalínur sem þarf fyrir verkhlutann.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-new-job/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/create-new-job/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Myndband: Hvernig á að stofna verk í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

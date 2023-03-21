@@ -1,23 +1,17 @@
 ---
 title: Úthlutun kostnaðarauka á sölu og innkaup (inniheldur myndskeið)
-description: Úthlutaðu kostnaðarauka þegar þú þarft að setja aukinn kostnað á birgðavörur, t.d. flutningskostnað og kostnað vegna meðhöndlunar, sem kemur upp þegar vörur eru keyptar eða seldar.
+description: 'Úthlutaðu kostnaðarauka þegar þú þarft að setja aukinn kostnað á birgðavörur, t.d. flutningskostnað og kostnað vegna meðhöndlunar, sem kemur upp þegar vörur eru keyptar eða seldar.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: transportation, added cost, landed cost
-ms.search.form: 5709, 5800, 5805, 5814
+ms.search.keywords: 'transportation, added cost, landed cost'
+ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 626af5eb217548b3813a137c16b7a84c1e860da2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528734"
 ---
-# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
+# Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
 Til að tryggja rétt verðmat, verða birgðavörurnar þínar að bera allan auka kostnað, eind og t.d. farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér. Í innkaupum, þá samanstendur raunkostnaður innkeyptrar vöru af innkaupaverði frá lánardrottni og öllu beinu viðbótarvörugjaldi sem hægt er að leggja á einstaka móttöku eða endursendar afhendingar. Það getur verið fyrirtækjum jafnmikilvægt að kunna skil á kostnaði við afhendingu seldrar vöru eins og að vita raunkostnað aðkeyptrar vöru.
 
 Til viðbótar við skráningu aukakostnaðar á birgðavirði, geturðu notað eiginleikann Kostnaðarauki fyrir eftirfarandi:
@@ -35,19 +29,19 @@ Hægt er að úthluta kostnaðarauka á bæði innkaupa- og söluskjöl á tvenn
 > [!NOTE]  
 >   Hægt er að úthluta kostnaðarauka á pantanir, reikninga og kreditreikninga fyrir bæði sölu og innkaup. Eftirfarandi ferli lýsir því hvernig á að vinna með kostnaðarauka fyrir innkaupareikning. Skrefin eru svipuð fyrir öll önnur innkaupa- og söluskjöl.
 
-## <a name="example"></a>Dæmi
+## Dæmi
 Þetta myndband sýnir hvernig á að meðhöndla viðbótarkostnað afhendingar sem hluta af birgðakostnaði.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## <a name="to-set-up-item-charge-numbers"></a>Uppsetning kostnaðaraukanúmera
+## Uppsetning kostnaðaraukanúmera
 Vörugjaldsnúmer eru notuð til að greina á milli mismunandi vörugjalda sem notuð eru fyrir innkaupaskjöl í fyrirtækinu.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Kostnaðaraukar** og velja síðan viðkomandi tengil.
 2. Á síðunni **Kostnaðarauki** skal velja aðgerðina **Nýtt** til að stofna nýja línu.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Að úthluta kostnaðarauka beint til innkaupareiknings fyrir vöruna
+## Að úthluta kostnaðarauka beint til innkaupareiknings fyrir vöruna
 Ef þú veist hver kostnaðaraukinn er þegar þú bókar innkaupareikning fyrir vöruna, skaltu fylgja þessu ferli.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.
@@ -70,7 +64,7 @@ Ef kostnaðarauka hefur verið úthlutað að fullu, er gildið í **Magn til ú
 
 Nú er kostnaðarauka úthlutað til innkaupareiknings. Þegar þú bókar innhreyfingu á innkaupareikning, er birgðavirði vörunnar uppfært með kostnaði kostnaðaraukans.  
 
-## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Að úthluta kostnaðarauka frá öðrum reikningi til innkaupareiknings fyrir vöruna
+## Að úthluta kostnaðarauka frá öðrum reikningi til innkaupareiknings fyrir vöruna
 Ef þú færð sendan reikning fyrir kostnaðaraukann eftir að þú bókaðir upphaflegu innkaupamóttökuna, skaltu fylgja þessu ferli.
 1. Endurtakið skref 1 til 8 í [Að úthluta kostnaðarauka beint til innkaupareiknings fyrir vöruna](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
 2. Á síðunni **Úthlutun kostnaðarauka** skal velja aðgerðina **Sækja móttökulínur**.
@@ -79,9 +73,9 @@ Ef þú færð sendan reikning fyrir kostnaðaraukann eftir að þú bókaðir u
 
 Kostnaðaraukinn á þessum aðgreinda innkaupareikningi er nú úthlutað til vörunnar á bókuðu innkaupamóttökunni, og þar með uppfærist birgðagildi vörunnar með kostnaði kostnaðaraukans.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)  

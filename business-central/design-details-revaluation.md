@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 219c99e10e274bf2eeb99607b4499a4f94102237
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517629"
 ---
-# <a name="design-details-revaluation"></a>Hönnunarupplýsingar: Endurmat
+# Hönnunarupplýsingar: Endurmat
 Hægt er að endurmeta birgðir á grundvelli virðisgrundvallar sem endurspeglar nákvæmast birgðavirði. Einnig er hægt að bakfæra endurmat, þannig að kostnaður við seldar vörur(kostnaður seldra vara) sé rétt uppfærður fyrir vöru sem hefur þegar verið seld. Vörur sem nota hefðbundna aðferð kostnaðarútreiknings og hafa ekki verið reikningsfærðar að fullu er einnig hægt að endurmeta.  
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er eftirfarandi sveigjanleiki studdur varðandi endurmat:  
@@ -25,7 +19,7 @@ Hægt er að endurmeta birgðir á grundvelli virðisgrundvallar sem endurspegla
 -   Fyrir vörur sem nota kostnaðarútreikninginn Staðlað eru áætlaðar kostnaðarfærslur hafðar með í endurmatinu.  
 -   Birgðaminnkanir sem verða fyrir áhrifum af endurmati eru greindar.  
 
-## <a name="calculating-the-revaluable-quantity"></a>Reikna endurreiknanlegt magn  
+## Reikna endurreiknanlegt magn  
  Endurmetanlegt magn er eftirstandandi magn í birgðum sem hægt er að endurmeta á tiltekinni dagsetningu. Það er reiknað sem summa magns fyrir fullreikningsfærðar birgðahöfuðbókarfærslur með sömu bókunardagsetningu eða eldri en endurmatsdagsetningin.  
 
 > [!NOTE]  
@@ -35,7 +29,7 @@ Eftir bókun endurmats er hægt að bóka birgðaaukningu eða -minnkun með bó
 
 Vegna endurmats hægt að gera á hvaða degi, verður þú að hafa samninga um þegar hluturinn er talinn hluti af birgðum frá fjárhagslegum sjónarhóli. Til dæmis hvenær vara er í birgðum og hvenær varan er verk í vinnslu (VÍV).  
 
-### <a name="example"></a>Dæmi  
+### Dæmi  
 Eftirfarandi dæmi sýnir þegar VÍV-vara verður hluti birgða. Dæmið er byggt á við framleiðsluna á keðja með 150 tenglum.  
 
 ![VÍV birgðir og endurmat.](media/design_details_inventory_costing_10_revaluation_wip.png "VÍV birgðir og endurmat")  
@@ -83,7 +77,7 @@ Virðisdagsetningin er stillt á dagsetningu bókunar fyrir notkun (02-01-20) se
 |02-01-20|Beinn kostnaður|02-01-20|-150,00|2|2|  
 |02-15-20|Beinn kostnaður|02-15-20|150,00|3|3|  
 
-## <a name="expected-cost-in-revaluation"></a>Áætlaður kostnaður í endurmati  
+## Áætlaður kostnaður í endurmati  
 Endurmetanlegt magn er reiknað sem summa magns fyrir fullreikningsfærðar birgðahöfuðbókarfærslur með sömu bókunardagsetningu eða eldri en endurmatsdagsetningin. Þetta þýðir að þegar sumar vörur eru móttekin / flutt en ekki reikningfærðar er ekki hægt að reikna birgðavirði þeirra. Vörur sem nota hefðbundna aðferð kostnaðarútreiknings eru ekki takmarkaðar að þessu leyti.  
 
 > [!NOTE]  
@@ -95,7 +89,7 @@ Við útreikning á endurreiknanlegu magni fyrir vörur sem nota staðlaða aðf
 -   Virðisfærsla með færslugerðinni **Frávik**. Þessi færsla skráir muninn milli reikningsfærðs kostnaðar og endurmetins staðalkostnaðar.  
 -   Virðisfærsla með færslugerðinni **Endurmat**. Þessi færsla sýnir bakfærslu á endurmati væntanlegs kostnaðar.  
 
-### <a name="example"></a>Dæmi  
+### Dæmi  
 Eftirfarandi dæmi, sem byggir á framleiðslu á keðju í síðasta dæmi, sýnir hvernig þrjár tegundir af færslum eru búnar til. Þetta er byggt á eftirfarandi atburðarás:  
 
 1.  Notandinn bókar innkaupatenglana samkvæmt móttöku með einingakostnaði upp á SGM 2.00.  
@@ -115,7 +109,7 @@ Eftirfarandi tafla sýnir afleiddar virðisfærslur.
 |3.b.|01-15-20|Endurmat|01-20-20|-150,00|0,00|1|4|  
 |3.c.|01-15-20|Frávik|01-15-20|0.00|450,00|1|5|  
 
-## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Ákvarðað hvort birgðaminnkun verður fyrir áhrifum af endurmati  
+## Ákvarðað hvort birgðaminnkun verður fyrir áhrifum af endurmati  
 Dagsetning bókunar eða endurmats er notað til að ákvarða hvort birgðaminnkun verður fyrir áhrifum af endurmati.  
 
 Eftirfarandi tafla sýnir skilyrði sem eru notuð fyrir vöru sem ekki notar meðalkostnaðarmatsaðferð.  
@@ -129,7 +123,7 @@ Eftirfarandi tafla sýnir skilyrði sem eru notuð fyrir vöru sem ekki notar me
 |Villa|Síðar en endurmatsfærslu nr.|Jafnt bókunardagsetningu endurmats|Já|  
 |F|Síðar en endurmatsfærslu nr.|Síðar en bókunardagsetning endurmats|Já|  
 
-### <a name="example"></a>Dæmi  
+### Dæmi  
 Eftirfarandi dæmi, sem sýnir endurmat vöru sem notar FIFO-kostnaðarmatsaðferð, er byggt á eftirfarandi atburðarás:  
 
 1.  01-01-20 bókar notandinn innkaup sex eininga.  
@@ -159,7 +153,7 @@ Eftirfarandi tafla sýnir afleiddar virðisfærslur.
 |F|04-01-20|Sala|04-01-20|-1|-10,00|7|8|  
 ||04-01-20|Sala|04-01-20|-1|2,00|7|12|  
 
-## <a name="wip-inventory-revaluation"></a>VÍV endurmat á birgðum  
+## VÍV endurmat á birgðum  
 Endurmat VÍV-birgða felst í að endurmeta íhluti sem eru skráðir sem hluti af VÍV-birgðum á þeim tíma af endurmati.  
 
 Sé það haft í huga er mikilvægt að koma á fót hefðum um það hvenær vara telst vera hluti af VÍV-birgðum frá fjárhagslegu sjónarmiði. Í [!INCLUDE[prod_short](includes/prod_short.md)], er til eftirfarandi hefð:  
@@ -175,7 +169,7 @@ VÍG-birgðir er hægt að endurmeta svo framarlega sem endurmatsdagsetningin er
 > [!CAUTION]  
 >  Skýrslan um **Verðmæti birgða VÍV** sýni virði færlsna fyrir bókaðar framleiðslupantanir og geta því verið ruglingslegar fyrir WIP-vörur sem hafa verið endurmetnar.  
 
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)   
  [Hönnunarupplýsingar: Birgðavirði](design-details-inventory-valuation.md) [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  

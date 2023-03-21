@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.search.forms: 5725, 5726, 5732
+ms.search.forms: '5725, 5726, 5732'
 ms.date: 06/20/2022
 ms.author: bholtorf
-ms.openlocfilehash: deeca03327afa4b231cb9b4ce23088334fa50153
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532107"
 ---
-# <a name="work-with-catalog-items"></a>Vinna með vörulistaatriði
+# Vinna með vörulistaatriði
 
 Vörulistaatriði eru vörur sem þú hefur ekki umsjón með í [!INCLUDE[prod_short](includes/prod_short.md)] fyrr en þú selur þær. Þegar þú notar aðgerðina **Velja vörulistaatriði** til að bæta vörulistaatriði við línu í sölupöntun eða tilboði er vörulistaatriðinu breytt í venjulega vöru.
 
@@ -29,7 +23,7 @@ Vörulistaatriði hefur yfirleitt vörunúmer þess lánardrottins sem sér um a
 > [!IMPORTANT]
 > Vörulistaatriði má ekki rugla saman við vörur sem eru ekki vörur í birgðum sem eru reglulegar vörur sem eru gefnar tegundina **Ekki í birgðum**, til að halda þeim ekki tiltækum og fyrir utan kostnaðarútreikningur, til dæmis vegna þess að þeir eru aðeins notaðir innbyrðis og eru lágir kostnaður. Nánari upplýsingar er að finna í [Um vörugerðir](inventory-about-item-types.md).
 
-## <a name="create-a-catalog-item"></a>Búa til vörulistaatriði
+## Búa til vörulistaatriði
 
 Vörulistaatriðaspjöld hafa miklu minni upplýsingar en venjulegir birgðaspjald vegna þess að þú notar þær aðeins til að bjóða upp á vitna og á annan hátt. Af þeirri ástæðu þær þarf að umbreyta þeim í venjulegur birgðaspjöldum áður en hægt bóka sölufærslur fyrir þá.
 
@@ -37,14 +31,14 @@ Vörulistaatriðaspjöld hafa miklu minni upplýsingar en venjulegir birgðaspja
 2. Valið er aðgerðin **Nýtt**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="specify-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Tilgreindu hvernig númerum vörulistaatriða er breytt í eigin númer
+## Tilgreindu hvernig númerum vörulistaatriða er breytt í eigin númer
 
 Áður en hægt er að breyta vörulistaatriði í venjulega vöru þarftu að tilgreina hvernig á að breyta vörunúmerum lánardrottins í vörunúmerin þín.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning vörulistaatriðis** og velja síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum.
 
-## <a name="convert-a-catalog-item-to-a-normal-item"></a>Breyta vörulistaatriði í venjulegt atriði
+## Breyta vörulistaatriði í venjulegt atriði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörulistaatriði** og velja síðan viðkomandi tengil.
 2. Opnaðu spjaldið fyrir vörulistaatriði sem þú vilt breyta í venjulegt atriði.
@@ -52,7 +46,7 @@ Vörulistaatriðaspjöld hafa miklu minni upplýsingar en venjulegir birgðaspja
 
 Stofnað er nýtt birgðaspjald sem er forútfyllt með upplýsingum úr vörulistaatriði og viðeigandi vörusniðmát. Hægt er síðan að fylla inn í eða breyta reitum á nýja birgðaspjaldinu eins og þörf krefur. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
-## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Til að selja vörulistaatriði og breyta því í venjulegt atriði
+## Til að selja vörulistaatriði og breyta því í venjulegt atriði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð. Fylltu út reitina á flýtiflipanum **Almennt** eins og fyrir hvaða sölustað sem er. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
@@ -68,9 +62,9 @@ Hægt er síðan að fylla inn í eða breyta reitum á nýja birgðaspjaldinu e
 > [!NOTE]  
 > Vörutilvísun er sjálfkrafa vara milli vörunúmers lánardrottins og nýja vörunúmersins þíns. Frekari upplýsingar er að finna í [Nota vörutilvísanir](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)  

@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 01e62e4a767ac26967e228ef27a2dadcc0e3ff03
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516084"
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu
+# Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu
 
 Þessi aðgerð er framkvæmd á síðunni **Framleiðslubók**. Bókin sameinar aðgerðir notkunarbókar og afkastabókar í eina bók sem hægt er komast í beint úr framleiðslupöntun. Hún er notuð í handvirka bókun íhlutanotkunar, lokamagns framleiddra vara og tíma sem fer í aðgerðir. Megintilgangur hennar er að bóka handvirkt notkun íhluta, magn framleiddra endanlegra vara og stundir sem búið er að eyða í aðgerðir. Gildin eru bókuð í fjárhagsfærslur undir útgefnu framleiðslupöntuninni. Notkunarmagn bókað sem neikvæðar Færslur í birgðafærslum, Frálagsmagn er bókað sem jákvæðar birgðafærslur og tími sem varið er er bókaður sem afkastagetufærslur. Þessi bókuðu gildi er einnig hægt að skoða neðst í bókinni sem raunverulegt magn.  
 
@@ -26,7 +20,7 @@ ms.locfileid: "8516084"
 > [!NOTE]  
 >  Íhlutir án leiðartengilskóta er skráðir fyrst í bókina.  
 
-## <a name="to-register-consumption-and-output"></a>Notkun og frálag skráð  
+## Notkun og frálag skráð  
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Losaðar framleiðslupantanir** og velja síðan viðkomandi tengil.  
 2.  Opna skal útgefna framleiðslupöntunarlínu sem er tilbúin til skráningar, og svo á flýtiflipanum **Línur** skal velja **Lína**, aðgerðina og svo **Framleiðslubók** aðgerðina.  
 
@@ -64,7 +58,7 @@ Færslubókin mun innihalda gildi sem enn á eftir að bóka, ef einhver eru, n�
 > [!WARNING]  
 >  Tveir notendur geta ekki notað síðuna **Framleiðslubók** á sama tíma. Þetta merkir að ef notandi 2 opnar síðuna og færir inn gögn þegar notandi 1 er þegar að vinna á síðunni gæti notandi 2 tapað gögnum þegar notandi 1 lokar síðunni.  
 
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 [Framleiðsla](production-manage-manufacturing.md)    
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Áætlun](production-planning.md)      

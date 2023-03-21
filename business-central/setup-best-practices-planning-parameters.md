@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950174"
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Uppsetning bestu venjur: Áætla færibreytur
+# Uppsetning bestu venjur: Áætla færibreytur
+
 Flýtiflipinn **Áætlun** á birgðaspjaldinu er þungamiðja birgðakeðju fyrirtækis. Uppsetning réttra áætlunarfæribreyta er mjög mikilvæg fyrir hagkvæma birgðastjórnun og gæði þjónustu við viðskiptamenn.  
 
  Eftirfarandi tafla gefur upp bestu venjur um uppsetningu valinna áætlunarfæribreytareita. Nánari upplýsingar um reit fást með því að velja tengilinn í dálkinum **Uppsetningarreitur**.  
@@ -35,16 +30,16 @@ Flýtiflipinn **Áætlun** á birgðaspjaldinu er þungamiðja birgðakeðju fyr
 |Sléttunarnákvæmni|Stillið á 0,00001 ef framleiðslan er dýr.|Mikið sléttað magn af úrkasti eða efnisnotkun getur valdið mjög háum birgðakostnaði. Það kann því að vera viðeigandi að stilla minnstu sléttunarnákvæmni með það að markmiði að lágmarka þennan hugsanlega kostnað.|  
 
 > [!NOTE]  
->  Bestu venjur fyrir áætlunarfæribreytur í birgðaspjöldum eiga einnig við um sömu svæðin á í birgðahaldseiningaspjöldum.  
->   
->  Ef fyrirtæki áætla eftirspurn fyrir mismunandi birgðageymslur er eindregið mælt með því að skilgreina birgðahaldseiningar fyrir hverja birgðageymslu og búa alla eftirspurn til með því að nota gildi úr reitnum **Kóti birgðageymslu**. Frekari upplýsingar, sjá [Hönnunarupplýsingar: Eftirspurn í autt birgðageymsla](design-details-demand-at-blank-location.md).  
+> Bestu venjur fyrir áætlunarfæribreytur í birgðaspjöldum eiga einnig við um sömu svæðin á í birgðahaldseiningaspjöldum.  
+>
+> Ef fyrirtæki áætla eftirspurn fyrir mismunandi birgðageymslur er eindregið mælt með því að skilgreina birgðahaldseiningar fyrir hverja birgðageymslu og búa alla eftirspurn til með því að nota gildi úr reitnum **Kóti birgðageymslu**. Frekari upplýsingar hjá  [Hönnunarmiðstöð: áætlunarferðir með eða án birgðageymslna](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Sjá einnig  
- [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)   
- [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
- [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
- [Hönnunarupplýsingar: Eftirspurn í birgðageymslunni Tómt](design-details-demand-at-blank-location.md)  
- [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Sjá einnig  
+[Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
+[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)  
+[Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
+[Hönnunarupplýsingar: áætlun með eða án staðsetningar](production-planning-with-without-locations.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

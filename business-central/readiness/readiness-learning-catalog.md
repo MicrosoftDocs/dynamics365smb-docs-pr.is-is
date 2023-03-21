@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530190"
 ---
-# <a name="business-central-learning-catalog"></a>Business Central námskrá
+
+# Business Central námskrá
 
 Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutverkið þitt sem notandi eða tengiliður Business Central.
 
@@ -20,7 +15,7 @@ Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutver
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Stjórnandi í fyrirtæki
+    ### Stjórnandi í fyrirtæki
 
     Ákvarðar þú hvort það eigi að fjárfesta í nýrri tækni? 
 
@@ -36,7 +31,7 @@ Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutver
 
     :::column:::
 
-    ### <a name="business-user"></a>Fyrirtækisnotandi
+    ### Fyrirtækisnotandi
 
     Fékkstu einfaldlega nýtt forrit til að nota? 
 
@@ -54,7 +49,7 @@ Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutver
 
     :::column:::
 
-    ### <a name="developer"></a>Þróunaraðili
+    ### Þróunaraðili
 
     Þarftu að skrifa kóða til að samþættast við önnur gögn, víkka virkni grunnkerfisins eða byggja flókið forrit?
 
@@ -66,7 +61,7 @@ Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutver
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Hagnýtur ráðgjafi
+    ### Hagnýtur ráðgjafi
     
     Ert þú sérfræðingur fyrirtækjaléns? 
 

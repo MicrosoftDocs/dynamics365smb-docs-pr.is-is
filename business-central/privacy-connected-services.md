@@ -4,18 +4,12 @@ description: Yfirlit yfir Microsoft-þjónustu sem Business Central tengist með
 author: jswymer
 ms.topic: overview
 ms.service: dynamics365-business-central
-ms.search.keywords: privacy, trial, Microsoft services
+ms.search.keywords: 'privacy, trial, Microsoft services'
 ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.openlocfilehash: baad6c682a744d87cd6e2d2c0536a06a7b349384
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728707"
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Prófunareiginleikar sem tengjast öðrum Microsoft-þjónustum 
+# Prófunareiginleikar sem tengjast öðrum Microsoft-þjónustum 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] er yfirgripsmikil viðskiptastjórnunarlausn sem er samþætt við Microsoft 365 framleiðniforritum og Power Platform. Ókeypis prufuáskriftin þín af Business Central getur tengst mörgum mismunandi Microsoft þjónustum sem þú verður fyrst að stilla og virkja. Til að fá sem mest út úr ókeypis prufuútgáfunni hafa sumir þessarar eiginleika verið sjálfkrafa virkjaðir fyrir þig. Þótt tengingin úr [!INCLUDE[prod_short](includes/prod_short.md)] sé virk eru þessar þjónustur ekki hluti af prufuútgáfunni og þarf að kaupa þær sér nema þú sért nú þegar með þær.
 

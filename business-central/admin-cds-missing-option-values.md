@@ -7,14 +7,9 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 03/23/2022
-ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512491"
 ---
-# <a name="handling-missing-option-values"></a>Meðhöndlun gilda sem vantar fyrir valkosti
+
+# Meðhöndlun gilda sem vantar fyrir valkosti
 > [!NOTE]
 > Í 2022 útgáfutímabil 1 er hægt að búa til eigin varpanir valkosta. Frekari upplýsingar er að finna í [Sérstilling vörpunarvalkosta með Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Nýju möguleikarnir krefjast þess að stjórnandinn virki **Eiginleikauppfærsla: Varpa í valkostasafn í Dataverse án kóða** á síðunni **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -87,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Öllum [!INCLUDE[prod_short](includes/prod_short.md)] fasttextunum að ofan er varpað í safn valkosta í [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-prod_short"></a>Viðbót við safn valkosta í [!INCLUDE[prod_short](includes/prod_short.md)]
+### Viðbót við safn valkosta í [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Búa til nýja AL-viðbót.
 
 2. Bæta við viðbót fasttexta fyrir valkostina sem auka á við. Gætið þess að sama gildi sé notað. 
@@ -109,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Fyrstu tíu stafirnir á nýjum heitum og myndatextum valgilda verða að vera einkvæmir. Til dæmis kemur upp villa ef tveir valkostir heita „Transfer 20 working days“ og „Transfer 20 calendar days“ vegna þess að báðir eru með fyrstu 10 stafina „Transfer 2“. Nefndu þá til dæmis „TRF20 WD“ og „TRF20 CD.“
 
-### <a name="update-prod_short-option-mapping"></a>Uppfæra vörpun [!INCLUDE[prod_short](includes/cds_long_md.md)] valkostar
+### Uppfæra vörpun [!INCLUDE[prod_short](includes/cds_long_md.md)] valkostar
 Nú er hægt að endurgera vörpunina milli [!INCLUDE[prod_short](includes/cds_long_md.md)] valkosta og [!INCLUDE[prod_short](includes/prod_short.md)] færslna.
 
 Á síðunni **Vörpun samþættingartöflu** skal velja línuna fyrir vörpun **Greiðsluskilmálar** og síðan velja aðgerðina **Samstilla breyttar færslur**. Síðan **Dataverse Vörpun valkosta** er uppfærð með viðbótarfærslunum hér að neðan.
@@ -145,7 +140,7 @@ Taflan **Greiðsluskilmálar** í [!INCLUDE[prod_short](includes/prod_short.md)]
 | *NET60*      |                      |                           | 0.         | RANGT                         |                   |
 | ***MILLIFÆRSLA*** |                      |                           | 0.         | RANGT                         |                   |
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Vörpun á töflum og reitum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

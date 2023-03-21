@@ -1,23 +1,17 @@
 ---
 title: Uppsetning bankaþjónustu
-description: Hægt er að nota bankareikningsspjöld til að fylgjast með bankareikningunum þínum og setja upp bankastreymi, eins og t.d. Yodlee, fyrir gagnaskipti.
+description: 'Hægt er að nota bankareikningsspjöld til að fylgjast með bankareikningunum þínum og setja upp bankastreymi, eins og t.d. Yodlee, fyrir gagnaskipti.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
+ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516396"
 ---
-# <a name="setting-up-banking"></a>Uppsetning bankaþjónustu
+# Uppsetning bankaþjónustu
 
 Með því að nota bankareikningaspjöld er hægt að fylgjast með öllum bankareikningum, í hvaða gjaldmiðli sem er. Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun.
 
@@ -31,7 +25,7 @@ Til að geta notað rafræna bankaþjónustu til að flytja inn bankayfirlit og 
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  

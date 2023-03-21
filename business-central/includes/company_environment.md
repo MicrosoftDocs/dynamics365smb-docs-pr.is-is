@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317375"
 ---
 [!INCLUDE[prod_short](prod_short.md)] notendur styðja stundum meira en eina deild eða undirfyrirtæki innan viðskiptaeiningar. Til dæmis gæti fyrirtæki verið með söluskrifstofur í mismunandi borgum og mörgum löndum og því er búið að stofna aðskildar fyrirtækjaeiningar fyrir hverja skrifstofu. Skrifstofurnar sem eru í sama landi eru settar upp sem aðskilin *fyrirtæki* í sameiginlegu *umhverfi*. Aðrar skrifstofur eru stofnaðar sem fyrirtæki í aðgreindu umhverfi þar sem þær eru landfræðilega staðsettar í öðrum löndum.
 

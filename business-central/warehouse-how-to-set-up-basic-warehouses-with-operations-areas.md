@@ -1,23 +1,17 @@
 ---
 title: Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
-description: Settu upp svæði vöruhúsaaðgerða og notaðu birgðahreyfingar, tínslu og frágang til að flytja vörur á milli þeirra.
+description: 'Settu upp svæði vöruhúsaaðgerða og notaðu birgðahreyfingar, tínslu og frágang til að flytja vörur á milli þeirra.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 6774, 6775, 6776
+ms.search.keywords: null
+ms.search.form: '6774, 6775, 6776'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0f90d7e92f4196a27712a1eedbd3cd66c15a9fc2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534022"
 ---
-# <a name="set-up-basic-warehouses-with-operations-areas"></a>Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
+# Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
 
 Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota eftirfarandi vöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi:  
 
@@ -41,14 +35,14 @@ Eftirfarandi ferli eru byggð á uppsetningu einfaldra vöruhúsaðgerða í kri
 > [!NOTE]  
 >  Í eftirfarandi aðgerð er uppsettningarreiturinn **Hólf áskilið** á birgðageymsluspjaldi valinn sem forskilyrði, þar sem litið er á það sem grundvöll fyrir öll stig vöruhúsastjórnunar.  
 
-## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Til að virkja birgðaskjöl fyrir innri aðgerðir
+## Til að virkja birgðaskjöl fyrir innri aðgerðir
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.
 2. Opna birgðageymsluspjaldið sem á að setja upp.  
 3.  Á flýtiflipanum **Vöruhús** skal velja gátreitinn **Þarf að ganga frá** til að gefa til kynna að þegar inn- eða innra upprunaskjal með hólfakóða er gefið út, er hægt að stofna birgðafrágang eða birgðahreyfingu.  
 4.  Veljið gátreitinn **Krefjast tínslu** til að gefa til kynna að þegar útleiðarskjal eða innra upprunaskjal með hólfakóta er stofnað skuli einnig stofna birgðatínslu- eða birgðahreyfingarskjal.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Til að skilgreina sjálfgefna hólfaskipan í framleiðslusvæðinu
+## Til að skilgreina sjálfgefna hólfaskipan í framleiðslusvæðinu
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.
 2. Opna birgðageymsluna sem setja á upp.  
@@ -66,20 +60,20 @@ Núna krefjast íhlutalínur framleiðslupöntunar með sjálfgefinn hólfakóta
 
 ![Flæðirit hólfs.](media/binflow.png "BinFlow")
 
-## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Til að skilgreina sjálfgefna hólfaskipan í samsetningarsvæðinu
+## Til að skilgreina sjálfgefna hólfaskipan í samsetningarsvæðinu
 
-Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota skal síðuna **Birgðahreyfing** í staðinn. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota skal síðuna **Birgðahreyfing** í staðinn. Frekari upplýsingar er að finna  [í taka til eða færa fyrir framleiðslu, samsetningu eða vinnslur í Grunnvöruhúsi](warehouse-how-to-pick-for-production.md).
 
 Ef magn sölulínu tínslu og afhendingar er sett saman í pöntunina skal fylgja nokkrum reglum við stofnun birgðatínslulína. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Tína vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 Nánari upplýsingar, sjá [Samsetningarstjórnun](assembly-assemble-items.md).
 
-### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Til að setja það upp að birgðahreyfing sé sjálfkrafa búin til þegar birgðatínsla fyrir samsetningarvöru er stofnuð.
+### Til að setja það upp að birgðahreyfing sé sjálfkrafa búin til þegar birgðatínsla fyrir samsetningarvöru er stofnuð.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samsetningar** og velja síðan viðkomandi tengil.
 2. Veljið gátreitinn **Stofna hreyfingar sjálfkrafa**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Til að setja upp hólfið á samsetningarsvæðinu sem íhlutir eru sjálfgefið settir á áður en nota má þá við samsetningu.
+### Til að setja upp hólfið á samsetningarsvæðinu sem íhlutir eru sjálfgefið settir á áður en nota má þá við samsetningu.
 
 Gildið í þessum reit er sjálfkrafa sett inn í reitinn **Hólfkóði** á samsetningarpantanalínum þegar þessi staðsetning er sett í **Staðsetningarkóði** reitinn á samsetningarpöntunarlínunni.
 
@@ -87,7 +81,7 @@ Gildið í þessum reit er sjálfkrafa sett inn í reitinn **Hólfkóði** á sa
 2. Opna birgðageymsluna sem setja á upp.
 3. Færið inn **Í samsetningu hólfakóði** reitinn.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Til að setja upp hólfið á samsetningarsvæðinu þar sem fullunnir samsetningaríhlutir eru bókaðir þegar þeir eru settir saman á lager.
+### Til að setja upp hólfið á samsetningarsvæðinu þar sem fullunnir samsetningaríhlutir eru bókaðir þegar þeir eru settir saman á lager.
 
 Gildið í þessum reit er sjálfkrafa sett inn í reitinn **Hólfkóði** á samsetningarpantanahausum þegar þessi staðsetningarkóði er settur í reitinn **Staðsetningarkóði** á samsetningarpöntunarhausnum.
 
@@ -100,7 +94,7 @@ Hólfakótar sem eru settir upp á birgðageymsluspjöldum skilgreina sjálfgefi
 2. Opna birgðageymsluna sem setja á upp.
 3. Færið inn **Frá-samsetning hólfkóða** reitinn.
 
-### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Til að setja upp hólfið sem fullunnir samsetningaríhlutir eru bókaðir þegar þeir eru settir saman í tengda sölupöntun.
+### Til að setja upp hólfið sem fullunnir samsetningaríhlutir eru bókaðir þegar þeir eru settir saman í tengda sölupöntun.
 
 Úr þessu hólfi eru samsetningaríhlutir afhentir strax með birgðatínslu til að uppfylla sölupöntunina.
 
@@ -122,7 +116,7 @@ Sami hólfakóði er svo afritaður í reitinn **Hólfkóði** í birgðatínslu
 2. Opna birgðageymsluna sem setja á upp.
 3. Færið inn **Setja saman í pöntun hólfakóði** reitinn.
 
-## <a name="to-create-dedicated-component-bins"></a>Til að stofna sérnýtt íhlutahólf
+## Til að stofna sérnýtt íhlutahólf
 
 Hægt er að tilgreina að magn í hólfi sé varið fyrir tínslu fyrir aðra eftirspurn vegna núverandi tilgangs.
 
@@ -142,15 +136,14 @@ Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir
 > [!NOTE]  
 >  Hólfið verður að vera tómt áður en hægt er að velja eða hreinsa svæðið **Sérnýtt**.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
-[Birgðir](inventory-manage-inventory.md)  
+[Yfirlit](design-details-warehouse-management.md)
+[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
-[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -1,32 +1,26 @@
 ---
 title: Stofna innkaupabeiðni til að biðja um tilboð
-description: Lýsir því hvernig skal stofna sölutilboð eða beiðni um tilboð (RFQ) fylgiskjal, til að skrá tilboð til viðskiptamanns um að selja tilteknar vörur með tilteknum skilmálum.
+description: 'Lýsir því hvernig skal stofna sölutilboð eða beiðni um tilboð (RFQ) fylgiskjal, til að skrá tilboð til viðskiptamanns um að selja tilteknar vörur með tilteknum skilmálum.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.search.form: 49, 97, 9306, 9346
+ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 870fa31361770f5bd773f22ff24a54d65a4b80a3
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607581"
 ---
-# <a name="request-quotes"></a>Biðja um tilboð
+# Biðja um tilboð
 
 Hægt er að nota innkaupabeiðni sem uppkast fyrir innkaupapöntun sem síðan er hægt að breyta í innkaupareikning.
 
-## <a name="create-a-purchase-quote"></a>Stofna innkaupabeiðni
+## Stofna innkaupabeiðni
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupabeiðnir**, velja síðan viðkomandi tengil.
 2. Stofna nýtt skjal á sama hátt og þú býrð til innkaupapöntun. Frekari upplýsingar eru á [Skrá innkaup](purchasing-how-record-purchases.md).
 
-## <a name="convert-a-purchase-quote-to-a-purchase-order"></a>Umbreyta innkaupabeiðni í innkaupapöntun
+## Umbreyta innkaupabeiðni í innkaupapöntun
 
 Þegar þú hefur samþykkt tilboð lánardrottins geturðu breytt því í innkaupapöntun til að vinna úr innkaupunum.
 
@@ -37,9 +31,9 @@ Innkaupabeiðnin er fjarlægt úr gagnagrunninum. Innkaupapöntun er stofnuð ú
 > [!NOTE]
 > Ekki er hægt að breyta innkauptilboði í innkaupareikning á beinan hátt, eins og er hægt með sölutilboð. Upplýsingar um hvernig á að stofna innkaupareikning er að finna í [Skrá innkaup með innkaupareikningum](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-purchase-documents-dynamics-365-business-central/).
+## Sjá tengda [Microsoft þjálfun](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  

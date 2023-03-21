@@ -6,18 +6,12 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 2500, 2502
+ms.search.keywords: 'personalize, add-in, extend, customize'
+ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606090"
 ---
-# <a name="customize-business-central"></a>Sérstilla Business Central
+# Sérstilla Business Central
 
 Það eru mismunandi leiðir til að sérstilla forritið til að gefa þér og samstarfsmönnum þínum aðgang að þeim eiginleikum, virkni og gögnum sem þú þarft mest á þann hátt sem hentar best daglegu starfi þínu. Það hvaða breytingar sjást veltur á því hvað þú gerir, eins og lýst er í þessari töflu.
 
@@ -34,9 +28,9 @@ ms.locfileid: "9606090"
 > [!NOTE]
 > Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga. Þess vegna geta notendur með **Grunnútgáfu** stundum lesið um virkni og viðmótseiginleika sem ekki eru sýnilegir í notendaviðmóti þeirra. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

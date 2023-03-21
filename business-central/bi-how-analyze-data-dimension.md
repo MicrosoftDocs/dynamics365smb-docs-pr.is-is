@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
+ms.search.keywords: 'bi, power BI, analysis, KPI'
+ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: 62c0cdbb3641ab55c58d5ce944591b2aeef7f059
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606252"
 ---
-# <a name="analyze-data-by-dimensions"></a>Greina gögn eftir víddum
+# Greina gögn eftir víddum
 
 Í fjárhagsgreiningu er vídd tiltekin gögn sem má bæta við færslu sem einskonar merki. Þessi gögn eru notuð til að flokka saman færslur með svipuð einkenni, eins og viðskiptamenn, svæði, vörur og sölumenn og sækja þessa hópa á auðveldan hátt til greiningar. Víddir má nota fyrir færslur í færslubókum, skjölum og fjárhagsáætlunum. 
 
@@ -29,7 +23,7 @@ Hver „vídd“ lýsir áherslu greiningar. Tvívíð greining gæti því til 
 > [!NOTE]
 > Ef kemur í ljós að rangt víddargildi hafi verið notuð í bókuðum fjárhagsfærslum er hægt að leiðrétta þau og uppfæra greiningaryfirlitin. Fáðu frekari upplýsingar í hlutanum [Úrræðaleit og víddarleiðréttingar](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="set-up-an-analysis-view"></a>Setja upp greiningaryfirlit
+## Setja upp greiningaryfirlit
 
 Greining eftir víddum notar valda samsetningu af víddum. Þú geymir, sækir og uppfærir þessa vídd með því að búa til **Greiningaryfirlitsspjald**. 
 
@@ -39,7 +33,7 @@ Greining eftir víddum notar valda samsetningu af víddum. Þú geymir, sækir o
 4. Til að bæta öðrum víddarkóðum við þá fjóra sem fyrir eru á flýtiflipanum **Víddir** er aðgerðin **Afmörkun** valin, reitirnir fylltir út og síðan er smellt á **Í lagi** hnappinn.  
 5. Til að uppfæra yfirlitið er valin aðgerðin **Uppfæra**.
 
-## <a name="analyze-by-dimensions"></a>Greina eftir víddum
+## Greina eftir víddum
 
 Notaðu greiningaryfirlit sem þegar hafa verið sett upp með fylkinu **Greining eftir víddum** til að skoða upphæðirnar í fjárhagnum.   
 
@@ -61,7 +55,7 @@ Notaðu greiningaryfirlit sem þegar hafa verið sett upp með fylkinu **Greinin
 > [!TIP]  
 > Einnig er hægt að breyta útlitinu með því að breyta innihaldi reitanna **Sýna sem línur** og **Sýna sem dálka** . Til að snúa við yfirlitsstillingu, skal velja aðgerðina **Snúa við línum og dálkum**.
 
-## <a name="update-an-analysis-view"></a>Uppfæra greiningaryfirlit
+## Uppfæra greiningaryfirlit
 
 Upphæðirnar sem sýndar eru á síðunni **Greining eftir víddum** gefa mynd af stöðu fyrirtækisins við síðustu uppfærslu. Til að sjá mynd af núverandi stöðu verður að uppfæra greiningaryfirlitið með því að keyra uppfærsluaðgerðina.
 
@@ -79,9 +73,9 @@ Notaðu eftirfarandi aðferð til að uppfæra greiningaryfirlit af síðunni **
 > [!NOTE]  
 > Til að uppfæra sum eða öll greiningaryfirlit á sama tíma, þarf að nota runuvinnsluna **Uppfæra greiningaryfirlit**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
+## Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Viðskiptagreind fjármála](bi.md)  
 [Fjármál](finance.md)  

@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f04f49c301b38236be1dda3334e8560584a4e6b4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528894"
 ---
-# <a name="make-drop-shipments"></a>Beinar sendingar
+# Beinar sendingar
 
 Bein afhending er afhending frá einum af lánardrottnum fyrirtækisins beint til einhvers af viðskiptamönnum fyrirtækisins.
 
@@ -25,7 +19,7 @@ Bein afhending er afhending frá einum af lánardrottnum fyrirtækisins beint ti
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## <a name="to-create-a-sales-order-for-drop-shipment"></a>Sölupöntun fyrir beina afhendingu búin til
+## Sölupöntun fyrir beina afhendingu búin til
 
 Til að undirbúa beina sendingu, er stofnuð sölupöntun fyrir vöru og tilgreina í sölulínunni að salan krefst beinnar sendingar.
 
@@ -35,7 +29,7 @@ Til að undirbúa beina sendingu, er stofnuð sölupöntun fyrir vöru og tilgre
 > [!TIP]
 > Gátreiturinn „Bein afhending“ er sjálfgefið ekki í boði í línunum. Ef svo er ekki getur þú bætt honum við með því að sérsníða þann hluta síðunnar sem inniheldur línurnar. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Innkaupapöntunin stofnuð fyrir beina sendingu
+## Innkaupapöntunin stofnuð fyrir beina sendingu
 
 Til að undirbúa beina sendingu, skal tilgreina í innkaupapöntuninni að senda þarf hana til viðskiptamannsins, ekki til þín.
 
@@ -52,7 +46,7 @@ Nú getur þú sagt lánardrottinum þínum að senda vörurnar beint til viðsk
 
 Ef lánardrottinn þinn gefur upp rakningarnúmer eða svipaðar upplýsingar geturðu bætt þeim upplýsingum við í innkaupapöntunarlínu af gerðinni *Athugasemd*.  
 
-## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Að stofna margar innkaupapantanir fyrir beinar sendingar
+## Að stofna margar innkaupapantanir fyrir beinar sendingar
 
 Einnig er hægt að nota innkaupatillögublað til að stofna innkaupapöntunina fyrir lánardrottin. 
 
@@ -64,11 +58,11 @@ Kosturinn við að nota innkaupatillögublaðið er sá að hægt er að stofna 
 4. Yfirfara innkaupapöntunarlínur, og í reitnum **Lánardrottnanr.** skal velja lánardrottin sem veitir nauðsynlegar vörur. 
 5. Veljið aðgerðina **Framkvæma aðgerðaboð** til að færa yfirfarnar línur í innkaupapöntun.
 
-## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Til að skoða tengda innkaupapöntunina úr sölupöntuninni
+## Til að skoða tengda innkaupapöntunina úr sölupöntuninni
 
 * Veldu Sölupöntunarlínu beinnar sendingar, veldu **Pöntun** aðgerð og veldu **Bein sending** aðgerð og síðan er valið aðgerðin **Innkaupapöntun**.
 
-## <a name="to-post-a-drop-shipment"></a>Til að bóka beina afhendingu
+## Til að bóka beina afhendingu
 
 Þegar lánardrottinn hefur sent vörur, er hægt að bóka sölupöntunina sem senda. Einnig er hægt að bóka innkaupapöntun, en aðeins með **Móttöku** valkostinn fyrr en sölupöntunin hefur verið reikningsfært.
 
@@ -78,9 +72,9 @@ Kosturinn við að nota innkaupatillögublaðið er sá að hægt er að stofna 
 4. Veljið aðgerðina **bóka** eða **Bóka og senda**.
 5. Síðan er annað hvort valið **senda** valkosturinn til að reikningsfæra síðar eða valkostinn **senda og reikningsfæra** eigi að reikningsfæra strax.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)  
 [Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md)  

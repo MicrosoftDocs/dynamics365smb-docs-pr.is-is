@@ -1,300 +1,363 @@
 ---
 title: Hönnunarupplýsingar - Meðhöndlun endurpöntunarstefnur
-description: Í þessari grein er yfirlit yfir verkefni sem tengjast meðhöndlun endurpöntunarstefna og skilgreiningu endurpöntunarstefna í birgðaáætlunargerð.
-author: SorenGP
+description: Þessi grein gefur yfirlit yfir endurpöntunarefnin sem nota má í áætlun framboðs.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 705948d59e5ecf724f0dcaa1546485914c16fe23
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142446"
+ms.date: 02/24/2023
+ms.custom: bap-template
 ---
-# <a name="design-details-handling-reordering-policies"></a>Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur
-Til þess að vara geti tekið þátt í birgðaáætlunargerð verður að tilgreina endurpöntunarstefnu. Eftirfarandi fjórar endurpöntunarstefnur eru til:  
+# Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur
+
+Til að taka með vöru með í birgðaáætlanagerð þarf að tilgreina endurpöntunarstefnu fyrir hana á  **síðunni birgðaspjald** . Eftirfarandi endurpöntunarstefnur eru tiltækar:  
 
 * Fast endurpöntunarmagn  
 * Hámarksmagn  
-* Röð  
+* Pöntun  
 * Lotu-fyrir-lotu  
 
-Stefnur um fast endurpöntunarmagn og hámarksmagn tengjast birgðaáætlunargerð. Þó birgðaáætlanagerð sé tæknilega einfaldari en mótbókunaraðferð eru þessar stefnur báðar til með nákvæmri mótbókun framboðs og pöntunarrakningu. Til að stjórna samþættingu milli tveggja, og að veita sýnileika í þátt áætlanagerð rökfræði, strangar reglur gilda hversu endurröðun reglur eru meðhöndlaðar.  
+ **Fast Endurpöntunarmagn.**  og  **Hámarksmagn**  stefnur tengjast birgðaáætlanagerð. Þessar stefnur eru með skref-fyrir-skref-jöfnun framboðs og pöntunar.  
 
-## <a name="the-role-of-the-reorder-point"></a>Hlutverk endurpöntunarmarks
-Í viðbót við almenna jafnvægi á framboð og eftirspurn, áætlanagerð kerfi verður einnig fylgjast birgðastigum fyrir viðkomandi vöru að virða skilgreind endurröðun stefnu.  
+## Hlutverk endurpöntunarpoint
 
-Endurpöntunarmark stendur fyrir eftirspurn á afhendingartíma. Þegar áætlaðar birgðir fara undir birgðastigið sem endurpöntunarmark skilgreinir er kominn tími til að panta meira magn. Á meðan eiga birgðir smám saman að minnka og mögulega ná núlli (eða öryggisbirgðastigi), þar til fyllt er á.  
+Endurpöntunarmark stendur fyrir eftirspurn á afhendingartíma. Þegar birgðir eru áætlaðar til að fara yfir stigið sem er skilgreint af endurpöntunarefninu er kominn tími til að panta meira. Birgðir minnka smám saman þar til Áfylling kemur. Það gæti náð núlli eða öryggisbirgðastigi. Áætlunarkerfið stingur upp á fyrirfram röðuðu framboðinu á punktinn þegar birgðirnar fara fyrir neðan endurpöntunarpunktinn.  
 
-Í samræmi mun áætlunarkerfið stinga upp á framboðspöntun sem er dagsett í framtíðinni á þeim tíma þegar áætlaðar birgðir fara undir endurpöntunarmark.  
+Birgðastig geta farið verulega í tímarammanum. Þess vegna fylgist áætlanakerfið stöðugt að tiltækum birgðum.
 
-Endurpöntunarmarkið endurspeglar tiltekið birgðastig. Hins vegar geta birgðastig hreyfst töluvert innan tímarammans og þess vegna verður áætlanakerfið að fylgjast stöðugt með áætluðum tiltækum birgðum.
+## Vöktun áætlaðra birgðastita og endurpöntunarsjónarmiða
 
-## <a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Vöktun áætlaðs birgðastigs og endurpöntunarmarks
 Birgðir eru tegund af framboði, en fyrir birgðaáætlanagerð, greinir áætlanakerfið milli tveggja birgðastiga:  
 
 * Áætlaðar birgðir  
 * Áætlaðar tiltækar birgðir  
 
-### <a name="projected-inventory"></a>Áætlaðar birgðir  
-Upphaflega áætlað birgðir er magn af vergri birgðum, þ.mt framboð og eftirspurn í fortíðinni, jafnvel þótt ekki bókað, þegar áætlanagerð er ræst. Í framtíðinni, verður þetta færanlegar áætlaðar birgðastig sem er viðhaldið af vergu magni frá síðara framboð og eftirspurn vegna þess að þeir eru kynnt eftir tímalínu (hvort sem er fráteknar eða öðrum hætti úthlutað).  
+### Áætlaðar birgðir  
 
-Áætlaðar birgðir skal nota af áætlanakerfinu þegar eftirlit er haft með endurpöntunarmarki og til að ákvarða endurpöntunarmang þegar endurpöntunarstefnan Hámarksmagn er notuð.  
+Í upphafi áætlunarferlis eru áætlaðar birgðir brúttó magn birgða. Brúttómagnið inniheldur bókað og sent framboð og eftirspurn í fortíðinni. Þetta magn verður áætlað birgðastig sem brúttómagn frá framtíðar framboði og þörfum er viðhaldið. Framtíðarframboð og eftirspurn eru kynnt meðfram tímalínunni, hvort sem er frátekið eða úthlutað með öðrum hætti.  
 
-### <a name="projected-available-inventory"></a>Áætlaðar tiltækar birgðir  
-Áætlaðar tiltækar birgðir eru hluti af áætluðum birgðum sem eru tiltækar á einhverjum tilteknum tíma til að mæta eftirspurn. Áætlaðar tiltækar birgðir skal nota af áætlanakerfinu þegar eftirlit er haft með öryggisbirgðum.  
+Áætlanakerfið notar áætlaðar birgðir til að fylgjast með endurpöntunarefninu og ákvarða pöntunarmagnið með því að nota  **Hámarksmagn.**  endurpöntunarstefnu.  
 
-Áætlaðar tiltækar birgðir skal nota af áætlanakerfinu þegar eftirlit er haft með öryggisbirgðum, þar sem öryggisbirgðir þurfa alltaf að vera tiltækar til að mæta óvæntri eftirspurn.  
+### Áætlaðar tiltækar birgðir  
 
-### <a name="time-buckets"></a>Tímarammar  
-Góð stjórna á áætluðum birgðum er lykilatriði þegar greina á hvenær endurpöntunarmarki er náð og farið er yfir það og til að ákvarða rétt endurpöntunarmagn þegar endurpöntunarstefnan Hámarksmagn er notuð.  
+Áætlaðar tiltækar birgðir eru birgðir sem eru tiltækar til að uppfylla eftirspurn á tilteknum tímapunkti. Áætlanakerfið notar áætlaðar tiltækar birgðir þegar verið er að vakta öryggisbirgðastig. Öryggisbirgðir verða ávallt að vera tiltækar fyrir óvænta eftirspurn.  
 
-Eins og fyrr segir er áætlað birgðastig reiknað í upphafi áætlunartímabilsins. Það er brúttó stig sem tekur ekki tillit til frátekninga og svipa‘ðra úthlutun. Til að fylgjast með þessu birgðastig á áætlunarröð, kerfið fylgist uppsöfnuðum breytingar yfir a tímabil , tímarammi. Kerfið tryggir að tímaramminn sé a.m.k. einn dagur þar sem það er nákvæmasta tímaeiningin fyrir birgðir eða eftirspurn.  
+### Tímafötur  
 
-### <a name="determining-the-projected-inventory-level"></a>Ákvarða áætlaðar birgðir  
-Eftirfarandi röð lýsir því hvernig áætlað birgðastig er ákvarðað:  
+Áætlaðar birgðir eru mikilvægar uppgötvun þegar pöntunarpunkti er náð eða yfir og til að reikna rétt pöntunarmagn þegar notað er  **Hámarksmagn.**  endurpöntunarstefnu.  
 
-* Þegar framboðstilvik, svo sem innkaupapöntun, hefur verið algerlega skipulögð, mun það auka áætlaðar birgðir á skiladegi.  
-* Þegar eftirspurnartilvik hefur verið að fullu uppfyllt, mun það ekki minnka áætlaðar birgðir strax. Í staðinn, bókar það minnkunaráminningu, sem er innri skrá sem geymir dagsetningu og magn af framlagi þess til áætlaðra birgða.  
-* Þegar síðara framboðstilvik er skipulögð og sett á tímalínu, eru bókaðar minnkunaráminningar rannsakaðar eitt af öðru fram til fyrirhuguðum degi framboðs meðan áætlaðar birgðir eru uppfærðar. Á meðan á þessu ferli getur endurpöntunarmarki innri aukningaráminningar verið náð eða farið yfir það.  
-* Ef ný birgðapöntun er innleidd athugar kerfið hvort hún sé færð inn á undan núverandi birgðum. Ef svo er verður nýja framboðið núverandi framboð og mótreikningsaðferðin hefst upp á nýtt.  
+Áætlað birgðastig er reiknað við upphaf áætlunartímabilsins. Það er brúttóstigi sem telur ekki til frátekningar eða annarra úthlutana. Til að fylgjast með þessu birgðastigi við áætlunarröðina fylgist áætlanakerfið eftir uppsöfnuðum breytingum yfir tímabil. Það tímabil kallast  *tímarammi*. Til að fræðast meira um tímafötur er farið í  [tímafötur](#time-buckets). Áætlanakerfið tryggir að tímarammi sé a.m.k. einn dagur. Einn dagur er lágmarkseiningaeining vegna eftirspurnar-eða framboðsatvika.  
 
-Eftirfarandi sýnir mynd af þessari meginreglu:  
+### Ákvarða áætlað birgðastig  
+
+Eftirfarandi röð lýsir því hvernig áætlanakerfið ákvarðar áætlað birgðastig:  
+
+* Þegar framboðsatburður er að fullu Áætlaður, eins og innkaupapöntun, eykur það áætlaðar birgðir á gjalddaga viðburðarins.  
+* Þegar eftirspurnartilvik er fullkomlega fullnægjandi minnkar það áætlaðar birgðir strax. Þess í stað bókar hún minnkaða áminningu, sem er innri færsla sem inniheldur dagsetningu og magn viðbóta við áætlaðar birgðir.  
+* Þegar seinna framboðsatvik er áætlað og bætt við tímalínu kannar kerfið bókaðar minnkun áminningar um einn til áætlaðrar dagsetningar framboðins. Meðan á þessu ferli stendur gæti endurpöntunarstig innri aukningar áminningarinnar náð til eða farið yfir þau.  
+* Ef ný framboðsathugun er kynnt athugar hún hvort hún sé slegin inn á undan núverandi framboði. Ef svo er, verður nýja framboðið núverandi framboð og Jöfnunaraðferðin endurræst.  
+
+Eftirfarandi mynd sýnir þessa meginreglu.  
 
 ![Ákvarða áætlaðar birgðir.](media/nav_app_supply_planning_2_projected_inventory.png "Ákvarða áætlaðar birgðir")  
 
 1. Framboð **Sa** af 4 (fast) lokar Eftirspurn **Da** af -3.  
 2. CloseDemand: Búa til lækkunaráminningu -3 (ekki sýnt).  
-3. Framboð **Sa** er lokað með afgangi upp á 1 (engin frekari eftirspurn er til).  
+3. Framboði  **SA**  er lokað með umfjallanir um 1 (það er ekki meiri eftirspurn).  
 
-     Þetta eykur áætlað birgðastig í +4, á sama tíma og áætlaðar tiltækar birgðir **í boði** verða -1.  
+     Áætlað birgðastig hækkar í + 4 á meðan áætlaðar  **tiltækar**  Birgðir verða-1.  
 
 4. Næsta eftirspurn **Sb** af 2 (önnur pöntun) hefur þegar verið sett á tímalínuna.  
-5. Kerfið athugar hvort það sé einhver minnkunaráminning á undan **Sb** (það er ekki, þannig að ekki er gripið til aðgerða).  
-6. Kerfið lokar framboði **Sb** (ekki fleiri eftirspurn) -annað hvort A: með því að minnka það til 0 hætta við eða B: með því að skilja eftir eins og er.  
+5. Áætlunarkerfið leitar að minnkum áminningum áður en  **sb**  (í þessu dæmi er ekki svo að engin aðgerð sé tekin).  
+6. Áætlanakerfið lokar framboði  **sb**  (ekki er þörf á meiri eftirspurn) við annað hvort A, draga frá það á 0 (hætta við) eða B, með því að fara eftir því eins og er.  
 
-     Þetta eykur áætlað birgðastig (A: +0 => +4 eða B: +2 = +6).  
+     Áætlað birgðastig hækkar (A: + 0 = > + 4 eða B: + 2 = + 6).  
 
-7. Kerfið gerir endanlega athugum: Er einhver minnkunaráminning? Já, það er eitt á dagsetningunni **Da**.  
-8. Kerfi bætir við minnkunaráminningu -3 við áætlað birgðastig, annað hvort A: +4 -3 = 1 eða B: +6 -3 = +3.  
-9. Í tilviki A býr kerfið til framvirkt áætlaða pöntun sem hefst á degi **Da**  
+7. Áætlanakerfið gerir lokaathugun. Er einhver lækkun áminning? Já, það er eitt á dagsetningunni **Da**.  
+8. Áætlanakerfið bætir minnkaðri áminningu um-3 áminningu á áætluðu birgðastigi, annaðhvort A: + 4 -3 = 1 eða B: + 6 -3 = + 3.  
+9. Fyrir A stofnar áætlanakerfið framáætlaða pöntun sem er ræst á degi  **da**. Fyrir B er endurpöntunarpunkti náð og ný pöntun er stofnuð.
 
-     Í tilviki B er pöntunarmarki náð og ný pöntun er stofnuð.
+## Hlutverk tímarammans
 
-## <a name="the-role-of-the-time-bucket"></a>Hlutverk tímaramma
 Tilgangurinn með tímarammanum er að safna saman eftirspurnartilvikum innan tímasíðunnar til að útbúa sameiginlega birgðapöntun.  
 
-Fyrir endurpöntunarstefnur sem nota endurpöntunarmark er hægt að skilgreina tímaramma. Þetta tryggir að eftirspurn innan sama tímabils sé safnað upp áður en áhrifin á áætlaðar birgðir eru könnuð, og hvort endurpöntunarmarki hafi verið náð. Ef farið er yfir endurpöntunarmarkið er ný birgðapöntun áætluð framvirkt frá lokum tímabilsins sem skilgreint er í tímarammanum. Tímaramminn hefst á upphafsdagsetningu áætlunar.  
+Fyrir endurpöntunarstefnur sem nota endurpöntunarmark er hægt að skilgreina tímaramma. Tímafötur hjálpa til við að tryggja að kröfuhafar innan sama tímabils séu uppsafnaðra. Kerfið athugaði síðan áhrifin á áætlaðar birgðir og hvort endurpöntunarpunktur hafi verið liðinn.
 
-Tímaramminn endurspeglar það handvirka ferli að kanna birgðastigið oft fremur en fyrir hverja færslu. Notandinn verður að tilgreina tíðnina (tímarammann). Til dæmis safnar notandinn saman öllum vöruþörfum frá einum lánardrottni til að leggja inn vikulega pöntun.  
+Ef komið er framhjá endurpöntunarpunkti raðar kerfið nýrri framboðapöntun úr lok tímarammans. Tímaskeið í fötum byrja á upphafsdegi áætlunar.  
+
+Hugtak tímarammans endurspeglar handvirka ferlið við að athuga birgðastig á tíddum grunni frekar en fyrir hverja færslu. Tíðnin er skilgreind (tímarammans). Til dæmis væri hægt að safna öllum vöruþörfum frá lánardrottni til að setja vikulega pöntun.  
 
 ![Dæmi um tímaramma í skipulagningu.](media/nav_app_supply_planning_2_reorder_cycle.png "Dæmi um tímaramma í skipulagningu")  
 
-Tímaramminn er vanalega notaður til að forðast keðjuverkun. Til dæmis jöfn lína framboðs og eftirspurnar þar sem fyrri eftirspurn er afturkölluð eða ný búin til. Niðurstaðan ætti að vera sú að framboðspöntunin (nema sú síðasta) er enduráætluð.
+Tímafötur eru oft notaðar til að forðast Cascade áhrif. Til dæmis jöfn lína framboðs og eftirspurnar þar sem fyrri eftirspurn er afturkölluð eða ný búin til. Niðurstaðan ætti að vera sú að framboðspöntunin (nema sú síðasta) er enduráætluð.
 
-## <a name="staying-under-the-overflow-level"></a>Að vera undir yfirflæðisstigi
-Þegar reglur um hámarksmagn og fast endurpöntunarmagn eru notaðar einblínir áætlanakerfið aðeins á ætlaðar birgðir í tilgreindum tímaramma. Þetta þýðir að áætlanakerfið geta stinga upp á óþarfa framboð þegar neikvæð eftirspurn eða jákvæðar breytingar á framboð koma fram utan ákveðins tímaramma. Ef, af þessum sökum, umframframboð er stungið upp á, reiknar áætlanagerðarkerfið hvaða magn framboðið skal minnka í (eða eytt) til að forðast umframframboð. Þetta magn er kallað „yfirflæðisstig“. Yfirflæðið er miðlað sem áætlanalína með **Breyta magni (Lækkun)** eða **Hætta við** aðgerð og eftirfarandi viðvörun skilaboð:  
+## Vera undir yfirstigi
 
-*Athugið: Áætlaðar birgðir [xx] er hærra en yfirflæðisstig [xx] á gjalddaga [xx].*  
+Þegar Hámarksmagn er  **notað.**  og  **Fast Endurpöntunarmagn.**  endurpöntunarstefnu, leggur áætlanakerfið áherslu á áætlaðar birgðir í uppgefin tímafötu eingöngu. Það gæti stungið upp á auka framboði þegar neikvæð eftirspurn eða jákvæð framboð breytinga gerast utan tímarammans. Fyrir auka framboð reiknar áætlanakerfið magnið með því að lækka framboðið. Þetta magn er kallað „yfirflæðisstig“. Yfirflæði er tiltækt sem áætlunarlína með  **Breytingarmagni (minnkun)**  eða  **Hætta**  við aðgerð og eftirfarandi viðvörunarskilaboðum:  
+
+* Takið eftir: áætlaðar birgðir [XX] eru hærri en yfirstraumstigið [XX] á gjalddaga [XX]. *  
 
 ![Yfirflæðisstig birgða.](media/supplyplanning_2_overflow1_new.png "Yfirflæðisstig birgða")  
 
-###  <a name="calculating-the-overflow-level"></a>Reiknar yfirflæðisstig  
-Yfirflæðisstigið er reiknað út á mismunandi hátt, allt eftir uppsetningu áætlana.  
+### Útreikningur á yfirstraumstigi  
 
-#### <a name="maximum-qty-reordering-policy"></a>Endurpöntunarstefna fyrir Hámarksmagn  
-Yfirflæðisstig = Hámarksbirgðir  
+Yfirstraumstigið er reiknað með mismunandi hætti eftir endurpöntunarstefnunni.  
 
-> [!NOTE]  
->  Ef lágmarkspöntunarmagn er til, þá verður því bætt við eins og hér segir: Yfirflæðisstig = Hámarksbirgðir + lágmarkspöntunarmagn.  
+#### Hámarksmagn
 
-#### <a name="fixed-reorder-qty-reordering-policy"></a>Endurpöntunarstefna fasts endurpöntunarmagn  
-Yfirflæðisstig = Endurpöntunarmagn + Endurpöntunarmark  
+Frárennslisstig = Hámarksbirgðir  
 
 > [!NOTE]  
->  Ef lágmarkspöntunarmagn er yfir endurpöntunarmarkinu er því skipt út eins og hér segir: Yfirflæðisstig = Endurpöntunarmagn + lágmarkspöntunarmagn  
+> Ef lágmarks pöntunarmagn er notað er því bætt við á eftirfarandi hátt:
+>
+> Frárennslisstig = Hámarksbirgðir + lágmarks pöntunarmagn.  
 
-#### <a name="order-multiple"></a>Margföld pöntun  
-Ef margföld pöntun er til mun hún leiðrétta yfirflæðisstigið fyrir endurpöntunarstefnurnar fyrir bæði hámarksmagn og fast endurpöntunarmagn.  
+#### Fast endurpöntunarmagn  
 
-###  <a name="creating-the-planning-line-with-overflow-warning"></a>Stofna áætlunarlínu með yfirfallsviðvörun  
-Þegar núverandi framboð veldur því að áætlaðar birgðir eru meiri en yfirflæðisstigið við lok tímaramma er búin til áætlunarlína. Til að vara við hugsanlega óþarft framboð, er áætlunarlínan með viðvörunarboð, **Samþykkja aðgerðaboð** reiturinn er ekki valinn, og aðgerðaboð eru annaðhvort Hætta við eða Breyta Magni.  
-
-#### <a name="calculating-the-planning-line-quantity"></a>Reiknar magn áætlunarlínu  
-Magn áætlunarlínu = Núverandi framboðsmagn – (Áætlaðar birgðir – Yfirflæðisstig)  
+Yfirstraumsmagn = endurskipuleggja magn + endurpöntunarstig  
 
 > [!NOTE]  
->  Eins og í öllum viðvörunarlínum verður hámarks-/lágmarkspöntunarmagn eða endurtekin pöntun hundsuð.  
+> Ef lágmarks pöntunarmagn er hærra en endurpöntunarstig er því skipt út á eftirfarandi hátt:
+>
+> Frárennslisstig = Endurpöntunarmagn + lágmarksmagn pöntunar  
 
-#### <a name="defining-the-action-message-type"></a>Skilgreina tegund aðgerðaboða  
+#### Fjöldapanta  
 
--   Ef magn áætlunarlínu er meira en 0 eru aðgerðaboðin Breyta magni.  
--   Ef magn áætlunarlínu er jafnt og eða minna en 0 eru aðgerðaboðin Hætta við.  
+Ef pöntunarmargfeldi er til, leiðréttir það yfirstraumshæð fyrir bæði Hámarksmagn og fast magn endurpöntunarmagns.  
 
-#### <a name="composing-the-warning-message"></a>Semja viðvörunarmerkið  
-Í tilviki yfirflæðis birtir síðan **Óraktar áætlunareiningar** viðvörunarskilaboð með eftirfarandi upplýsingum:  
+### Stofnun áætlunarlínunnar með viðvörun um straumleysi  
 
--   Áætlað birgðastig sem setti af stað viðvörunina.  
--   Reiknaða yfirflæðisstigið  
--   Lokadagur framboðstilviks.  
+Áætlunarlína er stofnuð þegar framboð veldur því að áætlaðar birgðir verða hærri en yfirstraumstigið við lok tímaramma. Til að vara við auka framboði hefur áætlunarlínan viðvörunarboð,  **reiturinn Samþykkja aðgerðaboð**  hefur ekki verið valinn og aðgerðaboð eru annað hvort  **hætt við**  eða  **skipt um magn.**  
 
-Dæmi Áætlaðar birgðir 120 eru meiri en yfirflæðisstigið 60 á 28-01-11  
+#### Reiknar út magn áætlunarlínu  
 
-### <a name="scenario"></a>Aðstæður  
-Í þessari atburðarás, breytir viðskiptamaður sölupöntun frá 70 í 40 stykki milli tveggja áætlunarkeyrslna. Yfirflæðisbúnaðurinn grípur inn í til að draga úr innkaupunum sem lögð voru til fyrir upphaflega sölumagnið.  
+Magnið í áætlunarlínu er reiknað út á eftirfarandi hátt:
 
-#### <a name="item-setup"></a>Vöruuppsetning  
+Magn áætlunarlínu = núverandi framboðsmagn – (áætlað birgðir – yfirrennslisstig)  
+
+> [!NOTE]  
+> Fyrir sAs með allar viðvörunarlínur er hámarks-og lágmarkspöntun magnið hunsað.  
+
+#### Skilgreining gerðar aðgerðabota  
+
+* Ef áætlunarlínumagnið er hærra en 0, er  **aðgerðaboðinn breyta magni.**  
+* Ef áætlunarlínumagnið er jafnt eða minna en 0 er  **hætt við að aðgerðaboðinn**  
+
+#### Semja viðvörunarskilaboðin  
+
+Ef frárennslislagnir eru í  **verði birtir óbirtar Áætlunareiningar**  með viðvörunarboðum með eftirfarandi upplýsingum:  
+
+* Áætlað birgðastig sem setti af stað viðvörunina.  
+* Reiknaða yfirflæðisstigið  
+* Gjalddagi framboðsatvika  
+
+Dæmi Áætlaðar birgðir 120 eru meiri en yfirflæðisstigið 60 á 01-28-23  
+
+### Dæmi um atburðarás  
+
+Í þessari atburðarás, breytir viðskiptamaður sölupöntun frá 70 í 40 stykki milli tveggja áætlunarkeyrslna. Yfirstraumsmöguleika dregur úr innkaupum sem var stungið upp á upphaflegu sölumagni.  
+
+#### Vöruuppsetning  
 
 |Endurpöntunarstefna|Hámarksmagn|  
 |-----------------------|------------------|  
-|Hámarksmagn pöntunar|100|  
+|Hámarksmagn pöntunar|100%|  
 |Endurpöntunarmark|50|  
 |Birgðir|80|  
 
-#### <a name="situation-before-sales-decrease"></a>Staða fyrir söluminnkun  
+#### Staða fyrir söluminnkun  
 
 |Atburður|Breyta magni|Áætlaðar birgðir|  
 |-----------|-----------------|-------------------------|  
-|Dagur eitt|Engin|80|  
+|Dagur eitt|Ekkert|80|  
 |Sala|-70|10|  
-|Lok tímaramma|Engin|10|  
-|Leggja til nýja innkaupapöntun|+90|100|  
+|Lok tímaramma|Ekkert|10|  
+|Leggja til nýja innkaupapöntun|+90|100%|  
 
-#### <a name="situation-after-sales-ddecrease"></a>Staða eftir söluminnkun  
+#### Staða eftir söluminnkun  
 
 |Breyting|Breyta magni|Áætlaðar birgðir|  
 |------------|-----------------|-------------------------|  
-|Dagur eitt|Engin|80|  
+|Dagur eitt|Ekkert|80|  
 |Sala|-40|40|  
 |Innkaup|+90|130|  
 |Lok tímaramma|Ekkert|130|  
-|Stinga upp á að minnka innkaup<br /><br /> panta frá 90 til 60|-30|100%|  
+|Stinga upp á að minnka innkaup<br><br> panta frá 90 til 60|-30|100%|  
 
-#### <a name="resulting-planning-lines"></a>Áætlunarlínur  
- Ein áætlunarlína (viðvörun) er stofnuð til að draga úr innkaupum um 30 úr 90 í 60 til að halda áætluðum birgðum í 100 samkvæmt yfirflæðisstiginu.  
+#### Áætlunarlínur sem leiða  
+
+Kerfið stofnar viðvörunaráætlunarlínu til að minnka innkaupin um 30, úr 90 í 60, til að halda áætluðum birgðum á 100 í samræmi við yfirstraumskerfið.  
 
 ![Áætla samkvæmt yfirflæðisstigi.](media/nav_app_supply_planning_2_overflow2.png "Áætla samkvæmt yfirflæðisstigi")  
 
 > [!NOTE]  
->  Ef búnaðurinn Yfirfall er ekki til staðar er ekki stofnuð nein viðvörun ef áætlaðar birgðir eru meiri en hámarksbirgðir. Þetta kann að valda óþörfu framboði upp á 30.
+> Án yfirstraumseiginleikinn er engin viðvörun stofnuð ef áætluð birgðastig eru umfram hámarkið sem gæti valdið því að auka framboðið um 30.
 
-## <a name="handling-projected-negative-inventory"></a>Að takast á við áætlaða neikvæða birgðastöðu
-Endurpöntunarmarkið endurspeglar ætlaða eftirspurn á afhendingartíma vörunnar. Þegar farið er yfir endurpöntunarmark er kominn tími til að panta meira magn. En áætlaðar birgðir verður að vera nógu stórt til að hylja eftirspurn þar til ný pöntun er móttekin. Á meðan ættu öryggisbirgðir að uppfylla sveiflur í eftirspurn að áætluðu þjónustustigi.  
+## Meðhöndlun áætlaðra neikvæðra birgða
 
- Þar af leiðandi lítur áætlanakerfi á það sem neyðarástand ef framtíðareftirspurn er ekki hægt að mæta úr áætlaðar birgðir eða m.ö.o. ef áætlaðar birgðir verða neikvæðar. Kerfið meðhöndlar þannig frávik með því að leggja til nýja birgðapöntun til að uppfylla þann hluta eftirspurnarinnar sem birgðir eða önnur eftirspurn getur ekki uppfyllt. Stærð pöntunar í nýju birgðapöntuninni mun ekki taka tillit til hámarksbirgða eða pöntunarmagns, né heldur til pantanabreytinganna Hámarksmagn pöntunar, Lágmarksmagn pöntunar eða Margföld pöntun. Í Staðinn, mun það endurspegla nákvæmlega skort.  
+Endurpöntunarmarkið endurspeglar ætlaða eftirspurn á afhendingartíma vörunnar. Áætlaðar birgðir verða að vera nógu stórar til að ná eftirspurninni þangað til ný pöntun berst. Á meðan ættu öryggisbirgðir að uppfylla sveiflur í eftirspurn að áætluðu þjónustustigi.  
 
- Áætlunarlína fyrir þessa gerð birgðapöntunar birtir viðvörunartákn og viðbótarupplýsingar birtast við uppflettingu, til að upplýsa notandann um stöðu mála.  
+Áætlunarkerfið telur það neyðartilvik ef ekki er hægt að bera framtíðareftirspurn fram úr áætluðum birgðum. Eða tilgreint á annan hátt, að áætlaðar birgðir fari neikvæðar úr. Kerfið bendir á að stofnuð hafi verið ný framboðtil að ná yfir óuppfyllta hluta eftirspurnarinnar. Stærð nýja framboðshurðarinnar mun ekki íhuga Hámarksbirgðir eða pöntunarmagn né breytir eftirfarandi pöntunarbreyti:
 
- Í eftirfarandi dæmi, framboð D táknar neyðarpöntun til að leiðrétta fyrir neikvæðum birgðum.  
+* Hámarksmagn pöntunar
+* Lágmarksmagn pöntunar
+* Fjöldapanta 
 
- ![Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu.](media/nav_app_supply_planning_2_negative_inventory.png "Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu")  
+Þess í stað endurspeglar það nákvæman skort.  
 
-1.  Framboð **A**, fyrstu áætlaðar birgðir, er undir pöntunarmark.  
-2.  Nýtt framsendingaráætlað framboð er stofnað (**C**).  
+Áætlunarlínan fyrir þessa gerð framboðapöntun mun birta  **neyðarviðvörunarteikn**  til að fá frekari upplýsingar um ástandið.  
 
-     (Magn = Hámarksbirgðir – Áætlað birgðastig)  
-3.  Framboð **A** er lokað með eftirspurn **B**, sem er ekki að öllu leyti annað.  
+Í eftirfarandi mynd er framboð D táknar neyðarlínu til að leiðrétta neikvæðar birgðir.  
 
-     (Eftirspurn **B** gæti reynt að áætla framboð C en það gerist ekki samkvæmt tímaramma.)  
-4.  Nýtt framboð (**D**) er stofnað til að uppfylla eftirstandandi magn eftirspurnar **B**  
-5.  Eftirspurn **B** er lokað (búa til áminningu fyrir áætluðum birgðum).  
-6.  Nýjar birgðir **D** eru lokaðar.  
-7.  Áætlaðar birgðir er athugaðar. Endurpöntunarmarki hefur ekki verið náð.  
-8.  Framboð **C** er lokað (ekki meiri eftirspurn til staðar).  
-9. Lokaathugun: Engin útistandandi birgðastigsinnheimtubréf eru eftir.  
+![Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu.](media/nav_app_supply_planning_2_negative_inventory.png "Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu")  
 
-> [!NOTE]  
->  Skref 4 endurspeglar hvernig kerfið bregst við í útgáfum fyrr en Microsoft Dynamics NAV 2009 SP1.  
+1. Framboð **A**, fyrstu áætlaðar birgðir, er undir pöntunarmark.  
+2. Nýtt framsendingaráætlað framboð er stofnað (**C**).  
 
-Þetta lýkur lýsingu miðlægra reglna sem tengjast birgðaáætlunargerð sem byggir á reglum um endurpöntun. Í eftirfarandi kafla er fjallað um einkenni fjögurra studdra endurpöntunarstefna.
+     (magn = Hámarksbirgðir – áætlað birgðastig)  
+3. Framboð **A** er lokað með eftirspurn **B**, sem er ekki að öllu leyti annað.  
 
-## <a name="reordering-policies"></a>Endurpöntunarstefnur
+     (Krafa  **B**  gæti reynt að áætla framboð C í, en tíma-Bucket hindrar það.)  
+4. Nýtt framboð (**D**) er stofnað til að uppfylla eftirstandandi magn eftirspurnar **B**  
+5. Eftirspurn **B** er lokað (búa til áminningu fyrir áætluðum birgðum).  
+6. Nýjar birgðir **D** eru lokaðar.  
+7. Áætlaðar birgðir eru kannaðar. Ekki var farið yfir endurpöntunarpunktinn.  
+8. Viðauka  **C**  er lokað (það er ekki meiri eftirspurn).  
+9. Endanlegrar athugunar. Það eru engar útistandandi birgðastigáminningar.  
+
+Í eftirfarandi kafla er fjallað um einkenni fjögurra studdra endurpöntunarstefna.
+
+## Endurpöntunarstefnur
+
 Endurpöntunarstefnur skilgreina hversu mikið þarf að panta þegar vara þarf að vera fyllt á. Fjórir mismunandi endurröðunarstefnur eru til.  
 
-### <a name="fixed-reorder-qty"></a>Fast endurpöntunarmagn
-Stefnan Fast endurpöntunarmagn tengist birgðaáætlanagerð á dæmigerðum C-vörum (lágur birgðakostnaður, lítil hætta á úreldingu og / eða mörgum vörum). Þessi stefna er yfirleitt notað í tengslum við pöntunarmark endurspeglar fyrirsjáanlegs eftirspurn meðan á afhendingartími vörunanr stendur.  
+### Fast Endurpöntunarmagn
 
-#### <a name="calculated-per-time-bucket"></a>Reiknuð fyrir hvern tímaramma  
-Ef áætlanakerfið greinir að endurpöntunarmarkinu hafi verið náð eða farið yfir það innan tiltekins tímaramma (endurpöntunarferli) – yfir eða við endurpöntunarmarkið í upphafi tímabilsins og undir því eða við það í lokin – leggur það til stofnun nýrrar birgðapöntunar á tilgreinda endurpöntunarmagninu og áætlar það áfram frá fyrstu dagsetningunni eftir lok tímarammans.  
+Regla um fast Endurpöntunarmagn er vanalega notuð við birgðaáætlanagerð fyrir vörur með eftirfarandi eiginleikum:
 
-Hugtakið um hólfað endurpöntunarmark dregur úr fjölda framboðstillaga. Þetta endurspeglar handvirkt ferli af því að fara oft inn á lager til að athuga raunverulegt innihald í hinum ýmsu hólfum.  
+* Lágur birgðakostnaður
+* Lítil hætta á Herta-
+* Lítils fjölda atriða
 
-#### <a name="creates-only-necessary-supply"></a>Stofanr aðeins nauðsynlegar birgðir  
-Áður en ný birgðapöntun er lögð til til að mæta endurpöntunarmarki, kannar áætlanakerfið hvort framboð hafi verið pantað eða móttekið innan afhendingartíma vörunnar. Ef núverandi birgðapöntun leysir vandamálið með því að færa áætlaðar birgðir að eða yfir endurpöntunarmarkið innan afhendingartímans leggur kerfið ekki til nýja birgðapöntun.  
+Að jafnaði skal nota þessa reglu með endurpöntunarpunkti sem endurspeglar áætlaða eftirspurn á afhendingartíma vörunnar.  
 
-Birgðapantanri sem eru búnar til sérstaklega til að mæta pöntunarmark er útilokuð frá venjulegum framboðsjöfnun, og mun ekki á nokkurn hátt hægt að breyta eftirá. Þar af leiðandi, ef á að áfangaskipta út vöru með endurpöntunarmarki (ekki endurnýja) er ráðlegt að endurskoða útistandandi birgðapantanir handvirkt eða breyta endurpöntunarstefnu í Lotu fyrir lotu, þannig að kerfið dragi úr eða afturkalli umframbirgðir.  
+#### Reiknaður fyrir hvern tímaramma  
 
-#### <a name="combines-with-order-modifiers"></a>Samsett við Breytingalykla  
-Pantanabreytingarnar, Lágmarksmagn pöntunar, Hámarksmagn pöntunar og Margföld pöntun, ættu ekki að gegna stóru hlutverki þegar notuð er stefnan um fast pöntunarmagn. Hins vegar reiknar áætlanakerfið enn með þessum breytingalyklum og minnkar magnið í tilgreint hámarkspöntunarmagn (og býr til tvær eða fleiri birgðir til að ná heildarpöntunarmagninu), eykur pöntunina í tilgreint lágmarkspöntunarmagn, eða námundar pöntunarmagnið upp til að ná tiltekinni margfaldri pöntun.  
+Ef þú nærð í eða kropir á endurpöntunarpunkt í tímaramma (endurpöntunarhringrás) stingur kerfið upp á tveimur aðgerðum:
 
-#### <a name="combines-with-calendars"></a>Sameinast dagbók  
-Áður en ný birgðapöntun er lögð til að mæta endurpöntunarmarki, kannar áætlanakerfið hvort pöntunin sé áætluð á frídegi, samkvæmt öllum dagatölum sem eru skilgreind í **Grunndagatalskóði** reitnum á síðunni **Fyrirtækjaupplýsingar** og **Birgðageymslukort**.  
+* Búa til nýja framboðapöntun fyrir endurpöntunarmagnið
+* Áfram tímasett pöntunin frá fyrsta degi eftir lok tímarammans  
 
-Ef fyrirhuguð dagsetning er frídagur, færir áætlanakerfið pöntunina áfram á næsta virka dag. Þetta getur orsakað pöntun sem uppfyllir endurpöntunarmark en uppfyllir ekki einhverja tiltekna eftirspurn. Fyrir svona ójafna eftirspurn, býr áætlanakerfið til auka framboð.  
+Í tímastillaði endurpöntunarpunkti fækkar fjölda framboðstillagna. Það endurspeglar ferli til að leita handvirkt að raunverulegu innihaldi hólfa í vöruhúsinu.  
 
-#### <a name="should-not-be-used-with-forecast"></a>Ætti ekki að nota við spá  
-Þar sem væntalega eftirspurn er þegar lýst í endurpöntunarmarki er ekki nauðsynlegt að spá í að skipuleggja hlut með endurpöntunarmarki. Ef það er viðeigandi að byggja áætlun á spá skal nota stefnuna lotu-fyrir-lotu.  
+#### Skapar aðeins nauðsynlegt framboð  
 
-#### <a name="must-not-be-used-with-reservations"></a>Má ekki nota með frátekningu  
-Ef notandi hefur tekið frá magn, til dæmis magn í birgðum fyrir einhverja fjarlæga eftirspurn, truflar það forsendur áætlunarinnar. Jafnvel þótt áætlað birgðastig sé leyfilegt með tilliti til endurpöntunarmarks, má magnið ekki vera til staðar vegna frátekningarinnar. Kerfið kann að reyna að bæta það upp með því að stofna frávikspantanir. Þó er mælt með því að reiturinn Taka frá sé stilltur á Aldrei fyrir vörur sem eru planaðar með endurpöntunarmarki.
+Áður en hann leggur fram nýtt framboðskerfi til að mæta endurpöntunaratriði athugar áætlanakerfið eftirfarandi framboð:
 
-### <a name="maximum-qty"></a>Hámarksmagn
+* Hvort framboð er þegar pantað
+* Hvort gert sé ráð fyrir að fá framboðið innan afgreiðslutíma vörunnar
+
+Kerfið stingur ekki upp á nýrri framboðapöntun ef framboð mun skila áætluðum birgðum á endurpöntunarstað innan afhendingartíma.  
+
+Framboðspantanir sem eru stofnaðar sérstaklega til að mæta endurpöntunarpunkti eru undanskildar framboðsjöfnun og verða ekki breyttar. Ef óskað er eftir að verkfæra vöru sem hefur endurpöntunarpunkt er farið yfir útistandandi framboðspantanir handvirkt eða breytingu endurreisnarstefnunnar yfir í  **Lotu-fyrir-lotu**. Kerfið dregur úr eða hættir við auka framboð.  
+
+#### Sameinar með pöntunarbreyti  
+
+Lágmarks pöntunarmagn, magn Hámarkspöntunarinnar og röð margra pöntunarbreytta ætti ekki að gegna veigamiklu hlutverki þegar notað er fast pöntunarmagn. Áætlanakerfið tekur þó mið af því:
+
+* Minnkið magnið í tilgreint Hámarksmagn pöntunarmagns (og stofnið tvær eða fleiri birgðir til að ná í heildarmagn pöntunar)
+* Hækka skal pöntunina í tilgreint lágmarkspöntun magn
+* Slétta pöntunarmagnið til að uppfylla tilgreinda pöntunarmargfeldi  
+
+#### Sameinar við dagatöl  
+
+Áður en ný framboðsathugun er gerð til að mæta endurpöntunarsjónarmiði athugar áætlanakerfið hvort pöntunin er áætluð fyrir hvern dag sem ekki er vinnudagur. Hann notar dagatölin sem tilgreind eru í  **reitnum kóti**  grunndagatals á  **upplýsingum**  og  **birgðageymsluspjaldinu**  fyrirtæki.  
+
+Ef Áætluð dagsetning er ekki vinnudagur, færist áætlunarkerfið pöntunin fram á næsta vinnudag. Flutningur á dagsetningunni gæti orðið til í pöntun sem uppfyllir endurpöntunarstig en uppfyllir ekki ákveðna eftirspurn. Fyrir svona ójafna eftirspurn, býr áætlanakerfið til auka framboð.  
+
+#### Ætti ekki að nota með spám  
+
+Þar sem áætluð eftirspurn er þegar gefin upp í stigi endurpöntunarstigs er ekki nauðsynlegt að taka spá með í áætlanagerð. Ef það skiptir máli að byggja áætlunina á spá er notaður  **Lotu-fyrir-lotustefnuna** .  
+
+#### Má ekki nota með frátekningum  
+
+Ef magn hefur verið tekið frá, til dæmis magn í birgðum, vegna fjarlægrar eftirspurnar, gæti Skipulagsstofnun raskað. Jafnvel þótt áætlað birgðastig sé leyfilegt með tilliti til endurpöntunarmarks, má magnið ekki vera til staðar vegna frátekningarinnar. Kerfið gæti reynt að bæta úr því að stofna undantekningarpantanir. Hins vegar er mælt með því að  **reiturinn frátektir**  sé stilltur  **á aldrei**  á vörur sem eru áætlaðar með því að nota endurpöntunarpunkt.
+
+### Hámarksmagn
+
 Reglan um hámarksmag er ein leið til að viðhalda birgðum með því að nota endurpöntunarmark.  
 
-Allt sem gildir um stefnu endurpöntunarmagns gildir einnig um þessa stefnu. Eini munurinn er magnið sem lagt er til sem framboð. Þegar reglan um hámarksmagn rer notuð verður endurpöntunarmagnið skilgrein á virkan hátt samkvæmt ætluðu birgðastigi og verður því yfirleitt mismunandi eftir pöntunum.  
+Allt sem gildir um stefnu endurpöntunarmagns gildir einnig um þessa stefnu. Eini munurinn er magnið sem lagt er til sem framboð. Þegar Hámarksmagn er notað verður Endurpöntunarmagn skilgreint breytilegt eftir áætluðu birgðastigi. Því er yfirleitt mismunandi eftir röð að panta.  
 
-#### <a name="calculated-per-time-bucket"></a>Reiknuð fyrir hvern tímaramma  
-Endurpöntunarmarkið er ákvarðað á þeim tímapunkti (við lok tímaramma) þegar áætlanakerfið greinir að farið hefur verið yfir endurpöntunarmark. Á þessum tíma mælir kerfið bilið frá núverandi áætlaðar birgðum upp að tilteknum hámarksbirgðum. Þetta stendur fyrir magnið sem þarf að endurpanta. Kerfið kannar þá hvort birgðir hafi þegar verið pantaðar annars staðar þannig að þær berist innan afhendingartímans og, ef svo er, minnkar magn nýju birgðapöntunarinnar í samræmi við það magn sem þegar hefur verið pantað.  
+#### Reikna á tímaramma
 
-Kerfið tryggir að áætlaðar birgðir nái a.m.k. endurpöntunarmarkinu - ef vera skyldi að notandinn hafi gleymt að tilgreina hámarksbirgðagildi.  
+Þegar komið er til eða yfir endurpöntunarstað ákvarðar kerfið endurpöntunarmagnið við lok tímaramma. Það mælir bilið á milli núverandi áætlaðrar birgðastöðu og tilgreindra hámarksbirgða til að ákvarða magnið sem á að panta. Kerfið athugar þá:
 
-#### <a name="combines-with-order-modifiers"></a>Samsett við Breytingalykla  
-Það fer eftir uppsetningu, getur það verið best að sameina það hámarksmagn stefnu með breytingalyklum til að tryggja lágmarksupphæð þess magn eða sléttun innkaupaeiningar, eða kljúfa það í fleiri lotur samkvæmt skilgreiningu hámarksmagns.  
+* Hvort framboð er þegar pantað
+* Hvort gert sé ráð fyrir að fá framboðið innan afgreiðslutíma vörunnar
 
-### <a name="combines-with-calendars"></a>Sameinast dagbók  
-Áður en ný birgðapöntun er lögð til að mæta endurpöntunarmarki, kannar áætlanakerfið hvort pöntunin sé áætluð á frídegi, samkvæmt öllum dagatölum sem eru skilgreind í **Grunndagatalskóði** reitnum á síðunni **Fyrirtækjaupplýsingar** og **Birgðageymslukort**.  
+Ef svo er minnkar kerfið magnið í nýju framboðapöntuninni með því magni sem þegar er pantað.  
 
-Ef fyrirhuguð dagsetning er frídagur, færir áætlanakerfið pöntunina áfram á næsta virka dag. Þetta getur orsakað pöntun sem uppfyllir endurpöntunarmark en uppfyllir ekki einhverja tiltekna eftirspurn. Fyrir svona ójafna eftirspurn, býr áætlanakerfið til auka framboð.
+Ef ekki er tilgreint hámarks birgðamagn, getur áætlanakerfið tryggt að áætlaðar birgðir ná endurpöntunarmagni.
 
-### <a name="order"></a>Pöntun
-Í framleiða eftir pöntun umhverfi, er vara keypt eða framleidd til eingöngu ná ákveðna eftirspurn. Venjulega tekur hún til A-vara og ástæða fyrir að velja Endurpöntunarstefnu pöntunar getur verið að eftirspurn er hverfandi, sem afhendingartími er óveruleg, eða nauðsynlegar eigindir mismunandi.  
+#### Sameina við pöntunarbreyti
 
-Forritið stofnar pöntun-við-pöntun tengsl sem virka sem undirbúningstengsl milli framboðsins, birgðapöntunar eða birgða og eftirspurnarinnar sem henni er ætlað að mæta.  
+Eftir uppsetningu gæti verið best að sameina Hámarksmagn reglu með pöntunarbreyti: 
 
-Burtséð frá notkun pöntunarstefnu er hægt að nota tengil á milli pantana í áætlun með eftirfarandi hætti:  
+* Til að tryggja lágmarks pöntunarmagn
+* Slétta magnið í heiltölu innkaupamæmælieininga
+* Skipta magninu í lotur eins og það er skilgreint með Hámarksmagn pöntunar  
 
-* Þegar reglan framleiðsla eftir pöntun er notuð til að stofna margþrepa framleiðslupöntun eða framleiðslupöntun af gerðinni verk (nauðsynlegir íhlutir framleiddir samkv. sömu framleiðslupöntun).  
-* Þegar búnaðurinn Sölupantanaáætlun er notaður til að stofna framleiðslupöntun úr sölupöntun.  
+### Sameina við dagatöl
 
-Jafnvel þótt framleiðslufyrirtæki álíti sig framleiða eftir pöntun geur verið best að nota endurpöntunarstefnuna lota fyrir lotu ef vörurnar eru staðlaðar án afbrigða í eigindum. Niðurstaðan er að kerfið mun nota óáætlaðar birgðir og safna aðeins sölupöntunum með sömu afhendingardagsetningu eða innan tilgreinds tímaramma.  
+Áður en ný framboðsathugun er gerð til að mæta endurpöntunarsjónarmiði athugar áætlanakerfið hvort pöntunin er áætluð fyrir hvern dag sem ekki er vinnudagur. Það notar dagatölin sem tilgreind eru í  **reitnum kóti**  grunndagatals á  **upplýsingum**  og  **birgðageymsluspjaldinu**  fyrirtæki.  
 
-#### <a name="order-to-order-links-and-past-due-dates"></a>Tenglar á milli pantana og liðnir skiladagar  
-Ólíkt flestum framboð-eftirspurn settum eru tengdar pantanir með skiladag á undan upphafsdagsetningu áætlunar áætlaðar að fullu af kerfinu. Viðskiptaástæðan fyrir þessa undanþágu er að tiltekin pör eftirspurnar og framboðs þurfa að vera samstillt fram að framkvæmdinni. Nánari upplýsingar um frosna svæðið sem eiga við um flestar gerðir framboðs og eftirspurnar eru í [Takast á við pantanir fyrir upphafsdagsetningu áætlunar](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).
+Ef Áætluð dagsetning er ekki vinnudagur, færist áætlunarkerfið pöntunin fram á næsta vinnudag. Flutningur á dagsetningunni gæti orðið til í pöntun sem uppfyllir endurpöntunarstig en uppfyllir ekki ákveðna eftirspurn. Fyrir svona ójafna eftirspurn, býr áætlanakerfið til auka framboð.
 
-### <a name="lot-for-lot"></a>Lotu-fyrir-lotu
-Lota-fyrir-lotu reglan er sveigjanlegust vegna þess að kerfið bregst bara við raunverulegri eftirspurn og bregst auk þess við væntanlegri eftirspurn samkvæmt spám og standandi pöntunum og ákvarðar svo magn pantanan á grundvelli eftirspurnarinnar. Lota-fyrir-lotu reglan beinist að A- og B-vörum þar sem hægt er að samþykkja birgðir en ætti helst að forðast það.  
+### Pöntun
 
-Að sumu leyti er lota fyrir lotu stefnan eins og pantanastefnan en er með almenna nálgun á vörur; það getur samþykkt magn í birgðum, og það flokkareftirspurn og samsvarandi framboð í tímarömmum skilgreindum af notanda.  
+Í Make-up-pöntunarumhverfi er vara keypt eða framleidd til að ná fram ákveðinni eftirspurn. Algengast er að Endurpöntunarstefna pöntunar sé notuð fyrir vörur með eftirfarandi eiginleikum
 
-Tímaramminn er skilgreindum í reitnum **Tímarammi**. Kerfið vinnur með lágmarks tímaramma upp á einn dag, þar sem það er minnsta tímamælieining fyrir birgðir og eftirspurn í kerfin (þó svo að í raun geti tímamælieining á framleiðslupöntunum og íhlutaþörfum verið sekúndur).  
+* Eftirspurn er ótíð
+* Afhendingartíminn er óverulegur
+* Nauðsynlegar eigindir eru breytilegar  
 
-Tímaramminn setur einnig takmörkun á það hvenær birgðapöntun er enduráætluð til að mæta tiltekinni eftirspurn. Ef framboð er innan tímarammans verður það enduráætlað inn eða út til að svara eftirspurninni. Annars, ef það liggur fyrr, mun það valda óþarfa uppsöfnun birgða og ætti að afturkalla. Ef það er síðar verður nýtt framboð stofnað í staðinn.  
+[!INCLUDE [prod_short](includes/prod_short.md)] stofnar pöntunartengingu sem virkar eins og bráðabirgðartenging milli framboðs (framboðapöntun eða birgða) og eftirspurnar. Hægt er að sækja um pöntunartengingu á meðan á áætlanagerð stendur á eftirfarandi hátt:  
 
-Með þessari reglu er einnig mögulegt að skilgreina öryggisbirgðir til að bæta upp hugsanlegar sveiflur á birgðum eða til að mæta skyndilegri eftirspurn.  
+* Þegar notuð er framleiðslustefnu til pöntunar til að stofna fjölstig eða gerð framleiðslupantana (framleiða íhluti í sömu framleiðslupöntun)  
+* Þegar sölupöntunaráætlun er notuð til að stofna framleiðslupöntun úr sölupöntun  
 
-Þar sem birgðapöntunarmagn byggir á raunveruleg eftirspurn getur það borgað sig að nota raðabreytur: slétta pöntunarmagn til að það passi við tiltekna pöntunarstuðul (eða innkaupamælieiningu), auka pöntuina upp í tiltekið magn, eða minnka magnið í hámarksmagn (og því búa til tvær eða fleiri birgðir til að uppfylla allt magnið).
+> [!TIP]
+> Ef vörumerseigindir hafa ekki verið breytilegir er kannski best að nota reglu mikið-fyrir-lotu endurpöntunarstefnu. Þar af leiðandi notar kerfið óáætlaðar birgðir og safnar aðeins saman sölupöntunum með sömu afhendingardagsetningu eða innan skilgreindra tímaramma.  
 
-## <a name="see-also"></a>Sjá einnig  
-[Hönnunarupplýsingar: Áætlunarfæribreytur](design-details-planning-parameters.md)   
-[Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)   
-[Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)   
-[Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs](design-details-balancing-demand-and-supply.md)   
+#### Tenglar til pöntunartengla og eldri Gjalddagar
+
+Ólíkt flestum framboð-eftirspurn settum eru tengdar pantanir með skiladag á undan upphafsdagsetningu áætlunar áætlaðar að fullu af kerfinu. Ástæðan fyrir þessari undantekningu er sú að samstilla þarf ákveðin eftirspurnarframboðstilstæður. Til að fræðast meira um frosksvæðið sem á við um flestar eftirspurnargerðir er farið í að  [vinna pantanir á undan upphafsdagsetningunni](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date) áætlunar.
+
+### Lotu-fyrir-lotu
+
+Lotu-fyrir-lotu-stefnu er sveigjanlegasta því kerfið bregst aðeins við raunverulegri eftirspurn. Það virkar á áætlaða eftirspurn frá spá og standandi pöntunum og jafnar síðan pöntunarmagnið á grundvelli eftirspurnar. Stefnan er ætluð fyrir vörur þar sem hægt er að samþykkja birgðir en það ætti að forðast.  
+
+Að sumu leyti er Lotun-fyrir-Lotunstefnunni líkt við Pöntunarstefnuna en hún hefur almenna nálgun að atriðum. Það getur tekið við magni í birgðum og það bútað eftirspurn og framboði í tímans fötum sem þú skilgreinir.  
+
+Tímarammanum er tilgreindur í  **reitnum tímarammi**  á  **síðunni birgðaspjald** . Lágmarksstærð tímaramma er einn dagur því það er Minnsti Tímamælieining á eftirspurn og framboðstilvikum í [!INCLUDE [prod_short](includes/prod_short.md)].  
+
+Tímaramminn takmarkar einnig það hvenær eigi að endurraða framboðinu til að mæta tiltekinni eftirspurn. Framboðs innan tímarammans er endurraðað í eða úr til að mæta eftirspurninni. Fyrri birgðir munu valda aukbirgðum og það ætti að hætta við. Fyrir framboð sem síðar er búin til ný framboðapöntun.  
+
+Með þessari stefnu er hægt að tilgreina öryggisbirgðir til að bæta fyrir breytingar í framboði eða til að mæta skyndilegri eftirspurn.  
+
+Þar sem magn framboðanna er byggt á raunverulegri eftirspurn getur það haft vit á að nota pöntunarbreytin:
+
+* Slétta pöntunarmagnið til að uppfylla pöntunarmargfeldi pöntunar (eða innkaupamælieiningu)
+* Hækka pöntun í ákveðið lágmarkspöntun
+* Minnkaðu magnið í tilgreint Hámarksmagn (og Búðu þannig til tvær eða fleiri birgðir til að ná í heildarmagn sem þarf)
+
+## Sjá einnig  
+
+[Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)  
+[Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)  
+[Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
+[Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

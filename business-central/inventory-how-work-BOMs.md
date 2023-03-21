@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bills of material, assembly BOM, production BOM,
-ms.search.form: ''
+ms.search.keywords: 'bills of material, assembly BOM, production BOM,'
+ms.search.form: null
 ms.date: 09/26/2022
 ms.author: a-reishima
-ms.openlocfilehash: 4b1f1b15c2502ddb894baf733308800846a74206
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606722"
 ---
-# <a name="work-with-bills-of-material"></a>Vinna með uppskriftir
+# Vinna með uppskriftir
 
 Nota skal uppskriftir til að byggja upp yfirvörur sem verða að vera settar saman úr öðrum vörum eða framleiddar af tilföngum eða vélastöðvum úr íhlutum.
 
-## <a name="assembly-boms-or-production-boms"></a>Samsetningaruppskriftir eða framleiðsluuppskriftir
+## Samsetningaruppskriftir eða framleiðsluuppskriftir
 
 [!INCLUDE[prod_short](includes/prod_short.md)] styður tvær mismunandi gerðir af uppskriftum:
 
@@ -42,7 +36,7 @@ Hugtakið forði í framleiðslu er mun flóknara en í samsetningarstjórnun. V
 
 Hægt er að tengja bæði samsetningarpantanir og framleiðslupantanir beint við sölupantanir. Hins vegar er aðeins hægt að nota samsetningarpantanir til að sérsníða endanlegu vöruna beint samkvæmt beiðni viðskiptamanns með sölupöntun.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  

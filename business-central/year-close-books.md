@@ -6,23 +6,17 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2c959f3c3c0aad3a44ea2ebfa60aed395720f562
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511893"
 ---
-# <a name="closing-the-books"></a>Bókum lokað
+# Bókum lokað
 Þegar búið er að ganga úr skugga um að allir reikningar séu uppfærðir og búið er að úthluta kostnaði og tekjum, má loka bókunum fyrir reikningsárið eða tímabilið.
 
 Það er ekki nauðsynlegt að loka ári en sé það gert verður auðveldara að nota þær hentugu afmarkanir sem eru í boði. Ekki þarf að óttast að missa færslugögn þegar lokað er því allar upplýsingar eru geymdar, einnig eftir að árinu hefur verið lokað.
 
-## <a name="closing-book-process"></a>Ferli þess að loka bókum
+## Ferli þess að loka bókum
 Ferli þess að loka bókum felur í sér þessi aðalverk:
 
 1. Lokun reikningstímabilsins.
@@ -44,14 +38,14 @@ Ferli þess að loka bókum felur í sér þessi aðalverk:
 
     Nánari upplýsingar, sjá [Bóka lokunarfærslu](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Hvað gerist þegar lokað er
+## Hvað gerist þegar lokað er
 Þegar reikningum er lokað í lok árs færir kerfið hagnað úr reiknuðum hagnaði yfir á reikninginn Óráðstafað eigið fé. Kerfið merkir einnig reikningsárið sem „lokað“ og allar síðari færslur í lokaða árinu sem „færslur fyrra árs“.
 
 Kerfið býr svo til lokunarfærslu, en bókar færsluna ekki sjálfkrafa. Hægt er að gera mótfærslu eða -færslur fyrir eigin fé sem gerir kleift að ákveða hvernig lokunarfærslunni er úthlutað. Til dæmis ef fyrirtækið er með margar deildir, er hægt að láta kerfið búa til eina lokunarfærslu fyrir allar deildir, og þá er hægt að mótfæra færslu fyrir eigin fé hverrar deildar.
 
 Hægt er að bóka á fyrra reikningsár jafnvel eftir lokun rekstrarreiknings ef keyrslan Loka rekstrarreikningi er keyrð aftur síðar.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

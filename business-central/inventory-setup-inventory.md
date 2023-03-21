@@ -1,30 +1,24 @@
 ---
 title: Uppsetning birgða
-description: Lýsir því hvernig á að setja upp birgðavinnslur, þar á meðal flutningsleiðir og birgðageymslur á borð við vöruhús.
+description: 'Lýsir því hvernig á að setja upp birgðavinnslur, þar á meðal flutningsleiðir og birgðageymslur á borð við vöruhús.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 461'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d637ae9b0413bb069927166fc8a5ac74e9dd7e2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531486"
 ---
-# <a name="setting-up-inventory"></a>Uppsetning birgða
+# Uppsetning birgða
 Áður en hægt er að hefjast handa við að stýra vöruhúsaaðgerðum og birgðakostnaði þarf að grunnstilla reglur og gildi sem ráða birgðareglum fyrirtækisins.
 
 Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangakeðjuna með því að skipulegga birgðirnar á mismunandi stöðum. Síðan er hægt að kaupa, geyma eða selja vörur í mismunandi birgðageymslum og flytja birgðir milli þeirra.
 
-Þegar birgðir hafa verið settar upp er hægt að stjórna ýmsum birgðaferlum. Frekari upplýsingar eru í [Stjórna birgðum](inventory-manage-inventory.md) og [Vöruhúsastjórnun](warehouse-manage-warehouse.md).
+Þegar birgðir hafa verið settar upp er hægt að stjórna ýmsum birgðaferlum. Sjá  [Manage birgða](inventory-manage-inventory.md)  -og  [vöruhúsastjórnun fyrir frekari upplýsingar](design-details-warehouse-management.md).
 
-| Til | Sjá |
+| Til að | Sjá |
 | --- | --- |
 | Skilgreina almennar birgðaupplýsingar svo sem númeraraðir og hvernig á að nota birgðageymslur. |[Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md) |
 |Grunnstilla skilvirkt dreifingarlíkan með mismunandi birgðageymslur og ábyrgðarstöðvum sem hefur verið úthlutað til viðskiptafélaga eða starfsmanna.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
@@ -38,14 +32,15 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 |Flytja inn margar myndir úr einni zip-skrá þar sem skrár hafa heiti í samræmi við vörunúmer.|[Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórnun birgða](inventory-manage-inventory.md)  
 [Stjórnun innkaupa](purchasing-manage-purchasing.md)  
 [Stjórna sölu](sales-manage-sales.md)    
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Yfirlit yfir](design-details-warehouse-management.md)
+[vöruhúsastjórnun vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 

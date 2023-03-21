@@ -6,27 +6,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customer price groups, discounts, sales prices
+ms.search.keywords: 'customer price groups, discounts, sales prices'
 ms.date: 09/30/2021
 ms.author: edupont
-ms.openlocfilehash: 9abd79500966a946228834166ef554e6a3e70911
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950066"
 ---
-# <a name="set-up-customer-price-groups"></a>Setja upp verðflokka viðskiptamanna
+
+# Setja upp verðflokka viðskiptamanna
   
 Hægt er að láta söluverð fara eftir viðskiptamannaflokkunum sem selt er til. Þeir eru kallaðir verðflokkar viðskiptamanna.
 
 Áður en verðflokkar viðskiptamanna eru settir upp þarf að ákveða hversu margir flokkarnir eiga að vera og hvaða viðskiptamenn eiga að vera í hvaða flokki.  
 
-## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>Hvernig á að stofna söluverð fyrir flokk viðskiptamanna  
+## Hvernig á að stofna söluverð fyrir flokk viðskiptamanna  
 
 Þegar samið hefur verið um verð sem flokkur viðskiptamanna á að greiða fyrir ákveðnar vörur er samkomulagið um vörurnar skráð í línurnar á síðunni **Söluverð**.
 
-### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Söluverð stofnað fyrir flokk viðskiptamanna
+### Söluverð stofnað fyrir flokk viðskiptamanna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Verðflokkar viðskiptamanna** og velja síðan viðkomandi tengil.  
 
@@ -48,11 +43,11 @@ Hægt er að láta söluverð fara eftir viðskiptamannaflokkunum sem selt er ti
 
 Endurtaktu skref 4 til 8 fyrir hverja vöru sem á að stofna söluverð fyrir.
 
-## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>Hvernig á að færa inn kóða fyrir verðflokka viðskiptamanna á viðskiptamannaspjöld  
+## Hvernig á að færa inn kóða fyrir verðflokka viðskiptamanna á viðskiptamannaspjöld  
 
 Þegar búið er að setja upp verðflokka viðskiptamanna er hægt að setja kóða verðflokkanna á viðskiptamannaspjöldin.
 
-### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Kóðar fyrir verðflokka viðskiptamanna færðir inn á viðskiptamannaspjald  
+### Kóðar fyrir verðflokka viðskiptamanna færðir inn á viðskiptamannaspjald  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.  
 
@@ -61,7 +56,7 @@ Endurtaktu skref 4 til 8 fyrir hverja vöru sem á að stofna söluverð fyrir.
 3. Í flýtiflipanum **Reikningsfærsla**, í reitnum **Verðflokkur viðskiptamanna**, skal velja kóðann **Verðflokkur viðskiptamanna**.  
 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

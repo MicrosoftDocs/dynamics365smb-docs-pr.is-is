@@ -1,23 +1,17 @@
 ---
 title: Yfirlit yfir verkhluta grunnstillingar söluferla
-description: Yfirlit yfir verkefni sem þarf til að setja upp reglur og gildi sem skilgreina sölustefnur þínar og ferli, þar á meðal almenna uppsetningu og uppsetningu á fjárhagshlið sölu.
+description: 'Yfirlit yfir verkefni sem þarf til að setja upp reglur og gildi sem skilgreina sölustefnur þínar og ferli, þar á meðal almenna uppsetningu og uppsetningu á fjárhagshlið sölu.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell, configure
-ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
+ms.search.keywords: 'trade, sell, configure'
+ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 2346c246fdf0d9973f40e7d0073dee9004c68669
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531351"
 ---
-# <a name="setting-up-sales"></a>Uppsetning sölu
+# Uppsetning sölu
 Áður en hægt er að hefjast handa við að stýra söluferlum þarf að grunnstilla reglur og gildi sem ráða sölureglum fyrirtækisins.
 
 Þú verður að skilgreina almenna uppsetningu á síðunni **Sala og útistandandi**, eins og söluskjöl þurfa að vera, hvernig virði þeirra er bókað og hvers konar línur á sjálfgefið að stofna. Þessi almenna uppsetning fer yfirleitt fram við innleiðingu í upphafi.
@@ -39,9 +33,9 @@ Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er f
 |Færa inn upplýsingar um mismunandi flutningsseljendur sem skipt er við, ásamt tengli á sendingarleitarþjónustu þeirra.|[Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

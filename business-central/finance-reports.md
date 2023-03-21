@@ -4,27 +4,21 @@ description: Finnið út hvaða fjárhagsskýrslur eru í boði í staðlaðri �
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
+ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
 ms.date: 08/24/2022
 ms.author: edupont
-ms.openlocfilehash: 8838569a1077a5c9befc1ab11daab49432563d3c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605084"
 ---
-# <a name="financial-reports-and-analytics-in-business-central"></a>Fjárhagsskýrslur og greiningar í Business Central
+# Fjárhagsskýrslur og greiningar í Business Central
 
 Fjárhagsskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gefur fjármála- og viðskiptafólki völd til að stofna, viðhalda, innleiða og skoða fjárhagsyfirlit. Fer út fyrir takmarkanir hefðbundinnar skýrslugerðar til að hjálpa þér að hanna mismunandi gerðir af skýrslum. [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur nokkrar skýrslur, rakningaraðgerðir og verkfæri sem aðstoða endurskoðendur eða stjórnendur sem bera ábyrgð á skýrslugjöf til fjármáladeildarinnar. Fjárhagsskýrslugerð felur í sér stuðning fyrir víddir þannig að lyklahlutar eða víddir eru strax í boði; ekki er þörf á öðrum verkfærum eða grunnstillingarskrefum.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="tasks"></a>Verkefni
+## Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
@@ -36,9 +30,9 @@ Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisi
 * [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)  
 * [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stofna kostnaðaráætlanir](finance-create-cost-budgets.md)  
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  

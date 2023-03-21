@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1500,
+ms.search.keywords: null
+ms.search.form: '1500,'
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: e93adde3ffdc520433df26f5735d021d5b64bf19
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585595"
 ---
-# <a name="delete-approval-workflows"></a>Eyða samþykktarverkflæðum
+# Eyða samþykktarverkflæðum
 
 Óhætt er að eyða verkflæði ef ljóst er að það sé ekki lengur í notkun. Öll tilvik verkflæðisskrefa sem skilgreind eru í verkflæðinu verða að vera með stöðuna **Lokið**.
 
@@ -26,7 +20,7 @@ ms.locfileid: "9585595"
 
 Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti í verkflæðislínum úr föstum listum yfir gildi tilvika og svara sem standa fyrir verkflæðissviðsmyndir sem kóði forritsins styður. Frekari upplýsingar má finna á [Stofna verkflæði samþykktars](across-how-to-create-workflows.md).
 
-## <a name="delete-a-workflow"></a>Eyða verkflæði
+## Eyða verkflæði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.
 2. Veldu verkflæðið sem á að eyða.
@@ -37,7 +31,7 @@ ms.locfileid: "9585595"
 > [!NOTE]
 > Ef á að eyða verkflæði þarf að gera það óvirkt. Til að gera verkflæði óvirkt skal opna síðuna **Verkflæði**, síðan slökkva á víxlhnappinum **Virkjað**.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stofna verkflæði samþykktar](across-how-to-create-workflows.md)  
 [Virkja samþykktarverkflæði](across-how-to-enable-workflows.md)  

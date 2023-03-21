@@ -1,23 +1,17 @@
 ---
 title: Stjórna útliti skýrslna og skjala
-description: Nota útlitssnið skýrslu til að sérstilla skjöl, til dæmis að hafa persónulega leturgerð, lógó og síðustillingar PDF skjala sem þú sendir til viðskiptamanna.
+description: 'Nota útlitssnið skýrslu til að sérstilla skjöl, til dæmis að hafa persónulega leturgerð, lógó og síðustillingar PDF skjala sem þú sendir til viðskiptamanna.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9652, 9650
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 0c5a8d8e9cbb556b25a3b1c5ee6069ac07c7cc9f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534778"
 ---
-# <a name="report-and-document-layouts-overview"></a>Yfirlit yfir skýrslu- og skjalaútlit
+# Yfirlit yfir skýrslu- og skjalaútlit
 
 Útlit skýrslu stjórnar efni og sniði skýrslunnar, þ.m.t. hvaða gagnareitir gagnasafn skýrslu birtast í henni, stöðu þeirra, textastíl, myndir og meira. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að breyta því hvaða útlit er notað í skýrslu, búa til nýtt útlit eða breyta fyrirliggjandi útliti.
 
@@ -26,7 +20,7 @@ ms.locfileid: "9534778"
 
 Einnig er hægt að nota skýrsluútlit til að bæta efni við tölvupóstskeyti. Til dæmis getur skýrsluútlit sparað tíma og tryggt samræmi með því að endurnota sama efnið þegar haft er samband við viðskiptamenn. Til að nota sérsniðið skýrsluútlit með tölvupósti verður skráargerðin fyrir útlitið að vera Word. Ekki er hægt að nota RDLC-skráargerðina. Frekari upplýsingar eru í [Setja upp endurnýtanlega texta og útlit tölvupósts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="introduction"></a>Kynning
+## Kynning
 
 Skýrsluútlit setur einkum eftirfarandi upp:
 
@@ -41,11 +35,11 @@ Skýrsla getur verið uppsett með mismunandi útliti sem hægt er að skipta á
 
 Tveir mikilvægir þættir í skýrsluútliti munu hafa áhrif á hvernig þú vinnur með þau: *útlitsgerðin* og *útlitsuppruninn*. Gerð útlits gefur til kynna hvers konar skrá útlitið byggir á. Uppruni útlits gefur til kynna uppruna útlitsins.
 
-## <a name="layout-types"></a>Útlitsgerðir
+## Útlitsgerðir
 
 Þú getur notað fjórar gerðir útlita í skýrslum: Word, RDLC, Excel og ytra.
 
-### <a name="word"></a>Word
+### Word
 
 Word-útlit byggja á Word-skjölum (.docx-skráargerð). Word-útlit gerir þér kleift að hanna skýrsluútlit með Microsoft Word. Word útlit ákvarðar innihald skýrslunnar og stjórnar því hvernig þeir efnisþættir raðast og hvernig þeir líta út. Word útlitsskjal notar vanalega töflur til að raða efni, þar sem hólf geta innihaldið gögn, reiti, texta eða myndir.
 
@@ -55,7 +49,7 @@ Word-útlit byggja á Word-skjölum (.docx-skráargerð). Word-útlit gerir þé
 
 Nánari upplýsingar eru í [Vinna með Word-útlit](ui-how-add-fields-word-report-layout.md).
 
-### <a name="excel"></a>Excel
+### Excel
 
 Excel-útlit byggir á Microsoft Excel vinnubókum (.xlsx skráargerð). Þær gera þér kleift að búa til skýrslur með því að nota Excel-eiginleika til að taka saman, greina og kynna gögn með verkfærum eins og formúlum, PivotTable, PivotChart og fleirum.
 
@@ -63,7 +57,7 @@ Excel-útlit byggir á Microsoft Excel vinnubókum (.xlsx skráargerð). Þær g
 
 Nánari upplýsingar eru í [Vinna með Excel-útlit](ui-excel-report-layouts.md).
 
-### <a name="rdlc"></a>RDLC
+### RDLC
 
 RDLC-útlit eru byggð á útlitsskrám skýrsluskilgreiningar biðlara (.rdl eða .rdlc-skráargerðir). Þessi útlit eru búin til og þeim breytt með SQL Server Report Builder eða Microsoft RDLC Report Designer. Hönnunarhugmyndin fyrir RDLC-útlit er svipuð og fyrir Word-útlitið þar sem útlitið ákveður hvaða reiti á að sýna og hvernig þeim er raðað upp. Hönnun RDLC-útlits er hins vegar ítarlegra en Word-útlits.
 
@@ -71,13 +65,13 @@ RDLC-útlit eru byggð á útlitsskrám skýrsluskilgreiningar biðlara (.rdl e�
 
 Nánari upplýsingar eru í [Vinna með RDLC-útlit](ui-rdlc-report-layouts.md).
 
-### <a name="external"></a>Ytri
+### Ytri
 
 Gerð ytra útlits vísar til ítarlegrar gerðar sem er sérstaklega hönnuð fyrir tilteknar skýrslur. Skýrslurnar og útlitin sjálf eru yfirleitt fengin frá samstarfsaðilum, ekki Microsoft. Raunveruleg skráargerð útlitsins fer eftir veitunni.
 
 Frekari upplýsingar er að finna í [Þróun myndþýðingar á sérsniðinni skýrslu](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## <a name="layout-sources"></a>Útlitsupprunar
+## Útlitsupprunar
 
 Auk gerðar er útlitum frekar skipt niður í þrjá flokka út frá uppruna þeirra.
 
@@ -126,9 +120,9 @@ For information about how to switch the layout currently used on a report, see [
 
 
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Uppfæra sérsniðið skýrsluútlit](ui-update-report-layouts.md)  
 [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)  

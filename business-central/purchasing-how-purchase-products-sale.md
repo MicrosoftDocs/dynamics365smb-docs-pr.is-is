@@ -1,23 +1,17 @@
 ---
 title: Kaupa vörur fyrir sölu
-description: Úr sölureikningi, til að kaupa vörur, geturðu stofnað innkaupareikning fyrir lánardrottinn eða birgja.
+description: 'Úr sölureikningi, til að kaupa vörur, geturðu stofnað innkaupareikning fyrir lánardrottinn eða birgja.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: supply planning, sales demand, replenish
-ms.search.form: 50, 51, 56, 9308
+ms.search.keywords: 'supply planning, sales demand, replenish'
+ms.search.form: '50, 51, 56, 9308'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7fe34b7edcba01d25107ead47dc917dabde07a5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514856"
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Kaupa vörur fyrir sölu með því að stofna innkaupareikninga
+# Kaupa vörur fyrir sölu með því að stofna innkaupareikninga
 
 Frá sölupöntunum og sölureikningum geturðu notað aðgerð til stofna á skjótan hátt innkaupaskjöl fyrir vörumagn sem vantar en er krafist við söluna. Hægt er að nota tvær mismunandi aðgerðir, eftir gerð skjalsins.
 
@@ -29,7 +23,7 @@ Frá sölupöntunum og sölureikningum geturðu notað aðgerð til stofna á sk
 |**Stofna innkaupapantanir**|Frá sölupöntun, stofnar þessi aðgerð innkaupapöntun fyrir hvern lánardrottinn vöru á sölupöntuninni. Þú getur breytt innkaupamagninu áður en þú stofnar innkaupapantanirnar. Aðeins er ótiltækt sölumagn lagt til.
 |**Stofna innkaupareikning**|Úr sölupöntun og úr sölureikningi getur þessi aðgerð stofnað innkaupareikning fyrir valinn lánardrottinn fyrir allar línur eða valdar línur í söluskjalinu. Lagt er til fullt sölumagn.|
 
-## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Stofna eina eða fleiri innkaupapöntun úr sölupöntun
+## Stofna eina eða fleiri innkaupapöntun úr sölupöntun
 Til að stofna innkaupapöntun fyrir hvert ótiltækt vörumagn í sölupöntuninni, notarðu **Stofna innkaupapantanir** aðgerðina.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.
@@ -49,7 +43,7 @@ Til að stofna innkaupapöntun fyrir hvert ótiltækt vörumagn í sölupöntuni
 7. Halda áfram að vinna innkaupapöntun eða pantanir, til dæmis með því að breyta eða bæta við innkaupareikningslínum. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 
 
-## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Stofna innkaupareikning úr sölupöntun eða sölureikningi
+## Stofna innkaupareikning úr sölupöntun eða sölureikningi
 Til að stofna stakan innkaupareikning fyrir eina eða fleiri línur í söluskjali með því að velja fyrst hvaða lánardrottni skal kaupa af, notarðu **Stofna innkaupareikning** aðgerðina.
 
 > [!NOTE]  
@@ -65,7 +59,7 @@ Til að stofna stakan innkaupareikning fyrir eina eða fleiri línur í söluskj
     Innkaupareikningur er stofnaður sem inniheldur eina, fleiri en eina eða allar línur sölureikningsins.
 7. Halda áfram að vinna innkaupareikning, til dæmis með því að breyta eða bæta við innkaupareikningslínum. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  

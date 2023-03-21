@@ -1,22 +1,17 @@
 ---
 title: Efni í vinnslu
-description: Stundum eru gerðar breytingar á eiginleika sem gerir myndbandið villandi, þannig að við tökum myndbandið úr umferð meðan á uppfærslu efnis stendur.
+description: 'Stundum eru gerðar breytingar á eiginleika sem gerir myndbandið villandi, þannig að við tökum myndbandið úr umferð meðan á uppfærslu efnis stendur.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: video, library, how to
+ms.search.keywords: 'video, library, how to'
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 03886b96dc3118efd2048a5e0f6fa6a24492efd0
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384125"
 ---
-# <a name="sorry-this-content-is-under-construction"></a>Því miður er þetta efni í vinnslu
+
+# Því miður er þetta efni í vinnslu
 
 :::image type="content" source="media/helene/empty illustration_BCdocs.png" alt-text="Hér er ekkert eins og er." border="false":::
 
@@ -26,7 +21,7 @@ Við erum sífellt að bæta við og bæta [!INCLUDE[prod_short](includes/prod_s
 
 Komdu samt aftur innan skamms og á meðan geturðu skoðað annað efni í [Dynamics 365-rás á YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Skoðaðu myndbandasafnið okkar](across-videos.md)
 
  

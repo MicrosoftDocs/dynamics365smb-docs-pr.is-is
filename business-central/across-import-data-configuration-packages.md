@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: migration, Excel
+ms.search.keywords: 'migration, Excel'
 ms.date: 05/10/2022
 ms.author: edupont
-ms.openlocfilehash: a189f2f10ad9e8f2ab0063987fbafefd4ad1948f
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740366"
 ---
-# <a name="import-business-data-from-other-finance-systems"></a>Flytja inn viðskiptagögn úr öðrum fjárhagskerfum
+# Flytja inn viðskiptagögn úr öðrum fjárhagskerfum
 
 Þegar notandi skráir sig í [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að ákveða að búa til autt fyrirtæki svo hægt sé að hlaða upp eigin gögnum og prófa áfram nýja [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtækið. Það fer eftir því fjárhagskerfi sem fyrirtækið notar í dag hvernig og hvort hægt er að millifæra upplýsingar um viðskiptamenn, lánardrottna, birgðir og bankareikninga.  
 
@@ -27,11 +21,11 @@ Hægt er að ræsa leiðarvísi um uppsetningu með hjálp frá Mitt hlutverk se
 > [!TIP]  
 > Mælt er með því að nota leiðsagnarforrit fyrir gagnafærslu til að flytja inn gögn frá Dynamics GP, Dynamics NAV eða QuickBooks. Frekari upplýsingar er að finna í [Flytja innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) í stjórnendaefninu eða [QuickBooks-gagnaflutning](ui-extensions-quickbooks-data-migration.md).
 
-## <a name="work-with-data-in-excel"></a>Vinna með gögn í Excel
+## Vinna með gögn í Excel
 
 Hægt er að nota Excel-innbótina til að útbúa fyrirliggjandi efni til að nota í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Skoða og breyta í Excel úr Business Central](across-work-with-excel.md).  
 
-## <a name="import-data-from-configuration-packages"></a>Flytja inn gögn úr grunnstillingarpakka
+## Flytja inn gögn úr grunnstillingarpakka
 
 Fyrir stærri innleiðingarverk geturðu sett upp lausnamiðaða grunnstillingapakka. Frekari upplýsingar eru í [Setja upp grunnstillingarpakka fyrirtækis](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (aðeins á ensku) í stjórnendaefninu.  
 
@@ -48,7 +42,7 @@ Hægt er að flytja aðalgögn og sum færslugögn úr öðrum fjárhagskerfum �
 > [!NOTE]
 > Ekki er hægt að flytja út/flytja inn svæði af gerðinni Blob með Excel.
 
-### <a name="tables-in-the-default-configuration-package"></a>Töflur í sjálfgefnum grunnstillingarpakka
+### Töflur í sjálfgefnum grunnstillingarpakka
 
 Sjálfgefni grunnstillingarpakkinn styður eftirfarandi töflur:
 
@@ -79,7 +73,7 @@ Sjálfgefni grunnstillingarpakkinn styður eftirfarandi töflur:
 - Söluverð
 - Innkaupsverð
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Að flytja innanhússgögn í Business Central Online (aðeins á ensku)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Setja upp grunnstillingapakka fyrirtækis](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  

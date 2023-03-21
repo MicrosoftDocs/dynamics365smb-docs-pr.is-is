@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.search.form: 41, 9300
+ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a0bf6bb146893f4ba16e2565134f15389380eab0
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528196"
 ---
-# <a name="make-sales-quotes"></a>Gera sölutilboð
+# Gera sölutilboð
 
 Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilfang um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum. Hægt er að senda sölutilboð til viðskiptamannsins til að miðla tilboðinu. Hægt er að senda skjalið í tölvupósti sem PDF viðhengi. Hægt er að láta meginmálslínur tölvupósts vera útfyllt fyrirfram með tilboði. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
 
@@ -25,7 +19,7 @@ Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilf
 
 Í flestum tilfellum sendirðu sölutilboð á hugsanlega viðskiptavini. Oft er um að ræða tengilið sem samið er við. Ef viðkomandi samþykkir síðan tilboðið frá þér breytir þú sölutilboðinu í pöntun og skráir tilfangið sem viðskiptavin í [!INCLUDE [prod_short](includes/prod_short.md)]. Í eftirfarandi ferli leggjum við áherslu á tengiliði, en einnig er hægt að senda tilboð til núverandi viðskiptavina.  
 
-## <a name="to-create-a-sales-quote"></a>Sölutilboð búin til:
+## Sölutilboð búin til:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölutilboð** og velja síðan viðkomandi tengil.
 2. Tilgreindu tengilið eða viðskiptavin sem á að senda sölutilboðið til.
@@ -94,13 +88,13 @@ Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilf
 
 Breytingin fjarlægir sölutilboðið úr gagnagrunninum. Sölureikningur eða sölupöntun er stofnuð út frá upplýsingunum í sölutilboðinu svo hægt sé að ganga frá sölunni. Í reitnum **Tilboð nr.** á sölureikningnum eða sölupöntun er hægt að sjá fjölda sölutilboða sem hann var búinn til úr. Nánari upplýsingar eru í [Reikningsfæra sölu](sales-how-invoice-sales.md) eða [Selja vörur.](sales-how-sell-products.md)  
 
-## <a name="external-document-number"></a>Númer ytra skjals
+## Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

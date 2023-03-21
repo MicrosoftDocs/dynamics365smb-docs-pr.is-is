@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 456, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: 0cf56049c5c7d5b31cb75185bb26f9619317d9e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522015"
 ---
-# <a name="set-up-general-inventory-information"></a>Setja upp almennar birgðaupplýsingar
+# Setja upp almennar birgðaupplýsingar
 
 Almennar birgðaupplýsingar eru tilgreindar á síðunni **Birgðagrunnur**.
 
-## <a name="to-set-up-general-inventory-information"></a>Til að setja upp almennar birgðaupplýsingar
+## Til að setja upp almennar birgðaupplýsingar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.
 2. Á síðunni **Birgðagrunnur** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +31,7 @@ Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar re
 >
 > Að öðrum kosti er handvirkt hægt að leiðrétta kostnað með reglulegu millibili með runuvinnslunni Leiðrétta kostnað - Vörufærslur. Þú getur einnig slökkt á sjálfvirkri kostnaðarbókun eða stillt reitinn **Sjálfvirk kostnaðarleiðrétting** á *Aldrei*. Í báðum tilvikum birtist tilkynning þar sem hægt er að byrja á uppsetningu með hjálp til að auðvelda þér að tímasetja verk fyrir verkröðina. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Setja upp birgðir](inventory-setup-inventory.md)  
 [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  

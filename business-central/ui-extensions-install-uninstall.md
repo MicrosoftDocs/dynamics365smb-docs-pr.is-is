@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.search.form: 2500, 20350
+ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
+ms.search.form: '2500, 20350'
 ms.date: 09/22/2022
 ms.author: solsen
-ms.openlocfilehash: db08c13d5e6a5dd29cf9a32b56ab3b5fa9ce77f9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605982"
 ---
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Setja upp og fjarlægja viðbætur (forrit) í Business Central
+
+# Setja upp og fjarlægja viðbætur (forrit) í Business Central
 
 Þú getur breytt [!INCLUDE[prod_short](includes/prod_short.md)] með því að setja upp forrit sem bæta t.d. við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis. Frekari upplýsingar eru í [Sérstilling Business Central með viðbótum](ui-extensions.md).
 
@@ -28,7 +23,7 @@ ms.locfileid: "9605982"
 
 Til að nota virkni sem viðbót býður upp á, t.d. opna síður, keyra skýrslur, velja aðgerðir o.s.frv., verður þú að hafa fengið heimildasamstæðunum úthlutað sem settar eru upp sem hluti viðbótarinnar.
 
-## <a name="install-an-extension"></a><a name="install"></a>Setja upp viðbót
+## <a name="install"></a>Setja upp viðbót
 
 Þú stjórnar forritum og viðbótum á síðunni **Viðbótastjórnun**. Hægt er að opna þessa síðu úr heimasvæðinu. Annars geturðu valið **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") efst í hægra horninu skal velja **Viðbót** og síðan velja viðkomandi tengil.  
 
@@ -75,18 +70,18 @@ Microsoft veitir eftirfarandi forrit:
 * [Viðbótin GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-extension"></a>Setja upp viðbót
+## Setja upp viðbót
 Þegar þú hefur sótt forrit gætir þú þurft að setja það upp. Til dæmis þarftu að tilgreina PayPal-reikningin sem á að nota fyrir forritið **PayPal Payments Standard fyrir [!INCLUDE[prod_short](includes/prod_short.md)]**. Ef það er tilfellið, þegar uppsetning lýkur mun [!INCLUDE[prod_short](includes/prod_short.md)] spyrja hvort þú viljir setja forritið upp strax. Uppsetningar geta verið nauðsynlegar til að forritið virki eða valfrjálsar.
 
 Ef þú velur að setja forritið upp strax og það er með nauðsynleg skref mun [!INCLUDE[prod_short](includes/prod_short.md)] opna nauðsynlegu skrefin. Uppsetningin getur verið annaðhvort síða þar sem þú slærð inn upplýsingar eða uppsetningarleiðbeiningar með hjálp sem aðstoða þig í gegnum skrefin. Ef þú lýkur ekki uppsetningunni í einni tilraun geturðu notað síðuna **Uppsetningar fyrir _nafn forrits_**, sem sýnir allar uppsetningar fyrir forritið. Nauðsynlegar stillingar eru auðkenndar með **feitletruðum stöfum**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Hlaða upp viðbót fyrir hvern leigjanda (PTE)
+## Hlaða upp viðbót fyrir hvern leigjanda (PTE)
 
 Þú hleður upp PTE með því að nota síðuna **Viðbótastjórnun**. Á síðunni **Viðbótastjórnun** skal fara í **Stjórna**, síðan velja **Hlaða upp viðbót**. Á síðunni **Hlaða og setja upp viðbót** skal tilgreina forritsskrána sem á að hlaða upp. Til að halda áfram skal velja hnappinn **Samþykkja** og síðan hnappinn **Nota** sem mun hefja innleiðingarferli PTE.
 
 Ef PTE inniheldur skemabreytingar með þáttaskilum er mögulegt að *þvinga* upphleðslu þess. Til að gera það skal í **Samstilling skema** velja valkostinn **Þvinga**. Samþykkja þarf staðfestingarglugga sem birtist áður en haldið er áfram.  
 
-## <a name="uninstall-an-app"></a>Fjarlægja forrit
+## Fjarlægja forrit
 
 Hægt er að fjarlægja forrit með því að nota síðuna **Viðbótastjórnun**. Til að fjarlægja forrit skaltu velja það á síðunni og velja svo aðgerðina **Fjarlægja**. Ef þú fjarlægir forrit og skiptir síðan um skoðun geturðu sett forritið upp aftur.
 
@@ -98,7 +93,7 @@ Hægt er að fjarlægja forrit með því að nota síðuna **Viðbótastjórnun
 > - Ef þú kveikir á rofanum **Eyða gögnum viðbótar** mun eyðing forritsins eyða öllum gögnum fyrir forritið **ásamt** gögnum fyrir öll háð forrit. Ekki er hægt að afturkalla þessa aðgerð.
 > - Sum forrit eru nauðsynleg. Þú ert að koma í veg fyrir að þetta sé fjarlægt af síðunni **Viðbótastjórnun**. Ef þú prófar birtast villuboð.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Sérstilla Business Central](ui-customizing-overview.md)  
 [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)  

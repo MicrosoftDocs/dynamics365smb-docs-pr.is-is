@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 9511
 ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: 0a2561eea331ffbaeb058dee2ee13caf0a82d18c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143687"
 ---
-# <a name="viewing-database-locks"></a>Gagnagrunnslásar skoðaðir
+# Gagnagrunnslásar skoðaðir
 
 Gagnagrunnslæsing stjórnar aðgangi margra notenda að sömu gögnunum samtímis. Til að verja færslu gegn öðrum færslum sem breyta sömu gögnunum, setur fyrsta færslan lás á gögnin. Lásin helst á þar til færslunni er lokið.
 
 Notendur geta verið útilokaðir frá því að ljúka við færslur á læstum gögnum. Þeir fá gjarnan skilaboð sem gefa til kynna skilyrði lássins.
 
-## <a name="to-view-database-locks"></a>Að skoða gagnagrunnslása
+## Að skoða gagnagrunnslása
 
 Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, færa inn **Gagnagrunnslásar** og velja síðan viðkomandi tengil.
 
@@ -30,7 +24,7 @@ Síðan **Gagnagrunnslásar** sýnir skyndimynd af öllum núverandi gagnagrunns
 
 Nánari upplýsingar er að finna í [Fylgst með gagnagrunnslásum](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) í Business Central Developer og IT Pro hjálp.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fylgjast með gagnagrunnslásum](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
 

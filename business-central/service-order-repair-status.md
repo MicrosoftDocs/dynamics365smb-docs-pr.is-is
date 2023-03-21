@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba7edc6de37d41cd2bb31285c18d127be6612288
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130047"
 ---
-# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Setja upp stöður fyrir þjónustupantanir og viðgerðir
+# Setja upp stöður fyrir þjónustupantanir og viðgerðir
 
 Þú verður að setja upp viðgerðarstöðuvalkosti sem sýna framvindu viðgerða og viðhalds á þjónustuvöru í þjónustupöntunum. Gert er ráð fyrir níu mismunandi valkostum viðgerðarstöðu miðað við aðstæður eða aðgerðir sem gripið er til þegar þjónustuvörur eru teknar til þjónustu.  
 
@@ -26,7 +20,7 @@ ms.locfileid: "8130047"
 
 Áður en hægt er að setja upp viðgerðarstöðu verður að setja upp forgang þjónustustöðu.
 
-## <a name="to-set-up-service-status-priorities"></a>Uppsetning viðgerðarstöðuforgangs
+## Uppsetning viðgerðarstöðuforgangs
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staða þjónustupöntunar** og svo velja viðeigandi tengil.  
 2. Velja skal þjónustupöntunarstöðuna sem á að forgangsraða.  
@@ -34,7 +28,7 @@ ms.locfileid: "8130047"
 
 Þrep 2 og 3 eru endurtekin þar til búið er að forgangsraða stöðuvalkostunum fjórum. **Í undirbúningi** , **Í vinnslu** , **Lokið** og **Í bið**.  
 
-## <a name="to-set-up-a-repair-status"></a>Uppsetning viðgerðarstöðu
+## Uppsetning viðgerðarstöðu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðgerðarstaða** og svo velja viðeigandi tengil.
 2. Stofnið nýja viðgerðarstöðu.  
@@ -47,7 +41,7 @@ ms.locfileid: "8130047"
 
 Skrefin eru endurtekin fyrir hvern valkost viðgerðarstöðu sem á að stofna.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Þjónustupöntunarstaða og viðgerðarstaða](service-service-order-status-and-repair-status.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  

@@ -6,22 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.search.form: 118, 472, 473
+ms.search.keywords: 'cash, VAT, unrealized, cash-based'
+ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ae48b042cf3df00a1d62a6871136e2526b3db0c
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417696"
 ---
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé
+
+# Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé
 
 Ef þú ert að nota reikningsskilaaðferðir í reiðufé, getur þú sett upp [!INCLUDE[prod_short](includes/prod_short.md)] til að takast á við óinnleystan virðisaukaskatt.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Nota fjárhagsreikninga fyrir óinnleystan virðisaukaskatt
+## Nota fjárhagsreikninga fyrir óinnleystan virðisaukaskatt
 
 Hægt er að velja að VSK-upphæðir verði reiknaðar og bókaðar á bráðabirgðafjárhagsreikning þegar reikningur er bókaður, og síðan bókaður á rétta fjárhagsreikninginn og settur í VSK-yfirlitin þegar endanlega greiðsluupphæð reikningsins er bókuð. Áður en þetta er hægt þarf að ljúka við [VSK-bókunargrunninn](finance-setup-vat.md).
 
@@ -51,7 +46,7 @@ Til að nota reikninga fyrir óinnleyst virðisaukaskatt skaltu fylgja þessum s
 > [!NOTE]  
 > VSK upphæðin verður bókuð á þennan reikning, og verður þar til greiðslu viðskiptavinarins er bókuð. Fjárhæðin er síðan flutt á reikninginn fyrir innskatt.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

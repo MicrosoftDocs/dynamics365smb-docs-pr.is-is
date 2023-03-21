@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b489cc9977b6711de8c5851ea7c95899c6dfaf14
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074745"
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Umsjón með samskiptum við tengiliði
+# Umsjón með samskiptum við tengiliði
 Í [!INCLUDE[prod_short](includes/prod_short.md)] eru allar gerðir af samskiptum milli fyrirtækis þíns og tengiliðanna. Til dæmis geta samskipti verið með tölvupósti, bréfi, síma, fundum, o.s.frv.
 
 Hægt er að skrá öll samskipti við tengiliði svo að hægt sé að rekja sölu- og markaðssetningaraðgerðir sem beint hefur verið að tengiliðunum og bæta seinni tíma viðskiptatengsl við þá.

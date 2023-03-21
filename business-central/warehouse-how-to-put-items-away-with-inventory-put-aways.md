@@ -1,91 +1,93 @@
 ---
 title: Hvernig á að ganga frá vörum með birgðafrágangi
-description: Lestu um hvernig á að nota skjal birgðafrágangs til að skrá og bóka upplýsingar um frágang og móttöku fyrir upprunaskjölin.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: ce664efeb299072e73c2b25ea87ed28596164015
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528491"
+description: Lærðu að nota birgðafrágangsskjöl til að skrá og bóka frágangs-og móttökuupplýsingar.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
+ms.search.forms: '7375,'
 ---
-# <a name="put-items-away-with-inventory-put-aways"></a>Ganga frá vörum með birgðafrágangi
+# Ganga frá vörum með birgðafrágangi
 
-Þegar birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttökuvinnslu skal nota fylgiskjalið **Birgðafrágangur** til að skrá og bóka frágang og afhendingarupplýsingar fyrir upprunaskjölin. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslu eða samsetningapöntun þar sem úttakið er tilbúið til frágangs.  
+Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru vörur afhentar og þær síðan notaðar með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
+
+|Aðferð|Ferli á innleið|Krefjast kvittana|Krefjandi frágangur|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Bóka móttöku og frágang frá pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
+|B|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
+|N|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
+|D|Bóka móttöku frá vöruhúsamóttökuskjali og bóka frágang frá vöruhúsafrágangsskjali|Kveikt|Kveikt|Ítarlegt|  
+
+Frekari upplýsingar um vöruflæði á  [innleið](design-details-inbound-warehouse-flow.md).
+
+Í þessari grein er átt við aðferð B í töflunni.
+
+Þegar birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki tekið við vinnslu skal nota  **·**  skjalið frágangur til að skrá og bóka frágangs-og móttökuupplýsingar fyrir upprunaskjölin. Upprunaskjöl á innleið geta verið innkaupapantanir, söluvöruskilapantanir og flutningspantanir á innleið.
+
+> [!NOTE]
+> Framleiðsla og samsetningarframleiðsla standa einnig fyrir upprunaskjöl á innleið. Frekari upplýsingar um meðhöndlun framleiðslu og samsetningu samsetningar fyrir innri vinnslur í  [Hönnunarupplýsingum: innra vöruhús flæðir](design-details-internal-warehouse-flows.md).
 
 Þú getur búið til birgðafrágang á þrjá vegu:  
 
-- Frágangurinn er stofnaður í tveim þrepum með því að stofna fyrst vöruhúsabeiðni í upprunaskjalinu sem gefur vöruhúsinu merki um að upprunaskjalið sé tilbúið fyrir frágang.   Síðan er hægt að stofna birgðafráganginn á síðunni **Birgðafrágangur** byggt á upprunaskjalinu.  
 - Frágangurinn er stofnaður í upprunaskjalinu sjálfu.  
-- Hægt er að stofna birgðafrágang fyrir nokkur upprunaskjöl í einu með keyrslunni.  
+- Stofnið birgðafrágang fyrir nokkur upprunaskjöl á sama tíma með því að nota runuvinnslu.  
+- Stofna frágang í tveimur skrefum með því að gefa fyrst út upprunaskjal til að ganga frá þeim atriðum sem hægt er að ganga frá. Hægt er að stofna birgðafráganginn út frá upprunaskjalinu með því að  **nota síðuna birgðafrágangssíða** .  
 
-## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Til að biðja um birgðafrágang með því að gefa út upprunaskjalið
+## Birgðafrágangur stofnaður úr upprunaskjali:
 
-Ef um er að ræða innkaupapantanir, söluvöruskilapantanir og millifærslupantanir á innleið og samsetningapantanir er vöruhússbeiðnin stofnuð með því að gefa út pöntunina. Eftirfarandi lýsir því hvernig skal gera þetta frá innkaupapöntun.  
+1. Í upprunaskjalinu, sem getur verið innkaupapöntun, Söluvöruskilapöntun eða flutningspöntun á innleið, skal velja  **aðgerðina stofna birgðafrágang/tínslu** .  
+2.  **Veljið stofna Ívt.** Gátgluggi frágangs.
+3. Velja hnappinn **Í lagi**. Nýr birgðafrágangur er stofnaður.
 
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.
+## Fleiri en ein birgðafrágangur stofnuð með keyrslu
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **stofna birgðafrágang/tínslu/hreyfingar** og velja síðan tengda tengilinn. 
+2. Á flýtiflipanum **Vöruhúsabeiðni** eru reitirnir **Upprunaskjal** og **Upprunanúmer** notaðir til að afmarka eftir tilteknum gerðum fylgiskjala eða sviðum fylgiskjalanúmera. Til dæmis er hægt að stofna frágang aðeins fyrir innkaupapantanir.
+3.  **Á flipanum Valkostir**  er gátreiturinn Stofna ívt valinn  **.** Gátgluggi frágangs.
+4. Velja hnappinn **Í lagi**. Tiltekinn birgðafrágangar eru stofnaðar.
+
+## Að útbúa fráganginn í tveimur skrefum
+
+### Til að biðja um birgðafrágang með því að gefa út upprunaskjalið
+
+Þegar verið er að gefa út innkaupapantanir, söluvöruskilapantanir og flutningspantanir á innleið verða vörurnar á pantanunum tiltækar til frágangs. Eftirfarandi skref lýsa því hvernig á að gera vörurnar í innkaupapöntun tilbúnar til frágangs.  
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.
 2. Valin er innkaupapöntun sem á að gefa út og velja síðan aðgerðina **Gefa út**.  
 
-    Ef um er að ræða framleiðslupantanir, er hægt að stofna vöruhúsabeiðni með því að stofna innleiðarbeiðni í útgefnu framleiðslupöntuninni.  
-3.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Losaðar framleiðslupantanir** og velja síðan viðkomandi tengil.  
-4. Velja skal aðgerðina **Stofna vöruh.beiðni á innleið**.  
+### Birgðafrágangur stofnaður á grundvelli upprunaskjals:
 
-> [!NOTE]  
->  Einnig er hægt að stofna á vöruhúsabeiðni á innleið með því að gátreitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Frekari upplýsingar, sjá [Uppfæra eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
+Starfsmaður í vöruhúsi getur stofnað nýjan frágang í frágangi á grundvelli útgefins upprunaskjals.
 
-Þegar vöruhúsabeiðnin hefur verið stofnuð getur starfsmaður vöruhússins sem úthlutað er frágangi séð að upprunaskjalið er tilbúið fyrir frágang og stofnað fylgiskjal fyrir birgðafrágang.  
-
-## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Birgðafrágangur stofnaður á grundvelli upprunaskjals:
-
-Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofnað nýja birgðafrágang á grundvelli útgefins upprunaskjals.
-
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðafrágangur** og velja síðan viðkomandi tengil.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðafrágangur** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
 3. Í reitnum **Upprunaskjal** er valin sú tegund upprunaskjalsins sem verið er að ganga frá fyrir.  
 4. Í reitnum **Forðanr.** er forðaskjal valið.  
 5. Að öðrum kosti, skal velja **Sækja upprunaskjal** aðgerðina til að velja fylgiskjal úr lista yfir upprunaskjöl á innleið sem eru tilbúin til frágangs í birgðageymslu.  
 6. Velja hnappinn **Í lagi** til að fylla út frágangslínur í samræmi við valið upprunaskjal.  
 
-## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Birgðafrágangur stofnaður úr upprunaskjali:
+## Skrá Birgðafráganginn
 
-1.  Í upprunaskjalinu, sem getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslupöntun, skal velja aðgerðina **Stofna frágang/tínslu í birgðum**.  
-2. Veljið gátreitinn **Stofna birgðafrágang**.
-3. Velja hnappinn **Í lagi**. Nýr birgðafrágangur er stofnaður.
+1.  **Á síðunni Birgðafrágangur**  er opnaður áður stofnaða frágangsskjal.  
+2.  **Í reitnum Hólfkóti**  í frágangslínunum eru hólfin þar sem vörurnar verða að vera lagðar til samkvæmt sjálfgefnu hólfi varanna. Hægt er að skipta um hólf ef með þarf.  
+3. Framkvæmið fráganginn og Færið inn raunverulegt magn sem gengið var frá í  **reitinn Magn til afgreiðslu** .
 
-## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Fleiri en ein birgðafrágangur stofnuð með keyrslu
+    Ef setja þarf vörur einnar línu í fleiri en eitt hólf, til dæmis þar sem merkt er við fullt, er aðgerðin Skipta Línuaðgerð  **á**  fastflipanum línur  **notaðar** . Aðgerðin býr til línu fyrir eftirstandandi magn sem á að afgreiða.  
+4. Eftir að vörurnar hafa verið settar í gang skal velja  **aðgerðina Bóka** .  
 
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Stofna frág./tínslu í birgðum** og velja síðan viðkomandi tengil.  
-2.  Á flýtiflipanum **Vöruhúsabeiðni** á beiðnisíðunni eru reitirnir **Upprunaskjal** og **Upprunanúmer** notaðir til að afmarka eftir tilteknum gerðum fylgiskjala eða sviðum fylgiskjalanúmera.  
-3.  Á flýtiflipanum **Valkostir** skal velja gátreitinn **Stofna birgðafrágang**.
-4.  Velja hnappinn **Í lagi**. Tiltekinn birgðafrágangar eru stofnaðar.
+    * Bóka móttöku upprunaskjalslínurnar sem gengið hefur verið frá
+    * Ef birgðageymslan notar hólf mun bókun einnig stofna vöruhúsafærslur til að bóka breytingar á magni hólfs.
 
-## <a name="to-record-the-inventory-put-away"></a>Skrá Birgðafráganginn
+## Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
 
-1. Opna frágangsskjal sem þegar hefur verið stofnað með því að velja það af síðunni **Birgðafrágangur**.  
-2. Í reitnum **Hólfakóði** í tfrágangslínunum, hólfið sem vörurnar þurfa að vera tíndar úr er tillaga á sjálfgefið hólf vörunnar. Hægt er að skipta um hólf á þessari síðu ef með þarf.  
-3. Gengið er frá vörunum og upplýsingar um magnið sem gengið var frá færðar inn í reitinn **Magn til afgreiðslu**.
+## Sjá einnig .
 
-    Ef setja þarf vörur í einni línu í fleiri en eitt hólf, t.d. af því úthlutaða hólfið er fullt, skal nota aðgerðina **Skipta línu** á flýtiflipanum **Línur**. Sjá [Skipta aðgerðalínum í vöruhúsi](warehouse-how-to-split-warehouse-activity-lines.md) fyrir nánari upplýsingar um að skipta línum.  
-4. Þegar fráganginum er lokið skal velja aðgerðina **Bóka**.  
-
-Í bókunarferlinu bókast móttakan (eða úttakið í framleiðslupöntunum) á upprunaskjalslínum sem gengið hefur verið frá og ef hólf eru notuð í birgðageymslunni stofnar bókunin einnig vöruhúsafærslur til að bóka magnbreytingar í hólfum.
-
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
-
-## <a name="see-also"></a>Sjá einnig .
-
-[Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
-[Birgðir](inventory-manage-inventory.md)  
+[Yfirlit](design-details-warehouse-management.md)
+[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
-[Samsetningardeild](assembly-assemble-items.md)  
-[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

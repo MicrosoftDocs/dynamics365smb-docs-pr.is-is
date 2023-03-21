@@ -1,22 +1,16 @@
 ---
 title: Um birgðakostnað
-description: Umsjón með birgðakostnaði snýst allt um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis, þ.m.t. skýrslugjöf um framleiðslukostnað og birgðakostnað.
+description: 'Umsjón með birgðakostnaði snýst allt um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis, þ.m.t. skýrslugjöf um framleiðslukostnað og birgðakostnað.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 521cf2700c16bab71d13ea1282fbf4b09164b004
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513966"
 ---
-# <a name="about-inventory-costing"></a>Um birgðakostnað
+# Um birgðakostnað
 Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis. Það felur í sér skráningu framleiðslukostnaðar og vörukostnaðar, það er, virði vara.  
 
  Grundvallaratriðin sem öðlast þarf skilning á eru að kostnaðaraðferðir skilgreina hvernig virði vara er metið þegar þær eru teknar úr birgðum, að kostnaðarbreyting uppfærir kostnað við seldar vörur með tengdum innkaupakostnaði sem bókaður er eftir söluna og að birgðavirði þarf að bóka í sérstaka fjárhagsreikninga með reglulegu millibili.  
@@ -37,7 +31,7 @@ Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostna
 |Nánar um hvernig birgðatímabil aðstoða fyrirtæki við að stýra birgðavirði á tilteknum tíma, með því að skilgreina styttri tímabil sem má loka fyrir bókun eftir því sem líður á almanaksárið.|[Vinna við birgðatímabil](finance-how-to-work-with-inventory-periods.md)|  
 |Skilja gagnverkið á bak við kostnaðarforritið, þar með talið hvað gerist þegar þegar bókuð er samsetning og framleiðslufærslur.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)    
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

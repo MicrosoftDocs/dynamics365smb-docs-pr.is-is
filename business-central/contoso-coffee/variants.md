@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 86b70b3caf1896804ffdc3c76610ffe10ae73c5c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524203"
 ---
-# <a name="walkthrough-variants"></a>Kynning: Afbrigði
+
+# Kynning: Afbrigði
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að kynnast afbrigðum.
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Þú verður að uppfæra eftirspurnarspá fyrir hvert afbrigði af vörunni SP-SCM1006, AutoDripLite. Þar sem þau eru með mismunandi liti þarf að ganga úr skugga um rétt framleiðsluuppskrift sé notuð fyrir hvert afbrigði. Keyrðu áætlanavinnublaðið til að reikna út framboðið.  
 
-## <a name="steps"></a>Skref
+## Skref
 
 1. Settu upp birgðahaldseiningar fyrir vöru SP-SCM1006 AutoDripLite. Úthlutaðu uppskrift fyrir BHE með afbrigðunum RAUTT og HVÍTT.
 
@@ -103,6 +98,6 @@ ms.locfileid: "8524203"
 
     9. Fyrir hverja stofnaða línu skal velja aðgerðina **Íhlutir** og fara yfir hvaða málning er notuð.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning á sýnigögnum Contoso Coffee](contoso-coffee-intro.md)  

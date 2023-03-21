@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
+ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2a65c34f8fa59cd72c2df9e78343da03c67d8721
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380933"
 ---
-# <a name="configure-service-processes"></a>Grunnstilling þjónustuferlis
+# Grunnstilling þjónustuferlis
 Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringarferli:  
   
 * Sumar heildarstillingar fyrir hin ýmsu ferli, eins og t.d. viðvaranir, næsti þjónustuútreikningur fyrir þjónustuvörur, startkostnaður til að ákveða, stig bilanatilkynninga sem á að nota osfrv.  
@@ -25,11 +19,11 @@ Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringa
 * Stillingar fyrir samninga, eins og hámarksfjöldi daga sem þú getur notað fyrir samningsþjónustupantanir, hvort á að nota ástæðukóða þegar samningi er rift, staðlaðan texta fyrir samningslýsingar, og samningsgildi.  
 * Talnaraðirnar sem á að nota fyrir þjónustutengd skjöl og vörur.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a>Að færa inn almennar og áskildar stillingar
+## Að færa inn almennar og áskildar stillingar
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning þjónustustjórnunar** og svo velja viðeigandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 [Setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)  
 [Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)  
 [Setja upp Kóta fyrir Staðlaða þjónustu](service-how-setup-service-coding.md)  

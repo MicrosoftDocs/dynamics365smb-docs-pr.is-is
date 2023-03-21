@@ -1,22 +1,16 @@
 ---
 title: Reitavörpun fyrir útflutning bankagreiðsluskráa | Microsoft Docs
-description: Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum.
+description: 'Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 31f6c59f13bed6fdb62624b56ad732824af77230
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519330"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
+# Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
 Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar um AMC Banking 365 Fundamentals-viðbótina er að finna í [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
@@ -69,7 +63,7 @@ Eftirfarandi tafla inniheldur lista yfir reiti í [!INCLUDE[prod_short](includes
 |Heiti færslubókarkeyrslu|Heiti bókarkeyrslu|Almenn færslubókarlína|Runuheiti færslubókar sem er notuð fyrir greiðslulínuna|  
 |Nafn sendibanka - umreikningur gagna|Nafn banka – gagnaumreikn.|Bankareikningur|Nafn bankareiknings sendanda sem er áskilið af AMC Banking 365 Fundamentals tilgreint á bankareikningsspjaldinu|  
 
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)
 [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)   

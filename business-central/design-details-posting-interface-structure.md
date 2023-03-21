@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: posting, interface, design
+ms.search.keywords: 'posting, interface, design'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: ed590455c9edbe5b8727988d4300172223bd2056
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131926"
 ---
-# <a name="design-details-posting-interface-structure"></a>Hönnunarupplýsingar: Uppbygging bókunarviðmóts
+# Hönnunarupplýsingar: Uppbygging bókunarviðmóts
 Í [!INCLUDE[prod_short](includes/prod_short.md)] uppbyggingu bókunarviðmóts eru nokkur alþjóðleg ferli sem nota sömu uppbyggingu:  
   
 * RunWithCheck RunWithoutCheck vinnslukóðar – almennt bókunarviðmót fyrir almenna færslubókarlínu.  
@@ -25,7 +19,7 @@ ms.locfileid: "8131926"
 * UnapplyCustLedgEntry – pósta ógildingu jöfnunar viðskiptamanns, sótt úr kóðaeiningu 226 CustEntry-Jafna bókaðar færslur  
 * UnapplyVendLedgEntry – pósta ógildingu jöfnunar viðskiptamanns, sótt úr kóðaeiningu 227 VendEntry-Jafna bókaðar færslur  
   
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 [Hönnunarupplýsingar: Uppbygging bókunarvélar](design-details-posting-engine-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

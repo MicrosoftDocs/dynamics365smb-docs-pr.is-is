@@ -1,90 +1,124 @@
 ---
-title: Hvernig á að ganga frá vörum með vöruhúsafrágangi | Microsoft Docs
-description: Kynntu þér mismunandi leiðir fyrir frágang á vörum í Business Central með eftirfarandi frágangsverkum vöruhússins.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: af211e70e43a70999822a513fc79907dbcd74429
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529839"
+title: Hvernig á að setja vörur af stað með vöruhúsafrágangi
+description: Fræðast um mismunandi leiðir til að nota vöruhúsafrágang til að ganga frá mótteknum vörum.
+author: bholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 01/24/2023
+ms.custom: bap-template
+ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Ganga frá vörum með vöruhúsafrágangi
+# Ganga frá vörum með vöruhúsafrágangi
 
-Þegar birgðageymslan er sett þannig upp að hún krefst vöruhúsafrágangs- og vöruhúsamóttökuvinnslu eru vöruhúsafrágangsskjöl aðgerðin notuð til að stjórna frágangi á vörum.  
+Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru vörur afhentar og þær síðan notaðar með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
 
-Þegar vöruhúsamóttaka er bókuð uppfærir kerfið upprunaskjölin, s.s. innkaup, millifærslu inn eða söluvöruskilapöntun, bókar móttekið magn á birgðahöfuðbók og sendir línurnar um vörurnar sem mótteknar voru í frágangsaðgerð vöruhússins. Ef innanhússfrágangur og tínsla er notuð getur innanhússfrágangurinn einnig stofnað línur fyrir frágang.  
+|Aðferð|Ferli á innleið|Krefjast kvittana|Krefjandi frágangur|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Bóka móttöku og frágang frá pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
+|B|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
+|N|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
+|D|Bóka móttöku frá vöruhúsamóttökuskjali og bóka frágang frá vöruhúsafrágangsskjali|Kveikt|Kveikt|Ítarlegt|  
 
-Það fer eftir uppsetningu vöruhússins hvort línurnar verða tiltækar á vinnublaði frágangs eða notaðar til að stofna frágangsleiðbeiningar strax. Frekari upplýsingar, sjá [Áætla frágang á vinnublöðum](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+Frekari upplýsingar um vöruflæði á  [innleið](design-details-inbound-warehouse-flow.md).
 
-Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í þessu efnisatriði er hægt að hægt að stofna frágang úr tengdri bókaðri vöruhúsamóttöku. Þetta kemur að notum ef búið er að eyða frágangslínum, eða ef notuð hafa verið beinn frágangur og tínsla og ákvörðun hefur verið tekin um að nota ekki vinnublað frágangs, vegna þess að hægt að stofna eða endurstofna frágangsleiðbeiningar fyrir bókaðar móttökulínur.  
+Með þessari grein er átt við aðferð D í töflunni og gert ráð fyrir að móttaka hafi þegar gerst. Frekari upplýsingar um  [móttöku vara](warehouse-how-receive-items.md).
 
-## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Frágangur á vörum án beins frágangs og tínslu
+Þegar Birgðageymsla er sett þannig upp að hún krefjist vöruhúsafrágangs og vöruhúss sem tekur við vinnslu, skal nota vöruhúsafrágangsskjöl til að stjórna hvernig gengið er frá vörum. Þegar vöruhúsamóttaka er bókuð eru upprunaskjöl eins og innkaupa-, Millifærsla-eða vöruskilapantanir, uppfærðar. Móttekið magn er bókað í birgðahöfuðbók og línurnar fyrir mótteknar vörur eru sendar í frágangsaðgerðina í vöruhúsinu.
 
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Frágangur** og velja síðan viðkomandi tengil.  
-2.  Opnar vöruhúsafrágang sem er tilbúin til meðhöndlunar.  
+Eftir gildinu í  **reitnum nota vinnublað**  notkunar á  **birgðageymsluspjaldinu** er línurnar sem eru annaðhvort gerðar tiltækar við vinnublað frágangs eða notaðar til að mynda strax frágang fylgiskjala. Frekari upplýsingar um  [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
 
-    Hægt er að raða frágangslínunum eftir ýmsum skilyrðum, til dæmis vöru, hillunúmeri eða lokadagsetningu og betrumbæta þannig frágangsferlið.  
-3.  Í hverri línu í reitnum **Magn til afgreiðslu** er ritað magnið sem ganga skal frá.  
-4.  Þegar lokið hefur verið við að ganga frá vörunum er smellt á **Skrá frágang** aðgerðina til að skrá það að aðgerðinni sé lokið og gera vörurnar tiltækar fyrir tínslu.  
+Auk staðlaðra aðferða til að stofna vöruhúsafrágang sem þessi grein lýsir er hægt að stofna frágang úr tengdri bókaðri vöruhúsamóttöku. Þetta er gagnlegt ef búið er að eyða frágangslínum eða ef ákveðið er að nota vinnublaðið sem frágangurinn er, því hægt er að stofna eða endurafþakka frágangsleiðbeiningar úr bókuðu móttökulínunum.
 
-## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Frágangur á vörum með beinum frágangi og tínslu
+## Svæði og hólfakóta
 
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Frágangur** og velja síðan viðkomandi tengil.
-    Hafi frágangsleiðbeiningar verið stofnaðar sést frágangur í vöruhúsi.  
-2.  Opnar vöruhúsafrágang sem á að vinna með.  
-3.  Ef það er krafa vöruhússins er kenni notanda fært inn í flýtiflipann **Almennt** þegar byrjað er að vinna við tiltekinn frágang.  
-4.  Aðgerðirnar Taka og Setja í reitnum **Aðgerð** eru framkvæmdar.  
+Á birgðageymslum sem eru sett upp þannig að notaður sé beinn frágangur og tínsla eru eftirtaldar stillingar nauðsynlegar til að ákvarða besta staðinn til að setja vörurnar:  
 
-    Bent er á að hver móttökulína verður að minnst tveimur línum í frágangi vöruhúss:  
+* Frágangssniðmát er sett upp: Frekari upplýsingar er að  [Setja upp frágang sniðmáta](warehouse-how-to-set-up-put-away-templates.md).  
+* Þyngd, rúmmál og sérstök GEYMSLUSKILYRÐI vörunnar eða birgðahaldseining eru skilgreind.
+* Afkastageta, tegund hólfs og hólfaflokkun eru skilgreind fyrir hólfin.  
 
-    -   Fyrsta línan sem hefur **Taka** í reitnum **Aðgerð** sýnir hvar vörurnar eru staðsettar á móttökusvæðinu. Ekki er hægt að breyta reitunum svæði og hólf á þessari línu.  
-    -   Næstu línur þar sem **Setja** er í reitnum **Aðgerð** sýna hvar setja skal vörurnar í geymslu vöruhússins. Ef mikið af vörum hefur borist vöruhúsinu í einni móttökulínu gæti þurft að ganga frá þeim í mörg hólf og þá er ein Setja lína fyrir hvert hólf.  
+Hólfaflokkun er notuð þegar fleiri en eitt hólf eru í samræmi við skilyrðin í frágangssniðmátinu. Ef bæði skilyrði frágangssniðmáts og hólfaflokkun eru þau sömu er valið hólf með hærra númeri.
 
-        Ef Taka- og Setja-línurnar fyrir hverja móttöku koma ekki hver á eftir annarri eins og óskað er eftir er hægt að raða línunum með því að velja **Vara** í reitnum **Röðunaraðferð** á flýtiflipanum **Almennt**.  
+## Frágangur skjala í magni búið til með því að setja vinnublaðið í gang  
 
-        Ef skipulag sjálfs vöruhússins endurspeglar hólfaflokkunina er hægt að nota röðunaraðferðina **Hólfaflokkun** til að útbúa frágangsleið sem dregur úr snúningum í vöruhúsinu.  
+Hægt er að stofna frágangsskjöl fyrir margar innhreyfingar á sama tíma og á  **vinnublaðsíðunni**  Frágangur frágangs.  
 
-5.  Þegar allar vörurnar hafa verið settar í hólf samkvæmt skal velja aðgerðina **Skrá frágang**.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **frágang vinnublaða** og velja síðan tengda tengil.  
+2. Valið er **Sækja vöruhúsaskjöl** aðgerð. Síðan **Frágangsval** opnast.  
 
-Í birgðageymslum sem eru settar upp þannig að þær noti beinan frágang og tínslu, eru eftirfarandi stillingar forkröfur fyrir ferlinu hér að framan:  
+    Listinn inniheldur allar bókaðar innhreyfingar sem eru tilbúnar til frágangs, þar með talið þær sem frágangsleiðbeiningar hafa þegar verið stofnaðar fyrir. Skjöl með frágangslínur sem gengið hefur verið frá að fullu og skráðar birtast ekki á þessum lista.  
+3. Velja skjölin sem vinna á við. Hægt er að vinna með línur úr nokkrum skjölum í einu.  
 
-- Frágangssniðmát er sett upp: Frekari upplýsingar eru í [Setja upp frágangssniðmát](warehouse-how-to-set-up-put-away-templates.md).  
-- Þyngd, rúmmál og sérstakar geymsluþarfir vörunnar eða birgðaeiningarinnar eru skilgreindar. Frekari upplýsingar eru í Heildarþyngd.  
-- Afkastagetan, hólfategund og hólfaflokkun hólfanna. Nánari upplýsingar eru í Hólfaflokkun.  
+    > [!NOTE]  
+    >  Ef valið er kvittun eða innanhússfrágangsskjal sem þegar hefur verið búið að fá leiðbeiningar fyrir allar línur,  [!INCLUDE[prod_short](includes/prod_short.md)] ] mun upplýsa þig um að það sé ekkert hægt að afgreiða.  
 
-Tekið er mið af hólfaflokkuninni þegar fleiri en eitt hólf uppfylla skilyrði frágangssniðmátsins. Ef bæði skilyrði frágangssniðmáts og hólfaflokkun eru þau sömu er valið hólf með hærra númeri.
+4.  **Reiturinn röðunaraðferð**  er fylltur út til að raða línunum.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Til að búa til frágang úr bókaðri uppskrift
+    > [!NOTE]  
+    >  Því hvernig línunum er raðað á vinnublaðinu er ekki sjálfkrafa haldið við í frágangsleiðbeiningunum. Hins vegar eru sömu tækifæri til flokkunar og hólfaflokkunar. Hægt er að endurgera línupöntunina sem er áætlun í vinnublaðinu þegar frágangsleiðbeiningarnar eru stofnaðar eða raðað eftir frágangsleiðbeiningunum.
 
- Ef birgðageymsla notar bæði frágangsvinnslu og móttökuvinnslu og búið er að eyða frágangslínum, eða ef notuð hafa verið beinn frágangur og tínsla og ákvörðun hefur verið tekin um að nota ekki vinnublað frágangs, þá er hægt að stofna eða endurstofna frágangsleiðbeiningar fyrir bókaðar móttökulínur.
+5. Fylla inn í reitinn **Magn til afgreiðslu**. Velja aðgerðina **Færa sjálfkr. magn til afgr.** eða fyllið út reitina handvirkt.  
+6. Breytið línunum handvirkt ef þörf krefur. Hægt er að eyða línum, til dæmis ef ganga þarf frá einhverjum vörum í hólfi sem er fjarri hólfunum fyrir hinar vörurnar.  
 
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókuð vöruhúsamóttaka** og velja síðan viðkomandi tengil.  
-2.  Velja skal bókaða móttöku sem hugsanlega þarf að ganga frá.  
-3.  Velja aðgerðina **Spjald**.  
+    > [!NOTE]  
+    > Þegar línum er eytt eyðast þær aðeins úr þessu vinnublaði. Þeim er ekki eytt úr valnum frágangi.  
 
-    Ef reiturinn **Staða fylgiskjals** er auður hefur alls ekki verið gengið frá móttökunni. Annars sýnir reiturinn að móttaka hafi verið frágengin að hluta eða öllu leyti.  
+7. Veldu aðgerðina **Stofna frágang**.  **Síðan stofna skjal**  opnast, þar sem þú getur bætt við meiri upplýsingum við fráganginn sem þú ert að búa til.  
 
-4.  Ef gengið hefur verið frá móttökunni að hluta eða alls ekki er smellt á aðgerðina **stofna frágang**.  
-5.  Beiðnisíða keyrslunnar er fyllt út til að stofna fráganginn eins og best þykir og síðan er **Í lagi** hnappurinn valinn.  
+    * Hægt er að úthluta fráganginum á tiltekinn starfsmann.  
+    * Hægt er að raða frágangsleiðbeiningalínum eins og gert var á vinnublaðinu eða eftir flokkun hólfa. Þegar raðað er eftir hólfaflokkun birtast línur sem  *·*  fyrst, þar sem flest móttökuhólf eru með 0 hólfaflokkun.  *Línur í stað*  koma síðast og byrja á hólfum með lægstu hólfaflokkun. Hafi vöruhúsið verið skipulagt þannig að hólf með svipaða flokkun séu á hlið eru röðunarlínur á þessari leið vistaðar fyrir starfsmenn vöruhúss.  
+    * Hægt er að velja að línurnar sem  [!INCLUDE[prod_short](includes/prod_short.md)] ekki á að búa til hafi verið breytt með því að umbreyta stórri mælieiningu í smærri mælieiningar með því að velja  **reitinn setja einingasíuafmörkun** . Frekari upplýsingar um rofmagn til að  [Virkja sjálfvirka rofa fjöldafrágangs með beinan frágang og tínslu](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    * Hægt er að velja að ekki sé sjálfkrafa fyllt út í reitinn **Magn til afgreiðslu** í frágangsleiðbeiningunum.  
+    * Hægt er að prenta skjalið strax.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
+8. Valið  **er í lagi**  til að búa til frágang.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Til að búa til frágang úr bókaðri uppskrift
 
-[Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
-[Birgðir](inventory-manage-inventory.md)  
+Ef Birgðageymsla er notuð fyrir bæði frágangsvinnslu og móttöku og eytt er frágangslínum eða ef beinn frágangur og tínsla eru notuð og ákveðið er að nota ekki frágangsvinnublaðið er hægt að stofna eða endurgera leiðbeiningar fyrir bókuðu móttökulínurnar.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikn, færa inn  **bókaðar vöruhúsamóttökur** og velja síðan tengda tengilinn.  
+2. Velja bókaða kvittun sem á að ganga frá.  
+3. Velja aðgerðina **Spjald**.  
+
+    Ef reiturinn **Staða fylgiskjals** er auður hefur alls ekki verið gengið frá móttökunni. Að öðrum kosti gefur reiturinn til kynna hvort móttakan er að hluta til eða alveg fráganginn.  
+
+4. Ef gengið hefur verið frá móttökunni að hluta eða alls ekki er smellt á aðgerðina **stofna frágang**.  
+5. Reitirnir eru fylltir út eftir þörfum og síðan er valið  **í lagi**.  
+
+## Að setja vörur í burtu
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **vöruhúsafrágang** og veljið síðan tengda tengilinn.
+
+2. Opna vöruhúsafráganginn sem er tilbúinn til afgreiðslu.  
+3. Ef vöruhúsið krefst er NOTANDAKENNI fært inn þegar vinna við frágang er hafin.  
+
+    Hægt er að raða frágangslínunum eftir ýmsum skilyrðum, til dæmis eftir vöru, Hillunúmer eða gjalddaga. Sorpurðun getur hjálpað til við að fínstilla frágangsferlið, t.d.:
+
+    * Ef taka og setja línur fyrir hverja móttökulínu eiga ekki strax að fylgja annarri annarri og á þeim er hægt að raða línunum með því að velja  **atriði**  í  **reitnum röðunaraðferð** .  
+    * Ef bin fremstur endurspeglar efnislegt skipulag vöruhúss skal nota  **röðunaraðferð hólfaflokkun**  til að skipuleggja vinnu eftir hólfastöðum.
+
+4. Framkvæma aðgerðirnar.
+
+    Ef hólfakóða er skylda fyrir birgðageymslur verða hver móttökulína að minnsta kosti tvær línur í vöruhúsafrágangi, sem hér segir.  
+
+    * Fyrsta línan sem hefur **Taka** í reitnum **Aðgerð** sýnir hvar vörurnar eru staðsettar á móttökusvæðinu. Ekki er hægt að breyta svæði og hólfi í þessari línu.  
+    * Næsta lína, með  **stað**  í  **reitnum Tegund**  aðgerðar, sýnir hvar verður að setja vörurnar í vöruhúsinu. Ef mikið af vörum er fengið í einni móttökulínu gæti þurft að ganga frá vörunum í nokkrum hólfum svo það sé sæti lína fyrir hvert hólf. 
+
+    > [!NOTE]
+    > Ef setja þarf vörur einnar línu í fleiri en eitt hólf, til dæmis þar sem merkt er við fullt, er aðgerðin Skipta Línuaðgerð  **á**  fastflipanum línur  **notaðar** . Aðgerðin býr til línu fyrir eftirstandandi magn sem á að afgreiða.
+
+5. Þegar allar vörurnar hafa verið settar í hólf samkvæmt skal velja aðgerðina **Skrá frágang**.  
+
+## Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
+
+## Sjá einnig .
+
+[Yfirlit](design-details-warehouse-management.md)
+[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
-[Samsetningardeild](assembly-assemble-items.md)  
-[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

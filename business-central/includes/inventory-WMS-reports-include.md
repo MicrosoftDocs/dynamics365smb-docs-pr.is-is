@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c99520c40098f568df543ccda2996639e22dcb8
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334741"
 ---
+
 Eftirfarandi tafla lýsir sumum helstu skýrslunum í vörhúsaskýrslugerð.
 
 | Skýrsla | Lýsing | Auðkenni | 

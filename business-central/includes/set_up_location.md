@@ -3,18 +3,12 @@ author: jill-kotel-andersson
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 838a5c44ca1be72644b3cb9b7d26c65adccc96af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148071"
 ---
-## <a name="setting-up-the-location"></a>Uppsetning staðsetningarinnar
+## Uppsetning staðsetningarinnar
 
 Uppsetning síðunnar **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyrirtækisins. Notaðu kortið Staðsetningar til að setja upp staðsetningu með kóðaheitinu *SUÐUR*.
 
-### <a name="to-set-up-the-location-south"></a>Uppsetning staðsetningar SUÐUR
+### Uppsetning staðsetningar SUÐUR
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2. Stofna staðsetningarkort sem heitir *SUÐUR*.  

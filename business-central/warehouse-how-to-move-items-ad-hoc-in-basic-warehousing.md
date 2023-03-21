@@ -1,87 +1,100 @@
 ---
-title: Færa vörur eftir þörfum í einföldum vöruhúsaskilgreiningum
-description: Þetta efnisatriði útskýrir tilfallandi hreyfingar sem eru framkvæmdar þegar þú þarft að færa vörur milli hólfa án sérstakrar eftirspurnar frá upprunaskjali.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 393, 7382
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 46b6cbd88cf23974e5fd11453c328c1669c8e19c
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534427"
+title: Flytja vörur óáætlað í grunnskilgreiningar vöruhúss
+description: Þessi grein skýrir ófyrirhugaðar innri hreyfingar milli hóla án kröfu frá upprunaskjali.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/16/2022
+ms.custom: bap-template
+ms.search.form: '393, 7382'
 ---
-# <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa
+# Flytja vörur inn í grunn Vöruhúsafbrigða
 
-Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekki móttöku- eða sendingarhólfa, á sérstakra krafna frá upprunaskjali. Þessar tilfallandi hreyfingar gætu verið gerðar, til dæmis til að endurskipuleggja vöruhúsið, til að færa vörur í skoðunarsvæði eða til að flytja aukavörur í og úr framleiðslusvæði án kerfistengsla við upprunaskjal framleiðslupöntunar.  
+Það gæti verið æskilegt að flytja vörur milli hólfa án þess að eftirspurn sé eftir upprunaskjali. T.d. sem hluti af eftirfarandi verkþáttum:
 
-Í einfaldri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Hólf áskilið** og hugsanlega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá**, er hægt að skrá tilfallandi hreyfingar án upprunaskjala á eftirfarandi hátt:  
+* Endurskipuleggja vöruhúsið.
+* Koma vörum á eftirlitssvæði.
+* Færa aukavörur til og frá framleiðslusvæði. 
 
-- Með síðunni **Innri hreyfing**.  
-- Með síðunni **Vöruh.endurflokkunarbók**.  
+Hvernig vörur eru færðar fer eftir því hvernig vöruhúsið er sett upp sem Birgðageymsla. Frekari upplýsingar um  [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
+
+Í vöruhúsaleiðingum þar sem  **skiptiuppsetning á hólfi skylduskipti**  er kveikt, en ekki  **beinn tínsla-**  og frágangsfrágangur er hægt að skrá óáætlaðar hreyfingar á eftirfarandi síðum:  
+
+*  **Á síðu hreyfingarinnar**  innanhúss.
+*  **Á síðu Birgðaendurflokkunarbókar** .  
+
+## Innri hreyfingum
+
+ **Síðan Innanhússhreyfingar**  gerir kleift að tilgreina taka og setja inn línur þegar engin eftirspurn er eftir upprunaskjali. Síða Innanhússhreyfinga er eins og vinnublað til að skipuleggja hlutina. Ekki er hægt að vinna úr raunverulegri hreyfingu beint út frá því. Þegar lína er fyllt út er aðgerðin stofna Birgðahreyfingalokun  **notuð**  til að senda línuna á  **síðuna birgðahreyfing**, sem er þar sem unnið er úr og skráð hreyfingin.
+
+### Til að færa vörur sem innri hreyfingu
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn  **innri hreyfingar** og veldu síðan tengda tengilinn.  
+2. Veljið aðgerðina **Nýtt**. Gakktu úr skugga um að **Nr.** reiturinn á flýtiflipanum **Almennt** er fylltur út.
+3. Í reitnum **Kóti birgðageymslu** er færð inn birgðageymslan þar sem hreyfingin á sér stað.  
+
+    Ef staðsetningin er sjálfgefin staðsetning sem vöruhúsastarfsmaður bætir birgðageymslukótinn við sjálfkrafa.  
+4.  **Í reitinn Kóti til-hólfs**  er ritaður kóti hólfsins sem færa á vörurnar í.
+
+    Til dæmis í framleiðslu gæti hólfið verið opið vinnugólfhólf sem tilgreint er á birgðageymsluspjaldinu eða vinnustöðunum.  
+5.  **Í reitinn Gjalddagi**  skal slá inn dagsetninguna sem á að ljúka hreyfingunni.  
+6. Fyllt er í reitina eftir þörfum í hverri línu. Innhreyfingskjöl innanhúss eru með eina línu á hverja hreyfingu. Í línunni eru bæði tek og sæti aðgerðir.
+7.  **Veldu Vörunr.**  til að opna  **listasíðuna**  innihald hólfs. Velja vöru sem á að fara eftir ráðstöfunartekjum hennar í hólfum. Einnig er hægt að velja  **aðgerðina Sækja innihald**  hólfs til að færa inn innri hreyfingalínur sem byggðar eru á afmörkunum.  
+
+    Eftir að varan  **hefur verið valin er reiturinn frá-kóti**  sjálfkrafa fylltur út í samræmi við valið hólfainnihald. Hægt er að velja hólf þar sem varan er tiltæk.  **Vörunr.**  og  **frá hólfakóta**  eru tengdar. Ef gildið er breytt í einum reit gæti það breytt gildinu í hinu.  
+
+     **Reiturinn Kóti**  til-hólfs er fylltur út með gildinu sem fært var inn í hausinn. Hægt er að breyta henni í línu í annan kóta hólfs sem er ekki lokaður eða hollur í sérstökum tilgangi. Frekari upplýsingar á  [Tileinkuðu sviði](warehouse-how-to-create-individual-bins.md#the-dedicated-field).  
+
+8. Þegar búið er að skilgreina hvaða hólf eigi að flytja vörurnar af og til skal færa inn magnið sem á að færa í  **reitinn Magn** .  
+
+    > [!NOTE]  
+    > Magnið verður að vera tiltækt í hólfinu sem er tilgreint í  **reitnum Kóti frá-hólfs** .  
+
+9. Þegar þú ert tilbúin (ur) til að vinna úr hreyfingunni, Veldu þá  **Stofna birgðahreyfingaðgerð** .  
+
+    > [!NOTE]  
+    >  Eftir að hreyfingin hefur verið stofnuð er innanhússhreyfilínum eytt.  
+
+Framkvæmið hina óskipulögðu hreyfingu á  **síðunni Vöruhreyfill**  á sama hátt og óskað er eftir í hreyfingu samkvæmt upprunaskjölum.
+
+### Birgðahreyfingin skráð
+
+1.  **Opnið skjalið á síðunni birgðahreyfingar**  til að skrá hreyfinguna fyrir.  
+2.  **Í reitnum Hólfkóti**  í hreyfingalínunum er hólfið þar sem vörurnar verða teknar til úr, þar sem varan er tiltæk. Hægt er að skipta um hólf ef með þarf.
+3. Flytjið og Færið inn upplýsingar fyrir fært magn í  **reitinn Magn til afgreiðslu** . Gildið á línum Taka og Setja verður að vera það sama. Annars er ekki hægt að skrá hreyfinguna.
+
+    Ef taka þarf vörurnar fyrir í línu úr fleiri en einu hólfi, til dæmis vegna þess að heildarmagn er ekki í hólfinu, skal nota  **aðgerðina skipta línu**  á  **fastflipanum línur** . Aðgerðin býr til línu fyrir eftirstandandi magn sem á að afgreiða.  
+4.  **Veldu Register Invt. Hreyfingarleysis** .  
+
+Eftirfarandi gerist á meðan á bókunarferlinu stendur:
+
+* Vöruhúsafærslur gefa til kynna að magnið sé flutt úr Take-hólfum í stað hólfa.
+
+## Til að færa vörur með vöruendurflokkunarbók
+
+Í stað þess að nota hreyfingarskjöl er hægt að skrá hreyfingar með því að endurflokkun hólfakóta á vörum. Frekari upplýsingar til að  [telja, leiðrétta og endurflokka birgðir með notkun færslubóka](inventory-how-count-adjust-reclassify.md).
 
 > [!NOTE]  
->  Í ítarlegri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Beinn frágangur og tínsla** er síðan **Vinnublað hreyfingar**, **Innri vöruhúsatínsla** eða **Innri vöruhúsafrágangur** notuð til að færa vörur á milli hólfa eftir þörfum.  
+> Hreyfingar bókaðar með endurflokkunarbókum ekki gera Hreyfðu skjölin tilbúin til að flytja.  
 
-## <a name="to-move-items-as-an-internal-movement"></a>Til að færa vörur sem innri hreyfingu
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruendurflokkunarbók** og velja síðan viðkomandi tengil.  
+2. Í hverri færslubókarlínu eru hólfin skilgreind til að færa vörurnar frá og til með því að fylla  **út hólfakóta**  og  **nýja hólfakóta** .  
 
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innri hreyfing** og velja síðan viðkomandi tengil.  
-2.  Á flýtiflipanum **Almennt** er reiturinn **Nr.** fylltur út reitinn, annaðhvort með því að fara úr reitnum eða með því að velja hnappinn **AðstoðBreyta** til að velja úr númeraröð.  
-3.  Í reitnum **Kóti birgðageymslu** er færð inn birgðageymslan þar sem hreyfingin á sér stað.  
+    1. Ef flytja á allt innihald hólfs yfir í annað hólf, skal velja aðgerðina **Sækja innihald hólfs**.  
+    2. Notaðu afmarkanir til að finna hólfið sem inniheldur atriðin sem þú vilt flytja og veldu  **svo í lagi**. Færslubókarlínur eru fylltar út með efni hólfsins.  
+3. Aðrir reitir eru fylltir út fyrir hverja færslubókarlínu.
+4. Bóka skal endurflokkunarbók.  
 
-    Ef birgðageymslan er sett upp sem sjálfgefin birgðageymsla sem starfsmaður vöruhúss er kóti birgðageymslu settur inn sjálfkrafa.  
-4.  Í reitnum **Kóti til-hólfs** skal færa inn kóta fyrir hólfið sem færa á vöruna í. Við framleiðslu getur þetta t.d. verið hólfkóti opins vinnslusalar eins og skilgreint er á birgðageymsluspjaldinu eða í vinnustöð.  
-5.  Í reitunum **Gjalddagi** er færð inn sú dagsetning sem hreyfingu verður að vera lokið.  
-6.  Á flýtiflipanum **Línur** skal velja reitinn **Vörunr.** til að opna síðuna **Innihaldslisti hólfs** og velja síðan vöru til að færa, á grundvelli ráðstöfunar hennar í hólfum. Einnig er hægt að velja **Sækja innihald hólfs** til að fylla innri hreyfingalínur út frá afmörkunum notanda. Frekari upplýsingar, sjá ábendinguna fyrir aðgerðina **Sækja hólfainnihald**  
+## Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
 
-    Þegar varan hefur verið valin er reiturinn **Kóði frá-hólfs** sjálfkrafa fylltur út samkvæmt innihaldi valins hólfs, en hægt er að breyta honum í öll önnur hólf þar sem varan er tiltæk.  
+## Sjá einnig .
 
-    > [!NOTE]  
-    >  Þar sem reiturinn **Vörunr.** og reiturinn **Kóti frá-hólfs** eru tengdir geta gildi þeirra breyst innbyrðis háð hinum þegar öðrum hvorum reitnum er breytt.  
-
-    Reiturinn **Kóði til-hólfs** er fylltur með gildinu sem fært var inn í hausinn en hægt er að breyta því á línunni í hvaða annan hólfakóða sem er ekki lokaður eða frátekinn í ákveðnum tilgangi. Nánari upplýsingar um hvernig sérnýtt hólf eru útbúin eru í Sérnýtt.  
-7.  Þegar búið er að skilgreina hvaða hólf á að færa vörur í og úr skal færa flutningsmagnið inn í reitinn **Magn**.  
-
-    > [!NOTE]  
-    >  Magn verður að vera tiltækt í kóta Frá hólfs.  
-
-8.  Þegar þú ert reiðubúinn til þess að vinna innri hreyfinguna skal velja **Stofna birgðahreyfingu** aðgerðina.  
-
-    > [!NOTE]  
-    >  Þegar búið er að stofna birgðahreyfinguna er innri hreyfingarlínunum eytt.  
-
-    Eftirstöðvar af tilfallandi hreyfingu eru framkvæmdar á síðunni **Birgðahreyfing** á sama hátt og gert er fyrir hreyfingar á grundvelli upprunaskjala. Frekari upplýsingar, sjá til dæmis [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
-
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Til að færa vörur með vöruendurflokkunarbók
-
-Í staðinn fyrir að nota vöruhúsahreyfing skjöl, geturðu skráð vöruhreyfingu með því að endurflokka hólfakóða varanna. Nánari upplýsingar er að finna í [Telja, leiðrétta og endurflokka birgðir með færslubókum](inventory-how-count-adjust-reclassify.md).
-
-1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruendurflokkunarbók** og velja síðan viðkomandi tengil.  
-2.  Fyrir hverja bókunarlínu skal skilgreina úr og í hvaða hólf flytja skal vörur með því að fylla út reitna **Hólfakóti** og **Nýr hólfakóti**.  
-
-    1.  Ef flytja á allt innihald hólfs yfir í annað hólf, skal velja aðgerðina **Sækja innihald hólfs**.  
-    2.  Færðar eru inn afmarkanir til þess að finna hólfið sem á að flytja innihald úr og síðan er hnappurinn **Í lagi** valinn. Færslubókarlínur eru fylltar út með efni hólfsins.  
-3.  Aðrir reitir eru fylltir út fyrir hverja færslubókarlínu.   
-4.  Bóka skal endurflokkunarbók.  
-
-    > [!NOTE]  
-    >  Ólíkt því sem gildir um hreyfingaskjöl, stofna hreyfingar sem bókaðar eru með endurflokkunarbókinni ekki vöruhúsabeiðni um að framkvæma efnislega verkið.  
-
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
-
-## <a name="see-also"></a>Sjá einnig .
-
-[Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
-[Birgðir](inventory-manage-inventory.md)  
+[Yfirlit](design-details-warehouse-management.md)
+[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
-[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

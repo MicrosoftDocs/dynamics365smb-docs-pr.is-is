@@ -1,22 +1,16 @@
 ---
 title: Meðhöndla birgða- og framleiðslukostnað
-description: Sjáðu hvernig ýmsir reitir, síður og skýrslur eru ætlaðar notendum sem vinna beint eða óbeint með kostnað á vörum eða aðgerðir.
+description: 'Sjáðu hvernig ýmsir reitir, síður og skýrslur eru ætlaðar notendum sem vinna beint eða óbeint með kostnað á vörum eða aðgerðir.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b911692aa899eac88b74322e21454c87659a75a8
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605570"
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Meðhöndla birgða- og framleiðslukostnað
+# Meðhöndla birgða- og framleiðslukostnað
 
 Þótt margar aðgerðir kostnaðarbókhalds felist í innri ferlum sem notandinn kemur ekki nálægt, til dæmis jöfnun færslna og sjálfvirk kostnaðarleiðrétting, eru nokkrir reitir, síður og skýrslur sem ætluð eru notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða.  
 
@@ -35,7 +29,7 @@ ms.locfileid: "9605570"
 |Afturkalla handvirkt birgðajöfnunarfærslu eða setja aftur upp birgðafærslur sem forritið bjó til.|[Fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Nota skal reitinn **Jafnað frá færslu** í birgðabókinni til að stofna handvirkt fasta jöfnun milli færslu á innleið og upphaflegrar færslu á útleið.|[Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna Birgðakostnaður](finance-manage-inventory-costs.md)
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)

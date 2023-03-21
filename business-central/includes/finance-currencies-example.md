@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 3833dd04063b815f56b3715a9fa547557a97f802
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419524"
 ---
 Þegar þú færð reikning frá fyrirtæki í erlendum gjaldmiðli er nokkuð auðvelt að reikna út staðbundið verðgildi reikningsins miðað við gengi gjaldmiðilsins í dag. Hins vegar fylgir reikningnum oft greiðsluskilmálar svo að þú getur seinkað greiðslunni til síðari tíma, sem gefur til kynna hugsanlega annað gengi gjaldmiðils. Þetta vandamál ásamt því að bankagengi gjaldmiðla er alltaf annað en opinbert gengi gjaldmiðla gerir það að verkum að ekki er hægt að gera ráð fyrir nákvæmri upphæð í staðbundnum gjaldmiðli sem þarf til að ná að dekka reikninginn. Ef gjalddagi reikningsins er til næsta mánaðar gætir þú einnig þurft að endurmeta upphæðina í staðbundnum gjaldmiðli í lok mánaðarins. Leiðrétting gjaldmiðilsins er nauðsynleg vegna þess að nýja LCY-gildið sem krafist er til að standa undir reikningsupphæðinni gæti verið annað og skuldir fyrirtækisins við lánardrottin gætu hafa breyst. Nýja LCY-upphæðin gæti verið hærri eða lægri en fyrri upphæðin og mun því tákna hagnað eða tap. Þar sem reikningurinn hefur ekki enn verið greiddur telst hagnaðurinn eða tapið *óinnleyst*. Seinna er reikningurinn greiddur og bankinn hefur skilað raunverulegu gengi gjaldmiðilsins fyrir greiðsluna. Það er ekki fyrr en nú sem *innleystur* hagnaðurinn eða tapið er reiknað út. Þessi óinnleysti hagnaður eða tap er þá bakfærður og innleystur hagnaður eða tap er birt í staðinn.
 

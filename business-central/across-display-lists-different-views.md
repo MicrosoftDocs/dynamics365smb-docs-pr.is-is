@@ -1,6 +1,6 @@
 ---
 title: Stilla fjölda smáatriða sem birtast á listum
-description: Hægt er að birta lista sem ítarlegar línur sem veita mestar upplýsingar, eða sem reiti sem auðvelt er skima yfir og geta innihaldið smámyndir.
+description: 'Hægt er að birta lista sem ítarlegar línur sem veita mestar upplýsingar, eða sem reiti sem auðvelt er skima yfir og geta innihaldið smámyndir.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,22 +10,16 @@ ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afa3806cd0597ffe04c516f586ea58fab83c0bc2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515850"
 ---
-# <a name="displaying-lists-in-different-ways"></a>Birting lista á mismunandi hátt
+# Birting lista á mismunandi hátt
 Í efra hægra horni hvaða lista sem er í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna tákn sem breyta því hvernig færslulistinn er sýndur. Hægt er að birta lista sem ítarlegar línur sem er tilvalið þegar vinna þarf með marga reiti eða breyta reitum í listanum. En einnig er hægt að skipta yfir í birtingu færslna á reitum, sem er samandregið og sýnir færri reiti á tiltekinni færslu. Þetta er mjög gagnlegt til að fá yfirlit yfir margar færslur og er sérlega gagnlegt í smærri tækjum þar sem allt er samanþjappaðra og auðveldara er að pikka á hverja færslu.
 
-## <a name="item-list"></a>Birgðalisti
+## Birgðalisti
 Á síðunni **Vörur** er hjálplegt að hafa myndir til að fá snögga yfirsýn yfir hvað er selt og sé síðan skipt yfir í reitina fæst vörulisti sem hægt er að fletta í gegnum. Í listum sem innihalda myndir, t.d. á síðunni **Vörur** er þriðji valkosturinn að sýna stóra reiti. Þetta birtir stórar myndir fyrir hverja færslu en sýnir einnig nokkra reiti.
 
 Hægt er að flytja inn vörumyndir, ýmist eina í einu eða nokkrar í einu. Frekari upplýsingar er að finna í [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md).  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 

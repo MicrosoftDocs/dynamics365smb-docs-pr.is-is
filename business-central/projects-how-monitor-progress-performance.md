@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, KPI, work in process, work in progress
-ms.search.form: 89, 92, 1010
+ms.search.keywords: 'project management, KPI, work in process, work in progress'
+ms.search.form: '89, 92, 1010'
 ms.date: 08/04/2022
 ms.author: edupont
-ms.openlocfilehash: 9b4c511c0cdaa6be6147ab1df3672f07b58c2b81
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528922"
 ---
-# <a name="monitor-job-progress-and-performance"></a>Fylgst með framvindu og afköstum
+# Fylgst með framvindu og afköstum
 
 Með VÍV-eiginleikanum getur þú áætlað fjárhagslegt virði áframhaldandi vinnu í fjárhagnum.
 
@@ -34,7 +28,7 @@ VÍV má reikna út byggt á eftirfarandi:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## <a name="create-a-job-wip-method"></a>Búa til VÍV-aðferð fyrir verk
+## Búa til VÍV-aðferð fyrir verk
 
 Búðu til VÍV-aðferð verks sem uppfyllir kröfur fyrirtækisins og velur það sem sjálfgefið.  
 
@@ -47,7 +41,7 @@ Búðu til VÍV-aðferð verks sem uppfyllir kröfur fyrirtækisins og velur þa
 4. Til að gera þetta að sjálfgefinni aðferð velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning verks** og velja síðan viðkomandi tengil.  
 5. Í reitnum **Sjálfgefin vÍv-aðferð** veljið aðferðina af listanum.
 
-## <a name="define-a-wip-method-for-a-job"></a>Skilgreina VÍV aðferð fyrir verk
+## Skilgreina VÍV aðferð fyrir verk
 
 Þegar nýtt verk er stofnað þarf að tilgreina hvaða VÍV-aðferð skuli eiga við. Í sumum tilvikum er VÍV-aðferð verksins sem þú notar þegar valin sem sjálfgefin.
 
@@ -55,7 +49,7 @@ Búðu til VÍV-aðferð verks sem uppfyllir kröfur fyrirtækisins og velur þa
 2. Valið er aðgerðin **Nýtt**. Frekari upplýsingar eru á [Stofna verk](projects-how-create-jobs.md).  
 3. Á síðunni **Verkspjald** skal velja VÍV-aðferð úr listanum í reitnum **VÍV-aðferð**. Ef sjálfgefin aðferð hefur verið skilgreind er hægt að velja annan valkost ef þess gerist þörf.  
 
-### <a name="define-a-wip-method-for-a-job-task"></a>Skilgreina VÍV aðferð fyrir verk
+### Skilgreina VÍV aðferð fyrir verk
 
 Þú getur skilgreint VÍV aðferð fyrir verk, útilokað sum verk frá VÍV-útreikningi eða flokkað verk saman og reikna út heildina. 
 
@@ -100,7 +94,7 @@ Eftirfarandi tafla lýsir valkostunum þremur:
 
 * *1300* til og með *1399*: VÍV eru reiknuð út fyrir þennan verkhlutaflokk sér.
 
-## <a name="calculate-wip"></a>Reikna VÍV
+## Reikna VÍV
 
 Hægt er að ákvarða VÍV-upphæðina sem bóka skal á efnahagsreikning fyrir skýrslugjöf við lok tímabils. Þetta má gera með því að nota keyrsluna **Verkreikna VÍV**.  
 
@@ -112,7 +106,7 @@ Hægt er að ákvarða VÍV-upphæðina sem bóka skal á efnahagsreikning fyrir
 > [!NOTE]  
 >   Runuvinnslan reiknar aðeins VÍV, hún bókar það ekki í fjárhaginn. Til að bóka það skal keyra runuvinnsluna **Bóka VÍV í fjárhag** eftir að VÍV hefur verið reiknað út. Fáðu frekari upplýsingar í eftirfarandi ferli.
 
-## <a name="post-wip"></a>Bóka VÍV
+## Bóka VÍV
 
 Þegar VÍV hefur verið reiknað er hægt að bóka það á efnahagsreikning fyrir árslokaskýrslu. Þetta má gera með því að nota keyrsluna **Bóka VÍV á fjárhag**.
 
@@ -120,7 +114,7 @@ Hægt er að ákvarða VÍV-upphæðina sem bóka skal á efnahagsreikning fyrir
 2. Á síðunni **Verk - Bóka VÍV í fjárhag** skal fylla reitina út eins og þörf krefur.  
 3. Velja hnappinn **Í lagi**.
 
-## <a name="calculate-and-post-job-completion-entries"></a>Reikna út og bóka verklokafærslur
+## Reikna út og bóka verklokafærslur
 
 Þegar öllum aðgerðum verks hefur verið lokið, þar með talin bókun notkunar og reikningsfærsla, þarf að uppfæra verkið svo að **Staða** þess sé **Lokið**. Síðan þarf að bakfæra VÍV sem hefur verið bókað í fjárhag.
 
@@ -137,7 +131,7 @@ Hægt er að ákvarða VÍV-upphæðina sem bóka skal á efnahagsreikning fyrir
 
      VÍV-fjárlagsfærslur verks sem voru stofnaðar með keyrslunni munu nú hafa gátmerki í reitnum **Verki lokið** til að sýna að þær eru lokafærslur.
 
-## <a name="view-job-ledger-entries"></a>Verkfærslur skoðaðar
+## Verkfærslur skoðaðar
 
 Allar færslur sem tengjast verki eru skráðar í verkdagbækur og tölusettar í réttri röð, byrjað á 1. Í verkdagbókinni er hægt að fá yfirlit um verkfærslurnar.    
 
@@ -146,9 +140,9 @@ Allar færslur sem tengjast verki eru skráðar í verkdagbækur og tölusettar 
 
 Á síðunni **Verkfærslur** er hægt að fara yfir færslur sem tengjast verki.  
 
-## <a name="find-related-microsoft-training"></a>Finna tengda [Microsoft-þjálfun](/training/paths/calculate-post-job-wip/)
+## Finna tengda [Microsoft-þjálfun](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning - Útreikningur á VÍV fyrir verk](walkthrough-calculating-work-in-process-for-a-job.md)
 [Stjórna verkum](projects-manage-projects.md)  

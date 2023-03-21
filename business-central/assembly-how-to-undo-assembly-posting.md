@@ -1,69 +1,64 @@
 ---
 title: Afturkalla samsetningarbókun
-description: Stundum þarf að afturkalla bókaða samsetningarpöntun, til dæmis þegar pöntunin var bókuð með mistökum sem þarf að leiðrétta.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 8a3588e83ad0a75c4ac9167329659b25ed52320e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606333"
+description: Lærðu að leiðrétta mistökin í bókaðri söfnunarpöntun.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 02/21/2023
+ms.custom: bap-template
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="undo-assembly-posting"></a>Afturkalla samsetningarbókun
+# Afturkalla samsetningarbókun
 
-Stundum gæti þurft að afturkalla bókaða samsetningarpöntun, til dæmis ef pöntunin var bókuð með mistökum sem þarf að leiðrétta, eða vegna þess að hana hefði ekki átt að bóka til að byrja með og verður því að afturkalla.
+Afturkalla bókun samsetningarpöntunar til að leiðrétta mistök eða fjarlægja óæskilega bókun.
 
-Þegar bókuð samsetningarpöntun er bókuð er færslubunki stofnaður í birgðahöfuðbók til að snúa við upphaflegum færslum. Hver neikvæð frálagsfærsla fyrir samsetningaríhlutinn er bakfærð með jákvæðri frálagsfærslu. Hver neikvæð notkunarfærsla fyrir samsetningaríhlut er bakfærð með jákvæðri notkunarfærslu. Fastur kostnaður er stofnaður sjálfkrafa á milli leiðréttingarfærslna og upphaflegu færslna til að tryggja nákvæma bakfærslu kostnaðar.  
+Þegar bókuð samsetningarpöntun er afturkölluð eru leiðréttingar á leiðréttum birgðafærslum stofnaðar til að bakfæra upprunalegu færslurnar. Hver neikvæð frálagsfærsla fyrir samsetningaríhlutinn er bakfærð með jákvæðri frálagsfærslu. Hver neikvæð notkunarfærsla fyrir samsetningaríhlut er bakfærð með jákvæðri notkunarfærslu. Fastur kostnaður er stofnaður sjálfkrafa á milli leiðréttingarfærslna og upphaflegu færslna til að tryggja nákvæma bakfærslu kostnaðar.  
 
-Þegar fullbókuð samsetningarpöntun er afturkölluð er hægt að velja að útbúa pöntunina aftur á upphaflegu sniði, t.d. til að gera leiðréttingar áður en hún er bókuð á ný. Að öðrum kosti er hægt að velja að endurstofna ekki samsetningarpöntunina.  
+Þegar fullbókuð samsetningarpöntun er afturkölluð er hægt að endurgera upprunalegu pöntunina. Til dæmis til að gera leiðréttingar áður en það er bókað aftur.  
 
-Þegar afturkalla á hlutabókaða samsetningarpöntun verða allir tilheyrandi magnreitir, s.s. **Samsett magn** **Notað magn** og **Eftirstandandi magn** að vera færðir aftur í þau gildi sem voru áður en á bókað var.  
+Þegar bókuð samsetningarpöntun er afturkölluð að öllu leyti er öllum svæðum sem eiga við magnið, svo sem  **samsett magn,** notað magn  **og** Eftirstöðvar  **, sett**  aftur í gildin sem þau höfðu fyrir bókunina.  
 
-Til að endurheimta eða endurstofna samsetningarpantanir verða eftirfarandi skilyrði að eiga við samsetningarvöruna sem var frálag í upprunalegu bókuninni:  
+Til að endurgera eða endurheimta samsetningarpantanir þarf atriðið í upphaflegu bókuninni að uppfylla eftirfarandi skilyrði:  
 
--   Hún verður að vera enn í birgðum, þannig að hún sé ekki seld eða á annan hátt notuð af færslum á útleið.  
--   Hún má ekki vera frátekin.  
--   Það verður að vera til í hólfinu sem það var sett í sem frálag.  
+* Þetta er enn í birgðum. Það er, það hefur ekki verið selt né á annan hátt neytt þeirra í viðskiptum á útleið.  
+* Það er ekki frátekið.  
+* Það er í hólfinu sem það var úttak að.  
 
-Auk þess er aðeins hægt að endurheimta samsetningarpantanir ef línunúmer og línuröð í upphaflegu samsetningarpöntuninni hafa ekki breyst.  
+Aðeins er hægt að endurheimta samsetningarskipanir Ef fjöldi og röð lína í upprunalegu samsetningarpöntuninni eru ekki breyttar.  
 
 > [!TIP]  
->  Til að leysa úr árekstrum vegna línubreytinga er hægt að afturkalla breytingarnar á umræddum línum handvirkt áður en tengda bókaða samsetningarpöntunin er afturkölluð. Einnig er hægt að bóka samsetningarpöntunina að fullu og velja síðan að endurstofna hana þegar bókunin er afturkölluð.  
+> Ef leysa á úr árekstrum vegna breytinga í línunum snúa breytingarnar handvirkt að línunum sem um ræðir áður en bókuð samsetningarpöntun er afturfyrir. Hægt er að bóka samsetningarpöntunina og endurgera hana þegar bókun er afturkölluð.  
 
-Eftirfarandi ferli lýsir því hvernig eigi afturkalla bókaðar samsetningarpantanir þar sem vörurnar voru settar saman í birgðir. Eigi að afturkalla bókaðar samsetningarpantanir þar sem vörur voru settar saman í sölupöntun þarf að nota aðgerðina **Afturkalla afhendingu** í bókuðu afhendingunni sem tengist bókuðu samsetningarpöntuninni. Frekari upplýsingar er að finna í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md). Afturköllun bókaðrar samsetningarpöntunar gerist síðan sjálfkrafa eins og lýst er í þessu efnisatriði.  
+Eftirfarandi ferli lýsir því hvernig á að afturkalla bókaðar samsetningarpantanir sem innihalda vörur sem voru settar saman á lager. Til að afturkalla bókaðar samsetningarpantanir með vörum sem settar voru saman til pöntunar er notuð  **afturkalla Sendingaraðgerð**  á tengdri bókaðri afhendingu. Frekari upplýsingar um afturkalla afhendingu fara í  [Bakfæra Færslubókarbókanir og afturkalla innhreyfingar/afhendingar](finance-how-reverse-journal-posting.md). Afturkalla bókaða söfnunarpöntun gerist á sama hátt og lýst er í þeirri grein.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a>Til að afturkalla bókun samsetningarpöntunar
+## Til að afturkalla bókun samsetningarpöntunar
 
-1.  Til að afturkalla bókaða samsetningarpöntun skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðar samsetningarpantanir** og velja síðan viðkomandi tengil.  
+Hægt er að afturkalla bókaðar samsetningarpantanir að fullu eða að hluta.
 
-    Síðan **Bókaðar samsetningarpantanir** opnast og birtir eina eða fleiri bókaðar samsetningarpantanir sem eru bókaðar úr viðkomandi samsetningarpöntun. Hverja hlutabókun stofnar aðskilda bókaða samsetningarpöntun.  
-2.  Opna bókaða samsetningarpöntun sem á að afturkalla, og velja síðan aðgerðina **Afturkalla samsetningu**.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðar samsetningarpantanir** og velja síðan viðkomandi tengil.  
 
-    Ef bókuð samsetningarpöntun sem á að afturkalla tengist fullbókaðri samsetningarpöntun sem nú hefur verið eytt er hægt að endurstofna hana, yfirleitt til þess að endurvinna hana.  
-3.  Ef endurgera á samsetningarpöntunina skal velja hnappinn **Já**. Til að afturkalla bókunina án þess að endurstofna tengdu samsetningarpöntunina skal velja hnappinn **Nei**.  
+   Hverja hlutabókun stofnar aðskilda bókaða samsetningarpöntun.  
+2. Opna bókaða samsetningarpöntun sem á að afturkalla, og velja síðan aðgerðina **Afturkalla samsetningu**.  
 
-**Frátekið** Svæðið í haus samsetningarpöntunar breytist í **Já**. Bókun samsetningarpöntunarinnar er nú bakfærð, og hægt er að halda áfram að vinna alla samsetningarpöntunina ef valið var að endurstofna hana eða opnu samsetningarpöntunina sem hefur verið færð til baka í upphaflegt horf.  
+    Ef bókaða samsetningarpöntunin er tengd við fullkomlega bókaða samsetningarpöntun sem hefur verið eytt er hægt að endurgera þá pöntun sem er eytt. Til dæmis gæti verið hægt að afþakka pöntunina vegna þess að hún á að endurvinna hana.  
+3. Til að endurgera samsetningarpöntun skaltu velja  **Já**. Til að afturkalla bókunina án þess að endurstofna samsetningarpöntun skaltu velja  **Nei**.  
+
+ **Bakfært**  svæðið á samsetningarpöntuninni breytist í  **Já**. Nú er verið að bakfæra bókun samsetningarpöntunar. Hægt er að vinna alla samsetningarpöntunina ef valið er að endurgera hana eða opna samsetningarpöntunina sem hefur verið endurheimt í upprunalega stöðu.  
 
 > [!NOTE]  
->  Til að endurheimta magn úr mörgum hlutabókunum í samsetningarpöntun þarf að afturkalla allar bókaðar samsetningarpantanir sem um ræðir með því að fylgja skrefum 1 til 3 hér að ofan fyrir hverja bókaða samsetningarpöntun.  
+> Til að endurheimta magn úr mörgum bókunum í samsetningarpöntun verður að afturkalla allar bókaðar samsetningarpantanir með því að fylgja þrepum 1 til 3.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)  
 [Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Yfirlit yfir](design-details-warehouse-management.md)
+[vöruhúsastjórnun vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,18 +7,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: special price, alternate price, pricing
-ms.search.form: 7022, 7024
+ms.search.keywords: 'special price, alternate price, pricing'
+ms.search.form: '7022, 7024'
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652192"
 ---
-# <a name="record-special-sales-prices-and-discounts"></a>Skrá sérstök söluverð og afslætti
+
+# Skrá sérstök söluverð og afslætti
 
 > [!NOTE]
 > Á útgáfutímabili 2 árið 2020 kynntum við einfaldari ferla til að setja upp og hafa umsjón með verðum og afsláttum. Ef þú ert nýr viðskiptamaður sem ert að nota nýjustu útgáfu þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna í [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management) í efni stjórnenda.
@@ -49,17 +44,17 @@ Til að fá söluafslátt er hægt að setja upp tvær gerðir:
 > [!TIP]  
 > Ef aldrei á að selja vöru með afslætti skal skilja afsláttarreitinn á vörusíðunni eftir auðan og ekki hafa með vöruna í neinum uppsetningum línuafslátta.
 
-## <a name="to-set-up-a-sales-price-for-a-customer"></a>Að setja upp söluverð fyrir viðskiptamann
+## Að setja upp söluverð fyrir viðskiptamann
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum „Núverandi upplifun“. 
 
-#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience/)
+#### [Núverandi reynsla](#tab/current-experience/)
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
 2. Velja skal viðskiptamanninn og síðan velja aðgerðina **Verð**.
 3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyllt er út lína fyrir hverja samsetningu sem veitir sérstakt söluverð fyrir viðskiptamanninn.
 
-#### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)  
+#### [Ný reynsla](#tab/new-experience/)  
 
 Sjálfgefið er að staða nýrra verðlista sé **Drög**. Drög að verðlistum eru ekki tekin með í verðútreikningum. Þegar búið er að bæta við línum og byrja á að nota verðin skal breyta stöðunni í **Virka** stöðu.
 
@@ -75,7 +70,7 @@ Sjálfgefið er að staða nýrra verðlista sé **Drög**. Drög að verðlistu
 
 ---
 
-## <a name="using-sales-and-purchase-price-lists"></a>Verðlistar sölu og innkaupa notaðir
+## Verðlistar sölu og innkaupa notaðir
 
 > [!NOTE]
 > Til að nota verðlista þarf stjórnandinn að hafa kveikt á eiginleikauppfærslunni **Ný söluverðsupplifun** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna í [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management) í efni stjórnenda.
@@ -84,7 +79,7 @@ Mest af nýju upplifuninni af söluverði svipar til núverandi upplifunar, en n
 
 **Á við um gerð** og **Á við um nr.** reitirnir gera kleift að velja hvað verðlisti gildir fyrir, t.d. viðskiptamann eða verðflokk viðskiptamanns. Með því að nota **Skoða dálka fyrir** er hægt að sýna eða fela dálka sem tengjast því að stilla verð, afslætti eða verð og afslætti.
 
-### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update"></a>Fyrirliggjandi verðum breytt þegar kveikt er á eiginleikauppfærslu verðlagningar
+### Fyrirliggjandi verðum breytt þegar kveikt er á eiginleikauppfærslu verðlagningar
 
 Þegar eiginleikauppfærslan **Ný söluverðsupplifun** er virkjuð á síðunni **Eiginleikastjórnun** opnast leiðsögnin **Gagnauppfærsla eiginleika**. Notaðu víxlhnappinn **Nota sjálfgefin verð** á eftirfarandi hátt:
 
@@ -111,7 +106,7 @@ Ef þú ert með margar samsetningar færðu marga verðlista.
 
 Ef þú hefur þegar virkjað nýju verðupplifunina getur þú búið til sjálfgefna verðlista handvirkt eða tilgreint núverandi verðlista sem sjálfgefinn. Til að stilla núverandi verðlista sem sjálfgefinn skaltu kveikja á víxlhnappnum **Leyfa uppfærslu sjálfgilda** í verðlistanum. Á síðunum **Uppsetning sölugrunns**, **Uppsetning innkaupagrunns** eða **Uppsetning verka** skal síðan stilla verðlistann sem sjálfgefinn.
 
-### <a name="editing-active-price-lists"></a>Breyta virkum verðlistum
+### Breyta virkum verðlistum
 
 Til að gera fólki kleift að breyta verði á virkum verðlistum fyrir vörur, tilföng, viðskiptamenn, lánardrottna eða aðrar einingar sem nota verðlagningu skal kveikja á víxlhnappnum **Leyfa breytingar á virku verði** á síðunum **Uppsetning sölugrunns** og **Uppsetning innkaupagrunns**.
 
@@ -124,7 +119,7 @@ Síðan **Verðyfirlit** gefur yfirlit yfir öll verð í verðlistum. Hægt er 
 
 Til að bæta við nýjum verðum á síðunni **Verðyfirlit** skal nota aðgerðina **Bæta við nýjum línum**. Síðan **Vinnublað verðs** opnast og þú getur bætt við verðlínum annaðhvort með því að leggja þau til samkvæmt skilyrði, afrita þau úr öðrum verðlistum eða slá þau inn handvirkt. Eftir á er hægt að nota aðgerðina **Innleiða verðbreytingu** til að bera nýju verðin saman við aðra verðlista til að forðast tvítekningar og tvíræðni í verðútreikningum.
 
-#### <a name="create-sales-price-lines-based-on-the-unit-price"></a>Stofna söluverðslínur á grundvelli einingarverðs
+#### Stofna söluverðslínur á grundvelli einingarverðs
 
 1. Á síðunni **Vinnublað verðs** skal velja aðgerðina **Tillögur um línur**.
 2. Á síðunni **Verðlínur - Stofna nýja** skal fylla út reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -137,7 +132,7 @@ Til að bæta við nýjum verðum á síðunni **Verðyfirlit** skal nota aðger
 5. Velja **Í lagi**. Nýjum línum verður bætt við síðuna **Vinnublað verðs** með völdum stillingum og einingarverðum úr birgðaspjöldunum.
 6. Breyta línunum sem eru búnar til með nýja einingarverðinu eða afsláttunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="create-sales-price-lines-based-on-existing-price-lists"></a>Stofna sölulínur á grundvelli fyrirliggjandi verðlista
+#### Stofna sölulínur á grundvelli fyrirliggjandi verðlista
 
 1. Á síðunni **Vinnublað verðs** skal velja aðgerðina **Afrita línur**.
 2. Á síðunni **Verðlínur - Afrita fyrirliggjandi** skal velja fyrirliggjandi verðlista í reitnum **Úr verðlista**.
@@ -151,11 +146,11 @@ Til að bæta við nýjum verðum á síðunni **Verðyfirlit** skal nota aðger
 6. Velja **Í lagi**. Nýjum línum verður bætt við síðuna **Vinnublað verðs** með völdum stillingum.
 7. Breyta línunum sem eru búnar til með nýja einingarverðinu eða afsláttunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-copy-sales-prices"></a>Til að afrita söluverð
+## Til að afrita söluverð
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum „Núverandi upplifun“.
 
-#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience/)  
+#### [Núverandi reynsla](#tab/current-experience/)  
 
 Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.** runuvinnslan á síðunni **Vinnublað söluverðs**.  
 
@@ -169,7 +164,7 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
    > [!NOTE]  
    > Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja þær á síðuna **Söluverð** skal velja aðgerðina **Innleiða verðbreytingar** á síðunni **Vinnublað söluverðs**.
 
-#### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)  
+#### [Ný reynsla](#tab/new-experience/)  
 
 Þú getur tilgreint hvort nýi verðlistinn notar stillingarnar úr hausnum á listanum sem þú afritar eða stillingarnar úr nýja listanum sem þú afritar í. Til að nota stillingarnar úr verðlistanum sem þú afritar verðin í skaltu kveikja á **Nota sjálfgefið úr markmiði**.
 
@@ -182,11 +177,11 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>Til að magnuppfæra vöruverð
+## Til að magnuppfæra vöruverð
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum „Núverandi upplifun“.
 
-#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience/)
+#### [Núverandi reynsla](#tab/current-experience/)
 
 Til að uppfæra mörg vöruverð í einu, t.d. hækka öll verð um sömu prósentuna, er hægt að fylla út síðuna „Vinnublað söluverðs“ með því að nota eftirfarandi runuvinnslur:
 
@@ -202,7 +197,7 @@ Til að uppfæra mörg vöruverð í einu, t.d. hækka öll verð um sömu prós
 7. Veldu hnappinn **Í lagi** til að setja nýju verðtillögurnar í línurnar á síðunni **Vinnublað söluverðs**.
 8. Til að innleiða tillögurnar skal nota aðgerðina **Innleiða verðbreytingar**. Runuvinnslan býr til tillögur en innleiðir þær ekki. 
 
-#### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)
+#### [Ný reynsla](#tab/new-experience/)
 
 Til að uppfæra verð fyrir margar vörur þarf að búa til nýjam verðlista og afrita síðan línurnar úr fyrirliggjandi verðlista. Þegar línur eru afritaðar er hægt að nota síur til að tilgreina hvað eigi að afrita og hægt er að tilgreina heiltölu eða tugabrot í reitnum **Leiðréttingarstuðull** til að hækka eða lækka verð. Verðlistinn verður að vera í stöðunni **Drög**. Ef þörf krefur er hægt að gera eldri verðlistann óvirkan.
 
@@ -211,7 +206,7 @@ Til að uppfæra verð fyrir margar vörur þarf að búa til nýjam verðlista 
 
 ---
 
-## <a name="best-price-calculation"></a>Útreikningur besta verðs
+## Útreikningur besta verðs
 
 Þegar sérverð og línuafslættir fyrir sölu og innkaup hafa verið skráð mun [!INCLUDE[prod_short](includes/prod_short.md)] reikna út besta verðið á sölu- og innkaupaskjölum og á verk- og færslubókarlínum.
 
@@ -234,7 +229,7 @@ Besta verðið er lægsta verðið með hæsta leyfilega línuafsláttinn á til
 
 Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Afslættir Sölureiknings og Þjónustugjöld
+## Afslættir Sölureiknings og Þjónustugjöld
 
 Þegar reikningsafslættir eru notaðir fer afslátturinn sem er veittur eftir því hve reikningsupphæðin er há. Á síðunni **Reikningsafsláttur viðskm** er einnig hægt að leggja þjónustugjald á reikninga sem eru yfir tiltekinni upphæð.  
 
@@ -256,15 +251,15 @@ Til viðbótar við eða í staðinn fyrir afsláttarprósentu er hægt að teng
 
 Frekari þjálfun í afsláttum í sölu er að finna í [Setja upp afslætti fyrir viðskiptamenn þína](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Reikna reikningsafslátt á sölu
+### Reikna reikningsafslátt á sölu
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Sölulínuafsláttur stofnaður fyrir viðskiptamann
+## Sölulínuafsláttur stofnaður fyrir viðskiptamann
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum „Núverandi upplifun“.
 
-#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience/)  
+#### [Núverandi reynsla](#tab/current-experience/)  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
 2. Opna skal viðeigandi viðskiptamannaspjald og veljið svo aðgerðina **Línuafslættir**.
@@ -275,7 +270,7 @@ Frekari þjálfun í afsláttum í sölu er að finna í [Setja upp afslætti fy
 >
 > Til að setja upp verð eða línuafslætti fyrir alla viðskiptamenn, verðflokk viðskiptamanns eða herferð verður að opna síðurnar af birgðaspjaldi. Einnig er hægt að nota síðuna **Vinnublað söluverðs** fyrir söluverð. Frekari upplýsingar er að finna í [Til að magnuppfæra vöruverð](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
-#### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)  
+#### [Ný reynsla](#tab/new-experience/)  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
 2. Veldu viðskiptamann og veldu svo aðgerðina **Söluverðlistar**.
@@ -292,7 +287,7 @@ Frekari þjálfun í afsláttum í sölu er að finna í [Setja upp afslætti fy
 
 ---
 
-## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Að setja upp reikningsafslátt fyrir viðskiptamann
+## Að setja upp reikningsafslátt fyrir viðskiptamann
 
 Þegar búið er að ákveða hvaða viðskiptamenn geta fengið reikningsafslátt skal færa inn kóða reikningsafsláttar á viðskiptamannasíðunum. Settu síðan upp skilmálana fyrir hvern kóða.
 
@@ -311,9 +306,9 @@ Haltu áfram með uppsetningu nýrra afsláttarskilmála sölureiknings.
 4. Í reitnum **Afsláttar %** skal slá inn reikningsafslátt sem prósentu af reikningsupphæð.
 5. Endurtakið skref 5 til 7 fyrir alla gjaldmiðla sem viðskiptamaðurinn mun fá mismunandi reikningsafslátt í.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
+## Sjá tengda [Microsoft þjálfun](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  

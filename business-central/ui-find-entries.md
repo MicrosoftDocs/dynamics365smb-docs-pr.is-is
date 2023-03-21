@@ -1,6 +1,6 @@
 ---
-title: Finna færslur
-description: Þessi grein lýsir því hvernig á að finna skjöl og færslur sem tengjast
+title: Finna tengdar færslur fyrir skjöl
+description: 'Lærðu að finna skjöl, viðskiptatengsl og birgðafærslur sem tengjast innbyrðis.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -10,26 +10,20 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 3c89d9f3044a8fd0d0fa7f811f1b2f01978e4302
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532377"
 ---
-# <a name="finding-related-entries-for-posted-documents"></a>Leita að tengdum færslum fyrir bókuð skjöl 
+# Finna tengdar færslur fyrir skjöl
 
-Í þessari grein er að finna upplýsingar um skjöl og færslur sem tengjast innbyrðis samkvæmt sameiginlegum upplýsingum á borð við:
+Lærðu hvernig á að finna skjöl og færslur sem tengjast innbyrðis Byggt á algengum upplýsingum, eins og:
 
-- Skjalanúmer eða bókunardagsetning
-- Gerð viðskiptatengsla, númer eða ytra skjalanúmer
-- Raðnúmer eða lotunúmer vöru
+- Fylgiskjalsnúmer eða bókunardagsetningu.
+- Gerð viðskiptatengiliðar, númer eða númer utanaðkomandi skjals.
+- Raðnúmer vöru eða lotunúmer.
 
-Þessi eiginleiki er gagnlegur til að hafa upp á fjárhagsfærslum sem urðu til vegna ákveðinna viðskipta. Þegar leitað er eftir skjalanúmeri, er hægt að prenta samantektina úr skýrslu skjalafærslna.
+Þessi eiginleiki er gagnlegur til að hafa upp á fjárhagsfærslum sem urðu til vegna ákveðinna viðskipta. Þegar fylgiskjalsnúmer er leitað er hægt að prenta samantektina úr  **skýrslunni Fylgiskjalafærslur** .
 
-## <a name="get-started"></a>Hafist handa
+## Hafist handa
 
-Eiginleikinn til að finna færslu er tiltækur á næstum öllum síðum með því að ýta á Ctrl+Alt+Q. Á síðum sem birta sérstaklega bókuð skjöl eða bókaðar skjalafærslur&mdash;fyrir bæði lista og spjöld&mdash;er einnig hægt að opna eiginleikann með því að velja aðgerðina **Finna færslur**.
+Aðgerðin finna færslur er fúslega tiltæk á nánast hvaða síðu sem er með því að styðja á  <kbd>lyklana CTRL</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> . Frá síðum sem sérstaklega birtast bókuð skjöl eða bókaðar skjalafærslur &mdash; fyrir bæði lista og spjöld &mdash; er hægt að opna aðgerðina með því að  **Velja aðgerðina finna færslur** .
 
 Síðan **Leita að færslum** inniheldur öll tengd skjöl og færslur samkvæmt skjalanúmerinu og bókunardagsetningunni. Síðan skiptist í þrjá hluta:
 
@@ -37,45 +31,31 @@ Síðan **Leita að færslum** inniheldur öll tengd skjöl og færslur samkvæm
 - Miðhlutinn sýnir tengd skjöl samkvæmt leitinni.
 - Neðsti hlutinn sýnir upplýsingar um upprunaskjalið sem fannst með leit.
 
+## Leita að færslum
 
-<!--
- There are two ways to open this page:
-
-- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
-
-    With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
-    
-- Open a page that displays posted documents or posted documents entries, either a list or a card. Then, locate and select the **Find Entries** action.
-
-    With this way, the **Find Entries**, page will include all related documents and entries based on the document no. and posting date.
-
-
-    > [!TIP]
-    > If you are on a page that has the **Find Entries** action, press crtl+G to open the **Find Entries** page directly. 
--->
-
-## <a name="search-for-entries"></a>Leita að færslum
-
-Hægt er að leita að færslum út frá upplýsingum um annaðhvort skjalið, viðskiptatengilið eða vörutilvísun. Til að breyta leitinni skal velja **Aðgerðir**, **Leita eftir** og síðan eina af eftirfarandi aðgerðum:
+Hægt er að leita að færslum út frá upplýsingum um annaðhvort skjalið, viðskiptatengilið eða vörutilvísun. Í efsta hlutanum er valinn einn af eftirtöldum valkostum sem byggist á gerð upplýsinganna sem eru:
 
 |Aðgerð|Description|
 |------|-----------|
-|Leita eftir fylgiskjali|Skoðið færslur út frá tilteknu skjalanúmeri eða bókunardagsetningu.|
-|Viðskiptatengiliður |Skoðið færslur út frá tiltekinni gerð tengiliðar, númeri tengiliðar og/eða ytra skjalanúmeri. Hægt er að færa inn upplýsingar um skjal sem lánardrottin eða viðskiptamaður úthlutaði. Notið tiltæka reiti til að leita að skjölum lánardrottins með því að nota númerin sem lánardrottinn hefur úthlutað skjölunum.|
-|Vörutilvísun|Skoðið færslur út frá raðnúmeri eða lotunúmeri. Hægt er að færa inn lotunúmer eða raðnúmer, eða sía fyrir lotunúmerinu eða raðnúmerinu sem leita á að. Þessi aðgerð er gagnleg til að sjá hvar tiltekið vörurakningarnúmer var notað, frá hvaða lánardrottni það kom eða hvaða viðskiptamanni það var selt.|
+| **Leita að skjölum** | Skoðið færslur út frá tilteknu skjalanúmeri eða bókunardagsetningu. |
+| **Leita að tengiliðum fyrirtækja** | Skoða færslur sem byggðar eru á tiltekinni tegund tengiliðar, númeri tengiliðar og/eða númeri utanaðkomandi skjals. Þessi Síðasti valkostur gerir þér kleift að leita að skjölum lánardrottins eða viðskiptavina með því að nota númerið sem tengiliðurinn úthlutar. |
+| **Leita að vörutilvísunum** | Skoða færslur byggðar á raðnúmeri eða lotunúmeri. Hægt er að færa inn lotunúmer eða raðnúmer, eða sía fyrir lotunúmerinu eða raðnúmerinu sem leita á að. Þessi aðgerð er gagnleg til að sjá hvar tiltekið vörurakningarnúmer var notað, frá hvaða lánardrottni það kom eða hvaða viðskiptamanni það var selt. |
 
-Þegar búið er að velja skal færa inn viðeigandi leitarupplýsingar í reitina efst uppi. Notið ábendingarnar í reitunum til að fá hjálp. Þegar þessu er lokið skal velja **Leita** til að hefja leitina. Ef einhverjum síunum er breytt þarf að velja **Leita** aftur.
+Þegar búið er að velja þarf að slá inn viðeigandi leitarupplýsingar í reitina efst á síðunni. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Að því loknu er valið  **finna**  til að hefja leitina. Ef einhverjum síunum er breytt þarf að velja **Leita** aftur.
 
 > [!TIP]
-> Til að fá nokkur dæmi um notkun á **Leita að færslum** skal skoða [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
+> Til að fá nokkur dæmi um notkun  **finna færslna** má sjá  [atriði](inventory-how-to-trace-item-tracked-items.md)  í rakningu vöru og  [Walkthrough: rakningar-raðnúmer-lotunúmer](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/user-interface-dynamics-365-business-central/index)
+## Sjá tengda [Microsoft þjálfun](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
+[Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  
+[Finna bókuð fylgiskjöl án færslu skjals á innleið](across-how-find-posted-documents-without-income-document-records.md)  
+[Aðgengi og Flýtivísanir](ui-accessibility.md)  
 [Vinna með Business Central](ui-work-product.md)  
 [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)  
-[Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  
-
+[Finna síður og upplýsingar með Viðmótsleit](ui-search.md)  
+[Dinna síður með hlutverkaleit](ui-role-explorer.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

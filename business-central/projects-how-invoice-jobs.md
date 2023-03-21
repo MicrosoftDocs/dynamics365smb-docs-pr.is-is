@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.search.form: 1002, 1007,
+ms.search.form: '1002, 1007,'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 027a79180dbc8a1a9ea53da9548d2b39a1852cdc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533536"
 ---
-# <a name="invoice-jobs"></a>Reikningsfærsla verka
+# Reikningsfærsla verka
 
 Meðan á verkefninu stendur getur kostnaður vegna forðanotkunar, efnis og verktengdra innkaupa safnast upp. Þessar færslur eru bókaðar í verkbókina á vinnslutíma verksins. Mikilvægt er að allur kostnaður sé skráður í verkbókina áður en viðskiptavininum er sendur reikningur.
 
@@ -31,7 +25,7 @@ Hægt er að reikningsfæra allt verkið á síðunni **Verkhlutalínur** eða a
 
 Einnig er hægt að reikningsfæra fyrirtæki sem er ekki endaviðskiptamaður. Stundum er sá aðili sem verkefni er unnið fyrir annar en sá sem er að borga reikninginn. Á síðunni **Störf** er hægt að tilgreina viðskiptamanninn sem mun njóta góðs af verkinu í reitunum **Selt-til** og aðilann sem á að reikningsfæra í reitnum **Reikningsfæra á**. 
 
-## <a name="to-create-multiple-job-sales-invoices"></a>Að búa til marga sölureikninga verks
+## Að búa til marga sölureikninga verks
 
 Hægt er að stofna reikning fyrir verk eða einn eða fleiri verkhluta fyrir viðskiptavin þegar verkinu sem á að reikningsfæra er lokið eða komið er að dagsetningu reikningafærslunnar, sem byggist á reikningsfærsluáætlun.
 
@@ -47,7 +41,7 @@ Hægt er að yfirfara og bóka stofnaða reikninga í glugganum **Sölureikninga
 > [!NOTE]
 > Einnig er hægt að reikningsfæra til viðskiptamanns með því að velja verkið og velja svo aðgerðina **Stofna sölureikning verks**. 
 
-## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Að búa til og bóka sölureikninga verks úr verkáætlunarlínum
+## Að búa til og bóka sölureikninga verks úr verkáætlunarlínum
 
 Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tíma magnið af vörunni, forða eða fjárhagsreikning sem á að reikningsfæra.
 
@@ -66,9 +60,9 @@ Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tím
 > [!NOTE]  
 >   Ofangreint ferli er svipað þegar verið er að stofna, yfirfara og bóka verktengdan sölukreditreikning.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/post-job-usage-sales/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna verkum](projects-manage-projects.md)  
 [Fjármál](finance.md)  

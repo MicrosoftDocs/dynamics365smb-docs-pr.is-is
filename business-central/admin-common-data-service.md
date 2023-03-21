@@ -7,14 +7,9 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 422466c83d3f86f9afa611f5ef578482eadaf275
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531756"
 ---
-# <a name="integrating-with-microsoft-dataverse"></a>Tengir við Microsoft Dataverse
+
+# Tengir við Microsoft Dataverse
 
 Viðskiptaforrit nota oft gögn frá fleiri en einum uppruna. [!INCLUDE[prod_short](includes/cds_long_md.md)] sameinar gögn í einn grunn sem auðveldar að tengja önnur Dynamics 365 forrit, t.d. [!INCLUDE[crm_md](includes/crm_md.md)] eða þitt eigið forrit smíðað ofan á [!INCLUDE[prod_short](includes/cds_long_md.md)], við [!INCLUDE[prod_short_md](includes/prod_short.md)]. Frekari upplýsingar um [!INCLUDE[prod_short](includes/cds_long_md.md)] er að finna í [Hvað er Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
@@ -29,19 +24,19 @@ Eftirfarandi skref veita yfirlit yfir skrefin til að samþætta [!INCLUDE[prod_
 
 3. Samstilltu gögn milli forrita. Frekari upplýsingar er að finna í [Samstilling Business Central og Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-prod_short"></a>Hafist handa með [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Hafist handa með [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Til að hefjast handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] þarf Microsoft Power Apps reikning. Ef þú ert ekki þegar með Power Apps-reikning er hægt að fá einn ókeypis með því að fara á [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og velja tengilinn **Hefjumst handa ókeypis**. Frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] er að finna í einingunni [Hafist handa með Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) úr Microsoft training.
 
-## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Gagnasamstilling í báðar áttir eða aðra áttina
+## Gagnasamstilling í báðar áttir eða aðra áttina
 
 Háð viðskiptaþörfum, er hægt að setja upp samþættinguna til að samstilla gögn annaðhvort til eða frá einu Dynamics 365 viðskiptaforriti til annars, eða í báðar áttir í næstum rauntíma í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ef þú til dæmis samþættar [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[crm_md](includes/crm_md.md)] í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)] getur sölumaður búið til sölupöntun í [!INCLUDE[crm_md](includes/crm_md.md)] og pöntunin verður samstillt við [!INCLUDE[prod_short](includes/prod_short.md)]. Á móti, úr [!INCLUDE[crm_md](includes/crm_md.md)], getur sölumaður skoðað upplýsingar úr [!INCLUDE[prod_short](includes/prod_short.md)] um framboð vörunnar í pöntuninni. 
 
-## <a name="standard-and-custom-entities"></a>Staðlaðar og sérsniðnar einingar
+## Staðlaðar og sérsniðnar einingar
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] geymir gögn á öruggan hátt í einingatöflum, sem eru safn af færslum sem svipar til hvernig tafla geymir gögn í gagnagrunni. [!INCLUDE[prod_short](includes/cds_long_md.md)] inniheldur grunnsafn staðlaðra tafla sem ná yfir dæmigerðar aðstæður, en einnig er hægt að búa til sérsniðnar töflur sem miðast að fyrirtækinu þínu. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að skoða staðlaðar og sérsniðnar töflur sem eru samstilltar á síðunni „Vörpun samþættingartöflu“.
 
-## <a name="about-the-business-central-base-integration-solution"></a>Um grunnsamþættingarlausn Business Central
+## Um grunnsamþættingarlausn Business Central
 
 Grunnsamþættingarlausnin er lykilþáttur samþættingarinnar. Lausnin bætir við nauðsynlegum hlutverkum og aðgangsstigum að notandareikningum fyrir samþættinguna og býr til töflur sem þarf til að varpa [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtæki í viðskiptaeiningu í [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
@@ -62,9 +57,9 @@ Frekari upplýsingar um hvert hlutverk, t.d. heimildar- og aðgangsstig, er að 
 
 Við uppsetningu tengingar eru varpanir samþættingartöflu, sem þarf til að samstilla gögn, búnar til. Einingum í [!INCLUDE[prod_short](includes/cds_long_md.md)] er varpað í töflur og töflureiti í Business Central í gegnum samþættingartöflur. Frekari upplýsingar er að finna í [Stöðluð einingavörpun fyrir samstillingu](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-model-driven-apps-common-data-service/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/use-model-driven-apps-common-data-service/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Gagnaeignarhaldslíkön](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->

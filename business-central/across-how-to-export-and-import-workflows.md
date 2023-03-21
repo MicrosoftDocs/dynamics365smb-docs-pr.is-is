@@ -1,22 +1,16 @@
 ---
 title: Hvernig á að flytja samþykktarverkflæði inn og út
-description: Til að flytja verkflæði í annan Business Central gagnagrunn, t.d. til að spara tíma þegar stofnað ný verkflæði, er hægt að flytja út og inn verkflæði.
+description: 'Til að flytja verkflæði í annan Business Central gagnagrunn, t.d. til að spara tíma þegar stofnað ný verkflæði, er hægt að flytja út og inn verkflæði.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 873f168bf8a707519af9a6429658e8383ab1f41e
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585418"
 ---
-# <a name="export-and-import-approval-workflows"></a>Flytja samþykktarverkflæði inn og út
+# Flytja samþykktarverkflæði inn og út
 
 Til að flytja verkflæði í annan [!INCLUDE[prod_short](includes/prod_short.md)] gagnagrunnur, t.d. til að spara tíma þegar stofnað ný verkflæði, er hægt að flytja út og inn verkflæði.  
 
@@ -24,12 +18,12 @@ Til að flytja verkflæði í annan [!INCLUDE[prod_short](includes/prod_short.md
 
 Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti í verkflæðislínum úr föstum listum yfir gildi tilvika og svara sem standa fyrir verkflæðissviðsmyndir sem kóði forritsins styður. Frekari upplýsingar eru á [Búa til verkflæði](across-how-to-create-workflows.md).  
 
-## <a name="export-a-workflow"></a>Flytja út verkflæði
+## Flytja út verkflæði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Veldu verkflæði, veldu síðan aðgerðina **Flytja út í skrá**.  
 
-## <a name="import-a-workflow"></a>Glytja inn verkflæði
+## Glytja inn verkflæði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Aðgerðin **Flytja inn úr skrá** er valin.  
@@ -38,7 +32,7 @@ Til að flytja verkflæði í annan [!INCLUDE[prod_short](includes/prod_short.md
 > [!CAUTION]  
 > Ef verkflæðiskóðinn er þegar til í gagnagrunnur verður skrifað yfir verkflæðisskref með skrefum í innfluttu verkflæði.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stofna verkflæði samþykktar](across-how-to-create-workflows.md)  
 [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)  

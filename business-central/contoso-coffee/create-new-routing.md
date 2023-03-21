@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: deb1ef6ab18cbd6562ae18cc17495fe3e5021db1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524218"
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Kynning: Búa til nýja leið
+
+# Kynning: Búa til nýja leið
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að setja upp nýja framleiðsluleið handvirkt í [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður
 
 Oscar, ferlahönnuður hjá Contoso Coffee, ákveður að búa til nýja leið með heitinu *Ný slóð*. Þar sem þessi leið er ólík öllum öðrum leiðum hjá Contoso Coffee verður hann að slá inn allar upplýsingar handvirkt fyrir leiðina.  
 
-## <a name="steps"></a>Skref
+## Skref
 
 1. Búðu til leiðarhausinn.  
 
@@ -60,6 +55,6 @@ Oscar, ferlahönnuður hjá Contoso Coffee, ákveður að búa til nýja leið m
 
 Nýja leiðin er nú uppsett.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning á sýnigögnum Contoso Coffee](contoso-coffee-intro.md)  

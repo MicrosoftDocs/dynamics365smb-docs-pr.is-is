@@ -1,22 +1,16 @@
 ---
 title: Kynningar á viðskiptaferli
-description: Þessar leiðbeiningar sýna viðskiptaferli í skrefum, frá byrjun til enda, sem hægt er að framkvæma með CRONUS sýnifyrirtækinu.
+description: 'Þessar leiðbeiningar sýna viðskiptaferli í skrefum, frá byrjun til enda, sem hægt er að framkvæma með CRONUS sýnifyrirtækinu.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: cef5b7165378267d9d6e88fb9371b340fa22b4ca
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512629"
 ---
-# <a name="business-process-walkthroughs"></a>Kynningar á viðskiptaferli
+# Kynningar á viðskiptaferli
 
 Þessar leiðbeiningar sýna viðskiptaferli í skrefum, frá byrjun til enda, sem hægt er að framkvæma með CRONUS sýnifyrirtækinu. Leiðbeiningarnar samanstanda af mörgum ferlum sem sum hver eru venjulega framkvæmd af einum notanda, meðan önnur fela í sér mörg ólík notandahlutverk. Til að líkja eftir vinnuumhverfinu innihalda sumar kynningarnar uppsetningarskref sem þarf að ljúka til að ljúka æfingunum eins og lýst er. Þessi skref leggja til innsýn inní hvers konar upplýsingum notendur þurfa að deila með sérfræðingum fyrirtækis síns.  
 
@@ -42,7 +36,7 @@ ms.locfileid: "8512629"
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

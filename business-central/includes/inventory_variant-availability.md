@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1ed4346dbdcbd6fc4eb5b3cde677498c9f3b5ea6
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608482"
 ---
 Þegar síðan **Ráðstöfun vöru eftir afbrigðum** er opnuð úr skjalalínu er hægt að setja afbrigði inn í skjalalínuna með því að velja línuna með afbrigðinu sem á að setja inn og smella svo á hnappinn „Í lagi“. Ef þú hefur aðeins notað síðuna til að skoða ráðstöfun og vilt ekki færa inn afbrigði skaltu loka síðunni án þess að velja hnappinn „Í lagi“.
 

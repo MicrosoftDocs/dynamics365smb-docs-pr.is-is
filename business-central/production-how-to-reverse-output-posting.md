@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5a9fd8a1d4ac379c2c20d832f8cace206e549375
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516032"
 ---
-# <a name="reverse-output-posting"></a>Bakfæra frálagsbókun
+# Bakfæra frálagsbókun
 
 Stundum verður að bakfæra frálagsbókun. Dæmi um þetta væri ef gagnafærsluvilla ætti sér stað og rangt magn af frálagi væri bókað í Framleiðslupöntun.  
 
-## <a name="to-reverse-an-output-posting"></a>Til að bakfæra frálagsbókun
+## Til að bakfæra frálagsbókun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Úttaksbók** og velja síðan viðkomandi tengil. Veljið keyrsluna.  
 2. Fyllið inn í reitina eftir þörfum. Frekari upplýsingar, sjá [Fjöldabóka frálag og keyrslutíma](production-how-to-post-output-quantity.md).
@@ -29,7 +23,7 @@ Stundum verður að bakfæra frálagsbókun. Dæmi um þetta væri ef gagnafærs
 
 Færslurnar í Frálagsbókinni eru bókaðar í vörubókina sem jákvæð leiðrétting.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
  [Framleiðsla](production-manage-manufacturing.md) [Uppsetning framleiðslu](production-configure-production-processes.md)  
  [Áætlun](production-planning.md)  

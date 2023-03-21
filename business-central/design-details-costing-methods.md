@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519805"
 ---
-# <a name="design-details-costing-methods"></a>Hönnunarupplýsingar: Aðferð kostn.útreiknings
+# Hönnunarupplýsingar: Aðferð kostn.útreiknings
 
 Það veltur á aðferð við kostnaðarútreikning hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning. Kostnaðaraðferðin hefur líka áhrif á það hvernig kostnaðarflæðið er skráð, ásamt bókunardagsetningu og lotu.
 
@@ -46,7 +40,7 @@ Aðferð kostnaðarútreiknings eru mismunandi í því hvernig þeir meta birg�
 |Endurmat|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að gera á vöru eingöngu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar innheimt og óreikningsfærðan magn.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|  
 |Ýmislegt|Ef birgðaminnkun er endurdagsett eru færslur sem fyrir eru EKKI endurjafnaðar til að setja fram rétt FIFO-kostnaðarflæði.|Ef birgðaaukning eða -minnkun er endurdagsett er meðalkostnaðurinn endurreiknaður og allar færslur sem verða fyrir áhrifum eru leiðréttar.<br /><br /> Ef tímabili eða gerð útreikninga er breytt verður að leiðrétta allar færslur sem verða fyrir áhrifum.|Notaðu síðuna **Staðlað vinnublað** til að uppfæra reglulega og taka saman staðalkostnaði.<br /><br /> Er EKKI studd á birgðahaldseiningu.<br /><br /> Engar sögulegar færslur eru til staðar fyrir staðlaðan kostnað.|Hægt er að nota sértæka vörurakninguán þess að nota Tilgreinda aðferð kostnaðarútreiknings. Kostnaðurinn mun þá EKKI fylgja lotunúmerinu, heldur kostnaðaráætlun valinnar aðferðar kostnaðarútreiknings.|  
 
-## <a name="example"></a>Dæmi
+## Dæmi
 
 Þessi hluti gefur dæmi um hvernig mismunandi kostnaðaraðferðir hafa áhrif birgðavirði.  
 
@@ -64,7 +58,7 @@ Eftirfarandi tafla sýnir birgðaaukningu og -minnkun sem dæmin eru byggð á.
 > [!NOTE]  
 > Magn í birgðaeiningum verður núll. Þar af leiðandi verður birgðavirði einnig að vera núll, hver sem aðferð kostnaðarútreiknings er.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun  
+### Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun  
 
 Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem grunn fyrir verðmat (**FIFO (fyrst inn - fyrst út)**, **LIFO (síðast inn - fyrst út)**, **Meðaltal** eða **Tilgreint**), er birgðaaukning metin á kaupverði vörunnar.  
 
@@ -72,11 +66,11 @@ Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem gru
 
     Þegar notuð er kostnaðaraðferðin **Staðlað** er birgðaaukning metin á því staðalverði vörunnar sem er í gildi.  
 
-#### <a name="standard"></a>Staðlað  
+#### Staðlað  
 
 Þegar notuð er kostnaðaraðferðin **Staðlað** er birgðaaukning metin á því staðalverði vörunnar sem er í gildi.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun
+### Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun
 
 - **FIFO**  
 
@@ -108,7 +102,7 @@ Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem gru
 
 - **Meðaltal**  
 
-    Aðferð við útreikning meðalkostnaðari **Meðaltal** metur birgðaminnkun með því að reikna út vegið meðaltal eftirstandandi birgða á síðasta degi meðalkostnaðartímabils þar sem birgðaminnkun var bókuð. Nánari upplýsingar eru í [Upplýsingar um hönnun: Meðalkostnaður](design-details-average-cost.md).  
+    Aðferð við útreikning meðalkostnaðari **Meðaltal**metur birgðaminnkun með því að reikna út vegið meðaltal eftirstandandi birgða á síðasta degi meðalkostnaðartímabils þar sem birgðaminnkun var bókuð. Nánari upplýsingar eru í [Upplýsingar um hönnun: Meðalkostnaður](design-details-average-cost.md).  
 
      Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **Meðaltal**.  
 
@@ -144,7 +138,7 @@ Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem gru
     |03-01-20|-1|-10,00|**1**|5|  
     |04-01-20|-1|-30,00|**3**|6|  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar Frávik](design-details-variance.md)   

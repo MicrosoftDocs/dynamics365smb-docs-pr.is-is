@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 9b579b2b91d9699800b5fbf550c58c2e7caaa77d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142907"
 ---
-# <a name="service-management"></a>Þjónustukerfi
+# Þjónustukerfi
 > [!NOTE]
 > Virkni sem lýst er í þessu efni og undirviðfangsefni er aðeins sýnilegt í notendaviðmótinu ef þú hefur **Úrvals** upplifun. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
@@ -42,7 +36,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stofna og stjórna samningssamkomulagi á milli þín og þinna viðskiptamanna.|[Uppfylla þjónustusamninga](service-fulfill-service-contracts.md)|  
 |Bjóða upp á þjónustu til handa viðskiptamönnum og reikningsfæra þjónustupantanir.|[Þjónustuafhending](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 [Stjórnun útistandandi reikninga](receivables-manage-receivables.md)   
 [Verk](projects-how-create-jobs.md)   
 [Velkomin(n) í [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)

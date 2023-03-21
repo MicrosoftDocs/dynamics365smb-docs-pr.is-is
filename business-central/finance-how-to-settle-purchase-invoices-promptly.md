@@ -3,24 +3,18 @@ title: Greiða innkaupareikninga tímanlega
 description: Ef greiða þarf lánardrottni með peningum eða ávísun er hægt að láta gera nauðsynlega bókun um leið og reikningurinn er bókaður.
 author: brentholtorf
 ms.topic: conceptual
-ms.search.form: 51, 9308
+ms.search.form: '51, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8386d5e52086f1a291529d828b66163c5d2851d3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516292"
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Greiða innkaupareikninga tímanlega
+# Greiða innkaupareikninga tímanlega
 
 Ef greiða þarf lánardrottni með peningum eða ávísun er hægt að bóka greiðsluna um leið og reikningurinn er bókaður.  
 
 > [!NOTE]  
 > Ef oft eru greiddir innkaupareikningar með peningum, ávísun eða bankamillifærslu er gagnlegt að setja upp sérstaka greiðsluaðferð með mótreikningi og færa þessa aðferð í reitinn  **Greiðsluaðferð** á lánardrottnaspjaldinu. Mótreikningsnúmerið er sett sjálfkrafa í reikningshausinn í hvert sinn sem búinn er til nýr reikningur. Frekari upplýsingar er að finna í [Greiðslumátar skilgreindir](finance-payment-methods.md).  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>Innkaupareikningar gerðir skjótt upp
+## Innkaupareikningar gerðir skjótt upp
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -31,7 +25,7 @@ Ef greiða þarf lánardrottni með peningum eða ávísun er hægt að bóka gr
 >
 > Þessi sérstilling er aðeins nauðsynleg ef ekki eru tilgreindir mótreikningar á greiðslumátunum eins og lýst er að ofan.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Innkaup](purchasing-manage-purchasing.md)  

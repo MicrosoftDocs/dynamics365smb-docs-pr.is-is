@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: invoicing, bookings
-ms.search.form: 1638, 6702, 6704
+ms.search.keywords: 'invoicing, bookings'
+ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
-ms.openlocfilehash: 4423b51e7cac952bb2abcf41f9e9364d7bc098c0
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799717"
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Magnreikningsfærsla fyrir Microsoft Bookings í [!INCLUDE[prod_short](includes/prod_short.md)]
+# Magnreikningsfærsla fyrir Microsoft Bookings í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Ef fyrirtækið þitt notar Bookings forritið í Microsoft 365 geturðu framkvæmt magnreikningsfærslu fyrir fundi. Síðan **Óreikningsfærðar bókanir** í [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á lista yfir fullunnar bókanir fyrirtækisins. Á þessari síðu getur valið snögglega þá fundi sem þú vilt reikningsfæra og búið til reikningsdrög fyrir þjónustu sem veitt var.  
 
-## <a name="connect-to-bookings"></a>Tengjast Bookings
+## Tengjast Bookings
 
 Til að tengja þitt [!INCLUDE[prod_short](includes/prod_short.md)] við Bookings er nauðsynlegt að tiltaka Bookings-fyrirtækið þitt, hvað skal stamstilla við Bookings, hversu oft á að samstilla og hvaða sniðmát skal nota. Settar eru upp upplýsingar á síðunni **Samstilla Bókanir Uppsetning**, sem hægt er að opna frá síðunni **Exchange Samstilla Uppsetning**, sem hægt er finna gegnum [Leit](ui-search.md).  
 
@@ -35,7 +29,7 @@ Með svipuðum hætti, ef þú vilt samstilla þjónustuvörur milli Bookings og
 > [!NOTE]
 > Aðeins vörur af gerðinni *Þjónusta* munu samstillast milli Bookings og [!INCLUDE[prod_short](includes/prod_short.md)]. Sniðmátið sem þú setur upp á síðunni **Grunnstillingarsniðmát**, svo hægt sé að nota það fyrir samstillingu vöru, verður að skilgreina gerðina sem *Þjónusta*.
 
-## <a name="invoice-appointments"></a>Reikningsfæra fundi
+## Reikningsfæra fundi
 
 Þegar tímabært er að senda reikninga fyrir fullunnar bókanir skaltu fara á síðuna **Óreikningsfærðar bókanir**. Það hvort listinn er langur eða stuttur fer eftir því hversu oft upplýsingarnar eru samstilltar. Hægt er að stofna reikninga fyrir allar bókanir á listanum eða eina í einu. Hægt er að velja eina eða fleiri færslur á listanum og reikningsfæra þær sérstaklega.  
 
@@ -44,7 +38,7 @@ Notendaþjónustan varðandi reikningsfærða fundi í Bookings er einfaldari en
 > [!NOTE]
 > Í maí 2022 uppgötvuðum við vandamál í samþættingunni við Bookings. Sem stendur krefst samstillingin úr Bookings við [!INCLUDE [prod_short](includes/prod_short.md)] þess að reikningarnir séu tengdir handvirkt við viðskiptamenn í [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fjármál](finance.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  

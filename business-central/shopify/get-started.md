@@ -5,69 +5,36 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
-ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
+ms.search.form: '30100, 30101, 30102, 30103, 30104, 30135,'
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: b79691660ca84309057c3abab3d3a3df47271f58
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728411"
 ---
-# <a name="get-started-with-the-shopify-connector"></a>Hafist handa með Shopify tengli
+
+# Hafist handa með Shopify tengli
 
 Tengdu Shopify verslunina þína (eða verslanir) við [!INCLUDE [prod_short](../includes/prod_short.md)] og hámarkaðu afköst viðskiptanna. Stjórnaðu og skoðaðu innsýn í viðskiptin og Shopify verslunina þína í einni einingu.
 
-Shopify tengillinn felur í sér eftirfarandi möguleika:
-
-- Stuðningur við fleiri en eina Shopify verslun.
-  - Hver verslun er með sína eigin uppsetningu, þar á meðal safn af vörum, staðsetningar sem notaðar eru til að reikna birgðir og verðlista.  
-- Tvíátta samstilling á vörum og afurðum.
-  - Tengillinn mun samstilla myndir, vöruafbrigði, strikamerki, vörunúmer lánardrottna, lengri texta og merki.  
-  - Flyttu út vörueigindir í Shopify.  
-  - Notaðu valda verðflokka og afslætti viðskiptamanna til að skilgreina verð sem flutt eru út í Shopify.  
-  - Taktu ákvörðun um hvort hægt sé að stofna vörur sjálfkrafa eða aðeins leyfa uppfærslur á fyrirliggjandi afurðum.  
-- Samstilling birgðastöðu.
-  - Veldu sumar eða allar tiltækar staðsetningar í [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Uppfærðu birgðastöður á mörgum staðsetningum í Shopify.  
-- Tvíátta samstilling viðskiptamanna.
-  - Snjallvarpaðu viðskiptamönnum eftir síma og netfangi.  
-  - Notaðu landsbundin sniðmát þegar viðskiptamenn eru stofnaðir, sem hjálpar til við að tryggja að stillingar skatta séu réttar.  
-- Flytja inn pantanir frá Shopify.
-  - Meðan á innflutningi stendur geturðu sjálfkrafa stofnað viðskiptamenn í [!INCLUDE [prod_short](../includes/prod_short.md)] eða ákveðið að stjórna viðskiptamönnum í Shopify.  
-  - Taktu með pantanir sem stofnaðar eru í öðrum rásum eins og Shopify sölustað eða Amazon.  
-  - Sendingarkostnaður, gjafakort, ábendingar, sendingar- og greiðslumátar, færslur og hætta á svikum.  
-  - Fáðu greiðsluupplýsingar frá Shopify Payments.  
-- Rektu upplýsingar um uppfyllingu.
-  - Það má velja að flytja upplýsingar vörurakningar úr [!INCLUDE [prod_short](../includes/prod_short.md)] í Shopify.  
-
 Til að nota Shopify með [!INCLUDE [prod_short](../includes/prod_short.md)] þarft fyrst að gera nokkra hluti. Þessi grein þjónar hlutverki leiðsagnar til að samþætta Shopify verslun við [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-## <a name="prerequisites-for-shopify"></a>Forkröfur fyrir Shopify
+## Forkröfur fyrir Shopify
 
 Þú verður að vera með:
 
-- Shopify-Reikningur.
-- Shopify netverslun.
+- Á  Shopify  reikning
+- Í  Shopify  netverslun
 
-Til að stofna nýjan Shopify reikning eða nýskrá þig fyrir 14 daga prufuáskrift skaltu fara á [Shopify.com](https://www.shopify.com/). Frekari upplýsingar um hvernig á að búa til og sérsníða netverslunina er að finna í [Shopify hjálparmiðstöð](https://help.shopify.com/).
-  
-Aðrar sölurásir eru studdar, til dæmis Shopify sölustaður.
+Nánari upplýsingar um það hvernig eigi að stofna  Shopify  rannsóknir og ráðlagðar stillingar eru í til að  [Stofna og setja upp  Shopify  lykil](shopify-account.md).
 
-### <a name="recommended-settings"></a>Ráðlagðar stillingar
-
-- Slökktu á valkostinum **Safnvista pöntunina sjálfkrafa** í hlutanum **Úrvinnsla pöntunar** í stillingum fyrir [**Greiðsluferli**](https://www.shopify.com/admin/settings/checkout) í **Shopify stjórnanda**.
-
-Frekari upplýsingar um Shopify stillingar fyrir sýniútgáfur og prufuaðstæður á [Prufu- og þjálfunaraðstæður](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector#preparation).
-
-## <a name="prerequisites-for-business-central"></a>Skilyrði fyrir Business Central
+## Skilyrði fyrir Business Central
 
 - Gakktu úr skugga um að forritið **[Shopify tengill](https://go.microsoft.com/fwlink/?linkid=2196238)** sé uppsett.
 
-Forritið er foruppsett fyrir allar nýskráningar og prufuáskriftir. Frekari upplýsingar um uppsetningu forrit úr AppSource eru í [Uppsetning og fjarlæging viðbóta](../ui-extensions-install-uninstall.md#install). Fylgdu skrefunum sem talin eru upp hér að neðan ef þú ert ekki [!INCLUDE[prod_short](../includes/prod_short.md)].
+  Forritið er foruppsett fyrir allar nýskráningar og prufuáskriftir. Frekari upplýsingar um uppsetningu forrit úr AppSource eru í [Uppsetning og fjarlæging viðbóta](../ui-extensions-install-uninstall.md#install). Fylgdu skrefunum sem talin eru upp hér að neðan ef þú ert ekki [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store"></a>Settu Dynamics 365 Business Central forritið upp í Shopify netverslunina þína
+- Tryggja að notandi eigi nægar heimildir. Shopify Connector er heimild fyrir  *Shopify  tengivirkið – stjórnun (SHPFY – admin)*  sett. Frekari upplýsingar í  [Stofna notendur samkvæmt leyfum](../ui-how-users-permissions.md)  og  [úthluta heimildum til notenda og hópa](../ui-define-granular-permissions.md)
+
+
+## Settu Dynamics 365 Business Central forritið upp í Shopify netverslunina þína
 
 Fyrir núverandi [!INCLUDE[prod_short](../includes/prod_short.md)] er þetta skref valfrjálst og hægt er að sleppa því.
 
@@ -79,7 +46,7 @@ Fyrir núverandi [!INCLUDE[prod_short](../includes/prod_short.md)] er þetta skr
 4. Veldu **Nýskrá núna** til að hefja [!INCLUDE[prod_short](../includes/prod_short.md)] prufuáskriftina eða **Skrá inn** ef þú ert þegar með [!INCLUDE[prod_short](../includes/prod_short.md)]. Þér verður beint á síðuna [Business Central](https://businesscentral.dynamics.com).
 5. Næstu skref skal gera í [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="connect-business-central-to-the-shopify-online-store"></a>Tengja Business Central við Shopify netverslunina
+## Tengja Business Central við Shopify netverslunina
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Shopify Verslun** og veldu tengda tengilinn.
 2. Valið er aðgerðin **Nýtt**.  
@@ -90,10 +57,14 @@ Fyrir núverandi [!INCLUDE[prod_short](../includes/prod_short.md)] er þetta skr
 
 Endurtaktu skref 2-6 fyrir allar netverslanir sem þú vilt tengjast.
 
-> [!NOTE]
-> Gakktu úr skugga um að vafrinn loki ekki á sprettiglugga. Þegar þú virkjar víxlhnappinn **Virkjað** opnar kerfið síðuna **Bíður eftir svari - ekki loka þessari síðu** sem bíður eftir aðgangslykli frá Shopify, ef þessi síða er lokuð eða lokað fyrir hana - þú getur ekki tengst við Shopify. Frekari upplýsingar er að finna í [Biðja um aðgangslykilinn](troubleshoot.md#request-the-access-token).
+### Þekkt vandamál
 
-### <a name="next-steps"></a>Næstu skref
+- Vafrinn lokar sprettiglugganum. Þegar búið er að  **Virkja virkjunina**  skipta kerfið opnast  **Biðin eftir svari-ekki loka þessari síðusíðu**  sem bíður eftir aðgangsákefð frá  Shopify, ef að síðan er lokað eða læst-ekki er hægt að  Shopify tengjast. Frekari upplýsingar er að finna í [Biðja um aðgangslykilinn](troubleshoot.md#request-the-access-token).
+- [Oauth Villa invalid_request: Ekki tókst að finna  Shopify  API-forrit með api_key](troubleshoot.md#oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Ekki hægt að tengja frá sandkassa](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+
+
+## Næstu skref
 
 Nú er netverslunin þín tengd við [!INCLUDE[prod_short](../includes/prod_short.md)]. Í næstu skrefum skilgreinir þú hvernig og hvað á að samstilla.
 
@@ -101,6 +72,7 @@ Nú er netverslunin þín tengd við [!INCLUDE[prod_short](../includes/prod_shor
 - [Samstilla viðskiptavini](synchronize-customers.md)
 - [Samstilla pantanir](synchronize-orders.md)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Prófunar- og þjálfunaraðstæður](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector).
+[Walkthrough: Uppsetning og notkun  Shopify  tengibúnaðar](walkthrough-setting-up-and-using-shopify.md)  
+

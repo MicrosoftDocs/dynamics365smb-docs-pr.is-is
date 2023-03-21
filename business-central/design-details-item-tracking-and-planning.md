@@ -1,22 +1,16 @@
 ---
 title: Hönnunarupplýsingar - Vörurakning og áætlun | Microsoft Docs
-description: Vegna þess að þær eru geymdar í frátekningarkerfi, eru vörurakningarnúmer að fullu samstillt við pöntunarrakningarfærslur.
+description: 'Vegna þess að þær eru geymdar í frátekningarkerfi, eru vörurakningarnúmer að fullu samstillt við pöntunarrakningarfærslur.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 82979335348a3a007acb34282495949b52b1c096
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142394"
 ---
-# <a name="design-details-item-tracking-and-planning"></a>Hönnunarupplýsingar: vörurakning og áætlun
+# Hönnunarupplýsingar: vörurakning og áætlun
 Vegna þess að þær eru geymdar í frátekningarkerfi, eru vörurakningarnúmer að fullu samstillt við pöntunarrakningarfærslur. Þetta þýðir að vörur með pöntunarrakningarfærslur má úthluta vörurakningarnúmerum. Hins vegar geta vörur með vörurakningarnúmerum orðið vörurakningarfærslur. Nánari upplýsingar eru í [Hönnunarupplýsingar: Vörurakningarhönnun](design-details-item-tracking-design.md).
 
 Frekari upplýsingar um samþætt kerfi eru í [Hönnunarupplýsingar: Frátekningar, pöntunarrakning og aðgerðaboð](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -41,7 +35,7 @@ Fyrir vörur sem nota tiltekna vörurakningu verður að stemma alla eftirspurn 
 
 Nánari upplýsingar eru í [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md).
 
-## <a name="balancing-demand-and-supply"></a>Jöfnun eftirspurnar og framboðs
+## Jöfnun eftirspurnar og framboðs
 Ef vara þarf ákveðna vörurakningu er pöntunarrakningartengill búinn til úr allri eftirspurn vörurakningar í allt samsvarandi framboð vörurakningar, með þeirri einu takmörkun að framboð ætti að koma á undan eftirspurn. Ef ekkert vörurakningarframboð finnst sem samsvarar tiltekinni vörurakningareftirspurn við þessar kringumstæður, er nýtt vörurakningarframboð strax búið til og án þess að íhuga pantanastærð, áætlanagerðarfæribreytur eða enduráætlun núverandi framboðs með sama raðnúmer eða lotunúmer.
 
 Ef vörurakningarnúmerum er úthlutað á eftirspurnarhliðinni eða á framboðshliðinni án þess að tiltekinnar vörurakningar sé krafist er pöntunarrakningartengill búinn til úr eftirspurninni fyrir það framboð, á grunni hentugustu tímasetningar og magns, eins og í venjulegu afstemmingaraðferðinni. Tilgreint vörurakningarnúmer fer í pöntunarrakningarfærsluna á sama hátt og sérhvert vörurakningarmagn skilgreinir annan enda pöntunarrakningartengils. Þetta þýðir að vörurakningarnúmerið sem slegið er inn varðveitist á meðan það er einnig hluti af pöntunarrakningarfærslunni.
@@ -50,7 +44,7 @@ Ef vörurakningarnúmerum er úthlutað á framboðshliðinni án þess að tilt
 
 Nánari upplýsingar er að finna í [Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs](design-details-balancing-demand-and-supply.md).  
 
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 [Hönnunarupplýsingarn: vörurakning hönnun](design-details-item-tracking-design.md)  
 [Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  
 [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)   

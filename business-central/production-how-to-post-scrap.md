@@ -9,21 +9,15 @@ ms.workload: na
 ms.search.form: 99000823
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d28439357d179e41dfacbaa8504dc0a7fa98230e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516693"
 ---
-# <a name="post-scrap-manually"></a>Bóka úrkast handvirkt
+# Bóka úrkast handvirkt
 
 Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í afkastabókina.  
 
 > [!NOTE]
 > Bent er á að úrkastsmagnið eykur ekki afkastamagnið.  
 
-## <a name="to-post-scrap-manually"></a>Úrkast bókað handvirkt:
+## Úrkast bókað handvirkt:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Úttaksbók** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +25,7 @@ Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í af
 4. Úrkastskótinn er færður inn í reitinn **Úrkastskóti**.  
 5. Velja **bóka** aðgerðina til að bóka sérstakt úrkast á aðgerð.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Framleiðsla](production-manage-manufacturing.md)
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

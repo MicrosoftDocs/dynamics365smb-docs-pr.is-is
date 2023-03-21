@@ -8,20 +8,14 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.search.forms: 9061
-ms.openlocfilehash: 89ea9cebe7db05d954b2005dcaffaa7aa1649da7
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "9788212"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
+ms.search.form: 9061
 ---
-# <a name="set-up-access-with-microsoft-365-licenses"></a>Setja upp aðgang með Microsoft 365 leyfum 
+# Setja upp miðlægu aðgengi fyrir fyrirtæki í teymum með  Microsoft 365  leyfi
 
-Stjórnendur verða að ljúka mörgum aðgerðum áður en notendur geta fengið aðgang að Business Central með Microsoft 365 leyfinu sínu. Skrefin hér að neðan sýna lágmarksuppsetningu sem þarf til að hefjast handa.  
+Stjórnendur verða að ljúka mörgum aðgerðum áður en notendur geta fengið aðgang að Business Central með Microsoft 365 leyfinu sínu. Skrefin hér að neðan sýna lágmarksuppsetningu sem þarf til að hefjast handa. Frekari upplýsingar um aðgang með  Microsoft 365  leyfum er að fá með því að fara í  [miðborg Business með  Microsoft 365  leyfum](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Setja upp Business Central-forritið fyrir Teams 
+## Setja upp Business Central-forritið fyrir Teams
 
 Til að leyfishafar Business Central geti deilt gögnum í Teams og til að Microsoft 365 leyfishafar geti nálgast þau gögn verður hver og einn að vera með Business Central-forritið fyrir Teams uppsett. Þótt notendur geti sett upp forritið á eigin spýtur er mælt með að stjórnendur noti miðlæga innleiðingu. Miðlæg innleiðing gerir þér kleift að færa víðtækari notendahópi forritið í öllu fyrirtækinu og lágmarka einstaklingsframtak notanda. 
 
@@ -33,7 +27,7 @@ Frekari upplýsingar um miðlæga uppsetningu Business Central-forritsins fyrir 
 > [!TIP]
 > Ertu að leita að fljótlegri leið til að hefjast handa þegar þú prófar þennan eiginleika? Prufunotendur geta sett upp forritið á [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="configure-permissions"></a>Grunnstillir heimildir
+## Grunnstillir heimildir
 
 Hönnun Business Central er örugg og áhættan er lágmörkuð með því að veita engar heimildir til Microsoft 365 notenda í upphafi. Stjórnendur verða að grunnstilla heimildir hlutar sem ákvarða hvaða töflur, síður og skýrslur hægt er að nálgast í Teams með aðeins Microsoft 365 leyfi. Þessar heimildir eru fyrstu heimildirnar sem eru úthlutaðar þegar notandi skráir sig inn í fyrsta skipti með Microsoft 365 leyfinu. 
 
@@ -44,8 +38,10 @@ Grunnstilling fyrstu heimilda:
 3. Efst á leyfissíðunni **Microsoft 365** skaltu velja breytingartáknið ![Breyta tákni](media/edit-pencil.png) og kveiktu síðan á **Sérsníða heimildir**. 
 4. Í hlutanum **Sérsniðnar heimildasamstæður** skaltu bæta við viðeigandi heimildasamstæðum og velja hvort þær eigi við eitt fyrirtæki eða öll fyrirtæki innan umhverfisins.
 
+Með þessari skilgreiningu er notendum einungis  Microsoft 365  með leyfi bætt  **við lista yfir notendur**  þegar þeir komast í viðskipti miðlægt í fyrsta sinn. Nánari upplýsingar um notendur fara í að búa til  [notendur samkvæmt leyfum](ui-how-users-permissions.md).
+
 > [!NOTE]
-> Þegar notendalistinn í Business Central er samstilltur við notendur í Microsoft 365 er aðeins notendum sem eru með Business Central-leyfi bætt við notendalista Business Central. Notendum með aðeins Microsoft 365 leyfi er bætt á notendalistann þegar þeir opna Business Central í fyrsta skipti. Frekari upplýsingar eru í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md).
+> Þegar notendalistinn í Business Central er samstilltur við notendur í Microsoft 365 er aðeins notendum sem eru með Business Central-leyfi bætt við notendalista Business Central. Frekari stjórnunarstýring á heimildum, notendaflokkum og forstillingum er hægt að tengja öryggisflokk við umhverfið. Þegar umhverfi er tryggt með því að nota öryggiaflokk og virkja aðgang með  Microsoft 365  leyfum,  **taka uppfærslunotendur úr  Microsoft 365**  aðgerð  **·**  einnig notendur  Microsoft 365  með leyfi. Til að fræðast um umhverfi gæsalaka er  [stjórnað aðgangi með því að nota  Azure Active Directory  flokka](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups)  í HÖNNUÐINUM og það hjálpar.
 
 > [!TIP]
 > Ertu að leita að fljótlegri leið til að hefjast handa þegar þú prófar þennan sandkassaeiginleika eða tilraunafyrirtæki? Úthlutaðu heimildasamstæðunni **D365 Lesa** sem veitir heimildir að flestum hlutum.  
@@ -54,7 +50,7 @@ Grunnstilling fyrstu heimilda:
 
 Frekari upplýsingar er að finna í [Úthluta heimildum á notendur og hópa](ui-define-granular-permissions.md) og [Búa til heimildasamstæður](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing).
 
-## <a name="turn-on-access-with-microsoft-365-licenses"></a>Kveikja á aðgangi með Microsoft 365 leyfum
+## Kveikja á aðgangi með Microsoft 365 leyfum
 
 Sjálfgefið er slökkt á aðgangi með Microsoft 365 leyfum. Aðgangur verður að vera virkur fyrir hvert umhverfi fyrir sig, sem gefur stjórnendum stjórn og leyfir stigskipta útgáfu í öllu fyrirtækinu. Þú kveikir á aðgangi með því að nota stjórnendamiðstöð Business Central: 
 
@@ -64,7 +60,7 @@ Sjálfgefið er slökkt á aðgangi með Microsoft 365 leyfum. Aðgangur verður
 4. Á svæðinu **Microsoft 365 leyfi** skal kveikja á rofanum. 
 5. Veldu **Vista** þegar því er lokið og samþykktu staðfestinguna. Breytingin tekur strax gildi.
 
-## <a name="test-your-setup"></a>Prófaðu uppsetninguna
+## Prófaðu uppsetninguna
 
 Til að staðfesta að uppsetningin sé tilbúin fyrir framleiðslu munu eftirfarandi skref hjálpa þér að treysta því að allt virki sem skyldi. 
 
@@ -88,8 +84,8 @@ Til að staðfesta að uppsetningin sé tilbúin fyrir framleiðslu munu eftirfa
 > [!TIP]
 > Fór eitthvað úrskeiðis? Athugaðu [Úrræðaleita aðgang með Microsoft 365 leyfum](admin-access-with-m365-license-troubleshooting.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Aðgangur að Business Central með Microsoft 365 leyfum](admin-access-with-m365-license.md#minimum-requirements)  
+[Yfirlit yfir miðlægu aðgengi fyrirtækja með  Microsoft 365  leyfum](admin-access-with-m365-license.md#minimum-requirements)  
 [Úrræðaleita aðgang með Microsoft 365 leyfum](admin-access-with-m365-license-troubleshooting.md)  
 [Business Central og Microsoft Teams samþætting](across-teams-overview.md)  

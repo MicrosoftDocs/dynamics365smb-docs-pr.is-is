@@ -1,122 +1,130 @@
 ---
-title: Hönnunarupplýsingar - Innra vöruhúsaflæði
-description: Flæði á milli hólfa snýst um að tína hluti og ganga frá endanlegum vörum fyrir samsetningar- eða framleiðslupantanir og tilfallandi hreyfingar án upprunaskjala.
-author: SorenGP
+title: 'Upplýsingar um hönnun-flæði fyrir framleiðslu, samsetningu og vinnslur'
+description: 'Upplýsingar um flæðið milli hólfa fyrir tiltektaríhluti og frágang lokaatriða fyrir samsetningar, framleiðslu eða vinnslurfyrirmæli.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: b8e38dcf94c4303cdd69f5417a152484f5100e09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136375"
+ms.date: 12/16/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-internal-warehouse-flows"></a>Hönnunarupplýsingar: Innra vöruhúsaflæði
-Flæði vara á milli hólfa innan fyrirtækis snýst um að tína íhluti og taka frá endanleg vara fyrir framleiðslu- eða samsetningupantanir og tilfallandi hreyfingar, svo sem áfyllingu hólfs, án tengslum við upprunaskjöl. Umfang og eðli tengdra aðgerða eru mismunandi á milli grunnvörugeymslu og ítarlegri vörugeymslu.  
+# Flæði fyrir framleiðslu, samsetningu og vinnslur
 
- Sumir innri flæði skarast við á flæði á innleið eða útleið flæði. Sumt af þessaru skörun er sýnt sem skref 4 og 5 í grafísku skýringarmyndir fyrir ítarlegt flæði á innleið og útleið. Nánari upplýsingar er að finna í [Hönnunarupplýsingar: vöruhúsaflæði inn](design-details-outbound-warehouse-flow.md).  
+Innra flæði, eins og tiltektaríhlutir og lokavörur til samsetningar, vinnslu og framleiðslupantana eru líkar inn-eða útstreymis. Svo gætu margir á ferlinum séð kunnuglega. Í þessari grein er að finna upplýsingar um hvernig unnið er með innra vöruhúsaflæði með ýmsum stigum flókið.
 
-## <a name="internal-flows-in-basic-warehousing"></a>Innri flæðir almenn Vörugeymslur  
- Í grunnvöruhúsagrunnstillingu er flæði af vörum á milli hólfa innan fyrirtækisins snýst um að tína íhluti og ganga frá endanleg vara fyrir framleiðslu eða samsetningarpöntun og sértækar hreyfingar, svo sem hólfaáfyllingar, án tengsla við upprunaskjal.  
+## Yfirlit yfir mismunandi skilgreiningarvalkosti
 
-### <a name="flows-to-and-from-production"></a>Flæði til og frá framleiðslu  
- Aðalsamþættingin milli samsetningpantana og grunnaðgerða í vöruhúsi er táknuð með færninni til að taka til framleiðsluíhluti af síðunni **Tiltekt í birgðum** eða glugganum **Birgðahreyfing**.  
+Hægt er að skilgreina vöruhúsaaðgerðir á ýmsa vegu. Það skiptir miklu máli að Valkostirnir sem þú velur bæta ferla þína án þess að valda rekstrarkostnaði. Eftirfarandi töflur lýsa dæmigerðum afbrigðum fyrir að eiga við efnislegar vörur fyrir framleiðslu, vinnslur og samsetningarpantanir.
 
-> [!NOTE]  
->  Á síðunni **Birgðatínsla** íhlutanotkun er bókuð með tínslubókun. Með því að nota síðuna **Birgðahreyfing**, eru aðeins leiðréttingar hólfa skráð, engar færslur í eiga sér stað í birgðahöfupbók.  
+### Heimstreymi (frágangur)
 
- Auk meðhöndlunar íhluta, samþættingu er táknuð með getu til að setja framleiddar vörur burtu með síðunni **Birgðafrágangur**.  
+|Flækjustig|Description|Stillingar|Hólfkóti|Innflæði framleiðslupöntunar|Innflæðis Samsetningarpöntun|Flæði um störf á innleið|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|Engin sérstök vöruhúsaaðgerð.|Bókun úr pöntunum og færslubókum.||Valfrjálst. Hólfakóta er skylda  **að**  skipta út.|Framleiðslubók-> Úttaksbók</br><br/> **Til athugunar** : Hægt er að bóka úttak með  **framleiðslubók**.|Samsetningarpöntun|Frágangur á ekki við um störf|  
+|Grunnatriði|Pöntun-eftir pöntun.|Krafist frágangs. </br><br/> **Til athugunar** : þótt stillingin sé kölluð  **Krefjast frágangs** er enn hægt að bóka úttak úr upprunaskjölum á birgðageymslur þar sem gátreiturinn er valinn. |Valfrjálst. Hólfakóta er skylda  **að**  skipta út.|Framleiðslupöntun-> frágang birgða|Samsetningarpöntun|Frágangur á ekki við um störf|
+|Ítarlegt|Verkþættir samsteypufrágangs fyrir mörg upprunaskjöl.|Krefjast innhreyfinga + Krefjast frágangs|Valfrjálst. Hólfakóta er skylda  **að**  skipta út.|Framl. pantanir-> Úttaksbók|Samsetningarskipanir-> innri hreyfingar | Frágangur á ekki við um störf|
+|Ítarlegt|Sama og fyrir ofan + beinar frágangs/frágang frágangsverkþátta|Beinar Tínslugerð og frágangingar (háðir víxlar verða virkjaðir sjálfkrafa)|Áskilið|Sama og fyrir ofan.|Sama og fyrir ofan.| Frágangur á ekki við um störf|
 
- Reitirnir **Hólfkóti til framleiðslu**, **Hólfkóti frá framleiðslu** og **Opna hólfakóta vinnslusalar** á birgðageymsluspjaldi eða spjaldi vélar/vinnustöðvar tilgreina sjálfgefið flæði til og frá framleiðslusvæðum.  
+Sum afbrigði leyfa ekki að nota sérhæfð vöruhúsaskjöl til að skrá frágang. Ef hólf eru notuð er hins vegar hægt að nota almenn hreyfsluskjöl til að flytja framleiddar eða settar vörur í vöruhús.  [Frekari upplýsingar eru í Flytjendavörum í Grunnvöruafbrigðum](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
- Frekari upplýsingar um hvernig íhlutanotkun er hreinsuð úr hólfkóða Til framleiðslu eða hólfkóða opins vinnustaðar eru í “Framleiðsluíhlutir hreinsaðir í vöruhúsinu” í þessu efnisatriði.  
+### Flæði á útleið (taka til)
 
-### <a name="flows-to-and-from-assembly"></a>Flæði til og frá samsetningu  
- Aðalsamþættingin milli samsetningarpantana og grunnaðgerða í vöruhúsi er táknuð með færninni til að færa samsetningaríhluti á samsetningarsvæðið.  
+|Flækjustig|Description|Stillingar|Hólfkóti|Flæði framleiðslupöntunar|Flæði Samsetningarpöntunar|Flæði um vinnslur|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|Engin sérstök vöruhúsaaðgerð.|Bókun úr pöntunum og færslubókum.||Valfrjálst. Hólfakóta er skylda  **að**  skipta út.|Framleiðslubók-> notkunarbók </br><br/> **Til** athugunar  **: Hægt er að bóka notkun með framleiðslubók**.|Samsetningarpöntun|Starf-> verkbók|  
+|Grunnatriði|Pöntun-eftir pöntun.|Krefjast tínslu. </br><br/> **Til athugunar** : þó að stillingin sé kölluð  **krefjast tínslu** er enn hægt að bóka úttak úr upprunaskjölum í birgðageymslum þar sem gátreiturinn er valinn. <!-- ToDo Test prod output-->|Valfrjálst. Hólfakóta er skylda  **að**  skipta út.|Framleiðslupöntun-> Birgðatínsla|Samsetningarpöntun-> birgðahreyfingar</br><br/> **Aðeins er hægt að nota Birgðahreyfinguna**  með hólfum.|Vinnsla-> Birgðatínsla|
+|Ítarlegt|Sameinaðar tínsluaðgerðir fyrir mörg upprunaskjöl.|Krefjast sendingar + krefjast tínslu|Valfrjálst. Hólfakóta sem stjórnað er er skylda að skipta|Framleiðslupantanir-> Vöruhúsatínsla-> notkunarbók |Samsetningarpantanir-> Vöruhúsatiltekt| Vinnslur-> Vöruhúsatínsla-> verkbók |
+|Ítarlegt|Sama og fyrir ofan + beinar frágangs/frágang frágangsverkþátta|Beinar Tínslugerð og frágangingar (háðir víxlar verða virkjaðir sjálfkrafa)|Áskilið|Sama og fyrir ofan.|Sama og fyrir ofan.| Beinn tínsla og frágangur er ekki studdur fyrir störf|
 
- Þótt ekki sé til nein tiltekin vöruhússaðgerð til að ganga frá samsetningarvörum má stilla hólfakóðann á samsetningarpöntuninni á sjálfgefið frágangshólf. Bókun samsetningarpöntunar virkar þá eins og bókun frágangs. Hægt er að stjórna flutningi samsetningaríhluta í vöruhúsið á síðunni **Innri hreyfing** án tengingar við samsetningarpöntunina.  
+Líkt og á innleið er ekki leyfilegt að nota sérhæfð vöruhúsaskjöl til að skrá frágang. Ef hólf eru notuð er hægt að nota almenn hreyfhreyfiskjöl til að flytja framleiddar eða settar vörur saman. Frekari upplýsingar hjá  [hreyfanlegum vörum](warehouse-move-items.md).
 
- Eftirfarandi samsetningarflæði er til.  
+## Vöruhús án sérstæð vöruhúsastarfsemi
 
-|Flæði|Lýsing|  
-|----------|---------------------------------------|  
-|Setja saman í birgðir|Íhluta er þörf á samsetningarpöntun röð þar sem framleiðsla er geymt í vöruhúsi.<br /><br /> Þetta vöruhúsaflæði er stýrt á síðunni **Birgðahreyfing**. Ein tökulína tilgreinir hvaða á að taka íhlutina. Ein staðarlína tilgreinir hvar á að setja íhlutina.|  
-|Setja saman í pöntun|Íhluta er þörf á samsetningarpöntun sem er tengdur við sölupöntun sem er send þegar selda varan er sett saman.|  
+Jafnvel þótt þú sért ekki með sérlega vöruhúsastarfsemi, munt þú líklega enn vilja fylgjast með hlutunum eins og notkun og framleiðsla framleiðsla. Eftirtaldar greinar veita upplýsingar um hvernig á að vinna innhreyfingar fyrir upprunaskjöl.
 
-> [!NOTE]  
->  Ef vörur eru settar saman í pöntun setur birgðatínsla tengdu sölupöntunarinnar af stað birgðahreyfingu fyrir alla samsetningaríhlutina, ekki bara fyrir seldu vöruna eins og þegar birgðavörur eru afhentar.  
+* [Skrá notkun og úttak fyrir eina útgefna framleiðslupöntunarlínu](production-how-to-register-consumption-and-output.md)
+* [Sameina vörur](assembly-how-to-assemble-items.md)
+* [Skrá neyslu eða notkun fyrir verk](projects-how-record-job-usage.md)
 
- Reitirnir **Í samsetningu hólfakóði**, **Úr samsetningu hólfakóði** og **Setja saman í pöntun hólfakóði** á birgðageymsluspjaldi tilgreina sjálfgefið flæði á og af samsetningarsvæðum.  
+## Skilgreining grunnvöruhúss
 
-> [!NOTE]  
->  Reiturinn **Setja saman í pöntun hólfakóði** virkar eins og frá-samsetningu-hólf í samsetning-fyrir-pöntun sviðsmyndir.  
+Á inn-og útstreymis í grunnvöruvöruhúsi felast eftirfarandi stillingar á  **síðunni Birgðageymsluspjald**  fyrir birgðageymsluna:
 
-### <a name="ad-hoc-movements"></a>Ad-hoc Hreyfingar  
- Í grunnvöruhúsavinnslu er hreyfingu vara frá hólfi til hólfs án tengsla við upprunaskjöl stjórnað á síðunni **Innri hreyfing** og skráð á síðunni **Birgðahreyfing**.  
+* Fyrir innflæði (frágangur), skal kveikja á  **kröfu um frágang**, en  **slökkva á kröfu um viðtökuvíxla** .
+* Ef um útflæði (tínslu) er að ræða er kveikt á  **krefjast tínslu**  en slökkt er  **á víxlun á krefjast afhendingu** .
 
- Önnur leið til að færa vörur tímabundið á milli hólfa er að bóka jákvæðar færslur í **Nýr hólfakóði** reitnum á síðunni **Endurröðunarbók vöru**.  
+### Streymi til og frá framleiðslu í grunnstillingu vöruhúss  
 
-## <a name="internal-flows-in-advanced-warehousing"></a>Innri flæði í ítarlegt Vörugeymslur  
- Í ítarlegum vöruhús stillingar, flæði af vörum á milli hólfa innan fyrirtækisins snýst um að tína íhluti og setja í burtu endanlegar vörur fyrir framleiðslu pantanir og tína íhluti fyrir samsetningarpantanir. Að auki koma fram innri flæði eins sértækar hreyfingar, svo sem hólfáfyllingar, án tengslum við upprunaskjöl.  
+Nota  **birgðatínsluskjöl**  til að velja framleiðsluíhluti í flæði til framleiðslu. Nota  **birgðafrágangsskjöl**  til að ganga frá afurðanna sem verið er að framleiða.
 
-### <a name="flows-to-and-from-production"></a>Flæði til og frá framleiðslu  
- Aðalsamþætting samsetningarpantana og ítarlegra vöruhúsaaðgerða er táknuð með færninni til að velja íhluti samsetningar, bæði á síðunni **Tiltekt í vöruhúsi** og síðunni **Tiltekt í vinnublaði**, og færninni til að ganga frá framleiddum vörum með síðunni **Innanhúss frágangur í vöruhúsi**.  
+Fyrir staðsetningar sem nota hólf eru birgðahreyfðarskjöl sérstaklega gagnleg fyrir hlutabirgðaflutning. Til að fræðast nánar um hvernig íhlutalotkun er varpað úr framleiðslu eða opnum vinnusalarhólfum er farið í  [Flushing framleiðsluíhluti í vöruhúsinu](warehouse-how-to-pick-for-production.md#flushing-production-components-in-a-basic-warehouse-configuration).
 
- Annar samþættingarpunktur í framleiðslu er fáanlegur í síðunni **Vöruhúsahreyfing** , ásamt Hreyfing Vinnublað glugganum, sem gerir þér kleift að staðsetja íhluti og taka framleidda vörur fyrir útgefnar framleiðslupantanir.  
+   > [!NOTE]
+   > Birgðahreyfingar eru mikilvæg skjöl ef þú notar  **tína + Forward**  eða  **tína + afturábak**  birgðaskráningaraðferðir. Frekari upplýsingar um  [flúorskolun](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
- Reitirnir **Hólfkóti til framleiðslu**, **Hólfkóti frá framleiðslu** og **Opna hólfakóta vinnslusalar** á birgðageymsluspjaldi eða spjaldi vélar/vinnustöðvar tilgreina sjálfgefið flæði til og frá framleiðslusvæðum.  
+*  **Kóti til-framleiðslu hólfs**,  **Kóti frá-framleiðsla hólfs** og  **opinn kóti vinnukóta**  hólfs á staðnum eða í vélinni/vinnustöðinni skilgreinir sjálfgefin flæði til og frá framleiðslusvæðum.
+* Hafa umsjón með flutningi framleiddra vara á  **síðu hreyfingarinnar**  innanhúss án tengsla við framleiðslupöntun.
 
- Frekari upplýsingar um hvernig íhlutanotkun er hreinsuð úr hólfkóða Til framleiðslu eða hólfkóða opins vinnustaðar eru í “Framleiðsluíhlutir hreinsaðir í vöruhúsinu” í þessu efnisatriði.  
+### Streymi til og frá samsetningu í grunnstillingu vöruhúss  
 
-### <a name="flows-to-and-from-assembly"></a>Flæði til og frá samsetningu  
- Aðalsamþætting samsetningarpantana og ítarlegra vöruhússaðgerða er táknuð með færninni til að velja íhluti samsetningar, bæði með síðunni **Tiltekt í vöruhúsi** og síðunni **Tiltekt í vinnublaði**. Þessi virkni virkar líkt og þegar íhlutir eru teknir til fyrir framleiðslupöntun.  
+Bóka samsetningarúttak og notkun beint úr samsetningarpöntun.
 
- Þótt ekki sé til nein tiltekin vöruhússaðgerð til að ganga frá samsetningarvörum má stilla hólfakóðann á samsetningarpöntuninni á sjálfgefið frágangshólf. Bókun samsetningarpöntunar virkar þá eins og bókun frágangs. Hægt er að stjórna flutningi samsetningaríhluta í vöruhúsið á síðunni **Vinnublað hreyfingar** eða á síðunni **Innanhúss frágangur vöruhúss** án tengingar við samsetningarpöntunina.  
+> [!NOTE]
+> **Birgðatínsla**  og  **frágangsskjöl**  sem eru ekki studd fyrir tillögur.
 
-> [!NOTE]  
->  Ef vörur eru settar saman í pöntun setur vöruhúsaafhending tengdu sölupöntunarinnar af stað vöruhúsatínslu fyrir alla samsetningaríhlutina, ekki bara fyrir seldu vöruna eins og þegar birgðavörur eru afhentar.  
+Fyrir staðsetningar sem nota hólf:
 
- Reitirnir **Hólfkóti samsetn. á innleið** og **Hólfkóti samsetningar á útleið** á birgðageymsluspjaldi tilgreina sjálfgefið flæði á og af samsetningarsvæðum.  
+* Nota  **birgðahreyfingagátt**  til að færa samsetningaríhluti við samsetningarsvæðið.
+*  **Hólfakótinn** **Kóti frá-samsetningarhólfkóti**  á birgðageymsluspjaldinu skilgreinir sjálfgefin streymi til og frá samsetningarsvæði.
+* Hafa umsjón með hreyfingum samsettra vara á  **síðunni innanhúss**, án tengsla við samsetningarpöntun.
 
-### <a name="ad-hoc-movements"></a>Ad-hoc Hreyfingar  
- Í ítarlegri vörugeymslu, hreyfingu vara frá hólfi til hólfs án tengsla við upprunaskjöl, er stjórnað á síðunni **Vinnublað hreyfingar** og skráð á síðu Vöruhúsahreyfingar.  
+[!INCLUDE [prod_short](includes/prod_short.md)] styðjum saman til Hlutabréfakaup og setji saman til að setja á laggirnar samkirkjulegar línur. Lærðu meira á  [að skilja saman til að panta og setja saman við birgðir](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). Í tengslum við vöruhúsastjórnun er sett saman við lager hluti af innra vöruhúsamóttafflæði og samsetja-pöntun er í vöruhúsi á útleið. Frekari upplýsingar á  [afgreiðslunum setja saman við vörur með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="flushing-production-components-in-the-warehouse"></a>Framleiðsluíhlutir hreinsaðir í vöruhúsinu.  
- Ef þeir eru settir upp á birgðaspjaldinu eru íhlutir sem teknir eru til með vöruhúsatiltekt bókaðir og notaðir af framleiðslupöntuninni þegar vöruhúsatiltektin er skráð. Með því að nota **Tínsla + Fram** aðferð og **Tínsla + afturábak** birgðaskráningaaðferð er kveikir tínsluaðferð bókun samsvarandi notkunar þegar fyrsta virknin hefst eða þeirri síðustu lýkukr.  
+### Flæði fyrir verkefnastjórnun í grunnstillingu vöruhúss
 
- Íhuga eftirfarandi atburðarás byggt á [!INCLUDE[prod_short](includes/prod_short.md)] sýnigagnagrunni.  
+Nota  **birgðatínsluskjöl**  til að velja vinnsluíhluti í flæði til verkefnastjórnunar.
 
- Framleiðslupöntun fyrir 15 stykk af vöru LS-100 er til staðar. Sumar af vörunum á íhlutalista verða að vera birgðaskráðar handvirkt í notkunarbók og aðrar vörur í  listanum verða að vera teknar til og birgðaskráðar sjálfvirkt með **Tína+Afturábak** birgðaskráningaraðferð.  
+Fyrir birgðageymslu sem notar hólf er  **reiturinn til-kóti**  vinnslu í birgðageymslunni skilgreinir sjálfgefin flæði í Verkstjórnun.
 
-> [!NOTE]  
->  **Tína + framsending** virkar aðeins ef notkun annarrar framleiðsluleiðarlínu notar leiðartengilskóða. Að losa áætlaða framleiðslupöntun setur af stað hreinsun íhluta stillt á **Tína + Áframsenda** Hins vegar getur birgðaskráningin ekki farið fram fyrr en tiltekt íhlutanna er skráð, sem getur aðeins gerst þegar pöntunin er gefin út.  
+## Grunngerðir í ítarlegu vöruhúsi  
 
- Eftirfarandi skref lýsa aðgerðum mismunandi notenda og tilheyrandi viðbrögð:  
+Inn-og útstreymis í ítarlegri samskipan vöruhúss felur í sér Eftirtaldar stillingar á  **síðunni Birgðageymsluspjald**  fyrir birgðageymsluna:
 
-1.  Yfirmaður vinnusalar losar framleiðslupöntunina. Vörur með birgðaskráningaaðferðina **Framvirk** og engan leiðartengilskóð er dregnar frá hólfkóta opins vinnslusalar.  
-2.  Yfirmaður vinnusalar velur hnappinn **Stofna vöruhúsatiltekt** í framleiðslupöntuninni. Tínsluskjal vöruhúss er stofnuð tínsla fyrir vörur með birgðaskráningaaðferðunum **Handvirkt**, **Tína + afturábak** og **Tína + Framvirk**. Þessar vörur eru settar í hólfkóða framleiðslu á útleið.  
-3.  Stjórnandi vöruhússins úthlutar tiltekt á starfsmann vöruhúss.  
-4.  Starfsmaður vöruhússins tínir vörurnar úr viðkomandi hólfum og kemur þeim fyrir í hólfkóða framleiðslu á útleið eða í hólfið sem tiltekið er í tínslu vöruhúss, sem kann að vera hólf vinnustöðvar eða vélastöðvar.  
-5.  Starfsmaður í vöruhúsi skráir tínsluna. Magnið er dregið frá tiltektarhólfunum go bætt við notkunarhólfið. Reiturinn **Tínt magn** á íhlutalistanum fyrri allar tíndar vörur er uppfærður.  
+* Fyrir innflæði (frágangur) skal kveikja á  **krefjast kvittunar**  og  **krefjast frágangsmáta** .
+* Fyrir útstreymissútflæði (Pick) er kveikt á  **krefjast skips og**  krafist **Skiptilinnhreyfingar** .
 
-    > [!NOTE]  
-    >  Aðeins er hægt að nota magn sem er tínt.  
+### Flæði til og frá framleiðslu í ítarlegum vöruhúsafbrigðum
 
-6.  Starfsmaður á vél upplýsir framleiðslustjóra um það þegar endanlegar vörur eru fullunnar.  
-7.  Yfirmaður vinnusalar notar notkunarbókina eða framleiðslubókina til a bóka notkun hluta vöru sem nota annað hvort **handvirka** flæðiaðferð eða **framsendingar** eða **taka til + framsenda** flæðiaðferð með leiðartengilkóðum.  
-8.  Framleiðslustjórinn bókar framleiðslu framleiðslupöntunarinnar og breytir stöðunni í **fullunnin**. Magn íhlutavöru sem notar **Afturvirkt** birgðaskráningu er dregið frá hólfkóða opins vinnslusalar **Tína+Afturábak** birgðaskráning er dregin frá hólfkóða framleiðslu á innleið.  
+ **Notið Vöruhúsatínsluskjölin**  og  **síðuna tínsluvinnublað**  til að velja íhluti fyrir framleiðslu.
 
- Eftirfarandi mynd sýnir þegar reiturinn **Hólfkóti** á efnisþáttalista er fylltur út út frá staðsetningu notanda eða uppsetningu vinnuvélar-/vinnustöðvarmiðstöðvar.  
+Fyrir staðsetningar sem nota hólf:
 
- ![Yfirlit yfir hvenær/hvernig hólfakóðareitur er fylltur út.](media/binflow.png "Yfirlit yfir hvenær/hvernig hólfakóðareitur er fylltur inn")  
+* **Vöruhúsahreyfingin**  skjöl og  **vinnublaðið**  Hreyfill hreyfinga henta sérstaklega vel fyrir hlutaflúrin.  [Frekari upplýsingar um Flushing framleiðsluíhluti í vöruhúsinu](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md#flushing-production-components-in-a-advanced-warehouse-configuration).
+*  **Kóti til-framleiðslu hólfs**,  **Kóti frá-framleiðsla hólfs** og  **opinn kóti vinnukóta**  hólfs á birgðageymslunni eða véla-/vinnustöðin skilgreina sjálfgefin flæði til og frá framleiðslusvæðum. 
+* Stjórna hreyfingum framleiddra vara á  **vinnublaði**  eða  **vöruhúsaskjölum. Innri frágangssíður**, án tengsla við framleiðslupöntun.
 
-## <a name="see-also"></a>Sjá einnig  
- [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)
+### Streymi til og frá samsetningu í ítarlegum vöruhúsafbrigðum
 
+Notið  **vöruhúsatínsluskjöl**  og  **síðuna tínsluvinnublað**  til að velja íhluti fyrir samsetningu.
+
+Fyrir staðsetningar sem nota hólf:
+
+*  **Reitirnir Kóti hólfs**  og  **frá-samsetningarkóti**  á birgðageymslunni skilgreina sjálfgefna streyta til og frá-samsetningarsvæðum.
+* Stjórna hreyfingum samsetningaratriða á  **Hreyfingarblaði**  eða  **vöruhúsavöruhúss. Innanhússfrágangssíður**, án tengsla við samsetningarpöntun.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] styðjum saman til Hlutabréfakaup og setji saman til að setja á laggirnar samkirkjulegar línur. Lærðu meira á  [að skilja saman til að panta og setja saman við birgðir](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). 
+
+Samsetja-birgðir eru hluti af innra vöruhúsamóttafflæði, og setja saman við pöntun er í flæði vöruhúss á útleið. Frekari upplýsingar á  [afgreiðslu setja saman vörur í Vöruhúsasendingum](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
+
+### Streymir til verkefnastjórnunar í ítarlegum vöruhúsafbrigðum
+
+Nota  **vöruhúsatínsluskjöl**  og  **síðuna tínsluvinnublað**  til að velja íhluti í flæði til verkefnastjórnunar.
+
+Fyrir staðsetningar sem nota hólf er  **reiturinn að-vinnsla hólfakóta**  á birgðageymslunni skilgreinir sjálfgefnu flæðin í Verksvæðið.
+
+## Sjá einnig  
+
+[Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

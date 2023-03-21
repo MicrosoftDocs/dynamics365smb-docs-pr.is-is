@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 90201c5aa134eb0c4c9c01c4c692f3f253b5f56c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515408"
 ---
-# <a name="modify-planning-suggestions-in-a-graphical-view"></a>Breyta áætlunartillögum í myndrænu yfirliti
+# Breyta áætlunartillögum í myndrænu yfirliti
 
 Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**. Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit. Þetta er hins vegar ekki stutt eins og er í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -92,7 +86,7 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Áætlun](production-planning.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

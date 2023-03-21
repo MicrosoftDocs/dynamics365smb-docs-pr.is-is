@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 1694bc0267e32d2af4af1202b2dfd1ad4b46ba55
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139756"
 ---
-# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Villuskilaboð: „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga ...“
+
+# Villuskilaboð: „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga ...“
 
 Þegar runuvinnslan **Leiðrétta kostnað - Birgðafærslur** er notuð gætu eftirfarandi villuboð komið upp:
 
@@ -24,7 +19,7 @@ ms.locfileid: "8139756"
 
 Þessi villuboð gefa til kynna að notandinn megi ekki bóka færslur fyrir umrædda dagsetningu og hægt er að bæta úr því með því að breyta uppsetningu notandans.
 
-## <a name="change-the-user-setup"></a>Breyta uppsetningu notanda  
+## Breyta uppsetningu notanda  
 
 |Notandakenni  |Bókun leyfð frá  | Bókun leyfð til  |
 |---------|---------|--------|
@@ -32,9 +27,9 @@ ms.locfileid: "8139756"
 
 Notandinn í þessu tilfelli hefur leyfilegt dagsetningabil bókunar frá 11. september til 30. september og er því ekki heimilt að bóka leiðréttingarvirðisfærsluna með bókunardagsetninguna 10. september.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Yfirlit yfir virka uppsetningu bókunardagsetningar
+### Yfirlit yfir virka uppsetningu bókunardagsetningar
 
-#### <a name="inventory-periods"></a>Birgðatímabil
+#### Birgðatímabil
 
 |Lokadagsetning  |Name  |Lokað  |
 |---------|---------|---------|
@@ -51,7 +46,7 @@ Notandinn í þessu tilfelli hefur leyfilegt dagsetningabil bókunar frá 11. se
 |2020-11-30     |Nóvember 2020   |         |
 |2020-12-31     |Desember 2020   |         |  
 
-#### <a name="general-ledger-setup"></a>Uppsetning fjárhags
+#### Uppsetning fjárhags
 
 |Svæði|Gildi:|
 |---------|---------|
@@ -60,7 +55,7 @@ Notandinn í þessu tilfelli hefur leyfilegt dagsetningabil bókunar frá 11. se
 |Skrá tíma:       |         |
 |Snið staðbundins aðseturs:|   Póstnúmer      |  
 
-#### <a name="user-setup"></a>Notandaupplýsingar
+#### Notandaupplýsingar
 
 |Notandakenni  |Bókun leyfð frá  | Bókun leyfð til  |
 |---------|---------|--------|
@@ -68,7 +63,7 @@ Notandinn í þessu tilfelli hefur leyfilegt dagsetningabil bókunar frá 11. se
 
 Með því að úthluta víðara leyfilegu dagsetningabili bókunar, eins og í birgðahaldstíma eða fjárhagsuppsetningu, verður hægt að koma í veg fyrir árekstra sem valda því að villuboðin koma upp. Færsla leiðréttingargildis með bókunardagsetningu 10. september verður bókuð með þessari uppsetningu.
   
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 
 [Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  

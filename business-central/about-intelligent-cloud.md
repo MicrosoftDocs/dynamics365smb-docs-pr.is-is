@@ -7,24 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms. search.keywords: cloud, migrate, insights
+ms. search.keywords: 'cloud, migrate, insights'
 ms.search.form: 4010
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 6ec6b12bf5a1d4cff1b821f6962387bb11181687
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655255"
 ---
-# <a name="intelligent-insights-in-prod_short-online"></a>Snjöll innsýn með [!INCLUDE[prod_short](includes/prod_short.md)] Online
+
+# Snjöll innsýn með [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Sem notandi [!INCLUDE[prod_short](includes/prod_short.md)] á netinu hefur þú fullan aðgang að atburðarásum á snjallskýi, svo sem að breyta KPI sem byggja á vélnámi, eða þegar þú skoðar gögnin þín í Power BI.  
 
 Ef þú notar hins vegar [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum hefurðu ekki aðgang að sömu innsýn. Ef þú vilt njóta góðs af aðstæðum á netinu þarftu að flytja þig yfir í [!INCLUDE [prod_short](includes/prod_short.md)] á netinu. Frekari upplýsingar er að finna í [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) í efnisstjórnunarefninu fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-insights-in-prod_short-online"></a>Snjöll innsýn í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu skoðuð
+## Snjöll innsýn í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu skoðuð
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sýnir síðan **Innsýn í snjallský** fjögur lykilatriði sem flest fyrirtæki hafa áhuga á:
 
@@ -40,7 +35,7 @@ Við hliðina á KPI-töflunum færðu innsýn í hugsanlega áhyggjuefni, þ.m.
 
 Síðan tengist einnig Power BI fyrir enn meiri innsýn. Annars er hægt að tengjast við Azure AI til að fá jafnvel enn betri snjalla innsýn. Frekari upplýsingar eru í [Spá um sölu og birgðir viðbótina](ui-extensions-sales-forecast.md).  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Velkomin(n) í Business Central](index.md)  
 [Viðbætur skýjaflutnings](ui-extensions-data-replication.md)  

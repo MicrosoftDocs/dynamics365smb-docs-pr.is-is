@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: 498b0e43a6858d1729f0828c34f7917fe7a4ab9a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130203"
 ---
-# <a name="analyze-data-in-business-intelligence-tools"></a>Greina gögn í verkfærum viðskiptagreindar
+# Greina gögn í verkfærum viðskiptagreindar
 
 Ef þú vilt frekar nota verkfæri viðskiptagreindar sem eru ekki felld inn í [!INCLUDE[prod_short](includes/prod_short.md)] bauð þessi síða upp á leiðsögn í verkfærum og aðferðum til að ná þessu.
 
@@ -27,7 +21,7 @@ Ef þú vilt frekar nota verkfæri viðskiptagreindar sem eru ekki felld inn í 
 |Dragðu út gögn í gagnaver eða gagnalind. |[Draga út gögn í gagnageymslur eða gagnalindir](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
 |Lestu gögn Business Central með API.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Viðskiptagreind og skýrsluyfirlit](reports-use-reports.md)
 

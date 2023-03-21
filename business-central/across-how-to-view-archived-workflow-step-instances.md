@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1530,
+ms.search.keywords: null
+ms.search.form: '1530,'
 ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 60a25f6b07c4e483d06891367a679bada00d4f75
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585811"
 ---
-# <a name="view-archived-workflow-step-instances"></a>Skoða verkflæðisskrefstilvik í skráasafni
+# Skoða verkflæðisskrefstilvik í skráasafni
 
 Öll lokin tilvik verkflæðisskrefa eru vistuð á síðunni **Safn verkflæðisskrefstilvika**.  
 
@@ -26,7 +20,7 @@ ms.locfileid: "9585811"
 > [!NOTE]
 > Til að skoða feril og stöðu verkflæða með Power Automate samþættingu skal velja aðgerðina **Verkflæðin mín** á síðunni **Power Automate** og síðan velja flæði til að skoða keyrsluferil og stöðu.
 
-## <a name="to-view-archived-workflow-step-instances"></a>Skoða verkflæðisskrefstilvik í skráasafni
+## Skoða verkflæðisskrefstilvik í skráasafni
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Opnið verkflæði þar sem skoða á öll verkflæðisskrefstilvik í skráasafni.  
@@ -37,7 +31,7 @@ ms.locfileid: "9585811"
 
    Síðan **Safn verkflæðisskrefstilvika** opnast og sýnir verkflæðisskrefstilvik í skráasafni. Í reitnum **Verkflæðiskóði** er hægt að sjá hvaða verkflæði verkflæðisskrefstilvik í skráasafni tilheyra.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Eyða samþykktarverkflæðum](across-how-to-delete-workflows.md)  
 [Stofna verkflæði samþykktar](across-how-to-create-workflows.md)  

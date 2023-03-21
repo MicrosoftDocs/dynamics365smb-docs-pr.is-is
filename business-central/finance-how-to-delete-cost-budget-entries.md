@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a97185820c9b28e297c8e30ad0c3f921860b8267
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517473"
 ---
-# <a name="delete-cost-budget-entries"></a>Eyða kostnaðaráætlunarfærslum
+# Eyða kostnaðaráætlunarfærslum
 
 **Eyða kostnaðaráætlunarfærslum** Keyrslan er notuð til að afturkalla kostnaðaráætlunarfærslur í kostnaðaráætlunardagbókinni.  
 
 Til að koma í veg fyrir gloppur í kostnaðaráætlunarfærslum og kostnaðarskrám ekki er hægt að eyða eina færslu eða runu færslna í miðjum lista yfir færslur í skrá.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Til að úthluta kostnaðaráætlunarfærslu  
+## Til að úthluta kostnaðaráætlunarfærslu  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eyða kostnaðaráætlunarfærslum** og velja síðan viðkomandi tengil.  
 
@@ -34,7 +28,7 @@ Til að koma í veg fyrir gloppur í kostnaðaráætlunarfærslum og kostnaðars
 > [!NOTE]  
 > Til að forðast að eyða kostnaðaráætlunarfærslum fyrir slysni er hægt að loka skráningarfærslum með því að merkja línurnar sem **Lokað** í reitnum **Lokað** á síðunni **Fjárhagsáætlunarskrár**.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Kostnaðarbókhald](finance-manage-cost-accounting.md)
 [Stofna kostnaðaráætlun](finance-create-cost-budgets.md)  

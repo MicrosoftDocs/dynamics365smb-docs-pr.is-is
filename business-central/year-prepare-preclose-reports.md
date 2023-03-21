@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1393, 1394
+ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517714"
 ---
-# <a name="use-pre-closing-reports"></a>Nota skýrslur fyrir lokun
+# Nota skýrslur fyrir lokun
 
 Margar staðlaðar skýrslur eru í boði til að sannreyna nákvæmni reikninganna áður en bókum er lokað í lok ársins eða í lok tímabils. Til dæmis má nota skýrsluna **Viðskiptamaður - Prófjöfnuður** til að votta að upphæð bókunarflokks viðskiptamanna sé jöfn upphæð á samsvarandi reikningi færslubókar á tilteknu tímabili.
 
@@ -36,7 +30,7 @@ Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þes
 
 Til að sjá skýrslu skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heitið eins og það birtist í töflunni og velja svo viðkomandi tengil.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

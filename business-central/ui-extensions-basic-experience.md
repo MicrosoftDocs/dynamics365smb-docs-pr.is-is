@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: C5, financials, extension
-ms.search.form: 20600,
+ms.search.keywords: 'C5, financials, extension'
+ms.search.form: '20600,'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0443ef53a564e103810543225cc0c4a0c6bced7
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606036"
 ---
-# <a name="the-basic-experience-extension"></a>Viðbót grunnupplifunar
+
+# Viðbót grunnupplifunar
 
 Ef þú hefur verið með Microsoft Dynamics C5 geta samstarfsaðilar Microsoft hjálpað þér að skipta yfir í nútímalega lausn sem byggir á [!INCLUDE[prod_short](includes/prod_short.md)], þannig að þú getir haldið áfram að njóta sömu einföldu möguleikana og Dynamics C5.
 
@@ -26,7 +21,7 @@ Ef þú hefur verið með Microsoft Dynamics C5 geta samstarfsaðilar Microsoft 
 > [!NOTE]
 > Eins og staðan er í dag er þessi viðbót aðeins í boði fyrir viðskiptamenn í Danmörku og á Íslandi.
 
-## <a name="whats-available"></a>Hvað er í boði
+## Hvað er í boði
 
 Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplifunar er sett upp.
 
@@ -38,7 +33,7 @@ Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplif
 |**Verkefnastjórnun** |Verk, verðlagning verks, vinnuskýrslur, úthlutun, verkefni, tilföng |
 |**Birgðir** |Grunnbirgðir, staðgenglar vörur, millivísun vöru |
 
-## <a name="getting-started"></a>Hafist handa
+## Hafist handa
 
 Þessi viðbót er aðeins öðruvísi en flestar og þú þarft aðstoð frá samstarfsaðila Microsoft til að setja hana upp. Bara þannig að þú vitir hverju þú mátt búast við, þá er hér mikil yfirsýn yfir það hvað samstarfsaðili Microsoft mun gera.
 
@@ -49,11 +44,11 @@ Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplif
 5. Bætið við **Sýniútgáfu RapidStart** pakkanum. <!--what does the package contain?-->
 6. Sækið og setjið upp viðbót grunnupplifunar úr AppSource.
 
-## <a name="migrating-data"></a>Gögn flutt
+## Gögn flutt
 
 Komdu með Dynamics C5 gögnin þín. Þegar samstarfsaðili Microsoft hefur sett upp viðbót grunnupplifunar færðu tómt fyrirtæki í hendurnar. Auðveld leið til að yfirfæra gögnin úr Dynamics C5 í grunnupplifun er að nota viðbót gagnaflutnings fyrir C5 sem fylgir með í [!INCLUDE[prod_short](includes/prod_short.md)]. Viðbótin flytur viðskiptamenn, lánardrottna, vörur og fjárhagslykla og færslur þeirra.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [C5-gagnaflutningsviðbótin](ui-extensions-c5-data-migration.md)  
 

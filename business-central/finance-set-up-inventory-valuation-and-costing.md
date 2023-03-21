@@ -1,19 +1,13 @@
 ---
 title: Uppsetning birgðaverðmæta og kostnaðar
-description: Til að ganga úr skugga um að birgðakostnaður sé skráður rétt, er nauðsynlegt að setja upp ýmsa reiti og síður áður en þú byrjar að framkvæma vörufærslur.
+description: 'Til að ganga úr skugga um að birgðakostnaður sé skráður rétt, er nauðsynlegt að setja upp ýmsa reiti og síður áður en þú byrjar að framkvæma vörufærslur.'
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520309"
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Uppsetning birgðaverðmats og kostnaðar
+# Uppsetning birgðaverðmats og kostnaðar
 
 Til að ganga úr skugga um að birgðakostnaður sé skráður rétt, er nauðsynlegt að setja upp ýmsa reiti og síður áður en þú byrjar að framkvæma vörufærslur. Yfirleitt velja fyrirtæki tiltekna aðferð við útreikning kostnaðar og nota hana birgðavörur, til dæmis til að fylgjast með virði á vörum og birgðum.  
 
@@ -36,7 +30,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Tryggja að innkaupaskil sé jafnað á upphaflegu færsluna á innleið til að varðveita birgðavirði.|Reiturinn **Nákvæmar kostnaðarbakfærslur áskildar** á síðunni **Innkaup & viðskiptaskuldir**|
 |Setja upp sléttunarreglur sem á að nota þegar vöruverð er leiðrétt eða lagt til eða þegar staðlaður kostnaður er leiðréttur eða lagður til.|**Sléttunaraðferð** síða|  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md)  

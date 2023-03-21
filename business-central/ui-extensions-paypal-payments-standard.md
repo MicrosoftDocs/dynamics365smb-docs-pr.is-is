@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize
-ms.search.form: 1070, 1071, 1073, 1074
+ms.search.keywords: 'app, add-in, manifest, customize'
+ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 19e44bf675e02df3494338fb729f9d28081ca6bd
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361840"
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Viðbótin PayPal Payments Standard
+# Viðbótin PayPal Payments Standard
 
 Viðskiptamenn þurfa stöðugt hærra þjónustustig, bæði hvað varðar gæði vöru en einnig hvað varðar valkosti afhendingar og greiðslu. PayPal Payments Standard gerir kleift að veita viðskiptamanninum meiri þjónustu.
 
@@ -35,7 +29,7 @@ Staðlaða PayPal greiðsluþjónustan býður upp á eftirfarandi kosti:
 
 Nánari upplýsingar eru í [Virkja greiðslu viðskiptamanns gegnum PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

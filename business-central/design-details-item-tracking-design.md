@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, item, tracking, tracing
+ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 626d22b4a45035698862c727547b332c898508af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141334"
 ---
-# <a name="design-details-item-tracking-design"></a>Hönnunarupplýsingarn: vörurakning hönnun
+# Hönnunarupplýsingarn: vörurakning hönnun
 
 Vörurakning í [!INCLUDE[prod_short](includes/prod_short.md)] hófst á [!INCLUDE [navnow_md](includes/navnow_md.md)]. Vörurakningarvirknin er í aðskildri hlutaskipan með flóknum tenglum á bókuð skjöl og birgðafærslur og hún er samþætt við frátekningarkerfið sem sér um frátekningu, pöntunarrakningu og aðgerðarboð. Frekari upplýsingar er að finna í [Hönnunarupplýsingar: Pöntun, pöntunarrakning og aðgerðarboð](design-details-reservation-order-tracking-and-action-messaging.md) í hönnunarlýsingu framboðsáætlunar.  
 
@@ -39,7 +33,7 @@ Kóðaeining 22, **Birgðabók - Bókunarlína**, skiptir nú bókuninni samkvæ
 
 Nánari upplýsingar eru í [Upplýsingar um hönnun: Vörurakning bókunarskipulag](design-details-item-tracking-posting-structure.md)  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Hönnunarupplýsingar: Vörurakning](design-details-item-tracking.md)
 

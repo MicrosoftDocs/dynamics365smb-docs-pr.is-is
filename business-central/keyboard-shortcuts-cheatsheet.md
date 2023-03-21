@@ -6,93 +6,88 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
+ms.search.keywords: 'accessibility, shortcuts, keyboarding'
 ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605797"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur
 
-#### <a name="general"></a>Almennt
+# Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur
 
-|Ýttu á þessa takka|Til að gera þetta|  
+#### Almennt
+
+|Velja skal þessa lykla|Til að gera þetta|  
 |-|-|
-|Alt+F2|Sýna og fela FactBox-yfirlitið|
-|Alt+N|Stofna nýja færslu|
-|Alt+Shift+N|Lokið nýstofnaðri færslu og Stofnið nýja|
-|Alt+O|Bæta við nýrri athugasemd fyrir völdu færsluna|
-|Alt+Q|Opna **Segðu mér**|
-|Ctrl+Alt+Q|Opna **Finna færslur**|
-|Alt+Upp|Opna ábendingu eða staðfestingarvillu|
-|Alt+Niðurör|Opna fellilista eða flettu upp|
-|Alt+T|Opna síðuna **Mínar stillingar**|
-|Alt+Shift+N|Opna núverandi spjald eða skjal í nýjum glugga|
-|Ctrl+Insert|Setja inn nýja línu í skjali|
-|Ctrl-Delete|Eyða línunni í fylgiskjali, færslubók eða vinnublaði|
-|Ctrl+Shift+F12|Línuatriðahluti hámarkaður á skjalssíðu|
-|Ctrl+F1|Opnaðu hjálparsvæðið eða hjálpargreinina|
-|Ctrl+Smella|Fletta upp þegar sérstilla á og sérsníða|
-|Ctrl+O|Skipa um fyrirtæki eða umhverfi|
-|Shift+F12|Opnaðu hlutverkaleit sem er yfirlit yfir eiginleika.|
-|F5/Ctrl+F5|Endurnýja/endurhlaða síðan|
-|Tab/Shift+Tab|Færa áherslu á næstu/fyrri einingu|
-|F6/Shift+F6|Fara yfir í næsta flýtiflipa/hluta|
+|<kbd>ALT</kbd>+<kbd>F2</kbd>|Sýna og fela FactBox-yfirlitið|
+|<kbd>ALT</kbd>+<kbd>N</kbd>|Stofna nýja færslu|
+|<kbd>ALT</kbd>+<kbd>vaktin</kbd>+<kbd>N</kbd>|Lokið nýstofnaðri færslu og Stofnið nýja|
+|<kbd>ALT</kbd>+<kbd>O</kbd>|Bæta við nýrri athugasemd fyrir völdu færsluna|
+|<kbd>ALT</kbd>+<kbd>Q</kbd>|Opna **Segðu mér**|
+|<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|Opna **Finna færslur**|
+|<kbd>ALT</kbd>+<kbd>upp</kbd>|Opna ábendingu eða staðfestingarvillu|
+|<kbd>ALT</kbd>+<kbd>niður ör</kbd>|Opna fellilista eða flettu upp|
+|<kbd>ALT</kbd>+<kbd>T</kbd>|Opna síðuna **Mínar stillingar**|
+|<kbd>ALT</kbd>+<kbd>vakt</kbd>+<kbd>W</kbd>|Opna núverandi spjald eða skjal í nýjum glugga|
+|<kbd>CTRL</kbd>+<kbd>INSERT</kbd>|Setja inn nýja línu í skjali|
+|<kbd>CTRL</kbd>-<kbd>Delete</kbd>|Eyða línunni í fylgiskjali, færslubók eða vinnublaði|
+|<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd>|Línuatriðahluti hámarkaður á skjalssíðu|
+|<kbd>CTRL</kbd>+<kbd>F1</kbd>|Opnaðu hjálparsvæðið eða hjálpargreinina|
+|<kbd>CTRL</kbd> + smella|Fletta upp þegar sérstilla á og sérsníða|
+|<kbd>CTRL</kbd>+<kbd>O</kbd>|Skipa um fyrirtæki eða umhverfi|
+|<kbd>Shift</kbd>+<kbd>F12</kbd>|Opnaðu hlutverkaleit sem er yfirlit yfir eiginleika.|
+|<kbd>F5</kbd>/<kbd>CTRL</kbd>+<kbd>F5</kbd>|Endurnýja/endurhlaða síðan|
+|<kbd>Flipinn flipi</kbd>/<kbd>vaktar</kbd>+<kbd></kbd>|Færa áherslu á næstu/fyrri einingu|
+|<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Fara yfir í næsta flýtiflipa/hluta|
 
-#### <a name="navigate--select-rows"></a>Skoða og velja línur
+#### Skoða og velja línur
 
-|Ýttu á þessa takka|Til að gera þetta|
+|Velja skal þessa lykla|Til að gera þetta|
 |-|-|
-|Heim/Loka|Fara í fyrsta/síðasta reitinn|
-|Ctrl+Heim/Loka |Fara í fyrstu/síðustu röð|
-|Ctrl+Upp/Niður|Skoða án þess að tapa vali|
-|Ctrl+A |Velja allt|
-|Ctrl+bil|Víxla raðavali|
-|Ctrl/Shift+Smelltu|Bæta röðinni/röðunum við valið|
-|Shift+Upp/Niður|Bæta við röðum fyrir ofan/neðan við val|
-|Shift+síða upp/niður|Velja sýnilegar raðir fyrir ofan/neðan|
-|Ctrl+Enter|Setja áherslu utan listans|
+|<kbd> Forsíða/endir|Fara í fyrsta/síðasta reitinn|
+|<kbd>CTRL</kbd>+<kbd>heim</kbd>/<kbd>endir</kbd>|Fara í fyrstu/síðustu röð|
+|<kbd>CTRL</kbd>+<kbd>allt</kbd>/<kbd>niður</kbd>|Skoða án þess að tapa vali|
+|<kbd>CTRL</kbd>+<kbd>A</kbd>|Velja allt|
+|<kbd>CTRL</kbd>+<kbd>rúm</kbd>|Víxla raðavali|
+|<kbd>CTRL</kbd>/<kbd>Shift</kbd> + smella á|Bæta röðinni/röðunum við valið|
+|<kbd>Vakta</kbd>+<kbd>allt</kbd>/<kbd>niður</kbd>|Bæta við röðum fyrir ofan/neðan við val|
+|<kbd>Vaktsíða</kbd>+<kbd>allt</kbd>/<kbd>niður</kbd>|Velja sýnilegar raðir fyrir ofan/neðan|
+|<kbd>CTRL</kbd>+<kbd>Enter</kbd>|Setja áherslu utan listans|
 
-#### <a name="copy--paste"></a>Afrita og líma
+#### Afrita og líma
 
-|Ýttu á þessa takka|Til að gera þetta|
+|Velja skal þessa lykla|Til að gera þetta|
 |-|-|
-|Ctrl+C/V|Afrita/líma raðir|
-|F8|Afrita reit hér að ofan í núverandi röð|
+|<kbd>CTRL</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Afrita/líma raðir|
+|<kbd>F8</kbd>|Afrita reit hér að ofan í núverandi röð|
 
-#### <a name="search-filter--sort"></a>Leita, afmarka og raða
+#### Leita, afmarka og raða
 
-|Ýttu á þessa takka|Til að gera þetta|
+|Velja skal þessa lykla|Til að gera þetta|
 |-|-|
-|Alt+F7|Raða dálkum í hækkandi/lækkandi röð|
-|F3|Víxla leit|
-|Shift+F3|Víxla síusvæði; setja áherslu á svæðasíur|
-|Alt+F3|Síur á völdum hólfgildum|
-|Shift+Alt+F3|Bættu við síu á völdum reit|
-|Ctrl+Alt+Shift+F3|Endurstilla afmarkanir|
+|<kbd>ALT</kbd>+<kbd>F7</kbd>|Raða dálkum í hækkandi/lækkandi röð|
+|<kbd>F3</kbd>|Víxla leit|
+|<kbd>Shift</kbd>+<kbd>F3</kbd>|Víxla síusvæði; setja áherslu á svæðasíur|
+|<kbd>ALT</kbd>+<kbd>F3</kbd>|Síur á völdum hólfgildum|
+|<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Bættu við síu á völdum reit|
+|<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Endurstilla afmarkanir|
 
-#### <a name="quick-entry"></a>Snögg færsla
+#### Snögg færsla
 
-|Ýttu á þessa takka|Til að gera þetta|
+|Velja skal þessa lykla|Til að gera þetta|
 |-|-|
-|Ctrl+Shift+Enter|Fara í næsta reit flýtifærslu utan lista|
-|Enter/Shift+Enter|Fara í næsta/fyrri reit flýtifærslu|
+|<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Fara í næsta reit flýtifærslu utan lista|
+|<kbd>Færa</kbd>/<kbd>skal inn Shift</kbd>+<kbd></kbd>|Fara í næsta/fyrri reit flýtifærslu|
 
-##### <a name="report-preview"></a>Forskoðun skýrslu
+##### Forskoðun skýrslu
 
-|Ýttu á þessa takka|Til að gera þetta|
+|Velja skal þessa lykla|Til að gera þetta|
 |-|-|
-|Ctrl+Heim/Loka|Fara á fyrstu/síðustu síðu|
+|<kbd>CTRL</kbd>+<kbd>heim</kbd>/<kbd>endir</kbd>|Fara á fyrstu/síðustu síðu|
 
-#### <a name="numeric-keypad"></a>Talnaborð
+#### Talnaborð
 
-|Ýttu á þessa takka|Til að gera þetta|  
+|Velja skal þessa lykla|Til að gera þetta|  
 |-|-|
-|Alt+Tákn fyrir aukastaf|Víxla úttaki skiltáknslykils tugabrots á talnaborði|
+|<kbd>Skilrúm fyrir Alt</kbd>+<kbd>tugabrot</kbd>|Víxla úttaki skiltáknslykils tugabrots á talnaborði|
 
 > [!TIP]
 > Fyrir myndræna, prentvæna útgáfu velurðu eftirfarandi mynd og sækir PDF-skjalið.

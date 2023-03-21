@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: reject, delegate, request
+ms.search.keywords: 'reject, delegate, request'
 ms.search.form: 1533
 ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 4dbe4217720ddd0bfe976560331329537577cfeb
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585946"
 ---
-# <a name="set-up-workflow-users"></a>Setja upp notendur verkflæðis
+# Setja upp notendur verkflæðis
 
 Áður en hægt er að stofna samþykktarverkflæði verður að setja upp notendur sem taka þátt í verkflæðum. Þetta þarf nauðsynlega að gera til að geta tilgreint hverjir verða að fá tilkynningu sem bregðast þarf við í verkflæðisskrefi.  
 
@@ -28,7 +22,7 @@ Verkflæðisnotendur sem virka eins og samþykktarnotendur, þ.m.t. bæði samþ
 > [!NOTE]  
 > Til að skilgreina að samþykktarbeiðni sé ekki samþykkt fyrr en margir notendur hafa samþykkt hana skal setja upp samþykktaraðila í stigveldi. Hvað varðar samþykkjendur af gerðinni **Samþykkjandi** skal setja þá upp á síðunni **Uppsetning Samþykkjandi notandi**. Hvað varðar samþykkjendur af gerðinni **Notendaflokkur verkflæðis** skal setja þá upp á síðunni **Notendaflokkar verkflæðis** og skilgreina stigveldið með því að úthluta stighækkandi númerum á hvern samþykkjanda í reitnum **röð nr.**. . Frekari upplýsingar má finna hér að neðan og í [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md). 
 
-## <a name="to-set-up-a-workflow-user"></a>Uppsetning verkflæðisnotenda
+## Uppsetning verkflæðisnotenda
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara inn **Notendahópar verkflæðis**, velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**. Síðan **Notendahópur verkflæðis** opnast.  
@@ -47,9 +41,9 @@ Verkflæðisnotendur sem virka eins og samþykktarnotendur, þ.m.t. bæði samþ
 6. Endurtaktu skref 5 til að bæta fleiri notendum verkflæðis við notendahópinn.  
 7. Endurtaka skref 2 til 6 til að bæta við fleiri notendaflokkum verkflæðis.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
 [Setja upp Verkflæði samþykktar](across-set-up-workflows.md)  

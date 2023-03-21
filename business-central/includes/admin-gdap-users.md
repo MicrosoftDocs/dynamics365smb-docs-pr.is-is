@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: f002086780e694ad80f2b5c80e942ab411de1948
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8730014"
 ---
 Þú gætir séð aðra notendur í listanum **Notendur** fyrir utan þá úr þínu eigin fyrirtæki. Þegar úthlutaður stjórnandi frá endursölufyrirtæki samstarfsaðila skráir sig inn í [!INCLUDE [prod_short](prod_short.md)] umhverfið fyrir hönd viðskiptamanns er hann sjálfkrafa stofnaður sem notandi í [!INCLUDE [prod_short](prod_short.md)]. Þannig eru aðgerðir sem úthlutaður stjórnandi framkvæmir skráðar inn [!INCLUDE [prod_short](prod_short.md)], t.d. bókun skjala og tengdar við notandakennið.  
 

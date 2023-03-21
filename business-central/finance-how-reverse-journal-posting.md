@@ -1,23 +1,17 @@
 ---
 title: Afturkalla bókun með bókun bakfærslu
-description: Ef þú hefur framkvæmt ranga bókun í færslubók, geturðu notað bakfærsluaðgerðina til að afturkalla bókunina með réttri endurskoðunarslóð.
+description: 'Ef þú hefur framkvæmt ranga bókun í færslubók, geturðu notað bakfærsluaðgerðina til að afturkalla bókunina með réttri endurskoðunarslóð.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.search.form: 20, 25, 29, 38, 202, 5912,
+ms.search.form: '20, 25, 29, 38, 202, 5912,'
 ms.date: 07/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: d00f8b355e25e15a6aa610dd3392bfc63b7bfad3
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728681"
 ---
-# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Bakfæra bókun Færslubókar og afturkalla kvittanir/sendingar
+# Bakfæra bókun Færslubókar og afturkalla kvittanir/sendingar
 
 Að bakfæra bókanir færslubókar eru gagnlegar sem dæmi til að leiðrétta villur og hreinsa út gamlar uppsöfnunarfærslur áður en ný er færð inn. Bakfærsla er sú sama og upphaflega færslan en hefur öfugt formerki í reitnum **Upphæð**. Bakfærslan verður að vera með sama fylgiskjalsnúmer og bókunardagsetningu og upphaflega færslan. Þegar færsla hefur verið bakfærð þarf að stofna rétta færslu.
 
@@ -29,7 +23,7 @@ Ef þú hefur bókað rangt neikvætt magn, t.d. innkaupapöntun með röngum v�
 
 Ef þú hefur bókað rangt jákvætt magn, t.d. söluafhendingu eða innkaupaskilaafhendingu með röngum vörufjölda, sem afgreitt en ekki reikningsfært, er hægt að afturkalla bókunina.
 
-## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Að bakfæra færslubókarbókun fjárhagsfærslu
+## Að bakfæra færslubókarbókun fjárhagsfærslu
 
 Hægt er að bakfæra færslur af öllum síðum **Fjárhagsfærslur**. Eftirfarandi ferli byggist á **Fjárhagsfærslur** síðunni.
 
@@ -43,7 +37,7 @@ Hægt er að bakfæra færslur af öllum síðum **Fjárhagsfærslur**. Eftirfar
 3. Á síðunni **Bakfærðar viðskiptafærslur** skal velja aðgerðina **Bakfæra**.
 4. Veldu **Já** til að staðfesta bakfærsluna.
 
-## <a name="to-post-a-negative-entry"></a>Að bóka neikvæða færslu  
+## Að bóka neikvæða færslu  
 
 Reiturinn **Leiðrétting** er notaður til að bóka neikvæða debetfærslu í stað kreditfærslu, eða til að bóka neikvæða kreditfærslu í stað debetfærslu á reikningi. Reiturinn er sjálfgefið í boði í öllum færslubókum. Reitirnir **Debetupphæð** og **Kreditupphæð** innihalda bæði upphaflegu færsluna og leiðréttu færsluna. Þessir reitir hafa engin áhrif á reikningsstöðuna.  
 
@@ -53,7 +47,7 @@ Reiturinn **Leiðrétting** er notaður til að bóka neikvæða debetfærslu í
 4. Í færslubókarlínu sem á að virkja fyrir neikvæðar færslur skal velja gátreitinn **Leiðrétting**.  
 5. Til að bóka færslubókina skal velja aðgerðina **Bóka** og síðan smella á hnappinn **Já**.
 
-## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Að afturkalla magn í bókaðri innkaupakvittun  
+## Að afturkalla magn í bókaðri innkaupakvittun  
 
 Eftirfarandi skref lýsir því hvernig á að hætta við bókaða kvittun á vörum eða tilföngum. Skrefin eru svipuð fyrir bókaðar sendingar.
 
@@ -66,7 +60,7 @@ Leiðréttingarlínu er bætt við undir völdu móttökulínuna. Ef magnið var
 
 Reitirnir **Móttekið magn** og **Móttekið magn, óreikningsfært** svæði í tengdri innkaupapöntun eru stilltir á núll.
 
-## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Hvernig skal afturkalla og endurgera magnbókun á bókaða skilaafhendingu.
+## Hvernig skal afturkalla og endurgera magnbókun á bókaða skilaafhendingu.
 
 Eftirfarandi skref útskýra hvernig á að:
 
@@ -92,7 +86,7 @@ Skrefin eru svipuð fyrir bókaðar vöruskilamóttökur.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Afturkalla samsetningarbókun](assembly-how-to-undo-assembly-posting.md)  
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  

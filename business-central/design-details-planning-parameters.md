@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: planning, design
+ms.search.keywords: 'planning, design'
 ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131978"
 ---
-# <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
+# Hönnunarupplýsingar: áætlunarfæribreyta
 Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í [!INCLUDE[prod_short](includes/prod_short.md)]  
 
 Áætlunarkerfið stjórnar vöruframboði ákvarðast af ýmsum stillingum á birgðaspjaldinu eða birgðahaldseiningunni og stillingum í uppsetningu framleiðslu. Eftirfarandi tafla sýnir hvernig þessar færibreytur eru notaðar fyrir áætlanagerð.  
@@ -30,10 +24,10 @@ ms.locfileid: "8131978"
 |Breyta framboðspöntununum|Lágmarksmagn pöntunar<br /><br /> Hámarksmagn pöntunar<br /><br /> Fjöldapanta|  
 |Afmarka áætluðu vöruna|Framleiðslustefna:<br /><br /> -   Á lager<br />-   Eftir pöntun|  
 
-## <a name="define-if-the-item-will-be-planned"></a>Skilgreina ef varan á að vera áætluð  
+## Skilgreina ef varan á að vera áætluð  
 Til að fela vöru/ birgðahaldseining í áætlanagerð, verður það að hafa endurpöntunarstefnu, annars verður að skipuleggja handvirkt, til dæmis, með pantanaáætlun.  
 
-## <a name="define-when-to-reorder"></a>Skilgreina hvenær á að endurpanta  
+## Skilgreina hvenær á að endurpanta  
 Endurpöntunartillögur eru almennt gefin út aðeins þegar spáð tiltækt magn hefur farið niður fyrir tiltekið magn. Þetta magn er skilgreint með endurpöntunarmark. Annars er það núll. Núll má leiðrétta með því að færa inn öryggisbirgðamagn. Ef notandi hefur skilgreint öryggisafhendingartíma veldur það því að tillagan verður afhent á tímabilinu á undan gjalddaganum sem krafist er.  
 
 Reiturinn **Tímarammi** er notaður í endurpöntunarstefnum (**Fast endurpöntunarmagn** og **Hámarksmagn**), þar sem birgðastig er athugað eftir hvern tímaramma. Fyrsti tímaramminn hefst á upphafsdegi áætlunar.  
@@ -45,7 +39,7 @@ Sjálfgefna öryggisforskotið á síðunni **Uppsetning framleiðslu** ætti a�
 
 Þrír viðbótar endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil**, **Lotusöfnunartímabil** og **Hömlutímabil**. Nánari upplýsingar er að finna [Bjartsýni Hvenær og Hvernig Mikill að Endurraða](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Skilgreina hve mikið á að endurpanta  
+## Skilgreina hve mikið á að endurpanta  
 Ef áætlanakerfið greinir þörfina á að endurpanta er valin endurpöntunarstefna notuð til að ákvarða hvenær og hversu mikið á að panta.  
 
 Óháð endurpöntunarstefnu, notar áætlanakerfið yfirleitt þessum reglum:  
@@ -58,7 +52,7 @@ Ef áætlanakerfið greinir þörfina á að endurpanta er valin endurpöntunars
 
      Eftirfarandi endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil**, **Lotusöfnunartímabil** og **Hömlutímabil**. Nánari upplýsingar er að finna [Bjartsýni Hvenær og Hvernig Mikill að Endurraða](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-### <a name="reordering-policies"></a>Endurpöntunarstefnur  
+### Endurpöntunarstefnur  
 Eftirfarandi endurpöntunarstefnur stjórna því hversu mikið er endurpantað.  
 
 |Endurpöntunarstefna|Lýsing|  
@@ -68,7 +62,7 @@ Eftirfarandi endurpöntunarstefnur stjórna því hversu mikið er endurpantað.
 |**Röð**|Pöntunarmagnið verður reiknað út þannig að það svari öllu eftirspurnartilvikum og framboð-eftirspurn gögn verða áfram tengd þar til kemur að framkvæmd. Engar áætlunarfæribreytur eru teknar til greina.|  
 |**Lotu-fyrir-lotu**|Magnið er reiknað út þannig að það samsvari samtölu eftirspurnarinnar sem verður gjaldfallin í tímarammanum.|  
 
-##  <a name="optimize-when-and-how-much-to-reorder"></a>Fínstilling hvenær og hversu mikið aá endurpanta  
+##  Fínstilling hvenær og hversu mikið aá endurpanta  
 Til að fá skynsamlegar framboðsáætlun, skipuleggjandi mun fínstilla áætlanarfæribreytur til að takmarka enduráætlunartillögur, safnast eftirspurn (kvikt pöntunarmark magn), eða til að forðast óverulegar áætlanagerðaraðgeðrir. Eftirfarandi endurpöntunartímabilsreitir hjálpa til við að fínstilla hvenær og hversu mikið á að endurpanta.  
 
 |Svæði|Lýsing|  
@@ -103,19 +97,19 @@ Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils
 
 **Sjálfgefin gildi:** Sjálfgefin gildi reitarins **Tímarammi** og þriggja endurpantanatímabilsreita eru auð. Fyrir alla reiti nema reitinn **Hömlutímabil** þetta merkir 0D núll dagar. Ef reiturinn **Hömlutímabil** er auður verður altæka gildið í reitnum **Sjálfgefið hömlutímabil** á síðunni **Uppsetning framleiðslu** notað.  
 
-## <a name="modify-the-supply-orders"></a>Breyta framboðspöntununum  
+## Breyta framboðspöntununum  
 Þegar magn pöntunartillögu hefur verið reiknað út er hægt að lempa hana með einum eða fleiri breytum. Til dæmis er hámarkspöntunarmagn stærra eða jafnstórt og lágmarkspöntunarmagn, sem er stærra en eða jafnt og fjöldapöntunin.  
 
 Magnið er minnkað ef það fer fyrir hámarks pöntunarmagn. Þá er það aukið ef það er fyrir neðan lágmarkspöntunarmagni. Að lokum er talan sléttuð upp svo hún passi við tilgreinda fjöldapöntun. Allt eftirstandandi magn notar sömu leiðréttingu þar til heildareftirspurn hefur verið umbreytt í pöntunartillögur.  
 
-## <a name="delimit-the-item"></a>Afmarka vöruna  
+## Afmarka vöruna  
 Valkosturinn **Framleiðslustefna** skilgreinir hvaða viðbótarpantanir lánstímaálagsútreikningar munu leggja til.  
 
 Ef valkosturinn **Framleiða-á-lager** er notaður varða pantanirnar eingöngu vöruna sem um ræðir.  
 
 Ef valkosturinn **Framleiða-eftir-pöntun** er notaður greinir áætlanakerfið framleiðsluuppskrift vörunnar og býr til tengdar viðbótarpöntunartillögur fyrir vörur á neðri stigum sem einnig eru skilgreindar sem framleiða-eftir-pöntun. Þetta heldur áfram eins lengi og það eru vörur til að framleiða eftir pöntun í lækkandi uppskriftarstrúktúr.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Nota lágstigskóða til að stjórna afleiddri eftirspurn
+## Nota lágstigskóða til að stjórna afleiddri eftirspurn
 
 Notaðu lágstigskóða til að gera afleidda eftirspurn eftir framvindu íhluta í gegnum lægri stig uppskriftarinnar. Til að fá ítarlegri útskýringu á þessu skaltu skoða [Vöruforgangur / lágstigskóði](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -131,11 +125,11 @@ Veldu reitinn **Gagnvirkur lágstigskóði** til að tilgreina hvort samstundis 
 > [!NOTE]
 > Jafnvel þegar reiturinn **Gagnvirkur lágstigskóði** er valinn breytast lágstigskóðar íhlutavara ekki á gagnvirkan hátt ef yfiruppskrift er eytt eða stillt sem óvottuð. Þetta getur gerst vegna vandamála við að bæta nýjum vörum við lok vörusamsetningar þar sem farið gæti verið yfir hámarksfjölda lágstigskóta. Þess vegna er best að nota runuvinnsluna **Reikna lágstigskóða** oft þegar unnið er með stórar vörusamsetningar til að halda samsetningunni.  
 
-### <a name="optimize-low-level-code-calculation"></a>Fínstilla útreikning fyrir lágstigskóða
+### Fínstilla útreikning fyrir lágstigskóða
 
 Veldu reitinn **Fínstilla útreikning fyrir lágstigskóða** til að tilgreina að þú viljir nota nýja hraðvirkari aðferð við útreikning á lágstigskóða. Athugaðu að nýi útreikningurinn er gerður á annan hátt og hann gæti haft neikvæð áhrif á viðbætur sem reiða sig á núverandi aðferð. Nýja útreikningsaðferðin kemur í stað núverandi aðferðar í framtíðarútgáfu.
 
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
 [Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs](design-details-balancing-demand-and-supply.md)   
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)

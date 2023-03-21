@@ -3,24 +3,18 @@ title: Stjórna geymslu með því að eyða skjölum eða þjappa gögnum
 description: Kynntu þér hvernig hægt er að vinna úr uppsöfnun á gömlum skjölum (og draga úr gagnamagninu sem geymt er í gagnagrunni) með því að eyða eða þjappa gögnum.
 author: edupont04
 ms.topic: conceptual
-ms.search.form: 107, 9035, 9040
+ms.search.form: '107, 9035, 9040'
 ms.date: 09/14/2022
 ms.author: edupont
-ms.openlocfilehash: d6a98decb0b518629e29673d21147acc079b1b9e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607364"
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Stjórna geymslu með því að eyða skjölum eða þjappa gögnum
+# Stjórna geymslu með því að eyða skjölum eða þjappa gögnum
 
 Meginhlutverk, t.d. kerfisstjóri, þarf reglulega að sjá um þau gögn sem safnast upp, eyða þeim eða þjappa þau.  
 
 > [!TIP]
 > Frekari upplýsingar um aðrar leiðir til að draga úr magni gagna sem vistuð eru í gagnagrunni með því að lesa [Draga úr gögnum sem eru geymd í gagnagrunnum Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) í fylgiskjölum Developer og IT Pro.
 
-## <a name="delete-documents"></a>Eyða skjölum.
+## Eyða skjölum.
 
 Í vissum tilvikum kann að þurfa að eyða reikningsfærðum innkaupapöntunum. Þú getur hins vegar ekki eytt þeim nema þú hafir að fullu reikningsfært og móttekið vörurnar í innkaupapöntunum. [!INCLUDE[prod_short](includes/prod_short.md)] hjálpar þér með því að athuga þetta.
 
@@ -32,7 +26,7 @@ Reikningsfærðum þjónustupöntunum er yfirleitt eytt sjálfkrafa eftir að þ
 
 Hins vegar er þjónustupöntunum ekki sjálfkrafa eytt ef heildarmagn pöntunarinnar hefur verið bókað á síðunni **Þjónustureikningur** frekar en úr sjálfri þjónustupöntuninni. Þú gætir þurft að eyða slíkum reikningsfærðum pöntunum handvirkt með því að keyra runuvinnsluna **Eyða reikningsfærðum þjónustupöntunum**.  
 
-## <a name="compress-data-with-date-compression"></a>Þjappa gögnum með dagsetningarþjöppun
+## Þjappa gögnum með dagsetningarþjöppun
 
 Hægt er að þjappa gögnum í [!INCLUDE [prod_short](includes/prod_short.md)] til að spara pláss í gagnagrunninum, sem í [!INCLUDE [prod_short](includes/prod_short.md)] á netinu getur jafnvel sparað þér peninga. Þjöppunin, sem byggir á dagsetningum og aðgerðum, sameinar nokkrar eldri færslur í eina nýja færslu.
 
@@ -61,7 +55,7 @@ Hægt er að þjappa eftirfarandi gerðum gagna með runuvinnslum.
 
 Eftir þjöppunina er efni eftirfarandi reita alltaf varðveitt: **Bókunardagsetning**, **Númer lánardrottins**, **Tegund fylgiskjals**, **Gjaldmiðilskóði**, **Bókunarflokkur**, **Upphæð**, **Eftirstöðvar**, **Upphafleg upph. (SGM)**, **Eftirstöðvar (SGM)**, **Upphæð (SGM)**, **Innkaup (SGM)**, **Reikningsafsl. (SGM)**, **Veittur greiðsluafsláttur (SGM)** og **Mögul. að jafna greiðsluafsl.**.
 
-## <a name="posting-compressed-entries"></a>Bókun þjappaðra færslna
+## Bókun þjappaðra færslna
 
 Þjappaðar færslur eru bókaðar á örlítið öðruvísi hátt en venjulegar bókanir. Þetta er til að draga úr fjölda nýrra fjárhagsfærslna sem búnar eru til með dagsetningarþjöppun og eru sérstaklega mikilvægar þegar haldið er eftir upplýsingum á borð við víddir og skjalanúmer. Dagsetningarþjöppun stofnar nýjar færslur á eftirfarandi hátt:
 
@@ -78,7 +72,7 @@ Fjöldi færslna frá dagsetningarþjöppun ræðst af því hve margar síur vo
 > [!WARNING]
 > Dagsetningaþjöppun eyðir færslum svo að tryggara er að taka alltaf afrit af gagnasafni áður en keyrslan er sett í gang.
 
-### <a name="to-run-a-date-compression"></a>Að keyra gagnaþjöppun
+### Að keyra gagnaþjöppun
 
 1. Velja skal táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn"), slá inn **Gagnaumsjón** og velja svo viðeigandi tengil.
 2. Gert er eitt af eftirfarandi:
@@ -88,7 +82,7 @@ Fjöldi færslna frá dagsetningarþjöppun ræðst af því hve margar síur vo
    > [!NOTE]
    > Aðeins er hægt að þjappa gögnum sem eru eldri en fimm ára. Ef þjappa á gögnum sem eru yngri en fimm ára skaltu hafa samband við samstarfsaðila þinn hjá Microsoft.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórnun](admin-setup-and-administration.md)  
 

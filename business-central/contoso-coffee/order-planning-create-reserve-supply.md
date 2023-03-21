@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 496eaa1fd1aa8828125018a554c701743bccd5db
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524204"
 ---
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Kynning: Nota pantanaáætlun til að búa til og taka frá framboð
+
+# Kynning: Nota pantanaáætlun til að búa til og taka frá framboð
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee í pantanaáætlun.
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Þú stofnaðir framleiðslupöntun fyrir 100 einingar af vörunni **SP-SCM1009 Airpot** og þú vilt áætla undirsamsetningar fyrir þessa pöntun. Þú notar pantanaáætlun til að stofna nauðsynlega framleiðslupöntun fyrir framboðið. Vegna þess að þú ert að stofna framleiðslupöntunina til að uppfylla kröfur tiltekinnar pöntunar ákveður þú að taka frá úttak framleiðslupöntunarinnar.  
 
-## <a name="steps"></a>Skref
+## Skref
 
 1. Stofnaðu nýju útgefnu framleiðslupöntunina fyrir 100 einingar af vörunni **SP-SCM1009 Airpot**.
 
@@ -64,7 +59,7 @@ ms.locfileid: "8524204"
 
 Það er allt og sumt um pantanaáætlun í [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning á sýnigögnum Contoso Coffee](contoso-coffee-intro.md)  
 [Um framleiðslupantanir](../production-about-production-orders.md)  

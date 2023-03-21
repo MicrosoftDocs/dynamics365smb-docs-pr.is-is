@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect, opportunity, email
+ms.search.keywords: 'relationship, prospect, opportunity, email'
 ms.date: 03/22/2022
-ms.search.form: 1680, 1811, 5076
+ms.search.form: '1680, 1811, 5076'
 ms.author: bholtorf
-ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729938"
 ---
-# <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Fylgstu með tölvupóstsamskiptum milli sölufólks og tengiliða
+# Fylgstu með tölvupóstsamskiptum milli sölufólks og tengiliða
 Fá meira út úr samskiptum milli sölufólks og viðskiptamanna með því að breyta tölvupóstsamskiptum í tækifæri sem hægt er að nýta. [!INCLUDE[prod_short](includes/prod_short.md)] getur unnið með Exchange Online til að halda skrá yfir skilaboð á inn- og útleið. Þú getur skoðað og greint innihald skilaboða á síðunni **Samskiptaskráningarfærslur**.
 
 > [!NOTE]
@@ -26,19 +20,19 @@ Fá meira út úr samskiptum milli sölufólks og viðskiptamanna með því að
 > [!IMPORTANT]
 > Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu krefst nýja upplifunin þess að [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online séu á sama leigjandanum.
 
-## <a name="to-set-up-email-logging"></a>Til að setja upp tölvupóstskráningu
+## Til að setja upp tölvupóstskráningu
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Tölvupóstsskráning með Microsoft Graph API**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum **Núverandi upplifun**.
 
-## <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)
+## [Núverandi reynsla](#tab/current-experience)
 
-### <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Setja upp almenningsmöppur og reglur fyrir tölvupóstsskráningu á Exchange Online
+### Setja upp almenningsmöppur og reglur fyrir tölvupóstsskráningu á Exchange Online
 
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
 Næst tengir þú [!INCLUDE[prod_short](includes/prod_short.md)] við Exchange Online.
 
-## <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)
-### <a name="set-up-a-shared-mailbox-and-rules-for-email-logging-in-exchange-online"></a>Uppsetning á sameiginlegu pósthólfi og reglum fyrir tölvupóstskráningu í Exchange Online
+## [Ný reynsla](#tab/new-experience)
+### Uppsetning á sameiginlegu pósthólfi og reglum fyrir tölvupóstskráningu í Exchange Online
 
 > [!NOTE]
 > Þessi skref krefjast stjórnandaaðgangs fyrir Exchange Online.
@@ -48,13 +42,13 @@ Næst tengir þú [!INCLUDE[prod_short](includes/prod_short.md)] við Exchange O
 > [!NOTE]
 > Ef þú notar Exchange Management PowerShell eru breytingar þínar tiltækar í stjórnunarmiðstöð Exchange eftir töf. Seinkunin gæti verið margar klukkustundir.
 
-### <a name="add-a-user-account-for-members-of-the-shared-mailbox"></a>Bæta við notandareikningi fyrir meðlimi samnýtta pósthólfsins
+### Bæta við notandareikningi fyrir meðlimi samnýtta pósthólfsins
 Reikningurinn sem þú notar fyrir tölvupóstsskráningu er Exchange Online reikningur. Áætlað verk mun nota reikninginn til að tengjast samnýtta pósthólfinu og vinna úr tölvupóstum. Þessi reikningur ætti ekki að vera tengdur tilteknum aðila. Bæta netfanginu við fyrir samnýtta pósthólfið. Frekari upplýsingar er að finna í [Nota EAC til að breyta úthlutun samnýtts pósthólfs](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
 
-### <a name="allow-other-users-to-see-logged-emails"></a>Leyfa öðrum notendum að sjá skráða tölvupósta
+### Leyfa öðrum notendum að sjá skráða tölvupósta
 Þú getur leyft öðrum notanda að opna tölvupóstskeyti í Exchange sem tengist samskiptaskráningarfærslu úr [!INCLUDE[prod_short](includes/prod_short.md)]. Til að gera það skaltu veita notandanum ``Read`` aðgangsheimild að möppu **Safnvistunar** í samnýtta pósthólfinu. Frekari upplýsingar er að finna í [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Stofna póstflæðisreglur
+### Stofna póstflæðisreglur
 Póstflæðisreglur leita að ákveðnum skilyrðum á skeytum og gera aðgerðir á þeim. Búa til tvær reglur um póstflæði út frá upplýsingunum í eftirfarandi töflu Frekari upplýsingar er að finna á [Reglum um póstflæði í Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) og [Aðgerðum reglu um póstflæði í Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
 |Tilgangur  |Nafn  |Nota þessa reglu ef ...  |Gera eftirfarandi ...  |
@@ -67,7 +61,7 @@ Póstflæðisreglur leita að ákveðnum skilyrðum á skeytum og gera aðgerði
 
 ---
 
-## <a name="set-up-prod_short-to-log-email-messages"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að skrá tölvupóstskeyti
+## Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að skrá tölvupóstskeyti
 Þetta eru sömu skrefin fyrir bæði núverandi og nýju upplifunina.
 
 Hafist handa með tölvupóstskráningu í tveimur einföldum skrefum:
@@ -82,14 +76,14 @@ Hafist handa með tölvupóstskráningu í tveimur einföldum skrefum:
 > * **Núverandi upplifun**: Leitaðu að **Uppsetning markaðssetningar**, veldu **Aðgangur**, síðan **Aðgerðir** og síðan **Staðfesta uppsetningu tölvupóstsskráningar**.
 > * **Ný upplifun**: Leitaðu að **Tölvupóstsskráning**, veldu **Aðgerðir** og veldu síðan **Staðfesta uppsetningu**.
 
-## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Að skoða tölvupóstsamskipti í samskiptaskránni
+## Að skoða tölvupóstsamskipti í samskiptaskránni
 
 [!INCLUDE[prod_short](includes/prod_short.md)] býr til færslu á síðunni **Samskiptaskrá** í hvert skipti sem sölumaður og tengiliður skiptast á tölvupóstskilaboðum. Til að skoða samskiptaskrána skaltu opna spjaldið **Tengiliður** fyrir einstaklinginn og velja síðan **Tengt**, **Ferill** og að lokum velja **Samskiptaskráningarfærslur**. Við getum gert nokkra hluti við hverja færslu í skránni, til dæmis:
 
 - Skoðaðu innihald tölvupóstsins sem var sendur á milli með því að velja **Vinna** og svo **Sýna viðhengi**.
 - Breyttu tölvupóstsamskiptum í sölutækifæri. Þú getur skapað tækifæri úr færslu sem lofar góðu og náð sölu út úr henni. Til að breyta tölvupóstskiptum í tækifæri skaltu velja færsluna, síðan **Ferli** og síðan **Búa til tækifæri**. Nánari upplýsingar er að finna í [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md).
 
-## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Takmarkanir á pósthólfi og möppu í Exchange Online
+## Takmarkanir á pósthólfi og möppu í Exchange Online
 Það eru takmörk á pósthólfi og möppu í Exchange Online, eins og takmarkanir á möppustærð og fjölda skeyta. Frekari upplýsingar er að finna í [Exchange Online takmarkanir](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) og [Takmarkanir fyrir opnar möppur í Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] geymir skráð tölvupóstskeyti í möppu í Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] geymir einnig tengil á sérhvert skráð skeyti. Tenglarnir opna skráð skeyti í Exchange Online á síðunum Samskiptaskráningarfærsla, Tengiliðaspjald og Sölumannaspjald í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef skráð skeyti er fært yfir í aðra möppu verður tengillinn rofinn. Til dæmis er hægt að færa skeyti handvirkt eða Exchange Online gæti ræst AutoSplit sjálfkrafa þegar geymslumörkum er náð.
@@ -102,33 +96,33 @@ Eftirfarandi skref geta hjálpað þér að koma í veg fyrir að rjúfa tengla 
     2. Uppfærðu póstflæðisreglurnar í Exchange Online.
     3. Uppfærðu uppsetningu tölvupóstsskráningar í Business Central í samræmi við það
 
-## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Tengdu innanhússútgáfur við Microsoft Exchange
+## Tengdu innanhússútgáfur við Microsoft Exchange
 
 Hægt er að tengja [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss við Exchange innanhúss eða Exchange Online fyrir tölvupóstsskráningu. Fyrir báðar útgáfur af Exchange eru stillingar fyrir tenginguna í boði á síðunni **Uppsetning markaðssetningar**. Fyrir Exchange Online er einnig hægt að nota uppsetningarleiðbeiningar með hjálp.
 
 > [!IMPORTANT]
 > Nýja upplifunin styður ekki tengingu við Exchange á staðnum. Ef þú verður að nota Exchange á staðnum skaltu ekki virkja eiginleikauppfærsluna fyrir nýju upplifunina.
 
-## <a name="connect-to-exchange-on-premises"></a>Að tengja við Exchange á staðnum
-## <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)
+## Að tengja við Exchange á staðnum
+## [Núverandi reynsla](#tab/current-experience)
 Til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss við Exchange innanhúss er hægt á síðunni **Uppsetning markaðssetningar** að nota **Grunnútfærsla** sem **Sannvottunargerð** og síðan slá inn innskráningarupplýsingar fyrir notandareikninginn fyrir Exchange innanhúss. Því næst skal kveikja á **Virkja** til að hefja skráningu á tölvupósti.
 
-## <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)
+## [Ný reynsla](#tab/new-experience)
 Nýja upplifunin styður ekki tengingar við Exchange á staðnum.
 
 ---
 
-## <a name="connect-to-exchange-online"></a>Tengjast við Exchange Online
+## Tengjast við Exchange Online
 Til að tengjast Exchange Online þarf að skrá forrit í Azure Active Directory. Gefðu upp forritskennið, leynilykil lyklageymslu og framsendingarslóðina til að nota fyrir skráninguna. Framsendingarslóðin er forstillt og ætti að virka fyrir flestar uppsetningar. Frekari upplýsingar eru í [Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Nota þarf **OAuth2** sem **Sannvottunargerð**. Einnig þarf að skrá forrit í Azure Active Directory. Gefðu upp forritskennið, leynilykil lyklageymslu og framsendingarslóðina til að nota fyrir skráninguna. Framsend vefslóð er fyllt út fyrirfram og ætti að virka fyrir flestar uppsetningar. Frekari upplýsingar eru í Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Exchange Online.
 
 Nauðsynlegt er að setja upp uppsetninguna til að nota HTTPS. Frekari upplýsingar er að finna í [Skilgreining SSL til að tryggja örugga tengingu vefbiðlara Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Ef verið er að setja upp þjóninn til að hafa aðra heimasíðu er hægt að breyta vefslóðinni. Leynilykill biðlara verða vistaður sem dulkóðaður strengur í gagnagrunninum.
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Exchange Online
+### Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Exchange Online
 Eftirfarandi skref gera ráð fyrir að nota Azure Active Directory til að stjórna auðkennum og aðgangsheimild. Frekari upplýsingar er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
-## <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience) 
+## [Núverandi reynsla](#tab/current-experience) 
 Eftirfarandi skref gera ráð fyrir að nota Azure Active Directory til að stjórna auðkennum og aðgangsheimild. Frekari upplýsingar er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app). Ef ekki er notað Azure Active Directory skal skoða [Nota aðra stýringarþjónustu auðkennis og aðgangsheimildar](marketing-set-up-email-logging.md#use-another-identity-and-access-management-service). 
 
 1. Í Azure-gáttinni, undir **Stjórna**, skal velja **Sannvottun**.
@@ -174,7 +168,7 @@ Eftirfarandi skref gera ráð fyrir að nota Azure Active Directory til að stj�
    > [!NOTE]
    > Ef ekki er beðið um innskráningu með stjórnandareikningnum er það líklega vegna þess að lokað er fyrir sprettiglugga. Til að skrá þig inn skaltu leyfa sprettiglugga úr https://login.microsoftonline.com.
 
-## <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)
+## [Ný reynsla](#tab/new-experience)
 1. Í Azure-gáttinni, undir **Stjórna**, skal velja **Sannvottun**.
 2. Undir **Framsendingarslóð** skal bæta við framsendingarslóðinni sem mælt er með á síðunni **Tölvupóstsskráning** í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef reitur framsendingarslóðar á síðu tölvupóstsskráningar er auður skal finna ráðlagða framsendingarslóð á síðunni **Uppsetning með hjálp**. Til að opna síðuna skaltu fara á síðunni **Tölvupóstsskráning**, velja **Aðgerðir** og svo **Uppsetning með hjálp**.
 
@@ -187,50 +181,50 @@ Eftirfarandi skref gera ráð fyrir að nota Azure Active Directory til að stj�
 6. Veljið **Yfirlit** og finnið svo gildið **Auðkenni forrits (biðlara)**. Þetta er biðlarakenni forritsins. Þú verður að slá það inn annaðhvort í reitinn **Biðlarakenni** á síðunni **Tölvupóstsskráning**.
 7. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal setja upp tölvupóstsskráningu á síðunni **Tölvupóstsskráning** eða nota leiðbeininguna **Hjálparuppsetning** til að fá aðstoð.
 
-### <a name="use-another-identity-and-access-management-service"></a>Nota annað auðkenni og fá aðgang að stýringarþjónustu
+### Nota annað auðkenni og fá aðgang að stýringarþjónustu
 Ef þú ert ekki að nota Azure Active Directory til að stjórna auðkennum og aðgangsheimild Þarftu aðstoð frá þróunaraðila. Ef þú kýst frekar að geyma forritskennið og leynilykilinn á annarri staðsetningu, geturðu skilið reiti biðlarakennis og leynilykils biðlara eftir auða og skrifað viðbót til að sækja auðkennið og leynilykilinn frá staðsetningunni. Hægt er að gefa upp leynilykilinn við keyrslu með því að gerast áskrifandi að tilvikum OnGetEmailLoggingClientId og OnGetEmailLoggingClientSecret tilvikum í codeunit 1641 „Uppsetning tölvupóstskráningar“.
 
 ---
 
-## <a name="to-start-logging-email"></a>Að hefja skráningu tölvupósts
+## Að hefja skráningu tölvupósts
 1. Til að hefja skráningu tölvupósts skal á síðunni **Tölvupóstsskráning** velja **Virkja**.
 2. Skráðu þig inn með Exchange Online reikningnum sem áætlað verk notar til að tengjast samnýtta pósthólfinu og vinna úr tölvupóstum.
 
     > [!NOTE]
     > Ef þú ert ekki beðin(n) um að skrá þig inn á Exchange Online reikninginn gæti það verið vegna þess að vafrinn þinn lokar á sprettiglugga. Til að skrá þig inn skaltu leyfa sprettiglugga úr https://login.microsoftonline.com.
 
-## <a name="to-stop-logging-email"></a>Að hætta að skrá tölvupóst
-## <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)
+## Að hætta að skrá tölvupóst
+## [Núverandi reynsla](#tab/current-experience)
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning markaðssetningar** og velja síðan viðkomandi tengil.
 1. Slökkva skal á víxlhnappnum **Virkjað**.
 
-## <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)
+## [Ný reynsla](#tab/new-experience)
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tölvupóstsskráning** og velja síðan viðkomandi tengil.
 2. Slökkva skal á víxlhnappnum **Virkjað**.
 
 ---
 
-## <a name="to-change-the-user-account-used-for-email-logging"></a>Til að breyta notandareikningi sem er notaður við tölvupóstsskráningu
+## Til að breyta notandareikningi sem er notaður við tölvupóstsskráningu
 Ef verið er að nota nýju upplifunina er hægt að breyta notandareikningnum sem notaður er við tölvupóstsskráningu. Núverandi upplifun styður þetta ekki.
 
-## <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience) 
+## [Núverandi reynsla](#tab/current-experience) 
 Slökktu á núverandi uppsetningu, breyttu notanda á síðunni **Tölvupóstsskráning** og virkjaðu síðan aftur tölvupóstsskráningu. Einnig er hægt að keyra aftur leiðbeiningar um uppsetningu með hjálp.
 
-## <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)
-### <a name="prod_short-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Á netinu
+## [Ný reynsla](#tab/new-experience)
+### [!INCLUDE[prod_short](includes/prod_short.md)] Á netinu
 1. Skráðu þig inn í [!INCLUDE[prod_short](includes/prod_short.md)] með reikningnum sem áætlað verk mun nota til að tengjast samnýtta pósthólfinu og vinna úr tölvupóstum. Þessi reikningur verður að hafa aðgang að bæði [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online.
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tölvupóstsskráning** og velja síðan viðkomandi tengil. 
 3. Veldu **Tengt** og síðan **Verkraðarfærsla**.
 4. Endurræstu verkinu **Tölvupóstsskráning**.
 
-### <a name="prod_short-on-premises"></a>[!INCLUDE[prod_short](includes/prod_short.md)] á staðnum
+### [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tölvupóstsskráning** og velja síðan viðkomandi tengil. 
 2. Veldu **Aðgerðir** og síðan **Endurnýja lykil**.
 3. Skráðu þig inn með Exchange Online reikningnum sem áætlað verk notar til að tengjast samnýtta pósthólfinu og vinna úr tölvupóstum.
 
 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Stjórnun tengsla](marketing-relationship-management.md)
 
 

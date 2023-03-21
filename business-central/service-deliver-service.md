@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, service items, respond, response
+ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077815"
 ---
-# <a name="delivering-service"></a>Þjónustuafhending
+# Þjónustuafhending
 [!INCLUDE[prod_short](includes/prod_short.md)] hefur eiginleika sem hjálpa til við afhendingu þjónustu samkvæmt þeim samningum sem stofnaðir hafa verið og þeim þjónustupöntunum sem uppfylla skal. Auðvelt er fyrir þjónustutæknimenn eða afgreiðslu að finna þjónustupantanir með **Afgreiðslustöð**. Í stuttu máli sýnir **Afgreiðslustöð** hvaða pantanir eru í vinnslu og hvaða pantanir eru tilbúnar.  
   
 Önnur leið til að fara yfir þjónustupantanir í undirbúningi er að nota síðuna **Þjónustuverkhlutar**. Í þessu yfirliti þjónustuskuldbindinga er hægt að sjá hvar pöntun er í verkflæði þjónustu, og breytt þeirri stöðu til að spegla samskipti við viðskiptamanninn.  
@@ -39,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stofna og bóka reikninga fyrir þjónustu sem þú hefur afhent.|[Stofna Þjónustureikninga eða kreditreikninga](service-how-create-invoices.md)|  
 |Halda viðskiptamönnum ánægðum með því að lána þeim vöru á meðan þú vinnur í þeirra.| [Lána og taka á móti lánsbúnaði](service-how-to-lend-receive-loaners.md)|
   
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 [Áætla þjónustu](service-plan-service.md)  
 [Uppfylla þjónustusamninga](service-fulfill-service-contracts.md)  
 [Stjórna verkum](projects-manage-projects.md)  

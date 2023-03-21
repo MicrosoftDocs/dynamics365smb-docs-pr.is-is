@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, work hours, configure, price, pricing
+ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 157ac179e51330cc5d9606872a8a121a4bbb67f2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077555"
 ---
-# <a name="planning-services"></a>Áætla þjónustu
+# Áætla þjónustu
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að setja upp staðlaða verkhluta sem þarf til að uppfylla þjónustuþarfir fyrirtækisins. Til að gera þetta, verður að ákveða hvaða þjónustuvöru og tilboð þjónustufyrirtæki þitt styður og fyrir hvaða verð.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] býður einnig upp á tölfræðiverkfæri sem þú getur notað til ákveða hversu vel hlutirnir eru að ganga og koma auga á svið þar sem má bæta.
@@ -31,7 +25,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Skilja sambandið á milli stöðu viðgerða og áhrifanna sem þau hafa á úthlutaðan forða og öfugt.|[Skilja úthlutunarstaða og viðgerðarstaða](service-allocation-status-and-repair-status.md)|  
 |Nota tölfræðiupplýsingar til að greina þjónustuferli. | [Þjónustuupplýsingar skoðaðar](service-service-statistics.md) |
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Uppfylla þjónustusamninga](service-fulfill-service-contracts.md)  
 [Þjónustuafhending](service-deliver-service.md)  
 [Setja upp verðlagningu og aukakostnað fyrir þjónustu](service-how-setup-service-costs-pricing.md)  

@@ -7,21 +7,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: ''
+ms.search.form: null
 ms.date: 08/17/2022
 ms.author: a-reishima
-ms.openlocfilehash: 7fddf26a712dc4f6f225de8fd20024fb755c63ee
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9586030"
 ---
-# <a name="business-intelligence-quick-start"></a>Flýtiræsing viðskiptagreindar
+
+# Flýtiræsing viðskiptagreindar
 
 Það er ómetanlegur þáttur í við að stunda viðskipti þessa dagana að geta safnað og greint sívaxandi magni gagna sem hægt er að nýta sér. [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á mörg verkfæri viðskiptagreindar&mdash;bæði innbyggð og samþætt við aðrar þjónustur&mdash;til að hjálpa fyrirtækinu þínu að taka ákvarðanir.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a>Fáðu innsýn í helstu lykilatriði
+## Fáðu innsýn í helstu lykilatriði
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur innbyggð gröf sem hægt er að sýna hluta **Innsýnar** á heimasíðunni, sem nær yfir *tekjur og útgjöld*, *sjóðstreymi*, *söluhegðun* og aðrar skýrslur. Þú getur fundið frekari árangursmælikvarði (KPI) á síðunni **Intelligent Cloud-innsýn** sem sýnir upplýsingar úr fjármálum, birgðum, sölu og innkaupum sem hægt er að nýta sér:
 
@@ -29,7 +24,7 @@ ms.locfileid: "9586030"
 
 Hægt er að velja tiltæk gagnaspjöld og innsýn til að opna tengda fjárhagssíðu. Síðan **Intelligent Cloud-innsýn** notar einnig tengingu við fyrirliggjandi áskriftir að Power BI og Azure-vélnámi til að sýna stjórnborð greiningar og spár.
 
-## <a name="set-up-power-bi-integration"></a>Setja upp Power BI samþættingu
+## Setja upp Power BI samþættingu
 
 Þú getur tengt [!INCLUDE[prod_short](includes/prod_short.md)] við Power BI til að búa til gagnlegar skýrslur og öflug stjórnborð. Power BI samþætting býður upp á marga valkosti til að veita innsýn út frá viðskiptagögnum, þ.m.t. fjölbreyttar sérstillingar á myndrænni framsetningu, síun og birtingu.
 
@@ -45,9 +40,9 @@ Power BI samþætting við [!INCLUDE[prod_short](includes/prod_short.md)] innihe
 
 Einnig er hægt að búa til myndrænar skýrslur sem byggja á [!INCLUDE[prod_short](includes/prod_short.md)] með því að nota valkost skráargerðar **Microsoft Excel skjal (aðeins gögn)** á síðum skýrslubeiðna. Frekari upplýsingar er að finna í [Keyra og prenta skýrslur](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-power-bi).
+## Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-power-bi).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Viðskiptagreining og Financial Reporting](bi.md)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  

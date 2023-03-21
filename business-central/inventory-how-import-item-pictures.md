@@ -1,28 +1,22 @@
 ---
 title: Flytja inn margar myndir af vörum úr ZIP-skrá
-description: Til að flytja inn margar myndir af vörum skaltu gefa myndaskrám nafn sem samsvarar vörunúmerunum þínum, þjappaðu þeim í ZIP-skrá og notaðu síðan síðuna Flytja inn vörumyndir.
+description: 'Til að flytja inn margar myndir af vörum skaltu gefa myndaskrám nafn sem samsvarar vörunúmerunum þínum, þjappaðu þeim í ZIP-skrá og notaðu síðan síðuna Flytja inn vörumyndir.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: product, image
-ms.search.form: 30, 461
+ms.search.keywords: 'product, image'
+ms.search.form: '30, 461'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 44a3689c59a25b6c0aca25f69896e86beb71ea6c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522067"
 ---
-# <a name="import-multiple-item-pictures"></a>Flytja inn margar vörumyndir
+# Flytja inn margar vörumyndir
 Hægt er að flytja inn margar vörumyndir í einu. Gefðu einfaldlega myndaskránum þínum heiti sem samsvarar vörunúmerunum þínum, þjappaðu þeim í zip-skrá og notaðu síðan síðuna fyrir innflutning á vörumyndum til að stýra því hvaða vörumyndir á að flytja inn.
 
 Öll helstu skráarsnið eru studd.
 
-## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>Að skíra myndaskrár eftir vöruheitum og undirbúa ZIP-skrána
+## Að skíra myndaskrár eftir vöruheitum og undirbúa ZIP-skrána
 1. Á staðsetningunni sem vörumyndirnar þínar eru geymdar skal nefna hverja skrá samkvæmt númeri tengdrar vöru. Dæmi:
 
     |Vörunr.|Skrárnafn|
@@ -33,7 +27,7 @@ Hægt er að flytja inn margar vörumyndir í einu. Gefðu einfaldlega myndaskr�
 
 2. Safnaðu öllum skrám í ZIP-skrá. Til dæmis í Windows Explorer skal velja skrárnar og síðan velja **Senda til**, **Þjöppuð mappa (zip-þjöppuð)**.     
 
-## <a name="to-import-item-pictures"></a>Að flytja inn myndir af vörum
+## Að flytja inn myndir af vörum
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.
 2. Velja skal aðgerðina **Flytja inn myndir**.
 3. Í reitnum **Velja ZIP-skrá** skal velja viðeigandi Zip-möppu og síðan velja hnappinn **Opna**.
@@ -47,7 +41,7 @@ Hægt er að flytja inn margar vörumyndir í einu. Gefðu einfaldlega myndaskr�
 
 Reiturinn **Staða innflutnings** er uppfærður til að sýna hvort innflutningur á mynd hafi verið sleppt eða kláraður.       
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Stofnun númeraraða](ui-create-number-series.md)  
 [Birgðir](inventory-manage-inventory.md)  

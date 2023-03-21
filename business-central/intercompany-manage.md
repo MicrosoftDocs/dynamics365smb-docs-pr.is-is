@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511650"
 ---
-# <a name="managing-intercompany-transactions"></a>Vinna með millifyrirtækjafærslur
+# Vinna með millifyrirtækjafærslur
 
 Eiginleikar færsla milli fyrirtækja eru hannaðar fyrir notendur sem stýra fleiri en einni löglegri viðskiptaeiningu og hafa stofnað mörg fyrirtæki til að aðskilja bókhald þessara eininga. Þessi lýsing á við um marga notendur, sérstaklega þá sem vinna á alþjóðlegum markaði eða svæðum sem hafa mörg ólík viðskipta- og reglugerðaumhverfi.
 
@@ -32,7 +26,7 @@ Fjórir helstu kostir milli fyrirtækjavirkninnar eru:
 - Fullt eftirlit með ferli endurskoðana, viðskipta og færslna  
 - Skilvirkar og hagkvæmar færslur í samskiptum við hlutdeildarfélög eða dótturfyrirtæki  
 
-## <a name="streamlining-the-flow-of-business-activities"></a>Einfaldari viðskiptahættir  
+## Einfaldari viðskiptahættir  
 
 Með færslum milli fyrirtækja er hægt að senda sölu- og innkaupaskjöl sem og fjárhagsfærslur á skrifstofur í öðrum löndum, söluskrifstofur eða dótturfyrirtæki, allt í gegnum forritið. Þar sem ekki þarf að færa gögn inn endurtekið og senda, taka á móti, prenta og skrá sölu og innkaup á pappír sparast tími og skilvirkni eykst.  
 
@@ -71,7 +65,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Skipuleggja og vinna færslur á inn- og útleið sem þú og millifyrirtækjafélagar þínir sendið ykkar á milli.|[Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md)|
 |Nota færslur milli fyrirtækja til að dreifa kostnaði á milli samstarfsfyrirtækja.|[Úthluta kostnaði til millifyrirtækjafélaga](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  

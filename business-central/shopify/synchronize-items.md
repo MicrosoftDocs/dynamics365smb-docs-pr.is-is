@@ -4,18 +4,13 @@ description: Setja upp og keyra samstillingar vara milli Shopify og Business Cen
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30116, 30117, 30126, 30127,
+ms.search.form: '30116, 30117, 30126, 30127,'
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728384"
 ---
-# <a name="synchronize-items-and-inventory"></a>Samstilla vörur og birgðir
+
+# Samstilla vörur og birgðir
 
 **Atriði** í [!INCLUDE[prod_short](../includes/prod_short.md)] eru jafngild *vörum* o Shopify og fela í sér efnislegar vörur, stafrænt niðurhal, þjónustu og gjafakort sem þú kannt að selja. Tvær meginástæður eru fyrir því að samstilla vörurnar:
 
@@ -26,7 +21,7 @@ Sviðsmyndirnar tvær á undan eru alltaf virkar.
 
 Þriðja sviðsmynd er að hafa umsjón með gögnum í Shopify en flytja þau atriði inn í heildsölu til [!INCLUDE[prod_short](../includes/prod_short.md)]. Þessi sviðsmynd getur verið gagnleg fyrir tilvik gagnaflutnings, svo sem þegar þú vilt tengja núverandi vefverslun við nýtt [!INCLUDE[prod_short](../includes/prod_short.md)] umhverfi.
 
-## <a name="define-item-synchronizations"></a>Skilgreina vörusamstillingar
+## Skilgreina vörusamstillingar
 
 1. Í leitinni velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") tákn og opna **Shopify Verslun**. Opna verslunina sem á að stilla samstillingu vöru fyrir.
 2. Í reitnum **Samstilla vöru** skal velja nauðsynlegan valkost.
@@ -35,24 +30,24 @@ Sviðsmyndirnar tvær á undan eru alltaf virkar.
 
 |Valkostur|Lýsing|
 |------|-----------|
-|**Autt**| Vörur eru fluttar inn um leið og pantanir eru fluttar inn. Vörur eru fluttar út til Shopify ef notandi keyrir aðgerðina **Bæta við vöru** á síðunni **Shopify Vörur**. Þetta er sjálfgefna ferlið.|
+|**Autt**| Vörur eru fluttar inn um leið og pantanir eru fluttar inn. Vörur eru fluttar út til Shopify ef notandi keyrir aðgerðina **Bæta við vöru** á síðunni **Shopify Vörur**. Þessi valkostur er sjálfgefið ferli.|
 |**Til Shopify**| Þessi kostur er valinn ef upphafleg samstilling er virkjuð með aðgerðinni **Bæta við vöru**, þú ætlar að uppfæra vörur handvirkt með því að nota aðgerðina **Samstilla vöru** eða með því að nota verkröðina fyrir endurteknar uppfærslur. Munið að virkja reitinn **Getur uppfært Shopify vöru**. Ef það er ekki virkt jafngildir það valkostinum **Autt** (sjálfgefið ferli). Fáðu frekari upplýsingar í hlutanum [Flytja út vörur í Shopify](synchronize-items.md#export-items-to-shopify).|
 |**Frá Shopify**| Þessi kostur er valinn ef ætlunin er að flytja vörur inn frá Shopify í lausasölu, annaðhvort handvirkt með því að nota aðgerðina **Samstilla vöru** eða með því að nota verkröðina fyrir endurteknar uppfærslur. Fáðu frekari upplýsingar í hlutanum [Flytja inn atriði frá Shopify](synchronize-items.md#import-items-from-shopify).|
 
-## <a name="import-items-from-shopify"></a>Flytja inn atriði úr Shopify
+## Flytja inn atriði úr Shopify
 
-Fyrst skaltu flytja inn vörur annað hvort í lausu frá Shopify eða ásamt pöntunum til að bæta þeim við töfluna **Shopify Vara** og **Shopify Afbrigði**. Varpaðu síðan innfluttar vörur og afbrigði í vörur og afbrigði í [!INCLUDEprod_short]. Stjórna ferlinu með því að nota eftirfarandi stillingar:
+Fyrst skaltu flytja inn vörur annað hvort í lausu frá Shopify eða ásamt pöntunum til að bæta þeim við töfluna **Shopify Vara** og **Shopify Afbrigði**. Síðan varpa innfluttar vörur og afbrigði á vörur og afbrigði í [!INCLUDE[prod_short](../includes/prod_short.md)]. Stjórna ferlinu með því að nota eftirfarandi stillingar:
 
-|Svæði|Lýsing|
+|Svæði|Description|
 |------|-----------|
 |**Búa til óþekktar vörur sjálfvirkt**|Þegar Shopify vörur og afbrigði eru flutt inn í [!INCLUDE[prod_short](../includes/prod_short.md)], reynir [!INCLUDE[prod_short](../includes/prod_short.md)] aðgerðin fyrst að finna samsvarandi skrá í vörulistanum. **Vörpun birgðahaldseiningar** hefur áhrif á hvernig samsvörun er framkvæmd og býr til nýja vöru og/eða vöruafbrigði. Virkjaðu þennan valkost ef búa á til nýja vöru eða þegar samsvarandi skrá er ekki til. Nýja varan er búið til með því að nota innflutt gögn og **Vörusniðmátskóða**. Ef þessi valkostur er ekki virkur þarftu að búa til vöru handvirkt og nota aðgerðina **Varpa vöru** á síðunni **Shopify Vara**.|
-|**Vörusniðmátskóði**|Nota þetta með valkostinum **Búa til óþekktar vörur sjálfvirkt**.<br>Veldu sniðmátið sem á að nota fyrir vörur sem eru sjálfkrafa búnar til.|
+|**Vörusniðmátskóði**|Notið þetta svæði með því að skipta óþekktu atriði  **út fyrir**  sjálfvirka stofna.<br>Veldu sniðmátið sem á að nota fyrir vörur sem eru sjálfkrafa búnar til.|
 |**BHE-vörpun**|Veljið hvernig nota á gildi **Birgðarhaldseiningar** sem flutt er inn frá Shopify við vörpun og stofnun vörunnar/afbrigðisins. Frekari upplýsingar er að finna í hlutanum [Áhrif Shopify birgðarhaldseininga vöru og strikamerkja á vörpun og stofnun vöru og afbrigða í Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**Reitaskiltákn birgðahaldseiningar**|Notaðu þetta með **BHE-vörpun** til að stilla valkostinn **[Vörunr. + afbrigðiskóði](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Skilgreindu skilju sem nota á til að skipta birgðahaldseiningunni.<br>Þannig að ef Shopify þú býrð til afbrigðið með birgðahaldseiningu „1000/001“ þá skrifar þú „/“ reitinn **Reitaskiltákn birgðahaldseiningar** til að gera vörunúmerið í [!INCLUDE[prod_short](../includes/prod_short.md)] „1000“ og afbrigðiskóðann „001“.|
+|**Reitaskiltákn birgðahaldseiningar**|Notið þetta svæði með  **be-vörpun**  sem sett er  **[á vöruna. Nei + Afbrigðiskóti](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**  valkostur.<br>Skilgreindu skilju sem nota á til að skipta birgðahaldseiningunni.<br>Þannig að ef Shopify þú býrð til afbrigðið með birgðahaldseiningu „1000/001“ þá skrifar þú „/“ reitinn **Reitaskiltákn birgðahaldseiningar** til að gera vörunúmerið í [!INCLUDE[prod_short](../includes/prod_short.md)] „1000“ og afbrigðiskóðann „001“.|
 |**Forskeyti afbrigðis**|Notið ásamt **Vörpun birgðahaldseiningar** að stilla annað hvort valkostinn **Afbrigðiskóði** eða **Vörunr. + afbrigðiskóði** sem varavalkost þegar birgðahaldseiningin frá Shopify er auð.<br>Ef þú vilt búa til vöruafbrigði sjálfkrafa í [!INCLUDE[prod_short](../includes/prod_short.md)] þarftu að slá inn gildi í **Kóða**. Sjálfgefið er að nota gildið sem skilgreint er í reit birgðahaldseiningar flutt inn frá Shopify. Ef birgðahaldseiningin er auð mun hún hins vegar búa til kóða sem byrjar á skilgreinda forskeyti afbrigðisins og „001“.|
 |**Shopify Get ég uppfært atriði**|Þessi kostur er valinn ef þú vilt uppfæra vörur og/eða afbrigði sjálfkrafa.|
 
-### <a name="effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central"></a>Áhrif Shopify birgðahaldseininga vöru og strikamerkja á vörpun og stofnun vara og afbrigða í Business Central
+### Áhrif Shopify birgðahaldseininga vöru og strikamerkja á vörpun og stofnun vara og afbrigða í Business Central
 
 Þegar vörur eru fluttar inn frá Shopify í töflurnar **Shopify Vörur** og **Shopify Afbrigði** reynir [!INCLUDE[prod_short](../includes/prod_short.md)] að finna fyrirliggjandi skrár.
 
@@ -60,12 +55,12 @@ Eftirfarandi tafla sýnir muninn á valkostum í reitnum **Vörpun birgðahaldse
 
 |Valkostur|Áhrif á vörpun|Áhrif á sköpun|
 |------|-----------------|------------------|
-|**Autt**|Reitur birgðahaldseiningar er ekki notaður í rútínu vöruvörpunar.|Engin áhrif á stofnun vörunnar.<br>Þessi valkostur kemur í veg fyrir að hægt sé að búa til afbrigði. Aðeins aðalvaran er notuð í sölupöntun. Enn er hægt að kortleggja afbrigði handvirkt á síðunni **Shopify Vara**.|
-|**Vörunr.**|Veldu hvort að reitur birgðahaldseiningar innihaldi vörunúmerið|Engin áhrif á sköpun atriðis án afbrigða. Fyrir vörur með afbrigðum er hvert afbrigði búið til sem aðskild vara.<br>Þannig að ef Shopify hefur vöru með tveimur afbrigðum og birgðahaldseining þeirra er „1000“ og „2000“, [!INCLUDE[prod_short](../includes/prod_short.md)] mun það búa til tvö atriði með númerunum „1000“ og „2000“.|
-|**Afbrigðiskóði**|Reitur birgðahaldseiningar er ekki notaður í rútínu vöruvörpunar.|Engin áhrif á stofnun vörunnar. Þegar vöruafbrigði er búið til er gildi reits birgðahaldseiningar notað sem kóði. Ef birgðahaldseiningin er auð er kóði myndaður með því að nota reitinn **Forskeyti afbrigðis**.|
-|**Vörunr. + afbrigðiskóði**|Veldu þetta ef reitur biar inniheldur vörunúmer og afbrigðakóði vörunnar er aðskilinn með gildinu sem skilgreint er í reitnum **Reitaskiltákn birgðahaldseiningar**.|Þegar vara búin til er fyrsti hluti gildis reits birgðahaldseiningar tilgreindur með **Nr.** Ef reitur birgðahaldseiningar er auður er vörunúmer búið til með því að nota númeraröðina sem er skilgreind í reitnum **Vörusniðmátskóði** eða **Vörunr.** á síðunni **Uppsetning birgða**.<br>Þegar hlutur er sofnaður til notar afbrigðisaðgerðin seinni hluta gildis reits birgðahaldseiningarinnar sem **kóða**. Ef reitur birgðahaldseiningar er auður er kóði búinn til með því að nota reitinn **Forskeyti afbrigðis**.|
-|**Vörunr. lánardr.**|Veldu hvort reitur birgðahaldseiningar inniheldur vörunúmer lánardrottins. Í þessu tilviki er **Lán.dr., vöru nr.** ekki notaður á síðunni fyrir **Vörukort** er **Vörunr.** af **Vörulisti lánadr.** notað. Ef skráin sem fannst í *Vörulisti lánardrottins* inniheldur afbrigðiskóða er sá kóði notaður til að varpa Shopify afbrigðið.|Ef samsvarandi lánardrottinn er til í [!INCLUDE[prod_short](../includes/prod_short.md)], verður gildi birgðahaldseiningar sem **Vörunr. lánardrottins** á síðunni **Vörukort** og sem **Vörutilvísun** af gerðinni lánardrottinn. <br>Kemur í veg fyrir myndun afbrigða. Það er gagnlegt þegar þú vilt aðeins nota aðalvöruna í sölupöntuninni. Þú getur enn varpað afbrigði handvirkt á síðunni **Shopify Vara**.|
-|**Strikamerki**|Veldu reitur birgðahaldseiningar innihaldi strikamerki. Leit er gerð meðal **Vörutilvísana** af gerðinni lánardrottinn. Ef tilvísunarskráin sem fannst inniheldur afbrigðiskóða er sá afbrigðiskóði notaður til að varpa Shopify afbrigðið.|Engin áhrif á stofnun vörunnar. <br>Kemur í veg fyrir myndun afbrigða. Það er gagnlegt þegar þú vilt aðeins nota aðalvöruna í sölupöntuninni. Þú getur enn varpað afbrigði handvirkt á síðunni **Shopify Vara**.|
+|**Autt**|Be-svæðið er ekki notað í vörpunarkerfum.|Engin áhrif á stofnun vörunnar.<br>Þessi valkostur kemur í veg fyrir að hægt sé að búa til afbrigði. Aðeins aðalvaran er notuð í sölupöntun. Enn er hægt að kortleggja afbrigði handvirkt á síðunni **Shopify Vara**.|
+|**Vörunr.**|Veldu hvort að reitur birgðahaldseiningar innihaldi vörunúmerið|Engin áhrif á sköpun atriðis án afbrigða. Fyrir vörur með afbrigðum er hvert afbrigði búið til sem aðskild vara.<br>Ef  Shopify  hefur afurð með tveimur vöruvíddasamsetningar og skimunum eru ' 1000 ' og ' 2000 ',  [!INCLUDE[prod_short](../includes/prod_short.md)]  munu tvö atriði tölusetja ' 1000 ' og ' 2000 '.|
+|**Afbrigðiskóði**|Be-svæðið er ekki notað í vörpunarkerfum.|Engin áhrif á stofnun vörunnar. Þegar vöruafbrigði er búið til er gildi reits birgðahaldseiningar notað sem kóði. Ef birgðahaldseiningin er auð er kóði myndaður með því að nota reitinn **Forskeyti afbrigðis**.|
+|**Vörunr. + afbrigðiskóði**|Þessi kostur er valinn ef birgðasvæðið inniheldur vörunúmer og afbrigðiskótinn vöru er aðskilinn gildinu sem er skilgreindur í  **Aðgreiningarsvæði**  skreita.|Þegar vara búin til er fyrsti hluti gildis reits birgðahaldseiningar tilgreindur með **Nr.** Ef reitur birgðahaldseiningar er auður er vörunúmer búið til með því að nota númeraröðina sem er skilgreind í reitnum **Vörusniðmátskóði** eða **Vörunr.** á síðunni **Uppsetning birgða**.<br>Þegar hlutur er sofnaður til notar afbrigðisaðgerðin seinni hluta gildis reits birgðahaldseiningarinnar sem **kóða**. Ef reitur birgðahaldseiningar er auður er kóði búinn til með því að nota reitinn **Forskeyti afbrigðis**.|
+|**Vörunr. lánardr.**|Veldu hvort reitur birgðahaldseiningar inniheldur vörunúmer lánardrottins. Í þessu tilviki er **Lán.dr., vöru nr.** ekki notaður á síðunni fyrir **Vörukort** er **Vörunr.** af **Vörulisti lánadr.** notað. Ef skráin sem fannst í *Vörulisti lánardrottins* inniheldur afbrigðiskóða er sá kóði notaður til að varpa Shopify afbrigðið.|Ef samsvarandi lánardrottinn er til staðar  [!INCLUDE[prod_short](../includes/prod_short.md)] mun be-gildið verða notað sem  **Vörunr lánardrottins.**  **á síðunni Vöruspjald**  og sem  **vörutilvísun**  *í gerð lánardrottins* . <br>Kemur í veg fyrir myndun afbrigða. Það er gagnlegt þegar þú vilt aðeins nota aðalvöruna í sölupöntuninni. Þú getur enn varpað afbrigði handvirkt á síðunni **Shopify Vara**.|
+|**Strikamerki**|Veldu reitur birgðahaldseiningar innihaldi strikamerki. Leit er framkvæmd meðal  **Vörutilvísana**  af  *gerðinni strikamerskóti* . Ef tilvísunarskráin sem fannst inniheldur afbrigðiskóða er sá afbrigðiskóði notaður til að varpa Shopify afbrigðið.|Engin áhrif á stofnun vörunnar. <br>Kemur í veg fyrir myndun afbrigða. Það er gagnlegt þegar þú vilt aðeins nota aðalvöruna í sölupöntuninni. Þú getur enn varpað afbrigði handvirkt á síðunni **Shopify Vara**.|
 
 Eftirfarandi tafla lýsir áhrifum reitsins **Strikamerki**.
 
@@ -76,9 +71,12 @@ Eftirfarandi tafla lýsir áhrifum reitsins **Strikamerki**.
 > [!NOTE]  
 > Þú getur sett af stað vörpun á völdum vörum/afbrigðum með því að velja **Reyna að finna vörpun vöru** eða af öllum innfluttum, óvörpuðum vörum með því að velja **Reyna að finna varpanir**.
 
-## <a name="export-items-to-shopify"></a>Flytja vörur í Shopify
+## Flytja vörur í Shopify
 
-Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerðina **Bæta við vöru** á síðunni **Shopify Vörur** til að bæta vörum á Shopify vörulistann.
+Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerðina **Bæta við vöru** á síðunni **Shopify Vörur** til að bæta vörum á Shopify vörulistann. 
+
+>[!IMPORTANT]
+>Vörunni verður aðeins  **bætt í sölusund netverslana** . Þú þarft að birta vörur á öðrum sölurásum eins og  Shopify  POS, úr Shopify.
 
 Þú stjórnar ferlinu við að flytja út vörur með þessum stillingum:
 
@@ -86,30 +84,30 @@ Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerði
 |------|-----------|
 |**Verðhópur viðskiptavinar**|Ákveða verð fyrir vöru í Shopify. Söluverð fyrir þennan verðflokk viðskiptamanns er notaður. Ef enginn hópur er færður inn er verðið á vöruspjaldinu notað.|
 |**Afsláttarflokkur viðskm.**|Ákveða afslátt sem nota á til að reikna út verð á vöru í Shopify. Verð með afslætti eru geymd í reitnum **Verð** og fullt verð er geymt í reitnum **Samanburður á verði**.|
-|**Samstilla lengdan texta vöru**|Velja þetta til að samstilla lengri texta vörunnar. Þar sem því verður bætt við í reitinn *Lýsing* getur það innihaldið HTML-kóða. |
-|**Samstilla vörueigindir**|Veldu þetta til að samstilla eiginleika vörunnar. Eiginleikar eru sniðnir sem tafla og fylgja í reitnum *Lýsing* í Shopify.|
-|**Kóði tungumáls**|Veljið þetta ef nota á þýddar útgáfur fyrir titil, eiginleika og lengri texta.|
+|**Samstilla lengdan texta vöru**|Veljið þetta svæði til að samstilla lengdan texta vörunnar. Þar sem því verður bætt við í reitinn *Lýsing* getur það innihaldið HTML-kóða. |
+|**Samstilla vörueigindir**|Veljið þetta svæði til að samstilla eigindir atriðis. Eiginleikar eru sniðnir sem tafla og fylgja í reitnum *Lýsing* í Shopify.|
+|**Kóði tungumáls**|Veljið þetta svæði ef óskað er eftir að þýða útgáfur sem notaðar eru fyrir titil, eigindir og lengdan texta.|
 |**BHE-vörpun**|Velja hvernig á að þýða reit birgðahaldseiningar í Shopify. Studdir valkostir eru:<br> - **Vörunr.** til að nota vörunr. bæði fyrir vörur og afbrigði.<br> - **Vörunr. + afbrigðiskóði** til að búa til birgðarhaldseiningu með því að samstilla gildi tveggja reita. Fyrir hluti án afbrigða er eingöngu notað vörunúmerið.<br>- **Lán.dr., vöru nr.** til að nota númer lánardrottins vöru sem skilgreint er í *Vörukortinu* bæði fyrir vörur og afbrigði.<br> - **Strikamerki** til að nota strikamerkistegundina **Vörutilvísun**. Þessi valkostur tekur mið af afbrigðum.|
 |**Reitaskiltákn birgðahaldseiningar**|Skilgreindu skilju fyrir valkostinn **Vörunr. + afbrigðiskóði**.|
 |**Birgðir raktar**| Veldu hvernig kerfið á að fylla út reitinn **Rekja birgðir** vörur sem eru fluttar út til Shopify. Hægt er að uppfæra framboðsupplýsingar [!INCLUDE[prod_short](../includes/prod_short.md)] fyrir vörur í Shopify þar sem rakning birgða er virk. Fáðu frekari upplýsingar í hlutanum [Birgðir](synchronize-items.md#sync-inventory-to-shopify).|
 |**Sjálfgefin birgðastefna**|Veldu *Neita* til að koma í veg fyrir neikvæðar birgðir á Shopify hliðinni.|
-|**Getur uppfært Shopify Vörur**|Skilgreindu þetta ef þú [!INCLUDE[prod_short](../includes/prod_short.md)] getur aðeins búið tik vörur eða getur uppfært vörur líka. Þessi kostur er valinn ef upphafleg samstilling er virkjuð með aðgerðinni **Bæta við vöru**, þú ætlar að uppfæra vörur handvirkt með því að nota aðgerðina **Samstilla vöru** eða með því að nota verkröðina fyrir endurteknar uppfærslur. Munið að velja **Til Shopify** í reitnum **Samstilling vöru**.|
+|**Getur uppfært Shopify Vörur**|Skilgreinið þetta svæði ef  [!INCLUDE[prod_short](../includes/prod_short.md)]  aðeins á að stofna vörur eða geta uppfært vörur einnig. Þessi kostur er valinn ef upphafleg samstilling er virkjuð með aðgerðinni **Bæta við vöru**, þú ætlar að uppfæra vörur handvirkt með því að nota aðgerðina **Samstilla vöru** eða með því að nota verkröðina fyrir endurteknar uppfærslur. Munið að velja **Til Shopify** í reitnum **Samstilling vöru**.|
 |**Viðskiptamannasniðmátskóði**|Veldu sjálfgefna sniðmátið sem á að nota við verðútreikninga. Frekari upplýsingar er að finna á [Setja upp skatta](setup-taxes.md).|
 
-### <a name="fields-mapping-overview"></a>Yfirlit yfir svæðisvörpun
+### Reitir-yfirlit yfir vörpun
 
 |Shopify|Uppruni þegar flutt er frá [!INCLUDE[prod_short](../includes/prod_short.md)]|Mark flutt er inn á [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
-|Staða|Samkvæmt reitnum **Staða fyrir stofnaðar vörur** í **Shopify Verslunarkortinu**. Fáðu frekari upplýsingar í hlutanum [Sértækar uppfærslur á Shopify vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ekki notað.|
+|Staða|Samkvæmt reitnum **Staða fyrir stofnaðar vörur** í **Shopify Verslunarkortinu**. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
 |Titill | **Lýsing**. Ef tungumálakóðinn er skilgreindur og samsvarandi þýðing vöru er til verður þýðing vöru notuð í stað lýsingarinnar.|**Lýsing**|
 |Lýsing|Sameinar lengri texta og eiginleika ef samsvarandi valkostir Shopify á verslunarkortinu eru virkir. Hledur tungumálskóðanum.|Ekki notað.|
-|Titill SEO-síðu|Fast gildi: autt. Fáðu frekari upplýsingar í hlutanum [Sértækar uppfærslur á Shopify vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ekki notað.|
-|Lýsing SEO-lýsigagna|Fast gildi: autt. Fáðu frekari upplýsingar í hlutanum [Sértækar uppfærslur á Shopify vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ekki notað.|
+|Titill SEO-síðu|Fast gildi: autt. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
+|Lýsing SEO-lýsigagna|Fast gildi: autt. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
 |Geymslumiðill|**Mynd**. Fáðu frekari upplýsingar í hlutanum [Samstilla myndir af vörum](synchronize-items.md#sync-item-images)|**Mynd**|
 |Verð|Útreikningur á verði til viðskiptavinar felur í sér vöruverðflokk, afsláttarhóps vörunnar, gjaldmiðilskóða og sniðmátskóða viðskiptavinar.|**Einingarverð**|
 |Samanburður á verði|Útreikningur á verði án afsláttar tekur til vöruverðflokks, afsláttarhóps vörunnar, gjaldmiðilskóða og sniðmátskóða viðskiptavinar.|Ekki notað.|
 |Kostnaður á vöru|**Kostn.verð**|**Kostn.verð**|
-|BHE|Frekari upplýsingar um þetta er að finna undir **BHE-vörpun** í hlutanum [Flytja vörur í Shopify](synchronize-items.md#export-items-to-shopify).|Frekari upplýsingar um þetta er að finna í hlutanum [Áhrif Shopify birgðarhaldseininga vöru og strikamerkja á vörpun og stofnun vöru og afbrigða í Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
+|BHE|Upplýsingar um SKUs undir  **skr Kortvörpun**  í  [útflutningsgreinum  Shopify](synchronize-items.md#export-items-to-shopify)  í kafla.|Lærðu á SKUs í  [áhrif  Shopify  vörunar skus og barkóða á vörpun og myndun vara og afbrigða í miðlægum](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)  hluta fyrirtækja.|
 |Strikamerki|**Vörutilvísanir** af gerð strikamerkis.|**Vörutilvísanir** af gerð strikamerkis.|
 |Rekja magn|Samkvæmt reitnum **Birgðir raktar** á síðunni **Kort í Shopify Verslunarkort**. Fáðu frekari upplýsingar í hlutanum [Birgðir](synchronize-items.md#sync-inventory-to-shopify).|Ekki notað.|
 |Halda áfram að selja þegar ekki er til á lager|Samkvæmt **Sjálfgefinni birgðastefnu** í **Shopify Verslunarkortinu**. Ekki flutt inn.|Ekki notað.|
@@ -119,26 +117,27 @@ Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerði
 |Skattskylt|Fast gildi: virkt.|Ekki notað.|
 |Skattkóðar|**Skattflokkskóði**. Á aðeins við fyrir virðisaukaskatt. Frekari upplýsingar er að finna á [Setja upp skatta](setup-taxes.md).|Ekki notað.|
 
-### <a name="tags"></a>Efnisorð notenda
+### Efnisorð notenda
 
 Farið yfir innfluttu merkin í upplýsingareitnum **Merki** á síðunni **Shopify Vara**. Á sömu síðu, til að breyta merkjum, velur þú aðgerðina **Merki**.
 Ef valkosturinn **Til Shopify** er valinn í reitnum **Samstilla vöru** er úthlutuðum merkjum flutt út í Shopify við næstu samstillingu.
 
-## <a name="run-item-synchronization"></a>Keyra samstillingu vöru
+## Keyra samstillingu vöru
 
 Samstillingu vöru að öllu leyti eða að hluta er hægt að framkvæma á marga mismunandi vegu.
 
-### <a name="initial-sync-of-items-from-business-central-to-shopify"></a>Upphafleg samstilling vara frá Business Central til Shopify
+### Upphafleg samstilling vara frá Business Central til Shopify
 
 1. Farðu í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Vörur** og veldu viðeigandi tengil.
 2. Velja aðgerðina **Bæta við atriðum**.
 3. Sláðu inn kóðann inn í reitinn **Verslunarkóði**. Ef þú opnar gluggann **Shopify Vara** á síðunni **Verslunarkort** verður verslunarkóðinn fylltur sjálfkrafa út.
-4. Skilgreina vörusíur eftir þörfum. Til dæmis er hægt að sía eftir vörunr. eða vöruflokkskóða.
-5. Velja **Í lagi**.
+4. Ef mynd og birgðasamsetingu er samskipað má setja þær í sama ferli. Þar með er þeim í sama ferli þægilegast að sýniatburðarás eða þegar um er að ræða minni gagnamagni. 
+5. Skilgreina vörusíur eftir þörfum. Til dæmis er hægt að sía eftir vörunr. eða vöruflokkskóða.
+6. Velja **Í lagi**.
 
-Atriðin sem verða til eru sjálfkrafa búin til í Shopify ásamt verðum en myndir og birgðastaða eru ekki innifalin. Aðgerðin getur tekið nokkurn tíma ef mjög mörgum vörum er bætt við.
+Vörurnar sem til eru eru sjálfkrafa stofnaðar í  Shopify  með verði. Myndir og birgðastig gætu verið innifaldar eftir því hvaða ákvarðanir voru gerðar. Aðgerðin getur tekið nokkurn tíma ef mjög mörgum vörum er bætt við.
 
-### <a name="sync-products-from-shopify-to-business-central"></a>Samstilla vörur frá Shopify í Business Central
+### Samstilla vörur frá Shopify í Business Central
 
 1. Farðu í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Shopify Verslun** og veldu tengda tengilinn.
 2. Veljið verslunina þar sem á að samtilla vörur til að opna síðuna **Shopify verslunarspjald**.
@@ -148,7 +147,7 @@ Einnig er hægt að nota aðgerðina **Samstilla vörur** á síðunni **Shopify
 
 Þú getur skipulagt verkið sem á að framkvæma á sjálfvirkan hátt. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
 
-### <a name="ad-hoc-updates-of-shopify-products"></a>Sértækar uppfærslur á Shopify vörum
+### Sértækar uppfærslur á Shopify vörum
 
 Þegar skrárnar eru uppfærðar í töflunni **Shopify Vara** eru eftirfarandi breytingar samstilltar við Shopify.
 
@@ -166,7 +165,7 @@ Byggt á gildinu í **Aðgerð fyrir vörur sem voru fjarlægðar** á síðunni
 * **Staða í drög** - Staða vörunnar í Shopify er stillt á *Drög*.
 * **Staða í safnvistað** - Varan er safnvistuð í Shopify.
 
-## <a name="sync-item-images"></a>Samstilla myndir af vörum
+## Samstilla myndir af vörum
 
 Hægt er að stilla samstillingu mynda fyrir samstilltar vörur. Velja skal úr eftirfarandi:
 
@@ -176,45 +175,45 @@ Hægt er að stilla samstillingu mynda fyrir samstilltar vörur. Velja skal úr 
 
 Hægt er að ræsa samstillingu mynda á þann hátt sem lýst er hér að neðan.
 
-### <a name="sync-product-images-from-the-shopify-shop-page"></a>Samstilla vörumyndir af Shopify verslunarsíðunni
+### Samstilla vörumyndir af Shopify verslunarsíðunni
 
 1. Farðu í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Verslanir** og veldu viðeigandi tengil.
 2. Velja verslun sem á að samstilla myndir fyrir til að opna síðuna **Shopify Verslunarkort**.
 3. Veldu aðgerðina **Samstilla myndir af vörum**.
 
-### <a name="sync-product-images-from-the-shopify-products-page"></a>Samstilla vörumyndir Shopify af vörusíðunni
+### Samstilla vörumyndir Shopify af vörusíðunni
 
 1. Farðu í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Vörur** og veldu viðeigandi tengil.
 2. Veldu aðgerðina **Samstilla myndir af vörum**.
 
-### <a name="image-synchronization-remarks"></a>Athugasemdir um samstillingu mynda
+### Athugasemdir um samstillingu mynda
 
 * Þegar myndir eru fluttar út frá [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify er nýjum myndum bætt inn á Shopify, þannig að gamlar myndir haldast óbreyttar. Ef mynd er uppfærð í [!INCLUDE[prod_short](../includes/prod_short.md)], þarftu að eyða gömlu myndunum í **Shopify Stjórnandamiðstöðinni**.
 * Myndir fluttar út til Shopify og uppfylla ekki kröfur sem skilgreindar eru af Shopify verður ekki fluttar inn. Frekari upplýsingar um [efnisgerðir vöru er að finna á help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
-## <a name="sync-prices-with-shopify"></a>Samstilla verð við Shopify
+## Samstilla verð við Shopify
 
 Verð fyrir samstilltar vörur er hægt að flytja út á tvo vegu sem lýst er hér að neðan.
 
-### <a name="sync-prices-from-the-shopify-products-page"></a>Samstilla verð Shopify af vörusíðunni
+### Samstilla verð Shopify af vörusíðunni
 
 1. Farðu í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Vörur** og veldu viðeigandi tengil.
 2. Veldu **Samstilla verð til að framkvæma aðgerð Shopify**.
 
-### <a name="price-calculation-remarks"></a>Athugasemdir verðútreiknings
+### Athugasemdir verðútreiknings
 
 * Til að reikna út verð er mikilvægt að hafa gildi í reitnum **Sjálfgefið sniðmát viðskiptavinar**. Frekari upplýsingar er að finna á [Setja upp skatta](setup-taxes.md).
 * Sláðu inn **gjaldmiðilskóða** ef vefverslunin þín notar annan gjaldmiðil en staðbundinn gjaldmiðil (SGM). Tilgreindur gjaldmiðill verður að hafa stillt gengi. Ef vefverslunin þín notar sama gjaldmiðil og [!INCLUDE[prod_short](../includes/prod_short.md)] skaltu skilja þennan reit eftir auðan.
-* Við ákvörðun verðs notar [!INCLUDE[prod_short](../includes/prod_short.md)] rökin „lægsta verð“. Það þýðir að ef einingarverðið sem skilgreint er á birgðaspjaldinu er lægra en það sem skilgreint er í verðflokknum er einingarverðið frá birgðaspjaldinu notað.
+* Við ákvörðun verðs notar [!INCLUDE[prod_short](../includes/prod_short.md)] rökin „lægsta verð“. Lægsta verðrökin þýðir að ef einingarverð sem er skilgreint á birgðaspjaldinu er lægra en það sem er skilgreint í verðflokknum er einingarverðið frá birgðaspjaldinu notað.
 
-## <a name="sync-inventory-to-shopify"></a>Samstilla birgðir við Shopify
+## Samstilla birgðir við Shopify
 
 Hægt er að stilla samstillingu birgða fyrir vörur sem þegar hafa verið samstilltar. Það eru tvö skilyrði sem þarf að uppfylla:
 
 1. Rakning birgða verður að vera virk fyrir vöru í Shopify. Ef vörur eru fluttar út tilShopify, skaltu íhuga að virkja valkostinn **Rakning birgða** á síðunni **Shopify Verslun**. Fáðu frekari upplýsingar í hlutanum [Flytja út vörur í Shopify](synchronize-items.md#export-items-to-shopify).
 2. Samstilling birgða verður að vera virk fyrir **Shopify Staðsetningar**.
 
-### <a name="to-enable-inventory-sync"></a>Til að virkja birgðasamstillingu
+### Til að virkja birgðasamstillingu
 
 1. Farðu í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Shopify Verslun** og veldu tengda tengilinn.
 2. Velja verslun sem á að samstilla birgðir fyrir til að opna síðuna **Shopify Verslunarkort**.
@@ -225,23 +224,32 @@ Hægt er að stilla samstillingu birgða fyrir vörur sem þegar hafa verið sam
 
 Þú getur ræst birgðasamstillingu á tvo vegu sem lýst er hér að neðan.
 
-### <a name="sync-inventory-from-the-shopify-shop-page"></a>Samstilla birgðir af Shopify síðu verslunarinnar
+### Samstilla birgðir af Shopify síðu verslunarinnar
 
 1. Farðu í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Verslanir** og veldu viðeigandi tengil.
 2. Velja verslun sem á að samstilla birgðir fyrir til að opna síðuna **Shopify Verslunarkort**.
 3. Veldu aðgerðina **Samstilla birgðir**.
 
-### <a name="sync-inventory-from-the-shopify-products-page"></a>Samstilla birgðir af Shopify vörusíðunni
+### Samstilla birgðir af Shopify vörusíðunni
 
 1. Farðu í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Vörur** og veldu viðeigandi tengil.
 2. Veldu aðgerðina **Samstilla birgðir**.
 
-### <a name="inventory-remarks"></a>Athugasemdir birgða
+### Athugasemdir birgða
 
-* Tengillinn reiknar áætlaða **Áætluð staða til ráðstöfunar** og flytur hana út til Shopify.
+* Tengitengið reiknar  **út áætlaða stöðu**  í boði á núverandi dagsetningu og flytur hana út Shopify.
 * Þú getur skoðað upplýsingar um birgðir sem þú fékkst frá upplýsingareitnum Shopify á síðunni **Shopify Upplýsingareitur birgða**. Í þessum upplýsingareit færðu yfirlit yfir Shopify birgða síðustu reiknuðu birgðirnar í [!INCLUDE[prod_short](../includes/prod_short.md)]. Það er ein færsla á hverjum stað.
 * Ef upplýsingar um birgðir í Shopify eru aðrar en **Áætluð staða til ráðstöfunar** í [!INCLUDE[prod_short](../includes/prod_short.md)] þá verða birgðir uppfærðar í Shopify.
 
-## <a name="see-also"></a>Sjá einnig .
+#### Dæmi um útreikning áætlaðrar stöðu í árslok
+
+Um er að ræða 10 stykkja vöru A sem fáanleg er á lager og tvær útistandandi sölupantanir. Einn fyrir mánudag með magni  *einn*  og einn fyrir fimmtudag með magn  *tvö*. Kerfið uppfærir birgðastig í  Shopify  mismunandi magni eftir því hvenær birgðir eru samkeyrðar.
+
+|Þegar samstilling birgða er keyrð|Gildi sem er notað til að uppfæra Hlutabréfaeign|Athugasemd|
+|------|-----------------|-----------------|
+|Þriðjudagur|9|Birgðir 10 mínus sölustokkar setja á skip á mánudegi|
+|Föstudagur|7|Birgðir 10 að frádregnum báðum sölupöntunum|
+
+## Sjá einnig .
 
 [Hafist handa með tengilinn fyrir Shopify](get-started.md)  
