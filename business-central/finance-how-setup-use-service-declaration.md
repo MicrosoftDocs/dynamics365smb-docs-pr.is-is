@@ -37,12 +37,12 @@ Hægt er að setja upp viðauka handvirkt eða með því að nota skýrslugerð
 
     |Svæði  |Description  |
     |---------|---------|
-    |**Röð í skýrslu nr.**     | Tilgreinir númeraröðina sem nota á til að úthluta kennum á nýjar færslur.        |
+    |**Röð í skýrslu nr**.     | Tilgreinir númeraröðina sem nota á til að úthluta kennum á nýjar færslur.        |
     |**Kostnaðargjöld skýrslu**  | Tilgreinir hvort tilkynna verður kostnaðarauka. Ef virkjað,  [!INCLUDE [prod_short](includes/prod_short.md)]  athugar þjónustufærslukóðann fyrir kostnaðarauka og tekur þá með í þjónustuskýrslum.        |
-    |**Viðskm. reikn.**     | Tilgreinir viðskiptamanninn sem á að nota til að bera saman landskóta sinn við landakóða á  **upplýsingasíðu**  fyrirtækisins. Aðeins skjöl þar sem þessir tveir kótar eru mismunandi verða teknir með í þjónustuskýrslu.<br><br>* **Frumvarp til.: nota landskóta úr** Reikn-til viðskm  **.**  < br<br>* **Selt-til.** : Notið landskóta frá  **Selt-til-viðskiptavininum**.        |
-    |**Afh. aðila/borgun-nr.**  | Tilgreinir hvaða lánardrottinn á að nota til að bera saman landskóta sinn við landskóta á  **síðu fyrirtækjaupplýsinga** . Aðeins skjöl þar sem þessir tveir kótar eru mismunandi verða teknir með í þjónustuskýrslu.<br><br> * **Afh.** aðila: nota skal landskóta frá  **lánardrottni** afh. <br><br> * **Borgun.** : nota skal landskótann úr  **Launadrottinn**.         |
+    |**Viðskm. reikn**.     | Tilgreinir viðskiptamanninn sem á að nota til að bera saman landskóta sinn við landakóða á  **upplýsingasíðu**  fyrirtækisins. Aðeins skjöl þar sem þessir tveir kótar eru mismunandi verða teknir með í þjónustuskýrslu.<br><br>* **Frumvarp til.: nota landskóta úr** Reikn-til viðskm  **.**  < br<br>* **Selt-til.** : Notið landskóta frá  **Selt-til-viðskiptavininum**.        |
+    |**Afh. aðila/borgun-nr**.  | Tilgreinir hvaða lánardrottinn á að nota til að bera saman landskóta sinn við landskóta á  **síðu fyrirtækjaupplýsinga** . Aðeins skjöl þar sem þessir tveir kótar eru mismunandi verða teknir með í þjónustuskýrslu.<br><br> * **Afh.** aðila: nota skal landskóta frá  **lánardrottni** afh. <br><br> * **Borgun.** : nota skal landskótann úr  **Launadrottinn**.         |
     |**Skilgreiningarkóði gagnaskipta**  | Tilgreinir skilgreiningarkóða gagnaskipta sem er notaður til að mynda útfluttu skrána fyrir þjónustuyfirlýsinguna.        |
-    |**Virkja skattskráningu nr.**     |  Tilgreinir hvort  **skattskráningarnúmer**  er virkjaður fyrir þjónustuskýrsluna.       |
+    |**Virkja skattskráningu nr**.     |  Tilgreinir hvort  **skattskráningarnúmer**  er virkjaður fyrir þjónustuskýrsluna.       |
 
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **Þjónustufærslugerðir** og velja síðan tengda tengilinn.
 4. Í línunum eru tilgreindir  **kótar**  og  **lýsingar**  á þjónustufærslugerðunum sem eru notaðar.

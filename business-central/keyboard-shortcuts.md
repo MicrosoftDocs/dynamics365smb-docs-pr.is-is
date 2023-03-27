@@ -89,7 +89,7 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |*<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>F</kbd>*|Senda tillögur að línum á síðunni fyrir sjóðstreymisvinnublöð.|Á ekki við.|
 |*<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>I</kbd>*|Skoða rað- og lotunúmer sem úthlutað er á línuatriði í skjalinu eða færslubókinni.|Á ekki við.|
 
-### <a name="navigateshortcuts"></a> Flett milli raða og dálka
+### <a name="navigateshortcuts"></a>Flett milli raða og dálka
 
 Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!INCLUDE[prod_short](includes/prod_short.md)], svo sem listasíður og **Línur** sem hlutar skjala. Flutningur frá einu hólfi til annars yfir hnitanet er að fullu virkt fyrir lyklaborð.
 

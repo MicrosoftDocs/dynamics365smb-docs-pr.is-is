@@ -65,7 +65,7 @@ Ef flæðið stöðvast ekki vegna skilyrðisins þarf að láta [!INCLUDE[prod_
 1. Í **Engin** grein af skilyrðisskrefinu skal bæta við aðgerð og leita að **Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]**. Veldu tengiltáknið á listanum.
 2. Veldu aðgerðina **Stofna færslu (V3)**.
 
-:::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Stillingar fyrir [!INCLUDE[prod_short](includes/prod_short.md)] tengil":::
+:::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Stillingar fyrir [!INCLUDE[prod_short](includes/prod_short.md)] Connector":::
 
 3. Notaðu **Valhnappinn (...)** efst í hægra horninu til að bæta tengingu við [!INCLUDE[prod_short](includes/prod_short.md)] þitt.
 4. Þegar það er tengt skaltu fylla út í reitina **Heiti umhverfis** og **Heiti fyrirtækis**.

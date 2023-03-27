@@ -6,22 +6,16 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 63aa8e6b23c2977e8e44c6f346f33c1c33fe3c2a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533214"
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]
+# Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Í þessari grein muntu fá upplýsingar um mismunandi þætti Power BI samþættingar við [!INCLUDE[prod_short](includes/prod_short.md)] til að hjálpa þér að skilja innleiðingu og notkun.
 
-## <a name="components"></a>Íhlutir
+## Íhlutir
 
 Eftirfarandi tafla lýsir helstu íhlutunum sem tengjast Power BI samþættingu.
 
@@ -31,7 +25,7 @@ Eftirfarandi tafla lýsir helstu íhlutunum sem tengjast Power BI samþættingu.
 |Power BI Desktop|Höfundarverkfæri til að búa til skýrslur og mælaborð, og gerir þér kleift að keyra skýrslur. Það er í boði sem ókeypis niðurhal á Microsoft Store og er uppsett staðbundið.|
 |[!INCLUDE[prod_short](includes/prod_short.md)]|Lausn á netinu eða staðbundið með tenglum á Power BI og möguleikanum á að innfella Power BI hluta.|
 
-## <a name="whats-available-from-the-start"></a>Það sem er í boði frá upphafi
+## Það sem er í boði frá upphafi
 
 Eftirfarandi tafla lýsir tiltækum eiginleikum.
 
@@ -43,7 +37,7 @@ Eftirfarandi tafla lýsir tiltækum eiginleikum.
 |Sjálfgefnar Power BI skýrslur um hlutverkamiðstöðvar virkjaðar á Power BI|Beinlínutengt|
 |Power BI-forrit á Microsoft AppSource|Beinlínutengt|
 
-## <a name="architecture"></a>Högun
+## Högun
 
 [!INCLUDE[prod_short](includes/prod_short.md)] samþættist við Power BI í gegnum tengil með OData. Gagnagjafi fyrir Power BI-skýrslur kemur fyrir sem API-síður og OData-vefþjónustur.
 
@@ -51,7 +45,7 @@ Eftirfarandi tafla lýsir tiltækum eiginleikum.
 
 Frá og með febrúar 2022 eru Power BI skýrslur fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu fengnar frá aukalegri eftirmynd af skrifvörðum gagnagrunni. Eftirmynd gagnagrunnsins er hluti af möguleikanum [lesa útvíkkun](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu. Þessi grunnstilling losar um aðalgagnagrunninn fyrir færslur, sem eykur afköst kerfisins. Að tengjast við skrifvarða eftirmynd gagnagrunnsins er mikilvægur hluti af tengli Business Central Online og þarfnast ekki frekari uppsetningar af þinni hálfu. Allar nýjar skýrslur munu sjálfgefið tengjast við skrifvarða eftirmynd gagnagrunnsins. Gamlar skýrslur munu enn nota aðalgagnagrunninn. Frekari upplýsingar er að finna í [Business Central 2021 útgáfutímabil 2 áskriftarleið](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
-## <a name="general-flow"></a>Almennt flæði
+## Almennt flæði
 
 Eftirfarandi skýringarmynd sýnir grunnverkflæði fyrir notendur þegar verið er að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við Power BI.
 
@@ -65,9 +59,9 @@ Eftirfarandi skýringarmynd sýnir grunnverkflæði fyrir notendur þegar verið
 6. Notandi stofnar skýrslu í Power BI Desktop.
 7. Notandi gefur út skýrslu á Power BI -þjónustuna. Svo er hægt að velja skýrslurnar í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Power BI fyrir neytendur](/power-bi/consumer/end-user-consumer)  

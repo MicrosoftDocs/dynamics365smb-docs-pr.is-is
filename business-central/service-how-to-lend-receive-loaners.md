@@ -6,27 +6,21 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3d7e2c7be7d381a6fdf58a16b7fc154a6d674215
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382794"
 ---
-# <a name="lend-and-receive-loaners"></a>Lána og taka á móti lánsbúnaði
+# Lána og taka á móti lánsbúnaði
 Hægt er að lána viðskiptamönnum lánsbúnað til að koma tímabundið í stað þjónustuvara sem tekið hefur verið við til þjónustu.  
   
-## <a name="to-lend-a-loaner-item"></a>Lánsbúnaðarvara lánuð    
+## Lánsbúnaðarvara lánuð    
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
 2. Opna skal viðeigandi spjald þjónustupöntunar.  
 3. Smellt er á þjónustuvörulínuna með þjónustuvörunni sem á að skipta á með lánsbúnaði.  
 4. Í **Nr. lánsbúnaðar** reitnum, veljið viðeigandi lánsbúnaðarvöru.  
 5. Velja **Já** til að staðfesta lánið.  
 
-## <a name="to-receive-a-loaner"></a>Tekið við lánsbúnaði  
+## Tekið við lánsbúnaði  
 Þegar tekið er við lánsbúnaði frá viðskiptamanni þarf að skrá móttökuna. Það er gert á síðunni **Þjónustupöntun**, **Bókuð þjónustuafhending** og **Lánsbúnaðarspjald**. Þessi aðferð sýnir hvernig er tekið við lánsbúnaði á síðunni **Þjónustupöntun**.  
   
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
@@ -34,7 +28,7 @@ Hægt er að lána viðskiptamönnum lánsbúnað til að koma tímabundið í s
 3. Valin er þjónustuvörulínan með lánsbúnaðinum sem taka á við.  
 4. Velja **Aðgerðir**, velja **Aðgerðir** og síðan smella á **Móttaka lánsbúnaðar**.  
 
-## <a name="to-register-loaner-comments"></a>Skráning lánsbúnaðarathugasemda  
+## Skráning lánsbúnaðarathugasemda  
 Hægt er að nota síðuna **Athugasemdablað almennrar þjónustu** til að skrá athugasemdir um skráðan lánsbúnað.  
   
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánsbúnað** og velja síðan viðkomandi tengil.  
@@ -43,7 +37,7 @@ Hægt er að nota síðuna **Athugasemdablað almennrar þjónustu** til að skr
 4. Dagsetning er rituð í reitinn **Dagetning**.  
 5. Í reitnum **Athugsemd** færið inn athugasemd. Mest má rita 80 stafi. Ef færa á inn viðbótartexta er farið í næstu línu. Hægt er að fylla út eins margar línur og þurfa þykir.  
   
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
 [Uppsetning lánsbúnaðarkerfis](service-how-setup-loaner-program.md)   
 
 

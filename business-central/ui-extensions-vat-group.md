@@ -6,35 +6,30 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, value added tax, report
-ms.search.form: 4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709,
+ms.search.keywords: 'VAT, value added tax, report'
+ms.search.form: '4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709,'
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: b428973ab64d22b2e336a8067979bc7257af173b
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361529"
 ---
-# <a name="the-vat-group-management-extension-for-the-united-kingdom"></a>Viðbót fyrir stjórnun VSK-hóps fyrir Bretland
+
+# Viðbót fyrir stjórnun VSK-hóps fyrir Bretland
 
 Þú getur tengt saman eitt eða fleiri fyrirtæki í Bretlandi til að sameina VSK-skil undir einu skráningarnúmeri. Þessi tilhögun er kölluð *VSK-hópur*. Hægt er að taka þátt í hópnum sem meðlimur eða fulltrúi hópsins.
 
-## <a name="forming-a-vat-group"></a>Mynda VSK-flokk
+## Mynda VSK-flokk
 
 Meðlimir VSK-hóps og fulltrúi hans geta notað uppsetningarleiðbeininguna **Uppsetning á stjórnun VSK-hóps** með hjálp bæði til að skilgreina aðkomu þeirra að hópnum og búa til tengingu milli [!INCLUDE[prod_short](includes/prod_short.md)]-leigjanda þeirra. Meðlimir hópsins nota tenginguna til að senda VSK-skýrslur sínar til fulltrúa hópsins. Fulltrúi hópsins notar þá eitt VSK-framtal til að standa skil á VSK hópsins til skattyfirvalda.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] styður VSK-skil innan samstæðu fyrir fyrirtæki sem nota [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss eða á netinu, í hvaða samsetningu sem er, sem hefur áhrif á uppsetningu samskipta á milli fyrirtækja. Í þessari grein er lýst ýmsum hópuppsetningum.
 
-### <a name="license-requirements"></a>Leyfiskröfur
+### Leyfiskröfur
 
 Þátttakendur í hópnum verða að hafa leyfi til að nota [!INCLUDE[prod_short](includes/prod_short.md)]. Þú getur ekki notað gestareikninga í VSK-hópum.
 
 * Notandi verður að vera fullgildur notandi [!INCLUDE[prod_short](includes/prod_short.md)] til að reikna út og skila VSK-framtölum.
 * Til að skrá þig inn og sinna grunnverkefnum, svo sem að stofna reikninga, þarftu [!INCLUDE[prod_long](includes/prod_long.md)] leyfi fyrir meðlimi hóps.
 
-## <a name="set-up-a-vat-group"></a>Setja upp VSK hóp
+## Setja upp VSK hóp
 
 Eftirfarandi er ráðlögð röð skrefa sem stjórnandi notar til að setja upp VSK-hóp:
 
@@ -49,7 +44,7 @@ Eftirfarandi er ráðlögð röð skrefa sem stjórnandi notar til að setja upp
 > [!NOTE]
 > Til að tengjast fulltrúa VSK-hópsins þurfa hópmeðlimir að vera með notandareikning hefur aðgang að fulltrúa VSK-hópsins [!INCLUDE[prod_short](includes/prod_short.md)]. Fulltrúi VSK-hópurinn verður að búa til að minnsta kosti einn notanda fyrir þetta. Af öryggisástæðum mælum við þó með því að notendur stofni VSK-hóp fyrir hvern meðlim, sem getur verið kerfisnotendareikningur sem tengist ekki raunverulegum aðila. Gangið úr skugga um að dreifa notandaskilríkjum til þessara meðlima VSK-hópsins á öruggan hátt.
 
-### <a name="azure-active-directory-setup-for-group-members"></a>Azure Active Directory uppstilling fyrir hópmeðlimi
+### Azure Active Directory uppstilling fyrir hópmeðlimi
 
 Þegar fulltrúi VSK-hópsins notar [!INCLUDE[prod_short](includes/prod_short.md)] á netinu eða innanhúss, verða meðlimir VSK-hópsins að nota Azure Active Directory til að sannvotta notendur þegar þeir senda VSK-skýrslur til fulltrúa VSK-hópsins. Innanhúss [!INCLUDE[prod_short](includes/prod_short.md)] verða meðlimir að stilla einskráningu. Frekari upplýsingar er að finna á [Stilla Azure Active Directory auðkenningu með WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 
@@ -65,7 +60,7 @@ Meðlimir VSK-hóps sem eru með [!INCLUDE[prod_short](includes/prod_short.md)] 
 * Í hlutanum **API-heimildir** skal bæta heimildum við [!INCLUDE[prod_short](includes/prod_short.md)]. Virkja úthlutun aðgangs fyrir **Financials.ReadWrite.All** og **user_impersonation**.
 * Í hlutanum **Yfirlit** skal skrá hjá sér **Kenni forrits (biðlara)**. Meðlimir VSK-hópsins þurfa á auðkenninu að halda þegar þeir setja upp tenginguna við fulltrúa hópsins.
 
-### <a name="group-api-setup"></a>Uppsetning API-hóps
+### Uppsetning API-hóps
 
 Fulltrúi VSK-hópsins útbýr og afhendir API til meðlima hópsins. Meðlimirnir nota þetta API til að tengjast [!INCLUDE[prod_short](includes/prod_short.md)] leigjanda fulltrúans og skila VSK-framtölum. Meðlimir VSK-hóps nota oft [!INCLUDE[prod_short](includes/prod_short.md)] í aðskildum Azure Active Directory-leigjendum. Þess vegna þarf að setja upp uppsetningu til að tengja meðlim VSK-hópsins og [!INCLUDE[prod_short](includes/prod_short.md)] fulltrúans.
 
@@ -77,7 +72,7 @@ Fulltrúi VSK-hópsins útbýr og afhendir API til meðlima hópsins. Meðlimirn
 1. Afritaðu **vefslóðina** í hlutanum **Upplýsingar**.
 1. Opnaðu glósubókina og límdu inn vefslóðina. Skipta `https://businesscentral.dynamics.com` út fyrir `https://api.businesscentral.dynamics.com/v2.0`.
 
-## <a name="set-up-vat-group-members"></a>Setja upp meðlimi VSK-hópa
+## Setja upp meðlimi VSK-hópa
 
 Meðlimir VSK-hóps tengjast fulltrúanum með því að hafa samband við vefþjónustu í VSK-hópnum í leigjanda fulltrúans. Sá sem hefur samband verður að vera sannvottaður með OAuth2. Þegar framlenging á umsjón með VSK-hópi hefur verið sett upp eru meðlimir beðnir um að staðfesta hjá fulltrúa VSK-hópsins en þá myndast aðgangstákn og það er vistað. Aðgangslykillinn er notaður VSK-skýrslum er skilað inn í VSK-hóp fulltrúans.
 
@@ -101,14 +96,14 @@ Meðlimir VSK-hóps tengjast fulltrúanum með því að hafa samband við vefþ
 
    Fylgdu svo skrefunum þar sem annaðhvort [fulltrúi VSK-hópsins notar Business Central Online](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-online) eða hlutann [fulltrúi VSK-hópsins notar Business Central innanhúss](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-on-premises) að neðan.
 
-### <a name="vat-group-representative-uses-business-central-online"></a>Fulltrúi VSK-hóps notar Business Central Online
+### Fulltrúi VSK-hóps notar Business Central Online
 
 1. Sláðu inn notendaskilríkin sem fulltrúi VSK-hópsins framvísar og bættu við áskildum heimildum til að búa til aðgangstáknið.
 2. Veldu stillingar fyrir VSK-skýrslu sem þú notar til að senda inn VSK-framtöl til skattyfirvalda í Bretlandi. 
 
 Eftir að uppsetningu er lokið býr [!INCLUDE[prod_short](includes/prod_short.md)] til nýja stillingu sem byggir á þessu vali sem gerir þér kleift að senda VSK-framtöl til fulltrúa VSK-hópsins.
 
-### <a name="vat-group-representative-uses-business-central-on-premises"></a>Fulltrúi VSK-hóps notar Business Central innanhúss
+### Fulltrúi VSK-hóps notar Business Central innanhúss
 
 1. Sláðu inn notendaskilríkin sem fulltrúi VSK-hópsins lét í té og veldu **Áfram**.
 2. Í reitnum **Biðlarakenni** skal tilgreina biðlarakenni frá skráningu forritsins í [Azure Active Directory](#azure-active-directory-setup-for-group-members).
@@ -119,7 +114,7 @@ Eftir að uppsetningu er lokið býr [!INCLUDE[prod_short](includes/prod_short.m
 7. Þegar þú hefur tilgreint hina ýmsu reiti velur þú **Áfram** og staðfestir síðan tengingu sannvottunar til að búa til aðgangsmerkið.
 8. Veldu stillingar fyrir VSK-skýrslu sem þú notar til að senda inn VSK-framtöl til skattyfirvalda í Bretlandi.
 
-## <a name="set-up-the-vat-group-representative"></a>Setja upp fulltrúa VSK-hópsins
+## Setja upp fulltrúa VSK-hópsins
 
 > [!NOTE]
 > Notkun innanhúss [!INCLUDE[prod_short](includes/prod_short.md)] styður aðeins eitt tilvik leigjanda fyrir fulltrúa hópsins.
@@ -130,8 +125,8 @@ Eftir að uppsetningu er lokið býr [!INCLUDE[prod_short](includes/prod_short.m
 1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Uppsetning með hjálp**.
 2. Veldu aðgerðir til að **Setja upp umsjón VSK-hópa**.
 3. Í reitnum **Hlutverk VSK-hópsins** velur þú **Fulltrúa** til að starfa sem fulltrúi VSK-hópsins og velur síðan **Áfram**.
-4. Í reitnum **Reikningur fyrir hópuppgjör** skal tilgreina þann uppgjörsreikning sem notaður er fyrir VSK-fjárhæðir hópmeðlima.
-5. Í reitnum **VSK-uppgjörsreikningur** skaltu tilgreina reikninginn sem þú notar fyrir VSK-uppgjör.
+4. Í reitnum **Reikningur fyrir hópuppgjör** skal tilgreina þann uppgjörsreikning sem notaður er fyrir VSK-fjárhæðir hópmeðlima. Þessi lykill ætti að hafa  **eignir**  sem  **lykiltegund**.
+5. Í reitnum **VSK-uppgjörsreikningur** skaltu tilgreina reikninginn sem þú notar fyrir VSK-uppgjör. Þessi lykill ætti að hafa  **skuldunauta**  sem  **lykiltegundina**.
 6. Í **Reitarnúmer VSK til greiðslu.** reitinn, tilgreindu reitinn sem táknar samtölu VSK-upphæðar til greiðslu vegna innsendingar VSK-hóps.
 7. Í reitnum **Sniðmát færslubókar hópuppgjörs** skaltu tilgreina sniðmátið fyrir almenna færslubók sem er notað til að búa til skjalið sem fulltrúi hópsins birtir VSK af á jöfnunarreikninginn.
 8. Í reitnum **Samþykktir meðlimir** kemur fram fjöldi hópmeðlima sem stofnaðir eru til að skila VSK-framtölum til fulltrúa hópsins. Til að bæta við nýjum meðlimum velur þú númerið til að opna síðuna **Samþykktir meðlimir VSK-hóps** og bætir við eftirfarandi upplýsingum:
@@ -140,7 +135,7 @@ Eftir að uppsetningu er lokið býr [!INCLUDE[prod_short](includes/prod_short.m
     3. Í reitnum **Fyrirtæki** skal tilgreina fyrirtækið sem hópmeðlimurinn sendir VSK-framtöl frá [!INCLUDE[prod_short](includes/prod_short.md)], svo sem **CRONUS UK Ltd**.
     4. Tilgreina frekari upplýsingar fyrir fyrirtækið.
 
-## <a name="use-the-vat-group-management-features"></a>Að nota stjórnunareiginleika VSK-hóps
+## Að nota stjórnunareiginleika VSK-hóps
 
 Meðlimir VSK-hóps nota hefðbundin ferli til að ganga frá VSK-skýrslum. Eini munurinn liggur í að velja skýrsluútgáfuna **VATGROUP** á síðunni **VSK-skil**, sem sendir VSK-skýrsluna til fulltrúa VSK-hópsins frekar en yfirvalda. Frekari upplýsingar er að finna í [Um skýrsluna um VSK skil](finance-how-report-vat.md#vatreturn).
 
@@ -149,14 +144,14 @@ Meðlimir VSK-hóps nota hefðbundin ferli til að ganga frá VSK-skýrslum. Ein
 
 Í eftirfarandi hlutum er lýst verkunum sem fulltrúar VSK-hóps verða að gera til að standa skil á VSK hópsins.
 
-### <a name="review-vat-member-submissions"></a>Skoða innsendar VSK-umsóknir meðlima
+### Skoða innsendar VSK-umsóknir meðlima
 
 Síðan **Innsendingar VSK-hóps** birtir VSK-skýrslurnar sem meðlimir hafa sent inn. Síðan virkar sem staðsetning þar sem drög að innsendingum þar til fulltrúi VSK-hópsins tekur þær með í VSK-skýrslu fyrir hópinn. Fulltrúinn getur opnað innsendingarnar til að fara yfir hvern reit sem inniheldur upphæðina sem hver meðlimur VSK-hópsins tilkynnir um.
 
 > [!TIP]
 > Á síðunni **VSK-tímabil** sýnir reiturinn fyrir **Innsendingar hópmeðlima** hve margir meðlimir hafa skilað inn skilagreinum. Veldu aðgerðina **Sækja VSK-framtöl** til að tryggja að þetta númer sé uppfært.
 
-### <a name="create-a-group-vat-return"></a>Stofna VSK-skil fyrir hóp
+### Stofna VSK-skil fyrir hóp
 
 Til að telja fram VSK fyrir hópsins skal á síðunni **VSK-framtöl** stofna VSK-framtal fyrir eingöngu þitt fyrirtæki. Eftir á skal bæta við nýjustu innsendingum á VSK frá meðlimum VSK-hópsins með því að velja aðgerðina **Hafa með VSK-hóp**.  
 
@@ -165,7 +160,7 @@ Til að telja fram VSK fyrir hópsins skal á síðunni **VSK-framtöl** stofna 
 > [!IMPORTANT]
 > VSK-flokksvirkni er aðeins studd á þeim mörkuðum þar sem [!INCLUDE[prod_short](includes/prod_short.md)] notar VSK-rammi sem inniheldur VSK-skil og VSK-skilatímabil. Ekki er hægt að nota VSK-hópa á öðrum mörkuðum sem eru með aðrar útfærslur af staðbundnum VSK-skýrslum, t.d. Austurríki, Þýskaland, Ítalía, Spánn og Sviss.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Staðbundin virkni Bretlands í breskri útgáfu](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
 [Stafrænir skattar í Bretlandi](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  

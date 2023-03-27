@@ -106,6 +106,13 @@
 ### [Úrræðaleita innskráningu í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)
 ### [Framlenging á prufuútgáfu](admin-extend-trial.md)
 ### [Segja upp áskrift að eða fjarlægja Business Central](admin-cancel.md)
+### Markaðstexti gervigreindar með Copilot
+#### [Yfirlit](ai-overview.md)
+#### [Fá forútgáfu - Copilot útgáfa](ai-preview-getstarted.md)
+#### [Grunnstilla hluta markaðstexta með gervigreind](enable-ai.md)
+#### [Búa til hluta markaðstexta með gervigreind](item-marketing-text.md)
+#### [ALGENGAR SPURNINGAR](ai-faq.md)
+
 ## Kaupa
 ### [Hafist handa með áskrift](trial-signup.md#get-started-with-a-subscription)
 ### [Undirbúðu þig undir viðskiptin](ui-get-ready-business.md)
@@ -492,6 +499,7 @@
 ### [Stjórna afurðarafbrigðum](inventory-item-variants.md)  
 ### [Vinna með vörueigindir](inventory-how-work-item-attributes.md)
 ### [Vinna með vörulista](inventory-how-work-nonstock-items.md)
+### [Bæta við markaðstexta fyrir atriði](item-marketing-text.md)
 ### [Telja og leiðrétta birgðir með skjölum](inventory-how-count-inventory-with-documents.md)
 ### [Telja, leiðrétta og endurflokka færslubækur birgðanotkunar](inventory-how-count-adjust-reclassify.md)
 ### [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
@@ -1523,6 +1531,7 @@
 #### [Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Flokka vörur](inventory-how-categorize-items.md)
 #### [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)
+#### [Grunnstilla hluta markaðstexta gervigreindar með Copilot](enable-ai.md)
 ### Setja upp verkefnastjórnun
 #### [Setja upp verk](projects-setup-projects.md)
 #### [Setja upp forða](projects-how-setup-resources.md)
@@ -1594,6 +1603,7 @@
 ##### [Sækja innbót Business Central fyrir Outlook](admin-outlook.md)
 ##### [Nota Business Central sem fyrirtækjainnhólf í Outlook](work-outlook-addin.md)
 ##### [Samstilla við tengiliði í Outlook](admin-synchronize-outlook-contacts.md)
+###### [Setja upp stillingu tengiliða innanhúss](admin-contact-sync-setup-onprem.md)
 ##### [Fínstilla Outlook](admin-outlook-optimize.md)
 ##### [Nota Business Central án Outlook](admin-no-outlook.md)
 ##### [ALGENGAR SPURNINGAR](ui-outlook-addin-faq.yml)
@@ -1615,6 +1625,7 @@
 #### Nota Business Central sem fyrirtækjainnhólf í Outlook 
 ##### [Yfirlit](admin-outlook.md)
 ##### [Samstilla við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Setja upp stillingu tengiliða innanhúss](admin-contact-sync-setup-onprem.md)
 ##### [Nota Business Central án Outlook](admin-no-outlook.md)
 #### Nota Microsoft Teams með Business Central
 ##### [Yfirlit](across-teams-overview.md)
@@ -1825,7 +1836,7 @@
 ### [Skoða síður](across-inspect-page.md)
 ### [Skoða gagnagrunnslása](admin-view-database-locks.md)
 ### [Skoða töfluupplýsingar](admin-view-table-information.md)
-### [Virkja væntanlegra eiginleika fyrir tíma](admin-feature-management.md).
+### [Virkja væntanlegra eiginleika fyrir tíma](admin-feature-management.md)
 ### [Innleiða notendur með gátlistum](admin-checklist.md)
 ### [Sandkassaumhverfi](admin-sandbox-environments.md)
 ## Sérstilla Business Central

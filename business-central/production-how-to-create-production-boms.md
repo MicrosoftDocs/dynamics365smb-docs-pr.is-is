@@ -1,20 +1,14 @@
 ---
 title: Búa til framleiðsluuppskriftir
-description: Kynntu þér hvernig þú býrð til framleiðsluuppskriftir, nýjar útgáfur af framleiðsluuppskrift og hvernig á að nota formúlu fyrir útreikning á magni.
+description: 'Kynntu þér hvernig þú býrð til framleiðsluuppskriftir, nýjar útgáfur af framleiðsluuppskrift og hvernig á að nota formúlu fyrir útreikning á magni.'
 author: brentholtorf
 ms.topic: conceptual
-ms.search.keywords: production bom, bills of material,
-ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
+ms.search.keywords: 'production bom, bills of material,'
+ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818'
 ms.date: 06/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: 06d1b507e4414b3d77bbeb6a500342e5269438e3
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728546"
 ---
-# <a name="create-production-boms"></a>Búa til framleiðsluuppskriftir
+# Búa til framleiðsluuppskriftir
 
 Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem notuð er í framleiðslu yfirvörunnar. Þegar framleiðslupöntun er búin til fyrir yfirvörunni stjórnar framleiðsluuppskriftin útreikningum á efniþörf, eins og sýnt er á síðunni **Íhlutir framl.pöntunar**.
 
@@ -28,7 +22,7 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
 - Birgðaspjöld er búin til fyrir yfirvörur sem taka þátt í framleiðslu. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 - Framleiðsluforði eru uppsettur. Frekari upplýsingar eru í [Setja upp vinnustöðvar og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-production-bom"></a>Búa til framleiðsluuppskrift
+## Búa til framleiðsluuppskrift
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Framleiðsluuppskriftir**, velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -52,7 +46,7 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Til að endurreikna staðlað kostnaðarverð vörunnar úr birgðaspjaldinu skal velja **Framleiðsla** og síðan smellt á **Reikna staðlað kostn.verð** aðgerðina.  
 
-## <a name="to-create-a-new-version-of-a-production-bom"></a>Gerð nýrra útgáfa af framleiðsluuppskriftum
+## Gerð nýrra útgáfa af framleiðsluuppskriftum
 
 Nýjar útgáfur af framl.uppskriftum eru t.d. notaðar þegar vöru er skipt út með annarri vöru, eða þegar viðskiptamaður krefst sérstakrar útgáfu af vörunni. Útgáfureglan gerir kleift að stjórna ólíkum útgáfum af framleiðsluuppskrift. Uppbygging framleiðsluuppskriftarútgáfunnar samsvarar uppbyggingu framleiðsluuppskriftanna. Grundvallarmunurinn er gildistími á útgáfunum. Gildistíminn er skilgreindur af upphafsdagsetningu.  
 
@@ -76,7 +70,7 @@ Gildistími útgáfunnar er tilgreindur í reitnum **Upphafsdagsetning**.
 >
 > Skuggauppskriftir eru notaðar til að skipuleggja vörur./ Þessi fram.uppskriftartegund leiðir aldrei af sér fullunna vöru, en er notuð sérstaklega til að ákvarða háða eftirspurn. Skuggauppskriftir hafa ekki eigin aðalgögn.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Magnreikniformúla á framleiðsluuppskriftir
+## Magnreikniformúla á framleiðsluuppskriftir
 
 Magnið er reiknað samkvæmt mismunandi víddum sem einnig eru færðar í framleiðsluuppskriftarlínurnar línurnar. Víddirnar vísa til pöntunareiningar á viðkomandi vöru. Hægt er að færa inn lengd, breidd, dýpt og þyngd sem víddir.  
 
@@ -94,11 +88,11 @@ Tengsl ólíkra íhluta eru skilgreind af reiknireglunni. Hægt er að nota efti
 > [!NOTE]
 > Reikniformúlan **Fast magn** tryggir að notkun íhluts sé sú sama óháð því hvert magn rýrnunar eða úttaks er. Fyrir íhluti framleiðslupöntunar, þegar reiturinn **Reikniformúla** er stilltur á **Fast magn**, er gildið í reitnum **Væntanlegt magn** alltaf jafnt og magnið í reitnum **Magn á**. Rýrnunarprósentan sem er skilgreind í sömu línunni er hunsuð. Fast magn er virt af skýrslunni **Framboð eftir uppskrift**. Skýrslan sýnir vöruna sem flöskuháls ef tiltækt magn er minna en magnið í reitnum **Magn á yfireiningu**. Reitirnir **Get gert yfireiningu** og **Get gert aðalvöru** eru alltaf auðir óháð því hvert tiltækt magn er. Fast magn er einnig innifalið í útreikningum fyrir staðalkostnað. Lotustærðin fyrir framleidda vöru hefur áhrif á kostnaðinn sem eru úthlutað fyrir eina vöru.
 
-### <a name="example"></a>Dæmi
+### Dæmi
 
 Framleiðsluuppskrift þarf 70 málmhluta með lengd = 0,20 m og breidd = 0,15 m. Gildin eru færð inn á eftirfarandi hátt: Reikniregla = Lengd x Breidd, Lengd = 20, Breidd = 15, Magn á = 70. Magnið fæst með Magn á x Lengd * Breidd, þ.e., Magn = 70 x 0.20 m x 0.15 m = 2.1 m2.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stofna leiðir](production-how-to-create-routings.md)  
 [Stjórna afurðarafbrigðum](inventory-item-variants.md)  

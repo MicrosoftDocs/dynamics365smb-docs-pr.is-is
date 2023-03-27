@@ -4,25 +4,19 @@ description: Finnið út hvaða skýrslur og greiningar eru í boði í staðla�
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 347, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329
+ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329'
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: bf6783d39fd161c2f3ec104515cc10197c6150cb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515434"
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Skýrslur og greiningar viðskiptaskulda í Business Central
+# Skýrslur og greiningar viðskiptaskulda í Business Central
 
 Til að hjálpa þér að hafa umsjón með viðskiptaskuldum í [!INCLUDE [prod_short](includes/prod_short.md)] eru staðlaðar skýrslur og greiningar innbyggðar. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
 [Vinna með víddir](finance-dimensions.md)  

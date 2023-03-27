@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516448"
 ---
-# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams
+
+# Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -25,7 +20,7 @@ ms.locfileid: "8516448"
 > [!NOTE]
 > Kerfisstjórinn gæti hafa sett hlutina upp þannig að forritið sé sjálfkrafa sett upp fyrir þig. Til að athuga hvort forritið sé uppsett skaltu opna Teams og velja svo **Forrit**. Leitaðu að **Business Central** og veldu það svo þegar þú finnur það. Ef þú sérð **Opna** á síðu **Business Central** er forritið þegar uppsett.  
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-notandareikningur á netinu er nauðsynlegur fyrir [!INCLUDE [prod_short](includes/prod_short.md)]-forrit fyrir Teams.
 
@@ -35,7 +30,7 @@ ms.locfileid: "8516448"
 
 - Reglur fyrirtækisins leyfa þér að setja upp forrit í Microsoft Teams.
 
-## <a name="add-the-business-central-app-to-teams"></a>Bæta Business Central við Teams
+## Bæta Business Central við Teams
 
 Hægt er að setja upp Business Central á þrjá vegu:
 
@@ -72,11 +67,11 @@ Hægt er að setja upp Business Central á þrjá vegu:
 > [!NOTE]
 > Sama hvor valkosturinn er valinn kann notandinn að vera beðinn um að skrá sig inn í [!INCLUDE [prod_short](includes/prod_short.md)]. Veljið **innskráningartengil** og fylgið leiðbeiningunum til að færa inn innskráningarnafn og aðgangsorð fyrir [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="next-step"></a>Næsta skref
+## Næsta skref
 
 Nú er allt til reiðu til að nota forritið í Teams til að leita að tengiliðum eða deila færslum úr Business Central. Frekari upplýsingar eru í [Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams](across-search-contacts-teams.md) eða [Deila færslum í Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Teams - Algengar spurningar](teams-faq.md)  

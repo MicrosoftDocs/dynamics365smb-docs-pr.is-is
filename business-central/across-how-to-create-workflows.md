@@ -109,7 +109,7 @@ Fyrir bæði atburði og viðbrögð eru kostirnir kerfisvarinn. Nýjar þær þ
 > Ekki gera verkflæði virkt fyrr en þú ert viss um að verkflæðið sé fullklárað og að þátt verkflæðisskrefa geti hafist.  
 
 > [!TIP]  
-> Til að sjá vensl milli taflna sem notaðar eru í verkflæði skal velja þá  ![ljósaperu sem opnar aðgerðina segja.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa síðan inn  **verkflæði – töfluvensl**.  
+> Til að sjá vensl milli taflna sem notaðar eru í verkflæði skal velja þá  ![ljósaperu sem opnar aðgerðina segja](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Táknið, færa síðan inn  **verkflæði – töfluvensl**.  
 
 ## Dæmi um hvernig nýtt verkflæði er búið til með því að nota fyrirliggjandi tilvik
 

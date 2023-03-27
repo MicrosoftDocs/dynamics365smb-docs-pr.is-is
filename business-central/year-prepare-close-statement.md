@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d10ae12501feba348794c3deaa3ca66e221553b9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521417"
 ---
-# <a name="preparing-closing-statements"></a>Undirbúningur lokunaryfirlits
+# Undirbúningur lokunaryfirlits
 Til eru margar staðlaðar skýrslur sem má nota til að safna saman upplýsingum sem eru nauðsynlegar til að búa til lokayfirlit fyrirtækisins.
 
 Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þessu ferli.  
@@ -33,7 +27,7 @@ Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þes
 
 Til að sjá skýrslu skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heitið eins og það birtist í töflunni og velja svo viðkomandi tengil.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Viðskiptaupplýsingar](bi.md)

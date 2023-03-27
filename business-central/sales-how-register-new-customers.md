@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client, customer, credit
-ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
+ms.search.keywords: 'client, customer, credit'
+ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
 ms.date: 09/01/2022
 ms.author: edupont
-ms.openlocfilehash: 22fed660ba176bbce8375d03a7c6a5bf9e20b01b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533800"
 ---
-# <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
+# Skrá nýja viðskiptamenn
 
 Viðskiptamenn eru tekjuleiðin þín. Þú verður að skrá þig hver viðskiptavinur sem þú selur sem viðskiptavinakort. Viðskiptamannaspjöld innihalda upplýsingarnar sem þarf til að selja viðskiptamanninum vörur. Frekari upplýsingar er að finna í [Reikningsfæra sölur](sales-how-invoice-sales.md) og [Skrá nýjar vörur](inventory-how-register-new-items.md).  
 
@@ -26,7 +20,7 @@ Viðskiptamenn eru tekjuleiðin þín. Þú verður að skrá þig hver viðskip
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## <a name="adding-new-customers"></a>Bæta við nýjum viðskiptavinum
+## Bæta við nýjum viðskiptavinum
 
 Hægt er að bæta við nýjum viðskiptamanni handvirkt með því að fylla út síðuna **Viðskiptamannaspjald** eða hægt er að nota sniðmát sem innihalda fyrirframskilgreindar upplýsingar. Til dæmis er hægt að búa til sniðmát fyrir mismunandi forstillingargerðir viðskiptamanna. Með því að nota sniðmát sparast tími þegar nýjum viðskiptamönnum er bætt við og það hjálpar til við að tryggja að upplýsingarnar séu réttar hverju sinni. 
 
@@ -41,7 +35,7 @@ Ef þú býrð til:
 
 Þú getur einnig stofnað viðskiptamann út frá tengilið. Frekari upplýsingar eru í hlutanum [Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-### <a name="to-create-a-new-customer-card"></a>Að stofna nýtt viðskiptamannaspjald
+### Að stofna nýtt viðskiptamannaspjald
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -49,7 +43,7 @@ Með aðgerðinni **Verð og afsláttur** er hægt að hafa umsjón með sérver
 
 Viðskiptamaðurinn hefur nú verið skráður og viðskiptamannaspjaldið má nú nota í söluskjölum.  
 
-### <a name="to-save-the-customer-card-as-a-template"></a>Til að vista viðskiptamannaspjaldið sem sniðmát
+### Til að vista viðskiptamannaspjaldið sem sniðmát
 
 Þú getur notað viðskiptamannaspjald sem sniðmát þegar ný viðskiptamannaspjöld eru búin til.
 
@@ -61,11 +55,11 @@ Viðskiptamaðurinn hefur nú verið skráður og viðskiptamannaspjaldið má n
 
 Viðskiptamannasniðmátinu verður bætt við lista viðskiptamannasniðmáta og hægt er að nota það til að búa til ný viðskiptamannaspjöld.
 
-## <a name="deleting-customer-cards"></a>Eyðir viðskiptavinaspjöldum
+## Eyðir viðskiptavinaspjöldum
 
 Ef þú hefur bókað færslu fyrir viðskiptamann er ekki hægt að eyða viðskiptamannaspjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar í endurskoðun. Til að eyða viðskiptamannaspjöldum með fjárhagsfærslum skal hafa samband við samstarfsaðila Microsoft til að gera það með kóða.  
 
-## <a name="managing-credit-limits"></a>Stjórna lánamörkum
+## Stjórna lánamörkum
 
 Lánamörk, stöður og greiðsluskilmálar gera [!INCLUDE [prod_short](includes/prod_short.md)] kleift að gefa út viðvörun um lánamark og gjaldfallna stöðu þegar sölupöntun er slegin inn. Ennfremur gera einingar innheimtuskilmála og vaxtaskilmála þér kleift að reikningsfæra vexti og/eða aukagjöld.  
 
@@ -75,7 +69,7 @@ Hægt er að bóka þótt farið hafi verið yfir lánamarkið. Ef reiturinn er 
 
 Hægt er að velja að fá ekki viðvaranir sem segja að farið hafi verið yfir lánamark viðskiptamanns og hægt er að tilgreina hvers konar viðvaranir þú vilt sjá.
 
-### <a name="to-specify-credit-limit-warnings"></a>Viðvaranir lánamarks tilgreindar
+### Viðvaranir lánamarks tilgreindar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi**, velja svo viðeigandi tengil.
 
@@ -88,9 +82,9 @@ Hægt er að velja að fá ekki viðvaranir sem segja að farið hafi verið yfi
     |**Upphæð vanskila**|Svæðið **Gjaldfallin staða** í spjaldi viðskiptamanns er athugað og viðvörun birtist ef staða viðskiptamanns er gjaldfallin.|
     |**Engin aðvörun**|Engar lánaviðvaranir eru sýndar varðandi stöðu viðskiptamanns.|
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/).
+## Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skilgreina Greiðsluhætti](finance-payment-methods.md)  
 [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)  

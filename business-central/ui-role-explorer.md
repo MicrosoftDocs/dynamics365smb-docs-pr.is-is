@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: role explorer, find features, navigate
-ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
+ms.search.keywords: 'role explorer, find features, navigate'
+ms.search.form: 'RoleExplorer, 9020, 9022, 9027, 9024'
 ms.date: 08/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7181579da0f84d0ebdea8c546c7815004a18a40d
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655806"
 ---
-# <a name="finding-pages-with-the-role-explorer"></a>Að finna síður með hlutverkaleit
+
+# Að finna síður með hlutverkaleit
 
 Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir þitt hlutverk, og fyrir önnur hlutverk ef farið er skrefi lengra. Í eftirfarandi fylgigögnum er þetta yfirlit yfir eiginleika kallað *Hlutverkaleit*.
 
@@ -25,16 +20,16 @@ Hver eining á hlutverkaleit er aðgerð sem opnar síðu. Í samræmi við þa�
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer"></a>Opnið hlutverkaleitina
+## Opnið hlutverkaleitina
 
 Hægt er að opna hlutverkaleit úr Mitt hlutverk og öllum listasíðum og úr **Viðmótsleit** .
 
-- Í Mitt hlutverk eða einhverri listasíðu skal velja ![Valmyndarhnappinn.](media/ui_menu_button.png "Valmyndarhnappur") hægra megin á yfirlitsstikunni eða ýta á Shift+F12.
+- Í Mitt hlutverk eða einhverri listasíðu skal velja ![Valmyndarhnappinn.](media/ui_menu_button.png "Valmyndarhnappur") Hnappinn hægra megin við yfirlitsreinina eða velja  <kbd>Shift</kbd>+<kbd>F12</kbd>.
 - Í glugganum **Viðmótsleit** skaltu velja aðgerðina **skoða** neðst.
 
 Þegar hlutverkamiðstöðin er opnuð í fyrsta sinn sýnir hún tengla á flesta eiginleika sem eru í boði fyrir hlutverkið þitt.
 
-## <a name="navigate-features"></a>Flettieiginleikar
+## Flettieiginleikar
 
 Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eiginleikum eða kerfishlutum. Hægt er að draga saman eða víkka út hvern hnút fyrir sig og alla í einu.
 
@@ -42,11 +37,11 @@ Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eig
 - Til að stækka/minnka alla hnúta á efsta stigi á síðunni, en skilja undirhnútana eftir eins og þeir eru, skal velja **...** efst uppi, síðan velja **Stækka** eða **Minnka**.
 - Til að stækka/minnka alla hnúta á efsta stigi og alla undirhnúta undir þeim skal velja **...** efst uppi, síðan velja aðgerðina **Stækka allt** eða **Minnka allt**.
 
-## <a name="search-for-features"></a>Leita að eiginleikum
+## Leita að eiginleikum
 
 Til að finna eiginleika á fljótlegan hátt skal velja **Leita**, síðan slá inn orð eða setningu fyrir eiginleikann sem leitað er að. Hlutverkamiðstöðin mun auðkenna alla samsvörun í texta. Ef eiginleiki er falinn í samandregnum hnút er samandreginn hnútur merktur sem punktur. 
 
-## <a name="explore-other-roles"></a>Kanna önnur hlutverk
+## Kanna önnur hlutverk
 
 Til að skoða önnur hlutverk en þitt eigið skaltu velja **Kanna fleiri hlutverk**. Hlutverkamiðstöðin sýnir hvert hlutverk fyrir sig undir eigin fyrirsögn með tenglum á eiginleika þeirra. Síðan er hægt að fletta og finna eiginleika rétt eins og gert er þegar hlutverk eru könnuð.
 
@@ -85,17 +80,17 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Stækka og minnka hnúta í hlutverkaleitinni
+## Stækka og minnka hnúta í hlutverkaleitinni
 
 Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eiginleikum eða kerfishlutum. Hægt er að draga saman eða víkka út hvern hnút fyrir sig og alla í einu.
 
 - Til að víkka út/draga saman hnút skal velja hnútinn. Þetta á við um hnúta á efsta stigi og undirhnúta.
 - Til að víkka/draga saman alla helstu hnúta á síðunni skaltu velja **Víkka** eða **Draga saman** aðgerðina efst í hægra horninu.
 - Til að víkka/draga saman allan efsta hnút og alla undirhnúta undir honum skal gera eitt af eftirfarandi:
-  - Ýtið á Ctrl+Shift lyklana á meðan aðgerðin **Víkka út** eða **Draga saman** er valin efst í hægra horninu.
+  -  <kbd>Veljið CTRL</kbd>+<kbd>Shift</kbd>  lyklana á meðan þú velur  **aðgerðina víkka**  eða  **fella**  inn efst í hægra horninu.
   - Veldu **...** efst í hægra horninu, Veldu svo aðgerðina **Útvíkka allt** eða **Fella allt saman**.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

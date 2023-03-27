@@ -61,7 +61,7 @@ Hægt er að setja upp sjálfgefna vídd fyrir tiltekinn stakan reikning. Víddi
 > [!NOTE]
 > Sjálfgefin víddarforgangur opnar fyrir atburðarás í sölu og innkaupum sem þú vilt hugsanlega að greiða sérstaka athygli fyrir. Þegar sjálfgefin víddarforgangur er notaður í sölu-og innkaupaskjölum  [!INCLUDE [prod_short](includes/prod_short.md)]  telur alltaf víddin í hausnum sem kemur frá viðskiptavini eða lánardrottni. Þetta gildir um víddir sem eru stilltar handvirkt eða sjálfgefið og á það sérstaklega við þegar sjálfgefnar víddir eru notaðar á birgðageymslum og í vörum en ekki á viðskiptavini eða lánardrottna.
 >
-> **T.d.**
+> **T.d**.
 >
 > Þú hefur atburðarás með eftirfarandi víddarstillingum:
 >

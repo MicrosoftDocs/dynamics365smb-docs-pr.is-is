@@ -29,9 +29,9 @@ Hægt er að nota reitinn **Úthlutað notandakenni** á hausnum til að merkja 
 
 [Yfirlit](design-details-warehouse-management.md)
 [vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
-[Uppsetning samsetningarstjórnunarvinnu](warehouse-setup-warehouse.md) 
-[fyrir vöruhúsastjórnun](assembly-assemble-items.md)
-[með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
+[Uppsetning samsetningarstjórnunarvinnu fyrir vöruhúsastjórnun](warehouse-setup-warehouse.md)[
+ með](assembly-assemble-items.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

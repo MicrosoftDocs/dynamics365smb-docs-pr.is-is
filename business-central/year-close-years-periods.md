@@ -1,23 +1,17 @@
 ---
 title: Loka fjárhagsárum og fjárhagstímabilum
-description: Útskýrir verkin til að loka fjárhagsári og fjárhagstímabili, til dæmis að ganga úr skugga um að skjöl og færslubækur séu bókuð og staðfesta bankareikningsstöður.
+description: 'Útskýrir verkin til að loka fjárhagsári og fjárhagstímabili, til dæmis að ganga úr skugga um að skjöl og færslubækur séu bókuð og staðfesta bankareikningsstöður.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
-ms.openlocfilehash: a6b21fd03cbfebdefb102074e97121bf2187bf49
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605928"
 ---
-# <a name="closing-years-and-periods"></a>Loka árum og tímabilum
+# Loka árum og tímabilum
 
 Í lok fjárhagsárs verður að inna af hendi tiltekin stjórnunarverk, eins og að ganga úr skugga um að skjöl og færslubækur séu bókaðar, ganga úr skugga um að gjaldmiðilsgögn séu uppfærð, loka bókhaldi og fleira. Raunverulegt verk fara eftir fyrirtækinu.
 
@@ -35,9 +29,9 @@ Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir 
 | Loka fjárhagstímabili og reikningsári, færa jöfnuð rekstrareiknings í efnahagsreikning og bóka lokunarfærslu ársloka. |[Bókum lokað](year-close-books.md) |
 | Prenta út skýrslur sem eru gagnlegar við gerð fjárhagsskýrslna. |[Undirbúningur lokunaryfirlits](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## Sjá tengda [Microsoft þjálfun](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

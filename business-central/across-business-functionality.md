@@ -1,23 +1,17 @@
 ---
 title: Fyrirtækjavirkni studd af Business Central
-description: Býður upp á eiginleikayfirlit yfir allar viðskiptaaðgerðir og deildir sem kerfishlutar styðja, t.d. fjármál, birgðir og verkefnastjórnun.
+description: 'Býður upp á eiginleikayfirlit yfir allar viðskiptaaðgerðir og deildir sem kerfishlutar styðja, t.d. fjármál, birgðir og verkefnastjórnun.'
 author: SorenGP
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606803"
 ---
-# <a name="business-functionality"></a>Viðskiptavirkni
+# Viðskiptavirkni
 
 [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á aðgerðir fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega í heildsölu- og fagþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd. [Sjáðu hvernig þú færð ókeypis prufutíma hér](trial-signup.md).  
 
@@ -39,13 +33,13 @@ ms.locfileid: "9606803"
 |Skipuleggja framleiðsluaðgerðir sem eru nauðsynlegar til að breyta inntaki í fullgerðar vörur.|[Áætlun](production-planning.md)|
 |Setja seljanlegar vörur saman í einföldum skrefum til að búa til vöru, svo sem sett.|[Samsetningardeild](assembly-assemble-items.md)|
 |Skilgreina forða í vinnusal og getu hans, tímasetja nákvæmlega aðgerðir, finna til framleiðsluíhluti og framkvæma framleiðsluaðgerðir.|[Framleiðsla](production-manage-manufacturing.md)|
-|Tryggðu skilvirkt flæði af mótteknum og sendum vörum.|[Vöruhúsastjórnun](warehouse-manage-warehouse.md)|
+|Tryggðu skilvirkt flæði af mótteknum og sendum vörum.|[Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)|
 |Tímasetja þjónustusímtöl, setja upp þjónustupantanir og rekja viðgerðarhluti- og birgðir.|[Þjónustukerfi](service-service.md)|
 |Setja upp og nota verkflæði sem tengja verk frá mismunandi notendum eða af kerfinu, t.d. sjálfvirk bókun. Að óska eftir samþykki eða samþykkja að stofna eða bóka skjöl eru dæmigerð skref í verkflæði.|[Verkflæði](across-workflow.md)|
 |Gera notendum kleift að skiptast á gögnum með ytri gagnagjöfum í daglegum verkum, s.s. senda/móttaka rafræn skjöl, flytja inn/flytja út bankaskrár og uppfæra gengi gjaldmiðils.|[Rafræn gagnaskipti](across-data-exchange.md)|
 |Taktu utanaðkomandi skjöl í [!INCLUDE[prod_short](includes/prod_short.md)], þ.mt skrá viðhengi þeirra, og búðu til handvirkt tengdar skjöl eða búðu til þau sjálfkrafa í rafræn skjöl.|[Skjöl á innleið](across-income-documents.md)|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórnun](admin-setup-and-administration.md)    
 [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/)  

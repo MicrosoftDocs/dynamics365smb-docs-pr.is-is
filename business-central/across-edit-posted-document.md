@@ -7,18 +7,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
-ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
+ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
+ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 3c8e4dde3ddf684f9402b98634cbc74c34058933
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519945"
 ---
-# <a name="edit-posted-documents"></a>Breyta bókuðum fylgiskjölum
+# Breyta bókuðum fylgiskjölum
 
 Stundum þarf að uppfæra bókað skjal vegna þess að upplýsingar sem skipta máli fyrir skjalið hafa breyst. Á bókuðu söluskjali getur þetta til dæmis verið rakningarnúmer pakka frá flutningsaðilanum. Á bókuðu innkaupaskjali getur þetta verið texti greiðslutilvísunar.
 
@@ -38,7 +32,7 @@ Eftirfarandi viðbótarskjölum er hægt að breyta í tilteknum löndum eða sv
 - RU: Bókaður sölukreditreikningur
 - IT: Bókuð millifærsluafhending, bókuð þjónustuafhending
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Breyta bókaðri söluafhendingu
+## Breyta bókaðri söluafhendingu
 
 Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin eru svipuð í hinum studdu skjölunum.
 
@@ -49,12 +43,12 @@ Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin
 
 Bókuð söluafhending er uppfærð.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
-[Almenn viðskiptavirkni](ui-across-business-areas.md)  
+[Bókun skjala og færslubóka](ui-post-documents-journals.md)  
+[Finna tengdar færslur fyrir skjöl](ui-find-entries.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Að bóka skjöl og færslubækur](ui-post-documents-journals.md)  
+[Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: cb54a1baee3a6b7fc63a1f9db15bb79cddb0c108
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516537"
 ---
-# <a name="setup-best-practices-supply-planning"></a>Uppsetning bestu venjur: Framboðsáætlun
+# Uppsetning bestu venjur: Framboðsáætlun
 Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett upp og notuð rétt hjálpar hún fyrirtæki að forðast útskipun og minnka bæði pöntunar- og birgðakostnað.  
 
  Ekki er hægt að tilgreina eina bestu uppsetningu á alla áætlunarreiti, þar sem þeir eru breytilegir frá fyrirtæki til fyrirtækis vegna viðskiptabreyta, svo sem markaðsstöðu og viðskiptaáætlunar. Hins vegar má styðjast við bestu venjur um val á valkostum birgðaspjalda og altækra uppsetningarreita til að auðvelda uppsetningu skilvirks og hagkvæms birgðaflæðis.  
@@ -29,7 +23,7 @@ Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett up
 |Nánar um bestu venjur til að tilgreina valdar færibreytur undir skilgreinda endurpöntunarstefnu til að áætla og economically fyrir vöru samkvæmt atriðum sem krefjast athygli, svo sem biðtíma, birgðakostnaði og árstíðabreytingum, með skilvirkum og hagkvæmum hætti.|[Uppsetning bestu venjur: Áætla færibreytur](setup-best-practices-planning-parameters.md)|  
 |Nánar um bestu venjur til að nota almenna framboðsáætlun á öll birgðaspjöld, svo sem að taka alltaf við vörum einum degi áður en þeirra er þörf eða dempa viðbrögð kerfisins við litlum sveiflum í eftirspurn.|[Uppsetning bestu venjur: Uppsetning altækra áætlanna](setup-best-practices-global-planning-setup.md)|  
 
-## <a name="see-also"></a>Sjá einnig  
+## Sjá einnig  
  [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
  [Hönnunarupplýsingar: Áætlunarfæribreytur](design-details-planning-parameters.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  

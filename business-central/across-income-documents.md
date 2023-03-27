@@ -1,28 +1,22 @@
 ---
 title: Vinna með skjöl á innleið
-description: Hægt er að stjórna ytri viðskiptaskjölum á innleið, eins og greiðslukvittunum og PDF skrám, stjórna OCR verkum, og umbreyta skrám yfir í rafræn skjöl og færslur.
+description: 'Hægt er að stjórna ytri viðskiptaskjölum á innleið, eins og greiðslukvittunum og PDF skrám, stjórna OCR verkum, og umbreyta skrám yfir í rafræn skjöl og færslur.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
+ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 8b84e6f832ca5ab7908d7ed00ff7976b073df082
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529758"
 ---
-# <a name="incoming-documents"></a>Fylgiskjöl á innleið
+# Fylgiskjöl á innleið
 
 Ytri viðskiptaskjöl geta komið inn í fyrirtækið þitt sem tölvupóstviðhengi eða pappírseintök sem þú skannar á skrá. Þessi sviðsmynd er dæmigerð fyrir innkaup, þar sem slíkar skrár fyrir skjal á innleið standa fyrir greiðslukvittanir eða lítil innkaup.
 
 Á síðunni **Skjöl á innleið** er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur í. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til.
 
-## <a name="usage-scenario"></a>Notkunarsvið
+## Notkunarsvið
 
 Þú getur skráð skrár eða pappírseintök sem þú hefur fengið frá viðskiptafélögum þínum í [!INCLUDE[prod_short](includes/prod_short.md)] og búið til skjalaskrá. Til dæmis innkaupa- eða söluskjal, kreditreikning eða færslubókarlínu.
 
@@ -36,7 +30,7 @@ Hladdu upp mótteknum skrám – eða notaðu myndavél tækisins til að taka m
 > [!TIP]
 > Búðu til færslur fyrir skjal á innleið í [!INCLUDE[prod_short](includes/prod_short.md)] beint úr tölvupóstum sem lánardrottnar senda með Outlook-innbótinni. Nánari upplýsingar, sjá [Nota Business Central sem viðskiptainnboxið þitt í Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a>Eiginleikar skjals á innleið
+## Eiginleikar skjals á innleið
 
 Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 
@@ -63,9 +57,9 @@ Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 | Af síðunum **Bókhaldslyklar** og **Fjárhagsfærslur** er hægt að nota leitaraðgerð til að finna fjárhagsfærslur fyrir bókuð skjöl sem hafa ekki færslur fyrir skjöl á innleið og tengjast miðlægt við fyrirliggjandi færslur eða stofna nýjar með viðhengdum skrám. |[Finna bókuð fylgiskjöl án færslu skjals á innleið](across-how-find-posted-documents-without-income-document-records.md) |
 | Fáðu betri yfirsýn með því að stilla færslur fyrir skjöl á innleið á *Unnið* og fjarlægja þær úr sjálfgefna yfirlitinu. |[Vinna með margar færslur skjala á innleið](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  
 [Breyting á bókuðum skjölum](across-edit-posted-document.md)  

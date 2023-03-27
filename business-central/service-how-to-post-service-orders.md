@@ -94,7 +94,7 @@ Eftirfarandi ferli sýnir hvernig eigi að bóka afhendingu þjónustulínuvara 
 
 Ef birgðageymslan er sett upp þannig að hún krefjist vöruhúsaafgreiðslu virka afhending og færsla þjónustulínuvara á sama hátt og í öðrum upprunaskjölum. Eini munurinn er sá að hægt er að nota þjónustulínuvörurnar við ytri eða innri vinnslu og þær krefjast því tvenns konar mismunandi afhendingarvirkni.  
 
-Nánari upplýsingar um vörur í flutningþjónustulínum í ítarlegri vöruhúsafbrigðum er að fá í tiltektarvörur fyrir Vöruhúsaafhendinguna (warehouse-how-to-pick-items-for-warehouse-shipment.md).  
+Nánari upplýsingar um vörur í flutningþjónustulínum í ítarlegri vöruhúsafbrigðum er að fá í tiltektarvörur fyrir Vöruhúsaafhendinguna](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
 ## Afturkalla bókaða notkun  
 Þú getur hætt við notkun á þjónustupöntununum. Til dæmis vegna þess að hún var bókuð fyrir mistök.  

@@ -1,23 +1,17 @@
 ---
 title: Stofna sölupöntun viðskiptavinar og selja vörur
-description: Lýsir því hvernig skal búa til  sölupöntun, til að skrá samkomulag við viðskiptamann um að selja eða eiga viðskipti með vörur með tilteknum skilmálum.
+description: 'Lýsir því hvernig skal búa til  sölupöntun, til að skrá samkomulag við viðskiptamann um að selja eða eiga viðskipti með vörur með tilteknum skilmálum.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments,
-ms.search.form: 42, 48, 9305
+ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
+ms.search.form: '42, 48, 9305'
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 7d3363557e469344c1648c52b08393efc0f2dc69
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535827"
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Selja vörur með sölupöntun viðskiptavinar
+# Selja vörur með sölupöntun viðskiptavinar
 
 Þessi grein veitir leiðbeiningar um hvenær eigi að nota sölupöntun viðskiptamanns auk reiknings. Ef söluferlið krefst þess að þú sendir aðeins hluta pöntunar, kannski vegna þess að fullt magn er ekki í boði strax, verður þú að vinna úr sölunni með því að ganga frá sölupöntun.
 
@@ -29,7 +23,7 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
 
 Þú getur jafnvel búið til beingreiddar pantanir fyrir óskráða viðskiptavini með því að fyrst setja upp „viðskiptamannaspjald fyrir reiðufé" sem þú bendir á í sölupöntuninni. Frekari upplýsingar má finna í [Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Stofna sölupöntun
+## Stofna sölupöntun
 
 > [!NOTE]  
 > Eftirfarandi aðferð gerir ráð fyrir því að viðskiptavinurinn sé þegar settur upp. Sjá leiðbeiningar um hvernig þetta er gert í [Skrá nýja viðskiptavini](sales-how-register-new-customers.md).
@@ -93,13 +87,13 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
 
 Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og sölupöntunin er frálag sem PDF fylgiskjal. Þegar sölupantanir eru að fullu bókaðar eru þær fjarlægður af lista sölupantana og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölureikninga og lista yfir bókaðar söluafhendingar.  
 
-## <a name="external-document-number"></a>Númer ytra skjals
+## Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/).
+## Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Sölubókun](ui-post-sales.md)  

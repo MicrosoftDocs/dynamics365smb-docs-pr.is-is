@@ -1,22 +1,17 @@
 ---
 title: Leitar að tengiliðum með úr Microsoft Teams
-description: Kynntu þér hvernig á að fletta upp Business Central viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams.
+description: 'Kynntu þér hvernig á að fletta upp Business Central viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5d6da7bb6f515fa7b65597c944694eba8dd7755c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138743"
 ---
-# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams
+
+# Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Kynnt í útgáfutímabili 1 fyrir 2021.
 
@@ -26,7 +21,7 @@ ms.locfileid: "8138743"
 - Deila tengilið sem spjaldi í spjalli á Teams.
 - Skoða tengiliðaupplýsingar nánar, samskiptasögu og annars konar innsýn á borð við útistandandi greiðslur eða opin skjöl.
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
 - Þú hefur aðgang að Microsoft Teams.
 - Þú hefur sett upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið  í Teams. Frekari upplýsingar er að finna í [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)
@@ -35,11 +30,11 @@ ms.locfileid: "8138743"
 > [!NOTE]
 > Hvort sem leitað er í skipanareitnum eða skrifglugganum, gæti verið beðið um innskráningu eða setja upp forritið í fyrsta skiptið. Þetta skref er nauðsynlegt til að leita að tengiliðum í Business Central fyrirtæki. Frekari upplýsingar um uppsetningu forritsins til að velja fyrirtækið er að finna í [Breyta fyrirtæki og öðrum stillingum í Teams](across-teams-settings.md).
 
-## <a name="look-up-contacts-from-the-command-box"></a>Fletta upp tengiliðum úr skipanareitnum
+## Fletta upp tengiliðum úr skipanareitnum
 
 Skipanareiturinn er efst á hverjum skjá í Teams. Hann gerir notendum kleift að leita, nota flýtiaðgerðir eða ræsa forrit eins og [!INCLUDE [prod_short](includes/prod_short.md)] forritið. Að leita úr skipanareitnum er frábær leið til að fletta upp tengiliðum og gögnum tengdum þeim á fljótlegan hátt til eigin nota. Til dæmis ef ætlunin er að fletta upp netfangi lánardrottins til að setja upp fund í dagatali. Eða kannski er ætlunin að fletta upp samskiptasögu á miðjum fundi við viðskiptavin.
 
-1. Í skipanareitnum skal slá inn **@Business Central**, síðan velja Business Central-forritið úr niðurstöðunum.
+1. Í skipakassa, tegund  **@Business  Central**, þá velur viðskiptablaðið Central App úr úrslitunum.
 
     ![Opna Business Central forrit til að leita að tengiliðum úr skipanareit.](media/teams-contacts-command-1.png)
 
@@ -56,7 +51,7 @@ Skipanareiturinn er efst á hverjum skjá í Teams. Hann gerir notendum kleift a
 
 Almennari upplýsingar um skipanareit Teams er að finna í [Teams - Notaðu skipanareitinn](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## <a name="look-up-contacts-from-the-message-compose-box"></a>Fletta upp tengiliðum úr skrifglugga skilaboða
+## Fletta upp tengiliðum úr skrifglugga skilaboða
 
 Kosturinn við að nota skrifglugga skilaboða er sá að hægt er að bæta tengiliðaspjaldi við samtal með beinum hætti þannig að aðrir geti séð það.
 
@@ -78,13 +73,13 @@ Kosturinn við að nota skrifglugga skilaboða er sá að hægt er að bæta ten
     > [!NOTE]
     > Tengiliðaspjaldið er ekki sent strax í spjallið þannig að aðrir geti séð það. Tækifæri gefst til að yfirfara innihald spjaldsins og bæta við texta fyrir eða eftir það að eigin vild. Því næst skal senda skilaboðin á spjallið þegar þau eru tilbúin.
 
-### <a name="heres-another-way"></a>Hér er önnur leið
+### Hér er önnur leið
 
-1. Í stað þess að nota tákn **Business Central** skal slá **@Business Central** beint inn í skrifglugga skilaboða.
+1. Í stað þess að nota  **aðaltáknið**  Business er ritað  **@Business  miðlægt**  beint í reitinn Message tónskáld.
 2. Sláið inn leitarorð í reitinn.
-3. Notaðu upp og niður örvalyklana á lyklaborðinu til að velja tengilið, ýtið því næst á Enter til að velja hann.
+3. Notaðu örvatakkana upp og niður á lyklaborðinu til að velja tengilið og veldu  <kbd>síðan Enter</kbd>  til að velja hana.
 
-## <a name="viewing-contact-card-details"></a>Upplýsingar tengiliðaspjalds skoðaðar
+## Upplýsingar tengiliðaspjalds skoðaðar
 
 Tengiliðaspjaldið í Teams býður upp á flýtiyfirlit yfir viðskiptavin, lánardrottin eða tengilið. Spjaldið er gagnvirkt&mdash;sem þýðir að hægt er að skoða frekari upplýsingar eða jafnvel breyta tengilið með því að nota hnappana **Upplýsingar** eða **Aðskilinn gluggi**.
 
@@ -95,7 +90,7 @@ Tengiliðaspjaldið virkar alveg eins og spjöld fyrir færslur eins og vörur, 
 > [!NOTE]
 > Allir þátttakendur í Teams-spjalli geta skoðað spjöld fyrir Business Central tengilið sem er sendur á spjallið. En til að skoða frekari upplýsingar um færslur með því að nota hnappana **Upplýsingar** eða **Sprettigluggi** á spjaldi, þurfa þeir að fá aðgang að [!INCLUDE [prod_short](includes/prod_short.md)]. Nánari upplýsingar er að finna í [Stjórnun Microsoft Teams samþættingar](admin-teams-integration.md#minimum-requirements-1).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  

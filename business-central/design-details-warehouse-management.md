@@ -68,7 +68,7 @@ Yfirleitt eru staðsetningar ákjósanlegri leið til að skipuleggja aðgerðir
 
 ### Hillur og hólf
 
-Ef vara er alltaf notuð á sama stað er hægt að  **nota hillu nr.** á  **birgðaspjaldinu**  eða  **síðum Birgðahaldseiningin** . Í þessum reit má grunna handvirka geymslukerfi í umhverfi án hólfa. Gildi svæðisins er afritað af birgðaspjaldinu í Fylgiskjalslínur og skýrslur en það er aðeins upplýst. Gildið er ekki notað í vöruhúsaaðgerðum eða útreikningum á framboði.
+Ef vara er alltaf notuð á sama stað er hægt að  **nota hillu nr**. á  **birgðaspjaldinu**  eða  **síðum Birgðahaldseiningin** . Í þessum reit má grunna handvirka geymslukerfi í umhverfi án hólfa. Gildi svæðisins er afritað af birgðaspjaldinu í Fylgiskjalslínur og skýrslur en það er aðeins upplýst. Gildið er ekki notað í vöruhúsaaðgerðum eða útreikningum á framboði.
 
 Hólar standa að uppbyggingu grunnvöruhúsa og eru nýttir til að gera tillögur um staðsetningu á vörum:
 

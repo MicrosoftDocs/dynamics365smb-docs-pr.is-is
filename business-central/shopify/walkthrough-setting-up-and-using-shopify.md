@@ -252,7 +252,7 @@ Taka skal eftir að birgðaskrá fyrir Ráðstefnutöflu ANTWERP er 100, þar se
 #### Undirbúa gögn
 
 1. Skiptu yfir í ókeypis 30 daga prufutíma án sýnigagna. Frekari upplýsingar er að finna  [í bæta eigin gögnum við tóma prufu](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
-2. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **Shopify  verslanir** og veljið síðan tengda tengilinn.
+2. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Teiknið, Færið inn  **Shopify  verslanir** og veljið síðan tengda tengilinn.
 3. Valið er aðgerðin **Nýtt**.
 4.  **Í reitnum kóti**  er fært inn `DEMO2`.
 5.  **Shopify Í reitinn URL**  er rituð slóðin að vefversluninni sem á að tengjast.
@@ -274,7 +274,7 @@ Skilgreinið  Shopify  verkstæðið eins og lýst er hér á eftir í næstu sk
 
 #### Keyra samstillingu
 
-1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Verslanir** og veldu viðeigandi tengil.
+1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, sláðu inn **Shopify Verslanir** og veldu viðeigandi tengil.
 2.  *DEMO2*  -verslunin sem samstilla á gögn fyrir er valin til að opna  **Shopify  síðu verkstæðiskortsins** .
 3. Veldu aðgerðina **Samstilla vörur**.
 4. Veldu aðgerðina **Samstilla myndir af vörum**.
@@ -282,10 +282,10 @@ Skilgreinið  Shopify  verkstæðið eins og lýst er hér á eftir í næstu sk
 
 ### Niðurstöður
 
-* Shopify Vörur eru fluttar inn. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Vörur** og veldu viðeigandi tengil.
-* Vörur með myndum eru búnar til. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **atriði** og veljið tengdan tengil.
-* Shopify Viðskiptavinir eru fluttir inn. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **Shopify  viðskiptamenn** og veljið tengdan tengil.
-* Viðskiptamenn eru stofnaðir. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **viðskiptamenn** og veljið tengdan tengil.
+* Shopify Vörur eru fluttar inn. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, sláðu inn **Shopify Vörur** og veldu viðeigandi tengil.
+* Vörur með myndum eru búnar til. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Teiknið, Færið inn  **atriði** og veljið tengdan tengil.
+* Shopify Viðskiptavinir eru fluttir inn. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Teiknið, Færið inn  **Shopify  viðskiptamenn** og veljið tengdan tengil.
+* Viðskiptamenn eru stofnaðir. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Teiknið, Færið inn  **viðskiptamenn** og veljið tengdan tengil.
 
 
 ## Sjá einnig

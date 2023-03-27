@@ -4,25 +4,19 @@ description: Finnið út hvaða skýrslur og greiningar eru í boði í staðla�
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
+ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316'
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: f674102844cf6dd6c5c93aa0036f8b73f10b8b61
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514778"
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Skýrslur og greiningar viðskiptakrafna í Business Central
+# Skýrslur og greiningar viðskiptakrafna í Business Central
 
 Til að hjálpa þér að hafa umsjón með viðskiptakröfum í [!INCLUDE [prod_short](includes/prod_short.md)] eru staðlaðar skýrslur og greiningar innbyggðar. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
 [Vinna með víddir](finance-dimensions.md)  

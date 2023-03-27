@@ -107,7 +107,7 @@ Hvernig vörur eru færðar fer eftir því hvernig vöruhúsið er sett upp sem
     > Þegar vara er valin í reitnum  **Vörunr.**  **opnast hólfainnihaldssíðunum**  í stað  **atriða**  síðunnar. Þessi síða opnast vegna þess að verið er að ganga frá vöru sem er tengd tilteknu hólfi-  *hólfi*  -ekki bara vöru, og þú veist nú þegar hólfið sem taka á atriðið af. Ef reiturinn Kóti frá-hólfs  **er fylltur út**  mun innihald hólfsins afmarkast af því gildi.
 
 5. Ef fylla á línurnar með öllu innihaldi hólfsins eða síuðu innihaldi hólfa á staðnum er aðgerðin Sækja innihald  **hólfs valin** .  
-6. Veldu aðgerðina **Stofna frágang**. Vöruhúsafrágangsleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss. Einnig er hægt að velja  **úttektaraðgerðina**  til að stofna vöruhúsafrágang með því  **að nota síðuna frágangsvinnublað** . Til að fræðast meira um frágang vinnublaða er farið í að  [Stofna frágang skjala í magni með vinnublaði frágangs](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
+6. Veldu aðgerðina **Stofna frágang**. Vöruhúsafrágangsleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss. Einnig er hægt að velja  **úttektaraðgerðina**  til að stofna vöruhúsafrágang með því  **að nota síðuna frágangsvinnublað** . Til að fræðast meira um frágang vinnublaða er farið í að  [Stofna frágang skjala í magni með vinnublaði](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet) frágangs.
 6. Þegar frágangi er lokið er hægt að skrá það.  
 
 ### Frágangur vöruhúss skráður

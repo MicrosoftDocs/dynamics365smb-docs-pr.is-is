@@ -92,7 +92,7 @@ Samstilla birgðahöfuðbók og vöruhús <!--warehouse what?--> áður en efnis
 
 ### Til að færa inn og bóka raunverulegar taldar birgðir í grunngerð ítarlegs vöruhúss.
 
-1.  **Í síðunni Raunbirgðabók**  vöruhúss er raunverulegt magn fært inn í  **reitinn Magn (raunbirgðir))** .  
+1.  **Í síðunni Raunbirgðabók**  vöruhúss er raunverulegt magn fært inn í  **reitinn Magn (raunbirgðir)** .  
 
     > [!NOTE]  
     >   **Reiturinn Magn (útreiknað)**  er fylltur út eftir hólfafærslum. Þetta magn er afritað í  **reitinn Magn (efnislegt)**  í hverri línu. Ef magnið í þessum reitum er ekki í samræmi skal færa inn raunverulegt magn.  

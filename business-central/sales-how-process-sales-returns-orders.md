@@ -1,29 +1,23 @@
 ---
 title: Vinna söluvöruskilapantanir
-description: Lýsir því hvernig skal stofna skilapöntun sölu til að vinna skil, afturköllun eða endurgreiðslu fyrir vöru eða þjónustu sem þú hefur fengið greiðslu fyrir.
+description: 'Lýsir því hvernig skal stofna skilapöntun sölu til að vinna skil, afturköllun eða endurgreiðslu fyrir vöru eða þjónustu sem þú hefur fengið greiðslu fyrir.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: undo, credit memo, return, order
-ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
+ms.search.keywords: 'undo, credit memo, return, order'
+ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 78b4c6412b24721b52a5c271c0e1c5a4c7ba8775
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529083"
 ---
-# <a name="process-sales-return-orders"></a>Vinna söluvöruskilapantanir  
+# Vinna söluvöruskilapantanir  
 
 Ef þú þarft meiri stjórn á söluskilaferlinu, eins og t.d. vöruhúsaskjöl fyrir vöruafgreiðsluna eða betra yfirlit yfir móttöku vara frá mörgum söluskjölum með einum vöruskilum, geturðu stofnað söluvöruskilapöntun. Söluvöruskilapöntun gefur út sjálfkrafa tengdan sölukreditreikning og önnur skilatengd skjöl, eins og skiptivörusölupöntun, ef þarf.
 
 Auk upprunalega bókaðs sölureiknings, er hægt að jafna sölukreditreikning eða söluvöruskilapöntun við öðrum söluskjölum, t.d. aðra bókað sölureikninga, þar sem viðskiptamaðurinn er einnig að skila vörum sem voru afhentar með viðkomandi reikningi.
 
-## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Stofna skilapöntun sölu byggða á einu eða fleiri bókuðu söluskjali  
+## Stofna skilapöntun sölu byggða á einu eða fleiri bókuðu söluskjali  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Söluvöruskilapantanir** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð.  
@@ -31,7 +25,7 @@ Auk upprunalega bókaðs sölureiknings, er hægt að jafna sölukreditreikning 
 4. Á flýtiflipanum **Línur** skal fylla þessar línur út handvirkt, eða afrita upplýsingar úr öðrum fylgiskjölum til að fylla út línurnar sjálfvirkt:
 
     - Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** til að afrita eina eða fleiri bókaðar fylgiskjalalínur frá einu eða fleiri bókuðum fylgiskjölum. Þessi aðgerð bakfærir alltaf nákvæmlega kostnaðinn úr bókuðu fylgiskjalslínunni. Þessu aðgerð er lýst í eftirfarandi skrefum.    
-    - Nota aðgerðina **Afrita úr skjali** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu & Útistandandi**.  
+    - Nota aðgerðina **Afrita úr skjali** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu &amp; Útistandandi**.  
 
 5. Veldu aðgerðina **Vinna úr**, veldu síðan aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra**.
 6. Efst á síðunni **Bókaðar línur söluskjals** er valið gátmerki **Sýna eingöngu bakfæranlegar línur** ef eingöngu á að birta línur sem eru með magn sem enn hefur ekki verið skilað. Til dæmis ef bókað magn sölureiknings hefur verið skilað kann ekki að vera æskilegt að skila magninu í nýtt fylgiskjal söluvöruskila.
@@ -45,7 +39,7 @@ Auk upprunalega bókaðs sölureiknings, er hægt að jafna sölukreditreikning 
 8. Velja skal línurnar sem á að afrita í nýja fylgiskjalið.  
 
     > [!NOTE]  
-    >  Ef Ctrl+A er notað til að velja allar línur eru allar línur afritaðar innan afmörkunarinnar sem er virk en hundsar afmörkunina **Sýna eingöngu bakfært magn**. Til dæmis er búið að afmarka línurnar við tiltekið fylgiskjalsnúmer með tveimur línu, og búið er að skila annarri. Jafnvel þótt gátreiturinn **Sýna eingöngu bakfært magn** sé valinn afritar forritið eingöngu tvær línur þegar ýtt er á Ctrl+A til að afrita báðar línur, í stað þess að afrita eingöngu þá línu sem ekki hefur verið bakfærð.  
+    >  Ef CTRL  <kbd>A er notað</kbd>+<kbd>til að velja allar línur eru allar línur í afmörkuninni sem var settar afritaðar en aðeins</kbd>  er verið að  **hunsa reitinn Sýna**  afturkræft magn. Til dæmis er búið að afmarka línurnar við tiltekið fylgiskjalsnúmer með tveimur línu, og búið er að skila annarri.  **Jafnvel þótt reiturinn Sýna afturkræft magn sé aðeins**  valinn ef CTRL  <kbd>A</kbd>+<kbd>er valið</kbd>  til að afrita allar línur eru báðar línurnar afritaðar í staðinn fyrir eina sem hefur ekki enn verið snúið.  
 
 9. Veldu hnappinn **Í lagi** ef afrita á línurnar í nýja skjalið.  
 
@@ -73,7 +67,7 @@ Auk upprunalega bókaðs sölureiknings, er hægt að jafna sölukreditreikning 
 10. Á síðunni **Söluvöruskilapöntun** í reitnum **Ástæðukóði skila** á hverri línu, skal velja ástæðu skilanna.
 11. Valið er **Bóka** aðgerðin.
 
-## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Stofnuð sölupöntun fyrir skiptuvöru úr söluskilapöntun
+## Stofnuð sölupöntun fyrir skiptuvöru úr söluskilapöntun
 Ef til vill á að bjóða viðskiptamanni bætur vegna vöru sem honum var seld með því að skipta á henni. Hægt er að bjóða sömu vöru í skiptum eða aðra vöru. Þessi staða getur komið upp ef til dæmis hefur verið send röng vara.  
 
 1. Á síðunni **Söluvöruskilapöntun** fyrir virkt skilaferli, er í auðri línu búin til neikvæð færsla vegna skiptivörunnar með því að færa inn neikvætt magn í reitinn **Magn**.  
@@ -81,7 +75,7 @@ Ef til vill á að bjóða viðskiptamanni bætur vegna vöru sem honum var seld
 3. Á síðunni **Flytja neikvæðar sölulínur** skal fylla út reitina eins og þörf krefur.
 4. Velja hnappinn **Í lagi**. Neikvæðu línunni fyrir skilavörunni er eytt úr söluvöruskilapöntun og sett inn í nýja síðu af gerðinni **Sölupöntun**. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 
-## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Stofna skilatengd skjöl fyrir söluvöruskilapöntun
+## Stofna skilatengd skjöl fyrir söluvöruskilapöntun
 Hægt að stofna sölupantanir fyrir skiptivöru, vöruskilapantanir innkaupa og innkaupapantanir fyrir skiptivöru sjálfvirkt á meðan á ferli söluvöruskila stendur. Þessa aðgerð er hægt að nota til dæmis þegar vinna á með vöru í ábyrgð frá lánardrottnum.
 
 1. Á síðunni **Söluvöruskilapöntun** skal velja **Stofna skilatengd skjöl** aðgerðina fyrir virkt skilaferli.
@@ -90,7 +84,7 @@ Hægt að stofna sölupantanir fyrir skiptivöru, vöruskilapantanir innkaupa og
 4. Ef panta þarf skilavöru frá lánardrottins, skal velja **Stofna innkaupapöntun** gátreitinn.
 5. Ef sölupöntun fyrir skiptivöru þarf að stofna, velja **Stofna sölupöntun** gátreitinn.
 
-## <a name="to-create-a-restock-charge"></a>Stofnað endurkaupagjald
+## Stofnað endurkaupagjald
 Ef til vill er rétt að krefja viðskiptamann um endurkaupagjald til að standa straum af kostnaði við vöruskil. Þetta getur til dæmis verið hentugt ef viðskiptamaður hefur fyrir mistök pantað ranga vöru eða hætt við pöntun eftir móttöku vörunnar sem honum var seld.
 
 Hægt er að bóka þessa hækkun kostnaðar sem kostnaðarauka á kreditreikningi eða vöruskilapöntun og úthluta því á bókaða afhendingu. Eftirfarandi lýsir því söluvöruskilapöntun, en sömu skref eiga við um sölukreditreikning.
@@ -101,9 +95,9 @@ Hægt er að bóka þessa hækkun kostnaðar sem kostnaðarauka á kreditreiknin
 
 Þegar söluskilapöntunin er bókuð er endurkaupagjaldi bætt við viðkomandi upphæð sölufærslu. Þannig er hægt að vinna með nákvæmt birgðaverðmat.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

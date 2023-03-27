@@ -1,88 +1,162 @@
 ### YamlMime:FAQ
 metadata:
   title: Algengar spurningar um notkun Business Central
-  description: Svarar algengum spurningum um hvernig notendur skrá sig fyrir eða kaupa Business Central, lengja prufuáskrift, hætta við áskrift og finna þjálfun og aðra aðstoð.
+  description: 'Svarar algengum spurningum um hvernig notendur skrá sig fyrir eða kaupa Business Central, lengja prufuáskrift, hætta við áskrift og finna þjálfun og aðra aðstoð.'
   author: edupont04
   ms.topic: faq
-  ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+  ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
   ms.date: 09/07/2022
   ms.author: edupont
-  ms.openlocfilehash: 186731bff985900492a7353556f97862984b60cc
-  ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-  ms.translationtype: HT
-  ms.contentlocale: is-IS
-  ms.lasthandoff: 09/19/2022
-  ms.locfileid: "9535345"
 title: Algengar spurningar um notkun Business Central
-summary: "Þessi hluti inniheldur svör við algengum spurningum um nýskráningu fyrir prufuáskrift, kaup á áskrift og notkun á [!INCLUDE[prod_short](includes/prod_short.md)]. Kynntu þér líka hvernig þú færð tæknilega aðstoð.  \n"
+summary: |
+  Þessi hluti inniheldur svör við algengum spurningum um nýskráningu fyrir prufuáskrift, kaup á áskrift og notkun á [!INCLUDE[prod_short](includes/prod_short.md)]. Kynntu þér líka hvernig þú færð tæknilega aðstoð.  
 sections:
-- name: Hunsað
-  questions:
-  - question: >
-      Er Business Central í boði í mínu landi/svæði?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Frekari upplýsingar eru í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (aðeins í boði á ensku).  \n"
-  - question: >
-      Hvernig fæ ég Business Central?
-    answer: "Hægt er að skrá sig fyrir prufuáskrift til að skoða [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Ef þú vilt fá meiri tíma til að skoða, [geturðu lengt áskriftartímann](#can-i-extend-my-30-day--new-company--trial-period-).  \n\nTil þess að búa þig undir að stunda viðskipti í [!INCLUDE[prod_short](includes/prod_short.md)] geturðu opnað uppsetningarleiðbeiningar með hjálp, myndskeið eða hjálp fyrir valda uppsetningu verka. Frekari upplýsingar eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  \n\nEf þú ertu tilbúin(n) til að kaupa [!INCLUDE[prod_short](includes/prod_short.md)] geturðu fundið [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  \n"
-  - question: >
-      Hvert leita ég ef ég er með spurningar?
-    answer: "Ef spurningar vakna um [!INCLUDE[prod_short](includes/prod_short.md)] sem ekki er hægt að finna svar við í þessu skjali er hægt að spyrja Business Central-samfélagið. Frekari upplýsingar er að finna í [Dynamics 365 Business Central samfélaginu](https://community.dynamics.com/business).  \n\nFrá heimasíðu samfélagsins er einnig hægt að finna tengla á bloggin okkar þar er einnig hægt að finna ábendingar og ráð. Frekari upplýsingar eru á [Microsoft Dynamics 365 Business Central á bloggsíðu Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og eldri [Dynamics 365 Business Central bloggsíðu](https://community.dynamics.com/business/b/financials).  \n\nAð lokum geturðu haft samband við [!INCLUDE[prod_short](includes/prod_short.md)] endursöluaðilann þinn. Frekari upplýsingar eru í [Hvernig fæ ég tæknilega aðstoð?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) hlutanum og [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  \n"
-  - question: >
-      Af hverju finn ég ekki eiginleikann í Business Central?
-    answer: "Ertu búin(n) að lesa um nýjan eiginleika í útgáfuáætlun eða á blogginu okkar nýlega? Ef svo er, getur verið að [!INCLUDE[prod_short](includes/prod_short.md)] þitt hafi ekki verið uppfært að nýjustu útgáfu enn. Hægt er að athuga hvaða útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] byggir á síðunni [Hjálp og notendaþjónusta](product-help-and-support.md).  \n\nÞetta á við um á [!INCLUDE [prod_short](includes/prod_short.md)] Online og innanhúss.  \n\nEf eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess að eiginleikinn sé kynntur og að hann sé tiltækur í AppSource. Þetta á aðeins við á [!INCLUDE [prod_short](includes/prod_short.md)] Online.  \n"
-  - question: >
-      Er einhver munur á uppsetningu á staðnum og Business Central Online?
-    answer: >
-      Já. [!INCLUDE [prod_short](includes/prod_short.md)] er fínstillt fyrir netinnleiðingu og suma eiginleika er hugsanlega hægt aðeins að keyra á staðnum undir vissum kringumstæðum, á meðan aðrir eru ekki studdir. Frekari upplýsingar eru í [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (aðeins í boði á ensku).
-  - question: >
-      Get ég fengið þjálfun í Business Central?
-    answer: "Já, þú getur það! Hægt er að finna ókeypis netkennsluefni á [Microsoft-þjálfunarsvæðinu](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Einnig er hægt að biðja endursöluaðilann um frekari þjálfun. Ef þú veist ekki hver það er skaltu skoða hlutann [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  \n\nFrekari upplýsingar um þjálfun í sem Microsoft veitir fyrir Microsoft 365 er að finna á síðunni [Microsoft Dynamics 365 þjálfun](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nViðbótarefni er veitt af [!INCLUDE[prod_short](includes/prod_short.md)]-samfélaginu, t.d. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) sem er skrifað af samstarfsaðila.  \n"
-  - question: Hvernig fæ ég tækniþjónustu fyrir Business Central?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] er selt í gegnum samstarfsaðila og þú ættir að hafa samband við endursöluaðila til að fá aðstoð vegna tæknilegra vandamála. Ef [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðilinn þinn getur þá ekki leyst úr vandanum sendar hann inn þjónustubeiðni til Microsoft.  \n\nFrekari upplýsingar eru í [Hjálp og notendaþjónusta](product-help-and-support.md) og [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  \n"
-  - question: >
-      Hvar er hnappurinn til að vista?
-    answer: "enginn *vista* hnappur á síðunum eins og í öðrum forritum sem þú hugsanlega kannast við. Í [!INCLUDE[prod_short](includes/prod_short.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést textinn **Vistar** efst í hægra horninu. Hann breytist í **Vistað** fljótlega ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.  \n"
-  - question: >
-      Hvar finn ég þetta línunúmer?
-    answer: "Skjöl á borð við sölupöntun eða innkaupareikninga samanstanda af hausum og línum. Hver lína er með tölu sem [!INCLUDE [prod_short](includes/prod_short.md)] notar til að auðkenna þessa tilteknu línu. Þar af leiðandi gæti þú séð viðvörun eða villuboð um að eitthvað sé athugavert við línunúmer 1000 sem dæmi. Í sjálfgefinni útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] eru línunúmer falin. Ef ætlunin er að nota línunúmerin, þarf að sérstilla núverandi síðu og bæta við **Línunr.** . Frekari upplýsingar er að finna á [Sérstilling verksvæðis](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  \n"
-  - question: >
-      Af hverju lýsir hjálpin virkni sem ég hef ekki aðgang að?
-    answer: "Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar eru í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  \n"
-  - question: >
-      Hvers vegna eru nýjar upplýsingar ekki í boði á mínu tungumáli?
-    answer: "Microsoft Learn efni um viðskiptaaðgerðir er gefið út á mörgum tungumálum. Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru birtar á ensku eru þær sendar til þýðinga á studd tungumál. Þetta þýðir að þú getur ekki lesið þetta nýja efni á þínu eigin tungumáli í allt að fjórar vikur.  \n\nVið skiljum vandamálin sem þetta getur valdið og við hvetjum notendur til að leita á ensku ef þeir geta ekki fundið það á sínu eigin tungumáli.  \n"
-  - question: Hvaða netfang get ég notað með Business Central?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] Online krefst að þú notir vinnu- eða skólanetfang fyrir nýskráningu. [!INCLUDE[prod_short](includes/prod_short.md)] á netinu styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  \n\nEf þú reynir að nýskrá með persónulegu tölvupóstfangi færðu skilaboð sem gefa til kynna að þú eigir að nota vinnu eða skóla netfang. Frekari upplýsingar má finna á [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md).  \n\nEf ætlunin er að virkja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum þá er hægt að nota aðrar sannvottunaraðferðir. Frekari upplýsingar er að finna í [Upplýsingar á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  \n"
-  - question: >
-      Þarf ég að kaupa Microsoft 365
-    answer: "Nr. Ef notandi vill upplifa [!INCLUDE[prod_short](includes/prod_short.md)] að fullu samþætt við Microsoft 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Microsoft 365 [hér](https://products.office.com/try).  \n\nEf reikningurinn sem þú skráir þig með er ekki Microsoft 365-vinnureikningur (t.d. joe@mysolution.com) og þú ert með Microsoft 365-áskrift, þá geturðu tengt lénið þitt (*mysolution.com*) við Microsoft 365-áskriftina. Frekari upplýsingar eru í [Hvað er lén?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) í Microsoft 365 efnisflokknum.  \n\nEf þú ert ekki með Microsoft 365 áskrift og þú vilt ekki kaupa hana, þá þegar þú skráir þig, úthlutum við nýju Azure Active Directory leigjanda fyrir þig þannig að þú hafir aðgang að ítarlegum stjórnunarverkfærum í Azure-gáttinni.  \n"
-  - question: >
-      Hvað er samþættingin við Microsoft 365 um?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] á netinu er fullsamþætt við Microsoft 365 svo þú getur flett frjálslega á milli Microsoft 365 forrita og [!INCLUDE[prod_short](includes/prod_short.md)] með forritaræsingu. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[prod_short](includes/prod_short.md)]-gögn í Outlook, til dæmis. Frekari upplýsingar er að finna í [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem fyrirtækjainnhólf í Outlook](admin-outlook.md).  \n"
-  - question: >
-      Get ég framlengt 30 daga prufutímabilið fyrir „Nýtt Fyrirtæki“?
-    answer: "Já. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum. Þú getur lengt prufutímann einu sinni sjálf/ur. Eftir það getur Microsoft samstarfsaðili lengt hann í aðra 30 daga. Frekari upplýsingar eru í [Framlengja prufuútgáfu](admin-extend-trial.md).\n\n> [!NOTE]\n> Það getur tekið allt að tvo virka daga að ljúka við framlengingarferli fyrir prufutímabilið.  \n\nFrekari upplýsingar um hvernig má finna endursöluaðila eru í [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  \n"
-  - question: >
-      Hverjir eru Þjónustustigssamningarnir fyrir skýið?
-    answer: >
-      [!INCLUDE [service-terms](includes/service-terms.md)]
-  - question: >
-      Hversu oft uppfærist Business Central Online?
-    answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er þjónusta sem samanstendur af Microsoft-verkvangi og viðskiptavirkni. Margir samstarfsaðilar Microsoft bjóða upp á viðbótarviðskiptavirkni, svo sem til að koma til móts við tilteknar þarfir í iðnaði eða staðbundnar. Bæði viðskiptavirkni og þjónustuþættir eru stöðugt vöktuð og uppfærð eftir því sem við á. Þú getur alltaf skoðað [útgáfuáætlunina](/dynamics365/release-plans/) til að fá yfirlit yfir nýja væntanlega virkni. Frekari upplýsingar eru í [Þjónustuyfirlit fyrir Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (aðeins á ensku) og [Nýtt og áætlað](product-news.md).
-  - question: >
-      Kerfisstjórinn okkar hefur flutt mig í aðra áskrift til að úthluta mér öðru hlutverki, en get ég áfram skoðað sömu upphafssíðuna í Business Central?
-    answer: "Þetta er svolítið flókið, en svo virðist sem kerfisstjórinn þinn hafi ekki breytt hlutverki þinni og úthlutað notendaflokkum sem passa við nýja leyfið. Í hnotskurn, aðgangur notanda að [!INCLUDE[prod_short](includes/prod_short.md)] ræðst af þeirri gerð áskriftar (leyfis) sem notandi er með - sú gerð ræður heimildum, úthlutuðum hlutverkum notanda og sjálfgefinni upphafssíðu. Þú getur breytt núverandi hlutverki þínu handvirkt í mínum stillingum. En ef þú ert færð(ur) í aðra áskrift, til dæmis úr fyrirtækjaáskrift í áskrift fyrir teymismeðlimi sérðu hugsanlega eldri upphafssíðu af því að heimildunum var ekki breytt.  \n"
-  - question: >
-      Get ég hætt við áskriftina?
-    answer: "Já, en gögnum getur verið eytt eða þau varðveitt, allt eftir því hvernig notandi skráði sig fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna á [Hætta við [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md).  \n"
-  - question: >
-      Er hægt að nota fjölþætta sannvottun?
-    answer: "Auðvitað. Ef þú gerir það gætirðu þurft lykilorð forrits til að geta sent tölvupóst. Lykilorð forrits gefa forriti eða tæki aðgang að netfanginu þínu. Skrefin til að fá aðgangsorð fyrir forrit eru breytileg eftir tölvupóstsveitunni þinni. Frekari upplýsingar er að finna í hjálpinni frá þjónustuaðila þínum. Ef þú t.d. notar Outlook, sjá [Fjölþætt sannvottun fyrir Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  \n"
-  - question: Hvernig finn ég endursöluaðila?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] er selt og innleitt gegnum alþjóðlegt net Dynamics 365-samstarfsaðila sem sérþekkingu í greininni. Hafðu samband við samstarfsaðila til að fá ítarlegt mat, ráðgjafarþjónustu og upplýsingar um aðrar þjónustur. Frekari upplýsingar er að finna í hlutanum **Verð** á [Dynamics 365 Business Central síðunni á microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  \n\nEf þú ertu tilbúin(n) til að kaupa [!INCLUDE[prod_short](includes/prod_short.md)] geturðu fundið [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Einnig er hægt að finna lausnir og þjónustu frá samstarfsaðilum í [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  \n\nEf þú vilt fá leiðsögn frá Microsoft skaltu hafa samband við [Teymi Microsoft Sales](https://go.microsoft.com/fwlink/?linkid=828707).  \n\nEndursöluaðilinn þinn mun einnig sjá um tæknilega aðstoð fyrir þig. Frekari upplýsingar eru í [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md).  \n"
-  - question: >
-      Er Windows-biðlarinn studdur?
-    answer: >
-      Með fyrstu útgáfum af [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum fylgdi biðlari sem hægt var að setja upp sem kom frá Microsoft Dynamics NAV. Frá og með 2019 útgáfutímabili 2, mun þessi eldri hluti, sem vísað er í sem „Windows-biðlarinn“ ekki lengur vear í boði fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Algengar spurningar um Windows-biðlara og Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
-additionalContent: "\n## <a name=\"see-also\"></a>Sjá einnig\n\n[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  \n[Algengar spurningar um Viðmótsleit](ui-search-faq.md)  \n[Algengar spurningar um leit og síun](ui-search-filter-faq.yml)  \n[Algengar spurningar um listayfirlit](ui-views-faq.yml)  \n[Breyta tungumáli og landsstaðli](about-locale-language.md)  \n[Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem viðskiptainnhólf þitt í Outlook](admin-outlook.md)  \n[Nota [!INCLUDE[prod_short](includes/prod_short.md)] án Outlook](admin-no-outlook.md)  \n[Grunnstillingum breytt](ui-change-basic-settings.md)  \n[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n[Fá svör við spurningum](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  \n[Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  \n[Business Central námskrá](readiness/readiness-learning-catalog.md)  \n[Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  \n[Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  \n[Þjónustuskilmálar](compliance/compliance-service-compliance.md#service-terms)  \n[Algengar spurningar um upplifanir forritara og stjórnanda](/dynamics365/business-central/dev-itpro/faq)\n[Flytja gögn á staðnum yfir í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)\n## [!INCLUDE[prod_short](includes/free_trial_md.md)]  \n[!INCLUDE[footer-include](includes/footer-banner.md)]"
+  - name: Hunsað
+    questions:
+      - question: |
+          Er Business Central í boði í mínu landi/svæði?
+        answer: |
+          [!INCLUDE[prod_short](includes/prod_short.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Frekari upplýsingar eru í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (aðeins í boði á ensku).  
+      - question: |
+          Hvernig fæ ég Business Central?
+        answer: |
+          Hægt er að skrá sig fyrir prufuáskrift til að skoða [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Ef þú vilt fá meiri tíma til að skoða, [geturðu lengt áskriftartímann](#can-i-extend-my-30-day--new-company--trial-period-).  
+
+          Til þess að búa þig undir að stunda viðskipti í [!INCLUDE[prod_short](includes/prod_short.md)] geturðu opnað uppsetningarleiðbeiningar með hjálp, myndskeið eða hjálp fyrir valda uppsetningu verka. Frekari upplýsingar eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
+
+          Ef þú ertu tilbúin(n) til að kaupa [!INCLUDE[prod_short](includes/prod_short.md)] geturðu fundið [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  
+      - question: |
+          Hvert leita ég ef ég er með spurningar?
+        answer: |
+          Ef spurningar vakna um [!INCLUDE[prod_short](includes/prod_short.md)] sem ekki er hægt að finna svar við í þessu skjali er hægt að spyrja Business Central-samfélagið. Frekari upplýsingar er að finna í [Dynamics 365 Business Central samfélaginu](https://community.dynamics.com/business).  
+
+          Frá heimasíðu samfélagsins er einnig hægt að finna tengla á bloggin okkar þar er einnig hægt að finna ábendingar og ráð. Frekari upplýsingar eru á [Microsoft Dynamics 365 Business Central á bloggsíðu Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og eldri [Dynamics 365 Business Central bloggsíðu](https://community.dynamics.com/business/b/financials).  
+
+          Að lokum geturðu haft samband við [!INCLUDE[prod_short](includes/prod_short.md)] endursöluaðilann þinn. Frekari upplýsingar eru í [Hvernig fæ ég tæknilega aðstoð?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) hlutanum og [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  
+      - question: |
+          Af hverju finn ég ekki eiginleikann í Business Central?
+        answer: |
+          Ertu búin(n) að lesa um nýjan eiginleika í útgáfuáætlun eða á blogginu okkar nýlega? Ef svo er, getur verið að [!INCLUDE[prod_short](includes/prod_short.md)] þitt hafi ekki verið uppfært að nýjustu útgáfu enn. Hægt er að athuga hvaða útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] byggir á síðunni [Hjálp og notendaþjónusta](product-help-and-support.md).  
+
+          Þetta á við um á [!INCLUDE [prod_short](includes/prod_short.md)] Online og innanhúss.  
+
+          Ef eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess að eiginleikinn sé kynntur og að hann sé tiltækur í AppSource. Þetta á aðeins við á [!INCLUDE [prod_short](includes/prod_short.md)] Online.  
+      - question: |
+          Er einhver munur á uppsetningu á staðnum og Business Central Online?
+        answer: |
+          Já. [!INCLUDE [prod_short](includes/prod_short.md)] er fínstillt fyrir netinnleiðingu og suma eiginleika er hugsanlega hægt aðeins að keyra á staðnum undir vissum kringumstæðum, á meðan aðrir eru ekki studdir. Frekari upplýsingar eru í [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (aðeins í boði á ensku).
+      - question: |
+          Get ég fengið þjálfun í Business Central?
+        answer: |
+          Já, þú getur það! Hægt er að finna ókeypis netkennsluefni á [Microsoft-þjálfunarsvæðinu](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Einnig er hægt að biðja endursöluaðilann um frekari þjálfun. Ef þú veist ekki hver það er skaltu skoða hlutann [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  
+
+          Frekari upplýsingar um þjálfun í sem Microsoft veitir fyrir Microsoft 365 er að finna á síðunni [Microsoft Dynamics 365 þjálfun](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+          Viðbótarefni er veitt af [!INCLUDE[prod_short](includes/prod_short.md)]-samfélaginu, t.d. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) sem er skrifað af samstarfsaðila.  
+      - question: Hvernig fæ ég tækniþjónustu fyrir Business Central?
+        answer: |
+          [!INCLUDE[prod_short](includes/prod_short.md)] er selt í gegnum samstarfsaðila og þú ættir að hafa samband við endursöluaðila til að fá aðstoð vegna tæknilegra vandamála. Ef [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðilinn þinn getur þá ekki leyst úr vandanum sendar hann inn þjónustubeiðni til Microsoft.  
+
+          Frekari upplýsingar eru í [Hjálp og notendaþjónusta](product-help-and-support.md) og [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  
+      - question: |
+          Hvar er hnappurinn til að vista?
+        answer: |
+          enginn *vista* hnappur á síðunum eins og í öðrum forritum sem þú hugsanlega kannast við. Í [!INCLUDE[prod_short](includes/prod_short.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést textinn **Vistar** efst í hægra horninu. Hann breytist í **Vistað** fljótlega ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.  
+      - question: |
+          Hvar finn ég þetta línunúmer?
+        answer: |
+          Skjöl á borð við sölupöntun eða innkaupareikninga samanstanda af hausum og línum. Hver lína er með tölu sem [!INCLUDE [prod_short](includes/prod_short.md)] notar til að auðkenna þessa tilteknu línu. Þar af leiðandi gæti þú séð viðvörun eða villuboð um að eitthvað sé athugavert við línunúmer 1000 sem dæmi. Í sjálfgefinni útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] eru línunúmer falin. Ef ætlunin er að nota línunúmerin, þarf að sérstilla núverandi síðu og bæta við **Línunr.** . Frekari upplýsingar er að finna á [Sérstilling verksvæðis](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+      - question: |
+          Af hverju lýsir hjálpin virkni sem ég hef ekki aðgang að?
+        answer: |
+          Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar eru í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
+      - question: |
+          Hvers vegna eru nýjar upplýsingar ekki í boði á mínu tungumáli?
+        answer: |
+          Microsoft Learn efni um viðskiptaaðgerðir er gefið út á mörgum tungumálum. Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru birtar á ensku eru þær sendar til þýðinga á studd tungumál. Þetta þýðir að þú getur ekki lesið þetta nýja efni á þínu eigin tungumáli í allt að fjórar vikur.  
+
+          Við skiljum vandamálin sem þetta getur valdið og við hvetjum notendur til að leita á ensku ef þeir geta ekki fundið það á sínu eigin tungumáli.  
+      - question: Hvaða netfang get ég notað með Business Central?
+        answer: |
+          [!INCLUDE[prod_short](includes/prod_short.md)] Online krefst að þú notir vinnu- eða skólanetfang fyrir nýskráningu. [!INCLUDE[prod_short](includes/prod_short.md)] á netinu styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  
+
+          Ef þú reynir að nýskrá með persónulegu tölvupóstfangi færðu skilaboð sem gefa til kynna að þú eigir að nota vinnu eða skóla netfang. Frekari upplýsingar má finna á [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md).  
+
+          Ef ætlunin er að virkja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum þá er hægt að nota aðrar sannvottunaraðferðir. Frekari upplýsingar er að finna í [Upplýsingar á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+      - question: |
+          Þarf ég að kaupa Microsoft 365
+        answer: |
+          Nr. Ef notandi vill upplifa [!INCLUDE[prod_short](includes/prod_short.md)] að fullu samþætt við Microsoft 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Microsoft 365 [hér](https://products.office.com/try).  
+
+          Ef þú skráir þig með því Microsoft 365  að vera ekki  joe@mysolution.com með vinnureikning (t.d. Microsoft 365) og þú ert *með áskrift þá getur þú tengt lénið þitt (* mysolution.com  Microsoft 365) við áskriftina. Frekari upplýsingar eru í [Hvað er lén?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) í Microsoft 365 efnisflokknum.  
+
+          Ef þú ert ekki með Microsoft 365 áskrift og þú vilt ekki kaupa hana, þá þegar þú skráir þig, úthlutum við nýju Azure Active Directory leigjanda fyrir þig þannig að þú hafir aðgang að ítarlegum stjórnunarverkfærum í Azure-gáttinni.  
+      - question: |
+          Hvað er samþættingin við Microsoft 365 um?
+        answer: |
+          [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er fullsamþætt við Microsoft 365 svo þú getur flett frjálslega á milli Microsoft 365 forrita og [!INCLUDE[prod_short](includes/prod_short.md)] með forritaræsingu. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[prod_short](includes/prod_short.md)]-gögn í Outlook, til dæmis. Frekari upplýsingar er að finna í [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem fyrirtækjainnhólf í Outlook](admin-outlook.md).  
+      - question: |
+          Get ég framlengt 30 daga prufutímabilið fyrir „Nýtt Fyrirtæki“?
+        answer: |
+          Já. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum. Þú getur lengt prufutímann einu sinni sjálf/ur. Eftir það getur Microsoft samstarfsaðili lengt hann í aðra 30 daga. Frekari upplýsingar eru í [Framlengja prufuútgáfu](admin-extend-trial.md).
+
+          > [!NOTE]
+          > Það getur tekið allt að tvo virka daga að ljúka við framlengingarferli fyrir prufutímabilið.  
+
+          Frekari upplýsingar um hvernig má finna endursöluaðila eru í [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  
+      - question: |
+          Hverjir eru Þjónustustigssamningarnir fyrir skýið?
+        answer: |
+          [!INCLUDE [service-terms](includes/service-terms.md)]
+      - question: |
+          Hversu oft uppfærist Business Central Online?
+        answer: |
+          [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er þjónusta sem samanstendur af Microsoft-verkvangi og viðskiptavirkni. Margir samstarfsaðilar Microsoft bjóða upp á viðbótarviðskiptavirkni, svo sem til að koma til móts við tilteknar þarfir í iðnaði eða staðbundnar. Bæði viðskiptavirkni og þjónustuþættir eru stöðugt vöktuð og uppfærð eftir því sem við á. Þú getur alltaf skoðað [útgáfuáætlunina](/dynamics365/release-plans/) til að fá yfirlit yfir nýja væntanlega virkni. Frekari upplýsingar eru í [Þjónustuyfirlit fyrir Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (aðeins á ensku) og [Nýtt og áætlað](product-news.md).
+      - question: |
+          Kerfisstjórinn okkar hefur flutt mig í aðra áskrift til að úthluta mér öðru hlutverki, en get ég áfram skoðað sömu upphafssíðuna í Business Central?
+        answer: |
+          Þetta er svolítið flókið, en svo virðist sem kerfisstjórinn þinn hafi ekki breytt hlutverki þinni og úthlutað notendaflokkum sem passa við nýja leyfið. Í hnotskurn, aðgangur notanda að [!INCLUDE[prod_short](includes/prod_short.md)] ræðst af þeirri gerð áskriftar (leyfis) sem notandi er með - sú gerð ræður heimildum, úthlutuðum hlutverkum notanda og sjálfgefinni upphafssíðu. Þú getur breytt núverandi hlutverki þínu handvirkt í mínum stillingum. En ef þú ert færð(ur) í aðra áskrift, til dæmis úr fyrirtækjaáskrift í áskrift fyrir teymismeðlimi sérðu hugsanlega eldri upphafssíðu af því að heimildunum var ekki breytt.  
+      - question: |
+          Get ég hætt við áskriftina?
+        answer: |
+          Já, en gögnum getur verið eytt eða þau varðveitt, allt eftir því hvernig notandi skráði sig fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna á [Hætta við [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md).  
+      - question: |
+          Er hægt að nota fjölþætta sannvottun?
+        answer: |
+          Auðvitað. Ef þú gerir það gætirðu þurft lykilorð forrits til að geta sent tölvupóst. Lykilorð forrits gefa forriti eða tæki aðgang að netfanginu þínu. Skrefin til að fá aðgangsorð fyrir forrit eru breytileg eftir tölvupóstsveitunni þinni. Frekari upplýsingar er að finna í hjálpinni frá þjónustuaðila þínum. Ef þú t.d. notar Outlook, sjá [Fjölþætt sannvottun fyrir Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
+      - question: Hvernig finn ég endursöluaðila?
+        answer: |
+          [!INCLUDE[prod_short](includes/prod_short.md)] er selt og innleitt gegnum alþjóðlegt net Dynamics 365-samstarfsaðila sem sérþekkingu í greininni. Hafðu samband við samstarfsaðila til að fá ítarlegt mat, ráðgjafarþjónustu og upplýsingar um aðrar þjónustur. Frekari upplýsingar er að finna í hlutanum **Verð** á [Dynamics 365 Business Central síðunni á microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+
+          Ef þú ertu tilbúin(n) til að kaupa [!INCLUDE[prod_short](includes/prod_short.md)] geturðu fundið [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Einnig er hægt að finna lausnir og þjónustu frá samstarfsaðilum í [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+
+          Ef þú vilt fá leiðsögn frá Microsoft skaltu hafa samband við [Teymi Microsoft Sales](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+          Endursöluaðilinn þinn mun einnig sjá um tæknilega aðstoð fyrir þig. Frekari upplýsingar eru í [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md).  
+      - question: |
+          Er Windows-biðlarinn studdur?
+        answer: |
+          Með fyrstu útgáfum af [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum fylgdi biðlari sem hægt var að setja upp sem kom frá Microsoft Dynamics NAV. Frá og með 2019 útgáfutímabili 2, mun þessi eldri hluti, sem vísað er í sem „Windows-biðlarinn“ ekki lengur vear í boði fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Algengar spurningar um Windows-biðlara og Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
+additionalContent: |
+
+  ## Sjá einnig
+
+  [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
+  [Algengar spurningar um Viðmótsleit](ui-search-faq.md)  
+  [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)  
+  [Algengar spurningar um listayfirlit](ui-views-faq.yml)  
+  [Breyta tungumáli og landsstaðli](about-locale-language.md)  
+  [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem viðskiptainnhólf þitt í Outlook](admin-outlook.md)  
+  [Nota [!INCLUDE[prod_short](includes/prod_short.md)] án Outlook](admin-no-outlook.md)  
+  [Grunnstillingum breytt](ui-change-basic-settings.md)  
+  [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+  [Fá svör við spurningum](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
+  [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
+  [Business Central námskrá](readiness/readiness-learning-catalog.md)  
+  [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
+  [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+  [Þjónustuskilmálar](compliance/compliance-service-compliance.md#service-terms)  
+  [Algengar spurningar um upplifanir forritara og stjórnanda](/dynamics365/business-central/dev-itpro/faq)
+  [Flytja gögn á staðnum yfir í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)
+  ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+  [!INCLUDE[footer-include](includes/footer-banner.md)]

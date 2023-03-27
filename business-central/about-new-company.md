@@ -1,23 +1,17 @@
 ---
 title: Stofna ný fyrirtæki með notkun leiðbeininga um uppsetningu með stuðningi
-description: Það er auðvelt að stofna nýtt, autt fyrirtæki í Business Central. Leiðbeiningar um uppsetningu með stuðningi hjálpa þér í gegnum skrefin, og þú getur flutt inn fyrirliggjandi viðskiptagögn þín.
+description: 'Það er auðvelt að stofna nýtt, autt fyrirtæki í Business Central. Leiðbeiningar um uppsetningu með stuðningi hjálpa þér í gegnum skrefin, og þú getur flutt inn fyrirliggjandi viðskiptagögn þín.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'company, setup wizard'
+ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19340305e2d39ce0626b3d6cb10974556c24b70f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531540"
 ---
-# <a name="create-new-companies-in-prod_short"></a>Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]
+# Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er vísað til hólfanna fyrir viðskiptagögn, sem tilheyra fyrirtækjaeiningu eða lögaðila, sem *fyrirtæki*. Þegar þú skráir þig í [!INCLUDE[prod_short](includes/prod_short.md)], færðu sýnifyrirtæki og autt fyrirtæki, *Mitt fyrirtæki*. Auðvelt er að skipta á milli fyrirtækja, þú opnar einfaldlega **Mínar stillingar** og færir þig yfir í hitt fyrirtækið. En þú getur líka stofnað ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)] allt eftir þörfum þíns fyrirtækis.  
 
@@ -25,7 +19,7 @@ ms.locfileid: "9531540"
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="choose-the-right-template"></a>Val á réttu sniðmáti
+## Val á réttu sniðmáti
 
 Ef þú ákveður að bæta fyrirtæki við þitt [!INCLUDE[prod_short](includes/prod_short.md)], geturðu notað **Stofna nýtt fyrirtæki** leiðbeiningar um uppsetningu með hjálp til að komast af stað. Leiðsagnarforritið fyrir uppsetningu er tiltækt á síðunni **Fyrirtæki** og í uppflettingu í reitnum **Fyrirtæki** á síðunni **Mínar stillingar**.  
 
@@ -47,14 +41,14 @@ Ef þú vilt byrja auðveldlega með nýtt fyrirtæki, skal velja **Framleiðsla
 
 Stjórnandi þinn getur fengið frekari upplýsingar um prufuútgáfur og áskriftir [hér](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-## <a name="copy-a-company"></a>Afrita fyrirtæki
+## Afrita fyrirtæki
 
 Á síðunni **Fyrirtæki** er hægt að nota aðgerðina **Afrita** til að stofna annað fyrirtæki út frá efni fyrirliggjandi fyrirtækis. Þetta er til dæmis gagnlegt þegar þú vilt prófa fyrirtæki án þess að það hafi áhrif á framleiðslugögn.
 
 > [!Important]
 > Ekki er hægt að nota þessa aðgerð til að taka öryggisafrit af fyrirtæki. Öryggisafrit er tekið af fyrirtækinu með því að flytja út úr gagnagrunn sem .bacpac-skrá. Frekari upplýsingar er að finna í [Flytja út gagnagrunna](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) í hjálp við þróun og stjórnun.
 
-## <a name="set-up-the-company"></a>Setja upp fyrirtæki
+## Setja upp fyrirtæki
 
 Þegar þú skráir þig inn í nýtt fyrirtæki, mun **Uppsetning fyrirtækis** leiðsagnarforritið opnast sjálfvirkt og aðstoða þig við að komast af stað. Spurt verður um upplýsingar um fyrirtækið, eins og t.d. aðsetur, bankaupplýsingar, og aðferð kostnaðarútreiknings birgða. Við spyrjum um þessar upplýsingar þar sem þær eru notaðar sem grunnur á mörgum sviðum í [!INCLUDE[prod_short](includes/prod_short.md)], sem þú þarft þá ekki að setja handvirkt upp síðar.  
 
@@ -62,26 +56,26 @@ Til dæmis inniheldur [!INCLUDE [prod_short](includes/prod_short.md)] heimilisfa
 
 Þegar grunnatriðin eru komin á sinn stað, geturðu sett upp þau grunnsvæði sem eftir eru. Þá er hægt að bæta inn viðskiptagögnum á borð við viðskiptamenn og lánardrottna. Nánari upplýsingar um það eru í [Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## <a name="companies-and-environments"></a>Fyrirtæki og umhverfi
+## Fyrirtæki og umhverfi
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Frekari upplýsingar eru í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md). Frekari upplýsingar um umhverfi er að finna í [Að skilja tölvukerfi Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (eingöngu á ensku).  
 
-## <a name="changing-a-companys-name"></a>Heiti fyrirtækis breytt
+## Heiti fyrirtækis breytt
 
 Þegar fyrirtæki hefur verið stofnað er ekki hægt að breyta heiti þess. En hægt er að breyta **Birtingarheiti** sem er texti sem verður sýndur fyrir fyrirtækið í gegnum forritið.  
 
 > [!TIP]
 > Hægt er að endurnefna fyrirtæki ef [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er notað.
 
-## <a name="add-contoso-coffee"></a>Bæta við Contoso Coffee
+## Bæta við Contoso Coffee
 
 Forrit Contoso Coffee býður upp á sýnigögn til að hjálpa þér að kanna ítarlega möguleika [!INCLUDE [prod_short](includes/prod_short.md)]. Finndu forritið í AppSource og settu það upp í tómu fyrirtæki, t.d. fyrirtæki í sandkassaumhverfi. Frekari upplýsingar er að finna í [Kynning á sýnigögnum Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilla Business Central](ui-customizing-overview.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

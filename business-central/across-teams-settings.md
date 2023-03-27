@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 21edfebd4507c383d9af217fa0617d22867e204d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133227"
 ---
-# <a name="changing-company-and-other-settings-in-teams"></a>Breyta fyrirtæki og aðrar stillingar í Teams
+
+# Breyta fyrirtæki og aðrar stillingar í Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -28,11 +23,11 @@ Til eru tvær leiðir til að opna síðuna **Stillingar**: 1) úr skrifglugga s
 
     ![Stillingar fyrir Business Central úr skipanareit.](media/teams-settings-message-box.png)
 
-2. Í skipanareitnum efst uppi skal leita að **@Business Central**, velja **... (Fleiri valkostir)**, því næst velja **Stillingar**.
+2. Úr skipunarkassanum efst, leita að  **@Business  miðbæ**, velja  **... (Fleiri Valkostir)**, veljið  **síðan Settings**.
 
    ![Stillingar fyrir Business Central úr skrifglugga.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  

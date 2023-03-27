@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142498"
 ---
+
 > [!NOTE]
 > Eftirfarandi hlutar gera ráð fyrir að þú hafir stjórnandaaðgang að Exchange Online.
 
@@ -20,7 +15,7 @@ ms.locfileid: "8142498"
 
 Fylgdu skrefunum hér fyrir neðan til að setja upp Exchange Online, með tenglum á hvar þú getur fengið frekari upplýsingar.
 
-### <a name="create-an-admin-role-group"></a>Stofna stjórnandahlutverkhóp
+### Stofna stjórnandahlutverkhóp
 
 Stofna stjórnandahlutverkshóp fyrir opnar möppur á grunni upplýsinganna í eftirfarandi töflu:
 
@@ -32,7 +27,7 @@ Stofna stjórnandahlutverkshóp fyrir opnar möppur á grunni upplýsinganna í 
 
 Frekari upplýsingar eru í [Stjórna hlutverkahópum í Exchange Online](/exchange/permissions-exo/role-groups).
 
-### <a name="create-a-new-public-folder-mailbox"></a>Stofna nýja almenna möppu í pósthólfi
+### Stofna nýja almenna möppu í pósthólfi
 
 Stofnið nýtt pósthólf með opna möppu á grundvelli upplýsinganna í eftirfarandi töflu:
 
@@ -42,7 +37,7 @@ Stofnið nýtt pósthólf með opna möppu á grundvelli upplýsinganna í eftir
 
 Nánari upplýsingar má finna í [Búa til opið pósthólf](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
-### <a name="create-new-public-folders"></a>Stofna nýjar almenningsmöppur
+### Stofna nýjar almenningsmöppur
 
 1. Stofnið nýja opna möppu með heitinu **Tölvupóstsskráning** í rótinni þannig að slóðin á möppuna verði `\Email Logging\`
 2. Búa til tvær undirmöppur þannig að útkoman sé eftirfarandi heilar slóðir í möppurnar:
@@ -52,23 +47,23 @@ Nánari upplýsingar má finna í [Búa til opið pósthólf](/exchange/collabor
 
 Nánari upplýsingar má finna í [Búa til opna möppu](/exchange/collaboration-exo/public-folders/create-public-folder).
 
-### <a name="set-public-folder-ownership"></a>Setja eignarhald á opna möppu
+### Setja eignarhald á opna möppu
 
 Stillið notanda tölvupóstsskráningar sem eiganda að báðum opnu möppunum, opnu möppunum *Biðröð* og *Geymsla*.
 
 Frekari upplýsingar er að finna í [Úthluta heimildum fyrir opnu möppuna](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### <a name="mail-enable-the-queue-public-folder"></a>Virkja tölvupóst fyrir *biðröð* opinnar möppu
+### Virkja tölvupóst fyrir *biðröð* opinnar möppu
 
   Frekari upplýsingar er að finna á [Kveikja eða slökkva á tölvupósti fyrir opna möppu](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder)
 
-### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Þegar tölvupóstur er virkjaður er hægt að senda tölvupóst á *biðröð* opnu möppunnar
+### Þegar tölvupóstur er virkjaður er hægt að senda tölvupóst á *biðröð* opnu möppunnar
 
 Þegar tölvupóstur er virkjaður er hægt að senda tölvupóst á *biðröð* opnu möppunnar með Outlook eða Exchange Management Shell
 
 Frekari upplýsingar er að finna á [Heimila ónafngreindum notendum að senda tölvupóst í opna möppu þar sem búið er að virkja tölvupóst](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true)
 
-### <a name="create-mail-flow-rules"></a>Stofna póstflæðisreglur
+### Stofna póstflæðisreglur
 
 Búa til tvær reglur um póstflæði út frá upplýsingunum í eftirfarandi töflu
 

@@ -9,14 +9,9 @@ ms.topic: conceptual
 author: SusanneWindfeldPedersen
 ms.author: solsen
 ms.date: 04/01/2022
-ms.openlocfilehash: 0a4d55571f455c2bba075d8b5d2247caa4bd4649
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524198"
 ---
-# <a name="control-add-in-resiliency-in-business-central"></a>Þol innbótar fyrir stjórnun í Business Central
+
+# Þol innbótar fyrir stjórnun í Business Central
 
 Frá uppfærslu 20.0 af [!INCLUDE[prod_short](includes/prod_short.md)] eru innbætur stjórnunar sem eru hægfara greindar og gluggi svipaður og eftirfarandi er sýndur.
 
@@ -24,6 +19,6 @@ Frá uppfærslu 20.0 af [!INCLUDE[prod_short](includes/prod_short.md)] eru innb�
 
 Óheilbrigð innbót stjórnunar getur haft áhrif á upplifun Business Central og valdið því að síðan sem þú vinnur í opnist hægt. Það hefur engin áhrif á gögnin þín og breytingarnar þínar eru alltaf vistaðar. Ef þú sérð viðvörunina eins og hún er sýnd hér að ofan getur þú falið hana en hún gæti komið aftur og ef vandamálið leysist ekki skaltu hafa samband við stjórnanda.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 <!-- []() link to new topic in dev docs -->
