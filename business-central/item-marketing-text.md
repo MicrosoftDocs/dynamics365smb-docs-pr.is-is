@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/16/2023
+ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
@@ -52,7 +52,7 @@ Copilot er hönnuð til að spara þér tíma og hjálpa þér að skrifa skapan
          Textinn sem er leiðbeinandi birtist í rúðunni.
       2. Ef óskað er eftir annarri tillögu er valið  **Búa til með Copilot**  aftur. Ef þú vilt ekki tillögu skaltu velja  **sleppa**  því að hreinsa rúðuna.
 
-         Þú getur gert þetta skrefi ofar og þangað til þú færð uppástungu heldurðu að það sé nógu góður byrjunarpunktur. En hafið í huga að núverandi tillaga verður yfirskrift og þið fáið ekki að koma til baka. Þannig að ef þú líkar við núverandi tillögu, Farðu þá í næsta skref. Þú munt samt hafa tækifæri til að fá fleiri tillögur og jafnvel bæta tillögurnar ef þér líkar síðar.
+         Þú getur gert þetta skrefi ofar og þangað til þú færð uppástungu heldurðu að það sé nógu góður byrjunarpunktur. En hafið í huga að núverandi tillaga verður yfirskrift og þið megið ekki endilega fá hana aftur. Þannig að ef þú líkar við núverandi tillögu, Farðu þá í næsta skref. Þú munt samt hafa tækifæri til að fá fleiri tillögur, og jafnvel bæta tillögurnar, ef þér líkar síðar.
       3. Velja  **skal yfirfara og vista tillögu**  eða  **Breyta**  til að yfirfara, breyta og vista textann.
 
          Þetta skref tekur þig  **í póst með Copilot**  -síðunni. Fara í næsta kafla.
@@ -82,9 +82,9 @@ Notaðu eftirfarandi leiðbeiningar til að ganga frá og vista markaðstexta.
 2. Til að fá nýja tillögu er valið  **Búa til drög**.
 3. Ef þú ert ekki sáttur við tillögur, auka tillögur um texta út frá þínum óskum.
 
-   Veldu  **fleiri stillingar**, Breyttu síðan valkostum sem eru sýndir undir  **Velja hvernig copilot stofnar tillögur**, Veldu  **síðan búa til drög**  til að fá nýja tillögu.
+   Velja  **skal fleiri stillingar**, breyta valkostum sem birtast undir  **Velja hvernig copilot stofnar tillögur**, velja  **síðan búa til drög**  til að fá nýja tillögu.
 
-   Til viðmiðunar við að bæta við tillögum er farið í að bæta og sníða tillögur að  [texta](#improve-and-tailor-text-suggestions).
+   Til viðmiðunar við að bæta við tillögum er farið í að bæta og sníða tillögur  [að](#improve-and-tailor-text-suggestions) texta.
 
 4. Ef fara á aftur í fyrri tillögu skal velja  **afturkalla**.
 5. Skoðið vandlega textann fyrir nákvæmni og viðeigandi texta og veljið  **síðan í lagi**  til að vista hann.
@@ -114,8 +114,8 @@ Notaðu eftirfarandi leiðbeiningar til að ganga frá og vista markaðstexta.
 
 1. Í Business Central er varan opnuð sem á að breyta á eftirfarandi hátt:
 
-    1. Í efra hægra horninu skaltu velja þá ljósaperu  ![sem opnast Segðu mér lögun 22.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **atriði** og veljið síðan tengda tengilinn til að sýna lista yfir tiltækar vörur.
-    2. Til að opna atriðið er tvísmellt á það eða númer þess valið í reitnum   **Nr.** .
+    1. Í efra hægra horninu skaltu velja þá ljósaperu  ![sem opnast Segðu mér lögun 22](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Teiknið, Færið inn  **atriði** og veljið síðan tengda tengilinn til að sýna lista yfir tiltækar vörur.
+    2. Til að opna atriðið er tvísmellt á það eða númer þess valið í reitnum   **Nr**. .
 
 2. Framkvæmdu eitt af eftirfarandi skrefum:
 
@@ -127,6 +127,6 @@ Notaðu eftirfarandi leiðbeiningar til að ganga frá og vista markaðstexta.
 ## Sjá einnig .
 
 [Yfirlit um markaðssetningu á AI-knúinn vöru með Copilot](ai-overview.md)  
-[Skilgreina markaðstexta með AI-tilbúinni vöru með Copilot](enable-ai.md)  
+[Grunnstilla hluta markaðstexta gervigreindar með Copilot](enable-ai.md)  
 [Textahöfundur Markaðsupplýsingar með Copilot-FAQ vöru](ai-faq.md)  
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  

@@ -25,7 +25,10 @@ Hægt er að nota eftirfarandi innbyggðar skýrslur:
 
     VSK skil skýrslan inniheldur VSK fyrir sölu og innkaup til viðskiptamanna og frá lánardrottnum í öllum löndum sem notast við VSK.  
 
-Í báðum tilfellum er VSK reiknaður á grundvelli VSK-bókunargrunnur og VSK-bókunarflokkum sem settir hafa verið upp. [!INCLUDE[prod_short](includes/prod_short.md)] sýnir VSK-færslur út frá **VSK-dagsetningu** þeirra.
+Í báðum tilvikum (eins og í öðrum VSK-tengdum skýrslum) er VSK-reiknaður á grundvelli uppsetningar VSK-bókunar og VSK-bókunarflokkanna sem settir hafa verið upp. [!INCLUDE[prod_short](includes/prod_short.md)] Sýnir VSK-færslur sem byggjast alltaf á  **VSK-dagsetningu**  sem aðalskýrslugerð.  
+
+> [!NOTE]
+> Allar VSK-skýrslur sem tengjast keyra nú með  **VSK-dagsetningu**  til að sía viðeigandi færslur. Jafnvel þótt VSK-Dagsetningarnotkun sé sett upp  **mun virkni**  VSK-dagsetningarinnar fela öll tilvik  **VSK-dagsetningarinnar** [!INCLUDE[prod_short](includes/prod_short.md)]  yfir forritið.  **·**   **VSK-dagsetningin**  er þó enn notuð í öllum fréttunum og er fyllt  **út í bókunardagsetningunni**.
 
 Ef þú vilt skoða allan feril VSK færslna, þá býr hver VSK-bókun til færslu á **VSK-færslur** síðunni. Þessar færslur eru notaðar til að reikna VSK-upphæðir s.s. greiðslur og endurgreiðslur á tilteknu tímabili. Til að skoða VSK-færslur skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-færslur** og velja síðan viðkomandi tengil.
 
