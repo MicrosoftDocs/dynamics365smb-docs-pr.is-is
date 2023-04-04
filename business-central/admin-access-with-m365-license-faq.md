@@ -11,6 +11,8 @@ ms.custom: bap-template
 ---
 # Aðgangur með  Microsoft 365  LEYFUM FAQ
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Notendur geta nálgast viðskiptaleg gögn miðlægt í  Microsoft Teams  með leyfi sínu Microsoft 365 . Í þessari grein svara Algengar spurningar frá stjórnendum, ráðgjafa og öðrum. Verktaki skal vísa í spurningar til hönnuða. Fyrir spurningar um samþættingu Viðskiptamiðanna við  Microsoft Teams er farið í  [TEYMUM FAQ](teams-faq.md).
 
 ## [Heimildir](#tab/permissions) 

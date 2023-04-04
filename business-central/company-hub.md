@@ -68,6 +68,8 @@ Frekari upplýsingar um fyrirtæki og umhverfi er að finna í [Umhverfistenglar
 
 ## Aðgangur að fyrirtækjamiðstöðinni
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Til að fá aðgang að fyrirtækjamiðstöðinni verður þú að hafa aðgang í gegnum annaðhvort notendaflokkinn *D365 COMPANY HUB* eða í gegnum heimildasamstæðuna *D365 COMPANY HUB*. Einnig þarf að hafa aðgang að fyrirtækjum sem eru skráð í fyrirtækjamiðstöðinni, sem þýðir að þú verður að vera notandi í þessum fyrirtækjum. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)  
 
 > [!IMPORTANT]

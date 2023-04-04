@@ -41,6 +41,8 @@ Fyrsta skrefið til að ganga frá frálagi er að stofna vöruhúsabeiðni á i
 4. Fyllt er í Frágangslínurnar eftir þörfum.
 5. Þegar línurnar eru tilbúnar til bókunar er smellt á aðgerðina **Bóka**. Bókun stofnar vöruhúsafærslur og bókar afköst varanna.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 Einnig er hægt að stofna **Birgðafrágang** beint úr útgefnu framleiðslupöntuninni. Frekari upplýsingar um það að setja vörur í  [gang með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Þegar Birgðafrágangur er bókaður er gert ráð fyrir að allar aðgerðir séu bókaðar í samræmi við staðlaða leið. Það er, afkastamagnið er bókað samkvæmt síðustu aðgerðinni. Hægt er að nota frálagsbókinn til að bóka frávik í afkastamagni og uppsetningu og keyrslutíma. Ef bóka þarf að hluta til eftir að Birgðafrágangur var stofnaður er hægt að gera það með því að setja upp tíma og magn fyrir allar aðgerðir nema í síðasta lagi. Síðustu aðgerðinni er stjórnað af birgðafrágangnum.  

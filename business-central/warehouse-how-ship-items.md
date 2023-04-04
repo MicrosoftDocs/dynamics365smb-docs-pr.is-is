@@ -59,8 +59,8 @@ Hægt er að stofna vöruhúsaafhendingu á tvennan hátt:
     * Á þrýstihátt, þar sem þú notar  **aðgerðina stofna tínslu** . Velja línurnar sem á að velja og tilgreina upplýsingar um tínsluna. Til dæmis hvaða hólf á að taka af og setja í, og hve margar einingar á að afgreiða. Hólfin geta verið fyrirfram skilgreind fyrir vöruhúsastaðinn eða forðinn.
     * Á togtísku, þar sem notuð  **er úttektaraðgerð** .  **Á síðunni tínsluvinnublað**  skal nota  **aðgerðina Sækja vöruhúsaskjöl**  til að fá úthlutaða tínslur. Þegar vöruhúsatínslan er fullskráð er línunum á  **tínsluvinnublaðinu**  eytt.  [Frekari upplýsingar um tínsluvörur fyrir vöruhúsaafhendingar](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-> [!TIP]
-> Fyrir birgðageymslu sem þarfnast ekki tiltektar er hægt að prenta vöruhúsaafhendingu og nota hann sem tiltektarlista.
+    > [!TIP]
+    > Fyrir birgðageymslu sem þarfnast ekki tiltektar er hægt að prenta vöruhúsaafhendingu og nota hann sem tiltektarlista.
 
 8. Tilgreinið magnið sem á að senda.  
 
@@ -71,6 +71,8 @@ Hægt er að stofna vöruhúsaafhendingu á tvennan hátt:
     Til að stilla gildið í  **reitnum Magn til sendingar**  í öllum línum á núlli er valið  **Eyða magni til**  -aðgerða. Til dæmis er gagnlegt að stilla magnið á núll ef notaður er strikamerkjaskanni til að uppfæra Sendingarmagnið. Til að bæta við magninu sem er tiltækt fyrir sendingu er hægt að  **velja magn til að senda** .
 
 9. Afhendingin er bókuð.
+
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
 ## Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
 

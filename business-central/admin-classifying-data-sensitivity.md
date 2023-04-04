@@ -28,6 +28,7 @@ Eftirfarandi tafla lýsir stigum gagnatrúnaðar sem þú getur úthlutað.
 |Venjul. | Almenn gögn sem heyra ekki undir aðra flokka.|
 
 ## Hvernig flokka ég Mín gögn?
+
 Að flokka viðkvæmni á miklu magni reita, einn reit í einu, tekur langan tíma. Til að hjálpa til við að flýta því ferli bjóðum við upp á verkfæri sem hægt er að nota til að magnflokka viðkvæmni reita og síðan fínstilla flokkanir fyrir tiltekna reiti. Hægt er að finna verkfæri á vinnublaði gagnaflokkunar sem er í boði í Mitt hlutverk fyrir stjórnun notenda, notendaflokka og heimildir. Þú verður að vera kerfisstjóri til að nota vinnublaðið.
 
 > [!Important]

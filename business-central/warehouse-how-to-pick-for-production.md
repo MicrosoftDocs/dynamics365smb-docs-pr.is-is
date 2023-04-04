@@ -127,6 +127,8 @@ Eftirfarandi gerist á meðan á bókunarferlinu stendur:
 * Bóka notkun á upprunaskjalslínunum sem voru tilteknar.
 * Ef birgðageymslan notar hólf mun bókun stofna vöruhúsafærslur til að bóka breytingar á hólfmagninu.
 
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## Birgðahreyfingin skráð
 
 1.  **Opnið skjalið til að skrá hreyfingu fyrir fyrir á síðunni birgðahreyfingar** .  

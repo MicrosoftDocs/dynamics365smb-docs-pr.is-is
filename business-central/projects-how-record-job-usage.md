@@ -6,16 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 # Skrá neyslu eða notkun fyrir verk
 
  **Á síðunni vinnsluspjald**  er hægt að opna  **síðuna verkáætlunarlínur**  til að skoða og skrá notkun á ýmsum hlutum vinnslunnar. Þessar upplýsingar eru sjálfkrafa uppfærðar þegar verið er að breyta og flytja upplýsingar milli verka og verkbóka eða verkreikninga. Þetta krefst þess að kveikt sé á  **tengilinn nota notkun eftir sjálfgefna**  víxlun á  **síðu verkuppsetningar** . Frekari upplýsingar í  [Setja upp störf](projects-how-setup-jobs.md).  
-
-<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
-
-On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
 Fyrir áætlunarlínur af gerðinni  **áætlun** er til dæmis hægt að færa inn magn forða og tilgreina síðan magnið sem á að flytja í verkbókina. Ef gerð áætlunarlínunnar er  **innheimt** er hægt að færa inn magn forðarinnar og tilgreina síðan magnið sem á að millifæra á reikning. Til að fræðast meira um reikningsfærslu á viðskiptamanninum er farið í  [Reikningsvinnslur](projects-how-invoice-jobs.md). Með því að bera saman upprunalegt magn, eftirstöðvar magns eða bókað magn er fljótlegt að skoða upplýsingar um notkun. Til að fræðast nánar um hvernig á að áætla áætlað virði við áætlanagerð er farið í til að  [stjórna verkáætlunum](projects-how-manage-budgets.md).  
 
@@ -28,11 +24,11 @@ Eftirfarandi ferli lýsa hvernig á að skrá raunverulegt (áætlað) magn og k
 3. Veljið verkáætlunarlínu af gerðinni **Áætlun** eða **Bæði fjárhagsáætlun og reikningshæft** sem á að skrá notkun fyrir.   
 
     > [!NOTE]
-    > Þú getur einnig skráð notkun fyrir verkáætlunarlínu af gerðinni **Reikningshæf**. Yfirleitt eru þessar línur notaðar til að stofna reikninga en einnig er hægt að flytja upplýsingarnar í færslubók. Frekari upplýsingar um  [Reikningsstörf](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > Þú getur einnig skráð notkun fyrir verkáætlunarlínu af gerðinni **Reikningshæf**. Yfirleitt eru þessar línur notaðar til að stofna reikninga en einnig er hægt að flytja upplýsingarnar í færslubók. Frekari upplýsingar um  [Reikningsstörf](projects-how-invoice-jobs.md) 
 
 4. Í reitnum  **Magn. Ef flytja á í Færslubókarreit**  er fært inn magnið sem á að flytja. Sjálfgefna gildið er sama magn og það sem er í reitnum **Magn**.
 
-    Reiturinn magn  **sem eftir er**  sýnir magnið sem á eftir að ljúka vinnslunni og flytja í færslubókina. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
+    Reiturinn magn  **sem eftir er**  sýnir magnið sem á eftir að ljúka vinnslunni og flytja í færslubókina.
 5. Velja skal aðgerðina **Stofna verkbókarlínur**.
 
     > [!TIP]
@@ -40,6 +36,9 @@ Eftirfarandi ferli lýsa hvernig á að skrá raunverulegt (áætlað) magn og k
 6. Á síðunni **Verk - Flytja verkáætlunarlínu** skal fylla reiti út eftir þörfum og velja síðan hnappinn **Í lagi**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Velja skal aðgerðina **Opna verkbók**.  
 8. Á síðunni **Verkbók** skal velja viðeigandi línu og svo aðgerðina **Bóka**.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 9. Á síðunni **Verkáætlunarlínur** skal fara yfir skráða notkun með því að athuga reitina **Magn**, **Eftirstöðvar (magn)** og **Magn til flutnings í færslubók**.  
 10. Endurtakið skref 3 til 8 til að skrá frekari notkun.  
 
@@ -49,6 +48,8 @@ Eftirfarandi ferli lýsa hvernig á að skrá raunverulegt (áætlað) magn og k
 2. Í reitnum **Heiti keyrslu** skal velja viðeigandi verkbókarkeyrslu.  
 3. Sláið inn skjalanúmer, verknúmer, verkhlutanúmer, tegund og magn tegundarinnar sem verið er að nota í nýja línu.  
 4. Þegar verkbókarlínurnar eru tilbúnar skal velja aðgerðina **Bóka**.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Til að skoða áætlanir um verknotkun og bóka uppfærslur
 

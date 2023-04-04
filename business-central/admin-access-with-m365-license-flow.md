@@ -12,6 +12,8 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 ---
 # Aðgangsflæði notanda fyrir Microsoft 365 leyfi
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Þessi grein lýsir því sem gerist þegar notandi fær aðgang að gögnum Business Central með því að nota Microsoft 365 leyfið í fyrsta sinn. Skilningur á þessu flæði gerir stjórnendum kleift að skipuleggja nálgun sína og stilla Business Central þannig að það passi við viðskiptaþarfirnar.
 
 1. Fyrst er auðkenni notandans sannvottað 

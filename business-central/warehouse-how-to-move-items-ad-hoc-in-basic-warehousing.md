@@ -87,6 +87,8 @@ Eftirfarandi gerist á meðan á bókunarferlinu stendur:
 3. Aðrir reitir eru fylltir út fyrir hverja færslubókarlínu.
 4. Bóka skal endurflokkunarbók.  
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
 
 ## Sjá einnig .

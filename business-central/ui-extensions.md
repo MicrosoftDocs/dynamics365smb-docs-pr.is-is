@@ -14,6 +14,8 @@ ms.author: edupont
 
 ## Stjórna forritum
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Þegar þú opnar [!INCLUDE[prod_short](includes/prod_short.md)] í fyrsta skipti eru nokkur forrit þegar sett upp fyrir þig. Með tímanum verða fleiri forrit í boði fyrir þig og þú getur síðan valið hvort þú viljir nota forritið eða ekki.
 
 Til dæmis býður Microsoft upp á forrit sem veitir samþættingu við PayPal Payments Standard. Þessi viðbót er uppsett sjálfgefið En ef önnur viðbót er gerð sem veitir samþættingu við aðra greiðsluþjónusta, geturðu sett inn nýja viðbót og síðan valið hvaða af þessum tveimur þjónustum þú notar.  

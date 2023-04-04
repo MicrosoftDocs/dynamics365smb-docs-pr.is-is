@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Nota tilföng fyrir verk
@@ -29,6 +29,8 @@ Forða er úthlutað á verk með því að búa til verkáætlunarlínur fyrir 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.
 2. Opnið viðeigandi verkbókarfærslu og fyllið út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Þegar færslubókin er tilbúin skal velja aðgerðina **Bóka**.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Til að leiðrétta forðaverð
 
