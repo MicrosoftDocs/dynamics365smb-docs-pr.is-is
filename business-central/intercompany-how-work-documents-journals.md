@@ -1,25 +1,26 @@
 ---
 title: Bóka milli-fyrirtækjaskjöl og færslubækur
 description: Þetta efnisatriði útskýrir hvernig á að nota millifyrirtækjaskjöl eða færslubækur til að bóka færslur með millifyrirtækjafélögum þínum.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 02/06/2023
+ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '600, 610'
-ms.date: 03/09/2022
-ms.author: edupont
 ---
 # Unnið með samstæðuskjöl og færslubækur
-Milli-fyrirtækjaskjöl eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga. Þegar milli-fyrirtækjaskjöl eða færslubókarlína eru bókuð í fyrirtækinu er samsvarandi fylgiskjal eða færslubókarlína stofnuð í MF-úthólfinu sem hægt er að flytja til félagans. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
 
-Fyrir sölu- og innkaupskjöl, mun MF-félagakóði tilheyrandi viðskiptamanns eða lánardrottins tryggja að allar pantanir og reikningar sem eiga við færslur til eða frá þessum félögum stofna þaðan í frá samsvarandi skjöl hjá fyrirtækjafélögum svo að staða reikninganna verði rétt.
+Milli-fyrirtækjaskjöl eða færslubækur eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga. Þegar MF-fylgiskjal eða færslubókarlína er bókuð í fyrirtækinu er samsvarandi skjal eða færslubókarlína stofnað í MF-Úthólfinu. Línan er flutt úr Úthólfinu til félaganna. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
 
-Fyrir MF-færslubókarlínu, þarf ekki að tilgreina reikningana fyrir stök söfn bóka, heldur þarf aðeins að gefa upp kenni samstarfsfyrirtækisins. Samsvarandi MF-færslubókarlínur eru síðan stofnaðar í félagafyrirtækinu sem veldur afstemmingu bóka beggja fyrirtækja sem taka þátt í færslunni.
+Fyrir sölu-og innkaupaskjöl tryggir MF-félagakótinn á viðskiptamanninum eða lánardrottninum að allar pantanir og reikningar vegna færslna á milli samstarfsaðila mynda samsvarandi skjöl í félagasamfyrirtækjunum. Reikningsskilastaðan rétt.
 
-## MF-sölupöntun fyllt út og send:
-Hægt er að senda sölu- og innkaupapantanir og vöruskilapantanir áður en bókað er. Ekki er hægt að senda reikninga og kreditreikninga fyrr en þeir hafa verið bókaðir.
+Það sama gildir um færslubókarlínur MF-samstæðu. Þú þarft ekki að tilgreina reikninga, þú bara velur samstarfsfyrirtækið. Samsvarandi færslubókarlínur innan samstæðu eru síðan stofnaðar í félagasamfélaginu.
+
+## Fylla út og senda samstæðusölupöntun
+
+Hægt er að senda sölu- og innkaupapantanir og vöruskilapantanir áður en bókað er. Ekki er hægt að senda reikninga og kreditreikninga fyrr en þeir eru bókaðir.
 
 Eftirfarandi aðferð lýsir því hvernig eigi að fylla út og senda sölupöntun milli fyrirtækja. Sömu skref eiga við um sölu- og vöruskilapantanir millifyrirtækis, og bókaða millifyrirtækjareikninga og kreditreikninga.  
 
@@ -30,22 +31,22 @@ Eftirfarandi aðferð lýsir því hvernig eigi að fylla út og senda sölupön
 5. Til að senda sölupöntunina áður en hún er bókuð er valin aðgerðin **Senda MF-sölupöntun**.
 
 > [!NOTE]
-> Ef þú framkvæmir skref 4, mun sölupöntunin verða færð yfir til úthólfs millifyrirtækisins þar sem þú getur sent hana síðar. Frekari upplýsingar er að finna í [Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md).
+> Ef það er gert í skrefi 5 fer sölupöntunin í MF-Úthólf þar sem hægt er að senda hana síðar. Til að fræðast meira um MF-Innhólf og Úthólf er farið að  [stjórna MF-innhólfinu og Úthólfinu](intercompany-how-manage-intercompany-inbox.md).
 
-## Fært í milli-fyrirtækjabækur og bókað
+## Færa inn og bóka samstæðufærslubók
 
-Þegar bókuð er almenn færslubókarlína í fyrirtækinu, er samsvarandi færslubókarlína stofunuð í MF-úthólfinu sem hægt er að flytja til félagans. Með 2022 útgáfutímabili 1 er einnig hægt að setja upp fyrirtækið fyrir sjálfvirka stofnun á mótteknum færslum milli fyrirtækja úr millifyrirtækjafélögum sem bókaðar eru í gegnum MF-færslubókina. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
+Þegar bókuð er almenn færslubókarlína í fyrirtækinu, er samsvarandi færslubókarlína stofunuð í MF-úthólfinu sem hægt er að flytja til félagans. Með 2022 sleppingu bylgju 1 er einnig hægt að setja fyrirtækið upp til að stofna færslur sjálfkrafa mótteknar MF-félaga sem eru bókaðar í MF-færslubók. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-færslubækur** og velja síðan viðkomandi tengil.  
-2. Viðeigandi færslubókarkeyrsla er opnaður. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
-3. Fyllið inn reitina eftir þörfum.
+2. Opnið bókarkeyrsluna. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
+3. Fyllið inn reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip_md](../archive/invoicing/includes/tooltip-inline-tip_md.md)]
 4. Í reitinn **MF félagi fjárhagsreikningur nr.** færið inn MF fjárhagsreikninginn sem upphæðin verður bókuð á í fyrirtæki félagans.
 
     > [!NOTE]
     > Þennan reit verður að fylla út í línu með bankareikningi eða fjárhagsreikningi annað hvort í reitnum **Reikningsnúmer** eða reitnum **Mótreikningsnúmer**.  
 5. Valið er **Bóka** aðgerðin.
 
-Færslurnar sem þessu tengjast eru bókaðar í þínu fyrirtæki og færslubók með samsvarandi færslum er stofnuð í úthólfi millifyrirtækisins þar sem þú getur sent þær til fyrirtæki félagans. Frekari upplýsingar er að finna í [Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md).
+Færslurnar eru bókaðar í fyrirtæki notanda og færslubók með samsvarandi færslur eru stofnaðar í MF-úthólfinu svo hægt sé að senda þær til félagasamfélagsins.
 
 ## Sjá einnig
 

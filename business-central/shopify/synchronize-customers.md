@@ -39,6 +39,7 @@ Hægt er að skilgreina sumar stillingar á stigi lands/svæðis eða ríkis/hé
 2. Skilgreindu **Sniðmátskóða viðskiptamanns**, sem er notaður til að stofna viðskiptamenn sem vantar ef **Stofna óþekkta viðskiptamenn sjálfkrafa** er virkjað. Ef **Sniðmátskóði viðskiptamanns** er auður, þá notar aðgerðin **Sniðmátskóði viðskiptamanns** sem skilgreind er í **Shopify Verslunarkort**.
 3. Skilgreina hvort verð innihaldi VSK/skatt fyrir innfluttar pantanir.
 4. Í sumum tilfellum er **Sniðmátskóði viðskiptamanns** sem skilgreindur er fyrir land ekki nóg til að tryggja réttan útreikning á sköttum (til dæmis fyrir lönd með söluskatti). Í þessu tilfelli gæti verið gagnlegt að bæta við **Skattsvæðum**.
+5. Svæðið skattsvæði inniheldur einnig landskóta  **og**  par sem  **Sýsla heiti**  .  **·**  Þetta par er gagnlegt þegar Connector þarf að umbreyta kóta í heiti, eða öfugt.
 
 > [!NOTE]  
 > Landskóðar eru ISO 3166-1 og alfa-2 landskóðar. Frekari upplýsingar er að finna í [Landskóði](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +59,7 @@ Eftirfarandi kröfur eru gerðar til útflutnings viðskiptavinar:
 * Land/svæði er valið á viðskiptamannaspjaldinu, fyrir trygga viðskiptamenn, með autt land/svæði verður land/svæði sem tilgreint er á síðunni **Upplýsingar um fyrirtæki** að vera með ISO-kóða skilgreindan.
 * Ef viðskiptamaðurinn er með símanúmer þá verður númerið að vera einkvæmt því að Shopify samþykkir ekki annan viðskiptamann með sama símanúmerið.
 * Ef viðskiptavinur er með símanúmer verður það að vera á E.164-sniði. Mismunandi snið eru studd ef þau gefa upp númer sem hægt er að hringja í hvaðan sem er í heiminum. Eftirfarandi snið eru gild:
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +84,8 @@ Viðskiptavinur í  Shopify  er einnig með sjálfgefið aðsetur. Heimilisfangi
 |1|**Heiti**|Hæsti forgangur, ef reiturinn **Uppruni nafns** í **Shopify verslunarkortinu** inniheldur *Nafn fyrirtækis*.|
 |2|**Heiti 2**|Lægsti forgangur, ef reiturinn **Uppruni nafns 2** í **Shopify verslunarkortinu** inniheldur *Nafn fyrirtækis*.|
 
-Fyrir aðsetur þar sem landið/svæðið er notað skal velja *Kóði* eða *Nafn* í reitnum **Uppruni lands** í **Shopify verslunarkortinu**. Kóðinn eða heitið Tilgreinir tegund gagna sem geymd eru  [!INCLUDE[prod_short](../includes/prod_short.md)]  í  **í reitnum land** .
+Fyrir aðsetur þar sem Sýsla/hérað er notað er valinn  **kóti**  eða  **Heiti**  í  **reitnum sýsluuppruni**  á  **Shopify  vinnukortasíðunni** . Kótinn eða nafnið Tilgreinir tegund gagna sem geymd eru  [!INCLUDE[prod_short](../includes/prod_short.md)]  í  **í svæðinu Sýsla** . Munið að frumstilla sniðmát viðskiptamanns fyrir hvert land þannig að vörpun sýslukóta/heitilnafna sé tilbúin. 
+
 
 ## Samstilla viðskiptamenn
 

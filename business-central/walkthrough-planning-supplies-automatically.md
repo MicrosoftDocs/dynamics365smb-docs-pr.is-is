@@ -47,11 +47,11 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
 ## Ferill  
  Viðskiptamaðurinn, Cannon Group PLC, pantar fimm kappakstursreiðhjól fyrir sendingu þann 02-05-2021 (5. febrúar).  
 
- Framleiðslustjórinn, Einar, framkvæmir reglubundna birgðaáætlun fyrir fyrstu vikuna í febrúar 2021. Hann afmarkar við sína eigin birgðageymslu, EAST, og færir inn áætlunarbilið (01-23-2021) til 02-07-2021 áður en hann reiknar út fyrstu framboðsáætlun.  
+ Framleiðslustjórinn, Einar, framkvæmir reglubundna birgðaáætlun fyrir fyrstu vikuna í febrúar 2021. Eduardo filterar á eigin stað, AUSTURS og slær inn áætlunarbil á vinnudagsetningunni (01-23-2021) til að 02-07-2021 áður en Upphafleg framboðáætlun er reiknuð.  
 
- Eina eftirspurnin þá vikuna er sölupöntunin frá Cannon Group. Einar sér að engar áætlanalínur innihalda viðvaranir, og býr síðan til án breytinga birgðapantanir fyrir þær áætlunarlínur sem lagðar voru til.  
+ Eina eftirspurnin þá vikuna er sölupöntunin frá Cannon Group. Eduardo sér um að enginn í áætlunarlínunum séu með viðvaranir og geri tillögur um að útbúa framboðspantanir án breytinga fyrir tillögur áætlanalínurnar.  
 
- Daginn eftir, áður en byrjað er á fyrstu birgðapöntununum eða þær bókaðar, fær Einar tilkynningu um að annar viðskiptamaður hafi pantað tíu kappakstursreiðhjól sem senda skal 02-12-2021. Hann endurreiknar til að laga birgðaáætlunina að breyttri eftirspurn. Endurreikningur skilar áætlun hreyfingar sem leggur til breytingar á bæði tíma og magni fyrir sumar af birgðapöntununum sem stofnaðar voru í fyrstu keyrslunni.  
+ Daginn eftir, áður en byrjað er á fyrstu birgðapöntununum eða þær bókaðar, fær Einar tilkynningu um að annar viðskiptamaður hafi pantað tíu kappakstursreiðhjól sem senda skal 02-12-2021. Eduardo endurreiknar til að leiðrétta framboðstillagáætlunina í samræmi við breytingu á eftirspurn. Endurreikningur skilar áætlun hreyfingar sem leggur til breytingar á bæði tíma og magni fyrir sumar af birgðapöntununum sem stofnaðar voru í fyrstu keyrslunni.  
 
  Í hinum ýmsu þrepum áætlunar getur Einar flett upp viðeigandi pöntunum og notað eiginleikann Rakning pöntunar til að sjá hvaða framboð sinnir hvaða eftirspurn.  
 
@@ -80,7 +80,7 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
  Svona lýkur undirbúningi sýndargagna fyrir kynninguna.  
 
 ## Stofna birgðaáætlun með endurgerð  
- Við meðhöndlun á nýrri sölupöntun á fimm kappakstursreiðhjólum, byrjar notandinn skipulagsferlið með því að stilla valmöguleika, afmarkanir og áætlunarbil til að útiloka alla aðra eftirspurn nema þá sem er í fyrstu viku mars í staðsetningunni EAST. Hann byrjar á að reikna út aðalframleiðsluáætlun (MPS) , og reiknar síðan út fullkomna birgðaáætlun fyrir alla lægra-stigs eftirspurn (MRP).  
+ Við meðhöndlun á nýrri sölupöntun á fimm kappakstursreiðhjólum, byrjar notandinn skipulagsferlið með því að stilla valmöguleika, afmarkanir og áætlunarbil til að útiloka alla aðra eftirspurn nema þá sem er í fyrstu viku mars í staðsetningunni EAST. Ricardo hefst með því að reikna aðalframleiðsluáætlun (MPS) og síðan er haldið eftir til að reikna út heildarframboðstímingu fyrir alla lægri eftirspurnaráætlun (MRP).  
 
 ### Stofna sölupöntun  
 
@@ -198,7 +198,7 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
  Svona lýkur fyrstu útreikningum, greiningu og stofnun fyrir eftirspurn í staðsetningunni EAST í fyrstu viku febrúar. Í hlutanum sem á eftir kemur pantar annar viðskiptamaður tíu kappakstursreiðhjól, og Einar þarf að enduráætla.  
 
 ## Stofnun áætlunar hreyfingar  
- Daginn eftir, áður en byrjað er á birgðapöntunum eða þær bókaðar, berst ný sölupöntun frá Libros S.A. á tíu kappakstursreiðhjólum sem á að afhenda 02-12-2021. Einar er látinn vita af þessari nýju eftirspurn, og hann enduráætlar til að aðlaga birgðaáætlunina. Einar notar aðgerðina Áætlun hreyfingar til að reikna aðeins þær breytingar sem orðið hafa á framboði eða eftirspurn frá síðustu áætlunarkeyrslu. Auk þess stækkar hann áætlunartímabilið í 02-14-2021 svo nýja sölueftirspurnin fallin innan 02-12-2014.  
+ Daginn eftir, áður en byrjað er á birgðapöntunum eða þær bókaðar, berst ný sölupöntun frá Libros S.A. á tíu kappakstursreiðhjólum sem á að afhenda 02-12-2021. Eduardo er tilkynnt um nýja eftirspurnina og gert er ráð fyrir að enduráætla gildandi framboðstilskipun. Einar notar aðgerðina Áætlun hreyfingar til að reikna aðeins þær breytingar sem orðið hafa á framboði eða eftirspurn frá síðustu áætlunarkeyrslu. Að auki er Eduardo stækkar á áætlunartímabilinu til að 02-14-2021 að taka nýja sölueftirspurn á 02-12-2014.  
 
  Áætlunarkerfið reiknar út bestu leiðina til að uppfylla eftirspurnina eftir þessum tveimur eins vörum, svo sem að sameina sumar innkaupa- og framleiðslupantanir, endurtímasetja aðrar pantanir og stofna nýjar pantanir ef með þarf.  
 

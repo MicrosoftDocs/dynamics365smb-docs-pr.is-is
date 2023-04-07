@@ -39,15 +39,15 @@ ms.author: edupont
 
 ## Ferill
 
- Pála er aðalbókari. Hún tekur ákvarðanir um hvaða viðskiptamenn þurfa að leggja fram innborgun áður en vörur eru framleiddar eða afhentar. Pála stillir [!INCLUDE[prod_short](includes/prod_short.md)] á að reikna fyrirframgreiðslur sjálfvirkt.  
+ Phyllis er bókhaldsstjóri og tekur ákvarðanir um hvaða Viðskiptavinir eru nauðsynlegir til að greiða innborgun áður en vörur eru framleiddar eða afhentar. Pála stillir [!INCLUDE[prod_short](includes/prod_short.md)] á að reikna fyrirframgreiðslur sjálfvirkt.  
 
- Súsanna vinnur í sölupöntunarvinnslu. Þegar viðskiptavinur hringir og pantar færir hann pöntunina inn í kerfið meðan viðskiptavinurinn er í símanum. Þannig getur hún staðfest verð og greiðsluskilmála við þann viðskiptamann strax og getur gert leiðréttingar á pöntun meðan hún semur við viðskiptamanninn.  
+ Súsanna vinnur í sölupöntunarvinnslu. Þegar viðskiptavinur hringir til að leggja inn pöntun slær Susan inn pöntun í kerfið á meðan viðskiptavinurinn er í símanum. Þannig getur Susan staðfest verð og greiðsluskilmála með viðskiptavininum strax og gert breytingar á pöntuninni á meðan verið er að semja við viðskiptavininn.  
 
- Árni vinnur í innheimtudeildinni og sér um bókun reikninga og greiðslna.  
+ Arnie starfar á viðskiptadeild og bókar reikninga og greiðslur.  
 
  Í þessu dæmi setur Phylllis upp kröfu um fyrirframgreiðslu fyrir viðskiptamanninn Selangorian, samkvæmt lánaferlinum hans. Phyllis gefur Susan fyrirmæli um hvernig eigi að afgreiða pantanirnar.  
 
- Þegar viðskiptamaðurinn hringir semur Súsanna við hann þar til samkomulagi er náð. Hún getur þá valið að reikna fyrirframgreiðsluna á nokkra mismunandi vegu.  
+ Þegar viðskiptavinurinn hringir er Susan að semja við viðskiptavininn þar til þeir ná samkomulagi og velja síðan að reikna fyrirframgreiðsluna á nokkra mismunandi vegu.  
 
  Eftir að Súsanna hefur sent fyrirframgreiðslureikninginn, pantar viðskiptamaðurinn aukavöru. Súsanna uppfærir pöntunina og býr til annan fyrirframgreiðslureikning.  
 
@@ -75,9 +75,9 @@ Eftirfarandi aðgerðir lýsa hvernig Pála framkvæmir þessi verk.
 
 Ekki er hægt að afhenda eða reikningsfæra pöntun sem er með ógreidda fyrirframgreiðslu.  
 
-Sjálfgefið er að Pála vill að viðskiptamaður 20000 þurfi að greiða 30% af öllum pöntunum fyrirfram. Þar af leiðandi færir hún sjálfgefna fyrirframgreiðsluprósentu inn á viðskiptamannaspjaldið.  
+Sjálfgefið er að Pála vill að viðskiptamaður 20000 þurfi að greiða 30% af öllum pöntunum fyrirfram. Því mun Phyllis færa inn sjálfgefið fyrirframgreiðsluhlutfall á viðskiptamannaspjaldinu.  
 
-Pála vill að allir viðskiptamenn þurfi að borga 20% fyrirfram fyrir vöru 1896-S. Viðskiptamaður 20000 er með lélegan greiðsluferil þannig að Pála vill að hann borgi 40% fyrirfram fyrir vöru 1896-S. Eftirfarandi dæmi sýnir hvernig á að setja upp sjálfgefið hlutfall fyrirframgreiðslu.  
+Pála vill að allir viðskiptamenn þurfi að borga 20% fyrirfram fyrir vöru 1896-S. Viðskiptavinur 20000 er með lélega greiðslusögu, þannig að Phyllis krefst 40% fyrirframgreiðslu frá viðskiptavini 20000 fyrir vöru 1896-S. Eftirfarandi dæmi sýnir hvernig á að setja upp sjálfgefið hlutfall fyrirframgreiðslu.  
 
 ### Úthlutun sjálfgefins hlutfalls fyrirframgreiðslu á viðskiptamenn og vörur
 
@@ -110,7 +110,7 @@ Pála vill að allir viðskiptamenn þurfi að borga 20% fyrirfram fyrir vöru 1
 
  Í eftirfarandi dæmi stofnar Súsanna, pantanavinnslan, pöntun útfrá samtali við viðskiptamann. Vörurnar sem viðskiptamaðurinn pantar krefjast fyrirframgreiðslu. Auk þess hefur viðskiptamaðurinn greitt of seint nokkrum sinnum áður. Súsanna hefur fengið fyrirmæli um að krefjast föstu fyrirframgreiðsluupphæðarinnar **800** fyrir pöntunina.  
 
-Viðskiptamaðurinn biður um að greiða 35%, sem Susan getur samþykkt, þannig að hún breytir pöntuninni.  
+Viðskiptavinurinn biður um að borga 35%, sem Susan samþykkir og breytir pöntuninni.  
 
 Hún stofnar fyrirframgreiðslureikning og sendir hann til viðskiptamannsins.  
 
@@ -165,7 +165,7 @@ Hún stofnar fyrirframgreiðslureikning og sendir hann til viðskiptamannsins.
 
 ## Stofna annan fyrirframgreiðslureikning
 
-Næsta dag hringir viðskiptamaðurinn í Súsönnu og gerir breytingar á pöntuninni. Viðskiptamaðurinn vill tvær vörur af 1896-S. Susan opnar pöntunina aftur og uppfærir hana. Hún stofnar síðan annan fyrirframgreiðslureikning fyrir pöntuninni og sendir hann til viðskiptamannsins.  
+Næsta dag hringir viðskiptamaðurinn í Súsönnu og gerir breytingar á pöntuninni. Viðskiptamaðurinn vill tvær vörur af 1896-S. Susan Enduropnar pöntunina, uppfærir hana og stofnar síðan annan fyrirframgreiðslureikning fyrir pöntunina og sendir til viðskiptavinarins.  
 
 ### Stofnun annars fyrirframgreiðslureiknings
 

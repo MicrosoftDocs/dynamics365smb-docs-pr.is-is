@@ -1,15 +1,14 @@
 ---
 title: Fylgst með framvindu og afköstum
 description: Lýsir því hvernig þú getur búið til verk í vinnslu (VÍV) aðferð og reiknað VÍV til að meta fjárhagslegt gildi verka meðan á þeim stendur.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
-ms.date: 08/04/2022
-ms.author: edupont
 ---
 # Fylgst með framvindu og afköstum
 
@@ -21,7 +20,7 @@ VÍV má reikna út byggt á eftirfarandi:
 
 * Kostnaðarvirði
 * Söluvirði
-* Auðkennanlegur kostnaður
+* Þekkjanlegur kostnaður
 * Hlutfalls frágengins
 * Samningslok
 

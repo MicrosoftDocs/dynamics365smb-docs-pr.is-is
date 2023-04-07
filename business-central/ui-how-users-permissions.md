@@ -5,11 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 05/09/2022
+ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
 # Búa til notendur samkvæmt leyfum
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 Í þessari grein er því lýst hvernig stjórnendur búa til notendur og skilgreina hverjir geta skráð sig inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Þú munt einnig læra hvernig á að úthluta heimildum til mismunandi notenda samkvæmt virkjunarleyfum.
 
@@ -90,8 +92,11 @@ Ef þessi sjálfgefna skilgreining er ekki rétt Uppsetning fyrir tiltekið umhv
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.  
 3. Veldu **Uppfæra notendur úr Microsoft 365**.
 
+> [!IMPORTANT]  
+> Ef samstilling notenda  Microsoft 365  **Microsoft 365**  er keyrð út frá Guide þarf Super heimildasettið að vera uppsett.
+
 > [!NOTE]
-> Að  **Uppfæra notendur úr  Microsoft 365**  aðgerð uppfærir ekki leyfi sem ekki eru úthlutuð á borð við einhvern sem er alþjóðlegt admin og Dynamics 365 admin. Þeir notendur munu uppfæra næst þegar þeir skrá sig inn í appinu.
+> Að  **Uppfæra notendur úr  Microsoft 365**  leiðbeiningum er ekki uppfært notendum sem ekki fær úthlutað leyfi, eins og einhver sem er alþjóðlegt admin og Dynamics 365 admin. Þeir notendur munu uppfæra næst þegar þeir skrá sig inn í appinu.
 
 Næsta skref fyrir nýstofnaða notendur er að úthluta notendaflokkum og heimildum. Fara í að  [úthluta heimildum til notenda og hópa](ui-define-granular-permissions.md)  til upplýsinga. Ef notandi er að uppfæra notanda og uppfærslan felur í sér breytingar á leyfi, er notendum úthlutað til viðeigandi notendaflokks og heimildir þeirra eru uppfærðar. Frekari upplýsingar er að finna á[Til að stjórna heimildum í gegnum notendaflokka](ui-define-granular-permissions.md).  
 
@@ -101,7 +106,7 @@ Næsta skref fyrir nýstofnaða notendur er að úthluta notendaflokkum og heimi
 Nánari upplýsingar um samstillingu notendaupplýsinga með  Microsoft 365 er að fara í  [samstillingarhlutann Microsoft 365](#m365) .
 
 > [!NOTE]
-> Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, geturðu boðið þeim í þitt Business Central svo þeir geti unnið með þín fjárhagsgögn. Frekari upplýsingar eru í [Bjóða ytri endurskoðanda í þitt Business Central](finance-accounting.md#inviteaccountant).
+> Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, geturðu boðið þeim í þitt [!INCLUDE[prod_short](includes/prod_short.md)] svo þeir geti unnið með þín fjárhagsgögn. Frekari upplýsingar eru í [Bjóða ytri endurskoðanda í þitt Business Central](finance-accounting.md#inviteaccountant).
 
 ### Til að fjarlægja aðgang notanda að kerfinu
 
@@ -134,9 +139,9 @@ Ef notandaupplýsingum er breytt í Microsoft 365 er hægt að uppfæra [!INCLUD
 
 Notendur geta opnað  [!INCLUDE[prod_short](includes/prod_short.md)]  færslur í teymum með því að nota aðeins sitt  Microsoft 365  leyfi. Þegar aðgangur er virkjaður fyrir umhverfi, samstilling með því að  **Uppfæra notendur úr  Microsoft 365**  aðgerð, taka notendur ekki einungis  Microsoft 365  með leyfi. Til að taka þessa notendur með í samstillingu þarf fyrst að uppfæra umhverfisstillingar með því að úthluta öryggisflokki sem inniheldur notendur með  [!INCLUDE[prod_short](includes/prod_short.md)]  leyfi og notendur með aðeins  Microsoft 365  leyfi.
 
-Upplýsingar um tryggja aðgang að umhverfi með því að nota öryggishópa  [með því að stjórna  Azure Active Directory  hópum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+Upplýsingar um tryggja aðgang að umhverfi með því að nota öryggishópa  [með því að stjórna  Azure Active Directory  hópum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
-Fá yfirsýn yfir aðgang fyrirtækja miðlægt í teymum með  Microsoft 365  leyfi at  [admin-aðgangur-með-m365-leyfi](admin-access-with-m365-license.md).
+Fáðu yfirsýn yfir aðgang  [!INCLUDE[prod_short](includes/prod_short.md)]  í teymum með  Microsoft 365  leyfum at  [admin-aðgangur-með-m365-leyfi](admin-access-with-m365-license.md).
 
 ## Umsjón með notendum og leyfum í uppsetningu innanhúss
 

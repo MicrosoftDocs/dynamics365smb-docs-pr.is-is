@@ -4,48 +4,63 @@ description: Kynntu þér hvernig þú getur lagað vandamál með því að opn
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
 ms.topic: troubleshooting
-ms.date: 11/03/2022
+ms.date: 02/07/2023
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
 # Úrræðaleita aðgang með Microsoft 365 leyfum
 
-## Einkenni
+## "Þessi síða notar gögn úr tengdum töflum sem hafa ekki aðgang að" villuboðum
 
-Þegar færsla í Teams er opnuð færðu villuboð í flipa eða spjaldaupplýsingum sem svipar til:
+### Einkenni
 
-„Þessi síða notar gögn úr tengdum töflum sem þú hefur ekki aðgang að. Til að vinna með alla eiginleika þessarar síðu skal hafa samband við stjórnanda.“
+Þegar verið er að fá færslu í teymum birtast villuboð í flipa eða upplýsingum um kort sem svipar til:
 
-## Stofnar
+"Þessi síða notar gögn úr tengdum töflum sem þú hefur ekki aðgang að. Til að vinna með alla eiginleika þessarar síðu skal hafa samband við stjórnanda.“
 
-Þig vantar líklega heimildir hluta fyrir töflur sem núverandi síða eða færsla tengist við.
+### Stofnar
 
-## Einkenni
+Líklega vantar Hlutaheimildir fyrir töflur sem þessi síða á að tengjast eða skrá tengla á.
 
-Aðgangur hefur verið virkjaður en notendur fá heimildarvillu þegar þeir opna einhverja færslu.
+## Microsoft 365 aðgangur hefur verið virkjaður en notendur fá heimildarvillu
 
-## Stofnar
+### Einkenni
 
-Ef þú virkjar aðgang í stjórnendamiðstöð Business Central, en úthlutar ekki heimildum á stillingarsíðu leyfis munu allir sem reyna að opna færslur Business Central í Teams fá notandafærslu sína úhlutaða án heimildar fyrir neina hluti. Öryggi er hannað inn í Business Central: stjórnendur verða fyrst að grunnstilla hvaða gögn er hægt að nálgast í Teams. 
+Aðgangur með  Microsoft 365  hefur verið virkjaður í Aðalmiðstöð fyrirtækja en notendur fá heimildarvillu þegar verið er að fá aðgang að einhverri færslu.
 
-## Upplausn
+### Stofnar
+
+Ef aðgangur er gerður í stjórnstöðinni aðalmiðstöð, en úthluta ekki heimildum á  **síðuna leyfistilrasíðan**, mun einhver sem reynir að fá aðgang að aðalfærslum í teymi. Öryggi er hannað inn í Business Central: stjórnendur verða fyrst að grunnstilla hvaða gögn er hægt að nálgast í Teams. 
+
+### Upplausn
 
 Sérstilling heimilda á grunnstillingarsíðu leyfis mun aðeins hafa áhrif á nýlega stofnaða notendur. Þú verður einnig að úthluta heimildum sem vantar til notenda sem hafa þegar verið stofnaðir í gegnum listasíðu notenda. 
 
-## Einkenni
+## Þú samnýttir tengil í teymum en notendur fá skilaboð um að þeir geti aðeins skoðað gögn
 
-Þegar ég deili tengli í Teams fá aðrir villuna „Þegar Business Central er opnað með Microsoft 365 leyfi er einungis hægt að skoða gögn í Microsoft Teams“.
+### Einkenni
 
-## Stofnar
+Þegar þú deilir tengli í lið sem aðalnotandi viðskipta, aðrir fá villuna "þegar aðgangur að viðskiptamiðinu er með  Microsoft 365  leyfi er aðeins hægt að skoða gögn í  Microsoft Teams ".
+
+### Stofnar
 
 Þegar tengli Business Central er deilt í Teams-spjalli eða rásum mun tilfærsla í gegnum tengil alltaf fara úr Microsoft Teams þar sem gögnin verða ekki lengur aðgengileg einstaklingi sem er með Microsoft 365 leyfi.
 
-## Upplausn
+### Upplausn
 
 Þegar síðum eða færslum er deilt skal annaðhvort hafa með forskoðun tengils sem spjald eða deila gögnum sem flipa í spjallinu eða rásinni.
+
+## Spjald frá samnýttum tengli er lágmarks og inniheldur ekki upplýsingar um hnappinn
+
+### Einkenni 
+
+ Microsoft 365 Þegar leyfishafi hefur hluta af aðalleyfishafi í starfsemi sem hefur aðaltengigjald í teymum, stækkar það sjálfkrafa í spjald sem hefur engar gagnlegar upplýsingar og sýnir aðeins Viðskiptaseðla  **án upplýsingahnappi** .
+
+### Stofnar
+
+Notendur sem eru með  Microsoft 365  leyfi en engin fyrirtæki miðlægt leyfi mega ekki samnýta tengla sem spjöld. Ef notandinn er með Business Central App fyrir hópa uppsetta og límum tengil inn á tónsvæðið þá birtist aðeins lágmarks kort. 
 
 ## Sjá einnig .
 

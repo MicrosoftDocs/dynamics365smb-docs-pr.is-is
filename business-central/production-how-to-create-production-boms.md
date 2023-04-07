@@ -96,7 +96,7 @@ Framleiðsluuppskrift þarf 70 málmhluta með lengd = 0,20 m og breidd = 0,15 m
 
 [Stofna leiðir](production-how-to-create-routings.md)  
 [Stjórna afurðarafbrigðum](inventory-item-variants.md)  
-[Kynning: Afbrigði](contoso-coffee/variants.md)  
+[Walkthrough: afbrigði](contoso-coffee/manufacturing/variants.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
 [Áætlun](production-planning.md)  

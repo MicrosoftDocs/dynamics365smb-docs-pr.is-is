@@ -1,20 +1,20 @@
 ---
 title: Greiðsluvikmörk og greiðsluafsláttarvikmörk
-description: Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum.
+description: Í þessari grein er útskýrt hvernig setja á upp greiðsluvikmörk til að loka reikningi þegar greiðslan nær ekki fullu yfir reikningsupphæðin.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '118, 314, 395'
-ms.date: 10/29/2021
+ms.date: 04/03/2023
 ms.author: edupont
 ---
 # Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
 
-Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum. Til dæmis eru greiðsluvikmörk yfirleitt fyrir litlar upphæðir sem myndi kosta meira að leiðrétta en að samþykkja. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
+Hægt er að setja upp greiðsluvikmörk til að loka reikningi þegar greiðslan nær ekki fullu yfir upphæðina á reikningnum. Til dæmis eru greiðsluvikmörk yfirleitt fyrir litlar upphæðir sem myndi kosta meira að leiðrétta en að samþykkja. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
 
-Hægt er að nota greiðsluvikmörk þannig að allar útistandandi upphæðir hafa leyfilegt hámark greiðsluvikmarka. Ef greiðsluvikmörk eru uppfyllt verður greiðsluupphæðin greind. Ef greiðsluupphæðin er vangreiðsla mun vangreiðslan loka öllum eftirstöðvum. Sundurliðuð fjárhagsfærsla er bókuð á greiðslufærsluna þannig að engar eftirstöðvar eru eftir á jöfnuðu reikningsfærslunni. Ef skilyrði um greiðsluvikmörk eru uppfyllt og greiðsluupphæðin er ofgreiðsla þá verður sundurliðuð fjárhagsfærsla bókuð á greiðslufærsluna þannig að engar eftirstöðvar eru eftir á greiðslufærslunni.
+Greiðsluvikmörk eru notuð þannig að sérhver útistandandi upphæð er með Hámarks leyfilegt greiðsluvikmörk. Ef vikmörk greiðslu eru uppfyllt er Greiðsluupphæðin greind. Ef greiðsluupphæðin er vangreiðsla mun vangreiðslan loka öllum eftirstöðvum. Sundurliðuð fjárhagsfærsla er bókuð á greiðslufærsluna þannig að engar eftirstöðvar eru eftir á jöfnuðu reikningsfærslunni. Ef skilyrði um greiðsluvikmörk eru uppfyllt og greiðsluupphæðin er ofgreiðsla þá verður sundurliðuð fjárhagsfærsla bókuð á greiðslufærsluna þannig að engar eftirstöðvar eru eftir á greiðslufærslunni.
 
 Hægt er að nota vikmörk greiðsluafsláttar þannig, að ef greiðsluafsláttur er veittur eftir dagsetningu greiðsluafsláttar verður hann bókaður á greiðslureikning eða greiðsluvikmarkareikning.
 
@@ -66,6 +66,9 @@ Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilg
 > Ef gera á vikmörk viðskiptamanns eða lánardrottins óvirk skal loka á vikmörk á spjaldi viðkomandi viðskiptamanns eða lánardrottins. Frekari upplýsingar er að finna í [Lokað á greiðsluvikmörk fyrir viðskiptavini](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 > Þegar vikmörk eru sett upp athugar [!INCLUDE[prod_short](includes/prod_short.md)] hvort einhverjar færslur séu opnar og reiknar vikmörk fyrir þær færslur að auki.
+
+> [!IMPORTANT]  
+>  **Þegar reiturinn Leiðrétta staðgreiðsluafsláttur**  er gerður á  **uppsetningarsíðu**  VSK-bókunar telst VSK-upphæðin þar sem hún tengist  **greiðsluþolunum**  og  **upphæðum staðgreiðsluafsláttar**  og verður að lækka í báðum færsluupphæðum ef þær eru fyrir hendi. Ekki er hægt að samskipa kerfinu til að nota VSK-lækkun fyrir eina gerð færslunnar.  
 
 ## Til að virkja eða slökkva á greiðsluvikmarkaviðvörun
 

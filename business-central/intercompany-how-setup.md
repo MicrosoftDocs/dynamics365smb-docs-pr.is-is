@@ -1,172 +1,254 @@
 ---
 title: Setja upp bókun millifyrirtækjafærslu
-description: 'Stofna lánardrottna og viðskiptamenn millifyrirtækis sem svokallaða millifyrirtækjafélaga, og setja upp bókhaldslykil millifyrirtækis.'
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+description: Lærðu að setja upp samstæðusamstarf.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 01/31/2023
+ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621'
-ms.date: 03/09/2022
-ms.author: edupont
 ---
-# Setja upp bókun millifyrirtækjafærslu
+# Setja upp samstæðufærslur
 
-Bókanir innan samstæðu gerir bókhaldsvinnu fyrir tvö eða fleiri fyrirtæki auðvelt verk fyrir miðstýrða fjármáladeild og bókara í fyrirtækjum millifyrirtækjafélaga. Til að senda viðskipti (til dæmis sölubókarlínu) frá einu fyrirtæki og láta stofna samsvarandi viðskipti (til dæmis innkaupabókarlínu) í fyrirtækisfélaganum þurfa fyrirtækin að koma sér saman um sameiginlegan bókhaldslykil og víddir sem nota í viðskiptum milli fyrirtækjanna. Bókhaldslykillinn milli fyrirtækja gæti til dæmis verið einfölduð útgáfa af bókhaldslykli móðurfyrirtækisins. Hvert fyrirtæki varpar heildarbókhaldslykli sínum á sameiginlega bókhaldslykilinn milli fyrirtækja, og hvert fyrirtæki varpar víddum sínum á víddirnar milli fyrirtækja.  
+Með samstæðusamstarfi er auðveldara að halda utan um bókhaldsferla þegar tvö eða fleiri dótturfélög eiga oft viðskipti við hvort annað. Samstarfsaðilar geta gengið að viðskiptum, svo sem sölu og innkaupum, og meðhöndlað þá annaðhvort handvirkt eða sjálfvirkt. Til dæmis, þegar félagi sendir sölubókarlínu til annars samstarfsaðila, er stofnuð innkaupalína fyrir viðtökufélagana.
 
-Einnig þarf að setja upp MF-félagakóða fyrir hvert [!INCLUDE [prod_short](includes/prod_short.md)] fyrirtæki, sem öll fyrirtækin þurfa að samþykkja og síðan úthluta þeim til viðskiptamanna- og lánardrottnaspjalda.  
-
-Ef MF-línur eru stofnaðar eða mótteknar er hægt að nota eigin vörunúmer eða setja upp vörunúmer félagans fyrir hverja vöru, annað hvort í **Lánardr. vörunr.** reitinn eða í **Algengt vörunr.** á vöruspjaldinu. Einnig má nota **Vörutilvísun** aðgerðina: Til að varpa vörunúmerin á skjalinu í lýsingar þínar á vörum millifyrirtækjafélaga, skal opna kortið fyrir hverja vöru, og velja síðan **Tilvísanir** aðgerð til að setja upp tilvísanir á milli þinna vörulýsinga og þess sem tilheyrir millifyrirtækjafélaga. Frekari upplýsingar er að finna í [Nota vörutilvísanir](inventory-how-use-item-cross-refs.md).
-
-Ef gerðar verða sölufærslur milli fyrirtækja sem innihalda forða þarf að fylla út reitinn **Nr. innk.reikn. MF-félaga** á forðaspjaldi fyrir hvern viðkomandi forða. Þetta er númer fjárhagsreikningsins milli fyrirtækja sem magnið fyrir þennan forða verður bókað í fyrirtækisfélaganum. Frekari upplýsingar eru í [Setja upp tilföng](projects-how-setup-resources.md).
+Bókhaldslykillinn getur t.d. verið útgáfa af bókhaldslykli samstillingar félaga. Sérhver samstarfsaðili kortvarpar reikninga sína á bókhaldslykil samstæðunnar. Hver samstarfsaðili varpar einnig inn víddum og víddargildum á víddir milli fyrirtækja.
 
 > [!NOTE]
-> Innkaupafærslur milli fyrirtækja sem innihalda tilföng, eignir og vörugjöld eru ekki studdar að fullu. Í fyrirtæki millifyrirtækjafélaga verður reiturinn **Línugerð** auður í innkaupaskjalslínum sem innihalda þessar einingar. Uppfæra þarf reitinn handvirkt.
+> Í 2023 út bylgjan 1 við höfum kynnt okkur bætta  **uppsetningu Samstæðuuppsetningar** . Nýja síðan auðveldar uppsetningu samstæðusamstarfs með því að sameina öll uppsett verk á einni síðu. Ef þú ert nýbúinn  [!INCLUDE [prod_short](includes/prod_short.md)] þá ertu nú þegar að nota nýja upplifunina. Ef viðskiptavinur er til staðar getur kerfisstjóri kveikt á aðgerðum í  **almennu færslubókarhreyfingum sjálfkrafa til að samþykkja MF-færslur**  innan samstæðu á  **síðu aðgangsstjórnunar** .
+>
+> Verkin í þessari grein gera ráð fyrir að kveikt sé á aðgangsrofi. Ef þú ert búinn að setja upp samstæðusamstarf er hægt að nota það áfram.
 
-## Samþykkja færslur sjálfkrafa frá millifyrirtækjafélögum
+## Verður að byrja fyrir
 
-2022 útgáfubylgja 1 kynnti nýja síðu **Uppsetning samstæðu** sem getur flýtt fyrir úrvinnslu færslna hjá millifyrirtækjafélögum. Síðan gerir þér kleift að tilgreina hvort þetta fyrirtæki búi sjálfkrafa til færslubókarlínur sem byggja á bókunum millifyrirtækjafélaga af síðunni **MF-færslubók**. Færslubókarlínur eru stofnaðar fyrir þig en ekki bókaðar. Hægt er að nota eftirfarandi reiti á nýju uppsetningarsíðu samstæðufyrirtækja til að tilgreina hvar á að stofna mótteknar færslubókarfærslur innan samstæðu:
+Áður en hafist er handa við að setja upp samstæðusamstarf hafa verið teknar nokkrar ákvarðanir til að gera.
 
-* **Sjálfgefið sniðmát MF–færslubókar**
-* **Sjálfgefin runumyndun fyrir MF–færslubók**
+|Ákvörðun  |Description  |
+|---------|---------|
+|Hvaða bókhaldslykla á að vera grunnur að bókhaldslykli samstæðunnar?     | Öll fyrirtæki í samstarfinu verða að nota bókhaldslykil MF-samstæðu. Hægt er að byggja bókhaldslykil milli fyrirtækja á bókhaldslyklum frá einu fyrirtækjanna í samstarfinu eða stofna nýjan bókhaldslykil innan samstæðu. Lyklar sem nota á eru notaðir í samnýtingu á báða vegu þannig að hver félagi sendir bæði og tekur við færslum á réttum reikningum. Frekari upplýsingar um uppsetningu bókhaldslykils milli fyrirtækja í  [samstæðulínuritum lykla](#set-up-the-intercompany-charts-of-accounts).         |
+|Hvaða víddir eiga að vera undirstaða samstæðuvíddanna?     | Ef víddir MF eru notaðar verða þær að vera þær sömu fyrir öll fyrirtækin í samstarfinu. Þegar víddir milli fyrirtækja eru tilgreindar skal varpa víddargildum þeirra. Frekari upplýsingar um vörpun víddargilda til að  [Setja upp víddir](#set-up-intercompany-dimensions) milli fyrirtækja.        |
+|Hvaða samstarfsaðilar eru viðskiptamenn eða Lánardrottnar, eða hvort tveggja?     |  Frekari upplýsingar um uppsetningu viðskiptamanna og lánardrottna fyrirtækja í samstæðusamstarfi á  [að setja upp samstæðufélaga sem viðskiptavini og lánardrottna](#set-up-intercompany-partners-as-customers-and-vendors).       |
+|Á að tilgreina bankareikninga til að nota í samstarfinu?| Hægt er að flýta ferlinu við að skrá greiðslufærslur með því að tilgreina bankareikning sem á að nota fyrir hvert samstarfsfyrirtæki.  [Frekari upplýsingar eru tilgreindar í bankareikningum til að nota fyrir samstæðufélaga](#specify-the-bank-accounts-to-use-for-intercompany-partners). |
+|Hvernig á að auðkenna fyrirtækin í samstarfinu?     | Allir aðilar verða að vera sammála um einstakan auðkenniskóða félaga innan samstæðu hvers fyrirtækis. Kótanum er úthlutað á viðskiptamanna-og lánardrottnaspjöld til að auðkenna tengdar færslur. Frekari upplýsingar um auðkenni eru stofnaðar í  [númeraröð](ui-create-number-series.md).        |
+|Hvernig á að meðhöndla vörunúmera?     | Ef vörur í samstæðu innihalda atriði er annaðhvort hægt að nota eigin vörunúmer eða setja upp vörunúmer félaganúmera fyrir hverja vöru, annað hvort í reitnum  **Vörunr.**  svæðinu eða í  **sameiginlegum vörulið nr.**  á birgðaspjaldinu. Einnig er hægt að nota  **tilvísunaraðgerðina vörutilvísun**  til að varpa vörunúmerum á MF-félaga-lýsingu á vörunum. Til að fræðast meira um vöruvísanir er farið í að  [nota vörutilvísanir](inventory-how-use-item-cross-refs.md).        |
+|Eru auðlindir í viðnum?     | Ef tilföng innan samstæðu verða með forða er fyllt út í  **MF-félagafærslum. Nr.**  Fjárhagsreikn. á forðaspjaldinu fyrir hvern forða. Í þessum reit er númer þess fjárhagslykils samstæðu sem upphæðin fyrir þennan forða verður bókuð á í félagafélaginu. Til að fræðast meira um tilföng er farið að  [Setja upp tilföng](projects-how-setup-resources.md).<br><br>**Athugið**<br>Innkaupafærslur milli fyrirtækja sem innihalda tilföng, eignir og vörugjöld eru ekki studdar að fullu. Í félagasamfélaginu er  **reiturinn Tegund**  línu auður í innkaupaskjalslínum sem innihalda þessa aðila. Uppfæra þarf reitinn handvirkt.        |
+
+## Yfirlit yfir skrefin til að komast af stað
+
+ **Notaðu síðuna Samstæðuuppsetning**  til að setja upp eftirfarandi íhluti í samstæðufærslum:
+
+* Samstæðustillingar fyrirtækisins.
+* Fyrirtækið sem verður samstillingarfélaginn.
+* Bókhaldslyklar milli fyrirtækja sem allir sem hann félagar nota til að skiptast á færslum.
+* Varpanir á milli lykla í bókhaldslykli og bókhaldslykli milli fyrirtækja fyrir inn-og útfærslur fyrir hvert félagatal.
+* Víddir milli fyrirtækja og víddargilda sem á að nota og hvernig þær eru kortlagðar í víddum fyrir hvert félagatal.
+* Félög sem eru aðilar samstæðunnar.
+* Félög sem eru Lánardrottnar eða viðskiptamenn, eða hvort tveggja.
+
+## Setja upp samstillingarfélaga
+
+Allir samstarfsaðilar verða að nota bókhaldslykil milli fyrirtækja og, ef þörf krefur, sömu MF-víddir. Hægt er að vista tíma þegar samstarfið er sett upp með því að nota bókhaldslykla og víddir fyrir einn af félögunum sem grunnlínu fyrir bókhaldslykil og víddir milli fyrirtækja. Fyrirtækið sem notað er sem Grunnlína er kallað  *samstillingarfélaginn*. Algengast er að samstillingarfélaginn sé fyrirsvarsfélagið en þarf ekki að vera það.
+
+ **Á síðu Samstæðuuppsetningarinnar**  Tilgreinir hver samstarfsaðili samstillingarfélagana í  **reitnum samstillingarfélagi** . Á eftir eru bókhaldslyklar milli fyrirtækja og samstæðuvíddir sjálfkrafa tilgreindar fyrir þær á grundvelli uppsetningar samstillingarfélaganna. Félagarnir nota  **síðan bókhaldslykil**  milli fyrirtækja og  **vörpun MF-vídda**  til að varpa bókhaldslykli þeirra og víddum á bókhaldslykil milli fyrirtækja og vídda og öfugt. 
+
+Þegar hægt er að samstilla gögn við samkeyrslu félaga skal velja  **aðgerðina Uppsetning**  samstilltar.
 
 > [!NOTE]
-> Ef fyrirtækið þitt notaði eiginleika innan samstæðu í [!INCLUDE [prod_short](includes/prod_short.md)] á undan 2022 útgáfutímabili 1 til að samþykkja færslur sjálfkrafa þarf stjórnandinn þinn að kveikja á eiginleikanum **Samþykkja almennar færslubókarfærslur innan samstæðu sjálfkrafa** á síðunni **Eiginleikastjórnun**.
+> Mikilvægt er að kortleggja reikninga og víddir í báðar áttir. Það er, bæði á bókhaldslykil milli fyrirtækja og í víddum, og úr þeim á eigin lykla og víddir.
 
-## Að setja upp fyrirtæki fyrir samstæðufærslur
+## Setja upp bókhaldslykla milli fyrirtækja
 
-Þessir reitir sem á að fylla út eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**.
+Allir félagar verða að nota bókhaldslykil MF-samstæðu og varpa reikningunum í bókhaldslykil þeirra. Ef Bókhaldslykill fyrirtækisins skilgreinir bókhaldslykil samstæðunnar fyrir félagasamfélögin skal fylgja skrefunum í þessum kafla.
+
+Ef notað er XML-skrá sem geymir bókhaldslykil milli fyrirtækja skal fara eftir skrefunum í  [innflutningi eða útflutningi bókhaldslykils](intercompany-how-setup.md#import-or-export-an-intercompany-chart-of-accounts).  
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samstæðu** og velja síðan viðkomandi tengil.
+2. Velja skal  **aðgerðina MF-bókhaldslykil** .
+3. Til að bæta við lyklum skal gera einn af eftirfarandi á  **bókhaldslykli**  samstæðu-síðu:
+    * Veldu  **nýtt** og þá færðu inn hvern lykil á línu á síðunni.  
+    * Ef MF-bókhaldslykillinn verður eins og eða svipaður og venjulegi bókhaldslykillinn er hægt að láta fylla síðuna út sjálfkrafa með því að velja **Afrita frá bókhaldslykli** aðgerðina. Hægt er að breyta nýju línunni eins og þurfa þykir.
+    * Ef sett hefur verið upp Bókhaldslykill milli fyrirtækja fyrir samstillingarfélaga skal nota  **aðgerðina Uppsetning**  samstillingar til að afrita þá reikninga.
+
+    > [!TIP]
+    > Ef Bókhaldslykill milli fyrirtækja er afritaður úr samstillingarfélagi er hægt að nota  **aðgerðina Uppsetning**  samstillingar til að uppfæra samstæðureikningana með öllum breytingum sem félaginn gerir með þesum.
+
+Næsta skref er að varpa bókhaldslykli á bókhaldslykla milli fyrirtækja. Frekari upplýsingar á  [varpa bókhaldslykil milli fyrirtækja í bókhaldslykil](#map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts) fyrirtækisins.
+
+### Flytja inn bókhaldslykil eða flytja út eða út
+
+Samstillingarfyrirtækið getur samnýtt bókhaldslykil sinn með samstarfsaðilum með því að flytja það út í skrá. Félagar geta flutt inn skrána til að fá bókhaldslykilinn.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samstæðu** og velja síðan viðkomandi tengil.
+2. Velja skal  **aðgerðina MF-bókhaldslykil** .
+3.  **Á síðunni bókhaldslykil**  fyrirtækja skal velja  **aðgerðina innflutningur/útflutningur**  og velja  **síðan innflutning**  eða  **útflutning**.
+4. Veldu skrána sem á að flytja inn eða út.  
+
+ **Síða MF-bókhaldslykils**  er fyllt út með nýjum eða Ritstýrð fjárhagsreikningslínum samkvæmt bókhaldslykli samstæðunnar í skránni. Allar fyrirliggjandi, óskyldar línur á síðunni haldast óbreyttar.
+
+## Varpa bókhaldslykli milli fyrirtækja á bókhaldslykil fyrirtækisins  
+
+Þegar bókhaldslykill milli fyrirtækja hefur verið skilgreindur eða fluttur út skal varpa hverjum samstæðureikningi í einn reikninga.  **Á síðunni Bókhaldslykill**  milli fyrirtækja er hægt að tilgreina hvernig fjárhagsreikningar milli fyrirtækja í færslum á innleið eiga að vera á fjárhagsreikningum í bókhaldslyklum fyrirtækisins.
+
+Ef samstæðureikningarnir og reikningarnir hafa sömu númer er hægt að varpa lyklum sjálfkrafa.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samstæðu** og velja síðan viðkomandi tengil.  
-2. Á síðunni **Uppsetning samstæðu** skal fylla út reitina. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Velja skal  **aðgerðina MF-bókhaldslykil** .
 
-## Uppsetning millifyrirtækjafélaga
+    > [!TIP]
+    > Til að komast í aðgerðir á síðunni gæti þurft að útvíkka síðuna til að skoða yfirlit yfir breiða uppsetningu.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Millifyrirtækjafélagar** og velja síðan viðkomandi tengil.
-2. Valið er **Nýtt** aðgerð.
-3. Á síðunni **Millifyrirtækjafélagi** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Endurtaka skal skref 2 og 3 fyrir öll önnur fyrirtæki sem eru hluti af þessari uppsetningu samstæðu.
+3.  **Á síðunni Bókhaldslykill**  milli fyrirtækja er hægt að  **Velja vörpun**  bókhaldslykils.
+4. Hægt er að varpa lyklum handvirkt eða sjálfvirkt.
+
+    * Til að stofna handvirkt vörpun þarf að velja lykil á  **milli MF-bókhaldslykils**  og  **fjárhagsbókhaldslykils**, og velja svo lykil í reitnum  **fjárhags nr.** Og  **MF nr.** Reitir
+    * Til að varpa sjálfkrafa upp lyklum sem hafa sömu númer skaltu velja línurnar sem á að varpa, velja  **kortið í Reikn. með sömu**  aðgerð og velja síðan bókhaldslykla sem á að uppfæra.
+
+    > [!TIP]
+    > Ef þú vilt varpa mörgum eða kannski öllum lyklum skaltu velja línu, velja  :::image type="icon" source="media/show-more-options-icon.png" border="false"::: og velja síðan  **Velja nánar**.
+
+## Setja upp samstæðuvíddir
+
+Ef samstarfsaðilar skiptast á færslum með víddum sem tengjast þeim eru það sammála víddunum sem allir munu nota. Til dæmis getur samstillingarfyrirtækið stofnað einfalda útgáfu af víddunum, flutt þær út í XML-skrá og síðan dreift skránni til hvers samstarfsaðila. Hver félagi getur flutt inn XML-skrána á  **síðu MF-vídda**  og varpað því næst samstæðuvíddunum á víddir sínar. Frekari upplýsingar um  [vörpun MF-vídda í víddir](#map-intercompany-dimensions-to-your-companys-dimensions) fyrirtækisins.
 
 > [!NOTE]
-> Á [!INCLUDE[prod_short](includes/prod_short.md)] Online er ekki hægt að nota skráarstaðsetningar til að flytja færslur til samstarfsaðila þar sem [!INCLUDE[prod_short](includes/prod_short.md)] hefur ekki aðgang að staðbundna netinu þínu. Ef þú velur **Staðsetning skráar** í reitnum **Flutningsgerð**, er **Möppuslóð** ekki í boði. Þess í stað er skránni hlaðið niður í niðurhalsmöppuna á tölvunni þinni. Þú sendir síðan skrána til einhvers í samstarfsfyrirtækinu, til dæmis í tölvupósti. Við mælum með því að þú notir **Tölvupóstur** í staðinn til að fá beinna samband.
+> Hvert fyrirtæki verður að varpa víddunum á víddir milli fyrirtækja fyrir útsend skjöl og móttekin skjöl. Vörslureikningar í báðar áttir eru mikilvægir og hjálpa til við að viðhalda samræmi á milli fyrirtækjanna.
+
+Ef samstarfsaðilar vilja nota samstæðuvíddir samstillingar félaga er fylgt skrefunum í þessum kafla. Ef samnýta á notkun á XML-skrá sem inniheldur víddir milli fyrirtækja er fylgt eftir skrefum í  [innflutningi eða útflutningi samstæðuvídda](#import-or-export-intercompany-dimensions).
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samstæðu** og velja síðan viðkomandi tengil.  
+2. Velja skal  **aðgerðina MF-víddir** .
+3. Til að bæta við víddum er eitt af eftirfarandi á  **síðunni MF-víddir** :
+    * Velja  **skal nýtt** og færa síðan inn hverja vídd í línu.  
+    * Ef millifyrirtækjavíddirnar verða samskonar eða svipaðar og venjulegu víddirnar þínar er hægt að fylla út á síðunni sjálfkrafa með því að  **Velja afritið úr aðgerðinni víddir** . Á eftir er hægt að breyta línunum eftir þörfum.
+    * Ef víddir á milli fyrirtækja hafa verið tilgreindar fyrir samstillingarfélaginn er Uppsetningaraðgerð Samstillingaruppsetningar  **notuð**  til að afrita þær víddir.
+
+    > [!TIP]
+    > Ef víddir milli fyrirtækja eru afritaðar frá samstillingarfélagi er hægt að nota  **aðgerðina Uppsetning**  samstillingar til að uppfæra víddir milli fyrirtækja með öllum breytingum sem félagið gerir á þesum.  
+
+### Flytja inn eða út víddir fyrirtækja  
+
+Samstillingarfyrirtækið getur samnýtt víddir sínar með samstarfsaðilum með því að flytja þær út í skrá. Félagar geta flutt skrána inn til að fá víddirnar.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samstæðu** og velja síðan viðkomandi tengil.
+2. Velja skal  **aðgerðina MF-víddir** .  
+3.  **Á síðunni millifyrirtækjavíddir**  er valin  **aðgerðin innflutningur/útflutningur**  og síðan er annað hvort  **valið innflutningur**  eða  **útflutningur**.
+4. Veldu skrána sem á að flytja inn eða út.
+
+Næsta skref er að varpa víddunum með MF-víddum. Frekari upplýsingar um  [vörpun MF-vídda í víddir](#map-intercompany-dimensions-to-your-companys-dimensions) fyrirtækisins.
+
+### Varpa víddum milli fyrirtækja á víddir fyrirtækisins
+
+Þegar víddirnar sem á að nota eru tilgreindar skal varpa hverri MF-vídd með einni af víddum fyrirtækisins og öfugt. Nota skal  **síðuna víddir millifyrirtækjsvörunar**  til að tilgreina vörpun. Eftir á skal endurtaka ferlið fyrir víddargildin.
+
+* Tilgreinið hvernig MF-víddir í færslum á innleið eiga að vera í víddum af lista yfir fyrirtæki af víddum fyrirtækisins.
+* Tilgreina hvernig víddir verða þýddar á MF-víddir í færslum á  *útleið*.
+
+Ef einhver MF-víddir hafa sama kóta og samsvarandi víddir í fyrirtækinu er hægt að varpa víddunum sjálfkrafa.  
+
+Í eftirfarandi skrefum eru fyrst að varpa MF-víddum á víddir fyrir skjöl á innleið í  **MF-víddrúðunni** . Síðan er hægt að varpa víddum á víddir milli fyrirtækja fyrir útsend skjöl  **í gildandi rúðunni fyrirtækjavíddir** .
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samstæðu** og velja síðan viðkomandi tengil.
+2. Velja skal  **aðgerðina MF-víddir** .
+3.  **Á síðunni millifyrirtækjavíddir**  er valin  **aðgerðin víddarvörpun** .
+4. Hægt er að varpa víddunum handvirkt eða sjálfvirkt.
+
+    * Til að stofna handvirkt vörpun þarf  **·**  **·**  að velja vídd og velja síðan vídd í  **reitunum disa. kóti**  og  **MF-Dim.** 
+    * Til að varpa sjálfkrafa í víddir sem hafa sama kóta skal velja línurnar sem á að varpa, velja  **síðan víddir korts með sömu kóðaðgerðinni**  og velja síðan víddirnar sem á að uppfæra. 
+
+    > [!TIP]
+    > Ef þú vilt varpa mörgum eða ef til vill öllum víddum skaltu velja línu, velja  :::image type="icon" source="media/show-more-options-icon.png" border="false"::: og velja síðan  **Velja nánar**.
+
+5.  **Velja vörpun**  víddargilda.
+6.  **Á vörpun**  síðna MF-víddargilda eru skrefin til að búa til vörpun svipuð því sem gert var fyrir víddir.
+
+## Setja upp færslubókarsniðmát og keyrslur innan samstæðu
+
+Setja verður upp færslubókarsniðmát og almenna færslubókarkeyrslu til að nota sjálfgefið fyrir færslur milli fyrirtækja. Sniðmátið og Runa eru sérstaklega mikilvæg ef samstæðufærslur eru sjálfkrafa samþykktar af félögunum. Frekari upplýsingar um sjálfvirka samþykkt færslna má fá með því að fara í  [sjálfvirkar færslur frá samstæðufélögum](#auto-accept-transactions-from-intercompany-partners).   
+
+* Almennar færslubækur eru notaðar til að bóka á fjárhagslykla og aðra lykla, svo sem banka, viðskiptavini og lánardrottnalykla. Bókun með almennri færslubók stofnar alltaf færslur á fjárhagsreikningum.   **Nota skal síðuna færslubók innan samstæðu**  til að setja upp almenna færslubókarkeyrslu til að nota. Stillingarnar sem eru ákveðnar í samstæðufærslum eru lyklar sem tilgreindir eru í  **MF-reikningagerð**  og  **MF-Reikningur nr** .
+* Færslubókarsniðmát gefa færslubókarsíðu sem hönnuð er fyrir tiltekið málefni. Þ.e. svæðin í færslubókarsniðmátunum eru nákvæmlega þau sem þörf er á fyrir tiltekinn hluta forritsins.  **Notaðu síðuna Almennir færslubókasniðmát**  til að setja upp sniðmát til að nota fyrir samstæðufærslur.
+
+Til að fræðast meira um sniðmát og keyrslur færslubóka er farið í  [Sniðmát færslubóka og runur](ui-work-general-journals.md#use-journal-templates-and-batches).
+
+## Setja upp fyrirtæki fyrir færslur innan samstæðu
+
+Eftirfarandi leiðbeiningar gera ráð fyrir að samstillingarfélagi sé settur upp með bókhaldslyklum og víddum sem byggja á bókhaldslykil og víddir milli fyrirtækja. Hægt er að setja þau upp sjálfur en yfirleitt er fljótlegra að fara í gang og viðhald er auðveldara, til að þú getir notað samstillingarfélaga. Frekari upplýsingar um samstillingarfélaga er að fá með því að  [Setja upp samstillingarfélaga](#set-up-a-synchronization-partner).
+
+> [!TIP]
+> Gott ráð er að fylla út reitina á  **flipanum Almennt**  á  **samstæðuuppsetningarsíðunni**  fyrir hvern félaga áður en félögum þeirra er bætt við. Þegar bætt er við samstarfsfyrirtæki sem er í sama leigjanda,  [!INCLUDE [prod_short](includes/prod_short.md)]  fær MF-númer þeirra og nafn fyrirtækis úr uppsetningu þeirra á flipanum Almennt.  **Reiturinn Heiti**  fyrirtækis mun sannreyna að MF-Kóði þeirra sé einstakur.
 
 > [!NOTE]
-> Fyrir samstæðubókanir, þegar kveikt hefur verið á **Samþykkja færslur sjálfkrafa** á síðunni **Spjald millifyrirtækjafélaga** mun [!INCLUDE[prod_short](includes/prod_short.md)] fela viðvörunarboð um innkaupareikninga sem tvítaka upprunalega innkaupapöntun. Því er mikilvægt að vera með viðskiptaferli til að stjórna tvítekningum. Til dæmis með því að eyða slíkum innkaupapöntunum þegar innkaupareikningurinn berst frá millifyrirtækjafélaga.
+> Ef notaður er samstillingarfélagi skal láta  **samstillingarfélagakvöldin**  vera auð þegar fyrirtækið er sett upp fyrir samstarfið.
 
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samstæðu** og velja síðan viðkomandi tengil.  
+2.  **Á síðu Samstæðuuppsetningar**  er fyllt út í reitina á  **flipanum Almennt** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Hvernig á að: Setja upp lánardrottna og viðskiptamenn millifyrirtækis
+> [!NOTE]
+> Í  [!INCLUDE[prod_short](includes/prod_short.md)]  Online er ekki hægt að nota skráarstaðsetningar til að flytja færslur í samstarfsaðila þar  [!INCLUDE[prod_short](includes/prod_short.md)]  sem ekki er hægt að fá aðgang að þínu staðarneti. Ef þú velur **Staðsetning skráar** í reitnum **Flutningsgerð**, er **Möppuslóð** ekki í boði. Þess í stað verður skráin sótt í  **möppunni niðurhal**  í tölvunni. Þú sendir síðan skrána til einhvers í samstarfsfyrirtækinu, til dæmis í tölvupósti. Í meira mæli í beinu framhaldi mælum við með því að þú veljir  **email**.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
-2. Að öðrum kosti geturðu nálgast lánardrottinn frá reitnum **Lánardrottinn nr.** á síðunni **Millifyrirtækjafélagi**.
-3. Opna spjaldið fyrir lánardrottinn sem er millifyrirtækjafélagi. Nánari upplýsingar eru í [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md).
-4. Í reitnum **Kóði millifyrirtækjafélaga** er valinn viðeigandi kóði fyrir millifyrirtækjafélaga.
-5. Endurtaka skref 1 til 4 fyrir viðskiptamenn.
+Næsta skref er að setja upp samstarfsfyrirtækin.
 
-## Bókhaldslykill milli fyrirtækja er settur upp.
+## Setja upp samstæðufélaga
 
-Til að hópur fyrirtækja geti búið til færslur á milli fyrirtækja þarf hann að koma sér saman um bókhaldslykil sem notaður verður sem sameiginleg viðmiðun. Félagarnir þurfa að koma sér saman um reikningsnúmerin sem allir nota þegar færslur milli fyrirtækja eru stofnaðar. Dæmi: móðurfyrirtæki hópsins stofnar einfaldaða útgáfu af bókhaldslykli sínum, flytur hann síðan í XML-skrá sem það dreifir á hvert fyrirtæki í hópnum.  
+Hver félagi þarf að bæta öll önnur félög í samstarfinu sem félagatal.
 
-Ef bókhaldslykill fyrir fyrirtækið þitt skilgreinir bókhaldslykil innan samstæðu fyrir fyrirtæki samstarfsaðila skal fylgja ferlinu sem lýst er í [Að setja upp skilgreiningu bókhaldslykils milli fyrirtækja](intercompany-how-setup.md#to-set-up-the-intercompany-chart-of-accounts).  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samstæðu** og velja síðan viðkomandi tengil.
+2.  **Á fastflipa samstæðufélaga**  er valið  **Bæta við**.
+3.  **Á síðu félaga**  innan samstæðu er fyllt út í reitina. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Þrep 2 og 3 eru endurtekin fyrir öll fyrirtæki í samstarfinu.
 
-Ef fyrirtækið þitt er dótturfyrirtæki og hefur fengið XML-skrá með bókhaldslykli sem hópurinn notar sem sameiginlega viðmiðun er þessari aðferð fylgt [Hvernig á að flytja inn Bókhaldslykill milli fyrirtækja](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
+> [!NOTE]
+> Ef slökkt er á samstæðubókun ef kveikt er á  **Auto. samþykkja skipta á færslu**  á  **MF-síðu**  félagapósti  [!INCLUDE[prod_short](includes/prod_short.md)]  boðar að vara við Tvítekið innkaupareikninga upprunalegu innkaupapöntunarinnar. Mikilvægt er að hafa viðskiptaferla til að stjórna tvítekningum. Til dæmis með því að eyða slíkum innkaupapöntunum þegar innkaupareikningurinn berst frá millifyrirtækjafélaga.
 
-### Til að setja upp bókhaldslykil milli fyrirtækja
+### Setja upp samstæðufélaga sem viðskiptavini og lánardrottna
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-bókhaldslykill** og velja síðan viðkomandi tengil.
-2. Á síðunni **MF-bókhaldslyklar** skal færa inn hvern reikning í línu á síðunni.  
-3. Ef MF-bókhaldslykillinn verður eins og eða svipaður og venjulegi bókhaldslykillinn er hægt að láta fylla síðuna út sjálfkrafa með því að velja **Afrita frá bókhaldslykli** aðgerðina. Hægt er að breyta nýju línunni eins og þurfa þykir.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samstæðu** og velja síðan viðkomandi tengil.
+2.  **Á fastflipanum samstarfsaðilar**  samstæðunnar er kortasíða opnuð fyrir félagana.
+3. Eftir því hvað á að gera skal velja viðskiptavin eða félaga í reitnum  **viðskm.** Eða  **Lánardr.**  svæði.
 
-### MF-bókhaldslykill er fluttur út
+    > [!NOTE]
+    > Ef viðskiptavinurinn eða lánardrottinn hefur ekki verið stofnaður er hægt að velja  **+ nýtt**  í fellivalmyndinni til að setja þær upp. Til að fræðast meira um stofnun viðskiptavina og lánardrottna er farið í að  [skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  og  [skrá nýja lánardrottna](purchasing-how-register-new-vendors.md).
 
-Til að leyfa millifyrirtækjafélögum þínum að flytja inn skilgreinandi bókhaldslykilinn, verður að flytja hann út í skrá.
+    > [!TIP]
+    > Einnig er hægt að tilgreina viðskiptavin eða lánardrottinn sem samstæðufélaga með því að fylla í  **reitinn MF-félagskóti**  á  **Kortasíðum viðskiptamannakorta**  og  **lánardrottnaspjaldinu** .
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-bókhaldslykill** og velja síðan viðkomandi tengil.
-2. Á síðunni **MF-bókhaldslyklar** skal velja aðgerðina **Flytja út** og síðan velja hnappinn **Vista**.
-3. Skrárheitið og staðsetningin þar sem vista á XML-skrána eru valin og síðan smellt á **Vista**.  
+### Setja upp sjálfgefna fjárhagslykla MF-félaga innan samstæðu  
 
-### Bókhaldslykill milli fyrirtækja fluttur inn:  
-
-Þegar til er skrá sem skilgreinir MF-bókhaldslykilinn, geta millifyrirtækjafélagar flutt hana inn til að vera vissir um að hafa sama lykilinn.  
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-bókhaldslykill** og velja síðan viðkomandi tengil.  
-2. Á síðunni **MF-bókhaldslyklar** skal velja aðgerðina **Flytja inn**.  
-3. Skrárheiti og staðsetning XML-skrárinnar eru tilgreind og smellt á **Opna**.  
-
-Síðan **MF-bókhaldslykill** er fylltur út með nýjum eða breyttum fjárhagsreikningslínum samkvæmt MF-bókhaldslyklinum í skránni. Allar fyrirliggjandi, óskyldar línur á síðunni haldast óbreyttar.
-
-### Til að varpa MF-bókhaldslykli á bókhaldslykil fyrirtækisins.  
-
-Eftir að MF-bókhaldslykill sem millifyrirtækjafélagar hafa samþykkt að nota hefur verið skilgreindur eða fluttur inn, þarf að tengja hvern fjárhagsreikning millifyrirtækja við einn af fjárhagsreikningum fyrirtækisins. Á síðunni **MF-bókhaldslykill** er skilgreint hvernig fjárhagsreikningar milli fyrirtækja í færslum á innleið verða túlkaðir sem reikningar í bókhaldslykli fyrirtækisins.
-
-Ef reikningar í bókhaldslykli milli fyrirtækja hafa sömu reikningsnúmer og samsvarandi reikningar í bókhaldslyklinum er hægt að varpa reikningunum.
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-bókhaldslykill** og velja síðan viðkomandi tengil.  
-2. Línurnar sem á að varpa sjálfkrafa eru valdar og svo er valin aðgerðin **Varpa á reikning með sama nr.**.  
-3. Fyrir hvern fjárhagsreikning milli fyrirtækja sem ekki var varpað sjálfkrafa, skal fylla í reitinn **Varpa á Fjárhagsreikning nr.**.  
-
-## Hvernig á að setja upp sjálfgefna fjárhagsreikninga samstarfsfyrirtækja  
-
-Þegar sölu- eða innkaupalína milli fyrirtækja er stofnuð til að senda sem færslu á útleið er færður inn reikningur úr MF-bókhaldslykli sem notaður verður sem sjálfgefinn reikningur sem upphæðin ætti að bókast á í fyrirtæki félagans. Á síðunni **Bókhaldslykill** er hægt að tilgreina sjálfgefinn fjárhagsreikning MF-félaga fyrir reikninga sem reglulega eru notaðir í MF-sölu- eða innkaupalínum á útleið. Til dæmis er hægt að færa inn samsvarandi safnreikning lánardrottna úr MF-bókhaldsreikningi fyrir safnreikninga viðskiptamanna.  
+Þegar sölu-eða innkaupalína samstæðu er stofnuð til að senda sem færslur á útleið, Færið inn lykil úr bókhaldslykli samstæðunnar sem sjálfgefið fyrir reikning í fyrirtæki félagins sem upphæðin er bókuð á.  **Á spjaldinu**  fjárhagsreikningur fyrir lykla sem eru reglulega notaðir á sölu-og innkaupalínur milli fyrirtækja er hægt að tilgreina sjálfgefinn fjárhagslykil MF-félaga. Til dæmis er hægt að færa inn samsvarandi safnreikning lánardrottna úr MF-bókhaldsreikningi fyrir safnreikninga viðskiptamanna. Viðskiptakröfur og útistandandi Viðskiptakröfur eru notaðar sem Off-stilling lykill fyrir MF-félaga þegar færslur eru bókaðar í MF-færslubók.  
 
 Þegar fjárhagsreikningur er síðan færður inn í reitinn **Nr. Mótreiknings** í línu milli fyrirtækja með **MF-félaga** í reitnum **Tegund reiknings** er sjálfkrafa fyllt í reitinn **MF-félagi fjárhagsreikningur**.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
-2. Á línuna fyrir fjárhagsreikning sem er notaður fyrir millifyrirtækjafærslur, í reitnum **Sjálfgefinn fjárhagsreikningur MP félaga** skal færa inn MF-fjárhagsreikninginn sem félaginn á að bóka í við bókun í fjárhagsreikninga í línunni.  
+2. Fjárhagsreikningurinn sem er notaður fyrir MF-færslur er opnaður og í  **reitnum Sjálfgefinn MF-félagi**  er færður inn Fjárhagslykill samstæðuleiknings sem félaginn bókar um leið og bókað er á fjárhag línunnar.
 3. Skref 2 er endurtekið fyrir hvern reikning sem oft er færður inn í reitinn **Mótreikningur nr.** í línu í færslubók eða fylgiskjali milli fyrirtækja.
 
-## Uppsetning vídda millifyrirtækja
+### Sjálfvirk samþykkt færslna frá samstæðufélögum
 
-Ef milli-fyrirtækjafélagar vilja geta skiptst á færslum með víddum þurfa þeir allir að samþykkja milli-fyrirtækjavíddirnar sem allir koma til með að nota. Dæmi: móðurfyrirtæki hópsins stofnar einfaldaða útgáfu af eigin safni af víddum, flytur hana síðan í XML-skrá sem það dreifir á hvert fyrirtæki í hópnum. Hvert dótturfyrirtæki flytur síðan XML-skrána inni í töfluna **MF-vídd** og varpar milli-fyrirtækjavíddum á víddirnar í eigin **vídda** síðu.  
+Til að gera það fljótara að vinna samstæðufærslur er hægt að tilgreina að stofna eigi sjálfkrafa færslubókarlínur byggðar á færslum MF-félaga úr  **síðunni MF-færslubók** . Til að sjálfvirk stofna og útsendum færslum verður að kveikja á eftirtöldum toggi fyrir hvern félaga:
+
+*  **Á síðu Samstæðuuppsetningarinnar**  er kveikt á  **Auto. senda færslur**  til skipta fyrir félagan samstillt. Tilgreinið síðan hvar á að stofna mótteknar MF-færslur innan samstæðu með því að fylla  **út reitina sjálfgefið MF-Alm**  **·** .
+
+    > [!TIP]
+    >  **Ef sjálfgefna reiturinn fyrir sniðmát**  MF-Alm. færslubókar er auður þarf að setja upp færslubókarsniðmát til að nota fyrir MF-færslubækur. Frekari upplýsingar um sniðmát og keyrslur er að fá með því að fara í  [Sniðmát almennra færslubóka innan samstæðu og runur](#set-up-intercompany-general-journal-templates-and-batches)    
+
+*  **Á síðu MF-félaga**  er kveikt á víxlun með  **sjálfvirkum Samþykkslafærslum** .
+
+Færslubókarlínur eru stofnaðar fyrir þig en ekki bókaðar.
 
 > [!NOTE]
-> Hvert fyrirtæki í [!INCLUDE [prod_short](includes/prod_short.md)] verður að varpa víddunum í MF-víddir fyrir skjöl á útleið og varpa MF-víddum á sínar eigin víddir fyrir skjöl á innleið. Þessi vörpun hjálpar til við að tryggja samræmi þvert á fyrirtæki. Frekari upplýsingar eru í hlutanum [MF-víddum varpað á víddir fyrirtækisins](#to-map-intercompany-dimensions-to-your-companys-dimensions).
+> Ef fyrirtækið þitt notaði eiginleika innan samstæðu í [!INCLUDE [prod_short](includes/prod_short.md)] á undan 2022 útgáfutímabili 1 til að samþykkja færslur sjálfkrafa þarf stjórnandinn þinn að kveikja á eiginleikanum **Samþykkja almennar færslubókarfærslur innan samstæðu sjálfkrafa** á síðunni **Eiginleikastjórnun**.
 
-Ef fyrirtækið þitt er móðurfyrirtækið og er með skilgreinandi safn milli-fyrirtækjavídda sem hópurinn notar sem sameiginlega viðmiðun, er þessari aðferð fylgt [Skilgreining vídda millifyrirtækja](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
+### Tilgreina Bankareikningar sem á að nota fyrir samstæðufélaga
 
-Ef fyrirtæki þitt er dótturfyrirtæki og þú færð XML-skrá með MF-víddum sem hópurinn notar sem sameiginlega viðmiðun er þessari aðferð fylgt [Hvernig á að flytja inn millifyrirtækjavíddir](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
+Til að auðvelda beingreiðslur er tilgreindur einn eða fleiri Bankareikningar til að nota fyrir samstæðufélaga. Þegar félagi notar færslubók innan samstæðu til að ganga frá greiðslu geta þeir tilgreint bankareikninginn í línunni. Bankareikninginn er notaður sem Mótreikningur í móttökufyrirtækinu, sem heldur þörfinni að færa handvirkt inn færslur.
 
-### Skilgreina MF-víddir
+* Til að tilgreina bankareikning sem á að nota, á  **síðunni Samstæðuaðilar**, skal velja  **aðgerðina Bankareikningar** .  **Í spjaldi** samstæðubankareiknings eru færðar inn reikningsupplýsingar.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-víddir** og velja síðan viðkomandi tengil.  
-2. Á síðunni **MF-víddir** er hver vídd er færð inn í línu á síðunni.
+## Úrræðaleit vegna samstæðuuppsetningar
 
-    Ef MF-víddirnar verða eins eða svipaðar og víddir fyrirtækisins er hægt að fylla síðuna sjálfkrafa út með því að nota aðgerðina **Afrita úr víddum** og breyta síðan línunum sem verða til.  
-3. Velja skal **Flytja út** aðgerðina til að flytja MF-víddirnar út í XML-skrá til dreifingar til fyrirtækisfélaga.  
-4. Skrárheitið og staðsetningin þar sem vista á XML-skrána eru valin og síðan smellt á **Vista**.  
-
-### Millifyrirtækjavíddir fluttar inn  
-
-Þegar til er skrá sem inniheldur skilgreinandi MF-víddir, geta millifyrirtækjafélagar flutt hana inn til að vera vissir um að hafa sömu víddirnar.  
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-víddir** og velja síðan viðkomandi tengil.  
-2. Á síðunni **MF-víddir** veljið aðgerðina **Flytja inn**.  
-3. Skrárheiti og staðsetning XML-skrárinnar eru tilgreind og smellt á **Opna**.  
-
-Línurnar á síðunni **MF-víddir** og síðunni **MF-víddargildi** eru fluttar inn.  
-
-### MF-víddum varpað á víddir fyrirtækisins:
-
-Þegar búið er að skilgreina eða flytja inn víddunum sem þú og milli-fyrirtækjafélagar hafa samþykkt að nota þarf að tengja hverja vídd milli fyrirtækja við eina af víddum fyrirtækisins og öfugt. Á síðunni **MF-víddir** er skilgreint hvernig MF-víddir í *færslum á innleið* verða túlkaðar sem víddir í víddatöflu fyrirtækisins. Á síðunni **Víddir** er tilgreint hvernig víddirnar verði túlkaðar sem MF-víddir í *færslum á útleið*.
-
-Ef einhver af víddunum milli fyrirtækja hefur sama kóta og samsvarandi víddir í víddatöflu fyrirtækisins er hægt að láta forritið varpa víddunum sjálfkrafa, og þá er hægt að varpa reikningunum sjálfkrafa.  
-
-Í eftirfarandi skrefum er MF-víddum fyrst varpað í víddir fyrir skjöl á innleið á síðunni **MF-víddir**. Síðan er víddum varpað í MF-víddir fyrir skjöl á útleið á síðunni **Víddir**.
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-víddir** og velja síðan viðkomandi tengil.
-2. Á síðunni **MF-víddir** eru línurnar sem á að varpa sjálfkrafa eru valdar og svo er **Varpa á víddir með sama kóða** aðgerðin valin.
-3. Fyrir hverja vídd milli fyrirtækja sem er ekki varpað sjálfkrafa, skal fylla út í reitinn **Varpa á víddarkóða**.
-
-    Hugsanlega þarf að bæta reitnum við yfirlitið. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
-4. Veljið aðgerðina **MF-víddargildi**.
-5. Á síðunni **MF-víddargildi** er reiturinn **Varpa á víddargildiskóða** fylltur út.
-
-    Halda áfram að varpa víddum á MF-víddir með því að framkvæma svipuð skref.
-6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Víddir** og velja síðan viðkomandi tengil.
-7. Á síðunni **Víddir** eru línurnar sem á að varpa sjálfkrafa eru valdar og svo er **Varpa á MF-víddir með sama kóða** aðgerðin valin.
-8. Fyrir hverja vídd milli fyrirtækja sem er ekki varpað sjálfkrafa, skal fylla út í reitinn **Varpa á MF víddargildiskóða**.
-9. Velja aðgerðina **Víddargildi**.
-10. Á síðunni **Víddargildi** er reiturinn **Varpa á MF-víddargildiskóða** fylltur út.
+ **Á síðu samstæðuuppsetningar**  inniheldur rúða í  **samstæðu-uppsetningarrúðu**  flísar sem gefa til kynna hvort búið er að setja upp alla íhluti sem þarf til að skiptast á samstæðufærslum. Einnig er hægt að nálgast flísarnar á hlutverkamiðstöð Viðskiptastjóra. Veldu flísarnar til að finna út hvað vantar. Yfirlit yfir nauðsynlega íhluti er að  [fá með því að fara í yfirlit yfir skrefin til að byrja](#overview-of-the-steps-to-get-started).
 
 ## Sjá einnig
 
@@ -175,6 +257,5 @@ Ef einhver af víddunum milli fyrirtækja hefur sama kóta og samsvarandi víddi
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

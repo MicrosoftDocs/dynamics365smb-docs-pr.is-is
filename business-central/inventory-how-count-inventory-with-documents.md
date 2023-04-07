@@ -83,10 +83,10 @@ Sjálfgefið er að skráning sé stofnuð fyrir allar línurnar í tengdri pön
 4. Veldu gátreitinn **Skráð** í hverri línu.
 5. Þegar öll gögn hafa verið færð inn fyrir skráningu efnislegra birgða skal velja aðgerðina **Ljúka**. Athugaðu að allar línur verða að vera með gátreitinn **Skráð** valinn.
 
-> [!NOTE]
-> Þegar lokið er við skráningu efnislegra birgða er hver lína flutt til línunnar í tengdri pöntun efnislegra birgða sem passar að fullu. Til að passa verða gildin í reitunum **Vörunr.**, **Afbrigðiskóði**, **Staðsetningarkóði** og **Hólfakóði** að vera þau sömu í skráningunni og í pöntunarlínum.<br /><br />
-> Ef engin samsvarandi pöntunarlína efnislegra birgða er til og ef gátreiturinn **Leyfa skráningu án pöntunar** er valinn, þá er ný lína sett inn sjálfkrafa og gátreiturinn **Skráð án pöntunar** í tengdri pöntunarlínu efnislegra birgða er valinn. Annars birtist villuboð og hætt er við ferlið.<br /><br />
-> Ef fleiri en ein skráningarlína efnislegra birgða samsvarar pöntunarlínu efnislegra birgða, birtast skilaboð og hætt er við ferlið. Ef af einhverjum ástæðum tvær eins línur efnislegra birgða enda á pöntun efnislegra birgða er hægt að nota aðgerð til að leysa úr því. Frekari upplýsingar er að finna í kaflanum [Að finna tvíteknar pöntunarlínur efnislegra birgða](#to-find-duplicate-physical-inventory-order-lines).
+    > [!NOTE]
+    > Þegar lokið er við skráningu efnislegra birgða er hver lína flutt til línunnar í tengdri pöntun efnislegra birgða sem passar að fullu. Til að passa verða gildin í reitunum **Vörunr.**, **Afbrigðiskóði**, **Staðsetningarkóði** og **Hólfakóði** að vera þau sömu í skráningunni og í pöntunarlínum.<br /><br />
+    > Ef engin samsvarandi pöntunarlína efnislegra birgða er til og ef gátreiturinn **Leyfa skráningu án pöntunar** er valinn, þá er ný lína sett inn sjálfkrafa og gátreiturinn **Skráð án pöntunar** í tengdri pöntunarlínu efnislegra birgða er valinn. Annars birtist villuboð og hætt er við ferlið.<br /><br />
+    > Ef fleiri en ein skráningarlína efnislegra birgða samsvarar pöntunarlínu efnislegra birgða, birtast skilaboð og hætt er við ferlið. Ef af einhverjum ástæðum tvær eins línur efnislegra birgða enda á pöntun efnislegra birgða er hægt að nota aðgerð til að leysa úr því. Frekari upplýsingar er að finna í kaflanum [Að finna tvíteknar pöntunarlínur efnislegra birgða](#to-find-duplicate-physical-inventory-order-lines).
 
 ## Að ljúka pöntun efnislegra birgða
 
@@ -102,7 +102,7 @@ Einnig er hægt að velja aðgerðina **Mismunur efnislegrar birgðapöntunar** 
 2. Opnaðu pöntun efnislegra birgða sem á að skoða tvíteknar línur fyrir.
 3. Veldu aðgerðina **Sýna tvíteknar línur**.
 
-Allar tvíteknar pöntunarlínur efnislegra birgða eru birtar svo hægt sé að eyða þeim og halda aðeins einni línu með einkvæmt safn af gildum í reitunum **Vörunr.**, **Afbrigðiskóði**, **Staðsetningarkóði** og **Hólfakóði**.
+Sýndar tvíteknar línur efnislegra birgða svo hægt sé að eyða þeim og halda aðeins einni línu við einstakt gildi í  **reitunum Vörunr.**,  **Afbrigðiskóti** **, kóti** birgðageymslu og  **kóti**  hólfs.
 
 ### Að bóka pöntun efnislegra birgða
 
@@ -118,10 +118,12 @@ Eftir að pöntun efnislegra birgða er lokið og stöðu hennar er breytt í **
     Á síðunni **Pöntun efnislegra birgða** er skoðað magnið sem er skráð í reitinn **Skráð magn (grunnur)**.
 3. Veldu aðgerðina **Ljúka**.
 
-    Gildið í reitnum **Staða** er breytt í **Lokið** og nú er aðeins hægt að breyta pöntuninni með því að velja fyrst aðgerðina **Enduropna**.
+    Gildinu í  **reitnum Staða**  er  **lokið** og nú er aðeins hægt að breyta pöntuninni með því að  **Velja opna enduropna**  aðgerð.
 4. Til að bóka pöntunina skal velja aðgerðina **Bóka** og síðan velja hnappinn **Í lagi**.
 
-Birgðabókafærslurnar sem eiga við eru uppfærðar ásamt öllum tengdum vörurakningarfærslum.
+    Birgðafærslurnar eru uppfærðar ásamt tengdum vörurakningarfærslum.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### Að skoða bókaðar pantanir efnislegra birgða
 
@@ -141,9 +143,9 @@ Gátreiturinn **Nota vörurakningu** í pöntunarlínum efnislegra birgða er sj
 
 Íhugaðu efnislegar birgðir fyrir vöru A sem er geymd í birgðum sem tíu mismunandi raðnúmer.
 1. Á skráningarlínunni fyrir vöruna skal velja gátreitinn **Nota vörurakningu**.
-2.  Veldu reitinn **Raðnr.**, veldu fyrsta raðnúmerið sem er til í birgðum fyrir vöruna og veldu síðan hnappinn **Í lagi**.
+2. Veldu reitinn **Raðnr.**, veldu fyrsta raðnúmerið sem er til í birgðum fyrir vöruna og veldu síðan hnappinn **Í lagi**.
 
-    Haltu áfram að afrita línuna fyrir fyrstu vöruröktu vöruna til að setja inn viðbótarlínur sem samsvara númeri raðnúmeranna sem eru geymd í birgðum.
+    Afritið línuna fyrir fyrstu vöruna sem rakið er til til að setja inn viðbótarlínur sem samsvara raðnúmerum sem eru geymd í birgðum.
 
 3. Veldu aðgerðina **Virkni** og síðan aðgerðina **Afrita línu**.
 4. Á síðunni **Afrita skráningarlínu efnislegra birgða** skal færa inn 9 í reitinn **Fjöldi afrita** og síðan velja hnappinn **Í lagi**.
@@ -192,8 +194,8 @@ Vara rakin eftir lotu er geymd í birgðum með númeraröðunum „LOTA“.
 
 Eftirfarandi gerðir skjala eru gagnlegar til að stjórna vöruhúsinu:
 
-- Notið **Innhreyfingar birgða** til að skrá jákvæðar leiðréttingar á vörum út frá gæðum, magni og kostnaði.
-- Notið **Birgðaafhendingar** til að afskrifa týndar eða skemmdar vörur.
+* Notið **Innhreyfingar birgða** til að skrá jákvæðar leiðréttingar á vörum út frá gæðum, magni og kostnaði.
+* Notið **Birgðaafhendingar** til að afskrifa týndar eða skemmdar vörur.
 
 Hægt er að prenta þessi skjöl á hvaða stigi sem er, losa þau og opna þau aftur og úthluta almennum gildum, þ.m.t. víddum, í hausnum. Ef ætlunin er að endurprenta skjölin eftir að þau hafa verið bókuð er hægt að gera það á síðunum **Bókuð birgðainnhreyfing** og **Bókuð birgðaafhending**.
 
@@ -206,10 +208,11 @@ Hægt er að prenta þessi skjöl á hvaða stigi sem er, losa þau og opna þau
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.
 2. Í flýtiflipanum **Tölusetning** skal tilgreina í eftirfarandi reitum númeraraðir fyrir skjöl:
-   - **Birgðainnhreyfingarnr.**  
-   - **Bókuð birgðamóttökunr.**  
-   - **Birgðaafhendingarnr.**  
-   - **Bókuð birgðaafhendingarnr.**  
+
+   * **Birgðainnhreyfingarnr.**  
+   * **Bókuð birgðamóttökunr.**  
+   * **Birgðaafhendingarnr.**  
+   * **Bókuð birgðaafhendingarnr.**  
 
 ### Að stofna og bóka birgðaskjal
 
@@ -222,17 +225,19 @@ Eftirfarandi ferli sýnir hvernig á að stofna, prenta og bóka birgðamóttök
 
 Eftirfarandi aðgerðir eru í boði á síðunni **Birgðamóttaka**:
 
-- Veljið aðgerðina **Losa** eða **Enduropna** til að stilla stöðuna fyrir næsta úrvinnslustig  
-- Veljið aðgerðina **Bóka** til að bóka birgðamóttökuna eða veljið **Bóka og prenta** til að bóka móttökuna og prenta prufuskýrsluna  
+* Veljið aðgerðina **Losa** eða **Enduropna** til að stilla stöðuna fyrir næsta úrvinnslustig  
+* Veljið aðgerðina **Bóka** til að bóka birgðamóttökuna eða veljið **Bóka og prenta** til að bóka móttökuna og prenta prufuskýrsluna  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Prentun birgðaskjala
 
 Hægt er að tilgreina skýrslurnar sem þarf að prenta á mismunandi stigum með því að velja einn af eftirfarandi valkostum í reitnum **Notkun** á síðunni **Skýrsluval - Birgðir**:
 
-- Birgðamóttaka
-- Birgðaafhending
-- Bókuð birgðamóttaka
-- Bókuð birgðaafhending
+* Birgðamóttaka
+* Birgðaafhending
+* Bókuð birgðamóttaka
+* Bókuð birgðaafhending
 
 > [!NOTE]
 > Tiltækar skýrslur kunna að vera mismunandi eftir staðfæringu landsins. Grunnforritið inniheldur ekkert útlit.

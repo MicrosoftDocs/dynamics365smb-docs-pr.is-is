@@ -22,7 +22,7 @@ Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbó
 2. Á síðunni **Uppsetning fjárhags** skal tilgreina tímabilið með því að slá inn dagsetningar í reitunum **Leyfa bókun frá** og **Leyfa bókun til**.  
 
 > [!NOTE]  
-> Þessi bókunartímabil eiga við um fyrirtækið og alla notendur. Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur á síðunni **Uppsetning notanda**. Þessar færslutímar eru umfram þau sem tilgreind eru á síðunni **Uppsetning aðalbókar**. Frekari upplýsingar er að finna í [Til að setja upp tímaskorður notanda](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
+> Þessi bókunartímabil eiga við um fyrirtækið og alla notendur. Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur á síðunni **Uppsetning notanda**. Þessar færslutímar eru umfram þau sem tilgreind eru á síðunni **Uppsetning aðalbókar**. Frekari upplýsingar er að finna  [í til að setja upp tímahömlur fyrir notendur](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users).
 
 ## Sjá einnig
 

@@ -25,16 +25,16 @@ Frekari upplýsingar um vöruflæði á  [innleið](design-details-inbound-wareh
 
 Í þessari grein er átt við aðferð B í töflunni.
 
-Þegar birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki tekið við vinnslu skal nota  **·**  skjalið frágangur til að skrá og bóka frágangs-og móttökuupplýsingar fyrir upprunaskjölin. Upprunaskjöl á innleið geta verið innkaupapantanir, söluvöruskilapantanir og flutningspantanir á innleið.
+Þegar birgðageymslan er sett upp þannig að þörf sé á frágangsvinnslu en ekki vinnslu skal nota  **birgðafrágangsskjal**  til að skrá og bóka frágangs-og móttökuupplýsingar fyrir upprunaskjölin. Upprunaskjöl á innleið geta verið innkaupapantanir, söluvöruskilapantanir og flutningspantanir á innleið.
 
 > [!NOTE]
 > Framleiðsla og samsetningarframleiðsla standa einnig fyrir upprunaskjöl á innleið. Frekari upplýsingar um meðhöndlun framleiðslu og samsetningu samsetningar fyrir innri vinnslur í  [Hönnunarupplýsingum: innra vöruhús flæðir](design-details-internal-warehouse-flows.md).
 
 Þú getur búið til birgðafrágang á þrjá vegu:  
 
-- Frágangurinn er stofnaður í upprunaskjalinu sjálfu.  
-- Stofnið birgðafrágang fyrir nokkur upprunaskjöl á sama tíma með því að nota runuvinnslu.  
-- Stofna frágang í tveimur skrefum með því að gefa fyrst út upprunaskjal til að ganga frá þeim atriðum sem hægt er að ganga frá. Hægt er að stofna birgðafráganginn út frá upprunaskjalinu með því að  **nota síðuna birgðafrágangssíða** .  
+* Frágangurinn er stofnaður í upprunaskjalinu sjálfu.  
+* Stofnið birgðafrágang fyrir nokkur upprunaskjöl á sama tíma með því að nota runuvinnslu.  
+* Stofna frágang í tveimur skrefum með því að gefa fyrst út upprunaskjal til að ganga frá þeim atriðum sem hægt er að ganga frá. Hægt er að stofna birgðafráganginn út frá upprunaskjalinu með því að  **nota síðuna birgðafrágangssíða** .  
 
 ## Birgðafrágangur stofnaður úr upprunaskjali:
 
@@ -80,6 +80,8 @@ Starfsmaður í vöruhúsi getur stofnað nýjan frágang í frágangi á grundv
 
     * Bóka móttöku upprunaskjalslínurnar sem gengið hefur verið frá
     * Ef birgðageymslan notar hólf mun bókun einnig stofna vöruhúsafærslur til að bóka breytingar á magni hólfs.
+
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
 ## Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
 

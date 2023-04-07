@@ -69,9 +69,9 @@ ms.author: edupont
 
 ## Ferill
 
-Þessi kynning einblínir á fyrirtækið CRONUS, hönnunar- og ráðgjafafyrirtæki sem hannar og setur upp húsgögn, aukahluti og geymslueiningar (t.d. í fundarsölum og skrifstofum). Mest af vinnunni er verkefnatengd. Petra er verkefnastjóri hjá CRONUS. Hann notar verk til að fá yfirsýn yfir hvert verk sem er í gangi hjá CRONUS og lokin verk. Hann sér yfirleitt um að semja við viðskiptavini og skrá helstu atriði, þ.e. verk- og áætlunarlínur auk verðs, inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Hann sér að það er einfalt að búa til, uppfæra og fara yfir upplýsingar. Petra kann einnig vel hvernig verk eru afrituð og inngreiðslur í [!INCLUDE[prod_short](includes/prod_short.md)].
+Þessi kynning einblínir á fyrirtækið CRONUS, hönnunar- og ráðgjafafyrirtæki sem hannar og setur upp húsgögn, aukahluti og geymslueiningar (t.d. í fundarsölum og skrifstofum). Mest af vinnunni er verkefnatengd. Prakash, verkefnastjóri hjá  CRONUS  nýtist störfum til að fá yfirsýn yfir hvert áframhaldandi starf sem  CRONUS  hefur hafist, auk þeirra verka sem lokið er við. Prakash er yfirleitt sá sem setur upp tilboð hjá viðskiptavinum og slær inn kjarna vinnslunnar, sem er verkefna-og áætlunarlína auk verðs, inn á við [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash finnur að skapa, viðhalda og endurskoða upplýsingar er einfalt. Petra kann einnig vel hvernig verk eru afrituð og inngreiðslur í [!INCLUDE[prod_short](includes/prod_short.md)].
 
- Trausti, meðlimur í verkefnateymi sem heyrir undir Petru, ber ábyrgð á verkinu og fylgjast með. Hún fyllir inn eigin vinnu, auk vinnu sem framkvæmd er af tæknifólki í hverju verki. Hún skráir vörurnar sem þeir hafa notað og kostnaðinn sem það hefur haft í för með sér.  
+ Trausti, meðlimur í verkefnateymi sem heyrir undir Petru, ber ábyrgð á verkinu og fylgjast með. Tricia slær eigin verk til viðbótar við þá vinnu sem unnin er af tæknimönnum á hvert verk, skráir inn vörur sem þeir hafa notað og þann kostnað sem þeir hafa fallið í.  
 
 ## Undirbúa sýnigögn
 
@@ -98,7 +98,7 @@ ms.author: edupont
 
 6. Lokaðu síðunni.
 
-Í næsta ferli er stofnuð verkbókarkeyrsla fyrir viðkomandi ef bóka á notkun hans.  
+Í næstu aðferð er hægt að stofna verkbókarkeyrslu fyrir Tricia til að bóka notkun þeirra.  
 
 ### Til að búa til verkbókarkeyrslu  
 
@@ -182,7 +182,7 @@ ms.author: edupont
 - **Reikningshæft**: Reikningsfærður, en ekki bætt við áætlunina.  
 - **Bæði fjárhagsáætlun og reikningshæft**: Reikningsfært og bætt við áætlunina.  
 
- Í þessari kynningu. notar verkefnastjórinn **Bæði fjárhagsáætlun og reikningshæft**. Hann stofnar þrjár áætlunarlínur fyrir verk 1010 og tvær áætlunarlínur fyrir verk 1020.  
+ Í þessari kynningu. notar verkefnastjórinn **Bæði fjárhagsáætlun og reikningshæft**. Þau útbúa þrjár áætlunarlínur fyrir verkefni 1010, og tvær áætlunarlínur fyrir verkefni 1020.  
 
 ### Til að stofna áætlunarlínur  
 
@@ -208,7 +208,7 @@ ms.author: edupont
 
 ## Útreikningur á notuðum eftirstöðvum
 
- Tinna, sem er teymismeðlimur í verkefninu, hefur unnið í verkinu í nokkurn tíma og vill skrá tímana sína og notkun á verkið. Hún hefur verið unnið fleiri klukkutíma en það sem um var samið við viðskiptavininn. Hún notar keyrsluna **Reikna notaðar eftirstöðvar** til að reikna eftirstöðvar fyrir verk í verkbók. Keyrslan reiknar út, fyrir hvert verk, mismuninn milli áætlaðrar notkunar vöru, forða og fjárhagsútgjalda, og notkunar í raun samkvæmt bókuðum verkbókarfærslum. Eftirstandandi notkun er síðan sýnd í verkbókinni, og má bóka hana þaðan.  
+ Tricia, verkefnastjóri Team, hefur unnið að verkinu um hríð og vill skrá tímana sína og notkun á starfinu. Tricia hefur ekki unnið fleiri klukkustundir en samið var um við viðskiptavininn fyrirfram. Tricia notar  **keyrsluna Reikna eftirstandandi notkunarleyfi**  til að reikna eftirstandandi notkun fyrir vinnsluna í verkbók. Keyrslan reiknar út, fyrir hvert verk, mismuninn milli áætlaðrar notkunar vöru, forða og fjárhagsútgjalda, og notkunar í raun samkvæmt bókuðum verkbókarfærslum. Eftirstandandi notkun er síðan sýnd í verkbókinni, og má bóka hana þaðan.  
 
 ### Eftirstöðvar notkunar reiknaðar  
 
@@ -226,7 +226,7 @@ Línurnar eru bókaðar.
 
 ## Reikningur verksölu stofnaður og bókaður
 
- Næst skal Trausti stofna nýjan reikning fyrir allt verkið eða fyrir hluta af verkinu. Einnig má hengja reikninginn við annan reikning fyrir sama viðskiptavin fyrir sama verkið. Í þessu tilfelli, er reikningar gerðir fyrir allt verkið, þar sem verkinu er lokið.  
+ Næst skal Trausti stofna nýjan reikning fyrir allt verkið eða fyrir hluta af verkinu. Tricia getur einnig tengt reikninginn við annan reikning sama viðskiptavinar fyrir sama starf. Þar er um að ræða Tricia reikninga fyrir allt verkið, þar sem verkefninu er nú lokið.  
 
 ### Stofnun reiknings fyrir verksölu  
 
@@ -236,7 +236,7 @@ Línurnar eru bókaðar.
 4.  Í flipanum  **Valkostir** er bókunardagsetningin færð inn og skilgreint hvort stofna eigi einn reikning fyrir hvert verk eða einn fyrir öll verk.  
 5.  Velja hnappinn **Í lagi** til að stofna reikninginn og velja svo **Í lagi** á staðfestingarsíðunni.  
 
- Eftir að Tricia stofnar reikninginn getur hún t.d. nálgast hann frá Mitt hlutverk **Sölupöntunarvinnsla**. 
+ Eftir að reikningurinn hefur verið stofnaður getur Tricia opnað hann í  **hlutverkamiðstöð sölupöntunar**, td. 
 
 ### Nýr sölureikningur bókaður  
 
@@ -250,7 +250,7 @@ Línurnar eru bókaðar.
 2.  Veljið einhverja af áætlunarlínunum hafa verið reikningsfærðar og veljið síðan **Sölureikningar/kreditreikningar** aðgerðina.
 3. Á síðunni **Verkreikningar** skal velja aðgerðina **Opna sölureikning/kreditreikning**.  
 
- Svör við spurningum varðandi verð, kostnað og ágóða í verkinu má finna á síðunni **Tölfræði**.  
+ Tricia hefur spurningu um verð, kostnað og hagnað sem máli skiptir varðandi þetta tiltekna starf, svo Tricia aðgætir að upplýsingum á  **tölfræðisíðunni** .  
 
 ### Tölfræðisíðan opnuð  
 
@@ -260,7 +260,7 @@ Línurnar eru bókaðar.
 
 ## Unnið með fast verð
 
- CRONUS hefur tekið að sér að setja upp fundarsali. Verkefnastjórinn Petra þarf gott yfirlit yfir verkhluta verksins ásamt kostnaðaráætlun og kostnaði sem stofnað hefur verið til fyrir hvern verkhluta. Auk þess vill hann vita heildarverð samningsins fyrir verkið og upphæðin sem hefur verið reikningsfærð fram að þessu. Hann hefur náð samkomulagi við viðskiptamanninn varðandi fast verð fyrir verk.  
+ CRONUS hefur tekið að sér að setja upp fundarsali. Verkefnastjórinn Petra þarf gott yfirlit yfir verkhluta verksins ásamt kostnaðaráætlun og kostnaði sem stofnað hefur verið til fyrir hvern verkhluta. Auk þess vill Prakash vita heildarverktakinn sem verð fyrir vinnsluna og upphæðina sem hefur verið reikningsfærð á þennan punkt. Þeir hafa náð samkomulagi við viðskiptavin varðandi fasta verðlagningu á vinnslunni.  
 
 ### Föstu verði verka stýrt  
 
@@ -268,7 +268,7 @@ Línurnar eru bókaðar.
 2. **Guildford** verknúmerið er valið og svo er valin **Verkhlutalínur verks** aðgerðina.  
 3. Lína 1120 er valin og í reitnum **Fjárhagsáætlun (heildarkostnaður)** er hægrismellt á upphæðina og valið **Köfun**.  
 
-     Með því að endurskoða verkáætlunarlínur, ákvarðar Petra að einnig þurfi að nota Trausta í 30 klukkustundir vegna þessa stigs verksins. Hann semur um fast verð við viðskiptavininn.  
+     Með því að skoða Verkáætlunarlínurnar er ákveðið að Prakash þurfi einnig að hafa Tricia fyrir 30 klukkustundum fyrir þetta stig verksins. Prakash samþykkir á föstu verði með viðskiptavininum.  
 
 4. Á síðunni **Verkhlutalínur** veljið línu 1120 og veljið svo aðgerðina **Verkáætlunarlínur**. Stofna áætlunarlínu með eftirfarandi upplýsingum:  
 
@@ -280,7 +280,7 @@ Línurnar eru bókaðar.
 5. Í reitnum **Fjárhagsáætlun (heildarkostnaður)**, hægrismella á reitinn og velja **KafaNiður** aftur á síðunni **Verkhlutalínur verks**. Skoða breytingarnar á tímasetningunni. Sjá má að 30 klukkustundum hefur verið bætt við tímasetninguna.  
 6. Loka síðunum.  
 
-Eftir að Trausta hefur verið bætt við tímasetninguna í þessa verkhlutalínu þá vinnur hann 25 klukkustundir við verkið. Þessar klukkustundir færir hún inn í Verkbókina.  
+Þegar þú hefur bætt við áætlun fyrir þessa verklínu, vinnur Tricia verk 25 klukkustundir í verkinu, og færir Þessar stundir inn í verkbókina.  
 
 ### Tímum bætt í Verkbókina  
 
@@ -298,7 +298,7 @@ Eftir að Trausta hefur verið bætt við tímasetninguna í þessa verkhlutalí
 
 3. Valið er **Bóka** aðgerðin.  
 
-     Nokkrum dögum síðar vinnur Trausti í aðra 10 tíma við verkið. Hann hefur nú unnið 35 tíma alls. Þar sem samningurinn er fyrir 30 tíma við viðskiptavininn munu aðeins fimm þessara tíma vera færðir á viðskiptavininn. Tinna mun bæta aukatímunum fimm sem hún vann við áætlunina handvirkt.  
+     Nokkrum dögum síðar vinnur Tricia annan 10 tíma á starfinu, og hefur nú unnið 35 tíma í allt. Þar sem samningurinn er fyrir 30 tíma við viðskiptavininn munu aðeins fimm þessara tíma vera færðir á viðskiptavininn. Tricia bætir handvirkt við fimm klukkustunda vinna við áætlunina.  
 
 4. Á síðunni **Verkbók** veljið aðgerðina **Reikna eftirstandandi notkun**.  
 5. Á síðunni **Reiknaðar eftirstöðvar notkunar verks** á flýtiflipanum **Valkostir** þarf að færa inn eftirfarandi upplýsingar:  
@@ -442,7 +442,7 @@ Eftirfarandi ferli sýnir hvernig eigi að stofna nýtt verk, stilla verðlagnin
 
 11. Stofna svipaða áætlunarlínufærslu fyrir verkhluta 4000.  
 
- Nú þegar verk- og áætlunarlínurnar eru útfylltar býr Petra til reikning fyrir fyrstu greiðsluna. Hann gerir slíkt úr verkhlutalínunum til að tryggja að reikningurinn innihaldi aðeins línur fyrir fyrstu greiðsluna. Hægt er að opna sölupöntunina úr áætlunarlínunum eða verklínunum.  
+ Nú þegar verk- og áætlunarlínurnar eru útfylltar býr Petra til reikning fyrir fyrstu greiðsluna. Prakash gerir þetta úr verkverkslínunum til að ganga úr skugga um að reikningurinn innihaldi aðeins línurnar fyrir fyrstu greiðsluna. Hægt er að opna sölupöntunina úr áætlunarlínunum eða verklínunum.  
 
 ### Til að stofna reikning  
 

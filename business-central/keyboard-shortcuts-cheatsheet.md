@@ -1,22 +1,23 @@
 ---
-title: Flýtitilvísanir PC-flýtilykla
+title: Flýtivísun á lyklaborði-PC Only
 description: Prentvænt tilvísunarblað sem inniheldur vinsælustu flýtilyklana fyrir tölvunotendur.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'accessibility, shortcuts, keyboarding'
-ms.date: 08/19/2022
+ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
-# Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur
+# Flýtivísun á lyklaborði-PC Only
 
 #### Almennt
 
 |Velja skal þessa lykla|Til að gera þetta|  
 |-|-|
+|<kbd>ALT</kbd>|Sýna aðgangslykla til að vafra um aðgerðastiku-eða yfirlitsvalmynd|
 |<kbd>ALT</kbd>+<kbd>F2</kbd>|Sýna og fela FactBox-yfirlitið|
 |<kbd>ALT</kbd>+<kbd>N</kbd>|Stofna nýja færslu|
 |<kbd>ALT</kbd>+<kbd>vaktin</kbd>+<kbd>N</kbd>|Lokið nýstofnaðri færslu og Stofnið nýja|
@@ -38,7 +39,7 @@ ms.author: jswymer
 |<kbd>Flipinn flipi</kbd>/<kbd>vaktar</kbd>+<kbd></kbd>|Færa áherslu á næstu/fyrri einingu|
 |<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Fara yfir í næsta flýtiflipa/hluta|
 
-#### Skoða og velja línur
+#### Fletta & Velja raðir
 
 |Velja skal þessa lykla|Til að gera þetta|
 |-|-|
@@ -52,14 +53,14 @@ ms.author: jswymer
 |<kbd>Vaktsíða</kbd>+<kbd>allt</kbd>/<kbd>niður</kbd>|Velja sýnilegar raðir fyrir ofan/neðan|
 |<kbd>CTRL</kbd>+<kbd>Enter</kbd>|Setja áherslu utan listans|
 
-#### Afrita og líma
+#### Afrita & líma
 
 |Velja skal þessa lykla|Til að gera þetta|
 |-|-|
 |<kbd>CTRL</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Afrita/líma raðir|
 |<kbd>F8</kbd>|Afrita reit hér að ofan í núverandi röð|
 
-#### Leita, afmarka og raða
+#### Leit, sía, & raða
 
 |Velja skal þessa lykla|Til að gera þetta|
 |-|-|
@@ -83,7 +84,7 @@ ms.author: jswymer
 |-|-|
 |<kbd>CTRL</kbd>+<kbd>heim</kbd>/<kbd>endir</kbd>|Fara á fyrstu/síðustu síðu|
 
-#### Talnaborð
+#### Talnagrind
 
 |Velja skal þessa lykla|Til að gera þetta|  
 |-|-|

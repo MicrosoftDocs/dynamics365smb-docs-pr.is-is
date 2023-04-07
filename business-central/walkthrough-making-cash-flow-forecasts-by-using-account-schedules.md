@@ -39,7 +39,7 @@ Til að ljúka þessari kynningu þarf:
 
 ## Ferill
 
-Ken er fjármálastjóri á CRONUS sem gerir mánaðarlega sjóðstreymisspár. Hann hefur fjármál, sölu, innkaup og eignir með í spánni og sýnir síðan fjármálastjóranum Söru fyrir innsýn í viðskipti.  
+Ken er fjármálastjóri á CRONUS sem gerir mánaðarlega sjóðstreymisspár. Ken nær yfir fjármál, sölu, kaup og eignir í spám, og kynnir til FRAMKVÆMDASTJÓRA Sara fyrir viðskiptainnsýn.  
 
 ## Setja upp nýtt heiti fjárhagsskýrslu
 
@@ -95,12 +95,12 @@ Eftir að heiti fjárhagsskýrslu er sett upp skilgreinir Ken hverja línu í fj
 
 ## Setja upp nýja dálkskilgreiningu
 
-Áður en Ken getur að prentað sjóðsstreymisspána þarf hann að búa til dálkskilgreiningu fyrir tölulegu upplýsingarnar. Í dálkunum skilgreinir hann upplýsingar sem hann vill nota úr línunum.
+Áður en Sjóðstreymisspá er prentuð þarf Ken að búa til dálkskilgreininguna fyrir tölulegar upplýsingar. Í dálkunum skilgreinir Ken þær upplýsingar sem nauðsynlegar eru til að nota úr línunum.
 
 - Fyrsti dálkurinn hefur númerið *C10* með heitinu **Upphæð** og inniheldur Hreina breytingu.  
 - Annar reiturinn hefur númerið *C20* með heitinu **Staða á dagsetningu** og inniheldur færslur tímabilsins.  
 - Þriðji dálkurinn hefur númerið *C30* með heitinu **Allt árið** og inniheldur breytingar á innistæðum fyrir allt reikningsárið.  
-- Loks úthlutar hann dálkskilgreiningunni sem sjálfgefnum valkosti fyrir fjárhagsskýrsluna **Spá**.  
+- Að lokum úthlutar Ken skilgreiningu dálksins sem sjálfgefinn valkost fyrir  **fjárhagsskýrsluna spá** .  
 
 ### Setja upp nýja dálkskilgreiningu
 

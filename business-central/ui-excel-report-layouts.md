@@ -86,8 +86,9 @@ Ef þegar er til Excel-útlit fyrir skýrslu er hægt að nota fyrirliggjandi ú
 3. Stilltu **Skýrslukenni** á *Skýrslu*.
 4. Færðu inn heiti í **Útlitsheiti**.
 5. Stilltu **Sniðsvalkosti** á **Excel**.
-6. Veldu **Í lagi** > **Veldu** til að opna skráavafrann í tækinu þínu.
-7. Finndu og veldu Excel-skrána og veldu síðan **Opna**.
+6. Valið  **er í lagi** og skal þá gera einn af eftirtöldum skrefum til að senda útlitsskrána inn fyrir skýrsluna:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Valdri skrá er hlaðið upp í útlitið og síðan **Skýrsluútlit** opnast.
 8. Til að sjá hvernig skýrslan lítur út í nýja útlitinu skal velja útlitið af listanum og velja síðan **Keyra skýrslu**.

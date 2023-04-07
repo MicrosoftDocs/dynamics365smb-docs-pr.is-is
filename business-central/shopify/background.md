@@ -18,11 +18,11 @@ ms.author: andreipa
 
 ## Keyra verk í bakgrunni fyrir tiltekna verslun
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn nafn **Shopify verslunar** og veldu heiti verslunar af listanum.
-2. Veljið verslunina þar sem á að samtilla vörur til að opna síðuna **Shopify verslunarspjald**.
-3. Virkjaðu **Leyfa samstillingar í bakgrunni**.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Shopify Verslun** og veldu tengda tengilinn.
+2. Veljið verslunina þar sem á að keyra samstillingu í bakgrunni til að opna  **Shopify  síðuna Verkstæðisspjald** .
+3. Kveikja á Samað  **Syncs**  -bakgrunns-skipta.
 
-Núna, þegar samstillingaraðgerð er ræst, í stað þess að verk keyri í forgrunni, biður hún þig um að bíða. Þegar þessu lokið geturðu farið yfir í næstu aðgerð. Verkið er búið til sem **Verkraðarfærsla** og hefst strax á ekki útilokandi hátt.
+Núna, þegar samstillingaraðgerð er ræst, í stað þess að verk keyri í forgrunni, biður hún þig um að bíða. Þegar þessu lokið geturðu farið yfir í næstu aðgerð. Verkið er stofnað sem  **Verkraðarafærsla**  og byrjar strax.
 
 ## Að tímasetja endurtekin verk
 
@@ -41,6 +41,15 @@ Núna, þegar samstillingaraðgerð er ræst, í stað þess að verk keyri í f
 
 > [!NOTE]
 > Sumar einingar gætu verið uppfærðar af nokkrum verkum, t.d. þegar þú flytur inn pantanir, eftir því hver stillingin er í **Shopify verslunarspjald**, kerfið gæti einnig flutt inn og uppfært viðskiptamanna- og/eða framleiðslugögn. Mundu að nota sama verkraðarflokkinn til að forðast árekstra.
+
+Önnur verk sem geta verið hjálpleg við sjálfvirka vinnslu söluskjala:
+
+- Skýrsla 497 keyrsla bóka innkaupareikninga
+- Skýrsla 496 runubókun innkaupapantana
+
+Hægt er að  **Shopify  nota Pöntunarnr**. Til að auðkenna söluskjöl sem voru flutt inn úr Shopify.
+
+Nánari upplýsingar um bókun sölupantana í runu er  [að fá í til að stofna verkraðarafærslu fyrir runubókun sölupantana](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
 ## Sjá einnig .
 

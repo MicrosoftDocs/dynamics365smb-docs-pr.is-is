@@ -3,12 +3,12 @@ title: Flýtivísanir
 description: Heill listi yfir flýtivísanir til að vinna skilvirkt með gögnin þín.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/16/2022
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Flýtivísanir
@@ -39,6 +39,7 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
+|<kbd>ALT</kbd>|Sýna aðgangslykla til að velja aðgerðir í aðgerðrein og Navigation valmyndinni á síðunni. Frekari upplýsingar er að fá í  [Access-takkanum](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>ALT</kbd>+<kbd>upp ör</kbd>|Opna fellilistann eða skoða gildi fyrir reit.|
 |<kbd>ALT</kbd>+<kbd>upp ör</kbd>|Sýna ábendingu fyrir reit eða dálkahaus í töflu. Ef svæðið er með villuvilluleitarvillum skal velja  <kbd>Alt</kbd>+<kbd>upp ör</kbd>  til að sýna villuvilluvilluna. Veljið  <kbd>ESC</kbd>  eða  <kbd>Alt</kbd>+<kbd>upp-örina</kbd>  til að loka verkfærinu.|
 |<kbd>F2</kbd>|Víxla á milli þess að velja gildi reitsins í heild sinni eða setja bendilinn við lok reitargildis.|
@@ -51,7 +52,7 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 |<kbd>ALT</kbd>+<kbd>vaktin</kbd>+<kbd>N</kbd> |Velja nýlega stofnaða síðu og opna nýja til að búa til nýja færslu. Eins er  <kbd>Alt</kbd>+<kbd>F9</kbd>  bókar skjal og stofnar nýtt.|
 |<kbd>ALT</kbd>+<kbd>T</kbd>|Opna síðuna **Mínar stillingar**.|
 |<kbd>ALT</kbd>+<kbd>í hægri ör</kbd>|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur ![AssistEdit](media/assist-edit-icon.png "AssistEdit hnappur"). hnappur. Notað þegar venjulegur fellihnappur (<kbd>Alt</kbd>+<kbd>upp ör</kbd>) í sama reit er notaður í öðrum tilgangi.|
-|<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Birta upplýsingar í merki fyrirtækis. Þessari flýtileið var hætt í viðskiptum Mið 2022 út Wave 2 (útgáfa 21) og skipt út fyrir  <kbd>CTRL</kbd>+<kbd>O</kbd>. |
+|<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Birta upplýsingar í merki fyrirtækis. Byrjað í Business Mið 2022 út Wave 2 (útgáfa 21, þessi flýtivísun er ekki lengur studd í staðinn fyrir  <kbd>CTRL</kbd>+<kbd>O</kbd>). |
 |<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Opna og loka glugganum fyrir síðueftirlit. Glugginn fyrir síðueftirlit sýnir upplýsingar um síðuna, t.d. upprunatöflu, reiti, síur, viðbætur og fleira.<br /><br />Frekari upplýsingar er að finna í [Eftirlit með síðum](across-inspect-page.md).|
 |<kbd>CTRL</kbd>+<kbd>C</kbd> |Afrita gildið á reit. Ef reiturinn er í fókus og þú hefur ekki valið neinn texta í reitnum mun þetta afrita allt gildið. Ef þú hefur valið einhvern texta í reitnum er eingöngu valilnn texti afritaður.|
 |<kbd>CTRL</kbd>+<kbd>F1</kbd>|Opnaðu [hjálparsvæðið](product-help-and-support.md#help-pane) eða hjálpargrein Business Central í [Microsoft Learn](/dynamics365/business-central/) eftir því hvaða útgáfu af Business Central þú ert með.|
@@ -134,9 +135,9 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 |--------------------------------|----------|
 |<kbd>F3</kbd>|Skiptir yfir í leitargluggann.<ul><li>Virkja leitargluggann svo þú getur byrjað að slá inn leitartextann þinn.</li><li>Ef leitarreiturinn er þegar virkjaður  <kbd>skilar F3</kbd>  listanum án þess að hreinsa leitartextann.</li><ul>|
 |<kbd>Shift</kbd>+<kbd>F3</kbd>|Opnar og lokar afmörkunarsvæðinu.<ul><li> Ef síunarúðan er ekki opin,  <kbd>Shift</kbd>+<kbd>F3</kbd>  opnar hana og einbeitir sér að  **+ Filter**  aðgerð undir  **síulistanum eftir**. Þá er bara hægt að slá  <kbd>inn</kbd>  til að byrja að bæta við Reitaafmörkun.</li><li>Ef síuúðinn er þegar opinn  <kbd>er Shift</kbd>+<kbd>F3</kbd>  loka henni en ekki hreinsa neinar síur sem bætt hefur verið við.</li></ul>|
-|<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Opnar og lokar afmörkunarsvæðinu.<ul><li> Ef síuúðinn er ekki opinn,  <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>  opnar hann og einbeitir sér að  **+ Filter**  aðgerð undir  **Filter Samtala eftir**. Þá er bara hægt að slá  <kbd>inn</kbd>  til að byrja að bæta við samtalssíu.</li><li>Ef síuúðinn er þegar opinn  <kbd>er CTRL</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>  loka henni en ekki hreinsa neinar síur sem bætt hefur verið við.</li></ul>  |
+|<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Opnar og lokar afmörkunarsvæðinu.<ul><li> Ef síuúðinn er ekki opinn, CTRL SHIFT F3 opnar hann og einbeitir sér að  <kbd>+ Filter</kbd>+<kbd>aðgerð undir</kbd>+<kbd>Filter Samtala eftir</kbd>  .  **·**  **·** Þá er bara hægt að slá  <kbd>inn</kbd>  til að byrja að bæta við samtalssíu.</li><li>Ef síuúðinn er þegar opinn  <kbd>er CTRL</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>  loka henni en ekki hreinsa neinar síur sem bætt hefur verið við.</li></ul>  |
 |<kbd>ALT</kbd>+<kbd>F3</kbd>|Skipta síun yfir á valið gildi.<ul><li>Notar dálksíu á völdu reitsgildi á listanum. Þetta gerir það sama og að velja **Sía að þessu gildi** úr dálkahaus. Það opnar síusvæðið, stillir síu á valið gildið, á meðan áhersla er enn á hólf í listanum.</li><li>Ef dálkurinn er þegar afmarkaður  <kbd>hreinsar Alt</kbd>+<kbd>F3</kbd>  afmörkunina á þeim dálki.</li></ul> |
-|<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Opnaðu afmörkunarsvæðið og bættu afmörkun við valinn dálk í listanum. Áhersla er lögð á nýja síureitinn sem leyfir að byrja að slá inn síuviðmiðin strax.<br /><br /> Þetta gerir það sama og að velja **Sía** úr dálkahausnum.<br /><br />Ef sía er þegar á reitnum er nýr sía bætt við. |
+|<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Opnaðu afmörkunarsvæðið og bættu afmörkun við valinn dálk í listanum. Áhersla er lögð á nýja síureitinn sem leyfir að byrja að slá inn síuviðmiðin strax.<br /><br /> Þetta gerir það sama og að velja **Sía** úr dálkahausnum.<br /><br />Ef þegar er til afmörkun í reitnum er nýrri síu bætt við. |
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Endurstilla afmarkanir. Þetta gerir það sama og að velja **Endurstilla síur** í síusvæðið, og það gildir um reit og síur samtalna.<br /><br /> Síur fara aftur í sjálfgefna síurnar fyrir núverandi yfirlit. Ef núverandi yfirlit er **Allt**, þá jafngildir þetta því að fara aftur í ósíað yfirlit með allar færslur. |
 |<kbd>CTRL</kbd>+<kbd>Enter</kbd>|Færðu áherslu frá afmörkunarsvæðinu og yfir á listann.|
 
@@ -170,7 +171,7 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 
 ## <a name="QuickEntry"></a>Flýtileiðir flýtifærslu fyrir reiti
 
-Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, skjölum og listasíðum. Á listum er ekki hægt að nota flýtileiðir þegar listinn er í reitayfirliti. Nánari upplýsingar um flýtifærslu er að finna í [Hröðun gagnaskráningu með flýtifærslu](ui-enter-data.md#QuickEntry).
+Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, skjölum og listasíðum. Á listum er ekki hægt að nota flýtivísana þegar Listinn er í flísinni skoðaður. Nánari upplýsingar um flýtifærslu er að finna í [Hröðun gagnaskráningu með flýtifærslu](ui-enter-data.md#QuickEntry).
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|Athugasemdir|
 |--------------------------------|----------|-------|
@@ -245,6 +246,19 @@ Eftirfarandi tafla lýsir flýtileiðum á talnaborði.
 |--------------------------------|----------|
 |<kbd>Skilrúm fyrir Alt</kbd>+<kbd>tugabrot</kbd>|Skiptu úttaki á skiltáknslykli tugabrots í annaðhvort (.) eða stafinn sem stillingin **Svæði** skilgreinir á síðunni **Mínar stillingar**. Frekari upplýsingar eru í [Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum](ui-enter-data.md#decimal).|
 
+
+## Aðgangslyklar fyrir aðgerðrein og Navigation valmynd
+
+Aðgangslyklar eru flýtivísanir í flýtilykla sem velja tilteknar aðgerðir á aðgerðrein og Navigation valmyndinni sem gerir þér kleift að vafra um aðgerðir til að komast á síðuna sem þú vilt. Aðgangslyklar eru aðgengilegir í vefbiðlara Viðskiptamiðis og svipar til aðgangslykla í Excel og Word á netinu.  
+
+Ef nota á aðgangslykla á síðu er fyrst að velja  <kbd>Alt</kbd>  -lykilinn til að birta  *helstu ráðleggingar* sem eru bókstafir í litlum reitum við hliðina á aðgerðunum í aðgerðrein og Navigation valmyndinni. 
+
+![Mynd sem sýnir aðgangslykla á listasíðu viðskiptavinar.](media/access-keys.png) 
+
+Til að velja aðgerð er valin lyklasamsetning sem birtist í lyklinum Ábending,  <kbd>T.d. H</kbd>  eða  <kbd>J</kbd>+<kbd>F</kbd>.
+- Ef aðgerðin opnar á undirvalmynd annarra aðgerða eru ábendingar lykla fyrir undirvalmyndina sýndar og því hægt að halda áfram að nota aðgangsstýringar ef óskað er.
+- Ef aðgerðin opnar aðra síðu er slökkt á lykilábendingum. Til að sýna þau aftur velurðu  <kbd>Alt</kbd>  -Lykill. 
+ 
 ## Sjá einnig .
 
 [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)  

@@ -29,7 +29,7 @@ Frekari upplýsingar um hvernig á að stofna  Shopify  rannsóknir og ráðlag�
 
 Það þarf að vera  [!INCLUDE[prod_short](../includes/prod_short.md)]  með lykil. 
 
-Til dæmis er hægt að stofna prufureikning eða hefja réttarhöld. Lærðu meira við  [að undirbúa sýnikennslu af  [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md)  og  [skrá sig í prufur](../trial-signup.md). 
+Til dæmis er hægt að stofna prufureikning eða hefja réttarhöld. Lærðu meira á  [að undirbúa Sýnisumhverfi af  Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment)  og  [skrá sig til prufu](../trial-signup.md). 
 
 ## Tengja Viðskiptamiðað  Shopify  við verkstæðið
 
@@ -100,7 +100,7 @@ Veldu hvaða afurð er hægt að selja, til dæmis `BERLIN Swivel Chair, yellow`
 5. Velja skal  **hnappinn halda áfram** .
 6. Haltu  `Standard`  eins sendingarmáta og veldu  **síðan continue til greiðsluhnappi** .
 7. Velja  `10%`  Tip.
-8.  **Í reitinn kreditkort**  er fært inn  `1`  Ef notað  *er (fyrir prófun) Bogus gátt*, ef greiðslur  *Shopify  í prófunarham eru notaðar*, skal færa  `5555 5555 5555 4444`  inn í  **reitinn kreditkort** .
+8.  **Í reitinn kreditkort**  er fært inn  `1`  Ef notað  *er (fyrir prófun) Bogus gátt* eða  `5555 5555 5555 4444`  ef greiðslur  *Shopify  eru notaðar*  í prófunarham.
 9. Reiturinn heiti á spjaldi  **er**  fylltur út.
 10.  **Í reitinn Lokadagsetning**  er færður inn gildandi mánuður/ár.
 11.  **Færið inn** í öryggiskótann `111`.
@@ -162,18 +162,20 @@ Undirbúningur gagna.
 2. Bæta við nýjum verðflokki.  **Í reitnum kóti**  er fært inn `SHOPIFY`.
 3. Glugganum Verðflokkur  **viðskiptamanns er**  lokað.
 4. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **atriði** og veljið tengdan tengil.
-5. Velja vöru  **1896-S, Athens Skrifborðsstóll**.
-6.  **Veldu afbrigðin**  aðgerð og bættu svo við tveimur vöruvíddasamsetningum  `PREMIUM, Athens Desk, Premium edition`  og `ESSENTIAL, Athens Desk, Essential edition`.
-7. Velja  **lengdan texta**, búa til nýjan lengdan texta sem gildir fyrir alla tungumálskóta.  **Í reitnum Lýsing**  er fært inn `Shopify`. 
-8. Bæta við eftirfarandi lýsingu með HTML-merki: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-9. Söluverð  **er valið** og bætt við nýju verði eins og sýnt er í eftirfarandi töflu:
+
+Velja vöru  **1896-S, Athens Skrifborðsstóll**  og keyra eftir leiðbeiningum.
+
+1.  **Veldu afbrigðin**  aðgerð og bættu svo við tveimur vöruvíddasamsetningum  `PREMIUM, Athens Desk, Premium edition`  og `ESSENTIAL, Athens Desk, Essential edition`.
+2. Velja  **lengda**  aðgerð aðgerðar, búa til nýjan lengdan texta sem gildir fyrir alla tungumálskóta.  **Í reitnum Lýsing**  er fært inn `Shopify`. 
+3. Bæta við eftirfarandi texta við HTML-merki: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+4. Veljið  **Söluverð**  aðgerðar og bætið við nýju verði eins og sýnt er í eftirfarandi töflu:
 
   |Lína|**Tegund sölu**|**Kóti sölu**|Tegund|Kóti|Afbrigðiskóði<br>(bæta svæðinu í gegnum sérstillingar)|Einingarverð|
   |------|------------|------------|------------|------------|------------|------------|
   |1|Verðflokkur viðskiptamanna|SHOPIFY|Vara|1896-S|ÓMISSANDI|700|
   |2|Verðflokkur viðskiptamanna|SHOPIFY|Vara|1896-S|IÐGJALD|1000|
 
-10. Velja  **söluafslætti** og bæta við nýjum afslætti:
+5. Velja  **aðgerð söluafsláttar**  og bæta við nýjum afslætti:
 
 * **Flokkur sölutegundar** *viðskiptavinar*
 * **Sölukóði** *smásala*
@@ -182,18 +184,18 @@ Undirbúningur gagna.
 * **·** *Mælieining PCs*
 * **Línuafsláttur%** *10*
 
-11. Veldu  **vörutilvísanir**  og eftirfarandi bæta við línum:
+6. Veldu  **Vörutilvísanaðgerðina**  og eftirfarandi bæta við línum:
 
   |Lína|**Gerð tilvísunar**|**Tilvísun nr.**|Afbrigðiskóði|
   |------|------------|------------|------------|
   |1|Strikamerki|77777777|ÓMISSANDI|
   |2|Strikamerki|11111111|IÐGJALD|
 
-12.  **Loka birgðaspjaldinu**.
-13. Velja skal Item  **1920-S, ANTWERP-Ráðstefnutöflu**.
-14. Veldu  **leiðrétta birgðastöðu**  og í  **reitnum ný birgðastöð**  er fært inn  `100`  fyrir birgðageymslur  *Austur*  og  *Vestur*. 
-1. Velja **Í lagi**.
-1.  **Loka birgðaspjaldinu**.
+
+Velja skal Item  **1920-S, ANTWERP-Fundartöflu**  og keyra eftirfarandi skref.
+
+1. Veldu  **leiðrétta birgðastöðu**  og í  **reitnum ný birgðastöð**  er fært inn  `100`  fyrir birgðageymslur  *Austur*  og  *Vestur*. 
+2. Velja **Í lagi**.
 
 Stilla samstillingarstillingarnar.
 
@@ -252,7 +254,7 @@ Taka skal eftir að birgðaskrá fyrir Ráðstefnutöflu ANTWERP er 100, þar se
 #### Undirbúa gögn
 
 1. Skiptu yfir í ókeypis 30 daga prufutíma án sýnigagna. Frekari upplýsingar er að finna  [í bæta eigin gögnum við tóma prufu](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
-2. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Teiknið, Færið inn  **Shopify  verslanir** og veljið síðan tengda tengilinn.
+2. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **Shopify  verslanir** og veljið síðan tengda tengilinn.
 3. Valið er aðgerðin **Nýtt**.
 4.  **Í reitnum kóti**  er fært inn `DEMO2`.
 5.  **Shopify Í reitinn URL**  er rituð slóðin að vefversluninni sem á að tengjast.
@@ -274,7 +276,7 @@ Skilgreinið  Shopify  verkstæðið eins og lýst er hér á eftir í næstu sk
 
 #### Keyra samstillingu
 
-1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, sláðu inn **Shopify Verslanir** og veldu viðeigandi tengil.
+1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Verslanir** og veldu viðeigandi tengil.
 2.  *DEMO2*  -verslunin sem samstilla á gögn fyrir er valin til að opna  **Shopify  síðu verkstæðiskortsins** .
 3. Veldu aðgerðina **Samstilla vörur**.
 4. Veldu aðgerðina **Samstilla myndir af vörum**.
@@ -282,10 +284,10 @@ Skilgreinið  Shopify  verkstæðið eins og lýst er hér á eftir í næstu sk
 
 ### Niðurstöður
 
-* Shopify Vörur eru fluttar inn. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, sláðu inn **Shopify Vörur** og veldu viðeigandi tengil.
-* Vörur með myndum eru búnar til. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Teiknið, Færið inn  **atriði** og veljið tengdan tengil.
-* Shopify Viðskiptavinir eru fluttir inn. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Teiknið, Færið inn  **Shopify  viðskiptamenn** og veljið tengdan tengil.
-* Viðskiptamenn eru stofnaðir. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Teiknið, Færið inn  **viðskiptamenn** og veljið tengdan tengil.
+* Shopify Vörur eru fluttar inn. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Vörur** og veldu viðeigandi tengil.
+* Vörur með myndum eru búnar til. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **atriði** og veljið tengdan tengil.
+* Shopify Viðskiptavinir eru fluttir inn. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **Shopify  viðskiptamenn** og veljið tengdan tengil.
+* Viðskiptamenn eru stofnaðir. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **viðskiptamenn** og veljið tengdan tengil.
 
 
 ## Sjá einnig

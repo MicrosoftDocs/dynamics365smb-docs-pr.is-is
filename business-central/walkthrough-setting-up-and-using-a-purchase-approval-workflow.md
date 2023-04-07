@@ -33,9 +33,9 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 
 ## Ferill
 
-Sean er yfirnotandi í CRONUS. Hann stofnar tvo skjalasamþykktarnotendur. Annar er Alicia sem táknar innkaupaaðilinn. Hinn er sá sem stendur fyrir samþykktaraðila Alicia. Sean gefur sér síðan ótakmarkaðar innkaupaheimildir og tilgreinir að hann muni fá tilkynningar innri hnúts um leið og viðeigandi tilvik gerist. Að lokum býr Sean til nauðsynlegt samþykktarverkflæði sem afrit af fyrirliggjandi sniðmáti *Verkflæði samþykktar innkaupapöntunar*, skilur eftir öll fyrirliggjandi skilyrði og svarmöguleika óbreytt og virkjar síðan verkflæðið.  
+Sean er frábær notandi á  CRONUS  og býr til tvo samþykktarnotendur. Annar er Alicia sem táknar innkaupaaðilinn. Hinn er Sean sjálfur, sem stendur fyrir samþykkjanda Alicia. Sean gefur þá út ótal innkaupasamþykktarréttindi og Tilgreinir að þeir fái tilkynningar með innri nótum um leið og viðkomandi atburður á sér stað. Að lokum býr Sean til nauðsynlegt samþykktarverkflæði sem afrit af fyrirliggjandi sniðmáti *Verkflæði samþykktar innkaupapöntunar*, skilur eftir öll fyrirliggjandi skilyrði og svarmöguleika óbreytt og virkjar síðan verkflæðið.  
 
-Til að prófa samþykktarverkflæðið skráir Sean sig inn í [!INCLUDE[prod_short](includes/prod_short.md)] sem Alicia og biður síðan um samþykki á innkaupapöntun. Síðan skráir Sean sig inn sem hann sjálfur, sér athugasemdin í „Mínu hlutverki“, fylgir tenglinum á samþykktarbeiðnina fyrir innkaupapöntunina og samþykkir beiðnina.  
+Til að prófa samþykktarverkflæðið skráir Sean sig inn í [!INCLUDE[prod_short](includes/prod_short.md)] sem Alicia og biður síðan um samþykki á innkaupapöntun. Sean undirritar síðan með sjálfum sér, sér nótuna í hlutverkamiðstöðinni, fylgir hlekknum í samþykkisbeiðni fyrir innkaupapöntunina og samþykkir beiðnina.  
 
 ## Notendur
 

@@ -28,7 +28,9 @@ Venjuleg Shopify pöntun getur falið í sér kostnað til viðbótar við milli
 
 Virkja sjálfvirkar **Stofna pantanir sjálfkrafa** til að búa til söluskjöl sjálfkrafa [!INCLUDE[prod_short](../includes/prod_short.md)] þegar Shopify pöntunin hefur verið flutt inn.
 
-Söluskjalið í [!INCLUDE[prod_short](../includes/prod_short.md)] inniheldur tengil á Shopify pöntunina. Ef valið er reiturinn **Shopify Pöntunarnr. í skjalalínu**, þessar upplýsingar eru endurteknar í sölulínum af gerðinni *Athugasemd*.
+Ef gefa á söluskjal sjálfkrafa út skal kveikja á víxlun Söltunarinnar  **í**  sjálfvirka losun.
+
+Söluskjalið í  [!INCLUDE[prod_short](../includes/prod_short.md)]  tenglum við  Shopify  pöntunina og þá er hægt að bæta við reit sem er ekki þegar birtur á síðunni. Frekari upplýsingar um að bæta við reit er farið í  [til að ræsa sérsníða síðu í gegnum  **fylgiritið**  Sérsníða](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Ef hakað er í  **Shopify  reitinn Pöntunarnr. í Doc. línu**  eru þessar upplýsingar endurteknar í sölulínur af gerðinni  **comment**.
 
 Í reitnum **Uppruni skattsvæðis** er hægt að setja forgang um hvernig velja á skattsvæðiskóða eða VSK-viðskiptabókunarflokk miðað við heimilisfang. Innflutt Shopify pöntun inniheldur upplýsingar um skatta en skattarnir eru endurreiknaðir þegar söluskjalið er stofnað og því er mikilvægt að stillingar VSK/skatta séu réttar í [!INCLUDE[prod_short](../includes/prod_short.md)]. Frekari upplýsingar um skatta er að finna í [Setja upp skatta Setja upp skatta fyrir Shopify tenginguna](setup-taxes.md).
 
@@ -75,11 +77,11 @@ Eftirfarandi ferli lýsir því hvernig eigi að flytja inn og uppfæra sölupan
 > [!NOTE]  
 > Þegar sía eftir merki ætti að nota síutákn  `@`  og `*`. Til dæmis ef flytja á inn pantanir sem innihalda  *tag1*, nota `@*tag1*`. `@` vilja tryggja að niðurstaða sé viðurkennd, en  `*`  finna má pantanir með mörgum merkjum.
 
-7. Velja hnappinn **Í lagi**.
+6. Velja hnappinn **Í lagi**.
 
 Einnig er hægt að leita að runuvinnslunni **Samstilla pantanir frá Shopify**.
 
-Þú getur skipulagt verkið sem á að framkvæma á sjálfvirkan hátt. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
+Hægt er að áætla verkið sem á að framkvæma sjálfkrafa. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
 
 ## Yfirfara innfluttar pantanir
 
@@ -90,7 +92,7 @@ Einnig er hægt að leita að runuvinnslunni **Samstilla pantanir frá Shopify**
 
 ## Stofna söluskjöl í Business Central
 
-Ef valkosturinn **Stofna pantanir sjálfkrafa** er virkur á **Shopify Verslunarkortinu**, [!INCLUDE[prod_short](../includes/prod_short.md)]reynir það að búa til söluskjal þegar pöntunin hefur verið flutt inn. Ef vandamál koma upp eins og að viðskiptavin eða vöru vantar þarftu að laga vandamálin og búa svo til sölupöntunina aftur.
+ **Ef Sjálfvirk pantanavíxla**  eru virkjuð á  **Shopify  verkstæðisspjaldinu** [!INCLUDE[prod_short](../includes/prod_short.md)]  er reynt að stofna söluskjal eftir að pöntunin hefur verið flutt inn. Ef vandamál koma upp eins og að viðskiptavin eða vöru vantar þarftu að laga vandamálin og búa svo til sölupöntunina aftur.
 
 ### Til að búa til söluskjöl
 
@@ -132,20 +134,24 @@ Næstu skref fara eftir **Tegund vörpunar viðskiptavinar**.
 
 Í Shopify:
 
-|Breyta|Áhrif|
-|------|-----------|
-|Breyta uppfyllingarstaðsetningu | Upphafleg staðsetning verður samstillt við [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|Breyta uppfyllingu staðsetningar og skrá uppfyllingu í Shopify| Ef pöntun var þegar flutt inn verða línurnar ekki uppfærðar. Annars mun innflutt pöntun nota Uppfyllingarstaðsetningu. |
-|Breyta pöntun og breyta magni| Haus pöntunar og viðbótartöflur verða uppfærðar í [!INCLUDE[prod_short](../includes/prod_short.md)], línur breytast ekki. |
-|Breyta pöntun og bæta við nýjum hlut | Haus pöntunar verður uppfærður, línur breytast ekki. |
+|Breyta|Áhrif fyrir pöntun sem þegar er flutt inn|Áhrif til þess að panta sem fær innflutta í fyrsta sinn|
+|------|-----------|-----------|
+|Breyta uppfyllingarstaðsetningu | Upprunaleg staðsetning er í línum | Staðsetning uppfyllingar er samsýnd [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Breyta pöntun og auka magn| Pöntunarhaus og fylgitöflur verða uppfærðar í  [!INCLUDE[prod_short](../includes/prod_short.md)], línur verða ekki.| Innflutt pöntun mun nota nýtt magn|
+|Breyta pöntun og minnka magn| Pöntunarhaus og fylgitöflur verða uppfærðar í  [!INCLUDE[prod_short](../includes/prod_short.md)], línur verða ekki.| Ef innflutt pöntun mun nota upprunalegt magn mun svæðið Uppfyllegt magn innihalda nýtt gildi.|
+|Breyta pöntun og fjarlægja fyrirliggjandi vöru | Pöntunarhaus og fylgitöflur verða uppfærðar í  [!INCLUDE[prod_short](../includes/prod_short.md)], línur verða ekki.| Fjarlægð vöru verður enn flutt inn, svæðið í Uppfylanlegu magni mun innihalda núll. |
+|Breyta pöntun og bæta við nýjum hlut | Haus pöntunar verður uppfærður, línur breytast ekki. | Upprunaleg og bætt vara verður flutt inn. |
+|Vinna pöntun: uppfylla, uppfæra greiðsluupplýsingar | Pöntunarhaus verður uppfærður en línurnar ekki. |Breyting hefur engin áhrif á það hvernig pöntunin er flutt inn.|
+|Hætta við pöntun | Pöntunarhaus verður uppfærður en línurnar ekki. |Afturkölluð pöntun er ekki flutt inn |
 
 Í [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Breyta|Áhrif|
 |------|-----------|
-|Breyta staðsetningu í aðra staðsetningu, varpað yfir í Shopify staðsetningar. Bóka afhendingu. | Eftir að búið er að samstilla uppfyllinguna verður staðsetningin uppfærð í Shopify. |
+|Breyta staðsetningu í aðra staðsetningu, varpað yfir í Shopify staðsetningar. Bóka afhendingu. | Pöntun verður merkt sem fuflilli. Upprunaleg staðsetning verður notuð. |
 |Breyta staðsetningu í aðra staðsetningu, ekki varpaða í Shopify staðsetningar. Bóka afhendingu. | Fullyrðingin verður ekki samstillt við Shopify. |
-|Breyta eða minnka magn. Bóka afhendingu. | Shopify Pöntunin verður merkt sem uppfyllt að hluta. |
+|Minnka magn. Bóka afhendingu. | Shopify Pöntunin verður merkt sem uppfyllt að hluta. |
+|Auka magn. Bóka afhendingu. | Fullyrðingin verður ekki samstillt við Shopify. |
 |Bæta við nýju atriði. Bóka afhendingu. | Shopify Pöntunin verður merkt sem uppfyllt. Línur verða ekki uppfærðar. |
 
 ## Samstilla sendingar við Shopify
@@ -162,7 +168,8 @@ Einnig er hægt að nota aðgerðina **Samstilla afhendingar** á síðunum Shop
 
 Þú getur skipulagt verkið sem á að framkvæma á sjálfvirkan hátt. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
 
->[Mikilvægt] Staðsetningin, þar á meðal auða staðsetningin, sem skilgreind er í Bókaðri afhendingarlínu, verður að hafa samsvarandi færslu í Shopify staðsetningunni. Að öðrum kosti verður þessi lína ekki send aftur til Shopify. Frekari upplýsingar er að finna á [Vörpun staðsetningar](synchronize-orders.md#location-mapping).
+>[!Important]
+>Staðsetningin, þar á meðal auður Birgðageymsla, sem er skilgreind í bókuðu afhendingarlínunni verður að hafa samsvarandi færslu í  Shopify  birgðageymslunni. Að öðrum kosti verður þessi lína ekki send aftur til Shopify. Frekari upplýsingar er að finna á [Vörpun staðsetningar](synchronize-orders.md#location-mapping).
 
 Munið að keyra **Samstilla pantanir frá Shopify** til að uppfæra uppfyllingarstöðu pöntunar í [!INCLUDE[prod_short](../includes/prod_short.md)]. Virkni tengilsins safnvistar einnig að fullu greiddar og uppfylltar pantanir bæði í Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)] að því gefnu að skilyrðin séu uppfyllt.
 

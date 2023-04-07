@@ -48,18 +48,18 @@ Hafa skal í huga að aðeins er búið að taka aðeins  **textann af textanum*
 
 - Tillögur um ómyndaða texta eru eingöngu á ensku.
 - Fáar tillögur geta orsakað þegar óljóst eða almenn Vöruheiti eru notuð og sérstakur um vöru vantar, eins og lykileigindir eða tegund.
-- Copilot er aðeins studd í vefprufu fyrirtækja og sandkassa. ekki á framleiðsluumhverfi, einka ský umhverfi eða fyrirtæki Mið umhverfi innanhúss.
+- Copilot er aðeins studd á Viðskiptavefnum Central; ekki persónulegur skýjaumhverfi eða atvinnustarfsemi miðsvæðis innanhúss.
 - Copilot er ekki studd í gegnum tengingar við eigin Azure OpenAI Service úrræði í Azure áskriftinni þinni.
 - Notkun á AL-kóða er ekki studd.
 
 ## Næstu skref
 
-Til að byrja þarftu að fá sérvalið útgáfu af aðalforskoðun sem er virkjuð með Copilot.
+Til að komast af stað þarftu að hafa viðskipti við aðalútgáfu 22 umhverfi sem er virkjað með Copilot.
 
-- Ef þú ert aðalviðskiptavinur í viðskiptum þá ertu aðalviðskiptamaðurinn í Central admin verður að setja upp forskoðunarútgáfuna á sandkassa umhverfis þig.
+- Ef þú ert aðalviðskiptavinur í viðskiptum þá ertu aðalviðskiptamaðurinn í Central admin verður að setja upp Version 22 umhverfi fyrir þig.
 - Ef þú ert ekki Aðalviðskiptavinur í viðskiptum, en vilt prófa það, getur þú skráð þig í ókeypis prufutíma.
 
-Nánari upplýsingar  [fást hjá aðalforskoðunarútgáfu viðskiptablaðsins-Copilot Edition](ai-preview-getstarted.md).  
+Nánari upplýsingar fást með því að  [Skoða forskoðun á aðalútgáfu](ai-preview-getstarted.md) viðskiptahátta.  
 
 ## Sjá einnig .
 

@@ -7,10 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000773, 99000778, 99000823, 99000827'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Fjöldabóka frálag og keyrslutíma
+
 Frálagsmagnið sýnir framvindu vinnunnar sem lokið magn og notuð afköst vinnu eða vélastöðvar.
 
 Hægt er að nota frálagsbókina til að:
@@ -22,7 +23,7 @@ Hægt er að nota frálagsbókina til að:
 > [!NOTE]
 > Ef framleiðsluleiðir eru notaðar eru birgðir aðeins uppfærðar þegar frálagsmagn er bókað í síðustu aðgerðinni.
 
-Með glugganum **Framleiðslubók** er hægt að vinna sömu verk og í glugganum **Frálagsbók** og um leið framkvæma tengdar notkunarbókanir. Frekari upplýsingar eru í [Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu](production-how-to-register-consumption-and-output.md).
+ **Á síðu framleiðslubókar**  er hægt að gera sömu verk og eru á  **síðunni Frálagsbók**  og einnig gera notkunarbókunarverk. Frekari upplýsingar eru í [Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu](production-how-to-register-consumption-and-output.md).
 
 ## Að bóka frálagsmagn og/eða skrá keyrslutíma fyrir eina eða fleiri framleiðslupantanalínur
 
@@ -32,11 +33,11 @@ Með glugganum **Framleiðslubók** er hægt að vinna sömu verk og í glugganu
     Hægt er að nota aðgerðina **Opna leið** til að mynda færslubókarlínur úr framleiðslupöntunum.
   
 3. Ef aðgerðinni er lokið skal velja reitinn **Lokið**.  
-4. Veldu aðgerðina **Bóka** til að bóka aðgerðina. 
+4. Veldu aðgerðina **Bóka** til að bóka aðgerðina.
 
-Fjárhagsfærslur afkasta eru uppfærðar fyrir notaða vinnu eða vélastöðvar með upplýsingum um tíma og magn frálags og rýrnunar.  
+    Fjárhagsfærslur afkasta eru uppfærðar fyrir notaða vinnu eða vélastöðvar með upplýsingum um tíma og magn frálags og rýrnunar. Ef síðasta aðgerðin var bókuð verður vörunni bætt við birgðir.
 
-Ef síðasta aðgerðin var bókuð verður vörunni bætt við birgðir.  
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Sjá einnig
 

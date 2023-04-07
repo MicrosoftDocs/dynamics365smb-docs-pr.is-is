@@ -1,66 +1,69 @@
 ---
 title: Vinna með millifyrirtækjafærslur
 description: Með milli-fyrirtækjavirkninni getur einfaldað fyrirtækjaferli og færslur á milli dótturfyrirtækja innan sama fyrirtækis.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bhielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 02/06/2023
+ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
-ms.search.form: 605
-ms.date: 08/11/2021
-ms.author: edupont
+ms.search.form: '605,'
 ---
 # Vinna með millifyrirtækjafærslur
 
-Eiginleikar færsla milli fyrirtækja eru hannaðar fyrir notendur sem stýra fleiri en einni löglegri viðskiptaeiningu og hafa stofnað mörg fyrirtæki til að aðskilja bókhald þessara eininga. Þessi lýsing á við um marga notendur, sérstaklega þá sem vinna á alþjóðlegum markaði eða svæðum sem hafa mörg ólík viðskipta- og reglugerðaumhverfi.
+Fyrirtæki með fleiri en einn lögaðila með aðskildum bókhaldsaðgerðum geta haft gagn af samstæðufærslum. Það er til dæmis gagnlegt fyrir fyrirtæki sem eiga dótturfélög á mörgum alþjóðlegum mörkuðum eða svæðum. Eða gæti fyrirtæki haft nokkur fyrirtæki en skortir samsvarandi fjölda bókhalds-og stjórnunarteyma. Samstæðufærslur einfalda og straumlínulega viðskiptaferla og færslur á milli fyrirtækja í samstarfi innan samstæðunnar.
 
-Fyrirtækið gæti verið samansett úr mörgum dótturfyrirtækum án þess að hafa sama fjölda bókahalds- og stjórnunarteyma. Færslur milli fyrirtækja einfalda ferli í rekstri og færslur milli eininga.
+Þegar vensl viðskiptamanns og lánardrottins hafa verið tilgreind fyrir færslur innan samstæðu færa upplýsingar inn einn tíma í sölu-og innkaupaskjöl. Samsvarandi skjal er stofnað hjá öðru félagi sem tengist færslunni. Vörpun bókhaldslykla og vídda hjálpar til við að tryggja að upplýsingar birtist á réttum stöðum.  
 
-Þegar byrjað er að nota færslur milli fyrirtækja verða viðskipti við dótturfyrirtæki og innri fyrirtækjafélaga jafn einföld og samskipti við lánardrottna og viðskiptamenn. Færslur milli fyrirtækja eru aðeins færðar einu sinni í viðeigandi skjal. Notandinn getur notað þær aðgerðir sem hann er vanur, til dæmis stjórnun á útgjöldum og gjaldfærðum skuldum. Vörpunaraðgerðir fyrir bókhaldslykla og víddir tryggja að upplýsingarnar birtist á réttum stað.  
+Fjórir meginkostir eru til aðgerða innan samstæðunnar:  
 
-Fjórir helstu kostir milli fyrirtækjavirkninnar eru:  
+* Tímasparnaður og einfaldari færslur auka afköst  
+* Smækkuð mistök með eins-tíma skráningu upplýsinga og kerfivíða, sjálfvirkar uppfærslur  
+* Fullt eftirlit með ferli endurskoðana, viðskipta og færslna  
+* Skilvirkar og hagkvæmar færslur í samskiptum við hlutdeildarfélög eða dótturfyrirtæki  
 
-- Tímasparnaður og einfaldari færslur auka afköst  
-- Minni hætta á villum - færslur aðeins færðar inn í eitt skipti og sjálfvirkar uppfærslur á heildarkerfinu  
-- Fullt eftirlit með ferli endurskoðana, viðskipta og færslna  
-- Skilvirkar og hagkvæmar færslur í samskiptum við hlutdeildarfélög eða dótturfyrirtæki  
+## Straumlínulega flæði í atvinnustarfsemi  
 
-## Einfaldari viðskiptahættir  
+MF-færslur leyfa að hægt sé að dreifa sölu-og innkaupaskjölum og færslubókarfærslum til allra á gervihnöttanna, söluskrifstofum eða dótturfyrirtækjum. Að dreifa færslum sparar tíma og eykur skilvirkni í öllu fyrirtækinu með því að minnka færslu gagna. Það sker niður þörfina á að senda, taka á móti, prenta út og safnvista sölu-og innkaupaskjöl.  
 
-Með færslum milli fyrirtækja er hægt að senda sölu- og innkaupaskjöl sem og fjárhagsfærslur á skrifstofur í öðrum löndum, söluskrifstofur eða dótturfyrirtæki, allt í gegnum forritið. Þar sem ekki þarf að færa gögn inn endurtekið og senda, taka á móti, prenta og skrá sölu og innkaup á pappír sparast tími og skilvirkni eykst.  
+Þú ert í fullri stjórn á öllum færsluskjölum. Til dæmis er hægt að hafna skjali sem sent er til þín og nota  **Póstbókanir**  og  **afturkalla innhreyfingar/afhendingar**  til að gera leiðréttingar. Einnig er hægt að uppfæra innkaupapöntunina svo lengi sem sölufyrirtækið hefur ekki afhent vörurnar þegar innkaup eru gerð frá félagi eða dótturfyrirtæki.  
 
-Færsluskjölum má stjórna algjörlega. Til dæmis er hægt að hafna fylgiskjali sem þú hefur fengið sent og því rangar bókanir Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar. Einnig er hægt að uppfæra innkaupapöntun þegar keypt er frá félaga eða hlutdeildarfyrirtæki, svo lengi sem sölufyrirtækið hefur ekki afhent vörur.  
+Þegar færsla er færð inn þarf ekki að tilgreina þá lykla sem á að nota. Þú velur bara samstæðufélaga. Samstæðuaðgerðin stofnar almennar færslubókarlínur sem jafna bækur beggja fyrirtækjanna sem taka þátt í færslunni. Í Útistandandi og viðskiptaskuldir er MF-félagakóta úthlutað á hvaða viðskiptamann eða lánardrottin sem er. Frá þeirri stundu er, að allar pantanir og reikningar vegna viðskipta á milli þessara félaga framleiða samsvarandi skjöl í félagasamfélaginu. Útkoman er rétt samhæfaður reikningar.  
 
-Þegar færsla er færð inn þarf ekki að tilgreina reikningana fyrir stök söfn bóka, heldur þarf aðeins að gefa upp kenni samstarfsfyrirtækisins. Milli-fyrirtækjavirknin býr til færslubókarlínur sem leiða til réttrar stöðu reikninga beggja fyrirtækjanna sem eiga hlut að færslu. Í Útistandandi og viðskiptaskuldir er MF-félagakóta úthlutað á hvaða viðskiptamann eða lánardrottin sem er. Pantanir og reikningar sem eiga við færslur til eða frá þessum félögum stofna þaðan í frá samsvarandi skjöl hjá fyrirtækjafélögum svo að staða reikninganna verði rétt.  
+Samstæða leggur áherslu á sölu-og innkaupaskjöl og færslubókarlínur og leyfir færslur á mörgum  [!INCLUDE [prod_short](includes/prod_short.md)]  gagnagrunnum. Dæmi:
 
-Aðgerðir færslur milli fyrirtækja eru hannaðar til að auðvelda færslur milli fyrirtækja með sölu- og innkaupaskjölum og línum færslubókarinnar. Færslur milli fyrirtækja leyfa færslur milli fyrirtækja úr mörgum [!INCLUDE [prod_short](includes/prod_short.md)] gagnagrunnum, löndum/svæðum, bókhaldslyklum víddum og vörunúmerum.  
+* Í mismunandi löndum/svæðum
+* Margir Gjaldmiðlar
+* Mismunandi bókhaldslykla
+* Mismunandi víddir
+* Mismunandi vörunúmerum  
 
-Í færslum milli fyrirtækja eru margar færslur og mörg skjöl notuð:  
+Samstæðufærslur nota nokkrar gerðir færslna og fylgiskjala:  
 
-- Færslur í færslubók
-- Innkaupa- og sölupantanir
-- Innkaupa- og sölureikningar
-- Kreditreikningar
-- Skilapantanir
+* Færslubókarfærslur
+* Innkaupa- og sölupantanir
+* Innkaupa- og sölureikningar
+* Kreditreikningar
+* Skilapantanir
 
-Þegar færslur milli fyrirtækja eru stofnaðar er listi yfir MF-félaga búinn til sem kallast MF-félagar og bókhaldslykill fyrir þá. Því næst er hægt að búa til færslur milli fyrirtækja í færslubók. Víddir má setja upp aðskildar ef þess þarf.  
+Þegar færslur milli fyrirtækja eru settar upp er listi yfir samstæðufélaga, MF-bókhaldslykil og MF-víddir stofnaður. Á eftir er hægt að stofna færslur í MF-færslubók.
 
 > [!NOTE]
-> Almenna færslubókin inniheldur ekki aðgerðir fyrir gjaldmiðla heldur umreiknar allar upphæðir í SGM eða heimagjaldmiðilinn.
+> Færslubókin með öllu fylgir ekki gjaldmiðlum. Það breytir öllum upphæðum í staðbundna gjaldmiðlinum á gildandi gengi.
 
-Eftir að samstarfsaðilar hafa verið settir upp sem viðskiptamenn og lánardrottnar í kerfinu og þeim úthlutað MF-félagakóta er hægt að deila innkaupa- og söluskjölum milli fyrirtækja, þar á meðal vörum og vörugjöldum. [!INCLUDE [prod_short](includes/prod_short.md)] styður færslur milli fyrirtækja úr mörgum gagnagrunnum, til dæmis í ólíkum löndum/svæðum, í ólíkum gjaldmiðlum, bókhaldslyklum, víddum og vörunúmerum.  
+Eftir að viðskiptaaðilar hafa verið settir upp sem viðskiptamenn og Lánardrottnar og úthluta þeim kóðum MF-félaga geta þeir gengið frá samstæðuinnkaupa-og söluskjölum, þar á meðal vörum og kostnaðarauka. 
 
 > [!NOTE]
-> Ekki er hægt að skipta öllum tegundum gagna á milli fyrirtækja á þennan hátt. Innkaupreikningar eru ekki sendir til viðskiptafélaga í gegnum ferli milli fyrirtækja. En sölureikningar sem sendir eru inn í gegnum ferli milli fyrirtækja verða stofnaðir sem innkaupareikningar í móttökufyrirtækinu.
+> Fyrirtæki geta ekki notað samstæðu til að skiptast á öllum gerðum gagna. Innkaupreikningar eru ekki sendir til viðskiptafélaga í gegnum ferli milli fyrirtækja. Sölureikningar sem eru sendir í gegnum samstæðuvinnslur verða hins vegar stofnaðir sem innkaupareikningar í móttökufyrirtækinu.
 
-Að steypa saman fjárhagsgögnum getur einkum gagnast fyrir ferla innan samstæða. Frekari upplýsingar er að finna í [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md).
+Sameining fjárhagslegra gagna gæti verið viðeigandi fyrir samstæðuferla. Frekari upplýsingar er að finna í [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md).
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
 |Til að |Sjá|
 |---|---|
-|Stofna lánardrottna og viðskiptamenn millifyrirtækis sem svokallaða millifyrirtækjafélaga, og setja upp bókhaldslykil millifyrirtækis.|[Uppsetning milli fyrirtækja](intercompany-how-setup.md)|
+|Stofna samstæðulánarlánardrottna og viðskiptamenn sem samstarfsaðila og setja upp bókhaldslykil innan samstæðu.|[Uppsetning milli fyrirtækja](intercompany-how-setup.md)|
 |Milli-fyrirtækjaskjöl eða færslubækur eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga.|[Unnið með samstæðuskjöl og færslubækur](intercompany-how-work-documents-journals.md)|
 |Skipuleggja og vinna færslur á inn- og útleið sem þú og millifyrirtækjafélagar þínir sendið ykkar á milli.|[Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md)|
 |Nota færslur milli fyrirtækja til að dreifa kostnaði á milli samstarfsfyrirtækja.|[Úthluta kostnaði til millifyrirtækjafélaga](intercompany-allocate-costs.md)|

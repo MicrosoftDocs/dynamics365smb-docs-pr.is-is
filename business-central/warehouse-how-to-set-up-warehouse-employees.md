@@ -1,18 +1,17 @@
 ---
 title: Setja upp vöruhúsastarfsmenn
 description: Hver notandi sem framkvæmir vöruhúsaaðgerðir verður að vera settur upp sem starfsmaður sem hefur verið úthlutað einni sjálfgefinni birgðageymslu og hugsanlega fleiri staðsetningum sem ekki eru sjálfgefnar.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 03/09/2023
+ms.custom: bap-template
 ms.search.form: '7328, 7348'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Setja upp vöruhúsastarfsmenn
 
-Hver notandi sem framkvæmir vöruhúsaaðgerðir verður að vera settur upp sem starfsmaður sem hefur verið úthlutað einni sjálfgefinni birgðageymslu og hugsanlega fleiri staðsetningum sem ekki eru sjálfgefnar. Þessi notandauppsetning afmarkar allar vöruhúsaaðgerðir í gagnagrunninum við staðsetningu notandans svo hann geti einungis framkvæmt vöruhúsaaðgerðir í sjálfgefnu birgðageymslunni. Hægt er að úthluta notanda fyrir birgðageymslur sem ekki eru sjálfgefnar sem hann getur skoðað aðgerðalínur fyrir en ekki framkvæmt aðgerðirnar.
+Hver notandi sem framkvæmir vöruhúsaaðgerðir verður að vera settur upp sem starfsmaður í vöruhúsi og tengdur sjálfgefnum stað. [!INCLUDE [prod_short](includes/prod_short.md)] afmarkar verkþætti vöruhúsaaðgerða til sjálfgefinnar staðsetningar starfsmannsins. Þeir geta aðeins framkvæmt vöruhúsaaðgerðir á staðnum. Einnig er hægt að úthluta notanda á aðra staði. Þeir geta opnað en ekki framkvæmt aðgerðir á þeim stöðum.
 
 ## Setja upp vöruhúsastarfsmenn  
 
@@ -20,8 +19,8 @@ Hver notandi sem framkvæmir vöruhúsaaðgerðir verður að vera settur upp se
 2. Valið er **Nýtt** aðgerð.  
 3. Veljið reitinn **Kenni notanda** og veljið síðan notandann sem á að bæta við sem vöruhúsastarfsmanni. Velja hnappinn **Í lagi**.  
 4. Í reitnum **Kóti birgðageymslu** er færður inn kóti birgðageymslunnar þar sem notandinn verður starfandi.  
-5. Gátreiturinn **Sjálfgefið** er valinn til þess að skilgreina birgðageymsluna sem einu staðsetninguna þar sem starfsmaður getur framkvæmt vöruhúsaaðgerðir.  
-6. Skrefin eru endurtekin til að úthluta öðrum starfsmönnum á birgðageymslur eða úthluta birgðageymslum sem ekki eru sjálfgefnar til vöruhúsastarfsmanna sem þegar eru til.  
+5. Kveikja skal á  **sjálfgefinni**  víxla til að tilgreina að þetta sé eina Staðsetningin þar sem starfsmaðurinn getur framkvæmt vöruhúsaaðgerðir.  
+6. Endurtakið þessi skref til að úthluta öðrum starfsmönnum birgðageymslum eða úthluta öðrum stöðum tiltækum starfsmönnum vöruhúss.  
 
 ## Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
 
@@ -32,6 +31,6 @@ Hver notandi sem framkvæmir vöruhúsaaðgerðir verður að vera settur upp se
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Skilgreinið bókunarreglur reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

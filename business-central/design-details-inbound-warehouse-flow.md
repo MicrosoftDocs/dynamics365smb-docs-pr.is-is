@@ -45,12 +45,7 @@ Val á nálgun fer eftir venjum og stigi fyrirtækisins. Eftirfarandi eru nokkur
 
 > [!NOTE]
 > Á meðan frágangur vöruhúss og frágangs á birgðum er svipaður eru þau ólík skjölum og eru notuð í mismunandi ferlum.
-> * Birgðafrágangurinn sem er notaður í aðferð B ásamt upplýsingum um frágang bókar skal einnig leggja inn kvittun fyrir súece-skjalinu.
-> * Vöruhúsafrágangurinn sem er notaður í aðferðard er ekki hægt að bóka og hann skráir aðeins fráganginn. Skráningin gerir þær vörur aðgengilegar til frekari vinnslu en bókar ekki kvittunina. Vöruhúsafrágangur krefst vöruhúsamóttöku í innstreymissinninu.
-
-> [!NOTE]
-> Á meðan frágangur vöruhúss og frágangs á birgðum er svipaður eru þau ólík skjölum og eru notuð í mismunandi ferlum.
-> * Birgðafrágangurinn sem er notaður í aðferð B ásamt upplýsingum um frágang bókar skal einnig leggja inn kvittun fyrir súece-skjalinu.
+> * Birgðafrágangurinn sem er notaður í aðferð B ásamt frágangi upplýsinga um frágang bókar einnig móttöku upprunaskjalsins.
 > * Vöruhúsafrágangurinn sem er notaður í aðferðard er ekki hægt að bóka og hann skráir aðeins fráganginn. Skráningin gerir þær vörur aðgengilegar til frekari vinnslu en bókar ekki kvittunina. Vöruhúsafrágangur krefst vöruhúsamóttöku í innstreymissinninu.
 
 ## Engin sérhæfð vöruhúsastarfsemi

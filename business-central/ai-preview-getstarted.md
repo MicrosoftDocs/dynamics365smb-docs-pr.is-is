@@ -1,5 +1,5 @@
 ---
-title: Fá aðgang að fyrirtæki Aðalforstöðumaður-Copilot Edition
+title: Byrjaðu með forskot á Aðalforskoðunarútgáfu fyrir Copilot
 description: Útskýrir hvernig á að fá Viðskiptamiðað umhverfi með nýja AI getu til að mynda texta tillögur fyrir vöru/vörulýsingar.
 author: jswymer
 ms.author: jswymer
@@ -9,38 +9,35 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Byrjaðu með forskot á Aðalforskoðunarútgáfu-Copilot Edition
+# Byrjaðu með forskot á Aðalforskoðunarútgáfu fyrir Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-Hægt er að reyna markaðseftirlit með AI-tilbúinni vöru með Copilot hvort sem um er að ræða Aðalviðskiptavin eða hugsanlegan viðskiptavin, þ.e. einhvern sem hefur bara áhuga á að kanna viðskipti miðlægt og reyna út á nýja getu. Til að byrja þarftu að fá aðgang að Forskoðun útgáfu af Business Central sem styður nýja getu. Ljúkið við kaflann hér að neðan sem á við þig.
+Hægt er að reyna markaðseftirlit með AI-tilbúinni vöru með Copilot hvort sem um er að ræða Aðalviðskiptavin eða hugsanlegan viðskiptavin, þ.e. einhvern sem hefur bara áhuga á að kanna viðskipti miðlægt og reyna út á nýja getu. Til að byrja þarftu að fá aðgang að miðlægu netútgáfu Business sem styður nýja getu. Ljúkið við kaflann hér að neðan sem á við þig.
 
 ## Fyrirtækið notar nú þegar miðsvæðis í viðskiptum
 
-Þar sem viðskiptavinur eða samstarfsaðili er fyrir hendi þarf admin aðgang að aðalþjónustumiðstöðinni Business Central til að setja upp  *sandkassa*  sem keyrir forskoðunarútgáfuna sem felur í sér copilot. Þegar sandkassinn er kominn á og keyrir geta notendur prófað sig út úr nýju aðgerðinni.
+Sem viðskiptamaður eða samstarfsaðili þarf admin að fá aðgang að Aðalstjórnun fyrirtækja til að setja upp umhverfi sem keyrir forskoðunarútgáfuna sem felur í sér Copilot. Þegar umhverfið er upp og í gangi geta notendur prófað sig út úr nýju aðgerðinni.
 
 Ef þú ert umhverfisstjórnun skaltu ljúka eftirfarandi skrefum:
 
 1. Skráðu þig inn á Aðalmóttökustöð Viðskiptaráðs.
 2. Velja  **umhverfi** > **nýtt**.
 3.  **Í svæðinu stofna umhverfissvæði**  skal tilgreina heiti fyrir nýtt umhverfi í  **reitnum Heiti**  umhverfis.
-4. Stilla  **Umhverfisgerð**  á  **sandkassa**.
-5. Set  **landið**  í samband við  **okkum**.
+4. Stilla  **gerð**  umhverfis á  **sandkassa**  eða  **framleiðslu**.
+5. Stilla land  **á hvaða land/svæði sem er á listanum en hafa skal í huga að í forskoðuninni er aðeins hægt að setja**  upp markaðstexta frá Copilot á ensku.
+6.  **Í reitnum útgáfa**  er valið útgáfa 22 eða nýrri af listanum.
 
+   <!--
    > [!IMPORTANT]
-   > Forskoðunin er aðeins í boði hjá okkur. Félög í einhverju öðru landi eða landshluta geta enn búið til US sandkassa forskot til að upplifa copilot.
-
-6.  **Í reitnum útgáfa**  er valin útgáfa  **22.0.54157.54311 (Forskoðun-copilot Edition)**.
-
-   > [!IMPORTANT]
-   > Þú verður að nota  **22.0.54157.54311 (Forskoðun-copilot Edition)**  til að upplifa copilot.
-
+   > You must use **22.0.54157.54311 (Preview - Copilot edition)** to experience Copilot.
+   -->
 7. Velja **Stofna**.  
 
-Nánari upplýsingar um hvernig á að búa til sandkassa umhverfi er að fara til að búa til  [umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
+Fyrir frekari upplýsingar um hvernig á að búa til umhverfi skal fara að búa til  [umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 > [!IMPORTANT]
-> Forskráning sandkassaleita er aðeins til og með til 01 Maí 2023. Eftir þessa dagsetningu þarftu að ráðstafa nýju umhverfi eða uppfæra eitthvað af öðru umhverfi þínu í útgáfu 22,0 eða seinna til að halda áfram að reyna forskoðun á markaðstexta AI-vara.
+> Ef þú hefur forskoða sandkassa sem keyra á  **22.0.54157.54311 (Preview-Copilot Edition)**, skaltu hafa í huga að þetta umhverfi er aðeins aðgengilegt til og með til 01 Maí 2023. Eftir þessa dagsetningu þarftu að ráðstafa nýju umhverfi eða uppfæra eitthvað af öðru umhverfi þínu í útgáfu 22,0 eða seinna til að halda áfram að reyna forskoðun á markaðstexta AI-vara.
 
 ## Fyrirtækið notar ekki miðlægu viðskipta-
 
@@ -49,13 +46,12 @@ Ef þú ert ekki Aðalviðskiptavinur Viðskiptamiðanna skráir þú þig í ó
 1. Fara á  [þennan prufuvef](https://go.microsoft.com/fwlink/?linkid=2227167)  til að byrja á undirskriftarferlinu.
 2. Fylgið leiðbeiningunum á skjánum.
 
-   Þú ert beðinn um að gefa upplýsingar eins og netfang þitt, nafn og símanúmer. Nákvæm reynsla getur verið breytileg eftir því hvaða upplýsingar eru gefnar. En hér eru nokkur mikilvæg atriði sem vert er að hafa í huga þegar þú keyrir í gegnum undirskriftarferlið:
-
-   - Netfang þitt er notað í vinnu-eða skólnetfanginu þínu. Við munum koma á framfæri prufu þinni á reikningi fyrirtækisins. Ekki má nota netföng sem neytandi póstþjónusta eða fjarskiptaveitur veita, svo sem outlook.com, hotmail.com, gmail.com, og aðrir.
-   - Þegar notandi kemst að valkostinum fyrir  **land eða svæði**  þarf að gæta þess að stilla þetta  **Bandaríkin**.
+   Þú ert beðinn um að gefa upplýsingar eins og netfang þitt, nafn og símanúmer. Nákvæm reynsla getur verið breytileg eftir því hvaða upplýsingar eru gefnar. <!--But here are a couple important points to be aware of as you run through the sign-up process:--> Netfang þitt er notað í vinnu-eða skólnetfanginu þínu. Við munum koma á framfæri prufu þinni á reikningi fyrirtækisins. Ekki má nota netföng sem neytandi póstþjónusta eða fjarskiptaveitur veita, svo sem outlook.com, hotmail.com, gmail.com, og aðrir.
+   
+   <!-- When you get to the option for **Country or region** be sure to set this **United States**.
 
       > [!IMPORTANT]
-      > Setja  **verður land eða svæði**  við  **Bandaríkin**; annars vegar að markaðssetning sem texti í markaðssetningu copilot verður ekki tiltækur í aðalsafni fyrirtækja.  
+      > You must set **Country or region** to **United States**; otherwise the AI-powered item marketing text with Copilot won't be available in Business Central.  -->
 3.  **Þegar farið er inn á skref staðfestingarteymisins**  Ertu tilbúinn að hefja réttarhöldin.
 
    - Til að fara beint í Business Central velurðu  **sleppa & fara í  Dynamics 365 Business Central** > **gang**.

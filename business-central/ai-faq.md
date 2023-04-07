@@ -4,7 +4,7 @@ description: Fáðu svör við algengum spurningum um formyndaða textamöguleik
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: faq
-ms.date: 03/16/2023
+ms.date: 04/03/2023
 ms.custom: bap-template
 author: jswymer
 ms.service: dynamics365-business-central
@@ -35,10 +35,9 @@ Til að Copilot séu tiltæk þarf að uppfylla eftirfarandi kröfur:
 - Tungumálið sem þú notar í Viðskiptamiðinu verður að vera Enskt. Eitthvert af tiltækum enskum staðin mun virka, eins og Enska (Bandaríkin), Enska (Bretland), eða Enska (Suður-Afríka).
 
   Til að breyta tungumálinu, efst í hægra horninu, skaltu velja stillingar fyrir  **stillingar**  teikni ![...](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð"). > **Stillingar** > **tungumáls**. Frekari upplýsingar er að fara í breytingar á  [grunnstillingum](ui-change-basic-settings.md#language).
-- Þú verður að vera að nota Business miðlægt á netinu sem prufu eða í sandkassa.
-- Útgáfa Viðskiptamiðilsins verður að vera  **22.0.54157.54311 (Forskoðun-Copilot Edition)**.
+- Þú verður að vera að nota Miðnetversion 22 eða nýrri útgáfu (ef þú ert custeomer) eða réttara.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->.
 
-   Til að athuga útgáfuna skaltu velja spurningarmerkið efst í hægra horninu, þá  **skaltu hjálpa & stuðning**. Leita að útgáfu hugbúnaðarins undir  **Úrræðaleit**. Upplýsingar um það hvernig á að fá rétta forskoðunarútgáfu er að fá með því að  [Skoða útgáfu](ai-preview-getstarted.md) á Aðalforskoðun hjá fyrirtæki.
+   Til að athuga útgáfuna skaltu velja spurningarmerkið efst í hægra horninu, þá  **skaltu hjálpa & stuðning**. Leita að útgáfu hugbúnaðarins undir  **Úrræðaleit**. Til að fá upplýsingar um rétta Forskoðun útgáfu er farið í  [hafist handa með aðalforskoðun](ai-preview-getstarted.md) á fyrirtæki.
 -  **Create AI-knúin vörulýsingar með Copilot**  verða að vera virkar.
 
    Frekari upplýsingar er að fara í til að  [gera eða slökkva á "Create AI vörulýsingum með Copilot '](enable-ai.md#enable-or-disable-the-create-ai-powered-product-descriptions-with-copilot-feature).

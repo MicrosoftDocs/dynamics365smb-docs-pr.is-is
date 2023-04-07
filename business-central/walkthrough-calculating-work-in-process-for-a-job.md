@@ -44,7 +44,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
  CRONUS hefur tekið að sér langt verk sem nær yfir nokkur bókhaldstímabil. Tinna, sem er teymismeðlimur í verkefninu, reiknar út verk í vinnslu (VÍV) til að tryggja að ársreikningur fyrirtækisins verði réttur.  
 
- Tinna mun velja tiltekinn hóp verkhluta sem tekin verða með í VÍV-útreikninginn. Á síðunni **Verkhlutalínur verks** getur hún tilgreint þessar línur í dálkinum **VÍV-samtala**.  
+ Tinna mun velja tiltekinn hóp verkhluta sem tekin verða með í VÍV-útreikninginn.  **Á síðunni Vinnsluverklínur**  getur Tricia tilgreint þessar línur í  **dálkinum VÍV-Samtals** .  
 
  Eftirfarandi tafla lýsir valkostunum þremur.  
 
@@ -54,7 +54,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 |**Samtals**|Skilgreinir svið eða hóp verkhluta sem eru innifaldir í VÍV og samþykkisútreikningi. Innan flokksins mun hver verkhluti með **Tegund verkhluta** stillta á **Bókun** tekinn með í VÍV-samtölunni, nema að reiturinn **VÍV-samtala** er stilltur á **Útilokað**.|  
 |**Útilokað**|Á aðeins við verk með **Verkhlutategund verks** sem **Bókun**. Verkið er ekki haft með þegar í verk í vinnslu og samþykktir eru reiknaðar.|  
 
- Í eftirfarandi kynningu beitir Trausti Kostnaðarvirðisaðferðinni, sem er stöðluð aðferð í fyrirtæki hans, til að reikna VÍV. Hún tilgreinir hvaða hluti af verkinu verður með í VÍV-útreikningnum með því að úthluta VÍV-Heildargildum til ýmissa verkhlutalína.  
+ Í eftirfarandi Walkthrough notar Tricia Kostnaðarvirðisaðferðina, staðalstaðal fyrirtækis síns, til að reikna út VÍV. Tricia Tilgreinir hvaða hluti vinnslunnar verður að taka með í útreikningi VÍV með því að úthluta VÍV-Heildargildum á ýmsar vinnsluverkhlutalínur.  
 
 ### Útreikningur VÍV  
 
@@ -110,7 +110,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
 ## VÍV bókað í fjárhag
 
- Þegar Tinna hefur reiknað VÍV fyrir þetta verk getur hún bókað það í fjárhaginn.  
+ Nú þegar Tricia hefur reiknað út VÍV fyrir þessa vinnslu er hægt að bóka það í fjárhag.  
 
 ### VÍV bókað í fjárhag  
 
@@ -134,7 +134,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
 ## Bakfærsla VÍV-bókunar
 
- Tinna ákveður að reikna hefði átt þá verkhluta verks sem ekki voru hafðir með í VÍV í VÍV. Hún getur bakfært rangar bókanir án þess að bóka nýjar VÍV-bókanir.  
+ Tinna ákveður að reikna hefði átt þá verkhluta verks sem ekki voru hafðir með í VÍV í VÍV. Tricia getur bakfært rangar bókanir án þess að bóka nýjar VÍV-bókanir.  
 
 ### Bakfærsla VÍV-bókunar  
 
@@ -153,7 +153,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 13. Opna skal **Verkhlutalínur verks**, taka þá hluta með sem eiga að vera með í VÍV-útreikningnum og endurreikna og bóka nýja virðið í fjárhaginn.  
 
     > [!NOTE]  
-    >  Gefum okkur að Tricia hafi reiknað út og bókað WIP fyrir verk með röngum dagsetningum. Í kjölfar aðferðarinnar sem var rædd hér á undan, getur hún bakfært rangar bókanir, leiðrétt dagsetningarnar og endurbókað í fjárhag.  
+    >  Gefum okkur að Tricia hafi reiknað út og bókað WIP fyrir verk með röngum dagsetningum. Eftir þeirri aðferð sem rædd var áður geta Tricia snúið við röngum bókunum, leiðrétt dagsetningarnar og sent þær aftur í fjárhag.  
 
 ## Næstu þrep
 

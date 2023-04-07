@@ -2,13 +2,13 @@
 title: Lágmarkskröfur fyrir notkun Business Central
 description: Kynntu þér lágmarkskröfur um kerfi og útgáfu til að nota Business Central á netinu eins og er útskýrt hér á eftir.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
+ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 08/23/2022
+ms.date: 02/28/2023
+ms.review: jswymer
 ms.author: jswymer
+ms.service: dynamics365-business-central
 ---
 # Lágmarkskröfur fyrir notkun Business Central
 
@@ -64,7 +64,7 @@ Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af ef
 
 ## Fyrir Business Central á staðnum
 
-Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Frekari upplýsingar er að finna í [Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) og [Yfirlit uppsetningar](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Sjá  [Kerfisþarfir fyrir  Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v22)  og  [Yfirlit yfir](/dynamics365/business-central/dev-itpro/deployment/deployment) virkjun fyrir frekari upplýsingar.  
 
 ## Sjá einnig
 

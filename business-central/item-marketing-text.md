@@ -26,10 +26,15 @@ Með Copilot færðu fljótt textatillögu sem er mynduð sjálfkrafa fyrir þig
 
 Copilot er hönnuð til að spara þér tíma og hjálpa þér að skrifa skapandi og þátt texta sem endurspeglar vörumerki þitt og er í samræmi yfir vörulínu þinni. Byrja á því að mynda tillögu, breyta síðan leiðbeinandi texta eftir þörfum.
 
+> [!NOTE]
+> Í forskoðunarútgáfu Viðskiptamiðis er aðeins texti í myndskrá á ensku.
+
 ### Frumskilyrði
 
 - Þú notar  [forskoðunarútgáfu](ai-preview-getstarted.md)  af Business Central sem er virkjaður fyrir Copilot. Virkjun Copilot er unnin af admin. Frekari upplýsingar er að fara í til að  [samskipa texta fyrir MARKAÐSSETNINGU AI-vara með Copilot](enable-ai.md).
+- Tungumálið sem þú notar í Viðskiptamiðinu verður að vera Enskt. Eitthvert af tiltækum enskum staðin mun virka, eins og Enska (Bandaríkin), Enska (Bretland), eða Enska (Suður-Afríka).
 
+   Til að breyta tungumálinu, efst í hægra horninu, skaltu velja stillingar fyrir  **stillingar**  teikni ![...](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð"). > **Stillingar** > **tungumáls**. Frekari upplýsingar er að fara í breytingar á  [grunnstillingum](ui-change-basic-settings.md#language).
 -  [SKOÐAÐU spurningar](ai-faq.md)  um copilot til að fá meiri upplýsingar um AI-myndaðar texta tillögur frá copilot og hvernig þú átt að nota þær.
 
 ### Búa til fyrstu drög með Copilot

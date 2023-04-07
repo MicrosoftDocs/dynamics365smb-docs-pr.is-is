@@ -32,12 +32,12 @@ Með eftirfarandi grein er átt við aðferðir C og D í fyrri töflunni.
 Hægt er að stofna vöruhúsamóttöku á tvo vegu:
 
 * Á þrýstihátt, þegar vinna er unnin á pöntunargrunni.  **Veljið móttökuaðgerðina Móttaka**  vöruhúss í upprunaskjalinu, svo sem innkaupapöntun, Söluvöruskilapöntun eða flutningspöntun til að stofna vöruhúsamóttöku fyrir eitt upprunaskjal.
-*-* Í togtísku, þar sem úttektaraðgerðin  **er notuð**  í upprunaskjalinu, til dæmis innkaupapöntun, Söluvöruskilapöntun eða flutningspöntun til að losa skjalið við vöruhúsið. Starfsmaður í vöruhúsi stofnar  **vöruhúsamóttöku**  fyrir eitt eða mörg Útgefin upprunaskjöl. Eftirfarandi ferli er lýst hvernig á að stofna vöruhúsamóttöku í togtísku. Eftirfarandi ferli lýsir því hvernig vöruhúsamóttaka er stofnuð í togflutningtísku. 
+* Í togtísku, þar sem úttektaraðgerðin  **er notuð**  í upprunaskjalinu, til dæmis innkaupapöntun, Söluvöruskilapöntun eða flutningspöntun til að losa skjalið við vöruhúsið. Starfsmaður í vöruhúsi stofnar  **vöruhúsamóttöku**  fyrir eitt eða mörg Útgefin upprunaskjöl. Eftirfarandi ferli er lýst hvernig á að stofna vöruhúsamóttöku í togtísku. Eftirfarandi ferli lýsir því hvernig vöruhúsamóttaka er stofnuð í togflutningtísku.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsamóttökur**, velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
 
-     **Reiturinn birgðageymslukóti**  er  **fylltur út á flipanum Almennt** . Þegar upprunaskjalalínur eru sóttar er eitthvað af upplýsingunum afritað í hverja línu. 
+     **Reiturinn birgðageymslukóti**  er  **fylltur út á flipanum Almennt** . Þegar upprunaskjalalínur eru sóttar er eitthvað af upplýsingunum afritað í hverja línu.
 
     Fyrir birgðageymslu þar sem krafist er hólfa er reiturinn Hólfakóti  **fylltur út** . Hægt er að bæta við kóta hólfakóta eftir uppsetningu [!INCLUDE[prod_short](includes/prod_short.md)] . Frekari upplýsingar á  [svæði og hólfakóta](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
@@ -56,13 +56,15 @@ Hægt er að stofna vöruhúsamóttöku á tvo vegu:
 
 5. Bóka vöruhúsamóttökuna. Magnsvæðin eru uppfærð á upprunaskjölunum, og vörunum er bætt við birgðir.  
 
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
+
     > [!TIP]
-    > Ef vöruhúsafrágangur er notaður, sem vísar til aðferðar D í töflunni í upphafi þessarar greinar, er tekið á móti vörunum en ekki hægt að tína þær fyrr en búið er að ganga frá þeim. Til að fræðast meira um frágang vara er farið í að  [ganga frá vörum með vöruhúsafrágangi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
-    > 
+    > Ef vöruhúsafrágangur er notaður, sem vísar til aðferðar D í töflunni í upphafi þessarar greinar, er tekið á móti vörunum en ekki hægt að tína þær fyrr en búið er að ganga frá þeim. Til að fræðast meira um frágang vara er farið í að  [ganga frá vörum með vöruhúsafrágangi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    >
     > Annars skal íhuga að  **nota Post og prenta**  aðgerð. Aðgerðin bókar móttökunina og prentar hana út sem frágangsleiðbeiningar sem sýna hvar á að setja vöruna.
 
-> [!NOTE]  
-> Ef hjáskipun er notuð í vöruhúsinu er hægt að athuga hvort hægt sé að hjáskipunarvörum án þess að leggja þær. Frekari upplýsingar um hjáskipun er að fara í  [hjáskipunarvörur](warehouse-how-to-cross-dock-items.md).
+    > [!NOTE]  
+    > Ef hjáskipun er notuð í vöruhúsinu er hægt að athuga hvort hægt sé að hjáskipunarvörum án þess að leggja þær. Frekari upplýsingar um hjáskipun er að fara í  [hjáskipunarvörur](warehouse-how-to-cross-dock-items.md).
 
 ## Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
 

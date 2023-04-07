@@ -2,13 +2,13 @@
 title: Stjórnun Microsoft Teams samþættingar við Business Central | Microsoft docs
 description: Stjórna samþættingu Business Central við Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
-ms.date: 11/03/2022
+ms.date: 02/03/2023
 ms.author: jswymer
+ms.reviewer: jswymer
+ms.custom: bap-template
+ms.service: dynamics365-business-central
 ---
 
 # Að stjórna Microsoft Teams samþættingu við [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -82,7 +82,7 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
 > [!NOTE]
 > Til að setja upp miðlæga innleiðingu verður Teams-reikningurinn þinn að vera með hlutverkið **Stjórnandi Teams Service** eða **Altækur stjórnandi**.
 
-1. Í Business Central skal velja ![Stækkunargler sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Miðlæg innleiðing Teams** og velja síðan viðkomandi tengil. Eða veldu [hér](https://businesscentral.dynamics.com/?page=1833) til að opna síðuna beint.
+1. Í Business Central skal velja ![Stækkunargler sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Miðlæg innleiðing Teams** og velja síðan viðkomandi tengil. Eða veljið  [hér](https://businesscentral.dynamics.com/?page=1833)  til að opna beint síðuna.
 2. Lestu upplýsingarnar í **Setja upp Business Central-forritið fyrir Teams**, veldu síðan **Næsta**.
 3. Opnaðu [Stjórnendamiðstöð Teams](https://go.microsoft.com/fwlink/?linkid=2163970) og ljúktu eftirfarandi skrefum.
     1. Farðu í **Forrit Teams** > **Reglur uppsetningar**.
@@ -91,10 +91,10 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
     4. Veljið **Bæta við**.
 
        Business Central ætti nú að birtast undir **Uppsett forrit** fyrir regluna.
-    5. Skilgreindu viðbótarstillingar, veldu síðan **Vista**.
+    5. Samskipa fleiri stillingum eftir þörfum og velja  **síðan Save**.
 
     Frekari upplýsingar um reglur uppsetningar í Teams er að finna í [Stjórna uppsetningarreglum forrits í Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) í fylgigögnum Teams.
-4. Farðu aftur í **Miðlæga innleiðingu Teams** í Business Central og veldu **Lokið**.
+4. Fara aftur til  **teyma App miðlægt innleiðing**  í viðskiptafræði miðlægt og valið  **gert**.
 
 > [!IMPORTANT]
 > Það getur tekið allt að sólarhring að setja upp reglu uppsetningar fyrir forritið og innleiða forritið hjá notendum.
@@ -126,7 +126,27 @@ Eftirlitseiginleika efnisleitar og eDiscovery í öryggis- og reglufylgnimiðst�
 
 Þar sem gögn spjalds í Teams er afrit af gögnum í [!INCLUDE [prod_short](includes/prod_short.md)] er einnig hægt að nota [!INCLUDE [prod_short](includes/prod_short.md)]-eiginleika til að flytja út gögn viðskiptamanna ef þess er óskað. Frekari upplýsingar um persónuvernd í [!INCLUDE [prod_short](includes/prod_short.md)] er að finna í [Algengar spurningar um persónuvernd fyrir viðskiptamenn Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
+## Sýna eða fela færslugögn á kortum
+
+Þegar skrá er samnýtt með öðrum í teymum spjall eða rás er spjald með reitum sem geymir gögn um færsluna birt. Allir viðtakendur geta skoðað þessi gögn (eða skráð yfirlit) að sjálfgefnu óháð leyfi þeirra eða aðgangsheimildir í Viðskiptamiðinu. Ef þú ert admin þá getur þú notað  **Spjaldstillingarnar**  aðstoðar-leiðbeiningar til að fela færsluyfirlitið frá því að birtast á kortum í teymum. Felur færslusamantektina fjarlægir öll svæði og myndir en heldur áfram að sýna  **hnappinn upplýsingar**  og aðrar upplýsingar sem ekki eru á skrá á spjaldinu.
+
+|Skrá samantekt á|Samantekt færslu|
+|-|-|
+|![Mynd sem sýnir spjald í teymum þegar kveikt er á færslunni summery.](media/card-settings-example-on.png)|![Mynd sem sýnir spjald í teymum þegar slökkt er á færslunni summery.](media/card-settings-example-off.png)|
+
+Stillingum er samskipað fyrir hvert umhverfi. Svo þegar þú kveikir á plötusamantektinni á eða við það hefur það áhrif á öll fyrirtæki í umhverfinu.
+
+1. Í viðskiptafræði miðsvæðis, opið umhverfi sem á að breyta.
+
+   > [!TIP]
+   > Til að skipta um umhverfi velurðu  <kbd>CTRL</kbd>+<kbd>O</kbd>.
+2.  ![Veldu stækkunarglerið sem opnar aðgerðina segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn  **stillingar** korts og veldu svo tengda tengilinn. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Lestu upplýsingarnar á  **Kortastillingum**, Veldu  **svo Next**  þegar tilbúnar.
+4.  **Á síðunni Sýnileiki**  gagna er kveikt á  **yfirlitrofi**  Sýna skrá til að birta gögn á spilunum eða slökkva á gögnunum.
+5. Veldu  **Next**  og fylgdu leiðbeiningunum til að ljúka við Uppsetningarleiðbeiningarnar.
+
 ## Sjá einnig
+
 [[!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  
 [Teams - Algengar spurningar](teams-faq.md)  

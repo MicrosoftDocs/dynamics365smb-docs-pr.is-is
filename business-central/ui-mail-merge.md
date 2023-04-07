@@ -1,61 +1,110 @@
 ---
-title: Word-sniðmát notuð fyrir mörg samskipti í einu | Microsoft Docs
+title: Nota Word sniðmát fyrir Fjöldasamskipti
 description: Word-sniðmát geta auðveldað að búa til mörg skjöl í einu sem eru sérsniðin fyrir tilteknar einingar.
 author: brentholtorf
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'document, mail, merge, Word, template, email'
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 02/01/2023
+ms.custom: bap-template
+ms.search.forms: '9989, 13,'
 ---
 
 # Nota Word-notuð fyrir mörg samskipti í einu
-Microsoft Word-sniðmát geta auðveldað mörg samskipti í einu á prenti eða í tölvupósti með einingum á borð við tengiliði, viðskiptamenn og lánardrottna. Til dæmis er hægt að búa til bæklinga til að tilkynna viðskiptavinum um söluherferð, bréf til að tilkynna lánardrottnum um nýja innkaupastefnu eða boð til að fá tengiliði til að mæta á væntanlegan viðburð.
+
+Microsoft Word-sniðmát geta auðveldað mörg samskipti í einu á prenti eða í tölvupósti með einingum á borð við tengiliði, viðskiptamenn og lánardrottna. Til dæmis er hægt að stofna:
+
+* Bæklingar til að hafa viðvaranir til viðskiptavina um söluherferð
+* Bréf til að upplýsa lánardrottna um nýja innkaupastefnu
+* Boð um að laða tengiliði á komandi viðburði
 
 > [!NOTE]
-> Þú getur eingöngu notað Word-sniðmát á tækjum með Microsoft Word 2019 og Windows-stýrikerfinu uppsettu.
+> Þegar Word sniðmát eru sett upp þarf að nota tæki með  Microsoft Word  2019 eða nýrri og Windows-stýrikerfið uppsett.
 
-Hægt er að nota einingar í [!INCLUDE[prod_short](includes/prod_short.md)] sem gagnagjafa sniðmátsins og bæta við innfellingarsvæðum til að sérsníða skjöl fyrir hverja einingu. Innfellingarsvæðin koma úr einingunni í [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar Word-sniðmát er notað í einingu verða gögn úr innfellingarsvæðunum sett inn í skjalið.
+## Setja upp uppruna gagna
 
-Á síðunni **Word-sniðmát** er hægt að búa til nýtt sniðmát til að nota uppsetningarleiðbeiningu með hjálp til að sækja Zip-skrá sem inniheldur DataSource.xlsx og Word-sniðmátsskrá fyrir eininguna. Gagnagjafaskráin býður upp á reitina sem hægt er að nota í sniðmátinu. Ekki breyta gagnagjafaskránni. Aðeins er hægt að nota Word-sniðmátið og skrár gagnagjafans sem sótt er af [!INCLUDE[prod_short](includes/prod_short.md)] og vista verður skrárnar í sömu staðsetningunni.
+Notið einingar í  [!INCLUDE[prod_short](includes/prod_short.md)]  sem Uppruni gagna fyrir sniðmátið og bætið blöndunarsvæðum við til að sérsníða skjöl fyrir hverja einingu. Innfellingarsvæðin koma úr einingunni í [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar Word-sniðmát er notað í einingu verða gögn úr innfellingarsvæðunum sett inn í skjalið.
 
-Þegar búið er að setja upp sniðmátið og bæta við innfellingarsvæðum er sama leiðbeiningin notuð til að hlaða upp sniðmátinu.
+ **Á síðunni Word-sniðmát**  þegar nýtt sniðmát er búið til aðstoðar Uppsetningarleiðbeiningar með eftirfarandi skrefum:
 
-## Uppsetning sniðmátsins í Word
-Þegar sniðmát er sett upp í Word er hægt í flipanum **Sendingar tölvupósts** að bæta við innfellingarsvæðum með því að velja **Setja inn innfellingarsvæði**. Tiltæk innfellingarsvæði koma frá gagnagjafaskránni sem þú sóttir fyrir eininguna. Þau virka sem staðgenglar sem segja Word hvar í skjalinu á að setja upplýsingarnar um eininguna. 
+1. Velja skal einn eða fleiri einingar sem nota á sem uppruna gagnanna. Til dæmis, ef óskað er eftir að stofna bækling fyrir söluherferð er líklega hægt að velja einingareininguna sem Uppruninn.
+2. Velja aðra aðila sem auka uppruna gagna.  [Frekari upplýsingar um bæta við færslum sem eru tengdar eða ótengdar Upprunaeiningunni](#add-entries-that-are-related-or-unrelated-to-the-source-entity).
+3. Sækja autt sniðmát. Hægt er að setja upp sniðmátið í Word strax, annars getur þú hlaðið upp auðu sniðmátinu og klárað leiðbeiningarnar. Þegar sniðmátið er tilbúið skal nota  **upphleðsluaðgerðina**  á  **síðunni Word-sniðmát**  til að skipta út auðu sniðmátinu með tilbúnu sniðmátinu. Læra meira at  [Stilla upp sniðmátið í Word](#set-up-the-template-in-word).
+4. Hlaða upp sniðmátinu sem þú hefur undirbúið.
+5. Ritaður er kóti og heiti sem auðkennir sniðmátið.
 
-:::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Innfellingarsvæðum bætt við í Microsoft Word":::
+Þegar sniðmát er sótt fæst. zip-skrá sem inniheldur tvær skrár.
 
-## Tengdum einingum bætt við
-Auk þess að bæta við gögnum fyrir upprunalegu eininguna, þ.e. eininguna sem þú notar til að búa til sniðmátið, getur þú einnig sameinað gögn úr einingum sem tengjast henni. Ef uppruninn er til dæmis viðskiptamannaeining er einnig hægt að sameina gögn úr reitum í einingunni viðskiptamaður/innkaupandi vegna þess að báðar einingarnar eru með einn sameiginlegan reit.
+|Skrá  |Description  |
+|---------|---------|
+|Gagnagjafi. xlsx     | Gagnagjafaskráin býður upp á reitina sem hægt er að nota í sniðmátinu. Ekki breyta upprunaskrá gagnagjafa. Aðeins er hægt að nota Word sniðmátið og skrár gagnagjafa sem sóttar eru og geyma verður skrárnar á sama stað.     |
+|Word-sniðmát     | A. docx-skrá sem nota á sem sniðmát.        |
 
-Tengdar einingar deila reit, sem er oft kennimerki á borð við heiti, kóða eða auðkenni, með upprunaeiningunni. Þegar sniðmát er sett upp eru einfaldir og ítarlegir valkostir til að velja tengdar einingar:
+Til að fræðast um uppsetningu sniðmáts í Word er farið í að  [Setja upp sniðmát í Word](#set-up-the-template-in-word).
 
-* Einfalt - Bættu þekktum tengslum við sem [!INCLUDE[prod_short](includes/prod_short.md)] gerir sjálfgefið aðgengileg.
-* Ítarlegt - Bættu óhefðbundnum tengslum á borð við þeim sem viðbætur eða sérstillingar hafa bætt við. Þetta krefst þess að þú þekkir reitina sem einingarnar deila.
+## Bæta við færslum sem eru tengdar eða ótengdar upprunaeiningunni
 
-Þegar þú bætir tengdri einingu við þarftu að tilgreina forskeyti fyrir heiti reitsins. Þegar reitum er bætt við sniðmátið getur forskeytið auðveldað að gera greinarmun á reitum úr upprunaeiningunni og reitum úr tengdum einingum.
+Einnig er hægt að sameina gögn frá öðrum einingum. Ef bæta á öðrum einingum við sem gagnagjafa er notuð ein af eftirfarandi aðgerðum á  **síðunni Word-sniðmát**  eða þegar leiðbeiningar um uppsetningu á aðstoðarmanni eru notaðar:
+
+|Aðgerð  |Description  |
+|---------|---------|
+|**Bæta við tengdri einingu**  | Nota gögn úr einingum sem tengjast upprunaeiningunni. Til dæmis, fyrir einingareininguna er einnig hægt að sameina gögn úr Tengiliðaeiningunni. Einingar tengjast þegar svæði í einni einingu vísar til annars. Svæði á Viðskiptamannseininu vísar til reita í einingunni Tengiliður, svo þeir séu skyldir. Samnýtta svæðið er oft auðkenni eins og heiti, Kóti eða AUÐKENNI.        |
+|**Bæta við ótengdu einingu**| Nota gögn úr einingum sem ekki tengjast upprunaeiningunni. Til dæmis er hægt að búa til sniðmát fyrir Viðskiptavinareininguna. Hægt væri að bæta við einingunni fyrirtæki upplýsingum svo hægt sé að hafa tengiliðalýsingar. Lykilávinningur er sá að ef upplýsingum um tengilið er breytt uppfærist hún sjálfkrafa í sniðmátinu. Þegar ótengdu einingunni er bætt við er hægt að bæta við einingum sem tengjast honum.         |
+
+Fyrir ótengdar færslur er ákveðin færsla valin. Þar sem aðeins er hægt að bæta við einingunni einu sinni til að nota aðra færslu verður að eyða einingunni og bæta henni við aftur með nýju færslunni.
+
+Hægt er að stofna stigveldi eininga, bæði tengt og ótengt. Tengslin eru sýnd sem trjábygging.  **Svæðið einingarvensl**  sýnir einnig upplýsingar um tengslin. Fyrir ótengdar einingar sýnir svæðið færsluna sem stofnar tengslin.
+
+Þegar einingum er bætt við eru þær  **notaðar í svæðið forskeyti**  til að tilgreina forskeyti fyrir svæðanöfn. Síðar, þegar reitum er bætt við sniðmátið, hjálpar forskeytið til að greina milli svæða frá upprunnum og öðrum einingum.
+
+### Velja svæðin sem eiga að vera með
+
+Fyrir hverja einingu er hægt að tilgreina svæðin sem eiga að vera tiltæk fyrir sniðmátið. Velja skal númerið í  **fjölda valinna reita**  dálka til að fá aðgang að lista yfir svæði sem eru tiltæk.  **Notið**  gátreitinn í gátreitnum taka  **með til að tilgreina svæðin á svæðinu** . Fyrir suma aðila eru reitir sem fyrirtæki nota yfirleitt sjálfkrafa teknir með. Hægt er að breyta listanum, til dæmis til að fjarlægja sjálfgefna reiti. Breytingarnar eiga aðeins við sniðmátið sem unnið er í.
+
+> [!NOTE]
+> Heildarfjöldi reita sem hægt er að bæta við úr öllum einingum er 250.
+
+> [!NOTE]
+> Þú eða Microsoft Partner þinn geta bætt sérsniðuðum svæðum við einingar. Þegar þú gerir það forskeyti ég heiti reita með  **Calc**  og læt þá tegund  **svæðisins reiknast**. Tegund svæðis kallast reiknað til að gefa til kynna að svæðið geti sýnt mismunandi gerðir gilda, svo sem texta, tölur, dagsetningar o. s. frv.
 
 ## Búa til Word-sniðmát í Business Central
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Word-sniðmát** og velja síðan viðkomandi tengil.
 2. Veldu **Nýtt**, síðan **Búa til sniðmát** og fylgdu síðan eftirfarandi skrefum í uppsetningu með hjálp. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
 > Einnig er hægt að búa til sniðmát beint af síðunni fyrir einingu með því að velja aðgerðina **Nota Word-sniðmát** til að opna hjálparuppsetninguna og síðan **Nýtt sniðmát**. Þegar þú gerir það er gagnagjafinn valinn fyrir þig út frá gerð einingarinnar.
 
-## Sniðmát notað
+## Sniðmát sett upp í Word
+
+Þegar verið er að setja upp sniðmát í Word á  **flipanum póstsendingar**  er hægt að bæta við blöndunarsvæðum með því að velja  **Setja inn blöndunarsvæði**. Blöndunarreitirnir koma úr gagnaveituskránni sem sótt var um fyrir eininguna. Þau virka sem staðgenglar sem segja Word hvar í skjalinu á að setja upplýsingarnar um eininguna.
+
+:::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Innfellingarsvæðum bætt við í Microsoft Word":::
+
+## Nota sniðmát
+
 Þegar Word-sniðmátið er tilbúið er hægt á síðunni **Word-sniðmát** að velja **Nota** til að búa til skjölin. Þegar Word-sniðmát er notað í einingu verða gögn úr innfellingarsvæðunum sett inn í skjalið. Annaðhvort er hægt að búa til eitt skjal sem inniheldur hluta fyrir hverja einingu eða valið **Skipta upp** til að búa til nýtt skjal fyrir hverja einingu.
 
-Hægt er að nota sniðmát í eina eða fleiri gerðir einingar, t.d. tengilið, beint af þessari síðu eða af síðu Word-sniðmátsins til að nota sniðmátið í öllum einingum af þeirri gerð.
+Hægt er að nota  **aðgerðina nota Word-sniðmát**  til að nota sniðmát fyrir eina eða fleiri af sömu gerð einingarinnar, til dæmis viðskiptavin, beint í samhengi síðunnar fyrir eininguna. Til dæmis  **viðskiptamanna-eða**  lánardrottnasíðurnar **·** .
 
-## Nota Word-sniðmát með tölvupósti
-Þú getur notað Word-sniðmát til að bæta efni við tölvupóstskeyti. Þegar úr býrð til tölvupóst getur þú valið aðgerðina **Nota Word-sniðmát** til að nota efnið úr sniðmáti fyrir skilaboðin. Þá þarftu að hafa búið til eitt eða fleiri sniðmát fyrir eininguna. Hægt er að nota eitt sniðmát í einu og þegar skipt er á milli sniðmáta breytast skilaboðin til að endurspegla efnið úr völdu sniðmáti.
+## Notaðu Word sniðmát með tölvupósti
+
+Þú getur notað Word-sniðmát til að bæta efni við tölvupóstskeyti. Þegar úr býrð til tölvupóst getur þú valið aðgerðina **Nota Word-sniðmát** til að nota efnið úr sniðmáti fyrir skilaboðin. Stofnuð verða sniðmát fyrir eininguna. Hægt er að nota eitt sniðmát í einu og þegar skipt er á milli sniðmáta breytast skilaboðin til að endurspegla efnið úr völdu sniðmáti.
 
 Þar að auki er hægt að nota aðgerðina **Bæta við skrá úr Word-sniðmáti** til að hengja efni sniðmátsins við tölvupóstinn sem skrá. Skráin mun nota sniðið sem þú tilgreindir fyrir úttak sniðmátsins.
 
 :::image type="content" source="media/email-word-tmpl.PNG" alt-text="Valmöguleikar við notkun efnis úr Word-sniðmáti í tölvupósti":::
 
+## Ritfærslusniðmáti breytt
+
+Hægt er að gera eftirfarandi breytingar á Word sniðmátunum:
+
+* Ef breyta á meginmáli megintexta eða blöndunarsvæða í sniðmátinu skal nota  **aðgerðina Sækja**, gera breytingarnar og nota  **síðan upphleðsluaðgerðina** 
+* Ef breyta á uppruna gagna er notuð  **aðgerðin breyta tengdum einingum** 
+* Ef skipta á um Word sniðmátinu með nýju sniðmáti skal nota  **upphleðsluaðgerðina** 
+* Eyða sniðmátinu
+
 ## Sjá einnig
+
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
+[Setja upp tölvupóst](admin-how-setup-email.md)  

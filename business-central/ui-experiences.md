@@ -36,13 +36,14 @@ Stillingin **Upplifun** gildir um alla notendur í fyrirtæki en hver notandi ge
 Áætlunum er úthlutað til notenda í stjórnendamiðstöðinni Microsoft 365 í tengslum við almennu vinnuna til að búa til notendur Business Central. Frekari upplýsingar eru í [Bæta við notendum og úthluta leyfum á sama tíma](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### Til að uppfæra breytingar á áætlunum í flokkum notenda
-Þegar þú hefur gert breytingu á áætlunum notenda í stjórnendamiðstöðinni Microsoft 365, á borð við að úthluta fleiri notendum á úrvalsáskriftina, verður þú að endurspegla breytinguna í [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
+Þegar búið er að breyta áætlunum notenda í  Microsoft 365  Stjórnun, eins og úthlutað er á fleiri notendur í kaupaukáætlun, verður að uppfæra  [!INCLUDE[prod_short](includes/prod_short.md)]  til að endurspegla breytinguna.
 
 1. Skráðu þig inn sem stjórnanda.
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
-3. Á síðunni **Notendur** skaltu velja aðgerðina **Endurhlaða alla notendaflokka**.
-
-Allar nýjar upplýsingar um áætlanir notenda og úthlutuðum notendaflokkum þeirra hafa nú verið uppfærðar samkvæmt breytingum áætlunarinnar.
+3.  **Á síðunni notendur**  er valið að  **Uppfæra notendur úr  Microsoft 365**  aðgerð.
 
 ### Til að velja úrvalsupplifunina
 Nú er hægt að halda áfram til að velja nýju upplifunina.

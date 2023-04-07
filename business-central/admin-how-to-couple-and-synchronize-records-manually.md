@@ -2,21 +2,20 @@
 title: Tengja og samstilla (inniheldur myndskeið)
 description: Samstilling samþættingartöflu virkjar gagnasamþættingu í öllum færslum í töflu í Business Central og Dynamics 365 Sales töflu sem eru tengdar.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
-ms.search.form: 6250
-ms.date: 10/01/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
+ms.search.form: '6250,'
 ---
 
 # Tengja og samstilla færslur milli Dataverse og Business Central
 
 Þetta efnisatriði lýsir því hvernig á að tengja eina eða fleiri færslur í [!INCLUDE[prod_short](includes/prod_short.md)] við færslur í Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)]. Að tengja færslur gerir þér kleift að skoða Dataverse upplýsingar úr [!INCLUDE[prod_short](includes/prod_short.md)] og öfugt. Tenging gerir þér einnig að samstilla gögn á milli færslna. Hægt er að tengja fyrirliggjandi færslur eða stofna og tengja nýjar færslur.
 
-> [!Note]
+> [!NOTE]
 > Tenging og samstilling gagna við er aðeins í boði ef kerfisstjórinn hefur búið til tengingu milli [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)]. Fljótleg leið til að athuga þetta er að opna spjaldið **Viðskiptamaður** og leita að aðgerðinni **Setja upp tengingu**. Ef aðgerðin er tiltæk eru forritin tengd.
 
 ## Myndbandsdæmi
@@ -46,11 +45,11 @@ ms.author: bholtorf
 2. Veldu aðgerðina **[!INCLUDE[prod_short](includes/prod_short.md)]** í borðanum til að opna og tengja færslu sjálfkrafa.
 
     > [!Note]
-    > Aðeins er hægt að samstilla staka færslu úr [!INCLUDE[crm_md](includes/crm_md.md)] sjálfkrafa þegar **Aðeins samstilla tengdar færslur** er óvirk og samstillingaráttin er stillt á tvíátta eða „Frá samþættingartöflu“ á síðunni **Vörpun samþættingartöflu** fyrir færsluna. Frekari upplýsingar er að finna í [Vörpun á töflum og reitum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+    > Aðeins er hægt að samstilla staka færslu úr [!INCLUDE[crm_md](includes/crm_md.md)] sjálfkrafa þegar **Aðeins samstilla tengdar færslur** er óvirk og samstillingaráttin er stillt á tvíátta eða „Frá samþættingartöflu“ á síðunni **Vörpun samþættingartöflu** fyrir færsluna. Frekari upplýsingar  [fást með því að varpa í töflur og svæði til að samstilla](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
 
 ## Að tengja margar færslur með því að nota tengi sem byggir á samsvörun
 
-Hægt er að tilgreina gögnin sem á að samstilla fyrir einingu, t.d. viðskiptavin eða tengilið, með því að tengja skrár sem byggir á samsvörun. Hægt er að fínstilla samsvörunina með því að gera leitina næma og úthluta forgangi fyrir hverja samsvörun. Ef engin samsvörun finnst er einnig hægt að tilgreina að þú viljir stofna eininguna í Dataverse. Frekari upplýsingar er að finna í [Sérstilla tengingu sem byggir á samsvörun](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+Tilgreina gögnin sem á að samstilla fyrir einingu, eins og viðskiptavin eða tengilið, eftir afsláttarfærslum sem byggjast á samstæðum. Betrumbæta samsvörunina með því að gera leitina viðkvæm og úthluta forgangi fyrir hverja samsvörun. Ef engin samsvörun finnst er einnig hægt að tilgreina að þú viljir stofna eininguna í Dataverse. Nánari upplýsingar er að fara í til að  [Sérsníða samsvörun festinga](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
 
 > [!NOTE]
 > Samsvörun byggir á ferli Sleipnir færslur sem þegar er jafnað. Til að taka þessar færslur með þegar þú keyrir samsvörun, ófáar færslur og reyndu aftur. Ef fræðast á um ónúmeraplötur er farið í  [Ósópandi færslur](#uncoupling-records).

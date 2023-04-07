@@ -340,6 +340,10 @@ Að eyða skilaboðum sem innihalda spjald hvorki eyðir né hefur áhrif á nei
 
 Fj. Reitargildi á spjaldi í Teams, þ.m.t. allar myndir, byggja á tiltækum gögnum þegar spjaldið var sent á spjall. [!INCLUDE [prod_short.md](includes/prod_short.md)] kort endurnýjast ekki sjálfkrafa í Teams. 
 
+### Af hverju Sýna kort ekki meiri upplýsingar í staðinn fyrir bara hnapp síðunnar og nánar?
+
+Kerfisstjóri kann að hafa skilgreint samþættingu hópanna þannig að kort sýni ekki gögn um færslur. Nánari upplýsingar, sjá  [Sýna eða fela færslugögn á kortum](admin-teams-integration.md#show-or-hide-record-data-on-cards).
+
 ### Munu aðrir sjá spjaldið mitt ef þeir eru ekki með [!INCLUDE [prod_short.md](includes/prod_short.md)] forritið fyrir Teams? 
 
 Þegar þú býrð til og sendir skilaboð á spjallinu sem inniheldur spjald munu allir notendur sjá spjaldið&mdash; jafnvel þótt þeir hafi ekki sett upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams.

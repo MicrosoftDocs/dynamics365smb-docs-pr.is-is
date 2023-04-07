@@ -117,8 +117,9 @@ Afritun er fljótleg leið til að búa til nýtt útlit sem er það sama og fy
    |Lýsing| Sláðu inn nákvæmari upplýsingar um útlitið. |nei|
    |Sniðvalkostir|Stilltu þennan reit á að samsvara gerð útlitsins, eins og Word, Excel eða RDLC.|já|
 
-6. Veldu **Í lagi** > **Veldu** til að opna skráavafrann í tækinu þínu.
-7. Finndu og veldu Excel skrána og veldu síðan **Opna**.
+6. Valið  **er í lagi** og skal þá gera einn af eftirtöldum skrefum til að senda útlitsskrána inn fyrir skýrsluna:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Valdri skrá er hlaðið upp í útlitið og þú ferð aftur á síðuan **Skýrsluútlit**.
 

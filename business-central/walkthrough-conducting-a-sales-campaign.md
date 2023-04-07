@@ -44,7 +44,7 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 
 ## Ferill
 
- Markaðsstjóri söludeildar CRONUS er ábyrgur fyrir skipulagningu og framkvæmd herferða. Hann tekur einnig ákvarðanir um hvaða sölusýningum á að taka þátt í, auk þess að meta framvindu herferða.  
+ Markaðsstjóri söludeildar CRONUS er ábyrgur fyrir skipulagningu og framkvæmd herferða. Markaðsstjórinn tekur einnig ákvarðanir um hvaða viðskipti sýni að taka þátt í og meti framvindu herferðar.  
 
  Starfsmaður markaðsdeildarinnar sér um framleiðslu, dreifingu og birtingu markaðsefnis.  
 
@@ -96,7 +96,7 @@ Síðan **Hluti** inniheldur nú lista yfir tengiliði sem valdir voru samkvæmt
 
 ## Gagnaskoðun
 
- Markaðsstjórinn skoðar hlutaða tengiliðalistann betur og áttar sig á því að hann er alltof langur. Hann ákveður að grisja listann niður í raunverulega hugsanlega viðskiptamenn til að miðað sé á réttan markhóp. Þetta ferli endurskoðunar og samdráttar á gögnum er einnig kallað gagnaskoðun.  
+ Markaðsstjórinn skoðar hlutaða tengiliðalistann betur og áttar sig á því að hann er alltof langur. Framkvæmdastjóri ákveður að fækka lista á grundvelli raunverulegra, væntanlegra viðskiptavina til að einbeita sér að réttum markhópi. Þetta ferli endurskoðunar og samdráttar á gögnum er einnig kallað gagnaskoðun.  
 
 ### Tengiliðir fjarlægðir úr hluta  
 

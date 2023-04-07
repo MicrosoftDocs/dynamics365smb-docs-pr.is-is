@@ -13,31 +13,31 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 
 # Aðgangur að Business Central með Microsoft 365 leyfum
 
-Notendur Business Central fá úthlutað Dynamics 365 Business Central leyfi sem gerir þeim kleift að skoða, breyta og hagræða viðskiptagögnum sínum úr hvaða notendaviðmóti sem er. Fyrir alla aðra starfsmenn fyrirtækisins sem þurfa aðeins að skoða gögn af og til býður Business Central upp á aðgang í gegnum Microsoft 365.  
+[!INCLUDE[prod_short](includes/prod_short.md)] notendum er úthlutað  Dynamics 365 Business Central  leyfi sem gerir þeim kleift að skoða, breyta og vinna úr viðskipagögnum sínum í öllum notendaviðmóti. Fyrir alla aðra starfsmenn fyrirtækisins sem þurfa aðeins að skoða gögn af og til býður Business Central upp á aðgang í gegnum Microsoft 365.  
 
-Þegar fyrirtæki er bæði með Microsoft 365 og Dynamics 365 Business Central áskrift geta stjórnendur grunnstillt umhverfi til að virkja aðgang með Microsoft 365 leyfum og valið nákvæmlega hvaða töflur og aðrir hlutir þessi notandi fær aðgang að. Þegar grunnstillt geta starfsmenn sem eru með Microsoft 365 leyfi en ekki Business Central leyfi skoðað færslur Business Central sem deilt er með þeim í Microsoft Teams spjalli og rásum.
+Þegar fyrirtæki er bæði með Microsoft 365 og Dynamics 365 Business Central áskrift geta stjórnendur grunnstillt umhverfi til að virkja aðgang með Microsoft 365 leyfum og valið nákvæmlega hvaða töflur og aðrir hlutir þessi notandi fær aðgang að. Við skilgreindar eru það starfsmenn sem hafa  Microsoft 365  leyfi en engin  [!INCLUDE [prod_short](includes/prod_short.md)]  leyfi geta skoðað  [!INCLUDE [prod_short](includes/prod_short.md)]  skráningar sem er samnýtt með þeim í  Microsoft Teams  spjall og rásir.
 
 ## Af hverju að virkja aðgang með Microsoft 365 leyfum  
 
 - Opnið á aðalgögn sem allir starfsmenn í fyrirtækinu eiga að hafa aðgang að.
 
-- Eflið deildir sem keyra ekki Business Central til að þjónusta sig sjálfar með því að fá aðgang að lykilgögnum sem þarf til að framkvæma verk þeirra, sem kemur í veg fyrir að þær þurfi stöðugt að biðja um gögn frá öðrum. 
+- Styrkja deildir sem ekki keyra á  [!INCLUDE [prod_short](includes/prod_short.md)]  til sjálfþjóna, með því að fá aðgang að lykilgögnum sem nauðsynleg hafa tekist til að vinna verkin, útiloka þörfina fyrir að biðja ekki um gögn frá öðrum.
 
-- Aukið skilvirkni samstarfs þannig að verk og verkefni sem ná yfir deildir klárist á réttum tíma, með því að útrýma núningnum sem tengist yfirleitt villum vegna aðgangs sem var hafnað vegna leyfisveitinga. 
+- Aukið skilvirkni samstarfs þannig að verk og verkefni sem ná yfir deildir klárist á réttum tíma, með því að útrýma núningnum sem tengist yfirleitt villum vegna aðgangs sem var hafnað vegna leyfisveitinga.
 
-- Aukið frammistöðu teymis þannig að fólk getið tekið gagnamiðaðar ákvarðanir sem taka til allra í hópnum, jafnvel þótt þeir vinni ekki í Business Central. 
+- Auka teymisárangur þannig að fólk geti gert gagnafdrifaríkar ákvarðanir sem eru innifaldar í öllum í hópnum, jafnvel þótt þær vinni ekki í [!INCLUDE [prod_short](includes/prod_short.md)].
 
-- Uppfyllið fjárhagsmarkmið leyfisveitinga með því að úthluta leyfum sem passa við þarfir starfsmanna, með Microsoft 365 leyfum fyrir skrifvarinn aðgang, leyfum Dynamics 365 Business Central teymismeðlima fyrir takmarkaða skrifheimild og Dynamics 365 Business Central Essentials eða Premium fyrir fulla skrifheimild.
+- Uppfylla leyfilegar áætlunarmörk fjárhagsáætlunar með því að úthluta leyfum sem eru smám saman þarfir starfsmanns, með  Microsoft 365  leyfum fyrir lesaðgang,  Dynamics 365 Business Central  leyfi Teymismeðlim fyrir takmörkuðum skrifaðgangi og  Dynamics 365 Business Central Essentials  eða aukagjald fyrir fullvinnslu skrifaðgang.
 
 - Bætið gagnaöryggi með því að draga úr þörfinni á því að líma skjáúrklippur úr viðskiptagögnum út fyrir mörk gagnaumsjónar.
 
 ## Notkunarréttindi
 
-Þegar einstaklingur fær aðgang að Business Central með Microsoft 365 leyfi veitir þetta leyfi notanda rétt til að lesa (en ekki skrifa) gögn Business Central í gegnum einfaldaða notendaviðmót í Microsoft Teams. Þessi hluti útskýrir þessi notkunarréttindi og takmarkanir sem hjálpa til við að skipuleggja hvernig á að grunnstilla og fá sem mest út úr þessari getu. Frekari upplýsingar um þessa leyfisgerð samanborið við Business Central-leyfi er að finna í [Leyfishandbók Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
+Þegar einstaklingur  [!INCLUDE [prod_short](includes/prod_short.md)]  kemur á leið með  Microsoft 365  leyfi ber leyfishafa að lesa (en ekki skrifa)  [!INCLUDE [prod_short](includes/prod_short.md)]  gögn í gegnum einfaldað notendaviðmót í Microsoft Teams. Þessi hluti útskýrir þessi notkunarréttindi og takmarkanir sem hjálpa til við að skipuleggja hvernig á að grunnstilla og fá sem mest út úr þessari getu. Nánari upplýsingar um þessa leyfisóskir í samanburði við önnur  [!INCLUDE [prod_short](includes/prod_short.md)]  leyfi er að finna í  [leyfisleiðbeiningum](https://go.microsoft.com/fwlink/?LinkId=866544) Dynamics 365.
  
 ### Aðgangur biðlara
 
-Notendur eiga rétt á að fá aðgang að gögnum í Business Central í Microsoft Teams. Eftirfarandi tafla tekur saman hverjar af mismunandi aðferðum til að fá aðgang að þjónustu Business Central eru leyfðar með þessu leyfi. 
+Notendur eiga rétt á aðgangi  [!INCLUDE [prod_short](includes/prod_short.md)]  að gögnum skv Microsoft Teams. Eftirfarandi tafla tekur saman hvaða mismunandi aðferðir við að opna  [!INCLUDE [prod_short](includes/prod_short.md)]  þjónustuna eru leyfðar með þessu leyfi.
 
 |Biðlari sem fær aðgang að Business Central-þjónustu |Aðgengi|
 |-|-|
@@ -48,31 +48,31 @@ Notendur eiga rétt á að fá aðgang að gögnum í Business Central í Micros
 |Business Central samþættingar við önnur Office-forrit|![Nr.](media/x-icon.png )|
 |Business Central fellt inn í öll önnur forrit |![Nr.](media/x-icon.png )|
 
-### Gagnaheimildir 
+### Gagnaheimildir
 
-Notendur hafa rétt á að lesa töflugögn en geta ekki gert breytingar, búið til eða eytt færslum. Verkvangur Business Central kemur sjálfkrafa í veg fyrir að hægt sé að skrifa í gagnatöflur.  
+Notendur hafa rétt á að lesa töflugögn en geta ekki gert breytingar, búið til eða eytt færslum.  [!INCLUDE [prod_short](includes/prod_short.md)] Pallurinn kemur sjálfkrafa í veg fyrir að skrifað sé yfir allar gagnatöflur.  
 
-### Notkun hluta 
+### Notkun hluta
 
-Aðgangur með Microsoft 365 leyfum takmarkar ekki hvaða Business Central-hlutir eða svið er hægt að nálgast. Notendur eiga rétt á að fá aðgang að grunnforriti Microsoft og öllum viðbótum eins og sérsniðum og viðbótarforritum. 
+Aðgangur með Microsoft 365 leyfum takmarkar ekki hvaða Business Central-hlutir eða svið er hægt að nálgast. Notendur eiga rétt á að fá aðgang að grunnforriti Microsoft og öllum viðbótum eins og sérsniðum og viðbótarforritum.
 
-## Einfaldað notandaviðmót 
+## Einfaldara notendaviðmót
 
-Notendur eiga rétt á smækkuðu safni af eiginleikum og aðgerðum sem Business Central veitir í Microsoft Teams. Töflurnar hér að neðan minnast á athyglisverða eiginleika. Þetta er ekki tæmandi listi og getur breyst.
+Notendur eiga rétt á minni stillimöguleika og aðgerðir sem kveðið  [!INCLUDE [prod_short](includes/prod_short.md)]  er á um í Microsoft Teams. Töflurnar hér að neðan minnast á athyglisverða eiginleika. Þetta er ekki tæmandi listi og getur breyst.
 
-Eiginleikar Business Central-forritsins fyrir Teams:
+ [!INCLUDE [prod_short](includes/prod_short.md)] Lögun forrits fyrir teyma:
 
 |Eiginleiki  |Tiltækt|
 |-|-|
-|Skoða Business Central-spjöld|![Já](media/check.png)|
+|Skoða  [!INCLUDE [prod_short](includes/prod_short.md)]  spjöld|![Já](media/check.png)|
 |Skoða upplýsingar spjalds |![Já](media/check.png) |
 |Festa upplýsingar spjalds sem flipa |![Já](media/check.png)|
-|Skoða Business Central-flipa|![Já](media/check.png)|
-|Bæta við Business Central-flipa|![No_](media/x-icon.png )|
+|Skoða  [!INCLUDE [prod_short](includes/prod_short.md)]  flipa|![Já](media/check.png)|
+| [!INCLUDE [prod_short](includes/prod_short.md)] Bæta við flipa|![No_](media/x-icon.png )|
 |Leita að viðskiptatengiliðum |![Nr.](media/x-icon.png )|
 |Líma og deila forskoðun tengils sem spjald|![Nr.](media/x-icon.png )|
 
-Aðgerðir biðlara Business Central felldar inn í Teams:
+Aðgerðir á  [!INCLUDE [prod_short](includes/prod_short.md)]  innfelldum biðlara í teymum:
 
 |Virkni |Tiltækt|Dæmi um aðgerðir|
 |-|-|-|
@@ -92,19 +92,19 @@ Aðgerðir biðlara Business Central felldar inn í Teams:
 
 ## Lágmarkskröfur
 
-Í þessum hluta er lýst lágmarkskröfum sem verða að vera uppfylltar til að fyrirtækið geti virkjað aðgang með Microsoft 365 leyfum og til að einstakir Microsoft Teams notendur geti fengið aðgang að gögnum Business Central án Business Central-leyfis.
+Í þessum kafla er lýst þeim lágmarkskröfum sem þarf að uppfylla til að fyrirtækið geti virkjað aðgang með  Microsoft 365  leyfum og að einstakir  Microsoft Teams  Notendur hafi  [!INCLUDE [prod_short](includes/prod_short.md)]  aðgang  [!INCLUDE [prod_short](includes/prod_short.md)]  að gögnum án leyfis.
 
 ### Kröfur til að virkja aðgang
 
-- Business Central Online (SaaS-þjónusta)
+- [!INCLUDE [prod_short](includes/prod_short.md)] á netinu (SaaS).
 
 - Umhverfi verður að vera verkvangsútgáfa 21.1 eða nýrri.
 
 ### Kröfur fyrir einstaka notendur til að fá aðgang að gögnum í Teams
 
-- Nálgast þarf gögn með Business Central-forritinu fyrir Teams. Notendur verða að vera með Business Central-forritið fyrir Teams uppsett og verða að nota einn af studdum Teams-biðlurum. Listi yfir Teams-biðlara sem Business Central styður er að finna í [Lágmarkskröfur fyrir notkun Business Central](product-requirements.md#teams).
+- Gögn verða að nálgast með  [!INCLUDE [prod_short](includes/prod_short.md)]  App fyrir hópana. Notendur verða að hafa  [!INCLUDE [prod_short](includes/prod_short.md)]  App fyrir teymi uppsett og verða að nota eitt af þeim biðlara sem studdu hópana. Sjá  [!INCLUDE [prod_short](includes/prod_short.md)] lágmarkskröfur um notkun Viðskiptamiðis  [fyrir lista yfir teymum biðlara](product-requirements.md#teams).
 
-- Notendur verða að vera innri notendur fyrirtækisins, sem þýðir að auðkenni notanda kemur úr sama heimabiðlara þar sem Business Central er sett upp og aðgangur er virkjaður. Ytri auðkenni eru ekki studd. Business Central kemur sjálfkrafa í veg fyrir aðgang gesta.
+- Notendur verða að vera innra með fyrirtækinu, sem þýðir að auðkenni notanda kemur frá sama heimili  [!INCLUDE [prod_short](includes/prod_short.md)]  og er virkjað og þar sem aðgangur er virkjaður. Ytri auðkenni eru ekki studd. [!INCLUDE [prod_short](includes/prod_short.md)] sjálfkrafa í veg fyrir aðgang gesta.
 
 - Notendur verða að fá úthlutað Microsoft 365 leyfi frá einni af eftirfarandi áskriftarleiðum.
   
@@ -130,7 +130,7 @@ Aðgerðir biðlara Business Central felldar inn í Teams:
   > [!NOTE]
   > Er ekki hægt að finna áætlunina þína á listanum? Microsoft er sífellt að leitast eftir ábendingum um hvernig við getum bætt þjónustu okkar og útvíkkað tilboð okkar svo að fleiri viðskiptavinir geti nýtt sér þennan möguleika. Deildu hugmyndinni um hvaða áskriftarleiðir við ættum að styðja næst í [https://aka.ms/bcIdeas](https://aka.ms/bcIdeas).
 
-- Notendur verða að fá úthlutað Microsoft 365 leyfi sem er með Microsoft Teams forritið virkt á listanum yfir forrit fyrir það leyfi. 
+- Notendur verða að fá úthlutað Microsoft 365 leyfi sem er með Microsoft Teams forritið virkt á listanum yfir forrit fyrir það leyfi.
 
   |Studd forrit|Kenni þjónustuáætlunar|
   |-|-|

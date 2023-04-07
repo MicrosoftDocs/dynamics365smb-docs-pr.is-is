@@ -53,7 +53,7 @@ Gæðastjórinn Ríkharður er að sinna söluvöruskilum á vöru 1002, kappaks
 - Hvaða lota grinda var gölluð.  
 - Á hvaða innkaupapöntun gallaða lotan var móttekin.  
 
-Gæðastjórinn hefur þær upplýsingar frá söludeildinni að kappaksturshjólið sem skilað var, vara 1002, hafði raðnúmerið RAÐNR1. Út frá þessum grunnupplýsingum þarf hann að ákvarða hvar tilbúna kappaksturshjólið var síðast notað, og rekja síðan slóð þess aftur að elsta upprunastaðnum til að komast að því úr hvaða lotu gallaði íhluturinn, grindin, kom.  
+Gæðastjórinn hefur þær upplýsingar frá söludeildinni að kappaksturshjólið sem skilað var, vara 1002, hafði raðnúmerið RAÐNR1. Með því að nota þessar grunnupplýsingar verða þær að ákvarða hvar lokið Racing reiðhjól var síðast notað, og þá verða þau að rekja afturábak til elsta upprunans til að koma til móts við hvaða lotunúmer gallaða þátturinn, kappakstursbílnum, kom frá.  
 
 Niðurstöður þessarar fyrstu vörurakningar sýna hvaða grindur voru gallaðar, og frá hvaða lánadrottni þær komu. Því næst, en innan sama heildarrakningarferlisins, þarf gæðastjórinn að finna öll seldu kappaksturshjólin sem innihéldu grindur úr gölluðu lotunni svo hægt sé að stöðva eða innkalla þær pantanir. Að lokum þarf gæðastjórinn að finna öll opin skjöl þar sem gallaða lotan er notuð svo engar fleiri færslur séu framkvæmdar.  
 
@@ -225,7 +225,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
 ## Rekja frá notkun til uppruna
 
- Gæðastjórinn hefur þær upplýsingar frá söludeildinni að kappaksturshjólið sem skilað var, vara 1002, hafði raðnúmerið RAÐ1. Út frá þessum grunnupplýsingum veit hann hvar tilbúna kappaksturshjólið var síðast notað, í þessu tilfelli í söluafhendingunni til Selangorian hf. Síðan þarf hann að rekja slóð þess aftur að elsta upprunastaðnum til að komast að því úr hvaða lotu gallaða grindin kom og frá hvaða lánadrottni.  
+ Gæðastjórinn hefur þær upplýsingar frá söludeildinni að kappaksturshjólið sem skilað var, vara 1002, hafði raðnúmerið RAÐ1. Með því að nota þessar grunnupplýsingar geta þeir ákvarðað hvar lokið Racing reiðhjól var síðast notað, í þessu tilviki, á sölusendingunni til Selangorian ehf. Síðan þarf hann að rekja slóð þess aftur að elsta upprunastaðnum til að komast að því úr hvaða lotu gallaða grindin kom og frá hvaða lánadrottni.  
 
 ### Til að komast að því hvaða lota innihélt gölluðu grindina og hvaðan hún kom
 
@@ -247,7 +247,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     - Næsta bókaða skjal á undan því er notkunarbókunin úr fyrstu útgefnu framleiðslupöntuninni. Hér sér gæðastjórinn að grind úr LOTA1 var notuð.  
     - Aftasta bókaða skjalið í keðjunni er bókaða innkaupakvittunin fyrir grindur úr LOTA1 þegar þær voru færðar inn í birgðir.  
 
-    Gæðastjórinn hefur nú ákvarðað hvaða lota grinda var gölluð og getur leitað að síðustu rakningarlínunni til að sjá frá hvaða lánadrottni þær komu, Custom Metals hf.  
+    Gæðastjóri hefur nú komið því á framfæri hvaða mikið af kappaksturrömmum var gölluð og þeir geta leitað til síðustu rakvélarlínu til að sjá hvaða söluaðili útvegaði þeim þ.e. sérsniðna málma felld.  
 
     > [!NOTE]  
     >  Ekki gera neinar frekari breytingar á niðurstöðum rakningarinnar, þar sem þær verða notaðar í næsta hluta.  
@@ -256,7 +256,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
 ## Rekja frá uppruna til notkunar
 
- Gæðastjórinn hefur komist að því að gölluðu grindurnar komu úr LOTA1. Nú þarf hann að finna öll önnur kappaksturshjól sem innihalda grindur úr gölluðu lotunni svo hægt sé að stöðva eða innkalla þau.  
+ Gæðastjórinn hefur komist að því að gölluðu grindurnar komu úr LOTA1. Þeir verða nú að finna önnur kynþokkafult hjól sem innihalda Racing ramma úr gallabuxnum mikið þannig að þau hjól megi stoppa eða muna.  
 
  Ein leið til að undirbúa þetta rakningarfærsluverk á síðunni **Vörurakning** er að færa inn handvirkt LOTA1 í reitinn **Lotunr. - Afmörkun** og 2000 í reitinn **Vöruafmörkun**. Hins vegar verður aðgerðin **Rekja gagnstætt - frá línu** notuð í þessari kynningu.  
 
@@ -274,13 +274,13 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     Gæðastjórinn lætur söludeildina tafarlaust vita svo hægt sé að innkalla gallaða kappaksturshjólið frá viðskiptamanninum, Cannon Group PLC.  
 
-    Á sama tíma sér hann á síðustu þremur rakningarlínunum að tvær aðrar vörur, RAÐ3 og RAÐ4, hafa verið framleiddar með grindum úr LOTA1. Hann gerir ráðstafanir til að loka á þessar vörur í birgðum.  
+    Á sama tíma geta þeir séð af síðustu þremur rakningarlínunum að annar tveggja atriða, SN3 og SN4, hafa verið framleidd á grundvelli kappaksturrömmum frá LOT1. Þau grípa til aðgerða til að loka fyrir þessar vörur í birgðum.  
 
     Svona lýkur öðru gallastjórnunarverkinu sem notar síðuna **Vörurakning** fyrir gallastjórnun. Þar sem síðan **Vörurakning** byggir einungis á bókuðum færslum þarf gæðastjórinn að halda áfram í gluggann **Leit að færslum** til að tryggja að LOTA1 sé ekki notuð í óbókuðum skjölum.  
 
 ## Finna allar skrár rað-/lotunúmers
 
- Á síðunni **Vörurakning** komst gæðastjórinn að því að LOTA1 innhélt gölluðu grindurnar, frá hvaða lánadrottni þær komu og í hvaða bókuðu færslum þær voru notaðar. Nú þarf hann að ákvarða hvort LOTA1 er til í einhverjum opnum skjölum með því að samþætta rakningarniðurstöðurnar við síðuna **Leita að færslum** þar sem hann getur leitað í öllum gagnagrunnsskrám.  
+ Á síðunni **Vörurakning** komst gæðastjórinn að því að LOTA1 innhélt gölluðu grindurnar, frá hvaða lánadrottni þær komu og í hvaða bókuðu færslum þær voru notaðar. Þeir verða nú að ákvarða hvort LOT1 sé í opnum skjölum með því að samþætta í kjölfarið við  **finna færslur**  síðan þær geta framkvæmt leit í gegnum allar gagnagrunnsfærslur.  
 
 ### Til að finna öll tilfelli LOTA1 í skrám sem eftir á að bóka, svo sem opnum pöntunum  
 
@@ -293,7 +293,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
 3.  Til að opna sölulínuskrána skal velja aðra línu færsluleitarinnar, og velja síðan aðgerðina **Sýna**. Einnig er hægt að velja gildið í reitnum **Fjöldi færslna**.  
 
-    Hér sér gæðastjórinn eina opna sölulínu fyrir gölluðu grindurnar. Hann stingur samstundis upp á því við söludeildina að hætt verði við þessa pöntun og að stofnuð verði ný framleiðslupöntun sem byggir á gallalausum grindum.  
+    Hér sér gæðastjórinn eina opna sölulínu fyrir gölluðu grindurnar. Þeir benda strax á að söludeild sem þessi pöntun sé afturkölluð og ný framleiðslupöntun, byggð á góðum kappaksturrömmum, sé hafin.  
 
  Hér með lýkur kynningunni á hvernig síðan **Leita að færslum** er notuð við gallastjórnun í samþættingu við síðuna **Vörurakning**.  
 

@@ -13,19 +13,20 @@ ms.author: bholtorf
 ---
 # Sérstilling verksvæðis
 
-Þú getur sérstillt vinnusvæðið þitt þannig að það falli betur að vinnunni og óskum þínum. Breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum mun aðeins hafa áhrif á það sem *þú* sérð, ekki hvað aðrir notendur sjá.
+Þú getur sérstillt vinnusvæðið þitt þannig að það falli betur að vinnunni og óskum þínum. Breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Sérstaða hefur eingöngu áhrif á vinnusvæðið. Það breytir því ekki hvernig aðrir vinna.
 
-Hægt er að sérstilla allar gerðir síðna, þar á meðal síðuna Mitt hlutverk. Nánari upplýsingar um Mitt hlutverk er að finna í [Mitt hlutverk](ui-change-basic-settings.md#role-center).  
+Hægt er að sérstilla allar gerðir síðna, þar á meðal síðuna Mitt hlutverk. Til að fræðast meira um hlutverkamiðstöðvar er farið í  [hlutverkamiðstöð](ui-change-basic-settings.md#role-center).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Hægt er að gera ýmsar breytingar, svo sem að færa eða fela reiti, dálka, aðgerðir og hluta í heild sinni og bæta nýjum reitum við. Mestan hluta sérstillingar þarf að gera með því að fyrst virkja borðann **Sérstilling**. Hægt er að gera einfaldar breytingar, svo sem dálkbreidd, strax á hvaða lista sem er.
 
 > [!NOTE]
-> Stjórnendur geta framkvæmt sömu útlitsbreytingar og notendur geta með því að sérstilla vinnusvæðið fyrir forstillingu sem mörgum notendum hefur verið úthlutað. Frekari upplýsingar er að finna á [Sérstilla síður fyrir hlutverk](ui-personalization-manage.md)<br /><br />
+> Kerfisstjórar geta gert sömu útlitsbreytingar og notendur með því að sérsníða vinnusvæðið fyrir forstillingu sem mörgum notendum er úthlutað. Frekari upplýsingar um hlutverk er að fá með því að fara í  [Sérsníða síður fyrir hlutverk](ui-personalization-manage.md)<br /><br />
 Stjórnendur geta einnig hnekkt eða slökkt á sérstillingu notenda og hægt er að skilgreina hvaða eiginleikar eru tiltækir fyrir notendur til að sjá í öllum eða tilteknum fyrirtækjum. Frekari upplýsingar eru í [Sérstilling Business Central](ui-customizing-overview.md).
 
-## Yfirlit myndbands
+## Myndband
+
 Eftirfarandi myndband sýnir nokkrar af þeim leiðum sem hægt er að sérsníða hlutverkamiðstöð notanda.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -77,7 +78,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 
 Sérstilling gerir þér kleift að ákveða hvaða aðgerðir á að sýna á yfirlits- og aðgerðarstikunni og í hlutverkamiðstöðvum og hvar á að sýna þær. Þú getur sýnt, falið eða fært stakar aðgerðir eða hóp aðgerða.
 
-Í 2022 útgáfutímabil 2 buðum við upp á fleiri leiðir fyrir þig til að gera Business Central að þínu eigin. Eftirfarandi myndband sýnir hvernig hægt er að sérstilla aðgerðir á síðum og í „Mínu hlutverki“.
+Eftirfarandi myndband sýnir hvernig hægt er að sérstilla aðgerðir á síðum og í „Mínu hlutverki“.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -115,7 +116,7 @@ Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og 
 1. Til að færa aðgerð eða aðgerðahóp skaltu draga og sleppa honum á viðeigandi stað, rétt eins og með reiti og dálka.
 2. Til að færa aðgerð eða aðgerðahóp í annan aðgerðahóp sem er tómur, dragðu aðgerðina eða aðgerðahópinn í nýja hópinn og slepptu honum í boxið **Sleppa aðgerð hér**.
 
-## <a name="Parts"></a>Sérstilling hluta
+## <a name="Parts"></a> Sérsníða hluta
 
 Hlutar eru svæði á síðu sem eru vanalega samsettir úr mörgum reitum, gröfum eða öðru efni. Hluti sýnir litaðan ramma þegar þú fókusar á hlutann. Til dæmis er heimaskjár hlutverkamiðstöðvar með marga hluta. Vegna vel skilgreindra marka þeirra er hægt að sérsníða allan hlutann og innihald hans.
 
@@ -126,6 +127,7 @@ Hlutar eru svæði á síðu sem eru vanalega samsettir úr mörgum reitum, grö
 Hægt er að hreinsa allar breytingar sérstillingar sem voru gerðar innan einstaks hlutar með því að velja valkostinn **Hreinsa sérstillingar** undir örvaroddi hlutans. Hreinsun sérstillinga á hluta hefur aðeins áhrif á breytingar á innihaldi þess hlutar, ekki staðsetningu eða sýnileika hlutans á síðunni.  
 
 ## Að hreinsa sérstillingu
+
 Á einhverjum tímapunkti gætir þig langað til að afturkalla sumar eða allar breytingar sérstillinga sem þú gerðir á síðu í gegnum tíðina.
 
 1. Á borðanum **Sérstilling** er aðgerðin **Hreinsa sérstillingu** valin.
@@ -138,10 +140,10 @@ Hægt er að hreinsa allar breytingar sérstillingar sem voru gerðar innan eins
 |------|------------
 |**Aðeins yfirlitsvalmynd**|Hreinsar allar breytingar sérstillinga sem þú hefur gert á yfirlitsvalmyndinni sem er deilt í Mitt hlutverk og á öðrum síðum. Slíkar breytingar fela í sér allar nýjar aðgerðir sem var bætt við sem bókamerki, og allar breytingar á tenglum og flokkum í valmyndinni.|  
 |**Aðeins aðgerðir**|Hreinsar allar sérstilltar breytingar sem þú hefur gert á yfirlits- eða aðgerðarstiku síðunnar.|
-|**Aðeins reitir, dálkar og hlutar**|Hreinsar allar sérstilltar breytingar sem þú hefur gert á síðunni nema þær sem eru á yfirlits- eða aðgerðarstikunni. Slíkar breytingar fela í sér breytingar á reitum, dálkum, hlutum og svæðum. |
+|**Aðeins svæði og dálkar**|Hreinsar allar sérstilltar breytingar sem þú hefur gert á síðunni nema þær sem eru á yfirlits- eða aðgerðarstikunni. Slíkar breytingar fela í sér breytingar á reitum, dálkum, hlutum og svæðum. |
 |**Allt**|Hreinsa allar breytingar sérstillinga sem hafa verið gerðar á síðunni þannig að síðan líti út eins og hún gerði í upphafi. Slíkar breytingar fela í sér breytingar á yfirlits- og aðgerðarstikum, reitum, dálkum og pörtum.|
 
-## Aðrir markverðir þættir
+## Önnur atriði sem vextir
 
 Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
 

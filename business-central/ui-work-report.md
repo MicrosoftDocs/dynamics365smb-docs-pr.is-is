@@ -3,9 +3,6 @@ title: Keyra og prenta skýrslur
 description: Kynntu þér hvernig skal setja skýrslu inn í verkröð og tímasetja hana þannig að hún sé unnin á tilteknum degi og tíma.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
 ms.date: 09/09/2022
@@ -102,7 +99,7 @@ Tímasettar skýrslur eru búnar til með runuvinnslum sem stjórnað er á sí�
 3. Veldu aðgerðina **Setja í bið**.
 4. Opnaðu og breyttu tímasettu skýrslunni með því að velja stöðu hennar (*Í bið*).
 
-Þegar þú hefur breytt skýrsluvalkostunum skaltu endurtaka fyrstu tvö skrefin og síðan velja aðgerðina **Stilla stöðu á „Tilbúin“** til að halda áfram að búa til skýrsluna.
+Eftir að valkostum skýrslunnar er breytt skal endurtaka fyrstu tvö skrefin og velja  **síðan Stilla stöðu í tilbúnar**  Aðgerðir til að halda áfram að mynda skýrsluna.
 
 Frekari upplýsingar um stjórnun verkraðar er að finna í [Nota verkraðir til að tímasetja verk](admin-job-queues-schedule-tasks.md).  
 
@@ -136,6 +133,12 @@ Skýrsluútlit stjórnar því hvað er sýnt í skýrslu, hvernig því er stil
 - Til að breyta sjálfgefnu útliti sem skýrsla notar skal annaðhvort fara á síðuna **Skýrsluútlit** eða **Val á skýrsluútliti**.
 
 Frekari upplýsingar er að finna í [Stilla útlitið sem skýrslan notar](ui-set-report-layout.md). Eða ef þú vilt sérstilla þitt eigið skýrsluútlit skaltu fara í [Hefjast handa við að búa til útlit](ui-get-started-layouts.md).
+
+## Breyta tungumáli og sniði talna, dagsetninga og tíma
+
+Sjálfgefið er að tungumál texta og snið númera, dagsetninga og tíma í skýrslu séu byggð á vinnutungumáli og svæðisstillingum sem skilgreindar eru á  **síðunni mínar stillingar** . Annars vegar er hægt að breyta tungumáli og sníða svæðið á Málsnið máls þegar það er Forskoðun, prenta eða senda skýrslu. Á beiðnisíðunni skal velja  **Ítarlegt**, síðan stilla  **valkosti tungumáls**  og  **sniðsvæðis**  að vild.
+
+Nánari upplýsingar um  **síðuna stillingar**  mínar má fara í  [Breyta grunnstillingum](ui-change-basic-settings.md#region).
 
 ## Ítarlegir valkostir
 

@@ -80,19 +80,17 @@ Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerði
 
 Þú stjórnar ferlinu við að flytja út vörur með þessum stillingum:
 
-|Svæði|Lýsing|
+|Svæði|Description|
 |------|-----------|
-|**Verðhópur viðskiptavinar**|Ákveða verð fyrir vöru í Shopify. Söluverð fyrir þennan verðflokk viðskiptamanns er notaður. Ef enginn hópur er færður inn er verðið á vöruspjaldinu notað.|
-|**Afsláttarflokkur viðskm.**|Ákveða afslátt sem nota á til að reikna út verð á vöru í Shopify. Verð með afslætti eru geymd í reitnum **Verð** og fullt verð er geymt í reitnum **Samanburður á verði**.|
 |**Samstilla lengdan texta vöru**|Veljið þetta svæði til að samstilla lengdan texta vörunnar. Þar sem því verður bætt við í reitinn *Lýsing* getur það innihaldið HTML-kóða. |
 |**Samstilla vörueigindir**|Veljið þetta svæði til að samstilla eigindir atriðis. Eiginleikar eru sniðnir sem tafla og fylgja í reitnum *Lýsing* í Shopify.|
+|**Markaðssetning á Markaðstexta samkeyrslu vöru**|Veljið þetta svæði til að samstilla markaðstexta vöru. Þótt markaðstexti sé nokkurs konar Lýsing er hann mismunandi eftir lýsingarsviði  **vörutegundar** .  **Reiturinn Lýsing**  er vanalega notaður sem Birtingarheiti þess að nota fljótt til að auðkenna afurðin. Markaðstextinn er hins vegar frekar ríkur og lýsandi. Tilgangur þess er að bæta markaðsefni og kynningarefni. Þennan texta er síðan hægt að birta með vörunni í Shopify. Það eru tvær leiðir til að búa til markaðstexta. Notaðu Copilot sem stingur upp á AI-myndaðan texta fyrir þig, eða Byrjaðu frá grunni.|
 |**Kóði tungumáls**|Veljið þetta svæði ef óskað er eftir að þýða útgáfur sem notaðar eru fyrir titil, eigindir og lengdan texta.|
 |**BHE-vörpun**|Velja hvernig á að þýða reit birgðahaldseiningar í Shopify. Studdir valkostir eru:<br> - **Vörunr.** til að nota vörunr. bæði fyrir vörur og afbrigði.<br> - **Vörunr. + afbrigðiskóði** til að búa til birgðarhaldseiningu með því að samstilla gildi tveggja reita. Fyrir hluti án afbrigða er eingöngu notað vörunúmerið.<br>- **Lán.dr., vöru nr.** til að nota númer lánardrottins vöru sem skilgreint er í *Vörukortinu* bæði fyrir vörur og afbrigði.<br> - **Strikamerki** til að nota strikamerkistegundina **Vörutilvísun**. Þessi valkostur tekur mið af afbrigðum.|
 |**Reitaskiltákn birgðahaldseiningar**|Skilgreindu skilju fyrir valkostinn **Vörunr. + afbrigðiskóði**.|
 |**Birgðir raktar**| Veldu hvernig kerfið á að fylla út reitinn **Rekja birgðir** vörur sem eru fluttar út til Shopify. Hægt er að uppfæra framboðsupplýsingar [!INCLUDE[prod_short](../includes/prod_short.md)] fyrir vörur í Shopify þar sem rakning birgða er virk. Fáðu frekari upplýsingar í hlutanum [Birgðir](synchronize-items.md#sync-inventory-to-shopify).|
 |**Sjálfgefin birgðastefna**|Veldu *Neita* til að koma í veg fyrir neikvæðar birgðir á Shopify hliðinni.|
 |**Getur uppfært Shopify Vörur**|Skilgreinið þetta svæði ef  [!INCLUDE[prod_short](../includes/prod_short.md)]  aðeins á að stofna vörur eða geta uppfært vörur einnig. Þessi kostur er valinn ef upphafleg samstilling er virkjuð með aðgerðinni **Bæta við vöru**, þú ætlar að uppfæra vörur handvirkt með því að nota aðgerðina **Samstilla vöru** eða með því að nota verkröðina fyrir endurteknar uppfærslur. Munið að velja **Til Shopify** í reitnum **Samstilling vöru**.|
-|**Viðskiptamannasniðmátskóði**|Veldu sjálfgefna sniðmátið sem á að nota við verðútreikninga. Frekari upplýsingar er að finna á [Setja upp skatta](setup-taxes.md).|
 
 ### Reitir-yfirlit yfir vörpun
 
@@ -104,8 +102,8 @@ Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerði
 |Titill SEO-síðu|Fast gildi: autt. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
 |Lýsing SEO-lýsigagna|Fast gildi: autt. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
 |Geymslumiðill|**Mynd**. Fáðu frekari upplýsingar í hlutanum [Samstilla myndir af vörum](synchronize-items.md#sync-item-images)|**Mynd**|
-|Verð|Útreikningur á verði til viðskiptavinar felur í sér vöruverðflokk, afsláttarhóps vörunnar, gjaldmiðilskóða og sniðmátskóða viðskiptavinar.|**Einingarverð**|
-|Samanburður á verði|Útreikningur á verði án afsláttar tekur til vöruverðflokks, afsláttarhóps vörunnar, gjaldmiðilskóða og sniðmátskóða viðskiptavinar.|Ekki notað.|
+|Verð|Útreikningur á verði lokans-viðskiptamanns inniheldur einingarverð vöru, verðflokk viðskiptamanna, afsláttarflokk viðskiptamanns og gjaldmiðilskóta. Frekari upplýsingar í  [kaflanum Samkeyrsla verð](synchronize-items.md#sync-prices-with-shopify) |**Einingarverð**|
+|Samanburður á verði|Útreikningur á verði án afsláttar.|Ekki notað.|
 |Kostnaður á vöru|**Kostn.verð**|**Kostn.verð**|
 |BHE|Upplýsingar um SKUs undir  **skr Kortvörpun**  í  [útflutningsgreinum  Shopify](synchronize-items.md#export-items-to-shopify)  í kafla.|Lærðu á SKUs í  [áhrif  Shopify  vörunar skus og barkóða á vörpun og myndun vara og afbrigða í miðlægum](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)  hluta fyrirtækja.|
 |Strikamerki|**Vörutilvísanir** af gerð strikamerkis.|**Vörutilvísanir** af gerð strikamerkis.|
@@ -193,7 +191,18 @@ Hægt er að ræsa samstillingu mynda á þann hátt sem lýst er hér að neða
 
 ## Samstilla verð við Shopify
 
-Verð fyrir samstilltar vörur er hægt að flytja út á tvo vegu sem lýst er hér að neðan.
+Útflutningur á verði er notaður með þessum stillingum:
+
+|Svæði|Description|
+|------|-----------|
+|**Verðhópur viðskiptavinar**|Ákveða verð fyrir vöru í Shopify. Söluverð fyrir þennan verðflokk viðskiptamanns er notaður. Ef enginn flokkur er tilgreindur er notað verðið á birgðaspjaldinu.|
+|**Afsláttarflokkur viðskm.**|Ákvarða afsláttinn sem á að nota við útreikning verðs á vöru í Shopify. Afsláttur er ekki geymdur á  **verðsvæðinu**  og fullt verð er geymt á  **svæðinu bera saman við verð** .|
+|**Leyfa Línuafsl.**|Tilgreinir hvort leyfa eigi línuafslátt þegar reiknað er verð Shopify. Þessi stilling á aðeins við um verð á vörunni. Verð í verðflokki viðskiptamanns eru með eigin víxla í línum.|
+|**Verð með VSK**|Tilgreinir hvort Verðútreikningur á að  Shopify  INNIHALDA VSK. Frekari upplýsingar er að finna á [Setja upp skatta](setup-taxes.md).|
+|**VSK-viðskiptabókunarflokkur**|Tilgreinir hvaða VSK-viðskiptabókunarflokkur er notaður til að reikna út verð í Shopify. Þetta ætti að vera sá hópur sem þú notar fyrir innlenda viðskiptavini. Frekari upplýsingar er að finna á [Setja upp skatta](setup-taxes.md).|
+|**Gjaldmiðilskóði**|Færið aðeins inn gjaldmiðilskóta ef vefverslunin notar annan gjaldmiðil en staðbundinn gjaldmiðil (ISK). Tilgreindur gjaldmiðill verður að hafa stillt gengi. Ef vefverslunin notar sama gjaldmiðil og [! INCLUDEprod_short], skal reiturinn hafður auður.|
+
+Hægt er að flytja verð til samstilltra vara á þeim tveimur leiðum sem lýst er hér á eftir.
 
 ### Samstilla verð Shopify af vörusíðunni
 
@@ -202,9 +211,8 @@ Verð fyrir samstilltar vörur er hægt að flytja út á tvo vegu sem lýst er 
 
 ### Athugasemdir verðútreiknings
 
-* Til að reikna út verð er mikilvægt að hafa gildi í reitnum **Sjálfgefið sniðmát viðskiptavinar**. Frekari upplýsingar er að finna á [Setja upp skatta](setup-taxes.md).
-* Sláðu inn **gjaldmiðilskóða** ef vefverslunin þín notar annan gjaldmiðil en staðbundinn gjaldmiðil (SGM). Tilgreindur gjaldmiðill verður að hafa stillt gengi. Ef vefverslunin þín notar sama gjaldmiðil og [!INCLUDE[prod_short](../includes/prod_short.md)] skaltu skilja þennan reit eftir auðan.
-* Við ákvörðun verðs notar [!INCLUDE[prod_short](../includes/prod_short.md)] rökin „lægsta verð“. Lægsta verðrökin þýðir að ef einingarverð sem er skilgreint á birgðaspjaldinu er lægra en það sem er skilgreint í verðflokknum er einingarverðið frá birgðaspjaldinu notað.
+* Við ákvörðun verðs notar [!INCLUDE[prod_short](../includes/prod_short.md)] rökin „lægsta verð“. Lægsta verðrökin hunsar einingarverðið sem er skilgreint á birgðaspjaldinu ef verð er skilgreint í verðflokknum. Þetta gildir jafnvel þó að einingaverð frá vörukortalverðinu sé lægra.
+* Til að reikna út verð stofnar tengivirkið bráðabirgðasölutilboð fyrir vöruna með magninu 1 og notar staðlaða verðreiknigrunn. Aðeins eru notaðar verð og afslætti sem eiga við magnið 1. Ekki er hægt að flytja út mismunandi verð eða afslætti miðað við magn.
 
 ## Samstilla birgðir við Shopify
 
@@ -220,7 +228,7 @@ Hægt er að stilla samstillingu birgða fyrir vörur sem þegar hafa verið sam
 3. Veljið aðgerðina **Staðsetningar** til að opna **Shopify Staðsetningar verslunar**.
 4. Veldu aðgerðina **Sækja Shopify Staðsetningar** til að flytja inn allar staðsetningarnar sem skilgreindar eru í Shopify. Þú finnur þær í stillingum fyrir [**Staðsetningar**](https://www.shopify.com/admin/settings/locations) í **Shopify Stjórnandamiðstöðinni**.
 5. Í reitnum **Staðsetningarsía** er hægt að bæta við staðsetningum ef aðeins á að taka með birgðir frá tilteknum stöðum. Svo, þú gætir slegið inn *AUSTUR|VESTUR* til að gera birgðir frá aðeins þessum tveimur staðsetningm í boði fyrir sölu í gegnum netverslunina.
-6. Slökkvið á valkostinum **Óvirkt** til að virkja birgðasamstillingu fyrir valdar Shopify staðsetningar.
+6. Veljið aðferð verðbréfaútreiknings sem nota á fyrir valda  Shopify  staði.
 
 Þú getur ræst birgðasamstillingu á tvo vegu sem lýst er hér að neðan.
 
@@ -237,9 +245,10 @@ Hægt er að stilla samstillingu birgða fyrir vörur sem þegar hafa verið sam
 
 ### Athugasemdir birgða
 
-* Tengitengið reiknar  **út áætlaða stöðu**  í boði á núverandi dagsetningu og flytur hana út Shopify.
+* Staðlaður Útreikningsaðferð verðbréfakaup er  **Áætluð staða til dags**. Með extensibility er hægt að bæta við fleiri valkostum. Til að fræðast meira um extensibility er farið í  [dæmi](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
 * Þú getur skoðað upplýsingar um birgðir sem þú fékkst frá upplýsingareitnum Shopify á síðunni **Shopify Upplýsingareitur birgða**. Í þessum upplýsingareit færðu yfirlit yfir Shopify birgða síðustu reiknuðu birgðirnar í [!INCLUDE[prod_short](../includes/prod_short.md)]. Það er ein færsla á hverjum stað.
 * Ef upplýsingar um birgðir í Shopify eru aðrar en **Áætluð staða til ráðstöfunar** í [!INCLUDE[prod_short](../includes/prod_short.md)] þá verða birgðir uppfærðar í Shopify.
+* Þegar bætt er við nýjum stað í  Shopify þarf einnig að bæta við birgðafærslum fyrir það. Shopify gerir það ekki sjálfkrafa fyrir afurðir og vöruvíddasamsetningar og Connector samstillir ekki birgðastig slíkra vara á nýjum stað. Til að fá frekari upplýsingar er farið í að  [úthluta birgðum til birgðageymslna](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 
 #### Dæmi um útreikning áætlaðrar stöðu í árslok
 

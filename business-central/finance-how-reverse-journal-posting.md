@@ -1,15 +1,12 @@
 ---
 title: Afturkalla bókun með bókun bakfærslu
-description: 'Ef þú hefur framkvæmt ranga bókun í færslubók, geturðu notað bakfærsluaðgerðina til að afturkalla bókunina með réttri endurskoðunarslóð.'
+description: Ef mistök finnast í bókaðri almennri færslubók er hægt að nota aðgerðina Bakfæra færslu til að afturkalla bókunina með réttri slóð endurskoðunar.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: reimbursement
-ms.search.form: '20, 25, 29, 38, 202, 5912,'
-ms.date: 07/22/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ---
 # Bakfæra bókun Færslubókar og afturkalla kvittanir/sendingar
 
@@ -30,7 +27,7 @@ Hægt er að bakfæra færslur af öllum síðum **Fjárhagsfærslur**. Eftirfar
 > [!NOTE]
 > Færslan verður að koma úr bókun færslubókar.
 >
-> Ekki er hægt að bakfæra færslur sem hafa verið bókaðar með upplýsingum úr verki, eða sem hafa innleystan hagnað og tap innan sömu færslu.
+> Einnig er ekki hægt að bakfæra færslur sem hafa verið bókaðar með upplýsingum úr vinnslu eða sem hafa innleystan hagnað og tap innan sömu færslu.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Fjárhagsfærslur** og veldu síðan tengda tengilinn.
 2. Veljið færsluna sem á að bakfæra og veljið síðna aðgerðina **Bakfæra færslu**.
@@ -93,6 +90,5 @@ Skrefin eru svipuð fyrir bókaðar vöruskilamóttökur.
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Fjármál](finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

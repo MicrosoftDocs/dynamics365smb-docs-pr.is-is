@@ -14,7 +14,7 @@ ms.author: edupont
 Vöruafbrigði eru frábær leið til að halda stjórn á lista yfir vörur. Til dæmis gætirðu verið með mikinn vörufjölda sem er nánst eins nema með ólíkan lit. Hægt er að skilgreina hvert afbrigði sem aðskilda vöru. En þú velur að setja upp eina vöru og tilgreina litina sem afbrigði af vörunni.  
 
 > [!TIP]
-> Fyrir hagnýta kynningu á því hvernig á að nota afbrigði í framleiðslu skal skoða [Kynning: Afbrigði](contoso-coffee/variants.md) fyrir sýnigögn Contoso Coffee.  
+> Til að fá hagnýta kynningu á notkun afbrigða í framleiðslu, sjá  [Walkthrough: vöruvíddasamsetningar](contoso-coffee/manufacturing/variants.md)  fyrir kaffiuppbrot contoso.  
 
 ## Bæta afbrigðum við vöru
 
@@ -57,4 +57,4 @@ Ef kveikt er á möguleikanum geta notendur ekki bókað færslu ef afbrigðið 
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md)  
-[Kynning: Afbrigði](contoso-coffee/variants.md)  
+[Walkthrough: afbrigði](contoso-coffee/manufacturing/variants.md)  

@@ -39,7 +39,7 @@ Ef annarri hvorri þessara þarfa er ekki fullnægt verður aðgerðin ekki tilt
 
 ## Næstu skref
 
-Þegar þú ert með sandkassa eða prufuumhverfi þá Ertu tilbúinn að prófa Copilot á vörum í Business Central. Fara í að  [Bæta markaðstexta við vörur](item-marketing-text.md).  
+Þegar aðgerðin er gerð virk og samþykkt er hún tilbúin til að reyna að opna Copilot á vörum í Viðskiptamiðinu. Fara í að  [Bæta markaðstexta við vörur](item-marketing-text.md).  
 
 ## Sjá einnig .
 

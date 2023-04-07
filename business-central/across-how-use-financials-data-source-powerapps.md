@@ -1,14 +1,12 @@
 ---
 title: Nota gögn til að stofna forrit| Microsoft Docs
 description: Notandi getur gert Business Central gögnin aðgengileg sem gagnaveitu og tiltekið OData vefslóð úr vefþjónustunni til að búa til viðskiptaforrit með því að nota Power Apps.
-author: edupont04
+author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.service: dynamics365-business-central
 ms.search.keywords: 'OData, Power App, SOAP'
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 04/01/2023
+ms.author: jswymer
 ---
 # Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps
 
@@ -34,7 +32,7 @@ Notandi getur gert [!INCLUDE[prod_short](includes/prod_short.md)]-gögnin sín a
 Þessar svokölluðu töflur verða skráðar sem endastöðvar með [!INCLUDE[prod_short](includes/prod_short.md)] tengli fyrir Power Apps.  
 
 > [!NOTE]
-> Ef þú vilt hafa með gögn úr öðrum töflum í [!INCLUDE[prod_short](includes/prod_short.md)] í forritinu þínu verður þú að vinna með þróunaraðila til að skilgreina sérsniðið API í [!INCLUDE[prod_short](includes/prod_short.md)] og síðan nota þetta sérsniðna API í gegnum sérsniðinn tengil í Power Apps. Nánari upplýsingar má finna í [Stofna sérsniðin tengi frá grunni](/connectors/custom-connectors/define-blank).  
+> Ef þú vilt hafa gögn frá öðrum töflum í  [!INCLUDE[prod_short](includes/prod_short.md)]  í forritinu, þá verður þú að vinna með forritara til að skilgreina SÉRSNIÐIÐ API í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Nú hefur þér tekist að tengjast gögnum þínum í [!INCLUDE[prod_short](includes/prod_short.md)] og getur byrjað að byggja upp PowerApp. Hægt er að bæta við fleiri skjáum og tengjast við fleiri gögn úr [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna á [Búa til vinnusvæðisforrit úr sniðmáti í Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
