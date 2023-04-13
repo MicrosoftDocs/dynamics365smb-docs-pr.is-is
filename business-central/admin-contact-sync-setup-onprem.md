@@ -1,12 +1,12 @@
 ---
 title: Setja upp tengilið samkeyrslu við Outlook sem er í Innanhússmiðstöð
-description: Frekari upplýsingar um hvernig á að skilgreina Viðskiptamiðað-envirSet upp innanhúss-samstilla tengilið við Outlook á aðalskrá innanhúss
+description: Lærðu að skilgreina umhverfi innanhúss til að samstilla tengiliði í viðskiptamiðinu og Outlook.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 03/17/2023
+ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 

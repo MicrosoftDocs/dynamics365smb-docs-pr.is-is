@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0123289557034d9df0f32cd00ebd55ce3d6581ce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148940"
 ---
-# <a name="electronic-invoicing-requirement-issuing-single-copy-invoice"></a>Kröfur fyrir rafrænar reikningsfærslur: Útgáfa reikninga í einriti
+# Kröfur fyrir rafrænar reikningsfærslur: Útgáfa reikninga í einriti
 
 Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur er prentaður oftar en einu sinni. Skýrslan inniheldur lagalegan texta þar sem staðfest er að reikningurinn sé búinn til í bókhalds- og áætlunarkerfi sem samræmist lögum.  
 
@@ -24,7 +18,7 @@ Með þessari aðgerð er hægt að senda skilmála um notkun reikninga í einri
 
 Lagalegur texti er settur inn á staðlaða bókaða reikninga (reikningur og kreditreikningur) þar sem fram kemur að reikningarnir séu búnir til í bókhalds- og áætlunarkerfi sem samræmist reglugerð nr. 598/1999.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Uppsetning sölu](../../sales-setup-sales.md)  
 
