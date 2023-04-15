@@ -2,7 +2,6 @@
 title: Grunnviðbót skýjaflutnings
 description: Notaðu grunnviðbót skýjaflutnings til að tengja lausnina á staðnum við Business Central Online.
 author: edupont04
-manager: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
