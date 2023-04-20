@@ -11,7 +11,7 @@ ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
 ms.search.form: '6250,'
 ---
 
-# Tengja og samstilla færslur milli Dataverse og Business Central
+# Par og samstilla færslur á milli  Dataverse  og viðskipta miðlægt
 
 Þetta efnisatriði lýsir því hvernig á að tengja eina eða fleiri færslur í [!INCLUDE[prod_short](includes/prod_short.md)] við færslur í Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)]. Að tengja færslur gerir þér kleift að skoða Dataverse upplýsingar úr [!INCLUDE[prod_short](includes/prod_short.md)] og öfugt. Tenging gerir þér einnig að samstilla gögn á milli færslna. Hægt er að tengja fyrirliggjandi færslur eða stofna og tengja nýjar færslur.
 
@@ -45,7 +45,7 @@ ms.search.form: '6250,'
 2. Veldu aðgerðina **[!INCLUDE[prod_short](includes/prod_short.md)]** í borðanum til að opna og tengja færslu sjálfkrafa.
 
     > [!Note]
-    > Aðeins er hægt að samstilla staka færslu úr [!INCLUDE[crm_md](includes/crm_md.md)] sjálfkrafa þegar **Aðeins samstilla tengdar færslur** er óvirk og samstillingaráttin er stillt á tvíátta eða „Frá samþættingartöflu“ á síðunni **Vörpun samþættingartöflu** fyrir færsluna. Frekari upplýsingar  [fást með því að varpa í töflur og svæði til að samstilla](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
+    > Aðeins er hægt að samstilla staka færslu  [!INCLUDE[crm_md](includes/crm_md.md)]  sjálfkrafa við  **samstillingu. Aðeins Afsláttarfærslur**  eru óvirkar og samstillingarstefnan er stillt á  **tvístefnu**  eða  **úr Samþættingartöflu**  á  **vörpunarsíðu**  samþættingar fyrir færsluna. Frekari upplýsingar  [fást með því að varpa í töflur og svæði til að samstilla](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
 ## Að tengja margar færslur með því að nota tengi sem byggir á samsvörun
 
@@ -63,6 +63,36 @@ Tilgreina gögnin sem á að samstilla fyrir einingu, eins og viðskiptavin eða
 1.  [!INCLUDE[prod_short](includes/prod_short.md)] Opnið listasíðuna fyrir færsluna, eins og viðskiptamenn eða tengiliðsíðurnar.  
 2. Veldu færslurnar sem á að samstilla og veldu svo aðgerðina **Samstilla núna**.  
 3. Ef hægt er að samstilla færslur í eina átt skal velja valkostinn sem tilgreinir stefnuna og velja svo **Í lagi**.  
+
+## Fjöldainnsetningarfærslur og par
+
+Ef um er að ræða mikinn fjölda  Dataverse  eininga sem samsvara færslum í  [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að setja inn og par í-magn. Til dæmis væri hægt að setja upp biðfærslur og par þegar samstilling er sett upp í fyrsta sinn.
+
+Þú notar  **Leiðsagnarforrit**  gagnainnflutnings í  **Microsoft Power Platform  admin Center**.
+
+Eftirfarandi dæmi lýsir því hvernig á að fjöldasetja inn og par viðskiptavini með lykla í Dataverse. Nota skal sama ferli fyrir aðrar tegundir eininga, svo sem lánardrottna, vörur og forða.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
+2.  **Velja Open í aðgerð Excel**  til að opna viðskiptavinagögn í Excel. <!--Don't they need to choose the customers that they want to import to Dataverse?-->
+3. Til að varpa og flytja gögn  **í lykileiningu**  í  Dataverse er fylgt þeim skrefum sem lýst er í  [innflutningsgögnum (allar færslugerðir) frá mörgum aðilum](/power-platform/admin/import-data-all-record-types).  
+
+    Ef Reikningseiningin er með  **bcbi_companyid**  dálk þegar dálkarnir eru kortaðir er tryggt að innflutningurinn ÚTHLUTAR viðeigandi kenni fyrirtækis í dálknum fyrir hverja innflutta færslu. Eftirfarandi er fundið með því að finna AUÐKENNI fyrirtækis í  [!INCLUDE [prod_short](includes/prod_short.md)] eftirfarandi:
+
+    1.  **Opnið síðuna töfluvörpun**  samþættingar.
+    2.  **Veldu vörpun viðskiptavinar**  og veldu  **síðan breyta lista**.
+    3. Skrunað er til hægri og valinn hnappurinn aðstoða Edit  :::image type="icon" source="media/assist-edit-icon.png" border="false":::  í  **reitnum Afmörkun**  samþættingar. Þetta sýnir sjálfgefna síu fyrir vörpun viðskiptavinar og í henni er KENNI fyrirtækisins. AUÐKENNI fyrirtækis er fyrsta hluta virðis. Afrita aðeins þann hluta, og hunsa 0s. Eftirfarandi dæmi eru í hámörkun hluta til afritunar.
+
+    :::image type="content" source="media/dataverse-company-id-guid.png" alt-text="Sýnir þann hluta fyrirtækjakennis sem á að afrita.":::
+
+    > [!NOTE]
+    > Ekki er um að ræða öll nöfn  Dataverse  eininga og miðlægu færslur fyrirtækja. Eftir því hvað verið er að flytja inn skal tvöfalda tékka sem eftirfarandi dálka hafa eftirfarandi gildi eftir innflutning:
+    >
+    >* Fyrir viðskiptavini  **ætti dálkurinn customertypecode**  að innihalda  **viðskiptavin**.
+    >* Fyrir lánardrottna ætti að geyma  **lánardrottna**  í  **customertypecode** dálkinum. 
+    >* Til vara  **ætti dálkurinn producttypecode**  að innihalda  **sölubirgðir**.
+    >* Fyrir forða  **ætti dálkurinn producttypecode**  að innihalda  **þjónustu**.
+ 
+4. Eftir að gögn  Dataverse  hafa verið flutt inn í umhverfið  [!INCLUDE [prod_short](includes/prod_short.md)], skal fylgja skrefunum  [í nokkrar margar færslur með því að nota samsvörun sem byggð](#to-couple-multiple-records-using-match-based-coupling)  er á tveimur  Dataverse  einingum með  [!INCLUDE [prod_short](includes/prod_short.md)]  færslur. 
 
 ## Aftengja færslur
 

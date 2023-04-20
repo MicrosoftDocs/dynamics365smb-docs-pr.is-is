@@ -44,8 +44,8 @@ Núna, þegar samstillingaraðgerð er ræst, í stað þess að verk keyri í f
 
 Önnur verk sem geta verið hjálpleg við sjálfvirka vinnslu söluskjala:
 
-- Skýrsla 497 keyrsla bóka innkaupareikninga
-- Skýrsla 496 runubókun innkaupapantana
+- Skýrsla 297 keyrsla bóka sölureikninga
+- Skýrsla 296 bókun sölupantana
 
 Hægt er að  **Shopify  nota Pöntunarnr**. Til að auðkenna söluskjöl sem voru flutt inn úr Shopify.
 

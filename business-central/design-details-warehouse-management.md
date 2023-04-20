@@ -28,9 +28,9 @@ Til að hjálpa fyrirtækjum að ná þeim hlutum er vöruhúsaaðgerðum  [!INC
 
 ## Yfirlit yfir mismunandi skilgreiningarvalkosti
 
-Hægt er að skilgreina vöruhúsaaðgerðir á ýmsa vegu. Það skiptir miklu máli að Valkostir þú velur að bæta ferla þína án þess að valda rekstrarkostnaði. Eftirfarandi tafla gefur yfirlit yfir dæmigerðar skilgreiningar sem eru notaðar þegar verið er að fást við efnislegar vörur.
+Hægt er að skilgreina vöruhúsaaðgerðir á ýmsa vegu. Það skiptir miklu máli að velja valkosti sem bæta ferla þína án þess að valda rekstrarkostnaði. Eftirfarandi tafla gefur yfirlit yfir dæmigerðar skilgreiningar til að eiga við efnislegar vörur.
 
-|Flækjustig|Description|Stillingar|Hólfkóti|Dæmi um innflæði|Dæmi um flæði á útleið|Dæmi um innra rennsli|  
+|Flækjustig|Heimildasamstæða|Stillingar|Hólfkóði|Dæmi um innflæði|Dæmi um flæði á útleið|Dæmi um innra rennsli|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |Engin sérstök vöruhúsaaðgerð.|Bókun úr pöntunum og færslubókum.||Valfrjálst. Hólfakóta er skylda  **að**  skipta út.|Innkaupapöntun|Sölupöntun| Framl. pöntunar-> notkunarbók|  
 |Grunnatriði|Sameinuð Móttaka/bókun skipa fyrir margar pantanir.|**Krefjast kvittunar**<br>**Krefjast skips**.|Valfrjálst. Hólfakóta sem stjórnað er er skylda að skipta|Innkaupapantanir-> vöruhúsamóttaka|Sölupöntun-> vöruhúsaafhending|Sama og fyrir ofan.|
@@ -61,7 +61,7 @@ Til að afgreiða efnislegar varnir þarf að hafa a.m.k. eina staðsetningu. H�
 Yfirleitt eru staðsetningar ákjósanlegri leið til að skipuleggja aðgerðir sem eru dreifðar yfir landsvæði. Í sumum tilfellum gæti þó verið æskilegt að búa til nokkra staði sem eru staðsettir á sama stað. Notkun staðsetningar hefur eftirtalda kosti:
 
 * Veita aðgang með því að nota síður starfsmanna  **-og**  ábyrgðarstöðvar  **á**  vöruhúsi.
-* Skilgreinið dagatöl, leiðir og afgreiðslutíma á innleið og útleið fyrir dagsetningarútreikninga og áætlanagerð. [Um Skipulagsaðgerðir](production-about-planning-functionality.md).
+* Skilgreinið dagatöl, leiðir og afgreiðslutíma á innleið og útleið fyrir dagsetningarútreikninga og áætlanagerð. Frekari upplýsingar á  [um Skipulagsaðgerðir](production-about-planning-functionality.md).
 * Tilgreina sjálfgefnar víddir og nota mismunandi uppsetningar birgðabókar.
 * Setja upp færibreytur áætlunar. Frekari upplýsingar eru í  [færibreytum](production-about-planning-functionality.md#planning-parameters) skipulagsheilingar.  
 * Nota mismunandi vöruhúsaaðgerðir fyrir hverja birgðageymslu.
@@ -154,14 +154,14 @@ Hægt er að hafa eitt sjálfgefið hólf fyrir hverja vöru á staðnum.
 
 Staðsetningar sem nota beinan frágang og tínslu geta notað hólfagerðir. Hólfagerðir stjórna verkþáttum sem eru leyfðir fyrir hólf. Eftirtaldar gerðir hólfa eru tiltækar:  
 
-|Tegund hólfs|Description|  
+|Tegund hólfs|Heimildasamstæða|  
 |------------------|---------------------------------------|  
 |MÓTTAKA|Vörur sem eru mótteknar en eru ekki frágangs.|  
-|SHIP|Vörur sem eru tíndar fyrir afhendingarlínur vöruhúss en eru ekki bókaðar sem afhentar.|  
-|PUT AWAY|Yfirleitt eru vörur til að geyma á stórum mælieiningum en ekki er óskað eftir aðgangi að tiltektartilgangi. Þessi hólf eru ekki notuð við tiltekt, annað hvort fyrir framleiðslupantanir eða afhendingar, þannig að notkun þeirra gæti verið takmörkuð. Þessi tegund af hólfi hentar vel þegar keypt er inn mikið magn af vörum. Hólfin eiga alltaf að vera með lágri hólfaflokkun þannig að aðeins sé gengið frá vörum með hærra flokkuð PUTPICK-hólf. Reglulega fylla þessi tegund hólfa þannig að vörur þeirra séu til í PUTPICK-eða PICK-hólfum.|  
+|AFH|Vörur sem eru tíndar fyrir afhendingarlínur vöruhúss en eru ekki bókaðar sem afhentar.|  
+|FRÁGANGUR|Yfirleitt eru vörur til að geyma á stórum mælieiningum en ekki er óskað eftir aðgangi að tiltektartilgangi. Þessi hólf eru ekki notuð við tiltekt, annað hvort fyrir framleiðslupantanir eða afhendingar, þannig að notkun þeirra gæti verið takmörkuð. Þessi tegund af hólfi hentar vel þegar keypt er inn mikið magn af vörum. Hólfin eiga alltaf að vera með lágri hólfaflokkun þannig að aðeins sé gengið frá vörum með hærra flokkuð PUTPICK-hólf. Reglulega fylla þessi tegund hólfa þannig að vörur þeirra séu til í PUTPICK-eða PICK-hólfum.|  
 |TÍNA|Vörur sem aðeins eru notaðar í tínslu. Aðeins er hægt að nota hreyfingar við áfyllingu þessara hólfa, ekki frágangur.|  
-|PUTPICK|Hlutir í hólfum sem eru lagðir fyrir bæði frágang og tínslu. Hólf af þessari tegund eru líklega með mismunandi hólfaflokkun. Setjið upp fjölhólfa geymsluhólf með neðra hólfi en venjuleg tínsluhólf eða hólf í tínt tiltektarsvæði.|  
-|QC|Þetta hólf er notað fyrir birgðaleiðréttingar ef þetta hólf er tilgreind á birgðageymsluspjaldinu í reitnum **Leiðréttingahólfskóði**. Einnig er hægt að setja upp hólf af þessari tegund fyrir gallaðar vörur og vörur sem teknar eru til skoðunar. Hægt er að flytja vörur í hólf af þessari tegund ef þær eiga ekki að vera tiltækar í venjulegu vöruflæði. **Til**   athugunar:  **Ólíkt öllum öðrum hólfstegundum hefur QC**  -hólfagerðin engin af vörumeðhöndlunargátunum sem sjálfgefnar eru. Efni sem sett er í QC-hólfið er útilokað frá vöruflæði.|  
+|FRÁGTÍN|Hlutir í hólfum sem eru lagðir fyrir bæði frágang og tínslu. Hólf af þessari tegund eru líklega með mismunandi hólfaflokkun. Setjið upp fjölhólfa geymsluhólf með neðra hólfi en venjuleg tínsluhólf eða hólf í tínt tiltektarsvæði.|  
+|GE|Þetta hólf er notað fyrir birgðaleiðréttingar ef þetta hólf er tilgreind á birgðageymsluspjaldinu í reitnum **Leiðréttingahólfskóði**. Einnig er hægt að setja upp hólf af þessari tegund fyrir gallaðar vörur og vörur sem teknar eru til skoðunar. Hægt er að flytja vörur í hólf af þessari tegund ef þær eiga ekki að vera tiltækar í venjulegu vöruflæði. **Til**   athugunar:  **Ólíkt öllum öðrum hólfstegundum hefur QC**  -hólfagerðin engin af vörumeðhöndlunargátunum sem sjálfgefnar eru. Efni sem sett er í QC-hólfið er útilokað frá vöruflæði.|  
 
 Með undantekningunum TÍNSLU, PUTPICK og PUTAWAY hólfum skilgreinir hólfagerðin verkþátt leyfinnar fyrir hólf. Til dæmis er aðeins hægt að nota hólfategund til að taka á móti vörum eða taka vörur frá.  
 
