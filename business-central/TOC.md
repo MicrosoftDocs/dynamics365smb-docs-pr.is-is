@@ -23,19 +23,26 @@
 #### [Kynning: Gera sjóðstreymisspár með fjárhagsskýrslum](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Kynning: Setja upp og nota Shopify tengið](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Sýnigögn Contoso Coffee fyrir framleiðslu
+### Sýnigögn Contoso Coffee
 #### [Kynning á sýnigögnum Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
-#### [Stofna nýja framleiðsluuppskrift og uppskriftarútgáfu](contoso-coffee/create-new-production-bom-version.md)
-#### [Stofna nýja leið](contoso-coffee/create-new-routing.md)
-#### [Stofna fastáætlaða framleiðslupöntun og breyta henni](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Sameina sjálfvirka og handvirka birgðaskráningu](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Nota pantanaáætlun til að búa til og bakfæra framboð](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Setja upp og vinna úr aðgerð úthýsingar](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Setja upp nýja getu](contoso-coffee/set-up-new-capacity.md)
-#### [Afbrigði](contoso-coffee/variants.md)
+#### Framleiðsla
+##### [Kynning á framleiðslu Contoso Coffee](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Stofna nýja framleiðsluuppskrift og uppskriftarútgáfu](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Stofna nýja leið](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Stofna fastáætlaða framleiðslupöntun og breyta henni](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Sameina sjálfvirka og handvirka birgðaskráningu](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Nota pantanaáætlun til að búa til og bakfæra framboð](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Setja upp og vinna úr aðgerð úthýsingar](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Setja upp nýja getu](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Afbrigði](contoso-coffee/manufacturing/variants.md)
+#### Vörugeymsla
+##### [Kynning á vöruhúsi Contoso Coffee](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Kynning á flæði á innleið og útleið í grunnskilgreiningum vöruhúss](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Kynning á flæði á innleið og útleið í blönduðum skilgreiningum vöruhúss](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Kynning á flæði á innleið og útleið í ítarlegum skilgreiningum vöruhúss með beinum frágangi og tínslu](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Hönnunarupplýsingar
-#### [Yfirliti yfir hönnunarupplýsingar hugbúnaðar](design-details-application-design.md)
+#### [Yfirlit yfir hönnunarupplýsingar hugbúnaðar](design-details-application-design.md)
 #### Hönnunarupplýsingar: Birgðakostnaður
 ##### [Upplýsingar um hönnun birgðakostnaðar](design-details-inventory-costing.md)
 ##### [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
@@ -108,7 +115,7 @@
 ### [Segja upp áskrift að eða fjarlægja Business Central](admin-cancel.md)
 ### Markaðstexti gervigreindar með Copilot
 #### [Yfirlit](ai-overview.md)
-#### [Fá forútgáfu - Copilot útgáfa](ai-preview-getstarted.md)
+#### [Sækja forútgáfu](ai-preview-getstarted.md)
 #### [Grunnstilla hluta markaðstexta með gervigreind](enable-ai.md)
 #### [Búa til hluta markaðstexta með gervigreind](item-marketing-text.md)
 #### [ALGENGAR SPURNINGAR](ai-faq.md)
@@ -408,15 +415,20 @@
 
 ### Sameina fjárhagsgögn frá mörgum fyrirtækjum
 #### [Fyrirtækjasamstæða](finance-consolidated-company-reporting.md)
-#### [Setja upp sameiningu fyrirtækis](finance-consolidated-company-reporting-setup.md)
+#### [Setja upp fyrirtækjasamstæðu](finance-consolidated-company-reporting-setup.md)
+
+### Vinna með bókhaldslykil og fjárhag
+#### [Öðlast skilning á fjárhagi og bókhaldslykli](finance-general-ledger.md)
+#### [Yfirfara reikninga](finance-review-accounts.md)
+
 ### [Sameina stöður fyrir fyrirtæki sem er viðskiptamaður og lánardrottinn](finance-consolidate-customer-vendor-balances.md)
-### [Skilja fjárhag og bókhaldslykil](finance-general-ledger.md)
 ### [Vinna með víddir](finance-dimensions.md)
 ### [Úrræðaleit og víddarleiðrétting](finance-troubleshooting-correcting-dimensions.md)
 ### [Gjaldmiðlar í Business Central](finance-currencies.md)
 ### [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)
 ### [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)
 ### [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)
+### [Útflutningur endurskoðunarskráar](finance-how-to-export-audit-files.md)
 ### [Úthluta kostnaði og tekjum](year-allocate-costs-income.md)
 ### [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)
 ### [Fresta tekjum og öðrum útgjöldum](finance-how-defer-revenue-expenses.md)
@@ -436,6 +448,7 @@
 ## Viðskiptagreind og skýrslugerð fjármála
 ### [Yfirlit yfir viðskiptagreind og skýrslugerð fjármála](bi.md)
 ### [Fjárhagsskýrslur](finance-reports.md)
+### [Greina gögn með tölfræðilegum lyklum](bi-use-statistical-accounts.md)
 ### [Greina raunverulegar og áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md)
 ### [Útbúa fjárhagsskýrslugerð með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md)
 ### [Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -797,6 +810,7 @@
 ##### [Takmarka bókunartímabilið](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Stilla vinnudagsetningu sem bókunardagsetningu](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Gera sniðmát færslubókar áskilið](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Frestun í skýrslum sölu- og innkaupa](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Kanada
 #### [Staðbundin virkni í kanadískri útgáfu](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -1509,16 +1523,18 @@
 #### [Setja upp sölumenn](sales-how-setup-salespeople.md)
 #### [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md)
 #### [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)
-#### [Afhendingarmátar settir upp](sales-how-set-up-shipment-methods.md)
-#### [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md)
+#### [Setja upp afhendingarmáta](sales-how-set-up-shipment-methods.md)
+#### [Setja upp flutningsaðila](sales-how-to-set-up-shipping-agents.md)
+#### [Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)
 ### Setja upp innkaup
 #### [Setja upp innkaup](purchasing-setup-purchasing.md)
-#### [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)
-#### [Setja upp lánardrottnabankareikninga](purchasing-how-set-up-vendors-bank-accounts.md)
+#### [Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)
+#### [Setja upp bankareikninga lánardrottna](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Forgangsraða lánardrottnum](purchasing-how-prioritize-vendors.md)
 #### [Setja upp kaupendur](purchasing-how-setup-purchasers.md)
 #### [Setja upp verð og afslætti](across-prices-and-discounts.md)
 #### [Skrá sérstakt söluverð og sérstaka afslætti](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)
 ### Setja upp birgðir
 #### [Setja upp birgðir](inventory-setup-inventory.md)
 #### [Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md)
@@ -1630,8 +1646,9 @@
 #### Nota Microsoft Teams með Business Central
 ##### [Yfirlit](across-teams-overview.md)
 ##### [Stjórna samþættingu Teams](admin-teams-integration.md)
-##### [Uppsetning Business Central forrits fyrir Teams](across-install-app-for-teams.md)
-##### [Leita að viðskiptavinum, lánardrottnum og tengiliðum](across-search-contacts-teams.md)
+##### [Setja upp Business Central forrit fyrir Teams](across-install-app-for-teams.md)
+##### [Fá aðgang að gögnum í Teams án Business Central-leyfis](teams-access-with-m365-license.md)
+##### [Leita að viðskiptamönnum, lánardrottnum og tengiliðum](across-search-contacts-teams.md)
 ##### [Bæta við Business Central-flipa í rás eða spjalli](across-teams-tab.md)
 ##### [Deila færslum og síðutenglum í Teams](across-working-with-teams.md)
 ##### [Breyta fyrirtæki og aðrar stillingar](across-teams-settings.md)
@@ -1753,8 +1770,9 @@
 ### [Yfirlit](reports-adhoc-analysis.md)
 ### [Röðun, leit, og síun](ui-enter-criteria-filters.md)
 ### [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)
-### [Greinda síðugögn með Excel](across-work-with-excel.md)
-### [Greina skýrslugögn með Excel](report-analyze-excel.md)
+### [Greining síðugagna í Excel](across-work-with-excel.md)
+### [Greining skýrslugagna með Excel](report-analyze-excel.md)
+### [Greining listagagna með greiningarstillingu](analysis-mode.md)
 ### [Viðskiptagreind fjármála](bi.md)
 
 ## Innbyggð greining 
@@ -1884,8 +1902,11 @@
 ### [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Úrræðaleit vegna samstillingarvillna](admin-troubleshoot-sales-synchronization.md)
 ### [Nota Power Automate flæði fyrir tilkynningar um breytingar á Dataverse einingum](admin-power-automate-flow-dataverse.md)
+## Samstilla aðalgögn á milli fyrirtækja
+### [Undirbúningur fyrir samstillingu aðalgagna](admin-set-up-data-sync.md)
+### [Stjórna samstillingu aðalgagna](admin-sync-master-data.md)
 ## Hönnunarupplýsingar
-### [Yfirliti yfir hönnunarupplýsingar hugbúnaðar](design-details-application-design.md)
+### [Yfirlit yfir hönnunarupplýsingar hugbúnaðar](design-details-application-design.md)
 ### Hönnunarupplýsingar: framboðsáætlun
 #### [Framboðsáætlunyfirlit](design-details-supply-planning.md)
 #### [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
