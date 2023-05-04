@@ -1,30 +1,22 @@
 ---
 title: Kynning á Business Central og Power BI
-description: Fáðu yfirlit um notkun Power BI til að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) úr Business Central gögnum.
+description: 'Fáðu yfirlit um notkun Power BI til að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) úr Business Central gögnum.'
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.search.form: 6316, 6317
-ms.reviewer: edupont
-ms.date: 08/30/2022
+ms.topic: overview
+ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
+ms.search.form: '6316, 6317'
+ms.reviewer: jswymer
+ms.date: 04/26/2023
 ms.author: jswymer
-ms.openlocfilehash: 43c0b32a25d8ebb55aae14937a6d8c2269395963
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533914"
+ms.custom: bap-template
 ---
-# <a name="introduction-to-prod_short-and-power-bi"></a>Kynning á [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
+# Kynning á [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
 
 Það er auðvelt að fá innsýn í [!INCLUDE[prod_short](includes/prod_short.md)] gögnin þín með [Power BI](https://powerbi.microsoft.com) - gagnabirtingarkerfi frá Microsoft. Power BI sækir [!INCLUDE[prod_short](includes/prod_short.md)] gögn svo hægt sé að búa til stjórnborð og skýrslur út frá þeim gögnum. Power BI býður upp á sveigjanlegt val á skýrslum í [!INCLUDE[prod_short](includes/prod_short.md)], þar sem hægt er að bera saman og sérstilla útlit, og jafnvel sameina gögn úr mismunandi fyrirtækjum í [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig er hægt að taka sumar Power BI skýrslur með í Business Central og skoða þær án þess að fara úr kerfinu. Betra er að skoða flóknari mælaborð á vefsvæðinu Power BI.
 
 ![Power BI og Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Kynntu þér það sem hægt er að gera með Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
+## Kynntu þér það sem hægt er að gera með Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Það eru ýmsir eiginleikar fyrir vinnu með [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Suma hluti er hægt að gera úr Power BI, á meðan aðrir hlutir eru gerðir úr [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig eru sumir eiginleikar í boði með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu, ekki á staðnum. Eftirfarandi tafla sýnir yfirlit.
 
@@ -34,11 +26,11 @@ ms.locfileid: "9533914"
 |Skoðaðu Power BI-skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)] -biðlaranum.| Power BI skýrslur sem birta [!INCLUDE[prod_short](includes/prod_short.md)] gögn er hægt að fella beint inn í hluta [!INCLUDE[prod_short](includes/prod_short.md)] síðna. Hægt er að skipta hlutanum til að birta allar skýrslur sem þú hefur aðgang að. |![vinnur á netinu.](media/check.png)|![Vinnur á staðnum](media/check.png)<sup>[*](#onprem)</sup>|[Hér...](across-working-with-powerbi.md).|
 |Stofna skýrslur og mælaborð í Power BI sem birta [!INCLUDE[prod_short](includes/prod_short.md)]-gögn.|Notaðu Power BI Desktop til að búa til þínar eigin skýrslur og mælaborð. Hægt er að birta skýrslurnar á eigin Power BI-þjónustu eða deila þeim með öðrum innan fyrirtækisins.|![Vinnur á netinu.](media/check.png)|![vinnur á staðnum](media/check.png)|[Hér...](across-how-use-financials-data-source-powerbi.md)|
 |[!INCLUDE[prod_short](includes/prod_short.md)] forrit í Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] gefur út þrjú forrit fyrir Power BI á Microsoft AppSource. Þessi forrit búa til ítarlegar skýrslur og mælaborð í Power BI þjónustunni til að skoða [!INCLUDE[prod_short](includes/prod_short.md)] -gögn. Tiltæk forrit eru meðal annars: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Vinnur á netinu.](media/check.png)||[Hér...](across-powerbi-business-central-apps.md)|
-|Vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í gagnaskemmum og gagnaflæðum|Frá og með júlí 2022 er hægt að nota [!INCLUDE [prod_short](includes/prod_short.md)] tengilinn í Power Query Online á gagnaflæði sem deilt er á milli mismunandi skýrslna og stjórnborða.|[Hér...](across-powerbi-business-central-apps.md)|
+|Vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í gagnaskemmum og gagnaflæðum|Frá og með júlí 2022 er hægt að nota [!INCLUDE [prod_short](includes/prod_short.md)] tengilinn í Power Query Online á gagnaflæði sem deilt er á milli mismunandi skýrslna og stjórnborða.|![vinnur á netinu.](media/check.png)||[Hér...](across-powerbi-business-central-apps.md)|
 
-<a name="onprem"><sup>*</sup></a> Þessi eiginleiki krefst skráðs forrits fyrir Business Central í Microsoft Azure. Frekari upplýsingar er að finna á [Skráning Business Central innanhúss í Azure AD fyrir samþættingu við aðrar þjónustur](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+<a name="onprem"><sup>*</sup></a> Þessi eiginleiki krefst skráðs forrits fyrir Business Central í Microsoft Azure. Frekari upplýsingar er að finna  [í skráningu fyrirtækja miðsvæðis innanhúss í  Azure AD  fyrir samþættingu við aðra þjónustu](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Búðu þig undir að nota Power BI
+## Búðu þig undir að nota Power BI
 
 Það þarf að gera nokkra hluti áður en hægt er að byrja að nota Power BI með [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Verkin fara eftir hlutverki þínu í fyrirtækinu og hvað þú vilt gera við Power BI:
 
@@ -53,36 +45,37 @@ ms.locfileid: "9533914"
 |Birta gögn Business Central í Power BI||![þetta er hak.](media/check.png)|![aftur hak](media/check.png)|[Birta gögn í gegnum API-síður eða OData-vefþjónustur](admin-powerbi-setup.md#exposedata)
 |Kveikja á samþættingu Power BI<br />(eingöngu á staðnum)||![þetta er hak.](media/check.png)||[Setja upp Business Central á staðnum fyrir Power BI samþættingu](admin-powerbi-setup.md#setup)|
 
+## Rekja fyrirtækið afkastavísa með  Power BI  metrics
 
-<!--
+Ef þú notar  Power BI  á  [!INCLUDE[prod_short](includes/prod_short.md)]  gögn er auðvelt að rekja afkastavísa eða mælingar sem eru mikilvægar þér. 
+
+Með metrics í  Power BI er hægt að krulli inn í eigin mælikvarða og fylgjast með þeim miðað við Lykilmarkmið fyrirtækja, í einni rúðu. Þessi eiginleiki eykur gögn Menning með því að efla ábyrgðarhæfni, jöfnun og sýnileika fyrir teyma og frumkvæði innan stofnana. 
+
+Fylgdu þessu fjögurra þrepa ferli til að setja upp  Power BI  mælingar:
+
+1. Stofna árangursmat í  Power BI  þjónustunni. Sjá  [Stofna árangursmat í Power BI](/power-bi/create-reports/service-goals-create).
+2. Bættu við þeim  _mælistika_  sem þú vilt rekja með því að tengjast skýrslunni þinni  Power BI  í Telemetry. Sjá  [Create a tengdir Mælikvarðar](/power-bi/create-reports/service-goals-create-connected).
+3. Til að bæta við alvilja eru skilgreindar stöðureglur fyrir mælifræði. Sjá  [stofna reglur um sjálfvirka stöðu fyrir metrics](/power-bi/create-reports/service-metrics-status-rules).
+
+   Þetta skref gerir stöðuuppfærslur sjálfvirkt á grundvelli reglna sem stjórna þeirri mælingu. Reglur kalla á breytingar sem byggjast á gildi, hlutfall markmet, skilyrði dagsetningar eða sambland af þremur, sem gerir reglurnar eins fjölhalla og mögulegt er. Fyrir tengda mælikvarða eru þessar stöður reglur endurnýjaðar í hvert skipti sem gögn í árangursmati eru endurnýjuð.
+4. Að lokum fylgja Mælikvarðar til að fá viðvaranir í teymum eða með tölvupósti. Sjá  [fylgni mælistika](/power-bi/create-reports/service-metrics-follow).
+
+Nánari upplýsingar um  Power BI  metrics er að finna  [í byrja með Metrics í Power BI](/power-bi/create-reports/service-goals-introduction).
+
+> [!NOTE]
+> Það er nú ekki hægt að útvefja árangursmati frá  Power BI  metrics í [!INCLUDE[prod_short](includes/prod_short.md)].
+
+## Næstu skref
+
+- Ef þú ert admin sem þarf að setja upp  Power BI  í  [!INCLUDE[prod_short](includes/prod_short.md)], Farðu þá að  [gera  Power BI  samþættingu](admin-powerbi-setup.md).
+- Ef  Power BI  hefur þegar verið sett upp og á að reyna aðgerðirnar er farið í að  [vinna með  Power BI  skýrslur í viðskiptamiðinu](across-working-with-powerbi.md).
 
 
+## Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-1. If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, make sure your deployment meets the requirements outlined in [Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration](admin-powerbi-setup.md#setup). This task is typically an administrative task.
-
-2. Expose Business Central data through API pages or published web services.
-
-    Business Central online automatically included several pages as APIs. For more information, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). Application developers for Business Central online can create custom API pages that you can then consume in reports. For more information, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
-
-   Codeunit, page, and query objects can be published as OData web services. There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
-
-3. Get a Power BI account.
-
-   To do anything with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)], whether you're an administrator or just a consumer, you'll need Power BI service account. To get an account, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. Sign-up requires that you have a license, but in most cases you should already have a free license. For more information, see [Power BI Licensing](admin-powerbi-setup.md#license).
-
-4. If you want to create your own Power BI reports, get Power BI Desktop.
-
-   You can download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Get Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
-
--->
-
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Viðskiptaupplýsingar](bi.md)  
-[Undirbúðu þig fyrir viðskiptin](ui-get-ready-business.md)  
-[Flytja inn viðskiptagögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power Apps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
@@ -92,7 +85,5 @@ ms.locfileid: "9533914"
 [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Kynning á gagnaskemmum](/power-bi/transform-model/datamarts/datamarts-overview)  
 [Kynning á gagnaflæðum og gagnaundirbúningur sjálfsafgreiðslu](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
-
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

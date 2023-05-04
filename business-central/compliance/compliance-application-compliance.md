@@ -1,26 +1,25 @@
 ---
 title: Reglufylgni forrits
-description: 'Þetta efnisatriði útskýrir reglufylgni forrits í tengslum við Business Central, eins og alþjóðlega fjárhagsskilastaðalinn, staðbundna virkni og almennu persónuverndarreglugerðina.'
+description: 'Í greininni er útskýrt hvernig Viðskiptamiðinu samræmist alþjóðlegum reikningsskilastöðlum, staðbundnum aðgerðum og lögum um persónuvernd og reglugerðum.'
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 08/25/2022
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Reglufylgni forrits
 
-Þetta efni inniheldur upplýsingar um reglufylgni forrits í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)], eins og alþjóðlega fjárhagsskilastaðalinn, staðbundna virkni, almennu persónuverndarreglugerðina og fleira. Traust á lausn í fyrirtækjarekstri er lykillinn að því að reka hagkvæmt fyrirtæki. Business Central gerir fyrirtækjum kleift að einfalda viðskiptaferla og einnig að fylgja auknum reglugerðum og skýrslukröfum á áreiðanlegan og hagkvæman hátt.
+Í þessari grein er að finna upplýsingar um hvernig  [!INCLUDE [prod_short](../includes/prod_short.md)]  yfirvöld fyrirtæki geta straumlínulega viðskiptaferla á meðan stöðugt og kostnaðarlega er kveðið á um vaxandi regluverk og skýrslugerð.
 
 ## Gagnavernd
 
-Business Central styður framtak í gagnavernd á borð við almennu persónuverndarreglugerðina sem tók gildi 25. maí 2018. Lestu meira um [Business Central styður almennu persónuverndarreglugerðina](../admin-responding-to-requests-about-personal-data.md).  
+[!INCLUDE [prod_short](../includes/prod_short.md)] styður gögn persónuverndarlaga og reglugerða. [Nánar um hvernig bregðast skuli við gagnaefnisbeiðnum á Viðskiptamiðinu](../admin-responding-to-requests-about-personal-data.md).
 
-Ef þú ert þróunaraðili fyrir Business Central-viðbætur þarftu að vita um flokkun gagna. Frekari upplýsingar eru á [þessari síðu](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
-Ef þú vilt kynna þér betur almennu persónuverndarreglugerðina í víðara samhengi Dynamics 365 skaltu skoða [þennan lista yfir rannsóknarskýrslur](/dynamics365/get-started/gdpr/).
+Ef þú færð  [!INCLUDE [prod_short](../includes/prod_short.md)]  viðauka þarftu að vita  [hvernig gögn eru flokkuð í Dynamics 365](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+
+[Frekari upplýsingar um gagnanæði í Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## Bókhaldsferli og stýringar til að stuðla að reglufylgni
 
@@ -36,7 +35,7 @@ Reglufylgni veltur ekki einungis á nákvæmum upplýsingum og viðeigandi bókh
 
 ## Gera sér grein fyrir ávinningi af samþættri lausn í fyrirtækjarekstri
 
-Business Central býður upp á samþættingu á rekstrar- og fjárhagsupplýsingum í rauntíma í öllu fyrirtækinu þínu svo hægt sé að:
+[!INCLUDE [prod_short](../includes/prod_short.md)] skila rauntíma, samþættum rekstrarlegum og fjárhagslegum upplýsingum frá þvert á fyrirtækið svo þú getir:
 
 - Fylgjast með fjárhagsgögnum með sérsniðnum fjárhagsskýrslum fyrir sjóðstreymi, tekjur, efnahagsreikninga, eignir, fjármagnsskipan, afkastavísa og fleira.
 - Hjálpa til við að tryggja nákvæmni með öryggi sem byggir á hlutverki og stillanlegum forritastýringum sem koma í veg fyrir ógilda eða tvítekna gagnaskráningu.
@@ -45,7 +44,7 @@ Business Central býður upp á samþættingu á rekstrar- og fjárhagsupplýsin
 
 ## Fá stjórn á mikilvægum upplýsingum, ferlum og skýrslum
 
-Business Central bætir stjórn á lykilaðgerðum og upplýsingum sem eru mikilvægar fyrir árangursríkan rekstur fyrirtækisins.
+[!INCLUDE [prod_short](../includes/prod_short.md)] bætum stjórn á lykilstörfum og upplýsum gagnrýninn á árangursríkan fjárhagslegan rekstur fyrirtækisins.
 
 ### Stjórna reglufylgni við staðla sem skipta máli
 
@@ -90,7 +89,7 @@ Microsoft býr til staðbundnar útgáfur af Business Central fyrir takmarkaðan
 
 > [!NOTE]  
 > **IAS/IFRS: Staðlar fyrir skráningu og mat**  
-> Miðað við núverandi staðbundnar reikningsskilavenjur eru ein af helstu breytingunum á skráningu og mati fyrir IAS/IFRS er frekari notkun á reglum gangvirðis í stað sögulegs kostnaðar. Business Central getur hjálpað fyrirtækjum að reikna út hugmyndir um gangvirði og núvirði (NPV) þar sem lögð er áhersla á núverandi og væntanlegt sjóðstreymi frekar en sögulegt innkaupaverða. Skýrslugerðarmegin getur það boðið upp á starfsþáttaskýrslu eftir fyrirtækiseiningu og landfræðilegri staðsetningu.
+> Miðað við núverandi staðbundnar reikningsskilavenjur eru ein af helstu breytingunum á skráningu og mati fyrir IAS/IFRS er frekari notkun á reglum gangvirðis í stað sögulegs kostnaðar. [!INCLUDE [prod_short](../includes/prod_short.md)] geta hjálpað fyrirtækjum að reikna út gangvirði og nettónúvirðisstrauma (NPV) hugtök, sem beinast að núverandi og vænlegum fjárstreymistreynum frekar en sögulegu innkaupaverði. Skýrslugerðarmegin getur það boðið upp á starfsþáttaskýrslu eftir fyrirtækiseiningu og landfræðilegri staðsetningu.
 
 > [!NOTE]  
 > **Basel II: Áhrif skýrslugerðar og greiningar**  

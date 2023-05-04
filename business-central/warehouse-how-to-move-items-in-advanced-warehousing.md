@@ -30,7 +30,7 @@ Hvernig vörur eru færðar fer eftir því hvernig vöruhúsið er sett upp sem
 * Frágangur á innri frágangi vöruhúss
 * Endurflokkunarbók vöruhúss
 
- **Vinnublaðsíðurnar hreyfing**,  **Innanhússtínsla** og   **leirflissíur**  í innanhússfrágangi virka á svipaðan hátt. Notið síðurnar til að undirbúa vöruhúsaaðgerðir fyrir vöruhúsastarfsmenn. Munurinn er í ítarlegri virkni sem tengist hverri síðu og mismunandi gerðum vöruhúsaaðgerða sem eru líklega framkvæmdar af mismunandi starfsmönnum:
+ **Vinnublaðsíðurnar hreyfing**,  **Innanhússtínsla** vöruhúss og   **Innanhússfrágangur**  vöruhúss virka á sama hátt. Notið síðurnar til að undirbúa vöruhúsaaðgerðir fyrir vöruhúsastarfsmenn. Munurinn er í ítarlegri virkni sem tengist hverri síðu og mismunandi gerðum vöruhúsaaðgerða sem eru líklega framkvæmdar af mismunandi starfsmönnum:
 
 * Hreyflaverkstæði leyfir að fyllt sé út hólf háflokkunar með vörum úr öðrum hólfum
 * Frágangur nota sniðmát

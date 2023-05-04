@@ -2,16 +2,13 @@
 title: Yfirlit yfir reglufylgni
 description: Yfirlit yfir Business Central-virkni er byggt á verkvangi sem gerir það auðvelt fyrir viðskiptavini að fara eftir reglufylgni og regluverki.
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.reviewer: edupont
-ms.date: 06/14/2021
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Yfirlit yfir reglufylgni
 
 Þetta efni inniheldur upplýsingar um reglufylgni í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)].  
@@ -22,7 +19,7 @@ Reglufylgni er efnisatriði sem vekur sífellt meiri áhuga og í gegnum þróun
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Lærðu um reglufylgni út frá forriti, eins og almennu persónuverndarreglugerðina og alþjóðlega reikningsskilastaðla og fleiri.|[Reglufylgni forrits](compliance-application-compliance.md)|  
+|Læri um samræmi frá sjónarhóli hugbúnaðar, s.s. gagnanæði, alþjóðleg Reikningsskilastaðlar og fleira.|[Reglufylgni forrits](compliance-application-compliance.md)|  
 |Kynntu þér reglufylgni á þjónustustigi og aðferðirnar sem eru notaðar á verkvangi til að tryggja Business Central bestu reglufylgniþjónustu í sínum flokki.|[Reglufylgni þjónustu](compliance-service-compliance.md)|  
 |Sjá upplýsingar um mismunandi vottanir sem tengjast Business Central. Hér finnur þú upplýsingar um almennar vottanir og landsbundnar vottanir.|[Vottanir](compliance-certifications.md)|  
 |Kynntu þér skilmála þjónustustigssamnings og aðra þjónustuskilmála|[Þjónustuskilmálar](compliance-service-compliance.md#service-terms)|  

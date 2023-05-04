@@ -40,7 +40,7 @@ Vörurakningarkóti endurspeglar ýmis íhugunarefni fyrirtækis varðandi notku
 Þar sem þessi ákveðni uppsetningarreitur nær til allra mögulegra færslna varðandi vöruna verða einstakir inn-/útleiðarreitir einnig valdir. Þó hefur sérhver inn- og útleiðarreitur ekkert með jöfnun þvert á birgðir að gera - þeir eru aðeins til skilgreiningar á verkflæði í fyrirtækinu og hafa með það að gera hvenær á að úthluta vörurakningarnúmerum.  
 
 > [!NOTE]  
->  Til að úthluta vörurakningarnúmerum í vöruhúsaaðgerðum þarf að velja reitina **RN vöruhúsarakning** og **Lotuvöruhúsarakning** á vörurakningarkóðaspjaldi vörunnar.  
+> Til að úthluta vörurakningarnúmerum í vöruhúsaaðgerðum þarf að velja reitina **RN vöruhúsarakning** og **Lotuvöruhúsarakning** á vörurakningarkóðaspjaldi vörunnar.  
 
 ## Uppsetning gildistíma fyrir rað- og lotunúmer
 
@@ -78,6 +78,36 @@ Til að virkja vörurakningu þarftu fyrst að úthluta rakningarkóðum vöru �
 2. Veljið fyrirliggjandi vöru af listanum og opnið síðuna **Vörukort**.  
 3. Á flýtiflipanum **Vörurakning** skal úthluta viðeigandi vörurakningarkóðum og velja **Vörurakningarkóði**, **Raðnúmerin** og **Lotunúmerin**.
     1. Einnig er hægt að búa til nýjan vörurakningarkóða með því að velja aðgerðina **Nýtt**.
+
+## Tilgreina opnunarstöður fyrir vörurnar sem fylgst er með
+
+Hægt er að stofna opnunarstöður fyrir vörurnar sem fylgst er með. Þar sem hægt er að velja mismunandi vöruhúsafbrigðum eru tveir Valkostir:
+
+* Virkja tilteknar keyrslur á  **síðunni vörubók**  til að leyfa fólki að færa inn rað-, Lot-og pakkagögn beint í færslubókarlínurnar.
+* Fyrir staðsetningar þar sem  **beinn frágangur og tínsla**  er kveikt, skal nota  **síðuna raunbirgðabókarsíða**  vöruhúss til að gera allar vörurakningarsvæðin tiltæk. Svæðin sem eru tiltæk  **eru með reitina Ábyrgðardagsetning**  og  **·**  Lokadagsetning.
+
+### Birgðabækur 
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðabækur** og velja síðan viðkomandi tengil.
+2. Reiturinn Name  **er**  valinn til að opna lista yfir birgðabókarkeyrslur.
+3. Velja  **skal nýtt**  til að stofna nýja runu og kveikja síðan á  **vörurakningu í línum** .
+4. Valið  **er í lagi**  til að velja rununnar sem var stofnuð.
+5. Reitirnir í birgðabókarlínunni eru fylltir út eftir þörfum. Athugið að  **Lotunr.**,  **raðnr.**,  **Gildistími**,  **Ábyrgðardagsetning** og  **pakki nr**. Svæðin eru tiltæk (ef aðgerðin er gerð virk).
+6. Velja skal  **aðgerðina Bóka**  til að leiðrétta birgðir.
+
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] tekur nokkrar minni háttar villuleit þegar gögn eru færð inn eða flutt inn. Ítarlegri könnun gerist þegar gögn eru  **bókuð eða flutt í Vörupöntunarglugga í gluggann** Vörurakning. Það síðarnefnda gerist sjálfkrafa þegar glugginn  **Vörurakning er opnaður**  úr birgðabókarlínu eða ef valið  **er aðgerðin uppfæra Vörurakningarlínur** .
+
+### Raunbirgðabók vöruhúss fyrir staðsetningar þar sem beinar tínsla og frágangur er kveikt  
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **Raunbirgðabók** vöruhúss og velja síðan tengda tengilinn.
+2. Reitirnir í birgðabókarlínunni eru fylltir út eftir þörfum. Athugið að  **Lotunr.**,  **raðnr.**,  **Gildistími**,  **Ábyrgðardagsetning** og  **pakki nr**. Svæðin eru tiltæk (ef aðgerðin er gerð virk).
+3. Velja skal  **aðgerðina skrá**  til að gera birgðaleiðréttingar. Þú þarft að samstilla leiðréttar vöruhúsafærslur við tengdar birgðafærslur. Til að fá frekari upplýsingar er farið að  [Samstilla leiðréttar vöruhúsafærslur](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+Fyrir fjöldainnflutning skal nota skilgreiningarpakka til að flytja inn gögn í færslubækur.
+
+> [!NOTE]
+> Ekki er hægt að nota  **Edit í Excel**  til að stofna færslubókarlínur með rakningarupplýsingum.
 
 ## Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
 
