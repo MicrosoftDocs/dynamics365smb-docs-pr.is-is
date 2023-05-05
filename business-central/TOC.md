@@ -345,6 +345,18 @@
 #### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
 
+### Stjórna VSK
+#### [VSK-stjórnunaryfirlit](finance-manage-vat.md)
+#### Setja upp VSK
+##### [Setja upp virðisaukaskatt](finance-setup-vat.md)
+##### [Uppsetning bókunarflokks](finance-posting-groups.md#tax-posting-groups)
+##### [Setja upp óinnleystan virðisaukaskatt](finance-setup-unrealized-vat.md)
+##### [Uppsetning VSK-yfirlits](finance-how-setup-vat-statement.md)
+#### [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)
+#### [Skila inn VSK-skýrslum til skattayfirvalda](finance-how-report-vat.md)
+#### [Stjórnun breytinga á VSK-hlutfalli](finance-how-use-vat-rate-change-tool.md)
+#### [Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md)
+
 ### Reikningsfærsla fyrirframgreiðslna
 #### [Yfirlit fyrirframgreiðslna](finance-invoice-prepayments.md)
 #### [Uppsetning fyrirframgreiðslu](finance-set-up-prepayments.md)
@@ -1827,34 +1839,39 @@
 ## [Hefjast handa með fylgiskjöl þróunar og stjórnunar](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Verkefni stjórnenda í Business Central
 ### [Verkefni stjórnenda](admin-setup-and-administration.md)
-### [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
-### [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)
-### Aðgangur með Microsoft 365 leyfum
-#### [Yfirlit](admin-access-with-m365-license.md)
-#### [Setja upp aðgang með Microsoft 365 leyfum](admin-access-with-m365-license-setup.md)
-#### [Aðgangsflæði notanda](admin-access-with-m365-license-flow.md)
-#### [ALGENGAR SPURNINGAR](admin-access-with-m365-license-faq.md)
-#### [Úrræðaleit](admin-access-with-m365-license-troubleshooting.md) 
-### [Vinna með forstillingar](admin-users-profiles-roles.md)
-### [Stjórna notendastillingum og kjörstillingum](admin-manage-user-settings-preferences.md)
+### Stjórna aðgangi að Business Central
+#### [Yfirlit](admin-access-overview.md)
+#### Aðgangur með Microsoft 365-leyfum
+##### [Yfirlit](admin-access-with-m365-license.md)
+##### [Setja upp aðgang með Microsoft 365-leyfum](admin-access-with-m365-license-setup.md)
+##### [Aðgangsflæði notanda](admin-access-with-m365-license-flow.md)
+##### [Algengar spurningar](admin-access-with-m365-license-faq.md)
+##### [Úrræðaleit](admin-access-with-m365-license-troubleshooting.md) 
+#### Veita notanda heimildir
+##### [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
+##### [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)
+### Stjórna notendastillingum
+#### [Vinna með forstillingar](admin-users-profiles-roles.md)
+#### [Stjórna notendastillingum og kjörstillingum](admin-manage-user-settings-preferences.md)
+### Stjórn á gögnum notanda
+#### [Flokka gagnatrúnað](admin-classifying-data-sensitivity.md)
+#### [Svara beiðnum um persónuupplýsingar](admin-responding-to-requests-about-personal-data.md)
+#### [Breytingar á kladda](across-log-changes.md)
+#### [Stjórna geymslu með því að þjappa gögnum eða eyða skjölum](admin-manage-documents.md)
+#### [Safnvista gögnum](admin-archive-data.md)
+#### [Skilgreina gagnavarðveislureglur](admin-data-retention-policies.md)
+#### [Stjórna dulritun gagna](admin-manage-data-encryption.md)
+#### [Skoða gagnagrunnslása](admin-view-database-locks.md)
 ### [Setja upp prentara](ui-specify-printer-selection-reports.md)
-### [Flokka gagnatrúnað](admin-classifying-data-sensitivity.md)
 ### [Staða persónuverndaryfirlýsinga](privacy-notices-status.md)
-### [Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md)
 ### [Stofna ný fyrirtæki](about-new-company.md)
-### [Breyta annálaskrá](across-log-changes.md)
 ### [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)
-### [Stjórna geymslu með því að þjappa gögnum eða eyða skjölum](admin-manage-documents.md)
-### [Safnvista gögnum](admin-archive-data.md)
-### [Skilgreina varðveislureglur](admin-data-retention-policies.md)
 ### [Birta vefþjónustu](across-how-publish-web-service.md)
 ### [Grunnstilla API-sniðmát](admin-configuring-api-template.md)
-### [Stjórna gagnadulritun](admin-manage-data-encryption.md)
 ### [Framlenging á prufuútgáfu](admin-extend-trial.md)
-### [Skoða síður](across-inspect-page.md)
-### [Skoða gagnagrunnslása](admin-view-database-locks.md)
+### [Kanna síður](across-inspect-page.md)
 ### [Skoða töfluupplýsingar](admin-view-table-information.md)
-### [Virkja væntanlegra eiginleika fyrir tíma](admin-feature-management.md)
+### [Virkja nýja eiginleika snemma](admin-feature-management.md)
 ### [Innleiða notendur með gátlistum](admin-checklist.md)
 ### [Sandkassaumhverfi](admin-sandbox-environments.md)
 ## Sérstilla Business Central
