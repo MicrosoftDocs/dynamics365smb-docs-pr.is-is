@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 99000823
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Bóka úrkast handvirkt
@@ -24,6 +24,8 @@ Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í af
 3. Úrkastsmagnið er fært í reitinn **Úrkastsmagn**.  
 4. Úrkastskótinn er færður inn í reitinn **Úrkastskóti**.  
 5. Velja **bóka** aðgerðina til að bóka sérstakt úrkast á aðgerð.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
 ## Sjá einnig
 

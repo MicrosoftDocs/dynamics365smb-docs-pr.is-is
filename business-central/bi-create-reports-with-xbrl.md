@@ -90,8 +90,12 @@ Fyrsta skrefið þegar beita á XBLR-aðgerðum er að flytja inn flokkun í gag
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **XBRL-flokkanir** og velja síðan viðkomandi tengil.  
 2. Á síðunni **XBRL flokkanir** er búin til ný lína og heiti og lýsing flokkunarinnar færð inn.  
 3. Velja skal aðgerðina **Skemu** og síðan færa inn lýsinguna á skemanum.  
-4. Skema er flutt inn með því að fara á síðuna **XBRL-grindur**, velja þar aðgerðina **Flytja inn** og velja síðan möppu og XSD-skrá. Velja **Opna**.  
-5. Tenglagrunnur er fluttur inn með því að fara á síðuna **XBRL-grindur**, velja aðgerðina **Tenglagrunnar** og velja síðan möppu og XML-skrá. Velja **Opna**.  
+4. Ef flytja á skemað inn, á  **XBRL-skemanu**  síðan, skal velja  **aðgerðina Flytja**, og gera síðan eftirfarandi til að senda skrána:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. Ef flytja á tenglagrunninn á  **síðunni XBRL-skemill**  skal velja  **tenglagrunnaðgerðina**  og gera eina af eftirfarandi skrefum til að senda skrána:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. Nú er hægt að tengja tenglagrunninn skemanu. Þetta er endurtekið þar til búið er að flytja inn alla tenglagrunnana.  
 7. Velja aðgerðina **Jafna í flokkun** til að tengja tenglagrunninn við skemað.  
 

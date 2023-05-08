@@ -2,19 +2,17 @@
 title: Sérstilling Business Central og Dataverse
 description: Kynntu þér hvernig á að samstilla gögn milli Business Central og Dataverse.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'sales, crm, integration, sync, synchronize'
-ms.date: 06/14/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
 # Áætla samstillingu milli Business Central og Dataverse
 
-
-Hægt er að samstilla [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)] með áætluðu millibili með því að setja upp verk í verkröðinni. Samstillingarverkin samstilla gögn í [!INCLUDE[prod_short](includes/prod_short.md)] færslum og [!INCLUDE[cds_long_md](includes/cds_long_md.md)] færslum sem hafa þegar verið tengdar. Eða fyrir færslur sem eru ekki þegar tengdar, allt eftir stefnu samstillingar og reglum, geta samstillingarverk stofnað og tengd nýjar færslur í lendingarkerfinu. 
+Hægt er að samstilla [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)] með áætluðu millibili með því að setja upp verk í verkröðinni. Samstillingarvinnslur samstilla gögn í  [!INCLUDE[prod_short](includes/prod_short.md)]  færslum og  [!INCLUDE[cds_long_md](includes/cds_long_md.md)]  færslum sem eru samkeyrðar. Fyrir færslur sem eru ekki þegar í samræmi við stefnu og reglur er hægt að stofna samstillingarvinnslur og nokkrar nýjar færslur í viðtökukerfinu.
 
 Nokkur samstillingarverk eru í boði beint úr kassanum. Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenginga milli taflanna. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
@@ -26,7 +24,7 @@ Nokkur samstillingarverk eru í boði beint úr kassanum. Verkin eru keyrð í e
 
 Hægt er að skoða verkin á síðunni **Verkraðarfærslur**. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
-## Sjálfgefnar Verkraðarfærslur samstillingar
+## Sjálfgefnar færslur vinnsluraðar vinnslu
 
 Eftirfarandi tafla lýsir sjálfgefnu samstillingarverkunum fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -44,12 +42,12 @@ Hvert verkraðarfærsla samstillingarverks notar sértæka vörpun samþættinga
 
 Til að samstilla gögn verða [!INCLUDE[cds_long_md](includes/cds_long_md.md)] töflur að vera tengdar við [!INCLUDE[prod_short](includes/prod_short.md)] færslur. Til dæmis verður [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamaður að vera tengdur við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] reikning. Þú getur sett upp tengi handvirkt, áður en samstillingarverk eru keyrð, eða láta samstillingu störf setja upp tengi sjálfkrafa. Eftirfarandi listi lýsir því hvernig gögn eru samstillt milli [!INCLUDE[cds_long_md](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] og þegar þú ert að nota verkraðarfærslur samstillingarverka. Frekari upplýsingar er að finna í [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- **Samstilla aðeins tengdar færslur** gátreiturinn stjórnar því hvort nýjar færslur séu stofnaðar þegar þú samstillir. Sjálfgefið er að gátreiturinn sé valinn, sem merkir að aðeins færslur sem eru tengdar eru samstilltar. Í vörpun samþættingartöflu getur þú breytt töfluvörpun á milli [!INCLUDE[cds_long_md](includes/cds_long_md.md)] töflu og [!INCLUDE[prod_short](includes/prod_short.md)] töflu þannig að heildasamstillingarverkin stofni nýjar færslur í endanlegum gagnagrunni fyrir hverja línu í upprunagagnagrunninum sem ekki var tengd. Frekari upplýsingar eru í [Stofna nýjar færslur](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- **Samstilla aðeins tengdar færslur** gátreiturinn stjórnar því hvort nýjar færslur séu stofnaðar þegar þú samstillir. Sjálfgefið er að gátreiturinn sé valinn, sem merkir að aðeins færslur sem eru tengdar eru samstilltar. Í vörpun samþættingartöflu getur þú breytt töfluvörpun á milli [!INCLUDE[cds_long_md](includes/cds_long_md.md)] töflu og [!INCLUDE[prod_short](includes/prod_short.md)] töflu þannig að heildasamstillingarverkin stofni nýjar færslur í endanlegum gagnagrunni fyrir hverja línu í upprunagagnagrunninum sem ekki var tengd. Frekari upplýsingar er að finna  [í stofnun nýrrar skráningar](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
     **Dæmi** Ef þú hreinsar  gátreitinn **Samstilla aðeins tengdar færslur**, þegar þú samstillir viðskiptamenn[!INCLUDE[prod_short](includes/prod_short.md)] með reikninga í [!INCLUDE[cds_long_md](includes/cds_long_md.md)], er nýr reikningur búinn til hvern viðskiptamann [!INCLUDE[prod_short](includes/prod_short.md)] og hann tengdur sjálfkrafa. Auk þessa, þar sem samstilling í þessu tilfelli er tvíátta, er nýr viðskiptamaður búinn til og tengdur fyrir hvern [!INCLUDE[cds_long_md](includes/cds_long_md.md)] reikning sem er ekki þegar tengdur.  
 
     > [!NOTE]  
-    > Til eru reglur og afmarkanir sem ákvarða hvaða gögn eru samstillt. Frekari upplýsingar eru í [Samstillingarreglur](admin-synchronizing-business-central-and-sales.md).
+    > Til eru reglur og afmarkanir sem ákvarða hvaða gögn eru samstillt. Frekari upplýsingar er að fara í  [samstillingarreglur](admin-synchronizing-business-central-and-sales.md).
 
 - Þegar nýjar færslur eru stofnaðar í [!INCLUDE[prod_short](includes/prod_short.md)], nota þær annaðhvort sniðmát sem er skilgreint fyrir vörpun samþættingartöflunnar eða sjálfgefna sniðmátið sem tiltækt er fyrir línugerðina. Reitirnir eru fylltir með gögnum úr [!INCLUDE[prod_short](includes/prod_short.md)] eða [!INCLUDE[cds_long_md](includes/cds_long_md.md)], fer eftir samstillingaráttinni. Frekari upplýsingar er að finna í [Breyta töfluvörpunum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -59,7 +57,8 @@ Til að samstilla gögn verða [!INCLUDE[cds_long_md](includes/cds_long_md.md)] 
 
 - Við tvíátta samstillingu er verkið samstillt frá [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[cds_long_md](includes/cds_long_md.md)], og því næst frá [!INCLUDE[cds_long_md](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Um tímalokun vegna aðgerðaleysis
+## Um tímafrekari tímalóvirkni
+
 Í sumum verkraðarfærslum, eins og þeim sem tímasetja samstillingu á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)], skaltu nota reitinn **Tímalokun** á SÍÐU verkraðarfærslu til að koma í veg fyrir að verkraðarfærslan sé í gangi að óþörfu.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Flæðirit fyrir verkraðarfærslur sem eru settar í bið vegna óvirkni.":::
@@ -88,7 +87,7 @@ Til dæmis er sjálfgefið að GJALDMIÐILL verkraðarfærsla, sem samstillir gj
 
 - Veldu :::image type="icon" source="media/ui-search/search_small.png" border="false"::: táknið, sláðu inn **Villur í samstillingu samþættingar** og veldu síðan tengda tengilinn.
 
-## Sjá einnig
+## Sjá einnig .
 
 [Samstilling gagna í Business Central og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)  
