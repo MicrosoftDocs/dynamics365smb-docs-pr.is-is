@@ -60,6 +60,8 @@ Ef nota á SMTP-samskiptaregluna til að senda tölvupósta úr [!INCLUDE[prod_s
 >
 > Exchange Online er sviptingu nota grunnsannvottun fyrir SMPT. Leigjendur sem eru nú með SMTP AUTH munu ekki hafa áhrif á þessa breytingu. Hins vegar mælum við eindregið með nýjustu útgáfunni af og Uppsetning á  [!INCLUDE [prod_short](includes/prod_short.md)]  OAuth 2,0 sannvottun fyrir SMTP. Við bætum vottunargrundvelli ekki við eldri útgáfur  [!INCLUDE [prod_short](includes/prod_short.md)], t.d. útgáfu 14. Ef þú getur ekki sett upp OAuth 2,0 auðkenningu, hvetjum við þig til að kanna val þriðja aðila ef þú vilt nota SMTP email í eldri útgáfum.
 
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
 ## Bæta tölvupóstreikningum við
 
 Uppsetningarleiðbeiningarnar **Setja upp tölvupóst** með hjálp geta komið þér af stað með tölvupósta.
