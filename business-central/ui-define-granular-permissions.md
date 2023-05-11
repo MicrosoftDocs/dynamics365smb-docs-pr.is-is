@@ -26,16 +26,16 @@ ms.date: 02/08/2023
 
 - Ítarlegar heimildir sem þú úthlutar í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Í greininni er lýst hvernig skilgreina á, nota og beita heimildum í  [!INCLUDE [prod_short](includes/prod_short.md)]  til að breyta sjálfgefnu samskipanin.  
+Þessi grein lýsir hvernig á að skilgreina, nota og nota heimildir til [!INCLUDE [prod_short](includes/prod_short.md)] að breyta sjálfgefnum stillingum.  
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
 Frekari upplýsingar eru í [Úthlutaður stjórnendaaðgangur að Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] á netinu felur í sér sjálfgefna notendahópa sem eru úthlutað til notenda sjálfkrafa byggt á heimildum þeirra. Hægt er að breyta sjálfgefnu skilgreiningunni með því að breyta eða bæta við öryggisflokkum, heimildastæðum og heimildum. Eftirfarandi tafla sýnir helstu sviðsmyndir til að breyta sjálfgefnum heimildum.  
+[!INCLUDE [prod_short](includes/prod_short.md)] á netinu felur í sér sjálfgefna notendahópa sem eru úthlutað til notenda sjálfkrafa byggt á heimildum þeirra. Hægt er að breyta sjálfgefinni skilgreiningu með því að breyta eða bæta við öryggisflokkum, heimildasamstæðum og heimildum. Eftirfarandi tafla sýnir helstu sviðsmyndir til að breyta sjálfgefnum heimildum.  
 
 |Til  |Sjá  |
 |---------|---------|
-|Til að auðvelda stjórnun á heimildum margra notenda er hægt að skipuleggja þær í öryggisflokkum og úthluta þeim eða breyta einum heimildamengi fyrir marga notendur í einni aðgerð.| [Að stjórna heimildum í gegnum notendaflokka](#to-manage-permissions-through-user-groups) |
+|Til að auðvelda stjórnun heimilda fyrir marga notendur er hægt að raða þeim í öryggisflokka og síðan úthluta eða breyta einni heimildasamstæðu fyrir marga notendur í einni aðgerð.| [Að stjórna heimildum í gegnum notendaflokka](#to-manage-permissions-through-user-groups) |
 |Til að hafa umsjón með heimildasamstæðum fyrir tiltekna notendur | [Til að úthluta heimildasamstæðu á notendur](#to-assign-permission-sets-to-users) |
 |Til að læra að skilgreina heimildasamstæðu|[Til að búa til heimildasamstæðu](#to-create-a-permission-set)|
 |Til að skoða eða leita úrræða fyrir heimildir notanda|[Fá yfirlit yfir heimildir notanda](#to-get-an-overview-of-a-users-permissions)|
@@ -51,7 +51,7 @@ Frekari upplýsingar eru í [Úthlutaður stjórnendaaðgangur að Business Cent
 > [!NOTE]
 > Árið 2022 á útgáfutímabili 2 gerðum við auðveldara að bæta heimildum við heimildasamstæður. Í stað þess að bæta við heimildum fyrir sig er hægt að bæta við heilum heimildasamstæðum. Ef þörf er á er svo hægt að útiloka einstakar heimildir í þeim. Fyrir frekari upplýsingar sjá [Til að bæta við öðrum heimildasamstæðum](#to-add-other-permission-sets). Til að gera það mögulegt höfum við skipt út síðu heimildasamstæðna fyrir nýja. Helsti munurinn eru nýju **Heimildasamstæðurnar** og glugginn **Niðurstöður** og upplýsingareiturinn **Innifaldar heimildir**. Til að halda áfram að nota Heimildarsíðuna sem var skipt út á síðunni **Heimildasamstæður**, skaltu velja aðgerðina **Heimildir (eldra efni)**.
 
-Einnig er auðveldara að sinna viðhaldi. Þegar kerfisleyfi er bætt við uppfærist notandaskilgreind heimildauppsetning sjálfkrafa með öllum breytingum sem Microsoft gerir á heimildum.
+Einnig er auðveldara að sinna viðhaldi. Þegar kerfisheimild er bætt við mun notendaskilgreind heimildasamstæða þín verða sjálfkrafa uppfærð með öllum breytingum sem Microsoft gerir á þessum heimildum.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Heimildasamstæður** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
@@ -76,7 +76,7 @@ Einnig er auðveldara að sinna viðhaldi. Þegar kerfisleyfi er bætt við uppf
   |**Minnka í óbeint**|Breyta aðgangsstigi í Óbeint ef einhverjar heimildasamstæður veita Beinan aðgang að hlutnum. Til dæmis, veldu þennan valkost ef heimildarsamstæðan gefur þér beinan aðgang að fjárhagsfærslum en þú vilt ekki að notendur hafi fullan aðgang að færslunum.|
   
   > [!NOTE]
-  > Ef heimild er bæði fyrir með og útilokuð er heimildin undanskilin.
+  > Ef heimild er í heimildasamstæðu sem er innifalin, og er einnig í heimildasamstæðu sem er undanskilin, verður heimildin undanskilin.
 
 6. Notaðu reitina **Tegund hlutar** og **Kenni hlutar** til að tilgreina hlutinn sem þú veitir aðgang að.
 
@@ -105,16 +105,15 @@ Stækkaðu heimildasamstæðu með því að bæta öðrum heimildasamstæðum v
 
 Til að fá heildaryfirsýn yfir heimildir í heimildasamstæðu skal velja aðgerðina **Skoða allar heimildir**. Síðan **Útvíkkaðar heimildir** sýnir allar heimildir sem þegar hefur verið úthlutað í heimildasamstæðunni og heimildirnar í viðbættu heimildasamstæðunum.
 
-Ef undanskilja á allar heimildir frá heimildarsafni  **í niðurstöðurúðunni**  skal velja línuna, velja  **Sýna fleiri valkosti** og velja  **síðan útiloka**. Þegar þú undanskilur heimildasamstæðu er búin til lína í glugganum **Heimildasamstæður** af gerðinni Útilokað. Ef þú hefur útilokað heimildasamstæðu en vilt láta það fylgja með aftur, skaltu eyða línunni í glugganum **Heimildasamstæður**.
+Til að útiloka allar heimildir að fullu frá heimildasamstæðu **skal velja línuna á rúðunni**, velja Sýna fleiri valkosti **og velja** **svo Útiloka**. Þegar þú undanskilur heimildasamstæðu er búin til lína í glugganum **Heimildasamstæður** af gerðinni Útilokað. Ef þú hefur útilokað heimildasamstæðu en vilt láta það fylgja með aftur, skaltu eyða línunni í glugganum **Heimildasamstæður**.
 
-Til að útiloka að fullu eða að hluta tiltekna heimildir í samstæðu sem þú hefur bætt við skaltu búa til línu fyrir hlutinn fyrir neðan **Heimildir**. Aðgangsstig svæðin, setja inn heimild, breyta heimild og þess háttar, munu öll innihalda  **útiloka**. Veljið viðeigandi valkost til að leyfa tiltekið aðgangsstig.
+Til að útiloka að fullu eða að hluta tiltekna heimildir í samstæðu sem þú hefur bætt við skaltu búa til línu fyrir hlutinn fyrir neðan **Heimildir**. Aðgangsstigssvæðin, Setja inn heimild, Breyta heimild, og svo framvegis, munu öll innihalda **Útiloka**. Veljið viðeigandi valkost til að leyfa tiltekið aðgangsstig.
 
-> [!NOTE]
-> Heimild sett útilokar allar heimildir í settinu. [!INCLUDE [prod_short](includes/prod_short.md)] reiknar út heimildir á eftirfarandi hátt:
+Að undanskildum heimildasamstæðu útilokar allar heimildir í safninu. [!INCLUDE [prod_short](includes/prod_short.md)] reiknar heimildir á eftirfarandi hátt:
 
-> 1. Reikna út heildarlista yfir innifaldar heimildir
-> 2. Reikna út heildarlista yfir útilokaðar heimildir
-> 3. Fjarlægja útilokaðar heimildir af listanum yfir innifaldar heimildir (að fjarlægja óbeina heimild er það sama og minnka við óbeina)
+1. Reiknaðu allan listann yfir meðfylgjandi heimildir
+2. Reiknaðu allan listann yfir útilokaðar heimildir
+3. Fjarlægja útilokaðar heimildir af listanum yfir meðfylgjandi heimildir (að fjarlægja óbeina heimild er það sama og Minnka í óbeint)
 
 ## Til að afrita heimildasamstæðu
 
@@ -143,8 +142,8 @@ Stofna skal nýja heimildasamstæðu með því að afrita annað. Nýja samstæ
 3. Fyllið í reitina eftir þörfum í nýrri línu.
 4. Veljið aðgerðina **Heimildir**.
 5. Á síðunni **Heimildir** skal velja aðgerðina **Skrá heimildir** og velja svo aðgerðina **Byrja**.  
-    Upptöku verður að gera annaðhvort með því að nota  **opna þessa síðu í nýjum gluggum**  (POP-Out) til að hafa  **heimildaskráningargluggann**  hlið við hlið, eða með því að vinna innan sama flipa.  
-    Upptökuferli hefst nú og tekur allar aðgerðirnar með sér inn í notendaviðmótið.
+    Skráning verður að fara fram annaðhvort með því að nota **Opna þessa síðu í nýjum gluggum**  (pop-out) til að hafa **heimildarupptökugluggann** hlið við hlið, eða með því að vinna innan sama flipa.  
+    Upptökuferli hefst nú og fangar allar aðgerðir þínar í notendaviðmótinu.
 6. Farðu á hinar ýmsu síður og aðgerðir í [!INCLUDE[prod_short](includes/prod_short.md)] sem þú vilt að notendur með þessa heimildasamstæðu fái aðgang að. Þú verður að ljúka verkinu sem ætlunin er að skrá heimildir fyrir.
 7. Þegar á að ljúka við skráningu er farið aftur á síðuna **Heimildir** og svo valið **Stöðva** aðgerðina.
 8. Velja **Já** hnappinn til að bæta skráð heimildir við nýja heimildasafnið.
@@ -175,7 +174,7 @@ Heimildasamstæðurnar eru fluttar inn.
 
 Á síðunni **Heimildasamstæður** skal velja aðgerðina **Fjarlægja úreltar heimildir**.
 
-## Uppsetning tímaskorta fyrir notendur
+## Uppsetning tímatakmarkana fyrir notendur
 
 Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað. Stjórnendur geta einnig tilgreint ef kerfið skráir hve mikinn tíma notendur eru skráðir inn. Á svipaðan hátt geta stjórnendur úthlutað ábyrgðarstöðvum á notendur. Frekari upplýsingar eru í [Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md).
 
