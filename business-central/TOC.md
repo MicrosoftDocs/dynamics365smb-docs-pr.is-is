@@ -350,9 +350,11 @@
 #### Setja upp VSK
 ##### [Setja upp virðisaukaskatt](finance-setup-vat.md)
 ##### [Uppsetning bókunarflokks](finance-posting-groups.md#tax-posting-groups)
+##### [Setja upp ófrádráttarbæran VSK](finance-setup-nondeductible-vat.md)
 ##### [Setja upp óinnleystan virðisaukaskatt](finance-setup-unrealized-vat.md)
 ##### [Uppsetning VSK-yfirlits](finance-how-setup-vat-statement.md)
 #### [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)
+#### [Nota ófrádráttarbæran VSK](finance-how-use-non-deductible-vat.md)
 #### [Skila inn VSK-skýrslum til skattayfirvalda](finance-how-report-vat.md)
 #### [Stjórnun breytinga á VSK-hlutfalli](finance-how-use-vat-rate-change-tool.md)
 #### [Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md)
