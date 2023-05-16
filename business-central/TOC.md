@@ -1,4 +1,5 @@
-# [Velkomin(n) í Business Central](index.md)  
+
+# [Velkomin(n) í Business Central](index.md)
 # [Nýtt og áætlað](product-news.md)
 # Leiðsögn
 ## [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)
