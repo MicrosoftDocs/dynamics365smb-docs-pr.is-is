@@ -4,7 +4,7 @@
       "docset_name": "d365businesscentral",
       "build_source_folder": "business-central",
       "build_output_subfolder": "d365businesscentral",
-      "locale": "is-IS",
+      "locale": "is-is",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": true,
@@ -36,7 +36,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.is-IS",
+      "url": "https://github.com/Microsoft/templates.docs.msft.is-is",
       "branch": "main",
       "branch_mapping": {}
     },
@@ -53,6 +53,12 @@
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "main",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "shared-content",
+      "url": "https://github.com/MicrosoftDocs/powerapps-docs-pr.is-is",
+      "branch": "live",
       "branch_mapping": {}
     }
   ],
