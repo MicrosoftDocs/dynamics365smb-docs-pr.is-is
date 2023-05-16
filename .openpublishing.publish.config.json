@@ -45,6 +45,12 @@
       "branch_mapping": {}
     },
     {
+      "path_to_root": "shared-content",
+      "url": "https://github.com/MicrosoftDocs/powerapps-docs-pr.is-is",
+      "branch": "live",
+      "branch_mapping": {}
+    },
+    {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/MicrosoftDocs/dynamics365smb-docs-pr",
       "branch": "live",
