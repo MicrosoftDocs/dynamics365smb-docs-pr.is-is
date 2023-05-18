@@ -1,6 +1,6 @@
 ---
 title: Skilgreina markaðstexta með AI-tilbúinni vöru (Forskoðun) með Copilot
-description: Í þessari grein er útskýrt hvernig á að fá Copilot Trial Version á Viðskiptamiðlægum og virkja Copilot á umhverfi
+description: Í þessari grein er útskýrt hvernig á að fá Copilot Trial Version af Business Central og virkja Copilot á umhverfi.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -24,22 +24,22 @@ Ef annarri hvorri þessara þarfa er ekki fullnægt verður aðgerðin ekki tilt
 
 Þú notar  [forskoðunarútgáfu](ai-preview-getstarted.md)  af Business Central sem er virkjaður fyrir Copilot. Virkjun Copilot er unnin af admin. Frekari upplýsingar er að fara í til að  [samskipa texta fyrir MARKAÐSSETNINGU AI-vara með Copilot](enable-ai.md).
 
-## Virkja eða slökkva á "Create AI-not vörulýsingum með Copilot" aðgerð
+## Gera stofnaðar vörulýsingar fyrir virka eða óvirka með Copilot
 
 1. Í Viðskiptamiðnum er að leita að og opna  **síðuna Feature Management** .
-2.  **Stilla aðgerðina fyrir**  Forskoðun eiginleika fyrir  **aðgerðir: Stofna vörulýsingar með copilot**  **fyrir alla notendur**  til að virkja eiginleikann eða  **·**  ekki til að gera hann óvirkan.
+2.  **Stilla aðgerðina fyrir**  **Forskoðun eiginleikann aðgerðir: stofna skal forknúinna vörulýsingar með copilot**  til  **allra notenda**  til að virkja eiginleikann eða  **ekkert**  til að gera hann óvirkan.
 
    Nánari upplýsingar um aðgangsstýringu Almennt er að fara í  [aðgangsstjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## Samþykkis að eða hafna forskoðunar-og friðlýsingarskilmálum og skilyrðum fyrir alla notendur
+## Samþykki til eða hafnar forskráningu og friðlýsingarskilmálum og skilyrðum fyrir því að allir notendur
 
 1. Í Viðskiptamiðstöðer að leita að og opna  **stöðusíðu**  persónuverndartilkynninga.
 2.  **Í dálkinum Samþætting heiti**  velurðu  **Azure openai** og Les svo skilmálana sem kynntir eru þér.
-3.  **Í Azure OpenAI**  röðinni er valið  **Samþykkja fyrir alla**  sem eru til samþykkis eða  **ósammála fyrir alla**  gátreit til að hafna.
+3.  **Í Azure OpenAI**  röðinni er verið að  **Velja Samþykkja fyrir alla**  gátreit til samþykkis eða  **ósammála fyrir alla**  gátreit til að hafna.
 
 ## Næstu skref
 
-Þegar aðgerðin er gerð virk og samþykkt er hún tilbúin til að reyna að opna Copilot á vörum í Viðskiptamiðinu. Fara í að  [Bæta markaðstexta við vörur](item-marketing-text.md).  
+Eftir að aðgerðin er gerð virk og samþykkt er hægt að prófa Copilot á vörum í Viðskiptamiðinu. Fara í að  [Bæta markaðstexta við vörur](item-marketing-text.md).  
 
 ## Sjá einnig .
 

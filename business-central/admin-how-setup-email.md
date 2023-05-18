@@ -232,13 +232,13 @@ Ef þú átt í vandræðum með að nota SMTP-samskiptareglu til að senda töl
 
 ### Tengjast  [!INCLUDE[prod_short](includes/prod_short.md)]  við App skráningu þína
 
-Þegar forritið hefur verið skráð í Azure-gáttina, í [!INCLUDE[prod_short](includes/prod_short.md)], skal nota uppsetningarleiðbeininguna **AAD-skráning tölvupóstforrits** með hjálp til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við það.
+Eftir að þú hefur skráð þína umsókn í Azure Portal, inn  [!INCLUDE[prod_short](includes/prod_short.md)], Notaðu  **þá skráningarsíðu**  tölvupóst umsókn aad til að tengjast  [!INCLUDE[prod_short](includes/prod_short.md)]  henni.
 
 1. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slærð inn **AAD-skráning póstforrits** og veldu síðan tengda tengilinn.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Annars, ef verið er að tengjast í fyrsta skipti, er hægt að keyra uppsetningarleiðbeininguna **Setja upp tölvupóst** með hjálp. Leiðarvísirinn þarf upplýsingarnar til að tengjast við forritsskráninguna. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Annars, ef verið er að tengjast í fyrsta skipti, er hægt að keyra uppsetningarleiðbeininguna **Setja upp tölvupóst** með hjálp. Í því tilviki skal leiðbeiningastöð heimilanna einnig innihalda skráningarsíðu AAD-forritsins til að bæta við upplýsingunum fyrir tengingu við App-skráninguna. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 

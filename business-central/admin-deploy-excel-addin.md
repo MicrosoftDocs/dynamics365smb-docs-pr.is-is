@@ -12,7 +12,7 @@ ms.author: jswymer
 ---
 # Sækja innbót Business Central fyrir Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur innbót fyrir Excel sem gerir notendum kleift að velja aðgerðina **Breyta í Excel** á ákveðnum síðum til að opna gögnin í Excel-vinnublaði. Þessi aðgerð er önnur en aðgerðin **Opna í Excel** vegna þess að hún gerir notendum kleift að gera breytingar í Excel, síðan birta breytingarnar aftur í [!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur innbót fyrir Excel sem gerir notendum kleift að velja aðgerðina **Breyta í Excel** á ákveðnum síðum til að opna gögnin í Excel-vinnublaði. Þessi aðgerð er önnur en  **opin í aðgerðinni Excel**  því hún lætur notendur gera breytingar í Excel, birta síðan breytingarnar aftur til [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## Yfirlit
 

@@ -7,12 +7,14 @@ ms.reviewer: bnielse
 ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
-ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
 ---
 # Unnið með samstæðuskjöl og færslubækur
 
-Milli-fyrirtækjaskjöl eða færslubækur eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga. Þegar MF-fylgiskjal eða færslubókarlína er bókuð í fyrirtækinu er samsvarandi skjal eða færslubókarlína stofnað í MF-Úthólfinu. Línan er flutt úr Úthólfinu til félaganna. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
+Milli-fyrirtækjaskjöl eða færslubækur eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga. Hægt er að bóka færslur á fjárhagsreikninga og ef settir hafa verið upp samstæðubankareikningar er einnig hægt að bóka færslur í banka. Til að fræðast meira um uppsetningu bankareikninga fyrirtækja er farið að  [Tilgreina bankareikninga til að nota fyrir samstæðufélaga](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
+
+Þegar MF-fylgiskjal eða færslubókarlína er bókuð í fyrirtækinu er samsvarandi skjal eða færslubókarlína stofnað í MF-Úthólfinu. Línan er flutt úr Úthólfinu til félaganna. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
 
 Fyrir sölu-og innkaupaskjöl tryggir MF-félagakótinn á viðskiptamanninum eða lánardrottninum að allar pantanir og reikningar vegna færslna á milli samstarfsaðila mynda samsvarandi skjöl í félagasamfyrirtækjunum. Reikningsskilastaðan rétt.
 

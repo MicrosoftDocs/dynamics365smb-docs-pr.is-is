@@ -99,6 +99,26 @@ Gengur úr skugga um að sannvottaður notandi geti tengst við uppgötvað umhv
 |Ekkert klasaaðsetur til að framkvæma þessa athugun fyrir|Skoða lista yfir tiltæk umhverfi í stjórnendamiðstöð Business Central.|
 |Endastöð útgáfu er ekki til|Skoða lista yfir tiltæk umhverfi í stjórnendamiðstöð Business Central.|
 
+## Tengigeta vefþjóns
+
+Athugar hvort að sannvottaður notandi geti komið á tengingum við vefþjóninn.
+
+|Vandamál|Það sem hægt er að prófa|
+|-------|-------------|
+|Enginn sannvottaður notandi til að framkvæma þessa athugun|Sjá **Athugun á sannvottun notanda**.|
+|Ekki tókst að sækja tiltæk umhverfi fyrir reikninginn.|Sjá **Uppgötvun um umhverfi Business Central**.|
+|Ekkert klasaaðsetur til að framkvæma þessa athugun fyrir|Skoða lista yfir tiltæk umhverfi í stjórnendamiðstöð Business Central.|
+|Ekki tókst að koma á tengingu við vefþjóninn|Hreinsa skyndiminnið og endurhlaða síðuna.|
+
+## Ástand þjónustu
+
+Skýrslur þjónustuheilbrigðisstaða Seðlabanka Íslands með athugun á lýstum faraldri.
+
+|Vandamál|Það sem hægt er að prófa|
+|-------|-------------|
+|Enginn sannvottaður notandi til að framkvæma þessa athugun|Sjá **Athugun á sannvottun notanda**.|
+|Því miður er rekstur miðsvæðis tímabundið ekki í boði. Reynið aftur síðar.|Reyndu aftur síðar.|
+
 ## Sjá einnig
 
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  

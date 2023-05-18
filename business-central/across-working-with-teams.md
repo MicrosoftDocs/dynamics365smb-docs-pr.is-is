@@ -2,13 +2,13 @@
 title: Deila Business Central Records í Microsoft Teams
 description: Fá upplýsingar um notkun Business Central fyrir Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.service: dynamics365-business-central
+ms.reviewer: jswymer
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records'
-ms.date: 09/22/2022
+ms.date: 16/18/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 
 # Deila færslum Business Central og síðutenglum í Microsoft Teams
@@ -68,17 +68,16 @@ Með forriti Business Central fyrir Teams er hægt að afrita tengli úr hvaða 
 
     > [!TIP]
     > Ef þú færð skilaboð eins og: *Business Central vill sýna forskoðun á þessum tengli* þýðir það að þú ert ekki með Business Central-forritið fyrir Teams uppsett. Til að setja upp forritið skal velja **Sýna forskoðun** og fylgja leiðbeiningunum.
-6. Fyrsta skiptið sem tengill er límdur í samtal, verður beðið um innskráningu í [!INCLUDE [prod_short](includes/prod_short.md)] og að veita samþykki fyrir forritinu til að sækja gögn. Fylgið einfaldlega leiðbeiningunum á skjánum.
 
     > [!NOTE]
-    > Aðeins þarf að gera þetta skref einu sinni.
-7. Bíðið augnablik á meðan spjald er búið til í skilaboðaglugganum.
-8. Þegar spjaldið birtist skal leita vel og vandlega í innihald þess eftir viðkvæmum upplýsingum áður en skilaboðin eru send. Þetta skref er mikilvægt vegna þess að þegar skilaboðin eru send geta allir í samtalinu séð spjaldið.
-9. Ef spjaldið lítur vel út skal velja **Senda** til að senda það í samtalið.
+    > Allt frá því að þú ert Aðalútgáfa viðskipta, í fyrsta sinn sem tengill er límdur á samtal, getur verið að notandi sé beðinn um að skrá sig inn  [!INCLUDE [prod_short](includes/prod_short.md)]  og gefa samþykki fyrir því að App sæki gögn. Fylgdu leiðbeiningunum á skjánum. Þú munt aðeins þurfa að gera þetta skref einu sinni.
+6. Bíðið augnablik á meðan spjald er búið til í skilaboðaglugganum.
+7. Þegar spjaldið birtist skal leita vel og vandlega í innihald þess eftir viðkvæmum upplýsingum áður en skilaboðin eru send. Þetta skref er mikilvægt vegna þess að þegar skilaboðin eru send geta allir í samtalinu séð spjaldið.
+8. Ef spjaldið lítur vel út skal velja **Senda** til að senda það í samtalið.
 
     > [!TIP]
     > Eftir að kortið birtist og áður en **Senda** er valið er hægt að eyða límdri vefslóð ef þú vilt.
-10. Til að fá frekari upplýsingar eða gera breytingar á færslunni sem birtist í spjaldinu skal velja **Upplýsingar**. Nánari upplýsingar er að finna í næsta hluta.
+9. Til að fá frekari upplýsingar eða gera breytingar á færslunni sem birtist í spjaldinu skal velja **Upplýsingar**. Nánari upplýsingar er að finna í næsta hluta.
 
 ### Skoða upplýsingar spjalds
 

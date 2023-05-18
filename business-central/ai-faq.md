@@ -35,15 +35,15 @@ Til að Copilot séu tiltæk þarf að uppfylla eftirfarandi kröfur:
 - Tungumálið sem þú notar í Viðskiptamiðinu verður að vera Enskt. Eitthvert af tiltækum enskum staðin mun virka, eins og Enska (Bandaríkin), Enska (Bretland), eða Enska (Suður-Afríka).
 
   Til að breyta tungumálinu, efst í hægra horninu, skaltu velja stillingar fyrir  **stillingar**  teikni ![...](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð"). > **Stillingar** > **tungumáls**. Frekari upplýsingar er að fara í breytingar á  [grunnstillingum](ui-change-basic-settings.md#language).
-- Þú verður að vera að nota Miðnetversion 22 eða nýrri útgáfu (ef þú ert custeomer) eða réttara.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->.
+- Þú verður að vera að nota viðskipti Miðnetaútgáfu 22 eða nýrri (ef þú ert viðskiptavinur) eða réttara.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->
 
-   Til að athuga útgáfuna skaltu velja spurningarmerkið efst í hægra horninu, þá  **skaltu hjálpa & stuðning**. Leita að útgáfu hugbúnaðarins undir  **Úrræðaleit**. Til að fá upplýsingar um rétta Forskoðun útgáfu er farið í  [hafist handa með aðalforskoðun](ai-preview-getstarted.md) á fyrirtæki.
+   Til að athuga útgáfuna velurðu spurningarmerkið efst í hægra horninu, velur  **þá hjálp & stuðning**. Leita að útgáfu hugbúnaðarins undir  **Úrræðaleit**. Til að fá upplýsingar um rétta Forskoðun útgáfu er farið í  [hafist handa með aðalforskoðun á fyrirtæki](ai-preview-getstarted.md).
 -  **Create AI-knúin vörulýsingar með Copilot**  verða að vera virkar.
 
-   Frekari upplýsingar er að fara í til að  [gera eða slökkva á "Create AI vörulýsingum með Copilot '](enable-ai.md#enable-or-disable-the-create-ai-powered-product-descriptions-with-copilot-feature).
+   Frekari upplýsingar er að fara í til að  [gera eða slökkva á "Create AI vörulýsingum með Copilot '](enable-ai.md#enable-or-disable-create-ai-powered-product-descriptions-with-copilot).
 - Admin hefur samþykki á skilmálum og skilyrðum.
 
-   Frekari upplýsingar er  [að leita í samþykkis á eða hafna forskráningu og persónuverndarskilmálum og skilyrðum fyrir alla notendur](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+   Frekari upplýsingar er  [að leita í samþykkis á eða hafna forskráningu og persónuverndarskilmálum og skilyrðum fyrir alla notendur](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ### Er Copilot fáanleg fyrir forskoðun í Business miðlægt innanhúss?
 
@@ -51,7 +51,7 @@ Nei, það er nú ekki stutt í viðskiptafræði miðsvæðis innanhúss.
 
 ### Hvernig virkar Copilot, Hvaðan kemur leiðbeinandi textinn?
 
-Copilot notar  [Azure OpenAI þjónustuna](/azure/cognitive-services/openai/overview)  til að nálgast öflug tungumálalíkön sem greina og mynda náttúruleg tungumál. Þessi líkön hafa verið þjálfuð á breiðum megintexta af datamengi textana. Þar af leiðandi getur Copilot myndað leiðbeinandi, persónuleg svör á ensku Byggt á lágmarks ílagsvörugögnum, eins og eigindum vöru, tegund eða lýsingu. 
+Copilot notar  [Azure OpenAI þjónustuna](/azure/cognitive-services/openai/overview)  til að nálgast öflug tungumálalíkön sem greina og mynda náttúruleg tungumál. Þessi líkön hafa verið þjálfuð á breiðum megintexta af datamengi textana. Þar af leiðandi geta Copilot myndað leiðbeinandi, persónuleg svör á ensku Byggt á lágmarks inntaksgögnum, líkt og eigindum vöru, tegund eða lýsingu. 
 
 ### Hver er gæði textans sem lagður er til við Copilot?
 
@@ -61,20 +61,20 @@ Upplýsingar um óviðeigandi uppákomur er farið í  [það sem gert er um mó
 
 ### Hvernig get ég bætt úr þeim tillögum sem ég fæ frá Copilot?
 
-Það eru nokkur atriði sem þú getur gert til að fá sem mest út tillögur frá Copilot:
+Það eru nokkur atriði sem þú getur gert til að fá sem mest út úr tillögum frá Copilot:
 
-- Bæta fleiri eigindum við vöru til að stuðla að þeim sértækari eiginleikum og eiginleikum sem áhugi er fyrir
+- Bæta fleiri eigindum við vöru til að stuðla að þeim sértækari eiginleikum og eiginleikum sem þú hefur áhuga á.
 - Breyta valkostum fyrir tón rödd og áherslu á gæði til að stemma stigu við persónulegum óskum þínum.
-- Bæta lýsingu vörunnar
+- Bæta lýsingu vörunnar.
 - Gakktu úr skugga um að vörunni sé úthlutað heppilegasta flokknum.
 
 Til að fá frekari upplýsingar er farið í að  [bæta og sníða tillögur](item-marketing-text.md#improve-and-tailor-text-suggestions) að texta.
 
 ### Hvað ef ég er ekki sáttur við myndaða textann?
 
-Til að hjálpa okkur að bæta textann, valið  **er þetta góð uppákoma?**  á að  **Búa til með Copilot**  síðu, sem þú getur svarað með þumalfingri er upp (mér líkar það) eða þumall ' niður (þarfnast endurbóta).
+Til að hjálpa okkur að bæta textann, valið  **er þetta góð uppákoma?**  **á vefsíðunni Create with Copilot**, sem þú getur svarað með þumalfingurs-upp (mér líst vel á það) eða Þumalputtareglur (þarfnast úrbóta).
 
-![Sýning og birgðaspjald með Markaðstextarúðu](media/create-with-copilot-window-feedback.png)
+![Sýnir birgðaspjald með rúðu Markaðstexta](media/create-with-copilot-window-feedback.png)
 
 ### Má viðurkenningar gera við copilot? Ef svo er, hvernig?
 
@@ -98,25 +98,27 @@ Eins og er, styður Copilot aðeins ensku. Rangar svör kunna að skila sér þe
 
 ### Hvað er gert um móðgandi og skaðlegar texttillögur?
 
-Azure OpenAI þjónustan geymir kvaðningar og margbreytileika úr þjónustunni til að fylgjast með að móðgandi notkun og að þróa og bæta gæði hiure OpenAI efnisstjórnunarkerfa fyrirtækisins. [Lærðu meira um efnistjórnun okkar og síun](/azure/cognitive-services/openai/concepts/content-filter).
+Azure OpenAI þjónustan geymir kvaðningar og margbreytileika úr þjónustunni til að fylgjast með að móðgandi notkun og að þróa og bæta gæði hiure OpenAI efnisstjórnunarkerfa fyrirtækisins. [Lærðu meira um efnistjórnun okkar og síun.](/azure/cognitive-services/openai/concepts/content-filter)
 
-Starfsmenn Microsoft hafa aðgang að kvaðningu og gögnum sem hafa komið upp í sjálfvirku kerfi okkar í þeim tilgangi að rannsaka og sannprófa hugsanlega misnotkun. fyrir viðskiptavini sem hafa virkjað Azure OpenAI þjónustuna í Evrópusambandinu verða starfsmenn Microsoft í notendaþjónustu í Evrópusambandinu. Þessi gögn má nota til að bæta okkar efniskerfi.Ef um staðfest brot á reglu er að ræða biðjum við þig að grípa tafarlaust til aðgerða til úrbætur á málinu til og til að fyrirbyggja frekari misnotkun. Bilun í aðsetri úthreyfinga getur orðið til þess að frestun eða uppsögn á Azure OpenAI tilfangsaðgangi er sinnt.
+Starfsmenn Microsoft hafa aðgang að kvaðningu og gögnum sem hafa komið upp í sjálfvirku kerfi okkar í þeim tilgangi að rannsaka og sannprófa hugsanlega misnotkun. fyrir viðskiptavini sem hafa virkjað Azure OpenAI þjónustuna í Evrópusambandinu verða starfsmenn Microsoft í notendaþjónustu í Evrópusambandinu. Þessi gögn má nota til að bæta okkar efniskerfi.Ef um staðfest brot á reglu er að ræða biðjum við þig að grípa tafarlaust til aðgerða til úrbætur á málefninu og til að fyrirbyggja frekari misnotkun. Bilun í aðsetri úthreyfinga getur orðið til þess að frestun eða uppsögn á Azure OpenAI tilfangsaðgangi er sinnt.
 
 Nánari upplýsingar er að finna  [í gögnum, persónuvernd og öryggi hjá Azure OpenAI þjónustunni](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
 ### Get ég valið úr skógarhöggi og manna endurskoðunarferli?  
 
-Sem hluti af því að veita Azure Open óúrtakinu mun Microsoft vinna úr og geyma viðskiptavinagögn sem lögð eru inn í þjónustuna, ásamt Frálagsinnihaldi, í tilgangi (1) að fylgjast með og koma í veg fyrir móðgandi eða skaðlegar not eða Fráhald þjónustunnar; og (2) að þróa, prófa og bæta getu sem ætlað er að koma í veg fyrir móðgandi notkun og/eða skaðleg áhrif frádrátta úr þjónustunni.Með viðurkenndum Microsoft-starfsmönnum er heimilt að fara yfir gögn sem hafa ræst út í kerfum okkar til að rannsaka og sannreyna hugsanlega misnotkun og geta tekið þátt í takmörkuðum sýnum af hugtökum sem ekki eru í sjálfvirkum kerfum okkar til að tryggja að kerfin virki eðlilega. Starfsmenn Microsoft geta einnig fengið aðgang að og notað þessi gögn til að bæta okkar kerfi sem fylgjast með og koma í veg fyrir móðgandi eða skaðleg not eða fráleit þjónustu.Lesa meira um  [forskoðunarskilmála](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)
+Sem hluti af því að veita Azure OpenAI foryfirlitunum, mun Microsoft vinna og geyma gögn viðskiptavinar sem send eru til þjónustunnar, ásamt frálagsefni, til þess að fylgjast með og koma í veg fyrir móðgandi eða skaðlegar not eða fráhald þjónustunnar; og til að þróa, prófa og bæta getu sem ætlað er að koma í veg fyrir móðgandi notkun eða skaðleg áhrif af þjónustunni. 
+
+Með viðurkenndum Microsoft-starfsmönnum er heimilt að fara yfir gögn sem hafa ræst út í kerfum okkar til að rannsaka og sannreyna hugsanlega misnotkun og geta tekið þátt í takmörkuðum sýnum af hugtökum sem ekki eru í sjálfvirkum kerfum okkar til að tryggja að kerfin virki eðlilega. Starfsmenn Microsoft geta einnig fengið aðgang að og notað þessi gögn til að bæta okkar kerfi sem fylgjast með og koma í veg fyrir móðgandi eða skaðleg not eða fráleit þjónustu.Lesa meira um  [forskoðunarskilmála](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
 ## [Persónuvernd](#tab/privacy)
 
 ### Hvaða gögnum safnar hæfileiki? Hvernig eru gögnin notuð?
 
-Hæfileiki safnar þínu svari til  **er þetta góð uppákoma?**  Spurning um að búa til  **með Copilot**  síðu, sem getur verið annað hvort þung er upp (mér líst vel á það) eða þumalfingur er niður (þarf framför).
+Hæfileiki safnar þínu svari til  **er þetta góð uppákoma?**  Spurning um að búa til  **með Copilot**  síðu, sem getur verið annað hvort þumalfingur-upp (mér líkar það) eða þumalfingurs-niður (þarf framför).
 
 Við notum þessi gögn til að meta og bæta gæði þeirrar getu. Frekari upplýsingar um hvaða gögnum er safnað er að finna í  [forskoðunarskilmálum](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
-![Sýning og birgðaspjald með Markaðstextarúðu](media/create-with-copilot-window-feedback.png)
+![Sýnir birgðaspjald með rúðu Markaðstexta](media/create-with-copilot-window-feedback.png)
 
 ---
 
@@ -125,4 +127,4 @@ Við notum þessi gögn til að meta og bæta gæði þeirrar getu. Frekari uppl
 [Yfirlit um markaðssetningu á AI-knúinn vöru með Copilot](ai-overview.md)  
 [Skilgreina markaðstexta með AI-knúinn vöru með Copilot sem admin](enable-ai.md)  
 [Stofna markaðstexta fyrir vörur með Copilot](item-marketing-text.md)  
-[Textahöfundur Markaðsupplýsingar með Copilot-FAQ vöru](ai-faq.md)  
+

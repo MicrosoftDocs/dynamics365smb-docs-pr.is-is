@@ -53,7 +53,7 @@ Til að fræðast um staðbundna virkni fyrir hvert land/svæði skal velja við
 [!INCLUDE[prod_short](includes/prod_short.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## Sjá einnig
-
+[Skapa umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Reglufylgni](compliance/compliance-overview.md)  
 [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
