@@ -2,18 +2,18 @@
 title: Safnvista sölu- og innkaupaskjöl
 description: 'Þú getur safnvistað sölu- og innkaupapöntunum, tilboðum, skilapöntunum og standandi pöntunum og endurheimt upprunalegt ef þörf krefur.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
-ms.date: 03/06/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 06/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ---
 # Safnvista skjöl
+
 Þú getur safnvistað sölu- og innkaupapöntunum, tilboðum, skilapöntunum og standandi pöntunum. Safnvistun skjala gerir þér kleift að endurheimta upprunalegt ef þörf krefur. Þú getur safnvistað sölu- eða innkaupaskjali nokkrum sinnum og vistað aðra safnvistaða útgáfu í hvert skipti.
 
-Fyrir safnvistuð söluskjöl þar sem upprunalega skjalið er enn til og er ekki bókað er hægt að nota aðgerðina **Endurheimta** til að skrifa yfir núverandi skjal með safnvistaðri útgáfu. 
+Fyrir safnvistuð söluskjöl þar sem upprunalega skjalið er enn til og er ekki bókað er hægt að nota aðgerðina **Endurheimta** til að skrifa yfir núverandi skjal með safnvistaðri útgáfu.
 
 Fyrir safnvistuð skjöl þar sem upprunalega skjalinu er eytt geturðu aðeins notað efnið aftur með því að afrita gögnin, til dæmis með aðgerðinni **Afrita úr skjali**.  
 
@@ -39,9 +39,9 @@ Eftirfarandi tafla lýsir valkostunum fyrir reitinn **Safnvista tilboð**.
 |**Spurning**|Biddu notandann um að velja hvort eigi að safnvista sölutilboðum þegar þeim er eytt.|
 |**Alltaf**|Safnvista sölutilboðum sjálfkrafa þegar þeim er eytt.|
 
-## Til að safnvista sölupöntun
+## Til að Skjalfæra sölupöntun handvirkt
 
-Eftirfarandi ferli sýnir hvernig skal safnvista sölupöntun. Skrefin eru svipuð fyrir allar pantanir, standandi pantanir, vöruskilapantanir og tilboð.
+Eftirfarandi ferli lýsir því hvernig á að Skjalfæra sölupöntun handvirkt. Skrefin eru svipuð fyrir allar pantanir, standandi pantanir, vöruskilapantanir og tilboð.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Opnuð er sölupöntun sem þú vilt kaupa safnvista.  
@@ -60,11 +60,13 @@ Efni upprunalegrar sölupöntunar er skipt út fyrir safnvistuðu útgáfuna.
 
 ## Eyða safnvistuðum sölupöntunum
 
-Eftirfarandi ferli sýnir hvernig skal eyða safnvistuðum sölupöntunum. Skrefin eru svipuð fyrir aðrar safnvistaðar sölur og innkaupaskjöl.
+Nota varðveislureglu til að hreinsa vistuð skjöl sem ekki er lengur þörf fyrir. Varðveislureglur láta stjórnendur skilgreina hversu lengi þeir vilja geyma gögn. Til dæmis geta þeir sett upp stefnu sem eyðir gögnum eftir lokadagsetningu. Frekari upplýsingar er að finna í [Skilgreina varðveislureglur](admin-data-retention-policies.md).
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Safnvistaðar sölupantanir** og velja síðan viðkomandi tengil.  
-2. Veldu aðgerðina **Eyða eldri útgáfum** og síðan á síðunni **Eyða safnvistuðum útgáfum af sölupöntunum** skaltu velja viðeigandi síur.  
-3. Velja hnappinn **Í lagi**.
+Ýmislegt ber að hafa í huga varðandi stofnun varðveislureglna fyrir eldri skjöl:
+
+* * Ef upprunalega skjalinu hefur ekki verið eytt, mun Viðskiptamiðinu ekki eyða útgáfum í skjalasafni. Eldri útgáfur renna ekki út svo framarlega sem upprunalega er til.
+* Þegar varðveisluregla er sett upp er hægt að tilgreina að óskað sé eftir að stefnunni sé eytt í eldri útgáfum skjals nema nýjustu. Til dæmis gætir þú verið með 10 útgáfur af skjali og vilt halda eintak af því nýjasta. 
+* Aðalviðskiptamiðlæg reiknar út gildistíma skjala sem byggð eru á dagsetningu nýjustu útgáfu í skjalasafni.
 
 ## Sjá einnig
 
@@ -72,6 +74,5 @@ Eftirfarandi ferli sýnir hvernig skal eyða safnvistuðum sölupöntunum. Skref
 [Sala](sales-manage-sales.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

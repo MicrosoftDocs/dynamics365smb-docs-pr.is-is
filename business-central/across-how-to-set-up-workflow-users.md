@@ -1,28 +1,25 @@
 ---
 title: 'Hvernig á að: Setja upp notendur verkflæðis'
-description: Áður en hægt er að stofna verkflæði verður að setja upp notendur sem taka þátt í þeim á síðu notendaflokks verkflæðis.
-author: SorenGP
-ms.topic: conceptual
+description: Áður en hægt er að stofna verkflæði þarf að setja upp notendurna sem taka þátt í þeim á síðunni Samþykktarnotendauppsetning.
+author: brentholtorf
+ms.topic: how-to
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'reject, delegate, request'
-ms.search.form: 1533
-ms.date: 09/09/2022
-ms.author: edupont
+ms.search.form: '1533,'
+ms.date: 05/31/2023
+ms.author: bholtorf
 ---
-# Setja upp notendur verkflæðis
+# Setja upp röð notenda verkflæðis
 
-Áður en hægt er að stofna samþykktarverkflæði verður að setja upp notendur sem taka þátt í verkflæðum. Þetta þarf nauðsynlega að gera til að geta tilgreint hverjir verða að fá tilkynningu sem bregðast þarf við í verkflæðisskrefi.  
+Áður en hægt er að stofna samþykktarverkflæði þarf að setja upp notendurna sem munu Senda beiðnir og samþykkjendur þeirra. Til dæmis er hægt að tilgreina hver fær tilkynningu til að vinna í verkflæðisskrefi. Þátttakendur samþykktarverkflæðis eru  **settir upp á síðunni samþykktarnotandasíða** . Frekari upplýsingar má finna á [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md).
 
-Á síðunni **Notendahópar verkflæðis** er hægt að setja upp notendur í notendahópum verkflæðis og tilgreina númer notanda í röð ferlisins, t.d. keðju samþykktaraðila. 
+ **Á síðunni Verkflæðisnotendaflokkar**  er hægt að tilgreina hvar þátttakandi á í samþykktarverkflæði með því að færa númer inn í  **númeraröð númeraraðarinnar**. . Til dæmis er hægt að tilgreina að notendur taki þátt í réttri röð, t.d. keðju samþykkjendur. Einnig er hægt að tilgreina flatarlista samþykkjendur með því að færa inn sama númer. Í síðara tilfellinu þarf aðeins einn samþykkjendum að samþykkja beiðni.
 
-Verkflæðisnotendur sem virka eins og samþykktarnotendur, þ.m.t. bæði samþykktarbeiðendur og samþykktaraðilar, þarf einnig að setja upp á síðunni **Uppsetning samþykktarnotanda**. Frekari upplýsingar má finna á [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md).  
+[!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-> [!NOTE]  
-> Til að skilgreina að samþykktarbeiðni sé ekki samþykkt fyrr en margir notendur hafa samþykkt hana skal setja upp samþykktaraðila í stigveldi. Hvað varðar samþykkjendur af gerðinni **Samþykkjandi** skal setja þá upp á síðunni **Uppsetning Samþykkjandi notandi**. Hvað varðar samþykkjendur af gerðinni **Notendaflokkur verkflæðis** skal setja þá upp á síðunni **Notendaflokkar verkflæðis** og skilgreina stigveldið með því að úthluta stighækkandi númerum á hvern samþykkjanda í reitnum **röð nr.**. . Frekari upplýsingar má finna hér að neðan og í [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md). 
-
-## Uppsetning verkflæðisnotenda
+## Notendaflokkur verkflæðis settur upp
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara inn **Notendahópar verkflæðis**, velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**. Síðan **Notendahópur verkflæðis** opnast.  
@@ -30,16 +27,12 @@ Verkflæðisnotendur sem virka eins og samþykktarnotendur, þ.m.t. bæði samþ
 4. Í **Lýsing** reitnum skal lýsa verkflæðinu.  
 5. Í flýtiflipanum **Aðilar í flokki verkflæðisnotenda** skal fylla inn í reitina í fyrstu línu eins og lýst er í eftirfarandi töflu.  
 
-   |Svæði|Lýsing|
+   |Svæði|Heimildasamstæða|
    |-----|-----------|
-   |**Notandanafn**|Tilgreindu notandann sem á að taka þátt í verkflæðum.<br /><br /> Notandi verður að vera til á síðunni **Uppsetning notanda**. Frekari upplýsingar eru í [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md).|
+   |**Notandanafn**|Tilgreina notandann sem tekur þátt í verkflæði.<br /><br /> Notandi verður að vera til á síðunni **Uppsetning notanda**. Frekari upplýsingar eru í [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md).|
    |**Nr. raðar**|Tilgreina í hvaða röð notandi verkflæðis virkjast í verkflæði, út frá öðrum notendum. Þessi reitur gefið upp t.d. hvenær notandi samþykkir í samhengi við aðra samþykktaraðila með því að setja upp valkostinn **Notendahópur verkflæðis** í reitnum **Gerð samþykktaraðila** í tengdu verkflæðissvari.| 
 
-   > [!TIP]
-   > Til að skilgreina að samþykktarbeiðni þurfi marga jafna notendur til að samþykkja hana, án tillits til stigveldis, skal setja upp flatan notendahóp verkflæðis með því að úthluta sömu númeraröð til viðeigandi samþykktaraðila.
-
 6. Endurtaktu skref 5 til að bæta fleiri notendum verkflæðis við notendahópinn.  
-7. Endurtaka skref 2 til 6 til að bæta við fleiri notendaflokkum verkflæðis.  
 
 ## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 

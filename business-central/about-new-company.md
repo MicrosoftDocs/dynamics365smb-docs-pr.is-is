@@ -14,15 +14,18 @@ ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 902
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er vísað til hólfanna fyrir viðskiptagögn, sem tilheyra fyrirtækjaeiningu eða lögaðila, sem *fyrirtæki*. Þegar þú skráir þig í [!INCLUDE[prod_short](includes/prod_short.md)], færðu sýnifyrirtæki og autt fyrirtæki, *Mitt fyrirtæki*. Auðvelt er að skipta á milli fyrirtækja, þú opnar einfaldlega **Mínar stillingar** og færir þig yfir í hitt fyrirtækið. En þú getur líka stofnað ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)] allt eftir þörfum þíns fyrirtækis.  
 
+> [!NOTE]
+> Til að stofna nýtt fyrirtæki þarf að vera úthlutað  **Super**  heimildasafni.
+
 Þegar þú stofnar nýtt fyrirtæki, munu leiðbeiningar um uppsetningu með stuðningi hjálpa þér við grunnuppsetninguna. Þá geturðu flutt inn tilheyrandi gögn úr eldri kerfum eða öðrum fyrirtækjum í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Val á réttu sniðmáti
 
-Ef þú ákveður að bæta fyrirtæki við þitt [!INCLUDE[prod_short](includes/prod_short.md)], geturðu notað **Stofna nýtt fyrirtæki** leiðbeiningar um uppsetningu með hjálp til að komast af stað. Leiðsagnarforritið fyrir uppsetningu er tiltækt á síðunni **Fyrirtæki** og í uppflettingu í reitnum **Fyrirtæki** á síðunni **Mínar stillingar**.  
+Ef ákveðið er að bæta fyrirtæki við  [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að nota  **Uppsetningarleiðbeiningar stofnunar nýrra fyrirtækja**  til að byrja. Uppsetningarleiðbeiningarnar eru tiltækar frá  **síðunni fyrirtæki**  og úr uppflettingunni í  **reitnum fyrirtæki**  á  **síðunni mínar stillingar** .  
 
-Leiðsagnarforritið fyrir uppsetningu býður upp á tvenns konar sniðmát og auðan valkost:
+Uppsetningarhandbókin býður upp á tvö sniðmát og auðan valkost:
 
 - **Mat - Sýnigögn**  
     Hér er stofnað fyrirtæki sem svipar til sýnifyrirtækisins hvað varðar sýnigögn og uppsetningargögn. Þessi tegund fyrirtækis er í boði án þess að skipta yfir í 30 daga prufuútgáfu, sem hinar tegundirnar gera.  
