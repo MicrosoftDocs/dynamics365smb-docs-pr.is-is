@@ -78,7 +78,7 @@ Kaflinn **Finna það** inniheldur tvo tengla á hjálp fyrir afurð:
 
 - Hjálp um síðuna sem þú varst að skoða í [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Þessi tengill er myndaður sjálfkrafa. Ef [!INCLUDE[prod_short](includes/prod_short.md)] finnur ekki viðeigandi tengil birtist [lendingarsíðan á Microsoft Learn](index.md) fyrir sjálfgefna útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)]. Ef til dæmis síðan var hluti af forriti sem bætti ekki vörpun samhengishjálpar við [!INCLUDE[prod_short](includes/prod_short.md)], fer *Fræðslutengillinn* sjálfgefið inn á lendingarsíðuna.  
+  Þessi tengill er myndaður sjálfkrafa. Ef  [!INCLUDE[prod_short](includes/prod_short.md)]  ekki er hægt að finna viðkomandi hlekk  [er lendingarsíða á  Microsoft Learn](index.yml)  fyrir sjálfgefna útgáfu  [!INCLUDE[prod_short](includes/prod_short.md)]  sýnd. Ef til dæmis síðan var hluti af forriti sem bætti ekki vörpun samhengishjálpar við [!INCLUDE[prod_short](includes/prod_short.md)], fer *Fræðslutengillinn* sjálfgefið inn á lendingarsíðuna.  
   
 - Lendingarsíða hjálpar fyrir [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -152,9 +152,9 @@ Til að láta samstarfsaðila vita um vandamál skal velja tengilinn til að ann
 
 ## Frekari upplýsingar er að finna í fylgiskjölum vörunnar
 
-Grunnútgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] er stækkuð og sérstillt af stóru samfélagi samstarfsaðila. Hver samstarfsaðili og margir viðskiptavinir setja upp sína eigin hjálp á eigin vefsvæðum. En alltaf er hægt að fara á svæðið [Dynamics 365 Business Central skjöl](index.md) til að fá nánari upplýsingar. Svæðið hýsir efni af ýmsu tagi, eins og eftirfarandi:
+Grunnútgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] er stækkuð og sérstillt af stóru samfélagi samstarfsaðila. Hver samstarfsaðili og margir viðskiptavinir setja upp sína eigin hjálp á eigin vefsvæðum. En þú getur alltaf farið  [Dynamics 365 Business Central  á heimildasíðuna](index.yml)  til að fræðast meira. Svæðið hýsir efni af ýmsu tagi, eins og eftirfarandi:
 
-- [Hugmyndafræðilegt efni um viðskiptahætti](index.md)  
+- [Almenn efni um virkni fyrirtækja](welcome.md)  
 - [Fylgigögn fyrir þróunaraðila](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Ókeypis námsleiðir og rafrænt námsefni í mörgum notandaforstillingum](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ Grunnútgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] er stækkuð o
 
 ### Efni á vefsvæðinu
 
-[Þessi hluti](index.md) á Microsoft Learn hýsir efni frá Microsoft sem stendur fyrir stoðina *Frekari upplýsingar* í líkani notandaaðstoðar. Að hluta til reynir efnið *Frekari upplýsingar* að svara þeim spurningum sem notandaviðmótið getur ekki svarað, eins og eftirfarandi:
+[Þessi hluti hýsir efni frá Microsoft sem táknar að](welcome.md)  læra fleiri  Microsoft Learn  kokteila  *·*  í líkani notendahjálpar. Að hluta til reynir efnið *Frekari upplýsingar* að svara þeim spurningum sem notandaviðmótið getur ekki svarað, eins og eftirfarandi:
 
 - Hvar passar þessi síða inn í stærra verkflæðið?  
 - Hvað gerist svo?  
