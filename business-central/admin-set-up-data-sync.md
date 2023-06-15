@@ -13,17 +13,17 @@ ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 
 # Fá tilbúinn til að samstilla aðalgögn
 
-Þegar um er að ræða tvö eða fleiri fyrirtæki sem nota a.m.k. einhver af sömu aðalgögnunum er hægt að vista tíma til að færa inn gögn með því að samstilla það í fyrirtækjunum. Samstillingargögn eru sérstaklega gagnleg þegar verið er að setja upp ný dótturfyrirtæki.
+Þegar tvö eða fleiri fyrirtæki nota einhver sömu aðalgögnin er hægt að samstilla gögnin frekar en bæta því handvirkt við í hverju fyrirtæki. Til dæmis er gagnlegt að samstilla gögn þegar ný dótturfyrirtæki eru sett upp.
 
-Aðalgögn eru með stillingar og ótransactional upplýsingar um viðskiptaeiningar, eins og viðskiptamenn, lánardrottna, vörur og starfsmenn. Gögnin veita samhengi fyrir viðskiptafærslur. Eftirfarandi eru örfá dæmi um aðalgögn fyrir viðskiptavin:
+Aðalgögn eru með stillingar og ótransactional upplýsingar um rekstrareiningar. Til dæmis viðskiptamenn, lánardrottna, vöru og starfsmenn. Gögnin veita samhengi fyrir viðskiptafærslur. Eftirfarandi eru örfá dæmi um aðalgögn fyrir viðskiptavin:
 
 * Nafn
 * Auðkennisnúmer
-* Aðsetur
+* Heimilisfang
 * Greiðsluskilmálar
 * Lánamark
 
-Samstilling er sett upp í dótturfyrirtækjunum. Með því að nota togalíkan draga dótturfélög þau gögn frá upprunafélaginu sem þau þurfa að gera í viðskiptum við þau. Þegar búið er að setja upp samstillingu og samstilla gögn í fyrsta sinn eru öll sett. Færslur í töflunum eru miðaðar og vinnsluraðarfærslur hefjast strax við uppfærslu gagna í dótturfyrirtækjum þegar einhver gerir breytingu á upprunafélaginu.
+Samstilling er sett upp í dótturfyrirtækjunum. Með því að nota togalíkan draga dótturfélög þau gögn frá upprunafélaginu sem þau þurfa að gera í viðskiptum við þau. Þegar búið er að setja upp samstillingu og samstilla gögn í fyrsta sinn eru öll sett. Færslur í vinnslubiðröð uppfæra afsláttarfærslur í dótturfélögum þegar einhver breytir gögnum í upprunafélaginu.
 
 ## Uni-stefnumiðuð samstilling aðeins
 
@@ -34,16 +34,19 @@ Aðeins er hægt að samstilla gögn frá upprunafélaginu til dótturfyrirtækj
 
 ## Verður að byrja fyrir
 
-Þetta eru kröfur um uppsetningu samstillingar.
+Eftirfarandi eru kröfur um uppsetningu samstillingar.
 
 * Öll fyrirtæki þurfa að vera í sama umhverfi.
-* Notandinn sem setur upp dótturfyrirtækið verður að hafa  **aðalgögnin Mgt.-Skoða**  heimildasafn. Heimild sett er fyrir hendi í iðgjöldum og nauðsynlegum leyfum. Leyfisveitandi Team meðlim leyfishafa er einhver aðgangur en ekki breyta færslum svo ekki er hægt að nota það til að setja upp samstillinguna.
+* Notandinn sem setur upp dótturfyrirtækið verður að hafa nauðsynleg leyfi fyrir  **,** Premium  **eða** Basic  **.** 
+
+> [!NOTE]
+> Teymismeðlimurinn og innri kerfisstjóri leyfa aðgang en ekki breyta færslum svo ekki sé hægt að nota þær til að setja upp samstillinguna. Úthlutað admin leyfi gerir þér ekki kleift að raða bakgrunnsverkum þannig að þú munt ekki geta lokið uppsetningunni.
 
 ## Tilgreinið upprunafélagið
 
 Fyrstu skrefin eru að tilgreina fyrirtæki sem verður gagnagjafi og virkjar samstillingu. Dótturfyrirtæki með draga gögn úr upprunafélaginu.
 
-1. Í dótturfyrirtæki skal velja þá  ![ljósaperu sem opnar aðgerðina segja mér upp](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Táknið, færa inn  **uppsetningu** á aðalgagnateikni og velja síðan tengda tengilinn.
+1. Í dótturfyrirtæki skal velja þá  ![ljósaperu sem opnar aðgerðina segja mér upp.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **uppsetningu** á aðalgagnateikni og velja síðan tengda tengilinn.
 1.  **Í reitnum Upprunafélagið**  skal tilgreina fyrirtækið sem á að draga breytingar úr.
 1. Kveikja á Virkja skipta á  **samstillingu** .
 1. Veldu  **í lagi** í staðfestingarglugganum. [!INCLUDE [prod_short](includes/prod_short.md)] finnur töflurnar og svæðin sem eru tiltæk frá upprunafélaginu.
@@ -52,7 +55,7 @@ Næsta skref er að gera töflur og svæði virk fyrir samstillingu.
 
 ## Gera töflur og svæði virk eða óvirk
 
-Til að spara tíma,  [!INCLUDE [prod_short](includes/prod_short.md)]  gefur upp lista yfir töflur sem fyrirtæki samstilla oft. Sjálfgefið er að þessar töflur séu virkar fyrir samstillingu en hægt er að breyta, gera óvirkar eða eyða þeim eins og þú sérð. Sem viðbót við tíma-Saver eru sum svæði á töflunum þegar óvirk vegna þess að þau eiga líklega ekki við um dótturfyrirtæki.
+Til að spara tíma,  [!INCLUDE [prod_short](includes/prod_short.md)]  gefur upp lista yfir töflur sem fyrirtæki samstilla oft. Sjálfgefið er að þessar töflur séu virkjaðar fyrir samstillingu. Hægt er að breyta, gera óvirka eða eyða þeim eins og sjá má Fit. Sem aukatíma-Saver eru sum svæði á töflunum þegar óvirk vegna þess að þau eiga líklega ekki við um dótturfyrirtæki.
 
 > [!NOTE]
 > Ef einn eða fleiri Viðaukar eru settir upp í upprunafélaginu þegar dótturfyrirtæki setur upp samstillingu á  **síðunni samstillingartöflur**  eru töflur úr viðaukunum og aðgangur að svæðum þeirra. Hins vegar ef Upprunafyrirtækið bætir við framlengingu eftir að samstilling hefur verið sett upp verður hvert dótturfyrirtæki að bæta töflunum handvirkt við. Til að fá frekari upplýsingar um að bæta við töflum er farið að  [Bæta við eða eyða töflum af listanum](#add-or-delete-tables-from-the-synchronization-tables-list) samstillingartöflur. Til að fræðast meira um víkinga  [!INCLUDE [prod_short](includes/prod_short.md)] er farið í að  [þróa viðauka í  Visual Studio  kóða](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
@@ -85,8 +88,11 @@ Hægt er að tilgreina gögnin sem á að samstilla fyrir töflu með samsvarand
 
 Þegar það er tilbúið, á  **uppsetningarsíðu**  aðalstjórnunar, skal velja  **aðgerðina hefja upphaflega samstillingu** .  **Á síðunni upphaflegar samstillingarupplýsingar**  er valin gerð samstillingar sem nota á fyrir hverja töflu.
 
-* Ef færslur eru bæði í uppruna-og dótturfyrirtækjunum og eiga að samsvara færslum sem fyrir eru skal velja Afsláttaraðgerðina  **sem**  byggir á notkun. [!INCLUDE [prod_short](includes/prod_short.md)] mun stemma við færslur í dótturfélaginu með færslum í upprunafélaginu á grundvelli samsvarandi skilyrða sem skilgreindar eru. Fyrir sevaral-sjálfgefnar töflur  [!INCLUDE [prod_short](includes/prod_short.md)]  hefur þegar jafnað fyrirliggjandi færslur með aðallykli þeirra en hægt er að breyta því ef þess er óskað. Einnig er hægt að láta samstillinguna stofna nýjar færslur í dótturfyrirtæki fyrir færslur í upprunafyrirtækinu sem dótturfyrirtækið er ekki með. Til að fræðast meira um samsvörun er farið í  [samsvörunarjöfnun samkvæmt](#use-match-based-coupling) notkun.
-*  **Ef keyra á fulla samstillingu** stofnar Samstillingin nýjar færslur í upprunafélaginu sem eru ekki afsláttarsamt. Yfirleitt er þessi valkostur gagnlegur ef dótturfyrirtækið er ekki með nein gögn í töflunni eða vill bara bæta við færslum frá upprunafélaginu án þess að það sé samsvarandi.  
+* Ef færslur eru bæði í uppruna-og dótturfyrirtækjunum og eiga að samsvara færslum sem fyrir eru skal velja Afsláttaraðgerðina  **sem**  byggir á notkun. [!INCLUDE [prod_short](includes/prod_short.md)] stemmir færslur í dótturfyrirtækið með færslum í upprunafélaginu. Samstæður eru byggðar á jöfnunarskilyrðum sem notandi skilgreinir. Fyrir margar sjálfgefnar töflur  [!INCLUDE [prod_short](includes/prod_short.md)]  hefur þegar jafnað fyrirliggjandi færslur með aðallykli þeirra en því má breyta ef þess er óskað. Einnig er hægt að láta samstillinguna stofna nýjar færslur í dótturfyrirtæki fyrir færslur í upprunafyrirtækinu sem dótturfyrirtækið er ekki með. Til að fræðast meira um samsvörun er farið í  [samsvörunarjöfnun samkvæmt](#use-match-based-coupling) notkun.
+*  **Ef keyra á fulla samstillingu** stofnar samstilling nýjar færslur fyrir allar færslur í upprunafélaginu sem ekki eru enn í gangi. Þessi valkostur er til dæmis gagnlegur við eftirfarandi aðstæður:
+
+    * Dótturfyrirtækið er ekki með gögn í töflunni.
+    * Þú vilt bæta við færslum úr upprunafélaginu án þess að samsvara.  
 
 Þegar valið er að nota er byrjað á því  **að velja aðgerðina ræsa** .
 
@@ -118,7 +124,7 @@ Til að fá aðgang að upplýsingum, s.s. fjölda færslna sem eru settar inn e
 
 ## Nota útflutning og innflutning til að samnýta samstillingaruppsetningu
 
-Ef verið er að setja upp mörg dótturfyrirtæki sem nota sömu, eða svipaðar Samstillingarstillingar, er hægt að spara tíma með því að setja upp eitt dótturfyrirtæki og flytja það síðan út og út úr uppsetningu á. XML-skrá. Í skránni er allt skipulag, þar á meðal Tafla og svæðvarpanir og síuskilyrði. Síðan er hægt að flytja skrána í næsta dótturfyrirtæki. Til að flytja inn eða út uppsetningu er uppsetningaraðgerðum á  **Aðalgagnatstjórnunum**  beitt til að nota  **innflutnings**  -eða  **útflutningsaðgerðir** .
+Ef þú ert að setja upp nokkur dótturfyrirtæki sem nota sömu eða svipaðar Samstillingarstillingar, þá er tími Bjarkar. Setja upp eitt dótturfyrirtæki og flytja það síðan út í XML-skrá. Í skránni er allt skipulag, þar á meðal Tafla og svæðvarpanir og síuskilyrði. Síðan er hægt að flytja skrána í næsta dótturfyrirtæki. Til að flytja inn eða út uppsetningu er uppsetningaraðgerðum á  **Aðalgagnatstjórnunum**  beitt til að nota  **innflutnings**  -eða  **útflutningsaðgerðir** .
 
 ## Sjá einnig
 

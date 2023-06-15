@@ -12,37 +12,37 @@ ms.date: 02/08/2023
 
 # Stjórna aðgangi að starfrækslu miðsvæðis með öryggisflokkum
 
-[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
+Öryggisflokkar auðvelda stjórnendum að stjórna notendaleyfi. Til dæmis  [!INCLUDE [prod_short](includes/prod_short.md)]  á netinu eru þær Endurnýtanlegar yfir Dynamics 365 forritum, svo sem  SharePoint  online,  CRM Online, og [!INCLUDE [prod_short](includes/prod_short.md)]. Stjórnendur bæta við heimildum til að sinna  [!INCLUDE [prod_short](includes/prod_short.md)]  öryggishópum og þegar þeir bæta við notendum í hópinn heimildin gildir um alla félagsmenn. Til dæmis getur kerfisstjóri stofnað  [!INCLUDE [prod_short](includes/prod_short.md)]  öryggisflokk sem gefur söluaðilum möguleika á að stofna og bóka sölupantanir. Eða látið kaupendur gera það sama fyrir innkaupapantanir.
 
-Öryggisflokkar auðvelda stjórnendum að stjórna notendaleyfi í Dynamics 365 forritum, svo sem  SharePoint  netinu,  CRM Online og netútgáfunni af [!INCLUDE [prod_short](includes/prod_short.md)]. Stjórnendur bæta við heimildum til að sinna öryggishópum og þegar þeir bæta við notendum í hópinn heimildin gildir um alla félagsmenn. Til dæmis getur kerfisstjóri stofnað öryggisflokk sem gefur söluaðilum möguleika á að stofna og bóka sölupantanir. Eða látið kaupendur gera það sama fyrir innkaupapantanir.
+## Viðskipti miðsvæðis á netinu og innanhúss
 
-Stofna öryggisflokka í  Microsoft 365  admin Center eða Azure Active Directory. Þessi grein lýsir skrefunum í  Microsoft 365  stjórnendamiðstöð en skrefin eru svipuð í báðum.
+Hægt er að nota öryggishópa fyrir lager-og innanhússútgáfur [!INCLUDE [prod_short](includes/prod_short.md)]. Stofna skal flokka með eftirfarandi hætti eftir því hvaða útgáfa er stofnuð:
 
-## Bæta við öryggisflokk í  Microsoft 365  stjórnsýslumiðstöðinni
+* Fyrir netútgáfuna, Notið  Azure Active Directory  öryggisflokka. Til að fræðast meira um stofnun flokksins er farið í að  [Stofna, breyta eða eyða öryggisflokki í  Microsoft 365  admin Center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+* Ef um er að ræða innanhúss eru notaðir Windows Active Directory-Flokkar. Til að fá frekari upplýsingar er farið að  [Stofna Flokkareikning í Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
-1. Á  Microsoft 365  admin Center er farið  **í virku hópana & groups**  síðuna.
-2. Veldu  **Bæta við hóp**.
-3.  **Veldu Öryggisgerð**  flokks og veldu  **svo Next**.
-4. Tilgreina grunnatriði fyrir hópinn þinn.
-5. Valfrjálst: gera meðlimi hópsins tiltæka fyrir hlutverkaúthlutun. Til að fræðast meira um úthlutunum er farið í  [nota  Azure AD  flokka til að stjórna hlutverkaverkefnum](/azure/active-directory/roles/groups-concept).
-6. Opnið flokkinn og Notið  **flipann bæta við meðlimi**  til að hafa fólk með í hópnum.
+Síðan þarf að stofna samsvarandi öryggiaflokk í  [!INCLUDE [prod_short](includes/prod_short.md)] og tengja hann síðan við flokkinn sem var stofnaður. Til að fá frekari upplýsingar er farið í að  [Bæta við öryggisflokki í Business Central](#add-a-security-group-in-business-central).
+
+> [!NOTE]
+> Ef sett hefur verið upp Sérstök tegund notanda með leyfigerð Windows-flokks í útgáfu  [!INCLUDE [prod_short](includes/prod_short.md)]  on-forforvarna sem er á undan 2023-bylgju 1, þegar uppfærsla  [!INCLUDE [prod_short](includes/prod_short.md)]  er umbreytir notandanum í öryggisflokk. Nýi öryggisflokkurinn hefur sama heiti og heiti Windows-flokksins. Í öryggisflokknum fæst betri yfirsýn yfir flokksmenn og skilvirkar heimildir þeirra.
 
 ## Bæta við öryggishokk í miðborg fyrirtækja
 
-Í  [!INCLUDE [prod_short](includes/prod_short.md)], Stofnið öryggisflokk og tengið hann við öryggisflokkinn í  Microsoft 365  admin-miðstöðinni. Nýi hópurinn þinn er með meðlimi sem þú bættist við í  Microsoft 365  admin Center.
-
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, sláið inn  **öryggishópa** og veljið síðan tengda tengilinn.
-2. Velja  **skal nýtt**  til að stofna hóp.
-3.  **Í reitinn Heiti**  er fært inn heiti flokksins.
-4.  **Í reitinn aad öryggisflokksheiti**  skal færa inn heiti öryggisflokksins nákvæmlega eins og hann birtist í  Microsoft 365  admin Center. [!INCLUDE [prod_short](includes/prod_short.md)] vilja finna þann hóp og tengja hann við þennan hóp.
+1. Velja  **skal nýtt**  til að stofna hóp.
+1. Búðu til tengilinn fyrir hópinn þinn, eins og hér er:
+
+    * Veljið flokkinn í  [!INCLUDE [prod_short](includes/prod_short.md)]  reitnum aad öryggisflokksheiti  **fyrir**  netið.
+    *  [!INCLUDE [prod_short](includes/prod_short.md)] Velja skal flokkinn í  **reitnum Heiti**  Windows-flokks innanhúss.
 
 > [!NOTE]
-> Notendur sem sýna á  **Meðliakspjaldi**  í FACTBOX rúðunni eða  **meðlimi**  öryggisflokksins hafa aðeins bætt þeim við sem notendur í [!INCLUDE [prod_short](includes/prod_short.md)]. Til að fá frekari upplýsingar um að bæta við notendum skaltu fara í  [til að bæta við notendum eða uppfæra notendaupplýsingarnar og leyfisúthlutunum í Business Central](ui-how-users-permissions.md#adduser).  
+> Notendur sýna á  **félagakortsglugganum**  á FactBox rúðunni eða  **meðlimi**  öryggisflokksins aðeins ef þeim er bætt við sem notendur í [!INCLUDE [prod_short](includes/prod_short.md)]. Til að fá frekari upplýsingar um að bæta við notendum skaltu fara í  [til að bæta við notendum eða uppfæra notendaupplýsingarnar og leyfisúthlutunum í Business Central](ui-how-users-permissions.md#adduser).  
 
-### Úthluta heimildum til flokksins
+### Úthluta heimildum til öryggisflokks
 
 1.  **Á síðunni öryggishópar**  er hópurinn valinn og svo er  **heimildaaðgerðin**  valin.
 1. Úthluta heimildum á eftirfarandi hátt:
+
     * Til að úthluta Sérleyfistilsettum  **fyrir hvert fyrir sig er heimildin valin í**  reitnum leyfi.
     * Til að úthluta mörgum heimildalista skal velja  **aðgerðina velja heimildanamengi**  og velja síðan samstæður sem á að úthluta.
 
@@ -54,9 +54,21 @@ Heimildir eru einnig aðgengilegar á  **síðunni notendur** . FactBox-Glugginn
 
 ## Öryggisflokkar og notendaflokkar
 
-Ef um notendaflokka er að ræða er hægt að umbreyta hópunum í heimildir til að breyta stæðum í leigjanda með því að nota leiðbeiningar um  **uppsetningu notendaflokksins um Flutningsaðstoð** . Til að hefja leiðbeiningarnar, á  **síðunni Feature Management**, finnið  **þið lögun: breytið heimildum** notendaflokks og veljið  **svo alla notendur**  í  **virkjanum fyrir**  svæðið. Leiðbeiningar með uppsetningarleiðbeiningum aðstoðar eru eftirfarandi valkostir fyrir viðskiptin.
+> [!NOTE]
+> Notendaflokkar verða ekki lengur aðgengilegir í síðari útgáfu.
 
-|Valkostur  |Description  |
+Öryggisflokkar eru mjög Svipaðir notendaflokkum sem nú eru tiltækir. Hins vegar eiga notendaflokkar aðeins  [!INCLUDE [prod_short](includes/prod_short.md)] við. Öryggisflokkar eru byggðir á flokkum í  Azure Active Directory  Active Directory eða Windows, eftir því hvort verið er að nota  [!INCLUDE [prod_short](includes/prod_short.md)]  netið eða innanhúss, eftir því sem við á. Flokka fríðindastjóra vegna þess að þeir geta notað önnur Dynamics 365 apps. Til dæmis, ef sölumenn nota  [!INCLUDE [prod_short](includes/prod_short.md)]  og  SharePoint þurfa stjórnendur ekki að afþakka hópinn og meðlimi hans.
+
+### Valfrjálst: umbreyta notendaflokkum í heimildasöfn
+
+Í 2023 út bylgju 1 og síðar er hægt að breyta notendahópum í heimildasöfn í leigjanda. Heimildasöfn veita sömu virkni og notendaflokkar. Hér eru nokkur dæmi:
+
+* Hægt er að nota  **upplýsingakassa notendur**  til að stjórna heimildum fyrir notendur.
+* Hægt er að kafa niður í heiti heimildstæðis til að bæta öðrum heimildum við samstæðurnar sem unnið er í. Til að fá frekari upplýsingar er farið í  [til að bæta við öðrum heimildum](ui-define-granular-permissions.md#to-add-other-permission-sets).
+
+ **Notið Uppsetningarleiðbeiningar notendaflokksins flutningur**  aðstoðar til að umbreyta hópunum. Til að hefja leiðbeiningarnar, á  **síðunni Feature Management**, finnið  **þið lögun: breytið heimildum** notendaflokks og veljið  **svo alla notendur**  í  **virkjanum fyrir**  svæðið. Leiðbeiningar með uppsetningarleiðbeiningum aðstoðar eru eftirfarandi valkostir fyrir viðskiptin.
+
+|Valkostur  |Heimildasamstæða  |
 |---------|---------|
 |Úthluta til notanda     | Úthlutið heimildum notendaflokka beint til notendanna sem voru tengdir hópnum, og Fjarlægið notendahópúthlutanir þeirra.        |
 |Breyta í heimildasamstæðu     | Stofnið nýja heimild fyrir heimildina í hverjum notendaflokki. Nýja heimildsettinu er úthlutað á alla meðlimi hvers notendaflokks.          |

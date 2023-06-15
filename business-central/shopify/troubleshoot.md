@@ -64,7 +64,7 @@ Fyrir bestan árangur flytur Connector eingöngu viðskiptavini, vörur og panta
 
 ## Biðja um aðgangslykilinn
 
-Ef [!INCLUDE[prod_short](../includes/prod_short.md)] vill ekki tengjast Shopify reikningnum þínum skaltu prófa að biðja um aðgangslykilinn frá Shopify. Þú gætir þurft tófan ef breytingar eru á öryggislyklum eða nauðsynlegum heimildum (umfang).
+Ef [!INCLUDE[prod_short](../includes/prod_short.md)] vill ekki tengjast Shopify reikningnum þínum skaltu prófa að biðja um aðgangslykilinn frá Shopify. Það gæti þurft að biðja um nýtt tákn ef breytingar voru gerðar á öryggislyklum eða nauðsynlegum heimildum (Application umfang).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opnaðu **Shopify verslanir** og veldu viðeigandi tengil.
 2. Veldu verslunina sem þú vilt aðgangslykilinn fyrir til að opna síðuna **Shopify verslunarkort**.
@@ -73,7 +73,7 @@ Ef [!INCLUDE[prod_short](../includes/prod_short.md)] vill ekki tengjast Shopify 
 
 Víxlhnappurinn **Er með aðgangslykil** verður gerður virkur.
 
-### Sannreyna og virkja heimildir til að gera HTTP beiðnir í umhverfi sem er ekki í framleiðslu
+## Sannreyna og virkja heimildir til að gera HTTP beiðnir í umhverfi sem er ekki í framleiðslu
 
 Til að vinna rétt  Shopify  þarf tengivirkið leyfi til að gera HTTP beiðnir. Við prófun í sandkassa eru HTTP-beiðnir bannaðar fyrir öllum viðaukum.
 
@@ -94,7 +94,7 @@ Eftirfarandi ferlar lýsa því hvernig á að snúa aðgangslyklinum sem Shopif
 
 ### Eftir [!INCLUDE[prod_short](../includes/prod_short.md)]
 
-1. Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 1](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Teiknið, Færið inn  **Shopify  verslanir** og veljið síðan tengda tengilinn.
+1. Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **Shopify  verslanir** og veljið síðan tengda tengilinn.
 2. Veldu verslunina sem þú vilt snúa aðgangslyklinum fyrir til að opna síðuna **Shopify verslunarkort**.
 3. Veldu aðgerðina **Biðja um aðgang**.
 4. Ef beðið er um það skaltu skrá þig inn á Shopify reikninginn þinn, fara yfir persónuvernd og heimildir og velja svo hnappinn **Setja upp forrit**.
@@ -125,7 +125,7 @@ Munið að deila símtalinu með upplýsingum um birgi nafnaukann.
 
 ### Villa: gen. Strætisvagn. bókunarflokkur verður að hafa gildi í Customer: ' SHOPIFY STORE '. Það má ekki vera núll eða autt
 
-Á síðunni **Shopify verslunarkort** skal fylla út í reitinn **Sniðmátskóði viðskiptamanns** með sniðmátinu sem er með **Almennur viðskiptabókunarflokkur** útfyllt. Sniðmát viðskiptamanns er notað til að stofna viðskiptamenn og reikna söluverð á söluskjölum.
+ **Shopify Á vinnukortasíðunni**, í  **reitnum sniðmát sniðmáts**  viðskiptamanns, skal velja sniðmátið sem hefur  **gen. viðsk. bókunarflokks** . Sniðmát viðskiptamanns er notað til að stofna viðskiptamenn og reikna söluverð á söluskjölum.
 
 ### Villa: Innflutningur á gögnum til  Shopify  verkstæðis er ekki virkjaður. Opnaðu verslunarkortið til að virkja hann
 
@@ -134,6 +134,10 @@ Munið að deila símtalinu með upplýsingum um birgi nafnaukann.
 ### Villa:  Oauth  villa invalid_request: Ekki tókst að finna  Shopify  API-forrit með api_key
 
 Svo virðist sem þú notir [Innleiða forrit](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) þar sem vefslóð biðlara er á sniðinu:`https://[application name].bc.dynamics.com`. Tengillinn Shopify virkar ekki fyrir „Innleiða forrit“. Til að fá frekari upplýsingar er farið í  [hvaða Microsoft-vörur eru tengivirkið sem er  Shopify  tiltækt](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for)?.
+
+### Villa: Innri villa. Svo virðist sem eitthvað hafi farið úrskeiðis á endanum. Óska eftir auðkenni: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+
+Vinsamlegast hafðu samband  Shopify  við þig innan 7 daga frá því að upplifa þessa villu og Gefðu upp kenni beiðninnar. Til að fá frekari upplýsingar er farið í  [stuðningsvalkosti Shopify](shopify-faq.md#shopify).
 
 ## Sjá einnig .
 

@@ -39,7 +39,7 @@ Til að sjá yfirlit yfir markaði sem nú eru studdir í Dynamics 365 skal sko�
 
 [Skráðu þig í ókeypis Dynamics 365 Business Central prufu](trial-signup.md)  
 [Algengar spurningar um prufuútgáfu Dynamics 365 Business Central](trial-faq.md)  
-[Velkomin(n) í [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
+[Velkomið að [!INCLUDE[prod_short](includes/prod_long.md)]](welcome.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Staðbundin virkni](about-localization.md)  
 [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

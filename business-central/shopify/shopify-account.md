@@ -50,6 +50,9 @@ Byrjaðu á því að ganga frá  [Shopify  Félagakerfinu](https://help.shopify
   1. *(fyrir próf) Bogus gátt*. Sjá  [virkið Bogus Gateway fyrir prófun](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction) fyrir frekari upplýsingar.
   2. *Shopify greiðslur*  í prófunarham. Frekari upplýsingar um  [prófgreiðslur Shopify](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
+> [!Note]  
+> Þróunarbúðir eru yfirleitt lykilorð varin. Þegar þú reynir að opna tiltekna síðu í netverslun frá  [!INCLUDE [prod_short](../includes/prod_short.md)] t.d. til að fara í ákveðna vöru eða pöntun þarftu að slá inn lykilorðið þitt. Meðan þú ert að prófa, til að forðast að slá inn aðgangsorðið þitt, Skráðu þig inn í  Shopify  admin og Opnaðu verslunina þína þaðan. Þú þarft ekki að færa inn Store aðgangsorðið fyrr en þú lokar vafranum þínum eða setrið rennur út.  
+
 ## Sjá einnig
 
 [Byrjaðu með  Shopify  tengiflugi](get-started.md)  

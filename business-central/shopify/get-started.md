@@ -60,7 +60,7 @@ Endurtaktu skref 2-6 fyrir allar netverslanir sem þú vilt tengjast.
 
 - Vafrinn lokar sprettiglugganum. Þegar þú kveikir á virkjunni skipta opnar bið eftir svari-ekki loka þessari síðu  **á meðan hún bíður eftir aðgangstákn**  .  [!INCLUDE [prod_short](../includes/prod_short.md)]  **·**  Shopify Ef þessi síða er lokuð eða lokuð er ekki hægt að  Shopify tengjast. Frekari upplýsingar er að finna í [Biðja um aðgangslykilinn](troubleshoot.md#request-the-access-token).
 - [Villa:  Oauth  villa invalid_request: Ekki tókst að finna  Shopify  API-forrit með api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Ekki hægt að tengja frá sandkassa](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [Ekki hægt að tengja frá sandkassa](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Næstu skref
 
@@ -96,7 +96,11 @@ Ef nota þarf þessa skilgreiningu er mælt með því að endurskoða og líkle
 * **Shopify hægt að uppfæra viðskiptamenn**  til að uppfæra ekki fyrirliggjandi viðskiptavini
 * **Stofna sölupöntun**  sjálfvirkt til að stofna sölupantanir og sölureikninga sjálfkrafa
 
+Sjá  [endurheimt umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore) fyrir frekari upplýsingar.
+
 ### Shopify framleiðsla og rekstur Aðalbox sandkassan
+
+Það gæti verið góð hugmynd að taka öryggisafrit af gögnunum. Til dæmis útflutning á vörum og viðskiptavinum. Frekari upplýsingar er að finna í using CSV skrár til að fá  [öryggisafrit af verslunarupplýsingum](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
 Slökkva á  **Allow gögnum samkeyrslu til að  Shopify**  skipta því sem  [!INCLUDE[prod_short](../includes/prod_short.md)]  ekki skrifar yfir á Shopify. Í þessu tilfelli er hægt að flytja inn vörur, myndir, viðskiptavini og pantanir frá Shopify. En það verður ekki hægt að senda vöru, verð, birgðastig, viðskiptamenn, upplýsingar um  Shopify uppfyllingu.
 

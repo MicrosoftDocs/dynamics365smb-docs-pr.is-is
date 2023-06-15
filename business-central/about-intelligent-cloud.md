@@ -37,7 +37,7 @@ Síðan tengist einnig Power BI fyrir enn meiri innsýn. Annars er hægt að ten
 
 ## Sjá einnig
 
-[Velkomin(n) í Business Central](index.md)  
+[Velkomin á Viðskiptamiðmið](welcome.md)  
 [Viðbætur skýjaflutnings](ui-extensions-data-replication.md)  
 [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 

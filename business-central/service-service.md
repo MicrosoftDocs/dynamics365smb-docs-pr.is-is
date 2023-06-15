@@ -39,7 +39,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## Sjá einnig  
 [Stjórnun útistandandi reikninga](receivables-manage-receivables.md)   
 [Verk](projects-how-create-jobs.md)   
-[Velkomin(n) í [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
+[Velkomið að [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

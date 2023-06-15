@@ -16,12 +16,12 @@ ms.author: bholtorf
 
 ## Setja upp notandareikning stjórnanda
 
-Þú verður að bæta við notandareikningi stjórnanda fyrir [!INCLUDE[prod_short](includes/prod_short.md)] sem notandi í [!INCLUDE[cds_long](includes/cds_long_md.md)]. Þegar tengingin er sett upp á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] notum við þennan reikning í eitt skipti til að setja upp og grunnstilla nokkra nauðsynlega íhluti.
+Til að setja upp tenginguna á milli  [!INCLUDE[prod_short](includes/prod_short.md)]  og  [!INCLUDE[prod_short](includes/cds_long_md.md)] þarf að skrá sig inn til  [!INCLUDE[prod_short](includes/prod_short.md)]  með notandareikning sem er úthlutað  [!INCLUDE[prod_short](includes/prod_short.md)]  á nauðsynleg eða  [!INCLUDE[prod_short](includes/prod_short.md)]  leyfisskyld iðgjöld. Við notum þennan lykil eitt sinn til að setja upp og skilgreina nokkra nauðsynlega íhluti.
 
 > [!IMPORTANT]
-> Notandareikningur stjórnandans þarf að vera leyfður notandi með öryggishlutverkið **Kerfisstjóri** í [!INCLUDE[prod_short](includes/cds_long_md.md)] umhverfinu og altækur stjórnandi í leigjandanum sem umhverfið tilheyrir. Þessi reikningur þarf ekki leyfi til að [!INCLUDE[prod_short](includes/prod_short.md)] því hann verður notaður aðeins til að úthluta þjónustunni í [!INCLUDE[prod_short](includes/cds_long_md.md)] leigjandanum og til að gera uppsetningarverk.
+> Á meðan á uppsetningu stendur ertu beðin (ur) um að útvega skilríki fyrir  [!INCLUDE[prod_short](includes/cds_long_md.md)]  umhverfið. Framvísa skal skilríkjum á reikningi sem er heimilandi notanda og settur  **·**  í öryggishlutverk kerfisstjóra á  [!INCLUDE[prod_short](includes/cds_long_md.md)]  umhverfinu og altæka stjórnun á þeim leigjanda sem umhverfið tilheyrir. Þessi reikningur þarf ekki leyfi til  [!INCLUDE[prod_short](includes/prod_short.md)]  vegna þess að hann verður eingöngu notaður til að gera uppsetningarverkefni í  [!INCLUDE[prod_short](includes/cds_long_md.md)]  appinu.
 >
-> Eftir að tengingu uppsetningar er lokið er hægt að fjarlægja þennan [!INCLUDE[prod_short](includes/cds_long_md.md)] notanda. Samþættingin heldur áfram að nota notandareikninginn sem er búinn sjálfkrafa til fyrir samþættinguna.
+> Þegar Uppsetning tengingar er lokið er hægt að fjarlægja  [!INCLUDE[prod_short](includes/cds_long_md.md)]  notandann. Samþættingin heldur áfram að nota notandareikninginn sem er búinn sjálfkrafa til fyrir samþættinguna.
 
 ## Heimildir og öryggishlutverk fyrir notandareikninga í [!INCLUDE[prod_short](includes/cds_long_md.md)]
 

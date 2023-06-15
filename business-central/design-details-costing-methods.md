@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 03/24/2022
+ms.date: 05/12/2023
 ms.author: bholtorf
 ---
 # Hönnunarupplýsingar: Aðferð kostn.útreiknings
@@ -32,13 +32,22 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[prod_short](includes/prod_short
 ![Myndræn framsetning kostnaðarútreiknings.](media/design_details_inventory_costing_7_costing_methods.png "Myndræn framsetning kostnaðarútreikninga")  
 
 Aðferð kostnaðarútreiknings eru mismunandi í því hvernig þeir meta birgðaminnkun og hvort þær nota raunkostnað eða staðalkostnað vörubirgðir sem grunn matsins. Eftirfarandi tafla útskýrir mismunandi einkenni. (LIFO-aðferðin er útilokuð þar sem hún er mjög svipuð FIFO-aðferðinni.)  
-
-|Tegund|FIFO|Meðaltal|Staðlað|Sérstakt|  
+<!--Old  table
+|Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
-|Almennir eiginleikar|Auðskilið|Byggt á tímabilsvalkostum: **Dagur**/**/Vika/**/**Mánuður**/**/Ársfjórðungur/**/**Reikningstímabil**.<br /><br /> Hægt að reikna út á vöru , eða á vörueiningu/staðsetningu/afbrigði.|Einfalt í notkun en þarf gott viðhald.|Krefst vörurakningar á bæði færslur á innleið og útleið.<br /><br /> Venjulega notað fyrir vörur með raðnúmer.|  
-|Jöfnun/Leiðrétting|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Leiðrétting framsendir kostnað í samræmi við jöfnun magns.|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Kostnaður er reiknaður og sendur á **dagsetningu mats**|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Jöfnun byggist á FIFO.|Allar jafnanir eru fastar.|  
-|Endurmat|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að gera á vöru eingöngu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar innheimt og óreikningsfærðan magn.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|  
-|Ýmislegt|Ef birgðaminnkun er endurdagsett eru færslur sem fyrir eru EKKI endurjafnaðar til að setja fram rétt FIFO-kostnaðarflæði.|Ef birgðaaukning eða -minnkun er endurdagsett er meðalkostnaðurinn endurreiknaður og allar færslur sem verða fyrir áhrifum eru leiðréttar.<br /><br /> Ef tímabili eða gerð útreikninga er breytt verður að leiðrétta allar færslur sem verða fyrir áhrifum.|Notaðu síðuna **Staðlað vinnublað** til að uppfæra reglulega og taka saman staðalkostnaði.<br /><br /> Er EKKI studd á birgðahaldseiningu.<br /><br /> Engar sögulegar færslur eru til staðar fyrir staðlaðan kostnað.|Hægt er að nota sértæka vörurakninguán þess að nota Tilgreinda aðferð kostnaðarútreiknings. Kostnaðurinn mun þá EKKI fylgja lotunúmerinu, heldur kostnaðaráætlun valinnar aðferðar kostnaðarútreiknings.|  
+|General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|  
+|Application/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  
+|Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
+|Miscellaneous|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
+-->
+<!--Table flipped for slightly better readability -->
+
+||Almennir eiginleikar|Jöfnun/Leiðrétting |Endurmat|Blandað |
+|-|---------|---------|---------|---------|
+|**FIFO**     |Auðskilið|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Leiðrétting framsendir kostnað í samræmi við jöfnun magns. |Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Ef birgðaminnkun er endurdagsett eru færslur sem fyrir eru EKKI endurjafnaðar til að setja fram rétt FIFO-kostnaðarflæði.|
+|**Meðaltal**     |Byggt á tímabilsvalkostum: **Dagur**/**/Vika/**/**Mánuður**/**/Ársfjórðungur/**/**Reikningstímabil**.<br /><br /> Hægt að reikna út á vöru , eða á vörueiningu/staðsetningu/afbrigði.|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Kostnaður er reiknaður og sendur á **dagsetningu mats** |Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að gera á vöru eingöngu.<br /><br /> Er hægt að gera aftur á bak í tíma. |Ef birgðaaukning eða -minnkun er endurdagsett er meðalkostnaðurinn endurreiknaður og allar færslur sem verða fyrir áhrifum eru leiðréttar.<br /><br /> Ef tímabili eða gerð útreikninga er breytt verður að leiðrétta allar færslur sem verða fyrir áhrifum.|
+|**Staðlað**     |Einfalt í notkun en þarf gott viðhald.|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Jöfnun byggist á FIFO.|Uppreiknar innheimt og óreikningsfærðan magn.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Notaðu síðuna **Staðlað vinnublað** til að uppfæra reglulega og taka saman staðalkostnaði.<br /><br /> Er EKKI studd á birgðahaldseiningu.<br /><br /> Engar sögulegar færslur eru til staðar fyrir staðlaðan kostnað.|
+|**Sérstakt**     |Krefst vörurakningar á bæði færslur á innleið og útleið.<br /><br /> Venjulega notað fyrir vörur með raðnúmer.|Allar jafnanir eru fastar.|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Hægt er að nota sértæka vörurakninguán þess að nota Tilgreinda aðferð kostnaðarútreiknings. Kostnaðurinn mun þá EKKI fylgja lotunúmerinu, heldur kostnaðaráætlun valinnar aðferðar kostnaðarútreiknings.|
 
 ## Dæmi
 
@@ -140,13 +149,14 @@ Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem gru
 
 ## Sjá einnig
 
- [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
- [Hönnunarupplýsingar Frávik](design-details-variance.md)   
- [Hönnunarupplýsingar: Meðalkostnaður](design-details-average-cost.md)   
- [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
- [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
- [Fjármál](finance.md)  
- [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
+[Hönnunarupplýsingar Frávik](design-details-variance.md)  
+[Hönnunarupplýsingar: Meðalkostnaður](design-details-average-cost.md)  
+[Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
+[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
+[Fjármál](finance.md)  
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Orðalisti yfir hugtök í Dynamics 365 viðskiptaferlar](/dynamics365/guidance/business-processes/glossary)  
+[Skilgreina Yfirlit fyrir kostnað vöru og þjónustu](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

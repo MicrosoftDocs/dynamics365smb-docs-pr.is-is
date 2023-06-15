@@ -1,16 +1,14 @@
 ---
 title: Skrá sérstök söluverð og afslætti
 description: Lýsir því hvernig á að skilgreina verðlagningu og afsláttarsamninga fyrir söluskjöl.
-author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 06/13/2023
+ms.custom: bap-template
 ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
-ms.date: 06/03/2022
-ms.author: bholtorf
 ---
 
 # Skrá sérstök söluverð og afslætti
@@ -22,7 +20,11 @@ ms.author: bholtorf
 
 * „Eitt verð fyrir allt“ líkön þar sem vara er alltaf seld á sama verðinu.
 * Sérstakir verðsamningar við tiltekna viðskiptavini, eða hópa viðskiptavina.
-* Herferðir þegar sala uppfyllir skilyrði fyrir sértilboð. Til dæmis gæti skilyrðið verið þegar pöntun nær lágmarksmagni, kemur á undan ákveðinni dagsetningu eða inniheldur ákveðna vörutegund.  
+* Herferðir þegar sala uppfyllir skilyrði fyrir sértilboð. Til dæmis gæti verið eftirfarandi skilyrði fyrir pöntun:
+
+  * Það uppfyllir lágmarksmagn
+  * Það er áður ákveðin dagsetning
+  * Það felur í sér ákveðna tegund vöru-  
 
 Til að nota einfalt verðlagningarlíkan þarf aðeins tilgreina einingarverð þegar vara eða tilfang er sett upp. Það verð verður alltaf notað í söluskjölum. Fyrir flóknari líkön, til dæmis þegar boðið er upp á sérverð fyrir söluherferð, er hægt að tilgreina skilyrði á síðunni **Söluverð**. Hægt er að bjóða sérverð sem byggja á samsetningum af eftirfarandi upplýsingum:  
 
@@ -32,13 +34,13 @@ Til að nota einfalt verðlagningarlíkan þarf aðeins tilgreina einingarverð 
 * Lágmarksmagn
 * Dagsetningar sem skilgreina tímabilið sem verðin gilda fyrir.
 
-Þegar þú hefur sett upp sérverð getur [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa reiknað út besta verðið í sölu- og innkaupaskjölum og í verki og færslubókarlínum. Frekari upplýsingar má finna á [Útreikningur besta verðs](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Þegar búið er að setja upp sérstakt verð er  [!INCLUDE[prod_short](includes/prod_short.md)]  hægt að reikna besta verð í sölu-og innkaupaskjölum og í línum á vinnslum og vörubókum. Frekari upplýsingar má finna á [Útreikningur besta verðs](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Til að fá söluafslátt er hægt að setja upp tvær gerðir:
 
-| Afsláttargerð | Lýsing |
+| Afsláttargerð | Heimildasamstæða |
 | --- | --- |
-| **Sölulínuafsláttur** |Upphæð sem er sett inn í sölulínur ef þær innihalda tiltekna samsetningu á viðskiptamanni, vöru, lágmarksmagni, mælieiningu, eða upphafs-/lokadagsetningu. Þetta virkar á sama hátt og fyrir söluverð. |
+| **Sölulínuafsláttur** |Bæta upphæð við sölulínur sem hafa ákveðna samsetningu af viðskiptamanni, vöru, lágmarksmagni, mælieiningu eða upphafs-og lokadagsetningu. Þetta virkar á sama hátt og fyrir söluverð. |
 | **Reikningsafsláttur** |Afsláttarprósenta sem er dregin frá samtölu söluskjals ef summa allra lína í skjalinu fer yfir ákveðið lágmark. |
 
 > [!TIP]  
@@ -85,22 +87,22 @@ Mest af nýju upplifuninni af söluverði svipar til núverandi upplifunar, en n
 
 * Ef þú vilt vinna með öll verð á einni síðu skaltu kveikja á honum. Fyrirliggjandi verðum verður breytt í einn sjálfgefinn verðlista fyrir hvert af eftirfarandi skjölum:
 
-    * Sölur
-    * Innkaup
-    * Verksala
-    * Verkinnkaup
+  * Sölur
+  * Innkaup
+  * Verksala
+  * Verkinnkaup
 
-    Hægt er að breyta öllum verðum fyrir þessi svæði á síðunni **Vinnublað verðs**. Sjálfgefnir verðlistar verða stilltir á síðunum **Uppsetning sölugrunns**, **Uppsetning innkaupagrunns** og **Uppsetning verka**. 
+  Hægt er að breyta öllum verðum fyrir þessi svæði á síðunni **Vinnublað verðs**. Sjálfgefnir verðlistar verða stilltir á síðunum **Uppsetning sölugrunns**, **Uppsetning innkaupagrunns** og **Uppsetning verka**.
 
 > [!NOTE]
 > Ef verð eru aðeins stillt á vöru- eða forðaspjölum verða sjálfgefnir verðlistar ekki fylltir út með þessum verðum við gagnauppfærslu. Hins vegar er hægt að opna sjálfgefna verðlista eða síðuna **Vinnublað verðs** og nota aðgerðina **Tillögur um línur** til að bæta við verðunum sem stillt eru á vöru- eða forðaspjöldum.
 
-* Til að nota söluverðlista skal slökkva á honum. Fyrirliggjandi verðum verður breytt í nýjan verðlista fyrir hverja samsetningu af eftirfarandi atriðum: 
+* Til að nota söluverðlista skal slökkva á honum. Fyrirliggjandi verðum verður breytt í nýjan verðlista fyrir hverja samsetningu af eftirfarandi atriðum:
 
-* Viðskiptavinur
-* Viðskiptamannaflokkur eða söluherferð
-* Upphafs- og lokadagsetningar
-* Gjaldmiðlar 
+  * Viðskiptavinur
+  * Viðskiptamannaflokkur eða söluherferð
+  * Upphafs- og lokadagsetningar
+  * Gjaldmiðlar
 
 Ef þú ert með margar samsetningar færðu marga verðlista.
 
@@ -158,7 +160,7 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
 2. Velja skal **Leggja til söluverð á vinnublaði** Aðgerð  
 3. Á flýtiflipanum **Söluverð** skal færa þá **tegund sölu** og **kóta sölu** sem gilda í söluverðinu sem á að afrita inn í reitina.  
 4. Efst á beiðnisíðunni er fyllt út í reitunum **Tegund sölu** og **Kóta sölu** með gerðinni og heitinu sem afrita á söluverðið í.  
-5. Ef stofna á nýtt verð í keyrslunni er gátreiturinn **Stofna nýtt verð** valinn.  
+5. Ef keyrslan á að búa til nýtt verð er gátreiturinn Stofna nýtt verð  **valinn** .  
 6. Veldu hnappinn **Í lagi** til að setja nýtt verð í línurnar á síðunni **Vinnublað söluverðs** með nýju verðtillögunum sem gefur til kynna að þau gildi fyrir þá tegund sölu sem var valin.  
 
    > [!NOTE]  
@@ -166,9 +168,12 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
 
 #### [Ný reynsla](#tab/new-experience/)  
 
-Þú getur tilgreint hvort nýi verðlistinn notar stillingarnar úr hausnum á listanum sem þú afritar eða stillingarnar úr nýja listanum sem þú afritar í. Til að nota stillingarnar úr verðlistanum sem þú afritar verðin í skaltu kveikja á **Nota sjálfgefið úr markmiði**.
+Hægt er að tilgreina stillingarnar sem verðlistinn mun nota:
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluverðlistar** og veldu síðan tengda tengilinn. 
+* Notaðu stillingarnar í hausnum á listanum sem þú ert að afrita.
+* Notaðu stillingarnar af listanum sem þú ert að afrita í. Til að nota stillingarnar úr verðlistanum sem þú afritar verðin í skaltu kveikja á **Nota sjálfgefið úr markmiði**.
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluverðlistar** og veldu síðan tengda tengilinn.
 2. Velja skal verðlistann sem á að afrita og velja síðan **Afrita línur**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -185,8 +190,17 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
 
 Til að uppfæra mörg vöruverð í einu, t.d. hækka öll verð um sömu prósentuna, er hægt að fylla út síðuna „Vinnublað söluverðs“ með því að nota eftirfarandi runuvinnslur:
 
-* **Leggja til söluverð á vinnublaði** leggur til breytingar með tvennum hætti. Annaðhvort með því að nota leiðréttingarstuðul á fyrirliggjandi söluverð eða með því að afrita núverandi söluverðssamninga á aðra viðskiptamenn, viðskiptamannahópa eða söluherferðir.
-* **Leggja til vöruverð á vinnublaði** leggur til breytingar með tvennum hætti. Annaðhvort með því að nota leiðréttingarstuðul á fyrirliggjandi einingarverð í vöruspjöldum eða með því að leggja til verð fyrir nýjar samsetningar af gjaldmiðli, mælieiningu og svo framvegis. Einingarverðunum á vörum er ekki breytt í þessari runuvinnslu.  
+* **Leggja til söluverð á vinnublaði** Bendir til breytinga á annan af tveim leiðum:
+
+  * Með því að beita leiðréttingarstuðli að núverandi söluverði.
+  * Með því að afrita fyrirliggjandi samninga um söluverð til annarra viðskiptamanna, verðflokka viðskiptamanna eða söluherferðir.
+
+* **Leggja til vöruverð á vinnublaði** Bendir til breytinga á annan af tveim leiðum:
+
+  * Með því að beita leiðréttingarstuðli á tiltækt einingarverð á birgðaspjöldum.
+  * Með því að leggja til verð fyrir nýjar samsetningar á gjaldmiðli, mælieiningar o. þ. frv.
+
+  Þessi keyrsla breytir ekki einingarverði á vörum.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.  
 2. Veldu **Leggja til vöruverð á vinnublaði** Aðgerð  
@@ -219,7 +233,7 @@ Besta verðið er lægsta verðið með hæsta leyfilega línuafsláttinn á til
 
     * Er þessi viðskiptamaður með sérstakan samning um verð eða línuafslætti, eða tilheyrir viðskiptamaðurinn hóp með slíkan samning?
     * Fellur varan eða vöruafsláttarflokkurinn á línunni undir þessa samninga?
-    * Er pöntunardagsetningin (eða bókunardagsetning reikningsins og kreditreikningsins) á milli upphafs- og lokadagsetningar verðs/línuafsláttar?
+    * Er dagsetningin innan upphafs-og lokadagsetningar verð-/afsláttarsamningsins? Fyrir reikninga og kreditreikninga er þetta dagsetningin í  **reitnum Bókunardags** . Fyrir öll önnur skjöl er dagsetningin í  **reitnum Pöntunardagsetning**  á hausum þeirra.
     * Er mælieiningarkóti tilgreindur? Ef svo er leitar [!INCLUDE[prod_short](includes/prod_short.md)] að verði/línuafslætti með sama mælieiningarkóða og verði/afslætti án mælieiningarkóða.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] athugar hvort einhverjir verð-/afsláttarsamningar eigi við um upplýsingar í skjala- eða færslubókarlínunni. Síðan setur það inn viðeigandi einingarverð og línuafsláttarprósentu með því að nota eftirfarandi skilyrði:

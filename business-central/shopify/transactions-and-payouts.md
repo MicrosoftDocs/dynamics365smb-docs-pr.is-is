@@ -1,13 +1,13 @@
 ---
 title: Samstilla færslur og greiðslur
 description: Settu upp og keyrðu innflutning á færslum og greiðslum frá Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30124, 30125, 30130, 30131, 30132, 30133, 30134,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Færslur og greiðslur
@@ -21,6 +21,8 @@ Ef þú notar Shopify greiðslu sem greiðsluþjónustuaðila getur þú einnig 
 Greiðslufærslurnar sem eiga sér stað í Shopify eru samstilltar við pantanirnar og er hægt að skoða þær á síðunni **Shopify Pantanir**.
 
 Til að fara yfir allar færslur skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Færslur** og velja viðkomandi tengil.
+
+ **Bókaða Reikningnr.**  svæðið getur verið hjálplegt í afstemmingarferlinu.
 
 Ef þú grunnstilltir vörpun greiðslumáta mun stofnað söluskjal fá kóða greiðslumáta úthlutaðan. Frekari upplýsingar er að finna í [Vörpun greiðslumáta](#payment-method-mapping).
 

@@ -1,18 +1,18 @@
 ---
 title: Samstilla viðskiptavini
 description: Flytja inn viðskiptamenn úr eða flytja þá út í Shopify
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Samstilla viðskiptavini
 
-Þegar pöntun er flutt inn úr Shopify er mikilvægt að fá upplýsingar um viðskiptamanninn fyrir frekari vinnslu á skjalinu í [!INCLUDE[prod_short](../includes/prod_short.md)]. Það eru tveir meginmöguleikar til að gera svo og samsetningar þeirra:
+Þegar pöntun er flutt inn frá  Shopify, fá upplýsingarnar um viðskiptamanninn nauðsynlegt fyrir frekari vinnslu skjalsins í [!INCLUDE[prod_short](../includes/prod_short.md)]. Það eru tveir meginmöguleikar til að gera það, og nokkrar samsetningar:
 
 * Notaðu sérstakan viðskiptamann fyrir allar pantanir.
 * Flyttu inn raunverulegar upplýsingar um viðskiptamann úr Shopify. Þessi valkostur er einnig í boði þegar þú flytur út viðskiptamenn í Shopify úr [!INCLUDE[prod_short](../includes/prod_short.md)] fyrst.
@@ -21,7 +21,7 @@ ms.reviewer: solsen
 
 Hvort sem þú fluttir inn viðskiptavini frá  Shopify  í fjöldaeða þegar þú pantar, Notaðu þá eftirfarandi stillingar til að stjórna ferlinu:
 
-|Svæði|Description|
+|Svæði|Heimildasamstæða|
 |------|-----------|
 |**Innflutningur viðskiptamanns úr Shopify**|Veldu **Allir viðskiptamenn** ef þú ætlar að flytja inn viðskiptamenn úr Shopify í magni; annaðhvort handvirkt með aðgerðinni **Samstilla viðskiptamenn** eða í gegnum verkröðina fyrir endurteknar uppfærslur. Óháð því hvað er valið munu upplýsingar um viðskiptamanninn alltaf vera fluttar inn með pöntuninni. Notkun þessara upplýsingar eru hins vegar háðar **Shopify Viðskiptamannasniðmátum** og stillingum í reitnum **Vörpunargerð viðskiptamanns**.|
 |**Vörpunargerð viðskiptamanns**|Skilgreindu hvernig tengillinn á að framkvæma vörpunina.<br>- **Með tölvupósti/síma** ef þú vilt að tengillinn varpi innfluttum Shopify viðskiptamanni í fyrirliggjandi viðskiptamann í [!INCLUDE[prod_short](../includes/prod_short.md)] með tölvupósti og síma.</br>- **Eftir upplýsingum um „reikningsfæra á“** ef þú vilt að tengillinn noti aðsetur viðtakanda reikningsins til að varpa innfluttum Shopify viðskiptamanni í fyrirliggjandi viðskiptamann í [!INCLUDE[prod_short](../includes/prod_short.md)].</br>- Veldu **Alltaf taka sjálfgefinn viðskiptamann** ef þú vilt að kerfið noti viðskiptamann úr **Sjálfgefnu viðskiptamannanr.** . |
@@ -36,10 +36,9 @@ Hægt er að skilgreina sumar stillingar á stigi lands/svæðis eða ríkis/hé
 Þú getur gert eftirfarandi fyrir hvern viðskiptamann með því að nota **Shopify Sniðmát viðskiptamanns**:
 
 1. Tilgreindu **Sjálfgefið viðskiptamannanr.**, sem hefur forgang fram  yfir valið í reitunum **Innflutningur viðskiptamanns úr Shopify** og **Vörpunargerð viðskiptamanns**. Þetta er notað í innfluttri sölupöntun.
-2. Skilgreindu **Sniðmátskóða viðskiptamanns**, sem er notaður til að stofna viðskiptamenn sem vantar ef **Stofna óþekkta viðskiptamenn sjálfkrafa** er virkjað. Ef **Sniðmátskóði viðskiptamanns** er auður, þá notar aðgerðin **Sniðmátskóði viðskiptamanns** sem skilgreind er í **Shopify Verslunarkort**.
-3. Skilgreina hvort verð innihaldi VSK/skatt fyrir innfluttar pantanir.
-4. Í sumum tilfellum er **Sniðmátskóði viðskiptamanns** sem skilgreindur er fyrir land ekki nóg til að tryggja réttan útreikning á sköttum (til dæmis fyrir lönd með söluskatti). Í þessu tilfelli gæti verið gagnlegt að bæta við **Skattsvæðum**.
-5. Svæðið skattsvæði inniheldur einnig landskóta  **og**  par sem  **Sýsla heiti**  .  **·**  Þetta par er gagnlegt þegar Connector þarf að umbreyta kóta í heiti, eða öfugt.
+2. Skilgreindu **Sniðmátskóða viðskiptamanns**, sem er notaður til að stofna viðskiptamenn sem vantar ef **Stofna óþekkta viðskiptamenn sjálfkrafa** er virkjað. Ef **Sniðmátskóði viðskiptamanns** er auður, þá notar aðgerðin **Sniðmátskóði viðskiptamanns** sem skilgreind er í **Shopify Verslunarkort**. Kerfið reynir fyrst að finna sniðmát fyrir  **contry/svæðiskótann**  fyrir sjálfgefna aðsetrið. Ef hann finnur ekki sniðmát notar það fyrsta aðsetrið.
+3. Í sumum tilfellum er Sniðmátskóti  **viðskiptamanns sem**  skilgreindur er fyrir land ekki nægur til að tryggja rétta skattaútreikninga (til dæmis fyrir lönd með VSK). Í þessu tilviki gæti þar með  **skattsvæði**  verið gagnleg viðbót.
+4. Svæðið skattsvæði inniheldur einnig landskóta  **og**  par sem  **Sýsla heiti**  .  **·**  Þetta par er gagnlegt þegar Connector þarf að umbreyta kóta í heiti, eða öfugt.
 
 > [!NOTE]  
 > Landskóðar eru ISO 3166-1 og alfa-2 landskóðar. Frekari upplýsingar er að finna í [Landskóði](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -48,7 +47,7 @@ Hægt er að skilgreina sumar stillingar á stigi lands/svæðis eða ríkis/hé
 
 Hægt er að flytja núverandi viðskiptavina í Shopify í miklu magni. Í hverju tilviki er búinn til viðskiptavinur og eitt sjálfgefið heimilisfang. Þú getur stjórnað ferlinu með eftirfarandi stillingum:
 
-|Svæði|Description|
+|Svæði|Heimildasamstæða|
 |------|-----------|
 |**Flytja út viðskiptamenn í Shopify**|Þessi kostur er valinn ef flytja á út alla viðskiptavini úr  [!INCLUDE[prod_short](../includes/prod_short.md)]  Shopify  í magn. Þetta er hægt að gera annaðhvort handvirkt með aðgerðinni **Samstilla viðskiptamenn** eða sjálfkrafa með verkröð fyrir endurteknar uppfærslur.<br> Þegar fluttir eru út viðskiptamenn með aðsetur sem inniheldur héröð/ríki skaltu ganga úr skugga um **ISO-kóði** sé útfylltur fyrir löndin/svæðin.|
 |**Getur uppfært Shopify viðskiptamenn**|Þessi valkostur vinnur saman með  **útflutningsviðskiptamanninum sem á að  Shopify**  setja. Gera þennan valkost virkan ef mynda á uppfærslur síðar frá  [!INCLUDE[prod_short](../includes/prod_short.md)]  fyrir viðskiptamenn sem eru þegar til í Shopify.|

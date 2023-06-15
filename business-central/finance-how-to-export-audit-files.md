@@ -11,7 +11,7 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: null
+ms.reviewer: kfend
 ---
 
 # Útflutningur endurskoðunarskráar
@@ -60,7 +60,7 @@ Fylgið þessum skrefum til að veita vörpun fjárhagsreikningsins til útflutn
 8. Ef reiturinn reikningstímabil  **er stilltur**  er sjálfkrafa stillt á upphafs  **-og**  lokadagsetningar  **-grundvelli tímabilsins sem tilgreint var.**  Annars er hægt að stilla upphafs-og lokadagsetningar fyrir skýrslugerð þína handvirkt.
 9. Ef þú hefur þegar bætt við stöðluðum bókhaldslykli, Fylgdu þessum skrefum:
 
-    1.  **Í stöðluðu Reikningategund nr**. Er tilgreindur Flokkur staðlaða reikningsins eða flokkunarkóðanum sem er notaður við vörpun.
+    1.  **Í stöðluðu Reikningategund nr.** Er tilgreindur Flokkur staðlaða reikningsins eða flokkunarkóðanum sem er notaður við vörpun.
     2.  **Í Staðalreikningi nr.**  er tilgreindur Staðlaður Lykilkóði eða flokkunarkóði sem notaður er við vörpun.
 
 10.  **Veljið gátreitinn hafa aðsenda stöðu**  til að líta á stöðu fjárhagsreiknings  **·**  fyrir vörpun í stað nettóbreytinga á skýrslutímabilinu.
@@ -98,10 +98,9 @@ Fylgið þessum skrefum til að veita vörpun fjárhagsreikningsins til útflutn
 > Ef þú ert með margar færslur í útflutningi mælum við ekki með því að þær séu útflutt í gildandi lotu vegna hugsanlegra afkastamáta. Þess í stað mælum við með að þú beitir þér samhliða vinnslu þar sem ekki eru Vinnudagar eða tímar.
 
 ## Sjá einnig .
-
 [Fjármálastjórnun](finance.md)  
 [Skilningur á fjárhag og bókhaldslyklum](finance-general-ledger.md)  
 [Vinna með víddir](finance-dimensions.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

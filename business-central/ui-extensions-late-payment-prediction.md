@@ -118,7 +118,7 @@ Ef svo virðist sem ferli notanda stemmi ekki við staðlaða líkanið er samt 
 
 [Fylgiskjöl fyrir Azure-vélnámsstúdíó](/azure/machine-learning/classic/)  
 [Sérstilling Business Central með viðbótum](ui-extensions.md)  
-[Velkomin(n) í [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+[Velkomið að [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Nota gervigreind í Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

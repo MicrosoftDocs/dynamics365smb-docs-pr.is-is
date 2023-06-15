@@ -1,20 +1,20 @@
 ---
 title: Samstilla vörur og birgðir
 description: Setja upp og keyra samstillingar vara milli Shopify og Business Central
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: AndreiPanko
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Samstilla vörur og birgðir
 
-**Atriði** í [!INCLUDE[prod_short](../includes/prod_short.md)] eru jafngild *vörum* o Shopify og fela í sér efnislegar vörur, stafrænt niðurhal, þjónustu og gjafakort sem þú kannt að selja. Tvær meginástæður eru fyrir því að samstilla vörurnar:
+ **Vörurnar**  í  [!INCLUDE[prod_short](../includes/prod_short.md)]  eru sambærilegar þeim sem  *Vara*  í  Shopify  og eru með efnislegar vörur, stafrænt niðurhal, þjónustu og gjafakort sem seljast. Tvær meginástæður eru til að samstilla atriði:
 
-1. Gagnastjórnun fer fyrst og fremst fram í [!INCLUDE[prod_short](../includes/prod_short.md)]. Þú þarft að flytja öll eða sum gögn þaðan út í Shopify og gera þau sýnileg. Hægt er að flytja út vöruheiti, lýsingu, mynd, verð, framboð, afbrigði, upplýsingar um lánardrottinn og strikamerki. Þegar flutt hefur verið út er hægt að fara yfir atriðin eða gera þau sýnileg strax.
+1. Gagnastjórnun gerist fyrst og fremst hjá [!INCLUDE[prod_short](../includes/prod_short.md)]. Þú þarft að flytja öll eða sum gögn þaðan út í Shopify og gera þau sýnileg. Hægt er að flytja út vöruheiti, lýsingu, mynd, verð, framboð, afbrigði, upplýsingar um lánardrottinn og strikamerki. Þegar flutt hefur verið út er hægt að fara yfir atriðin eða gera þau sýnileg strax.
 2. Þegar pöntun frá Shopify er flutt inn eru upplýsingarnar um hlutina mjög mikilvægar fyrir frekari skjalavinnslu í [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 Sviðsmyndirnar tvær á undan eru alltaf virkar.
@@ -38,7 +38,7 @@ Sviðsmyndirnar tvær á undan eru alltaf virkar.
 
 Fyrst skaltu flytja inn vörur annað hvort í lausu frá Shopify eða ásamt pöntunum til að bæta þeim við töfluna **Shopify Vara** og **Shopify Afbrigði**. Síðan varpa innfluttar vörur og afbrigði á vörur og afbrigði í [!INCLUDE[prod_short](../includes/prod_short.md)]. Stjórna ferlinu með því að nota eftirfarandi stillingar:
 
-|Svæði|Description|
+|Svæði|Heimildasamstæða|
 |------|-----------|
 |**Búa til óþekktar vörur sjálfvirkt**|Þegar Shopify vörur og afbrigði eru flutt inn í [!INCLUDE[prod_short](../includes/prod_short.md)], reynir [!INCLUDE[prod_short](../includes/prod_short.md)] aðgerðin fyrst að finna samsvarandi skrá í vörulistanum. **Vörpun birgðahaldseiningar** hefur áhrif á hvernig samsvörun er framkvæmd og býr til nýja vöru og/eða vöruafbrigði. Virkjaðu þennan valkost ef búa á til nýja vöru eða þegar samsvarandi skrá er ekki til. Nýja varan er búið til með því að nota innflutt gögn og **Vörusniðmátskóða**. Ef þessi valkostur er ekki virkur þarftu að búa til vöru handvirkt og nota aðgerðina **Varpa vöru** á síðunni **Shopify Vara**.|
 |**Vörusniðmátskóði**|Notið þetta svæði með því að skipta óþekktu atriði  **út fyrir**  sjálfvirka stofna.<br>Veldu sniðmátið sem á að nota fyrir vörur sem eru sjálfkrafa búnar til.|
@@ -80,7 +80,7 @@ Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerði
 
 Þú stjórnar ferlinu við að flytja út vörur með þessum stillingum:
 
-|Svæði|Description|
+|Svæði|Heimildasamstæða|
 |------|-----------|
 |**Samstilla lengdan texta vöru**|Veljið þetta svæði til að samstilla lengdan texta vörunnar. Þar sem því verður bætt við í reitinn *Lýsing* getur það innihaldið HTML-kóða. |
 |**Samstilla vörueigindir**|Veljið þetta svæði til að samstilla eigindir atriðis. Eiginleikar eru sniðnir sem tafla og fylgja í reitnum *Lýsing* í Shopify.|
@@ -98,17 +98,17 @@ Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerði
 |------|-----------------|-----------------|
 |Staða|Samkvæmt reitnum **Staða fyrir stofnaðar vörur** í **Shopify Verslunarkortinu**. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
 |Titill | **Lýsing**. Ef tungumálakóðinn er skilgreindur og samsvarandi þýðing vöru er til verður þýðing vöru notuð í stað lýsingarinnar.|**Lýsing**|
-|Lýsing|Sameinar lengri texta og eiginleika ef samsvarandi valkostir Shopify á verslunarkortinu eru virkir. Hledur tungumálskóðanum.|Ekki notað.|
+|Heimildasamstæða|Sameinar lengda texta, markaðstexta og eiginleika ef viðkomandi víxlar eru virkjaðra á  Shopify  verkstæðisspjaldinu. Hledur tungumálskóðanum.|Ekki notað.|
 |Titill SEO-síðu|Fast gildi: autt. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
 |Lýsing SEO-lýsigagna|Fast gildi: autt. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
 |Geymslumiðill|**Mynd**. Fáðu frekari upplýsingar í hlutanum [Samstilla myndir af vörum](synchronize-items.md#sync-item-images)|**Mynd**|
-|Verð|Útreikningur á verði lokans-viðskiptamanns inniheldur einingarverð vöru, verðflokk viðskiptamanna, afsláttarflokk viðskiptamanns og gjaldmiðilskóta. Frekari upplýsingar í  [kaflanum Samkeyrsla verð](synchronize-items.md#sync-prices-with-shopify) |**Einingarverð**|
+|Verð|Útreikningur á verði lokans-viðskiptamanns inniheldur einingarverð vöru, verðflokk viðskiptamanna, afsláttarflokk viðskiptamanns og gjaldmiðilskóta. Frekari upplýsingar í  [kaflanum Samkeyrsla verð](synchronize-items.md#sync-prices-with-shopify) |**Einingaverði**. Verðið er aðeins innflutt í nýstofnuðum vörum en það verður ekki uppfært í síðar samstillingum.|
 |Samanburður á verði|Útreikningur á verði án afsláttar.|Ekki notað.|
-|Kostnaður á vöru|**Kostn.verð**|**Kostn.verð**|
+|Kostnaður á vöru|**Kostn.verð**|**Kostnaðarverð**. Einingarkostnaðurinn er aðeins fluttur inn í Nýstofnaðar vörur og uppfærist ekki í seinni samstillingum.|
 |BHE|Upplýsingar um SKUs undir  **skr Kortvörpun**  í  [útflutningsgreinum  Shopify](synchronize-items.md#export-items-to-shopify)  í kafla.|Lærðu á SKUs í  [áhrif  Shopify  vörunar skus og barkóða á vörpun og myndun vara og afbrigða í miðlægum](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)  hluta fyrirtækja.|
 |Strikamerki|**Vörutilvísanir** af gerð strikamerkis.|**Vörutilvísanir** af gerð strikamerkis.|
-|Rekja magn|Samkvæmt reitnum **Birgðir raktar** á síðunni **Kort í Shopify Verslunarkort**. Fáðu frekari upplýsingar í hlutanum [Birgðir](synchronize-items.md#sync-inventory-to-shopify).|Ekki notað.|
-|Halda áfram að selja þegar ekki er til á lager|Samkvæmt **Sjálfgefinni birgðastefnu** í **Shopify Verslunarkortinu**. Ekki flutt inn.|Ekki notað.|
+|Rekja magn|Samkvæmt reitnum **Birgðir raktar** á síðunni **Kort í Shopify Verslunarkort**. Fáðu frekari upplýsingar í hlutanum [Birgðir](synchronize-items.md#sync-inventory-to-shopify). Eingöngu notað þegar vara er flutt út í fyrsta sinn.|Ekki notað.|
+|Halda áfram að selja þegar ekki er til á lager|Samkvæmt **Sjálfgefinni birgðastefnu** í **Shopify Verslunarkortinu**. Eingöngu notað þegar vara er flutt út í fyrsta sinn.|Ekki notað.|
 |Gerð|**Lýsing** á **Vöruflokkskóða**. Ef tegundin er ekki tilgreind í Shopify er henni bætt við sem sérsniðinni tegund.|**Vöruflokkskóði**. Kortlagning eftir lýsingu.|
 |Lánardrottinn|**Nafn** lánardrottins frá **Nr. lánardrottins.**|**Númer lánardrottins** Vörpun eftir nafni.|
 |Þyngd|**Brúttóþyngd**.|Ekki notað.|
@@ -193,7 +193,7 @@ Hægt er að ræsa samstillingu mynda á þann hátt sem lýst er hér að neða
 
 Útflutningur á verði er notaður með þessum stillingum:
 
-|Svæði|Description|
+|Svæði|Heimildasamstæða|
 |------|-----------|
 |**Verðhópur viðskiptavinar**|Ákveða verð fyrir vöru í Shopify. Söluverð fyrir þennan verðflokk viðskiptamanns er notaður. Ef enginn flokkur er tilgreindur er notað verðið á birgðaspjaldinu.|
 |**Afsláttarflokkur viðskm.**|Ákvarða afsláttinn sem á að nota við útreikning verðs á vöru í Shopify. Afsláttur er ekki geymdur á  **verðsvæðinu**  og fullt verð er geymt á  **svæðinu bera saman við verð** .|
