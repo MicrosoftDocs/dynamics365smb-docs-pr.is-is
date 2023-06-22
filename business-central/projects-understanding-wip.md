@@ -11,7 +11,7 @@ ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Að skilja VÍV-aðferðir í verkefnastjórnun
+# <a name="understanding-wip-methods-in-project-management" />Að skilja VÍV-aðferðir í verkefnastjórnun
 
 Þegar verk er unnið er efni, forði og annar kostnaður notuð og þetta þarf að bóka á verkið. Verk í vinnslu (VÍV) er eiginleiki þar sem hægt er að meta fjárhagslegt virði verka í fjárhag eftir því sem verkinu miðar áfram. Oft er kostnaður bókaður áður en verk er reikningsfært. Þegar aðeins kostnaður hefur verið bókaður verður fjárhagsyfirlitið ónákvæmt.
 
@@ -27,9 +27,9 @@ Til að rekja gildi í fjárhagnum er hægt að reikna út VÍV og bóka gildið
 | Áfangaaðferð |Samþykktur kostnaður = Notkun (heildarkostnaður)<br /><br /> Samþykktar tekjur = Reikningshæft heildarverð x Prósentum lokið<br /><br /> Prósentum lokið = Notkun (heildarkostnaður) / Heildarkostnaður á fjárhagsáætlun<br /> (Sótt í reitinn **Kostnaði lokið %** í verkhlutalínum)<br /><br /> VÍV-sala = Samþykkt sala - Reikningshæft reikningsfært verð |Útreikningar á loknum prósentum samþykkja tekjur í hlutfalli byggt á loknum prósentum, þ.e. notkun (heildarkostnaði) á móti áætlunarkostnaði.<br /><br /> Skilyrði fyrir útreikningnum eru að reikningshæft heildarverð og heildarkostnaður á fjárhagsáætlun séu færð inn á réttan hátt fyrir allt verkið. |
 | Samn. sem er lokið |VÍV-upphæð = VÍV-kostnaðarupphæð = Notkun (heildarkostnaður)<br /><br /> VÍV-söluupphæð = Reikningshæft (Reikningsfært verð) |Með valkostinum Samningi lokið eru tekjur og kostnaður ekki samþykkt fyrr en verkinu er lokið. Þetta getur verið æskilegt þegar mikil óvissa ríkir um áætlun kostnaðar og tekna verksins.<br /><br /> Öll notkun er bókuð í VÍV kostnaðarreikning (eign) og allar reikningsfærðar sölur eru bókaðar í VÍV reikning fyrir reikningsfærðar sölur (skuld) þar til verkinu er lokið. |
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Sjá tengda [Microsoft þjálfun](/training/paths/calculate-post-job-wip/)
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  

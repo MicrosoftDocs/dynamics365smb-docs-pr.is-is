@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# Námskrá samstarfsaðila fyrir forsölu
+# <a name="partner-pre-sales-learning-catalog" />Námskrá samstarfsaðila fyrir forsölu
 
 Berð þú ábyrgð á því að sýna viðskiptavinum lykileiginleika? 
 
 Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og frá einföldustu til ítarlegustu þátta. Ef efni er til á mörgum sniðum látum við þig vita svo þú getir valið það þjálfunarsnið sem hentar þínum þörfum best. 
 
-## Hefjast handa<a name="get-started"></a>
+## <a name="get-starteda-nameget-starteda" />Hefjast handa<a name="get-started"></a>
 
 | Efni                                                                                                                              | Description                                                                                                                                                                                                                                                                                      | Snið                                | Lengd             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -23,21 +23,21 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | [Spilunarlisti Business Central YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube lendingarsíða fyrir Dynamics 365 Business Central-myndbönd | YouTube Myndbönd |                    |
 | [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Skoða Dynamics 365 Business Central möguleika                                                                                                                                                                                                                                               | Vefsvæði                               |                    |
 
-## Stækkaðu fyrirtækið þitt<a name="grow"></a>
+## <a name="grow-your-businessa-namegrowa" />Stækkaðu fyrirtækið þitt<a name="grow"></a>
 
 | Efni                                                                                                                                | Description                                                                                                                                                                                                                                                                                      | Snið                                | Lengd                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Samtöl við hugsanlega kaupendur (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761) | Errol Schoenfish, framkvæmdastjóri Vörumarkaðssviðs fjallar um hvernig á að hafa sannfærandi samræður við viðföng á Microsoft Dynamics 365 Business Central. | Myndband | 11 mínútur og 16 sekúndur |
 | [Dynamics 365 Business Central - Hvernig á að láta þetta rætast](https://mbspartner.microsoft.com/D365/Videos/101787) | Errol Schoenfish, framkvæmdastjóri Vörumarkaðssviðs fjallar um hvernig hafist er handa við að gera kynningaraðgerðir fyrir Microsoft Dynamics 365 Business Central. | Myndband | 12 mínútur 29 sekúndur |
 
-## Fyrirtækisvirði<a name="busvalue"></a>
+## <a name="business-valuea-namebusvaluea" />Fyrirtækisvirði<a name="busvalue"></a>
 
 | Efni                                                                                                                                | Description                                                                                                                                                                                                                                                                                      | Snið                                | Lengd                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/) | Skoða Dynamics 365 Business Central möguleika | Vefsvæði |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Þessi eining sýnir eiginleika forrita, ávinning og dæmi um Dynamics 365 Business Central í aðgerð. | Ókeypis námsleið á netinu á eigin hraða | 24 mínútur          |
 
-## Hvað er nýtt<a name="whatsnew"></a>
+## <a name="whats-newa-namewhatsnewa" />Hvað er nýtt<a name="whatsnew"></a>
 
 | Efni                                                                                                                                | Description                                 | Snið                                | Lengd                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

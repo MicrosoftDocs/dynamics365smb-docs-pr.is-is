@@ -10,7 +10,7 @@ ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
 ---
-# Innbyggð greining
+# <a name="built-in-analytics" />Innbyggð greining
 
 Með [!INCLUDE[prod_short](includes/prod_short.md)] fylgja eiginleikar sem gera þér kleift að greina gögn á uppsöfnuðu sniði. Þessi virkni er gagnleg ef til dæmis á að fylgjast með árangursmælikvörðum (KPI) í fjármálum eða greina fjárhagsskýrslur í Microsoft Excel. Hér fyrir neðan eru tenglar sem sýna þér hvernig á að nota hana.
 
@@ -23,7 +23,7 @@ Með [!INCLUDE[prod_short](includes/prod_short.md)] fylgja eiginleikar sem gera 
 |Greina fjárhagsgögn í mörgum fyrirtækjum | [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md) |
 |Fá innsýn í hvaða skýrslur notendur nota| [Fjarmælingar á skýrslunotkun](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Viðskiptagreind og skýrsluyfirlit](reports-use-reports.md)
 

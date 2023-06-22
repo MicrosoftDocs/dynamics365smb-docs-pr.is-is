@@ -10,7 +10,7 @@ ms.search.form: '663,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# Setja upp notendur samþykktar
+# <a name="set-up-approval-users" />Setja upp notendur samþykktar
 
 Áður en hægt er að stofna verkflæði sem fela í sér samþykktarskref verður að setja upp notendurna sem taka samþykktarferli með á  **síðu Samþykktarnotandans** . Einnig er hægt að stilla upphæðamörk fyrir mismunandi gerðir beiðna, skilgreina staðgengilstilkynningar og setja upp tilkynningar.  
 
@@ -19,7 +19,7 @@ Eftir að samþykktarnotendur hafa verið settir upp er hægt að stofna svör v
 > [!TIP]
 > Hægt er að krefjast þess að margir samþykkjendur bregðist við samþykktarbeiðni með því að stofna hóp samþykkjendur á  **síðu verkflæðisnotendaflokksins** . Frekari upplýsingar um  [uppsetningu notendaflokka verkflæðis](across-how-to-set-up-workflow-users.md).  
 
-## Uppsetning samþykkts notanda
+## <a name="to-set-up-an-approval-user" />Uppsetning samþykkts notanda
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -46,9 +46,9 @@ Eftir að samþykktarnotendur hafa verið settir upp er hægt að stofna svör v
 
 Næsta skref er að tilgreina hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  eigi að tilkynna fólki að beiðni sé í bið að þeirra athygli. Frekari upplýsingar um  [uppsetningu verkflæðistilkynninga](across-setting-up-workflow-notifications.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)  
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  

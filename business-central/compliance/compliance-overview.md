@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Yfirlit yfir reglufylgni
+# <a name="compliance-overview" />Yfirlit yfir reglufylgni
 
 Þetta efni inniheldur upplýsingar um reglufylgni í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
@@ -24,7 +24,7 @@ Reglufylgni er efnisatriði sem vekur sífellt meiri áhuga og í gegnum þróun
 |Sjá upplýsingar um mismunandi vottanir sem tengjast Business Central. Hér finnur þú upplýsingar um almennar vottanir og landsbundnar vottanir.|[Vottanir](compliance-certifications.md)|  
 |Kynntu þér skilmála þjónustustigssamnings og aðra þjónustuskilmála|[Þjónustuskilmálar](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

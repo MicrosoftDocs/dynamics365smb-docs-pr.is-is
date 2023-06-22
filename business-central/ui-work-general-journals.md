@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'journals, recurring, accrual, renumber, bulk-post'
 ms.search.form: '39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022'
 ---
-# Vinna í færslubókum
+# <a name="work-with-general-journals" />Vinna í færslubókum
 
 Flestar fjárhagsfærslur eru bókaðar í fjárhag gegnum skjöl, eins og innkaupareikninga og sölupantanir. Hins vegar er einnig hægt að vinna úr viðskiptaaðgerðum eins og:
 
@@ -33,7 +33,7 @@ Upplýsingarnar sem eru færðar inn í færslubók eru tímabundnar og er hægt
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## Nota sniðmát og keyrslur færslubóka
+## <a name="use-journal-templates-and-batches" />Nota sniðmát og keyrslur færslubóka
 
 Til eru nokkur færslubókarsniðmát. Hvert sniðmát færslubókar er með sérstaka síðu með ákveðnum aðgerðum og reitum sem verða að styðja aðgerðirnar, eins og síðan **greiðsluafstemmingarbók** til að vinna bankagreiðslur og síðan **greiðslubók** til að borga lánardrottnum þínum eða endurgreiða starfsmönnum. Frekari upplýsingar í  [að gera greiðslur](payables-make-payments.md)  og  [stemma af greiðslur viðskiptavina við Inngreiðslubók viðskiptavinar eða viðskiptamannafærslur](receivables-how-apply-sales-transactions-manually.md).
 
@@ -45,7 +45,7 @@ Fyrir hvert sniðmát færslubókar, geturðu sett upp þína eigin færslbók s
 > [!TIP]
 > Hægt er að bæta við eða fjarlægja svæði í færslubókum með því að sérsníða þau. Frekari upplýsingar er að finna á [Sérstilling verksvæðis](ui-personalization-user.md).
 
-### Staðfesta almennar færslubókarkeyrslur
+### <a name="validating-general-journal-batches" />Staðfesta almennar færslubókarkeyrslur
 
 Hægt er að kveikja á bakgrunnsathugun sem hjálpar til við að koma í veg fyrir tafir við bókun. Athugunin lætur þig vita þegar mistök í fjárhagsbókinni sem þú ert að vinna í koma í veg fyrir að þú bókir færslubókina. Á síðunni **Færslubókarkeyrsla** er hægt að velja að láta **Athugun á villu í bakgrunni** [!INCLUDE[prod_short](includes/prod_short.md)] villuleita fjárhagsbækur, svo sem almennar bækur eða greiðslubækur, meðan verið er að vinna í þeim.
 
@@ -55,20 +55,20 @@ Hægt er að nota aðgerðirnar **Sýna línur með vandamál** og **Sýna allar
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
-## Skilningur á aðalreikningum og mótreikningum
+## <a name="understanding-main-accounts-and-balancing-accounts" />Skilningur á aðalreikningum og mótreikningum
 
 Ef stofnaðir voru sjálfgefnir mótreikningar fyrir bókakeyrslur á síðunni **Færslubækur**, eru mótreikningarnir fylltir út sjálfkrafa þegar fyllt er í reitinn **Reikningur nr** Annars skal fylla út reitina  **Reikningur nr.**  og  **mótreikn**  . reiti handvirkt. Jákvæð upphæð í reitnum **Upphæð** er tekin út af aðalreikningnum og lögð inn á mótreikninginn. Neikvæð upphæð er lögð inn á aðalreikninginn og tekin út af mótreikningnum.
 
 > [!NOTE]  
 > VSK er reiknaður út á aðskilin hátt fyrir aðalreikninginn og mótreikninginn, þannig að þar er hægt að nota mismunandi VSK prósentuhlutfall.
 
-## Vinna með Ítrekunarbækur
+## <a name="work-with-recurring-journals" />Vinna með Ítrekunarbækur
 
 Ítrekunarbók er færslubók með sérstökum reitum til að stjórna færslum sem eru bókaðar reglulega með litlum eða engum breytingum. Til dæmis færslur vegna kostnaðar eins og leigu, áskrifta, rafmagns og hita. Notkun ítrekunarbóka gerir þér kleift að bóka fastar og breytilegar upphæðir og tilgreina sjálfkrafa bakfærslur fyrir daginn eftir bókunardag. Úthlutunarlyklar gera þér kleift að deila endurteknum færslum á mismunandi reikninga.  [Frekari upplýsingar um Úthlutun upphæða ítrekunarbóka á nokkra lykla](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Með ítrekunarbók er hægt að stofna færslur sem bókaðar verða reglulega í aðeins eitt skipti. Til dæmis haldast reikningar, víddir, víddargildi og svo framvegis áfram í færslubókinni eftir bókun. Ef breytinga er þörf getur þú gert þær í hvert sinn sem þú bókar.
 
-### Reitur ítrekunarmáta
+### <a name="recurring-method-field" />Reitur ítrekunarmáta
 
  **Reiturinn Ítrekunarmáti**  er mikilvægur. Það ákvarðar hvernig meðhöndla á upphæðina í færslubókarlínunni eftir bókun. Ef til dæmis á að nota sömu upphæðina í hvert sinn sem línan er bókuð er hægt að láta upphæðina standa. Ef nota skal sömu reikninga og texta í línunni en breyta upphæðinni í hvert sinn sem er bókað er hægt að velja að eyða upphæðinni eftir bókun.
 
@@ -86,11 +86,11 @@ Með ítrekunarbók er hægt að stofna færslur sem bókaðar verða reglulega 
 > [!NOTE]  
 > Hægt er að fylla út VSK-reitina annaðhvort í ítrekunarbókarlínu eða úthlutunarbókarlínu en ekki í báðum. Það ma sem sagt einungis fylla þá út á síðunni **Úthlutanir** ef samsvarandi línur í ítrekunarbókinni hafa ekki verið fylltar út.
 
-### Reitur ítrekunartíðni
+### <a name="recurring-frequency-field" />Reitur ítrekunartíðni
 
 Þessi reitur dagsetningarformúlu ákvarðar hversu oft á að bóka færsluna í færslubókarlínuna og fylla þarf hann út. Frekari upplýsingar er að finna í [Nota dagsetningarformúlur](ui-enter-date-ranges.md#use-date-formulas).
 
-#### Dæmi
+#### <a name="examples" />Dæmi
 
 Ef þarf að bóka færslubókarlínuna í hverjum mánuði skal færa inn „1M“. Eftir hverja bókun er dagsetningin í reitnum **Bókunardags.** uppfærð í sama mánaðardag næsta mánaðar.
 
@@ -100,7 +100,7 @@ Ef bóka á færslu á síðasta degi hvers mánaðar má gera eitt af þessu:
 
 * Bókaðu fyrstu færsluna á hvaða mánaðardegi sem er með því að slá inn 1M+CM. Með þessari reiknireglu verður bókunardagsetningin eftir einn heilan mánuð + dagana sem eftir eru í líðandi mánuði.
 
-### Reitur lokadagsetningar
+### <a name="expiration-date-field" />Reitur lokadagsetningar
 
 Reiturinn ákvarðar dagsetninguna þegar línan verður bókuð í síðasta sinn. Línan verður ekki bókuð eftir þessa dagsetningu.
 
@@ -108,7 +108,7 @@ Kosturinn við að nota reitinn „Lokadagsetning“ er sá að línunni verður
 
 Ef reiturinn er auður verður línan bókuð í hvert skipti þar til henni er eytt úr færslubókinni.
 
-### Upphæðum ítrekaðra bóka úthlutað á nokkra lykla
+### <a name="allocating-recurring-journal-amounts-to-several-accounts" />Upphæðum ítrekaðra bóka úthlutað á nokkra lykla
 
  **Á síðunni ítrekunarbók**  fjárhags er hægt að velja  **Aðgerðir úthlutunar**  til að tilgreina hvernig á að úthluta upphæðum í ítrekunarbókarlínu á nokkra lykla og víddir. Úthlutun virkar sem mótreikningslína fyrir ítrekunarbókarlínuna.
 
@@ -126,7 +126,7 @@ Fyrirtækið þitt er til að mynda með nokkrar viðskiptaeiningar og nokkrar d
 > [!NOTE]
 > Víddir sem eru stilltar á úthlutunarlínur eru ekki sjálfkrafa reiknaðar út og nauðsynlegt er að tilgreina hvaða víddargildi þarf að stilla á úthlutunarlyklunum. Ef ætlunin er að varðveita tengilinn á milli víddar upprunalykils og víddar úthlutunarlykils er mælt með því að nota möguleikann [Kostnaðarbókhald](finance-about-cost-accounting.md) í staðinn.
 
-#### Dæmi: Úthlutun á leigugreiðslum til mismunandi deilda
+#### <a name="example-allocating-rent-payments-to-different-departments" />Dæmi: Úthlutun á leigugreiðslum til mismunandi deilda
 
 Leiga er greidd mánaðarlega, þannig að þú hefur fært upphæðina inn á sjóðsreikninginn í ítrekunarbókarlínu. Á síðunni **Úthlutanir** er hægt að nota vídd deildar til að skipta kostnaðinum á milli nokkurra deilda. Til dæmis eftir fermetrafjölda sem hver deild hefur til umráða. Útreikningurinn byggist á úthlutunarprósentu fyrir hverja línu. Hægt er að úthluta á mismunandi hátt:
 
@@ -135,11 +135,11 @@ Leiga er greidd mánaðarlega, þannig að þú hefur fært upphæðina inn á s
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-### Reikna dagsetningu bakfærslunnar
+### <a name="calculate-the-reversal-date" />Reikna dagsetningu bakfærslunnar
 
 Þegar endurteknar færslubækur eru notaðar til að bóka uppsöfnun við lok tímabils er mikilvægt að hafa fulla stjórn á bakfærslum. Á síðunni **Ítrekunarfærslubækur** gerir reiturinn **Útreikningur bakfærsludags** þér kleift að stjórna dagsetningunni þegar bakfærslur verða bókaðar þegar ítrekunaraðferðir bakfærslu eru notaðar.
 
-#### Dæmi
+#### <a name="example" />Dæmi
 
 Uppsafnanir eru yfirleitt bókaðar með **Föstum**, **Breytilegum** eða **Staða** ítrekunarmátum í færslubókarlínunni. Bókunardagsetning bókuðu upphæðarinnar á lykli í færslubókarlínu er reiknuð út með ítrekunartíðni. Bókunardagsetning mótfærslunnar er reiknuð með því að nota **Útreikningur bakfærsludags**, á eftirfarandi hátt:
 
@@ -149,7 +149,7 @@ Uppsafnanir eru yfirleitt bókaðar með **Föstum**, **Breytilegum** eða **Sta
 > [!NOTE]
 > Sjálfgefið er að reiturinn **Útreikningur bakfærsludags** sé ekki tiltækur á síðunni **Ítrekunarfærslubækur**. Til að nota svæðið þarf að bæta því við með því að sérsníða síðuna. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-## Vinna við staðlaðar færslubækur
+## <a name="work-with-standard-journals" />Vinna við staðlaðar færslubækur
 
 Þegar færslubókarlínur sem líklegt er að verði stofnaðar aftur hafa verið stofnaðar er hægt að vista þær sem staðlaða færslubók áður en færslubókin er bókuð. Hið sama gildir um birgðabækur og almennar færslubækur.
 
@@ -159,7 +159,7 @@ Uppsafnanir eru yfirleitt bókaðar með **Föstum**, **Breytilegum** eða **Sta
 > [!NOTE]  
 > Eftirfarandi aðgerðir vísa til birgðabókar en upplýsingarnar eiga einnig við um almennu færslubókina.
 
-### Að vista sem staðlaða færslubók
+### <a name="to-save-a-standard-journal" />Að vista sem staðlaða færslubók
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðabækur** og velja síðan viðkomandi tengil.
 2. Kóti er færður inn í eina eða fleiri færslubókarlínur.
@@ -175,7 +175,7 @@ Uppsafnanir eru yfirleitt bókaðar með **Föstum**, **Breytilegum** eða **Sta
 
 Þegar þú vistar stöðluðu birgðabókina birtist síða birgðabókarinnar til að þú getir bókað hana.
 
-### Að endurnýta staðlaða færslubók
+### <a name="to-reuse-a-standard-journal" />Að endurnýta staðlaða færslubók
 
 > [!NOTE]
 > Staðlaðar færslubækur eru ekki alltaf með sömu reiti og færslubækur. Þegar aðgerðin Sækja staðlaðar færslubækur er notuð til að afrita svæðin í almenna færslubók, gæti almenna færslubókin haft minni upplýsingar en ef hún var stofnuð handvirkt. 
@@ -199,7 +199,7 @@ Uppsafnanir eru yfirleitt bókaðar með **Föstum**, **Breytilegum** eða **Sta
 5. Velja skal birgðabókarlínur sem á að leiðrétta, og svo velja **Endurreikna einingaupphæð** aðgerðina. Þessi aðgerð uppfærir reiti einingarupphæðar með núverandi einingarkostnaði vörunnar.
 6. Valið er **Bóka** aðgerðin.
 
-## Endurraða númerum fylgiskjals í færslubókum
+## <a name="to-renumber-document-numbers-in-journals" />Endurraða númerum fylgiskjals í færslubókum
 
 Til að forðast að bóka villur af völdum skjalanúmerins er hægt að nota aðgerðina **Endurraða númerum fylgiskjals** áður en færslubók er bókuð.
 
@@ -211,7 +211,7 @@ Ef **Númeraraðir** reiturinn á bókarkeyrslunni er fylltur út krefst bókuna
 
 Öll endurröðun á númerum fylgiskjals mun taka tillit til tengdra jafnana, t.d. greiðslujöfnunar sem gerð er úr skjalinu á færslubókarlínunni á lánardrottnalykli. Að sama skapi verða reitirnir **Kenni jöfnunar** og **Skjalanr. jöfnunar** uppfærðir í fjárhagsfærslunum.
 
-### Til að endurraða fylgiskjölum í færslubókum
+### <a name="to-renumber-documents-in-journals" />Til að endurraða fylgiskjölum í færslubókum
 
 Eftirfarandi ferli byggist á glugganum **Færslubók**, en á við um allar aðrar bækur sem eru byggðar á færslubókum, eins og síðunni **Greiðslubók**.
 
@@ -220,9 +220,9 @@ Eftirfarandi ferli byggist á glugganum **Færslubók**, en á við um allar að
 
 Gildi í **Skjal nr.** reitnum breytast þar sem þörf er á, þannig að númer fylgiskjala á stakri eða nokkrum færslubókarlínum eru í réttri röð. Hægt er að bóka færslubókina eftir að skjöl hafa verið númeruð aftur.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/use-journals-dynamics-365-business-central/)
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  
 [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)  

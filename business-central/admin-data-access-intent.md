@@ -10,11 +10,11 @@ ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Umsjón með ástæðu aðgangs að gagnagrunni
+# <a name="managing-database-access-intent" />Umsjón með ástæðu aðgangs að gagnagrunni
 
 Sem yfirnotandi eða stjórnandi er hægt að breyta ástæðu aðgangs að gagnagrunni fyrir skýrslur, síður af API-gerð og fyrirspurnir til að auka afköst þjónustunnar.
 
-## Yfirlit
+## <a name="overview" />Yfirlit
 
 Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að nota skrifvarðar eftirlíkingar af aðalgagnagrunninum (skrifa-lesa). Að nota eftirlíkingu gagnagrunns dregur úr álagi á aðalgagnagrunninum. Í sumum tilfellum eykur það einnig afköst þegar gögn eru skoðuð í biðlaranum. Eftirlíkingar eru gagnlegar fyrir hluti á borð við skýrslur, fyrirspurnir og API-síður, sem eru notaðar til að skoða gögn eingöngu, ekki til að breyta gögnum.
 
@@ -24,7 +24,7 @@ Síðan **Listi yfir ástæður fyrir aðgangi að gagnagrunni** gerir þér kle
 
 Í gagnagrunni er þessi eiginleiki þekktur sem *lesa útvíkkun*. Frekari upplýsingar um lesa útvíkkun og ástæðu fyrir aðgangi að gagnagrunni í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna í [Nota lesa útvíkkun fyrir aukin afköst](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) í [!INCLUDE[prod_short](includes/prod_short.md)] Developer og IT Pro hjálp.
 
-## Breyta ástæðu fyrir aðgangi að gagnagrunni
+## <a name="to-change-the-database-access-intent" />Breyta ástæðu fyrir aðgangi að gagnagrunni
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Listi yfir ástæður fyrir aðgangi að gagnagrunni** og veldu síðan tengda tengilinn.
 
@@ -43,15 +43,15 @@ Síðan **Listi yfir ástæður fyrir aðgangi að gagnagrunni** gerir þér kle
     > [!NOTE]
     > Ef hlutur sem er breytanlegur, eins og Viðskiptamannaspjald, er stilltur á **Skrifvarið**, verður aðalgagnagrunnurinn ennþá notaður óháð ástæðu fyrir aðgangi, sem gerir notendum kleift að gera breytingar eins og venjulega.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 [Viðskiptavirkni](across-business-functionality.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)    
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

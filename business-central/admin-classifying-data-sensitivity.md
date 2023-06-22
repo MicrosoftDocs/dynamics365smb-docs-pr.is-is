@@ -10,7 +10,7 @@ ms.search.form: 1752
 ms.date: 06/14/2021
 ---
 
-# Reitir fyrir flokkun gagnatrúnaðar
+# <a name="classifying-data-sensitivity-fields" />Reitir fyrir flokkun gagnatrúnaðar
 Til að flokka reiti sem innihalda viðkvæm eða persónuleg gögn getur Microsoft samstarfsaðili stillt eiginleikann ```DataClassification``` á reitum. Þetta krefst aðgangs að gagnagrunnstöflum, annaðhvort í gegnum þróunarumhverfið eða með því að keyra Windows PowerShell forskrift. Nánari upplýsingar eru í [Flokkun gagna](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Sem viðskiptavinur getur þú bætt við öðru stigi flokkunar með því að tilgreina trúnaðarstig gagnanna sem þú geymir í stöðluðum og sérsniðnum reitum. Flokkun gagnatrúnaðar hjálpar til við að tryggja að þú veist hvar þú geymir persónuleg gögn í kerfinu þínu og auðveldar þér að svara beiðnum frá viðföngum gagnanna. Til dæmis, ef tengiliður eða viðskiptavinur biður þig um að flytja út persónuupplýsingar hans. Nánari upplýsingar eru í [Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md).
@@ -27,7 +27,7 @@ Eftirfarandi tafla lýsir stigum gagnatrúnaðar sem þú getur úthlutað.
 |Trúnaðarmál | Viðskiptagögn sem þú notar fyrir bókhald eða í öðrum viðskiptatilgangi og ekki eru ætluð öðrum aðilum. Til dæmis gæti þetta átt við um fjárhagsfærslur.|
 |Venjul. | Almenn gögn sem heyra ekki undir aðra flokka.|
 
-## Hvernig flokka ég Mín gögn?
+## <a name="how-do-i-classify-my-data" />Hvernig flokka ég Mín gögn?
 
 Að flokka viðkvæmni á miklu magni reita, einn reit í einu, tekur langan tíma. Til að hjálpa til við að flýta því ferli bjóðum við upp á verkfæri sem hægt er að nota til að magnflokka viðkvæmni reita og síðan fínstilla flokkanir fyrir tiltekna reiti. Hægt er að finna verkfæri á vinnublaði gagnaflokkunar sem er í boði í Mitt hlutverk fyrir stjórnun notenda, notendaflokka og heimildir. Þú verður að vera kerfisstjóri til að nota vinnublaðið.
 
@@ -43,7 +43,7 @@ Til dæmis gerir vinnublað gagnaflokkunar þér kleift að gera hluti eins og:
 > [!Tip]
 > Við höfum skilgreint dæmi um flokkun á viðkvæmni fyrir töflur og reiti í sýnifyrirtækinu Cronus. Þú getur notað þessar flokkanir til að fá hugmyndir um eigin flokkun á töflum og reitum.
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Gagnaflokkun](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
 

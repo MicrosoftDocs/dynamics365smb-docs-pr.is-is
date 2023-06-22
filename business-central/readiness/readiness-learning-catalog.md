@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# Business Central námskrá
+# <a name="business-central-learning-catalog" />Business Central námskrá
 
 Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutverkið þitt sem notandi eða tengiliður Business Central.
 

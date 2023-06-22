@@ -17,11 +17,11 @@ ms.contentlocale: is-IS
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8523242"
 ---
-# <a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
+# <a name="auditing-changes-in-business-central" /><a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
 
 Sameiginleg áskorun margra viðskiptastjórnunarforrita er að forðast óæskilegar breytingar á gögnum. Þetta getur verið allt frá röngu símanúmeri viðskiptamanns til rangrar bókunar í fjárhag. Í þessu efnisatriði er lýst möguleikanum á því að finna út hvað breyttist, hver breytti því og hvenær breytingin var gerð.
 
-## <a name="about-the-change-log"></a>Um breytingaskrá
+## <a name="about-the-change-log" /><a name="about-the-change-log"></a>Um breytingaskrá
 
 Með breytingaskránni er hægt að rekja allar beinar breytingar sem notendur gera á gögnum í gagnagrunninum. Tilgreina skal hverja töflu og reit sem kerfið á að skrá og síðan virkja breytingaskrána. Breytingaskráin byggir á breytingum sem gerðar eru á gögnum í töflunum sem þú rekur. Á síðunni **Breytingaskrárfærslur** er færslum raðað í tímaröð og sýndar eru allar breytingar sem gerðar eru á gildum í reitum í töflunum sem eru tilgreindar. 
 
@@ -40,7 +40,7 @@ Einnig af afkastaástæðum er slökkt á breytingaskránni við uppfærslu á [
 > * Notandinn valdi annað fyrirtæki eða hlutverkamiðstöð.
 > * Notandinn skráði sig út og aftur inn.
 
-### <a name="work-with-the-change-log"></a>Vinna með breytingaskrá
+### <a name="work-with-the-change-log" /><a name="work-with-the-change-log"></a>Vinna með breytingaskrá
 Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráningu virka eða óvirka. Þegar notandi kveikir eða slekkur á breytingaskrá er þessi verkþáttur skráður til að geta ævinlega séð hvaða notandi kveikti eða slökkti á breytingaskránni.
 
 Á síðunni **Breytingaskrár Uppsetning** ef aðgerðin **Töflur** er valin, skal tilgreina hvaða töflur á að rekja breytingar fyrir og hvaða breytingar á að rekja. [!INCLUDE[prod_short](includes/prod_short.md)] rekur einnig nokkrar kerfistöflur.
@@ -50,21 +50,21 @@ Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráni
 
 Þegar breytingaskrá hefur verið sett upp, virkjuð og einhver hefur breytt gögnum skráir forritið breytinguna í breytingaskrárfærslu. Hægt er að skoða og afmarka breytingarnar á síðunni **Breytingaskrárfærslur**. Ef á að eyða færslum er hægt að gera það á síðunni **Eyða breytingaskrárfærslum** þar sem hægt er að stilla afmarkanir eftir dagsetningu og tíma.  
 
-## <a name="about-activity-logs"></a>Um aðgerðakladda
+## <a name="about-activity-logs" /><a name="about-activity-logs"></a>Um aðgerðakladda
 
 Á sumum síðum í [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að skoða aðgerðarkladda sem sýnir stöðu og allar villur úr skrám sem þú flytur út úr eða flytur inn í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="work-with-activity-logs"></a>Vinna með aðgerðakladda
+### <a name="work-with-activity-logs" /><a name="work-with-activity-logs"></a>Vinna með aðgerðakladda
 Upplýsingarnar eru birtar á síðunni **Aðgerðarkladdi** í samræmi við samhengið sem þær eru opnaðar úr. Til dæmis er hægt að opna síðuna á síðunum **Uppsetning skjalaskiptaþjónustu**, **Skjal á innleið**, **Bókaður sölureikningur** og **Bókaður sölukreditreikningur**. Hægt er að tæma listann yfir kladdafærslur eða hreinsa lista yfir færslur sem eru eldri en sjö daga.  
 
-## <a name="monitoring-sensitive-fields"></a>Fylgst með viðkvæmum reitum
+## <a name="monitoring-sensitive-fields" /><a name="monitoring-sensitive-fields"></a>Fylgst með viðkvæmum reitum
 
 Að halda viðkvæmum gögnum öruggum tryggja persónuvernd er mikilvægt flestum fyrirtækjum. Til að bæta við öryggisstigi er hægt að fylgjast með mikilvægum reitum og verið látin vita í tölvupósti þegar einhver breytir gildi. Til dæmis gætirðu viljað fá tilkynningu ef einhver breytir IBAN-númeri fyrirtækisins.
 
 > [!NOTE]
 > Að senda tilkynningu í tölvupósti krefst þess að eiginleiki tölvupósts verði settur upp í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Setja upp tölvupóst](admin-how-setup-email.md).
 
-### <a name="setting-up-field-monitoring"></a>Uppsetning reitarvöktunar
+### <a name="setting-up-field-monitoring" /><a name="setting-up-field-monitoring"></a>Uppsetning reitarvöktunar
 
 Hægt er að nota uppsetningarleiðbeiningar **Uppsetning á breytingavöktun reits** með hjálp til að tilgreina reitina sem á að fylgjast með samkvæmt síuskilyrði á borð við flokkun gagnatrúnaðar fyrir reitina. Nánari upplýsingar er að finna í [Flokkun á gagnatrúnaðar](admin-classifying-data-sensitivity.md). Leiðarvísirinn gerir einnig kleift að tilgreina þann sem fær tölvupóststilkynningu þegar breyting á sér stað, og tölvupóstsreikninginn sem sendir tilkynninguna í tölvupósti. Tilgreinið bæði notandann sem fær tilkynningu og reikninginn sem tilkynningin verður send frá. Eftir að leiðarvísinum er lokið er hægt að vinna með stillingar fyrir reitavöktun á síðunni **Uppsetning reitavöktunar**. 
 
@@ -80,7 +80,7 @@ Hægt er að stjórna stillingum fyrir reitavöktun, t.d. hvort senda eigi tilky
 > [!NOTE]
 > Þegar búið er að skrá einn eða fleiri rieti og hefja vöktun þarf að skrá sig út úr [!INCLUDE[prod_short](includes/prod_short.md)] og skrá sig inn aftur til að stillingarnar taki gildi.
 
-### <a name="work-with-field-monitoring"></a>Vinna með reitarvöktun
+### <a name="work-with-field-monitoring" /><a name="work-with-field-monitoring"></a>Vinna með reitarvöktun
 
 Færslur fyrir öll breytt gildi í vöktuðum reitum eru tiltækar á síðunni **Kladdafærslur vaktaðra reita**. Færslur innihalda til að mynda eftirfarandi upplýsingar:
 
@@ -90,18 +90,18 @@ Færslur fyrir öll breytt gildi í vöktuðum reitum eru tiltækar á síðunni
 
 Til að rannsaka breytingu frekar þarf að velja gildi til að opna síðuna þar sem hún var gerð. Til að skoða lista yfir allar færslur skal velja **Breytingafærslur reita**.
 
-### <a name="viewing-field-monitoring-telemetry"></a>Skoða fjarmælingu reitarvöktunar 
+### <a name="viewing-field-monitoring-telemetry" /><a name="viewing-field-monitoring-telemetry"></a>Skoða fjarmælingu reitarvöktunar
 
 Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að senda aðgerðir reitarvörpunar í Application Insights tilfang í Microsoft Azure. Síðan er hægt að nota Azure Monitor til að búa til skýrslur og setja upp viðvaranir í söfnuðum gögnum. Frekari upplýsingar eru í eftirfarandi greinum í [!INCLUDE[prod_short](includes/prod_short.md)] Developer og IT Pro Help:
 
 - [Fylgjast með og greina fjarmælingar - Virkja Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Greining fjarmælinga reitarvöktunar](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace)
 
-## <a name="defining-retention-policies"></a>Varðveislureglur skilgreindar
+## <a name="defining-retention-policies" /><a name="defining-retention-policies"></a>Varðveislureglur skilgreindar
 
 Hægt er að búa til varðveislureglur til að eyða ónauðsynlegum gögnum í klöddum eftir tiltekinn tíma sem gefa skal upp. Til dæmis getur fjærslufjöldinn í kladda aukist með tímanum. Með því að hreinsa upp eldri færslur er auðveldara að setja athyglina á nýlegri og líklega meira viðeigandi færslur. Frekari upplýsingar er að finna í [Skilgreina varðveislureglur](admin-data-retention-policies.md).
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also" /><a name="see-also"></a>Sjá einnig
 
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  

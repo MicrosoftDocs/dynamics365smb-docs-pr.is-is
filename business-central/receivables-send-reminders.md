@@ -11,13 +11,13 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# Senda innheimtubréf vegna útistandandi stöðu
+# <a name="send-reminders-of-outstanding-balances" />Senda innheimtubréf vegna útistandandi stöðu
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
 [Setja upp marga vexti fyrir seinkaða greiðslu](finance-how-to-set-up-multiple-interest-rates.md)  

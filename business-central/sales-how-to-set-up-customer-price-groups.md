@@ -11,17 +11,17 @@ ms.date: 09/30/2021
 ms.author: edupont
 ---
 
-# Setja upp verðflokka viðskiptamanna
+# <a name="set-up-customer-price-groups" />Setja upp verðflokka viðskiptamanna
   
 Hægt er að láta söluverð fara eftir viðskiptamannaflokkunum sem selt er til. Þeir eru kallaðir verðflokkar viðskiptamanna.
 
 Áður en verðflokkar viðskiptamanna eru settir upp þarf að ákveða hversu margir flokkarnir eiga að vera og hvaða viðskiptamenn eiga að vera í hvaða flokki.  
 
-## Hvernig á að stofna söluverð fyrir flokk viðskiptamanna  
+## <a name="how-to-create-sales-prices-for-a-group-of-customers" />Hvernig á að stofna söluverð fyrir flokk viðskiptamanna
 
 Þegar samið hefur verið um verð sem flokkur viðskiptamanna á að greiða fyrir ákveðnar vörur er samkomulagið um vörurnar skráð í línurnar á síðunni **Söluverð**.
 
-### Söluverð stofnað fyrir flokk viðskiptamanna
+### <a name="to-create-sales-prices-for-a-group-of-customers" />Söluverð stofnað fyrir flokk viðskiptamanna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Verðflokkar viðskiptamanna** og velja síðan viðkomandi tengil.  
 
@@ -43,11 +43,11 @@ Hægt er að láta söluverð fara eftir viðskiptamannaflokkunum sem selt er ti
 
 Endurtaktu skref 4 til 8 fyrir hverja vöru sem á að stofna söluverð fyrir.
 
-## Hvernig á að færa inn kóða fyrir verðflokka viðskiptamanna á viðskiptamannaspjöld  
+## <a name="how-to-enter-customer-price-group-codes-on-customer-cards" />Hvernig á að færa inn kóða fyrir verðflokka viðskiptamanna á viðskiptamannaspjöld
 
 Þegar búið er að setja upp verðflokka viðskiptamanna er hægt að setja kóða verðflokkanna á viðskiptamannaspjöldin.
 
-### Kóðar fyrir verðflokka viðskiptamanna færðir inn á viðskiptamannaspjald  
+### <a name="to-enter-customer-price-group-codes-on-a-customer-card" />Kóðar fyrir verðflokka viðskiptamanna færðir inn á viðskiptamannaspjald
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.  
 
@@ -56,7 +56,7 @@ Endurtaktu skref 4 til 8 fyrir hverja vöru sem á að stofna söluverð fyrir.
 3. Í flýtiflipanum **Reikningsfærsla**, í reitnum **Verðflokkur viðskiptamanna**, skal velja kóðann **Verðflokkur viðskiptamanna**.  
 
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

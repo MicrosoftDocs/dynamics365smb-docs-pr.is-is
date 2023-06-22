@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# Úrræðaleit vegna samstillingarvillna
+# <a name="troubleshooting-synchronization-errors" />Úrræðaleit vegna samstillingarvillna
 
 
 Margir hreyfanlegir hlutir taka þátt í samþættingu [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[prod_short](includes/cds_long_md.md)] og stundum fer eitthvað úrskeiðis. Þetta efnisatriði bendir á nokkrar dæmigerðar villur sem koma upp og gefur ýmis ráð um hvernig á að laga þær.
@@ -32,7 +32,7 @@ Eftirfarandi eru nokkur verkfæri á síðunni Samstillingarvillur samþættinga
 * Aðgerðirnar **Eyða færslum eldri en sjö daga** og **Eyða öllum færslum** hreinsa listana. Venjulega eru þessar aðgerðir notaðar eftir að orsök villu sem hefur áhrif á margar færslur hefur verið löguð. Sýndu samt aðgát. Þessar aðgerðir gætu eytt villum sem skipta enn máli.
 * Aðgerðin **Sýna villu í kallstafla** sýnir upplýsingar sem geta hjálpað til við að skilja rót vandans. Ef ekki er hægt að leysa úr villunni á eigin spýtum og ákveðið er að senda inn þjónustubeiðni skal hafa upplýsingarnar með í þjónustubeiðninni.
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 [Samþætting við Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Uppsetning á notendareikningum fyrir samþættingu við Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
 [Uppsetning á tengingu við Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  

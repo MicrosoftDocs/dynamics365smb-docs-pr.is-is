@@ -10,11 +10,11 @@ ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics365-business-central
 ---
-# Lágmarkskröfur fyrir notkun Business Central
+# <a name="minimum-requirements-for-using-business-central" />Lágmarkskröfur fyrir notkun Business Central
 
 Áður en þú ferð inn í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
 
-## Vafrar
+## <a name="browsers" />Vafrar
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.
   
@@ -25,13 +25,13 @@ ms.service: dynamics365-business-central
 > [!TIP]
 > Settu upp [!INCLUDE[prod_short](includes/prod_short.md)] [forritið í upphafsvalmyndinni](install-desktop-app.md#install-the-app-for-business-central-online) með Microsoft Edge eða Chrome-vafra.
 
-## Fartæki
+## <a name="mobile-devices" />Fartæki
 
 **Android (spjaldtölva og sími):** Ein af síðustu þremur stóru stýrikerfisútgáfunum og uppfærslur þeirra.
 
 **iOS (iPad  og iPhone):**  Ein af nýjustu þremur stærstu stýrikerfisútgáfunum og uppfærslum þeirra.
 
-## Outlook
+## <a name="outlook" />Outlook
 
 **Outlook forrit:**  til að nota  [!INCLUDE[prod_short](includes/prod_short.md)]  á netinu sem Business pósthólfið þitt í Outlook þarftu Outlook 2019 eða nýrra, Outlook á vefnum, Outlook fyrir  iOS eða Outlook Android. Fyrirtækið þitt verður einnig að nota Microsoft 365. Ekki er hægt að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum. 
 
@@ -39,7 +39,7 @@ ms.service: dynamics365-business-central
 
 **Pallborðsumræður:**  þegar viðbót við  [!INCLUDE[prod_short](includes/prod_short.md)]  Outlook er notuð í Outlook fyrir  iOS  eða Outlook fyrir  Android, krefst viðbótin þess að fartækið sé keyrt einn af neðangreindum farsímabúnaði fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Teymi
+## <a name="teams" />Teymi
 
 **Teams skjáborðsforrit:** [!INCLUDE[prod_short](includes/prod_short.md)] forritið fyrir Teams styður nýjustu útgáfu af Teams Windows skjáborðsforritinu. 
 
@@ -49,11 +49,11 @@ ms.service: dynamics365-business-central
 
 **Studd áskrift:** [!INCLUDE[prod_short](includes/prod_short.md)] forritið fyrir Teams-notendaþjónustu Microsoft 365 Business- og Enterprise-áskriftir, en ekki sjálfstæðar Teams-áskriftr eins og Microsoft Teams (ókeypis) eða Microsoft Teams Essentials.
 
-## Excel
+## <a name="excel" />Excel
 
 **Breyta í Excel:** Til að nota Excel-viðbótina til að gera breytingar í Excel og ýta breytingunum aftur í [!INCLUDE[prod_short](includes/prod_short.md)] þarftu Excel 2019 eða síðar. Frekari upplýsingar eru í [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="TAC"></a> Notkun stjórnunarmiðstöðvar Business Central
+## <a name="a-nametaca-using-the-business-central-administration-center" /><a name="TAC"></a> Notkun stjórnunarmiðstöðvar Business Central
 
 Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af eftirfarandi vöfrum:
 
@@ -62,11 +62,11 @@ Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af ef
 - Firefox fyrir Windows
 - Safari fyrir macOS
 
-## Fyrir Business Central á staðnum
+## <a name="use-business-central-on-premises" />Fyrir Business Central á staðnum
 
 Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Sjá  [Kerfisþarfir fyrir  Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v22)  og  [Yfirlit yfir](/dynamics365/business-central/dev-itpro/deployment/deployment) virkjun fyrir frekari upplýsingar.  
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  

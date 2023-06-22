@@ -10,7 +10,7 @@ ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# Uppsetning Fjármála
+# <a name="setting-up-finance" />Uppsetning Fjármála
 
 Áður en þú getur byrjað að reka fyrirtækið þitt verður þú að tilgreina hvernig stjórna á fjármálaferlum fyrirtækisins. Fyrsta seturðu upp kjarnann í bókhaldsfærslum fyrirtækisins: bókhaldslyklana. Síðan eru settir upp bókunarflokkar, sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.
 
@@ -51,9 +51,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 > [!TIP]
 > Það fer eftir landfræðilegri staðsetningu þinni hvaða reiti sumar Business Central-síður geta innihaldið sem ekki er lýst í greinunum sem eru gefnar upp hér fyrir ofan vegna þess að þær gilda um staðbundna virkni eða sérstillingar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Fjármál](finance.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
@@ -62,6 +62,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

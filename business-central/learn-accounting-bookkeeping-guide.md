@@ -12,7 +12,7 @@ ms.date: 03/14/2023
 ms.author: altotovi
 ---
 
-# Bókhaldi og bókhald
+# <a name="accounting-and-bookkeeping" />Bókhaldi og bókhald
 
 Bókhaldsaðgerðir eru afgerandi í allri Enterprise Resource áætlanagerð (ERP) lausn og einnig í flestum fyrirtækjum. Bókhald stendur fyrir ferlinu við upptöku og skráfærslu á fjárhagslegum hreyfingum fyrirtækja og sækir svo um að sækja, mæla, taka saman og kynna niðurstöðurnar með því að nota mismunandi skýrslur sem oft þarf að löggilda af sveitarfélögum. Aðalmarkmið þessa ferlis er að hjálpa stjórnendum félagsins að skilja fjárhag fyrirtækisins eftir og mæla árangur af efnahagsstarfsemi félagsins.
 
@@ -100,7 +100,7 @@ Eftirfarandi tafla lýsir röð verkefna og veitir tengla í þær greinar sem n
 | Gera altækar fjárhagsskýrslur virkar fyrir alþjóðlegt bókhaldsfyrirtæki með því að nota staðlað (XBRL) staðal. | [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md) |
 | Breyta skal ásetningu gagnagrunns á skýrslur, síður af gerðinni API og fyrirspurnum til að draga úr hleðslu og bæta afköst. | [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md) |
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Sala](sales-manage-sales.md)  
@@ -111,6 +111,6 @@ Eftirfarandi tafla lýsir röð verkefna og veitir tengla í þær greinar sem n
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

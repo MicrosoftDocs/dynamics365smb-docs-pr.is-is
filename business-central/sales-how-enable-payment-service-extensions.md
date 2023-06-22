@@ -11,7 +11,7 @@ ms.search.forms: '1060, 1061, 1062'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Virkja greiðslur viðskiptamanna um greiðsluþjónustur
+# <a name="enable-customer-payments-through-payment-services" />Virkja greiðslur viðskiptamanna um greiðsluþjónustur
 
 Í stað þess að innheimta með millifærslu eða kreditkorti geta viðskiptavinir þínir greitt þér af reikningnum sínum með greiðsluþjónustu, svo sem PayPal eða WorldPay.  
 
@@ -19,7 +19,7 @@ Eftir að þú hefur virkjað greiðsluþjónustu í [!INCLUDE[prod_short](inclu
 
 PayPal Payments Standard- og WorldPay Payments Standard-viðbætur eru settar upp í [!INCLUDE[prod_short](includes/prod_short.md)] og eru tilbúnar fyrir þig til að virkja.  
 
-## Til að virkja greiðsluþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-includeprodshortincludesprodshortmd" />Til að virkja greiðsluþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluþjónustur** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Greiðsluþjónustur** skal velja aðgerðina **Nýtt**.  
@@ -28,7 +28,7 @@ PayPal Payments Standard- og WorldPay Payments Standard-viðbætur eru settar up
 5. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Lokaðu síðunni.  
 
-## Til að velja greiðsluþjónustu á sölureikning
+## <a name="to-select-a-payment-service-on-a-sales-invoice" />Til að velja greiðsluþjónustu á sölureikning
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
 2. Opnaðu sölureikninginn sem þú vilt greiða með því að nota greiðsluþjónustuna.  
@@ -37,9 +37,9 @@ PayPal Payments Standard- og WorldPay Payments Standard-viðbætur eru settar up
     > [!NOTE]  
     > **Greiðsluþjónustu** reiturinn er aðeins tiltækur greiðsluþjónustan hefur verið virkjuð.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  

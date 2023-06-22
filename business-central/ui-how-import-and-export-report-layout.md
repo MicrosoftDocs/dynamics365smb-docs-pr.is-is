@@ -10,7 +10,7 @@ ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# (Eldra) Flytja sérsniðið skýrsluútlit inn og út
+# <a name="legacy-import-and-export-custom-report-layouts" />(Eldra) Flytja sérsniðið skýrsluútlit inn og út
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -19,7 +19,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 > [!IMPORTANT]  
 >  Ekki er hægt að flytja innbyggð skýrsluútlit inn eða út.  
 
-### Til að flytja út skýrsluútlit í skrá  
+### <a name="to-export-a-report-layout-to-a-file" />Til að flytja út skýrsluútlit í skrá
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.  
 
@@ -29,7 +29,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
 4.  Í svarglugganum **Flytja út skrá** skal velja hnappinn **Vista** og vista svo skrána í tölvu eða á neti.  
 
-### Til að flytja inn skýrsluútlit úr skrá  
+### <a name="to-import-a-report-layout-file" />Til að flytja inn skýrsluútlit úr skrá
 
 1.  Tryggja þarf að viðeigandi skrá sem tilgreinir skýrsluútlitið sé til staðar í tölvunni eða á netinu.  
 
@@ -45,9 +45,9 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
  Upprunalega sérsniðna skýrsluútlitinu er skipt út með innflutta skýrsluútlitinu.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md)   
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  

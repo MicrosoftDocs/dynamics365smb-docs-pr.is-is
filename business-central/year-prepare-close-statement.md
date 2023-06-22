@@ -10,7 +10,7 @@ ms.search.keywords: 'year closing, close accounting period, close fiscal year, a
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Undirbúningur lokunaryfirlits
+# <a name="preparing-closing-statements" />Undirbúningur lokunaryfirlits
 Til eru margar staðlaðar skýrslur sem má nota til að safna saman upplýsingum sem eru nauðsynlegar til að búa til lokayfirlit fyrirtækisins.
 
 Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þessu ferli.  
@@ -27,7 +27,7 @@ Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þes
 
 Til að sjá skýrslu skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heitið eins og það birtist í töflunni og velja svo viðkomandi tengil.
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Viðskiptaupplýsingar](bi.md)

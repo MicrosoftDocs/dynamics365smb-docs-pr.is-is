@@ -11,13 +11,13 @@ ms.search.form: '11, 130'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Afhendingarmátar settir upp
+# <a name="set-up-shipment-methods" />Afhendingarmátar settir upp
 
 Afhendingarmáti ræðst oft af vörunni sjálfri, viðskiptamönnum eða lánardrottnum. Ef viðskiptamaður býr til dæmis á eyju getur hann valið um að fá vörur alltaf sendar með flugi eða skipi. Sumir viðskiptamenn gætu þurft afhendingu næsta dag. Sumir gætu viljað sækja pöntunina. Á viðskiptamanna- og lánardrottnaspjöldunum má tilgreina hvernig afhendingin á að vera.
 
 Þú setur upp lýsingu og kóða fyrir hvern afhendingarmáta á síðunni **Afhendingarmátar**. Hægt er til dæmis að stofna kóðann FOB og skrá Free on Board í reitinn **Lýsing**. Síðan er hægt að skrá kóðann í reitina fyrir **Kóði afhendingarmáta** annars staðar í kerfinu, t.d. á viðskiptamannaspjald. Síðan þegar þú stofnar nýjar pantanir, reikninga, kreditreikninga, o.s.frv. færir kerfið inn lýsinguna sem kóðinn stendur fyrir. Hægt er að breyta honum í skjalinu eftir þörfum.
 
-## afhendingarmátar settir upp
+## <a name="to-set-up-a-shipment-method" />afhendingarmátar settir upp
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afhendingarmátar** og velja síðan viðkomandi tengil.
 2. Á síðunni **Afhendingarmátar** skal velja aðgerðina **Nýr**.
@@ -26,7 +26,7 @@ Afhendingarmáti ræðst oft af vörunni sjálfri, viðskiptamönnum eða lánar
 > [!TIP]
 > Ef Incoterms er notað skal setja upp sendingaraðferðir til að tákna viðeigandi Incoterms-reglur.  
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md)  
 [Finna sendingar](sales-how-track-packages.md)  

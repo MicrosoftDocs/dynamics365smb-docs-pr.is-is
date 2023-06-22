@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: mikebc
 ---
 
-# Virkjun nýrra og væntanlegra eiginleika fyrir tíma
+# <a name="enabling-new-and-upcoming-features-ahead-of-time" />Virkjun nýrra og væntanlegra eiginleika fyrir tíma
 
 Hægt er að virkja suma nýja eiginleika fram í tímann, þannig að hægt er að nýta þá eins fljótt og hægt er. Ef þú virkjar eiginleika snemma geturðu prófað þá og undirbúið fyrirtækið þitt fyrir breytingarnar.
 
@@ -17,9 +17,9 @@ Hægt er að virkja suma nýja eiginleika fram í tímann, þannig að hægt er 
 
 Nánari upplýsingar um [eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Nýir og fyrirhugaðir eiginleikar](/dynamics365-release-plan/2021wave1/)  
 

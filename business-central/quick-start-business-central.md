@@ -11,28 +11,28 @@ ms.date: 08/25/2022
 ms.author: edupont
 ---
 
-# Stuttir leiðarvísar Business Central
+# <a name="business-central-quick-starts" />Stuttir leiðarvísar Business Central
 
 Greinar um stutta leiðarvísa auðvelda þér að setja upp fyrr þannig að þú getir byrjað að nota [!INCLUDE[prod_short](includes/prod_short.md)] grunnaðgerðirnar sem þú þarft.
 
 Eftirfarandi hlutar bjóða upp á leiðarvísa fyrir byrjendur sem koma þér í kynni við eiginleikana sem þú þarft í [!INCLUDE[prod_short](includes/prod_short.md)]. Í hverjum leiðarvísi finnur þú tengla í ítarlegra efni um virknina ef þú þarft á því að halda.
 
-## Gefðu upp grunnupplýsingar um fyrirtækið þitt
+## <a name="provide-basic-information-about-your-company" />Gefðu upp grunnupplýsingar um fyrirtækið þitt
 
 Fyrsta skrefið er að veita grunnupplýsingar um fyrirtækið þitt. Þar á meðal eru upplýsingar um heimilisfang, bankareikninga, VSK-númer og svo framvegis. Þetta er útskýrt í [Stuttur leiðarvísir um fyrirtækjaupplýsingar](quick-start-company-information.md).
 
-## Undirbúa grunnupplýsingar um fjármál
+## <a name="prepare-basic-financial-information" />Undirbúa grunnupplýsingar um fjármál
 
 Næst er komið að því að slá inn fjárhagsupplýsingar fyrirtækisins svo að allt sé til reiðu fyrir viðskipti. Notaðu bókhaldslykil sem fylgir [!INCLUDE[prod_short](includes/prod_short.md)] til að spara tíma. Og ef á þarf að halda er hægt að sérsníða hann í nokkrum skrefum með því fylgja [Stuttur leiðarvísir um fjárhagsupplýsingar](quick-start-financial-information.md).
 
 <!--
-## Financial Basics
+## <a name="financial-basics" />Financial Basics
 
 Financial Information  
 (chart of accounts, but explained for non-accountants)
 -->
 
-## Prenta skýrslur og sérsníða skjöl
+## <a name="print-reports-and-customize-documents" />Prenta skýrslur og sérsníða skjöl
 
 Kynntu þér hvernig hægt er að sérsníða og prenta skýrslur og skjöl á borð við sölureikninga til að falla betur að viðskiptaþörfum þínum í [Stuttur leiðarvísir um frálag grunnskýrslna og skjala](quick-start-reports-and-documents.md).
 
@@ -40,7 +40,7 @@ Kynntu þér hvernig hægt er að sérsníða og prenta skýrslur og skjöl á b
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
-## Selja vörur og þjónustu
+## <a name="sell-products-and-services" />Selja vörur og þjónustu
 
 Komdu þér hratt í gang með því að selja vörur og þjónustu með því að fara eftir greininni [Stuttur leiðarvísir fyrir sölu](quick-start-sell-products-and-services.md).
 
@@ -48,7 +48,7 @@ Komdu þér hratt í gang með því að selja vörur og þjónustu með því a
 (customer, items, things on stock or not, orders versus invoices, get paid on time, etc.)
 -->
 
-## Kaupa vörur og þjónustu
+## <a name="buy-products-and-services" />Kaupa vörur og þjónustu
 
 Kynntu þér hvernig á að kaupa vörur og þjónustu í greininni [Stuttur leiðarvísir fyrir innkaup](quick-start-procurement.md).  
 
@@ -56,7 +56,7 @@ Kynntu þér hvernig á að kaupa vörur og þjónustu í greininni [Stuttur lei
 (buy stuff, register in inventory, pay vendor)
 -->
 
-## Fáðu skilning á fyrirtækinu þínu með viðskiptagreind
+## <a name="understand-your-company-with-business-intelligence" />Fáðu skilning á fyrirtækinu þínu með viðskiptagreind
 
 Umbreyttu viðskiptagögnum þínum í verðmæta innsýn með því að nota verkfærin sem sýnd eru í [Stuttur leiðarvísir um viðskiptagreind](quick-start-business-intelligence.md).
 
@@ -65,7 +65,7 @@ Business Intelligence
 (reports)
 -->
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Business Central námskrá](readiness/readiness-learning-catalog.md)  
 [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)  

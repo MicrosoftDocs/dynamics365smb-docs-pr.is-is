@@ -10,7 +10,7 @@ ms.search.keywords: feature overview
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# Tilfallandi gagnagreining
+# <a name="ad-hoc-data-analysis" />Tilfallandi gagnagreining
 
 Stundum þarf að greina gögn í [!INCLUDE[prod_short](includes/prod_short.md)] með aðferð sem er ekki í boði í staðlaðri skýrslu. Þetta er oft kallað „tilfallandi greining“. Hér fyrir neðan eru tenglar til að hjálpa þér að læra hvernig á að framkvæma það.
 
@@ -21,7 +21,7 @@ Stundum þarf að greina gögn í [!INCLUDE[prod_short](includes/prod_short.md)]
 | Skoða og greina gögn úr gagnasafni skýrslu í Excel. | [Vista skýrslugagnasafn í Excel af beiðnisíðunni](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 | Skoða og greina fjárhagsgögn með því að nota fjárhagsskýrslur. | [Fjárhagsgreiningar](bi.md) |
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Viðskiptagreind og skýrsluyfirlit](ui-work-report.md)
 

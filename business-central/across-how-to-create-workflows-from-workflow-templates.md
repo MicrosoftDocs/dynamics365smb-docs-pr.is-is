@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# Búa til verkflæði úr verkflæðissniðmátum
+# <a name="create-workflows-from-workflow-templates" />Búa til verkflæði úr verkflæðissniðmátum
 
 Til að spara tíma þegar ný samþykktarverkflæði eru búin til skaltu nota verkflæðissniðmátin.  
 
@@ -20,7 +20,7 @@ Verkflæðissniðmát eru óbreytanleg verkflæði sem eru til staðar í sjálf
 
 Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru á [Búa til verkflæði](across-how-to-create-workflows.md).  
 
-## Að búa til verkflæði úr verkflæðissniðmáti
+## <a name="to-create-a-workflow-from-a-workflow-template" />Að búa til verkflæði úr verkflæðissniðmáti
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Veldu aðgerðina **Nýtt verkflæði úr sniðmáti**. Síðan **Sniðmát verkflæðis** opnast.  
@@ -29,9 +29,9 @@ Verkflæðissniðmát eru óbreytanleg verkflæði sem eru til staðar í sjálf
    Síðan **Verkflæði** opnast fyrir nýtt verkflæði sem inniheldur allar upplýsingarnar úr völdu sniðmáti. Við gildið í reitnum **Kóði** er bætt við t.d. „-01“ til að gefa til kynna að þetta sé fyrsta verkflæðið sem er stofnað úr verkflæðissniðmátinu.  
 4. Haltu áfram að stofna verkflæði með því að breyta verkflæðisskrefum eða bæta við nýjum skrefum. Frekari upplýsingar eru á [Búa til verkflæði](across-how-to-create-workflows.md).  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Stofna verkflæði samþykktar](across-how-to-create-workflows.md)  
 [Flytja samþykktarverkflæði inn og út](across-how-to-export-and-import-workflows.md)  

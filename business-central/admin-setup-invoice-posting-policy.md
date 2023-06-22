@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.forms: '119, 9807,'
 ---
 
-# Skilgreinið bókunarreglur reiknings fyrir notendur
+# <a name="define-an-invoice-posting-policy-for-users" />Skilgreinið bókunarreglur reiknings fyrir notendur
 
 Fyrirtæki hafa oft einstaka ferla fyrir bókun sölu-og innkaupareikninga og sendinga. Til dæmis geta ferli verið breytileg eftir bókun fólks allt á innkaupapöntun, til margra starfsmanna. Hægt er að takmarka aðgang notenda frá bókun reikninga eða krefjast þess að reikningar séu bókaðir ásamt afhendingum eða innhreyfingum.
 
-## Bókunarregla tilgreind
+## <a name="to-specify-a-posting-policy" />Bókunarregla tilgreind
 
  **Á síðunni Notandauppsetning**  eru í  **bókunarreglum**  sölureiknings og  **Innk. Reitirnir Bókunarregla**  reikninga, velja einn af eftirfarandi valkostum:
 
@@ -22,7 +22,7 @@ Fyrirtæki hafa oft einstaka ferla fyrir bókun sölu-og innkaupareikninga og se
 * **Bönnuð**  -koma í veg fyrir að notandinn bóki reikninga. Viðskiptamiðað birtist Staðfestingargluggi sem býður aðeins upp á að senda  **eða**  taka  **við**  valkostum.
 * **Skylda**  -Leyfa notandanum að bóka reikninga ásamt innhreyfingum eða sendingum. Viðskiptamiðað birtist Staðfestingargluggi með  **skipinu og reikningum**  eða  **móttöku-og reikningakosti** .
 
-## Áhrif á kjör
+## <a name="effect-on-documents" />Áhrif á kjör
 
 Eftirfarandi tafla lýsir því hvernig reikningsreglur reikninga hafa áhrif á skjöl.
 
@@ -39,7 +39,7 @@ Eftirfarandi tafla lýsir því hvernig reikningsreglur reikninga hafa áhrif á
    > [!Note]
    > Stillingin hefur ekki áhrif á bókun í færslubókarlínum þar sem hægt er að velja  **reikning**  í  **reitnum Tegund**  fylgiskjals.
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Skrá innkaup með innkaupareikningum og pöntunum](purchasing-how-record-purchases.md)  

@@ -8,17 +8,17 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Kynning: Stofna fastáætlaða framleiðslupöntun og breyta henni
+# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it" />Kynning: Stofna fastáætlaða framleiðslupöntun og breyta henni
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að vinna með framleiðslupantanir.  
 
-## Aðstæður
+## <a name="scenario" />Aðstæður
 
 Eduardo, framleiðslustjóri hjá Contoso Coffee, verður að stofna nýja framleiðslupöntun fyrir 10 einingar af vörunni **SP-SCM1009, Airpot** sem þarf að afhenda 28. apríl. Eduardo afturvirkar tímaáætlun þessa og staðfestir að þeir geti ræst pöntunina þann 27 apríl.  
 
 Stuttu eftir lokafrágang þessa verkefnis er Eduardo beðin um að hækka pöntun í 50 einingar. Á að gera þetta, afturvirk röðunarvirkni ýtir upphafsdagsetningu pöntunar of snemma. Eduardo framber í röðinni frá 23. apríl til að ákvarða raunhæfan lokadagdag.  
 
-## Skref
+## <a name="steps" />Skref
 
 1. Stofnaðu upphaflegu framleiðslupöntunina fyrir 10 einingum af vörunni **SP-SCM1009, Airpot**.
 
@@ -58,6 +58,6 @@ Stuttu eftir lokafrágang þessa verkefnis er Eduardo beðin um að hækka pönt
 
 Nýja framleiðslupöntunin er nú sett upp og kröfur Eduardo eru uppfylltar.  
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Kynning á contoso kaffi sýnigögnum](../contoso-coffee-intro.md)  

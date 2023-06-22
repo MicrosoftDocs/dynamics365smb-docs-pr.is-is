@@ -10,13 +10,13 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# Færslur og greiðslur
+# <a name="transactions-and-payouts" />Færslur og greiðslur
 
 Þegar viðskiptamaður lýkur greiðsluferlinu í netversluninni eru upplýsingar um greiðslur vistaðar sem **Færsla**. Margar færslur gætu verið tengdar pöntuninni, t.d. þegar viðskiptamaður notar gjafakort til að greiða hluta kostnaðarins og notar svo kreditkort eða PayPal fyrir eftirstandandi upphæð.
 
 Ef þú notar Shopify greiðslu sem greiðsluþjónustuaðila getur þú einnig séð greiðslur af Shopify og inn á bankareikninginn þinn til viðbótar við upplýsingar um mótteknar greiðslur frá viðskiptamanninum.
 
-## Færslur
+## <a name="transactions" />Færslur
 
 Greiðslufærslurnar sem eiga sér stað í Shopify eru samstilltar við pantanirnar og er hægt að skoða þær á síðunni **Shopify Pantanir**.
 
@@ -26,7 +26,7 @@ Til að fara yfir allar færslur skal velja ![Ljósapera sem opnar eiginleika Vi
 
 Ef þú grunnstilltir vörpun greiðslumáta mun stofnað söluskjal fá kóða greiðslumáta úthlutaðan. Frekari upplýsingar er að finna í [Vörpun greiðslumáta](#payment-method-mapping).
 
-## Útgreiðslur
+## <a name="payouts" />Útgreiðslur
 
 Ef verslunin þín notar Shopify Payment færðu greiðslur í gegnum **Shopify útborganir** þegar viðskiptamaður greiðir með Shopify Payments og hraðara greiðsluferli.
 
@@ -38,7 +38,7 @@ Til að fara yfir allar útborganir skaltu velja ![Ljósapera sem opnar eiginlei
 
 **Útborganir** eru einungis í upplýsingaskyni og hafa ekki áhrif á fjárhagsbók eða bankabók þótt þær geti komið að gagni við úrvinnslu bankareikningsyfirlits þíns.
 
-## Vörpun greiðslumáta
+## <a name="payment-method-mapping" />Vörpun greiðslumáta
 
 Til að fylla út **Kóða greiðslumáta** fyrir söluskjöl sem flutt eru inn úr Shopify sjálfkrafa þarftu að grunnstilla **Vörpun greiðslumáta**.
 
@@ -52,7 +52,7 @@ Til að fylla út **Kóða greiðslumáta** fyrir söluskjöl sem flutt eru inn 
 > [!NOTE]  
 > Ef samsvarandi greiðslumáti í [!INCLUDE[prod_short](../includes/prod_short.md)] er með reitina **Tegund mótreiknings** og **Númer mótreiknings** fyllta út mun reikningskerfið við bókun stofna mótfærslu af gerðinni *Greiðsla* og nota hana á tegund *Reiknings* í fjárhagsfærslu viðskiptamannsins.
 
-## Dæmi um notkun
+## <a name="use-cases" />Dæmi um notkun
   
 Aðilar:
 
@@ -60,7 +60,7 @@ Aðilar:
 * Söluaðili - fyrirtækið þitt.
 * Greiðsluþjónustuaðili - fyrirtæki sem auðveldar greiðslumiðlun fyrir þig. Getur verið Shopify Payments eða þriðji aðili.
 
-### Hvernig peningar flæða
+### <a name="how-money-flows" />Hvernig peningar flæða
 
 Kaupandi kaupir vörur í netverslun. Síðasta stigið er að greiðsluvinnslan.
 
@@ -77,7 +77,7 @@ Kaupandinn greiðir með kreditkorti, PayPal eða einhverjum staðbundnum greið
 
 Það eru nokkrir valkostir um hvernig á að meðhöndla greiðslufærslur í [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### Valkostur 1: afstemma millifærslur á innleið á bankareikning á móti upprunalegum reikningum
+### <a name="option--reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Valkostur 1: afstemma millifærslur á innleið á bankareikning á móti upprunalegum reikningum
   
 Söluaðili flytur inn sölupöntun í [!INCLUDE[prod_short](../includes/prod_short.md)] og bókar sendingu og reikning.
 
@@ -90,7 +90,7 @@ Vandamál:
 1. Það getur verið erfitt ef það eru margir reikningar (og kreditreikningar) en ein útborgun frá greiðsluþjónustuaðilanum með eingreiðslu.
 2. Upphæð stemmir yfirleitt ekki vegna þóknunar. Hægt er að nota greiðsluvikmörk og/eða greiðsluafslætti til að meðhöndla gjöld.
 
-### Valkostur 2: afstemma millifærslur á innleið á bankareikning á móti bráðabirgðareikningi sem stendur fyrir peninga hjá greiðsluþjónustuaðila
+### <a name="option--reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Valkostur 2: afstemma millifærslur á innleið á bankareikning á móti bráðabirgðareikningi sem stendur fyrir peninga hjá greiðsluþjónustuaðila
   
 Söluaðili flytur inn sölupöntun í [!INCLUDE[prod_short](../includes/prod_short.md)] og bókar sendingu og reikning.
   
@@ -119,6 +119,6 @@ Vandamál:
 
 1. Hægt er að stofna marga fjárhags- eða bankareikninga ef átt er í viðskiptum við marga greiðsluþjónustuaðila. Sölupantanir í [!INCLUDE[prod_short](../includes/prod_short.md)] styðja hins vegar aðeins einn kóða greiðslumáta, sem gerir erfitt um vik að meðhöndla mál þegar kaupandi notar marga greiðslumáta fyrir pöntun.
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Hafist handa með tengilinn fyrir Shopify](get-started.md)  

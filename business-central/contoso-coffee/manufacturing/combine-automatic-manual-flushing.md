@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Kynning: Sameina sjálfvirka og handvirka birgðaskráningu
+# <a name="walkthrough-combine-automatic-and-manual-flushing" />Kynning: Sameina sjálfvirka og handvirka birgðaskráningu
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee í birgðaskráningu.  
 
-## Aðstæður
+## <a name="scenario" />Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Stofna þarf nýja framleiðslupöntun fyrir tíu einingar af vörunni SP-SCM1004, AutoDrip. Sumir þættir og aðgerðir verða birgðaskráðar framvirkt, aðrar afturvirkt, eftir því hver skilyrðin eru.
 
-## Skref
+## <a name="steps" />Skref
 
 > [Athugaðu!] Mundu að laga birgðir með því að bóka birgðabók með opnunarstöðum.
 
@@ -103,7 +103,7 @@ ms.author: andreipa
 
 Þetta er allt og sumt um handvirka og sjálfvirka birgðaskráningu íhluta.
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Tæma íhluti eftir úttak aðgerðar](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Kynning á contoso kaffi sýnigögnum](contoso-coffee-manufacturing-intro.md)  

@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
-# Stjórna samstillingu aðalgagna
+# <a name="manage-master-data-synchronization" />Stjórna samstillingu aðalgagna
 
 Eftir að samstilling aðalgagna hefur verið sett upp og samstillt í fyrsta sinn eru færslur í völdum töflum settar saman og færsla endurtekinna verkraðarstofna fyrir hverja töflu. Runufærslur eru sjálfkrafa samstilltar gögn í dótturfyrirtækjunum þegar einhver gerir breytingu á upprunafélaginu. Annars þarf maður ekki að gera neitt.
 
@@ -21,7 +21,7 @@ Stundum fara hlutirnir þó úrskeiðis og það gætu verið aðstæður sem þ
 
 Þessi grein lýsir verkfærunum sem nota má til að halda samstillingu í gangi vel.
 
-## Rannsaka stöðu samstillingar
+## <a name="investigate-the-status-of-synchronization" />Rannsaka stöðu samstillingar
 
 Tvær aðgerðir eru á síðunni Samstillingartöflur  **sem geta hjálpað til við**  að fylgjast með samstillingunni:
 
@@ -38,29 +38,29 @@ Eftirfarandi tafla lýsir aðgerðunum.
 > [!NOTE]
 > Ef villa kemur upp á  **síðunni Samþættingarsamstillingarvinnslur**  sem ekki er hægt að leysa handvirkt ef haft er samband við samstarfsaðila eða Microsoft fyrir stuðning er gagnlegt að útvega villuboðin og upplýsingar um kallbunka.
 
-## Samstilla breyttar færslur
+## <a name="synchronize-modified-records" />Samstilla breyttar færslur
 
 Ef stillingum fyrir töflu eða svæði er breytt í dótturfyrirtæki þarf að uppfæra samstillinguna. Ef ákveðið er til dæmis að velja  **gátreitinn skrifa yfir staðbundna breytingu**  á reit til að leyfa gögnum frá upprunafélaginu að skrifa yfir staðbundnar breytingar. Til að uppfæra samstillinguna skal nota  **aðgerðina samstilla breytt færslur**  á  **síðunni samstillingartöflur** .
 
-## Uppfæra Töfluskemu
+## <a name="update-table-schemas" />Uppfæra Töfluskemu
 
 Ef veitufyrirtækið breytir töflu, til dæmis með því að bæta við reit sem á að samstilla, verða dótturfyrirtækin að uppfæra svæðvarpana.  **Á síðunni samstillingarsvæði**  skal nota  **aðgerðina uppfærslusvæði** . 
 
-## Gera þrýstingsstillirinn virka eða óvirka milli færslna
+## <a name="enable-or-disable-couplings-between-records" />Gera þrýstingsstillirinn virka eða óvirka milli færslna
 
 Til að ræsa eða stöðva festingu á tilteknum færslum í töflu, á  **síðunni samstillingarsvæði**, skal velja svæðin og nota síðan annað hvort aðgerðir til  **að virkja**  eða  **slökkva**  á þeim. 
 
 > [!TIP]
 > Fljótleg leið til að gera mörg svæði virk eða óvirk á sama tíma er að velja þau í listanum og nota síðan annað hvort  **Aðgerðir til að virkja**  eða  **slökkva**  á þeim.
 
-## Bæta við viðaukum
+## <a name="adding-extensions" />Bæta við viðaukum
 
 Ef upprunafélagið setur upp nýja framlengingu þarf dótturfyrirtæki einnig að setja það upp ef það vill samstilla gögn fyrir það. Dótturfyrirtækið getur notað  **aðgerðina uppfæra svæði**  á  **síðunni samstillingarsvæði**  til að bæta töflunum úr viðaukanum við listann.
 
 > [!NOTE]
 > Sumar töflur fá gögn úr tengdum töflum. Ef viðbótartöflu er bætt við sem inniheldur ekki tengdar töflur eru svæðin í þessum töflum ekki tiltæk. Staðfestið að þú hafir bætt við öllum tengdum töflum.
 
-## Tiltekt í gömlum færslum
+## <a name="clean-up-old-entries" />Tiltekt í gömlum færslum
 
 Með tímanum verður Fjöldi færslna í samstillingarkladdanum orðinn stór, þannig að þú gætir viljað gera smá húsgæftir til að fjarlægja óþarfa færslur. Til að auðvelda Hreinsun á gömlum færslum,  **þá býður síða Samþættingarsamstillingarvinnslu**  eftirfarandi aðgerðir:
 
@@ -68,11 +68,11 @@ Með tímanum verður Fjöldi færslna í samstillingarkladdanum orðinn stór, 
 * **Eyða öllum færslum**
 
 <!--
-## Recreate a deleted job queue entry
+## <a name="recreate-a-deleted-job-queue-entry" />Recreate a deleted job queue entry
 
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Fá tilbúinn til að samstilla aðalgögn](admin-set-up-data-sync.md)

@@ -7,7 +7,7 @@ ms.search.keywords: 'news, release plan, roadmap, whats new'
 ms.date: 12/07/2022
 ms.author: edupont
 ---
-# Nýtt og áætlað fyrir Dynamics 365 Business Central
+# <a name="new-and-planned-for-dynamics--business-central" />Nýtt og áætlað fyrir Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
@@ -20,11 +20,11 @@ Eftirfarandi listi veitir upplýsingar um nýjustu útgáfuna af [!INCLUDE [prod
 
 Þú gætir viljað kanna  [Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  geta svæðisins og  [Dynamics 365 Business Central  vegakorti](https://dynamics.microsoft.com/roadmap/business-central/) .  
 
-## Fá tilkynningu um breytingar með RSS-straumi
+## <a name="get-notified-about-changes-through-an-rss-feed" />Fá tilkynningu um breytingar með RSS-straumi
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Skoðaðu myndbandasafnið okkar](across-videos.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
@@ -36,6 +36,6 @@ Eftirfarandi listi veitir upplýsingar um nýjustu útgáfuna af [!INCLUDE [prod
 [Verðlagning Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central Samfélag](https://community.dynamics.com/business/)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

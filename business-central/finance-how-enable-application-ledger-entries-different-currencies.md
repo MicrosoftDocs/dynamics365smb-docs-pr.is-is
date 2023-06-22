@@ -11,7 +11,7 @@ ms.search.form: '148, 460, 25'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum
+# <a name="enable-application-of-ledger-entries-in-different-currencies" />Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum
 
 Ef keypt er af lánardrottni í einum gjaldmiðli og greitt í öðrum gjaldmiðli er hægt að jafna greiðsluna innkaupunum.
 
@@ -19,7 +19,7 @@ Ef keypt er af lánardrottni í einum gjaldmiðli og greitt í öðrum gjaldmið
 
 Eftirfarandi ferli sýnir hvernig á að setja þetta upp fyrir lánardrottnafærslur á síðunni **Uppsetning innkaupa og viðskiptaskulda**. Uppsetningin er svipuð og færslur viðskiptamannabókar á síðunni **Uppsetning sölu og viðskiptakrafna**.
 
-## Til að virkja jöfnun lánardrottnafærslna í mismunandi gjaldmiðlum
+## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies" />Til að virkja jöfnun lánardrottnafærslna í mismunandi gjaldmiðlum
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Uppsetning innkaupa og viðskiptaskulda** og velja svo viðeigandi tengil.
 2. Í reitnum **Jöfnun milli gjaldmiðla** skal velja einn eftirtalinna valkosta.
@@ -30,7 +30,7 @@ Eftirfarandi ferli sýnir hvernig á að setja þetta upp fyrir lánardrottnafæ
 | EMU |Jöfnun milli EMU-gjaldmiðla er leyfð. |
 | Allt |Jöfnun milli allra gjaldmiðla er leyfð. |
 
-## Uppsetning fjárhagsreikninga fyrir gjaldmiðilsaðgerð sléttunarmismunar
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences" />Uppsetning fjárhagsreikninga fyrir gjaldmiðilsaðgerð sléttunarmismunar
 
 Eigi að jafna færslur í mismunandi gjaldmiðlum þarf að setja upp fjárhagsreikninga þar sem á að bóka sléttunarmismun.  
 
@@ -42,9 +42,9 @@ Eigi að jafna færslur í mismunandi gjaldmiðlum þarf að setja upp fjárhags
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókunarflokkar lánardrottna** og velja síðan viðkomandi tengil.  
 4. Í reitunum **Debet gjaldm.jöfn.slétt.reikn** og **Kreditreikn. gjaldeyrisjöfn.** er fært inn viðkomandi fjárhagsreikningsnúmer til að bóka sléttunarmismun.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprocess-foreign-currency-payments-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  

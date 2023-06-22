@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Staðbundnar aðgerðir fyrir Ísland
+# <a name="iceland-local-functionality" />Staðbundnar aðgerðir fyrir Ísland
 
 Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslenskri útgáfu [!INCLUDE[prod_short](../../includes/prod_short.md)]
 
-## Framboð á eiginleika
+## <a name="feature-availability" />Framboð á eiginleika
 
 * VSK
     * [Prenta VSK-yfirlit á skjölum](how-to-print-vat-summary-information-on-documents.md) **Nú í boði**
@@ -27,16 +27,16 @@ Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslensk
     * [Varpa skattstofunúmerum í bókhaldslyklana](how-to-map-irs-numbers-to-chart-of-accounts.md) **Nú í boði**
     * [Eyðing bókaðra reikninga og kreditreikninga](deleting-posted-invoices-and-credit-memos.md) **Nú í boði**
 
-## Síðari löggæslukröfur verið rannsakaðar
+## <a name="future-legislation-requirements-being-investigated" />Síðari löggæslukröfur verið rannsakaðar
 
 Eins og er eru engar væntanlegar eftirlitsaðgerðir eða kröfur. Ef þú ert meðvitaður um einhverjar aðgerðir í komandi aðgerðum, vinsamlegast sendu regluverði  [aðgangsstýringa viðvörun](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Vinna með [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

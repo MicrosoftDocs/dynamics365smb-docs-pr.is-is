@@ -9,7 +9,7 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
+# <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations" />Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
 
 Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru tínsla og sendingarvara notuð með einni af fjórum aðferðum eins og lýst er í eftirfarandi töflu.
 
@@ -24,7 +24,7 @@ Frekari upplýsingar á útdragandi [Vöruhúsaklæðum](design-details-outbound
 
 Eftirfarandi kynning sýnir aðferð B í fyrri töflu.  
 
-## Um kynninguna
+## <a name="about-this-walkthrough" />Um kynninguna
 
 Í grunnvöruhúsi þar sem staðsetning er sett upp þannig að krafist sé tínsluvinnslu en ekki afhendingarvinnslu skal nota síðuna **Birgðatínsla** til að skrá og bóka tínslu og afhendingarupplýsingar fyrir upprunaskjöl á útleið. Upprunaskjalið á útleið getur verið sölupöntun, innkaupaskilapöntun, millifærslupöntun á útleið eða framleiðslupöntun með nauðsynlegum íhlutum.  
 
@@ -36,7 +36,7 @@ Eftirfarandi kynning sýnir aðferð B í fyrri töflu.
 - Stofna birgðatínslu byggða á útgefnu upprunaskjali.  
 - Skráir vöruhúsahreyfinguna frá vöruhúsinu og bókar á sama tíma söluafhendinguna fyrir upprunaskjal sölupöntunarinnar.  
 
-## Hlutverk
+## <a name="roles" />Hlutverk
 
 Þessi kynning sýnir þau verk sem framkvæmd eru með eftirfarandi hlutverkum notenda:  
 
@@ -51,33 +51,33 @@ To complete this walkthrough, you will need:
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
  -->
 
-## Ferill
+## <a name="story" />Ferill
 
 Stjórnandi vöruhússins hjá CRONUS setur upp SUÐUR-vöruhús fyrir grunntínslur þar sem starfsmenn vöruhússins meðhöndla pantanir á útleið hverja fyrir sig. Sá sem vinnur pantanir, býr til sölupöntun með 30 einingum af vöru 1928-S sem afgreiða á til viðskiptamanns 10000 úr SUÐUR vöruhúsinu. Starfsmaður vöruhússins verður að vera fullviss um að afhendingin sé tilbúin og send til viðskiptamannsins. Öllum tengdum verkum er stjórnað af John á síðunni **Birgðatínsla** sem sjálfkrafa vísar í hólfin þar sem 1928-S er geymt.
 
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
-### Uppsetning hólfakóða
+### <a name="setting-up-the-bin-codes" />Uppsetning hólfakóða
 
 Þegar staðsetningin hefur verið sett upp verður að bæta tveimur hólfum við.
 
-#### Til að setja upp hólfakóðana
+#### <a name="to-setup-the-bin-codes" />Til að setja upp hólfakóðana
 
 1. Veldu aðgerðina **Hólf**.
 2. Búðu til tvö hólf, með kóðunum *S-01-0001* og *S-01-0002*.
 
-### Að gera sig að vöruhúsastarfsmanni á staðsetningunni SUÐUR
+### <a name="making-yourself-a-warehouse-employee-at-location-south" />Að gera sig að vöruhúsastarfsmanni á staðsetningunni SUÐUR
 
 Til að nota þessa aðgerð verður þú að bæta við þig staðsetningu sem starfskraftur í vöruhúsi. 
 
-#### Til að gera þig að starfsmanni vöruhúss
+#### <a name="to-make-yourself-a-warehouse-employee" />Til að gera þig að starfsmanni vöruhúss
 
   1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
   2. Veldu reitinn **Notandakenni** og síðan eigin notandareikning á síðunni **Starfsmaður vöruhúss**.
   3. Í reitnum **Staðsetningarkóði** velur þú SUÐUR.  
   4. Veldu reitinn **Sjálfgefið** og síðan hnappinn **Já**.  
 
-### Gera hlut 1928-S tiltækan
+### <a name="making-item--s-available" />Gera hlut 1928-S tiltækan
 
 Til að gera hlut 1928-S aðgengilegan á SUÐUR staðsetningunni skal fylgja þessum skrefum:  
 
@@ -94,11 +94,11 @@ Til að gera hlut 1928-S aðgengilegan á SUÐUR staðsetningunni skal fylgja þ
   3. Veldu **Aðgerðir**, smelltu síðan á **Bókun** og smella síðan á **Bóka**.  
   4. Velja hnappinn **Já**.  
 
-## Stofna sölupöntunina
+## <a name="creating-the-sales-order" />Stofna sölupöntunina
 
 Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.  
 
-### Stofna sölupöntun
+### <a name="to-create-the-sales-order" />Stofna sölupöntun
 
 1. Veldu ![Ljósapera sem opnar þriðja eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -114,11 +114,11 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 
     Haldið er áfram að taka til og senda seldar vörur.  
 
-## Tínsla og afhending vara
+## <a name="picking-and-shipping-items" />Tínsla og afhending vara
 
 Á síðunni **Birgðatínsla** er hægt að meðhöndla alla virkni vöruhúss á útleið fyrir tiltekið upprunaskjal, til dæmis sölupöntun. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-### Til að tína og senda vörur
+### <a name="to-pick-and-ship-items" />Til að tína og senda vörur
 
 1. Veldu ![Ljósapera sem opnar fjórða eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Birgðatínsla** og veldu síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -135,9 +135,9 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 
     30 Amsterdam Lamps eru nú skráðir sem teknir til úr hólfum S-01-0001 og S-01-0002 er nú skráð og neikvæð birgðafærsla er stofnuð sem endurspeglar hina bókuðu söluafhendingu.  
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Vörur tíndar með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Tína vörur fyrir vöruhúsaafhendingu](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

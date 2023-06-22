@@ -12,7 +12,7 @@ ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# Breyta bókuðum fylgiskjölum
+# <a name="edit-posted-documents" />Breyta bókuðum fylgiskjölum
 
 Stundum þarf að uppfæra bókað skjal vegna þess að upplýsingar sem skipta máli fyrir skjalið hafa breyst. Á bókuðu söluskjali getur þetta til dæmis verið rakningarnúmer pakka frá flutningsaðilanum. Á bókuðu innkaupaskjali getur þetta verið texti greiðslutilvísunar.
 
@@ -32,7 +32,7 @@ Eftirfarandi viðbótarskjölum er hægt að breyta í tilteknum löndum eða sv
 - RU: Bókaður sölukreditreikningur
 - IT: Bókuð millifærsluafhending, bókuð þjónustuafhending
 
-## Breyta bókaðri söluafhendingu
+## <a name="to-edit-a-posted-sales-shipment" />Breyta bókaðri söluafhendingu
 
 Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin eru svipuð í hinum studdu skjölunum.
 
@@ -43,7 +43,7 @@ Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin
 
 Bókuð söluafhending er uppfærð.
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Bókun skjala og færslubóka](ui-post-documents-journals.md)  
 [Finna tengdar færslur fyrir skjöl](ui-find-entries.md)  

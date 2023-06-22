@@ -10,19 +10,19 @@ ms.search.keywords: 'Invoicing, Microsoft 365'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Nota sama Microsoft 365-reikninginn í [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft Invoicing
+# <a name="use-the-same-microsoft--account-in-includeprodshortincludesprodlongmd-and-microsoft-invoicing" />Nota sama Microsoft 365-reikninginn í [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft Invoicing
 Þegar þú skráir þig í prufuáskrift fyrir [!INCLUDE[prod_short](includes/prod_short.md)] geturðu farið í 30 daga matsáfanga, þú getur byrjað áskrift eða hættir að nota [!INCLUDE[prod_short](includes/prod_short.md)]. Í öllum tilvikum getur þú á einhverjum tímapunkti hafa séð eitthvað sem kallast **Microsoft Invoicing** og smellt á það. Þetta forrit var hluti af því sem er núna Microsoft 365 Business Standard og var áður þekkt sem Microsoft 365 Business Premium-áskrift, þannig hafa ekki allir séð þennan valkost við notkun Microsoft 365.  
 
 Microsoft Invoicing er ekki lengur í boði, en ef þú þarft að skrá þig inn á Invoicing til að sækja gögnin þín gætirðu séð skilaboð um að þú hafir ekki aðgang að Microsoft Invoicing þar sem reikningurinn þinn er notaður í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Þú sérð svipuð skilaboð ef þú setur upp farsímaforritið fyrir Invoicing.  
 
-## Hjáleið
+## <a name="workaround" />Hjáleið
 Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)] deila verkvangi. Það þýðir að þú þekkist sem núverandi notandi á [!INCLUDE[prod_short](includes/prod_short.md)] þegar þú smellir á reikningsfærslu í Microsoft 365 stjórnendamiðstöðinni. Ástæðan er sú að Invoicing getur ekki notað sama fyrirtæki og [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Þannig verður þú að skrá þig inn í [!INCLUDE[prod_short](includes/prod_short.md)] og endurnefna núverandi fyrirtæki þitt og búa síðan til nýtt fyrirtæki sem þú getur síðan notað í Invoicing. Engin gögn eru flutt eða skrifuð yfir í þessa hjáleið.
 
-### Til að endurnefna fyrirtækið þitt
+### <a name="to-rename-your-company" />Til að endurnefna fyrirtækið þitt
 1. Skráðu þig inn á [!INCLUDE[prod_short](includes/prod_short.md)].
 2. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan **Stillingar mínar**.
 3. Í reitnum **Fyrirtæki** er annað fyrirtæki valið.
@@ -36,12 +36,12 @@ Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)] deila verkvangi. Þa
 
 Þetta tekur líka nokkrar mínútur. Þegar ferlið lýkur geturðu fengið aðgang að Invoicing sem hluti af Microsoft 365 Business Standard upplifun. en aðeins til að flytja út gögn þar sem forritið Reikningar er úrelt.  
 
-### Hvað með gögnin mín?
+### <a name="what-about-my-data" />Hvað með gögnin mín?
 Þegar þú endurnefnir upprunalega fyrirtækið mitt, verða gagnagrunnstöflurnar sem geyma núverandi [!INCLUDE[prod_short](includes/prod_short.md)] gögn þín endurnefnd, en gögnin sjálft eru ekki snert.  
 
 Ef þú notar bæði Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)] eru gögnin geymd í tveimur mismunandi hólfum (tvö fyrirtæki). Ekkert er deilt, þannig að þú verður að stjórna viðskiptamönnum og vörum í báðum fyrirtækjum.  
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 [Algengar spurningar](across-faq.yml)  
 [Stjórnun](admin-setup-and-administration.md)  
 

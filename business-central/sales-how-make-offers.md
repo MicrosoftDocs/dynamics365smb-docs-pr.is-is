@@ -11,7 +11,7 @@ ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: edupont
 ---
-# Gera sölutilboð
+# <a name="make-sales-quotes" />Gera sölutilboð
 
 Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilfang um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum. Hægt er að senda sölutilboð til viðskiptamannsins til að miðla tilboðinu. Hægt er að senda skjalið í tölvupósti sem PDF viðhengi. Hægt er að láta meginmálslínur tölvupósts vera útfyllt fyrirfram með tilboði. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
 
@@ -19,7 +19,7 @@ Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilf
 
 Í flestum tilfellum sendirðu sölutilboð á hugsanlega viðskiptavini. Oft er um að ræða tengilið sem samið er við. Ef viðkomandi samþykkir síðan tilboðið frá þér breytir þú sölutilboðinu í pöntun og skráir tilfangið sem viðskiptavin í [!INCLUDE [prod_short](includes/prod_short.md)]. Í eftirfarandi ferli leggjum við áherslu á tengiliði, en einnig er hægt að senda tilboð til núverandi viðskiptavina.  
 
-## Sölutilboð búin til:
+## <a name="to-create-a-sales-quote" />Sölutilboð búin til:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölutilboð** og velja síðan viðkomandi tengil.
 2. Tilgreindu tengilið eða viðskiptavin sem á að senda sölutilboðið til.
@@ -88,13 +88,13 @@ Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilf
 
 Breytingin fjarlægir sölutilboðið úr gagnagrunninum. Sölureikningur eða sölupöntun er stofnuð út frá upplýsingunum í sölutilboðinu svo hægt sé að ganga frá sölunni. Í reitnum **Tilboð nr.** á sölureikningnum eða sölupöntun er hægt að sjá fjölda sölutilboða sem hann var búinn til úr. Nánari upplýsingar eru í [Reikningsfæra sölu](sales-how-invoice-sales.md) eða [Selja vörur.](sales-how-sell-products.md)  
 
-## Númer ytra skjals
+## <a name="external-document-number" />Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

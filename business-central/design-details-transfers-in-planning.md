@@ -9,7 +9,7 @@ ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ---
-# Hönnunarupplýsingar: Flutningur í áætlun
+# <a name="design-details-transfers-in-planning" />Hönnunarupplýsingar: Flutningur í áætlun
 
 Millifærslupantanir eru einnig uppspretta framboðs þegar unnið er á birgðahaldseiningarstigi. Þegar margar staðsetningar (vöruhús) eru notaðar er hægt að stilla áfyllingarkerfi birgðahaldseininga á Flutning og gefa þannig í skyn að staðsetningin verði áfyllt með því að flytja þangað varning af annarri staðsetningu. Ef um er að ræða aðstæður með fleiri vöruhúsum gæti verið að um flutninga sé að ræða. Framboð til GRÆNNAR staðsetningar flyst úr GULU, framboð til GULU er flutt úr rauðu o. sfrv. Í upphafi keðjunnar eru Áfyllingarkerfi  **framl. pöntunar**  eða  **innkaupa**.  
 
@@ -27,7 +27,7 @@ Ef þörf er á breytingum gæti það valdið rifa áhrifum í gegnum keðjuna.
 
 ![Dæmi um stöðu framboðs- og eftirspurnar í flutningi.](media/nav_app_supply_planning_7_transfers2.png "Dæmi um stöðu framboðs- og eftirspurnar í flutningi")  
 
-## Af hverju er verið að flytja sérstakt mál?  
+## <a name="why-is-a-transfer-a-special-case" />Af hverju er verið að flytja sérstakt mál?
 
 Flutningspantanir eru svipaðar og í öðrum pöntunum, til dæmis innkaupa-og framleiðslupantanir. Þó á bak við atriðið að þeir séu ólíkir.  
 
@@ -37,7 +37,7 @@ Einn munur er á því að Millifærslulína táknar bæði eftirspurn og frambo
 
 Þegar  [!INCLUDE [prod_short](includes/prod_short.md)]  breytist framboðhlið flutnings þarf að gera sams konar breytingu á eftirspurnarhlið.  
 
-## Flutningar eru háðar eftirspurn  
+## <a name="transfers-are-dependent-demand" />Flutningar eru háðar eftirspurn
 
 Tengsl eftirspurnar og framboðs eru svipuð íhlutum í framleiðslupöntunarlínum. Munurinn er sá að íhlutir á framleiðslupöntunarlínunum eru á næsta stigi áætlunar og hafa aðra vöru með. Tveir hlutar flutnings eru á sama stigi vegna sömu vöru.  
 
@@ -47,7 +47,7 @@ Ef Sveigjanleiki áætlunar er enginn þarf að meðhöndla flutningslínu sem s
 
 Í skipulagsferlinu skal einungis taka tillit til flutningskröfunnar eftir að áætlanakerfi hefur unnið á framboðshliðinni. Áður en sú vinnsla gerist er raunveruleg eftirspurn ekki þekkt. Röð breytinganna er mikilvæg fyrir flutningspantanir.  
 
-## Áætlunarraðar  
+## <a name="planning-sequence" />Áætlunarraðar
 
 Eftirfarandi mynd sýnir dæmi um flutning á streng.  
 
@@ -59,7 +59,7 @@ Eftirfarandi mynd sýnir dæmi um flutning á streng.
 
 ![Framboðsáætlun með flutningi.](media/nav_app_supply_planning_7_transfers5.png "Framboðsáætlun með flutningi")  
 
-## Flutningsstigskóði  
+## <a name="transfer-level-code" />Flutningsstigskóði
 
 Flutningstigskóti be ákvarðar röðina sem áætlunarkerfið vinnur birgðageymslur fyrir.  
 
@@ -71,7 +71,7 @@ Flutningsstigskótinn verður 0 fyrir SKUs með innkaupa-eða framl. Pöntunará
 
 Við uppfærslu á BIRGÐAHALDSKERFI skynjar áætlanakerfið hvort Áfyllingarkerfi fyrir SKUs eru með hringlaga tilvísunum.  
 
-## Áætlunarflutningar án SKÚTU  
+## <a name="planning-transfers-without-sku" />Áætlunarflutningar án SKÚTU
 
 Fyrir minni ítarlegar vöruhúsauppsetningar er hægt að nota staðsetningar og gera handvirka flutninga milli birgðageymslna þó að ekki sé hægt að nota SKUs. Til dæmis gæti flutningurinn forað sölupöntun á þeirri birgðageymslu. Áætlanakerfið bregst við breytingum á eftirspurninni.  
 
@@ -81,7 +81,7 @@ Fyrir handvirka flutninga greinir áætlanakerfið flutningspantanir og áætlar
 
 Ef nokkrir flutningar eru á stað skilgreinir fyrsta flutningspöntunin áætlunarstefnuna. Hætt er við flutningum í gagnstæða átt.  
 
-## Breyta magni með frátekningum  
+## <a name="changing-quantity-with-reservations" />Breyta magni með frátekningum
 
 Þegar magni er breytt í framboði tekur áætlanakerfið frátekningu mið af því. Frátekið magn táknar því neðri mörk fyrir hversu mikið á að draga framboðið.  
 
@@ -96,7 +96,7 @@ Jafnvel þó að innkomin hlið hafi hugsanlega umframframboð þá er ekki hæg
 
 ![Frátekningar í flutningsáætlun.](media/nav_app_supply_planning_7_transfers8.png "Frátekning í flutningsáætlun")  
 
-## Breyta magni í flutningskeðju  
+## <a name="changing-quantity-in-a-transfer-chain" />Breyta magni í flutningskeðju
 
 Hér er dæmi um það sem gerist þegar magni er breytt í flutningabreytingu.
 
@@ -118,7 +118,7 @@ Nú kýs skipuleggjandi BLEIKU staðsetningarinnar að taka frá fyrir kaupin.
 
 BLEIKTRAUTT pöntunin hefur verið minnkuð niður í 22. Innsendinn hluti BLÁBLEIKU flutningins er ekki frátekinn en útleiðarhlutinn er. Úttektin þýðir að ekki er hægt að minnka magnið niður 27.  
 
-## Útreikningur afgreiðslutíma  
+## <a name="lead-time-calculation" />Útreikningur afgreiðslutíma
 
 Við útreikning á gjalddögum millifærslapönta er tekið mið af mismunandi tegundum afgreiðslutíma.  
 
@@ -149,7 +149,7 @@ Dæmið sýnir eftirfarandi útreikninga:
 * Upphafsdagsetning + Afhendingartími = Lokadagsetning  
 * Lokadagsetning + Afgreiðslutími inn í vöruhús = Móttökudagsetning  
 
-## Öryggisforskot  
+## <a name="safety-lead-time" />Öryggisforskot
 
  **Reiturinn sjálfgefið öryggisforskot**  á  **síðunni Uppsetning**  framleiðslu og tengd  **tímasvæði**  öryggisleiða á  **birgðaspjaldinu**  eru ekki teknir með í útreikningum millisendingarpöntunar. Öryggisafhendingartími hefur hins vegar áhrif á heildaráætlunina. Öryggisafhendingartími hefur áhrif á áfyllingarpöntunina (innkaup eða framleiðslu) við upphaf flutningskeðjunnar. Það er punkturinn þar sem vörurnar voru settar á þann stað þaðan sem þær verða fluttar.  
 
@@ -159,7 +159,7 @@ Dæmið sýnir eftirfarandi útreikninga:
 
 Í innkaupapöntunarlínunni Ráðgerð móttökudagsetning + Öryggisforskot + Afgreiðslutími vara á innleið í vöruhús Áætluð móttökudagsetning.  
 
-## Endurtímasetja  
+## <a name="reschedule" />Endurtímasetja
 
 Þegar Flutningslína er endurtímasett finnur kerfið útleiðarhlutann og breytir dagsetningu-tíma.
 
@@ -170,11 +170,11 @@ Dæmið sýnir eftirfarandi útreikninga:
 
 Þegar gjalddögum er breytt í millisendingarlínu verður afhendingartími að vera reiknaður út til að uppfæra hlið flutnings.  
 
-## Rað-og lotunúmer í flutningskeðjum  
+## <a name="serial-and-lot-numbers-in-transfer-chains" />Rað-og lotunúmer í flutningskeðjum
 
 Ef eftirspurnin notar rað-eða lotunúmer og keyrð er áætlunarvélin, mun hún búa til flutningspantanir. Nánari upplýsingar um þetta hugtak eru í Eigindir vöru. Hins vegar, ef rað-eða lotunúmer eru fjarlægð úr eftirspurninni, eru flutningspantanir enn notaðar rað-eða lotunúmerunum og áætlun hunsar þær (ekki eytt).  
 
-## Tenglar á milli pantana  
+## <a name="order-to-order-links" />Tenglar á milli pantana
 
 Í þessu dæmi er bláa skvísan  **sett upp með endurpöntunarstefnu pöntunar** . Hinir BLEIKU og RAUÐU SKUs hafa loið  **-fyrir-Lot**  endurpöntunarstefnuna. Sölupöntun er stofnuð fyrir 27 á staðnum RAUÐAR leiðir í keðju flutninga. Síðasti flutningurinn er á staðnum BLÁR og hann er tekinn frá með bindingum. Í þessu dæmi eru frátekningar ekki harðar frátekningar stofnaðar af skipuleggjanda á BLEIKA stað. Áætlanakerfið stofnar bindingar. Veigamesti munurinn er að áætlunarkerfið getur breytt því síðarnefnda.  
 
@@ -182,7 +182,7 @@ Ef eftirspurnin notar rað-eða lotunúmer og keyrð er áætlunarvélin, mun h�
 
 Ef eftirspurninni er breytt úr 27 í 22 þá mun áætlanakerfið lækka magnið í gegnum keðjuna. Bindingartekning er einnig minni.  
 
-## Sjá einnig  
+## <a name="see-also" />Sjá einnig
 
 [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)   
 [Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)   

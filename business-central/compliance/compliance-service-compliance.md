@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Reglufylgni þjónustu
+# <a name="service-compliance" />Reglufylgni þjónustu
 
 Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)] á netinu  
 
@@ -21,17 +21,17 @@ Finndu ítarlegan lista yfir [Framboð á reglufylgni í skýi fyrir Business Ce
 
 Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Microsoft skaltu skoða [Öryggismiðstöð Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## þjónustuskilmála
+## <a name="service-terms" />þjónustuskilmála
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Reglufylgni](compliance-overview.md)  
 [Reglufylgni forrits](compliance-application-compliance.md)  
 [Vottanir](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

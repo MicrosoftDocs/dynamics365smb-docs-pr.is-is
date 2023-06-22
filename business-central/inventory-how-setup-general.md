@@ -11,11 +11,11 @@ ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: edupont
 ---
-# Setja upp almennar birgðaupplýsingar
+# <a name="set-up-general-inventory-information" />Setja upp almennar birgðaupplýsingar
 
 Almennar birgðaupplýsingar eru tilgreindar á síðunni **Birgðagrunnur**.
 
-## Til að setja upp almennar birgðaupplýsingar
+## <a name="to-set-up-general-inventory-information" />Til að setja upp almennar birgðaupplýsingar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.
 2. Á síðunni **Birgðagrunnur** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +31,7 @@ Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar re
 >
 > Að öðrum kosti er handvirkt hægt að leiðrétta kostnað með reglulegu millibili með runuvinnslunni Leiðrétta kostnað - Vörufærslur. Þú getur einnig slökkt á sjálfvirkri kostnaðarbókun eða stillt reitinn **Sjálfvirk kostnaðarleiðrétting** á *Aldrei*. Í báðum tilvikum birtist tilkynning þar sem hægt er að byrja á uppsetningu með hjálp til að auðvelda þér að tímasetja verk fyrir verkröðina. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Setja upp birgðir](inventory-setup-inventory.md)  
 [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  

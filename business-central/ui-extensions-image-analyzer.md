@@ -12,7 +12,7 @@ ms.date: 05/19/2021
 ms.author: bholtorf
 ---
 
-# Myndgreiningarviðbót
+# <a name="the-image-analyzer-extension" />Myndgreiningarviðbót
 
 Viðbótin fyrir Myndgreinandann notar öflugar myndgreiningaraðferðir frá Computer Vision API for Azure Cognitive Services til að greina eigindir á myndunum sem þú flytur inn fyrir vörur og tengiliði, svo þú getir auðveldlega endurskoðað þær og úthlutað þeim. Fyrir vörur, þá geta eigindir sagt til um hvort varan er borð eða bíll, og hvort hún er rauð eða blá. Fyrir tengiliði, þá geta eigindir verið kyn eða aldur.
 
@@ -22,11 +22,11 @@ Myndgreinandinn er ókeypis í [!INCLUDE[prod_short](includes/prod_short.md)], e
 
 Eftir að þú virkjar viðbótina, keyrist Myndgreinandinn í hvert skipti sem þú flytur inn mynd til vöru eða tengiliðs. Um leið muntu sjá eigindirnar, áreiðanleikastigið og upplýsingarnar og getur ákveðið hvað skal gera við hverja eigind. Ef þú fluttir inn myndir áður en þú virkjaðir Myndgreinanda-viðbótina, þarftu að ná í vöruna eða tengiliðaspjaldið og velja **Greina mynd** aðgerðina.  
 
-## Persónuverndaryfirlýsing
+## <a name="privacy-notice" />Persónuverndaryfirlýsing
 
 Þessi viðbót notar Computer Vision API frá Azure Cognitive Services, sem kann að hafa mismunandi stig skuldbindingar um reglufylgni en [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar þú kveikir á Image Analyzer viðbótinni verða viðskiptamannagögn á borð við tengiliðamynd eða vörumynd send til Tölvusjónar API. Með því að setja upp þessa viðbót samþykkir þú að þetta takmarkaða gagnasafn verði sent til Computer Vision API. Athugaðu að þú getur slökkt á og fjarlægt myndgreiningarviðbótina hvenær sem er til að hætta að nota þessa virkni. Nánari upplýsingar, sjá [Microsoft Öryggismiðstöð](https://go.microsoft.com/fwlink/?linkid=851463).
 
-## Kröfur
+## <a name="requirements" />Kröfur
 
 Myndirnar þurfa að lúta nokkrum skilyrðum:
 
@@ -34,7 +34,7 @@ Myndirnar þurfa að lúta nokkrum skilyrðum:
 * Hámarks skráarstærð: Minna en 4 MB  
 * Stærð myndar: Meira en 50 x 50 pixlar  
 
-## Kveikja á myndgreiningarviðbótinni
+## <a name="switch-on-the-image-analyzer-extension" />Kveikja á myndgreiningarviðbótinni
 
 Viðbót myndgreiningar er innbyggð í [!INCLUDE[prod_short](includes/prod_short.md)]. Þú þarft bara að kveikja á henni.
 
@@ -49,7 +49,7 @@ Gert er eitt af eftirfarandi til að virkja viðbótina fyrir myndgreiningu:
     > [!TIP]  
     > Á **Uppsetning myndgreiningar** síðunni geturðu líka breytt áreiðanleikastiginu fyrir tillögur um eigindir. Ef þú vilt til dæmis auka áreiðanleikann, þá geturðu slegið inn hærri prósentu.
 
-## Greina mynd atriðis
+## <a name="analyze-an-item-image" />Greina mynd atriðis
 
 Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður en þú virkjaðir viðbótina fyrir Myndgreinandann.  
 
@@ -69,7 +69,7 @@ Reiturinn **Aðgerð til að framkvæma** hefur eftirfarandi valkosti:
 > [!NOTE]  
 > Sjálfgefið er að **Vörueigindir** sýni eiginleika þar sem **Áreiðanleikaeinkunn** er yfir **Mörk áreiðanleikaeinkunnar í %** sem eru skilgreind í **Uppsetning myndgreiningar**. Til að sjá alla greinda eiginleika skal velja aðgerðina **Skoða alla eiginleika**.
 
-## Greina mynd af tengilið
+## <a name="analyze-a-contact-person-picture" />Greina mynd af tengilið
 
 Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður en þú virkjaðir viðbótina fyrir Myndgreinandann.  
 
@@ -90,7 +90,7 @@ Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður
     >
     > Computer Vision API skilar ekki öryggisstigi vegna eiginleika aldurs og kyns.
   
-## Notaðu þinn eigin reikning hjá Computer Vision API
+## <a name="use-your-own-computer-vision-api-account" />Notaðu þinn eigin reikning hjá Computer Vision API
 
 Þú getur líka notað þinn eigin reikning fyrir Computer Vision API, til dæmis ef þú vilt greina fleiri myndir en sjálfgefin samþætting býður upp á.
 
@@ -100,21 +100,21 @@ Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður
     > [!NOTE]  
     > Nauðsynlegt er að bæta **/greina** aftan við API URI ef það er ekki þegar þar. Til dæmis: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## Sjá hversu margar greiningar þú hefur skilið eftir á núverandi tímabil
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period" />Sjá hversu margar greiningar þú hefur skilið eftir á núverandi tímabil
 
 Þú getur skoðað hversu margar greiningar þú hefur framkvæmt, og hversu margar þú getur enn gert, á núverandi tímabili.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning myndgreiningar** og velja síðan viðkomandi tengil.
 2. Reitirnir **Gerð marka**, **Gildi marka** og **Framkvæmdar greiningar** veita upplýsingar um notkun.  
 
-## Hætta að nota viðbót fyrir Myndgreinanda
+## <a name="stop-using-the-image-analyzer-extension" />Hætta að nota viðbót fyrir Myndgreinanda
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Þjónustutengingar** og veldu síðan **Uppsetning myndgreiningar**.  
 2. Hreinsaðu reitinn **Virkja myndgreiningu**.  
 
 Einnig er hægt að fjarlægja viðbótina alveg. Það er alltaf hægt að sækja þetta aftur af AppSource. Frekari upplýsingar er að finna í [Uppsetning og fjarlæging viðbóta í Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Vinna með vörueigindir](inventory-how-work-item-attributes.md)  
 [Flokka vörur](inventory-how-categorize-items.md)  

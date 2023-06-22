@@ -11,7 +11,7 @@ ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 563
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Eignaumsjón
+# <a name="managing-fixed-assets" />Eignaumsjón
 
 Í kerfishlutanum Eignir í [!INCLUDE[prod_short](includes/prod_short.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
 
@@ -41,15 +41,15 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Bóka afskráningarfærslur, skoða afskráningarbókarfærslur og bóka afskráningar að hluta. |[Afskrá eða innkalla eignir](fa-how-dispose-retire.md) |
 | Stjórna fjárhagsáætlana eigna, áætlun stofnkostnaðar, áætlun afskráninga eigna og áætlun afskrifta. |[Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md) |
 
-## Yfirlit myndbands
+## <a name="video-overview" />Yfirlit myndbands
 
 Eftirfarandi myndband fjallar um grunnatriði eigna.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Sjá tengda [Microsoft þjálfun](/training/paths/manage-fixed-assets-transactions/)
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Uppsetning eigna](fa-setup.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
@@ -57,7 +57,7 @@ Eftirfarandi myndband fjallar um grunnatriði eigna.
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

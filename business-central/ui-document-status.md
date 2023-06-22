@@ -9,7 +9,7 @@ ms.search.form: null
 ms.date: 09/19/2022
 ms.author: bholtorf
 ---
-# Stöðureitur á skjölum
+# <a name="status-field-on-documents" />Stöðureitur á skjölum
 
 Þegar búið er til tilboð, pöntun eða kreditreikningur er **Staða** í stöðureitnum í skjalhausnum sjálfgefin **Opið**.
 
@@ -22,11 +22,11 @@ ms.author: bholtorf
 | Bíður samþykkis   | Fylgiskjalið bíður samþykktar. |
 | Bíður fyrirframgreiðslu | Bókaður hefur verið fyrirframgreiðslureikningur fyrir skjalið. |
 
-## Útgáfuferli
+## <a name="release-process" />Útgáfuferli
 
 Hægt er að nota útgáfuferlið á mismunandi vegu til að liðka fyrir venjulegu verkflæði, til dæmis til að fylgja ferlum fyrirtækis hvað varðar samþykktir eða stöðu vöruhúsaaðgerða.
 
-### Samþykktarferli
+### <a name="approval-procedures" />Samþykktarferli
 
 Hægt er að nota útgáfuferlið til að gefa til kynna að annar notandi hafi samþykkt skjalið eða að utanaðkomandi tengiliður geti mætt skilgreiningunum skjalsins eins og eftirfarandi dæmi sýna:
 
@@ -36,11 +36,11 @@ Hægt er að nota útgáfuferlið til að gefa til kynna að annar notandi hafi 
 
 Frekari upplýsingar um samþykktarferli er að finna undir [Nota vinnuferli](across-use-workflows.md).
 
-### Vöruhúsaaðgerðir
+### <a name="warehouse-activities" />Vöruhúsaaðgerðir
 
 Ef pöntunarstaðan er **Opin** er ekki hafist handa við að undirbúa sendinguna í vöruhúsinu né heldur er búist við því að fá vörurnar sem eru í innkaupapöntuninni. Þegar pöntunin er gefin út er gefið til kynna að pöntunin sé tilbúin og að vöruhúsið geti tekið hana með þeim aðgerðum sem þar fara fram.
 
-## Enduropna útgefna pöntun
+## <a name="reopen-a-released-order" />Enduropna útgefna pöntun
 
 Hægt er að breyta útgefinni pöntun með því að enduropna hana. Hins vegar er einungis hægt að auka magnið í þeim lína sem þegar er búið að vinna úr í vöruhúsinu.
 
@@ -51,7 +51,7 @@ Ef gerðar eru breytingar á útgefinni pöntun verður að láta vöruhúsið v
 > [!NOTE]
 > Ef bóka á eina opna pöntun eða kreditreikning án þess að gefa hana út fyrst gefur [!INCLUDE [prod_short](includes/prod_short.md)] sjálfkrafa út skjalið þegar það er bókað. Ef pantanirnar eða kreditreikningarnir eru bókaðir með því að nota aðgerðina **Bóka runu** er hægt að velja að bóka aðeins pantanir eða kreditreikninga sem búið er að gefa út.
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Selja vörur með sölupöntun viðskiptavinar](sales-how-sell-products.md)  
 [Skrá innkaup með innkaupareikningum](purchasing-how-record-purchases.md)  

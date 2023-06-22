@@ -10,7 +10,7 @@ ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# Úthýsa framleiðslu til undirverktaka
+# <a name="subcontract-manufacturing" />Úthýsa framleiðslu til undirverktaka
 
 Úthýsing á völdum aðgerðum til lánardrottna er algeng í mörgum framleiðslufyrirtækjum. Undirverktakastarfsemi getur verið sjaldgæf hending eða mikill þáttur í öllum framleiðsluferlum.
 
@@ -20,24 +20,24 @@ ms.author: edupont
 - Kostnaður vinnustöðvar byggt á einingum eða tíma: Þessi aðgerð gerir það mögulegt að taka fram hvort kostnaður tengdur vinnustöðinni er byggður á framleiðslutímanum eða flatt gjald fyrir hverja einingu. Þó svo að undirverktakar noti yfirleitt flatt gjald fyrir hverja einingu til að fá borgað fyrir þjónustu sína getur forritið ráðið við báða valkosti (framleiðslutíma og flatt gjald fyrir hverja einingu).  
 - Vinnublað undirverktakasamnings: Þessi aðgerð gerir það mögulegt að finna framleiðslupantanir með efni sem er tilbúið til sendingar til undirverktaka og að búa sjálfkrafa til innkaupapantanir fyrir aðgerðir undirverktaka frá leiðum framleiðslupöntunar. Þá bókar forritið sjálfkrafa gjöldin fyrir innkaupapöntunina á framleiðslupöntunina á meðan á bókun innkaupapöntunarinnar stendur. Aðeins er hægt að fá aðgang að og nota framleiðslupantanir sem hafa stöðuna útgefin á vinnublaði undirverktaka.  
 
-## Vinnustöðvar undirverktaka  
+## <a name="subcontract-work-centers" />Vinnustöðvar undirverktaka
 Vinnustöðvar undirverktaka eru  settar upp eins og venjulegar vinnustöðvar með viðbótarupplýsingar. Þeim er úthlutað á leiðir á sama hátt og aðrar vinnustöðvar.  
 
-### Reitir vinnustöðva undirverktaka  
+### <a name="subcontract-work-center-fields" />Reitir vinnustöðva undirverktaka
 Þessi reitur,  **Undirverktakanr.**, táknar vinnustöðina sem vinnustöð undirverktaka. Hægt er að rita númer undirverktaka sem sér um vinnustöðina. Hægt er að nota þennan reit til að sjá um vinnustöðvar sem ekki eru á staðnum en eru í vinnslu samkvæmt verksamningi.  
 
 Ef gerður er undirverktakasamningur við lánardrottininn um mismunandi taxta fyrir hvert ferli þá er hægt að velja reitinn **Tiltekið kostnaðarverð**. Þetta gerir það mögulegt að setja upp kostnað á hverja leiðarlínu og sparar þann tíma sem færi í að slá aftur inn hverja innkaupapöntun. Kostnaðurinn í leiðarlínunni er notaður í vinnslu frekar en kostnaðurinn í kostnaðarreitum vinnustöðvarinnar. Með því að velja **Tiltekið kostnaðarverð** reitinn er reiknaður út kostnaður fyrir lánardrottininn með leiðaraðgerðinni.  
 
 Ef gerður er undirverktakasamningur um einn taxta fyrir hvern birgja skal reiturinn **Tiltekið kostnaðarverð** látinn vera auður. Kostnaðurinn er settur upp með því að fylla í reitina **Innkaupaverð** , **Óbein kostnaðar %** og **Hlutfall sameiginlegs kostnaðar**.  
 
-### Leiðir sem nota Vinnustöðvar undirverktaka  
+### <a name="routings-that-use-subcontract-work-centers" />Leiðir sem nota Vinnustöðvar undirverktaka
 Hægt er að nota Vinnustöðvar verktaka fyrir aðgerðir á leiðum á  sama hátt og venjulegar vinnustöðvar.  
 
 Hægt er að setja upp leið sem notar utanaðkomandi vinnustöð sem staðlað aðgerðarskref. Hægt er líka að breyta leiðinni fyrir tiltekna framleiðslupöntun til að hún nái yfir utanaðkomandi aðgerð. Þetta gæti verið nauðsynlegt í neyðartilfellum eins og þegar þjónn bilar eða á afmörkuðu tímabili hærri eftirspurnar þegar senda þarf verk sem er yfirleitt unnið innanhúss til undirverktaka.  
 
 Nánari upplýsingar eru í [Stofna leiðir](production-how-to-create-routings.md).  
 
-## Reikna vinnublöð undirverktakasamninga og stofna innkaupapantanir fyrir undirverktaka  
+## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders" />Reikna vinnublöð undirverktakasamninga og stofna innkaupapantanir fyrir undirverktaka
 Þegar búið er að reikna út Vinnublað undirverktaka er viðeigandi skjal, í þessu tilfelli innkaupapöntun, stofnuð.  
 
 Síðan **Vinnublað undirverktakasamninga** virkar eins og **Áætlunarvinnublað** með því að reikna út framboð sem þarf, í þessu tilfelli innkaupapantanir, sem er endurskoðað í vinnublaðinu og síðan stofnað með aðgerðinni **Framkvæma aðgerðarboð**.  
@@ -45,7 +45,7 @@ Síðan **Vinnublað undirverktakasamninga** virkar eins og **Áætlunarvinnubla
 > [!NOTE]  
 >  Aðeins er hægt að fá aðgang að og nota framleiðslupantanir sem hafa stöðuna **Útgefin** á vinnublaði undirverktaka.  
 
-### Útreikningur Vinnublaðs undirverktakasamnings  
+### <a name="to-calculate-the-subcontracting-worksheet" />Útreikningur Vinnublaðs undirverktakasamnings
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað undirverktaka** og velja síðan viðkomandi tengil.  
 2.  Til að reikna út vinnublaðið er smellt á aðgerðina **Útreikningur verktakasamninga**.  
 3.  Á síðunni **Reikna út undirverktaka** er hægt að stilla afmarkanir fyrir aðgerðir undirverktaka eða vinnustöðvar þar sem þær eru framkvæmdar til að reikna aðeins viðeigandi framleiðslupantanir.  
@@ -53,7 +53,7 @@ Síðan **Vinnublað undirverktakasamninga** virkar eins og **Áætlunarvinnubla
 
     Fara yfir línurnar á síðunni **Vinnublað undirverktakasamninga**. Upplýsingarnar á þessu vinnublaði koma frá framleiðslupöntuninni og leiðarlínum framleiðslupöntunarinnar og flæðir til innkaupapöntunarinnar þegar það skjal er búið til. Hægt er að eyða röð úr vinnublaðinu án þess að hafa áhrif á upphaflegu upplýsingarinnar, líkt og gert er við önnur vinnublöð. Upplýsingarnar birtast aftur í næsta skipti sem aðgerðin **Reikna undirverktakasamninga** er keyrð.  
 
-### Að búa til Framleiðslupöntun undirverktakans  
+### <a name="to-create-the-subcontract-purchase-order" />Að búa til Framleiðslupöntun undirverktakans
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað undirverktaka** og velja síðan viðkomandi tengil.  
 2.  Veljið aðgerðina **Framkvæma aðgerðaboð**.  
 3.  Hakað er í reitinn **Prenta pantanir** til að prenta innkaupapöntunina þegar hún er stofnuð.  
@@ -63,10 +63,10 @@ Ef senda á allar undirverktakaaðgerðir til birgðageymslu sama birgja þá er
 
 Vinnublaðslínunni sem var breytt í innkaupapöntun er eytt af vinnublaðinu. Þegar innkaupapöntun er stofnuð, mun hún ekki birtast á vinnublaðinu aftur.  
 
-## Bókun innkaupapantana undirverktaka  
+## <a name="posting-subcontract-purchase-orders" />Bókun innkaupapantana undirverktaka
 Þegar Innkaupapantanir undirverktaka hafa verið stofnaðar er hægt að bóka þær. Við móttöku pöntunarinnar bókast Afkastagetufærsla á framleiðslupöntunina og þegar reikningur er gerður bókast beinn kostnaður af innkaupapöntuninni á framleiðslupöntunina.  
 
-## Til að bóka innkaupapöntun undirverktaka  
+## <a name="to-post-a-subcontract-purchase-order" />Til að bóka innkaupapöntun undirverktaka
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.  
 2.  Opna innkaupapöntun sem er stofnaður frá undirverktakasamningi.  
 
@@ -83,7 +83,7 @@ Forritið bókar sjálfkrafa færslu frálagsbókarlínu fyrir framleiðslupönt
 
 Beinn kostnaður innkaupapöntunarinnar er bókaður í framleiðslupöntunina þegar innkaupapöntunin er reikningsfærð.  
 
-## Sjá einnig  
+## <a name="see-also" />Sjá einnig
 [Framleiðsla](production-manage-manufacturing.md)    
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Áætlun](production-planning.md)      

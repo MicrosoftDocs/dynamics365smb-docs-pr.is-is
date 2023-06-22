@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 09/15/2022
 ms.author: edupont
 ---
-# Áætlanagerð með eða án birgðageymslna
+# <a name="planning-with-or-without-locations" />Áætlanagerð með eða án birgðageymslna
 
 Áður en þú byrjar að nota áætlunarvélina mælum við með því að þú ákveðir hvort þú viljir nota staðsetningar eða ekki. Tvær meginleiðir eru til:
 
 * eftirspurnarlínur eru alltaf með birgðageymslukóta og kerfið notar birgðahaldseiningar til fulls með viðeigandi birgðageymsluuppsetningu. Frekari upplýsingar eru á [Eftirspurn í birgðageymslu](#demand-at-location).  
 * eftirspurnarlínur eru aldrei með birgðageymslukóða og kerfið notar birgðaspjaldið. Sjá aðstæðurnar [Eftirspurn í „tómri birgðageymslu“](#demand-at-blank-location) fyrir neðan.
 
-## Eftirspurn í birgðageymslu  
+## <a name="demand-at-location" />Eftirspurn í birgðageymslu
 
 Þegar áætlunarkerfið greinir eftirspurn í birgðageymslu (línu með birgðageymslukóta) vinnar það á mismunandi hátt í samræmi við 2 mikilvæg uppsetningargildi.  
 
@@ -53,7 +53,7 @@ Sjá frávik í [dæmunum hér fyrir neðan](#scenarios).
 >
 > Einnig er hægt að skilgreina þetta fyrir tiltekna birgðahaldseiningu með því að velja annan staðsetningarkóða í reitnum **Íhlutir í birgðageymslu** á birgðahaldseiningaspjaldinu. Athugið samt sem áður að það er varhugavert þar sem áætlunnargrunnur kann að skekkjast þegar áætlun er gerð fyrir íhluti birgðahaldseininga.
 
-## Eftirspurn í "Tómri birgðageymslu"
+## <a name="demand-at-blank-location" />Eftirspurn í "Tómri birgðageymslu"
 
 Almennt, þegar áætlunarkerfið greinir eftirspurn í tómri birgðageymslu (línu án staðsetningarkóða), er varan áætluð samkvæmt áætlunarfæribreytum í birgðaspjaldinu.
 
@@ -63,75 +63,75 @@ Reiturinn **Birgðageymsla áskilin** á síðunni **Birgðauppsetning**, reitur
 * Birgðahaldseining er til fyrir áætlaða vöru.
 * Reiturinn **Birgðageymsla áskilin** er valinn.
 
-## Dæmi
+## <a name="scenarios" />Dæmi
 
 Sjá frávik í uppsetningardæmunum hér fyrir neðan.
 
-### Uppsetning 1
+### <a name="setup-" />Uppsetning 1
 
 * Birgðageymsla áskilin = *Já*  
 * BHE er sett upp fyrir *VESTUR*  
 * Íhlutir í birgðageymslu = *AUSTUR*  
 
-#### Mál 1.1: Eftirspurn er í birgðageymslu *VESTUR*
+#### <a name="case--demand-is-at-west-location" />Mál 1.1: Eftirspurn er í birgðageymslu *VESTUR*
 
 Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðahaldseiningaspjaldinu (að hugsanlegri millifærslu meðtalinni).
 
-#### Mál 1.2: Eftirspurn er í birgðageymslu *AUSTUR*
+#### <a name="case--demand-is-at-east-location" />Mál 1.2: Eftirspurn er í birgðageymslu *AUSTUR*
 
 Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.
 
-#### Mál 1.3: Eftirspurn er í birgðageymslu *NORÐUR*
+#### <a name="case--demand-is-at-north-location" />Mál 1.3: Eftirspurn er í birgðageymslu *NORÐUR*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-#### Dæmi 1.4: Eftirspurn er í birgðageymslunni *TÓMT*
+#### <a name="case--demand-is-at-blank-location" />Dæmi 1.4: Eftirspurn er í birgðageymslunni *TÓMT*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-### Uppsetning 2
+### <a name="setup-" />Uppsetning 2
 
 * Birgðageymsla áskilin = *Já*  
 * Engin birgðahaldseining er til  
 * Íhlutir í birgðageymslu = *AUSTUR*  
 
-#### Mál 2.1: Eftirspurn er í birgðageymslu *VESTUR*
+#### <a name="case--demand-is-at-west-location" />Mál 2.1: Eftirspurn er í birgðageymslu *VESTUR*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-#### Mál 2.2: Eftirspurn er í birgðageymslu *AUSTUR*
+#### <a name="case--demand-is-at-east-location" />Mál 2.2: Eftirspurn er í birgðageymslu *AUSTUR*
 
 Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.  
 
-### Uppsetning 3
+### <a name="setup-" />Uppsetning 3
 
 * Birgðageymsla áskilin = *Nei*  
 * Engin birgðahaldseining er til  
 * Íhlutir í birgðageymslu = *AUSTUR*  
 
-#### Mál 3.1: Eftirspurn er í birgðageymslu *VESTUR*
+#### <a name="case--demand-is-at-west-location" />Mál 3.1: Eftirspurn er í birgðageymslu *VESTUR*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-#### Mál 3.2: Eftirspurn er í birgðageymslu *AUSTUR*
+#### <a name="case--demand-is-at-east-location" />Mál 3.2: Eftirspurn er í birgðageymslu *AUSTUR*
 
 Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.  
 
-#### Dæmi 3.3: Eftirspurn er í birgðageymslunni *TÓMT*
+#### <a name="case--demand-is-at-blank-location" />Dæmi 3.3: Eftirspurn er í birgðageymslunni *TÓMT*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-### Uppsetning 4
+### <a name="setup-" />Uppsetning 4
 
 * Birgðageymsla áskilin = *Nei*  
 * Engin birgðahaldseining er til  
 * Íhlutir á staðnum = *TÓMT*  
 
-#### Mál 4.1: Eftirspurn er í birgðageymslu *AUSTUR*
+#### <a name="case--demand-is-at-east-location" />Mál 4.1: Eftirspurn er í birgðageymslu *AUSTUR*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-#### Dæmi 4.2: Eftirspurn er í birgðageymslunni *TÓMT*
+#### <a name="case--demand-is-at-blank-location" />Dæmi 4.2: Eftirspurn er í birgðageymslunni *TÓMT*
 
 Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.
 
@@ -139,9 +139,9 @@ Eins og sjá má á síðasta dæmi er eina leiðin til að fá réttar niðurst
 
 Ef þú þar af leiðandi áætlar oft eftirspurn í birgðageymslum þá mælum við með að þú notir möguleika birgðahaldseiningar.
 
-## Sjá tengda þjálfun á [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Sjá tengda þjálfun á [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
-## Sjá einnig .
+## <a name="see-also" />Sjá einnig .
 
 [Áætlun](production-planning.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
