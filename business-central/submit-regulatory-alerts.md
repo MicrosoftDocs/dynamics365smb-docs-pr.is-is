@@ -8,11 +8,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
 ---
-# <a name="submit-alerts-about-countryregion-specific-regulatory-features" />Sendu inn viðvaranir um eftirlitseiginleika sem miðast við tiltekið land/svæði
+# Sendu inn viðvaranir um eftirlitseiginleika sem miðast við tiltekið land/svæði
 
 Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að leggja fram lögboðnar viðvaranir í gegnum innsendingarþjónustu á lögboðnum viðvörunum í Dynamics.  
 
-## <a name="to-submit-a-regulatory-alert-in-lcs" />Innsending lögboðinnar viðvörunar í LCS
+## Innsending lögboðinnar viðvörunar í LCS
 
 1. Opnaðu [https://lcs.dynamics.com](https://lcs.dynamics.com) og skráðu þig inn  
 
@@ -65,14 +65,14 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
 
       Eftir að þú hefur sent viðvörunina færðu staðfestingu á að viðvörunin hafi verið send inn til Microsoft.
 
-## <a name="see-also" />Sjá einnig
+## Sjá einnig
 
 [Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Breyta tungumáli og landsstaðli](about-locale-language.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Velkomin á Viðskiptamiðmið](welcome.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
