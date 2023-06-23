@@ -98,7 +98,7 @@ Fyrir stakar kostnaðarfærslur flytur [!INCLUDE[prod_short](includes/prod_short
 
 Í töflunni **Kostnaðarskráning**, [!INCLUDE[prod_short](includes/prod_short.md)] stofnar færslu með upprunaflutningnum frá fjárhag. Færslan skráir fyrstu og síðustu færslunúmer fjárhagsfærslna sem eru fluttar, til viðbótar við fyrstu og síðustu færslunúmer kostnaðarfærslnanna sem eru stofnaðar.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-gl-entries-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestransfer-gl-entries-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

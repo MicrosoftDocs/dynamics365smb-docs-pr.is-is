@@ -71,7 +71,7 @@ Nánari upplýsingar um  Power BI  metrics er að finna  [í byrja með Metrics 
 - Ef  Power BI  hefur þegar verið sett upp og á að reyna aðgerðirnar er farið í að  [vinna með  Power BI  skýrslur í viðskiptamiðinu](across-working-with-powerbi.md).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

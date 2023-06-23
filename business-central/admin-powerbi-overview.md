@@ -59,7 +59,7 @@ Eftirfarandi skýringarmynd sýnir grunnverkflæði fyrir notendur þegar verið
 6. Notandi stofnar skýrslu í Power BI Desktop.
 7. Notandi gefur út skýrslu á Power BI -þjónustuna. Svo er hægt að velja skýrslurnar í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

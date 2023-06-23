@@ -10,7 +10,7 @@ ms.search.keywords: 'Invoicing, Microsoft 365'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="use-the-same-microsoft--account-in-includeprodshortincludesprodlongmd-and-microsoft-invoicing" />Nota sama Microsoft 365-reikninginn í [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft Invoicing
+# <a name="use-the-same-microsoft-365-account-in-includeprodshortincludesprodlongmd-and-microsoft-invoicing" />Nota sama Microsoft 365-reikninginn í [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft Invoicing
 Þegar þú skráir þig í prufuáskrift fyrir [!INCLUDE[prod_short](includes/prod_short.md)] geturðu farið í 30 daga matsáfanga, þú getur byrjað áskrift eða hættir að nota [!INCLUDE[prod_short](includes/prod_short.md)]. Í öllum tilvikum getur þú á einhverjum tímapunkti hafa séð eitthvað sem kallast **Microsoft Invoicing** og smellt á það. Þetta forrit var hluti af því sem er núna Microsoft 365 Business Standard og var áður þekkt sem Microsoft 365 Business Premium-áskrift, þannig hafa ekki allir séð þennan valkost við notkun Microsoft 365.  
 
 Microsoft Invoicing er ekki lengur í boði, en ef þú þarft að skrá þig inn á Invoicing til að sækja gögnin þín gætirðu séð skilaboð um að þú hafir ekki aðgang að Microsoft Invoicing þar sem reikningurinn þinn er notaður í [!INCLUDE[prod_short](includes/prod_short.md)].  

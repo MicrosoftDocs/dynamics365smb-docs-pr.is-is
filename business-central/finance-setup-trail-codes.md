@@ -79,7 +79,7 @@ Eftirfarandi ferli sýnir hvernig á að bæta ástæðukóða við færslubóka
 
 Þegar reikningurinn er bókaður afritast ástæðukóðinn í allar fjarhags-, viðskiptamanna- og lánardrottnafærslur. Ekki er hægt að úthluta mismunandi ástæðukótum í einstakar innkaupa- og sölulínur vegna þess að allar línur bókast sem ein færsla.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 

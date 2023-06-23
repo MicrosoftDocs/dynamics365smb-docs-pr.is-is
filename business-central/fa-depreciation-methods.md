@@ -80,7 +80,7 @@ Eign hefur stofnkostnaðinn SGM 100.000. Áætluð ending er átta ár. Keyrslan
 | 06/30/27 |Afskrift |180 |-6.250,00 |6,250.00 |
 | 12/31/27 |Afskrift |180 |-6.250,00 |0 |
 
-## <a name="declining-balance--depreciation" />Hlutfallsleg afskrift 1 Afskrift
+## <a name="declining-balance-1-depreciation" />Hlutfallsleg afskrift 1 Afskrift
 
 Þetta er hröðunaraðferð þar sem stærstum hluta kostnaðar vegna eignar er úthlutað á fyrstu ár líftíma hennar. Nauðsynlegt er að tilgreina fasta árlega prósentu ef nota á þessa aðferð.  
 
@@ -92,7 +92,7 @@ Afskriftagrunnurinn er reiknaður sem bókvirðið að frádregnum bókuðum afs
 
 Í upphæð bókaðra afskrifta geta verið færslur með ýmsum bókunartegundum (niðurfærslu, venju1 og venju2), bókaðar frá upphafsdagsetningu líðandi reikningsárs. Þessar bókunartegundir eru teknar með í bókaðri afskriftaupphæð ef gátmerki eru í reitunum **Afskriftategund** og **Hluti bókvirðis** á síðunni **uppsetning eignabókunartegundar**.  
 
-### <a name="example---declining-balance--depreciation" />Dæmi - Hlutfallsleg afskrift 1 Afskrift
+### <a name="example---declining-balance-1-depreciation" />Dæmi - Hlutfallsleg afskrift 1 Afskrift
 
 Eign hefur stofnkostnaðinn SGM 100.000. Reiturinn **Hlutfallsleg afskrift %** er 25. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
 
@@ -122,11 +122,11 @@ Reikningsaðferð:
 
 Útreikningurinn heldur áfram þar til bókað virði er jafnt sléttaðri lokaupphæð eða hrakvirðinu sem var fært inn.  
 
-## <a name="declining-balance--depreciation" />Hlutfallsleg afskrift 2 Afskrift
+## <a name="declining-balance-2-depreciation" />Hlutfallsleg afskrift 2 Afskrift
 
 Með aðferðunum Hlutfallsleg afskrift 1 og Hlutfallsleg afskrift 2 er reiknuð sama afskriftaupphæð fyrir hvert ár. Ef keyrslan **Reikna afskriftir** er keyrð oftar en einu sinni á ári leiðir aðferðin Hlutfallsleg afskrift 1 til þess að jafnar afskriftaupphæðir verða í hverju afskriftatímabili. Aðferðin Hlutfallsleg afskrift 2 leiðir á hinn bóginn til afskriftaupphæða sem lækka hlutfallslega fyrir hvert tímabil.  
 
-### <a name="example---declining-balance--depreciation" />Dæmi - Hlutfallsleg afskrift 2 Afskrift
+### <a name="example---declining-balance-2-depreciation" />Dæmi - Hlutfallsleg afskrift 2 Afskrift
 
 Eign hefur stofnkostnaðinn SGM 100.000. Reiturinn **Hlutfallsleg afskrift %** er 25. Keyrslan **Reikna afskrift** er keyrð annað hvert ár. Færslurnar í eignabókinni líta þannig:  
 
@@ -159,7 +159,7 @@ Afskriftargildi eru:
 | 06/30/21 |AU = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
 | 12/31/21 |AU = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
 
-## <a name="dbsl-depreciation" />DB1/SL Afskrift
+## <a name="db1sl-depreciation" />DB1/SL Afskrift
 
 HLF1/LL – Þessi aðferð er blanda af hlutfallslegri afskrift 1 og línulegri. Útreikningurinn heldur áfram þar til bókfært virði er jafnt og frádráttarmagn eða hrakvirði sem þú slóst inn.  
 
@@ -169,7 +169,7 @@ Keyrslan **Reikna afskriftir** reiknar beinlínuupphæð og hlutfallslega upphæ
 
 Ef þessi aðferð er notuð verður að færa inn áætlaðan gagnlegan líftíma og prósentutölu hlutfallslegra afskrifta á síðunni **Eignaafskriftabækur**.  
 
-### <a name="example---db-sl-depreciation" />Dæmi - DB1-SL afskrift
+### <a name="example---db1-sl-depreciation" />Dæmi - DB1-SL afskrift
 
 Eign hefur stofnkostnaðinn SGM 100.000. Á síðunni **Eignaafskriftabækur** er 25 í reitnum **Hlutfallsleg afskrifta %** og í reitnum **Fjöldi afskriftaára** er talan 8. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
 
@@ -246,7 +246,7 @@ Færslurnar í eignabókinni líta þannig:
 | 12/31/24 |Afskrift |360 |-20.000,00 |10,000.00 |
 | 12/31/25 |Afskrift |180 |-10.000,00 |0.00 |
 
-## <a name="example---dbsl-depreciation-using-half-year-convention" />Dæmi - HLF1/LL tvisvar á ári
+## <a name="example---db1sl-depreciation-using-half-year-convention" />Dæmi - HLF1/LL tvisvar á ári
 
 Eign hefur stofnkostnaðinn SGM 100.000. **Upphafsdags. afskriftar** er 01/11/20. Áætlaður líftími er fimm ár, þannig að **Lokadagsetning afskriftar** verður að vera 30/06/25. Á síðunni **Eignaafskriftabækur** inniheldur reiturinn **Hlutfallsleg afskrifta %** 40. Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári. Í þessu dæmi miðast fjárhagsárið við almanaksárið.  
 

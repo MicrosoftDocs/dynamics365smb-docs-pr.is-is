@@ -275,7 +275,7 @@ Segjum til dæmis að þú sért að nota Talnalykil sem notar tímabil (.) sem 
 > [!TIP]
 > Það geta komið upp tilfelli þar sem þú vilt nota skiltákn tugabrots til að færa inn punkt (.). Gefum okkur til dæmis að þú hafir slegið inn dagsetningabil í síu, t.d. `01/01/2022..04/01/2022`, eða eitthvað sem krefst punkts. Til að móta þetta mál þarf að velja  <kbd>Aðgreiningarlykla</kbd>+<kbd>Alt</kbd>  á talnalyklaborinu. Þessi lyklasamsetning skiptir skiltákni tugabrots sem kemur með punkt og skiltákni tugabrots sem ákvarðast af **Svæðisstillingunni**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

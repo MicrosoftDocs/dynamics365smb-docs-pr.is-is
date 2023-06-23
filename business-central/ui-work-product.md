@@ -80,7 +80,7 @@ En aðgerðirnar geta einnig litið öðruvísi út, eða jafnvel ekki verið ti
 
 En þegar þú opnar sömu listasíðu á heimasíðunni þinni er aðgerðin **Hafa umsjón með** ekki til staðar. Í staðinn, til að opna einstaka sölupöntun, velur þú bara reitinn **Númer**. Í þessari yfirliti er ekki hægt að festa aðgerðastikuna.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 

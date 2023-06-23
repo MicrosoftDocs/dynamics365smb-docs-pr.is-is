@@ -61,7 +61,7 @@ Til að tengjast Business Central á staðnum þarf að búa til forrit í Trade
 
 Ef þú kýst frekar að geyma forritskennið og leynilykilinn á annarri staðsetningu, geturðu skilið reiti biðlarakennis og leynilykils biðlara eftir auða og skrifað viðbót til að sækja auðkennið og leynilykilinn frá staðsetningunni. Hægt er að gefa upp leynilykilinn við keyrslu með því að gerast áskrifandi að tilvikum OnGetClientId og OnGetClientSecret í codeunit 1410 „Stjórnun skjalaskiptaþjónustu“.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 

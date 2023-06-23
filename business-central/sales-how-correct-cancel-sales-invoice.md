@@ -61,7 +61,7 @@ Ef Afturköllunin tengist takmarkaðri bókun á reiknings er upprunaleg sölup�
     Sölukreditreikningur er búinn til sjálfkrafa og bókaður til að ógilda upphaflega bókaða sölureikninginn.
 5. velja **sýna leiðréttan kreditreikning** aðgerðina til að skoða bókaða sölukreditreikninginn sem ógildir upphaflega bókaða sölureikninginn.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

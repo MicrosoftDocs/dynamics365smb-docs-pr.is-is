@@ -230,7 +230,7 @@ Eftir að nýi bankareikningurinn hefur verið stofnaður ættir þú einnig að
 
 Til að fá samþjappaðra yfirlit yfir sjóðsreikninga í fjárhagsskýrslugerð skal nota reikningana **Samtala í upphafi** og **Samtala í lok** í bókhaldslyklinum, línurnar **Samtölur** í fjárhagsskýrslum eða flokkum fjárhagsreikninga. Frekari upplýsingar er að finna í [Viðskiptagreind og Financial Reporting](bi.md) hlutanum.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

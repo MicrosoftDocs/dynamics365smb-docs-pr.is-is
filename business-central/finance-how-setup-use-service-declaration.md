@@ -155,7 +155,7 @@ Hægt er að breyta gildunum í þessum reitum en ef valið er svæðið sem  **
 
 Ef tilgreint er gildi í  **reitnum kóti**  þjónustufærslu en ekki á  **við valið fyrir reitinn þjónustuskýrsla**  er hægt að bóka skjalið en línan verður ekki reiknuð þegar það er gert.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Sjá einnig .
 

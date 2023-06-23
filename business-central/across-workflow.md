@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics--business-central" />Verkflæði í Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central" />Verkflæði í Dynamics 365 Business Central
 
 Hægt er að setja upp og nota verkflæði til að tengja verk viðskiptaferla sem framkvæmd eru af ólíkum notendum. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa með sem skref í verkflæðum. Á undan eða eftir kerfisverkum geta komið verk notanda. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.
 

@@ -12,7 +12,7 @@ ms.date: 09/20/2022
 ms.author: bholtorf
 ---
 
-# <a name="use-the-amc-banking--fundamentals-extension" />Nota AMC Banking 365 Fundamentals viðbótina
+# <a name="use-the-amc-banking-365-fundamentals-extension" />Nota AMC Banking 365 Fundamentals viðbótina
 
 AMC Banking 365 Fundamentals viðbótin gerir það auðveldar sendingu gagna til bankans þíns og eykur áreiðanlega þeirra. Viðbótin tengir [!INCLUDE[prod_short](includes/prod_short.md)] við AMC Banking 365 Fundamentals fyrir Microsoft Dynamics 365 Business Central þjónustu sem getur breytt bankagögnum úr [!INCLUDE[prod_short](includes/prod_short.md)] í snið sem yfir 600 bankar í heiminum krefjast. Þannig er til dæmis auðveldara að millifæra greiðslur og kreditfærslur til lánardrottna með því að slá greiðslurnar inn í [!INCLUDE[prod_short](includes/prod_short.md)] og hlaða þeim svo upp í bankann þinn. Sniðin geta einnig jafnað út bankaafstemmingarferli. Frekari upplýsingar er að finna í [AMC Banking fyrir Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 

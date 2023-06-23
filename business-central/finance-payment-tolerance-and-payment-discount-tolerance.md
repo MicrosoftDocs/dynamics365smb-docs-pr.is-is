@@ -89,7 +89,7 @@ Sjálfgildið fyrir greiðsluvikmörk er heimilað. Ef greiðsluvikmörk eiga ek
 > [!NOTE]  
 > Ef viðskiptamaður eða lánardrottinn hafa opnar færslur verður að loka á greiðsluvikmörk í opnum færslum.
 
-## <a name="example----tolerance-calculations-for-a-single-document" />Dæmi 1 - útreikningur vikmarka fyrir eitt fylgiskjal
+## <a name="example-1---tolerance-calculations-for-a-single-document" />Dæmi 1 - útreikningur vikmarka fyrir eitt fylgiskjal
 
 Hér á eftir koma nokkur dæmi sem sýna áætlaða vikmarkaútreikninga og bókanir sem upp geta komið við mismunandi aðstæður.  
 
@@ -127,7 +127,7 @@ Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
 
 Í tengslum við dæmið að ofan eru skýringar á greiðslusviðum sem hér segir:  
 
-#### <a name="-payment-date--scenarios--" />(1) Greiðsludagsetning <=15/01/03 (Dæmi 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Greiðsludagsetning <=15/01/03 (Dæmi 1-3)
 
 Eftirstöðvar á hverja  
 
@@ -139,7 +139,7 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Greiðsludagsetning er á milli 16/01/03 og 20/01/03 (dæmi 4-9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9" />(2) Greiðsludagsetning er á milli 16/01/03 og 20/01/03 (dæmi 4-9)
 
 Eftirstöðvar á hverja  
 
@@ -151,7 +151,7 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(3) Greiðsludagsetning er eftir 20.01.03 (Dæmi 10-15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15" />(3) Greiðsludagsetning er eftir 20.01.03 (Dæmi 10-15)
 
 Eftirstöðvar á hverja  
 
@@ -163,7 +163,7 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-## <a name="example----tolerance-calculations-for-multiple-documents" />Dæmi 2 útreikningur vikmarka fyrir fjölda fylgiskjala
+## <a name="example-2---tolerance-calculations-for-multiple-documents" />Dæmi 2 útreikningur vikmarka fyrir fjölda fylgiskjala
 
 Hér á eftir koma nokkur dæmi sem sýna áætlaða vikmarkaútreikninga og bókanir sem upp geta komið við mismunandi aðstæður. Dæmin takmarkast við sviðsmyndir sem enda með því að öllum færslum í jöfnuninni sé lokað.  
 
@@ -215,7 +215,7 @@ Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
 
 Í tengslum við dæmið að ofan eru skýringar á greiðslusviðum sem hér segir:  
 
-#### <a name="-payment-date--scenarios--" />(1) Greiðsludagsetning <=15/01/03 (Dæmi 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Greiðsludagsetning <=15/01/03 (Dæmi 1-3)
 
 Eftirstöðvar á hverja  
 
@@ -227,7 +227,7 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Greiðsludagsetning er á milli 16.01.03 og 17.01.03 (dæmi 4-9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9" />(2) Greiðsludagsetning er á milli 16.01.03 og 17.01.03 (dæmi 4-9)
 
 Eftirstöðvar á hverja  
 
@@ -239,7 +239,7 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(3) Greiðsludagsetning er á milli 18.01.03 og 20.01.03 (dæmi 10-21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21" />(3) Greiðsludagsetning er á milli 18.01.03 og 20.01.03 (dæmi 10-21)
 
 Eftirstöðvar á hverja  
 
@@ -251,7 +251,7 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(4) Greiðsludagsetning er á milli 21.01.03 og 22.01.03 (dæmi 22-27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27" />(4) Greiðsludagsetning er á milli 21.01.03 og 22.01.03 (dæmi 22-27)
 
 Eftirstöðvar á hverja  
 
@@ -263,7 +263,7 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(5) Greiðsludagsetning er eftir 22.01.03 (Dæmi 28-30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30" />(5) Greiðsludagsetning er eftir 22.01.03 (Dæmi 28-30)
 
 Eftirstöðvar á hverja  
 
@@ -275,7 +275,7 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

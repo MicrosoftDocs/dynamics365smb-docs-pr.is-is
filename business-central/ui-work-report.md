@@ -153,7 +153,7 @@ Reitirnir undir flýtiflipanum **Ítarlegt** setja takmarkanir á útbúna skýr
 > [!NOTE]
 > Hámarksgildin kunna að vera mismunandi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og stjórnandi getur breytt þeim. Frekari upplýsingar er að finna í hlutanum [Grunnstilling Business Central Server - Skýrslur](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Fyrir yfirlit yfir skýrslutakmarkanir í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu skal skoða [Rekstrarlegar takmarkanir](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

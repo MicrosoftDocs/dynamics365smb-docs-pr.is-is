@@ -138,7 +138,7 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
 
  Áætlunarlínan fyrir vöru 1300, keðju, leggur til tíu stykki. Þetta er frávik frá þeim fimm stykkjum sem áætlað er að uppfylli sölupöntunina. Skoðið svo pantanarakningarfærslurnar.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Til að skoða pöntunarrakningarfærslur fyrir vöru 1300
+### <a name="to-view-order-tracking-entries-for-item-1300" />Til að skoða pöntunarrakningarfærslur fyrir vöru 1300
 
 1.  Velja skal áætlunarlínuna fyrir vöru 1300 og smella svo á **Rakning pöntunar** aðgerðina.  
 
@@ -234,7 +234,7 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
 
  Margar áætlunarlínur eru einfaldlega margfaldaðar með þremur til veita 15 kappakstursreiðhjól í stað 5, og skiladagsetningarnar eru færðar aftur í tíma til að veita aukna magninu fyrir afhendingardagsetningu sölupöntunarinnar til Cannon Group. Fyrir þessar áætlunarlínu er hægt að rekja allt magn. Hinar eftirstandandi áætlunarlínur eru auknar um tíu stykki ásamt því að gjalddagar þeirra eru færðir. Fyrir þessar áætlunarlínur, eru hluti magnsins órakið vegna mismunandi áætlunarfæribreyta. Skoðið svo eitthvað af þessum pantanarakningarfærslum.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Til að skoða pöntunarrakningarfærslur fyrir vöru 1250
+### <a name="to-view-order-tracking-entries-for-item-1250" />Til að skoða pöntunarrakningarfærslur fyrir vöru 1250
 
 1.  Velja skal áætlunarlínuna fyrir vöru 1250 og smella svo á **Rakning pöntunar** aðgerðina.  
 

@@ -119,7 +119,7 @@ Hægt er að vinna greiðslur beint frá viðskiptamannaspjaldinu. Nota aðgerð
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/invoicing-customers-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/invoicing-customers-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Sjá einnig .
 

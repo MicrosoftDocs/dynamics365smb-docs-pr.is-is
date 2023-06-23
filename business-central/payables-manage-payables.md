@@ -29,7 +29,7 @@ Einnig er hægt að jafna greiðslur á útleið handvirkt á síðunni **greið
 |Tryggðu rétt birgðamat með því að úthluta viðbótar vörukostnaði, eins og farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér.|[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|
 |Endurgreiða starfsmönnum fyrir persónuleg útgjöld í viðskiptaerindum með því að greiða inn á bankareikning þeirra.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  

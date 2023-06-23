@@ -47,7 +47,7 @@ Einnig er hægt að myndað sjálfkrafa greiðslulínur með gjalddaga til að r
 > [!NOTE]  
 >   Ef innkaupareikningur er gjaldfallinn, er bókunardagsetningin stillt á vinnudag og leturgerð á línunni verður rautt.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

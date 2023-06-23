@@ -57,7 +57,7 @@ ms.author: jswymer
 
 * Lokið er við skattyfirlit.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

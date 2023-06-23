@@ -115,7 +115,7 @@ Eftir að vöruhúsaafhending hefur verið bókuð eru mismunandi svæði í sö
 >
 > Magn í samsetningum er afgreitt eins og lýst er í þessari grein. Birgðamagn er afgreitt sem venjuleg vöruhúsaafhendingarlína. Til að fræðast meira um samsetningu atburðarásar er farið í  [skilning á að setja saman og setja saman við birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

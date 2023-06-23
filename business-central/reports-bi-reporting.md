@@ -26,7 +26,7 @@ Lítil og meðalstór fyrirtæki reiða sig á tilbúna innbyggða möguleika gr
 | Samþætta ytri verkfæri viðskiptagreindar með [!INCLUDE[prod_short](includes/prod_short.md)].| [Ytri verkfæri viðskiptagreindar](reports-external-analysis.md) |
 |Breyttu skýrsluútliti eða þróaðu jafnvel þínar eigin skýrslur frá grunni. |[Skýrsluþróun](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

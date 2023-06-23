@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-dynamics--business-central" />Skipta úr QuickBooks App í Dynamics 365 Business Central
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central" />Skipta úr QuickBooks App í Dynamics 365 Business Central
 
 Fleiri og fleiri vaxandi fyrirtæki eru að skipta úr fjárhagsforritum á borð við QuickBooks Desktop og QuickBooks Online, sem eru hönnuð fyrir sprotafyrirtæki og önnur lítil fyrirtæki, í [!INCLUDE[prod_short](includes/prod_short.md)], sem einnig styður stærri og flóknari fyrirtæki. 
 
@@ -31,7 +31,7 @@ Til að fá nánari upplýsingar skaltu lesa um viðbótina sem hentar QuickBook
 
 Ef þú ert tilbúinn til að byrja núna skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp** og velja síðan viðkomandi tengil. Veljið **Flytja viðskiptagögn** og fara síðan eftir skrefunum í leiðbeiningunum.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

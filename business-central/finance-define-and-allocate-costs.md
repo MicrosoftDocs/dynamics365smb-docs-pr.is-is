@@ -70,7 +70,7 @@ Eftirfarandi tafla sýnir hvaða afmarkanir eru mögulegar fyrir mismunandi úth
 |Seldar vörur (upphæð )|Vörunr.|Já|Já|Já|Birgðabókunarflokkur|  
 |Keyptar vörur (upphæð)|Vörunr.|Já|Já|Já|Birgðabókunarflokkur|
 
-## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Sýnishorn 1: Skilgreining fastrar úthlutunar á grundvelli úthlutunarhlutfalls
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio" />Sýnishorn 1: Skilgreining fastrar úthlutunar á grundvelli úthlutunarhlutfalls
 
 Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun eða skilgreindu úthlutunarhlutfalli, s.s. 5:2:4.  
 
@@ -110,7 +110,7 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] reiknar sjálfkrafa reitinn **Prósenta** með því að nota prósentuhlutfall sem er háð öllum þremur úthlutunarhlutföllum sem færð eru inn í reitinn **Deila** í öllum þremur línunum.
 
-## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Sýnishorn 2: Skilgreining kvikrar úthlutunar á grundvelli seldra vara
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold" />Sýnishorn 2: Skilgreining kvikrar úthlutunar á grundvelli seldra vara
 
 Þetta efnisatriði sýnir dæmi um hvernig á að skilgreina úthlutanir með því að nota kvika úthlutunaraðferð. Í dæminu er kvika úthlutun af kostnaði fyrir kostnaðarstað breytt til að styðja nýjan kostnaðarhlut IT EQUIPMENT. IT EQUIPMENT pakkar hafa vörunúmer frá 8904-W til 8924-W. Sölutölur fyrra árs eru notaðar til að reikna út hlutdeild. Úthlutunin er bókuð í aukakostnaðartegund 9903.  
 
@@ -137,7 +137,7 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] notar sölutölur fyrri ára til að reikna hlut 1596.50 SGM með 100 prósentum fyrir pakka IT EQUIPMENT. Þetta merkir að öllum seldum vörum síðasta árs verður úthlutað á kostnaðarhlutinn IT EQUIPMENT.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

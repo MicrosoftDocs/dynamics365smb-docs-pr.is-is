@@ -46,7 +46,7 @@ Hægt er að leita að færslum út frá upplýsingum um annaðhvort skjalið, v
 > [!TIP]
 > Til að fá nokkur dæmi um notkun  **finna færslna** má sjá  [atriði](inventory-how-to-trace-item-tracked-items.md)  í rakningu vöru og  [Walkthrough: rakningar-raðnúmer-lotunúmer](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig .
 

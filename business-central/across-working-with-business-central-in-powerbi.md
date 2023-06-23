@@ -71,7 +71,7 @@ Til að deila skýrslu, í listaskýrslum, eða í opinni skýrslu skal velja **
 > [!NOTE]
 > Þú verður að hafa  [Power BI Pro-leyfi](/power-bi/service-features-license-type) og fólkið sem þú deilir með einnig. Efnið verður að vera á vinnusvæði með [Premium réttindi](/power-bi/service-premium-what-is). Nánari upplýsingar eru í [Aðferðir við að deila vinnu þinn í Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

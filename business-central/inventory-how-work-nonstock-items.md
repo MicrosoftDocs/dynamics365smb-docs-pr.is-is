@@ -58,7 +58,7 @@ Eftirfarandi ferli notar sölupöntun en skrefin eru þau sömu fyrir standandi 
 > [!NOTE]  
 > Vörutilvísun er sjálfkrafa vara milli vörunúmers lánardrottins og nýja vörunúmersins þíns. Til að fræðast meira um vöruvísanir er farið í að  [nota vörutilvísanir](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

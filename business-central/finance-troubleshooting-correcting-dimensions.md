@@ -117,7 +117,7 @@ Ef leiðrétting klárast ekki mun viðvörun birtast á leiðréttingarspjaldin
 
 Þegar búið er að leiðrétta víddir verða gögn kostnaðarbókhalds ósamstillt. Kostnaðarbókhald notar víddir til að safna saman upphæðum fyrir kostnaðarstaði og kostnaðarhluti og til að keyra kostnaðarúthlutanir. Að breyta víddum fyrir fjárhagsfærslur mun líklega þýða að þú endurkeyrir líkön kostnaðarbókhaldsins. Hvort sem þú þarft aðeins að eyða nokkrum kostnaðarskrám og endurkeyra úthlutanir, eða þú þarft að eyða öllu og endurkeyra öll líkönin þín, fer eftir gögnunum sem hafa verið uppfærð og hvernig möguleikar kostnaðarbókhaldsins eru settir upp. Það þarf að auðkenna handvirkt hvar víddarleiðréttingar hafa áhrif á kostnaðarbókhald og hvar er þörf á uppfærslum. [!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á sjálfvirka leið til að gera það sem stendur.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

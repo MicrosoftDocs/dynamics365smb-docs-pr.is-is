@@ -25,13 +25,13 @@ Taflan **Birgðafærslutengsl**, sem skal nota til að tengja bókaða fylgiskja
   
 Virkni núverandi **Færslunr.** reitar, sem tengir birgðafærslu við bókaða skjalalínu, meðhöndlar dæmigerð tengsl tveggja eininga þegar engin vörurakningarnúmer eru til staðar á bókuðu skjalalínunni. Ef vörurakningarnúmer eru til er reiturinn **Færslunr.** skilinn eftir auður, og tengslin einn-á-móti-mörgum eru meðhöndluð af töflunni **Tengsl birgðafærslu**. Ef bókaða skjalalínan er með vörurakningarnúmer en tengist aðeins einni birgðafærslu sér reiturinn **Færslunr.** um tengslin og engin færsla er skráð í töflunni **Tengsl birgðafærslu**.  
   
-## <a name="codeunits--and-" />Kóðaeiningar 80 og 90
+## <a name="codeunits-80-and-90" />Kóðaeiningar 80 og 90
 Til að skipta birgðahöfuðbókarfærslum við bókun, er kóðinn í kóðaeiningu 80 og kóðaeiningu 90, er með lykkjum sem keyra í gegnum altæka tímabundnar færslubreytur. Þessi kóði kallar á kóðaeiningu 22 með birgðarbókarlínu. Þessar breytur eru frumstilltar þegar vörurakningarnúmer eru til fyrir skjalalínuna. Til að halda kóðann einfalt, þessi lykkjuuppbyggingu er alltaf notuð. Ef engin vörurakningarnúmer eru til staðar fyrir skjalalínuna er ein færsla sett inn og lykkjan er einungis unnin einu sinni.  
   
 ## <a name="posting-the-item-journal" />Birgðabókin bókuð
 Vörurakningarnúmer eru flutt fyrir milligöngu frátekningarfærslna sem tengjast birgðafærslunni og lykkjumyndum gegnum vörurakningarnúmer á sér stað í kóðaeiningu 22. Þessi hugmynd virkar á sama hátt þegar birgðafærslulína er notuð óbeint til að bóka sölu eða innkaupapöntun og þegar birgðafærslulína er notuð beint. Þegar birgðabók er notuð beint er vísar reiturinn **uuppsprettulínuauðkenni** beint á sjálfa birgðabókarlínuna.  
   
-## <a name="code-unit-" />Kóðaeining 22
+## <a name="code-unit-22" />Kóðaeining 22
 Kóðaeiningar 80 og 90 lykkja hringingu frá kóðaeiningu 22 við bókun reiknings fyrir vörurakningarnúmer og við reikningsfræslu á fyrirliggjandi sendingum eða móttökum.  
   
 Við magnbókun vörurakningarnúmera, sækir kóðaeining 22 vörurakningarnúmer úr færslum í T337 sem tengjast bókuninni. Þessar færslur eru settar beint á birgðabókarlínuna.  

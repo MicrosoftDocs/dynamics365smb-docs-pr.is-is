@@ -114,7 +114,7 @@ Fyrsta skrefið þegar beita á XBLR-aðgerðum er að flytja inn flokkun í gag
 6. Til að flytja inn tenglagrunninn skal velja aðgerðina **Flytja inn**.  
 7. Veldu **Já** til að nota tenglagrunninn á skemað.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics--business-centralindex" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Sjá einnig .
 

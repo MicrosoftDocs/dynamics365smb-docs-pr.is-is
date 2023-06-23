@@ -238,7 +238,7 @@ Altækar víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sj�
 > [!NOTE]  
 > Síðan **Fjárhagsfærsluvíddir** sýnir víddirnar, eina fjárhagsfærslu í einu. Þegar þú flettir í gegnum fjárhagsfærslurnar sérðu efni síðunnar **Fjárhagsfærsluvíddir** breytast í samræmi við það.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig .
 

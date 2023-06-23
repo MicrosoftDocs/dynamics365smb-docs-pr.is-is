@@ -89,7 +89,7 @@ Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allr
 
 5. Á síðunni **Sölulínur** skal velja aðgerðina **Sýna fylgiskjal** til að skoða færsluna.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

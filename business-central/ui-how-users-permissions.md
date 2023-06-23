@@ -118,7 +118,7 @@ Hægt er að fjarlægja aðgang notanda að [!INCLUDE[prod_short](includes/prod_
 
 Auk þess er hægt að taka leyfið af notanda í Microsoft 365 stjórnendamiðstöðinni. Þá getur notandinn ekki skráð sig inn. Nánari upplýsingar er að finna í [Leyfi tekin af notendum](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namemasynchronization-with-microsoft-" /><a name="m365"></a>Samstilling við Microsoft 365
+### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Samstilling við Microsoft 365
 
 Þegar notanda er úthlutað leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Microsoft 365 eru tvær leiðir til að búa notandann til í [!INCLUDE[prod_short](includes/prod_short.md)].  
 

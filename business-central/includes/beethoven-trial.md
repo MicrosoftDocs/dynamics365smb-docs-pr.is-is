@@ -14,11 +14,11 @@ Notaðu vinnu- eða skólanetfangið. Við setjum upp prufuútgáfuna á reiknin
 
 Þetta forrit er skýjaþjónusta sem krefst ekki sérstaks hugbúnaðar annars en uppfærðs vafra, þótt nokkrar takmarkanir eigi við.  
 
-### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft--tenant" />Hvernig skrái ég mig fyrir prufuútgáfu án Microsoft 365 leigjanda?
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant" />Hvernig skrái ég mig fyrir prufuútgáfu án Microsoft 365 leigjanda?
 
 Það er ekki hægt. Notaðu vinnu- eða skólanetfang.
 
-### <a name="can-i-sign-up-for-other-dynamics--apps-such-as-sales-marketing-and-customer-service" />Get ég skráð mig fyrir öðrum Dynamics 365-forritum eins og sölu-, markaðs- og þjónustudeild?
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service" />Get ég skráð mig fyrir öðrum Dynamics 365-forritum eins og sölu-, markaðs- og þjónustudeild?
 
 Já, þú getur það. Til að skoða allar tiltækar prufuútgáfur skal [heimsækja síðu prufumiðstöðvar](https://dynamics.microsoft.com/dynamics-365-free-trial). Þú getur notað sama tölvupóstsreikninginn til að skrá þig fyrir mismunandi prufuútgáfum.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
 

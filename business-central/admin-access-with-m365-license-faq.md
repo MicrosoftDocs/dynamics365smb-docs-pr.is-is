@@ -9,7 +9,7 @@ ms.topic: faq
 ms.date: 11/22/2022
 ms.custom: bap-template
 ---
-# <a name="access-with-microsoft--licenses-faq" />Aðgangur með  Microsoft 365  LEYFUM FAQ
+# <a name="access-with-microsoft-365-licenses-faq" />Aðgangur með  Microsoft 365  LEYFUM FAQ
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -57,7 +57,7 @@ Jafnvel þó að Viðskiptamiðlæg veiti þetta stig vernd mælum við samt ein
 
 Aðgangur að virkjum með  Microsoft 365  leyfum er einungis til staðar fyrir Viðskiptamiðlumhverfi pallbíla útgáfa 21,1 eða nýrri. Þegar umhverfið er uppfært í þessa lágmarks útgáfu verður stillingin tiltæk sjálfkrafa. Til að athuga útgáfu á umhverfi þínu ferðu á síðuna umhverfisupplýsingar fyrir umhverfið í stjórnsýslumiðstöðinni okkar í Síðumúla. Eða skrá sig inn í umhverfið og fara  **á hjálp & stuðningssísíðu**  úr  **valmyndinni Hjálp** .
 
-### <a name="can-i-access-business-central-on-premises-with-microsoft--licenses" />Get ég nálgast atvinnuhúsnæði miðsvæðis á húsnæði með  Microsoft 365  leyfum?
+### <a name="can-i-access-business-central-on-premises-with-microsoft-365-licenses" />Get ég nálgast atvinnuhúsnæði miðsvæðis á húsnæði með  Microsoft 365  leyfum?
 
 Nei, það er ekki stutt. Miðbær fyrirtækja birtir villu þegar notendur reyna að fá aðgang að aðalskrám innanhúss í teymum.
 
@@ -69,7 +69,7 @@ Starfsmannasninið  **sem**  birtist í  **listasíðu forstillingar (hlutverk)*
 
  **Microsoft Teams Hópurinn notendur**  innanhúss sem birtist á  **síðunni notendaflokkar**  var kynntur með uppfærslu 21,1. Þessi flokkur er sjálfgefinn Notendaflokkur sem tengist notendum sem hafa aðgang að Viðskiptamiðinu með leyfi þeirra Microsoft 365 . Notendahópurinn er ætlaður fólki innan sömu stofnunar þar sem Miðbær Viðskiptamiðsins er hýst sem samvinna í Microsoft Teams.  
 
-### <a name="do-users-that-only-have-a-microsoft--license-show-up-in-the-users-list-in-business-central" />Eru notendur sem aðeins hafa  Microsoft 365  leyfissvipingu í notendalistanum í Business miðlægu?
+### <a name="do-users-that-only-have-a-microsoft-365-license-show-up-in-the-users-list-in-business-central" />Eru notendur sem aðeins hafa  Microsoft 365  leyfissvipingu í notendalistanum í Business miðlægu?
 
 Já. Ef öryggishópar eru notaðir í umhverfi munu þeir notendur birtast í listanum notendur eftir að Uppfærslunotendur  Microsoft 365  hafa notað aðgerðina  **úr listanum notendur** . Ef ekki er sótt um öryggishópa birtast notendafærslur á listanum notendur eftir fyrsta tímann sem þeir fá aðgang að aðalfærslu í starfsemi.
 
@@ -91,31 +91,31 @@ Til að hámarka framleiðni og straumlínurekstur sinn, SMBs oft innkaup  Dynam
 - Notendum sem þurfa á takmörkuðum skrifaðgangi að skipa er yfirleitt úthlutað miðlæg starfsleyfi miðlægu teymis.
 - Allir aðrir starfsmenn yfir skipulaginu sem aðeins þurfa að stundum lesa viðskipdata sem er miðlað með þeim, geta gert það ef þeir eru  Microsoft 365  með leyfi. Þeir þurfa ekki að fá úthlutað Hópaðildaleyfi. Aðrir leyfisveitingarmöguleikar eru fyrir hendi. Nánari upplýsingar má sækja og lesa leiðbeiningar  [um](https://go.microsoft.com/fwlink/?LinkId=866544) leyfisveitingu fyrir Dynamics 365.
 
-### <a name="is-this--free-of-charge" />Er þetta 100% án endurgjalds?
+### <a name="is-this-100-free-of-charge" />Er þetta 100% án endurgjalds?
  
 Nr. Aðgangur að Viðskiptamiðlægum gögnum í  Microsoft Teams  krefst þess að hver notandi hafi annaðhvort aðalleyfi eða  Microsoft 365  leyfi frá lista yfir studd áform.
 
-### <a name="does-this-work-with-microsoft--trials-and-business-central-trials" />Virkar þetta með  Microsoft 365  rannsóknum og Aðalrannsóknum fyrirtækja?
+### <a name="does-this-work-with-microsoft-365-trials-and-business-central-trials" />Virkar þetta með  Microsoft 365  rannsóknum og Aðalrannsóknum fyrirtækja?
 
 Já. Ef notandi hefur fengið  Microsoft 365  leyfi frá prufuútgáfu af studdu áætlun, geta þeir einnig haft aðgang að miðlægum færslum fyrirtækja í teymum. Það er síðan mögulegt fyrir viðskiptavini að reyna framleiðsölur og viðskiptaforrit sem vinna saman og leyfa söluaðilum og ráðgjafarfyrirtækjum að sýna þessa eiginleika auðveldlega. Til dæmis geta samstarfsaðilar ráðstafað eigin  Azure AD  leigjendum út frá  [https://aka.ms/CDX](https://aka.ms/CDX)  því hafa  Microsoft 365  rannsóknir og rekstur miðlægu rannsóknir fyrir því að sýna viðskiptamiðað.
 
-### <a name="the-list-of-licenses-in-business-central-shows-a-microsoft--license-whats-that" />Listi yfir leyfi í starfsemi miðsvæðis sýnir  Microsoft 365  leyfi. Hvað er það?
+### <a name="the-list-of-licenses-in-business-central-shows-a-microsoft-365-license-whats-that" />Listi yfir leyfi í starfsemi miðsvæðis sýnir  Microsoft 365  leyfi. Hvað er það?
 
  **Síðan Leyfisskilgreiningar**  í viðskiptamiðinu eru birtar mismunandi tegundir leyfa sem geta veitt aðgang að þjónustu miðsvæðis í viðskiptum. Í útgáfu 21 bætist  Microsoft 365  Microsoft við þennan lista sem nýr farvegur til aðgangs að Viðskiptamiðinu. Þessi listi yfir leyfi gefur ekki til að fyrirtækið hafi keypt áskriftir að neinu af þessum leyfum eða fyrirtækið hefur virkjað aðgang í gegnum þessi leyfi.
 
-### <a name="do-i-need-to-acquire-a-new-type-of-microsoft--license-for-this-feature-to-work" />Þarf ég að öðlast nýja tegund  Microsoft 365  leyfis fyrir þennan eiginleika til að virka?
+### <a name="do-i-need-to-acquire-a-new-type-of-microsoft-365-license-for-this-feature-to-work" />Þarf ég að öðlast nýja tegund  Microsoft 365  leyfis fyrir þennan eiginleika til að virka?
 
 Microsoft hefur ekki stofnað ný leyfi eða nýjar áætlanir hafa vald á þessum eiginleika. Þessi eiginleiki treystir alfarið á fyrirliggjandi  Microsoft 365  áætlanir og leyfi. Ef þú ert þegar áskrifandi að einum af þeim sem studdu  Microsoft 365  áætlanirnar þá hefur þú nú þegar þessa nýju notkun rétt. Að öðrum kosti, ef áskrifandi er ekki í dag er hægt að  Microsoft 365  skrá sig fyrir  Microsoft 365  viðskiptakaupauka eða svipuðum áætlunum hér. 
 
-### <a name="how-do-i-find-out-which-users-have-only-a-microsoft--license" />Hvernig finn ég út hvaða notendur hafa aðeins  Microsoft 365  leyfi?
+### <a name="how-do-i-find-out-which-users-have-only-a-microsoft-365-license" />Hvernig finn ég út hvaða notendur hafa aðeins  Microsoft 365  leyfi?
 
 Til eru margar leiðir.  Microsoft 365 Í stjórnendamiðstöð er farið  **í lista virk notenda**  og vísað  **í dálkinn leyfi** . Í Business Central er farið  **í notendalistann**, valið hvaða notendur sem er og skoðað  **upplýsingakassa leyfis** .  
 
-### <a name="how-do-i-filter-the-users-list-in-business-central-to-see-users-that-only-have-a-microsoft--license" />Hvernig sía ég notendalistann í viðskiptafræði miðlægt til að sjá notendur sem aðeins eru  Microsoft 365  með leyfi?
+### <a name="how-do-i-filter-the-users-list-in-business-central-to-see-users-that-only-have-a-microsoft-365-license" />Hvernig sía ég notendalistann í viðskiptafræði miðlægt til að sjá notendur sem aðeins eru  Microsoft 365  með leyfi?
 
 Þetta verk er eins og er ekki hægt að nota við afmörkun eða Yfirlit. Hins vegar er hægt að velja notanda á listanum og skoða upplýsingakassa sem verður aðeins  Microsoft 365 með ef notandinn er  Microsoft 365  aðeins með leyfi.
 
-### <a name="what-about-users-that-have-both-a-microsoft--license-and-a-business-central-license" />Hvað með notendur sem hafa bæði  Microsoft 365  leyfi og miðlægt leyfi fyrirtækja?
+### <a name="what-about-users-that-have-both-a-microsoft-365-license-and-a-business-central-license" />Hvað með notendur sem hafa bæði  Microsoft 365  leyfi og miðlægt leyfi fyrirtækja?
 
 Þegar mörgum leyfum er úthlutað til notanda, vinnur leyfishafi yfir leyfi til að nota aðgang að aðalfyrirtæki. Í þessu tilfelli nefnir Seðlabanki fyrirtæki notandann rétt til fleiri notendaleyfis. Þannig að notendur geta lesið og skrifað aðalfærslur í teymum og fengið aðgang að vefsíðu aðalvefbiðlara í vafra, rétt eins og hver önnur starfsemi aðalleyfisveitanda. Ef tilteknum skilgreindum heimildum hefur verið samskipað fyrir  Microsoft 365  leyfið fær notandinn skilgreinda heimildina sem sett er saman við það leyfi sem sett er frá Aðalleyfi rekstraraðila eða sem þegar hefur verið úthlutað til notandans.
 
@@ -149,7 +149,7 @@ Actionable tenglar á miðlægu síður fyrirtækja eru oft sýndir sem Feitletr
 
 Contextual-tilkynningar sem sýndar eru á síðum fylgja oft Gantt tenglar. Þegar notendur fá aðgang að Aðalsíðum fyrirtækja með leyfi sínu  Microsoft 365  eru þessir tenglar birtir en ekki er hægt að virkja þá því þetta leyfi býður ekki upp á að nota réttindi til að keyra aðgerðir. Á tæknistigi eru þessir tenglar útfærðir sem aðgerðir.
 
-### <a name="can-microsoft--users-remove-tabs" />Geta  Microsoft 365  notendur fjarlægt flipa?
+### <a name="can-microsoft-365-users-remove-tabs" />Geta  Microsoft 365  notendur fjarlægt flipa?
 
 Já. Hver sem er á spjallinu eða rás getur fjarlægt flipa sem aðrir búa yfir. Ef flipi er fjarlægður skal ekki fjarlægja eða hafa áhrif á gögn í Aðalviðskiptum en Flipinn verður fjarlægður fyrir alla notendur Spjalls eða rása.
 

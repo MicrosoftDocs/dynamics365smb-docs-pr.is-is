@@ -134,7 +134,7 @@ Reitirnir **Dagsetning skjals**, **Upphæð** á síðunni **Fjárhagsfærslur V
 7. Stækkaðu flýtiflipann **Azure AI** og fylltu síðan út reitina, þar á meðal API-vefslóðina og API-lykilinn sem kemur úr stúdíói Azure-vélnáms. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Í Hlutverkamiðstöð endurskoðanda skal velja aðgerðina **Endurreikna spá** undir grafinu **Sjóðstreymisspá**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig .
 

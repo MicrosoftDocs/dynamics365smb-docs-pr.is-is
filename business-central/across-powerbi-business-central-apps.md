@@ -150,7 +150,7 @@ Power BI-forritið sýnir aðeins gögn úr [!INCLUDE[prod_short](includes/prod_
 - [Velja reit](/power-bi/service-dashboard-tiles) til opna undirliggjandi skýrslu.  
 - Sjálfgefið er að gagnasafnið sé ekki áætlað til endurnýjunar. Hægt er að breyta uppfærsluáætluninni eða uppfæra hana hvenær sem er í **Uppfæra núna**. Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" /><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" /><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" /><a name="see-also"></a>Sjá einnig
 

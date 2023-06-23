@@ -45,7 +45,7 @@ Netútgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur forupp
 > [!NOTE]
 > Af öryggis-og lagaástæðum er ekki hægt að hlaða upp sérstilltum leturgerðum í [!INCLUDE[prod_short](includes/prod_short.md)] umhverfinu.
 
-### <a name="micr-e-b-specifications" />MICR E-13B lýsingar
+### <a name="micr-e-13b-specifications" />MICR E-13B lýsingar
 
 Eftirfarandi er samantekt skilgreininga fyrir MICR E-13B leturgerðir sem kunna að vera gagnlegar þegar leturgerðir eru kvarðaðar fyrir ávísunarútliti með tilteknum MICR-prenturum.
 
@@ -57,7 +57,7 @@ Eftirfarandi er samantekt skilgreininga fyrir MICR E-13B leturgerðir sem kunna 
 
 Hægt er að finna alla lýsinguna á leturgerðum MICR E-13B í fylgiskjölum birgis hér: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />MICR CMC-7 lýsingar
+### <a name="micr-cmc-7-specifications" />MICR CMC-7 lýsingar
 
 Eftirfarandi CMC-7 letur er tiltækt á [!INCLUDE[prod_short](includes/prod_short.md)] online:
 

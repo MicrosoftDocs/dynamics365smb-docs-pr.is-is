@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c-data-migration-extension" />C5-gagnaflutningsviðbótin
+# <a name="the-c5-data-migration-extension" />C5-gagnaflutningsviðbótin
 
 Þessi viðbót auðveldar flutning viðskiptamanna, lánardrottna, vara og fjárhagsreikninga úr Microsoft Dynamics C5 2012 í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að flytja elrdi færslur fyrir fjárhagsreikning.
 

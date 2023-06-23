@@ -45,7 +45,7 @@ Ef framlengda prufutímabilið þitt er útrunnið geturðu fengið [áskrift](h
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -62,7 +62,7 @@ Að auki er sérhver skilgreining í töflunni Vaxtaskilmálar tengdur undirtöf
 |%8|Innihald reitsins **gjaldmiðilskóði** á bréfshaus vaxtareiknings|  
 |%9|Innihald reitsins **bókunardagsetning** á bréfshaus vaxtareiknings|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-memos-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/send-memos-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessend-memos-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

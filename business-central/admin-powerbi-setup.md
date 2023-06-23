@@ -92,7 +92,7 @@ Við hvert tækifæri er mælt með að nota API-síður í stað OData-vefþjó
     Til að koma á fyrstu tengingunni skal opna [!INCLUDE[prod_short](includes/prod_short.md)] og keyra **Hefjast handa með Power BI** af heimasíðunni. Þessi aðgerð mun leiða þig í gegnum samþykktarferlið og fara yfir Power BI-leyfið þitt. Þegar beðið er um innskráningu skal nota innskráningu með Azure-stjórnendareikningi. Frekari upplýsingar er að finna í [Tengjast við Power BI - aðeins einu sinni](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

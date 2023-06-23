@@ -70,7 +70,7 @@ Hægt er að breyta upplýsingunum á lánardrottnaspjöldum hvenær sem er. Ef 
 5. Þegar lokið hefur verið við nýja lánardrottinssniðmátið skal velja **Í lagi**.  
    Lánardrottnasniðmátinu verður bætt við lista lánardrottnasniðmáta þannig að hægt er að nota það til að búa til ný lánardrottnaspjöld.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

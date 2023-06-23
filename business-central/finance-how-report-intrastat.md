@@ -122,7 +122,7 @@ Eignir verða sýndar í Intrastat-línunum aðeins ef:
 * *Útgefin*: [!INCLUDE[prod_short](includes/prod_short.md)] breytir stöðunni sjálfkrafa í *Útgefna* þegar skrá er stofnuð. Frá þeirri stundu getur þú ekki breytt **Intrastat-skýrslunni** þinni. Ef breyta þarf einhverju og gefa skýrslu á nýjan leik er hægt að nota aðgerðina **Enduropna** til að enduropna Intrastat-skýrsluna. Þegar skjalið hefur verið opnað aftur er hægt að nota aðgerðina **Gefa út** til að gefa út skjalið aftur.
 * **Tilkynnt**: Tilgreinir hvort skattayfirvöld hafa þegar fengið skýrslu um færsluna. Þetta er ekki venjuleg staða heldur sjálfstæður reitur og jafnvel þótt þú opnir Intrastat-skýrsluna aftur myndi hún samt sýna að skráin sé þegar stofnuð fyrir þessa skýrslu.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" /><a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" /><a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" /><a name="see-also"></a>Sjá einnig .
 

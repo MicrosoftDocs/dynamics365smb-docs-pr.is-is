@@ -56,7 +56,7 @@ Heiti á völdu sérsniðnu útliti er nú sýnt í reitnum **Sérstillt útlit*
 
 Nú er hægt að fara á spjöld viðskiptamanna og lánardrottna til að tilgreina hvaða útlit á að nota fyrir önnur skjöl sem eru búin til fyrir viðkomandi viðskiptamann eða lánardrottinn, eins og staðfestingu á pöntun eða greiðsluáminningar. Frekari upplýsingar eru í [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  

@@ -33,7 +33,7 @@ Víddasamstæður eru geymdar í töflunni **Víddasamstæðufærsla** sem vídd
 
 Þegar síðunni **Breyta Víddasamstæðufærslum** er breytt og lokað er gerð athugun til að sjá hvort samsetning víddargildanna sé til sem víddasafn í töflunni. Ef samsetningin kemur fyrir í töflunni er samsvarandi víddasamstæðukenni tengt við færslubókarlínuna, fylgiskjalshausinn eða fylgiskjalslínuna. Annars er nýrri víddasamstæðu bætt við töfluna og henni hennar bætt við línu færslubókar, haus fylgiskjals eða línu fylgiskjals.
 
-## <a name="codeunit--dimension-management" />Codeunit 408 víddarstjórnun
+## <a name="codeunit-408-dimension-management" />Codeunit 408 víddarstjórnun
 Codeunit 408, Víddastjórnun, er aðgerðasafn sem sér um algeng verkefni sem tengjast víddum, m.a. afritun úr einni töflu í aðra eða úr einu skjali í annað.
 
 ## <a name="performance-improvement" />Bætt afköst

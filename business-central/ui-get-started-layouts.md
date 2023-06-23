@@ -179,7 +179,7 @@ Fylgdu þessum skrefum ef þú vilt breyta heiti og lýsingu á notandaskilgrein
     > Til að hjálpa þér að finna útlitið skaltu nota reitinn **Leita**, svæðið **Sía** og dálkaröðun.
 3. Breyttu **Heiti útlits**, veldu síðan **Í lagi**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

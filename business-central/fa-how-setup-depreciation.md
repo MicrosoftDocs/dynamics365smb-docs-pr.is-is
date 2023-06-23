@@ -84,7 +84,7 @@ Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverj
 3. Ef sjálfgefin uppsetning á að vera fyrir hvern notanda skal velja reitinn **Kenni notanda** til að velja af síðunni **Notendur**.  
 4. Í öðrum reitum er valið er sniðmát færslubókar eða bókarkeyrslu sem nota verður sjálfgefið.  
 
-## <a name="fiscal-year--days-field-depreciation" />Afskriftareiturinn 365 daga reikningsár
+## <a name="fiscal-year-365-days-field-depreciation" />Afskriftareiturinn 365 daga reikningsár
 
 Þegar keyrslan Reikna afskriftir reiknar afskriftir notar hún yfirleitt staðlað 360 daga ár þar sem hver mánuður er 30 dagar.
 

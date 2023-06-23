@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 05/25/2022
 ---
 
-# <a name="sign-up-for-a-free-dynamics--business-central-trial" />Skráðu þig í ókeypis Dynamics 365 Business Central prufu
+# <a name="sign-up-for-a-free-dynamics-365-business-central-trial" />Skráðu þig í ókeypis Dynamics 365 Business Central prufu
 
 Business Central býður upp á ókeypis prufutíma. Eftir fljólega nýskráningu færðu aðgang að mörgum lykileiginleikum forritsins. Prufuútgáfan gerir þér kleift að prófa forritið með sýnigögnum. Ef þú vilt prófa hluti með gögnunum þínum skaltu skipta yfir í 30 daga ókeypis prufuútgáfu. [Frekari upplýsingar um eiginleika Business Central](across-business-functionality.md).  
 
@@ -38,7 +38,7 @@ Einnig er hægt að hafa samband við [[!INCLUDE[prod_short](includes/prod_short
 
 Frekari upplýsingar um hvað hægt er að gera við [!INCLUDE [prod_short](includes/prod_short.md)] eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md) og [Viðskiptavirkni](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="additional-resources" />Frekari upplýsingar
 

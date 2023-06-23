@@ -47,7 +47,7 @@ Allar færslur skjala á innleið eru sýndar, þar á meðal færslur þar sem 
 > [!NOTE]  
 > Einnig má framkvæma þessa aðgerð fyrir einstaka færslu á síðunni **Spjald fyrir skjöl á innleið** .
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
   

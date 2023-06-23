@@ -116,7 +116,7 @@ Ef þú notar Business Central á staðnum getur verið að uppsetning innbótar
 
 Nú geturðu byrjað að nota innbótina í Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

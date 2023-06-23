@@ -53,7 +53,7 @@ Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum getur �
 > [!NOTE]
 > Ef þú átt í vandræðum með að fá forritið til að virka rétt skaltu tala við kerfisstjóra. Hugsanlega vantar frumskilyrði eða þá að stilling er ófullnægjandi. Frekari upplýsingar er að finna í [Undirbúningur umhverfis fyrir farsímaforrit](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) eða [Úrræðaleit Business Central farsímaforrits á staðnum](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

@@ -45,7 +45,7 @@ Við höfum auðveldað þér að bjóða ytri endurskoðanda. Einfaldlega opni�
 >
 > Þetta verk þarfnast aðgang til að stjórna notendum og leyfum í Azure Active Directory. Notandinn sem sendir þetta boð verður að vera með hlutverkið **Altækur stjórnandi** eða **Notandastjórnandi** í Microsoft 365 stjórnendamiðstöð. Frekari upplýsingar eru í [Um stjórnandahlutverk](/microsoft-365/admin/add-users/about-admin-roles) í Microsoft 365 efni kerfisstjóra.  
 
-### <a name="adding-your-accountant-to-your-microsoft--in-the-azure-portal" />Endurskoðanda þínum er bætt við Microsoft 365 í gegnum Azure-gátt
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal" />Endurskoðanda þínum er bætt við Microsoft 365 í gegnum Azure-gátt
 
 Ef stjórnandi þinn eða endursöluaðili vill ekki nota leiðarvísinn **Bjóða ytri endurskoðanda** geta þeir bætt við ytri notanda í Azure-gáttinni og úthlutað þessum notanda heimild *Ytri endurskoðanda*. Frekari upplýsingar er að finna í [Stutt leiðbeining: Bæta gestanotendum við skráasafnið þitt í Azure-gáttinni](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

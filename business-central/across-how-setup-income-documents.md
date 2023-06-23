@@ -43,7 +43,7 @@ Til að breyta PDF- og myndaskrám í rafræn skjöl sem þú getur umbreytt í 
 
 Frekari upplýsingar eru í [Hvernig á að nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

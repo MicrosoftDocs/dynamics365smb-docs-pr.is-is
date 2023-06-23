@@ -82,7 +82,7 @@ Hægt er að velja að fá ekki viðvaranir sem segja að farið hafi verið yfi
     |**Upphæð vanskila**|Svæðið **Gjaldfallin staða** í spjaldi viðskiptamanns er athugað og viðvörun birtist ef staða viðskiptamanns er gjaldfallin.|
     |**Engin aðvörun**|Engar lánaviðvaranir eru sýndar varðandi stöðu viðskiptamanns.|
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

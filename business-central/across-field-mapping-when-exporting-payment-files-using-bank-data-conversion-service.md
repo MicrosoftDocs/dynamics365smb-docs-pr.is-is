@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking--fundamentals-extension" />Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension" />Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
 Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar um AMC Banking 365 Fundamentals-viðbótina er að finna í [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  

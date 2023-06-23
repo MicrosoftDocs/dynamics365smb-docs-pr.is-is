@@ -67,71 +67,71 @@ Reiturinn **Birgðageymsla áskilin** á síðunni **Birgðauppsetning**, reitur
 
 Sjá frávik í uppsetningardæmunum hér fyrir neðan.
 
-### <a name="setup-" />Uppsetning 1
+### <a name="setup-1" />Uppsetning 1
 
 * Birgðageymsla áskilin = *Já*  
 * BHE er sett upp fyrir *VESTUR*  
 * Íhlutir í birgðageymslu = *AUSTUR*  
 
-#### <a name="case--demand-is-at-west-location" />Mál 1.1: Eftirspurn er í birgðageymslu *VESTUR*
+#### <a name="case-11-demand-is-at-west-location" />Mál 1.1: Eftirspurn er í birgðageymslu *VESTUR*
 
 Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðahaldseiningaspjaldinu (að hugsanlegri millifærslu meðtalinni).
 
-#### <a name="case--demand-is-at-east-location" />Mál 1.2: Eftirspurn er í birgðageymslu *AUSTUR*
+#### <a name="case-12-demand-is-at-east-location" />Mál 1.2: Eftirspurn er í birgðageymslu *AUSTUR*
 
 Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.
 
-#### <a name="case--demand-is-at-north-location" />Mál 1.3: Eftirspurn er í birgðageymslu *NORÐUR*
+#### <a name="case-13-demand-is-at-north-location" />Mál 1.3: Eftirspurn er í birgðageymslu *NORÐUR*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-#### <a name="case--demand-is-at-blank-location" />Dæmi 1.4: Eftirspurn er í birgðageymslunni *TÓMT*
+#### <a name="case-14-demand-is-at-blank-location" />Dæmi 1.4: Eftirspurn er í birgðageymslunni *TÓMT*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-### <a name="setup-" />Uppsetning 2
+### <a name="setup-2" />Uppsetning 2
 
 * Birgðageymsla áskilin = *Já*  
 * Engin birgðahaldseining er til  
 * Íhlutir í birgðageymslu = *AUSTUR*  
 
-#### <a name="case--demand-is-at-west-location" />Mál 2.1: Eftirspurn er í birgðageymslu *VESTUR*
+#### <a name="case-21-demand-is-at-west-location" />Mál 2.1: Eftirspurn er í birgðageymslu *VESTUR*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-#### <a name="case--demand-is-at-east-location" />Mál 2.2: Eftirspurn er í birgðageymslu *AUSTUR*
+#### <a name="case-22-demand-is-at-east-location" />Mál 2.2: Eftirspurn er í birgðageymslu *AUSTUR*
 
 Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.  
 
-### <a name="setup-" />Uppsetning 3
+### <a name="setup-3" />Uppsetning 3
 
 * Birgðageymsla áskilin = *Nei*  
 * Engin birgðahaldseining er til  
 * Íhlutir í birgðageymslu = *AUSTUR*  
 
-#### <a name="case--demand-is-at-west-location" />Mál 3.1: Eftirspurn er í birgðageymslu *VESTUR*
+#### <a name="case-31-demand-is-at-west-location" />Mál 3.1: Eftirspurn er í birgðageymslu *VESTUR*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-#### <a name="case--demand-is-at-east-location" />Mál 3.2: Eftirspurn er í birgðageymslu *AUSTUR*
+#### <a name="case-32-demand-is-at-east-location" />Mál 3.2: Eftirspurn er í birgðageymslu *AUSTUR*
 
 Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.  
 
-#### <a name="case--demand-is-at-blank-location" />Dæmi 3.3: Eftirspurn er í birgðageymslunni *TÓMT*
+#### <a name="case-33-demand-is-at-blank-location" />Dæmi 3.3: Eftirspurn er í birgðageymslunni *TÓMT*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-### <a name="setup-" />Uppsetning 4
+### <a name="setup-4" />Uppsetning 4
 
 * Birgðageymsla áskilin = *Nei*  
 * Engin birgðahaldseining er til  
 * Íhlutir á staðnum = *TÓMT*  
 
-#### <a name="case--demand-is-at-east-location" />Mál 4.1: Eftirspurn er í birgðageymslu *AUSTUR*
+#### <a name="case-41-demand-is-at-east-location" />Mál 4.1: Eftirspurn er í birgðageymslu *AUSTUR*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 
-#### <a name="case--demand-is-at-blank-location" />Dæmi 4.2: Eftirspurn er í birgðageymslunni *TÓMT*
+#### <a name="case-42-demand-is-at-blank-location" />Dæmi 4.2: Eftirspurn er í birgðageymslunni *TÓMT*
 
 Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.
 
@@ -139,7 +139,7 @@ Eins og sjá má á síðasta dæmi er eina leiðin til að fá réttar niðurst
 
 Ef þú þar af leiðandi áætlar oft eftirspurn í birgðageymslum þá mælum við með að þú notir möguleika birgðahaldseiningar.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Sjá tengda þjálfun á [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Sjá tengda þjálfun á [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

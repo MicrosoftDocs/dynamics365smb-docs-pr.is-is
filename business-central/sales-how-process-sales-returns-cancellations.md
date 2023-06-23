@@ -140,7 +140,7 @@ Til að úthluta nákvæmri bakfærslu kostnaðar, skal velja reitinn **Jafna fr
 
 Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðakostnaður](design-details-inventory-costing.md)
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 

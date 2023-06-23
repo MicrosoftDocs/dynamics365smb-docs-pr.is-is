@@ -33,20 +33,20 @@ Eftirfarandi dæmi sýnir hvernig vörubókarfærslur, virðisfærslur og vöruj
 
  Innkaupapöntun er bókuð sem móttekin og reikningsfærð fyrir 10 vörur með beinum einingarkostnaði sem nemur SGM 7 og sameiginlegum kostnaði sem nemur SGM 1. Bókunardagsetningin er 01-01-20. Eftirfarandi færslur eru stofnaðar.  
 
-### <a name="item-ledger-entries-" />Birgðafærslur (1)
+### <a name="item-ledger-entries-1" />Birgðafærslur (1)
 
 |Bókunardagsetning|Tegund færslu|Kostnaðarupphæð (raunverul.)|Magn|Færslunr.|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Innkaup|80,00|10|1|  
 
-### <a name="value-entries-" />Virðisfærslur (1)
+### <a name="value-entries-1" />Virðisfærslur (1)
 
 |Bókunardagsetning|Tegund færslu|Kostnaðarupphæð (raunverul.)|Birgðafærsla nr.|Færslunr.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Beinn kostnaður|70,00|1|1|  
 |01-01-20|Óbeinn kostnaður|10,00|1|2|  
 
-### <a name="item-application-entries-" />Birgðajöfnunarfærslur (1)
+### <a name="item-application-entries-1" />Birgðajöfnunarfærslur (1)
 
 |Færslunr.|Birgðafærsla nr.|Birgðafærslunr. vöru á innleið|Birgðafærslunr. vöru á útleið|Magn|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ Eftirfarandi dæmi sýnir hvernig vörubókarfærslur, virðisfærslur og vöruj
 
  Næst er bókuð sala 10 eininga vörunnar með bókunardagsetningunni 01-15-20.  
 
-### <a name="item-ledger-entries-" />Birgðafærslur (2)
+### <a name="item-ledger-entries-2" />Birgðafærslur (2)
 
 |Bókunardagsetning|Tegund færslu|Kostnaðarupphæð (raunverul.)|Magn|Færslunr.|  
 |------------|----------|--------------------|--------|---------|  
 |01-15-20|Sala|-80,00|-10|2|  
 
-### <a name="value-entries-" />Virðisfærslur (2)
+### <a name="value-entries-2" />Virðisfærslur (2)
 
 |Bókunardagsetning|Tegund færslu|Kostnaðarupphæð (raunverul.)|Birgðafærsla nr.|Færslunr.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-15-20|Beinn kostnaður|-80,00|2|3|  
 
-### <a name="item-application-entries-" />Birgðajöfnunarfærslur (2)
+### <a name="item-application-entries-2" />Birgðajöfnunarfærslur (2)
 
 |Færslunr.|Birgðafærsla nr.|Birgðafærslunr. vöru á innleið.|Birgðafærslunr. vöru á útleið.|Magn|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ Að lokum bókhaldstímabils, skaltu keyra runuvinnslurnar **Bóka birgðakostna
 
  Eftirfarandi töflur sýna niðurstöður afstemmingar birgðafærsla í þessu dæmi við fjárhag.  
 
-### <a name="value-entries-" />Virðisfærslur (3)
+### <a name="value-entries-3" />Virðisfærslur (3)
 
 |Bókunardagsetning|Tegund færslu|Kostnaðarupphæð (raunverul.)|Kostnaður bókaður í fjárhag|Birgðafærslunr.|Færslunr.|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ Að lokum bókhaldstímabils, skaltu keyra runuvinnslurnar **Bóka birgðakostna
 |01-01-20|Óbeinn kostnaður|10,00|10,00|1|2|  
 |01-15-20|Beinn kostnaður|-80,00|-80,00|2|3|  
 
-### <a name="general-ledger-entries-" />Fjárhagsfærslur (3)
+### <a name="general-ledger-entries-3" />Fjárhagsfærslur (3)
 
 |Bókunardagsetning|Fjárhagur|Reikningur nr. (En-US sýnishorn)|Upphæð|Færslunr.|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ Að lokum bókhaldstímabils, skaltu keyra runuvinnslurnar **Bóka birgðakostna
 
  Tengslin milli virðisfærslna og fjárhagsfærslna eru geymd í töflunni **Fjárhagur - Birgðahöfuðbók tengls**.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Tengslafærslur í fjárhag - tengslatafla fjárhagsbirgðabókar (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3" />Tengslafærslur í fjárhag - tengslatafla fjárhagsbirgðabókar (3)
 
 |Fjárhagsfærslunr.|Virðisfærslunr.|Fjárhagsdagbók nr.|  
 |-------------|---------------|----------------|  

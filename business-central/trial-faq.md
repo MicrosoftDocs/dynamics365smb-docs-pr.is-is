@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 02/23/2022
 ---
 
-# <a name="dynamics--business-central-trial-faq" />Algengar spurningar um prufuútgáfu Dynamics 365 Business Central
+# <a name="dynamics-365-business-central-trial-faq" />Algengar spurningar um prufuútgáfu Dynamics 365 Business Central
 
 [!INCLUDE [beethoven-trial](includes/beethoven-trial.md)]
 
@@ -44,7 +44,7 @@ Skiptu yfir í 30 daga prufuútgáfu og bættu svo þínum eigin gögnum við. F
 
 Það er ekki hægt. Ef þú eyðir óvart sýnigögnum skaltu biðja stjórnandann þinn um að búa til nýtt sandkassaumhverfi. Frekari upplýsingar er að finna í [Framleiðslu- og sandkassaumhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types) í efni stjórnanda (aðeins á ensku).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

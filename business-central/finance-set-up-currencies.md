@@ -111,7 +111,7 @@ Hægt er að færa gjaldmiðilskóta inn í færslubókarlínu og bóka línuna 
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

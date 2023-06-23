@@ -52,7 +52,7 @@ Til að bóka alltaf útgjöld sem tengjast gjöldum tiltekins banka, MyBank, ti
 | --- | --- | --- | --- | --- |
 | MyBank |AUTT |60400|Fjárhagur |AUTT |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -133,13 +133,13 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  ![Fysta dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Færslunúmer 8 og 9
+### <a name="entry-numbers-8-and-9" />Færslunúmer 8 og 9
  Fyrir íhlutaþörf fyrir LOTA annarsvegar og LOTB hinsvegar eru tenglar pöntunarrakningar stofnaðir úr eftirspurninni í töflu 5407, **Framl.pöntunaríhlutur**, til framboðsins í töflu 32, **Birgðafærsla**. **Pöntunarstaða** reitur inniheldur **Rakning** til að sýna að þessar færslur eru breytilegir pöntunarrakningartenglar á milli framboðs og eftirspurnar.  
 
 > [!NOTE]  
 >  Reiturinn**lotunr.** er auður á eftirspurnarlínum vegna þess að ekki eru tilgreind lotunúmer í íhlutalínum losaðrar framleiðslupöntunar.  
 
-### <a name="entry-numbers-" />Færslunúmer 10
+### <a name="entry-numbers-10" />Færslunúmer 10
  Úr sölueftirspurn í töflu 37, **Sölulína**, er pöntunarrakningartengill stofnaður fyrir framboðið í töflu 5406, **Framl.pöntunarlína**. **pöntunarstaða** reitur inniheldur **frátekningu** og **binding** reitur inniheldur **pöntun-í-pöntun**. Þetta er vegna þess að útgefin framleiðslupöntun var stofnuð sérstaklega fyrir sölupöntunina og verður að vera tengd, öfugt við pöntunarrakningartenglum með frátekningarstöðuna **Rakning**, sem eru stofnaðir og breytt gagnvirkt. Nánari upplýsingar eru í hlutanum „Sjálfvirkar frátekningar“ í þessu efnisatriði.  
 
  Á þessum tímapunkti , eru 100 einingar í LOTA og LOTB flutt til EAST með flutningspöntun.  
@@ -151,12 +151,12 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  ![Annað dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Færslunúmer 8 og 9
+### <a name="entry-numbers-8-and-9" />Færslunúmer 8 og 9
  Pöntunarrakningarfærslum fyrir tvær lotur íhlutarins sem endurspegla eftirspurn í töflu 5407 er breytt úr frátekningarstöðunni **Raknings** í **Umframbirgðir**. Ástæðan er að birgðirnar sem greiðslan var tengd við áður, í töflu 32, hafa verið notaðar af sendingu á millifærslupöntuninni.  
 
  Raunverulegur afgangur, eins og í þessu tilfelli, endurspeglar umframframboð eða eftirspurn sem helst órakin. Það er til marks um ójafnvægi í pöntunarneti, sem mun búa til aðgerðaboð af áætlanakerfinu  nema það sé leyst virk.  
 
-### <a name="entry-numbers--to-" />Færslunúmer 12 til 16
+### <a name="entry-numbers-12-to-16" />Færslunúmer 12 til 16
  Vegna þess að tvær lotur af íhlutanum eru bókaðar á flutningspöntunina sem sendar en ekki mótteknar, eru allar tengdar jákvæðar pöntunarrakningngarfærslur af gerðinni frátekning **Afgangur**, sem gefur til kynna að þeir eru ekki úthlutað neinum kröfum. Fyrur hvert lotunúmer gentist ein færsla töflu 5741, **Millifærslulína**, og ein færsla tengist birgðafærslunni í flutningsstaðsetningunni þar sem vörurnar eru núna.  
 
  Á þessum tímapunkti er flutningspöntunin íhluta frá AUSTUR til VESTUR bókað sem móttekin.  
@@ -173,7 +173,7 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  ![Fyrsta dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Færslunúmer 21 og 22
+### <a name="entry-numbers-21-and-22" />Færslunúmer 21 og 22
  Þar sem íhluturinn þarf að hafa verið breytt í AUSTUR staðsetningu og framboðið er tiltækt sem birgðahöfuðbókarfærslur á AUSTUR staðsetningu eru allar pöntunarrakningarfærslur fyrir tvö lotunúmer nú að fullu raktar, gefið til kynna með frátekningarstöðu **Rakning**.  
 
  Reiturinn **lotunr.** er nú útfylltur í pöntunarrakningarfærslunni fyrir töflu 5407 vegna þess að lotunúmerunum var úthlutað á íhlutalínur framleiðslupöntunar.  

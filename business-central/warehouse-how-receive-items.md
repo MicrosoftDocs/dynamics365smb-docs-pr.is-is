@@ -92,7 +92,7 @@ Ef hólfum er skylt að eiga stað er svæði og hólfakóta bætt við innhreyf
 * Fyrir ítarlegar skilgreiningar sem nota beinan frágang og tínslu er  [!INCLUDE [prod_short](includes/prod_short.md)]  Kóti móttökuhólfs notaður af  **birgðageymsluspjaldinu**  fyrir birgðageymsluna. Ef kóti móttökuhólfs er ekki tilgreindur er ekkert hólf tilgreint. Ef vara og móttökuhólf stemma ekki við er kóti móttökuhólfs auður.
 * Í öðrum afbrigðum er kóti móttökuhólfs ekki tilgreindur  [!INCLUDE [prod_short](includes/prod_short.md)]  með því að nota hólfakótann úr upprunaskjalinu.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -172,7 +172,7 @@ Dálkar sem þegar eru með síur eru auðkenndir með ![Síutákninu.](media/ui
 > [!TIP]
 > Ef talnaborð er notað getur skiltákn tugabrots komið með staf annan en punkt (.). Ef skipta á um tímabil skal velja  <kbd>Skilríkjalykla</kbd>+<kbd>Alt</kbd>  tugabrotatakkanum á talnaborðinu. Ef þú vilt skipta aftur skaltu velja  <kbd>skilyrt</kbd>+<kbd>aukastaf Alt</kbd> . Frekari upplýsingar eru í [Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum](ui-enter-data.md#decimal).
 
-#### <a name="-eitheror" />(&#124;) Annaðhvort eða
+#### <a name="124-eitheror" />(&#124;) Annaðhvort eða
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Notaðu `%myvendors` í lánardrottinn **Nr** reitnum, til að birta allar skrá
 |-----------------------|-----------------------|  
 |`%myvendors`|Lánardrottnar í **Mínir lánardrottnar** í Mitt hlutverk. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

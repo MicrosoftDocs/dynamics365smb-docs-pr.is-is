@@ -39,7 +39,7 @@ Microsoft Excel skýrsluútlit byggja á Excel-vinnubókum (.xlsx-skrár). Með 
 1. Búðu til nýja Excel-útlitsskrá.
 2. Bættu nýja útlitinu við skýrsluna.
 
-## <a name="task--create-the-excel-layout-file" />Verk 1: Búa til Excel-útlitsskrá
+## <a name="task-1-create-the-excel-layout-file" />Verk 1: Búa til Excel-útlitsskrá
 
 Þetta eru leiðirnar þrjár til að búa til Excel-útlitsskrá fyrir skýrslu.
 
@@ -58,13 +58,13 @@ Fylgdu þessum skrefum til að búa til Excel-útlit úr hvaða skýrslu sem er,
 
 Ef þegar er til Excel-útlit fyrir skýrslu er hægt að nota fyrirliggjandi útlit sem útgangspunkt. Það eru tvær aðferðir til að fá afrit af útlitinu. Hægt er að flytja út núverandi útlit af síðunni **Skýrsluútlit** eða sækja útlitið af beiðnisíðu skýrslunnar. Báðar leiðir sækja Excel-útlitsskrána sem inniheldur öll vinnublöð fyrirliggjandi skráar. Munurinn er sá að þegar þú sækir hana af beiðnisíðunni inniheldur útlitið raunveruleg gögn. (Gögnin eru ekki nauðsynleg en þau hjálpa þegar útlitið er hannað.)
 
-#### <a name="approach--export-the-layout-from-the-report-layouts-page" />Aðferð 1: Flytja út útlitið af síðunni **Skýrsluútlit**.
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page" />Aðferð 1: Flytja út útlitið af síðunni **Skýrsluútlit**.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Veldu Excel-útlitið af listanum og veldu svo aðgerðina **Flytja út útlit** efst á síðunni.
 3. Opnaðu skrána í Excel, gerðu breytingarnar og vistaðu síðan skrána.
 
-#### <a name="approach--download-the-layout-from-the-reports-request-page" />Aðferð 2: Sækja útlitið af beiðnisíðu skýrslunnar
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page" />Aðferð 2: Sækja útlitið af beiðnisíðu skýrslunnar
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Á síðunni **Skýrsluútlit** skal velja hvaða útlit sem er fyrir skýrsluna, síðan velja aðgerðina **Keyra skýrslu**.
@@ -77,7 +77,7 @@ Ef þegar er til Excel-útlit fyrir skýrslu er hægt að nota fyrirliggjandi ú
 
 ---
 
-## <a name="task--add-the-excel-layout-to-the-report" />Verk 2: Bæta Excel-útlitinu við skýrsluna
+## <a name="task-2-add-the-excel-layout-to-the-report" />Verk 2: Bæta Excel-útlitinu við skýrsluna
 
 Þegar þú ert með Excel-útlitsskrána er næsta verk að bæta henni við sem nýtt útlit fyrir skýrsluna.
 

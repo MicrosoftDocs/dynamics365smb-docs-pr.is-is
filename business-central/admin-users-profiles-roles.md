@@ -167,7 +167,7 @@ Sem kerfisstjóri á [!INCLUDE[prod_short](includes/prod_short.md)] ánetinu er 
 
 Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er t.d. hægt að stjórna lotum með því að nota SQL Server Management Studio. Frekari upplýsingar er að finna í [tæknileg fylgiskjöl SQL Server](/sql/sql-server).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesusers-security-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/users-security-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesusers-security-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/users-security-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

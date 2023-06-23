@@ -30,7 +30,7 @@ Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisi
 * [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)  
 * [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

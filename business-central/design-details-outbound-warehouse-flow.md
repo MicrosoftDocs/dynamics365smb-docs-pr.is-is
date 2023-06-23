@@ -63,15 +63,15 @@ Eftirfarandi skýringarmynd sýnir ferla á útleið í vöruhúsi fyrir mismuna
 
 :::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Sýnir þrep í grunnstreymi út í vöruhús.":::
 
-### <a name="-release-a-source-document" />1: gefa út upprunaskjal
+### <a name="1-release-a-source-document" />1: gefa út upprunaskjal
 
 Þegar úttektaraðgerðin  **er notuð**  á upprunaskjali, til dæmis sölu-eða flutningspöntun, eru vörurnar á skjalinu tilbúnar til flutnings í vöruhúsinu. Til dæmis tekið til og sett í hólfið sem tilgreint er á skjalinu. Einnig er hægt að stofna birgðatínsluskjöl fyrir einstakar línur á pöntunum, á þrýstihátt, samkvæmt tilgreindum hólfum og magni sem á að afgreiða.  
 
-### <a name="-create-an-inventory-pick" />2: stofna birgðatínslu
+### <a name="2-create-an-inventory-pick" />2: stofna birgðatínslu
 
  **Á síðunni Birgðatínsla**  sækir starfsmaðurinn vöruhúsastarfsmanninn, í draga tísku, í upprunaskjalslínurnar. Að öðrum kosti er birgðatínslulínur þegar stofnaðar, með ýtingu, af notanda sem er ábyrgur fyrir upprunaskjalinu.  
 
-### <a name="-post-an-inventory-pick" />3: bóka birgðatínslu
+### <a name="3-post-an-inventory-pick" />3: bóka birgðatínslu
 
 Í  **hverri línu fyrir vörur sem hafa verið tíndar eða færðar, að hluta til eða fullu, er reiturinn Magn**  fylltur út og síðan er birgðatínslan bókuð. Upprunaskjöl sem tengjast  birgðatínslu eru bókuð sem afgreitt eða notað.  
 
@@ -83,28 +83,28 @@ Eftirfarandi skýringarmynd sýnir ferla á útleið í vöruhúsi fyrir mismuna
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Sýnir skrefin í ítarlegu vöruflæði á útleið.":::
 
-### <a name="-release-a-source-document" />1: gefa út upprunaskjal
+### <a name="1-release-a-source-document" />1: gefa út upprunaskjal
 
 Gefa út upprunaskjal í ítarlegum skilgreiningum gildir það sama og um grunnskilgreiningar. Vörurnar verða fáanlegar til afgreiðslu í vöruhúsinu. Þær geta til dæmis verið innifaldar í sendingu.  
 
-### <a name="-create-a-warehouse-shipment" />2: vöruhúsaafhending stofnuð
+### <a name="2-create-a-warehouse-shipment" />2: vöruhúsaafhending stofnuð
 
  **Á síðunni vöruhúsaafhending**  fást línurnar úr útgefnu upprunaskjali. Hægt er að sameina línur úr nokkrum upprunaskjali í eina vöruhúsaafhendingu.  
 
-### <a name="-create-a-warehouse-pick" />3: Vöruhúsatínsla stofnuð
+### <a name="3-create-a-warehouse-pick" />3: Vöruhúsatínsla stofnuð
 
  **Á síðunni vöruhúsaafhending**, Stofnið vöruhúsatínsluaðgerðir fyrir vöruhúsaafhendingar á tvo vegu:
 
 - Á þrýstihátt, þar sem þú notar  **aðgerðina stofna tínslu** . Velja línurnar sem á að tína og undirbúa tínslur með því að tilgreina, til dæmis, hvaða hólf eigi að taka af og á í og hversu margar einingar eigi að afgreiða. Hólfin geta verið fyrirfram skilgreind fyrir vöruhúsastaðinn eða forðinn.
 - Á togtísku, þar sem notuð  **er úttektaraðgerð** .  **Á síðunni tínsluvinnublað**  geta starfsmenn vöruhúss notað  **aðgerðina Sækja vöruhúsaskjöl**  til að fá úthlutaða tínslur. Þegar vöruhúsatínslan er fullskráð er línunum á  **tínsluvinnublaðinu**  eytt.
 
-### <a name="-register-a-warehouse-pick" />4: Vöruhúsatínsla skráð
+### <a name="4-register-a-warehouse-pick" />4: Vöruhúsatínsla skráð
 
  **Í Vöruhúsafærslusíðunni**  fyllir  **reiturinn Magn**  út fyrir hverja línu sem þeir hafa tekið til eða að hluta til og skráir tínsluna síðan.
 
 Vöruhúsafærslur eru stofnaðar og vöruhúsatínslulínunum er eytt ef fullt magn var tekið til. Vöruhúsatínsluskjalið er áfram opið þar til heildarmagn vöruhúsaafhendingarinnar er skráð. Reiturinn **Tínt magn** á afhendingarlínu vöruhússins er uppfærður í samræmi.  
 
-### <a name="-post-the-warehouse-shipment" />5: bóka vöruhúsaafhendinguna
+### <a name="5-post-the-warehouse-shipment" />5: bóka vöruhúsaafhendinguna
 
 Þegar allar vörur á vöruhúsaafhendingskjalinu eru skráðar sem tínslur, bókar vöruhúsastarfsmaðurinn afhendinguna. Bókun uppfærir birgðafærslurnar sem á að endurspegla minnkun birgða. Til dæmis reiturinn **Magn afgreitt** á upprunaskjalinu á útleið er uppfærður.  
 

@@ -61,7 +61,7 @@ Fylgið leiðbeiningum í þessu ferli til að setja vöru á lager. Til að fr�
 
 Eftir að bókun tekst, er samsetningarvaran bókuð sem frálag birgðageymslukótans og hugsanlegs hólfakóta sem eru skilgreindir í samsetningarpöntuninni. Fyrir samsetningarpantanir sem voru stofnaðar handvirkt er hægt að afrita staðsetninguna úr uppsetningarreitnum **Sjálfgefin staðsetning fyrir pantanir**. Fyrir sameiningarpöntunarflæði, er hægt að afrita kóta birgðageymslu úr sölupöntunarlínunni.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

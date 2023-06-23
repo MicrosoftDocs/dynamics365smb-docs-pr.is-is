@@ -49,7 +49,7 @@ Nýjum reit, **Loka fyrir eyðingu fjárhagsreikninga**, hefur verið bætt við
 
 Að stilla reitinn **Loka fyrir eyðinga á fjárhagsreikningum** á *Já* er hægt að líta á sem bestu venju, sem og að stilla dagsetninguna í reitnum **Athuga eyðingu fjárhagsr. eftir**, t.d. á dagsetninguna sem þú þarft að vista fjárhagsgögnin þín.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

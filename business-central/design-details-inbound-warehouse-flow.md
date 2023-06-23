@@ -64,15 +64,15 @@ Eftirfarandi skýringarmynd sýnir innflæði í vöruhús eftir skjalagerð gru
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Grunngerð innstreymis í vöruhúsi.":::
 
-### <a name="-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: gefa út upprunaskjal til að stofna beiðni um birgðafrágang
+### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: gefa út upprunaskjal til að stofna beiðni um birgðafrágang
 
 Þegar vörur eru afhentar, sleppið upprunaskjalinu, svo sem innkaupapöntun eða millisendingarpöntun á innleið. Ef skjalinu er sleppt er hægt að ganga frá vörunum. Einnig er hægt að stofna birgðafrágangskjör fyrir einstakar pöntunarlínur, á grundvelli tilgreindra hólfa og magn til afgreiðslu.  
 
-### <a name="-create-an-inventory-put-away" />2: stofna birgðafrágang
+### <a name="2-create-an-inventory-put-away" />2: stofna birgðafrágang
 
  **Á síðunni birgðafrágangssíða**  er hægt að fá upplýsingar um upprunaskjal í undirbúningi sem byggðar eru á vöruhúsabeiðnum á innleið. Á þrýstihátt er einnig hægt að stofna birgðafrágangslínur þegar upprunaskjalið er stofnað.  
 
-### <a name="-post-an-inventory-put-away" />3: frágangur bóka frágangs
+### <a name="3-post-an-inventory-put-away" />3: frágangur bóka frágangs
 
 Í  **hverri línu fyrir vörur sem gengið hefur verið frá, að hluta til eða fullu, er reiturinn Magn**  fylltur út og síðan bókaður Birgðafrágangur. Upprunaskjöl sem tengjast birgðafrágangi eru bókuð sem móttekin.  
 
@@ -89,21 +89,21 @@ Eftirfarandi skýringarmynd sýnir flæði á innleið í vöruhúsi eftir tegun
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Ítarlegt innflæði í vöruhús.":::
 
-### <a name="-release-the-source-document" />1: gefa út upprunaskjal
+### <a name="1-release-the-source-document" />1: gefa út upprunaskjal
 
 Við móttöku vara er losað um upprunaskjalið, til dæmis innkaupapöntun eða millifærslapöntun á innleið. Ef skjalinu er sleppt er hægt að ganga frá vörunum. Gengið mun innihalda tilvísanir í tegund upprunaskjals og númer.
 
-### <a name="-create-a-warehouse-receipt" />2: stofna vöruhúsamóttöku
+### <a name="2-create-a-warehouse-receipt" />2: stofna vöruhúsamóttöku
 
  **Á móttökusíðu**  vöruhúss, fá upprunaskjalslínur á innleið. Hægt er að sameina margar upprunaskjalslínur í einu vöruhúsamóttöku skjali.  **Reiturinn Magn til afgreiðslu**  er fylltur út og valið viðtökusvæði og hólf ef með þarf.  
 
-### <a name="-post-the-warehouse-receipt" />3: bóka vöruhúsamóttöku
+### <a name="3-post-the-warehouse-receipt" />3: bóka vöruhúsamóttöku
 
 Bóka vöruhúsamóttöku til að stofna jákvæðar birgðabókafærslur.  **Reiturinn móttekið**  Magn í upprunaskjalslínu á innleið er uppfærður.  
 
  **Ef ekki er kveikt á frágangsvíxlun**  þarf ekki að vera á birgðageymsluspjaldinu þar sem ferlið stöðvast. Að öðrum kosti gerir bókun um upprunaskjal vörurnar það sem hægt er að ganga frá. Frágangurinn inniheldur tilvísanir í gerð upprunaskjals og númer.  
 
-### <a name="-optional-generate-put-away-worksheet-lines" />4: (valfrjálst) mynda vinnublaðslínur frágangs
+### <a name="4-optional-generate-put-away-worksheet-lines" />4: (valfrjálst) mynda vinnublaðslínur frágangs
 
 Sækja vöruhúsafrágangslínur í  **vinnublaði**  frágangs á grundvelli bókaðra vöruhúsamóttöku eða aðgerða sem framleiða úttak. Velja línurnar til að ganga frá og tilgreina eftirfarandi upplýsingar:
 
@@ -118,11 +118,11 @@ Hólfin geta verið forskilgreind í uppsetningu vöruhúsastaðarins eða forð
 > [!NOTE]  
 >  **Ef skiptiborð vinnublaðs**  er ekki kveikt á birgðageymsluspjaldinu eru frágangsskjöl vöruhúss stofnuð beint á grundvelli bókaðra vöruhúsamóttöku. Í því tilfelli er þetta skref ekki þörf.  
 
-### <a name="-create-a-warehouse-put-away-document" />5: frágangur skjals vöruhúsafrágangs stofnaður
+### <a name="5-create-a-warehouse-put-away-document" />5: frágangur skjals vöruhúsafrágangs stofnaður
 
 Vöruhúsafrágangur skjals er stofnaður í togtísku á grundvelli bókuðu vöruhúsamóttöku. Einnig er hægt að stofna vöruhúsafrágangsskjalið og úthluta því á vöruhúsastarfsmann á þrýstihátt.  
 
-### <a name="-register-a-warehouse-put-away" />6: frágangur vöruhúsa skal skrá
+### <a name="6-register-a-warehouse-put-away" />6: frágangur vöruhúsa skal skrá
 
 Í hverri línu fyrir vörur sem gengið hefur verið frá, að hluta til eða fullu, er fyllt út í  **reitinn Magn**  á  **frágangssíðu vöruhúsafrágangs**  og síðan er frágangur vöruhússins skráður.  
 

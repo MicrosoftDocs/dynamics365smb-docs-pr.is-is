@@ -122,7 +122,7 @@ Leiðréttingarfærslunum er úthlutað sjálfgefnu víddunum í reikningunum se
 
 Gildið í **Gengi** reitnum á síðunni **Gjaldmiðlar** er uppfært með nýjustu gengi gjaldmiðilsins.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 

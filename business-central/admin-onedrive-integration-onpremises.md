@@ -49,7 +49,7 @@ Gera þarf tvö verk til að grunnstilla OneDrive samþættinguna.
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version--and-later" />Setja upp OneDrive tengingu í útgáfu 21 og nýrri
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later" />Setja upp OneDrive tengingu í útgáfu 21 og nýrri
 
 Notaðu þetta ferli ef notað er Business Central útgáfutímabil 2022 (útgáfa 21) eða nýrra.
 
@@ -74,7 +74,7 @@ Notaðu þetta ferli ef notað er Business Central útgáfutímabil 2022 (útgá
    - Ef þú hefur ekki þegar sett upp Azure AD skráða forritið opnast leiðarvísirinn **Setja upp Azure Active Directory**.
 6. Þegar þessu er lokið er persónuverndaryfirlýsingin fyrir OneDrive samþættingu samþykkt fyrir alla notendur. Ef þú vilt breyta henni þannig að notendur verði sjálfir að samþykkja eða hafna, þá skal fara á síðuna **Staða persónuverndaryfirlýsingar** og velja **Leyfa notanda að ákveða** fyrir OneDrive samþættinguna. Notendur verða þá beðnir um að samþykkja eða hafna persónuverndaryfirlýsingunni í fyrsta skipti sem þeir nota OneDrive eiginleikana. Frekari upplýsingar er að finna í [Persónuverndaryfirlýsingar](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version--and-" />Setja upp tenginguna í [!INCLUDE[prod_short](includes/prod_short.md)] útgáfu 19 og 20
+## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Setja upp tenginguna í [!INCLUDE[prod_short](includes/prod_short.md)] útgáfu 19 og 20
 
 Notaðu þetta ferli ef notað er Business Central 2022 útgáfutímabil 1 (útgáfa 20) eða 2021 útgáfutímabil 2 (útgáfa 19).
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ Notaðu þetta ferli ef notað er Business Central 2022 útgáfutímabil 1 (útg
 > [!IMPORTANT]
 > **SharePointUppsetningarsíða tengingar** er notuð til að stilla marga eldri eiginleika. Í **Almenna** hlutanum er tengingin við OneDrive stillt og hlutinn **Samnýtt skjöl** framsendir skrár í SharePoint í staðinn. **Uppsetning SharePoint tengingar** hefur verið úrelt og verður fjarlægð í næstu útgáfu. Við mælum með að þú stillir ekki hlutann **Samnýtt skjöl**. Frekari upplýsingar er að finna í [Úreltir eiginleikar í grunnforritinu ](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-" />Eftir uppfærslu í útgáfu 21
+## <a name="after-upgrade-to-version-21" />Eftir uppfærslu í útgáfu 21
 
 Þegar þú uppfærir í útgáfu 21 eða nýrri mun núverandi tenging við OneDrive sem grunnstillt er á síðunni **Uppsetning SharePoint tengingar** enn virka. En vegna þess að síðan **Uppsetning SharePoint tengingar** verður fjarlægð í útgáfu 23 mælum við með því að þú skiptir yfir í nýju OneDrive samþættinguna eins og lýst er í næsta hluta. Að skipta yfir núna auðveldar hlutina þegar **Uppsetning SharePoint tengingar** verður að lokum fjarlægð. Auk þess gerir það þér kleift að nota uppsetningarleiðbeininguna **OneDrive uppsetning** til að stjórna OneDrive eiginleikum sem þú getur nálgast.
 

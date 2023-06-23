@@ -33,11 +33,11 @@ Ef þú vilt uppfæra Outlook í nýjustu útgáfuna skaltu fylgja þessum leið
 
 [Setja upp Office-uppfærslur](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## <a name="install-microsoft-edge-webview" />Setja upp Microsoft Edge WebView2
+## <a name="install-microsoft-edge-webview2" />Setja upp Microsoft Edge WebView2
 
 Gakktu úr skugga um að Microsoft Edge WebView2 sé uppsett í tækinu.
 
-### <a name="how-to-check-if-microsoft-edge-webview-is-installed" />Hvernig á að athuga hvort Microsoft Edge WebView2 sé uppsett
+### <a name="how-to-check-if-microsoft-edge-webview2-is-installed" />Hvernig á að athuga hvort Microsoft Edge WebView2 sé uppsett
 
 Gerðu eftirfarandi til að athuga hvort Microsoft Edge WebView2 sé uppsett á tölvu:
 
@@ -52,7 +52,7 @@ Gerðu eftirfarandi til að athuga hvort Microsoft Edge WebView2 sé uppsett á 
 2. Veldu **Forrit** > **Forrit og eiginleikar**.
 3. Farðu í leitargluggann og sláðu inn **WebView2**. Ef Microsoft Edge WebView2 er sett upp sérðu færslu sem heitir **Microsoft Edge WebView2 Runtime**.
 
-### <a name="how-to-install-microsoft-edge-webview" />Hvernig á að setja upp Microsoft Edge WebView2
+### <a name="how-to-install-microsoft-edge-webview2" />Hvernig á að setja upp Microsoft Edge WebView2
 
 1. Í vafranum þínum skaltu fara á [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Veldu **Niðurhal**.

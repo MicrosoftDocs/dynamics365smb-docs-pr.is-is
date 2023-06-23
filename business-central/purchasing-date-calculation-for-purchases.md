@@ -58,7 +58,7 @@ Hægt er að tilgreina dagsetningarformúlu í línum handvirkt. Annars mun [!IN
 3. Birgðahaldseiningarspjald
 4. Lánardrottnaspjald
 
-## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

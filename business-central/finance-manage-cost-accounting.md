@@ -24,7 +24,7 @@ Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnað
 |Um ferlið að stofna kostnaðaráætlanir.|[Stofna kostnaðaráætlanir](finance-create-cost-budgets.md)|
 |Hætta við kostnaðaráætlunarfærslur úr kostnaðaráætlunarskrá.|[Eyða kostnaðaráætlunarfærslum](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 [Fjármál](finance.md)  

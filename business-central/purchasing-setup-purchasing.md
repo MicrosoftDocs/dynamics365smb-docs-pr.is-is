@@ -70,7 +70,7 @@ Með eiginleikann virkan getur skilafærsla aðeins verið bókuð með því a�
 | Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir. |[Skýrsluval í Business Central](across-report-selections.md)|
 |Tilgreinið hvort notendur eigi að fá bókun innkaupareikninga og hvort þeir verði að bóka þá ásamt sendingu. |[Skilgreinið bókunarreglur reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics--business-central" />Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics-365-business-central" />Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

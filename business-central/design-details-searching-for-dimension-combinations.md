@@ -16,7 +16,7 @@ ms.author: edupont
 ## <a name="building-search-tree" />Byggir leitartré
  Tafla 481 **Víddasamstæðutrjáhnútu** er notað þegar [!INCLUDE[prod_short](includes/prod_short.md)] metur hvort víddasamstæðamál er þegar til í töflu 480 **Víddasamstæðufærsla**. Matið er framkvæmt með því fara yfir leitartré frá efsta stig 0. Efsta stig 0 táknar víddasamstæðu án víddasamstæðufærslna. Undireiningar þessarar víddasamstæðu tákna víddasamstæður með einni víddasamstæðufærslu. Undireiningar þessara víddasamstæða standa fyrir tvær undireiningar og svo framvegis.  
 
-### <a name="example-" />Dæmi 1
+### <a name="example-1" />Dæmi 1
  Eftirfarandi skýringarmynd leitartré með sex víddasamstæðum. Aðeins eru einkennandi víddasamstæðufærslur sýndar á myndinni.  
 
  ![Dæmi um trjáskipulag víddar.](media/nav2013_dimension_tree.png "Dæmi um trjáskipulag víddar")  
@@ -33,7 +33,7 @@ ms.author: edupont
 |Sett 5|AREA 40|  
 |Sett 6|AREA 40, PROJ VW|  
 
-### <a name="example-" />Dæmi 2
+### <a name="example-2" />Dæmi 2
  Þetta dæmi sýnir hvernig [!INCLUDE[prod_short](includes/prod_short.md)] metur hvort víddarsamstæða sem samanstendur af færslum AREA 40, DEPT PROD sé til.  
 
  Fyrst mun [!INCLUDE[prod_short](includes/prod_short.md)] einnig uppfæra töfluna **Trjáhnútur víddasamstæðu** til að tryggja að leitartréð líti eins út og eftirfarandi teikning. Því verður víddasamstæða 7 undireining víddasamstæðu 5.  

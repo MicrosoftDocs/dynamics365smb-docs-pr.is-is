@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  Frekari upplýsingar um að búa til eða stilla gagnaskiptaskilgreiningu eru í [Setja upp gagnaskiptaskilgreiningar](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" />CAMT gagnakortalagning á reitum í færslubókarlínu (81)
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81" />CAMT gagnakortalagning á reitum í færslubókarlínu (81)
 
 |Slóð staks|Skilaboðaeining|Gagnagerð|Lýsing|Auðkenni neikvæðs formerkis|Nr. reits|Heiti reits|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Óskipulagt|Texti|Upplýsingarnar til að gera samsvörun / afstemmingu á færslu með þeim vörum sem greiðsla er ætlað að stemma af, svo sem viðskiptareikningar í reikningskröfukerfi í ómótaðan formi||8|Lýsing|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texti|Viðbótarupplýsingar um færslu||1222|Færsluupplýsingar|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" />CAMT gagnakortalagning á reitum í bankanum Acc. Afstemming töflu (273)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273" />CAMT gagnakortalagning á reitum í bankanum Acc. Afstemming töflu (273)
 
 |Slóð staks|Skilaboðaeining|Gagnagerð|Lýsing|Auðkenni neikvæðs formerkis|Nr. reits|Heiti reits|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Dagsetning|Dagsetning og tími þegar skilaboðin voru búin til||3|Dags. yfirlits|  
 |Stmt/Bal/Amt|Upphæð|Tugakerfið|Upphæð sem skilar nettóupphæðum fyrir allar debet- og kreditfærslur.||4|Lokastaða yfirlits|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" />CAMT gagnakortalagning á reiti í bankanum Acc. Afstemming línutölfu (274)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274" />CAMT gagnakortalagning á reiti í bankanum Acc. Afstemming línutölfu (274)
 
 |Slóð staks|Skilaboðaeining|Gagnagerð|Lýsing|Auðkenni neikvæðs formerkis|Nr. reits|Heiti reits|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  

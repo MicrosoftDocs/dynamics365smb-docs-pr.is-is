@@ -75,7 +75,7 @@ Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við
 
 Vörur á síðunni **Vörur** eru afmarkaðar eftir tilgreindum eigindagildum vörunnar.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

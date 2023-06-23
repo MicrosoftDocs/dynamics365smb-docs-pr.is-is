@@ -116,7 +116,7 @@ Sannprófa verður að skýrslan sem notandi vill að birtist sé fyrsta síðan
 
 Staðfestið að stærð skýrslu sé stillt á 325 x 310 pixla. Vista skal skýrsluna og síðan endurnýja listasíðuna.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

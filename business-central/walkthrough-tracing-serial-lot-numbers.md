@@ -282,7 +282,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
  Á síðunni **Vörurakning** komst gæðastjórinn að því að LOTA1 innhélt gölluðu grindurnar, frá hvaða lánadrottni þær komu og í hvaða bókuðu færslum þær voru notaðar. Þeir verða nú að ákvarða hvort LOT1 sé í opnum skjölum með því að samþætta í kjölfarið við  **finna færslur**  síðan þær geta framkvæmt leit í gegnum allar gagnagrunnsfærslur.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />Til að finna öll tilfelli LOTA1 í skrám sem eftir á að bóka, svo sem opnum pöntunum
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />Til að finna öll tilfelli LOTA1 í skrám sem eftir á að bóka, svo sem opnum pöntunum
 
 1.  Á síðunni **Vörurakning** skal velja bendilinn í fyrstu rakningarlínunni, innkaupakvittun LOTA1.  
 2.  Veljið aðgerðina **Leita að færslum**.  

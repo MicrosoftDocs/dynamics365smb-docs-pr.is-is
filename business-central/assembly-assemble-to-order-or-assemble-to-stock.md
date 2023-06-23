@@ -96,7 +96,7 @@ Samkvæmt þessu dæmi er hægt að breyta  **magninu sem á að setja saman**  
 * Lágmarksmagn sem hægt er að færa inn er 1. Þú verður að setja saman einingarnar að minnsta kosti eina einingu til að selja þær fjórar, miðað við að hinar þrjár séu tiltækar í birgðum.  
 * Hámarksmagn sem hægt er að færa inn er 4. Þessi takmörk tryggja að þú skalt ekki setja meira af vörunni en þú þarft fyrir söluna.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

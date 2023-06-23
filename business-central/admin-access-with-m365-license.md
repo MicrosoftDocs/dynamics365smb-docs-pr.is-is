@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="business-central-access-with-microsoft--licenses" />Aðgangur að Business Central með Microsoft 365 leyfum
+# <a name="business-central-access-with-microsoft-365-licenses" />Aðgangur að Business Central með Microsoft 365 leyfum
 
 [!INCLUDE[prod_short](includes/prod_short.md)] notendum er úthlutað  Dynamics 365 Business Central  leyfi sem gerir þeim kleift að skoða, breyta og vinna úr viðskipagögnum sínum í öllum notendaviðmóti. Fyrir alla aðra starfsmenn fyrirtækisins sem þurfa aðeins að skoða gögn af og til býður Business Central upp á aðgang í gegnum Microsoft 365.  
 
 Þegar fyrirtæki er bæði með Microsoft 365 og Dynamics 365 Business Central áskrift geta stjórnendur grunnstillt umhverfi til að virkja aðgang með Microsoft 365 leyfum og valið nákvæmlega hvaða töflur og aðrir hlutir þessi notandi fær aðgang að. Við skilgreindar eru það starfsmenn sem hafa  Microsoft 365  leyfi en engin  [!INCLUDE [prod_short](includes/prod_short.md)]  leyfi geta skoðað  [!INCLUDE [prod_short](includes/prod_short.md)]  skráningar sem er samnýtt með þeim í  Microsoft Teams  spjall og rásir.
 
-## <a name="why-enable-access-with-microsoft--licenses" />Af hverju að virkja aðgang með Microsoft 365 leyfum
+## <a name="why-enable-access-with-microsoft-365-licenses" />Af hverju að virkja aðgang með Microsoft 365 leyfum
 
 - Opnið á aðalgögn sem allir starfsmenn í fyrirtækinu eiga að hafa aðgang að.
 

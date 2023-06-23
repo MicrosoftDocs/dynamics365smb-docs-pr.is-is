@@ -54,7 +54,7 @@ Heiti fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðger
 
 Sjálfgefin upplifun notanda í [!INCLUDE [prod_short](includes/prod_short.md)] prufuútgáfunni sýnir ekki alla möguleika. Þú getur kveikt á allri upplifuninni á síðunni **Fyrirtækjaupplýsingar**. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

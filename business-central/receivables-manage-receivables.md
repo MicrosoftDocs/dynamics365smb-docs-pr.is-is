@@ -41,7 +41,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Hægt er að setja upp vikmörk þannig að kerfið loki reikningi jafnvel þótt greiðsla, að meðteknum afslætti, nái ekki upp í fulla upphæð á reikningnum.|[Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Spá fyrir þegar greiðslur berast seint fyrir söluskjöl. | [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 [Sala](sales-manage-sales.md)  

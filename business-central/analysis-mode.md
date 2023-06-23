@@ -50,7 +50,7 @@ Gagnagreinarhamurinn er í forskoðun sem þýðir að kerfisstjóri verður að
 - Meginsvæðið, sem samanstendur af gagnasvæði (1), safnrein (2), og flippandi stikum (5)
 - Gagnahandleiðslusvæði, sem samanstendur af tveimur rúðum: dálkum (3) og greiningarsíum (4).
 
-### <a name="data-area-" />Gagnasvæði (1)
+### <a name="data-area-1" />Gagnasvæði (1)
 
 Gagnasvæðið er þar sem raðir og dálkar listasíðunnar eru sýndir og gögn eru tekin saman. Gagnasvæðið veitir fjölhæfur hátt til stýringar á útliti dálka og flýtir leið til að fá fram samantekt á gögnunum. Í dálkum sem innihalda tölugildi er Samtala allra gilda í dálkinum sýnd í síðustu röð, nema þegar búið er að skilgreina línuflokka. Í þessu tilfelli birtast samtölur sem Millisamtala fyrir flokkana.  
 
@@ -64,7 +64,7 @@ Gagnasvæðið er þar sem raðir og dálkar listasíðunnar eru sýndir og gög
 - Nota Gagnasvæðið til samskipta við gögnin. Í dálkum sem innihalda tölulegt, samantekt gildi er hægt að fá lýsandi tölfræði um mengi reita með því að merkja þau. Tölfræðin birtist í stöðulínum (2) ásamt neðst á síðunni.
 - Flytja út gögn í Excel eða CSV sniði. Einfaldlega hægri-smellir á Gagnasvæðið eða val á frumum til útflutnings.
 
-### <a name="summary-bar-" />Safnstika (2)
+### <a name="summary-bar-2" />Safnstika (2)
 
 Samantektarstikunni er meðfram neðst á síðunni og birtir tölulegar upplýsingar um gögnin á listanum. Þegar þú hefur samskipti við dálka sem hægt er að leggja saman gildi eins og margar línur í dálki sem sýna upphæðir, uppfærir gögnin.
 
@@ -83,7 +83,7 @@ Eftirfarandi tafla lýsir þeim mismunandi tölum sem sýndar eru í svæðinu s
 |Hám.|Hámarksgildið í öllum völdu samantektanlegu svæðunum.|
 |Samtala|Samtala allra gilda í völdu samanbrjótanlegur-svæðunum.|
 
-### <a name="columns-" />Dálkar (3)
+### <a name="columns-3" />Dálkar (3)
 
  **Dálkarnir**  eru annað af tveimur rúðum sem vinna saman að því að skilgreina greinina. Hitt svæðið er í  **greiningarsíuúðunni** .  **Dálkarnir**  rúða eru notaðir til að draga saman gögn.  **Notið rúðuna dálkar**  til að skilgreina hvaða dálkar eigi að taka með í greiningunni.
 
@@ -98,7 +98,7 @@ Eftirfarandi tafla lýsir þeim mismunandi tölum sem sýndar eru í svæðinu s
 
 Til að flytja svæði frá einu svæði til annars skaltu velja grípa teikn ![Sýnir yfirlit á síðu á greiningarhamnum](media/column-grab-icon.png) Næst er dálkurinn í listanum að ofan og dreginn inn á marksvæðið. Þú ert hindraður í að flytja svæði inn á svæði þar sem ekki er leyfilegt.
 
-### <a name="analysis-filters-" />Greiningarafmarkanir (4)
+### <a name="analysis-filters-4" />Greiningarafmarkanir (4)
 
 Í  **rúðunni greiningarafmarkanir**  er hægt að setja frekari gögn afmarkanir á dálka til að takmarka færslur á listanum. Setja afmarkanir á dálka til að takmarka færslur á listanum og síðari samtölur við aðeins þær færslur sem notandi hefur áhuga á samkvæmt forsendum sem notandi skilgreinir. Til dæmis, Segjum að þú hafir aðeins áhuga á gögnum fyrir tiltekinn viðskiptavin eða sölupantanir sem fara yfir ákveðna upphæð. Til að setja afmörkun skal velja dálkinn, velja samanburðaraðgerðina úr listanum (eins og  **jafnan**  eða  **byrja** á) og færa síðan inn gildið.
 
@@ -107,7 +107,7 @@ Til að flytja svæði frá einu svæði til annars skaltu velja grípa teikn ![
 > [!NOTE]
 > Viðbótarafmarkanir eiga aðeins við um gildandi greiningarflipa. Þannig er hægt að skilgreina nákvæmlega þær aukagögurnar sem þarf til tiltekinnar greiningar.
 
-### <a name="tabs-" />Fliparnir (5)
+### <a name="tabs-5" />Fliparnir (5)
 
 Svæðið á flipunum efst gerir kleift að stofna mismunandi afbrigði (dálka og greiningarsíur) á öðrum flipum, þar sem hægt er að vinna gögn á flipunum óháð hvort öðru. Það er alltaf minnst einn flipi, sem heitir  **Greining 1**, sjálfgefið. Þegar fleiri flipar eru notaðir er gagnlegt að vista notaðar skilgreiningar á gagnammengi. Til dæmis gætu verið flipar til að greina gögn í Pivot-hamnum og öðrum flipum sem afmarka að hlutmengi raða. Sumir flipar gætu sýnt nákvæmt yfirlit með mörgum dálkum og aðrir birta aðeins nokkra lykildálka.
 

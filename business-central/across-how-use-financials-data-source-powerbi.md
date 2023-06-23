@@ -180,7 +180,7 @@ Frá og með febrúar 2022 munu nýjar skýrslur sem nota Business Central-gögn
 9. Velja **Ekkert**.
 10. Veldu **Loka og nota** af borðanum til að vista breytingar og loka Power Query ritlinum.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

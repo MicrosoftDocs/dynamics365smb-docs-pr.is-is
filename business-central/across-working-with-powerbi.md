@@ -126,7 +126,7 @@ Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI re
 
 Það er líklega vegna þess að heiti skýrslunnar inniheldur ekki heiti listasíðunnar. Hreinsaðu síuna til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

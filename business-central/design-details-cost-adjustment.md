@@ -90,14 +90,14 @@ Nýja leiðréttingin og jöfnunargildafærslurnar eru með bókunardagsetningu 
 
 Eftirfarandi dæmi sýnir ef keypt vara er bókuð sem móttekin og reikningsfærð 01-01-20. Seinna eru seldu vörurnar bókaðar sem sendar og reikningsfærðar 01-15-20. Svo keyrðirðu runuvinnslurnar **Leiðrétta kostnað - Birgðafærslur** og **Bóka birgðakostnað í Fjárhag**. Eftirfarandi færslur eru stofnaðar.  
 
-#### <a name="value-entries-" />Virðisfærslur (1)
+#### <a name="value-entries-1" />Virðisfærslur (1)
 
 |Bókunardagsetning|Birgðafærslutegund|Kostnaðarupphæð (raunverul.)|Kostnaður bókaður í fjárhag|Reikningsfært magn|Færslunr.|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Innkaup|10,00|10,00|1|1|  
 |01-15-20|Sala|-10,00|-10,00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Tengslafærslur í fjárhag - tengslatafla fjárhagsbirgðabókar (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" />Tengslafærslur í fjárhag - tengslatafla fjárhagsbirgðabókar (1)
 
 |Fjárhagsfærslunr.|Virðisfærslunr.|Fjárhagsdagbók nr.|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ Eftirfarandi dæmi sýnir ef keypt vara er bókuð sem móttekin og reikningsfæ
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" />Fjárhagsfærslur (1)
+#### <a name="general-ledger-entries-1" />Fjárhagsfærslur (1)
 
 |Bókunardagsetning|Fjárhagur|Reikningur nr. (En-US sýnishorn)|Upphæð|Færslunr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ Eftirfarandi dæmi sýnir ef keypt vara er bókuð sem móttekin og reikningsfæ
 
 Seinna er tengdur kostnaðarauki innaupa upp á SGM 2,00 reikningsfærður 02-10-20. Keyrðu runuvinnslurnar **Leiðrétta kostnað - Birgðafærslur** og **Bóka birgðakostnað í Fjárhag**. Kostnaðarleiðréttingarrunuvinnsla leiðréttir kostnaði við sölu um SGM -2,00 í samræmi við það, og **Bóka birgðakostnað í Fjárhag** runuvinnslan bókar nýja gildisfærslur í fjárhag. Niðurstaðan er eftirfarandi.  
 
-#### <a name="value-entries-" />Virðisfærslur (2)
+#### <a name="value-entries-2" />Virðisfærslur (2)
 
 |Bókunardagsetning|Birgðafærslutegund|Kostnaðarupphæð (raunverul.)|Kostnaður bókaður í fjárhag|Reikningsfært magn|LEIÐRÉTT|Færslunr.|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Innkaup|2,00|2,00|0|Nei|3|  
 |01-15-20|Sala|-2,00|-2,00|0|Já|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Tengslafærslur í fjárhag - tengslatafla fjárhagsbirgðabókar (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" />Tengslafærslur í fjárhag - tengslatafla fjárhagsbirgðabókar (2)
 
 |Fjárhagsfærslunr.|Virðisfærslunr.|Fjárhagsdagbók nr.|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Seinna er tengdur kostnaðarauki innaupa upp á SGM 2,00 reikningsfærður 02-10
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" />Fjárhagsfærslur (2)
+#### <a name="general-ledger-entries-2" />Fjárhagsfærslur (2)
 
 |Bókunardagsetning|Fjárhagur|Reikningur nr. (En-US sýnishorn)|Upphæð|Færslunr.|  
 |------------|-----------|------------------------|------|---------|  

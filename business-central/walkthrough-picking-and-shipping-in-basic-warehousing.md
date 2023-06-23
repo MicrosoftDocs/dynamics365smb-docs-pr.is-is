@@ -77,7 +77,7 @@ Til að nota þessa aðgerð verður þú að bæta við þig staðsetningu sem 
   3. Í reitnum **Staðsetningarkóði** velur þú SUÐUR.  
   4. Veldu reitinn **Sjálfgefið** og síðan hnappinn **Já**.  
 
-### <a name="making-item--s-available" />Gera hlut 1928-S tiltækan
+### <a name="making-item-1928-s-available" />Gera hlut 1928-S tiltækan
 
 Til að gera hlut 1928-S aðgengilegan á SUÐUR staðsetningunni skal fylgja þessum skrefum:  
 

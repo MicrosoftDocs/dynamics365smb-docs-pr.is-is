@@ -10,7 +10,7 @@ ms.search.keywords: 'sales, crm, integration, integrating'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="integrating-with-dynamics--sales" />Samþætting við Dynamics 365 Sales
+# <a name="integrating-with-dynamics-365-sales" />Samþætting við Dynamics 365 Sales
 
 Hlutverk sölumannsins er oft talið sýnilegasti hlutinn í viðskiptum. Hins vegar getur það gagnast sölumönnum að geta fengið innsýn í viðskiptin og séð hvað er að gerast á bak við tjöldin. Með því að samþætta [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] geturðu veitt sölumönnum þínum þessa innsýn. Samþættingin gerir fólki kleift að skoða upplýsingar í [!INCLUDE[prod_short](includes/prod_short.md)] á meðan það er að vinna í [!INCLUDE[crm_md](includes/crm_md.md)]. Þegar sölutilboð er undirbúið getur það til dæmis verið gagnlegt að vita hvort nægar birgðir séu til staðar til að uppfylla pöntunina. Frekari upplýsingar er að finna í [Nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -51,7 +51,7 @@ Hægt er að nota uppsetningarleiðbeiningar með hjálp til að setja upp tengi
 |**Virkja Dynamics 365 Sales Connection** | Virkja tenginguna við [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Dynamics 365 SDK útgáfa** | Þetta á aðeins við ef verið er að samþætta við útgáfu á staðnum af [!INCLUDE[crm_md](includes/crm_md.md)]. Þetta SDK er hugbúnaðarþróunarpakki Dynamics 365 (einnig vísað í sem Xrm) sem er notaður til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[crm_md](includes/crm_md.md)]. Útgáfan verður að vera samhæf SDK-útgáfunni sem notuð er af [!INCLUDE[crm_md](includes/crm_md.md)] og sú sama eða nýrri og útgáfan sem er notuð af [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
-### <a name="connection-settings-on-the-microsoft-dynamics--connection-setup-page" />Stillingar tengingar á Uppsetning tengingar  Microsoft Dynamics 365
+### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page" />Stillingar tengingar á Uppsetning tengingar  Microsoft Dynamics 365
 
 Færðu inn eftirfarandi upplýsingar fyrri tenginguna frá [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -183,7 +183,7 @@ Eftirfarandi tafla lýsir sjálfgefnu samstillingarverkunum fyrir Sales.
 |POSTEDSALESINV-INV-Dynamics 365 Sales samstillingarvinnsla|Samstillir [!INCLUDE[crm_md](includes/crm_md.md)] reikninga við [!INCLUDE[prod_short](includes/prod_short.md)] bókaða sölureikninga.|Frá [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|REIKNINGAR-BÓKAÐIR SÖLUREIKNINGAR|30|1440<br> (24 klst.)|
 |Talnagögn viðskiptavinar - samstillingarvinnsla Dynamics 365 Sales|Uppfærir [!INCLUDE[crm_md](includes/crm_md.md)] reikninga með nýjustu [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamannagögnunum. Í [!INCLUDE[crm_md](includes/crm_md.md)] birtast upplýsingarnar í **Tölfræði fyrir Business Central-reikning** skjámynd flýtiyfirlits yfir reikninga sem eru tengdir við [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamenn.<br /><br /> Einnig er hægt að uppfæra þessi gögn handvirkt úr hverri viðskiptamannafærslu. Frekari upplýsingar er að finna í [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Athugið:** Þessi verkraðarfærsla á aðeins við ef [!INCLUDE[prod_short](includes/prod_short.md)] samþættingarlausnin er sett upp í [!INCLUDE[crm_md](includes/crm_md.md)]. |Á ekki við|Á ekki við|30|Á ekki við| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central--release-wave--and-microsoft-dynamics-nav-" />Tenging við staðbundnar útgáfur af Business Central 2019 útgáfutímabil 1 og Microsoft Dynamics NAV 2018
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018" />Tenging við staðbundnar útgáfur af Business Central 2019 útgáfutímabil 1 og Microsoft Dynamics NAV 2018
 Microsoft Power Platform hópurinn hefur [tilkynnt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) að hann ætli að úrelda sannvottunargerð Office365. Ef notað er útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum sem er eldra en útgáfutímabil 1 af Business Central 2019 þarf að nota sannvottunargerð OAuth til að tengjast [!INCLUDE[crm_md](includes/crm_md.md)] á netinu. Skrefin í þessum hluta lýsa því hvernig á að tengjast eftirfarandi útgáfum af vöru:
 
 * Útgáfutímabil 1 af Business Central 2019
@@ -201,7 +201,7 @@ Microsoft Power Platform hópurinn hefur [tilkynnt](/power-platform/important-ch
 
    - OAuth
 
-### <a name="to-connect-business-central--release-wave--and-dynamics-nav-" />Til að tengja Business Central 2019 útgáfutímabil 1 og Dynamics NAV 2018
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018" />Til að tengja Business Central 2019 útgáfutímabil 1 og Dynamics NAV 2018
 
 1. Flytjið samþættingarlausn Microsoft Dynamics 365 Business Central inn í [!INCLUDE[crm_md](includes/crm_md.md)]-umhverfið. Samþættingarlausnin er í boði í möppunni CrmCustomization á DVD-uppsetningardisknum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] eða Dynamics NAV 2018. Flytjið inn eitt af eina af eftirfarandi lausnum eftir því hver útgáfa vörunnar er:
 

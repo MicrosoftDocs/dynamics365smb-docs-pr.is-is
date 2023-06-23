@@ -45,7 +45,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
  Upprunalega sérsniðna skýrsluútlitinu er skipt út með innflutta skýrsluútlitinu.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

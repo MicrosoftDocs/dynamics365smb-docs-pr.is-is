@@ -12,7 +12,7 @@ ms.search.forms: '9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 53
 ms.date: 09/16/2022
 ms.author: bholtorf
 ---
-# <a name="use-dynamics--sales-from-business-central" />Nota Dynamics 365 Sales úr Business Central
+# <a name="use-dynamics-365-sales-from-business-central" />Nota Dynamics 365 Sales úr Business Central
 Ef þú notar Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[prod_short](includes/prod_short.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
 
 Áður en hægt er að nota möguleika samþættingar þarf kerfisstjórinn fyrst að setja upp tenginguna og skilgreina notendur í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).

@@ -11,7 +11,7 @@ ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# <a name="make-payments-with-the-amc-banking--fundamentals-extension-or-sepa-credit-transfer" />Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer" />Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu
 
 Á síðunni **Greiðslubók** er hægt að meðhöndla greiðslur til lánardrottna með því að flytja út skrá með greiðsluupplýsingum á færslubókarlínur. Þá er hægt að hlaða upp skránni í netbanka til að meðhöndla tengdan peningaflutning. [!INCLUDE[prod_short](includes/prod_short.md)] styður SEPA-kreditfærslusniðið, en í heimalandi þínu / svæði geta önnur snið fyrir rafrænar greiðslur kunna að vera tiltækir.
 
@@ -23,7 +23,7 @@ ms.author: bholtorf
 > [!NOTE]  
 > Þegar þú hefur staðfest að greiðslurnar hafi verið framkvæmdar af bankanum getur þú bókað greiðslubókarlínurnar.  
 
-## <a name="setting-up-the-amc-banking--fundamentals-extension" />Uppsetning AMC Banking 365 Fundamentals viðbótarinnar
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension" />Uppsetning AMC Banking 365 Fundamentals viðbótarinnar
 
 Virkið AMC Banking 365 Fundamentals viðbótina til að umbreyta hvers kyns bankayfirlitsskrá í snið sem hægt er að flytja inn eða til að umbreyta útfluttum greiðsluskrám í það snið sem bankinn krefst. Frekari upplýsingar eru í [Nota AMC Banking 365 Fundamentals-viðbótina](ui-extensions-amc-banking.md).
 

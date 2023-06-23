@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="troubleshoot-access-with-microsoft--licenses" />Úrræðaleita aðgang með Microsoft 365 leyfum
+# <a name="troubleshoot-access-with-microsoft-365-licenses" />Úrræðaleita aðgang með Microsoft 365 leyfum
 
 ## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message" />"Þessi síða notar gögn úr tengdum töflum sem hafa ekki aðgang að" villuboðum
 
@@ -24,7 +24,7 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 
 Líklega vantar Hlutaheimildir fyrir töflur sem þessi síða á að tengjast eða skrá tengla á.
 
-## <a name="microsoft--access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 aðgangur hefur verið virkjaður en notendur fá heimildarvillu
+## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 aðgangur hefur verið virkjaður en notendur fá heimildarvillu
 
 ### <a name="symptoms" />Einkenni
 

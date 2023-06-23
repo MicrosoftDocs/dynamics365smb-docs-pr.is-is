@@ -13,7 +13,7 @@ ms.author: edupont
 # <a name="design-details-table-structure" />Hönnunarupplýsingar töfluuppbygging
 Til að skilja hvernig víddafærslur eru vistaðar og bókaðar er mikilvægt að skilja töfluuppbyggingu.  
 
-## <a name="table--dimension-set-entry" />Víddasamstæðufærsla í töflu 480
+## <a name="table-480-dimension-set-entry" />Víddasamstæðufærsla í töflu 480
 Ekki er hægt að breyta þessari töflu. Eftir að gögn hafa verið skrifuð í töfluna er ekki hægt að eyða þeim eða breyta.
 
 |Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  
@@ -25,7 +25,7 @@ Ekki er hægt að breyta þessari töflu. Eftir að gögn hafa verið skrifuð �
 |5|**Heiti víddar**|Texti 30|CalcField. Uppfletting í töflu 348|  
 |6|**Nafn víddagildis**|Texti 30|CalcField. Uppfletting í töflu 349|  
 
-## <a name="table--dimension-set-tree-node" />Víddasamstæðutrjáhnútur í töflu 481
+## <a name="table-481-dimension-set-tree-node" />Víddasamstæðutrjáhnútur í töflu 481
 Ekki er hægt að breyta þessari töflu. Taflan er notuð til að leita að víddasamstæðu. Ef víddasamstæðan finnst ekki er ný samstæða búin til.  
 
 |Nr. reits|Heiti reits|Gagnagerð|Athugasemd|  
@@ -35,7 +35,7 @@ Ekki er hægt að breyta þessari töflu. Taflan er notuð til að leita að ví
 |3|**Auðkenni víddasamstæðu**|Heiltala|AutoIncrement. Notað í reitinn 1 í töflu 480.|  
 |4|**Í notkun**|Boole|Ósatt ef ekki í notkun|  
 
-## <a name="table--reclas-dimension-set-buffer" />Endurflokkunarbiðsvæði víddasamstæðu í töflu 482
+## <a name="table-482-reclas-dimension-set-buffer" />Endurflokkunarbiðsvæði víddasamstæðu í töflu 482
 Þessi tafla er notuð þegar þú breytir víddargildiskóða, til dæmis á færslu fjárhagsfærslu með því að nota síðuna **Endurflokkunarbók vöru**.  
 
 |Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  
@@ -56,7 +56,7 @@ Ekki er hægt að breyta þessari töflu. Taflan er notuð til að leita að ví
 |---------------|----------------|---------------|-------------|  
 |480|**Auðkenni víddasamstæðu**|Heiltala|Tilvísanareitur 1 í töflu 480.|  
 
-### <a name="table--item-journal-line" />Tafla 83, birgðabókarlína
+### <a name="table-83-item-journal-line" />Tafla 83, birgðabókarlína
 Ásamt öðrum víddarreitum í töflunni, er þessir reitir mikilvægir.  
 
 |Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  
@@ -64,7 +64,7 @@ Ekki er hægt að breyta þessari töflu. Taflan er notuð til að leita að ví
 |480|**Auðkenni víddasamstæðu**|Heiltala|Tilvísanareitur 1 í töflu 480.|  
 |481|**Nýtt auðkenni víddasamstæðu**|Heiltala|Tilvísanareitur 1 í töflu 480.|  
 
-### <a name="table--dimension-value" />Tafa 349, víddargildi
+### <a name="table-349-dimension-value" />Tafa 349, víddargildi
 Ásamt öðrum víddarreitum í töflunni, er þessir reitir mikilvægir.  
 
 |Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  

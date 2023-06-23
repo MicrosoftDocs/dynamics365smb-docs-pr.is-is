@@ -72,7 +72,7 @@ Kosturinn við að nota innkaupatillögublaðið er sá að hægt er að stofna 
 4. Veljið aðgerðina **bóka** eða **Bóka og senda**.
 5. Síðan er annað hvort valið **senda** valkosturinn til að reikningsfæra síðar eða valkostinn **senda og reikningsfæra** eigi að reikningsfæra strax.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

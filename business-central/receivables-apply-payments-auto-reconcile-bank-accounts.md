@@ -37,7 +37,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Tengja skal texta á greiðslum við tiltekinn viðskiptamanns-, lánardrottins- eða fjárhagsreikning til að bóka alltaf endurtekna móttöku eða útgjöld reiðufés á þá reikninga þegar engin skjöl eru til til að beita þessu. |[Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Setja upp reglurnar til að stjórna því hvernig greiðslur/bankafærslur eiga að vera sjálfkrafa jafnaðar við tengdar opnar fjárhagsfærslur þegar þú notar aðgerðina **Notað sjálfkrafa** á síðunni **Greiðsluafstemmingarbók**.|[Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics--business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md)  

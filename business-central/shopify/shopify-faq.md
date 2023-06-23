@@ -16,7 +16,7 @@ ms.author: andreipa
 
 Shopify er áskriftarforrit sem leyfir öllum að setja upp netverslun og selja vörur.  Shopify Pallurinn býður upp á netsali sem hentar þjónustu fyrir greiðslur, markaðssetningu, sendingu og þátttöku viðskiptavina.
 
-## <a name="what-is-the-microsoft-dynamics--business-central-shopify-connector" />Hvað er Microsoft Dynamics 365 Business Central Shopify tengillinn?
+## <a name="what-is-the-microsoft-dynamics-365-business-central-shopify-connector" />Hvað er Microsoft Dynamics 365 Business Central Shopify tengillinn?
 
 Með Shopify tenglinum geta fyrirtæki tengt Shopify verslunina (eða verslanirnar) við [!INCLUDE[prod_short](../includes/prod_short.md)] til að hámarka afköst viðskiptanna.  Shopify Með tengivirkinu geta þeir nálgast og stjórnað innsýn í starfsemi fyrirtækja og vefverslunar þeirra  Shopify  sem eina einingu.
 

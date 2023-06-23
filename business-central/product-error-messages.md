@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="warnings-and-error-messages-in-dynamics--business-central" />Viðvaranir og villuboð í Dynamics 365 Business Central
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central" />Viðvaranir og villuboð í Dynamics 365 Business Central
 
 Á vinnudegi gæti þú séð tilkynningar í [!INCLUDE [prod_short](includes/prod_short.md)] um að eitthvað hafi farið úrskeiðis eða að ekki hafi verið hægt að bóka eitthvað, til dæmis. Í mörgum tilfellum auðvelda tilkynningar að leysa málið, eða draga til baka breytingar sem voru gerðar. Í öðrum tilfellum er ekki víst að upplýsingarnar séu til staðar sem þarf til að afblokka. Í þessari grein er að finna ábendingar um hvernig skuli halda áfram.  
 

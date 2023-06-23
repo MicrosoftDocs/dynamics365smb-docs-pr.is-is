@@ -337,7 +337,7 @@ Ferlið við að vinna með Intrastat-skýrslur er það sama og í altækum að
 
 <!-- ### United Kingdom-->
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Sjá einnig .
 
