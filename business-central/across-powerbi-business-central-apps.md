@@ -16,7 +16,7 @@ ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9533376"
 ---
-# <a name="use-the-include-prodshortincludesprodshortmd-apps-in-power-bi" /><a name="use-the-prod_short-apps-in-power-bi"></a>Nota [!INCLUDE [prod_short](includes/prod_short.md)]-forrit í Power BI
+# <a name="use-the--apps-in-power-bi" /><a name="use-the-prod_short-apps-in-power-bi"></a>Nota [!INCLUDE [prod_short](includes/prod_short.md)]-forrit í Power BI
 
 > **Á VIÐ:** [!INCLUDE [prod_long](includes/prod_long.md)] á netinu 
 
@@ -57,7 +57,7 @@ Power BI forrit þarfnast heimildar í töflur þaðan sem gögn eru sótt úr o
 
 Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
 
-## <a name="install-a-includeprodshortincludesprodshortmd-app-in-power-bi" /><a name="install-a-prod_short-app-in-power-bi"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forrit í Power BI
+## <a name="install-a--app-in-power-bi" /><a name="install-a-prod_short-app-in-power-bi"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forrit í Power BI
 
 1. Opnaðu vafrann þinn, farðu á [https://powerbi.microsoft.com](https://powerbi.microsoft.com) og skráðu þig inn á reikninginn þinn.
 2. Velja skal **Sækja gögn** neðst til vinstri á yfirlitssvæðinu.  
@@ -75,7 +75,7 @@ Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skrá
 
     Þegar því er lokið verður forritið í boði af yfirlitsvalmyndinni **Forrit** í Power BI.
 
-## <a name="connect-the-includeprodshortincludesprodshortmd-app-to-your-data" /><a name="connect-the-prod_short-app-to-your-data"></a>Tengdu [!INCLUDE[prod_short](includes/prod_short.md)]-forritið við gögnin þín
+## <a name="connect-the--app-to-your-data" /><a name="connect-the-prod_short-app-to-your-data"></a>Tengdu [!INCLUDE[prod_short](includes/prod_short.md)]-forritið við gögnin þín
 
 1. Í **Forrit** skal velja Business Central-forritið og síðan **Tengja**.
 2. Þegar beðið er um það skal fylla út **Heiti fyrirtækis** og **Umhverfi** með upplýsingum um [!INCLUDE[prod_short](includes/prod_short.md)] tilvik sem á að tengjast við.
@@ -102,7 +102,7 @@ Power BI-Reikningur hefur ekki verið settur upp. Þú verður að hafa leyfi ti
 
 Þessi skilaboð birtast ef ekki tókst að virkja sjálfgefna skýrslu á Power BI vinnusvæði. Eða að skýrslan var virkjuð en ekki tókst að uppfæra hana. Ef þetta vandamál kemur upp skal fara í skýrsluna á Power BI vinnusvæðinu, velja **Gagnasafn**, **Stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnasafnið hefur verið endurnýjað er farið aftur í [!INCLUDE[prod_short](includes/prod_short.md)] og valið skýrslu handvirkt af **Velja skýrslur** síðunni.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-includeprodshortincludesprodshortmd-app-in-power-bi" /><a name="you-need-a-power-bi-pro-license-to-install-the-prod_short-app-in-power-bi"></a>Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forritið í Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi" /><a name="you-need-a-power-bi-pro-license-to-install-the-prod_short-app-in-power-bi"></a>Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forritið í Power BI
 
 Þú þarft [Power BI Pro leyfi](/power-bi/service-features-license-type) til að deila efninu þínu og einnig fólkið sem þú deilir því með. Efnið verður að vera á vinnusvæði með [Premium réttindi](/power-bi/service-premium-what-is). Nánari upplýsingar eru í [Aðferðir við að deila vinnu þinn í Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -150,7 +150,7 @@ Power BI-forritið sýnir aðeins gögn úr [!INCLUDE[prod_short](includes/prod_
 - [Velja reit](/power-bi/service-dashboard-tiles) til opna undirliggjandi skýrslu.  
 - Sjálfgefið er að gagnasafnið sé ekki áætlað til endurnýjunar. Hægt er að breyta uppfærsluáætluninni eða uppfæra hana hvenær sem er í **Uppfæra núna**. Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" /><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" /><a name="see-also"></a>Sjá einnig
 

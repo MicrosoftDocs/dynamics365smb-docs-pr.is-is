@@ -32,6 +32,6 @@ Eftirfarandi tafla sýnir tengingar við Microsoft-þjónustur sem virkjast sjá
 
 Persónuvernd þín er okkur mikilvæg. Til að fá að vita meira um hvernig Microsoft vinnur úr gögnunum þínum skaltu skoða yfirlýsingu [Microsoft um persónuvernd](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

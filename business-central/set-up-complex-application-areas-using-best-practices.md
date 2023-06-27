@@ -26,7 +26,7 @@ Mikilvægt er að færa inn rétt uppsetningargildi frá upphafi til að ný vi�
 [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

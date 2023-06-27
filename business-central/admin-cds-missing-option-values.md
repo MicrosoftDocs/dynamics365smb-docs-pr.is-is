@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Öllum [!INCLUDE[prod_short](includes/prod_short.md)] fasttextunum að ofan er varpað í safn valkosta í [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-includeprodshortincludesprodshortmd" />Viðbót við safn valkosta í [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="extending-option-sets-in-" />Viðbót við safn valkosta í [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Búa til nýja AL-viðbót.
 
 2. Bæta við viðbót fasttexta fyrir valkostina sem auka á við. Gætið þess að sama gildi sé notað. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Fyrstu tíu stafirnir á nýjum heitum og myndatextum valgilda verða að vera einkvæmir. Til dæmis kemur upp villa ef tveir valkostir heita „Transfer 20 working days“ og „Transfer 20 calendar days“ vegna þess að báðir eru með fyrstu 10 stafina „Transfer 2“. Nefndu þá til dæmis „TRF20 WD“ og „TRF20 CD.“
 
-### <a name="update-includeprodshortincludescdslongmdmd-option-mapping" />Uppfæra vörpun [!INCLUDE[prod_short](includes/cds_long_md.md)] valkostar
+### <a name="update--option-mapping" />Uppfæra vörpun [!INCLUDE[prod_short](includes/cds_long_md.md)] valkostar
 Nú er hægt að endurgera vörpunina milli [!INCLUDE[prod_short](includes/cds_long_md.md)] valkosta og [!INCLUDE[prod_short](includes/prod_short.md)] færslna.
 
 Á síðunni **Vörpun samþættingartöflu** skal velja línuna fyrir vörpun **Greiðsluskilmálar** og síðan velja aðgerðina **Samstilla breyttar færslur**. Síðan **Dataverse Vörpun valkosta** er uppfærð með viðbótarfærslunum hér að neðan.

@@ -26,7 +26,7 @@ Ef lánardrottinn er með einn eða fleiri bankareikninga og þú vilt stilla an
 2. Opnaðu spjaldið fyrir lánardrottin.
 3. Í flýtiflipanum **Greiðslur** skal velja sjálfgefinn bankareikning lánardrottins í reitnum **Æskilegur bankareikningskóði**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

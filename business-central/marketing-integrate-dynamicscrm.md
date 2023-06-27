@@ -138,7 +138,7 @@ Til að samræma verðlista velurðu síðuna **Söluverðslisti**, **Tengt**, *
 [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md)    
 [Yfirlit yfir Sales og sölumiðstöð](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

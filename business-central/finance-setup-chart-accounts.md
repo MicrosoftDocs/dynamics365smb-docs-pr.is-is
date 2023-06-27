@@ -49,7 +49,7 @@ Nýjum reit, **Loka fyrir eyðingu fjárhagsreikninga**, hefur verið bætt við
 
 Að stilla reitinn **Loka fyrir eyðinga á fjárhagsreikningum** á *Já* er hægt að líta á sem bestu venju, sem og að stilla dagsetninguna í reitnum **Athuga eyðingu fjárhagsr. eftir**, t.d. á dagsetninguna sem þú þarft að vista fjárhagsgögnin þín.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 
@@ -65,6 +65,6 @@ Að stilla reitinn **Loka fyrir eyðinga á fjárhagsreikningum** á *Já* er h�
 [Setja upp og loka stöðum rekstrarreiknings í spænskri útgáfu](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Inndráttur og staðfesting á bókhaldslyklinum í spænskri útgáfu](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

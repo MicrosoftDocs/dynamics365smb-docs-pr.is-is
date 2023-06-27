@@ -66,7 +66,7 @@ Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir s
 2. Fyllið inn reitina eftir þörfum.
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreclassify-fixed-assets" />Sjá tengda [Microsoft þjálfun](/training/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/reclassify-fixed-assets/)
 
 ## <a name="see-also" />Sjá einnig .
 

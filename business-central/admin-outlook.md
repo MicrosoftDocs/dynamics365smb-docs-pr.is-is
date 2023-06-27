@@ -83,7 +83,7 @@ Miðlæg innleiðing er eiginleiki í Microsoft 365 stjórnendamiðstöð sem þ
 
 Þegar því er lokið er alltaf hægt að breyta uppsetningunni í stjórnendamiðstöð Microsoft 365 á borð við að úthluta fleiri notendum. Frekari upplýsingar um uppsetningu innbóta í stjórnendamiðstöðinni er að finna í [Setja upp innbætur í stjórnendamiðstöðinni](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Setja upp innbótina til eigin nota
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>Setja upp innbótina til eigin nota
 
 Ef fyrirtækið þitt leyfir það getur þú sett upp innbót Business Central fyrir eingöngu þig. Ef þú ert ekki viss skaltu hafa samband við stjórnanda.
 
@@ -94,7 +94,7 @@ Ef fyrirtækið þitt leyfir það getur þú sett upp innbót Business Central 
 
 Business Central mun tengjast tölvupóstþjóninum þínum og setja upp innbótina í Outlook. Þetta tekur ekki langan tíma. Nú geturðu byrjað að nota innbótina í Outlook.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>Fyrir Business Central á staðnum
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>Fyrir Business Central á staðnum
 
 Ef þú notar Business Central á staðnum getur verið að uppsetning innbótarinnar sé aðeins öðruvísi.
 
@@ -116,7 +116,7 @@ Ef þú notar Business Central á staðnum getur verið að uppsetning innbótar
 
 Nú geturðu byrjað að nota innbótina í Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

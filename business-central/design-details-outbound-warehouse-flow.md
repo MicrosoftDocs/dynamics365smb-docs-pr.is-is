@@ -83,7 +83,7 @@ Eftirfarandi skýringarmynd sýnir ferla á útleið í vöruhúsi fyrir mismuna
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Sýnir skrefin í ítarlegu vöruflæði á útleið.":::
 
-### <a name="1-release-a-source-document" />1: gefa út upprunaskjal
+### <a name="1-release-a-source-document-1" />1: gefa út upprunaskjal
 
 Gefa út upprunaskjal í ítarlegum skilgreiningum gildir það sama og um grunnskilgreiningar. Vörurnar verða fáanlegar til afgreiðslu í vöruhúsinu. Þær geta til dæmis verið innifaldar í sendingu.  
 

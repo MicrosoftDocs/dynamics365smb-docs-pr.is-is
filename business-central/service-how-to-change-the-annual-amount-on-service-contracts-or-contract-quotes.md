@@ -75,7 +75,7 @@ Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilbo�
 
 Skrefin eru endurtekin fyrir hverja samningslínu.  
 
-#### <a name="example" />Dæmi
+#### <a name="example-1" />Dæmi
 Gátreiturinn **Heimila ójafnaðar upphæðir** er ekki valinn í þjónustusamningnum sem inniheldur þrjár samningslínur með þessum upplýsingum.  
 
 |Vara|Línukostnaður|Línuvirði|Línuafsl. %|Afsl.upphæð línu|Línuupphæð|Framlegð|  
@@ -113,7 +113,7 @@ Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilbo�
     * Línuafsl. % = Afsl.upphæð línu / Línuvirði * 100  
     * Framlegð = Línuupphæð - Línukostnaður  
 
-#### <a name="example" />Dæmi
+#### <a name="example-2" />Dæmi
 Gátreiturinn **Heimila ójafnaðar upphæðir** er ekki valinn í þjónustusamningnum sem inniheldur þrjár samningslínur með þessum upplýsingum.  
 
 |Vara|Línukostnaður|Línuvirði|Línuafsl. %|Afsl.upphæð línu|Línuupphæð|Framlegð|  

@@ -202,7 +202,7 @@ Bóka færslur leiðréttingarhólfs í birgðahöfuðbók fyrir tímabilin sem 
 5. Velja **Í lagi**. Jákvæðu og neikvæðu leiðréttingarnar eru lagðar saman fyrir hverja vöru og línur eru stofnaðar í birgðabókarbókinni.  
 6. Bóka skal línurnar til þess að færa mismun á magni inn í birgðahöfuðbók. Samsvörunum í hólfunum og birgðafjárhagnum er nú samsvara.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Sjá tengda [Microsoft þjálfun](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Sjá einnig .
 

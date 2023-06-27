@@ -33,7 +33,7 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
 1. Á síðunni **Skilgreining gagnaskipta** skal lýsa sniði lína og dálka í skránni. Frekari upplýsingar er að finna í hlutanum [Að lýsa sniði lína og dálka á skránni](#formatlinescolumns).  
 2. Á síðunni **Vörpun gagnaskipta** skal varpa dálkum í gagnaskránni á reiti í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í hlutanum [Að varpa dálkum í gagnaskránni í reiti í [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="a-nameformatlinescolumnsato-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Að lýsa sniði lína og dálka í skrá
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Að lýsa sniði lína og dálka í skrá
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Gagnaskiptaskilgreiningar** og veldu síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -108,7 +108,7 @@ Næsta skref í því að stofna skilgreiningu gagnaskipta er að ákveða hvað
 > [!NOTE]  
 > Tilgreind vörpun ræðst af tilgangi viðskipta í gagnaskránni sem á að skipta og staðbundnum tilbrigðum. Jafnvel SEPA-bankastaðallinn er einnig með staðbundin afbrigði. [!INCLUDE[prod_short](includes/prod_short.md)] styður innflutning SEPA CAMT bankayfirlitsskrám \-út\-úr\-boxinu. Þetta er kemur fram í **SEPA CAMT** skilgreiningarfærslukóðanum fyrir gangaskipti á síðunni **Skilgreiningar gagnaskipta**. Upplýsingar um tilgreinda reitavörpun þessa SEPA CAMT stuðnings eru í [Reitavörpun við innflutning á SEPA CAMT skrám](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="a-namemapfieldsato-map-columns-in-the-data-file-to-fields-in-includeprodshortincludesprodshortmd" /><a name=mapfields></a>Að tengja dálka í gagnaskránni við reiti í [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-" /><a name=mapfields></a>Að tengja dálka í gagnaskránni við reiti í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Stundum eru önnur gildi í reitunum sem á að varpa. Til dæmis, í einu viðskiptaforriti er tungumálakóðinn fyrir Bandaríkin „U.S.“ en í öðru er hann „US.“ Það þýðir að þú verður að umbreyta gildinu þegar þú skiptist á gögnum. Þetta gerist í gegnum breytingareglur sem eru skilgreindar fyrir svæðin. Frekari upplýsingar er að finna í [Reglur umbreytinga](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

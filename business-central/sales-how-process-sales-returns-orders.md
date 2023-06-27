@@ -95,7 +95,7 @@ Hægt er að bóka þessa hækkun kostnaðar sem kostnaðarauka á kreditreiknin
 
 Þegar söluskilapöntunin er bókuð er endurkaupagjaldi bætt við viðkomandi upphæð sölufærslu. Þannig er hægt að vinna með nákvæmt birgðaverðmat.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 

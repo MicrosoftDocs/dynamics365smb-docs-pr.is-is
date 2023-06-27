@@ -92,10 +92,10 @@ Nánari upplýsingar er að finna  [í hönnunarupplýsingum: flæði](../../des
 
 Eftirfarandi kynning sýnir aðferð D í fyrri töflu.
 
-### <a name="scenario" />Aðstæður
+### <a name="scenario-1" />Aðstæður
 Susan, pöntunarörgjörvinn, stofnar sölupantanir fyrir ýmsar roasted-baunir og sendir í vöruhús. Eftir því sem allar pantanir koma frá sama viðskiptavini, þá ákveður Ellen, vöruhússtjórinn að skipa þeim saman. Starfsmaður vöruhússins verður að vera fullviss um að afhendingin sé tilbúin og send til viðskiptamannsins.
 
-### <a name="steps" />Skref
+### <a name="steps-1" />Skref
 Þetta er framhald af  [innstreymissásinni: Móttaka og frágangur í Grunnvöruskilgreiningum](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Sleppa sölupöntunum í vöruhús.  
@@ -137,7 +137,7 @@ Susan, pöntunarörgjörvinn, stofnar sölupantanir fyrir ýmsar roasted-baunir 
     4.  **Veljið aðgerðina Bóka sending** .
     5.  **Staðfestu möguleika skipsins** .
 
-### <a name="results" />Niðurstöður
+### <a name="results-1" />Niðurstöður
  - roasted-baunirnar eru nú skráðar sem tíndar 
  -  **skráð Vöruhúsatínsla**  er stofnuð
  -  **bókuð vöruhúsaafhending**  er stofnuð

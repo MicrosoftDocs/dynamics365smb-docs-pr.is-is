@@ -26,7 +26,7 @@ ms.author: jswymer
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namenavigationa-navigation" /><a name="Navigation"></a> Leiðsögn
+## <a name="navigation" /><a name="Navigation"></a> Leiðsögn
   
 Hægt er að nota mismunandi samsetningar af dálklykli, Shift og örvalyklum á lyklaborðinu á til að fara á milli eininga á síðu. Einingarnar innihalda aðgerðir, reiti og dálka, hluta og aðrir stýringar. Almennt skal velja  <kbd></kbd>  flipa eða  <kbd>vakt</kbd>+<kbd></kbd>  til að fara í næstu eða fyrri einingu.
 
@@ -34,19 +34,19 @@ Hægt er að nota mismunandi samsetningar af dálklykli, Shift og örvalyklum á
 
 Með því að nota fliparöðun er einnig hægt að skipta á milli aðal vafrasíðu og svarglugga sem óska eftir staðfestingu, til dæmis, eða innskráningarsíðu.  
 
-## <a name="a-nameheadingsa-headings-in-content" /><a name="Headings"></a> Hausar í efni
+## <a name="headings-in-content" /><a name="Headings"></a> Hausar í efni
 
 HTML-uppruni fyrir efni [!INCLUDE[prod_short](includes/prod_short.md)] notar merki til að hjálpa notendum aðstoðartækni að skilja uppbyggingu og innihald síðunnar. Til dæmis, á listasíðum, eru dálkarnir skilgreindir í TH-merkjum og dálkur fyrirsagnir eru settar með TITLE eigind inni í merkinu. Skýringarmyndir fyrir þætti, svo sem FastTabs, FactBoxes og reitir eru í fyrirsagnamerkjum (H1, H2, H3 og H4).  
 
-## <a name="a-nameimagesa-image-and-links" /><a name="Images"></a> Mynd og tenglar
+## <a name="image-and-links" /><a name="Images"></a> Mynd og tenglar
 
 Lýsandi texti fyrir myndir er stillt með ALT-eigind inni í IMG-merkinu. Lýsandi texti fyrir tengla er stillt með ALT-eigind inni í A-merkinu.  
 
-## <a name="a-nameassistivetecha-assistive-technologies" /><a name="AssistiveTech"></a> Aðstoðartækni
+## <a name="assistive-technologies" /><a name="AssistiveTech"></a> Aðstoðartækni
 
 [!INCLUDE[prod_short](includes/prod_short.md)] styður ýmis konar aðstoðartækni, svo sem mikla skerpu, skjálesara og raddgreiningarhugbúnaður. Sum aðstoðartækni kann ekki að virka vel með ákveðnum þáttum á síðum [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="a-namezooma-zoom" /><a name="zoom"></a> Súma
+## <a name="zoom" /><a name="zoom"></a> Súma
 
 Flestir vafrar nota staðlaðar flýtilykla til að auka og minnka aðdrátt á opinni síðu. Þessir flýtilyklar eru EKKI aðeins fyrir [!INCLUDE [prod_short](includes/prod_short.md)] en þeir virka þegar [!INCLUDE [prod_short](includes/prod_short.md)] er notað í vafra. Listi yfir studda flýtilykla má finna á [Flýtilyklar fyrir aukinn eða minnkaðan aðdrátt](keyboard-shortcuts.md#zoomshortcuts).
 

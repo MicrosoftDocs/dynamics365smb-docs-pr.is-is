@@ -159,7 +159,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
  Í þessari kynningu var farið yfir skrefin í útreikningi á VÍV í [!INCLUDE[prod_short](includes/prod_short.md)]. Í stærri verkum kann að vera gagnlegt að flytja kostnaðinn í VÍV-reikning reglulega á meðan verkið er unnið. Í kynningunni var sýnt hvernig á að undanskilja verkhlutalínur frá útreikningi. Sýnir einnig hvenær þörf er á endurreikningi. Og að lokum, þessi kynning sýnir hvernig á að bóka VÍV í fjárhag. Dæmi um bakfærslu VÍV-bókunar í fjárhag er einnig tekin með.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Sjá tengda [Microsoft þjálfun](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Sjá einnig
 

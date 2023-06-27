@@ -79,7 +79,7 @@ Bankareikningar í [!INCLUDE[prod_short](includes/prod_short.md)] skrá bankafæ
    Reiturinn er annar en í reitnum **Bankareikningsnr.** sem einnig er í boði í flýtiflipanum **Almennt**.
 4. Fylla skal út í reitina á síðunni **Bankareikningsspjald** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central" />Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

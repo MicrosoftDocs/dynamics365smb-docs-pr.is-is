@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-" />Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Engu skiptir hvernig endurskoðandi þú ert, þú getur nýtt þér **Endurskoðandi** Mitt hlutverk sem þitt Heim í [!INCLUDE[prod_short](includes/prod_short.md)]. Héðan hefurðu aðgang að öllum síðum sem þú þarft í vinnunni.  
 
@@ -25,7 +25,7 @@ Ef þú þekkir ekki til [!INCLUDE[prod_short](includes/prod_short.md)], geturð
 
 Ef unnið er í mörgum [!INCLUDE [prod_short](includes/prod_short.md)] fyrirtækjum gæti það hentað þér að nota síðuna **Fyrirtækjamiðstöð** til að fylgjast með vinnu.  Frekari upplýsingar er að finna í [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Bjóða ytri endurskoðanda í þitt [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Bjóða ytri endurskoðanda í þitt [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, getur kerfisstjórinn þinn boðið þeim í þitt [!INCLUDE[prod_short](includes/prod_short.md)] svo þeir geti unnið með þín fjárhagsgögn. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur þrjú leyfi af gerðinni External Accountant. Nánari upplýsingar um leyfi er að finna í [Microsoft Dynamics 365 Business Central leyfishandbók](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -64,7 +64,7 @@ Ef stjórnandi þinn eða endursöluaðili vill ekki nota leiðarvísinn **Bjó�
 
 Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />Að gefa endurskoðandanum aðgang að [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />Að gefa endurskoðandanum aðgang að [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Í Azure-gáttinni, í notanda sem var nýlega bætt við, skal velja **Forstilling** og síðan velja **Breyta**
 2. Uppfærið reitinn **Notkunarstaðsetning** í viðeigandi land og veljið síðan **Vista**.
@@ -78,7 +78,7 @@ Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE[prod_shor
 
 Ef það tekst er leyfinu úthlutað til gestanotanda og gestareikningur er búinn til.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />Nýr notandi fluttur inn í [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />Nýr notandi fluttur inn í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Endurskoðandinn fær tölvupóst þar sem honum er tilkynnt að hann hafi fengið aðgang að Active Directory. Næst verður að veita þeim aðgang að rétta fyrirtækinu í [!INCLUDE[prod_short](includes/prod_short.md)].
 

@@ -139,7 +139,7 @@ Eins og sjá má á síðasta dæmi er eina leiðin til að fá réttar niðurst
 
 Ef þú þar af leiðandi áætlar oft eftirspurn í birgðageymslum þá mælum við með að þú notir möguleika birgðahaldseiningar.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Sjá tengda þjálfun á [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Sjá tengda þjálfun á [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

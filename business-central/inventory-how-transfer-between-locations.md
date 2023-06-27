@@ -125,7 +125,7 @@ Ef magnið var sent í vöruhúsaafhendingu er leiðréttingarlína stofnuð í 
 
 Til að ljúka leiðréttingu þarf að opna millifærslapöntunina, færa inn rétt magn og bóka pöntunina. Ef vöruhúsaafhending er notuð til að senda pöntunina, Stofnið og bókið nýja vöruhúsaafhendingu.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-items" />Sjá tengda [Microsoft þjálfun](/training/modules/transfer-items/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/transfer-items/)
 
 ## <a name="see-also" />Sjá einnig .
 

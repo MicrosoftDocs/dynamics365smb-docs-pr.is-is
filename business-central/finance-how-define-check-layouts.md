@@ -70,7 +70,7 @@ Eftirfarandi er samantekt skilgreininga fyrir MICR CMC-7 leturgerðir sem kunna 
 
 ![MICR CMC-7 lýsingar.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 lýsingar")
 
-### <a name="delimiter-characters" />Skiltákn
+### <a name="delimiter-characters-1" />Skiltákn
 
 ![Skiltákn fyrir CMC-7.](media/font-cmc7-letters.png "Skiltákn fyrir CMC-7")
 

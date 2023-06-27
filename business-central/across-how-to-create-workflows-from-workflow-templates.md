@@ -29,7 +29,7 @@ Verkflæðissniðmát eru óbreytanleg verkflæði sem eru til staðar í sjálf
    Síðan **Verkflæði** opnast fyrir nýtt verkflæði sem inniheldur allar upplýsingarnar úr völdu sniðmáti. Við gildið í reitnum **Kóði** er bætt við t.d. „-01“ til að gefa til kynna að þetta sé fyrsta verkflæðið sem er stofnað úr verkflæðissniðmátinu.  
 4. Haltu áfram að stofna verkflæði með því að breyta verkflæðisskrefum eða bæta við nýjum skrefum. Frekari upplýsingar eru á [Búa til verkflæði](across-how-to-create-workflows.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Sjá einnig .
 

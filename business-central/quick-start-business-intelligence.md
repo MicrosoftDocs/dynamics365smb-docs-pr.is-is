@@ -40,7 +40,7 @@ Power BI samþætting við [!INCLUDE[prod_short](includes/prod_short.md)] innihe
 
 Einnig er hægt að búa til myndrænar skýrslur sem byggja á [!INCLUDE[prod_short](includes/prod_short.md)] með því að nota valkost skráargerðar **Microsoft Excel skjal (aðeins gögn)** á síðum skýrslubeiðna. Frekari upplýsingar er að finna í [Keyra og prenta skýrslur](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-power-bi" />Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-power-bi).
+## <a name="see-related-training-at-microsoft-learn" />Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-power-bi).
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -89,7 +89,7 @@ Eftirfarandi gerist á meðan á bókunarferlinu stendur:
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Sjá einnig .
 

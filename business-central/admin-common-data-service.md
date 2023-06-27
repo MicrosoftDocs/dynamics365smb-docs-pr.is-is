@@ -24,7 +24,7 @@ Eftirfarandi skref veita yfirlit yfir skrefin til að samþætta [!INCLUDE[prod_
 
 3. Samstilltu gögn milli forrita. Frekari upplýsingar er að finna í [Samstilling Business Central og Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-includeprodshortincludescdslongmdmd" />Hafist handa með [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="getting-started-with-" />Hafist handa með [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Til að hefjast handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] þarf Microsoft Power Apps reikning. Ef þú ert ekki þegar með Power Apps-reikning er hægt að fá einn ókeypis með því að fara á [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og velja tengilinn **Hefjumst handa ókeypis**. Frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] er að finna í einingunni [Hafist handa með Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) úr Microsoft training.
 
@@ -57,7 +57,7 @@ Frekari upplýsingar um hvert hlutverk, t.d. heimildar- og aðgangsstig, er að 
 
 Við uppsetningu tengingar eru varpanir samþættingartöflu, sem þarf til að samstilla gögn, búnar til. Einingum í [!INCLUDE[prod_short](includes/cds_long_md.md)] er varpað í töflur og töflureiti í Business Central í gegnum samþættingartöflur. Frekari upplýsingar er að finna í [Stöðluð einingavörpun fyrir samstillingu](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-model-driven-apps-common-data-service" />Sjá tengda [Microsoft þjálfun](/training/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also" />Sjá einnig .
 

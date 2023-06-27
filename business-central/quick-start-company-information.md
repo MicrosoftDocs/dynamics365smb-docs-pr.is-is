@@ -27,7 +27,7 @@ Til að hjálpa þér að koma fyrirtækinu af stað í [!INCLUDE[prod_short](in
 
 Þegar þú hefur lokið við að fylla út upplýsingarnar máttu loka síðunni.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -50,7 +50,7 @@ Ef vafrinn leyfir ekki kökur muntu fá eftirfarandi villu:
 1. Í Microsoft Edge, ferðu í **Stillingar** > **Fótspor og heimildir svæðis** > **Fótspor og gögn svæðis**.
 2. Færið **Leyfa vefsvæðum að vista og lesa kökugögn** til hægri (kveikt).  
 
-## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Leyfa sprettiglugga úr Business Central
+## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Leyfa sprettiglugga úr Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] samþættist við nokkrar vörur. Í sumum tilvikum, eins og með Microsoft Teams, opnast [!INCLUDE[prod_short](includes/prod_short.md)] eða „Sprettigluggar“ innan vörunnar. Þessi eiginleiki krefst þess að vafrinn þinn leyfi sprettiglugga í [!INCLUDE[prod_short](includes/prod_short.md)].
 

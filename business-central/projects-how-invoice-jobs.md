@@ -60,7 +60,7 @@ Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tím
 > [!NOTE]  
 >   Ofangreint ferli er svipað þegar verið er að stofna, yfirfara og bóka verktengdan sölukreditreikning.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Sjá tengda [Microsoft þjálfun](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Sjá einnig .
 

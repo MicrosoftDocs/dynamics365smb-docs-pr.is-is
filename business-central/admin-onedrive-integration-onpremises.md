@@ -22,7 +22,7 @@ Gera þarf tvö verk til að grunnstilla OneDrive samþættinguna.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er aðeins hægt að tengja við OneDrive sem Microsoft hýsir í skýinu. Að tengja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við gagnageymslu minna svæða á SharePoint Server er ekki stutt.
 
-## <a name="a-nameregisterapparegister-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Skráðu forrit í Azure AD fyrir OneDrive samþættingu
+## <a name="register-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Skráðu forrit í Azure AD fyrir OneDrive samþættingu
 
 Í þessu verki bætir þú skráðu forriti fyrir Business Central í Azure AD leigjandanum fyrir Microsoft 365 áskriftina þína. Eins og aðrar Azure þjónustur sem vinna með Business Central, OneDrive krefst Azure skráðs forrits í Azure Active Directory (Azure AD). Skráða forritið býður upp á sannvottun og sannvottunarþjónustu milli Business Central og SharePoint, sem OneDrive notar.
 
@@ -45,7 +45,7 @@ Gera þarf tvö verk til að grunnstilla OneDrive samþættinguna.
 
 - Ef þú notar Business Central-útgáfu 19 eða 20 skaltu afrita **Auðkenni forrits (biðlara)** og **leynilykil biðlara** sem skráða forritið notar. Þú þarft þessar upplýsingar fyrir næsta verki.
 
-## <a name="a-nameurlaget-your-onedrive-url" /><a name="url"></a>Fá OneDrive vefslóðina
+## <a name="get-your-onedrive-url" /><a name="url"></a>Fá OneDrive vefslóðina
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
@@ -74,7 +74,7 @@ Notaðu þetta ferli ef notað er Business Central útgáfutímabil 2022 (útgá
    - Ef þú hefur ekki þegar sett upp Azure AD skráða forritið opnast leiðarvísirinn **Setja upp Azure Active Directory**.
 6. Þegar þessu er lokið er persónuverndaryfirlýsingin fyrir OneDrive samþættingu samþykkt fyrir alla notendur. Ef þú vilt breyta henni þannig að notendur verði sjálfir að samþykkja eða hafna, þá skal fara á síðuna **Staða persónuverndaryfirlýsingar** og velja **Leyfa notanda að ákveða** fyrir OneDrive samþættinguna. Notendur verða þá beðnir um að samþykkja eða hafna persónuverndaryfirlýsingunni í fyrsta skipti sem þeir nota OneDrive eiginleikana. Frekari upplýsingar er að finna í [Persónuverndaryfirlýsingar](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Setja upp tenginguna í [!INCLUDE[prod_short](includes/prod_short.md)] útgáfu 19 og 20
+## <a name="set-up-the-connection-in--version-19-and-20" />Setja upp tenginguna í [!INCLUDE[prod_short](includes/prod_short.md)] útgáfu 19 og 20
 
 Notaðu þetta ferli ef notað er Business Central 2022 útgáfutímabil 1 (útgáfa 20) eða 2021 útgáfutímabil 2 (útgáfa 19).
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ Til að skipta yfir í nýju OneDrive samþættinguna keyrir þú uppsetningarle
 
 Áður en þú hefst handa með umbreytinguna, eða meðan á henni stendur, skaltu skoða næsta hluta til að kynna þér nokkra þætti um ferlið. 
 
-### <a name="a-nameonedrivesetupmigrationaabout-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Um skiptingu yfir í nýju OneDrive samþættinguna
+### <a name="about-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Um skiptingu yfir í nýju OneDrive samþættinguna
 
 Til viðbótar við OneDrive samþættingu getur Business Central einnig samþæst við aðra þjónustu eins og Power BI og Universal print. Samþætting við þessar aðrar þjónustur krefst einnig skráðs Azure AD forrits fyrir auðkenningu. Azure AD forritið sem þessar aðrar þjónustur nota er grunnstillt í hjálparuppsetningunni **Setja upp Azure Active Directory reikninga**. Þegar skipt er úr eldri uppsetningu SharePoint tengingar mun nýja hjálparuppsetningin **OneDrive uppsetning** breyta OneDrive samþættingunni til að nota einnig hjálparuppsetninguna **Setja upp Azure Active Directory reikninga**&mdash; þannig að allar samþættingar noti sama Azure AD forritið.
 

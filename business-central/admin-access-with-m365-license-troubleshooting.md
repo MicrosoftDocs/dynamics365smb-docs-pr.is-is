@@ -26,11 +26,11 @@ Líklega vantar Hlutaheimildir fyrir töflur sem þessi síða á að tengjast e
 
 ## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 aðgangur hefur verið virkjaður en notendur fá heimildarvillu
 
-### <a name="symptoms" />Einkenni
+### <a name="symptoms-1" />Einkenni
 
 Aðgangur með  Microsoft 365  hefur verið virkjaður í Aðalmiðstöð fyrirtækja en notendur fá heimildarvillu þegar verið er að fá aðgang að einhverri færslu.
 
-### <a name="cause" />Stofnar
+### <a name="cause-1" />Stofnar
 
 Ef aðgangur er gerður í stjórnstöðinni aðalmiðstöð, en úthluta ekki heimildum á  **síðuna leyfistilrasíðan**, mun einhver sem reynir að fá aðgang að aðalfærslum í teymi. Öryggi er hannað inn í Business Central: stjórnendur verða fyrst að grunnstilla hvaða gögn er hægt að nálgast í Teams. 
 
@@ -40,25 +40,25 @@ Sérstilling heimilda á grunnstillingarsíðu leyfis mun aðeins hafa áhrif á
 
 ## <a name="you-shared-a-link-in-teams-but-users-get-a-message-that-they-can-only-view-data" />Þú samnýttir tengil í teymum en notendur fá skilaboð um að þeir geti aðeins skoðað gögn
 
-### <a name="symptoms" />Einkenni
+### <a name="symptoms-2" />Einkenni
 
 Þegar þú deilir tengli í lið sem aðalnotandi viðskipta, aðrir fá villuna "þegar aðgangur að viðskiptamiðinu er með  Microsoft 365  leyfi er aðeins hægt að skoða gögn í  Microsoft Teams ".
 
-### <a name="cause" />Stofnar
+### <a name="cause-2" />Stofnar
 
 Þegar tengli Business Central er deilt í Teams-spjalli eða rásum mun tilfærsla í gegnum tengil alltaf fara úr Microsoft Teams þar sem gögnin verða ekki lengur aðgengileg einstaklingi sem er með Microsoft 365 leyfi.
 
-### <a name="resolution" />Upplausn
+### <a name="resolution-1" />Upplausn
 
 Þegar síðum eða færslum er deilt skal annaðhvort hafa með forskoðun tengils sem spjald eða deila gögnum sem flipa í spjallinu eða rásinni.
 
 ## <a name="card-from-shared-link-is-minimal-and-doesnt-include-details-button" />Spjald frá samnýttum tengli er lágmarks og inniheldur ekki upplýsingar um hnappinn
 
-### <a name="symptoms" />Einkenni
+### <a name="symptoms-3" />Einkenni
 
  Microsoft 365 Þegar leyfishafi hefur hluta af aðalleyfishafi í starfsemi sem hefur aðaltengigjald í teymum, stækkar það sjálfkrafa í spjald sem hefur engar gagnlegar upplýsingar og sýnir aðeins Viðskiptaseðla  **án upplýsingahnappi** .
 
-### <a name="cause" />Stofnar
+### <a name="cause-3" />Stofnar
 
 Notendur sem eru með  Microsoft 365  leyfi en engin fyrirtæki miðlægt leyfi mega ekki samnýta tengla sem spjöld. Ef notandinn er með Business Central App fyrir hópa uppsetta og límum tengil inn á tónsvæðið þá birtist aðeins lágmarks kort. 
 

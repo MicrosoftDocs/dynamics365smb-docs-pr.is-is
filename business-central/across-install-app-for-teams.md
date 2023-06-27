@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="install-the-include-prodshortincludesprodshortmd-app-for-microsoft-teams" />Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams
+# <a name="install-the--app-for-microsoft-teams" />Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -80,7 +80,7 @@ Nú er allt til reiðu til að nota forritið í Teams til að leita að tengili
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

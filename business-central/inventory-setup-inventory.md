@@ -32,7 +32,7 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 |Flytja inn margar myndir úr einni zip-skrá þar sem skrár hafa heiti í samræmi við vörunúmer.|[Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 

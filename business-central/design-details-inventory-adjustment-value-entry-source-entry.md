@@ -158,7 +158,7 @@ Notendahópar sem ekki mega bóka í desember en í janúar, sem fjárhagsgrunnu
 
 ## <a name="item-charge-scenario" />Aðstæður kostnaðarauka
 
-### <a name="prerequisites" />Frumskilyrði
+### <a name="prerequisites-1" />Frumskilyrði
 
 Sláið inn eftirfarandi gildi:
 
@@ -184,7 +184,7 @@ Sláið inn eftirfarandi gildi:
 
 - Bókun leyfð til = tómt  
 
-### <a name="to-test-the-scenario" />Að prófa aðstæðurnar
+### <a name="to-test-the-scenario-1" />Að prófa aðstæðurnar
 
 Prófaðu þessar aðstæður með því að fara í gegnum eftirfarandi skref:
 

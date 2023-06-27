@@ -53,7 +53,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Upplýsa viðskiptamenn þína um afhendingardag pöntunar með því að reikna út annað hvort hægt að lofa eða tiltækt að lofa dasetninguna.|[Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)|
 |Leysa úr misskilningi þegar tvær eða fleiri færslur eru til fyrir sama viðskiptamann.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssell-items-services-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/sell-items-services-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  
@@ -63,6 +63,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

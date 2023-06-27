@@ -42,7 +42,7 @@ Eigi að jafna færslur í mismunandi gjaldmiðlum þarf að setja upp fjárhags
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókunarflokkar lánardrottna** og velja síðan viðkomandi tengil.  
 4. Í reitunum **Debet gjaldm.jöfn.slétt.reikn** og **Kreditreikn. gjaldeyrisjöfn.** er fært inn viðkomandi fjárhagsreikningsnúmer til að bóka sléttunarmismun.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocess-foreign-currency-payments-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

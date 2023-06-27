@@ -135,7 +135,7 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 
     30 Amsterdam Lamps eru nú skráðir sem teknir til úr hólfum S-01-0001 og S-01-0002 er nú skráð og neikvæð birgðafærsla er stofnuð sem endurspeglar hina bókuðu söluafhendingu.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

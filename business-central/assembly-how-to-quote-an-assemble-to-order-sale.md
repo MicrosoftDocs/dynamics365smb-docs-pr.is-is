@@ -34,7 +34,7 @@ Eins og þegar seld er hvers kyns önnur tegund af vöru, er einnig hægt að st
 6.  Þegar búið er að leiðrétta samsetningarpöntunarlínur samkvæmt tilboðinu skal loka síðunni **Sameina-í-pöntun línur** til að fara aftur á síðuna **Sölutilboð** .  
 7.  Ef viðskiptamaðurinn samþykkir tilboðið skal stofna sölupöntun fyrir samsetningaríhlut tilboðsins. Frekari upplýsingar er að finna í [Búa til sölutilboð](sales-how-make-offers.md). Tengt samsetningartilboð og allar sérstillingar tengjast við þessa nýju sölupöntun til undirbúnings á samsetningu vöru eða vörum sem á að selja.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

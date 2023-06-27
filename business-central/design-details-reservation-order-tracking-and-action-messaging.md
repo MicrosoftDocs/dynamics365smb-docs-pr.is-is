@@ -151,7 +151,7 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  ![Annað dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers-8-and-9" />Færslunúmer 8 og 9
+### <a name="entry-numbers-8-and-9-1" />Færslunúmer 8 og 9
  Pöntunarrakningarfærslum fyrir tvær lotur íhlutarins sem endurspegla eftirspurn í töflu 5407 er breytt úr frátekningarstöðunni **Raknings** í **Umframbirgðir**. Ástæðan er að birgðirnar sem greiðslan var tengd við áður, í töflu 32, hafa verið notaðar af sendingu á millifærslupöntuninni.  
 
  Raunverulegur afgangur, eins og í þessu tilfelli, endurspeglar umframframboð eða eftirspurn sem helst órakin. Það er til marks um ójafnvægi í pöntunarneti, sem mun búa til aðgerðaboð af áætlanakerfinu  nema það sé leyst virk.  

@@ -32,7 +32,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 > [!TIP]
 > Nota skal bankaafstemmingu til að staðfesta að bækurnar séu uppfærðar og ekki bóka afstemmingu fyrr en tryggt er að afstemmingin sé í lagi.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreconcile-bank-accounts-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 

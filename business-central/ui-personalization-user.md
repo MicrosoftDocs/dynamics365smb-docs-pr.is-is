@@ -58,7 +58,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 6. Veldu eininguna og veldu annaðhvort **Færa**, **Fjarlægja**, **Fela**, **Sýna**, **Sýna undir „Sýna meira“**, **Sýna þegar fellt**, **Sýna alltaf**, **Stilla/hreinsa fast svæði** eða **Taka með/útiloka frá flýtifærslu**, allt eftir gerð og stöðu viðmótseiningarinnar. Frekari upplýsingar er að finna á [Hvað hægt er að sérstilla](#What).
 7. Þegar lokið er við að breyta útliti á einni eða fleiri síðum, skal velja hnappinn **Lokið** á borðanum **Sérstilla**.
 
-## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Hvað er hægt að sérstilla
+## <a name="what-you-can-personalize" /><a name="What"></a>Hvað er hægt að sérstilla
 
 |Hvað viltu gera|Hvernig á að gera það|Athugasemdir|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 |Bæta nýrri aðgerð við síðu eða skýrslu í Mitt hlutverk.|Af marksíðu, síður skýrslubeiðna eða glugga Viðmótsleitar skal velja bókamerkjatákn.|Sjá [Síða eða skýrsla bókamerkt í Mitt hlutverk](ui-bookmarks.md)|
 |Byrja alltaf að birta listann sem stækkaðan eða dreginn saman|Veldu hnappinn **Stækka allt** eða **Draga allt saman** efst í vinstra horni listans. Einnig er hægt að velja aðgerðina **Stækka allt** eða **Draga allt saman** í valmynd fyrsta dálksins. |Á við um stiveldislista sem hægt er að fella saman|
 
-## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Sérstilla aðgerðastiku og valmyndir
+## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>Sérstilla aðgerðastiku og valmyndir
 
 Sérstilling gerir þér kleift að ákveða hvaða aðgerðir á að sýna á yfirlits- og aðgerðarstikunni og í hlutverkamiðstöðvum og hvar á að sýna þær. Þú getur sýnt, falið eða fært stakar aðgerðir eða hóp aðgerða.
 
@@ -116,7 +116,7 @@ Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og 
 1. Til að færa aðgerð eða aðgerðahóp skaltu draga og sleppa honum á viðeigandi stað, rétt eins og með reiti og dálka.
 2. Til að færa aðgerð eða aðgerðahóp í annan aðgerðahóp sem er tómur, dragðu aðgerðina eða aðgerðahópinn í nýja hópinn og slepptu honum í boxið **Sleppa aðgerð hér**.
 
-## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a> Sérsníða hluta
+## <a name="personalizing-parts" /><a name="Parts"></a> Sérsníða hluta
 
 Hlutar eru svæði á síðu sem eru vanalega samsettir úr mörgum reitum, gröfum eða öðru efni. Hluti sýnir litaðan ramma þegar þú fókusar á hlutann. Til dæmis er heimaskjár hlutverkamiðstöðvar með marga hluta. Vegna vel skilgreindra marka þeirra er hægt að sérsníða allan hlutann og innihald hans.
 
@@ -158,7 +158,7 @@ Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
    > [!TIP]
    > Sem stjórnandi getur þú falið atriðið **Sjálfvirkni** fyrir notendum. Frekari upplýsingar er að finna á [Setja upp Power Automate samþættingu](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  

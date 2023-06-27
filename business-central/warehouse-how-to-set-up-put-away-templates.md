@@ -31,7 +31,7 @@ Hægt er að setja upp fleiri en eitt frágangssniðmát og velja eitt þeirra f
 
 Hægt er að stofna mismunandi frágangssniðmát og nota þau eftir hentugleikum. Fyrst er notast við frágangssniðmátið sem valið hefur verið fyrir vöruna eða birgðahaldseininguna. Ef þeir reitir eru ekki fylltir út, er frágangssniðmátið sem valið er fyrir vöruhúsið á flýtiflipanum **Hólfareglur** á birgðageymsluspjaldinu notað.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesput-away-templates" />Sjá tengda [Microsoft þjálfun](/training/modules/put-away-templates/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/put-away-templates/)
 
 ## <a name="see-also" />Sjá einnig .
 

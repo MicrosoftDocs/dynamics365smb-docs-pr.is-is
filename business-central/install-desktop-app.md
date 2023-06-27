@@ -66,7 +66,7 @@ Munurinn er þegar þú ert með marga leigjendur. Ólíkt [!INCLUDE[prod_short]
 > [!IMPORTANT]
 > Ef þú notar Business Central 2021 útgáfutímabil 1 (útgáfu 18) eða eldra geturðu ekki sett upp forritið eins og lýst er í þessari grein. Í staðinn skaltu setja upp forritið af [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Frekari upplýsingar og hjálp varðandi uppsetningu á þessari eldri útgáfu forritsins er að finna í [Undirbúningur og uppsetning Business Central-forritsins](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

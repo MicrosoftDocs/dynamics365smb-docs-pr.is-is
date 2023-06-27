@@ -181,7 +181,7 @@ Ef skila á vörum sem eru í mismunandi innkaupapöntunum til eins lánardrotti
 2. Fyllið út aðra reitina að þörfum og smellið veljið síðan hnappinn **Í lagi**.  
 3. Að öðrum kosti skal eyða einstökum vöruskilapöntunum innkaupa handvirkt.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  

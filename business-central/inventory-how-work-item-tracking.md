@@ -220,7 +220,7 @@ Endurflokkun vörurakningar fyrir vöru þýðir að breyta lotu- eða raðnúme
 8. Hægt er að breyta upplýsingunum sem eru fyrir hendi varðandi lotu- eða raðnúmerið með því að skrá lotu- eða raðupplýsingarnar.  
 9. Færslubókin er bókuð til að tengja nýju vörurakningarnúmerin eða lokadagsetningarnar við viðkomandi birgðafærslu.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Sjá einnig .
 

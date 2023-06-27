@@ -101,6 +101,6 @@ Microsoft býr til staðbundnar útgáfur af Business Central fyrir takmarkaðan
 [Reglufylgni þjónustu](compliance-service-compliance.md)  
 [Vottanir](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

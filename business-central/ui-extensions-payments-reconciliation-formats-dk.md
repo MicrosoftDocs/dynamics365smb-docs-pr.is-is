@@ -47,7 +47,7 @@ Nokkur skref eru nauðsynleg í upphafi.
 
 Að auki þarftu að úthluta lánardrottnum á staðbundinn **Alm. viðsk.bókunarflokkur** og **Bókunarflokk lánardrottins**. Stilling fyrir land/svæði fyrir lánardrottinn verður að vera Danmörk (DK). Nánari upplýsingar er að finna í [Uppsetning Bókunarflokka](finance-posting-groups.md).  
 
-### <a name="to-allow-includeprodshortincludesprodshortmd-to-export-payment-data" />Til að leyfa [!INCLUDE[prod_short](includes/prod_short.md)] að flytja út greiðslugögn
+### <a name="to-allow--to-export-payment-data" />Til að leyfa [!INCLUDE[prod_short](includes/prod_short.md)] að flytja út greiðslugögn
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðslubók** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Breyta greiðslubók** er valið **Banki**.  

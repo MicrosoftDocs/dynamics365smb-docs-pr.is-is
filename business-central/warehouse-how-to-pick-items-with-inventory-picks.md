@@ -118,7 +118,7 @@ Ef Hólfakóti er ekki tilgreint í sölupöntunarlínu og frálagsflæði samse
 > [!NOTE]  
 > Ef vörur eru settar saman til pöntunar velur birgðatínslan tengda sölupöntunina til að stofna birgðastöðu fyrir alla samsetningaríhluti.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

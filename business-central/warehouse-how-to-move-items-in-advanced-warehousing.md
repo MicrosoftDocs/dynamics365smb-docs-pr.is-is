@@ -138,7 +138,7 @@ Ef skrá þarf þá staðreynd að vörur hafa þegar verið færðar í önnur 
 2. Reitirnir **Vörunr.**, **, Frá-svæðiskóti**, **Kóti frá-hólfs**, **Til-svæðiskóti**, and **Kóti til-hólfse** eru fylltir út.  
 3. Velja aðgerðina **Skrá**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Sjá einnig
 

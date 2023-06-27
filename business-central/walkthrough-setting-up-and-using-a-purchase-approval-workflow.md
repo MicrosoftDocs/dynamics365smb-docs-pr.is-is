@@ -117,7 +117,7 @@ Almenna útgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur m
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Sjá tengda [Microsoft þjálfun](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Sjá einnig .
 

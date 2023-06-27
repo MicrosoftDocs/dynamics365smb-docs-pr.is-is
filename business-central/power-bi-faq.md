@@ -147,7 +147,7 @@ Boðið verður upp á þessa virkni bráðlega. Frá og með febrúar 2022 munu
 
 Ef þú ert með gamlar skýrslur sem byggja á gögnum Business Central tengjast þær ekki eftirmynd af skrifvörðum gagnagrunni.
 
-### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Ég hef prófað prufuútgáfuna af nýja tenglinum fyrir uppfærsluna í febrúar 2022. Þegar ég tengist sérstilltri API-síðu Business Central fæ ég villuna „Get ekki sett inn færsluna. Núverandi fyrirætlan tengingar er ritvarin.“. Hvernig get ég lagað þetta?
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Ég hef prófað prufuútgáfuna af nýja tenglinum fyrir uppfærsluna í febrúar 2022. Þegar ég tengist sérstilltri API-síðu Business Central fæ ég villuna „Get ekki sett inn færsluna. Núverandi fyrirætlan tengingar er ritvarin.“. Hvernig get ég lagað þetta?
 
 Með nýja tenglinum munu nýjar skýrslur sem nota Business Central-gögn sjálfgefið tengjast ritvarinni eftirmynd af gagnagrunni Business Central. Þessi breyting hefur í för með sér bætt afköst. Í sjaldgæfum tilfellum getur hún hins vegar leitt til villu. Þessi villa kemur yfirleitt upp vegna þess að sérstillt API er að gera breytingar á færslum Business Central á meðan Power BI reynir að sækja gögnin. Það gerist helst sem hluti af AL-kveikjum: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord.
 
@@ -182,7 +182,7 @@ In general, we recommend avoiding any database modifications in API pages when t
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
 -->
-### <a name="a-namepermsahow-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Hvernig breyti ég eða hreinsa notandareikninginn sem ég nota núna til að tengjast Business Central frá Power BI Desktop?
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Hvernig breyti ég eða hreinsa notandareikninginn sem ég nota núna til að tengjast Business Central frá Power BI Desktop?
 
 Í Power BI Desktop skal fara í gegnum eftirfarandi skref:
 
@@ -237,14 +237,14 @@ Já. Þessar ítarlegu aðstæður hjálpa við að viðhalda góðum árangri B
 
 Við erum að skoða þennan eiginleika. Power BI býður upp á ítarleg API til að stjórna skýrsluútfærslum. Frekari upplýsingar eru í [Kynning á innleiðingasölukeðjum](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x0020-what-are-these-values" />Þegar ég fæ gögn frá Business Central til að nota í Power BI skýrslunum mínum sé ég nokkur gildi eins og „_x0020_“. Hvað eru þessi gildi?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values" />Þegar ég fæ gögn frá Business Central til að nota í Power BI skýrslunum mínum sé ég nokkur gildi eins og „_x0020_“. Hvað eru þessi gildi?
 
 Sumar API-síður, þar á meðal flestar API v2.0 síður, eru með reiti sem byggja á [AL-fasttextahlutum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Reitir byggðir á AL fasttextahlutum verða að hafa nöfn sem eru samræmd og alltaf eins svo að síur á skýrslunni virka alltaf&mdash;óháð tungumálinu eða stýrikerfinu sem er notað. Þess vegna eru reitirnir sem byggjast á AL fasttexta ekki þýddir og eru kóðaðir til að koma í veg fyrir sérstafi, þ.m.t. bilið. Þegar tómur valkostur er í AL fasttextahlutnum er hann kóðaður í „_x0020_“. Alltaf er hægt að umbreyta gögnum á Power BI ef sýna á mismunandi gildi fyrir þessa reiti, til dæmis „Tómt“.
 
 
 ---
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

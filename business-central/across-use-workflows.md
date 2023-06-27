@@ -64,7 +64,7 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 | Skoðaðu tilvik verkflæðisskrefa með stöðuna **Lokið**. | [Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md) |
 | Eyddu samþykktarverkflæði sem verður ekki notað aftur. | [Eyða samþykktarverkflæðum](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Sjá einnig .
 

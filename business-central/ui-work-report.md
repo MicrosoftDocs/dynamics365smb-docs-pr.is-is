@@ -21,7 +21,7 @@ Skýrsla safnar saman upplýsingum byggðum á sérstöku safni af skilyrðum. H
 
 Þegar þú velur skýrslu færðu yfirleitt upp beiðnisíðu&mdash;sem ber heiti skýrslunnar&mdash;þar sem þú velur ýmsa valkosti og síur sem ákvarða hvaða gögn eru innifalin. Eftirfarandi hlutar útskýra hvernig á að nota beiðnisíðuna til að búa til, forskoða og prenta út skýrslur.
 
-## <a name="a-namesavedsettingsausing-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Sjálfgefin gildi notuð&mdash;fyrirframskilgreindar stillingar
+## <a name="using-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Sjálfgefin gildi notuð&mdash;fyrirframskilgreindar stillingar
 
 Flestar síður skýrslubeiðni innihalda reitinn **Nota sjálfgefin gildi úr**. Með þessum reit geturðu valið fyrirframskilgreindar stillingar fyrir skýrsluna, sem velur valkosti og síur sjálfkrafa. Veldu færslu úr fellilistanum til að sjá valkosti og síur á síðu skýrslubeiðni breytast í samræmi.
 
@@ -80,7 +80,7 @@ Ef fyrirtækið þitt hefur grunnstillt OneDrive fyrir kerfiseiginleika, í sta�
 >
 > Einnig er hægt að nota **Microsoft Excel Skjal (aðeins gögn)** til að búa til nýtt Excel-útlit fyrir ákveðna skýrslu. Frekari upplýsingar er að finna í [Vinna með Excel-útlit](ui-excel-report-layouts.md).  
 
-## <a name="a-nameschedulereporta-scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a>Skýrsla tímasett á að keyra síðar eða reglubundið
+## <a name="scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a>Skýrsla tímasett á að keyra síðar eða reglubundið
 
 Hægt er að tímasetja eina eða endurtekna skýrslu þannig að hún keyri á tilteknum degi og tíma. Tímasettar skýrslur eru færðar inn í verkröð og unnar á settum tíma, eins og önnur verk. Veldu valkostinn **Áætlun** eftir að þú hefur valið **Senda til** og sláðu síðan inn upplýsingar, eins og prentara og tíma og dagsetningu. Skýrslunni er bætt við verkröðina og verður keyrð á tilgreindum tíma. Þegar unnið hefur verið úr skýrslunni er varan fjarlægð úr verkröðinni. Frekari upplýsingar eru í [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).  
 
@@ -103,13 +103,13 @@ Eftir að valkostum skýrslunnar er breytt skal endurtaka fyrstu tvö skrefin og
 
 Frekari upplýsingar um stjórnun verkraðar er að finna í [Nota verkraðir til að tímasetja verk](admin-job-queues-schedule-tasks.md).  
 
-## <a name="a-nameprintreportaprinting-a-report" /><a name="PrintReport"></a>Prenta skýrslu
+## <a name="printing-a-report" /><a name="PrintReport"></a>Prenta skýrslu
 
 Til að prenta skýrslu skal velja hnappinn **Prenta** á síðu skýrslubeiðninnar eða í valmyndastikunni á síðunni **Forskoða**.
 
 Þegar skýrsla notar Excel-útlit sérðu ekki reitinn **Prentari** eða hnappana **Prenta** eða **Forskoða**. Í staðinn er valkosturinn **Hlaða niður**. Til að prenta skal velja **Hlaða niður** og síðan opna sóttu skrána í Excel og prenta þaðan.
 
-### <a name="a-nameprinteraprinter" /><a name="Printer"></a>Prentari
+### <a name="printer" /><a name="Printer"></a>Prentari
 
 Reiturinn **Prentari** á beiðnisíðunni sýnir heiti prentarans sem skýrslan er send til. Til að breyta prentara skal einfaldlega velja prentarann úr listanum.
 
@@ -153,7 +153,7 @@ Reitirnir undir flýtiflipanum **Ítarlegt** setja takmarkanir á útbúna skýr
 > [!NOTE]
 > Hámarksgildin kunna að vera mismunandi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og stjórnandi getur breytt þeim. Frekari upplýsingar er að finna í hlutanum [Grunnstilling Business Central Server - Skýrslur](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Fyrir yfirlit yfir skýrslutakmarkanir í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu skal skoða [Rekstrarlegar takmarkanir](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

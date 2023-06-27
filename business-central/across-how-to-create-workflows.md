@@ -172,7 +172,7 @@ Eftirfarandi mynd gefur yfirlit yfir niðurstöður þessarar aðgerðar.
 
 Næst skal prófa verkflæðið með því að opna fyrirliggjandi lánardrottnaspjald og breyta nafni þeirra. Staðfestið að samþykktarbeiðni sé send eftir að nafni lánardrottins er breytt.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Sjá einnig .
 

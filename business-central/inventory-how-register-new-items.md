@@ -120,7 +120,7 @@ Ef fyrirtækið setur síðar upp vöruhúsakerfi er mælt með því að ganga 
 
 Til að sjá dæmi um hvernig hægt er að nota reitina í flýtiflipanum **Áætlanagerð** skal skoða [Uppsetning bestu venja: Færibreytur áætlanagerðar](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" /><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-items/)
 
 ## <a name="see-also" /><a name="see-also"></a>Sjá einnig .
 

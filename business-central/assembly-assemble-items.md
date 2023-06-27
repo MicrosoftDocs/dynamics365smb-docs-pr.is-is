@@ -51,7 +51,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Lærðu að vinna með samsetningaruppskriftir og hvernig þær eru frábrugðnar framleiðsluuppskriftum.|[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)|
 |Fræðast um bókun samsetningar notkunar og úttaks og hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  dreifist kostnaður vöru og forða á fjárhag.|[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 
@@ -63,6 +63,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

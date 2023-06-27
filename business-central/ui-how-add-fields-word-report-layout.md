@@ -37,7 +37,7 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
 > [!NOTE]  
 >  Ekki er hægt að breyta innbyggðu skýrsluútliti<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>Til að opna sérsniðinn XML-hluta fyrir skýrsluna í Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>Til að opna sérsniðinn XML-hluta fyrir skýrsluna í Word
   
 1. Ef það er ekki þegar opið skal opna Word-sniðmátsskjal fyrir skýrslu í Word.  
   
@@ -103,7 +103,7 @@ Myndir birtast efst í hægra horni efnisstýringar og laga stærð sína sjálf
   
 3. Til að auka eða minnka myndastærðina dregurðu stærðarhandfang frá eða að miðju efnisstjórnunar.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Merkja- og gagnareitir fjarlægðir
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Merkja- og gagnareitir fjarlægðir
 
 Merkimiða- og gagnareitir skýrslu eru í efnisstjórnun í Word. Eftirfarandi mynd sýnir efnisstýringu þegar hún er valin í Word-skjalinu.  
 

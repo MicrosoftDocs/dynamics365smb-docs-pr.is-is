@@ -51,7 +51,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 > [!TIP]
 > Það fer eftir landfræðilegri staðsetningu þinni hvaða reiti sumar Business Central-síður geta innihaldið sem ekki er lýst í greinunum sem eru gefnar upp hér fyrir ofan vegna þess að þær gilda um staðbundna virkni eða sérstillingar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 
@@ -62,6 +62,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -69,7 +69,7 @@ Eftirfarandi tafla sýnir vörujöfnunarfærslu sem var búin til innkaupakvittu
 
 Í töflunni **Birgðafærsla** sýnir reiturinn **Eftirstandandi magn** þá upphæð sem hefur enn ekki verið úthlutað. Ef magn eftirstöðva er meira en 0 er gátreiturinn **Opna** valinn.  
 
-### <a name="example" />Dæmi
+### <a name="example-1" />Dæmi
 Eftirfarandi dæmi sýnir vörujöfnunarfærslu sem var stofnuð þegar bókuð var söluafhending fimm eininga af vörum sem mótteknar voru í síðasta dæmi. Fyrsta vörujöfnunarfærslan er kvittun. Önnur jöfnunarfærslan er söluafhending.  
 
 Eftirfarandi tafla sýnir tvær vörujöfnunarfærslur sem koma til bæði vegna birgðaaukningar og birgðaminnkunar.  

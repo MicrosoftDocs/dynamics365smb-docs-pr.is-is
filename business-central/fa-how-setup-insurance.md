@@ -55,7 +55,7 @@ Hægt er að setja upp keyrslur í sniðmáti vátryggingabókar. Gildin í keyr
 > [!NOTE]  
 >   Tölur hafa sérstaka þýðingu í færslubókarheitum. Ef tala er í heiti færslubókarsniðmáts, hækkar hún sjálfkrafa um einn í hvert sinn sem færslubókin er bókuð. Ef til dæmis HH1 er fært inn í reitinn **Heiti**, mun færslubókarheitið breytast í HH2 eftir bókun.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Sjá einnig .
 

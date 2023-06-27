@@ -92,13 +92,13 @@ Hér eru nokkur atriði sem vert er að hafa í huga þegar unnið er með uppl�
 
 Frekari upplýsingar um hvernig nota á spjöld og upplýsingar spjalds er að finna í [Teams - Algengar spurningar](teams-faq.md).
 
-## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Deila tengli á síðu úr Business Central í Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Deila tengli á síðu úr Business Central í Teams
 
 Beint af flestum innheimtusíðum eins og **Vörusíðum** og upplýsingasíðum eins og **Birgðaspjaldi** er hægt að senda tengil á síðuna til tiltekinna viðtakenda í samtali í Teams. Til dæmis er hægt að deila tengli á síað yfirlit yfir færslurnar þínar. Viðtakendur geta þá valið tengilinn til að opna síðuna í [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!Deilingarvalmynd sýnd í spjaldi.](media/teams-share-link-v2.png "Deilingarvalmyndin sýnd á spjaldi.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites" />Frumskilyrði
+### <a name="prerequisites-1" />Frumskilyrði
 
 - Þú hefur aðgang að Microsoft Teams.
 - (Valkvæmt) Þú hefur sett upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið  í Teams. 
@@ -126,6 +126,6 @@ Beint af flestum innheimtusíðum eins og **Vörusíðum** og upplýsingasíðum
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

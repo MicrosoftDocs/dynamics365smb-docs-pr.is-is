@@ -78,7 +78,7 @@ Aðgerðin **Senda samþykktartilkynningar sem komnar eru fram yfir tíma** kann
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Samþykktarbeiðnir sem eru fallnar á tíma** og velja síðan viðkomandi tengil.
 2. Á síðunni **Samþykktarbeiðnir komin fram yfir á tíma** er valið á **Samþykktarbeiðnir komin fram yfir á tíma Tilkynningar** aðgerð.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Sjá tengda [Microsoft þjálfun](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Sjá einnig .
 

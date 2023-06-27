@@ -34,7 +34,7 @@ Ef búa á til nokkrar birgðaeiningar fyrir vöru er keyrslan **Stofna birgðah
 > Ef BIRGÐAHALDSEINING er í gegnum framleiðslu,  **er reiturinn staðlaður kostnaður**  ekki notaður við reikningsfærslu og leiðréttingu á raunverulegum kostnaði framleiddra vörunnar.  [!INCLUDE [prod_short](includes/prod_short.md)] Í staðinn notar gildið í  **reitnum Staðlað kostnaðarverð**  á birgðaspjaldinu og frávik eru reiknuð miðað við kostnaðarhlutdeild þeirrar vöru.<br><br>
 > Þó að hægt sé að úthluta framleiðsluuppskriftum og-leiðum á SKUs eru kostnaðarinnrúllar og tengdir útreikningar kostnaðarhluta ekki tiltækir á SKUs. Nánari upplýsingar um staðalkostnað er að fá með því að  [Reikna út staðlaðan kostnað](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-trainingtrainingmodulescontrol-inventory-multiple-locations" />Sjá tengda [Microsoft þjálfun](/training/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/control-inventory-multiple-locations/)
 
 ## <a name="see-also" />Sjá einnig .
 

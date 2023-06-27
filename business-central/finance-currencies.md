@@ -29,7 +29,7 @@ Gjaldmiðilskóðarnir eru tilgreindir í listanum **Gjaldmiðlar**, þ.m.t. vi�
 
 Gengi eru verkfærin til að reikna gildi staðbundins gjaldmiðils (SGM) fyrir hverja gjaldmiðilsfærslu. Frekari upplýsingar eru í [Uppfæra gengi gjaldmiðils](finance-how-update-currencies.md).  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 

@@ -64,7 +64,7 @@ Með [!INCLUDE[prod_short](includes/prod_short.md)] fylgja mörg innbyggð útli
 
 Frekari upplýsingar um hvernig á að sérsníða skýrslur og skjöl að þörfum fyrirtækisins er að finna í [Útlit skýrslna og skjala](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleswork-with-reports" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/work-with-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/work-with-reports/).
 
 ## <a name="see-also" />Sjá einnig .
 

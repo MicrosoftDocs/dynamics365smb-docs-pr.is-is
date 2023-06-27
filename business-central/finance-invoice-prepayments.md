@@ -29,7 +29,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stofna pöntun, leiðrétta fyrirframgreiðsluupphæðirnar og gefa út reikning fyrir fyrirframgreiðsluupphæðunum.|[Stofna fyrirframgreiðslureikninga](finance-how-to-create-prepayment-invoices.md)|  
 |Gefa út viðbótarfyrirframgreiðslureikning, annaðhvort fyrir viðbótarvörum eða viðbótarinnborgun á upphaflegu pöntunina eða gefa út kreditfyrirframgreiðslureikning.|[Leiðrétta fyrirframgreiðslur](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

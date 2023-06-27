@@ -189,7 +189,7 @@ Fyrir hvern fjárhagsreikning er hægt að skilgreina sjálfgefið víddargildi 
 > [!NOTE]  
 >  Til að ganga úr skugga um að fyrirfram skilgreindur kostnaðarstaður og kostnaðarhlutur sem eru sett upp í fjárhag séu sjálfkrafa færðar yfir í kostnaðarbókhald skal velja gátreitinn **Athuga fjárhagsbókanir** á síðunni Uppsetning kostnaðarbókhalds
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

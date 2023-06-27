@@ -139,7 +139,7 @@ Allar færslur sem tengjast verki eru skráðar í verkdagbækur og tölusettar 
 
 Á síðunni **Verkfærslur** er hægt að fara yfir færslur sem tengjast verki.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Finna tengda [Microsoft-þjálfun](/training/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training" />Finna tengda [Microsoft-þjálfun](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Sjá einnig .
 

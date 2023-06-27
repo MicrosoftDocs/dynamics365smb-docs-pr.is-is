@@ -22,7 +22,7 @@ ms.author: edupont
 2. Opnið verkflæði sem á að virkja.  
 3. Á síðunni **Verkflæði** skaltu kveikja á víxlhnappinum **Virkjað**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Sjá einnig .
 

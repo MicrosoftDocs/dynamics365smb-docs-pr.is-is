@@ -93,7 +93,7 @@ Hægt er að tímasetja skýrslu eða runuvinnslu þannig að hún keyri á tilt
 
 Frekari upplýsingar um röðun er að fá með því að fara í  [röðun skýrslu í keyrslu](ui-work-report.md#ScheduleReport).
 
-### <a name="schedule-synchronization-between-includeprodshortincludesprodshortmd-and-includeprodshortincludescdslongmdmd" />Tímastilla samstillingu á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="schedule-synchronization-between--and-includeprod_short" />Tímastilla samstillingu á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Ef þú hefur samþætt [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[prod_short](includes/cds_long_md.md)] gerir verkröðin þér kleift að tímasetja hvenær á að samstilla gögn. Verkraðarfærslan getur stofnað færslur í einu forriti til að samsvara færslum í öðrum eftir því hvaða stefna og reglur hafa verið skilgreindar. Gott dæmi er þegar þú skráir tengilið í [!INCLUDE[crm_md](includes/crm_md.md)] getur verkraðarfærslan sett upp þann tengilið fyrir þig í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar um röðun er að fá með því að  [raða samstillingu milli Viðskiptamiðseðla og Dynamics 365 sölu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 

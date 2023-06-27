@@ -80,7 +80,7 @@ Sjálfgefni grunnstillingarpakkinn styður eftirfarandi töflur:
 [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)  
 [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

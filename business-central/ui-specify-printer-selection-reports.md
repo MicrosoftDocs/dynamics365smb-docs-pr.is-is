@@ -11,7 +11,7 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a> Tilgreina sjálfgefinn prentara
+# <a name="specify-a-default-printer" /><a name="default"></a> Tilgreina sjálfgefinn prentara
 
 Eftir að prentarar hafa verið settir upp í Aðalsafni er hægt að tilgreina hvaða prentara á að nota að sjálfgefnu. Það eru nokkrar leiðir til að tilgreina að prentarar geti notað sjálfgefið fyrir skýrslur og önnur prentverk. Sjálfgefinn prentari er gagnlegur ef unnið er með mismunandi skýrslur sem krefjast mismunandi prentara vegna staðsetningar þeirra í fyrirtækinu eða útprentunarmöguleika.
 

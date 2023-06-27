@@ -106,7 +106,7 @@ Einingaverð samsetningaruppskriftar er alltaf jafnt heildareiningakostnaði íh
 
 Kostnaðarverð þeirra vara sem mynda samsetningaruppskriftina er afritað úr birgðaspjöldum íhlutarins. Kostnaðurinn við hverja vöru er margfaldaður með magninu og heildarkostnaðurinn sést í reitnum **Kostnaðarverð** á birgðarspjaldinu.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-assembly-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

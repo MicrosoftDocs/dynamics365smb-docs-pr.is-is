@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Að stjórna Microsoft Teams samþættingu við [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="managing-microsoft-teams-integration-with-" />Að stjórna Microsoft Teams samþættingu við [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -42,7 +42,7 @@ ms.service: dynamics365-business-central
 
     Það verður að vera kveikt á reglustillingunni **Leyfa forskoðanir vefslóða**. Annars verður ekki hægt að búa til spjald fyrir [!INCLUDE [prod_short](includes/prod_short.md)]-tengla sem límdir eru í samtal í Teams. Frekari upplýsingar um þessa stillingur er að finna í [Stjórna skilaboðareglum í Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-include-prodshortincludesprodshortmd-app-optional" />Að stjórna [!INCLUDE [prod_short](includes/prod_short.md)]-forritinu (valfrjálst)
+### <a name="managing-the--app-optional" />Að stjórna [!INCLUDE [prod_short](includes/prod_short.md)]-forritinu (valfrjálst)
 
 Sem stjórnandi í Teams er hægt að stjórna öllum forritum fyrir fyrirtækið, þ.m.t. [!INCLUDE [prod_short](includes/prod_short.md)]-forritinu. Hægt er að samþykkja eða setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir fyrirtækið þitt, útiloka notanda frá því að setja upp forritið og fleira.
 
@@ -51,9 +51,9 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
 - [Stjórna forritunum í Microsoft Teams stjórnendamiðstöðinni](/MicrosoftTeams/manage-apps)
 - [Stjórna uppsetningarreglum forrits í Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-include-prodshortincludesprodshortmd" />Eftir [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-" />Eftir [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements" />Lágmarkskröfur
+### <a name="minimum-requirements-1" />Lágmarkskröfur
 
 - útgáfa [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -103,7 +103,7 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
 
 Microsoft Teams býður upp á víðtæka stjórnun fyrir reglufylgni og umsjón með viðkvæmum eða persónugreinanlegum gögnum&mdash;þar á meðal gögnum sem bætt er við spjall og rásir af [!INCLUDE [prod_short](includes/prod_short.md)]-forritinu.
 
-### <a name="understanding-where-include-prodshortincludesprodshortmd-cards-are-stored" />Að skilja hvar [!INCLUDE [prod_short](includes/prod_short.md)]-spjöld eru geymd
+### <a name="understanding-where--cards-are-stored" />Að skilja hvar [!INCLUDE [prod_short](includes/prod_short.md)]-spjöld eru geymd
 
 Eftir að kort hefur verið sent á spjall er kortið og reitirnir á kortinu afritaðir í Teams. Þessar upplýsingar heyra undir reglur Teams fyrir fyrirtækið þitt, svo sem reglur um gagnavarðveislu. Þegar upplýsingar spjalds birtast eru engin gögn í uppplýsingaglugganum geymd í Teams. Gögnin eru áfram geymd í [!INCLUDE [prod_short](includes/prod_short.md)] og verða aðeins sótt af Teams þegar notandinn velur að skoða upplýsingarnar. 
 
@@ -153,7 +153,7 @@ Stillingum er samskipað fyrir hvert umhverfi. Svo þegar þú kveikir á plötu
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

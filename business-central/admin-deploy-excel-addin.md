@@ -35,7 +35,7 @@ Fyrir notandann er uppsetningin öðruvísi fyrir uppsetningarleiðirnar tvær:
 
 Með báðum þessum uppsetningarmöguleikum er innbótin sjálfkrafa stillt til að tengjast við [!INCLUDE[prod_short](includes/prod_short.md)]Þriðji uppsetningarmöguleikinn er að setja innbótina upp handvirkt beint úr Excel. Með þessum valkosti þurfa notendur að stilla innbótina til að tengjast við [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="a-nameswitchaswitching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Skipt úr einstaklingsbundinni uppsetningu í miðlæga innleiðingu eða öfugt
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Skipt úr einstaklingsbundinni uppsetningu í miðlæga innleiðingu eða öfugt
 
 Þegar breytt er úr einstaklingsbundinni uppsetningu innbótar í miðlæga innleiðingu eða öfugt, verða Excel-skrár sem notendur bjuggu til á undan umbreytingunni fyrir áhrifum. Eftir umbreytinguna geta notendur enn opnað hvaða Excel-vinnublað sem er sem var áður búið til með því að nota aðgerðina **Breyta í Excel** eða búið til handvirkt með því að stilla Excel-innbótina. En þeir geta ekki uppfært gögnin í skránni úr Business Central eða ýtt á uppfærslur í Business Central
 
@@ -87,7 +87,7 @@ Miðlæg innleiðing er eiginleiki í Microsoft 365 stjórnendamiðstöð sem þ
 > [!NOTE]
 > Allt að sólarhringur getur liðið áður en innbótin er sett upp sjálfkrafa í Excel fyrir notendur.
 
-## <a name="a-nameinstallaindividual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Einstaklingsbundin uppsetning: Setja upp innbótina handvirkt til eigin nota
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Einstaklingsbundin uppsetning: Setja upp innbótina handvirkt til eigin nota
 
 Í flestum tilfellum þegar þú opnar Excel úr Business Central verður innbótin annaðhvort sett upp sjálfkrafa fyrir þig eða beðið verður um að þú setjir hana upp. Hinsvegar geta komið upp tilfelli þar sem þú þarft að setja innbótina upp handvirkt.
 
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

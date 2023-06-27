@@ -199,7 +199,7 @@ Til að uppfæra verð fyrir margar vörur þarf að búa til nýjam verðlista 
 
 Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[d365fin](includes/d365fin_md.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur. Frekari upplýsingar er að finna í [Útreikningur besta verðs](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

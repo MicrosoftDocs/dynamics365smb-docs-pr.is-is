@@ -112,7 +112,7 @@ ms.author: edupont
 
 4.  Velja hnappinn **Í lagi** til að vista breytingarnar.
 
-## <a name="setting-up-a-job" />Uppsetning vinnu
+## <a name="setting-up-a-job-1" />Uppsetning vinnu
 
  Í þessu dæmi hefur CRONUS náð samningum við viðskiptamann, Progressive Home Furnishings, um að hanna fundar- og matsal þeirra. Viðskiptamaðurinn er staðsettur í Bandaríkjunum og verkefnið krefst sérstaks hugbúnaðar. Verkefnastjóri nær samkomulagi við viðskiptamanninn og stofnar verk sem nær yfir samkomulagið.  
 
@@ -258,7 +258,7 @@ Línurnar eru bókaðar.
 2.  Veldu **Upplýsingar** aðgerðina. Hægt er að fara yfir nákvæmar upplýsingar um verkkostnað, kostnað og hagnað í bæði innlendri og erlendri mynt.  
 3.  Velja hnappinn **Loka** til að loka síðunni **Verkupplýsingar**.  
 
-## <a name="handling-fixed-prices" />Unnið með fast verð
+## <a name="handling-fixed-prices-1" />Unnið með fast verð
 
  CRONUS hefur tekið að sér að setja upp fundarsali. Verkefnastjórinn Petra þarf gott yfirlit yfir verkhluta verksins ásamt kostnaðaráætlun og kostnaði sem stofnað hefur verið til fyrir hvern verkhluta. Auk þess vill Prakash vita heildarverktakinn sem verð fyrir vinnsluna og upphæðina sem hefur verið reikningsfærð á þennan punkt. Þeir hafa náð samkomulagi við viðskiptavin varðandi fasta verðlagningu á vinnslunni.  
 
@@ -454,7 +454,7 @@ Eftirfarandi ferli sýnir hvernig eigi að stofna nýtt verk, stilla verðlagnin
 
  Í kynningunni var farið yfir grunnskrefin í að vinna með verk í [!INCLUDE[prod_short](includes/prod_short.md)]. Aflað hefur verið þekkingar um hvernig á að stofna nýtt verk, hvernig afrita á verk og hvernig á að meðhöndla greiðslur. Einnig hefur gefist færi á að skoða sýning á því hvernig fylgst er með vinnustundum og reikninga stofnaðir.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />Sjá tengda [Microsoft þjálfun](/training/paths/create-jobs/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/create-jobs/)
 
 ## <a name="see-also" />Sjá einnig .
 

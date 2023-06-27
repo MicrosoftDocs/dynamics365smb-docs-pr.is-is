@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-includeprodshortincludesprodshortmd" />Sandkassaumhverfi í [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-" />Sandkassaumhverfi í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu geturðu auðveldlega náð þér í öruggt umhverfi þar sem hægt er að prófa, þjálfa eða leysa úr málum án þess að það trufli verkferla eða viðskiptagögn fyrirtækisins. Slíkt umhverfi sem ekki er hægt að framleiða í er kallað *sandkassi*. Sandkassaumhverfi er staðurinn, ótengdur framleiðslu, þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa þjónustuna í öruggu umhverfi án þess að eiga á hættu að hafa áhrif á gögnin eða stillingarnar í framleiðsluumhverfi þínu.  
 
@@ -64,7 +64,7 @@ Frekari upplýsingar er að finna í [Nota hönnuð](/dynamics365/business-centr
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

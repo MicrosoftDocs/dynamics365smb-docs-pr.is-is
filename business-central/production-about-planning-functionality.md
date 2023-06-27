@@ -159,7 +159,7 @@ Upplýsingar um áætlanagerð með birgðageymslum og flutningum er að finna �
 > [!TIP]
 > Þegar unnið er á síðunum **Innkaupatillögublað** eða **Áætlunarvinnublað** geturðu skipulagt línurnar með því að raða eftir dálkheiti. Þetta er sérstaklega gagnlegt á síðunni Áætlunarvinnublað því að hægt er að nota hana fyrir marglaga framleiðslupantanir. Línum er sjálfgefið raðað eftir reitnum **Vörunúmer**. Til að flokka línur fyrir marglaga pöntun skal raða eftir **Tilv. pöntunarnr** . Einnig geta reitirnir **MPS-pöntun** og **Áætlunarstig** hjálpað til við að sýna stigveldi línanna.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

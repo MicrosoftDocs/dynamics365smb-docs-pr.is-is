@@ -17,7 +17,7 @@ Hægt er að setja upp áætlun fyrir hvert verk. Áætlunin er notuð til að �
 
 Eftirfarandi aðferð lýsir því hvernig á að meta áætlaðan kostnað við áætlun. Upplýsingar um skráningu áætlaðra- og raunverða verka og kostnað er að finna í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).  
 
-## <a name="a-namejobbudgetcostsa-to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Til að áætlað kostnað verks
+## <a name="to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Til að áætlað kostnað verks
 Þegar viðskiptavinur vill vita verð verks sem verður reikningsfært samkvæmt notkun þarf að ákvarða áætlaðan kostnað verksins. Síðan **Verð verkvara** er notuð til þess.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
@@ -43,7 +43,7 @@ Fyrir reitinn **Línugerð** skal vísa til eftirfarandi upplýsinga.
 
 Upplýsingar um skráningu áætlaðra- og raunverða verka og kostnað er að finna í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-job-planning-lines" />Sjá tengda [Microsoft þjálfun](/training/modules/set-up-job-planning-lines/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/set-up-job-planning-lines/)
 
 ## <a name="see-also" />Sjá einnig .
 

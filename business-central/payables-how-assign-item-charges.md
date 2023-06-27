@@ -95,7 +95,7 @@ Ef meðhöndla á vörukostnað fyrir hlutamóttöku, á  **síðu vörugjaldsú
 
 Þegar þú ert tilbúinn að afgreiða vöruna sem var saknað, uppfærðu  **magnið í að afgreiða**  svæði og bóka pöntunina.
 
-## <a name="see-related-microsoft-trainingtrainingmodulespost-purchase-item-charges-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

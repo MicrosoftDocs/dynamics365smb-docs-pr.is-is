@@ -111,7 +111,7 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti 
 
 Nú er hægt að koma vörunum í afhendingarhöfnina og bóka sendinguna, þar með talið tengda upprunaskjalinu, á  **síðu vöruhúsaafhendingar** . Frekari upplýsingar um  [Sendingarvörur](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespick-ship-items-warehouse" />Sjá tengda [Microsoft þjálfun](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also" />Sjá einnig .
 

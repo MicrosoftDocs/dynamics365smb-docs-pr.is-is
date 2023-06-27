@@ -43,7 +43,7 @@ Síðan **Listi yfir ástæður fyrir aðgangi að gagnagrunni** gerir þér kle
     > [!NOTE]
     > Ef hlutur sem er breytanlegur, eins og Viðskiptamannaspjald, er stilltur á **Skrifvarið**, verður aðalgagnagrunnurinn ennþá notaður óháð ástæðu fyrir aðgangi, sem gerir notendum kleift að gera breytingar eins og venjulega.
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 [Viðskiptavirkni](across-business-functionality.md)  
@@ -51,7 +51,7 @@ Síðan **Listi yfir ástæður fyrir aðgangi að gagnagrunni** gerir þér kle
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)    
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

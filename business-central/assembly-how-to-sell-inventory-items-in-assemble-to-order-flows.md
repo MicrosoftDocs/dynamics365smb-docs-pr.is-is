@@ -47,7 +47,7 @@ ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940
 > [!CAUTION]  
 >  **Reiturinn Hólfakóti**  í sölupöntuninni gæti innihaldið gildið úr  **svæðunum sameina-til-Hólfkóti**  eða  **kóti**  frá-samsetning hólfs á birgðageymsluspjaldinu. Ef það er gert  **gæti reiturinn Hólfakóti**  í sölupöntunarlínunni verið rangur fyrir þessa samsetningu samsetja og lagermagns í samsetningum. Það er góð hugmynd að tvöfalda í það að hólfið í  **reitnum Hólfakóti**  virki fyrir allt magn. Að öðrum kosti skal færa inn tvenns konar mismunandi magn í aðskildar sölupöntunarlínur.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

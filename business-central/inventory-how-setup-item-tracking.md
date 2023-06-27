@@ -109,7 +109,7 @@ Fyrir fjöldainnflutning skal nota skilgreiningarpakka til að flytja inn gögn 
 > [!NOTE]
 > Ekki er hægt að nota  **Edit í Excel**  til að stofna færslubókarlínur með rakningarupplýsingum.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Sjá einnig .
 

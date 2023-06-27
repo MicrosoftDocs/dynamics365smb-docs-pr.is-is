@@ -114,7 +114,7 @@ Ef þú valdir ekki gátreitinn **Afskr. þar til eignabókunardags.** glatar ei
 
 *Heildarafskriftir = 100 + 15 + 55,54 = 170,54*
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-advanced-fixed-assets-transactions" />Sjá tengda [Microsoft þjálfun](/training/paths/manage-advanced-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/manage-advanced-fixed-assets-transactions/)
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -89,7 +89,7 @@ Lönd hafa ólíkar þarfir að meðtöldum skatti í verði. Ef óskað er efti
 > [!NOTE]
 > Þessi stilling hefur ekki áhrif á verð á innlendum mörkuðum sem stjórnast af  **öllum verðum með skattvíxla** .
 
-### <a name="all-prices-include-tax-is-selected" />Öll verð fela í sér að skattur er valinn
+### <a name="all-prices-include-tax-is-selected-1" />Öll verð fela í sér að skattur er valinn
 
 |-|Sala innanlands|Erlent land þar sem virðisaukaskattur er innifalinn í verði|Erlent land þar sem skattur er undanþeginn|
 |------------------------|--------|--------|--------|
@@ -99,7 +99,7 @@ Lönd hafa ólíkar þarfir að meðtöldum skatti í verði. Ef óskað er efti
 
 Verðið fyrir hvern viðskiptavin breytist, allt eftir staðsetningu þeirra.
 
-### <a name="all-prices-include-tax-is-not-selected" />Öll verð eru með skatti er ekki valinn
+### <a name="all-prices-include-tax-is-not-selected-1" />Öll verð eru með skatti er ekki valinn
 
 |-|Sala innanlands|Erlent land þar sem virðisaukaskattur er innifalinn í verði|Erlent land, þar sem skattur er undanskilinn|
 |------------------------|--------|--------|--------|

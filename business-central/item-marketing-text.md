@@ -15,7 +15,7 @@ Ef um er að ræða vöru sem er skráð í Business Central er hægt að skrifa
 
 Það eru tvær leiðir til að búa til markaðstexta. Auðveldasta leiðin til að komast af stað er að nota Copilot, sem stingur upp á AI-myndaðan texta fyrir þig. Hin leiðin er að byrja frá grunni. 
 
-## <a name="a-namecopilotacreate-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a> Stofna markaðstexta með AI-myndaða (Forskoðun) með Copilot
+## <a name="create-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a> Stofna markaðstexta með AI-myndaða (Forskoðun) með Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 

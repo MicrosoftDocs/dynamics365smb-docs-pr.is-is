@@ -63,7 +63,7 @@ Hjálparuppsetningin **OneDrive uppsetning** var kynnt árið 2022 á útgáfut�
 
 Til að skipta skal bara opna og keyra uppsetningarleiðbeininguna **OneDrive uppsetning** eða opna síðuna **Uppsetning SharePoint tengingar** og velja **Fara í OneDrive uppsetningu** í tilkynningunni efst á síðunni. Fylgdu uppsetningarleiðbeiningunum eins og lýst er í hlutanum á undan.
 
-## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />Að endurheimta OneDrive og [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="restoring-onedrive-and-" />Að endurheimta OneDrive og [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Sem hluti af æfingu til að endurheimta eftir áfall gætu stjórnendur þurft að endurheimta [!INCLUDE[prod_short](includes/prod_short.md)] netumhverfi í öryggisafriti aftur í tíma og samstilla OneDrive geymslu til þess tíma. OneDrive veitir ýmis verkfæri fyrir endurheimt, t.d. endurheimt á OneDrive notanda aftur í tíma, endurheimta eldri útgáfu einstakrar skráar eða endurheimta eyddar skrár. Frekari upplýsingar er að finna í eftirfarandi greinum:
 

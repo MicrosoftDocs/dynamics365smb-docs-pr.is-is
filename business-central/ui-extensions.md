@@ -87,7 +87,7 @@ Samstarfsaðilar og endursöluaðilar Microsoft geta búið til forrit sem þeir
 > [!NOTE]
 > Ef þú ert samstarfsaðili eða endursöluaðili Microsoft og hefur áhuga á að bjóða upp á lista yfir forrit sem mælt er með skaltu skoða [Mæla með forritum frá AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) í efni stjórnanda.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 
@@ -101,7 +101,7 @@ Samstarfsaðilar og endursöluaðilar Microsoft geta búið til forrit sem þeir
 [[!INCLUDE[prod_short](includes/prod_short.md)] forrit frá öðrum veitum](ui-extensions-other.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

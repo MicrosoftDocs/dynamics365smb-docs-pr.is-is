@@ -60,7 +60,7 @@ Bókhaldslykillinn er í dálkunum til vinstri. Af dálkunum fimm lengst til hæ
 3. Í flýtiflipanum **Valkostir** skal fylla út reitina eins og þarf til að skilgreina hvað er sýnt í töflunni.  
 4. Í flýtiflipanum **Línur** skal fara með bendilinn yfir reit í töflunni til að lesa stutta lýsingu um birta upphæð.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -22,7 +22,7 @@ ms.search.form: '2500, 20350'
 
 Til að nota nafnauka þarf að vera úthlutað þeim heimildarstæðum sem fylgja henni.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Setja upp viðbót
+## <a name="install-an-extension" /><a name="install"></a>Setja upp viðbót
 
 Þú stjórnar forritum og viðbótum á síðunni **Viðbótastjórnun**. Hægt er að opna þessa síðu úr heimasvæðinu. Annars geturðu valið **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") í efst í hægra horninu skal slá inn  **framlengingu** og velja síðan tengdan tengil.  
 
@@ -103,7 +103,7 @@ Sjálfgefið er að þegar App hefur verið tekið í notkun sé ekki eytt. Ef �
 [[!INCLUDE[prod_short](includes/prod_short.md)] Viðbætur frá öðrum veitum](ui-extensions-other.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

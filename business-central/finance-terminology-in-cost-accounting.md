@@ -43,7 +43,7 @@ ms.author: edupont
 |Breytilegur kostnaður|Breytilegur kostnaður er útgjöld sem breytast í hlutfalli við aðgerðir fyrirtækis. Breytilegur kostnaður er summa jaðarkostnaðar yfir allar framleiddar einingar. Fastur og breytilegur kostnaður myndar tvo hluta af heildarkostnaði.|  
 |Afbrigði|Afbrigði er notað sem valfrjálst notandaskilgreint merki fyrir úthlutanir. Tilgangur merkisins er til að sía flokka úthlutunar.|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

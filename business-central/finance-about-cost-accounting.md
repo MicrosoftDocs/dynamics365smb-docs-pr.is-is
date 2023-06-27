@@ -68,7 +68,7 @@ Líkt og fjárhagsáætlanagerð í fjárhagnum er hægt að búa til fjárhags�
 
 Flestar skýrslur og talnagögn eru byggð á bókuðum kostnaðurfærslum. Hægt er að stilla röðun niðurstaðna og nota afmarkanir til að skilgreina hvaða gögn þurfi að birta. Hægt er að búa til skýrslur fyrir greiningu kostnaðardreifingar. Ennfremur er hægt að nota staðlaðar fjárhagsskýrslur til að skilgreina hvernig skýrslur fyrir graf yfir kostnaðargerðir birtast.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

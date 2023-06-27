@@ -231,7 +231,7 @@ Vöruhúsaaðgerðum í öllum tínslu-og hreyfingarskjölum er raðað samkvæm
 
 Sniðmát frágangs tilgreina safn forgangsreglna sem eiga við þegar frágangur er stofnaður. Til dæmis getur frágangssniðmát krafist þess að vörur séu settar í hólf með hólfainnihaldi sem hefur sama UOM. Ef ekki finnst nægilegt hólf fyrir sams konar afkastagetu verður að setja vöruna í tómt hólf. Sniðmáti er úthlutað til frágangs á vöru og staðsetningu.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Sjá einnig .
 
@@ -239,6 +239,6 @@ Sniðmát frágangs tilgreina safn forgangsreglna sem eiga við þegar frágangu
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -30,7 +30,7 @@ Aðgerðir, síður og skýrslur sem koma frá viðbótum eru sóttar af viðmó
 
 Síðuleit hefur þróast í Viðmótsleit til að hjálpa þér að koma hlutum í verk fljótt. Síðuleit gæti aðeins hjálpað þér að vafra á síður eða skýrslur. Á tæknilegu stigi er Viðmótsleit ekki lengur byggt á eldra hugtakinu MenuSuite.
 
-### <a name="i-use-on-premises-includeprodshortincludesprodshortmd-does-that-include-tell-me" />Ég nota á staðnum [!INCLUDE[prod_short](includes/prod_short.md)]. Felur það í sér Viðmótsleit?
+### <a name="i-use-on-premises--does-that-include-tell-me" />Ég nota á staðnum [!INCLUDE[prod_short](includes/prod_short.md)]. Felur það í sér Viðmótsleit?
 
 Þú getur notað Viðmótsleit í vefbiðlaranum á staðnum til að finna aðgerðir, síður og skýrslur en ekki forrit og ráðgjafarþjónustu á AppSource.
 

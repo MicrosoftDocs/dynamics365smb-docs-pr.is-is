@@ -64,7 +64,7 @@ Eftirfarandi listi sýnir lykilþætti í samstæðufyrirtækinu.
 
     Frekari upplýsingar er að finna í hlutanum [Taka með eða sleppa víddum](#dim).
 
-### <a name="a-namebusunitaadd-business-units" /><a name="busunit"></a>Bæta við fyrirtækiseiningum
+### <a name="add-business-units" /><a name="busunit"></a>Bæta við fyrirtækiseiningum
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gerir þér kleift að setja upp lista yfir fyrirtækiseiningar sem á að sameina, staðfesta bókhaldsgögn áður en þau eru sameinuð, flytja inn skrár og búa til samstæðuskýrslur.  
 
@@ -78,7 +78,7 @@ Eftirfarandi listi sýnir lykilþætti í samstæðufyrirtækinu.
 
 Ef fyrirtækið þitt notast við erlendan gjaldmiðil, er nauðsynlegt að tiltaka gengið sem nota skal í samstæðunni. Einnig verðu að slá inn samstæðuupplýsingar um fjárhagsreikninga fyrirtækiseiningarinnar. Þessum ferlum er lýst í eftirfarandi hlutum.
 
-### <a name="a-nameglaccaprepare-general-ledger-accounts-for-consolidation" /><a name="glacc"></a>Undirbúa fjárhagslykla fyrir sameiningu
+### <a name="prepare-general-ledger-accounts-for-consolidation" /><a name="glacc"></a>Undirbúa fjárhagslykla fyrir sameiningu
 
 Bókhaldslykill fyrirtækis sem á að sameina þarf að  tilgreina reikninga fyrir samsteypu. Fyrir hvern bókunarfjárhagsreikning fyrirtækja þarf að tilgreina fjárhagsreikninginn sem leggja skal inn á þegar samsteypa er framkvæmd. Þetta er vörpun sem leyfir sameiningu fyrirtækja með ólíka bókhaldslykla.
 
@@ -87,7 +87,7 @@ Ef bókhaldslyklar í fyrirtækjaeiningunni eru ekki þeir sömu og í samstæð
 1. Í hverju [!INCLUDE [prod_short](includes/prod_short.md)] viðskiptaeiningu skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
 2. Opnaðu kortið fyrir reikninginn og fylltu svo út í reitina á **Samstæða** flýtiflipanum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="a-nameexchratesaspecify-exchange-rates-for-consolidations" /><a name="exchrates"></a>Tilgreina gengi gjaldmiðla fyrir samstæður
+### <a name="specify-exchange-rates-for-consolidations" /><a name="exchrates"></a>Tilgreina gengi gjaldmiðla fyrir samstæður
 
 Ef fyrirtækjaeining notar annan gjaldmiðil en samstæðufyrirtækið, er nauðsynlegt að tiltaka hvaða aðferðir eru notaðar við útreikning gjaldmiðla á hverjum reikningi áður en þú steypir saman. Fyrir hvern fjárhagsreikning ákvarðar innihald reitsins **Umreikniaðferð samstæðunnar** hvaða gengi gjaldmiðla er notað. Í samstæðufyrirtækinu, á hverju spjaldi fyrirtækiseiningarinnar í **Töflunni Gengi gjaldmiðla** er tilgreint hvort samstæðan noti gengi gjaldmiðla frá fyrirtækiseiningunni eða samstæðufyrirtækinu. Ef notað er gengi gjaldmiðla frá samstæðufyrirtækinu er hægt að breyta gengi gjaldmiðla hjá fyrirtækiseiningunni. Fyrir fyrirtækiseiningu, ef **Gengistafla á spjaldi** fyrirtækjaeiningarinnar inniheldur **Staðbundið**, er hægt að breyta genginu af spjaldi fyrirtækjaeiningarinnar. Gengi er afritað af töflunni **Gengi** en það er hægt að breyta þeim áður en samruni á sér stað.
 
@@ -110,7 +110,7 @@ Til að tilgreina gengi gjaldmiðla fyrir fyrirtækiseiningar, skal fylgja eftir
 4. Veldu aðgerðina **Lokagengi**.  
 5. Í reitnum **Upphæð viðmiðunargengis** skal færa inn gengið.
 
-### <a name="a-namedimainclude-or-exclude-dimensions" /><a name="dim"></a>Taka með eða útiloka víddir
+### <a name="include-or-exclude-dimensions" /><a name="dim"></a>Taka með eða útiloka víddir
 
 Hægt er að sameina víddarupplýsingar sem og fjárhagsreikninga.
 
@@ -120,11 +120,11 @@ Hægt er að sameina víddarupplýsingar sem og fjárhagsreikninga.
   * Til að sameina víddargildiskóðann í fyrirtækiseiningunni með öðrum víddargildiskóða í samstæðufyrirtækinu skal fylla út reitinn **Samstæðukóði** í þeim víddum sem eiga við.  
 * Bæta viðeigandi víddum við viðeigandi fjárhagslykla
 
-### <a name="a-nameexcludeaexclude-a-company-from-consolidation" /><a name="exclude"></a>Útiloka fyrirtæki frá samstæðu
+### <a name="exclude-a-company-from-consolidation" /><a name="exclude"></a>Útiloka fyrirtæki frá samstæðu
 
 Ef þú vilt ekki að fyrirtæki sé hluti af samstæðunni, geturðu útilokað það. Til að gera það, skal fara í kort fyrirtækiseiningarinnar og hreinsa **Steypa saman** gátreitinn.
 
-### <a name="a-nameincludeainclude-a-partially-owned-company-in-consolidation" /><a name="include"></a>Hafa fyrirtæki í hlutaeign með í samstæðu
+### <a name="include-a-partially-owned-company-in-consolidation" /><a name="include"></a>Hafa fyrirtæki í hlutaeign með í samstæðu
 
 Ef þú átt aðeins hlut í fyrirtæki geturðu tengt prósentutölu, sem samsvarar hlutaeigninni í fyrirtækinu, við hverja færslu. Ef þú átt til dæmis 70% hlut í fyrirtækinu, mun samlegðin ná til $70 af reikningi upp á $100. Til að tilgreina prósentutölu eignar þinnar í fyrirtækinu, skal fara í kort fyrirtækiseiningarinnar og slá inn prósentuna í reitnum **Samstæða %**.  
 

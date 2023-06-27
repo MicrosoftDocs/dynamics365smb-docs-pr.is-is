@@ -53,7 +53,7 @@ ms.service: dynamics365-business-central
 
 **Breyta í Excel:** Til að nota Excel-viðbótina til að gera breytingar í Excel og ýta breytingunum aftur í [!INCLUDE[prod_short](includes/prod_short.md)] þarftu Excel 2019 eða síðar. Frekari upplýsingar eru í [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="a-nametaca-using-the-business-central-administration-center" /><a name="TAC"></a> Notkun stjórnunarmiðstöðvar Business Central
+## <a name="using-the-business-central-administration-center" /><a name="TAC"></a> Notkun stjórnunarmiðstöðvar Business Central
 
 Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af eftirfarandi vöfrum:
 

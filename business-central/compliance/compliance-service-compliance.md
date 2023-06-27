@@ -31,7 +31,7 @@ Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Micros
 [Reglufylgni forrits](compliance-application-compliance.md)  
 [Vottanir](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

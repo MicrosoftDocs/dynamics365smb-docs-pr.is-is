@@ -39,7 +39,7 @@ ms.search.form: '6250,'
 2. Veldu aðgerðina **Samstilla núna**.  
 3. Ef hægt er að samstilla færslu í aðra áttina, skal velja valkostinn sem tilgreinir átt gagnauppfærslu og velja síðan **Í lagi**.  
 
-## <a name="to-synchronize-a-single-record-from-includecrmmdincludescrmmdmd" />Að samstilla staka færslu úr [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="to-synchronize-a-single-record-from-" />Að samstilla staka færslu úr [!INCLUDE[crm_md](includes/crm_md.md)]
 
 1. Í [!INCLUDE[crm_md](includes/crm_md.md)] skal opna skjámynd fyrir færsluna sem á að tengja. Til dæmis skjámynd reiknings- eða tengiliðaspjalds.  
 2. Veldu aðgerðina **[!INCLUDE[prod_short](includes/prod_short.md)]** í borðanum til að opna og tengja færslu sjálfkrafa.

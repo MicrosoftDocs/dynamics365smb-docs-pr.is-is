@@ -115,7 +115,7 @@ Hægt er að nota runuvinnsluna **Afrita afskriftabók** til að afrita færslur
 
 Afrituðu línurnar eru annaðhvort búnar til í fjárhagsbók eigna eða eignabókinni eftir því hvort afskriftabókin sem þú ert að afrita er með samþættingu við fjárhag.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescalculate-post-depreciations" />Sjá tengda [Microsoft þjálfun](/training/modules/calculate-post-depreciations/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/calculate-post-depreciations/)
 
 ## <a name="see-also" />Sjá einnig .
 

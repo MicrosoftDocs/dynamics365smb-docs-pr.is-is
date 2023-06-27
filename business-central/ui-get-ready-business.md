@@ -71,7 +71,7 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð M
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-includeprodshortincludesprodshortmd" />Setja upp fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-" />Setja upp fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Greinarnar [byrja strax](quick-start-business-central.md) geta hjálpað þér að taka fyrstu skrefin í uppsetningu [!INCLUDE [prod_short](includes/prod_short.md)] fyrir fyrirtækið þitt. Í [!INCLUDE [prod_short](includes/prod_short.md)] sýnir síðan **Uppsetning með hjálp** leiðbeiningar um uppsetningu sem geta hjálpað þér. Það fer eftir hlutverkinu þínu og landi eða svæði hvaða uppsetningarleiðbeiningar með hjálp sjást í eftirfarandi töflu:
 
@@ -112,6 +112,6 @@ Greinarnar [byrja strax](quick-start-business-central.md) geta hjálpað þér a
 [Flytja gögn](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Prufuútgáfa og áskrift](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

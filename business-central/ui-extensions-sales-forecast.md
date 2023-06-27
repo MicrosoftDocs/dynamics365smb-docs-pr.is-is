@@ -59,7 +59,7 @@ Til að spá fyrir um sölu í framtíðinni þarf vefþjónustan magnbundin gö
 6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu- og birgðaspár** og velja síðan viðkomandi tengil.  
 7. Stækkaðu flýtiflipann **Almennt** og fylltu síðan út reiti fyrir API-vefslóð og API-lykil.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-sales-inventory-forecast-extension" />Sjá tengda [Microsoft þjálfun](/training/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## <a name="see-also" />Sjá einnig .
 

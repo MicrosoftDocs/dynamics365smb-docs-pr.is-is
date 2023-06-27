@@ -88,7 +88,7 @@ Eftirfarandi hlutar lýsa því hvernig á að setja upp vinnuskýrslur ef þú 
 > [!NOTE]  
 > Ekki er hægt að auðkenni samþykkjanda vinnuskýrslu ef tíma fyrir eru tímaskýrslur sem ekki hefur verið unnið með og sem hafa stöðuna **Sent** eða **Opið**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -25,7 +25,7 @@ Ef þegar er búið að samþætta [!INCLUDE[crm_md](includes/crm_md.md)] við [
 > [!NOTE]
 > Endurtenging um [!INCLUDE[prod_short](includes/cds_long_md.md)] mun nota sjálfgefnar samstillingarstillingar og mun skrifa yfir allar grunnstillingar sem eru til staðar. Til dæmis verða sjálfgefnar töfluvarpanir notaðar.
 
-## <a name="integration-settings-that-are-specific-to-a-includecrmmdincludescrmmdmd-integration" />Stillingar samþættingar sem eiga sérstaklega við um [!INCLUDE[crm_md](includes/crm_md.md)]-samþættingu
+## <a name="integration-settings-that-are-specific-to-a--integration" />Stillingar samþættingar sem eiga sérstaklega við um [!INCLUDE[crm_md](includes/crm_md.md)]-samþættingu
 Samþætting við [!INCLUDE[prod_short](includes/prod_short.md)] gerist í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)] og margar staðlaðar stillingar og töflur eru í boði. Ásamt stöðluðum stillingum, eru nokkrar sem eiga sérstaklega við um [!INCLUDE[crm_md](includes/crm_md.md)]. Stillingarnar eru taldar upp í eftirfarandi hlutum.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-sales" />Heimildir og öryggishlutverk fyrir notandareikninga í Sales

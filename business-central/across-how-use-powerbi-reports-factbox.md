@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-includeprodshortincludesprodshortmd" />Býr til Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-" />Býr til Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] inniheldur stjórneiningu Power BI upplýsingareits á mörgum mikilvægum listasíðum. Tilgangurinn með þessum upplýsingareit er að sýna Power BI-skýrslur sem tengjast færslum í listunum sem veita betri innsýn í gögnin. Hugmyndin er að þegar farið er milli lína í listanum uppfærist skýrslan uppfærð fyrir valda færslu.
 
@@ -116,7 +116,7 @@ Sannprófa verður að skýrslan sem notandi vill að birtist sé fyrsta síðan
 
 Staðfestið að stærð skýrslu sé stillt á 325 x 310 pixla. Vista skal skýrsluna og síðan endurnýja listasíðuna.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

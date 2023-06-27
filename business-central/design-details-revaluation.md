@@ -89,7 +89,7 @@ Við útreikning á endurreiknanlegu magni fyrir vörur sem nota staðlaða aðf
 -   Virðisfærsla með færslugerðinni **Frávik**. Þessi færsla skráir muninn milli reikningsfærðs kostnaðar og endurmetins staðalkostnaðar.  
 -   Virðisfærsla með færslugerðinni **Endurmat**. Þessi færsla sýnir bakfærslu á endurmati væntanlegs kostnaðar.  
 
-### <a name="example" />Dæmi
+### <a name="example-1" />Dæmi
 Eftirfarandi dæmi, sem byggir á framleiðslu á keðju í síðasta dæmi, sýnir hvernig þrjár tegundir af færslum eru búnar til. Þetta er byggt á eftirfarandi atburðarás:  
 
 1.  Notandinn bókar innkaupatenglana samkvæmt móttöku með einingakostnaði upp á SGM 2.00.  
@@ -123,7 +123,7 @@ Eftirfarandi tafla sýnir skilyrði sem eru notuð fyrir vöru sem ekki notar me
 |Villa|Síðar en endurmatsfærslu nr.|Jafnt bókunardagsetningu endurmats|Já|  
 |F|Síðar en endurmatsfærslu nr.|Síðar en bókunardagsetning endurmats|Já|  
 
-### <a name="example" />Dæmi
+### <a name="example-2" />Dæmi
 Eftirfarandi dæmi, sem sýnir endurmat vöru sem notar FIFO-kostnaðarmatsaðferð, er byggt á eftirfarandi atburðarás:  
 
 1.  01-01-20 bókar notandinn innkaup sex eininga.  

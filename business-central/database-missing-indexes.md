@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/09/2022
 ---
-# <a name="database-missing-indexes-in-includeprodlongincludesprodlongmd" />Atriðaskrár sem vantar í gagnagrunn í [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-missing-indexes-in-" />Atriðaskrár sem vantar í gagnagrunn í [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Stjórnendur og þróunaraðilar geta gert gagnagrunninn skilvirkari og að aukið afköst forritsins með því að nota upplýsingar sem dregnar eru út af **Atriðaskrár sem vantar í gagnagrunn** í [!INCLUDE[prod_short](includes/prod_short.md)].
 

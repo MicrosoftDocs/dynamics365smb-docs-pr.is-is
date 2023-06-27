@@ -35,7 +35,7 @@ Ef þú vilt skoða allan feril VSK færslna, þá býr hver VSK-bókun til fær
 > [!NOTE]
 > Hverju [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi er ætlað að halda utan um eftirlitsskýrslugerð í einu landi. Hollenska útgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] sér til dæmis um VSK-skýrslugerð í Hollandi en ekki í öðrum löndum. Á sama hátt höndlar útgáfa í Bandaríkjunum [!INCLUDE[prod_short](includes/prod_short.md)] 1099 skýrslugerð í Bandaríkjunum og styður ekki VAT skýrslur í öðrum löndum, nema með viðbót sem umhverfi samstarfsaðila þíns eða breytingu á kóða tiltekins viðskiptavinar.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Um EC söluyfirlitsskýrslu
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Um EC söluyfirlitsskýrslu
 
 Í Evrópusambandinu og Bretlandi þurfa öll fyrirtæki sem selja vörur og þjónustu til VSK skráðra viðskiptamanna, þ.m.t. viðskiptamann í öðrum löndum Evrópusambandsins, að skila inn rafrænni útgáfu af söluyfirlitsskýrslu Evrópubandalagsins til tolla- og skattayfirvalda. **Söluyfirlitsskýrsla Evrópubandalaga** (EC) virkar aðeins í löndum innan ESB.
 
@@ -53,7 +53,7 @@ Eftir að skattayfirvöld fara yfir skýrsluna, munu þau senda tengilið fyrirt
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>Um skýrsluna um VSK skil
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>Um skýrsluna um VSK skil
 
 Nota þessa skýrslu til að skila inn VSK fyrir sölu- og innkaupaskjöl, eins og innkaupa- og sölupantanir, reikninga og kreditreikninga. Upplýsingarnar koma fram með sama sniði í skýrslunni og á skýrslublaði frá tolla- og skattayfirvöldum.  
 
@@ -73,7 +73,7 @@ Til að skila VSK til skattayfirvalda á rafrænu formi, þarf að tengja [!INCL
     > [!NOTE]  
     > Ráðlegt er að er að prófa tenginguna. Til að gera það skal velja **Prufustilling** gátreitinn, svo undirbúa og senda inn VSK skýrslurnar eins og lýst er í [Að undirbúa og senda inn VSK skýrslu](#to-prepare-and-submit-a-vat-report) hlutanum. Þegar þjónustan er á Prufustillingu, prófar hún hvort skattayfirvöld geti tekið á móti skýrslunni, og staðan á skýrslunni mun gefa til kynna hvort prufuinnsendingin hafi heppnast. Mikilvægt er að muna að þetta er ekki raunveruleg innsending. Ef senda á skýrsluna inn í raun, þarf að að hreinsa gátreitinn **Prufustilling** og endurtaka innsendingarferlið.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />Að setja upp VSK-skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-" />Að setja upp VSK-skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ Eftirfarandi tafla lýsir kóðaeiningunum sem þú þarft að stofna fyrir ský
 > [!Note]
 > Þegar stofnaðar eru kóðaeiningar fyrir skýrsluna skal veita athygli gildinu í reitnum **VSK skýrsla útgáfa**. Þessi reitur verður að endurspegla útgáfuna af skýrslunni sem er eða var send til skattayfirvalda. Þú gætir til dæmis fært inn **2021** í reitinn til að gefa til kynna að skýrslan samræmist þeim kröfum sem voru í gildi það ár. Til að finna núgildandi útgáfu skal hafa samband við skattayfirvöld.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

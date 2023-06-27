@@ -33,7 +33,7 @@ Flestar flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða
 > [!NOTE]
 > Auk altækra flýtilykla sem lýst er í þessari grein er hægt að nálgast fjölda sértækra flýtilykla. Til dæmis í hinni almennu útgáfu af  [!INCLUDE[prod_short](includes/prod_short.md)],  <kbd>F9</kbd>  bókar skjal og  <kbd>CTRL</kbd>+<kbd>F7</kbd>  sýnir færslurnar fyrir færslu þegar færslan er opnuð í spjaldi. Í þessari grein eru nokkrar af algengari viðskiptatengdum flýtileiðum sem sýndar eru með skáletri. Hafðu í huga að raunverulegar flýtileiðir geta verið öðruvísi í lausninni þinni. Í notandaviðmótinu er flýtilykillinn sýndur í ábendingunni fyrir viðkomandi aðgerð.
 
-## <a name="a-namekeyboarda-general-keyboard-shortcuts" /><a name="Keyboard"></a> Almennar flýtivísanir
+## <a name="general-keyboard-shortcuts" /><a name="Keyboard"></a> Almennar flýtivísanir
 
 Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi einingar á síðu. Einingar eru hluti eins og aðgerðir, fellilistar, leit og fleira. Fyrir nánari upplýsingar um flýtivísanir til að fletta í færslum þegar farið er inn í lista skal sjá næsta kafla.
 
@@ -90,7 +90,7 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |*<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>F</kbd>*|Senda tillögur að línum á síðunni fyrir sjóðstreymisvinnublöð.|Á ekki við.|
 |*<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>I</kbd>*|Skoða rað- og lotunúmer sem úthlutað er á línuatriði í skjalinu eða færslubókinni.|Á ekki við.|
 
-### <a name="a-namenavigateshortcutsanavigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Flett milli raða og dálka
+### <a name="navigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Flett milli raða og dálka
 
 Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!INCLUDE[prod_short](includes/prod_short.md)], svo sem listasíður og **Línur** sem hlutar skjala. Flutningur frá einu hólfi til annars yfir hnitanet er að fullu virkt fyrir lyklaborð.
 
@@ -111,7 +111,7 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 | <kbd>Flipanum</kbd> | Í breytanlegum lista, farðu í sömu röð til næsta reit til hægri. | Á ekki við. | 
 | <kbd>Flipinn vakt</kbd>+<kbd></kbd> | Í breytanlegum lista, farðu í sömu röð í fyrri reit til vinstri. | Á ekki við. |
 
-### <a name="a-namecopyrowsaselecting-copying-and-pasting" /><a name="CopyRows"></a>Val, afritun og líming
+### <a name="selecting-copying-and-pasting" /><a name="CopyRows"></a>Val, afritun og líming
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 |<kbd>Vaktsíða</kbd>+<kbd>niður</kbd><br /><br />(<kbd>Vakt</kbd>+<kbd>FN</kbd>+<kbd>upp ör</kbd>)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir neðan núverandi val af línum.|Á ekki við.|
 |<kbd>F8</kbd>|Afritaðu reitinn í sama dálk raðarinnar hér fyrir ofan og límdu það inn í núverandi röð. Þú getur aðeins gert þetta í breytanlegum listum. Ef þessari flýtivísun er fylgt með  <kbd>flipa</kbd>  er hægt að fylla út reiti í línuatriðum sem á að hafa sama gildi og línan hér að ofan.|Á ekki við.|
 
-### <a name="a-namekeyboardfilterasearching-and-filtering-lists" /><a name="KeyboardFilter"></a>Leit og síun lista
+### <a name="searching-and-filtering-lists" /><a name="KeyboardFilter"></a>Leit og síun lista
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
@@ -169,7 +169,7 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 |<kbd>Shift</kbd>+<kbd>F6</kbd>|Farið er á flipann <kbd>fyrri hraður</kbd>  eða hluti (undirsíða).|
 |*<kbd>Shift</kbd>+<kbd>F9</kbd>*|Bóka og prenta skjal.|
 
-## <a name="a-namequickentryaquick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Flýtileiðir flýtifærslu fyrir reiti
+## <a name="quick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Flýtileiðir flýtifærslu fyrir reiti
 
 Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, skjölum og listasíðum. Á listum er ekki hægt að nota flýtivísana þegar Listinn er í flísinni skoðaður. Nánari upplýsingar um flýtifærslu er að finna í [Hröðun gagnaskráningu með flýtifærslu](ui-enter-data.md#QuickEntry).
 
@@ -179,7 +179,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>Vakta</kbd>+<kbd>Enter</kbd>|Staðfestu gildið í núverandi reit og farðu í fyrri reit flýtifærslu.||
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Staðfestu gildið í núverandi dálki og farðu í næsta reit flýtifærslu út fyrir listann.<br /><br />Þessi flýtileið gildir um innbyggða lista á síðu, svo sem vörulínur í sölupöntun. Það gerir þér kleift að komast fljótt út úr listanum og halda áfram að slá inn gögn í öðrum reitum á síðunni.|
 
-## <a name="a-namecalendarshortcutsa-keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Flýtivísanir í dagatalinu (Dagsetningarval)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Flýtivísanir í dagatalinu (Dagsetningarval)
 
 Þegar þú setur dagsetningarreit getur þú annaðhvort slegið inn dagsetninguna handvirkt eða opnað dagatal (dagsetningarval) sem leyfir þér að velja þann dag sem þú vilt. Eftirfarandi tafla lýsir flýtivísunum fyrir dagatalið.
 
@@ -204,7 +204,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>t</kbd>|Færðu inn daginn í dag. „T“ stendur fyrir „Í dag“.|
 |<kbd>w</kbd>|Færðu inn vinnudagsetninguna. Frekari upplýsingar er að finna í [Vinnudagsetning](ui-change-basic-settings.md#work-date)|
 
-## <a name="a-namereportpreviewshortcutsakeyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Flýtivísanir í forskoðun skýrslu
+## <a name="keyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Flýtivísanir í forskoðun skýrslu
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
@@ -218,7 +218,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>Síða niður</kbd><br /><br />(<kbd>FN</kbd>+<kbd>upp arrow</kbd>)|Fara á næstu síðu skýrslunnar.|
 |<kbd>Síða upp</kbd><br /><br />(<kbd>FN</kbd>+<kbd>upp arrow</kbd>)|Fara á fyrri síðu skýrslunnar.|
 
-## <a name="a-namezoomshortcutsakeyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Flýtilyklar fyrir aukinn eða minnkaðan aðdrátt
+## <a name="keyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Flýtilyklar fyrir aukinn eða minnkaðan aðdrátt
 
 |Velja skal þessa lykla|Til að gera þetta|
 |--------------------------------|----------|
@@ -226,7 +226,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>CTRL</kbd>+<kbd>-</kbd>|Minnka aðdrátt að núverandi síðu.|  
 |<kbd>CTRL</kbd>+<kbd>0</kbd>|Auka eða minnka aðdrátt í 100% á núverandi síðu.|  
 
-## <a name="a-nameroleexplorerakeyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Flýtilyklar fyrir Hlutverkaleit
+## <a name="keyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Flýtilyklar fyrir Hlutverkaleit
 
 Hlutverkaleit veitir yfirlit og flýtiaðgang að öllum viðskiptaeiginleikum sem eru í boði fyrir hlutverkið. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)
 
@@ -238,7 +238,7 @@ Hlutverkaleit veitir yfirlit og flýtiaðgang að öllum viðskiptaeiginleikum s
 |<kbd>Shift</kbd> <kbd>F3</kbd>  eða  <kbd>CTRL</kbd>+<kbd>upp ör</kbd>|Flytjið áherslu á fyrri eiginleikann sem fannst í hlutverkaleit.|
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>|Stækkaðu eða dragðu saman alla undirhnúta ásamt hnútum á efsta stigi þegar aðgerðin **Stækka** eða **Draga saman** er valin.|
 
-## <a name="a-namekeypada-numeric-keypad-shortcuts" /><a name="keypad"></a> Flýtileiðir talnaborðs
+## <a name="numeric-keypad-shortcuts" /><a name="keypad"></a> Flýtileiðir talnaborðs
 
 Eftirfarandi tafla lýsir flýtileiðum á talnaborði.
 

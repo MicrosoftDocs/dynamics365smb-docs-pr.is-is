@@ -121,7 +121,7 @@ Reitirnir **Dagsetning skjals**, **Upphæð** á síðunni **Fjárhagsfærslur V
 
 Áður en forspárþjónusta á netinu er notuð þjappar [!INCLUDE[prod_short](includes/prod_short.md)] færslum eftir **Dagsetning skjals** út frá gildinu í reitnum **Tímabilsgerð** á síðunni **Uppsetning sjóðstreymis**.
 
-## <a name="a-nameanchortextacreate-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Búa til og nota eigin fyrirsjáanlega vefþjónustu fyrir sjóðstreymisspár
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Búa til og nota eigin fyrirsjáanlega vefþjónustu fyrir sjóðstreymisspár
 
 Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu líkani sem heitir **Spárlíkan fyrir Microsoft Business Central**. Þetta líkan er aðgengilegt á netinu í Azure AI. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
 
@@ -134,7 +134,7 @@ Reitirnir **Dagsetning skjals**, **Upphæð** á síðunni **Fjárhagsfærslur V
 7. Stækkaðu flýtiflipann **Azure AI** og fylltu síðan út reitina, þar á meðal API-vefslóðina og API-lykilinn sem kemur úr stúdíói Azure-vélnáms. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Í Hlutverkamiðstöð endurskoðanda skal velja aðgerðina **Endurreikna spá** undir grafinu **Sjóðstreymisspá**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -99,7 +99,7 @@ Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að 
 | **Samþykktur kostnaðarreikningur** |Útgjaldareikningurinn sem inniheldur samþykkt útgjöld verksins. Það er vanalega debetkostnaðarreikningur. |
 | **Samþykktur sölureikningur** |Tekjureikningurinn sem inniheldur samþykktar tekjur verksins. Það er vanalega kredittekjureikningur. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Sjá einnig .
 

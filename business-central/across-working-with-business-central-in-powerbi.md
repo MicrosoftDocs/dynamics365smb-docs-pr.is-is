@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# <a name="work-with-include-prodshortincludesprodshortmd-data-in-power-bi" />Vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI
+# <a name="work-with--data-in-power-bi" />Vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI
 
 Í þessari grein lærir þú undirstöðuatriði varðandi vinnu við skýrslur og mælaborð í Power BI sem nota [!INCLUDE [prod_short](includes/prod_short.md)] sem gagnaveitu. Greinin fjallar um suma þætti sem munu hjálpa til við að hefjast handa sem [!INCLUDE[prod_short](includes/prod_short.md)] notandi. Almennar leiðbeiningar og leiðbeiningar um notkun á Power BI er að finna í [Power BI fylgigögnum fyrir neytendur](/power-bi/consumer).
 
@@ -44,7 +44,7 @@ Hver Power BI skýrsla byggir á gagnasafni sem fær gögn frá [!INCLUDE[prod_s
 
 Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/connect-data/refresh-scheduled-refresh)
 
-## <a name="a-nameuploadaupload-reports-from-files" /><a name="upload"></a>Hlaða upp skýrslum úr skrám
+## <a name="upload-reports-from-files" /><a name="upload"></a>Hlaða upp skýrslum úr skrám
 
 Hægt er að dreifa Power BI skýrslum á meðal notenda sem. pbix-skrám. Ef þú ert með .pbix-skrá er hægt að hlaða skránni upp á vinnusvæði. Til að hlaða upp skýrslu skal gera eftirfarandi:
 
@@ -62,7 +62,7 @@ Frekari upplýsingar er að finna á [Hlaða upp skýrslu á þjónustu](/power-
 > [!TIP]
 > Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á netinu geturðu einnig hlaðið upp skýrslu úr [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Vinna með Power BI skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] - Hlaða upp skýrslum](across-working-with-powerbi.md#upload).
 
-## <a name="a-nameshareashare-reports-with-others" /><a name="share"></a>Deila skýrslum með öðrum
+## <a name="share-reports-with-others" /><a name="share"></a>Deila skýrslum með öðrum
 
 Þegar skýrsla er á vinnusvæðinu er hægt að deila henni með öðrum í fyrirtækinu.
 
@@ -71,7 +71,7 @@ Til að deila skýrslu, í listaskýrslum, eða í opinni skýrslu skal velja **
 > [!NOTE]
 > Þú verður að hafa  [Power BI Pro-leyfi](/power-bi/service-features-license-type) og fólkið sem þú deilir með einnig. Efnið verður að vera á vinnusvæði með [Premium réttindi](/power-bi/service-premium-what-is). Nánari upplýsingar eru í [Aðferðir við að deila vinnu þinn í Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

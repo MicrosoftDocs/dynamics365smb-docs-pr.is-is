@@ -220,7 +220,7 @@ Eftirfarandi ferli byggist á glugganum **Færslubók**, en á við um allar að
 
 Gildi í **Skjal nr.** reitnum breytast þar sem þörf er á, þannig að númer fylgiskjala á stakri eða nokkrum færslubókarlínum eru í réttri röð. Hægt er að bóka færslubókina eftir að skjöl hafa verið númeruð aftur.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 

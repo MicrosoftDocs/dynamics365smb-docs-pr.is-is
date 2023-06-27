@@ -11,7 +11,7 @@ ms.date: 09/07/2022
 ms.author: jswymer
 ---
 
-# <a name="building-power-bi-reports-to-display-include-prodlongincludesprodlongmd-data" />Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)] -gögn
+# <a name="building-power-bi-reports-to-display--data" />Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)] -gögn
 
 Notandi getur gert [!INCLUDE[prod_long](includes/prod_long.md)]-gögnin sín aðgengileg sem gagnaveitu í Power BI Desktop og byggt upp öflugar skýrslur um stöðu síns reksturs.
 
@@ -46,7 +46,7 @@ Notandi getur gert [!INCLUDE[prod_long](includes/prod_long.md)]-gögnin sín að
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="a-namegetdataaadd-includeprodshortincludesprodshortmd-as-a-data-source-in-power-bi-desktop" /><a name="getdata"></a>Bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnaveitu í Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop" /><a name="getdata"></a>Bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnaveitu í Power BI Desktop
 
 Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnagjafa á Power BI Desktop. Þegar það er tengt er hægt að byrja að búa til skýrslu.
 
@@ -108,7 +108,7 @@ Mikilvægt er að gera skýrslurnar nothæfar fyrir eins marga og mögulegt er. 
 
 Hægt er að búa til skýrslur sem birtast í upplýsingareit á [!INCLUDE [prod_short](includes/prod_short.md)]-listasíðu. Í skýrslunum má finna gögn um færslurnar sem eru valdar á listanum. Að búa til þessar skýrslur er svipað og í öðrum skýrslum, fyrir utan að það eru nokkrir hlutir sem þarf að gera til að ganga úr skugga um að skýrslurnar birtist eins og þær eiga að gera. Frekari upplýsingar er að finna í [´Búa Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="a-namethemeausing-the-include-prodshortincludesprodshortmd-report-theme-optional" /><a name="theme"></a>Notkun [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema (valfrjálst)
+## <a name="using-the--report-theme-optional" /><a name="theme"></a>Notkun [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema (valfrjálst)
 
 Áður en þú býrð til skýrsluna mælum við með að þú sækir og flytjir inn [!INCLUDE [prod_short](includes/prod_short.md)] þemaskrána. Þemaskráin býr til litaspjald þannig að þú getir búið til skýrslur í sama litastíl og [!INCLUDE [prod_short](includes/prod_short.md)] forrit án þess að þurfa að skilgreina sérsniðna liti fyrir hvert myndefni.
 
@@ -180,7 +180,7 @@ Frá og með febrúar 2022 munu nýjar skýrslur sem nota Business Central-gögn
 9. Velja **Ekkert**.
 10. Veldu **Loka og nota** af borðanum til að vista breytingar og loka Power Query ritlinum.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

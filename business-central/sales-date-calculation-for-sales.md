@@ -36,7 +36,7 @@ Ef ekki er tilgreind umbeðin afgreiðsludagsetning á sölupöntunarlínunni, e
 - *Afhendingardagsetning + afgr.tími vara á útl. úr vöruh. = Áætluð afhendingardagsetning*
 - *áætluð afhendingardagsetning + flutningstími = áætluð afgreiðsludagsetning*
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
 
 ## <a name="see-also" />Sjá einnig .
 

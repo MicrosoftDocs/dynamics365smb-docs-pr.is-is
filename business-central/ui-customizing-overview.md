@@ -28,13 +28,13 @@ ms.author: edupont
 > [!NOTE]
 > Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga. Þess vegna geta notendur með **Grunnútgáfu** stundum lesið um virkni og viðmótseiginleika sem ekki eru sýnilegir í notendaviðmóti þeirra. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

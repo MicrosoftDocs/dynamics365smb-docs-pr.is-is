@@ -36,7 +36,7 @@ Eins og er eru engar væntanlegar eftirlitsaðgerðir eða kröfur. Ef þú ert 
 [Vinna með [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

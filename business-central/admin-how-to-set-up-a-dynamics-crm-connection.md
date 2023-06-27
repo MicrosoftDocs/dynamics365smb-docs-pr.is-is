@@ -29,7 +29,7 @@ ms.author: bholtorf
 > Þessi skref útskýra ferlið fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu.
 > Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og ekki er notaður Azure Active Directory-reikningur til að tengjast [!INCLUDE [cds_long_md](includes/cds_long_md.md)], þarf einnig að tilgreina notandanafn og aðgangsorð notandareiknings fyrir samþættinguna. Þessi reikningur er kallaður reikningur „samþættingarnotanda“. Ef notaður er Azure Active Directory-reikningur er reikningur samþættingarnotanda ekki nauðsynlegur eða sýndur. Samþættingarnotandinn verður settur upp sjálfkrafa og þarf ekki leyfi.
 
-## <a name="set-up-a-connection-to-includecdslongmdincludescdslongmdmd" />Setja upp tengingu við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## <a name="set-up-a-connection-to-" />Setja upp tengingu við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 Fyrir allar auðkennisgerðir aðrar en Microsoft 365-auðkenningu, er sett upp tengingin við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] á síðunni **Dataverse Uppsetning tengingar**. Fyrir Microsoft 365 auðkenningu er mælt með að þú notir uppsetningarleiðbeiningar **DataverseUppsetning tengingar** með hjálp. Leiðbeiningarnar auðvelda uppsetningu á tengingu og tilgreina ítarlega eiginleika, t.d. eignarhaldslíkan og upphaflega samstillingu.  
 
@@ -206,7 +206,7 @@ Eftirfarandi skref gera ráð fyrir að nota Azure AD til að stjórna auðkennu
    > [!NOTE]
    > Ef þú ert ekki beðinn um að skrá þig inn með stjórnandareikningnum þínum, er það líklega vegna þess að lokað er fyrir sprettiglugga. Til að skrá þig inn skaltu leyfa sprettiglugga úr `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-includecdslongmdincludescdslongmdmd" />Að aftengjast [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### <a name="to-disconnect-from-" />Að aftengjast [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Dataverse Uppsetning tengingar** og velja síðan viðkomandi tengil.
 2. Á síðunni **Dataverse Uppsetning CDS-tengingar** skal slökkva á víxlhnappnum **Virkjað**.  

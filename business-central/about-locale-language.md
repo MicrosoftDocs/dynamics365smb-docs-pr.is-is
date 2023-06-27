@@ -50,7 +50,7 @@ Sum fyrirtæki nota ytri þjónustu sem staðfestir upplýsingar um aðsetur í 
 
 Á síðunni **Hjálp og notendaþjónusta** er að finna þá útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] sem fyrirtækið byggir á. Ef þú vilt byggja fyrirtæki á annarri útgáfu getur stjórnandinn þinn stofnað nýtt framleiðsluumhverfi. Frekari upplýsingar eru í [Stofna nýtt framleiðsluumhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) í Developer og IT Pro Help.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Tungumál [!INCLUDE[prod_short](includes/prod_short.md)] hjálparinnar
+## <a name="languages-of-the--help" />Tungumál [!INCLUDE[prod_short](includes/prod_short.md)] hjálparinnar
 
 Hjálparefnið fyrir sjálfgefna útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] birtist í Microsoft Learn. Efnið er fáanlegt á mismunandi tungumálum. Ef þú nálgast skjölin úr [!INCLUDE[prod_short](includes/prod_short.md)], mun efnið birtast á þínu tungumáli. Ef tiltekin síða er ekki tiltæk á þínu tungumáli er hún birt á ensku.
 

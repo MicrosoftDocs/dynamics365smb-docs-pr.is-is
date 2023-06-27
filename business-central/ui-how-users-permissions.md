@@ -54,7 +54,7 @@ Báðar nálganir hafa sinn eigin kosti og hægt er að nota þær samtímis. Hv
 
 Frekari upplýsingar eru í [Úthlutaður stjórnendaaðgangur að Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="a-namelicensespermissionsaconfigure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Grunnstilla heimildir út frá leyfum
+### <a name="configure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Grunnstilla heimildir út frá leyfum
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -84,7 +84,7 @@ Ef þessi sjálfgefna skilgreining er ekki rétt Uppsetning fyrir tiltekið umhv
 > [!IMPORTANT]
 > Þetta sérsnið tekur aðeins gildi fyrir nýja notendur sem viðkomandi leyfi er úthlutað á. Núverandi notendur eru ekki uppfærðir. Mælt er með því að sérsníða heimildir áður en þú úthlutar notendum leyfum í Microsoft 365 stjórnendamiðstöðinni.
 
-### <a name="a-nameadduserato-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Að bæta við notendum eða uppfæra notandaupplýsingar og úthlutunum leyfa í Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Að bæta við notendum eða uppfæra notandaupplýsingar og úthlutunum leyfa í Business Central
 
 Þegar notendum er bætt við eða notandaupplýsingum er breytt í stjórnendamiðstöð Microsoft 365 er hægt að flytja notandaupplýsingarnar á fljótlegan hátt inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Innflutningurinn inniheldur leyfisúthlutanir.  
 
@@ -118,7 +118,7 @@ Hægt er að fjarlægja aðgang notanda að [!INCLUDE[prod_short](includes/prod_
 
 Auk þess er hægt að taka leyfið af notanda í Microsoft 365 stjórnendamiðstöðinni. Þá getur notandinn ekki skráð sig inn. Nánari upplýsingar er að finna í [Leyfi tekin af notendum](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Samstilling við Microsoft 365
+### <a name="synchronization-with-microsoft-365" /><a name="m365"></a>Samstilling við Microsoft 365
 
 Þegar notanda er úthlutað leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Microsoft 365 eru tvær leiðir til að búa notandann til í [!INCLUDE[prod_short](includes/prod_short.md)].  
 

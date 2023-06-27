@@ -17,7 +17,7 @@ Síðan **8700 Töfluupplýsingar** gefur upplýsingar um færslufjölda í öll
 
 Þessar upplýsingar eru gagnlegar til að leysa úr vandamálum við úrræðaleit, þar sem þær sýna dreifingu á gagnamagni á milli taflna.
 
-## <a name="viewing-table-information" />Skoða upplýsingar um málatöflu
+## <a name="viewing-table-information-1" />Skoða upplýsingar um málatöflu
 
 Til að opna þessa síðu skaltu velja ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, fara í **Upplýsingar um töflu** og velja síðan viðkomandi tengil.
 

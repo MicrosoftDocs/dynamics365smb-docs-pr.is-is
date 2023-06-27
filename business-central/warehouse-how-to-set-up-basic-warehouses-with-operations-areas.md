@@ -136,7 +136,7 @@ Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir
 > [!NOTE]  
 >  Hólfið verður að vera tómt áður en hægt er að velja eða hreinsa svæðið **Sérnýtt**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Sjá einnig .
 

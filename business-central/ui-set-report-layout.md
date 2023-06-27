@@ -58,7 +58,7 @@ Til eru nokkrar leiðir til að stilla hvaða útlit skýrsla notar. Hver leið 
 
 Skýrslur eru hannaðar til að nota sjálfgefið útlit. Þú getur skipt aftur yfir í upprunalegt sjálfgefið útlit á síðunni **Val á útliti skýrslu**. Veldu bara skýrsluna og veldu svo aðgerðina **Endurheimta sjálfgefið val** efst á síðunni.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

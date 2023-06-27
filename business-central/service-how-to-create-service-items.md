@@ -56,7 +56,7 @@ Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar sölupön
 
     Kerfið setur inn þjónustulínu af gerðinni **Kostnaður** með upphafsgjaldinu. Upphafsgjaldið á við þá þjónustuvöru sem valin var.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Sjá tengda [Microsoft þjálfun](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/create-items/)
 
 ## <a name="see-also" />Sjá einnig .
 

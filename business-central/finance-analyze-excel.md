@@ -44,13 +44,13 @@ Fyrirframskilgreindar Excel-skýrslur eru byggðar á gögnum í núverandi fyri
 
 Önnur vinnublöð í Excel-vinnubókinni sýna gögnin á bak við skýrsluna. Til að komast að því hvað býr að baki flokkunum í Excel-skýrslunum gæti þurft að sía listana í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />[!INCLUDE [prod_short](includes/prod_short.md)] Excel-innbótin
+## <a name="the--excel-add-in" />[!INCLUDE [prod_short](includes/prod_short.md)] Excel-innbótin
 
 [!INCLUDE [prod_short](includes/prod_short.md)] Upplifun þín inniheldur innbót fyrir Excel. Það fer eftir áskriftinni hvort innskráning gerist sjálfkrafa eða hvort gefa þurfi upp innskráningarupplýsingar fyrir [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Skoða og breyta í Excel úr Business Central](across-work-with-excel.md).  
 
 Innbótin gerir þér kleift að sækja ný gögn úr [!INCLUDE [prod_short](includes/prod_short.md)] og hægt er að ýta breytingum aftur í [!INCLUDE [prod_short](includes/prod_short.md)]. Möguleikinn á að ýta gögnum aftur í gagnagrunninn er hins vegar ekki fyrir hendi fyrir fjárhagsskýrslurnar sem þú getur skoðað í Excel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

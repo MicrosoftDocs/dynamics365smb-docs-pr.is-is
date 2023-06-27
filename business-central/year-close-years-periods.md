@@ -29,13 +29,13 @@ Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir 
 | Loka fjárhagstímabili og reikningsári, færa jöfnuð rekstrareiknings í efnahagsreikning og bóka lokunarfærslu ársloka. |[Bókum lokað](year-close-books.md) |
 | Prenta út skýrslur sem eru gagnlegar við gerð fjárhagsskýrslna. |[Undirbúningur lokunaryfirlits](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig .
 
 [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -47,7 +47,7 @@ Annaðhvort er hægt að bóka eða bóka og senda. Ef valið er að bóka og se
 
 Hægt er að breyta tilteknum reitum í bókuðum innkaupaskjölum, svo sem **Rakningarnúmer pakka** . Frekari upplýsingar er að finna í [Breyta bókuðum skjölum](across-edit-posted-document.md). Til að fá fleiri mikilvæg svæði sem hafa áhrif á endurskoðunarslóðina þarf að bakfæra eða afturkalla bókun. Frekari upplýsingar er að finna í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

@@ -28,7 +28,7 @@ Ef [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur mörg fyrirtæki g
 
 Það eru örfáir Eiginleikar sem þú getur notað til að skipta á milli fyrirtækja eftir því sem þú vinnur, líkt og fyrirtækið skipari (<kbd>CTRL</kbd>+<kbd>O</kbd>). Frekari upplýsingar eru í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Sýna upplýsingatákn fyrirtækis
+## <a name="display-a-company-badge" /><a name="badge"></a>Sýna upplýsingatákn fyrirtækis
 
 Þegar fleiri en eitt fyrirtæki eða umhverfi er til staðar sérðu fyrirtækjaskiptinn efst til hægri á forritastikunni nálægt leitartákninu á forritastikunni. Fyrirtækjaskiptirinn notar sjálfgefið staðlað fyrirtækistákn eins og ![ræsiforrit fyrirtækistákns](media/ui-experience/company-icon.png "Sýnir tákn fyrirtækjaskiptis sem notað er í einu umhverfi"). og ![fyrirtækistákn í fjölumhverfi](media/ui-experience/company-icon-multi-env.png "Sýnir tákn fyrirtækjaskiptis sem notað er í mörgum umhverfum").
 
@@ -54,7 +54,7 @@ Heiti fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðger
 
 Sjálfgefin upplifun notanda í [!INCLUDE [prod_short](includes/prod_short.md)] prufuútgáfunni sýnir ekki alla möguleika. Þú getur kveikt á allri upplifuninni á síðunni **Fyrirtækjaupplýsingar**. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

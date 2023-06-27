@@ -47,7 +47,7 @@ Eftirfarandi myndband fjallar um grunnatriði eigna.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Sjá tengda [Microsoft þjálfun](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/manage-fixed-assets-transactions/)
 
 ## <a name="see-also" />Sjá einnig .
 
@@ -57,7 +57,7 @@ Eftirfarandi myndband fjallar um grunnatriði eigna.
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

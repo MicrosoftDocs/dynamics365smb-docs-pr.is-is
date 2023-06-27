@@ -123,7 +123,7 @@ Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notu
 |þ 23|Þriðjudagur 23. viku vinnudagsetningarársins|
 |þ-1|Þriðjudagur 1. viku vinnudagsetningarársins|
 
-## <a name="a-namebkmksettingdaterangesa-setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Stillingarbil
+## <a name="setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Stillingarbil
 
 Á listum, samtölum og skýrslum er hægt að stilla síur á dagsetningar, tímum og tímabilum sem innihalda upphafsgildi og mögulega endanlegt gildi til að birta aðeins gögnin sem eru í því bili. Stöðluðu reglurnar eiga við um það hvernig þú stillir dagsetningarsvið.
 
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas" />Use Date Formulas
+## <a name="use-date-formulas-1" />Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -345,7 +345,7 @@ Hægt er að sjá hvaða mælieining er notuð í reitnum tímalengd með því 
 
 Ef mælieiningin er til dæmis klukkustund, er númerinu 5 breytt í 5 klukkustundir.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

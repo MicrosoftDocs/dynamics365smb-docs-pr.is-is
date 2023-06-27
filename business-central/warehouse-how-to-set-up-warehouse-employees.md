@@ -22,7 +22,7 @@ Hver notandi sem framkvæmir vöruhúsaaðgerðir verður að vera settur upp se
 5. Kveikja skal á  **sjálfgefinni**  víxla til að tilgreina að þetta sé eina Staðsetningin þar sem starfsmaðurinn getur framkvæmt vöruhúsaaðgerðir.  
 6. Endurtakið þessi skref til að úthluta öðrum starfsmönnum birgðageymslum eða úthluta öðrum stöðum tiltækum starfsmönnum vöruhúss.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Sjá einnig .
 

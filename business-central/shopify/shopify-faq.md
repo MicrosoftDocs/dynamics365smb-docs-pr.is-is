@@ -55,7 +55,7 @@ Með Shopify tenglinum geta fyrirtæki tengt Shopify verslunina (eða verslanirn
 
 ## <a name="what-support-is-offered-for-the-shopify-connector" />Hvaða stuðningur er í boði fyrir Shopify tengilinn?
 
-### <a name="includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](../includes/prod_short.md)]
+### [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 Shopify tengillinn er dekkaður af núverandi stuðningslíkani. Frekari upplýsingar eru í [Tækniaðstoð](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (aðeins á ensku).
 

@@ -436,7 +436,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Þegar Tækjabúð greiðir fyrir móttöku á tölvunum 18 úr CRONUS, eru sölupantanirnar og tengdar samsetningarpantanir fjarlægðar.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

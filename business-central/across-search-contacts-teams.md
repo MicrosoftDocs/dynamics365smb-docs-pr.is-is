@@ -100,7 +100,7 @@ Tengiliðaspjaldið virkar alveg eins og spjöld fyrir færslur eins og vörur, 
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

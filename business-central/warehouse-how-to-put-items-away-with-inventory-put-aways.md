@@ -83,7 +83,7 @@ Starfsmaður í vöruhúsi getur stofnað nýjan frágang í frágangi á grundv
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Sjá einnig .
 

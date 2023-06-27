@@ -33,7 +33,7 @@ Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er f
 |Færa inn upplýsingar um mismunandi flutningsseljendur sem skipt er við, ásamt tengli á sendingarleitarþjónustu þeirra.|[Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 [Sala](sales-manage-sales.md)  

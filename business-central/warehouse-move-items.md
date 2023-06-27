@@ -36,7 +36,7 @@ Talningar, leiðréttingar og endurflokkun geta falið í sér vöruhúsaverk se
 |Nota vöruhúsahreyfingablaðið, innanhússtínslu og frágang til að flytja vörur í ítarlegar vöruhúsaskilgreiningar með beinar tínslu og frágang.|[Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum og hugsanlega færa þau á milli.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Sjá einnig .
 

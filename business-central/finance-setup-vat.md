@@ -302,7 +302,7 @@ Setja verður upp upplýsingar um hvernig skattayfirvöld í landinu eða svæð
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

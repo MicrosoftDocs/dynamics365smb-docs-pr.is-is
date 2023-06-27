@@ -184,7 +184,7 @@ Hægt er að flytja inn og út fjárhagsskýrslur sem RapidStart stillingarpakka
 > [!NOTE]
 > Þegar þú flytur inn fjárhagsskýrslur verður fyrirliggjandi skrám með sömu heitum og þær sem þú flytur inn eytt.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Sjá einnig .
 

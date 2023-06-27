@@ -98,7 +98,7 @@ Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir *Reiðufé* und
 
 Í litlu fyrirtæki eins og CRONUS sýnifyrirtækinu geta flestir notendur breytt bókhaldslyklum nema notendur með TEAM MEMBER-leyfi. Stærri fyrirtæki nota þó yfirleitt hlutverk og heimildir til að takmarka breytingaraðgang að bókhaldslyklum. Ef þú ert stjórnandi eða ert með hlutverkið *Viðskiptastjórnandi* eða *Endurskoðandi* geturðu stjórnað heimildum notanda til að gefa rétta fólkinu aðgang að viðeigandi töflum. Frekari upplýsingar er að finna í hlutanum [Að fá yfirlit yfir heimildir notanda](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbusiness-central-configure-general-ledger-setup" />Sjá tengda [Microsoft þjálfun](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/business-central-configure-general-ledger-setup/)
 
 ## <a name="see-also" />Sjá einnig .
 

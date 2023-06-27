@@ -77,7 +77,7 @@ Eftirfarandi tafla sýnir nokkur dæmi til að útskýra hvernig hægt er að no
 |`@*man`|Allar skrár sem endar með **man**, óháð því hvort notaðir eru há- eða lágstafir. Til dæmis **Sportsman**, en ekki **Manchester** eða **manual**.|
 
 
-## <a name="a-namefilteringafiltering" /><a name="filtering"></a>Afmörkun
+## <a name="filtering" /><a name="filtering"></a>Afmörkun
 
 Síun veitir háþróaðri og fjölhæfari leið til að stjórna því hvaða færslur birtast á lista, skýrslu eða XMLport. Það eru tvær helstu munur á leit og síun, eins og lýst er í töflunni hér að neðan.
 
@@ -249,7 +249,7 @@ Dálkar sem þegar eru með síur eru auðkenndir með ![Síutákninu.](media/ui
 |`..1299|1400..`|Telja með færslur með tölu sem er lægri eða jöfn 1299 eða tölu sem er jöfn 1400 eða hærri (allar tölur nema 1300 til 1399).|  
 |`>50&<100`|Telja með færslur með tölum sem eru hærri en 50 og lægri en 100 (tölurnar 51 til 99).|  
 
-### <a name="a-namesymbolsafiltering-on-values-that-contain-symbols" /><a name="symbols"></a>Gildi síuð sem innihalda tákn
+### <a name="filtering-on-values-that-contain-symbols" /><a name="symbols"></a>Gildi síuð sem innihalda tákn
 
 Það gætu komið upp tilfelli þar sem reitargildi innihalda eitt af eftirfarandi táknum:
 
@@ -302,7 +302,7 @@ Notaðu `%myvendors` í lánardrottinn **Nr** reitnum, til að birta allar skrá
 |-----------------------|-----------------------|  
 |`%myvendors`|Lánardrottnar í **Mínir lánardrottnar** í Mitt hlutverk. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

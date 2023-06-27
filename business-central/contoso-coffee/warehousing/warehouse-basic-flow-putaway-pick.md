@@ -119,10 +119,10 @@ Nánari upplýsingar er að finna  [í hönnunarupplýsingum: flæði](../../des
 
 Eftirfarandi kynning sýnir aðferð B í fyrri töflu.
 
-### <a name="scenario" />Aðstæður
+### <a name="scenario-1" />Aðstæður
 Susan, pöntunarörgjörvinn, stofnar sölupöntun fyrir ýmsar roasted-baunir og sendir hana til vöruhúss. Starfsmaður vöruhússins verður að vera fullviss um að afhendingin sé tilbúin og send til viðskiptamannsins. John hefur umsjón með öllum þátt verka á  **síðunni Birgðatínsla**  sem bendir sjálfkrafa á hólfin þar sem roasted Beans eru geymdar.
 
-### <a name="steps" />Skref
+### <a name="steps-1" />Skref
 Þetta er framhald af  [innstreymissásinni: Móttaka og frágangur í Grunnvöruskilgreiningum](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Setja upp  **Staðsetningarspjald**  á síðunni til að skilgreina innleiðarflæði fyrirtækisins.  
@@ -159,7 +159,7 @@ Susan, pöntunarörgjörvinn, stofnar sölupöntun fyrir ýmsar roasted-baunir o
 
 5. Veldu aðgerðina **Bóka**, veldu **Afhenda** og veldu síðan **Í lagi** hnappinn.  
 
-### <a name="results" />Niðurstöður
+### <a name="results-1" />Niðurstöður
  - roasted-baunirnar eru nú skrásettar sem tíndar úr tilgreindum hólfum
  -  **bókaður Ívt. Tínsla**  er stofnuð
  -  **Bókuð söluafhending**  er stofnuð

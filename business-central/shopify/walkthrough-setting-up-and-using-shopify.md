@@ -132,11 +132,11 @@ Nú eru Efnisleg og fjárhagsleg gögn skráð í [!INCLUDE[prod_short](../inclu
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Walkthrough: Bjóddu viðskiptavinum þínum upp á nýja netverslun
 
-### <a name="scenario" />Aðstæður
+### <a name="scenario-1" />Aðstæður
 
 Eftir árangursríka flýtiræsingu í nýju netversluninni er óskað eftir að núverandi viðskiptavinir þínir geti heimsótt hana og byrjað að setja inn pantanir.
 
-### <a name="steps" />Skref
+### <a name="steps-1" />Skref
 
 Í  [!INCLUDE[prod_short](../includes/prod_short.md)], gerið eftirfarandi skref:
 
@@ -148,11 +148,11 @@ Eftir árangursríka flýtiræsingu í nýju netversluninni er óskað eftir að
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Walkfrom: Fine Tuning the Item Management
 
-### <a name="scenario" />Aðstæður
+### <a name="scenario-2" />Aðstæður
 
 Þú vilt bæta meiri sveigjanleika og stýra ferlum í kringum vörustjórnun. Þú vilt bæta vörulýsingu og vilt bæta við endurskoðunarleiðbeiningum áður en afurðir verða tiltækar til að ljúka viðskiptavini.
 
-### <a name="steps" />Skref
+### <a name="steps-2" />Skref
 
 Í  [!INCLUDE[prod_short](../includes/prod_short.md)], gerið eftirfarandi skref:
 
@@ -241,11 +241,11 @@ Taka skal eftir að birgðaskrá fyrir Ráðstefnutöflu ANTWERP er 100, þar se
 
 ## <a name="walkthrough-import-items-from-shopify" />Walkthrough: flytja inn vörur úr Shopify
 
-### <a name="scenario" />Aðstæður
+### <a name="scenario-3" />Aðstæður
 
 Þú átt nú þegar vel heppnaða netverslun og langar að byrja að nota  [!INCLUDE[prod_short](../includes/prod_short.md)]  sem Business Management hugbúnað. Þú vilt flytja inn eins mikið af  Shopify  gögnum og hægt er. 
 
-### <a name="steps" />Skref
+### <a name="steps-3" />Skref
 
 Þetta er framhald af walkof  [: Byrjaðu að selja vörur á netinu](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Þú getur líka prófað með þínum eigin gögnum, til dæmis þinni  Shopify  verslun eða sandkassa.
 

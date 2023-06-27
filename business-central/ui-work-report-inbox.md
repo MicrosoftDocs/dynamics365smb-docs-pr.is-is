@@ -47,7 +47,7 @@ Einnig er hægt að deila skýrslum með samstarfsaðilum á síðunni **Skýrsl
 >
 > Með aðgerðinni **Deila** verður mynduð skýrsluskrá í boði fyrir aðra notendur aðeins í OneDrive for Business og sýnir ekki tímasetta skýrslu í **Skýrsluinnhólfinu**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsbuild-reports" />Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/build-reports/).
 
 ## <a name="see-also" />Sjá einnig .
 

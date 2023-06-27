@@ -174,7 +174,7 @@ Eftirfarandi skref gefa dæmi um þær aðgerðir sem ólíkir einstaklingar tak
 
 :::image type="content" source="media/binflow.png" alt-text="Yfirlit um hvenær og hvernig reiturinn Hólfakóti er fylltur út.":::
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

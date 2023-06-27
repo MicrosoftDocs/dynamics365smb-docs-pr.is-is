@@ -49,7 +49,7 @@ Ef gátmerki er sett inn í reitinn **Fast** er varan fest við hólfið sem þ�
 
 Á þessu vinnublaði er hægt að vinna með nokkrar hólfainnihaldslínur fyrir nokkur hólf og fá þannig gott yfirlit yfir hvað er sett í hin ýmsu hólf á tilteknu svæði, gangi eða rekka.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Sjá tengda [Microsoft þjálfun](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also" />Sjá einnig .
 

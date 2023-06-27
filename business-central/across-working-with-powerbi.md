@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-include-prodshortincludesprodshortmd" />Vinna með Power BI Skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-" />Vinna með Power BI Skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Í þessari grein lærir þú nokkur grunnatriði við að skoða Power BI -skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -35,7 +35,7 @@ Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum
 
 Áður en hægt er að nota Power BI með [!INCLUDE[prod_short](includes/prod_short.md)] þarf að skrá sig fyrir Power BI-þjónustunni. Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
 
-## <a name="a-nameconnectaconnect-to-power-bi---one-time-only" /><a name="connect"></a>Tengjast við Power BI - aðeins einu sinni
+## <a name="connect-to-power-bi---one-time-only" /><a name="connect"></a>Tengjast við Power BI - aðeins einu sinni
 
 Þegar þú skráir þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] í fyrsta skipti sérðu líklega auðan Power BI hluta (eins og sýnt er á fyrri mynd) á ýmsum síðum. Það fyrsta sem þú skalt gera er að tengjast Power BI -reikningnum þínum. Eftir tengingu er hægt að skoða skýrslur. Þú þarft aðeins að gera þetta einu sinni.
 
@@ -53,7 +53,7 @@ Tengingarferlið hefst. Við ferlið hefur [!INCLUDE [prod_short](includes/prod_
 > [!TIP]
 > Með [!INCLUDE [prod_short](includes/prod_short.md)] á netinu mun þetta skref hlaða sjálfkrafa upp sjálfgefnum Power BI skýrslum sem notaðar eru í [!INCLUDE [prod_short](includes/prod_short.md)] á Power BI vinnusvæði þitt.
 
-#### <a name="from-include-prodshortincludesprodshortmd-on-premises" />Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum
+#### <a name="from--on-premises" />Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum
 
 Tenging við Power BI frá [!INCLUDE [prod_short](includes/prod_short.md)] er svipað og á netinu. Hins vegar kann að vera beðið um heimildir á **ÞJÓNUSTUHEIMILDIR AZURE ACTIVE DIRECTORY** síðunni til að veita aðgang að Power BI þjónustum. Til að veita aðgang skal velja **Heimila Azure Services** og síðan **samþykkja**.
 
@@ -99,7 +99,7 @@ Til að breyta skýrslu skal velja aðgerðina **Stjórna skýrslu** úr fellili
 > [!NOTE]
 > Þessi eiginleiki er ekki í boði með [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum.
 
-### <a name="a-nameuploadaupload-reports" /><a name="upload"></a>Hlaða upp skýrslum
+### <a name="upload-reports" /><a name="upload"></a>Hlaða upp skýrslum
 
 Hægt er að dreifa Power BI skýrslum á meðal notenda sem. pbix-skrám. Ef þú ert með .pbix-skrár er hægt að hlaða þeim upp og deila þeim með öllum notendum [!INCLUDE [prod_short](includes/prod_short.md)]. Skýrslunum er deilt innan hvers fyrirtækis í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -126,7 +126,7 @@ Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI re
 
 Það er líklega vegna þess að heiti skýrslunnar inniheldur ekki heiti listasíðunnar. Hreinsaðu síuna til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

@@ -11,7 +11,7 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-includeprodshortincludesprodshortmd" />Magnreikningsfærsla fyrir Microsoft Bookings í [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-" />Magnreikningsfærsla fyrir Microsoft Bookings í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Ef fyrirtækið þitt notar Bookings forritið í Microsoft 365 geturðu framkvæmt magnreikningsfærslu fyrir fundi. Síðan **Óreikningsfærðar bókanir** í [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á lista yfir fullunnar bókanir fyrirtækisins. Á þessari síðu getur valið snögglega þá fundi sem þú vilt reikningsfæra og búið til reikningsdrög fyrir þjónustu sem veitt var.  
 

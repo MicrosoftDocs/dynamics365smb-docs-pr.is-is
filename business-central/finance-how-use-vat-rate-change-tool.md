@@ -100,7 +100,7 @@ Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöð
 > [!IMPORTANT]  
 > Eftir prófun á umreikningi er reiturinn **Umbreytt** í töflu **Breyting á VSK gengi í skráningarfærslu** valinn og reiturinn **Umbreytt dagsetning** í töflunni **Breyting á VSK gengi í skráningarfærslu** sýnir umreiknuðu dagsetninguna.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

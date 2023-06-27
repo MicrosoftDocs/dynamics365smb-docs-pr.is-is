@@ -60,7 +60,7 @@ Vörur sem settar eru upp fyrir samsetningum eru ekki væntanlegar í birgðum o
 > [!NOTE]  
 > Staðgengur vöru skipta ekki sjálfkrafa um vöru með aðra vöru, til dæmis þegar sölupöntun er stofnuð eða í UPPSKRIFT. Þess í stað færðu viðvörun að því gefnu að staðgengilslíkur sé fyrir hendi.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

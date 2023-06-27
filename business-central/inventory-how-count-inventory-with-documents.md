@@ -242,7 +242,7 @@ Hægt er að tilgreina skýrslurnar sem þarf að prenta á mismunandi stigum me
 > [!NOTE]
 > Tiltækar skýrslur kunna að vera mismunandi eftir staðfæringu landsins. Grunnforritið inniheldur ekkert útlit.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Sjá tengda [Microsoft þjálfun](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Sjá einnig .
 

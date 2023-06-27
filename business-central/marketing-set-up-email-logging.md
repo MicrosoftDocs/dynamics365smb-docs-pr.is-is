@@ -55,7 +55,7 @@ Póstflæðisreglur leita að ákveðnum skilyrðum á skeytum og gera aðgerði
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] vinnur aðeins úr skeytum í innhólfinu í samnýtta pósthólfinu. Ef regla færir skeyti úr innhólfinu í aðra möppu verður ekki unnið úr þessum skeytum. Þar að auki eru skeyti í ruslpóstinum líka hunsuð.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />Setja upp  [!INCLUDE[prod_short](includes/prod_short.md)]  skráningu tölvupóstboða
+## <a name="set-up--to-log-email-messages" />Setja upp  [!INCLUDE[prod_short](includes/prod_short.md)]  skráningu tölvupóstboða
 
 Hafist handa með tölvupóstskráningu í tveimur einföldum skrefum:
 
@@ -145,14 +145,14 @@ Ef þú ert ekki að nota Azure Active Directory til að stjórna auðkennum og 
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />Til að breyta notandareikningi sem er notaður við tölvupóstsskráningu
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Á netinu
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Á netinu
 
 1. Skráðu þig inn í [!INCLUDE[prod_short](includes/prod_short.md)] með reikningnum sem áætlað verk mun nota til að tengjast samnýtta pósthólfinu og vinna úr tölvupóstum. Þessi reikningur verður að hafa aðgang að bæði [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online.
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tölvupóstsskráning** og velja síðan viðkomandi tengil. 
 3. Veldu **Tengt** og síðan **Verkraðarfærsla**.
 4. Endurræstu verkinu **Tölvupóstsskráning**.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] á staðnum
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] á staðnum
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tölvupóstsskráning** og velja síðan viðkomandi tengil.
 2. Veldu **Aðgerðir** og síðan **Endurnýja lykil**.

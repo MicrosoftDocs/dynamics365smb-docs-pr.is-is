@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.
 
@@ -18,7 +18,7 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, ví
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Ábendingar og góð ráð
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Ábendingar og góð ráð
 
 > [!TIP]
 > Til að fá prentvænt yfirlit yfir mest notuðu aðgerðirnar skaltu velja eftirfarandi mynd og sækja PDF-skjalið.
@@ -80,7 +80,7 @@ En aðgerðirnar geta einnig litið öðruvísi út, eða jafnvel ekki verið ti
 
 En þegar þú opnar sömu listasíðu á heimasíðunni þinni er aðgerðin **Hafa umsjón með** ekki til staðar. Í staðinn, til að opna einstaka sölupöntun, velur þú bara reitinn **Númer**. Í þessari yfirliti er ekki hægt að festa aðgerðastikuna.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig
 
@@ -89,7 +89,7 @@ En þegar þú opnar sömu listasíðu á heimasíðunni þinni er aðgerðin **
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Ábendingar um frammistöðu fyrir fyrirtækisnotendur](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

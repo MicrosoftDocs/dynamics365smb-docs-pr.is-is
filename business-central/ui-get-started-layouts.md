@@ -47,7 +47,7 @@ Verkefnin eru mismunandi eftir því hver staðan er hjá þér. Notaðu eftirfa
 |Skipta núverandi útliti sem skýrsla notar yfir í annað útlit|[Setja upp útlitið sem skýrsla notar](ui-set-report-layout.md)|
 |Breyta heiti og lýsingu útlits|[Endurnefna útlit](#rename)|
 
-## <a name="a-namedecideadecide-what-type-of-layout-you-want" /><a name="decide"></a>Taktu ákvörðun um hvers konar útlit þú vilt nota
+## <a name="decide-what-type-of-layout-you-want" /><a name="decide"></a>Taktu ákvörðun um hvers konar útlit þú vilt nota
 
 Það fyrsta sem þarf að gera þegar útlit er búið til er að ákveða hvaða [útlitsgerð](ui-manage-report-layouts.md#layout-types) maður vill. Þú getur valið annað hvort Word, Excel eða RDLC. Útlitsgerðin fer eftir því hvernig þú vilt að mynduð skýrsla komi til með að líta út. Auk þess fer það eftir þekkingu þinni á hugbúnaðinum til að búa til útlit, eins og Word, Excel og SQL Server Report Builder.
 
@@ -66,7 +66,7 @@ Verkefnin eru mismunandi eftir því hver staðan er hjá þér. Notaðu eftirfa
 
 * Almenna hönnunin fyrir Word og RDLC-útlit eru svipaðar. Hins vegar er hver gerð með tiltekin hönnunareinkenni sem hafa áhrif á það hvernig skýrslan sem mynduð er birtist í [!INCLUDE[prod_short](includes/prod_short.md)]. Sama skýrslan gæti litið öðruvísi út þegar Word-útlit er notað í samanburði við RDLC-útlit.
 
-## <a name="a-namecreateacreate-a-new-layout" /><a name="create"></a>Búa til nýtt útlit
+## <a name="create-a-new-layout" /><a name="create"></a>Búa til nýtt útlit
 
 Til eru tvær leiðir til að búa til nýtt útlit úr fyrirliggjandi útliti. Ein leið er að vista fyrirliggjandi útlit í afrit. Hin leiðin er að flytja út fyrirliggjandi útlit.
 
@@ -127,7 +127,7 @@ Ef þú vilt sjá hvernig skýrslan lítur út með nýja útlitinu skaltu velja
 
 ---
 
-## <a name="a-namemodifyamodify-a-layout" /><a name="modify"></a>Breyta útliti
+## <a name="modify-a-layout" /><a name="modify"></a>Breyta útliti
 
 Fylgdu þessum skrefum til að breyta fyrirliggjandi notandaskilgreindu útliti.
 
@@ -156,7 +156,7 @@ Fylgdu þessum skrefum til að breyta fyrirliggjandi notandaskilgreindu útliti.
    Valdri skrá er hlaðið upp í útlitið og þú ferð aftur á síðuan **Skýrsluútlit**.
 7. Ef þú vilt sjá hvernig skýrslan lítur út með nýja útlitinu skaltu velja útlitið á listanum og velja svo **Keyra skýrslu**.
 
-## <a name="a-namereplaceareplace-a-layout" /><a name="replace"></a>Skipta um útlit
+## <a name="replace-a-layout" /><a name="replace"></a>Skipta um útlit
 
 Fylgdu þessum skrefum til að skipta út fyrirliggjandi notandaskilgreinda útlitsskrá fyrir nýja skrá.
 
@@ -168,7 +168,7 @@ Fylgdu þessum skrefum til að skipta út fyrirliggjandi notandaskilgreinda útl
    Valdri skrá er hlaðið upp í útlitið og þú ferð aftur á síðuan **Skýrsluútlit**.
 5. Ef þú vilt sjá hvernig skýrslan lítur út með nýja útlitinu skaltu velja útlitið á listanum og velja svo **Keyra skýrslu**.
 
-## <a name="a-namerenamearename-a-layout" /><a name="rename"></a>Endurnefna útlit
+## <a name="rename-a-layout" /><a name="rename"></a>Endurnefna útlit
 
 Fylgdu þessum skrefum ef þú vilt breyta heiti og lýsingu á notandaskilgreindu útliti.
 
@@ -179,7 +179,7 @@ Fylgdu þessum skrefum ef þú vilt breyta heiti og lýsingu á notandaskilgrein
     > Til að hjálpa þér að finna útlitið skaltu nota reitinn **Leita**, svæðið **Sía** og dálkaröðun.
 3. Breyttu **Heiti útlits**, veldu síðan **Í lagi**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Staða persónuverndaryfirlýsinga í [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-" />Staða persónuverndaryfirlýsinga í [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Í þessari grein er fjallað um hvað persónuverndaryfirlýsing er og útskýrir tilganginn með síðunni **Staða persónuverndaryfirlýsinga** í [!INCLUDE[prod_short](includes/prod_short.md)]. Þú kemst einnig að því hvernig stjórnendur geta notað þessa síðu.
 

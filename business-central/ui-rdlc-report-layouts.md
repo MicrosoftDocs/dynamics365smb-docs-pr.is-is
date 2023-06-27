@@ -41,7 +41,7 @@ Að búa til og breyta RDLC-útlitum er ítarlegt verk sem yfirleitt yfirnotendu
 > [!NOTE]
 > Report Builder þekkir aðeins .rdl-skráargerð;, ekki .rdlc. Útlitsskrár fluttar út úr Business Central eru: .rdlc-skráargerðir. Þannig að til breyta þessu útliti í Report Builder skal endurnefna skráargerðina sem .rdl.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

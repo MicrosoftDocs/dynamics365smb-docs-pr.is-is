@@ -38,7 +38,7 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
  Breytingar á skýrsluútliti eru prófaðar en ekki notaðar fyrir raunveruleg skýrsluútlit. Síðan **Uppfærslukladdi skýrsluútlits** birtist og sýnir stöðu á mögulegum uppfærslum fyrir hvert skýrsluútlit. Ef villur koma upp fyrir skýrsluútlit er hægt að opna skýrsluútlit beint til að breyta og lagfæra villur. Frekari upplýsingar eru í [Villur leiðréttar](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="a-nameupdatelimitationsa-limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Takmarkanir á uppfærslum sérsniðins skýrsluútlits
+## <a name="limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Takmarkanir á uppfærslum sérsniðins skýrsluútlits
  Nokkrar gerðir af breytingum getur sjálfvirk uppfærsla notað í sérsniðnu skýrsluútliti, til dæmis ef reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnasafni skýrslunnar. Sjálfvirk uppfærsla getur hins vegar ekki ráðið við eftirfarandi breytingar á skýrsluútliti.  
 
 1.  Reitir, merkimiðar eða gagnavörur sem hefur verið eytt.  
@@ -49,7 +49,7 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
  Ef uppfærsluferlið greinir þessi vandamál er ekki hægt að nota uppfærsluna. Laga verður þessi vandamál handvirkt, t.d. með því að breyta skýrsluútliti í Word eða með forritun og notkun á uppfærslukóðaeiningum.  
 
-## <a name="a-namefixerrorsa-fixing-errors" /><a name="FixErrors"></a> Villur leiðréttar
+## <a name="fixing-errors" /><a name="FixErrors"></a> Villur leiðréttar
  Ef þú færð ennþá villuboð við uppfærslu eða prófun á uppfærslu skýrsluútlits þá muntu líklega þurfa að breyta skýrsluútliti til að laga vandamálið. Lesa skal villuboðin til ráða orsök vandamálsins.  
 
  Algengasta vandamálið er þegar reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnamengi skýrslunnar. Í þessu tilviki er lína í villuboðunum sem segir til um að vara hafi verið fjarlægð. Til að laga þetta þarf að breyta útlitinu og fjarlægja viðkomandi reit.  
@@ -58,7 +58,7 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
 Eftir að útlitinu er breytt skaltu reyna að uppfæra það afur.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
  [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  

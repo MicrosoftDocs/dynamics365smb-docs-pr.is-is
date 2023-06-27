@@ -96,7 +96,7 @@ Hægt er að nota aðgerðirnar við eftirfarandi skilyrði:
 2. Veljið viðeigandi verkbók og veljið svo aðgerðina **Færslur**.  
 3. Á síðunni **Verkfærslur** er aðgerðin **Sýna áætlunarlínur verks** valin.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Sjá tengda [Microsoft þjálfun](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Sjá einnig .
 

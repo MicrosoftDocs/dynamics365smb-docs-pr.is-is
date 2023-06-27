@@ -37,7 +37,7 @@ Kreditreikningar vegna skila eru þó undantekningar vegna þess að peningar fl
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinur** eða **Lánardrottinn** og velja síðan viðkomandi tengil.
 2. Í reitnum **Kóði greiðslumáta** skal velja greiðslumátann sem á að nota að sjálfgefnu viðskiptavin eða lánardrottin.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

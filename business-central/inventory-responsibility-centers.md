@@ -49,7 +49,7 @@ Til að setja þetta upp þarf að úthluta notendum ábyrgðarstöðvum á þre
 > [!NOTE]  
 > Notendur geta aðeins skoðað þessi bókuðu skjöl sem tengjast ábyrgðarstöð þeirra. Hins vegar er hægt að skoða allar fjárhagsfærslur og fletta að öðrum bókuðum skjölum úr fjárhagsfærslunum.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-responsibility-centers" />Sjá tengda [Microsoft þjálfun](/training/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also" />Sjá einnig .
 

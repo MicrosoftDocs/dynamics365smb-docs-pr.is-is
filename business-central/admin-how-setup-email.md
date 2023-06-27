@@ -230,7 +230,7 @@ Frekari upplýsingar um almennar leiðbeiningar fyrir skráningu í App hjá  [Q
 > [!NOTE]
 Ef þú átt í vandræðum með að nota SMTP-samskiptareglu til að senda tölvupóst eftir að þú tengir [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna, gæti það verið vegna þess að SMTP AUTH er ekki virkt fyrir leigjanda þinn. Mælt er með því að Microsoft 365 og tölvupóststengla núverandi notanda í staðinn vegna þess að hann notar Microsoft Graph Mail API. Ef þú þarft hins vegar að nota SMTP-samskiptareglu er hægt að virkja SMTP AUTH. Frekari upplýsingar er að finna í [Kveikja eða slökkva á SMTP-innsendingu (SMTP AUTH) sannvottaðs biðlara í Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-includeprodshortincludesprodshortmd-to-your-app-registration" />Tengjast  [!INCLUDE[prod_short](includes/prod_short.md)]  við App skráningu þína
+### <a name="connect--to-your-app-registration" />Tengjast  [!INCLUDE[prod_short](includes/prod_short.md)]  við App skráningu þína
 
 Eftir að þú hefur skráð þína umsókn í Azure Portal, inn  [!INCLUDE[prod_short](includes/prod_short.md)], Notaðu  **þá skráningarsíðu**  tölvupóst umsókn aad til að tengjast  [!INCLUDE[prod_short](includes/prod_short.md)]  henni.
 
@@ -263,7 +263,7 @@ Eftir að þú hefur skráð þína umsókn í Azure Portal, inn  [!INCLUDE[prod
 
 -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-email" />Sjá tengda [Microsoft þjálfun](/training/modules/set-up-email/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/set-up-email/)
 
 ## <a name="see-also" />Sjá einnig
 

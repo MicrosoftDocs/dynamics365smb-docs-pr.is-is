@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-includeprodshortincludesprodshortmd" />Yfirlit yfir verkefni til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-" />Yfirlit yfir verkefni til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Greinarnar [Stuttir leiðarvísar Business Central](quick-start-business-central.md) geta auðveldað þér fyrstu skrefin í að gera [!INCLUDE [prod_short](includes/prod_short.md)] að þínu eigin. Í þessari grein er að finna yfirlit yfir hvernig hægt er að skilgreina [!INCLUDE [prod_short](includes/prod_short.md)] fyrir fyrirtækið.
 
@@ -79,6 +79,6 @@ Einnig er hægt að bæta möguleikum við tölvuna [!INCLUDE [prod_short](inclu
 [Undirbúningur fyrir viðskipti](ui-get-ready-business.md)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

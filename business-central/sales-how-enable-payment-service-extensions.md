@@ -19,7 +19,7 @@ Eftir að þú hefur virkjað greiðsluþjónustu í [!INCLUDE[prod_short](inclu
 
 PayPal Payments Standard- og WorldPay Payments Standard-viðbætur eru settar upp í [!INCLUDE[prod_short](includes/prod_short.md)] og eru tilbúnar fyrir þig til að virkja.  
 
-## <a name="to-enable-a-payment-service-in-includeprodshortincludesprodshortmd" />Til að virkja greiðsluþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-" />Til að virkja greiðsluþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluþjónustur** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Greiðsluþjónustur** skal velja aðgerðina **Nýtt**.  
@@ -37,7 +37,7 @@ PayPal Payments Standard- og WorldPay Payments Standard-viðbætur eru settar up
     > [!NOTE]  
     > **Greiðsluþjónustu** reiturinn er aðeins tiltækur greiðsluþjónustan hefur verið virkjuð.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

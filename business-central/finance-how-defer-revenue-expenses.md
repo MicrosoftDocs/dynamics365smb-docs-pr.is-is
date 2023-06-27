@@ -102,7 +102,7 @@ Ef þú hefur gert það verður þú að gera undantekningu fyrir frestanir til
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsgrunnur** eða **Notandauppsetning** og velja síðan viðeigandi tengil.
 2. Í reitina **Leyfa bókun frestana frá** og **Leyfa bókun frestana til** skal færa inn upphafs- og lokadagsetningu fyrir tímabilið.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

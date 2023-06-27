@@ -24,7 +24,7 @@ Reglufylgni er efnisatriði sem vekur sífellt meiri áhuga og í gegnum þróun
 |Sjá upplýsingar um mismunandi vottanir sem tengjast Business Central. Hér finnur þú upplýsingar um almennar vottanir og landsbundnar vottanir.|[Vottanir](compliance-certifications.md)|  
 |Kynntu þér skilmála þjónustustigssamnings og aðra þjónustuskilmála|[Þjónustuskilmálar](compliance-service-compliance.md#service-terms)|  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

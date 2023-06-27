@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 Þessi grein svarar einhverjum þeirra spurninga sem þú gætir haft um notkun á OneDrive og [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="does-this-work-with-all-includeprodshortincludesprodshortmd-clients" />Virkar þetta fyrir alla [!INCLUDE[prod_short](includes/prod_short.md)] biðlara?
+## <a name="does-this-work-with-all--clients" />Virkar þetta fyrir alla [!INCLUDE[prod_short](includes/prod_short.md)] biðlara?
 
 Já. Hægt er að opna skrár í OneDrive úr [!INCLUDE[prod_short](includes/prod_short.md)] farsímaforritum, þegar upplýsingar spjalds eru skoðaðar í Microsoft Teams eða jafnvel í Outlook-innbótinni.  
 
@@ -24,7 +24,7 @@ Já. Hægt er að opna skrár í OneDrive úr [!INCLUDE[prod_short](includes/pro
 
 Sem hluti af Microsoft 365-áskriftinni þinni býður fyrirtækið þitt upp á OneDrive, skráageymsluna þína í skýinu. OneDrive er sjálfgefið til einkanota, þar sem þú skipuleggur efnið þitt og velur hvaða skrár eða möppur á að deila og með hverjum. SharePoint býður hinsvegar upp á gagnageymslu í skýinu fyrir skrár sem deilt er með öðrum í fyrirtækinu.  
 
-## <a name="does-includeprodshortincludesprodshortmd-support-consumer-onedrive" />Styður [!INCLUDE[prod_short](includes/prod_short.md)] notanda OneDrive?
+## <a name="does--support-consumer-onedrive" />Styður [!INCLUDE[prod_short](includes/prod_short.md)] notanda OneDrive?
 
 Fj. Þessi samþætting er eingöngu ætluð OneDrive for Business og styður aðeins vinnureikninginn þinn. 
 
@@ -36,15 +36,15 @@ Fj. Þessi samþætting er eingöngu ætluð OneDrive for Business og styður a�
 
 Stjórnendur geta fengið aðgang að stjórnborði Service Health sem hluti af stjórnendamiðstöð Microsoft 365. Stjórnborðið inniheldur aðgengileika OneDrive þjónustu. Opnið [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
-## <a name="is-onedrive-integration-available-to-includeprodshortincludesprodshortmd-on-premises" />Er OneDrive samþætting í boði fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum?
+## <a name="is-onedrive-integration-available-to--on-premises" />Er OneDrive samþætting í boði fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum?
 
 Já, en ólíkt [!INCLUDE[prod_short](includes/prod_short.md)] á netinu þarf meiri uppsetningu. Frekari upplýsingar er að finna í [Skilgreining Business Central-þjóns innanhúss](admin-onedrive-integration-onpremises.md).  
 
-## <a name="does-includeprodshortincludesprodshortmd-on-premises-connect-with-sharepoint-server" />Tengist [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við SharePoint Server?
+## <a name="does--on-premises-connect-with-sharepoint-server" />Tengist [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við SharePoint Server?
 
 Nr. Þessi samsetning uppsetningar er ekki studd jafnvel þótt SharePoint þjónninn hefur virkjað „Mín svæði“.  
 
-## <a name="does-includeprodshortincludesprodshortmd-online-connect-with-sharepoint-server" />Tengist [!INCLUDE[prod_short](includes/prod_short.md)] á netinu við SharePoint Server?
+## <a name="does--online-connect-with-sharepoint-server" />Tengist [!INCLUDE[prod_short](includes/prod_short.md)] á netinu við SharePoint Server?
 
 Nr. Þessi samsetning uppsetningar er ekki studd jafnvel þótt SharePoint þjónninn hefur virkjað „Mín svæði“.  
 
@@ -56,7 +56,7 @@ Samþættingin gerir ráð fyrir að heiti fyrirtækja séu einkvæm milli [!INC
 
 [!INCLUDE[prod_short](includes/prod_short.md)] flytur ekki skrár sjálfkrafa sem þú opnaðir áður í OneDrive yfir í nýju möppuna. Eftir að fyrirtækið hefur verið endurnefnt mun aðgerðin Opna í OneDrive afrita skrárnar í möppu sem er með nýja heiti fyrirtækisins.   
 
-## <a name="when-attaching-files-to-includeprodshortincludesprodshortmd-how-do-i-pick-a-file-from-onedrive" />Þegar skrár eru hengdar við [!INCLUDE[prod_short](includes/prod_short.md)] hvernig vel ég skrá úr OneDrive?
+## <a name="when-attaching-files-to--how-do-i-pick-a-file-from-onedrive" />Þegar skrár eru hengdar við [!INCLUDE[prod_short](includes/prod_short.md)] hvernig vel ég skrá úr OneDrive?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á skýjaskráaval. Þú verður að sækja skrána úr OneDrive og yfir í tækið þitt og síðan hlaða henni upp í [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -72,11 +72,11 @@ Keyrðu uppsetningarleiðbeininguna **OneDrive uppsetning** og slökktu á rofun
 
 Þetta er eldri eiginleiki þar sem allar [!INCLUDE[prod_short](includes/prod_short.md)] skrár frá öllum notendum eru sendar í eina SharePoint möppu. Mælt er með því að grunnstilla ekki flýtiflipa samnýttra skjala á síðunni **Uppsetning SharePoint tengingar** því að þessi síða hefur verið [úrelt](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) og verður fjarlægð í 2023 útgáfutímabili 2, útgáfu 23.0.  Mælt er með því að nota **OneDrive uppsetningu** í staðinn.  
 
-## <a name="which-version-of-includeprodshortincludesprodshortmd-supports-onedrive" />Hvaða útgáfa af [!INCLUDE[prod_short](includes/prod_short.md)] styður OneDrive?
+## <a name="which-version-of--supports-onedrive" />Hvaða útgáfa af [!INCLUDE[prod_short](includes/prod_short.md)] styður OneDrive?
 
 Samþætting við OneDrive varð aðgengileg í 2021 útgáfutímabili 2.  
 
-## <a name="a-namefeaturesawhich-features-are-affected-by-onedrive-integration" /><a name="features"></a>Hvaða eiginleikar verða fyrir áhrifum af OneDrive samþættingu?
+## <a name="which-features-are-affected-by-onedrive-integration" /><a name="features"></a>Hvaða eiginleikar verða fyrir áhrifum af OneDrive samþættingu?
 
 Í uppsetningarleiðbeiningunni **OneDrive uppsetning** til að setja upp OneDrive samþættingu geturðu kveikt eða slökkt á eiginleikum til að meðhöndla skrár Business Central í OneDrive. Eiginleikarnir skiptast á milli tveggja valkosta:
 

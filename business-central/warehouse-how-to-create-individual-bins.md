@@ -70,7 +70,7 @@ Til að vinna með síðuna **Hólfastofnunarvinnublaði** þarftu að vera sett
 
 Þetta ferli er endurtekið fyrir annan hóp hólfa þar til öll hólf í vöruhúsinu hafa verið stofnuð.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-bins" />Sjá tengda [Microsoft þjálfun](/training/modules/create-new-bins/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/create-new-bins/)
 
 ## <a name="see-also" />Sjá einnig .
 

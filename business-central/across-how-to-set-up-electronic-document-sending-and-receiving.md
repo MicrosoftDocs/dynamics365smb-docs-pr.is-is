@@ -136,7 +136,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
     |---------------------------------|---------------------------------------|  
     |**Fjárhagsreikningur fyrir línur sem eru ekki vörulínur**|Tilgreinir fjárhagsreikning sem er sjálfkrafa settur inn í innkaupalínu sem eru stofnaðar úr rafrænum skjölum þegar skjalalína skjals á innleið inniheldur ekki auðkennanlegt atriði. Allar línur skjala á innleið sem hafa ekki GTIN eða vörunúmer lánardrottins verður breytt í innkaupalína af gerðinni **Fjárhagsreikningur** og **Nr.** reiturinn í innkaupalínunni mun innihalda reikning sem valinn var í reitnum **Fjárhagsreikningur fyrir línur sem eru ekki vörulínur**.<br /><br /> Ef reiturinn **Fjárhagsreikningur fyrir línur sem eru ekki vörulínur** er hafður auður og skjal á innleið hefur línur án auðkennanlegra atriða verður innkaupaskjal ekki stofnað. Villuboð munu óska eftir því að fyllt sé í reitinn **Fjárhagsreikningur fyrir línur sem eru ekki vörulínur** áður en hægt er að ljúka verkinu.|  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 [Rafræn gagnaskipti](across-data-exchange.md)   

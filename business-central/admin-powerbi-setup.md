@@ -10,11 +10,11 @@ ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, bus
 ms.date: 07/13/2022
 ms.author: jswymer
 ---
-# <a name="enabling-power-bi-integration-with-includeprodshortincludesprodshortmd" />Virkjun Power BI samþættingar við [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="enabling-power-bi-integration-with-" />Virkjun Power BI samþættingar við [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Þessi grein lýsir því hvernig hægt er að undirbúa [!INCLUDE[prod_short](includes/prod_short.md)] til samþættingar við Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er þegar virkt fyrir samþættingu, þó þú kunnir að vilja lesa einhverjar upplýsingar um leyfi. Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er búið að setja upp umhverfi til að tengjast við Power BI áður en notendur geta unnið með það.
 
-## <a name="a-namelicenseapower-bi-licensing" /><a name="license"></a>Power BI Leyfisveiting
+## <a name="power-bi-licensing" /><a name="license"></a>Power BI Leyfisveiting
 
 Með [!INCLUDE[prod_short](includes/prod_short.md)] fá notendur ókeypis Power BI leyfi sem veitir aðgang að algengustu aðgerðunum í [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Einnig er hægt að kaupa Power BI Pro-leyfi sem veitir aðgang að viðbótareiginleikum. Eftirfarandi tafla sýnir yfirlit yfir tiltæka eiginleika með hverju leyfi.
 
@@ -25,7 +25,7 @@ Með [!INCLUDE[prod_short](includes/prod_short.md)] fá notendur ókeypis Power 
 
 Frekari upplýsingar er að finna í [Leyfi fyrir Power BI þjónustunni fyrir notendur í fyrirtækinu](/power-bi/admin/service-admin-licensing-organization) eða [Skráning á þjónustunni Power BI sem einstaklingur](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="a-nameexposedataaexpose-data-through-api-or-odata-web-services" /><a name="exposedata"></a>Birta gögn í gegnum API eða OData-vefþjónustur
+## <a name="expose-data-through-api-or-odata-web-services" /><a name="exposedata"></a>Birta gögn í gegnum API eða OData-vefþjónustur
 
 Business Central býður upp á tvær leiðir til að birta gögn sem Power BI skýrslur geta notað: API-síður eða fyrirspurnir og OData-vefþjónustur.
 
@@ -54,7 +54,7 @@ Til að fræðast um hvað hægt er að gera til að tryggja bestu frammistöðu
 
 Við hvert tækifæri er mælt með að nota API-síður í stað OData-vefþjónustu. API-síður eru almennt hraðari að hlaða inn gögnum í Power BI skýrslur en OData-vefþjónustur. Auk þess eru þær sveigjanlegri vegna þess að þær gera þér kleift að sækja gögn úr töflureitum sem eru ekki skilgreindir í síðuhlut.
 
-## <a name="a-namesetupaset-up-includeprodshortincludesprodshortmd-on-premises-for-power-bi-integration" /><a name="setup"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss fyrir Power BI samþættingu
+## <a name="set-up--on-premises-for-power-bi-integration" /><a name="setup"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss fyrir Power BI samþættingu
 
 Þessi hluti útskýrir kröfur fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum til að samþætta við Power BI.
 
@@ -92,7 +92,7 @@ Við hvert tækifæri er mælt með að nota API-síður í stað OData-vefþjó
     Til að koma á fyrstu tengingunni skal opna [!INCLUDE[prod_short](includes/prod_short.md)] og keyra **Hefjast handa með Power BI** af heimasíðunni. Þessi aðgerð mun leiða þig í gegnum samþykktarferlið og fara yfir Power BI-leyfið þitt. Þegar beðið er um innskráningu skal nota innskráningu með Azure-stjórnendareikningi. Frekari upplýsingar er að finna í [Tengjast við Power BI - aðeins einu sinni](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Sjá tengda [Microsoft þjálfun](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Sjá einnig
 

@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
 ---
-# <a name="work-with-recurring-revenue-in-includeprodshortincludesprodshortmd" />Vinna með endurteknar tekjur í [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-" />Vinna með endurteknar tekjur í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Mörg fyrirtæki eru að færa sig úr tekjulíkönum þar sem tekjur eru úr einskiptiskaupum viðskiptavinar í viðskiptalíkan þar sem tekjur eru gerðar á endurteknum grunni í skiptum fyrir stöðugt aðgengi að afhendingu góðrar vöru eða þjónustu.
 [!INCLUDE[prod_short](includes/prod_short.md)] er með eftirfarandi valmöguleika til að gera sendingerferli reikninga í gegnum viðskiptavini og skráningu endurtekinna tekna sjálfvirkt. 
@@ -35,7 +35,7 @@ Nánari upplýsingar eru í [Vinna með Ítrekunarbækur](ui-work-general-journa
 
 Þegar búið er að bóka endurtekna verkbók er hægt að búa til marga reikninga með **Stofna verksölureikning**. Hægt er að yfirfara og bóka stofnaða reikninga á síðunni **Sölureikningar** .
 
-### <a name="why-use-this-option" />Af hverju að nota þennan möguleika
+### <a name="why-use-this-option-1" />Af hverju að nota þennan möguleika
 
 Með þessum valkosti fylgir staðlað reikningsfærsluferli með öllum fríðindum þess, þar á meðal stöðluðu og útliti viðskiptavinar fyrir samskipti. Einnig er hægt að skilgreina verð fyrir hvert verk fyrir sig.
 
@@ -47,7 +47,7 @@ Frekari upplýsingar er að finna í [Stofna verkbókarlínur](projects-how-reco
 
 Ef þú þarft oft að stofna innkaupa- og sölulínur með svipuðum upplýsingum, geturðu sett upp endurtekntar sölulínur, sem þú getur svo fært inn í ítrekuð sölu- og innkaupaskjöl, til dæmis fyrir endurteknar áfyllingapantanir. Notaðu runuvinnsluna **Stofna ítrekaða sölureikninga** til að stofna sölureikninga samkvæmt endurteknum sölulínum sem eru tengdar við viðskiptamenn og með bókunardagsetningum innan gildir-frá og gildir-til dagsetningum sem hafa verið tilgreindar í endurteknum sölulínum.  
 
-### <a name="why-use-this-option" />Af hverju að nota þennan möguleika
+### <a name="why-use-this-option-2" />Af hverju að nota þennan möguleika
 
 Með þessum valkosti er hægt að úthluta sömu ítrekunarlínum á marga viðskiptamenn. Hægt er að skilgreina gildistímabil fyrir endurteknar sölulínur tiltekins viðskiptavinar. Hægt er að úthluta mörgum ítrekunarlínum á sama viðskiptavin og allir þeirra verða teknir með í reikningunum.
 
@@ -62,7 +62,7 @@ Nánari upplýsingar er að finna í [Stofna ítrekaðar sölu og innkaupalínur
 Hægt er að skilgreina upphafsdagsetningu samningsins, reikningstímabilsins, hvort samningurinn er fyrirframgreiddur og verðuuppfærslum ef þú ætlar að breyta verði þegar samningurinn er virkur. Hægt er að nota bæði þjónustuvörur eða vörur í þjónustusamningslínum.
 Hægt er að  stofna samningssniðmát til að skilgreina hvernig eigi að stofna ákveðnar tegundir samninga.  
 
-### <a name="why-use-this-option" />Af hverju að nota þennan möguleika
+### <a name="why-use-this-option-3" />Af hverju að nota þennan möguleika
 
 Með þessum valkosti er notaður hluti af virkni ítarlegrar þjónustustýringar sem takmarkast ekki við útgáfu af endurteknum reikningum heldur styður viðgerðir og vettvangsaðferðir.
 
@@ -78,7 +78,7 @@ Nokkrir tengdir eiginleikar eru í [!INCLUDE[prod_short](includes/prod_short.md)
 Standandi sölupöntun er rammi fyrir langtímasamning milli fyrirtækisins þíns og viðskiptavinarins þíns.
 Standandi pöntun er yfirleitt stofnuð þegar viðskiptamaður hefur skuldbundið sig til kaupa á miklu magni sem afhenda á í nokkrum minni afhendingum á ákveðnu tímabili. Standandi pantanir ná oft eingöngu yfir eina vöru með fyrirframákveðnum afhendingardögum. Aðalástæðan fyrir notkun standandi pantana í stað sölupantana er sú að magn sem tilgreint er á standandi pöntun hafa ekki áhrif á framboð vöru, en hægt er að nota það í áætlanagerð.
 
-#### <a name="why-use-this-option" />Af hverju að nota þennan möguleika
+#### <a name="why-use-this-option-4" />Af hverju að nota þennan möguleika
 
 Með þessum valkosti er hægt að nota áætlaða eftirspurn þannig að upplýsingarnar standist eðlilegar áætlunarvenjur. Frekari upplýsingar er að finna í [Eftirspurnarspá og standandi pantanir](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
@@ -91,7 +91,7 @@ Nánari upplýsingar eru í [Vinna með standandi sölupantanir](sales-how-to-cr
 Hægt er að nota endurteknar pantanir til að stofna standandi pöntunarsniðmát þannig að hægt sé að stofna sölupantanir út frá dagsetningabilum sem eru skilgreind. Ef sama sölupöntun er t.d. afhent á tveggja vikna fresti er hægt að nota standandi sölupöntun og stofna endurteknar pantanir.
 Hægt er að nota endurtekna flokka til að skilgreina svið færibreytna sem sýna hvernig pantanir eru gerðar. Þessum flokkum er úthlutað á standandi pantanir sem þarf að stofna reglulega. Til að búa til endurteknar pantanir þarf reglulega að keyra ferli til að stofna endurteknar pantanir. 
 
-#### <a name="why-use-this-option" />Af hverju að nota þennan möguleika
+#### <a name="why-use-this-option-5" />Af hverju að nota þennan möguleika
 
 Með þessum valkosti er hægt að velja á milli fastra verða og „bestu“ verða.
 

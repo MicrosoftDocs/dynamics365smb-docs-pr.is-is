@@ -39,7 +39,7 @@ Eftir að þú hefur skilgreint VSK-yfirlit geturðu forskoðað það til að g
 4. Í línunum þar sem reiturinn **Tegund** innheldur **Samtala VSK-færslna** er hægt að sjá lista yfir VSK-færslur með því að smella á upphæðina í reitnum **Upphæð dálks**.
 5. Hægt er að nota sérstillingu til að sýna fleiri svæði á línunum. Til dæmis „Áætlaða grunnupphæð“ og „Áætluð VSK-upphæð“ ef áætlaður VSK er notaður.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

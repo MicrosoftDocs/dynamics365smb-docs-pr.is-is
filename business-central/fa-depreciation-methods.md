@@ -294,7 +294,7 @@ Ef um er að ræða þrjár afskriftabækur B1, B2 og B3 og afrita á færslur �
 > [!NOTE]  
 > Ekki er hægt að nota sömu númeraröð í eignafjárhagsbók og í eignabók. Þegar færslur eru bókaðar í eignafjárhagsbók verður reiturinn **Númer fylgiskjals** að vera auður. Ef númer er fært í reitinn afritar kerfið númerið í eignabókina. Þú verður að breyta skjalnúmerinu handvirkt áður en þú getur sent inn dagbókina.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also" />Sjá einnig .
 

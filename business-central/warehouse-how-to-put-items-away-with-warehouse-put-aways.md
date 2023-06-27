@@ -112,7 +112,7 @@ Ef Birgðageymsla er notuð fyrir bæði frágangsvinnslu og móttöku og eytt e
 
 5. Þegar allar vörurnar hafa verið settar í hólf samkvæmt skal velja aðgerðina **Skrá frágang**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -111,6 +111,6 @@ Eftirfarandi tafla lýsir röð verkefna og veitir tengla í þær greinar sem n
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -54,7 +54,7 @@ Keyra má skýrsluna **Eignir - Áætlað virði** til að skoða áætlað afsk
 4. Flýtiflipinn **Eignir** er hafður auður ef taka á allar eignir með. Ritaðu **Nei** í reitinn **Áætluð eign** til að undanskilja áætlaðar eignir eða **Já** til að skoða einungis áætlaðar eignir.
 5. Veljið hnappinn **Prenta** eða **Forskoðun**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudget-fixed-assets" />Sjá tengda [Microsoft þjálfun](/training/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also" />Sjá einnig .
 

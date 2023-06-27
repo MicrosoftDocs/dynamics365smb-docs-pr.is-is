@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-includeprodlongincludesprodlongmd" />Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-" />Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum hluta geturðu séð lýsingar á virkni sem á við um löndin þar sem Microsoft veitir eftirfylgni við lög og reglugerðir og aðra staðbundna virkni.  
 

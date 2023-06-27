@@ -51,7 +51,7 @@ Eftirfarandi Flæðirit sýnir hvernig  **reiturinn Kóti hólfakóta**  í fram
 
 :::image type="content" source="media/binflow.png" alt-text="Reiturinn Kóti hólfs í framleiðslupöntunaríhlutalínum.":::
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-bins-location/)
 
 ## <a name="see-also" />Sjá einnig .
 

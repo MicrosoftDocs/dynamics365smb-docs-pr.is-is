@@ -63,7 +63,7 @@ Nokkrir flýtilyklar gera þér kleift að vinna án músar og flýta fyrir skr�
 
 Frekari upplýsingar er að finna í [Flýtilyklar á lyklaborði](keyboard-shortcuts.md). Í þessari grein er fjallað um nokkra af flýtilyklunum.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Hraða gagnaskráningu með flýtifærslu
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Hraða gagnaskráningu með flýtifærslu
 
 Flýtifærsla er eiginleiki sem er hannaður fyrir gagnaskráningu þegar lyklaborð er notað. Flýtifærsla virkar á reiti (t.d. í spjaldsíðum) og í listum (röðum og dálkum). Það er gagnlegt þegar verið er að framkvæma endurtekin innsláttarverk sem krefjast þess að stofnaðar séu margar færslur í röðinni. Dæmi eru sölupantanakeyrsla eða skráning nýrra vara.
 
@@ -125,7 +125,7 @@ Til að hefja síuvalið, veljið  ![þá afmörkunarteikn](media/open-filter-pa
 
 Síun er sérstaklega hjálpleg þegar lengri skjöl eru skoðuð og greind. Ímyndaðu þér að þú opnir bókaðan sölureikning. Síðan eru línuatriði síuð til að birta öll línuatriði sem eru með einstakan afslátt yfir 5%. Einnig er hægt að sía til að sýna eingöngu fylgihluti reiðhjóls með „pro“ í heitinu.
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="Focus"></a>Fókus settur á línuatriði
+## <a name="focusing-on-line-items" /><a name="Focus"></a>Fókus settur á línuatriði
 
 Þegar unnið er á skjölum sem innihalda vörulínuhluta reikningssíðu, er hægt að skipta yfirlitinu til að einbeita sér eingöngu að vörulínunum. Dæmaskjöl eru sölupöntun eða reikningssíða. Línuatriðahlutinn stækkar þannig að hann nær yfir nánast allt vinnusvæðið. Það felur aðra hluta síðunnar fyrir utan aðgerðasvæðið efst. Þetta veitir þér betri yfirsýn yfir línuatriðin og gefur meira rými til að vinna í þeim.
 
@@ -266,7 +266,7 @@ Hér eru nokkur dæmi.
 
  Tölunni 5 er breytt í 5 klst. ef mælieiningin er klukkustundir.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum
 
 Þegar aðgreiningarlykill  <kbd>með aukastöfum er notaður</kbd>  á talnaborði til að færa inn gögn eru raunveruleg tugabrot sem færð eru inn í svæðið ákvörðuð af svæðisstillingu þinni í Business Central. Flest svæði nota punkt (.) eða kommu (,) sem skiltákn fyrir tugabrot, eins og þú myndir yfirleitt sjá í upphæðum gjaldmiðla. Tugabrotslykillinn á talnaborðinu aðlagast að svæðinu þínu. Hann er oft ólíkur punkta- eða kommulykli á hinum hluta lyklaborðsins. Þú stillir svæðið í Business Central á síðunni **Mínar stillingar**.
 
@@ -275,7 +275,7 @@ Segjum til dæmis að þú sért að nota Talnalykil sem notar tímabil (.) sem 
 > [!TIP]
 > Það geta komið upp tilfelli þar sem þú vilt nota skiltákn tugabrots til að færa inn punkt (.). Gefum okkur til dæmis að þú hafir slegið inn dagsetningabil í síu, t.d. `01/01/2022..04/01/2022`, eða eitthvað sem krefst punkts. Til að móta þetta mál þarf að velja  <kbd>Aðgreiningarlykla</kbd>+<kbd>Alt</kbd>  á talnalyklaborinu. Þessi lyklasamsetning skiptir skiltákni tugabrots sem kemur með punkt og skiltákni tugabrots sem ákvarðast af **Svæðisstillingunni**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

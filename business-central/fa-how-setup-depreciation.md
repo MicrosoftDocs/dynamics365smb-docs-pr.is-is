@@ -90,7 +90,7 @@ Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverj
 
 Ef þessi reitur er valinn eru afskriftir reiknaðar samkvæmt 365 daga ári, hver mánuður er reiknaður með sama dagafjölda og á almanaki. Undantekning er febrúar á hlaupári, sem verður 28 daga en ekki 29. Vegna þessa verða öll ár 365 dagar, líka hlaupár.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also" />Sjá einnig .
 

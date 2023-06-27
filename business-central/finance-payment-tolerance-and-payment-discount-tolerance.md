@@ -211,11 +211,11 @@ Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**>22/01/03**|**2000**|**Ekkert**|**Já**|**0**|**0**|  
 |30|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|PaymentTolerance|Já|0|5|  
 
-### <a name="payment-range-diagrams" />Skýringar greiðslusviða
+### <a name="payment-range-diagrams-1" />Skýringar greiðslusviða
 
 Í tengslum við dæmið að ofan eru skýringar á greiðslusviðum sem hér segir:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Greiðsludagsetning <=15/01/03 (Dæmi 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1" />(1) Greiðsludagsetning <=15/01/03 (Dæmi 1-3)
 
 Eftirstöðvar á hverja  
 
@@ -275,7 +275,7 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

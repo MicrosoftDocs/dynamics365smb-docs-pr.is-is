@@ -62,7 +62,7 @@ Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyri
 
 Útlitinu á völdum síðum er breytt í breytingar sem gerðar voru.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Sjá einnig .
 

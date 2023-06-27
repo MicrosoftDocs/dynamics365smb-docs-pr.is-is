@@ -99,7 +99,7 @@ Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
 > [!NOTE]
 > Ef hrakvirði er til staðar fyrir eign verður það gildi notað í afskriftabókun í stað gildis í reitnum **Bókfært lokavirði** á síðunni **Eignaafskriftarbækur** . Frekari upplýsingar eru í [Til að stjórna bókfærðu lokavirði](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespurchase-fixed-assets" />Sjá tengda [Microsoft þjálfun](/training/modules/purchase-fixed-assets/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/purchase-fixed-assets/)
 
 ## <a name="see-also" />Sjá einnig .
 

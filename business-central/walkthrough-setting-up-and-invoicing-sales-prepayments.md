@@ -235,7 +235,7 @@ Einnig var fyrirframgreiðslureikningur bókaður, annar reikningur stofnaður �
 
 Möguleikar fyrirframgreiðslu gera þér auðvelt að setja upp og framfylgja reglum um fyrirframgreiðslu fyrir viðskiptamenn og vörur. Þeir gera þér einnig kleift að bóka allar greiðslur á móti reikningi.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Sjá tengda [Microsoft þjálfun](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Sjá einnig .
 

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 05/12/2023
 ms.author: bholtorf
 ---
-# Hönnunarupplýsingar: Aðferð kostn.útreiknings
+# <a name="design-details-costing-methods" />Hönnunarupplýsingar: Aðferð kostn.útreiknings
 
 Það veltur á aðferð við kostnaðarútreikning hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning. Kostnaðaraðferðin hefur líka áhrif á það hvernig kostnaðarflæðið er skráð, ásamt bókunardagsetningu og lotu.
 
@@ -49,7 +49,7 @@ Aðferð kostnaðarútreiknings eru mismunandi í því hvernig þeir meta birg�
 |**Staðlað**     |Einfalt í notkun en þarf gott viðhald.|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Jöfnun byggist á FIFO.|Uppreiknar innheimt og óreikningsfærðan magn.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Notaðu síðuna **Staðlað vinnublað** til að uppfæra reglulega og taka saman staðalkostnaði.<br /><br /> Er EKKI studd á birgðahaldseiningu.<br /><br /> Engar sögulegar færslur eru til staðar fyrir staðlaðan kostnað.|
 |**Sérstakt**     |Krefst vörurakningar á bæði færslur á innleið og útleið.<br /><br /> Venjulega notað fyrir vörur með raðnúmer.|Allar jafnanir eru fastar.|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Hægt er að nota sértæka vörurakninguán þess að nota Tilgreinda aðferð kostnaðarútreiknings. Kostnaðurinn mun þá EKKI fylgja lotunúmerinu, heldur kostnaðaráætlun valinnar aðferðar kostnaðarútreiknings.|
 
-## Dæmi
+## <a name="example" />Dæmi
 
 Þessi hluti gefur dæmi um hvernig mismunandi kostnaðaraðferðir hafa áhrif birgðavirði.  
 
@@ -67,7 +67,7 @@ Eftirfarandi tafla sýnir birgðaaukningu og -minnkun sem dæmin eru byggð á.
 > [!NOTE]  
 > Magn í birgðaeiningum verður núll. Þar af leiðandi verður birgðavirði einnig að vera núll, hver sem aðferð kostnaðarútreiknings er.  
 
-### Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun  
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases" />Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun
 
 Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem grunn fyrir verðmat (**FIFO (fyrst inn - fyrst út)**, **LIFO (síðast inn - fyrst út)**, **Meðaltal** eða **Tilgreint**), er birgðaaukning metin á kaupverði vörunnar.  
 
@@ -75,11 +75,11 @@ Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem gru
 
     Þegar notuð er kostnaðaraðferðin **Staðlað** er birgðaaukning metin á því staðalverði vörunnar sem er í gildi.  
 
-#### Staðlað  
+#### <a name="standard" />Staðlað
 
 Þegar notuð er kostnaðaraðferðin **Staðlað** er birgðaaukning metin á því staðalverði vörunnar sem er í gildi.  
 
-### Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun
+### <a name="effect-of-costing-methods-on-valuing-inventory-decreases" />Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun
 
 - **FIFO**  
 
@@ -147,7 +147,7 @@ Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem gru
     |03-01-20|-1|-10,00|**1**|5|  
     |04-01-20|-1|-30,00|**3**|6|  
 
-## Sjá einnig
+## <a name="see-also" />Sjá einnig
 
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
 [Hönnunarupplýsingar Frávik](design-details-variance.md)  

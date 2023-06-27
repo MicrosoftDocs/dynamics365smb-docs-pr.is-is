@@ -158,7 +158,7 @@ Til að setja upp kostnaðarleiðréttingu til að keyra sjálfkrafa þegar þú
 
 Valið í reitnum **Sjálfvirk kostnaðarleiðrétting** er mikilvægt fyrir afköst og nákvæmni kostnaðar. Styttri tímabil, td **Dagur** eða **vika**, hefur minni áhrif á kerfið, vegna þess að þeir veita strangari krafa um að einungis kostnaður bókaður á síðasta degi eða viku má jafna sjálfkrafa. Þetta þýðir að sjálfvirk kostnaðarleiðrétting er ekki keyrð eins oft og því eru minni áhrif á afköst kerfisins. Hins vegar þýðir það einnig að einingarkostnaður gæti orðið ónákvæmari.  
 
-### <a name="example" />Dæmi
+### <a name="example-1" />Dæmi
 
 Eftirfarandi dæmi sýnir sjálfvirka leiðréttingu kostnaðar:  
 
