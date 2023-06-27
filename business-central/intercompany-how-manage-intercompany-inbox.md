@@ -10,17 +10,17 @@ ms.custom: bap-template
 ms.search.keywords: incoming document
 ms.search.form: '600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611'
 ---
-# <a name="manage-the-intercompany-inbox-and-outbox" />Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur
+# <a name="manage-the-intercompany-inbox-and-outbox"></a>Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur
 
 MF-færslurnar sem þú færð frá félögunum eru skráðar á  **síðuna MF-Innhólf** . Til að fræðast um hvernig á að vinna úr samstæðufærslum er farið í að  [vinna úr færslum milli fyrirtækja](#process-incoming-intercompany-transactions). MF-færslurnar sem sendar eru til samstarfsaðila eru á lista á  **síðunni um Milliútg** . Til að læra hvernig á að vinna færslur milli samstæðufærslna er farið í  [til að vinna úr MF-færslum](#to-process-outgoing-intercompany-transactions).
 
 Eftir uppsetningu samstæðunnar eru sumar færslur Afgreiddar sjálfkrafa. Hægt er að setja upp upprunafyrirtæki og samstarfsfyrirtæki til að stofna sjálfkrafa skjöl og færslubækur sem samsvara færslum sem aðilar bóka í gegnum almenna færslubók innan samstæðu. Til að fræðast um notkun samstæðubóka er farið í að  [fylla út og bóka MF-færslubók](intercompany-how-work-documents-journals.md#fill-in-and-post-an-intercompany-journal).  
 
-## <a name="organizing-the-inbox" />Innhólfinu raðað
+## <a name="organizing-the-inbox"></a>Innhólfinu raðað
 
 Hægt er að nota afmörkunarreitina efst á innhólfinu til að ákvarða hvaða færslur eru sýndar á síðunni. Til dæmis, ef aðeins á að kanna færslur sem tiltekinn samstarfsaðili stofnaði, nota  **uppruna**  og  **kótaafmarkanir Færslufélagakóða**  innan samstæðu.  
 
-### <a name="transaction-source" />Uppruni færslu
+### <a name="transaction-source"></a>Uppruni færslu
 
 Það sem hægt er að gera við færslu fer eftir því hvort hún var:  
 
@@ -29,7 +29,7 @@ Hægt er að nota afmörkunarreitina efst á innhólfinu til að ákvarða hvað
 
  **Notið svæðið Sýna upprunakátt**  færslu til að afmarka  **síðuna síða MF-innhólfsfærslna**  þannig að hún birti eina af þessum færslugerðum. Einnig er hægt að afmarka eftir MF-félaga, eða efni  **reitsins Línuaðgerð** .  
 
-#### <a name="created-by-intercompany-partner" />Stofnað af samstæðufélaga
+#### <a name="created-by-intercompany-partner"></a>Stofnað af samstæðufélaga
 
  Þegar ný færsla berst sem var stofnuð af félaga er hægt að velja að:
 
@@ -37,15 +37,15 @@ Hægt er að nota afmörkunarreitina efst á innhólfinu til að ákvarða hvað
 * Hafna færslunni (skila til samstarfsaðila)  
 * Hætta við færsluna (eyða færslunni og skila henni ekki til félaganna)  
 
-#### <a name="returned-from-intercompany-partner" />Skilað frá samstæðufélaga
+#### <a name="returned-from-intercompany-partner"></a>Skilað frá samstæðufélaga
 
 Ef MF-félaginn hafnar færslu verður að hætta við færsluna í innhólfinu og stofna síðan leiðréttingarlínur eða bakfæra færslubókina eða skjalið.  
 
-## <a name="recreating-inbox-entries" />Endurbúa innhólfsfærslur
+## <a name="recreating-inbox-entries"></a>Endurbúa innhólfsfærslur
 
 Ef færsla var samþykkt í innhólfinu en fylgiskjalinu eða færslubókinni var síðan eytt án þess að bóka hana er hægt að stofna innhólfsfærsluna aftur og samþykkja hana aftur.  
 
-## <a name="get-an-overview-of-intercompany-transactions-for-a-period" />Fá yfirlit yfir færslur milli fyrirtækja á tímabili
+## <a name="get-an-overview-of-intercompany-transactions-for-a-period"></a>Fá yfirlit yfir færslur milli fyrirtækja á tímabili
 
 Hægt er að fá yfirlit yfir allar færslur milli fyrirtækja sem tekið var við og hafa verið sendar á tilteknu tímabili. Í skýrslunni **Millifyrirtækjafærslur** koma fram allar fjárhagsfærslur, viðskiptamannafærslur og lánardrottnafærslur milli fyrirtækja.
 
@@ -55,7 +55,7 @@ Hægt er að fá yfirlit yfir allar færslur milli fyrirtækja sem tekið var vi
 > * Fyrir samstillingarfélagana, á  **síðu Samstæðuuppsetningar**, er kveikt á  **Auto. senda færslur**  skipta.
 > * Ef um er að ræða samstarfsfyrirtæki, á  **síðu félaga**  innan samstæðunnar, skal kveikja á Auto. taka til  **skipta á færslum** .  
 
-## <a name="import-intercompany-transactions-from-a-file" />Flytja færslur milli fyrirtækja inn úr skrá
+## <a name="import-intercompany-transactions-from-a-file"></a>Flytja færslur milli fyrirtækja inn úr skrá
 
 [!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
 
@@ -68,7 +68,7 @@ Ef fyrirtækið er með milli-fyrirtækjafélaga sem er ekki í sama gagnagrunni
 
 Færslurnar eru fluttar inn í innhólfið og nú er hægt að vinna með þær.
 
-## <a name="process-incoming-intercompany-transactions" />Vinna úr innsendum samstæðufærslum
+## <a name="process-incoming-intercompany-transactions"></a>Vinna úr innsendum samstæðufærslum
 
 Þegar milli-fyrirtækjafélagar senda færslur milli fyrirtækja enda færslurnar í milli-fyrirtækjainnhólfinu. Meta þarf hverja færslu í pósthólfinu og bregðast við því.  
 
@@ -83,7 +83,7 @@ Línum sem þú hafnar og skila á félaginn fara í MF-úthólfið, þar sem þ
 
 Fyrir línur sem félagi hefur verið hafnað og skilað til þín þarf að bóka leiðréttingu á upphaflegu færslunni sem þú bókaðir í fyrirtækinu.
 
-## <a name="to-process-outgoing-intercompany-transactions" />Vinna færslur milli fyrirtækja á útleið
+## <a name="to-process-outgoing-intercompany-transactions"></a>Vinna færslur milli fyrirtækja á útleið
 
 Þegar bókuð er MF-færslubók eða-fylgiskjal eða send staðfesting samstæðupöntunar, fara færslurnar í MF-Úthólf notanda. Til að senda til MF-félaga skaltu opna úthólfið og vinna úr þeim.  
 
@@ -96,7 +96,7 @@ Nota skal  **aðgerðina endursenda til innhólfsaðgerð**  til að flytja lín
 
 Ef hætt er við að  **nota aðgerðina Hætta**  við verður að bóka leiðréttingu á færsluna sem upphaflega var bókuð hjá fyrirtækinu.  
 
-## <a name="recreate-intercompany-inbox-transactions" />Endurgera færslur í MF-innhólfi
+## <a name="recreate-intercompany-inbox-transactions"></a>Endurgera færslur í MF-innhólfi
 
 Þú gætir viljað endurstofna færslu í innhólfinu eða úthólfinu. Ef t.d. færsla var samþykkt í innhólfinu en fylgiskjalinu eða færslubókinni var síðan eytt án þess að bóka hana er hægt að stofna innhólfsfærsluna aftur og samþykkja hana aftur.  
 
@@ -105,7 +105,7 @@ Eftirfarandi ferli lýsir hvernig eigi að endurstofna innhólfsfærslur, en sö
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afgreiddar MF-innhólfsfærslur** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Afgreiddar MF-innhólfsfærslur** veljið línuna með færslunni sem á að stofna aftur í innhólfinu, og veljið svo **Endurstofna innhólfsfærslu** aðgerðina.  
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
 [Fjármál](finance.md)  

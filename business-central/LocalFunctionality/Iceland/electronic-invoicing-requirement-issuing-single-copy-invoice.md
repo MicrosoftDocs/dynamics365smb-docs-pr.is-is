@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="electronic-invoicing-requirement-issuing-single-copy-invoice" />Kröfur fyrir rafrænar reikningsfærslur: Útgáfa reikninga í einriti
+# <a name="electronic-invoicing-requirement-issuing-single-copy-invoice"></a>Kröfur fyrir rafrænar reikningsfærslur: Útgáfa reikninga í einriti
 
 Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur er prentaður oftar en einu sinni. Skýrslan inniheldur lagalegan texta þar sem staðfest er að reikningurinn sé búinn til í bókhalds- og áætlunarkerfi sem samræmist lögum.  
 
@@ -18,7 +18,7 @@ Með þessari aðgerð er hægt að senda skilmála um notkun reikninga í einri
 
 Lagalegur texti er settur inn á staðlaða bókaða reikninga (reikningur og kreditreikningur) þar sem fram kemur að reikningarnir séu búnir til í bókhalds- og áætlunarkerfi sem samræmist reglugerð nr. 598/1999.  
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning sölu](../../sales-setup-sales.md)  
 

@@ -11,11 +11,11 @@ ms.search.form: 172
 ms.date: 07/06/2022
 ms.author: edupont
 ---
-# <a name="create-recurring-sales" />Stofna endurteknar sölur
+# <a name="create-recurring-sales"></a>Stofna endurteknar sölur
 
 Ef þú þarft oft að stofna sölulínur með svipuðum upplýsingum geturðu sett upp staðlaðar línur sem þú getur svo fært inn í endurtekin söluskjöl, til dæmis fyrir endurteknar áfyllingapantanir.  
 
-## <a name="set-up-recurring-sales-lines" />Setja upp endurteknar sölulínur
+## <a name="set-up-recurring-sales-lines"></a>Setja upp endurteknar sölulínur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurteknar sölulínur** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Endurteknar sölulínur** skal velja aðgerðina **Nýtt**.  
@@ -27,7 +27,7 @@ Ef þú þarft oft að stofna sölulínur með svipuðum upplýsingum geturðu s
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="assign-recurring-sales-lines-to-a-customer" />Úthluta endurteknum sölulínum á viðskiptamann
+## <a name="assign-recurring-sales-lines-to-a-customer"></a>Úthluta endurteknum sölulínum á viðskiptamann
 
 Úthlutaðu einum eða fleiri endurteknum sölulínum til viðskiptamanns þannig að hægt sé að setja þá inn á söluskjöl fyrir þann viðskiptamann.
 
@@ -49,7 +49,7 @@ Ef þú þarft oft að stofna sölulínur með svipuðum upplýsingum geturðu s
 |**Sjálfvirkt**|Ef margar endurteknar sölulínur eru til fyrir viðskiptamanninn færðu tilkynningu þar sem þú getur valið hvaða á að setja inn. Ef aðeins ein endurtekin sölulína er til staðar verður hún sett inn sjálfkrafa.<br /><br />Þetta virkar aðeins ef nýja skjalið var búið til úr skjalalista, til dæmis með því að velja aðgerðina **Nýtt** á síðunni **Sölupantanir**. Það virkar ekki ef skjalið var t.d. búið til úr viðskiptamannaspjaldi.|
 |**Spyrja alltaf**|Tilkynning birtist og allar núverandi endurteknar sölulínur eru sýndar þannig að hægt er að velja eina.
 
-## <a name="insert-recurring-sales-lines-on-a-sales-invoice" />Setja inn endurteknar sölulínur í sölureikning
+## <a name="insert-recurring-sales-lines-on-a-sales-invoice"></a>Setja inn endurteknar sölulínur í sölureikning
 
 Ef endurteknar sölulínur eru til fyrir viðskiptamanninn getur þú sett þær inn á allar gerðir söluskjala, t.d. sölureikning. Ef þú hefur virkjað valkostina **Spyrja alltaf** þegar endurteknum sölulínum er úthlutað á viðskiptamenn verður látið vita ef endurteknar sölulínur eru til.
 
@@ -59,7 +59,7 @@ Ef endurteknar sölulínur eru til fyrir viðskiptamanninn getur þú sett þær
 4. Á síðunni **Endurteknar sölulínur** skal velja uppflettihnappinn á reitnum **Kóði** og síðan velja síðan safn staðlaðra sölulína.
 5. Veldu **Í lagi** hnappinn til að setja staðlaðar sölulínur á reikninginn þar sem þú getur endurnýtt þau eins og þær eru eða breyttu upplýsingunum.
 
-## <a name="create-multiple-sales-invoices-based-on-recurring-sales-lines" />Stofna marga sölureikninga byggða á endurteknum sölulínum
+## <a name="create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Stofna marga sölureikninga byggða á endurteknum sölulínum
 
 Hægt er að nota runuvinnsluna **Stofna ítrekaða sölureikninga** til að stofna sölureikninga samkvæmt stöðluðum sölulínum sem eru tengdar við viðskiptamenn og með bókunardagsetningum innan gildir-frá og gildir-til dagsetningum sem hafa verið tilgreindar í stöðluðum sölulínum.
 
@@ -70,9 +70,9 @@ Hægt er að nota runuvinnsluna **Stofna ítrekaða sölureikninga** til að sto
 
 Sölureikningar eru stofnaðir fyrir viðskiptamenn með stöðluðum sölukóða viðskiptamanna og öllum tilgreindum upplýsingum um beingreiðslur, fyrir bókun á tilteknum degi.
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

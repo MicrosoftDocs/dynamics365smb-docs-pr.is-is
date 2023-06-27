@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
 ---
-# <a name="update-currency-exchange-rates" />Uppfæra gengi
+# <a name="update-currency-exchange-rates"></a>Uppfæra gengi
 
 Hægt er að skilgreina mismunandi gjaldmiðla í [!INCLUDE [prod_short](includes/prod_short.md)], t.d. ef þú stundar viðskipti í öðrum gjaldmiðlum en staðbundnum gjaldmiðli. Síðan, til að hjálpa þér að fylgjast með breytingum á gengi gjaldmiðla, getur þú stjórnað gjaldmiðlunum handvirkt eða sett upp gjaldmiðlaþjónustu.
 
-## <a name="currencies" />Gjaldmiðlar
+## <a name="currencies"></a>Gjaldmiðlar
 
 > [!TIP]  
 > Í [!INCLUDE[prod_short](includes/prod_short.md)], ef þú ert að leita að nýjustu upplýsingum um gengi erlendra gjaldmiðla eða eldri gengi, finnur þú það undir gjaldmiðli. Auk þessarar greinar geturðu skoðað [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ Hægt er að skilgreina mismunandi gjaldmiðla í [!INCLUDE [prod_short](include
 
 Gjaldmiðilskóðarnir eru tilgreindir í listanum **Gjaldmiðlar**, þ.m.t. viðbótarupplýsingar og stillingar sem eru nauðsynlegar fyrir hvern gjaldmiðilskóða. Sjá [Gjaldmiðlar](finance-set-up-currencies.md#curr) fyrir frekari upplýsingar.
 
-### <a name="example-of-a-receivable-currency-transaction" />Dæmi um móttekna gjaldmiðilsfærslu
+### <a name="example-of-a-receivable-currency-transaction"></a>Dæmi um móttekna gjaldmiðilsfærslu
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates" />Gengi
+## <a name="exchange-rates"></a>Gengi
 
 Gengi eru verkfærin til að reikna gildi staðbundins gjaldmiðils (SGM) fyrir hverja gjaldmiðilsfærslu. Eftirfarandi reitir eru á síðunni **Gengi**:
 
@@ -54,7 +54,7 @@ Upphæð gengisleiðréttingarinnar eða upphæð viðmiðunar gengisleiðrétti
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## <a name="adjusting-exchange-rates" />Gengi leiðrétt
+## <a name="adjusting-exchange-rates"></a>Gengi leiðrétt
 
 Vegna þess hve tíðar gengisbreytingar eru verður reglubundið að leiðrétta aðra jafngildisgjaldmiðla í kerfinu. Sé það ekki gert verða upphæðir misvísandi sem hafa verið umreiknaðar úr erlendum (eða aukalegum) gjaldmiðlum og bókaðar í fjárhag í SGM. Að auki verður að uppfæra daglegar færslur sem eru bókaðar áður en daglegt gengi er fært inn eftir að upplýsingarnar um daglegt gengi hafa verið færðar inn.
 
@@ -69,28 +69,28 @@ Hægt er að forskoða hvaða áhrif leiðrétting hefur á bókun áður en þ�
 - **Eftir fjárhagsreikningi**: Fjárhagsfærslur fyrir óinnleystan hagnað og tap mun láta flytja gildi úr upprunafærslu víddarstillinga fyrir fjárhagsreikning óinnleysts hagnaðar og taps.
 - **Engin millifærsla**: Fjárhagsfærslur fyrir óinnleystan hagnað og tap verða ekki með víddargildi.
 
-### <a name="effect-on-customers-and-vendors" />Áhrif á viðskiptamenn og lánardrottna
+### <a name="effect-on-customers-and-vendors"></a>Áhrif á viðskiptamenn og lánardrottna
 
 Keyrslan leiðréttir gjaldmiðilinn í reikningum viðskiptamanna og lánardrottna með því að nota gengið sem gildir fyrir bókunardagsetninguna sem tilgreind er í keyrslunni. Keyrslan reiknar mismuninn fyrir hverja gjaldmiðilsstöðu og bókar upphæðirnar á fjárhagslykilinn sem tilgreindur er í reitnum **Reikningur óinnleysts hagnaðar** eða í reitnum **Reikningur óinnleysts taps** á síðunni **Gjaldmiðlar**. Jöfnunarfærslurnar bókast sjálfkrafa á reikninginn útistandandi - gjaldfallið í fjárhag.
 
 Keyrslan vinnur allar opnar viðskiptamanna- og lánardrottnafærslur. Ef gengismunur er á færslu stofnar runuvinnslan nýja sundurliðaða viðskiptavina- eða lánardrottnafærslu sem endurspeglar leiðréttu upphæðina í viðskiptavina- eða lánardrottnafærslunni.
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries" />Víddir í fjárhagsfærslum viðskiptavina og lánardrottna
+#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Víddir í fjárhagsfærslum viðskiptavina og lánardrottna
 
 Leiðréttingarfærslum er úthlutað víddum úr viðskiptavina-/lánardrottnafærslum og leiðréttingar eru bókaðar eftir samsetningum á víddagildum.
 
-### <a name="effect-on-bank-accounts" />Áhrif á bankareikninga
+### <a name="effect-on-bank-accounts"></a>Áhrif á bankareikninga
 
 Keyrslan leiðréttir gjaldmiðilinn í bankareikningum með því að nota gengið sem gildir fyrir bókunardagsetninguna sem tilgreind er í keyrslunni. Keyrslan reiknar mismuninn fyrir hvern bankareikning sem er með gjaldmiðilskóða og bókar upphæðirnar á fjárhagslykilinn sem er tilgreindur í reitnum **Reikningur innleysts hagnaðar** eða í reitnum **Reikningur innleysts taps** á síðunni **Gjaldmiðlar**. Jöfnunarfærslurnar bókast sjálfkrafa á fjárhag bankareikninga sem eru tilgreindir í bókunarflokki bankareikninga. Keyrslan reiknar eina færslu á hvern gjaldmiðil í hverjum bókunarflokki.
 
-#### <a name="dimensions-on-bank-account-entries" />Víddir í bankareikningsfærslum
+#### <a name="dimensions-on-bank-account-entries"></a>Víddir í bankareikningsfærslum
 
 Leiðréttingarfærslum vegna fjárhagsreiknings bankareikningsins og vegna hagnaðar-/tapreiknings er úthlutað sjálfgefnum víddum bankareikningsins.
 
-### <a name="effect-on-gl-accounts" />Áhrif á fjárhagsreikninga
+### <a name="effect-on-gl-accounts"></a>Áhrif á fjárhagsreikninga
 Ef bókað er í öðrum skýrslugjaldmiðli er hægt að láta keyrsluna búa til nýjar fjárhagsfærslur fyrir gjaldmiðilsmismun á SGM og öðrum skýrslugjaldmiðli. Keyrslan reiknar mismuninn miðað við hverja einstaka fjárhagsfærslu og leiðréttir fjárhagsfærsluna með tilliti til innihaldi reitsins **Gengisleiðrétting** fyrir hvern fjárhagslykil.
 
-##### <a name="dimensions-on-gl-account-entries" />Víddir í fjárhagsreikningsfærslum
+##### <a name="dimensions-on-gl-account-entries"></a>Víddir í fjárhagsreikningsfærslum
 Leiðréttingarfærslunum er úthlutað sjálfgefnu víddunum í reikningunum sem þær eru bókaðar á.
 
 > [!Important]
@@ -98,7 +98,7 @@ Leiðréttingarfærslunum er úthlutað sjálfgefnu víddunum í reikningunum se
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## <a name="to-set-up-a-currency-exchange-rate-service" />Setja upp þjónustu um gengi gjaldmiðils
+## <a name="to-set-up-a-currency-exchange-rate-service"></a>Setja upp þjónustu um gengi gjaldmiðils
 Þú getur notað ytri þjónustu til að halda gjaldeyrisviðskiptum þínum uppfærðum, t.d. FloatRates. 
 
 > [!NOTE]
@@ -116,15 +116,15 @@ Leiðréttingarfærslunum er úthlutað sjálfgefnu víddunum í reikningunum se
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## <a name="to-update-currency-exchange-rates-through-a-service" />Til að uppfæra gengi í gegnum þjónustu
+## <a name="to-update-currency-exchange-rates-through-a-service"></a>Til að uppfæra gengi í gegnum þjónustu
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Gjaldmiðlar** og velja síðan viðkomandi tengil.
 2. Veldu aðgerðina **Uppfæra gengi**.
 
 Gildið í **Gengi** reitnum á síðunni **Gjaldmiðlar** er uppfært með nýjustu gengi gjaldmiðilsins.
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Gjaldmiðlar í Business Central](finance-currencies.md)  
 [Uppsetning gjaldmiðla](finance-set-up-currencies.md)  

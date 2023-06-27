@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 12/20/2022
 ms.custom: bap-template
 ---
-# <a name="count-adjust-and-reclassify-inventory-using-journals" />Talning, breytingar og endurflokkun birgða með færslubókum
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Talning, breytingar og endurflokkun birgða með færslubókum
 
 Telja efnislega allar vörur í birgðum til að tryggja að magnið sé rétt. Sum fyrirtæki gera árlega efnislega talningu, og aðrir telja öll eða aðeins nokkur atriði oftar. Þegar vörur eru talsverðar skal nota færslubækur til að bóka raunverulegt magn í fjárhag. Til dæmis þegar birgðir eru verðtryggð í lok tímabils.
 
@@ -22,7 +22,7 @@ Ef breyta á eigindum í birgðafærslum skal nota endurflokkunarbók vöru. Dæ
 > [!NOTE]
 > Í Multi-þrepa ferlum eru vörur skráðar í hólfum sem vöruhúsafærslur, ekki sem birgðafærslur. Þess vegna er hægt að telja, leiðrétta og endurflokkun í vöruhúsaferningabókum sem styðja hólf. Síðan eru nýju eða breyttu vöruhúsafærslurnar samstilltar við tengdar birgðafærslur til að endurspegla breytingar á birgðamagni og virði.
 
-## <a name="to-count-physical-inventory" />Að telja efnislegar birgðir
+## <a name="to-count-physical-inventory"></a>Að telja efnislegar birgðir
 
 Telja efnislegar birgðir, þ.e. telja upp raunverulegar vörur á lager, til að kanna hvort skráð magn sé það sama og efnislegt magn í birgðum. Að jafnaði skal Talning gerast í lok reikningsárs en stundum er það gert oftar. Ef munur er á skal bóka raunverulegt magn á vörureikningum <!--accounts, or ledger?--> áður en birgðamat er gert.
 
@@ -41,7 +41,7 @@ Telja efnislegar birgðir, þ.e. telja upp raunverulegar vörur á lager, til a�
 - Ef birgðageymslan notar ekki beinan frágang og tínslu er að  **nota síðuna Raunbirgðabókarsíða** . Aðferðin svipar til efnislegra birgða án vinnslu talninga.  
 - Ef birgðageymslan notar beinan frágang og tínslu eru notaðar  **blaðsíður raunbirgðabókar**  vöruhúss. Síðan skal  **nota síðuna birgðabækur**  til að keyra  **Leiðréttingaraðgerðina**  Reikna vöruhúsaaðgerð. <!--We should say what to do on each of these pages.-->
 
-### <a name="to-calculate-expected-inventory-in-basic-warehouse-configurations" />Áætlaðar birgðir reiknaðar út í grunnvöruhúsafbrigðum
+### <a name="to-calculate-expected-inventory-in-basic-warehouse-configurations"></a>Áætlaðar birgðir reiknaðar út í grunnvöruhúsafbrigðum
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **efnislegar birgðabækur** og velja síðan tengda tengilinn.
 2. Veljið aðgerðina **Reikna Birgðir**.
@@ -52,7 +52,7 @@ Telja efnislegar birgðir, þ.e. telja upp raunverulegar vörur á lager, til a�
 > [!NOTE]  
 > Birgðafærslur eru unnar samkvæmt upplýsingunum sem tilgreindar voru og línur eru stofnaðar í raunbirgðabókinni. Taka skal eftir að  **reiturinn Magn (raunbirgðir)**  er með sama magn og  **reiturinn Magn (útreiknað)** . Ekki þarf að færa inn talda magnið fyrir vörur þar sem þessi gildi stemma. Ef magnið sem var talið frábrugðið er hins vegar fært inn magnið sem var talið.
 
-### <a name="to-print-the-report-to-be-used-when-counting" />Prenta skýrsluna sem verður notuð við talningu
+### <a name="to-print-the-report-to-be-used-when-counting"></a>Prenta skýrsluna sem verður notuð við talningu
 
 1.  **Á síðunni Raunbirgðabók**  með útreiknuðum áætluðum birgðum er valið  **prentaðgerðin** .
 2.  **Á síðunni Raunbirgðalisti**  vöruhúss er tilgreint hvort skýrslan sýni útreiknaða magn og birgðavörur eftir rað-og lotunúmerum.
@@ -64,7 +64,7 @@ Starfsmenn vöruhúss geta nú treyst birgðum og skráð hvaða mismun sem er �
 > [!NOTE]
 > Það geta liðið nokkrir dagar áður en prentaðar skýrslur koma aftur fyrir lokavinnslu og bókun. Þegar þú tilgreinir og bókar raunverulegar birgðir leiðréttir forritið birgðir til að endurspegla muninn á milli væntanlegrar og raunverulegrar talningar. Það verður að halda upphaflega reiknaða færslubókarlínu og endurreikna ekki væntanlegar birgðir þar sem áætlaðar birgðir kunna að breytast og leiða til rangra birgðastita. Ef þú þarft að gefa út margar skýrslur, eins og fyrir mismunandi staði eða vöruhóp, verður þú að búa til og halda aðskildum bókarkeyrslum.
 
-### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations" />Til að færa inn og bóka raunverulegar taldar birgðir í grunngerð vöruhúss.
+### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Til að færa inn og bóka raunverulegar taldar birgðir í grunngerð vöruhúss.
 
 1. Í hverri línu á  **síðunni Raunbirgðabók**  þar sem raunbirgðatalningin, sem Talning efnislegra birgða, ákvarðar, er önnur en útreiknaða magnið skal færa inn raunverulegar birgðir á lager í  **reitnum Magn (raunbirgðir)** .
   
@@ -78,7 +78,7 @@ Starfsmenn vöruhúss geta nú treyst birgðum og skráð hvaða mismun sem er �
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.
 4. Til að sannreyna talningu skaltu opna Vörukortasíðuna fyrir vöruna og velja  **raunbirgðafærslurnar** . <!--I don't see this action -->
 
-### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations" />Til að reikna væntanlegar birgðir í grunngerð ítarlegs vöruhúss
+### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Til að reikna væntanlegar birgðir í grunngerð ítarlegs vöruhúss
 
 Samstilla birgðahöfuðbók og vöruhús <!--warehouse what?--> áður en efnislegar birgðir eru talsverðar. Að öðrum kosti er það sem bókað er í raunbirgðabók og birgðahöfuðbók mun efnislegar birgðaniðurstöður ásamt öðrum vöruhúsaleiðréttingum fyrir vörurnar.  [Frekari upplýsingar er að samstilla magn í birgðahöfuðbók og vöruhúsi](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
@@ -90,7 +90,7 @@ Samstilla birgðahöfuðbók og vöruhús <!--warehouse what?--> áður en efnis
 
    Ef aðeins er um að ræða vöru í sumum hólfum en ekki öðrum er hægt að færa inn mismun og bóka þau í birgðabókina síðar með því að  **nota útreikning vöruhúsaaðgerðinnar. Leiðréttingaraðgerð** . <!--I don't see this action-->  
 
-### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations" />Til að færa inn og bóka raunverulegar taldar birgðir í grunngerð ítarlegs vöruhúss.
+### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Til að færa inn og bóka raunverulegar taldar birgðir í grunngerð ítarlegs vöruhúss.
 
 1.  **Í síðunni Raunbirgðabók**  vöruhúss er raunverulegt magn fært inn í  **reitinn Magn (raunbirgðir)** .  
 
@@ -106,7 +106,7 @@ Samstilla birgðahöfuðbók og vöruhús <!--warehouse what?--> áður en efnis
 
 Þegar efnislegar birgðir eru skráðar er ekki hægt að bóka í vöruna, efnislegar birgðir eða virðisfjárhag. Hins vegar eru færslurnar tiltækar til afstemmingar þegar þörf krefur. Til að halda magni nákvæmt, eftir að vörur hafa verið talningu í öllum hólfum, skal bóka niðurstöðurnar sem efnislegar birgðir birgða <!--physical inventory journal-->.  [Frekari upplýsingar er að samstilla magn í birgðahöfuðbók og vöruhúsi](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
-## <a name="to-do-cycle-counting" />Talning á tíðahring
+## <a name="to-do-cycle-counting"></a>Talning á tíðahring
 
 Þú getur treyst atriðum eins oft og þú vilt. Til dæmis vegna þess að þau eru verðmætari í sér, eða vegna þess að þau eru snögg að moða og stórum hluta af þínu fyrirtæki. Tilgreinið Talningatíðni með því að úthluta sérstökum talningartímabilum á vörurnar.
 
@@ -115,14 +115,14 @@ Hægt er að gera tíðahringatalningu á eftirfarandi hátt, allt eftir uppsetn
 - Ef birgðageymslan notar ekki beinan frágang og tínslu er notuð  **Raunbirgðabókarsíða** . Skrefin eru svipuð talningu efnislegra birgða án ferlis.  
 - Ef birgðageymslan notar beinan frágang og tínslu eru notaðar  **blaðsíður raunbirgðabókar**  vöruhúss. Síðan skal  **nota síðuna birgðabækur**  til að keyra  **Leiðréttingaraðgerðina**  Reikna vöruhúsaaðgerð. <!--we should say what to do on each of these pages-->  
 
-### <a name="to-set-up-counting-periods" />Talningatímabil sett upp
+### <a name="to-set-up-counting-periods"></a>Talningatímabil sett upp
 
 Talning efnislegra birgða er vanalega endurtekin verk, t.d. mánaðarlega, ársfjórðungslega eða árlega. Hægt er að setja upp talningartímabil birgða og úthluta hverri vöru. Að því  **loknu skal nota aðgerðina Reikna talningartímabil**  á  **síðunni raunbirgðabókarsíða**  til að stofna sjálfkrafa línur fyrir vörurnar.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **talningartímabil** raunbirgða og velja síðan tengda tengilinn.  
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="to-assign-a-counting-period-to-an-item" />Talningatímabili úthlutað á vöru
+### <a name="to-assign-a-counting-period-to-an-item"></a>Talningatímabili úthlutað á vöru
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Varan sem úthluta á talningartímabili er valin.  
@@ -131,7 +131,7 @@ Talning efnislegra birgða er vanalega endurtekin verk, t.d. mánaðarlega, árs
 > [!NOTE]
 > Ef skipt er um talningartímabil birtast boð um niðurstöður breytingarinnar. Velja  **skal Já**  til að breyta kóðanum og reikna út fyrsta talningartímabilið fyrir vöruna. Næst þegar valið er að reikna út talningatímabil í raunbirgðabók vöruhúss, birtist varan sem lína á síðunni **Vöruval raunbirgða**. Þá er hægt að telja vöruna reglulega.
 
-### <a name="to-start-a-count-based-on-counting-periods-in-basic-warehouse-configurations" />Talning á grundvelli talningartímabila í grunnvöruvöruhúsi afbrigðin hafin
+### <a name="to-start-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Talning á grundvelli talningartímabila í grunnvöruvöruhúsi afbrigðin hafin
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **Raunbirgðabók** og velja síðan tengda tengilinn.
 2. Veljið **Reikna talningartímabil** aðgerðina.
@@ -139,7 +139,7 @@ Talning efnislegra birgða er vanalega endurtekin verk, t.d. mánaðarlega, árs
      **Vefin. Invt. Vöruvalssíða**  sýnir vörur sem telja þarf í samræmi við talningatímabil þeirra.
 3. Telja raunbirgðir. Frekari upplýsingar eru í  [til að telja efnislegar birgðir](inventory-how-count-adjust-reclassify.md#to-count-physical-inventory).
 
-### <a name="to-start-a-count-based-on-counting-periods-in-advanced-warehouse-configurations" />Talning í byrjun byggð á talningartímabilum í ítarlegum vöruhúsaafbrigðum
+### <a name="to-start-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Talning í byrjun byggð á talningartímabilum í ítarlegum vöruhúsaafbrigðum
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **Raunbirgðabók** vöruhúss og velja tengdan tengil.  
 2. Veljið **Reikna talningartímabil** aðgerðina.
@@ -150,7 +150,7 @@ Talning efnislegra birgða er vanalega endurtekin verk, t.d. mánaðarlega, árs
    > [!NOTE]  
    > Teljið vöruna í öllum hólfum sem innihalda hana. Ef hólfalínunum var eytt sem voru sóttar til talningar á  **birgðastöð raunbirgða**  verður Talning röng þegar hún er bókuð í raunbirgðabók.  
 
-## <a name="to-adjust-the-quantity-of-one-item" />Magn einnar vöru leiðrétt
+## <a name="to-adjust-the-quantity-of-one-item"></a>Magn einnar vöru leiðrétt
 
 Þegar búið er að gera efnislega talningu á vöru skal nota  **leiðrétta birgðaaðgerðina**  til að skrá raunverulegt birgðamagn.
 
@@ -168,7 +168,7 @@ Einnig er hægt að nota  **leiðrétta birgðaaðgerðina**  sem auðveld leið
 > [!NOTE]  
 > Eftir að birgðir hafa verið leiðrétt, uppfærist gildandi gildi hennar. Nánari upplýsingar eru í [Endurmat birgða](inventory-how-revalue-inventory.md).
 
-### <a name="to-adjust-the-quantities-of-multiple-items-in-basic-warehouse-configurations" />Til að leiðrétta magn margra atriða í grunnvöruhúsafbrigðum
+### <a name="to-adjust-the-quantities-of-multiple-items-in-basic-warehouse-configurations"></a>Til að leiðrétta magn margra atriða í grunnvöruhúsafbrigðum
 
  **Á birgðabókarsíðu**  er hægt að bóka vörufærslur beint til að leiðrétta birgðir vegna innkaupa, sölu og jákvæðra eða neikvæðra breytinga án þess að nota skjöl.
 
@@ -178,7 +178,7 @@ Ef birgðabókin er oft notuð til að bóka sömu eða svipaðar færslubókarl
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3.  **Veljið aðgerðina Bóka**  til að leiðrétta magnið.
 
-### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations" />Leiðrétta hólfamagn í grunngerð ítarlegs vöruhúss
+### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Leiðrétta hólfamagn í grunngerð ítarlegs vöruhúss
 
 Ef birgðageymslan notar beinan frágang og pickss skal nota  **síðuna vöruhúsakerði**  til að bóka óáætlaðar jákvæðar og neikvæðar Magnbreytingar. Til dæmis, fyrir vörur bókaðar sem vantar sem sýna óvænt, eða tap vegna rofage.  
 
@@ -191,7 +191,7 @@ Vörufærslubækur vöruhúsa gefa þér meira magn leiðréttinga til að gera 
 5.  **Í reitnum Magn**, ef þú hefur fundið aukavörur, færðu inn jákvætt magn. Vanti vörur er ritað neikvætt magn.  
 6. Velja aðgerðina **Skrá**.
 
-## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries" />Samstilla leiðréttar vöruhúsafærslur við tengdar birgðabókafærslur
+## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>Samstilla leiðréttar vöruhúsafærslur við tengdar birgðabókafærslur
 
 Bóka færslur leiðréttingarhólfs í birgðahöfuðbók fyrir tímabilin sem þú skilgreinir. Sum fyrirtæki bóka Daglegar leiðréttingar á birgðahöfuðbók, á meðan aðrir temja sjaldnar.
 
@@ -202,9 +202,9 @@ Bóka færslur leiðréttingarhólfs í birgðahöfuðbók fyrir tímabilin sem 
 5. Velja **Í lagi**. Jákvæðu og neikvæðu leiðréttingarnar eru lagðar saman fyrir hverja vöru og línur eru stofnaðar í birgðabókarbókinni.  
 6. Bóka skal línurnar til þess að færa mismun á magni inn í birgðahöfuðbók. Samsvörunum í hólfunum og birgðafjárhagnum er nú samsvara.  
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/adjust-inventory/)
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [CountInventory með skjölum](inventory-how-count-inventory-with-documents.md)  
 [Birgðir](inventory-manage-inventory.md)  

@@ -10,7 +10,7 @@ ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 732
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="setting-up-warehouse-management" />Vöruhúsastjórnun sett upp
+# <a name="setting-up-warehouse-management"></a>Vöruhúsastjórnun sett upp
 
 Dreifingaráætlun fyrirtækis endurspeglast í grunnstillingu á vinnslum vöruhúss. Í henni felst skilgreining á því hvernig mismunandi vörur eru meðhöndlaðar í mismunandi vöruhúsum, til dæmis stig hólfastýringar og umfang nauðsynlegs verkflæðis á milli vöruhúsaaðgerða.  
 
@@ -35,9 +35,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Fá ábendingar um hvernig á að endurskipuleggja birgðageymslur, hólf eða svæði til þess að auka skilvirkni vöruhúsaaðgerða.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-warehouse-management/)
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Samsetningardeild](assembly-assemble-items.md)  

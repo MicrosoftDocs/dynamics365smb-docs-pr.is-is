@@ -11,7 +11,7 @@ ms.search.form: '30, 461'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setting-up-inventory" />Uppsetning birgða
+# <a name="setting-up-inventory"></a>Uppsetning birgða
 Áður en hægt er að hefjast handa við að stýra vöruhúsaaðgerðum og birgðakostnaði þarf að grunnstilla reglur og gildi sem ráða birgðareglum fyrirtækisins.
 
 Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangakeðjuna með því að skipulegga birgðirnar á mismunandi stöðum. Síðan er hægt að kaupa, geyma eða selja vörur í mismunandi birgðageymslum og flytja birgðir milli þeirra.
@@ -32,9 +32,9 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 |Flytja inn margar myndir úr einni zip-skrá þar sem skrár hafa heiti í samræmi við vörunúmer.|[Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Stjórnun birgða](inventory-manage-inventory.md)  
 [Stjórnun innkaupa](purchasing-manage-purchasing.md)  

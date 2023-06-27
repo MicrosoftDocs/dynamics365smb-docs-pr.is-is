@@ -17,7 +17,7 @@ ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9606587"
 ---
-# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents" /><a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Afstemma greiðslur viðskiptamanna úr lista yfir ógreidd söluskjöl
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a><a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Afstemma greiðslur viðskiptamanna úr lista yfir ógreidd söluskjöl
 
 Eftir að viðskiptamenn framkvæma rafræna greiðslu á bankareikninginn þinn þarftu að grípa til eftirfarandi aðgerða:
 
@@ -33,7 +33,7 @@ Notaðu stöðu innri reikninga á síðunni **Skrá greiðslur viðskiptamanna*
 
 Greiðslur fyrir mismunandi viðskiptamenn, sem hafa mismunandi borgunardagsetningu, verður að bóka sem einstaka greiðslur. Greiðslur fyrir sama viðskiptamann, sem hafa sömu greiðsludagsetningu, er hægt að bóka sem fastagreiðslu. Fastar greiðslur eru gagnlegar til dæmis ef viðskiptamaður hefur gert staka greiðslu sem nær yfir marga sölureikninga.
 
-## <a name="to-set-up-the-payment-registration-journal" /><a name="to-set-up-the-payment-registration-journal"></a>Uppsetning greiðsluskráningarbókar
+## <a name="to-set-up-the-payment-registration-journal"></a><a name="to-set-up-the-payment-registration-journal"></a>Uppsetning greiðsluskráningarbókar
 Þar sem hægt er að bóka nokkrar greiðslutegundir á nokkra mótreikninga verður að velja mótreikning á síðunni **Uppsetning skráningar greiðslna** áður en greiðslur viðskiptamanns eru unnar. Ef alltaf er bókað á sama mótreikninginn, er hægt að stilla þann reikning sem sjálfgefinn og forðast þetta skref í hvert sinn sem síðan **Skrá greiðslur viðskiptamanna** er opnuð.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning greiðsluskráningar** og velja síðan viðkomandi tengil. Einnig er hægt að velja aðgerðina **Setja upp** á síðunni **Skrá greiðslur viðskiptamanna**.
@@ -42,7 +42,7 @@ Greiðslur fyrir mismunandi viðskiptamenn, sem hafa mismunandi borgunardagsetni
 > [!TIP]
 > Til að auðvelda að bera kennsl á færslur sem voru bókaðar í gegnum færslubókina er hægt að úthluta færslubókinni tiltekinni númeraröð. Þetta er gagnlegt ef þú notar greiðsluafstemmingarbækur til að skrá og jafna greiðslur.
 
-## <a name="to-register-customer-payments-individually" /><a name="to-register-customer-payments-individually"></a>Til að skrá greiðslur viðskiptamanna hverja fyrir sig
+## <a name="to-register-customer-payments-individually"></a><a name="to-register-customer-payments-individually"></a>Til að skrá greiðslur viðskiptamanna hverja fyrir sig
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skrá greiðslur viðskiptavina** og velja síðan viðkomandi tengil.  
 
@@ -61,7 +61,7 @@ Greiðsluupplýsingarnar eru bókaðar í fylgiskjölum og sýndar sem línur þ
 
 Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskipta- eða viðskiptamannareikningum. Hver greiðsla er jöfnuð við tengt bókað söluskjal.  
 
-## <a name="to-reconcile-lump-sum-payments" /><a name="to-reconcile-lump-sum-payments"></a>Að stemma af fastagreiðslur
+## <a name="to-reconcile-lump-sum-payments"></a><a name="to-reconcile-lump-sum-payments"></a>Að stemma af fastagreiðslur
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluskráning** og velja síðan viðkomandi tengil.
 2. Veljið gátreitinn **Greiðsla framkvæmd** í línunum sem standa fyrir bókuðu fylgiskjölin fyrir sama viðskiptamanninn sem fastagreiðsla hefur verið gerð fyrir.  
 
@@ -86,7 +86,7 @@ Ef greiðsla í bankanum er ekki tilgreind með línu á síðunni **Greiðslusk
 
 Ef greiðsla í bankanum er ekki tilgreind með neinu fylgiskjali í [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að opna fyrirfram útfyllta færslubók úr glugganum **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur. Frekari upplýsingar eru í [Að skráð eða bóka greiðslu án tengdra fylgiskjala](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
-## <a name="to-process-customer-payments-with-discounts-manually" /><a name="to-process-customer-payments-with-discounts-manually"></a>Meðhöndla greiðslur með afslætti handvirkt
+## <a name="to-process-customer-payments-with-discounts-manually"></a><a name="to-process-customer-payments-with-discounts-manually"></a>Meðhöndla greiðslur með afslætti handvirkt
 Ef samið hefur verið um greiðsluafslátt við viðskiptamanninn, getur greiðsluupphæðin verið lægri en reikningsupphæðin ef greiðslan á sér stað fyrir umsamda afsláttardagsetningu.  
 
 Eftirfarandi ferli útskýrir fjórar mismunandi leiðir til að bóka greiðslur með afslætti á síðunni **Greiðsluskráning**.  
@@ -96,7 +96,7 @@ Eftirfarandi ferli útskýrir fjórar mismunandi leiðir til að bóka greiðslu
 * Greiðsluupphæðin er lægri en hin eftirstandandi afsláttarupphæð. Greiðslan er bókuð sem hlutagreiðsla. Fylgiskjalið er áfram opið til að innheimta/borga eftirstandandi upphæð.  
 * Greiðsluupphæðin er hærri en hin eftirstandandi afsláttarupphæð. Greiðslan er bókuð eins og hún er. Aðeins eftirstandandi upphæð er bókuð. Viðbótarupphæðin er kreditfærð á viðskiptamanninn.  
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date" /><a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Meðhöndlun greiðsluupphæðar sem er jöfn afsláttarupphæðinni og dagsetning greiðslunnar er fyrir afsláttardagsetninguna.
+### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a><a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Meðhöndlun greiðsluupphæðar sem er jöfn afsláttarupphæðinni og dagsetning greiðslunnar er fyrir afsláttardagsetninguna.
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluskráning** og velja síðan viðkomandi tengil.  
 2. Færa inn reikningsupphæðina í reitinn **Móttekin upphæð**. Upphæðin er jöfn upphæðinni í reitnum **Eftirstöðvar eftir afslátt**.
 
@@ -105,7 +105,7 @@ Eftirfarandi ferli útskýrir fjórar mismunandi leiðir til að bóka greiðslu
 4. Staðfestið að reiturinn **Eftirstandandi upphæð** inniheldur núll (0).  
 5. Veldu **bóka greiðslur** aðgerðina til að bóka alla greiðsluna í fjárhag, banka og viðskiptavinalykla.
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date" /><a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Meðhöndlun greiðsluupphæðar sem er jöfn afsláttarupphæðinni og dagsetning greiðslunnar er fyrir afsláttardagsetninguna
+### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a><a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Meðhöndlun greiðsluupphæðar sem er jöfn afsláttarupphæðinni og dagsetning greiðslunnar er fyrir afsláttardagsetninguna
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluskráning** og velja síðan viðkomandi tengil.  
 2. Færa inn reikningsupphæðina í reitinn **Móttekin upphæð**. Upphæðin er jöfn upphæðinni í reitnum **Eftirstöðvar eftir afslátt**.
 
@@ -123,7 +123,7 @@ Eftirfarandi ferli útskýrir fjórar mismunandi leiðir til að bóka greiðslu
 
 Viðkomandi fylgiskjal er enn opið.
 
-### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount" /><a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Meðhöndlun greiðsluupphæðar sem er lægri en hin eftirstandandi afsláttarupphæð
+### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a><a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Meðhöndlun greiðsluupphæðar sem er lægri en hin eftirstandandi afsláttarupphæð
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluskráning** og velja síðan viðkomandi tengil.  
 2. Færa inn reikningsupphæðina í reitinn **Móttekin upphæð**. Upphæðin er lægri en upphæðin í reitnum **Eftirstöðvar eftir afslátt**.
 
@@ -134,7 +134,7 @@ Viðkomandi fylgiskjal er enn opið.
 
 Viðkomandi fylgiskjal er enn opið.
 
-### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount" /><a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Meðhöndlun greiðsluupphæðar sem er hærri en hin eftirstandandi afsláttarupphæð
+### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a><a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Meðhöndlun greiðsluupphæðar sem er hærri en hin eftirstandandi afsláttarupphæð
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluskráning** og velja síðan viðkomandi tengil.  
 2. Færa inn reikningsupphæðina í reitinn **Móttekin upphæð**. Upphæðin er hærri en upphæðin í reitnum **Eftirstöðvar eftir afslátt**.  
 
@@ -145,7 +145,7 @@ Viðkomandi fylgiskjal er enn opið.
 
 Viðkomandi fylgiskjal er lokað og umframgreiðsluupphæðin er færð á viðskiptamanninn.  
 
-## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced" /><a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Að finna tiltekið söluskjal sem er ekki reikningsfært að fullu
+## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a><a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Að finna tiltekið söluskjal sem er ekki reikningsfært að fullu
 Síðunni **Skráning greiðslna** er ætlað að veita aðstoð í verkum sem þarf til að stemma af innanhúsreikninga með raunverulegum sjóðstölum til að tryggja skilvirka söfnun frá viðskiptamönnum. Það sýnir útistandandi væntanlega innkomu á línum sem tákna söluskjöl þar sem upphæð er fallinn á gjalddaga.  
 
 Venjulega, ef greiðsla hefur verið gerð, skráð í bankanum eða á annan hátt, eru tengd sölu eða innkaupaskjöl sýnd sem lína á síðunni **Skráning greiðslna** þar sem fylgiskjalið sem um ræðir bíður eftir að greiðslan sé bókuð gegn hinni útstandandi upphæð. Það getur hins vegar komið fyrir að greiðslur eru ekki sýndar sem línur á síðunni **Greiðsluskráning** yfirleitt því að umrætt skjal hefur ekki verið bókað að fullu.
@@ -175,7 +175,7 @@ Ef fleiri en eitt fylgiskjal svarar leitarskilyrðunum, opnast síðan **Niðurs
 
 Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að opna fyrirfram útfyllta færslubók af síðunni **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur.  
 
-## <a name="to-record-or-post-a-payment-without-a-related-document" /><a name="to-record-or-post-a-payment-without-a-related-document"></a>Greiðslur skráðar eða bókaðar án tengdra fylgiskjala
+## <a name="to-record-or-post-a-payment-without-a-related-document"></a><a name="to-record-or-post-a-payment-without-a-related-document"></a>Greiðslur skráðar eða bókaðar án tengdra fylgiskjala
 Ef greiðsla í bankanum er ekki til í formi neins skjals í [!INCLUDE[prod_short](includes/prod_short.md)] getur þú opnað færslubókarlínu sem þegar er útfyllt úr **Skráning greiðslna** síðunni til að bóka greiðsluna beint á mótreikninginn án þess að jafna greiðsluna á skjali. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið skýrður.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluskráning** og velja síðan viðkomandi tengil.
@@ -188,7 +188,7 @@ Hægt er að bóka færslubókarlínuna til að uppfæra heildarupphæðina á m
 
 Ef færslubókarlínan er óbókuð, bætir hún við gildinu úr reitnum **óbókuð staða** neðst á síðunni **skráning greiðslna**.  
 
-## <a name="see-also" /><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

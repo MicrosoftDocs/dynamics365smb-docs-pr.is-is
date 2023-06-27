@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-" />Yfirlit yfir verkefni til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-"></a>Yfirlit yfir verkefni til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Greinarnar [Stuttir leiðarvísar Business Central](quick-start-business-central.md) geta auðveldað þér fyrstu skrefin í að gera [!INCLUDE [prod_short](includes/prod_short.md)] að þínu eigin. Í þessari grein er að finna yfirlit yfir hvernig hægt er að skilgreina [!INCLUDE [prod_short](includes/prod_short.md)] fyrir fyrirtækið.
 
@@ -55,13 +55,13 @@ Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[prod_short](i
 > [!NOTE]
 > Sem stjórnandi geturðu sett upp nýja fyrir tækið í [!INCLUDE[prod_short](includes/prod_short.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Frekari upplýsingar eru í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps" />Setja upp forrit
+## <a name="set-up-apps"></a>Setja upp forrit
 
 Ofan á þá grunnmöguleika í [!INCLUDE [prod_short](includes/prod_short.md)] bætir Microsoft við nokkrum forritum sem eru sýnd á síðunni [**Viðbótastjórnun**](https://businesscentral.dynamics.com/?page=2500). Frá og með október 2022 gefur hvert upp tengil til að ræsa uppsetningarsíðuna sína - veldu einfaldlega aðgerðina **Setja upp**.  
 
 Einnig er hægt að bæta möguleikum við tölvuna [!INCLUDE [prod_short](includes/prod_short.md)] með því að bæta við AppSource forritum. Frekari upplýsingar eru í [Business Central Online sérstillt með viðbótum](ui-extensions.md).  
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit fyrirtækjaupplýsinga](admin-company-information.md)  
 [Stjórnun](admin-setup-and-administration.md)  

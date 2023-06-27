@@ -11,7 +11,7 @@ ms.search.forms: '6520,'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="trace-item-tracked-items" />Rekja vöruraktar vörur
+# <a name="trace-item-tracked-items"></a>Rekja vöruraktar vörur
 
 Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hvenær hún var fengin eða framleidd, millifærð, seld, notuð eða henni skilað. Einnig er hægt að finna öll núverandi tilvik af tilteknu rað- eða lotunúmeri í gagnagrunninum. Þetta er gert með því að nota vörurakningu og eiginleikann [Finna færslur](ui-find-entries.md).  
 
@@ -23,7 +23,7 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 
  Aðgerðirnar tvær má nota saman með því að flytja inn rakið rað- eða lotunúmer yfir á síðuna **Finna færslur** til að ljúka ítarlegri rakningaraðgerð. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
-## <a name="to-trace-item-tracked-items" />að rekja vöruraktar vörur
+## <a name="to-trace-item-tracked-items"></a>að rekja vöruraktar vörur
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörurakning** og velja síðan viðkomandi tengil.  
 2.  Í afmörkunarreitunum efst á síðunni skal færa inn tiltekið vörunúmer eða afmörkun á vörunúmerum sem á að rekja.  
@@ -52,16 +52,16 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 >   
 >  Til að finna vörurakningarlínur þar sem færsluferill hefur þegar verið rakinn skal velja hnappinn **Fara í það sem hefur verið rakið**. Viðkomandi vörurakningarlína er valin og allar undirliggjandi línur eru stækkaðar.  
 
-## <a name="to-find-item-tracked-items-with-find-entries" />Til að finna vöruraktar vörur með Finna færslur
+## <a name="to-find-item-tracked-items-with-find-entries"></a>Til að finna vöruraktar vörur með Finna færslur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Finna færslur** og velja síðan viðkomandi tengil.  
 2. Veljið **Aðgerðir** > **Leita eftir** > **Leita eftir vörutilvísun**.
 3. Í reitina **Raðnúmer** og **Lotunúmer** skal færa inn vörurakningarnúmer sem ætlunin er að rekja.  
 4. Velja skal aðgerðina **Finna** til að finna öll tilvik um rað- eða lotunúmerið í gagnagrunninum.  
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Vinna með raðnúmer, lotu og pakkanúmer](inventory-how-work-item-tracking.md)  

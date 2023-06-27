@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-set-up-new-capacity" />Kynning: Setja upp nýja afkastagetu
+# <a name="walkthrough-set-up-new-capacity"></a>Kynning: Setja upp nýja afkastagetu
 
 Í þessari grein förum við í gegnum skrefin um hvernig á að nota sýnigögn Contoso Coffee til að stjórna afkastagetu.  
 
-## <a name="scenario" />Aðstæður
+## <a name="scenario"></a>Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Til að bregðast við breytingum á gólfi vinnusalar verður að setja upp nýja vinnustöð, prófunardeild. Nýja vinnustöðin er með eina vélastöð, prófun. Nýju stöðvarnar verða að vera með dagatal afkastagetu fyrir eina vakt frá 08:00 til 16:00, mánudaga til föstudaga.  
 
-## <a name="steps" />Skref
+## <a name="steps"></a>Skref
 
 1. Setja upp vinnustöðina.
 
@@ -84,6 +84,6 @@ ms.author: andreipa
 
 Á síðunni **Dagatalsfærslur** eru daglegar færslur afkastagetu í reitnum **Afkastageta (alls)** fyrir 480 mínútur. Þetta samsvarar einni átta tíma vakt fyrir hvern vinnudag. Einnig sýnir reiturinn **Afkastageta (virk)** 432 mínútur. Þetta stendur fyrir 90 prósent skilvirknihlutfallið sem þú úthlutaðir vélastöðinni.  
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Kynning á contoso kaffi sýnigögnum](../contoso-coffee-intro.md)  

@@ -10,7 +10,7 @@ ms.date: 06/24/2021
 ms.search.form: null
 ms.author: edupont
 ---
-# <a name="posting-documents-and-journals" />Að bóka skjöl og færslubækur
+# <a name="posting-documents-and-journals"></a>Að bóka skjöl og færslubækur
 
 Bókun táknar reikningsaðgerðina að skrá viðskiptafærslur í hinar ýmsu höfuðbækur fyrirtækisins.
 
@@ -27,7 +27,7 @@ Eftirfarandi tafla lýsir skyldum verkum, með tenglum í efnisatriði þar sem 
 | Forskoða, á síðu, færslurnar sem verða stofnaðar þegar þú bókar. |[Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md) |
 | Í skýrslu er hægt að forskoða færslur sem verða stofnaðar þegar bókað er. |[Skoða prufuskýrslur fyrir bókun](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Breyta bókuðum skjölum](across-edit-posted-document.md)  
 [Finna tengdar færslur fyrir skjöl](ui-find-entries.md)  

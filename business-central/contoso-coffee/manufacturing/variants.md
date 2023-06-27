@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-variants" />Kynning: Afbrigði
+# <a name="walkthrough-variants"></a>Kynning: Afbrigði
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að kynnast afbrigðum.
 
-## <a name="scenario" />Aðstæður
+## <a name="scenario"></a>Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Þú verður að uppfæra eftirspurnarspá fyrir hvert afbrigði af vörunni SP-SCM1006, AutoDripLite. Þar sem þau eru með mismunandi liti þarf að ganga úr skugga um rétt framleiðsluuppskrift sé notuð fyrir hvert afbrigði. Keyrðu áætlanavinnublaðið til að reikna út framboðið.  
 
-## <a name="steps" />Skref
+## <a name="steps"></a>Skref
 
 1. Settu upp birgðahaldseiningar fyrir vöru SP-SCM1006 AutoDripLite. Úthlutaðu uppskrift fyrir BHE með afbrigðunum RAUTT og HVÍTT.
 
@@ -98,6 +98,6 @@ ms.author: andreipa
 
     9. Fyrir hverja stofnaða línu skal velja aðgerðina **Íhlutir** og fara yfir hvaða málning er notuð.  
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Kynning á contoso kaffi sýnigögnum](../contoso-coffee-intro.md)  

@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 09/22/2022
 ms.author: kepontop
 ---
-# <a name="business-intelligence-and-reporting-overview" />Viðskiptagreind og skýrsluyfirlit
+# <a name="business-intelligence-and-reporting-overview"></a>Viðskiptagreind og skýrsluyfirlit
 
 Lítil og meðalstór fyrirtæki reiða sig á tilbúna innbyggða möguleika greiningar og skýrslugjafar sem þau geta notað til að halda utan um reksturinn. [!INCLUDE[prod_short](includes/prod_short.md)] styður algenga viðskiptaferla ásamt flóknari ferlum fyrir slík fyrirtæki. Hvert þessara ferla inniheldur skýrslur og greiningarverkfæri. Einnig er hægt að gera tilfallandi greiningu beint af heimasíðunni.  
 
@@ -26,9 +26,9 @@ Lítil og meðalstór fyrirtæki reiða sig á tilbúna innbyggða möguleika gr
 | Samþætta ytri verkfæri viðskiptagreindar með [!INCLUDE[prod_short](includes/prod_short.md)].| [Ytri verkfæri viðskiptagreindar](reports-external-analysis.md) |
 |Breyttu skýrsluútliti eða þróaðu jafnvel þínar eigin skýrslur frá grunni. |[Skýrsluþróun](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/setup-reporting-dynamics-365-business-central/).
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Viðskiptagreind fjármála](bi.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

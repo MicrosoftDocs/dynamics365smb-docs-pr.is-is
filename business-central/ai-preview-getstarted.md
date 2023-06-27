@@ -9,13 +9,13 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# <a name="get-started-with-a-business-central-preview-version-for-copilot" />Byrjaðu með forskot á Aðalforskoðunarútgáfu fyrir Copilot
+# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Byrjaðu með forskot á Aðalforskoðunarútgáfu fyrir Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Hægt er að reyna markaðseftirlit með AI-tilbúinni vöru með Copilot hvort sem um er að ræða Aðalviðskiptavin eða hugsanlegan viðskiptavin, þ.e. einhvern sem hefur bara áhuga á að kanna viðskipti miðlægt og reyna út á nýja getu. Til að byrja þarftu að fá aðgang að miðlægu netútgáfu Business sem styður nýja getu. Ljúkið við kaflann hér að neðan sem á við þig.
 
-## <a name="your-organization-already-uses-business-central" />Fyrirtækið notar nú þegar miðsvæðis í viðskiptum
+## <a name="your-organization-already-uses-business-central"></a>Fyrirtækið notar nú þegar miðsvæðis í viðskiptum
 
 Sem viðskiptamaður eða samstarfsaðili þarf admin að fá aðgang að Aðalstjórnun fyrirtækja til að setja upp umhverfi sem keyrir forskoðunarútgáfuna sem felur í sér Copilot. Þegar umhverfið er upp og í gangi geta notendur prófað sig út úr nýju aðgerðinni.
 
@@ -39,7 +39,7 @@ Fyrir frekari upplýsingar um hvernig á að búa til umhverfi skal fara að bú
 > [!IMPORTANT]
 > Ef þú hefur forskoða sandkassa sem keyra á  **22.0.54157.54311 (Preview-Copilot Edition)**, skaltu hafa í huga að þetta umhverfi er aðeins aðgengilegt til og með til 01 Maí 2023. Eftir þessa dagsetningu þarftu að ráðstafa nýju umhverfi eða uppfæra eitthvað af öðru umhverfi þínu í útgáfu 22,0 eða seinna til að halda áfram að reyna forskoðun á markaðstexta AI-vara.
 
-## <a name="your-organization-doesnt-use-business-central" />Fyrirtækið notar ekki miðlægu viðskipta-
+## <a name="your-organization-doesnt-use-business-central"></a>Fyrirtækið notar ekki miðlægu viðskipta-
 
 Ef þú ert ekki Aðalviðskiptavinur Viðskiptamiðanna skráir þú þig í ókeypis prufutíma til að prófa nýja legu getu. Skráning í próftíma er einföld. Þú munt leiðbeina í gegnum fáein skref þar sem þú munt þurfa að afla einhverra upplýsinga, eins og netfangið þitt, símanúmer og nafn. Til að fá réttarhöldin skal ljúka eftirfarandi skrefum:
 
@@ -95,7 +95,7 @@ Ef þú ert ekki Aðalviðskiptavinur Viðskiptamiðanna skráir þú þig í ó
    > [!TIP]
    > Ef þú sérð  **ekki gátlistann** skaltu velja  **hnappinn Sýna sýniaferðir** .
 
-## <a name="next-steps" />Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 Nota verður Copilot sem gefið er upp áður en þú eða aðrir geti notað Copilot. Til að virkja AI getu verður kerfisstjóri að hafa samþykki fyrir skilmálum og skilyrðum  [Forskoðun](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)  og  [Microsoft persónuvernd](https://go.microsoft.com/fwlink/?LinkId=521839)  fyrir hönd fyrirtækisins.
 
@@ -108,7 +108,7 @@ Tvær leiðir eru til samþykkis sem admin:
 
 - Hin leiðin er að nota  **stöðusíðu Persónuverndartilkynninga í Viðskiptamiðstöðar**  -og samþykkja að  **Azure openai**  Samþættingin sé fyrir alla notendur. Til að fá frekari upplýsingar er farið í  [samþykki á skilmálum og skilyrðum](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit um markaðssetningu á AI-knúinn vöru með Copilot](ai-overview.md)  
 [Skilgreina markaðstexta með AI-knúinn vöru með Copilot sem admin](enable-ai.md)  

@@ -17,7 +17,7 @@ ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605219"
 ---
-# <a name="financial-business-intelligence" /><a name="financial-business-intelligence"></a>Viðskiptagreind fjármála
+# <a name="financial-business-intelligence"></a><a name="financial-business-intelligence"></a>Viðskiptagreind fjármála
 
 Fyrirtæki safna saman gríðarlegu magni gagna í daglegum aðgerðum. Slík gögn er varða atriði eins og sölutölur, innkaup, rekstrarkostnað, laun starfsmanna og fjárhagsáætlun fyrirtækisins, eru verðmætar upplýsingar eða viðskiptagreind (BI) fyrir þá sem taka ákvarðanir innan fyrirtækja. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur marga eiginleika til að hjálpa þér að safna saman, greina og deila gögnum fyrirtækisins.
 
@@ -38,7 +38,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Virkjaðu altæka fjárhagsskýrslugerð fyrir alþjóðleg bókhaldsfyrirtæki með staðli eXtensible Business Reporting Language (XBRL).|[Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)|
 |Breyttu ástæðu aðgangs að gagnagrunni fyrir skýrslur, síður af API-gerð og fyrirspurnir til að draga úr álagi og auka afköst.|[Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)|
 
-## <a name="see-also" /><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Fjármál](finance.md)  
 [Nota Business Central sem Power BI gagnagjafa](across-how-use-financials-data-source-powerbi.md)  

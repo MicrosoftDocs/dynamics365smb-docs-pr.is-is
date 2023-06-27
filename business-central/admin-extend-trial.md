@@ -11,13 +11,13 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="need-more-time-to-decide-whether-to-subscribe" />Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?
+# <a name="need-more-time-to-decide-whether-to-subscribe"></a>Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?
 
 Það er mikilvægt að taka réttar ákvarðanir þegar þú velur viðskiptaforrit og við vitum að það getur tekið tíma að kanna alla kima [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þú þarft meiri tíma til að gera upp hug þinn getur þú framlengt prufutímanum í aðra 30 daga. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum.
 
 Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti. Þú getur ekki framlengt hann tvisvar sinnum, að minnsta kosti ekki þú sjálf/ur. Ef þú hefur þegar framlengt tímabilið getur Microsoft samstarfsaðilinn þinn lengt það aftur. Það er einnig aðeins hægt að gera í eitt skipti. Ef þú vinnur ekki með samstarfsaðila skaltu skoða [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 
-## <a name="to-extend-your-trial-period" />Til að framlengja prufutímabilið
+## <a name="to-extend-your-trial-period"></a>Til að framlengja prufutímabilið
 
 1. Innskráning í [!INCLUDE[prod_short](includes/prod_short.md)] þann [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -31,7 +31,7 @@ Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti.
 > [!TIP]
 > Ef ekki er hægt að sjá tilkynninguna er hægt að þvinga [!INCLUDE [prod_short](includes/prod_short.md)] til að keyra **Framlengja prufuáskrift** leiðbeiningar um uppsetningu með hjálp með því að bæta ```?page=1828``` færibreytunni við vefslóðina, líkt og í eftirfarandi dæmi: [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
 
-## <a name="what-happens-if-my-trial-period-is-expired" />Hvað gerist ef prufutíminn minn rennur út?
+## <a name="what-happens-if-my-trial-period-is-expired"></a>Hvað gerist ef prufutíminn minn rennur út?
 
 Ef fyrsta 30 daga prufuáskriftin rennur út geturðu framlengt hana sjálf/ur eins og lýst er hér að ofan og allt helst óbreytt. Skráðu þig bara inn í sýnifyrirtækið og byrjaðu leiðbeiningarnar **Framlengja prufutímabil** úr tilkynningum.  
 
@@ -45,9 +45,9 @@ Ef framlengda prufutímabilið þitt er útrunnið geturðu fengið [áskrift](h
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Prufuútgáfur og áskriftir (aðeins á ensku)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Stofna ný fyrirtæki](about-new-company.md)  

@@ -9,13 +9,13 @@ ms.search.form: '211, 463, 1012'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups" />Setja upp verð fyrir verk og verkbókunarflokka
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Setja upp verð fyrir verk og verkbókunarflokka
 
 Sem verkefnisstjóri getur þú sett upp verk sem skilgreina verkefnin sem þú stjórnar í [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Uppsetning verka** verður að tilgreina hvernig á að nota tiltekna verkeiginleika.
 
 Fyrir hvert verk tilgreinir þú þá einstök verkspjöld með upplýsingum um verð fyrir vörur, forða og fjárhagsreikninga verks og setja þarf upp verkbókunarflokka.
 
-## <a name="to-set-general-information-for-jobs" />Til að stilla almennar upplýsingar fyrir verk
+## <a name="to-set-general-information-for-jobs"></a>Til að stilla almennar upplýsingar fyrir verk
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning verks** og velja síðan viðkomandi tengil.
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -23,7 +23,7 @@ Fyrir hvert verk tilgreinir þú þá einstök verkspjöld með upplýsingum um 
 > [!NOTE]
 > Reiturinn **Beita notkunartengli að sjálfgefnu** tilgreinir hvort verkfærslur eru tengdar sjálfgefið á verkáætlunarlínur. Veljið reitinn ef nota á þessa stillingu fyrir öll ný verk sem eru stofnuð. Hægt er að gera rakningu verknotkunar virka eða óvirka fyrir tiltekið verk með því að breyta gildinu í **Nota notkunartengil** reitnum á einstaka verkspjaldi. Afleiðingarnar eru útskýrðar í næsta hluta.
 
-### <a name="to-set-up-job-usage-tracking" />Til að setja upp notkunarrakningu verka
+### <a name="to-set-up-job-usage-tracking"></a>Til að setja upp notkunarrakningu verka
 
 Þegar unnið er að verki gæti verið gagnlegt að vita hvernig notkunin er rakin á móti áætluninni. Til að gera þetta á auðveldan hátt, er hægt að búa til tengil milli verkáætlunarlínunnar og hinnar eiginlegu notkunar. Þetta leyfir þér að rekja kostnað þinn og sjá auðveldlega hversu mikið af vinnu á eftir að vinna. Sjálfgefið er að áætlunarlína verktegundar sé *Áætlun*, en ef línutegundin **Bæði fjárhagsáætlun og reikningshæft** er notuð hefur það svipuð áhrif.
 
@@ -43,7 +43,7 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 -->
 
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs" />Til að setja upp verð fyrir tilföng, vörur og fjárhagsreikninga fyrir verk
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Til að setja upp verð fyrir tilföng, vörur og fjárhagsreikninga fyrir verk
 
 > [!NOTE]
 > Á útgáfutímabili 2 árið 2020 gáfum við út nýja ferla til að setja upp og hafa umsjón með verðum og afsláttum. Ef þú ert nýr viðskiptamaður þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +71,7 @@ Eftirfarandi tafla sýnir hvernig upplýsingarnar í valfrjálsum svæðunum ver
 
 ---
 
-## <a name="to-set-up-job-posting-groups" />Verkbókunarflokkur settur upp
+## <a name="to-set-up-job-posting-groups"></a>Verkbókunarflokkur settur upp
 
 Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að nota í kostnaðarútreikningum vegna verka. Til að hægt sé að bóka verk skal setja upp reikninga fyrir hvern verkbókunarflokk. Bókunarflokkur stendur fyrir tengingar milli verksins og hvernig eigi að meðhöndla það í fjárhag. Þegar verk er stofnað er bókunarflokkur tilgreindur, og allir verkhlutar sem búnir eru til fyrir verkið eru tengdir við þann bókunarflokk að sjálfgefnu. Hins vegar er hægt að hnekkja sjálfgildum þegar verk eru stofnuð og velja þann bókunarflokk sem hentar best.  
 
@@ -99,9 +99,9 @@ Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að 
 | **Samþykktur kostnaðarreikningur** |Útgjaldareikningurinn sem inniheldur samþykkt útgjöld verksins. Það er vanalega debetkostnaðarreikningur. |
 | **Samþykktur sölureikningur** |Tekjureikningurinn sem inniheldur samþykktar tekjur verksins. Það er vanalega kredittekjureikningur. |
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Myndband: Hvernig á að stofna verk í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

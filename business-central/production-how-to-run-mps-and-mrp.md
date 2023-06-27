@@ -10,7 +10,7 @@ ms.search.form: '99000852, 99000860'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="run-full-planning-mps-or-mrp" />Keyra fulla áætlunargerð, MPS eða MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlunargerð, MPS eða MRP
 
 Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.  
 
@@ -23,7 +23,7 @@ Tengla sem eru stofnaðir af áætlunarkerfinu milli eftirspurnar og tengds fram
 
 Viðundandi niðurstöður áætlunar byggjast á uppsetningu í birgðaspjöldum, samsetningaruppskriftum, framleiðsluuppskriftum og leiðum.  
 
-## <a name="methods-for-generating-a-plan" />Aðferðir við stofnun áætlunar
+## <a name="methods-for-generating-a-plan"></a>Aðferðir við stofnun áætlunar
 
 -   **Reikna áætlun endurgerðar:** Þessi aðgerð vinnur eða endurgerir alla efnisáætlunina. Þessi vinnsla hefst á eyðingu allra áætlaðra birgðapantana sem eru hlaðnar. Allar vörur í gagnagrunninum eru enduráætlaðar.  
 -   **Reikna áætlun hreyfingar**: Þessi aðgerð vinnur hreyfingaáætlun. Vörur eru teknar með í hreyfingaáætlun vegna tveggja breytinga:  
@@ -38,7 +38,7 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[prod_short](includes/prod_short
 >   
 >  Eiginleikann Aðgerðarboðaáætlun er hægt að keyra á milli endurgerðaráætlana og hreyfingaráætlana til að fá fljótlegt yfirlit yfir áhrif áætlanabreytinga. Hún er hins vegar ekki hugsuð til að koma að fullu í stað hinna tveggja.  
 
-## <a name="to-calculate-the-planning-worksheet" />Til að reikna áætlunarvinnublað:
+## <a name="to-calculate-the-planning-worksheet"></a>Til að reikna áætlunarvinnublað:
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Áætlunarvinnublað** og velja síðan viðkomandi tengil.  
 2.  Velja **Reikna áætlun endurgerðar** aðgerðina til að opna síðuna **Reikna áætlun**.  
 3.  Á flýtiflipanum **Valkostir** skal fylla reitina út eins og lýst er í eftirfarandi töflu.  
@@ -57,7 +57,7 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[prod_short](includes/prod_short
 4.  Á flýtiflipanum **Vara** afmarkarðu og keyrir áætlunarvinnslur samkvæmt vöru, vörulýsingu eða birgðageymslu.  
 5.  Velja hnappinn **Í lagi**. Keyrslan fer í gang og áætlunarlínur eru færðar inn í áætlunarvinnublaðið.  
 
-## <a name="to-perform-action-messages" />Til að framkvæma aðgerðaboð
+## <a name="to-perform-action-messages"></a>Til að framkvæma aðgerðaboð
 1.  Á síðunni **Áætlunarvinnublað** veljið aðgerðina **Framkvæma aðgerðaboð**.  
 2.  Á flýtiflipanum **Valkostir** skal tilgreina hvernig á að stofna aðföngin. Fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
@@ -75,7 +75,7 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[prod_short](includes/prod_short
 
 Keyrslan eyðir línum á áætlunarblaðinu eftir að hún hefur framkvæmt aðgerðaboðin. Aðrar línur eru áfram á áætlunarvinnublaðinu þar til þær eru annaðhvort samþykktar síðar eða þeim eytt. Einnig er hægt að eyða línunum handvirkt.  
 
-## <a name="action-messages" />Aðgerðarboð
+## <a name="action-messages"></a>Aðgerðarboð
 Aðgerðarboð eru gefin út eftir pöntunarrakningarkerfinu þegar staðan er ótæk innan pöntunarnetsins. Þau er hægt að líta á sem tillögur um að hefja vinnslu sem kemur á jafnvægi á milli framboðs og eftirspurnar.  
 
 Stofnun aðgerðarboða gerist á einu stigi í einu, með tilliti til kóta lágrar stöðu á hverju stigi. Þetta tryggir að allar vörur sem fara í gegnum breytingar á framboði og eftirspurn eru teknar með.  
@@ -97,7 +97,7 @@ Til að koma í veg fyrir óþörf aðgerðaboð getur notandi stofnað hömlur 
 |**Endurtímas. og br. magni.**|Ef bæði dagsetning og magn í pöntun breytast verður að breyta áætlunum með tilliti til beggja þátta. Aðgerðaboð taka báðar aðgerðir í ein skilaboð, **Enduráætla og Breyta magni**, til að tryggja jafnvægi komist á pöntunarnetið.|  
 |**Hætta við**|Ef eftirspurn, sem uppfyllt er samkvæmt hverri beiðni, er eytt birtast aðgerðarboð um að hætta við tengda framboðspöntun. Ef tengslin eru ekki byggð á hverri pöntun fyrir sig eru stofnuð aðgerðarboð um að breyta pöntuninni til að draga úr framboði. Ef aðrir þættir, t.d. birgðaleiðréttingar, valda því að framboðspöntun er óþörf þegar notandi gefur út aðgerðarboð birtir [!INCLUDE[prod_short](includes/prod_short.md)] aðgerðarboðin **Hætta við** á vinnublaðinu.|  
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Áætlun](production-planning.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)    

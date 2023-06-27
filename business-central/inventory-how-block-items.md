@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/03/2022
 ms.author: bholtorf
 ---
-# <a name="block-items-from-sales-or-purchasing" />Loka á vörur í sölum eða innkaupum
+# <a name="block-items-from-sales-or-purchasing"></a>Loka á vörur í sölum eða innkaupum
 
 Hægt er að loka á vöru svo hún verði ekki slegin inn í línur í innkaupa- eða söluskjölum og hægt er að loka á að hún verði bókuð í færslum. Til dæmis er þetta gagnlegt þegar vara er með þekktan galla. Ef einhver velur lokaða vöru á sölu- eða innkaupaskjali birtast skilaboð um að varan sé læst.
 
@@ -27,22 +27,22 @@ Eftirfarandi tafla sýnir hvað gerist þegar vörum er lokað.
 
 Þegar þú notar aðgerðina **Afrita úr fylgiskjali** til að búa til ný skjöl sem byggjast á fyrirliggjandi skjölum færðu tilkynningu ef einhver atriði í upprunaskjalslínum eru lokuð. Útilokaðar fylgiskjalslínur eru ekki í nýja skjalinu og tilkynning sýnir yfirlit yfir allar fylgiskjalalínur sem eru útilokaðar í upprunaskjalinu.
 
-## <a name="to-block-an-item-from-being-entered-on-sales-lines" />Til að loka á vöru svo hún verði ekki slegin inn í sölulínur
+## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Til að loka á vöru svo hún verði ekki slegin inn í sölulínur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Velja skal vöruna sem á að loka á og síðan velja gátreitinn **Sölur lokaðar**.  
 
-## <a name="to-block-an-item-from-being-entered-on-purchase-lines" />Til að loka á vöru svo hún verði ekki slegin inn í innkaupalínur
+## <a name="to-block-an-item-from-being-entered-on-purchase-lines"></a>Til að loka á vöru svo hún verði ekki slegin inn í innkaupalínur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Velja skal vöruna sem á að loka á og síðan velja gátreitinn **innkaup lokuð**.  
 
-## <a name="to-block-an-item-from-being-posted" />Til að loka á vöru svo hún verði ekki bókuð
+## <a name="to-block-an-item-from-being-posted"></a>Til að loka á vöru svo hún verði ekki bókuð
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.
 2. Veldu vöruna sem á að loka á og veldu síðan gátreitinn **Lokað fyrir**.
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  

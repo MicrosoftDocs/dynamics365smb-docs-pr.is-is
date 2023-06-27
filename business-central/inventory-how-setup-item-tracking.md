@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: edupont
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers" />Setja upp vörurakningu með raðnúmer, lotu og pakkanúmer
+# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Setja upp vörurakningu með raðnúmer, lotu og pakkanúmer
 
 Fylgist með birgðavörum jafnvel í flóknum skilgreiningum vöruhúss með númerum sem eru sértæk fyrir hverja vöru, annaðhvort sem einstakur hlutur, sem lota, eða sem pakkning. Með vörurakningu er hægt að rekja vörur í gegnum færslur innan vöruhúss og skjölum á útleið og innleið.
 
@@ -19,13 +19,13 @@ Vörur með rað- og lotunúmer er hægt að rekja bæði afturábak og áfram �
 > [!TIP]
 > Á útgáfutímabili 1 árið 2021  og síðar skal kveikja á eiginleikauppfærslunni *Nota rakningu eftir pakkanúmeri í frátekningu og rakningakerfi* ef vinna á með pakkanúmer ásamt rað- og lotunúmer. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](admin-feature-management.md). Þegar kveikt er á eiginleikanum er hægt að úthluta pakkanúmerum á skjöl á útleið og innleið svipað og hægt er að vinna með lotunúmer.  
 
-## <a name="numbers-and-item-tracking" />Númer og vörurakning
+## <a name="numbers-and-item-tracking"></a>Númer og vörurakning
 
 Sem hluti af vöruhúsaferlunum til að geta sameinað birgðir í pökkum, kössum, gámum og svo framvegis. En til að halda utan um vörurnar er einkvæmum númerum úthlutað til auðkenningar. Til dæmis gæti verið framleiddur stóll sem er með vörunúmerið *1900-S*. Hver stóll er með raðnúmer, *1001*, en þú sameinar einnig fjóra stóla í lotu, *LOT0001*, og þú sendir stólana í gámi með pakkanúmerinu *CONTAINER010* sem einnig inniheldur aðrar vörur á borð við *LOT0100* með hliðarborðum og *LOT200* með lömpum.  
 
 Það fer eftir skilgreiningunni hvernig þú notar þessi mismunandi númer til að fylgjast með birgðum í [!INCLUDE [prod_short](includes/prod_short.md)] á ýmsum stigum innkaupa, sölu, vöruhúsaaðgerða og svo framvegis.
 
-## <a name="to-set-up-item-tracking-codes" />Til að setja upp vörurakningarkóða
+## <a name="to-set-up-item-tracking-codes"></a>Til að setja upp vörurakningarkóða
 
 Vörurakningarkóti endurspeglar ýmis íhugunarefni fyrirtækis varðandi notkun rað- og lotunúmera á vörur sem eru á leið í gegnum birgðirnar.  
 
@@ -42,7 +42,7 @@ Vörurakningarkóti endurspeglar ýmis íhugunarefni fyrirtækis varðandi notku
 > [!NOTE]  
 > Til að úthluta vörurakningarnúmerum í vöruhúsaaðgerðum þarf að velja reitina **RN vöruhúsarakning** og **Lotuvöruhúsarakning** á vörurakningarkóðaspjaldi vörunnar.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers" />Uppsetning gildistíma fyrir rað- og lotunúmer
+## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Uppsetning gildistíma fyrir rað- og lotunúmer
 
 Fyrir sumar vörur þarf ef til vill að setja upp tiltekna gildistíma og reglur með vörurakningaruppsetningunni. Með þessari aðgerð má fylgjast með því hvenær tiltekin rað- og lotunúmer falla úr gildi.
 
@@ -56,7 +56,7 @@ Fyrir sumar vörur þarf ef til vill að setja upp tiltekna gildistíma og reglu
     |**Krefjast lokadagsetningarfærslu**|Tilgreinir að færa þarf dagsetninguna þegar varan rennur út í vörurakningarlínuna.|  
     |**Nota lokadagsetningar**|Tilgreinir að þú viljir reikna út lokadagsetningar. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers" />Uppsetning ábyrgðar fyrir rað- og lotunúmer
+## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Uppsetning ábyrgðar fyrir rað- og lotunúmer
 
 Fyrir sumar vörur þarf ef til vill að setja upp tilteknar ábyrgðir í vörurakningarkótanum. Þessi aðgerðareiginleiki gerir kleift að halda utan um það hvenær ábyrgðin á tilteknum rað- eða lotunúmerum í birgðahaldi rennur út.  
 
@@ -70,7 +70,7 @@ Fyrir sumar vörur þarf ef til vill að setja upp tilteknar ábyrgðir í vöru
     |**Krefjast færslu ábyrgðardagsetningarfærslu**|Tilgreinir að færa þurfi inn ábyrgðardagsetninguna handvirkt í vörurakningarlínuna.|  
 
 
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes" />Til að setja upp vörur fyrir rakningu með réttum vörurakningarkóðum
+## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>Til að setja upp vörur fyrir rakningu með réttum vörurakningarkóðum
 
 Til að virkja vörurakningu þarftu fyrst að úthluta rakningarkóðum vöru á vöru. Tvær leiðir eru til að bæta við vörurakningarkóðum, með því að velja kóðann úr fyrirfram skilgreindum lista eða með því að úthluta nýjum einstökum kóða. Haltu bendlinum yfir reitunum til að lesa stutta lýsingu.
 
@@ -79,14 +79,14 @@ Til að virkja vörurakningu þarftu fyrst að úthluta rakningarkóðum vöru �
 3. Á flýtiflipanum **Vörurakning** skal úthluta viðeigandi vörurakningarkóðum og velja **Vörurakningarkóði**, **Raðnúmerin** og **Lotunúmerin**.
     1. Einnig er hægt að búa til nýjan vörurakningarkóða með því að velja aðgerðina **Nýtt**.
 
-## <a name="to-specify-opening-balances-for-the-items-you-track" />Tilgreina opnunarstöður fyrir vörurnar sem fylgst er með
+## <a name="to-specify-opening-balances-for-the-items-you-track"></a>Tilgreina opnunarstöður fyrir vörurnar sem fylgst er með
 
 Hægt er að stofna opnunarstöður fyrir vörurnar sem fylgst er með. Þar sem hægt er að velja mismunandi vöruhúsafbrigðum eru tveir Valkostir:
 
 * Virkja tilteknar keyrslur á  **síðunni vörubók**  til að leyfa fólki að færa inn rað-, Lot-og pakkagögn beint í færslubókarlínurnar.
 * Fyrir staðsetningar þar sem  **beinn frágangur og tínsla**  er kveikt, skal nota  **síðuna raunbirgðabókarsíða**  vöruhúss til að gera allar vörurakningarsvæðin tiltæk. Svæðin sem eru tiltæk  **eru með reitina Ábyrgðardagsetning**  og  **·**  Lokadagsetning.
 
-### <a name="item-journals" />Birgðabækur
+### <a name="item-journals"></a>Birgðabækur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðabækur** og velja síðan viðkomandi tengil.
 2. Reiturinn Name  **er**  valinn til að opna lista yfir birgðabókarkeyrslur.
@@ -98,7 +98,7 @@ Hægt er að stofna opnunarstöður fyrir vörurnar sem fylgst er með. Þar sem
 > [!NOTE] 
 > [!INCLUDE [prod_short](includes/prod_short.md)] tekur nokkrar minni háttar villuleit þegar gögn eru færð inn eða flutt inn. Ítarlegri könnun gerist þegar gögn eru  **bókuð eða flutt í Vörupöntunarglugga í gluggann** Vörurakning. Það síðarnefnda gerist sjálfkrafa þegar glugginn  **Vörurakning er opnaður**  úr birgðabókarlínu eða ef valið  **er aðgerðin uppfæra Vörurakningarlínur** .
 
-### <a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on" />Raunbirgðabók vöruhúss fyrir staðsetningar þar sem beinar tínsla og frágangur er kveikt
+### <a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on"></a>Raunbirgðabók vöruhúss fyrir staðsetningar þar sem beinar tínsla og frágangur er kveikt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **Raunbirgðabók** vöruhúss og velja síðan tengda tengilinn.
 2. Reitirnir í birgðabókarlínunni eru fylltir út eftir þörfum. Athugið að  **Lotunr.**,  **raðnr.**,  **Gildistími**,  **Ábyrgðardagsetning** og  **pakki nr**. Svæðin eru tiltæk (ef aðgerðin er gerð virk).
@@ -109,9 +109,9 @@ Fyrir fjöldainnflutning skal nota skilgreiningarpakka til að flytja inn gögn 
 > [!NOTE]
 > Ekki er hægt að nota  **Edit í Excel**  til að stofna færslubókarlínur með rakningarupplýsingum.
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
 [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  

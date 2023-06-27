@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse" />Áætla samstillingu milli Business Central og Dataverse
+# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Áætla samstillingu milli Business Central og Dataverse
 
 Hægt er að samstilla [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)] með áætluðu millibili með því að setja upp verk í verkröðinni. Samstillingarvinnslur samstilla gögn í  [!INCLUDE[prod_short](includes/prod_short.md)]  færslum og  [!INCLUDE[cds_long_md](includes/cds_long_md.md)]  færslum sem eru samkeyrðar. Fyrir færslur sem eru ekki þegar í samræmi við stefnu og reglur er hægt að stofna samstillingarvinnslur og nokkrar nýjar færslur í viðtökukerfinu.
 
@@ -24,7 +24,7 @@ Nokkur samstillingarverk eru í boði beint úr kassanum. Verkin eru keyrð í e
 
 Hægt er að skoða verkin á síðunni **Verkraðarfærslur**. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
-## <a name="default-synchronization-job-queue-entries" />Sjálfgefnar færslur vinnsluraðar vinnslu
+## <a name="default-synchronization-job-queue-entries"></a>Sjálfgefnar færslur vinnsluraðar vinnslu
 
 Eftirfarandi tafla lýsir sjálfgefnu samstillingarverkunum fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -36,7 +36,7 @@ Eftirfarandi tafla lýsir sjálfgefnu samstillingarverkunum fyrir [!INCLUDE[cds_
 | LÁNARDROTTINN - Common Data Service samstillingarverk | Samstillir [!INCLUDE[cds_long_md](includes/cds_long_md.md)] reikninga við [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamenn. | Í báðar áttir | Lánardrottinn | 30 | 720<br> (12 klst.) |
 | SÖLUFÓLK – Common Data Service samstillingarverk | Samstillir [!INCLUDE[prod_short](includes/prod_short.md)] sölumenn við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] notendur. | Frá [!INCLUDE[cds_long_md](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)] | SÖLUMENN | 30 | 1440<br> (24 klst.) |
 
-## <a name="synchronization-process" />Samstillingarferli
+## <a name="synchronization-process"></a>Samstillingarferli
 
 Hvert verkraðarfærsla samstillingarverks notar sértæka vörpun samþættingartöflu sem tilgreinir hvaða [!INCLUDE[prod_short](includes/prod_short.md)] töflu og [!INCLUDE[cds_long_md](includes/cds_long_md.md)] töflu á að samstilla. Töfluvarpanir innihalda einnig nokkrar stillingar sem stýra því hvaða færslur í [!INCLUDE[prod_short](includes/prod_short.md)] töflunni [!INCLUDE[cds_long_md](includes/cds_long_md.md)] töflunni verða samstilltar.  
 
@@ -57,7 +57,7 @@ Til að samstilla gögn verða [!INCLUDE[cds_long_md](includes/cds_long_md.md)] 
 
 - Við tvíátta samstillingu er verkið samstillt frá [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[cds_long_md](includes/cds_long_md.md)], og því næst frá [!INCLUDE[cds_long_md](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="about-inactivity-timeouts" />Um tímafrekari tímalóvirkni
+## <a name="about-inactivity-timeouts"></a>Um tímafrekari tímalóvirkni
 
 Í sumum verkraðarfærslum, eins og þeim sem tímasetja samstillingu á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)], skaltu nota reitinn **Tímalokun** á SÍÐU verkraðarfærslu til að koma í veg fyrir að verkraðarfærslan sé í gangi að óþörfu.  
 
@@ -70,7 +70,7 @@ Til dæmis er sjálfgefið að GJALDMIÐILL verkraðarfærsla, sem samstillir gj
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] mun sjálfkrafa virkja verkraðarfærslur sem eru í bið þegar breytingar verða í [!INCLUDE[prod_short](includes/prod_short.md)]. Breytingar í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] munu ekki virkja verkraðarfærslur.
 
-## <a name="to-view-the-synchronization-job-log" />Til að skoða kladda samstillingarverks
+## <a name="to-view-the-synchronization-job-log"></a>Til að skoða kladda samstillingarverks
 
 1. Veldu :::image type="icon" source="media/ui-search/search_small.png" border="false"::: táknið, sláðu inn **Samstillingarkladdi samþættingar** og veldu síðan tengda tengilinn.
 2. Ef ein eða fleiri villur koma upp í samstillingarverki birtist fjöldi villna í dálkinum **Mistókst** . Veljið þá tölu til að skoða villur í verkinu.  
@@ -78,16 +78,16 @@ Til dæmis er sjálfgefið að GJALDMIÐILL verkraðarfærsla, sem samstillir gj
     > [!TIP]  
     > Þú getur skoðað allar villur í samstillingaverkum með því að opna villukladda samstillingarverka beint.
 
-## <a name="to-view-the-synchronization-job-log-from-the-table-mappings" />Til að skoða kladda samstillingarverks úr töfluvörpunum
+## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Til að skoða kladda samstillingarverks úr töfluvörpunum
 
 1. Veldu :::image type="icon" source="media/ui-search/search_small.png" border="false"::: táknið, sláðu inn **Vörpun samþættingartöflu** og veldu síðan tengda tengilinn.
 2. Á síðunni **Vörpun samþættingartöflu** skal velja færslu og síðan velja **Kladdi fyrir samstillingarverk samþættingar**.  
 
-## <a name="to-view-the-synchronization-error-log" />Til að skoða villukladda samstillingar
+## <a name="to-view-the-synchronization-error-log"></a>Til að skoða villukladda samstillingar
 
 - Veldu :::image type="icon" source="media/ui-search/search_small.png" border="false"::: táknið, sláðu inn **Villur í samstillingu samþættingar** og veldu síðan tengda tengilinn.
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Samstilling gagna í Business Central og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)  

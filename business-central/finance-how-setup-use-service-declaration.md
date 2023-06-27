@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, service, declaration,'
 ms.search.form: '30, 76, 5010, 5022, 5023, 5024, 5800'
 ---
-# <a name="the-service-declaration-extension" />Framlenging á Þjónustuskýrslu
+# <a name="the-service-declaration-extension"></a>Framlenging á Þjónustuskýrslu
 
 Í sumum ESB-ríkjum krefjast yfirvöld þess að fyrirtæki geri skýrslu um útflutning á þjónustu til annarra ESB-landa. Með  **viðauka Þjónustuskýrslunnar**  er hægt að safna upplýsingum um þjónustuviðskipti innan ESB og tilkynna það yfirvöldum. Þrátt fyrir að hún sé nefnd  **Þjónustuskýrsla**, er einnig hægt að nota hana sem  **Intrastat fyrir þjónustu**. Þessi framlenging er fáanleg fyrir öll ESB löndin sem W1 útgáfan og það er hægt að nota as-is í Belgíu. Til annarra landa verður krafist Framlengingar á landi. Ef land vantar aðeins annað snið er hægt að nota skýrsluskilgreininguna í  **Rammaskrárgengisrammanum**  til að breyta sniðinu.
 
-## <a name="enable-the-service-declaration-extension" />Gera viðauka Þjónustuskýrslu virka
+## <a name="enable-the-service-declaration-extension"></a>Gera viðauka Þjónustuskýrslu virka
 
 Þegar búið er að setja upp endingu í umhverfi þarf að virkja hann.
 
@@ -26,11 +26,11 @@ ms.search.form: '30, 76, 5010, 5022, 5023, 5024, 5800'
 5. Áður en hafist er handa er athugað með  **heildarfjölda kóða**  til að skilja hversu margar gerðir þjónustufærslna hafa þegar verið tilgreindar.
 6. Velja  **Ljúka**  í síðasta skrefi til að ljúka skilgreiningunni.
 
-## <a name="set-up-the-service-declaration-extension" />Setja upp viðauka Þjónustuskýrslu
+## <a name="set-up-the-service-declaration-extension"></a>Setja upp viðauka Þjónustuskýrslu
 
 Hægt er að setja upp viðauka handvirkt eða með því að nota skýrslugerðarskrá í skilgreiningum á gögnum.
 
-### <a name="to-set-up-service-declaration-manually" />Að setja upp Þjónustuskýrslu handvirkt
+### <a name="to-set-up-service-declaration-manually"></a>Að setja upp Þjónustuskýrslu handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **uppsetningu** þjónustuskýrslu og veljið síðan tengda tengilinn.
 2.  **Á flipanum Almennt**  skal skilgreina svæðin sem lýst er í eftirfarandi töflu:
@@ -47,7 +47,7 @@ Hægt er að setja upp viðauka handvirkt eða með því að nota skýrslugerð
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **Þjónustufærslugerðir** og velja síðan tengda tengilinn.
 4. Í línunum eru tilgreindir  **kótar**  og  **lýsingar**  á þjónustufærslugerðunum sem eru notaðar.
 
-### <a name="set-up-a-reporting-file" />Setja upp skýrsluskrá
+### <a name="set-up-a-reporting-file"></a>Setja upp skýrsluskrá
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **upplýsingar um Gengisskilgreiningar** og velja síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
@@ -66,11 +66,11 @@ Hægt er að setja upp viðauka handvirkt eða með því að nota skýrslugerð
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] forskilgreinda gagnaskiptaskilgreiningu fyrir  **Þjónustuskýrslu**  fyrir öll staðbundin lönd. Frekari upplýsingar um stofnun nýrra Gagnaskiptaskilgreininga á að setja upp skilgreiningar  [á](across-how-to-set-up-data-exchange-definitions.md) gagnaskiptum.
 
-## <a name="other-related-configurations" />Aðrar tengdar stillingar
+## <a name="other-related-configurations"></a>Aðrar tengdar stillingar
 
 Áður en notuð er framlenging á Þjónustuskýrslu skal samskipa nokkur svæði fyrir vörur, forða og Vörugjöld.
 
-### <a name="items" />Vörur
+### <a name="items"></a>Vörur
 
 Setja upp upplýsingar sem tengjast Þjónustuskýrslu á Vöruspjaldssíðum:
 
@@ -81,7 +81,7 @@ Setja upp upplýsingar sem tengjast Þjónustuskýrslu á Vöruspjaldssíðum:
    2.  **Í reitnum kóti**  þjónustufærslu er tilgreindur kóti  **þjónustufærslugerðar**.
    3. Ef ekki á að taka þessa þjónustuvöru með í þjónustuskýrslum er reiturinn útiloka frá Þjónustuskýrslu  **valinn** .
 
-### <a name="resources" />Forðar
+### <a name="resources"></a>Forðar
 
 Setja upp upplýsingar sem tengjast Þjónustuskýrslu á Forðaspjaldssíðum:
 
@@ -91,7 +91,7 @@ Setja upp upplýsingar sem tengjast Þjónustuskýrslu á Forðaspjaldssíðum:
    1.  **Í reitnum kóti**  þjónustufærslu er tilgreindur kóti  **þjónustufærslugerðar**.
    2. Ef ekki á að taka þennan forða með í þjónustuskýrslum er reiturinn útiloka frá Þjónustuskýrslu  **valinn** .
 
-### <a name="item-charges" />Kostnaðaraukar
+### <a name="item-charges"></a>Kostnaðaraukar
 
 Setja upp upplýsingar sem tengjast Þjónustuskýrslu fyrir Vörugjöld:
 
@@ -100,7 +100,7 @@ Setja upp upplýsingar sem tengjast Þjónustuskýrslu fyrir Vörugjöld:
 3.  **Í reitnum kóti**  þjónustufærslu er tilgreindur kóti  **þjónustufærslugerðar**.
 4. Ef ekki á að taka þennan kostnaðarauka með í þjónustuskýrslum er reiturinn útiloka frá Þjónustuskýrslu  **valinn** .
 
-## <a name="create-new-service-declaration" />Stofna nýja þjónustuskýrslu
+## <a name="create-new-service-declaration"></a>Stofna nýja þjónustuskýrslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **þjónustuskýrslur** og veljið síðan tengda tengilinn.
 2. Valið er aðgerðin **Nýtt**.
@@ -111,7 +111,7 @@ Setja upp upplýsingar sem tengjast Þjónustuskýrslu fyrir Vörugjöld:
 
 Keyrslan sækir allar færslur í viðeigandi innkaupa-og söluskjölum á tímabilinu sem þarf og bætir þeim við í þjónustunúmeralínunum. Sveima yfir reiti í línum til að lesa stutta lýsingu.
 
-## <a name="modify-a-service-declaration" />Breyta þjónustuskýrslu
+## <a name="modify-a-service-declaration"></a>Breyta þjónustuskýrslu
 
 Ef þörf krefur er hægt að breyta línunum eða bæta við nýjum.
 
@@ -120,11 +120,11 @@ Ef þörf krefur er hægt að breyta línunum eða bæta við nýjum.
 3.  **Á grundvelli skjalgerðarinnar** er fyllt út í reitinn  **Fylgiskjal nr.**  sviði.
 4. Eftirstandandi reitir eru fylltir út.
 
-## <a name="overview-the-service-declaration-lines" />Yfirlit yfir línur þjónustuskýrslu
+## <a name="overview-the-service-declaration-lines"></a>Yfirlit yfir línur þjónustuskýrslu
 
 Eftir að þjónustuskýrsla hefur verið stofnuð er aðgerðin Yfirlit  **notuð**  til að fá yfirlit yfir þjónustulínur. Hægt er að flokka og draga saman línurnar á sama hátt og útfluttu skrána. Einnig er hægt að opna línurnar í Excel.
 
-## <a name="report-service-declaration-in-a-file" />Skýrsluþjónustuskýrsla í skrá
+## <a name="report-service-declaration-in-a-file"></a>Skýrsluþjónustuskýrsla í skrá
 
 Hægt er að senda þjónustuskýrsluna sem skrá sem byggir á mismunandi þörfum sveitarfélaga. Til að stofna skrá:
 
@@ -134,17 +134,17 @@ Hægt er að senda þjónustuskýrsluna sem skrá sem byggir á mismunandi þör
 4. Aðgerðin **Stofna Skrá** er valin.
 5. Þjónustuskýrsluna verður vistað með tilskildum sniði.
 
-## <a name="other-considerations" />Önnur atriði
+## <a name="other-considerations"></a>Önnur atriði
 
 Þegar þú ert að nota  **viðauka Þjónustuskýrslunnar**  þá er ýmislegt sem þarf að huga að. Það er til dæmis mikilvægt að hóparnir njóti þarfa frá yfirvöldum. Það er einnig mikilvægt að þjónustur séu rétt settar á sölu-og innkaupaskjöl.
 
-### <a name="grouping-lines" />Flokkunarlínur
+### <a name="grouping-lines"></a>Flokkunarlínur
 
 Í þjónustuskýrslu er engin flokkun eftir neinu svæði. Allar færslur eru afritaðar úr upprunalega skjalinu sem Uppruni.
 
 Flokkun sem yfirvöld krefjast verða gefnar upp í útfluttu skránni. Skilgreina þarf flokkana í  **Gagnaskiptaskilgreiningunni** sem er fyllilega skilgreinanleg. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)
 
-### <a name="using-services-in-document-lines" />Notkun þjónustu í skjalalínum
+### <a name="using-services-in-document-lines"></a>Notkun þjónustu í skjalalínum
 
 Þegar stofnuð er innkaupa-, sölu-eða Þjónustureikningur er hægt að finna tvo reiti sem tengjast þjónustuskýrslum í línunum sínum. Bæði svæðin eru fyllt út með sjálfgefnum gildum úr vöru-, forða-eða vörugjaldi sem stillt er á ups.
 
@@ -155,9 +155,9 @@ Hægt er að breyta gildunum í þessum reitum en ef valið er svæðið sem  **
 
 Ef tilgreint er gildi í  **reitnum kóti**  þjónustufærslu en ekki á  **við valið fyrir reitinn þjónustuskýrsla**  er hægt að bóka skjalið en línan verður ekki reiknuð þegar það er gert.
 
-## <a name="see-related-training-at-microsoft-learn" />Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp Intrastat skýrslugerð Intrastat-skýrslugerðar](finance-how-setup-report-intrastat.md)
 [í viðskiptamiðinu](finance-how-report-intrastat.md)  

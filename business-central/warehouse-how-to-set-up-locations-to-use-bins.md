@@ -9,7 +9,7 @@ ms.date: 03/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-locations-to-use-bins" />Setja upp birgðageymslur til að þær noti hólf
+# <a name="set-up-locations-to-use-bins"></a>Setja upp birgðageymslur til að þær noti hólf
 
 Hólar standa fyrir grunnvöruhúsaleiðunum og eru þær notaðar til að leggja til hvar á að setja vörur. Þegar búið er að stofna hólfin eru þau skilgreind sem efni þeirra eða þeim þjónað sem fljótandi hólf án tiltekins innihalds.
 
@@ -27,7 +27,7 @@ Næsta skref er að hanna vöruflæðið á staðnum með því að tilgreina h�
 > [!NOTE]  
 > Stofna verður hólfakóta áður en hægt er að tilgreina þá fyrir birgðageymsluna. Frekari upplýsingar eru í [Stofna hólf](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins" />Til að setja upp birgðageymslur til að þær noti hólf
+## <a name="to-set-up-a-location-to-use-bins"></a>Til að setja upp birgðageymslur til að þær noti hólf
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2. Veljið birgðageymsluna þar sem á að nota hólf.  
@@ -45,15 +45,15 @@ Næsta skref er að hanna vöruflæðið á staðnum með því að tilgreina h�
 9. Valfrjálst: Reitirnir á flipanum hólfstefna  **eru**  fylltir út. Mikilvægustu reitirnir eru **Hólfageturegla**, **Leyfa einingaskipti** og **Kóti frágangssniðmáts**.  
 10. Á flýtiflipanum **Vöruhús** skal fylla út reitina **Afgr.tími vara á útl. úr vöruh.**, **Afgr.tími vara á innl. úr vöruh.** og **Kóti grunndagatals**. Til að fá frekari upplýsingar er farið í að  [Setja upp grunndagatöl](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin" />Reiturinn notkunarhólf er fylltur út
+## <a name="fill-in-the-consumption-bin"></a>Reiturinn notkunarhólf er fylltur út
 
 Eftirfarandi Flæðirit sýnir hvernig  **reiturinn Kóti hólfakóta**  í framleiðslupöntunaríhlutalínum er fylltur út eftir uppsetningu birgðageymslunnar.
 
 :::image type="content" source="media/binflow.png" alt-text="Reiturinn Kóti hólfs í framleiðslupöntunaríhlutalínum.":::
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-bins-location/)
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit](design-details-warehouse-management.md)
 [vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  

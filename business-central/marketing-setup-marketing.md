@@ -11,7 +11,7 @@ ms.search.forms: '5172, 5173, 5170, 5094, 429'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setting-up-relationship-management" />Uppsetning tengslastjórnar
+# <a name="setting-up-relationship-management"></a>Uppsetning tengslastjórnar
 
 Áður en þú byrjar að vinna með tengiliði og markaðssetningarhagsmuni, eru nokkrar ákvarðanir og skref sem þú ættir að taka til að setja upp hvernig markaðssviðið stjórnar ákveðna þætti hjá tengiliðunum þínum. Til dæmis er hægt að ákveða hvort eigi að samstilla tengiliðarspjald við viðskiptamannaspjald, lánardrottnaspjald, og bankareikningsspjald, hvernig númeraraðir eru skilgreindar eða hvaða stöðluðu kveðju á að nota þegar skrifuð eru skeyti til tengiliðanna.
 
@@ -19,39 +19,39 @@ Með stjórnun tengiliða og gerð áætlunar til að finna, laða að og halda 
 
 Þú setur upp stjórnun markaðssetningar og tengiliðar á síðunni **Uppsetning markaðssetningar**. Til að opna síðuna **Uppsetning markaðssetningar** skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning markaðssetningar** og velja síðan viðkomandi tengil.
 
-## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons" />Afritar ákveðnar upplýsingar sjálfkrafa úr tengiliðafyrirtækjum yfir til tengiliða.
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Afritar ákveðnar upplýsingar sjálfkrafa úr tengiliðafyrirtækjum yfir til tengiliða.
 Vissar upplýsingar um tengiliðafyrirtæki eru þær sömu og um einstaklingstengiliði sem vinna hjá fyrirtækjunum, til dæmis upplýsingar um aðsetur. Í hlutanum **Erfðir** á síðunni **Uppsetning markaðssetningar** geturðu stillt forritið til að afritað tiltekna reiti sjálfkrafa af fyrirtækistengiliðaspjaldinu á tengiliðaspjaldið í hvert sinn sem stofnaður er tengiliður fyrir tengiliðarfyrirtæki. Til dæmis er hægt að velja að afrita sölumannskóða, upplýsingar um aðsetur, upplýsinga um aðsetur (aðsetur, aðsetur 2, bæ, póstnúmer og sýslu) og samskiptaupplýsingar (faxnúmer, svarkóða á telex og símanúmer) og meira.
 
 Þegar einhverjum þessara reita er breytt á fyrirtækistengiliðaspjaldi breytir forritið þeim sjálfkrafa á einstaklingstengiliðaspjaldinu (nema efni reitsins á einstaklingstengiliðaspjaldinu hafi verið breytt handvirkt).
 
 Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).
 
-## <a name="use-predefined-defaults-on-new-contacts" />Nota forskilgreinda sjálfgildi á nýju tengiliðina
+## <a name="use-predefined-defaults-on-new-contacts"></a>Nota forskilgreinda sjálfgildi á nýju tengiliðina
 Hægt er að láta forritið tilgreina sjálfkrafa ákveðinn tungumálskóða, umsjónarsvæðiskóða, sölumannskóða og lands-/svæðiskóða sem sjálfgildi þegar nýir einstaklingstengiliðir eru stofnaðir. Einnig er hægt að færa inn sjálfgefinn söluferliskóta sem forritið úthlutar sjálfkrafa á hvert nýtt tækifæri sem stofnað er.
 
 Reitaerfðir skrifast yfir sjálfgildi sem sett hafa verið upp. Ef enska hefur til dæmis verið sett upp sem sjálfgefið tungumál en tungumál tengiliðafyrirtækisins er þýska, úthlutar forritið þýsku sjálfkrafa sem tungumálakóta einstaklingstengiliðanna sem skráðir eru fyrir það fyrirtæki.
 
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
-## <a name="automatically-recording-interactions" />Samskipti skráð sjálfkrafa
+## <a name="automatically-recording-interactions"></a>Samskipti skráð sjálfkrafa
 [!INCLUDE[prod_short](includes/prod_short.md)] getur sjálfkrafa skráð sölu- og innkaupaskjöl sem samskipti (til dæmis pantanir, reikninga, móttökur og þess háttar), ásamt forsíðum, tölvupóstsendingum og símtölum.
 
 Fyrir frekar upplýsingar, sjá [Skrá samskipti við tengiliði sjálfkrafa](marketing-auto-record-interactions.md)
 
-## <a name="synchronizing-contacts-with-customers-and-more" />Tengiliðir samstilltir við viðskiptamenn og meira
+## <a name="synchronizing-contacts-with-customers-and-more"></a>Tengiliðir samstilltir við viðskiptamenn og meira
 Eigi að samstilla tengiliðaspjaldið við viðskiptamannaspjald, lánardrottnaspjald og bankareikningsspjald þarf að velja viðskiptatengslakóta fyrir viðskiptamenn, lánardrottna og bankareikninga. Þannig er til dæmis aðeins hægt að tengja tengilið við viðskiptamann sem til er fyrir hafi viðskiptatengslakóti fyrir viðskiptamenn verið valinn á síðunni **uppsetning markaðssetningar**.
 
 Fyrir frekar upplýsingar, sjá [Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts)  
 
-## <a name="assigning-a-number-series-to-contacts-and-opportunities" />Úthluta Númeraraðir á tengiliði og tækifæri
+## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Úthluta Númeraraðir á tengiliði og tækifæri
 Hægt er að setja upp númeraraðir fyrir tengiliði og tækifæri. Ef sett hefur verið upp númeraröð fyrir tengiliði, þegar tengiliður er stofnaður, og valið  <kbd>að færa inn</kbd>  í reitnum Nr. reitur á tengiliðaspjaldinu setur forritið sjálfkrafa inn næsta lausa tengiliðanúmer.
 
 Frekari upplýsingar um númeraraðir er að finna á [stofna númeraraðir](ui-create-number-series.md).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created" />Leita að tvíteknum tengiliðum þegar tengiliðir eru stofnaðir
+## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Leita að tvíteknum tengiliðum þegar tengiliðir eru stofnaðir
 Hægt er að láta forritið leita sjálfkrafa leita að tvítekningum í hvert sinn þegar stofnað er tengiliðafyrirtæki eða leita handvirkt eftir að tengiliðirnir hafa verið stofnaðir. Einnig er hægt að láta forritið uppfæra leitarstrengi sjálfkrafa í hvert sinn sem tengiliðaupplýsingum er breytt eða tengiliður stofnaður. Notandinn ákveður sjálfur hver endurtekningarprósentan er, það er hlutfall strengja sem verða að vera eins hjá tveimur tengiliðum til þess að forritið líti á þá sem tvítekningar.
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

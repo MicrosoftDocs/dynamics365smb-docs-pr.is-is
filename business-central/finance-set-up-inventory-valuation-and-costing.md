@@ -7,7 +7,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="setting-up-inventory-valuation-and-costing" />Uppsetning birgðaverðmats og kostnaðar
+# <a name="setting-up-inventory-valuation-and-costing"></a>Uppsetning birgðaverðmats og kostnaðar
 
 Til að ganga úr skugga um að birgðakostnaður sé skráður rétt, er nauðsynlegt að setja upp ýmsa reiti og síður áður en þú byrjar að framkvæma vörufærslur. Yfirleitt velja fyrirtæki tiltekna aðferð við útreikning kostnaðar og nota hana birgðavörur, til dæmis til að fylgjast með virði á vörum og birgðum.  
 
@@ -30,7 +30,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Tryggja að innkaupaskil sé jafnað á upphaflegu færsluna á innleið til að varðveita birgðavirði.|Reiturinn **Nákvæmar kostnaðarbakfærslur áskildar** á síðunni **Innkaup & viðskiptaskuldir**|
 |Setja upp sléttunarreglur sem á að nota þegar vöruverð er leiðrétt eða lagt til eða þegar staðlaður kostnaður er leiðréttur eða lagður til.|**Sléttunaraðferð** síða|  
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md)  

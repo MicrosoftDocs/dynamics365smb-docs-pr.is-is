@@ -8,7 +8,7 @@ ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, tra
 ms.date: 08/12/2022
 ms.author: a-reishima
 ---
-# <a name="process-partial-shipments" />Vinna úr hlutaafhendingum
+# <a name="process-partial-shipments"></a>Vinna úr hlutaafhendingum
 
 Í hlutaafhendingu er pöntun ekki send öll í einu. Til dæmis þegar 40 einingar af 100 eininga pöntun eru afhentar strax og 60 einingar síðar. Engar takmarkanir eru á fjölda afhendinga fyrir hverja pöntun.
 
@@ -18,7 +18,7 @@ ms.author: a-reishima
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Selja vörur með sölupöntun viðskiptavinar](sales-how-sell-products.md)  
 [Senda vörur](warehouse-how-ship-items.md)  

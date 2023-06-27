@@ -9,7 +9,7 @@ ms.search.form: '89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="project-management" />Verkefnastjórnun
+# <a name="project-management"></a>Verkefnastjórnun
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að framkvæma sameiginlega verkefnastjórnun verkefni, svo sem að stilla vinnu og tímasetningu auðlinda, auk þess að veita þær upplýsingar sem þarf til að stjórna kostnaðarhámarki og fylgjast með framförum. Hægt er að rekja véla- og starfsmannatíma í verkefninu með því að nota vinnuskýrslur. Sem verkefnastjóri fær maður góða yfirsýn, ekki aðeins yfir einstök verk heldur einnig yfir úthlutun starfsfólks, véla og annars forða sem notaður er í öllum verkefnum.
 
@@ -29,11 +29,11 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Bókið notkun á efnum, forða og annan kostnað við verk í vinnslu (VÍV) til að fylgjast með fjárhagslegu virði þess og viðhalda réttum efnahagsreikningum jafnvel þótt kostnaður við verk sé bókaður áður en verkið er reikningsfært. |[Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md) |
 | Skráið stöðugt verkkostnað fyrir forðanotkun, efni og verktengd innkaup og sendið viðskiptamanni reikning, annaðhvort þegar verkinu er lokið eða samkvæmt áætlun um reikningsfærslu. |[Reikningsfærsla verka](projects-how-invoice-jobs.md) |
 
-## <a name="get-started-with-projects" />Hafist handa með verkefni
+## <a name="get-started-with-projects"></a>Hafist handa með verkefni
 
 Verkefnastjórnun er nógu flókin út af fyrir sig, en að fræðast um hvernig á að stofna verk og hafa umsjón með verki í vinnslu í nýju verkfæri getur verið enn ein flækjan. Til að hjálpa þér að hefjast handa með verkefnastjórnun í [!INCLUDE[prod_short](includes/prod_short.md)] geturðu horft á [myndband um stofnun á verkum](https://www.youtube.com/watch?v=VqaPWr7BWmw) á [!INCLUDE[prod_short](includes/prod_short.md)] YouTube rásinni.  
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Myndband: Hvernig á að stofna verk í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

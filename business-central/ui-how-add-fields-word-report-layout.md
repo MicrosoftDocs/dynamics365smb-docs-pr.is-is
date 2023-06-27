@@ -11,7 +11,7 @@ ms.date: 11/25/2021
 ms.author: jswymer
 ---
 
-# <a name="work-with-word-layouts" />Vinna með Word-útlit
+# <a name="work-with-word-layouts"></a>Vinna með Word-útlit
 
 Word-skýrsluútlit ákvarðar efni og snið skýrslunnar þegar hún er forskoðuð og prentuð úr Business Central. Þú býrð til og breytir þessum útlitum með Microsoft Word.
 
@@ -26,18 +26,18 @@ Ef þú ert að hanna Word-skýrsluútlit frá grunni eða bæta við nýjum gag
 > [!TIP]  
 > Sýna hnitanetslínur töflu þannig að jaðrar töfluhólfanna sjáist. Mundu að fela hnitanetslínurnar þegar breytingum er lokið. Til að sýna eða fela töfluhnitalínur velurðu töfluna og svo, undir **Útlit** á flipanum **Tafla** velurðu **Skoða hnitalínur**.
 
-## <a name="embedding-fonts-in-word-layouts-for-consistency" />Innfelling leturgerða í Word Layouts fyrir samræmi
+## <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Innfelling leturgerða í Word Layouts fyrir samræmi
 
 Til að tryggja að skýrslur birtist alltaf og prentist með fyrirhuguðum leturgerðum, óháð því hvar notendur opna eða prenta skýrslurnar, geturðu fellt inn leturgerðirnar í Word skjalinu. Hins vegar geta innfelldar leturgerðir aukið stærð Word-skrá umtalsvert. Nánari upplýsingar um innfellingu leturgerða í Word, sjá [Fella inn leturgerðir í Word, PowerPoint eða Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-## <a name="adding-data-fields" />Bæta við gagnareitum
+## <a name="adding-data-fields"></a>Bæta við gagnareitum
 
 Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndir. Þetta efnisatriði lýsir ferlinu við að bæta reitum í gagnasafni skýrslu við fyrirliggjandi Word-skýrsluútlit fyrir skýrslu. Reitum er bætt við með því að nota Word sérsniðinn XML-hluta fyrir skýrsluna og bæta við efnisstjórnun sem varpar í reiti gagnamengis skýrslunnar. Bæting reita þarfnast einhverrar þekkingar á gagnamengi skýrslunnar þannig að hægt er að bera kennsl á reitina sem á að bæta við útlitið.  
   
 > [!NOTE]  
 >  Ekki er hægt að breyta innbyggðu skýrsluútliti<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>Til að opna sérsniðinn XML-hluta fyrir skýrsluna í Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Til að opna sérsniðinn XML-hluta fyrir skýrsluna í Word
   
 1. Ef það er ekki þegar opið skal opna Word-sniðmátsskjal fyrir skýrslu í Word.  
   
@@ -59,7 +59,7 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
      Eftir að þú velur sérsniðna XML-hlutann sýnir XML-vörpunarglugginn merki og reitastjórnun sem er í boði fyrir skýrsluna.  
   
-### <a name="to-add-a-label-or-data-field" />Til að bæta við merki eða gagnareit
+### <a name="to-add-a-label-or-data-field"></a>Til að bæta við merki eða gagnareit
   
 1. Setja skal bendilinn á skjalið þar sem þú vilt setja inn stjórnhnapp.  
   
@@ -68,7 +68,7 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
     > [!NOTE]  
     >  Ekki er hægt að bæta við reit með því að slá handvirkt inn heiti gagnamengisreits í efnisstjórnun. Þú verður að nota **XML-vörpun** svæðið til að varpa reitunum.  
   
-### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list" />Til að bæta við endurteknum línum gagnareita til að búa til lista
+### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Til að bæta við endurteknum línum gagnareita til að búa til lista
   
 1. Í töflunni skal bæta við töflulínu sem inniheldur dálk fyrir hvern reit sem á að endurtaka.  
   
@@ -86,7 +86,7 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
     3. Endurtakið skref a og b fyrir hvern reit.  
   
-## <a name="adding-image-fields" />Bæta við myndareitum
+## <a name="adding-image-fields"></a>Bæta við myndareitum
 
 Gagnasafn skýrslu getur innihaldið reit sem inniheldur mynd, t.d. fyrirtækjamerki eða mynd af hlut. Til að bæta við mynd úr skýrslugagnamenginu er sett inn efnisstjórnunin **Mynd**.  
   
@@ -95,7 +95,7 @@ Myndir birtast efst í hægra horni efnisstýringar og laga stærð sína sjálf
 > [!IMPORTANT]  
 > Aðeins er hægt að bæta við myndum á sniði sem Word styður, t.d. .bmp, .jpeg, og .png skráargerðir. Ef þú bætir við mynd á sniði sem Word styður ekki færðu villu þegar þú keyrir skýrsluna úr [!INCLUDE[prod_short](includes/prod_short.md)] biðlaranum.  
   
-### <a name="to-add-an-image" />Til að bæta við mynd
+### <a name="to-add-an-image"></a>Til að bæta við mynd
   
 1. Setja skal bendilinn á skjalið þar sem þú vilt setja inn stjórnhnapp.  
   
@@ -103,7 +103,7 @@ Myndir birtast efst í hægra horni efnisstýringar og laga stærð sína sjálf
   
 3. Til að auka eða minnka myndastærðina dregurðu stærðarhandfang frá eða að miðju efnisstjórnunar.  
 
-## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Merkja- og gagnareitir fjarlægðir
+## <a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Merkja- og gagnareitir fjarlægðir
 
 Merkimiða- og gagnareitir skýrslu eru í efnisstjórnun í Word. Eftirfarandi mynd sýnir efnisstýringu þegar hún er valin í Word-skjalinu.  
 
@@ -111,7 +111,7 @@ Merkimiða- og gagnareitir skýrslu eru í efnisstjórnun í Word. Eftirfarandi 
 
 Heiti merkisins eða heiti gagnareits er birt í efnisstjórnun. Í dæminu er heiti reitsins CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field" />Til að fjarlægja merki eða gagnareit
+### <a name="to-remove-a-label-or-data-field"></a>Til að fjarlægja merki eða gagnareit
 
 1. Hægri-smellir á reitinn sem á að eyða og svo **Fjarlægja efnisstýringu**.  
 
@@ -119,11 +119,11 @@ Heiti merkisins eða heiti gagnareits er birt í efnisstjórnun. Í dæminu er h
 
 2. Eyða skal textanum sem eftir er eftir því sem þörf krefur.
 
-## <a name="custom-xml-part-overview" />Sérsniðinn XML-hluti yfirlit
+## <a name="custom-xml-part-overview"></a>Sérsniðinn XML-hluti yfirlit
 
 Word-skýrsluútlit byggja á *sérsniðnum XML-hlutum*. Sérsniðinn XML-hluti fyrir skýrslu samanstendur af þáttum sem samsvara gagnahlutum, dálkum og merkingum sem saman mynda gagnamengi skýrslunnar. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Sérsniðinn XML-hluti er notaður til að varpa gögnunum í skýrslu þegar skýrslan er keyrð.
 
-### <a name="xml-structure-of-custom-xml-part" />XML bygging sérsniðins XML-hluta
+### <a name="xml-structure-of-custom-xml-part"></a>XML bygging sérsniðins XML-hluta
 
 Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.  
   
@@ -136,7 +136,7 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Gögn og dálkar sem eru ívafin á efsta stigi gagnahlutar. Dálkar eru listaðir í stafrófsröð undir viðkomandi gagnahlut.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Lokar atriði.|  
   
-### <a name="custom-xml-part-in-word" />Sérsniðinn XML-hluti í Word
+### <a name="custom-xml-part-in-word"></a>Sérsniðinn XML-hluti í Word
 
  Í Word opnarðu sérsniðinn XML-hluta á svæðinu **XML-vörpun** og notar svo svæðið til að varpa einingum í efnisstjórnun í Word-skjalinu. Svæðið **XML-vörpun** er aðgengilegt úr flipanum **Hönnuður** (nánari upplýsingar er að finna í [Sýna flipann Hönnuður á borðanum](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
@@ -154,7 +154,7 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
   
 * Tungumál merkisins sem birtist þegar skýrslan er keyrð fer eftir tungumálsstillingu skýrsluhlutarins.  
   
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md)   
 

@@ -11,7 +11,7 @@ ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
 ---
-# <a name="finding-related-entries-for-documents" />Finna tengdar færslur fyrir skjöl
+# <a name="finding-related-entries-for-documents"></a>Finna tengdar færslur fyrir skjöl
 
 Lærðu hvernig á að finna skjöl og færslur sem tengjast innbyrðis Byggt á algengum upplýsingum, eins og:
 
@@ -21,7 +21,7 @@ Lærðu hvernig á að finna skjöl og færslur sem tengjast innbyrðis Byggt á
 
 Þessi eiginleiki er gagnlegur til að hafa upp á fjárhagsfærslum sem urðu til vegna ákveðinna viðskipta. Þegar fylgiskjalsnúmer er leitað er hægt að prenta samantektina úr  **skýrslunni Fylgiskjalafærslur** .
 
-## <a name="get-started" />Hafist handa
+## <a name="get-started"></a>Hafist handa
 
 Aðgerðin finna færslur er fúslega tiltæk á nánast hvaða síðu sem er með því að styðja á  <kbd>lyklana CTRL</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> . Frá síðum sem sérstaklega birtast bókuð skjöl eða bókaðar skjalafærslur &mdash; fyrir bæði lista og spjöld &mdash; er hægt að opna aðgerðina með því að  **Velja aðgerðina finna færslur** .
 
@@ -31,7 +31,7 @@ Síðan **Leita að færslum** inniheldur öll tengd skjöl og færslur samkvæm
 - Miðhlutinn sýnir tengd skjöl samkvæmt leitinni.
 - Neðsti hlutinn sýnir upplýsingar um upprunaskjalið sem fannst með leit.
 
-## <a name="search-for-entries" />Leita að færslum
+## <a name="search-for-entries"></a>Leita að færslum
 
 Hægt er að leita að færslum út frá upplýsingum um annaðhvort skjalið, viðskiptatengilið eða vörutilvísun. Í efsta hlutanum er valinn einn af eftirtöldum valkostum sem byggist á gerð upplýsinganna sem eru:
 
@@ -46,9 +46,9 @@ Hægt er að leita að færslum út frá upplýsingum um annaðhvort skjalið, v
 > [!TIP]
 > Til að fá nokkur dæmi um notkun  **finna færslna** má sjá  [atriði](inventory-how-to-trace-item-tracked-items.md)  í rakningu vöru og  [Walkthrough: rakningar-raðnúmer-lotunúmer](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training" />Sjá tengda [Microsoft þjálfun](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  
 [Finna bókuð fylgiskjöl án færslu skjals á innleið](across-how-find-posted-documents-without-income-document-records.md)  

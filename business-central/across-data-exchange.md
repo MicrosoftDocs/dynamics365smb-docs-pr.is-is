@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: edupont
 ---
 
-# <a name="exchanging-data-electronically" />Rafræn gagnaskipti
+# <a name="exchanging-data-electronically"></a>Rafræn gagnaskipti
 Hægt er að nota Data Exchange Framework til að stjórna skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga.
 
 Í staðlaðri útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] er Data Exchange Framework notað í ferlum á borð við sendingu rafrænna skjala, innflutning og útflutning bankaskráa og uppfærslu gengis fyrir gjaldmiðla. Nánari upplýsingar er að finna í [Um Data Exchange Framework](across-about-the-data-exchange-framework.md).
@@ -26,7 +26,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Undirbúa gagnaskipti í skjali með því að endnýta XML-skema skrárinnar. Setja upp skilgreiningar gagnaskipta. Setja upp aðalgögn fyrir sendingu rafræns skjals. Setja upp mismunandi innflutnings/útflutningsreiti bakna.|[Setja upp gagnaskipti](across-set-up-data-exchange.md)|  
 |Sendið PEPPOL-reikninga, takið við PEPPOL-reikningum, flytjið inn bankayfirlit og flytjið út bankagreiðsluskrár sem byggjast á gagnaskiptaskilgreiningum.|[Gagnaskipti](across-exchange-data.md)|  
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Um gagnaskiptaramma](across-about-the-data-exchange-framework.md)  
 [Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  

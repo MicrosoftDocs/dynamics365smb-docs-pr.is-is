@@ -11,7 +11,7 @@ ms.search.form: '663, 1500, 1512, 1513,'
 ms.date: 09/09/2022
 ms.author: bholtorf
 ---
-# <a name="specify-when-and-how-to-receive-workflow-notifications" />Tilgreina hvenær og hvernig eigi að taka á móti Verkflæðistilkynningum
+# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Tilgreina hvenær og hvernig eigi að taka á móti Verkflæðistilkynningum
 
 Þegar samþykktarnotendur eru settir upp í verkflæði þar sem óskað er eftir að samþykkja breytingar, eins og þegar nýjar færslur eru stofnaðar eða þegar einhver biður um samþykki, verður að tilgreina hvernig og hvenær eigi að tilkynna notanda samþykkisins. Til dæmis er hægt að tilgreina að samþykkinotandi fái tafarlaust tölvupóst þegar einhver stofnar nýjan viðskiptavin. Einnig er hægt að raða tilkynningunum sem á að halda og afhenda þær t.d. með vikulegu eða mánaðarlegu millibili.
 
@@ -25,11 +25,11 @@ Fólk getur einnig breytt uppsetningu tilkynninga með því að velja  **Breyta
 > [!NOTE]
 > Ef þú vilt nota tölvupóst sem tilkynningarmáta þarf að setja tölvupóst upp fyrir bæði sendanda og móttakanda í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar má finna á [Setja upp tölvupóst](admin-how-setup-email.md).
 
-## <a name="steps-in-workflows" />Skref í verkflæði
+## <a name="steps-in-workflows"></a>Skref í verkflæði
 
 Margar samþykktarverkflæðisskref eru um að tilkynna notendum að tilvik sem þeir verða að bregðast við hafi átt sér stað. Til dæmis getur eitt skref í verkflæði verið að tilvik óski eftir að Notandi 1 samþyki nýja færslu. Tengd viðbrögð eru að tilkynning er sent Notanda 2, sem er samþykkjandi. Í næsta skrefi verkflæðis getur tilvik verið að Notandi 2 samþykki nýja færslu. Tengd viðbrögð eru að tilkynning er sent Notanda 3 til að hefja ferli með samþykktri færslu. Fyrir verkflæðisskref sem tengjast samþykktum er hver tilkynning bundin við samþykktarfærslu. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
-## <a name="specify-when-and-how-approval-users-receive-notifications" />Tilgreina hvenær og hvernig taka eigi við tilkynningum vegna samþykkinotenda
+## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Tilgreina hvenær og hvernig taka eigi við tilkynningum vegna samþykkinotenda
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samþykktarnotanda**, velja síðan viðkomandi tengil.  
 2. Velja skal línuna fyrir notandann sem setja á upp óskir um tilkynningar fyrir og velja  **síðan uppsetningaraðgerðina**  tilkynning.  
@@ -58,7 +58,7 @@ Margar samþykktarverkflæðisskref eru um að tilkynna notendum að tilvik sem 
    |**Mánaðardagur**|Tilgreinið hvort notandinn fær tilkynningar á fyrsta, síðasta eða tilteknum degi mánaðarins.|
    |**Dagsetning mánaðarlegrar tilkynningar**|Tilgreinið á hvaða degi mánaðarins notandinn fær tilkynningar þegar gildið í **Mánaðardagur** reitnum er **Sérsniðið**.|
 
-## <a name="change-when-and-how-you-receive-notifications" />Breyta hvenær og hvernig notandi fær tilkynningar
+## <a name="change-when-and-how-you-receive-notifications"></a>Breyta hvenær og hvernig notandi fær tilkynningar
 
 1. Á einni af þeim tilkynningum sem þú hefur móttekið, annaðhvort sem tölvupóstur eða athugasemd, skaltu velja  **Breyta tilkynningastillingum**.  
 2.  **Á uppsetningarsíðu**  verkflæðistilkynninga skaltu breyta þátttökustillingum eins og lýst er í skrefum 3-5 hér að ofan.
@@ -66,7 +66,7 @@ Margar samþykktarverkflæðisskref eru um að tilkynna notendum að tilvik sem 
    2. Veljið hvort fá eigi tilkynningu um tölvupóst eða athugasemd undir   **Tilkynningaraðferðarsvæði** .
    3.  **Veljið Tilkynningaráætlunina**  til að breyta tíðni og endurtekningu þeirra tilkynninga sem sendar eru.
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
 [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)  

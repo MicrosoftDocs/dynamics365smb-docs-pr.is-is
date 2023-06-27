@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# <a name="general-business-functionality" />Almenn viðskiptavirkni
+# <a name="general-business-functionality"></a>Almenn viðskiptavirkni
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna tilteknar aðgerðir fyrir dæmigerð rekstrarsvið, s.s. fjármálasvið og sölur. Frekari upplýsingar eru í [Viðskiptavirkni](across-business-functionality.md).
 
@@ -45,7 +45,7 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 | Setja upp skilgreiningar gagnaskipta svo þú getir sent og tekið á móti rafrænum skjölum. |[Rafræn gagnaskipti](across-data-exchange.md) |
 | Notaðu kort á netinu til að finna staðsetningar og leiðbeiningar á viðskiptamenn, lánardrottna og aðsetur almennt. | [Nota kortaþjónustu til að finna staðsetningar og leiðsagnir](across-online-maps.md) |
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Stjórnun](admin-setup-and-administration.md)  

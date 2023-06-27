@@ -5,7 +5,7 @@ ms.date: 10/27/2022
 ms.author: bholtorf
 ---
 
-### <a name="reversing-journals-to-correct-mistakes" />Bakfæra færslubækur til að leiðrétta mistök
+### <a name="reversing-journals-to-correct-mistakes"></a>Bakfæra færslubækur til að leiðrétta mistök
 
 Þegar unnið er með færslubækur sem eru með margar línur og eitthvað fer úrskeiðis er mikilvægt að það sé einfalt að leiðrétta mistökin. Á síðunni **Bókuð færslubók** eru aðgerðir sem kynnu að gagnast.
 

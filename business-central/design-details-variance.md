@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-variance" />Hönnunarupplýsingar Frávik
+# <a name="design-details-variance"></a>Hönnunarupplýsingar Frávik
 Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostnað, eins og lýst er í eftirfarandi formúlu.  
 
  raunkostnaður – staðlaður kostnaður = frávik  
@@ -20,7 +20,7 @@ Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostn
 > [!NOTE]  
 >  Endurmat hefur ekki áhrif á dreifni útreikning, því endurmat einungis breytir birgðavirði.  
 
-## <a name="example" />Dæmi
+## <a name="example"></a>Dæmi
  Eftirfarandi dæmi sýnir hvernig frávik er reiknað út fyrir keyptar vörur. Þetta er byggt á eftirfarandi atburðarás:  
 
 1.  Notandinn kaupir vöru á SGM 90.00 en staðalkostnaður er SGM 100.00. Í samræmi er innkaupafrávikið SGM -10,00.  
@@ -33,7 +33,7 @@ Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostn
 
  ![Útreikningur innkaupafrávika.](media/design_details_inventory_costing_11_purchase_variance.png "Útreikningur innkaupafrávika")  
 
-## <a name="determining-the-standard-cost" />Ákvarða staðalkostnað
+## <a name="determining-the-standard-cost"></a>Ákvarða staðalkostnað
  Staðlaður kostnaður er notaður við útreikning fráviks og upphæð sem á að eignfæra. Þar sem staðalkostnaður er hægt að breyta með tímanum vegna útreikninga með handvirkri uppfærslu, þú þarft að hafa tímapunkt þegar staðalkostnaður er fastur fyrir fráviksútreikning. Þetta mark er þegar birgðaaukning er reikningsfærð. Fyrir framleiddar eða samsettar vörur er punkturinn þegra staðalkostnaður er ákvarðaður þegar kostnaður er jafnaður.  
 
  Eftirfarandi tafla sýnir hvernig mismunandi kostnaðarhlutdeild er reiknuð fyrir framleiddar og samsettar vörur þegar aðgerðin Reikna staðlað kostnaðarverð er notaður.  
@@ -52,7 +52,7 @@ Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostn
 |**Samantekinn sameiginlegur kostnaðar afkastagetu**|Á ekki við|![Jafna 8.](media/design_details_inventory_costing_11_equation_8.png "Jafna 8")|  
 |**Samant. ób. sam. framl.kostn.**|Á ekki við|![Jafna 9.](media/design_details_inventory_costing_11_equation_9.png "Jafna 9")|  
 
-## <a name="see-also" />Sjá einnig
+## <a name="see-also"></a>Sjá einnig
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md) [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  

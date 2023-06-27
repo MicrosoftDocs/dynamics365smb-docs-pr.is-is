@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing" />Kynning á contoso Coffee framleiðslu
+# <a name="introduction-to-contoso-coffee-manufacturing"></a>Kynning á contoso Coffee framleiðslu
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. **Contoso Coffee** forritin fyrir Business Central bæta við sýnigögnum sem hægt er að nota til að komast að því hvernig á að nota framleiðslumöguleikana í Business Central.  
 
@@ -36,7 +36,7 @@ Framleiðsluaðgerðir fyrir allar aðstæður nota staðsetninguna *NORÐUR*.
 > [!IMPORTANT]
 > Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Nánari kröfur er að finna í kaflanum um  [contoso Coffee](#set-up-contoso-coffee-manufacturing-data) .
 
-## <a name="set-up-contoso-coffee-manufacturing-data" />Setja upp contoso Coffee framleiðslugögn
+## <a name="set-up-contoso-coffee-manufacturing-data"></a>Setja upp contoso Coffee framleiðslugögn
 
 Til að nota contoso Coffee framleiðslu sýnigögnin þarf að setja upp tvö forrit í viðkomandi fyrirtæki í [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -67,7 +67,7 @@ Bættu forritunum við autt fyrirtæki í greiddri áskrift eða sem hluti af pr
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
-## <a name="scenarios" />Dæmi
+## <a name="scenarios"></a>Dæmi
 
 Útlitsprófið á contoso Coffee sýnigögnunum styður nú við eftirfarandi Aðstæður til prófs og þjálfunar:
 
@@ -85,7 +85,7 @@ Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
 > [!IMPORTANT]
 > Þessar kynningar krefjast þess að upplifun notanda sé stillt á *Premium* á síðunni **Fyrirtækjaupplýsingar**.
 
-## <a name="see-also" />Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Framleiðsla](../../production-manage-manufacturing.md)  
 [Framleiðsluskýrslur og Greinaskil í Viðskiptamiðinu](../../production-reports.md)  
