@@ -12,7 +12,7 @@ ms.date: 09/29/2022
 ms.author: bholtorf
 ---
 
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum
+# <a name="consolidating-financial-data-from-multiple-companies"></a><a name="consolidating-financial-data-from-multiple-companies"></a>Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum
 
 Sum fyrirtæki nota [!INCLUDE [prod_short](includes/prod_short.md)] í mörgum fyrirtækiseiningum eða lögaðilum. Önnur nota [!INCLUDE [prod_short](includes/prod_short.md)] í dótturfélögum sem þarf að tilkynna um í móðurfyrirtækjum. Í báðum tilvikum nota endurskoðendurnir innbyggð verkfæri til að sameina fjárhagsgögn.  
 
@@ -35,7 +35,7 @@ Samsteypufyrirtækið er sett upp á sama hátt og önnur fyrirtæki eru sett up
 > [!TIP]
 > Að steypa saman fjárhagsgögnum getur einkum haft þýðingu í tengslum við ferla innan samstæða. Nánari upplýsingar er að finna í [Stjórnun samstæðufærslna](intercompany-manage.md).
 
-## <a name="use-the-consolidated-trial-balance-report"></a>Nota skýrsluna staða Prófstöðu samstæðunnar
+## <a name="use-the-consolidated-trial-balance-report"></a><a name="use-the-consolidated-trial-balance-report"></a>Nota skýrsluna staða Prófstöðu samstæðunnar
 
  **Skýrslan Samstæða Reynslustaða**  getur gefið þér yfirlit yfir fjárhagslegt heilsufar fyrirtækisins. Skýrslan sameinar fjárhagsfærslur frá hverju fyrirtæki í nýju fyrirtæki sem stofnað var fyrir samstæðugögnin. Þessi fyrirtæki eru gjarnan nefnd  *Samstæðureikningsskil*. Samstæðufyrirtækið er bara geymir fyrir samstæðugögnin og er ekki með nein búgögn í viðskiptum. Fyrirtækin sem þú setur inn í samstæðufyrirtækið verða að **Viðskiptaeiningum** í skýrslunni. Frekari upplýsingar er að finna í [Setja upp fyrirtækjasamstæðu](finance-consolidated-company-reporting-setup.md). Ef fjórar fyrirtækiseiningar eða færri eru í skýrslunni er einnig hægt að  **nota skýrsluna steypa Prufustöðu (4)** .  
 
@@ -46,11 +46,11 @@ Samsteypufyrirtækið er sett upp á sama hátt og önnur fyrirtæki eru sett up
 * Útilokanir, gerðar í bókhaldi samsteypufyrirtækis. Losunarskýrslur Sýna alltaf fyrir tímabil sem samsvarar reikningsári samstæðufyrirtækis.
 * Samtala fyrir samstæðufyrirtækið eftir útilokanir Sýna annað hvort sem hreyfingar eða staða til dags.
 
-## <a name="consolidate-data"></a>Gögnum steypt saman
+## <a name="consolidate-data"></a><a name="consolidate-data"></a>Gögnum steypt saman
 
 Ef tölurnar sem eru fluttar úr fyrirtækiseiningum yfir í samstæðufyrirtækið eru raunverulegar  *samstæðurnar*. Áður en þú sameinar er ágætt að athuga hvort munur er á grunnupplýsingum í fyrirtækiseiningum og í samstæðufyrirtækinu. Nota má tvær skýrslur til að prófa gagnagrunn og skrá.
 
-### <a name="to-test-the-data-before-you-consolidate"></a>Gagnaprófun fyrir samsteypu
+### <a name="to-test-the-data-before-you-consolidate"></a><a name="to-test-the-data-before-you-consolidate"></a>Gagnaprófun fyrir samsteypu
 
 Prófa gögnin áður en það er flutt í samstæðufyrirtækið. [!INCLUDE[prod_short](includes/prod_short.md)] athugar muninn á upplýsingunum í fyrirtækiseiningunum og samstæðufyrirtækinu. Til dæmis hvort munur er á reikningsnúmerum og víddarkóðum. Áður en hægt er að keyra skýrsluna verður að leiðrétta villur. Hægt er að prófa gagnagrunninn eða ef gögn eru flutt inn úr XML-skrá er hægt að prófa skrána.  
 
@@ -61,7 +61,7 @@ Prófa gögnin áður en það er flutt í samstæðufyrirtækið. [!INCLUDE[pro
     * Til að framkvæma prófun á skrá, skal velja **Prófa skrá** aðgerðina, slá inn nafn skrárinnar sem á að prófa og velja síðan **Prenta**.  
     * Til að framkvæma prófun á gagnagrunni, skal velja **Prófa gagngrunn**.  
 
-### <a name="run-the-consolidation"></a>Keyra samstæðu
+### <a name="run-the-consolidation"></a><a name="run-the-consolidation"></a>Keyra samstæðu
 
 Þegar gögnin hafa verið prófuð er hægt að flytja það í samstæðufyrirtækið.  
 
@@ -71,7 +71,7 @@ Prófa gögnin áður en það er flutt í samstæðufyrirtækið. [!INCLUDE[pro
 4. Í síuhlutanum skal stilla síu fyrir viðeigandi fyrirtækiseiningu eða fyrirtækisheiti.  
 5. Einnig má tímasetja skýrsluna til að keyra á hentugum tíma.  
 
-## <a name="eliminate-repeated-transactions"></a>Taka út endurteknar færslur
+## <a name="eliminate-repeated-transactions"></a><a name="eliminate-repeated-transactions"></a>Taka út endurteknar færslur
 
 Eftir að félög hafa verið steypt þarf að finna og fella niður allar færslur sem eru skráðar oftar en einu sinni á milli fyrirtækja. Að vinna með samstæðulosanir er handvirkt ferli.  
 
@@ -96,7 +96,7 @@ Lína er stofnuð fyrir hvern lykil og fylgir skipulagi bókhaldslykilsins. Lyki
 * Bókunartexti afritaður eftir færslubók.
 * Samtala samstæðufyrirtækis eftir útilokanir ef þær eru bókaðar.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Að flytja út og flytja inn sameinuð gögn milli gagnagrunna
+## <a name="export-and-import-consolidated-data-between-databases"></a><a name="export-and-import-consolidated-data-between-databases"></a>Að flytja út og flytja inn sameinuð gögn milli gagnagrunna
 
 Ef gögn fyrirtækiseiningar eru í öðrum gagnagrunni þarf að flytja gögnin út í skrá áður en hægt er að hafa þau með í samstæðunni. Flytja þarf hvert fyrirtæki fyrir sig. Í þessum tilgangi skal nota runuvinnsluna **Útflutningur samstæðu**.  
 
@@ -112,7 +112,7 @@ Ef gögn fyrirtækiseiningar eru í öðrum gagnagrunni þarf að flytja gögnin
 3. Víddargildið sem er flutt út fyrir færsluna verður víddargildið í fyrirtækjasamstæðu sem tilgreint er í  **reitnum kóti**  samstæðu fyrir víddargildið. Ef víddargildið fyrir samstæðufyrirtæki hefur ekki verið fært inn í  **reitinn samstæður**  fyrir víddargildið verður víddargildið sjálft flutt út í línuna.  
 4. Auk þess innihalda XML-skrárnar gengi gjaldmiðils innan samsteyputímabilsins. Þessi gengi eru innifalin í aðskildum hluta í upphafi skrárinnar.  
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Setja upp sameiningu fyrirtækis](finance-consolidated-company-reporting-setup.md)  
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  

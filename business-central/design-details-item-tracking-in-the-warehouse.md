@@ -10,7 +10,7 @@ ms.search.keywords: 'design, item, tracking, serial number, lot number, outbound
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-in-the-warehouse"></a>Hönnunarupplýsingar: vörurakning í vöruhúsi
+# <a name="design-details-item-tracking-in-the-warehouse"></a><a name="design-details-item-tracking-in-the-warehouse"></a>Hönnunarupplýsingar: vörurakning í vöruhúsi
 Meðhöndlun á raðnúmeri eða lotunúmeri er aðallega vöruhúsaverkefni, og því eru öll vöruhúsaskjöl á innleið og útleið með staðlaða virkni fyrir úthlutun og val á vörurakningarnúmerum.  
 
 Hins vegar, vegna þess að frátekningarkerfið er byggt á færslum í birgðahöfuðbók, eru skjöl um færslur í vöruhúsi sem skrá aðeins vöruhúsafærslur ekki studd að fullu. Vegna þess að frátekningar og vörurakningarnúmer geta aðeins verið meðhöndluð á staðsetningastigi, ekki á hólfa- og svæðisstigi er ekki hægt að opna síðuna **Vörurakningarlínur** úr virkniskjölum vöruhúss. Sama á við um síðuna **Frátekning**.  
@@ -19,7 +19,7 @@ Eftir að rað- eða lotunúmer hefur verið bætt við vöru í vöruhúsastað
 
 Hins vegar tekur frátekningarkerfið tillit til vöruhúsaaðgerða þegar það reiknar út framboð. Til dæmis vörur sem úthlutað er til tínslu eða skráðar sem tíndar er ekki hægt að taka frá. Nánari upplýsingar eru í [Hönnunarupplýsingar: staða vöruhúss](design-details-availability-in-the-warehouse.md).
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
 [Hönnunarupplýsingar: vörurakning](design-details-item-tracking.md)  
 [Hönnunarupplýsingar: Sameining með birgðum](design-details-integration-with-inventory.md)  
 [Hönnunarupplýsingar: staða vöruhúss](design-details-availability-in-the-warehouse.md)  

@@ -11,11 +11,11 @@ ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
 ---
-# <a name="transfer-bank-funds"></a>Flytja bankainnstæður
+# <a name="transfer-bank-funds"></a><a name="transfer-bank-funds"></a>Flytja bankainnstæður
 
 Stundum þarf að millifæra upphæð af einum bankareikningi í [!INCLUDE[prod_short](includes/prod_short.md)] yfir á annan. Til að gera þetta verður að bóka færsluna á síðunni **Færslubók**. Verkið er misjafnt eftir því hvort bankareikningarnir nota sama gjaldmiðil eða mismunandi gjaldmiðla.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Millifærslur af einum bankareikningi á annan með sama gjaldmiðilskóða
+## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a><a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Millifærslur af einum bankareikningi á annan með sama gjaldmiðilskóða
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubók** og velja síðan viðkomandi tengil.
 2. Reitirnir **Bókunardagsetning** og **Númer fylgiskjals** eru fylltir út í færslubókarlínu.
@@ -28,7 +28,7 @@ Stundum þarf að millifæra upphæð af einum bankareikningi í [!INCLUDE[prod_
 7. Í reitnum **Mótreikningur númer** skal velja bankareikninginn sem flytja á bankainnistæðuna til.
 8. Bóka skal færslubókina.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Færslur milli bankareikninga bókaðar með gjaldmiðilskótum
+## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a><a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Færslur milli bankareikninga bókaðar með gjaldmiðilskótum
 
 Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, verður að bóka tvær færslubókarlínur.
 
@@ -65,7 +65,7 @@ Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, ve
     > Upphæð með engu merki er debet og upphæð með mínusmerki er kreditupphæð.
 10. Bóka skal færslubókina.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  

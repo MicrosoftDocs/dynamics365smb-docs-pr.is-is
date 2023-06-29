@@ -17,7 +17,7 @@ ms.contentlocale: is-IS
 ms.lasthandoff: 04/29/2022
 ms.locfileid: "8655125"
 ---
-# <a name="visit-our-video-library"></a><a name="visit-our-video-library"></a>Skoðaðu myndbandasafnið okkar
+# <a name="visit-our-video-library"></a><a name="visit-our-video-library"></a><a name="visit-our-video-library"></a>Skoðaðu myndbandasafnið okkar
 
 Þú fannst fylgigögnin okkar. En sumir vilja frekar horfa á efni heldur en að lesa það. Í því skyni erum við að framleiða stutt, auðskiljanleg myndbönd. Flest myndbönd bætast við notendaþjónustu okkar og sum er hægt að horfa á út af fyrir sig.  
 
@@ -30,7 +30,7 @@ Einnig er hægt að skoða fræðslumyndböndin okkar ásamt fullt af öðru efn
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Dynamics 365-rás á YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

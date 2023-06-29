@@ -11,7 +11,7 @@ ms.search.form: '39, 251'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Bóka færslu beint í Fjárhag
+# <a name="post-transactions-directly-to-the-general-ledger"></a><a name="post-transactions-directly-to-the-general-ledger"></a>Bóka færslu beint í Fjárhag
 
 Nota færslubækur til bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og starfsmannareikninga.  
 
@@ -21,7 +21,7 @@ Færslubækur bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikn
 
 Ólíkt því sem gerist þegar færslur eru bókaðar með fylgiskjölum, sem krefst kreditreikningsferlis, getur þú réttilega bakfært færslur sem eru bókaðar með fjárhagnum. Frekari upplýsingar er að finna í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Að bóka færslu beint í fjárhagsreikning
+## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a><a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Að bóka færslu beint í fjárhagsreikning
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubækur** og velja síðan viðkomandi tengil.
 2. Viðeigandi færslubók keyrsla er opnaður. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
@@ -35,7 +35,7 @@ Færslubækur bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikn
     > Ef þú vilt færa inn fleiri færslulínur fyrir ofan eina mótreikningslínu, til dæmis fyrir einn bankareikning, skaltu velja gátreitinn **Leggja til afstemmingarupphæð** á línunni fyrir þína keyrslu á síðunni **færslubókakeyrslur**. Þá verður reiturinn **Upphæð** á mótreikningslínunni sjálfkrafa fylltur út með gildinu sem er nauðsynlegt til að jafna skjalið.
 5. Veljið **Bóka** aðgerðina til að skrá færslurnar á tilteknu fjárhagsreikningana.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)  

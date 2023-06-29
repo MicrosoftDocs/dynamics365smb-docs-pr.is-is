@@ -11,7 +11,7 @@ ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="suggest-vendor-payments"></a>Greiðslutillögur til lánardr.
+# <a name="suggest-vendor-payments"></a><a name="suggest-vendor-payments"></a>Greiðslutillögur til lánardr.
 
 Á síðunni **Greiðslubók** geturðu notað **Greiðslutillögur til lánardr.** runuvinnsluna til að stinga upp á greiðslulínur. Línur fyrir greiðslur sem falla brátt á gjalddaga, eða greiðslur þar sem greiðsluafsláttur er í boði, eru ráðlagðar á grunni stillinganna þinna.
 
@@ -26,14 +26,14 @@ Til að njóta greiðsluábendinga til fulls verður þú fyrst að forgangsrað
     * Lánardrottnafærslur sem eru fallnar á tíma sem eru ekki forgangsraðar.  
     * Opnaðu söluaðili færslur sem eiga rétt á greiðslukortum, raðað eftir seljanda númeri.  
 
-## <a name="to-use-the-suggest-vendor-payments-function"></a>nota aðgerðina Greiðslutillögur til lánardrottna
+## <a name="to-use-the-suggest-vendor-payments-function"></a><a name="to-use-the-suggest-vendor-payments-function"></a>nota aðgerðina Greiðslutillögur til lánardrottna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðslubækur** og velja síðan viðkomandi tengil.  
 2. Opna skal viðeigandi færslubók, og síðan velja **Greiðslutillögur til lánardrottna** aðgerðina.  
 3. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Velja hnappinn **Í lagi**.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Setja inn skiladag sem bókunardagsetningu á greiðslubókarlínum
+## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a><a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Setja inn skiladag sem bókunardagsetningu á greiðslubókarlínum
 
 Þegar þú notar runuvinnsluna **Greiðslutillögur til lánardrottna** til að stofna greiðslulínur fyrir lánardrottna þína getur þú fyllt út tvo sérstaka reiti til að gæta þess að stofnuðu línurnar noti gjalddaga til að reikna út bókunardagsetningu. Þessir reitir eru **Reikna Bókunardagsetning úr Gjalddaga jöfnunar** og **frávik gjalddaga jöfnunar**.  
 
@@ -47,9 +47,9 @@ Einnig er hægt að myndað sjálfkrafa greiðslulínur með gjalddaga til að r
 > [!NOTE]  
 >   Ef innkaupareikningur er gjaldfallinn, er bókunardagsetningin stillt á vinnudag og leturgerð á línunni verður rautt.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Framkvæma greiðslur](payables-make-payments.md)  

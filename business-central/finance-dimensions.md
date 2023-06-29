@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'analysis, history, track, business intelligence'
 ms.search.form: '408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253'
 ---
-# <a name="work-with-dimensions"></a>Vinna með víddir
+# <a name="work-with-dimensions"></a><a name="work-with-dimensions"></a>Vinna með víddir
 
 Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær í skjölum, t.d. sölupöntunum. Víddir geta til dæmis gefið í skyn verkið eða deildina sem færsla koma frá.  
 
@@ -24,7 +24,7 @@ Annað dæmi er að setja upp vídd sem kallast *Deild* og síða nota þá víd
 * Hver seldi það.
 * Hvaða viðskiptavinur keypti hann.
 
-## <a name="analyzing-by-dimensions"></a>Greining eftir víddum
+## <a name="analyzing-by-dimensions"></a><a name="analyzing-by-dimensions"></a>Greining eftir víddum
 
 Víddir gegna mikilvægu hlutverki í viðskiptagreind, eins og t.d. þegar greiningaryfirlit eru skilgreind. Frekari upplýsingar eru á [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
 
@@ -34,13 +34,13 @@ Víddir gegna mikilvægu hlutverki í viðskiptagreind, eins og t.d. þegar grei
 > [!NOTE]
 > Greiningaryfirlit nota oft gögn úr víddum. Ef kemur í ljós að röng vídd hafi verið notuð í bókuðum fjárhagsfærslum er hægt að leiðrétta víddargildin og uppfæra greiningaryfirlitin. Það mun hjálpa til við að halda fjárhagsskýrslum og greiningum nákvæmum. Frekari upplýsingar er að finna í [Úrræðaleit og víddarleiðréttingar](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="dimension-sets"></a>Víddasamstæður
+## <a name="dimension-sets"></a><a name="dimension-sets"></a>Víddasamstæður
 
 Víddasamstæða er sérstök samsetning víddargilda. Hún er vistuð sem víddasamstæðufærslur í gagnagrunninum. Hver víddasamstæðufærsla stendur fyrir eitt víddargildi. Auk þess er hver víddasamstæða og víddasamstæðufærsla í henni skilgreind eftir almennu auðkenni víddasamstæðu.  
 
 Þegar þú býrð til dagbókarlínu, skjalhaus eða skjalastiku, getur þú tilgreint samsetningu af víddarmörkum. Í stað þess að geyma hvert víddargildi í gagnagrunninum er kenni víddasamstæðu tengt færslubókarlínu, haus skjals eða línu skjals til að tilgreina víddasamstæðuna.  
 
-## <a name="setting-up-dimensions"></a>Uppsetning vídda
+## <a name="setting-up-dimensions"></a><a name="setting-up-dimensions"></a>Uppsetning vídda
 
 Hægt er að skilgreina víddir og víddargildi til að flokka færslubækur og skjöl, t.d. sölupantanir og innkaupapantanir. Þú setur upp víddir á síðunni **Víddir**, þar sem búin er til ein lína fyrir hverja vídd, svo sem *Verkefni*, *Deild*, *Svæði*, og *Sölumaður*.
 
@@ -54,7 +54,7 @@ Hægt er að skilgreina víddir og víddargildi til að flokka færslubækur og 
 > [!NOTE]
 > Eftir að þú hefur notað nýja vídd í hvaða færslu sem er, svo sem línu eða nýja færslu, getur þú ekki eytt víddinni, jafnvel þótt þú birtir ekki færsluna. Það er vegna þess að [!INCLUDE[prod_short](includes/prod_short.md)] það býr strax til víddasett fyrir línuna eða færsluna. Frekari upplýsingar er að finna í hlutanum [Víddarsamstæður](finance-dimensions.md#dimension-sets).
 
-### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Til að setja upp sjálfgefnar víddir fyrir viðskiptavini, lánardrottna, og aðra reikninga
+### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a><a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Til að setja upp sjálfgefnar víddir fyrir viðskiptavini, lánardrottna, og aðra reikninga
 
 Hægt er að setja upp sjálfgefna vídd fyrir tiltekinn stakan reikning. Víddin er afrituð í færslubókina eða skjalið þegar reikningsnúmerið er fært inn í línu, en hægt er að eyða eða breyta kóðanum í línunni ef það á við. Einnig er hægt að krefjast víddar til að bóka færslu á tiltekna reikningstegund. > 
 
@@ -91,7 +91,7 @@ Hægt er að setja upp sjálfgefna vídd fyrir tiltekinn stakan reikning. Víddi
 > [!NOTE]  
 > Ef tilgreina verður aðra vídd fyrir reikning en sjálfgefnu víddina sem úthlutuð er á reikningstegundina þarf að setja upp nýja sjálfgefna vídd fyrir reikninginn. Sjálfgefna víddin fyrir þennan reikning kemur þá í stað sjálfgefnu víddarinnar fyrir tegund reiknings.  
 
-### <a name="to-set-up-default-dimension-priorities"></a>Að setja upp sjálfgefinn víddarforgang
+### <a name="to-set-up-default-dimension-priorities"></a><a name="to-set-up-default-dimension-priorities"></a>Að setja upp sjálfgefinn víddarforgang
 
 Mismunandi tegundir reikninga, eins og viðskiptamannareikningur og vörureikningur, geta verið með mismunandi sjálfgefnar víddir. Þar af leiðandi gæti færsla verið með meira en eina sjálfgefna vídd sem stungið er upp á. Til að forðast slíka árekstra er hægt að láta forgangsreglur gilda í hverju tilviki.
 
@@ -103,7 +103,7 @@ Mismunandi tegundir reikninga, eins og viðskiptamannareikningur og vörureiknin
 > [!IMPORTANT]  
 > Ef settar eru upp tvær töflur með sama forgangi fyrir sama upprunakóða velur [!INCLUDE[prod_short](includes/prod_short.md)] alltaf töfluna með lægsta töflukenninu.  
 
-### <a name="to-set-up-dimension-combinations"></a>Að setja upp samsettar víddir
+### <a name="to-set-up-dimension-combinations"></a><a name="to-set-up-dimension-combinations"></a>Að setja upp samsettar víddir
 
 Til að forðast að bóka færslur með mótsagnarkenndum eða óviðkomandi víddum er hægt að loka eða takmarka tilteknar samsetningar tveggja vídda. Útilokuð víddarsamsetning þýðir að ekki er hægt að bóka báðar víddir í sömu færsluna sama hver víddargildin eru. Á hinn bóginn þýðir takmörkuð víddarsamsetning að hægt að bóka báðar víddirnar í sömu færsluna en aðeins fyrir ákveðnar samsetningar víddargilda.
 
@@ -126,7 +126,7 @@ Til að forðast að bóka færslur með mótsagnarkenndum eða óviðkomandi v�
 >
 > Til að sýna nafn víddarinnar fremur en kótann er hægt að haka við reitinn **Sýna heiti dálks** .
 
-### <a name="to-set-up-global-and-shortcut-dimensions"></a>Að setja upp altækar víddir og flýtivísanir í víddir
+### <a name="to-set-up-global-and-shortcut-dimensions"></a><a name="to-set-up-global-and-shortcut-dimensions"></a>Að setja upp altækar víddir og flýtivísanir í víddir
 
 Hægt er að nota altækar víddir og flýtivísanir í víddir sem síur í [!INCLUDE[prod_short](includes/prod_short.md)], þ.m.t. í skýrslum, runuvinnslum, fjárhagsfærslusíðum og greiningaryfirlitum. Alltaf er hægt að setja altækar víddir og flýtivíddir beint inn án þess að opna fyrst síðuna **Víddir**. Í færslubókar- og skjalalínum er hægt að velja altækar víddir og flýtivísanir í víddir í reit í línunni. Hægt er að setja upp tvær altækar víddir og átta flýtivísanir í víddir. Veldu víddirnar sem þú notar mest.
 
@@ -141,7 +141,7 @@ Hægt er að nota altækar víddir og flýtivísanir í víddir sem síur í [!I
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags**, velja síðan viðkomandi tengil.
 2. Í flýtiflipanum **Víddir** skal fylla út reitina. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="to-change-global-dimensions"></a>Að breyta altækum víddum
+#### <a name="to-change-global-dimensions"></a><a name="to-change-global-dimensions"></a>Að breyta altækum víddum
 
 Þegar altækri vídd eða flýtivídd er breytt eru allar færslur sem bókaðar eru með þeirri vídd uppfærðar. Þar sem þetta ferli kann að vera tímafrekt og getur haft áhrif á afköst eru tvær mismunandi stillingar til staðar til að aðlaga ferlið að stærð gagnagrunnsins.  
 
@@ -163,7 +163,7 @@ Hægt er að nota altækar víddir og flýtivísanir í víddir sem síur í [!I
 6. Skráðu þig úr [!INCLUDE[prod_short](includes/prod_short.md)] og inn aftur.
 7. Veldu aðgerðina **Byrja** til að hefja hliðstæða vinnslu víddarbreytinganna.
 
-### <a name="example-of-dimension-setup"></a>Dæmi um uppsetningu víddar
+### <a name="example-of-dimension-setup"></a><a name="example-of-dimension-setup"></a>Dæmi um uppsetningu víddar
 
 Segjum að fyrirtækið vilji rekja færslur út frá skipulagseiningum og landfræðilegum staðsetningum. Til þess að gera það er hægt að setja upp tvær víddir á síðunni **Víddir**:
 
@@ -204,7 +204,7 @@ Fyrir **DEILD** skal bæta við eftirfarandi víddargildum:
 
 Með þessari uppsetningu geturðu bætt við þínum tveimur víddum sem tveimur altækum víddum á síðunni **Fjárhagsgrunnur**. Þetta þýðir að hægt er að nota SVÆÐI og DEILD sem síur fyrir fjárhagsfærslur og einnig á allar skýrslur. Báðar altæku víddirnar eru líka sjálfkrafa tiltækar til notkunar á færslulínum og skjalahausum sem flýtivísanir í víddir.
 
-## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Fá yfirlit um víddir sem eru notaðar oftar en einu sinni
+## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a><a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Fá yfirlit um víddir sem eru notaðar oftar en einu sinni
 
 Síðan **Sjálfgefnar víddir á margar línur** tilgreinir hvernig flokkur reikninga notar víddir og víddargildi. Hægt er að setja þetta upp með því að auðkenna marga reikninga og tilgreina síðan sjálfgefnar víddir og víddargildi fyrir þá. Eftir það leggur forritið til þessar víddir og víddargildi í hvert skipti sem einn af þessum reikningum er notaður, eins og í færslubókarlínu. Það auðveldar bókun fyrir notandann þar sem sjálfkrafa er fyllt inn í víddarreiti. Athugaðu hins vegar að hægt að breyta víddargildunum sem stungið er upp á, t.d. færslubókarlínu.
 
@@ -216,7 +216,7 @@ Síðan **Sjálfgefnar víddir-á margar línur** inniheldur eftirfarandi reiti:
 |**Gildiskóti víddar**|Sýnir annað hvort eitt víddargildi eða hugtakið (Misræmi). Ef víddargildi er í reitnum hafa allir upplýstir reitir sama sjálfgefna víddargildið í vídd. Ef hugtakið (misræmi) er sýnt í reitnum, þá eru ekki allir auðkenndir reikningar með sama sjálfgefna víddargildið fyrir vídd. Þegar reiturinn **Víddarkóði** er valinn sérðu lista yfir öll tiltæk víddargildi fyrir vídd. Ef valið er víddargildi verður það skilgreint sem sjálfgefið víddargildi fyrir alla auðkennda reikninga.|
 |**Virðisbókun**|Sýnir annað hvort ein virðisbókunarregla eða hugtakið (Misræmi). Ef virðisbókunarregla er í reitnum hafa allir auðkenndir reitir sömu sjálfgefnu virðisbókunarregluna í víddargildi. Ef hugtakið (misræmi) er sýnt í reitnum, þá eru ekki allir auðkenndir reikningar með sömu reglu virðisbókunar fyrir víddargildi. Þegar reiturinn **Virðisbókun** er valinn birtist listi yfir reglur virðisbókunar fyrir vídd. Ef valin er virðisbókunarregla er hún notuð á alla auðkennda reikninga.|
 
-## <a name="use-dimensions"></a>Nota víddir
+## <a name="use-dimensions"></a><a name="use-dimensions"></a>Nota víddir
 
 Í skjalinu eins og sölupöntun, er hægt að bæta við víddaupplýsingum fyrir bæði einstaka fylgiskjalslínu og skjalið sjálft. Þannig að á síðunni **Sölupöntun** geturðu slegið inn víddargildi fyrir fyrstu tvær flýtivíddirnar á einstökum sölulínum, síðan bætt við meiri víddarupplýsingum ef þú velur hnappinn **Víddir**.  
 
@@ -224,7 +224,7 @@ Ef þú vinnur í dagbók í staðinn geturðu bætt við víddargögn við fær
 
 Einnig er hægt að setja upp sjálfgefnar víddir fyrir reikninga eða reikningstegundir þannig að víddir og víddargildi eru fyllt út sjálfkrafa.
 
-### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Að skoða altækar víddir á fjárhagsfærslusíðum
+### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a><a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Að skoða altækar víddir á fjárhagsfærslusíðum
 
 Altækar víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sjá altæku víddirnar fyrir fyrirtæki skal opna síðuna **Uppsetning fjárhags**.
 
@@ -238,9 +238,9 @@ Altækar víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sj�
 > [!NOTE]  
 > Síðan **Fjárhagsfærsluvíddir** sýnir víddirnar, eina fjárhagsfærslu í einu. Þegar þú flettir í gegnum fjárhagsfærslurnar sérðu efni síðunnar **Fjárhagsfærsluvíddir** breytast í samræmi við það.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/dimensions-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Viðskiptaupplýsingar](bi.md)  
 [Fjármál](finance.md)  

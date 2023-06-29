@@ -11,7 +11,7 @@ ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="managing-contacts"></a>Vinna með tengiliði
+# <a name="managing-contacts"></a><a name="managing-contacts"></a>Vinna með tengiliði
 
 Starfsmenn í fyrirtækinu þínu komast reglulega í kynni við væntanleg viðskiptatengsl sem geta þróast yfir í formleg samskipti. Allir slíkir ytri tengiliðir og ítarlegar upplýsingar þeirra ættu að vera skráðar í kerfið svo að samskiptin verði árangursríkari og svo auðvelt sé að breyta þeim í formleg samskipti við viðskiptavin, lánardrottin eða banka.
 
@@ -26,7 +26,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn.|[Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)|
 |Leystu misskilning þegar tvær eða fleiri færslur eru fyrir sama tengilið.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  

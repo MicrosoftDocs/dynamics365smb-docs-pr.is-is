@@ -9,11 +9,11 @@ ms.date: 03/09/2023
 ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ---
-# <a name="set-up-warehouse-employees"></a>Setja upp vöruhúsastarfsmenn
+# <a name="set-up-warehouse-employees"></a><a name="set-up-warehouse-employees"></a>Setja upp vöruhúsastarfsmenn
 
 Hver notandi sem framkvæmir vöruhúsaaðgerðir verður að vera settur upp sem starfsmaður í vöruhúsi og tengdur sjálfgefnum stað. [!INCLUDE [prod_short](includes/prod_short.md)] afmarkar verkþætti vöruhúsaaðgerða til sjálfgefinnar staðsetningar starfsmannsins. Þeir geta aðeins framkvæmt vöruhúsaaðgerðir á staðnum. Einnig er hægt að úthluta notanda á aðra staði. Þeir geta opnað en ekki framkvæmt aðgerðir á þeim stöðum.
 
-## <a name="to-set-up-warehouse-employees"></a>Setja upp vöruhúsastarfsmenn
+## <a name="to-set-up-warehouse-employees"></a><a name="to-set-up-warehouse-employees"></a>Setja upp vöruhúsastarfsmenn
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -22,9 +22,9 @@ Hver notandi sem framkvæmir vöruhúsaaðgerðir verður að vera settur upp se
 5. Kveikja skal á  **sjálfgefinni**  víxla til að tilgreina að þetta sé eina Staðsetningin þar sem starfsmaðurinn getur framkvæmt vöruhúsaaðgerðir.  
 6. Endurtakið þessi skref til að úthluta öðrum starfsmönnum birgðageymslum eða úthluta öðrum stöðum tiltækum starfsmönnum vöruhúss.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
 
-## <a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Yfirlit](design-details-warehouse-management.md)
 [vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  

@@ -8,21 +8,21 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="purchase-reports-and-analytics-in-business-central"></a>Innkaupaskýrslur og greiningar í Business Central
+# <a name="purchase-reports-and-analytics-in-business-central"></a><a name="purchase-reports-and-analytics-in-business-central"></a>Innkaupaskýrslur og greiningar í Business Central
 
 Innkaupaskýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] gera starfsmönnum í framleiðslu og rekstri kleift að fá innsýn í og tölfræði um núverandi og fyrri innkaupagerðir.  
 
-## <a name="reports"></a>Skýrslur
+## <a name="reports"></a><a name="reports"></a>Skýrslur
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Verkefni
+## <a name="tasks"></a><a name="tasks"></a>Verkefni
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
 * [Skoða tiltækileika vöru](inventory-how-availability-overview.md)  
 
 
-## <a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 [Innkaup sett upp](purchasing-setup-purchasing.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 

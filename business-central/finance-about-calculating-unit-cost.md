@@ -7,13 +7,13 @@ ms.topic: article
 ms.date: 03/06/2022
 ms.author: a-reishima
 ---
-# <a name="about-unit-cost-calculation"></a>Um útreikning einingarkostnaður
+# <a name="about-unit-cost-calculation"></a><a name="about-unit-cost-calculation"></a>Um útreikning einingarkostnaður
 
 Hvert atriði er með einingarkostnað sem er reiknaður út samkvæmt kostnaðarútreikningi fyrirtækisins og öðrum þáttum. Sem regla, með kostnaðarútreikninginn *Staðlaður*, er gildið í reitnum **Einingarkostnaður** byggt á staðalkostnaði fyrir vöruna. Fyrir allar aðra kostnaðarútreikninga (*FIFO*, *LIFO*, *Tiltekinn* og *Meðaltal*) er einingarkostnaður reiknaður út samkvæmt meðalkostnaðarverði yfir tímabil.  
 
 Frekari upplýsingar eru í [Stjórnun birgðakostnaðar](finance-manage-inventory-costs.md).  
 
-## <a name="when-is-the-unit-cost-field-updated"></a>Hvenær er reitur einingarkostnaðar uppfærður?
+## <a name="when-is-the-unit-cost-field-updated"></a><a name="when-is-the-unit-cost-field-updated"></a>Hvenær er reitur einingarkostnaðar uppfærður?
 
 Valinn kostnaðarútreikningur hefur áhrif á hvenær reiturinn **Einingarkostnaður** er uppfærður.
 
@@ -33,35 +33,35 @@ Ef eitt af þessum skilyrðum á við, þá er reiturinn **Einingarkostnaður** 
 
 Í reitnum **Einingarkostnaður** í birgðaspjaldinu er hægt að kafa niður til að skoða færslusöguna um hvernig meðalkostnaður eininga á lager er reiknaður út í glugganum **Yfirlit yfir útreikning á meðalkostnaði**.
 
-## <a name="unit-cost-calculation-for-purchases"></a>Útreikningur kostnaðarverðs fyrir innkaup
+## <a name="unit-cost-calculation-for-purchases"></a><a name="unit-cost-calculation-for-purchases"></a>Útreikningur kostnaðarverðs fyrir innkaup
 
 Þegar vörur eru keyptar afritar kerfið alltaf gildið í reitnum **Síðasta innk.verð** á birgðaspjaldinu yfir í reitinn **Innk.verð** í innkaupalínu eða í línuna **Einingarkostnaður** í birgðabókarlínu.
 
 Það sem valið er í reitnum **Aðferð kostnaðarútreiknings** hefur áhrif á hvernig [!INCLUDE[prod_short](includes/prod_short.md)] reiknar innihald reitarins **Einingarkostnaður** á línunum.
 
-### <a name="costing-method-fifo-lifo-specific-or-average"></a>Aðferð kostn.útreiknings FIFO, LIFO, Innslegið eða Meðal
+### <a name="costing-method-fifo-lifo-specific-or-average"></a><a name="costing-method-fifo-lifo-specific-or-average"></a>Aðferð kostn.útreiknings FIFO, LIFO, Innslegið eða Meðal
 
 [!INCLUDE[prod_short](includes/prod_short.md)] reiknar út í reitinn **Einingarkostnaður SGM** í innkaupalínunni eða í reitinn **Einingarkostnaður** í birgðabókarlínunni eftir þessari reiknireglu:
 
 *Kostn.verð (SGM) = (Beinn kostnaður – (Afsláttarupphæð / Magn)) x (1 + “Óbein kostnaðar % / 100) + Hlutf. sameiginl. Kostn*
 
-### <a name="costing-method-standard"></a>Stöðluð aðferð kostn.útreiknings
+### <a name="costing-method-standard"></a><a name="costing-method-standard"></a>Stöðluð aðferð kostn.útreiknings
 
 Reiturinn **Kostn.verð (ISK)** á innkaupalínunni eða reiturinn **Kostnaðarverð** hefur verið fylltur út í birgðabókarlínunni með gildinu í reitnum **Kostnaðarverð** á birgðaspjaldinu. Þegar aðferð kostnaðarútreiknings er *Stöðluð* byggist þetta gildi alltaf á stöðluðum kostnaði.
 
 Þegar innkaup eru bókuð þá notar [!INCLUDE[prod_short](includes/prod_short.md)] einingarkostnaðinn úr innkaupalínunni eða færslubókarlínunni yfir í reikningsfærslu innkaupavörunnar. Þú getur séð þetta á færslulistanum fyrir vöruna.
 
-### <a name="all-costing-methods"></a>Allar aðferðir kostn.útreiknings
+### <a name="all-costing-methods"></a><a name="all-costing-methods"></a>Allar aðferðir kostn.útreiknings
 
 Kostnaðarverðið í upprunaskjalslínunni er notað til að reikna út efni reitsins **Kostnaðarupphæð raunveruleg** eða, ef við á reitinn **Kostnaðarupphæð (væntanleg)** sem tengist þessari birgðafærslu, sama hvaða kostnaðaraðferð er notuð á vöruna.
 
-## <a name="unit-cost-calculation-for-sales"></a>Útreikningur kostnaðarverðs fyrir sölu
+## <a name="unit-cost-calculation-for-sales"></a><a name="unit-cost-calculation-for-sales"></a>Útreikningur kostnaðarverðs fyrir sölu
 
 Þegar vörur eru seldar er kostnaðarverðið afritað úr reitnum **Einingarkostnaður** á birgðaspjaldinu yfir í sölulínu eða birgðabókarlínu.
 
 Við bókun er kostnaðarverðið afritað yfir á birgðafærslu sölureiknings og má skoða það á færslulista vörunnar. [!INCLUDE[prod_short](includes/prod_short.md)] notar kostnaðarverðið í upprunaskjalslínunni til að reikna út efni reitsins **Kostnaðarupphæð (raunveruleg)** eða, ef við á **Kostnaðarupphæð (væntanleg)** reitinn í gildisfærslunni sem tengist þessar vörufærslu.
 
-## <a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Skráning á nýjum vörum](inventory-how-register-new-items.md)  

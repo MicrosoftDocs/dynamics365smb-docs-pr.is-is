@@ -11,7 +11,7 @@ ms.search.form: '1500,'
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="delete-approval-workflows"></a>Eyða samþykktarverkflæðum
+# <a name="delete-approval-workflows"></a><a name="delete-approval-workflows"></a>Eyða samþykktarverkflæðum
 
 Óhætt er að eyða verkflæði ef ljóst er að það sé ekki lengur í notkun. Öll tilvik verkflæðisskrefa sem skilgreind eru í verkflæðinu verða að vera með stöðuna **Lokið**.
 
@@ -20,7 +20,7 @@ ms.author: edupont
 
 Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti í verkflæðislínum úr föstum listum yfir gildi tilvika og svara sem standa fyrir verkflæðissviðsmyndir sem kóði forritsins styður. Frekari upplýsingar má finna á [Stofna verkflæði samþykktars](across-how-to-create-workflows.md).
 
-## <a name="delete-a-workflow"></a>Eyða verkflæði
+## <a name="delete-a-workflow"></a><a name="delete-a-workflow"></a>Eyða verkflæði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.
 2. Veldu verkflæðið sem á að eyða.
@@ -31,7 +31,7 @@ ms.author: edupont
 > [!NOTE]
 > Ef á að eyða verkflæði þarf að gera það óvirkt. Til að gera verkflæði óvirkt skal opna síðuna **Verkflæði**, síðan slökkva á víxlhnappinum **Virkjað**.
 
-## <a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Stofna verkflæði samþykktar](across-how-to-create-workflows.md)  
 [Virkja samþykktarverkflæði](across-how-to-enable-workflows.md)  

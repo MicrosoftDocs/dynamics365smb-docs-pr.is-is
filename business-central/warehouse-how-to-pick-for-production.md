@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Tínsla fyrir framleiðslu, samsetningu eða verk í einfaldri vöruhúsagrunnstillingu
+# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a><a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Tínsla fyrir framleiðslu, samsetningu eða verk í einfaldri vöruhúsagrunnstillingu
 
 Val á íhlutum fyrir framleiðslu, vinnslur eða samsetningarpantanir fer eftir því hvernig vöruhúsið er sett upp sem Birgðageymsla. Frekari upplýsingar um  [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
@@ -21,13 +21,13 @@ Nota eftirfarandi skjöl fyrir innri aðgerðir:
 * Birgðatínsla
 * Birgðahreyfing
 
-## <a name="inventory-picks"></a>Birgðatínslur
+## <a name="inventory-picks"></a><a name="inventory-picks"></a>Birgðatínslur
 
 * Þegar Birgðatínsla er skráð fyrir innri aðgerð, til dæmis framleiðsla eða vinnsla, bókast notkun Tíndu íhlutanna samtímis.
 *  **Hólfskylda**  skipta á  **síðunni Birgðageymsluspjald**  er valfrjáls.
 * Þegar Birgðatínsla er  **notuð skilgreinir reiturinn Hólfakóti**  í framleiðslupöntunaríhlutalínu eða verkáætlunarlínur reitinn  *taka*  hólf. Íhlutir eru lækkaðir í taka hólfið þegar notkun er bókuð.
 
-## <a name="inventory-movements"></a>Birgðahreyfingar
+## <a name="inventory-movements"></a><a name="inventory-movements"></a>Birgðahreyfingar
 
 * Birgðahreyfingar krefjast þess að kveikt sé á  **hólfi skylda**  að skipta á  **birgðageymsluspjaldinu**  fyrir birgðageymsluna.
 * Birgðahreyfingar vinna aðeins með íhlutalínur framleiðslupöntunar og pöntunarlínur samsetningar.
@@ -38,13 +38,13 @@ Nota eftirfarandi skjöl fyrir innri aðgerðir:
 >[!NOTE]
 > Jafnvel þótt slökkt sé á tínslu til að taka til  **skipta er hægt að**  nota skjal vöruhúsatínslu  **.**  Tínsluskjöl vöruhúss eru svipuð  **og birgðatínsluskjöl** . Þetta er gagnlegt ef nota á tínslur í aðgerðum og sendingar í vöruhúsi á útleið.
 
-### <a name="production"></a>Framleiðsla
+### <a name="production"></a><a name="production"></a>Framleiðsla
 
 Nota  **birgðatínsluskjöl**  fyrir tiltektarframleiðsluíhluti í flæði til framleiðslu.
 
 Fyrir birgðageymslu sem notar hólf er hægt að lengja flæðið í framleiðslu með því að nota  **Birgðahreyfsluskjöl** . Birgðahreyfingar henta sérstaklega vel fyrir hlutaflúrin. Til að fræðast nánar um hvernig þáttanotkun er frátengd frá til-framleiðslu eða opnum Vinnusalarhólfum er farið  [í Birgðaframleiðsluíhluti í Grunnvöruvöruhúsi samskipa](#flushing-production-components-in-a-basic-warehouse-configuration).
 
-### <a name="assembly"></a>Samsetning
+### <a name="assembly"></a><a name="assembly"></a>Samsetning
 
 Nota  **birgðahreyfingagátt**  til að færa samsetningaríhluti við samsetningarsvæðið.
 
@@ -53,7 +53,7 @@ Nota  **birgðahreyfingagátt**  til að færa samsetningaríhluti við samsetni
 
 [!INCLUDE [prod_short](includes/prod_short.md)] styður saman á lager og setja saman gerðir af samsetningarflæðigerðum. Til að fræðast meira um setja saman-pöntun í vöruhús á útleið er farið í  [meðferð með því að setja saman vörur í birgðum með birgðatínslum](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### <a name="project-management"></a>Verkefnastjórnun
+### <a name="project-management"></a><a name="project-management"></a>Verkefnastjórnun
 
 Nota  **birgðatínsluskjöl**  til að velja vinnsluíhluti í flæði til verkefnastjórnunar.
 
@@ -64,7 +64,7 @@ Hægt er að lengja flæðið í vinnslum með  **Birgðahreyfunarskjölum**  ti
 >
 > [!INCLUDE[prod_short](includes/prod_short.md)] notar gildið í reitnum **Eftirstöðvar** á verkáætlunarlínunni þegar það býr til birgðatínslur. Til að nota birgðatínslur fyrir verk þarftu að kveikja á **Nota notkunartengil** á síðunni **Verkspjald** fyrir verkið. Þetta gerir þér kleift að fylgjast með notkun miðað við áætlun þína. Ef þú kveikir ekki á víxlhnappnum verða eftirstöðvarnar í **0** og birgðatínslan verður ekki búin til.  [Frekari upplýsingar eru settar inn til að setja upp verknotkunarmælingar](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
 
-## <a name="pick-or-move-for-production-assembly-and-jobs-in-a-basic-warehouse-configuration"></a>Taka til eða færa fyrir framleiðslu, samsetningu og vinnslur í grunnvöruhúsi samskipa
+## <a name="pick-or-move-for-production-assembly-and-jobs-in-a-basic-warehouse-configuration"></a><a name="pick-or-move-for-production-assembly-and-jobs-in-a-basic-warehouse-configuration"></a>Taka til eða færa fyrir framleiðslu, samsetningu og vinnslur í grunnvöruhúsi samskipa
 
 Hægt er að stofna birgðatínslu eða birgðahreyfingu á þrjá vegu:  
 
@@ -72,26 +72,26 @@ Hægt er að stofna birgðatínslu eða birgðahreyfingu á þrjá vegu:
 * Fyrir nokkur upprunaskjöl á sama tíma með því að nota runuvinnslu.  
 * Í tveimur skrefum. Sleppið upprunaskjalinu til að gera upprunaskjalið tilbúið til tínslu. Stofna birgðatínslu eða hreyfingu úr  **birgðatínsluskjölum**  eða  **hreyfingum**  birgða. Birgðatínslan eða-hreyfingin er byggð á upprunaskjalinu.  
 
-### <a name="to-create-an-inventory-pick-from-the-source-document"></a>Birgðatínsla stofnuð í upprunaskjali:
+### <a name="to-create-an-inventory-pick-from-the-source-document"></a><a name="to-create-an-inventory-pick-from-the-source-document"></a>Birgðatínsla stofnuð í upprunaskjali:
 
 1. Í upprunaskjalinu, sem getur verið framleiðslupöntun eða vinnsla, skal velja  **aðgerðina stofna birgðafrágang/tínslu** .  
 2.  **Veljið stofna Ívt. Velja**  gátreitinn.
 3. Velja hnappinn **Í lagi**.
 
-### <a name="to-create-an-inventory-movement-from-the-source-document"></a>Tilfærsla birgða stofnuð úr upprunaskjalinu
+### <a name="to-create-an-inventory-movement-from-the-source-document"></a><a name="to-create-an-inventory-movement-from-the-source-document"></a>Tilfærsla birgða stofnuð úr upprunaskjalinu
 
 1. Í upprunaskjalinu, sem getur verið framleiðslupöntun, samsetningarpöntun eða vinnsla, skal velja  **aðgerðina stofna birgðafrágang/tínslu** .  
 2.  **Veljið stofna Ívt. Hreyfill**  gátkassa.
 3. Velja hnappinn **Í lagi**.
 
-### <a name="to-create-multiple-inventory-picks-or-movements-with-a-batch-job"></a>Til að stofna margar Birgðatínslur eða hreyfingar með runuvinnslu
+### <a name="to-create-multiple-inventory-picks-or-movements-with-a-batch-job"></a><a name="to-create-multiple-inventory-picks-or-movements-with-a-batch-job"></a>Til að stofna margar Birgðatínslur eða hreyfingar með runuvinnslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **stofna birgðafrágang/tínslu/hreyfingar** og velja síðan tengda tengilinn.  
 2.  **Á flipanum vöruhúsabeiðni**, Notið  **upprunaskjalið**  og  **upprunnr.**  svæði til að afmarka eftir tegundum skjala eða afmörkunar á númerum fylgiskjala. Til dæmis er aðeins hægt að stofna tínslur fyrir framleiðslupantanir.
 3.  **Á flýtiflipanum Valkostir**  er kveikt á reitnum  **Stofna ívt. Tínsla**  eða  **Stofna ívt. Víxlar hreyfinga** .
 4. Velja hnappinn **Í lagi**.
 
-### <a name="to-create-inventory-picks-or-movements-in-two-steps"></a>Birgðatínsla eða hreyfingar stofnaðar í tveimur skrefum
+### <a name="to-create-inventory-picks-or-movements-in-two-steps"></a><a name="to-create-inventory-picks-or-movements-in-two-steps"></a>Birgðatínsla eða hreyfingar stofnaðar í tveimur skrefum
 
 Til að taka til eða færa íhluti fyrir upprunaskjöl í tveimur skrefum verður að gefa út upprunaskjal til að gera það tilbúið til tínslu. Upprunaskjöl eru gefin út fyrir innri aðgerðir á eftirfarandi hátt.  
 
@@ -113,7 +113,7 @@ Starfsmaður í vöruhúsi sem úthlutað er á tínsluvörur getur stofnað bir
 5. Einnig er hægt að velja  **aðgerðina Sækja upprunaskjal**  til að velja skjalið af lista yfir upprunaskjöl á innleið sem eru tilbúin til tínslu á staðnum.  
 6. Velja skal  **OK**  hnappinn til að fylla tínslulínur eða hreyfingalínur samkvæmt völdu upprunaskjali.  
 
-## <a name="to-record-the-inventory-pick"></a>Birgðatínsla skráð
+## <a name="to-record-the-inventory-pick"></a><a name="to-record-the-inventory-pick"></a>Birgðatínsla skráð
 
 1.  **Á síðunni Birgðatínsla**  er skjalið opnað til að skrá tínslu.  
 2.  **Í reitnum Hólfkóti**  í tínslulínum er hólfið þar sem vörurnar verða teknar úr hólfinu þar sem varan er tiltæk. Hægt er að skipta um hólf ef með þarf.
@@ -129,7 +129,7 @@ Eftirfarandi gerist á meðan á bókunarferlinu stendur:
 
 [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="to-record-the-inventory-movement"></a>Birgðahreyfingin skráð
+## <a name="to-record-the-inventory-movement"></a><a name="to-record-the-inventory-movement"></a>Birgðahreyfingin skráð
 
 1.  **Opnið skjalið til að skrá hreyfingu fyrir fyrir á síðunni birgðahreyfingar** .  
 2.  **Í reitnum Hólfkóti**  í hreyfingalínunum er hólfið sem á að velja lagt til samkvæmt sjálfgefnu hólfi og framboði vörunnar. Hægt er að skipta um hólf ef með þarf.  
@@ -145,7 +145,7 @@ Eftirfarandi gerist á meðan á bókunarferlinu stendur:
 >[!NOTE]
 > Ólíkt þegar íhlutir eru flutt með birgðatínslum er notkun ekki bókuð þegar birgðahreyfing er skráð. Verið er að skrá notkun sem aðskilin skref með því að bóka upprunaskjalið.
 
-## <a name="flushing-production-components-in-a-basic-warehouse-configuration"></a>Birgðaframleiðsluíhlutir í grunnvöruvöruhúsi samskipa
+## <a name="flushing-production-components-in-a-basic-warehouse-configuration"></a><a name="flushing-production-components-in-a-basic-warehouse-configuration"></a>Birgðaframleiðsluíhlutir í grunnvöruvöruhúsi samskipa
 
 Flúorskolun hefur áhrif á flæði íhluta í framleiðslu.  [Frekari upplýsingar um Flush-íhluti eru í samræmi við afköst](production-how-to-flush-components-according-to-operation-output.md) aðgerðar. Eftir því hvaða flæðiaðferð er valin er hægt að velja íhluti fyrir framleiðslu á eftirfarandi leiðum:
 
@@ -154,7 +154,7 @@ Flúorskolun hefur áhrif á flæði íhluta í framleiðslu.  [Frekari upplýsi
 * Birgðahreyfðarskjal  **·**  er notað með tilvísun í upprunaskjal til að skrá tínslur fyrir íhluti sem nota  **tínsluna + áfram**,  **tína + afturábak**  birgðaflæðiaðferð. Notkun íhluta mun gerast sjálfkrafa annað hvort þegar stöðu framleiðslupöntunarinnar er breytt eða með því að ræsa eða ljúka aðgerð. Allir nauðsynlegir íhlutir verða að vera tiltækir. Annars er hætt að bóka notkun fyrir þann íhlut.
 * Birgðahreyfðarskjal  **·**  er notað án tilvísunar í upprunaskjali eða öðrum leiðum til að skrá hreyfingar íhluta sem nota  **fram**  -eða  **afturbirgðaskráningaraðferðina** . Notkun íhluta mun gerast sjálfkrafa annað hvort þegar breytt er um stöðu framleiðslupöntunar eða hefja eða ljúka aðgerð. Allir nauðsynlegir íhlutir verða að vera tiltækir. Að öðrum kosti er hætt að bóka hreinsað notkun fyrir þann íhlut.  [Frekari upplýsingar eru í Flytjendavörum í Grunnvöruafbrigðum](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-### <a name="example"></a>Dæmi
+### <a name="example"></a><a name="example"></a>Dæmi
 
 Þú ert með framleiðslupöntun fyrir 15 PCS af vöru SP-SCM1004. Sumar vörurnar á íhlutaliðlistanum verður að nota handvirkt í notkunarbók og aðrar vörur er hægt að taka til sjálfkrafa með notkun  **+ afturflúðaaðferð tínsla + afturábak** .  
 
@@ -174,9 +174,9 @@ Eftirfarandi skref gefa dæmi um þær aðgerðir sem ólíkir einstaklingar tak
 
 :::image type="content" source="media/binflow.png" alt-text="Yfirlit um hvenær og hvernig reiturinn Hólfakóti er fylltur út.":::
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
