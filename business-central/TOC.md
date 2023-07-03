@@ -1,7 +1,8 @@
 
-# [Velkomin(n) í Business Central](index.md)
+# [Business Central skjöl](index.yml)
+# [Velkomin(n) í Business Central](welcome.md)
 # [Nýtt og áætlað](product-news.md)
-# Leiðsögn
+# Hafist handa
 ## [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Upplýsingar
@@ -157,6 +158,7 @@
 ### [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md)
 ### [Stjórna tilkynningum](ui-smart-notifications.md)
 ### [Ábendingar um frammistöðu fyrir fyrirtækisnotendur](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Greina frammistöðu](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Viðvaranir og villuboð](product-error-messages.md)
 ### Sérstilla Business Central
 #### [Sérstilling verksvæðis](ui-personalization-user.md)
@@ -996,6 +998,7 @@
 ### Indland
 #### [Yfirlit](LocalFunctionality/India/india-local-functionality.md)
 #### [Setja upp númeraraðir fyrir bókun](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Endurskoðunarslóð og breytingakladdar fyrir bókhaldshugbúnað á Indlandi](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Skattkerfi
 ##### [Yfirlit](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Skilgreining á innflutningi/útflutningi skattakerfis](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1844,9 +1847,10 @@
 ### [Verkefni stjórnenda](admin-setup-and-administration.md)
 ### Stjórna aðgangi að Business Central
 #### [Yfirlit](admin-access-overview.md)
-#### Aðgangur með Microsoft 365-leyfum
+#### [Stjórna aðgangi að Business Central með öryggishópum](ui-security-groups.md)
+#### Aðgangur með Microsoft 365 leyfum
 ##### [Yfirlit](admin-access-with-m365-license.md)
-##### [Setja upp aðgang með Microsoft 365-leyfum](admin-access-with-m365-license-setup.md)
+##### [Setja upp aðgang með Microsoft 365 leyfum](admin-access-with-m365-license-setup.md)
 ##### [Aðgangsflæði notanda](admin-access-with-m365-license-flow.md)
 ##### [Algengar spurningar](admin-access-with-m365-license-faq.md)
 ##### [Úrræðaleit](admin-access-with-m365-license-troubleshooting.md) 
