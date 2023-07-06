@@ -11,7 +11,7 @@ ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="receive-and-convert-electronic-documents"></a><a name="receive-and-convert-electronic-documents"></a>Taka við og umbreyta rafræn skjölum
+# <a name="receive-and-convert-electronic-documents"></a><a name="receive-and-convert-electronic-documents"></a><a name="receive-and-convert-electronic-documents"></a>Taka við og umbreyta rafræn skjölum
 
 Almenn útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Til að taka á móti reikningur frá lánardrottinn sem rafrænu PEPPOL-skjali er skjalið unnið á síðunni Fylgiskjal á innleið til að breyta því í innkaupareikning eða almenna færslubókarlínu í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -34,7 +34,7 @@ Umferð rafrænna skjala í og ​​úr [!INCLUDE[prod_short](includes/prod_sho
 
 Eftirfarandi ferli lýsir því hvernig á að taka við lánardrottinsreikningi og breyta honum í staðlaðan innkaupareikning í [!INCLUDE[prod_short](includes/prod_short.md)]. Aðferðin er sú sama og þegar reikningi lánardrottins er breytt í færslubókarlínu.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a><a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Til að taka við og umbreyta rafrænum reikningi í innkaupareikning.
+### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a><a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a><a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Til að taka við og umbreyta rafrænum reikningi í innkaupareikning.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Skjöl á innleið** og velja síðan viðkomandi tengil.  
 
@@ -52,9 +52,9 @@ Eftirfarandi ferli lýsir því hvernig á að taka við lánardrottinsreikningi
 
     Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum gögnum í [!INCLUDE[prod_short](includes/prod_short.md)], verða sýndar á flýtiflipanum **Villuboð**.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Skjöl á innleið](across-income-documents.md)  

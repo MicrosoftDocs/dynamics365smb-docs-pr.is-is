@@ -9,17 +9,17 @@ ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
-# <a name="manage-access-to-business-central"></a><a name="manage-access-to-business-central"></a>Stjórna aðgangi að miðborg viðskipta-
+# <a name="manage-access-to-business-central"></a><a name="manage-access-to-business-central"></a><a name="manage-access-to-business-central"></a>Stjórna aðgangi að miðborg viðskipta-
 
 Í þessari grein gefst stjórnendum og forriturum mikið yfirlit yfir hvernig stýra eigi aðgangi að  [!INCLUDE [prod_short](includes/prod_short.md)]  og eiginleikum hans. Notaðu krækjurnar til að fara í aðrar greinar sem gefa nánari upplýsingar um viðfangsefnin.
 
-## <a name="layered-access"></a><a name="layered-access"></a>Layered aðgang
+## <a name="layered-access"></a><a name="layered-access"></a><a name="layered-access"></a>Layered aðgang
 
 [!INCLUDE [prod_short](includes/prod_short.md)] styðst við öryggiskoeftir eins og lýst er í eftirfarandi skýringarmynd. Til að fræðast nánar um hvert lag er farið í  [Umsóknaröryggi í miðborg](/dynamics365/business-central/dev-itpro/security/security-application).
 
 :::image type="content" source="media/security-overview.png" alt-text="Markvisst hugbúnaðaröryggi í viðskiptum miðsvæðis.":::
 
-## <a name="licenses"></a><a name="licenses"></a>Leyfi
+## <a name="licenses"></a><a name="licenses"></a><a name="licenses"></a>Leyfi
 
 Úthluta  [!INCLUDE [prod_short](includes/prod_short.md)]  notendum á  **Dynamics 365 Business Central**  leyfi svo þeir geti skoðað, breytt og unnið úr viðskipagögnum sínum í hvaða notendaviðmóti sem er. Frekari upplýsingar um leyfi er að fara  [í leyfi í Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
 
@@ -27,7 +27,7 @@ Hins vegar getur gott fólk sem stundum þarf lesefni til að fá upplýsingar �
 
 Fyrir yfirgripsmiklar upplýsingar um mismunandi tegundir leyfa og hvernig leyfisveitingar eru gerðar í  [!INCLUDE[prod_short](includes/prod_short.md)],  [Sækja leiðbeiningar](https://go.microsoft.com/fwlink/?LinkId=866544) um leyfisveitingu fyrir Dynamics 365.
 
-## <a name="business-central-administrator-tasks"></a><a name="business-central-administrator-tasks"></a>Verkefni seðlabankastjóra
+## <a name="business-central-administrator-tasks"></a><a name="business-central-administrator-tasks"></a><a name="business-central-administrator-tasks"></a>Verkefni seðlabankastjóra
 
 Í eftirfarandi töflu er listi yfir hvernig kerfisstjórar geta stjórnað aðgangi að  [!INCLUDE [prod_short](includes/prod_short.md)]  og hvaða möguleika þeir nota. Sum verkefnanna hjálpa einnig til við að halda aðgangsheimilum upp-til skv.
 
@@ -42,7 +42,7 @@ Fyrir yfirgripsmiklar upplýsingar um mismunandi tegundir leyfa og hvernig leyfi
 |Azure þjónustumerki stendur fyrir hóp IP vistfanga sem umferð um þjónustu getur komið frá eða farið í. Notaðu þjónustumerki til að setja upp eldveggi til að leyfa umferð aðeins út frá ákveðinni þjónustu.  **Dynamics365BusinessCentral**  -merkið leyfir notanda að nota reglur eldveggjar og netöryggisflokka til að takmarka umferð til og frá [!INCLUDE [prod_short](includes/prod_short.md)].| [Þjónustumerki Azure](/dynamics365/business-central/dev-itpro/security/security-service-tags)|
 |Þegar sannvottun er notuð  Azure Active Directory  með  [!INCLUDE [prod_short](includes/prod_short.md)] er mælt með því að nýta sér  [Azure AD  fjölþátta AUÐKENNINGU (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks). MFA hefur til viðbótar Öryggisverðir aðgang að umsókninni og gögnum.|[Fjölþátta sannvottun fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/security/multifactor-authentication)|
 
-## <a name="business-central-developer-tasks"></a><a name="business-central-developer-tasks"></a>Verkefni á vegum Aðalverktakar
+## <a name="business-central-developer-tasks"></a><a name="business-central-developer-tasks"></a><a name="business-central-developer-tasks"></a>Verkefni á vegum Aðalverktakar
 
 Einnig er forritunarsaga til að stjórna aðgangi að [!INCLUDE [prod_short](includes/prod_short.md)]. Hönnuðir og stjórnendur geta til dæmis smíðað og tengt forrit við  [!INCLUDE [prod_short](includes/prod_short.md)]  það sem gagnast þeim við viðskiptin:  
 
@@ -56,6 +56,6 @@ Eftirfarandi tafla tengir upplýsingar um hvernig á að gefa apps og viðaukar 
 |--|--|
 |Tvö meginhugtökin fyrir skilgreiningu aðgangs að eiginleikum eru frumhugtök og heimildir. Entitlements veitir víðtækan aðgang að hlutum í samræmi við leyfi eða  Azure Active Directory  hlutverk. Heimildir og heimildasöfn leyfa þér að fínstilla aðgang að hlutum. |[Kröfur og yfirlit yfir heimildasöfn](/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview)|
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Öryggi í viðskiptum miðsvæðis](/dynamics365/business-central/dev-itpro/security/security-and-protection)

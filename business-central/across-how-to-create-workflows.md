@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a><a name="create-workflows-to-connect-tasks-in-business-processes"></a>Stofna verkflæði til að tengja verk í viðskiptaferlum
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a><a name="create-workflows-to-connect-tasks-in-business-processes"></a><a name="create-workflows-to-connect-tasks-in-business-processes"></a>Stofna verkflæði til að tengja verk í viðskiptaferlum
 
 Hægt er að stofna verkflæði sem tengja verk í viðskiptaferlum sem eru framkvæmd af mismunandi notendum. Hægt er að taka kerfisverk með, svo sem sjálfvirka bókun, sem skref í verkflæði sem eru á undan eða eftir notendaverkefni. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.  
 
@@ -42,7 +42,7 @@ Verkflæði er skipt í þrjá kafla:
 
 Valkostir fyrir viðburði og svör eru kerfisvarðar. Til að bæta við nýjum valkostum þarftu að þróa framlengingu.
 
-## <a name="to-create-a-workflow"></a><a name="to-create-a-workflow"></a>Til að stofna verkflæði
+## <a name="to-create-a-workflow"></a><a name="to-create-a-workflow"></a><a name="to-create-a-workflow"></a>Til að stofna verkflæði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**. Síðan **Verkflæði** opnast.  
@@ -113,7 +113,7 @@ Valkostir fyrir viðburði og svör eru kerfisvarðar. Til að bæta við nýjum
 > [!TIP]  
 > Til að kanna tengslin milli þeirra taflna sem notaðar eru í verkflæði skal velja þá  ![ljósaperu sem opnar aðgerðina segja](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Táknið, færa síðan inn  **verkflæði – töfluvensl**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a><a name="example-of-creating-a-new-workflow-using-existing-events"></a>Dæmi um hvernig nýtt verkflæði er búið til með því að nota fyrirliggjandi tilvik
+## <a name="example-of-creating-a-new-workflow-using-existing-events"></a><a name="example-of-creating-a-new-workflow-using-existing-events"></a><a name="example-of-creating-a-new-workflow-using-existing-events"></a>Dæmi um hvernig nýtt verkflæði er búið til með því að nota fyrirliggjandi tilvik
 
 Eftirfarandi dæmi stofnar verkflæði til að samþykkja breytingu á nafni lánardrottins:
 
@@ -172,9 +172,9 @@ Eftirfarandi mynd gefur yfirlit yfir niðurstöður þessarar aðgerðar.
 
 Næst skal prófa verkflæðið með því að opna fyrirliggjandi lánardrottnaspjald og breyta nafni þeirra. Staðfestið að samþykktarbeiðni sé send eftir að nafni lánardrottins er breytt.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)  
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  

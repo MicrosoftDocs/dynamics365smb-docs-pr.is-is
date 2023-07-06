@@ -11,7 +11,7 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a><a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl
+# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a><a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a><a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl
 
 Úr PDF-skjölum eða myndaskrám sem standa fyrir skjöl á innleið er hægt að láta ytri OCR-þjónustu (sjónræn stafakennsl) stofna rafræn skjöl sem hægt er að umbreyta í skráarfærslur í [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar reikningur berst frá lánardrottni á PDF-sniði er til dæmis hægt að [senda hann til OCR-þjónustu af síðunni **Skjöl á innleið**](#to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page).
 
@@ -26,7 +26,7 @@ Umferð skráa til og frá OCR-þjónustu er unnin af sérstakri verkraðarfærs
 > [!NOTE]
 > OCR-eiginleikinn er í boði ytri veitu. Veljið uppfærslupakka sem er viðeigandi fyrir fyrirtækið og/eða landið/svæðið. Finndu þjónustu sem er samhæf [!INCLUDE[prod_short](includes/prod_short.md)] og upplýsingar um eiginleika í boði á [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a><a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Til að senda PDF eða myndaskrá til OCR þjónustu frá síðunni Skjöl á innleið
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a><a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a><a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Til að senda PDF eða myndaskrá til OCR þjónustu frá síðunni Skjöl á innleið
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Skjöl á innleið** og velja síðan viðkomandi tengil.
 2. Búið til nýja færslu fyrir skjal á innleið og hengið skrána við. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).  
@@ -37,7 +37,7 @@ Umferð skráa til og frá OCR-þjónustu er unnin af sérstakri verkraðarfærs
 
    Gildið í reitnum **OCR-staða** breytist í **Sent** ef engar villur hafa komið upp.
 
-## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a><a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Til að senda PDF eða myndaskrá til OCR þjónustu með tölvupósti
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a><a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a><a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Til að senda PDF eða myndaskrá til OCR þjónustu með tölvupósti
 
 Úr tölvupóstforritinu er hægt að framsenda tölvupóst til OCR-þjónustuveitanda með viðhengdu PDF-skjali eða myndaskrá. Upplýsingar um netfang til að senda á er að finna á vefsvæði OCR-þjónustuveitanda.
 
@@ -46,7 +46,7 @@ Fyrst að engin færsla skjals á innleið er til fyrir skrána verður ný fær
 > [!NOTE]  
 > Ef þú vinnur á töflu eða síma, getur þú sent skrána í OCR þjónustu eins fljótt og þú hefur tekið mynd af skjalinu, eða þú getur búið til skjal á innleið beint. Sjá  [Create it Document Record til að fá frekari upplýsingar með því að taka mynd](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
-## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a><a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Til að taka á móti viðkomandi rafrænt skjal frá OCR-þjónusta
+## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a><a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a><a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Til að taka á móti viðkomandi rafrænt skjal frá OCR-þjónusta
 
 Rafrænt skjal sem er stofnaði af OCR-þjónustu úr PDF eða myndaskrá er sjálfkrafa mótteknar á síðunni **skjöl á innleið** af verkraðarfærslu sem er sett upp þegar þú virkjar OCR þjónustan.
 
@@ -65,7 +65,7 @@ Ef ekki eru notaðar verkraðir eða þú vilt taka á móti loknu OCR-skjali fy
 
 Nú er hægt að byrja að stofna færslur skjala fyrir móttekin rafrænar fylgiskjöl í [!INCLUDE[prod_short](includes/prod_short.md)], handvirkt eða sjálfvirkt. Nánari upplýsingar er að finna í næsta ferli. Einnig er hægt að [tengja nýja færslu skjals á innleið við fyrirliggjandi bókað eða óbókað skjal](across-how-connect-disconnect-income-document-records.md) þannig að upprunaskrá sé auðvelt að fá aðgang úr [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a><a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Stofna innkaupareikning út frá rafræna skjalinu mótteknu úr OCR
+## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a><a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a><a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Stofna innkaupareikning út frá rafræna skjalinu mótteknu úr OCR
 
 Eftirfarandi ferli sýnir hvernig á að stofna færslu innkaupareiknings úr reikningur lánardrottins sem var móttekin sem rafrænt skjal úr OCR-þjónustu. Ferlið er það sama þegar búið er til, til dæmis, færslubókarlína úr kostnaðarkvittun eða söluvöruskilapöntun frá viðskiptamanni.
 
@@ -78,7 +78,7 @@ Innkaupareikningur verður stofnaður í [!INCLUDE[prod_short](includes/prod_sho
 
 Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum aðalgögnum í [!INCLUDE[prod_short](includes/prod_short.md)] verða sýndar á flýtiflipanum **Villuboð**. Nánari upplýsingar eru í [Meðhöndla villur þegar tekið er á móti rafrænum skjölum](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
-### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a><a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Til að varpa texta á tiltekinn lánardrottinn, fjárhag eða bankareikning
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a><a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a><a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Til að varpa texta á tiltekinn lánardrottinn, fjárhag eða bankareikning
 
 Fyrir skjal á innleið er yfirleitt notuð **varpa texta á reikning** aðgerð til að skilgreina að tilteknum texta á reikning lánardrottins sem var móttekinn frá OCR-þjónustu er varpað á tilteknum lánardrottnareikning. Í framhaldinu merkja allir hlutar lýsingar fyrir skjal á innleið sem er til sem vörpunartexti að reiturinn **Lánardrottnanr.** í skjalinu eða færslubókarlínum af gerðinni *Fjárhagsreikningur* fylltur út með lánardrottni sem um ræðir.
 
@@ -94,7 +94,7 @@ Til viðbótar við vörpun á lánardrottnareikning eða fjárhagsreikninga er 
    > Ekki skal nota **Upprunagerð stöðu** og **Upprunanúmer stöðu** reitina í tengslum við skjöl á innleið. Þeir eru aðeins notaðir fyrir afstemmingu sjálfvirkra greiðslna. Frekari upplýsingar er að finna í [Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 6. Endurtakið skref 2 til 5 fyrir allan texta í skjölum á innleið sem á búa sjálfkrafa til skjöl fyrir.
 
-## <a name="to-handle-errors-when-receiving-electronic-documents"></a><a name="to-handle-errors-when-receiving-electronic-documents"></a>Hvernig á að: Meðhöndla villur við móttöku rafrænna skjala
+## <a name="to-handle-errors-when-receiving-electronic-documents"></a><a name="to-handle-errors-when-receiving-electronic-documents"></a><a name="to-handle-errors-when-receiving-electronic-documents"></a>Hvernig á að: Meðhöndla villur við móttöku rafrænna skjala
 
 1. Á síðunni **Skjöl á innleið** skal velja línuna fyrir rafrænt skjal sem var móttekið frá OCR-þjónustu með villum, gefið til kynna með gildinu *Villa* í reitnum **OCR-staða**.
 2. Veldu **breyta** aðgerðina til að opna síðuna **skjal á innleið** .
@@ -104,7 +104,7 @@ Til viðbótar við vörpun á lánardrottnareikning eða fjárhagsreikninga er 
 6. Haldið áfram að vinna úr skjölum á innleið með því að velja aftur aðgerðina **Stofna handvirkt**.
 7. Skref 5 til 6 eru endurtekin fyrir allar villur sem eftir eru þar til hægt er að taka á móti rafrænu skjali.
 
-## <a name="to-train-the-ocr-service-to-avoid-errors"></a><a name="to-train-the-ocr-service-to-avoid-errors"></a>Þjálfa OCR-þjónustu til að forðast villur
+## <a name="to-train-the-ocr-service-to-avoid-errors"></a><a name="to-train-the-ocr-service-to-avoid-errors"></a><a name="to-train-the-ocr-service-to-avoid-errors"></a>Þjálfa OCR-þjónustu til að forðast villur
 
 Vegna þess að OCR byggist á sjónrænum stafakennslum getur OCR-þjónustan túlkað bókstafi í PDF-skjali eða myndaskrám á rangan hátt, til dæmis fyrst þegar hún vinnur úr skjölum frá tilteknum lánardrottni. Hún túlkar merki fyrirtækisins hugsanlega ekki sem nafn lánardrottins eða mistúlkar heildarupphæð á kostnaðarkvittun vegna þess hvernig hún er sett upp. Til að komast hjá því að slíkar villur berist áfram er hægt að leiðrétta gögn úr OCR-þjónustu og senda athugasemdirnar aftur til þjónustuaðilans.
 
@@ -120,9 +120,9 @@ Síðan **OCR-gagnalreiðrétting**, sem er opnuð af síðunni **skjal á innle
 
 Reitirnir í flýtiflipanum **Fjárhagsupplýsingar** á síðunni **Skjal á innleið** eru uppfærðir með öllum nýjum gildum sem færð voru ínn í skrefi 4.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Stofna færslur skjala á innleið](across-how-create-income-document-records.md)
 [Stofna færslur yfir skjöl á innleið, beint úr skjölum og færslum](across-how-connect-disconnect-income-document-records.md)

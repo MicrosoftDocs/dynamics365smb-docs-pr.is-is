@@ -10,7 +10,7 @@ ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="allocate-costs-to-intercompany-partners"></a><a name="allocate-costs-to-intercompany-partners"></a>Úthluta kostnaði til millifyrirtækjafélaga
+# <a name="allocate-costs-to-intercompany-partners"></a><a name="allocate-costs-to-intercompany-partners"></a><a name="allocate-costs-to-intercompany-partners"></a>Úthluta kostnaði til millifyrirtækjafélaga
 Þegar bókanir milli fyrirtækja eru notaðar til að flytja skjöl milli samstarfsfyrirtækja, þá stjórna VSK-tengdar stillingar (sérstaklega VSK-viðskiptabókunarflokkurinn) sem úthlutað er til viðskipamanna- eða lánardrottnalykla (sem tengjast millifyrirtækjafélagi) því hvort og hvernig virðisaukaskattur er reiknaður og skráður. Einnig er hægt að gera kostnaðardreifingu beint í innkaupapöntunum til samstarfsfyrirtækja. Til dæmis ef skráður er innkaupareikningur frá ytri lánardrottni og ætlunin er að dreifa einhverjum eða öllum kostnaði á eitt eða fleiri millifyrirtækjafélög.
 
 Hægt er að úthluta kostnaði á eitt eða fleiri millifyrirtækjafélög með því að nota eftirfarandi:
@@ -18,7 +18,7 @@ Hægt er að úthluta kostnaði á eitt eða fleiri millifyrirtækjafélög með
 * **MF-færslubækur** - Þessar færslubækur eru gagnlegar þegar þjónusta er keypt. Til dæmis þegar móðurfyrirtæki kaupir þjónustu til að setja upp tölvukerfi í tveimur dótturfélögum. Reikningurinn er sendur til móðurfyrirtækisins, en kostnaðinum er úthlutað á millifyrirtækjafélögin. Frekari upplýsingar eru í [Unnið með samstæðuskjöl og færslubækur](intercompany-how-work-documents-journals.md).
 * Innkaupapantanir og reikningar - Notkun innkaupaskjala er gagnleg þegar innkaupaaðgerðir á til dæmis rekstrargjöldum eru miðstýrðar í einu fyrirtæki og síðan úthlutað á millifyrirtækjafélög.
 
-## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a><a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Að úthluta kostnaði með MF-færslubók
+## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a><a name="to-allocate-costs-using-an-intercompany-general-journal"></a><a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Að úthluta kostnaði með MF-færslubók
 Til að færa inn línu í MF-færslubók skal fylgja þessum skrefum. 
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubók milli fyrirtækja** og velja síðan viðkomandi tengil.
@@ -42,7 +42,7 @@ Til að færa inn línu í MF-færslubók skal fylgja þessum skrefum.
    1. Fyllið inn í eftirstandandi reiti eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Endurtakið þessi skref fyrir hvert samstæðufyrirtæki sem á að deila kostnaðinum.
 1. Til að bóka skjalið og úthluta kostnaði skal velja **Bóka**.  
 
-## <a name="to-allocate-costs-using-a-purchase-document"></a><a name="to-allocate-costs-using-a-purchase-document"></a>Að úthluta kostnaði með innkaupaskjali
+## <a name="to-allocate-costs-using-a-purchase-document"></a><a name="to-allocate-costs-using-a-purchase-document"></a><a name="to-allocate-costs-using-a-purchase-document"></a>Að úthluta kostnaði með innkaupaskjali
 Eftirfarandi ferli lýsir því hvernig á að úthluta kostnaði með því að nota innkaupareikning. Skrefin eru þau sömu fyrir innkaupapantanir.
 
 > [!NOTE]
@@ -60,12 +60,12 @@ Eftirfarandi ferli lýsir því hvernig á að úthluta kostnaði með því að
 1. Fyllið inn í eftirstandandi reiti eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 1. Til að bóka innkaupapöntunina skal velja **Bóka**.
 
-## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a><a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Að senda úthlutaðan kostnað til millifyrirtækjafélaga
+## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a><a name="to-send-the-allocated-costs-to-intercompany-partners"></a><a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Að senda úthlutaðan kostnað til millifyrirtækjafélaga
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **MF-úthólfsfærslur** og velja síðan viðkomandi tengil.
 2. Velja skal línu til að senda og velja síðan aðgerðina **Senda til MF-félaga**. 
 3. Til að úthluta kostnaði skal velja aðgerðina **Ljúka línuaðgerðum**.
 
-## <a name="calculating-vat-for-cost-distributions"></a><a name="calculating-vat-for-cost-distributions"></a>Útreikningur virðisaukaskatts fyrir kostnaðardreifingar
+## <a name="calculating-vat-for-cost-distributions"></a><a name="calculating-vat-for-cost-distributions"></a><a name="calculating-vat-for-cost-distributions"></a>Útreikningur virðisaukaskatts fyrir kostnaðardreifingar
 Þegar skjal er notað til að dreifa kostnaði á millifyrirtækjafélaga skal hafa í huga tvær VSK-stillingar: 
 * Stillingar á fjárhagsreikningnum fyrir útgjöld:
    * Ef almenni viðskiptabókunarflokkurinn eða VSK-viðskiptabókunarflokkurinn er settur upp í fjárhagsreikningnum, þá fer útreikningurinn eftir flokkunum og afurðahópunum í skjalalínunni.
@@ -77,7 +77,7 @@ Eftirfarandi ferli lýsir því hvernig á að úthluta kostnaði með því að
 > [!NOTE]
 > Mikilvægt er að staðfesta bæði uppsetningu millifyrirtækjafélaga og uppsetningu fjárhagsreiknings (fyrir kostnaðarreikninginn sem notaður er fyrir kostnaðardreifingu) áður en kostnaði er úthlutað til millifyrirtækjafélaga.
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 [Uppsetning milli fyrirtækja](intercompany-how-setup.md)  
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
 [Fjármál](finance.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-statuses-for-service-orders-and-repairs"></a><a name="set-up-statuses-for-service-orders-and-repairs"></a>Setja upp stöður fyrir þjónustupantanir og viðgerðir
+# <a name="set-up-statuses-for-service-orders-and-repairs"></a><a name="set-up-statuses-for-service-orders-and-repairs"></a><a name="set-up-statuses-for-service-orders-and-repairs"></a>Setja upp stöður fyrir þjónustupantanir og viðgerðir
 
 Þú verður að setja upp viðgerðarstöðuvalkosti sem sýna framvindu viðgerða og viðhalds á þjónustuvöru í þjónustupöntunum. Gert er ráð fyrir níu mismunandi valkostum viðgerðarstöðu miðað við aðstæður eða aðgerðir sem gripið er til þegar þjónustuvörur eru teknar til þjónustu.  
 
@@ -20,7 +20,7 @@ ms.author: edupont
 
 Áður en hægt er að setja upp viðgerðarstöðu verður að setja upp forgang þjónustustöðu.
 
-## <a name="to-set-up-service-status-priorities"></a><a name="to-set-up-service-status-priorities"></a>Uppsetning viðgerðarstöðuforgangs
+## <a name="to-set-up-service-status-priorities"></a><a name="to-set-up-service-status-priorities"></a><a name="to-set-up-service-status-priorities"></a>Uppsetning viðgerðarstöðuforgangs
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staða þjónustupöntunar** og svo velja viðeigandi tengil.  
 2. Velja skal þjónustupöntunarstöðuna sem á að forgangsraða.  
@@ -28,7 +28,7 @@ ms.author: edupont
 
 Þrep 2 og 3 eru endurtekin þar til búið er að forgangsraða stöðuvalkostunum fjórum. **Í undirbúningi** , **Í vinnslu** , **Lokið** og **Í bið**.  
 
-## <a name="to-set-up-a-repair-status"></a><a name="to-set-up-a-repair-status"></a>Uppsetning viðgerðarstöðu
+## <a name="to-set-up-a-repair-status"></a><a name="to-set-up-a-repair-status"></a><a name="to-set-up-a-repair-status"></a>Uppsetning viðgerðarstöðu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðgerðarstaða** og svo velja viðeigandi tengil.
 2. Stofnið nýja viðgerðarstöðu.  
@@ -41,7 +41,7 @@ ms.author: edupont
 
 Skrefin eru endurtekin fyrir hvern valkost viðgerðarstöðu sem á að stofna.
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Þjónustupöntunarstaða og viðgerðarstaða](service-service-order-status-and-repair-status.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  

@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ---
 
-# <a name="setting-up-service-management"></a><a name="setting-up-service-management"></a>Þjónustustýring sett upp
+# <a name="setting-up-service-management"></a><a name="setting-up-service-management"></a><a name="setting-up-service-management"></a>Þjónustustýring sett upp
 Áður en þú getur byrjað að nota eiginleika Þjónustustýringarinnar í [!INCLUDE[prod_short](includes/prod_short.md)] þarf hins vegar að setja upp nokkur atriði. Til dæmis er hægt að stofna kótun fyrir staðlaða þjónustu, einkenni, og bilunarkóta, og setja upp þjónustuvörur og þjónustuvörugerðir sem þjónustudeild fyrirtækisins þarfnast.  
 
 Þegar þjónustukerfi er sett upp þarf að ákveða hvaða þjónustu skal bjóða viðskiptamönnum og tímasetja þessa þjónustu. Þjónusta er gerð vinnu sem framkvæmd er af einum eða fleiri starfsmönnum og veitt viðskiptamanni. Þjónusta gæti til dæmis verið viðgerð á tölvu. Þjónustuvara er útbúnaðurinn eða varan sem þarfnast þjónustu, til dæmis tölvan sem þarf að gera við, uppsett hjá tilteknum viðskiptamanni. Þjónusta getur verið hluti af tengdum viðgerðar- eða viðhaldshlutum.  
@@ -35,7 +35,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Setja upp þjónustuvörur og þjónustuvörueiningar |[Setja upp þjónustuvörur](service-how-setup-service-items.md) |
 | Leggja grunninn að stofnun þjónustusamningar og samningstilboð. |[Setja upp þjónustusamninga](service-how-setup-service-contracts.md) |
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 [Þjónustukerfi](service-service.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 

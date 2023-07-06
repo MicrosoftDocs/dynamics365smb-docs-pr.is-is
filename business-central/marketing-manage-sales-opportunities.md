@@ -12,7 +12,7 @@ ms.search.forms: '5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 50
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="managing-sales-opportunities"></a><a name="managing-sales-opportunities"></a>Umsjón sölutækifæra
+# <a name="managing-sales-opportunities"></a><a name="managing-sales-opportunities"></a><a name="managing-sales-opportunities"></a>Umsjón sölutækifæra
 Líta má á allar ábendingar á innleið sem sölutækifæri. Hægt er að stofna tækifæri og úthluta þeim til sölumanna svo hægt sé að fylgjast með mögulegri sölu.
 
 Áður en hægt er að hefja notkun tækifærisstjórnar þarf að setja upp söluferli og þrep söluferla. Þegar tækifæri eru stofnuð ætti að skrá upplýsingar um tengiliðinn, sölumanninn, söluferlið og dagsetningar, og einnig mat á söluvirði tækifærisins og mat á árangursmöguleikum þess.
@@ -25,7 +25,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Stofna sölutækifæri sem fengið er frá tengiliðum. |[Stofna tækifæri](marketing-how-create-opportunities.md) |
 | Færa sölutækifæri gegnum söluferli þar til því er lokið. |[Meðhöndla sölutækifæri](marketing-processing-sales-opportunities.md) |
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

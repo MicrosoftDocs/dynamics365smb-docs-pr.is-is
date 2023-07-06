@@ -12,10 +12,10 @@ ms.search.keywords: 'Iceland, post, invoice, credit memo'
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="deleting-posted-invoices-and-credit-memos-in-the-icelandic-version"></a><a name="deleting-posted-invoices-and-credit-memos-in-the-icelandic-version"></a>Eyðing bókaðra reikninga og kreditreikninga í íslenskri útgáfu
+# <a name="deleting-posted-invoices-and-credit-memos-in-the-icelandic-version"></a><a name="deleting-posted-invoices-and-credit-memos-in-the-icelandic-version"></a><a name="deleting-posted-invoices-and-credit-memos-in-the-icelandic-version"></a>Eyðing bókaðra reikninga og kreditreikninga í íslenskri útgáfu
 Í samræmi við löggjöf á Íslandi er ekki hægt að eyða sölu- og innkaupareikningum og kreditreikningum eftir að þeir hafa verið bókaðir. Á [!INCLUDE[prod_short](../../includes/prod_short.md)] er skipunin **Eyða** ekki í boði fyrir þessa gerð bókaðra fylgiskjala.
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 [Reikningsfæra sölur](../../sales-how-invoice-sales.md)
 
 

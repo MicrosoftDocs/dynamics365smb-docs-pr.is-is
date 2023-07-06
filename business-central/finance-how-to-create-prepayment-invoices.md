@@ -9,7 +9,7 @@ ms.date: 02/02/2023
 ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices"></a><a name="create-prepayment-invoices"></a>Stofna fyrirframgreiðslureikninga
+# <a name="create-prepayment-invoices"></a><a name="create-prepayment-invoices"></a><a name="create-prepayment-invoices"></a>Stofna fyrirframgreiðslureikninga
 
 Ef þú þarf að fá viðskiptamenn til að greiða fyrir sendingu pöntunar geturðu notað eiginleika fyrirframgreiðslu. Sama gildir ef lánardrottinn þinn krefst þess að þú greiðir áður en hann sendir pöntun til þín.  
 
@@ -19,7 +19,7 @@ Hægt er að hefja fyrirframgreiðsluferlið þegar búið er að stofna sölu- 
 
 Eftirfarandi ferli sýnir hvernig skal gefa út fyrirframgreiðslureikning fyrir sölupöntun. Skrefin eru svipuð fyrir innkaupapöntun.  
 
-## <a name="to-create-a-prepayment-invoice"></a><a name="to-create-a-prepayment-invoice"></a>Stofnun fyrirframgreiðslureiknings
+## <a name="to-create-a-prepayment-invoice"></a><a name="to-create-a-prepayment-invoice"></a><a name="to-create-a-prepayment-invoice"></a>Stofnun fyrirframgreiðslureiknings
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Stofna nýja sölupöntun fyrir viðeigandi viðskiptavin. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).  
@@ -70,13 +70,13 @@ Hægt er að gefa út aðra fyrirframgreiðslureikninga fyrir pöntunina. Til a�
 
  Þegar hægt er að bóka restina af reikningnum er hann bókaður eins og hver annar reikningur og fyrirframgreiðsluupphæðin er sjálfvirkt dregin frá þeirri upphæð sem greiða á.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a><a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Uppfæra stöðu fyrirframgreiddra pantana og reikninga sjálfkrafa
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a><a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a><a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Uppfæra stöðu fyrirframgreiddra pantana og reikninga sjálfkrafa
 
 Þú getur flýtt fyrir pöntunar- og reikningsvinnslu með því að setja upp verkraðarfærslur sem uppfæra stöðu þessara skjala sjálfkrafa. Þegar fyrirframgreiðslureikningur er greiddur geta verkraðarfærslurnar sjálfkrafa breytt stöðu skjalsins úr **Bíður fyrirframgreiðslu** í **Útgefið**. Þegar þú setur upp verkraðarfærslurnar eru kóðaeiningarnar sem þú þarft að nota **383 Uppf. fyrirfgr. á sölu í bið** og **383 Uppf. fyrirfgr. á innkaupum í bið**. Mælt er með því að keyra færslurnar reglulega, t.d. á mínútu fresti. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)  
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

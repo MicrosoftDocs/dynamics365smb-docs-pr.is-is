@@ -10,7 +10,7 @@ ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="batch-post-output-and-run-times"></a><a name="batch-post-output-and-run-times"></a>Fjöldabóka frálag og keyrslutíma
+# <a name="batch-post-output-and-run-times"></a><a name="batch-post-output-and-run-times"></a><a name="batch-post-output-and-run-times"></a>Fjöldabóka frálag og keyrslutíma
 
 Frálagsmagnið sýnir framvindu vinnunnar sem lokið magn og notuð afköst vinnu eða vélastöðvar.
 
@@ -25,7 +25,7 @@ Hægt er að nota frálagsbókina til að:
 
  **Á síðu framleiðslubókar**  er hægt að gera sömu verk og eru á  **síðunni Frálagsbók**  og einnig gera notkunarbókunarverk. Frekari upplýsingar eru í [Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a><a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Að bóka frálagsmagn og/eða skrá keyrslutíma fyrir eina eða fleiri framleiðslupantanalínur
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a><a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a><a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Að bóka frálagsmagn og/eða skrá keyrslutíma fyrir eina eða fleiri framleiðslupantanalínur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Úttaksbók** og velja síðan viðkomandi tengil.  
 2. Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum og/eða keyrslutímanum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ Hægt er að nota frálagsbókina til að:
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Bóka rýrnun handvirk](production-how-to-post-scrap.md)
 [Bakfæra frálagsbókun](production-how-to-reverse-output-posting.md)

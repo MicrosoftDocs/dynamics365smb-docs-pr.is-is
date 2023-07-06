@@ -11,7 +11,7 @@ ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setting-up-banking"></a><a name="setting-up-banking"></a>Uppsetning bankaþjónustu
+# <a name="setting-up-banking"></a><a name="setting-up-banking"></a><a name="setting-up-banking"></a>Uppsetning bankaþjónustu
 
 Með því að nota bankareikningaspjöld er hægt að fylgjast með öllum bankareikningum, í hvaða gjaldmiðli sem er. Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun.
 
@@ -25,7 +25,7 @@ Til að geta notað rafræna bankaþjónustu til að flytja inn bankayfirlit og 
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  

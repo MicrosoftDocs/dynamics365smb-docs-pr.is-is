@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="special-data-output-and-reports-for-the-icelandic-tax-authority"></a><a name="special-data-output-and-reports-for-the-icelandic-tax-authority"></a>Sérstök gögn og skýrslur fyrir íslensk skattyfirvöld
+# <a name="special-data-output-and-reports-for-the-icelandic-tax-authority"></a><a name="special-data-output-and-reports-for-the-icelandic-tax-authority"></a><a name="special-data-output-and-reports-for-the-icelandic-tax-authority"></a>Sérstök gögn og skýrslur fyrir íslensk skattyfirvöld
 
 Þess er krafist í lögum að skattyfirvöldum sé send gagnaskrá á tilteknu sniði.  
 
@@ -18,7 +18,7 @@ Til að búa til að gagnaskrá fyrir skattyfirvöld þurfa allir reikningar í 
 
 Fjárhagsreikningar eru tengdir fyrirfram skilgreindum reikningskótum hins opinbera og þessum kótum er skipt upp í hópa og tegundir. Bæta þarf við viðeigandi skattstofunúmerum og tengja fjárhagsreikninga við þessa kóta handvirkt. Einnig þarf að tilkynna gögnin til skattyfirvalda.  
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 [Senda VSK skýrslu inn til skattayfirvalda](../../finance-how-report-vat.md)
 
 

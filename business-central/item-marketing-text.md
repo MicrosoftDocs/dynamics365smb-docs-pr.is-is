@@ -9,13 +9,13 @@ ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
-# <a name="add-marketing-text-to-items"></a><a name="add-marketing-text-to-items"></a>Bæta markaðstexta við vörur
+# <a name="add-marketing-text-to-items"></a><a name="add-marketing-text-to-items"></a><a name="add-marketing-text-to-items"></a>Bæta markaðstexta við vörur
 
 Ef um er að ræða vöru sem er skráð í Business Central er hægt að skrifa  *markaðstexta*  um vöruna. Þótt markaðstexti sé nokkurs konar Lýsing þá er hann ólíkur eftir lýsingarsviði  **vöru** .  **Reiturinn Lýsing**  er vanalega notaður sem Birtingarheiti þess að nota fljótt til að auðkenna afurðin. Markaðstextinn er hins vegar fremur ríkur og lýsandi texti. Tilgangur þess er að bæta markaðssetningu og kynningarefni á efni, einnig þekkt sem  *eintak*. Þennan texta er síðan hægt að birta með vörunni ef hann er birtur á vefbúð, Like Shopify.
 
 Það eru tvær leiðir til að búa til markaðstexta. Auðveldasta leiðin til að komast af stað er að nota Copilot, sem stingur upp á AI-myndaðan texta fyrir þig. Hin leiðin er að byrja frá grunni. 
 
-## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a> Stofna markaðstexta með AI-myndaða (Forskoðun) með Copilot
+## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a> Stofna markaðstexta með AI-myndaða (Forskoðun) með Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -29,7 +29,7 @@ Copilot er hönnuð til að spara þér tíma og hjálpa þér að skrifa skapan
 > [!NOTE]
 > Í forskoðunarútgáfu Viðskiptamiðis er aðeins texti í myndskrá á ensku.
 
-### <a name="prerequisites"></a><a name="prerequisites"></a>Frumskilyrði
+### <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Frumskilyrði
 
 - Þú notar  [forskoðunarútgáfu](ai-preview-getstarted.md)  af Business Central sem er virkjaður fyrir Copilot. Virkjun Copilot er unnin af admin. Frekari upplýsingar er að fara í til að  [samskipa texta fyrir MARKAÐSSETNINGU AI-vara með Copilot](enable-ai.md).
 - Tungumálið sem þú notar í Viðskiptamiðinu verður að vera Enskt. Eitthvert af tiltækum enskum staðin mun virka, eins og Enska (Bandaríkin), Enska (Bretland), eða Enska (Suður-Afríka).
@@ -37,7 +37,7 @@ Copilot er hönnuð til að spara þér tíma og hjálpa þér að skrifa skapan
    Til að breyta tungumálinu, efst í hægra horninu, skaltu velja stillingar fyrir  **stillingar**  teikni ![...](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð"). > **Stillingar** > **tungumáls**. Frekari upplýsingar er að fara í breytingar á  [grunnstillingum](ui-change-basic-settings.md#language).
 -  [SKOÐAÐU spurningar](ai-faq.md)  um copilot til að fá meiri upplýsingar um AI-myndaðar texta tillögur frá copilot og hvernig þú átt að nota þær.
 
-### <a name="create-first-draft-with-copilot"></a><a name="create-first-draft-with-copilot"></a>Búa til fyrstu drög með Copilot
+### <a name="create-first-draft-with-copilot"></a><a name="create-first-draft-with-copilot"></a><a name="create-first-draft-with-copilot"></a>Búa til fyrstu drög með Copilot
 
 1. Í Business Central er varan sem á að breyta opnuð. Til að opna vöru þarf að gera eftirfarandi:
 
@@ -72,7 +72,7 @@ Copilot er hönnuð til að spara þér tíma og hjálpa þér að skrifa skapan
    > [!TIP]
    > [Hvaðan kemur tillagan?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)
 
-### <a name="review-edit-and-save-text"></a><a name="review-edit-and-save-text"></a>Yfirfara, breyta og vista texta
+### <a name="review-edit-and-save-text"></a><a name="review-edit-and-save-text"></a><a name="review-edit-and-save-text"></a>Yfirfara, breyta og vista texta
 
 Þegar búið er að taka fyrstu uppkastið þarf að fara yfir það og gera breytingar á textanum til að fá hana tilbúna til birtingar. Þessi vinna er unnin úr  **stofunum með Copilot**  -síðunni. Núgildandi texti birtist í  **reitnum markaðssetning texta** . Síðan gerir þér kleift að fá fleiri tillögur, breyta kjörum til að hafa áhrif á tillögurnar og gera handvirkt breytingar og stíla textann.
 
@@ -94,7 +94,7 @@ Notaðu eftirfarandi leiðbeiningar til að ganga frá og vista markaðstexta.
 4. Ef fara á aftur í fyrri tillögu skal velja  **afturkalla**.
 5. Skoðið vandlega textann fyrir nákvæmni og viðeigandi texta og veljið  **síðan í lagi**  til að vista hann.
 
-### <a name="improve-and-tailor-text-suggestions"></a><a name="improve-and-tailor-text-suggestions"></a>Bæta og sníða tillögur að texta
+### <a name="improve-and-tailor-text-suggestions"></a><a name="improve-and-tailor-text-suggestions"></a><a name="improve-and-tailor-text-suggestions"></a>Bæta og sníða tillögur að texta
 
 Það eru nokkur skref sem hægt er að gera til að bæta fram tillögur textans og klikka þá á því að henta persónulega eða fyrirtækinu í eigin gjörðum.
 
@@ -115,7 +115,7 @@ Notaðu eftirfarandi leiðbeiningar til að ganga frá og vista markaðstexta.
 
    Í copilot er að finna orð og orðasambönd sem tengjast flokknum og vinna þau inn í leiðbeinandi texta.
 
-## <a name="create-marketing-text-from-scratch"></a><a name="create-marketing-text-from-scratch"></a>Búa til markaðstexta frá grunni
+## <a name="create-marketing-text-from-scratch"></a><a name="create-marketing-text-from-scratch"></a><a name="create-marketing-text-from-scratch"></a>Búa til markaðstexta frá grunni
 
 1. Í Business Central er varan opnuð sem á að breyta á eftirfarandi hátt:
 
@@ -129,7 +129,7 @@ Notaðu eftirfarandi leiðbeiningar til að ganga frá og vista markaðstexta.
 3. Gera breytingar á texta beint í  **markaðskextextareitinn** . Notaðu Verkfærasláin meðfram botni kasssins til að sníða og stíla texta, bæta við tenglum og fleira.
 4. Valið  **er í lagi**  þegar gert er til að vista textann.
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Yfirlit um markaðssetningu á AI-knúinn vöru með Copilot](ai-overview.md)  
 [Grunnstilla hluta markaðstexta gervigreindar með Copilot](enable-ai.md)  

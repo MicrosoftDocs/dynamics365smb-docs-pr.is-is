@@ -11,12 +11,12 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-tax-file-formats-dk-extension"></a><a name="the-tax-file-formats-dk-extension"></a>Viðbót fyrir Tax File Formats (DK)
+# <a name="the-tax-file-formats-dk-extension"></a><a name="the-tax-file-formats-dk-extension"></a><a name="the-tax-file-formats-dk-extension"></a>Viðbót fyrir Tax File Formats (DK)
 Ef þú stundar viðskipti við fyrirtæki, eða innri útibú eða dótturfélög, í öðrum Evrópulöndum þarftu að tilkynna upplýsingar um starfsemina til SKAT og Statistics Denmark. Ef þú notar virðisaukaskatt og Intrastat-skýrslugerð í [!INCLUDE[prod_short](includes/prod_short.md)], getur þessi viðbót tryggt að skráin sem þú flytur út sé samhæf við kröfur þessara stofnunana. Viðbótin bætir kóðaeiningu MS-ECSL skýrsluútflutningsskrá og Intrastat-útflutningslínur í VSK skýrsluskilgreininguna, svo þú getur flutt gögn í nýju sniði strax.
 
 Viðbótin er ókeypis, þú þarft bara að setja hana upp.
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 [Sérstilling Business Central með viðbótum](ui-extensions.md)
 
 

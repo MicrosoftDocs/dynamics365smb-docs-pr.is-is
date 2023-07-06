@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="post-multiple-documents-at-the-same-time"></a><a name="post-multiple-documents-at-the-same-time"></a>Bóka mörg skjöl samtímis
+# <a name="post-multiple-documents-at-the-same-time"></a><a name="post-multiple-documents-at-the-same-time"></a><a name="post-multiple-documents-at-the-same-time"></a>Bóka mörg skjöl samtímis
 
 Í stað þess að bóka eitt skjal í einu er hægt að velja mörg óbókuð skjöl í lista fyrir bókun án tafar eða fyrir fjöldabókun samkvæmt áætlun, svo sem við lok dags. Þetta getur komið sér vel ef aðeins yfirmaður getur bókað skjöl sem aðrir notendur hafa búið til eða til að koma í veg fyrir vandamál tengd afköstum þegar bókun er gerð á vinnutíma.
 
-## <a name="to-post-multiple-purchase-orders-immediately"></a><a name="to-post-multiple-purchase-orders-immediately"></a>Til að bóka margar innkaupapantanir strax
+## <a name="to-post-multiple-purchase-orders-immediately"></a><a name="to-post-multiple-purchase-orders-immediately"></a><a name="to-post-multiple-purchase-orders-immediately"></a>Til að bóka margar innkaupapantanir strax
 
 Eftirfarandi ferli útskýrir hvernig á að bóka margar innkaupapantanir strax. Skrefin eru svipuð fyrir öll innkaupa- og söluskjöl.
 
@@ -26,7 +26,7 @@ Eftirfarandi ferli útskýrir hvernig á að bóka margar innkaupapantanir strax
 5. Veldu **Bókun** aðgerðina og svo aðgerðina **Bóka**.
 6. Velja hnappinn **Já** á staðfestingarskilaboðunum.
 
-## <a name="to-batch-post-multiple-purchase-orders"></a><a name="to-batch-post-multiple-purchase-orders"></a>Til að runubóka marga innkaupapantanir
+## <a name="to-batch-post-multiple-purchase-orders"></a><a name="to-batch-post-multiple-purchase-orders"></a><a name="to-batch-post-multiple-purchase-orders"></a>Til að runubóka marga innkaupapantanir
 
 Eftirfarandi ferli útskýrir hvernig á að fjöldabóka innkaupapantanir. Skrefin eru svipuð fyrir öll innkaupa- og söluskjöl þar sem aðgerðin **Fjöldabóka** er í boði.
 
@@ -42,7 +42,7 @@ Eftirfarandi ferli útskýrir hvernig á að fjöldabóka innkaupapantanir. Skre
 > [!NOTE]
 > Bókun margra fylgiskjala gæti tekið nokkurn tíma og lokað á aðra notendur. Íhugaðu að virkja bakgrunnsbókun. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
-## <a name="to-set-up-background-posting-with-job-queues"></a><a name="to-set-up-background-posting-with-job-queues"></a>Að setja upp bókun í bakgrunni með verkraðir
+## <a name="to-set-up-background-posting-with-job-queues"></a><a name="to-set-up-background-posting-with-job-queues"></a><a name="to-set-up-background-posting-with-job-queues"></a>Að setja upp bókun í bakgrunni með verkraðir
 Verkraðir eru áhrifaríkt verkfæri til að raða keyrslu viðskiptaferla í bakgrunni, t.d. þegar margir notendur reyna að bóka sölupantanir, en aðeins er hægt að vinna úr einni pöntun í einu.  
 
 Eftirfarandi ferli lýsir hvernig setja á upp bakgrunnsbókun fyrir sölupantanir. Skrefin eru svipuð fyrir Kaup í innkaup.  
@@ -67,14 +67,14 @@ Eftirfarandi ferli lýsir hvernig setja á upp bakgrunnsbókun fyrir sölupantan
 4. Til að staðfesta að verkröðin vinni eins og búist er við skal bóka sölupöntun. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
     Sölupöntun verður nú bætt við valda verkraðarfærslu, sem skilgreinir hvenær skjölin eru bókuð. 
 
-### <a name="to-view-status-from-a-sales-or-purchase-document"></a><a name="to-view-status-from-a-sales-or-purchase-document"></a>Til að skoða stöðu úr sölu- eða innkaupaskjali
+### <a name="to-view-status-from-a-sales-or-purchase-document"></a><a name="to-view-status-from-a-sales-or-purchase-document"></a><a name="to-view-status-from-a-sales-or-purchase-document"></a>Til að skoða stöðu úr sölu- eða innkaupaskjali
 Ef verkröðin getur ekki bókað sölupöntunina breytist staðan í **Villa** og er sölupöntuninni þá bætt við lista yfir sölupantanir sem notandinn verður að meðhöndla handvirkt.
 1. Úr skjalinu sem þú reyndir að bóka með verkröðinni skal velja bakgrunnsbókun **Staða verkraðar** sem mun innihalda **Villu**.
 2. Fara skal yfir villuboðin og leysa vandann.
 
 Þú getur einnig yfirfarið síðuna **Kladdafærslur verkraðar** ef tókst að bóka sölupöntunina. Frekari upplýsingar er að finna í hlutanum [Fylgjast með verkröðinni](#monitor-the-job-queue).
 
-## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a><a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Til að stofna færslu verkraðar fyrir bókun runu á sölupöntunum
+## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a><a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a><a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Til að stofna færslu verkraðar fyrir bókun runu á sölupöntunum
 
 Einnig er hægt að fresta bókunum þar til það hentar fyrirtækinu. Til dæmis getur það verið gagnlegt í fyrirtæki að keyra tilteknar vinnslur þegar flestum gagnafærslum fyrir daginn er lokið. Þú getur náð þessu fram með því að láta verkröðina keyra mismunandi bókunarskrár í runu, eins og t.d. skrárnar **Bókunarsölupantanir í runu**, **Fjöldabóka sölureikninga**, og Bókunarsölukreditreikningar í runu. [!INCLUDE[prod_short](includes/prod_short.md)] styður bakgrunnsbókun fyrir öll sölu-, innkaupa- og þjónustuskjöl.
 
@@ -111,13 +111,13 @@ Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka sö
 
 Sölupantanir sem eru innan tilgreindra sía verða nú bókaðar á hverjum virkum degi kl. 16:00.
 
-## <a name="monitor-the-job-queue"></a><a name="monitor-the-job-queue"></a>Fylgjast með verkröðinni
+## <a name="monitor-the-job-queue"></a><a name="monitor-the-job-queue"></a><a name="monitor-the-job-queue"></a>Fylgjast með verkröðinni
 
 Ef bókun í bakgrunni er sett upp með verkröðum skaltu gera það að reglubundnu verki að fylgjast með verkröðinni til að ná öllum vandamálum sem koma upp. Hægt er að fylgjast með stöðunni á síðunni **Verkraðarfærslur**. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).  
 
 Sem stjórnandi getur þú notað [Application Insights](/azure/azure-monitor/app/app-insights-overview) til að safna saman og greina fjarmælingar sem þú getur notað til að greina vandamál. Frekari upplýsingar er að finna í [Fylgjast með og greina fjarmælingar](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) í þróunar- og stjórnunarefni.  
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Bókun skjala og færslubóka](ui-post-documents-journals.md)  
 [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)  

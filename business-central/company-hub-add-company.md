@@ -8,7 +8,7 @@ ms.search.form: '1151, 1155, 1166, 1165'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="add-companies-to-your-company-hub"></a><a name="add-companies-to-your-company-hub"></a>Bæta fyrirtækjum við fyrirtækjamiðstöðina
+# <a name="add-companies-to-your-company-hub"></a><a name="add-companies-to-your-company-hub"></a><a name="add-companies-to-your-company-hub"></a>Bæta fyrirtækjum við fyrirtækjamiðstöðina
 
 Með fyrirtækjamiðstöðinni er hægt að fá nálgast vinnuna í gegnum mörg fyrirtæki í mörgum [!INCLUDE [prod_short](includes/prod_short.md)]-umhverfum. Hægt er að bæta umhverfi og fyrirtækjum við handvirkt, ef fyrirtækin birtast ekki sjálfkrafa í fyrirtækjamiðstöðinni.  
 
@@ -17,7 +17,7 @@ Með fyrirtækjamiðstöðinni er hægt að fá nálgast vinnuna í gegnum mörg
 > [!NOTE]
 > Hægt er að tengja fyrirtækjamiðstöð við eins mörg fyrirtæki og þörf krefur. Hins vegar er aðeins hægt að tengja fyrirtækjamiðstöð við fyrirtæki sem eru hýst á [!INCLUDE [prod_short](includes/prod_short.md)] á netinu.
 
-## <a name="environment-links"></a><a name="environment-links"></a>Umhverfistenglar
+## <a name="environment-links"></a><a name="environment-links"></a><a name="environment-links"></a>Umhverfistenglar
 
 Tengilll á umhverfi er spjald þar sem tilgreint er [!INCLUDE [prod_short](includes/prod_short.md)]-umhverfi sem hýsir eitt eða fleiri fyrirtæki sem notandi starfar í. Gögnin á spjaldi hvers umhverfis fyrir sig eru tilgreind af þér og þú getur breytt þeim að vild. Aftur á móti er reiturinn **Tengill umhverfis** mikilvægur - þannig færð þú aðgang að hverju fyrirtæki fyrir sig í [!INCLUDE [prod_short](includes/prod_short.md)]. Notið aðgerðina **Prófa tenginguna** á borðanum til að sannreyna hvort réttur tengill hafi verið sleginn inn. Tengilinn sem þarf að færa inn bendir á umhverfi sem hýsir fyrirtækið sem verið er að bæta við og hann verður að innihalda kennið fyrir Azure Active Directory (Azure AD) eða lénsheiti fyrirtækisins. Ef þeir hafa til dæmis tilgreint aðsetur á borð við MyBusiness.com, þá er tengillinn á [!INCLUDE [prod_short](includes/prod_short.md)] þeirra ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. Annars mun hann líta einhvern veginn svona út: ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
 
@@ -30,14 +30,14 @@ Tengillinn er notaður þegar fyrirtækið er valið í fyrirtækjamiðstöðinn
 >
 > Ef þú hefur verið farið yfir í þrjátíu daga tilraunafyrirtæki, Fyrirtækið mitt, geturðu bætt því við listann með því að velja aðgerðina **Endurhlaða / Endurhlaða öllum fyrirtækjum** í listanum.
 
-## <a name="load-companies"></a><a name="load-companies"></a>Hlaða fyrirtæki
+## <a name="load-companies"></a><a name="load-companies"></a><a name="load-companies"></a>Hlaða fyrirtæki
 
 Þegar umhverfunum hefur verið bætt við birtast fyrirtækin sjálfkrafa. Hins vegar ef vitað er að nýju fyrirtæki hefur verið bætt við umhverfi er hægt að velja aðgerðina **Endurhlaða öllum fyrirtækjum** til að endurhlaða listanum. Notið sömu aðgerðina til að endurhlaða gögnum frá öllum fyrirtækjunum.  
 
 > [!TIP]
 > Til að uppfæra gögnin í fyrirtækjamiðstöðinni þarf að hafa aðgang að gögnum í fyrirtækjunum sem gögnin koma frá.
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  

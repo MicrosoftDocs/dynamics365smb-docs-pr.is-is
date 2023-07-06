@@ -11,36 +11,36 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="troubleshooting-microsoft-teams-integration-with-"></a><a name="troubleshooting-microsoft-teams-integration-with-"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshooting-microsoft-teams-integration-with-"></a><a name="troubleshooting-microsoft-teams-integration-with-"></a><a name="troubleshooting-microsoft-teams-integration-with-"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Í þessari grein er að finna upplýsingar um hvernig á að finna og lagfæra vandamál sem geta komið upp þegar Microsoft Teams er notað með [!INCLUDE [prod_short](includes/prod_short.md)], sem dæmigerður notandi eða stjórnandi.
 
-## <a name="the-sign-in-link-doesnt-work"></a><a name="the-sign-in-link-doesnt-work"></a>Innskráningartengillinn virkar ekki
+## <a name="the-sign-in-link-doesnt-work"></a><a name="the-sign-in-link-doesnt-work"></a><a name="the-sign-in-link-doesnt-work"></a>Innskráningartengillinn virkar ekki
 
 Ef reynt er að skrá sig inn í [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams strax eftir uppsetningu forritsins og innskráningartengillinn bregst ekki við, getur það verið vegna þess að forritið hefur ekki lokið uppsetningunni að fullu. Til að reyna að laga vandamálið skal skrá sig út úr Teams-biðlaranum og skrá sig inn aftur.
 
-## <a name="the-settings-page-is-empty"></a><a name="the-settings-page-is-empty"></a>Stillingasíðan er tóm
+## <a name="the-settings-page-is-empty"></a><a name="the-settings-page-is-empty"></a><a name="the-settings-page-is-empty"></a>Stillingasíðan er tóm
 
 Þú verður fyrst að skrá þig inn til að komast í stillingarnar þínar. Til að skrá sig inn í forritið skal annaðhvort líma tengil í [!INCLUDE [prod_short.md](includes/prod_short.md)]-færslu eða reyna að leita að tengiliðum. Báðar þessar aðgerðir munu leiða þig í gegnum skráningarviðmótið og þar á eftir geturðu notað síðuna **Stillingar**.
 
-## <a name="i-changed-company-but-it-didnt-seem-to-work"></a><a name="i-changed-company-but-it-didnt-seem-to-work"></a>Ég skipti um fyrirtæki en það virtist ekki virka
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a><a name="i-changed-company-but-it-didnt-seem-to-work"></a><a name="i-changed-company-but-it-didnt-seem-to-work"></a>Ég skipti um fyrirtæki en það virtist ekki virka
 
 Þegar skipt er um fyrirtæki á síðunni **Stillingar** gæti fellilisti skipanareitsins sýnt að þú sért enn að leita í fyrra fyrirtækinu. Þetta vandamál kemur upp þegar síðan **Stillingar** er opnuð beint úr skipanareitnum. Í þessu tilfelli tókst að skipta um fyrirtæki og leitað verður í fyrirtækinu sem þú skiptir yfir í. Vandamálið er að fellilisti skipanareitsins hefur ekki enn verið uppfærður. Til að fellilistinn endurspegli fyrirtækið sem þú ætlar að leita í skaltu loka eða losa [!INCLUDE [prod_short.md](includes/prod_short.md)] úr skipanareitnum og síðan opna forritið aftur.
 
 
 <!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
 
-## <a name="something-went-wrong-error-when-searching-for-contacts"></a><a name="something-went-wrong-error-when-searching-for-contacts"></a>Villan „Eitthvað fór úrskeiðis“ þegar leitað var að tengiliðum
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a><a name="something-went-wrong-error-when-searching-for-contacts"></a><a name="something-went-wrong-error-when-searching-for-contacts"></a>Villan „Eitthvað fór úrskeiðis“ þegar leitað var að tengiliðum
 
 Þessi villa gæti komið upp þegar leitað er í fyrirtæki sem hefur ekki verið frumstillt eða svarar ekki. Til dæmis er ekki hægt að leita í nýju prufufyrirtæki sem hefur ekki enn samþykkt notkunarskilmálana. Til að leysa þetta vandamál skal reyna að skrá sig inn í vefbiðlara [!INCLUDE [prod_short.md](includes/prod_short.md)] og bregðast við eða hafna öllum svargluggum sem birtast í upphafi.
 
-## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a><a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>„API fyrir tengilið/samantekt tengiliða finnst ekki“ villa við leit að tengiliðum
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a><a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a><a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>„API fyrir tengilið/samantekt tengiliða finnst ekki“ villa við leit að tengiliðum
 
 Þetta vandamál getur stafað af sérsniðnum lausnum eða lausnum fyrir viðskiptalífið sem hafa áhrif á eða breyta [!INCLUDE [prod_short.md](includes/prod_short.md)], eða þau bjóða ekki upp á API fyrir samskipti eða samskiptayfirlit. Ef vandamálið lagast ekki skal hafa samband við kerfisstjóra eða stuðningsaðila.
 
-## <a name="none-of-my-links-expand-into-a-card"></a><a name="none-of-my-links-expand-into-a-card"></a>Enginn af tenglunum mínum stækkar í spjald
+## <a name="none-of-my-links-expand-into-a-card"></a><a name="none-of-my-links-expand-into-a-card"></a><a name="none-of-my-links-expand-into-a-card"></a>Enginn af tenglunum mínum stækkar í spjald
 
 Ef þetta vandamál kemur upp, þá eru nokkrir hlutir hér sem þú getur prófað:
 
@@ -61,7 +61,7 @@ Ef þetta vandamál kemur upp, þá eru nokkrir hlutir hér sem þú getur próf
 
 4. Fyrirtækið kann einnig að koma í veg fyrir að þú getir límt tengla sem verða að spjöldum. Hafa skal samband við stjórnanda til að skilja fyrirtækisreglur Teams sem kunna að eiga við.
 
-## <a name="my-link-sometimes-doesnt-expand-into-a-card"></a><a name="my-link-sometimes-doesnt-expand-into-a-card"></a>Tengillinn minn víkkar stundum ekki í spjald
+## <a name="my-link-sometimes-doesnt-expand-into-a-card"></a><a name="my-link-sometimes-doesnt-expand-into-a-card"></a><a name="my-link-sometimes-doesnt-expand-into-a-card"></a>Tengillinn minn víkkar stundum ekki í spjald
 
 Tengill verður ekki víkkaður í spjald við eftirfarandi aðstæður:
 
@@ -83,7 +83,7 @@ Dæmi:
 
 Tæknilegar upplýsingar um [!INCLUDE [prod_short](includes/prod_short.md)]-vefslóðir er að finna í [Vefslóð vefbiðlara](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) í [!INCLUDE [prod_short](includes/prod_short.md)]-þróunaraðila og IT Pro hjálp.
 
-## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a><a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Upplýsingaglugginn opnast en sýnir villu áður en upplýsingar eru sýndar
+## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a><a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a><a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Upplýsingaglugginn opnast en sýnir villu áður en upplýsingar eru sýndar
 
 Tvær ástæður geta verið fyrir þessu vandamáli: ekki nægar heimildir í [!INCLUDE [prod_short](includes/prod_short.md)] eða vafrastillingar (þegar Teams er notað í vafranum).
 
@@ -101,7 +101,7 @@ Tvær ástæður geta verið fyrir þessu vandamáli: ekki nægar heimildir í [
 
     Frekari upplýsingar um lágmarkskröfur vafrans er að finna í [Lágmarkskröfur fyrir notkun [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a><a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Vandamál kom upp með myndavélina eða staðsetningar í Teams
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a><a name="im-having-problems-with-the-camera-or-location-in-teams"></a><a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Vandamál kom upp með myndavélina eða staðsetningar í Teams
 
 Þegar eiginleikar [!INCLUDE [prod_short](includes/prod_short.md)] eru notaðir í upplýsingaglugganum sem þarf aðgang að staðsetningu þinni eða myndavél tækis, þarf fyrst að veita Teams samþykki fyrir því að fá aðgang að þessum möguleikum tækisins.  
 
@@ -115,7 +115,7 @@ Til að fá aðstoð við að breyta þessum stillingum skal sjá [Myndavélin m
 
 Sumir vafrar, eins og nýi Microsoft Edge, gera þér kleift að velja hvaða myndavél tækis á að nota þegar tækið styður margar myndavélar. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a><a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams sýnir ýmis tungumál fyrir mín spjöld og upplýsingar spjalds
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a><a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a><a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams sýnir ýmis tungumál fyrir mín spjöld og upplýsingar spjalds
 
 Til þess að spjöld og upplýsingar spjalds birti alltaf á sama tungumálinu í Teams verður tungumál Teams-biðlarans og tungumálið sem er notað í [!INCLUDE [prod_short](includes/prod_short.md)]-vefbiðlaranum að passa.
 
@@ -125,11 +125,11 @@ Til þess að spjöld og upplýsingar spjalds birti alltaf á sama tungumálinu 
 
 Frekari upplýsingar um hvernig tungumál virka á milli Teams og [!INCLUDE [prod_short](includes/prod_short.md)] er að finna í [Teams - Algengar spurningar](teams-faq.md#language).
 
-## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a><a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Ég breytti reit í upplýsingaglugganum, en breytingin vistaðist ekki
+## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a><a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a><a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Ég breytti reit í upplýsingaglugganum, en breytingin vistaðist ekki
 
 Breytingar sem gerðar eru á reit í upplýsingagluggum eru sjálfkrafa vistaðar þegar farið er úr reitnum. Áður en glugganum er lokað eftir að svæði er breytt þarf að gæta þess að velja  <kbd>TAB</kbd>  takkann eða smella á/tappa utan við svæðið.
 
-## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a><a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Nýr reitur birtist í forritavalmyndinni. Hvernig fjarlægi ég þetta?
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a><a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a><a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Nýr reitur birtist í forritavalmyndinni. Hvernig fjarlægi ég þetta?
 
 Þegar þú skoðar forritin þín á heimasíðu Office 365 (https://home.office.com) eða í forritavalmyndinni mun nýr reitur sem heitir „Business Central Teams Integration Service Connector“ birtast eftir að [!INCLUDE [prod_short](includes/prod_short.md)]-forritið hefur verið uppsett fyrir Teams. Þessi reitur gefur ekkert gildi og er hægt að fela hann á öruggan hátt.
 
@@ -143,19 +143,19 @@ Sem kerfisstjóri, eru með Azure Active Directory stjórnandaheimildir, og getu
 > [!NOTE]
 > Það mun líða töluverður tími áður en þessi breyting tekur gildi.
 
-## <a name="duplicate-text-in-the-share-to-teams-window"></a><a name="duplicate-text-in-the-share-to-teams-window"></a>Afrita texta í glugganum Deila með Teams
+## <a name="duplicate-text-in-the-share-to-teams-window"></a><a name="duplicate-text-in-the-share-to-teams-window"></a><a name="duplicate-text-in-the-share-to-teams-window"></a>Afrita texta í glugganum Deila með Teams
 
 Þegar þú límir texta í skilaboðagluggann í glugganum **Deila með Teams** er textinn afritaður. Þetta vandamál er þekkt hjá Microsoft og verður tekið á því í síðari uppfærslu. 
 
-## <a name="unable-to-sign-into-the-share-to-teams-window"></a><a name="unable-to-sign-into-the-share-to-teams-window"></a>Get ekki skráð mig inn í gluggann Deila með Teams
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a><a name="unable-to-sign-into-the-share-to-teams-window"></a><a name="unable-to-sign-into-the-share-to-teams-window"></a>Get ekki skráð mig inn í gluggann Deila með Teams
 
 Þetta vandamál getur komið upp af ýmsum ástæðum. Til dæmis þarf auðkennið sem þú notar til að skrá þig inn að hafa aðgang að Microsoft Teams, svo sem í gegnum Microsoft 365 áskrift.
 
-## <a name="my-cards-no-longer-have-a-popout-button"></a><a name="my-cards-no-longer-have-a-popout-button"></a>Spjöldin mín eru ekki lengur með sprettihnapp
+## <a name="my-cards-no-longer-have-a-popout-button"></a><a name="my-cards-no-longer-have-a-popout-button"></a><a name="my-cards-no-longer-have-a-popout-button"></a>Spjöldin mín eru ekki lengur með sprettihnapp
 
 Frá og með apríl 2022 munu tenglar sem sýndir eru í samandregnu spjaldi í Teams ekki lengur innihalda hnappinn **Sprettimynd**. Til að opna spjaldið í eigin glugga skal velja **Upplýsingar**, síðan velja **Opna í vafra** úr fellivalmyndinni (**...**) efst í hægra horni gluggans.
 
-## <a name="cant-pin-a-card-to-tab"></a><a name="cant-pin-a-card-to-tab"></a>Ekki er hægt að festa spjald á flipa
+## <a name="cant-pin-a-card-to-tab"></a><a name="cant-pin-a-card-to-tab"></a><a name="cant-pin-a-card-to-tab"></a>Ekki er hægt að festa spjald á flipa
 
 Nokkrar ástæður eru fyrir þessu vandamáli.
 
@@ -163,16 +163,16 @@ Nokkrar ástæður eru fyrir þessu vandamáli.
 
 - Ekki er hægt festa fyrr en fyrsta Business Central-flipanum er bætt við. Þetta er þekkt vandamál í Teams. 
 
-## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a><a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Einhver bætti við flipa en flipinn birtist ekki hjá mér
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a><a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a><a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Einhver bætti við flipa en flipinn birtist ekki hjá mér
 
 Þetta vandamál er vegna þess að þú ert ekki með BC-forritið fyrir Teams uppsett. Aðeins þeir sem eru með forritið uppsett sjá Business Central-flipana.
 
-## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a><a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Aðrir sjá aðra röðun eða dálkaútlit en það sem höfundur flipans sér
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a><a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a><a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Aðrir sjá aðra röðun eða dálkaútlit en það sem höfundur flipans sér
 
 Þetta vandamál er líklega vegna þess að þú deildir listayfirliti sem er eigið yfirlit. Í þessu tilviki skaltu vinna með stjórnanda þínum til að búa til annaðhvort hlutverkamiðað listayfirlit sem nær yfir mismunandi hlutverk í rásinni/spjallinu eða búa til þetta yfirlit fyrir allt fyrirtækið þannig að allir geti fengið samræmt yfirlit.
 
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  

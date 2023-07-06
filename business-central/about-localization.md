@@ -11,13 +11,13 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-"></a><a name="local-functionality-in-"></a>Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-"></a><a name="local-functionality-in-"></a><a name="local-functionality-in-"></a>Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum hluta geturðu séð lýsingar á virkni sem á við um löndin þar sem Microsoft veitir eftirfylgni við lög og reglugerðir og aðra staðbundna virkni.  
 
 Upplýsingar um studda markaði má finna á [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a><a name="local-functionality"></a>Staðbundin virkni
+## <a name="local-functionality"></a><a name="local-functionality"></a><a name="local-functionality"></a>Staðbundin virkni
 
 Til að fræðast um staðbundna virkni fyrir hvert land/svæði skal velja viðeigandi tengil:
 
@@ -48,11 +48,11 @@ Til að fræðast um staðbundna virkni fyrir hvert land/svæði skal velja við
 |        | Indland | [Staðbundnar aðgerðir fyrir Indland](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nýja-Sjáland | [Staðbundnar aðgerðir fyrir Nýja-Sjáland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countries"></a><a name="other-countries"></a>Önnur lönd
+### <a name="other-countriesregions"></a><a name="other-countries"></a><a name="other-countries"></a>Önnur lönd
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 [Skapa umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Reglufylgni](compliance/compliance-overview.md)  

@@ -11,7 +11,7 @@ ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# <a name="financial-management"></a><a name="financial-management"></a>Fjármálastjórnun
+# <a name="financial-management"></a><a name="financial-management"></a><a name="financial-management"></a>Fjármálastjórnun
 
 [!INCLUDE[prod_short](includes/prod_short.md)] felur í sér staðlaða grunnstillingu fyrir flesta fjárhagsferla en hægt er að breyta þeim í samræmi við þarfir fyrirtækisins. Frekari upplýsingar má finna á [Uppsetning Fjármála](finance-setup-finance.md).
 
@@ -49,13 +49,13 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Vinna með fjárhagsskýrslur og yfirlit í Microsoft Excel. |[Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md) |
 |Kynntu þér hvernig á að nota hlutverkamiðstöð endurskoðanda, fá ytri endurskoðanda í málið og nota fyrirtækjamiðstöðina til að stjórna reikningum fyrir marga viðskiptamenn.|[Upplifun endurskoðanda í Business Central](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a><a name="take-a-video-tour"></a>Horfa á kynningarmyndband
+## <a name="take-a-video-tour"></a><a name="take-a-video-tour"></a><a name="take-a-video-tour"></a>Horfa á kynningarmyndband
 
 Í þessu myndband koma fyrir nokkrir lykilmöguleikar fyrir umsjón með fjármálum. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Sala](sales-manage-sales.md)  

@@ -9,12 +9,12 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a><a name="introduction-to-contoso-coffee-demo-data"></a>Kynning á sýnigögnum Contoso Coffee
+# <a name="introduction-to-contoso-coffee-demo-data"></a><a name="introduction-to-contoso-coffee-demo-data"></a><a name="introduction-to-contoso-coffee-demo-data"></a>Kynning á sýnigögnum Contoso Coffee
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. The  **contoso Coffee**  apps fyrir Business Central bæta við sýnigögnum sem þú getur notað til að læra hvernig á að nota getu í viðskiptafræði Central.  
 
 
-## <a name="set-up-contoso-coffee-data"></a><a name="set-up-contoso-coffee-data"></a>Setja upp Contoso Coffee gögn
+## <a name="set-up-contoso-coffee-data"></a><a name="set-up-contoso-coffee-data"></a><a name="set-up-contoso-coffee-data"></a>Setja upp Contoso Coffee gögn
 
 Til að nota sýnigögn Contoso Coffee þarftu að setja upp tvö forrit í viðeigandi fyrirtæki í [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -31,7 +31,7 @@ Bættu forritunum við autt fyrirtæki í greiddri áskrift eða sem hluti af pr
  -  [Uppsetning](manufacturing/contoso-coffee-manufacturing-intro.md)  framleiðslu til undirbúnings fyrir notkun á  [framleiðsluaðstæðum](#manufacturing-scenarios)
  -  [Uppsetning](warehousing/contoso-coffee-warehousing-intro.md)  vöruhúsa til undirbúnings fyrir notkun á  [vöruhúsaaðstæðum](#warehousing-scenarios)
 
-## <a name="manufacturing-scenarios"></a><a name="manufacturing-scenarios"></a>Framleiðsluaðstæður
+## <a name="manufacturing-scenarios"></a><a name="manufacturing-scenarios"></a><a name="manufacturing-scenarios"></a>Framleiðsluaðstæður
 
 Gögnin á contoso Coffee sem nú styður eftirfarandi framleiðsluáætlanir fyrir próf og þjálfun:
 
@@ -49,7 +49,7 @@ Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
 > [!IMPORTANT]
 > Framleiðsluferlar krefjast þess að notendaupplifun sé stillt á  *aukagjald*  á  **upplýsingasíðu**  félagsins.
 
-## <a name="warehousing-scenarios"></a><a name="warehousing-scenarios"></a>Vöruhúsaaðstæður
+## <a name="warehousing-scenarios"></a><a name="warehousing-scenarios"></a><a name="warehousing-scenarios"></a>Vöruhúsaaðstæður
 
 The contoso kaffi sýnikennsla styður nú við eftirtaldar vöruhúsáætlanir fyrir próf og þjálfun:
 
@@ -59,7 +59,7 @@ The contoso kaffi sýnikennsla styður nú við eftirtaldar vöruhúsáætlanir 
 
 Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
    
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Framleiðsla](../production-manage-manufacturing.md)  
 [Vöruhúsum](../warehouse-manage-warehouse.md)  

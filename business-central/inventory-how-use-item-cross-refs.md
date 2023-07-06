@@ -11,7 +11,7 @@ ms.search.forms: '5737, 5735, 5736'
 ms.date: 10/27/2021
 ms.author: edupont
 ---
-# <a name="use-item-references"></a><a name="use-item-references"></a>Nota vörutilvísanir
+# <a name="use-item-references"></a><a name="use-item-references"></a><a name="use-item-references"></a>Nota vörutilvísanir
 
 Ef þú kaupir eða selur vörur sem þú og lánardrottinn eða viðskiptamaður nota mismunandi skilmála fyrir getur þú sett upp tilvísun milli skilmálanna þinna fyrir vörurnar og skilmálanna sem viðskiptamaður eða lánardrottinn vörunnar nota. Þannig er vörulýsingar-, mælieiningar- eða afbrigðiskóða lánardrottins sjálfkrafa settur inn á viðeigandi skjöl þegar þú fyllir út reitinn **Vörutilvísunarnúmer** .  
 
@@ -22,14 +22,14 @@ Ef þú kaupir eða selur vörur sem þú og lánardrottinn eða viðskiptamaðu
 >
 > Í útgáfum á undan útgáfutímabili 2 árið 2021 getur stjórnandinn kveikt á eiginleikanum *Skrifa lengri vörutilvísanir* á síðunni [Eiginleikastjórnun](https://businesscentral.dynamics.com/?page=2610) (tengill krefst þess að þú sér með [!INCLUDE [prod_short](includes/prod_short.md)] leigjanda). Hvernig tilvísanir eru notaðar breytist ekki en heiti hluta eins og síður og hnappar gera það. Til dæmis verður síðan **Millitilvísanafærslur vöru** að síðunni **Vörutilvísanafærslur**.
 
-## <a name="to-start-using-item-references"></a><a name="to-start-using-item-references"></a>Að byrja að nota vörutilvísanir
+## <a name="to-start-using-item-references"></a><a name="to-start-using-item-references"></a><a name="to-start-using-item-references"></a>Að byrja að nota vörutilvísanir
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
 1. Veldu :::image type="icon" source="media/ui-search/search_small.png" border="false"::: táknið farðu í **Uppsetning birgða** og veldu síðan viðkomandi tengil.
 2. Veldu reitinn **Nota vörutilvísanir**.
 
-## <a name="to-set-up-an-item-reference"></a><a name="to-set-up-an-item-reference"></a>Að setja upp vörutilvísun
+## <a name="to-set-up-an-item-reference"></a><a name="to-set-up-an-item-reference"></a><a name="to-set-up-an-item-reference"></a>Að setja upp vörutilvísun
 
 1. Veldu :::image type="icon" source="media/ui-search/search_small.png" border="false"::: táknið, farðu í **Vörur** og veldu síðan viðkomandi tengil.
 2. Opnaðu spjaldið fyrir vöruna sem þú vilt búa til tilvísun fyrir.
@@ -41,7 +41,7 @@ Ef þú kaupir eða selur vörur sem þú og lánardrottinn eða viðskiptamaðu
 
 Eftirfarandi ferli lýsir því hvernig á að tilgreina vörutilvísun í innkaupapöntun. Svipuð skref gilda um söluskjöl og önnur innkaupaskjöl.  
 
-## <a name="to-enter-a-vendors-item-description-on-a-document"></a><a name="to-enter-a-vendors-item-description-on-a-document"></a>Að færa inn vörulýsingu lánardrottins í skjali
+## <a name="to-enter-a-vendors-item-description-on-a-document"></a><a name="to-enter-a-vendors-item-description-on-a-document"></a><a name="to-enter-a-vendors-item-description-on-a-document"></a>Að færa inn vörulýsingu lánardrottins í skjali
 
 1. Veljið táknið :::image type="icon" source="media/ui-search/search_small.png" border="false":::, opnið **Innkaupapantanir** og velja síðan viðkomandi tengil.
 2. Stofnaðu innkaupapöntun fyrir lánardrottin sem þú setur upp tilvísun vöru fyrir í ferlinu hér á undan.
@@ -50,7 +50,7 @@ Eftirfarandi ferli lýsir því hvernig á að tilgreina vörutilvísun í innka
 
 Skrifað er yfir reitinn **Lýsing** í línunni með vörulýsingu lánardrottins eins og er uppsett í færslu fyrir tilvísun vörunnar. Ef vörutilvísunin inniheldur afbrigðiskóða eða mælieiningu eru gildin einnig afrituð í skjalið.  
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  

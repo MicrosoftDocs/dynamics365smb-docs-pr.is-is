@@ -10,7 +10,7 @@ ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="allocate-costs-and-income"></a><a name="allocate-costs-and-income"></a>Úthluta kostnaði og tekjum
+# <a name="allocate-costs-and-income"></a><a name="allocate-costs-and-income"></a><a name="allocate-costs-and-income"></a>Úthluta kostnaði og tekjum
 
 Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. Framkvæma má úthlutunina miðað við þrjú atriði:
 
@@ -23,7 +23,7 @@ Nota má úthlutunareiginleika með ítrekunarfærslubókum og eignabókum.
 
 Eftirfarandi ferli lýsa því hvernig skal búa sig undir það að úthluta kostnaði í ítrekunarfærslubók með því að skilgreina úthlutunarlykla. Þegar úthlutunarlyklar eru skilgreindir, er færslubókin kláruð og bókuð eins og hver önnur ítrekunarfærslubók. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
 
-## <a name="to-set-up-allocation-keys"></a><a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla
+## <a name="to-set-up-allocation-keys"></a><a name="to-set-up-allocation-keys"></a><a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla
 
 Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga þegar færslubókin er bókuð. Úthlutunin getur verið í magni, prósentu eða upphæð.  
 
@@ -41,13 +41,13 @@ Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga �
 10. Eftir að hafa fært inn úthlutunarlínurnar skal velja **Í lagi** til að fara aftur á síðuna **endurteknar færslubækur**. Svæðið **Úthlutuð upphæð (USD)** er fyllt út og er eins og svæðið **Upphæð**.
 11. Bóka skal færslubókina.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Til að breyta uppsettum úthlutunarlykli
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Til að breyta uppsettum úthlutunarlykli
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurtekin færslubók** og velja síðan viðkomandi tengil.
 2. Á síðunni **Ítrekunarfærslubók** er færslubók með úthlutun valin.
 3. Velja línu með úthlutuninni og velja síðan **úthlutanir**.
 4. Breyta viðeigandi reitum, og velja svo hnappinn **Í lagi**.
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)    
 [Að bóka skjöl og færslubækur](ui-post-documents-journals.md)    

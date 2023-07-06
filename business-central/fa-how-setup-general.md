@@ -10,18 +10,18 @@ ms.search.form: '5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 563
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-general-fixed-assets-information"></a><a name="set-up-general-fixed-assets-information"></a>Uppsetning almennra eignaupplýsinga
+# <a name="set-up-general-fixed-assets-information"></a><a name="set-up-general-fixed-assets-information"></a><a name="set-up-general-fixed-assets-information"></a>Uppsetning almennra eignaupplýsinga
 
 Áður en hægt er að vinna með eignir, þarf að setja upp sjálfgefna fjárhagsreikninga, úthlutunarlykla, færslubókarsniðmát og keyrslur fyrir bókun á eign og endurflokkun og hægt er að flokka eignir í eignaflokka, til dæmis Áþreifanlegar og Óáþreifanlegar.
 
-## <a name="to-set-up-general-default-values-for-fixed-assets"></a><a name="to-set-up-general-default-values-for-fixed-assets"></a>Uppsetning almennra sjálfgilda fyrir eignir
+## <a name="to-set-up-general-default-values-for-fixed-assets"></a><a name="to-set-up-general-default-values-for-fixed-assets"></a><a name="to-set-up-general-default-values-for-fixed-assets"></a>Uppsetning almennra sjálfgilda fyrir eignir
 
 Skilgreina almenna virkni eða aðgerðina eign og setja upp númeraröð skjala á **Uppsetning Eigna** síðunni.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning eigna** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-fixed-asset-posting-groups"></a><a name="to-set-up-fixed-asset-posting-groups"></a>Setja upp bókunarflokka eigna
+## <a name="to-set-up-fixed-asset-posting-groups"></a><a name="to-set-up-fixed-asset-posting-groups"></a><a name="to-set-up-fixed-asset-posting-groups"></a>Setja upp bókunarflokka eigna
 
 Bókunarflokkar eru notaðir til að skilgreina flokka eigna. Færslur í þessum bókunarflokkum eru bókaðar á sömu fjárhagsreikninga.
 
@@ -35,7 +35,7 @@ Bókunarflokkar eru notaðir til að skilgreina flokka eigna. Færslur í þessu
 
 Nánari upplýsingar um notkun **Setja inn mótreikning eigna** aðgerð á eignafjárhagslínur skal skoða, til dæmis, [Endurmeta eignir](fa-how-revalue.md).
 
-## <a name="to-set-up-fixed-asset-allocation-keys"></a><a name="to-set-up-fixed-asset-allocation-keys"></a>Úthlutunarlyklar eigna eru settir þannig upp:
+## <a name="to-set-up-fixed-asset-allocation-keys"></a><a name="to-set-up-fixed-asset-allocation-keys"></a><a name="to-set-up-fixed-asset-allocation-keys"></a>Úthlutunarlyklar eigna eru settir þannig upp:
 
 Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úthlutunarlyklum sem notandi skilgreinir. Setja má upp úthlutunarlykil sem skiptir til dæmis hlutdeild í afskriftakostnaði af bílum í 35 prósent á stjórnunardeild og 65 prósent á söludeild. Frekari upplýsingar eru í [Úthluta kostnaði og tekjum](year-allocate-costs-income.md).
 
@@ -46,7 +46,7 @@ Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úth
 3. Á síðunni **eignaúthlutanir** þarf að fylla reitina út eftir þörfum.
 4. Endurtaktu skref 2 og 3 fyrir hverja bókunargerð sem ætlunin er að skilgreina úthlutunarlykla fyrir.
 
-## <a name="to-set-up-fixed-asset-journal-templates"></a><a name="to-set-up-fixed-asset-journal-templates"></a>Setja upp sniðmát eignabóka
+## <a name="to-set-up-fixed-asset-journal-templates"></a><a name="to-set-up-fixed-asset-journal-templates"></a><a name="to-set-up-fixed-asset-journal-templates"></a>Setja upp sniðmát eignabóka
 
 Sniðmát er fyrirfram skilgreind uppsetning á færslubók. Í sniðmáti eru upplýsingar um ferilskóta, skýrslur og númeraraðir. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
 
@@ -55,7 +55,7 @@ Sniðmát er fyrirfram skilgreind uppsetning á færslubók. Í sniðmáti eru u
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sniðmát eignabókar** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum.
 
-## <a name="to-set-up-fixed-asset-journal-batches"></a><a name="to-set-up-fixed-asset-journal-batches"></a>Setja upp keyrslur eignabóka
+## <a name="to-set-up-fixed-asset-journal-batches"></a><a name="to-set-up-fixed-asset-journal-batches"></a><a name="to-set-up-fixed-asset-journal-batches"></a>Setja upp keyrslur eignabóka
 
 Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fyrir hvert færslubókarsniðmát. Starfsmenn geta til dæmis verið með eigin bókarkeyrslur sem nota upphafsstafi starfsmannsins sem heiti bókarkeyrslu. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
@@ -63,14 +63,14 @@ Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fy
 2. Valin er viðeigandi sniðmát færslubókar og veldu svo **keyrslur** aðgerðina.
 3. Á síðunni **eignabókarkeyrslur** þarf að fylla reitina út eftir þörfum.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a><a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Setja upp keyrslur endurflokkunarsniðmáta
+## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a><a name="to-set-up-fixed-asset-reclassification-journal-templates"></a><a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Setja upp keyrslur endurflokkunarsniðmáta
 
 Hægt er að nota eignaendurflokkunarbókina til að flytja eignir, skipta þeim upp eða sameina þær. [!INCLUDE[prod_short](includes/prod_short.md)] býr sjálfkrafa til sniðmát endurflokkunarbókar eignar í fyrsta sinn sem síðan **Endurflokkunarbók eignar** er opnuð, en hægt er að setja upp önnur sniðmát endurflokkunarbókar. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sniðmát færslubókar fyrir eignaendurflokkun** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a><a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Setja upp endurflokkunarkeyrslur eignabóka
+## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a><a name="to-set-up-fixed-asset-reclassification-journal-batches"></a><a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Setja upp endurflokkunarkeyrslur eignabóka
 
 Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fyrir hvert sniðmát endurflokkunarbókar. Starfsmenn geta til dæmis verið með eigin endurflokkunarbókarkeyrslur sem nota upphafsstafi starfsmannsins sem heiti bókarkeyrslu. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
 
@@ -78,28 +78,28 @@ Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fy
 2. Valin er viðeigandi sniðmát færslubókar og veldu svo **keyrslur** aðgerðina.
 3. Á síðunni **keyrslur eignaendurflokkunarbókar** þarf að fylla reitina út eftir þörfum.
 
-## <a name="to-set-up-fixed-asset-class-codes"></a><a name="to-set-up-fixed-asset-class-codes"></a>Uppsetning eignaflokkskóða
+## <a name="to-set-up-fixed-asset-class-codes"></a><a name="to-set-up-fixed-asset-class-codes"></a><a name="to-set-up-fixed-asset-class-codes"></a>Uppsetning eignaflokkskóða
 
 Flokkskóðana er hægt að nota við aðalflokkun eigna, eins og til dæmis í áþreifanlegar og óáþreifanlegar eignir.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignaflokkar** og velja síðan viðkomandi tengil.
 2. Færðir eru inn kótar og heiti á flokkunum sem búa á til.
 
-## <a name="to-set-up-fixed-asset-subclass-codes"></a><a name="to-set-up-fixed-asset-subclass-codes"></a>Uppsetning eignaundirflokkskóða
+## <a name="to-set-up-fixed-asset-subclass-codes"></a><a name="to-set-up-fixed-asset-subclass-codes"></a><a name="to-set-up-fixed-asset-subclass-codes"></a>Uppsetning eignaundirflokkskóða
 
 Kóðar eignaundirflokks eru notaðir til að flokka eignir, s.s. í byggingar, ökutæki, húsbúnað eða vélbúnað.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignaundirflokkar** og velja síðan viðkomandi tengil.
 2. Færðir eru inn kótar og heiti á flokkunum sem búa á til.
 
-## <a name="to-set-up-fixed-asset-location-codes"></a><a name="to-set-up-fixed-asset-location-codes"></a>Staðsetningarkóðar eigna eru settir þannig upp:
+## <a name="to-set-up-fixed-asset-location-codes"></a><a name="to-set-up-fixed-asset-location-codes"></a><a name="to-set-up-fixed-asset-location-codes"></a>Staðsetningarkóðar eigna eru settir þannig upp:
 
 Eignastaðsetningarkóta eru notaðir til að skrá staðsetningu eignarinnar, s.s. í söludeild, móttöku, stjórnunardeild, framleiðsludeild eða vöruhúsi. Þessar upplýsingar koma að gagni við vátryggingar og birgðir.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetning eigna** og velja síðan viðkomandi tengil.
 2. Færðir eru inn kóðar og heiti á staðsetningum eigna sem búa á til.
 
-## <a name="to-register-opening-entries"></a><a name="to-register-opening-entries"></a>Skráning opnunarfærslna
+## <a name="to-register-opening-entries"></a><a name="to-register-opening-entries"></a><a name="to-register-opening-entries"></a>Skráning opnunarfærslna
 
 Ef verið er að nota eignirnar í [!INCLUDE[prod_short](includes/prod_short.md)] í fyrsta sinn, verður að setja upp fjárhagskerfishlutann áður en eignir eru settar upp. Hvernig þetta er gert fer eftir því hvort eignir séu hluti af fjárhag.  
 
@@ -123,9 +123,9 @@ Ef verið er að nota eignirnar í [!INCLUDE[prod_short](includes/prod_short.md)
 
 Ef eignirnar eru ekki samþættar fjárhag er sleppt lið 6 og 8.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Uppsetning eigna](fa-setup.md)  
 [Eignir](fa-manage.md)  

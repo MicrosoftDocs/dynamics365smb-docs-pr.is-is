@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 03/08/2023
 ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a>Skrá neyslu eða notkun fyrir verk
+# <a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a>Skrá neyslu eða notkun fyrir verk
 
  **Á síðunni vinnsluspjald**  er hægt að opna  **síðuna verkáætlunarlínur**  til að skoða og skrá notkun á ýmsum hlutum vinnslunnar. Þessar upplýsingar eru sjálfkrafa uppfærðar þegar verið er að breyta og flytja upplýsingar milli verka og verkbóka eða verkreikninga. Þetta krefst þess að kveikt sé á  **tengilinn nota notkun eftir sjálfgefna**  víxlun á  **síðu verkuppsetningar** . Frekari upplýsingar í  [Setja upp störf](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ Fyrir áætlunarlínur af gerðinni  **áætlun** er til dæmis hægt að færa 
 
 Eftirfarandi ferli lýsa hvernig á að skrá raunverulegt (áætlað) magn og kostnað með verkbók. Einnig er hægt að nota innkaupaskjöl til að skrá innkaup fyrir verk. Frekari upplýsingar fást hjá  [Verkbirgðum](projects-how-manage-project-supplies.md).
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Til að skrá notkun fyrir verkáætlunarlínu af gerðinni Áætlun
+## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Til að skrá notkun fyrir verkáætlunarlínu af gerðinni Áætlun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2. Velja vinnsluna og velja  **síðan aðgerðina áætlunarlínur** . 
@@ -42,7 +42,7 @@ Eftirfarandi ferli lýsa hvernig á að skrá raunverulegt (áætlað) magn og k
 9. Á síðunni **Verkáætlunarlínur** skal fara yfir skráða notkun með því að athuga reitina **Magn**, **Eftirstöðvar (magn)** og **Magn til flutnings í færslubók**.  
 10. Endurtakið skref 3 til 8 til að skrá frekari notkun.  
 
-## <a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a>Til að búa til verkbókarlínur handvirkt
+## <a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a>Til að búa til verkbókarlínur handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.  
 2. Í reitnum **Heiti keyrslu** skal velja viðeigandi verkbókarkeyrslu.  
@@ -51,7 +51,7 @@ Eftirfarandi ferli lýsa hvernig á að skrá raunverulegt (áætlað) magn og k
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a>Til að skoða áætlanir um verknotkun og bóka uppfærslur
+## <a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a>Til að skoða áætlanir um verknotkun og bóka uppfærslur
 
 Skoða má verknotkun allt að lokum verkefnis í einu skrefi. Til þess er notuð keyrslan **Verk - Reikna eftirstandandi notkun** fyrir alla verkhluta allt að og með lokum verks.  
 
@@ -66,7 +66,7 @@ Skoða má verknotkun allt að lokum verkefnis í einu skrefi. Til þess er notu
 4. Uppfærið bókina með þeim breytingum sem kann að vera þörf á.  
 5. Veljið **Bókun**.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Stofna tínsluskjöl birgða og vöruhúss fyrir verk
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Stofna tínsluskjöl birgða og vöruhúss fyrir verk
 
 Til að búa til tínsluskjöl birgða og vöruhúss fyrir verk verður stjórnandinn að virkja **Uppfærsla eiginleika: Virkja birgða- og vöruhúsatínslu úr verkum** á síðunni **Eiginleikastjórnun**.
 
@@ -85,7 +85,7 @@ Hægt er að nota aðgerðirnar við eftirfarandi skilyrði:
 > 
 > Ef birgðageymslan er sett upp til að þurfa bæði tínslu- og afhendingarvinnslu, þ.e. báðir reitirnir **Krefjast tínslu** og **Krefjast afhendingar** hafa verið valdir á síðunni **Birgðageymsluspjald**, skal nota síðuna **Vöruhúsatínsla** til að afgreiða tínsluna. Vöruhúsatínslur eru svipaðar og birgðatínslur. Munurinn er sá að í stað þess að bóka tínsluupplýsingarnar skráirðu tínsluna. Þessi skráning bókar ekki notkun, hún gerir bara vörurnar tiltækar fyrir bókun. Sem stjórnandi vöruhúss, geturðu notað tínsluvinnublað til að flokka tínsluupplýsingar áður en þú stofnar einstakar tínsluleiðbeiningar vöruhússins
 
-## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Til að fara yfir áætlunarlínur verkfærslu
+## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Til að fara yfir áætlunarlínur verkfærslu
 
 Þegar verkbókarlínur hafa verið bókaðar er hægt að sjá þær áætlunarlínur sem tengjast þeim verkbókarfærslum sem hafa verið bókaðar.
 
@@ -96,9 +96,9 @@ Hægt er að nota aðgerðirnar við eftirfarandi skilyrði:
 2. Veljið viðeigandi verkbók og veljið svo aðgerðina **Færslur**.  
 3. Á síðunni **Verkfærslur** er aðgerðin **Sýna áætlunarlínur verks** valin.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  

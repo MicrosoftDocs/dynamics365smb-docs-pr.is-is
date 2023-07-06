@@ -10,15 +10,15 @@ ms.search.keywords: 'year closing, close accounting period, close fiscal year, b
 ms.date: 06/25/2021
 ms.author: jswymer
 ---
-# <a name="closing-income-statement-accounts"></a><a name="closing-income-statement-accounts"></a>Rekstrarreikningum lokað
+# <a name="closing-income-statement-accounts"></a><a name="closing-income-statement-accounts"></a><a name="closing-income-statement-accounts"></a>Rekstrarreikningum lokað
 Þegar reikningsári er lokið þarf að loka tímabilunum sem það skiptist í. Til að gera þetta skal keyra Runuvinnslan **Loka rekstrarreikningi** Þetta verk flytur niðurstöðutölur ársins yfir á efnahagsreikning og loka rekstrarreikningum. Það er gert með því að stofna línur í færslubók sem síðan er hægt að bóka.
 
-## <a name="to-run-the-close-income-statement-batch-job"></a><a name="to-run-the-close-income-statement-batch-job"></a>Til að keyra Runuvinnslan Loka rekstrarreikningi
+## <a name="to-run-the-close-income-statement-batch-job"></a><a name="to-run-the-close-income-statement-batch-job"></a><a name="to-run-the-close-income-statement-batch-job"></a>Til að keyra Runuvinnslan Loka rekstrarreikningi
 1. Loka reikningsári Reikningsárinu þarf að loka áður en hægt er að setja keyrsluna í gang. Nánari upplýsingar sjá [Loka fjárhagstímabilum](year-close-account-periods.md).
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Loka rekstrarreikningi** og velja síðan viðkomandi tengil.
 3. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 
-## <a name="about-the-close-income-statement-batch-job"></a><a name="about-the-close-income-statement-batch-job"></a>Um Runuvinnslan Loka rekstrarreikningi
+## <a name="about-the-close-income-statement-batch-job"></a><a name="about-the-close-income-statement-batch-job"></a><a name="about-the-close-income-statement-batch-job"></a>Um Runuvinnslan Loka rekstrarreikningi
 Keyrslan vinnur úr öllum fjárhagsreikningum af gerðinni rekstrarreikningar og býr til færslur sem jafna út stöðu þeirra. Þ.e. hver færsla er samtala allra almennra fjárhagsfærslna á reikningnum á reikningsárinu. Þessar nýju færslur eru færðar inn í færslubók þar sem þarf að tilgreina mótreikning og framlegðarreikning í efnahagsreikningi áður en bókað er. Þegar færslubók er bókuð er færsla bókuð á alla rekstrarreikninga til að staðan verði núll og um leið er útkoma ársins færð á efnahagsreikning.
 
 Notandi þarf að bóka þarf bókina sjálfur. Keyrslan bókar færslurnar ekki sjálfkrafa, nema þegar annar skýrslugjaldmiðill er notaður. Þegar annar skýrslugjaldmiðill er notaður, bókar keyrslan beint í færslubókina.
@@ -27,7 +27,7 @@ Dagsetningin í línunum sem bætast í færslubókina í keyrslunni verður all
 
 Keyrsluna **Loka rekstrareikningi** má nota mörgum sinnum. Hægt er að bóka á fyrra reikningsár jafnvel eftir lokun rekstrarreiknings ef keyrslan er keyrð aftur.
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Bókum lokað](year-close-books.md)  
 [Bóka lokafærslu ársloka](year-how-post-year-end-close-entry.md)  

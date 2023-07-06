@@ -11,7 +11,7 @@ ms.search.form: '1533,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# Setja upp röð notenda verkflæðis
+# <a name="set-up-a-sequence-of-workflow-users"></a>Setja upp röð notenda verkflæðis
 
 Áður en hægt er að stofna samþykktarverkflæði þarf að setja upp notendurna sem munu Senda beiðnir og samþykkjendur þeirra. Til dæmis er hægt að tilgreina hver fær tilkynningu til að vinna í verkflæðisskrefi. Þátttakendur samþykktarverkflæðis eru  **settir upp á síðunni samþykktarnotandasíða** . Frekari upplýsingar má finna á [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ ms.author: bholtorf
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## Notendaflokkur verkflæðis settur upp
+## <a name="to-set-up-a-workflow-user-group"></a>Notendaflokkur verkflæðis settur upp
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara inn **Notendahópar verkflæðis**, velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**. Síðan **Notendahópur verkflæðis** opnast.  
@@ -34,9 +34,9 @@ ms.author: bholtorf
 
 6. Endurtaktu skref 5 til að bæta fleiri notendum verkflæðis við notendahópinn.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
 [Setja upp Verkflæði samþykktar](across-set-up-workflows.md)  

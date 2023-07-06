@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-basic-experience-extension"></a><a name="the-basic-experience-extension"></a>Viðbót grunnupplifunar
+# <a name="the-basic-experience-extension"></a><a name="the-basic-experience-extension"></a><a name="the-basic-experience-extension"></a>Viðbót grunnupplifunar
 
 Ef þú hefur verið með Microsoft Dynamics C5 geta samstarfsaðilar Microsoft hjálpað þér að skipta yfir í nútímalega lausn sem byggir á [!INCLUDE[prod_short](includes/prod_short.md)], þannig að þú getir haldið áfram að njóta sömu einföldu möguleikana og Dynamics C5.
 
@@ -21,7 +21,7 @@ Ef þú hefur verið með Microsoft Dynamics C5 geta samstarfsaðilar Microsoft 
 > [!NOTE]
 > Eins og staðan er í dag er þessi viðbót aðeins í boði fyrir viðskiptamenn í Danmörku og á Íslandi.
 
-## <a name="whats-available"></a><a name="whats-available"></a>Hvað er í boði
+## <a name="whats-available"></a><a name="whats-available"></a><a name="whats-available"></a>Hvað er í boði
 
 Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplifunar er sett upp.
 
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplif
 |**Verkefnastjórnun** |Verk, verðlagning verks, vinnuskýrslur, úthlutun, verkefni, tilföng |
 |**Birgðir** |Grunnbirgðir, staðgenglar vörur, millivísun vöru |
 
-## <a name="getting-started"></a><a name="getting-started"></a>Hafist handa
+## <a name="getting-started"></a><a name="getting-started"></a><a name="getting-started"></a>Hafist handa
 
 Þessi viðbót er aðeins öðruvísi en flestar og þú þarft aðstoð frá samstarfsaðila Microsoft til að setja hana upp. Bara þannig að þú vitir hverju þú mátt búast við, þá er hér mikil yfirsýn yfir það hvað samstarfsaðili Microsoft mun gera.
 
@@ -44,11 +44,11 @@ Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplif
 5. Bætið við **Sýniútgáfu RapidStart** pakkanum. <!--what does the package contain?-->
 6. Sækið og setjið upp viðbót grunnupplifunar úr AppSource.
 
-## <a name="migrating-data"></a><a name="migrating-data"></a>Gögn flutt
+## <a name="migrating-data"></a><a name="migrating-data"></a><a name="migrating-data"></a>Gögn flutt
 
 Komdu með Dynamics C5 gögnin þín. Þegar samstarfsaðili Microsoft hefur sett upp viðbót grunnupplifunar færðu tómt fyrirtæki í hendurnar. Auðveld leið til að yfirfæra gögnin úr Dynamics C5 í grunnupplifun er að nota viðbót gagnaflutnings fyrir C5 sem fylgir með í [!INCLUDE[prod_short](includes/prod_short.md)]. Viðbótin flytur viðskiptamenn, lánardrottna, vörur og fjárhagslykla og færslur þeirra.
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
 
 [C5-gagnaflutningsviðbótin](ui-extensions-c5-data-migration.md)  
 

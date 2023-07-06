@@ -10,17 +10,17 @@ ms.search.keywords: 'Teams, web client, troubleshooting, errors'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a><a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Uppsetning og úrræðaleit vafrans til að vinna með Business Central-vefbiðlara
+# <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a><a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a><a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Uppsetning og úrræðaleit vafrans til að vinna með Business Central-vefbiðlara
 
 Þessi grein útskýrir hvernig á að setja upp vafrann þannig að [!INCLUDE[web_client](includes/web_client.md)] og allir eiginleikar þess virki rétt. Lestu þessa grein ef þú átt í vandræðum með að opna [!INCLUDE[web_client](includes/web_client.md)], vegna þess að stillingar vafrans þíns kunna að valda einhverjum vandamálum.
 
 Í greininni er að finna upplýsingar fyrir uppsetningu Microsoft Edge, en kröfur um JavaScript, fótspor og sprettiglugga eru þær sömu fyrir alla studda vafra. Fyrir aðra vafra skal skoða leiðbeiningarnar sem framleiðandinn gefur upp.  
 
-## <a name="use-a-supported-browser"></a><a name="use-a-supported-browser"></a>Notaðu studdan vafra
+## <a name="use-a-supported-browser"></a><a name="use-a-supported-browser"></a><a name="use-a-supported-browser"></a>Notaðu studdan vafra
 
 Gættu þess að nota einn af studdu vöfrunum. Sjá [Lágmarkskröfur fyrir notkun Business Central](product-requirements.md#browsers).  
 
-## <a name="allow-javascript-from-business-central"></a><a name="allow-javascript-from-business-central"></a>Leyfa JavaScript úr Business Central
+## <a name="allow-javascript-from-business-central"></a><a name="allow-javascript-from-business-central"></a><a name="allow-javascript-from-business-central"></a>Leyfa JavaScript úr Business Central
 
 *Vandamál:*
 
@@ -37,7 +37,7 @@ The resource you are looking for has been removed, had its name changed, or is t
     - Færa **Leyft** til vinstri (slökkt). Síðan skal velja **Bæta við** og slá inn vistfang (URL) fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í reitnum **Svæði**. Velja **Bæta við** að þessu loknu.
     - Færa **Leyft** til hægri (kveikt).
 
-## <a name="allow-cookies-from-business-central"></a><a name="allow-cookies-from-business-central"></a>Leyfa kökur úr Business Central
+## <a name="allow-cookies-from-business-central"></a><a name="allow-cookies-from-business-central"></a><a name="allow-cookies-from-business-central"></a>Leyfa kökur úr Business Central
 
 *Vandamál:*
 
@@ -50,7 +50,7 @@ Ef vafrinn leyfir ekki kökur muntu fá eftirfarandi villu:
 1. Í Microsoft Edge, ferðu í **Stillingar** > **Fótspor og heimildir svæðis** > **Fótspor og gögn svæðis**.
 2. Færið **Leyfa vefsvæðum að vista og lesa kökugögn** til hægri (kveikt).  
 
-## <a name="allow-pop-ups-from-business-central"></a><a name="allow-pop-ups-from-business-central"></a><a name="popup"></a>Leyfa sprettiglugga úr Business Central
+## <a name="allow-pop-ups-from-business-central"></a><a name="allow-pop-ups-from-business-central"></a><a name="allow-pop-ups-from-business-central"></a><a name="popup"></a>Leyfa sprettiglugga úr Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] samþættist við nokkrar vörur. Í sumum tilvikum, eins og með Microsoft Teams, opnast [!INCLUDE[prod_short](includes/prod_short.md)] eða „Sprettigluggar“ innan vörunnar. Þessi eiginleiki krefst þess að vafrinn þinn leyfi sprettiglugga í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -75,7 +75,7 @@ Try again
 2. Færa **Lokað fyrir** til hægri (kveikt).
 3. Veljið **Bæta við**. Í reitinn **Svæði** skal slá inn `https://businesscentral.dynamics.com` og síðan velja **Bæta við**.
 
-## <a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
 
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  
 
