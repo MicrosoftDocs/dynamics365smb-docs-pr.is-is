@@ -16,7 +16,7 @@ sections:
       - question: |
           Er Business Central í boði í mínu landi/svæði?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Frekari upplýsingar eru í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (aðeins í boði á ensku).  
+          [!INCLUDE[prod_short](includes/prod_short.md)] er í boði á takmörkuðum fjölda markaða en nýjum löndum/svæðum er bætt við í gegnum Microsoft-LED staðfæringar eða með samstarfsáætlun um staðlastofnun á ársfjórðungslegum grunni. Frekari upplýsingar eru í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (aðeins í boði á ensku).  
       - question: |
           Hvernig fæ ég Business Central?
         answer: |

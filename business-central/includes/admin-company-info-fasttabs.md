@@ -10,4 +10,4 @@ ms.author: edupont
 |**Samskipti**|Færðu inn grunnupplýsingar um tengiliði fyrirtækisins, t.d. símanúmer og netfang.|  
 |**Greiðslur**| Fylltu út viðeigandi bankaupplýsingar til að tryggja að viðskiptamenn þínir geti greitt þér.|  
 |**Sending**|Fylltu út viðeigandi sendingarupplýsingar svo þú getir sent og tekið á móti vörum frá og til fyrirtækisins.|  
-|**Skattur**|Þú gætir séð flýtiflipa fyrir skatt eftir því í hvaða landi reksturinn þinn er skráður. Ef hann er í boði skal fylla út reitina.|  
+|**Skattur**|Eftir því hvaða land/svæði fyrirtækið er skráð í gæti það séð Skattfastflipa. Ef hann er í boði skal fylla út reitina.|  

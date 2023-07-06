@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a><a name="introduction-to-contoso-coffee-manufacturing"></a><a name="introduction-to-contoso-coffee-manufacturing"></a>Kynning á contoso Coffee framleiðslu
+# Kynning á contoso Coffee framleiðslu
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. **Contoso Coffee** forritin fyrir Business Central bæta við sýnigögnum sem hægt er að nota til að komast að því hvernig á að nota framleiðslumöguleikana í Business Central.  
 
@@ -36,7 +36,7 @@ Framleiðsluaðgerðir fyrir allar aðstæður nota staðsetninguna *NORÐUR*.
 > [!IMPORTANT]
 > Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Nánari kröfur er að finna í kaflanum um  [contoso Coffee](#set-up-contoso-coffee-manufacturing-data) .
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a><a name="set-up-contoso-coffee-manufacturing-data"></a><a name="set-up-contoso-coffee-manufacturing-data"></a>Setja upp contoso Coffee framleiðslugögn
+## Setja upp contoso Coffee framleiðslugögn
 
 Til að nota contoso Coffee framleiðslu sýnigögnin þarf að setja upp tvö forrit í viðkomandi fyrirtæki í [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -45,13 +45,13 @@ Til að nota contoso Coffee framleiðslu sýnigögnin þarf að setja upp tvö f
     Þetta forrit afhendir sýnigögn fyrir grunnforritið.  
 - **Sýnigagnamengi Contoso Coffee (auðkenni lands)**  
 
-    Þetta forrit bætir landsbundnu efni við efst í grunnforritið.
+    Þetta App bætir lands-eða svæðisbundnum innihaldsefnum ofan á grunnforritið.
 
 Bættu forritunum við autt fyrirtæki í greiddri áskrift eða sem hluti af prufuáskrift. Stofnaðu til dæmis nýtt fyrirtæki með engin sýnigögn úr uppsetningarleiðbeiningunni **Stofna nýtt fyrirtæki** sem hægt er að opna úr listanum **Fyrirtæki**. Bættu þá appinu við af  [markaðstorginu](../../ui-extensions-install-uninstall.md#install)  ef þær eru ekki þegar á skrá á  **síðu framlengingarstjórnunar** .  
 
 Þegar viðeigandi forrit eru sett upp er farið á  [kaffisíðuna contoso Coffee](https://businesscentral.dynamics.com/?page=4760)  í  [!INCLUDE [prod_short](../../includes/prod_short.md)] og breytt sjálfgefnum stillingum sem henta þínum þörfum. Eftirfarandi tafla lýsir stillingum:  
 
-|Svæði  |Description  |
+|Svæði  |Heimildasamstæða  |
 |---------|---------|
 |**Upphafsár** |Tilgreinir fyrsta árið sem óskað er eftir að notuð séu útsýnandi Kaffisýnigögn. Árið er annað hvort almanaksár eða reikningsár en það fer eftir uppsetningu fyrirtækisins.|
 |**Framleiðslustaður** |Tilgreinir vöruhúsið sem á að nota fyrir framleiðsluaðgerðir. *NORÐUR* er sjálfgefið en hægt er að breyta því eftir þörfum.|
@@ -67,7 +67,7 @@ Bættu forritunum við autt fyrirtæki í greiddri áskrift eða sem hluti af pr
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
-## <a name="scenarios"></a><a name="scenarios"></a><a name="scenarios"></a>Dæmi
+## Dæmi
 
 Útlitsprófið á contoso Coffee sýnigögnunum styður nú við eftirfarandi Aðstæður til prófs og þjálfunar:
 
@@ -85,7 +85,7 @@ Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
 > [!IMPORTANT]
 > Þessar kynningar krefjast þess að upplifun notanda sé stillt á *Premium* á síðunni **Fyrirtækjaupplýsingar**.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framleiðsla](../../production-manage-manufacturing.md)  
 [Framleiðsluskýrslur og Greinaskil í Viðskiptamiðinu](../../production-reports.md)  

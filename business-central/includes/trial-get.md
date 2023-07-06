@@ -7,7 +7,7 @@ ms.author: edupont
 1. Opnaðu [svæði prufuútgáfu](https://go.microsoft.com/fwlink/?linkid=847861), veldu *Fjármál og rekstur* og síðan í spjaldinu **Dynamics 365 Business Central** skaltu velja hnappinn **Prófa ókeypis**.  
 2. Sláðu inn vinnu- eða skólanetfangið þitt og aðrar upplýsingar. Farið verður með þig í prufuútgáfuna á [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
 
-Það tekur smástund að hlaða inn prufuútgáfunni, síðan geturðu byrjað að nota forritið. Gátlistinn **Hefjast handa** fer með þig í gegnum skrefin til að undirbúa þig undir viðskipti. Skrefin eru mismunandi eftir löndum og aðgerðum innan atvinnugreina sem þú hefur bætt við [!INCLUDE [prod_short](prod_short.md)].  
+Það tekur smástund að hlaða inn prufuútgáfunni, síðan geturðu byrjað að nota forritið. Gátlistinn **Hefjast handa** fer með þig í gegnum skrefin til að undirbúa þig undir viðskipti. Þrepin eru mismunandi eftir landshlutum og hvaða atvinnugreinlegu aðgerðum sem bætt hefur verið við notanda [!INCLUDE [prod_short](prod_short.md)].  
 
 Í [!INCLUDE[prod_short](prod_short.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Þegar þú skráir þig fyrst inn í sýnifyrirtækið færðu aðgang að „Hefjast handa“ spjaldinu með tengil á sýnikynningar. Nánari upplýsingar er að finna í greinunum [Að undirbúa sig fyrir viðskipti](../ui-get-ready-business.md) og [stuttir leiðarvísar](../quick-start-business-central.md).  
 

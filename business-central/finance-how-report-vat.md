@@ -12,18 +12,18 @@ ms.date: 01/31/2022
 ms.author: bholtorf
 ---
 
-# <a name="report-vat-to-tax-authorities"></a><a name="report-vat-to-tax-authorities"></a><a name="report-vat-to-tax-authorities"></a>Senda VSK skýrslu inn til skattayfirvalda
+# Senda VSK skýrslu inn til skattayfirvalda
 
-Þetta efnisatriði lýsir skýrslunum í [!INCLUDE[prod_short](includes/prod_short.md)] sem þú getur notað til að senda inn upplýsingar um virðisaukaskatt (VSK) upphæðir fyrir sölu og innkaup til skattayfirvalda á þínu svæði. Skýrslurnar geta innihaldið tilteknar upplýsingar eða senda þarf inn frekari skýrslur eftir því hvert landið er. Skoðaðu greinarnar fyrir landið þitt í hlutanum [Staðbundin virkni](about-localization.md).  
+Þetta efnisatriði lýsir skýrslunum í [!INCLUDE[prod_short](includes/prod_short.md)] sem þú getur notað til að senda inn upplýsingar um virðisaukaskatt (VSK) upphæðir fyrir sölu og innkaup til skattayfirvalda á þínu svæði. Skýrslurnar geta innihaldið tilteknar upplýsingar eða frekari skýrslur sem þarf að senda til að fara eftir tilteknu landi/svæði. Skoðaðu greinar fyrir þitt land/svæði í  [hlutanum staðbundin virkni](about-localization.md) .  
 
 Hægt er að nota eftirfarandi innbyggðar skýrslur:
 
 * Skýrslan **EB-söluyfirlit**  
 
-    Söluyfirlitsskýrsla Evrópubandalagsins sýnir VSK-upphæðir sem þú hefur innheimt fyrir sölu á VSK-skráðum viðskiptamönnum í löndum Evrópusambandsins.  
+    Í skýrslu um Sölulistaskýrslur Evrópubandalagsins (EC) er birtur Virðisauki (VAT) sem safnað hefur verið fyrir sölu til VSK-skráðra viðskiptamanna í löndum Evrópusambandsins/regioins.  
 * Skýrslan **VSK-skil**  
 
-    VSK skil skýrslan inniheldur VSK fyrir sölu og innkaup til viðskiptamanna og frá lánardrottnum í öllum löndum sem notast við VSK.  
+    VSK-Vöruskilaskýrslan inniheldur VSK fyrir sölu og innkaup til viðskiptamanna og lánardrottna í öllum löndum/svæðum sem nota VSK.  
 
 Í báðum tilvikum (eins og í öðrum VSK-tengdum skýrslum) er VSK-reiknaður á grundvelli uppsetningar VSK-bókunar og VSK-bókunarflokkanna sem settir hafa verið upp. [!INCLUDE[prod_short](includes/prod_short.md)] Sýnir VSK-færslur sem byggjast alltaf á  **VSK-dagsetningu**  sem aðalskýrslugerð.  
 
@@ -33,11 +33,11 @@ Hægt er að nota eftirfarandi innbyggðar skýrslur:
 Ef þú vilt skoða allan feril VSK færslna, þá býr hver VSK-bókun til færslu á **VSK-færslur** síðunni. Þessar færslur eru notaðar til að reikna VSK-upphæðir s.s. greiðslur og endurgreiðslur á tilteknu tímabili. Til að skoða VSK-færslur skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-færslur** og velja síðan viðkomandi tengil.
 
 > [!NOTE]
-> Hverju [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi er ætlað að halda utan um eftirlitsskýrslugerð í einu landi. Hollenska útgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] sér til dæmis um VSK-skýrslugerð í Hollandi en ekki í öðrum löndum. Á sama hátt höndlar útgáfa í Bandaríkjunum [!INCLUDE[prod_short](includes/prod_short.md)] 1099 skýrslugerð í Bandaríkjunum og styður ekki VAT skýrslur í öðrum löndum, nema með viðbót sem umhverfi samstarfsaðila þíns eða breytingu á kóða tiltekins viðskiptavinar.
+> Hvert  [!INCLUDE[prod_short](includes/prod_short.md)]  umhverfi er ætlað að sjá um skýrslugerð í einum landshluta. T.d. Hollenska útgáfan af sér um  [!INCLUDE[prod_short](includes/prod_short.md)]  VSK-skýrslur í Hollandi en ekki í öðrum löndum/svæðum. Á sama hátt er Bandaríkin útgáfa af  [!INCLUDE[prod_short](includes/prod_short.md)]  handföngum 1099 skýrslugerð í Bandaríkjunum og styður ekki SEGJUM VSK-skýrslugerð í öðrum löndum/svæðum nema með framlengingu sem afhent eru af vistkerfisnálgun okkar, eða með breytingu á númeri viðskiptavinar.
 
-## <a name="about-the-ec-sales-list-report"></a><a name="about-the-ec-sales-list-report"></a><a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Um EC söluyfirlitsskýrslu
+## <a name="ecsaleslist"></a>Um EC söluyfirlitsskýrslu
 
-Í Evrópusambandinu og Bretlandi þurfa öll fyrirtæki sem selja vörur og þjónustu til VSK skráðra viðskiptamanna, þ.m.t. viðskiptamann í öðrum löndum Evrópusambandsins, að skila inn rafrænni útgáfu af söluyfirlitsskýrslu Evrópubandalagsins til tolla- og skattayfirvalda. **Söluyfirlitsskýrsla Evrópubandalaga** (EC) virkar aðeins í löndum innan ESB.
+Í Evrópusambandinu (ESB) og í BRETLANDI hafa öll fyrirtæki sem selja vörur og þjónustu til VSK-skráðra viðskiptamanna, þar á meðal viðskiptavina í öðrum aðildarríkjum Evrópusambandsins (ESB), þurfa að skila inn rafrænni útgáfu af sölulistum Evrópubandalagsins (EC) til tollayfirvalda og skattyfirvalda.  **Skýrsla EC-sölulistans**  virkar eingöngu fyrir lönd/svæði innan ESB.
 
 Skýrslan inniheldur eina línu fyrir hverja tegund af viðskiptum við viðskiptavini, og sýnir heildarupphæð fyrir hverja tegund viðskipta. Hægt er að skrá þrjár gerðir viðskipta í skýrslunni:  
 
@@ -49,11 +49,11 @@ Skýrslan inniheldur eina línu fyrir hverja tegund af viðskiptum við viðskip
 
 Eftir að skattayfirvöld fara yfir skýrsluna, munu þau senda tengilið fyrirtækisins tölvupóst. Í [!INCLUDE[prod_short](includes/prod_short.md)] er tengiliðurinn tiltekinn á síðunni **Upplýsingar um fyrirtækið**. Áður en þú sendir inn skýrsluna skaltu vera viss um að tengiliður hafi verið valinn.  
 
-### <a name="submit-an-ec-sales-list-report"></a><a name="submit-an-ec-sales-list-report"></a><a name="submit-an-ec-sales-list-report"></a>Senda inn EB-söluyfirlitsskýrslu
+### Senda inn EB-söluyfirlitsskýrslu
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="about-the-vat-return-report"></a><a name="about-the-vat-return-report"></a><a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Um skýrsluna um VSK skil
+## <a name="vatreturn"></a>Um skýrsluna um VSK skil
 
 Nota þessa skýrslu til að skila inn VSK fyrir sölu- og innkaupaskjöl, eins og innkaupa- og sölupantanir, reikninga og kreditreikninga. Upplýsingarnar koma fram með sama sniði í skýrslunni og á skýrslublaði frá tolla- og skattayfirvöldum.  
 
@@ -62,7 +62,7 @@ Fyrir VSK skilin geturðu tiltekið hvaða færslur skuli teknar með:
 * Senda inn aðeins opnar færslur, eða opnar og lokaðar. Til dæmis, þetta er gagnlegt þegar verið er að undirbúa hin árlegu VSK lokaskil.
 * Tilgreinir hvort á að taka með VSK-færslur aðeins fyrir tilgreint tímabil eða einnig frá fyrri tímabilum innan tilgreinds árs. Þetta er gagnlegt fyrir uppfærslu VSK skila sem þú hefur þegar sent inn, til dæmis, ef lánardrottin sendir þér síðbúinn reikning.    
 
-## <a name="to-connect-to-your-tax-authoritys-web-service"></a><a name="to-connect-to-your-tax-authoritys-web-service"></a><a name="to-connect-to-your-tax-authoritys-web-service"></a>Til að tengjast vefþjónustu skattayfirvalda býður
+## Til að tengjast vefþjónustu skattayfirvalda býður
 [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á þjónustutengingar sem tengjast við vefsíður skattayfirvalda. Ef þú ert t.d. í Bretlandi, er hægt að virkja **GovTalk** þjónustutenginguna til að senda inn EC Sölulista og VSK skýrslum rafrænt. Ef þú vilt senda skýrsluna inn handvirkt, til dæmis með því að færa gögnin inn á vefsíðu skattayfirvalda, er það ekki nauðsynlegt.   
 
 Til að skila VSK til skattayfirvalda á rafrænu formi, þarf að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við vefþjónustu skattayfirvalda. Til þess þarf að setja upp reikning hjá þínum skattayfirvöldum. Þegar þú ert komin(n) með reikning, geturðu virkjað þjónustutengingu sem við bjóðum upp á í [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -73,11 +73,11 @@ Til að skila VSK til skattayfirvalda á rafrænu formi, þarf að tengja [!INCL
     > [!NOTE]  
     > Ráðlegt er að er að prófa tenginguna. Til að gera það skal velja **Prufustilling** gátreitinn, svo undirbúa og senda inn VSK skýrslurnar eins og lýst er í [Að undirbúa og senda inn VSK skýrslu](#to-prepare-and-submit-a-vat-report) hlutanum. Þegar þjónustan er á Prufustillingu, prófar hún hvort skattayfirvöld geti tekið á móti skýrslunni, og staðan á skýrslunni mun gefa til kynna hvort prufuinnsendingin hafi heppnast. Mikilvægt er að muna að þetta er ekki raunveruleg innsending. Ef senda á skýrsluna inn í raun, þarf að að hreinsa gátreitinn **Prufustilling** og endurtaka innsendingarferlið.
 
-## <a name="to-set-up-vat-reports-in-"></a><a name="to-set-up-vat-reports-in-"></a><a name="to-set-up-vat-reports-in-"></a>Að setja upp VSK-skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)]
+## Að setja upp VSK-skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-### <a name="to-set-up-vat-return-periods"></a><a name="to-set-up-vat-return-periods"></a><a name="to-set-up-vat-return-periods"></a>Að setja upp tímabil VSK-skila
+### Að setja upp tímabil VSK-skila
 
 Ef fyrirtækið þitt er ekki í Bretlandi getur þú notað síðuna **Tímabil VSK-skila** til að setja upp tímasett VSK-skil. ef fyrirtæki þitt er staðsett í Bretlandi skaltu skoða [Að gera skatt á stafrænu formi á Bretlandi](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
 
@@ -87,7 +87,7 @@ Ef fyrirtækið þitt er ekki í Bretlandi getur þú notað síðuna **Tímabil
 
 Þegar komið er að því að skila VSK-skýrslu fyrir tímabil VSK-skila skal velja tímabilið á síðunni **Tímabil VSK-skila** og síðan velja aðgerðina **Stofna VSK-skil**. Síðan í spjaldinu **VSK-skil** skal velja aðgerðina **Stinga upp á línum** eins og lýst er í skrefi 3 í eftirfarandi ferli.  
 
-## <a name="to-prepare-and-submit-a-vat-report"></a><a name="to-prepare-and-submit-a-vat-report"></a><a name="to-prepare-and-submit-a-vat-report"></a>Undirbúa og senda inn VSK-skýrslu
+## Undirbúa og senda inn VSK-skýrslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **EB-söluyfirlit** eða **VSK skil** og veldu síðan tengda tengilinn.  
 2. Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -104,11 +104,11 @@ Ef fyrirtækið þitt er ekki í Bretlandi getur þú notað síðuna **Tímabil
 
 Eftir að þú skilar inn skýrslunni, fylgist [!INCLUDE[prod_short](includes/prod_short.md)] með þjónustunni og heldur skrá yfir samskipti þín. Reiturinn **Staða** gefur til kynna hvar skýrslan er stödd í ferlinu. Þegar t.d. yfirvöld fara yfir skýrsluna, breytist staða skýrslunnar yfir í **Heppnaðist**. Ef skattayfirvöld finna mistök í skýrslunni sem þú sendir þeim, mun staða skýrslunnar breytast yfir í **Mistókst**. Þú getur skoðað villur undir **Villur og viðvaranir**, leiðrétt þær og svo sent skýrsluna inn aftur. Til að skoða allar EC söluyfirlitsskýrslur þínar, farðu á **EC söluyfirlitsskýrslur** síðuna.  
 
-### <a name="vat-return-statuses"></a><a name="vat-return-statuses"></a><a name="vat-return-statuses"></a>Skilastöður VSK
+### Skilastöður VSK
 
 Skil á VSK geta haft mismunandi stöður eins og lýst er í eftirfarandi töflu.
 
-| Staða | Description |
+| Staða | Heimildasamstæða |
 |------------|-------------------------|
 | Opinn | Þegar nýtt VSK-skil er stofnað. Hægt er að  **keyra aðgerðina leggja til línur** . Ef þörf er á að leiðrétta gildi er hægt að keyra  **aðgerðina leggja til línur**  aftur. Ekki er hægt að senda VSK-framtali sem hefur þessa stöðu. |
 | Losað | Stöðunni verður breytt þegar úttektaraðgerðin  **er notuð** . [!INCLUDE[prod_short](includes/prod_short.md)] sýnir  **flýtiflipann villur og viðvaranir** . Ekki er hægt að breyta eða nota aðgerðir til að  **leggja til línur** . Til að gera breytingar þarf að opna aftur á VSK-reikning. |
@@ -116,14 +116,14 @@ Skil á VSK geta haft mismunandi stöður eins og lýst er í eftirfarandi töfl
 | Sent inn | VSK-skilin eru send með því  **að nota senda**  aðgerðina eða eru merkt inn með því að nota merkið sem innsenda  **á**  aðgerðina. |
 | Samþykkt | VSK-skilin hafa þessa stöðu ef skýrslan er merkt sem samþykkið með því að  **nota merkið sem samþykkta**  aðgerð.  **Ef VSK-vöruskilaskýrslan**  er merkt sem  **Samþykkt** er hægt að  **keyra útreiknað og bóka VSK-uppgjör** . |
 
-## <a name="viewing-communications-with-your-tax-authority"></a><a name="viewing-communications-with-your-tax-authority"></a><a name="viewing-communications-with-your-tax-authority"></a>Skoða samskipti við skattayfirvöld
+## Skoða samskipti við skattayfirvöld
 
-Í sumum löndum er skipst á skilaboðum við skattayfirvöld þegar skýrslur eru sendar inn. Hægt er að skoða fyrstu og síðustu skilaboðin sem voru send eða móttekin með því að velja aðgerðirnar **Hala niður innsendingarskilaboðum** og **Hala niður svarskilaboðum**.  
+Í sumum löndum/svæðum er hægt að skiptast á boðum við skattayfirvöld þegar skýrslum er skilað. Hægt er að skoða fyrstu og síðustu skilaboðin sem voru send eða móttekin með því að velja aðgerðirnar **Hala niður innsendingarskilaboðum** og **Hala niður svarskilaboðum**.  
 
-## <a name="submitting-vat-reports-manually"></a><a name="submitting-vat-reports-manually"></a><a name="submitting-vat-reports-manually"></a>Sendir inn VSK-skýrsla handvirkt
+## Sendir inn VSK-skýrsla handvirkt
 Ef þú notast við aðra aðferð til að senda skýrsluna inn, t.d. með því að flytja út XML og hlaða því svo upp á vefsíðu skattayfirvalda, geturðu eftir á valið **Merkja sem Búið að skila** til að loka skýrslutímabilinu. Eftir að þú merkir skýrsluna sem Búið að skila, er ekki hægt að breyta henni. Ef breyta þarf skýrslunni eftir að hún hefur verið merkt sem útgefin þarf fyrst að enduropna hana.
 
-## <a name="vat-settlement"></a><a name="vat-settlement"></a><a name="vat-settlement"></a>VSK-uppgjör
+## VSK-uppgjör
 Reglulega þarf að greiða nettó-VSK til skattayfirvalda. Ef þú þarft að gera upp VSK oft, er hægt að nota keyrsluna **Reikna og bóka VSK-uppgjör** til að loka opnum VSK-færslum og flytja VSK-upphæðir innkaupa og sölu í VSK-uppgjörsreikning.
 
 Þegar þú færir VSK-upphæðir inn á uppgjörsreikninginn, eru VSK-upphæðirnar sem reiknaðar voru á yfirlitstímabilinu lagðar inn á reikning innskatts og teknar út af reikningi útskatts. Nettóupphæðin er lögð inn eða tekin út, ef innskattsupphæðin er hærri, á VSK-uppgjörsreikninginn. Hægt er að bóka uppgjörið strax eða prenta prófunarskýrslu fyrst.  
@@ -131,7 +131,7 @@ Reglulega þarf að greiða nettó-VSK til skattayfirvalda. Ef þú þarft að g
 > [!Note]
 > Ef þú tiltekur ekki **VSK Viðskiptabókunarflokkur** og **VSK Vörubókunarflokkur** þegar notuð er **Reikna út og bóka VSK Uppgjör** runuvinnslan, munu færslur með öllum viðskiptabókunarflokkur og vörubókunarflokkur kóðar teknir með.
 
-## <a name="configuring-your-own-vat-reports"></a><a name="configuring-your-own-vat-reports"></a><a name="configuring-your-own-vat-reports"></a>Grunnstilla þínar eigin VSK skýrslur
+## Grunnstilla þínar eigin VSK skýrslur
 
 Hægt er að nota tilbúna skýrslu af **EB-söluyfirliti**. Hins vegar er einnig hægt að búa til eigin skýrslur ef þú ert með þróunarleyfi svo þú getir búið til kóðaeiningar. Hafðu samband við samstarfsaðila Microsoft ef þig vantar aðstoð.  
 
@@ -148,9 +148,9 @@ Eftirfarandi tafla lýsir kóðaeiningunum sem þú þarft að stofna fyrir ský
 > [!Note]
 > Þegar stofnaðar eru kóðaeiningar fyrir skýrsluna skal veita athygli gildinu í reitnum **VSK skýrsla útgáfa**. Þessi reitur verður að endurspegla útgáfuna af skýrslunni sem er eða var send til skattayfirvalda. Þú gætir til dæmis fært inn **2021** í reitinn til að gefa til kynna að skýrslan samræmist þeim kröfum sem voru í gildi það ár. Til að finna núgildandi útgáfu skal hafa samband við skattayfirvöld.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)  
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  

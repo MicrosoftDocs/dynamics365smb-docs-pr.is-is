@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-set-up-new-capacity"></a><a name="walkthrough-set-up-new-capacity"></a><a name="walkthrough-set-up-new-capacity"></a>Kynning: Setja upp nýja afkastagetu
+# Kynning: Setja upp nýja afkastagetu
 
 Í þessari grein förum við í gegnum skrefin um hvernig á að nota sýnigögn Contoso Coffee til að stjórna afkastagetu.  
 
-## <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Aðstæður
+## Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Til að bregðast við breytingum á gólfi vinnusalar verður að setja upp nýja vinnustöð, prófunardeild. Nýja vinnustöðin er með eina vélastöð, prófun. Nýju stöðvarnar verða að vera með dagatal afkastagetu fyrir eina vakt frá 08:00 til 16:00, mánudaga til föstudaga.  
 
-## <a name="steps"></a><a name="steps"></a><a name="steps"></a>Skref
+## Skref
 
 1. Setja upp vinnustöðina.
 
@@ -32,7 +32,7 @@ ms.author: andreipa
         |**Innkaupsverð**|3.25|
         |**Útreikningur kostn.verðs**|Tími|
         |**Flæðiaðferð**|Handvirkt|
-        |**Alm. vörubókunarflokkur**|ENGINN VSK</br></br>Athugaðu að þetta val fer eftir bókhaldsuppsetningu og landi.|
+        |**Alm. vörubókunarflokkur**|ENGINN VSK</br></br>Athugið að þetta val fer eftir bókhaldsuppsetningum og landi/svæði.|
         |**Mælieiningarkóði** |MÍNÚTUR|
         |**Afkastageta** |1|
         |**Skilvirkni** |90|
@@ -84,6 +84,6 @@ ms.author: andreipa
 
 Á síðunni **Dagatalsfærslur** eru daglegar færslur afkastagetu í reitnum **Afkastageta (alls)** fyrir 480 mínútur. Þetta samsvarar einni átta tíma vakt fyrir hvern vinnudag. Einnig sýnir reiturinn **Afkastageta (virk)** 432 mínútur. Þetta stendur fyrir 90 prósent skilvirknihlutfallið sem þú úthlutaðir vélastöðinni.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning á contoso kaffi sýnigögnum](../contoso-coffee-intro.md)  
