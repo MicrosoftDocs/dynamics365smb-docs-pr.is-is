@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="multiple-contracts"></a><a name="multiple-contracts"></a><a name="multiple-contracts"></a>Margir samningar
+# <a name="multiple-contracts"></a>Margir samningar
 Það ræðst af þjónustustigssamkomulagi við viðskiptavin hvort afgreiða verður þjónustuvöru í fleiri en einum þjónustusamningi.  
   
 Með því að afgreiða þjónustuvöru undir skv. samningum er hægt að gera eftirfarandi:  
@@ -25,18 +25,18 @@ Með því að afgreiða þjónustuvöru undir skv. samningum er hægt að gera 
   
 Hægt er að skoða eftirfarandi dæmi um notkun margra samninga.  
   
-## <a name="creating-multiple-contracts-per-service-item"></a><a name="creating-multiple-contracts-per-service-item"></a><a name="creating-multiple-contracts-per-service-item"></a>Margir samningar fyrir hverja þjónustuvöru stofnaðir
+## <a name="creating-multiple-contracts-per-service-item"></a>Margir samningar fyrir hverja þjónustuvöru stofnaðir
 Hægt er að stofna þjónustusamning eða samningstilboð handvirkt fyrir þjónustuvörur sem þegar eru skráðar í samninga sem ekki hefur verið hætt við og eru í eigu sama viðskiptamanns. Þetta er gert með því að fara eins og venjulega í gegnum  ferli til að stofna þjónustusamninga og þjónustusamningstilboð. Frekari upplýsingar, sjá [Vinna með þjónustusamninga og þjónustusamningstilboð](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 Þegar valið er að bæta þjónustuvöru í samningslínu sem er skráð í öðrum þjónustusamningum eða samningstilboðum birtir kerfið viðvörun þar sem segir að þjónustuvaran tilheyri þegar einum eða fleirum þjónustusamningum eða samningstilboðum. Ef þessi viðvörun er staðfest eru allar viðeigandi upplýsingar um þjónustuvöru afritaðar í nýstofnaða samningslínu.  
   
-## <a name="copying-documents"></a><a name="copying-documents"></a><a name="copying-documents"></a>Afritun skjala
+## <a name="copying-documents"></a>Afritun skjala
 Hægt er að stofna þjónustusamning eða samningstilboð sjálfkrafa fyrir þjónustuvörur sem þegar eru skráðar í öðrum þjónustusamningum eða samningstilboðum með aðgerðinni **Afrita úr skjali**.  
   
-## <a name="creating-service-orders-for-multiple-contracts"></a><a name="creating-service-orders-for-multiple-contracts"></a><a name="creating-service-orders-for-multiple-contracts"></a>Þjónustupantanir stofnaðar út frá mörgum samningum
+## <a name="creating-service-orders-for-multiple-contracts"></a>Þjónustupantanir stofnaðar út frá mörgum samningum
 Hægt er að stofna þjónustupöntun handvirkt fyrir þjónustuvöru sem skráð er í marga virka samninga. Þjónustusamningur er virkur þegar hann er undirritaður og ekki útrunninn.  
   
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Uppfylla þjónustusamninga](service-fulfill-service-contracts.md)  
 [Stofna þjónustupantanir](service-how-to-create-service-orders.md)  
 

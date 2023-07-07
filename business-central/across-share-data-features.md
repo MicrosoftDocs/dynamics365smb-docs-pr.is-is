@@ -8,31 +8,31 @@ ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
 ---
-# <a name="sharing-business-data-from-business-central"></a><a name="sharing-business-data-from-business-central"></a><a name="sharing-business-data-from-business-central"></a>Deiling viðskiptagagna úr Business Central
+# <a name="sharing-business-data-from-business-central"></a>Deiling viðskiptagagna úr Business Central
 
 Samstarf fólks innan og utan fyrirtækis er ómissandi þáttur í flestum viðskiptum. [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á ýmsa eiginleika til að deila viðskiptagögnum, eins og lista yfir færslur, tilteknar færslur eða skjöl. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Með öllum þessum eiginleikum er aðgangur að gögnum varinn með leyfi og heimildum Business Central.
 
-## <a name="copying-a-link"></a><a name="copying-a-link"></a><a name="copying-a-link"></a>Afrita tengil
+## <a name="copying-a-link"></a>Afrita tengil
 
 ![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
 Frá hvaða síðu sem er geturðu afritað vefslóð síðunnar, síðan líma hana og dreifa henni með öðrum miðlum eins og tölvupósti, Teams-spjalli eða textaskilaboðum. Einfaldasta leiðin til að afrita tengil er með því að velja **Deila** > **Afrita tengil** efst á síðunni. Önnur leið er að afrita vefslóðina beint úr veffangareit vafrans.
 
-### <a name="modify-the-page-link"></a><a name="modify-the-page-link"></a><a name="modify-the-page-link"></a>Breyta tengli síðunnar
+### <a name="modify-the-page-link"></a>Breyta tengli síðunnar
 
 Þegar þú afritar tengil og áður en þú sendir hann geturðu breytt vefslóðinni til að stýra því hvað er sýnt þegar síðan opnast. Til dæmis er hægt að bæta við síum eða tilgreina annað fyrirtæki.
 
 Fyrir frekari upplýsingar er að finna í [Vefslóð vefbiðlara](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### <a name="about-filtered-lists"></a><a name="about-filtered-lists"></a><a name="about-filtered-lists"></a>Um síaða lista
+### <a name="about-filtered-lists"></a>Um síaða lista
 
 Með því að nota síusvæðið á listasíðum geturðu notað síur til að þrengja færslurnar sem sýndar eru í listanum. Ef notuð er aðgerðin **Afrita tengil** eða vefslóðin úr vafranum er afrituð mun síðutengillinn ekki innihalda síubreytingarnar þínar. Notendur sem opna tengilinn munu sjá allt safnið. Besta leiðin til að halda síun á síðutengli safnsins er að vista fyrst síuðu síðuna sem **Yfirlit**. Opnaðu svo yfirlitið og afritaðu tengilinn þaðan.
 
 Nánari upplýsingar er að finna í [Flokkun, leit og síun](ui-enter-criteria-filters.md).
 
-## <a name="sharing-to-teams"></a><a name="sharing-to-teams"></a><a name="sharing-to-teams"></a>Deila með Teams
+## <a name="sharing-to-teams"></a>Deila með Teams
 
 ![Stutt](media/check.png) Business Central Online ![Ekki stutt](media/x-icon.png) Business Central á staðnum
 
@@ -40,7 +40,7 @@ Beint úr flestum safnsíðum og upplýsingasíðum geturðu sent tengil á sí�
 
 Nánari upplýsingar eru í [Deila færslum og síðutenglum í Teams](across-working-with-teams.md)
 
-## <a name="sharing-through-onedrive"></a><a name="sharing-through-onedrive"></a><a name="sharing-through-onedrive"></a>Samnýting með OneDrive
+## <a name="sharing-through-onedrive"></a>Samnýting með OneDrive
 
 ![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
@@ -48,7 +48,7 @@ Business Central auðveldar geymslu, umsjón og deilingu skráa með öðrum í 
 
 Frekari upplýsingar er að finna í [Deiling skráa í OneDrive](across-share-onedrive.md).
 
-## <a name="opening-in-excel"></a><a name="opening-in-excel"></a><a name="opening-in-excel"></a>Opna í Excel
+## <a name="opening-in-excel"></a>Opna í Excel
 
 ![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
@@ -56,7 +56,7 @@ Fyrir listasíður og lista sem felldir eru inn á síðu er hægt að nota aðg
 
 Frekari upplýsingar er að finna í [Skoða og breyta í Excel](across-work-with-excel.md).
 
-## <a name="sharing-rows-or-tables"></a><a name="sharing-rows-or-tables"></a><a name="sharing-rows-or-tables"></a>Deila röðum eða töflum
+## <a name="sharing-rows-or-tables"></a>Deila röðum eða töflum
 
 ![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
@@ -64,7 +64,7 @@ Frekari upplýsingar er að finna í [Skoða og breyta í Excel](across-work-wit
 
 Nánari upplýsingar eru í [Algengar spurningar um að afrita og líma](faq-copy-paste.yml).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Business Central og OneDrive samþætting](across-onedrive-overview.md)  
 [Stjórnun OneDrive samþættingar við Business Central](admin-onedrive-integration.md)  

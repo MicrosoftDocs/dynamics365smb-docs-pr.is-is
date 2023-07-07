@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a><a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a><a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa
+# <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa
 
 Hægt er að gera sjálfvirkt ferli samþykktar á nýjar eða breyttar færslur, t.d. skjöl, færslubókarlínur og spjöld viðskiptamanna með því að stofna verkflæði með skrefum fyrir viðkomandi samþykkjendur.
 
@@ -21,7 +21,7 @@ Hægt er að gera sjálfvirkt ferli samþykktar á nýjar eða breyttar færslur
 
 Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
-## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Um kynninguna
+## <a name="about-this-walkthrough"></a>Um kynninguna
 
 Þessi kynning er sviðsmynd sem sýnir eftirfarandi verk:  
 
@@ -31,21 +31,21 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 - Óska eftir samþykki innkaupapöntunar (sem Alicia)  
 - Að fá tilkynningu og samþykkja síðan beiðnina (sem Sean)  
 
-## <a name="story"></a><a name="story"></a><a name="story"></a>Ferill
+## <a name="story"></a>Ferill
 
 Sean er frábær notandi á  CRONUS  og býr til tvo samþykktarnotendur. Annar er Alicia sem táknar innkaupaaðilinn. Hinn er Sean sjálfur, sem stendur fyrir samþykkjanda Alicia. Sean gefur þá út ótal innkaupasamþykktarréttindi og Tilgreinir að þeir fái tilkynningar með innri nótum um leið og viðkomandi atburður á sér stað. Að lokum býr Sean til nauðsynlegt samþykktarverkflæði sem afrit af fyrirliggjandi sniðmáti *Verkflæði samþykktar innkaupapöntunar*, skilur eftir öll fyrirliggjandi skilyrði og svarmöguleika óbreytt og virkjar síðan verkflæðið.  
 
 Til að prófa samþykktarverkflæðið skráir Sean sig inn í [!INCLUDE[prod_short](includes/prod_short.md)] sem Alicia og biður síðan um samþykki á innkaupapöntun. Sean undirritar síðan með sjálfum sér, sér nótuna í hlutverkamiðstöðinni, fylgir hlekknum í samþykkisbeiðni fyrir innkaupapöntunina og samþykkir beiðnina.  
 
-## <a name="users"></a><a name="users"></a><a name="users"></a>Notendur
+## <a name="users"></a>Notendur
 
 Áður en þú getur sett upp samþykktarnotendur og tilkynningaaðferð þeirra verðurðu að ganga úr skugga um að þessir notendur séu til í [!INCLUDE[prod_short](includes/prod_short.md)]: Einn mun tákna Aliciu. Hinn notandinn, þú sjálf(ur), táknar Sean. Frekari upplýsingar eru í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md).
 
-### <a name="setting-up-approval-users"></a><a name="setting-up-approval-users"></a><a name="setting-up-approval-users"></a>Setja upp notendur samþykktar
+### <a name="setting-up-approval-users"></a>Setja upp notendur samþykktar
 
 Þegar þú ert skráð(ur) inn sem þú sjálf(ur) skaltu setja upp Aliciu sem samþykktarnotanda sem er þú sjálf(ur) samþykktaraðili fyrir. Settu upp samþykktarheimildir þínar og tilgreindu hvernig og hvenær þér er tilkynnt um samþykktarbeiðnir.  
 
-#### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a><a name="to-set-up-yourself-and-alicia-as-approval-users"></a><a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Til að setja upp þig sjálfan og Alicia sem notendur samþykki
+#### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Til að setja upp þig sjálfan og Alicia sem notendur samþykki
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Uppsetning á notanda samþykktar** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Notandauppsetning samþykktar** skal velja aðgerðina **Nýtt**.  
@@ -60,11 +60,11 @@ Til að prófa samþykktarverkflæðið skráir Sean sig inn í [!INCLUDE[prod_s
     |ÞÚ||Valið|
     |ALICIA|ÞÚ||
 
-### <a name="setting-up-notifications"></a><a name="setting-up-notifications"></a><a name="setting-up-notifications"></a>Tilkynningar settar upp
+### <a name="setting-up-notifications"></a>Tilkynningar settar upp
 
 Í þessari kynningu er notandanum tilkynnt með innri athugasemd um beiðnir til að samþykkja. Samþykktartilkynningu er einnig hægt að senda með tölvupósti og hægt að bæta við svarskrefi verkflæðis sem tilkynnir sendanda þegar beiðni er samþykkt eða henni er hafnað. Frekari upplýsingar eru í [Tilgreina hvenær og hvernig á að fá tilkynningar](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-#### <a name="to-set-up-how-and-when-you-are-notified"></a><a name="to-set-up-how-and-when-you-are-notified"></a><a name="to-set-up-how-and-when-you-are-notified"></a>Til að setja upp hvernig og hvenær þú færð tilkynningu
+#### <a name="to-set-up-how-and-when-you-are-notified"></a>Til að setja upp hvernig og hvenær þú færð tilkynningu
 
 1. Á síðunni **Notandauppsetning samþykktar** velur notandi línuna fyrir sjálfa(n) sig og svo aðgerðina **Tilkynningagrunnur**.  
 2. Á síðunni **Uppsetning tilkynninga** í reitnum **Tilkynningagerð** skal velja **Samþykki**.  
@@ -72,14 +72,14 @@ Til að prófa samþykktarverkflæðið skráir Sean sig inn í [!INCLUDE[prod_s
 4. Á síðunni **Tilkynningagrunnur** skal velja aðgerðina **Áætlun tilkynninga**.  
 5. Á síðunni **Tilkynningaáætlun** í reitnum **Endurtekning** skal velja **Samstundis**.  
 
-## <a name="creating-the-approval-workflow"></a><a name="creating-the-approval-workflow"></a><a name="creating-the-approval-workflow"></a>Samþykktarverkflæðið stofnað
+## <a name="creating-the-approval-workflow"></a>Samþykktarverkflæðið stofnað
 
 Stofna skal samþykktarverkflæði innkaupapöntunar með því að afrita skrefin úr sniðmátinu **Samþykktarverkflæði innkaupapöntunar**. Hafið fyrirliggjandi verkflæðisþrep óbreyttar og virkið þau síðan í verkflæði.  
 
 > [!TIP]
 > Einnig er hægt að bæta við svarskrefi verkflæðis til að tilkynna sendanda þegar beiðni er samþykkt eða henni er hafnað. Frekari upplýsingar eru í [Tilgreina hvenær og hvernig á að fá tilkynningar](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a><a name="to-create-and-enable-a-purchase-order-approval-workflow"></a><a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Til að stofnaog virkja samþykktarverkflæði innkaupapöntunar
+### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Til að stofnaog virkja samþykktarverkflæði innkaupapöntunar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Verkflæði** skal velja **Aðgerðir** og svo **Nýtt** og svo **Nýtt vinnuflæði úr Sniðmáti** aðgerðina.  
@@ -88,11 +88,11 @@ Stofna skal samþykktarverkflæði innkaupapöntunar með því að afrita skref
    Síðan **Verkflæði** opnast fyrir nýtt verkflæði sem inniheldur allar upplýsingarnar úr völdu sniðmáti. Við gildið í reitnum **Kóði** er bætt við *-01* til að gefa til kynna að þetta sé fyrsta verkflæðið sem er stofnað úr sniðmátinu **Samþykktarverkflæði innkaupapöntunar**.  
 4. Í hausnum á síðunni **Verkflæði** skal kveikja á **Virkjað**.  
 
-## <a name="use-the-approval-workflow"></a><a name="use-the-approval-workflow"></a><a name="use-the-approval-workflow"></a>Nota samþykktarverkflæðið
+## <a name="use-the-approval-workflow"></a>Nota samþykktarverkflæðið
 
 Nota nýja samþykktarverkflæði innkaupapöntunar með því að skrá þig inn í [!INCLUDE[prod_short](includes/prod_short.md)] sem Alicia til að biðja um samþykki á innkaupapöntun. Síðan skaltu skrá þig inn, skoða athugasemdina í „Mínu hlutverki“, fylgja tenglinum á samþykktarbeiðnina og síðan samþykkja beiðni.  
 
-### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a><a name="to-request-approval-of-a-purchase-order-as-alicia"></a><a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Til að óska eftir samþykki á innkaupapöntun, sem Alicia
+### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Til að óska eftir samþykki á innkaupapöntun, sem Alicia
 
 1. Skrá inn sem Alicia.
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir**, velja síðan viðkomandi tengil.  
@@ -101,7 +101,7 @@ Nota nýja samþykktarverkflæði innkaupapöntunar með því að skrá þig in
 
 Takið eftir að gildið í reitnum **Staða** hefur breyst í **Bíður samþykktar**.  
 
-### <a name="to-approve-the-purchase-order-as-sean"></a><a name="to-approve-the-purchase-order-as-sean"></a><a name="to-approve-the-purchase-order-as-sean"></a>Til að samþykkja innkaupapöntun, sem Sean
+### <a name="to-approve-the-purchase-order-as-sean"></a>Til að samþykkja innkaupapöntun, sem Sean
 
 1. Skrá inn sem Sean.
 2. Í „Mínu hlutverki“, á svæðinu **Sjálfsafgreiðsla**, skal velja **Beiðnir til að samþykkja**.
@@ -117,9 +117,9 @@ Almenna útgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur m
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-approval-workflows/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  

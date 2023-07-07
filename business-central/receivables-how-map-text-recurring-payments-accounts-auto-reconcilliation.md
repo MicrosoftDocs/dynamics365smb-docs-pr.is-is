@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu
+# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu
 
 Á síðunni **vörpun texta á reikning**, sem opnuð er af síðunni **Greiðsluafstemmingarbók**, er hægt að setja upp vörpun á milli texta í greiðslum og tiltekinni debet-, kredit- og mótreikninga til að greiðslurnar séu bókaðar í tiltekna reikninga þegar greiðsluafstemmingarbók er bókuð.
 
@@ -24,7 +24,7 @@ Greiðslur sem bókaðar eru samkvæmt vörpun texta á reikning eru ekki jafna�
 
 Á færslubókarlínu greiðsluafstemmingar þar sem greiðslan hefur verið stillt á bókun í samræmi við vörpun texta í reikning inniheldur reiturinn **áreiðanleiki samsvörunar** **Mikið – vörpun texta á reikning** og reitirnir **Tegund reiknings** og **reikningsnúmer** reiturinn inniheldur varpaða reikninga.
 
-## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Til að varpa texta á endurteknar greiðslur á reikninga fyrir sjálfvirka afstemmingu
+## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Til að varpa texta á endurteknar greiðslur á reikninga fyrir sjálfvirka afstemmingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluafstemmingarbækur** og velja síðan viðkomandi tengil.
 2. Opna skal greiðsluafstemmingarbók. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
@@ -44,7 +44,7 @@ Greiðslur sem bókaðar eru samkvæmt vörpun texta á reikning eru ekki jafna�
 
 Næst þegar flutt er inn bankayfirlitsskrá eða aðgerðin **Sjálfvirk jöfnun** er valin á síðunni **greiðsluafstemmingarbók** munu bókarlínur fyrir greiðslur sem innihalda tilgreindan vörpunartexta innihalda varpaða reikninga í reitunum **Tegund reiknings** og **reikningsnúmer** reitina. **áreiðanleiki samsvörunar** reiturinn mun innihalda **Mikill - vörpun texta á reikning**. Þetta er háð því skilyrði að sjálfvirk jöfnun getur aðeins boðið upp á áreiðanleika samsvörunar sem er **Lítill** eða **Miðlungs**.
 
-## <a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a>Dæmi: Vörpun texta á reikning fyrir bankagjöld
+## <a name="example-text-to-account-mapping-for-bank-fees"></a>Dæmi: Vörpun texta á reikning fyrir bankagjöld
 
 Til að bóka alltaf útgjöld sem tengjast gjöldum tiltekins banka, MyBank, til fjárhagslykilsins fyrir bankagjöld og -þóknanir (lykill 60400), skal fylla út línu á síðunni **Vörpun texta á reikning** eins og hér fylgir.
 
@@ -52,9 +52,9 @@ Til að bóka alltaf útgjöld sem tengjast gjöldum tiltekins banka, MyBank, ti
 | --- | --- | --- | --- | --- |
 | MyBank |AUTT |60400|Fjárhagur |AUTT |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  

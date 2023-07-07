@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a><a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a><a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
 Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar um AMC Banking 365 Fundamentals-viðbótina er að finna í [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
@@ -63,7 +63,7 @@ Eftirfarandi tafla inniheldur lista yfir reiti í [!INCLUDE[prod_short](includes
 |Heiti færslubókarkeyrslu|Heiti bókarkeyrslu|Almenn færslubókarlína|Runuheiti færslubókar sem er notuð fyrir greiðslulínuna|  
 |Nafn sendibanka - umreikningur gagna|Nafn banka – gagnaumreikn.|Bankareikningur|Nafn bankareiknings sendanda sem er áskilið af AMC Banking 365 Fundamentals tilgreint á bankareikningsspjaldinu|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)
 [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)   

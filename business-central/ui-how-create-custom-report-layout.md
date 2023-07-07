@@ -11,7 +11,7 @@ ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a><a name="legacy-create-and-modify-custom-report-layouts"></a><a name="legacy-create-and-modify-custom-report-layouts"></a>(Eldra) Búa til og breyta sérsniðnum skýrsluútlitum
+# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Eldra) Búa til og breyta sérsniðnum skýrsluútlitum
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -29,7 +29,7 @@ Til að búa til sérsniðið útlit skal annaðhvort afrita fyrirliggjandi sér
 
 Einnig er hægt að nota sérsniðið skýrsluútlit til að bæta efni við tölvupóst. Skýrsluútlit geta sparað tíma og tryggt samræmi með því að endurnota sama efnið þegar haft er samband við viðskiptamenn. Til að nota sérsniðið skýrsluútlit með tölvupósti verður skráargerðin fyrir útlitið að vera Word, ekki er hægt að nota RDLC-skráargerð. Frekari upplýsingar má finna á [Setja upp endurnýtanlega texta og útlit tölvupósts ](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a><a name="create-a-custom-layout"></a><a name="create-a-custom-layout"></a>Búa til sérsniðið útlit
+## <a name="create-a-custom-layout"></a>Búa til sérsniðið útlit
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.
 
@@ -54,11 +54,11 @@ Sérsniðna útlitið hefur verið búið til og hægt er að breyta því eftir
 > [!TIP]
 > Hægt er að flytja niðurstöður skýrslunnar út í Microsoft Excel skrá til að skoða allt gagnasafnið, þar með talið alla dálkana, en án útlitsins. Excel-skráin getur hjálpað til við að staðfesta að skýrslan skili væntanlegum gögnum eða beri kennsl á vandamálin. Frekari upplýsingar er að finna í [Greining skýrslugagna með Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="modifying-a-custom-layout"></a><a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Breyta sérsniðnu útliti
+## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Breyta sérsniðnu útliti
 
 Til að breyta sérsniðnu skýrsluútliti þarftu fyrst að flytja út skýrsluútlit sem skrá á staðsetningu í tölvunni þinni eða neti. Opnaðu síðan útflutt skjal og gerðu breytingarnar. Þegar þú hefur lokið við að gera breytingarnar flyturðu inn skýrsluútlitið.
 
-### <a name="modify-a-custom-layout"></a><a name="modify-a-custom-layout"></a><a name="modify-a-custom-layout"></a>Breyta sérsniðnu útliti
+### <a name="modify-a-custom-layout"></a>Breyta sérsniðnu útliti
 
 1. Flytja út sérsniðið útlit á síðunni **Sérsniðið skýrsluútlit**. Ef sú síða er ekki þegar opin skaltu leita að og opna síðuna **Val á skýrsluútliti**, velja skýrsluna sem þú vilt breyta útliti fyrir og velja svo aðgerðina **Sérsniðið útlit**.  
 2. Á síðunni **Sérsniðið skýrsluútlit** skal velja útlitið sem þú vilt breyta, veldu **Flytja út útlit** aðgerðina og svo velja **Vista** eða **Vista sem** til að vista skýrsluútlitsskjalið á staðsetningu í tölvunni eða á netkerfi.  
@@ -78,7 +78,7 @@ Til að breyta sérsniðnu skýrsluútliti þarftu fyrst að flytja út skýrslu
 > Mundu að flytja inn skjal skýrsluútlits sem þú breyttir. Annars verður nýja skýrsluútlitið ekki í boði.
 
 <!--
-## <a name="create-and-modify-custom-report-layouts"></a><a name="create-and-modify-custom-report-layouts"></a><a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Create and modify custom report layouts
+## <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a>Create and modify custom report layouts
 
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word like you do with any Word document.
 
@@ -87,11 +87,11 @@ If you're designing a Word report layout from scratch or adding new data fields,
 > [!TIP]  
 > Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding fonts in Word layouts for consistency
+### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding fonts in Word layouts for consistency
 
 To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-### <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="removing-label-and-data-fields-in-word-layouts"></a><a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Removing label and data fields in Word layouts
+### <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a>Removing label and data fields in Word layouts
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -99,7 +99,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
  The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
+### <a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
 
 1. Right-click the field you want to delete, then choose **Remove Content Control**.  
 
@@ -107,13 +107,13 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 2. Delete the remaining text as needed.  
 
-### <a name="adding-data-fields"></a><a name="adding-data-fields"></a><a name="adding-data-fields"></a>Adding data fields
+### <a name="adding-data-fields"></a>Adding data fields
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md)  

@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a>Sandkassaumhverfi í [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-"></a>Sandkassaumhverfi í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu geturðu auðveldlega náð þér í öruggt umhverfi þar sem hægt er að prófa, þjálfa eða leysa úr málum án þess að það trufli verkferla eða viðskiptagögn fyrirtækisins. Slíkt umhverfi sem ekki er hægt að framleiða í er kallað *sandkassi*. Sandkassaumhverfi er staðurinn, ótengdur framleiðslu, þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa þjónustuna í öruggu umhverfi án þess að eiga á hættu að hafa áhrif á gögnin eða stillingarnar í framleiðsluumhverfi þínu.  
 
@@ -35,13 +35,13 @@ Sandkassaumhverfið er ekki síst gagnlegt vegna þess að það felur í sér n
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Hönnuður](#designer)  
 
-## <a name="advanced-user-experience"></a><a name="advanced-user-experience"></a><a name="advanced-user-experience"></a>Ítarleg notendaupplifun
+## <a name="advanced-user-experience"></a>Ítarleg notendaupplifun
 
 Mögulegt er að virkja og prófa fulla virkni af staðalútgáfu [!INCLUDE[prod_short](includes/prod_short.md)] í sandkassa leigjanda með því að stilla svæðið **Upplifun** á síðunni **Upplýsingar um fyrirtæki** á *Premium*. Leitaðu að síðunni **Upplýsingar um fyrirtæki** í :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Stillingatákninu."::: .  
 
 Eftir að þú hefur opnað fyrir notendaupplifunina *Premium*, færðu aðgang að öllum stöðluðu forstillingunum (hlutverkum) og Mitt hlutverk í stöðluðu útgáfunni. Að öðrum kosti er hægt að hafa samskipti við endursöluaðila til að fá sýniútgáfu af þeim eiginleikum. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### <a name="complete-sample-data"></a><a name="complete-sample-data"></a><a name="complete-sample-data"></a>Ljúka sýnigögnum
+### <a name="complete-sample-data"></a>Ljúka sýnigögnum
 
 Ef þú þarft frekari sýnigögn skaltu ræða við endursöluaðila þinn.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -56,7 +56,7 @@ Ef þú þarft frekari sýnigögn skaltu ræða við endursöluaðila þinn.
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## <a name="designer"></a><a name="designer"></a><a name="designer"></a>Hönnuður
+## <a name="designer"></a>Hönnuður
 
 Í sandkassaumhverfi er kveikt á **Hönnuður**. Hægt er að virkja hönnuðinn með því að velja hönnunartáknið ![Hönnuður.](./media/across-sandbox/sandbox-inclient-design-icon.png) á síðu eða með því að velja **Hanna** valmyndaratriðið í stillingavalmyndinni ![Stillingar](media/ui-experience/settings_icon_small.png).  
 
@@ -64,9 +64,9 @@ Frekari upplýsingar er að finna í [Nota hönnuð](/dynamics365/business-centr
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Prufuútgáfa og áskrift](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

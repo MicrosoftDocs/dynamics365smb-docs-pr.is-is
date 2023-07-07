@@ -11,7 +11,7 @@ ms.date: 09/22/2022
 ms.custom: bap-template
 ---
 
-# <a name="business-central-and-microsoft-teams-integration"></a><a name="business-central-and-microsoft-teams-integration"></a><a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams samþætting
+# <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams samþætting
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,11 +19,11 @@ ms.custom: bap-template
 
 Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-skjáborði, farsímaforriti eða á vefnum.
 
-## <a name="features-overview"></a><a name="features-overview"></a><a name="features-overview"></a>Yfirlit yfir eiginleika
+## <a name="features-overview"></a>Yfirlit yfir eiginleika
 
 [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Teams býður upp á eftirfarandi eiginleika.
 
-### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a><a name="look-up-details-of-customers-vendors-and-other-contacts"></a><a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Fletta upp upplýsingum um viðskiptavini, lánardrottna og aðra tengiliði
+### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Fletta upp upplýsingum um viðskiptavini, lánardrottna og aðra tengiliði
 
 Þú getur leitað að upplýsingum um viðskiptavini, lánardrottna og aðra [!INCLUDE [prod_short](includes/prod_short.md)]-tengiliði hvar sem er í Teams. Þessi eiginleiki gerir þér ekki aðeins kleift að skoða almennar upplýsingar um tengiliði heldur veitir einnig aðgang að samskiptasögu, tengdum skjölum og fleiru.
 
@@ -35,7 +35,7 @@ Einnig er hægt að deila upplýsingum um tengiliði í samtali. Þaðan hafa þ
 
 Frekari upplýsingar er að finna í [Leita að tengiliðum úr Microsoft Teams](across-search-contacts-teams.md).
 
-### <a name="share-records-in-conversations"></a><a name="share-records-in-conversations"></a><a name="share-records-in-conversations"></a>Deila færslum í samtölum
+### <a name="share-records-in-conversations"></a>Deila færslum í samtölum
 
 Afrita tengil í hvaða færslu Business Central sem er og líma hann í spjall á Teams til að deila honum með samstarfsfólki. Forritið stækkar svo tengilinn í gagnvirkt spjald sem birtir upplýsingar um færsluna.
 
@@ -45,7 +45,7 @@ Afrita tengil í hvaða færslu Business Central sem er og líma hann í spjall 
 
 Frekari upplýsingar eru í [Deila færslum í Microsoft Teams](across-working-with-teams.md).
 
-### <a name="share-links-from-pages-in-business-central-to-teams"></a><a name="share-links-from-pages-in-business-central-to-teams"></a><a name="share-links-from-pages-in-business-central-to-teams"></a>Deila tenglum af síðum í Business Central með Teams
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Deila tenglum af síðum í Business Central með Teams
 
 Beint frá flestum söfnunar- og upplýsingasíðum í Business Central er hægt að nota aðgerðina **Deila með Teams** í ![Valmyndartákni deilingar á síðum.](media/share-icon.png "Deilingarvalmyndin sýnd á spjaldi.") til að skrifa skilaboð, velja viðtakendur á borð við teymismeðlimi, hópa eða rásir og senda skilaboðin með tengli á síðu Business Central.
 
@@ -55,7 +55,7 @@ Beint frá flestum söfnunar- og upplýsingasíðum í Business Central er hægt
 
 Frekari upplýsingar er að finna í [Deila færslum og síðutenglum í Microsoft Teams](across-working-with-teams.md#share-link).
 
-### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a><a name="add-a-business-central-tab-to-teams-channel-or-chat"></a><a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Bæta Business Central-flipa við Teams-rás eða spjall
+### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Bæta Business Central-flipa við Teams-rás eða spjall
 
 Með Business Central-forritinu fyrir Teams uppsett er hægt að bæta við flipa í rás eða spjalli sem sýnir Business Central-gögnin af síðum lista og spjalda.
 
@@ -63,7 +63,7 @@ Með Business Central-forritinu fyrir Teams uppsett er hægt að bæta við flip
 
 Frekari upplýsingar er að finna í [Bæta við Business Central-flipa í Teams](across-teams-tab.md).
 
-## <a name="get-started"></a><a name="get-started"></a><a name="get-started"></a>Leiðsögn
+## <a name="get-started"></a>Leiðsögn
 
 1. [!INCLUDE [prod_short](includes/prod_short.md)]-notandareikningur á netinu er nauðsynlegur fyrir [!INCLUDE [prod_short](includes/prod_short.md)]-forrit fyrir Teams.
 
@@ -76,7 +76,7 @@ Frekari upplýsingar er að finna í [Bæta við Business Central-flipa í Teams
 3. Setjið upp [!INCLUDE [prod_short](includes/prod_short.md)]-forrit í Teams. Skoðið [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið Microsoft Teams](across-install-app-for-teams.md).
 4. Þá forritið er uppsett er allt til reiðu. Sjá [Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams](across-search-contacts-teams.md) og [Deila færslum í Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Teams - Algengar spurningar](teams-faq.md)  
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  

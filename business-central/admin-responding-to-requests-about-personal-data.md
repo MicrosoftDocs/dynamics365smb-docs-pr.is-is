@@ -9,14 +9,14 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="responding-to-requests-about-users-personal-data"></a><a name="responding-to-requests-about-users-personal-data"></a><a name="responding-to-requests-about-users-personal-data"></a>Svara beiðnum um persónuleg gögn notanda
+# <a name="responding-to-requests-about-users-personal-data"></a>Svara beiðnum um persónuleg gögn notanda
 
 Skráðir aðilar geta óskað eftir nokkrum tegundum aðgerða varðandi persónuupplýsingar þeirra. Undir suma persónuverndarlög og reglugerðir hafa til dæmis menn rétt til að óska eftir útflutningi, eyðingu og breytingum á persónuupplýsingum sínum. Þessar beiðnir eru kallaðar  *Gagnaefnisbeiðnir*. Ef þú hefur flokkað næmi gagnanna, og ert viss um að þau séu rétt, getur kerfisstjóri svarað beiðnum með því að nota valkostina í  **flipanum Gagnanæði**  í  **hlutverkamiðstöð stjórnunarstjóra** . Nánari upplýsingar um flokkun gagna og gagna næmi í  [!INCLUDE[prod_long](includes/prod_long.md)], farið er í eftirfarandi greinar:
 
 * [Gagnaflokkun](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) 
 * [Flokkun gagnatrúnaðar](admin-classifying-data-sensitivity.md)  
 
-## <a name="types-of-requests"></a><a name="types-of-requests"></a><a name="types-of-requests"></a>Tegundir beiðna
+## <a name="types-of-requests"></a>Tegundir beiðna
 
 Eftirfarandi tafla gefur dæmi um tegundir beiðna sem stjórnendur geta brugðist við.
 
@@ -29,11 +29,11 @@ Eftirfarandi tafla gefur dæmi um tegundir beiðna sem stjórnendur geta brugði
 |Beiðni um eyðingu|Skráður aðili getur óskað eftir því að þú eyðir persónulegum gögnum. Það eru nokkrar leiðir til að eyða persónulegum gögnum með því að nota sérstillingarmöguleikana, en ákvörðun og framkvæmd er á þína ábyrgð. Í sumum tilfellum gæti verið hægt að velja að breyta gögnunum. Til dæmis er búið að eyða tengilið og keyra síðan keyrsluna Eyða afturkölluðum milliverkunum til að eyða samskiptum tengiliðarins. <br><br> **Til athugunar:**  ef dagsetning er tilgreind í  **reitnum leyfa eyðingu áður en**  reiturinn á  **uppsetningarsíðum**  &  **sölu eða**  innkaupa & lánardrottna er tilgreindur gæti þurft að breyta dagsetningunni svo hægt sé að eyða bókuðum sölu-og innkaupafylgiskjölum sem eru með bókunardagsetningar á eða fyrir þá dagsetningu.|
 |Beiðnir um leiðréttingu|Skráður aðili getur óskað eftir því að ónákvæm persónuleg gögn verði leiðrétt. Hægt er gera það á nokkra vegu: Í sumum tilfellum er hægt að flytja út lista í Excel til að magnbreyta margar skrár á fljótlegan hátt og síðan flytja inn uppfærðu gögnin. Frekari upplýsingar eru í [Flytja út viðskiptagögn í Excel](about-export-data.md). Einnig er hægt að breyta reitum handvirkt sem innihalda persónuleg gögn, t.d. með því að breyta upplýsingum um viðskiptavin í viðskiptamannaspjaldinu. Hins vegar eru færslur eins og almennar, viðskiptamanna-og skattfærslur mikilvægar. Ef þú geymir persónuleg gögn í viðskiptafærsluskrám skaltu íhuga að nota sérstillingarmöguleikana til að breyta slíkum persónulegum gögnum.|
 
-## <a name="restrict-data-processing-for-a-data-subject"></a><a name="restrict-data-processing-for-a-data-subject"></a><a name="restrict-data-processing-for-a-data-subject"></a>Takmarka gagnavinnslu við gagnaefni
+## <a name="restrict-data-processing-for-a-data-subject"></a>Takmarka gagnavinnslu við gagnaefni
 
 Skráður aðili getur óskað eftir því að þú hættir tímabundið með vinnslu á persónulegum gögnum hans. Til að heiðra slíkar beiðnir er hægt að merkja færslur þeirra sem lokaðar vegna persónuverndar til að hætta að vinna úr gögnum þeirra. Þegar skrá er merkt sem lokuð er ekki hægt að búa til nýjar færslur sem nota þessa færslu. Til dæmis getur þú ekki búið til nýjan reikning fyrir viðskiptavini þegar annað hvort viðskiptavinurinn eða seljandi er lokaður. Til að merkja skráðan aðila sem læstan skal opna spjaldið fyrir skráða aðilann, t.d. spjald viðskiptavinar, lánardrottins eða tengiliðs og velja gátreitinn **Lokað fyrir vegna persónuverndar**. Þú gætir þurft að velja **Sýna fleiri** til að birta reitinn.  
 
-## <a name="handling-data-subject-requests-when-using-a-trial-version"></a><a name="handling-data-subject-requests-when-using-a-trial-version"></a><a name="handling-data-subject-requests-when-using-a-trial-version"></a>Afgreiðsla á efnisbeiðnum gagna við notkun prufuútgáfu
+## <a name="handling-data-subject-requests-when-using-a-trial-version"></a>Afgreiðsla á efnisbeiðnum gagna við notkun prufuútgáfu
 
 Ákveðnar gerðir af persónugögnum eru hluti af  Microsoft 365  lykli og aðeins kerfisstjórar geta flutt út gögnin. Ferlið sem nær utan um beiðnir skráðs einstaklings fer eftir gerð [!INCLUDE[prod_short](includes/prod_short.md)] leigjandans.
 
@@ -45,21 +45,21 @@ Ef þú áritar þig fyrir  [!INCLUDE[prod_short](includes/prod_short.md)]  af s
 
 Þú getur samt merkt fólk sem útilokað vegna persónuverndar og útflutnings, breytt eða eytt færslum eins og lýst er annars staðar í þessari grein.  
 
-## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a><a name="exporting-data-from-tables-not-classified-by-data-subject"></a><a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Útflutningur gagna úr töflum ekki flokkaður eftir efni gagna
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Útflutningur gagna úr töflum ekki flokkaður eftir efni gagna
 
 Ef flytja þarf gögn sem ekki eru flokkuð á þann hátt þannig að það sé sjálfvirkt flutt inn, s.s. gögn úr töflunni svör lýsingar, verður að grípa til eftirfarandi aðgerða:
 
 * Íhugaðu hvort þú ættir raunverulega að flytja út viðbótargögn sem eru ekki beint tengd tengiliðinn.
 * Bættu töflu og venslum handvirkt við Hraðstart-pakkann og útfærðu hann beint úr Hraðstart pakkanum. Við það myndast Hraðstart pakki fyrir þig, svo hægt sé að klikka á honum í slíkum aðstæðum.
 
-## <a name="handling-data-about-minors"></a><a name="handling-data-about-minors"></a><a name="handling-data-about-minors"></a>Meðhöndlun gagna um myntsafnið
+## <a name="handling-data-about-minors"></a>Meðhöndlun gagna um myntsafnið
 
 Ef tengiliðar er undir lögaldri samkvæmt lögum á þínu svæði getur þú bent á það með því að velja gátreitinn **Barn** á spjaldinu **Tengiliður**. Þegar þú gerir það verður gátreiturinn **Lokað fyrir vegna persónuverndar** valinn sjálfkrafa. Þegar þú færð samþykki foreldris eða forráðamanns getur þú valið gátreitinn **Samþykki foreldra fengið** til að opna aftur á tengiliðinn. Þó að þú getir unnið úr persónulegum gögnum fyrir ólögráða einstakling, getur þú ekki notað lýsingaraðgerðina í Microsoft Dynamics 365 Sales.
 
 > [!Note]
 > Breytingaskráin getur skráð upplýsingar eins og hvenær og af hverjum gátreiturinn **Samþykki foreldra fengið** var valinn. Stjórnandi getur sett það upp með því að nota leiðarvísinn **Uppsetning breytingaskrár** og einnig velja gátreitinn **Skrá breytingar á fengnu samþykki foreldris** á spjaldinu **Tengiliður**. Frekari upplýsingar eru í [Skráning breytinga](across-log-changes.md).  
 
-### <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+### <a name="see-also"></a>Sjá einnig .
 
 [Gagnaflokkun](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Flokkun gagnatrúnaðar](admin-classifying-data-sensitivity.md)  

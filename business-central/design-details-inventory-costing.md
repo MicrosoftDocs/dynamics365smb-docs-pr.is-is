@@ -11,13 +11,13 @@ ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-inventory-costing"></a><a name="design-details-inventory-costing"></a><a name="design-details-inventory-costing"></a>Hönnunarupplýsingar: Birgðakostnaður
+# <a name="design-details-inventory-costing"></a>Hönnunarupplýsingar: Birgðakostnaður
 
 Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar fyrir hugtökin og reglurnar sem eru notaðar í Birgðarkostnaði [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Birgðakostnaður, einnig kostnaðarstýring, snýst um að skrá og tilkynna kostnað við starfsemi fyrirtækisins.  
 
-## <a name="in-this-section"></a><a name="in-this-section"></a><a name="in-this-section"></a>Í þessum hluta
+## <a name="in-this-section"></a>Í þessum hluta
 
 [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
 [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  

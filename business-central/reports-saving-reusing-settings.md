@@ -10,7 +10,7 @@ ms.search.keywords: 'customization, personalization'
 ms.date: 12/21/2021
 ms.author: edupont
 ---
-# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a><a name="manage-saved-settings-for-reports-and-batch-jobs"></a><a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Stjórna vistuðum stillingum fyrir skýrslur og runuvinnslur
+# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Stjórna vistuðum stillingum fyrir skýrslur og runuvinnslur
 
 Þegar skýrslur eru keyrðar er notendum yfirleitt sýnd síða sem gerir þeim kleift að velja valkosti og síur fyrir breytingar á gögnum sem eru í mynduðu skýrslunni. Þessi síða er kölluð *beiðnisíða*. Skýrsla getur innihaldið eitt eða fleiri *vistaðar stillingar* sem notendur geta notað á skýrsluna úr beiðnisíðunni. *Vistuð stillingar* eru skoðaður fyrirfram skilgreind valkosti og afmarkanir. Notkun vistaðra stillinga er fljótleg og áreiðanleg leið til að búa til skýrslur sem innihalda rétt gögn. Frekari upplýsingar eru í [Nota vistaðar stillingar](ui-work-report.md#SavedSettings).
 
@@ -19,7 +19,7 @@ ms.author: edupont
 
 Ef réttar heimildir eru til staðar er hægt að skoða, stofna og breyta vistuðum stillingum fyrir allar skýrslur fyrir alla notendur í fyrirtækinu. Hægt er að úthluta vistuðum stillingum fyrir skýrslu fyrir einstaka notendur eða alla notendur í fyrirtækinu.
 
-## <a name="manage-saved-settings"></a><a name="manage-saved-settings"></a><a name="manage-saved-settings"></a>Stjórna vistuðum stillingum
+## <a name="manage-saved-settings"></a>Stjórna vistuðum stillingum
 
 Þú hefur umsjón með vistuðum stillingum á síðunni **Stillingar skýrsla**. Tvær aðferðir til að opna þessa síða:
 
@@ -35,7 +35,7 @@ Síðan **Skýrslustillingar** birtir allar fyrirliggjandi vistaðar stillingaf�
 >
 > Í sumum tilvikum er þó ekki hægt að deila stillingum og stjórnandi getur ekki heldur breytt þeim. Flestar runuvinnslur styðja ekki samnýttar stillingar.  
 
-## <a name="create-or-modify-saved-settings-for-all-users"></a><a name="create-or-modify-saved-settings-for-all-users"></a><a name="create-or-modify-saved-settings-for-all-users"></a>Stofna eða breyta vistuðum stillingum fyrir alla notendur
+## <a name="create-or-modify-saved-settings-for-all-users"></a>Stofna eða breyta vistuðum stillingum fyrir alla notendur
 
 Á síðunni **Skýrslustillingar** er hægt að:
 
@@ -49,7 +49,7 @@ Síðan **Skýrslustillingar** birtir allar fyrirliggjandi vistaðar stillingaf�
 > [!NOTE]
 > Getan til að vista stillingar er aðeins í boði í skýrslum þar sem eiginleikinn [SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) fyrir beiðnisíðu skýrslunnar er stillt á **Já**. Eiginleikinn **SaveValues** er stilltur af þróunaraðila.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
 

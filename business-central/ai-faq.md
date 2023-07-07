@@ -10,7 +10,7 @@ author: jswymer
 ms.service: dynamics365-business-central
 ---
 
-# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a><a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a><a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>FAQ markaðstexta vöru (Forskoðun) með hjálp Copilot
+# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>FAQ markaðstexta vöru (Forskoðun) með hjálp Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -18,7 +18,7 @@ ms.service: dynamics365-business-central
 
 ## [Almennt](#tab/general)
 
-### <a name="what-is-copilot"></a><a name="what-is-copilot"></a><a name="what-is-copilot"></a>Hvað er Copilot?
+### <a name="what-is-copilot"></a>Hvað er Copilot?
 
 Copilot veitir AI-myndaða texta tillögur um atriði í Viðskiptamiðinu. Hún er ætluð fyrir notendur sem skrifa markaðstexta fyrir vörur til að hjálpa þeim að framleiða þátt og sannfærandi efni. Nokkur lykilávinningur er meðal annars:
 
@@ -28,7 +28,7 @@ Copilot veitir AI-myndaða texta tillögur um atriði í Viðskiptamiðinu. Hún
 
 Notendur skulu hafa í huga þann texta sem þarf að yfirfara og breyta fyrir nákvæmni áður en hann er aðgengilegur opinberlega.
 
-### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a><a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a><a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>Af hverju er Copilot ekki til staðar fyrir markaðstexta á vörum mínum í Viðskiptamiðinu?
+### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>Af hverju er Copilot ekki til staðar fyrir markaðstexta á vörum mínum í Viðskiptamiðinu?
 
 Til að Copilot séu tiltæk þarf að uppfylla eftirfarandi kröfur:
 
@@ -45,21 +45,21 @@ Til að Copilot séu tiltæk þarf að uppfylla eftirfarandi kröfur:
 
    Frekari upplýsingar er  [að leita í samþykkis á eða hafna forskráningu og persónuverndarskilmálum og skilyrðum fyrir alla notendur](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a><a name="is-copilot-available-for-preview-in-business-central-on-premises"></a><a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>Er Copilot fáanleg fyrir forskoðun í Business miðlægt innanhúss?
+### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>Er Copilot fáanleg fyrir forskoðun í Business miðlægt innanhúss?
 
 Nei, það er nú ekki stutt í viðskiptafræði miðsvæðis innanhúss.
 
-### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a><a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a><a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>Hvernig virkar Copilot, Hvaðan kemur leiðbeinandi textinn?
+### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>Hvernig virkar Copilot, Hvaðan kemur leiðbeinandi textinn?
 
 Copilot notar  [Azure OpenAI þjónustuna](/azure/cognitive-services/openai/overview)  til að nálgast öflug tungumálalíkön sem greina og mynda náttúruleg tungumál. Þessi líkön hafa verið þjálfuð á breiðum megintexta af datamengi textana. Þar af leiðandi geta Copilot myndað leiðbeinandi, persónuleg svör á ensku Byggt á lágmarks inntaksgögnum, líkt og eigindum vöru, tegund eða lýsingu. 
 
-### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a><a name="whats-the-quality-of-the-text-suggested-by-copilot"></a><a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>Hver er gæði textans sem lagður er til við Copilot?
+### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>Hver er gæði textans sem lagður er til við Copilot?
 
 Þar sem undirliggjandi tækni á bak við Copilot notar AI sem hefur verið þjálfuð á margs konar uppruna, þá er myndað efni ekki alltaf efnismikið eða hentugt. Sumar tillögur geta jafnvel falið í sér vafasamt eða óviðeigandi efni. Það er á þína ábyrgð að endurskoða og breyta myndaðir tillögur til að tryggja það réttmætt og viðeigandi.
 
 Upplýsingar um óviðeigandi uppákomur er farið í  [það sem gert er um móðgandi og skaðlegar textatillögur?](/dynamics365/business-central/ai-faq?&tabs=oversight#whats-done-about-abusive-and-harmful-text-suggestions).
 
-### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a><a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a><a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>Hvernig get ég bætt úr þeim tillögum sem ég fæ frá Copilot?
+### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>Hvernig get ég bætt úr þeim tillögum sem ég fæ frá Copilot?
 
 Það eru nokkur atriði sem þú getur gert til að fá sem mest út úr tillögum frá Copilot:
 
@@ -70,13 +70,13 @@ Upplýsingar um óviðeigandi uppákomur er farið í  [það sem gert er um mó
 
 Til að fá frekari upplýsingar er farið í að  [bæta og sníða tillögur](item-marketing-text.md#improve-and-tailor-text-suggestions) að texta.
 
-### <a name="what-if-im-not-satisfied-with-the-generated-text"></a><a name="what-if-im-not-satisfied-with-the-generated-text"></a><a name="what-if-im-not-satisfied-with-the-generated-text"></a>Hvað ef ég er ekki sáttur við myndaða textann?
+### <a name="what-if-im-not-satisfied-with-the-generated-text"></a>Hvað ef ég er ekki sáttur við myndaða textann?
 
 Til að hjálpa okkur að bæta textann, valið  **er þetta góð uppákoma?**  **á vefsíðunni Create with Copilot**, sem þú getur svarað með þumalfingurs-upp (mér líst vel á það) eða Þumalputtareglur (þarfnast úrbóta).
 
 ![Sýnir birgðaspjald með rúðu Markaðstexta](media/create-with-copilot-window-feedback.png)
 
-### <a name="can-admins-disable-copilot-if-so-how"></a><a name="can-admins-disable-copilot-if-so-how"></a><a name="can-admins-disable-copilot-if-so-how"></a>Má viðurkenningar gera við copilot? Ef svo er, hvernig?
+### <a name="can-admins-disable-copilot-if-so-how"></a>Má viðurkenningar gera við copilot? Ef svo er, hvernig?
 
 Miðborg býður viðurkenningar tvær leiðir til að gera Kópavog óvirka í forskoðun:
 
@@ -90,13 +90,13 @@ Til að fá frekari upplýsingar er farið í að  [samskipa texta um MARKAÐSSE
 
 ## [Sanngirni](#tab/fairness)
 
-### <a name="does-copilot-work-with-languages-other-than-english"></a><a name="does-copilot-work-with-languages-other-than-english"></a><a name="does-copilot-work-with-languages-other-than-english"></a>Virkar Copilot með tungumálum öðrum en ensku?
+### <a name="does-copilot-work-with-languages-other-than-english"></a>Virkar Copilot með tungumálum öðrum en ensku?
 
 Eins og er, styður Copilot aðeins ensku. Rangar svör kunna að skila sér þegar notendur samtengjast kerfinu á tungumálum öðrum en ensku.
 
 ## [Mannlegu yfirsjónir](#tab/oversight)
 
-### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a><a name="whats-done-about-abusive-and-harmful-text-suggestions"></a><a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>Hvað er gert um móðgandi og skaðlegar texttillögur?
+### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>Hvað er gert um móðgandi og skaðlegar texttillögur?
 
 Azure OpenAI þjónustan geymir kvaðningar og margbreytileika úr þjónustunni til að fylgjast með að móðgandi notkun og að þróa og bæta gæði hiure OpenAI efnisstjórnunarkerfa fyrirtækisins. [Lærðu meira um efnistjórnun okkar og síun.](/azure/cognitive-services/openai/concepts/content-filter)
 
@@ -104,7 +104,7 @@ Starfsmenn Microsoft hafa aðgang að kvaðningu og gögnum sem hafa komið upp 
 
 Nánari upplýsingar er að finna  [í gögnum, persónuvernd og öryggi hjá Azure OpenAI þjónustunni](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a><a name="can-i-opt-out-of-the-logging-and-human-review-process"></a><a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>Get ég valið úr skógarhöggi og manna endurskoðunarferli?
+### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>Get ég valið úr skógarhöggi og manna endurskoðunarferli?
 
 Sem hluti af því að veita Azure OpenAI foryfirlitunum, mun Microsoft vinna og geyma gögn viðskiptavinar sem send eru til þjónustunnar, ásamt frálagsefni, til þess að fylgjast með og koma í veg fyrir móðgandi eða skaðlegar not eða fráhald þjónustunnar; og til að þróa, prófa og bæta getu sem ætlað er að koma í veg fyrir móðgandi notkun eða skaðleg áhrif af þjónustunni. 
 
@@ -112,7 +112,7 @@ Með viðurkenndum Microsoft-starfsmönnum er heimilt að fara yfir gögn sem ha
 
 ## [Persónuvernd](#tab/privacy)
 
-### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a><a name="what-data-does-the-capability-collect-how-is-the-data-used"></a><a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Hvaða gögnum safnar hæfileiki? Hvernig eru gögnin notuð?
+### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Hvaða gögnum safnar hæfileiki? Hvernig eru gögnin notuð?
 
 Hæfileiki safnar þínu svari til  **er þetta góð uppákoma?**  Spurning um að búa til  **með Copilot**  síðu, sem getur verið annað hvort þumalfingur-upp (mér líkar það) eða þumalfingurs-niður (þarf framför).
 
@@ -122,7 +122,7 @@ Við notum þessi gögn til að meta og bæta gæði þeirrar getu. Frekari uppl
 
 ---
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit um markaðssetningu á AI-knúinn vöru með Copilot](ai-overview.md)  
 [Skilgreina markaðstexta með AI-knúinn vöru með Copilot sem admin](enable-ai.md)  

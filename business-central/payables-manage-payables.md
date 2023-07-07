@@ -11,7 +11,7 @@ ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="managing-payables"></a><a name="managing-payables"></a><a name="managing-payables"></a>Stjórna skuldum
+# <a name="managing-payables"></a>Stjórna skuldum
 
 Stór hluti af stjórnun viðskiptaskulda er að borga lánardrottnum þínum eða endurgreiða starfsmönnum útgjöld. Þú getur notað aðgerðir til að bæta við greiðslumörkum fyrir innkaupareikninga sem eru komnir á gjalddaga á síðunni **Greiðslubók**. Til að senda viðskipti í bankann þinn, getur þú flutt margar greiðslubókalínur í skrá og síðan hlaðið skránum inn í bankann þinn. Einnig er hægt að framkvæma greiðslur með tékka, þar með talið senda tékka sem rafræn greiðsla
 
@@ -29,9 +29,9 @@ Einnig er hægt að jafna greiðslur á útleið handvirkt á síðunni **greið
 |Tryggðu rétt birgðamat með því að úthluta viðbótar vörukostnaði, eins og farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér.|[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|
 |Endurgreiða starfsmönnum fyrir persónuleg útgjöld í viðskiptaerindum með því að greiða inn á bankareikning þeirra.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)  

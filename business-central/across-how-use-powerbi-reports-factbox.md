@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-"></a><a name="creating-power-bi-reports-for-displaying-list-data-in-"></a><a name="creating-power-bi-reports-for-displaying-list-data-in-"></a>Býr til Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-"></a>Býr til Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] inniheldur stjórneiningu Power BI upplýsingareits á mörgum mikilvægum listasíðum. Tilgangurinn með þessum upplýsingareit er að sýna Power BI-skýrslur sem tengjast færslum í listunum sem veita betri innsýn í gögnin. Hugmyndin er að þegar farið er milli lína í listanum uppfærist skýrslan uppfærð fyrir valda færslu.
 
@@ -19,7 +19,7 @@ ms.author: jswymer
 > [!NOTE]
 > Fyrir almennar upplýsingar um stofnun og birtingu Power BI-skýrslna fyrir Business Central er að finna í [Myndun Power BI-skýrslna til að birta [!INCLUDE [prod_long](includes/prod_long.md)] gögn](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 - Power BI-Reikningur.
 - Power BI Desktop.
@@ -27,7 +27,7 @@ ms.author: jswymer
 <!-- 
 For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-## <a name="create-a-report-for-a-list-page"></a><a name="create-a-report-for-a-list-page"></a><a name="create-a-report-for-a-list-page"></a>Búa til skýrslu fyrir listasíðu
+## <a name="create-a-report-for-a-list-page"></a>Búa til skýrslu fyrir listasíðu
 
 1. Ræsið Power BI Desktop.
 2. Veljið **Sækja gögn** og veljið gagnagjafann fyrir skýrsluna.
@@ -75,7 +75,7 @@ For more information about getting started, see [Use [!INCLUDE[prod_short](inclu
 
     Skýrslan birtist ef þetta er hannað á réttan hátt.  
 
-## <a name="set-the-report-size-and-color"></a><a name="set-the-report-size-and-color"></a><a name="set-the-report-size-and-color"></a>Stilla stærð og lit skýrslunnar
+## <a name="set-the-report-size-and-color"></a>Stilla stærð og lit skýrslunnar
 
 Stærð skýrslu verður að stilla á 325 sinnum 310 pixla. Þessi stærð býður upp á rétta kvörðun á skýrslu í tiltæku bili í Power BI stjórnun upplýsingareits í [!INCLUDE[prod_short](includes/prod_short.md)]. Til að skilgreina stærð skýrslu skal staðsetja fókus utan svæðis fyrir útlit skýrslu og velja svo tákn fyrir málningarrúllu.
 
@@ -88,37 +88,37 @@ Ef bakgrunnur skýringarinnar á að vera með bakgrunnslit Power BI upplýsinga
 > [!TIP]
 > Notið [!INCLUDE [prod_short](includes/prod_short.md)]-þemaskrá til að búa til skýrslur með sama litastíl og [!INCLUDE [prod_short](includes/prod_short.md)]-forritin. Frekari upplýsingar er að finna í [Nota [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema notað](across-how-use-financials-data-source-powerbi.md#theme).
 
-## <a name="reports-with-multiple-pages"></a><a name="reports-with-multiple-pages"></a><a name="reports-with-multiple-pages"></a>Skýrslur með mörgum síðum
+## <a name="reports-with-multiple-pages"></a>Skýrslur með mörgum síðum
 
 Með Power BI er hægt að stofna eina skýrslu með mörgum síðum. Fyrir skýrslur sem birtast með listasíðum mælum við hins vegar ekki með því að þær séu með fleiri en eina síðu. Power BI upplýsingareiturinn sýnir aðeins fyrstu síðu skýrslunnar.
 
-## <a name="fixing-problems"></a><a name="fixing-problems"></a><a name="fixing-problems"></a>Vandamál lagfærð
+## <a name="fixing-problems"></a>Vandamál lagfærð
 
 Í þessum hluta er útskýrt hvernig á að laga vandamál sem gætu komið upp þegar reynt er að skoða Power BI skýrslu fyrir listasíðu í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a><a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a><a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Ekki er hægt að sjá Power BI-upplýsingareitinn á listasíðu
+### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Ekki er hægt að sjá Power BI-upplýsingareitinn á listasíðu
 
 Sjálfgefið er að Power BI-upplýsingareiturinn sé falinn. Til að sýna upplýsingareitinn á síðu skal á aðgerðastikunni velja **Aðgerðir** > **Birta** > **Sýna/fela Power BI-skýrslur**.
 
-### <a name="you-cant-see-the-report-in-the-select-report-pane"></a><a name="you-cant-see-the-report-in-the-select-report-pane"></a><a name="you-cant-see-the-report-in-the-select-report-pane"></a>Ekki er hægt að sjá skýrsluna á svæðinu Velja skýrslu
+### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Ekki er hægt að sjá skýrsluna á svæðinu Velja skýrslu
 
 Heiti skýrslunnar inniheldur ekki heiti listasíðunnar sem er sýnd. Hreinsaðu síuna til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.  
 
-### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a><a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a><a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Verið er að hlaða skrá en hún er tóm, ekki síuð eða síuð á rangan hátt
+### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Verið er að hlaða skrá en hún er tóm, ekki síuð eða síuð á rangan hátt
 
 Staðfestu að skýrslusían innihaldi réttan aðallykil. Yfirleitt er þessi reitur **Nr.** reitur, en í töflunni **Fjárhagsfærsla**, til dæmis, verður að nota **Færslunr.** reitinn.
 
-### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a><a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a><a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Skýrslu er hlaðið inn, en hún sýnir síðu sem þú bjóst ekki við
+### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Skýrslu er hlaðið inn, en hún sýnir síðu sem þú bjóst ekki við
 
 Sannprófa verður að skýrslan sem notandi vill að birtist sé fyrsta síðan í skýrslunni.  
 
-### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a><a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a><a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Skýrsla birtist með óæskilegum gráum ramma eða hún er of lítill eða of stór
+### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Skýrsla birtist með óæskilegum gráum ramma eða hún er of lítill eða of stór
 
 Staðfestið að stærð skýrslu sé stillt á 325 x 310 pixla. Vista skal skýrsluna og síðan endurnýja listasíðuna.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  

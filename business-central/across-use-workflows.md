@@ -11,7 +11,7 @@ ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="use-approval-workflows"></a><a name="use-approval-workflows"></a><a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
+# <a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
 
 Verkflæði er röð verka sem aðgerð, skilyrði eða regla setur af stað. Verkflæði eru yfirleitt innleidd til að samþætta viðskiptagrunn við fyrirtæki, t.d. aðskilnað aðgangsheimilda, sameiningu ferla eða til að nota bestu starfsvenjur.
 
@@ -64,9 +64,9 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 | Skoðaðu tilvik verkflæðisskrefa með stöðuna **Lokið**. | [Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md) |
 | Eyddu samþykktarverkflæði sem verður ekki notað aftur. | [Eyða samþykktarverkflæðum](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp Verkflæði samþykktar](across-set-up-workflows.md)  
 [Verkflæði](across-workflow.md)  

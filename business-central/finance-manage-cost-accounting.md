@@ -11,7 +11,7 @@ ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accounting-for-costs"></a><a name="accounting-for-costs"></a><a name="accounting-for-costs"></a>Bókhald fyrir kostnað
+# <a name="accounting-for-costs"></a>Bókhald fyrir kostnað
 Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki. Til að hefjast handa við kostnaðarbókhald skal skoða eftirfarandi efnisatriði  
 
 |Til að|Sjá|  
@@ -24,9 +24,9 @@ Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnað
 |Um ferlið að stofna kostnaðaráætlanir.|[Stofna kostnaðaráætlanir](finance-create-cost-budgets.md)|
 |Hætta við kostnaðaráætlunarfærslur úr kostnaðaráætlunarskrá.|[Eyða kostnaðaráætlunarfærslum](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

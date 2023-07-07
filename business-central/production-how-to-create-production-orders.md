@@ -10,7 +10,7 @@ ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="create-production-order-headers"></a><a name="create-production-order-headers"></a><a name="create-production-order-headers"></a>Gerð framleiðslupantanahausa
+# <a name="create-production-order-headers"></a>Gerð framleiðslupantanahausa
 
 Hægt er að búa til framl.pöntun handvirkt og fyrsta skrefið er að búa til framleiðslupöntunarhaus.
 
@@ -18,7 +18,7 @@ Framleiðslupantanir eru vanalega stofnaðar sjálfvirkt af áætlanaaðgerð ti
 
 Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er búin til. Einnig er hægt að búa til framl.pantanir með mismunandi stöðu.  
 
-## <a name="to-create-a-production-order-header"></a><a name="to-create-a-production-order-header"></a><a name="to-create-a-production-order-header"></a>Gerð framleiðslupantanahausa:
+## <a name="to-create-a-production-order-header"></a>Gerð framleiðslupantanahausa:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fastáætluð framl.pöntun** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -31,7 +31,7 @@ Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er búin til. E
 
 Þegar framleiðsluskilyrði breytast, eins og t.d. íhlutir eða aðgerðir, geturðu snögglega enduráætlað framleiðslupöntunina. Frekari upplýsingar, sjá [Enduráætla eða uppfæra framleiðslupantanir beint](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Framleiðsla](production-manage-manufacturing.md)
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

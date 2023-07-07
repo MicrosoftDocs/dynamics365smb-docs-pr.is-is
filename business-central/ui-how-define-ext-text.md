@@ -10,13 +10,13 @@ ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="add-extended-text"></a><a name="add-extended-text"></a><a name="add-extended-text"></a>Bæta við lengdum texta
+# <a name="add-extended-text"></a>Bæta við lengdum texta
 
 Hægt er að víkka lýsinguna fyrir vörur, lagerbirgðir, fjárhagslykla og tilföng með því að bæta við aukalínum sem lengdum texta. Einnig er hægt að setja upp skilyrði fyrir notkun á aukalínum.  
 
 Í eftirfarandi kafla er því lýst hvernig bæta skal lengdum texta við lýsingu á vöru. En sömu skref eiga við um birgðahaldseiningu, fjárhagsreikninga og tilföng.  
 
-## <a name="to-define-extended-text-for-an-description"></a><a name="to-define-extended-text-for-an-description"></a><a name="to-define-extended-text-for-an-description"></a>Til að skilgreina lengdan texta fyrir lýsingu
+## <a name="to-define-extended-text-for-an-description"></a>Til að skilgreina lengdan texta fyrir lýsingu
 
 1. Opnið spjaldið fyrir vöru sem bæta á við texta fyrir og veljið aðgerðina **Lengdur texti**.
 2. Fyllt er í reitina **Kóti** og **Lýsing**.
@@ -29,12 +29,12 @@ Hægt er að víkka lýsinguna fyrir vörur, lagerbirgðir, fjárhagslykla og ti
 
 Nú er hægt að bæta þessum lengda texta við skjöl. Eftirfarandi ferli útskýrir hvernig á að bæta lengdum texta við sölupöntun en sömu skref eiga við um önnur skjöl sem voru tilgreind fyrir lengda textann.  
 
-## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Að bæta við lengdum vörutexta í sölupöntunarlínu
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Að bæta við lengdum vörutexta í sölupöntunarlínu
 
 1. Opnið sölupöntun með sölulínu fyrir vöru sem hefur lengdan texta skilgreindan. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 2. Veljið viðkomandi línu og veljið síðan aðgerðina **Bæta við lengdum texta**.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning birgða](inventory-setup-inventory.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

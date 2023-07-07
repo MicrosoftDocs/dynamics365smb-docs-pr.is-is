@@ -11,7 +11,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ---
 
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a><a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a><a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Samstilling gagna í Business Central með Microsoft Dataverse
+# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Samstilling gagna í Business Central með Microsoft Dataverse
 
 
 Við samþættingu [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að ákveða hvort eigi að samstilla gögn á völdum svæðum [!INCLUDE[prod_short](includes/prod_short.md)] (t.d. viðskiptamenn, tengiliðir og sölumenn) við samsvarandi línur í [!INCLUDE[prod_short](includes/cds_long_md.md)] (s.s. reikningar, tengiliðir og notendur). Háð gerðar línu, er hægt að samstilla gögn úr [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)] eða öfugt. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -37,7 +37,7 @@ Samstilling notar eftirfarandi einingar:
 > Samstillingin á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] byggir á tímasettir keyrslu á verkraðarfærslum og tryggir ekki samræmi rauntímagagna milli þjónustanna tveggja. Fyrir samræmi í rauntímagögnum ættirðu að skoða [Sýndartöflur Business Central](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eða Business Central API.   
 
 
-## <a name="standard-table-mapping-for-synchronization"></a><a name="standard-table-mapping-for-synchronization"></a><a name="standard-table-mapping-for-synchronization"></a>Stöðluð töfluvörpun fyrir samstilling
+## <a name="standard-table-mapping-for-synchronization"></a>Stöðluð töfluvörpun fyrir samstilling
 Töflur í [!INCLUDE[prod_short](includes/cds_long_md.md)], t.d. reikningar, eru samþættar við jafngildar gerðir af töflum í [!INCLUDE[prod_short](includes/prod_short.md)], t.d. viðskiptavini. Til að vinna með [!INCLUDE[prod_short](includes/cds_long_md.md)]-gögn eru tenglar settir upp, kallast tengingar, milli tafla í [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -56,10 +56,10 @@ Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_shor
 > [!NOTE]
 > **Dataverse** aðgerðirnar verða ekki tiltækar á síðum, til dæmis síðu viðskiptamannaspjalds, fyrir færslur sem virða ekki töflusíuna á vörpun samþættingartöflu.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a><a name="tip-for-admins-viewing-table-mappings"></a><a name="tip-for-admins-viewing-table-mappings"></a>Ábending fyrir stjórnendur: Skoðun töfluvarpana
+### <a name="tip-for-admins-viewing-table-mappings"></a>Ábending fyrir stjórnendur: Skoðun töfluvarpana
 Hægt er að skoða vörpunina milli tafla í [!INCLUDE[prod_short](includes/cds_long_md.md)] og í [!INCLUDE[prod_short](includes/prod_short.md)] á síðunni **Vörpun samþættingartöflu** þar sem einnig er hægt að nota afmarkanir. Skilgreining á vörpun milli reita í [!INCLUDE[prod_short](includes/prod_short.md)]-töflum og dálka í [!INCLUDE[prod_short](includes/cds_long_md.md)]-töflum á síðunni **Vörpun samþættingarreits** þar sem hægt er að bæta við viðbótarreglum fyrir vörpun. Þetta getur til dæmis verið gagnlegt ef nauðsynlegt er að úrræðaleita samstillingu.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

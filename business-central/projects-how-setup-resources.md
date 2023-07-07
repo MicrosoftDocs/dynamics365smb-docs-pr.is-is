@@ -11,7 +11,7 @@ ms.search.form: '72, 76, 77, 203, 204'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-resources-for-projects"></a><a name="set-up-resources-for-projects"></a><a name="set-up-resources-for-projects"></a>Setja upp forða fyrir verkefni
+# <a name="set-up-resources-for-projects"></a>Setja upp forða fyrir verkefni
 
 Til að geta unnið með forðaaðgerðir á réttan hátt verður að setja upp forðann og tengt verð og kostnað. Verktengt verð, afslættir og reglur um verðstuðul eru sett upp á verkspjaldinu. Hægt er að tilgreina kostnað og verð einstaks forða, forðaflokka eða alls tiltæks forða hjá fyrirtækinu.
 
@@ -25,7 +25,7 @@ Sjálfgefna upphæð á klukkustund þarf að tilgreina þegar forðinn er stofn
 >  
 > Ef samstæðufærslur eru bókaðar, þótt hægt sé að setja forða í línu eða sölupöntun, ef sölupöntun er breytt í innkaupapöntun móttökumegin, verður forðinn ekki hafður með. Til að nota forða í samstæðufærslum skal nota reitinn **Fjárh.reikn.nr MF-innkaupa** á forðaspjaldinu til að tilgreina reikninginn sem á að bóka útgjöldin á.
 
-## <a name="to-set-up-a-resource"></a><a name="to-set-up-a-resource"></a><a name="to-set-up-a-resource"></a>að setja upp forða
+## <a name="to-set-up-a-resource"></a>að setja upp forða
 
 Stofna skal spjald fyrir hvern forða sem á að nota í verkefnum.
 
@@ -33,7 +33,7 @@ Stofna skal spjald fyrir hvern forða sem á að nota í verkefnum.
 2. Valið er aðgerðin **Nýtt**.
 3. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-set-up-a-resource-group"></a><a name="to-set-up-a-resource-group"></a><a name="to-set-up-a-resource-group"></a>Að setja upp forðaflokk
+## <a name="to-set-up-a-resource-group"></a>Að setja upp forðaflokk
 
 Hægt er að flokka forða saman í einn forðaflokk. Geta og áætlanir forðaflokka eru samsafn einstakra forða. Einnig er hægt að tilgreina getu forðaflokka, annaðhvort óháð samanlögðu verðmæti eða til viðbótar við það.
 
@@ -41,7 +41,7 @@ Hægt er að flokka forða saman í einn forðaflokk. Geta og áætlanir forðaf
 2. Valið er **Nýtt** aðgerð.
 3. Fyllið inn í svæðin eftir þörfum.
 
-## <a name="to-set-capacity-for-a-resource"></a><a name="to-set-capacity-for-a-resource"></a><a name="to-set-capacity-for-a-resource"></a>Að setja upp afkastagetu fyrir forða
+## <a name="to-set-capacity-for-a-resource"></a>Að setja upp afkastagetu fyrir forða
 
 Til að reikna út hve lengi forði getur tengst verki verður fyrst að setja afkastagetuna upp sem tiltækan tíma á tímabilinu á verkdagatalinu. Þessi uppsetning er notuð þegar verkáætlunarlínur sem innihalda forðann eru fylltar út. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).
 
@@ -54,7 +54,7 @@ Til að reikna út hve lengi forði getur tengst verki verður fyrst að setja a
 7. Veljið aðgerðina **Uppfæra afkastagetu**. Síðan **Uppfæra afkastagetu** er uppfærður með þeirri afkastagetu sem færð var inn.
 8. Lokaðu síðunni.
 
-## <a name="to-set-up-alternate-resource-costs"></a><a name="to-set-up-alternate-resource-costs"></a><a name="to-set-up-alternate-resource-costs"></a>Til að setja upp annan forðakostnað
+## <a name="to-set-up-alternate-resource-costs"></a>Til að setja upp annan forðakostnað
 
 Auk kostnaðarins sem tilgreindur er á forðaspjaldinu er hægt að setja upp annan kostnað fyrir hvern forða. Ef til dæmis er greitt hærra tímakaup vegna yfirvinnu starfsmanna er hægt að setja upp forðakostnað fyrir yfirvinnu. Þessi annar kostnaður sem settur er upp fyrir forða kemur í stað kostnaðarins á forðaspjaldinu þegar forðinn er notaður í forðabókinni.
 
@@ -65,7 +65,7 @@ Auk kostnaðarins sem tilgreindur er á forðaspjaldinu er hægt að setja upp a
 
 **Athugasemd** Til að setja upp forðakostnað fyrir allan forðann og alla forðaflokka er síðan **Forðakostnaður** opnuð og reitirnir síðan fylltir út.
 
-## <a name="to-set-up-alternate-resource-prices"></a><a name="to-set-up-alternate-resource-prices"></a><a name="to-set-up-alternate-resource-prices"></a>Til að setja upp annað forðaverð
+## <a name="to-set-up-alternate-resource-prices"></a>Til að setja upp annað forðaverð
 
 Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað verð fyrir hvern forða. Þetta annað verð getur verið háð skilyrðum. Það getur verið háð því hvort forðinn sé notaður í tilteknu verki eða verktegund.
 
@@ -74,9 +74,9 @@ Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað 
 3. Á síðunni **Forðaverð** skal fylla út reitina í línu eins og þörf krefur.
 4. Endurtaka skal skref 3 fyrir hvert annað verð sem setja skal upp.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Verkefnastjórnun](projects-manage-projects.md)  

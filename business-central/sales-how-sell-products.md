@@ -11,7 +11,7 @@ ms.search.form: '42, 48, 9305'
 ms.date: 09/02/2022
 ms.author: edupont
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a><a name="sell-products-with-a-customer-sales-order"></a><a name="sell-products-with-a-customer-sales-order"></a>Selja vörur með sölupöntun viðskiptavinar
+# <a name="sell-products-with-a-customer-sales-order"></a>Selja vörur með sölupöntun viðskiptavinar
 
 Þessi grein veitir leiðbeiningar um hvenær eigi að nota sölupöntun viðskiptamanns auk reiknings. Ef söluferlið krefst þess að þú sendir aðeins hluta pöntunar, kannski vegna þess að fullt magn er ekki í boði strax, verður þú að vinna úr sölunni með því að ganga frá sölupöntun.
 
@@ -23,7 +23,7 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
 
 Þú getur jafnvel búið til beingreiddar pantanir fyrir óskráða viðskiptavini með því að fyrst setja upp „viðskiptamannaspjald fyrir reiðufé" sem þú bendir á í sölupöntuninni. Frekari upplýsingar má finna í [Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a><a name="create-a-sales-order"></a><a name="create-a-sales-order"></a>Stofna sölupöntun
+## <a name="create-a-sales-order"></a>Stofna sölupöntun
 
 > [!NOTE]  
 > Eftirfarandi aðferð gerir ráð fyrir því að viðskiptavinurinn sé þegar settur upp. Sjá leiðbeiningar um hvernig þetta er gert í [Skrá nýja viðskiptavini](sales-how-register-new-customers.md).
@@ -87,13 +87,13 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
 
 Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og sölupöntunin er frálag sem PDF fylgiskjal. Þegar sölupantanir eru að fullu bókaðar eru þær fjarlægður af lista sölupantana og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölureikninga og lista yfir bókaðar söluafhendingar.  
 
-## <a name="external-document-number"></a><a name="external-document-number"></a><a name="external-document-number"></a>Númer ytra skjals
+## <a name="external-document-number"></a>Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Sölubókun](ui-post-sales.md)  

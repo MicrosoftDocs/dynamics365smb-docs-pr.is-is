@@ -11,30 +11,30 @@ ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# <a name="set-up-reminder-terms-and-levels"></a><a name="set-up-reminder-terms-and-levels"></a><a name="set-up-reminder-terms-and-levels"></a>Setja upp skilmála og stig innheimtubréfa
+# <a name="set-up-reminder-terms-and-levels"></a>Setja upp skilmála og stig innheimtubréfa
 
 Hægt er að nota áminningar til að minna viðskiptamenn á gjaldfallnar upphæðir. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
-## <a name="reminder-terms"></a><a name="reminder-terms"></a><a name="reminder-terms"></a>Skilmálar innheimtubréfa
+## <a name="reminder-terms"></a>Skilmálar innheimtubréfa
 
 Ef viðskiptamenn eru í vanskilum verður að ákveða hvenær og hvernig eigi að senda þeim innheimtubréf. Auk þess gæti þurft að skuldfæra reikninga þeirra vegna vaxta eða þóknunar. Hægt er að setja upp eins marga skilmála innheimtubréfa og hver vill.  
 
 > [!NOTE]
 > Eigi að reikna vexti á greiðslur sem fallnar eru í gjalddaga er hægt að gera það þegar áminningar eru stofnaðar. En ef aðeins á að reikna vexti og láta viðskiptamenn vita án þess að senda áminningar er hægt að nota [vaxtareikninga](finance-setup-finance-charges.md). Frekari upplýsingar eru í [Innheimtubréf](receivables-collect-outstanding-balances.md#reminders) eða [Vextir](receivables-collect-outstanding-balances.md#finance-charges).
 
-### <a name="to-set-up-reminder-terms"></a><a name="to-set-up-reminder-terms"></a><a name="to-set-up-reminder-terms"></a>Skilmálar innheimtubréfs settir upp
+### <a name="to-set-up-reminder-terms"></a>Skilmálar innheimtubréfs settir upp
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skilmálar innheimtubréfa** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Eigi að nota fleiri en eina samsetningu áminninga þarf að setja upp kóta fyrir hverja þeirra.
 
-## <a name="reminder-levels"></a><a name="reminder-levels"></a><a name="reminder-levels"></a>Stig innheimtubréfa
+## <a name="reminder-levels"></a>Stig innheimtubréfa
 
 Fyrir hvern áminningarskilmálakóta er hægt að skilgreina ótakmarkaðan fjölda áminningarstiga. Í fyrsta sinn sem áminning er stofnuð fyrir viðskiptamann er uppsetning stigs 1 notuð. Þegar áminningin er send er númer stigsins skráð á áminningarfærslurnar sem stofnast og tengt við einstakar viðskiptamannafærslur. Þurfi að minna viðskiptamanninn á aftur eru allar áminningarfærslur tengdar opnum viðskiptamannafærslum kannaðar til að finna hæsta stigsnúmerið. Skilyrði næsta stigsnúmers verða síðan notuð í nýju áminningunni.
 
 Ef stofnaðar eru fleiri áminningar en skilgreind hafa verið stig fyrir verða skilyrði hæsta stigsins notuð. Hægt er að stofna eins margar áminningar og leyft er í reitnum **Hám.fj. innheimtubréfa** í áminningarskilmálunum.
 
-### <a name="to-set-up-reminder-levels"></a><a name="to-set-up-reminder-levels"></a><a name="to-set-up-reminder-levels"></a>Stig innheimtubréfa sett upp
+### <a name="to-set-up-reminder-levels"></a>Stig innheimtubréfa sett upp
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skilmálar innheimtubréfa** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Skilmálar innheimtubréfa** er valin lína með skilmálum sem setja á upp stig fyrir og síðan er valin aðgerðin **Stig**.  
@@ -92,9 +92,9 @@ Ef stofnaðar eru fleiri áminningar en skilgreind hafa verið stig fyrir verða
 
 Þegar búið er að setja upp áminningarskilmálana með viðbótarstigum og texta þarf að færa einn kóðann á hvert viðskiptamannaspjald. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/send-reminders-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
 [Senda innheimtubréf vegna útistandandi stöðu](receivables-send-reminders.md)  

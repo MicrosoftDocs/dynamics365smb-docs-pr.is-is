@@ -12,13 +12,13 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="work-with-calendar-dates-and-times"></a><a name="work-with-calendar-dates-and-times"></a><a name="work-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tíma í dagatali
+# <a name="work-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tíma í dagatali
 
 Hægt er að færa inn dagsetningar og tíma á marga vegu. [!INCLUDE[prod_short](includes/prod_long.md)] inniheldur öfluga eiginleika sem hraða gagnaskráningu eða hjálpa þér að skrifa flóknar segðir dagatals. Það eru ýmsar staðir í forritinu þar sem þú getur slegið inn dagsetningar og tíma í reitum. Til dæmis, í sölupöntun, getur þú stillt afhendingardagsetningu. Þegar verið er að afmarka lista eða skýrslugögn er hægt að slá inn dagsetningar og tíma til að staðsetja aðeins þau gögn sem þú hefur áhuga á.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="check-your-region-and-language-settings"></a><a name="check-your-region-and-language-settings"></a><a name="check-your-region-and-language-settings"></a>Athugaðu svæði og tungumálastillingar
+## <a name="check-your-region-and-language-settings"></a>Athugaðu svæði og tungumálastillingar
 
 **Mínar stillingar** síðan tilgreinir **Svæði** og **Tungumál** sem þú notar í forritinu. Þessar stillingar hafa áhrif á hvernig þú slærð inn dagsetningar og tíma.
 
@@ -33,7 +33,7 @@ Hægt er að færa inn dagsetningar og tíma á marga vegu. [!INCLUDE[prod_short
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## <a name="entering-dates"></a><a name="entering-dates"></a><a name="entering-dates"></a>Dagsetningar færðar inn
+## <a name="entering-dates"></a>Dagsetningar færðar inn
 
 Í dagsetningarreitinn getur þú slegið inn dagsetningu með því að nota staðlaða sniðið fyrir svæðisstillingu þína. Mismunandi svæði geta notað mismunandi skiltákn milli daga, mánaða og ára. Til dæmis, sum svæði nota bandstrik (mm-dd-áááá) og önnur nota áfram skástrik (mm/dd/áááá).  
 
@@ -45,7 +45,7 @@ The following sections describe how you can enter dates, times, datetimes, durat
 
 Til að vinna á afkastameiri hátt með dagsetningar og tíma geturðu notað eitthvað af þeim aðferðum eða sniði sem lýst er í eftirfarandi köflum.
 
-### <a name="picking-dates-from-the-calendar"></a><a name="picking-dates-from-the-calendar"></a><a name="picking-dates-from-the-calendar"></a>Velja dagsetningar úr dagatalinu
+### <a name="picking-dates-from-the-calendar"></a>Velja dagsetningar úr dagatalinu
 
 Allir reitir sem sýna dagbókartákn geta verið stilltar með dagsetningarvali dagatals. Til að birta tíndagadagskrá, virkja teiknið fyrir dagatal eða velja  <kbd>flýtileið CTRL</kbd>+<kbd>-heimilis</kbd>  í svæðinu.
 
@@ -53,7 +53,7 @@ Allir reitir sem sýna dagbókartákn geta verið stilltar með dagsetningarvali
 
 Sjá einnig [Flýtilyklar í dagsetningarvali dagatals](keyboard-shortcuts.md#calendarshortcuts).
 
-### <a name="day-week-year-pattern"></a><a name="day-week-year-pattern"></a><a name="day-week-year-pattern"></a>Dagur\-vika\-ár mynstur
+### <a name="day-week-year-pattern"></a>Dagur\-vika\-ár mynstur
 
 Þú getur slegið inn dagsetningu sem vikudag og síðan vikunúmer og, ef þú vilt, ár. Til dæmis þýðir Mán25 eða mán25 mánudagur í viku 25. Ef þú slærð ekki inn ár er ár vinnudagsetningar notað.
 
@@ -61,7 +61,7 @@ Sjá einnig [Flýtilyklar í dagsetningarvali dagatals](keyboard-shortcuts.md#ca
 
 Vikunúmersskemað er alltaf ISO 8601, þar sem vika 1 er vikan sem inniheldur 4. janúar, eða vikan sem inniheldur fyrsta fimmtudag ársins.
 
-### <a name="digit-patterns"></a><a name="digit-patterns"></a><a name="digit-patterns"></a>Tölustafamynstur
+### <a name="digit-patterns"></a>Tölustafamynstur
 
 Í dagsetningarreit má færa inn tvær, fjórar, sex eða átta tölur:
 
@@ -74,17 +74,17 @@ Vikunúmersskemað er alltaf ISO 8601, þar sem vika 1 er vikan sem inniheldur 4
   > [!NOTE]
   > Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum getur tveggja stafa árabilið verið mismunandi. Stjórnendur geta breytt bilinu með því að breyta stillingunni **CalendarTwoDigitYearMax** á [!INCLUDE[prod_short](includes/prod_short.md)] þjóninum. Frekari upplýsingar er að finna í [Skilgreining Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
-### <a name="today"></a><a name="today"></a><a name="today"></a>Í dag
+### <a name="today"></a>Í dag
 
 Sláðu inn orðið fyrir _í dag_ á tungumálinu sem tilgreint er á síðunni **Mínar stillingar** til að stilla dagsetningu færslu á daginn í dag. Í stað þess að slá inn allt orðið geturðu slegið inn fyrsta hluta orðsins. Á ensku er t.d. hægt að slá inn _t_ eða _tod_ svo lengi sem það er ekki líka byrjunin á öðru orði.
 
-### <a name="period"></a><a name="period"></a><a name="period"></a>Tímabili
+### <a name="period"></a>Tímabili
 
 Til að sía á tilteknu fjárhagstímabili, sláðu inn í dagsetningarreit stafinn t, eða orðið tímabil, og síðan númer sem tilgreinir fjárhagstímabilið, t.d. t2 eða timabil4. Bókhaldstímabilið er miðað við fjárhagsár núverandi vinnudags sem er stillt í hlutverki þínu. Ef vinnudagur er til dæmis **03/21/22**, þá _p1_ eða aðeins _p_, síar á fyrsta fjárhagstímabili fjárhagsársins 2022 (eins og 01/01/22..01/31/22). _p15_ síar á fimmtánda fjárhagstímabilinu frá upphafi fjárhagsársins 2022 (eins og 01/03/23..31/03/23).
 
 Fjárhagstímabilin eru skilgreind á síðunni **Fjárhagstímabil**. Til að skoða eða breyta fjárhagstímabilum skaltu opna síðuna [hér](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="work-date"></a><a name="work-date"></a><a name="work-date"></a>Vinnudagsetning
+### <a name="work-date"></a>Vinnudagsetning
 
 Notaðu vinnudagsetningu til að tilgreina dagsetningu sem er ekki dagurinn í dag í færslum. Til dæmis er vinnudagsetning gagnleg þegar þú þarft að setja á ákveðna dagsetningu fyrir margar skrár. Þú tilgreinir vinnudagsetninguna á síðunni **Mínar stillingar**. 
 
@@ -92,13 +92,13 @@ Fljótleg leið til að slá inn vinnudagsetningu í skrár er að slá inn hlut
 
 Ef engin vinnudagsetning hefur verið tilgreind verður dagurinn í dag notaður. Frekari upplýsingar eru í [Breyta grunnstillingum eins og vinnudagsetningu](ui-change-basic-settings.md#work-date).
 
-### <a name="closing-date"></a><a name="closing-date"></a><a name="closing-date"></a>Lokunardagsetning
+### <a name="closing-date"></a>Lokunardagsetning
 
 Þegar reikningsári er lokað er hægt að nota lokunardagsetningu til að sýna að færsla sé lokunarfærsla. Lokunardagsetning er í raun milli tveggja dagsetninga, til dæmis 31. des. og 1. jan.
 
 Til að tilgreina að dagsetning sé lokadagsetning skaltu setja N rétt fyrir dagsetningu, svo sem N123101. Notaðu þetta snið saman með öllum dagsetningarmynstrunum.
 
-### <a name="examples"></a><a name="examples"></a><a name="examples"></a>Dæmi
+### <a name="examples"></a>Dæmi
 
 Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notuð. Það er gert ráð fyrir svæðisstillingum sem sníðir dagsetningar samkvæmt: **ár.mánuður.dagur.**, viku sem hefst á mánudag og ensku.
 
@@ -123,7 +123,7 @@ Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notu
 |þ 23|Þriðjudagur 23. viku vinnudagsetningarársins|
 |þ-1|Þriðjudagur 1. viku vinnudagsetningarársins|
 
-## <a name="setting-ranges"></a><a name="setting-ranges"></a><a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Stillingarbil
+## <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a>Stillingarbil
 
 Á listum, samtölum og skýrslum er hægt að stilla síur á dagsetningar, tímum og tímabilum sem innihalda upphafsgildi og mögulega endanlegt gildi til að birta aðeins gögnin sem eru í því bili. Stöðluðu reglurnar eiga við um það hvernig þú stillir dagsetningarsvið.
 
@@ -135,7 +135,7 @@ Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notu
 
 Þú getur notað öll gild snið í síum dagsetningarbils. Til dæmis, mán14 3..t 4t beitt á reitarniðurstöður dagsetningartíma í síu frá kl. 03:00 á mánudag í viku 14 á núgildandi vinnudagsetningarári, innifalið, þar til í dag kl. 16:00, innifalið.
 
-## <a name="use-date-formulas"></a><a name="use-date-formulas"></a><a name="use-date-formulas"></a>Nota dagsetningarformúlur
+## <a name="use-date-formulas"></a>Nota dagsetningarformúlur
 
 Dagsetningarregla er stutt, skammstöfuð samsetning stafa og tölustafa sem tilgreinir hvernig skal reikna út dagsetningar. Þú getur slegið inn dagsetningarformúlur í ýmsa reiknireiti fyrir dagsetningar eða síur.
 
@@ -199,7 +199,7 @@ Eftirfarandi dæmi sýnir hvernig hægt er að nota mínustákn til að sýna ga
 > [!IMPORTANT]
 > Ef staðsetningin notar grunndagatal, er dagsetningarreiknireglan sem er til dæmis færð inn í reitinn **Afhendingartími** túlkuð samkvæmt vinnudögum. Til dæmis merkir 1B sjö vinnudaga.
 <!--
-# <a name="entering-date-ranges"></a><a name="entering-date-ranges"></a><a name="entering-date-ranges"></a>Entering Date Ranges
+# <a name="entering-date-ranges"></a>Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas-1"></a><a name="use-date-formulas-1"></a><a name="use-date-formulas-1"></a>Use Date Formulas
+## <a name="use-date-formulas-1"></a>Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -287,7 +287,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## <a name="entering-times"></a><a name="entering-times"></a><a name="entering-times"></a>Tími færður inn
+## <a name="entering-times"></a>Tími færður inn
 
 Þegar tímasetningar eru slegnar inn er hægt að setja inn hvaða skiltákn án bils sem er milli eininga. Ef notaðir eru tvöfaldir stafir fyrir hverja einingu fram að millisekúndum, þá er það ekki nauðsynlegt.
 
@@ -320,11 +320,11 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 Orðið fyrir „tími“ á tungumálinu sem notað er af [!INCLUDE[prod_short](includes/prod_long.md)] verður metið við núverandi tíma á tölvunni þinni eða fartækinu. Þú getur slegið inn hvaða hluta orðsins sem er, með því að byrja á byrjuninni, eins og til dæmis T eða TÍM.
 
-## <a name="entering-combined-dates-and-times"></a><a name="entering-combined-dates-and-times"></a><a name="entering-combined-dates-and-times"></a>Slá inn sameinaða dagsetningar og tíma
+## <a name="entering-combined-dates-and-times"></a>Slá inn sameinaða dagsetningar og tíma
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a><a name="entering-duration"></a><a name="entering-duration"></a>Færið inn tímalengd
+## <a name="entering-duration"></a>Færið inn tímalengd
 
 Sumir reitir í forritinu tákna tímalengd eða magn liðins tíma, í stað tiltekins dagsetningar eða tíma. Hægt er að færa inn tímalengd sem tölu og mælieiningu.
 
@@ -345,9 +345,9 @@ Hægt er að sjá hvaða mælieining er notuð í reitnum tímalengd með því 
 
 Ef mælieiningin er til dæmis klukkustund, er númerinu 5 breytt í 5 klukkustundir.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Dagsetning útreiknings fyrir kaup](purchasing-date-calculation-for-purchases.md)  

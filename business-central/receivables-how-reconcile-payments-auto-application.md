@@ -11,7 +11,7 @@ ms.search.form: '389, 1290, 1294, 1287'
 ms.date: 06/22/2022
 ms.author: bholtorf
 ---
-# <a name="reconcile-payments-using-automatic-application"></a><a name="reconcile-payments-using-automatic-application"></a><a name="reconcile-payments-using-automatic-application"></a>Afstemma greiðslur með sjálfvirkri jöfnun
+# <a name="reconcile-payments-using-automatic-application"></a>Afstemma greiðslur með sjálfvirkri jöfnun
 
 Síðan **Greiðsluafstemmingarbók** tilgreinir greiðslur, inn- eða útgreiðslur, sem hafa verið skráðar sem færslur á netbankareikningnum eða í greiðsluþjónustu. Hægt er að jafna greiðslurnar við tengdar opnar færslur viðskiptamanns, lánardrottins og bankareiknings. Fylltu út í færslubókina með því að flytja inn bankayfirlitið sem bankastreymi eða -skrá eða með því að færa færslur inn handvirkt sem gerðar eru í gegnum greiðsluþjónustuna.
 
@@ -43,7 +43,7 @@ Fyrir hverja færslubókarlínu í **greiðsluafstemmingarbók** síðunni getur
 > [!NOTE]  
 > Hægt er að hefja bankafærsluinnflutninginn á sama tíma og síðan **Greiðsluafstemmingarbók** er opnuð fyrir fyrirliggjandi bók. Eftirfarandi ferli lýsir því hvernig á að flytja inn bankafærslur á síðuna **greiðsluafstemmingarbók** eftir að ný færslubók hefur verið búin til.
 
-## <a name="to-reconcile-payments-using-automatic-application"></a><a name="to-reconcile-payments-using-automatic-application"></a><a name="to-reconcile-payments-using-automatic-application"></a>Til að afstemma greiðslur með sjálfvirk jöfnun
+## <a name="to-reconcile-payments-using-automatic-application"></a>Til að afstemma greiðslur með sjálfvirk jöfnun
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluafstemmingarbækur** og velja síðan viðkomandi tengil.
 2. Til að vinna í nýrri greiðsluafstemmingarbók, veldu aðgerðina **Ný færslubók**.
 3. Á síðunni **Listi yfir bankareikninga fyrir greiðslu** er valið bankareikningur sem á að jafna greiðslur fyrir, og smellt síðan á **Í lagi** hnappinn.
@@ -88,9 +88,9 @@ Hægt er að bera gildið í **Staða á bankareikningi eftir bókun** reitnum s
 > [!NOTE]  
 >   Ef ekki á að afstemma bankareikninginn af síðunni **greiðsluafstemmingarbók** þá verðurðu að nota **afstemming bankareiknings** gluggann. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  

@@ -11,7 +11,7 @@ ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="customize-business-central"></a><a name="customize-business-central"></a><a name="customize-business-central"></a>Sérstilla Business Central
+# <a name="customize-business-central"></a>Sérstilla Business Central
 
 Það eru mismunandi leiðir til að sérstilla forritið til að gefa þér og samstarfsmönnum þínum aðgang að þeim eiginleikum, virkni og gögnum sem þú þarft mest á þann hátt sem hentar best daglegu starfi þínu. Það hvaða breytingar sjást veltur á því hvað þú gerir, eins og lýst er í þessari töflu.
 
@@ -28,9 +28,9 @@ ms.author: edupont
 > [!NOTE]
 > Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga. Þess vegna geta notendur með **Grunnútgáfu** stundum lesið um virkni og viðmótseiginleika sem ekki eru sýnilegir í notendaviðmóti þeirra. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

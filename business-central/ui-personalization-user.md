@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 10/11/2022
 ms.author: bholtorf
 ---
-# <a name="personalize-your-workspace"></a><a name="personalize-your-workspace"></a><a name="personalize-your-workspace"></a>Sérstilling verksvæðis
+# <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 
 Þú getur sérstillt vinnusvæðið þitt þannig að það falli betur að vinnunni og óskum þínum. Breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Sérstaða hefur eingöngu áhrif á vinnusvæðið. Það breytir því ekki hvernig aðrir vinna.
 
@@ -25,13 +25,13 @@ Hægt er að gera ýmsar breytingar, svo sem að færa eða fela reiti, dálka, 
 > Kerfisstjórar geta gert sömu útlitsbreytingar og notendur með því að sérsníða vinnusvæðið fyrir forstillingu sem mörgum notendum er úthlutað. Frekari upplýsingar um hlutverk er að fá með því að fara í  [Sérsníða síður fyrir hlutverk](ui-personalization-manage.md)<br /><br />
 Stjórnendur geta einnig hnekkt eða slökkt á sérstillingu notenda og hægt er að skilgreina hvaða eiginleikar eru tiltækir fyrir notendur til að sjá í öllum eða tilteknum fyrirtækjum. Frekari upplýsingar eru í [Sérstilling Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a><a name="video"></a><a name="video"></a>Myndband
+## <a name="video"></a>Myndband
 
 Eftirfarandi myndband sýnir nokkrar af þeim leiðum sem hægt er að sérsníða hlutverkamiðstöð notanda.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="to-change-the-width-of-a-column"></a><a name="to-change-the-width-of-a-column"></a><a name="to-change-the-width-of-a-column"></a>Til að breyta breidd á dálki
+## <a name="to-change-the-width-of-a-column"></a>Til að breyta breidd á dálki
 
 Þú getur auðveldlega breytt stærð dálka á hvaða lista sem er. Dragðu bara mörkin milli tveggja dálka til vinstri eða hægri.  
 
@@ -40,7 +40,7 @@ Eftirfarandi myndband sýnir nokkrar af þeim leiðum sem hægt er að sérsní�
 
 Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd dálks geymdar á reikningnum þínum og fylgja þér, sama hvaða tæki þú notar til að skrá þig inn.
 
-## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a><a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a><a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Hefja sérstillingu á síðu með borðanum **Sérstilla**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Hefja sérstillingu á síðu með borðanum **Sérstilla**
 
 1. Opna skal síðuna sem á að sérsníða.
 2. Í efra hægra horninu skaltu velja táknið ![Stillingar.](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan velja aðgerðina **Sérstilla**.
@@ -58,7 +58,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 6. Veldu eininguna og veldu annaðhvort **Færa**, **Fjarlægja**, **Fela**, **Sýna**, **Sýna undir „Sýna meira“**, **Sýna þegar fellt**, **Sýna alltaf**, **Stilla/hreinsa fast svæði** eða **Taka með/útiloka frá flýtifærslu**, allt eftir gerð og stöðu viðmótseiningarinnar. Frekari upplýsingar er að finna á [Hvað hægt er að sérstilla](#What).
 7. Þegar lokið er við að breyta útliti á einni eða fleiri síðum, skal velja hnappinn **Lokið** á borðanum **Sérstilla**.
 
-## <a name="what-you-can-personalize"></a><a name="what-you-can-personalize"></a><a name="what-you-can-personalize"></a><a name="What"></a>Hvað er hægt að sérstilla
+## <a name="what-you-can-personalize"></a><a name="What"></a>Hvað er hægt að sérstilla
 
 |Hvað viltu gera|Hvernig á að gera það|Athugasemdir|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 |Bæta nýrri aðgerð við síðu eða skýrslu í Mitt hlutverk.|Af marksíðu, síður skýrslubeiðna eða glugga Viðmótsleitar skal velja bókamerkjatákn.|Sjá [Síða eða skýrsla bókamerkt í Mitt hlutverk](ui-bookmarks.md)|
 |Byrja alltaf að birta listann sem stækkaðan eða dreginn saman|Veldu hnappinn **Stækka allt** eða **Draga allt saman** efst í vinstra horni listans. Einnig er hægt að velja aðgerðina **Stækka allt** eða **Draga allt saman** í valmynd fyrsta dálksins. |Á við um stiveldislista sem hægt er að fella saman|
 
-## <a name="personalizing-the-action-bar-and-menus"></a><a name="personalizing-the-action-bar-and-menus"></a><a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Sérstilla aðgerðastiku og valmyndir
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Sérstilla aðgerðastiku og valmyndir
 
 Sérstilling gerir þér kleift að ákveða hvaða aðgerðir á að sýna á yfirlits- og aðgerðarstikunni og í hlutverkamiðstöðvum og hvar á að sýna þær. Þú getur sýnt, falið eða fært stakar aðgerðir eða hóp aðgerða.
 
@@ -93,7 +93,7 @@ Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og 
 > [!NOTE]  
 > Til að hreinsa sérsnið er valið arrowhead kringum hönnuði valmyndina hluti og síðan er valið  **Hreinsa sérsnið**.
 
-### <a name="to-remove-hide-and-show-actions-and-action-groups"></a><a name="to-remove-hide-and-show-actions-and-action-groups"></a><a name="to-remove-hide-and-show-actions-and-action-groups"></a>Til að fjarlægja, fela og sýna aðgerðir og aðgerðaflokka
+### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Til að fjarlægja, fela og sýna aðgerðir og aðgerðaflokka
 
 Þegar ætlunin er að sýna eða fela aðgerð skilgreina valkostirnir fyrir neðan örvaroddinn hvað sé hægt að gera miðað við ástand aðgerðarinnar. 
 
@@ -106,7 +106,7 @@ Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og 
 |**Fela**|Þessi valkostur birtist ef aðgerðin eða aðgerðahópurinn er ekki staðsettur á neinum öðrum stað í yfirlits- eða aðgerðarstikunni. Eins og **Fjarlægja**, að velja þennan valkost gerir að verkum að aðgerðin eða aðgerðahópurinn hverfur úr yfirlits- eða aðgerðarstikunni. Hins vegar í sérstillingarsniðinu, verður aðgerðin eða aðgerðahópurinn enn sýndur í núverandi staðsetningu, fyrir utan að hann er skyggður.|
 |**Sýna**|Þessi valkostur birtist ef aðgerðin eða aðgerðahópurinn hefur verið falinn áður (skyggður). Að velja þennan valkost gerir að verkum að aðgerðin eða aðgerðahópurinn birtist í yfirlits- eða aðgerðarstikunni.|
 
-### <a name="to-move-actions-and-action-groups"></a><a name="to-move-actions-and-action-groups"></a><a name="to-move-actions-and-action-groups"></a>Til að færa aðgerðir og aðgerðahópa
+### <a name="to-move-actions-and-action-groups"></a>Til að færa aðgerðir og aðgerðahópa
 
 Þar sem þú getur sleppt aðgerðum eða aðgerðahópum er það gefið í skyn með láréttri línu milli tveggja aðgerða eða ramma utan um aðgerðahóp. Eftirfarandi takmarkanir eru til staðar:
 
@@ -116,7 +116,7 @@ Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og 
 1. Til að færa aðgerð eða aðgerðahóp skaltu draga og sleppa honum á viðeigandi stað, rétt eins og með reiti og dálka.
 2. Til að færa aðgerð eða aðgerðahóp í annan aðgerðahóp sem er tómur, dragðu aðgerðina eða aðgerðahópinn í nýja hópinn og slepptu honum í boxið **Sleppa aðgerð hér**.
 
-## <a name="personalizing-parts"></a><a name="personalizing-parts"></a><a name="personalizing-parts"></a><a name="Parts"></a> Sérsníða hluta
+## <a name="personalizing-parts"></a><a name="Parts"></a>Sérsníða hluta
 
 Hlutar eru svæði á síðu sem eru vanalega samsettir úr mörgum reitum, gröfum eða öðru efni. Hluti sýnir litaðan ramma þegar þú fókusar á hlutann. Til dæmis er heimaskjár hlutverkamiðstöðvar með marga hluta. Vegna vel skilgreindra marka þeirra er hægt að sérsníða allan hlutann og innihald hans.
 
@@ -126,7 +126,7 @@ Hlutar eru svæði á síðu sem eru vanalega samsettir úr mörgum reitum, grö
 
 Hægt er að hreinsa allar breytingar sérstillingar sem voru gerðar innan einstaks hlutar með því að velja valkostinn **Hreinsa sérstillingar** undir örvaroddi hlutans. Hreinsun sérstillinga á hluta hefur aðeins áhrif á breytingar á innihaldi þess hlutar, ekki staðsetningu eða sýnileika hlutans á síðunni.  
 
-## <a name="to-clear-personalization"></a><a name="to-clear-personalization"></a><a name="to-clear-personalization"></a>Að hreinsa sérstillingu
+## <a name="to-clear-personalization"></a>Að hreinsa sérstillingu
 
 Á einhverjum tímapunkti gætir þig langað til að afturkalla sumar eða allar breytingar sérstillinga sem þú gerðir á síðu í gegnum tíðina.
 
@@ -143,7 +143,7 @@ Hægt er að hreinsa allar breytingar sérstillingar sem voru gerðar innan eins
 |**Aðeins svæði og dálkar**|Hreinsar allar sérstilltar breytingar sem þú hefur gert á síðunni nema þær sem eru á yfirlits- eða aðgerðarstikunni. Slíkar breytingar fela í sér breytingar á reitum, dálkum, hlutum og svæðum. |
 |**Allt**|Hreinsa allar breytingar sérstillinga sem hafa verið gerðar á síðunni þannig að síðan líti út eins og hún gerði í upphafi. Slíkar breytingar fela í sér breytingar á yfirlits- og aðgerðarstikum, reitum, dálkum og pörtum.|
 
-## <a name="other-points-of-interest"></a><a name="other-points-of-interest"></a><a name="other-points-of-interest"></a>Önnur atriði sem vextir
+## <a name="other-points-of-interest"></a>Önnur atriði sem vextir
 
 Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
 
@@ -158,9 +158,9 @@ Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
    > [!TIP]
    > Sem stjórnandi getur þú falið atriðið **Sjálfvirkni** fyrir notendum. Frekari upplýsingar er að finna á [Setja upp Power Automate samþættingu](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  

@@ -11,10 +11,10 @@ ms.search.form: '283, 284'
 ms.date: 06/29/2021
 ms.author: edupont
 ---
-# <a name="use-allocation-keys-in-general-journals"></a><a name="use-allocation-keys-in-general-journals"></a><a name="use-allocation-keys-in-general-journals"></a>Nota úthlutunarlykla í færslubókum
+# <a name="use-allocation-keys-in-general-journals"></a>Nota úthlutunarlykla í færslubókum
 Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. Úthlutunin getur verið í magni, prósentu eða upphæð.
 
-## <a name="to-set-up-allocation-keys"></a><a name="to-set-up-allocation-keys"></a><a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla
+## <a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurtekin færslubók** og velja síðan viðkomandi tengil.
 2. Veldu reitinn **Runuheiti** til að opna síðuna **Færslubókarkeyrslur**.
 3. Þú getur annað hvort breytt úthlutunum á fyrirliggjandi runu í listanum eða stofnað nýja runu með úthlutunum.
@@ -29,13 +29,13 @@ Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar fær
 10. Eftir að hafa fært inn úthlutunarlínurnar skal velja **Í lagi** til að fara aftur á síðuna **endurteknar færslubækur**. Svæðið **Úthlutuð upphæð (USD)** er fyllt út og er eins og svæðið **Upphæð**.
 11. Bóka skal færslubókina.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Til að breyta uppsettum úthlutunarlykli
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Til að breyta uppsettum úthlutunarlykli
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurtekin færslubók** og velja síðan viðkomandi tengil.
 2. Á síðunni **Ítrekunarfærslubók** er færslubók með úthlutun valin.
 3. Velja línu með úthlutuninni og velja síðan **úthlutanir**.
 4. Breyta viðeigandi reitum, og velja svo hnappinn **Í lagi**.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Að bóka skjöl og færslubækur](ui-post-documents-journals.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -17,7 +17,7 @@ ms.contentlocale: is-IS
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9604949"
 ---
-# <a name="register-new-items"></a><a name="register-new-items"></a><a name="register-new-items"></a><a name="register-new-items"></a>Skrá nýjar vörur
+# <a name="register-new-items"></a>Skrá nýjar vörur
 
 Vörur, ásamt öðrum framleiðsluvörum, eru grundvöllur fyrirtækisins, vörurnar eða þjónustan sem þú stundar viðskipti með. Hver vara verður að vera skráð sem birgðaspjald.
 
@@ -39,7 +39,7 @@ Eftirfarandi ferli skýrir hvernig á að búa til birgðaspjald frá grunni. Ei
 <br />
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## <a name="to-create-a-new-item-card"></a><a name="to-create-a-new-item-card"></a><a name="to-create-a-new-item-card"></a><a name="to-create-a-new-item-card"></a>Að búa til nýtt vöruspjald
+## <a name="to-create-a-new-item-card"></a>Að búa til nýtt vöruspjald
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -54,7 +54,7 @@ Varan hefur nú verið skráð og birgðaspjaldið má nú nota í skjölum vegn
 
 Ef nota á þetta birgðaspjald sem sniðmát þegar ný birgðaspjöld eru búin til, vistið það sem sniðmát. Nánari upplýsingar eru í eftirfarandi kafla.  
 
-### <a name="to-save-the-item-card-as-a-template"></a><a name="to-save-the-item-card-as-a-template"></a><a name="to-save-the-item-card-as-a-template"></a><a name="to-save-the-item-card-as-a-template"></a>Til að vista birgðaspjald sem sniðmát
+### <a name="to-save-the-item-card-as-a-template"></a>Til að vista birgðaspjald sem sniðmát
 
 1. Á síðunni **Birgðaspjald** skal velja aðgerðina **Vista sem sniðmát**. Síðan **Vörusniðmát** opnast og sýnir birgðaspjaldið sem sniðmát.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -64,11 +64,11 @@ Ef nota á þetta birgðaspjald sem sniðmát þegar ný birgðaspjöld eru búi
 
 Vörusniðmátinu verður bætt við lista vörusniðmáta þannig að hægt er að nota það til að búa til ný birgðaspjöld.
 
-### <a name="items-used-in-production-orders"></a><a name="items-used-in-production-orders"></a><a name="items-used-in-production-orders"></a><a name="items-used-in-production-orders"></a>Vörur notaðar í framleiðslupöntunum
+### <a name="items-used-in-production-orders"></a>Vörur notaðar í framleiðslupöntunum
 
 Ef skrá á vörur sem eru notaðar í framleiðslupöntunum er áfyllingarkerfið tilgreint sem *Framl. pöntun* á flipanum **Áfylling**. Frekari upplýsingar eru í [Um framleiðslupantanir](production-about-production-orders.md).  
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a><a name="to-set-up-multiple-vendors-for-an-item"></a><a name="to-set-up-multiple-vendors-for-an-item"></a><a name="to-set-up-multiple-vendors-for-an-item"></a>Margir lánardrottnar settir upp fyrir vörur
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Margir lánardrottnar settir upp fyrir vörur
 
 Ef sama varan er keypt frá fleiri en einum lánardrottni þarf að færa inn upplýsingar um hvern lánardrottinn eins og verð, afhendingartími, afsláttur o.s.frv.  
 
@@ -81,11 +81,11 @@ Ef sama varan er keypt frá fleiri en einum lánardrottni þarf að færa inn up
 
 Lánardrottnarnir munu nú birtast á síðunni **Vörulisti lánardrottins**, sem þú opnar frá birgðaspjaldinu, þannig að þú getir auðveldlega valið annan lánardrottin.
 
-## <a name="set-up-item-substitutions"></a><a name="set-up-item-substitutions"></a><a name="set-up-item-substitutions"></a><a name="set-up-item-substitutions"></a>Setja upp staðgengilsvörur
+## <a name="set-up-item-substitutions"></a>Setja upp staðgengilsvörur
 
 Þú getur sett upp vörur til að vera með staðgengla, svo sem aðrar vörur sem hægt er að nota í staðinn fyrir upprunalegu vöruna.
 
-### <a name="to-make-an-item-substitution"></a><a name="to-make-an-item-substitution"></a><a name="to-make-an-item-substitution"></a><a name="to-make-an-item-substitution"></a>Til að búa til staðgengilsvöru:
+### <a name="to-make-an-item-substitution"></a>Til að búa til staðgengilsvöru:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Finndu viðeigandi vöru og veldu síðan **Vörunúmer** til að opna birgðaspjaldið.  
@@ -98,31 +98,31 @@ Lánardrottnarnir munu nú birtast á síðunni **Vörulisti lánardrottins**, s
 > [!NOTE]  
 > Athugaðu að staðgengilsvörur valda ekki sjálfkrafa því að vöru sé skipt út fyrir aðra vöru, til dæmis þegar sölupöntun er stofnuð eða í uppskrift. Þess í stað verður þér gert viðvart um að staðgengilsvara standi til boða.
 
-## <a name="categories-attributes-and-variants"></a><a name="categories-attributes-and-variants"></a><a name="categories-attributes-and-variants"></a><a name="categories-attributes-and-variants"></a>Flokkar, eigindir og afbrigði
+## <a name="categories-attributes-and-variants"></a>Flokkar, eigindir og afbrigði
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Frekari upplýsingar um afbrigði er að finna í [Stjórna afurðarafbrigðum](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a><a name="deleting-item-cards"></a><a name="deleting-item-cards"></a><a name="deleting-item-cards"></a>Eyða birgðaspjöldum
+## <a name="deleting-item-cards"></a>Eyða birgðaspjöldum
 
 Ef þú hefur bókað færslu fyrir vöru er ekki hægt að eyða spjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar í birgðaverðmati eða endurskoðun. Til að eyða birgðaspjöldum með fjárhagsfærslum skaltu hafa samband við samstarfsaðila Microsoft til að gera það í gegnum kóða.  
 
-## <a name="manage-inventory-in-warehouses"></a><a name="manage-inventory-in-warehouses"></a><a name="manage-inventory-in-warehouses"></a><a name="manage-inventory-in-warehouses"></a>Stjórna birgðum í vöruhúsum
+## <a name="manage-inventory-in-warehouses"></a>Stjórna birgðum í vöruhúsum
 
 Þegar ný vara er skráð munu reitir sjást sem tengjast vöruhúsakerfinu, sérstaklega í flýtiflipanum **Vöruhús**. Ef fyrirtækið notar ekki möguleika vöruhúsakerfisins í [!INCLUDE [prod_short](includes/prod_short.md)], þá má sleppa þessum reitum.  
 
 Ef fyrirtækið setur síðar upp vöruhúsakerfi er mælt með því að ganga úr skugga um að sérhver fyrirliggjandi vara sé með réttar upplýsingar í hinum ýmsu reitum. Þannig geta vöruhúsaferlin gengið eins og til er ætlast. Upplýsingarnar geta falið í sér reiti á borð við **Kóði vöruhúsaflokks** eða **Kóði frágangssniðmáts**. Nánari upplýsingar eru í [Upplýsingar um hönnun: Uppsetning vöruhúss](design-details-warehouse-setup.md).  
 
-## <a name="planning"></a><a name="planning"></a><a name="planning"></a><a name="planning"></a>Áætlun
+## <a name="planning"></a>Áætlun
 
 Þegar fyrirtækið þitt notar viðkomandi verkferla við áætlun framboðs í [!INCLUDE [prod_short](includes/prod_short.md)] þarf að fylla út í viðkomandi reiti í flýtiflipanum **Áætlanagerð**. Fyrir kynningu á svæði áætlunar skal skoða [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md).  
 
 Til að sjá dæmi um hvernig hægt er að nota reitina í flýtiflipanum **Áætlanagerð** skal skoða [Uppsetning bestu venja: Færibreytur áætlanagerðar](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-items/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Setja upp mælieiningar](inventory-how-setup-units-of-measure.md)  
