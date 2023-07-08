@@ -11,7 +11,7 @@ ms.search.form: '312, 313'
 ms.date: 08/26/2022
 ms.author: bholtorf
 ---
-# Uppsetning bókunarflokka
+# <a name="set-up-posting-groups"></a>Uppsetning bókunarflokka
 
 Bókunarflokkar varpa einingum í fjárhagsreikninga. Dæmi um einingar eru viðskiptamenn, lánardrottnar, vörur, tilföng og sölu- og innkaupaskjöl. Bókunarflokkar spara tíma og hjálpar við að koma í veg fyrir mistök þegar þú bókar færslur. Færslugildin fara á lyklana sem tilgreindir eru í bókunarhópnum fyrir þá tilgreindu einingu. Eina krafan er að þú hafir bókhaldslykla. Nánari upplýsingar er að finna í [Uppsetning bókhaldslykilsins](finance-setup-chart-accounts.md).  
 
@@ -29,7 +29,7 @@ Bókunarflokkar falla undir þrjú atriði:
 
 Eftirfarandi hlutar lýsa bókunarflokkunum undir hverju tilfelli.  
 
-## Almennir bókunarflokkar
+## <a name="general-posting-groups"></a>Almennir bókunarflokkar
 
 Eftirfarandi tafla lýsir almennum bókunarflokkum.
 
@@ -39,7 +39,7 @@ Eftirfarandi tafla lýsir almennum bókunarflokkum.
 | Almennir vörubókunarflokkar |Úthlutaðu þessum hópi á hluti og tilföng til að tilgreina hvað þú selur og hvað þú kaupir. Settu upp þessa bókunarflokka á síðunni **Alm. vörubókunarflokkar**. Þegar þú gerir það skaltu hugsa um fjölda hópa sem þú þarft til að brjóta niður sölu eftir vöru (atriði og foprði) og kaup eftir vörum. Til dæmis, skaltu skipta þessum hópum eftir hráefnum, smásölu, tilföngum, getu og svo framvegis. |
 | Uppsetning almenns bókunargrunns |Sameina viðskipti og vörubókunarflokka, og veldu lyklana til að bóka á. Fyrir hverja samsetningu viðskipta- og vöruskiptahópa er hægt að tengja saman fjölda aðalbókarreikninga. Til dæmis er hægt að bóka sölu á sömu vöru á mismunandi fjárhagsreikninga vegna þess að viðskiptamönnum er úthlutað á mismunandi viðskiptabókunarflokka. Settu þessar grunnstillingar upp á síðunni **Almennur bókunargrunnur**þ |
 
-## Sértækir bókunarflokkar
+## <a name="specific-posting-groups"></a>Sértækir bókunarflokkar
 
 Eftirfarandi tafla lýsir bókunarflokkum sem eru sértækir fyrir ákveðnar tegundir gagna.
 
@@ -51,7 +51,7 @@ Eftirfarandi tafla lýsir bókunarflokkum sem eru sértækir fyrir ákveðnar te
 | Bókunarflokkar bankareikninga |Skilgreindu fjárhagsreikningana sem bankareikningsfærslur eru bókaðar í. Til dæmis getur þetta einfalt ferlið við að rekja færslr og samræma bankareikninga. Settu upp þessa bókunarflokka á síðunni **Bókunarflokkar bankareikninga**. Mælt er með að þessir fjárhagsreikningar séu með reitinn **Bein bókun** stilltan á *Nei*. |
 | Bókunarflokkur eigna |Skilgreina reikninga fyrir mismunandi gerðir útgjalda og kostnað, svo sem kaupkostnað, uppsafnaðan afskriftir, kaupkostnað við ráðstöfun, uppsafnað afskriftir við förgun, hagnað af sölu, tapi á förgun, viðhaldskostnaði og afskriftargjöldum. Settu upp þessa bókunarflokka á síðunni **Eignarbókunarflokkur**. |
 
-### Að leyfa staðgengil fyrir bókunarflokka viðskiptamanns eða lánardrottins í skjöl
+### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Að leyfa staðgengil fyrir bókunarflokka viðskiptamanns eða lánardrottins í skjöl
 
 [!INCLUDE [preview](includes/preview.md)]
 
@@ -65,7 +65,7 @@ Til að leyfa breytingar á bókunarflokkum skaltu velja **Leyfa marga bókunarf
 
 Þegar notaður er til dæmis reikningur eða greiðsla sem er bókuð með mismunandi bókunarflokkum viðskiptamanns eða lánardrottins (mismunandi fjárhagsreikningar) millifærir [!INCLUDE[prod_short](includes/prod_short.md)] upphæðirnar á milli fjárhagsreikninga til að jafna þá.
 
-## Skattbókunarflokkar
+## <a name="tax-posting-groups"></a>Skattbókunarflokkar
 
 Eftirfarandi tafla lýsir skatttengdum bókunarflokkum.
 
@@ -77,7 +77,7 @@ Eftirfarandi tafla lýsir skatttengdum bókunarflokkum.
 
 Ef land/svæði þitt notar virðisauka (VSK), sjá  [Setja upp útreikninga og bókunaraðferðir fyrir virðisaukandi skatta](finance-setup-vat.md).  
 
-## Dæmi um tengingu bókunarflokka
+## <a name="example-of-linking-posting-groups"></a>Dæmi um tengingu bókunarflokka
 
 Hér er sviðsmynd.  
 
@@ -100,11 +100,11 @@ Hér er sviðsmynd.
 
 Uppsetningin þín ákvarðar hvenær bókun á sér stað. Til dæmis er tímasetning ákvörðuð af því þegar þú gerir reglubundna starfsemi, svo sem birgðakostnað eða birgðafærslum.
 
-## Bókunargrunnslínur afritaðar
+## <a name="copying-posting-setup-lines"></a>Bókunargrunnslínur afritaðar
 
 Því fleiri vörur og viðskiptabókunarflokk sem þú ert með því fleiri línur sérðu á síðunni **almennur bókunargrunnur**. Það gæti þurft að að færa inn mikið af gögnum til að setja upp almennan bókunargrunn fyrir fyrirtækið. Þó að samsetningar viðskipta- og vörubókunarflokkanna séu margar er hægt að bóka þær saman í einn fjárhagsreikning. Til að draga úr handvirkum færslum skal afrita fjárhagsreikninga úr línu á síðunni **Alm. bókunargrunnur**.
 
-## Setja upp bókunarflokka á ferðinni
+## <a name="set-up-posting-groups-on-the-go"></a>Setja upp bókunarflokka á ferðinni
 
 Til að koma notendum af stað sem fyrst getur [!INCLUDE[prod_short](includes/prod_short.md)] sýnt tilkynningar um fjárhagsreikninga sem vantar í ýmsum uppsetningum bókunarflokka. Til að fá þessar tilkynningar skaltu ganga úr skugga um að tilkynningin **Fjárhagsreikning vantar í bókunarflokki eða uppsetningu** sé valin á síðunni **Mínar tilkynningar**, sem þú getur opnað úr reitnum **Breyta þegar ég fæ tilkynningar** á síðunni **Mínar stillingar**.  
 
@@ -117,7 +117,7 @@ Til að koma notendum af stað sem fyrst getur [!INCLUDE[prod_short](includes/pr
 
 Frá og með útgáfubylgju 1 árið 2022 getur þú notað reitinn **Útilokað** á síðunni **Almennur bókunargrunnur** til að koma í veg fyrir að notendur noti uppsetningu sem á ekki lengur við fyrir nýjar bókanir.  
 
-## Úrræðaleita villur bókunarflokks
+## <a name="troubleshooting-posting-group-errors"></a>Úrræðaleita villur bókunarflokks
 
 Bókunarflokkar eru með ítarlegustu hlutunum til að setja upp í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þeir eru ekki settir upp á réttan hátt geta villur komið upp þegar skjöl eða færslubókarlínur eru bókaðar. Til dæmis stafa þessar villur yfirleitt af mistökum í því hvernig almennum fjárhagslyklum er úthlutað eða hvernig bókunarflokkar eru sameinaðir.
 
@@ -126,9 +126,9 @@ Bókunarflokkar eru með ítarlegustu hlutunum til að setja upp í [!INCLUDE[pr
 > [!NOTE]
 > Villumeðhöndlunin sem lýst er hér að ofan er ekki í boði fyrir vöru, tilfang, starfsmann og færslubók eigna eða fyrir fjárhagslykla sem bætt er við í staðbundnum útgáfum bókunarflokka.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/posting-groups-dynamics-365-business-central/)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
