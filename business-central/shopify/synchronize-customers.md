@@ -10,14 +10,14 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-customers"></a>Samstilla viðskiptavini
+# Samstilla viðskiptavini
 
 Þegar pöntun er flutt inn frá  Shopify, fá upplýsingarnar um viðskiptamanninn nauðsynlegt fyrir frekari vinnslu skjalsins í [!INCLUDE[prod_short](../includes/prod_short.md)]. Það eru tveir meginmöguleikar til að gera það, og nokkrar samsetningar:
 
 * Notaðu sérstakan viðskiptamann fyrir allar pantanir.
 * Flyttu inn raunverulegar upplýsingar um viðskiptamann úr Shopify. Þessi valkostur er einnig í boði þegar þú flytur út viðskiptamenn í Shopify úr [!INCLUDE[prod_short](../includes/prod_short.md)] fyrst.
 
-## <a name="important-settings-when-importing-customers-from-shopify"></a>Mikilvægar stillingar við innflutning viðskiptamanna úr Shopify
+## Mikilvægar stillingar við innflutning viðskiptamanna úr Shopify
 
 Hvort sem þú fluttir inn viðskiptavini frá  Shopify  í fjöldaeða þegar þú pantar, Notaðu þá eftirfarandi stillingar til að stjórna ferlinu:
 
@@ -29,7 +29,7 @@ Hvort sem þú fluttir inn viðskiptavini frá  Shopify  í fjöldaeða þegar �
 |**Búa til óþekktan viðskiptamann sjálfvirkt**| Veldu þennan reit ef þú vilt að tengillinn stofni viðskiptamennina sem vantar þegar valkosturinn **Eftir tölvupósti/síma** eða **Eftir upplýsingum um „reikningsfæra á“** er valinn í reitnum **Vörpunargerð viðskiptamanns**. Nýr viðskiptamaður verður stofnaður með innfluttum gögnum og **Sniðmátskóði viðskiptamanns** sem skilgreindur er á síðunum **Shopify Verslunarkort** eða **Shopify Viðskiptamannasniðmát**. Taktu eftir að Shopify viðskiptamaðurinn verður að vera með minnst eitt aðsetur. Oft eru upplýsingar um aðsetursskipanir stofnaðar með  Shopify  sölurásum sölustaða. Ef þessi valkostur er ekki virkur þarftu að stofna viðskiptamann handvirkt og tengja hann við Shopify viðskiptamanninn.|
 |**Viðskiptamannasniðmátskóði**|Þessi reitur er notaður með **Stofna óþekktan viðskiptamann sjálfkrafa**.<br>- Veldu sjálfgefna sniðmátið sem á að nota fyrir sjálfkrafa stofnaða viðskiptamenn. Gakktu úr skugga um að valið sniðmát innihaldi áskilda reiti á borð við **Alm. viðskiptabókunarflokkur**, **Bókunarflokkur viðskiptamanns** og VSK-reiti eða aðra skatttengda reiti.<br>- Þú getur skilgreint sniðmát fyrir hvert land/svæði á síðunni **Shopify Viðskiptamannasniðmát**, sem er gagnleg fyrir réttan skattaútreikning. <br>- Frekari upplýsingar á [Setja upp skatta](setup-taxes.md).|
 
-### <a name="customer-template-per-countryregion"></a>Sniðmát viðskiptavinar fyrir hvert land/svæði
+### Sniðmát viðskiptavinar fyrir hvert land/svæði
 
 Hægt er að skilgreina sumar stillingar á stigi lands/svæðis eða ríkis/héraðs. Hægt er að velja stillingarnar í [Sending og afhending](https://www.shopify.com/admin/settings/shipping) í Shopify.
 
@@ -43,7 +43,7 @@ Hægt er að skilgreina sumar stillingar á stigi lands/svæðis eða ríkis/hé
 > [!NOTE]  
 > Landskóðar eru ISO 3166-1 og alfa-2 landskóðar. Frekari upplýsingar er að finna í [Landskóði](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## <a name="export-customers-to-shopify"></a>Flytja út viðskiptamenn í Shopify
+## Flytja út viðskiptamenn í Shopify
 
 Hægt er að flytja núverandi viðskiptavina í Shopify í miklu magni. Í hverju tilviki er búinn til viðskiptavinur og eitt sjálfgefið heimilisfang. Þú getur stjórnað ferlinu með eftirfarandi stillingum:
 
@@ -66,7 +66,7 @@ Eftirfarandi kröfur eru gerðar til útflutnings viðskiptavinar:
 
 Þegar þú hefur stofnað viðskiptamennina í Shopify geturðu sent þeim bein boð til að hvetja þá til að virkja reikningana sína.
 
-### <a name="populate-customer-information-in-shopify"></a>Fylltu út upplýsingar um viðskiptamann í Shopify
+### Fylltu út upplýsingar um viðskiptamann í Shopify
 
 Viðskiptavinur í  Shopify  hefur fornafn, nafn fjölskyldu, netfang og/eða símanúmer. Fyrst má færa inn nöfn og fjölskylduheiti af viðskiptamannaspjaldinu í [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -86,7 +86,7 @@ Viðskiptavinur í  Shopify  er einnig með sjálfgefið aðsetur. Heimilisfangi
 Fyrir aðsetur þar sem Sýsla/hérað er notað er valinn  **kóti**  eða  **Heiti**  í  **reitnum sýsluuppruni**  á  **Shopify  vinnukortasíðunni** . Kótinn eða nafnið Tilgreinir tegund gagna sem geymd eru  [!INCLUDE[prod_short](../includes/prod_short.md)]  í  **í svæðinu Sýsla** . Munið að frumstilla sniðmát viðskiptamanns eftir landi/svæði svo að vörpun sýslukóta/heitilnafna sé tilbúin. 
 
 
-## <a name="sync-customers"></a>Samstilla viðskiptamenn
+## Samstilla viðskiptamenn
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Shopify verslun** og velja síðan viðkomandi tengil.
 2. Veldu tiltekna verslun þar sem þú vilt samstilla viðskiptamenn.
@@ -96,6 +96,6 @@ Einnig er hægt að nota aðgerðina **Hefja samstillingu viðskiptamanns** í g
 
 Þú getur skipulagt verkið sem á að framkvæma á sjálfvirkan hátt. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Hafist handa með tengilinn fyrir Shopify](get-started.md)  
