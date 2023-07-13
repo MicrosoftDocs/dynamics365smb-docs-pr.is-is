@@ -18,7 +18,7 @@ ms.reviewer: bholtorf
 
  **Færið inn gjaldmiðilskóða**  ef vefverslunin notar annan gjaldmiðil en staðbundinn GJALDMIÐIL (ISK). Tilgreindur gjaldmiðill verður að hafa stillt gengi. Ef vefverslunin þín notar sama gjaldmiðil og [!INCLUDE[prod_short](../includes/prod_short.md)] skaltu skilja þennan reit eftir auðan. 
 
-Hægt er að sjá Store-gjaldmiðil í  [upplýsingastillingum](https://www.shopify.com/admin/settings/general)  verslunarinnar í  Shopify  admin. Shopify  hægt að skilgreina til að samþykkja mismunandi gjaldmiðla, annars vegar innfluttar pantanir í  [!INCLUDE[prod_short](../includes/prod_short.md)]  notkun verslunargjaldmiðils.
+Hægt er að fá aðgang að gjaldmiðli verslunarinnar í  [upplýsingastillingum](https://www.shopify.com/admin/settings/general)  verslunarinnar í  Shopify  admin.  Shopify hægt að skilgreina til að samþykkja mismunandi gjaldmiðla, annars vegar innfluttar pantanir í  [!INCLUDE[prod_short](../includes/prod_short.md)]  notkun verslunargjaldmiðils.
 
 Venjuleg Shopify pöntun getur falið í sér kostnað til viðbótar við millisamtöluna, svo sem sendingargjöld eða, ef slíkt er virkt, ábendingar. Þessar upphæðir eru settar beint á fjárhag sem þú vilt nota fyrir tilteknar tegundir færslna:
 
@@ -96,6 +96,31 @@ Einnig er hægt að leita að runuvinnslunni **Samstilla pantanir frá Shopify**
 
 Hægt er að áætla verkið sem á að framkvæma sjálfkrafa. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
 
+### Undir hetta
+
+ Shopify Tengivirkið flytur pantanir í tveimur skrefum:
+
+1.  Það flytur inn pöntunarhausa í  **Shopify  pantanirnar sem á að flytja inn**  þegar þær samsvara ákveðnum skilyrðum:
+    
+* Þeir eru ekki í geymslu.
+* Þær voru stofnaðar eða þeim breytt eftir síðustu samstillingu.
+
+2.  Hann flytur inn  Shopify  pantanir og viðbótarupplýsingar.
+*  Shopify Tengitengið vinnur úr öllum færslum í  **Shopify  pöntunum í innflutningstöflu**  sem samsvara afmörkunarskilyrðaviðmiðinu sem tilgreint er á  **samstillingarpöntunum frá  Shopify**  beiðni. T.d. merki, rás eða uppfyltslustöðu. Ef engar afmarkanir hafa verið tilgreindar eru allar færslur í henni vinnur úr þeim.
+* Við innflutning á shopify pöntun biður Connector um  Shopify  viðbótarupplýsingar frá Shopify:
+
+    * Pöntunarhaus
+    * Pöntunarlínur
+    * Upplýsingar um sendingu og uppfylgun
+    * Færslur
+    * Skilagreinar og endurgreiðslur, ef samskipað
+
+ **Shopify Pöntunin til að flytja inn**  síðu er gagnleg til að leysa innflutningsmál pöntunar. Hægt er að meta þær pantanir sem eru tiltækar og rífa næstu skref:
+
+* Athugaðu hvort Villa útilokaði innflutning tiltekinnar pöntunar og Kannaðu nánar villur. Reiturinn Villa er í  **reitnum villuleitað** .
+* Vinna aðeins tilteknar pantanir. Þú þarft að fylla út í reitinn verkstæðiskóti  **, velja eina eða fleiri pantanir og velja**  svo aðgerðina Flytja inn valdar pantanir  **.** 
+* Eyða pöntunum úr  **Shopify  pöntuninni til að flytja inn**  síðu til að útiloka þær úr samkeyrslu.
+
 ## Yfirfara innfluttar pantanir
 
 Þegar innflutningi er lokið er hægt að kanna  Shopify  pöntunina og finna allar tengdar upplýsingar, svo sem greiðslufærslur, sendingarkostnað, hættustig, eigindir pöntunar og merki eða uppfyllum, ef pöntunin var þegar uppfyllt Shopify. Þú getur einnig séð allar staðfestingar pöntunar sem hefur verið send til viðskiptavinarins með því að velja aðgerðina **Shopify Stöðusíða**.
@@ -131,7 +156,7 @@ Ef stillingarnar þínar koma í veg fyrir að viðskiptavinur sé stofnaður sj
 
 Aðgerðin *Flytja inn pöntun frá Shopify* reynir að velja viðskiptavini í eftirfarandi röð:
 
-1. Ef **Sjálfgefið númer viðskiptavinar.** Er skilgreindur í  **Shopify  Viðskiptavinarsniðmátinu**  fyrir  **Sendist-til lands-/svæðiskótann, þá** sjálfgefna viðskiptavinarnúmer  **.** er notað óháð stillingum reitanna **Innflutningur viðskiptavinar frá Shopify** og **Vörpunargerð viðskiptavinar**. Frekari upplýsingar eru á [Sniðmát viðskiptavinar eftir landi](synchronize-customers.md#customer-template-per-country).
+1. Ef **Sjálfgefið númer viðskiptavinar.** Er skilgreindur í  **Shopify  Viðskiptavinarsniðmátinu**  fyrir  **Sendist-til lands-/svæðiskótann, þá** sjálfgefna viðskiptavinarnúmer  **.** er notað óháð stillingum reitanna **Innflutningur viðskiptavinar frá Shopify** og **Vörpunargerð viðskiptavinar**. Frekari upplýsingar um  [sniðmát viðskiptavinar fyrir hvert land](synchronize-customers.md#customer-template-per-countryregion).
 2. Ef valkosturinn **Innflutningur viðskiptavinar frá Shopify** er stilltur á *Ekkert* og **Sjálfgefið nr. viðskiptavinar.** er skilgreint á síðunni **Shopify Verslunarkort** þá er **Sjálfgefið nr. viðskiptavinar.** er notað.
 
 Næstu skref fara eftir **Tegund vörpunar viðskiptavinar**.
@@ -221,7 +246,7 @@ Ef reiturinn **Rakningarvefslóð sendingar** er fylltur út fyrir skrá flutnin
 
 ## Skilagreinar og endurgreiðsla
 
-Í samþættingu á milli  Shopify  og  [!INCLUDE[prod_short](../includes/prod_short.md)] er því mikilvægt að geta samstillt eins mikið af viðskipagögnum og mögulegt er. Auðveldara er að halda fjármálum og birgðastikunni í  [!INCLUDE[prod_short](../includes/prod_short.md)] ... Gögnin sem þú getur samstillt eru skil og endurgreiðslur sem voru skráðar í  Shopify  admin eða  Shopify  POS.
+Í samþættingu á milli  Shopify  og  [!INCLUDE[prod_short](../includes/prod_short.md)] er því mikilvægt að geta samstillt eins mikið af viðskipagögnum og mögulegt er. Auðveldara er að halda fjármálum og birgðastikunni í [!INCLUDE[prod_short](../includes/prod_short.md)]... Gögnin sem þú getur samstillt eru skil og endurgreiðslur sem voru skráðar í  Shopify  admin eða  Shopify  POS.
 
 Skilagreinar og endurgreiðslur eru fluttar inn með tengdum pöntunum þeirra ef vinnslugerðin er virkjuð á  Shopify  Verkstæðisspjaldinu.
 

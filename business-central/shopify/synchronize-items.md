@@ -189,8 +189,9 @@ Hægt er að ræsa samstillingu mynda á þann hátt sem lýst er hér að neða
 
 ### Athugasemdir um samstillingu mynda
 
-* Þegar myndir eru fluttar út frá [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify er nýjum myndum bætt inn á Shopify, þannig að gamlar myndir haldast óbreyttar. Ef mynd er uppfærð í [!INCLUDE[prod_short](../includes/prod_short.md)], þarftu að eyða gömlu myndunum í **Shopify Stjórnandamiðstöðinni**.
-* Myndir fluttar út til Shopify og uppfylla ekki kröfur sem skilgreindar eru af Shopify verður ekki fluttar inn. Frekari upplýsingar um [efnisgerðir vöru er að finna á help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
+* Þegar myndir eru fluttar út úr  [!INCLUDE[prod_short](../includes/prod_short.md)]  til  Shopify -Mynda skipta myndirnar þeim sem þú fluttir út áður. Eldri myndir eru ekki lengur alhæfar.
+* Ef mynd er eytt í  [!INCLUDE[prod_short](../includes/prod_short.md)] er myndinni í  Shopify  ekki einnig eytt. Þú þarft að eyða gömlu myndunum handvirkt í  **Shopify  admin**.
+* Myndir sem flytja á út til  Shopify  að fara eftir  Shopify kröfum. Að öðrum kosti má ekki flytja þær inn. Til að fræðast meira um miðlaþörf er farið í  [vörumiðilsgerðir á help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
 ## Samstilla verð við Shopify
 
