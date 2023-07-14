@@ -9,15 +9,15 @@ ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="troubleshooting-self-service-sign-up"></a>Úrræðaleit innskráning í sjálfsafgreiðslu
+# Úrræðaleit innskráning í sjálfsafgreiðslu
 Innskráning fyrir [!INCLUDE[prod_short](includes/prod_short.md)] er auðvelt og er hægt að gera mjög skjótan hátt. Hægt er að stofna reikning án endurgjalds jafnvel þó að þú sért fyrirtæki sem þegar er til. Þessi grein fjallar um vandamál sem gætu komið upp við innskráningu.
 
-## <a name="what-email-address-can-i-use-with-business-central"></a>Hvaða netfang get ég notað með Business Central?
+## Hvaða netfang get ég notað með Business Central?
 [!INCLUDE[prod_short](includes/prod_short.md)] krefst að notandi noti vinnu eða skóla netfang til að nýskrá. [!INCLUDE[prod_short](includes/prod_short.md)] styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.
 
 Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gefa til kynna að þú eigir að nota vinnu eða skóla netfang.
 
-## <a name="troubleshooting"></a>Úrræðaleit
+## Úrræðaleit
 Í mörgum tilfellum er innskráning í [!INCLUDE[prod_short](includes/prod_short.md)] möguleg með því að fylgja eftirfarandi innskráningarferli. Hins vegar eru nokkrar ástæður fyrir því að þú getur ekki verið fær um að ljúka sjálfsafgreiðslu innskráningu. Taflan hér að neðan er yfirlit yfir nokkrar af algengustu ástæðum fyrir því að vera ekki fær til að ljúka skráningunni og leiðir sem þú getur farið við að leysa þessi vandamál.
 
 | Einkenni/villuboð:  | Ástæða og leið framhjá |
@@ -29,13 +29,13 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
 | Netfangið er ekki Microsoft 365 kenni. Þú færð skilaboð eins og þessi við innskráningu:<br /><br />**Við getum ekki fundið þig á contoso.com. Notarðu annað auðkenni í vinnunni eða skólanum? Prófaðu að skrá þig inn og ef það virkar ekki skaltu hafa samband við tæknideildina þína.** |Fyrirtæki þitt notar kenni til að skrá sig inn í Microsoft 365 og aðrar Microsoft þjónustur, sem eru aðrar en tölvupóstfang þitt. Netfangið þitt gæti til dæmis verið  Nancy.Smith@contoso.com  en kennitöluna þína nancys@contoso.com. Til að ljúka við innskráningu, notaðu kenni sem fyrirtæki þitt hefur úthlutað til að skrá sig inn í Microsoft 365 eða aðrar Microsoft þjónustur. Ef þú veist ekki hvað það er, hafðu samband við tæknistjórann þinn. Ef þú getur enn ekki skrá sig og getur lokið ítarlegra uppsetningarferli, getur þú skrá sig fyrir nýjum Microsoft 365 prufuáskrift og nota það netfang til að skrá þig inn. |
 | Ef Microsoft 365 reikningurinn þinn er skráður í studdu land og þú ert að skrá þig fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á meðan í öðru landi færðu skilaboð eins og eftirfarandi við innskráningu:<br /><br />**Þetta gekk ekki, við styðjum ekki land þitt eða svæði enn.**| Microsoft 365 áskrift fyrirtækis þíns er skráð í tiltekið land í Microsoft 365 stjórnunargáttinni. Upplifun innskráningar fyrir [!INCLUDE[prod_short](includes/prod_short.md)] notar tungumálið og landsstaðalinn sem núverandi vafri notar og þar af leiðandi geturðu fengið villuboðin þótt þú sért í studdu landi. Spurðu kerfisstjóra til að sannreyna land sem er tilgreint í forstillingu fyrirtækis í [Microsoft 365 stjórnunargáttinni](https://portal.office.com/adminportal/home#/companyprofile). Ef til vill þarf að nota annan reikning fyrir [!INCLUDE[prod_short](includes/prod_short.md)].|
 
-## <a name="regional-availability"></a>Svæði í boði
+## Svæði í boði
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er í boði í mörgum löndum eða svæðum með staðfæringu frá Microsoft eða samþykktum staðfæringaraðila. Tæmandi listi yfir studd lönd og svæði er að finna í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 Til að sjá yfirlit yfir markaði sem nú eru studdir í Dynamics 365 skal skoða skyggnuna [Alþjóðlegt framboð á Microsoft Dynamics 365](/dynamics365/get-started/availability). Yfirlit yfir staðbundna virkni í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna á lendingarsíðunni [Staðbundin virkni](about-localization.md).  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Skráðu þig í ókeypis Dynamics 365 Business Central prufu](trial-signup.md)  
 [Algengar spurningar um prufuútgáfu Dynamics 365 Business Central](trial-faq.md)  

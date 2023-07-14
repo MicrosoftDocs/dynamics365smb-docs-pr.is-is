@@ -11,13 +11,13 @@ ms.search.form: '8645,'
 ms.date: 06/06/2023
 ms.author: bholtorf
 ---
-# <a name="design-details-average-cost"></a>Hönnunarupplýsingar: Meðalkostnaður
+# Hönnunarupplýsingar: Meðalkostnaður
 
 Meðalkostnaður á vöru er reiknaður með reglubundnu vegnu meðaltali. Meðaltalið er miðað við meðalkostnaðartímabilið sem sett er upp í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Virðisdagsetningin er valin sjálfkrafa.  
 
-## <a name="setting-up-average-cost-calculation"></a>Setja upp meðalkostnaðrverðútreikning
+## Setja upp meðalkostnaðrverðútreikning
 
 Eftirfarandi tafla lýsir tveimur reitum á síðunni **Uppsetning birgða** sem verður að fylla út til að gera meðalkostnaðarútreikning virkan.  
 
@@ -31,7 +31,7 @@ Eftirfarandi tafla lýsir tveimur reitum á síðunni **Uppsetning birgða** sem
 >
 > **Fjárhagstímabil** síðan sýnir hvaða meðalkostnaðartímabil og meðalkostnaðarútreikningsgerð er í gildi á því tímabili, fyrir hvert fjárhagstímabil.  
 
-## <a name="calculating-average-cost"></a>Meðalkostnaður reiknaður
+## Meðalkostnaður reiknaður
 
  Þegar viðskipti eru bókuð fyrir vöru sem notar kostnaðarútreikningsaðferðina Meðaltal stofnar forritið færslu í töflunni **Upphafspunktur Meðalkostnaðarleiðréttingar**. Þessi færsla inniheldur vörunúmer, afbrigðakóða og birgðageymslukóða færslunnar. Færslan inniheldur einnig reitinn **Dagsetning virðismats**, sem tilgreinir síðustu dagsetningu meðalkostnaðartímabilsins sem færslan var bókuð á.  
 
@@ -47,7 +47,7 @@ Eftirfarandi tafla lýsir tveimur reitum á síðunni **Uppsetning birgða** sem
 
  Reiknaður meðalkostnaður er svo jafnaður við birgðaminnkun vörunnar ( eða vöru, birgðageymslu og afbrigði) með bókunardagsetningum í meðalkostnaðartímabilinu. Fyrir birgðahækkanir sem eru fastar jafnaðar við minnkun birgða á meðalkostnaðartímabilinu,  [!INCLUDE [prod_short](includes/prod_short.md)]  Framsendir útreiknaðan meðalkostnað frá aukningu til lækkunar.  
 
-### <a name="example-average-cost-period--day"></a>Dæmi Tímabil meðalinnk.verðs = Dagur
+### Dæmi Tímabil meðalinnk.verðs = Dagur
 
 Eftirfarandi dæmi sýnir áhrif þess að reikna meðalkostnað miðað við meðalkostnaðartímabil einn dag. Reiturinn **Útreikningsgerð meðalkostnaðar** á síðunni **Uppsetning birgða** er stilltur á **Vara**.  
 
@@ -85,7 +85,7 @@ Eftirfarandi tafla sýnir hlut birgðahöfuðbókarfærslur fyrir sýnishorn me�
 | 02-02-23 |   Innkaup | 1 | 100.00 | 5 |
 | 02-03-23 |   Útsala | -1 | -100,00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Dæmi Tímabil meðalinnk.verðs = mánuður
+### Dæmi Tímabil meðalinnk.verðs = mánuður
 
  Þetta dæmi sýnir áhrif þess að reikna meðalkostnað miðað við tímabil meðalkostnaðar á einum mánuði. Reiturinn **Útreikningsgerð meðalkostnaðar** á síðunni **Uppsetning birgða** er stilltur á **Vara**.  
 
@@ -130,7 +130,7 @@ Meðalkostnaður við færslu númer 3 er reiknaður út í meðalkostnaðartím
 
 Til að fá meðalkostnaðinn fyrir febrúar,  [!INCLUDE [prod_short](includes/prod_short.md)] bætir Meðalkostnaðurinn við vöruna sem fékkst í birgðum (100,00) við meðalkostnaðinn í upphafi tímabilsins (30,00). Samtala (130,00) er síðan deilt með heildarmagni í birgðum (2). Þessi Útreikningur gefur sem fyrr meðalkostnað á vöruna í febrúar-tímabilinu (65,00). Meðalkostnaðinum er úthlutað á birgðaminnkunina í tímabilinu (færslur 4 og 6).  
 
-## <a name="setting-the-valuation-date"></a>Dagsetning virðismats ákveðin
+## Dagsetning virðismats ákveðin
 
   **Reiturinn Dagsetning**  verðmætasköpunar í  **töflunni Virðisfærsla**  ákvarðar meðaltímabilið sem birgðalækkunarfærsla tilheyrir. Þessi stilling á einnig við um birgðastöðu í vinnslu (VÍV).  
 
@@ -143,7 +143,7 @@ Til að fá meðalkostnaðinn fyrir febrúar,  [!INCLUDE [prod_short](includes/p
 | 3 | Fyrr en síðasta matsdagsetning jafnaðra virðisfærslna | Jákvætt | Nei | Síðasta matsdagsetning jafnaðra virðisfærslna |
 | 4 |  | Neikvætt | Já | Bókunardagsetning virðisfærslu endurmats |
 
-### <a name="example"></a>Dæmi
+### Dæmi
 
 Eftirfarandi tafla með virðisfærslur sýnir mismunandi aðstæður.  
 
@@ -165,7 +165,7 @@ Eftirfarandi tafla með virðisfærslur sýnir mismunandi aðstæður.
 
 Ef magn birgða er minna en núll eftir að birgðaminnkun er bókuð er matsdagsetningin stillt á bókunardagsetningu birgðaminnkunar. Hægt er að breyta þessari dagsetningu þegar birgðaauka er beitt, samkvæmt reglum sem lýst er í athugasemd fyrr í þessum kafla.  
 
-## <a name="recalculating-average-cost"></a>Meðalkostnaður reiknaður
+## Meðalkostnaður reiknaður
 
 Verðmæti birgða minnkar eftir því sem vegið meðaltal yrði einfalt í nokkrum tilvikum:
 
@@ -188,7 +188,7 @@ Vegna þessa sveigjanleika gæti þurft að endurreikna meðalkostnaðinn eftir 
 
 Hægt er að breyta birgðagildrunni innan reikningstímabils með því að breyta gildum í  **reitum meðalkostnaðartímabils**  og  **Tegund**  meðalkostnaðar. Við mælum hins vegar með að gæta varúðar og ráðfæra sig við endurskoðanda.  
 
-### <a name="example-of-recalculated-average-cost"></a>Dæmi um Endurútgefið meðalinnkaupsverð
+### Dæmi um Endurútgefið meðalinnkaupsverð
 
 Þetta dæmi sýnir hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  endurreiknar meðalinnkaupsverð þegar bókað er á dagsetningu sem er á undan birgðalækkun. Dæmi um meðalkostnaðartímabil í **Dagur**.  
 
@@ -213,7 +213,7 @@ Eftirfarandi tafla sýnir virðisfærslur fyrir vöruna eftir að færslunúmer 
 | 02-15-20 | -1 | -17,00 | 3 |
 | 02-16-20 | -1 | -17,00 | 4 |
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
 [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  

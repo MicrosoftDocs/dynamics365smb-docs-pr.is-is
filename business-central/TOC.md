@@ -106,9 +106,9 @@
 ##### [Yfirlit bókunarlínu færslubókar](design-details-general-journal-post-line-overview.md)  
 ##### [Hönnunarupplýsingar: Uppbygging bókunarviðmóts](design-details-posting-interface-structure.md)  
 ##### [Hönnunarupplýsingar: Uppbygging bókunarvélar](design-details-posting-engine-structure.md)  
-
+#### [Hönnunarupplýsingar: ófrádráttarbær VSK](design-details-nondeductible-vat.md)
 ## Prófa
-### [Skrá í ókeypis Dynamics 365 Business Central prufu](trial-signup.md)
+### [Skráning fyrir ókeypis prufuútgáfu af Dynamics 365 Business Central](trial-signup.md)
 ### [Dynamics 365 Business Central algengar spurningar um prufuútgáfu](trial-faq.md)
 ### [Prufuútgáfur og áskriftir (aðeins á ensku)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Undirbúðu þig undir viðskiptin](ui-get-ready-business.md)
