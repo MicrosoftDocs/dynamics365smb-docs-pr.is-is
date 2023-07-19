@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Yfirlit yfir reglufylgni
+# <a name="compliance-overview"></a>Yfirlit yfir reglufylgni
 
 Þetta efni inniheldur upplýsingar um reglufylgni í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
