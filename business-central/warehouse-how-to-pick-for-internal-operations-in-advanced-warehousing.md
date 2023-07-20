@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/02/2022
 ms.author: bholtorf
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Tínsla fyrir framleiðslu, samsetningu eða verk í ítarlegum vöruhúsastillingum
+# Tínsla fyrir framleiðslu, samsetningu eða verk í ítarlegum vöruhúsastillingum
 
 Val á íhlutum fyrir framleiðslu, vinnslur eða samsetningarpantanir fer eftir því hvernig vöruhúsið er sett upp sem Birgðageymsla. Frekari upplýsingar um  [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
@@ -31,22 +31,22 @@ Til að taka til eða færa íhluti fyrir upprunaskjöl í togtísku þarf að g
 |Samsetningarpöntun|Breyta stöðu í Útgefið.|
 |Verk | Breyta stöðu til að opna eða stofna verk með stöðuna opið strax.|  
 
-## <a name="production"></a>Framleiðsla
+## Framleiðsla
 
 Nota  **vöruhúsatínsluskjöl**  fyrir tiltektarframleiðsluíhluti í flæði til framleiðslu.
 
 Hægt er að nota eftirtaldar aðferðir fyrir birgðageymslu sem notar hólf til að færa vörur í opin vinnusalarhólf.
 
 * Fyrir staðsetningu sem notar beinan frágang og tínslu er farið eftir skrefunum í  [vöruafbrigðasamskipunum í ítarlegum vöruhúsaskilgreiningum](warehouse-how-to-move-items-in-advanced-warehousing.md) .
-* Fyrir aðra staði er fylgt stapunum í  [flutningsvörunum Óskipulögðum í Grunnvöruafbrigðum gr. laga um Vöruhúsaskilgreiningar](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) .
+* Fyrir aðra staði er fylgt skrefunum í Hreyfðu atriðunum sem  [eru óáætluð í skilgreiningum](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  grunnvöruhúsa.
 
-## <a name="assembly"></a>Samsetning
+## Samsetning  
 
 Nota  **vöruhúsatínsluskjöl**  til að færa samsetningarhluta á samsetningarsvæðið.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] styður saman á lager og setja saman gerðir af samsetningarflæðigerðum. Til að fræðast meira um setja saman-pöntun í vöruhús á útleið er farið í  [meðferð með því að setja saman vörur í Vöruhúsasendingum](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Verkefnastjórnun
+## Verkefnastjórnun  
 
 Nota  **vöruhúsatínsluskjöl**  til að velja vinnsluíhluti í flæði til verkefnastjórnunar.
 
@@ -55,7 +55,7 @@ Nota  **vöruhúsatínsluskjöl**  til að velja vinnsluíhluti í flæði til v
 >
 > Vinnslur styðja ekki ítarlegri skilgreiningar þar sem  **kveikt er á beini tínslu-**  og frágangsskipta.
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Tínsluskjöl stofnuð í fjöldavið tínsluvinnublaðið
+## Tínsluskjöl stofnuð í fjöldavið tínsluvinnublaðið
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað tínslu** og velja síðan viðkomandi tengil.  
 
@@ -85,9 +85,9 @@ Nota  **vöruhúsatínsluskjöl**  til að velja vinnsluíhluti í flæði til v
 
     Tilgreinið hvernig eigi að sameina tínslulínur í tínsluskjöl með því að velja einn af eftirfarandi valkostum.  
 
-    |Valkostur|Description|
+    |Valkostur|Heimildasamstæða|
     |-|-|
-    |Á vöruhúsaskjölum Fylgiskjal|Stofnar aðskilin tínsluskjöl fyrir vinnublaðslínur með sama upprunaskjali vöruhúss.|
+    |Á vöruhúsaskjölum Skjal|Stofnar aðskilin tínsluskjöl fyrir vinnublaðslínur með sama upprunaskjali vöruhúss.|
     |E. viðskm./lánardr./birgðag.|Stofnar aðskilin tínsluskjöl fyrir hvern viðskiptavin (vinnslur)|
     |Eftir vöru|Stofnar aðskilin tínsluskjöl fyrir hverja vöru í tínsluvinnublaðinu.|
     |Á frá-svæði|Stofnar aðskilin tínsluskjöl fyrir hvert svæði sem taka á vörurnar úr.|
@@ -96,7 +96,7 @@ Nota  **vöruhúsatínsluskjöl**  til að velja vinnsluíhluti í flæði til v
 
     Tilgreinið hvernig á að stofna tínsluskjöl með því að velja úr eftirfarandi valkostum.  
 
-    |Valkostur|Description|
+    |Valkostur|Heimildasamstæða|
     |-|-|
     |Max. Nr. Um tínslulínur|Stofnar tínsluskjöl sem hafa ekki fleiri en tilgreindan línufjölda í hverju skjali.|
     |Max. Nr. Doktors Tínslusource.|Stofnar tínsluskjöl sem ná yfir tiltekinn fjölda upprunaskjala.|
@@ -108,7 +108,7 @@ Nota  **vöruhúsatínsluskjöl**  til að velja vinnsluíhluti í flæði til v
 
 8. Velja hnappinn **Í lagi**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Vörur tínslur til framleiðslupöntunar, samsetningarpöntun, vinnsla
+## Vörur tínslur til framleiðslupöntunar, samsetningarpöntun, vinnsla
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tínslur** og velja síðan viðkomandi tengil.  
 
@@ -136,7 +136,7 @@ Nota  **vöruhúsatínsluskjöl**  til að velja vinnsluíhluti í flæði til v
     * [Sameina vörur](assembly-how-to-assemble-items.md)
     * [Skrá neyslu eða notkun fyrir verk](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-a-advanced-warehouse-configuration"></a>Birgðaveiðaíhlutir í ítarlegri samskipan vöruhúss
+## Birgðaveiðaíhlutir í ítarlegri samskipan vöruhúss
 
 Flúorskolun hefur áhrif á flæði íhluta í framleiðslu.  [Frekari upplýsingar um Flush-íhluti eru í samræmi við afköst](production-how-to-flush-components-according-to-operation-output.md) aðgerðar. Eftir því hvaða birgðaaðferð er valin er hægt að velja íhluti fyrir framleiðslu á eftirfarandi hátt:
 
@@ -144,7 +144,7 @@ Flúorskolun hefur áhrif á flæði íhluta í framleiðslu.  [Frekari upplýsi
 *  **Nota skal skjal vöruhúsatínslu**  til að skrá tínsluna fyrir vörur sem nota  **tínsluna + áfram**,  **tína + afturábak**  birgðaflæðiaðferð. Notkun íhluta mun gerast sjálfkrafa annað hvort þegar stöðu framleiðslupöntunarinnar er breytt eða með því að ræsa eða ljúka aðgerð. Allir nauðsynlegir íhlutir verða að vera tiltækir. Annars er hætt að bóka notkun fyrir þann íhlut.
 *  **Vöruhúsahreyfingskjal**  er notað án tilvísunar í upprunaskjali eða öðrum leiðum til að skrá hreyfingar þeirra íhluta sem nota  **framvirka**  eða  **afturvirku**  birgðaaðferðina. Íhlutir eru sjálfkrafa notaðir annaðhvort við breytingu á stöðu framleiðslupöntunar eða hefja eða enda á aðgerð. Allir nauðsynlegir íhlutir verða að vera tiltækir. Að öðrum kosti er hætt að bóka hreinsað notkun fyrir þann íhlut. Lærðu meira að  [flytja atriði](warehouse-move-items.md).
 
-### <a name="example"></a>Dæmi
+### Dæmi
 
 Þú ert með framleiðslupöntun fyrir 15 PCS af vöru SP-SCM1004. Sumar vörurnar á íhlutaliði verða að vera í Hreinsun handvirkt í notkunarbók. Aðrar vörur er hægt að taka til og sjálfvirkt með því að  **nota aðferðina tína + afturábak**  birgðaaðferð.  
 
@@ -167,15 +167,15 @@ Eftirfarandi mynd sýnir þegar reiturinn **Hólfkóti** á efnisþáttalista er
 
 :::image type="content" source="media/binflow.png" alt-text="Yfirlit um hvenær og hvernig reiturinn Hólfakóti er fylltur út.":::
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
-[Yfirlit yfir](design-details-warehouse-management.md)
-[vöruhúsastjórnun vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -32,11 +32,12 @@ Nánar um hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  netið fær 
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Dynamics 365 Business Central þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
+[Nýjungar og breyttar](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Dynamics 365 Business Central Geta](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Dynamics 365 Business Central Vegvísir](https://dynamics.microsoft.com/roadmap/business-central/)  
 [Dynamics 365 blogg](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 [Verðlagning Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
-[Dynamics 365 Business Central Samfélag](https://community.dynamics.com/business/)
+[Dynamics 365 Business Central samfélagsumferð](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

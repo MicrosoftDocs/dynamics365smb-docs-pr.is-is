@@ -4,7 +4,7 @@ description: Setja upp og keyra innflutning og vinnslu sölupöntunar frá Shopi
 ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
+ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: andreipa
 ms.author: andreipa
 ms.reviewer: bholtorf
@@ -30,9 +30,12 @@ Virkja sjálfvirkar **Stofna pantanir sjálfkrafa** til að búa til söluskjöl
 
 Ef gefa á söluskjal sjálfkrafa út skal kveikja á víxlun Söltunarinnar  **í**  sjálfvirka losun.
 
-Söluskjalið í  [!INCLUDE[prod_short](../includes/prod_short.md)]  tenglum við  Shopify  pöntunina og þá er hægt að bæta við reit sem er ekki þegar birtur á síðunni. Frekari upplýsingar um að bæta við reit er farið í  [til að ræsa sérsníða síðu í gegnum  **fylgiritið**  Sérsníða](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Ef hakað er í  **Shopify  reitinn Pöntunarnr. í Doc. línu**  eru þessar upplýsingar endurteknar í sölulínur af gerðinni  **comment**.
+Ef hakað er í  **Shopify  reitinn Pöntunarnr. í Doc. línu**  eru  [!INCLUDE [prod_short](../includes/prod_short.md)]  inn sölulínur af gerðinni  **Athugasemd**  við  Shopify  pöntunarnúmerið.
 
- **Í reitnum Forgangur**  skattsvæðis er hægt að stilla forgang að því hvernig velja á skattsvæðiskóta á aðsetur í pöntun. Í innfluttu  Shopify  pöntuninni eru upplýsingar um skatta. Skattar eru endurreiknaðir þegar söluskjal er stofnað þannig að mikilvægt er að VSK-/skattstillingarnar séu réttar í [!INCLUDE[prod_short](../includes/prod_short.md)]. Frekari upplýsingar um skatta er að finna í [Setja upp skatta Setja upp skatta fyrir Shopify tenginguna](setup-taxes.md).
+>[!NOTE]
+>Söluskjalið í  [!INCLUDE[prod_short](../includes/prod_short.md)]  tenglum við  Shopify  pöntunina og hægt er að bæta við  **Shopify  Pöntunarnr.** í reitinn til að lista-eða spjaldsíðurnar fyrir sölupantanir, reikninga og afhendingu. Frekari upplýsingar um að bæta við reit er farið í  [til að ræsa sérsníða síðu í gegnum  **fylgiritið**  Sérsníða](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). 
+
+ **Í reitnum Forgangur**  skattsvæðis er forgangsraðað hvernig á að velja kóta fyrir skattsvæði fyrir aðsetur pantana. Pöntunin sem flutt var  Shopify  inn inniheldur upplýsingar um skatta. Skattar eru endurreiknaðir þegar söluskjöl eru stofnuð og því mikilvægt að VSK-eða skattastillingar séu réttar [!INCLUDE[prod_short](../includes/prod_short.md)]. Til að fræðast meira um skatta er farið að  [Setja upp skatta fyrir  Shopify  tenginguna](setup-taxes.md).
 
 Tilgreinið hvernig á að vinna skil og endurgreiðslur:
 

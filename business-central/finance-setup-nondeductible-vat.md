@@ -65,7 +65,9 @@ Almennt er ekki hægt að draga virðisaukaskatt vegna einhverra innkaupa vegna 
 ## Sjá einnig .
 
 [Fjármálastjórnun](finance.md)  
+[Hönnunarupplýsingar: ófrádráttarbær VSK](design-details-nondeductible-vat.md)  
+[Nota ófrádráttarbæran VSK](finance-how-use-non-deductible-vat.md)  
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -20,7 +20,7 @@ Intrastat-skýrslugerð byggir á grunnreglum ESB sem gilda um öll lönd/svæð
 > [!NOTE]
 > Upplýsingar um Intrastat eiga ekki við um tilfærslu þjónustu milli landa/svæða. Þess í stað eiga upplýsingarnar aðeins við um vörur eins og vörur og eignir. Ef stjórnvöld krefjast þess að þú skráir tilfærslu á þjónustu milli landa/svæða skaltu nota  **aðgerðina Þjónustuskýrsla** .
 >
-> Þessi eiginleiki er í boði sem byrjar í nóvember 2022, sem App sem þú getur hlaðið niður af [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Ef nota á þessa aðgerð skal setja hana upp á  **síðunni um Framlengingarstjórnun** .
+> Þessi eiginleiki er tiltækur sem App sem hægt er að hlaða niður [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Ef nota á þessa aðgerð skal setja hana upp á  **síðunni um Framlengingarstjórnun** .
 
 > [!IMPORTANT]
 > Þessi grein fjallar um þá nýju Intrastat-reynslu sem eru í boði frá  [!INCLUDE[prod_short](includes/prod_short.md)]  útgáfu 21. Hafa skal samband við kerfisstjóra til að fá upplýsingar um hvaða útgáfu fyrirtækið á að nota og hvort eigi að virkja nýju virkjunina.
@@ -34,7 +34,7 @@ Intrastat-skýrslugerð byggir á grunnreglum ESB sem gilda um öll lönd/svæð
 > [!IMPORTANT]
 > Ekki er hægt að nota gömlu og nýju upplifanirnar samhliða. Áður en framlenging er virkjuð í vinnsluumhverfi mælum við með að þú prufið hana í sandkassa umhverfi með því að nota afrit af framleiðslugögnum þínum. Eftir að ný notendareynsla hefur verið virkjuð í vinnsluumhverfinu er ekki hægt að bakfæra gömlu Intrastat-aðgerðirnar.
 
-1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **aðgangsstjórnun** og veljið síðan tengda tengilinn.
+1.  :::image type="icon" source="media/ui-search/search_small.png" border="false"::: Velja skal teiknið, færa inn  **aðgangsstjórnun** og velja síðan tengda tengilinn.
 2.  **Á síðunni Feature Management**  skal velja línuna fyrir  **uppfærslu eiginleika: skipta skal fyrirliggjandi Intrastat-aðgerðum með nýju viðaukanum** Intrastat. Frekari upplýsingar um aðgangsstjórnun fást  [með því að virkja komandi aðgerðir fram í tímann](/dynamics365/business-central/dev-itpro/administration/feature-management).
 3.  **Í dálkinum virkja fyrir**  dálk skal velja  **alla notendur**.
 4. Lestu útskýringuna um hvernig kerfið verður uppfært og veldu  **svo Já**  til að samþykkja það.

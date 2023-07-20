@@ -43,13 +43,13 @@ Fyrir eftirfarandi dæmi er Ófrádráttarbær VSK virkjaður og eftirfarandi up
 
 Ný vara er með  **ndvat**  -STILLT sem VSK-vörubókunarflokk. Í kaupskjali, magn 1 og innkaupsverð Útlán án VSK  **1.000,00** = **.**  **·** = **·**
 
-Án tillits til þess hvaða valkostur er notaður eru niðurstöðurnar í VSK-færslunni þær sömu.
+Án tillits til þess hvaða valkostur er notaður eru niðurstöðurnar í  **VSK-færslunni**  þær sömu.
 
 | Gerð fylgiskjals | Gerð | Grunnur | Upphæð | Ófrádráttarbær VSK-stofn | Ófrádráttarbær VSK-upphæð |
 |---|---|---|---|---|---|
 | Reikningsfæra | Innkaup | 0.00 | 0.00 | 1,000.00 | 250.00 |
 
-Upplýsingarnar eru sýndar í virðisfærslunum.
+Upplýsingarnar eru sýndar í  **virðisfærslunum**.
 
 > [!NOTE]
 > Hægt er að  **virkja reitinn nota fyrir vörukostnað**  á  **uppsetningarsíðu**  VSK.
@@ -70,13 +70,13 @@ Upplýsingarnar eru sýndar í virðisfærslunum.
 
 Ný eign hefur þann stofnkostnað stofnkostnaðar að nota  **ndvat**  sem VSK-vörubókunarflokk. Í kaupskjali, magn 1 og innkaupsverð Útlán án VSK  **1.000,00** = **.**  **·** = **·**
 
-Án tillits til þess hvaða valkostur er notaður eru niðurstöðurnar í VSK-færslunni þær sömu.
+Án tillits til þess hvaða valkostur er notaður eru niðurstöðurnar í  **VSK-færslunni**  þær sömu.
 
 | Gerð fylgiskjals | Gerð | Grunnur | Upphæð | Ófrádráttarbær VSK-stofn | Ófrádráttarbær VSK-upphæð |
 |---|---|---|---|---|---|
 | Reikningsfæra | Innkaup | 0.00 | 0.00 | 1,000.00 | 250.00 |
 
-Upplýsingarnar eru sýndar í eignafærslum.
+Upplýsingarnar eru sýndar í  **eignafærslum**.
 
 > [!NOTE]
 > Hægt er að  **virkja svæðið fyrir kostnað**  eignar á  **síðunni VSK-Grunnur** .
