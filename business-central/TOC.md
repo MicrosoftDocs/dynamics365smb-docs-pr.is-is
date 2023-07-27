@@ -213,7 +213,7 @@
 ## Hjálp og stuðningur
 ### [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)
 ### [Skoðaðu myndbandasafnið okkar](across-videos.md)
-### [Fá tæknilega aðstoð](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### [Fá tæknilega aðstoð](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 <!--## Microsoft Learn training
 ### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
