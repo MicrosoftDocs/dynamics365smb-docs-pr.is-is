@@ -11,7 +11,7 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
 ms.date: 03/24/2022
 ms.author: edupont
 ---
-# Stofnun númeraraða
+# <a name="create-number-series"></a>Stofnun númeraraða
 
 Fyrir hvert fyrirtæki sem þú setur upp þarftu að úthluta einstökum kennitölum við hluti eins og aðalbókarreikninga, viðskiptavinar- og seljanda, reikninga og önnur skjöl. Númeraröð er ekki aðeins mikilvæg fyrir auðkenningu. Vel unnið númerakerfi gerir einnig auðveldara að stýra og greina fyrirtækið og getur fækkað villum sem upp koma í gagnafærslu.
 
@@ -32,10 +32,10 @@ Númerakerfi er stofnað með því að setja upp einn eða fleiri kóta fyrir h
 
 Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagna með því að nota númeraraðatengsl, til dæmis til að nota mismunandi númeraraðir fyrir mismunandi vöruflokka.
 
-## Eyður í númeraröðum
+## <a name="gaps-in-number-series"></a>Eyður í númeraröðum
 Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_short.md)] eru fjárhagsfærslur sem þarf að nota í röð númeraraðar. Viðskiptamannaspjald, sölutilboð og vöruhúsaaðgerðir eru dæmi um færslur sem eru úthlutaðar númeri úr númeraröðum en eru ekki háðar fjárhagsendurskoðun og/eða er hægt að eyða þeim. Til slíkrar númeraraðar er hægt að velja **Leyfa eyður í númeraröðum** í gátreitnum á síðunni **Númeraröð nr.**. Einnig er hægt að breyta þessari stillingu eftir að búið er að stofna númeraröðina. Frekari upplýsingar eru í [Búa til nýja númeraröð](ui-create-number-series.md#to-create-a-new-number-series).
 
-## Hegðun nr. reitur á skjölum og kortum
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Hegðun nr. reitur á skjölum og kortum
 
 Á sölu-, innkaupa og flutningsskjölum og á öllum kortum, **Nr.** hægt er að fylla út í reitinn sjálfkrafa úr fyrirframskilgreindum númeraröðum eða bæta honum við handvirkt. Undir ákveðnum kringumstæðum er **nr.** reiturinn ósýnilegur til að koma í veg fyrir að þú breytir honum.  
 
@@ -57,7 +57,7 @@ Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_sh
 > [!NOTE]  
 > Ef þú þarft að virkja handvirka númerun á til dæmis nýjum birgðaspjöldum sem hafa verið stofnuð með gagnaflutningsferli sem hefur falið **Nr.** sjálfgefið, þá er farið á síðuna **Uppsetning birgða** og valinn reiturinn **Vörunr.** til að opna og stilla tengda númeraröð á **Handfærð nr.röð**.
 
-## Til að búa til nýja númeraröð
+## <a name="to-create-a-new-number-series"></a>Til að búa til nýja númeraröð
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Númeraraðir** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.  
@@ -71,7 +71,7 @@ Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_sh
 
 Hægt er að úthluta númeraröðum á sniðmátin sem þú setur upp fyrir mismunandi gerðir af viðskiptamönnum og lánardrottnum sem sölufólkið þitt og kaupendur bæta oftast við [!INCLUDE [prod_short](includes/prod_short.md)]. Í því tilviki skaltu setja upp viðkomandi númeraraðir, tengja þær í gegnum vensl og bæta síðan fyrstu númeraröðinni í viðkomandi vensl við viðkomandi uppsetningarsíðu. Síðan, þegar notandi býr til viðskiptamann, velur hann viðeigandi sniðmát og nýi viðskiptamaðurinn fær úthlutað númeri úr númeraröðinni sem er skilgreind fyrir það sniðmát.  
 
-## Stofnun tengsla milli númeraraða
+## <a name="to-create-relationships-between-number-series"></a>Stofnun tengsla milli númeraraða
 
 Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað. Þegar komið er á tengslum milli flokka af númeraröðum eru allar skyldar raðir tengdar einum númeraraðarkóta. Síðan getur þú slegið þann kóða inn í reit í flýtiflipanum **Tölusetning** á einni viðeigandi uppsetningarsíðu, t.d. **Sölugrunnur**.  
 
@@ -83,7 +83,7 @@ Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund g
 
 Þegar eitthvað er sett upp eftir þetta sem þarfnast númers er hægt að nota tengslin sem voru stofnuð til að velja úr skyldum númeraröðum.
 
-## Til að setja upp hvar númeraröð er notuð
+## <a name="to-set-up-where-a-number-series-is-used"></a>Til að setja upp hvar númeraröð er notuð
 
 Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölustaðinn. Skrefin eru svipuð fyrir önnur svæði.  
 
@@ -92,9 +92,9 @@ Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölu
 
 Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkomandi korti eða skjali, í samræmi við þær stillingar sem þú gerðir á númeraröðinni.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

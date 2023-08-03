@@ -11,14 +11,14 @@ ms.author: jswymer
 ms.custom: bap-template
 ---
 
-# Deila færslum Business Central og síðutenglum í Microsoft Teams
+# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Deila færslum Business Central og síðutenglum í Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 [!INCLUDE [prod_short](includes/prod_short.md)] býður upp á nokkrar leiðir til að deila gögnum úr Business Central beint í Microsoft Teams samtal:
 
 <!-- 
-## Overview
+## <a name="overview"></a>Overview
 In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
 The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
@@ -36,13 +36,13 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 Eftirfarandi hlutar útskýra mismunandi leiðir í smáatriðum.
 
-## Hafa með og skoða Business Central-spjald í samtali í Teams
+## <a name="include-and-view-a-business-central-card-in-a-teams-conversation"></a>Hafa með og skoða Business Central-spjald í samtali í Teams
 
 Með forriti Business Central fyrir Teams er hægt að afrita tengli úr hvaða Business Central-færslu sem er, t.d. viðskiptavina- eða sölupöntun, og líma tengilinn í samtal í Teams. Forritið tengir Microsoft Teams við viðskiptagögnin í [!INCLUDE [prod_short](includes/prod_short.md)]\. Því næst er tengillinn stækkaður í gagnvirkt spjald sem birtir upplýsingar um færsluna. Þegar á samtalinu stendur getur þú og samstarfsfólk þitt skoðað frekari upplýsingar um færsluna, breytt gögnum og gripið til aðgerða &mdash; án þess að fara úr Teams.
 
 [![Samþætting Teams við Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
-### Frumskilyrði
+### <a name="prerequisites"></a>Frumskilyrði
 
 - Þú hefur aðgang að Microsoft Teams.
 - Þú hefur sett upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið  í Teams. Frekari upplýsingar er að finna í [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)
@@ -50,7 +50,7 @@ Með forriti Business Central fyrir Teams er hægt að afrita tengli úr hvaða 
 > [!NOTE]
 > Allir þátttakendur í Teams-spjalli geta skoðað spjöld fyrir færslur Business Central sem þú sendir inn á spjallið. En til að skoða frekari upplýsingar um færslur með því að nota hnappana **Upplýsingar** eða **Sprettigluggi** á spjaldi, þurfa þeir að fá aðgang að [!INCLUDE [prod_short](includes/prod_short.md)]. Nánari upplýsingar er að finna í [Stjórnun Microsoft Teams samþættingar](admin-teams-integration.md#minimum-requirements-1).
 
-### Hafa með Business Central-spjald í samtali í Teams
+### <a name="include-a-business-central-card-in-a-teams-conversation"></a>Hafa með Business Central-spjald í samtali í Teams
 
 1. Skráðu þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] með vafranum.
 2. Opnið færsluna sem á að deila.
@@ -79,7 +79,7 @@ Með forriti Business Central fyrir Teams er hægt að afrita tengli úr hvaða 
     > Eftir að kortið birtist og áður en **Senda** er valið er hægt að eyða límdri vefslóð ef þú vilt.
 9. Til að fá frekari upplýsingar eða gera breytingar á færslunni sem birtist í spjaldinu skal velja **Upplýsingar**. Nánari upplýsingar er að finna í næsta hluta.
 
-### Skoða upplýsingar spjalds
+### <a name="view-card-details"></a>Skoða upplýsingar spjalds
 
 Þegar búið er að senda spjald á samtal, geta allir þátttakendur með [viðeigandi heimildir](admin-teams-integration.md#permissions) valið **Upplýsingar** til að opna glugga sem sýnir frekari upplýsingar um færsluna&mdash;og hugsanlega geta gert breytingar á henni. Það skiptir ekki máli hvort það sért þú sem sendir spjaldið eða sá sem fær spjaldið. Eiginleikinn **Upplýsingar** er sérstaklega gagnlegur viðtakendum af því að hann veitir þeim samanteknar, hnitmiðaðar upplýsingar um færsluna á fljótlegan hátt.
 
@@ -92,20 +92,20 @@ Hér eru nokkur atriði sem vert er að hafa í huga þegar unnið er með uppl�
 
 Frekari upplýsingar um hvernig nota á spjöld og upplýsingar spjalds er að finna í [Teams - Algengar spurningar](teams-faq.md).
 
-## <a name="share-link"></a>Deila tengli á síðu úr Business Central í Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams"></a><a name="share-link"></a>Deila tengli á síðu úr Business Central í Teams
 
 Beint af flestum innheimtusíðum eins og **Vörusíðum** og upplýsingasíðum eins og **Birgðaspjaldi** er hægt að senda tengil á síðuna til tiltekinna viðtakenda í samtali í Teams. Til dæmis er hægt að deila tengli á síað yfirlit yfir færslurnar þínar. Viðtakendur geta þá valið tengilinn til að opna síðuna í [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!Deilingarvalmynd sýnd í spjaldi.](media/teams-share-link-v2.png "Deilingarvalmyndin sýnd á spjaldi.")](media/teams-share-link-v2.png#lightbox)
 
-### Frumskilyrði
+### <a name="prerequisites-1"></a>Frumskilyrði
 
 - Þú hefur aðgang að Microsoft Teams.
 - (Valkvæmt) Þú hefur sett upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið  í Teams. 
 
   Með forritið uppsett munu skilaboð sem þú sendir með tenglinum einnig innihalda samandregið spjald fyrir síðuna. Frekari upplýsingar um uppsetningu forritsins er að finna í [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md).
 
-### Deila tengli
+### <a name="share-a-link"></a>Deila tengli
 
 1. Í [!INCLUDE [prod_short](includes/prod_short.md)]\, skal opna síðuna sem á að deila.
 2. Efst á síðunni skal velja ![!Deila á aðrar forritsaðgerðir á síðum.](media/share-icon.png) síðan **Deila með Teams**.
@@ -116,7 +116,7 @@ Beint af flestum innheimtusíðum eins og **Vörusíðum** og upplýsingasíðum
    Bættu við frekari upplýsingum ef þú vilt og veldu svo **Deila**.
 6. Tenglinum hefur nú verið deilt. Ef þú vilt fara í samtalið skaltu velja **Fara í Teams**.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  
