@@ -11,7 +11,7 @@ ms.search.form: '1665,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="the-ceridian-payroll-extension"></a>Ceridian Payroll viðbót
+# Ceridian Payroll viðbót
 
 Fyrir launagreiðslur og tengdar færslur verður að flytja inn og birta fjárhagslegar færslur úr launaveitu í fjárhag.
 
@@ -19,7 +19,7 @@ Fyrir þetta þarf fyrst að flytja inn skrá úr launaveitu yfir á síðuna **
 
 Eftirlitsgreiðslan um Ceridian Payroll gerir þér kleift að flytja inn launatölvur frá þjónustu Ceridian Power / Payroll (US) og Ceridian PowerPay (Kanada).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum ](ui-extensions.md)  
 [Fjármál](finance.md)  

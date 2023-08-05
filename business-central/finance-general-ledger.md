@@ -11,11 +11,11 @@ ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Að skilja fjárhag og bókhaldslykil
+# Að skilja fjárhag og bókhaldslykil
 
 Fjárhagur geymir fjárhagsgögn og bókhaldslykillinn sýnir reikningana sem allar fjárhagsfærslur eru bókaðar í. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðan bókhaldslykil sem er tilbúin til að styðja þitt fyrirtæki.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a>Uppsetning Uppsetning fjárhags og uppsetning almenns bókunargrunnur
+## Uppsetning Uppsetning fjárhags og uppsetning almenns bókunargrunnur
 
 Uppsetning aðalbókarinnar er kjarninn í fjárhagslegum ferlum vegna þess að það skilgreinir hvernig þú sendir gögn. Tvær síður gegna einkum mikilvægu hlutverki í að stilla fjármálaferli þín:  
 
@@ -41,7 +41,7 @@ Uppsetning aðalbókarinnar er kjarninn í fjárhagslegum ferlum vegna þess að
 
   Opna síðuna [hér](https://businesscentral.dynamics.com/?page=314).
 
-## <a name="the-chart-of-accounts"></a>Bókhaldslykillinn
+## Bókhaldslykillinn
 
 Skýringin á reikningum sýnir allar almennar bókhaldsreikningar. Úr bókhaldslyklinum geturðu gert hluti eins og:  
 
@@ -53,7 +53,7 @@ Skýringin á reikningum sýnir allar almennar bókhaldsreikningar. Úr bókhald
 
 Þú getur bætt við, breytt eða eytt almennum bókhaldsreikningum. Til að koma í veg fyrir misræmi geturðu þó ekki eytt almennri aðalbókareikning ef gögnin eru notuð í töflureikningi. Einnig, frá og með 2022 útgáfutímabili 2, geturðu einnig lokað á eyðingu reikninga fyrir slysni á viðkvæmum tímabilum. Frekari upplýsingar er að finna í hlutanum [Reikningum eytt](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="account-categories"></a>tegundir lykla
+## tegundir lykla
 
 Þú getur sérsniðið uppbyggingu reikningsskila þinnar með því að kortleggja aðalbókarreikninga í reikningsflokkum.  
 
@@ -63,7 +63,7 @@ Síðan **Fjárhagsreikningsflokkar** sýnir flokka og undirflokka og fjárhagsr
 
 Þú getur skilgreint hvort tilteknar gerðir af skýrslum verði að innihalda reikninga í hverjum undirflokki. Þú getur notað lykiltegundir til hjálpa til við að skilgreina snið fjárhagsskýrslna.  
 
-### <a name="example"></a>Dæmi
+### Dæmi
 
 Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir *Reiðufé* undir *Núgildandi eignir*. Ef þú vilt að stöðuyfirlitið taki til greina handbært fé og ávísanir þarftu að taka eftirfarandi skref:
 
@@ -90,17 +90,17 @@ Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir *Reiðufé* und
 > [!NOTE]
 > Ef þú stofnar fjárhagsreikning án þess að úthluta reikningsflokki, þegar þú úthlutar reikninginn á bókunarflokk mun [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa úthluta reikningsflokknum úr fjárhagsreikningnum strax fyrir ofan reikninginn í bókhaldslyklinum þínum. Til að taka með nýja reikninginn í fjárhagsskýrslurnar þarftu hins vegar að velja aðgerðina **Búa til fjárhagsskýrslur** á síðunni **Fjárhagsreikningsflokkar**. Þú getur einnig opnað síðu fjárhagsreikningaspjalds, tilgreint reikningsflokkinn og síðan endurgert fjárhagsskýrsluna.
 
-## <a name="get-a-quick-overview"></a>Yfirsýn yfir efni vörulistans
+## Yfirsýn yfir efni vörulistans
 
 Á síðu **bókhaldslykla** eru sýndir reikningar í stigveldislista sem býður upp á skjótan aðgang að helstu upplýsingum fyrir hvern reikning. Listinn er hins vegar fastur og ef þú ert með marga reikninga gætirðu þurft að fletta til að skoða mismunandi reikninga. Ef þú vilt aðeins fá fljótlegt yfirlit yfir grunnupplýsingar, t.d. nettóbreytingar og nettóstöður, er síðan **Yfirlit bókhaldslykils** gagnleg leið til þess. Útlit dálksins á síðunni er nú það sama og þú finnur á síðunni **Bókhaldslykill** (þó með færri dálkum) þannig að þú þarft ekki að læra inn á uppsetninguna aftur. Þú getur stækkað eða dregið saman stigveldistigin til að þjappa saman yfirlitinu. Til að auðvelda að fara á milli síðna er síðan **Yfirlit bókhaldslykils** aðgengileg á síðu **bókhaldslykils**.
 
-## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Aðgangur til að stofna og breyta reikningum og reikningsflokkum
+## Aðgangur til að stofna og breyta reikningum og reikningsflokkum
 
 Í litlu fyrirtæki eins og CRONUS sýnifyrirtækinu geta flestir notendur breytt bókhaldslyklum nema notendur með TEAM MEMBER-leyfi. Stærri fyrirtæki nota þó yfirleitt hlutverk og heimildir til að takmarka breytingaraðgang að bókhaldslyklum. Ef þú ert stjórnandi eða ert með hlutverkið *Viðskiptastjórnandi* eða *Endurskoðandi* geturðu stjórnað heimildum notanda til að gefa rétta fólkinu aðgang að viðeigandi töflum. Frekari upplýsingar er að finna í hlutanum [Að fá yfirlit yfir heimildir notanda](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/business-central-configure-general-ledger-setup/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/business-central-configure-general-ledger-setup/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp eða breyta bókhaldslykli](finance-setup-chart-accounts.md)  
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  

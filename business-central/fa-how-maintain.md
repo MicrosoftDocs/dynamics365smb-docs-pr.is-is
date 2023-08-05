@@ -11,7 +11,7 @@ ms.search.form: '5642, 5625'
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="maintain-fixed-assets"></a>Umsjón eigna
+# Umsjón eigna
 
 Viðhaldskostnaður er reglubundinn kostnaður sem varið er til þess að viðhalda virði eigna. Ólíkt viðbótarfjárfestingum eykur hann ekki verðgildi.
 
@@ -19,7 +19,7 @@ Hægt er að skrá og viðhalda dagréttri skrá um viðhald og þjónustu við 
 
 Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er að nota keyrsluna **Endurmat eigna** til að endurreikna viðhaldskostnað.
 
-## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Skrá viðhaldsvinna á eign
+## Skrá viðhaldsvinna á eign
 
 Í hvert sinn sem viðhaldi hefur verið framkvæmt, eins og þjónustuheimsókn, er hægt að skrá það á viðeigandi eign á síðunni **Skráning viðhalds**.  
 
@@ -27,7 +27,7 @@ Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er a�
 2. Valin er eignin sem á að skrá viðhald fyrir og veldu síðan aðgerðina **skráning viðhalds**.
 3. Fyllt er út í reiti eftir því sem á við á síðunni **Skráning viðhalds**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Bóka viðhaldskostnað úr fjárhagsbók eigna
+## Bóka viðhaldskostnað úr fjárhagsbók eigna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afskriftabókarlisti** og velja síðan viðkomandi tengil.  
 2. Veljið afskriftabókina sem er tengd eigninni og veljið síðan aðgerðina **breyta**.
@@ -41,7 +41,7 @@ Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er a�
     >   Skref 7 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** síðunni fyrir bókunarflokkur eigna, inniheldur reiturinn **Viðhaldsreikningur** debetreikning fjárhags og reiturinn **Mótreikningur viðhalds** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir uppfærslu. Frekari upplýsingar er að finna í [Að setja upp bókunarflokka eigna](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Valið er **Bóka** aðgerðin.
 
-## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Til að fylgja eftir þjónustuheimsóknum eigna:
+## Til að fylgja eftir þjónustuheimsóknum eigna:
 
 Þú getur Prenta skýrsluna **Viðhald - Næsta þjónusta** til að skoða fyrir hvaða eignir er búið að áætla þjónustuheimsóknir. Einnig er hægt að nota þessa skýrslu þegar reiturinn **Næsta þjónustudags.** á eignspjöldunum er uppfærður.  
 
@@ -49,7 +49,7 @@ Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er a�
 2. Reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru fylltir út.  
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.
 
-## <a name="to-monitor-maintenance-costs"></a>Fylgst með viðhaldskostnaði
+## Fylgst með viðhaldskostnaði
 
 Hægt er að skoða viðhaldskostnaðinn þegar skoðaðar eru upplýsingar um eign.  
 
@@ -60,7 +60,7 @@ Hægt er að skoða viðhaldskostnaðinn þegar skoðaðar eru upplýsingar um e
 
 Síðan **viðhaldsbókarfærslur** opnast og sýnir færslur sem mynda upphæðina í reitnum **viðhald**.
 
-## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Skoða eða prenta viðhaldskostnað fyrir margar eignir
+## Skoða eða prenta viðhaldskostnað fyrir margar eignir
 
 Í skýrslunni **Viðhald - Greining** er hægt er að velja að sjá viðhalds byggt á einn, tvo eða þrjá viðhaldskóta á tilgreindri dagsetningu eða tímabili. Einnig er hægt að sjá samtölu allra valinna eigna eða samtölu hverrar eignar fyrir sig.
 
@@ -68,7 +68,7 @@ Síðan **viðhaldsbókarfærslur** opnast og sýnir færslur sem mynda upphæð
 2. Fyllið inn í svæðin eftir þörfum.
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.
 
-## <a name="to-view-maintenance-ledger-entries"></a>Skoðun viðhaldsfærslna:
+## Skoðun viðhaldsfærslna:
 
 Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbókarfærslurnar.  
 
@@ -76,7 +76,7 @@ Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbó
 2. Valin er eignin sem á að skoða fjárhagsfærslur fyrir og veldu síðan aðgerðina **afskriftabækur**.
 3. Á síðunni **Eignaafskriftabækur** er valin viðeigandi eignaafskriftabók og síðan er aðgerðin **Viðhaldsbókarfærslur** valin.
 
-## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Skoða eða prenta viðhaldsbókarfærslur fyrir margar eignir
+## Skoða eða prenta viðhaldsbókarfærslur fyrir margar eignir
 
 Í **Viðhald - Sundurliðun** skýrslu er hægt að skoða eða prenta viðhaldsbókarfærslur fyrir eina eða margar eignir.  
 
@@ -84,9 +84,9 @@ Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbó
 2. Fyllið inn reitina eftir þörfum.
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  

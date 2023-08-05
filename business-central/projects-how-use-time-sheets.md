@@ -11,7 +11,7 @@ ms.search.form: '950, 951, 973'
 ms.date: 03/01/2022
 ms.author: edupont
 ---
-# <a name="use-time-sheets"></a>Nota Vinnuskýrslur
+# Nota Vinnuskýrslur
 
 Hægt er að nota vinnuskýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] til að rekja fjarvist og til að rekja tíma og tilföng sem eytt er í verkefni. Með stjórnun tíma er hægt að bera kennsl á vandamál snemma og forðast tafir eða umframkostnað. Með vinnuskýrslu getur starfskraftur auðveldlega skráð tímanotkun fyrir einstakling eða væl og stjórnandi getur á auðveldan hátt skoðað notkun og úthlutun. Í þessari grein er því lýst hvernig skal stofna vinnuskýrslu, skilgreina vinnutegundir, fylla út í vinnuskýrsluna og senda hana inn til samþykkis.  
 
@@ -24,7 +24,7 @@ Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir verk er hægt að
 > [!TIP]
 > Frá og með 2021 útgáfutímabili 2 er hægt að stjórna úthlutuðum vinnuskýrslum í fartæki. Stjórnandinn þinn gæti samt sem áður þurft að virkja eiginleikann **Eiginleikauppfærsla: Ný upplifun fyrir vinnuskýrslu** á síðu [Eiginleikastjórnunar](https://businesscentral.dynamics.com/?page=2610) til að nota þennan möguleika. Frekari upplýsingar eru í [Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md).
 
-## <a name="to-create-time-sheets"></a>Til að stofna vinnuskýrslur
+## Til að stofna vinnuskýrslur
 
 Hægt er að nota keyrsluna **Stofna vinnuskýrslur** til að setja upp vinnuskýrslur fyrir tilgreindan fjölda tímabila eða vikna. Eigandi vinnuskýrslunnar getur þá opnað hana og skráð tíma sem eytt hefur verið í verk. Einnig er hægt [tímasetja runuvinnsluna á að keyra sjálfkrafa](ui-work-report.md#ScheduleReport).  
 
@@ -67,7 +67,7 @@ Til að senda inn vinnuskýrslu fyrir vinnuviku þar sem þú vannst við að hr
 >
 > Veldu vinnutegundina með því að velja hnappinn :::image type="icon" source="media/assist-edit-icon.png" border="false"::: í reitnum **Lýsing**, með því að velja aðgerðina **Upplýsingar um aðgerðir** og síðan tilgreina þær á síðunni sem opnast eða með því að velja þær í reitnum **Kóði vinnutegundar** eða í reitnum **Tegund fjarvistarkóða**. Í slíku tilfelli geturðu sleppt hlutann [Að skilgreina vinnutegundir og bæta einni við vinnuskýrslu](#to-define-work-types-and-add-one-to-a-time-sheet).  
 
-## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Til að endurnýta vinnuskýrslulínur í öðrum vinnuskýrslum
+## Til að endurnýta vinnuskýrslulínur í öðrum vinnuskýrslum
 
 Ef upplýsingar tímablaðs haldast óbreyttar á milli tímabila má spara tíma með því að afrita línur úr fyrra tímabili. Síðan er tímanotkunin fyrir nýja tímabilið færð inn.
 
@@ -77,14 +77,14 @@ Ef upplýsingar tímablaðs haldast óbreyttar á milli tímabila má spara tím
 
 Línurnar eru afritaðar, með upplýsingum eins og gerð og lýsingu. Til dæmis, ef línurnar eru tengdar við starf, er **Verk nr.** afritað. Allar afritað línur eru með stöðuna **Opna**. Þá er hægt að breyta línunum eftir þörfum.
 
-## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Til að afrita áætlunarlínur verks á vinnuskýrslu
+## Til að afrita áætlunarlínur verks á vinnuskýrslu
 Eftirfarandi ferli lýsir því hvernig eigi að flýtistofna verkáætlunarlínur á vinnuskýrslu.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnuskýrslur** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Vinnuskýrslur** skal velja vinnuskýrslu fyrir viðeigandi tímabil.  
 3. Veljið aðgerðina **Stofna línur úr verkáætlun**. Allar verkáætlunarlínur í tímabili vinnublaðsins eru afritaðar í vinnublaðið fyrir manneskjuna eða vélina í **Tilfang nr.** reitinn á vinnublaðsins.
 
-## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Til að skilgreina tegundir vinnu og bæta tegund vinnu við vinnuskýrslu
+## Til að skilgreina tegundir vinnu og bæta tegund vinnu við vinnuskýrslu
 
 Hægt er að skilgreina tegund vinnu fyrir allar línur í vinnuskýrslu fyrir þjónustupantanir, vinnupantanir og forða. Með þeim hætti er hægt að bæta við upplýsingum sem þarf til að rukka viðskiptavininn og fyrir mismunandi tegundir af vinnu.  
 
@@ -98,7 +98,7 @@ Hægt er að skilgreina tegund vinnu fyrir allar línur í vinnuskýrslu fyrir �
 > [!TIP]
 > Sambærileg skref eiga við þegar fjarvistarkóðar eru skilgreindir.
 
-## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>Til að fylla út vinnuskýrslulínur og senda til samþykktar
+## Til að fylla út vinnuskýrslulínur og senda til samþykktar
 
 Vinnuskýrsluskráning er rakin í klukkustundum, sem er stöðluð grunnmælieining fyrir forða. Sjálfgefið er að vinnuskýrsla sýni sameiginlega vinnudaga frá mánudegi til föstudags.  
 
@@ -129,7 +129,7 @@ Vinnuskýrsluskráning er rakin í klukkustundum, sem er stöðluð grunnmæliei
     >   Stundum gæti stjórnandi hafnað tímaskýrslulínu sem lögð er fram til samþykktar. Ef lína hefur stöðuna **Hafnað** er hægt að gera breytingar í línunni og velja **Senda** aftur.  
 6. Velja hnappinn **Í lagi**.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Til að samþykkja eða hafna vinnuskýrslu
+## Til að samþykkja eða hafna vinnuskýrslu
 Senda þarf vinnuskýrslu til samþykkis áður en hægt er að nota hana. Hægt er að samþykkja og hafna einstaka línum í vinnuskýrslu eða senda þær aftur til sendanda fyrir frekari aðgerðir. Hægt er að samþykkja vinnuskýrslu með tvenns konar hætti:
 
 * Vinnuskýrslustjóri getur samþykkt allar vinnuskýrslur.
@@ -148,7 +148,7 @@ Senda þarf vinnuskýrslu til samþykkis áður en hægt er að nota hana. Hægt
 
 Þegar búið er að samþykkja eða hafna vinnuskýrslu er ekki hægt að breyta henni nema hún sé enduropnuð fyrst. Eftirfarandi ferli lýsir því hvernig á að enduropna vinnuskýrslu sem hefur verið samþykkt eða hafnað.
 
-## <a name="to-reopen-a-time-sheet"></a>Til að enduropna vinnuskýrslu
+## Til að enduropna vinnuskýrslu
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnuskýrslur verkstjóra** eða **Vinnuskýrslur** og velja síðan viðkomandi tengil.
 2. Opnið vinnuskýrslu úr listanum.  
 
@@ -157,14 +157,14 @@ Senda þarf vinnuskýrslu til samþykkis áður en hægt er að nota hana. Hægt
 3. Á síðunni **Vinnuskýrsla** skal velja aðgerðina **Opna aftur** og síðan aðgerðina **Allar sendar línur** til að opna aftur allar línur eða aðgerðina **Aðeins valdar línur** til að opna aftur aðeins línurnar sem eru valdar á síðunni **Vinnuskýrsla**.
 4. Velja hnappinn **Í lagi**. Staða vinnuskýrslulínunnar eða -línanna breytist í **Sent**.  
 
-## <a name="to-view-and-approve-time-sheets-by-job"></a>Að skoða og samþykkja vinnuskýrslur eftir verki
+## Að skoða og samþykkja vinnuskýrslur eftir verki
 
 Í verki er hægt að tilgreina manneskju sem ber ábyrgð á verkinu. Þær upplýsingar eru tengdar við línur í vinnuskýrslu, og þær má nota til að setja fram lista yfir vinnuskýrslur sem verkefnastjóri verður að endurskoða og samþykkja. Til dæmis getur verkstjóri teymis verið ábyrgur fyrir ákveðnum vinnslum í fyrirtækinu. Í því tilviki ætti að tilgreina stjórnanda sem **Ábyrgðaraðila** á verkspjaldinu. Í þessu upplýsingayfirliti vinnuskýrslna, er hægt að skoða verkhlutana sem tengjast starfi og magni tíma sem notaður er.
 
 > [!NOTE]
 > Til að geta samþykkt vinnuskýrslur í glugganum **Vinnuskýrsla stjórnanda eftir verki**, þarf fyrst að velja valkostinn **Vinnuskýrsla eftir samþykkt verks** á síðunni **Uppsetning tilfanga**. Frekari upplýsingar eru í [Setja upp tilföng](projects-how-setup-resources.md).
 
-### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Að samþykkja eða hafna vinnuskýrslu eftir verki
+### Að samþykkja eða hafna vinnuskýrslu eftir verki
 
 1. Í reitinn **Leit** skal færa inn **Vinnuskýrsla stjórnanda** og velja síðan viðkomandi tengil. [!INCLUDE[prod_short](includes/prod_short.md)] birtir lista yfir vinnuskýrslulínur tengdar verkunum sem voru í ábyrgð notanda.
 2. Veldu aðgerðina **Samþykkja** og síðan aðgerðina **Allar sendar línur** til að samþykkja allar línur eða aðgerðina **Aðeins valdar línur** til að samþykkja aðeins línurnar sem eru valdar á síðunni **Vinnuskýrsla**.
@@ -178,7 +178,7 @@ Senda þarf vinnuskýrslu til samþykkis áður en hægt er að nota hana. Hægt
 > [!NOTE]
 > Þegar búið er að samþykkja eða hafna vinnuskýrslulínu eftir verki er ekki hægt að enduropna eða breyta þeim í glugganum **Vinnuskýrsla**.
 
-## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Til að bóka vinnuskýrslulínur í forðabók
+## Til að bóka vinnuskýrslulínur í forðabók
 Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir forða, er hægt að bóka þær á viðeigandi forðabók.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Forðabækur** og velja síðan viðkomandi tengil.  
@@ -188,7 +188,7 @@ Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir forða, er hægt 
 5. Valið er **Bóka** aðgerðin.  
 6. Til að staðfesta bókunina skal velja aðgerðina **Verkfærslur**. Síðan **Forðafærslur** opnast og birtir niðurstöður á bókun forðabókar.
 
-## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Til að bóka vinnuskýrslulínur í verkbók
+## Til að bóka vinnuskýrslulínur í verkbók
 Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir verk, er hægt að bóka þær á viðeigandi verkbók.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.  
@@ -201,7 +201,7 @@ Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir verk, er hægt a�
 5. Valið er **Bóka** aðgerðin.  
 6. Til að staðfesta bókunina skal velja aðgerðina **Verkfærslur**. Síðan **Verkfærslur** opnast og birtir niðurstöður á bókun forðabókar.
 
-## <a name="to-archive-time-sheets"></a>Til að færa vinnuskýrslur í safn
+## Til að færa vinnuskýrslur í safn
 Þegar búið er að bóka vinnuskýrslu, er hægt að safna þeim fyrir seinni tíma tilvísun. Bóka þarf allar vinnuskýrslulínur áður en hægt er að færa vinnuskýrslu í skjalasafn.
 
 > [!NOTE]  
@@ -212,7 +212,7 @@ Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir verk, er hægt a�
 3. Á síðunni **Færa vinnuskýrslur í safn** skal fylla út reitina eftir þörfum og velja síðan hnappinn **Í lagi**.  
 4. Til að fara yfir vinnuskýrslur í safni skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnuskýrslusafn** eða **Vinnuskýrslusafn** verkstjóra og velja síðan viðkomandi tengil.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Fjármál](finance.md)  

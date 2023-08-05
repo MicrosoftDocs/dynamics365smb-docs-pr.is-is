@@ -9,7 +9,7 @@ ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
-# <a name="configure-ai-powered-item-marketing-text-preview-with-copilot"></a>Skilgreina markaðstexta með AI-tilbúinni vöru (Forskoðun) með Copilot
+# Skilgreina markaðstexta með AI-tilbúinni vöru (Forskoðun) með Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -20,28 +20,28 @@ ms.custom: bap-template
 
 Ef annarri hvorri þessara þarfa er ekki fullnægt verður aðgerðin ekki tiltæk.
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
 Þú notar  [forskoðunarútgáfu](ai-preview-getstarted.md)  af Business Central sem er virkjaður fyrir Copilot. Virkjun Copilot er unnin af admin. Frekari upplýsingar er að fara í til að  [samskipa texta fyrir MARKAÐSSETNINGU AI-vara með Copilot](enable-ai.md).
 
-## <a name="enable-or-disable-create-ai-powered-product-descriptions-with-copilot"></a>Gera stofnaðar vörulýsingar fyrir virka eða óvirka með Copilot
+## Gera stofnaðar vörulýsingar fyrir virka eða óvirka með Copilot
 
 1. Í Viðskiptamiðnum er að leita að og opna  **síðuna Feature Management** .
 2.  **Stilla aðgerðina fyrir**  **Forskoðun eiginleikann aðgerðir: stofna skal forknúinna vörulýsingar með copilot**  til  **allra notenda**  til að virkja eiginleikann eða  **ekkert**  til að gera hann óvirkan.
 
    Nánari upplýsingar um aðgangsstýringu Almennt er að fara í  [aðgangsstjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## <a name="consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users"></a>Samþykki til eða hafnar forskráningu og friðlýsingarskilmálum og skilyrðum fyrir því að allir notendur
+## Samþykki til eða hafnar forskráningu og friðlýsingarskilmálum og skilyrðum fyrir því að allir notendur
 
 1. Í Viðskiptamiðstöðer að leita að og opna  **stöðusíðu**  persónuverndartilkynninga.
 2.  **Í dálkinum Samþætting heiti**  velurðu  **Azure openai** og Les svo skilmálana sem kynntir eru þér.
 3.  **Í Azure OpenAI**  röðinni er verið að  **Velja Samþykkja fyrir alla**  gátreit til samþykkis eða  **ósammála fyrir alla**  gátreit til að hafna.
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
 Eftir að aðgerðin er gerð virk og samþykkt er hægt að prófa Copilot á vörum í Viðskiptamiðinu. Fara í að  [Bæta markaðstexta við vörur](item-marketing-text.md).  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Yfirlit um markaðssetningu á AI-knúinn vöru með Copilot](ai-overview.md)  
 [Stofna markaðstexta fyrir vörur með Copilot](item-marketing-text.md)  

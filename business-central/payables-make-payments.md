@@ -11,7 +11,7 @@ ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="making-payments"></a>Framkvæma greiðslur
+# Framkvæma greiðslur
 
 Þegar þú framkvæmir greiðslur til lánardrottna eða viðskiptamanna, eða endurgreiðir starfsmönnum, bókar þú tengdar greiðslulínur í **Greiðslubók** síðunni. Greiðslubókin er almenn færslubók sem er fínstillt til að framkvæma greiðslur og inniheldur fjölda öflugra aðgerða, svo sem **Greiðslutillögur til lánardrottna** aðgerð sem finnur lánardrottnagreiðslur sem eru komnar á gjalddaga, og **Lánardrottinn - aldursgreind samantekt** skýrsla sem sýnir yfirlit lánardrottnagreiðslna á gjalddaga.  
 
@@ -35,9 +35,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Greiða lánardrottni með peningum eða ávísun og bóka greiðsluna um leið og reikningurinn er bókaður. |[Greiða innkaupareikninga tímanlega](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Gakktu úr skugga um að bankinn þinn eingöngu hreinsar staðfestar athuganir og magn með því að senda þeim skrá sem inniheldur seljanda, athugun og greiðsluupplýsingar. |[Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md) |
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Innkaup](purchasing-manage-purchasing.md)  

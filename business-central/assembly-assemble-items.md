@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="assembly-management"></a>Samsetningardeild
+# Samsetningardeild
 
 Fyrirtæki geta útframboð vörur til viðskiptavina með því að sameina íhluti án þess að nota framleiðsluaðgerðir. Aðgerðir til að setja saman atriði samþætt við tengdar aðgerðir eins og Sala, áætlanagerð, frátektir og vöruhúsnæði.  
 
@@ -51,9 +51,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Lærðu að vinna með samsetningaruppskriftir og hvernig þær eru frábrugðnar framleiðsluuppskriftum.|[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)|
 |Fræðast um bókun samsetningar notkunar og úttaks og hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  dreifist kostnaður vöru og forða á fjárhag.|[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
@@ -63,6 +63,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

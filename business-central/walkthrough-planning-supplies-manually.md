@@ -10,27 +10,27 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-planning-supplies-manually"></a>Kynning: Handvirk áætlun birgða
+# Kynning: Handvirk áætlun birgða
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Þessi kynning sýnir ferli áætlunar birgðapantana til að uppfylla nýja eftirspurn. Hægt er að hefja áætlun birgða með föstu millibili, t.d. á hverjum morgni eða á hverjum mánudegi, eða þegar tilkynning berst frá sölu eða framleiðslu, eftir því um hvers konar eftirspurn er að ræða. Í þessari kynningu verður notuð síðan **Pantanaáætlun**, einfalt birgðaáætlunarverkfæri sem byggir á handvirkri ákvarðanatöku í stað sjálfvirkrar áætlanagerðar sem byggir á færibreytum.  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna
+## Um kynninguna  
  Þessi kynning fjallar um eftirfarandi verk:  
 
 -   Áætlun um innkaupapöntun fyrir framleiðslu hluta.  
 -   Áætlun um millifærslupöntun til að uppfylla eftirspurn sölu.  
 -   Áætlun um framleiðslupöntun fyrir margþrepa atriði.  
 
-## <a name="roles"></a>Hlutverk
+## Hlutverk  
  Þessi kynning sýnir þau verk sem framkvæmd eru með eftirfarandi hlutverkum notenda:  
 
 -   Framleiðslustjóri  
 -   Innkaupaaðili  
 -   Sölupöntunarvinnsla  
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði  
  Áður en kynningin hefst þarf að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]. Eftirtaldar breytingar þarf að gera á grunninum:  
 
 -   Eyða öllum sölupöntunum vegna reiðhjóla.  
@@ -39,17 +39,17 @@ ms.author: edupont
 
  Regla er að nota gögnin sem lagt er til í þessari kynningu vegna þess að þau gögn hafa nauðsynlegar skrár.  
 
-## <a name="story"></a>Ferill
+## Ferill  
  Erla, sem er framleiðslustjóri lítils framleiðslufyrirtækis, er um það bil að fara að áætla framleiðslu og innkaupapantanir til að uppfylla nýja eftirspurn í sölu.  
 
  Vegna þess að framleiðslan hefur fá stig framleiðsluuppskrifta og flæði pantana er tiltölulega hæggengt notar Erla síðuna **Pantanaáætlun** til að stofna framboðspantanir handvirkt, eitt framleiðsluskref í einu.  
 
  Í flóknara framleiðsluumhverfi er vinnublaðið fyrir áætlun notað til að gera áætlun um framboð sem byggir á vöruþáttum eins og enduráætlunartímabil, öryggisforskot, endurpöntunarmark og keyrslu útreikninga eftirspurnar allra framleiðslustiga sem steypt hefur verið saman.  
 
-## <a name="setting-up-the-sample-data"></a>Uppsetning sýnigagna
+## Uppsetning sýnigagna  
  Staðlaða CRONUS sýnifyrirtækið er eins og stendur með mikið af óáætlaðri eftirspurn. Í ólíkum verkefnum áætlana sem eru í þessari kynningu verður að víkja frá raunverulegu viðskiptaflæði með því að hundsa kröfur sem hafa gjalddaga sem stutt er í og nota þess í stað kröfur með gjalddaga sem er síðar.  
 
-## <a name="use-the-order-planning-page"></a>Nota síðuna Pantanaáætlun
+## Nota síðuna Pantanaáætlun  
 
 Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetningum:  
 
@@ -58,7 +58,7 @@ Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetning
 -   Innkaup, Áætlun  
 -   Að auki geturðu opnað þessa síðu fyrir tiltekna framleiðslupöntun með því að velja aðgerðina **Áætlanagerð** Action.
 
-### <a name="to-use-the-order-planning-page"></a>Að nota síðuna „Pantanaáætlun“
+### Að nota síðuna „Pantanaáætlun“  
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Áætlanagerð pöntunar** og velja síðan viðkomandi tengil.  
 
@@ -82,10 +82,10 @@ Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetning
 
      Pantanir sem ekki eru vandamál varðandi tiltækt magn eru ekki sýndar. Ef engar pantanir eru til staðar þegar áætlun er reiknuð birtast skilaboð og engar áætlunarlínur birtast.  
 
-## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Innkaupapöntun áætluð til að uppfylla eftirspurn íhluta
+## Innkaupapöntun áætluð til að uppfylla eftirspurn íhluta  
  Í þessu ferli er stofnuð innkaupapöntun fyrir íhluti sem þarf til framleiðslunnar.  
 
-### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Til að áætla innkaupapöntun til að uppfylla þörf á íhlutum fyrir framleiðslu
+### Til að áætla innkaupapöntun til að uppfylla þörf á íhlutum fyrir framleiðslu  
 
 1.  Fyrsta línan er stækkuð (veljið táknið +).  
 2.  Veljið fyrstu eftirspurnarlínuna, með vöru **LSU-15** og síðan **Sýna fylgiskjal** aðgerðina.  
@@ -122,10 +122,10 @@ Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetning
 
      Innkaupapantanirnar hafa nú verið stofnaðar og vistaðar sem síðustu pantanir í listanum yfir innkaupapantanir.  
 
-## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Millifærslupöntun áætluð til að uppfylla eftirspurn sölu
+## Millifærslupöntun áætluð til að uppfylla eftirspurn sölu  
  Í þessu ferli er eftirspurn áætluð út frá sölupöntun. Eftirspurnarlínur gefa sölulínur til kynna en ekki íhlutalínur eins og í framleiðslueftirspurn.  
 
-### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Áætlun um millifærslupöntun til að uppfylla eftirspurn sölu
+### Áætlun um millifærslupöntun til að uppfylla eftirspurn sölu  
 
 1.  Bendillinn er færður á áætlunarlínu fyrir pöntun **2008**.  
 2.  Stækka skal línuna og færa bendilinn á eftirspurnarlínu.  
@@ -150,10 +150,10 @@ Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetning
 
      Millifærslupöntun hefur nú verið gerð og vistuð í listanum sem síðasta pöntun í listanum yfir opnar millifærslupantanir.  
 
-## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Margþrepa millifærslupöntun áætluð til að uppfylla eftirspurn sölu
+## Margþrepa millifærslupöntun áætluð til að uppfylla eftirspurn sölu  
  Í þessu ferli er gerð áætlun til að uppfylla eftirspurn sölu fyrir framleiðslu sem hefur mörg framleiðsluþrep þar sem hvert og eitt myndar háða eftirspurn framleiðslu.  
 
-### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Að áætla margra þrepa framleiðslu til að uppfylla eftirspurn sölu
+### Að áætla margra þrepa framleiðslu til að uppfylla eftirspurn sölu  
 
 1.  Áætlunarlína með pöntun fyrir eftirspurn sölu **1001** er valin (stofnuð áður sem frumskilyrði).  
 
@@ -172,7 +172,7 @@ Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetning
 
  Framleiðslustjóri þarf að áætla sérstaka röð framleiðslupantana.  
 
-### <a name="to-plan-a-specific-production-order"></a>Til að áætla sérstaka röð framleiðslupöntunar
+### Til að áætla sérstaka röð framleiðslupöntunar  
 
 1.  Opna skal framleiðslupöntunina **101001**, fyrir tíu reiðhjól, sem var stofnuð með aðgerðinni **Gera pantanir**.  
 2.  Opna síðuna **Íhlutir framl.pöntunar** til að athuga hvort staka bjallan endurspeglist í framleiðslupöntuninni.  
@@ -222,7 +222,7 @@ Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetning
 
      Á síðunni **Fastáætlað** farið yfir hvernig upphafs- og lokatími einstakra pantana er áætlaður út frá samsetningu framleiðslunnar. Íhlutir á neðsta þrepi eru framleiddir fyrst. Því þarf að áætla pantanir í mörgum þrepum eins og sýnt er í þessu verkflæði fyrir áætlanir.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
  [Kynningar á viðskiptaferlum](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

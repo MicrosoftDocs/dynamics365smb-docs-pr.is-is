@@ -11,7 +11,7 @@ ms.search.form: '377, 378, 165, 1284'
 ms.date: 06/14/2021
 ms.author: edupont
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Stjórna og afstemma bankareikninga
+# Stjórna og afstemma bankareikninga
 
 Ljúka ætti bankaafstemmingu með reglulegu millibili fyrir alla bankareikninga til að tryggja að peningafærslur fyrirtækisins séu réttar. Þetta er gert með því að bera saman og jafna færslur á innri bankareikningum við bankafærslur í bankanum þínum og síðan bóka stöðurnar á innri bankareikningana svo að samtölur verði í boði fyrir fjármálastjóra. Bankaafstemming er einnig hagkvæm leið til að uppgötva og leysa úr greiðslum sem vantar upp á og bókhaldsvillum.
 
@@ -32,9 +32,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 > [!TIP]
 > Nota skal bankaafstemmingu til að staðfesta að bækurnar séu uppfærðar og ekki bóka afstemmingu fyrr en tryggt er að afstemmingin sé í lagi.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md)  

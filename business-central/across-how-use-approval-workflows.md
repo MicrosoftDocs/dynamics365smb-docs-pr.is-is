@@ -9,7 +9,7 @@ ms.search.form: '654, 662, 1500,'
 ms.date: 09/12/2022
 ms.author: edupont
 ---
-# <a name="how-to-use-approval-workflows"></a>Hvernig á að nota samþykktarverkflæði
+# Hvernig á að nota samþykktarverkflæði
 
 Þegar færsla, svo sem innkaupaskjal eða viðskiptamannaspjald sem stofnað hefur verið þarfnast samþykktar aðila innan fyrirtækisins er send samþykktarbeiðni sem hluti af verkflæði. Beiðnin um samþykki færslu verður send til viðeigandi samþykkjanda á grundvelli þess hvernig verkflæðið hefur verið sett upp.
 
@@ -19,7 +19,7 @@ Setja upp samþykktarverkflæði á síðunni **Verkflæði**. Einnig verður a�
 
 Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur, viðskiptamannaspjöld og birgðaspjöldum eru tilbúin til að byrja sem leiðarvísir. Frekari upplýsingar eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).
 
-## <a name="request-a-record-approval"></a>Biðja um samþykki á færslu
+## Biðja um samþykki á færslu
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda.
 
@@ -30,7 +30,7 @@ Staða samþykktarfærslunnar er uppfærð úr **Stofnað** í **Opið**. Staða
 
 Þegar allir nauðsynlegir samþykktaraðilar hafa samþykkt færsluna breytist staðan í **Útgefin**. Þá er hægt að halda áfram að vinna með færsluna.
 
-## <a name="cancel-approval-requests"></a>Hætta við samþykktarbeiðnir
+## Hætta við samþykktarbeiðnir
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
@@ -40,7 +40,7 @@ Viðskiptamaður kann að vilja breyta pöntun eftir að hún hefur verið lög�
 
 Þegar hætt hefur verið við samþykktarbeiðnina uppfærist staðan á samþykktarfærslunni í **Hætt við**. Staða færslunnar er uppfærð úr **Bíður samþykktar** í **Opið**. Nú getur samþykktarferlið hafist að nýju.
 
-## <a name="approve-or-reject-approval-requests"></a>Samþykkja eða hafna samþykktarbeiðnum
+## Samþykkja eða hafna samþykktarbeiðnum
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
@@ -56,7 +56,7 @@ Ef stigveldi samþykktaraðila er uppsett er færslustaðan **Bíður samþykkta
 
 Á sama tíma breytist samþykktarstaða úr **Stofnað** í **opið** um leið og samþykktarbeiðni fyrir færsla er stofnuð. Ef beiðni er hafnað berytist samþykktarstaða í **Hafnað**. Staðan er áfram **opið** eða **Hafnað** þar til allir samþykkjendur hafa samþykki beiðnina.
 
-## <a name="delegate-approval-requests"></a>Framselja samþykktarbeiðnir
+## Framselja samþykktarbeiðnir
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
@@ -67,7 +67,7 @@ Til að koma í veg fyrir að færslur safnist upp eða stífla verkflæðið á
 
 Tilkynning um að samþykkja beiðnina er send til staðgengilssamþykkjanda.
 
-## <a name="manage-overdue-approval-requests"></a>Stjórna samþykktarbeiðnum sem eru komnar fram yfir á tíma
+## Stjórna samþykktarbeiðnum sem eru komnar fram yfir á tíma
 
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
@@ -78,9 +78,9 @@ Aðgerðin **Senda samþykktartilkynningar sem komnar eru fram yfir tíma** kann
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Samþykktarbeiðnir sem eru fallnar á tíma** og velja síðan viðkomandi tengil.
 2. Á síðunni **Samþykktarbeiðnir komin fram yfir á tíma** er valið á **Samþykktarbeiðnir komin fram yfir á tíma Tilkynningar** aðgerð.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-approval-workflows/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/use-approval-workflows/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Nota Samþykktarverkflæði](across-use-workflows.md)  
 [Verkflæði](across-workflow.md)  

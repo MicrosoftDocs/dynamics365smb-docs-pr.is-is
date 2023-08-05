@@ -8,21 +8,21 @@ ms.search.form: 'Report_5871, Report_5872, Report_99000753, Report_99000756, Rep
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="production-reports-and-analytics-in-business-central"></a>Framleiðsluskýrslur og greiningar í Business Central
+# Framleiðsluskýrslur og greiningar í Business Central
 
 Framleiðsluskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gerir starfsmönnum í framleiðslu og rekstri kleift að fá innsýn í og tölfræði um núverandi og fyrri framleiðsluaðgerðir.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
-## <a name="tasks"></a>Verkefni
+## Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Skoða álag á vinnu- og vélastöðvar](production-how-to-view-the-load-on-work-centers.md)  
 * [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)  

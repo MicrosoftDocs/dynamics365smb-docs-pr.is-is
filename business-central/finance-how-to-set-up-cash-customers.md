@@ -10,11 +10,11 @@ ms.search.form: '21, 22'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="set-up-cash-customers"></a>Uppsetning staðgreiðsluviðskiptamanna
+# Uppsetning staðgreiðsluviðskiptamanna
 
 Ekki er hægt að gera reikning án viðskiptamannsnúmers. Þetta á við þó svo að selt sé gegn staðgreiðslu og ekki sé þörf á að skrá upplýsingar í viðskiptamannareikning.  
 
-## <a name="to-set-up-a-cash-customer"></a>Uppsetning staðgreiðsluviðskiptamanna
+## Uppsetning staðgreiðsluviðskiptamanna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinur** og velja síðan viðkomandi tengil.  
 2. Stofna nýtt spjald **Viðskiptamaður**. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).
@@ -29,7 +29,7 @@ Ekki er hægt að gera reikning án viðskiptamannsnúmers. Þetta á við þó 
 >
 > Rita þarf safnreikningsnúmer fyrir bókunarflokkinn þó svo að staðan á reikningnum verði alltaf 0 eftir bókun reiknings.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)

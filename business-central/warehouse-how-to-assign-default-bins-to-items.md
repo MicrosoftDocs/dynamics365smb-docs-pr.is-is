@@ -11,10 +11,10 @@ ms.search.form: '7371, 7374, 7379'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="assign-default-bins-to-items"></a>Sjálfgefin hólf tengd vörum
+# Sjálfgefin hólf tengd vörum
 Ef hólf eru notuð í birgðageymslu verður öll móttaka, afhending og hreyfing á vörum mun auðveldari ef sjálfgefin hólf eru notuð. Þegar sjálfgefið hólf er tengt vöru leggur kerfið það til í hvert sinn sem færsla fer í gang fyrir vöruna. Sjálfgefin hólf eru skilgreind á síðunni **Innihald hólfs**.  
 
-## <a name="to-assign-a-default-bin-to-an-item"></a>Að úthluta vöru sjálfgefnu hólfi
+## Að úthluta vöru sjálfgefnu hólfi
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað fyrir stofnun hólfainnihalds** og velja viðkomandi tengil.  
 2.  Tilgreindur er hólfkóti og vöruupplýsingar fyrir hvert hólf sem á að verða sjálfgefið og vöru. Gæta skal þess að velja reitinn **Sjálfgefið**.  
 3.  Valið er **Stofna innihald hólfa** aðgerð. Sjálfgefin hólf hafa nú verið tengd vörunum.  
@@ -22,7 +22,7 @@ Ef hólf eru notuð í birgðageymslu verður öll móttaka, afhending og hreyfi
 > [!NOTE]  
 >  Þegar gengið er frá vöru og hún er ekki með sjálfgefið hólf gerir kerfið hólfið sem hún er sett í sjálfgefið.  
 
-## <a name="to-change-the-default-bin-for-an-item"></a>Skipt um sjálfgefið hólf vöru
+## Skipt um sjálfgefið hólf vöru  
 Stundum getur þurft að skipta um sjálfgefið hólf vöru eða gefa nýrri vöru sjálfgefið hólf.
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innihald hólfs** og velja síðan viðkomandi tengil.  
 2.  Í reitnum **Birgðageymsluafmörkun** er valinn réttur birgðageymslukóti.  
@@ -32,12 +32,12 @@ Stundum getur þurft að skipta um sjálfgefið hólf vöru eða gefa nýrri vö
 > [!NOTE]  
 >  Þegar gengið er frá vöru í fyrsta skipti og hún er ekki með sjálfgefið hólf gerir kerfið hólfið sem hún er sett í sjálfgefið.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Yfirlit](design-details-warehouse-management.md)
 [vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
-[Uppsetning samsetningarstjórnunarvinnu](warehouse-setup-warehouse.md) 
-[fyrir vöruhúsastjórnun](assembly-assemble-items.md)
-[með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Uppsetning samsetningarstjórnunarvinnu fyrir vöruhúsastjórnun](warehouse-setup-warehouse.md)[
+ með](assembly-assemble-items.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

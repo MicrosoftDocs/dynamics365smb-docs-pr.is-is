@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-posting-engine-structure"></a>Hönnunarupplýsingar: Uppbygging bókunarvélar
+# Hönnunarupplýsingar: Uppbygging bókunarvélar
 Bókunarviðmót og sumar aðrar aðgerðir í kóðaeiningu 12 nota aðgerðir bókunarvélar til að undirbúa og setja inn færslur í fjárhag og VKS. Bókunarvélin er einnig ábyrg fyrir stofnun fjárhags.  
   
  Virknin í eftirfarandi töflu veitir staðlaðan ramma fyrir hönnun bókunarferla (t.d. Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry og Reverse) og einkaaðgang að töflu 17, fjárhagsfærslu.  
@@ -30,7 +30,7 @@ Bókunarviðmót og sumar aðrar aðgerðir í kóðaeiningu 12 nota aðgerðir 
 |CreateGLEntryVATCollectAdj|Sama og CreateGLEntry, en með viðbótarsafni stillinga og vistunar í tímabundið VSK-biðminni:<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
 |CreateGLEntryFromVATEntry|Sama og CreateGLEntry, en afritar einnig bókunarflokka úr VSK-færslu.|  
   
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
  [Hönnunarupplýsingar: Uppbygging bókunarviðmóts](design-details-posting-interface-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

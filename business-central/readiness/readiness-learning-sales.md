@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-sales-and-marketing-learning-catalog"></a>Vörulisti samstarfsaðila vegna sölu og markaðssetningar
+# Vörulisti samstarfsaðila vegna sölu og markaðssetningar
 
 Berð þú ábyrgð á því að hjálpa viðskiptavinum þínum að kaupa réttu lausnina?
 
 Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og frá einföldustu til ítarlegustu þátta. Ef efni er til á mörgum sniðum látum við þig vita svo þú getir valið það þjálfunarsnið sem hentar þínum þörfum best.  
 
-## <a name="business-value"></a><a name="busvalue"></a>Fyrirtækisvirði
+## Fyrirtækisvirði<a name="busvalue"></a>
 
 | Efni     | Description    | Snið                                | Lengd              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -21,7 +21,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/) | Skoða Dynamics 365 Business Central möguleika    | Vefsvæði    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | Þessi eining sýnir eiginleika forrita, ávinning og dæmi um Dynamics 365 Business Central í aðgerð.    | Ókeypis námsleið á netinu á eigin hraða | 24 mínútur          |
 
-## <a name="getting-started"></a><a name="get-started"></a>Hafist handa
+## Hafist handa<a name="get-started"></a>
 
 | Efni   | Description   | Snið                                | Lengd              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -30,7 +30,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | [Sýndu fagleg vinnubrögð með gögnum í Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Ertu rétt að byrja að nota Business Central? Þessi námsbraut mun hjálpa þér að undirbúa þig fyrir gagnagerðir Business Central og hvernig hægt er að finna upplýsingar sem þú þarft í forritinu.      | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur  |
 | [Spilunarlisti Business Central YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube lendingarsíða fyrir Dynamics 365 Business Central-myndbönd  | YouTube Myndbönd  |                     |
 
-## <a name="grow-your-business"></a><a name="grow"></a>Stækkaðu fyrirtækið þitt
+## Stækkaðu fyrirtækið þitt<a name="grow"></a>
 
 | Efni   | Description        | Snið                                | Lengd                |
 |-----------|--------------------|---------------------------------------|-----------------------|
