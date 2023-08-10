@@ -8,7 +8,7 @@ ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Sérsníða síður fyrir forstillingar
+# <a name="customize-pages-for-profiles"></a>Sérsníða síður fyrir forstillingar
 
  Notendur geta sérstillt síður vinnusvæðisins síns sitt að vild. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
@@ -19,7 +19,7 @@ Stjórnendur geta sérstillt síður fyrir forstillingu samkvæmt tengdri viðsk
 
 Sérstilling á síðu hefst á síðunni **Forstillingar (hlutverk)**, upphafspunkt stjórnanda til að stjórna notendaforstillingum á einstökum forstillingarspjöldum. Auk þess að sérsníða síðuútlitið er hægt að breyta ýmsum öðrum stillingum fyrir forstillingar á síðunni **Sérstilling (hlutverk)** fyrir hverja forstillingu. Frekari upplýsingar eru í [Unnið með forstillingar](admin-users-profiles-roles.md).
 
-## Til að sérsníða síður fyrir forstillingu
+## <a name="to-customize-pages-for-a-profile"></a>Til að sérsníða síður fyrir forstillingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Forstillingar (hlutverk)** og velja svo viðeigandi tengil.
 2. Velja skal línuna fyrir forstillinguna sem á að sérsníða síður fyrir og síðan velja aðgerðina **Breyta**.
@@ -37,7 +37,7 @@ Sérstilling á síðu hefst á síðunni **Forstillingar (hlutverk)**, upphafsp
 
 Sérstillingar fyrir síður er nú skráðar fyrir forstillinguna.
 
-## Til að skoða allar sérstilltar síður fyrir forstillingu
+## <a name="to-view-all-customized-pages-for-a-profile"></a>Til að skoða allar sérstilltar síður fyrir forstillingu
 
 Hægt er að fá yfirlit yfir hvaða síður eru sérsniðnar fyrir forstillingu, til dæmis til að áætla hver á að sérsníða eða eyða.
 
@@ -45,7 +45,7 @@ Hægt er að fá yfirlit yfir hvaða síður eru sérsniðnar fyrir forstillingu
 
 Á síðunni **Sérstilltar síður** er hægt að eyða sérstillingum og hægt er að úrræðaleita með því að skanna eftir mögulegum vandamálum.  
 
-## Til að eyða öllum sérstillingum fyrir forstillingu
+## <a name="to-delete-all-customizations-for-a-profile"></a>Til að eyða öllum sérstillingum fyrir forstillingu
 
 Hægt er að hætta við sérstillingar sem þú hefur gert fyrir forstillingu. Sérstillingum sem notandi hefur sett inn með viðbót og sérstillingum sem notanda hefur gert verður ekki eytt. Hægt er að eyða öllum sérstillingum með annarri aðgerð. Frekari upplýsingar er að finna á [Eyða öllum sérstillingum sem notandi hefur gert](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -53,7 +53,7 @@ Hægt er að hætta við sérstillingar sem þú hefur gert fyrir forstillingu. 
 
 Útlitið á síðum fyrir forstillinguna er endurstillt á sjálfgefið útlit.  
 
-## Til að eyða sérstillingum fyrir tilteknar síður forstillingar
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Til að eyða sérstillingum fyrir tilteknar síður forstillingar
 
 Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyrir forstillingu. Sérstillingum sem notandi hefur sett inn með viðbót og sérstillingum sem notanda hefur gert verður ekki eytt. Hægt er að eyða tilteknum sérstillingum síðu með annarri aðgerð. Frekari upplýsingar er að finna á [Eyða sérstillingum fyrir tilteknar síður](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -62,9 +62,9 @@ Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyri
 
 Útlitinu á völdum síðum er breytt í breytingar sem gerðar voru.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilling verksvæðis](ui-personalization-user.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  

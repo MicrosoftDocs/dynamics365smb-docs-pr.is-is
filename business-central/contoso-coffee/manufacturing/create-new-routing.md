@@ -7,15 +7,15 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ---
-# Kynning: Búa til nýja leið
+# <a name="walkthrough-create-a-new-routing"></a>Kynning: Búa til nýja leið
 
 Í þessari grein tökum við á móti þér leiðbeiningar til að nota contoso Coffee sýnigögnin til að setja upp nýja framleiðsluleið í [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## Aðstæður
+## <a name="scenario"></a>Aðstæður
 
 Oscar, ferlahönnuður hjá Contoso Coffee, ákveður að búa til nýja leið með heitinu *Ný slóð*. Þar sem þessi leið er ólíkt öðrum leiðarum í contoso Coffee, verður Oscar að færa allar upplýsingar leiðarinnar inn handvirkt.  
 
-## Skref
+## <a name="steps"></a>Skref
 
 1. Búðu til leiðarhausinn.  
 
@@ -54,6 +54,6 @@ Oscar, ferlahönnuður hjá Contoso Coffee, ákveður að búa til nýja leið m
 
 Nýja leiðin er nú uppsett.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Kynning á contoso kaffi sýnigögnum](../contoso-coffee-intro.md)  

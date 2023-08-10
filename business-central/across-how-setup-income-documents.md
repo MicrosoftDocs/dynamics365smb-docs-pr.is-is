@@ -10,13 +10,13 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# Setja upp skjöl á innleið
+# <a name="set-up-incoming-documents"></a>Setja upp skjöl á innleið
 
 Ef stofnaðar eru færslubókarlínur úr færslum skjala á innleið verður að tilgreina í á síðunni **Uppsetning fyrir skjöl á innleið** hvaða sniðmát færslubókar og runu á að nota.
 
 Þegar eiginleikinn **Skjöl á innleið** er uppsettur, er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).
 
-## Setja upp valkostinn fyrir skjal á innleið
+## <a name="to-set-up-the-incoming-documents-feature"></a>Setja upp valkostinn fyrir skjal á innleið
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Uppsetning fyrir skjal á innleið** og velja síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -25,13 +25,13 @@ Sem hluti af uppsetningunni þarf að ákveða hvort krefjast eigi samþykkis á
 
 Að lokum, ef þú notar OCR-þjónustu til að umbreyta PDF eða myndaskrám sem standa fyrir skjöl á innleið [þarf að setja hana upp](#to-set-up-an-ocr-service). Að öðrum kosti er einnig hægt að sleppa þeim hluta.
 
-## Að setja upp samþykkjendur fyrir skjöl á innleið
+## <a name="to-set-up-approvers-of-incoming-document-records"></a>Að setja upp samþykkjendur fyrir skjöl á innleið
 
 Ef þú vilt ekki að notendur búi til reikninga eða almennar færslubókarlínur úr færslum skjala á innleið nema skjölin séu fyrst samþykkt skaltu setja upp samþykktarferli fyrir skjöl á innleið. Samþykkjendur skjala á innleið verða að vera uppsettir sem notendur sem samþykkja verkflæði.
 
 Áður en hægt er að stofna verkflæði sem fela í sér samþykktarskref verður að setja upp verkflæðisnotendur sem taka þátt í samþykktarferli. Á síðunni **Uppsetning fyrir samþykki notanda** er einnig hægt að stilla takmörk upphæðar fyrir tilteknar gerðir beiðna og skilgreina staðgengilssamþykkjendur sem samþykktarbeiðnir eru sendar til þegar upphaflegur samþykkjandi er fjarverandi. Frekari upplýsingar eru í [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md).
 
-## Til að setja upp OCR-þjónustu
+## <a name="to-set-up-an-ocr-service"></a>Til að setja upp OCR-þjónustu
 
 Til að breyta PDF- og myndaskrám í rafræn skjöl sem þú getur umbreytt í reikninga, kreditreikninga eða færslubókarlínur skal setja upp OCR-eiginleikann. Að öðrum kosti er hægt að stofna færslur handvirkt til að tákna ytri skjölin.
 
@@ -43,9 +43,9 @@ Til að breyta PDF- og myndaskrám í rafræn skjöl sem þú getur umbreytt í 
 
 Frekari upplýsingar eru í [Hvernig á að nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md).  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  

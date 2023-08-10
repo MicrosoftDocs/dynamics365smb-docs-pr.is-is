@@ -11,7 +11,7 @@ ms.search.form: '977, 462, 76, 77'
 ms.date: 12/13/2021
 ms.author: edupont
 ---
-# Setja upp vinnuskýrslur
+# <a name="set-up-time-sheets"></a>Setja upp vinnuskýrslur
 
 Vinnuskjöl í [!INCLUDE[prod_short](includes/prod_short.md)] meðhöndla tímaskráningu í vikulegum stigum sjö daga. Hægt er að nota þær til að mæla tímann sem fer í verkefni og til að skrá einfalda forðatímaskráningu. Áður en hægt er að nota vinnuskýrslur þarf að tilgreina hvaða notendur munu senda inn vinnuskýrslur og hvernig á að grunnstilla þær.  
 
@@ -25,7 +25,7 @@ Einnig er hægt að tilgreina hvort og hvernig vinnuskýrslur eru samþykktar. A
 
 Þegar búið er að setja upp vinnuskýrslur er hægt að búa til vinnuskýrslur fyrir forða og forðarnir geta bókað vinnuskýrslulínur. Einnig er hægt að úthluta vinnuskýrslum á verkáætlunarlínur. Frekari upplýsingar eru í [Nota vinnuskýrslur](projects-how-use-time-sheets.md).  
 
-## Setja upp vinnuskýrslur með leiðbeiningum um uppsetningu
+## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Setja upp vinnuskýrslur með leiðbeiningum um uppsetningu
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
@@ -53,11 +53,11 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 
 Í lok uppsetningarleiðbeiningar getur þú valið að leyfa [!INCLUDE [prod_short](includes/prod_short.md)] að búa til vinnuskýrslur út frá stillingunum þínum. Skoðaðu nýju vinnuskýrslurnar á síðunni **Vinnuskýrslur** sem þú getur opnað [hér](https://businesscentral.dynamics.com/?page=951). Annars skal keyra uppsetningarleiðbeininguna aftur eða ljúka uppsetningunni handvirkt.  
 
-## Setja upp vinnuskýrslur handvirkt
+## <a name="set-up-time-sheets-manually"></a>Setja upp vinnuskýrslur handvirkt
 
 Eftirfarandi hlutar lýsa því hvernig á að setja upp vinnuskýrslur ef þú notar ekki uppsetningarleiðbeininguna **Setja upp vinnuskýrslur**.  
 
-### Að setja upp almennar upplýsingar fyrir vinnuskýrslur handvirkt
+### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Að setja upp almennar upplýsingar fyrir vinnuskýrslur handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning tilfanga** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -69,7 +69,7 @@ Eftirfarandi hlutar lýsa því hvernig á að setja upp vinnuskýrslur ef þú 
 | **Alltaf** |Notandinn í reitnum **Ábyrgðaraðili** á verkspjaldinu samþykkir vinnuskýrsluna. |
 | **Aðeins véla** |Ef vinnuskýrsla vélar er tengd við verk er það notandinn í reitnum **Ábyrgðaraðili** á verkspjaldinu sem samþykkir vinnuskýrsluna. Ef vinnuskýrsla vélar er tengd við forða er það notandinn í reitnum **Notandakenni samþykktaraðila vinnuskýrslu** á forðaspjaldinu sem samþykkir vinnuskýrsluna. |
 
-### Að úthluta stjórnanda vinnuskýrslu handvirkt
+### <a name="to-assign-a-time-sheet-administrator-manually"></a>Að úthluta stjórnanda vinnuskýrslu handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning notanda** og velja síðan viðkomandi tengil.  
 2. Bæta við nýjum notanda ef notandalistinn inniheldur ekki einstaklinginn sem notandinn vill að sé vinnuskýrslustjórnandi. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).
@@ -78,7 +78,7 @@ Eftirfarandi hlutar lýsa því hvernig á að setja upp vinnuskýrslur ef þú 
 > [!TIP]  
 > Mælt er með að aðeins einn notandi sé tilgreindur sem vinnuskýrslustjóri fyrir fyrirtæki. Í eftirfarandi ferli eru eigandi og samþykkjandi vinnuskýrslu settir upp þar sem samþykkjandi er tilgreindur fyrir hvern forða.  
 
-### Að úthluta eiganda og samþykktaraðila vinnuskýrslna handvirkt
+### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Að úthluta eiganda og samþykktaraðila vinnuskýrslna handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tilföng** og velja síðan viðkomandi tengil.
 2. Veljið forðann sem á að geta notað vinnuskýrslur og veljið svo gátreitinn **Nota vinnuskýrslu**.  
@@ -88,9 +88,9 @@ Eftirfarandi hlutar lýsa því hvernig á að setja upp vinnuskýrslur ef þú 
 > [!NOTE]  
 > Ekki er hægt að auðkenni samþykkjanda vinnuskýrslu ef tíma fyrir eru tímaskýrslur sem ekki hefur verið unnið með og sem hafa stöðuna **Sent** eða **Opið**.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Nota vinnuskýrslur fyrir verkefni](projects-how-use-time-sheets.md)  
 [Hvernig á að stofna vinnuskýrslur](projects-how-use-time-sheets.md#to-create-time-sheets)  

@@ -10,7 +10,7 @@ ms.search.form: '5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 932
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Framleiðsla
+# <a name="manufacturing"></a>Framleiðsla
 
 > [!NOTE]
 > Virkni sem lýst er í þessu efni og undirviðfangsefni er aðeins sýnilegt í notendaviðmótinu ef þú hefur **Úrvals** upplifun. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
@@ -39,7 +39,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Nota síðuna **Afkastagetubók** til að bóka notaða afkastagetu sem ekki er úthlutað á framleiðslupöntun, líkt og viðhaldsvinna.|[Bóka afkastagetu](production-how-to-post-capacities.md)|  
 |Reikna út og jafna kostnað við tilbúnar framleiðsluvörur og íhluti sem notaðir voru til afstemmingar.|[Um lokinn framleiðslupantanakostnað](finance-about-finished-production-order-costs.md)|  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Áætlun](production-planning.md)  

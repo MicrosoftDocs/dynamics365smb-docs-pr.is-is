@@ -7,18 +7,18 @@ ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
 ---
-# Uppsetning lánardrottnabankareikninga
+# <a name="set-up-vendor-bank-accounts"></a>Uppsetning lánardrottnabankareikninga
 
 Rétt eins og hægt er að nota upplýsingar um bankareikninga í [!INCLUDE [prod_short](includes/prod_short.md)] til að fylgjast með bankafærslum fyrirtækisins er einnig hægt að stilla bankaupplýsingar fyrir lánardrottna. Gögn um bankareikning lánardrottins geta einfaldað greiðslur til birgis þegar þau eru sameinuð við [AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md) eða eiginleikann [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) sem dæmi.
 
-## Bæta við eða breyta bankareikningi lánardrottins
+## <a name="add-or-edit-a-vendor-bank-account"></a>Bæta við eða breyta bankareikningi lánardrottins
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 > [!TIP]
 > Hægt er að stilla fleiri bankareikninga lánardrottins á síðunni **Bankareikningslisti lánardrottins**.
 
-## Setja upp æskilegan bankareikning lánardrottins
+## <a name="set-up-a-preferred-vendor-bank-account"></a>Setja upp æskilegan bankareikning lánardrottins
 
 Ef lánardrottinn er með einn eða fleiri bankareikninga og þú vilt stilla annan valkost fyrir greiðslubókarlínurnar skal fylgja þessum skrefum:
 
@@ -26,9 +26,9 @@ Ef lánardrottinn er með einn eða fleiri bankareikninga og þú vilt stilla an
 2. Opnaðu spjaldið fyrir lánardrottin.
 3. Í flýtiflipanum **Greiðslur** skal velja sjálfgefinn bankareikning lánardrottins í reitnum **Æskilegur bankareikningskóði**.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  

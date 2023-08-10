@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-"></a>Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Í þessari grein muntu fá upplýsingar um mismunandi þætti Power BI samþættingar við [!INCLUDE[prod_short](includes/prod_short.md)] til að hjálpa þér að skilja innleiðingu og notkun.
 
-## Íhlutir
+## <a name="components"></a>Íhlutir
 
 Eftirfarandi tafla lýsir helstu íhlutunum sem tengjast Power BI samþættingu.
 
@@ -25,7 +25,7 @@ Eftirfarandi tafla lýsir helstu íhlutunum sem tengjast Power BI samþættingu.
 |Power BI Desktop|Höfundarverkfæri til að búa til skýrslur og mælaborð, og gerir þér kleift að keyra skýrslur. Það er í boði sem ókeypis niðurhal á Microsoft Store og er uppsett staðbundið.|
 |[!INCLUDE[prod_short](includes/prod_short.md)]|Lausn á netinu eða staðbundið með tenglum á Power BI og möguleikanum á að innfella Power BI hluta.|
 
-## Það sem er í boði frá upphafi
+## <a name="whats-available-from-the-start"></a>Það sem er í boði frá upphafi
 
 Eftirfarandi tafla lýsir tiltækum eiginleikum.
 
@@ -37,7 +37,7 @@ Eftirfarandi tafla lýsir tiltækum eiginleikum.
 |Sjálfgefnar Power BI skýrslur um hlutverkamiðstöðvar virkjaðar á Power BI|Beinlínutengt|
 |Power BI-forrit á Microsoft AppSource|Beinlínutengt|
 
-## Högun
+## <a name="architecture"></a>Högun
 
 [!INCLUDE[prod_short](includes/prod_short.md)] samþættist við Power BI í gegnum tengil með OData. Gagnagjafi fyrir Power BI-skýrslur kemur fyrir sem API-síður og OData-vefþjónustur.
 
@@ -45,7 +45,7 @@ Eftirfarandi tafla lýsir tiltækum eiginleikum.
 
 Frá og með febrúar 2022 eru Power BI skýrslur fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu fengnar frá aukalegri eftirmynd af skrifvörðum gagnagrunni. Eftirmynd gagnagrunnsins er hluti af möguleikanum [lesa útvíkkun](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu. Þessi grunnstilling losar um aðalgagnagrunninn fyrir færslur, sem eykur afköst kerfisins. Að tengjast við skrifvarða eftirmynd gagnagrunnsins er mikilvægur hluti af tengli Business Central Online og þarfnast ekki frekari uppsetningar af þinni hálfu. Allar nýjar skýrslur munu sjálfgefið tengjast við skrifvarða eftirmynd gagnagrunnsins. Gamlar skýrslur munu enn nota aðalgagnagrunninn. Frekari upplýsingar er að finna í [Business Central 2021 útgáfutímabil 2 áskriftarleið](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
-## Almennt flæði
+## <a name="general-flow"></a>Almennt flæði
 
 Eftirfarandi skýringarmynd sýnir grunnverkflæði fyrir notendur þegar verið er að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við Power BI.
 
@@ -59,9 +59,9 @@ Eftirfarandi skýringarmynd sýnir grunnverkflæði fyrir notendur þegar verið
 6. Notandi stofnar skýrslu í Power BI Desktop.
 7. Notandi gefur út skýrslu á Power BI -þjónustuna. Svo er hægt að velja skýrslurnar í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Power BI fyrir neytendur](/power-bi/consumer/end-user-consumer)  

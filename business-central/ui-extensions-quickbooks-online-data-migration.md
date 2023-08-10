@@ -12,11 +12,11 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ---
 
-# QuickBooks Online gagnaflutningsviðbótin
+# <a name="the-quickbooks-online-data-migration-extension"></a>QuickBooks Online gagnaflutningsviðbótin
 
 Þessi viðbót er innifalin í **Gagnaflutningur** uppsetningu með aðstoð til að aðstoða þig við að flytja mikilvæg viðskiptagögn frá QuickBooks Online til [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta er t.d. gagnlegt þegar fyrirtækið þitt er að vaxa, og þú hefur ákveðið að uppfæra stjórnunarforrit fyrirtækisins með því að byrja að nota [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## Hvaða gögn get ég flutt inn frá QuickBooks Online?
+## <a name="what-data-can-i-import-from-quickbooks-online"></a>Hvaða gögn get ég flutt inn frá QuickBooks Online?
 
 Þú getur flutt inn eftirfarandi gögn úr QuickBooks Online til [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
@@ -33,7 +33,7 @@ Við flytjum aðeins fullar upphæðir í sölu- og innkaupaskjöl. Við uppfær
 > [!NOTE]  
 > Við flytjum ekki innkaupapantanir eða sölupantanir.
 
-## Verður að byrja fyrir
+## <a name="before-you-start"></a>Verður að byrja fyrir
 
 Mikilvægur hluti flutningsferlisins er að tilgreina reikningana sem flytja á færslur til. Það er tilvalið að skipuleggja vörpunina áður en þú flytur gögn. Til dæmis, reikningana sem þú bókar færslurnar fyrir:  
 
@@ -45,14 +45,14 @@ Mikilvægur hluti flutningsferlisins er að tilgreina reikningana sem flytja á 
 
 Ef færslur í QuickBooks Online hafa skattaupphæðir, þarf að setja upp skattareikning fyrir þína skattalögsögu í [!INCLUDE[prod_short](includes/prod_short.md)] áður en þú getur bókað færslur.
 
-## Hvernig byrja ég að nota viðbótina?
+## <a name="how-do-i-start-using-the-extension"></a>Hvernig byrja ég að nota viðbótina?
 
 Auðvelt er að hefjast handa Það eina sem þú þarft að gera er að keyra **Gagnaflutingur** uppsetningu með aðstoðarleiðbeiningum. Svona er það gert:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp** og velja síðan **Flytja viðskiptagögn**.
 2. Fylgdu leiðbeiningunum fyrir hvert skrefi í Uppsetningu með aðstoð.
 
-## Hvað geri ég eftir gagnaflutninginn?
+## <a name="what-do-i-do-after-i-migrate-data"></a>Hvað geri ég eftir gagnaflutninginn?
 
 Þegar gagnaflutningi er lokið, hafa færslur stöðuna **Óbókaðar**, svo þú getur endurskoðað þær og gert leiðréttingar. Til að endurskoða færslurnar, skal farið á síðuna þar þú myndir venjulega finna þær. Til dæmis, til að endurskoða óbókaða sölureikninga, skal farið á síðuna **Sölureikningar**. Til að endurskoða greiðslubækur, skal fara á síðuna **Greiðslubækur**.  
 
@@ -62,9 +62,9 @@ Auðvelt er að hefjast handa Það eina sem þú þarft að gera er að keyra *
 * Ef þú ert að nota VSK, þarftu kannski að bæta viðskiptabókunarflokki og vörubókunarflokki við uppsetningu bókana svo þú getir bókað VSK upphæðir.
 * Staðfesta upphafsstöðu reikninga í fjárhagnum. QuickBooks Online geymir ekki núgildandi stöðu fyrir alla reikninga, og því gætirðu þurft að leiðrétta upphafstöður.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  

@@ -7,7 +7,7 @@ ms.search.keywords: feature overview
 ms.date: 03/31/2023
 ms.author: jswymer
 ---
-# Tilfallandi gagnagreining
+# <a name="ad-hoc-data-analysis"></a>Tilfallandi gagnagreining
 
 Stundum þarf að greina gögn í [!INCLUDE[prod_short](includes/prod_short.md)] með aðferð sem er ekki í boði í staðlaðri skýrslu. Þetta er oft kallað „tilfallandi greining“. Hér fyrir neðan eru tenglar til að hjálpa þér að læra hvernig á að framkvæma það.
 
@@ -19,7 +19,7 @@ Stundum þarf að greina gögn í [!INCLUDE[prod_short](includes/prod_short.md)]
 | Skoða og greina Fjárhagsleg gögn með fjárhagsskýrslum | [Fjárhagsgreiningar](bi.md) |
 | Greina lista yfir gögn beint af síðu |[Greina listagögn með gagnamagniðmáti](analysis-mode.md)|
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Viðskiptagreind og skýrsluyfirlit](ui-work-report.md)
 

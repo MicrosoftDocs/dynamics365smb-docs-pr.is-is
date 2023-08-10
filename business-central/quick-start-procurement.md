@@ -12,11 +12,11 @@ ms.date: 09/29/2021
 ms.author: edupont
 ---
 
-# Stuttur leiðarvísir um innkaup
+# <a name="procurement-quick-start"></a>Stuttur leiðarvísir um innkaup
 
 Til að geta keypt vörur og þjónustu þarf fyrst að setja upp lánardrottna. Þegar því er lokið er hægt að byrja að skrá innkaupapantanir og taka á móti reikningum.  
 
-## Setja upp lánardrottna
+## <a name="set-up-vendors"></a>Setja upp lánardrottna
 
 Eftirfarandi myndband sýnir þér hvernig á að setja upp lánardrottin í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -24,13 +24,13 @@ Eftirfarandi myndband sýnir þér hvernig á að setja upp lánardrottin í [!I
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### Setja upp nýjan lánardrottin
+### <a name="set-up-a-new-vendor"></a>Setja upp nýjan lánardrottin
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 Frekari upplýsingar og annað sem þú getur gert þegar þú skráir lánardrottna er að finna í [Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md).  
 
-## Stofna nýjar innkaupapantanir
+## <a name="create-new-purchase-orders"></a>Stofna nýjar innkaupapantanir
 
 Þegar þú kaupir eitthvað af lánardrottna eru tveir kostir í boði. Sá fyrri er einfaldari, en hann er snýst bara um að stofna innkaupareikning. Aftur á móti þarf að nota innkaupapantanir ef innkaupaferlið krefst þess að hægt sé að skrá hlutamóttökur pöntunarmagns, til dæmis þar sem allt magnið var ekki tiltæk í hjá lánardrottinn.
 
@@ -40,7 +40,7 @@ Eftirfarandi myndband sýnir hvernig á að stofna innkaupapöntun í [!INCLUDE[
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### Til að búa til innkaupapöntun  
+### <a name="to-create-a-purchase-order"></a>Til að búa til innkaupapöntun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.  
 
@@ -66,11 +66,11 @@ Eftirfarandi myndband sýnir hvernig á að stofna innkaupapöntun í [!INCLUDE[
 
 Frekari upplýsingar og annað sem þú getur gert þegar þú stofnar innkaupapöntun er að finna í [Innkaup](purchasing-manage-purchasing.md).  
 
-## Stofna innkaupareikning  
+## <a name="create-a-purchase-invoice"></a>Stofna innkaupareikning
 
 Innkaupareikningur er stofnaður til að skrá kostnaðarverð keyptra vara og til að rekja viðskiptaskuldir. Að stofna innkaupareikning er svipað og að stofna innkaupapöntun.
 
-### Hvernig á að stofna og bóka innkaupareikning  
+### <a name="how-to-create-and-post-a-purchase-invoice"></a>Hvernig á að stofna og bóka innkaupareikning
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Innkaupareikningur** skal velja aðgerðina **Nýr** til að stofna nýjan innkaupareikning.
@@ -95,7 +95,7 @@ Innkaupin eru nú skráð í birgðum, forðabókum og fjármálafærslum og gre
 
 Frekari upplýsingar og annað sem þú getur gert þegar þú stofnar innkaupareikning er að finna í [Skrá innkaup með innkaupareikningum](purchasing-how-record-purchases.md).
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
 [Yfirlit yfir innkaup](Purchasing-manage-purchasing.md)  

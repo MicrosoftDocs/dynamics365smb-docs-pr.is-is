@@ -11,9 +11,9 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# Flýtivísun á lyklaborði-PC Only
+# <a name="keyboard-quick-reference---pc-only"></a>Flýtivísun á lyklaborði-PC Only
 
-#### Almennt
+#### <a name="general"></a>Almennt
 
 |Velja skal þessa lykla|Til að gera þetta|  
 |-|-|
@@ -39,7 +39,7 @@ ms.custom: bap-template
 |<kbd>Flipinn flipi</kbd>/<kbd>vaktar</kbd>+<kbd></kbd>|Færa áherslu á næstu/fyrri einingu|
 |<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Fara yfir í næsta flýtiflipa/hluta|
 
-#### Fletta & Velja raðir
+#### <a name="navigate--select-rows"></a>Fletta & Velja raðir
 
 |Velja skal þessa lykla|Til að gera þetta|
 |-|-|
@@ -53,14 +53,14 @@ ms.custom: bap-template
 |<kbd>Vaktsíða</kbd>+<kbd>allt</kbd>/<kbd>niður</kbd>|Velja sýnilegar raðir fyrir ofan/neðan|
 |<kbd>CTRL</kbd>+<kbd>Enter</kbd>|Setja áherslu utan listans|
 
-#### Afrita & líma
+#### <a name="copy--paste"></a>Afrita & líma
 
 |Velja skal þessa lykla|Til að gera þetta|
 |-|-|
 |<kbd>CTRL</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Afrita/líma raðir|
 |<kbd>F8</kbd>|Afrita reit hér að ofan í núverandi röð|
 
-#### Leit, sía, & raða
+#### <a name="search-filter--sort"></a>Leit, sía, & raða
 
 |Velja skal þessa lykla|Til að gera þetta|
 |-|-|
@@ -71,20 +71,20 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Bættu við síu á völdum reit|
 |<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Endurstilla afmarkanir|
 
-#### Snögg færsla
+#### <a name="quick-entry"></a>Snögg færsla
 
 |Velja skal þessa lykla|Til að gera þetta|
 |-|-|
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Fara í næsta reit flýtifærslu utan lista|
 |<kbd>Færa</kbd>/<kbd>skal inn Shift</kbd>+<kbd></kbd>|Fara í næsta/fyrri reit flýtifærslu|
 
-##### Forskoðun skýrslu
+##### <a name="report-preview"></a>Forskoðun skýrslu
 
 |Velja skal þessa lykla|Til að gera þetta|
 |-|-|
 |<kbd>CTRL</kbd>+<kbd>heim</kbd>/<kbd>endir</kbd>|Fara á fyrstu/síðustu síðu|
 
-#### Talnagrind
+#### <a name="numeric-keypad"></a>Talnagrind
 
 |Velja skal þessa lykla|Til að gera þetta|  
 |-|-|
