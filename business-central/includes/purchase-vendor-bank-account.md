@@ -1,8 +1,8 @@
 ---
-author: rubenseishima
+author: brentholtorf
 ms.topic: include
-ms.date: 06/30/2022
-ms.author: a-reishima
+ms.date: 08/03/2023
+ms.author: bholtorf
 ---
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
@@ -15,4 +15,4 @@ ms.author: a-reishima
 > Sumir reitir eru faldir þar til þú velur aðgerðina **Sýna fleiri**, yfirleitt vegna þess að þeir eru sjaldan notaðir. Öðrum verður að bæta við með sérstillingu. Frekari upplýsingar eru í [Sérstilling verksvæðis](../ui-personalization-user.md).
 
 > [!WARNING]
-> Sumir reitir í bankareikningi lánardrottins innihalda viðkvæm viðskiptagögn eins og **Útibúsnúmer banka**, **Bankareikningsnr.**, **SWIFT-kóði** og **IBAN-númer**. Frekari upplýsingar um hvernig á að fylgjast með og fá tilkynningu þegar einhver breytir gildi í þessum reitum er að finna í [Fylgst með viðkvæmum reitum](../across-log-changes.md#monitoring-sensitive-fields).
+> Sumir reitir í bankareikningi lánardrottins innihalda viðkvæm viðskiptagögn eins og **Útibúsnúmer banka**, **Bankareikningsnr.**, **SWIFT-kóði** og **IBAN-númer**. Nánari upplýsingar um hvernig á að fylgjast með og vera tilkynnt um þegar einhver breytir gildi í þessum reitum eru  [í Monitor-viðkvæmum svæðum](../across-log-changes.md#monitor-sensitive-fields).

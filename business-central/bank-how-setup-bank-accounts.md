@@ -2,14 +2,13 @@
 title: Upspetning bankareikninga (inniheldur myndskeið)
 description: Kynntu þér hvernig bankareikningar eru notaðir í Business Central og hvernig hægt er að stemma af upphæðir með bankanum.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'Yodlee, feed, stream'
 ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
-ms.date: 01/24/2022
-ms.author: edupont
+ms.date: 08/03/2023
+ms.custom: bap-template
 ---
 # Bankareikningar settir upp
 
@@ -79,7 +78,7 @@ Sjá í myndbandinu hér að neðan grunnskref til að setja upp bankareikning �
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
 > [!WARNING]
-> Sumir reitir geta innihaldið viðkvæm gögn eins og reitirnir **Útibúsnúmer banka**, **Bankareikningsnr.**, **SWIFT-kóði** og **IBAN-númer**. Frekari upplýsingar er að finna á [Fylgst með viðkvæmum reitum](across-log-changes.md#monitoring-sensitive-fields).
+> Sumir reitir geta innihaldið viðkvæm gögn eins og reitirnir **Útibúsnúmer banka**, **Bankareikningsnr.**, **SWIFT-kóði** og **IBAN-númer**. Lærðu meira á að  [fylgjast með viðkvæmum svæðum](across-log-changes.md#monitor-sensitive-fields).
 
 ## Bankareikningar settir upp
 

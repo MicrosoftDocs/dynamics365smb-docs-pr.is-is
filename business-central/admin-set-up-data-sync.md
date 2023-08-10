@@ -46,6 +46,9 @@ Eftirfarandi eru kröfur um uppsetningu samstillingar.
 
 Fyrstu skrefin eru að tilgreina fyrirtæki sem verður gagnagjafi og virkjar samstillingu. Dótturfyrirtæki með draga gögn úr upprunafélaginu.
 
+> [!NOTE]
+> Þegar samstilling er gerð virk,  [!INCLUDE [prod_short](includes/prod_short.md)]  stofnar og Raðar færslum í vinnslu sem samstilla gögnin. Það gæti litið út fyrir að færslurnar samkeyra gögnin strax, en það er ekki tilfellið. Aðeins færslur fyrir stofnaðar vinnslubiðraðar samkeyra miðafærslum og á þessum tímapunkti hefur það ekki verið gert enn. Samstilling hefst eftir að  [töflur og svæði](#enable-or-disable-tables-and-fields)  [eru gerð virk eða óvirk í fyrsta sinn](#synchronize-for-the-first-time).
+
 1. Í dótturfyrirtæki skal velja þá  ![ljósaperu sem opnar aðgerðina segja mér upp.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **uppsetningu** á aðalgagnateikni og velja síðan tengda tengilinn.
 1.  **Í reitnum Upprunafélagið**  skal tilgreina fyrirtækið sem á að draga breytingar úr.
 1. Kveikja á Virkja skipta á  **samstillingu** .
