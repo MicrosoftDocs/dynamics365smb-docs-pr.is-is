@@ -10,11 +10,11 @@ ms.search.keywords: 'phone, tablet'
 ms.date: 01/11/2022
 ms.author: jswymer
 ---
-# <a name="get-business-central-desktop-app"></a>Sækja Business Central-skjáborðsforrit
+# Sækja Business Central-skjáborðsforrit
 
 Ef þú ert með Windows (PC) eða macOS-tölvu geturðu sett upp Business Central forrit á skjáborðið. Forritið virkar með Business Central Online og á staðnum.
 
-## <a name="why-use-the-app"></a>Hvers vegna að nota forritið?
+## Hvers vegna að nota forritið?
 
 Business Central forritið líkist vefbiðlaranum, en það býður að auki upp á nokkra ávinninga:
 
@@ -25,11 +25,11 @@ Business Central forritið líkist vefbiðlaranum, en það býður að auki upp
 
      Þegar forritið er opnað fyrir tiltekið umhverfi er heiti umhverfisins haft með í titlinum á glugganum. Þegar unnið er í mörgum [!INCLUDE[prod_short](includes/prod_short.md)] umhverfum er hver forritsgluggi sérstaklega sýndur. Heitið auðveldar að sjá hvaða gluggi tengist hvaða umhverfi.
 
-## <a name="install-the-app-for-business-central-online"></a>Setja upp forritið fyrir Business Central Online
+## Setja upp forritið fyrir Business Central Online
 
 Tvær leiðir eru til að setja upp forritið fyrir Business Central Online. Þú getur sett það upp beint úr vafranum eða úr Microsoft Store. Þetta er sama forritið burtséð frá aðferðinni sem þú notar. Munurinn er sá að með því að setja upp í vafranum geturðu sett forritið upp fyrir hvert umhverfi þegar það eru fleiri en eitt.
 
-### <a name="from-microsoft-store"></a>Frá Microsoft Store
+### Frá Microsoft Store
 
 1. Opna [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Veldu **Sækja** > **uppsetningu**. 
@@ -37,7 +37,7 @@ Tvær leiðir eru til að setja upp forritið fyrir Business Central Online. Þ�
 
 Næst þegar þú vilt opna forritið skaltu leita að því í **Upphafsvalmyndinni**.
 
-### <a name="from-the-browser"></a>Úr vafra
+### Úr vafra
 
 1. Opnaðu [!INCLUDE[prod_short](includes/prod_short.md)] vefbiðlarann í annaðhvort Microsoft Edge eða Google Chrome.
 
@@ -57,7 +57,7 @@ Næst þegar þú vilt opna forritið skaltu leita að því í **Upphafsvalmynd
 
 Þegar forrit er uppsett birtist það í **Upphafsvalmyndinni**. Ef þú hefur valið tiltekið umhverfi fyrir forritið er heiti umhverfisins bætt við forritsheitið í **Upphafsvalmyndinni**.
 
-## <a name="install-the-app-for-business-central-on-premises"></a>Setja upp forritið fyrir Business Central á staðnum
+## Setja upp forritið fyrir Business Central á staðnum
 
 Uppsetning skjáborðsforritsins þegar Business Central á staðnum er notað er gert beint úr vafranum eins og [lýst er hér að ofan](#from-the-browser). Ef þú ert bara með einn leigjanda skaltu opna Business Central í vafranum og velja svo annaðhvort ![Tákn fyrir uppsetningu forrits í Edge.](media/ui-edge-install-app-icon.png) **Forrit tiltækt. Setja upp Business Central** eða ![Tákn fyrir uppsetningu forrits í Chrome.](media/ui-chrome-install-app-icon.png) **Settu upp Business Central** eins og sýnt er hér að ofan.
 
@@ -66,9 +66,9 @@ Munurinn er þegar þú ert með marga leigjendur. Ólíkt [!INCLUDE[prod_short]
 > [!IMPORTANT]
 > Ef þú notar Business Central 2021 útgáfutímabil 1 (útgáfu 18) eða eldra geturðu ekki sett upp forritið eins og lýst er í þessari grein. Í staðinn skaltu setja upp forritið af [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Frekari upplýsingar og hjálp varðandi uppsetningu á þessari eldri útgáfu forritsins er að finna í [Undirbúningur og uppsetning Business Central-forritsins](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## Sjá tengda [Microsoft þjálfun](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Algengar spurningar um farsímaforrit](ui-mobile-faq.yml)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  

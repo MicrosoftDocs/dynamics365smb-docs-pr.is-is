@@ -11,13 +11,13 @@ ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: edupont
 ---
-# <a name="process-sales-return-orders"></a>Vinna söluvöruskilapantanir
+# Vinna söluvöruskilapantanir  
 
 Ef þú þarft meiri stjórn á söluskilaferlinu, eins og t.d. vöruhúsaskjöl fyrir vöruafgreiðsluna eða betra yfirlit yfir móttöku vara frá mörgum söluskjölum með einum vöruskilum, geturðu stofnað söluvöruskilapöntun. Söluvöruskilapöntun gefur út sjálfkrafa tengdan sölukreditreikning og önnur skilatengd skjöl, eins og skiptivörusölupöntun, ef þarf.
 
 Auk upprunalega bókaðs sölureiknings, er hægt að jafna sölukreditreikning eða söluvöruskilapöntun við öðrum söluskjölum, t.d. aðra bókað sölureikninga, þar sem viðskiptamaðurinn er einnig að skila vörum sem voru afhentar með viðkomandi reikningi.
 
-## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Stofna skilapöntun sölu byggða á einu eða fleiri bókuðu söluskjali
+## Stofna skilapöntun sölu byggða á einu eða fleiri bókuðu söluskjali  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Söluvöruskilapantanir** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð.  
@@ -67,7 +67,7 @@ Auk upprunalega bókaðs sölureiknings, er hægt að jafna sölukreditreikning 
 10. Á síðunni **Söluvöruskilapöntun** í reitnum **Ástæðukóði skila** á hverri línu, skal velja ástæðu skilanna.
 11. Valið er **Bóka** aðgerðin.
 
-## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Stofnuð sölupöntun fyrir skiptuvöru úr söluskilapöntun
+## Stofnuð sölupöntun fyrir skiptuvöru úr söluskilapöntun
 Ef til vill á að bjóða viðskiptamanni bætur vegna vöru sem honum var seld með því að skipta á henni. Hægt er að bjóða sömu vöru í skiptum eða aðra vöru. Þessi staða getur komið upp ef til dæmis hefur verið send röng vara.  
 
 1. Á síðunni **Söluvöruskilapöntun** fyrir virkt skilaferli, er í auðri línu búin til neikvæð færsla vegna skiptivörunnar með því að færa inn neikvætt magn í reitinn **Magn**.  
@@ -75,7 +75,7 @@ Ef til vill á að bjóða viðskiptamanni bætur vegna vöru sem honum var seld
 3. Á síðunni **Flytja neikvæðar sölulínur** skal fylla út reitina eins og þörf krefur.
 4. Velja hnappinn **Í lagi**. Neikvæðu línunni fyrir skilavörunni er eytt úr söluvöruskilapöntun og sett inn í nýja síðu af gerðinni **Sölupöntun**. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 
-## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Stofna skilatengd skjöl fyrir söluvöruskilapöntun
+## Stofna skilatengd skjöl fyrir söluvöruskilapöntun
 Hægt að stofna sölupantanir fyrir skiptivöru, vöruskilapantanir innkaupa og innkaupapantanir fyrir skiptivöru sjálfvirkt á meðan á ferli söluvöruskila stendur. Þessa aðgerð er hægt að nota til dæmis þegar vinna á með vöru í ábyrgð frá lánardrottnum.
 
 1. Á síðunni **Söluvöruskilapöntun** skal velja **Stofna skilatengd skjöl** aðgerðina fyrir virkt skilaferli.
@@ -84,7 +84,7 @@ Hægt að stofna sölupantanir fyrir skiptivöru, vöruskilapantanir innkaupa og
 4. Ef panta þarf skilavöru frá lánardrottins, skal velja **Stofna innkaupapöntun** gátreitinn.
 5. Ef sölupöntun fyrir skiptivöru þarf að stofna, velja **Stofna sölupöntun** gátreitinn.
 
-## <a name="to-create-a-restock-charge"></a>Stofnað endurkaupagjald
+## Stofnað endurkaupagjald
 Ef til vill er rétt að krefja viðskiptamann um endurkaupagjald til að standa straum af kostnaði við vöruskil. Þetta getur til dæmis verið hentugt ef viðskiptamaður hefur fyrir mistök pantað ranga vöru eða hætt við pöntun eftir móttöku vörunnar sem honum var seld.
 
 Hægt er að bóka þessa hækkun kostnaðar sem kostnaðarauka á kreditreikningi eða vöruskilapöntun og úthluta því á bókaða afhendingu. Eftirfarandi lýsir því söluvöruskilapöntun, en sömu skref eiga við um sölukreditreikning.
@@ -95,9 +95,9 @@ Hægt er að bóka þessa hækkun kostnaðar sem kostnaðarauka á kreditreiknin
 
 Þegar söluskilapöntunin er bókuð er endurkaupagjaldi bætt við viðkomandi upphæð sölufærslu. Þannig er hægt að vinna með nákvæmt birgðaverðmat.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

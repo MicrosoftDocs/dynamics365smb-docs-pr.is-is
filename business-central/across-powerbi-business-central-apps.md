@@ -1,22 +1,16 @@
 ---
 title: Notka Business Central-forrit í Power BI
-description: Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central gögnum með Business Central forritunum fyrir Power BI.
+description: 'Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central gögnum með Business Central forritunum fyrir Power BI.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a0ea051ec39b290706b30da455fce518cd7bdcd0
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533376"
 ---
-# <a name="use-the--apps-in-power-bi"></a>Nota [!INCLUDE [prod_short](includes/prod_short.md)]-forrit í Power BI
+# Nota [!INCLUDE [prod_short](includes/prod_short.md)]-forrit í Power BI
 
 > **Á VIÐ:** [!INCLUDE [prod_long](includes/prod_long.md)] á netinu 
 
@@ -26,7 +20,7 @@ ms.locfileid: "9533376"
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Finance  
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Sales
 
-## <a name="overview"></a>Yfirlit
+## Yfirlit
 
 Í hverju forriti eru nokkrar skýrslur sem hægt er að skoða nánar, þar á meðal eftirfarandi eiginleika:
 
@@ -40,7 +34,7 @@ Forritin eru hönnuð til að vinna með gögn frá hvaða fyrirtæki sem er í 
 > [!NOTE]
 > Einnig er hægt að búa til eigin skýrslur og yfirlit í Power BI á grundvelli þinna [!INCLUDE[prod_short](includes/prod_short.md)] gagna. Nánari upplýsingar eru í [Tengja viðskiptagögn þín við Power BI](across-how-use-financials-data-source-powerbi.md), . 
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
 Power BI forrit þarfnast heimildar í töflur þaðan sem gögn eru sótt úr og vefþjónustuna sem er notuð til að sækja gögnin. Eftirfarandi tafla sýnir vefþjónustuna sem er áskilin fyrir hvert Power BI-forrit:
     
@@ -53,11 +47,11 @@ Power BI forrit þarfnast heimildar í töflur þaðan sem gögn eru sótt úr o
 > [!TIP]
 > Auðveld leið til að finna vefþjónustu er að leita að *vefþjónustu* í [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Vefþjónusta** skal ganga úr skugga um að reiturinn **Birta** sé valinn fyrir vefþjónustuna sem finna má að ofan. Frekari upplýsingar er að finna í [Birta vefþjónustu](across-how-publish-web-service.md).
 
-## <a name="get-ready"></a>Vertu með allt á tæru
+## Vertu með allt á tæru
 
 Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
 
-## <a name="install-a--app-in-power-bi"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forrit í Power BI
+## Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forrit í Power BI
 
 1. Opnaðu vafrann þinn, farðu á [https://powerbi.microsoft.com](https://powerbi.microsoft.com) og skráðu þig inn á reikninginn þinn.
 2. Velja skal **Sækja gögn** neðst til vinstri á yfirlitssvæðinu.  
@@ -75,7 +69,7 @@ Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skrá
 
     Þegar því er lokið verður forritið í boði af yfirlitsvalmyndinni **Forrit** í Power BI.
 
-## <a name="connect-the--app-to-your-data"></a>Tengdu [!INCLUDE[prod_short](includes/prod_short.md)]-forritið við gögnin þín
+## Tengdu [!INCLUDE[prod_short](includes/prod_short.md)]-forritið við gögnin þín
 
 1. Í **Forrit** skal velja Business Central-forritið og síðan **Tengja**.
 2. Þegar beðið er um það skal fylla út **Heiti fyrirtækis** og **Umhverfi** með upplýsingum um [!INCLUDE[prod_short](includes/prod_short.md)] tilvik sem á að tengjast við.
@@ -90,23 +84,23 @@ Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skrá
 
     ![Velja Dynamics 365 Business Central og velja Fá núna.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-## <a name="fixing-problems"></a>Vandamál lagfærð
+## Vandamál lagfærð
 
 Power BI yfirlitið reiðir sig á birtar vefþjónustur sem eru í listanum hér að ofan. Hún sýnir gögn sýnifyrirtækis eða eigin fyrirtækis ef þú flytur inn gögn úr núverandi fjárhagslausnum þínum. Hins vegar, ef eitthvað fer úrskeiðis, þessi kafli gefur lausn fyrir dæmigerður vandamál.  
 
-### <a name="you-dont-have-a-power-bi-account"></a>Þú ert ekki með Power BI reikning
+### Þú ert ekki með Power BI reikning
 
 Power BI-Reikningur hefur ekki verið settur upp. Þú verður að hafa leyfi til að fá gildan Power BI-reikning. Einnig þarftu að hafa skráð þig inn áður á Power BI til að stofna Power BI vinnusvæði.  
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Skilaboð: Engar skýrslur eru virkar. Veljið Velja skýrslu til að sjá hvaða skýrslur er hægt að birta.
+### Skilaboð: Engar skýrslur eru virkar. Veljið Velja skýrslu til að sjá hvaða skýrslur er hægt að birta.
 
 Þessi skilaboð birtast ef ekki tókst að virkja sjálfgefna skýrslu á Power BI vinnusvæði. Eða að skýrslan var virkjuð en ekki tókst að uppfæra hana. Ef þetta vandamál kemur upp skal fara í skýrsluna á Power BI vinnusvæðinu, velja **Gagnasafn**, **Stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnasafnið hefur verið endurnýjað er farið aftur í [!INCLUDE[prod_short](includes/prod_short.md)] og valið skýrslu handvirkt af **Velja skýrslur** síðunni.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi"></a>Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forritið í Power BI
+### Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forritið í Power BI
 
 Þú þarft [Power BI Pro leyfi](/power-bi/service-features-license-type) til að deila efninu þínu og einnig fólkið sem þú deilir því með. Efnið verður að vera á vinnusvæði með [Premium réttindi](/power-bi/service-premium-what-is). Nánari upplýsingar eru í [Aðferðir við að deila vinnu þinn í Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
-### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>„Sannprófun færibreyta tókst ekki, vinsamlegast vertu viss um að allar færibreytur séu gildar“
+### „Sannprófun færibreyta tókst ekki, vinsamlegast vertu viss um að allar færibreytur séu gildar“
 
 Þessi villa gefur til kynna að ein færibreyta til viðbótar sé ekki gild.
 
@@ -115,7 +109,7 @@ Power BI-Reikningur hefur ekki verið settur upp. Þú verður að hafa leyfi ti
 - Ef tengst er við [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum var ógild vefslóð slegin inn. Þú getur staðfest vefslóðina á síðunni **Vefþjónusta** í [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Tengi er ekki opið til að leyfa beiðni í gegnum eldvegginn.
 
-### <a name="cant-sign-in"></a>Innskráning tókst ekki
+### Innskráning tókst ekki
 
 Ef þú færð „innskráning mistókst“ þegar þú skráir þig inn með [!INCLUDE[prod_short](includes/prod_short.md)] notandaskilríkjum er það líklega út af einu af eftirfarandi vandamálum:
 
@@ -123,36 +117,36 @@ Ef þú færð „innskráning mistókst“ þegar þú skráir þig inn með [!
 - Þú hefur valið aðra sannvottunargerð en grunngerðina ef tengst er við [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum.
 - Þú hefur ekki slegið inn gilt notandanafn eða aðgangsorð.
 
-### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Skilaboð: ekki er hægt að endurnýja gagnagjafa vegna þess að skilríkin eru ógild. Uppfærðu heimildirnar þínar og reyndu aftur
+### Skilaboð: ekki er hægt að endurnýja gagnagjafa vegna þess að skilríkin eru ógild. Uppfærðu heimildirnar þínar og reyndu aftur
 
 Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum kann vandamálið að vera vegna þess að vefslóðin að OData hafi aðeins orðið til á staðbundnu neti.
 
-### <a name="incorrect-company-name"></a>Rangt fyrirtækjaheiti
+### Rangt fyrirtækjaheiti
 
 Algeng mistök eru að slá inn birtingarnafn fyrirtækis í stað nafn fyrirtækis. Til að finna nafn fyrirtækisins skal leita að **Fyrirtæki**. Svo skal nota reitinn **Nafn** þegar nafn fyrirtækisins er slegið inn.
 
-### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Lykillinn passaði ekki við neinar línur í töflunni
+### Lykillinn passaði ekki við neinar línur í töflunni
 
 Ef þú slærð inn ógilt heiti fyrirtækis meðan á tengingarferlinu stendur geturðu fengið villuskilaboðin „Lykillinn passaði ekki við neinar línur í töflunni“. Gefðu upp rétt nafn fyrirtækis og reyndu að tengjast aftur.
 
-### <a name="historical-data-appears-to-be-missing"></a>Eldri gögn virðist vanta
+### Eldri gögn virðist vanta
 
 Þegar Power BI-forritið er uppsett og gögnin birtast í Power BI er hugsanlegt að þú sjáir ekki öll gögnin þín. Gagnasöfnin eru síuð til að skila eingöngu gögnum fyrir síðastliðna 365 daga. Þessi sjálfgefna stilling er til staðar til að hraða skýrslunum.  
 
-### <a name="i-only-see-data-for-a-single-company"></a>Ég sé bara gögn fyrir eitt fyrirtæki
+### Ég sé bara gögn fyrir eitt fyrirtæki
 
 Power BI-forritið sýnir aðeins gögn úr [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtækinu sem var skilgreint þegar Power BI-forritið var sett upp. Hægt er að bæta gögnum frá viðbótarfyrirtækjum við skýrslurnar með því að bæta við nýjum fyrirspurnum sem nota mismunandi fyrirtæki sem gagnaveitu.  
 
-### <a name="what-now"></a>Hvað núna?
+### Hvað núna?
 
 - Prófaðu [að slá inn spurningu í reitinn Spurningar og svör](/power-bi/service-q-and-a-tips) efst á yfirlitinu.
 - [Breyta reitum](/power-bi/service-dashboard-edit-tile) á yfirlitinu.  
 - [Velja reit](/power-bi/service-dashboard-tiles) til opna undirliggjandi skýrslu.  
 - Sjálfgefið er að gagnasafnið sé ekki áætlað til endurnýjunar. Hægt er að breyta uppfærsluáætluninni eða uppfæra hana hvenær sem er í **Uppfæra núna**. Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

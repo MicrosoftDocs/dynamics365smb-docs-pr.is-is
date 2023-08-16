@@ -251,7 +251,7 @@
 ### [Láta Business Central leggja til gildi](ui-let-system-suggest-values.md)
 ### [Nota kortaþjónustu til að finna staðsetningar og leiðsagnir](across-online-maps.md)
 
-### Fylgiskjöl á innleið
+### Skjöl á innleið
 #### [Yfirlit skjala á innleið](across-income-documents.md)
 #### [Setja upp skjöl á innleið](across-how-setup-income-documents.md)
 #### [Stofna færslur skjala á innleið](across-how-create-income-document-records.md)
@@ -350,6 +350,7 @@
 
 ### Stjórna VSK
 #### [VSK-stjórnunaryfirlit](finance-manage-vat.md)
+#### [Innkaupafærslur þriðja aðila innan ESB](finance-how-to-eu3party-trade-purchase.md)
 #### Setja upp VSK
 ##### [Setja upp virðisaukaskatt](finance-setup-vat.md)
 ##### [Uppsetning bókunarflokks](finance-posting-groups.md#tax-posting-groups)
@@ -474,7 +475,7 @@
 ### [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)
 ### [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)
 
-## Sölur
+## Sala
 ### [Söluyfirlit](sales-manage-sales.md)
 ### [Söluskýrslu](sales-reports.md)
 ### [Kynning: Framkvæmd söluherferðar](walkthrough-conducting-a-sales-campaign.md)
@@ -1738,7 +1739,7 @@
 #### [Greining sjóðstreymis](finance-setup-cash-flow-analyses.md)
 #### [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)
 
-### Sölur
+### Sala
 #### [Söluskýrslu](sales-reports.md)
 #### [Staða standandi sölupöntunar](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
 #### [Pakkarakning](sales-how-track-packages.md)
@@ -1848,7 +1849,7 @@
 ### Stjórna aðgangi að Business Central
 #### [Yfirlit](admin-access-overview.md)
 #### [Stjórna aðgangi að Business Central með öryggishópum](ui-security-groups.md)
-#### Aðgangur með Microsoft 365 leyfum
+#### Aðgangur með Microsoft 365-leyfum
 ##### [Yfirlit](admin-access-with-m365-license.md)
 ##### [Setja upp aðgang með Microsoft 365 leyfum](admin-access-with-m365-license-setup.md)
 ##### [Aðgangsflæði notanda](admin-access-with-m365-license-flow.md)
@@ -1994,13 +1995,13 @@
 #### [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)
 <!--migrate to BC online-->
 ## Flytja yfir í Business Central Online
-### [Flutningur á gögnum á staðnum](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
-### [Keyra verkfæri skýjaflutnings](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
-### [Stjórna flutningnum í skýið](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
+### [Kynning](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
+<!--### [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)-->
+### [Stjórnun flutnings í skýið](/dynamics365/business-central/dev-itpro/administration/migration-manage?toc=/dynamics365/business-central/toc.json)
 ### [Flutningur úr Business Central á staðnum](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Flutningur úr Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
-### [Flutningur úr Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Algengar spurningar um flutning í skýið](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+<!--### [Migrating from Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)-->
+### [Algengar spurningar um flutning í skýið](/dynamics365/business-central/dev-itpro/administration/faq-migrate-data?toc=/dynamics365/business-central/toc.json)
 ## [Stjórnun á Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Þróun](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Öryggi og vörn](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

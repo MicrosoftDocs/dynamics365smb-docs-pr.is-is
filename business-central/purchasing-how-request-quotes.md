@@ -11,16 +11,16 @@ ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022
 ms.author: edupont
 ---
-# <a name="request-quotes"></a>Biðja um tilboð
+# Biðja um tilboð
 
 Hægt er að nota innkaupabeiðni sem uppkast fyrir innkaupapöntun sem síðan er hægt að breyta í innkaupareikning.
 
-## <a name="create-a-purchase-quote"></a>Stofna innkaupabeiðni
+## Stofna innkaupabeiðni
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupabeiðnir**, velja síðan viðkomandi tengil.
 2. Stofna nýtt skjal á sama hátt og þú býrð til innkaupapöntun. Frekari upplýsingar eru á [Skrá innkaup](purchasing-how-record-purchases.md).
 
-## <a name="convert-a-purchase-quote-to-a-purchase-order"></a>Umbreyta innkaupabeiðni í innkaupapöntun
+## Umbreyta innkaupabeiðni í innkaupapöntun
 
 Þegar þú hefur samþykkt tilboð lánardrottins geturðu breytt því í innkaupapöntun til að vinna úr innkaupunum.
 
@@ -31,9 +31,9 @@ Innkaupabeiðnin er fjarlægt úr gagnagrunninum. Innkaupapöntun er stofnuð ú
 > [!NOTE]
 > Ekki er hægt að breyta innkauptilboði í innkaupareikning á beinan hátt, eins og er hægt með sölutilboð. Upplýsingar um hvernig á að stofna innkaupareikning er að finna í [Skrá innkaup með innkaupareikningum](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-purchase-documents-dynamics-365-business-central/).
+## Sjá tengda [Microsoft þjálfun](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  

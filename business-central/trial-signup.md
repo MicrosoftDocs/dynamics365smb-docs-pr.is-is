@@ -8,15 +8,15 @@ ms.author: edupont
 ms.date: 05/25/2022
 ---
 
-# <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Skráðu þig í ókeypis Dynamics 365 Business Central prufu
+# Skráðu þig í ókeypis Dynamics 365 Business Central prufu
 
 Business Central býður upp á ókeypis prufutíma. Eftir fljólega nýskráningu færðu aðgang að mörgum lykileiginleikum forritsins. Prufuútgáfan gerir þér kleift að prófa forritið með sýnigögnum. Ef þú vilt prófa hluti með gögnunum þínum skaltu skipta yfir í 30 daga ókeypis prufuútgáfu. [Frekari upplýsingar um eiginleika Business Central](across-business-functionality.md).  
 
-## <a name="to-sign-up-for-the-trial"></a>Að skrá sig fyrir prufuútgáfu
+## Að skrá sig fyrir prufuútgáfu
 
 [!INCLUDE [trial-get](includes/trial-get.md)]
 
-## <a name="what-to-try"></a>Hvað á að prófa
+## Hvað á að prófa
 
 Prufuumhverfið þitt inniheldur sömu eiginleika og greidda útgáfan. Tenglarnir að neðan leiða þig í gegnum nokkra af lykileiginleikunum.
 
@@ -25,7 +25,7 @@ Prufuumhverfið þitt inniheldur sömu eiginleika og greidda útgáfan. Tenglarn
 - [Komdu hlutunum í verk](ui-work-product.md)  
 - [Flýtiræsingar](quick-start-business-central.md)  
 
-## <a name="get-started-with-a-subscription"></a>Hafist handa með áskrift
+## Hafist handa með áskrift
 
 Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner). Endursöluaðili getur hjálpað þér að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] í samræmi við fyrirtækið þitt, þar á meðal flutt inn gögn úr fyrra kerfi. Einnig er hægt að sérstilla [!INCLUDE[prod_short](includes/prod_short.md)] með því að bæta við forritum frá [Markaðstorgi Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
@@ -38,9 +38,9 @@ Einnig er hægt að hafa samband við [[!INCLUDE[prod_short](includes/prod_short
 
 Frekari upplýsingar um hvað hægt er að gera við [!INCLUDE [prod_short](includes/prod_short.md)] eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md) og [Viðskiptavirkni](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
 
-## <a name="additional-resources"></a>Frekari upplýsingar
+## Frekari upplýsingar
 
 - [Skoðaðu myndbandasafnið okkar](across-videos.md)  
 - [Algengar spurningar um prufuútgáfu](trial-faq.md)  

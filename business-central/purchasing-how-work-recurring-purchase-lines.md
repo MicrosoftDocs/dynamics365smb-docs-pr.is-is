@@ -11,11 +11,11 @@ ms.search.form: 177
 ms.date: 07/06/2022
 ms.author: a-reishima
 ---
-# <a name="create-recurring-purchase-lines"></a>Stofna endurteknar innkaupalínur
+# Stofna endurteknar innkaupalínur
 
 Ef þú þarft oft að stofna innkaupalínur með svipuðum upplýsingum geturðu sett upp staðlaðar línur sem þú getur svo fært inn í endurtekin innkaupaskjöl, til dæmis fyrir endurteknar áfyllingapantanir.
 
-## <a name="set-up-recurring-purchase-lines"></a>Setja upp endurteknar innkaupalínur
+## Setja upp endurteknar innkaupalínur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurteknar innkaupalínur** og velja síðan viðkomandi tengil.
 2. Á síðunni **Endurteknar innkaupalínur** skal velja aðgerðina **Nýtt**.
@@ -27,7 +27,7 @@ Ef þú þarft oft að stofna innkaupalínur með svipuðum upplýsingum geturð
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="assign-recurring-purchase-lines-to-a-vendor"></a>Úthluta endurteknum innkaupalínum á lánardrottin
+## Úthluta endurteknum innkaupalínum á lánardrottin
 
 Úthlutaðu einum eða fleiri endurteknum innkaupalínum á lánardrottin þannig að hægt sé að setja þær inn á söluskjöl fyrir þann lánardrottin.
 
@@ -44,7 +44,7 @@ Ef þú þarft oft að stofna innkaupalínur með svipuðum upplýsingum geturð
 |**Sjálfvirkt**|Ef margar endurteknar innkaupalínur eru til fyrir lánardrottin færðu tilkynningu þar sem þú getur valið eina til að setja inn. Ef aðeins ein endurtekin innkaupalína er til staðar verður hún sett inn sjálfkrafa.<br /><br />Þetta virkar aðeins ef nýja skjalið var búið til úr skjalalista, til dæmis með því að velja aðgerðina **Nýtt** á síðunni **Innkaupapantanir**. Þetta virkar ekki ef skjalið var búið til úr lánardrottnaspjaldi sem dæmi.|
 |**Spyrja alltaf**|Tilkynning birtist og allar núverandi endurteknar innkaupalínur eru sýndar þannig að hægt er að velja eina.
 
-## <a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a>Setja endurteknar innkaupalínur inn á innkaupareikning
+## Setja endurteknar innkaupalínur inn á innkaupareikning
 
 Ef endurteknar innkaupalínur eru til fyrir lánardrottin getur þú sett þær inn eða látið bæta þeim við sjálfkrafa á allar tegundir innkaupaskjala, t.d. innkaupareikning. Ef þú hefur virkjað valkostina **Alltaf spyrja** og úthlutað endurteknum innkaupalínum á lánardrottna verður látið vita ef endurteknar innkaupalínur eru til.
 
@@ -54,7 +54,7 @@ Ef endurteknar innkaupalínur eru til fyrir lánardrottin getur þú sett þær 
 4. Á síðunni **Endurteknar innkaupalínur** skal velja uppflettihnappinn í reitnum **Kóði** og síðan velja safn staðlaðra innkaupalína.
 5. Veldu hnappinn **Í lagi** til að setja staðlaðar innkaupalínur á reikninginn þar sem þú getur endurnýtt þær eins og þær eru eða breyttu upplýsingunum.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  
 [Setja upp innkaup](purchasing-setup-purchasing.md)  
