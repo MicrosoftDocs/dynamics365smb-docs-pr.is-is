@@ -11,7 +11,7 @@ ms.search.form: '113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 921
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# Stofna fjárhagsáætlunum
+# <a name="create-gl-budgets"></a>Stofna fjárhagsáætlunum
 
 Hægt er að útbúa margar áætlanir fyrir sömu tímabil með því að stofna áætlanir undir aðskildum heitum. Fyrst er heiti áætlunar sett upp og áætlunarupphæðir færðar inn. Þá er heiti áætlunarinnar haft með við allar áætlunarfærslur sem stofnaðar eru.  
 
@@ -21,7 +21,7 @@ Fjárhagsáætlanir gegna mikilvægu hlutverki í viðskiptagreind. Sem dæmi m�
 
 Í kostnaðarbókhaldi vinnurðu með kostnaðaráætlun á svipaðan hátt. Frekari upplýsingar má finna í [Stofna kostnaðaráætlanir](finance-create-cost-budgets.md).  
 
-## Að búa til nýja fjárhagsáætlun
+## <a name="to-create-a-new-gl-budget"></a>Að búa til nýja fjárhagsáætlun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsáætlanir** og velja síðan viðkomandi tengil.  
 2. Veldu aðgerðina **Breyta lista**, fylltu svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ Fjárhagsáætlanir gegna mikilvægu hlutverki í viðskiptagreind. Sem dæmi m�
 > [!NOTE]  
 > Á flýtiflipanum **Afmarkanir** geturðu afmarkað upplýsingar um fjárhagsáætlun með fjárhagsáætlunarvíddum, sem hafa verið settar upp undir heiti fjárhagsáætlunar.
 
-## Útflutningur og innflutningur fjárhagsáætlana með Excel
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Útflutningur og innflutningur fjárhagsáætlana með Excel
 
 Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum fjárhagsáætlunar til Microsoft Excel til frekari vinnslu eða greiningu. Frekari upplýsingar eru í [Flutningur viðskiptagagna í Excel](about-export-data.md).
 
@@ -45,7 +45,7 @@ Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum
 
 Í samræmi við það, þegar þú flytur inn fjárhagsáætlun, er öllum gildum í línum yfirskriftar eytt. Þetta er til að koma í veg fyrir rangar samtölur eftir innflutning gagna sem hafa verið búin til eða breytt í Excel.
 
-### Aðstæður
+### <a name="scenario"></a>Aðstæður
 
 Þú veist að nýi áætlaði launakostnaðurinn kemur til með að vera 1.200.000 í staðbundnum gjaldmiðli (SGM). Þú vilt gera launadeildinni kleift að gera fjárhagsáætlun fyrir þessar þrjár tilteknu línur (af lyklagerðinni bókun) fyrir starfsmenn í fullu starfi, starfsmenn í hlutastarfi og tímabundna aðstoð. Línurnar þrjár eru flokkaðar undir fyrirsagnarlínu launa.
 
@@ -53,9 +53,9 @@ Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum
 
 Launadeildin úthlutar upphæðinni á bókunarlyklana þrjá. Þegar þú flytur aftur inn í fjárhagsáætlun er fyllt út í lyklana þrjá með nýju Excel-gögnunum, sem verður samanlagt 1.200.000 SGM og fyrirsagnarlínan er auð.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Flutningur viðskiptagagna í Excel](about-export-data.md)  
 [Fjármál](finance.md)  

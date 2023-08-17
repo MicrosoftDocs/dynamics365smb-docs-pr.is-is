@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Uppsetning bestu venjur: Uppsetning altækra áætlanna
+# <a name="setup-best-practices-global-planning-setup"></a>Uppsetning bestu venjur: Uppsetning altækra áætlanna
 Flýtiflipinn **Áætlun** á síðunni **Framleiðslugrunnur** inniheldur nokkra reiti sem skilgreina altækar reglur fyrir framboðsáætlun.  
 
  Eftirfarandi tafla gefur upp bestu venjur um uppsetningu valinna altækra áætlunarfæribreytareita. Nánari upplýsingar um reit fást með því að velja tengilinn í dálkinum **Uppsetningarreitur**.  
@@ -23,7 +23,7 @@ Flýtiflipinn **Áætlun** á síðunni **Framleiðslugrunnur** inniheldur nokkr
 |Sjálfgefið hömlutímabil|Stilla á milli 1D og 5D.<br /><br /> Ef þú hefur ekki gert áætlanir áður í [!INCLUDE[prod_short](includes/prod_short.md)] skaltu stilla lengra tímabil.|Þegar notendur þekkja ólíkar ástæður aðgerðaboða betur skal stytta hömlutímabilið til að leyfa fleiri tillögur um breytingar.|  
 |Sjálfgefið hömlu magn %|Stilla á milli 5 og 20 prósent af lotustærð vörunnar.||  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
  [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)   
  [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  

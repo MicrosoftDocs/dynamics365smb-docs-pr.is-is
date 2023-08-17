@@ -10,7 +10,7 @@ ms.search.form: '9652, 9650'
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# (Eldra) Uppfæra sérsniðin skýrsluútlit
+# <a name="legacy-update-custom-report-layouts"></a>(Eldra) Uppfæra sérsniðin skýrsluútlit
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -22,7 +22,7 @@ Einnig býðst sá valkostur að prófa uppfærslur án þess að nota umbeðnar
 
 Ekki geta allar breytingar á skýrsluútliti verið uppfærðar sjálfkrafa í skýrsluútliti. Sumar breytingar krefjast þess að skýrsluútliti sé breytt handvirkt. Frekari upplýsingar eru í [Takmarkanir á uppfærslum skýrsluútlits](ui-update-report-layouts.md#UpdateLimitations).  
 
-## Uppfærir eitt eða fleiri Sérsniðin skýrsluútlit.  
+## <a name="to-update-one-or-more-custom-report-layouts"></a>Uppfærir eitt eða fleiri Sérsniðin skýrsluútlit.
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.  
 
@@ -30,7 +30,7 @@ Ekki geta allar breytingar á skýrsluútliti verið uppfærðar sjálfkrafa í 
 
 Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur koma upp birtast skilaboð sem innihalda villurnar. Þá þarf handvirkt að breyta sérsniðin skýrsluútlit til að laga villurnar. Frekari upplýsingar eru í [Villur leiðréttar](ui-update-report-layouts.md#FixErrors).  
 
-## Til að prófa uppfærslur á sérsniðið skýrsluútlit  
+## <a name="to-test-custom-report-layout-updates"></a>Til að prófa uppfærslur á sérsniðið skýrsluútlit
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.  
 
@@ -38,7 +38,7 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
  Breytingar á skýrsluútliti eru prófaðar en ekki notaðar fyrir raunveruleg skýrsluútlit. Síðan **Uppfærslukladdi skýrsluútlits** birtist og sýnir stöðu á mögulegum uppfærslum fyrir hvert skýrsluútlit. Ef villur koma upp fyrir skýrsluútlit er hægt að opna skýrsluútlit beint til að breyta og lagfæra villur. Frekari upplýsingar eru í [Villur leiðréttar](ui-update-report-layouts.md#FixErrors).  
 
-##  <a name="UpdateLimitations"></a> Takmarkanir á uppfærslum sérsniðins skýrsluútlits  
+## <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a>Takmarkanir á uppfærslum sérsniðins skýrsluútlits
  Nokkrar gerðir af breytingum getur sjálfvirk uppfærsla notað í sérsniðnu skýrsluútliti, til dæmis ef reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnasafni skýrslunnar. Sjálfvirk uppfærsla getur hins vegar ekki ráðið við eftirfarandi breytingar á skýrsluútliti.  
 
 1.  Reitir, merkimiðar eða gagnavörur sem hefur verið eytt.  
@@ -49,7 +49,7 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
  Ef uppfærsluferlið greinir þessi vandamál er ekki hægt að nota uppfærsluna. Laga verður þessi vandamál handvirkt, t.d. með því að breyta skýrsluútliti í Word eða með forritun og notkun á uppfærslukóðaeiningum.  
 
-##  <a name="FixErrors"></a> Villur leiðréttar  
+## <a name="fixing-errors"></a><a name="FixErrors"></a>Villur leiðréttar
  Ef þú færð ennþá villuboð við uppfærslu eða prófun á uppfærslu skýrsluútlits þá muntu líklega þurfa að breyta skýrsluútliti til að laga vandamálið. Lesa skal villuboðin til ráða orsök vandamálsins.  
 
  Algengasta vandamálið er þegar reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnamengi skýrslunnar. Í þessu tilviki er lína í villuboðunum sem segir til um að vara hafi verið fjarlægð. Til að laga þetta þarf að breyta útlitinu og fjarlægja viðkomandi reit.  
@@ -58,9 +58,9 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
 Eftir að útlitinu er breytt skaltu reyna að uppfæra það afur.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
  [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
  [Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
 

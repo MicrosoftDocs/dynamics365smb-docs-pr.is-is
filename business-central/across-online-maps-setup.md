@@ -8,17 +8,17 @@ ms.search.form: '800, 804'
 ms.date: 07/15/2022
 ms.author: a-reishima
 ---
-# Setja upp Online Map
+# <a name="set-up-online-maps"></a>Setja upp Online Map
 
 Þegar þú skipuleggur heimsókn á aðsetur sem vistað er í spjaldi, t.d. viðskiptamann, geturðu fengið kort frá netþjónustu með leiðarlýsingum á tungumálinu sem þú velur. Til að tryggja að netkortaþjónustan finni rétt kort og leiðbeiningar þarf að setja hana upp í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Setja upp eiginleika kortaþjónustu
+## <a name="set-up-the-online-map-feature"></a>Setja upp eiginleika kortaþjónustu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning kortaþjónustu**, velja síðan viðkomandi tengil.
 2. Á síðunni **Uppsetning kortaþjónustu** skal fylla út reitina. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. Kveiktu á víxlhnappinum **Virkjað**.
 
-### Sérsníða eiginleika kortaþjónustuaðila
+### <a name="customize-the-online-map-provider-features"></a>Sérsníða eiginleika kortaþjónustuaðila
 
 Til að sérsníða eiginleika kortaþjónustu umfram valkostina sem taldir eru upp á síðunni **Uppsetning kortaþjónustu** eða til að nota annan kortaþjónustuaðila skal fylgja þessum skrefum:
 
@@ -27,7 +27,7 @@ Til að sérsníða eiginleika kortaþjónustu umfram valkostina sem taldir eru 
 3. Fylltu út í reitina til að sérsníða hvernig [!INCLUDE[prod_short](includes/prod_short.md)] mun búa til vefslóðirnar fyrir tiltækar þjónustur. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
    * Sjá listann **Færibreyta staðgengils kortaþjónustu** á svæðinu **Upplýsingareitur** fyrir gögn sem tiltæk eru til að búa til vefslóðir.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Nota kortaþjónustu til að finna staðsetningar og leiðsagnir](across-online-maps.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  

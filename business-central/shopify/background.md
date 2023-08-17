@@ -9,14 +9,14 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Keyra verk í bakgrunni
+# <a name="run-tasks-in-the-background"></a>Keyra verk í bakgrunni
 
 Það er skilvirkt að keyra sum verkefni samtímis og á sjálfvirkan hátt. Þú getur framkvæmt slík verk í bakgrunni og getur einnig sett áætlun um hvenær þú vilt að þessi verk keyri sjálfkrafa. Til að keyra verk í bakgrunni eru tvær stillingar studdar:
 
 - Verk sem ræst eru handvirkt eru tímasett strax í gegnum **Verkraðarfærslur**.
 - Endurtekin verk eru tímasett í **Verkraðarfærslur**.
 
-## Keyra verk í bakgrunni fyrir tiltekna verslun
+## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Keyra verk í bakgrunni fyrir tiltekna verslun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Shopify Verslun** og veldu tengda tengilinn.
 2. Veljið verslunina þar sem á að keyra samstillingu í bakgrunni til að opna  **Shopify  síðuna Verkstæðisspjald** .
@@ -24,7 +24,7 @@ ms.author: andreipa
 
 Núna, þegar samstillingaraðgerð er ræst, í stað þess að verk keyri í forgrunni, biður hún þig um að bíða. Þegar þessu lokið geturðu farið yfir í næstu aðgerð. Verkið er stofnað sem  **Verkraðarafærsla**  og byrjar strax.
 
-## Að tímasetja endurtekin verk
+## <a name="to-schedule-recurring-tasks"></a>Að tímasetja endurtekin verk
 
 Þú getur tímasett eftirfarandi endurteknar aðgerðir sem á að framkvæma á sjálfvirkan hátt. Frekari upplýsingar um tímasetningu verka er að finna í [Verkröð](../admin-job-queues-schedule-tasks.md).
 
@@ -51,6 +51,6 @@ Hægt er að  **Shopify  nota Pöntunarnr**. Til að auðkenna söluskjöl sem v
 
 Nánari upplýsingar um bókun sölupantana í runu er  [að fá í til að stofna verkraðarafærslu fyrir runubókun sölupantana](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Hafist handa með tengilinn fyrir Shopify](get-started.md)  

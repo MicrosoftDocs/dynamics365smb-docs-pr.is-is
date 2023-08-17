@@ -11,13 +11,13 @@ ms.search.form: '9650, 9652'
 ms.date: 03/14/2022
 ms.author: jswymer
 ---
-# Vinna með RDLC-útlit
+# <a name="working-with-rdlc-layouts"></a>Vinna með RDLC-útlit
 
 RDLC-útlit eru byggð á útlitsskrám skýrsluskilgreiningar biðlara (.rdl eða .rdlc-skráargerðir). Hönnunarhugmyndirnar fyrir RDLC-útlit eru svipaðar og fyrir aðrar útlitsgerðir. Útlitið ræður hvaða reiti á að sýna og hvernig þeim er raðað. Hönnun RDLC-útlits er hins vegar ítarlegra en Word- og Excel-útlits.
 
 [![Sýnir mismunandi einingar RDLC-útlits.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## Nauðsynleg verkfæri
+## <a name="required-tools"></a>Nauðsynleg verkfæri
 
 Til að breyta RDL-útliti er hægt að nota annaðhvort Microsoft SQL Server Report Builder eða Microsoft RDLC Report Designer.
 
@@ -25,7 +25,7 @@ Til að breyta RDL-útliti er hægt að nota annaðhvort Microsoft SQL Server Re
 
 - RDLC Report Designer er viðbót fyrir Visual Studio 2017 og nýrra. Þú getur sótt og sett upp RDLC Report Designer á [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## Stofna og breyta RDLC-útlitum
+## <a name="create-and-modify-rdlc-layouts"></a>Stofna og breyta RDLC-útlitum
 
 Að búa til og breyta RDLC-útlitum er ítarlegt verk sem yfirleitt yfirnotendur eða þróunaraðilar gera. Grunnhugmyndirnar eru ekki sértækar fyrir skýrsluútlit Business Central. Af þessum sökum vísum við þér á eftirfarandi fylgiskjöl:
 
@@ -41,9 +41,9 @@ Að búa til og breyta RDLC-útlitum er ítarlegt verk sem yfirleitt yfirnotendu
 > [!NOTE]
 > Report Builder þekkir aðeins .rdl-skráargerð;, ekki .rdlc. Útlitsskrár fluttar út úr Business Central eru: .rdlc-skráargerðir. Þannig að til breyta þessu útliti í Report Builder skal endurnefna skráargerðina sem .rdl.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Stilla útlit sem skýrsla notar](ui-set-report-layout.md)  
