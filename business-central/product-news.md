@@ -5,28 +5,28 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 06/15/2023
+ms.date: 08/25/2023
 ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>Nýtt og áætlað fyrir Dynamics 365 Business Central
+# Nýtt og áætlað fyrir Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
 Eftirfarandi listi veitir upplýsingar um nýjustu útgáfuna af [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-* [2023 losun bylgjupappa 1](/dynamics365/release-plans/)
-* [2022 losun bylgjupappa 2](/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/planned-features)  
+* [2023 losun bylgjupappa 2](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features)
+* [2023 losun bylgjupappa 1](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features)
 
 Þú gætir viljað kanna  [Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  geta svæðisins og  [Dynamics 365 Business Central  vegakorti](https://dynamics.microsoft.com/roadmap/business-central/) .  
 
 Nánar um hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  netið fær næstu uppfærslur á  [helstu uppfærslum og minni háttar uppfærslum](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  (aðeins á ensku).
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Fá tilkynningu um breytingar með RSS-straumi
+## Fá tilkynningu um breytingar með RSS-straumi
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Skoðaðu myndbandasafnið okkar](across-videos.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  

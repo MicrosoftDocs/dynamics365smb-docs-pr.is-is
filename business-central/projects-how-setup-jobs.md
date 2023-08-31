@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Setja upp verð fyrir verk og verkbókunarflokka
+# Setja upp verð fyrir verk og verkbókunarflokka
 
 Sem verkefnisstjóri getur þú sett upp verk sem skilgreina verkefnin sem þú stjórnar í [!INCLUDE[prod_short](includes/prod_short.md)].  **Notaðu síðuna störf Uppsetning**  til að skilgreina hvernig þú notar vinnslueiginleika.
 
@@ -21,7 +21,7 @@ Fyrir hvert starf eru tilgreindar ýmsar upplýsingar:
 * Fjárhagsreikningar
 * Bókunarflokkar vinnslu (nauðsynlegt)
 
-## <a name="to-set-general-information-for-jobs"></a>Til að stilla almennar upplýsingar fyrir verk
+## Til að stilla almennar upplýsingar fyrir verk
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning verks** og velja síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +29,7 @@ Fyrir hvert starf eru tilgreindar ýmsar upplýsingar:
 > [!NOTE]
 > Með því að nota tengilinn sjálfgefið  **að**  skipta á  **uppsetningarsíðu**  vinnslufærslna gefur til kynna hvort verkfærslur séu tengdar við verkáætlanalínur að sjálfgefnu. Snúið á víxl til að beita þessari stillingu á öll ný verk. Hægt er að gera rakningu verknotkunar virka eða óvirka fyrir tiltekna vinnslu með því að  **·**  kveikja eða slökkva á vinnsluspjaldinu á  **síðunni Verkspjald** .
 
-### <a name="to-set-up-job-usage-tracking"></a>Til að setja upp notkunarrakningu verka
+### Til að setja upp notkunarrakningu verka
 
 Þegar þú ert að vinna í vinnu gætir þú viljað vita hvernig notkun þín er að rekja til áætlunarinnar. Til að kanna notkun er hægt að búa til tengil á milli verkáætlunarlínanna og raunverulegrar notkunar. Tengillinn gerir þér kleift að fylgjast með þínum kostnaði og skilja hversu mikil vinna er eftir. Sjálfgefið er að áætlunarlína verktegundar sé **Áætlun**, en ef línutegundin **Bæði fjárhagsáætlun og reikningshæft** er notuð hefur það svipuð áhrif.
 
@@ -43,7 +43,7 @@ Eftir að Notkunartengill hefur verið settur upp með því að  **kveikja á n
 > [!IMPORTANT]
 > Ef ekki er tilgreint gildi í  **reitnum Tegund**  línu á verkbókarlínu eða innkaupalínu eru verkáætlunarlínur ekki stofnaðar þegar verkbók eða innkaupaskjal er bókað.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Til að setja upp verð fyrir tilföng, vörur og fjárhagsreikninga fyrir verk
+## Til að setja upp verð fyrir tilföng, vörur og fjárhagsreikninga fyrir verk
 
 > [!NOTE]
 > Á útgáfutímabili 2 árið 2020 gáfum við út nýja ferla til að setja upp og hafa umsjón með verðum og afsláttum. Ef þú ert nýr viðskiptamaður þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +71,7 @@ Hægt er að setja upp verð fyrir vörur, tilföng og fjárhagsreikninga sem te
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a>Verkbókunarflokkur settur upp
+## Verkbókunarflokkur settur upp
 
 Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að nota í kostnaðarútreikningum vegna verka. Til að hægt sé að bóka verk skal setja upp reikninga fyrir hvern verkbókunarflokk. Bókunarflokkur stendur fyrir tengingar milli verksins og hvernig eigi að meðhöndla það í fjárhag. Þegar verk er stofnað er bókunarflokkur tilgreindur, og allir verkhlutar sem búnir eru til fyrir verkið eru tengdir við þann bókunarflokk að sjálfgefnu. Hins vegar er hægt að hnekkja sjálfgildum þegar verk eru stofnuð og velja þann bókunarflokk sem hentar best.  
 
@@ -81,27 +81,27 @@ Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókunarflokkar verks** og velja síðan viðkomandi tengil.  
 2. Veldu aðgerðina **Nýtt** og fylltu svo út reitina eins og lýst er í eftirfarandi töflu.  
 
-| Reikningsreitur. | Heimildasamstæða |
-| --- | --- |
-| **Kóði** |Kenni fyrir bókunarflokkinn. Hægt er að færa inn allt að 10 stafi, með bilum. |
-| **VÍV - kostnaðarreikn.** |VÍV reikningur útreiknaðs kostnaðar verksins sem er í vinnslu er eignareikningur á efnahagsreikningi. |
-| **VÍV - reikn. uppsafnaðs kostnaðar** |Lykill fyrir kostnaðarvirði eða kostnaðarsama söluaðferð við útreikning VÍV. Þessi lykill er fyrir uppsafnaða útgjaldaábyrgð á efnahagsreikningi þínum. Þegar VÍG leiðrétting krefst hækkunar á notkunarkostnaði sem er bókaður á rekstrarreikning er bókað á þennan lykil. |
-| **Jöfnunarreikningur verks** |Mótreikningur VÍV kostnaðarreikninga, sem er andstæða neikvæðs kostnaðarreiknings. |
-| **Kostnaðarjöfnunarreikningur vöru** |Mótreikningur VÍV kostnaðarreikninga, sem er andstæða neikvæðs kostnaðarreiknings. |
-| **Jöfnunarreikningur forða** |Mótreikningur VÍV kostnaðarreikninga, sem er andstæða neikvæðs kostnaðarreiknings. |
-| **Kostnaðarjöfnunarreikningur** |Mótreikningur VÍV kostnaðarreikninga, sem er andstæða neikvæðs kostnaðarreiknings. |
-| **Mótreikningur verks** |Mótreikningur VÍV reiknings uppsafnaðs kostnaðar, sem er kostnaðarreikningur. |
-| **Fh.reikn. söluútgjalda (Fjárhagsáætlun)** |Sölureikningurinn sem verður notaður fyrir fjárhagsútgjöld verkhluta í þessum bókunarflokki. Sé hann auður er fjárhagsreikningurinn sem er færður inn í verkáætlunarlínuna notaður. |
-| **VÍV - reikningur uppsafn. sölu** |VÍV-lykill fyrir reiknað söluvirði VÍV sem er áfallin tekjulykill fyrir efnahagslykin. Þegar VÍG leiðrétting krefst þess að auka viðurkenndar tekjur er bókað á þennan lykil. |
-| **VÍV - reikningsf. sölureikningur** |Reikningurinn fyrir reikningsfært söluvirði VÍV sem ekki er hægt að samþykkja. Hann er efnahagsreikningur óinnleystra tekna. |
-| **Jöfnunarreikningur verksölu** |Reikningur VÍV reiknings uppsafnaðrar sölu, sem er andstæða tekjureiknings. |
-| **Mótreikningur verksölu** |Mótreikningur VÍV sölureiknings, sem er tekjureikningur. |
-| **Samþykktur kostnaðarreikningur** |Útgjaldareikningurinn sem inniheldur samþykkt útgjöld verksins. Það er vanalega debetkostnaðarreikningur. |
-| **Samþykktur sölureikningur** |Tekjureikningurinn sem inniheldur samþykktar tekjur verksins. Það er vanalega kredittekjureikningur. |
+| Reikningsreitur. | Heimildasamstæða | Notað í VÍV-gerð |
+| --- | --- |  --- |
+| **Kóði** |Kenni fyrir bókunarflokkinn. Hægt er að færa inn allt að 10 stafi, með bilum. | |
+| **VÍV - kostnaðarreikn.** |VÍV reikningur útreiknaðs kostnaðar verksins sem er í vinnslu er eignareikningur á efnahagsreikningi. | Nýttur kostnaður, viðurkenndur kostnaður|
+| **VÍV - reikn. uppsafnaðs kostnaðar** |Lykill fyrir kostnaðarvirði eða kostnaðarsama söluaðferð við útreikning VÍV. Þessi lykill er fyrir uppsafnaða útgjaldaábyrgð á efnahagsreikningi þínum. Þegar VÍG leiðrétting krefst hækkunar á notkunarkostnaði sem er bókaður á rekstrarreikning er bókað á þennan lykil. | Uppsafnaður kostnaður|
+| **Jöfnunarreikningur verks** |Mótreikningur VÍV kostnaðarreikninga, sem er andstæða neikvæðs kostnaðarreiknings. Notað þegar  **VÍV-bókunaraðferð sem notuð**  er er uppsett á  *verk*. | Notaður kostnaður, viðurkenndur kostnaður|
+| **Kostnaðarjöfnunarreikningur vöru** |Sama og   **lykillinn** fyrir jöfnuð Verkkostnaður en notaður þegar  **VÍV-bókunaraðferðin er notuð**  er stillt á  *verkfærslu*.| |
+| **Jöfnunarreikningur forða** |Sama og   **lykillinn** fyrir jöfnuð Verkkostnaður en notaður þegar  **VÍV-bókunaraðferðin er notuð**  er stillt á  *verkfærslu*.| |
+| **Reikningur notaður fjárhagskostnaður** |Sama og   **lykillinn** fyrir jöfnuð Verkkostnaður en notaður þegar  **VÍV-bókunaraðferðin er notuð**  er stillt á  *verkfærslu*.| |
+| **Mótreikningur verks** |Mótreikningur VÍV reiknings uppsafnaðs kostnaðar, sem er kostnaðarreikningur. | Uppsafnaður kostnaður|
+| **Fh.reikn. söluútgjalda (Fjárhagsáætlun)** |Sölureikningurinn sem verður notaður fyrir fjárhagsútgjöld verkhluta í þessum bókunarflokki. Sé hann auður er fjárhagsreikningurinn sem er færður inn í verkáætlunarlínuna notaður. | |
+| **VÍV - reikningur uppsafn. sölu** |VÍV-lykill fyrir reiknað söluvirði VÍV sem er áfallin tekjulykill fyrir efnahagslykin. Þegar VÍG leiðrétting krefst þess að auka viðurkenndar tekjur er bókað á þennan lykil. | Áfallna sölu, viðurkennd Sala|
+| **VÍV - reikningsf. sölureikningur** |Reikningurinn fyrir reikningsfært söluvirði VÍV sem ekki er hægt að samþykkja. Hann er efnahagsreikningur óinnleystra tekna. | Viðurkennd Sala, jöfnuð í sölu|
+| **Jöfnunarreikningur verksölu** |Reikningur VÍV reiknings uppsafnaðrar sölu, sem er andstæða tekjureiknings. | Jöfnuð Sala, viðurkennd Sala|
+| **Mótreikningur verksölu** |Mótreikningur VÍV sölureiknings, sem er tekjureikningur. | Uppsöfnuð sala|
+| **Samþykktur kostnaðarreikningur** |Útgjaldareikningurinn sem inniheldur samþykkt útgjöld verksins. Það er vanalega debetkostnaðarreikningur. | Samþykktur kostnaður|
+| **Samþykktur sölureikningur** |Tekjureikningurinn sem inniheldur samþykktar tekjur verksins. Það er vanalega kredittekjureikningur. | Samþykkt sala|
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Myndband: Hvernig á að stofna verk í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
