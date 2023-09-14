@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Af hverju er síða læst og því ekki hægt að sérsníða hana
+# <a name="why-a-page-is-locked-from-personalization"></a>Af hverju er síða læst og því ekki hægt að sérsníða hana
 
 Það eru tvö skilyrði sem koma í veg fyrir að þú sérsníðir síðu. Annaðhvort er síðan læst (eins og kemur fram í ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") tákninu) eða hún er útilokuð (eins og kemur fram í ![Sérstilling útilokuð.](media/personalization-blocked-icon.png "Sérstilling útilokuð") tákninu).
 
-## Læst fyrir sérstillingar
+## <a name="locked-from-personalizing"></a>Læst fyrir sérstillingar
 
 Ef það er ![Sérstillingarlás.](media/personalization-lock-icon.png "Sérstilla lás") tákn á borðanum **Sérstilling** þegar síða er opnuð merkir það að þú getir ekki gert frekari breytingar á sérstillingu síðunnar.
 
@@ -30,14 +30,14 @@ Tvær ástæður koma til greina:
 
 2. Fram að þessu hefur þú aðeins notað bogann sem er úreltur [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] til að sérsníða síðuna.
 
-### Síða aflæst
+### <a name="unlocking-the-page"></a>Síða aflæst
 
 Ef þú vilt taka síðu úr lás og halda áfram að sérstilla hana skaltu velja táknið ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") og síðan aðgerðina **Taka úr lás**.  
 
 > [!CAUTION]
 > Núverandi sérstilling á síðunni verður hreinsuð. Síðan mun fara aftur í upprunalegt útlit og þú verður að byrja frá grunni.  
 
-## Lokað fyrir sérstillingar
+## <a name="blocked-from-personalizing"></a>Lokað fyrir sérstillingar
 
 Ef táknið ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") er á borðanum **Sérstilling** er búið að útiloka þig frá því að sérstilla síðuna.
 
@@ -45,7 +45,7 @@ Ef táknið ![Sérstilling útilokuð](media/personalization-blocked-icon.png "S
 
 Ástæðan er að Mitt hlutverk eða hlutverk sem er sem stendur tengt við notandareikninginn þinn breytir þessari síðu sérstaklega fyrir hlutverkið þitt. Hafðu samband við stjórnanda til að fá aðstoð. Að öðrum kosti skal reyna að skipta yfir í Mitt hlutverk sem inniheldur hlutverkaleik fyrir þessa síðu. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Sérstilling verksvæðis](ui-personalization-user.md)  
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  

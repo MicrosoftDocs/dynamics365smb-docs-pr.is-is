@@ -90,7 +90,7 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |*<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>F</kbd>*|Senda tillögur að línum á síðunni fyrir sjóðstreymisvinnublöð.|Á ekki við.|
 |*<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>I</kbd>*|Skoða rað- og lotunúmer sem úthlutað er á línuatriði í skjalinu eða færslubókinni.|Á ekki við.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a><a name="navigateshortcuts">Flett milli raða og dálka</a>
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a><a name="navigateshortcuts">Flett milli raða og dálka</a>
 
 Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!INCLUDE[prod_short](includes/prod_short.md)], svo sem listasíður og **Línur** sem hlutar skjala. Flutningur frá einu hólfi til annars yfir hnitanet er að fullu virkt fyrir lyklaborð.
 
@@ -111,7 +111,7 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 | <kbd>Flipanum</kbd> | Í breytanlegum lista, farðu í sömu röð til næsta reit til hægri. | Á ekki við. | 
 | <kbd>Flipinn vakt</kbd>+<kbd></kbd> | Í breytanlegum lista, farðu í sömu röð í fyrri reit til vinstri. | Á ekki við. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a><a name="CopyRows">Val, afritun og líming</a>
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a><a name="CopyRows">Val, afritun og líming</a>
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 |<kbd>Vaktsíða</kbd>+<kbd>niður</kbd><br /><br />(<kbd>Vakt</kbd>+<kbd>FN</kbd>+<kbd>upp ör</kbd>)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir neðan núverandi val af línum.|Á ekki við.|
 |<kbd>F8</kbd>|Afritaðu reitinn í sama dálk raðarinnar hér fyrir ofan og límdu það inn í núverandi röð. Þú getur aðeins gert þetta í breytanlegum listum. Ef þessari flýtivísun er fylgt með  <kbd>flipa</kbd>  er hægt að fylla út reiti í línuatriðum sem á að hafa sama gildi og línan hér að ofan.|Á ekki við.|
 
-### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Leit og síun lista
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Leit og síun lista
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|

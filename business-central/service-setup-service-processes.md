@@ -10,7 +10,7 @@ ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts,
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Grunnstilling þjónustuferlis
+# <a name="configure-service-processes"></a>Grunnstilling þjónustuferlis
 Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringarferli:  
   
 * Sumar heildarstillingar fyrir hin ýmsu ferli, eins og t.d. viðvaranir, næsti þjónustuútreikningur fyrir þjónustuvörur, startkostnaður til að ákveða, stig bilanatilkynninga sem á að nota osfrv.  
@@ -19,11 +19,11 @@ Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringa
 * Stillingar fyrir samninga, eins og hámarksfjöldi daga sem þú getur notað fyrir samningsþjónustupantanir, hvort á að nota ástæðukóða þegar samningi er rift, staðlaðan texta fyrir samningslýsingar, og samningsgildi.  
 * Talnaraðirnar sem á að nota fyrir þjónustutengd skjöl og vörur.  
 
-## Að færa inn almennar og áskildar stillingar
+## <a name="to-enter-general-and-mandatory-settings"></a>Að færa inn almennar og áskildar stillingar
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning þjónustustjórnunar** og svo velja viðeigandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 [Setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)  
 [Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)  
 [Setja upp Kóta fyrir Staðlaða þjónustu](service-how-setup-service-coding.md)  

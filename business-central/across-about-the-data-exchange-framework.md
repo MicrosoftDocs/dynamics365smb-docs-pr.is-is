@@ -11,7 +11,7 @@ ms.search.form: '189,'
 ms.date: 06/10/2021
 ms.author: bholtorf
 ---
-# Um gagnaskiptaramma
+# <a name="about-the-data-exchange-framework"></a>Um gagnaskiptaramma
 
 Hægt er að nota Data Exchange Framework til að stjórna skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga eða yfirvalds.
 
@@ -23,7 +23,7 @@ Sem kerfisstjóri eða Microsoft-samstarfsaðili er hægt að nota rammann í n�
 
  ![Gagnaskiptarammi &#45; Útflutningur.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## Rafræn skjöl
+## <a name="electronic-documents"></a>Rafræn skjöl
 
 Önnur leið til að senda viðskiptaskjöl sem skráarviðhengi er að senda og taka á móti þeim rafrænt. „Rafrænt skjal“ er stöðluðu skrá sem stendur fyrir viðskiptaskjal, s.s. reikning frá lánardrottni sem hægt er að taka á móti og umbreyta í innkaupareikning í [!INCLUDE[prod_short](includes/prod_short.md)]. Viðskiptafélagar skiptast á rafrænum skjölum gegnum ytri skjalaskiptaþjónustu. [!INCLUDE[prod_short](includes/prod_short.md)] styður sjálfgefið sendingu og móttöku rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Stór þjónustuveitandi skjalaskiptaþjónustu, Tradeshift, er forstilltur og tilbúinn til uppsetningar fyrir fyrirtækið. Til að veita stuðning fyrir önnur snið rafrænna skjala þarf að stofna nýjar skilgreiningar gagnaskipta.  
 
@@ -35,7 +35,7 @@ Til dæmis, til að taka á móti reikningur frá lánardrottinn sem rafrænu PE
 
   Til að taka við, til dæmis, reikningi sem rafrænu OCR-skjali, er það meðhöndlað líkt og þegar rafrænt PEPPOL-skjal er móttekið. Móttaka og gagnaumbreyting rafrænna reikninga úr OCR er framkvæmt af gagnaskiptaumgjörðinni sem stendur fyrir gagnaskiptaskilgreiningu **PEPPOL - Reikningur**.  
 
-## Bankaskrár
+## <a name="bank-files"></a>Bankaskrár
 
 Skráasnið fyrir skipti bankagagna með viðskiptastjórnunarforritum er breytilegt eftir birgi skráarinnar og landi eða svæði. [!INCLUDE[prod_short](includes/prod_short.md)] styður innflutning og útflutning bankaskráa sameiginlegs evrópsks greiðslusvæðis (SEPA). Auk þess gerir AMC Banking 365 Fundamentals viðbótin þér kleift að tengjast AMC Banking 365 Fundamentals viðbót sem ytri þjónustuaðili, AMC Consult, býður þér upp á. Frekari upplýsingar er að finna í [Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). Til að veita stuðning á öðrum rafrænu formi er notað Data Exchange Framework.  
 
@@ -47,17 +47,17 @@ Til að flytja út kreditfærslur SEPA skal velja hnappinn **Flytja greiðslur �
 
  Auk þess styðja staðbundnar útgáfur [!INCLUDE[prod_short](includes/prod_short.md)] ýmis önnur skráarsnið fyrir innflutning og útflutning á bankagögnum, launafærslum og öðrum gögnum. Frekari upplýsingar er að finna á lendingarsíðunni [Staðbundin virkni](about-localization.md) fyrir landið/svæðið þitt í hjálparefninu.  
 
-## Gengi gjaldmiðla
+## <a name="currency-exchange-rates"></a>Gengi gjaldmiðla
 
 Hægt er að setja upp ytri þjónusta til að gæta þess að gengi gjaldmiðils sé rétt. Þjónustan sem veitir uppfært gengi gjaldmiðils er virk af skilgreiningu gagnaskipta. Til samræmis er síðan **Uppsetningarspjald fyrir uppfærslu gengis** samantekið yfirlit síðunnar **Gagnaskiptaskilgreining** fyrir skilgreiningu gagnaskipta sem um ræðir.  
 
 Fyrir öll gagnaskipti í XML-skrám er hægt að undirbúa gagnaskiptauppsetninguna með því að hlaða tengdum XML-skemaskrám á síðunni **XML-skemaskoðun**. Hér eru fyrst valin gagnastökin sem á að skiptast á við [!INCLUDE[prod_short](includes/prod_short.md)] og svo skal annaðhvort hefja gagnaskiptiskilgreiningu eða mynda XMLport.
 
-## Intrastat
+## <a name="intrastat"></a>Intrastat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] notar Data Exchange Framework fyrir Intrastat-skýrslugerð þar sem þú getur auðveldlega búið til tímastimplaðar skrár á mismunandi sniði fyrir útflutning. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur tilbúin snið fyrir staðbundin lönd/svæði sem og fyrir sjálfgefna útgáfu. En þú getur breytt tilbúinni skýrslu eða gert þína eigin.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Rafræn gagnaskipti](across-data-exchange.md)  
 [Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
