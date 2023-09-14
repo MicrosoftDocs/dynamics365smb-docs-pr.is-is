@@ -1,18 +1,18 @@
 ---
 title: Breyta bókuðum sölu- og innkaupaskjölum
 description: Þetta efnisatriði útskýrir hvernig á að uppfæra upplýsingar á bókuðu skjali eins og söluskjali eða innkaupareikningi þegar upplýsingar sem eiga við hafa breyst.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
 ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="edit-posted-documents"></a>Breyta bókuðum fylgiskjölum
+# Breyta bókuðum fylgiskjölum
 
 Stundum þarf að uppfæra bókað skjal vegna þess að upplýsingar sem skipta máli fyrir skjalið hafa breyst. Á bókuðu söluskjali getur þetta til dæmis verið rakningarnúmer pakka frá flutningsaðilanum. Á bókuðu innkaupaskjali getur þetta verið texti greiðslutilvísunar.
 
@@ -32,7 +32,7 @@ Eftirfarandi viðbótarskjölum er hægt að breyta í tilteknum löndum eða sv
 - RU: Bókaður sölukreditreikningur
 - IT: Bókuð millifærsluafhending, bókuð þjónustuafhending
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Breyta bókaðri söluafhendingu
+## Breyta bókaðri söluafhendingu
 
 Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin eru svipuð í hinum studdu skjölunum.
 
@@ -43,7 +43,7 @@ Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin
 
 Bókuð söluafhending er uppfærð.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Bókun skjala og færslubóka](ui-post-documents-journals.md)  
 [Finna tengdar færslur fyrir skjöl](ui-find-entries.md)  

@@ -1,16 +1,16 @@
 ---
 title: Hönnunarupplýsingar - síða vörurakningarlína
 description: Lestu um hvernig skal stjórna flæði rað- og lotunúmera í birgðum með síðu vörurakningarlína.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'design, inventory, item, tracking, serial number, lot number'
 ms.date: 06/15/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-item-tracking-lines-page"></a>Hönnunarupplýsingar: síða vörurakningarlína
+# Hönnunarupplýsingar: síða vörurakningarlína
 Vörurakningarfærslur og frátekningarfærslur eru stofnaðar í frátekningarkerfi og framboð þeirra er reiknað eftir þörfum. Gögnum sem eru færð á síðuna **Vörurakningarlínur** er stjórnað í tímabundinni útgáfu af töflunni **Rakningarlýsing**. Þegar síðunni er lokað eru virku gögnin skuldbundin töflunni **Frátekningarfærsla** og söguleg gögn skuldbundin töflunni **Rakningarlýsing**. Frekari upplýsingar, sjá: [Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum](design-details-active-versus-historic-item-tracking-entries.md).  
   
 Leit úr reitunum **Raðnúmer** og **Lotunúmer** sýna framboð sem byggist á bæði á töflunni **Birgðafærsla** og töflunni **Frátekningarfærsla**, án dagsetningarsíu. Fylki magnreita í haus gluggans **Vörurakningarlínur** birtir með gagnvirkum hætti magn og fjárhæð vörurakningarnúmera sem slegin eru inn í línurnar á síðunni. Magnið verður að samsvara því sem er í fylgiskjalslínunni, og er sýnt með **0** undir **Óskilgreint** reitunum í haus síðunnar.  
@@ -23,7 +23,7 @@ Til að samræma flæði rað- og lotunúmera gegnum birgðir, eru eftirfarandi 
   
 Reglur innslátt gagna á síðunni **Vörurakningarlínur** styður einnig tengireglur sem stjórna pöntunarrakningu, áætlanagerð og frátekningu. Nánari upplýsingar eru í [Upplýsingar um hönnun: Vörurakning og áætlanir](design-details-item-tracking-and-planning.md).  
   
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Hönnunarupplýsingar: vörurakning](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

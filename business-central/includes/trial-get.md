@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/05/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Opnaðu [svæði prufuútgáfu](https://go.microsoft.com/fwlink/?linkid=847861), veldu *Fjármál og rekstur* og síðan í spjaldinu **Dynamics 365 Business Central** skaltu velja hnappinn **Prófa ókeypis**.  
 2. Sláðu inn vinnu- eða skólanetfangið þitt og aðrar upplýsingar. Farið verður með þig í prufuútgáfuna á [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  

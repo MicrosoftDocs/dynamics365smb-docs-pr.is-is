@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 03/01/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 Eftirfarandi tafla lýsir sumum helstu skýrslunum í framleiðslu.

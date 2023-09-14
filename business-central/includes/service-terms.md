@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 [!INCLUDE[prod_short](prod_short.md)] á netinu fellur undir [„Modern“-reglur um stuðningstíma](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Skilmálum um þjónustustigssamning er lýst í skjali sem þú getur sótt úr hlutanum **Þjónustustigssamningar fyrir Microsoft Online Services** á síðunni [Leyfisskilmálar](https://www.microsoft.com/licensing/product-licensing/products).  
 

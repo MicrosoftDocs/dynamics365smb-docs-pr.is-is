@@ -1,7 +1,7 @@
 ---
 title: 'Gefa út, Prenta, Hætta við og ógilda athuganir'
 description: 'Lýsir því hvernig skal gefa út ávísanir með því að nota greiðslubók, prenta ávísanir og ógilda eða skoða ávísanafjárhagsfærslur í Business Central.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256, 404,'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="make-check-payments"></a>Framkvæma ávísanagreiðslur
+# Framkvæma ávísanagreiðslur
 
 Þú getur gefið út rafrænar og handvirkar ávísanir [!INCLUDE[prod_short](includes/prod_short.md)]. Í báðum aðferðum er útgreiðslubók notuð til að gefa út tékka til lánardrottna. Einnig er hægt að ógilda tékka og skoða fjárhagsfærslur.
 
@@ -30,7 +30,7 @@ Hægt er að greiða með tveimur gerðum af ávísunum. Fyrir báðar gerðir v
 
 Hægt er að prenta allt að 10 reikninga á síðu fyrir ávísanabút. Ef ávísun á við um meira en 10 reikninga, ógildum við stubbinn á fyrstu síðunni og prentum orðið ÓGILD á ávísunina þegar þú prentar hana. Við prentum síðan afganginn af reikningunum og heildarupphæð ávísunar á seinni blaðsíðunni.
 
-## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Til að greiða reikning lánardrottins með vélfærðum tékka
+## Til að greiða reikning lánardrottins með vélfærðum tékka
 
 Eftirfarandi dæmi sýnir hvernig á að greiða lánardrottni með ávísun. Skrefin eru svipuð og endurgreiðsla til viðskiptamanns með ávísun.
 
@@ -50,13 +50,13 @@ Lánardrottnafærslur og fjárhagsfærslur sem eru jafnaðar að fullu eru stofn
 > [!NOTE]  
 > Ef þarf að prenta og greiða tékka í fleiri en einum gjaldmiðli frá mismunandi bankareikningum verður að keyra keyrsluna **Prenta tékka** sérstaklega fyrir hvern gjaldmiðil og tilgreina réttan bankareikning.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Til að ógilda prentaðan tékka sem ekki eru bókaðar
+## Til að ógilda prentaðan tékka sem ekki eru bókaðar
 
 Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið prentuð með því að nota **Ógildur tékki** aðgerðina á síðunni **Greiðslubók**.
 
 1. Á síðunni **Greiðslubók** er valið **Ógildur tékki** og síðan valið hvaða tékka á að ógilda.
 
-## <a name="to-void-checks"></a>Tékkar ógiltir:
+## Tékkar ógiltir:
 
 Þegar tékkagreiðslur hafa verið bókaðar, geturðu aðeins afturkallað (ógilt) tékka úr bankafærslum sem fengust út úr þessu.
 
@@ -69,15 +69,15 @@ Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið pren
 4. Veldu gátreitinn **eingöngu ógilda tékka**.
 5. Velja hnappinn **Í lagi**.
 
-## <a name="to-view-a-summary-of-posted-checks"></a>Til að skoða samantekt bókaðra tékka
+## Til að skoða samantekt bókaðra tékka
 
 Ef þú vilt endurskoða bókaða tékka, til dæmis til að staðfesta marga greidda tékka til eins lánardrottins, getur þú notað skýrsluna **Bankareikningur - Upplýsingar um tékka**.
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikn. - Upplýsingar um ávísun** og velja síðan viðkomandi tengil.
 2. Stilla afmarkanir sem viðeigandi og velja svo hnappinn **Forskoða**.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/use-checks-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/use-checks-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framkvæma greiðslur](payables-make-payments.md)  
 [Stjórna skuldum](payables-manage-payables.md)  

@@ -1,7 +1,7 @@
 ---
 title: 'Rekja vörur með rað-, lotu- og pakkanúmerum'
 description: 'Hægt er að bæta við raðnúmerum, lotunúmerum og pakkanúmerum við hvaða útleiðarskjal eða innleiðarskjal sem er og bókaðar færslur þess er síðan hægt að skoða í viðkomandi birgðafærslum.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,'
 ms.date: 08/31/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="track-items-with-serial-lot-and-package-numbers"></a>Rekja vörur með rað-, lotu- og pakkanúmerum
+# Rekja vörur með rað-, lotu- og pakkanúmerum
 
 Hægt er að úthluta raðnúmerum, lotunúmerum og pakkanúmerum við hvaða útleiðarskjal eða innleiðarskjal sem er og bókaðar færslur þess er síðan hægt að skoða í viðkomandi birgðafærslum. Þú framkvæmir vinnuna á síðunni **Vörurakningarlínur** sem hægt er að opna úr skjali á innleið eða útleið.
 
@@ -22,7 +22,7 @@ Til að mæla afköst safnar forritið ráðstöfunarupplýsingum af síðunni *
 > [!NOTE]  
 >  Til þess að eiginleikarnir sem lýst er í þessari grein virki þarf fyrst að setja upp vörurakningu. Frekari upplýsingar er að finna í [Setja upp vörurakningu með raðnúmer, lotu og pakkanúmer](inventory-how-setup-item-tracking.md)
 
-## <a name="item-tracking-availability"></a>Vörurakning til ráðstöfunar
+## Vörurakning til ráðstöfunar
 
 Þegar unnið er með rað-, lotu- og pakkanúmer reiknar [!INCLUDE[prod_short](includes/prod_short.md)] út upplýsingar um framboð og sýnir það á hinum ýmsu síðum vörurakningar. Þetta gerir það mögulegt að sjá hversu mikið af lotu-, pakka- eða raðnúmerum er nú þegar verið að nota fyrir önnur fylgiskjöl. Þetta minnkar villur og óvissu vegna tvöfaldra úthlutana.
 
@@ -40,7 +40,7 @@ Til að mæla afköst safnar forritið ráðstöfunarupplýsingum af síðunni *
 
 Ef unnið er á síðunni **Vörurakningarlínur** í langan tíma eða ef mikið er um aðgerðir með þeirri vöru sem verið er að vinna með er hægt að velja **Endurnýjun ráðstöfunar**. Að auki er ráðstöfun vörunnar endurskoðuð sjálfkrafa þegar síðunni er lokað til að fá staðfestingu á því að engin ráðstöfunarvandamál eru fyrir hendi.
 
-## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Úthlutun rað- eða lotunúmera á færslur á leið inn.
+## Úthlutun rað- eða lotunúmera á færslur á leið inn.
 
 Það getur komið fyrirtækjum vel að hægt sé að rekja vöru frá því hún berst fyrirtækinu. Þegar svo háttar til er innkaupapöntun oft helsta vísbendingin, en vörurakningu má gera út frá hvaða skjali sem er og færslur í því birtar í samsvarandi birgðafærslum.
 
@@ -71,7 +71,7 @@ Magnreitirnir í hausnum sýna magn og samtölur vörurakningarnúmeranna sem er
 
 Þegar fylgiskjalið er bókað eru vörurakningarfærslurnar fluttar í tengdar birgðafærslur.
 
-### <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>Meðhöndla rað- og lotunúmer þegar móttökulínur eru sóttar úr innkaupareikningi
+### Meðhöndla rað- og lotunúmer þegar móttökulínur eru sóttar úr innkaupareikningi
 
 Þegar notuð er aðgerð til að sækja bókaðar kvittanir eða afhendingarlínur frá tengdum reikningum eða kreditreikningum þá eru vörurakningarlínur í vöruhúsaskjölum færðar sjálfkrafa. Hins vegar eru þær unnar á sérstakan hátt.
 
@@ -97,14 +97,14 @@ Aðgerðin styður við eftirfarandi ferli á útleið:
 
 Ekki er hægt að breyta efni reitanna  **Raðnr.** og  **Lotunr.** Þó er hægt að eyða heilum línum eða breyta magni til samræmis við breytingarnar í upprunalínunni.  
 
-## <a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a>Úthlutun rað- eða lotunúmera vegna færslna á leið út.
+## Úthlutun rað- eða lotunúmera vegna færslna á leið út.
 
 Útleiðarvinnsla rað- eða lotunúmera er verkhluti sem gerist við mörg mismunandi vöruhúsaferli. Tvær leiðir eru færar til að bæta við rað- og lotunúmerum fyrir færslur á útleið:  
 
 -   Valið úr tiltækum rað- og lotunúmerum Þetta á við þegar vörurakningarnúmerum hefur þegar verið úthlutað við færslu á innleið.
 -   Nýjum rað- eða lotunúmerum úthlutað við færslur á útleið. Þetta á við þegar vörurakningarkóðum er ekki úthlutað á vörur fyrr en þær eru seldar og tilbúnar til afhendingar.
 
-### <a name="to-select-from-existing-serial-or-lot-numbers"></a>Valið úr tiltækum rað- og lotunúmerum
+### Valið úr tiltækum rað- og lotunúmerum  
 
 Þegar unnið er með vörur sem krefjast vörurakningar og verið er að stofna færslur á útleið (þar sem vörur fara úr birgðum) þarf yfirleitt að velja lotu- eða raðnúmerið frá þeim sem eru til fyrir í birgðum.
 
@@ -123,7 +123,7 @@ Magnreitirnir í hausnum sýna magn og samtölur vörurakningarnúmeranna sem sk
 
 Þegar fylgiskjalið er bókað eru vörurakningarfærslurnar fluttar í tengdar birgðafærslur.
 
-### <a name="to-assign-new-serial-or-lot-numbers"></a>Til að úthluta nýjum rað- eða lotunúmerum
+### Til að úthluta nýjum rað- eða lotunúmerum  
 
 Þessi valkostur á við þegar birgðavörur bera ekki rað- eða lotunúmer og í staðinn er varan með vörurakningarnúmer þegar vörur eru seldar og tilbúnar til afhendingar. Í þessu tilfelli er yfirleitt úthlutað númerum úr fyrirfram skilgreindum númeraröðum.
 
@@ -144,11 +144,11 @@ Fylki magnreitanna efst sýna á gagnvirkan hátt magn og samtölur vörurakning
 
 Þegar fylgiskjalið er bókað eru vörurakningarfærslurnar fluttar í tengdar birgðafærslur.
 
-### <a name="assign-tracking-numbers-on-source-documents"></a>Úthluta rakningarnúmerum í upprunaskjölum
+### Úthluta rakningarnúmerum í upprunaskjölum
 
 Í sérstökum tilvikum varðandi rað- og lotunúmeraðar birgðir, eru sérstök rað- og lotunúmer skilgreind í upprunaskjalinu, t.d. sem sölupöntun, sem starfsmaður í vöruhúsi verður að taka tillit til við afgreiðslu úr vöruhúsi. Þetta getur verið vegna þess að viðskiptavinurinn bað um ákveðna lotu í framleiðsluferlinu. Þegar birgðatínslu- eða vöruhúsatínsluskjal er stofnað úr upprunaskjali á útleið þar sem rað- eða lotunúmer eru þegar skilgreind þá eru allir reitir á síðunni **Vörurakningarlínur** undir birgðatínslunni skrifvarðir nema reiturinn **Magn til afgreiðslu**. Í því tilvikum eru vörurakningarnúmer tilgreind í aðskildum frágangs-/tínslulínum í birgðatínslulínunum. Magninu hefur þegar verið skipt í sérstakar samstæður rað- eða lotunúmera því í sölupöntuninni eru vörurakningarnúmerin sem á að afhenda tilgreind.
 
-## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>Hvernig á að meðhöndla rað- og lotunúmer í millifærslupöntunum
+## Hvernig á að meðhöndla rað- og lotunúmer í millifærslupöntunum
 
 Ferlum við meðferð rað- og lotunúmera sem verið er að flytja milli birgðastöðva svipar til þeirra sem beitt er þegar vara er keypt og seld.  
 
@@ -164,7 +164,7 @@ Millifærslupöntunin er þó sérstök að því leyti að sending og móttaka 
 
 Meðan á millifærslu stendur er síðan **Vörurakningarlínur** skrifvarin.  
 
-## <a name="to-record-additional-serial-or-lot-number-information"></a>Skráning viðbótarupplýsinga um rað- og lotunúmer
+## Skráning viðbótarupplýsinga um rað- og lotunúmer
 
 Ef tengja þarf einhverjar upplýsingar við tiltekið vörurakningarnúmer, t.d. vegna gæðaeftirlits, er hægt að gera það á upplýsingaspjaldinu fyrir rað- eða lotunúmer.
 
@@ -182,7 +182,7 @@ Alternatively, you can create an information card when you post journals or docu
 
 Hægt er að breyta stofnuðum rað- eða lotuupplýsingaspjöldum síðar.
 
-## <a name="to-modify-existing-serial-or-lot-number-information"></a>Breyta fyrirliggjandi upplýsingum um rað- og lotunúmer
+## Breyta fyrirliggjandi upplýsingum um rað- og lotunúmer
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Velja vöru sem hefur vörurakningarkóða og upplýsingar um rað- eða lotunúmer.
@@ -193,7 +193,7 @@ Hægt er að breyta stofnuðum rað- eða lotuupplýsingaspjöldum síðar.
 
 Ekki er hægt að breyta rað- eða lotunúmerum eða magni. Til að gera það verður að endurflokka birgðabókarfærsluna í spurningu. Nánari upplýsingar er að finna í [Endurflokkun lotu- eða raðnúmera](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
-## <a name="to-reclassify-serial-or-lot-numbers"></a>Endurflokka rað- eða lotunúmer
+## Endurflokka rað- eða lotunúmer
 
 Endurflokkun vörurakningar fyrir vöru þýðir að breyta lotu- eða raðnúmeri í nýtt lotu- eða raðnúmer eða breyta lokadagsetningunni í nýja lokadagsetningu. Ef verið er að vinna með lotur er líka hægt að sameina margar lotur í eina lotu. Þessi verkefni eru framkvæmd með notkun vöruendurflokkunarbókarinnar.
 
@@ -220,9 +220,9 @@ Endurflokkun vörurakningar fyrir vöru þýðir að breyta lotu- eða raðnúme
 8. Hægt er að breyta upplýsingunum sem eru fyrir hendi varðandi lotu- eða raðnúmerið með því að skrá lotu- eða raðupplýsingarnar.  
 9. Færslubókin er bókuð til að tengja nýju vörurakningarnúmerin eða lokadagsetningarnar við viðkomandi birgðafærslu.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp vörurakningu með raðnúmer, lotu og pakkanúmer](inventory-how-setup-item-tracking.md)  
 [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  

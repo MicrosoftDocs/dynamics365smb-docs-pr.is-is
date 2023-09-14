@@ -1,7 +1,7 @@
 ---
 title: Orðalisti í kostnaðarbókhaldi
 description: 'Þessa efnisatriðis skilgreinir lykilhugtök sem eru notuð í kostnaðarbókhaldi, t.d. úthlutunarlykil og úthlutunaruppruna.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="terminology-in-cost-accounting"></a>Orðalisti í kostnaðarbókhaldi
+# Orðalisti í kostnaðarbókhaldi
 
 Í þessu efnisatriði eru lykilhugtökin sem notuð eru í kostnaðarbókhaldi skilgreind.  
 
-## <a name="key-terms"></a>Lykilhugtök
+## Lykilhugtök
 
  Eftirfarandi tafla sýnir skilgreiningar á lykilhugtökum í kostnaðarbókhaldi.  
 
@@ -43,9 +43,9 @@ ms.author: edupont
 |Breytilegur kostnaður|Breytilegur kostnaður er útgjöld sem breytast í hlutfalli við aðgerðir fyrirtækis. Breytilegur kostnaður er summa jaðarkostnaðar yfir allar framleiddar einingar. Fastur og breytilegur kostnaður myndar tvo hluta af heildarkostnaði.|  
 |Afbrigði|Afbrigði er notað sem valfrjálst notandaskilgreint merki fyrir úthlutanir. Tilgangur merkisins er til að sía flokka úthlutunar.|  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
  [Um kostnaðarbókhald](finance-about-cost-accounting.md)  
  [Kostnaðarreikningur](finance-manage-cost-accounting.md)  

@@ -1,7 +1,7 @@
 ---
 title: Sérstilling Business Central
 description: Lestu um mismunandi leiðir við að sérsníða Business Central til að bæta aðgengi að virkni og eiginleikum sem þú þarft mest á að halda við dagleg störf.
-author: SorenGP
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'personalize, add-in, extend, customize'
 ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="customize-business-central"></a>Sérstilla Business Central
+# Sérstilla Business Central
 
 Það eru mismunandi leiðir til að sérstilla forritið til að gefa þér og samstarfsmönnum þínum aðgang að þeim eiginleikum, virkni og gögnum sem þú þarft mest á þann hátt sem hentar best daglegu starfi þínu. Það hvaða breytingar sjást veltur á því hvað þú gerir, eins og lýst er í þessari töflu.
 
@@ -28,9 +28,9 @@ ms.author: edupont
 > [!NOTE]
 > Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga. Þess vegna geta notendur með **Grunnútgáfu** stundum lesið um virkni og viðmótseiginleika sem ekki eru sýnilegir í notendaviðmóti þeirra. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

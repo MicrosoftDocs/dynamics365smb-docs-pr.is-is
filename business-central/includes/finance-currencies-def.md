@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Setja þarf upp kóta fyrir hvern gjaldmiðil sem notaður er ef:
 

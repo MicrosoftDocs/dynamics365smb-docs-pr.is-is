@@ -1,7 +1,7 @@
 ---
 title: 'Setja upp forða, vinnuskýrslur og verk'
 description: 'Þetta efnisatriði lýsir hvernig á að setja upp tilföng, vinnublöð og verk til að stjórna verkefnum og fjárhagsáætlunum þeirra.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: projects
 ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-project-management"></a>Setja upp verkefnastjórnun
+# Setja upp verkefnastjórnun
 
 Áður en þú getur notað [!INCLUDE[prod_short](includes/prod_short.md)] til að stjórna verkefnum verður þú að setja upp tilföng, vinnuskýrslur og verk.
 
@@ -26,7 +26,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Að gera forða kleift að skrá tímanotkun fyrir einstakling eða vél og gera stjórnanda kleift að skoða notkun og úthlutun. |[Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md) |
 | Að stofna verkspjöld og undirbúa verkhluta. Að setja upp verð fyrir vörur verks og verkforða og skilgreina bókunarflokka verks. |[Uppsetning verka](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórna verkum](projects-manage-projects.md)  
 [Myndband: Hvernig á að stofna verk í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

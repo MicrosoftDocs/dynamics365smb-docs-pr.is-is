@@ -1,16 +1,16 @@
 ---
 title: Setja upp fjárhagsferli
 description: 'Kynntu þér verkin sem þarf að gera til að setja upp fjármál í fyrirtækinu sem hentar öllum þínum þörfum tengdum bókhaldi, endurskoðun eða bókunum.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-finance"></a>Uppsetning Fjármála
+# Uppsetning Fjármála
 
 Áður en þú getur byrjað að reka fyrirtækið þitt verður þú að tilgreina hvernig stjórna á fjármálaferlum fyrirtækisins. Fyrsta seturðu upp kjarnann í bókhaldsfærslum fyrirtækisins: bókhaldslyklana. Síðan eru settir upp bókunarflokkar, sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.
 
@@ -51,9 +51,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 > [!TIP]
 > Það fer eftir landfræðilegri staðsetningu þinni hvaða reiti sumar Business Central-síður geta innihaldið sem ekki er lýst í greinunum sem eru gefnar upp hér fyrir ofan vegna þess að þær gilda um staðbundna virkni eða sérstillingar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjármál](finance.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  

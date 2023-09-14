@@ -1,16 +1,16 @@
 ---
 title: Vinna með standandi sölupantanir eða innkaupapantanir
 description: Standandi pantanir eru notaðar þegar viðskiptamaður hefur samþykkt að kaupa í miklu magni sem afhenda á í nokkrum minni afhendingum á ákveðnu tímabili. Það sama á við um innkaup.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Vinna með standandi sölupantanir eða standandi innkaupapantanir
+# Vinna með standandi sölupantanir eða standandi innkaupapantanir
 
 Standandi sölupöntun er rammi fyrir langtíma samning milli viðkomandi og viðskiptamanns. Á svipaðan hátt eru standandi innkaupapantanir notaðar til að stjórna langtímasamningum milli þín og lánardrottins.
 
@@ -23,7 +23,7 @@ Dæmi um hvenær standandi sölupöntun er hægt að nota er ef viðskiptamaður
 > [!NOTE]
 > Standandi innkaupapöntun virka á svipaðan hátt og standandi sölupantanir. Þetta fylgiskjal nær eingöngu yfir standandi sölupantanir.
 
-## <a name="to-create-a-blanket-sales-order"></a>Til að búa til standandi sölupöntun.
+## Til að búa til standandi sölupöntun.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Standandi sölupantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -31,7 +31,7 @@ Dæmi um hvenær standandi sölupöntun er hægt að nota er ef viðskiptamaður
 4. Reiturinn **Pöntunardags.** er hafður auður. Þegar nokkrar sölupantanir eru stofnaðar úr standandi pöntun notar kerfið eiginlegu vinnudagsetninguna fyrir pöntunardagsetningu sölupöntunarinnar.
 5. Á flýtiflipanum **Línur** skal stofna sérstaka línu fyrir hverja afhendingu. Til dæmis ef viðskiptamaðurinn vill skipta 1000 einingum niður á fjórar vikur þarf að færa inn fjórar línur, hver upp á 250.  
 
-## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Stofnun sölupöntunar úr standandi sölupöntun
+## Stofnun sölupöntunar úr standandi sölupöntun  
 
 1. Til að stofna pöntun fyrir einhverjar línur í standandi sölupöntun skal fjarlægja magnið úr reitnum **Magn til afhendingar** í öllum línum sem ekki á að flytja á þessum tíma.  
 2. Þegar komið er að því að stofna pantanir skal velja aðgerðina **Búa til pöntun** og síðan velja **Já**. Skilaboð birtast um að standandi pöntunin hafi fengið pöntunarnúmer. Takið eftir að standandi pöntuninni hefur ekki verið eytt.  
@@ -50,7 +50,7 @@ Eftirfarandi á við sölupantanir eftir að þær hafa verið stofnaðar úr st
 - Reikningsfærða standandi pöntunin er til staðar í kerfinu þangað til henni er eytt annað hvort með því að eyða hverri standandi pöntun fyrir sig eða með keyrslunni **Eyða reikningsfærðum standandi sölupöntunum**.  
 - Ef viðskiptamaður er einnig skráður sem tengiliður í kerfishlutanum Tengslagrunnur og ef kóti samskiptasniðmáts fyrir standandi söluvörupöntun hefur verið skilgreindur á síðunni **Tengslagrunnur** eru samskipti skráð sjálfkrafa í töfluna Skráningarfærsla samskipta þegar smellt er á **Prenta** til að prenta standandi söluvörupöntunina.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Til að skoða stöðu standandi sölupöntunar:
+## Til að skoða stöðu standandi sölupöntunar:
 
 Hægt er að skoða stöðu standandi sölupantana á síðunni **Upplýsingar um standandi sölupöntun**. Þetta gæti skipt máli þegar byrjað er að reikningsfæra pöntunina sem búin er til úr standandi sölupöntuninni.  
 
@@ -63,7 +63,7 @@ Hægt er að skoða stöðu standandi sölupantana á síðunni **Upplýsingar u
 - Á flýtiflipanum **Fyrirframgreiðsla** er hægt að sjá samantekt um allar fyrirframgreiddar upphæðir.  
 - Á flýtiflipanum **Lánardrottinn** er hægt að skoða ákveðnar grunnupplýsingar um lánardrottininn.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Hvernig á að skoða óbókaðar og bókaðar línur standandi sölupöntunar
+## Hvernig á að skoða óbókaðar og bókaðar línur standandi sölupöntunar
 
 Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allra annarra söluskjala, er varðveitt eftir bókun sem listi yfir bókaðar og óbókaðar reikningslínur sölupantana.  
 
@@ -89,9 +89,9 @@ Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allr
 
 5. Á síðunni **Sölulínur** skal velja aðgerðina **Sýna fylgiskjal** til að skoða færsluna.
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Búa til standandi samsetningarpantanir](assembly-how-to-create-blanket-assembly-orders.md)  

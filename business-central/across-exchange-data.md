@@ -1,16 +1,16 @@
 ---
 title: Gagnaskipti
 description: 'Skiptast á rafrænum viðskiptaskjölum, til dæmis bankaskrám, á milli Business Central og utanaðkomandi aðila.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'exchange data, external files, electronic documents, AMC Banking, OCT, SEPA'
 ms.date: 06/10/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="exchanging-data"></a>Gagnaskipti
+# Gagnaskipti
 Hægt er að skipta á gögnum á milli [!INCLUDE[prod_short](includes/prod_short.md)] og ytri skráa í tengslum við algeng viðskiptaverk, s.s. að senda og taka á móti rafrænum skjölum og flytja inn og út bankaskrár.  
 
 Áður en hægt er að senda og taka á móti rafrænum skjölum eða flytja inn og út bankaskrár verður að setja upp gagnaskiptaramma til að vinna úr gagnaskjölum eða straumum. Auk þess verður að setja upp tengd svæði, t.d. viðskiptamenn sem fá senda rafræna reikninga eða AMC Banking 365 Fundamentals viðbótina ef þú sendir umskráningu bankaskráa til utanaðkomandi þjónustuaðila. Nánari upplýsingar er að finna í [Uppsetning gagnaskipta](across-set-up-data-exchange.md).  
@@ -31,7 +31,7 @@ Hægt er að skipta á gögnum á milli [!INCLUDE[prod_short](includes/prod_shor
 |Útflutningsgögn fyrir Intrastat-skýrslugerð í [!INCLUDE[prod_short](includes/prod_short.md)].|[Setja upp Intrastat skýrslugerð](finance-how-setup-report-intrastat.md)|
 |Skoðaðu hvaða reitum í [!INCLUDE[prod_short](includes/prod_short.md)] hefur verið varpað á skráareiginleika við útflutning greiðsluskráa með AMC Banking 365 Fundamentals viðbótinni.|[Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)   

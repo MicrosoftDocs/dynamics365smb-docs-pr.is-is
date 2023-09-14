@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Þegar síðan **Ráðstöfun vöru eftir afbrigðum** er opnuð úr skjalalínu er hægt að setja afbrigði inn í skjalalínuna með því að velja línuna með afbrigðinu sem á að setja inn og smella svo á hnappinn „Í lagi“. Ef þú hefur aðeins notað síðuna til að skoða ráðstöfun og vilt ekki færa inn afbrigði skaltu loka síðunni án þess að velja hnappinn „Í lagi“.
 

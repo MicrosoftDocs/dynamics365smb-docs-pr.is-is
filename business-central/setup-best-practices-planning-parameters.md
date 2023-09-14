@@ -1,16 +1,16 @@
 ---
 title: 'Uppsetning bestu venjur: Áætla færibreytur'
 description: Þetta efnisatriði útskýrir bestu starfsvenjur um hvernig eigi að setja upp valda reiti fyrir færibreytu áætlanagerðar með flýtiflipa áætlanagerðar á birgðakortinu.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Uppsetning bestu venjur: Áætla færibreytur
+# Uppsetning bestu venjur: Áætla færibreytur
 
 Flýtiflipinn **Áætlun** á birgðaspjaldinu er þungamiðja birgðakeðju fyrirtækis. Uppsetning réttra áætlunarfæribreyta er mjög mikilvæg fyrir hagkvæma birgðastjórnun og gæði þjónustu við viðskiptamenn.  
 
@@ -34,7 +34,7 @@ Flýtiflipinn **Áætlun** á birgðaspjaldinu er þungamiðja birgðakeðju fyr
 >
 > Ef fyrirtæki áætla eftirspurn fyrir mismunandi birgðageymslur er eindregið mælt með því að skilgreina birgðahaldseiningar fyrir hverja birgðageymslu og búa alla eftirspurn til með því að nota gildi úr reitnum **Kóti birgðageymslu**. Frekari upplýsingar hjá  [Hönnunarmiðstöð: áætlunarferðir með eða án birgðageymslna](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)  
 [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  

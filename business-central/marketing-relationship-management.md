@@ -2,7 +2,7 @@
 title: Umsjón með venslum
 description: Tengslastjórnunareiginleikarnir styðja við sölutilburði þína og veita þér aðgang að upplýsingum um tengiliði og viðföng til að sinna viðskiptamönnum á skilvirkan hátt.
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: 'contact, prospect, client'
 ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-relationships"></a>Stjórnun tengsla
+# Stjórnun tengsla
 Tengslastjórnunareiginleikar [!INCLUDE[prod_short](includes/prod_short.md)] auðvelda stjórnun og stuðning við markaðssetningu og sölu. Þessir eiginleikar veita aðgang að fullkomnum og nákvæmum upplýsingum svo hægt sé að einbeita sér að þeim viðskiptamönnum/tengiliðum sem ná á til.
 
 Góðar sölu- og markaðssetningaraðferðir snúast um að taka réttar ákvarðanir á réttum tíma. [!INCLUDE[prod_short](includes/prod_short.md)] veitir nákvæmt og tímanlegt yfirlit yfir tengiliðaupplýsingar svo hægt sé að þjónusta væntanlega viðskiptamenn og auka ánægju viðskiptamanna.

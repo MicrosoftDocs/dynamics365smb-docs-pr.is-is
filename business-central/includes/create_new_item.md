@@ -1,8 +1,8 @@
 ---
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 22.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  

@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Þar sem fyrirtæki starfa í mörgum löndum/svæðum er nauðsynlegt fyrir þau að geta stundað viðskipti og skráð fjárhagslegar upplýsingar í fleiri en einum gjaldmiðli. Staðbundinn gjaldmiðill (SGM) er skilgreindur á síðunni **Fjárhagsgrunnur** eins og lýst er í greininni [Að skilja fjárhag og bókhaldslykla](../finance-general-ledger.md). Þegar staðbundinn gjaldmiðill hefur verið skilgreindur verður hann tómur gjaldmiðill. Þegar reiturinn **Gjaldmiðill** er auður merkir það að gjaldmiðillinn er SGM.  
 

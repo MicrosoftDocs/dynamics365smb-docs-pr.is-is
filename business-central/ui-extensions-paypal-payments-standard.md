@@ -1,7 +1,7 @@
 ---
 title: Notkun PayPal Payments Standard-viðbótarinnar
 description: Þetta efnisatriði lýsir því hvernig nota skal staðlaða viðbót til að gera viðskiptamönnum kleift að framkvæma greiðslur með PayPal.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Viðbótin PayPal Payments Standard
+# Viðbótin PayPal Payments Standard
 
 Viðskiptamenn þurfa stöðugt hærra þjónustustig, bæði hvað varðar gæði vöru en einnig hvað varðar valkosti afhendingar og greiðslu. PayPal Payments Standard gerir kleift að veita viðskiptamanninum meiri þjónustu.
 
@@ -29,7 +29,7 @@ Staðlaða PayPal greiðsluþjónustan býður upp á eftirfarandi kosti:
 
 Nánari upplýsingar eru í [Virkja greiðslu viðskiptamanns gegnum PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

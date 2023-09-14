@@ -3,19 +3,19 @@ title: 'Eyðing bókaðra reikninga og kreditreikninga [IS]'
 description: Í samræmi við löggjöf á Íslandi er ekki hægt að eyða bókuðum sölu- og innkaupareikningum og kreditreikningum.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'Iceland, post, invoice, credit memo'
 ms.date: 06/18/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="deleting-posted-invoices-and-credit-memos-in-the-icelandic-version"></a>Eyðing bókaðra reikninga og kreditreikninga í íslenskri útgáfu
+# Eyðing bókaðra reikninga og kreditreikninga í íslenskri útgáfu
 Í samræmi við löggjöf á Íslandi er ekki hægt að eyða sölu- og innkaupareikningum og kreditreikningum eftir að þeir hafa verið bókaðir. Á [!INCLUDE[prod_short](../../includes/prod_short.md)] er skipunin **Eyða** ekki í boði fyrir þessa gerð bókaðra fylgiskjala.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Reikningsfæra sölur](../../sales-how-invoice-sales.md)
 
 

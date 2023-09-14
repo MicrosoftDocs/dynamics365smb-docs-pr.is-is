@@ -1,7 +1,7 @@
 ---
 title: Greina raunverulegar og áætlaðar upphæðir
 description: 'Þessi grein lýsir því hvernig eigi að greina raunverulegar upphæðir samanborið við upphæðir fjárhagsáætlunar sem leið til að safna, greina og deila gögnum fyrirtækisins.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Greina raunverulegar og áætlaðar upphæðir
+# Greina raunverulegar og áætlaðar upphæðir
 
 Hluti af því að safna saman, greina og deila upplýsingum fyrirtækis, er að skoða raunverulegar upphæðir í samanburði við áætlaðar upphæðir fyrir alla reikninga og nokkur tímabil.
 
 Til að greina áætlaðar upphæðir verður þú fyrst að búa til almennar fjárhagsáætlanir. Frekari upplýsingar eru á [Stofna fjárhagsáætluanir](finance-how-create-budgets.md).
 
-## <a name="view-a-gl-budget"></a>Skoða fjárhagsáætlun
+## Skoða fjárhagsáætlun
 
 Í áætlun með víddum er hægt að setja afmarkanir á færslurnar og sjá tilteknar áætlanir.
 
@@ -34,7 +34,7 @@ Til að greina áætlaðar upphæðir verður þú fyrst að búa til almennar f
 > [!TIP]  
 > Notaðu aðgerðina **Breyta fjárhagsáætlun** til að breyta henni. Á síðu fjárhagsáætlunar skal velja upphæð til að skoða undirliggjandi færslur fjárhagsáætlunarskýrslu.
 
-## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Skoða raunverulegar og áætlaðar upphæðir fyrir alla reikninga
+## Skoða raunverulegar og áætlaðar upphæðir fyrir alla reikninga
 
 Hægt er að skoða fjárhagsáætlanir og bera þær saman við raunverulegar upphæðir í mörgum svæðum í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -51,7 +51,7 @@ Bókhaldslykillinn er í dálkunum til vinstri. Af dálkunum fimm lengst til hæ
 > [!TIP]  
 > Reiturinn **Skoða eftir** á síðunni **Fjárhagur - Staða/áætlun** er notaður til að velja lengd tímabils. Smellt er á reitinn  **Skoða sem** til að velja hvernig upphæðir eru reiknaðar annað hvort **Hreyfing** eða **Staða til dags**. Veljið aðgerðina **Fyrra tímabil** eða **Næsta tímabil** til að breyta tímabilinu.  
 
-## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Að skoða raunverulegar og áætlaðar upphæðir fyrir nokkur tímabil
+## Að skoða raunverulegar og áætlaðar upphæðir fyrir nokkur tímabil  
 
 Í stað þess að skoða raunverulegar og áætlaðar upphæðir á öllum reikningum innan ákveðins tímabils er hægt að skoða fjölda tímabila á stökum reikningi.  
 
@@ -60,9 +60,9 @@ Bókhaldslykillinn er í dálkunum til vinstri. Af dálkunum fimm lengst til hæ
 3. Í flýtiflipanum **Valkostir** skal fylla út reitina eins og þarf til að skilgreina hvað er sýnt í töflunni.  
 4. Í flýtiflipanum **Línur** skal fara með bendilinn yfir reit í töflunni til að lesa stutta lýsingu um birta upphæð.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
+## Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Viðskiptagreind fjármála](bi.md)  
 [Vinna með fjárhagsskýrslur](bi-how-work-account-schedule.md)  
