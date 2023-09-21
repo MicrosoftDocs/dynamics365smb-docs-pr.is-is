@@ -47,8 +47,6 @@ Allar færslur skjala á innleið eru sýndar, þar á meðal færslur þar sem 
 > [!NOTE]  
 > Einnig má framkvæma þessa aðgerð fyrir einstaka færslu á síðunni **Spjald fyrir skjöl á innleið** .
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Sjá einnig .
   
 [Stofna færslur skjala á innleið](across-how-create-income-document-records.md)

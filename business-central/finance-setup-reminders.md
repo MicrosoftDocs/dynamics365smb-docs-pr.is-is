@@ -92,8 +92,6 @@ Ef stofnaðar eru fleiri áminningar en skilgreind hafa verið stig fyrir verða
 
 Þegar búið er að setja upp áminningarskilmálana með viðbótarstigum og texta þarf að færa einn kóðann á hvert viðskiptamannaspjald. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/send-reminders-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  

@@ -75,8 +75,6 @@ Ef þú vilt endurskoða bókaða tékka, til dæmis til að staðfesta marga gr
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikn. - Upplýsingar um ávísun** og velja síðan viðkomandi tengil.
 2. Stilla afmarkanir sem viðeigandi og velja svo hnappinn **Forskoða**.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/use-checks-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Framkvæma greiðslur](payables-make-payments.md)  

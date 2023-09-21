@@ -26,8 +26,6 @@ Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Ve
 |Sjá dagbækur og færslur kostnaðaráætlana.|**Fjárhagsáætlunarskrá**|  
 |Prenta samanburð kostnaðaráætlunar með því að nota ýmsar skýrslur.|**Kostnaðarbókhald Staða-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðarbókhald Yfirlit-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarstað** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarhluta** skýrsla|  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Kostnaðarreikningur](finance-manage-cost-accounting.md)  

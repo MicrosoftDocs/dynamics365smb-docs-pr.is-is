@@ -35,7 +35,7 @@ Sviðsmyndirnar tvær á undan eru alltaf virkar.
 |**Frá Shopify**| Þessi kostur er valinn ef ætlunin er að flytja vörur inn frá Shopify í lausasölu, annaðhvort handvirkt með því að nota aðgerðina **Samstilla vöru** eða með því að nota verkröðina fyrir endurteknar uppfærslur. Fáðu frekari upplýsingar í hlutanum [Flytja inn atriði frá Shopify](synchronize-items.md#import-items-from-shopify).|
 
 > [!NOTE]
-> Breyting  **á Samstillingarvöru**  frá  **Shopify**  til  **að  Shopify**  hafa ekki áhrif nema  **hægt sé að uppfæra  Shopify  afurðir**.
+> Breyting  **á Samstillingarvöru**  frá  **Shopify**  til  **að  Shopify**  hafa ekki áhrif nema  **hægt sé að uppfæra  Shopify  afurðir**. 
 
 ## Flytja inn atriði úr Shopify
 
@@ -93,7 +93,7 @@ Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerði
 |**Reitaskiltákn birgðahaldseiningar**|Skilgreindu skilju fyrir valkostinn **Vörunr. + afbrigðiskóði**.|
 |**Birgðir raktar**| Veldu hvernig kerfið á að fylla út reitinn **Rekja birgðir** vörur sem eru fluttar út til Shopify. Hægt er að uppfæra framboðsupplýsingar [!INCLUDE[prod_short](../includes/prod_short.md)] fyrir vörur í Shopify þar sem rakning birgða er virk. Fáðu frekari upplýsingar í hlutanum [Birgðir](synchronize-items.md#sync-inventory-to-shopify).|
 |**Sjálfgefin birgðastefna**|Veldu *Neita* til að koma í veg fyrir neikvæðar birgðir á Shopify hliðinni.|
-|**Getur uppfært Shopify Vörur**|Skilgreinið þetta svæði ef  [!INCLUDE[prod_short](../includes/prod_short.md)]  aðeins á að stofna vörur eða geta uppfært vörur einnig. Þessi kostur er valinn ef upphafleg samstilling er virkjuð með aðgerðinni **Bæta við vöru**, þú ætlar að uppfæra vörur handvirkt með því að nota aðgerðina **Samstilla vöru** eða með því að nota verkröðina fyrir endurteknar uppfærslur. Munið að velja **Til Shopify** í reitnum **Samstilling vöru**.<br>**Hægt er að uppfæra  Shopify  afurðir**  sem hafa áhrif á samstillingu á verði, myndum eða birgðastikunni, sem eru skilgreindar með sjálfstæðum stýringum.<br>Ef  **hægt er að uppfæra  Shopify  afurðir**  eru eftirfarandi svæði á  Shopify  hlið uppfærð á afurð og ef þörf er á afbrigðilegu stigi:  **Be**,  **barkóða**,  **þyngd**. Titillinn  **,** afurðargerðin  **,** lánardrottininn  **,** Lýsing  **á afurð verður einnig uppfærð ef gildin sem**  eru útflutt eru ekki tóm. Fyrir lýsingu þetta þýðir að virkja þarf einhvern  **lengdan texta** **samkeyrslu vöru, samstilla markaðstexta** vöru,  **samkeyrslu vörueiginda**  og eigindir, lengdar-eða markaðstexta verður að hafa gildi. Ef vara notar vöruvíddasamsetningar verður afbrigði bætt við eða fjarlægt ef þörf krefur.|
+|**Getur uppfært Shopify Vörur**|Skilgreinið þetta svæði ef  [!INCLUDE[prod_short](../includes/prod_short.md)]  aðeins á að stofna vörur eða geta uppfært vörur einnig. Þessi kostur er valinn ef upphafleg samstilling er virkjuð með aðgerðinni **Bæta við vöru**, þú ætlar að uppfæra vörur handvirkt með því að nota aðgerðina **Samstilla vöru** eða með því að nota verkröðina fyrir endurteknar uppfærslur. Munið að velja **Til Shopify** í reitnum **Samstilling vöru**.<br>**Hægt er að uppfæra  Shopify  afurðir**  sem hafa áhrif á samstillingu á verði, myndum eða birgðastikunni, sem eru skilgreindar með sjálfstæðum stýringum.<br>Ef  **hægt er að uppfæra  Shopify  afurðir**  eru eftirfarandi svæði á  Shopify  hlið uppfærð á afurð og ef þörf er á afbrigðilegu stigi:  **Be**,  **barkóða**,  **þyngd**. Titillinn  **,** afurðargerðin  **,** lánardrottininn  **,** Lýsing  **á afurð verður einnig uppfærð ef gildin sem**  eru útflutt eru ekki tóm. Fyrir lýsingu þetta þýðir að virkja þarf einhvern  **lengdan texta** **samkeyrslu vöru, samstilla markaðstexta** vöru,  **samkeyrslu vörueiginda**  og eigindir, lengdar-eða markaðstexta verður að hafa gildi. Ef vara notar vöruvíddasamsetningar verður afbrigði bætt við eða fjarlægt ef þörf krefur. <br>Athugið að ef varan á  Shopify  að hafa verið notuð til að nota Variant-fylki sem sameina tvo eða fleiri valkosti  Shopify  getur Connector ekki stofnað afbrigði fyrir þá afurð. Á  [!INCLUDE[prod_short](../includes/prod_short.md)]  það er engin leið að skilgreina valfylki, þess vegna notar  **Tengivirkið afbrigðiskótann**  sem eina valkostinn. Gerir þó  Shopify  ráð fyrir nokkrum valkostum og neitar að búa til afbrigði ef upplýsingar um sekúndu og aðra valkosti vantar. |
 
 ### Reitir-yfirlit yfir vörpun
 
@@ -101,6 +101,7 @@ Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerði
 |------|-----------------|-----------------|
 |Staða|Samkvæmt reitnum **Staða fyrir stofnaðar vörur** í **Shopify Verslunarkortinu**. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
 |Titill | **Lýsing**. Ef tungumálakóðinn er skilgreindur og samsvarandi þýðing vöru er til verður þýðing vöru notuð í stað lýsingarinnar.|**Lýsing**|
+|Titill afbrigðis | **Afbrigðiskóta**.|**Lýsing**  á afbrigði|
 |Heimildasamstæða|Sameinar lengda texta, markaðstexta og eiginleika ef viðkomandi víxlar eru virkjaðra á  Shopify  verkstæðisspjaldinu. Hledur tungumálskóðanum.|Ekki notað.|
 |Titill SEO-síðu|Fast gildi: autt. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
 |Lýsing SEO-lýsigagna|Fast gildi: autt. Frekari upplýsingar í  [tilfallandi uppfærslum  Shopify  á vörum](synchronize-items.md#ad-hoc-updates-of-shopify-products) .|Ekki notað.|
@@ -147,6 +148,10 @@ Vörurnar sem til eru eru sjálfkrafa stofnaðar í  Shopify  með verði. Myndi
 Einnig er hægt að nota aðgerðina **Samstilla vörur** á síðunni **Shopify Vörur** eða leita að runuvinnslunni **Samstilla vörur**.
 
 Þú getur skipulagt verkið sem á að framkvæma á sjálfvirkan hátt. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
+
+### VEFSLÓÐ og Forskoðun URL
+
+Vöru sem bætt er við  Shopify  eða flutt inn frá  Shopify  gæti haft URL  **-eða**  forskoðunarslóðina  **sem er**  útfyllt.  **Reiturinn URL**  verður tómur ef afurð er ekki birt í netverslun, til dæmis vegna þess að staða hennar er upptekin. Vefslóðin  **er auð ef Store er varin með**  aðgangsorði, til dæmis vegna þess að þetta er þróunarverslun. Í flestum tilfellum er hægt að nota  **FORSKOÐUN URL**  til að athuga hvernig afurðin muni líta út einu sinni.
 
 ### Sértækar uppfærslur á Shopify vörum
 
@@ -204,7 +209,7 @@ Hægt er að ræsa samstillingu mynda á þann hátt sem lýst er hér að neða
 |**Leyfa Línuafsl.**|Tilgreinir hvort leyfa eigi línuafslátt þegar reiknað er verð Shopify. Þessi stilling á aðeins við um verð á vörunni. Verð í verðflokki viðskiptamanns eru með eigin víxla í línum.|
 |**Verð með VSK**|Tilgreinir hvort Verðútreikningur á að  Shopify  INNIHALDA VSK. Frekari upplýsingar er að finna á [Setja upp skatta](setup-taxes.md).|
 |**VSK-viðskiptabókunarflokkur**|Tilgreinir hvaða VSK-viðskiptabókunarflokkur er notaður til að reikna út verð í Shopify. Þetta ætti að vera sá hópur sem þú notar fyrir innlenda viðskiptavini. Frekari upplýsingar er að finna á [Setja upp skatta](setup-taxes.md).|
-|**Gjaldmiðilskóði**|Færið aðeins inn gjaldmiðilskóta ef vefverslunin notar annan gjaldmiðil en staðbundinn gjaldmiðil (ISK). Tilgreindur gjaldmiðill verður að hafa stillt gengi. Ef vefverslunin notar sama gjaldmiðil og [! INCLUDEprod_short], skal reiturinn hafður auður.|
+|**Gjaldmiðilskóði**|Færið aðeins inn gjaldmiðilskóta ef vefverslunin notar annan gjaldmiðil en staðbundinn gjaldmiðil (ISK). Tilgreindur gjaldmiðill verður að hafa stillt gengi. Ef vefverslunin þín notar sama gjaldmiðil og [!INCLUDE[prod_short](../includes/prod_short.md)] skaltu skilja þennan reit eftir auðan.|
 
 Hægt er að flytja verð til samstilltra vara á þeim tveimur leiðum sem lýst er hér á eftir.
 

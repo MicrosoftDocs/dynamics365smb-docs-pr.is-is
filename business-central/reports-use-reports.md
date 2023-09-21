@@ -25,8 +25,6 @@ Skýrsla í [!INCLUDE[prod_short](includes/prod_short.md)] ssafnar saman upplýs
 | Kynntu þér hvernig á að breyta sjálfgefnu útliti fyrir skýrslu. | [Breyta sjálfgefnu skýrsluútliti](ui-how-change-layout-currently-used-report.md) |
 | Skoðaðu og greindu gögn úr gagnasafni skýrslu í Microsoft Excel. | [Vista gagnasafn skýrslu í Excel úr beiðnisíðunni](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/setup-reporting-dynamics-365-business-central/).
-
 ## Sjá einnig .
 
 [Skýrsluyfirlit](reports-available-reports.md)  

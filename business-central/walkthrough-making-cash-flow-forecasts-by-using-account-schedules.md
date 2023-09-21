@@ -133,8 +133,6 @@ Ken er nú tilbúinn til að úthluta dálkskilgreiningu á fjárhagsskýrsluhei
 2. Á síðunni **Fjárhagsskýrsla** er hægt að velja upphæð og síðan skoða sjóðstreymisspáfærslur sem mynda upphæðina. Að auki er hægt að sjá formúluna sem notuð er til að reikna út þá upphæð. Einnig er hægt að afmarka upphæðir eftir dagsetningu og vídd.  
 3. Veldu hnappinn **Prenta** til þess að prenta sjóðstreymisspá.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Vinna með fjárhagsskýrslur](bi-how-work-account-schedule.md)  

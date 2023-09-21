@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# <a name="move-items-internally-in-basic-warehouse-configurations"></a>Flytja vörur inn í grunn Vöruhúsafbrigða
+# Flytja vörur inn í grunn Vöruhúsafbrigða
 
 Það gæti verið æskilegt að flytja vörur milli hólfa án þess að eftirspurn sé eftir upprunaskjali. T.d. sem hluti af eftirfarandi verkþáttum:
 
@@ -25,11 +25,11 @@ Hvernig vörur eru færðar fer eftir því hvernig vöruhúsið er sett upp sem
 *  **Á síðu hreyfingarinnar**  innanhúss.
 *  **Á síðu Birgðaendurflokkunarbókar** .  
 
-## <a name="internal-movements"></a>Innri hreyfingum
+## Innri hreyfingum
 
  **Síðan Innanhússhreyfingar**  gerir kleift að tilgreina taka og setja inn línur þegar engin eftirspurn er eftir upprunaskjali. Síða Innanhússhreyfinga er eins og vinnublað til að skipuleggja hlutina. Ekki er hægt að vinna úr raunverulegri hreyfingu beint út frá því. Þegar lína er fyllt út er aðgerðin stofna Birgðahreyfingalokun  **notuð**  til að senda línuna á  **síðuna birgðahreyfing**, sem er þar sem unnið er úr og skráð hreyfingin.
 
-### <a name="to-move-items-as-an-internal-movement"></a>Til að færa vörur sem innri hreyfingu
+### Til að færa vörur sem innri hreyfingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn  **innri hreyfingar** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Nýtt**. Gakktu úr skugga um að **Nr.** reiturinn á flýtiflipanum **Almennt** er fylltur út.
@@ -41,9 +41,9 @@ Hvernig vörur eru færðar fer eftir því hvernig vöruhúsið er sett upp sem
     Til dæmis í framleiðslu gæti hólfið verið opið vinnugólfhólf sem tilgreint er á birgðageymsluspjaldinu eða vinnustöðunum.  
 5.  **Í reitinn Gjalddagi**  skal slá inn dagsetninguna sem á að ljúka hreyfingunni.  
 6. Fyllt er í reitina eftir þörfum í hverri línu. Innhreyfingskjöl innanhúss eru með eina línu á hverja hreyfingu. Í línunni eru bæði tek og sæti aðgerðir.
-7.  **Veldu Vörunr.**  til að opna  **listasíðuna**  innihald hólfs. Velja vöru sem á að fara eftir ráðstöfunartekjum hennar í hólfum. Einnig er hægt að velja  **aðgerðina Sækja innihald**  hólfs til að færa inn innri hreyfingalínur sem byggðar eru á afmörkunum.  
+7.  **Veldu Vörunr.** til að opna  **listasíðuna**  innihald hólfs. Velja vöru sem á að fara eftir ráðstöfunartekjum hennar í hólfum. Einnig er hægt að velja  **aðgerðina Sækja innihald**  hólfs til að færa inn innri hreyfingalínur sem byggðar eru á afmörkunum.  
 
-    Eftir að varan  **hefur verið valin er reiturinn frá-kóti**  sjálfkrafa fylltur út í samræmi við valið hólfainnihald. Hægt er að velja hólf þar sem varan er tiltæk.  **Vörunr.**  og  **frá hólfakóta**  eru tengdar. Ef gildið er breytt í einum reit gæti það breytt gildinu í hinu.  
+    Eftir að varan  **hefur verið valin er reiturinn frá-kóti**  sjálfkrafa fylltur út í samræmi við valið hólfainnihald. Hægt er að velja hólf þar sem varan er tiltæk.  **Vörunr.** og  **frá hólfakóta**  eru tengdar. Ef gildið er breytt í einum reit gæti það breytt gildinu í hinu.  
 
      **Reiturinn Kóti**  til-hólfs er fylltur út með gildinu sem fært var inn í hausinn. Hægt er að breyta henni í línu í annan kóta hólfs sem er ekki lokaður eða hollur í sérstökum tilgangi. Frekari upplýsingar á  [Tileinkuðu sviði](warehouse-how-to-create-individual-bins.md#the-dedicated-field).  
 
@@ -59,7 +59,7 @@ Hvernig vörur eru færðar fer eftir því hvernig vöruhúsið er sett upp sem
 
 Framkvæmið hina óskipulögðu hreyfingu á  **síðunni Vöruhreyfill**  á sama hátt og óskað er eftir í hreyfingu samkvæmt upprunaskjölum.
 
-### <a name="to-record-the-inventory-movement"></a>Birgðahreyfingin skráð
+### Birgðahreyfingin skráð
 
 1.  **Opnið skjalið á síðunni birgðahreyfingar**  til að skrá hreyfinguna fyrir.  
 2.  **Í reitnum Hólfkóti**  í hreyfingalínunum er hólfið þar sem vörurnar verða teknar til úr, þar sem varan er tiltæk. Hægt er að skipta um hólf ef með þarf.
@@ -72,7 +72,7 @@ Eftirfarandi gerist á meðan á bókunarferlinu stendur:
 
 * Vöruhúsafærslur gefa til kynna að magnið sé flutt úr Take-hólfum í stað hólfa.
 
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Til að færa vörur með vöruendurflokkunarbók
+## Til að færa vörur með vöruendurflokkunarbók
 
 Í stað þess að nota hreyfingarskjöl er hægt að skrá hreyfingar með því að endurflokkun hólfakóta á vörum. Frekari upplýsingar til að  [telja, leiðrétta og endurflokka birgðir með notkun færslubóka](inventory-how-count-adjust-reclassify.md).
 
@@ -89,12 +89,10 @@ Eftirfarandi gerist á meðan á bókunarferlinu stendur:
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
+## Sjá einnig .
 
-## <a name="see-also"></a>Sjá einnig .
-
-[Yfirlit](design-details-warehouse-management.md)
-[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Inventory](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

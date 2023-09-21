@@ -31,8 +31,6 @@ Innkaupabeiðnin er fjarlægt úr gagnagrunninum. Innkaupapöntun er stofnuð ú
 > [!NOTE]
 > Ekki er hægt að breyta innkauptilboði í innkaupareikning á beinan hátt, eins og er hægt með sölutilboð. Upplýsingar um hvernig á að stofna innkaupareikning er að finna í [Skrá innkaup með innkaupareikningum](purchasing-how-record-purchases.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-purchase-documents-dynamics-365-business-central/).
-
 ## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  

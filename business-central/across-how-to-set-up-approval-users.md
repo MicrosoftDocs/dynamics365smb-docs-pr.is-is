@@ -46,8 +46,6 @@ Eftir að samþykktarnotendur hafa verið settir upp er hægt að stofna svör v
 
 Næsta skref er að tilgreina hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  eigi að tilkynna fólki að beiðni sé í bið að þeirra athygli. Frekari upplýsingar um  [uppsetningu verkflæðistilkynninga](across-setting-up-workflow-notifications.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
-
 ## Sjá einnig .
 
 [Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)  

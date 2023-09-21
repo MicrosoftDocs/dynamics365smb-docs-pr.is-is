@@ -123,8 +123,6 @@ Ef verið er að nota eignirnar í [!INCLUDE[prod_short](includes/prod_short.md)
 
 Ef eignirnar eru ekki samþættar fjárhag er sleppt lið 6 og 8.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/set-up-fixed-assets-management/)
-
 ## Sjá einnig .
 
 [Uppsetning eigna](fa-setup.md)  

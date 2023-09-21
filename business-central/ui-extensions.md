@@ -87,8 +87,6 @@ Samstarfsaðilar og endursöluaðilar Microsoft geta búið til forrit sem þeir
 > [!NOTE]
 > Ef þú ert samstarfsaðili eða endursöluaðili Microsoft og hefur áhuga á að bjóða upp á lista yfir forrit sem mælt er með skaltu skoða [Mæla með forritum frá AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) í efni stjórnanda.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/customize-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Setja upp og fjarlægja forrit](ui-extensions-install-uninstall.md)  

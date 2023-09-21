@@ -88,8 +88,6 @@ Eftirfarandi hlutar lýsa því hvernig á að setja upp vinnuskýrslur ef þú 
 > [!NOTE]  
 > Ekki er hægt að auðkenni samþykkjanda vinnuskýrslu ef tíma fyrir eru tímaskýrslur sem ekki hefur verið unnið með og sem hafa stöðuna **Sent** eða **Opið**.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
-
 ## Sjá einnig .
 
 [Nota vinnuskýrslur fyrir verkefni](projects-how-use-time-sheets.md)  

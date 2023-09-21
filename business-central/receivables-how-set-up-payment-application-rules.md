@@ -74,8 +74,6 @@ Eftirfarandi tafla lýsir hefðbundnum greiðslujöfnunarreglur í [!INCLUDE[pro
 | Lítill              | 4        | Nr.                    | Nr.                             | Ein niðurstaða                      |
 | Lítill              | 5        | Nr.                    | Nr.                             | Margar niðurstöður               |
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
-
 ## Sjá einnig
 [Afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  

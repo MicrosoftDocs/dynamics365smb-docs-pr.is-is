@@ -43,12 +43,10 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/purchase-items-services-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
-[Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
+[Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
 [Stjórna verkum](projects-manage-projects.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

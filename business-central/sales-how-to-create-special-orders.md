@@ -38,8 +38,6 @@ Tekið er tillit til stofnaðrar innkaupapöntunar fyrir sérpöntun af kerfinu 
 > [!NOTE]  
 >  Ekki er hægt að nota sérpöntunarkostinn ef varan er þegar frátekin. Þess vegna, fyrir vörur sem eru seldar með sérpöntunum, gakktu úr skugga um að **Frátekning** reiturinn á birgðaspjaldinu sé ekki stilltur á **Alltaf**.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Vinna með vörulista](inventory-how-work-nonstock-items.md)  

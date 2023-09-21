@@ -3,7 +3,7 @@ title: Úrræðaleit fyrir samstillingu Shopify og Business Central
 description: Lærðu hvað á að gera ef eitthvað fer úrskeiðis þegar gögn eru samstillt á milli  Shopify  og Viðskiptamiðst.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
@@ -143,6 +143,10 @@ Svo virðist sem þú notir [Innleiða forrit](/dynamics365/business-central/dev
 ### Villa: Innri villa. Svo virðist sem eitthvað hafi farið úrskeiðis á endanum. Óska eftir auðkenni: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
 Vinsamlegast hafðu samband  Shopify  við þig innan 7 daga frá því að upplifa þessa villu og Gefðu upp kenni beiðninnar. Til að fá frekari upplýsingar er farið í  [stuðningsvalkosti Shopify](shopify-faq.md#shopify).
+
+### Villa:  Oauth  villa invalid_request: reikningurinn hefur ekki heimild til að veita umbeðna aðgang fyrir þetta App. 
+
+Notandinn sem biður um aðgang hefur ekki réttindi til að stjórna forritum (getu til að stjórna og setja upp forrit og rásir) auk þess að samþykkja forritagjöld. Hugsanlega er hægt að leysa þetta vandamál með því að setja upp App sem reikningseigandinn. Einnig er hægt að kanna  **App-heimildina**  fyrir notandann í  [**stillingum notanda og heimildum**](https://www.shopify.com/admin/settings/account)  í  **Shopify  admin**.  
 
 ## Sjá einnig .
 

@@ -17,8 +17,8 @@ ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 |Aðferð|Ferli á innleið|Krefjast kvittana|Krefjandi frágangur|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
 |------------|---------------------|--------------|----------------|------------|  
 |A|Bóka móttöku og frágang frá pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
-|B|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
-|N|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
+|Á|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
+|U|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
 |D|Bóka móttöku frá vöruhúsamóttökuskjali og bóka frágang frá vöruhúsafrágangsskjali|Kveikt|Kveikt|Ítarlegt|  
 
 Frekari upplýsingar um hvernig á að afgreiða vörur á innleið er að fara í  [Vöruhúsaflæði á innleið](design-details-inbound-warehouse-flow.md).
@@ -68,9 +68,9 @@ Hægt er að stofna vöruhúsamóttöku á tvo vegu:
 
 ## Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
 
-Í vöruhúsamóttöku er hægt að nota  **afmarkanirnar til að sækja Upprundocs.**  síða til að sækja útgefnar upprunaskjalslínur sem tilgreina vörur sem á að taka á móti.
+Í vöruhúsamóttöku er hægt að nota  **afmarkanirnar til að sækja Upprundocs.** síða til að sækja útgefnar upprunaskjalslínur sem tilgreina vörur sem á að taka á móti.
 
-1. Í vöruhúsamóttöku eru  **notaðar afmarkanir til að sækja src. docs.**  aðgerð.
+1. Í vöruhúsamóttöku eru  **notaðar afmarkanir til að sækja src. docs.** aðgerð.
 2. Til að setja upp nýja afmörkun er lýsandi kóti færður inn í reitinn **Kóti** og smellt á **Breyta** aðgerðina.
 
      **Upprunaskjalsíkortið-innsend**  síða birtist.
@@ -80,7 +80,7 @@ Hægt er að stofna vöruhúsamóttöku á tvo vegu:
 
 Öllum útgefnum upprunaskjalslínum sem uppfylla afmörkunarskilyrðin er bætt við á  **síðu vöruhúsamóttöku**  þar sem afmarkanirnar voru virkjaðar.
 
-Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Afmarkanir eru vistaðar á  **afmörkunum til að fá Upprunadoktor.**  blaðsíðu og eru þær aðgengilegar næst þegar þörf er á þeim. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
+Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Afmarkanir eru vistaðar á  **afmörkunum til að fá Upprunadoktor.** blaðsíðu og eru þær aðgengilegar næst þegar þörf er á þeim. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
 
 ## Svæði og hólfakóta
 
@@ -92,12 +92,10 @@ Ef hólfum er skylt að eiga stað er svæði og hólfakóta bætt við innhreyf
 * Fyrir ítarlegar skilgreiningar sem nota beinan frágang og tínslu er  [!INCLUDE [prod_short](includes/prod_short.md)]  Kóti móttökuhólfs notaður af  **birgðageymsluspjaldinu**  fyrir birgðageymsluna. Ef kóti móttökuhólfs er ekki tilgreindur er ekkert hólf tilgreint. Ef vara og móttökuhólf stemma ekki við er kóti móttökuhólfs auður.
 * Í öðrum afbrigðum er kóti móttökuhólfs ekki tilgreindur  [!INCLUDE [prod_short](includes/prod_short.md)]  með því að nota hólfakótann úr upprunaskjalinu.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/receive-invoice-dynamics-d365-business-central/index).
-
 ## Sjá einnig .
 
-[Yfirlit](design-details-warehouse-management.md)
-[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Inventory](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -3,7 +3,7 @@ title: Selja hluti sem eru settir saman í pöntun
 description: Lærðu að selja vöru sem er sett saman til að panta.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -60,15 +60,13 @@ Vörur sem settar eru upp fyrir samsetningum eru ekki væntanlegar í birgðum o
 > [!NOTE]  
 > Staðgengur vöru skipta ekki sjálfkrafa um vöru með aðra vöru, til dæmis þegar sölupöntun er stofnuð eða í UPPSKRIFT. Þess í stað færðu viðvörun að því gefnu að staðgengilslíkur sé fyrir hendi.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/assemble-to-order-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Yfirlit yfir](design-details-warehouse-management.md)
-[vöruhúsastjórnun vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

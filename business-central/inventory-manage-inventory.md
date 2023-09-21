@@ -55,12 +55,10 @@ Eftirfarandi tafla sýnir tengd verk.
 |Stjórna viðskiptaaðgerðum á söluskrifstofum, innkaupadeildum, eða komið fyrir áætlunarskrifstofum í mörgum birgðageymslum.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
 |Notaðu tilföng með sérstökum aðgerðum fyrir ýmsa þjónustu og þjónustuvörur.|[Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)|
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/get-started-inventory-management/)
-
 ## Sjá einnig .
 
-[Yfirlýsing](design-details-warehouse-management.md)
-[um Vöruhúsakerfi kaupfélag](purchasing-manage-purchasing.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Purchasing](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  

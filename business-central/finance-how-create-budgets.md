@@ -53,8 +53,6 @@ Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum
 
 Launadeildin úthlutar upphæðinni á bókunarlyklana þrjá. Þegar þú flytur aftur inn í fjárhagsáætlun er fyllt út í lyklana þrjá með nýju Excel-gögnunum, sem verður samanlagt 1.200.000 SGM og fyrirsagnarlínan er auð.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
-
 ## Sjá einnig .
 
 [Flutningur viðskiptagagna í Excel](about-export-data.md)  

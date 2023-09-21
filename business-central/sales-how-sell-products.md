@@ -91,8 +91,6 @@ Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og sölu
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/).
-
 ## Sjá einnig .
 
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  

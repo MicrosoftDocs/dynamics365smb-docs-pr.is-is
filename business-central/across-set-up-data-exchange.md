@@ -33,8 +33,6 @@ ms.author: bholtorf
 |Undirbúið að setja upp nýja gagnaskiptaskilgreiningu fyrir tiltekna gagnaskrá eða straum með því að nota XML-skema skrárinnar til að fylla út í flýtiflipann **Dálkskilgreiningar** á síðunni **Bókunarskilgreining**.|[Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Setja upp Data Exchange Framework til að gera notendum kleift að taka á móti nýju sniði innkaupaskjala, senda ný snið söluskjala, flytja inn nýjar bankaskrá eða önnur gagnaskipti.|[Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Rafræn gagnaskipti](across-data-exchange.md)  

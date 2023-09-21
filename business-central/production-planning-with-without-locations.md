@@ -139,12 +139,10 @@ Eins og sjá má á síðasta dæmi er eina leiðin til að fá réttar niðurst
 
 Ef þú þar af leiðandi áætlar oft eftirspurn í birgðageymslum þá mælum við með að þú notir möguleika birgðahaldseiningar.
 
-## Sjá tengda þjálfun á [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Sjá einnig .
 
 [Áætlun](production-planning.md)  
-[Uppsetning framleiðslu](production-configure-production-processes.md)  
+[Setja upp framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)  

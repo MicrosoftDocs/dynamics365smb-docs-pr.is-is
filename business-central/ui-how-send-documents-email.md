@@ -76,8 +76,6 @@ Sum skjöl í [!INCLUDE[prod_short](includes/prod_short.md)] eru með reit sem t
 
 Í **Úthólf tölvupósts** finnurðu tölvupóstana sem þú vistaðir sem drög og tölvupósta sem ekki tókst að senda, sem dæmi, ef netfangið var ógilt. Fyrir skilaboð sem ekki tókst að senda er hægt að velja **Sýna villu** eða **Rannsaka villu** til að úrræðaleita vandann.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/set-up-email/)
-
 ## Sjá einnig
 
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  

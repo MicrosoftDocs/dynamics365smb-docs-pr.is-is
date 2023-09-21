@@ -170,8 +170,6 @@ Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin ti
 
 Á síðunni **Tollflokkar** skal bæta við öllum kóðum sem eru notaðir. Áður en bókun hefst skal færa kóða inn á birgðaspjald. Þegar kóðar hafa verið settir upp skulu þeir færðir inn í reitinn **Tollflokkar** á birgðaspjaldinu. Einnig skal fylla út reitinn **Nettóvigt** á birgðaspjaldi.
 
-## Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Sjá einnig .
 
 [Fjármálastjórnun](finance.md)

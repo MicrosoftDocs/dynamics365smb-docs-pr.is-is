@@ -1,9 +1,9 @@
 ---
-title: Færa vörur
+title: Færa atriði
 description: Fræðast um flutning á vörum milli hólfa í vöruhúsinu.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: Conceptual
 ms.date: 01/25/2023
@@ -35,8 +35,6 @@ Talningar, leiðréttingar og endurflokkun geta falið í sér vöruhúsaverk se
 |Færa vörur milli hólfa í einfaldri vöruhúsagrunnstillingu hvenær sem er án upprunaskjala.|[Færa vörur í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
 |Nota vöruhúsahreyfingablaðið, innanhússtínslu og frágang til að flytja vörur í ítarlegar vöruhúsaskilgreiningar með beinar tínslu og frágang.|[Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum og hugsanlega færa þau á milli.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|  
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/manage-internal-warehouse-processes/)
 
 ## Sjá einnig .
 

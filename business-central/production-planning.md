@@ -39,8 +39,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Skoða áætlaða birgðastöðu vöru frá mismunandi sjónarhornum til að sjá hvaða brúttóþörf, reiknuð afhending og fleira hefur áhrif á hana eftir því sem tíminn líður.|[Skoða tiltækileika vöru](inventory-how-availability-overview.md)|  
 <|Framkvæma valdar áætlunaraðgerðir, eins og að breyta eða bæta við áætlunarvinnublaðslínum, í myndrænu yfirliti yfir framboðsáætlun.|[Breyta áætlunartillögum í myndrænu yfirliti](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/plan-items-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

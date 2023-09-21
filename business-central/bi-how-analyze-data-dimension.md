@@ -73,8 +73,6 @@ Notaðu eftirfarandi aðferð til að uppfæra greiningaryfirlit af síðunni **
 > [!NOTE]  
 > Til að uppfæra sum eða öll greiningaryfirlit á sama tíma, þarf að nota runuvinnsluna **Uppfæra greiningaryfirlit**.  
 
-## Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
-
 ## Sjá einnig .
 
 [Viðskiptagreind fjármála](bi.md)  

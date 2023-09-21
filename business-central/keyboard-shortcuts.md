@@ -4,14 +4,14 @@ description: Heill listi yfir flýtivísanir til að vinna skilvirkt með gögni
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/15/2023
+ms.date: 09/07/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-shortcuts"></a>Flýtivísanir
+# Flýtivísanir
 
 Þessi grein inniheldur yfirlit yfir nokkrar af samsetningum flýtilykla sem þú getur notað þegar þú ert að vinna með [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -21,7 +21,7 @@ Yfirlit yfir algengustu flýtilykla á lyklaborði er að finna í [Flýtilyklar
 > Til að fá yfirlit yfir mest notuðu flýtileiðirnar skaltu velja eftirfarandi mynd og sækja PDF-skjalið.  
 > [ ![Tákn fyrir PDF-skrána.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Tákn sem opnar PDF")
 
-## <a name="overview"></a>Yfirlit
+## Yfirlit
 
 Flýtivísanir aðstoða við aðgengi og geta auðveldað flettingar og gert þær skilvirkari yfir á önnur svæði og aðrar einingar á síðu. Flestir vafrar geta hins vegar haft mismunandi hegðun í gangi.
 
@@ -33,9 +33,9 @@ Flestar flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða
 > [!NOTE]
 > Auk altækra flýtilykla sem lýst er í þessari grein er hægt að nálgast fjölda sértækra flýtilykla. Til dæmis í hinni almennu útgáfu af  [!INCLUDE[prod_short](includes/prod_short.md)],  <kbd>F9</kbd>  bókar skjal og  <kbd>CTRL</kbd>+<kbd>F7</kbd>  sýnir færslurnar fyrir færslu þegar færslan er opnuð í spjaldi. Í þessari grein eru nokkrar af algengari viðskiptatengdum flýtileiðum sem sýndar eru með skáletri. Hafðu í huga að raunverulegar flýtileiðir geta verið öðruvísi í lausninni þinni. Í notandaviðmótinu er flýtilykillinn sýndur í ábendingunni fyrir viðkomandi aðgerð.
 
-## <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a>Almennar flýtivísanir
+##  <a name="Keyboard"></a> Almennir flýtilyklar
 
-Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi einingar á síðu. Einingar eru hluti eins og aðgerðir, fellilistar, leit og fleira. Fyrir nánari upplýsingar um flýtivísanir til að fletta í færslum þegar farið er inn í lista skal sjá næsta kafla.
+Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi einingar á síðu. Einingar eru hluti eins og aðgerðir, fellilistar, leit og fleira. Nánari upplýsingar um flýtilykla fyrir siglingafærslur þegar þú ert inni á lista er að finna í næsta kafla.
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
@@ -65,16 +65,16 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 |<kbd>ESC</kbd>|Loka núverandi síðu eða fellilista.|
 |<kbd>Flipanum</kbd>|Færa áhersluna á næstu stýringu eða einingu á síðu, t.d. aðgerðir, hnappa, reiti eða fyrirsagnir lista.|
 |<kbd>Flipinn vakt</kbd>+<kbd></kbd>|Færa brennidepil yfir á fyrri stjórnun eða einingu á síðu, svo sem aðgerðir, hnappa, reiti eða listahausa.|
-|<kbd>Y</kbd>  og  <kbd>N</kbd>|Virkja **Já** og **Nei** hnappana í svargluggum. Raunlyklar eru breytilegir eftir því hvaða tungumál er tilgreint í **Mínar stillingar**. Til dæmis, Veldu  <kbd>J</kbd>  til að virkja  **ja**  -hnappinn þegar þú notar þýska tungumálið.|
+|<kbd>Y</kbd>  og  <kbd>N</kbd>| **Virkja Já**  -og  **Nei**  -hnappana í svargluggum. Raunlyklar eru breytilegir eftir því hvaða tungumál er tilgreint í **Mínar stillingar**. Til dæmis, Veldu  <kbd>J</kbd>  til að virkja  **ja**  -hnappinn þegar þú notar þýska tungumálið.|
 
-## <a name="keyboard-shortcuts-in-lists"></a>Flýtivísanir í listum
+## Flýtilyklar í listum
 
 Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Aðgerð flýtileiðar er svolítið öðruvísi eftir því hvort síðan sést á listayfirlitinu eða reitayfirlitinu.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
-### <a name="general"></a>Almennt
+### Almennt
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta í listayfirliti|Til að gera þetta í reitayfirliti |
 |--------------------------------|-------------------------|--------------------------|
@@ -85,12 +85,12 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |<kbd>ALT</kbd>+<kbd>D</kbd>|Opna færslur víddasafns.|Sama.|
 |<kbd>CTRL</kbd>+<kbd>F7</kbd>|Opna fjárhagsfærslur, annálafærslur, kostnaðarfærslur og svo framvegis.|
 |<kbd>CTRL</kbd>+<kbd>F9</kbd>|Gefa út skjal.|Sama.|
-|*<kbd>F7</kbd>*|Opna talnagögn|Sama.|
-|*<kbd>F9</kbd>*|Bóka, gefa út, skrá eða bakfæra skjal.|Sama.|
-|*<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>F</kbd>*|Senda tillögur að línum á síðunni fyrir sjóðstreymisvinnublöð.|Á ekki við.|
-|*<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>I</kbd>*|Skoða rað- og lotunúmer sem úthlutað er á línuatriði í skjalinu eða færslubókinni.|Á ekki við.|
+|<kbd>F7</kbd>|Opna talnagögn|Sama.|
+|<kbd>F9</kbd>|Bóka, gefa út, skrá eða bakfæra skjal.|Sama.|
+|<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>F</kbd>|Senda tillögur að línum á  **Sjóðstreymissvinnublaði** .|Á ekki við.|
+|<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>I</kbd>|Skoða rað- og lotunúmer sem úthlutað er á línuatriði í skjalinu eða færslubókinni.|Á ekki við.|
 
-### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a><a name="navigateshortcuts">Flett milli raða og dálka</a>
+### <a name="navigateshortcuts"></a> Fara á milli raða og dálka
 
 Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!INCLUDE[prod_short](includes/prod_short.md)], svo sem listasíður og **Línur** sem hlutar skjala. Flutningur frá einu hólfi til annars yfir hnitanet er að fullu virkt fyrir lyklaborð.
 
@@ -103,33 +103,33 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 | <kbd>Færa inn</kbd> | Opna skrána sem tengist reitnum.<br /><br />Á aðeins við ef síðuspjald tengist færslunni. | Opnar færsluna.<br /><br />Á aðeins við ef síðuspjald tengist færslunni. |
 | <kbd>CTRL</kbd>+<kbd>Enter</kbd> | Fara yfir í næsta hluta fyrir utan listann. | Fara yfir í næsta hluta fyrir utan listann. |
 | <kbd>Síða upp</kbd><br /><br />(<kbd>FN</kbd>+<kbd>upp arrow</kbd>) | Skruna til að birta samstæðuraðir fyrir ofan núverandi línur í yfirliti. | Skrunar til að birta hóp flísa fyrir ofan núverandi flísar í yfirliti. |
-| <kbd>Síða niður</kbd><br /><br />(<kbd>FN</kbd>+<kbd>upp arrow</kbd>) | Skruna til að birta samstæðuraðir fyrir neðan núverandi línur í yfirliti. | Skruna til að birta hóp flísa fyrir neðan núverandi flísar í yfirliti. |
-| <kbd>Ör upp</kbd> | Fara í sama dálk í reitinn í línunni fyrir neðan. | Fara í sama dálk í svæðinu í línunni fyrir neðan. |
+| <kbd>Síða niður</kbd><br /><br />(<kbd>FN</kbd>+<kbd>niður ör</kbd>) | Skruna til að birta samstæðuraðir fyrir neðan núverandi línur í yfirliti. | Skruna til að birta hóp flísa fyrir neðan núverandi flísar í yfirliti. |
+| <kbd>Ör niður</kbd> | Fara í sama dálk í reitinn í línunni fyrir neðan. | Fara í sama dálk í svæðinu í línunni fyrir neðan. |
 | <kbd>Ör upp</kbd> | Fara í sama dálki í reitinn í línunni fyrir ofan. | Fara í sama dálk í svæðinu í línunni fyrir ofan. |
 | <kbd>Hægri ör</kbd> | Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í næsta reit til hægri.<br /><br />Í breytanlegum listi, farðu til hægri innan núverandi reits. | Fara í sömu röð í næsta reit til hægri. |
 | <kbd>Vinstri ör</kbd> | Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í fyrri reit til vinstri. <br /><br />Í breytanlegum lista, farðu til vinstri innan núverandi reits. | Fara í sömu röð í fyrra svæði til vinstri. |
 | <kbd>Flipanum</kbd> | Í breytanlegum lista, farðu í sömu röð til næsta reit til hægri. | Á ekki við. | 
 | <kbd>Flipinn vakt</kbd>+<kbd></kbd> | Í breytanlegum lista, farðu í sömu röð í fyrri reit til vinstri. | Á ekki við. |
 
-### <a name="select-copy-and-paste"></a><a name="CopyRows"></a><a name="CopyRows">Val, afritun og líming</a>
+### <a name="CopyRows"></a> Velja, afrita og líma
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |
 |--------------------------------|--------------------------|--------------------------|
 |<kbd>CTRL</kbd> + smella<br /><br />(<kbd>Cmd</kbd> + Click)|Stækka valið af línum til að hafa með línuna sem var smellt á.|Á ekki við.|
-|<kbd>Shift</kbd> + smella á|Stækka valið af línum til að hafa með línuna sem var smellt á og allar línurnar á milli.<br /><br />Hægt er að nota þetta eftir  <kbd>að hafa CTRL</kbd>+<kbd>up örina</kbd>  eða  <kbd>CTRL</kbd> + allt niður til að víkka út valið.|Á ekki við.|
+|<kbd>Shift</kbd> + smella á|Stækka valið af línum til að hafa með línuna sem var smellt á og allar línurnar á milli.<br /><br />Hægt er að nota þetta eftir að nota  <kbd>CTRL</kbd>+<kbd>-örina</kbd>  eða  <kbd>CTRL</kbd>+<kbd></kbd>  -ör til að víkka út valið.|Á ekki við.|
 |<kbd>CTRL</kbd>+<kbd>upp ör</kbd><br /><br />(<kbd>CTRL</kbd>+<kbd>cmd</kbd>+<kbd>upp ör</kbd>)|Færið áhersluna á línuna fyrir ofan og hafið núverandi línu áfram valda.|Á ekki við.|
-|<kbd>CTRL</kbd>+<kbd>upp ör</kbd><br /><br />(<kbd>CTRL</kbd>+<kbd>cmd</kbd>+<kbd>upp ör</kbd>)|Færið áhersluna á línuna fyrir neðan og hafið áfram núverandi línu valda.|Á ekki við.|
-|<kbd>CTRL</kbd>+<kbd>Space Bar</kbd><br /><br />(<kbd>CTRL</kbd>+<kbd>cmd</kbd> + bil)|Stækkið valið af línum til að hafa með línu sem áherslan er á.<br /><br />Hægt er að nota þetta eftir að nota  <kbd>CTRL</kbd>+<kbd>-örina</kbd>  eða  <kbd>CTRL</kbd>+<kbd>-örina</kbd>  til að stækka valið.|Á ekki við.|
+|<kbd>CTRL</kbd>+<kbd>niður ör</kbd><br /><br />(<kbd>CTRL</kbd>+<kbd>cmd</kbd>+<kbd>niður ör</kbd>)|Færið áhersluna á línuna fyrir neðan og hafið áfram núverandi línu valda.|Á ekki við.|
+|<kbd>CTRL</kbd>+<kbd>Space Bar</kbd><br /><br />(<kbd>CTRL</kbd>+<kbd>cmd</kbd> + bil)|Stækkið valið af línum til að hafa með línu sem áherslan er á.<br /><br />Hægt er að nota þetta eftir að nota  <kbd>CTRL</kbd>+<kbd>-örina</kbd>  eða  <kbd>CTRL</kbd>+<kbd></kbd>  -ör til að víkka út valið.|Á ekki við.|
 |<kbd>CTRL</kbd>+<kbd>A</kbd>|Velja allar línur.|Á ekki við.|
 |<kbd>CTRL</kbd>+<kbd>C</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>C</kbd>)|Afritaðu valdar raðirnar yfir á klippiborðið.|Já, en aðeins fyrir einn valinn reit.|
 |<kbd>CTRL</kbd>+<kbd>V</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>V</kbd>)|Límdu valdar raðir úr klippiborðinu inn í núverandi síðu eða ytri skjal, eins og Microsoft Excel eða Outlook tölvupóst. Þú getur aðeins gert þetta í breytanlegum listum.|Á ekki við.|
 |<kbd>Vakta</kbd>+<kbd>örina</kbd>|Stækkið valið af línum til að hafa með línuna fyrir ofan.|Á ekki við.|
-|<kbd>Vakta</kbd>+<kbd>örina</kbd>|Stækkið valið af línum til að hafa með línuna fyrir neðan.|Á ekki við.|
+|<kbd>Vakta</kbd>+<kbd>niður ör</kbd>|Stækkið valið af línum til að hafa með línuna fyrir neðan.|Á ekki við.|
 |<kbd>Vaktsíða</kbd>+<kbd>allt</kbd><br /><br />(<kbd>Vakt</kbd>+<kbd>FN</kbd>+<kbd>upp ör</kbd>)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir ofan núverandi val af línum.|Á ekki við.|
-|<kbd>Vaktsíða</kbd>+<kbd>niður</kbd><br /><br />(<kbd>Vakt</kbd>+<kbd>FN</kbd>+<kbd>upp ör</kbd>)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir neðan núverandi val af línum.|Á ekki við.|
+|<kbd>Vaktsíða</kbd>+<kbd>niður</kbd><br /><br />(<kbd>Shift</kbd>+<kbd>FN</kbd>+<kbd>niður ör</kbd>)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir neðan núverandi val af línum.|Á ekki við.|
 |<kbd>F8</kbd>|Afritaðu reitinn í sama dálk raðarinnar hér fyrir ofan og límdu það inn í núverandi röð. Þú getur aðeins gert þetta í breytanlegum listum. Ef þessari flýtivísun er fylgt með  <kbd>flipa</kbd>  er hægt að fylla út reiti í línuatriðum sem á að hafa sama gildi og línan hér að ofan.|Á ekki við.|
 
-### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Leit og síun lista
+### <a name="KeyboardFilter"></a> Leitar-og síulistar
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
@@ -141,7 +141,7 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Endurstilla afmarkanir. Þetta gerir það sama og að velja **Endurstilla síur** í síusvæðið, og það gildir um reit og síur samtalna.<br /><br /> Síur fara aftur í sjálfgefna síurnar fyrir núverandi yfirlit. Ef núverandi yfirlit er **Allt**, þá jafngildir þetta því að fara aftur í ósíað yfirlit með allar færslur. |
 |<kbd>CTRL</kbd>+<kbd>Enter</kbd>|Færðu áherslu frá afmörkunarsvæðinu og yfir á listann.|
 
-## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Flýtilyklar í spjöldum og skjölum
+## Flýtilyklar í spjöldum og skjölum
 
 Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptamannaspjald** og skjalasíðum, svo sem **Sölupöntun**, til að birta og breyta færslum.
 
@@ -155,7 +155,7 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 |<kbd>ALT</kbd>+<kbd>vaktin</kbd>+<kbd>N</kbd> |Lokaðu síðu og opnaðu nýja til að stofna nýja færslu; á sama hátt og aðgerðin **Í lagi og nýtt** er valin. |
 |<kbd>ALT</kbd>+<kbd>vakt</kbd>+<kbd>W</kbd> |Opnið núverandi spjald eða skjal í nýjum glugga. Frekari upplýsingar er að finna í [Fjölvinnsla þvert á margar síður](ui-enter-data.md#multitasking-across-multiple-pages).|
 |<kbd>CTRL</kbd>+<kbd>Enter</kbd>|Vistið og lokið síðunni.|
-|<kbd>CTRL</kbd>+<kbd>upp ör</kbd>|Opnaðu fyrri færslu fyrir einingu.|
+|<kbd>CTRL</kbd>+<kbd>niður ör</kbd>|Opnaðu fyrri færslu fyrir einingu.|
 |<kbd>CTRL</kbd>+<kbd>upp ör</kbd> |Opnaðu færsluna á undan fyrir einingu.|
 |<kbd>CTRL</kbd>+<kbd>INSERT</kbd> |Setja inn nýja línu í skjal.|
 |<kbd>CTRL</kbd>+<kbd>Delete</kbd> |Eyddu línunni, í skjölum, færslubókum og vinnublöðum.|
@@ -163,13 +163,14 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 |<kbd>CTRL</kbd>+<kbd>F9</kbd>|Gefa út skjal.|
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> |Hámarkaðu hluta vörulína á skjalasíðu. Velja skal lyklana aftur til að fara aftur í venjulega skjámynd. Frekari upplýsingar er að finna í [Fókus á vörulínur](ui-enter-data.md#Focus).|
 |<kbd>F6</kbd>|Farið er í næsta snöggt <kbd>flipa</kbd>  eða hluta (undirsíða).|
-|*<kbd>F7</kbd>*|Opna talnagögn|
-|*<kbd>F9</kbd>*|Bóka, gefa út, skrá eða bakfæra skjal.|
-|*<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>F9</kbd>*|Bóka, prenta, og ganga frá vöruhúsamóttöku.|
+|<kbd>F7</kbd>|Opna talnagögn|
+|<kbd>F9</kbd>|Bóka, gefa út, skrá eða bakfæra skjal.|
+|<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>F9</kbd>|Bóka, prenta, og ganga frá vöruhúsamóttöku.|
 |<kbd>Shift</kbd>+<kbd>F6</kbd>|Farið er á flipann <kbd>fyrri hraður</kbd>  eða hluti (undirsíða).|
-|*<kbd>Shift</kbd>+<kbd>F9</kbd>*|Bóka og prenta skjal.|
+|<kbd>Shift</kbd>+<kbd>F9</kbd>|Bóka og prenta skjal.|
+|<kbd>Vakt</kbd>+<kbd>F11</kbd>|Jafna færslur, sækja upprunaskjöl eða sækja vöruhúsaskjöl.|
 
-## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Flýtileiðir flýtifærslu fyrir reiti
+## <a name="QuickEntry"></a> Flýtivísanir flýtifærslu fyrir svæði
 
 Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, skjölum og listasíðum. Á listum er ekki hægt að nota flýtivísana þegar Listinn er í flísinni skoðaður. Nánari upplýsingar um flýtifærslu er að finna í [Hröðun gagnaskráningu með flýtifærslu](ui-enter-data.md#QuickEntry).
 
@@ -179,7 +180,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>Vakta</kbd>+<kbd>Enter</kbd>|Staðfestu gildið í núverandi reit og farðu í fyrri reit flýtifærslu.||
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Staðfestu gildið í núverandi dálki og farðu í næsta reit flýtifærslu út fyrir listann.<br /><br />Þessi flýtileið gildir um innbyggða lista á síðu, svo sem vörulínur í sölupöntun. Það gerir þér kleift að komast fljótt út úr listanum og halda áfram að slá inn gögn í öðrum reitum á síðunni.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a>Flýtivísanir í dagatalinu (Dagsetningarval)
+## <a name="calendarshortcuts"></a> Flýtilyklar í dagatali (dagsetning tiltekt)
 
 Þegar þú setur dagsetningarreit getur þú annaðhvort slegið inn dagsetninguna handvirkt eða opnað dagatal (dagsetningarval) sem leyfir þér að velja þann dag sem þú vilt. Eftirfarandi tafla lýsir flýtivísunum fyrir dagatalið.
 
@@ -190,35 +191,35 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>CTRL</kbd>+<kbd>vinstri ör</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>vinstriör</kbd>)|Fara í fyrir dag.|
 |<kbd>CTRL</kbd>+<kbd>hægri ör</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>hægri ör</kbd>)|Fara í næsta dag.|
 |<kbd>CTRL</kbd>+<kbd>upp ör</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>upp ör</kbd>)|Fara í fyrri viku, sama vikudag.|
-|<kbd>CTRL</kbd>+<kbd>upp ör</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>upp ör</kbd>)|Fara í næstu viku, sama vikudag.|
+|<kbd>CTRL</kbd>+<kbd>niður ör</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>niður ör</kbd>)|Fara í næstu viku, sama vikudag.|
 |<kbd>Færa inn</kbd>|Velja áhersludaginn.|
 |<kbd>CTRL</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Loka dagatalinu og eyða núverandi dagsetningu.|
 |<kbd>ESC</kbd>|Loka dagatalinu án vals, halda núverandi dagsetningu.|
 |<kbd>Síða niður</kbd>|Fara í næsta mánuð.|
 |<kbd>Síða upp</kbd>|Fara í fyrri mánuð.|  
 
-## <a name="keyboard-shortcuts-in-date-fields"></a>Flýtilyklar í gagnareitum
+## Flýtilykla í dagsetningarsvæðum
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
 |<kbd>t</kbd>|Færðu inn daginn í dag. „T“ stendur fyrir „Í dag“.|
 |<kbd>w</kbd>|Færðu inn vinnudagsetninguna. Frekari upplýsingar er að finna í [Vinnudagsetning](ui-change-basic-settings.md#work-date)|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Flýtivísanir í forskoðun skýrslu
+## <a name="reportpreviewshortcuts"></a> Flýtilykla í forskoðun skýrslu
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
-|<kbd>Ör upp</kbd>|Fletta niður síðuna.|  
+|<kbd>Ör niður</kbd>|Fletta niður síðuna.|  
 |<kbd>Ör upp</kbd>|Fletta upp síðuna.|
 |<kbd>CTRL</kbd>+<kbd>0</kbd>  (núll)<br /><br />(<kbd>Cmd</kbd>+<kbd>0</kbd>)|Passar allri síðunni á síðunni. |
 |<kbd>CTRL</kbd>+<kbd>Home</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Fara á fyrstu síðu skýrslunnar.|
-|<kbd>CTRL</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Fara á síðustu síðu skýrslunnar.|
+|<kbd>CTRL</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Fara á síðustu síðu skýrslunnar.|
 |<kbd><kbd>Vinstri ör</kbd></kbd>|Flettu til vinstri þegar síðan er stækkuð til að hún sjáist ekki öll. |
 |<kbd>Hægri ör</kbd>|Flettu til hægri þegar síðan er stækkuð til að hún sjáist ekki öll. |
-|<kbd>Síða niður</kbd><br /><br />(<kbd>FN</kbd>+<kbd>upp arrow</kbd>)|Fara á næstu síðu skýrslunnar.|
+|<kbd>Síða niður</kbd><br /><br />(<kbd>FN</kbd>+<kbd>niður ör</kbd>)|Fara á næstu síðu skýrslunnar.|
 |<kbd>Síða upp</kbd><br /><br />(<kbd>FN</kbd>+<kbd>upp arrow</kbd>)|Fara á fyrri síðu skýrslunnar.|
 
-## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Flýtilyklar fyrir aukinn eða minnkaðan aðdrátt
+## <a name="zoomshortcuts"></a> Flýtilyklar fyrir aðdrætti inn og út
 
 |Velja skal þessa lykla|Til að gera þetta|
 |--------------------------------|----------|
@@ -226,28 +227,28 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>CTRL</kbd>+<kbd>-</kbd>|Minnka aðdrátt að núverandi síðu.|  
 |<kbd>CTRL</kbd>+<kbd>0</kbd>|Auka eða minnka aðdrátt í 100% á núverandi síðu.|  
 
-## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Flýtilyklar fyrir Hlutverkaleit
+## <a name="roleexplorer"></a> Flýtilykla fyrir hlutverkskönnunar
 
 Hlutverkaleit veitir yfirlit og flýtiaðgang að öllum viðskiptaeiginleikum sem eru í boði fyrir hlutverkið. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)
 
-|Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
+|Velja skal þessa lykla<br/>(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
 |<kbd>Shift</kbd>+<kbd>F12</kbd>|Opnið hlutverkaleitina.|
 |<kbd>F3</kbd>|Opnið reitinn **Leita** í hlutverkaleit til að finna eiginleika samkvæmt uppgefnu leitarorði eða hugtaki.|
-|<kbd>F3</kbd>  eða  <kbd>CTRL</kbd>+<kbd>-ör</kbd>|Færir áherslu á næsta fundna eiginleika hlutverkaleitar. <kbd>F3</kbd>  flytja einbýlishús í finnsá  **·**  eftir að hafa fundist lögun þess síðast.|
+|<kbd>Shift</kbd> <kbd>F3</kbd>  eða  <kbd>CTRL</kbd>+<kbd>-ör</kbd>|Færir áherslu á næsta fundna eiginleika hlutverkaleitar. <kbd>F3</kbd>  flytja einbýlishús í finnsá  **·**  eftir að hafa fundist lögun þess síðast.|
 |<kbd>Shift</kbd> <kbd>F3</kbd>  eða  <kbd>CTRL</kbd>+<kbd>upp ör</kbd>|Flytjið áherslu á fyrri eiginleikann sem fannst í hlutverkaleit.|
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>|Stækkaðu eða dragðu saman alla undirhnúta ásamt hnútum á efsta stigi þegar aðgerðin **Stækka** eða **Draga saman** er valin.|
 
-## <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a>Flýtileiðir talnaborðs
+##  <a name="keypad"></a> Tölutakkar flýtihnappar
 
 Eftirfarandi tafla lýsir flýtileiðum á talnaborði.
 
-|Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
+|Velja skal þessa lykla<br/>(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
 |<kbd>Skilrúm fyrir Alt</kbd>+<kbd>tugabrot</kbd>|Skiptu úttaki á skiltáknslykli tugabrots í annaðhvort (.) eða stafinn sem stillingin **Svæði** skilgreinir á síðunni **Mínar stillingar**. Frekari upplýsingar eru í [Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum](ui-enter-data.md#decimal).|
 
 
-## <a name="access-keys-for-action-bar-and-navigation-menu"></a>Aðgangslyklar fyrir aðgerðrein og Navigation valmynd
+## Aðgangslyklar fyrir aðgerðrein og Navigation valmynd
 
 Aðgangslyklar eru flýtivísanir í flýtilykla sem velja tilteknar aðgerðir á aðgerðrein og Navigation valmyndinni sem gerir þér kleift að vafra um aðgerðir til að komast á síðuna sem þú vilt. Aðgangslyklar eru aðgengilegir í vefbiðlara Viðskiptamiðis og svipar til aðgangslykla í Excel og Word á netinu.  
 
@@ -259,7 +260,7 @@ Til að velja aðgerð er valin lyklasamsetning sem birtist í lyklinum Ábendin
 - Ef aðgerðin opnar á undirvalmynd annarra aðgerða eru ábendingar lykla fyrir undirvalmyndina sýndar og því hægt að halda áfram að nota aðgangsstýringar ef óskað er.
 - Ef aðgerðin opnar aðra síðu er slökkt á lykilábendingum. Til að sýna þau aftur velurðu  <kbd>Alt</kbd>  -Lykill. 
  
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)  
 [Aðstoðareiginleikar](ui-accessibility.md)  

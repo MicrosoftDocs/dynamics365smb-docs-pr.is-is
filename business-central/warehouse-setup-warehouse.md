@@ -35,8 +35,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Fá ábendingar um hvernig á að endurskipuleggja birgðageymslur, hólf eða svæði til þess að auka skilvirkni vöruhúsaaðgerða.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/set-up-warehouse-management/)
-
 ## Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  

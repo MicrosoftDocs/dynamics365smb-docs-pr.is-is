@@ -297,8 +297,6 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
  Hér með lýkur kynningunni á hvernig síðan **Leita að færslum** er notuð við gallastjórnun í samþættingu við síðuna **Vörurakning**.  
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/use-serial-lot-numbers/)
-
 ## Sjá einnig .
 
 [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  

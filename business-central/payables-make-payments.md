@@ -35,8 +35,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Greiða lánardrottni með peningum eða ávísun og bóka greiðsluna um leið og reikningurinn er bókaður. |[Greiða innkaupareikninga tímanlega](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Gakktu úr skugga um að bankinn þinn eingöngu hreinsar staðfestar athuganir og magn með því að senda þeim skrá sem inniheldur seljanda, athugun og greiðsluupplýsingar. |[Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md) |
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  

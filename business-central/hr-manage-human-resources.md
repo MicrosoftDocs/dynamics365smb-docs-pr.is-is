@@ -11,7 +11,7 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="manage-human-resources"></a>Hafa umsjón með mannauði
+# Hafa umsjón með mannauði
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að halda nákvæma skráningu starfsmanna. Hægt er að skrá og viðhalda upplýsingum um starfsmann, t.d. starfssamninga, trúnaðarupplýsingar, hæfi og tengiliðaupplýsingar starfsmanns.
 
@@ -26,7 +26,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Skráið nýja starfsmenn eða breytið skrám fyrirliggjandi starfsmanna, og tengið viðeigandi upplýsingar við, svo sem samninga og greinar. |[Skrá starfsmenn](hr-how-register-employees.md) |
 | Skráið fjarvistir starfsmanna og skoðið tölfræðilega upplýsingar um fjarvistir með mismunandi síum. |[Haldið utan um fjarvistir starfsmanna](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fjármál](finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

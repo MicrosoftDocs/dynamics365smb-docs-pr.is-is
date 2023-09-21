@@ -43,8 +43,6 @@ Almenn útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður sendingu 
     > [!NOTE]  
     >  Einnig er hægt að senda bókaða sölureikninga sem rafrænt skjal. Ferlið er það sama og lýst er í þessu efnisatriði fyrir óbókuð söluskjöl. Á síðunni **Bókaður sölureikningur** skal velja aðgerðina **Aðgerðakladdi** til að skoða stöðu rafræna skjalsins.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Sjá einnig
 
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  

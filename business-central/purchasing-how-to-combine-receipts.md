@@ -42,8 +42,6 @@ Að öðrum kosti skal eyða einstökum pöntunum handvirkt.
 
 Skref 1 til 3 eru endurtekin fyrir öll skjöl sem urðu fyrir áhrifum, eins og auðar innikaupapantanir.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/processing-invoices-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  

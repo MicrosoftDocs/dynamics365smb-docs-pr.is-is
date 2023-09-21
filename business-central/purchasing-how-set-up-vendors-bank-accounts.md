@@ -26,12 +26,10 @@ Ef lánardrottinn er með einn eða fleiri bankareikninga og þú vilt stilla an
 2. Opnaðu spjaldið fyrir lánardrottin.
 3. Í flýtiflipanum **Greiðslur** skal velja sjálfgefinn bankareikning lánardrottins í reitnum **Æskilegur bankareikningskóði**.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
-[Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
+[Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)  
 [Bankareikningar settir upp](bank-how-setup-bank-accounts.md)  
 [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)  
 [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md)  

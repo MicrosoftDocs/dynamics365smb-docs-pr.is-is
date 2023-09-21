@@ -54,8 +54,6 @@ Innri og úthlutaðir stjórnendur hafa aðgang að stjórnendamiðstöðinni [!
 |Stjórna notandalotum, þar á meðal að hætta við lotu ef lokað er á notandann.|[Stjórna lotum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Skilgreina leigjanda til að senda fjarmælingargögn til Azure Application Insights til að fá betri greiningu og úrræðaleit.|[Virkja sendingu fjarmælingar til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/deploy-configure-dynamics-365-business-central/)
-
 ## Sjá einnig
 
 [Viðskiptavirkni](across-business-functionality.md)  

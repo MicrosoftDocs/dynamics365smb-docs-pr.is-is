@@ -27,7 +27,7 @@ Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við
 3. Á síðunni **vörueigind** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Ef valið er **Kostur** á svæðinu **Tegund** er hægt að velja aðgerðina **Eigindargildi vöru** til að stofna gildi fyrir vörueigindina. Nánari upplýsingar eru í [Að stofna gildi fyrir vörueigindir af gerðinni valkostur](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
+> Ef valið er **Kostur** á svæðinu **Tegund** er hægt að velja aðgerðina **Eigindargildi vöru** til að stofna gildi fyrir vörueigindina. Frekari upplýsingar er að finna  [í til að stofna gildi fyrir vörueigindir af gerðinni valkostur](inventory-how-work-item-attributes.md#create-values-for-item-attributes-of-type-option).  
 
 ## Stofna gildi fyrir vörueigindir af gerðinni valkostur
 
@@ -40,9 +40,9 @@ Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.
 2. Á síðunni **Vörur** skal velja vöruna sem á að úthluta vörueigindum á og velja síðan aðgerðina **Eigindir**.
 3. Á síðunni **vörueigindagildi** skal velja aðgerðina **Nýtt**.
-4. Veldu leitarhnappinn í reitnum **Eigind** og veldu fyrirliggjandi vörueigind. Einnig má velja **Nýtt** aðgerðina til að stofna fyrst nýja vörueigind eins og útskýrt er í [Stofna vörueigind](inventory-how-work-item-attributes.md#to-create-item-attributes).
+4. Veldu leitarhnappinn í reitnum **Eigind** og veldu fyrirliggjandi vörueigind. Einnig er hægt að velja  **nýja**  aðgerð sem stofna á fyrst nýja vörueigind eins og útskýrt er í  [til að stofna vörueigindi](inventory-how-work-item-attributes.md#create-item-attributes).
 5. Í reitnum **Gildi** er fært inn vörueigindagildi, s.s. „2010“ fyrir gildið **Árgerð**.
-6. Fyrir vörueigind af gerðinni **Valkostur**, veldu hnappinn uppfletting í reitnum **Gildi** og veldu vörueigindargildi. Einnig má velja á **Nýtt** aðgerð til að stofna fyrst nýtt vörueigindargildi eins og útskýrt er í [Stofna gildi fyrir vörueigindir af gerðinni valkostur](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
+6. Fyrir vörueigind af gerðinni **Valkostur**, veldu hnappinn uppfletting í reitnum **Gildi** og veldu vörueigindargildi. Einnig er hægt að velja  **nýju**  aðgerðina til að stofna eigindargildi nýs atriðis sem útskýrt er í  [til að stofna gildi fyrir vörueigindir af gerðinni valkostur](inventory-how-work-item-attributes.md#assign-item-attributes-to-items).
 7. Liðir 4-6 eru endurteknir fyrir allar vörueigindir sem á að úthluta á vöru.
 
 ## Úthluta vörueigindum á vörutegundir
@@ -50,7 +50,7 @@ Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruflokkar** og velja síðan viðkomandi tengil.
 2. Á síðunni **vöruflokkar** skal velja vöruflokk sem á að úthluta vörueigindum á og velja síðan aðgerðina **breyta**.
 3. Á síðunni **vöruflokkaspjald** á flýtiflipanum **eigind** skal velja aðgerðina **Nýtt**.
-4. Veldu hnappinn AssistEdit í reitnum **eigind** og veldu fyrirliggjandi vörueigind. Einnig má velja **Nýtt** aðgerðina til að stofna fyrst nýja vörueigind eins og útskýrt er í [Stofna vörueigind](inventory-how-work-item-attributes.md#to-create-item-attributes).
+4. Veldu hnappinn AssistEdit í reitnum **eigind** og veldu fyrirliggjandi vörueigind. Einnig er hægt að velja  **nýja**  aðgerð sem stofna á fyrst nýja vörueigind eins og útskýrt er í  [til að stofna vörueigindi](inventory-how-work-item-attributes.md#create-item-attributes).
 5. Í reitnum **Sjálfgefið gildi** skal velja hnappinn uppfletting og velja vörueigindargildi.
 6. Liðir 4-5 eru endurteknir fyrir allar vörueigindir sem á að úthluta á vöruflokk.
 
@@ -74,8 +74,6 @@ Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við
 8. Velja hnappinn **Í lagi**.
 
 Vörur á síðunni **Vörur** eru afmarkaðar eftir tilgreindum eigindagildum vörunnar.
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## Sjá einnig .
 

@@ -40,8 +40,6 @@ PayPal Payments Standard- og WorldPay Payments Standard-viðbætur eru settar up
     > [!NOTE]  
     > **Greiðsluþjónustu** reiturinn er aðeins tiltækur greiðsluþjónustan hefur verið virkjuð.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  

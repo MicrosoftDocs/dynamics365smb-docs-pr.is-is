@@ -3,16 +3,16 @@ title: Senda inn lögboðnar viðvaranir
 description: 'Ef þú veist um nýja löggjöf sem þarf stuðning eiginleika í Business Central, getur þú fylgst með þessum leiðarvísi til að senda lögboðna viðvörun til framleiðsluteymis.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
 ---
-# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sendu inn viðvaranir um eftirlitseiginleika sem miðast við tiltekið land/svæði
+# Sendu inn viðvaranir um eftirlitseiginleika sem miðast við tiltekið land/svæði
 
 Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að leggja fram lögboðnar viðvaranir í gegnum innsendingarþjónustu á lögboðnum viðvörunum í Dynamics.  
 
-## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Innsending lögboðinnar viðvörunar í LCS
+## Innsending lögboðinnar viðvörunar í LCS
 
 1. Opnaðu [https://lcs.dynamics.com](https://lcs.dynamics.com) og skráðu þig inn  
 
@@ -65,7 +65,7 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
 
       Eftir að þú hefur sent viðvörunina færðu staðfestingu á að viðvörunin hafi verið send inn til Microsoft.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Breyta tungumáli og landsstaðli](about-locale-language.md)  

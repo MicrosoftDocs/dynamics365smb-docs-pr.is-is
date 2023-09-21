@@ -25,7 +25,7 @@ Auk upprunalega bókaðs sölureiknings, er hægt að jafna sölukreditreikning 
 4. Á flýtiflipanum **Línur** skal fylla þessar línur út handvirkt, eða afrita upplýsingar úr öðrum fylgiskjölum til að fylla út línurnar sjálfvirkt:
 
     - Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** til að afrita eina eða fleiri bókaðar fylgiskjalalínur frá einu eða fleiri bókuðum fylgiskjölum. Þessi aðgerð bakfærir alltaf nákvæmlega kostnaðinn úr bókuðu fylgiskjalslínunni. Þessu aðgerð er lýst í eftirfarandi skrefum.    
-    - Nota aðgerðina **Afrita úr skjali** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu &amp; Útistandandi**.  
+    - Nota aðgerðina **Afrita úr skjali** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu & Útistandandi**.  
 
 5. Veldu aðgerðina **Vinna úr**, veldu síðan aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra**.
 6. Efst á síðunni **Bókaðar línur söluskjals** er valið gátmerki **Sýna eingöngu bakfæranlegar línur** ef eingöngu á að birta línur sem eru með magn sem enn hefur ekki verið skilað. Til dæmis ef bókað magn sölureiknings hefur verið skilað kann ekki að vera æskilegt að skila magninu í nýtt fylgiskjal söluvöruskila.
@@ -94,8 +94,6 @@ Hægt er að bóka þessa hækkun kostnaðar sem kostnaðarauka á kreditreiknin
 3. Fyllið inn í reitina eins og þeir séu kostnaðaraukalínur. Frekari upplýsingar er að finna í [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md).  
 
 Þegar söluskilapöntunin er bókuð er endurkaupagjaldi bætt við viðkomandi upphæð sölufærslu. Þannig er hægt að vinna með nákvæmt birgðaverðmat.  
-
-## Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
 
 ## Sjá einnig
 

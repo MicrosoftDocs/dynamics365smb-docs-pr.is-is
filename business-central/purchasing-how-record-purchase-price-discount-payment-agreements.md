@@ -139,8 +139,6 @@ Besta verð er lægsta leyfilega verð með hæsta leyfilega línuafslættinum �
 
 Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
-
 ## Sjá einnig .
 
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  

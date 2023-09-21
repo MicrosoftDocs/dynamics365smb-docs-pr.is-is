@@ -43,8 +43,6 @@ Fyrir reitinn **Línugerð** skal vísa til eftirfarandi upplýsinga.
 
 Upplýsingar um skráningu áætlaðra- og raunverða verka og kostnað er að finna í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/set-up-job-planning-lines/)
-
 ## Sjá einnig .
 
 [Verkefnastjórnun](projects-manage-projects.md)  

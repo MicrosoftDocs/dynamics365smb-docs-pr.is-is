@@ -45,8 +45,6 @@ Til að spara tíma þegar þú sendir skjöl til tengiliða viðskiptamanns og 
 1. Á síðunni **Útlit fylgiskjals**, á línunni fyrir skýrsluútlit sem á að senda á tiltekinn tengilið fyrir viðskiptamanninn skal velja aðgerðina **Velja netfang úr tengiliðum**.
 2. Á síðunni **Tengiliðir** skaltu velja einn eða fleiri tengiliði og velja síðan **Í lagi**.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/)
-
 ## Sjá einnig
 
 [Uppfæra sérsniðið skýrsluútlit](ui-update-report-layouts.md)  

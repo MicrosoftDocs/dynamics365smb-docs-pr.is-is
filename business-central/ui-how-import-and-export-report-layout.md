@@ -45,8 +45,6 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
  Upprunalega sérsniðna skýrsluútlitinu er skipt út með innflutta skýrsluútlitinu.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Sjá einnig
 
 [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md)   

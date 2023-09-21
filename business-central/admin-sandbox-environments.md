@@ -3,7 +3,7 @@ title: Sandkassaumhverfi
 description: 'Kynntu þér hvernig sérhæft umhverfi getur hjálpað þér að skoða, læra, sýna, þróa, úrræðaleita og prófa Business Central á öruggan hátt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -63,8 +63,6 @@ When the assisted setup guide completes, you can start exploring the new company
 Frekari upplýsingar er að finna í [Nota hönnuð](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) í efni hönnuðar og stjórnanda (aðeins á ensku).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## Sjá einnig .
 

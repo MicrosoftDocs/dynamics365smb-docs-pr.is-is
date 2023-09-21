@@ -42,8 +42,6 @@ Ef þú vilt skoða spáina, auk þess að spá færslum, geturðu einnig skoða
 2. Veldu sjóðstreymisspá, og veldu síðan **Sjóðstreymisvinnublað**.  
 3. Í á **Sjóður Flæði Vinnublað** síðunni, velja sem **Vinnublað Tillögulínur** aðgerð.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
-
 ## Sjá einnig
 
 [Uppsetning Fjármála](finance-setup-finance.md)  

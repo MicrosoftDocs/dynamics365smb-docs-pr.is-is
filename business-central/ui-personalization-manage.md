@@ -62,8 +62,6 @@ Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyri
 
 Útlitinu á völdum síðum er breytt í breytingar sem gerðar voru.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/tailor-roles-design-ui/)
-
 ## Sjá einnig .
 
 [Sérstilling verksvæðis](ui-personalization-user.md)  

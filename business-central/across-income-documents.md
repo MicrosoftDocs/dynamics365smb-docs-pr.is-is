@@ -57,8 +57,6 @@ Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 | Af síðunum **Bókhaldslyklar** og **Fjárhagsfærslur** er hægt að nota leitaraðgerð til að finna fjárhagsfærslur fyrir bókuð skjöl sem hafa ekki færslur fyrir skjöl á innleið og tengjast miðlægt við fyrirliggjandi færslur eða stofna nýjar með viðhengdum skrám. |[Finna bókuð fylgiskjöl án færslu skjals á innleið](across-how-find-posted-documents-without-income-document-records.md) |
 | Fáðu betri yfirsýn með því að stilla færslur fyrir skjöl á innleið á *Unnið* og fjarlægja þær úr sjálfgefna yfirlitinu. |[Vinna með margar færslur skjala á innleið](across-how-manage-many-income-document-records.md) |
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  

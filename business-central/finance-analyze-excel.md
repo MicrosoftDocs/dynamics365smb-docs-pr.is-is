@@ -50,8 +50,6 @@ Fyrirframskilgreindar Excel-skýrslur eru byggðar á gögnum í núverandi fyri
 
 Innbótin gerir þér kleift að sækja ný gögn úr [!INCLUDE [prod_short](includes/prod_short.md)] og hægt er að ýta breytingum aftur í [!INCLUDE [prod_short](includes/prod_short.md)]. Möguleikinn á að ýta gögnum aftur í gagnagrunninn er hins vegar ekki fyrir hendi fyrir fjárhagsskýrslurnar sem þú getur skoðað í Excel.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Sjá einnig
 
 [Skoða og breyta í Excel From Business Central](across-work-with-excel.md)  

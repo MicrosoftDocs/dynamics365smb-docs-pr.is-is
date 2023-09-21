@@ -111,7 +111,7 @@ Valkostir fyrir viðburði og svör eru kerfisvarðar. Til að bæta við nýjum
 > Ekki virkja verkflæði fyrr en þú ert viss um að það sé tilbúið.  
 
 > [!TIP]  
-> Til að kanna tengslin milli þeirra taflna sem notaðar eru í verkflæði skal velja þá  ![ljósaperu sem opnar aðgerðina segja](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). Táknið, færa síðan inn  **verkflæði – töfluvensl**.  
+> Til að kanna tengslin milli þeirra taflna sem notaðar eru í verkflæði skal velja þá  ![ljósaperu sem opnar aðgerðina segja.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa síðan inn  **verkflæði – töfluvensl**.  
 
 ## Dæmi um hvernig nýtt verkflæði er búið til með því að nota fyrirliggjandi tilvik
 
@@ -171,8 +171,6 @@ Eftirfarandi mynd gefur yfirlit yfir niðurstöður þessarar aðgerðar.
 :::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Skýring á samþykktarverkflæði lánardrottnaheitis.":::
 
 Næst skal prófa verkflæðið með því að opna fyrirliggjandi lánardrottnaspjald og breyta nafni þeirra. Staðfestið að samþykktarbeiðni sé send eftir að nafni lánardrottins er breytt.
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
 ## Sjá einnig .
 

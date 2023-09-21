@@ -92,7 +92,7 @@ Hægt er að stofna opnunarstöður fyrir vörurnar sem fylgst er með. Þar sem
 2. Reiturinn Name  **er**  valinn til að opna lista yfir birgðabókarkeyrslur.
 3. Velja  **skal nýtt**  til að stofna nýja runu og kveikja síðan á  **vörurakningu í línum** .
 4. Valið  **er í lagi**  til að velja rununnar sem var stofnuð.
-5. Reitirnir í birgðabókarlínunni eru fylltir út eftir þörfum. Athugið að  **Lotunr.**,  **raðnr.**,  **Gildistími**,  **Ábyrgðardagsetning** og  **pakki nr**. Svæðin eru tiltæk (ef aðgerðin er gerð virk).
+5. Reitirnir í birgðabókarlínunni eru fylltir út eftir þörfum. Athugið að  **Lotunr.**,  **raðnr.**,  **Gildistími**,  **Ábyrgðardagsetning** og  **pakki nr.** Svæðin eru tiltæk (ef aðgerðin er gerð virk).
 6. Velja skal  **aðgerðina Bóka**  til að leiðrétta birgðir.
 
 > [!NOTE] 
@@ -101,15 +101,13 @@ Hægt er að stofna opnunarstöður fyrir vörurnar sem fylgst er með. Þar sem
 ### Raunbirgðabók vöruhúss fyrir staðsetningar þar sem beinar tínsla og frágangur er kveikt  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **Raunbirgðabók** vöruhúss og velja síðan tengda tengilinn.
-2. Reitirnir í birgðabókarlínunni eru fylltir út eftir þörfum. Athugið að  **Lotunr.**,  **raðnr.**,  **Gildistími**,  **Ábyrgðardagsetning** og  **pakki nr**. Svæðin eru tiltæk (ef aðgerðin er gerð virk).
+2. Reitirnir í birgðabókarlínunni eru fylltir út eftir þörfum. Athugið að  **Lotunr.**,  **raðnr.**,  **Gildistími**,  **Ábyrgðardagsetning** og  **pakki nr.** Svæðin eru tiltæk (ef aðgerðin er gerð virk).
 3. Velja skal  **aðgerðina skrá**  til að gera birgðaleiðréttingar. Þú þarft að samstilla leiðréttar vöruhúsafærslur við tengdar birgðafærslur. Til að fá frekari upplýsingar er farið að  [Samstilla leiðréttar vöruhúsafærslur](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
 Fyrir fjöldainnflutning skal nota skilgreiningarpakka til að flytja inn gögn í færslubækur.
 
 > [!NOTE]
 > Ekki er hægt að nota  **Edit í Excel**  til að stofna færslubókarlínur með rakningarupplýsingum.
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
 
 ## Sjá einnig .
 

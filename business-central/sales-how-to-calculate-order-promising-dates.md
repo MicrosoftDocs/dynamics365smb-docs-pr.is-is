@@ -128,8 +128,6 @@ Ef afgreiðslutími vöruhúss þegar reiknað er út hvenær á að lofa pöntu
     - Velja skal  **Óhætt að lofa** ef vitað er að varan er ekki til í birgðahaldi og ef kerfið á að reikna út hvenær varan verður fyrst tiltæki með því að gefa út tillögur um endurnýjun.  
 5.  Velja hnappinn **Samþykkja** til að samþykkja fyrstu tiltæku sendingardagsetningu.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  

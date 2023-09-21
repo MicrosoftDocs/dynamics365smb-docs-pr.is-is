@@ -70,8 +70,6 @@ Samfélag samstarfsaðila okkar er að þróa forrit á fullu sem bæta mögulei
 
 Við höfum sýnt Viðmótsleit frá ýmsum hagsmunaaðilum, bent á spurningarnar sem þeir höfðu sameiginlegt og breytt athugasemdum okkar í lista yfir algengar spurningar. Ef þú hefur áhuga skaltu skoða [Algengar spurningar um viðmótsleit](ui-search-faq.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/user-interface-dynamics-365-business-central/index)
-
 ## Sjá einnig
 
 [Vinna með Business Central](ui-work-product.md)  

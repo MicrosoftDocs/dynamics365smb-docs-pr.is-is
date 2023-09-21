@@ -2,24 +2,23 @@
 title: Staðbundin virkni og regla um staðfæringu
 description: Frekari upplýsingar um staðbundin framboð og samræmi í reglum í Viðskiptamiðinu fyrir löndin/svæðin þar sem Microsoft veitir staðbundna virkni.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
 ms.search.keywords: 'availability, localization'
 ms.search.form: null
-ms.date: 06/11/2021
-ms.author: bholtorf
+ms.date: 09/05/2023
+ms.custom: bap-template
 ---
-# <a name="what-is-local-functionality-in-"></a>Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]
+# Hvað er staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum kafla er hægt að sjá lýsingar á virkni sem á við um löndin/svæðin þar sem Microsoft veitir eftirlitsskyldum sínum samræmismat og aðra staðbundna virkni.  
 
-Upplýsingar um studda markaði má finna á [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
+Til að fá lista yfir markaði sem eru studdir er farið í  [lands-/svæðisbundið framboð og stutt þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Staðbundin virkni
+## Staðbundin virkni
 
-Til að fræðast um staðbundna virkni fyrir hvert land/svæði skal velja viðeigandi tengil:
+Eftirfarandi tafla veitir tengla í greinar þar sem hægt er að fræðast um staðbundna virkni fyrir hvert land/svæði.
 
 | Svæði | Land | Meiri upplýsingar |
 | --- | --- |--- |
@@ -48,11 +47,12 @@ Til að fræðast um staðbundna virkni fyrir hvert land/svæði skal velja við
 |        | Indland | [Staðbundnar aðgerðir fyrir Indland](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nýja-Sjáland | [Staðbundnar aðgerðir fyrir Nýja-Sjáland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Önnur lönd/svæði
+### Önnur lönd/svæði
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
+
 [Skapa umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Reglufylgni](compliance/compliance-overview.md)  

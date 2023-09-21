@@ -109,13 +109,11 @@ Ef þú hefur bókað færslu fyrir vöru er ekki hægt að eyða spjaldinu þar
 
 Ef fyrirtækið setur síðar upp vöruhúsakerfi er mælt með því að ganga úr skugga um að sérhver fyrirliggjandi vara sé með réttar upplýsingar í hinum ýmsu reitum. Þannig geta vöruhúsaferlin gengið eins og til er ætlast. Upplýsingarnar geta falið í sér reiti á borð við **Kóði vöruhúsaflokks** eða **Kóði frágangssniðmáts**. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
 
-## Áætlanagerð
+## Áætlun
 
 Þegar fyrirtækið þitt notar viðkomandi verkferla við áætlun framboðs í [!INCLUDE [prod_short](includes/prod_short.md)] þarf að fylla út í viðkomandi reiti í flýtiflipanum **Áætlanagerð**. Fyrir kynningu á svæði áætlunar skal skoða [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md).  
 
 Til að sjá dæmi um hvernig hægt er að nota reitina í flýtiflipanum **Áætlanagerð** skal skoða [Uppsetning bestu venja: Færibreytur áætlanagerðar](setup-best-practices-planning-parameters.md).  
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-items/)
 
 ## Sjá einnig .
 

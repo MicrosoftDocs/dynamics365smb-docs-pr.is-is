@@ -158,8 +158,6 @@ Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
    > [!TIP]
    > Sem stjórnandi getur þú falið atriðið **Sjálfvirkni** fyrir notendum. Frekari upplýsingar er að finna á [Setja upp Power Automate samþættingu](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## Sjá einnig
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

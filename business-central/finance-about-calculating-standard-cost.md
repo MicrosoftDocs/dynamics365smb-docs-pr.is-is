@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.form: 5841
 ms.author: bholtorf
 ---
-# <a name="about-calculating-standard-cost"></a>Um umreikning staðalkostnaðar
+# Um umreikning staðalkostnaðar
 
 Mörg framleiðslufyrirtæki velja matsgrundvöll staðlaðs kostnaðarverðs. Þetta á einnig við fyrir fyrirtæki sem framkvæma létta framleiðslu, til dæmis samsetningu og röðun í sett. Í stöðluðu kostnaðarverðskerfi er kostnaðarverð birgða ákvarðað á grundvelli einhvers ásættanlegs eða viðbúins kostnaðar. Rannsóknir á fyrri kostnaði og áætluðum framtíðarkostnaði  geta skapað grundvöllinn fyrir stöðluðu kostnaðarverði. Þessi kostnaður er frystur þar til ákvörðun er tekin um að breyta honum. Raunverulegur kostnaður við framleiðslu vöru er frábrugðinn því staðlaða kostnaðarverði sem metið er. Raunverulegi kostnaðurinn er borinn saman við staðlað kostnaðarverð tiltekinnar vöru og munur á þeim eða *frávik* eru fundin og greind til að auðvelda stjórnun.  
 
@@ -21,7 +21,7 @@ Hægt er að viðhalda stöðluðum kostnaði fyrir vörur fyllt er á með innk
 |**Samsetning**|Beinn efniskostnaður er beinn eða fastur vinnukostnaður og sameiginlegur kostnaður.|  
 |**Framl.pöntun**|Beinn efniskostnaður,vinnukostnaður, undirverktakakostnaður og sameiginlegur kostnaður.|  
 
-## <a name="setting-up-standard-costs"></a>Uppsetning staðlaðs kostnaðarverðs
+## Uppsetning staðlaðs kostnaðarverðs
 
 Þar sem staðlað kostnaðarverðframleiddrar eða samsettrar vöru getur samanstaðið af mörgum kostnaðarliðum, þar með talið efnis-, afkastagetu- (vinnu-) og undirverktakakostnaði (beinum og sameiginlegum), þarf að búa til staðlað kostnaðarverð fyrir hvern þessara liða.  
 
@@ -38,7 +38,7 @@ Eftirfarandi lykilkostnaðarliðir mynda samtölu beins kostnaðar vöru sem er 
 - Getukostnaður  
 - Undirverktakakostnaður fyrir framleiddar vörur eingöngu.  
 
-### <a name="material-costs"></a>Efniskostnaður
+### Efniskostnaður
 
 Efniskostnaður er kostnaður sem tengist undirsamsetningum og aðkeyptum hráefnum. Efniskostnaðarverð getur samanstaðið af beinum og óbeinum kostnaðarliðum.  
 
@@ -56,7 +56,7 @@ Hægt er að setja efniskostnað framleiddrar vöru fram á tvo vegu sem samsvar
 |Eitt stig|Framleidd vara er jöfn heildarkostnaði allra keyptra eða undirsamsettra vara í framleiðsluuppskrift vörunnar.|  
 |Samantekið stig eða mörg stig|Framleidd vara er samtala efniskostnaðar fyrir allar undirsamsetningar á uppskrift þeirrar vöru og kostnaðar allra aðkeyptra vara á framleiðsluuppskrift þeirrar vöru.|  
 
-### <a name="capacity-costs"></a>Getukostnaður
+### Getukostnaður
 
 Getukostnaður er sá kostnaður sem er tengdur við kostnað við innanhússvinnuafl og vélar. Setja verður upp kostnað fyrir sérhvern forða (í samsetningarstjórnun) og verk eða vélastöð á leið (í framleiðslu). Eins og með efni er hægt að finna bæði beina og óbeina kostnaðarliði getu. Til dæmis getur beinn kostnaður við vinnustöð verið viðurkenndi verslunartaxtinn við framkvæmd sérstakrar aðgerðar. Óbeini kostnaðurinn fyrir vinnustöð getur falið í sér einhvern almenn verksmiðjuútgjöld eins og lýsingu, húshitun og svo framvegis. Hægt er að setja sameiginlegan getukostnað fram sem óbeina kostnaðarprósentu eða fastan taxta sameiginlegs kostnaðar, svipað og með efniskostnað.  
 
@@ -81,13 +81,13 @@ Til að tilgreina uppsetningartíma á leiðinni fyrir áætlun en ekki taka þe
 
 Á eins stigs grundvelli er þetta sá vinnukostnaður sem þarf til að framleiða fullunnu framleiðsluvöruna og er tilgreint á leið framleiðsluvörunnar. Á margra stiga grundvelli er þetta afkastakostnaðurinn sem er tilgreindur fyrir hverja framleidda vöru á uppskrift yfirvörunnar.  
 
-### <a name="subcontractor-costs"></a>Undirverktakakostnaður
+### Undirverktakakostnaður
 
 Undirverktakakostnaður er sá kostnaður sem er tengdur við þjónustu sem utanaðkomandi birgjar og undirverktakar bjóða upp á. Svipað og með efni og afkastagetu kann undirverktakakostnaður að samanstanda af bæði beinum og sameiginlegum upphæðum. Beinn undirverktakakostnaður felur í sér raunverulegt gjald fyrir hverja veitta þjónustueiningu. Sameiginlegur undirverktakakostnaður getur til dæmis falið í sér frakt- og meðhöndlunarkostnað sem fyrirtækið lendir í í samhengi við pöntun undirverktaka.  
 
 Þar sem undirverktakastarfsemi færsla á afkastagetu út fyrir fyrirtækið er kostnaðurinn við þjónustu undirverktaka (beinn og óbeinn) settur upp á vinnustöðvarspjaldinu sem stendur fyrir undirverktakaaðgerðina.  
 
-## <a name="updating-standard-costs"></a>Uppfærsla staðlaðs kostnaðarverðs
+## Uppfærsla staðlaðs kostnaðarverðs
 
 Til að uppfæra eða reikna staðlað kostnaðarverð fyrir samsetningarvörur er aðgerðin notuð af birgðaspjaldinu.  
 
@@ -98,7 +98,7 @@ Ferlið til að uppfæra eða reikna út staðlaðan kostnað samanstendur yfirl
 3.  Innleiðing staðlaðs kostnaðar sem færður var inn þegar fyrri keyrsla var keyrð. Staðlaður kostnaður tekur ekki gildi fyrr en hann er innleiddur. Notaðu runuvinnsluna **Innleiða breytingu á stöðluðu kostnaðarverði**, sem uppfærir breytingar á staðalkostnaði á vörum með þeim sem er í töflunni vinnublað staðlaðs kostnaðarverðs.  
 4.  Innleiðing breytinga til að uppfæra reitinn **Kostn.verð** á birgðaspjaldinu og framkvæmd endurmats á birgðum. Nánari upplýsingar eru í [Endurmat birgða](inventory-how-revalue-inventory.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  
 [Uppfæra staðlaðan kostnað](finance-how-to-update-standard-costs.md)  

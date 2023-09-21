@@ -92,8 +92,6 @@ Breytingin fjarlægir sölutilboðið úr gagnagrunninum. Sölureikningur eða s
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  

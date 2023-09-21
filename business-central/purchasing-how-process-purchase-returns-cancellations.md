@@ -83,7 +83,7 @@ Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal 
 4. Á flýtiflipanum **Línur** skal fylla þessar línur út handvirkt, eða afrita upplýsingar úr öðrum fylgiskjölum til að fylla út línurnar sjálfvirkt:
 
     - Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** til að afrita eina eða fleiri bókaðar fylgiskjalalínur frá einu eða fleiri bókuðum fylgiskjölum. Þessi aðgerð bakfærir alltaf nákvæmlega kostnaðinn úr bókuðu fylgiskjalslínunni. Þessu aðgerð er lýst í eftirfarandi skrefum.    
-    - Nota aðgerðina **Afrita úr skjali** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu &amp; Útistandandi**.  
+    - Nota aðgerðina **Afrita úr skjali** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu & Útistandandi**.  
 
 5. Velja aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra**.
 6. Efst á síðunni **Bókaðar línur innkaupaskjals** er valið gátmerki **Sýna eingöngu bakfæranlegar línur** ef eingöngu á að birta línur sem eru með magn sem enn hefur ekki verið skilað. Til dæmis ef bókað magn innkaupareiknings hefur verið skilað kann ekki að vera æskilegt að skila magninu í nýtt fylgiskjal vöruskila innkaupa.
@@ -180,8 +180,6 @@ Ef skila á vörum sem eru í mismunandi innkaupapöntunum til eins lánardrotti
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eyða reiknf. innk.vöruskilapöntunum** og velja síðan viðkomandi tengil.  
 2. Fyllið út aðra reitina að þörfum og smellið veljið síðan hnappinn **Í lagi**.  
 3. Að öðrum kosti skal eyða einstökum vöruskilapöntunum innkaupa handvirkt.
-
-## Sjá tengda [Microsoft þjálfun](/training/paths/return-items-dynamics-365-business-central/)
 
 ## Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  

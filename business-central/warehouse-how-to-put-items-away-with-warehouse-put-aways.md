@@ -3,7 +3,7 @@ title: Hvernig á að setja vörur af stað með vöruhúsafrágangi
 description: Fræðast um mismunandi leiðir til að nota vöruhúsafrágang til að ganga frá mótteknum vörum.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/24/2023
@@ -17,8 +17,8 @@ ms.search.forms: '7352, 7333'
 |Aðferð|Ferli á innleið|Krefjast kvittana|Krefjandi frágangur|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
 |------------|---------------------|--------------|----------------|------------|  
 |A|Bóka móttöku og frágang frá pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
-|B|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
-|N|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
+|Á|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
+|U|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
 |D|Bóka móttöku frá vöruhúsamóttökuskjali og bóka frágang frá vöruhúsafrágangsskjali|Kveikt|Kveikt|Ítarlegt|  
 
 Frekari upplýsingar um vöruflæði á  [innleið](design-details-inbound-warehouse-flow.md).
@@ -112,12 +112,10 @@ Ef Birgðageymsla er notuð fyrir bæði frágangsvinnslu og móttöku og eytt e
 
 5. Þegar allar vörurnar hafa verið settar í hólf samkvæmt skal velja aðgerðina **Skrá frágang**.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
-
 ## Sjá einnig .
 
-[Yfirlit](design-details-warehouse-management.md)
-[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Inventory](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

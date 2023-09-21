@@ -234,8 +234,6 @@ Til að skoða vottorðahóp byrjarðu á síðunni **Afhendingarvottorð** og u
 > * Til að stofna vottorð afhendingarvottorðs handvirkt  
 > * Til að prenta afhendingarvottorð.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Sjá einnig
 
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)  

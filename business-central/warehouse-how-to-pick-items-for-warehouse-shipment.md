@@ -3,7 +3,7 @@ title: Tína vörur fyrir vöruhúsaafhendingu
 description: Lærðu að nota vöruhúsatínsluskjöl til að stofna og vinna úr upplýsingum um tínsluafhendingar áður en vöruhúsaafhending er bókuð.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -17,8 +17,8 @@ ms.search.forms: '7335, 7339, 7345,'
 |Aðferð|Útleiðarferli|Krefjast tínslu|Krefjast afhendingar|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
 |------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
 |A|Bóka tínslu og sendingu úr pöntunarlínu|||Engin sérstök vöruhúsaaðgerð.|  
-|B|Bóka tínslu og afhendingu úr birgðatínsluskjali|Kveikt||Grunnur: pöntun-eftir pöntun.|  
-|N|Bóka tínslu og sendingu úr vöruhúsaafhendingarskjali||Kveikt|Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
+|Á|Bóka tínslu og afhendingu úr birgðatínsluskjali|Kveikt||Grunnur: pöntun-eftir pöntun.|  
+|U|Bóka tínslu og sendingu úr vöruhúsaafhendingarskjali||Kveikt|Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
 |D|Bókið tínsluna úr vöruhúsatínsluskjali og bókið sendinguna úr afhendingarskjali vöruhúss|Kveikt|Kveikt|Ítarlegt|  
 
 Frekari upplýsingar um flæði vöruhúss á  [útleið](design-details-outbound-warehouse-flow.md).
@@ -66,9 +66,9 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti 
 
 7. Veldu aðgerðina **Stofna tínslu**.  **Síðan stofna tínslu**  opnast, þar sem hægt er að bæta meiri upplýsingum við tínsluna sem verið er að stofna. Tilgreinið hvernig eigi að sameina tínslulínur í tínsluskjöl með því að velja einn af eftirfarandi valkostum.  
 
-    |Valkostur|Description|
+    |Valkostur|Heimildasamstæða|
     |-|-|
-    |Á vöruhúsaskjölum Fylgiskjal|Stofnar aðskilin tínsluskjöl fyrir vinnublaðslínur með sama upprunaskjali vöruhúss.|
+    |Á vöruhúsaskjölum Skjal|Stofnar aðskilin tínsluskjöl fyrir vinnublaðslínur með sama upprunaskjali vöruhúss.|
     |E. viðskm./lánardr./birgðag.|Stofna aðskilin tínsluskjöl fyrir hvern viðskiptavin (sölupantanir), lánardrottin (innkaupaskilapantanir) og birgðageymslu (flutningspantanir).|
     |Eftir vöru|Stofna aðskilin tínsluskjöl fyrir hverja vöru á tínsluvinnublaðinu.|
     |Á frá-svæði|Stofna aðskilin tínsluskjöl fyrir hvert svæði sem taka á vörur úr.|
@@ -77,7 +77,7 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti 
 
     Tilgreinið hvernig tínsluskjöl eru stofnuð með því að velja úr eftirfarandi valkostum.
 
-    |Valkostur|Description|
+    |Valkostur|Heimildasamstæða|
     |-|-|
     |Max. Nr. Um tínslulínur|Stofnar tínsluskjöl sem hafa ekki fleiri en tilgreindan línufjölda í hverju skjali.|
     |Max. Nr. Doktors Tínslusource.|Stofnar tínsluskjöl sem hvert skjól er ekki meira en tiltekinn fjöldi upprunaskjala.|
@@ -111,12 +111,10 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti 
 
 Nú er hægt að koma vörunum í afhendingarhöfnina og bóka sendinguna, þar með talið tengda upprunaskjalinu, á  **síðu vöruhúsaafhendingar** . Frekari upplýsingar um  [Sendingarvörur](warehouse-how-ship-items.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/pick-ship-items-warehouse/)
-
 ## Sjá einnig .
 
-[Yfirlit](design-details-warehouse-management.md)
-[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Inventory](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -88,8 +88,6 @@ Hægt er að bera gildið í **Staða á bankareikningi eftir bókun** reitnum s
 > [!NOTE]  
 >   Ef ekki á að afstemma bankareikninginn af síðunni **greiðsluafstemmingarbók** þá verðurðu að nota **afstemming bankareiknings** gluggann. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Stjórnun skulda](receivables-manage-receivables.md)  

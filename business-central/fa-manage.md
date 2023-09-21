@@ -47,8 +47,6 @@ Eftirfarandi myndband fjallar um grunnatriði eigna.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/manage-fixed-assets-transactions/)
-
 ## Sjá einnig .
 
 [Uppsetning eigna](fa-setup.md)  

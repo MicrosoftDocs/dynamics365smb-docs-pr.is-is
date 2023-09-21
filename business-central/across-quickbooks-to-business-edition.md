@@ -31,8 +31,6 @@ Til að fá nánari upplýsingar skaltu lesa um viðbótina sem hentar QuickBook
 
 Ef þú ert tilbúinn til að byrja núna skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp** og velja síðan viðkomandi tengil. Veljið **Flytja viðskiptagögn** og fara síðan eftir skrefunum í leiðbeiningunum.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/migrate-data-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  

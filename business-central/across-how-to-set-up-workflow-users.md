@@ -15,7 +15,7 @@ ms.author: bholtorf
 
 Áður en hægt er að stofna samþykktarverkflæði þarf að setja upp notendurna sem munu Senda beiðnir og samþykkjendur þeirra. Til dæmis er hægt að tilgreina hver fær tilkynningu til að vinna í verkflæðisskrefi. Þátttakendur samþykktarverkflæðis eru  **settir upp á síðunni samþykktarnotandasíða** . Frekari upplýsingar má finna á [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md).
 
- **Á síðunni Verkflæðisnotendaflokkar**  er hægt að tilgreina hvar þátttakandi á í samþykktarverkflæði með því að færa númer inn í  **númeraröð númeraraðarinnar**. . Til dæmis er hægt að tilgreina að notendur taki þátt í réttri röð, t.d. keðju samþykkjendur. Einnig er hægt að tilgreina flatarlista samþykkjendur með því að færa inn sama númer. Í síðara tilfellinu þarf aðeins einn samþykkjendum að samþykkja beiðni.
+ **Á síðunni Verkflæðisnotendaflokkar**  er hægt að tilgreina hvar þátttakandi á í samþykktarverkflæði með því að færa númer inn í  **númeraröð númeraraðarinnar.** . Til dæmis er hægt að tilgreina að notendur taki þátt í réttri röð, t.d. keðju samþykkjendur. Einnig er hægt að tilgreina flatarlista samþykkjendur með því að færa inn sama númer. Í síðara tilfellinu þarf aðeins einn samþykkjendum að samþykkja beiðni.
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -33,8 +33,6 @@ ms.author: bholtorf
    |**Nr. raðar**|Tilgreina í hvaða röð notandi verkflæðis virkjast í verkflæði, út frá öðrum notendum. Þessi reitur gefið upp t.d. hvenær notandi samþykkir í samhengi við aðra samþykktaraðila með því að setja upp valkostinn **Notendahópur verkflæðis** í reitnum **Gerð samþykktaraðila** í tengdu verkflæðissvari.| 
 
 6. Endurtaktu skref 5 til að bæta fleiri notendum verkflæðis við notendahópinn.  
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
 
 ## Sjá einnig .
 

@@ -35,8 +35,6 @@ Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er f
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 |Tilgreinið hvort notendum sé heimilt að bóka sölureikninga og hvort þeir verði að bóka þá ásamt sendingu. |[Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)|
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
-
 ## Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

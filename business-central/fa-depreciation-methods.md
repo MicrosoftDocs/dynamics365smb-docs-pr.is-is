@@ -1,6 +1,6 @@
 ---
 title: Afskriftaaðferðir fyrir eignir
-description: Fræðast um mismunandi innbyggðar aðferðir við afskriftir eða niðurfærslu eigna.
+description: Læri um mismunandi byggðaðferðaðferðir við afskriftir eða niðurfærslu eigna.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
@@ -10,9 +10,9 @@ ms.search.form: '5629, 5633'
 ms.date: 08/08/2023
 ms.custom: bap-template
 ---
-# <a name="depreciation-methods-for-fixed-assets"></a>Afskriftaaðferðir fyrir eignir
+# Afskriftaaðferðir fyrir eignir
 
-Átta afskriftaraðferðir eru tiltækar í [!INCLUDE [prod_short](includes/prod_short.md)]:  
+Til eru átta afskriftareglur sem tiltækar eru í [!INCLUDE [prod_short](includes/prod_short.md)]:  
 
 * Línuleg  
 * Hlutfallsleg 1  
@@ -22,17 +22,17 @@ ms.custom: bap-template
 * Notendaskilgreind  
 
   > [!NOTE]  
-  > Tilgreinið eigin afskriftaraðferð með því að skilgreina afskriftatöflur. Nánari upplýsingar um hvernig notendaskilgreind afskriftaaðferð er notuð er að finna í [Setja upp notendaskilgreinda afskriftaraðferð](fa-how-setup-user-defined-depreciation-method.md).
+  > Tilgreinið eigin afskriftaraðferð með því að skilgreina afskriftatöflur. Til að fræðast meira um jöfnun á afskriftaraðferð sem notandi skilgreinir er farið í að  [Setja upp notandaskilgreinda afskriftaraðferð](fa-how-setup-user-defined-depreciation-method.md).
 * Handvirkt  
 
   > [!NOTE]  
-  > Notið handvirka aðferðina fyrir eignir sem ekki eru afskrifaðar, til dæmis land. Færa þarf afskriftir eigna í eignafjárhagsfærslubók. Keyrslan **Reikna afskriftir** sleppir eignum sem nota handvirka afskriftaaðferð.  
+  > Notaðu handvirka aðferðina fyrir eignir sem eru ekki háðar afskriftum, t.d. land. Færa þarf afskriftir eigna í eignafjárhagsfærslubók.  **Keyrslan Reikna afskriftir**  fella niður eignir sem nota handvirka afskriftaaðferðina.  
 * Tvisvar ári  
 
   > [!NOTE]  
-  > Þessi aðferð afskrifar eign um sömu upphæð á hverju ári.  
+  > Með þessari aðferð afskrifast eignir um sömu upphæð á hverju ári.  
 
-## <a name="straight-line-depreciation"></a>Línuleg afskrift
+## Línuleg afskrift
 
 Þegar beinlínuaðferðin er notuð verður að tilgreina einn af eftirfarandi valkostum í eignaafskriftabókinni:  
 
@@ -41,7 +41,7 @@ ms.custom: bap-template
 * Fasta árlega upphæð  
 * Afskriftatímabil  
 
-### <a name="depreciation-period"></a>Afskriftatímabil
+### Afskriftatímabil
 
 Ef afskriftatímabilið (fjöldi afskriftaára, fjöldi afskriftamánaða eða lokadagsetning afskrifta) er fært inn reiknar eftirfarandi reikniregla upphæð afskrifta:  
 
@@ -51,19 +51,19 @@ Afskriftadagar sem eftir eru reiknaðir sem fjöldi afskriftadaga mínus fjöldi
 
 Lækka má bókvirði með upphæðum í bókaðri uppfærslu, niðurfærslu, sérsniðin upphæð 1 eða 2, eftir því hvort reiturinn **Taka með í afskriftaútreikn.** er óvirkur og hvort reiturinn **Hluti bókfærðs virðis** á síðunni: **uppsetning Eignabókunartegundar**. Þessi útreikningur tryggir að eignin sé að fullu afskrifuð á lokadegi afskrifta.  
 
-### <a name="fixed-yearly-percentage"></a>Föst árleg prósenta
+### Föst árleg hlutfallstala
 
-Ef færð er inn föst árleg prósenta [!INCLUDE [prod_short](includes/prod_short.md)]  er eftirfarandi formúla notuð til að reikna afskriftarupphæðina:  
+Ef föst árleg prósenta er færð inn er  [!INCLUDE [prod_short](includes/prod_short.md)]  notuð eftirfarandi formúla til að reikna út afskriftaupphæðina:  
 
 *Afskriftaupphæð = (Beinlínu % x Afskriftagrunnur x Fjöldi afskr. daga) / (100 x 360)*  
 
-### <a name="fixed-yearly-amount"></a>Föst árleg upphæð
+### Föst árleg upphæð
 
-Ef færð er inn föst árleg upphæð [!INCLUDE [prod_short](includes/prod_short.md)]  er eftirfarandi formúla notuð til að reikna afskriftarupphæðina:  
+Ef föst árleg upphæð er færð inn er  [!INCLUDE [prod_short](includes/prod_short.md)]  notuð eftirfarandi formúla til að reikna út afskriftaupphæðina:  
 
 * *Afskriftaupphæð = (Föst afskriftaupphæð x Fjöldi afskriftadaga) /360*  
 
-### <a name="example---straight-line-depreciation"></a>Dæmi - línuleg afskrift
+### Dæmi-línuleg afskrift
 
 Eign hefur stofnkostnaðinn SGM 100.000. Áætluð ending er átta ár. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
 
@@ -79,19 +79,19 @@ Eign hefur stofnkostnaðinn SGM 100.000. Áætluð ending er átta ár. Keyrslan
 | 06/30/27 |Afskrift |180 |-6.250,00 |6,250.00 |
 | 12/31/27 |Afskrift |180 |-6.250,00 |0 |
 
-## <a name="declining-balance-1-depreciation"></a>Hlutfallsleg afskrift 1
+## Hlutfallsleg afskrift 1.
 
-Með þessari afskriftaraðferð er stærstum hluta kostnaðarverðs eignar skipt á fyrstu ár nýtingartíma hennar. Nauðsynlegt er að tilgreina fasta árlega prósentu ef nota á þessa aðferð.  
+Þessi afskriftaaðferð úthlutar stærstum hluta kostnaðar eignar á fyrstu árum líftíma hennar. Nauðsynlegt er að tilgreina fasta árlega prósentu ef nota á þessa aðferð.  
 
 Eftirfarandi formúla reiknar afskriftarupphæð:  
 
 * *Afskriftaupphæð = (Beinlínu % x Fjöldi afskr.daga x Afskriftagrunnur) / (100 x 360)*  
 
-Afskriftargrunnurinn er reiknaður sem bókfært virði í upphafi árs. Fjöldi afskriftadaga er fjöldi daga milli bókunardagsetningar og síðustu afskriftadagsetningar. [!INCLUDE [prod_short](includes/prod_short.md)] reiknar afskriftir ef einhverjar afskriftir á reikningsárinu eru gerðar með þessari formúlu.  
+Afskrifanlegur Grunnur er reiknaður sem bókfært virði í upphafi árs. Fjöldi afskriftadaga er fjöldi daga á milli bókunardagsetningar og síðustu afskriftadagsetningar. [!INCLUDE [prod_short](includes/prod_short.md)] reiknar afskriftir miðað við að allar afskriftir sem eru gerðar á reikningsárinu sé gert með þessari formúlu.  
 
 Í upphæð bókaðra afskrifta geta verið færslur með ýmsum bókunartegundum (niðurfærslu, venju1 og venju2), bókaðar frá upphafsdagsetningu líðandi reikningsárs. Þessar bókunartegundir eru teknar með í bókaðri afskriftaupphæð ef gátmerki eru í reitunum **Afskriftategund** og **Hluti bókvirðis** á síðunni **uppsetning eignabókunartegundar**.  
 
-### <a name="example-1---declining-balance-1-depreciation"></a>Dæmi 1 - Afskriftir vegna hlutfallslegrar stöðu 1
+### Dæmi 1-Hlutfallsleg afskrift 1
 
 Eign hefur stofnkostnaðinn SGM 100.000. Reiturinn **Hlutfallsleg afskrift %** er 25. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
 
@@ -121,33 +121,33 @@ Reikningsaðferð:
 
 Útreikningurinn heldur áfram þar til bókað virði er jafnt sléttaðri lokaupphæð eða hrakvirðinu sem var fært inn.  
 
-### <a name="example-2---declining-balance-1-depreciation"></a>Dæmi 2 - Hlutfallsleg afskrift 1
+### Dæmi 2-Hlutfallsleg afskrift 1
 
-Bókfært verð eignar er 100,000 þann 12/31/2022. Afskrift upp á 1,778 er bókuð þann 2/2/23, sem er áætluð (hlutfallsleg) upphæð afskriftar ársins eftir 32 daga. Ef þú keyrir afskriftir 6/30/2023 mun stinga upp á 8,222, vegna þess að það eru 148 dagar frá 2/2/2023 til 6/30/2023 [!INCLUDE [prod_short](includes/prod_short.md)] . Væntar eftirstandandi afskriftir fyrir 6/30/2023 eru reiknaðar með eftirfarandi formúlu:
-
-* *148/360 x 0,20 x 100.000 = 8.222*
-
-### <a name="example-3---declining-balance-1-depreciation"></a>Dæmi 3 - Hlutfallsleg afskrift 1
-
-Ef bókuð er upphæð sem er ekki í samræmi við afskriftaraðferðina Hlutfallsleg afskrift 1, til dæmis, 5.000,mun [!INCLUDE [prod_short](includes/prod_short.md)]  stinga upp á afganginum af áætlaðri upphæð.
-
-Bókfært verð eignar er 100,000 þann 12/31/2022. Þú bókar afskrift upp á 5,000 þann 2/2/2023, sem er meira en áætluð (hlutfallsleg) upphæð þann 2/2/2023 eftir 32 daga. Ef þú keyrir afskriftir 6/30/2023,mun stinga upp á 8,222, [!INCLUDE [prod_short](includes/prod_short.md)]  vegna þess að það eru 148 dagar frá 2/2/2023 til 6/30/2023. Væntar eftirstandandi afskriftir fyrir 6/30/2023 eru reiknaðar með eftirfarandi formúlu:
+Bókfært virði eignarinnar er 100.000 þann 12/31/2022. Þú bókar afskrift 1.778. á 2/2/23 sem er áætluð (Hlutfallsleg) upphæð afskrifta á ári í 32 daga. Ef keyrslan afskrift þann 6/30/2023  [!INCLUDE [prod_short](includes/prod_short.md)]  leggst á 8.222 þar af eru 148 dagar frá 2/2/2023 fram til 6/30/2023. Áætlaðar Eftirstöðvar afskrifta fyrir 6/30/2023 eru reiknaðar með eftirfarandi formúlu:
 
 * *148/360 x 0,20 x 100.000 = 8.222*
 
-### <a name="example-4---declining-balance-1-depreciation"></a>Dæmi 4 - Afskriftir af hlutfallslegri stöðu 1
+### Dæmi 3-Hlutfallsleg afskrift 1
 
-Bókfært virði eignar er 100.000 þann 12/31/2023. Afskrift upp á 95.000 er bókuð þann 2/2/2023, sem er umfram leyfilega afskriftarupphæð ársins. Ef þú keyrir afskriftir þann 6/30/2023,mun stinga upp á 5000, [!INCLUDE [prod_short](includes/prod_short.md)]  vegna þess að það eru 148 dagar frá 2/2/2023 til 6/30/2023. Væntar eftirstandandi afskriftir fyrir 6/30/2023 eru reiknaðar með eftirfarandi formúlu: 
+Ef upphæð sem ekki er samræmd með stiglækkandi stöðu 1 afskriftaraðferð, t.d. 5.000,  [!INCLUDE [prod_short](includes/prod_short.md)]  leggst á afgang af áætlaðri upphæð.
+
+Bókfært virði eignarinnar er 100.000 þann 12/31/2022. Þú bókar afskrift 5.000. á 2/2/2023 sem er meira en Væntanleg (Hlutfallsleg) upphæð á 2/2/2023 á 32 daga. Ef keyrt er afskrift á 6/30/2023,  [!INCLUDE [prod_short](includes/prod_short.md)]  leggst 8.222, þar af eru 148 dagar frá 2/2/2023 fram til 6/30/2023. Áætlaðar Eftirstöðvar afskrifta fyrir 6/30/2023 eru reiknaðar með eftirfarandi formúlu:
 
 * *148/360 x 0,20 x 100.000 = 8.222*
 
-Hins vegar er bókfært verð sem eftir er aðeins 5.000, svo [!INCLUDE [prod_short](includes/prod_short.md)] mun stinga upp á 5.000 vegna þess að bókfært verð getur ekki verið neikvætt.
+### Dæmi 4-Hlutfallsleg afskrift 1.
 
-## <a name="declining-balance-2-depreciation"></a>Hlutfallsleg afskrift 2
+Bókfært virði eignarinnar er 100.000 þann 12/31/2023. Afskrift er bókuð á 95.000 í 2/2/2023 sem er umfram leyfða afskriftarupphæð ársins. Ef keyrt er afskrift á 6/30/2023,  [!INCLUDE [prod_short](includes/prod_short.md)]  leggst 5000, þar af eru 148 dagar frá 2/2/2023 fram til 6/30/2023. Áætlaðar Eftirstöðvar afskrifta fyrir 6/30/2023 eru reiknaðar með eftirfarandi formúlu: 
+
+* *148/360 x 0,20 x 100.000 = 8.222*
+
+Bókfært virði er hins vegar aðeins 5.000, þannig  [!INCLUDE [prod_short](includes/prod_short.md)]  að lagt er 5.000 vegna þess að bókfært virði getur ekki verið neikvætt.
+
+## Hlutfallsleg afskrift 2
 
 Með aðferðunum Hlutfallsleg afskrift 1 og Hlutfallsleg afskrift 2 er reiknuð sama afskriftaupphæð fyrir hvert ár. Ef keyrslan **Reikna afskriftir** er keyrð oftar en einu sinni á ári leiðir aðferðin Hlutfallsleg afskrift 1 til þess að jafnar afskriftaupphæðir verða í hverju afskriftatímabili. Aðferðin Hlutfallsleg afskrift 2 leiðir á hinn bóginn til afskriftaupphæða sem lækka hlutfallslega fyrir hvert tímabil.  
 
-### <a name="example---declining-balance-2-depreciation"></a>Dæmi - Afskriftir vegna hlutfallslegrar afstöðu 2
+### Dæmi-Hlutfallsleg afskrift 2
 
 Eign hefur stofnkostnaðinn SGM 100.000. Reiturinn **Hlutfallsleg afskrift %** er 25. Keyrslan **Reikna afskrift** er keyrð annað hvert ár. Færslurnar í eignabókinni líta þannig:  
 
@@ -180,17 +180,17 @@ Afskriftargildi eru:
 | 06/30/21 |AU = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
 | 12/31/21 |AU = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
 
-## <a name="db1sl-depreciation"></a>HA1/LA-afskrift
+## HA1/LL.M. afskrift
 
 HLF1/LL – Þessi aðferð er blanda af hlutfallslegri afskrift 1 og línulegri. Útreikningurinn heldur áfram þar til bókfært virði er jafnt og frádráttarmagn eða hrakvirði sem þú slóst inn.  
 
-Keyrslan **Reikna afskriftir** reiknar línulega upphæð og hlutfallslega upphæð en aðeins hærri upphæðin er flutt í færslubókina.  
+ **Keyrslan Reikna afskriftir**  reiknar línulega upphæð og minnkandi stöðu upphæðar en aðeins upphæðirnar sem eru tvær eru færðar í færslubókina.  
 
 Þú getur notað ýmsar prósentur til að reikna minnkandi stöðu.  
 
 Ef þessi aðferð er notuð verður að færa inn áætlaðan gagnlegan líftíma og prósentutölu hlutfallslegra afskrifta á síðunni **Eignaafskriftabækur**.  
 
-### <a name="example---db1-sl-depreciation"></a>Dæmi - HA1-LA-afskrift
+### Dæmi-HA1-SL afskrift
 
 Eign hefur stofnkostnaðinn SGM 100.000. Á síðunni **Eignaafskriftabækur** er 25 í reitnum **Hlutfallsleg afskrifta %** og í reitnum **Fjöldi afskriftaára** er talan 8. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
 
@@ -236,11 +236,11 @@ Reikningsaðferð:
 
     Línulega upphæðin er notuð vegna þess að hún er hærri.  
 
-## <a name="half-year-convention-depreciation"></a>Afskriftir á hálfs árs reglu
+## Hálfs árs samningur um afskriftir
 
 Afskriftir tvisvar á ári eru aðeins notaðar ef sett var gátmerki í reitinn **Nota hálfsársaðferð** í föstu síðunni **Eignaafskriftabók**.  
 
-Þessa afskriftaraðferð má nota með eftirfarandi afskriftaraðferðum:  
+Hægt er að nota þessa afskriftaraðferð með eftirfarandi afskriftaraðferðum:  
 
 * Línuleg  
 * Hlutfallsleg 1  
@@ -251,7 +251,7 @@ Afskriftir tvisvar á ári eru aðeins notaðar ef sett var gátmerki í reitinn
 > [!NOTE]  
 > Áætlaðar eftirstöðvar af líftíma eignar eftir fyrsta reikningsárið verður alltaf hálft ár ef hálfsársaðferðin er notuð. Ef hálfsársaðferðinni er rétt beitt verður því ávallt í reitnum **Lokadags. afskriftar** á síðunni **Eignaafskriftabók** dagsetning sem er nákvæmlega sex mánuðum á undan lokadagsetningu reikningsársins þegar eignin er að fullu afskrifuð.  
 
-### <a name="example---half-year-convention-depreciation"></a>Dæmi - Afskrift á hálfsársreglu
+### Dæmi-hálfs árs samningur afskriftir
 
 Eign hefur stofnkostnaðinn SGM 100.000. **Upphafsdags. afskriftar** er 01/03/20. Áætlaður líftími er fimm ár, þannig að **Lokadags. afskriftar** verður að vera 30/06/25. Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári. Í þessu dæmi miðast fjárhagsárið við almanaksárið.  
 
@@ -267,7 +267,7 @@ Færslurnar í eignabókinni líta þannig:
 | 12/31/24 |Afskrift |360 |-20.000,00 |10,000.00 |
 | 12/31/25 |Afskrift |180 |-10.000,00 |0.00 |
 
-## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Dæmi - HA1/LA-afskrift miðað við hálfsársreglu
+## Dæmi-HA1/SL afskrift með hálfs árs samningi
 
 Eign hefur stofnkostnaðinn SGM 100.000. **Upphafsdags. afskriftar** er 01/11/20. Áætlaður líftími er fimm ár, þannig að **Lokadagsetning afskriftar** verður að vera 30/06/25. Á síðunni **Eignaafskriftabækur** inniheldur reiturinn **Hlutfallsleg afskrifta %** 40. Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári. Í þessu dæmi miðast fjárhagsárið við almanaksárið.  
 
@@ -303,24 +303,22 @@ Reikningsaðferð:
 
     Línulega upphæðin er notuð vegna þess að hún er hærri.  
 
-## <a name="duplicating-entries-to-more-depreciation-books"></a>Afritun færslna í fleiri afskriftabækur
+## Afritar færslur í fleiri afskriftabækur
 
-Ef um er að ræða þrjár afskriftabækur, B1, B2 og B3, og afrita á færslur úr B1 í B2 og B3 er hægt að velja gátreitinn **Hluti afritalista á afskriftabókaspjöldunum** fyrir B2 og B3. Þessi stilling getur til dæmis verið gagnleg við eftirfarandi aðstæður:
+Ef þú ert með þrjár afskriftabækur B1, B2 og B3 og þú vilt taka afrit af færslum úr B1 í B2 og B3, getur þú valið  **gátreitinn í gátreitnum Afriation list**  á afskriftabókarspjöldin fyrir B2 og B3. Þessi stilling getur til dæmis hentað vel við eftirfarandi aðstæður:
 
-* Afskriftabók B1 er samþætt fjárhagnum og notar eignafjárhagsbókina.
-* Afskriftabækur B2 og B3 samþættast ekki fjárhagnum og nota eignabókina.  
+* Afskriftabók B1 samnýtir fjárhagsbók og notar eiginn fjárhagsfærslubók.
+* Afskriftabækur B2 og B3 ekki samþætta við fjárhag og nota eignabók.  
 
-Þegar færsla er gerð í B1 í eignafjárhagsbók og gátreiturinn Nota **afritalista**  er valinn [!INCLUDE [prod_short](includes/prod_short.md)] afritar það færsluna í bók B2 og B3 í eignabókinni þegar færslan er bókuð.  
+Þegar færsla í B1 er gerð í eignakaup fjárhags og gátreiturinn nota afritunarlista  **·**  er valinn  [!INCLUDE [prod_short](includes/prod_short.md)]  skal tvítaka færsluna í bókinni B2 og B3 í eignabók þegar færslan er bókuð.  
 
 > [!NOTE]  
 > Ekki er hægt að afrita í sömu færslubók og færslubókarkeyrslu og verið er að afrita úr. Ef bókaðar eru færslur í fjárhagseignabók er hægt að afrita þær í eignabókina eða í fjárhagseignabókina með því að nota aðra keyrslu.  
 
 > [!NOTE]  
-> Ekki er hægt að nota sömu númeraröð í eignafjárhagsbók og eignabók. Þegar færslur eru bókaðar í eignafjárhagsbók verður reiturinn **Númer fylgiskjals** að vera auður. Ef númer er fært inn í svæðið er númerið tvítekið í eignabók. Þú verður að breyta skjalnúmerinu handvirkt áður en þú getur sent inn dagbókina.  
+> Ekki er hægt að nota sömu númeraröð í eignakaup-og eignabók. Þegar færslur eru bókaðar í eignafjárhagsbók verður reiturinn **Númer fylgiskjals** að vera auður. Ef númer er fært í reitinn er númerið tvískráð í eignabók. Þú verður að breyta skjalnúmerinu handvirkt áður en þú getur sent inn dagbókina.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/configure-depreciation-books/)
-
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  

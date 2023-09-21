@@ -47,11 +47,9 @@ Einnig er hægt að deila skýrslum með samstarfsaðilum á síðunni **Skýrsl
 >
 > Með aðgerðinni **Deila** verður mynduð skýrsluskrá í boði fyrir aðra notendur aðeins í OneDrive for Business og sýnir ekki tímasetta skýrslu í **Skýrsluinnhólfinu**.
 
-## Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/build-reports/).
-
 ## Sjá einnig .
 
-[Keyra og prenta skýrslur](ui-work-report.md)  
+[Skoða og prenta skýrslur](ui-work-report.md)  
 [Tiltækar skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Nota skýrslur í daglegu starfi](reports-use-reports.md)  
 [Viðskiptagreind og skýrsluyfirlit](reports-bi-reporting.md)  

@@ -62,8 +62,6 @@ Að auki er sérhver skilgreining í töflunni Vaxtaskilmálar tengdur undirtöf
 |%8|Innihald reitsins **gjaldmiðilskóði** á bréfshaus vaxtareiknings|  
 |%9|Innihald reitsins **bókunardagsetning** á bréfshaus vaxtareiknings|  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/send-memos-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  

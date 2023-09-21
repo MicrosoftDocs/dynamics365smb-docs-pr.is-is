@@ -58,8 +58,6 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
 Eftir að útlitinu er breytt skaltu reyna að uppfæra það afur.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Sjá einnig  
  [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
  [Vinna með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  

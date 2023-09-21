@@ -92,8 +92,6 @@ Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölu
 
 Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkomandi korti eða skjali, í samræmi við þær stillingar sem þú gerðir á númeraröðinni.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
-
 ## Sjá einnig .
 
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

@@ -17,8 +17,8 @@ ms.search.forms: '7375,'
 |Aðferð|Ferli á innleið|Krefjast kvittana|Krefjandi frágangur|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
 |------------|---------------------|--------------|----------------|------------|  
 |A|Bóka móttöku og frágang frá pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
-|B|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
-|N|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
+|Á|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
+|U|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
 |D|Bóka móttöku frá vöruhúsamóttökuskjali og bóka frágang frá vöruhúsafrágangsskjali|Kveikt|Kveikt|Ítarlegt|  
 
 Frekari upplýsingar um vöruflæði á  [innleið](design-details-inbound-warehouse-flow.md).
@@ -45,7 +45,7 @@ Frekari upplýsingar um vöruflæði á  [innleið](design-details-inbound-wareh
 ## Fleiri en ein birgðafrágangur stofnuð með keyrslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **stofna birgðafrágang/tínslu/hreyfingar** og velja síðan tengda tengilinn. 
-2. Á flýtiflipanum **Vöruhúsabeiðni** eru reitirnir **Upprunaskjal** og **Upprunanúmer** notaðir til að afmarka eftir tilteknum gerðum fylgiskjala eða sviðum fylgiskjalanúmera. Til dæmis er hægt að stofna frágang aðeins fyrir innkaupapantanir.
+2.  **Á flipanum vöruhúsabeiðni**, Notið  **upprunaskjalið**  og  **upprunnr.** svæði til að sía á ákveðnar gerðir skjala eða sviða af fylgiskjalsnúmerum. Til dæmis er hægt að stofna frágang aðeins fyrir innkaupapantanir.
 3.  **Á flipanum Valkostir**  er gátreiturinn Stofna ívt valinn  **.** Gátgluggi frágangs.
 4. Velja hnappinn **Í lagi**. Tiltekinn birgðafrágangar eru stofnaðar.
 
@@ -83,12 +83,10 @@ Starfsmaður í vöruhúsi getur stofnað nýjan frágang í frágangi á grundv
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/receive-put-away-items/)
-
 ## Sjá einnig .
 
-[Yfirlit](design-details-warehouse-management.md)
-[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Inventory](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

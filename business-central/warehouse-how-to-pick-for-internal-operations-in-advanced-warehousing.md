@@ -167,8 +167,6 @@ Eftirfarandi mynd sýnir þegar reiturinn **Hólfkóti** á efnisþáttalista er
 
 :::image type="content" source="media/binflow.png" alt-text="Yfirlit um hvenær og hvernig reiturinn Hólfakóti er fylltur út.":::
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
-
 ## Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  

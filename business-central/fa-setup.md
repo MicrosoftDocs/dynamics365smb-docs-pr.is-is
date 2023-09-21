@@ -36,8 +36,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Læra um mismunandi Aðferðir við afskriftir eigna |[Afskriftaaðferðir](fa-depreciation-methods.md) |
 | Finndu út hvernig á að nota notandaskilgreindar afskriftaaðferðir. |[Uppsetning afskriftaaðferða sem notandi skilgreinir](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/set-up-fixed-assets-management/)
-
 ## Sjá einnig .
 
 [Eignir](fa-manage.md)  

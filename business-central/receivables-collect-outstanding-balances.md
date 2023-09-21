@@ -107,8 +107,6 @@ Ef vaxtareikningar voru gefnir út fyrir mistök er hægt að hætta við þá �
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]Frekari upplýsingar eru í [Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Sjá einnig
 
 [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md)  

@@ -31,8 +31,6 @@ Síðan **Bókuð fylgiskjöl án skjals á innleið** opnast og hún sýnir bó
 
 Ef viðkomandi færsla skjals á innleið er ekki til á síðunni **Skjöl á innleið** er hægt að stofna hana. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Stofna færslur skjala á innleið](across-how-create-income-document-records.md)

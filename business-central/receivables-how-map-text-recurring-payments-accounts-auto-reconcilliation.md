@@ -52,8 +52,6 @@ Til að bóka alltaf útgjöld sem tengjast gjöldum tiltekins banka, MyBank, ti
 | --- | --- | --- | --- | --- |
 | MyBank |AUTT |60400|Fjárhagur |AUTT |
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/use-journals-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Stjórnun skulda](receivables-manage-receivables.md)  

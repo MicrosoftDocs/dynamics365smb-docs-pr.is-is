@@ -56,8 +56,6 @@ Eftirfarandi ferli byggist á viðskiptamannaspjaldi. Skrefin eru svipuð fyrir 
 > [!NOTE]
 > Fyrir tengiliði er hægt að nota virkni til að finna tvítekna tengiliði áður en síðan **Sameina tvítekið atriði** er notuð. Frekari upplýsingar er að finna í [Leita að tvíteknum tengiliðum](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  

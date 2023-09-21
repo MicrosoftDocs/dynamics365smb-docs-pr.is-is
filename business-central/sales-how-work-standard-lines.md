@@ -70,8 +70,6 @@ Hægt er að nota runuvinnsluna **Stofna ítrekaða sölureikninga** til að sto
 
 Sölureikningar eru stofnaðir fyrir viðskiptamenn með stöðluðum sölukóða viðskiptamanna og öllum tilgreindum upplýsingum um beingreiðslur, fyrir bókun á tilteknum degi.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  

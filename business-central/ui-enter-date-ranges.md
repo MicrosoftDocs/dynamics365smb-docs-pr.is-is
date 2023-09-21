@@ -345,8 +345,6 @@ Hægt er að sjá hvaða mælieining er notuð í reitnum tímalengd með því 
 
 Ef mælieiningin er til dæmis klukkustund, er númerinu 5 breytt í 5 klukkustundir.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/explore-modify-info-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  

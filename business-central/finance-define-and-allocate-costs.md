@@ -137,8 +137,6 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] notar sölutölur fyrri ára til að reikna hlut 1596.50 SGM með 100 prósentum fyrir pakka IT EQUIPMENT. Þetta merkir að öllum seldum vörum síðasta árs verður úthlutað á kostnaðarhlutinn IT EQUIPMENT.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/allocate-costs-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
  [Uppsetning kostnaðarbókhalds](finance-set-up-cost-accounting.md)  

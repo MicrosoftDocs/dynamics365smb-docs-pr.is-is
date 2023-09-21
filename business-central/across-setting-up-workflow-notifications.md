@@ -49,8 +49,6 @@ Hægt er að setja upp mismunandi verkflæðistilkynningar á viðkomandi stöð
 
   Fyrir samþykktarverkflæði skal bæta við svarskrefi verkflæðis til að tilkynna sendanda þegar beiðni hefur verið samþykkt eða henni hafnað. Frekari upplýsingar er að finna í skrefi 9 í hlutanum [Stofna verkflæði](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
-
 ## Sjá einnig .
 
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  

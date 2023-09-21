@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-production-order-posting"></a>Hönnunarupplýsingar: staða framleiðslupöntunar
+# Hönnunarupplýsingar: staða framleiðslupöntunar
 Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md). Hins vegar er kostnaðarrennsli fyrir samsetningarpantanir síður flókið, sérstaklega vegna þess að bókun samsetningarkostnaðar á sér aðeins stað einu sinni og myndar því ekki birgðir með verkum í vinnslu.
 
 
@@ -46,7 +46,7 @@ Gildi aukningar og minnkunar eru skráð í mismunandi gerðum framleiddra birg�
 
 Þótt virði færslna sem eru tengdar keyptum vörum séu bókuð aðeins sem birgðahöfuðbókarfærslur með tengdum virðisfærslum eru færslur sem eru tengdar framleiddum vörum bókaðar sem afkastahöfuðbókarfærslur með tengdum virðisfærslum, með birgðarhöfuðbókarfærslunum.  
 
-## <a name="posting-structure"></a>Bókunaruppbygging
+## Bókunaruppbygging  
 Bókun framleiðslupantana í VÍV-birgðir samanstendur af frálagi, notkun og afkastaveitu.  
 
 Eftirfarandi skýringarmynd sýnir bókunarvenjur í kóðaeiningu 22.  
@@ -69,12 +69,12 @@ Virðisfærsla sem lýsir VÍV-birgðavirði er hægt að tengaj við eina af ef
 
 Upplýsingar um hvernig kostnaður frá samsetningu og framleiðslu eru bókaðar í fjárhag, sjá [Hönnunarupplýsingar: birgðabókun](design-details-inventory-posting.md).  
 
-## <a name="capacity-posting"></a>Afkastagetubókun
+## Afkastagetubókun  
 Bókun frálags úr leiðarlínu síðustu framleiðslupöntunar skilar afkastahöfuðbókarfærslu fyrir lokavöru, auk birgðaaukningar.  
 
  Afkastahöfuðbókfærsla er skrá yfir þann tíma sem var varið til að framleiða vöruna. Tengda virðisfærslan lýsir hækkun á VÍV-virði birgða, sem er virði umbreytingakostnaðar. Frekari upplýsingar, sjá „Frá afkastahöfuðbók í [Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)  
 
-## <a name="production-order-costing"></a>Kostnaður framleiðslupöntunar
+## Kostnaður framleiðslupöntunar  
  Til að stjórna birgða -og framleiðslukostnaði, framleiðsla fyrirtæki verða að meta kostnað við að framleiðslupantanir, vegna þess að fyrirfram ákveðna staðlaða kostnaður við hvert framleitt hlut er eignfærður í efnahagsreikningi. Upplýsingar um hvers vegna framleiddar vörur notar staðalaðferð kostnaðarútreiknings eru í [Hönnunarupplýsingar: Kostnaðaraðferðir](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -98,7 +98,7 @@ Raunkostnaður er bókaður á framleiðslupöntunina og borinn saman við stað
     >  Þetta er frábrugðið færslum samsetningarpöntunar, þar sem raunkostnaður er alltaf bókaður. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md).  
 2.  Þegar framleiðslupöntun er stillt á **fullunninn** er hún reikningsfærð með því að keyra runuvinnsluna **Leiðr. kostnað-Birgðafærslur**. Niðurstaðan er sú að heildarkostnaður pöntunar er reiknaður samkvæmt stöðluðum kostnaði notaðra efna og afkasta. Frávik frá reiknuðum staðalkostnaði og raunverulegum framleiðslukostnaði eru reiknuð og bókuð.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md) [Fjármál](finance.md)  

@@ -37,6 +37,14 @@ Eftir að verkraðir eru settar upp og í keyrslu getur staðan breyst eins og f
 
 Eftir að verki lýkur er það fjarlægt af lista yfir verkraðarfærslur nema það sé endurtekið verk. Fyrir endurteknar vinnslur  **er reiturinn fyrsti Upphafstími**  leiðréttur til að sýna næst þegar vinnslan verður keyrð.  
 
+## Fyrsti Upphafsdagur
+
+Gildið í  **reitnum fyrsta upphafsdagsetning/tími**  á  **spjaldinu færsluspjald**  birtist næst þegar vinnslan verður keyrð. Það eru nokkrir þættir sem geta haft áhrif á hvort verkraðarafærsla keyrir í raun á þeim tíma.
+
+Algengustu þættirnir eru fjöldi verkraðarafærslna í umhverfi og heildarfjölda áætlaaðra verkhluta. Til að verja afkastastig eru rekstrarmörk. Ef þú ert með mikið af færslum í biðröðinni og t.d. annað þeirra bregst eða færslurnar taka bara lengri tíma en búist var við, gæti næsta vinnsla ekki hafist í væntanlegu skipti. Ef þú ert með kótaeiningarnar sem myndar 100.000 eða fleiri áætluð verk, ættirðu að rannsaka hvort þú þurfir í raun öll þau verkefni. Hægt er að opna lista yfir öll áætluð verk á  **síðunni áætluð verk** .
+
+Frekari upplýsingar um stöðu vinnsluraðarafærslna er  [að fá með því að skoða stöðu fyrir hvaða starf](#to-view-status-for-any-job) sem er. Til að fræðast meira um rekstrarmörk er farið í  [ósamstillt verkefnamörk](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
+
 ## Fylgjast með stöðu eða villum í verkröð
 
 Gögn sem vinnslubiðröðin myndar er geymd þannig að hægt sé að leita að villum.  

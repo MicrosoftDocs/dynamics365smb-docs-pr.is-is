@@ -32,8 +32,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 > [!TIP]
 > Nota skal bankaafstemmingu til að staðfesta að bækurnar séu uppfærðar og ekki bóka afstemmingu fyrr en tryggt er að afstemmingin sé í lagi.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
-
 ## Sjá einnig
 
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  

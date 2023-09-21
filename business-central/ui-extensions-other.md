@@ -16,8 +16,6 @@ ms.author: bholtorf
 
 Listi yfir viðbætur frá öðrum fyrirtækjum lengist í hverjum mánuði. Fylgstu því með á [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) og fáðu forrit sem aðstoða þig í vinnunni í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/customize-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  

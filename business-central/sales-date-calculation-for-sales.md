@@ -36,8 +36,6 @@ Ef ekki er tilgreind umbeðin afgreiðsludagsetning á sölupöntunarlínunni, e
 - *Afhendingardagsetning + afgr.tími vara á útl. úr vöruh. = Áætluð afhendingardagsetning*
 - *áætluð afhendingardagsetning + flutningstími = áætluð afgreiðsludagsetning*
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
-
 ## Sjá einnig .
 
 [Dagsetning útreiknings fyrir kaup](purchasing-date-calculation-for-purchases.md)  

@@ -18,7 +18,7 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 
 Þegar birgðir hafa verið settar upp er hægt að stjórna ýmsum birgðaferlum. Sjá  [Manage birgða](inventory-manage-inventory.md)  -og  [vöruhúsastjórnun fyrir frekari upplýsingar](design-details-warehouse-management.md).
 
-| Til að | Sjá |
+| Til | Sjá |
 | --- | --- |
 | Skilgreina almennar birgðaupplýsingar svo sem númeraraðir og hvernig á að nota birgðageymslur. |[Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md) |
 |Grunnstilla skilvirkt dreifingarlíkan með mismunandi birgðageymslur og ábyrgðarstöðvum sem hefur verið úthlutað til viðskiptafélaga eða starfsmanna.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
@@ -32,15 +32,13 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 |Flytja inn margar myndir úr einni zip-skrá þar sem skrár hafa heiti í samræmi við vörunúmer.|[Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/trade-get-started-dynamics-365-business-central/)
-
 ## Sjá einnig
 
 [Stjórnun birgða](inventory-manage-inventory.md)  
 [Stjórnun innkaupa](purchasing-manage-purchasing.md)  
 [Stjórna sölu](sales-manage-sales.md)    
-[Yfirlit yfir](design-details-warehouse-management.md)
-[vöruhúsastjórnun vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 

@@ -22,8 +22,6 @@ ms.author: bholtorf
 2. Opnið verkflæði sem á að virkja.  
 3. Á síðunni **Verkflæði** skaltu kveikja á víxlhnappinum **Virkjað**.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
-
 ## Sjá einnig .
 
 [Stofna verkflæði samþykktar](across-how-to-create-workflows.md)  

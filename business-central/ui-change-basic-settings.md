@@ -107,8 +107,6 @@ Veljið *Breyta þegar ég fæ tilkynningar* til að skoða eða breyta tilkynni
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

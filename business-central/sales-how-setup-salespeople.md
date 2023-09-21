@@ -25,8 +25,6 @@ ms.author: bholtorf
 
 Hægt er að nota sölumenn í mismunandi tengslastjórnun og markaðsvinnu. Þú getur til dæmis úthlutað verki til sölufólks, þannig að verkið sé hluti af sölutækifæri sem sölumanninum hefur verið úthlutað. Nánari upplýsingar, sjá [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  

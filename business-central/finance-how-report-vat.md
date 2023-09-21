@@ -148,8 +148,6 @@ Eftirfarandi tafla lýsir kóðaeiningunum sem þú þarft að stofna fyrir ský
 > [!Note]
 > Þegar stofnaðar eru kóðaeiningar fyrir skýrsluna skal veita athygli gildinu í reitnum **VSK skýrsla útgáfa**. Þessi reitur verður að endurspegla útgáfuna af skýrslunni sem er eða var send til skattayfirvalda. Þú gætir til dæmis fært inn **2021** í reitinn til að gefa til kynna að skýrslan samræmist þeim kröfum sem voru í gildi það ár. Til að finna núgildandi útgáfu skal hafa samband við skattayfirvöld.  
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)  

@@ -52,8 +52,6 @@ Eftirfarandi ferli lýsir því hvernig á að taka við lánardrottinsreikningi
 
     Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum gögnum í [!INCLUDE[prod_short](includes/prod_short.md)], verða sýndar á flýtiflipanum **Villuboð**.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Sjá einnig
 
 [Stjórna skuldum](payables-manage-payables.md)  

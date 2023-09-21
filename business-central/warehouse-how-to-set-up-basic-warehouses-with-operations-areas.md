@@ -136,12 +136,10 @@ Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir
 > [!NOTE]  
 >  Hólfið verður að vera tómt áður en hægt er að velja eða hreinsa svæðið **Sérnýtt**.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
-
 ## Sjá einnig .
 
-[Yfirlit](design-details-warehouse-management.md)
-[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Inventory](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

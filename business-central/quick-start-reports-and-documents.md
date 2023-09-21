@@ -64,8 +64,6 @@ Með [!INCLUDE[prod_short](includes/prod_short.md)] fylgja mörg innbyggð útli
 
 Frekari upplýsingar um hvernig á að sérsníða skýrslur og skjöl að þörfum fyrirtækisins er að finna í [Útlit skýrslna og skjala](ui-manage-report-layouts.md).
 
-## Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/work-with-reports/).
-
 ## Sjá einnig .
 
 [Nota skýrslur í daglegu starfi](reports-use-reports.md)  

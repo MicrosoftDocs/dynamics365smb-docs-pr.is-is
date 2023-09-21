@@ -454,8 +454,6 @@ Eftirfarandi ferli sýnir hvernig eigi að stofna nýtt verk, stilla verðlagnin
 
  Í kynningunni var farið yfir grunnskrefin í að vinna með verk í [!INCLUDE[prod_short](includes/prod_short.md)]. Aflað hefur verið þekkingar um hvernig á að stofna nýtt verk, hvernig afrita á verk og hvernig á að meðhöndla greiðslur. Einnig hefur gefist færi á að skoða sýning á því hvernig fylgst er með vinnustundum og reikninga stofnaðir.  
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/create-jobs/)
-
 ## Sjá einnig .
 
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  

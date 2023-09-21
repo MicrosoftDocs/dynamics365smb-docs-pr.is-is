@@ -100,8 +100,6 @@ Hægt er að spara tíma með því að setja upp verkraðarfærslu sem gefur sj
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkraðarfærslur** og velja síðan viðkomandi tengil.
 4. Settu upp til dæmis verkraðarfærsluna **Uppf. fyrirfgr.sölu í bið** með því að nota stillingarnar í flýtiflipanum **Endurtekning** til að tímasetja hversu oft á að keyra hana. Frekari upplýsingar er að finna í [Nota verkraðir til að tímasetja verk](admin-job-queues-schedule-tasks.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/prepayment-invoices-dynamics-365-business-central/)
-
 ## Sjá einnig .  
 
 [Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)  

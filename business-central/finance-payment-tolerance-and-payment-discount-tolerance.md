@@ -275,8 +275,6 @@ Venjulegar jöfnunarreglur
 
 (2) Ef greiðslan lendir á þessu bili er ekki hægt að loka öllum jöfnunarfærslum þó þær séu með vikmörkum.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/enter-payments-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Fjármál](finance.md)  

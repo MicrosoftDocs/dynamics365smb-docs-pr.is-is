@@ -242,8 +242,6 @@ Hægt er að tilgreina skýrslurnar sem þarf að prenta á mismunandi stigum me
 > [!NOTE]
 > Tiltækar skýrslur geta verið breytilegar eftir staðfærslu fyrir land/svæði notanda. Grunnforritið inniheldur ekkert útlit.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/adjust-inventory/)
-
 ## Sjá einnig .
 
 [Talning, breytingar og endurflokkun birgða með færslubókum](inventory-how-count-adjust-reclassify.md)  

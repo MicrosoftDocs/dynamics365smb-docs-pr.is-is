@@ -3,7 +3,7 @@ title: Sameina vörur
 description: Læri um saman-til-röð og setja saman verkferla í viðskiptum miðsvæðis.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -11,13 +11,13 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="assemble-items"></a>Sameina vörur
+# Sameina vörur
 
  **Ef reiturinn Áfyllingarkerfi**  á birgðaspjaldinu inniheldur  **samsetningu** er sjálfgefna aðferðin við að útvega vöruna að setja hana saman samkvæmt samsetningaruppskrift og hugsanlega með tilteknum forða. Frekari upplýsingar í  [vinnu með uppskriftum samsetningar](assembly-how-work-assembly-boms.md). Frekari upplýsingar um uppsetningu samsetningarvöru í  [skilningi setja saman við pöntun og setja saman við birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 Hægt er að setja upp samsetningarvörur fyrir tvö samsetningarferli.
 
-|Ferli  |Description  |
+|Ferli  |Heimildasamstæða  |
 |---------|---------|
 |Setja saman á lager     | Hlutir sem þú hefur safnað saman og lager fyrir síðari sölu. T.d. pökkum fyrir komandi söluherferð. Vörurnar eru ekki tengdar sölupöntun, a.m.k. ekki enn sem komið er. Yfirleitt eru þessi atriði ekki sérsniðin að beiðnum viðskiptavina.        |
 |Setja saman til að panta     | Vörur sem þú vilt ekki eiga á lager. Til dæmis, þar sem þeir eru sérsniðnir eftir pöntunum viðskiptavina eða til að minnka kostnað á lagerbirgðum. |
@@ -27,14 +27,14 @@ Hægt er að setja upp samsetningarvörur fyrir tvö samsetningarferli.
 > [!NOTE]  
 > Samsetningaríhlutir eru meðhöndlaðir á sérstakan hátt í grunnskilgreiningum vöruhúss. Frekari upplýsingar á  [afgreiðslunum setja saman við vörur með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>Vara sett saman til Hlutabréfakaup
+## Vara sett saman til Hlutabréfakaup
 
 Fylgið leiðbeiningum í þessu ferli til að setja vöru á lager. Til að fræðast um að setja saman til að panta er farið í að  [selja vörur saman til að panta](assembly-how-to-sell-items-assembled-to-order.md).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Samsetningarpantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð. Síðan **Ný samsetningarpöntun** opnast.  
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Í reitnum  **Vörunr.**  skal velja þá vöru sem setja á saman. Hægt er að velja vörur sem settar eru upp fyrir samsetningu og hafa samsetningaruppskrift, eða vörur án samsetningaruppskriftar. Hið síðara er gagnlegt fyrir óáætlaðar samsetningar eða aðstæður þegar nota á endurflokkun og rekja kostnað.  
+4. Í reitnum  **Vörunr.** skal velja þá vöru sem setja á saman. Hægt er að velja vörur sem settar eru upp fyrir samsetningu og hafa samsetningaruppskrift, eða vörur án samsetningaruppskriftar. Hið síðara er gagnlegt fyrir óáætlaðar samsetningar eða aðstæður þegar nota á endurflokkun og rekja kostnað.  
 5. Í reitnum **Magn** er fært inn hversu margar einingar vörunnar setja á saman.  
 
     > [!NOTE]  
@@ -61,14 +61,12 @@ Fylgið leiðbeiningum í þessu ferli til að setja vöru á lager. Til að fr�
 
 Eftir að bókun tekst, er samsetningarvaran bókuð sem frálag birgðageymslukótans og hugsanlegs hólfakóta sem eru skilgreindir í samsetningarpöntuninni. Fyrir samsetningarpantanir sem voru stofnaðar handvirkt er hægt að afrita staðsetninguna úr uppsetningarreitnum **Sjálfgefin staðsetning fyrir pantanir**. Fyrir sameiningarpöntunarflæði, er hægt að afrita kóta birgðageymslu úr sölupöntunarlínunni.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Yfirlit yfir](design-details-warehouse-management.md)
-[vöruhúsastjórnun vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

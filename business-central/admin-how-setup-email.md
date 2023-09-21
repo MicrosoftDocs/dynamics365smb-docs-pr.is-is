@@ -2,14 +2,12 @@
 title: Setja upp tölvupóst í Business Central (inniheldur myndskeið)
 description: Lýsir því hvernig á að tengja tölvupóstsreikninga við Business Central til að hægt sé að senda skilaboð á útleið án þess að opna annað forrit.
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # Setja upp tölvupóst
@@ -56,9 +54,11 @@ Eftirfarandi tafla lýsir þeim tölvupóstsviðbótum sem eru sjálfgefið í b
 Ef nota á SMTP-samskiptaregluna til að senda tölvupósta úr [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að nota viðbót SMTP-tengils. Þegar settur er upp lykill sem notar SMTP  **er reiturinn Tegund**  sendanda mikilvægur. Ef valinn  **er sérstakur notandi** verður tölvupóstur sendur með nafni og öðrum upplýsingum af reikningnum sem verið er að setja upp. Ef valið  **er notandi** verður tölvupóstur hins vegar sendur úr tölvupóstreikningnum sem tilgreindur er fyrir reikning hvers notanda. „Núverandi notandi“ svipar til eiginleikans „Senda sem“. Frekari upplýsingar er að finna í [Nota staðgengilsnetfang sendanda fyrir tölvupóstskeyti á útleið](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Ef þið eruð að nota  [!INCLUDE[prod_short](includes/prod_short.md)]  innanhúss er hægt að nota OAuth 2,0 samskiptareglur til auðkenningar. Búa þarf til forritsskráningu í Azure-gáttinni og síðan keyra uppsetningarleiðbeininguna **Setja upp Azure Active Directory** í [!INCLUDE[prod_short](includes/prod_short.md)] til að tengjast við Azure AD. Frekari upplýsingar er að finna í [Búa til forritsskráningu fyrir Business Central í Azure-gátt](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Ef þið eruð að nota  [!INCLUDE[prod_short](includes/prod_short.md)]  innanhúss er hægt að nota OAuth 2,0 samskiptareglur til auðkenningar. Ef nota á OAuth fyrir SMTP þurfa allir notendur að vera á sama  Microsoft Entra  leigjanda. 
+> 
+> Búa þarf til forritsskráningu í Azure-gáttinni og síðan keyra uppsetningarleiðbeininguna **Setja upp Azure Active Directory** í [!INCLUDE[prod_short](includes/prod_short.md)] til að tengjast við Azure AD. Frekari upplýsingar er að finna í [Búa til forritsskráningu fyrir Business Central í Azure-gátt](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online er sviptingu nota grunnsannvottun fyrir SMPT. Leigjendur sem eru nú með SMTP AUTH munu ekki hafa áhrif á þessa breytingu. Hins vegar mælum við eindregið með nýjustu útgáfunni af og Uppsetning á  [!INCLUDE [prod_short](includes/prod_short.md)]  OAuth 2,0 sannvottun fyrir SMTP. Við bætum vottunargrundvelli ekki við eldri útgáfur  [!INCLUDE [prod_short](includes/prod_short.md)], t.d. útgáfu 14. Ef þú getur ekki sett upp OAuth 2,0 auðkenningu, hvetjum við þig til að kanna val þriðja aðila ef þú vilt nota SMTP email í eldri útgáfum.
+> Exchange Online er sviptingu nota grunnsannvottun fyrir SMTP. Leigjendur sem eru nú með SMTP AUTH munu ekki hafa áhrif á þessa breytingu. Hins vegar mælum við eindregið með nýjustu útgáfunni af og Uppsetning á  [!INCLUDE [prod_short](includes/prod_short.md)]  OAuth 2,0 sannvottun fyrir SMTP. Við bætum vottunargrundvelli ekki við eldri útgáfur  [!INCLUDE [prod_short](includes/prod_short.md)], t.d. útgáfu 14. Ef þú getur ekki sett upp OAuth 2,0 auðkenningu, hvetjum við þig til að kanna val þriðja aðila ef þú vilt nota SMTP email í eldri útgáfum.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -273,8 +273,6 @@ Eftir að þú hefur skráð þína umsókn í Azure Portal, inn  [!INCLUDE[prod
 18. The **Verify Registration** button becomes available. 
 
 -->
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/set-up-email/)
 
 ## Sjá einnig
 

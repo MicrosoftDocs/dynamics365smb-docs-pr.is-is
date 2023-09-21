@@ -70,12 +70,10 @@ Til að vinna með síðuna **Hólfastofnunarvinnublaði** þarftu að vera sett
 
 Þetta ferli er endurtekið fyrir annan hóp hólfa þar til öll hólf í vöruhúsinu hafa verið stofnuð.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-new-bins/)
-
 ## Sjá einnig .
 
-[Yfirlit](design-details-warehouse-management.md)
-[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Inventory](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

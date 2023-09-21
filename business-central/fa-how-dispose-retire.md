@@ -45,8 +45,6 @@ Ef hluti eignar er seldur eða afskráður verður að skipta eigninni upp í hl
 
 Síðan **Fjárhagsfærslur** opnast og sýnir færslurnar sem afskráningarfærslan hefur myndað.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/dispose-fixed-assets/)
-
 ## Sjá einnig .
 
 [Eignir](fa-manage.md)  

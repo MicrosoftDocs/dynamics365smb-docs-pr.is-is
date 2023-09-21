@@ -3,17 +3,17 @@ title: Hjáskipa vörur
 description: Lærðu að taka á móti og senda vörur án þess að setja þær í geymslu.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/08/2023
 ms.custom: bap-template
 ms.search.form: '15, 5703, 7302, 7332, 5768'
 ---
-# <a name="cross-dock-items"></a>Hjáskipa vörur
+# Hjáskipa vörur
 
 Hjáskipunarvörur eru vörur sem þú færð án þess að leggja þær frá þér. Frágangs-og tínsluferlar krefjast takmarkaðrar meðhöndlunar á vörum. Hægt er að hjáskipunarvörur fyrir sendingar og framleiðslupantanir.
 
-## <a name="cross-dock-bins-and-zones"></a>Hjáskipunarhólf og svæði
+## Hjáskipunarhólf og svæði
 
 Ef hólf eru notuð skal setja upp að minnsta kosti eitt hjáskipunarhólf og tilgreina hólfið í  **reitnum Hjáskipunarhólfkóti**  á birgðageymslum. Setja skal upp hjáskipunarsvæði ef notaður er beinn frágangur og tínsla.
 
@@ -21,13 +21,13 @@ Ef hólf eru notuð skal setja upp að minnsta kosti eitt hjáskipunarhólf og t
 
 Ef magn magns af hjáskipunarlínum hefur verið reiknað út eru frágangslínur í hjáskipunarhólfi stofnaðar þegar móttakan er bókuð. Aðrar frágangslínur eru stofnaðar eins og venjulega.  
 
-## <a name="cross-dock-select-lines-for-a-receipt"></a>Hjáskipunarlínur fyrir kvittun
+## Hjáskipunarlínur fyrir kvittun
 
 Ef bóka skal hjáskipunarvörurnar strax þannig að þær séu tiltækar í tínslu þarf einnig að skrá frágang á hinum vörunum úr móttökulínunum, þ.e. þeim sem þarf að geyma. Ef aðeins sumum vörur á móttökulínu er hjáskipað þarf því að gæta að því að gengið sé frá öðrum vörum eins fljótt og hægt er. Einnig gæti það verið stefna vöruhússins að heilum móttökulínum sé hjáskipað þegar það er hægt.
 
 Í frágangsleiðbeiningunum skal eyða taka og setja inn leiðbeiningalínur fyrir hverja móttökulínu fyrir vörurnar sem á að ganga frá. Hægt er að endurgera leiðbeiningalínur síðar sem frágangslínur frá vinnublaði frágangs eða bókuðu móttökunni. Þegar búið er að eyða leiðbeiningalínunum er hægt að ganga frá og skrá línurnar fyrir hjáskipunarvörur.  
 
-## <a name="about-the-put-away-worksheet-page"></a>Um vinnublað frágangs
+## Um vinnublað frágangs
 
 Ef kveikt er á  **vinnublaði**  notkunar frágangs á  **birgðageymsluspjaldinu**  og Móttaka með útreiknaðri hjáskipunarsíðu verður tiltæk verða allar móttökulínur tiltækar á vinnublaðinu. Upplýsingar um hjáhöfnina tapast og þær má ekki afþakka. Þess vegna ætti að nota hjáskipunaraðgerðir til að setja línur á frágangsvinnublaðið með því að eyða frágangsfyrirmælum frekar en að nota sjálfvirka Relay-aðgerðina sem lögð er til í  **reitnum nota frágangssniðmát** .  
 
@@ -39,7 +39,7 @@ Ef vöruhúsamóttakan er bókuð og  **slökkt er á Skiptiblaði fyrir notkun 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] heldur ekki aðskildum færslum fyrir hjáskipunarvörur. Hann skráir þá sem venjulegan frágang frágangsfyrirmæla.  
 
-## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Vöruhúsið sett upp fyrir hjáskipun
+## Vöruhúsið sett upp fyrir hjáskipun  
 
 1. Ef hólf eru notuð skal setja upp að minnsta kosti eitt hjáskipunarhólf. Setja skal upp hjáskipunarsvæði ef notaður er beinn frágangur og tínsla.  
 
@@ -61,7 +61,7 @@ Ef vöruhúsamóttakan er bókuð og  **slökkt er á Skiptiblaði fyrir notkun 
 > [!NOTE]  
 >  Hjáskipun er eingöngu möguleg ef birgðageymslan er sett þannig upp að hún krefjist vöruhúsamóttöku- og frágangsvinnslu.  
 
-## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Vörum hjáskipað án þess að skoða tækifærin:
+## Vörum hjáskipað án þess að skoða tækifærin:  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsamóttökur** og velja síðan viðkomandi tengil.  
 2. Vöruhúsamóttaka er stofnuð fyrir vöru sem er komin og hægt er að hjáskipa. Til að fræðast meira um móttöku er farið í að taka á  [móti vörum](warehouse-how-receive-items.md).  
@@ -79,7 +79,7 @@ Ef vöruhúsamóttakan er bókuð og  **slökkt er á Skiptiblaði fyrir notkun 
 6. Frágangsleiðbeiningarnar með línunum sem eftir eru eru prentaðar út og móttökumagnið sem þarf að geyma sett í viðeigandi hólf eða svæði í vöruhúsinu. Hjáskipunarvaran er sett á svæðið eða í hólfið sem tilgreint er í vöruhúsareglum. Stundum segja vöruhúsareglur til um að það eigi að skilja þær eftir á móttökusvæðinu.  
 7. Til að skrá það að hjáskipunarvörurnar séu frágengnar og tiltækar til tínslu, skal velja **Skráning** aðgerðina.  
 
-## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Vörur hjáskipaðar eftir að tækifæri hafa verið skoðuð:
+## Vörur hjáskipaðar eftir að tækifæri hafa verið skoðuð:  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsamóttökur** og velja síðan viðkomandi tengil.  
 2. Vöruhúsamóttaka er stofnuð fyrir vöru sem er komin og hægt er að hjáskipa.  
@@ -99,7 +99,7 @@ Ef vöruhúsamóttakan er bókuð og  **slökkt er á Skiptiblaði fyrir notkun 
     > [!NOTE]  
     > Í vöruhúsafrágangi er hægt að halda áfram að breyta magninu sem gengið er frá í geymslu eða hjáskipað eftir þörfum. Til dæmis er hægt að hjáskipa viðbótarmagni til að flýta hjáskipunarskráningunni.  
 
-## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>Hjáskipunarvörur skoðaðar í afhendingum eða tínsluvinnublaði
+## Hjáskipunarvörur skoðaðar í afhendingum eða tínsluvinnublaði  
 
 Ef hólf eru notuð þegar sending er opnuð eða tínslublað er magn hverrar vöru í uppfærslum á hjáskipunarhólfum. Þegar varan er tiltæk í hjáskipunarhólfinu er hægt að stofna tínslu fyrir vörurnar í afhendingunni. Á tínsluvinnublaðinu er hægt að breyta línunum eftir þörfum.  
 
@@ -107,7 +107,7 @@ Ef hólf eru notuð þegar sending er opnuð eða tínslublað er magn hverrar v
 
 Ef hólf eru ekki notuð þarf að muna að leita að hjáskipunarsvæðinu frá tíma til þess eða treysta á að tilkynningar frá innhreyfingar að vörum í framleiðslu séu komnar.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     

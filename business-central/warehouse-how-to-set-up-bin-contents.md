@@ -49,12 +49,10 @@ Ef gátmerki er sett inn í reitinn **Fast** er varan fest við hólfið sem þ�
 
 Á þessu vinnublaði er hægt að vinna með nokkrar hólfainnihaldslínur fyrir nokkur hólf og fá þannig gott yfirlit yfir hvað er sett í hin ýmsu hólf á tilteknu svæði, gangi eða rekka.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/set-up-zones-bins/)
-
 ## Sjá einnig .
 
-[Yfirlit](design-details-warehouse-management.md)
-[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Inventory](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

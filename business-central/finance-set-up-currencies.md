@@ -111,8 +111,6 @@ Hægt er að færa gjaldmiðilskóta inn í færslubókarlínu og bóka línuna 
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Uppfæra gengi](finance-how-update-currencies.md)  
