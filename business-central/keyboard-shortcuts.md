@@ -11,7 +11,7 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# Flýtivísanir
+# <a name="keyboard-shortcuts"></a>Flýtivísanir
 
 Þessi grein inniheldur yfirlit yfir nokkrar af samsetningum flýtilykla sem þú getur notað þegar þú ert að vinna með [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -21,7 +21,7 @@ Yfirlit yfir algengustu flýtilykla á lyklaborði er að finna í [Flýtilyklar
 > Til að fá yfirlit yfir mest notuðu flýtileiðirnar skaltu velja eftirfarandi mynd og sækja PDF-skjalið.  
 > [ ![Tákn fyrir PDF-skrána.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Tákn sem opnar PDF")
 
-## Yfirlit
+## <a name="overview"></a>Yfirlit
 
 Flýtivísanir aðstoða við aðgengi og geta auðveldað flettingar og gert þær skilvirkari yfir á önnur svæði og aðrar einingar á síðu. Flestir vafrar geta hins vegar haft mismunandi hegðun í gangi.
 
@@ -33,7 +33,7 @@ Flestar flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða
 > [!NOTE]
 > Auk altækra flýtilykla sem lýst er í þessari grein er hægt að nálgast fjölda sértækra flýtilykla. Til dæmis í hinni almennu útgáfu af  [!INCLUDE[prod_short](includes/prod_short.md)],  <kbd>F9</kbd>  bókar skjal og  <kbd>CTRL</kbd>+<kbd>F7</kbd>  sýnir færslurnar fyrir færslu þegar færslan er opnuð í spjaldi. Í þessari grein eru nokkrar af algengari viðskiptatengdum flýtileiðum sem sýndar eru með skáletri. Hafðu í huga að raunverulegar flýtileiðir geta verið öðruvísi í lausninni þinni. Í notandaviðmótinu er flýtilykillinn sýndur í ábendingunni fyrir viðkomandi aðgerð.
 
-##  <a name="Keyboard"></a> Almennir flýtilyklar
+## <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a>Almennir flýtilyklar
 
 Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi einingar á síðu. Einingar eru hluti eins og aðgerðir, fellilistar, leit og fleira. Nánari upplýsingar um flýtilykla fyrir siglingafærslur þegar þú ert inni á lista er að finna í næsta kafla.
 
@@ -67,14 +67,14 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 |<kbd>Flipinn vakt</kbd>+<kbd></kbd>|Færa brennidepil yfir á fyrri stjórnun eða einingu á síðu, svo sem aðgerðir, hnappa, reiti eða listahausa.|
 |<kbd>Y</kbd>  og  <kbd>N</kbd>| **Virkja Já**  -og  **Nei**  -hnappana í svargluggum. Raunlyklar eru breytilegir eftir því hvaða tungumál er tilgreint í **Mínar stillingar**. Til dæmis, Veldu  <kbd>J</kbd>  til að virkja  **ja**  -hnappinn þegar þú notar þýska tungumálið.|
 
-## Flýtilyklar í listum
+## <a name="keyboard-shortcuts-in-lists"></a>Flýtilyklar í listum
 
 Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Aðgerð flýtileiðar er svolítið öðruvísi eftir því hvort síðan sést á listayfirlitinu eða reitayfirlitinu.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
-### Almennt
+### <a name="general"></a>Almennt
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta í listayfirliti|Til að gera þetta í reitayfirliti |
 |--------------------------------|-------------------------|--------------------------|
@@ -90,7 +90,7 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>F</kbd>|Senda tillögur að línum á  **Sjóðstreymissvinnublaði** .|Á ekki við.|
 |<kbd>Shift</kbd>+<kbd>CTRL</kbd>+<kbd>I</kbd>|Skoða rað- og lotunúmer sem úthlutað er á línuatriði í skjalinu eða færslubókinni.|Á ekki við.|
 
-### <a name="navigateshortcuts"></a> Fara á milli raða og dálka
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Fara á milli raða og dálka
 
 Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!INCLUDE[prod_short](includes/prod_short.md)], svo sem listasíður og **Línur** sem hlutar skjala. Flutningur frá einu hólfi til annars yfir hnitanet er að fullu virkt fyrir lyklaborð.
 
@@ -111,7 +111,7 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 | <kbd>Flipanum</kbd> | Í breytanlegum lista, farðu í sömu röð til næsta reit til hægri. | Á ekki við. | 
 | <kbd>Flipinn vakt</kbd>+<kbd></kbd> | Í breytanlegum lista, farðu í sömu röð í fyrri reit til vinstri. | Á ekki við. |
 
-### <a name="CopyRows"></a> Velja, afrita og líma
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Velja, afrita og líma
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 |<kbd>Vaktsíða</kbd>+<kbd>niður</kbd><br /><br />(<kbd>Shift</kbd>+<kbd>FN</kbd>+<kbd>niður ör</kbd>)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir neðan núverandi val af línum.|Á ekki við.|
 |<kbd>F8</kbd>|Afritaðu reitinn í sama dálk raðarinnar hér fyrir ofan og límdu það inn í núverandi röð. Þú getur aðeins gert þetta í breytanlegum listum. Ef þessari flýtivísun er fylgt með  <kbd>flipa</kbd>  er hægt að fylla út reiti í línuatriðum sem á að hafa sama gildi og línan hér að ofan.|Á ekki við.|
 
-### <a name="KeyboardFilter"></a> Leitar-og síulistar
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Leitar-og síulistar
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
@@ -141,7 +141,7 @@ Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!IN
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Endurstilla afmarkanir. Þetta gerir það sama og að velja **Endurstilla síur** í síusvæðið, og það gildir um reit og síur samtalna.<br /><br /> Síur fara aftur í sjálfgefna síurnar fyrir núverandi yfirlit. Ef núverandi yfirlit er **Allt**, þá jafngildir þetta því að fara aftur í ósíað yfirlit með allar færslur. |
 |<kbd>CTRL</kbd>+<kbd>Enter</kbd>|Færðu áherslu frá afmörkunarsvæðinu og yfir á listann.|
 
-## Flýtilyklar í spjöldum og skjölum
+## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Flýtilyklar í spjöldum og skjölum
 
 Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptamannaspjald** og skjalasíðum, svo sem **Sölupöntun**, til að birta og breyta færslum.
 
@@ -170,7 +170,7 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 |<kbd>Shift</kbd>+<kbd>F9</kbd>|Bóka og prenta skjal.|
 |<kbd>Vakt</kbd>+<kbd>F11</kbd>|Jafna færslur, sækja upprunaskjöl eða sækja vöruhúsaskjöl.|
 
-## <a name="QuickEntry"></a> Flýtivísanir flýtifærslu fyrir svæði
+## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Flýtivísanir flýtifærslu fyrir svæði
 
 Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, skjölum og listasíðum. Á listum er ekki hægt að nota flýtivísana þegar Listinn er í flísinni skoðaður. Nánari upplýsingar um flýtifærslu er að finna í [Hröðun gagnaskráningu með flýtifærslu](ui-enter-data.md#QuickEntry).
 
@@ -180,7 +180,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>Vakta</kbd>+<kbd>Enter</kbd>|Staðfestu gildið í núverandi reit og farðu í fyrri reit flýtifærslu.||
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Staðfestu gildið í núverandi dálki og farðu í næsta reit flýtifærslu út fyrir listann.<br /><br />Þessi flýtileið gildir um innbyggða lista á síðu, svo sem vörulínur í sölupöntun. Það gerir þér kleift að komast fljótt út úr listanum og halda áfram að slá inn gögn í öðrum reitum á síðunni.|
 
-## <a name="calendarshortcuts"></a> Flýtilyklar í dagatali (dagsetning tiltekt)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a>Flýtilyklar í dagatali (dagsetning tiltekt)
 
 Þegar þú setur dagsetningarreit getur þú annaðhvort slegið inn dagsetninguna handvirkt eða opnað dagatal (dagsetningarval) sem leyfir þér að velja þann dag sem þú vilt. Eftirfarandi tafla lýsir flýtivísunum fyrir dagatalið.
 
@@ -198,14 +198,14 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>Síða niður</kbd>|Fara í næsta mánuð.|
 |<kbd>Síða upp</kbd>|Fara í fyrri mánuð.|  
 
-## Flýtilykla í dagsetningarsvæðum
+## <a name="keyboard-shortcuts-in-date-fields"></a>Flýtilykla í dagsetningarsvæðum
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
 |<kbd>t</kbd>|Færðu inn daginn í dag. „T“ stendur fyrir „Í dag“.|
 |<kbd>w</kbd>|Færðu inn vinnudagsetninguna. Frekari upplýsingar er að finna í [Vinnudagsetning](ui-change-basic-settings.md#work-date)|
 
-## <a name="reportpreviewshortcuts"></a> Flýtilykla í forskoðun skýrslu
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Flýtilykla í forskoðun skýrslu
 
 |Velja skal þessa lykla<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
@@ -219,7 +219,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>Síða niður</kbd><br /><br />(<kbd>FN</kbd>+<kbd>niður ör</kbd>)|Fara á næstu síðu skýrslunnar.|
 |<kbd>Síða upp</kbd><br /><br />(<kbd>FN</kbd>+<kbd>upp arrow</kbd>)|Fara á fyrri síðu skýrslunnar.|
 
-## <a name="zoomshortcuts"></a> Flýtilyklar fyrir aðdrætti inn og út
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Flýtilyklar fyrir aðdrætti inn og út
 
 |Velja skal þessa lykla|Til að gera þetta|
 |--------------------------------|----------|
@@ -227,7 +227,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |<kbd>CTRL</kbd>+<kbd>-</kbd>|Minnka aðdrátt að núverandi síðu.|  
 |<kbd>CTRL</kbd>+<kbd>0</kbd>|Auka eða minnka aðdrátt í 100% á núverandi síðu.|  
 
-## <a name="roleexplorer"></a> Flýtilykla fyrir hlutverkskönnunar
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Flýtilykla fyrir hlutverkskönnunar
 
 Hlutverkaleit veitir yfirlit og flýtiaðgang að öllum viðskiptaeiginleikum sem eru í boði fyrir hlutverkið. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)
 
@@ -239,7 +239,7 @@ Hlutverkaleit veitir yfirlit og flýtiaðgang að öllum viðskiptaeiginleikum s
 |<kbd>Shift</kbd> <kbd>F3</kbd>  eða  <kbd>CTRL</kbd>+<kbd>upp ör</kbd>|Flytjið áherslu á fyrri eiginleikann sem fannst í hlutverkaleit.|
 |<kbd>CTRL</kbd>+<kbd>Shift</kbd>|Stækkaðu eða dragðu saman alla undirhnúta ásamt hnútum á efsta stigi þegar aðgerðin **Stækka** eða **Draga saman** er valin.|
 
-##  <a name="keypad"></a> Tölutakkar flýtihnappar
+## <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a>Tölutakkar flýtihnappar
 
 Eftirfarandi tafla lýsir flýtileiðum á talnaborði.
 
@@ -248,7 +248,7 @@ Eftirfarandi tafla lýsir flýtileiðum á talnaborði.
 |<kbd>Skilrúm fyrir Alt</kbd>+<kbd>tugabrot</kbd>|Skiptu úttaki á skiltáknslykli tugabrots í annaðhvort (.) eða stafinn sem stillingin **Svæði** skilgreinir á síðunni **Mínar stillingar**. Frekari upplýsingar eru í [Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum](ui-enter-data.md#decimal).|
 
 
-## Aðgangslyklar fyrir aðgerðrein og Navigation valmynd
+## <a name="access-keys-for-action-bar-and-navigation-menu"></a>Aðgangslyklar fyrir aðgerðrein og Navigation valmynd
 
 Aðgangslyklar eru flýtivísanir í flýtilykla sem velja tilteknar aðgerðir á aðgerðrein og Navigation valmyndinni sem gerir þér kleift að vafra um aðgerðir til að komast á síðuna sem þú vilt. Aðgangslyklar eru aðgengilegir í vefbiðlara Viðskiptamiðis og svipar til aðgangslykla í Excel og Word á netinu.  
 
@@ -260,7 +260,7 @@ Til að velja aðgerð er valin lyklasamsetning sem birtist í lyklinum Ábendin
 - Ef aðgerðin opnar á undirvalmynd annarra aðgerða eru ábendingar lykla fyrir undirvalmyndina sýndar og því hægt að halda áfram að nota aðgangsstýringar ef óskað er.
 - Ef aðgerðin opnar aðra síðu er slökkt á lykilábendingum. Til að sýna þau aftur velurðu  <kbd>Alt</kbd>  -Lykill. 
  
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)  
 [Aðstoðareiginleikar](ui-accessibility.md)  

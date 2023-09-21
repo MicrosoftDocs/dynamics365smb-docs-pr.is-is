@@ -7,17 +7,17 @@ ms.service: dynamics365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
-# Kynning: Stofna nýja framleiðsluuppskrift og uppskriftarútgáfu
+# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Kynning: Stofna nýja framleiðsluuppskrift og uppskriftarútgáfu
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að vinna með uppskriftir í framleiðsluferlunum.  
 
-## Aðstæður
+## <a name="scenario"></a>Aðstæður
 
 Contoso Coffee hefur ákveðið að bæta við annarri kaffivél við vörulínuna: **SP-SCM1008 Airpot Lite**. Þessi kaffivél er eins og núverandi vara **SP-SCM1009 Airpot**, nema að hún inniheldur ekki hitaplötuna, **SP-BOM1104**. Í aðskildu skrefi er ljósrofinn **SP-BOM1106** fjarlægður fyrir útgáfu af uppskrift Airpot Lite.
 
 Oscar, ferlahönnuður hjá Contoso Coffee, verður að setja upp nýja framleiðsluuppskrift til að skilgreina upphaflegar þarfir íhluta fyrir Airpot Lite. Oscar verður þá að setja upp nýja UPPSKRIFTARÚTGÁFU, með upphafsdegi 01. júlí, til að samræma við frekari áætlanir um að gefa út aðra útgáfu.
 
-## Skref
+## <a name="steps"></a>Skref
 
 1. Stofnaðu nýja framleiðsluuppskrift fyrir Airpot Lite.
 
@@ -72,6 +72,6 @@ Oscar, ferlahönnuður hjá Contoso Coffee, verður að setja upp nýja framlei�
 
 Nýja kaffivélin er nú sett upp sem framleiðsluuppskrift með einni útgáfu.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Kynning á contoso kaffi sýnigögnum](../contoso-coffee-intro.md)  

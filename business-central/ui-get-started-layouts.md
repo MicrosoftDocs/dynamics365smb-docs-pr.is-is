@@ -11,14 +11,14 @@ ms.search.form: '9650, 9652'
 ms.date: 03/23/2022
 ms.author: jswymer
 ---
-# Hefjast handa við að búa til skýrsluútlit
+# <a name="get-started-creating-report-layouts"></a>Hefjast handa við að búa til skýrsluútlit
 
 Business Central kemur með mikið af innbyggðu útliti sem hægt er að nota á skýrslur. Það getur verið að fleiri útlitum hafi verið bætt við sem hluti af öðrum viðbótum. En einnig er hægt að búa til eigin skýrslur annaðhvort frá grunni eða út frá fyrirliggjandi útliti.
 
 > [!IMPORTANT]
 > Einnig er hægt að nota skýrsluútlit til að bæta efni við tölvupóstskeyti. Til dæmis getur skýrsluútlit sparað tíma og tryggt samræmi með því að endurnota sama efnið þegar haft er samband við viðskiptamenn. Til að nota sérsniðið skýrsluútlit með tölvupósti verður skráargerðin fyrir útlitið að vera Word. Ekki er hægt að nota RDLC-skráargerðina. Frekari upplýsingar eru í [Setja upp endurnýtanlega texta og útlit tölvupósts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## Yfirlit
+## <a name="overview"></a>Yfirlit
 
 Þegar unnið er með skýrsluútlit hjálpar það að hugsa um útlit sem skrá sem flutt er inn og úthlutað á skýrslu. Hvernig þú stjórnar útlitum í Business Central er nánast það sama burtséð frá útlitsgerðinni. Yfirleitt er unnið á síðunni **Skýrsluútlit**. Helsti munurinn er hvernig maður hannar útlitið, sem er gert með því að nota hugbúnaðinn sem útlitið byggir á, eins og Word, Excel eða SQL Server Report Builder.
 
@@ -34,7 +34,7 @@ Með þessa hugmynd í huga. þrjú eða fjögur verk eru hluti af uppsetningu �
 >
 > Til að fræðast um muninn á útlitsviðbótum og notandaskilgreindum útlitum skal skoða [Uppruni útlits](ui-manage-report-layouts.md#layout-sources).
 
-## Hafist handa
+## <a name="get-started"></a>Hafist handa
 
 Verkefnin eru mismunandi eftir því hver staðan er hjá þér. Notaðu eftirfarandi töflu til að koma þér af stað.
 
@@ -47,7 +47,7 @@ Verkefnin eru mismunandi eftir því hver staðan er hjá þér. Notaðu eftirfa
 |Skipta núverandi útliti sem skýrsla notar yfir í annað útlit|[Setja upp útlitið sem skýrsla notar](ui-set-report-layout.md)|
 |Breyta heiti og lýsingu útlits|[Endurnefna útlit](#rename)|
 
-## <a name="decide"></a>Taktu ákvörðun um hvers konar útlit þú vilt nota
+## <a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Taktu ákvörðun um hvers konar útlit þú vilt nota
 
 Það fyrsta sem þarf að gera þegar útlit er búið til er að ákveða hvaða [útlitsgerð](ui-manage-report-layouts.md#layout-types) maður vill. Þú getur valið annað hvort Word, Excel eða RDLC. Útlitsgerðin fer eftir því hvernig þú vilt að mynduð skýrsla komi til með að líta út. Auk þess fer það eftir þekkingu þinni á hugbúnaðinum til að búa til útlit, eins og Word, Excel og SQL Server Report Builder.
 
@@ -66,7 +66,7 @@ Verkefnin eru mismunandi eftir því hver staðan er hjá þér. Notaðu eftirfa
 
 * Almenna hönnunin fyrir Word og RDLC-útlit eru svipaðar. Hins vegar er hver gerð með tiltekin hönnunareinkenni sem hafa áhrif á það hvernig skýrslan sem mynduð er birtist í [!INCLUDE[prod_short](includes/prod_short.md)]. Sama skýrslan gæti litið öðruvísi út þegar Word-útlit er notað í samanburði við RDLC-útlit.
 
-## <a name="create"></a>Búa til nýtt útlit
+## <a name="create-a-new-layout"></a><a name="create"></a>Búa til nýtt útlit
 
 Til eru tvær leiðir til að búa til nýtt útlit úr fyrirliggjandi útliti. Ein leið er að vista fyrirliggjandi útlit í afrit. Hin leiðin er að flytja út fyrirliggjandi útlit.
 
@@ -127,7 +127,7 @@ Ef þú vilt sjá hvernig skýrslan lítur út með nýja útlitinu skaltu velja
 
 ---
 
-## <a name="modify"></a>Breyta útliti
+## <a name="modify-a-layout"></a><a name="modify"></a>Breyta útliti
 
 Fylgdu þessum skrefum til að breyta fyrirliggjandi notandaskilgreindu útliti.
 
@@ -156,7 +156,7 @@ Fylgdu þessum skrefum til að breyta fyrirliggjandi notandaskilgreindu útliti.
    Valdri skrá er hlaðið upp í útlitið og þú ferð aftur á síðuan **Skýrsluútlit**.
 7. Ef þú vilt sjá hvernig skýrslan lítur út með nýja útlitinu skaltu velja útlitið á listanum og velja svo **Keyra skýrslu**.
 
-## <a name="replace"></a>Skipta um útlit
+## <a name="replace-a-layout"></a><a name="replace"></a>Skipta um útlit
 
 Fylgdu þessum skrefum til að skipta út fyrirliggjandi notandaskilgreinda útlitsskrá fyrir nýja skrá.
 
@@ -168,7 +168,7 @@ Fylgdu þessum skrefum til að skipta út fyrirliggjandi notandaskilgreinda útl
    Valdri skrá er hlaðið upp í útlitið og þú ferð aftur á síðuan **Skýrsluútlit**.
 5. Ef þú vilt sjá hvernig skýrslan lítur út með nýja útlitinu skaltu velja útlitið á listanum og velja svo **Keyra skýrslu**.
 
-## <a name="rename"></a>Endurnefna útlit
+## <a name="rename-a-layout"></a><a name="rename"></a>Endurnefna útlit
 
 Fylgdu þessum skrefum ef þú vilt breyta heiti og lýsingu á notandaskilgreindu útliti.
 
@@ -179,7 +179,7 @@ Fylgdu þessum skrefum ef þú vilt breyta heiti og lýsingu á notandaskilgrein
     > Til að hjálpa þér að finna útlitið skaltu nota reitinn **Leita**, svæðið **Sía** og dálkaröðun.
 3. Breyttu **Heiti útlits**, veldu síðan **Í lagi**.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Unnið með Word-útlit](ui-how-add-fields-word-report-layout.md)  

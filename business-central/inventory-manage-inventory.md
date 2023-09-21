@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ---
 
-# Stjórna birgðum
+# <a name="manage-inventory"></a>Stjórna birgðum
 
 Fyrir hverja efnislega vöru sem þú átt í viðskiptum með þarftu að búa til birgðaspjald af gerðinni **Birgðir**. Vörur sem þú býður viðskiptamönnum en geymir ekki í birgðum er hægt að skrá sem vörulistaatriði sem hægt er að breyta í birgðavara þegar þörf krefur. Hægt að auka eða minnka magn vöru í birgðum með því að bóka beint í birgðafærslur, til dæmis þegar eftir raunbirgðatalningu eða ef þú skráir ekki innkaup.
 
@@ -25,13 +25,13 @@ Til að auka yfirlit yfir vörur og til að hjálpa þér að finna þær, getur
 
 Áætlanagerð fyrir vörur til að uppfylla eftirspurn fellur undir virkni framboðsáætlanagerðar. Frekari upplýsingar eru í [Áætlanagerð](production-planning.md).  
 
-## Afstemming birgða
+## <a name="inventory-reconciliation"></a>Afstemming birgða
 
 Þegar birgðafærslur, til dæmis söluafhending, innkaupareikningur eða birgðaleiðrétting eru bókaðar eru breytingar á kostnaði hinnar leiðréttu vöru skráðar í virðisfærslum birgða. Til að endurspegla þessar breytingar á birgðavirði í ársreikningum, er birgðakostnaður bókaður sjálfkrafa á tengda birgðareikninga í fjárhag. Fyrir hverja birgðafærslu sem er bókuð er viðeigandi gildi bókað í birgðareikninginn, leiðréttingarreikninginn og KSV-reikninginn í fjárhagnum. Frekari upplýsingar eru í [Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Þó svo birgðakostnaður sé bókaður sjálfkrafa í fjárhag þarf samt að tryggja að kostnaður vara sé framsendur á viðeigandi sölufærslur á útleið, sérstaklega þar sem vörur eru seldar áður en reikningur er gefinn út fyrir kaupunum. Í kerfinu er þetta kallað kostnaðarleiðrétting. Vörukostnaður er sjálfkrafa leiðréttur þegar vörufærslur eru bókaðar en einnig er hægt að leiðrétta vörukostnað handvirkt. Frekari upplýsingar um  [leiðréttan vörukostnað](inventory-how-adjust-item-costs.md).  
 
-## Tengd verkefni
+## <a name="related-tasks"></a>Tengd verkefni
 
 Eftirfarandi tafla sýnir tengd verk.
 
@@ -55,7 +55,7 @@ Eftirfarandi tafla sýnir tengd verk.
 |Stjórna viðskiptaaðgerðum á söluskrifstofum, innkaupadeildum, eða komið fyrir áætlunarskrifstofum í mörgum birgðageymslum.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
 |Notaðu tilföng með sérstökum aðgerðum fyrir ýmsa þjónustu og þjónustuvörur.|[Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)|
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Purchasing](purchasing-manage-purchasing.md)  

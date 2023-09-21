@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ---
-# Hönnunarupplýsingar: Bókun samsetningarpöntunar
+# <a name="design-details-assembly-order-posting"></a>Hönnunarupplýsingar: Bókun samsetningarpöntunar
 Bókun samsetningarpöntunar er byggð á sömu forsendum og bókun svipaðra aðgerða sölupantana og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.  
 
 Svipað bókun framleiðslupöntunar er notuðum íhlutum og notuðum tilföngum umreiknað og skilað sem samsetningarvara þegar samsetningarpöntunin er bókuð. Frekari upplýsingar eru í [Hönnunarupplýsingar: staða framleiðslupöntunar](design-details-production-order-posting.md). Hins vegar er kostnaðarrennsli fyrir samsetningarpantanir síður flókið, sérstaklega vegna þess að bókun samsetningarkostnaðar á sér aðeins stað einu sinni og myndar því ekki birgðir með verkum í vinnslu.  
@@ -33,7 +33,7 @@ Eftirfarandi skýringarmynd sýnir hvernig samsetningargögn flæða fjárhagsf�
 
 ![Samsetningartengt færsluflæði á meðan bókun stendur.](media/design_details_assembly_posting_2.png "Samsetningartengt færsluflæði á meðan bókun stendur")  
 
-## Bókunarröð  
+## <a name="posting-sequence"></a>Bókunarröð
 Til að bókun samsetningarpöntunar á sér stað í þessari röð:  
 
 1.  Samsetningarpöntunarlínurnar eru bókaðar.  
@@ -49,12 +49,12 @@ Eftirfarandi tafla sýnir röð aðgerða.
 > [!IMPORTANT]  
 >  Ólíkt framleiðslufrálagi, sem bókað er á áætluðum kostnaði, er samsetningarfrálag bókað  á raunkostnaði.  
 
-## Leiðrétta kostnað  
+## <a name="cost-adjustment"></a>Leiðrétta kostnað
  Þegar samsetningarpöntun hefur verið bókuð, allir íhlutir (efni) og forði eru samsett í nýrri vöru, ætti að vera hægt að ákvarða raunverulegan kostnað samsetningarvöru og raunverulegan birgðakostnað viðkomandi íhluta. Þessu er náð fram með því að framsenda kostnað frá bókuðum færslum uppruna (íhluta og tilfanga) í bókaðar færslur endastaðar (samsetningarvöru). Framsending kostnaðar er framkvæmd með útreikningi og myndun nýrra færslna sem kallast leiðréttingarfærslur sem munu viðtökufærslunum.  
 
  Samsetningarkostnaður sem á framsenda greindist með greiningarbúnaði fyrir pöntunarstig. Upplýsingar um aðrar leiðir til leiðréttingargreiningar eru í [Hönnunarupplýsingar: Kostnaðarleiðrétting](design-details-cost-adjustment.md).  
 
-### Borin kennsl á leiðréttingu  
+### <a name="detecting-the-adjustment"></a>Borin kennsl á leiðréttingu
 Greiningaraðgerðin á pantanastigi er notuð í umbreytingaraðstæðum, framleiðslu og samsetningu. Aðgerðin virkar á eftirfarandi hátt:  
 
 -   Kostnaðarleiðrétting er merkt með því að merkja pöntunina þegar efni/tilfang er bókaður sem neytt/notað.  
@@ -64,7 +64,7 @@ Eftirfarandi mynd sýnir leiðréttingarfærsluuppbyggingu og hvernig samsetning
 
 ![Samsetningartengt færsluflæði á meðan kostnaðarleiðréttingu stendur.](media/design_details_assembly_posting_3.png "Samsetningartengt færsluflæði á meðan bókun stendur")  
 
-### Leiðrétting  
+### <a name="performing-the-adjustment"></a>Leiðrétting
 Dreifing greindra breytinga á efni og tilfangakostnaði í samsetningarúttaksfærslum er framkvæmd í runuvinnslunni **Leiðr. kostnað – Birgðafærslur**. Það inniheldur aðgerðina gera margstiga jöfnun, sem samanstendur af eftirfarandi tveimur þáttum:  
 
 -   Leiðrétta samsetningarpöntun – framsendir kostnað vegna efnis og forða í samsetningfrálagsfærslu. Línur 5 og 6 í reiknireglunni hér að neðan eru ábyrgar fyrir því.  
@@ -77,7 +77,7 @@ Dreifing greindra breytinga á efni og tilfangakostnaði í samsetningarúttaksf
 
 Upplýsingar um hvernig kostnaður frá samsetningu og framleiðslu eru bókaðar í fjárhagur, sjá [Hönnunarupplýsingar: birgðabókun](design-details-inventory-posting.md).  
 
-## Samsetningarkostnaður er alltaf raunverulegur  
+## <a name="assembly-costs-are-always-actual"></a>Samsetningarkostnaður er alltaf raunverulegur
  Hugmyndin um verk í vinnslu (VÍV) gildir ekki í bókun samsetningarpöntunar. Samsetningarkostnaður er aðeins bókaður sem raunverulegur kostnaður, aldrei áætlaður kostnaður. Frekari upplýsingar, sjá [Hönnunarupplýsingar: Væntanleg kostnaðarfærsla](design-details-expected-cost-posting.md).  
 
 Þetta næst með eftirfarandi gagnastrúktúr.  
@@ -95,21 +95,21 @@ Að auki, bókunarflokkur reitir á samsetningarpöntunarhaus og samsetningarpö
 
 Í samræmi er eingöngu raunverulegur kostnaður bókara í fjárhag og engir bráðabirgðareikningar eru útfylltir úr bókun samsetningarpöntunar. Frekari upplýsingar, sjá [Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)  
 
-## Samsetning til pöntunar  
+## <a name="assemble-to-order"></a>Samsetning til pöntunar
 Birgðafærslan sem myndast við bókun á sölu fyrir samsetningu-til-pöntunar er fastjöfnuð við tengda birgðafærslu fyrir samsetningarfrálagið. Í samræmi við það, er kostnaður við samsetningarpöntunarsölu fenginn úr samsetningarpöntun sem hún var tengd við.  
 
 Birgðahöfuðbókarfærslur af gerðinni Sala, sem leiða af bókun magns sem er sett saman í pöntun, eru merktar með **Já** í reitnum **Setja saman í pöntun**.  
 
 Bókun sölupantanalína þar sem einn hluti er birgðamagn og annar er magn samsetningarpöntunar býr til aðskildar birgðabókarfærslur; eina fyrir birgðamagn og aðra fyrir magn samsetningarpöntunar.  
 
-### Bókunardagsetningar
+### <a name="posting-dates"></a>Bókunardagsetningar
 
 Almennt eru bókunardagsetningar afritaðar úr sölupöntun í tengda samsetningarpöntun. Bókunardagsetningin í samsetningarpöntuninni er sjálfkrafa uppfærð þegar bókunardagsetningunni í sölupöntun er breytt beint eða óbeint, t.d. ef breytt er bókunardagsetningu í vöruhúsasendingu, birgðatínslu eða sem hluti af magnbókun.
 
 Hægt er að breyta bókunardagsetningunni í samsetningarpöntun handvirkt. Hins vegar má hún ekki koma á eftir bókunardagsetningunni í tengdu sölupöntuninni. Kerfið heldur þessari dagsetningu nema þú uppfærir bókunardagsetninguna í sölupöntuninni.
 
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: staða framleiðslupöntunar](design-details-production-order-posting.md)   
  [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  

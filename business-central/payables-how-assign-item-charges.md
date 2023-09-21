@@ -11,7 +11,7 @@ ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
+# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
 
 Til að tryggja rétt verðmat, verða birgðavörurnar þínar að bera allan auka kostnað, eind og t.d. farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér. Fyrir innkaup felst að landskostnaður keyptra vara samanstendur af kaupverði seljanda og öllum öðrum beinum kostnaðarauka sem hægt er að úthluta einstökum kvittunum eða endursendingum. Það getur verið fyrirtækjum jafnmikilvægt að kunna skil á kostnaði við afhendingu seldrar vöru eins og að vita raunkostnað aðkeyptrar vöru.
 
@@ -31,13 +31,13 @@ Hægt er að úthluta kostnaðarauka á bæði innkaupa- og söluskjöl á tvenn
 > [!NOTE]  
 > Hægt er að úthluta kostnaðarauka á pantanir, reikninga og kreditreikninga fyrir bæði sölu og innkaup. Eftirfarandi ferli lýsir því hvernig á að vinna með kostnaðarauka fyrir innkaupareikning. Skrefin eru svipuð fyrir öll önnur innkaupa- og söluskjöl.
 
-## Dæmi
+## <a name="example"></a>Dæmi
 
 Þetta myndband sýnir hvernig á að fara með auka sendingarkostnað sem hluta af birgðakostnaði.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## Uppsetning kostnaðaraukanúmera
+## <a name="to-set-up-item-charge-numbers"></a>Uppsetning kostnaðaraukanúmera
 
 Vörugjöldum eru notuð til að greina á milli mismunandi vörugjalda.
 
@@ -45,7 +45,7 @@ Vörugjöldum eru notuð til að greina á milli mismunandi vörugjalda.
 2. Á síðunni **Kostnaðarauki** skal velja aðgerðina **Nýtt** til að stofna nýja línu.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Að úthluta kostnaðarauka beint til innkaupareiknings fyrir vöruna
+## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Að úthluta kostnaðarauka beint til innkaupareiknings fyrir vöruna
 
 Ef vörugjaldi er þekkt þegar innkaupareikningur er bókaður fyrir vöruna er farið eftir þessari aðferð.
 
@@ -69,7 +69,7 @@ Ef kostnaðarauka hefur verið úthlutað að fullu, er gildið í **Magn til ú
 
 Nú er kostnaðarauka úthlutað til innkaupareiknings. Þegar þú bókar innhreyfingu á innkaupareikning, er birgðavirði vörunnar uppfært með kostnaði kostnaðaraukans.  
 
-## Að úthluta kostnaðarauka frá öðrum reikningi til innkaupareiknings fyrir vöruna
+## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Að úthluta kostnaðarauka frá öðrum reikningi til innkaupareiknings fyrir vöruna
 
 Ef þú færð sendan reikning fyrir kostnaðaraukann eftir að þú bókaðir upphaflegu innkaupamóttökuna, skaltu fylgja þessu ferli.
 
@@ -80,7 +80,7 @@ Ef þú færð sendan reikning fyrir kostnaðaraukann eftir að þú bókaðir u
 
 Kostnaðaraukinn á þessum aðgreinda innkaupareikningi er nú úthlutað til vörunnar á bókuðu innkaupamóttökunni, og þar með uppfærist birgðagildi vörunnar með kostnaði kostnaðaraukans.
 
-## Annast kostnaðarauka fyrir innhreyfingar að hluta
+## <a name="handle-item-charges-for-partial-receipts"></a>Annast kostnaðarauka fyrir innhreyfingar að hluta
 
 Við skulum kanna dæmi um hvernig fara skal með Vörugjöld vegna hlutainnhreyfinga.
 
@@ -95,7 +95,7 @@ Ef meðhöndla á vörukostnað fyrir hlutamóttöku, á  **síðu vörugjaldsú
 
 Þegar þú ert tilbúinn að afgreiða vöruna sem var saknað, uppfærðu  **magnið í að afgreiða**  svæði og bóka pöntunina.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)  
