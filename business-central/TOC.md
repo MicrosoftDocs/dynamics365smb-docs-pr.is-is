@@ -154,7 +154,7 @@
 ### [Vista og deila skrám í OneDrive](across-share-onedrive.md)
 ### [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md)
 ### [Nota Word-sniðmát fyrir mörg samskipti í einu](ui-mail-merge.md)
-### [Grunnstillingum breytt](ui-change-basic-settings.md)
+### [Breyta grunnstillingum](ui-change-basic-settings.md)
 ### [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md)
 ### [Stjórna tilkynningum](ui-smart-notifications.md)
 ### [Ábendingar um frammistöðu fyrir fyrirtækisnotendur](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
