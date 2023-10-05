@@ -17,7 +17,7 @@ Hægt er að stofna samskipti til að skrá öll samskipti við viðskiptavinina
 
 Áður en hægt er að stofna samskipti þarf að setja upp samskiptasniðmát. Til að fá nánari upplýsingar sjá  [Setja upp samskiptasniðmát](marketing-interactions.md).
 
-## <a name="to-create-an-interaction"></a>Til að stofna samskipti
+## <a name="to-create-an-interaction-with-a-contact"></a>Til að stofna samskipti
 1. Opna færslu um tengilið, sölumann eða samskiptaskráningarfærslu.
 2. Valið er **Stofna samskipti** aðgerð.
 3. Fyllið út reitina og smellið á hnappinn **Í lagi**.
@@ -25,12 +25,12 @@ Hægt er að stofna samskipti til að skrá öll samskipti við viðskiptavinina
 > [!NOTE]  
 >   Ef framkvæma þarf annað verk áður en samskiptunum lýkur er hægt velja **hætta við** og ljúka samskiptunum síðar. Þetta frestar samskiptunum.
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>ljúka og eyða frestuðum samskiptum
+## <a name="to-create-an-interaction-on-a-segment"></a>ljúka og eyða frestuðum samskiptum
 1. Opna færslu um tengilið, sölumann eða samskiptaskráningarfærslu.
 2. Velja **Frestuð samskipti**
 3. Veljið samskiptin sem á að ljúka og veldu svo aðgerðina **halda áfram**.
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Til að stofna samskipti á hluta.
+## <a name="to-finish-setting-up-a-postponed-interaction"></a>Til að stofna samskipti á hluta.
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Hlutar** og velja síðan viðkomandi tengil.
 2. Á **Hlutsíðunni** í hlutanum **samskipti** er fyllt í reitina til að tilgreina hvers konar samskiptum eigi að úthluta á hlutann.
 

@@ -11,7 +11,7 @@ ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: bholtorf
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Áætla vinnslur fyrir leiðréttingu og afstemmingu birgðakostnaðar með fjárhag
+# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Áætla vinnslur fyrir leiðréttingu og afstemmingu birgðakostnaðar með fjárhag
 
 Til að hámarka upplifunina er sjálfkrafa kveikt á sjálfvirkri kostnaðarleiðréttingu og bókun í fjárhag. Það gæti þó haft áhrif á afköstin því gögn safnast upp með tímanum. Til að draga úr álagi í forritinu er oft gagnlegt að nota verkraðarfærslur til að flytja verk í bakgrunnskeyrslu.
 

@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="troubleshooting-microsoft-teams-integration-with-"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshoot-microsoft-teams-integration-with-"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -147,7 +147,7 @@ Sem kerfisstjóri, eru með Azure Active Directory stjórnandaheimildir, og getu
 
 Þegar þú límir texta í skilaboðagluggann í glugganum **Deila með Teams** er textinn afritaður. Þetta vandamál er þekkt hjá Microsoft og verður tekið á því í síðari uppfærslu. 
 
-## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Get ekki skráð mig inn í gluggann Deila með Teams
+## <a name="unable-to-sign-in-to-the-share-to-teams-window"></a>Get ekki skráð mig inn í gluggann Deila með Teams
 
 Þetta vandamál getur komið upp af ýmsum ástæðum. Til dæmis þarf auðkennið sem þú notar til að skrá þig inn að hafa aðgang að Microsoft Teams, svo sem í gegnum Microsoft 365 áskrift.
 
@@ -167,7 +167,7 @@ Nokkrar ástæður eru fyrir þessu vandamáli.
 
 Þetta vandamál er vegna þess að þú ert ekki með BC-forritið fyrir Teams uppsett. Aðeins þeir sem eru með forritið uppsett sjá Business Central-flipana.
 
-## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Aðrir sjá aðra röðun eða dálkaútlit en það sem höfundur flipans sér
+## <a name="others-see-a-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Aðrir sjá aðra röðun eða dálkaútlit en það sem höfundur flipans sér
 
 Þetta vandamál er líklega vegna þess að þú deildir listayfirliti sem er eigið yfirlit. Í þessu tilviki skaltu vinna með stjórnanda þínum til að búa til annaðhvort hlutverkamiðað listayfirlit sem nær yfir mismunandi hlutverk í rásinni/spjallinu eða búa til þetta yfirlit fyrir allt fyrirtækið þannig að allir geti fengið samræmt yfirlit.
 

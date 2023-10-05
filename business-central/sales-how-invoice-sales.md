@@ -88,7 +88,7 @@ Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur l
 
 Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og á sölureikningnum er frálag sem PDF fylgiskjal. Sölureikningurinn er fjarlægður af lista sölureikninga og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölureikninga.  
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Reikna reikningsafslátt á sölu
+### <a name="calculate-invoice-discounts-on-sales"></a>Reikna reikningsafslátt á sölu
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
@@ -100,7 +100,7 @@ Auðvelt er að leiðrétta eða afturkalla bókaðann sölureikning áður en h
 
 [Onpaðu **Bókaðir sölureikningar** listann ](https://businesscentral.dynamics.com/?page=143) í [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="registering-payments"></a>Skrá greiðslur
+## <a name="register-payments"></a>Skrá greiðslur
 
 Það fer eftir þörfum fyrirtækis þíns, þú getur fengið greitt og skráð þessi greiðslu á mismunandi vegu: handvirkt, sjálfkrafa og með greiðsluþjónustu.  
 

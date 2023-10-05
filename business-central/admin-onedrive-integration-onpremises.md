@@ -22,7 +22,7 @@ Gera þarf tvö verk til að grunnstilla OneDrive samþættinguna.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er aðeins hægt að tengja við OneDrive sem Microsoft hýsir í skýinu. Að tengja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við gagnageymslu minna svæða á SharePoint Server er ekki stutt.
 
-## <a name="register-an-app-in-azure-ad-for-onedrive-integration"></a><a name="registerapp"></a>Skráðu forrit í Azure AD fyrir OneDrive samþættingu
+## <a name="register-an-app-in-microsoft-entra-id-for-onedrive-integration"></a><a name="registerapp"></a>Skráðu forrit í Azure AD fyrir OneDrive samþættingu
 
 Í þessu verki bætir þú skráðu forriti fyrir Business Central í Azure AD leigjandanum fyrir Microsoft 365 áskriftina þína. Eins og aðrar Azure þjónustur sem vinna með Business Central, OneDrive krefst Azure skráðs forrits í Azure Active Directory (Azure AD). Skráða forritið býður upp á sannvottun og sannvottunarþjónustu milli Business Central og SharePoint, sem OneDrive notar.
 

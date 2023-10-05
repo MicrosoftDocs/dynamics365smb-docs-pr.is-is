@@ -81,7 +81,7 @@ Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðahaldseiningaspj
 
 Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.
 
-#### <a name="case-13-demand-is-at-north-location"></a>Mál 1.3: Eftirspurn er í birgðageymslu *NORÐUR*
+#### <a name="case-13-demand-is-at-main-location"></a>Mál 1.3: Eftirspurn er í birgðageymslu *NORÐUR*
 
 Vörunni er áætlað samkvæmt: Endurpöntunarstefna = *Lota-fyrir-lotu* (*Pöntun* er áfram *Pöntun*), Taka með birgðir = *Já*, allar aðrar áætlunarfæribreytur = tómar.
 

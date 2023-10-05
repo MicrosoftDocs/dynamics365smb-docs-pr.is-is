@@ -44,7 +44,7 @@ Eftirfarandi er ráðlögð röð skrefa sem stjórnandi notar til að setja upp
 > [!NOTE]
 > Til að tengjast fulltrúa VSK-hópsins þurfa hópmeðlimir að vera með notandareikning hefur aðgang að fulltrúa VSK-hópsins [!INCLUDE[prod_short](includes/prod_short.md)]. Fulltrúi VSK-hópurinn verður að búa til að minnsta kosti einn notanda fyrir þetta. Af öryggisástæðum mælum við þó með því að notendur stofni VSK-hóp fyrir hvern meðlim, sem getur verið kerfisnotendareikningur sem tengist ekki raunverulegum aðila. Gangið úr skugga um að dreifa notandaskilríkjum til þessara meðlima VSK-hópsins á öruggan hátt.
 
-### <a name="azure-active-directory-setup-for-group-members"></a>Azure Active Directory uppstilling fyrir hópmeðlimi
+### <a name="microsoft-entra-id-setup-for-group-members"></a>Azure Active Directory uppstilling fyrir hópmeðlimi
 
 Þegar fulltrúi VSK-hópsins notar [!INCLUDE[prod_short](includes/prod_short.md)] á netinu eða innanhúss, verða meðlimir VSK-hópsins að nota Azure Active Directory til að sannvotta notendur þegar þeir senda VSK-skýrslur til fulltrúa VSK-hópsins. Innanhúss [!INCLUDE[prod_short](includes/prod_short.md)] verða meðlimir að stilla einskráningu. Frekari upplýsingar er að finna á [Stilla Azure Active Directory auðkenningu með WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 

@@ -26,7 +26,7 @@ ms.search.form: '30118, 30119, 30120, 30101, 30102'
 
 Ef samstillingarverk mistekst er hægt að kveikja á  **kladda virkt**  skipta á  **Shopify  síðunni verkstæðisspjald**  til að virkja innskráningu. Þá geturðu handvirkt ræst samstillingarverkið og yfirfarið skrár.
 
-### <a name="to-enable-logging"></a>Til að gera innskráningu virka
+### <a name="manage-log-entry-data"></a>Til að gera innskráningu virka
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Shopify Verslun** og veldu tengda tengilinn.
 2. Veljið verkstæðið sem á að leita að við úrræðaleit til að opna  **Shopify  Vinnukortasíðuna** .

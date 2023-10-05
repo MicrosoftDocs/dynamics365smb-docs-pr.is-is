@@ -10,7 +10,7 @@ ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="allocate-costs-and-income"></a>Úthluta kostnaði og tekjum
+# <a name="allocate-recurring-costs-and-income"></a>Úthluta kostnaði og tekjum
 
 Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. Framkvæma má úthlutunina miðað við þrjú atriði:
 
