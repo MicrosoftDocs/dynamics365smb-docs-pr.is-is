@@ -1,21 +1,23 @@
 ---
 title: Hönnunarupplýsingar - vöruhúsaflæði inn
-description: Vöruhúsaflæði á innleið hefst þegar vörur berast til vöruhúss fyrirtækisins og eru skráðar og samsvara upprunaskjölum á innleið.
+description: Lærðu að taka á móti vörum í vöruhúsinu og skrá þær og stemma við upprunaskjöl á innleið.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: null
-ms.date: 11/14/2022
+ms.search.keywords: warehouse
+ms.date: 09/18/2023
 ms.author: bholtorf
 ---
-# <a name="design-details-inbound-warehouse-flow"></a>Hönnunarupplýsingar: vöruhúsaflæði inn
+# Hönnunarupplýsingar: vöruhús á innleið
 
-Flæðiá innleið í vöruhús byrjar þegar vörurnar koma í vöruhús á staðsetningu fyrirtækis, annað hvort frá utanaðkomandi aðila eða frá annarri staðsetningu fyrirtækis. Í meginatriðum er ferlið við móttöku á innsendum pöntunum samsett úr tveimur verkþáttum:
+Flæðiá innleið í vöruhús byrjar þegar vörurnar koma í vöruhús á staðsetningu fyrirtækis, annað hvort frá utanaðkomandi aðila eða frá annarri staðsetningu fyrirtækis. Hægt er að fá efnislegar og óbirgðavörur. Til að fræðast meira um móttöku vara sem ekki eru í birgðum er farið í  [Bóka vörur sem ekki eru í birgðum](#post-non-inventory-items).
 
-* Taka á móti vörum á viðtökustað vöruhúss, þar sem vörurnar eru auðgreinaðar, samsvara þeim í upprunaskjal og skrá móttekið magn. 
-* Setjið vörur í gang á lager og Skráið staðinn sem þið Setjið þá.
+Í meginatriðum er ferlið við móttöku á innsendum pöntunum samsett úr tveimur verkþáttum:
+
+* Taka við vörum við höfnina, auðkenna þær, passa við þær í upprunaskjal og skrá móttekið magn.
+* Frágang á vörum á lager og Skráið þann stað sem þeir setja.
 
 Upprunaskjöl fyrir vöruflæði á innleið eru:
 
@@ -31,8 +33,8 @@ Upprunaskjöl fyrir vöruflæði á innleið eru:
 |Aðferð|Ferli á innleið|Krefjast kvittana|Krefjandi frágangur|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
 |------------|---------------------|--------------|----------------|------------|  
 |A|Bóka móttöku og frágang frá pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
-|B|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
-|N|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
+|Á|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
+|U|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
 |D|Bóka móttöku frá vöruhúsamóttökuskjali og bóka frágang frá vöruhúsafrágangsskjali|Kveikt|Kveikt|Ítarlegt|  
 
 Val á nálgun fer eftir venjum og stigi fyrirtækisins. Eftirfarandi eru nokkur dæmi sem gætu hjálpað við að ákveða.
@@ -48,7 +50,7 @@ Val á nálgun fer eftir venjum og stigi fyrirtækisins. Eftirfarandi eru nokkur
 > * Birgðafrágangurinn sem er notaður í aðferð B ásamt frágangi upplýsinga um frágang bókar einnig móttöku upprunaskjalsins.
 > * Vöruhúsafrágangurinn sem er notaður í aðferðard er ekki hægt að bóka og hann skráir aðeins fráganginn. Skráningin gerir þær vörur aðgengilegar til frekari vinnslu en bókar ekki kvittunina. Vöruhúsafrágangur krefst vöruhúsamóttöku í innstreymissinninu.
 
-## <a name="no-dedicated-warehouse-activity"></a>Engin sérhæfð vöruhúsastarfsemi
+## Engin sérhæfð vöruhúsastarfsemi
 
 Eftirfarandi greinar veita upplýsingar um hvernig á að vinna innhreyfingar fyrir upprunaskjöl ef ekki er búið að tileinka sér vöruhúsaaðgerðir.
 
@@ -56,56 +58,56 @@ Eftirfarandi greinar veita upplýsingar um hvernig á að vinna innhreyfingar fy
 * [Flutningspöntunum](inventory-how-transfer-between-locations.md)
 * [Vinna söluvöruskilapantanir](sales-how-process-sales-returns-orders.md)
 
-## <a name="basic-warehouse-configurations"></a>Afbrigði grunnvöruhúsa
+## Afbrigði grunnvöruhúsa  
 
-Í grunnvöruvöruhúsi afbrigði  **er kveikt á frágangsnunni**  en  **ekki er slökkt á Viðtökuskiptiverði kvittunar**  á síðunni Birgðageymsluspjald fyrir birgðageymsluna.
+Í grunnvöruvöruhúsi afbrigði  **er kveikt á frágangsnunni**  en  **ekki er slökkt á Viðtökuskiptiverði kvittunar**  á  **síðunni Birgðageymsluspjald**  fyrir birgðageymsluna.
 
 Eftirfarandi skýringarmynd sýnir innflæði í vöruhús eftir skjalagerð grunngerðar vöruhúss. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Grunngerð innstreymis í vöruhúsi.":::
 
-### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away"></a>1: gefa út upprunaskjal til að stofna beiðni um birgðafrágang
+### 1: gefa út upprunaskjal til að stofna beiðni um birgðafrágang  
 
-Þegar vörur eru afhentar, sleppið upprunaskjalinu, svo sem innkaupapöntun eða millisendingarpöntun á innleið. Ef skjalinu er sleppt er hægt að ganga frá vörunum. Einnig er hægt að stofna birgðafrágangskjör fyrir einstakar pöntunarlínur, á grundvelli tilgreindra hólfa og magn til afgreiðslu.  
+Þegar vörur eru afhentar, sleppið upprunaskjalinu, svo sem innkaupapöntun eða millisendingarpöntun á innleið. Ef skjalinu er sleppt er hægt að ganga frá vörunum. Einnig er hægt að stofna birgðafrágangsskjöl fyrir einstakar pöntunarlínur á þrýstihátt, miðað við hólf og magn til afgreiðslu.  
 
-### <a name="2-create-an-inventory-put-away"></a>2: stofna birgðafrágang
+### 2: stofna birgðafrágang  
 
  **Á síðunni birgðafrágangssíða**  er hægt að fá upplýsingar um upprunaskjal í undirbúningi sem byggðar eru á vöruhúsabeiðnum á innleið. Á þrýstihátt er einnig hægt að stofna birgðafrágangslínur þegar upprunaskjalið er stofnað.  
 
-### <a name="3-post-an-inventory-put-away"></a>3: frágangur bóka frágangs
+### 3: frágangur bóka frágangs  
 
 Í  **hverri línu fyrir vörur sem gengið hefur verið frá, að hluta til eða fullu, er reiturinn Magn**  fylltur út og síðan bókaður Birgðafrágangur. Upprunaskjöl sem tengjast birgðafrágangi eru bókuð sem móttekin.  
 
-* Jákvæðar birgðabókafærslur eru stofnaðar
+* Jákvæðar birgðafærslur eru stofnaðar.
 * Vöruhúsafærslur eru stofnaðar fyrir staðsetningar sem krefjast hólfakóta í öllum vörufærslum.
 * Frágangsbeiðninni er eytt, ef hún er að fullu afgreidd. Til dæmis reiturinn **Móttekið magn** á upprunaskjallínu á innleið er uppfærður.
 * Bókað móttökuskjal er stofnað til að til dæmis endurspegla innkaupapöntunina og mótteknar vörur.  
 
-## <a name="advanced-warehouse-configurations"></a>Grunngerðir í ítarlegu vöruhúsi
+## Grunngerðir í ítarlegu vöruhúsi  
 
-Í ítarlegri samskipan vöruhúss er krafist að  **skipta kvittun**  á Birgðageymsluspjald á síðunni fyrir birgðageymsluna. Skiptibreyta til að  **krefjast**  frágangs er valfrjáls.
+Ef nota á ítarlega samstillingu vöruhúsa er kveikt  **á víxlun viðtökuvíxla**  á síðunni Birgðageymsluspjald fyrir birgðageymsluna. Skiptibreyta til að  **krefjast**  frágangs er valfrjáls.
 
 Eftirfarandi skýringarmynd sýnir flæði á innleið í vöruhúsi eftir tegund fylgiskjals. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Ítarlegt innflæði í vöruhús.":::
 
-### <a name="1-release-the-source-document"></a>1: gefa út upprunaskjal
+### 1: gefa út upprunaskjal  
 
 Við móttöku vara er losað um upprunaskjalið, til dæmis innkaupapöntun eða millifærslapöntun á innleið. Ef skjalinu er sleppt er hægt að ganga frá vörunum. Gengið mun innihalda tilvísanir í tegund upprunaskjals og númer.
 
-### <a name="2-create-a-warehouse-receipt"></a>2: stofna vöruhúsamóttöku
+### 2: stofna vöruhúsamóttöku  
 
- **Á móttökusíðu**  vöruhúss, fá upprunaskjalslínur á innleið. Hægt er að sameina margar upprunaskjalslínur í einu vöruhúsamóttöku skjali.  **Reiturinn Magn til afgreiðslu**  er fylltur út og valið viðtökusvæði og hólf ef með þarf.  
+ **Á móttökusíðu**  vöruhúss, fá upprunaskjalslínur á innleið. Hægt er að sameina margar upprunaskjalslínur í einu vöruhúsamóttöku skjali.  **Reiturinn Magn til afgreiðslu**  er fylltur út og valið viðtökusvæði og hólf ef þörf krefur.  
 
-### <a name="3-post-the-warehouse-receipt"></a>3: bóka vöruhúsamóttöku
+### 3: bóka vöruhúsamóttöku  
 
 Bóka vöruhúsamóttöku til að stofna jákvæðar birgðabókafærslur.  **Reiturinn móttekið**  Magn í upprunaskjalslínu á innleið er uppfærður.  
 
  **Ef ekki er kveikt á frágangsvíxlun**  þarf ekki að vera á birgðageymsluspjaldinu þar sem ferlið stöðvast. Að öðrum kosti gerir bókun um upprunaskjal vörurnar það sem hægt er að ganga frá. Frágangurinn inniheldur tilvísanir í gerð upprunaskjals og númer.  
 
-### <a name="4-optional-generate-put-away-worksheet-lines"></a>4: (valfrjálst) mynda vinnublaðslínur frágangs
+### 4: (valfrjálst) mynda vinnublaðslínur frágangs
 
-Sækja vöruhúsafrágangslínur í  **vinnublaði**  frágangs á grundvelli bókaðra vöruhúsamóttöku eða aðgerða sem framleiða úttak. Velja línurnar til að ganga frá og tilgreina eftirfarandi upplýsingar:
+Sækja vöruhúsafrágangslínur í  **vinnublaði**  frágangs á grundvelli bókaðra vöruhúsamóttöku eða aðgerða sem framleiða úttak. Í línunum sem gengið er út frá eru eftirfarandi upplýsingar tilgreindar:
 
 * Hólfin til að taka vörur úr.
 * Hólfin til að setja vörur í.
@@ -118,30 +120,33 @@ Hólfin geta verið forskilgreind í uppsetningu vöruhúsastaðarins eða forð
 > [!NOTE]  
 >  **Ef skiptiborð vinnublaðs**  er ekki kveikt á birgðageymsluspjaldinu eru frágangsskjöl vöruhúss stofnuð beint á grundvelli bókaðra vöruhúsamóttöku. Í því tilfelli er þetta skref ekki þörf.  
 
-### <a name="5-create-a-warehouse-put-away-document"></a>5: frágangur skjals vöruhúsafrágangs stofnaður
+### 5: frágangur skjals vöruhúsafrágangs stofnaður
 
 Vöruhúsafrágangur skjals er stofnaður í togtísku á grundvelli bókuðu vöruhúsamóttöku. Einnig er hægt að stofna vöruhúsafrágangsskjalið og úthluta því á vöruhúsastarfsmann á þrýstihátt.  
 
-### <a name="6-register-a-warehouse-put-away"></a>6: frágangur vöruhúsa skal skrá
+### 6: frágangur vöruhúsa skal skrá
 
 Í hverri línu fyrir vörur sem gengið hefur verið frá, að hluta til eða fullu, er fyllt út í  **reitinn Magn**  á  **frágangssíðu vöruhúsafrágangs**  og síðan er frágangur vöruhússins skráður.  
 
 * Vöruhúsafærslur eru stofnaðar fyrir staðsetningar sem krefjast hólfakóta í öllum vörufærslum.
-* Vöruhúsafrágangslínur eru eyddar, ef þær eru að fullu meðhöndlaðar.
-* Frágangsskjal vöruhúss er opið þar til allt magn tengdrar móttöku vöruhúss er skráð.
+* Vöruhúsafrágangslínur eru eyddar ef þær eru að fullu meðhöndlaðar.
+* Vöruhúsafrágangsskjalið er áfram opið þar til skráð er fullt magn tengdra vörubókinnhreyfinga.
 *  **Reiturinn Magn frágangs**  á bókaða vöruhúsamóttökupöntunarlínum vöruhúss er uppfærður.
 
-## <a name="related-tasks"></a>Tengd verkefni
+## Tengd verkefni
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
+Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Skrá innhreyfingar vara á vöruhúsastöðum með vöruhúsamóttöku, ef um er að ræða hálf-eða sjálfvirka vöruhúsavinnslu á staðnum.|[Móttaka vara](warehouse-how-receive-items.md)|
-|Setja vörur í burtu á grundvelli pöntunar og Bóka móttöku í einni aðgerð í grunnvöruhúsafbrigðum.|[Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Taka við vörum á birgðageymslum vöruhúss með vöruhúsamóttöku fyrir sjálfvirka vöruhúsaferðvinnslu.|[Móttaka vara](warehouse-how-receive-items.md)|
+|Ganga frá vörum á grundvelli pöntunar og Bóka móttöku í einni aðgerð í grunnvöruhúsafbrigðum.|[Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
 |Frágangur móttekinna vara úr mörgum innkaupum, söluskilum, millifært er í pantanir í ítarlegri samskipan vöruhúss.|[Ganga frá vörum með vöruhúsafrágangi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
 
+## Bóka vörur sem eru ekki í birgðum
 
-## <a name="see-also"></a>Sjá einnig
+[!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
+
+## Sjá einnig .
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

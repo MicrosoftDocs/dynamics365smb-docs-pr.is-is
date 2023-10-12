@@ -11,11 +11,11 @@ ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Afrita fyrirliggjandi vörur í nýjar vörur
+# Afrita fyrirliggjandi vörur í nýjar vörur
 
 Þegar nýrri vöru er bætt við er hægt að spara tíma með því að nota virknina **Afrita vöru** til að afrita vöru sem þegar er til staðar og nota hana sem sniðmát fyrir nýju vöruna.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>Afritun fyrirliggjandi vöru í nýja vöru
+## Afritun fyrirliggjandi vöru í nýja vöru
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Veldu vöruna sem þú vilt afrita og veldu svo aðgerðina **Afrita vöru**.  
@@ -29,7 +29,7 @@ ms.author: bholtorf
 
 4. Til að afrita valið þitt í nýju vöruna skaltu velja hnappinn **Í lagi**.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Uppsetning birgða](inventory-setup-inventory.md)  

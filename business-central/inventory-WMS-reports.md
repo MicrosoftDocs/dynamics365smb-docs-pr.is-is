@@ -8,15 +8,15 @@ ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, R
 ms.date: 04/13/2023
 ms.author: bholtorf
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics-in-business-central"></a>Birgða- og vöruhúsaskýrslur og Analytics í Business Central
+# Birgða- og vöruhúsaskýrslur og Analytics í Business Central
 
 Birgða- og vöruhúsaskýrsla í [!INCLUDE [prod_short](includes/prod_short.md)] gerir starfsmönnum í birgðum og rekstri kleift að fá innsýn í og tölfræði um núverandi og fyrri vöruhúsaaðgerðir.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
 
-## <a name="tasks"></a>Verkefni
+## Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
@@ -24,7 +24,7 @@ Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisi
 * [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning birgða](inventory-setup-inventory.md)  
 [Birgðir](inventory-manage-inventory.md)  

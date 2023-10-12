@@ -58,8 +58,6 @@ Hægt er að tilgreina dagsetningarformúlu í línum handvirkt. Annars mun [!IN
 3. Birgðahaldseiningarspjald
 4. Lánardrottnaspjald
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Dagsetning útreiknings fyrir sölu.](sales-date-calculation-for-sales.md)  

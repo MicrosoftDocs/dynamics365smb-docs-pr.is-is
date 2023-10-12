@@ -3,7 +3,7 @@ title: Samsetningardeild
 description: Lærðu að veita viðskiptavinum vörur með því að sameina íhluti í einföldum ferlum án þess að nota framleiðsluaðgerðir.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/21/2023
 ms.custom: bap-template
@@ -51,14 +51,12 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Lærðu að vinna með samsetningaruppskriftir og hvernig þær eru frábrugðnar framleiðsluuppskriftum.|[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)|
 |Fræðast um bókun samsetningar notkunar og úttaks og hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  dreifist kostnaður vöru og forða á fjárhag.|[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)|  
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/assemble-items-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Yfirlit yfir](design-details-warehouse-management.md)
-[vöruhúsastjórnun hönnunarmiðstöðvar nánar: afgreiðslufundur skipulagsfulltrúa](design-details-supply-planning.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Design Details: Supply Planning](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

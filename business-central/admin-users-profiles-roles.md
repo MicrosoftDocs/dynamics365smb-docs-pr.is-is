@@ -142,7 +142,7 @@ Hægt er að eyða öllum breytingum sem notandinn hefur gert á síðum. Eyðin
 
 Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.
 
-Einnig er hægt að eyða öllum sérstillingum síðu fyrir forstillingu. Frekari upplýsingar er að finna í [Til að eyða öllum sérstillingum fyrir forstillingu](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
+Einnig er hægt að eyða öllum sérstillingum síðu fyrir forstillingu. Frekari upplýsingar er að finna  [í til að eyða öllum sérstillingum fyrir forstillingu](ui-personalization-manage.md#delete-all-customizations-for-a-profile).
 
 ## Til að eyða sérstillingum fyrir tilteknar síður
 
@@ -159,15 +159,13 @@ Hægt er að eyða sérsniðnum stillingum sem einn eða fleiri notendur hafa ge
 
 Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.  
 
-Einnig er hægt að eyða einstaka sérstillingum síðu fyrir forstillingu. Frekari upplýsingar er að finna í [Til að eyða sérstillingum fyrir tilteknar síður fyrir forstillingu](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+Einnig er hægt að eyða einstaka sérstillingum síðu fyrir forstillingu. Frekari upplýsingar er að finna  [í til að eyða sérstökum síðum fyrir forstillingu](ui-personalization-manage.md#delete-customization-for-specific-pages-for-a-profile).
 
 ## Stjórna lotum notenda
 
 Sem kerfisstjóri á [!INCLUDE[prod_short](includes/prod_short.md)] ánetinu er hægt að stjórna notandalotum í stjórnunarstöðinni. Frekari upplýsingar er að finna  [í umsjón með setum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)  í innihaldi stjórnunar.  
 
 Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er t.d. hægt að stjórna lotum með því að nota SQL Server Management Studio. Frekari upplýsingar er að finna í [tæknileg fylgiskjöl SQL Server](/sql/sql-server).  
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/users-security-dynamics-365-business-central/)
 
 ## Sjá einnig .
 

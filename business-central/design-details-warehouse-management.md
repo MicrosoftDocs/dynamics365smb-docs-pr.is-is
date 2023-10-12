@@ -68,7 +68,7 @@ Yfirleitt eru staðsetningar ákjósanlegri leið til að skipuleggja aðgerðir
 
 ### Hillur og hólf
 
-Ef vara er alltaf notuð á sama stað er hægt að  **nota hillu nr**. á  **birgðaspjaldinu**  eða  **síðum Birgðahaldseiningin** . Í þessum reit má grunna handvirka geymslukerfi í umhverfi án hólfa. Gildi svæðisins er afritað af birgðaspjaldinu í Fylgiskjalslínur og skýrslur en það er aðeins upplýst. Gildið er ekki notað í vöruhúsaaðgerðum eða útreikningum á framboði.
+Ef vara er alltaf notuð á sama stað er hægt að  **nota hillu nr.** á  **birgðaspjaldinu**  eða  **síðum Birgðahaldseiningin** . Í þessum reit má grunna handvirka geymslukerfi í umhverfi án hólfa. Gildi svæðisins er afritað af birgðaspjaldinu í Fylgiskjalslínur og skýrslur en það er aðeins upplýst. Gildið er ekki notað í vöruhúsaaðgerðum eða útreikningum á framboði.
 
 Hólar standa að uppbyggingu grunnvöruhúsa og eru nýttir til að gera tillögur um staðsetningu á vörum:
 
@@ -115,13 +115,13 @@ Eftirfarandi skjöl eru notuð í grunnvöruflæðinu.
 
 Eftirfarandi skjöl eru notuð í ítarlegum vöruhúsaflæði.
 
-* Móttaka vöruhúss
+* Vöruhúsamóttaka
 * Vinnublað frágangs
-* Vöruhús - Frágangur
+* Frágangur vöruhúss
 * Vinnublað tínslu
-* Vöruhús - Tína
+* Vöruhúsatínsla
 * Hreyfingavinnublað
-* Vöruhúsahreyfing
+* Vöruhúsatínsla
 * Innri Vöruhúsatiltekt
 * Innri vöruhúsafrágangur
 * Vinnublað hólfastofnunar
@@ -157,11 +157,11 @@ Staðsetningar sem nota beinan frágang og tínslu geta notað hólfagerðir. H�
 |Tegund hólfs|Heimildasamstæða|  
 |------------------|---------------------------------------|  
 |MÓTTAKA|Vörur sem eru mótteknar en eru ekki frágangs.|  
-|AFH|Vörur sem eru tíndar fyrir afhendingarlínur vöruhúss en eru ekki bókaðar sem afhentar.|  
+|SHIP|Vörur sem eru tíndar fyrir afhendingarlínur vöruhúss en eru ekki bókaðar sem afhentar.|  
 |FRÁGANGUR|Yfirleitt eru vörur til að geyma á stórum mælieiningum en ekki er óskað eftir aðgangi að tiltektartilgangi. Þessi hólf eru ekki notuð við tiltekt, annað hvort fyrir framleiðslupantanir eða afhendingar, þannig að notkun þeirra gæti verið takmörkuð. Þessi tegund af hólfi hentar vel þegar keypt er inn mikið magn af vörum. Hólfin eiga alltaf að vera með lágri hólfaflokkun þannig að aðeins sé gengið frá vörum með hærra flokkuð PUTPICK-hólf. Reglulega fylla þessi tegund hólfa þannig að vörur þeirra séu til í PUTPICK-eða PICK-hólfum.|  
-|TÍNA|Vörur sem aðeins eru notaðar í tínslu. Aðeins er hægt að nota hreyfingar við áfyllingu þessara hólfa, ekki frágangur.|  
-|FRÁGTÍN|Hlutir í hólfum sem eru lagðir fyrir bæði frágang og tínslu. Hólf af þessari tegund eru líklega með mismunandi hólfaflokkun. Setjið upp fjölhólfa geymsluhólf með neðra hólfi en venjuleg tínsluhólf eða hólf í tínt tiltektarsvæði.|  
-|GE|Þetta hólf er notað fyrir birgðaleiðréttingar ef þetta hólf er tilgreind á birgðageymsluspjaldinu í reitnum **Leiðréttingahólfskóði**. Einnig er hægt að setja upp hólf af þessari tegund fyrir gallaðar vörur og vörur sem teknar eru til skoðunar. Hægt er að flytja vörur í hólf af þessari tegund ef þær eiga ekki að vera tiltækar í venjulegu vöruflæði. **Til**   athugunar:  **Ólíkt öllum öðrum hólfstegundum hefur QC**  -hólfagerðin engin af vörumeðhöndlunargátunum sem sjálfgefnar eru. Efni sem sett er í QC-hólfið er útilokað frá vöruflæði.|  
+|TAKA TIL|Vörur sem aðeins eru notaðar í tínslu. Aðeins er hægt að nota hreyfingar við áfyllingu þessara hólfa, ekki frágangur.|  
+|PUTPICK|Hlutir í hólfum sem eru lagðir fyrir bæði frágang og tínslu. Hólf af þessari tegund eru líklega með mismunandi hólfaflokkun. Setjið upp fjölhólfa geymsluhólf með neðra hólfi en venjuleg tínsluhólf eða hólf í tínt tiltektarsvæði.|  
+|QC|Þetta hólf er notað fyrir birgðaleiðréttingar ef þetta hólf er tilgreind á birgðageymsluspjaldinu í reitnum **Leiðréttingahólfskóði**. Einnig er hægt að setja upp hólf af þessari tegund fyrir gallaðar vörur og vörur sem teknar eru til skoðunar. Hægt er að flytja vörur í hólf af þessari tegund ef þær eiga ekki að vera tiltækar í venjulegu vöruflæði. **Til**   athugunar:  **Ólíkt öllum öðrum hólfstegundum hefur QC**  -hólfagerðin engin af vörumeðhöndlunargátunum sem sjálfgefnar eru. Efni sem sett er í QC-hólfið er útilokað frá vöruflæði.|  
 
 Með undantekningunum TÍNSLU, PUTPICK og PUTAWAY hólfum skilgreinir hólfagerðin verkþátt leyfinnar fyrir hólf. Til dæmis er aðeins hægt að nota hólfategund til að taka á móti vörum eða taka vörur frá.  
 
@@ -186,7 +186,7 @@ Hólfaflokkun og innihald hólfs eru Grunneiginleikar sem leiðbeina starfsmönn
 
 Hægt er að tengja grunnmælieiningu (UOM) við vörur. Grunnuom gæti verið stykki, bretti, lítrar, grömm eða kassar. Einnig er hægt að búa til stærri Úmur miðað við grunnan UOM. Ef stykkið er til dæmis á grunni þess gæti bretti verið jafngilt 16 stykkjum.  
 
-Ef vara hefur fleiri en einn UOM skal stilla Hámarksmagn fyrir hvert UOM á birgðaspjaldinu. Ef þú ræður við vöru í stykkjum og brettum er Hámarksmagn  **í**  . Reiturinn á  **Hólfainnihaldssíðu**  fyrir þá vöru verður einnig að vera í stykkjum og brettum. Annars er leyft magn fyrir það hólf er ekki reiknað rétt.  
+Ef vara hefur fleiri en einn UOM skal stilla Hámarksmagn fyrir hvert UOM á birgðaspjaldinu. Ef þú ræður við vöru í stykkjum og brettum er Hámarksmagn  **í**  .Reiturinn á  **Hólfainnihaldssíðu**  fyrir þá vöru verður einnig að vera í stykkjum og brettum. Annars er leyft magn fyrir það hólf er ekki reiknað rétt.  
 
 Áður en afkastatakmarkanir á afkastagetu fyrir innihald hólfs eru stilltar skal ganga úr skugga um að UOM og víddir vörunnar séu settar upp á vörunni.  
 
@@ -230,8 +230,6 @@ Vöruhúsaaðgerðum í öllum tínslu-og hreyfingarskjölum er raðað samkvæm
 #### Frágangssniðmát
 
 Sniðmát frágangs tilgreina safn forgangsreglna sem eiga við þegar frágangur er stofnaður. Til dæmis getur frágangssniðmát krafist þess að vörur séu settar í hólf með hólfainnihaldi sem hefur sama UOM. Ef ekki finnst nægilegt hólf fyrir sams konar afkastagetu verður að setja vöruna í tómt hólf. Sniðmáti er úthlutað til frágangs á vöru og staðsetningu.  
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
 
 ## Sjá einnig .
 

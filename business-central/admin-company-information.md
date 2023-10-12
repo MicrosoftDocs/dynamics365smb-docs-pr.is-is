@@ -1,14 +1,17 @@
 ---
-title: Yfirlit fyrirtækjaupplýsinga
+title: Yfirlit yfir Fyrirtækjaupplýsingar
 description: 'Síða fyrirtækjaupplýsinga sýnir grunnupplýsingar um viðskiptaeiningu, t.d. nafn, aðsetur og sendingarupplýsingar.'
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.search.form: 1
-ms.date: 08/31/2022
-ms.author: bholtorf
+ms.date: 09/24/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
-# Yfirlit fyrirtækjaupplýsinga
+# Yfirlit yfir Fyrirtækjaupplýsingar
 
 [!INCLUDE[prod_short](includes/prod_short.md)] skipuleggur viðskiptaeiningar í *fyrirtækjum*. Fyrir hvert fyrirtæki þarf að fylla út nokkrar grunnupplýsingar um fyrirtækið og tilheyrandi upplýsingar á síðunni **Fyrirtækjaupplýsingar**. Upplýsingarnar á síðunni [**Fyrirtækjaupplýsingar**](https://businesscentral.dynamics.com/?page=1) eru notaðar í skjölum eins og fyrirsögnum reikninga. Hægt er að setja upp fleiri en eitt fyrirtæki, s.s. móðurfyrirtæki og dótturfyrirtæki.  
 
@@ -34,6 +37,10 @@ Ef [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur mörg fyrirtæki g
 
 :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Sýnir tákn fyrirtækjaskiptis í haus Business Central-biðlarans":::  
 
+Byrjað í 2023 2, útgáfa 23, merki fyrirtækisins birtist í vafraflipanum þegar vefbiðlarinn er notaður. Það er einnig innifalið í síðutenglum sem þú  [afritar og klífur](across-share-data-features.md#copying-a-link)  í ritstýrður textar, eins og Word, Outlook og hópefli.
+ 
+### Setja fyrirtækinu merki
+
 Með því að nota síðuna **Fyrirtækjaupplýsingar** geturðu skipt út stöðluðu fyrirtækistákni fyrir sérsniðið upplýsingatákn fyrir hvert fyrirtækis fyrir sig ef upplýsingatáknið auðveldar notendum að bera kennsl á fyrirtækið sem þeir eru að vinna í.
 
 1. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Fyrirtækismerki**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -53,8 +60,6 @@ Heiti fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðger
 ## Upplifun
 
 Sjálfgefin upplifun notanda í [!INCLUDE [prod_short](includes/prod_short.md)] prufuútgáfunni sýnir ekki alla möguleika. Þú getur kveikt á allri upplifuninni á síðunni **Fyrirtækjaupplýsingar**. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## Sjá einnig .
 

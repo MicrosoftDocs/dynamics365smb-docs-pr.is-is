@@ -42,8 +42,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
-
 ## Sjá einnig .
 
 [Nota Samþykktarverkflæði](across-use-workflows.md)  

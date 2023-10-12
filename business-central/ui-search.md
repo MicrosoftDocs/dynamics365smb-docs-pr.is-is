@@ -3,78 +3,95 @@ title: Finna síður og upplýsingar (inniheldur myndskeið)
 description: 'Þessi grein lýsir því hvernig á að nota leit til að finna aðgerðir, síður, skýrslur, skjöl og gögn og önnur forrit og ráðgjafarþjónustu.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: find
+ms.search.keywords: 'find, Tell Me, search'
 ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/13/2022
+ms.date: 06/14/2023
 ms.author: bholtorf
 ---
-# <a name="finding-pages-and-information-with-tell-me"></a>Finndu síður og upplýsingar með Viðmótsleit
+# Finndu síður og upplýsingar með Viðmótsleit
 
-Þessi grein lýsir því hvernig leitarreiturinn *Viðmótsleit* í vörunni getur hjálpað þér að komast hratt í hluti eins og aðgerðir, síður eða skýrslur, finna upplýsingar um hvernig á að ljúka ákveðnu verki og uppgötva önnur forrit og ráðgjafarþjónustur fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
+Þessi grein lýsir því hvernig í vöruleitinni,  *Segðu mér hvað þú vilt gera*, getur hjálpað þér: 
 
+* Fara fljótt í hluti eins og aðgerðir, síður eða skýrslur.
+* Leita að tilteknum gögnum, annað hvort á listasíðu eða í öllum [!INCLUDE [prod_short](includes/prod_short.md)].
+* Finndu  [!INCLUDE [prod_short](includes/prod_short.md)]  fylgigögn með efni sem þú hefur áhuga á.
+* Uppgötvaðu önnur forrit og ráðgjafarþjónustu fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
+<!-- ![!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048] -->
 
-Þegar þú þarft aðstoð við að finna eitthvað skaltu nota ![Segðu mér hvað þú vilt gera.](media/ui-search/search.png "Leit að síðu eða skýrslu") **Segðu mér hvað þú vilt gera** táknið til að leita að því. Einnig er hægt að nota  <kbd>Alt</kbd>+<kbd>Q</kbd>  til að byrja að nota.
+Þegar þú þarft aðstoð við að finna eitthvað skaltu nota  ![Segðu mér hvað þú vilt gera.](media/ui-search/search.png "Leit að síðu eða skýrslu") **Leitarteikn**  til að leita að því. Einnig er hægt að nota  <kbd>Alt</kbd>+<kbd>Q</kbd>  til að hefja leit.
 
-Þegar þú byrjar að skrifa stafi birtir [!INCLUDE[prod_short](includes/prod_short.md)] strax samsvörun. Niðurstöður í listanum breytast þegar þú skrifar fleiri stafi. Ef þú tekur eftir því að þegar þú slærð inn orðið „afurð“ og niðurstöðurnar innihalda **Vörur**, er það vegna þess að Viðmótsleitin notar samheiti og önnur leitarorð til að auðvelda að finna aðgerðir, síður og skýrslur.
+Þegar þú byrjar að skrifa stafi á  **Segðu mér hvað þú vilt gera**  síðu,  [!INCLUDE[prod_short](includes/prod_short.md)]  birtir strax samstæður. Niðurstöður í listanum breytast þegar þú skrifar fleiri stafi. Ef þú tekur eftir því þegar orðið  *Vara*  er slegið inn og niðurstöðurnar innihalda  *vörur*, það er vegna þess að leitað notar samhangandi og varaleitarskilmála til að auðvelda leit að aðgerðum, síðum og skýrslum.
 
 Hægri dálkurinn tilgreinir almennan flokk af niðurstöðum. Til dæmis, hvort það mun opna listasíðu eða er stjórnsýsluverk.  
 
-Neðst á síðunni **Viðmótsleit** opnar aðgerðin **skoða síður og skýrslur** eiginleikayfirlit sem sýnir þér alla tiltæka eiginleika fyrir hlutverkið þitt eða fyrir öll hlutverk. Frekari upplýsingar eru í [Að finna síður með hlutverkaleit](ui-role-explorer.md).
+Neðst  **á Segðu mér hvað þú vilt gera**  síðu,  **Skoða síðurnar og skýrsla**  Aðgerð Opnar yfirlit sem sýnir þér tiltæka möguleika fyrir þitt hlutverk eða öll hlutverk. Frekari upplýsingar eru í [Að finna síður með hlutverkaleit](ui-role-explorer.md).
 
-> [!NOTE]  
-> Ef þú vilt nota lyklaborðið skaltu nota dálkalykilinn og örvatakkana til að velja atriði í niðurstöðum. Ef þú velur  <kbd>Enter</kbd>  takkann á lyklaborðinu án þess að velja niðurstöðu,  [!INCLUDE[prod_short](includes/prod_short.md)]  opnar útkoman sem er skráð fyrst.
+> [!TIP]  
+> Ef þú vilt frekar nota lyklaborðið skaltu nota  <kbd>TAB</kbd>  -lykilinn og  <kbd>örvalykla</kbd>  til að velja atriði í niðurstöðunum. Ef þú velur  <kbd>Enter</kbd>  takkann á lyklaborðinu án þess að velja niðurstöðu,  [!INCLUDE[prod_short](includes/prod_short.md)]  opnar útkoman sem er skráð fyrst.
 
-[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+ **Þú segir hvað þú vilt gera**  síðuflokkun út frá gögnunum sem þú færð inn og síðuna sem þú ert að vinna í. Í eftirfarandi köflum er lýst flokkunum.
 
-## <a name="find-an-action-on-the-current-page"></a>Finna aðgerð á núverandi síðu
+## Finna aðgerð á núverandi síðu
 
-Í hlutanum **Núverandi síða** geturðu fundið og unnið í síðunni sem þú opnaðir. Til dæmis, ef síðan **Sölutilboð** er opin og þú skrifar „viðskiptamaður“, inniheldur hlutinn aðgerð sem opnar viðskiptamannskortið fyrir þann viðskiptamann sem valinn er í sölutilboði.
+Í  **gildandi síðukafla**  er hægt að finna aðgerðir á síðunni sem opnaðar hafa verið. Ef  **sölutilboðið**  síðan er til dæmis opið og ritað er "Viðskiptamaður" felur Kaflinn aðgerð sem opnar kortatsíðu viðskiptamanns fyrir viðskiptavininn sem valinn er í sölutilboðinu.
 
 > [!NOTE]  
 > Listinn inniheldur aðeins aðgerðir sem eru tiltækar í yfirlitsstikunni efst á síðunni. Aðgerðir á flýtiflipum eru ekki innifalin.  
 
-## <a name="find-a-page-or-a-task"></a>Finna síðu eða verkefni
+## Finna síðu eða verkefni
 
 Niðurstöðurnar í hlutanum **Fara í síður og verkefni** veita aðgang að öðrum síðum og leyfa þér að framkvæma verkefni eða leita að upplýsingum. Ef þú notar þessar síður oft er hægt að velja bókamerkjatáknið til að bæta við tengli á einhverja síðu í Mitt hlutverk. Frekari upplýsingar er að finna á [bæta Síðuaðgerð við Mitt hlutverk](ui-bookmarks.md).
 
-Síður og verkefni sem eru skráðar eru háð þeirri reynslu notenda sem þú valdir fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Úrvals** upplifun gerir. Í fyrsta sinn sem þú skráir þig inn notarðu **Essential** upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[prod_short](includes/prod_short.md)] upplifun](ui-experiences.md).
+Síður og verkefni sem eru skráðar eru háð þeirri reynslu notenda sem þú valdir fyrir fyrirtækið þitt.  **Innra**  reynslan gefur aðgang að færri síðum og verkefnum en  **iðgjaldareynslan**  gerir. Í fyrsta sinn sem þú skráir þig inn notarðu **Essential** upplifunina. Til að fræðast meira um notendaupplifanir er farið í að  [Sérsníða  [!INCLUDE[prod_short](includes/prod_short.md)]  upplifun](ui-experiences.md).
 
-## <a name="find-a-report-or-archived-information"></a>Finna skýrslu eða safnvistaðar upplýsingar
+## Finna skýrslu eða safnvistaðar upplýsingar
 
 **Fara í skýrslur og greiningu** kafla býður aðgang að skýrslugerðartólum. Til dæmis getur þú opnað **Efnahagsreikningur** skýrsluna af listanum eða fengið aðgang að safnvistuðum skjölum og öðrum upplýsingum.  
 
-## <a name="find-information-in-the-help"></a>Finna upplýsingar í hjálpinni
+## Finna færslu eða leita í fylgigögnum
 
-Undir **Fylgigögn** birtist tengill til að endurtaka leitina í fylgigögnum Microsoft. Ef tengillinn er valinn opnast hjálparsvæðið og sýnir leitarniðurstöður.  
+ **Leitin  \<keyword\>**  að hluta  [!INCLUDE [prod_short](includes/prod_short.md)]  býður upp á tvær leiðir til að leita að:
 
-> [!NOTE]  
-> Fylgiskjöl fyrir viðbót þriðja aðila er ekki innifalið í niðurstöðum.
+*  **Notaðu gagnaaðgerð**  leitarfyrirtækisins til að leita í öllum síðum í [!INCLUDE [prod_short](includes/prod_short.md)].
+*  **Notaðu aðgerðina leita í Hjálp**  til að finna grein í Central skjölum Business sem inniheldur lykilorðið þitt.
 
-## <a name="get-more-functionality-from-apps"></a>Fáðu meiri virkni úr forritum
+  > [!NOTE]  
+  > Leitarniðurstöður þínar taka ekki með fylgigögn með viðauka fyrir þriðja aðila.
+
+### Notaðu Segðu hvað þú vilt gera
+
+ ![Notaðu Segðu mér hvað þú vilt gera.](media/ui-search/search.png "Leit að síðu eða skýrslu") **Leitartákn**  til að leita að gögnum yfir [!INCLUDE [prod_short](includes/prod_short.md)]. Til dæmis er hægt að finna viðskiptavin með því að færa inn nafn eða aðsetur hans eða jafnvel finna tiltekna færslu, til dæmis sölupöntun. Einnig er hægt að nota hann til að finna upplýsingar í fylgigögnum okkar.
+
+Sláðu inn að minnsta kosti þrjá stafi af lykilorði og veldu annaðhvort  **gögn**  eða  **Hjálp** í leit að fyrirtæki.
+
+* Ef leitað er að gögnum birtast niðurstöður á  **leitinni á gagnasíðu**  fyrirtækis þar sem þeim er raðað eftir gerð.  
+* Ef þú leitar í Hjálp  **til okkar býður hjálparrúðan**  upp á tengla í greinar sem innihalda leitarorðin þín. Þú munt einnig fá búgrein úr greininni sem getur hjálpað þér að ákveða hvort það er það sem þú hefur áhuga á.
+
+> [!NOTE]
+> Fyrir gögn, sem leita að öllu í  [!INCLUDE [prod_short](includes/prod_short.md)]  gæti tekið tíma. Til að flýta fyrir niðurstöðum er notuð  **Sýna töflur til að leita**  aðgerða til að velja töflurnar og svæðin sem á að taka með í leitinni. Töflurnar og reitirnir sem hægt er að velja á milli eru mismunandi eftir „Mínu hlutverki“. Allar töflur og reitir eru sjálfgefið valið, sem getur hægt á leitinni. Mælt er með að þú undanskiljir eins margar töflur og reiti og þú getur.
+
+[!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]
+
+## Fáðu meiri virkni úr forritum
 
 Samfélag samstarfsaðila okkar er að þróa forrit á fullu sem bæta möguleikum við [!INCLUDE[prod_short](includes/prod_short.md)]. Hlutinn **Fá frá Microsoft AppSource** birtir forrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] sem eru í boði á Microsoft AppSource og tengjast leitarorðinu sem þú leitaðir eftir.
 
-## <a name="search-for-data"></a>Leita að gögnum
+### Nota leit á listasíðum
 
-**Segðu mér hvað þú vilt gera** eiginleikinn leitar ekki að gögnum, svo sem heiti viðskiptamanna, heimilisföng eða færslur. Í staðinn er hægt að leita að gögnum á listasíðum með því að velja ![Leitarlisti](media/ui-search/search-list.png "Tákn fyrir leitarlista") **Leit** táknið í vinstra horninu á listahausnum. Leitin á aðeins við um listann sem verið er að skoða. Nánari upplýsingar er að finna í [Flokkun, leit og síunarlistar](ui-enter-criteria-filters.md).  
+Það er ekki skylt að segja mér hvað þú vilt gera, en annars er önnur leið til að leita að tilteknum gögnum. Þegar verið er að nota listasíðu er hægt að nota  ![reitinn leita í leitarlista](media/ui-search/search-list.png "Tákn fyrir leitarlista") **·**  í vinstra horninu listasíðuhausar til að leita að gögnum á síðunni. Leitin á aðeins við um listann sem verið er að skoða. Til að fræðast meira um vinnu með gögn á listasíðum er farið í að  [raða, leita og sía lista](ui-enter-criteria-filters.md).  
 
 > [!TIP]
-> Frá og með 2022 útgáfutímabili 2 er hægt að leita að bókuðum skjalalínum eins og reikningslínum, kreditreikningslínum, afhendingarlínum og innhreyfingarlínum. Leitaðu að gerð skjalalína sem þú vilt finna og bókamerktu svo tenglana í skjölin á heimasíðunni fyrir auðveldan aðgang í upprunalegt eða síað yfirlit. Frekari upplýsingar eru í [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md).
+> Hægt er að leita að bókuðum fylgiskjalslínum, svo sem reikningslínum, kreditreikningslínum, afhendingarlínum og móttökulínum. Leitaðu að gerð skjalalína sem þú vilt finna og bókamerktu svo tenglana í skjölin á heimasíðunni fyrir auðveldan aðgang í upprunalegt eða síað yfirlit. Frekari upplýsingar eru í [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md).
 
-## <a name="questions"></a>Einhverjar spurningar?
+## Einhverjar spurningar?
 
-Við höfum sýnt Viðmótsleit frá ýmsum hagsmunaaðilum, bent á spurningarnar sem þeir höfðu sameiginlegt og breytt athugasemdum okkar í lista yfir algengar spurningar. Ef þú hefur áhuga skaltu skoða [Algengar spurningar um viðmótsleit](ui-search-faq.md).
+Við höfum sýnt að leitað var til sviða hagsmunaaðila, sett fram spurningar sem þeir áttu sameiginlegt og sneru skýringum okkar að lista yfir Algengar spurningar. Ef þið eruð áhugasamir, farið þá að  [segja mér FAQ](ui-search-faq.md).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Vinna með Business Central](ui-work-product.md)  
 [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)  
 [Vista og sérsníða listayfirlit](ui-views.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

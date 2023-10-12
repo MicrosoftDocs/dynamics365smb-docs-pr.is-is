@@ -126,8 +126,6 @@ Bókunarflokkar eru með ítarlegustu hlutunum til að setja upp í [!INCLUDE[pr
 > [!NOTE]
 > Villumeðhöndlunin sem lýst er hér að ofan er ekki í boði fyrir vöru, tilfang, starfsmann og færslubók eigna eða fyrir fjárhagslykla sem bætt er við í staðbundnum útgáfum bókunarflokka.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/posting-groups-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  

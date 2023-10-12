@@ -62,9 +62,7 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 | Samþykktarbeiðni fyrir verk, sem samþykktaraðili samþykkirðu, hafnarðu eða úthlutar samþykktum, og sendir eða ferð yfir samþykktartilkynningar. | [Hvernig á að nota samþykktarverkflæði](across-how-use-approval-workflows.md) |
 | Stofnaðu verkflæðisskref sem takmarka að ákveðin færslugerð sé notuð áður en tiltekið tilvik á sér stað, til dæmis að færsla sé samþykkt. | [Takmarka og heimila notkun á færslu](across-how-to-restrict-and-allow-usage-of-a-record.md) |
 | Skoðaðu tilvik verkflæðisskrefa með stöðuna **Lokið**. | [Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md) |
-| Eyddu samþykktarverkflæði sem verður ekki notað aftur. | [Eyða samþykktarverkflæðum](across-how-to-delete-workflows.md) |
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-workflows/)
+| Eyddu samþykktarverkflæði sem verður ekki notað aftur. | [Eyða verkflæði samþykkta](across-how-to-delete-workflows.md) |
 
 ## Sjá einnig .
 

@@ -120,8 +120,6 @@ Síðan **OCR-gagnalreiðrétting**, sem er opnuð af síðunni **skjal á innle
 
 Reitirnir í flýtiflipanum **Fjárhagsupplýsingar** á síðunni **Skjal á innleið** eru uppfærðir með öllum nýjum gildum sem færð voru ínn í skrefi 4.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Stofna færslur skjala á innleið](across-how-create-income-document-records.md)

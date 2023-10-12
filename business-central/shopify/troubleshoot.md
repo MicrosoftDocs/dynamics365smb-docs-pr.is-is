@@ -10,41 +10,51 @@ ms.custom: bap-template
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
 ---
 
-# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Úrræðaleit fyrir samstillingu Shopify og Business Central
+# Úrræðaleit fyrir samstillingu Shopify og Business Central
 
 Þú gætir keyrt inn í aðstæður þar sem þú þarft að leita úrræða þegar gögn eru samstillt á milli  Shopify  og [!INCLUDE[prod_short](../includes/prod_short.md)]. Þessi síða skilgreinir villuleitarskref fyrir nokkrar dæmigerðar aðstæður.
 
-## <a name="run-tasks-in-the-foreground"></a>Verk keyrð í forgrunni
+## Verk keyrð í forgrunni
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Shopify Verslun** og veldu tengda tengilinn.
 2. Veljið verkstæðið sem á að leita að við úrræðaleit til að opna  **Shopify  Vinnukortasíðuna** .
 3. Slökkva á  **samsetlun**  Allow bakgrunns.
 
-Þegar samstillingaraðgerðin er ræst verður verkið keyrt í forgrunni. Ef villa kemur upp, færðu villusvarglugga með  **hlekknum afrita upplýsingar** . Notið tengilinn til að afrita upplýsingar í textaritli fyrir nánari greiningu.
+Nú þegar samstillingaraðgerðin er ræst keyrir verkið í forgrunni. Ef villa kemur upp verður til villugluggi með  **tengli afrita upplýsingar** . Notaðu tengilinn til að afrita upplýsingar í textaritli til að fá frekari greiningu.
 
-## <a name="logs"></a>Skrár
+## Skrár
 
-Ef samstillingarverk mistekst er hægt að kveikja á  **kladda virkt**  skipta á  **Shopify  síðunni verkstæðisspjald**  til að virkja innskráningu. Þá geturðu handvirkt ræst samstillingarverkið og yfirfarið skrár.
+Skráningaraðgerðirnar geta gert það auðveldara að greina hvers vegna Villa kom upp.  **Shopify Á Vinnukortssíðunum**, í  **reitnum skráningarhamur**, er hægt að tilgreina upplýsingastig sem á að handtaka um villur. Í reitnum eru Eftirtaldir valkostir:
 
-### <a name="manage-log-entry-data"></a>Til að gera innskráningu virka
+- **Óvirkt**  -skráir ekki upplýsingar um villur.
+- **Villa aðeins**  -skrá Aðeins villuboðin, án beiðna/svarpara. Þessi stilling er sjálfgefin fyrir nýjar verslanir.
+- **Öll**  -skrá inn beiðni/svarpara fyrir öll viðskipti, þar á meðal þau sem tókst.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Shopify Verslun** og veldu tengda tengilinn.
-2. Veljið verkstæðið sem á að leita að við úrræðaleit til að opna  **Shopify  Vinnukortasíðuna** .
-3. Kveikja á  **kladdavirkjanum**  skipta.
+> [!NOTE]
+> Hægt er að hægja  [!INCLUDE [prod_short](../includes/prod_short.md)] á skógarvillum. Til að forðast það er hægt að kveikja á innskráningu þegar búið er að finna villu í samstillingunni. Hægt er að ræsa samstillingu handvirkt aftur og skoða síðan kladdann til að komast að því hvað fór úrskeiðis.
 
-### <a name="to-review-logs"></a>Að yfirfara kladda
+### Stjórna gögnum kladdafærslu
+
+Til að hjálpa til við að halda Stærð gagnagrunns undir eftirliti eru kladdafærslur hafðar með í varðveislureglu gagna sem nefnast  **shpfy kladdafærsla**. Varðveislureglur Leyfðu þér að tilgreina hversu lengi þú vilt geyma mismunandi tegundir gagna. Skráningarfærslum er sjálfkrafa  Shopify  haldið í einn mánuð. Til að fræðast meira um varðveislustefnur er farið í að  [Skilgreina varðveislureglur](../admin-data-retention-policies.md).
+
+Á  **Shopify  síðunni kladdafærslur**  er einnig hægt að eyða öllum kladdafærslum eða bara færslunum sem eru eldri en sjö daga.
+
+### Að yfirfara kladda
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Shopify Skráarfærslur** og veldu viðkomandi tengil.
 2. Valin er tengd kladdafærsla og síðan er  **Shopify  síðan opnuð kladdafærsla** .
-3. Farðu yfir beiðnina, stöðukóðann og lýsinguna og svargildin. Hægt er að sækja beiðnina og svargildin sem skrár á textaformi.
+3. Farðu yfir beiðnina, stöðukóðann og lýsinguna og svargildin.
 
-Síðar þarf að muna að slökkva á innskráningu til að forðast neikvæð áhrif á afköst og aukningu í gagnagrunnsstærð.
+> [!TIP]
+> Ef þú verður að hafa samband  Shopify  til að leita að hjálp við úrræðaleit skaltu hafa í huga upplýsingarnar í  **REITNUM beiðakenni** . Að upplýsingar geti hjálpað til við að leysa málið á skjótan hátt.
 
- **Shopify Á síðunni kladdafærslur**  er hægt að kalla fram eyðingu allra kladdafærslna, eða færslna sem eru eldri en sjö daga.
+Hægt er að sækja beiðnina og svargildin sem skrár á textaformi.
 
-## <a name="data-capture"></a>Gagnataka
+Til að forðast áhrif á afköst og Stærð gagnagrunns skal íhuga hvort slökkva eigi á innskráningu.
 
-Sum  **svör eru alltaf skráð án tillits til hvort**  Innskráning er virk Shopify . Hægt er að skoða eða sækja kladda af  **listasíðunni**  gagnatökun.
+## Gagnataka
+
+Sum  Shopify  svör eru alltaf skráð án tillits til þess hvort kveikt sé á innskráningu. Hægt er að skoða eða sækja kladda af  **listasíðunni**  gagnatökun.
 
 Veldu aðgerðina **Sótti Shopify gögn** á einni af eftirfarandi síðum:
 
@@ -61,13 +71,13 @@ Veldu aðgerðina **Sótti Shopify gögn** á einni af eftirfarandi síðum:
 - **Shopify greiðslufærslur**
 - **Shopify færslur**
 
-## <a name="reset-sync"></a>Endurstilla samstillingu
+## Endurstilla samstillingu
 
 Fyrir bestan árangur flytur Connector eingöngu viðskiptavini, vörur og pantanir sem voru stofnaðar eða breytt eftir síðustu samstillingu.  **Shopify Á Vinnukortssíðunni**  eru aðgerðir sem breyta dagsetningu/tíma síðustu samstillingar eða algjörlega endurstilla þær. Þessi aðgerð tryggir að öll gögn samstillir frekar en breytingarnar frá síðustu samstillingu.
 
 Þessi aðgerð á aðeins við um samstillingar úr Shopify í [!INCLUDE[prod_short](../includes/prod_short.md)]. Það getur verið gagnlegt ef þú þarft að endurheimta eydd gögn eins og vörur, viðskiptamenn eða eyddar pantanir.
 
-## <a name="request-the-access-token"></a>Biðja um aðgangslykilinn
+## Biðja um aðgangslykilinn
 
 Ef [!INCLUDE[prod_short](../includes/prod_short.md)] vill ekki tengjast Shopify reikningnum þínum skaltu prófa að biðja um aðgangslykilinn frá Shopify. Það gæti þurft að biðja um nýtt tákn ef breytingar voru gerðar á öryggislyklum eða nauðsynlegum heimildum (Application umfang).
 
@@ -76,37 +86,37 @@ Ef [!INCLUDE[prod_short](../includes/prod_short.md)] vill ekki tengjast Shopify 
 3. Veldu aðgerðina **Biðja um aðgang**.
 4. Skráðu þig inn á Shopify reikninginn þinn ef beðið er um það.
 
-Víxlhnappurinn **Er með aðgangslykil** verður gerður virkur.
+ **Búið er að kveikja á AccessKey**  -víxli.
 
-## <a name="verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment"></a>Sannreyna og virkja heimildir til að gera HTTP beiðnir í umhverfi sem er ekki í framleiðslu
+## Sannreyna og virkja heimildir til að gera HTTP beiðnir í umhverfi sem er ekki í framleiðslu
 
-Til að vinna rétt  Shopify  þarf tengivirkið leyfi til að gera HTTP beiðnir. Við prófun í sandkassa eru HTTP-beiðnir bannaðar fyrir öllum viðaukum.
+Til að vinna rétt  Shopify  þarf tengivirkið leyfi til að gera HTTP beiðnir. HTTP-beiðnir eru bannaðar fyrir öllum viðaukum þegar þú keyrir próf í sandkassa umhverfi.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **Framlengingarstjórnun** og velja síðan tengda tengilinn.
 2. Veldu viðbótina **Shopify tengill**.
 3. Veldu aðgerðina **Grunnstilla** til að opna síðuna **Stilling viðbótar**.
 4. Gakktu úr skugga um víxlhnappurinn **Leyfa HttpClient-beiðnir** sé virkur.
 
-## <a name="rotate-the-shopify-access-token"></a>Snúðu Shopify aðgangslyklinum
+## Snúðu Shopify aðgangslyklinum
 
 Eftirfarandi ferlar lýsa því hvernig á að snúa aðgangslyklinum sem Shopify tengillinn notar til að komast inn í Shopify netverslunina þína.
 
-### <a name="in-shopify"></a>Eftir Shopify
+### Eftir Shopify
 
 1. Úr **Shopify stjórnandi** skaltu fara í [Forrit](https://www.shopify.com/admin/apps).
 2. Veldu **Eyða** í línunni með **Dynamics 365 Business Central** forritinu.
 3. Veldu **Eyða** í skilaboðunum sem birtast.
 
-### <a name="in-"></a>Eftir [!INCLUDE[prod_short](../includes/prod_short.md)]
+### Eftir [!INCLUDE[prod_short](../includes/prod_short.md)]
 
-1. Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **Shopify  verslanir** og veljið síðan tengda tengilinn.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **Shopify  verslanir** og veljið síðan tengda tengilinn.
 2. Veldu verslunina sem þú vilt snúa aðgangslyklinum fyrir til að opna síðuna **Shopify verslunarkort**.
 3. Veldu aðgerðina **Biðja um aðgang**.
 4. Ef beðið er um það skaltu skrá þig inn á Shopify reikninginn þinn, fara yfir persónuvernd og heimildir og velja svo hnappinn **Setja upp forrit**.
 
-## <a name="known-issues"></a>Þekkt vandamál
+## Þekkt vandamál
 
-### <a name="error-the-sales-header-does-not-exist-identification-fields-and-values-document-typequotenoyour-shopify-store"></a>Villa: söluhaus er ekki til. Auðkennissvæði og-gildi: skjalagerð = ' tilboð ', Nr. = ' SHOPIFY STORE ' '
+### Villa: söluhaus er ekki til. Auðkennissvæði og-gildi: skjalagerð = ' tilboð ', Nr. = ' SHOPIFY STORE ' '
 
 Til að reikna út verð  Shopify  stofnar tengivirkið tímabundið söluskjal (tilboð) fyrir tímabundinn viðskiptavin (Vinnukóta) og notar stöðluðu reiknirökin fyrir verð. Ef um er að ræða framlengingu þriðja aðila á viðburðum í tímabundnu söluskjali gæti verið að hausinn sé tiltækur. Við mælum með því að hafa samband við framlengingarveitu. Biðja þá um að breyta kóðanum sínum til að leita að tímabundnum færslum. Í sumum tilfellum þurfa þeir bara að bæta við  `IsTemporary`  aðferðinni Ìn á réttum stað. Til að fræðast meira um  `IsTemporary` er farið í  [þykkvasafn](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
 
@@ -128,26 +138,26 @@ AL-kallstafli:
 
 Munið að deila símtalinu með upplýsingum um birgi nafnaukann.
 
-### <a name="error-gen-bus-posting-group-must-have-a-value-in-customer-your-shopify-store-it-cannot-be-zero-or-empty"></a>Villa: gen. Strætisvagn. bókunarflokkur verður að hafa gildi í Customer: ' SHOPIFY STORE '. Það má ekki vera núll eða autt
+### Villa: gen. Strætisvagn. bókunarflokkur verður að hafa gildi í Customer: ' SHOPIFY STORE '. Það má ekki vera núll eða autt
 
  **Shopify Á vinnukortasíðunni**, í  **reitnum sniðmát sniðmáts**  viðskiptamanns, skal velja sniðmátið sem hefur  **gen. viðsk. bókunarflokks** . Sniðmát viðskiptamanns er notað til að stofna viðskiptamenn og reikna söluverð á söluskjölum.
 
-### <a name="error-importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Villa: Innflutningur á gögnum til  Shopify  verkstæðis er ekki virkjaður. Opnaðu verslunarkortið til að virkja hann
+### Villa: Innflutningur á gögnum til  Shopify  verkstæðis er ekki virkjaður. Opnaðu verslunarkortið til að virkja hann
 
  **Shopify Á Vinnukortasíðunni**  er kveikt á reitnum  **heimila samkeyrslu til að  Shopify**  skipta. Þessi stilling hjálpar til við að vernda vefverslunina með því að sækja sýnigögn [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### <a name="error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Villa:  Oauth  villa invalid_request: Ekki tókst að finna  Shopify  API-forrit með api_key
+### Villa:  Oauth  villa invalid_request: Ekki tókst að finna  Shopify  API-forrit með api_key
 
 Svo virðist sem þú notir [Innleiða forrit](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) þar sem vefslóð biðlara er á sniðinu:`https://[application name].bc.dynamics.com`. Tengillinn Shopify virkar ekki fyrir „Innleiða forrit“. Til að fá frekari upplýsingar er farið í  [hvaða Microsoft-vörur eru tengivirkið sem er  Shopify  tiltækt?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
-### <a name="error-internal-error-looks-like-something-went-wrong-on-our-end-request-id-xxxxxxxx-xxxx-xxxx-xxxx-xxxx"></a>Villa: Innri villa. Svo virðist sem eitthvað hafi farið úrskeiðis á endanum. Óska eftir auðkenni: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+### Villa: Innri villa. Svo virðist sem eitthvað hafi farið úrskeiðis á endanum. Óska eftir AUÐKENNI: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
-Vinsamlegast hafðu samband  Shopify  við þig innan 7 daga frá því að upplifa þessa villu og Gefðu upp kenni beiðninnar. Til að fá frekari upplýsingar er farið í  [stuðningsvalkosti Shopify](shopify-faq.md#shopify).
+Hafa skal samband  Shopify  innan sjö daga frá því að reynsla er komin á þessa villu og gefa upp BEIÐAKENNIÐ. Til að fá frekari upplýsingar er farið í  [stuðningsvalkosti Shopify](shopify-faq.md#shopify).
 
-### <a name="error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app"></a>Villa:  Oauth  villa invalid_request: reikningurinn hefur ekki heimild til að veita umbeðna aðgang fyrir þetta App.
+### Villa:  Oauth  villa invalid_request: reikningurinn hefur ekki heimild til að veita umbeðna aðgang fyrir þetta App. 
 
 Notandinn sem biður um aðgang hefur ekki réttindi til að stjórna forritum (getu til að stjórna og setja upp forrit og rásir) auk þess að samþykkja forritagjöld. Hugsanlega er hægt að leysa þetta vandamál með því að setja upp App sem reikningseigandinn. Einnig er hægt að kanna  **App-heimildina**  fyrir notandann í  [**stillingum notanda og heimildum**](https://www.shopify.com/admin/settings/account)  í  **Shopify  admin**.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Hafist handa með tengilinn fyrir Shopify](get-started.md)

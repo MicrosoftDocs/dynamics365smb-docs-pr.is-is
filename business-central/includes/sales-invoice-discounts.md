@@ -9,7 +9,7 @@ ms.author: bholtorf
 Afslátturinn er reiknaður út frá öllum línum í söluskjalinu þar sem hakað er í gátreitinn **Leyfa reikningsafslátt**. Reikningsafslættir eru sjálfgefið leyfðir. Línur með kostnaðarauka eru hins vegar til dæmis ekki teknar með í útreikningi reikningsafsláttar. Til að nota afslátt á slíkar línur skal færa inn gildi í reitinn **Línuafsláttarupphæð** í línunum.  
 
 > [!NOTE]
-> Reitirnir **Leyfa reikningsafsl.** og **Línuafsláttarupphæð** eru sjálfgefið faldir í línum. Ef reitirnir eru ekki tiltækir geturðu bætt þeim við með því að sérsníða síðuna. Frekari upplýsingar eru í [Sérstilling verksvæðis](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Reitirnir **Leyfa reikningsafsl.** og **Línuafsláttarupphæð** eru sjálfgefið faldir í línum. Ef reitirnir eru ekki tiltækir geturðu bætt þeim við með því að sérsníða síðuna. Sjá  [Sérsníða vinnusvæðið til að fá frekari upplýsingar](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
 > Ef reiturinn **Reikna reikn.afsl.** er valinn á síðunni **Sölugrunnur** þá hefur reikningsafslátturinn verið reiknaður sjálfvirkt. Þegar útreikningurinn er mismunandi, eftir því um hvers konar söluskjal er að ræða.

@@ -9,7 +9,7 @@ ms.date: 07/05/2021
 ms.author: bholtorf
 ---
 
-# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Setja upp eignir með afskriftaaðferðum sem notandi skilgreinir
+# Setja upp eignir með afskriftaaðferðum sem notandi skilgreinir
 
 Hægt er að nota [!INCLUDE[prod_short](includes/prod_short.md)] til að setja upp afskriftaaðferðir sem notandi skilgrenir eins og lýst er hér.
 
@@ -23,20 +23,20 @@ Reiknireglan fyrir útreikning á afskriftaupphæðum er:
 > [!NOTE]  
 > Dagsetningin í reitnum **Fyrsta not.skilgr. afskr.dags** er notuð til að ákvarða tímabilin, en **Upphafsdags. afskrifta** er notuð til að ákvarða fjölda afskriftadaga. Ef **Fyrsta not.skilgr. afskr.dags** kemur á undan **Upphafsdags. afskrifta** verður prósentan fyrir fyrsta tímabilið í afskriftatöflunni aðeins notuð að hluta til þegar forritið reiknar út fyrstu afskriftina. Það þýðir að eignin verður ekki að fullu afskrifuð við lok síðasta tímabilsins.
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>Að úthluta afskriftabók á eign með notandaskilgreindri afskriftaaðferð
+## Að úthluta afskriftabók á eign með notandaskilgreindri afskriftaaðferð
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
 2. Valin er eignin sem setja á upp eignaafskriftabók fyrir.
 3. Veldu aðgerðina **Tengd** og síðan **Eign** og síðan **Afskriftabækur**. Þá opnast síðan **Eignaafskriftabækur**.
 
-   Sumir reitirnir sem þarf að fylla út samkvæmt leiðbeiningunum hér að neðan eru sjálfgefið faldir og því þarf að sýna þá. Til að gera þetta þarftu að sérstilla síðuna. Frekari upplýsingar eru í [Hefja sérstillingu á síðu með borðanum Sérstilla](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+   Sumir reitirnir sem þarf að fylla út samkvæmt leiðbeiningunum hér að neðan eru sjálfgefið faldir og því þarf að sýna þá. Til að gera þetta þarftu að sérstilla síðuna. Nánari upplýsingar er að finna  [í til að ræsa sérsníða síðu í gegnum fylgiritið](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 4. Í reitnum **Afskriftaaðferð** skal velja **Notandaskilgreint**.
 5. Í reitnum **Afskriftatöflukóði** skal velja **Afskriftatöfluna** sem á að nota.
 6. Í reitnum **Upphafsdags. afskrifta** skal velja upphafsdag fyrir útreikning afskriftar.
 7. Þegar þú notar notandaskilgreinda aðferð verður að stilla reitinn **Fyrsta not.skilgr. afskr.dags** á dagsetningu sem er sú sama eða á undan þeirri sem er í reitnum **Upphafsdags. afskrifta**. Ef valið hefur verið gildi í reitnum **Lengd tímabils** í afskriftatöflunni verður dagsetningin í reitnum **Fyrsta not.skilgr. afskr.dags** að vera upphafsdagur reikningstímabilsins.
 8. Annaðhvort skal fylla út reitinn **Fjöldi afskriftaára** eða reitinn **Lokadags. afskrifta**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## <a name="to-set-up-user-defined-depreciation-methods"></a>Uppsetning afskriftaaðferða sem notandi skilgreinir
+## Uppsetning afskriftaaðferða sem notandi skilgreinir
 
 Á síðunni **Afskriftatöfluspjald** er hægt að setja upp notendaskilgreinda afskriftaaðferðir. Til dæmis er hægt að setja upp afskriftir sem byggjast á fjölda eininga.  
 
@@ -56,11 +56,11 @@ Samtala talna = 1 + 2 + 3 + 4 = 10 Afskrift:
 * Ár 3 = 2/10  
 * Ár 4 = 1/10  
 
-### <a name="depreciation-based-on-number-of-units"></a>Afskriftir miðaðar við fjölda eininga
+### Afskriftir miðaðar við fjölda eininga
 
 Notandaskilgreindu aðferðina má einnig nota til að afskrifa eftir fjölda eininga, til dæmis vélar sem hafa þekkta framleiðslugetu. Á síðunni **Afskriftatöflu** er hægt að færa inn fjölda eininga sem hægt er að framleiða á hverju tímabili mánuði, ársfjórðungi, ári eða reikningstímabili.  
 
-### <a name="example---user-defined-depreciation"></a>Dæmi - Notandaskilgreindar afskriftaraðferð
+### Dæmi - Notandaskilgreindar afskriftaraðferð
 
 Notuð er afskriftaaðferð sem gerir kleift að afskrifa eignir hraðar vegna tekjuskatts.  
 
@@ -93,7 +93,7 @@ Stofnkostnaðurinn er SGM 100.000 og afskrifanlegur líftími er fimm ár. Afskr
 | 12/31/24 |Afskrift |Engin |Engin |0 |
 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Uppsetning eigna](fa-setup.md)  
 [Eignir](fa-manage.md)  
 [Setja upp eignaafskriftir](fa-how-setup-depreciation.md)  

@@ -79,8 +79,6 @@ Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Áætlunar
 4. Á síðunni **Verkáætlunarlínur** skal fylla út reitina eins og þörf krefur í nýrri línu.
 5. Endurtakið skref 3 og 4 fyrir allar verkhlutalínur sem þarf fyrir verkhlutann.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/create-new-job/)
-
 ## Sjá einnig .
 
 [Verkefnastjórnun](projects-manage-projects.md)  

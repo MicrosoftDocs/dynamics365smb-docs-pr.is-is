@@ -447,9 +447,10 @@
 ### [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)
 ### [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)
 ### [Útflutningur endurskoðunarskráar](finance-how-to-export-audit-files.md)
-### [Úthluta kostnaði og tekjum](year-allocate-costs-income.md)
 ### [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)
 ### [Fresta tekjum og öðrum útgjöldum](finance-how-defer-revenue-expenses.md)
+### [Úthluta endurteknum kostnaði og tekjum](year-allocate-costs-income.md)
+### [Úthluta tekjum og kostnaði á marga fjárhagsreikninga](finance-allocate-revenue-costs.md)
 ### [Uppfæra gengi](finance-how-update-currencies.md)
 ### [Flytja inn launafærslur](finance-how-import-payroll-transactions.md)
 ### [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)
@@ -585,6 +586,7 @@
 #### [Vinna með samskipti fyrir hluta](marketing-interaction-segments.md)
 ### Stjórna samskiptum
 #### [Samskipti](marketing-interactions-overview.md)
+#### [Viðhengi fyrir samskipti](marketing-interaction-attachments.md)
 #### [Skrá samskipti við tengiliði](marketing-interactions.md)
 #### [Búa til samskipti á tengiliði og hluta](marketing-how-create-interactions.md)
 #### [Skrá samskipti við tengiliði sjálfkrafa](marketing-auto-record-interactions.md)
@@ -1545,6 +1547,7 @@
 #### [Setja upp afhendingarmáta](sales-how-set-up-shipment-methods.md)
 #### [Setja upp flutningsaðila](sales-how-to-set-up-shipping-agents.md)
 #### [Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)
+#### [Uppfæra fylgiskjalsdagsetningar með bókunardagsetningum](across-link-doc-dates-to-posting-dates.md)
 ### Setja upp innkaup
 #### [Setja upp innkaup](purchasing-setup-purchasing.md)
 #### [Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)
@@ -1554,6 +1557,7 @@
 #### [Setja upp verð og afslætti](across-prices-and-discounts.md)
 #### [Skrá sérstakt söluverð og sérstaka afslætti](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)
+#### [Uppfæra fylgiskjalsdagsetningar með bókunardagsetningum](across-link-doc-dates-to-posting-dates.md)
 ### Setja upp birgðir
 #### [Setja upp birgðir](inventory-setup-inventory.md)
 #### [Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md)
@@ -1789,9 +1793,9 @@
 ### [Yfirlit](reports-adhoc-analysis.md)
 ### [Raða, leita og sía](ui-enter-criteria-filters.md)
 ### [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)
-### [Greina síðugögní Excel](across-work-with-excel.md)
+### [Greina síðugögn í Excel](across-work-with-excel.md)
 ### [Greina skýrslugögn með Excel](report-analyze-excel.md)
-### [Greina listagögn með greiningarstillingu](analysis-mode.md)
+### [Greina lista- og fyrirspurnargögn með greiningarstillingu](analysis-mode.md)
 ### [Viðskiptagreind fjármála](bi.md)
 
 ## Innbyggð greining 

@@ -3,14 +3,14 @@ title: Tína vörur fyrir vöruhúsaafhendingu
 description: Lærðu að nota vöruhúsatínsluskjöl til að stofna og vinna úr upplýsingum um tínsluafhendingar áður en vöruhúsaafhending er bókuð.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 01/25/2023
+ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Tína vörur fyrir vöruhúsaafhendingu
+# Tína vörur fyrir vöruhúsaafhendingu
 
 Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru tínsla og sendingarvara notuð með einni af fjórum aðferðum eins og lýst er í eftirfarandi töflu.
 
@@ -39,7 +39,11 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti 
 >  
 > Frekari upplýsingar um tiltektaríhluti fyrir samsetningar pantana, þar á meðal aðstæður þar sem samsetningarvörur eru ekki tengdar söluafhendingu, er farið í  [tínslur fyrir framleiðslu, samsetningu eða vinnslur í ítarlegri Vöruhúsafbrigðum](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Tínsluskjöl stofnuð í fjöldavið tínsluvinnublaðið
+## Athuga hvort vörur séu tiltækar til tínslu
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
+## Tínsluskjöl stofnuð í fjöldavið tínsluvinnublaðið
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað tínslu** og velja síðan viðkomandi tengil.  
 
@@ -89,7 +93,7 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti 
 
 8. Velja **Í lagi**. [!INCLUDE [prod_short](includes/prod_short.md)] stofnar tínsluna í samræmi við það sem valið var.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Vörur tínslur fyrir vöruhúsaafhendingu
+## Vörur tínslur fyrir vöruhúsaafhendingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsatínslur** og velja síðan viðkomandi tengil.  
 
@@ -111,7 +115,7 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti 
 
 Nú er hægt að koma vörunum í afhendingarhöfnina og bóka sendinguna, þar með talið tengda upprunaskjalinu, á  **síðu vöruhúsaafhendingar** . Frekari upplýsingar um  [Sendingarvörur](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

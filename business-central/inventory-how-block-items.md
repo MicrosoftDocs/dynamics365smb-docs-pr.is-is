@@ -1,51 +1,49 @@
 ---
-title: Hvernig á að loka á vörur í sölum eða innkaupum
-description: Hægt er að loka á vörur svo þær verði ekki slegnar inn í línur í innkaupa- eða söluskjölum ásamt því að verða bókaðar í færslu.
+title: Hvernig á að útiloka vörur eða vöruafbrigði frá sölu eða innkaupum
+description: 'Hægt er að útiloka að vörur og vöruafbrigði séu færð inn í línur í sölu-eða innkaupaskjölum, sem og bókuð í færslu.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 11/03/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords: 'item, variant, product'
+ms.date: 08/22/2023
 ---
-# <a name="block-items-from-sales-or-purchasing"></a>Loka á vörur í sölum eða innkaupum
+# Útiloka vörur eða vöruafbrigði frá sölu eða innkaupum
 
-Hægt er að loka á vöru svo hún verði ekki slegin inn í línur í innkaupa- eða söluskjölum og hægt er að loka á að hún verði bókuð í færslum. Til dæmis er þetta gagnlegt þegar vara er með þekktan galla. Ef einhver velur lokaða vöru á sölu- eða innkaupaskjali birtast skilaboð um að varan sé læst.
+Hægt er að útiloka að vörur og vöruafbrigði séu færð inn í línur í sölu-eða innkaupaskjölum og hægt er að útiloka að þau séu bókuð í færslum. Til dæmis er þetta gagnlegt þegar vara er með þekktan galla. Ef lokuð vara eða afbrigði er læst í sölu-eða innkaupaskjali verða skilaboð um að varan sé læst.
 
-Eftirfarandi tafla sýnir hvað gerist þegar vörum er lokað.  
+Eftirfarandi tafla lýsir því hvað gerist þegar vörur eða afbrigði eru læst.  
 
-|Valkostur|Lýsing|  
+|Valkostur|Heimildasamstæða|  
 |--------------------|------------|  
-|**Lokað fyrir sölu**|Ekki er hægt að færa vöruna inn í söluskjal eða söluvörubók.|  
-|**Lokað fyrir innkaup**|Ekki er hægt að slá vöruna inn í innkaupaskjal eða færslubók innkaupavöru, eða í innkaupaáætlunarferli.|  
-|**Lokað**|Ekki er hægt að láta vöruna fylgja með í færslum.|  
+|**Lokað fyrir sölu**|Ekki er hægt að velja vöruna eða afbrigðið á söluskjali eða sölubirgðabókarbók.|  
+|**Lokað fyrir innkaup**|Ekki er hægt að velja vöruna eða afbrigðið á innkaupaskjali, færslubók innkaupavöru eða í innkaupaáætlunarferlum.|  
+|**Lokað**|Ekki er hægt að taka vöruna eða afbrigðið þegar færslur eru bókaðar.|  
 
 > [!NOTE]
 > Hægt er að skila útilokuðum vörum. Þetta þýðir að engar ofangreindra stillinga gilda fyrir skilapantanir og kreditreikninga.
 
-Þegar þú notar aðgerðina **Afrita úr fylgiskjali** til að búa til ný skjöl sem byggjast á fyrirliggjandi skjölum færðu tilkynningu ef einhver atriði í upprunaskjalslínum eru lokuð. Útilokaðar fylgiskjalslínur eru ekki í nýja skjalinu og tilkynning sýnir yfirlit yfir allar fylgiskjalalínur sem eru útilokaðar í upprunaskjalinu.
+Þegar notað er  **afritið frá aðgerð skjals**  til að stofna ný skjöl byggð á fyrirliggjandi skjölum er tilkynnt um það ef vörur eða afbrigði á upprunaskjalslínunum eru læst. Útilokaðar fylgiskjalslínur eru ekki í nýja skjalinu og tilkynning sýnir yfirlit yfir allar fylgiskjalalínur sem eru útilokaðar í upprunaskjalinu.
 
-## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Til að loka á vöru svo hún verði ekki slegin inn í sölulínur
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
-2. Velja skal vöruna sem á að loka á og síðan velja gátreitinn **Sölur lokaðar**.  
-
-## <a name="to-block-an-item-from-being-entered-on-purchase-lines"></a>Til að loka á vöru svo hún verði ekki slegin inn í innkaupalínur
+## Til að loka fyrir vöru  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
-2. Velja skal vöruna sem á að loka á og síðan velja gátreitinn **innkaup lokuð**.  
+2. Eftir því hvað á að gera er varan valin og síðan er valinn einn eða fleiri af eftirtöldum gátreitum:
+    * **Lokað**
+    * **Lokað fyrir sölu**
+    * **Lokað fyrir innkaup**  
 
-## <a name="to-block-an-item-from-being-posted"></a>Til að loka á vöru svo hún verði ekki bókuð
+## Til að loka vöruafbrigði  
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.
-2. Veldu vöruna sem á að loka á og veldu síðan gátreitinn **Lokað fyrir**.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
+2. Veldu vöruna sem hefur afbrigði sem þú vilt útiloka, Veldu  **afbrigði** og veldu svo einn eða fleiri eftirfarandi gátreita:  
+    * **Lokað**
+    * **Lokað fyrir sölu**
+    * **Lokað fyrir innkaup**
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -303,7 +303,7 @@ Vinna við Intrastat-skýrslur er sú sama og Altæk aðgerð.
 
 Ný reynsla Intrastat-skýrslna fyrir Tékklands verður í boði í 2023 útgáfu bylgjunnar 1. Í millitíðinni er haldið áfram að nota  **aðgerðina intrastatbók** .
 
-### Finnland
+### Finnlandi
 
 Í Finnlandi eru nokkur Viðbótarskref til að setja upp Intrastat. Intrastat skýrslugerð í Finnlandi þarf tvær aðrar skrár fyrir innhreyfingar og afhendingar. Einnig verður hægt að finna að það eru tvö aðskilin  **Gagnaexch. def-Code**  -gildi samskipuð.
 
@@ -337,8 +337,6 @@ Intrastat-skýrsla í Svíþjóð þarfnast tveggja ólíkra skráa fyrir innhre
 Ferlið við að vinna með Intrastat-skýrslur er það sama og í altækum aðgerðum.
 
 <!-- ### United Kingdom-->
-
-## Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Sjá einnig .
 

@@ -29,11 +29,9 @@ Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp á 
 2. Viðeigandi lánardrottnaspjald er opnað fyrir lánardrottininn sem verður úthlutað kaupanda.
 3. Í reitnum **Kóði innkaupaaðila** skal velja viðeigandi kóða innkaupaaðila og loka svo síðunni.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
-[Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
+[Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)  
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -59,8 +59,6 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 3. Í reitina **Raðnúmer** og **Lotunúmer** skal færa inn vörurakningarnúmer sem ætlunin er að rekja.  
 4. Velja skal aðgerðina **Finna** til að finna öll tilvik um rað- eða lotunúmerið í gagnagrunninum.  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/prepare-item-tracking/)
-
 ## Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  

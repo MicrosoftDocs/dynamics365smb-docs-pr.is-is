@@ -124,8 +124,6 @@ Einnig eru allar síðari færslur af sömu gerð skráðar bæði í SGM og ö�
 > [!NOTE]  
 > Reiturinn **Annar skýrslugjaldmiðill** verður aðeins virkur eftir að valinn hefur verið hnappurinn **Í lagi** í keyrslunni **Leiðrétta annan skýrslugjaldmiðil**.  
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Sjá einnig
 
 [Uppfæra gengi](finance-how-update-currencies.md)  

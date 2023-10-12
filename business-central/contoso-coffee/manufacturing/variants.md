@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Kynning: Afbrigði
+# Kynning: Afbrigði
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að kynnast afbrigðum.
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Þú verður að uppfæra eftirspurnarspá fyrir hvert afbrigði af vörunni SP-SCM1006, AutoDripLite. Þar sem þau eru með mismunandi liti þarf að ganga úr skugga um rétt framleiðsluuppskrift sé notuð fyrir hvert afbrigði. Keyrðu áætlanavinnublaðið til að reikna út framboðið.  
 
-## <a name="steps"></a>Skref
+## Skref
 
 1. Settu upp birgðahaldseiningar fyrir vöru SP-SCM1006 AutoDripLite. Úthlutaðu uppskrift fyrir BHE með afbrigðunum RAUTT og HVÍTT.
 
@@ -28,17 +28,17 @@ ms.author: bholtorf
 
     4. Stilltu reitinn **Stofna á** á *Birgðageymsla og afbrigði*.
 
-    5. Stilltu síu fyrir birgðageymslu á *Norður* og veldu síðan hnappinn **Í lagi**.
+    5. Setja þarf afmörkun fyrir staðsetningu í  *aðalstað* og velja  **síðan OK**  hnappinn.
 
     6. Veldu aðgerðina **Birgðahaldseiningar**.  
 
     7. Uppfærðu framleiðsluuppskriftir fyrir eftirfarandi birgðahaldseiningar:
 
-        1. RAUTT í NORÐUR, veldu SP-SCM1006-RED  
+        1. RAUÐUR á AÐALSETTI SP-SCM1006-RAUÐUR  
 
-        2. HVÍTT í NORÐUR, veldu SP-SCM1006-WHITE  
+        2. HVÍTÁ við AÐALFLÖT, sett SP-SCM1006-HVÍTT  
 
-        3. Halda númeri framleiðsluuppskriftar auðu fyrir SVART í NORÐUR  
+        3. Geymið framl. UPPSKRIFT nr. tóm fyrir SVART á aðal  
 
 2. Uppfærðu framleiðsluuppsetning og farðu eftir eftirspurnarspá í birgðageymslum og afbrigðum.  
 
@@ -50,9 +50,9 @@ ms.author: bholtorf
 
     4. Lokaðu glugganum **Framleiðsluuppsetning**.
 
-3. Búðu til mánaðarlega eftirspurnarspá, *AUTODRIP*. Síaðu eftir vörunni SP-SCM1006 og birgðageymslunni NORÐUR. Stilltu eftirspurn fyrir maí fyrir hvert afbrigði. 
+3. Búðu til mánaðarlega eftirspurnarspá, *AUTODRIP*. Sía það eftir vöru SP-SCM1006 og staðsetning MAIN. Stilltu eftirspurn fyrir maí fyrir hvert afbrigði. 
 
-    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, fara í *eftirspurnarspá* og velja síðan viðkomandi tengil.
+    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í *eftirspurnarspá* og velja síðan viðkomandi tengil.
 
     2. Búðu til nýja eftirspurnarspá með heitinu *AUTODRIP*.
 
@@ -64,23 +64,23 @@ ms.author: bholtorf
 
     6. Kveiktu á reitnum **Nota spá á birgðageymslu**.
 
-    7. Í reitnum **Birgðageymslusía** skal velja *NORÐUR*.
+    7.  **Í reitnum Birgðageymsluafmörkun**  er valið *Aðalval*.
 
     8. Kveiktu á reitnum **Nota spá á afbrigði**.
 
     9. Fyrir hverja línu eru uppfærð gildi í maí dálkinum
 
-        1. RAUTT í NORÐUR , velja 100
+        1. RAUÐKÁL á AÐALBER sett 100
 
-        2. HVÍTT í NORÐUR, velja 200
+        2. HVÍTT á AÐALSETTI sett 200
 
-        3. SVART í NORÐUR, velja 300
+        3. SVARTUR á aðal, sett 300
 
     10. Loka gluggum eftirspurnarspáar
 
 4. Keyrðu MPS-áætlun í maí fyrir stofnaðar eftirspurnarspár. Farðu yfir íhluti til að sjá hvort málning vöru samsvari afbrigði.
 
-    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, fara í *Áætlunarvinnublað* og velja síðan viðkomandi tengil.
+    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í *Áætlunarvinnublað* og velja síðan viðkomandi tengil.
 
     2. Velja **Reikna áætlun endurgerðar** aðgerðina.
 
@@ -98,6 +98,6 @@ ms.author: bholtorf
 
     9. Fyrir hverja stofnaða línu skal velja aðgerðina **Íhlutir** og fara yfir hvaða málning er notuð.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning á contoso kaffi sýnigögnum](../contoso-coffee-intro.md)  

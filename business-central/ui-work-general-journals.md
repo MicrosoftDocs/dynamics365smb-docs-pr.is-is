@@ -224,8 +224,6 @@ Eftirfarandi ferli byggist á glugganum **Færslubók**, en á við um allar að
 
 Gildi í **Skjal nr.** reitnum breytast þar sem þörf er á, þannig að númer fylgiskjala á stakri eða nokkrum færslubókarlínum eru í réttri röð. Hægt er að bóka færslubókina eftir að skjöl hafa verið númeruð aftur.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/use-journals-dynamics-365-business-central/)
-
 ## Sjá einnig
 
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  

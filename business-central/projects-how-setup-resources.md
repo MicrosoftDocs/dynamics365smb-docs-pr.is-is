@@ -74,8 +74,6 @@ Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað 
 3. Á síðunni **Forðaverð** skal fylla út reitina í línu eins og þörf krefur.
 4. Endurtaka skal skref 3 fyrir hvert annað verð sem setja skal upp.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/set-up-jobs-resources/)
-
 ## Sjá einnig .
 
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  

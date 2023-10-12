@@ -104,8 +104,6 @@ Reitirnir í öfugri röð eru fylltir út á eftirfarandi hátt:
 
 ADM-víddin verður afrituð úr stað AUSTUR.
 
-## Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Stjórna birgðum](inventory-manage-inventory.md)  

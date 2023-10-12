@@ -70,8 +70,6 @@ Ef verið er að gera breytingar á innbótinni verður að endurhlaða hana til
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Sjá einnig
 
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  

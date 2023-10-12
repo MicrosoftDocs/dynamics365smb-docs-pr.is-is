@@ -8,19 +8,19 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Kynning: Sameina sjálfvirka og handvirka birgðaskráningu
+# Kynning: Sameina sjálfvirka og handvirka birgðaskráningu
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee í birgðaskráningu.  
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Stofna þarf nýja framleiðslupöntun fyrir tíu einingar af vörunni SP-SCM1004, AutoDrip. Sumir þættir og aðgerðir verða birgðaskráðar framvirkt, aðrar afturvirkt, eftir því hver skilyrðin eru.
 
-## <a name="steps"></a>Skref
+## Skref
 
 > [Athugaðu!] Mundu að laga birgðir með því að bóka birgðabók með opnunarstöðum.
 
-1. Stofnaðu fastáætlaða framleiðslupöntun fyrir fimm einingar af vörunni **SP-SCM1004, AutoDrip** á staðsetningunni *NORÐUR*. Leiðbeiningar er að finna í [Kynning: Stofna fastáætlaða framleiðslupöntun og breyta henni](create-firm-planned-production-order-change.md).  
+1. Stofna fastáætlaða framleiðslupöntun fyrir fimm einingar af vöru  **SP-SCM1004, AutoDrip**  á  *aðalstað* . Leiðbeiningar er að finna í [Kynning: Stofna fastáætlaða framleiðslupöntun og breyta henni](create-firm-planned-production-order-change.md).  
 
 2. Losa framleiðslupöntunina.
 
@@ -58,7 +58,7 @@ ms.author: bholtorf
 
     Fylltu handvirkt út í reitina **Uppsetn.tími** og **Keyrslutími**. Einnig er hægt að tilgreina raunverulegt framleitt magn og rýrrnun. Sláðu inn *3* sem úttaksmagnið og bókaðu úttakið.
 
-    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, fara í **Úttaksbók** og velja síðan viðkomandi tengil.  
+    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Úttaksbók** og velja síðan viðkomandi tengil.  
 
     2. Á síðunni **Úttaksbók** skal stofna nýja færslubókarlínu.  
 
@@ -103,7 +103,7 @@ ms.author: bholtorf
 
 Þetta er allt og sumt um handvirka og sjálfvirka birgðaskráningu íhluta.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Tæma íhluti eftir úttak aðgerðar](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Kynning á contoso kaffi sýnigögnum](contoso-coffee-manufacturing-intro.md)  

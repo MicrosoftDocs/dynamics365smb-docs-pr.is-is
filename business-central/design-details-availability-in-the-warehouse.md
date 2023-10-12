@@ -3,7 +3,7 @@ title: Hönnun lýsingar-framboð í vöruhúsi
 description: Fræðast um mismunandi þætti sem hafa áhrif á vöruframboð í vöruhúsinu.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
@@ -73,6 +73,10 @@ Niðurstöðurnar eru birtar í reitnum **Tiltækt heildarmagn** á síðunni **
 
 Í frátekningarlínu er magnið sem ekki er hægt að taka frá þar sem því er úthlutað í vöruhúsinu birt í  **reitnum Magn úthlutað í vöruhúsi**  á  **frátekningarsíðunni** .  
 
+## Athuga hvort vörur séu tiltækar til tínslu
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Reiknað út tiltækt magn til frátekingar
 
 [!INCLUDE [prod_short](includes/prod_short.md)] reiknar magnið sem er tiltækt til að taka frá sem hér segir:  
@@ -85,8 +89,8 @@ Eftirfarandi skýringarmynd sýnir mismunandi þætti í útreikningi.
 
 ## Sjá einnig  
 
-[Yfirlit yfir](design-details-warehouse-management.md)
-[vöruhúsastjórnun Skoða framboð á vörum](inventory-how-availability-overview.md)
-
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[View the Availability of Items](inventory-how-availability-overview.md)
+[Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

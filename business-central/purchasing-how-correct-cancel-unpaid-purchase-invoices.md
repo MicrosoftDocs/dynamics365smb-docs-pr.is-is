@@ -51,8 +51,6 @@ Ef þegar hefur verið greitt fyrir vörur á bókuðum innkaupareikningi er ekk
 
 Ef Afturköllunin tengist takmarkaðri bókun á reiknings er upprunaleg innkaupapöntunarlína uppfærð til að endurspegla afturkallað Reikningsfært magn. Reitirnir **Magn til reikningsf.** og **Reikn.fært magn** á tengdri innkaupapöntunarlínu er endurstilltir á gildin fyrir takmarkaða bókun.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/receive-invoice-dynamics-d365-business-central/)
-
 ## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  

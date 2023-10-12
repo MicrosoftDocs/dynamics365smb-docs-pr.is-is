@@ -1,52 +1,55 @@
 ---
 title: Búa til samskipti á tengiliði og hluta
-description: 'Lýsir hvernig á að stofna samskipti á milli þín og tengiliða og hluta í Business Central, eins og til dæmis beint tölvupóstsamband.'
-documentationcenter: ''
-author: jswymer
+description: Lærðu að stofna samskipti í miðborg fyrir samskipti sem þú ert með tengiliðum og hluta.
+author: brentholtorf
+ms.author: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: ivkoleti
+ms.date: 04/01/2021
+ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
-ms.date: 04/01/2021
-ms.author: jswymer
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Búa til samskipti á tengiliði og hluta
-Hægt er að stofna samskipti til að skrá öll samskipti við viðskiptavinina og hlutana, til dæmis markpóstur.
+# Búa til samskipti á tengiliði og hluta
 
-Áður en hægt er að stofna samskipti þarf að setja upp samskiptasniðmát. Til að fá nánari upplýsingar sjá  [Setja upp samskiptasniðmát](marketing-interactions.md).
+Hægt er að stofna samskipti til að rekja samskiptin við einn tengilið eða marga tengiliði í hluta. Til að auðvelda stofnun samskipta eru  [!INCLUDE [prod_short](includes/prod_short.md)]  leiðbeiningar um  **uppsetningu samskiptaaðstoðar**  stofnaðar. Leiðbeiningarnar hjálpa til við að fanga mikilvægustu upplýsingarnar um samskiptin.
 
-## <a name="to-create-an-interaction-with-a-contact"></a>Til að stofna samskipti
-1. Opna færslu um tengilið, sölumann eða samskiptaskráningarfærslu.
+Áður en samskipti eru stofnuð þarf að setja upp samskiptasniðmát. Til að fræðast meira um samskiptasniðmát er farið í að  [Setja upp samskiptasniðmát](marketing-interactions.md).
+
+## Til að stofna samskipti við tengilið
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, færa inn  **tengiliði**,  **sölumann** eða  **samskiptaskráningarfærslu** og velja síðan tengda tengilinn.
 2. Valið er **Stofna samskipti** aðgerð.
-3. Fyllið út reitina og smellið á hnappinn **Í lagi**.
+3. Fyllið inn reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Ef framkvæma þarf annað verk áður en samskiptunum lýkur er hægt velja **hætta við** og ljúka samskiptunum síðar. Þetta frestar samskiptunum.
+> Ef þú þarft að hætta áður en þú hefur lokið samskiptunum getur þú valið  **Hætta við**  og tilgreint síðan hvort þú viljir vista stillingarnar svo að þú getir haldið áfram seinna. Ef fræðast á um frestuð samskipti er farið í  [til að ljúka við að fresta uppsetningu samskipta](#to-finish-setting-up-a-postponed-interaction).
 
-## <a name="to-create-an-interaction-on-a-segment"></a>ljúka og eyða frestuðum samskiptum
-1. Opna færslu um tengilið, sölumann eða samskiptaskráningarfærslu.
-2. Velja **Frestuð samskipti**
-3. Veljið samskiptin sem á að ljúka og veldu svo aðgerðina **halda áfram**.
+## Til að stofna samskipti á hluta.
 
-## <a name="to-finish-setting-up-a-postponed-interaction"></a>Til að stofna samskipti á hluta.
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Hlutar** og velja síðan viðkomandi tengil.
-2. Á **Hlutsíðunni** í hlutanum **samskipti** er fyllt í reitina til að tilgreina hvers konar samskiptum eigi að úthluta á hlutann.
+2. Valið er **Stofna samskipti** aðgerð.
+3. Fyllið inn reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    Þegar samskiptum hefur verið úthlutað á hluta er hægt að sérsníða samskiptin fyrir hvern einstakan tengilið innan hlutans, til dæmis með því að velja annað samskiptasniðmát í línunum á síðunni **Hluti**.  
-3. Til að skrá hlutann og samskiptin veldu aðgerðina **kladdi**. Síðan **Skrá hluta** opnast.
-4. Ef stofna á nýjan hluta með sömu tengiliðum skal velja gátreitinn **Stofna eftirfylgnihluta**. Ef forritið á að geta stofnað eftirfylgnihluta verður að tilgreina númeraraðir fyrir hluta á síðunni **Tengslastjórnunargrunnur**.
+> [!TIP]
+> Þegar samskiptum hefur verið úthlutað á hluta eru ýmsar aðrar aðgerðir hægt að taka á  **hlutasíðunni** :
+>
+> * Sérsníða samskiptin fyrir hvern tengilið fyrir sig innan hlutans, til dæmis með því að velja annað samskiptasniðmát á línunum.  
+>* Skráið hlutann og samskiptin með því að velja  **kladdann**  til að opna  **síðuna skráningarhluti** .
+> * Búa til nýjan hluta sem inniheldur sömu tengiliði með því að  **Velja gátreitinn stofna eftirfylgnihluta** . Þessi stilling krefst þess að númeraraðar séu tilgreindar fyrir hluta á  **síðunni Uppsetning**  markaðssetningar.
 
-Samskipti eru skráð fyrir hvern tengilið í hlutanum í töflunni **samskiptaskráningarfærsla** og hlutinn er skráður. Skráðir hlutar eru á síðunni **Skráðir hlutar**.
+Samskipti eru skráð fyrir hvern tengilið í hlutanum í töflunni **samskiptaskráningarfærsla** og hlutinn er skráður. Skráðir hlutar eru tiltækir á  **skráða hlutasíðu** .
 
-Ef gátreiturinn **Stofna eftirfylgnihluta** er valinn verður nýr hluti búinn með sömu tengiliðum og hlutinn sem var verið að skrá.
+## Að ljúka við að setja upp frestuð samskipti
 
-## <a name="see-also"></a>Sjá einnig
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **frestuð samskipti** og veljið síðan tengda tengilinn.
+2. Samskiptin sem á að ljúka eru valin og síðan er  **valin aðgerðin halda áfram** .
+
+## Sjá einnig
+
 [Samskipti skráð](marketing-interactions.md)  
 [Vinna með tengiliði](marketing-contacts.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Vinna með Business Central](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

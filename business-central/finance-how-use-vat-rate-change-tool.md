@@ -3,7 +3,7 @@ title: Stjórna breytingum VSK-hlutfalls
 description: Kynntu þér hvernig þú notar breytingarverkfæri VSK-hlutfalls fyrir Dynamics 365 Business Central til að breyta VSK-taxta í samræmi við löggjöf á staðnum.
 author: andregu
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.workload: na
 ms.search.keywords: 'VAT, VAT rate, posting, tax, value-added tax'
 ms.search.form: '550,'
@@ -11,11 +11,11 @@ ms.date: 06/16/2021
 ms.author: andregu
 ---
 
-# <a name="managing-vat-rate-changes"></a>Stjórna breytingum VSK-hlutfalls
+# Stjórna breytingum VSK-hlutfalls
 
 VSK-hlutfall er mismunandi eftir gildandi lögum. Allar breytingar á VSK hafa áhrif á gögnin þín í [!INCLUDE[prod_short](includes/prod_short.md)] hvort VSK-hlutfallið er lækkað, hækkað eða fjarlægt. VSK er tengdur mörgum einingum í [!INCLUDE[prod_short](includes/prod_short.md)], svo sem viðskiptavinum, lánardrottnum, vörum, tilföngum, kostnaðarauka og fjárhagsreikningum. Breytingar á VSK-hlutföllum gerast yfirleitt á tiltekinni dagsetningu, en eftir dagsetninguna verður að breyta uppsetningu VSK, bókunarflokkum o.s.frv. til að ganga úr skugga um að nýjar sölupantanir og innkaupapantanir séu stofnaðar með nýja VSK-hlutfallinu.
 
-## <a name="changing-vat-rates"></a>Breyta VSK-hlutfalli
+## Breyta VSK-hlutfalli
 
 Besta leiðin til að stjórna breytingu á VSK-hlutfalli er að bóka og loka alveg opnum pöntunum og öðrum fylgiskjölum dagsettum fyrir dagsetningu breytingar á VSK, til að ganga úr skugga um að breytingin hafi ekki áhrif á slíkt. Slíkt er auðveldasta aðferðin til að þú getir stofnað nýjar pantanir og skjöl með nýja VSK-hlutfallinu.
 
@@ -30,11 +30,11 @@ Eftirfarandi aðferð er ráðlögð til að stjórna breytingu á VSK-hlutfalli
 > [!NOTE]  
 > Þessa stundina er verið að uppfæra breytingarverkfæri VSK-hlutfalls. Virknin sem minnst er á hér á eftir passar hugsanlega ekki við virkni í umhverfinu þínu. Uppfærslan mun fara fram fyrir 1. júlí 2020 og verður ekki venjuleg mánaðarleg uppfærsla. Þess í stað verða öll umhverfi uppfærð sjálfkrafa (bráðabót). Þegar þessari uppfærslu er lokið birtast þessi skilaboð ekki lengur.  
 
-## <a name="the-vat-rate-change-tool"></a>Notkun breytingaverkfæris VSK-hlutfalls
+## Notkun breytingaverkfæris VSK-hlutfalls
 
 Breytingarverkfæri VSK-hlutfalls getur hjálpað til við umbreytingu á VSK-hlutföllum í aðalgögnum, færslubókum og pöntunum, að einhverju leyti. Þetta er gagnlegt ef óskað er eftir að umreikna VSK í aðalgögnum á auðveldan hátt eða ef þú hefur pantanir sem þú getur ekki lokað á undan dagsetningu breytingarinnar og verða unnar yfir lengri tíma og fara fram yfir dagsetningu breytingar á VSK-hlutfalli. Tilteknar afmarkanir og takmarkanir á breytingaverkfæri VSK-hlutfalls eiga við.
 
-## <a name="understanding-the-vat-rate-conversion-process-and-limitations"></a>Að skilja umbreytingarferli VSK-hlutfalls og takmarkanir þess
+## Að skilja umbreytingarferli VSK-hlutfalls og takmarkanir þess
 
 VSK-hlutfall breytingarverkfærið umreiknar VSK-hlutfall fyrir aðalgögn, færslubækur og pantanir á mismunandi hátt. Valin aðalgögn og færslubækur verða uppfærð af nýja almenna vörubókunarflokknum eða VSK-vörubókunarflokki. Ef pöntun hefur verið afhent að fullu eða að hluta munu afhentar vörur halda almenna vörubókunarflokknum eða VSK-vörubókunarflokknum. Ný pöntunarlína verður stofnuð fyrir óafhentar vörur og uppfærð til að samræma núverandi og nýtt VSK eða almenna vörubókunarflokka. Úthlutanir kostnaðarauka, grunnstillingarsniðmát fyrir vörur, frátekningar og vörurakningarupplýsingar uppfærast einnig í samræmi við það. 
 
@@ -55,7 +55,7 @@ VSK-hlutfall breytingarverkfærið umreiknar VSK-hlutfall fyrir aðalgögn, fær
 * Verð á söluverði (aðalgögn)
 * Viðskiptabókunarflokkar fyrir viðskiptavini og lánardrottna.
 
-### <a name="to-prepare-vat-rate-change-conversions"></a>Til að undirbúa umreikning VSK-hlutfalls
+### Til að undirbúa umreikning VSK-hlutfalls
 
 Áður en breytingaverkfæri VSK-hlutfalls er sett upp þarf að velja úr eftirfarandi.
 
@@ -64,20 +64,20 @@ VSK-hlutfall breytingarverkfærið umreiknar VSK-hlutfall fyrir aðalgögn, fær
 * Til að fækka fylgiskjölum sem er breytt skal bóka eins mörg fylgiskjöl og mögulegt er og halda óbókuðum skjölum í lágmarki.  
 * Taka öryggisafrit af gögnum.
 
-### <a name="to-set-up-the-vat-rate-change-tool"></a>Til að setja upp breytingaverkfæri VSK-hlutfalls
+### Til að setja upp breytingaverkfæri VSK-hlutfalls
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning á Breyting á VSK-hlutfalli** og velja síðan viðkomandi tengil.  
 2. Á flýtiflipunum **Aðalgögn**, **Færslubækur** og **Skjöl** skal velja gildi bókunarflokks af valkostalistanum fyrir nauðsynlega reiti. Í hverjum flokki er hægt að velja hvort eigi að umbreyta VSK-vörubókunarflokkum eða almennum vörubókunarflokkum eða umbreyta báðum gildunum ef þau eru tiltæk í aðalgagnavörunni. Fyrir sum svæði er einnig hægt að setja afmörkun til að umbreyta aðeins hlutmengi gildanna, til dæmis fjárhagsreikningum. 
 3. Á flýtiflipanum **Verð með VSK** skaltu velja hvaða línugerðir á pöntunum sem skal uppfæra einingaverð. Einingaverð í línum af gerð vöru og tilfanga verða alltaf uppfærð.
 
-### <a name="to-set-up-product-posting-group-conversion"></a>Til að setja upp vörubókunarflokksumbreytingar
+### Til að setja upp vörubókunarflokksumbreytingar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning á Breyting á VSK-hlutfalli** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Uppsetning á breytingu VSK-hlutfalls** skal annaðhvort velja aðgerðina **Umreikna VSK-vörubókunarflokk** eða **Umreikna almennan vörubókunarflokk**.  
 3. Í reitnum **Frá kóða** er færður inn núverandi bókunarflokkur.  
 4. Í reitnum **Til kóða** er færður inn nýr bókunarflokkur.  
 
-### <a name="to-perform-vat-rate-change-conversion"></a>Til að umreikna VSK-hlutfall
+### Til að umreikna VSK-hlutfall
 
 Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöðluðu VSK-hlutfalli. VSK og útreikningar almenns vörubókunarflokks eru notaðir til að breyta VSK-hlutfalli og viðhalda nákvæmum VSK-skýrslum. Eftirfarandi breytingar eru gerðar, allt eftir uppsetningu:  
 
@@ -100,9 +100,7 @@ Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöð
 > [!IMPORTANT]  
 > Eftir prófun á umreikningi er reiturinn **Umbreytt** í töflu **Breyting á VSK gengi í skráningarfærslu** valinn og reiturinn **Umbreytt dagsetning** í töflunni **Breyting á VSK gengi í skráningarfærslu** sýnir umreiknuðu dagsetninguna.  
 
-## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/rate-change-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp virðisaukaskatt](finance-setup-vat.md)  
 [Uppsetning á óinnleystum virðisaukaskatti](finance-setup-unrealized-vat.md)  

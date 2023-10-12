@@ -49,15 +49,13 @@ Til að setja þetta upp þarf að úthluta notendum ábyrgðarstöðvum á þre
 > [!NOTE]  
 > Notendur geta aðeins skoðað þessi bókuðu skjöl sem tengjast ábyrgðarstöð þeirra. Hins vegar er hægt að skoða allar fjárhagsfærslur og fletta að öðrum bókuðum skjölum úr fjárhagsfærslunum.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/set-up-responsibility-centers/)
-
 ## Sjá einnig .
 
 [Uppsetning birgða](inventory-setup-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Yfirlit yfir](design-details-warehouse-management.md)
-[vöruhúsastjórnun vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Skilgreinið bókunarreglur reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -17,8 +17,6 @@ ms.author: bholtorf
 
 Þegar tengingin er skilgreind er hægt að flytja gögn úr innanhússlausn í [!INCLUDE[prod_short](includes/prod_short.md)] Online. Þessi viðbót mun virka í tengslum við viðbót fyrir eftirlíkingu gagna sem er tiltæk fyrir tiltekna lausn þína á staðnum.Frekari upplýsingar er að finna  [í keyra flutningstól ský](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Keyra verkfæri skýjaflutnings](/dynamics365/business-central/dev-itpro/administration/migration-tool)  

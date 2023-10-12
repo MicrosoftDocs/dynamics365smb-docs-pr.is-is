@@ -49,7 +49,7 @@ Lestu upplýsingar um reitina [**Nr. utanaðk. skjals áskilið**](#external-doc
 
 Aðgerðina **Nákvæmar kostnaðarbakfærslur áskildar** tryggir að skilavörur séu metnar á sama kostnaði og þegar þær voru teknar úr birgðum með því að nota fasta jöfnun í staðinn fyrir að fylgja meðaltali eða fyrst inn, fyrst út (FIFO) kostnaðarútreikningi. Frekari upplýsingar er að finna í hlutanum [Hönnunarupplýsingar: Föst jöfnun](design-details-item-application.md#fixed-application). Ef viðbótarkostnaði er síðar bætt við upphaflegu innkaupin er virði innkaupaskilanna uppfært til samræmis.
 
-Með eiginleikann virkan getur skilafærsla aðeins verið bókuð með því að tilgreina birgðafærslunúmerið í reitinn **Jafna í birgðafærslu** í vöruskilapöntunarlínu innkaupa. Reiturinn er ekki sjálfgefið sýndur í flýtiflipanum **Línur**. Kynntu þér hvernig á að bæta reitum við síður í hlutanum [Sérsníða vinnusvæðið](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+Með eiginleikann virkan getur skilafærsla aðeins verið bókuð með því að tilgreina birgðafærslunúmerið í reitinn **Jafna í birgðafærslu** í vöruskilapöntunarlínu innkaupa. Reiturinn er ekki sjálfgefið sýndur í flýtiflipanum **Línur**. Lærðu að bæta reitum á síður í  [hlutanum sérsníða vinnusvæði](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode) .
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
@@ -68,9 +68,7 @@ Með eiginleikann virkan getur skilafærsla aðeins verið bókuð með því a�
 | Stjórnaðu samskiptum í viðskiptum við lánardrottna, flyttu inn móttekin reikningsskjöl og skráðu nýja birgja með Outlook-tölvupóstforritinu. | [Setja upp innbót Business Central fyrir Outlook](admin-outlook.md) |
 | Farðu yfir kostnaðarkvittanir, breyttu pappírsskjölum og rafrænum skjölum í færslubókarlínur og komdu pappírsreikningum frá lánardrottnum yfir á tölvutækt form. | [Setja upp skjöl á innleið](across-how-setup-income-documents.md) |
 | Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir. |[Skýrsluval í Business Central](across-report-selections.md)|
-|Tilgreinið hvort notendur eigi að fá bókun innkaupareikninga og hvort þeir verði að bóka þá ásamt sendingu. |[Skilgreinið bókunarreglur reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)|
-
-## Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+|Tilgreinið hvort notendur eigi að fá bókun innkaupareikninga og hvort þeir verði að bóka þá ásamt sendingu. |[Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)|
 
 ## Sjá einnig .
 

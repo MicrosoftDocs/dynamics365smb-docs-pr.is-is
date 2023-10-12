@@ -1,66 +1,48 @@
 ---
 title: Kynning á sýnigögnum Contoso Coffee
 description: Yfirlit yfir áætlanir um hvernig contoso kaffi sýnishorn gögn geta aðstoðað við að læra hvernig nýta má getu í viðskiptafræði miðlægt.
-ms.date: 04/01/2022
-ms.topic: article
-ms.service: dynamics365-business-central
-ms.search.form: 4760
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.date: 09/20/2023
+ms.topic: article
+ms.service: dynamics365-business-central
+ms.search.form: '5194,'
+ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Kynning á sýnigögnum Contoso Coffee
+# Kynning á sýnigögnum Contoso Coffee
 
-Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. The  **contoso Coffee**  apps fyrir Business Central bæta við sýnigögnum sem þú getur notað til að læra hvernig á að nota getu í viðskiptafræði Central.  
+Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki.  **Útlaginn kaffiforrit**  til  [!INCLUDE [prod_short](../includes/prod_short.md)]  að bæta við sýnigögnum sem þú getur notað til að læra að nota getunina í [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
+## Setja upp Contoso Coffee gögn
 
-## <a name="set-up-contoso-coffee-data"></a>Setja upp Contoso Coffee gögn
+[!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
 
-Til að nota sýnigögn Contoso Coffee þarftu að setja upp tvö forrit í viðeigandi fyrirtæki í [!INCLUDE [prod_short](../includes/prod_short.md)]:  
+Þegar apps er uppsett, á  **verkfærareinunni**  contoso demo skal nota  **samskipanaraðgerðina**  til að undirbúa eftirfarandi einingar. Hægt er að velja að setja upp öll tiltæk gögn, þar á meðal uppsett og framleiðslugögn eða uppsetningargögn eingöngu.
 
-- **Gagnamengi Contoso Coffee**  
+ -  **Sameiginleg eining**  til að undirbúa almennar stillingar sem  [!INCLUDE [prod_short](../includes/prod_short.md)]  krefst. Til dæmis, hluti eins og númeraröðin. 
 
-    Þetta forrit afhendir sýnigögn fyrir grunnforritið.  
-- **Sýnigagnamengi Contoso Coffee (auðkenni lands)**  
+Eftirfarandi tafla lýsir stillingum:  
 
-    Þetta forrit bætir landsbundnu efni við efst í grunnforritið.
+|Svæði  |Heimildasamstæða  |
+|---------|---------|
+|**Upphafsár** |Tilgreinir fyrsta árið sem óskað er eftir að notuð séu útsýnandi Kaffisýnigögn. Árið er annað hvort almanaksár eða reikningsár en það fer eftir uppsetningu fyrirtækisins.|
+|**Lands-/svæðiskóti**|Tilgreinir lands-/svæðiskóta fyrir innlenda viðskiptavini og lánardrottna.|
+|**Tegund fyrirtækis**    |Tilgreinir hvort núverandi fyrirtæki þurfi að tilkynna um virðisaukaskatt eða söluskatt. |
+|**Verðstuðull**     |Tilgreinir stuðul til að umbreyta verði úr USD/EUR í staðbundinn gjaldmiðil. *1* þýðir að verðið er sama upphæð í hvaða gjaldmiðli sem er. Hærri tala verður notuð til að fá verðið í staðbundnum gjaldmiðli. |
+|**Sléttunarnákvæmni**  |Tilgreinir sléttunarnákvæmni sem sýnigögn eiga að hafa.|
 
-Bættu forritunum við autt fyrirtæki í greiddri áskrift eða sem hluti af prufuáskrift. Stofnaðu til dæmis nýtt fyrirtæki með engin sýnigögn úr uppsetningarleiðbeiningunni **Stofna nýtt fyrirtæki** sem hægt er að opna úr listanum **Fyrirtæki**. Bættu síðan við forritunum úr [markaðstorginu](../ui-extensions-install-uninstall.md#install) ef þau eru ekki þegar sýnd á síðunni **Viðbótastjórnun**.  
+ -  [Framleiðslueiningin](manufacturing/contoso-coffee-manufacturing-intro.md)  til að undirbúa  [framleiðsluaðstæður](manufacturing/contoso-coffee-manufacturing-intro.md#scenarios).
+ -  [Vöruhúsaeiningin](warehousing/contoso-coffee-warehousing-intro.md)  til undirbúnings fyrir  [vöruhúsaaðstæður](warehousing/contoso-coffee-warehousing-intro.md#scenarios).
+ -  [Þjónustueiningin](service/contoso-coffee-service-intro.md)  sem á að undirbúa fyrir  [þjónustuaðstæður](service/contoso-coffee-service-intro.md#scenarios).
 
-Þú skalt þá ljúka:
- -  [Uppsetning](manufacturing/contoso-coffee-manufacturing-intro.md)  framleiðslu til undirbúnings fyrir notkun á  [framleiðsluaðstæðum](#manufacturing-scenarios)
- -  [Uppsetning](warehousing/contoso-coffee-warehousing-intro.md)  vöruhúsa til undirbúnings fyrir notkun á  [vöruhúsaaðstæðum](#warehousing-scenarios)
+Eftir að þú hefur skilgreint einingarnar sem þú vilt prófa skaltu velja  **aðgerðina búa**  til til að stofna sýnigögn fyrir þau.
 
-## <a name="manufacturing-scenarios"></a>Framleiðsluaðstæður
-
-Gögnin á contoso Coffee sem nú styður eftirfarandi framleiðsluáætlanir fyrir próf og þjálfun:
-
-1. [Stofna nýja framl. UPPSKRIFT og UPPSKRIFTARÚTGÁFU](manufacturing/create-new-production-bom-version.md)  
-2. [Stofna nýja leið](manufacturing/create-new-routing.md)  
-3. [Stofna fastáætlaða framleiðslupöntun og breyta henni](manufacturing/create-firm-planned-production-order-change.md)  
-4. [Sameina sjálfvirka og handvirka Flushing](manufacturing/combine-automatic-manual-flushing.md)  
-5. [Nota Pantanáætlanagerð til að stofna og taka frá framboð](manufacturing/order-planning-create-reserve-supply.md)  
-6. [Setja upp og vinna Úthýsingaraðgerð](manufacturing/set-up-process-subcontracting-operation.md)  
-7. [Setja upp nýtt geymslurými](manufacturing/set-up-new-capacity.md)  
-8. [Spáreftirspurn fyrir vöruafbrigði með mismunandi uppskriftum](manufacturing/variants.md)  
-
-Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.  
-
-> [!IMPORTANT]
-> Framleiðsluferlar krefjast þess að notendaupplifun sé stillt á  *aukagjald*  á  **upplýsingasíðu**  félagsins.
-
-## <a name="warehousing-scenarios"></a>Vöruhúsaaðstæður
-
-The contoso kaffi sýnikennsla styður nú við eftirtaldar vöruhúsáætlanir fyrir próf og þjálfun:
-
-1.  Skilgreina sjálfgefin hólf, taka á móti og ganga frá með birgðafrágangi, velja og senda með birgðatínslu í pöntunar-eftir-pöntun tíska með  [walkmeð um inn-og úttengi í Grunnvöruafbrigði](warehousing/warehouse-basic-flow-putaway-pick.md)
-2.  Móttaka og frágangur margar pantanir á innleið í einu með vöruhúsamóttöku, skipa mörgum pöntunum í einu með vöruhúsaafhendingu, tínslur með vöruhúsatiltekt með  [walkmeð-með inn-og útflæði í Blönduðum Vöruhúsafbrigðum](warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-3.  Skilgreinið föst hólf fyrir mælieiningu vörunnar, hjáskipun notanda til að draga úr flutningi á vörum, setja vörur með áfyllingu hólfs, magn stórra mælieininga niður í smærri, dreifa tiltekt á meðal vöruhúsaatvinnumenn með tiltektarvinnublaði með  [walkof af inn-og útbrennslu í ítarlegri samskipan vöruhúss með beinan frágang og tínslu](warehousing/warehouse-directed-flow.md)
-
-Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
-   
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framleiðsla](../production-manage-manufacturing.md)  
 [Vöruhúsum](../warehouse-manage-warehouse.md)  
+[Þjónustu](../service-service.md)
+<!-- [Projects and Jobs](../projects-manage-projects.md) -->
 

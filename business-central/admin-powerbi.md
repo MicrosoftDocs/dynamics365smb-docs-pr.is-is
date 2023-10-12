@@ -6,11 +6,13 @@ ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
 ms.reviewer: jswymer
-ms.date: 07/17/2023
+ms.date: 09/28/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
 # Kynning á [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Það er auðvelt að fá innsýn í [!INCLUDE[prod_short](includes/prod_short.md)] gögnin þín með [Power BI](https://powerbi.microsoft.com) - gagnabirtingarkerfi frá Microsoft. Power BI sækir [!INCLUDE[prod_short](includes/prod_short.md)] gögn svo hægt sé að búa til stjórnborð og skýrslur út frá þeim gögnum. Power BI býður upp á sveigjanlegt val á skýrslum í [!INCLUDE[prod_short](includes/prod_short.md)], þar sem hægt er að bera saman og sérstilla útlit, og jafnvel sameina gögn úr mismunandi fyrirtækjum í [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig er hægt að taka sumar Power BI skýrslur með í Business Central og skoða þær án þess að fara úr kerfinu. Betra er að skoða flóknari mælaborð á vefsvæðinu Power BI.
 
@@ -28,7 +30,7 @@ ms.custom: bap-template
 |[!INCLUDE[prod_short](includes/prod_short.md)] forrit í Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] gefur út þrjú forrit fyrir Power BI á Microsoft AppSource. Þessi forrit búa til ítarlegar skýrslur og mælaborð í Power BI þjónustunni til að skoða [!INCLUDE[prod_short](includes/prod_short.md)] -gögn. Tiltæk forrit eru meðal annars: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Vinnur á netinu.](media/check.png)||[Hér...](across-powerbi-business-central-apps.md)|
 |Vinna með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í gagnaskemmum og gagnaflæðum|Frá og með júlí 2022 er hægt að nota [!INCLUDE [prod_short](includes/prod_short.md)] tengilinn í Power Query Online á gagnaflæði sem deilt er á milli mismunandi skýrslna og stjórnborða.|![vinnur á netinu.](media/check.png)||[Hér...](across-powerbi-business-central-apps.md)|
 
-<a name="onprem"><sup>*</sup></a> Þessi eiginleiki krefst skráðs forrits fyrir Business Central í Microsoft Azure. Frekari upplýsingar er að finna  [í skráningu fyrirtækja miðsvæðis innanhúss í  Azure AD  fyrir samþættingu við aðra þjónustu](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+<a name="onprem"><sup>*</sup></a> Þessi eiginleiki krefst skráðs forrits fyrir Business Central í Microsoft Azure. Nánari upplýsingar er að finna  [í skráningu fyrirtækja miðsvæðis innanhúss í  Microsoft Entra  Kenni fyrir samþætta við aðra þjónustu](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
 ## Búðu þig undir að nota Power BI
 
@@ -63,14 +65,12 @@ Fylgdu þessu fjögurra þrepa ferli til að setja upp  Power BI  mælingar:
 Frekari upplýsingar um  Power BI  metrics at  [byrja við metrics í Power BI](/power-bi/create-reports/service-goals-introduction).
 
 > [!NOTE]
-> Það er nú ekki hægt að útvefja árangursmati frá  Power BI  metrics í [!INCLUDE[prod_short](includes/prod_short.md)].
+> Byrjað er með Business Miðbær 2023 út Wave 2, það er hægt að ívefja árangursmati frá  Power BI  metrics í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Næstu skref
 
 - Ef þú ert admin sem þarf að setja upp  Power BI  í  [!INCLUDE[prod_short](includes/prod_short.md)], Farðu þá að  [gera  Power BI  samþættingu](admin-powerbi-setup.md).
 - Ef  Power BI  hefur þegar verið sett upp og á að reyna aðgerðirnar er farið í að  [vinna með  Power BI  skýrslur í viðskiptamiðinu](across-working-with-powerbi.md).
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## Sjá einnig .
 

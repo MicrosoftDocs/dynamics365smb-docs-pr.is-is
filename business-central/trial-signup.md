@@ -38,8 +38,6 @@ Einnig er hægt að hafa samband við [[!INCLUDE[prod_short](includes/prod_short
 
 Frekari upplýsingar um hvað hægt er að gera við [!INCLUDE [prod_short](includes/prod_short.md)] eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md) og [Viðskiptavirkni](across-business-functionality.md).  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
-
 ## Frekari upplýsingar
 
 - [Skoðaðu myndbandasafnið okkar](across-videos.md)  

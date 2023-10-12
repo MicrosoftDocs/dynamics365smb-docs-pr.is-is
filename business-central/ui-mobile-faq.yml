@@ -4,12 +4,12 @@ metadata:
   description: Sjá svör við algengum spurningum um notkun Business Central í símanum og spjaldtölvunni.
   author: brentholtorf
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.service: dynamics365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 10/25/2021
+  ms.date: 09/21/2023
   ms.author: bholtorf
+  ms.reviewer: jswymer
+  ms.custom: bap-template
 title: Algengar spurningar um farsímaforrit
 summary: |
   Þessi grein svarar spurningum sem reynslumiklir notendur okkar spyrja oft um varðandi farsímaforritið fyrir [!INCLUDE [prod_short](includes/prod_short.md)].  
@@ -38,7 +38,7 @@ sections:
           | Aðgerðir á aðgerðarstikunni | Aðeins kynntar aðgerðir eru sýndar. | Aðeins kynntar aðgerðir eru sýndar. |  |
           | Staðreyndagluggar | Ekki sýndir á listasíðum eða síðum vinnublaða. | Ekki sýndir á listasíðum eða síðum vinnublaða. | `Customer` listi í hlutverkamiðstöð `Small Business`. |
           | Ítarlegar síur | Engin síun á dálkum er í boði. | Engin síun á dálkum er í boði. | Á listasíðunni `Customer`. |
-          | Segðu mér | Ekki fyrir hendi að svo stöddu. | Ekki fyrir hendi að svo stöddu. | Sjá [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md). |  |
+          | Segðu mér | Hann verður að vera virkur í  [aðgangsstjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management)  með  **aðgerðinni: leit að síðum og gögnum í Mobile App**  -rofanum.  **Kaflinn fá úr  Microsoft AppSource**  í niðurstöðum fyrir forrit er ekki tiltækur. | Sama og töflur | Sjá [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md). |  |
           | Hlutverkaleit | Ekki fyrir hendi að svo stöddu. | Ekki fyrir hendi að svo stöddu. | Sjá [Að finna síður með hlutverkaleit](ui-role-explorer.md). |
           | Reitir í flýtiflipum | Reitir í flýtiflipum á listasíðum eru ekki sýndir. Aðeins stýring endurtekningar er sýnd á efnissvæði síðunnar. | Ekki tiltækt. |  |
           | Velja af öllum listanum | Ekki í boði í uppflettingum. Notendur geta ekki keyrt aðgerðir á uppflettingarsíðu og þeir hafa ekki aðgang að öllu færslusafninu. | Ekki í boði í uppflettingum. Notendur geta ekki keyrt aðgerðir á uppflettingarsíðu og þeir hafa ekki aðgang að öllu færslusafninu. | Í `Item Card` þegar **Grunnmælieining** er valin. |
@@ -61,7 +61,7 @@ sections:
       - question: |
           Getur gestanotandi notað forritið til að opna Business Central-lausnina?
         answer: |
-          Fj. Gestanotendur eru notendur sem annar Azure Active Directory (AD) leigjandi en þinn hefur boðið. Í því tilviki mun forritið auðkenna hjá Azure AD leigjanda gestanotanda og reyna að opna endastöð Business Central í þeim leigjanda í staðinn fyrir þínum.  
+          Nr. Gestanotendur eru boðnir notendum frá öðrum  Microsoft Entra  leigjanda en þínum. Í þessu tilfelli mun App sannvotta aðalleigjanda  Microsoft Entra  gestsins og reyna að opna endastöð fyrirtækisins á þeim leigjanda í stað notandans.  
 additionalContent: |
 
   ## Sjá einnig .

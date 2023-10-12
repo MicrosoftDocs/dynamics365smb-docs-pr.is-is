@@ -84,8 +84,6 @@ Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbó
 2. Fyllið inn reitina eftir þörfum.
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/manage-fixed-assets-maintenance-insurances/)
-
 ## Sjá einnig .
 
 [Eignir](fa-manage.md)  

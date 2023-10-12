@@ -193,10 +193,6 @@ Hægt er annað hvort að bóka, eða bóka og prenta. Ef valið er að bóka og
 
 Þú getur breytt ákveðnum reitum í bókuðum innkaupaskjölum, t.d. reitnum **Greiðslutilvísun**. Frekari upplýsingar má finna í [Breyting á bókuðum skjölum](across-edit-posted-document.md). Til að fá fleiri mikilvæg svæði sem hafa áhrif á endurskoðunarslóðina þarf að bakfæra eða afturkalla bókun. Frekari upplýsingar eru í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md).
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/receive-invoice-dynamics-d365-business-central/index).
-
-## Sjá tengda [Microsoft þjálfun](/training/modules/processing-invoices-dynamics-365-business-central/index)
-
 ## Sjá einnig .
 
 [Biðja um tilboð](purchasing-how-request-quotes.md)  
@@ -205,7 +201,7 @@ Hægt er annað hvort að bóka, eða bóka og prenta. Ef valið er að bóka og
 [Innkaup](purchasing-manage-purchasing.md)  
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Setja upp forða](projects-how-setup-resources.md)  
-[Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
+[Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)  
 [Breyta bókuðum skjölum](across-edit-posted-document.md)  
 [Bóka mörg skjöl á sama tíma](ui-batch-posting.md)  
 [Innkaup](purchasing-manage-purchasing.md)  

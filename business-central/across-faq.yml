@@ -65,7 +65,7 @@ sections:
       - question: |
           Hvar finn ég þetta línunúmer?
         answer: |
-          Skjöl á borð við sölupöntun eða innkaupareikninga samanstanda af hausum og línum. Hver lína er með tölu sem [!INCLUDE [prod_short](includes/prod_short.md)] notar til að auðkenna þessa tilteknu línu. Þar af leiðandi gæti þú séð viðvörun eða villuboð um að eitthvað sé athugavert við línunúmer 1000 sem dæmi. Í sjálfgefinni útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] eru línunúmer falin. Ef ætlunin er að nota línunúmerin, þarf að sérstilla núverandi síðu og bæta við **Línunr.** . Frekari upplýsingar er að finna á [Sérstilling verksvæðis](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Skjöl á borð við sölupöntun eða innkaupareikninga samanstanda af hausum og línum. Hver lína er með tölu sem [!INCLUDE [prod_short](includes/prod_short.md)] notar til að auðkenna þessa tilteknu línu. Þar af leiðandi gæti þú séð viðvörun eða villuboð um að eitthvað sé athugavert við línunúmer 1000 sem dæmi. Í sjálfgefinni útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] eru línunúmer falin. Ef ætlunin er að nota línunúmerin, þarf að sérstilla núverandi síðu og bæta við **Línunr.** . Frekari upplýsingar er að sérsníða á  [vinnusvæðinu](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Af hverju lýsir hjálpin virkni sem ég hef ekki aðgang að?
         answer: |
@@ -90,7 +90,7 @@ sections:
 
           Ef þú skráir þig með því Microsoft 365  að vera ekki  joe@mysolution.com með vinnureikning (t.d. Microsoft 365) og þú ert *með áskrift þá getur þú tengt lénið þitt (* mysolution.com  Microsoft 365) við áskriftina. Frekari upplýsingar eru í [Hvað er lén?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) í Microsoft 365 efnisflokknum.  
 
-          Ef þú ert ekki með Microsoft 365 áskrift og þú vilt ekki kaupa hana, þá þegar þú skráir þig, úthlutum við nýju Azure Active Directory leigjanda fyrir þig þannig að þú hafir aðgang að ítarlegum stjórnunarverkfærum í Azure-gáttinni.  
+          Ef þú ert ekki með  Microsoft 365  áskrift, og þú vilt ekki kaupa einn, þá ráðstöfum við nýjum  Microsoft Entra  leigjanda fyrir þig þegar þú skráir þig þannig að þú hafir aðgang að háþróaðri stjórnunarverkfærum í Azure gáttinni.  
       - question: |
           Hvað er samþættingin við Microsoft 365 um?
         answer: |

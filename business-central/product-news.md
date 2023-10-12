@@ -9,7 +9,7 @@ ms.date: 08/25/2023
 ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>Nýtt og áætlað fyrir Dynamics 365 Business Central
+# Nýtt og áætlað fyrir Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
@@ -22,11 +22,11 @@ Eftirfarandi listi veitir upplýsingar um nýjustu útgáfuna af [!INCLUDE [prod
 
 Nánar um hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  netið fær næstu uppfærslur á  [helstu uppfærslum og minni háttar uppfærslum](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  (aðeins á ensku).
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Fá tilkynningu um breytingar með RSS-straumi
+## Fá tilkynningu um breytingar með RSS-straumi
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Skoðaðu myndbandasafnið okkar](across-videos.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
@@ -34,8 +34,8 @@ Nánar um hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  netið fær 
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
 [Nýjungar og breyttar](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Dynamics 365 Business Central Geta](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Dynamics 365 Business Central Vegvísir](https://dynamics.microsoft.com/roadmap/business-central/)  
-[Dynamics 365 blogg](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+[Dynamics 365 Business Central Release Planner](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central)
+[Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 [Verðlagning Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central samfélagsumferð](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 
