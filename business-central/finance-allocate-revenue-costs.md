@@ -10,7 +10,7 @@ ms.search.form: '39, 2673, 2670, 2674,'
 ms.custom: bap-template
 ---
 
-# Úthluta tekjum og kostnaði á marga fjárhagslykla
+# <a name="allocate-revenue-and-costs-to-multiple-general-ledger-accounts"></a>Úthluta tekjum og kostnaði á marga fjárhagslykla
 
 Í þessari grein er lýst hvernig á að nota úthlutunarlykla til að dreifa upphæðum á sölu-og innkaupaskjölum og færslubókarlínum í mismunandi fjárhagsreikninga. Hægt er að úthluta upphæðum með fastri eða breytilegri dreifingu.  
 
@@ -25,7 +25,7 @@ Eftirfarandi tafla kynnir úthlutunaraðferðirnar sem hægt er að nota.
 |Lagað     | Þegar skipta á útgjöldum á þann hátt sem endurtekið er yfir lengri tíma er hægt að nýta sér fasta úthlutun. Föst úthlutun við skulum skilgreina úthlutunarskiptinguna. Þessi skiptiskipti breytist aðeins þegar uppsetningu er breytt á  **síðunni úthlutunarlykil**  úthlutunar.        |
 |Breytilegt     | Til að dreifa tekjum eða útgjöldum út frá gildum sem breytast með tímanum er notuð Breytileg úthlutunaraðferð. Breytileg úthlutun láta tilgreindar heimildir til að nota við útreikning úthlutunarprósentu. Þessi aðferð hentar vel t.d. fyrir skerta starfsmannakostnað sem samkvæmt misháum fjölda í deild eða deildum er. Annað dæmi er úthlutun kostnaðar við Leigu samkvæmt myndefni í framleiðsluhæð sem gæti verið breytilegt eftir framleiðslulínu. Breytilegar úthlutanir nota samsetningu vídda og talnagykla til að ákvarða hvernig upphæðir dreifast á tímabil. Til að fræðast nánar um tölfræðireikninga er farið í að  [greina gögn með tölfræðilegum reikningum](bi-use-statistical-accounts.md). Til að fræðast meira um víddir er farið að  [vinna með víddir](finance-dimensions.md).        |
 
-## Nota fasta hluti eða prósentu til að úthluta upphæðum
+## <a name="use-a-fixed-share-or-percentage-method-to-allocate-amounts"></a>Nota fasta hluti eða prósentu til að úthluta upphæðum
 
 1.  ![Veldu þá ljósaperu sem opnar teiknið segja mér eiginleika](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") , Sláðu inn  **úthlutunarlykil** og veldu síðan tengda tengilinn.  
 1.  **Veldu**  nýtt  **fyrir á síðunni Úthlutunarlyklar**.
@@ -40,7 +40,7 @@ Eftirfarandi tafla kynnir úthlutunaraðferðirnar sem hægt er að nota.
    > Ef Raunupphæðin sem úthluta á fyrir fasta úthlutun er færð inn í  **samhlutunarsvæðið**  **sýnir reiturinn prósenta**  heildarupphæðina.
 1. Endurtaka þetta ferli fyrir hvern lykil sem á að hafa með í úthlutuninni.
 
-## Nota breytilega aðferð til að ráðstafa upphæðum
+## <a name="use-a-variable-method-to-allocate-amounts"></a>Nota breytilega aðferð til að ráðstafa upphæðum
 
 1.  ![Veldu þá ljósaperu sem opnar teiknið segja mér eiginleika](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") , Sláðu inn  **úthlutunarlykil** og veldu síðan tengda tengilinn.  
 1.  **Veldu**  nýtt  **fyrir á síðunni Úthlutunarlyklar**.
@@ -53,7 +53,7 @@ Eftirfarandi tafla kynnir úthlutunaraðferðirnar sem hægt er að nota.
 1. Valfrjálst: til að afmarka á Sérstök Altæk víddargildi skal velja afmörkun á  **stöðu**  sundurliðunar lykils og tilgreina síðan síunargildin.
 1. Valfrjálst: Velja  **víddaraðgerðina**  og tilgreina síðan víddirnar sem á að bóka fyrir línuna.
 
-## Ráðstafa upphæðum á Flúðum
+## <a name="allocate-amounts-on-the-fly"></a>Ráðstafa upphæðum á Flúðum
 
 Úthlutunarlyklar eru stofnaðir til að skipta tekjum og kostnaði fyrir fjárhagsreikninga og bankareikninga. Ef úthlutun er sjálfvalar getur það sparað mikinn tíma. Hins vegar, ef nota á úthlutunarlykla, en ekki á að stofna þá fyrir hvern fjárhagsreikning, er hægt að vista enn lengri tíma.
 
@@ -61,14 +61,14 @@ Með valkostinum afrita úr yfirvalkosts er hægt að nota úthlutunarlykilinn t
 
 Auðvelt er að setja upp tilfallandi úthlutanir úr tilfallandi. Í stað þess að tilgreina bankareikning eða fjárhagsreikning í  **reitnum Tegund**  endareiknings á  **úthlutunarlykli**  er hægt að  **Velja erfð frá yfirvalkostinum** . Skilja skal  **reitinn Númer**  viðtökureiknings eftir auðan. Þegar fjárhagsreikningurinn er valinn í skjalinu eða færslubókarlínunni er lykillinn notaður til að úthluta upphæðum.
 
-## Staðfestið að upphæðir dreifist rétt áður en þær eru bókaðar
+## <a name="verify-that-amounts-distribute-correctly-before-you-post-them"></a>Staðfestið að upphæðir dreifist rétt áður en þær eru bókaðar
 
 Það eru nokkrar leiðir til að sannreyna að upphæðir dreifist rétt:
 
 *  **Á síðunni úthlutunarlykil**  skal velja  **aðgerðina prófun úthlutunar** .  **Notið upphæðina til að úthluta**  svæði til að prófa mismunandi upphæðir.
 *  **Á síðunni fjárhagsfærslubækur**  er færslubókin valin og aðgerðin Forskoðun  **bókunar notuð** .
 
-## Leiðrétta dreifinguna
+## <a name="adjust-the-distribution"></a>Leiðrétta dreifinguna
 
 Ef þú finnur eitthvað í úthlutun sem þú vilt breyta getur þú aðlagað úthlutunina áður en þú bókar hana.  
 
@@ -76,7 +76,7 @@ Ef þú finnur eitthvað í úthlutun sem þú vilt breyta getur þú aðlagað 
 1. Línan er valin og síðan er  **aðgerðin endurdreifa Reikningsúthlutun**  valin.
 1.  **Gerið leiðréttinguna á síðunni Breyta úthlutun** .
 
-## Bóka úthlutunarfærslu
+## <a name="post-an-allocation-transaction"></a>Bóka úthlutunarfærslu
 
 Eftirfarandi skref lýsa því hvernig úthlutunarfærslu er bókuð úr færslubók. Þrepin eru þau sömu fyrir sölu-og innkaupaskjöl.
 
@@ -92,6 +92,6 @@ Eftirfarandi skref lýsa því hvernig úthlutunarfærslu er bókuð úr færslu
 1. Velja **Bóka**.
 1. 
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Vinna í færslubókum](ui-work-general-journals.md)  

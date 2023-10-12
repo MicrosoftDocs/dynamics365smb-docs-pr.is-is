@@ -25,11 +25,11 @@ Upplýsingarnar virða einnig aðra þætti sem hafa áhrif á framboð. Til dæ
 > [!NOTE]
 > Þessi hæfileiki krefst þess að kveikt sé á  **beini-frágangs-og tínsluvíxlun**  fyrir birgðageymslur sem notaðar eru í tiltektarferlinu.
 
-### Setja upp forsýn
+### <a name="set-up-previews"></a>Setja upp forsýn
 
 Til að fá upplýsingar um hvað er verið að taka til og hvað er ekki, er kveikt  **á yfirlitssýningu (beinn frágangur og tínsla)**  Víxlböð  **·**  **-Stofna tínslu-og afhendingarsíður-stofnað tínslubeiðandi.** 
 
-### Ákvarða magnið sem hægt er að tína
+### <a name="determine-the-quantity-you-can-pick"></a>Ákvarða magnið sem hægt er að tína
 
 Í línum á  **yfirlitssíðu**  vöruhúsatínslu er reiturinn Magn til afgreiðslu (stofn)  **, og hversu margar,**  sem reynt var að taka  [!INCLUDE [prod_short](prod_short.md)]  til. Í upplýsingakassa samantektar  **er að**  finna nánari upplýsingar.
 
@@ -56,7 +56,7 @@ Eftirfarandi mynd sýnir hámarksmagn sem tekið er með í tiltekt.
 |Á     |Hólf með efni af gerðinni velja með lokaða hreyfingu á útleið         |
 |O     |Önnur hólf         |
 
-### Bókanir
+### <a name="reservations"></a>Bókanir
 
 Ef til er Frátekning á vörunni sem verið er að taka til er útreikningur heldur áfram. Hugmyndin er að frátekt eftirspurn hafi hærri forgang en það sem er ekki frátekið, sem þýðir að tiltekt fyrir eftirspurn án frátekna ætti ekki að koma í veg fyrir tiltekt vegna frátekna eftirspurnar síðar.
 
@@ -74,7 +74,7 @@ Hægt er að finna frátekningar í  **reitnum Samtals frátekið magn í vöruh
 
 Mismunurinn  **á. magn, fyrir utan afhendingarhólf**  og frátekið magn í vöruhúsi, er það magn sem er tiltækt til tiltektar án þess að það hafi áhrif á frátekta birgðir.
 
-### Aðrar upplýsingar
+### <a name="other-details"></a>Aðrar upplýsingar
 
 Ef vörur þurfa vörurakningu er einnig hægt að finna magnið í læstum lotum eða raðnúmerum, sem veldur eftirfarandi lækkun:
 

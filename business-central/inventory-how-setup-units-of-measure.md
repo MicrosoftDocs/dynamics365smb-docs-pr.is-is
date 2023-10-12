@@ -10,7 +10,7 @@ ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Setja upp mælieiningar
+# <a name="set-up-units-of-measure"></a>Setja upp mælieiningar
 
 Sem hluti af uppsetningu á [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að setja upp almennar mælieiningar á síðunni **Mælieiningar**. Síðan þegar þú skráir nýjar vörur tilgreinir þú grunnmælieininguna á **Birgðaspjaldinu**. Einnig er hægt að bæta við mælieiningum síðar.  
 
@@ -23,7 +23,7 @@ Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er 
 
 Annað verkfæri sem auðveldar vinnu með margar mælieiningar fyrir vörur er getan til að tilgreina sléttunarnákvæmni fyrir grunnmælieiningar. Með því að tilgreina sléttunarnákvæmni eru upplýsingar gefnar upp um hvað eigi að slá inn fyrir uppgefið viðskiptaferli og dregur úr vandamálum varðandi sléttun. Þegar notaðar eru aðrar mælieiningar hjálpar gildið í reitnum **Magn á mælieiningu** að reikna út magnið í grunnmælieiningunni sem getur leitt til vandamála varðandi sléttun. Ímyndaðu þér til dæmis að þú sért að fá einn kassa sem inniheldur sex hluti. Þegar kassinn kemur í vöruhúsið uppgötvarðu að einn af hlutunum sex er týndur. Þú ákveður að bóka ekki móttöku á einu kassa heldur breytir í staðinn mótteknu magni úr fimm af sex stykkjum. Það myndi leiða til móttöku á 4,99998 stykkjum, frekar en fimm. Á síðunni **Mælieiningar vöru** gerir reiturinn **Sléttunarnákvæmni magns** þér kleift að tilgreina gildi sem mun umbreyta magninu í tölu sem er auðveldara að skilja. Ef við höldum áfram með dæmið myndum við slá inn **1** í reitinn til að slétta upp í nákvæmlega fimm stykki.
 
-## Til að setja upp mælieiningarkóða
+## <a name="to-set-up-units-of-measure"></a>Til að setja upp mælieiningarkóða
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Mælieiningar** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**. Ný auð lína er sett inn.  
@@ -36,7 +36,7 @@ Annað verkfæri sem auðveldar vinnu með margar mælieiningar fyrir vörur er 
 
 Þegar þú skráir nýja vöru getu þú valið grunnmælieiningu af listanum yfir mælieiningar sem þú hefur nú sett upp. Einnig er hægt að setja upp margar mælieiningar fyrir vöru.  
 
-## Hvernig á að setja upp margar mælieiningar vara
+## <a name="to-set-up-multiple-item-units-of-measure"></a>Hvernig á að setja upp margar mælieiningar vara
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.
 2. Opna spjald vörunnar sem á að setja upp aðra mælieiningu fyrir.
@@ -54,7 +54,7 @@ Annað verkfæri sem auðveldar vinnu með margar mælieiningar fyrir vörur er 
 
 Nú er hægt að nota aðrar mælieiningar í innkaupa-, framleiðslu- og söluskjölum. Frekari upplýsingar eru í [Færa inn sjálfgefna mælieiningarkóða fyrir sölu- og innkaupafærslur](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
-## Setja upp mælieiningatexta
+## <a name="to-set-up-unit-of-measure-translations"></a>Setja upp mælieiningatexta
 
 Þegar selt er til erlendra viðskiptavina er hægt að tilgreina mælieininguna á viðeigandi tungumáli. Það getur þú gert með því að tilgreina umreikninga fyrir mælieiningar.
 
@@ -64,7 +64,7 @@ Nú er hægt að nota aðrar mælieiningar í innkaupa-, framleiðslu- og sölus
 4. Í reitinn **Lýsing** er færður inn viðeigandi texti.
 5. Skref 2 til 4 eru endurtekin fyrir þá mælieiningarkóða og tungumál sem setja á inn þýðingar á.
 
-## Færa inn sjálfgefna mælieiningarkóða fyrir sölu- og innkaupafærslur
+## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Færa inn sjálfgefna mælieiningarkóða fyrir sölu- og innkaupafærslur
 
 Ef venjulega er keypt eða selt í einingum sem eru aðrar en grunnmælieiningin er hægt að tilgreina sérstakar mælieiningar fyrir innkaup og sölu. Ef gera á þetta verða mælieiningar að vera uppsettar á síðunni **Mælieiningar vöru**.
 
@@ -74,7 +74,7 @@ Ef venjulega er keypt eða selt í einingum sem eru aðrar en grunnmælieiningin
 4. Fyrir innkaup, á flýtiflipanum **Áfylling**, í reitnum **Innkaupamælieining** er síðan **Mælieiningar vöru** opnuð.
 5. Velja skal kóðann sem setja á upp sem sjálfgefna mælieiningu fyrir sölu eða innkaup og veljið svo hnappinn **Í lagi**.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með mælieiningu framleiðslukeyrslu](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  

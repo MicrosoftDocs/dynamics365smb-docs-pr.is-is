@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Ganga frá þjónustusamningum vegna þjónustuvara
+# <a name="walkthrough-of-service-contracts-for-service-items"></a>Ganga frá þjónustusamningum vegna þjónustuvara
 
 Þessi gönguleið sýnir fram á nokkra kjarnaferla:
 
@@ -19,13 +19,13 @@ ms.custom: bap-template
 - Ljúka tímafærslunni fyrir þjónustupöntunina
 - Bóka og reikningsfæra Samningsþjónustupöntunina
 
-## Stofnun þjónustuvara
+## <a name="creation-of-service-items"></a>Stofnun þjónustuvara
 
-### Aðstæður  
+### <a name="scenario"></a>Aðstæður
 
 Susan, pöntunarörgjörvinn, bókar sölupöntun sem er skilgreind til að mynda þjónustuvöru.  
 
-### Skref
+### <a name="steps"></a>Skref
 
 1. Athuga skal að  **Vara**  er valin með  **þjónustuvöruflokki** .
    
@@ -39,13 +39,13 @@ Susan, pöntunarörgjörvinn, bókar sölupöntun sem er skilgreind til að mynd
     2. Veljið pöntun fyrir viðskiptavin 10000. Ytri pantanirnar nr. Er  *svc-1*.
     3.  **Veljið aðgerðina Bóka**  til að senda vöruna til viðskiptavinarins.
 
-### Niðurstöður
+### <a name="results"></a>Niðurstöður
 
 - Þjónustuvara verður útbúin fyrir viðskiptavin 10000
 
-##  Reikningsfæra þjónustusamning
+## <a name="invoicing-a-service-contract"></a>Reikningsfæra þjónustusamning
 
-### Aðstæður
+### <a name="scenario-1"></a>Aðstæður
 
 Charles, þjónustustjóri, býr svo til þjónustusamning til að reikningsfæra fyrir reglulegum viðhaldsheimsóknum.
 
@@ -68,18 +68,18 @@ Charles, þjónustustjóri, býr svo til þjónustusamning til að reikningsfær
    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustureikningar** og velja síðan viðkomandi tengil.
    2. Finna skal þjónustureikninginn og velja  **aðgerðina Bóka** .
 
-### Niðurstöður
+### <a name="results-1"></a>Niðurstöður
 
 - Undirritaður verði samningur um undirritaðan þjónustusamning, með færslum
 - Bókaður Þjónustureikningur verður stofnaður
 
-## Þjónustupöntun stofnuð fyrir þjónustusamning og úthlutað forða
+## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Þjónustupöntun stofnuð fyrir þjónustusamning og úthlutað forða
 
-### Aðstæður  
+### <a name="scenario-2"></a>Aðstæður
 
 Charles, þjónustustjóri, mun stofna þjónustupantanir fyrir reglulegar viðhaldspantanir samkvæmt þjónustusamningi og yfirfara síðan Sendingarborð til að úthluta þeim.
 
-### Skref
+### <a name="steps-1"></a>Skref
 
 1. Keyrið þjónustupöntunum sem munu uppfylla skyldur virkra þjónustusamninga.
    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Stofna samn.þjónustupantanir** og svo velja viðeigandi tengil.
@@ -102,21 +102,21 @@ Charles, þjónustustjóri, mun stofna þjónustupantanir fyrir reglulegar viðh
     3. Úthlutuninni verður breytt í virka stöðu.
     4. Verkröðunarstjórnin mun sýna  **Engar úthlutanir**  sem breytt hefur verið úr 0 til 1 fyrir þjónustupöntunina.
 
-### Niðurstöður
+### <a name="results-2"></a>Niðurstöður
 
 - Þjónustupantanir verða stofnaðar fyrir þjónustusamninga
 - Þjónustupöntunum verður úthlutað til forða til að ljúka vinnunni
 
-## Ljúka tímafærslunni fyrir þjónustupöntunina og bóka þjónustupöntunina
+## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Ljúka tímafærslunni fyrir þjónustupöntunina og bóka þjónustupöntunina
 
-### Aðstæður  
+### <a name="scenario-3"></a>Aðstæður
 
 Þjónustutæknimenn munu skrá tíma sinn beint á móti þjónustupöntuninni, síðan merkja pöntun sem tilbúna.
 
 > [!NOTE]
 > Hægt er að færa inn tímafærslu fyrir þjónustupantanir með vinnuskýrslum. Frekari upplýsingar er að finna á [hlekkur á tímablað ef þetta athugast á vit].
 
-### Skref
+### <a name="steps-2"></a>Skref
 
 1. Finna þjónustupöntunina og færa tímann inn í Þjónustulínuna
    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.
@@ -131,8 +131,8 @@ Charles, þjónustustjóri, mun stofna þjónustupantanir fyrir reglulegar viðh
 2. Í þjónustupöntuninni er notkunin bókuð
    1. Velja skal  **aðgerðina Bóka**  til að ljúka þjónustupöntuninni, velja  **skipið og neyta**  aðgerðar og velja svo hnappinn í  **lagi** .
 
-### Niðurstöður
+### <a name="results-3"></a>Niðurstöður
 
 - Þjónustufærslur verða stofnaðar í tengslum við þjónustuvöruna, þjónustusamninginn og forða-
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .

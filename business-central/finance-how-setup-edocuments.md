@@ -12,7 +12,7 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# Setja upp e-skjöl
+# <a name="set-up-e-documents"></a>Setja upp e-skjöl
 
 > [!IMPORTANT]
 > Kjarnaeiningin E-skjöl er rammi. Sjálfgefið er að ekkert  **snið**  skjals eða  **þjónustusameining**  sé til staðar. Þessar upplýsingar eru hluti af staðlastofnun apps, þar sem þær eru báðar sértækar fyrir staðbundnar kröfur.
@@ -22,7 +22,7 @@ ms.author: altotovi
 
 Fyrsta skrefið í samskipun rafrænna skjala (e-skjala) er að setja upp E-skjalaþjónustu þar sem skilgreind er fullkomin hegðun kerfisins þar sem það tengist e skjalasamskiptum.
 
-## Setja upp þjónustu fyrir E-skjal
+## <a name="set-up-the-e-document-service"></a>Setja upp þjónustu fyrir E-skjal
 
 Fylgdu þessum leiðbeiningum til að setja upp E-skjalaþjónustu.
 
@@ -61,7 +61,7 @@ Ef skilgreiningarsnið  **Gagnatengis hefur verið skilgreint**  í staðlinum e
 
 Ef skilgreiningarsnið  **gagnaskipta er að**  lokum hægt að samskipa sniðum í gegnum  **útflutningsvörpun**  og  **innflutningsvörulínurnar**, þar sem hægt er að staðsetja töflurnar og svæðin til að nota og skilgreina umbreytingarreglur ef það á við.
 
-## Setja upp lýsingu á sendingu skjals
+## <a name="set-up-a-document-sending-profile"></a>Setja upp lýsingu á sendingu skjals
 
 Hægt er að setja upp æskilega aðferð við að senda söluskjöl fyrir hvern viðskiptavin. Þannig er ekki úr vegi að velja sendingarvalkost í hvert skipti sem valið  **er bóka-og Sendingaraðgerð** .  **Á síðunni senda forstillingar**  skjalsins er hægt að setja upp mismunandi sendingarforstillingar og velja síðan á milli þeirra í  **reitnum senda lýsingu**  skjals á viðskiptamannaspjaldi. Hægt er að velja  **sjálfgefna**  gátreitinn til að tilgreina að forstilling skjals sé sjálfgefin Forstilling fyrir alla viðskiptamenn, nema viðskiptamenn þar sem  **reiturinn Forstilling**  skjals er stilltur á aðra sendingarforstillingu.
 
@@ -83,7 +83,7 @@ Fylgið þessum skrefum til að setja upp snið fyrir sendingarreglu skjals.
     > [!NOTE]
     > Ef valið  **er útvíkkað Þjónustuflæði**  e-skjals í  **svæðinu rafrænt fylgiskjal**  verður þegar að hafa verkflæðið sem er samskipað fyrir E-skjölin.
 
-## Setja upp verkflæðið
+## <a name="set-up-the-workflow"></a>Setja upp verkflæðið
 
 Fylgið þessum skrefum til að setja upp verkflæðið sem er notað í aðgerðum í e-skjali.
 
@@ -98,7 +98,7 @@ Fylgið þessum skrefum til að setja upp verkflæðið sem er notað í aðger�
 > [!NOTE]
 > Hægt er að stofna eigið verkflæði fyrir e-skjöl án þess að nota fyrirfram skilgreind sniðmát verkflæðis. Ef um fleiri þjónustur er að ræða má nota mismunandi verkflæði.
 
-## Setja upp varðveislureglu fyrir e-skjöl
+## <a name="set-up-a-retention-policy-for-e-documents"></a>Setja upp varðveislureglu fyrir e-skjöl
 
 E-skjöl geta verið efni ólíkra staðbundinna löggerninga sem tengjast því tímabili sem e-skjöl eru geymd til. Því höfum við bætt við uppsetningu varðveislustefnu fyrir allar mikilvægar upplýsingar sem tengjast e-skjölum. Kerfisstjórar geta skilgreint varðveislureglur sem tilgreina hversu oft  Dynamics 365 Business Central  á að eyða úreltum færslum sem tengjast e-skjölum. Nánari upplýsingar um varðveislustefnu  [fást í skilgreina varðveislureglur](admin-data-retention-policies.md).
 
@@ -112,7 +112,7 @@ Ef setja á upp varðveislustefnu skjala sem tengjast, skal fylgja þessum leið
     - Vörpunarskrá rafræns skjals
     - Gagnageymsla í E-skjali
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Hvernig á að nota e-skjöl í Viðskiptamiðl-](finance-how-use-edocuments.md)  
 [Hvernig á að framlengja e-skjöl í Viðskiptamiðl-](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
