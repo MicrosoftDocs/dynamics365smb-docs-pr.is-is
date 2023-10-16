@@ -59,7 +59,9 @@ Endurtaktu skref 2-6 fyrir allar netverslanir sem þú vilt tengjast.
 ### Þekkt vandamál
 
 - Vafrinn lokar sprettiglugganum. Þegar þú kveikir á virkjunni skipta opnar bið eftir svari-ekki loka þessari síðu  **á meðan hún bíður eftir aðgangstákn**  .  [!INCLUDE [prod_short](../includes/prod_short.md)]  **·**  Shopify Ef þessi síða er lokuð eða lokuð er ekki hægt að  Shopify tengjast. Frekari upplýsingar er að finna í [Biðja um aðgangslykilinn](troubleshoot.md#request-the-access-token).
+- Það gæti verið góð hugmynd að hafa  Shopify  admin opið í sama vafra og [!INCLUDE [prod_short](../includes/prod_short.md)]
 - [Villa:  Oauth  villa invalid_request: Ekki tókst að finna  Shopify  API-forrit með api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Villa:  Oauth  villa invalid_request: reikningurinn hefur ekki heimild til að veita umbeðna aðgang fyrir þetta App.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Ekki hægt að tengja frá sandkassa](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Næstu skref
@@ -108,8 +110,6 @@ Ef Samkeyrsla leyfa er haldið  **til að  Shopify**  skipta á virkjum, þá er
 
 *   Velja  **drög**  í  **stöðunni stofna afurðarsvæði**  til að tryggja að útfluttar afurðir séu ekki tiltækar fyrir kaupendur. Hægt er að sannreyna hvernig vörur líta út í netverslun, samstilla verð, valkosti og birgðastig. Gættu þess aðeins að nota afmarkanir á  **síðunni bæta við vöru  Shopify**  við til að takmarka fjölda útfluttra vara.
 *  **Slökkva á Útflutningsviðskiptamanninum  Shopify**  sem á að skipta þannig að Viðskiptavinir séu ekki sendir til Shopify.
-
-## Sjá tengda  [Microsoft-þjálfun](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## Sjá einnig .
 

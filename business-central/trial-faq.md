@@ -44,11 +44,9 @@ Skiptu yfir í 30 daga prufuútgáfu og bættu svo þínum eigin gögnum við. F
 
 Það er ekki hægt. Ef þú eyðir óvart sýnigögnum skaltu biðja stjórnandann þinn um að búa til nýtt sandkassaumhverfi. Frekari upplýsingar er að finna í [Framleiðslu- og sandkassaumhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types) í efni stjórnanda (aðeins á ensku).  
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/trial-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
-[Skráðu þig í ókeypis Dynamics 365 Business Central prufu](trial-signup.md)  
+[Skráning fyrir ókeypis prufuútgáfu af Dynamics 365 Business Central](trial-signup.md)  
 [Algengar spurningar um notkun Business Central](across-faq.yml)  
 [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Prufuútgáfa og áskrift](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

@@ -11,11 +11,11 @@ ms.date: 09/29/2021
 ms.author: bholtorf
 ---
 
-# <a name="sales-quick-start"></a>Stuttur leiðarvísir um sölu
+# Stuttur leiðarvísir um sölu
 
 Til að geta selt vörur og þjónustu þarf fyrst að setja upp vörur og viðskiptamenn. Þegar því er lokið er hægt að byrja að skrá sölupantanir og senda út reikninga.
 
-## <a name="set-up-items-to-sell"></a>Setja upp vörur til að selja
+## Setja upp vörur til að selja
 
 Þetta myndband sýnir hvernig á að setja upp vöru til að selja í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,13 +23,13 @@ Til að geta selt vörur og þjónustu þarf fyrst að setja upp vörur og viðs
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
 
-### <a name="set-up-a-new-item"></a>Setja upp nýtt atriði
+### Setja upp nýtt atriði
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 Frekari upplýsingar og annað sem þú getur gert þegar þú vörur eru settar upp er að finna í [Skrá nýjar vörur](inventory-how-register-new-items.md).  
 
-## <a name="set-up-customers"></a>Viðskiptamenn settir upp
+## Viðskiptamenn settir upp
 
 Þetta myndband sýnir hvernig á að setja upp nýjan viðskiptamann í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -37,17 +37,17 @@ Frekari upplýsingar og annað sem þú getur gert þegar þú vörur eru settar
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-### <a name="set-up-a-new-customer"></a>Setja upp nýjan viðskiptamann
+### Setja upp nýjan viðskiptamann
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Frekari upplýsingar og annað sem þú getur gert þegar viðskiptamenn eru settir upp er að finna í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)
 
-## <a name="create-a-sales-order"></a>Stofna sölupöntun
+## Stofna sölupöntun  
 
 Þegar maður selur viðskiptamanni eitthvað eru tveir kostir í boði. Sá fyrri er einfaldari, en hann er snýst bara um að stofna sölureikning. Ef söluferlið þitt er hinsvegar flóknara, t.d. ef þú ert með aðstæður þar sem þú sendir aðeins hluta af pöntunarmagni, notar þú sölupöntun.
 
-### <a name="to-create-a-sales-order"></a>Sölupöntun stofnuð
+### Sölupöntun stofnuð  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 10.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.
 2. Veljið **Nýtt** til að stofna nýja færslu.
@@ -77,11 +77,11 @@ Frekari upplýsingar og annað sem þú getur gert þegar viðskiptamenn eru set
 
 Frekari upplýsingar og annað sem þú getur gert þegar þú stofnar sölupantanir viðskiptamanns er að finna í [Selja vörur með sölupöntun viðskiptamanns](sales-how-sell-products.md).  
 
-## <a name="create-a-sales-invoice"></a>Búa til sölureikning
+## Búa til sölureikning
 
 Þegar þú stofnar og bókar sölureikning stofnarðu ekki bara reikningsskjalið sem þú sendir viðskiptamanninum, heldur stofnarðu einnig viðkomandi magn- og virðisfærslur í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### <a name="to-create-and-post-a-sales-invoice"></a>Að stofna og bóka sölureikning
+### Að stofna og bóka sölureikning  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 20.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
 
@@ -107,7 +107,7 @@ Frekari upplýsingar og annað sem þú getur gert þegar þú stofnar sölupant
 
 Frekari upplýsingar og annað sem þú getur gert þegar þú stofnar sölureikninga viðskiptamanns er að finna í [Reikningsfæra sölu](sales-how-invoice-sales.md)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
 [Söluyfirlit](sales-manage-sales.md)  

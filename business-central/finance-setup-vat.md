@@ -302,8 +302,6 @@ Setja verður upp upplýsingar um hvernig skattayfirvöld í landinu eða svæð
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Sjá einnig .
 
 [Uppsetning á sniðmáti VSK-yfirlits og heiti VSK-yfirlits](finance-how-setup-vat-statement.md)  

@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650'
 ms.date: 03/07/2022
 ms.author: jswymer
 ---
-# <a name="legacy-set-the-layout-used-by-a-report"></a>(Eldra) Velja útlit sem skýrslan notar
+# (Eldra) Velja útlit sem skýrslan notar
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -24,7 +24,7 @@ Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja a
 > [!TIP]  
 > Skýrslur skjala (ekki lista) sem nota Word-skýrsluútlit eru venjulega hraðari en þær sem nota RDLC-skýrsluútlit. Ef þú hefur þess vegna kost á því að velja milli Word- eða RDLC-skýrsluútlits fyrir skýrslu skjals, skaltu nota Word-skýrsluútlit fyrir bestu afköstin.
 
-## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Til að breyta því hvaða skýrsluútlit á að nota fyrir skýrslu eða skjal
+## Til að breyta því hvaða skýrsluútlit á að nota fyrir skýrslu eða skjal
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.
   
@@ -43,7 +43,7 @@ Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja a
 
 Ef þú velur innbyggt RDLC skýrsluútlit, þá þarf ekkert að gera og útlitið er notað næst þegar skýrslan er keyrð.
 
-## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Til að breyta sérsniðnu útliti fyrir útlit skýrslu
+## Til að breyta sérsniðnu útliti fyrir útlit skýrslu
 
 Einnig gæti þurft að breyta sérsniðnu útliti í notkun. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).
 
@@ -56,7 +56,7 @@ Heiti á völdu sérsniðnu útliti er nú sýnt í reitnum **Sérstillt útlit*
 
 Nú er hægt að fara á spjöld viðskiptamanna og lánardrottna til að tilgreina hvaða útlit á að nota fyrir önnur skjöl sem eru búin til fyrir viðkomandi viðskiptamann eða lánardrottinn, eins og staðfestingu á pöntun eða greiðsluáminningar. Frekari upplýsingar eru í [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -11,7 +11,7 @@ ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8
 ms.date: 09/02/2022
 ms.author: altotovi
 ---
-# <a name="work-with-intrastat-reporting"></a>Vinna með Intrastat-skýrslur
+# Vinna með Intrastat-skýrslur
 
 Öll fyrirtæki í löndum innan Evrópusambandsins (ESB) þurfa að gefa öðrum löndum/svæðum innan sambandsins skýrslur um viðskipti sín. Einnig þarf að gefa hagstofu viðkomandi lands/svæðis mánaðarlega skýrslu um hreyfingu vöru og skýrsluna þarf að afhenda skattayfirvöldum. Intrastat er kerfið til að safna saman tölfræði um vöruviðskipti innan þessara landa/svæða. Þú notar **Intrastat-skýrsla** til að ljúka reglubundinni Intrastat-skýrslugerð (yfirleitt mánaðarlega), söfnun, skráningu og tilkynningu um vöruviðskipti í samræmi við löggjöf á hverjum stað.
 
@@ -27,7 +27,7 @@ Intrastat-skýrslugerð byggir á grunnreglum ESB sem gilda um öll lönd/svæð
 >
 > Sem stendur er gert ráð fyrir að þessi eiginleiki verði í boði frá nóvember 2022 sem forrit hjá [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Á þeim tímapunkti, til að nota það, þarf fyrst að setja það upp á síðunni **Viðbótarstjórnun**.
 
-## <a name="fill-in-the-intrastat-report"></a>Fylltu út Intrastat-skýrsluna
+## Fylltu út Intrastat-skýrsluna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Intrastat-listi** og veldu viðeigandi tengil.
 2. Veldu aðgerðina **Ný** til að búa til nýja **Intrastat-skýrslu**.
@@ -44,7 +44,7 @@ Intrastat-skýrslugerð byggir á grunnreglum ESB sem gilda um öll lönd/svæð
 
 Keyrslan sækir allar birgðafærslur á upplýsingatímabilinu og setur þær inn í **Intrastatskýrsluna** sem línur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="modify-the-intrastat-report"></a>Breyta Intrastat-skýrslunni
+## Breyta Intrastat-skýrslunni
 
 Ef þörf krefur er hægt að breyta línunum, en í hvert skipti sem gildi er breytt í línu Intrastat-skýrslunnar verður reiturinn **Leiðrétting** sjálfkrafa merktur sem **Já**. Að lokum er hægt að bæta við nýrri línu handvirkt ef ástæða er fyrir því. Til að bæta handvirkt við nýrri línu.
 
@@ -57,13 +57,13 @@ Ef þörf krefur er hægt að breyta línunum, en í hvert skipti sem gildi er b
 > [!NOTE]
 > Þegar nýrri línu er bætt handvirkt við Intrastat-skýrsluna verður reiturinn **Dagsetning** í línunni að vera fyrir innan sviðs **Tölfræðitímabils** sem bætt var við hausinn.
 
-## <a name="validate-intrastat-lines"></a>Staðfesta Intrastat-línur
+## Staðfesta Intrastat-línur
 
 Þegar þú hefur fyllt út **Intrastat-skýrsluna** geturðu keyrt aðgerðina **Gátlistaskýrsla** til að ganga úr skugga um að allar upplýsingar í **Intrastat-skýrslunni** séu réttar. Áskildir reitir sem þú hefur stillt á síðunni **Gátlisti Intrastat-skýrslu** sem vantar gildi verða sýndir í upplýsingareitnum **Villur og viðvaranir** á síðunni **Intrastat-skýrsla**.
 
 Keyrðu skýrsluna **Gátlisti Intrastat-skýrslu** til að athuga Intrastat-línur áður en þær eru fluttar út í áskilið snið. Athugunin er keyrð í **Intrastat-skýrslunni**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Endurútreikningur þyngdar eða viðbótarmælieiningar
+## Endurútreikningur þyngdar eða viðbótarmælieiningar
 
 Ef þú fékkst villuboðin *„Heildarþyngd“ í línu Intrastat-skýrslu verður að vera auð* er það líklega vegna þess að þú stilltir ekki reitinn **Nettóþyngd** á notaðan uppruna, vöru eða eign. Í þessu tilviki skaltu leita að vöru- eða eignaspjaldinu og bæta við nauðsynlegum reit. Eftir það þarftu bara að opna **Intrastat-skýrsluna** og fylgja þessum skrefum:
 
@@ -75,7 +75,7 @@ Ef þú fékkst villuboðin *„Heildarþyngd“ í línu Intrastat-skýrslu ver
     3. **Bæði** – til að endurreikna bæði **Heildarþyngd** og **Viðbótarmagn** út frá núverandi upplýsingum um vöru- og eignaspjöldin.
 3. Smellt er á **Í lagi** til að hefja keyrsluna.
 
-## <a name="report-intrastat-in-a-file"></a>Senda Intrastat-skýrslu sem skrá
+## Senda Intrastat-skýrslu sem skrá
 
 Hægt er að senda Intrastat-skýrsluna sem skrá byggða á mismunandi kröfum yfirvalda á staðnum. Áður en skráin er búin til skal keyra **Gátlistaskýrsluna** til að athuga hvort allar línur innihaldi nauðsynlegar og gildar upplýsingar. Til að stofna skrá:
 
@@ -93,22 +93,22 @@ Hægt er að senda Intrastat-skýrsluna sem skrá byggða á mismunandi kröfum 
 > [!NOTE]
 > Næst þegar þú stofnar skrá munu reitirnir **Útflutningsdagsetning** og **Útflutningstími** aðeins halda upplýsingum um síðustu skrána sem var stofnuð.
 
-## <a name="intrastat-rules"></a>Intrastat-reglur
+## Intrastat-reglur
 
-### <a name="grouping-lines"></a>Flokkunarlínur
+### Flokkunarlínur
 
 Í línum **Intrastat-skýrslu** eru engar flokkanir af hálfu reita. Allar færslur eru afritaðar frá upprunanum þannig að þú getur fundið þér fljótt út frá samsetningu **Upprunategundar** og **Upprunafærslunr.**.
 
 Flokkun sem yfirvöld krefjast verða gefnar upp í útfluttu skránni. Grunnstilla þarf þetta í **Skilgreining gagnaskipta**, sem er hægt að stilla frá grunni. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)
 
-### <a name="fixed-assets-reporting"></a>Skýrslugjöf eigna
+### Skýrslugjöf eigna
 
 Eignir verða sýndar í Intrastat-línunum aðeins ef:
 
 * **Eignabókunartegund** í reitnum **VSK-færsla** er **Kaupverð** og ef **Tegund skjals** er **Reikningur** í tilfelli innkaupa og
 * **Eignabókunartegund** í reitnum **VSK-færsla** er **Tekjur við afskráningu** og ef **Tegund skjals** er **Reikningur** í tilfelli sölu.
 
-### <a name="intrastat-report-statuses"></a>Stöður Intrastat-skýrslu
+### Stöður Intrastat-skýrslu
 
 Þegar unnið er með **Intrastat-skýrsluna** sérðu reitinn **Staða** í skjalahausnum. Þú getur fundið eftirfarandi stöðu ásamt tengdum reglum:
 
@@ -116,7 +116,7 @@ Eignir verða sýndar í Intrastat-línunum aðeins ef:
 * *Útgefin*: [!INCLUDE[prod_short](includes/prod_short.md)] breytir stöðunni sjálfkrafa í *Útgefna* þegar skrá er stofnuð. Frá þeirri stundu getur þú ekki breytt **Intrastat-skýrslunni** þinni. Ef breyta þarf einhverju og gefa skýrslu á nýjan leik er hægt að nota aðgerðina **Enduropna** til að enduropna Intrastat-skýrsluna. Þegar skjalið hefur verið opnað aftur er hægt að nota aðgerðina **Gefa út** til að gefa út skjalið aftur.
 * **Tilkynnt**: Tilgreinir hvort skattayfirvöld hafa þegar fengið skýrslu um færsluna. Þetta er ekki venjuleg staða heldur sjálfstæður reitur og jafnvel þótt þú opnir Intrastat-skýrsluna aftur myndi hún samt sýna að skráin sé þegar stofnuð fyrir þessa skýrslu.
 
-### <a name="triangular-trade-in-intrastat"></a>Þríhliða viðskipti í Intrastat
+### Þríhliða viðskipti í Intrastat
 
 Þríhliða viðskipti felur í sér viðskipti milli þriggja landa eða svæða þar sem vörur sporna við tilkynningarskyldu um landskrá fyrirtækja. Hægt er að auðvelda í gegnum  [sendingaraðgerðina](sales-how-drop-shipment.md)  í miðborg fyrirtækja. Til að virkja þennan valkost skal virkja  **reitinn taka bein afhending**  með í  **uppsetningu Intrastat-skýrslu**.  
 
@@ -134,7 +134,7 @@ Eignir verða sýndar í Intrastat-línunum aðeins ef:
 | Utan ESB-lands | ESB landið öðruvísi en landið í  **Fyrirtækjaupplýsingunum** | Engar Intrastat-línur |
 | Utan ESB-lands | Utan ESB-lands | Engar Intrastat-línur |   
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sett upp Intrastat-skýrslur](finance-how-setup-report-intrastat.md)  
 [Fjármálastjórnun](finance.md)  

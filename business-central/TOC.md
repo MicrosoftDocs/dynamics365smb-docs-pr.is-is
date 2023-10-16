@@ -348,6 +348,11 @@
 #### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
 
+### Vinna með rafræn skjöl
+#### [Setja upp rafræn skjöl](finance-how-setup-edocuments.md)
+#### [Nota rafræn skjöl fyrir sölu og innkaup](finance-how-use-edocuments.md)
+#### [Framlengja virkni rafrænna skjala](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Stjórna VSK
 #### [VSK-stjórnunaryfirlit](finance-manage-vat.md)
 #### [Innkaupafærslur þriðja aðila innan ESB](finance-how-to-eu3party-trade-purchase.md)
