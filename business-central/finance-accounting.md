@@ -10,23 +10,23 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
-# Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-"></a>Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Engu skiptir hvernig endurskoðandi þú ert, þú getur nýtt þér **Endurskoðandi** Mitt hlutverk sem þitt Heim í [!INCLUDE[prod_short](includes/prod_short.md)]. Héðan hefurðu aðgang að öllum síðum sem þú þarft í vinnunni.  
 
-## Endurskoðandi Mitt hlutverk
+## <a name="accountant-role-center"></a>Endurskoðandi Mitt hlutverk
 
 Mitt hlutverk er yfirlit með aðgerðarreitum sem sýna þér lykiltölur í rauntíma og veita þér skjótan aðgang að gögnum. Á borðanum efst á síðunni færðu aðgang að fleiri aðgerðum, eins og að opna þær fjárhagsskýrslur og yfirlit sem oftast eru notuð í Excel. Efst uppi á yfirlitsstikunni er hægt að skipt hratt á milli listanna sem þú notar oftast. Hér sérðu önnur svæði eins og **Bókuð fylgiskjöl** með mismunandi tegundum fylgiskjala sem fyrirtækið hefur bókað.  
 
 Ef þú þekkir ekki til [!INCLUDE[prod_short](includes/prod_short.md)], geturðu opnað myndbandalista frá Mitt hlutverk. Einnig er hægt að opna **Hafist handa** kynningu sem bendir á lykilsvæði.  
 
-## Fyrirtækjamiðstöð
+## <a name="company-hub"></a>Fyrirtækjamiðstöð
 
 Ef unnið er í mörgum [!INCLUDE [prod_short](includes/prod_short.md)] fyrirtækjum gæti það hentað þér að nota síðuna **Fyrirtækjamiðstöð** til að fylgjast með vinnu.  Frekari upplýsingar er að finna í [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md).  
 
-## <a name="inviteaccountant"></a>Bjóða ytri endurskoðanda í þitt [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-"></a><a name="inviteaccountant"></a>Bjóða ytri endurskoðanda í þitt [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, getur kerfisstjórinn þinn boðið þeim í þitt [!INCLUDE[prod_short](includes/prod_short.md)] svo þeir geti unnið með þín fjárhagsgögn. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur þrjú leyfi af gerðinni External Accountant. Nánari upplýsingar um leyfi er að finna í [Microsoft Dynamics 365 Business Central leyfishandbók](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -46,11 +46,11 @@ Við höfum auðveldað þér að bjóða ytri endurskoðanda. Einfaldlega opni�
 >
 > Þetta verk krefst aðgangs að stjórnun notenda og leyfa í  Microsoft Entra  auðkenni. Notandinn sem sendir þetta boð verður að vera með hlutverkið **Altækur stjórnandi** eða **Notandastjórnandi** í Microsoft 365 stjórnendamiðstöð. Frekari upplýsingar eru í [Um stjórnandahlutverk](/microsoft-365/admin/add-users/about-admin-roles) í Microsoft 365 efni kerfisstjóra.  
 
-### Endurskoðanda þínum er bætt við Microsoft 365 í gegnum Azure-gátt
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Endurskoðanda þínum er bætt við Microsoft 365 í gegnum Azure-gátt
 
 Ef stjórnandi þinn eða endursöluaðili vill ekki nota leiðarvísinn **Bjóða ytri endurskoðanda** geta þeir bætt við ytri notanda í Azure-gáttinni og úthlutað þessum notanda heimild *Ytri endurskoðanda*. Frekari upplýsingar er að finna í [Stutt leiðbeining: Bæta gestanotendum við skráasafnið þitt í Azure-gáttinni](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
-#### Til að bæta endurskoðandanum sem gestanotanda
+#### <a name="to-add-your-accountant-as-a-guest-user"></a>Til að bæta endurskoðandanum sem gestanotanda
 
 1. Opnið [Azure gáttina](https://portal.azure.com/).
 2. Í vinstri rúðunni er valið  **Microsoft Entra  Kenni**.
@@ -65,7 +65,7 @@ Ef stjórnandi þinn eða endursöluaðili vill ekki nota leiðarvísinn **Bjó�
 
 Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### Að gefa endurskoðandanum aðgang að [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-"></a>Að gefa endurskoðandanum aðgang að [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Í Azure-gáttinni, í notanda sem var nýlega bætt við, skal velja **Forstilling** og síðan velja **Breyta**
 2.  **Uppfærið svæðið fyrir notkunarstað**  í viðkomandi landi/svæði og veljið  **síðan Vista**.
@@ -79,11 +79,11 @@ Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE[prod_shor
 
 Ef það tekst er leyfinu úthlutað til gestanotanda og gestareikningur er búinn til.
 
-### Nýr notandi fluttur inn í [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-"></a>Nýr notandi fluttur inn í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Endurskoðandi fær sendan tölvupóst sem tilkynnir þeim að hann hafi fengið aðgang að kenninu Microsoft Entra . Næst verður að veita þeim aðgang að rétta fyrirtækinu í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### Að bæta endurskoðandanum við rétt fyrirtæki
+#### <a name="to-add-the-accountant-to-the-right-company"></a>Að bæta endurskoðandanum við rétt fyrirtæki
 
 1. Opnið [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtækið sem gefa á endurskoðandanum aðgang að á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Notendur** og veldu síðan tengda tengilinn.  
@@ -93,7 +93,7 @@ Endurskoðandi fær sendan tölvupóst sem tilkynnir þeim að hann hafi fengið
 
 Ef á að veita aðgang að mörgum fyrirtækjum þarf að skrá sig inn í hvert fyrirtæki fyrir sig og endurtaka þetta ferli. Að öðrum kosti er hægt að uppfæra heimildaflokka fyrir notandaforstillingu endurskoðandans í [!INCLUDE[prod_short](includes/prod_short.md)], svo sem með því að úthluta þeim *D365 Bus Premium* notendaflokki. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  

@@ -9,11 +9,11 @@ ms.date: 09/25/2023
 ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ---
-# Setja upp vöruhúsastarfsmenn
+# <a name="set-up-warehouse-employees"></a>Setja upp vöruhúsastarfsmenn
 
 Setja þarf upp sérhvern notanda sem framkvæmir vöruhúsaaðgerðir sem starfsmann vöruhúss og úthluta þeim á sjálfgefna staðsetningu. [!INCLUDE [prod_short](includes/prod_short.md)] afmarkar verkþætti vöruhúsaaðgerða til sjálfgefinnar staðsetningar starfsmannsins. Þeir geta aðeins framkvæmt vöruhúsaaðgerðir á staðnum. Einnig er hægt að úthluta notanda á aðra staði. Þeir geta opnað en ekki framkvæmt aðgerðir á þeim stöðum.
 
-## Setja upp vöruhúsastarfsmenn  
+## <a name="to-set-up-warehouse-employees"></a>Setja upp vöruhúsastarfsmenn
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -25,9 +25,9 @@ Setja þarf upp sérhvern notanda sem framkvæmir vöruhúsaaðgerðir sem starf
 > [!TIP]
 > Einnig er hægt að nota  **aðgerðina bæta við starfsmanni**  sem er vöruhúsaaðgerð til að bæta handvirkt við lista yfir vöruhúsastarfsmenn. Þetta kemur til dæmis að gagni þegar verið er að prófa vinnslugetu.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

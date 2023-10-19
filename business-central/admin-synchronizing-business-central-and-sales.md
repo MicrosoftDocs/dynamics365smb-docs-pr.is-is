@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ---
 
-# Samstilling gagna í Business Central með Microsoft Dataverse
+# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Samstilling gagna í Business Central með Microsoft Dataverse
 
 Við samþættingu [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að ákveða hvort eigi að samstilla gögn á völdum svæðum [!INCLUDE[prod_short](includes/prod_short.md)] (t.d. viðskiptamenn, tengiliðir og sölumenn) við samsvarandi línur í [!INCLUDE[prod_short](includes/cds_long_md.md)] (s.s. reikningar, tengiliðir og notendur). Háð gerðar línu, er hægt að samstilla gögn úr [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)] eða öfugt. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -34,7 +34,7 @@ Samstilling notar eftirfarandi einingar:
 > [!NOTE]
 > Samstillingin á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] byggir á tímasettir keyrslu á verkraðarfærslum og tryggir ekki samræmi rauntímagagna milli þjónustanna tveggja. Fyrir samræmi í rauntímagögnum ættirðu að skoða [Sýndartöflur Business Central](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eða Business Central API.   
 
-## Stöðluð töfluvörpun fyrir samstillingu
+## <a name="standard-table-mapping-for-synchronization"></a>Stöðluð töfluvörpun fyrir samstillingu
 
 Töflur í [!INCLUDE[prod_short](includes/cds_long_md.md)], t.d. reikningar, eru samþættar við jafngildar gerðir af töflum í [!INCLUDE[prod_short](includes/prod_short.md)], t.d. viðskiptavini. Til að vinna með [!INCLUDE[prod_short](includes/cds_long_md.md)]-gögn eru tenglar settir upp, kallast tengingar, milli tafla í [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -54,11 +54,11 @@ Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_shor
 > [!NOTE]
 > **Dataverse** aðgerðirnar verða ekki tiltækar á síðum, til dæmis síðu viðskiptamannaspjalds, fyrir færslur sem virða ekki töflusíuna á vörpun samþættingartöflu.
 
-### Ábending vegna admins: Skoða töfluvörpun
+### <a name="tip-for-admins-viewing-table-mappings"></a>Ábending vegna admins: Skoða töfluvörpun
 
 Hægt er að skoða vörpunina milli tafla í [!INCLUDE[prod_short](includes/cds_long_md.md)] og í [!INCLUDE[prod_short](includes/prod_short.md)] á síðunni **Vörpun samþættingartöflu** þar sem einnig er hægt að nota afmarkanir. Skilgreining á vörpun milli reita í [!INCLUDE[prod_short](includes/prod_short.md)]-töflum og dálka í [!INCLUDE[prod_short](includes/cds_long_md.md)]-töflum á síðunni **Vörpun samþættingarreits** þar sem hægt er að bæta við viðbótarreglum fyrir vörpun. Þetta getur til dæmis verið gagnlegt ef nauðsynlegt er að úrræðaleita samstillingu.
 
-## Nota sýndartöflur til að fá meiri gögn
+## <a name="use-virtual-tables-to-get-more-data"></a>Nota sýndartöflur til að fá meiri gögn
 
 Þegar þú ert að setja upp samþættingu geturðu notað sýndartöflur til að gera fleiri gögn tiltæk í  [!INCLUDE[prod_short](includes/cds_long_md.md)], án aðstoðar frá hönnuði.
 
@@ -80,11 +80,11 @@ Til að nota sýndartöflur verður þú að setja upp  **Sýndareiningareiningu
 *  **Dataverse Frá uppsetningu** tengingar,  **sýndartöflum** og  **tiltækum síðum sýndartaflna** .  
 * Frá Power App Maker gáttinni.
 
-## Samstilla gögn frá mörgum fyrirtækjum eða umhverfi
+## <a name="synchronize-data-from-multiple-companies-or-environments"></a>Samstilla gögn frá mörgum fyrirtækjum eða umhverfi
 
 Hægt er að samstilla gögn frá mörgum  [!INCLUDE [prod_short](includes/prod_short.md)]  fyrirtækjum eða umhverfi við  [!INCLUDE[prod_short](includes/cds_long_md.md)]  umhverfi. Í samstillingaráætlunum margra fyrirtækja er nokkur atriði að hafa í huga.
 
-### Stilla auðkenni fyrirtækis
+### <a name="set-company-ids"></a>Stilla auðkenni fyrirtækis
 
 Þegar færslur eru samstilltar, setjum við KENNI fyrirtækis á  [!INCLUDE[prod_short](includes/cds_long_md.md)]  eininguna til að skýra  [!INCLUDE [prod_short](includes/prod_short.md)]  fyrirtækið sem færslurnar komu frá. Fjölvarpstöflu samþættingar er með samþættingartöfluafmörkunarreitum sem taka KENNI fyrirtækis með í reikninginn. Ef hafa á töfluvörpun með í uppsetningu margra fyrirtækja á  **vörpunartöflu**  samþættingar er valið  **gátreitinn fjölfyrirtækið samstilling** . Stillingin stækkar það sem afmörkunarreitir samþættingartöflunnar afmarka í uppsetningu margra fyrirtækja.
 
@@ -92,15 +92,15 @@ Ef valið er að samstilla töfluvörpun sem samstillir skjöl, svo sem pantanir
 
 Fyrir allar aðrar töfluvörpun samþættingar er gátreiturinn fjölfyrirtækjasamgerður  **samstillingar fjarlægður og afmörkunin á kenni fyrirtækis valin** . Samstillingin telur tengdar einingar, óháð fyrirtækjaauðkenni þeirra.
 
-### Tilgreina skal samstillingarstefnu
+### <a name="specify-the-synchronization-direction"></a>Tilgreina skal samstillingarstefnu
 
 Ef stuðningur við fjölfyrirtæki er gerður virkur við vörpun samþættingar töflu er mælt með því að setja stefnuna á vörpun í  **frominteánægjuleg**. Ef stefnan er sett á að  **tosamþætting**  eða  **tvímörkun** er góð hugmynd til að nota  **síu**  fyrir töfluna afmörkun  **og**  Samþætting til að stjórna því hvaða einingar samstilla við fyrirtækið. Það er líka góð hugmynd að nota Match-based festingu til að forðast að stofna tvíteknar færslur. Til að fræðast meira um samsvörun byggða er farið í að  [Sérsníða samsvörun byggða](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#customize-the-match-based-coupling) á samsvörun.
 
-### Nota einkvæmt númer
+### <a name="use-unique-numbers"></a>Nota einkvæmt númer
 
 Ef númeraröðin tryggir ekki að aðallykildin séu einstök fyrir hvert fyrirtæki er mælt með því að nota forskeyti. Til að byrja að nota forskeyti, Stofnið umbreytingarreglu í reitnum samþættingarvörpun. Til að fræðast meira um umbreytingarreglur er farið í að  [sjá mismun í svæðisgildum](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values).
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 
 [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   

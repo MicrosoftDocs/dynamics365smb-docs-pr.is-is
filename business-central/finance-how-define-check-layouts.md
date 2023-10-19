@@ -11,13 +11,13 @@ ms.search.form: '374, 404'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Velja útlit ávísunar
+# <a name="select-a-check-layout"></a>Velja útlit ávísunar
 
 Hægt er að hanna tékka til þess að uppfylla staðla sem staðaryfirvöld setja. Hægt er að prenta tékkamyndir á Enska, frönsku eða Spænsku.
 
 Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadískum tékkamyndsniðum annað á sniðinu tékki-svunta-tékki  eða á sniðinu svunta-svunta-tékki.
 
-## Útlit ávísunar valið
+## <a name="to-select-a-check-layout"></a>Útlit ávísunar valið
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningur skýrsluvals** og velja síðan viðkomandi tengil.
 2. Á síðunni **Skýrsluval - Bankareikningur** í reitnum **Notkun** skal velja **Reikningur**.
@@ -34,7 +34,7 @@ Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadísk
 
 Til að breyta einum af þessum sjálfgefnu útlitum ávísunar skal annaðhvort nota Word- eða RDLC-samþættingu. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).
 
-## Nota MICR og öryggisletur
+## <a name="use-micr-and-security-fonts"></a>Nota MICR og öryggisletur
 Netútgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur foruppsettar leturgerðir á netþjónum sem hægt er að nota þegar útlit ávísana er skilgreint. Eftirfarandi lýsir því hvaða leturgerðir eru í boði og inniheldur tengla á ítarlegar upplýsingar þriðju aðila í leturgerðum.
 
 > [!Important]
@@ -45,19 +45,19 @@ Netútgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur forupp
 > [!NOTE]
 > Af öryggis-og lagaástæðum er ekki hægt að hlaða upp sérstilltum leturgerðum í [!INCLUDE[prod_short](includes/prod_short.md)] umhverfinu.
 
-### MICR E-13B lýsingar
+### <a name="micr-e-13b-specifications"></a>MICR E-13B lýsingar
 
 Eftirfarandi er samantekt skilgreininga fyrir MICR E-13B leturgerðir sem kunna að vera gagnlegar þegar leturgerðir eru kvarðaðar fyrir ávísunarútliti með tilteknum MICR-prenturum.
 
 ![MICR E-13B lýsingar.](media/font_MICR_E-13B_Specifications.png "MICR E-13B lýsingar")
 
-### Skiltákn
+### <a name="delimiter-characters"></a>Skiltákn
 
 ![Skiltákn.](media/font-micr-letters.png "Skiltákn")
 
 Hægt er að finna alla lýsinguna á leturgerðum MICR E-13B í fylgiskjölum birgis hér: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### MICR CMC-7 lýsingar
+### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 lýsingar
 
 Eftirfarandi CMC-7 letur er tiltækt á [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
@@ -70,13 +70,13 @@ Eftirfarandi er samantekt skilgreininga fyrir MICR CMC-7 leturgerðir sem kunna 
 
 ![MICR CMC-7 lýsingar.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 lýsingar")
 
-### Skiltákn
+### <a name="delimiter-characters-1"></a>Skiltákn
 
 ![Skiltákn fyrir CMC-7.](media/font-cmc7-letters.png "Skiltákn fyrir CMC-7")
 
 Hægt er að finna alla lýsinguna á leturgerðum MICR CMC-7 í fylgiskjölum birgis hér: (http://www.idautomation.com/micr-fonts/cmc7/).
 
-### Lýsingar á öruggu letri
+### <a name="secure-font-specifications"></a>Lýsingar á öruggu letri
 
 Eftirfarandi er samantekt skilgreininga fyrir öryggisleturgerðir ávísana sem kunna að vera gagnlegar þegar leturgerðir eru kvarðaðar fyrir ávísunarútliti með tilteknum MICR-prenturum.
 
@@ -86,7 +86,7 @@ Hægt er að finna alla lýsinguna á öryggisleturgerðum ávísana í fylgiskj
 
 Leturgerðir í öðrum tilgangi má einnig finna í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna á [Leturgerðir í boði](ui-fonts.md)
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)  
 [Leturgerðir í Business Central](ui-fonts.md)  

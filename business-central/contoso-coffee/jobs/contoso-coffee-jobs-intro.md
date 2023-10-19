@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Kynning á Útlitslæknum Kaffivinnslum og verkefnastjórnun
+# <a name="introduction-to-contoso-coffee-jobs-and-project-management"></a>Kynning á Útlitslæknum Kaffivinnslum og verkefnastjórnun
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki.  **Contoso-kaffiforrit**  fyrir miðborg bæta við sýnigögnum sem nota má til að læra hvernig hægt er að nota störf og getu verkstjórnenda í Aðalstarfsemi fyrirtækja.
 
@@ -21,7 +21,7 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 > Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Nánari kröfur er að finna í kaflanum um  [contoso Coffee](#set-up-contoso-coffee-jobs-and-project-management-data) .
 >
 > 
-## Setja upp contoso kaffi vinnslur og gögn verkefnastjórnunar
+## <a name="set-up-contoso-coffee-jobs-and-project-management-data"></a>Setja upp contoso kaffi vinnslur og gögn verkefnastjórnunar
 
 [!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
@@ -46,4 +46,4 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .

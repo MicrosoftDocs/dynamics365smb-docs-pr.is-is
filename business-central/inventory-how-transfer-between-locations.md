@@ -10,14 +10,14 @@ ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
 ---
-# Flytja birgðir milli birgðageymslna
+# <a name="transfer-inventory-between-locations"></a>Flytja birgðir milli birgðageymslna
 
 Það er hægt að flytja birgðavörur milli tveggja staða með því að búa til flutningspantanir. Einnig er hægt að nota vöruendurflokkunarbók.
 
 > [!NOTE]
 > Til að flytja vörur þarf að setja upp staðsetningar og flutningsleiðir. Til að fræðast meira um uppsetningu staðsetningar er farið í  [Setja upp staðsetningar](inventory-how-setup-locations.md). Ekki er hægt að nota flutningspantanir fyrir  *auða*  staði.
 
-## Flutningspöntunum
+## <a name="transfer-orders"></a>Flutningspöntunum
 
 Hægt er að senda sendingu út frá einum stað og fá heimflutning á áfangastað. Hægt er að:
 
@@ -26,7 +26,7 @@ Hægt er að senda sendingu út frá einum stað og fá heimflutning á áfangas
 * Nota mismunandi vöruhúsaaðgerðir fyrir inn-og útleiðarstaði.
 * Með sumum takmörkunum er hægt að nota flutningspantanir fyrir beinan flutning.
 
-## Endurflokkunarbækur vöru
+## <a name="item-reclassification-journals"></a>Endurflokkunarbækur vöru
 
 * Einfaldur, Beinn flutningur á vörum milli birgðageymslna.
 * Flytja vörur milli hólfa. Frekari upplýsingar um flutning vara milli hólfa er að  [flytja Óáætlaðar vörur í Grunnvöruhúsafbrigðum](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -35,7 +35,7 @@ Hægt er að senda sendingu út frá einum stað og fá heimflutning á áfangas
 * Endurflokka vörur úr  *auða*  birgðageymslu í raunverulega staðsetningu.
 * Vöruhúsaaðgerðum er ekki stjórnað. Vöruhúsafærslur verða stofnaðar.
 
-## Vörur fluttar með flutningspöntun
+## <a name="to-transfer-items-with-a-transfer-order"></a>Vörur fluttar með flutningspöntun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningspantanir** og velja síðan viðkomandi tengil.
 2. Fyllt er út í reiti eftir því sem á við á síðunni **Flutningspöntun**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -60,7 +60,7 @@ Hægt er að senda sendingu út frá einum stað og fá heimflutning á áfangas
     Sem starfsmaður vörugeymslu við flutninginn frá staðsetninginni skaltu halda áfram að fá vörurnar. Flutningspöntunarlínurnar eru þær sömu og við sendingu og er ekki hægt að breyta þeim.
 5. Veldu aðgerðina **Bóka**, veldu **Móttaka** valkostinn og veldu síðan **Í lagi** hnappinn.
 
-### Bóka margar flutningspantanir í runu
+### <a name="post-multiple-transfer-orders-in-a-batch"></a>Bóka margar flutningspantanir í runu
 
 Eftirfarandi ferli skýrir hvernig á að bóka flutningspantanir í runu.
 
@@ -80,7 +80,7 @@ Eftirfarandi ferli skýrir hvernig á að bóka flutningspantanir í runu.
     > [!NOTE]
     > Bókun margra skjala gæti tekið nokkurn tíma og útilokað aðra notendur. Íhugaðu að virkja bakgrunnsbókun. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### Áætla færslu í Verkröð til að bóka mörg skjöl í runu
+### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Áætla færslu í Verkröð til að bóka mörg skjöl í runu
 
 Einnig er hægt að nota verkraðarinn til að áætla að bókun gerist í einu sem er hentugt fyrir fyrirtækið. Það gæti til dæmis verið skynsamlegt fyrir fyrirtæki að keyra tilteknar venjur þegar mest er um gagnafærslu dagsins.
 
@@ -100,7 +100,7 @@ Eftirfarandi ferli sýnir hvernig á að setja upp  **skýrsluna runubókun flut
 8.  **Í reitinn Upphafstími**  er FÆRT  **4 PM**.
 9. Velja aðgerðina **Stilla stöðu á Tilbúin**.
 
-## Til að flytja vörur með vöruendurflokkunarbók
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Til að flytja vörur með vöruendurflokkunarbók
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruendurflokkunarbók** og velja síðan viðkomandi tengil.
 2. Á síðunni **Birgðaendurflokkunarbók** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -113,7 +113,7 @@ Eftirfarandi ferli sýnir hvernig á að setja upp  **skýrsluna runubókun flut
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Afturkalla flutningsendingu
+## <a name="undo-a-transfer-shipment"></a>Afturkalla flutningsendingu
 
 Ef mistök finnast í magni í bókaðri flutningspöntun, svo framarlega sem sendingin berst ekki er auðvelt að leiðrétta magnið.  **Á síðunni Póstsendingarsending**  er búið að  **leiðrétta afhendingarlínur**, eins og hér segir:
 
@@ -125,7 +125,7 @@ Ef magnið var sent í vöruhúsaafhendingu er leiðréttingarlína stofnuð í 
 
 Til að ljúka leiðréttingu þarf að opna millifærslapöntunina, færa inn rétt magn og bóka pöntunina. Ef vöruhúsaafhending er notuð til að senda pöntunina, Stofnið og bókið nýja vöruhúsaafhendingu.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Uppsetning birgðageymsla](inventory-how-setup-locations.md)  

@@ -12,7 +12,7 @@ ms.search.form: '9204,'
 ms.date: 04/01/2021
 ms.author: soalex
 ---
-# Stjórna notendastillingum og kjörstillingum
+# <a name="manage-user-settings-and-preferences"></a>Stjórna notendastillingum og kjörstillingum
 
 Sem stjórnandi getur þú skilgreint notandastillingar í [!INCLUDE[prod_short](includes/prod_short.md)], svipað því og einstakir notendur geta stjórnað eigin kjörstillingum á síðunni **Mínar stillingar**.  
 
@@ -23,7 +23,7 @@ Fáið yfirlit yfir alla notendur í listanum **Notendur** og breytið einstaka 
 
 Síðan **Spjald notandastillinga** er svipuð og síðan **Mínar stillingar** sem hver notandi hefur aðgang að og er hún öflugt verkfæri fyrir stjórnendur til að stilla sjálfgefnar stillingar og hreinsa sérstilltar síður sem dæmi.  
 
-## Gerðir notendastillinga
+## <a name="types-of-user-settings"></a>Gerðir notendastillinga
 
 *Notandastillingar* eru ekki þær sömu og *Notandauppsetning*, sem er um notandann sem eining og aðgangur notanda í kerfinu. Notandastillingar hafa ennfremur ekkert að gera með sérstillingar notanda, t.d. minniháttar breytingum á notandaviðmóti. Notendastillingar ákvarða forskilgreindar  stillingar fyrir hvern notanda á þann ólíka hátt sem forritið birtist notandanum. Eftirfarandi málsgrein sýnir fimm gerðir notendastillinga og kjörstillingar sem einstakur notandi getur stillt eða stjórnandi stillir miðlægt:
 
@@ -59,21 +59,21 @@ Síðan **Spjald notandastillinga** er svipuð og síðan **Mínar stillingar** 
 > [!NOTE]
 > Ef samstilling Microsoft 365 -notanda er gerð á meðan notendur eru skráðir inn í [!INCLUDE[prod_short](includes/prod_short.md)] verða slíkir notendur að uppfæra vafrann eða skrá sig út og aftur inn í [!INCLUDE[prod_short](includes/prod_short.md)] til að sjá þeir geti séð annað tungumál sem er stillt með samstillingaraðgerðinni.
 
-## Yfirlit yfir notandabundnar breytingar
+## <a name="overview-of-all-user-specific-changes"></a>Yfirlit yfir notandabundnar breytingar
 
 Sem stjórnandi geturðu fengið yfirlit yfir einstaka breytingar á [!INCLUDE [prod_short](includes/prod_short.md)] sem hver notandi gæti hafa gert á ýmsum síðum í [!INCLUDE [prod_short](includes/prod_short.md)]. Þegar notendur gera breytingar á upplifun sinni í [!INCLUDE [prod_short](includes/prod_short.md)] munu þær koma fram í listanum **Sérstillingar notanda**. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## Að yfirfara eða eyða sérstillingum notanda
+## <a name="to-review-or-delete-user-personalizations"></a>Að yfirfara eða eyða sérstillingum notanda
 
 1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, farðu í **Sérsniðnar síður** og veldu svo viðeigandi tengil.
 2. Þetta birtir lista yfir notendur og sérstilltar síður þeirra. Til að hreinsa sérstillingu notanda er smellt á viðeigandi línu eða valið **Stjórna** og síðan valið **Eyða**.
 
 Þetta eyðir sérstillingum og upplifun notandans á viðkomandi síðu fer aftur í sjálfgefna stöðu.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

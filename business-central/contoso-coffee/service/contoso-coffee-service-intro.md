@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Kynning á contoso Coffee Management
+# <a name="introduction-to-contoso-coffee-service-management"></a>Kynning á contoso Coffee Management
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki.  **Contoso-kaffiforrit**  fyrir miðborg bæta við sýnigögnum sem nota má til að læra að nýta möguleika Þjónustustjórnun í miðborg fyrirtækja.
 
@@ -22,7 +22,7 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 > Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Nánari kröfur er að finna í kaflanum um  [contoso Coffee](#set-up-contoso-coffee-service-management-data) .
 >
 > 
-## Uppsetning á contoso Coffee-Þjónustustjórnun
+## <a name="set-up-contoso-coffee-service-management-data"></a>Uppsetning á contoso Coffee-Þjónustustjórnun
 
 [!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
@@ -42,7 +42,7 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
-## Dæmi
+## <a name="scenarios"></a>Dæmi
 
 The contoso kaffi sýnikennsla styður nú eftirfarandi þjónustuáætlanir fyrir próf og þjálfun:
 
@@ -55,6 +55,6 @@ Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
 > Þjónusta walktreystar krefst þess að notendaupplifun sé stillt á  **aukagjald**  á  **upplýsingasíðu**  fyrirtækisins.
 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Þjónustu](../../service-service.md)

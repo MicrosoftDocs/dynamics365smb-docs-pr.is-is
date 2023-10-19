@@ -9,7 +9,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Ganga frá þjónustupöntunum á þjónustuvörum
+# <a name="walkthrough-of-service-orders-for-service-items"></a>Ganga frá þjónustupöntunum á þjónustuvörum
 
 Þessi gönguleið sýnir fram á nokkra kjarnaferla:
 
@@ -17,13 +17,13 @@ ms.custom: bap-template
 - Veita skal Lánsumsókn til viðskiptavinar um tíma frá viðgerð
 - Bóka og reikningsfæra þjónustupöntunina
     
-## Þjónustupöntun stofnuð
+## <a name="creating-a-service-order"></a>Þjónustupöntun stofnuð
 
-### Aðstæður  
+### <a name="scenario"></a>Aðstæður
 
 Charles, þjónustustjóri, stofnar þjónustupöntun fyrir viðgerðartíma, lánar Lánstæki til viðskiptavinar vegna viðgerðar.
 
-### Skref
+### <a name="steps"></a>Skref
 
 1. Stofnið þjónustupöntunina handvirkt fyrir vöruna sem þarfnast viðgerðar.
    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikn, færa inn  **þjónustupantanir**
@@ -40,20 +40,20 @@ Charles, þjónustustjóri, stofnar þjónustupöntun fyrir viðgerðartíma, l�
    1. Í línurnar er valið  **LOANER1**  sem lánsbúnaður nr. Staðfestu útgefendur lánsbúnaðarins með því að velja  **Já**  til að lána lánsbúnaðinum út. 
    2. Velja aðgerðina  **Aðgerðir sækja þjónustukóta**, velja staðlaðan kóta sem tengist þjónustuflokki og smella á  **í lagi**.
    
-### Niðurstöður
+### <a name="results"></a>Niðurstöður
 
 - Þjónustupöntun verður stofnuð fyrir vöruna
 - Í Þjónustuskjalaskrá þjónustupöntunarinnar verða Verkþættir lánsbúnaðar sýnir.
 - Lánveitandi skal hafa bókfærslu til að endurspegla útlánsvexti.
    
 
-## Regsiter framkvæmdi vinnu, merkt lánsumsókn sem Skilaskyld.
+## <a name="regsiter-performed-work-mark-loaner-as-returned"></a>Regsiter framkvæmdi vinnu, merkt lánsumsókn sem Skilaskyld.
 
-### Aðstæður  
+### <a name="scenario-1"></a>Aðstæður
 
 Þjónustutæknimaður markar lánsbúnað sem skilað er, skráir framkvæmd vinnu.
 
-### Skref
+### <a name="steps-1"></a>Skref
 
 1. Finna þjónustuverkhluta og skrá tíma 
    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuverk** og svo velja viðeigandi tengil.
@@ -73,13 +73,13 @@ Charles, þjónustustjóri, stofnar þjónustupöntun fyrir viðgerðartíma, l�
    3.  **Velja móttökuaðgerð**  
    4. Staðfesta skil á lánsbúnaðinum með því að velja  **Já**  til að skila lánsbúnaðinum.
       
-### Niðurstöður
+### <a name="results-1"></a>Niðurstöður
 
 - Í Þjónustuskjalaskrá  **þjónustupöntunarinnar**  verða Verkþættir lánsbúnaðar sýnir.
 - Lánveitandi skal hafa bókfærslu til að endurspegla móttökunina.
 
 
-### Aðstæður  
+### <a name="scenario-2"></a>Aðstæður
 
 Charles, þjónustustjóri, bóka Afgreiddar þjónustupöntunina.
 
@@ -90,9 +90,9 @@ Charles, þjónustustjóri, bóka Afgreiddar þjónustupöntunina.
 2. Á þjónustupöntuninni er reikningurinn bókaður
    1. Velja skal  **aðgerðina Bóka**  til að ljúka þjónustupöntuninni, velja  **senda og reikningsfæra**  aðgerð og velja svo hnappinn í  **lagi** .
    2. Staðfestu opnun bókaðs reiknings með því að velja  **Já**. 
-### Niðurstöður
+### <a name="results-2"></a>Niðurstöður
 
 -  **bókaður Þjónustureikningurinn**  er stofnaður.
 -  **þjónustufærslur**  sem tengjast vörunni og forða eru stofnaðar
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .

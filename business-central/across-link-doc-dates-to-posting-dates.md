@@ -9,10 +9,10 @@ ms.date: 08/03/2023
 ms.custom: bap-template
 ---
 
-# Uppfærir dagsetningar fylgiskjals með bókunardagsetningum
+# <a name="updating-document-dates-with-posting-dates"></a>Uppfærir dagsetningar fylgiskjals með bókunardagsetningum
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)
