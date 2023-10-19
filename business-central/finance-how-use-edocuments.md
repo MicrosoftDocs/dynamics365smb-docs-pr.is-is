@@ -12,7 +12,7 @@ ms.date: 10/03/2023
 ms.author: altotovi
 ---
 
-# <a name="use-e-documents-in-sales-and-purchases"></a>Nota e-skjöl í sölu og innkaupum
+# Nota e-skjöl í sölu og innkaupum
 
 Hægt er að nota skilgreind rafræn skjöl (e-skjöl) með sölu-og innkaupaskjölum.
 
@@ -28,13 +28,13 @@ Eins er hægt að nota eftirfarandi skjöl fyrir e-skjöl:
 
 Eins og er er aðeins hægt að nota innkaupapöntun þegar skjalið er stofnað úr skjali frá lánardrottni. Hins vegar er ekki hægt að uppfæra fyrirliggjandi skjal með línum sem þú fékkst frá lánardrottninum.
 
-## <a name="e-documents-in-sales"></a>E-skjöl í sölu
+## E-skjöl í sölu
 
 Til að stofna og senda e-reikning til viðskiptamanns þarf að stofna og bóka sölureikninginn. Nánari upplýsingar um staðlaða ferlið er að finna  [í Reikningsölu](sales-how-invoice-sales.md).
 
 Eftir að söluskjal hefur verið bókað skal opna  **síðuna bókuð sölureikningur**  til að fá aðgang að tengdri  **E-skjali**  síðu.
 
-### <a name="view-e-documents"></a>Skoða e-skjöl
+### Skoða e-skjöl
 
 Fylgdu þessum skrefum til að skoða tiltæk skjöl.
 
@@ -43,7 +43,7 @@ Fylgdu þessum skrefum til að skoða tiltæk skjöl.
 3. Í  **reitnum færsla**  kemur fram fylgiskjalsnúmer bókaða sölureikningsins. Velja skal tengilinn til að opna skjalið.
 4.  **Í svæðinu rafræn staða**  skjals er hægt að skoða stöðu skjalsins og staðsetningar þess í ferli ferlis. Ef skjalið er bókað er staðan  **unnin**.
 
-### <a name="e-document-statuses-and-logs"></a>E-skjalastöður og annmarkar
+### E-skjalastöður og annmarkar
 
 Nánari upplýsingar um stöðu þjónustustaða í e-skjali er að leita í  **fastflipa fyrir e-skjalaþjónustu** . Í línunum sýnir kerfið eina eða fleiri þjónustur sem skjalið notar. Í algengustu aðstæðunum notar hvert skjal aðeins eina þjónustu. Skjal getur þó notað margar þjónustur.
 
@@ -67,11 +67,11 @@ Ef mál er höfðað hjá þjónustuveitanda og ekki er unnt að senda skjalið 
 
 Þegar úthreyfing hefur verið föst skal keyra  **Sendingarskjalaaðgerðirnar**  handvirkt. Ef þörf er á mismunandi aðgerðum, svo sem  **endurgerðum,** aflýsa  **skjali**, eða  **fá samþykki** er hægt að keyra þær.
 
-## <a name="e-documents-in-purchases"></a>E-skjöl í innkaupum
+## E-skjöl í innkaupum
 
 Móttöku innkaupa á rafrænum reikningum í  Dynamics 365 Business Central  má gera sem runuvinnslu eða handvirkt.
 
-### <a name="run-the-batch-job"></a>Keyrslan er keyrð
+### Keyrslan er keyrð
 
 > [!NOTE]
 > Þessi keyrsla er fyrir sjálfvirka innheimtu reikninga sem berast. Það getur aðeins unnið á landi eða svæði þar sem virknin er til staðar.
@@ -95,7 +95,7 @@ Tvær algengar villur eru:
 
 Þegar búið er að lagfæra villur og viðvaranir er hægt að tilgreina handvirkt hvenær kerfið á að stofna innkaupareikning á grundvelli uppsetningar með því að velja  **Stofna skjal**.
 
-### <a name="manually-import-invoices"></a>Flytja inn reikninga handvirkt
+### Flytja inn reikninga handvirkt
 
 Ef flytja á inn ytri e-skjöl handvirkt er þessum skrefum fylgt.
 
@@ -106,7 +106,7 @@ Ef flytja á inn ytri e-skjöl handvirkt er þessum skrefum fylgt.
 5. Þegar notandi hefur lokið við að lagfæra úthreyfingar, skal velja  **Stofna skjal**  handvirkt  **í** flokknum innflutningur.
 6. Þegar búið er að stofna skjalið í Business Central er hægt að skoða það rétt eins og ef runuvinnsla er notuð.
 
-## <a name="overview-of-e-document-statuses"></a>Yfirlit yfir e-Document stöður
+## Yfirlit yfir e-Document stöður
 
 Til að fá betri yfirsýn yfir öll skjöl í fyrirtækinu er hægt að velja  **hlutverkamiðstöð endurskoðanda**  þar sem staða e-skjals er til staðar. Þar má finna starfsemi e-skjala sem hafa á eftirfarandi stöðum að:
 
@@ -122,7 +122,7 @@ Til að fá betri yfirsýn yfir öll skjöl í fyrirtækinu er hægt að velja  
     - Í vinnslu
     - Villa
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Hvernig á að setja upp e-skjöl í Viðskiptamiðl-](finance-how-setup-edocuments.md)  
 [Hvernig á að framlengja e-skjöl í Viðskiptamiðl-](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

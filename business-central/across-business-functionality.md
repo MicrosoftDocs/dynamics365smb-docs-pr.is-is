@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 09/13/2022
 ms.author: bholtorf
 ---
-# <a name="business-functionality"></a>Viðskiptavirkni
+# Viðskiptavirkni
 
 [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á aðgerðir fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega í heildsölu- og fagþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd. [Sjáðu hvernig þú færð ókeypis prufutíma hér](trial-signup.md).  
 
@@ -39,7 +39,7 @@ ms.author: bholtorf
 |Gera notendum kleift að skiptast á gögnum með ytri gagnagjöfum í daglegum verkum, s.s. senda/móttaka rafræn skjöl, flytja inn/flytja út bankaskrár og uppfæra gengi gjaldmiðils.|[Rafræn gagnaskipti](across-data-exchange.md)|
 |Taktu utanaðkomandi skjöl í [!INCLUDE[prod_short](includes/prod_short.md)], þ.mt skrá viðhengi þeirra, og búðu til handvirkt tengdar skjöl eða búðu til þau sjálfkrafa í rafræn skjöl.|[Skjöl á innleið](across-income-documents.md)|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórnun](admin-setup-and-administration.md)    
 [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/)  

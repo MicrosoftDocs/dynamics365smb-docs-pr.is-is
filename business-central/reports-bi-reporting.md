@@ -25,6 +25,7 @@ Lítil og meðalstór fyrirtæki reiða sig á tilbúna innbyggða möguleika gr
 | Vinna með innbyggð greiningarverkfæri í [!INCLUDE[prod_short](includes/prod_short.md)].| [Innbyggð greining](reports-built-in-analytics.md) |
 | Samþætta ytri verkfæri viðskiptagreindar með [!INCLUDE[prod_short](includes/prod_short.md)].| [Ytri verkfæri viðskiptagreindar](reports-external-analysis.md) |
 |Breyttu skýrsluútliti eða þróaðu jafnvel þínar eigin skýrslur frá grunni. |[Skýrsluþróun](reports-develop-reports.md)|
+|Greina gögn með efni í Microsoft| [Kynning á efni frá Microsoft og Viðskiptabönkum](admin-fabric.md) |
 
 ## Sjá einnig .
 

@@ -12,11 +12,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Ganga frá inn-og útstreymissútflæði í ítarlegri samskipan vöruhúss með beinan frágang og tínslu
+# Ganga frá inn-og útstreymissútflæði í ítarlegri samskipan vöruhúss með beinan frágang og tínslu
 
 Þessi gönguleið sýnir hvernig á að fylla út inn-og út streymi í ítarlegu: beinn frágangur og Tínsluafbrigði. Sjá  [Yfirlit yfir mismunandi skilgreiningarvalkosti fyrir frekari upplýsingar](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði  
 Ef þú vilt ljúka við þetta gönguleið þarftu að gera vöruhúsastarfsmann á  *hvítum*  stað með því að fylgja þessum skrefum:  
 1. Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 1.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
 2. Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
@@ -24,10 +24,10 @@ Ef þú vilt ljúka við þetta gönguleið þarftu að gera vöruhúsastarfsman
 4.  **Virkja sjálfgefna**  skipta.
 
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður  
 Ellen, vöruhúsastjórinn nýtir sér hjáskipunaraðgerðir og hólfaáfyllingaraðgerð til að flýta móttöku og sendingartíma.  
 
-## <a name="steps"></a>Skref
+## Skref
 
 1. Stofna vöruhúsaafhendingu.  
 
@@ -136,7 +136,7 @@ Ellen, vöruhúsastjórinn nýtir sér hjáskipunaraðgerðir og hólfaáfylling
     4.  **Staðfestu möguleika skipsins** .
 
 
-## <a name="results"></a>Niðurstöður
+## Niðurstöður
 -  **bókuð vöruhúsamóttaka**  er stofnuð
 - Búið er að  **Stofna skráðan vöruhúsafrágang**     
 -  **Bókuð innkaupamóttaka**  er stofnuð    
@@ -150,7 +150,7 @@ Ellen, vöruhúsastjórinn nýtir sér hjáskipunaraðgerðir og hólfaáfylling
 
 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Receive Items](../../warehouse-how-receive-items.md) 
 [Design Details: Inbound Warehouse Flow](../../design-details-inbound-warehouse-flow.md) 
 [Ship Items](../../warehouse-how-ship-items.md) 

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bhielse
 ms.topic: how-to
-ms.date: 02/02/2023
+ms.date: 10/04/2023
 ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ---
@@ -72,7 +72,7 @@ Hægt er að gefa út aðra fyrirframgreiðslureikninga fyrir pöntunina. Til a�
 
 ## Uppfæra stöðu fyrirframgreiddra pantana og reikninga sjálfkrafa
 
-Þú getur flýtt fyrir pöntunar- og reikningsvinnslu með því að setja upp verkraðarfærslur sem uppfæra stöðu þessara skjala sjálfkrafa. Þegar fyrirframgreiðslureikningur er greiddur geta verkraðarfærslurnar sjálfkrafa breytt stöðu skjalsins úr **Bíður fyrirframgreiðslu** í **Útgefið**. Þegar þú setur upp verkraðarfærslurnar eru kóðaeiningarnar sem þú þarft að nota **383 Uppf. fyrirfgr. á sölu í bið** og **383 Uppf. fyrirfgr. á innkaupum í bið**. Mælt er með því að keyra færslurnar reglulega, t.d. á mínútu fresti. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
+Þú getur flýtt fyrir pöntunar- og reikningsvinnslu með því að setja upp verkraðarfærslur sem uppfæra stöðu þessara skjala sjálfkrafa. Þegar fyrirframgreiðslureikningur er greiddur geta verkraðarfærslurnar sjálfkrafa breytt stöðu skjalsins úr **Bíður fyrirframgreiðslu** í **Útgefið**. Þegar þú setur upp verkraðarfærslurnar eru kóðaeiningarnar sem þú þarft að nota **384 Uppf. fyrirfgr. á sölu í bið** og **384 Uppf. fyrirfgr. á innkaupum í bið**. Mælt er með því að keyra færslurnar reglulega, t.d. á mínútu fresti. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
 ## Sjá einnig .
 

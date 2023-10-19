@@ -21,7 +21,7 @@ ms.date: 02/08/2023
 Hægt er að nota öryggishópa fyrir lager-og innanhússútgáfur [!INCLUDE [prod_short](includes/prod_short.md)]. Stofna skal flokka með eftirfarandi hætti eftir því hvaða útgáfa er stofnuð:
 
 * Fyrir netútgáfuna, Notið  Microsoft Entra  öryggisflokka. Til að fræðast meira um stofnun flokksins er farið í að  [Stofna, breyta eða eyða öryggisflokki í  Microsoft 365  admin Center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
-* Ef um er að ræða innanhúss eru notaðir Windows Active Directory-Flokkar. Til að fá frekari upplýsingar er farið að  [Stofna Flokkareikning í  Microsoft Entra  ID](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
+* Ef um er að ræða innanhúss eru notaðir Windows Active Directory-Flokkar. Til að fá frekari upplýsingar er farið að  [Stofna Flokkareikning í Windows Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
 Síðan þarf að stofna samsvarandi öryggiaflokk í  [!INCLUDE [prod_short](includes/prod_short.md)] og tengja hann síðan við flokkinn sem var stofnaður. Til að fá frekari upplýsingar er farið í að  [Bæta við öryggisflokki í Business Central](#add-a-security-group-in-business-central).
 

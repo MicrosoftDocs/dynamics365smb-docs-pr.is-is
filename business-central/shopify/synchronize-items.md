@@ -111,8 +111,7 @@ Veldu atriði úr vörulistanum sem á að flytja út í Shopify. Nota aðgerði
 |Kostnaður á vöru|**Kostn.verð**|**Kostnaðarverð**. Einingarkostnaðurinn er aðeins fluttur inn í Nýstofnaðar vörur og uppfærist ekki í seinni samstillingum.|
 |BHE|Upplýsingar um SKUs undir  **skr Kortvörpun**  í  [útflutningsgreinum  Shopify](synchronize-items.md#export-items-to-shopify)  í kafla.|Lærðu á SKUs í  [áhrif  Shopify  vörunar skus og barkóða á vörpun og myndun vara og afbrigða í miðlægum](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)  hluta fyrirtækja.|
 |Strikamerki|**Vörutilvísanir** af gerð strikamerkis.|**Vörutilvísanir** af gerð strikamerkis.|
-|Birgðir verða á lager hjá| Fer fram á  Shopify  vinnustöðum. Ef  **þjónusta**  aðalstöðva er með  **Sjálfgefið**  svæði virkt þá eru birgðir geymdar á lager og afhentar úr  **starfsemi miðlægu uppfyllum þjónustu**  annars  Shopify  er Aðalstaðsetning eða margir staðir notaðir.
-| Ekki notað.|
+|Birgðir verða á lager hjá| Fer fram á  Shopify  vinnustöðum. Ef  **þjónusta**  aðalstöðva er með  **Sjálfgefið**  svæði virkt þá eru birgðir geymdar á lager og afhentar úr  **starfsemi miðlægu uppfyllum þjónustu**  annars  Shopify  er Aðalstaðsetning eða margir staðir notaðir.| Ekki notað.|
 |Rekja magn|Samkvæmt reitnum **Birgðir raktar** á síðunni **Kort í Shopify Verslunarkort**. Fáðu frekari upplýsingar í hlutanum [Birgðir](synchronize-items.md#sync-inventory-to-shopify). Eingöngu notað þegar vara er flutt út í fyrsta sinn.|Ekki notað.|
 |Halda áfram að selja þegar ekki er til á lager|Samkvæmt **Sjálfgefinni birgðastefnu** í **Shopify Verslunarkortinu**.|Ekki notað.|
 |Gerð|**Lýsing** á **Vöruflokkskóða**. Ef tegundin er ekki tilgreind í Shopify er henni bætt við sem sérsniðinni tegund.|**Vöruflokkskóði**. Kortlagning eftir lýsingu.|
