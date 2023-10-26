@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.search.form: '5605, 5551, 5600, 5628, 5629, 5633'
-ms.date: 12/03/2021
+ms.date: 10/04/2023
 ms.author: bholtorf
 ---
-# <a name="acquire-fixed-assets"></a>Komast yfir eignir
+# Komast yfir eignir
 
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Afskriftabók þarf að setja upp og tengja hverri eign áður en hægt er að komast yfir hana.
 
@@ -21,7 +21,7 @@ Hrakvirði er afgangsvirði eignar þegar ekki er lengur hægt að nota hana. H�
 
 Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er að nota keyrsluna **Endurmat eigna** til að reikna kaupferð á endurnýjunarverði.
 
-## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Stofna eign og komast yfir hana sjálfkrafa
+## Stofna eign og komast yfir hana sjálfkrafa
 
 Eftirfarandi ferli sýnir hvernig á að stofna eign og komast svo yfir hana með því að nota **aðstoð við eignakaup** síðuna til að stofna og bóka nauðsynlegar eignafjárhagslínur. Hægt er að einnig að stofna og bóka færslubókarlínurnar handvirkt. Nánari upplýsingar eru í [Bókun eignakaupa handvirkt með fjárhagsbók eigna](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
@@ -39,7 +39,7 @@ Eftirfarandi ferli sýnir hvernig á að stofna eign og komast svo yfir hana me�
 
 Þegar valið er **Ljúka**, er fyllt í reitinn **Bókfært virði** á síðunni **Eignaspjald** sem gefur til kynna að eignin var keypt á tilgreindu kaupverði.  
 
-## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Uppsetning íhlutalista fyrir aðaleignir:
+## Uppsetning íhlutalista fyrir aðaleignir:
 
 Hægt er að flokka eignir í aðaleignir og íhluti þeirra. Í framleiðslutæki gætu til dæmis verið margir hlutir sem þarf að flokka á þennan hátt.  
 
@@ -53,14 +53,14 @@ Setja verður bæði aðaleignina og íhluti hennar upp sem einstök eignaspjöl
 6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning eignar** og velja síðan viðkomandi tengil.
 7. Valinn er **Leyfa Bókun á Aðaleignir** gátreitinn.
 
-## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Bókun eignakaupa handvirkt með fjárhagsbók eigna.
+## Bókun eignakaupa handvirkt með fjárhagsbók eigna.
 
 Eftirfarandi ferli sýnir hvernig á að komast yfir eign handvirkt með því að stofna og bóka línur á síðunni **Fjárhagsbók eigna**. Einnig má komast yfir eign sjálfkrafa með því að nota síðuna **aðstoð við eignakaup**. Frekari upplýsingar er að finna í skrefi 5 í [Stofna eign og komast yfir hana sjálfkrafa](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
 
 > [!NOTE]  
 >   Einnig má bóka kaupverð sem lánsfé. Í því tilfelli muna sem gildið í reitnum **upphæð** að vera með mínusmerki til að tilgreina kredit.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignafjárhagsbók** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsbækur eignar** og velja síðan viðkomandi tengil.
 2. Á síðunni **Fjárhagsbók eigna** í reitnum **Eignabókunartegund** er valið **Kaupverð**.
 3. Fyllið inn í eftirstandandi reiti eftir þörfum.
 4. Valið er **Bóka** aðgerðin.  
@@ -68,7 +68,7 @@ Eftirfarandi ferli sýnir hvernig á að komast yfir eign handvirkt með því a
 > [!TIP]  
 >   Ef þú fyllir upp í reitinn **Tryggingarnúmer** í fjárhagsbók eigna þegar kaupverð er bókað, mun [!INCLUDE[prod_short](includes/prod_short.md)] líka bóka kaupverð eignarinnar í vátryggingasviðsbókina. Nánari upplýsingar sjá [Tryggja eignir](fa-how-insure.md).
 
-## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Ógilding bókunar kaupverðs fyrir eina eign
+## Ógilding bókunar kaupverðs fyrir eina eign
 
 Ef villa á sér stað við bókun stofnkostnaðar er hægt að fjarlægja færsluna með keyrslunni **Afturkalla eignafærslur** og bóka síðan rétta stofnkostnaðarfærslu. Röngu færslurnar eru fluttar á síðuna **Rangar eignafærslur.**
 
@@ -84,7 +84,7 @@ Ef kaup eru til dæmis bókuð með rangri dagsetningu þarf að leiðrétta han
 5. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 6. Þegar röng færsla eða færslur eru ógiltir, skal halda áfram og bóka rétt kaupverð.
 
-## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Bóka hrakvirði með kaupverði.
+## Bóka hrakvirði með kaupverði.
 
 Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
 
@@ -99,7 +99,7 @@ Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
 > [!NOTE]
 > Ef hrakvirði er til staðar fyrir eign verður það gildi notað í afskriftabókun í stað gildis í reitnum **Bókfært lokavirði** á síðunni **Eignaafskriftarbækur** . Frekari upplýsingar eru í [Til að stjórna bókfærðu lokavirði](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Eignir](fa-manage.md) 
 

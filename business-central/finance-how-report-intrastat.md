@@ -116,9 +116,16 @@ Eignir verða sýndar í Intrastat-línunum aðeins ef:
 * *Útgefin*: [!INCLUDE[prod_short](includes/prod_short.md)] breytir stöðunni sjálfkrafa í *Útgefna* þegar skrá er stofnuð. Frá þeirri stundu getur þú ekki breytt **Intrastat-skýrslunni** þinni. Ef breyta þarf einhverju og gefa skýrslu á nýjan leik er hægt að nota aðgerðina **Enduropna** til að enduropna Intrastat-skýrsluna. Þegar skjalið hefur verið opnað aftur er hægt að nota aðgerðina **Gefa út** til að gefa út skjalið aftur.
 * **Tilkynnt**: Tilgreinir hvort skattayfirvöld hafa þegar fengið skýrslu um færsluna. Þetta er ekki venjuleg staða heldur sjálfstæður reitur og jafnvel þótt þú opnir Intrastat-skýrsluna aftur myndi hún samt sýna að skráin sé þegar stofnuð fyrir þessa skýrslu.
 
+### Staðsetningar í Intrastat-skýrslugerð 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] notar upplýsingarnar alltaf í  **reitnum Lands-/svæðiskóti**  á  **birgðageymsluspjaldinu**  sem landið fyrir  **senda frá**  eða fyrir  **móttöku** . Þegar þessar upplýsingar eru ekki til staðar eða að staðsetning er ekki notuð notar kerfið upplýsingarnar af síðunni upplýsingar  **um**  fyrirtækið.   
+
+> [!NOTE]
+> Ef fyrirtækið starfar í fleiri en einu landi vinna Intrastat-skýrslugerð ekki fyrir öll lönd þar sem birgðageymslur eru skilgreindar. Skýrslugerð er eingöngu byggð fyrir meginland, þar sem ekki er eins hægt að nota skýrslugerð um fjölland.  
+
 ### Þríhliða viðskipti í Intrastat
 
-Þríhliða viðskipti felur í sér viðskipti milli þriggja landa eða svæða þar sem vörur sporna við tilkynningarskyldu um landskrá fyrirtækja. Hægt er að auðvelda í gegnum  [sendingaraðgerðina](sales-how-drop-shipment.md)  í miðborg fyrirtækja. Til að virkja þennan valkost skal virkja  **reitinn taka bein afhending**  með í  **uppsetningu Intrastat-skýrslu**.  
+Þríhliða viðskipti felur í sér viðskipti milli þriggja landa eða svæða þar sem vörur sporna við tilkynningarskyldu um landskrá fyrirtækja. Hægt er að auðvelda í gegnum  [sendingaraðgerðina](sales-how-drop-shipment.md)  í miðborg fyrirtækja. Til að virkja þennan valkost skal virkja  **reitinn taka bein afhending**  með í  **uppsetningu** Intrastat-skýrslu.  
 
 Þegar þessi valkostur er gerður er hægt að nota kerfið eftirfarandi reglur, en aðeins ef þú ert með  **dropinn Shipmnet**  merktan í  **sölupöntuninni**: 
 

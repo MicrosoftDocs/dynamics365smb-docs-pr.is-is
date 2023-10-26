@@ -21,7 +21,7 @@ Neytendur og fyrirtæki greiða virðisaukaskatt (VSK) þegar þau kaupa vörur 
 * Það sem er selt  
 * Hvað keypt er  
 
-Hægt er að setja upp VSK-útreikning handvirkt, en það getur verið bæði snúið og tímafrekt. Það er vegna þess að það er mjög auðvelt að nota mismunandi VSK-hlutföll fyrir mistök og búa til ónákvæmar VSK-tengdar skýrslur. Til að auðvelda uppsetningu VSK mælum við með því að þú notir uppsetningarleiðbeiningarnar **Uppsetning á VSK** sem gefnar eru upp í vörunni. 
+Hægt er að setja upp VSK-útreikning handvirkt, en það getur verið bæði snúið og tímafrekt. Það er auðvelt að nota mismunandi VSK-taxta fyrir mistök og skapa rangar skýrslur um VSK-tengdar. Til að auðvelda uppsetningu VSK mælum við með því að þú notir uppsetningarleiðbeiningarnar **Uppsetning á VSK** sem gefnar eru upp í vörunni. 
 
 Ef þú vilt hins vegar setja upp VSK-útreikninga á eigin spýtur eða vilt bara fræðast um hvert skref fyrir sig, þá inniheldur þessi grein lýsingar á öllum skrefunum:  
 
@@ -44,7 +44,7 @@ Til að styðja við fljótlega byrjun tilkynnir [!INCLUDE [prod_short](includes
 
 Ef þú velur slíka tilkynningu býr [!INCLUDE [prod_short](includes/prod_short.md)] sjálfkrafa til þessa bókunargrunna út frá bókunarflokkum í skjalinu eða færslubókinni sem þú ert að vinna í.  
 
-Á þessum tímapunkti geturðu bara fyllt út í fjárhagsreikningana sem vantar. En seinna gætirðu komist að því að upphafleg uppsetning sé röng þegar þú byrjar að fínstilla hana. Og [!INCLUDE [prod_short](includes/prod_short.md)] leyfir ekki að eyða VSK-bókunargrunni og almennum bókunargrunni þegar færslur hafa verið stofnaðar samkvæmt slíkum grunnstillingum. Frá og með útgáfutímabili 1 árið 2022 getur þú notað reitinn **Útilokað** á síðunni **VSK-bókunargrunnur** til að koma í veg fyrir að notendur noti uppsetningu sem á ekki lengur við fyrir nýjar bókanir.
+Á þessum tímapunkti geturðu bara fyllt út í fjárhagsreikningana sem vantar. En seinna gætirðu komist að því að upphafleg uppsetning sé röng þegar þú byrjar að fínstilla hana. Og  [!INCLUDE [prod_short](includes/prod_short.md)]  leyfir ekki EYÐINGU VSK-bókunaruppsetningar og almennrar bókunaruppsetningar þegar færslur hafa verið stofnaðar á grundvelli slíkra afbrigða. Frá og með útgáfutímabili 1 árið 2022 getur þú notað reitinn **Útilokað** á síðunni **VSK-bókunargrunnur** til að koma í veg fyrir að notendur noti uppsetningu sem á ekki lengur við fyrir nýjar bókanir.
 
 ## Setja upp sjálfgefna VSK-dagsetningu fyrir skjöl og færslubækur
 
@@ -75,7 +75,7 @@ Ef setja á upp stig VSK-dagsetningarnotkunar er þessum skrefum fylgt:
 |--------------------|-----------------------------------------|
 | **Nota fulla virkni VSK-dagsetningar** | Allt sem tengist  **VSK-dagsetningunni**  virkar sjálfgefið og gefur þér hámarks  **VSK-dagsetningarvirkni** . Hægt er að setja upp dagsetninguna, breyta henni í skjölum, tilkynna hana á grundvelli hennar og breyta dagsetningunni eftir bókun svo lengi sem tímabilinu er ekki lokað eða varið með leyfilegum dagsetningum fyrir bókun. |
 | **Notkun en leyfa ekki breytingar** | Allt sem tengist  **VSK-dagsetningunni**  virkar sjálfgefið með einni undantekningu. Ekki er hægt að  **breyta VSK-dagsetningunni**  í  **VSK-færslum**. |
-| **Ekki nota VSK-Dagsetningaraðgerðir** | [!INCLUDE [prod_short](includes/prod_short.md)] mun fela og gera  **svæðin VSK-dagsetningar**  ekki tiltæk í skjölum, færslubókum og færslum.  **SJÁLFGEFIN VSK-dagsetning**  verður samskipuð sem  **Bókunardagsetning**. |
+| **Ekki nota VSK-Dagsetningaraðgerðir** | [!INCLUDE [prod_short](includes/prod_short.md)] mun fela og gera  **svæðin VSK-dagsetningar**  ekki tiltæk í skjölum, færslubókum og færslum.  **SJÁLFGEFIN VSK-dagsetning**  er samskipuð sem  **Bókunardagsetning**. |
 
 3. Loka síðunni.
 
@@ -84,24 +84,49 @@ Ef setja á upp stig VSK-dagsetningarnotkunar er þessum skrefum fylgt:
 
 ### Takmarka tímabil fyrir bókanir og breytingar á VSK-dagsetningunni
 
-Hægt er að koma í veg fyrir að fólk bóki eða breyti VSK-færslum á tilteknu dagsetningasviðum. Takmörkuninni er stillt með því að nota tvær stillingar:
+Hægt er að koma í veg fyrir að fólk bóki eða breyti VSK-færslum á tilteknu dagsetningasviðum. Takmörkunin er stillt með tveimur stillingum:
 
 * Byggt á Endurlokuðu  **VSK-tímabili**
 *  **Á grundvelli leyfa bókunar**  í reitina og  **Bókun leyfð í**  reitum.
 
 #### Bókun að takmarka bókanir á skilatímabili VSK
 
-1. Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags** og velja síðan viðkomandi tengil.  
+1. Veldu þá  ![ljósaperu sem opnar á TellF me lögun 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags** og velja síðan viðkomandi tengil.  
 2.  **Á flipanum Almennt**, í  **reitnum stýring VSK-tímabils**, Tilgreinið HVERSU miklu eftirliti með VSK-skilatímabili er. Eftirfarandi tafla lýsir valkostunum.
 
 | Gerð | Heimildasamstæða |
 |--------------------|-----------------------------------------|
-| **Loka fyrir bókun innan loka og vara fyrir Útgefið tímabil** | Koma í veg fyrir að fólk bóki skjal eða færslubók, eða breyti VSK-færslum, sem hafa VSK-dagsetningu innan Endurlokatímabils  **VSK-tímabils**. [!INCLUDE [prod_short](includes/prod_short.md)] sýnir einnig viðvörun ef  **VSK-tímabil**  er opið en staða  **VSK-skila**  er  **losuð**  eða  **send inn**. |
-| **Útiloka bókun innan lokins tímabils** | Koma í veg fyrir að fólk bóki skjal eða færslubók, eða breyti VSK-færslum, sem hafa VSK-dagsetningu innan Endurlokatímabils  **VSK-tímabils**. |
+| **Loka fyrir bókun innan loka og vara fyrir Útgefið tímabil** | Koma í veg fyrir að fólk bóki skjal eða færslubók, eða breyti VSK-færslum sem eru með VSK-dagsetningu á Endurlokuðu  **tímabili** VSK. [!INCLUDE [prod_short](includes/prod_short.md)] sýnir einnig viðvörun ef  **VSK-tímabil**  er opið en staða  **VSK-skila**  er  **losuð**  eða  **send inn**. |
+| **Útiloka bókun innan lokins tímabils** | Koma í veg fyrir að fólk bóki skjal eða færslubók, eða breyti VSK-færslum sem eru með VSK-dagsetningu innan Endurlokatímabils  **VSK-tímabils**. |
 | **Aðvörun þegar bókað er á lokuðu tímabili** | Sýna viðvörun en útiloka ekki bókun ef bóka á fylgiskjal eða færslubók sem hefur VSK-dagsetningu innan  **VSK-Skilatímabils**. |
 | **Fatlað** | Grípa til Engra aðgerða sem byggjast á lokuðum  **VSK-Skilatímabilum**. |
 
-#### Bókun takmarkað miðað við leyfilegt frá/til-tímabil
+#### Tímamörk bókunar miðast við leyfilegt frá/til tímabils
+
+> [!NOTE]
+> Frá og með aðalútgáfu 23,1 er þessari stýringu breytt. Í fyrri útgáfum var aðeins ein stýring á  **uppsetningarsíðu**  fjárhags bæði fyrir bókunardagsetningu og VSK-dagsetningu. Nú er þessum stýringum skipt upp þannig að eftirlit á  **uppsetningarsíðu fjárhags**  er aðeins fyrir bókunardagsetninguna  **og eftirlit á**  Uppsetn  **. síðu VSK er eingöngu fyrir**  VSK-dagsetninguna  **.**  Einnig eru nýjar dagsetningarstýringar á  **Notandauppsetningarsíðunni** .  
+
+##### Útgáfa 23,1 eða nýrri
+
+> [!IMPORTANT]
+> Þegar uppfært er í newversion skal hafa í huga að gildi eru uppfærð í nýjum  **LEYFÐ VSK-Dagsetning frá/til**  á  **uppsetningarsíðu**  VSK á grundvelli gildanna í  **bókun leyfa frá/til**  í  **Fjárhagsgrunni**. Ef nota á mismunandi stýringar dagsetningar skal opna  **síðuna VSK-Grunnur**  og gera breytingar.  
+
+Hægt er að setja upp takmarkanir á fyrirtækinu eða á ákveðnum notendastiigum.
+
+Allar bókanir takmarkist við allt fyrirtækið:
+
+1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **VSK-uppsetningu** og velja síðan tengda tengilinn.  
+2.  **Á fastflipa VSK-dagsetningar**  í  **svæðinu leyfð VSK frá**  skal tilgreina þá VSK-dagsetningu sem bókun er leyfð frá. Bókun skjals eða bókar með VSK-dagsetningu fyrir þessa dagsetningu er ekki leyfð.  
+3.  **Á vöruflipa VSK-dagsetningar**  í  **reitnum leyfa VSK**  -dagsetningu skal tilgreina VSK-dagsetninguna þar sem bókun er leyfð. Bókun skjals eða bókar með VSK-dagsetningu eftir þessa dagsetningu er ekki leyfð. 
+
+Til að takmarka bókanir tiltekins notanda:  
+
+1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, færa inn  **Notandaskipulag** og velja síðan tengda tengilinn.  
+2.  **Í reitnum NOTANDAKENNI**  er tilgreint hvaða notandi má leyfa að bóka á tilteknu tímabili.  
+3.  **Í reitnum HEIMILA VSK-dagsetningu**  er tilgreindur VSK-dagsetningin sem leyfð er bókun á. Bókun skjals eða bókar með VSK-dagsetningu fyrir þessa dagsetningu er ekki leyfð. 
+4.  **Í reitnum leyfa VSK-dagsetningu**  skal tilgreina VSK-dagsetninguna þar sem bókun er leyfð. Bókun skjals eða bókar með VSK-dagsetningu eftir þessa dagsetningu er ekki leyfð.  
+
+##### Útgáfur áður 23,1 
 
 Hægt er að setja upp takmörkun á fyrirtækinu eða tilteknum stigum notanda.
 
@@ -114,22 +139,22 @@ Allar bókanir takmarkist við allt fyrirtækið:
 Til að takmarka bókanir tiltekins notanda:
 
 1. Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning notanda** og velja síðan viðkomandi tengil.  
-2.  **Í reitnum NOTANDAKENNI**  er tilgreindur sá notandi sem leyfa á að bóka á tilteknu tímabili.  
+2.  **Í reitnum NOTANDAKENNI**  er tilgreint hvaða notandi má leyfa að bóka á tilteknu tímabili.  
 3.  **Í reitnum bókun frá**  er tilgreindur VSK-dagsetning sem bókun er leyfð frá. Bókun skjals eða bókar með VSK-dagsetningu fyrir þessa dagsetningu er ekki leyfð.
-4.  **Í reitnum Bókun leyfð til**  skal tilgreina VSK-dagsetninguna sem leyfð er bókun fyrir. Bókun skjals eða færslubókar með VSK-gjald eftir þessa dagsetningu er ekki leyfð.
+4.  **Í reitnum Bókun leyfð til**  skal tilgreina VSK-dagsetninguna sem leyfð er bókun fyrir. Bókun skjals eða bókar með VSK-dagsetningu eftir þessa dagsetningu er ekki leyfð.
 
 ## Setja upp VSK-númer fyrir þitt land eða svæði
 
-Til að ganga úr skugga um að rétt VSK-númer séu slegin inn er hægt að skilgreina snið fyrir VSK-númer sem eru notuð í löndum eða svæðum þar sem viðskipti notanda eru stunduð. [!INCLUDE[prod_short](includes/prod_short.md)] mun birta villuboð þegar einhver gerir mistök eða nota snið sem er rangt fyrir landið eða svæðið.
+Til að ganga úr skugga um að rétt VSK-númer séu slegin inn er hægt að skilgreina snið fyrir VSK-númer sem eru notuð í löndum eða svæðum þar sem viðskipti notanda eru stunduð. [!INCLUDE[prod_short](includes/prod_short.md)] Birtir villuskilaboð ef einhver gerir mistök eða notar snið sem er rangt fyrir landið eða svæðið.
 
-Til að setja upp VSK-númer skal fylgja eftirfarandi skrefum:
+Ef setja á upp VSK-númer er þessum skrefum fylgt:
 
 1. Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lönd/svæði**.
 2. Velja skal landið eða svæðið og svo agðerðina **Snið VSK-númers**.
 3. Í reitnum **Snið** skal skilgreina sniðin með því að slá inn einn eða fleiri eftirfarandi stafa:  
 
 * **#** Krefst númers sem er ein tala.  
-* **@** Krefst stafs. Þetta snið tekur ekki tillit til há- og lágstafa.  
+* **@** Krefst stafs. Þetta snið er ekki Stafrétt.  
 * **?** Leyfir hvaða staf sem er.  
 
     > [!TIP]
@@ -139,7 +164,7 @@ Til að setja upp VSK-númer skal fylgja eftirfarandi skrefum:
 
 VSK-viðskiptabókunarflokkar á að tákna markaðina þar sem þú stundar viðskiptum við viðskiptamenn og lánardrottna, og tilgreina hvernig á að reikna og bóka VSK á sérhverjum markaði. Dæmi um VSK viðskiptabókunarflokka eru **Innanlands** og **Evrópusambandið (ESB)**.  
 
-Nota skal kóða sem auðvelt er að muna og er auðkennandi fyrir viðskiptaflokkinn, til dæmis **ESB**, **Ekki-ESB**, eða **Innlent**. Hver kóði þarf að vera einkvæmur sem þýðir að þú getur sett upp eins marga kóða og þörf krefur, en ekki er hægt að nota sama kóðann oftar en einu sinn í einni töflu.
+Nota skal kóða sem auðvelt er að muna og er auðkennandi fyrir viðskiptaflokkinn, til dæmis **ESB**, **Ekki-ESB**, eða **Innlent**. Hver Kóði verður að vera Einkvæmur, merkir að hægt er að setja upp eins marga kóta og þörf er á en ekki er hægt að hafa sama kótann oftar en einu sinni í töflu.
 
 Til að setja upp VSK-viðskiptabókunarflokk er þessu skrefum fylgt:
 
@@ -152,7 +177,7 @@ Hægt er að setja upp sjálfgefna VSK-viðskiptabókunarflokka með því að t
 
 VSK-vörubókunarflokkar tákna þær vörur og tilföng sem þú kaupir eða selur, og ákvarða hvernig skal reikna út og bóka VSK eftir tegund vöru eða tilfangs.
 
-Góð regla er að nota kóða sem auðvelt er að muna og lýsa taxtanum, eins og **ÁN-VSK** eða **Núll**, **VSK10** eða **Skertur** fyrir 10 prósent VSK, og **VSK25** eða **Staðlað** fyrir 25 prósent.
+Gott ráð er að nota kóta sem auðvelt er að muna og lýsa genginu, eins og  **Nei-VSK**  eða  **núll**,  **VAT10**  eða  **lækkuð**  í 10 prósenta VSK og  **VAT25**  eða  **staðalinn**  fyrir 25 prósent.
 
 Til að setja upp VSK-viðskiptabókunarflokk er þessu skrefum fylgt:
 
@@ -213,7 +238,7 @@ Ef með þarf er einnig hægt að tilgreina hvernig skal þýða VSK ákvæði y
 
 Þegar óhefðbundin VSK-hlutföll eru notuð í mismunandi skjalagerðum, t.d. reikningum eða kreditreikningum, er venjulega krafist þess að fyrirtæki láti undanþágutexta (VSK-klausu) fylgja með til að útskýra af hverju minni virðisaukaskattur eða enginn virðisaukaskattur hefur verið reiknaður. Hægt er að skilgreina mismunandi VSK-klausur til að hafa með í viðskiptaskjölum eftir gerð skjals, t.d. reikningur eða kreditreikningur. Þetta er gert á síðunni **VSK-klausur eftir skjalagerð**.
 
-Hægt er að breyta eða eyða VSK-klausu og þá birtast breytingarnar í myndaðri skýrslu. [!INCLUDE[prod_short](includes/prod_short.md)] geymir hins vegar breytingasöguna. Í skýrslunni eru VSK-klausulýsingar prentaðar og birtar fyrir allar línur í skýrslunni ásamt VSK-upphæðinni og upphæð VSK-stofnsins. Ef VSK-klausa hefur ekki verið skilgreind fyrir neinar línur í söluskjalinu er öllum hlutanum sleppt þegar skýrslan er prentuð.
+Hægt er að breyta eða eyða VSK-klausu og þá birtast breytingarnar í myndaðri skýrslu.  [!INCLUDE[prod_short](includes/prod_short.md)] Hefur hins vegar ekki haldið sögu um breytinguna. Í skýrslunni eru VSK-klausulýsingar prentaðar og birtar fyrir allar línur í skýrslunni ásamt VSK-upphæðinni og upphæð VSK-stofnsins. Ef VSK-klausa hefur ekki verið skilgreind fyrir neinar línur í söluskjalinu er öllum hlutanum sleppt þegar skýrslan er prentuð.
 
 ### Að setja upp VSK-ákvæði
 
@@ -278,7 +303,7 @@ Sum fyrirtæki verða að nota bakfærðan VSK þegar þau eiga viðskipti við 
 
 ### Sala til ESB-landa eða svæða
 
-VSK er ekki reiknaður á sölu til VSK-skyldra fyrirtækja í öðrum ESB-löndum/svæðum. Tilkynna þarf virði sölu til ESB-landa/svæða sérstaklega á VSK-yfirlitinu.  
+VSK er ekki reiknaður í sölu til VSK-gjaldskyldrar fyrirtækja í öðrum ESB-löndum/-svæðum. Tilkynna þarf virði sölu til ESB-landa/svæða sérstaklega á VSK-yfirlitinu.  
 
 Til að reikna VSK rétt fyrir sölu til ESB-landa/ svæða ætti að:  
 

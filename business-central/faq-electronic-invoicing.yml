@@ -10,6 +10,9 @@ summary: |
   Innbyggða skjalaskiptiþjónustan sendir rafræna reikninga á TradeShift sem er þjónustuaðili sem sendir rafræna reikninga til PEPPOL eða viðtakenda NemHandel. En þjónustan styður takmarkaðan fjölda af útgáfum.   
 
   Þetta algengu spurningar svara sumum af helstu spurningunum um rafræna reikningsfærslu.  
+
+  > [!NOTE]
+  > Þessi FAQ síða er ekki tengd nýju E-skjal forritinu sem er fáanlegt í 2023 losunarbylgju 2. Sjá  [E-Documents Yfirlit til að fræðast nánar um nýja eiginleika](finance-edocuments-overview.md).  
 sections:
   - name: Almennt
     questions:
