@@ -3,7 +3,7 @@ title: Hvernig á að tína vörur með birgðatínslu
 description: Lærðu að nota birgðatínslu til að skrá og bóka tiltekt og sendingarupplýsingar fyrir upprunaskjöl.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -17,8 +17,8 @@ ms.search.forms: '931, 7377'
 |Aðferð|Útleiðarferli|Krefjast tínslu|Krefjast afhendingar|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
 |------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
 |A|Bóka tínslu og sendingu úr pöntunarlínu|||Engin sérstök vöruhúsaaðgerð.|  
-|B|Bóka tínslu og afhendingu úr birgðatínsluskjali|Kveikt||Grunnur: pöntun-eftir pöntun.|  
-|N|Bóka tínslu og sendingu úr vöruhúsaafhendingarskjali||Kveikt|Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
+|Á|Bóka tínslu og afhendingu úr birgðatínsluskjali|Kveikt||Grunnur: pöntun-eftir pöntun.|  
+|U|Bóka tínslu og sendingu úr vöruhúsaafhendingarskjali||Kveikt|Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
 |D|Bókið tínsluna úr vöruhúsatínsluskjali og bókið sendinguna úr afhendingarskjali vöruhúss|Kveikt|Kveikt|Ítarlegt|  
 
 Frekari upplýsingar um flæði vöruhúss á  [útleið](design-details-outbound-warehouse-flow.md).
@@ -51,7 +51,7 @@ Síðan er hægt að stofna birgðatínsluna úr  **síðunni Birgðatínsla**  
 ## Fleiri en ein birgðatínsla stofnuð með keyrslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **stofna birgðafrágang/tínslu/hreyfingar** og velja síðan tengda tengilinn.  
-2. Á flýtiflipanum **Vöruhúsabeiðni** eru reitirnir **Upprunaskjal** og **Upprunanúmer** notaðir til að afmarka eftir tilteknum gerðum fylgiskjala eða sviðum fylgiskjalanúmera. Til dæmis er hægt að stofna tínslu einungis fyrir sölupantanir.  
+2.  **Á flipanum vöruhúsabeiðni**, Notið  **upprunaskjalið**  og  **upprunnr.** svæði til að sía á ákveðnar gerðir skjala eða sviða af fylgiskjalsnúmerum. Til dæmis er hægt að stofna tínslu einungis fyrir sölupantanir.  
 3.  **Á flipanum Valkostir**  er gátreiturinn Stofna ívt valinn  **. Velja**  gátreitinn.
 4. Velja hnappinn **Í lagi**.
 
@@ -120,12 +120,10 @@ Ef Hólfakóti er ekki tilgreint í sölupöntunarlínu og frálagsflæði samse
 > [!NOTE]  
 > Ef vörur eru settar saman til pöntunar velur birgðatínslan tengda sölupöntunina til að stofna birgðastöðu fyrir alla samsetningaríhluti.  
 
-## Sjá tengda [Microsoft þjálfun](/training/paths/pick-ship-items-business-central/)
-
 ## Sjá einnig .
 
-[Yfirlit](design-details-warehouse-management.md)
-[vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Inventory](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss](walkthrough-picking-and-shipping-in-basic-warehousing.md)  

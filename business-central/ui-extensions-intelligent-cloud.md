@@ -11,13 +11,13 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="cloud-migration-base-extension"></a>Grunnviðbót skýjaflutnings
+# Grunnviðbót skýjaflutnings
 
 Þessi viðbót leiðir þig í gegnum ferlið til að skilgreina tengingu á milli lausnar á staðnum og [!INCLUDE [prod_short](includes/prod_short.md)] netumhverfi, annaðhvort vegna þess að þú ert að flytja í skýið.  
 
 Þegar tengingin er skilgreind er hægt að flytja gögn úr innanhússlausn í [!INCLUDE[prod_short](includes/prod_short.md)] Online. Þessi viðbót mun virka í tengslum við viðbót fyrir eftirlíkingu gagna sem er tiltæk fyrir tiltekna lausn þína á staðnum.Frekari upplýsingar er að finna  [í keyra flutningstól ský](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Keyra verkfæri skýjaflutnings](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Snjallskýsviðbætur fyrir flutningi í skýi](ui-extensions-data-replication.md)  

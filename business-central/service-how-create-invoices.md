@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="create-service-invoices-or-credit-memos"></a>Stofna Þjónustureikninga eða kreditreikninga
+# Stofna Þjónustureikninga eða kreditreikninga
 Auðveld reikningsfærsla þjónustupantana er lykileiginleiki [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að setja [!INCLUDE[prod_short](includes/prod_short.md)] kerfið upp þannig að þjónustutæknimaður á vettvangi geti stofnað reikning fyrir þjónustu sem ekki er tengd samningi eða pöntun. Einnig er hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að reikningsfæra þjónustusamninga reglulega. Reikningstímabil samnings ræður tíðni reikningsfærslu.
 
-## <a name="to-invoice-several-service-contracts"></a>Að reikningsfæra nokkra þjónustusamninga
+## Að reikningsfæra nokkra þjónustusamninga
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Stofna þjónustusamningsreikninga** og velja síðan viðkomandi tengil.  
 2. Færa skal inn þær afmarkanir sem á að nota.  
@@ -24,7 +24,7 @@ Auðveld reikningsfærsla þjónustupantana er lykileiginleiki [!INCLUDE[prod_sh
   
 Einnig er hægt að reikningsfæra þjónustusamning beint af síðunni **Þjónustusamningur** ef næsta reikningsdags. samningsins er á undan vinnudagsetningunni.
 
-## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Til að reikningsfæra þjónustusamning úr síðunni Þjónustusamningur
+## Til að reikningsfæra þjónustusamning úr síðunni Þjónustusamningur   
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustusamningar** og velja síðan viðkomandi tengil.  
 2. Velja skal þjónustusamninginn sem á að reikningsfæra og opna samningsspjaldið.  
 3. Veldu aðgerðina **Stofna þjónustureikning**. 
@@ -33,7 +33,7 @@ Einnig er hægt að reikningsfæra þjónustusamning beint af síðunni **Þjón
   > [!NOTE]  
   > Ekki er hægt að stofna þjónustureikninga fyrir þjónustusamning þegar gildið í reitnum **Breyta stöðu** er **Opið**.  
 
-## <a name="to-post-an-invoice-from-a-service-order"></a>Bókun reikninga úr þjónustupöntunum
+## Bókun reikninga úr þjónustupöntunum  
 Eftirfarandi aðferð lýsir hvernig á að skilgreina þann þátt þjónustunnar sem verður skrifaður á reikning viðskiptamanns.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.  
@@ -52,7 +52,7 @@ Eftirfarandi aðferð lýsir hvernig á að skilgreina þann þátt þjónustunn
   
  Þegar pöntun er bókuð með valkostinum **Reikningur** er bókaður þjónustureikningur stofnaður ásamt tilheyrandi fjárhagsfærslum og viðkomandi reitir í þjónustulínum pöntunarinnar uppfærðir. Þar að auki eru bókuð afhendingarfylgiskjöl uppfærð með magninu sem búið er að reikningsfæra. Ef bókunarmöguleikinn **Afhenda og reikningsfæra** er jafnframt stofnuð bókuð afhending.
 
-## <a name="to-create-a-service-invoice-manually"></a>Þjónustureikningar búnir til handvirkt
+## Þjónustureikningar búnir til handvirkt  
 Ef þjónustupöntun er bókuð með valkostinum **Reikningur** eða **Afhenda og reikningsfæra** býr forritið sjálfkrafa til bókaða reikningsfærslu. Eigi að síður gæti þurft að gefa út reikning sem hvorki er tengdur þjónustusamningi né þjónustupöntun. Þessi aðgerð útskýrir hvernig gefa á út reikning á sama tíma og viðskiptamaðurinn fær þjónustuna.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustureikningar** og velja síðan viðkomandi tengil.  
@@ -70,7 +70,7 @@ Ef þjónustupöntun er bókuð með valkostinum **Reikningur** eða **Afhenda o
 6. Fylla skal út reitinn **Dagsetning fylgiskjals**. Dagsetningin sem færð er inn mun birtast á prentaða reikningnum og verður notuð til þess að reikna út gjalddaga.  
 7. Fylla inn í þjónustulínur reikningsins. Fylla inn í reitina **Tegund**, **Nr.** og **Magn** til þess að skrá vörur, magn og kostnað sem notað hefur verið í þjónustu. 
 
-## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Til að stofna reikning sem sameinar bókaðar sendingarlínur úr einni eða fleiri þjónustupöntunum
+## Til að stofna reikning sem sameinar bókaðar sendingarlínur úr einni eða fleiri þjónustupöntunum 
 Ef til vill þarf að stofna þjónustureikning fyrir þjónustu sem þegar hefur verið afhent, annað hvort úr einni eða fleiri þjónustupöntunum, en ekki verið reikningsfærð ennþá eða notuð. Hægt er að fylla reikningslínurnar út sjálfkrafa ásamt völdum bókuðum afhendingarlínum fyrir tilgreindan viðskiptamann.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustureikningar** og velja síðan viðkomandi tengil.  
@@ -80,7 +80,7 @@ Ef til vill þarf að stofna þjónustureikning fyrir þjónustu sem þegar hefu
   
  Bókaði þjónustureikningurinn og samsvarandi fjárhagsfærsla eru stofnuð. Áður bókuð afhendingarfylgiskjöl eru uppfærð með reikningsfærðu magni og viðeigandi magni í þjónustulínur upphafspöntunar/pantana.  
 
-## <a name="to-create-a-service-credit-memo"></a>Þjónustukreditreikningar búnir til:
+## Þjónustukreditreikningar búnir til:  
 Þjónustukreditreikningur er yfirleitt notaður þegar viðskiptamaður skilar vöru, en hann er einnig hægt að nota til þess veita viðskiptamanni söluuppbót eða leiðrétta rangan reikning.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustukreditreikningar** og velja síðan viðkomandi tengil.  
@@ -88,7 +88,7 @@ Ef til vill þarf að stofna þjónustureikning fyrir þjónustu sem þegar hefu
 3. Reitirnir **Bókunardagsetning** og **Dagsetning fylgiskjals** sýna vinnudagsetninguna. Hægt er að breyta því ef þörf er á.    
 4. Í kreditreikningslínurnar eru færðar upplýsingar um vörurnar sem hefur verið skilað eða hafa verið fjarlægðar, eða söluuppbót sem á að gefa viðskiptamanni.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Bóka þjónustureikninga](service-how-to-post-service-orders.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Bókun þjónustu](service-service-posting.md)  

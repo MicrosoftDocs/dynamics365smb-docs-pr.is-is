@@ -9,7 +9,7 @@ ms.search.form: '41,'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="send-documents-and-emails"></a>Senda skjöl og tölvupósta
+# Senda skjöl og tölvupósta
 
 Auðvelt er að miðla upplýsingum og skjölum, svo sem sölu- og innkaupapöntunum og reikningum, með tölvupósti beint frá [!INCLUDE[prod_short](includes/prod_short.md)], án þess að þurfa að opna tölvupóstforrit.  
 
@@ -22,7 +22,7 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] styður aðeins tölvupóstsamskipti á útleið. Ekki er hægt að taka einnig við svörum innan forritsins.
 
-## <a name="to-send-documents-by-email"></a>Að senda fylgiskjöl með tölvupósti
+## Að senda fylgiskjöl með tölvupósti
 
 Þetta ferli lýsir því hvernig hengja á bókaðan sölureikning við tölvupóst sem PDF-skjal og með texta um skjalið í tölvupóstinum. Skrefin eru hin sömu fyrir önnur skjöl.
 
@@ -44,14 +44,14 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 > [!NOTE]  
 > Ef þú vilt ekki tilgreina stillingar tölvupósts í hvert sinn sem skjal er sent í tölvupósti er hægt að velja **Já (nota sjálfgefnar stillingar)** valkostinn í **Tölvupóstur** reitnum á síðunni **Senda skjal til**. Í því tilfelli mun síðan **Senda tölvupóst** ekki opnast. Sjá skref 4. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 
-## <a name="to-compose-and-send-an-email"></a>Að setja saman og senda tölvupóst
+## Að setja saman og senda tölvupóst
 
 Hægt er að búa til tölvupósta fyrir tengiliði, viðskiptamenn, lánardrottna, sölufólk/innkaupendur og bankareikninga á fljótlegan hátt beint af síðunum fyrir þessar einingar. Veldu einfaldlega **Vinna úr** og síðan **Senda tölvupóst** til að opna ritil tölvupóstsins. Fyrir bankareikninga er aðgerðin **Senda tölvupóst** undir **Aðgerðir**.
 
 > [!TIP]
 > Ef þú sendir oft svipaða tölvupósta eða vilt senda á marga í einu, t.d. til að auglýsa markaðsherferð, getur Word-sniðmát með tölvupósti hraðað ferlinu. Þú getur búið til sniðmát fyrir aðila á borð við viðskiptamenn, lánardrottna og tengiliði sem býr til efni tölvupóstskilaboða fyrir þig og meira að segja aðlagar efnið að viðtakandanum út frá upplýsingum í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Nota Word-sniðmát fyrir mörg samskipti í einu](ui-mail-merge.md).  
 
-### <a name="attach-a-document-to-an-email"></a>Hengja skjal við tölvupóst
+### Hengja skjal við tölvupóst
 
 Það eru nokkrar leiðir til að hengja skjöl við tölvupóst.
 
@@ -63,11 +63,11 @@ Til að hengja skrár upp, í tölvupósti ritstjóra, eru eftirfarandi aðgerð
 * Veldu  **Bæta við skrám úr sjálfgefnu vali**  til að bæta handvirkt við skrá sem tengist aðstæðunum í tölvupósti.
 * Veldu  **Bæta við skrá úr upprunaskjali**  til að velja skrá sem tengist skjalinu sem unnið er með. Skrárnar eru ýmist tengdar við skjalið sjálft eða eina eða fleiri af línum þess.
 
-## <a name="documents-marked-as-printed-when-they-are-sent"></a>Skjöl sem eru merkt sem prentuð þegar þau eru send
+## Skjöl sem eru merkt sem prentuð þegar þau eru send
 
 Sum skjöl í [!INCLUDE[prod_short](includes/prod_short.md)] eru með reit sem tilgreinir hversu oft skjalið hefur verið prentað. Talan í þeim reit <!--"that field?" need a name...--> er einnig uppfærð ef skjalið er sent með tölvupósti vegna þess að PDF-skjal er búið til fyrir hann. Talan er uppfærð þótt ekki sé sendur tölvupóstur. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>Sendir tölvupóstar og úthólf tölvupóstsins
+## Sendir tölvupóstar og úthólf tölvupóstsins
 
 [!INCLUDE[prod_short](includes/prod_short.md)] geymir tölvupóstana sem þú sendir á **Sendur póstur**. Það er til að leyfa þér að endursenda tölvupóst eða áframsenda þá til einhvers annars. Ef ekki er hægt að finna tölvupóst í sendum pósti skal leita að honum á síðunni **Úthólf tölvupósts**. 
 
@@ -76,7 +76,7 @@ Sum skjöl í [!INCLUDE[prod_short](includes/prod_short.md)] eru með reit sem t
 
 Í **Úthólf tölvupósts** finnurðu tölvupóstana sem þú vistaðir sem drög og tölvupósta sem ekki tókst að senda, sem dæmi, ef netfangið var ógilt. Fyrir skilaboð sem ekki tókst að senda er hægt að velja **Sýna villu** eða **Rannsaka villu** til að úrræðaleita vandann.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
 [Setja upp tölvupóst](admin-how-setup-email.md)  

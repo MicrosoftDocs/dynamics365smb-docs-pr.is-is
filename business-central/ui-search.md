@@ -8,7 +8,7 @@ ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9
 ms.date: 06/14/2023
 ms.author: bholtorf
 ---
-# <a name="finding-pages-and-information-with-tell-me"></a>Finndu síður og upplýsingar með Viðmótsleit
+# Finndu síður og upplýsingar með Viðmótsleit
 
 Þessi grein lýsir því hvernig í vöruleitinni,  *Segðu mér hvað þú vilt gera*, getur hjálpað þér: 
 
@@ -32,24 +32,24 @@ Neðst  **á Segðu mér hvað þú vilt gera**  síðu,  **Skoða síðurnar og
 
  **Þú segir hvað þú vilt gera**  síðuflokkun út frá gögnunum sem þú færð inn og síðuna sem þú ert að vinna í. Í eftirfarandi köflum er lýst flokkunum.
 
-## <a name="find-an-action-on-the-current-page"></a>Finna aðgerð á núverandi síðu
+## Finna aðgerð á núverandi síðu
 
 Í  **gildandi síðukafla**  er hægt að finna aðgerðir á síðunni sem opnaðar hafa verið. Ef  **sölutilboðið**  síðan er til dæmis opið og ritað er "Viðskiptamaður" felur Kaflinn aðgerð sem opnar kortatsíðu viðskiptamanns fyrir viðskiptavininn sem valinn er í sölutilboðinu.
 
 > [!NOTE]  
 > Listinn inniheldur aðeins aðgerðir sem eru tiltækar í yfirlitsstikunni efst á síðunni. Aðgerðir á flýtiflipum eru ekki innifalin.  
 
-## <a name="find-a-page-or-a-task"></a>Finna síðu eða verkefni
+## Finna síðu eða verkefni
 
 Niðurstöðurnar í hlutanum **Fara í síður og verkefni** veita aðgang að öðrum síðum og leyfa þér að framkvæma verkefni eða leita að upplýsingum. Ef þú notar þessar síður oft er hægt að velja bókamerkjatáknið til að bæta við tengli á einhverja síðu í Mitt hlutverk. Frekari upplýsingar er að finna á [bæta Síðuaðgerð við Mitt hlutverk](ui-bookmarks.md).
 
 Síður og verkefni sem eru skráðar eru háð þeirri reynslu notenda sem þú valdir fyrir fyrirtækið þitt.  **Innra**  reynslan gefur aðgang að færri síðum og verkefnum en  **iðgjaldareynslan**  gerir. Í fyrsta sinn sem þú skráir þig inn notarðu **Essential** upplifunina. Til að fræðast meira um notendaupplifanir er farið í að  [Sérsníða  [!INCLUDE[prod_short](includes/prod_short.md)]  upplifun](ui-experiences.md).
 
-## <a name="find-a-report-or-archived-information"></a>Finna skýrslu eða safnvistaðar upplýsingar
+## Finna skýrslu eða safnvistaðar upplýsingar
 
 **Fara í skýrslur og greiningu** kafla býður aðgang að skýrslugerðartólum. Til dæmis getur þú opnað **Efnahagsreikningur** skýrsluna af listanum eða fengið aðgang að safnvistuðum skjölum og öðrum upplýsingum.  
 
-## <a name="find-a-record-or-search-the-documentation"></a>Finna færslu eða leita í fylgigögnum
+## Finna færslu eða leita í fylgigögnum
 
  **Leitin  \<keyword\>**  að hluta  [!INCLUDE [prod_short](includes/prod_short.md)]  býður upp á tvær leiðir til að leita að:
 
@@ -59,7 +59,7 @@ Síður og verkefni sem eru skráðar eru háð þeirri reynslu notenda sem þú
   > [!NOTE]  
   > Leitarniðurstöður þínar taka ekki með fylgigögn með viðauka fyrir þriðja aðila.
 
-### <a name="use-tell-me-what-you-want-to-do"></a>Notaðu Segðu hvað þú vilt gera
+### Notaðu Segðu hvað þú vilt gera
 
  ![Notaðu Segðu mér hvað þú vilt gera.](media/ui-search/search.png "Leit að síðu eða skýrslu") **Leitartákn**  til að leita að gögnum yfir [!INCLUDE [prod_short](includes/prod_short.md)]. Til dæmis er hægt að finna viðskiptavin með því að færa inn nafn eða aðsetur hans eða jafnvel finna tiltekna færslu, til dæmis sölupöntun. Einnig er hægt að nota hann til að finna upplýsingar í fylgigögnum okkar.
 
@@ -73,22 +73,22 @@ Sláðu inn að minnsta kosti þrjá stafi af lykilorði og veldu annaðhvort  *
 
 [!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]
 
-## <a name="get-more-functionality-from-apps"></a>Fáðu meiri virkni úr forritum
+## Fáðu meiri virkni úr forritum
 
 Samfélag samstarfsaðila okkar er að þróa forrit á fullu sem bæta möguleikum við [!INCLUDE[prod_short](includes/prod_short.md)]. Hlutinn **Fá frá Microsoft AppSource** birtir forrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] sem eru í boði á Microsoft AppSource og tengjast leitarorðinu sem þú leitaðir eftir.
 
-### <a name="use-search-on-list-pages"></a>Nota leit á listasíðum
+### Nota leit á listasíðum
 
 Það er ekki skylt að segja mér hvað þú vilt gera, en annars er önnur leið til að leita að tilteknum gögnum. Þegar verið er að nota listasíðu er hægt að nota  ![reitinn leita í leitarlista](media/ui-search/search-list.png "Tákn fyrir leitarlista") **·**  í vinstra horninu listasíðuhausar til að leita að gögnum á síðunni. Leitin á aðeins við um listann sem verið er að skoða. Til að fræðast meira um vinnu með gögn á listasíðum er farið í að  [raða, leita og sía lista](ui-enter-criteria-filters.md).  
 
 > [!TIP]
 > Hægt er að leita að bókuðum fylgiskjalslínum, svo sem reikningslínum, kreditreikningslínum, afhendingarlínum og móttökulínum. Leitaðu að gerð skjalalína sem þú vilt finna og bókamerktu svo tenglana í skjölin á heimasíðunni fyrir auðveldan aðgang í upprunalegt eða síað yfirlit. Frekari upplýsingar eru í [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md).
 
-## <a name="questions"></a>Einhverjar spurningar?
+## Einhverjar spurningar?
 
 Við höfum sýnt að leitað var til sviða hagsmunaaðila, sett fram spurningar sem þeir áttu sameiginlegt og sneru skýringum okkar að lista yfir Algengar spurningar. Ef þið eruð áhugasamir, farið þá að  [segja mér FAQ](ui-search-faq.md).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Vinna með Business Central](ui-work-product.md)  
 [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)  

@@ -10,25 +10,25 @@ ms.search.forms: '5082,'
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# <a name="attachments-for-interactions"></a>Viðhengi fyrir samskipti
+# Viðhengi fyrir samskipti
 
 Skrárnar sem tengjast samskiptunum eru ekki tengdar beint. Þeir koma frá einum af eftirfarandi stöðum:
 
 * Samskiptasniðmátið sem var notað til að stofna samskiptin. Frekari upplýsingar um uppsetningu sniðmáta er að fara til að  [Setja upp samskiptasniðmát](marketing-interactions.md#set-up-interaction-templates).
 * Hlutinn sem samskiptin voru stofnuð fyrir. Til að fræðast meira um hluta er farið til að  [stjórna samskiptum fyrir hluta](marketing-interaction-segments.md).
 
-## <a name="view-attachments"></a>Skoða viðhengi
+## Skoða viðhengi
 
 Viðhengi eru tiltæk þegar skoðuð eru skráð samskipti á  **síðunni Samskiptaskráningarfærslur** .  **Velja aðgerðina Sýna viðhengi** .
 
-## <a name="types-of-files-you-can-attach"></a>Tegundir skráa sem hægt er að hengja upp
+## Tegundir skráa sem hægt er að hengja upp
 
 Viðhengi geta verið bara um hvaða tegund af skrá er að ræða, eins og Word skjöl, Powerpoint kynningar, Excel eða textaskrár o. s. frv.
 
 > [!TIP]
 > [!INCLUDE [prod_short](includes/prod_short.md)] samþættir við Word, sem gerir kleift að nota aðgerðir eins og blöndunarsvæði í sniðmátum Word. Til að fræðast meira um notkun Word sniðmáta er farið að  [nota Word sniðmát fyrir Magnsamskipti](ui-mail-merge.md).
 
-## <a name="what-you-can-do-with-attachments"></a>Það sem hægt er að gera við viðhengi
+## Það sem hægt er að gera við viðhengi
 
 Hægt er að gera eftirfarandi atriði með viðhengjum:
 
@@ -38,6 +38,6 @@ Hægt er að gera eftirfarandi atriði með viðhengjum:
 * **Fjarlægja** : Hægt er að fjarlægja gildandi viðhengi úr samskiptasniðmáti.
 * **Afrita** : Hægt er að afrita viðhengi úr öðru samskiptasniðmáti.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Skrá samskipti við tengiliði](marketing-interactions.md)  

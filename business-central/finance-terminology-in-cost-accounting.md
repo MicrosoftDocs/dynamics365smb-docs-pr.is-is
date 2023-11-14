@@ -11,11 +11,11 @@ ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="terminology-in-cost-accounting"></a>Orðalisti í kostnaðarbókhaldi
+# Orðalisti í kostnaðarbókhaldi
 
 Í þessu efnisatriði eru lykilhugtökin sem notuð eru í kostnaðarbókhaldi skilgreind.  
 
-## <a name="key-terms"></a>Lykilhugtök
+## Lykilhugtök
 
  Eftirfarandi tafla sýnir skilgreiningar á lykilhugtökum í kostnaðarbókhaldi.  
 
@@ -43,7 +43,7 @@ ms.author: bholtorf
 |Breytilegur kostnaður|Breytilegur kostnaður er útgjöld sem breytast í hlutfalli við aðgerðir fyrirtækis. Breytilegur kostnaður er summa jaðarkostnaðar yfir allar framleiddar einingar. Fastur og breytilegur kostnaður myndar tvo hluta af heildarkostnaði.|  
 |Afbrigði|Afbrigði er notað sem valfrjálst notandaskilgreint merki fyrir úthlutanir. Tilgangur merkisins er til að sía flokka úthlutunar.|  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
  [Um kostnaðarbókhald](finance-about-cost-accounting.md)  
  [Kostnaðarreikningur](finance-manage-cost-accounting.md)  

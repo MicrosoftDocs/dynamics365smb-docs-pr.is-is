@@ -6,6 +6,7 @@
 ## [Yfirlit yfir viðskiptavirkni](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Upplýsingar
+### [Tilföng fyrir notendur](resources-for-users.md)
 ### [Business Central námskrá](readiness/readiness-learning-catalog.md)
 ### [Þjálfun Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Kynningar á viðskiptaferli
@@ -348,10 +349,11 @@
 #### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
 
-### Vinna með rafræn skjöl
+### Stjórna rafrænum skjölum
+#### [Yfirlit yfir rafræn skjöl](finance-edocuments-overview.md)
 #### [Setja upp rafræn skjöl](finance-how-setup-edocuments.md)
-#### [Nota rafræn skjöl fyrir sölu og innkaup](finance-how-use-edocuments.md)
-#### [Framlengja virkni rafrænna skjala](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+#### [Nota rafræn skjöl við sölu og innkaup](finance-how-use-edocuments.md)
+#### [Virkni rafrænna skjala aukin](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Stjórna VSK
 #### [VSK-stjórnunaryfirlit](finance-manage-vat.md)
@@ -1815,6 +1817,7 @@
 
 ## Greina gögn í verkfærum viðskiptagreindar
 ### [Yfirlit](reports-external-analysis.md)
+### [Microsoft Fabric og Business Central](admin-fabric.md)
 ### [Nota Power BI með Business Central](admin-powerbi.md)
 ### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
 ### [Draga út gögn í gagnageymslur eða gagnalindir](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)

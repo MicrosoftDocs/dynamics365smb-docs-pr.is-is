@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-electronic-document-sending-and-receiving"></a>Setja upp sendingu og móttöku rafrænna skjala
+# Setja upp sendingu og móttöku rafrænna skjala
 
 > [!NOTE]
 > Efni í þessari grein á aðeins við um útgáfur af  Dynamics 365 Business Central  sem losaðar voru áður 2023 út bylgju 2. Í 2023 útgáfu Wave 2 er ný virkni fyrir E-skjöl innifalin. Sjá  [Setja upp e-Documents til að fá frekari upplýsingar](finance-how-setup-edocuments.md). 
@@ -41,7 +41,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
 * Til að velja **PEPPOL-Invoice** gögn skipti skýring fyrir rafræna skjal móttöku  
 * Til að setja upp G / L reikninginn til að nota á nýjum innkaupareikninguslínum fyrir \-ógreinanlegt atriði og aðra hluti\-  
 
-### <a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a>Til að setja upp fyrirtæki til að senda rafræna skjal og fá
+### Til að setja upp fyrirtæki til að senda rafræna skjal og fá
 
 1. Í reitinn **Leita** skal færa inn **Stofngögn** og velja síðan viðkomandi tengi.  
 2. Á flýtiflipanum **Almennt** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
@@ -52,7 +52,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
     |**VSK-númer**|Tilgreinið VSK-númer fyrirtækisins.|  
     |**Ábyrgðarstöð**|Ef fyrirtækið er settur upp með ábyrgðarstöð skal tryggja að reiturinn **Lands-/svæðiskóði** sé fylltur út.|  
 
-### <a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a>Til að setja upp fyrirtæki til að senda rafræna skjal og fá
+### Til að setja upp fyrirtæki til að senda rafræna skjal og fá
 
 1. Í reitinum **Leit** skal færa inn **VSK-bókunargrunn** og velja síðan viðkomandi tengil.  
 2. Fyrir hverja VSK staða skipulag línu sem þú munt nota til rafrænna skjala, fylla á sviði eins og lýst er í eftirfarandi töflu.  
@@ -61,7 +61,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
     |---------------------------------|---------------------------------------|  
     |**Skattaflokkur**|Tilgreina VSK flokk.<br /><br /> Til dæmis, þegar þú sendir rafræna reikninga í PEPPOL sniði, gildi á þessu sviði er notað til að byggja á **TaxApplied** frumefni undir **AccountingSupplierParty** hnút í skránni. Talan er byggt á UNCL5305 staðall.|  
 
-### <a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a>Til að setja upp fyrirtæki til að senda rafræna skjal og fá
+### Til að setja upp fyrirtæki til að senda rafræna skjal og fá
 
 1. Í reitnum **Leit** skal færa inn **Kostnaðarúthlutanir** og velja síðan viðkomandi tengil.  
 2. Fyrir hverja VSK staða skipulag línu sem þú munt nota til rafrænna skjala, fylla á sviði eins og lýst er í eftirfarandi töflu.  
@@ -70,7 +70,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
     |---------------------------------|---------------------------------------|  
     |**VSK-skema**|Auðkennir innlendan aðila sem gefur út VSK-númer fyrir land\/svæði í tengslum við sendingu rafræns skjals.<br /><br /> Til dæmis, þegar þú sendir rafræna reikninga í PEPPOL sniði, gildi á þessu sviði er notað til að byggja á **SchemeID** eigind fyrir **EndPointID** einingu undir bæði **AccountingSupplierParty** hnúði og **AccountingCustomerParty** í skránni.<br /><br /> Reitur **VSK-skema** er aðeins notaður ef **GLN** reitur á síðunni **Stofngögn** er ekki fylltur út. **Athugið:** Gildið í reitnum **Kóði** í **Lönd\/Svæði** síðunni verða að vera í samræmi við ISO 3166\-1:Alpha2.|  
 
-### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Til að setja upp fyrirtæki til að senda rafræna skjal og fá
+### Til að setja upp fyrirtæki til að senda rafræna skjal og fá
 
 1. Í reitnum **Leita** skal færa inn **Vörur** og velja síðan viðkomandi tengi.  
 2. Fylla inn í reitinn eins og lýst er í eftirfarandi töflu fyrir hverja vöru sem er keypt eða seld í rafrænum skjölum.  
@@ -79,7 +79,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Auðkennir vöru sem tengist sendingu eða móttöku rafrænt skjal. Fyrir PEPPOL snið, er svæðið notað sem hér segir:<br /><br /> Ef **StandardItemIdentification\/ID** einingin er með **SchemeID** eigind stillta á **GTIN** þá er einingunni varpað á reitinn **GTIN** reitinn á vöruspjaldinu.|  
 
-### <a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a>Til að setja upp mælieiningar til að senda rafræna skjal og fá
+### Til að setja upp mælieiningar til að senda rafræna skjal og fá
 
 1. Í reitnum **Leit** skal færa inn **Birgðahaldseining** og velja síðan viðkomandi tengil.  
 2. Fyrir hverja VSK staða skipulag línu sem þú munt nota til rafrænna skjala, fylla á sviði eins og lýst er í eftirfarandi töflu.  
@@ -88,7 +88,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
     |---------------------------------|---------------------------------------|  
     |**Alþjóðlegur staðlakóði**|Tilgreina mælieiningu kóða tjáð samkvæmt UNECERec20 staðall í tengslum við sendingu rafrænna skjala.<br /><br /> Til dæmis, þegar þú sendir rafræna reikninga í PEPPOL sniði, gildi á þessu sviði er notað til að byggja á **unitCode** eigindi á **InvoicedQuantity** frumefni undir **InvoiceLine** hnút. **Athugið:** Ef reiturinn **Mælieining** í sölulína er auður er staðlað gildi UNECERe20 fyrir „Stykki“ \(H87\) sett inn sjálfgefið. Frekari upplýsingar og skrá yfir fullnægjandi mælieiningarkóði er að finna í [Tilmæli nr. 20 \- Mælieiningar sem notaðar eru í alþjóðaviðskiptum](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
-### <a name="to-set-up-customers-for-electronic-document-sending"></a>Til að setja upp viðskiptavini fyrir rafræna skjal senda
+### Til að setja upp viðskiptavini fyrir rafræna skjal senda
 
 1. Í reitinn **Leita** skal færa inn **Viðskiptamenn** og velja síðan viðkomandi tengi.  
 2. Fyrir hvern viðskiptamann sem rafræn skjöl eru send til skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
@@ -101,7 +101,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
 
     Hægt er að setja hvern viðskiptamaður upp með valinni aðferð við að senda viðskiptaskjöl til að þurfa ekki að velja sendingarvalkost í hvert skipti sem viðskiptamanni eru send skjöl. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 
-### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Til að velja PEPPOL-snið fyrir rafræn skjöl við sendingu rafrænna skjala
+### Til að velja PEPPOL-snið fyrir rafræn skjöl við sendingu rafrænna skjala  
 1. Í reitnum **Leita** skal færa inn **Sendingarsnið skjala** og velja síðan viðkomandi tengil.  
 2. Opna forstillingu fyrir sendingu skjala sem þegar er til eða stofna nýja. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 3. Á síðunni **Forstilling skjalasendingar** skal velja **Rafrænt snið**, línu fyrir PEPPOL og velja síðan hnappinn **Í lagi**.  
@@ -114,7 +114,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
 
     Núna er hægt að senda rafrænt skjal sem inniheldur umbreyttu gögnin. Nánari upplýsingar sjá [Senda rafræn skjöl](sales-how-to-send-electronic-documents.md).  
 
-### <a name="to-set-up-vendors-for-electronic-document-receiving"></a>Til að setja upp viðskiptavini fyrir rafræna skjal senda
+### Til að setja upp viðskiptavini fyrir rafræna skjal senda  
 1. Í reitnum **Leita** skal færa inn **Lánardrottnar** og velja síðan viðkomandi tengi.  
 2. Fyrir hvern lánardrottin sem sendir rafræn skjöl skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
@@ -124,7 +124,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
     |**VSK-númer**|Tilgreinið VSK-númer lánardrottins. **Ábending:** Í studdum staðfærðum útgáfum skal velja köfunarhnappinn til að nota vefþjónustu sem staðfestir hvort númerið sé til í fyrirtækjaskrá landsins.|  
     |**Ábyrgðarstöð**|Ef lánardrottinn er settur upp með ábyrgðarstöð skal tryggja að reiturinn **Lands-/svæðiskóði** sé fylltur út.|  
 
-### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>Til að velja PEPPOL-gagnaskiptaskilgreiningu við móttöku rafrænna skjala
+### Til að velja PEPPOL-gagnaskiptaskilgreiningu við móttöku rafrænna skjala  
 1. Í reitnum **Leit** skal færa inn **Fylgiskjöl á innleið** og velja síðan viðkomandi tengil.  
 2. Í línu fyrir rafrænt skjal sem á að taka á móti og umbreyta skal velja reitinn **Gagnaskipti** og velja síðan **PEPPOLINVOICE**.  
 
@@ -132,7 +132,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
 
     Nú er hægt að taka á móti rafrænu skjali með því að hefja umbreytingarferli gagna á síðunni **Skjöl á innleið**. Frekari upplýsingar, sjá [Taka við og umbreyta rafrænum skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
-### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Til að setja upp G / L reikning til að nota á nýjum línum kaup reikningi fyrir utan aðgreinanlegra atriði og erlendra liða
+### Til að setja upp G / L reikning til að nota á nýjum línum kaup reikningi fyrir utan aðgreinanlegra atriði og erlendra liða  
 1. Í reitnum **Leit** skal færa inn **Innkaup & Útistandandi** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Sjálfgefnir lyklar** skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
@@ -140,7 +140,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
     |---------------------------------|---------------------------------------|  
     |**Fjárhagsreikningur fyrir línur sem eru ekki vörulínur**|Tilgreinir fjárhagsreikning sem er sjálfkrafa settur inn í innkaupalínu sem eru stofnaðar úr rafrænum skjölum þegar skjalalína skjals á innleið inniheldur ekki auðkennanlegt atriði. Allar línur skjala á innleið sem hafa ekki GTIN eða vörunúmer lánardrottins verður breytt í innkaupalína af gerðinni **Fjárhagsreikningur** og **Nr.** reiturinn í innkaupalínunni mun innihalda reikning sem valinn var í reitnum **Fjárhagsreikningur fyrir línur sem eru ekki vörulínur**.<br /><br /> Ef reiturinn **Fjárhagsreikningur fyrir línur sem eru ekki vörulínur** er hafður auður og skjal á innleið hefur línur án auðkennanlegra atriða verður innkaupaskjal ekki stofnað. Villuboð munu óska eftir því að fyllt sé í reitinn **Fjárhagsreikningur fyrir línur sem eru ekki vörulínur** áður en hægt er að ljúka verkinu.|  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Rafræn gagnaskipti](across-data-exchange.md)   
 [Reikningsfæra sölur](sales-how-invoice-sales.md)   
 [Skrá innkaup](purchasing-how-record-purchases.md)

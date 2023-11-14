@@ -10,22 +10,22 @@ ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, R
 ms.date: 04/13/2023
 ms.custom: bap-template
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics"></a>Birgða- og vöruhúsaskýrslur og greiningar
+# Birgða- og vöruhúsaskýrslur og greiningar
 
 Birgðir og vöruhúsatínslur í gefur birgðum og fagaðilum innsýn í  [!INCLUDE [prod_short](includes/prod_short.md)]  upplýsingar um núverandi og eldri birgðir og vöruhúsaaðgerðir.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## <a name="tasks"></a>Verkefni
+## Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
 * [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
 
-## <a name="print-and-scan-barcodes"></a>Strikamerkjum prentunar og skanna
+## Strikamerkjum prentunar og skanna
 
 Notkun strikamerkra getur auðveldað flutning á ferlum á innleið, útleið og innri vöruhúsi. 
 
@@ -43,7 +43,7 @@ Notkun strikamerkra getur auðveldað flutning á ferlum á innleið, útleið o
 > [!NOTE]
 > Sumir prentarar og strikamerki/QR kóðasnið krefjast ákveðinnar framkvæmdar. Þú gætir þurft að senda inn annað Ritsniðmát eða klófesta skýrsluna til að búa til þína eigin sérsniðna útgáfu.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning birgða](inventory-setup-inventory.md)  
 [Birgðir](inventory-manage-inventory.md)  

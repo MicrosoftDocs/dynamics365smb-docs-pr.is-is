@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 08/16/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Til að gerast áskrifandi að RSS-straum (Really Simple Syndication) allra uppfærslna á efni viðskiptaaðgerða á learn.microsoft.comfyrir [!INCLUDE [prod_short](prod_short.md)] skaltu nota eftirfarandi tengil:
 
