@@ -10,7 +10,7 @@ ms.search.form: '256,'
 ms.date: 09/07/2023
 ms.custom: bap-template
 ---
-# Greiðslutillögur til lánardr.
+# <a name="suggest-vendor-payments"></a>Greiðslutillögur til lánardr.
 
 Á síðunni **Greiðslubók** geturðu notað **Greiðslutillögur til lánardr.** runuvinnsluna til að stinga upp á greiðslulínur. Byggt á stillingum,  [!INCLUDE [prod_short](includes/prod_short.md)]  leggur til línur fyrir greiðslur:
 
@@ -29,14 +29,14 @@ Til að njóta greiðsluábendinga til fulls verður þú fyrst að forgangsrað
 > * Lánardrottnafærslur sem eru fallnar á tíma sem eru ekki forgangsraðar.  
 > * Opna lánardrottnafærslur sem standast greiðsluafslátt. Færslunum er raðað eftir númeri lánardrottins.  
 
-## nota aðgerðina Greiðslutillögur til lánardrottna
+## <a name="to-use-the-suggest-vendor-payments-function"></a>nota aðgerðina Greiðslutillögur til lánardrottna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðslubækur** og velja síðan viðkomandi tengil.  
 2. Opnið færslubókina og veljið síðan aðgerðir fyrir  **Greiðslutillögur**  lánardrottins.  
 3. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Velja hnappinn **Í lagi**.  
 
-## Setja inn skiladag sem bókunardagsetningu á greiðslubókarlínum
+## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Setja inn skiladag sem bókunardagsetningu á greiðslubókarlínum
 
 Þegar þú notar runuvinnsluna **Greiðslutillögur til lánardrottna** til að stofna greiðslulínur fyrir lánardrottna þína getur þú fyllt út tvo sérstaka reiti til að gæta þess að stofnuðu línurnar noti gjalddaga til að reikna út bókunardagsetningu. Þessir reitir eru **Reikna Bókunardagsetning úr Gjalddaga jöfnunar** og **frávik gjalddaga jöfnunar**.  
 
@@ -50,7 +50,7 @@ Einnig er hægt að stofna greiðslulínur handvirkt með því að nota gjaldda
 > [!NOTE]  
 > Ef innkaupareikningur er í vanskilum er bókunardagsetningin stillt á vinnudagsetninguna og Leturgerðin í línunni verður rauð.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Framkvæma greiðslur](payables-make-payments.md)  

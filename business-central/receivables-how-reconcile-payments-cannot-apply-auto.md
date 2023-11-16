@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Afstemma greiðslur sem ekki er hægt að nota sjálfkrafa
+# <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Afstemma greiðslur sem ekki er hægt að nota sjálfkrafa
 Stundum gætirðu þurft að meðhöndla greiðslur inna á bankareikninginn þinn sem ekki er hægt að jafna við tengdan opinn viðskiptavin, lánardrottin, eða bankareikningsfærslu. Ástæða kann að vera að ekkert skjal sé til í [!INCLUDE[prod_short](includes/prod_short.md)] sem hægt er að jafna greiðsluna á, eða tengda skjalið í [!INCLUDE[prod_short](includes/prod_short.md)] hefur aðra fjárhæð en færsluupphæðin, t.d. vegna gjaldeyrisviðskipta Á síðunni **Greiðsluafstemmingarbók**, birtast allar færsluupphæðir fyrir greiðslur sem eru enn ekki jafnaðar í reitnum **Mismunur**, þar með talið upphæðir sem ekki er hægt að jafna vegna ástæðna eins og þeirrar sem nefnd var hér að ofan.
 
 Aðferðirnar til að leysa úr þessum gerðum af ójöfnuðum greiðslum:
@@ -29,7 +29,7 @@ Að afstemma slíka greiðslu, þú getur valið aðgerina **Flytja mismun á re
 > [!TIP]  
 >   Svipuð virkni er til til að setja upp sjálfvirka afstemmingu á endurteknum greiðslum sem er ekki hægt að jafna við tengda opna viðskiptavina-, lánardrottna- eða bankareikningsfærslur. Frekari upplýsingar er að finna í [Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-## Að afstemma greiðslur sem ekki er hægt að afstemma sjálfkrafa
+## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>Að afstemma greiðslur sem ekki er hægt að afstemma sjálfkrafa
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluafstemmingarbækur** og velja síðan viðkomandi tengil.
 2. Opna skal greiðsluafstemmingarbók. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 3. Veldu **Flytja mismun á reikning** Síðan **Flytja mismun á reikning** opnast.
@@ -42,7 +42,7 @@ Ef gildið í í **Mismunur** reit var jafnt og gildið í reitnum á **færsluu
 
 Ef gildið í í **Mismunur** reit var lægra en gildið í **færsluupphæð** þá verður aukaleg færslubókarlína stofnuð með sama texta og dagsetningu með mismuninum innsettum í reitinn **færsluupphæð** Á upphaflegu færslubókarlínu er mismunurinn dreginn frá gildinu í **færsluupphæð** reitnum, og greiðslan verður áfram jöfnuð við tengdan viðskiptavinar-, lánardrottins eða bankareikningsfærslu. Þegar þú bókar greiðsluafstemmingarbók, verður einn hluti greiðslunnar bókuð sem jöfnuð greiðsla. Aðra hluti greiðslu bókast beint á tilgreinda reikninga.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

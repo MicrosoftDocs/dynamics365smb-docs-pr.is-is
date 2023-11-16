@@ -11,7 +11,7 @@ ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="add-contacts-to-segments"></a>Bæta tengiliðum við hluta
+# <a name="adding-contacts-to-segments"></a>Bæta tengiliðum við hluta
 Þegar hluti hefur verið stofnaður og gunnupplýsingar um hann færðar inn er tengiliðum gjarnan bætt við hlutann. Það er hægt að gera það handvirkt á síðunni **Hluti** en það er auðveldara og fljótlegra að nota aðgerðina **Bæta við tengiliðum**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Til að bæta tengilið við hluta

@@ -11,7 +11,7 @@ ms.search.form: '6774, 6775, 6776'
 ms.date: 06/25/2021
 ms.author: bholtorf
 ---
-# Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
+# <a name="set-up-basic-warehouses-with-operations-areas"></a>Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
 
 Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota eftirfarandi vöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi:  
 
@@ -35,14 +35,14 @@ Eftirfarandi ferli eru byggð á uppsetningu einfaldra vöruhúsaðgerða í kri
 > [!NOTE]  
 >  Í eftirfarandi aðgerð er uppsettningarreiturinn **Hólf áskilið** á birgðageymsluspjaldi valinn sem forskilyrði, þar sem litið er á það sem grundvöll fyrir öll stig vöruhúsastjórnunar.  
 
-## Til að virkja birgðaskjöl fyrir innri aðgerðir
+## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Til að virkja birgðaskjöl fyrir innri aðgerðir
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.
 2. Opna birgðageymsluspjaldið sem á að setja upp.  
 3.  Á flýtiflipanum **Vöruhús** skal velja gátreitinn **Þarf að ganga frá** til að gefa til kynna að þegar inn- eða innra upprunaskjal með hólfakóða er gefið út, er hægt að stofna birgðafrágang eða birgðahreyfingu.  
 4.  Veljið gátreitinn **Krefjast tínslu** til að gefa til kynna að þegar útleiðarskjal eða innra upprunaskjal með hólfakóta er stofnað skuli einnig stofna birgðatínslu- eða birgðahreyfingarskjal.  
 
-## Til að skilgreina sjálfgefna hólfaskipan í framleiðslusvæðinu
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Til að skilgreina sjálfgefna hólfaskipan í framleiðslusvæðinu
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.
 2. Opna birgðageymsluna sem setja á upp.  
@@ -60,7 +60,7 @@ Núna krefjast íhlutalínur framleiðslupöntunar með sjálfgefinn hólfakóta
 
 ![Flæðirit hólfs.](media/binflow.png "BinFlow")
 
-## Til að skilgreina sjálfgefna hólfaskipan í samsetningarsvæðinu
+## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Til að skilgreina sjálfgefna hólfaskipan í samsetningarsvæðinu
 
 Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota skal síðuna **Birgðahreyfing** í staðinn. Frekari upplýsingar er að finna  [í taka til eða færa fyrir framleiðslu, samsetningu eða vinnslur í Grunnvöruhúsi](warehouse-how-to-pick-for-production.md).
 
@@ -68,12 +68,12 @@ Ef magn sölulínu tínslu og afhendingar er sett saman í pöntunina skal fylgj
 
 Nánari upplýsingar, sjá [Samsetningarstjórnun](assembly-assemble-items.md).
 
-### Til að setja það upp að birgðahreyfing sé sjálfkrafa búin til þegar birgðatínsla fyrir samsetningarvöru er stofnuð.
+### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Til að setja það upp að birgðahreyfing sé sjálfkrafa búin til þegar birgðatínsla fyrir samsetningarvöru er stofnuð.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samsetningar** og velja síðan viðkomandi tengil.
 2. Veljið gátreitinn **Stofna hreyfingar sjálfkrafa**.
 
-### Til að setja upp hólfið á samsetningarsvæðinu sem íhlutir eru sjálfgefið settir á áður en nota má þá við samsetningu.
+### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Til að setja upp hólfið á samsetningarsvæðinu sem íhlutir eru sjálfgefið settir á áður en nota má þá við samsetningu.
 
 Gildið í þessum reit er sjálfkrafa sett inn í reitinn **Hólfkóði** á samsetningarpantanalínum þegar þessi staðsetning er sett í **Staðsetningarkóði** reitinn á samsetningarpöntunarlínunni.
 
@@ -81,7 +81,7 @@ Gildið í þessum reit er sjálfkrafa sett inn í reitinn **Hólfkóði** á sa
 2. Opna birgðageymsluna sem setja á upp.
 3. Færið inn **Í samsetningu hólfakóði** reitinn.
 
-### Til að setja upp hólfið á samsetningarsvæðinu þar sem fullunnir samsetningaríhlutir eru bókaðir þegar þeir eru settir saman á lager.
+### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Til að setja upp hólfið á samsetningarsvæðinu þar sem fullunnir samsetningaríhlutir eru bókaðir þegar þeir eru settir saman á lager.
 
 Gildið í þessum reit er sjálfkrafa sett inn í reitinn **Hólfkóði** á samsetningarpantanahausum þegar þessi staðsetningarkóði er settur í reitinn **Staðsetningarkóði** á samsetningarpöntunarhausnum.
 
@@ -94,7 +94,7 @@ Hólfakótar sem eru settir upp á birgðageymsluspjöldum skilgreina sjálfgefi
 2. Opna birgðageymsluna sem setja á upp.
 3. Færið inn **Frá-samsetning hólfkóða** reitinn.
 
-### Til að setja upp hólfið sem fullunnir samsetningaríhlutir eru bókaðir þegar þeir eru settir saman í tengda sölupöntun.
+### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Til að setja upp hólfið sem fullunnir samsetningaríhlutir eru bókaðir þegar þeir eru settir saman í tengda sölupöntun.
 
 Úr þessu hólfi eru samsetningaríhlutir afhentir strax með birgðatínslu til að uppfylla sölupöntunina.
 
@@ -116,7 +116,7 @@ Sami hólfakóði er svo afritaður í reitinn **Hólfkóði** í birgðatínslu
 2. Opna birgðageymsluna sem setja á upp.
 3. Færið inn **Setja saman í pöntun hólfakóði** reitinn.
 
-## Til að stofna sérnýtt íhlutahólf
+## <a name="to-create-dedicated-component-bins"></a>Til að stofna sérnýtt íhlutahólf
 
 Hægt er að tilgreina að magn í hólfi sé varið fyrir tínslu fyrir aðra eftirspurn vegna núverandi tilgangs.
 
@@ -136,7 +136,7 @@ Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir
 > [!NOTE]  
 >  Hólfið verður að vera tómt áður en hægt er að velja eða hreinsa svæðið **Sérnýtt**.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

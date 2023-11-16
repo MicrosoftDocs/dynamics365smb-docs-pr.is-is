@@ -10,7 +10,7 @@ ms.search.form: '5628, 5629, 5633'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Endurmeta eignir
+# <a name="revalue-fixed-assets"></a>Endurmeta eignir
 
 Endurmat eigna getur samanstaðið af uppfærslu, niðurfærslu, og leiðréttingum á almennu virði.
 
@@ -20,7 +20,7 @@ Endurmat eigna getur samanstaðið af uppfærslu, niðurfærslu, og leiðréttin
 
 Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum verðbreytingum. Hægt er að nota keyrsluna **Endurmat eigna** til að breyta ýmsum upphæðum, svo sem upphæðum niðurfærslna og uppfærslna.
 
-## Bóka uppfærslu úr fjárhagsbók eigna
+## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Bóka uppfærslu úr fjárhagsbók eigna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignafjárhagsbók** og velja síðan viðkomandi tengil.  
 2. Stofnaður er upprunaleg Færslubókarlína og reitirnir fylltir út eftir þörfum.
@@ -31,7 +31,7 @@ Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum ve
     >   Skref 4 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** síðunni fyrir bókunarflokkur eigna, inniheldur reiturinn **Uppfærslureikningur** debetreikning fjárhags og **Mótreikningur uppfærslu** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir endurmat. Frekari upplýsingar er að finna í [Að setja upp bókunarflokka eigna](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Valið er **Bóka** aðgerðin.
 
-## Bóka niðurfærsla úr fjárhagsbók eigna
+## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Bóka niðurfærsla úr fjárhagsbók eigna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignafjárhagsbók** og velja síðan viðkomandi tengil.  
 2. Stofnaður er upprunaleg Færslubókarlína og reitirnir fylltir út eftir þörfum.
@@ -42,7 +42,7 @@ Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum ve
     >   Skref 4 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** síðunni fyrir bókunarflokkur eigna, inniheldur reiturinn **niðurfærslureikningur** kreditreikning fjárhags og **Útgjaldareikningur niðurfærslu** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir niðurfærslur. Frekari upplýsingar er að finna í [Að setja upp bókunarflokka eigna](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Valið er **Bóka** aðgerðin.
 
-## Framkvæma almennt endurmat eigna
+## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Framkvæma almennt endurmat eigna
 
 Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum verðbreytingum. Hægt er að nota keyrsluna **Endurmat eigna** til að breyta ýmsum upphæðum, svo sem upphæðum niðurfærslna og uppfærslna. **Leyfa endurmat** gátreiturinn á síðunni **Afskriftabók** verður að vera valinn.
 
@@ -58,7 +58,7 @@ Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum ve
     > [!TIP]  
     >   Ef endurmatstölurnar eru aðeins til sýnis er hægt að búa til sérstaka afskriftabók til að geyma þær í. Þá hafa þessar færslur ekki áhrif á aðrar afskriftabækur.
 
-## Bókun Viðbótarkaupverðs
+## <a name="to-post-additional-acquisition-costs"></a>Bókun Viðbótarkaupverðs
 
 Annar stofnkostnaður eignar er bókaður eins og upphaflegi stofnkostnaðurinn: úr innkaupareikningi eða úr eignabók. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).  
 
@@ -72,7 +72,7 @@ Afskriftaprósentan er reiknuð sem:
 
 Muna þarf að setja gátmerkið í reitinn **Afskr. til eignabókunardags.** í reikningi, eignafjárhagsbókar- eða eignabókarlínurnar til að tryggja að afskrift sé reiknuð frá síðasta eignabókunardegi til bókunardags annars kaupverðs.
 
-### Dæmi - bókun viðbótar stofnkostnaðar
+### <a name="example---posting-additional-acquisition-costs"></a>Dæmi - bókun viðbótar stofnkostnaðar
 
 Vél er keypt 1. ágúst, 2000. Stofnkostnaðurinn er 4.800. Afskriftaaðferðin er línuleg til fjögurra ára.
 
@@ -114,7 +114,7 @@ Ef þú valdir ekki gátreitinn **Afskr. þar til eignabókunardags.** glatar ei
 
 *Heildarafskriftir = 100 + 15 + 55,54 = 170,54*
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  

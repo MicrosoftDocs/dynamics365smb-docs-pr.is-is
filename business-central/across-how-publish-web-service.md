@@ -7,17 +7,17 @@ ms.search.form: 810
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Birta vefþjónustu
+# <a name="publish-a-web-service"></a>Birta vefþjónustu
 
 Vefþjónustur eru létt leið til að gera virkni forrita aðgengilega ýmsum utanaðkomandi kerfum og notendum. Sjálfgefið er að [!INCLUDE[prod_short](includes/prod_short.md)] gefi upp nokkra hluti sem vefþjónustur fyrir betri samþættingu við aðra Microsoft-þjónustu. Þú getur bætt öðrum vefþjónustum við eftir því hvað reksturinn þarfnast.  
 
 Settu upp vefþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)] og birtu síðan vefþjónustuna þannig að hún sé aðgengileg sannvottuðu notendum. Allir heimilaðir notendur geta opnað lýsigögn fyrir vefþjónustu, en aðeins notendur með nægilegar heimildir geta opnað raungögn.  
 
-## Vefþjónusta stofnuð og gefin út
+## <a name="creating-and-publishing-a-web-service"></a>Vefþjónusta stofnuð og gefin út
 
 Eftirfarandi skref skýra hvernig vefþjónusta er búin til og gefin út.  
 
-### Til að stofna og gefa út vefþjónustu  
+### <a name="to-create-and-publish-a-web-service"></a>Til að stofna og gefa út vefþjónustu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Netþjónusta** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Vefþjónusta** veljið **Nýtt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +37,7 @@ Hægt er að prófa vefþjónustuna strax með því að velja tengla í reitunu
 
 Eftir að þú birtir vefþjónustu, hafa ytri aðilar aðgang að henni. Hægt er að staðfesta að vefþjónustan sé tiltæk með því að nota vafra eða með því að velja tengilinn í reitunum **OData-vefslóð** og **SOAP-vefslóð** á síðunni **Vefþjónusta**. Eftirfarandi ferli sýnir hvernig hægt er að staðfesta aðgengi að vefþjónustunni fyrir notkun síðar.  
 
-### Til að staðfesta aðgengi að vefþjónustu  
+### <a name="to-verify-the-availability-of-a-web-service"></a>Til að staðfesta aðgengi að vefþjónustu
 
 1. Viðeigandi vefslóð er slegin inn í vafrann. Eftirfarandi tafla lýsir tegundum vefslóða sem hægt er að færa inn fyrir mismunandi vefþjónustugerðir.  
 
@@ -59,7 +59,7 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS Internationa
 https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
 ```
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Stjórnun](admin-setup-and-administration.md)  
 [Vefþjónustur Business Central fyrir þróunaraðila](/dynamics365/business-central/dev-itpro/webservices/web-services)  

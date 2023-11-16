@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: 7775
 ---
 
-# Grunnstilling copilot og AI-möguleika 
+# <a name="configure-copilot-and-ai-capabilities"></a>Grunnstilling copilot og AI-möguleika
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -34,12 +34,12 @@ ms.search.form: 7775
 
 Ef einhver þessara þarfa er ekki uppfyllt er aðgerðin ekki tiltæk til notkunar.
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 - Þú notar Business Central á netinu, útgáfa 23.1 eða síðar. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Þú ert með admin eða yfirheimildir í Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Samþykki fyrir forskoðun og skilmálum um persónuvernd
+## <a name="allow-data-movement-across-geographies"></a>Samþykki fyrir forskoðun og skilmálum um persónuvernd
 
 Samþykki samkvæmt forskoðunarskilmálum [og](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) [yfirlýsingu](https://go.microsoft.com/fwlink/?LinkId=521839) Microsoft um persónuvernd fyrir hönd fyrirtækisins. Ólíkt persónuverndartilkynningum fyrir aðra eiginleika og þjónustu geta aðeins admins samþykkt notkun Azure OpenAI, sem þeir gera fyrir hönd fyrirtækisins. Notendur geta ekki sjálfir ákveðið sig.   
 
@@ -47,7 +47,7 @@ Samþykki samkvæmt forskoðunarskilmálum [og](https://dynamics.microsoft.com/l
 2. Í dálknum **Heiti** samþættingar skal velja **Azure OpenAI** og lesa síðan skilmálana sem birtast notandanum.
 3.  **Í Azure OpenAI** línunni skal velja **Samkomulag um að allir** gátreiti til samþykkis eða **Afplánun fyrir alla** gátreiti til að hafna.
 
-## Gera eiginleika virka í eiginleikastjórnun
+## <a name="activate-features"></a>Gera eiginleika virka í eiginleikastjórnun
 
 **Aðgerðastjórnun** er notuð til að kveikja eða slökkva á eiginleikum sem eru í forskoðun, eins og bankaafstemmingu og nokkrar aðgerðir sem eru yfirleitt tiltækar, eins og markaðssetningartillaga vöru. [Fræðast meira um aðgerðastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -59,7 +59,7 @@ Samþykki samkvæmt forskoðunarskilmálum [og](https://dynamics.microsoft.com/l
 
    Nánari upplýsingar um eiginleikastjórnun eru almennt notaðar [í Eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## Leyfa hreyfingu gagna á landsvæðum
+## <a name="enable-feature-in-feature-management"></a>Leyfa hreyfingu gagna á landsvæðum
 
 Þetta verk á aðeins við ef **rofi gagnahreyfingar** birtist efst á síðunni **Copilot & AI.**  Rofinn  **Leyfa gagnahreyfingar** gefur til kynna að staðsetning&mdash; Business Central umhverfisins sem er, landafræðin þar sem gögn eru unnin og geymd&mdash; er ekki sú sama og Azure OpenAI Service landafræðin sem Copilot notar. Ef þú vilt virkja Copilot verður að leyfa hreyfingu gagna milli landa. Til að fræðast meira um hreyfingu gagna er farið í [Copilot-gagnahreyfingu yfir landfræðilegar](ai-copilot-data-movement.md) upplýsingar. 
 
@@ -92,7 +92,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## Virkja eiginleika
+## <a name="granting-user-access"></a>Virkja eiginleika
 
 Með því að nota síðuna **Copilot & AI Getu** er hægt að kveikja eða slökkva á einstökum eiginleikum fyrir alla notendur.
 
@@ -106,14 +106,14 @@ Með því að nota síðuna **Copilot & AI Getu** er hægt að kveikja eða sl�
    - Til að slökkva á aðgerð skal velja hann og velja **svo Óvirkja** í borðanum. 
 
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 Þegar þú hefur virkjað og veitt samþykki fyrir aðgerðunum er þú tilbúinn að prófa þær. Farðu til:
 
 - [Bæta markaðssetningartexta við vörur](item-marketing-text.md) 
 - [Stemma af með aðstoð afstemmingar bankareiknings](bank-reconciliation-with-copilot.md) 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit yfir markaðssetningartextatillögur](ai-overview.md)   
 [FAQ fyrir markaðssetningartextatillögur](faqs-marketing-text.md)  

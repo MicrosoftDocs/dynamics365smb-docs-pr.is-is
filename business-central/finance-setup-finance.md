@@ -10,7 +10,7 @@ ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: bholtorf
 ---
-# Uppsetning Fjármála
+# <a name="setting-up-finance"></a>Uppsetning Fjármála
 
 Áður en þú getur byrjað að reka fyrirtækið þitt verður þú að tilgreina hvernig stjórna á fjármálaferlum fyrirtækisins. Fyrsta seturðu upp kjarnann í bókhaldsfærslum fyrirtækisins: bókhaldslyklana. Síðan eru settir upp bókunarflokkar, sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.
 
@@ -51,7 +51,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 > [!TIP]
 > Það fer eftir landfræðilegri staðsetningu þinni hvaða reiti sumar Business Central-síður geta innihaldið sem ekki er lýst í greinunum sem eru gefnar upp hér fyrir ofan vegna þess að þær gilda um staðbundna virkni eða sérstillingar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Fjármál](finance.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  

@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.reviewer: jswymer
 ---
-# Stofna skjalaskrár á innleið
+# <a name="create-incoming-document-records"></a>Stofna skjalaskrár á innleið
 
 Á síðunni **Skjöl á innleið** er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur í. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til.
 
@@ -18,7 +18,7 @@ Til að skrá ytra skjal í [!INCLUDE[prod_short](includes/prod_short.md)] þarf
 
 Áður en hægt er að nota valkostinn **Skjöl á innleið** þarf að framkvæma áskilda uppsetningu. Frekari upplýsingar eru í [Setja upp skjöl á innleið](across-how-setup-income-documents.md).
 
-## Samþykkja eða hafna skjali á innleið
+## <a name="approve-or-reject-an-incoming-document"></a>Samþykkja eða hafna skjali á innleið
 
 Ef þú hefur sett upp eiginleikann **Skjöl á innleið** til að krefjast samþykkis fyrir því að búa til skjöl, verða notendur með viðeigandi réttindi að samþykkja færslurnar áður en þær eru afgreiddar. Frekari upplýsingar er að finna í [Setja upp samþykkjendur fyrir skjöl á innleið](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
@@ -27,7 +27,7 @@ Ef þú hefur sett upp eiginleikann **Skjöl á innleið** til að krefjast sam�
 
 Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu skjal á innleið valinn. Notandi sem stjórnar t.d. stofnun innkaupareikninga getur haldið áfram að vinna úr færslunni.
 
-## Stofna skjalfærslu á innleið með því að taka mynd
+## <a name="create-an-incoming-document-record-by-taking-a-photo"></a>Stofna skjalfærslu á innleið með því að taka mynd
 
 > [!NOTE]  
 > Eftirfarandi ferli á aðeins við um [!INCLUDE[prod_short](includes/prod_short.md)] biðlara spjaldtölva og síma.
@@ -39,7 +39,7 @@ Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu 
 
     Ný færsla skjals á innleið er stofnað með mynd í viðhengi.
 
-## Tengja mynd við færslu sem þegar er til skjals með því að taka mynd
+## <a name="attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Tengja mynd við færslu sem þegar er til skjals með því að taka mynd
 
 > [!NOTE]  
 > Eftirfarandi ferli á aðeins við um [!INCLUDE[prod_short](includes/prod_short.md)] biðlara spjaldtölva og síma.
@@ -51,7 +51,7 @@ Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu 
 
     Myndin er hengja við færsla skjal á innleið.
 
-## Stofna skjalafærslu handvirkt
+## <a name="create-an-incoming-document-record-manually"></a>Stofna skjalafærslu handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Skjöl á innleið** og velja síðan viðkomandi tengil.
 2. Veldu **Nýtt** og síðan aðgerðina **Stofna úr skrá**.  
@@ -65,7 +65,7 @@ Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu 
     2.  **Á síðunni INSERT-skrá**  er valin sú skrá sem stendur fyrir skjalið sem um ræðir eða valið  **er smella hér til að fletta**  til að finna og opna skrána.
     3. Á síðunni **Skjal á innleið** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)
 [Stofna færslur yfir skjöl á innleið, beint úr skjölum og færslum](across-how-connect-disconnect-income-document-records.md)

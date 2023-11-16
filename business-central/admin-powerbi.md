@@ -10,7 +10,7 @@ ms.date: 09/28/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# Kynning á [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
+# <a name="introduction-to--and-power-bi"></a>Kynning á [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 ![Power BI og Business Central.](media/power-bi-intro.png)
 
-## Kynntu þér það sem hægt er að gera með Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="what-you-can-do-with-power-bi-and-"></a>Kynntu þér það sem hægt er að gera með Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Það eru ýmsir eiginleikar fyrir vinnu með [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Suma hluti er hægt að gera úr Power BI, á meðan aðrir hlutir eru gerðir úr [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig eru sumir eiginleikar í boði með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu, ekki á staðnum. Eftirfarandi tafla sýnir yfirlit.
 
@@ -32,7 +32,7 @@ ms.custom: bap-template
 
 <a name="onprem"><sup>*</sup></a> Þessi eiginleiki krefst skráðs forrits fyrir Business Central í Microsoft Azure. Nánari upplýsingar er að finna  [í skráningu fyrirtækja miðsvæðis innanhúss í  Microsoft Entra  Kenni fyrir samþætta við aðra þjónustu](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## Búðu þig undir að nota Power BI
+## <a name="get-ready-to-use-power-bi"></a>Búðu þig undir að nota Power BI
 
 Það þarf að gera nokkra hluti áður en hægt er að byrja að nota Power BI með [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Verkin fara eftir hlutverki þínu í fyrirtækinu og hvað þú vilt gera við Power BI:
 
@@ -47,7 +47,7 @@ ms.custom: bap-template
 |Birta gögn Business Central í Power BI||![þetta er hak.](media/check.png)|![aftur hak](media/check.png)|[Birta gögn í gegnum API-síður eða OData-vefþjónustur](admin-powerbi-setup.md#exposedata)
 |Kveikja á samþættingu Power BI<br />(eingöngu á staðnum)||![þetta er hak.](media/check.png)||[Setja upp Business Central á staðnum fyrir Power BI samþættingu](admin-powerbi-setup.md#setup)|
 
-## Rekja fyrirtækið afkastavísa með  Power BI  metrics
+## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Rekja fyrirtækið afkastavísa með  Power BI  metrics
 
 Ef þú notar  Power BI  á  [!INCLUDE[prod_short](includes/prod_short.md)]  gögn er auðvelt að rekja afkastavísa eða mælingar sem eru mikilvægar þér. 
 
@@ -67,12 +67,12 @@ Frekari upplýsingar um  Power BI  metrics at  [byrja við metrics í Power BI](
 > [!NOTE]
 > Byrjað er með Business Miðbær 2023 út Wave 2, það er hægt að ívefja árangursmati frá  Power BI  metrics í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 - Ef þú ert admin sem þarf að setja upp  Power BI  í  [!INCLUDE[prod_short](includes/prod_short.md)], Farðu þá að  [gera  Power BI  samþættingu](admin-powerbi-setup.md).
 - Ef  Power BI  hefur þegar verið sett upp og á að reyna aðgerðirnar er farið í að  [vinna með  Power BI  skýrslur í viðskiptamiðinu](across-working-with-powerbi.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Viðskiptaupplýsingar](bi.md)  
 [Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
