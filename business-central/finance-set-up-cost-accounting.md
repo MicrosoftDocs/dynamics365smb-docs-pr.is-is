@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '1100, 1112, 1113, 1122'
-ms.date: 06/16/2021
+ms.date: 10/09/2023
 ms.author: bholtorf
 ---
 # Uppsetning kostnaðarbókhalds
@@ -101,9 +101,10 @@ Kostnaðarstaðir eru deildir og framlegðarstöðvar sem bera ábyrgð á kostn
 
 ### Til að flytja víddargildi í fjárhag í myndrit yfir í kostnaðarstaði
 
-1. Setja upp vídd sem á að vera kostnaðarstaðarvíddin á síðunni **Uppfæra Kostnaðarbókhaldsvíddir**. Aðeins gildi úr þessari vídd er flutt.  
-2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Myndrit kostnaðarstaða** og velja síðan viðkomandi tengil.  
-3. Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Sækja úr víddinni kostnaðarstaðir** til að flytja víddargildi í myndriti kostnaðarstaðanna. Aðgerðin flytur víddargildin sem skilgreind voru í skrefi 1.  
+1. Setja upp vídd sem á að vera vídd kostnaðarstöðvar á síðunni **Uppsetning** kostnaðarbókhalds. Aðeins gildi úr þessari vídd er flutt.
+Hægt er að velja **Aðgerðir** > **Aðgerðir** > **Uppfæra kostnaðarreikn. Víddaaðgerðir til að uppfæra víddir** kostnaðarbókhalds.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Myndrit kostnaðarstaða** og velja síðan viðkomandi tengil.  
+1. Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Sækja úr víddinni kostnaðarstaðir** til að flytja víddargildi í myndriti kostnaðarstaðanna. Aðgerðin flytur víddargildin sem skilgreind voru í skrefi 1.  
 
     > [!NOTE]  
     >  Hægt er að setja reitinn **Stilla kostnaðarstaðavíddir** upp þannig að hann skilgreini einstefnusamstillingu á víddargildum frá fjárhag yfir í myndrit yfir kostnaðarstaði. Ekki er hægt að skilreina samstillingu myndrits yfir kostnaðarstaði við víddargildi úr fjárhag.  

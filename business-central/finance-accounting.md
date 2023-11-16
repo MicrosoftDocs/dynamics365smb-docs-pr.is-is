@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: 'accountant, accounting, financial report'
 ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
-ms.date: 09/28/2023
+ms.date: 10/19/2023
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -28,7 +28,7 @@ Ef unnið er í mörgum [!INCLUDE [prod_short](includes/prod_short.md)] fyrirtæ
 
 ## <a name="inviteaccountant"></a>Bjóða ytri endurskoðanda í þitt [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, getur kerfisstjórinn þinn boðið þeim í þitt [!INCLUDE[prod_short](includes/prod_short.md)] svo þeir geti unnið með þín fjárhagsgögn. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur þrjú leyfi af gerðinni External Accountant. Nánari upplýsingar um leyfi er að finna í [Microsoft Dynamics 365 Business Central leyfishandbók](https://go.microsoft.com/fwlink/?LinkId=871590).
+Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, getur kerfisstjórinn þinn boðið þeim í þitt [!INCLUDE[prod_short](includes/prod_short.md)] svo þeir geti unnið með þín fjárhagsgögn. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur þrjú leyfi af gerðinni External Accountant. Nánari upplýsingar um leyfisveitingar fást með því að ná í [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 Þegar endurskoðandi hefur fengið aðgang að þínu [!INCLUDE[prod_short](includes/prod_short.md)], getur hann notað **Endurskoðandi** Mitt hlutverk, sem veitir auðveldan aðgang að þeim síðum sem vinna þarf með. Hann getur einnig notað fyrirtækjamiðstöðina í eigin [!INCLUDE [prod_short](includes/prod_short.md)] til að stjórna vinnu sinni. Frekari upplýsingar er að finna í [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md).  
 
@@ -42,9 +42,9 @@ Við höfum auðveldað þér að bjóða ytri endurskoðanda. Einfaldlega opni�
 <!-- ![Invite your accountant.](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
-> Netfang endurskoðanda þarf að vera vinnuaðsetur sem byggt er á  Microsoft Entra  auðkenni. Ef endurskoðandinn notar aðra gerð netfangs er ekki hægt að sena boðið.
+> Netfang endurskoðanda verður að vera vinnuaðsetur sem byggir á Microsoft Entra skilríki. Ef endurskoðandinn notar aðra gerð netfangs er ekki hægt að sena boðið.
 >
-> Þetta verk krefst aðgangs að stjórnun notenda og leyfa í  Microsoft Entra  auðkenni. Notandinn sem sendir þetta boð verður að vera með hlutverkið **Altækur stjórnandi** eða **Notandastjórnandi** í Microsoft 365 stjórnendamiðstöð. Frekari upplýsingar eru í [Um stjórnandahlutverk](/microsoft-365/admin/add-users/about-admin-roles) í Microsoft 365 efni kerfisstjóra.  
+> Þetta verk krefst aðgangs að stjórnun notenda og leyfis í Microsoft Entra kenni. Notandinn sem sendir þetta boð verður að vera með hlutverkið **Altækur stjórnandi** eða **Notandastjórnandi** í Microsoft 365 stjórnendamiðstöð. Frekari upplýsingar eru í [Um stjórnandahlutverk](/microsoft-365/admin/add-users/about-admin-roles) í Microsoft 365 efni kerfisstjóra.  
 
 ### Endurskoðanda þínum er bætt við Microsoft 365 í gegnum Azure-gátt
 
@@ -53,7 +53,7 @@ Ef stjórnandi þinn eða endursöluaðili vill ekki nota leiðarvísinn **Bjó�
 #### Til að bæta endurskoðandanum sem gestanotanda
 
 1. Opnið [Azure gáttina](https://portal.azure.com/).
-2. Í vinstri rúðunni er valið  **Microsoft Entra  Kenni**.
+2. Á vinstri svæðinu skal velja **Microsoft Entra kenni**.
 3. Undir **Stjórna** skal velja **Notendur**.
 4. Veljið **Nýr gestanotandi**.
 5. Á síðunni **Nýr notandi** skal velja **Bjóða notanda** og bæta svo við upplýsingum um ytri endurskoðandann.  
@@ -68,7 +68,7 @@ Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE[prod_shor
 #### Að gefa endurskoðandanum aðgang að [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Í Azure-gáttinni, í notanda sem var nýlega bætt við, skal velja **Forstilling** og síðan velja **Breyta**
-2.  **Uppfærið svæðið fyrir notkunarstað**  í viðkomandi landi/svæði og veljið  **síðan Vista**.
+2. Reiturinn **Notkunarstaður** er uppfærður í viðeigandi land/svæði og Vista **valið**.
 3. Veljið **Leyfi** og opnið síðan **Úthlutanir**.
 4. Veljið leyfið **Dynamics 365 Business Central Ytri endurskoðandi**.  
     
@@ -81,7 +81,7 @@ Ef það tekst er leyfinu úthlutað til gestanotanda og gestareikningur er búi
 
 ### Nýr notandi fluttur inn í [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Endurskoðandi fær sendan tölvupóst sem tilkynnir þeim að hann hafi fengið aðgang að kenninu Microsoft Entra . Næst verður að veita þeim aðgang að rétta fyrirtækinu í [!INCLUDE[prod_short](includes/prod_short.md)].
+Endurskoðandi mun fá tölvupóst sem tilkynnir þeim að þeim hafi verið veittur aðgangur að auðkenni þínu Microsoft Entra . Næst verður að veita þeim aðgang að rétta fyrirtækinu í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 #### Að bæta endurskoðandanum við rétt fyrirtæki
 

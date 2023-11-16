@@ -33,7 +33,7 @@ Meðlimir VSK-hóps og fulltrúi hans geta notað uppsetningarleiðbeininguna **
 
 Eftirfarandi er ráðlögð röð skrefa sem stjórnandi notar til að setja upp VSK-hóp:
 
-1. Stofna uppsetningu í  [Microsoft Entra  ID-uppsetningu fyrir flokksmeðlimi](#microsoft-entra-id-setup-for-group-members).
+1. Stofna uppsetningu í [Microsoft Entra uppsetningu kennis fyrir hópmeðlimi](#microsoft-entra-id-setup-for-group-members).
 2. Deilið tæknilegum upplýsingum sem meðlimir og fulltrúi VSK-hópsins þurfa á að halda til að tengjast [!INCLUDE[prod_short](includes/prod_short.md)]-leigjandanum sínum. Venjulega hefur fulltrúi VSK-hópsins þessar upplýsingar, svo sem [API-vefslóðina](#group-api-setup) og heiti fulltrúa umhverfis VSK-hópsins sem meðlimir VSK-hópsins senda VSK-gögnin sín til.
 3. Stofna notendur sem meðlimir VSK-hópsins nota til að staðfesta hvenær þeir tengjast fulltrúa VSK-hópsins [!INCLUDE[prod_short](includes/prod_short.md)]. Notendurnir verða að hafa fullgilt notendaleyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Keyrið uppsetningarleiðbeininguna **Setja upp umsjón VSK-hópa** með hjálp til að tengja meðlimi VSK-hópsins.
@@ -44,25 +44,25 @@ Eftirfarandi er ráðlögð röð skrefa sem stjórnandi notar til að setja upp
 > [!NOTE]
 > Til að tengjast fulltrúa VSK-hópsins þurfa hópmeðlimir að vera með notandareikning hefur aðgang að fulltrúa VSK-hópsins [!INCLUDE[prod_short](includes/prod_short.md)]. Fulltrúi VSK-hópurinn verður að búa til að minnsta kosti einn notanda fyrir þetta. Af öryggisástæðum mælum við þó með því að notendur stofni VSK-hóp fyrir hvern meðlim, sem getur verið kerfisnotendareikningur sem tengist ekki raunverulegum aðila. Gangið úr skugga um að dreifa notandaskilríkjum til þessara meðlima VSK-hópsins á öruggan hátt.
 
-### Microsoft Entra AUÐKENNISUPPSETNING fyrir meðlimi flokksins
+### Microsoft Entra Uppsetning kennis fyrir hópmeðlimi
 
-Þegar VSK-flokksfulltrúi er notaður  [!INCLUDE[prod_short](includes/prod_short.md)]  á neti eða innanhúss, verða MEÐLIMIR VSK-flokka að nota  Microsoft Entra  Kenni til að votta notendur þegar VSK er SKILAÐ á VSK-flokksfulltrúa. Innanhúss [!INCLUDE[prod_short](includes/prod_short.md)] verða meðlimir að stilla einskráningu. Frekari upplýsingar er að  [samskipa  Microsoft Entra  SANNVOTTUN með ws-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
+Þegar fulltrúi VSK-flokksins notar [!INCLUDE[prod_short](includes/prod_short.md)] netið eða innanhúss verða meðlimir VSK-flokksins að nota Microsoft Entra kenni til að sannvotta notendur þegar þeir senda VSK-skil til fulltrúa VSK-flokksins. Innanhúss [!INCLUDE[prod_short](includes/prod_short.md)] verða meðlimir að stilla einskráningu. Nánari upplýsingar eru í [Grunnstilla Microsoft Entra sannvottun með WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 
 Ef meðlimir VSK-hópsins nota einnig [!INCLUDE[prod_short](includes/prod_short.md)] á netinu getur meðlimurinn staðfest með tilgreindum notendaskilríkjum og innskráningarupplýsingum frá fulltrúa hópsins. Fáðu frekari upplýsingar í hlutanum [Setja upp meðlimi VSK-hópa](#set-up-vat-group-members) hér að neðan.
 
-VSK-flokkur aðilar sem eru með  [!INCLUDE[prod_short](includes/prod_short.md)]  innanhúss verða að setja upp App-skráningu í  Microsoft Entra  auðkenni fyrir leigjanda VSK-  [!INCLUDE[prod_short](includes/prod_short.md)]  flokkafulltrúa. Skráning forritsins gerir fulltrúa VSK-hópsins [!INCLUDE[prod_short](includes/prod_short.md)] netinu kleift að sannvotta meðlim hópsins. Frekari upplýsingar er að finna hér [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app).
+Meðlimir VSK-flokks sem eru [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum þurfa að setja upp skráningu forrits í Microsoft Entra kenni fyrir leigjanda VSK-flokksins [!INCLUDE[prod_short](includes/prod_short.md)] . Skráning forritsins gerir fulltrúa VSK-hópsins [!INCLUDE[prod_short](includes/prod_short.md)] netinu kleift að sannvotta meðlim hópsins. Frekari upplýsingar er að finna hér [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
-Þegar umsjónarmaður VSK-flokksins stofnar App-skráninguna í  Microsoft Entra  ID verða þeir að tilgreina eftirfarandi upplýsingar.
+Þegar stjórnandi VSK-flokksins stofnar skráningu forritsins með Microsoft Entra kenni verða þeir að tilgreina eftirfarandi upplýsingar.
 
 * Í hlutanum **Sannvottun** skal bæta við **Vef** sem verkvang og nota eftirfarandi **Framsendingarvefslóð**: `https://businesscentral.dynamics.com/OAuthLanding.htm`.
-*  **Í hlutanum sannvottun**, í valkostinum til að velja  **studdar gerðir** reikninga, velurðu  **lykla í hvaða fyrirtækjaskrá sem er (hvers kyns  Microsoft Entra  skráasafn-margleigjandi)**.
+* Í hlutanum **Sannvottun**, í valkostinum til að velja **Studdar reikningstegundir**, skal velja **Reikningar í hvaða stjórnunarskrá sem er (Any Microsoft Entra directory - Multitenant)**.
 * Í hlutanum **Vottorð og leynilyklar** skal búa til nýjan leynilykil biðlara og skrá niður gildið. Meðlimir VSK-hópsins þurfa á leynilyklinum að halda þegar þeir setja upp tenginguna við fulltrúa hópsins.
 * Í hlutanum **API-heimildir** skal bæta heimildum við [!INCLUDE[prod_short](includes/prod_short.md)]. Virkja úthlutun aðgangs fyrir **Financials.ReadWrite.All** og **user_impersonation**.
 * Í hlutanum **Yfirlit** skal skrá hjá sér **Kenni forrits (biðlara)**. Meðlimir VSK-hópsins þurfa á auðkenninu að halda þegar þeir setja upp tenginguna við fulltrúa hópsins.
 
 ### Uppsetning API-hóps
 
-Fulltrúi VSK-hópsins útbýr og afhendir API til meðlima hópsins. Meðlimirnir nota þetta API til að tengjast [!INCLUDE[prod_short](includes/prod_short.md)] leigjanda fulltrúans og skila VSK-framtölum. VSK-flokka aðilar nota  [!INCLUDE[prod_short](includes/prod_short.md)]  oft í aðskilnað  Microsoft Entra  leigjenda. Þess vegna þarf að setja upp uppsetningu til að tengja meðlim VSK-hópsins og [!INCLUDE[prod_short](includes/prod_short.md)] fulltrúans.
+Fulltrúi VSK-hópsins útbýr og afhendir API til meðlima hópsins. Meðlimirnir nota þetta API til að tengjast [!INCLUDE[prod_short](includes/prod_short.md)] leigjanda fulltrúans og skila VSK-framtölum. Meðlimir VSK-flokks nota [!INCLUDE[prod_short](includes/prod_short.md)] oft í sérstökum Microsoft Entra leigjendum. Þess vegna þarf að setja upp uppsetningu til að tengja meðlim VSK-hópsins og [!INCLUDE[prod_short](includes/prod_short.md)] fulltrúans.
 
 > [!NOTE]
 > Þessi uppsetning krefst skilríkja stjórnandareiknings sem er með fullt notendaleyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -106,8 +106,8 @@ Eftir að uppsetningu er lokið býr [!INCLUDE[prod_short](includes/prod_short.m
 ### Fulltrúi VSK-hóps notar Business Central innanhúss
 
 1. Sláðu inn notendaskilríkin sem fulltrúi VSK-hópsins lét í té og veldu **Áfram**.
-2.  **Í REITNUM kenni**  biðlara skal tilgreina kenni biðlara úr App-skráningunni í  [Microsoft Entra  ID-uppsetningu fyrir flokksmeðlimi](#microsoft-entra-id-setup-for-group-members).
-3.  **Í reitinn leyninúmer**  biðlara skal tilgreina viðskiptavin leyninúmer úr App-skráningunni í  Microsoft Entra  ID.
+2. Í reitnum **Kenni** biðlara skal tilgreina kenni biðlara úr skráningu forritsins í [Microsoft Entra uppsetningu kennis fyrir hópmeðlimi](#microsoft-entra-id-setup-for-group-members).
+3. Í reitnum **Leyndarmál** biðlara er tilgreint leyndarmál biðlarans úr skráningu forritsins í Microsoft Entra kenni.
 4. Í reitinn **OAuth 2.0 endastöð eftirlits** skal færa inn `https://login.microsoftonline.com/common/oauth2`.
 5. Í reitinn **OAuth 2.0 vefslóð tilfangs** skal færa inn `https://api.businesscentral.dynamics.com/`.
 6. Í reitinn **OAuth 2.0 framsendingarvefslóð** skal færa inn `https://businesscentral.dynamics.com/OAuthLanding.htm`.
@@ -125,8 +125,8 @@ Eftir að uppsetningu er lokið býr [!INCLUDE[prod_short](includes/prod_short.m
 1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Uppsetning með hjálp**.
 2. Veldu aðgerðir til að **Setja upp umsjón VSK-hópa**.
 3. Í reitnum **Hlutverk VSK-hópsins** velur þú **Fulltrúa** til að starfa sem fulltrúi VSK-hópsins og velur síðan **Áfram**.
-4. Í reitnum **Reikningur fyrir hópuppgjör** skal tilgreina þann uppgjörsreikning sem notaður er fyrir VSK-fjárhæðir hópmeðlima. Þessi lykill ætti að hafa  **eignir**  sem  **lykiltegund**.
-5. Í reitnum **VSK-uppgjörsreikningur** skaltu tilgreina reikninginn sem þú notar fyrir VSK-uppgjör. Þessi lykill ætti að hafa  **skuldunauta**  sem  **lykiltegundina**.
+4. Í reitnum **Reikningur fyrir hópuppgjör** skal tilgreina þann uppgjörsreikning sem notaður er fyrir VSK-fjárhæðir hópmeðlima. Þessi reikningur ætti að hafa **Eignir** sem **reikningsflokk**.
+5. Í reitnum **VSK-uppgjörsreikningur** skaltu tilgreina reikninginn sem þú notar fyrir VSK-uppgjör. Þessi reikningur ætti að hafa **Skuldir** sem **reikningsflokk**.
 6. Í **Reitarnúmer VSK til greiðslu.** reitinn, tilgreindu reitinn sem táknar samtölu VSK-upphæðar til greiðslu vegna innsendingar VSK-hóps.
 7. Í reitnum **Sniðmát færslubókar hópuppgjörs** skaltu tilgreina sniðmátið fyrir almenna færslubók sem er notað til að búa til skjalið sem fulltrúi hópsins birtir VSK af á jöfnunarreikninginn.
 8. Í reitnum **Samþykktir meðlimir** kemur fram fjöldi hópmeðlima sem stofnaðir eru til að skila VSK-framtölum til fulltrúa hópsins. Til að bæta við nýjum meðlimum velur þú númerið til að opna síðuna **Samþykktir meðlimir VSK-hóps** og bætir við eftirfarandi upplýsingum:
@@ -159,6 +159,18 @@ Til að telja fram VSK fyrir hópsins skal á síðunni **VSK-framtöl** stofna 
 
 > [!IMPORTANT]
 > VSK-flokksvirkni er aðeins studd á þeim mörkuðum þar sem [!INCLUDE[prod_short](includes/prod_short.md)] notar VSK-rammi sem inniheldur VSK-skil og VSK-skilatímabil. Ekki er hægt að nota VSK-hópa á öðrum mörkuðum sem eru með aðrar útfærslur af staðbundnum VSK-skýrslum, t.d. Austurríki, Þýskaland, Ítalía, Spánn og Sviss.
+
+## Útgáfa með gerð multifactor sannvottunar (MFA) virka
+
+Ef villuboð tengjast heimild við endurnýjun OAuth2-táknsins **á** síðunni **VSK-skýrslugrunnur** eftir að MFA hefur verið gert virkt skal ljúka eftirfarandi skrefum.  
+
+1. Skrá sig inn í **Azure Portal** sem sannvottunarstjóra.  
+2. Farðu að kenninu **Microsoft Entra**.   
+3. Flett er að **notendum** og síðan valinn notandinn sem á að framkvæma aðgerð.  
+4.  **Velja skal sannvottunaraðferðirnar** og efst á síðunni skal velja **Krefjast endurskráningar margfölvu sannvottunar**. 
+5. Farið er aftur í Dynamics 365 Business Central og valið til að endurnýja táknið úr VSK-skýrslugrunninum **·**.  
+
+Þetta ætti að vera uppsetning í eitt skipti þegar margfengin sannvottun fyrir notandann sem valinn er í **VSK-skýrslugrunni** er gerð virk.  
 
 ## Sjá einnig .
 

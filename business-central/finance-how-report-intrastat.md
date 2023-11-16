@@ -1,6 +1,6 @@
 ---
 title: Vinna með Intrastat-skýrslur
-description: Lærðu að tilkynna viðskipti með fyrirtæki í öðrum löndum/svæðum ESB með notkun Intrastat-kerfis.
+description: Fræðast um hvernig eigi að tilkynna viðskipti við fyrirtæki í öðrum ESB-löndum/svæðum með Intrastat-kerfinu.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
 ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
-ms.date: 09/02/2022
+ms.date: 10/19/2023
 ms.author: altotovi
 ---
 # Vinna með Intrastat-skýrslur
 
 Öll fyrirtæki í löndum innan Evrópusambandsins (ESB) þurfa að gefa öðrum löndum/svæðum innan sambandsins skýrslur um viðskipti sín. Einnig þarf að gefa hagstofu viðkomandi lands/svæðis mánaðarlega skýrslu um hreyfingu vöru og skýrsluna þarf að afhenda skattayfirvöldum. Intrastat er kerfið til að safna saman tölfræði um vöruviðskipti innan þessara landa/svæða. Þú notar **Intrastat-skýrsla** til að ljúka reglubundinni Intrastat-skýrslugerð (yfirleitt mánaðarlega), söfnun, skráningu og tilkynningu um vöruviðskipti í samræmi við löggjöf á hverjum stað.
 
-Intrastat-skýrslugerð byggir á grunnreglum ESB sem gilda um öll lönd/svæði; í reynd er þó einhver munur innan einstakra landa/svæða. Hvert land/svæði hefur sínar reglur um hvað nákvæmlega og hvernig á að tilkynna.
+Intrastat-skýrslugerð er byggð á grunnreglum ESB sem gilda um öll lönd/svæði; Í reynd er þó nokkur munur á einstökum löndum/svæðum. Hvert land/svæði hefur sínar reglur um hvað nákvæmlega og hvernig eigi að gefa skýrslu.
 
 > [!IMPORTANT]
 > Þessi grein lýsir nýju Intrastat-upplifuninni sem er í boði í [!INCLUDE[prod_short](includes/prod_short.md)] frá og með byrjun 2022 útgáfutímabils 2, sem inniheldur stækkaða eiginleika og [verður að vera kveikt á fyrir fyrirliggjandi fyrirtæki](finance-how-setup-report-intrastat.md#enable-the-new-intrastat-experience). Hafðu samband við stjórnanda til að kveikja á og setja upp nýju getuna.
@@ -23,7 +23,7 @@ Intrastat-skýrslugerð byggir á grunnreglum ESB sem gilda um öll lönd/svæð
 > Lestu fyrri útgáfu af Intrastat uppsetningar- og notkunargrein á [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat-v20.md).
 
 > [!NOTE]
-> Upplýsingar um Intrastat eiga ekki við um tilfærslu þjónustu milli landa/svæða heldur einungis á vörum (vörum og eignum). Ef staðbundin stjórnvöld krefjast skráningar á þjónustu á milli landa/svæða er hægt að framkvæma hana með  **aðgerðinni Þjónustuskýrsla** .
+> Intrastat-upplýsingar eiga ekki við um hreyfingu þjónustu milli landa/svæða heldur aðeins vara (Vörur og Eignir). Ef sveitarstjórnin krefst þess að skrá hreyfingu þjónustu milli landa/svæða er hægt að gera það með því að nota aðgerðina **Þjónustuskýrsla** .
 >
 > Sem stendur er gert ráð fyrir að þessi eiginleiki verði í boði frá nóvember 2022 sem forrit hjá [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Á þeim tímapunkti, til að nota það, þarf fyrst að setja það upp á síðunni **Viðbótarstjórnun**.
 
@@ -32,7 +32,7 @@ Intrastat-skýrslugerð byggir á grunnreglum ESB sem gilda um öll lönd/svæð
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Intrastat-listi** og veldu viðeigandi tengil.
 2. Veldu aðgerðina **Ný** til að búa til nýja **Intrastat-skýrslu**.
 3. Ef færa þarf inn innri upplýsingar um **Intrastat-skýrsluna** skal fylla út þessar upplýsingar í reitinn **Lýsing**.
-4. Í reitnum **Tímabil tölfræði** skal tilgreina mánuðinn sem gefa á upp gögn fyrir. Sláið inn tímabilið sem fjögurra stafa númer án bils eða tákna. Það fer eftir landshlutum/svæðum hvort mánuðinum er fyrst og síðan árið eða öfugt. Fært er til dæmis inn annaðhvort á *2206* eða *0622* fyrir júní 2022.
+4. Í reitnum **Tímabil tölfræði** skal tilgreina mánuðinn sem gefa á upp gögn fyrir. Sláið inn tímabilið sem fjögurra stafa númer án bils eða tákna. Eftir því hver landið/svæðið er fært inn annaðhvort mánuðinn fyrst og síðan árið, eða öfugt. Fært er til dæmis inn annaðhvort á *2206* eða *0622* fyrir júní 2022.
 5. Veljið aðgerðina **Leggja til línur**. Reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru þegar komnir með dagsetningarnar sem tilgreindar eru fyrir tölfræðitímabilið í haus Intrastat-skýrslunnar.
 6. Hægt er að færa prósentu í reitinn **Kostnaðarregla %** (til að ná yfir flutning og tryggingar). Ef færð er inn prósenta verður efni reitsins **Upplýsingagildi** í færslubókinni hlutfallslega hærra. En ef þú vilt nota þennan eiginleika verður þú að breyta reitnum **Upphæð að meðtöldum kostnaðarauka** í **Já**.
 7. Þú getur að lokum sett upp aukastillingar á flýtiflipanum **Viðbót**:
@@ -65,7 +65,7 @@ Keyrðu skýrsluna **Gátlisti Intrastat-skýrslu** til að athuga Intrastat-lí
 
 ## Endurútreikningur þyngdar eða viðbótarmælieiningar
 
-Ef þú fékkst villuboðin *„Heildarþyngd“ í línu Intrastat-skýrslu verður að vera auð* er það líklega vegna þess að þú stilltir ekki reitinn **Nettóþyngd** á notaðan uppruna, vöru eða eign. Í þessu tilviki skaltu leita að vöru- eða eignaspjaldinu og bæta við nauðsynlegum reit. Eftir það þarftu bara að opna **Intrastat-skýrsluna** og fylgja þessum skrefum:
+Ef villuboðin *'Heildarþyngd" í Intrastat-skýrslulínu eru ekki auð* er það líklega vegna þess að reiturinn Nettóþyngd **á notuðum uppruna, vöru eða eign var ekki stilltur** . Í þessu tilviki skaltu leita að vöru- eða eignaspjaldinu og bæta við nauðsynlegum reit. Eftir það þarftu bara að opna **Intrastat-skýrsluna** og fylgja þessum skrefum:
 
 1. Veldu aðgerðina **Endurr. þyngd/viðbótarmælie.** til að endurreikna **Heildarþyngd** og/eða **Viðbótarmagn**.
 2. Velja einn valkostanna:
@@ -116,30 +116,30 @@ Eignir verða sýndar í Intrastat-línunum aðeins ef:
 * *Útgefin*: [!INCLUDE[prod_short](includes/prod_short.md)] breytir stöðunni sjálfkrafa í *Útgefna* þegar skrá er stofnuð. Frá þeirri stundu getur þú ekki breytt **Intrastat-skýrslunni** þinni. Ef breyta þarf einhverju og gefa skýrslu á nýjan leik er hægt að nota aðgerðina **Enduropna** til að enduropna Intrastat-skýrsluna. Þegar skjalið hefur verið opnað aftur er hægt að nota aðgerðina **Gefa út** til að gefa út skjalið aftur.
 * **Tilkynnt**: Tilgreinir hvort skattayfirvöld hafa þegar fengið skýrslu um færsluna. Þetta er ekki venjuleg staða heldur sjálfstæður reitur og jafnvel þótt þú opnir Intrastat-skýrsluna aftur myndi hún samt sýna að skráin sé þegar stofnuð fyrir þessa skýrslu.
 
-### Staðsetningar í Intrastat-skýrslugerð 
+### Birgðageymslur í Intrastat-skýrslugerð 
 
-[!INCLUDE[prod_short](includes/prod_short.md)] notar upplýsingarnar alltaf í  **reitnum Lands-/svæðiskóti**  á  **birgðageymsluspjaldinu**  sem landið fyrir  **senda frá**  eða fyrir  **móttöku** . Þegar þessar upplýsingar eru ekki til staðar eða að staðsetning er ekki notuð notar kerfið upplýsingarnar af síðunni upplýsingar  **um**  fyrirtækið.   
+[!INCLUDE[prod_short](includes/prod_short.md)] notar alltaf upplýsingarnar í reitnum **Lands-/svæðiskóti** á síðunni **Birgðageymsluspjald** sem land fyrir **sendingu frá** eða fyrir **móttöku til** vara. Þegar þessar upplýsingar eru ekki til eða birgðageymsla var ekki notuð notar kerfið upplýsingarnar af síðunni **Stofngögn** .   
 
 > [!NOTE]
-> Ef fyrirtækið starfar í fleiri en einu landi vinna Intrastat-skýrslugerð ekki fyrir öll lönd þar sem birgðageymslur eru skilgreindar. Skýrslugerð er eingöngu byggð fyrir meginland, þar sem ekki er eins hægt að nota skýrslugerð um fjölland.  
+> Ef fyrirtækið starfar frá fleiri en einu landi vinnur Intrastat-skýrslugerð ekki í öllum löndum þar sem birgðageymslur eru grunnstilltar. Skýrslan er eingöngu byggð á aðallandi þar sem ekki er hægt að nota margra landa skýrslugerð.  
 
-### Þríhliða viðskipti í Intrastat
+### Þríhyrningsviðskipti í intrastat
 
-Þríhliða viðskipti felur í sér viðskipti milli þriggja landa eða svæða þar sem vörur sporna við tilkynningarskyldu um landskrá fyrirtækja. Hægt er að auðvelda í gegnum  [sendingaraðgerðina](sales-how-drop-shipment.md)  í miðborg fyrirtækja. Til að virkja þennan valkost skal virkja  **reitinn taka bein afhending**  með í  **uppsetningu** Intrastat-skýrslu.  
+Þríhyrningsviðskipti fela í sér viðskipti milli þriggja landa eða svæða þar sem vörur fara framhjá landi skýrslufyrirtækisins. Í Business Central er hægt að auðvelda þetta með aðgerðinni Bein [afhending](sales-how-drop-shipment.md) . Til að gera þennan valkost virkan er reiturinn Taka beina **afhendingu** með í Uppsetning **Intrastat-skýrslu virkjaður**.  
 
-Þegar þessi valkostur er gerður er hægt að nota kerfið eftirfarandi reglur, en aðeins ef þú ert með  **dropinn Shipmnet**  merktan í  **sölupöntuninni**: 
+Þegar þessi valkostur er virkjaður notar kerfið eftirfarandi reglur en aðeins ef merkt er bein **sendistnet** í **sölupöntuninni**: 
 
-| Móttaka frá | Afhenda til | Væntanleg Intrastat-Niðurstaða |
+| Móttaka frá | Afgreiðsla til | Væntanleg Intrastat-niðurstaða |
 |----------|------------|----------------------|
-| Landi eins og í upplýsingum um  **félagið** | Landi eins og í upplýsingum um  **félagið** | Engar Intrastat-línur |  
-| Landi eins og í upplýsingum um  **félagið** | ESB landið öðruvísi en landið í  **Fyrirtækjaupplýsingunum** | Lína Intrastat-sendinga | 
-| Landi eins og í upplýsingum um  **félagið** | Utan ESB-lands | Engar Intrastat-línur |   
-| ESB landið öðruvísi en landið í  **Fyrirtækjaupplýsingunum** | Landi eins og í upplýsingum um  **félagið** | Móttökulína Intrastat | 
-| ESB landið öðruvísi en landið í  **Fyrirtækjaupplýsingunum** | ESB landið öðruvísi en landið í  **Fyrirtækjaupplýsingunum** | Engar Intrastat-línur |
-| ESB landið öðruvísi en landið í  **Fyrirtækjaupplýsingunum** | Utan ESB-lands | Engar Intrastat-línur | 
-| Utan ESB-lands | Landi eins og í upplýsingum um  **félagið** | Engar Intrastat-línur |  
-| Utan ESB-lands | ESB landið öðruvísi en landið í  **Fyrirtækjaupplýsingunum** | Engar Intrastat-línur |
-| Utan ESB-lands | Utan ESB-lands | Engar Intrastat-línur |   
+| Land eins og í **stofngögnum** | Land eins og í **stofngögnum** | Engar Intrastat-línur |  
+| Land eins og í **stofngögnum** | ESB-landið er ólíkt landi í **stofngögnum** | Intrastat-sendingarlína | 
+| Land eins og í **stofngögnum** | Land utan ESB | Engar Intrastat-línur |   
+| ESB-landið er ólíkt landi í **stofngögnum** | Land eins og í **stofngögnum** | Intrastat-móttökulína | 
+| ESB-landið er ólíkt landi í **stofngögnum** | ESB-landið er ólíkt landi í **stofngögnum** | Engar Intrastat-línur |
+| ESB-landið er ólíkt landi í **stofngögnum** | Land utan ESB | Engar Intrastat-línur | 
+| Land utan ESB | Land eins og í **stofngögnum** | Engar Intrastat-línur |  
+| Land utan ESB | ESB-landið er ólíkt landi í **stofngögnum** | Engar Intrastat-línur |
+| Land utan ESB | Land utan ESB | Engar Intrastat-línur |   
 
 ## Sjá einnig .
 

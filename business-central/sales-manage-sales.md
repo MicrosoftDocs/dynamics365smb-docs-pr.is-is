@@ -23,7 +23,7 @@ Auðvelt er að leiðrétta eða afturkalla bókaðann sölureikning áður en h
 
 Góðar sölu- og markaðssetningaraðferðir snúast um að taka réttar ákvarðanir á réttum tíma. Markaðsvirknin í [!INCLUDE[prod_short](includes/prod_short.md)] veitir nákvæma og tímabæra yfirsýn yfir upplýsingar um tengiliði þína svo að þú getir þjónað væntanlegum viðskiptavinum þínum á skilvirkan hátt og aukið ánægju viðskiptavina. Frekari upplýsingar eru í [Tengslastjórnun](marketing-relationship-management.md).
 
-Ef þú notar Microsoft Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota Business Central fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð. Frekari upplýsingar í [Nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md).
+Ef þú notar Microsoft Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota Business Central fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð. Fræðast meira um notkun [Dynamics 365 Sales frá Business Central](marketing-integrate-dynamicscrm.md).
 
 Í viðskiptaumhverfi þar sem viðskiptamaðurinn verður að greiða áður en vörur eru afhentar, til dæmis í smásölu, verður að bíða eftir greiðslukvittun fyrir vörunum áður en þær eru afhentar. Í flestum tilfellum er valið að vinna  greiðslur á innleið nokkrum vikum eftir afhendingu með því að jafna greiðslurnar við viðkomandi bókaða, ógreidda sölureikninga. Frekari upplýsingar eru í [Afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md).
 

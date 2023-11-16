@@ -1,5 +1,5 @@
 ---
-title: Nota Power Automate flæði fyrir viðvaranir vegna breytinga á einingum
+title: Nota flæði Power Automate til að samstilla Dataverse einingarbreytingar tímanlega
 description: Kynntu þér hvernig á að búa til flæði í Power Automate sem lætur þig vita þegar einingu er breytt í Dataverse umhverfi.
 author: brentholtorf
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# Notaðu Power Automate flæði fyrir viðvaranir vegna Dataverse breytinga á einingum
+# Nota flæði Power Automate til að samstilla Dataverse einingarbreytingar tímanlega
 
 Stjórnendur geta búið til sjálfvirkt flæði í Power Automate sem lætur [!INCLUDE[prod_short](includes/prod_short.md)] vita um breytingar á færslum í [!INCLUDE [cds_long_md](includes/cds_long_md.md)] fyrirtækinu þínu.
 
@@ -65,7 +65,7 @@ Ef flæðið stöðvast ekki vegna skilyrðisins þarf að láta [!INCLUDE[prod_
 1. Í **Engin** grein af skilyrðisskrefinu skal bæta við aðgerð og leita að **Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]**. Veldu tengiltáknið á listanum.
 2. Veldu aðgerðina **Stofna færslu (V3)**.
 
-:::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Stillingar fyrir  [ ! HAFA [ prod_short ](includes/prod_short.md) ] tengi":::
+:::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Stillingar fyrir! [ TAKA [prod_short](includes/prod_short.md)] Tengi":::
 
 3. Notaðu **Valhnappinn (...)** efst í hægra horninu til að bæta tengingu við [!INCLUDE[prod_short](includes/prod_short.md)] þitt.
 4. Þegar það er tengt skaltu fylla út í reitina **Heiti umhverfis** og **Heiti fyrirtækis**.

@@ -10,18 +10,18 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Uppsetning á notendareikningum fyrir samþættingu við Microsoft Dataverse
+# Uppsetning notendareikninga til samþættingar með Microsoft Dataverse samstillingu gagna
 
 Þetta efnisatriði veitir yfirlit um hvernig á að setja upp notendareikninga sem er krafist til að samþætta [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Setja upp notandareikning stjórnanda
 
-Til að setja upp tenginguna á milli  [!INCLUDE[prod_short](includes/prod_short.md)]  og  [!INCLUDE[prod_short](includes/cds_long_md.md)] þarf að skrá sig inn til  [!INCLUDE[prod_short](includes/prod_short.md)]  með notandareikning sem er úthlutað  [!INCLUDE[prod_short](includes/prod_short.md)]  á nauðsynleg eða  [!INCLUDE[prod_short](includes/prod_short.md)]  leyfisskyld iðgjöld. Við notum þennan lykil eitt sinn til að setja upp og skilgreina nokkra nauðsynlega íhluti.
+Til að [!INCLUDE[prod_short](includes/prod_short.md)] setja upp tengslin á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)]  verður að skrá sig inn í [!INCLUDE[prod_short](includes/prod_short.md)] með notandareikningi sem hefur verið úthlutað nauðsynlegu leyfi eða [!INCLUDE[prod_short](includes/prod_short.md)] iðgjaldi. Við munum nota þennan reikning einu sinni til að setja upp og stilla nokkra íhluti sem þarf.
 
 > [!IMPORTANT]
-> Á meðan á uppsetningu stendur ertu beðin (ur) um að útvega skilríki fyrir  [!INCLUDE[prod_short](includes/cds_long_md.md)]  umhverfið. Framvísa skal skilríkjum á reikningi sem er heimilandi notanda og settur  **·**  í öryggishlutverk kerfisstjóra á  [!INCLUDE[prod_short](includes/cds_long_md.md)]  umhverfinu og altæka stjórnun á þeim leigjanda sem umhverfið tilheyrir. Þessi reikningur þarf ekki leyfi til  [!INCLUDE[prod_short](includes/prod_short.md)]  vegna þess að hann verður eingöngu notaður til að gera uppsetningarverkefni í  [!INCLUDE[prod_short](includes/cds_long_md.md)]  appinu.
+> Við uppsetningu verður notandi beðinn að útvega skilríki fyrir umhverfið [!INCLUDE[prod_short](includes/cds_long_md.md)] . Gefa upp skilríki reiknings sem er leyfisveitandi og úthlutað **öryggishlutverki kerfisstjóra** í umhverfinu [!INCLUDE[prod_short](includes/cds_long_md.md)] og alþjóðlegri stjórnanda sem umhverfið tilheyrir. Þessi reikningur þarf ekki leyfi til þess [!INCLUDE[prod_short](includes/prod_short.md)] þar sem hann verður aðeins notaður til að setja upp verk í umhverfinu [!INCLUDE[prod_short](includes/cds_long_md.md)] .
 >
-> Þegar Uppsetning tengingar er lokið er hægt að fjarlægja  [!INCLUDE[prod_short](includes/cds_long_md.md)]  notandann. Samþættingin heldur áfram að nota notandareikninginn sem er búinn sjálfkrafa til fyrir samþættinguna.
+> Þegar uppsetningu tengingar hefur verið lokið er hægt að fjarlægja þennan [!INCLUDE[prod_short](includes/cds_long_md.md)] notanda. Samþættingin heldur áfram að nota notandareikninginn sem er búinn sjálfkrafa til fyrir samþættinguna.
 
 ## Heimildir og öryggishlutverk fyrir notandareikninga í [!INCLUDE[prod_short](includes/cds_long_md.md)]
 

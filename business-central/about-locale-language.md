@@ -27,7 +27,7 @@ Til að breyta tungumáli viðmótsins skal fara á síðuna **Mínar stillingar
 Ekki er hægt að breyta textum sem eru geymdir sem forritsgögn. Dæmi um slíkt eru heiti á vörum í birgðaskrá eða athugasemdir sem sendar eru viðskiptavinum. Með öðrum orðum er slíkur texti ekki þýddur.  
 
 > [!NOTE]  
-> [!INCLUDE[prod_short](includes/prod_short.md)] styður aðeins eitt kerfi stafatákna fyrir gögn. Því getur verið að sum stafatáknin séu ekki studd í þínu umhverfi og vandamál komi upp þegar sótt eru gögn sem færð voru inn með öðru táknkerfi. Til dæmis getur verið að umhverfi þitt styðji aðeins enska og rússneska stafi. Ef gögn eru færð inn á öðru tungumáli verða þau hugsanlega ekki vistuð rétt. Hafa skal samband við kerfisstjóra til að fá upplýsingar um hvaða tungumál eru studd í þínu [!INCLUDE[prod_short](includes/prod_short.md)].  
+> [!INCLUDE[prod_short](includes/prod_short.md)] styður aðeins eitt kerfi stafatákna fyrir gögn. Þess vegna geta sumir stafir ekki verið studdir í umhverfinu og vandamál komi upp þegar sótt eru gögn sem færð voru inn með öðru stafamengi. Til dæmis getur verið að umhverfi þitt styðji aðeins enska og rússneska stafi. Ef gögn eru færð inn á öðru tungumáli verða þau hugsanlega ekki vistuð rétt. Hafa skal samband við kerfisstjórann til að ganga úr skugga um að skilja hvaða tungumál eru studd af notandanum [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## Svæðisstillingunni breytt
 

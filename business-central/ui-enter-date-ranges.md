@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'dates, reporting, filter, calendar, shorthand, range'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 06/23/2021
+ms.date: 10/27/2023
 ms.author: bholtorf
 ---
 
@@ -47,7 +47,7 @@ Til að vinna á afkastameiri hátt með dagsetningar og tíma geturðu notað e
 
 ### Velja dagsetningar úr dagatalinu
 
-Allir reitir sem sýna dagbókartákn geta verið stilltar með dagsetningarvali dagatals. Til að birta tíndagadagskrá, virkja teiknið fyrir dagatal eða velja  <kbd>flýtileið CTRL</kbd>+<kbd>-heimilis</kbd>  í svæðinu.
+Allir reitir sem sýna dagbókartákn geta verið stilltar með dagsetningarvali dagatals. Til að birta tínslu á dagsetningarvali dagatals skal virkja dagatalstáknið <kbd>eða velja flýtivísunina Ctrl</kbd>+<kbd>Home</kbd> í reitnum.
 
 ![Dagsetningasvæði.](media/ui-date-field.png "Dæmi um dagsetningarreit")
 
@@ -167,8 +167,8 @@ Eftirfarandi dæmi sýnir hvernig á að nota N, fyrir núverandi, og tímaeinin
 
 |  Segð  |  Merking  |
 |--------------|-----------|
-|LV|Núverandi vika|
-|LM|Líðandi mánuður|
+|LV|Líðandi vika|
+|KV|Líðandi mánuður (síðasti dagur mánaðarins)|
 
 Eftirfarandi dæmi sýnir hvernig á að nota tölueiningu og tíma. Tala getur ekki verið hærri en 9999.
 

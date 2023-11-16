@@ -1,5 +1,5 @@
 ---
-title: Notar Microsoft Dataverse
+title: Samþætta við Microsoft Dataverse með samstillingu gagna
 description: Kynning á því hvernig á að samþætta og nota Microsoft Dataverse og hluta þess til að tengjast öðrum Dynamics 365-forritum.
 author: brentholtorf
 ms.author: bholtorf
@@ -9,9 +9,9 @@ ms.date: 06/28/2023
 ms.custom: bap-template
 ---
 
-# Samþætta við Microsoft Dataverse
+# Samþætta við Microsoft Dataverse með samstillingu gagna
 
-Viðskiptaforrit nota oft gögn frá fleiri en einum uppruna. [!INCLUDE[prod_short](includes/cds_long_md.md)] sameinar gögn í eina stilla af rökfræði sem auðveldar tengingu  [!INCLUDE[prod_short](includes/prod_short.md)]  við önnur Dynamics 365 forrit. Til dæmis  [!INCLUDE[crm_md](includes/crm_md.md)]  eða eigin umsókn byggð á [!INCLUDE[prod_short](includes/cds_long_md.md)]. Til að fræðast meira um  [!INCLUDE[prod_short](includes/cds_long_md.md)], fara í  [Hvað er  Dataverse](/powerapps/maker/common-data-service/data-platform-intro)?.
+Viðskiptaforrit nota oft gögn frá fleiri en einum uppruna. [!INCLUDE[prod_short](includes/cds_long_md.md)] sameinar gögn í eitt safn af rökfræði sem auðveldar tengingu við [!INCLUDE[prod_short](includes/prod_short.md)] önnur Dynamics 365-forrit. Til dæmis, [!INCLUDE[crm_md](includes/crm_md.md)]  eða eigin forrit byggt á [!INCLUDE[prod_short](includes/cds_long_md.md)]. Til að fræðast meira um [!INCLUDE[prod_short](includes/cds_long_md.md)] er farið í [Hvað er Dataverse](/powerapps/maker/common-data-service/data-platform-intro)?.
 
 Eftirfarandi skref veita yfirlit yfir skrefin til að samþætta [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -24,15 +24,15 @@ Eftirfarandi skref veita yfirlit yfir skrefin til að samþætta [!INCLUDE[prod_
 
 3. Samstilltu gögn milli forrita. Frekari upplýsingar er að finna í [Samstilling Business Central og Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## Byrjaðu með [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Hafist handa við [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Til að byrja með  [!INCLUDE[prod_short](includes/cds_long_md.md)] Microsoft Power Apps  þarf að fá reikning. Ef þú ert  Power Apps  ekki nú þegar með reikning getur þú fengið einn fyrir frjáls með því að heimsækja  [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)  og velja  **fá ræsir frjáls**  tengill. Til að fræðast nánar um hvernig hafist er handa  [!INCLUDE[prod_short](includes/cds_long_md.md)] er farið í the  [byrja með  Dataverse](/training/modules/get-started-with-powerapps-common-data-service/)  einingu úr Microsoft þjálfun.
+Til að byrja með [!INCLUDE[prod_short](includes/cds_long_md.md)] þarftu reikning Microsoft Power Apps . Ef þú ert ekki þegar með Power Apps reikning getur þú fengið einn ókeypis með því að [heimsækjapowerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og velja **Fá byrjað ókeypis** tengil. Til að fræðast meira um hvernig hafist er handa er [!INCLUDE[prod_short](includes/cds_long_md.md)] hafist handa með [því að fara í eininguna Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) í Microsoft-þjálfuninni.
 
-## Bi-stefnuor uni-stefnumiðuð gagnasamkeyrsla
+## Samstilling tvístefnulegra eða uni-stefnumiðaðra gagna
 
-Hægt er að samstilla gögn annaðhvort í eða úr einu Dynamics 365 Business App í annað eða í báðar áttir í rauntíma í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ef t.d. er samþætt  [!INCLUDE[prod_short](includes/prod_short.md)]  við  [!INCLUDE[crm_md](includes/crm_md.md)] getur Sölumaður stofnað sölupöntun í  [!INCLUDE[crm_md](includes/crm_md.md)]  og pantað samstillir [!INCLUDE[prod_short](includes/prod_short.md)]. Umráðandi, at frá  [!INCLUDE[crm_md](includes/crm_md.md)], at sölumaðurinn getur kannað ráðstöfunarmagn vörunnar á pöntuninni í [!INCLUDE[prod_short](includes/prod_short.md)]. 
+Hægt er að samstilla gögn annaðhvort til eða úr einu viðskiptaforriti Dynamics 365 við annað, eða í báðar áttir í nánast rauntíma, í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ef t.d. er samþætt [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[crm_md](includes/crm_md.md)] getur sölumaður stofnað sölupöntun í [!INCLUDE[crm_md](includes/crm_md.md)] og pöntunin samstillt við [!INCLUDE[prod_short](includes/prod_short.md)]. Samt sem á móti [!INCLUDE[crm_md](includes/crm_md.md)] getur sölumaðurinn kannað ráðstöfunarmagn vörunnar í pöntuninni í [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-## Staðall og séreiningar
+## Staðlaðar og sérsniðnar einingar
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] geymir gögn á öruggan hátt í einingatöflum, sem eru safn af færslum sem svipar til hvernig tafla geymir gögn í gagnagrunni. [!INCLUDE[prod_short](includes/cds_long_md.md)] inniheldur grunnsafn staðlaðra tafla sem ná yfir dæmigerðar aðstæður, en einnig er hægt að búa til sérsniðnar töflur sem miðast að fyrirtækinu þínu. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að skoða staðlaðar og sérsniðnar töflur sem eru samstilltar á síðunni „Vörpun samþættingartöflu“.
 
@@ -40,43 +40,43 @@ Hægt er að samstilla gögn annaðhvort í eða úr einu Dynamics 365 Business 
 
 Grunnsamþættingarlausnin er lykilþáttur samþættingarinnar. Lausnin bætir við nauðsynlegum hlutverkum og aðgangsstigum að notandareikningum fyrir samþættinguna og býr til töflur sem þarf til að varpa [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtæki í viðskiptaeiningu í [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
-Sjálfgefið er að  **uppsetningarhandbók fyrir aðstoðaði tengingu  [!INCLUDE[prod_short](includes/cds_long_md.md)]  er sett inn með því að setja upp**  lausnina. Til að gera það notar uppsetningarleiðbeiningin notandareikning stjórnanda sem þú tilgreinir. Þessi reikningur verður að vera gildur notandi í [!INCLUDE[prod_short](includes/cds_long_md.md)] með eftirfarandi öryggishlutverk:
+Sjálfgefið **er að uppsetningarleiðbeiningar með aðstoð setja upp [!INCLUDE[prod_short](includes/cds_long_md.md)] tengingu** flytji inn lausnina. Til að gera það notar uppsetningarleiðbeiningin notandareikning stjórnanda sem þú tilgreinir. Þessi reikningur verður að vera gildur notandi í [!INCLUDE[prod_short](includes/cds_long_md.md)] með eftirfarandi öryggishlutverk:
 
 * Kerfisstjóri  
 
-Til að fræðast nánar um notendareikninga er farið í eftirfarandi greinar:
+Til að fræðast meira um notendareikninga er farið í eftirfarandi greinar:
 
-* [Uppsetning notendareikninga fyrir samþættingu við [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md) 
-* [Stofna notendur í  Microsoft Dynamics 365 (online)  og úthluta öryggishlutverkum](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles). 
+* [Uppsetning notendareikninga til samþættingar [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md) 
+* [Stofna notendur í Microsoft Dynamics 365 (online) og úthluta öryggishlutverkum](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles). 
 
-Stjórnandareikningurinn er aðeins notaður í eitt skipti við uppsetningu á grunnstillingarbreytingunum sem grunnsamþættingarlausnin gerir í [!INCLUDE[prod_short](includes/cds_long_md.md)]. Eftir að lausnin flytur inn er ekki lengur þörf á reikningnum. Samþætting heldur áfram að nota notandareikninginn sem var búinn sjálfkrafa til fyrir samþættinguna.
+Stjórnandareikningurinn er aðeins notaður í eitt skipti við uppsetningu á grunnstillingarbreytingunum sem grunnsamþættingarlausnin gerir í [!INCLUDE[prod_short](includes/cds_long_md.md)]. Eftir innflutning lausnarinnar er ekki lengur þörf á reikningnum. Samþætting heldur áfram að nota notandareikninginn sem var búinn sjálfkrafa til fyrir samþættinguna.
 
 Til viðbótar við sérstillingu [!INCLUDE[prod_short](includes/cds_long_md.md)], býr lausnin líka til eftirfarandi hlutverk í [!INCLUDE[prod_short](includes/cds_long_md.md)] fyrir samþættinguna:
 
-* **Samþættingarstjórnandi** - Gerir notendum kleift að stjórna tengingunni milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]. Yfirleitt er þessu hlutverki aðeins úthlutað á notandareikninginn sem er sjálfkrafa stofnaður fyrir samstillingu.  
-* **Samþættingarnotandi** - Gerir notendum kleift að fá aðgang að samstilltum gögnum. Yfirleitt er þessu hlutverki úthlutað á eftirfarandi notendareikninga:
+* **Samþættingarstjórnandi** - Gerir notendum kleift að stjórna tengingunni milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]. Yfirleitt er þessu hlutverki aðeins úthlutað á notandareikninginn sem er sjálfkrafa stofnaður í samstillingu.  
+* **Samþættingarnotandi** - Gerir notendum kleift að fá aðgang að samstilltum gögnum. Yfirleitt er hlutverkinu úthlutað á eftirfarandi notendareikninga:
 
-  * Notandareikningarnir sem eru stofnaðir sjálfkrafa fyrir samstillingu.
-  * Aðrir notendur sem þurfa aðgang að samstilltu gögnunum.
+  * Notendareikningarnir sem eru sjálfkrafa stofnaðir til samstillingar.
+  * Aðrir notendur sem þurfa aðgang að samstilltum gögnum.
 
-Til að fræðast nánar um hvert hlutverk, svo sem heimildir og aðgangsstig, er farið í að  [Setja upp notendareikninga fyrir samþættingu við [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
+Nánari upplýsingar um hvert hlutverk, t.d. heimildir og aðgangsstig, er farið í [Uppsetning notendareikninga til samþættingar. [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)
 
-Þegar tengingin er sett upp er búin til samþættingartöfluvörpun sem samstilla þarf gögn við. Einingar í  [!INCLUDE[prod_short](includes/cds_long_md.md)]  eru kortlagðar í töflum og töflusvæðum í  [!INCLUDE [prod_short](includes/prod_short.md)]  gegnum samþættingartöflur. Til að fá meiri upplýsingar um varpanir er farið í  [staðlaða Einingarvörpun fyrir samstillingu](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
+Þegar tengingin er sett upp eru búnar til vörpun samþættingartöflunnar sem þarf til að samstilla gögn. Einingum í er varpað á [!INCLUDE[prod_short](includes/cds_long_md.md)] töflur og töflureiti í [!INCLUDE [prod_short](includes/prod_short.md)] með samþættingartöflum. Nánari upplýsingar um vörpun fást með því að [fara í Staðlað einingarvörpun í samstillingu](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## Meðhöndla mismun á staðbundnum gjaldmiðlum og grunnfærslum
+## Meðhöndla mismun í staðbundnum gjaldmiðlum og grunnfærslum
 
-Hægt er að  [!INCLUDE[prod_short](includes/cds_long_md.md)]  tengjast umhverfi sem hefur annan stofn að gjaldmiðli en staðbundinn Gjaldmiðill í [!INCLUDE[prod_short](includes/prod_short.md)]. Tengingin  [!INCLUDE[prod_short](includes/prod_short.md)]  er gerð á  **Dataverse  uppsetningarsíðu**  tengingar eða með því að nota leiðbeiningar um  **uppsetningu tengingar til  Dataverse**  aðstoðar.
+Hægt er að [!INCLUDE[prod_short](includes/cds_long_md.md)] tengja við umhverfi sem er með annan grunngjaldmiðil en heimagjaldmiðilinn í [!INCLUDE[prod_short](includes/prod_short.md)]. Tenging er gerð á [!INCLUDE[prod_short](includes/prod_short.md)] síðunni **Dataverse Uppsetning** tengingar eða með því að nota **Setja upp tengingu til uppsetningarleiðsagnar Dataverse** með aðstoð.
 
-Til að hægt sé að tengjast þarf að tryggja að gjaldmiðilsstilling grunnviðskipta í  [!INCLUDE[prod_short](includes/cds_long_md.md)]  hafi gjaldmiðilinn sem er tilgreindur á  **gjaldmiðilssíðunni**  í  [!INCLUDE [prod_short](includes/prod_short.md)] og að minnsta kosti eitt gengi sé tilgreint fyrir gjaldmiðilinn á  **síðunni gengi**  gjaldmiðla.
+Til að geta tengst þarf að tryggja að gjaldmiðilsstilling grunnviðskipta í [!INCLUDE[prod_short](includes/cds_long_md.md)] sé með gjaldmiðilinn sem stilltur er á **síðunni Gjaldmiðlar** í [!INCLUDE [prod_short](includes/prod_short.md)] og að minnsta kosti eitt gengi er tilgreint fyrir gjaldmiðilinn á síðunni **Gengi gjaldmiðils** .
 
-Hér er dæmi. Þú tengir  [!INCLUDE[prod_short](includes/cds_long_md.md)]  við Euro (EUR) sem er settur sem staðbundinn Gjaldmiðill á  **uppsetningarsíðu**  fjárhags í  [!INCLUDE[prod_short](includes/cds_long_md.md)]  umhverfi sem hefur grunnfærslugjald stillt á Bandaríkjadals (USD). Þú munt þurfa að hafa USD á  **síðunni Gjaldmiðlar**  í  [!INCLUDE [prod_short](includes/prod_short.md)]  og viðeigandi gengi. 
+Hér er dæmi. Þú ert að tengjast [!INCLUDE[prod_short](includes/cds_long_md.md)] evru (EUR) sem staðbundinn gjaldmiðill á síðunni **Fjárhagsgrunnur** við [!INCLUDE[prod_short](includes/cds_long_md.md)] umhverfi sem er með grunnfærslugjaldmiðil stilltur á Bandaríkjadali (USD). Þú þarft að hafa USD á síðunni **Gjaldmiðlar** í [!INCLUDE [prod_short](includes/prod_short.md)] og viðeigandi gengi. 
 
-Þegar tengingin  [!INCLUDE[prod_short](includes/cds_long_md.md)] er gerð virk,  [!INCLUDE [prod_short](includes/prod_short.md)]  bætir staðbundinn Gjaldmiðill hans við  **gjaldmiðilinn**  með genginu  [!INCLUDE[prod_short](includes/cds_long_md.md)]  í  **reitnum gjaldmiðilstuðull**  á  **síðunni gengi**  gjaldmiðla.
+Þegar tenging [!INCLUDE[prod_short](includes/cds_long_md.md)] er gerð virk við bætir [!INCLUDE [prod_short](includes/prod_short.md)]  heimagjaldmiðil **hennar við gjaldmiðilseininguna**  [!INCLUDE[prod_short](includes/cds_long_md.md)] með genginu úr reitnum **Gengisstuðull** á síðunni **Gengi gjaldmiðils** .
 
-Gjaldeyrisamsamstilling er einstefnuloka, frá  [!INCLUDE [prod_short](includes/prod_short.md)]  til [! HAFA með  [!INCLUDE[prod_short](includes/cds_long_md.md)] peningaupphæðir umbreyta og samstilla á eftirfarandi hátt:
+Gjaldmiðilssamstilling er einstefnuleg, allt frá [!INCLUDE [prod_short](includes/prod_short.md)] til [! TAKA MEÐ [!INCLUDE[prod_short](includes/cds_long_md.md)], umbreyta upphæðum og samstilla á eftirfarandi hátt:
 
-* Upphæðir í  [!INCLUDE[prod_short](includes/cds_long_md.md)]  grunngjaldmiðlinum umbreyta í  [!INCLUDE [prod_short](includes/prod_short.md)]  staðbundinn gjaldmiðil samkvæmt Síðasta gengissamstillta  [!INCLUDE [prod_short](includes/prod_short.md)] kerfinu.
-* Upphæðir í  [!INCLUDE [prod_short](includes/prod_short.md)]  staðbundinni samstillingu með  [!INCLUDE [prod_short](includes/prod_short.md)]  gjaldmiðil landsins í einum af hinum (ekki stofn-) gjaldmiðlunum í [!INCLUDE[prod_short](includes/cds_long_md.md)].
+* Upphæðir í grunngjaldmiðlinum [!INCLUDE[prod_short](includes/cds_long_md.md)] breytast í [!INCLUDE [prod_short](includes/prod_short.md)] staðarmynt samkvæmt því gengi sem síðast var samstillt úr [!INCLUDE [prod_short](includes/prod_short.md)].
+* Upphæðir í [!INCLUDE [prod_short](includes/prod_short.md)] staðarmynt samstilla við [!INCLUDE [prod_short](includes/prod_short.md)] heimagjaldmiðilinn í einum af öðrum (óstofnuðum) gjaldmiðlum í [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 ## Sjá einnig .
 

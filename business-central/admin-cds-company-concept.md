@@ -1,5 +1,5 @@
 ---
-title: Vörpun fyrirtækis- og viðskiptaeiningar | Microsoft Docs
+title: Gagnaeignarlíkön fyrir samstillingu
 description: Fyrirtæki eru bæði lagalegar og viðskiptalegar einingar og eru notuð til að tryggja í sessi og gefa yfirsýn yfir viðskiptagögn.
 author: brentholtorf
 ms.topic: conceptual
@@ -11,8 +11,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# Eignarhaldslíkön gagna
-
+# Gagnaeignarlíkön fyrir samstillingu
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] krefst þess að tilgreindur sé eigandi fyrir gögnin sem eru geymd. Frekari upplýsingar eru í [Gerðir af töflum](/powerapps/maker/data-platform/types-of-entities) í Power Apps fylgiskjölum. Þegar samþætting er sett upp á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] þarf að velja **Notandi eða teymi** fyrir færslur sem eru samstilltar. Aðgerðir sem hægt er að framkvæma á þessum færslum er hægt að stjórna á notandastigi. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 

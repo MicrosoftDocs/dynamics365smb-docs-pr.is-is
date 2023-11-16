@@ -14,16 +14,6 @@ ms.custom: bap-template
 
 Ef þú kaupir eða selur vörur sem þú og lánardrottinn eða viðskiptamaður nota mismunandi skilmála fyrir getur þú sett upp tilvísun milli skilmálanna þinna fyrir vörurnar og skilmálanna sem viðskiptamaður eða lánardrottinn vörunnar nota. Þannig er vörulýsingar-, mælieiningar- eða afbrigðiskóða lánardrottins sjálfkrafa settur inn á viðeigandi skjöl þegar þú fyllir út reitinn **Vörutilvísunarnúmer** .  
 
-> [!NOTE]
-> Ekki öll fyrirtæki nota vörutilvísanir. Til að lágmarka óreiðu á síðum höfum við sjálfgefið falið tengda reiti og aðgerðir. Ef þú ákveður að nota þá skaltu velja reitinn **Nota vörutilvísanir** á síðunni **Birgðauppsetning**. Eftir að þú hefur virkjað vörutilvísanir verða reitir og aðgerðir í boði á birgðaspjaldinu, lánardrottnaspjaldinu og viðskiptamannspjaldinu og í sölu- og innkaupaskjölum.
->
-> Í útgáfum á undan útgáfutímabili 2 árið 2021 getur stjórnandinn kveikt á eiginleikanum *Skrifa lengri vörutilvísanir* á síðunni [Eiginleikastjórnun](https://businesscentral.dynamics.com/?page=2610) (tengill krefst þess að þú sér með [!INCLUDE [prod_short](includes/prod_short.md)] leigjanda). Hvernig tilvísanir eru notaðar breytist ekki en heiti hluta eins og síður og hnappar gera það. Til dæmis verður síðan **Millitilvísanafærslur vöru** að síðunni **Vörutilvísanafærslur**.
-
-## Að byrja að nota vörutilvísanir
-
-1. Veldu :::image type="icon" source="media/ui-search/search_small.png" border="false"::: táknið farðu í **Uppsetning birgða** og veldu síðan viðkomandi tengil.
-2. Veldu reitinn **Nota vörutilvísanir**.
-
 ## Að setja upp vörutilvísun
 
 1. Veldu :::image type="icon" source="media/ui-search/search_small.png" border="false"::: táknið, farðu í **Vörur** og veldu síðan viðkomandi tengil.
@@ -45,13 +35,13 @@ Eftirfarandi ferli lýsir því hvernig á að tilgreina vörutilvísun í innka
 
 Skrifað er yfir reitinn **Lýsing** í línunni með vörulýsingu lánardrottins eins og er uppsett í færslu fyrir tilvísun vörunnar. Ef vörutilvísunin inniheldur afbrigðiskóða eða mælieiningu eru gildin einnig afrituð í skjalið.  
 
-## Skanna strikamerkjum við Business Seðlaforrit seðlabanka
+## Skanna strikamerki með Business Central farsímaforritinu
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
-Í eftirfarandi töflu er listi yfir síðurnar sem styðja strikamerkóskönnun á vörutilvísunum úr  [!INCLUDE [prod_short](includes/prod_short.md)]  forritinu Mobile.
+Í eftirfarandi töflu er listi yfir síður sem styðja skönnun á vörutilvísunum úr farsímaforritinu [!INCLUDE [prod_short](includes/prod_short.md)] .
 
-|Síða  |Gildi svæðis sem hægt er að skanna  |
+|Síða  |Gildi reits er hægt að skanna  |
 |---------|---------|
 |Vörutilvísun     | Tilvísunarnr.        |
 |Birgðabókarlína     | Vörutilvísunarnr.        |

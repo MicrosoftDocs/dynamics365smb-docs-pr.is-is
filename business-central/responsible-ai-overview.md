@@ -1,7 +1,7 @@
 ---
-title: Ábyrgðarmaður AI Algengar spurningar um Dynamics 365 Business Central
-description: 'Ábyrgðarmenn með notkun algengastir eru upplýsingar um AI tæknina sem notuð er í Seðlamiðinu, ásamt lykilatriðum og upplýsingum um hvernig AI er notaður, hvernig hann var prófaður og metinn, og hvers kyns sértækar takmarkanir.'
-ms.date: 08/08/2023
+title: Algengar algengar spurningar fyrir Dynamics 365 Business Central
+description: 'Ábyrgar algengar spurningar veita upplýsingar um AI-tæknina sem notuð er í Business Central ásamt lykilatriðum og upplýsingum um hvernig AI er notað, hvernig það var prófað og metið og allar sérstakar takmarkanir.'
+ms.date: 10/29/2023
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -10,10 +10,11 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# Ábyrgðarmaður AI Algengar spurningar fyrir Dynamics 365 Business Central
+# Ábyrgar algengar spurningar fyrir Dynamics 365 Business Central
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
-- [Tillögur um markaðssetningu vöru](faqs-marketing-text.md)
+- [Aðstoð við bankaafstemmingu (forskoðun)](faqs-bank-reconciliation.md)
+- [Tillögur um markaðssetningu texta](faqs-marketing-text.md)
