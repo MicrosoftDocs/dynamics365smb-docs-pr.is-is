@@ -116,13 +116,6 @@
 ### [Úrræðaleita innskráningu í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)
 ### [Framlenging á prufuútgáfu](admin-extend-trial.md)
 ### [Segja upp áskrift að eða fjarlægja Business Central](admin-cancel.md)
-### Markaðstexti gervigreindar með Copilot
-#### [Yfirlit](ai-overview.md)
-#### [Sækja forútgáfu](ai-preview-getstarted.md)
-#### [Grunnstilla hluta markaðstexta með gervigreind](enable-ai.md)
-#### [Búa til hluta markaðstexta með gervigreind](item-marketing-text.md)
-#### [ALGENGAR SPURNINGAR](ai-faq.md)
-
 ## Kaupa
 ### [Hafist handa með áskrift](trial-signup.md#get-started-with-a-subscription)
 ### [Undirbúðu þig undir viðskiptin](ui-get-ready-business.md)
@@ -379,6 +372,7 @@
 ### Afstemma bankareikninga
 #### [Yfirlit bankaafstemmingar](bank-manage-bank-accounts.md)
 #### [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md)
+#### [Afstemma bankareikninga með Copilot (forútgáfa)](bank-reconciliation-with-copilot.md)
 #### [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Stjórna millifyrirtækjafærslum
@@ -1577,7 +1571,6 @@
 #### [Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Flokka vörur](inventory-how-categorize-items.md)
 #### [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)
-#### [Grunnstilla hluta markaðstexta gervigreindar með Copilot](enable-ai.md)
 ### Setja upp verkefnastjórnun
 #### [Setja upp verk](projects-setup-projects.md)
 #### [Setja upp forða](projects-how-setup-resources.md)
@@ -1841,6 +1834,17 @@
 #### [Leiðarvísir um skýrsluþróun](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Leiðarvísir um fínstillingu skýrsluafkasta](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot- og gervigreindarmöguleikar
+## Stjórna Copilot- og gervigreindarmöguleikum
+### [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)
+### [Copilot-gagnaflutningur á milli landsvæða](ai-copilot-data-movement.md)
+## Afstemmingaraðstoð fyrir bankareikning (forútgáfa)
+### [Afstemma bankareikninga með Copilot](bank-reconciliation-with-copilot.md)
+### [Algengar spurningar um aðstoð vegna bankaafstemmingar](faqs-bank-reconciliation.md)
+## Tillögur að markaðstexta
+### [Yfirlit yfir tillögur að markaðstexta](ai-overview.md)
+### [Búa til markaðstexta með Copilot](item-marketing-text.md)
+### [Algengar spurningar um tillögur að markaðstexta](faqs-marketing-text.md)
 
 # Öryggi, persónuvernd og reglufylgni
 ## Öryggi og vörn
@@ -1891,9 +1895,10 @@
 ### [Framlenging á prufuútgáfu](admin-extend-trial.md)
 ### [Skoða síður](across-inspect-page.md)
 ### [Skoða töfluupplýsingar](admin-view-table-information.md)
-### [Virkja væntanlega eiginleika fyrirfram](admin-feature-management.md)
+### [Virkja væntanlega eiginleika fyrr](admin-feature-management.md)
 ### [Innleiða notendur með gátlistum](admin-checklist.md)
 ### [Sandkassaumhverfi](admin-sandbox-environments.md)
+## [Copilot- og gervigreindarmöguleikar](enable-ai.md)
 ## Sérstilla Business Central
 ### [Yfirlit sérstillinga](ui-customizing-overview.md)
 ### [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)
@@ -1925,20 +1930,20 @@
 #### [Setja upp umsjón VSK-hópa](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA - Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-#### [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)
-## Samþætting við Dynamics 365 Sales
-### [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+#### [Microsoft Business Central-viðbætur frá öðrum veitum](ui-extensions-other.md)
+## Samþætta við önnur Dynamics 365-forrit
+### [Samþætta við Dynamics 365 Sales með samstillingu gagna](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Samþætta við Microsoft Dataverse
-### [Samþætta við Microsoft Dataverse](admin-common-data-service.md)
-### [Gagnaeignarhaldslíkön](admin-cds-company-concept.md)
-### [Setja upp notandareikninga fyrir Microsoft Dataverse samþættingu](admin-setting-up-integration-with-dynamics-sales.md)
-### [Tengjast við Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Samþætta við Dataverse með samstillingu gagna](admin-common-data-service.md)
+### [Líkön eignarhalds gagna fyrir samstillingu](admin-cds-company-concept.md)
+### [Setja upp notandareikninga fyrir samþættingu Dataverse með samstillingu gagna](admin-setting-up-integration-with-dynamics-sales.md)
+### [Tengjast Dataverse fyrir samstillingu gagna](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Sérstilla Business Central og Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Vörpun á töflum og reitum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)
 ### [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Úrræðaleit vegna samstillingarvillna](admin-troubleshoot-sales-synchronization.md)
-### [Nota Power Automate flæði fyrir tilkynningar um breytingar á Dataverse einingum](admin-power-automate-flow-dataverse.md)
+### [Nota Power Automate-flæði til að samstilla breytingar á Dataverse-einingum tímanlega](admin-power-automate-flow-dataverse.md)
 ## Samstilla aðalgögn á milli fyrirtækja
 ### [Undirbúningur fyrir samstillingu aðalgagna](admin-set-up-data-sync.md)
 ### [Stjórna samstillingu aðalgagna](admin-sync-master-data.md)
@@ -2019,3 +2024,7 @@
 ## [Öryggi og vörn](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Afköst](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Eiginleikar sem hafa verið fjarlægðir eða eru úreltir](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Ábyrg gervigreind
+## [Yfirlit](responsible-ai-overview.md)
+## [Algengar spurningar um aðstoð vegna bankaafstemmingar (forútgáfa)](faqs-bank-reconciliation.md)
+## [Algengar spurningar um tillögur að markaðstexta](faqs-marketing-text.md)

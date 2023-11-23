@@ -16,7 +16,7 @@ sections:
       - question: |
           Er Business Central í boði í mínu landi/svæði?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] er í boði á takmörkuðum fjölda markaða en nýjum löndum/svæðum er bætt við í gegnum Microsoft-LED staðfæringar eða með samstarfsáætlun um staðlastofnun á ársfjórðungslegum grunni. Frekari upplýsingar eru í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (aðeins í boði á ensku).  
+          [!INCLUDE[prod_short](includes/prod_short.md)] er fáanlegt á takmörkuðum fjölda mörkuðum, en nýjum löndum/svæðum bætast við með staðfæringu undir forystu Microsoft eða með staðfærslu undir forystu samstarfsaðila ársfjórðungslega. Frekari upplýsingar eru í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (aðeins í boði á ensku).  
       - question: |
           Hvernig fæ ég Business Central?
         answer: |
@@ -28,9 +28,9 @@ sections:
       - question: |
           Hvert leita ég ef ég er með spurningar?
         answer: |
-          Ef spurningar vakna um [!INCLUDE[prod_short](includes/prod_short.md)] sem ekki er hægt að finna svar við í þessu skjali er hægt að spyrja Business Central-samfélagið. Frekari upplýsingar á  [Dynamics 365 Business Central  samfélagsmiðlum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
+          Ef spurningar vakna um [!INCLUDE[prod_short](includes/prod_short.md)] sem ekki er hægt að finna svar við í þessu skjali er hægt að spyrja Business Central-samfélagið. Lærðu meira á [Dynamics 365 Business Central samfélagsvettvangi](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
 
-          Frá heimasíðu samfélagsins er einnig hægt að finna tengla á bloggin okkar þar er einnig hægt að finna ábendingar og ráð. Frekari upplýsingar hjá  [Microsoft  Dynamics 365 Business Central  á Dynamics 365 blogginu](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  og eldri  [Dynamics 365 Business Central  bloggin](https://community.dynamics.com/blogs/?blogid=57bdb1f3-851d-4406-a81a-508fef896fc2&groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
+          Frá heimasíðu samfélagsins er einnig hægt að finna tengla á bloggin okkar þar er einnig hægt að finna ábendingar og ráð. Lærðu meira á [Microsoft Dynamics 365 Business Central á Dynamics 365 blogginu](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og eldra [Dynamics 365 Business Central blogginu](https://community.dynamics.com/blogs/?blogid=57bdb1f3-851d-4406-a81a-508fef896fc2&groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
 
           Að lokum geturðu haft samband við [!INCLUDE[prod_short](includes/prod_short.md)] endursöluaðilann þinn. Frekari upplýsingar eru í [Hvernig fæ ég tæknilega aðstoð?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) hlutanum og [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -57,15 +57,15 @@ sections:
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] er selt í gegnum samstarfsaðila og þú ættir að hafa samband við endursöluaðila til að fá aðstoð vegna tæknilegra vandamála. Ef [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðilinn þinn getur þá ekki leyst úr vandanum sendar hann inn þjónustubeiðni til Microsoft.  
 
-          Læra meira at  [hjálpa og styðja](product-help-and-support.md)  og í því  [Hvernig finn ég endursala félaga?](#how-do-i-find-a-reselling-partner) kafla.  
+          Lærðu meira á [Hjálp og stuðningur](product-help-and-support.md) og í [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner) hlutann.  
       - question: |
           Hvar er hnappurinn til að vista?
         answer: |
-          Það er enginn  *Vista*  hnapp á síðum eins og í öðrum forritum sem þú gætir kannast við. Í [!INCLUDE[prod_short](includes/prod_short.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést textinn **Vistar** efst í hægra horninu. Hann breytist í **Vistað** fljótlega ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.  
+          Það er enginn *vista* hnappur á síðum eins og í öðrum forritum sem þú gætir kannast við. Í [!INCLUDE[prod_short](includes/prod_short.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést textinn **Vistar** efst í hægra horninu. Hann breytist í **Vistað** fljótlega ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.  
       - question: |
           Hvar finn ég þetta línunúmer?
         answer: |
-          Skjöl á borð við sölupöntun eða innkaupareikninga samanstanda af hausum og línum. Hver lína er með tölu sem [!INCLUDE [prod_short](includes/prod_short.md)] notar til að auðkenna þessa tilteknu línu. Þar af leiðandi gæti þú séð viðvörun eða villuboð um að eitthvað sé athugavert við línunúmer 1000 sem dæmi. Í sjálfgefinni útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] eru línunúmer falin. Ef ætlunin er að nota línunúmerin, þarf að sérstilla núverandi síðu og bæta við **Línunr.** . Frekari upplýsingar er að sérsníða á  [vinnusvæðinu](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
+          Skjöl á borð við sölupöntun eða innkaupareikninga samanstanda af hausum og línum. Hver lína er með tölu sem [!INCLUDE [prod_short](includes/prod_short.md)] notar til að auðkenna þessa tilteknu línu. Þar af leiðandi gæti þú séð viðvörun eða villuboð um að eitthvað sé athugavert við línunúmer 1000 sem dæmi. Í sjálfgefinni útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] eru línunúmer falin. Ef ætlunin er að nota línunúmerin, þarf að sérstilla núverandi síðu og bæta við **Línunr.** . Lærðu meira á [Sérsníddu vinnusvæðið þitt](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Af hverju lýsir hjálpin virkni sem ég hef ekki aðgang að?
         answer: |
@@ -88,9 +88,9 @@ sections:
         answer: |
           Nr. Ef notandi vill upplifa [!INCLUDE[prod_short](includes/prod_short.md)] að fullu samþætt við Microsoft 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Microsoft 365 [hér](https://products.office.com/try).  
 
-          Ef þú skráir þig með því Microsoft 365  að vera ekki  joe@mysolution.com með vinnureikning (t.d. Microsoft 365) og þú ert *með áskrift þá getur þú tengt lénið þitt (* mysolution.com  Microsoft 365) við áskriftina. Frekari upplýsingar eru í [Hvað er lén?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) í Microsoft 365 efnisflokknum.  
+          Ef þú skráir þig með öðrum en Microsoft 365 vinnureikningi (eins og joe@mysolution.com), og þú ert með Microsoft 365 áskrift, þá geturðu tengt lénið þitt (*mysolution.com*) með Microsoft 365 áskriftinni. Frekari upplýsingar eru í [Hvað er lén?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) í Microsoft 365 efnisflokknum.  
 
-          Ef þú ert ekki með  Microsoft 365  áskrift, og þú vilt ekki kaupa einn, þá ráðstöfum við nýjum  Microsoft Entra  leigjanda fyrir þig þegar þú skráir þig þannig að þú hafir aðgang að háþróaðri stjórnunarverkfærum í Azure gáttinni.  
+          Ef þú ert ekki með Microsoft 365 áskrift og vilt ekki kaupa þá, þá útvegum við nýjan Microsoft Entra leiganda fyrir þig þegar þú skráir þig svo þú hafir aðgang í háþróuð stjórnunarverkfæri í Azure gáttinni.  
       - question: |
           Hvað er samþættingin við Microsoft 365 um?
         answer: |
@@ -151,8 +151,8 @@ additionalContent: |
   [Grunnstillingum breytt](ui-change-basic-settings.md)  
   [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
   [Fá svör við spurningum](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
+  [Business Central þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)   
   [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
-  [Business Central námskrá](readiness/readiness-learning-catalog.md)  
   [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
   [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Þjónustuskilmálar](compliance/compliance-service-compliance.md#service-terms)  
