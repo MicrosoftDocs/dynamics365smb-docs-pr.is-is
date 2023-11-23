@@ -10,7 +10,7 @@ ms.date: 11/15/2023
 ms.custom: bap-template
 ---
 
-# Flutningur á gagnaflutningum milli landa 
+# <a name="copilot-data-movement-across-geographies"></a>Flutningur á gagnaflutningum milli landa
 
 Copilot er fáanlegt í öllum studdum [Business Central löndum/svæðum](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Hins vegar notar Copilot Microsoft Azure OpenAI þjónustu, sem er nú aðeins í boði fyrir Business Central á sumum landfræðilegum svæðum. Þetta þýðir að ef umhverfi þitt er staðsett annars staðar, verða gögn frá Copilot og generative AI eiginleikanum að vera send utan landfræðilegs svæðis þíns og gætu verið unnin og geymd utan samræmismarka þinna. Gögn innihalda gervigreindartilkynningar og viðskiptagögn þín sem eru notuð af eða mynda af Copilot. Í þessu tilviki verður þú að velja inn til að leyfa gagnaflutning til Azure OpenAI þjónustu í öðru landsvæði. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
@@ -22,7 +22,7 @@ Copilot er fáanlegt í öllum studdum [Business Central löndum/svæðum](/dyna
 > 
 > Copilot og generative AI eiginleikar frá útgefendum sem ekki eru Microsoft, eins og þeir sem koma frá sérstillingum eða AppSource öppum sem þú setur upp, skilgreina hver sín sérstöku Azure OpenAI þjónustusvæði. Ráðfærðu þig við útgefanda viðbótarinnar til að skilja hvaða svæðisbundna Azure þjónusta er notuð af viðbótinni. 
 
-### Azure OpenAI Þjónustusvæði
+### <a name="azure-openai-service-geographies"></a>Azure OpenAI Þjónustusvæði
 
 Eftirfarandi tafla sýnir landafræði Azure OpenAI þjónustunnar sem Copilot notar, byggt á Azure svæðinu í Business Central umhverfi. Þessar upplýsingar eru mikilvægar þegar tekin er ákvörðun um hvort velja eigi gagnaflutning milli landa. Þú getur auðkennt Azure svæðið fyrir umhverfið þitt í Business Central stjórnunarmiðstöðinni (sjá [Umhverfisstjórnun í stjórnunarmiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
@@ -106,6 +106,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 Þú velur að leyfa gagnaflutning milli landa frá [Copilot & AI Capabilities](https://businesscentral.dynamics.com/?page=7775) síða. Til að fá frekari upplýsingar skaltu fara á [Leyfa gagnaflutning á milli landa](enable-ai.md#allow-data-movement-across-geographies).

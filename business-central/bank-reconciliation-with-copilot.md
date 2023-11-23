@@ -10,13 +10,13 @@ ms.date: 10/25/2023
 ms.custom: bap-template
 ---
 
-# Samræma bankareikninga með Copilot (sýnishorn)
+# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Samræma bankareikninga með Copilot (sýnishorn)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 Þessi grein útskýrir hvernig á að nota afstemmingaraðstoð bankareikninga til að hjálpa þér að samræma bankafærslur við fjárhagsfærslur í Business Central.
 
-## Um aðstoð bankareikningsafstemmingar
+## <a name="about-bank-account-reconciliation-assist"></a>Um aðstoð bankareikningsafstemmingar
 
 Aðstoð við afstemmingu bankareikninga er safn af gervigreindaraðgerðum sem aðstoða þig við að samræma bankareikninga. Aðstoð við afstemmingu bankareikninga býður þér upp á tvö aðskilin verkefni í gegnum Copilot:
 
@@ -34,14 +34,14 @@ Aðstoð við afstemmingu bankareikninga er safn af gervigreindaraðgerðum sem 
 
 
    
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 - Afstemmingaraðstoð bankareikninga er virkjuð og virkjuð. Þetta verkefni er unnið af stjórnanda. [Lærðu meira um að virkja Copilot og gervigreindargetu](enable-ai.md).
 - Bankareikningar í Business Central sem þú vilt samræma eru tengdir netbankareikningi eða settir upp með innflutningssniði bankayfirlits. 
 - Þú þekkir afstemmingu bankareikninga í Business Central eins og lýst er í [Samræma bankareikninga](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## Samræma bankareikninga við Copilot
+## <a name="reconcile-bank-accounts-with-copilot"></a>Samræma bankareikninga við Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -85,7 +85,7 @@ Með þessari nálgun notar þú Copilot annað hvort á nýja bankareikningsafs
 1. Skoðaðu fyrirhugaðar samsvörun eins og lýst er í eftirfarandi kafla. 
 ---
 
-### Skoðaðu, vistaðu eða fargaðu fyrirhuguðum samsvörunum
+### <a name="review-save-or-discard-proposed-matches"></a>Skoðaðu, vistaðu eða fargaðu fyrirhuguðum samsvörunum
 
 Eftir að þú keyrir Copilot, **Sættast við Copilot**  gluggi sýnir nákvæmar niðurstöður, þar á meðal allar fyrirhugaðar samsvörun. Á þessum tímapunkti hefur engin samsvörun verið vistuð af Copilot, svo það gefur þér tækifæri til að skoða tillögurnar og vista eða henda eins og þú vilt.
 
@@ -100,7 +100,7 @@ Copilot glugginn er skipt í tvo hluta. Efri hlutinn veitir nokkrar almennar upp
 |Lokastaða yfirlits|Tilgreinir lokastöðuna sem sýnd er á yfirliti bankans sem þú ert að samræma við|
 |Bóka ef jafnað að fullu|Kveiktu á þessum rofa ef þú vilt bóka afstemmingu bankareiknings sjálfkrafa þegar allar línur (100%) passa saman og þú hefur valið **Eigðu það**.|
 
-#### Vistaðu eða fargaðu fyrirhuguðum samsvörun
+#### <a name="save-or-discard-proposed-matches"></a>Vistaðu eða fargaðu fyrirhuguðum samsvörun
 
 Í kaflanum **Samsvarandi tillögur**  skaltu fara yfir tillögurnar línu fyrir línu og grípa síðan til viðeigandi aðgerða:
 
@@ -117,7 +117,7 @@ Copilot glugginn er skipt í tvo hluta. Efri hlutinn veitir nokkrar almennar upp
 - Til að vista samsvörun sem sýndar eru í Copilot glugganum skaltu velja **Halda því**.
 
 
-## Flytja ósamræmdar bankafærslur á ráðlagða fjárhagsreikninga
+## <a name="transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts"></a>Flytja ósamræmdar bankafærslur á ráðlagða fjárhagsreikninga
 
 Í þessum hluta lærir þú hvernig á að nota Copilot til að flytja ósamræmdar bankareikningsyfirlit úr bankareikningi yfir á aðalbók. Þetta verkefni er aðeins hægt að gera út frá fyrirliggjandi afstemmingu. 
 
@@ -154,11 +154,11 @@ Copilot glugginn er skipt í tvo hluta. Efri hlutinn veitir nokkrar almennar upp
 
       Þetta skref staðfestir flutning á tillögum sem nú eru valdar úr bankareikningi yfir á aðalbók. Það bóka nýjar greiðslur á fyrirhugaða fjárhagsreikninga og beitir samsvarandi línum á fjárhagsfærslur bankareiknings sem myndast.
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 [Staðfestu afstemmingu bankareiknings þíns](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 [Úrræðaleit af Copilot og AI getu](ai-copilot-troubleshooting.md)  
 [Algengar spurningar um ábyrg gervigreind fyrir aðstoð við bankaafstemmingu](faqs-bank-reconciliation.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
