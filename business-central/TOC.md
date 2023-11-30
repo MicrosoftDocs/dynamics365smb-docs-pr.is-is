@@ -7,7 +7,6 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Upplýsingar
 ### [Tilföng fyrir notendur](resources-for-users.md)
-### [Business Central námskrá](readiness/readiness-learning-catalog.md)
 ### [Þjálfun Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Kynningar á viðskiptaferli
 #### [Kynningar í boði](walkthrough-business-process-walkthroughs.md)
@@ -209,19 +208,6 @@
 ### [Skoðaðu myndbandasafnið okkar](across-videos.md)
 ### [Fá tæknilega aðstoð](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Viðskiptavirkni
 ## [Yfirlit yfir viðskiptavirkni](across-business-functionality.md)
 <!--general-->
@@ -244,6 +230,7 @@
 ### [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)
 ### [Láta Business Central leggja til gildi](ui-let-system-suggest-values.md)
 ### [Nota kortaþjónustu til að finna staðsetningar og leiðsagnir](across-online-maps.md)
+### [Setja upp stafræn fylgiskjöl](across-how-setup-digital-vouchers.md)
 
 ### Skjöl á innleið
 #### [Yfirlit skjala á innleið](across-income-documents.md)
@@ -880,12 +867,14 @@
 ##### [Aukin notandastýring](LocalFunctionality/Czech/general.md)
 ##### [Bestu venjur](LocalFunctionality/Czech/best-practices.md)
 
-### Danmörku
+### Danmörk
 #### [Staðbundin virkni í danskri útgáfu](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Tilkynning og skráning fyrir NemHandelsregisteret í Danmörku](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### VSK
 ##### [Prenta VSK-afstemmingarskýrslur](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VSK-VIES skýrslur](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Setja upp VSK-númer fyrir Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Skila VSK-skýrslum rafrænt](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Bankaþjónusta og greiðslur
 ##### [FIK-upplýsingar í greiðsluafstemmingarbók](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Greiðslur og afstemmingar (DK) viðbótin](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -895,10 +884,12 @@
 ##### [Setja upp rafrænan OIOUBL-reikning](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [OIOUBL-viðbótin fyrir rafrænan reikning](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
 ##### [Búa til rafræn skjöl á OIOUBL-sniði](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
-#### Laun
+#### Launaskrá
 ##### [Skilgreiningar á launagögnum (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Stafræn fylgiskjöl
+##### [Settu upp stafræna fylgiskjöl í Danmörku](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
-### Finnlandi
+### Finnland
 #### [Staðbundin virkni í finnskri útgáfu](LocalFunctionality/Finland/finland-local-functionality.md)
 #### VSK
 ##### [Prenta finnskar Intrastat-skýrslur](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
@@ -1838,6 +1829,7 @@
 ## Stjórna Copilot- og gervigreindarmöguleikum
 ### [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)
 ### [Copilot-gagnaflutningur á milli landsvæða](ai-copilot-data-movement.md)
+### [Villuleita Copilot- og gervigreindarmöguleika](ai-copilot-troubleshooting.md)
 ## Afstemmingaraðstoð fyrir bankareikning (forútgáfa)
 ### [Afstemma bankareikninga með Copilot](bank-reconciliation-with-copilot.md)
 ### [Algengar spurningar um aðstoð vegna bankaafstemmingar](faqs-bank-reconciliation.md)
