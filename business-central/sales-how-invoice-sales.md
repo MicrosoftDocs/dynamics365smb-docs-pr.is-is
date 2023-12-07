@@ -8,41 +8,41 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 09/11/2023
+ms.date: 11/01/2023
 ms.author: bholtorf
 ---
-# <a name="invoice-sales"></a>Sala skv. reikningum
+# Sala skv. reikningum
 
 Yfirleitt er hægt að stofna annaðhvort sölupöntun eða sölureikning til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.  
 
 Hins vegar verður þú að nota sölupöntun í stað sölureiknings ef þú:  
 
-* Ef þarf að senda aðeins hluti af pöntunarmagni á, til dæmis vegna þess að allt magnið er ekki tiltækt.  
+* Þarftu að senda aðeins hluta af pöntunarmagni, til dæmis vegna þess að allt magnið er ekki fyrir hendi.  
 * Senda vörur eftir bókun samsvarandi sölureikninga.
 * Selur vörur sem lánardrottinn sendir beint til viðskiptamanns, þekkt sem bein afhending. Frekari upplýsingar eru í [Beinar sendingar](sales-how-drop-shipment.md).  
 
 Frá öllum öðrum sjónarhornum séð virka sölupantanir á sama hátt og sölureikningar. Kynntu þér nánar hvernig þú notar sölupantanir í [Selja vörur](sales-how-sell-products.md).
 
-Hægt er að semja við viðskiptamanninn með því að gera fyrst sölutilboð, sem hægt er að breyta í sölureikning þegar samkomulag hefur náðst um söluna. Frekari upplýsingar er að gera í  [sölutilboðum](sales-how-make-offers.md).
+Hægt er að semja við viðskiptamanninn með því að gera fyrst sölutilboð, sem hægt er að breyta í sölureikning þegar samkomulag hefur náðst um söluna. Lærðu meira á [Gera sölutilboð](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Stofna sölureikninga
+## Stofna sölureikninga
 
-Ef viðskiptamaðurinn ákveður að kaupa, bókar þú sölureikninginn til að stofna tengdar magn og virðisfærslur. Við bókun sölureiknings er einnig hægt að senda það í tölvupósti sem PDF-viðhengi. Hægt er að fylla út meginmál tölvupóstsins fyrirfram með samantekt af reikningum og greiðsluupplýsingum, eins og að bjóða upp á tengli á PayPal. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md). Þegar viðskiptavinurinn greiðir reikninginn er hægt að skrá þá greiðslu með mismunandi hætti, allt eftir stærð og kjörum verkflæða fyrirtækisins. Frekari upplýsingar er að fá í  [hlutanum skráning greiðslna](#register-payments) .  
+Ef viðskiptamaðurinn ákveður að kaupa, bókar þú sölureikninginn til að stofna tengdar magn og virðisfærslur. Við bókun sölureiknings er einnig hægt að senda það í tölvupósti sem PDF-viðhengi. Hægt er að fylla út meginmál tölvupóstsins fyrirfram með samantekt af reikningum og greiðsluupplýsingum, eins og að bjóða upp á tengli á PayPal. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md). Þegar viðskiptavinurinn greiðir reikninginn geturðu skráð þá greiðslu á mismunandi hátt, allt eftir stærð og ákjósanlegum verkflæði fyrirtækis þíns. Frekari upplýsingar eru í kaflanum [Skrá greiðslur](#register-payments) .  
 
 Birgðaspjöld geta verið af gerðinni **Birgðir**, **Þjónusta** og **Ekki birgðir** til að tilgreina hvort vara sé efnisleg birgðaeining, vinnutímaeining eða efnisleg eining sem ekki er geymd í birgðum. Frekari upplýsingar eru á [Skrá nýjar vörur](inventory-how-register-new-items.md). Sölureikningsferlið er það sama fyrir allar þrjár vörutegundirnar.
 
 Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur leiðum, eftir því hvort viðskiptamaðurinn hefur þegar verið skráður. Sjá skref 2 í eftirfarandi ferli.
 
-### <a name="to-create-a-sales-invoice"></a>Sölureikningar búnir til:
+### Sölureikningar búnir til:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
 2. Í reitnum **Nafn viðskiptamanns** er fært inn nafn núverandi viðskiptamanns. Ef viðskiptamaðurinn er hins vegar nýr og því ekki skráður skaltu fylgja þessum skrefum til að fylla út staðlaðar upplýsingar um viðskiptamanninn á síðunni **Sölureikningur**:
 
     1. Í reitnum **Nafn viðskiptamanns** er fært inn nafn nýs viðskiptamanns.
-    2. Í svarglugganum um skráningu á nýja viðskiptavininn er valið  **í lagi**.
+    2. Í svarglugganum um að skrá nýja viðskiptavininn velurðu **Í lagi**.
     3. Á síðunni **Velja sniðmát fyrir nýjan viðskiptamann**, skal velja sniðmát til að byggja nýja viðskiptamannaspjaldið á og velja **Í lagi**.
     4. Nýtt viðskiptamannaspjald sýnir upplýsingarnar á valda viðskiptamannasniðmátinu. Eftirstandandi reitir eru fylltir út. Frekari upplýsingar eru á [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).  
-    5. Þegar lokið hefur verið við viðskiptamannaspjaldið skal velja **Loka** til að fara aftur á síðuna **Sölureikningur**.
+    5. Þegar þú hefur lokið við viðskiptamannakortið skaltu velja **Loka** til að fara aftur á  **Sölureikning** síðuna.
 
    Margir reitir í sölureikningahaus eru ný fullir af upplýsingar sem tilgreindar voru á nýja viðskiptamannaspjaldi.  
 3. Fylltu í eftirstandandi reikningana á síðunni **sölureikningur** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -50,9 +50,9 @@ Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur l
     > [!NOTE]  
     > Ef þú leyfir viðskiptavininum að greiða strax, til dæmis með reiðufé eða með PayPal, þá skaltu fylla út reitinn **Kóði greiðslumáta**. Greiðslan er síðan skráð um leið og þú bókar sölureikninginn. Ef þú velur *Reiðufé*, þá er greiðslan skráð á tilteknum mótreikningi.
 
-    Nú er hægt að fylla út í flýtiflipann **Línur** með vörum sem seldar eru viðskiptamanni eða fyrir einhverja færslu fyrir þann viðskiptamann sem á að skrá í fjárhagsreikninginn.
+    Þú ert nú tilbúinn til að fylla út **Línur** Flýtiflipann með vörum sem þú ert að selja viðskiptavinum eða fyrir hvaða færslu við viðskiptavininn sem þú vilt skrá í aðalbók ( G/L) reikning.
 
-4. Í flýtiflipanum **Línur**, í reitnum **Tegund**, skal velja tegund vöru, gjalds eða færslu sem á að bóka fyrir viðskiptamanninn eða sölulínuna.
+4. Á  **Línur** Flýtiflipanum, í reitnum **Type**, velurðu tegund vöru, gjalds eða færslu sem þú sendir inn fyrir viðskiptavininn á sölulínunni.
    > [!TIP]
    > Ef endurteknar sölulínur hafa verið settar upp fyrir viðskiptamanninn, svo sem mánaðarlegar áfyllingarpantanir, er hægt að koma því á framfæri í pöntuninni með því að velja aðgerðina **Sækja endurteknar sölulínur**.
 5. Í reitnum **númer** Reitnum er valin færsla til að bóka samkvæmt gildinu í reitnum **Tegund** reit.
@@ -72,17 +72,17 @@ Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur l
     Verð- og línuupphæðirnar eru sýndar með eða án VSK, en það fer eftir því hvað var valið í reitnum **verð með skatti** á viðskiptamannaspjaldinu.  
 7. Í reitnum **Línuafsláttur %**, færið inn prósentutölu ef veita á afslátt af vörunni. Gildið í reitnum **Línuupphæð** er uppfært til samræmis.  
 
-    Ef sérstakt vöruverð hefur verið sett upp á flýtiflipanum **Afslættir söluverðs og sölulínu** á viðskiptamanns- eða vöruspjaldinu, uppfærist verðið og upphæðin á tilboðslínunni sjálfvirkt ef umsamin verðviðmið hafa náðst. Frekari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).  
+    Ef sérstakt vöruverð er sett upp á **Söluverð og sölulínuafslættir** Flýtiflipanum á viðskiptavina- eða vöruspjaldinu og þegar verðskilyrðin eru uppfyllt, verð og upphæð á sölulína er sjálfkrafa uppfærð. Frekari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).  
 8. Endurtakið skref 4 til 7 fyrir hverja vöru eða gjald sem á reikningsfæra viðskiptavininn fyrir.
 
-    Samtölureitirnir undir línunum uppfærast sjálfkrafa eftir því sem þú stofnar eða breytir línum til að sýna upphæðir sem verða bókaðar í fjárhagnum.
+    Heildarreitirnir undir línunum eru sjálfkrafa uppfærðir, þegar þú býrð til eða breytir línum, til að birta upphæðirnar sem eru bókaðar í fjárhagsbókina.
 
     > [!NOTE]
-    > Í örfáum tilfellum kunna bókaðar upphæðir að sýna aðra upphæðir en þær sem sýndar eru í samtölureitunum. Venjulega gerist það vegna sléttunarútreiknings í tengslum við virðisaukaskatt.<br /><br />Notaðu  **upplýsingakassa fyrir viðskiptavinartalnagögn**  til að sannreyna upphæðirnar sem þú bókar. Einnig þegar úttektaraðgerðin  **er valin**  verða gildin í reitunum samtölur uppfærð til að taka sléttunarútreikninga með.
+    > Í örfáum tilfellum kunna bókaðar upphæðir að sýna aðra upphæðir en þær sem sýndar eru í samtölureitunum. Venjulega gerist það vegna sléttunarútreiknings í tengslum við virðisaukaskatt.<br /><br />Til að staðfesta upphæðirnar sem þú sendir inn skaltu nota **Tölfræði viðskiptavina** FactBox. Einnig, þegar þú velur aðgerðina **Sleppa**, munu gildin í heildarreitnum uppfærast til að innihalda námundunarútreikninga.
 
 9. Í reitinn **Afsláttarupphæð án skatts** skal færa inn upphæð sem draga á frá gildinu sem sýnt er í reitnum **Heildarupphæð með skatti**.
 
-    Ef reikningsafslættir hafa verið settir upp fyrir viðskiptamanninn, er tilgreint prósentugildi sjálfvirkt fært inn í reitinn **reikningsafsláttur %** ef afsláttarviðmiðum hefur verið mætt og upphæðin færð inn í reitinn **afsláttarupphæð án skatts**. Frekari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
+    Ef þú setur upp reikningsafslátt fyrir viðskiptavininn, þá er tilgreint prósentugildi sjálfkrafa sett inn í reitinn **Reikningarafsláttur %**  ef afsláttarskilyrðin eru uppfyllt og viðkomandi upphæð er sett inn í **Inv. Afsláttarupphæð Excl. Skatt** reitur. Frekari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
 
 10. Þegar sölureikningslínunum er lokið, skal velja **bóka og senda** aðgerðina.  
 
@@ -90,38 +90,38 @@ Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur l
 
 Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og á sölureikningnum er frálag sem PDF fylgiskjal. Sölureikningurinn er fjarlægður af lista sölureikninga og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölureikninga.  
 
-### <a name="calculate-invoice-discounts-on-sales"></a>Reikna reikningsafslátt á sölu
+### Reiknaðu reikningsafslátt af sölu
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Bókaðir reikningar
+## Bókaðir reikningar
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
-Auðvelt er að leiðrétta eða afturkalla bókaðann sölureikning áður en hann er greiddur. Þetta er gagnlegt þegar leiðrétta á mistök eða þegar viðskiptamaðurinn biður um breytingu snemma í pöntunarferlinu. Frekari upplýsingar eru í [Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md). Ef bókaður sölureikningur er greiddur, verður að búa til sölukreditreikning til að afturkalla söluna. Frekari upplýsingar eru í [Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md).  
+Þú getur auðveldlega leiðrétt eða afturkallað bókaðan sölureikning fyrir lokagreiðslu. Þetta er gagnlegt þegar leiðrétta á mistök eða þegar viðskiptamaðurinn biður um breytingu snemma í pöntunarferlinu. Frekari upplýsingar eru í [Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md). Ef bókaður sölureikningur er greiddur, verður að búa til sölukreditreikning til að afturkalla söluna. Frekari upplýsingar eru í [Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md).  
 
 [Onpaðu **Bókaðir sölureikningar** listann ](https://businesscentral.dynamics.com/?page=143) í [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="register-payments"></a>Skrá greiðslur
+## Skrá greiðslur
 
 Það fer eftir þörfum fyrirtækis þíns, þú getur fengið greitt og skráð þessi greiðslu á mismunandi vegu: handvirkt, sjálfkrafa og með greiðsluþjónustu.  
 
 Hægt er að vinna greiðslur beint frá viðskiptamannaspjaldinu. Nota aðgerðina **Skrá viðskiptamannagreiðslur** til að fá yfirlit yfir ógreidda reikninga fyrir þann viðskiptamann. Merkið síðan reikninginn sem greitt að hluta eða að fullu. Þessi greiðsluafstemming vinnur greiðslur viðskiptamanna þinna með samsvarandi upphæðum sem berast á bankareikningnum þínum með tengdum ógreiddum sölureikningum og sendir síðan greiðslurnar. Frekari upplýsingar er að finna í hlutanum [Afstemma greiðslur handvirkt](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-Í viðskiptaumhverfi þar sem viðskiptavinurinn greiðir nokkurn tíma eftir afhendingu, samkvæmt greiðsluskilmálum, er bókaður sölureikningur áfram opinn (ógreiddur) þar til innheimtudeildin staðfestir að greiðsla sé móttekin og jafnar hana við bókaðan sölureikning. Þetta er hægt að gera handvirkt eða sjálfkrafa. Frekari upplýsingar eru í [Afstemma greiðslur viðskiptamanna við inngreiðslubók eða úr færslum viðskiptamannabókar](receivables-how-apply-sales-transactions-manually.md) og [Afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md).  
+Í viðskiptaumhverfi þar sem viðskiptavinurinn greiðir einhvern tíma eftir afhendingu. Samkvæmt greiðsluskilmálum stendur bókaður sölureikningur opinn (ógreiddur) þar til viðskiptakröfudeildin staðfestir greiðsluna og notar hana á bókaðan sölureikning. Þetta er hægt að gera handvirkt eða sjálfkrafa. Frekari upplýsingar eru í [Afstemma greiðslur viðskiptamanna við inngreiðslubók eða úr færslum viðskiptamannabókar](receivables-how-apply-sales-transactions-manually.md) og [Afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md).  
 
-Í viðskiptaumhverfi þar sem viðskiptavinurinn greiðir strax, til dæmis með PayPal eða reiðufé, er greiðsla skráð strax þegar þú bókar sölureikninginn, þ.e.a.s. bókaða sölureikningnum er lokað sem að fullu jöfnuðum. Í reitnum **Kóði greiðslumáta** í sölupöntuninni þarf að velja viðeigandi. Fyrir rafrænar greiðslur á borð við PayPal þarf einnig að fylla inn í reitinn **Greiðsluþjónusta**. Frekari upplýsingar eru í [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
+Í viðskiptaumhverfi þar sem viðskiptavinurinn greiðir strax, eins og með PayPal eða reiðufé, er greiðsla skráð strax þegar þú bókar sölureikninginn, sem þýðir að bókaður sölureikningur er lokaður þar sem hann er að fullu notaður. Í reitnum **Kóði greiðslumáta** í sölupöntuninni þarf að velja viðeigandi. Fyrir rafrænar greiðslur á borð við PayPal þarf einnig að fylla inn í reitinn **Greiðsluþjónusta**. Frekari upplýsingar eru í [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
 
-Þú getur jafnvel búið til beingreidda reikninga fyrir óskráða viðskiptavini með því að setja upp „viðskiptamannaspjald fyrir reiðufé" fyrir þá sem þú bendir á í sölureikningnum. Frekari upplýsingar má finna í [Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md).  
+Jafnvel er hægt að búa til beint greidda reikninga fyrir óskráða viðskiptavini með því að setja upp „cash customer“ kort fyrir þá sem þú bendir á á sölureikningnum. Frekari upplýsingar má finna í [Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md).  
 
 > [!TIP]
-> Ef senda á viðskiptavini áminningar um gjaldfallnar greiðslur þarf fyrst að setja upp stig innheimtubréfa og skilmála. Frekari upplýsingar eru í [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md).  
+> Ef þú vilt senda viðskiptavinum þínum áminningar um gjaldfallnar greiðslur þarftu fyrst að setja upp áminningarstig og skilmála. Frekari upplýsingar eru í [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md).  
 
-## <a name="external-document-numbers"></a>Númer ytri skjala
+## Númer ytri skjala
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

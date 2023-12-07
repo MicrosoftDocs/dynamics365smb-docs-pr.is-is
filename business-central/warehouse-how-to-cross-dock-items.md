@@ -9,11 +9,11 @@ ms.date: 10/09/2023
 ms.custom: bap-template
 ms.search.form: '15, 5703, 7302, 7332, 5768'
 ---
-# <a name="cross-dock-items"></a>Hjáskipa vörur
+# Hjáskipa vörur
 
 Hjáskipunarvörur eru vörur sem tekið er á móti og sendar án þess að gengið sé frá þeim. Frágangs- og tínsluferli krefjast takmarkaðrar meðhöndlunar á vörum. Hægt er að hjáskipa vörum í afhendingum og framleiðslupöntunum.
 
-## <a name="cross-dock-bins-and-zones"></a>Hjáskipunarhólf og svæði
+## Hjáskipunarhólf og svæði
 
 Ef hólf eru notuð skal setja upp að minnsta kosti eitt hjáskipunarhólf og tilgreina síðan hólfið í reitnum **Kóti** hjáskipunarhólfs í birgðageymslunum. Ef notaður er beinn frágangur og tínsla skal setja upp hjáskipunarsvæði.
 
@@ -21,13 +21,13 @@ Ef hólf eru notuð skal setja upp að minnsta kosti eitt hjáskipunarhólf og t
 
 Hafi hjáskipunarmagn verið reiknað eru frágangslínur í hjáskipunarhólfið stofnaðar fyrir hjáskipunarútreikninga þegar móttakan er bókuð. Aðrar frágangslínur eru stofnaðar eins og venjulega.  
 
-## <a name="cross-dock-select-lines-for-a-receipt"></a>Hjáskipun velur línur fyrir kvittun
+## Hjáskipun velur línur fyrir kvittun
 
 Ef bóka skal hjáskipunarvörurnar strax þannig að þær séu tiltækar í tínslu þarf einnig að skrá frágang á hinum vörunum úr móttökulínunum, þ.e. þeim sem þarf að geyma. Ef aðeins sumum vörur á móttökulínu er hjáskipað þarf því að gæta að því að gengið sé frá öðrum vörum eins fljótt og hægt er. Einnig gæti það verið stefna vöruhússins að heilum móttökulínum sé hjáskipað þegar það er hægt.
 
 Í frágangsleiðbeiningunum skal eyða Taka- og Setja-leiðbeiningalínum fyrir hverja móttökulínu fyrir vörurnar sem ganga skal frá. Hægt er að endurstofna leiðbeiningalínurnar síðar sem frágangslínur af frágangsvinnublaðinu eða bókuðu móttökunni. Þegar leiðbeiningalínunum hefur verið eytt er hægt að ganga frá og skrá línurnar fyrir hjáskipunarvörur.  
 
-## <a name="about-the-put-away-worksheet-page"></a>Um síðuna Vinnublað frágangs
+## Um síðuna Vinnublað frágangs
 
 Ef kveikt er á víxlverksmiðjunni **Nota vinnublað** frágangs á **síðunni Birgðageymsluspjald** og móttakan bókuð með reiknuðum hjáskipunum verða allar móttökulínur tiltækar á vinnublaðinu. Upplýsingar um hjáskipun glatast og ekki er hægt að endurskipa þær. Ef nota á hjáskipunaraðgerðir ætti því að senda línur á frágangsvinnublaðið með því að eyða frágangsleiðbeiningum í stað þess að nota sjálfvirku aðgerðina sem fylgir í reitnum **Nota vinnublað** frágangs.  
 
@@ -39,7 +39,7 @@ Ef vöruhúsamóttakan er bókuð og **slökkt er á víxlunni Nota vinnublað**
 
 [!INCLUDE [prod_short](includes/prod_short.md)] heldur ekki aðskildar færslur fyrir hjáskipunarvörur. Hún skráir þær sem venjulegar frágangsleiðbeiningar.  
 
-## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Vöruhúsið sett upp fyrir hjáskipun
+## Vöruhúsið sett upp fyrir hjáskipun  
 
 1. Ef hólf eru notuð skal setja upp að minnsta kosti eitt hjáskipunarhólf. Ef notaður er beinn frágangur og tínsla skal setja upp hjáskipunarsvæði.  
 
@@ -61,7 +61,7 @@ Ef vöruhúsamóttakan er bókuð og **slökkt er á víxlunni Nota vinnublað**
 > [!NOTE]  
 >  Hjáskipun er eingöngu möguleg ef birgðageymslan er sett þannig upp að hún krefjist vöruhúsamóttöku- og frágangsvinnslu.  
 
-## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Vörum hjáskipað án þess að skoða tækifærin:
+## Vörum hjáskipað án þess að skoða tækifærin:  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsamóttökur** og velja síðan viðkomandi tengil.  
 2. Stofna vöruhúsamóttöku fyrir vöru sem er komin og hægt er að hjáskipa. Nánari upplýsingar um móttöku fást með því að fara á [Mótteknar vörur](warehouse-how-receive-items.md).  
@@ -79,7 +79,7 @@ Ef vöruhúsamóttakan er bókuð og **slökkt er á víxlunni Nota vinnublað**
 6. Frágangsleiðbeiningarnar með línunum sem eftir eru eru prentaðar út og móttökumagnið sem þarf að geyma sett í viðeigandi hólf eða svæði í vöruhúsinu. Hjáskipunarvaran er sett á svæðið eða í hólfið sem tilgreint er í vöruhúsareglum. Stundum segja vöruhúsareglur til um að það eigi að skilja þær eftir á móttökusvæðinu.  
 7. Til að skrá það að hjáskipunarvörurnar séu frágengnar og tiltækar til tínslu, skal velja **Skráning** aðgerðina.  
 
-## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Vörur hjáskipaðar eftir að tækifæri hafa verið skoðuð:
+## Vörur hjáskipaðar eftir að tækifæri hafa verið skoðuð:  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsamóttökur** og velja síðan viðkomandi tengil.  
 2. Stofna vöruhúsamóttöku fyrir vöru sem er komin og hægt er að hjáskipa.  
@@ -99,7 +99,7 @@ Ef vöruhúsamóttakan er bókuð og **slökkt er á víxlunni Nota vinnublað**
     > [!NOTE]  
     > Í vöruhúsafrágangi er hægt að halda áfram að breyta magninu sem gengið er frá í geymslu eða hjáskipað eftir þörfum. Til dæmis er hægt að hjáskipa viðbótarmagni til að flýta hjáskipunarskráningunni.  
 
-## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>Hjáskipunarvörur skoðaðar í afhendingum eða tínsluvinnublaði
+## Hjáskipunarvörur skoðaðar í afhendingum eða tínsluvinnublaði  
 
 Ef hólf eru notuð uppfærist magn hverrar vöru í hjáskipunarhólfunum þegar afhending eða tínsluvinnublað er opnað. Þegar varan er tiltæk í hjáskipunarhólfinu er hægt að stofna tínslu fyrir vörurnar í afhendingunni. Á vinnublaði tínslunnar er hægt að breyta línunum eftir þörfum.  
 
@@ -107,7 +107,7 @@ Ef hólf eru notuð uppfærist magn hverrar vöru í hjáskipunarhólfunum þega
 
 Ef hólf eru ekki notuð skal muna að athuga hjáskipunarsvæðið öðru hverju eða treysta á tilkynningar frá móttökum um að vörur fyrir framleiðsluna hafi borist.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     

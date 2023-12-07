@@ -1,138 +1,141 @@
 ---
-title: Ganga frá þjónustusamningum vegna þjónustuvara
-description: Þessari grein fylgja leiðbeiningar um ýmsar aðstæður sem varða þjónustuliði og samninga.
+title: Yfirferð þjónustusamninga fyrir þjónustuvörur
+description: Þessi grein leiðir þig í gegnum ýmsar aðstæður sem fela í sér þjónustuhluti og samninga.
 author: andreipanko
 ms.author: andreipa
 ms.topic: how-to
-ms.date: 05/31/2023
+ms.date: 11/08/2023
 ms.custom: bap-template
 ---
 
-# <a name="walkthrough-of-service-contracts-for-service-items"></a>Ganga frá þjónustusamningum vegna þjónustuvara
+# Yfirferð þjónustusamninga fyrir þjónustuvörur
 
-Þessi gönguleið sýnir fram á nokkra kjarnaferla:
+Þessi leiðsögn sýnir nokkra kjarnaferla:
 
 - Stofnun þjónustuvara í gegnum sölu
-- Stofnun og Reikningsfærsla fyrir þjónustusamning
-- Þjónustupöntun stofnuð fyrir þjónustusamning
-- Úthluta forða sem byggir á kunnáttu og sviði
-- Ljúka tímafærslunni fyrir þjónustupöntunina
-- Bóka og reikningsfæra Samningsþjónustupöntunina
+- Gerð og reikningsfærsla fyrir þjónustusamning
+- Að búa til þjónustupöntun fyrir þjónustusamning
+- Úthlutaðu auðlind byggt á kunnáttu og svæði
+- Ljúktu við tímafærsluna fyrir þjónustupöntunina
+- Bókaðu og reikningsfærðu samningsþjónustupöntunina
 
-## <a name="creation-of-service-items"></a>Stofnun þjónustuvara
+## Gerð þjónustuhluta
 
-### <a name="scenario"></a>Aðstæður
+### Aðstæður  
 
-Susan, pöntunarörgjörvinn, bókar sölupöntun sem er skilgreind til að mynda þjónustuvöru.  
+Susan, pöntunarvinnsla, birtir sölupöntun sem selur hlut sem er stilltur til að búa til þjónustuvöru.  
 
-### <a name="steps"></a>Skref
+### Skref
 
-1. Athuga skal að  **Vara**  er valin með  **þjónustuvöruflokki** .
+1. Athugaðu að **Item** hafi **Service Item Group** valið.
    
     1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
-    2. Veldu vöru  *S-100*  og Opnaðu hana.
-    3. Athuga skal gildið í  **reitnum Þjónustuvöruflokkur** .
+    2. Veldu hlutinn *S-100* og opnaðu hann.
+    3. Athugaðu gildið í reitnum **Þjónustuvöruflokkur** .
        
-2. Sölupöntunin  **er**  bókuð til að stofna þjónustuvöru fyrir viðskiptamanninn.  
+2. Settu **sölupöntunina** til að búa til þjónustuvöruna fyrir viðskiptavininn.  
 
     1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
-    2. Veljið pöntun fyrir viðskiptavin 10000. Ytri pantanirnar nr. Er  *svc-1*.
-    3.  **Veljið aðgerðina Bóka**  til að senda vöruna til viðskiptavinarins.
+    2. Veldu pöntun fyrir viðskiptavin 10000. Ytri pantanir nr. er *SVC-1*.
+    3. Veldu **Post** aðgerðina til að senda vöruna til viðskiptavinarins.
 
-### <a name="results"></a>Niðurstöður
+### Niðurstöður
 
-- Þjónustuvara verður útbúin fyrir viðskiptavin 10000
+- Þjónustuvara er búin til fyrir viðskiptavin 10000
 
-## <a name="invoicing-a-service-contract"></a>Reikningsfæra þjónustusamning
+##  Innheimta þjónustusamnings
 
-### <a name="scenario-1"></a>Aðstæður
+### Aðstæður
 
-Charles, þjónustustjóri, býr svo til þjónustusamning til að reikningsfæra fyrir reglulegum viðhaldsheimsóknum.
+Charles, þjónustustjóri, býr síðan til þjónustusamning til að reikningsfæra fyrir reglulegar viðhaldsheimsóknir.
 
-3.  **Stofna þjónustusamninginn**  fyrir nýju þjónustuvöruna
-    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustusamningar** og velja síðan viðkomandi tengil.
+3. Búðu til **þjónustusamning** fyrir nýja þjónustuhlutinn
+    1. Veldu ![peru sem opnar Segðu mér eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustusamningar** og velja síðan viðkomandi tengil.
     2. Valið er aðgerðin **Nýtt**.  
-    3. Í staðfestingarglugganum skaltu velja  **Já**  til að stofna samning með því að nota sniðmát. 
-    4. Veljið  *án fyrirframgreidds samnings-mánaðarlega*.
-    5. Á flipanum þjónusta, í  **Tegund** þjónustupöntunarinnar, skal færa inn  **mainten**.
-    6. Í línurnar eru færðar inn eftirfarandi upplýsingar:
+    3. Í staðfestingarglugganum skaltu velja **Já** til að búa til samning með sniðmáti. 
+    4. Veldu *Ófyrirframgreiddur samningur - mánaðarlega*.
+    5. Á flýtiflipanum Þjónusta, í **Þjónustupöntunartegund**, sláðu inn **VIÐHALDA**.
+    6. Sláðu inn eftirfarandi upplýsingar í línurnar:
 
     |Nr. þjónustuvöru|Línuvirði|  
     |----------------|----------|  
     |SV000001|6000|
 
-    7. Velja skal  **aðgerðina undirrita samning**  og staðfesta undirritun.
-    8. Velja  **skal Já**  til að staðfesta stofnun þjónustureiknings. Þú færð staðfestingarpóst með númeri Þjónustreiknings.
+    7. Veldu **Skrifaðu undir samning** aðgerðina og staðfestu undirritunina.
+    8. Veldu **Já** til að staðfesta stofnun þjónustureiknings. Þú færð staðfestingarskilaboð með þjónustureikningsnúmerinu.
 
-3. Bóka þjónustureikninginn
-   1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustureikningar** og velja síðan viðkomandi tengil.
-   2. Finna skal þjónustureikninginn og velja  **aðgerðina Bóka** .
+3. Bókaðu þjónustureikninginn
+   1. Veldu ![peru sem opnar Segðu mér eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustureikningar** og velja síðan viðkomandi tengil.
+   2. Finndu þjónustureikninginn og veldu  **Post** aðgerðina.
 
-### <a name="results-1"></a>Niðurstöður
+### Niðurstöður
 
-- Undirritaður verði samningur um undirritaðan þjónustusamning, með færslum
-- Bókaður Þjónustureikningur verður stofnaður
+- Undirritaður þjónustusamningur er búinn til, með fjárhagsfærslum
+- Bókaður þjónustureikningur er búinn til
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Þjónustupöntun stofnuð fyrir þjónustusamning og úthlutað forða
+## Stofna þjónustupöntun fyrir þjónustusamning og úthluta tilföngum
 
-### <a name="scenario-2"></a>Aðstæður
+### Aðstæður  
 
-Charles, þjónustustjóri, mun stofna þjónustupantanir fyrir reglulegar viðhaldspantanir samkvæmt þjónustusamningi og yfirfara síðan Sendingarborð til að úthluta þeim.
+Charles, þjónustustjóri, býr til þjónustupantanir fyrir reglubundnar viðhaldspantanir samkvæmt þjónustusamningi og fer síðan yfir sendingarráðið til að úthluta þeim.
 
-### <a name="steps-1"></a>Skref
+### Skref
 
-1. Keyrið þjónustupöntunum sem munu uppfylla skyldur virkra þjónustusamninga.
-   1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Stofna samn.þjónustupantanir** og svo velja viðeigandi tengil.
-   2. Færið inn upphafs-og lokadagsetningar mánaðarins í reitunum Upphafsdagsetning og Lokadagsetning í Fastflipanum Valkostir.
-   3. Valið  **er í lagi**  til að staðfesta stofnun þjónustupantana. Þú færð staðfestingarpóst með fjölda stofnaða þjónustupantana.
+1. Keyra þjónustupantanir sem uppfylla skyldur virkra þjónustusamninga.
+   1. Veldu ![peru sem opnar Segðu mér eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Stofna samn.þjónustupantanir** og svo velja viðeigandi tengil.
+   2. Sláðu inn upphafs- og lokadagsetningar mánaðarins í reitunum Upphafsdagsetning og Lokadagsetning á flýtiflipanum Valkostir
+   3. Veldu **Í lagi** til að staðfesta stofnun þjónustupantana. Þú færð staðfestingarskilaboð með fjölda stofnaðra þjónustupantana.
 
-2. Fara yfir pantanirnar sem bíða úthlutunar í gegnum Sendingarborð
-   1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sendingartafla** og velja síðan tengda tengilinn.
-   2. Sendingarstjórnin sýnir allar opnar þjónustupantanir ásamt  **Nr. af úthlutunum**  til að sýna hvort þjónustupöntunum hefur verið úthlutað forða.
-   3.  **Aðgerðin Sýna skjöl**  valin til að opna þjónustupöntun.  Í þessum þætti sést að Upplýsingakassi þjónustuvörulínur sýnir hvaða tilföng eru hæfð til að vinna með þessa vöru.
+2. Skoðaðu pantanir sem bíða úthlutunar í gegnum sendingarráð
+   1. Veldu ![peru sem opnar Segðu mér eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sendingartafla** og velja síðan tengda tengilinn.
+   2. Sendingarráð sýnir allar opnar þjónustupantanir ásamt **nr. af úthlutunum** til að sýna hvort þjónustupantanir séu úthlutaðar til auðlindar.
+   3. Að velja **Sýna skjöl** aðgerðina til að opna þjónustupöntun.  Þú sérð að upplýsingakassinn fyrir þjónustuvörulínur sýnir hvaða auðlindir eru færar í að vinna með þennan hlut.
 
-3. Úthluta forða til þjónustupöntunarinnar
-   1. Í þjónustupöntuninni er valið úthlutun **forðagætuúthlutunar**
-   2. Færið inn eftirfarandi upplýsingar fyrir Forðsúthlutunina
+3. Úthluta tilföng til þjónustupöntunarinnar
+   1. Í þjónustupöntuninni skaltu velja Línuaðgerðina **Aðfangaúthlutun**
+   2. Sláðu inn eftirfarandi upplýsingar fyrir tilfangaúthlutun
 
     |Nr. þjónustuvöru|Forðanr.|Úthlutunardagsetning|Úthlutaðar stundir|
     |----------------|------------|---------------|---------------|  
     |SV000001|RESOURCE1|t|1|
 
-    3. Úthlutuninni verður breytt í virka stöðu.
-    4. Verkröðunarstjórnin mun sýna  **Engar úthlutanir**  sem breytt hefur verið úr 0 til 1 fyrir þjónustupöntunina.
+    3. Úthlutuninni er breytt í Staða í Virk.
+    4. Við að endurnýja sendingarborðið sýnir **fjölda úthlutana** breytt úr 0 í 1 fyrir þjónustupöntunina.
 
-### <a name="results-2"></a>Niðurstöður
+### Niðurstöður
 
-- Þjónustupantanir verða stofnaðar fyrir þjónustusamninga
-- Þjónustupöntunum verður úthlutað til forða til að ljúka vinnunni
+- Þjónustupantanir eru búnar til fyrir þjónustusamningana
+- Þjónustupantunum er úthlutað til auðlindar til að ljúka verkinu
 
-## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Ljúka tímafærslunni fyrir þjónustupöntunina og bóka þjónustupöntunina
+## Ljúktu við tímafærsluna fyrir þjónustupöntunina og bókaðu þjónustupöntunina
 
-### <a name="scenario-3"></a>Aðstæður
+### Aðstæður  
 
-Þjónustutæknimenn munu skrá tíma sinn beint á móti þjónustupöntuninni, síðan merkja pöntun sem tilbúna.
+Þjónustutæknir skráir tíma sinn beint við þjónustupöntunina og merkir síðan pöntun sem lokið.
 
 > [!NOTE]
-> Hægt er að færa inn tímafærslu fyrir þjónustupantanir með vinnuskýrslum. Frekari upplýsingar er að finna á [hlekkur á tímablað ef þetta athugast á vit].
+> Hægt er að slá inn tímafærslu fyrir þjónustupantanir í gegnum tímaskýrslur. Fyrir frekari upplýsingar, sjá [tengill á tímablað ef þessi athugasemd er skynsamleg].
 
-### <a name="steps-2"></a>Skref
+### Skref
 
-1. Finna þjónustupöntunina og færa tímann inn í Þjónustulínuna
-   1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.
-   2. Þjónustupöntunin er fundin með til að færa inn tíma.
-   3. Veljið þjónustulínu  **línuaðgerðarinnar**.
+1. Finndu þjónustupöntunina og sláðu inn tímann í þjónustulínuna
+   1. Veldu ![peru sem opnar Segðu mér eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.
+   2. Finndu þjónustupöntunina til að slá inn tíma fyrir.
+   3. Veldu Línuaðgerðina **Þjónustulína**.
    4. Sláðu inn eftirfarandi upplýsingar
 
-    |Gerð|Nr.|Magn|Qty.to neyta|
+    |Gerð|Nr.|Magn|Qty.to Neyta|
     |----|---|--------|--------|   
     |Forði|RESOURCE1|2|2|
 
-2. Í þjónustupöntuninni er notkunin bókuð
-   1. Velja skal  **aðgerðina Bóka**  til að ljúka þjónustupöntuninni, velja  **skipið og neyta**  aðgerðar og velja svo hnappinn í  **lagi** .
+2. Bókaðu neyslu á þjónustupöntuninni
+   1. Veldu aðgerðina **Posta** til að ljúka þjónustupöntuninni, veldu **Send og neytið** aðgerðina og veldu síðan  **OK** hnappur.
 
-### <a name="results-3"></a>Niðurstöður
+### Niðurstöður
 
-- Þjónustufærslur verða stofnaðar í tengslum við þjónustuvöruna, þjónustusamninginn og forða-
+- Þjónustubókarfærslur eru búnar til í tengslum við þjónustuvöru, þjónustusamning og tilföng
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
+
+[Kynning á Contoso Coffee Demo Data](../../contoso-coffee/contoso-coffee-intro.md)  
+[Um framleiðslupantanir](../../production-about-production-orders.md)

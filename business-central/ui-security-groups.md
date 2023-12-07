@@ -1,91 +1,91 @@
 ---
-title: Stjórna aðgangi með öryggisflokkum
-description: Í greininni er því lýst hvernig nota á öryggishópa til að skilgreina notendaleyfi.
+title: Stjórna aðgangi með því að nota öryggishópa
+description: Þessi grein lýsir því hvernig á að nota öryggishópa til að skilgreina notendaheimildir.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security, permissions'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 02/08/2023
+ms.date: 11/29/2023
 ---
 
-# <a name="control-access-to-business-central-using-security-groups"></a>Stjórna aðgangi að starfrækslu miðsvæðis með öryggisflokkum
+# Stjórna aðgangi að Business Central með því að nota öryggishópa
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-Öryggisflokkar auðvelda stjórnendum að stjórna notendaleyfi. Til dæmis  [!INCLUDE [prod_short](includes/prod_short.md)]  á netinu eru þær Endurnýtanlegar yfir Dynamics 365 forritum, svo sem  SharePoint  online,  CRM Online, og [!INCLUDE [prod_short](includes/prod_short.md)]. Stjórnendur bæta við heimildum til að sinna  [!INCLUDE [prod_short](includes/prod_short.md)]  öryggishópum og þegar þeir bæta við notendum í hópinn heimildin gildir um alla félagsmenn. Til dæmis getur kerfisstjóri stofnað  [!INCLUDE [prod_short](includes/prod_short.md)]  öryggisflokk sem gefur söluaðilum möguleika á að stofna og bóka sölupantanir. Eða látið kaupendur gera það sama fyrir innkaupapantanir.
+Öryggishópar auðvelda stjórnendum að stjórna notendaheimildum. Til dæmis, fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á netinu, eru þau endurnýtanleg í Dynamics 365 forritum, eins og SharePoint Online, CRM Online og [!INCLUDE [prod_short](includes/prod_short.md)]. Stjórnendur bæta heimildum við [!INCLUDE [prod_short](includes/prod_short.md)] öryggishópa sína og þegar þeir bæta notendum við hópinn gilda heimildirnar fyrir alla meðlimi. Til dæmis getur stjórnandi búið til [!INCLUDE [prod_short](includes/prod_short.md)] öryggishóp sem gefur sölufólki möguleika á að búa til og bóka sölupantanir. Eða láttu kaupendur gera það sama fyrir innkaupapantanir.
 
-## <a name="business-central-online-and-on-premises"></a>Viðskipti miðsvæðis á netinu og innanhúss
+## Business Central á netinu og á staðnum
 
-Hægt er að nota öryggishópa fyrir lager-og innanhússútgáfur [!INCLUDE [prod_short](includes/prod_short.md)]. Stofna skal flokka með eftirfarandi hætti eftir því hvaða útgáfa er stofnuð:
+Þú getur notað öryggishópa fyrir net- og staðbundnar útgáfur af [!INCLUDE [prod_short](includes/prod_short.md)]. Búðu til hópa á einn af eftirfarandi leiðum, allt eftir útgáfunni þinni:
 
-* Fyrir netútgáfuna, Notið  Microsoft Entra  öryggisflokka. Til að fræðast meira um stofnun flokksins er farið í að  [Stofna, breyta eða eyða öryggisflokki í  Microsoft 365  admin Center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
-* Ef um er að ræða innanhúss eru notaðir Windows Active Directory-Flokkar. Til að fá frekari upplýsingar er farið að  [Stofna Flokkareikning í Windows Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
+* Notaðu Microsoft Entra öryggishópa fyrir netútgáfuna. Til að læra meira um að búa til hópinn skaltu fara í [Búa til, breyta eða eyða öryggishópi í Microsoft 365 stjórnendamiðstöðinni](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+* Fyrir innanhúss eru öryggishópar aðeins studdir ef uppsetningin notar Windows auðkenningu. Til að búa til öryggishópa fyrir innanhúss skaltu nota Windows Active Directory hópa. Til að læra meira, farðu í [Búa til hópreikning í Windows Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory). 
 
-Síðan þarf að stofna samsvarandi öryggiaflokk í  [!INCLUDE [prod_short](includes/prod_short.md)] og tengja hann síðan við flokkinn sem var stofnaður. Til að fá frekari upplýsingar er farið í að  [Bæta við öryggisflokki í Business Central](#add-a-security-group-in-business-central).
-
-> [!NOTE]
-> Ef sett hefur verið upp Sérstök tegund notanda með leyfigerð Windows-flokks í útgáfu  [!INCLUDE [prod_short](includes/prod_short.md)]  on-forforvarna sem er á undan 2023-bylgju 1, þegar uppfærsla  [!INCLUDE [prod_short](includes/prod_short.md)]  er umbreytir notandanum í öryggisflokk. Nýi öryggisflokkurinn hefur sama heiti og heiti Windows-flokksins. Í öryggisflokknum fæst betri yfirsýn yfir flokksmenn og skilvirkar heimildir þeirra.
-
-## <a name="add-a-security-group-in-business-central"></a>Bæta við öryggishokk í miðborg fyrirtækja
-
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, sláið inn  **öryggishópa** og veljið síðan tengda tengilinn.
-1. Velja  **skal nýtt**  til að stofna hóp.
-1. Búðu til tengilinn fyrir hópinn þinn, eins og hér er:
-
-    * Veldu flokkinn í  [!INCLUDE [prod_short](includes/prod_short.md)]  reitnum Heiti  **Microsoft Entra  öryggiflokks fyrir**  netið.
-    *  [!INCLUDE [prod_short](includes/prod_short.md)] Velja skal flokkinn í  **reitnum Heiti**  Windows-flokks innanhúss.
+Síðan skaltu búa til samsvarandi öryggishóp í [!INCLUDE [prod_short](includes/prod_short.md)] og tengja hann síðan við hópinn sem þú bjóst til. Til að fá frekari upplýsingar skaltu fara á [Bæta við öryggishópi í Business Central](#add-a-security-group-in-business-central).
 
 > [!NOTE]
-> Notendur sýna á  **félagakortsglugganum**  á FactBox rúðunni eða  **meðlimi**  öryggisflokksins aðeins ef þeim er bætt við sem notendur í [!INCLUDE [prod_short](includes/prod_short.md)]. Til að fá frekari upplýsingar um að bæta við notendum skaltu fara í  [til að bæta við notendum eða uppfæra notendaupplýsingarnar og leyfisúthlutunum í Business Central](ui-how-users-permissions.md#adduser).  
+> Ef þú hefur sett upp sérstaka tegund notanda með Windows Group leyfistegund í útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] on-prem sem er fyrr en 2023 útgáfubylgja 1, þegar þú uppfærir [!INCLUDE [prod_short](includes/prod_short.md)] breytir notandann í öryggishóp. Nýi öryggishópurinn hefur sama nafn og Windows hópnafnið. Öryggishópurinn gefur þér betri yfirsýn yfir hópmeðlimi og skilvirkar heimildir þeirra.
 
-### <a name="assign-permissions-to-a-security-group"></a>Úthluta heimildum til öryggisflokks
+## Bættu við öryggishópi í Business Central
 
-1.  **Á síðunni öryggishópar**  er hópurinn valinn og svo er  **heimildaaðgerðin**  valin.
-1. Úthluta heimildum á eftirfarandi hátt:
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Öryggishópar** og veldu svo tengda hlekkinn.
+1. Veldu **Nýtt** til að búa til hóp.
+1. Búðu til hlekkinn á hópinn þinn, eins og hér segir:
 
-    * Til að úthluta Sérleyfistilsettum  **fyrir hvert fyrir sig er heimildin valin í**  reitnum leyfi.
-    * Til að úthluta mörgum heimildalista skal velja  **aðgerðina velja heimildanamengi**  og velja síðan samstæður sem á að úthluta.
-
-## <a name="review-the-permissions-in-a-security-group"></a>Farið yfir heimildir í öryggisflokki
-
- **Á síðunni um öryggishópa**  sýnir upplýsingakrúðan hvaða  **heimildasamstæður**  eru tengdar við flokkinn. Hver notandi á listanum yfir  **meðlimi**  kortsins hefur þær heimildir. Sú heimild sem sett er  **eftir aðgerð öryggisflokks**  gefur nánari Yfirlit. Þar er einnig hægt að kanna einstakar heimildir í hverjum öryggisflokki.
-
-Heimildir eru einnig aðgengilegar á  **síðunni notendur** . FactBox-Glugginn sýnir  **heimildasöfn úr öryggisvarsrúðu**  og  **öryggisvarsspjöldum**  fyrir valinn notanda.
-
-## <a name="security-groups-and-user-groups"></a>Öryggisflokkar og notendaflokkar
+    * Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á netinu skaltu velja hópinn í  **Microsoft Entra heiti öryggishóps** reitsins.
+    * Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum skaltu velja hópinn í **Windows hópheiti** reitnum.
 
 > [!NOTE]
-> Notendaflokkar verða ekki lengur aðgengilegir í síðari útgáfu.
+> Notendur birta á **Meðlima** kortinu á FactBox glugganum eða  **Öryggishópsmeðlimir** síðunni aðeins ef þeir eru bætt við sem notendum í [!INCLUDE [prod_short](includes/prod_short.md)]. Til að læra meira um að bæta við notendum skaltu fara á [Til að bæta við notendum eða uppfæra notendaupplýsingar og leyfisúthlutun í Business Central](ui-how-users-permissions.md#adduser).  
 
-Öryggisflokkar eru mjög Svipaðir notendaflokkum sem nú eru tiltækir. Hins vegar eiga notendaflokkar aðeins  [!INCLUDE [prod_short](includes/prod_short.md)] við. Öryggisflokkar eru byggðir á flokkum í  Microsoft Entra  ID eða Windows, eftir því hvort um er að ræða notkun  [!INCLUDE [prod_short](includes/prod_short.md)]  á neti eða innanhúss, eftir því sem við á. Flokka fríðindastjóra vegna þess að þeir geta notað önnur Dynamics 365 apps. Til dæmis, ef sölumenn nota  [!INCLUDE [prod_short](includes/prod_short.md)]  og  SharePoint þurfa stjórnendur ekki að afþakka hópinn og meðlimi hans.
+### Úthlutaðu heimildum til öryggishóps
 
-### <a name="optional-convert-user-groups-to-permission-sets"></a>Valfrjálst: umbreyta notendaflokkum í heimildasöfn
+1. Á síðunni **Öryggishópar**  skaltu velja hópinn og velja síðan aðgerðina **Heimildir** .
+1. Úthlutaðu heimildum á eftirfarandi hátt:
 
-Í 2023 út bylgju 1 og síðar er hægt að breyta notendahópum í heimildasöfn í leigjanda. Heimildasöfn veita sömu virkni og notendaflokkar. Hér eru nokkur dæmi:
+    * Til að úthluta heimildasettum fyrir sig, í reitnum **heimildasett**, veldu heimildirnar sem á að úthluta.
+    * Til að úthluta mörgum heimildasettum skaltu velja  **Velja heimildasett** aðgerðina og velja síðan settin sem á að úthluta.
 
-* Hægt er að nota  **upplýsingakassa notendur**  til að stjórna heimildum fyrir notendur.
-* Hægt er að kafa niður í heiti heimildstæðis til að bæta öðrum heimildum við samstæðurnar sem unnið er í. Til að fá frekari upplýsingar er farið í  [til að bæta við öðrum heimildum](ui-define-granular-permissions.md#to-add-other-permission-sets).
+## Skoðaðu heimildirnar í öryggishópi
 
- **Notið Uppsetningarleiðbeiningar notendaflokksins flutningur**  aðstoðar til að umbreyta hópunum. Til að hefja leiðbeiningarnar, á  **síðunni Feature Management**, finnið  **þið lögun: breytið heimildum** notendaflokks og veljið  **svo alla notendur**  í  **virkjanum fyrir**  svæðið. Leiðbeiningar með uppsetningarleiðbeiningum aðstoðar eru eftirfarandi valkostir fyrir viðskiptin.
+Á  **Öryggishópum** síðunni sýnir FactBox gluggann  **heimildasettin** sem eru úthlutað til hópsins. Hver notandi sem skráður er á **Meðlima** kortinu hefur þessar heimildir. Aðgerðin **Leyfi sett af öryggishópi**  veitir ítarlegri sýn. Þar er einnig hægt að kanna einstakar heimildir í hverjum öryggishópi.
+
+Heimildir eru einnig fáanlegar á  **Notendum** síðunni. FactBox gluggann sýnir **heimildasett frá öryggishópi** og **Öryggishópsaðild** kortum fyrir valinn notanda.
+
+## Öryggishópar og notendahópar
+
+> [!NOTE]
+> Notendahópar verða ekki lengur tiltækir í framtíðarútgáfu.
+
+Öryggishópar eru mjög svipaðir notendahópum sem eru í boði núna. Hins vegar eiga notendahópar aðeins við fyrir [!INCLUDE [prod_short](includes/prod_short.md)]. Öryggishópar eru byggðir á hópum í Microsoft Entra ID eða Windows Active Directory, eftir því hvort þú notar [!INCLUDE [prod_short](includes/prod_short.md)] á netinu eða á staðnum, í sömu röð. Hópar gagnast stjórnendum vegna þess að þeir geta notað þá með öðrum Dynamics 365 forritum. Til dæmis, ef sölumenn nota [!INCLUDE [prod_short](includes/prod_short.md)] og SharePoint, þurfa stjórnendur ekki að endurskapa hópinn og meðlimi hans.
+
+### Valfrjálst: Umbreyttu notendahópum í heimildasett
+
+Í 2023 útgáfubylgju 1 og síðar geturðu breytt notendahópum í heimildasett hjá leigjanda þínum. Heimildasettin veita sömu virkni og notendahópar. Hér eru nokkur dæmi:
+
+* Þú getur notað **Notendur** FactBox til að stjórna heimildum notenda.
+* Þú getur borið niður á heiti heimildasettsins til að bæta öðrum heimildasettum við settið sem þú ert að vinna að. Til að læra meira skaltu fara á [Til að bæta við öðrum heimildasettum](ui-define-granular-permissions.md#to-add-other-permission-sets).
+
+Notaðu **User Group Migration** uppsetningarleiðbeiningar með aðstoð til að breyta hópunum þínum. Til að hefja handbókina skaltu finna **Eiginleikastjórnun** síðuna **Eiginleiki: Umbreyta heimildum notendahóps** og velja síðan  **Allir notendur** í reitnum **Virkjað fyrir** . Uppsetningarleiðbeiningar með aðstoð býður upp á eftirfarandi valkosti fyrir viðskiptin.
 
 |Valkostur  |Heimildasamstæða  |
 |---------|---------|
-|Úthluta til notanda     | Úthlutið heimildum notendaflokka beint til notendanna sem voru tengdir hópnum, og Fjarlægið notendahópúthlutanir þeirra.        |
-|Breyta í heimildasamstæðu     | Stofnið nýja heimild fyrir heimildina í hverjum notendaflokki. Nýja heimildsettinu er úthlutað á alla meðlimi hvers notendaflokks.          |
+|Úthluta til notanda     | Úthlutaðu heimildum í notendahópum beint til notenda sem voru úthlutaðir til hópsins og fjarlægðu úthlutun notendahóps þeirra.        |
+|Breyta í heimildasamstæðu     | Búðu til nýja heimild fyrir heimildirnar í hverjum notendahópi. Nýja heimildasettinu er úthlutað öllum meðlimum hvers notendahóps.          |
 
-### <a name="license-configurations-still-apply"></a>Leyfisskilgreiningar eiga enn við
+### Leyfisstillingar gilda enn
 
-Hægt er að skilgreina heimildir á  [!INCLUDE [prod_short](includes/prod_short.md)]  grundvelli leyfa. Þeim heimildum er beinlínis úthlutað til nýrra notenda. Þessar skilgreiningar eiga enn við, jafnvel þó að byrjað sé að nota öryggishópa.
+Þú getur stillt heimildir í [!INCLUDE [prod_short](includes/prod_short.md)] byggðar á leyfum. Þessum heimildum er beint til nýrra notenda. Þessar stillingar eiga enn við, jafnvel þótt þú byrjir að nota öryggishópa.
 
-Ef nota á öryggisflokka sem eingöngu er mælt með að fjarlægja leyfissamskipanir. Frekari upplýsingar um leyfissamskipanir er að fá til að  [Stofna notendur samkvæmt leyfum](ui-how-users-permissions.md).
+Til að nota öryggishópa eingöngu mælum við með að þú fjarlægir leyfisstillingarnar. Til að læra meira um leyfisstillingar skaltu fara í [Búa til notendur í samræmi við leyfi](ui-how-users-permissions.md).
 
-Hægt er að fjarlægja leyfissamskipanir á  **síðunni leyfissamstillingar** . Veldu leyfi og eyddu svo öllum leyfisstæðum sem úthlutað er á það.
+Þú getur fjarlægt leyfisstillingar á síðunni **Leyfisstillingar** . Veldu leyfi og eyddu síðan öllum heimildasettum sem því er úthlutað.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)  
-[Setja upp miðlægu aðgengi fyrir fyrirtæki í teymum með  Microsoft 365  leyfi](admin-access-with-m365-license-setup.md)  
-[Nánar um hópa og aðgangsheimild í  Microsoft Entra  auðkenni](/azure/active-directory/fundamentals/concept-learn-about-groups)  
+[Settu upp Business Central aðgang í teymum með Microsoft 365 leyfum](admin-access-with-m365-license-setup.md)  
+[Lærðu um hópa og aðgangsrétt í Microsoft Entra ID](/azure/active-directory/fundamentals/concept-learn-about-groups)  
 [Microsoft Entra öryggishópa](/windows-server/identity/ad-ds/manage/understand-security-groups)  

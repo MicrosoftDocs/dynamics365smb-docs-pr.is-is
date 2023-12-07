@@ -6,30 +6,30 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection: null
-ms.date: 11/15/2023
+ms.date: 11/30/2023
 ms.custom: bap-template
 ---
 
-# <a name="copilot-data-movement-across-geographies"></a>Flutningur á gagnaflutningum milli landa
+# Flutningur á gagnaflutningum milli landa 
 
-Copilot er fáanlegt í öllum studdum [Business Central löndum/svæðum](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Hins vegar notar Copilot Microsoft Azure OpenAI þjónustu, sem er nú aðeins í boði fyrir Business Central á sumum landfræðilegum svæðum. Þetta þýðir að ef umhverfi þitt er staðsett annars staðar, verða gögn frá Copilot og generative AI eiginleikanum að vera send utan landfræðilegs svæðis þíns og gætu verið unnin og geymd utan samræmismarka þinna. Gögn innihalda gervigreindartilkynningar og viðskiptagögn þín sem eru notuð af eða mynda af Copilot. Í þessu tilviki verður þú að velja inn til að leyfa gagnaflutning til Azure OpenAI þjónustu í öðru landsvæði. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
+Copilot er fáanlegt í öllum studdum [Business Central löndum/svæðum](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Hins vegar notar Copilot Microsoft Azure OpenAI þjónustu, sem er nú aðeins í boði fyrir Business Central á sumum landfræðilegum svæðum. Þetta þýðir að ef umhverfið þitt er staðsett annars staðar verða gögn frá Copilot og generative AI eiginleikanum að vera send utan landfræðilegs svæðis þíns og gætu verið unnin og geymd utan samræmismarka þinna. Gögn innihalda gervigreindartilkynningar og viðskiptagögn þín sem eru notuð af eða mynda af Copilot. Í þessu tilviki verður þú að velja inn til að leyfa gagnaflutning til Azure OpenAI þjónustu í öðru landsvæði. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
 > [!IMPORTANT]
-> Ef umhverfið þitt er staðsett á sama Azure svæði og Azure OpenAI þjónustan tengist það sjálfkrafa við Azure OpenAI þjónustuna, það er enginn valkostur og engin einskiptisstilling er nauðsynleg.
+> Ef umhverfið þitt er staðsett á sama Azure svæði og Azure OpenAI þjónustan tengist hún sjálfkrafa við Azure OpenAI þjónustuna, það er enginn valkostur og engin einskiptisstilling er nauðsynleg.
 
 > [!NOTE]
 > Einstakir Copilot og generative AI eiginleikar gætu ekki verið tiltækir í öllum löndum/svæðum í Business Central umhverfi. Hafðu samband við útgefanda hvers getu til að skilja framboð.
 > 
-> Copilot og generative AI eiginleikar frá útgefendum sem ekki eru Microsoft, eins og þeir sem koma frá sérstillingum eða AppSource öppum sem þú setur upp, skilgreina hver sín sérstöku Azure OpenAI þjónustusvæði. Ráðfærðu þig við útgefanda viðbótarinnar til að skilja hvaða svæðisbundna Azure þjónusta er notuð af viðbótinni. 
+> Copilot og skapandi gervigreind eiginleikar frá útgefendum sem ekki eru frá Microsoft, eins og þeir sem koma frá sérstillingum eða AppSource öppum sem þú setur upp, skilgreina hver sín sérstöku Azure OpenAI þjónustusvæði. Ráðfærðu þig við útgefanda viðbótarinnar til að skilja hvaða svæðisbundna Azure þjónusta er notuð af viðbótinni. 
 
-### <a name="azure-openai-service-geographies"></a>Azure OpenAI Þjónustusvæði
+### Azure OpenAI Þjónustusvæði
 
 Eftirfarandi tafla sýnir landafræði Azure OpenAI þjónustunnar sem Copilot notar, byggt á Azure svæðinu í Business Central umhverfi. Þessar upplýsingar eru mikilvægar þegar tekin er ákvörðun um hvort velja eigi gagnaflutning milli landa. Þú getur auðkennt Azure svæðið fyrir umhverfið þitt í Business Central stjórnunarmiðstöðinni (sjá [Umhverfisstjórnun í stjórnunarmiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
 | Umhverfi Azure svæði| Azure OpenAI Landafræði þjónustu|Aðgerð stjórnanda nauðsynleg til að opna Copilot| 
 | - | - | - |
 |Asía (Austur, Suðaustur) |Bandaríkin|Já|
-|Ástralía (Suðausturland)| Bandaríkin |Já, þar til uppfærsla 23.2 |
+|Ástralía (Suðausturland)| Bandaríkin |Já |
 |Brasilía (Suður) |Bandaríkin|Já|
 |Kanada (mið, austur)|Bandaríkin|Já|
 |Evrópa (Vestur, Norður)| Svíþjóð eða Sviss |Já|
@@ -42,11 +42,11 @@ Eftirfarandi tafla sýnir landafræði Azure OpenAI þjónustunnar sem Copilot n
 |Suður-Afríka (Norður, Vestur)|Bandaríkin|Já|
 |Sviss (Norður, Vestur) |Svíþjóð eða Sviss |Já|
 |Sameinuðu arabísku furstadæmin (Norður, Vestur)|Bandaríkin|Já|
-|Bretland (Suður, Vestur)|Bretland|Já, þar til uppfærsla 23.2|
+|Bretland (Suður, Vestur)|Bretland|Já|
 |Bandaríkin (Mið, Austur, Norður Mið, Suður Mið, Vestur) |Bandaríkin|Nr.|
 
 > [!NOTE]
-> Þegar Azure OpenAI þjónusta verður tiltæk í Business Central landafræðinni þinni mun umhverfið þitt sjálfkrafa breytast í að nota Azure OpenAI þjónustuna og það er ekki krafist eða jafnvel mögulegt að skrá þig inn.  
+> Þegar Azure OpenAI þjónusta verður tiltæk í Business Central landafræðinni þinni mun umhverfið þitt sjálfkrafa breytast í að nota Azure OpenAI þjónustuna og að skrá sig inn er ekki krafist eða jafnvel möguleg.  
 <!--
 
 BC geos base on https://dynamics.microsoft.com/en-us/availability-reports/georeport/
@@ -106,6 +106,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
 Þú velur að leyfa gagnaflutning milli landa frá [Copilot & AI Capabilities](https://businesscentral.dynamics.com/?page=7775) síða. Til að fá frekari upplýsingar skaltu fara á [Leyfa gagnaflutning á milli landa](enable-ai.md#allow-data-movement-across-geographies).

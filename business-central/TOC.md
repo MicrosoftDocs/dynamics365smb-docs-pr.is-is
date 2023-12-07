@@ -1,7 +1,7 @@
 
 # [Business Central skjöl](index.yml)
 # [Velkomin(n) í Business Central](welcome.md)
-# [Nýtt og áætlað](product-news.md)
+# [Nýtt og áætlað](/dynamics365/business-central/dev-itpro/whatsnew/overview)
 # Hefjast handa
 ## [Yfirlit yfir viðskiptavirkni](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->

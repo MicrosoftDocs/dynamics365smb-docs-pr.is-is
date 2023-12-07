@@ -1,49 +1,49 @@
 ---
-title: Vista og sérsníða listayfirlit
-description: 'Kynntu þér hvernig þú býrð til þín eigin yfirlit fyrir síaða lista og hvernig á að vista, endurnefna og hafa umsjón með þessum yfirlitum.'
+title: Vistaðu og sérsníddu listayfirlit
+description: 'Lærðu hvernig á að búa til þínar eigin skoðanir fyrir síaða lista og hvernig á að vista, endurnefna og stjórna þeim skoðunum.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: null
-ms.date: 06/24/2021
+ms.date: 11/02/2023
 ms.author: bholtorf
 ---
-# <a name="save-and-personalize-list-views"></a>Vista og sérsníða listayfirlit
+# Vistaðu og sérsníddu listayfirlit
 
-Þegar búið er að setja afmörkun á lista og ætlunin er að geyma síuna síðar er hægt að vista hana sem yfirlit. Frekari upplýsingar um síulista er að finna í [Síur stilltar á lista](ui-enter-criteria-filters.md#setting-filters-on-lists).
+Þegar þú setur síu á lista og vilt geyma síuna til síðari tíma geturðu vistað hana sem yfirlit. Frekari upplýsingar um síulista er að finna í [Síur stilltar á lista](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
-Ef Yfirlit er til staðar, birtist flokkurinn **Yfirlit** efst í síuglugganum. Skoðanir eru afbrigði af listanum sem hefur verið forstillt með síum. Þú getur skilgreint og vistað eins mörg yfirlit og þú vilt fyrir hvern lista. Yfirlitin verða aðgengileg næst þegar þú opnar listann, í öllum tækjum eða vöfrum sem þú skráir þig inn á.
+Ef Yfirlit er til staðar, birtist flokkurinn **Yfirlit** efst í síuglugganum. Útsýni eru afbrigði af listanum sem er forstilltur með síum. Þú getur skilgreint og vistað eins mörg yfirlit og þú vilt fyrir hvern lista. Yfirlitin verða aðgengileg næst þegar þú opnar listann, í öllum tækjum eða vöfrum sem þú skráir þig inn á.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="to-save-a-view"></a>Til að vista yfirlit
+## Til að vista yfirlit
 
 1. Opnaðu hvaða listasíðu sem er.
-2. Veldu ![Afmörkunarsvæðistákn.](media/open-filter-pane-icon.png "Afmörkunarsvæðistákn") Efst á listanum eða velja  <kbd>Shift</kbd>+<kbd>F3</kbd>  til að opna síurúðuna.
+2. Veldu ![Afmörkunarsvæðistákn.](media/open-filter-pane-icon.png "Afmörkunarsvæðistákn") Efst á listanum eða veldu <kbd>Shift</kbd>+<kbd>F3</kbd> til að opna síurúðuna.
 3. Veldu eina eða fleiri nýjar síur. Nánari upplýsingar eru í [Síur stilltar á lista](ui-enter-criteria-filters.md#setting-filters-on-lists).
-4. Þegar búið er að stilla síurnar skal velja táknið ![Vista yfirlit.](media/save_view_icon.png "Vista yfirlit")  
+4. Þegar þú stillir síurnar skaltu velja ![Vista yfirlit.](media/save_view_icon.png "Vista yfirlit")  
 
-    Ef sett er afmörkun fyrir listayfirlit sem þegar hefur verið vistað sem yfirlit verður fyrirliggjandi yfirlit uppfært við vistun.
+    Ef þú stillir síu fyrir listayfirlit sem þegar er vistað sem yfirlit, er núverandi yfirlit uppfært þegar þú vistar.
 5. Ef verið er að vista nýtt yfirlit skal færa inn heiti fyrir yfirlitið í hólfinu **Allt (afrit)** t.d. „vörur sem ég á“.
-6.  <kbd>Velja skal færslulykilinn</kbd>  eða færa bendilinn úr textareitinn til að samþykkja heitið.
+6. Veldu <kbd>Enter</kbd> lykilinn eða færðu bendilinn úr textareitnum til að samþykkja nafnið.
 
-Ef ekki er gefið upp nafn verður það nefnt **Allt (afrit)**.
+Ef þú gefur því ekki nafn heitir það **Allt (Afrita)**.
 
 > [!TIP]
 > Sérðu ekki táknið ![Vista yfirlit](media/save_view_icon.png "Vista yfirlit")? Frekari upplýsingar eru í [Hvers vegna sé ég ekki tákn til að vista](/dynamics365/business-central/ui-views-faq#save).
 
-## <a name="to-rename-or-remove-a-view"></a>Til að endurnefna eða fjarlægja yfirlit
+## Til að endurnefna eða fjarlægja yfirlit
 
 1. Fyrir yfirlitið sem sýnir listann eins og er skal velja táknið ![Sýna fleiri valkosti.](media/show-more-options-icon.png "Sýna fleiri valkosti") til að sjá hvaða valkostir eru í boði.
 2. Velja skal annaðhvort **Endurnefna** eða **Fjarlægja** aðgerðina.
 
-## <a name="managing-many-views"></a>Stjórnun margra yfirlita
+## Stjórnun margra yfirlita
 
-Þar sem fjöldi skoðana á síðu eykst getur þurft meiri stjórnun á því hvernig yfirlit eru sett fram á afmörkunarsvæðinu. Þú getur notað borðann **Sérstilling** til að fela óæskileg yfirlit eða endurraðað yfirlitum þínum til að fá fullkomna röðina. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
+Eftir því sem fjöldi skoðana á síðu eykst gætirðu þurft meiri stjórn á því hvernig skoðanir eru birtar á síurúðunni. Þú getur notað borðann **Sérstilling** til að fela óæskileg yfirlit eða endurraðað yfirlitum þínum til að fá fullkomna röðina. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Algengar spurningar um listayfirlit](ui-views-faq.yml)  
 [Sérstilling verksvæðis](ui-personalization-user.md)    

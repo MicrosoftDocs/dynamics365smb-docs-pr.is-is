@@ -5,14 +5,13 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
-ms.date: 08/03/2023
+ms.date: 11/14/2023
 ms.custom: bap-template
 ---
-
-# <a name="updating-document-dates-with-posting-dates"></a>Uppfærir dagsetningar fylgiskjals með bókunardagsetningum
+# Uppfærir dagsetningar fylgiskjals með bókunardagsetningum
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)
