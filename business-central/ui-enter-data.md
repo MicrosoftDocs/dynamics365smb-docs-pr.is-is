@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 03/23/2022
 ms.author: jswymer
 ---
-# Gagnainnfærsla
+# <a name="entering-data"></a>Gagnainnfærsla
 
 Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri hætti og af meiri nákvæmni. Helstu meginreglum og ítarlegum eiginleikum fyrir innslátt gagna er lýst í þessari grein.  
 
@@ -19,7 +19,7 @@ Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri
 
 Í dæmunum í þessu efnisatriði er notast við sýnigögn.
 
-## Vinna með breytanlega reiti
+## <a name="work-with-editable-fields"></a>Vinna með breytanlega reiti
 
 Reitirnir í [!INCLUDE[prod_short](includes/prod_short.md)] gætu innihaldið mismunandi breytanleg gögn, eins og texta eða gjaldmiðilsupphæðir. Breytanlegir reitir sýna yfirleitt innsláttarreit þar sem hægt er að slá inn gildi eða velja það. Óbreytanlegir reitir birtast yfirleitt með gráum bakgrunni.   
 
@@ -33,7 +33,7 @@ Sumir breytanlegir reitir bjóða upp á val til að auðvelda þér að tilgrei
 |Rofi eða gátreitur|Sumir reitir bjóða upp á einfalt val, *Já* eða *Nei*. Rofinn er notaður til að tilgreina þetta gildi og birtist alltaf sem gátreitur í listum|
 |Breytingahjálp       |Sumir reitir bjóða upp á sérsniðna glugga sem henta til að fletta upp og velja besta gildið fyrir viðkomandi reit, eins og sprettigluggi|
 
-### Reitargildi breytt
+### <a name="modifying-a-field-value"></a>Reitargildi breytt
 
 Til að breyta gildi reits verður fyrst að velja þann reit. Þú stillir fókus með því að framkvæma eftirfarandi aðgerðir:
 
@@ -57,25 +57,25 @@ Velja skal  <kbd>F2</kbd>  lykil til að víxla á milli þess að velja allt sv
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
-## Flýtivísanir
+## <a name="keyboard-shortcuts"></a>Flýtivísanir
 
 Nokkrir flýtilyklar gera þér kleift að vinna án músar og flýta fyrir skráningu gagna. Þessir flýtilyklar eru sérstaklega gagnlegir fyrir margar færslur og endurtekin innsláttarverk.
 
 Frekari upplýsingar er að finna í [Flýtilyklar á lyklaborði](keyboard-shortcuts.md). Í þessari grein er fjallað um nokkra af flýtilyklunum.
 
-## <a name="QuickEntry"></a>Hraða gagnaskráningu með flýtifærslu
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Hraða gagnaskráningu með flýtifærslu
 
 Flýtifærsla er eiginleiki sem er hannaður fyrir gagnaskráningu þegar lyklaborð er notað. Flýtifærsla virkar á reiti (t.d. í spjaldsíðum) og í listum (röðum og dálkum). Það er gagnlegt þegar verið er að framkvæma endurtekin innsláttarverk sem krefjast þess að stofnaðar séu margar færslur í röðinni. Dæmi eru sölupantanakeyrsla eða skráning nýrra vara.
 
 Hægt er að nota dálkalykilinn til að fletta úr einum reit á síðu yfir í næsta breytanlega reit. Ókostur við að nota Tab er að hann fer alltaf yfir á næsta reit. <!-- even if the field is non-editable or seldom filled it in.-->Flýtifærsla gerir þér kleift að breyta þessari leið. Með flýtifærslu notar  <kbd>þú Enter</kbd>  takkann til að vafra um aðeins þau svæði sem þú hefur áhuga á. Flýtifærsla sleppir skrifvörðum reitum og reitum sem þú fyllir yfirleitt ekki út. Þú gætir hafa tekið eftir þessari hegðun á sumum síðum. Þessi hegðun er vegna þess að reitirnir sem eiga að fylgja með þegar ýtt er á færslulykilinn og þeir sem á að sleppa hafa verið forskilgreindir. Hægt er að sérstilla flýtifærslu með því að sérstilla vinnusvæðið þitt og fínstilla hvernig þú færir inn gögn á hverri síðu.
 
-### Hvernig flýtifærsla virkar
+### <a name="how-quick-entry-works"></a>Hvernig flýtifærsla virkar
 
 Hægt er að merkja sérhvern reit sem annaðhvort *hafa með í flýtifærslu* eða *ekki hafa með í flýtifærslu*. Reitir sem eru teknir með í flýtifærslu verða hafðir með í slóðinni þegar valið  <kbd>er fært inn</kbd>. Reitir sem eru undanskildir flýtifærslu verða það ekki.
 
 Þegar lokið er við að færa gögn inn í reit er valið  <kbd>einfaldlega Enter</kbd>  til að staðfesta breytingarnar og fara í næsta reit. Ef þú vilt snúa stefnu við og fara í fyrri reitinn skaltu velja  <kbd>Shift</kbd>+<kbd>Enter</kbd>. Frekari upplýsingar um flýtileiðir er að finna í [Flýtileiðir flýtifærslu fyrir reiti](keyboard-shortcuts.md#QuickEntry).
 
-#### Ábendingar og góð ráð
+#### <a name="tips-and-tricks"></a>Ábendingar og góð ráð
 
 Eftirfarandi listi veitir gagnlegar upplýsingar um notkun á flýtifærslu.
 
@@ -86,7 +86,7 @@ Eftirfarandi listi veitir gagnlegar upplýsingar um notkun á flýtifærslu.
 - Flýtifærsla virkar hvort sem reitir eru áskildir eða ekki. Því er góð hugmynd að tryggja að áskilin svæði séu höfð með í flýtiskráningu.
 - Sjálfgefið er að flestir reitir eru sjálfkrafa með í flýtifærslu. Í upphafi verður það líklega þitt verk að útiloka reiti úr flýtifærslu.
 
-### Til að breyta reitum flýtifærslu
+### <a name="to-change-quick-entry-fields"></a>Til að breyta reitum flýtifærslu
 
 Til að setja upp flýtifærslu á reitum skaltu nota sérstillingu.
 
@@ -95,13 +95,13 @@ Til að setja upp flýtifærslu á reitum skaltu nota sérstillingu.
 
 Frekari upplýsingar um sérstillingu er að finna í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-## Áskildir reitir
+## <a name="mandatory-fields"></a>Áskildir reitir
 
 Þegar þú slærð inn gögn á síðum, eru tilteknir reitir merktir með rauðri stjörnu. Rauða stjarnan merkir að fylla verður reitinn út til að ljúka tilteknu ferli sem notar reitinn. Dæmi um þetta er bókun færslu sem notar gildið í reitnum.  
 
 Þótt reitur sé áskilinn er ekki nauðsynlegt að fylla hann út áður en farið er áfram í aðra reiti eða síðunni er lokað. Rauða stjarnan er eingöngu áminning um að þú verðir útilokuð/útilokaður frá tilteknu ferli.  
 
-## Finna gögn um leið og ritað er
+## <a name="finding-data-as-you-type"></a>Finna gögn um leið og ritað er
 
  Þegar byrjað er að slá inn stafi í reit birtist fellilisti með mögulegum gildum. Listinn breytist eftir því sem fleiri stafir eru slegnir inn og hægt er að velja rétt gildi þegar það birtist.  
 
@@ -111,7 +111,7 @@ Frekari upplýsingar um sérstillingu er að finna í [Sérstilling verksvæðis
 
 - Fellival - Birtir safn valkosta sem í boði eru fyrir reitinn. Aðeins er hægt að velja einn kost.  
 
-## Afrita og líma reiti og línur
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>Afrita og líma reiti og línur
 
 Hægt er að afrita eina eða fleiri línur af listanum eða staka reiti á síðu. Límdu svo það sem þú afritaðir á sömu síðu, aðra síðu eða ytra skjal. Þú gætir til dæmis límt í Microsoft Excel eða Outlook-tölvupóst. Í stuttu máli, til afritunar, velurðu  <kbd>CTRL</kbd>+<kbd>C</kbd>  (cmd + C í MacOS) á lyklaborðinu. Til að líma skaltu velja  <kbd>CTRL</kbd>+<kbd>V</kbd>  eða  <kbd>cmd + V</kbd>  í MacOS.
 
@@ -119,25 +119,25 @@ Hægt er að afrita eina eða fleiri línur af listanum eða staka reiti á sí�
 
 Frekari upplýsingar er að finna í [Afrita og líma algengar spurningar](faq-copy-paste.yml).
 
-## Síun á línuatriðum
+## <a name="filtering-line-items"></a>Síun á línuatriðum
 
 Til að hefja síuvalið, veljið  ![þá afmörkunarteikn](media/open-filter-pane-icon.png "Afmörkunarsvæðistákn")  efst á listanum eða veljið  <kbd>Shift</kbd>+<kbd>F3</kbd>  til að opna síurúðuna. Þú vinnur með afmörkunarsvæðið eins og þú gerir í öllum öðrum listum. Frekari upplýsingar er að finna í [Síun](ui-enter-criteria-filters.md#filtering).
 
 Síun er sérstaklega hjálpleg þegar lengri skjöl eru skoðuð og greind. Ímyndaðu þér að þú opnir bókaðan sölureikning. Síðan eru línuatriði síuð til að birta öll línuatriði sem eru með einstakan afslátt yfir 5%. Einnig er hægt að sía til að sýna eingöngu fylgihluti reiðhjóls með „pro“ í heitinu.
 
-## <a name="Focus"></a>Fókus settur á línuatriði
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fókus settur á línuatriði
 
 Þegar unnið er á skjölum sem innihalda vörulínuhluta reikningssíðu, er hægt að skipta yfirlitinu til að einbeita sér eingöngu að vörulínunum. Dæmaskjöl eru sölupöntun eða reikningssíða. Línuatriðahlutinn stækkar þannig að hann nær yfir nánast allt vinnusvæðið. Það felur aðra hluta síðunnar fyrir utan aðgerðasvæðið efst. Þetta veitir þér betri yfirsýn yfir línuatriðin og gefur meira rými til að vinna í þeim.
 
 Þú hefur gagn af því sérstaklega þegar þú vinnur með stórum línuatriðinu og þú vilt færa gögnin hratt inn. Þessi eiginleiki býður einnig upp á ítarlega síugetu. Eins og á öðrum listum verður vefskoðun og leit í gegnum línuatriði enn auðveldari.
 
-### Kveikja eða slökkva á fókus
+### <a name="switching-the-focus-on-and-off"></a>Kveikja eða slökkva á fókus
 
 Til að leggja áherslu á línuatriði skal velja hvar sem er í hluta línuatriðis og síðan velja táknið ![Fókusstilling.](media/focus-mode.png "Fókusstillingartákn") Efst í hægra horninu eða velja  <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd>.
 
 Til að skipta yfir í venjulegt yfirlit skal velja ![Fókusstillingartákn.](media/focus-mode.png "Fókusstillingartákn") Eða velja  <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd>  aftur.
 
-## Fjölvinnsla þvert á margar síður
+## <a name="multitasking-across-multiple-pages"></a>Fjölvinnsla þvert á margar síður
 
 Þú getur opnað spjald eða síðu skjals í nýjum glugga. Með því að opna nýjan glugga geturðu:
 
@@ -163,11 +163,11 @@ When working on multiple tasks at a time or when managing interruptions to the c
 > [!NOTE]
 > Ekki skal nota aðgerðina **Tvítekning** í vafranum til að búa til nýjan flipa því að það getur leitt til þess að aðgerðir í einum flipa útiloki aðgerðir í öðrum flipa vegna þess að þeir tilheyra sömu lotunni.
 
-## Magn slegið inn eftir útreikningum
+## <a name="entering-quantities-by-calculation"></a>Magn slegið inn eftir útreikningum
 
 Þegar tölur eru færðar inn í magnreiti, svo sem reitinn **Magn** í birgðabókarlínu, er hægt að færa inn reikniregluna í stað heiltölumagns.  
 
-### Dæmi  
+### <a name="examples"></a>Dæmi
 
 - Ef tölurnar 19+19 eru slegnar inn er niðurstaðan í reitnum 38.  
 
@@ -177,7 +177,7 @@ When working on multiple tasks at a time or when managing interruptions to the c
 
 - Ef tölurnar 12/4 eru slegnar inn er niðurstaðan í reitnum 3.  
 
-## Neikvæðar tölur er færðar inn
+## <a name="entering-negative-numbers"></a>Neikvæðar tölur er færðar inn
 
 Hægt er að færa inn neikvæðar tölur eftir tveimur leiðum. Númerið -20.5 má færa inn sem:  
 
@@ -190,14 +190,14 @@ Hægt er að færa inn neikvæðar tölur eftir tveimur leiðum. Númerið -20.5
 
 Ef síðasti stafur segðarinnar er **+** eða **-**, mun öll segðin verða skráð með því formerki. Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.  
 
-## Dagsetning og tími færð inn
+## <a name="entering-dates-and-times"></a>Dagsetning og tími færð inn
 
 Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir dagsetningar (dagsetningarreitir). Hægt er að færa inn dagsetningar með eða án skiltákna.
 
 > [!NOTE]  
 > Hvernig skal Færa inn dagsetningu og tíma fer eftir **Svæði** stillingunum þínum. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
 
-### Dagsetningar færðar inn
+### <a name="entering-dates"></a>Dagsetningar færðar inn
 
 Þú getur annaðhvort notað gagnaval til að velja dagsetningu úr dagbók eða fært inn dagsetningar handvirkt. Þessi hluti veitir stutt yfirlit yfir hvernig skuli slá inn dagsetningar. Frekari upplýsingar er að finna á [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md).
 
@@ -223,7 +223,7 @@ Hægt er að færa inn einn af þessum kóðum í stað sérstakrar dagsetningar
 |v|Tilgreinir vinnudagsetninguna sem er sett upp í forritinu. Vinnudagsetningunni breytt úr valmyndinni [Breyta grunnstillingum](ui-change-basic-settings.md) Handhægt gæti verið að nota vinnudagsetningar ef verið er að nota margar færslur með aðra dagsetningu en dagsins í dag.|
 |n|Þetta tilgreinir að dagsetningin l eftir er lokunardagsetning, t.d. N123101.|  
 
-## Tími færður inn
+## <a name="entering-times"></a>Tími færður inn
 
 Þegar tímasetningar eru ritaðar er hægt að setja inn hvaða skiltákn sem er milli eininga en það er ekki nauðsynlegt. Ekki þarf að tilgreina mínútur, sekúndur eða FH/EH.  
 
@@ -241,11 +241,11 @@ Hægt er að færa inn einn af þessum kóðum í stað sérstakrar dagsetningar
 
  Rita þarf tvær tölur fyrir hverja tímaeiningu ef skiltákn er ekki notað.  
 
-## Sláðu inn sameinaða dagsetningar og tíma
+## <a name="entering-combined-datetimes"></a>Sláðu inn sameinaða dagsetningar og tíma
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## Færið inn tímalengd
+## <a name="entering-duration"></a>Færið inn tímalengd
 
 Hægt er að færa inn tímalengd sem tölu og mælieiningu.  
 
@@ -266,7 +266,7 @@ Hér eru nokkur dæmi.
 
  Tölunni 5 er breytt í 5 klst. ef mælieiningin er klukkustundir.  
 
-## <a name="decimal"></a>Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Að stilla skiltákn tugabrots sem á að nota með talnalyklaborðum
 
 Þegar aðgreiningarlykill  <kbd>með aukastöfum er notaður</kbd>  á talnaborði til að færa inn gögn eru raunveruleg tugabrot sem færð eru inn í svæðið ákvörðuð af svæðisstillingu þinni í Business Central. Flest svæði nota punkt (.) eða kommu (,) sem skiltákn fyrir tugabrot, eins og þú myndir yfirleitt sjá í upphæðum gjaldmiðla. Tugabrotslykillinn á talnaborðinu aðlagast að svæðinu þínu. Hann er oft ólíkur punkta- eða kommulykli á hinum hluta lyklaborðsins. Þú stillir svæðið í Business Central á síðunni **Mínar stillingar**.
 
@@ -275,7 +275,7 @@ Segjum til dæmis að þú sért að nota Talnalykil sem notar tímabil (.) sem 
 > [!TIP]
 > Það geta komið upp tilfelli þar sem þú vilt nota skiltákn tugabrots til að færa inn punkt (.). Gefum okkur til dæmis að þú hafir slegið inn dagsetningabil í síu, t.d. `01/01/2022..04/01/2022`, eða eitthvað sem krefst punkts. Til að móta þetta mál þarf að velja  <kbd>Aðgreiningarlykla</kbd>+<kbd>Alt</kbd>  á talnalyklaborinu. Þessi lyklasamsetning skiptir skiltákni tugabrots sem kemur með punkt og skiltákni tugabrots sem ákvarðast af **Svæðisstillingunni**.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

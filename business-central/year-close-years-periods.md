@@ -11,7 +11,7 @@ ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
 ---
-# Loka árum og tímabilum
+# <a name="closing-years-and-periods"></a>Loka árum og tímabilum
 
 Í lok fjárhagsárs verður að inna af hendi tiltekin stjórnunarverk, eins og að ganga úr skugga um að skjöl og færslubækur séu bókaðar, ganga úr skugga um að gjaldmiðilsgögn séu uppfærð, loka bókhaldi og fleira. Raunverulegt verk fara eftir fyrirtækinu.
 
@@ -29,7 +29,7 @@ Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir 
 | Loka fjárhagstímabili og reikningsári, færa jöfnuð rekstrareiknings í efnahagsreikning og bóka lokunarfærslu ársloka. |[Bókum lokað](year-close-books.md) |
 | Prenta út skýrslur sem eru gagnlegar við gerð fjárhagsskýrslna. |[Undirbúningur lokunaryfirlits](year-prepare-close-statement.md) |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

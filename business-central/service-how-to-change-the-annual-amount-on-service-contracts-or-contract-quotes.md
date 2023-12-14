@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Breyta árlegri upphæð þjónustusamnings eða samningstilboðs
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Breyta árlegri upphæð þjónustusamnings eða samningstilboðs
 Hægt er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs til að leiðrétta upphæðina sem verður reikningsfærð árlega.  
 
-## Árlegri upphæð þjónustusamnings eða samningstilboðs breytt:  
+## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Árlegri upphæð þjónustusamnings eða samningstilboðs breytt:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustusamningur** eða **Þjónustsamningstilboð** og velja síðan viðkomandi tengil.  
 2. Veldu samninginn eða samningstilboðið.  
@@ -22,14 +22,14 @@ Hægt er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs t
 5. Efninu í reitnum **Árleg upphæð** er breytt. Ekki er hægt að undirrita. þ.e. breyta í þjónustusamning ef unnið er í samningstilboði, né læsa þjónustusamningnum ef árleg upphæð er neikvæð. Ef árlega upphæðin er sett á núll verður efnið í reitnum **Reikningstímabil** að vera **Ekkert** við undirritun eða þegar þjónustusamningi er læst.  
 6. Eftir því hvort gátreiturinn **Heimila ójafnaðar upphæðir** er valinn er keyrð annaðhvort handvirk eða sjálfvirk skipting á mismun árlegrar upphæðar. Samningslínurnar verða uppfærðar á þann hátt að gildið í reitnum **Reiknuð árleg upphæð** verði jafnt nýju árlegu upphæðinni.  
 
-## Dreifing mismunar milli nýrrar og reiknaðrar árlegrar upphæðar
+## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Dreifing mismunar milli nýrrar og reiknaðrar árlegrar upphæðar
 Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs gæti verið gott að skipta mismuninum milli nýrra og reiknaðra árlegra upphæða í samningslínunum. Það eru þrjár leiðir til að dreifa upphæðum:
 
 * Jöfn dreifing  
 * Dreifa eftir línuupphæðum  
 * Dreifa eftir framlegð
 
-### Jöfn dreifing
+### <a name="even-distribution"></a>Jöfn dreifing
 Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs gæti verið gott að skipta mismuninum milli nýrra og reiknaðra árlegra upphæða í samningslínunum. Jöfn skipting er ein af sjálfvirku skiptingaraðferðunum sem geta hjálpað til við að skipta mismuni nýju og reiknuðu ársupphæðanna jafnt milli línuupphæða í samningslínunum. Eftirfarandi listi yfir skref í skiptingarferlinu lýsir grunnhugmyndinni að baki þessari aðferð:  
 
 1. Mismuninum milli gildanna í reitunum ný **Árleg upphæð** og **Reiknuð árleg upphæð** er deilt í fjölda samningslína í þjónustusamningnum eða samningstilboðinu.  
@@ -41,7 +41,7 @@ Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilbo�
 
  Skrefin eru endurtekin fyrir hverja samningslínu.  
 
-#### Dæmi  
+#### <a name="example"></a>Dæmi
 Gátreiturinn **Heimila ójafnaðar upphæðir** er ekki valinn í þjónustusamningnum sem inniheldur þrjár samningslínur með þessum upplýsingum.  
 
 |Vara|Línukostnaður|Línuvirði|Línuafsl. %|Afsl.upphæð línu|Línuupphæð|Framlegð|  
@@ -62,7 +62,7 @@ Að lokum verða þessi gögn í samningslínunum.
 |Vara 2|40,00|50,00|16.00|8.00|42.00|2.00|  
 |Vara 3|50.00|70.00|14.29|10.00|60.00|10.00|  
 
-### Drefing byggð á línuupphæð
+### <a name="distribution-based-on-line-amount"></a>Drefing byggð á línuupphæð
 Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs gæti verið gott að skipta mismuninum milli nýrra og reiknaðra árlegra upphæða í samningslínunum. Skipting eftir línuupphæð er sjálfvirk aðferð sem getur hjálpað til við að skipta mismuni nýju og reiknuðu ársupphæðanna milli línuupphæða í samningslínunum. Skiptingin verður hlutfallsleg eftir línuupphæðarhlut þeirra í reiknuðu ársupphæðinni. Eftirfarandi listi yfir skref í skiptingarferlinu fyrir hverja samningslínu lýsir grunnhugmyndinni að baki þessari aðferð:  
 
 1. Línuupphæðarprósentan er reiknuð á eftirfarandi hátt: efninu í reitnum **Línuupphæð** er deilt í samtölu gilda í reitnum **Reiknuð árleg upphæð** í öllum samningslínum.  
@@ -75,7 +75,7 @@ Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilbo�
 
 Skrefin eru endurtekin fyrir hverja samningslínu.  
 
-#### Dæmi  
+#### <a name="example-1"></a>Dæmi
 Gátreiturinn **Heimila ójafnaðar upphæðir** er ekki valinn í þjónustusamningnum sem inniheldur þrjár samningslínur með þessum upplýsingum.  
 
 |Vara|Línukostnaður|Línuvirði|Línuafsl. %|Afsl.upphæð línu|Línuupphæð|Framlegð|  
@@ -102,7 +102,7 @@ Að lokum verða þessi gögn í samningslínunum.
 |Vara 2|20,00|23,00|8.65|1.99|21.01|1.01|  
 |Vara 3|24.00|27.00|11.37|3.07|23.93|-0,07|  
 
-### Dreifing byggð á framlegð
+### <a name="distribution-based-on-profit"></a>Dreifing byggð á framlegð
 Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs gæti verið gott að skipta mismuninum milli nýrra og reiknaðra árlegra upphæða í samningslínunum. Skipting eftir framlegð er ein af sjálfvirku aðferðunum sem geta hjálpað til við að skipta mismuni nýju og reiknuðu ársupphæðanna milli línuupphæða í samningslínunum. Þessi skipting verður hlutfallsleg eftir framlegðarhlut þeirra í heildarframlegð samningsins eða samningstilboðsins. Eftirfarandi listi yfir skref í skiptingarferlinu fyrir hverja samningslínu lýsir grunnhugmyndinni að baki þessari aðferð:  
 
 1. Framlegðarprósentan er reiknuð á eftirfarandi hátt: efninu í reitnum **Framlegð** er deilt í samtölu gilda í reitnum **Framlegð** í öllum samningslínum.  
@@ -113,7 +113,7 @@ Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilbo�
     * Línuafsl. % = Afsl.upphæð línu / Línuvirði * 100  
     * Framlegð = Línuupphæð - Línukostnaður  
 
-#### Dæmi  
+#### <a name="example-2"></a>Dæmi
 Gátreiturinn **Heimila ójafnaðar upphæðir** er ekki valinn í þjónustusamningnum sem inniheldur þrjár samningslínur með þessum upplýsingum.  
 
 |Vara|Línukostnaður|Línuvirði|Línuafsl. %|Afsl.upphæð línu|Línuupphæð|Framlegð|  
@@ -140,7 +140,7 @@ Að lokum verða þessi gögn í samningslínunum.
 |Vara 2|50,00|58,00|9.93|5.76|52.24|2.24|  
 |Vara 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 [Búa til þjónustusamninga og þjónustusamningstilboð](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
 

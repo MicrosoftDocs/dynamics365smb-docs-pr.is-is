@@ -12,7 +12,7 @@ ms.date: 10/03/2023
 ms.author: altotovi
 ---
 
-# Notaðu rafræn skjöl við sölu og innkaup
+# <a name="use-e-documents-in-sales-and-purchases"></a>Notaðu rafræn skjöl við sölu og innkaup
 
 Hægt er að nota stillt rafræn skjöl (e-skjöl) með sölu- og innkaupaskjölum.
 
@@ -35,13 +35,13 @@ Hægt er að nota stillt rafræn skjöl (e-skjöl) með sölu- og innkaupaskjöl
 > [!NOTE]
 > Eins og er er aðeins hægt að nota innkaupapöntun þegar þú býrð til skjalið úr rafrænu skjalinu frá lánardrottnum þínum. Hins vegar geturðu ekki uppfært núverandi skjal með línum sem þú fékkst frá lánardrottni þínum.  
 
-## Rafræn skjöl í sölu
+## <a name="e-documents-in-sales"></a>Rafræn skjöl í sölu
 
 Til að búa til og senda rafrænan reikning til viðskiptavinar þarf að búa til og bóka sölureikninginn. Til að læra meira um staðlaða ferlið, sjá [Reikningarsala](sales-how-invoice-sales.md).
 
 Eftir að þú hefur birt söluskjalið skaltu opna  **Bókaður sölureikningur** síðuna til að fá aðgang að tengdu **E-skjalinu** síðunni.
 
-### Skoða rafræn skjöl
+### <a name="view-e-documents"></a>Skoða rafræn skjöl
 
 Fylgdu þessum skrefum til að skoða núverandi rafræn skjöl.
 
@@ -50,7 +50,7 @@ Fylgdu þessum skrefum til að skoða núverandi rafræn skjöl.
 3. Reiturinn **Skrá**  sýnir skjalanúmer bókaðs sölureiknings. Veldu tengilinn til að opna skjalið.
 4. Í reitnum **Staða rafrænna skjala**  er hægt að skoða rauntímastöðu skjalsins og staðsetningu þess í vinnsluferlinu. Ef skjalið er póstað er staðan **Afgreidd**.
 
-### Staða rafrænna skjala og logs
+### <a name="e-document-statuses-and-logs"></a>Staða rafrænna skjala og logs
 
 Til að fá upplýsingar um þjónustustöðustig rafrænna skjalsins þíns skaltu skoða **Staða rafrænna skjalaþjónustu** Hraðflipann. Á línunum sýnir kerfið eina eða fleiri þjónustur sem skjalið notaði. Í algengustu atburðarásinni notar hvert skjal aðeins eina þjónustu. Hins vegar getur skjal notað margar þjónustur.
 
@@ -74,11 +74,11 @@ Ef það er vandamál hjá þjónustuveitunni og ekki er hægt að senda skjali�
 
 Eftir að málið hefur verið lagað skaltu keyra handvirkt  **Senda skjal** aðgerðirnar. Ef þú þarft mismunandi aðgerðir, eins og **Endurbúið skjal**, **Hætta við skjal** eða **Fáðu samþykki**, þú getur keyrt þá.
 
-## Rafræn skjöl í innkaupum
+## <a name="e-documents-in-purchases"></a>Rafræn skjöl í innkaupum
 
 Móttaka rafrænna innkaupareikninga í Dynamics 365 Business Central er hægt að gera sem lotuvinnu eða handvirkt.
 
-### Keyra runuvinnuna
+### <a name="run-the-batch-job"></a>Keyra runuvinnuna
 
 > [!NOTE]
 > Þetta runuverk er fyrir sjálfvirka innheimtu á reikningum sem koma inn. Það getur aðeins virkað í landi eða svæði þar sem virknin er til staðar.
@@ -102,7 +102,7 @@ Vegna þess að villur í söluferlinu eru að mestu tengdar framboði þjónust
 
 Eftir að þú hefur lagað villurnar og viðvaranirnar geturðu handvirkt tilgreint hvenær kerfið ætti að búa til innkaupareikning byggt á uppsetningu þinni með því að velja **Búa til skjal**.
 
-### Flytja inn reikninga handvirkt
+### <a name="manually-import-invoices"></a>Flytja inn reikninga handvirkt
 
 Til að flytja inn ytri rafræn skjöl handvirkt skaltu fylgja þessum skrefum.
 
@@ -113,7 +113,7 @@ Til að flytja inn ytri rafræn skjöl handvirkt skaltu fylgja þessum skrefum.
 5. Þegar þú hefur lokið við að laga vandamál, í hópnum **Flytja inn handvirkt**, skaltu velja **Create Document**.
 6. Eftir að skjalið er búið til í Business Central geturðu skoðað það alveg eins og þú gerir ef þú notar runuvinnu.
 
-## Yfirlit yfir stöðu rafrænna skjala
+## <a name="overview-of-e-document-statuses"></a>Yfirlit yfir stöðu rafrænna skjala
 
 Til að fá betri yfirsýn yfir öll rafræn skjöl í fyrirtækinu er hægt að velja  **Bókhaldari** hlutverkamiðstöð þar sem stöður rafrænna skjala eru til staðar. Þar geturðu fundið rafræn skjalastarfsemi sem hefur eftirfarandi stöður:
 
@@ -129,7 +129,7 @@ Til að fá betri yfirsýn yfir öll rafræn skjöl í fyrirtækinu er hægt að
     - Í vinnslu
     - Villa
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Hvernig á að setja upp rafræn skjöl í Business Central](finance-how-setup-edocuments.md)  
 [Hvernig á að framlengja rafræn skjöl í Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

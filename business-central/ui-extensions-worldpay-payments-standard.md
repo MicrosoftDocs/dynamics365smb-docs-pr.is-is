@@ -9,7 +9,7 @@ ms.search.form: '1360, 1361, 1364,'
 ms.date: 08/02/2023
 ms.custom: hap-template
 ---
-# WorldPay Payments Standard Viðbótin
+# <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard Viðbótin
 
 > [!CAUTION]
 >  WorldPay Payments Standard Verður eftirútskrivað. Lóðin er merkt sem úrelt byrjun í 2023 út bylgju 2. App verður virkt fyrir næstu þrjár stórútgáfur og þá verður það fjarlægt.
@@ -20,7 +20,7 @@ Ef þú virkjar viðaukann, þegar þú sendir sölureikning með tölvupósti �
 
 Það er ókeypis að virkja viðbætur greiðsluþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)] en hafa þarf samband við greiðsluþjónustuna til að stofna reikning. Nánari upplýsingar eru í [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

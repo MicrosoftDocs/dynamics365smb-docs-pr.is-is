@@ -8,43 +8,43 @@ ms.author: bholtorf
 ms.date: 02/23/2022
 ---
 
-# Algengar spurningar um prufuútgáfu Dynamics 365 Business Central
+# <a name="dynamics-365-business-central-trial-faq"></a>Algengar spurningar um prufuútgáfu Dynamics 365 Business Central
 
 [!INCLUDE [beethoven-trial](includes/beethoven-trial.md)]
 
-### Get ég breytt prufuútgáfunni í greitt leyfi?
+### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Get ég breytt prufuútgáfunni í greitt leyfi?
 
 Já, þú getur það! Frekari upplýsingar er að finna á[Hafist handa með áskrift](trial-signup.md#get-started-with-a-subscription).  
 
-### Hver eru takmörk og stærðarheimildir prufuútgáfunnar?
+### <a name="what-are-the-trial-limits-and-quotas"></a>Hver eru takmörk og stærðarheimildir prufuútgáfunnar?
 
 Ókeypis prufuútgáfan inniheldur sýnigögn. Ef þú vilt prófa Business Central með eigin gögn geturðu skipt yfir í ókeypis 30 daga prufutíma með auðu fyrirtæki. Stjórnandi þinn getur fengið frekari upplýsingar um prufuútgáfur og áskriftir [hér](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-### Hvernig byrja ég að nota prufuútgáfuna?
+### <a name="how-do-i-start-using-the-trial"></a>Hvernig byrja ég að nota prufuútgáfuna?
 
 Þegar þú hefur skráð þig í prufuútgáfuna ferður á sjálfgefna heimasíðu. Á heimasíðunni er að finna tengil á nokkur algengustu verkin og þú getur nálgast ábendingar og leiðarvísa inni í forritinu.  
 
 Leiðbeiningar um uppsetningu geta hjálpað þér að setja upp hlutina. Frekari upplýsingar er að finna í [Undirbúðu þig fyrir að stunda viðskipti](ui-get-ready-business.md).  
 
-### Hvaða eiginleikar eru í boði í prufuútgáfunni?
+### <a name="what-features-are-available-in-the-trial"></a>Hvaða eiginleikar eru í boði í prufuútgáfunni?
 
 Ókeypis prufuútgáfan inniheldur næstum alla möguleikana í víðtæku safni af [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Undirbúðu þig fyrir að stunda viðskipti](ui-get-ready-business.md).  
 
-### Hversu lengi endist prufuútgáfan?
+### <a name="how-long-does-the-trial-last"></a>Hversu lengi endist prufuútgáfan?
 
 Ókeypis prufuútgáfa af Business Central endist eins lengi og þú vilt svo lengi sem þú heldur áfram að skrá þig inn. En ef þú vilt nota þín eigin gögn verður þú að skipta yfir í 30 daga prufuútgáfu.  
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-### Hvernig fjarlægi ég sýnigögn úr prufuútgáfunni?
+### <a name="how-do-i-remove-sample-data-from-the-trial"></a>Hvernig fjarlægi ég sýnigögn úr prufuútgáfunni?
 
 Skiptu yfir í 30 daga prufuútgáfu og bættu svo þínum eigin gögnum við. Frekari upplýsingar er að finna í [Flytja innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) í efni stjórnanda (aðeins á ensku).  
 
-### Hvernig endurheimti ég sýnigögn?
+### <a name="how-do-i-restore-sample-data"></a>Hvernig endurheimti ég sýnigögn?
 
 Það er ekki hægt. Ef þú eyðir óvart sýnigögnum skaltu biðja stjórnandann þinn um að búa til nýtt sandkassaumhverfi. Frekari upplýsingar er að finna í [Framleiðslu- og sandkassaumhverfi](/dynamics365/business-central/dev-itpro/administration/environment-types) í efni stjórnanda (aðeins á ensku).  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Skráning fyrir ókeypis prufuútgáfu af Dynamics 365 Business Central](trial-signup.md)  
 [Algengar spurningar um notkun Business Central](across-faq.yml)  

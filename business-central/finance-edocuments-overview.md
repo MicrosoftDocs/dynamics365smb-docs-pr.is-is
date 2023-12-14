@@ -12,7 +12,7 @@ ms.date: 10/10/2023
 ms.author: altotovi
 ---
 
-# Yfirlit yfir skjöl
+# <a name="e-documents-overview"></a>Yfirlit yfir skjöl
 
 Rafræn skjöl (e-skjöl) eru bakbein nútíma viðskiptaviðskipta. Þeir enáttavita um lífsnauðsynleg skjöl, svo sem reikninga og kvittanir í báðar áttir (afhending og kvittun). Þeir bæta einnig við getu fyrir stöðu skjals – tengt skilaboð milli aðgangsstaða.
 
@@ -32,7 +32,7 @@ Hægt er að nota appið E-Document í löndum/svæðum þar sem fyrirtæki þur
 | [Framlengja virkni rafrænna skjala](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Lærðu að útvíkka virkni e-skjala með sértækum staðbundnum eða Greinandi kröfum með því að búa til fleiri forrit ofan á það eitt. |
 | [Rafræn gagnaskipti](across-data-exchange.md) | Lærðu að nota Gagnaskiptarammann til að hafa umsjón með skiptum á gögnum í viðskiptaskjölum, svo sem bankaskrám og gengi gjaldmiðla. | 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Fjármálastjórnun](finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
