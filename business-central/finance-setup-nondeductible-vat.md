@@ -12,7 +12,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-non-deductible-vat"></a>Settu upp ófrádráttarbæran virðisaukaskatt
+# Settu upp ófrádráttarbæran virðisaukaskatt
 
 Ófrádráttarbær virðisaukaskattur (VSK) er virðisaukaskattur sem kaupandi ber að greiða, en hann er ekki frádráttarbær frá eigin virðisaukaskattsskyldu kaupanda. Fyrirtæki geta yfirleitt endurheimt virðisaukaskatt af kaupum á vörum og þjónustu sem tengist atvinnustarfsemi þeirra. Hins vegar, í sumum tilfellum, ber fyrirtæki virðisaukaskatt sem er ekki frádráttarbær. Þessar aðstæður eru venjulega tengdar staðbundnum reglugerðum og geta verið mismunandi eftir löndum/svæðum. Hins vegar er líkanið að nota ófrádráttarbæran eða frádráttarbæran virðisaukaskatt að hluta til svipað. Þú getur notað hlutfallslegan virðisaukaskatt til að reikna út virðisaukaskatt þegar það er frádráttarbær og ófrádráttarbær virðisaukaskattur.
 
@@ -26,7 +26,7 @@ Vegna þess að það getur verið erfitt að vita hvar og hvernig hlutur er not
 > [!IMPORTANT]
 > Þessi alþjóðlegi eiginleiki er fáanlegur í öllum löndum með virkan VSK **nema í Belgíu, Ítalíu og Noregi**. Þessar staðsetningar hafa þegar núverandi staðbundna eiginleika og verða uppfærðar í framtíðinni. Ekki keyra þennan eiginleika í þessum löndum vegna þess að uppfærsluferlið er ekki til.
 
-## <a name="use-non-deductible-vat"></a>Notaðu ófrádráttarbæran virðisaukaskatt
+## Notaðu ófrádráttarbæran virðisaukaskatt
 
 1. Veldu ![peruna sem opnar Segðu mér eiginleikann 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **VAT Setup** og veldu síðan tengda hlekkinn.
 2. Veldu gátreitinn **Virkja ófrádráttarbæran VSK** .
@@ -41,7 +41,7 @@ Vegna þess að það getur verið erfitt að vita hvar og hvernig hlutur er not
     3. Veljið gátreitinn **Nota fyrir vinnukostnað** til að tilgreina að óafdráttarbær virðisaukaskattur verði að bæta við verkkostnaðinn þegar þú kaupir vörur fyrir verkið. Að öðrum kosti mun ófrádráttarbær virðisaukaskattur ekki hafa áhrif á vinnukostnaðinn og heildarupphæðin verður aðeins skráð á aðalbókarstigi.
     4. Veldu **Sýna ekki deed. VSK In Lines** gátreitur til að tilgreina að ófrádráttarbær virðisaukaskattur verði að sýna á skjalalínusíðum til að auðvelda meðhöndlun virðisaukaskattsupphæða.
 
-## <a name="use-the-non-deductible-vat-percentage"></a>Notaðu ófrádráttarbæra virðisaukaskattsprósentu
+## Notaðu ófrádráttarbæra virðisaukaskattsprósentu
 
 1. Veldu ![peruna sem opnar Segðu mér eiginleikann 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **VSK-bókunaruppsetning** og veldu síðan tengda hlekkinn.
 2. Á síðunni **VSK-bókunaruppsetning**  skaltu stilla reitina eins og lýst er í eftirfarandi töflu.
@@ -62,7 +62,7 @@ Vegna þess að það getur verið erfitt að vita hvar og hvernig hlutur er not
 >
 > Ekki nota sama **VSK auðkenni** gildi fyrir bæði venjulegan VSK þar sem **Ófrádráttarbær VSK %** reiturinn er stillt á **0** (núll) og venjulegan VSK þar sem **Ófrádráttarbær VSK %** reiturinn er stilltur á ekki -núll gildi. Að öðrum kosti verður heildarupphæð ófrádráttarbærrar virðisaukaskatts ranglega reiknuð.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjármálastjórnun](finance.md)  
 [Hönnunarupplýsingar: Ófrádráttarbær VSK](design-details-nondeductible-vat.md)  

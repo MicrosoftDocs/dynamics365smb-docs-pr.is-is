@@ -10,7 +10,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Ganga frá vörum með vöruhúsafrágangi
+# Ganga frá vörum með vöruhúsafrágangi
 
 Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru vörur afhentar og þær síðan notaðar með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
 
@@ -31,7 +31,7 @@ Eftir gildinu í  **reitnum nota vinnublað**  notkunar á  **birgðageymsluspja
 
 Auk staðlaðra aðferða til að stofna vöruhúsafrágang sem þessi grein lýsir er hægt að stofna frágang úr tengdri bókaðri vöruhúsamóttöku. Þetta er gagnlegt ef búið er að eyða frágangslínum eða ef ákveðið er að nota vinnublaðið sem frágangurinn er, því hægt er að stofna eða endurafþakka frágangsleiðbeiningar úr bókuðu móttökulínunum.
 
-## <a name="zone-and-bin-codes"></a>Svæði og hólfakóta
+## Svæði og hólfakóta
 
 Á birgðageymslum sem eru sett upp þannig að notaður sé beinn frágangur og tínsla eru eftirtaldar stillingar nauðsynlegar til að ákvarða besta staðinn til að setja vörurnar:  
 
@@ -41,7 +41,7 @@ Auk staðlaðra aðferða til að stofna vöruhúsafrágang sem þessi grein lý
 
 Hólfaflokkun er notuð þegar fleiri en eitt hólf eru í samræmi við skilyrðin í frágangssniðmátinu. Ef bæði skilyrði frágangssniðmáts og hólfaflokkun eru þau sömu er valið hólf með hærra númeri.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Frágangur skjala í magni búið til með því að setja vinnublaðið í gang
+## Frágangur skjala í magni búið til með því að setja vinnublaðið í gang  
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
@@ -77,7 +77,7 @@ Hægt er að stofna frágangsskjöl fyrir margar innhreyfingar á sama tíma og 
 
 8. Valið  **er í lagi**  til að búa til frágang.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Til að búa til frágang úr bókaðri uppskrift
+## Til að búa til frágang úr bókaðri uppskrift
 
 Ef Birgðageymsla er notuð fyrir bæði frágangsvinnslu og móttöku og eytt er frágangslínum eða ef beinn frágangur og tínsla eru notuð og ákveðið er að nota ekki frágangsvinnublaðið er hægt að stofna eða endurgera leiðbeiningar fyrir bókuðu móttökulínurnar.
 
@@ -90,7 +90,7 @@ Ef Birgðageymsla er notuð fyrir bæði frágangsvinnslu og móttöku og eytt e
 4. Ef gengið hefur verið frá móttökunni að hluta eða alls ekki er smellt á aðgerðina **stofna frágang**.  
 5. Reitirnir eru fylltir út eftir þörfum og síðan er valið  **í lagi**.  
 
-## <a name="to-put-items-away"></a>Að setja vörur í burtu
+## Að setja vörur í burtu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **vöruhúsafrágang** og veljið síðan tengda tengilinn.
 
@@ -114,7 +114,7 @@ Ef Birgðageymsla er notuð fyrir bæði frágangsvinnslu og móttöku og eytt e
 
 5. Þegar allar vörurnar hafa verið settar í hólf samkvæmt skal velja aðgerðina **Skrá frágang**.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

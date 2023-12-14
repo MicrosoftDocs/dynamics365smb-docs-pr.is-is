@@ -10,7 +10,7 @@ ms.search.form: '1102, 1105, 1106, 1107, 1109, 1114'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="defining-and-allocating-costs"></a>Skilgreina og úthluta kostnaði
+# Skilgreina og úthluta kostnaði
 
 Kostnaðarúthlutun færir kostnað og tekjur milli kostnaðargerða, kostnaðarstaða og kostnaðhluta. Hægt er að tilgreina eins margar línur og þörf krefur. Hver úthlutun samanstendur af:  
 
@@ -28,11 +28,11 @@ Fyrir hvert úthlutunarmarki skilgreinir notandi úthlutunarstofninn. Úthlutuna
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Uppsetning uppruna og markhópa úthlutanna
+## Uppsetning uppruna og markhópa úthlutanna
 
 Hver úthlutun samanstendur af úthlutunaruppruna og einu eða fleiri úthlutunarmörkum. Úthlutunaruppruninn skilgreinir hvaða kostnaði skal úthlutað. Úthlutunarmörkin ákvarða hvert kostnaði verður úthlutað.  
 
-### <a name="to-set-up-cost-allocations"></a>Til að setja upp kostnaðarúthlutanir
+### Til að setja upp kostnaðarúthlutanir
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Kostnaðarúthlutun** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Kostnaðarúthlutun** skal velja reitinn **Breyta**.  
@@ -50,11 +50,11 @@ Hver úthlutun samanstendur af úthlutunaruppruna og einu eða fleiri úthlutuna
 > [!NOTE]  
 > Veljið gátreitinn **Útilokað** til að gera úthlutunaruppsetningu óvirka.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Uppsetning afmarkanir fyrir Kvik úthlutunargrunnar.
+## Uppsetning afmarkanir fyrir Kvik úthlutunargrunnar.
 
 Kvika úthlutunaraðferðin byggist á breytanlegum gildum. Til dæmis fjöldi starfsmenn í kostnaðarstöð eða seldar vörur af kostnaðarhlut á tilteknu tímabili. Níu forskilgreindir úthlutunargrunnar og tólf kvik dagsetningarsvið eru í boði. Mismunandi afmarkanir eru settar á grundvelli úthlutunargrunns.  
 
-### <a name="setting-filters"></a>Afmarkanir stilltar
+### Afmarkanir stilltar
 
 Eftirfarandi tafla sýnir hvaða afmarkanir eru mögulegar fyrir mismunandi úthlutunargrunna og hvaða gildi eru leyfileg í reitunum **Nr. afmörkunar** og **Afmörkun hóps**. Veljið  <kbd>F1</kbd>  í  **reitnum Dagsetningarafmörkunarkóti**  til að lesa nákvæmar lýsingar.  
 
@@ -70,7 +70,7 @@ Eftirfarandi tafla sýnir hvaða afmarkanir eru mögulegar fyrir mismunandi úth
 |Seldar vörur (upphæð )|Vörunr.|Já|Já|Já|Birgðabókunarflokkur|  
 |Keyptar vörur (upphæð)|Vörunr.|Já|Já|Já|Birgðabókunarflokkur|
 
-## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Sýnishorn 1: Skilgreining fastrar úthlutunar á grundvelli úthlutunarhlutfalls
+## Sýnishorn 1: Skilgreining fastrar úthlutunar á grundvelli úthlutunarhlutfalls
 
 Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun eða skilgreindu úthlutunarhlutfalli, s.s. 5:2:4.  
 
@@ -79,7 +79,7 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 > [!NOTE]  
 > Í dæminu er notast við sýnigögnin í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Til að skilgreina PROD kostnaðarstað úthlutunarveitu á flýtiflipanum Almennt
+### Til að skilgreina PROD kostnaðarstað úthlutunarveitu á flýtiflipanum Almennt  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Kostnaðarúthlutun** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Kostnaðarúthlutun** skal velja aðgerðina **Nýtt**.  
@@ -89,7 +89,7 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 6. Í reitinn **Kóði kostnaðarstaðar** er slegið inn **SALA**.  
 7. Í **Kreditfært í kostnaðartegund** reitinn er slegin inn kostnaðargerðin **9903**.  
 
-### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Til að skilgreina kostnaðarhluti úthlutunarmarks á flýtiflipanum Línur
+### Til að skilgreina kostnaðarhluti úthlutunarmarks á flýtiflipanum Línur  
 
 1. Í fyrstu línunni í reitnum **Markkostnaðartegund** sláið inn **9903**.  
 2. Í fyrstu línunni í reitnum **Markkostnaðarhlutur** veljið **ACCESSO**.  
@@ -110,14 +110,14 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] reiknar sjálfkrafa reitinn **Prósenta** með því að nota prósentuhlutfall sem er háð öllum þremur úthlutunarhlutföllum sem færð eru inn í reitinn **Deila** í öllum þremur línunum.
 
-## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Sýnishorn 2: Skilgreining kvikrar úthlutunar á grundvelli seldra vara
+## Sýnishorn 2: Skilgreining kvikrar úthlutunar á grundvelli seldra vara
 
 Þetta efnisatriði sýnir dæmi um hvernig á að skilgreina úthlutanir með því að nota kvika úthlutunaraðferð. Í dæminu er kvika úthlutun af kostnaði fyrir kostnaðarstað breytt til að styðja nýjan kostnaðarhlut IT EQUIPMENT. IT EQUIPMENT pakkar hafa vörunúmer frá 8904-W til 8924-W. Sölutölur fyrra árs eru notaðar til að reikna út hlutdeild. Úthlutunin er bókuð í aukakostnaðartegund 9903.  
 
 > [!NOTE]  
 > Í dæminu er notast við sýnigögnin í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Til að skilgreina kvikar úthlutanir sem byggja á vörum sem seldar voru á síðasta ári
+### Til að skilgreina kvikar úthlutanir sem byggja á vörum sem seldar voru á síðasta ári  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Kostnaðarúthlutanir** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Kostnaðarúthlutun** skal velja aðgerðina **Nýtt**.  
@@ -137,7 +137,7 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] notar sölutölur fyrri ára til að reikna hlut 1596.50 SGM með 100 prósentum fyrir pakka IT EQUIPMENT. Þetta merkir að öllum seldum vörum síðasta árs verður úthlutað á kostnaðarhlutinn IT EQUIPMENT.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
  [Uppsetning kostnaðarbókhalds](finance-set-up-cost-accounting.md)  
  [Flytja og bóka kostnaðarfærslur](finance-transfer-and-post-cost-entries.md)  

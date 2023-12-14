@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814'
 ---
-# <a name="use-automated-data-capture-systems-adcs-foundation"></a>Notaðu sjálfvirkan gagnafangakerfi (ADCS) grunn
+# Notaðu sjálfvirkan gagnafangakerfi (ADCS) grunn
 
 > [!Important]
 > Sjálfvirkt gagnatökukerfi (ADCS) býður upp á leið fyrir [!INCLUDE[prod_short](includes/prod_short.md)] til að eiga samskipti við handtæki í gegnum vefþjónustu. Vinna þarf með Microsoft-samstarfsaðila sem geta gefið tengilinn á milli vefþjónustu og tiltekins handtækis. 
@@ -25,11 +25,11 @@ Magn upplýsinga sem birtar eru í handtölvunni er skilgreint í smágluggaupps
 - Textaupplýsingar.  
 - Skilaboð til að sýna staðfestingar eða villurnar um verkþætti sem framkvæmdir eru og skráðir af handtölvu notanda.
 
-## <a name="to-enable-web-services-for-adcs"></a>Til að virkja vefþjónustu fyrir ADCS
+## Til að virkja vefþjónustu fyrir ADCS
 
 Tila ð nota sjálfvirkt gagnatökukerfi þarf að virkja ADCS-vefþjónustu. Þú verður að vinna með Microsoft samstarfsaðila sem getur innleitt vefþjónustu sem getur tengt ADCS og tiltekið lófatæki. Þú getur lært meira um vefþjónustuna fyrir ADCS með því að skoða kóðaeiningu 7714. 
  
-## <a name="to-set-up-a-warehouse-to-use-adcs"></a>að setja vöruhús upp fyrir notkun ADCS
+## að setja vöruhús upp fyrir notkun ADCS  
 
 Ef nota á ADCS verður að tilgreina hvaða birgðageymslur nota tæknina.  
 
@@ -40,7 +40,7 @@ Ef nota á ADCS verður að tilgreina hvaða birgðageymslur nota tæknina.
 2. Veldu vöruhúsið sem þú vilt virkja ADCS fyrir og veldu síðan aðgerðina **Breyta** .
 3. Á síðunni **Staðsetningarspjald**  skaltu kveikja á **Nota ADCS** rofa.  
 
-## <a name="to-specify-an-item-to-use-adcs"></a>Tilgreina vöru til að nota ADCS
+## Tilgreina vöru til að nota ADCS  
 
 Hver vara í vöruhúsi sem nota á með ADCS verður að fá úthlutaðan auðkenningarkótanum til að tengja skjalið ásamt vörunúmerinu. Til dæmis er hægt að nota strikamerki vörunnar sem auðkenniskóta. Vara getur einnig haft margar auðkenniskóta. Þetta getur komið að gagni í tilfellum þar sem vara er tiltæki í ýmsum mælieiningu, s.s. stykkjum og brettum. Í þessu tilfelli er úthlutað auðkenniskóta fyrir hvern.
 
@@ -56,7 +56,7 @@ Hver vara í vöruhúsi sem nota á með ADCS verður að fá úthlutaðan auðk
 7. Velja hnappinn **Í lagi**.  
 8. Til að fara yfir upplýsingarnar skal velja reitinn **Kennimerkiskóði** til að opna síðuna **Vörukennimerki**.
 
-## <a name="to-add-an-adcs-user"></a>Til að bæta við ADCS notanda
+## Til að bæta við ADCS notanda  
 
 Þú getur bætt hvaða notanda sem er við ADCS. Þegar þú gerir það verður notandinn að gefa upp lykilorð. Einnig er hægt að bjóða upp á tengingu sem auðkennir ADCS-notandann sem starfsmann vöruhúss. ADCS notendalykilorðið getur verið annað en innskráningarlykilorð þeirra. Frekari upplýsingar eru í [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md).
 
@@ -65,7 +65,7 @@ Hver vara í vöruhúsi sem nota á með ADCS verður að fá úthlutaðan auðk
 3. Á svæðinu **Heiti** skal færa inn heiti fyrir notandann. Nafnið má ekki innihalda fleiri en 20 stafi, að meðtöldum bilum.  
 4. Í reitnum **Lykilorð** er lykilorð fært inn.  
 
-### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Til að tilgreina að starfsmaður vöruhúss sé ADCS notandi
+### Til að tilgreina að starfsmaður vöruhúss sé ADCS notandi  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
 2. Ef þörf krefur skal bæta við nýjum starfsmanni vöruhúss. Frekari upplýsingar á [Setja upp starfsmenn í vöruhúsum](warehouse-how-to-set-up-warehouse-employees.md).  
@@ -75,7 +75,7 @@ Hver vara í vöruhúsi sem nota á með ADCS verður að fá úthlutaðan auðk
 > [!NOTE]  
 > Sjálfgefið vöruhús fyrir starfsmanninn ætti að nota ADCS.
 
-## <a name="to-create-and-customize-miniforms"></a>Hvernig á að búa til og sérsníða smáglugga
+## Hvernig á að búa til og sérsníða smáglugga
 
 Smágluggar eru notaðir til að gefa lýsa upplýsingum sem birtar eru á lófatækjum. Til dæmis er hægt að stofna smáglugga til að styðja vöruhúsaaðgerðina að tína vörur. Þegar búið er að stofna smáglugga er hægt að bæta við hann virkni fyrir algengar aðgerðir sem notandinn gerir með handtölvum, eins og flutningur upp eða niður línu.  
 
@@ -87,7 +87,7 @@ Smágluggar eru notaðir til að gefa lýsa upplýsingum sem birtar eru á lófa
 > * 7712
 > * 7713  
 
-### <a name="to-create-a-miniform-for-adcs"></a>Til að búa til smáglugga fyrir ADCS
+### Til að búa til smáglugga fyrir ADCS  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Smágluggar** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -99,14 +99,14 @@ Smágluggar eru notaðir til að gefa lýsa upplýsingum sem birtar eru á lófa
 
 Þegar búið er að búa til smáglugga, eru næstu skref er að stofna aðgerðir og tengja virkni fyrir ýmsan lyklaborðsinnslátt.  
 
-### <a name="to-customize-miniform-functions"></a>Til að sérsníða aðgerðir smáglugga
+### Til að sérsníða aðgerðir smáglugga
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Smágluggar** og velja síðan viðkomandi tengil.  
 2. Veljið smáglugga af listanum og veljið svo aðgerðina **Breyta**.  
 3. Velja aðgerðina **Aðgerðir**.  
 4. Í fellilistanum **Aðgerðakóði** skal velja kóða fyrir aðgerð sem á að tengja við smáglugga. Til dæmis geturðu valið **ESC** til að tengja virkni við **ESC** lykilinn.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Yfirlit yfir vöruhússtjórnun](design-details-warehouse-management.md)
 [Birgð](inventory-manage-inventory.md)  

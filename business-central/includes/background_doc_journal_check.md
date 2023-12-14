@@ -4,7 +4,7 @@ ms.topic: include
 ms.date: 02/23/2022
 ms.author: bholtorf
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Athugaðu gögn í skjölum og færslubókum á meðan þú vinnur
+## Athugaðu gögn í skjölum og færslubókum á meðan þú vinnur
 
 Í 2022 útgáfutímabili 1 kynntum við eiginleika sem mun staðfesta gögnin sem færð eru inn í skjöl og færslubækur á meðan þau eru slegin inn. Að kveikja á þessum eiginleika getur til dæmis hjálpa til við að forðast mistök í gagnaskráningu eða að geta ekki bókað eitthvað vegna villu. 
 

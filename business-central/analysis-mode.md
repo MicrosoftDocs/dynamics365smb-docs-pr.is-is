@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# <a name="analyze-list-page-and-query-data-using-data-analysis-mode"></a>Greina listasíðu og Fyrirspurnargögn með gagnagreiningum
+# Greina listasíðu og Fyrirspurnargögn með gagnagreiningum
 
 > **Á við:**  almenn Forskráning í Business mið 2023 út bylgju 1 og síðar til að greina listasíður; Almennt fáanleg í Business Mið 2023 út Wave 2 fyrir greiningu gagna úr listasíðum og fyrirspurnum.
 
@@ -19,7 +19,7 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144,
 > [!TIP]
 > Gott um gagnagreiningsham er að hún breytir engum af undirliggjandi gögnum af listasíðu eða fyrirspurn eða útliti síðunnar eða fyrirspurn þegar hún er ekki í gagnagreiningarham. Svo er besta leiðin til að fræðast um hvað hægt er að gera í gagnagreiningunni er að prófa hlutina út.
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði 
 
 - Ef notast er við aðalútgáfu Viðskiptaseðla 22 er greiningarháttur gagnanna í forskoðun. Admin verður að virkja það áður en hægt er að nota það. Ef gera á hana virka er farið á  **síðuna Feature Management**  og kveikt á  **Uppfærsluuppfærslu: greiningarhamur, greina skal fljótt gögn beint í Business Central**. [Frekari upplýsingar um aðgangsstýringu](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - Í útgáfu 23 og síðar verður lykillinn að því  **að fá úthlutað gagnagreiningu-EXEC**  -leyfi eða hafa keyrsluheimild í kerfihlutnum  **9640 leyfa gagnagreinastilling**. Sem admin getur þú útilokað þessar heimildir á notendur sem þú vilt ekki hafa aðgang að í greiningarstillingu.
@@ -27,7 +27,7 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144,
 > [!NOTE]
 > Ef til vill er hægt að taka eftir sumum listasíðum sem innihalda  **ekki greina**  Switch fyrir breytingu á greiningarstillingu. Ástæðan er sú að hönnuðir geta gert greiningarhami á tilteknum síðum með því að nota  [eiginleikinn](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property)  analysismodevirkjuð í Al.
 
-## <a name="get-started"></a>Hefjast handa
+## Hefjast handa
 
 1. Opna listasíðuna eða fyrirspurnina.
 
@@ -50,14 +50,14 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144,
 > [!NOTE]
 > Gögnin sem birtast í greiningarham stjórnast af afmörkunum eða yfirlitum sem sett eru á listasíðunni. Þannig er hægt að forsía gögn áður en greiningarhamur er færður inn.
 
-## <a name="work-with-data-analysis-mode"></a>Vinna við gagnagreiningarham
+## Vinna við gagnagreiningarham
 
 Í gagnagreiningarham er síðunni skipt upp í tvö svið:
 
 - Meginsvæðið, sem samanstendur af gagnasvæði (1), safnrein (2), og flippandi stikum (5)
 - Gagnahandleiðslusvæði, sem samanstendur af tveimur rúðum: dálkum (3) og greiningarsíum (4).
 
-### <a name="data-area-1"></a>Gagnasvæði (1)
+### Gagnasvæði (1)
 
 Gagnasvæðið er þar sem raðir og dálkar listasíðufyrirspurnar eru sýnd og gögn eru tekin saman. Gagnasvæðið veitir fjölhæfur hátt til stýringar á útliti dálka og flýtir leið til að fá fram samantekt á gögnunum. Í dálkum sem innihalda tölugildi er Samtala allra gilda í dálkinum sýnd í síðustu röð, nema þegar búið er að skilgreina línuflokka. Í þessu tilfelli birtast samtölur sem Millisamtala fyrir flokkana.  
 
@@ -71,7 +71,7 @@ Gagnasvæðið er þar sem raðir og dálkar listasíðufyrirspurnar eru sýnd o
 - Nota Gagnasvæðið til samskipta við gögnin. Í dálkum sem innihalda tölulegt, samantekt gildi er hægt að fá lýsandi tölfræði um mengi reita með því að merkja þau. Tölfræðin birtist í stöðulínum (2) ásamt neðst á síðunni.
 - Flytja út gögn í Excel eða CSV sniði. Hægrismellið á Gagnasvæðið eða úrval af frumum til að flytja út.
 
-### <a name="summary-bar-2"></a>Safnstika (2)
+### Safnstika (2)
 
 Samantektarstikunni er meðfram neðst á síðunni og birtir tölulegar upplýsingar um gögnin á listasíðunni eða fyrirspurninni. Þegar þú hefur samskipti við dálka sem hægt er að leggja saman gildi eins og að velja margar raðir í dálki sem sýna upphæðir, uppfærsla á gögnum.
 
@@ -90,7 +90,7 @@ Eftirfarandi tafla lýsir þeim mismunandi tölum sem sýndar eru í svæðinu s
 |Hámark|Hámarksgildið í öllum völdu samantektanlegu svæðunum.|
 |Samtala|Samtala allra gilda í völdu samanbrjótanlegur-svæðunum.|
 
-### <a name="columns-3"></a>Dálkar (3)
+### Dálkar (3)
 
  **Dálkarnir**  eru annað af tveimur rúðum sem vinna saman að því að skilgreina greinina. Hitt svæðið er í  **greiningarsíuúðunni** .  **Dálkarnir**  rúða eru notaðir til að draga saman gögn.  **Notið rúðuna dálkar**  til að skilgreina hvaða dálkar eigi að taka með í greiningunni.
 
@@ -105,7 +105,7 @@ Eftirfarandi tafla lýsir þeim mismunandi tölum sem sýndar eru í svæðinu s
 
 Til að færa svæði af einu svæði yfir á annað þarf að velja graf-teiknið ![Sýnir yfirlit á síðu á greiningarhamnum](media/column-grab-icon.png) Næst dálkinum í listanum og draga inn í marksvæðið. Þú ert hindraður í að flytja svæði inn á svæði þar sem ekki er leyfilegt.
 
-### <a name="analysis-filters-4"></a>Greiningarafmarkanir (4)
+### Greiningarafmarkanir (4)
 
 Í  **rúðunni greiningarafmarkanir**  er hægt að setja frekari gögn afmarkanir á dálka til að takmarka færslur á listanum. Setja afmarkanir á dálka til að takmarka færslur á listanum og síðari samtölur við aðeins þær færslur sem notandi hefur áhuga á samkvæmt forsendum sem notandi skilgreinir. Til dæmis, Segjum að þú hafir aðeins áhuga á gögnum fyrir tiltekinn viðskiptavin eða sölupantanir sem fara yfir ákveðna upphæð. Til að setja afmörkun skal velja dálkinn, velja samanburðaraðgerðina úr listanum (eins og  **jafnan**  eða  **byrja** á) og færa síðan inn gildið.
 
@@ -114,7 +114,7 @@ Til að færa svæði af einu svæði yfir á annað þarf að velja graf-teikni
 > [!NOTE]
 > Viðbótarafmarkanir eiga aðeins við um gildandi greiningarflipa. Þannig er hægt að skilgreina nákvæmlega þær aukagögurnar sem þarf til tiltekinnar greiningar.
 
-### <a name="tabs-5"></a>Fliparnir (5)
+### Fliparnir (5)
 
 Svæðið á flipunum efst gerir kleift að stofna mismunandi afbrigði (dálka og greiningarsíur) á öðrum flipum, þar sem hægt er að vinna gögn á flipunum óháð hvort öðru. Það er alltaf minnst einn flipi, sem heitir  **Greining 1**, sjálfgefið. Þegar fleiri flipar eru notaðir er gagnlegt að vista notaðar skilgreiningar á gagnammengi. Til dæmis gætu verið flipar til að greina gögn í Pivot-hamnum og öðrum flipum sem afmarka að hlutmengi raða. Sumir flipar gætu sýnt nákvæmt yfirlit með mörgum dálkum og aðrir birta aðeins nokkra lykildálka.
 
@@ -133,7 +133,7 @@ Hér er bent á að vinna með marga greiningarflipa:
 - Hægt er að afrita greiningarflipa. Afritun getur verið gagnleg ef gera á tilraunir með að breyta um flipa án þess að breyta upprunalegu, eða ef stofna á mismunandi afbrigði sömu greiningar.
 
 
-## <a name="date-hierarchies"></a>Stigveldi dagsetningar
+## Stigveldi dagsetningar
 
 Í greiningarham eru dagsetningarreitir gagnagreiningarinnar myndaðar í Fjórðungsþrepum þriggja mánaða í þremur aðskildum reitum. Þetta stigveldi er byggt á venjulegri dagbók, ekki neinum fjárhagsdagatölum sem skilgreindir eru í Viðskiptamiðinu.
 
@@ -142,7 +142,7 @@ Auksvæðin eru nefnd  _\<field name\>  ár_,  _\<field name\>  ársfjórðungur
 > [!NOTE]
 > Dagsetningastigveldið eins og gildir aðeins um svæði af gerðinni dagsetning, ekki fyrir svæði af gerðinni DateTime.
 
-## <a name="pivot-mode"></a>Völvustilling
+## Völvustilling
 
 Hægt er að nota Pivot ham til að greina mikið magn tölulegra gagna, undirsamantekt gagna eftir flokkum og undirflokkum. Völvuhamurinn er eins og  [veltitöflur í Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
@@ -163,7 +163,7 @@ Að byggja upp gagnagreiningu í Pivot ham felst að færa reiti inn á þrjú s
 > Dálkar sem aðeins hafa nokkur hugsanleg gildi eru bestu frambjóðendur fyrir notkun í **dálkagildunum**.
 
 
-## <a name="analyze-large-amounts-of-data"></a>Greina mikið gagnamagn
+## Greina mikið gagnamagn
 
 Ef gagnasettið sem óskað er eftir að greina fer yfir 100.000 línur er lagt til að greiningarhamurinn verði færður inn sem bjartsýni á mikið gagnasafn. Nú eru tvær takmarkanir Ef skipt er í þennan ham: 
 
@@ -177,7 +177,7 @@ Ef gagnasettið sem óskað er eftir að greina fer yfir 100.000 línur er lagt 
 
    Ef Pivot ham er gerð virk og svæði er virkjað í  **svæði dálkanna**, þar sem undirliggjandi gögn í reitnum eru með of mörgum greinargóðum gildum, gæti vafraflipinn í vafranum orðið óraunvirkur og hann lokast, sem krefst þess að byrjað sé á nýrri lotu. Í þessu tilfelli á annaðhvort ekki að velkja á þeim reit eða setja afmörkun á svæðið áður en þeim er bætt  **á svæði fyrir dálkamerkingar** .
 
-## <a name="share-data-analysis"></a>Deila gagnagreiningu
+## Deila gagnagreiningu
 
 Þegar búið er að útbúa greiningu á flipanum er hægt að samnýta hana sem tengil með starfsmönnum og öðrum í fyrirtækinu beint af biðlaranum. Einungis viðtakendur sem hafa leyfi til fyrirtækisins og gögnin geta nýtt sér tengilinn.
 
@@ -197,7 +197,7 @@ Ef gagnasettið sem óskað er eftir að greina fer yfir 100.000 línur er lagt 
 
 2. Þegar það er móttekið geta viðtakendur síðan valið tengilinn og opnað greinina fyrir síðuna eða fyrirspurn í aðalvefsíðu. Beðið er um að tilgreina heiti fyrir nýja greiningarflipann sem verður stofnaður.  
 
-## <a name="limitations-in-2023-release-wave-1-preview"></a>Takmarkanir í 2023 losun öldu 1 (Forskoðun)
+## Takmarkanir í 2023 losun öldu 1 (Forskoðun)
 
 Með almennu forskotinu hefur eftirfarandi takmörkunum verið fylgt:
 
@@ -205,7 +205,7 @@ Með almennu forskotinu hefur eftirfarandi takmörkunum verið fylgt:
 - Aðgerðin Samnýting gagnagreininga er ekki tiltæk.
 - Möguleikinn á að vista æskilegan valmöguleika gagnagreiningar á listasíðum og vista greiningarvalmynd á greiningarflipa er ekki tiltækur.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Tilfallandi gagnagreining](reports-adhoc-analysis.md)  
 [Skoða og breyta í Excel](across-work-with-excel.md)  

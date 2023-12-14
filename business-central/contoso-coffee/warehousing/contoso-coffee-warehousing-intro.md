@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Kynning á contoso Coffee Vöruhúsnæðinu
+# Kynning á contoso Coffee Vöruhúsnæðinu
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki.  **Útinnandi kaffiforrit**  fyrir fyrirtæki seðlabankar bæta við sýnigögnum sem nota má til að læra hvernig hægt er að nýta sér Vöruhúsagetu í viðskiptum miðsvæðis. Hægt er að skilgreina vöruhúsaaðgerðir á ýmsa vegu, sjá  [Yfirlit yfir mismunandi skilgreiningarvalkosti](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,7 +27,7 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 
   Þessi staðsetning notar ítarlega samstillingu vöruhússins með beinum frágangi og tínslu, sem gerir ítarlegri reglur um hvernig vörur eru færðar í öllu vöruhúsi.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Setja upp contoso Coffee Vöruhúsgagnagerð
+## Setja upp contoso Coffee Vöruhúsgagnagerð
 
 [!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
@@ -50,7 +50,7 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 > [!IMPORTANT]
 > Ef verið er að keyra atburðarásina kann að vera hægt að sannreyna að notandanum hafi verið bætt við hana á völdum stöðum. Frekari upplýsingar er að finna  [í setja upp starfsmenn](../../warehouse-how-to-set-up-warehouse-employees.md) vöruhúss.
 
-## <a name="scenarios"></a>Dæmi
+## Dæmi
 
 Contoso Coffee vöruhúsgögnunum sýnigögn sem nú styðja við eftirfarandi Aðstæður til prófs og þjálfunar:
 
@@ -60,7 +60,7 @@ Contoso Coffee vöruhúsgögnunum sýnigögn sem nú styðja við eftirfarandi A
 
 Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setting Up Inventory](../../inventory-setup-inventory.md) 
 [How to Setup Locations](../../inventory-how-setup-locations.md) 

@@ -8,13 +8,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="set-up-taxes-for-the-shopify-connection"></a>Setja upp skatta fyrir Shopify tenginguna
+# Setja upp skatta fyrir Shopify tenginguna
 
 Í þessari grein munum við rannsaka hvernig ýmsar stillingar í  Shopify  því hafa áhrif á hæðarverð og skatta sem birta til viðskiptavina. Við munum einnig hylja hvernig á að samskipa  [!INCLUDE[prod_short](../includes/prod_short.md)]  til að styðja stillingar í Shopify. Þessari grein er ekki ætlað að vera ítarlegur leiðarvísir um skattlagningu. Hafðu samband við skattyfirvöld á staðnum eða skattalegan fagaðila til að fá frekari upplýsingar.  
 
 Í greininni er gert ráð fyrir að gjaldskylt sé að greiða skatta þegar seldar eru vörur á staðnum eða á alþjóðavettvangi.
 
-## <a name="if-you-sell-domestically"></a>Ef þú selur innanlands
+## Ef þú selur innanlands
 
 Eftir að búið er að samskipa  Shopify  til að innheimta skatta í heimalandi eða svæði notanda er hægt að ákveða hvernig birta á verð á Storefront.
 
@@ -54,13 +54,13 @@ Skilgreinið nú vöruverð í  **reitunum birgðaspjald**  eða  **Söluverð**
 [!Note]
 > Þessar stillingar hafa áhrif á útflutning verðs. Þegar pantanir  Shopify eru fluttar inn kemur stillingin fyrir  **verð með VSK**  í  **sniðmáti**  viðskiptamanns á  Shopify  verkstæðisspjaldinu, eða sniðmát viðskiptavinar fyrir hvert land/svæði. Jafnvel þótt sjálfgefinn Viðskiptamaður sé notaður fyrir innfluttar pantanir þarf að fylla út  **kóta** sniðmáts viðskiptamanns.
 
-## <a name="if-you-sell-internationally"></a>Ef þú selur alþjóðlega
+## Ef þú selur alþjóðlega
 
 Þessi hluti skoðar stillingar fyrir áætlanir þar sem þú hefur þörf fyrir að innheimta skatta þegar selt er í öðru landi/svæði, eins og öðrum löndum/svæðum í ESB.
 
  Shopify Sem stendur leyfir Connector aðeins að flytja út eitt verð. Shopify er sjálfkrafa lagt á staðbundna skatta, gjaldmiðla og námundun. **Allt verð með skatti** birtir niðurstöður í aðgerðunum sem lýst er í eftirfarandi undirköflum.
 
-### <a name="all-prices-include-tax-is-selected"></a>Öll verð fela í sér að skattur er valinn
+### Öll verð fela í sér að skattur er valinn
 
 |-|Sala innanlands|Erlent land/svæði þar sem þú ert að innheimta skatta|Erlent land/svæði þar sem ekki er verið að innheimta skatta|
 |------------------------|--------|--------|--------|
@@ -70,7 +70,7 @@ Skilgreinið nú vöruverð í  **reitunum birgðaspjald**  eða  **Söluverð**
 
 Verð fyrir viðskiptavinardvöl haldist óbreytt, óháð staðsetningu þeirra, en það hefur áhrif á framlegð þína vegna mismunandi skatthlutfalla fyrir hvert land/svæði.
 
-### <a name="all-prices-include-tax-is-not-selected"></a>Öll verð eru með skatti er ekki valinn
+### Öll verð eru með skatti er ekki valinn
 
 |-|Sala innanlands|Erlent land þar sem þú innheimtir skatt|Erlent land þar sem þú ert ekki að innheimta skatta|
 |------------------------|--------|--------|--------|
@@ -80,7 +80,7 @@ Verð fyrir viðskiptavinardvöl haldist óbreytt, óháð staðsetningu þeirra
 
 Shopify bætir staðbundnum skatti við verðið sem tilgreint er á vöruspjaldinu eftir því hvaðan vörur eru sendar til.
 
-## <a name="dynamic-tax-inclusive-pricing"></a>Sveigjanleg verðlagning með skatti
+## Sveigjanleg verðlagning með skatti
 
 Lönd/svæði hafa mismunandi þarfir að meðtöldum skatti í verði. Ef óskað er eftir að verð taki sjálfkrafa með skatti er hægt að gera  [verðlagningu](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing)  með breytilegum skattlagningu í Shopify.
 
@@ -89,7 +89,7 @@ Lönd/svæði hafa mismunandi þarfir að meðtöldum skatti í verði. Ef óska
 > [!NOTE]
 > Þessi stilling hefur ekki áhrif á verð á innlendum mörkuðum sem stjórnast af  **öllum verðum með skattvíxla** .
 
-### <a name="all-prices-include-tax-is-selected-1"></a>Öll verð fela í sér að skattur er valinn
+### Öll verð fela í sér að skattur er valinn
 
 |-|Sala innanlands|Erlent land/svæði þar sem skattur er innifalinn í verði|Erlent land/svæði þar sem skattur er undanskilinn|
 |------------------------|---------------|---------------|--------|
@@ -99,7 +99,7 @@ Lönd/svæði hafa mismunandi þarfir að meðtöldum skatti í verði. Ef óska
 
 Verðið fyrir hvern viðskiptavin breytist, allt eftir staðsetningu þeirra.
 
-### <a name="all-prices-include-tax-is-not-selected-1"></a>Öll verð eru með skatti er ekki valinn
+### Öll verð eru með skatti er ekki valinn
 
 |-|Sala innanlands|Erlent land/svæði þar sem skattur er innifalinn í verði|Erlent land/svæði þar sem skattur er undanskilinn|
 |------------------------|--------|--------|--------|
@@ -110,7 +110,7 @@ Verðið fyrir hvern viðskiptavin breytist, allt eftir staðsetningu þeirra.
 > [!NOTE]
 > Í öllum verðum með skattskipta  **breytir ekki því**  hvernig verð Sýna til alþjóðlegra viðskiptavina.
 
-## <a name="if-you-sell-to-eu-customers"></a>Ef þú selur innan ESB
+## Ef þú selur innan ESB
 
 Mismunandi lönd/svæði í ESB eru með mismunandi skatthlutföll í sveitarfélögum. Ef þú ert hins vegar staðsettur í ESB og selur í öðrum löndum ESB/svæðum getur þú notað skatthlutfallið í einhverjum tilvikum.  
 
@@ -121,7 +121,7 @@ Mismunandi lönd/svæði í ESB eru með mismunandi skatthlutföll í sveitarfé
 |Undanþága fyrir smáfyrirtæki|Notaðu innlenda skatthlutfallið þitt fyrir alla sölu innan ESB|
 |Skráning á One-Stop vinnuskyldu eða tilteknar skráningar á landi/svæði|Nota VSK-hlutfall af landi/svæði viðskiptavinar|
 
-### <a name="collect-vat-set-to-one-stop-shop-registration"></a>Innheimta VSK sem er stilltur á skráningu í netverslun
+### Innheimta VSK sem er stilltur á skráningu í netverslun
 
 Í eftirfarandi dæmi  **er kveikt á öllum verðum með skattskipta** . Verðið á vöruspjaldinu er stillt á *1200*.
 
@@ -131,7 +131,7 @@ Mismunandi lönd/svæði í ESB eru með mismunandi skatthlutföll í sveitarfé
 |Prósenta skattur gefa einkunn|20|25|
 |Verð þegar gengið er frá kaupum|1200|1250|
 
-### <a name="collect-vat-set-to-micro-business-exemption"></a>Innheimta VSK sem er stilltur á undanþágu vegna smáfyrirtækja
+### Innheimta VSK sem er stilltur á undanþágu vegna smáfyrirtækja
 
 Í eftirfarandi dæmi  **er kveikt á öllum verðum með skattskipta** . Verðið á vöruspjaldinu er stillt á *1200*.
 
@@ -143,7 +143,7 @@ Mismunandi lönd/svæði í ESB eru með mismunandi skatthlutföll í sveitarfé
 
 Shopify notar innlendu skatthlutfallið og hunsar skatthlutfallið í erlendu landi/svæði þegar það reiknar endanlegt verð.
 
-## <a name="importing-shopify-orders-sold-to-international-customers"></a>Innflutningur Shopify pantana seldur til alþjóðlegra viðskiptavina
+## Innflutningur Shopify pantana seldur til alþjóðlegra viðskiptavina
 
 Ef verið er að innheimta skatta frá mörgum löndum/svæðum verður að skilgreina tiltekna lands-/svæðisstillingu í [!INCLUDE[prod_short](../includes/prod_short.md)]. Það er ástæða fyrir því að þessa stillingu þarf. Þegar söluskjal er stofnað í  [!INCLUDE[prod_short](../includes/prod_short.md)],  [!INCLUDE [prod_short](../includes/prod_short.md)]  reiknar skatta í stað þess að endurnota skatta sem fluttir eru inn Shopify.
 
@@ -161,13 +161,13 @@ Tilgreindar eru lands-/svæðisbundnar stillingar á  **Shopify  viðskiptavinar
 > [!NOTE]
 > Stillingarnar í reitnum **Allt verð með VSK** eru úr sniðmátinu, ekki frá tilteknum viðskiptavini. Mikilvægt er að skilgreina sniðmát viðskiptamanns.
 
-## <a name="other-tax-remarks"></a>Aðrar athugasemdir um skatta
+## Aðrar athugasemdir um skatta
 
 Þó að innflutt Shopify pöntun innihaldi upplýsingar um skatta eru skattarnir endurreiknaðir þegar söluskjal er búið til. Sem endurútreikningur þýðir að mikilvægt er að VSK-/skattastillingar séu réttar [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 * Mörg vöruskatts- eða VSK-hlutföll. Til dæmis eru tilteknir vöruflokkar gjaldgengir fyrir lægri skatthlutfalli. Hægt er að nota eiginleikann [hnekking skatts](https://help.shopify.com/en/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override) í Shopify. Þegar vörur  [!INCLUDE[prod_short](../includes/prod_short.md)] eru fluttar inn og stofnaðar eru þær notaðar með skattuppsetningunni sem tilgreind er í sniðmátskótanum í  Shopify  versluninni. Ef pantanir eru fluttar inn með slíkum vörum skal uppfæra VSK-vörubókunarflokkinn.  
 * Skatthlutföll háð heimilisfangi. Notaðu reitinn **Forgangur skattsvæðis** ásamt **Sniðmát viðskiptavinar** til að skrifa yfir stöðluðu rökin sem fylla út **Skattsvæðiskóða** í söluskjalinu. Reiturinn **Forgangur skattsvæðis** tilgreinir forgang varðandi það hvar aðgerðin á að taka við upplýsingum um landið eða svæðið og fylkið eða héraðið. Þá er samsvarandi skrá í Shopify sniðmátum viðskiptavina auðkennd og **Skattsvæðiskóði**, **Skattskylda** og **VSK-viðsk.bókunarflokkur** eru notaðar þegar söluskjal er búið til.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Hafist handa með tengilinn fyrir Shopify](get-started.md)  

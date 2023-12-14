@@ -10,13 +10,13 @@ ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Yfirlit yfir uppsetningar og stjórnun prentara
+# Yfirlit yfir uppsetningar og stjórnun prentara
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Að prenta skjöl og skýrslur úr [!INCLUDE[prod_short](includes/prod_short.md)] er mikilvægt verk fyrir fyrirtækjanotendur. Vanalega er ætlunin að senda prentverk beint á prentara &mdash; [!INCLUDE[prod_short](includes/prod_short.md)]  fyrirtækisins, sama biðlara eða forritsins sem verið er að nota. Vegna þess að [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er skýjaþjónusta getur það ekki náð beint til prentara á staðnum sem tengjast tækjum notendum, en það getur tengst við prentara í skýinu.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>Hverjir eru prentarar möguleikar þínir í Viðskiptamiðinu?
+## Hverjir eru prentarar möguleikar þínir í Viðskiptamiðinu?
 
 Til að styðja við prentþarfirnar býður [!INCLUDE[prod_short](includes/prod_short.md)] upp á eftirfarandi eiginleika:
 
@@ -31,13 +31,13 @@ Flest verk fyrir uppsetningu prentara er hægt að gera  **á síðunni prentara
 > [!IMPORTANT]
 > Til að nota innanhúss, Universal PRINT og prentun tölvupósts þurfa þessi auðkenni eða NavUserPassword sannvottun að  Microsoft Entra  vera notuð.
 
-## <a name="custom-printer-extensions"></a>Sérsniðinn Viðaukar prentara
+## Sérsniðinn Viðaukar prentara
 
 [!INCLUDE[prod_short](includes/prod_short.md)] styður aðrar sérstilltar prentaraviðbætur til að bæta við enn fleiri prenteiginleikum. Þannig að ef þú ert með einhverjar sérsniðnar prentaraviðbætur uppsettar getur forritið verið með prenteiginleika sem ekki er lýst í þessari grein.
 
 Ef þú ert AL-verktaki og vilt fræðast um hvernig prentaraviðbætur eru stofnaðar skaltu fara að  [þróa prentaraviðbætur í Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
 - [Setja upp Universal PRINT prentarar](admin-printer-setup-universal-print.md)  
 - [Setja upp email prentara](admin-printer-setup-email.md)  

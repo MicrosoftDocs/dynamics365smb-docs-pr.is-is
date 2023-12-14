@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ---
-# <a name="managing-intercompany-transactions"></a>Vinna með millifyrirtækjafærslur
+# Vinna með millifyrirtækjafærslur
 
 Fyrirtæki með fleiri en einn lögaðila með aðskildum bókhaldsaðgerðum geta haft gagn af samstæðufærslum. Það er til dæmis gagnlegt fyrir fyrirtæki sem eiga dótturfélög á mörgum alþjóðlegum mörkuðum eða svæðum. Eða gæti fyrirtæki haft nokkur fyrirtæki en skortir samsvarandi fjölda bókhalds-og stjórnunarteyma. Samstæðufærslur einfalda og straumlínulega viðskiptaferla og færslur á milli fyrirtækja í samstarfi innan samstæðunnar.
 
@@ -23,7 +23,7 @@ Fjórir meginkostir eru til aðgerða innan samstæðunnar:
 * Fullt eftirlit með ferli endurskoðana, viðskipta og færslna  
 * Skilvirkar og hagkvæmar færslur í samskiptum við hlutdeildarfélög eða dótturfyrirtæki  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Straumlínulega flæði í atvinnustarfsemi
+## Straumlínulega flæði í atvinnustarfsemi  
 
 MF-færslur leyfa að hægt sé að dreifa sölu-og innkaupaskjölum og færslubókarfærslum til allra á gervihnöttanna, söluskrifstofum eða dótturfyrirtækjum. Að dreifa færslum sparar tíma og eykur skilvirkni í öllu fyrirtækinu með því að minnka færslu gagna. Það sker niður þörfina á að senda, taka á móti, prenta út og safnvista sölu-og innkaupaskjöl.  
 
@@ -68,7 +68,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Skipuleggja og vinna færslur á inn- og útleið sem þú og millifyrirtækjafélagar þínir sendið ykkar á milli.|[Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md)|
 |Nota færslur milli fyrirtækja til að dreifa kostnaði á milli samstarfsfyrirtækja.|[Úthluta kostnaði til millifyrirtækjafélaga](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
