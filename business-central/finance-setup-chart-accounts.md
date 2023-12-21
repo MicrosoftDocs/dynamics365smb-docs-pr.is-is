@@ -1,24 +1,23 @@
 ---
 title: Setja upp eða breyta bókhaldslyklum (inniheldur myndskeið)
-description: Bókhaldslykill sýnir fjárhagslykla sem geyma fjárhagsleg gögn. Hægt er að breyta sjálfgefnum lyklum í bókahaldslyklum og hægt er að bæta við nýjum lyklum.
+description: Lærðu um að setja upp reikningsyfirlit þitt (COA) til að sýna fjárhagsreikninga sem geyma fjárhagsgögnin þín.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
-ms.date: 01/21/2022
-ms.author: bholtorf
+ms.date: 12/19/2023
+ms.custom: bap-template
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Setja upp eða breyta bókhaldslyklum
+# Setja upp eða breyta bókhaldslyklum
 
 Bókhaldslykill sýnir fjárhagslykla sem geyma fjárhagsleg gögn. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðan bókhaldslykil sem er tilbúin til að styðja þitt fyrirtæki. Hins vegar er hægt að breyta sjálfgefnum lyklum og hægt er að bæta við nýjum lyklum.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Bæta við eða breyta reikningum
+## Bæta við eða breyta reikningum
 
 Úr bókhaldslyklinum geturðu opnað hvern fjárhagsreikning og bætt við eða breytt stillingum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,27 +28,27 @@ Fylla þarf út reitinn **Samantekt** fyrir reikninga af reikningsgerðinni **Sa
 > [!IMPORTANT]
 > Ef skilgreiningar hafa verið færðar í **Samtals**-reitina fyrir **Til-tölu**-reikningana áður en inndráttaraðgerðin er framkvæmd þarf að færa þær inn aftur því að aðgerðin skrifar yfir gildin í öllum **Til-tölu**-reitum.
 
-## <a name="delete-accounts"></a>Eyða reikningum
+## Eyða reikningum
 
 Hægt er að eyða fjárhagsreikningur. Áðu en honum er eytt þarf hins vegar eftirfarandi að vera rétt:  
 
 * Staða reikningsins verður að vera núll.  
 * Reiturinn **Leyfa eyðingu fjárhagsr.fyrir** verður að vera stilltur á síðunni **Uppsetning fjárhags** og ekki mega vera fjárhagsfærslur í lyklinum frá og með þeim degi.  
-* Ef reiturinn **Athuga notkun fjárhagsr.** á síðunni **Uppsetning fjárhags** er valinn má ekki nota lykilinn í neinum bókunarflokkum eða bókunargrunnum.  
+* Ef reiturinn **Athugaðu notkun bókhaldsreiknings**  á síðunni **General Ledger Setup** er valinn, má reikningurinn ekki hægt að nota í hvaða pósthópum sem er eða póstuppsetningu.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kemur í veg fyrir að fjárhagsreikningi sé eytt sem geymir gögn sem þarf í bókhaldslyklinum.  
 
-## <a name="block-deletion-of-gl-accounts"></a>Útiloka eyðingu fjárhagsreikninga
+Þú getur líka tilgreint hvenær á að leyfa fólki að eyða reikningum. Á síðunni **General Ledger Setup** vinnur **Loka á eyðingu stórreikninga** víxlans ásamt dagsetningunni í the **Athugaðu G/L Acc. Eyði eftir** reitnum til að virka sem auka staðfesting. Ef þú kveikir á **Loka á eyðingu aðalreikninga** rofa geturðu ekki eytt aðalbókarreikningum með höfuðbókarfærslum eftir dagsetninguna í **Athugaðu bókhaldsreikning. Eyðing Eftir** reit. Til að eyða slíkum reikningi verður einhver með aðgang að  **General Ledger Setup** síðunni að slökkva á  **Loka á eyðingu stórreikninga** skipta.  
 
-[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+Að kveikja á reitnum **Loka á eyðingu bókhaldsreikninga** er oft ákjósanlegt, sem og að stilla dagsetninguna í **Athugaðu bókhald . Eyðing Eftir** reitnum, til dæmis til dagsins þar sem reglur krefjast þess að þú geymir fjárhagsgögn.  
 
-2022 útgáfutímabil 2 kynnir aukavörn gegn eyðingu fjárhagsreikninga fyrir slysni jafnvel í sviðsmyndun þar sem skilyrði eru uppfyllt.  
+### Vídeó leiðsögn
 
-Nýjum reit, **Loka fyrir eyðingu fjárhagsreikninga**, hefur verið bætt við síðuna **Fjárhagsgrunnur**. Þegar stillt er á *Já* virkar reiturinn sem auka staðfesting sem þýðir að þú getur ekki eytt fjárhagsreikningum með fjárhagsfærslum eftir dagsetninguna í reitnum **Athuga eyðingu fjárhagsr. eftir**. Til að eyða slíkum reikningi þarf notandi með aðgang að síðunni **Fjárhagsgrunnur** fyrst að stilla þennan reit á *Nei*.  
+Þetta myndband sýnir hvernig á að tilgreina hvort og hvenær fólk geti eytt heimilisreikningum.
 
-Að stilla reitinn **Loka fyrir eyðinga á fjárhagsreikningum** á *Já* er hægt að líta á sem bestu venju, sem og að stilla dagsetninguna í reitnum **Athuga eyðingu fjárhagsr. eftir**, t.d. á dagsetninguna sem þú þarft að vista fjárhagsgögnin þín.  
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  

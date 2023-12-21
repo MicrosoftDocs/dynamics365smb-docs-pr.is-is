@@ -8,21 +8,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 11/01/2023
+ms.date: 12/19/2023
 ms.author: bholtorf
 ---
-# <a name="record-purchases-with-purchase-invoices-and-orders"></a>Skráðu innkaup með innkaupareikningum og pöntunum
+# Skráðu innkaup með innkaupareikningum og pöntunum
 
 Innkaupareikningur eða innkaupapöntun er stofnaður til að skrá kostnaðarverð keyptra vara og til að rekja viðskiptaskuldir. Innkaupareikningar og innkaupapantanir eru líka notuð til að uppfæra birgðastig gagnvirkt, sem þýðir að hægt er að lágmarka birgðakostnað og bjóða upp á betri þjónustu við viðskiptamenn. Innkaupakostnaðurinn, þ.mt þjónustukostnaður, og birgðaverðmæti sem verða til við bókun innkaupareikninga eða pantana, stuðla að hagnaðartölum og öðrum fjárhagslegum lykilárangursvísum (KPIs) í hlutverkamiðstöðinni þinni.
 
-## <a name="record-purchases-with-purchase-invoices"></a>Skrá innkaup með innkaupareikningum
+## Skrá innkaup með innkaupareikningum
 
 Þegar þú færð birgðavörurnar eða keyptri þjónustu er lokið skaltu bóka innkaupareikninginn til að uppfæra birgða- og fjárhagsfærslur og virkja greiðslu til lánardrottins samkvæmt greiðsluskilmálum. [Að gera greiðslur](payables-make-payments.md).
 
 > [!CAUTION]  
 > Ekki bóka innkaupareikning efnislegra vara fyrr en vörur eru mótteknar og lokakostnaður er vitaður, þ.m.t. öll viðbótargjöld. Annars kunna birgðagildi og hagnaðartölur er vera röng.
 
-### <a name="create-and-post-a-purchase-invoice"></a>Stofna og bóka innkaupareikning
+### Stofna og bóka innkaupareikning
 
 Eftirfarandi skref lýsa því hvernig á að búa til innkaupareikning. Skrefin til að búa til innkaupapöntun eru svipuð. Helsti munurinn er sá að innkaupapantanir hafa nokkra aukareiti og aðgerðir fyrir líkamlega meðhöndlun á hlutum.
 
@@ -64,7 +64,7 @@ Innkaupin eru nú skráð í birgðum, forðabókum og fjármálafærslum og gre
 >
 > Til að kanna upphæðirnar sem koma til með að vera bókaðar skal fara á síðuna **Tölfræði** sem tekur sléttunarútreikninga til greina. Einnig, ef þú velur aðgerðina **Gefa út**, verða samtölureitirnir uppfærðir til að hafa sléttunarútreikninga með.
 
-## <a name="posted-invoices"></a>Bókaðir reikningar
+## Bókaðir reikningar
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -73,7 +73,7 @@ Hægt er að leiðrétta eða afturkalla bókaðan innkaupareikning áður en l�
 [Opnaðu **Bókaðir innkaupareikningar** listann ](https://businesscentral.dynamics.com/?page=146) í [!INCLUDE [prod_short](includes/prod_short.md)].
 
 
-## <a name="purchasing-non-inventory-items"></a>Vöruinnkaup á öðru en birgðavörum
+## Vöruinnkaup á öðru en birgðavörum
 
 Línurnar í innkaupareikningi geta verið af tegundinni **Forði** eða **Vara**. Hægt er að flokka vörukort frekar eftir  **birgðum**, **þjónustu** eða **Non -Birgða** gerð, sem tilgreinir hvort varan sé efnisleg birgðaeining, vinnutímaeining (á við um tilföng) eða efnisleg eining sem er ekki geymd í birgðum. Frekari upplýsingar eru á [Skrá nýjar vörur](inventory-how-register-new-items.md). Innkaupareikningsferlið er það sama fyrir allar tegundirnar.
 
@@ -82,7 +82,7 @@ Línurnar í innkaupareikningi geta verið af tegundinni **Forði** eða **Vara*
 >
 > Til að nota keypt tilfang getur þurft að stilla afkastagetu tilfangs og tengja það handvirkt við verk. Kaup á tilfangi stofnar fjáhagsforðafærslu, en fjárhagsfærslur tilfangs eru hins vegar ekki raktar fyrir magni og virði eins og t.d. vörur eru. Ef rakning á magni og virði er nauðsynlegt, skal íhuga að nota aðrar vörulínugerðir.
 
-## <a name="when-to-use-purchase-orders"></a>Hvenær á að nota innkaupapantanir
+## Hvenær á að nota innkaupapantanir
 
 Þú verður að nota innkaupapantanir ef innkaupaferli þitt krefst þess að þú skráir hlutakvittanir á pöntunarmagni, til dæmis vegna þess að allt magnið er ekki tiltækt hjá lánardrottni. Ef seldar vörur eru afhentar beint frá lánardrottni til viðskiptamanns sem bein sending þarf að einnig nota innkaupapantanir. Frekari upplýsingar eru í [Beinar sendingar](sales-how-drop-shipment.md).
 
@@ -92,7 +92,7 @@ Að öðru leyti virka innkaupapantanir eins og innkaupareikningar. Eftirfarandi
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-## <a name="receive-items-with-a-purchase-order"></a>Taka á móti vörum með innkaupapöntun
+## Taka á móti vörum með innkaupapöntun
 
 Eftirfarandi skref lýsa því hvernig á að taka á móti vörum með innkaupapöntun. 
 
@@ -109,19 +109,19 @@ Eftirfarandi skref lýsa því hvernig á að taka á móti vörum með innkaupa
 > [!NOTE]
 > Ef þú notar vöruhúsameðferð geturðu ekki notað **Posta** aðgerðina á innkaupapöntuninni til að skrá kvittun. Það er vegna þess að starfsmaður vöruhúss hefur þegar bókað innkaupapöntunarmagnið eins og það var móttekið. Lærðu meira á [Hönnunarupplýsingar - Innleið vöruhúsaflæði](design-details-inbound-warehouse-flow.md).
 
-## <a name="receive-more-items-than-ordered"></a>Taka á móti fleiri vörum en pantað er
+## Taka á móti fleiri vörum en pantað er
 
 Þegar fleiri vörur berast en pantaðar voru gætirðu viljað fá þær í staðinn fyrir að hætta við móttökuna. Til dæmis gæti verið ódýrara að geyma umframvörur í birgðum en skila þeim, eða söluaðili gæti boðið afslátt fyrir að halda þeim.
 
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
-### <a name="set-up-over-receipts"></a>Setja upp umframmóttöku
+### Setja upp umframmóttöku
 
 Stofna yfir móttökukóða til að skilgreina prósentu sem móttekið magn getur farið yfir pantað magn. Tilgreindu hlutfallið í reitnum **Umskilið umfram móttöku %** . Þú úthlutar síðan kóðanum á Vörukorti eða Lánardrottnaspjaldi síðum fyrir vörur og lánardrottna.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Kóða fyrir yfirtöku** og veldu síðan tengda tengilinn.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="assign-the-over-receipt-code-to-an-item"></a>Úthlutaðu ofurkvittunarkóða til vöru
+### Úthlutaðu ofurkvittunarkóða til vöru
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur**, velja síðan viðkomandi tengil.
 2. Opnaðu **Vörukort** síðuna fyrir hlutinn.
@@ -132,7 +132,7 @@ Kóði umframmóttöku er úthlutaður á vöruna. Innkaupapantanir eða vöruh�
 > [!NOTE]
 > Hægt er að setja upp samþykktarverkflæði til að krefjast þess að umframmóttökur verði samþykktar áður en unnið er með þær. Veljið gátreitinn **Samþykki krafist** á síðunni **Kóðar fyrir yfirtöku** . Frekari upplýsingar eru á [Búa til verkflæði](across-how-to-create-workflows.md).
 
-### <a name="over-receive-an-order"></a>Taka of mikið á móti pöntun
+### Taka of mikið á móti pöntun
 
 Í innkaupalínum og vöruhúsamóttökulínum er reiturinn **Magn umframmóttöku** notaður til að skrá magn umframmóttöku, sem þýðir magn sem fer umfram gildið fyrir pantað magn í reitnum **Magn**.
 
@@ -149,11 +149,11 @@ Kóði umframmóttöku er úthlutaður á vöruna. Innkaupapantanir eða vöruh�
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] sinnir ekki sjálfkrafa fjárhagslegum þáttum oftekna. Þetta þarf að vinna handvirkt í samkomulagi við lánardrottin, til dæmis getur lánardrottinn framsent nýjan eða uppfærðan reikning.
 
-## <a name="external-document-number"></a>Númer ytra skjals
+## Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="posting-purchases"></a>Bókun innkaupa
+## Bókun innkaupa
 
 Í innkaupaskjali er hægt að velja milli eftirfarandi bókunaraðgerða:
 
@@ -183,17 +183,17 @@ Fyrir hverja innkaupalínu, eftir því sem við á, eru færslur stofnaðar í:
 
 Hægt er annað hvort að bóka, eða bóka og prenta. Ef valið er að bóka og prenta prentast skýrslan við bókun pöntunarinnar. Einnig er hægt að velja aðgerðina **Bóka runu** til að bóka ýmsar pantanir samtímis. Frekari upplýsingar eru í [Bóka mörg skjöl á sama tíma](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Fjárhagsfærslur skoðaðar
+## Fjárhagsfærslur skoðaðar
 
 Þegar bókun er lokið hverfa bókuðu innkaupalínurnar úr pöntuninni. Skilaboð segja til um hvenær bókun er lokið. Að þessu loknu verður hægt að sjá bókuðu færslurnar á ýmsum síðum, þ.m.t. síðunum **Lánardrottnafærslur**, **Fjárhagsfærslur**, **Birgðabókafærslur**, **Forðafærslur**, **Innkaupakvittanir** og **Bókaðir innkaupareikningar**.
 
 Í flestum tilfellum er hægt að opna fjárhagsfærslur úr viðkomandi spjaldi eða skjali. Á síðunni **Lánardrottnaspjald** skal t.d. velja aðgerðina **Færslur**.
 
-## <a name="editing-ledger-entries"></a>Breyta fjárhagsfærslum
+## Breyta fjárhagsfærslum
 
 Þú getur breytt ákveðnum reitum í bókuðum innkaupaskjölum, t.d. reitnum **Greiðslutilvísun**. Frekari upplýsingar má finna í [Breyting á bókuðum skjölum](across-edit-posted-document.md). Til að fá fleiri mikilvæg svæði sem hafa áhrif á endurskoðunarslóðina þarf að bakfæra eða afturkalla bókun. Frekari upplýsingar eru í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Biðja um tilboð](purchasing-how-request-quotes.md)  
 [Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md)  

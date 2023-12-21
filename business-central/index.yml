@@ -162,7 +162,7 @@ additionalContent:
             - text: Vinna með Power BI-skýrslur í Business Central
               url: /dynamics365/business-central/across-working-with-powerbi
             - text: Greina listagögn með greiningarstillingu
-              url: /dynamics365/business-central/across-working-with-powerbi
+              url: /dynamics365/business-central/analysis-mode
             - text: Greina skýrslugögn með Excel
               url: /dynamics365/business-central/report-analyze-excel
         - title: Almenn viðskiptavirkni

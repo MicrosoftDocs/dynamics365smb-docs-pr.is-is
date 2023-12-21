@@ -3,63 +3,74 @@ title: Hreinsa gögn með varðveislureglum
 description: Hægt er að tilgreina hversu oft á að eyða tilteknum gerðum af gögnum.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
 ms.search.keywords: 'delete, data, retention, policy, policies'
 ms.search.form: '3903, 3901'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 12/15/2023
+ms.custom: bap-template
 ---
-# <a name="define-retention-policies"></a>Skilgreina varðveislureglur
-Stjórnendur geta skilgreint varðveislureglur til að tilgreina hversu oft þeir vilja að [!INCLUDE[prod_short](includes/prod_short.md)] eyði úreltum gögnum í töflum sem innihalda kladdafærslur og safnvistaðar færslur. Til dæmis getur hreinsun á kladdafærslum gert auðveldara um vik að vinna með gögnin sem eiga við. Reglur geta innihaldið öll gögn í töflunum sem eru komin fram yfir lokadagsetninguna eða hægt er að bæta við síuskilyrðum sem innihalda aðeins tiltekin útrunnin gögn í reglunni. 
+# Skilgreina varðveislureglur
 
-## <a name="required-setups-and-permissions"></a>Áskildar uppsetningar og heimildir
-Áður en hægt er að búa til varðveislureglur þarf að setja upp eftirfarandi.
+Þessi grein lýsir því hvernig stjórnendur geta skilgreint varðveislustefnur til að tilgreina hversu oft á að eyða úreltum gögnum í töflum sem innihalda annálsfærslur og geymsluskrár. Til dæmis, með því að hreinsa upp færslur í annálum getur það auðveldað að vinna með viðeigandi gögn. Reglur geta eytt gögnum á grundvelli fyrningardagsetningar, eða þú getur bætt við síum til að innihalda aðeins ákveðin útrunnið gögn.
 
-|Uppsetning  |Description  |
+## Nauðsynlegar uppsetningar og heimildir
+
+Áður en þú getur búið til varðveislustefnur verður þú að setja upp töflurnar til að innihalda og tíma til að geyma gögn.
+
+|Uppsetning  |Heimildasamstæða  |
 |---------|---------|
-|**Leyfðar töflur**     |Við bjóðum upp á lista yfir töflur sem hafa má með í varðveislureglum. Hins vegar, ef ætlunin er að bæta töflum úr viðbót við varðveislureglu þarf þróunaraðili að bæta töflum notanda við listann. Frekari upplýsingar er að finna í [Viðbótin höfð með í varðveislureglu](admin-data-retention-policies.md#including-your-extension-in-a-retention-policy-requires-help-from-a-developer).          |
-|**Varðveislutímar**     |Tilgreina tímabil sem á að halda gögnum í töflunum í reglu. Tímabilin ákveða hversu oft gögnum verður eytt.         |
+|**Leyfðar töflur**     |Við bjóðum upp á lista yfir töflur sem þú getur haft með í varðveislureglum. Ef þú vilt bæta töflum úr viðbót við varðveislustefnu verður þróunaraðili að bæta töflunum sínum við listann. Til að fá frekari upplýsingar skaltu fara á [Ta með viðbótina þína í varðveislustefnu](admin-data-retention-policies.md#include-your-extension-in-a-retention-policy-requires-help-from-a-developer).          |
+|**Varðveislutímar**     |Tilgreina tímabil sem á að halda gögnum í töflunum í reglu. Tímabilin ákvarða hversu oft gögnum er eytt.         |
 
-Þar að auki þarf að vera með heimildir yfirnotanda eða heimildasamstæðu fyrir uppsetningu varðveislureglu. Notendur sem fá heimildasamstæðuna fyrir uppsetningu varðveislureglu geta skilgreint varðveislureglur fyrir töflur, jafnvel þótt þeir hafi ekki heimildir til að lesa og eyða heimildum fyrir þessar töflur. Verkraðarfærslan verður að vera keyrð sem notandi með heimildir til að lesa og eyða gögnunum. Ráðlagt er að veita ekki heimildasamstæðu fyrir uppsetningu varðveislureglu til notenda sem ættu ekki að fá leyfi til að eyða gögnum.
-
-> [!NOTE]
-> Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og ætlunin er að prófa varðveislureglur í Cronus-sýnigagnagrunninum, eru nokkrir hlutir sem þarf að gera. Sýnifyrirtækið inniheldur ekki töflur sem hægt er að nota með varðveislureglum og því þarf að bæta þeim við. Til að gera það skal stofna nýtt, autt fyrirtæki í sýnigagnagrunninum. Í nýja fyrirtækinu skal flytja inn  RapidStart  skilgreiningarpakkann fyrir þitt land/svæði sem samsvarar VENJULEGU NAV 17,0. W1. enu. Standard. RapidStart pakkinn. Uppsetningargögnin fyrir varðveislureglur verða tiltækar í nýja fyrirtækinu.
-
-### <a name="to-create-retention-periods"></a>Varðveislutímar búnir til
-Varðveislutímar geta verið eins langir eða stuttir og þú vilt. Til að búa til varðveislutíma skal á síðunni **Varðveislureglur** nota aðgerðina **Varðveislutími**. Tímabilin sem eru skilgreind verða tiltæk fyrir allar reglur.
+Að auki verður þú að hafa **SUPER** notendaheimildir eða **uppsetning varðveislustefnu** heimilda. Notendur sem hafa heimildasettið Uppsetning varðveislustefnu geta skilgreint varðveislustefnur fyrir töflur. Það er satt, jafnvel þótt þeir hafi ekki Lestur og Eyða heimildir fyrir borðin. Verkraðarfærslan verður að vera keyrð sem notandi með heimildir til að lesa og eyða gögnunum. Ekki veita heimildasettinu fyrir uppsetningu varðveislustefnu til notenda sem ættu ekki að fá að eyða gögnum.
 
 > [!NOTE]
-> Af samræmisástæðum höfum við skilgreint lágmarks varðveislutíma fyrir sumar töflur. Ef varðveislutími er stilltur sem er styttri en lágmark sem krafist er, birtast skilaboð um áskilda tímabilið.
+> Ef þú ert að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og vilt prófa varðveislustefnur í Cronus sýnikennslugagnagrunninum, þá eru nokkur atriði sem þú þarft að gera. Sýningarfyrirtækið inniheldur ekki töflur sem þú getur notað með varðveislustefnu, svo þú þarft að bæta þeim við. Til að gera það skal stofna nýtt, autt fyrirtæki í sýnigagnagrunninum. Í nýja fyrirtækinu skaltu flytja inn RapidStart stillingarpakkann fyrir landið/svæðið þitt sem samsvarar staðalnum NAV17.0.W1.ENU.STANDARD.rapidstart pakkanum. Uppsetningargögnin fyrir varðveislureglur verða tiltækar í nýja fyrirtækinu.
 
-### <a name="set-up-a-retention-policy"></a>Setja upp varðveislureglu
+### Búðu til varðveislutímabil
+
+Varðveislutímar geta verið eins langir eða stuttir og þú vilt. Til að búa til varðveislutíma skal á síðunni **Varðveislureglur** nota aðgerðina **Varðveislutími**. Tímabilin sem þú skilgreinir eru tiltæk fyrir allar reglur.
+
+> [!NOTE]
+> Af samræmisástæðum höfum við skilgreint lágmarks varðveislutíma fyrir sumar töflur. Ef þú stillir varðveislutíma sem er styttri en lágmarkskröfur birtast skilaboð um skyldutímabilið.
+
+### Setja upp varðveislureglu
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Varðveislureglur** og veldu síðan tengda tengilinn.
 2. Í reitnum **Kenni töflu** skal velja töflu sem á að taka með í regluna.
 3. Í reitnum **Varðveislutími** skal tilgreina tímalengdina sem geyma á gögnin í töflunni.
-4. Valfrjálst: Til að nota regluna fyrir tiltekin gögn í töflu skal slökkva á Nota fyrir allar færslur. Flýtiflipinn Skrá varðveislureglu birtist þar sem hægt er að stilla síur til að búa til undirsafn af gögnum fyrir hverja línu. Frekari upplýsingar er að finna í [Síun](ui-enter-criteria-filters.md#filtering).
+4. Valfrjálst: Til að beita stefnunni á tiltekin gögn í töflu skaltu slökkva á **Beita á allar færslur** skipta.  **Stefna um varðveislu skráa** Hraðflipi birtist, svo þú getur stillt síur til að búa til undirmengi gagna fyrir hverja línu. Til að læra meira skaltu fara á [Síun](ui-enter-criteria-filters.md#filtering).
 
    > [!NOTE]
-   > Hver lína er með sinn eigin varðveislutíma. Ef annar varðveislutími er tilgreindur fyrir sömu gögnin, verður lengsti tíminn notaður. Sumar töflur innihalda líka síur sem ekki er hægt að breyta eða fjarlægja. Til að hjálpa til við að auðkenna þessar síur birtast þær í ljósari lit.
+   > Hver lína er með sinn eigin varðveislutíma. Ef þú tilgreinir mismunandi varðveislutíma fyrir sömu gögnin er lengsta tímabilið notað. Einnig innihalda sumar töflur síur sem þú getur ekki breytt eða fjarlægt. Til að hjálpa til við að auðkenna þessar síur birtast þær í ljósari lit.
 
-## <a name="applying-retention-policies"></a>Varðveislureglur settar á
+#### Vídeó leiðsögn
+
+Þetta myndband gefur dæmi um hvernig á að setja upp varðveislustefnu.
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fLeJ]
+
+## Notaðu varðveislustefnur
+
 Hægt er að nota verkraðarfærslu til að setja á varðveislureglur til að eyða gögnum sjálfkrafa eða setja reglur á handvirkt.
 
-Til að nota varðveislureglu sjálfkrafa skal bara stofna og virkja reglu. Þegar regla er gerð virk búum við til verkraðarfærslu sem setur á varðveislureglur samkvæmt varðveislutímanum sem er tilgreindur. Allar varðveislureglur munu nota sömu verkraðarfærsluna. Sjálfgefið er að verkraðarfærslan beiti reglunni á hverjum degi kl. 02:00. Hægt er að breyta sjálfgildinu en ef það er gert mælum við með því að það keyri utan vinnutíma. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md). 
+Til að nota varðveislureglu sjálfkrafa skal bara stofna og virkja reglu. Þegar þú virkjar stefnu,, [!INCLUDE [prod_short](includes/prod_short.md)] býr til færslu í vinnuröð sem beitir henni í samræmi við varðveislutíma hennar. Allar varðveislureglur munu nota sömu verkraðarfærsluna. Sjálfgefið er að verkraðarfærslan beiti reglunni á hverjum degi kl. 02:00. Hægt er að breyta sjálfgildinu en ef það er gert mælum við með því að það keyri utan vinnutíma. Til að fá frekari upplýsingar skaltu fara á [Nota vinnuraðir til að skipuleggja verkefni](admin-job-queues-schedule-tasks.md). 
 
 Hægt er að setj á reglu handvirkt með því að nota aðgerðina **Nota handvirkt** á síðunni **Varðveislureglur**. Ef ætlunin er að nota alltaf reglu handvirkt skal kveikja á **Handvirkt**. Verkraðarfærslan hunsar þá regluna þegar hún er keyrð.
 
-## <a name="viewing-retention-policy-log-entries"></a>Kladdafærslur varðveislureglu skoðaðar
-Hægt er að skoða verkþætti sem tengjast varðveislureglum á síðunni **Varðveislureglukladdi**. Til dæmis eru færslur búnar til þegar regla er notuð, eða ef villur komu upp þegar það var gert. 
+## Skoðaðu varðveislustefnuskrárfærslur
 
-## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Hafa með viðbótina í varðveislureglu (krefst aðstoðar frá þróunaraðila)
-Að sjálfgefnu ná varðveislureglur aðeins yfir töflur sem eru teknar með í listanum yfir [!INCLUDE[prod_short](includes/prod_short.md)]-töflur sem við bjóðum upp á. Hægt er að fjarlægja sjálfgefnar töflur úr listanum og hægt er að bæta við eigin töflum. Það er sem sagt ekki hægt að bæta við töflu sem þú bjóst ekki til. Til dæmis er ekki hægt að bæta við öðrum töflum úr [!INCLUDE[prod_short](includes/prod_short.md)] eða úr viðbót sem hefur verið keypt.
+Hægt er að skoða verkþætti sem tengjast varðveislureglum á síðunni **Varðveislureglukladdi**. Til dæmis eru færslur búnar til þegar reglu er beitt eða ef villur komu upp.
 
-Til að bæta töflum við listann yfir leyfðar töflur þarf þróunaraðili að bæta við kóða, til dæmis til að codeunit-uppsetningarforritið fyrir viðbótina (kóðaeining með undirgerðina *uppsetning*). 
+## Taktu viðbótina þína inn í varðveislustefnu (þarfnast hjálp frá þróunaraðila)
 
-Þegar þróunaraðili bætir við töflu getur hann tilgreint áskildar og sjálfgefnar síur. Ekki er hægt að fjarlægja áskildar síur eða breyta þeim síðar þegar töflum er bætt við til að skilgreina varðveislureglu. Sjálfgefnar síur eru bara vinalegar tillögur.
+Sjálfgefið er að varðveislureglur ná aðeins til [!INCLUDE[prod_short](includes/prod_short.md)] á listanum sem við bjóðum upp á. Hægt er að fjarlægja sjálfgefnar töflur úr listanum og hægt er að bæta við eigin töflum. Það er, þú getur ekki bætt við töflu sem þú bjóst ekki til sjálfur. Til dæmis geturðu ekki bætt við öðrum borðum frá [!INCLUDE[prod_short](includes/prod_short.md)] eða úr viðbót sem þú hefur keypt.
 
-Eftirfarandi eru dæmi um hvernig á að bæta töflu við lista yfir leyfðar töflur með og án áskildra og sjálfgefinna sía. Fyrir flóknara dæmi skal skoða codeunit 3999 „Reten. Pol. Setja upp - BaseApp“. 
+Til að bæta töflunum þínum við listann yfir leyfilegar töflur verður verktaki að bæta við einhverjum kóða. Til dæmis til uppsetningarkóðaeiningarinnar fyrir viðbótina (kóðaeining með *install* undirgerðinni).
+
+Þegar þróunaraðili bætir við töflu getur hann tilgreint áskildar og sjálfgefnar síur. Ekki er hægt að fjarlægja eða breyta lögboðnum síum síðar þegar þú bætir við töflum til að skilgreina varðveislustefnu. Sjálfgefnar síur eru bara tillögur.
+
+Eftirfarandi eru dæmi um hvernig á að bæta töflu við lista yfir leyfðar töflur með og án áskildra og sjálfgefinna sía. Fyrir flóknara dæmi, farðu í kóðaeiningu 3999 "Reten. Pol. Setja upp - BaseApp“.
 
 ```al
  trigger OnInstallAppPerCompany()
@@ -95,7 +106,7 @@ Eftirfarandi dæmi inniheldur áskilda síu.
 
 Þegar þróunaraðili hefur bætt töflum við listann, getur stjórnandi haft þær með í varðveislureglu. 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Greining á fjarmælingu á rakningu varðveislustefnu](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Endurskoðunarbreytingar í Business Central](across-log-changes.md)  

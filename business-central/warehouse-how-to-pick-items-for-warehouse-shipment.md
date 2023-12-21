@@ -1,6 +1,6 @@
 ---
 title: Tína vörur fyrir vöruhúsaafhendingu
-description: Lærðu að nota vöruhúsatínsluskjöl til að stofna og vinna úr upplýsingum um tínsluafhendingar áður en vöruhúsaafhending er bókuð.
+description: Lærðu um notkun vöruhúsatínslugagna til að búa til og vinna úr tínsluupplýsingum áður en vöruhúsasending er bókuð.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
@@ -10,118 +10,118 @@ ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Tína vörur fyrir vöruhúsaafhendingu
+# Tína vörur fyrir vöruhúsaafhendingu
 
-Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru tínsla og sendingarvara notuð með einni af fjórum aðferðum eins og lýst er í eftirfarandi töflu.
+Í [!INCLUDE[prod_short](includes/prod_short.md)] velur þú og sendir vörur með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
 
-|Aðferð|Útleiðarferli|Krefjast tínslu|Krefjast afhendingar|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
+|Aðferð|Útleiðarferli|Krefjast tínslu|Krefjast afhendingar|Flækjustig (Frekari upplýsingar á [yfirlit yfir vöruhússtjórnun](design-details-warehouse-management.md))|  
 |------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
-|A|Bóka tínslu og sendingu úr pöntunarlínu|||Engin sérstök vöruhúsaaðgerð.|  
-|Á|Bóka tínslu og afhendingu úr birgðatínsluskjali|Kveikt||Grunnur: pöntun-eftir pöntun.|  
-|U|Bóka tínslu og sendingu úr vöruhúsaafhendingarskjali||Kveikt|Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
-|D|Bókið tínsluna úr vöruhúsatínsluskjali og bókið sendinguna úr afhendingarskjali vöruhúss|Kveikt|Kveikt|Ítarlegt|  
+|A|Bókaðu tínslu og sendingu úr pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
+|Á|Bókaðu tínslu og sendingu úr birgðatínsluskjali|Kveikt á||Basic: Panta-fyrir-pöntun.|  
+|U|Bókaðu tínslu og sendingu úr vöruhúsasendingarskjali||Kveikt á|Basic: Samþætt móttöku/sendingabókun fyrir margar pantanir.|  
+|D|Bókaðu tínsluna úr vöruhúsatínsluskjali og bókaðu sendinguna úr vöruhúsasendingarskjali|Kveikt á|Kveikt á|Ítarlegt|  
 
-Frekari upplýsingar um flæði vöruhúss á  [útleið](design-details-outbound-warehouse-flow.md).
+Frekari upplýsingar á [Útleið vöruhúsaflæði](design-details-outbound-warehouse-flow.md).
 
-Með þessari grein er átt við aðferð D í töflunni. Til að fræðast meira um sendingarvörur er farið í  [sendingarvörur](warehouse-how-ship-items.md).
+Þessi grein vísar til aðferðar D í töflunni. Til að læra meira um sendingarvörur skaltu fara á [Sendingarvörur](warehouse-how-ship-items.md).
 
-Þegar Birgðageymsla er sett upp þannig að krafist sé vöruhúsatínslu vinnslu og vöruhúsaafhendingarvinnslu skal nota vöruhúsatínsluskjöl til að stofna og vinna úr tínsluupplýsingum áður en vöruhúsaafhending er bókuð.  
+Þegar staðsetning er sett upp til að krefjast vöruhúsatínsluvinnslu og vöruhúsasendingarvinnslu, notaðu vöruhústínsluskjöl til að búa til og vinna úr tínsluupplýsingum áður en þú bókar vöruhúsasendinguna.  
 
-Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti verkflæðis þar sem sá sem sér um vinnslu pöntunar stofnar á þrýstihátt eða starfsmaður vöruhússins stofnar þá í togtísku:
+Þú getur ekki búið til vöruhústínsluskjal frá grunni. Val eru hluti af verkflæði þar sem sá sem vinnur úr pöntun býr til þær á ýttan hátt eða starfsmaður vöruhússins býr til þær á dráttarhátt:
 
-- Á þrýstihátt, þar sem þú notar  **aðgerðina stofna tínslu**  á  **síðu vöruhúsaafhendingar** . Velja línurnar sem á að tína og undirbúa tínslur með því að tilgreina, til dæmis, hvaða hólf eigi að taka af og á í og hversu margar einingar eigi að afgreiða. Hólf geta verið forskilgreind fyrir vöruhúsastaðinn eða forðinn.
-- Í togtísku, þar sem úttektaraðgerðin  **er notuð**  á  **síðu vöruhúsaafhendingar**  til að gera vörurnar tiltækar fyrir tiltekt. Síðan, á  **síðunni tínsluvinnublað**, geta starfsmenn vöruhúss notað  **skjölin sækja vöruhúsaskjöl**  til að draga úthlutaðar tínslur.
+- Á ýttan hátt, þar sem þú notar **Create Pick** aðgerðina á **Vöruhússending** síðunni. Veldu línurnar sem á að tína og undirbúið tínslurnar með því að tilgreina td hvaða tunnur á að taka úr og setja í og ​​hversu margar einingar á að meðhöndla. Hægt er að forskilgreina hólf fyrir staðsetningu vöruhúss eða tilföng.
+- Á dráttarbraut, þar sem þú notar **Sleppa** aðgerðina á **Vöruhúsasendingu** síðunni til að gera hlutina aðgengilega fyrir tína. Síðan, á  **Velja vinnublað** síðunni, geta starfsmenn vöruhússins notað **Fá vöruhúsaskjöl** aðgerðina til að draga út valið.
 
 > [!NOTE]  
-> Tiltekt á vöruhúsaafhendingu vara sem eru settar saman fyrir sölupöntun fylgir sömu skrefum og Venjuleg vöruhúsatiltekt fyrir afhendingar eins og lýst er í þessari grein. Hins vegar er fjöldi tínslulína fyrir magnið sem á að senda ef til vill margar til þeirra því þú velur íhluti, ekki sett saman vöru.  
+> Tínsla fyrir vöruhúsasendingu á vörum sem eru settar saman fyrir sölupöntun fylgir sömu skrefum og fyrir venjulega vöruhúsatínslu fyrir sendingar, eins og lýst er í þessari grein. Hins vegar getur fjöldi tínslulína fyrir magnið sem á að senda verið margir á móti einni vegna þess að þú velur íhlutina, ekki samsetta vöruna.  
 >
-> Tínslulínur vöruhúss eru stofnaðar fyrir gildið í reitnum Eftirstöðvar  **í**  línum samsetningarpöntunar sem er tengd sölupöntunarlínunni sem verið er að senda. Allir íhlutir eru teknir fyrir í einni aðgerð. Frekari upplýsingar á  [afgreiðslu setja saman vörur í Vöruhúsasendingum](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).  
+> Vöruhústínslulínur eru búnar til fyrir gildið í reitnum **Afstandandi magn**  á línum samsetningarpöntunarinnar sem er tengd við sölupöntunarlínuna sem verið er að senda. Allir íhlutir eru valdir í einni aðgerð. Frekari upplýsingar er að finna á [Meðhöndlun samsettra vara í vöruhúsasendingum](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).  
 >  
-> Frekari upplýsingar um tiltektaríhluti fyrir samsetningar pantana, þar á meðal aðstæður þar sem samsetningarvörur eru ekki tengdar söluafhendingu, er farið í  [tínslur fyrir framleiðslu, samsetningu eða vinnslur í ítarlegri Vöruhúsafbrigðum](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+> Til að læra meira um að velja íhluti fyrir samsetningarpantanir, þar á meðal aðstæður þar sem samsetningarvörur tengjast ekki sölusendingu, farðu á [Veldu fyrir framleiðslu, samsetningu eða störf í háþróuðum vöruhúsastillingum](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Athuga hvort vörur séu tiltækar til tínslu
+## Athugaðu hvort hlutir séu tiltækir til að tína
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Tínsluskjöl stofnuð í fjöldavið tínsluvinnublaðið
+## Til að búa til tínsluskjöl í lausu með tínsluvinnublaðinu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað tínslu** og velja síðan viðkomandi tengil.  
 
 2. Valið er **Sækja vöruhúsaskjöl** aðgerð.  
 
-    Í listanum eru allar sendingar sem hafa verið losaðar fyrir tiltekt, þar með talið þær sem tínsluleiðbeiningar hafa þegar verið stofnaðar fyrir. Skjöl með tínslulínum sem hafa verið tekin endanlega til og skráð eru ekki sýnd á þessum lista.  
+    Listinn mun innihalda allar sendingar sem hafa verið gefnar út til tínslu, einnig þær sem tínsluleiðbeiningar hafa þegar verið búnar til. Skjöl með tínslulínum sem hafa verið alveg tínd og skráð eru ekki sýnd á þessum lista.  
 3. Afhendingarnar sem undirbúa á tínslu fyrir eru valdar.
 
     > [!NOTE]  
-    >  Ef þú reynir að velja afhendingu eða innanhússtínsluskjal sem þú hefur þegar útbúið leiðbeiningar fyrir allar línurnar þess færðu skilaboð sem segja eitthvað eins og er, "það er ekkert hægt að afgreiða." Til að sameina vöruhúsatínsluleiðbeiningarnar sem þegar hafa verið stofnaðar í einni tínslukennslu verður að eyða einstökum vöruhúsatínslum sem fyrst.
+    >  Ef þú reynir að velja sendingu eða innra tínsluskjal sem þú hefur þegar búið til leiðbeiningar fyrir allar línur þess færðu skilaboð sem segja eitthvað eins og, "það er ekkert að höndla." Til að sameina vöruhústínsluleiðbeiningar sem þú hefur þegar búið til í eina tínsluleiðbeiningar verður þú fyrst að eyða einstökum vöruhúsatínslum.
 
-4.  **Reiturinn röðunaraðferð**  er fylltur út til að raða línunum.  
-
-    > [!NOTE]  
-    >  Því hvernig línunum er raðað á vinnublaðinu er ekki sjálfkrafa haldið við í tínsluleiðbeiningunum. Hins vegar eru sömu röðunartækifæri og hólfaflokkuð. Auðveldlega er hægt að endurgera línupöntunina sem er áætlun í vinnublaðinu þegar tínsluleiðbeiningarnar eru stofnaðar eða í tínsluleiðbeiningunum.
-
-5.  **Reiturinn Magn til afgreiðslu**  er fylltur út annaðhvort handvirkt eða með því að  **nota aðgerðina autofill Qty.to** .  
-
-    Síðan sýnir magnið sem er tiltækt í hólfum í hjáskipun. Þessar upplýsingar eru gagnlegar við skipulagningu vinnuverkefna í hjáaðstæðum. [!INCLUDE[prod_short](includes/prod_short.md)] mun alltaf fyrst leggja til tiltekt úr hjáskipunarhólfi.
-6. Breytið línunum ef þörf krefur. Einnig er hægt að eyða línum til að gera tínsluna skilvirkari. Ef til að mynda til eru margar línur með vörum sem eru í hjáskipunarhólfum væri hægt að stofna tínslu fyrir allar línurnar. Hjáskipunarvörurnar verða afhentar með öðrum vörum á sendingunni og í hjásendum hólfum hafa rými fyrir fleiri aðsendar vörur.  
+4. Fylltu út **Röðunaraðferð** reitinn til að raða línunum.  
 
     > [!NOTE]  
-    >  Ef línum er eytt eru þær aðeins eyddar úr vinnublaðinu. Þeim er ekki eytt af listanum velja val.  
+    >  Hvernig línurnar eru flokkaðar í vinnublaðinu fer ekki sjálfkrafa í gegnum valleiðbeiningarnar. Hins vegar eru sömu möguleikar til að flokka og röðun í ruslakörfu. Þú getur auðveldlega endurskapað línuröðina sem þú skipuleggur í vinnublaðinu þegar þú býrð til tínsluleiðbeiningarnar eða flokkar í tínsluleiðbeiningarnar.
 
-7. Veldu aðgerðina **Stofna tínslu**.  **Síðan stofna tínslu**  opnast, þar sem hægt er að bæta meiri upplýsingum við tínsluna sem verið er að stofna. Tilgreinið hvernig eigi að sameina tínslulínur í tínsluskjöl með því að velja einn af eftirfarandi valkostum.  
+5. Fylltu út **magnið. til að meðhöndla** reitinn annað hvort handvirkt eða með því að nota **Sjálfvirk útfylling Qty.to Handle** aðgerð.  
+
+    Síðan sýnir magnið sem er tiltækt í flutningshólfum. Þessar upplýsingar eru gagnlegar til að skipuleggja vinnuverkefni í flutningsaðstæðum. [!INCLUDE[prod_short](includes/prod_short.md)] mun alltaf fyrst leggja til tiltekt úr hjáskipunarhólfi.
+6. Ef þörf krefur, breyttu línunum. Þú getur líka eytt línum til að gera valið skilvirkara. Ef til að mynda til eru margar línur með vörum sem eru í hjáskipunarhólfum væri hægt að stofna tínslu fyrir allar línurnar. Hlutirnir sem eru í flutningi verða sendir með öðrum hlutum í sendingunni og í tunnunum sem fara yfir bryggju verður pláss fyrir fleiri hluti sem koma inn.  
+
+    > [!NOTE]  
+    >  Ef þú eyðir línum er þeim aðeins eytt af vinnublaðinu. Þeim er ekki eytt af vallistanum.  
+
+7. Veldu aðgerðina **Stofna tínslu**. Síðan **Búa til val** opnast þar sem þú getur bætt frekari upplýsingum við valið sem þú ert að búa til. Tilgreindu hvernig á að sameina tínslulínur í tínsluskjölunum með því að velja einn af eftirfarandi valkostum.  
 
     |Valkostur|Heimildasamstæða|
     |-|-|
-    |Á vöruhúsaskjölum Skjal|Stofnar aðskilin tínsluskjöl fyrir vinnublaðslínur með sama upprunaskjali vöruhúss.|
-    |E. viðskm./lánardr./birgðag.|Stofna aðskilin tínsluskjöl fyrir hvern viðskiptavin (sölupantanir), lánardrottin (innkaupaskilapantanir) og birgðageymslu (flutningspantanir).|
-    |Eftir vöru|Stofna aðskilin tínsluskjöl fyrir hverja vöru á tínsluvinnublaðinu.|
-    |Á frá-svæði|Stofna aðskilin tínsluskjöl fyrir hvert svæði sem taka á vörur úr.|
-    |Eftir hólfi|Stofna aðskilin tínsluskjöl fyrir hvert hólf sem taka á vörur úr.|
-    |Eftir gjalddaga|Stofna aðskilin tínsluskjöl fyrir upprunaskjöl sem hafa sama gjalddaga.|
+    |Á Whse. Skjal|Býr til aðskilin tiltektarskjöl fyrir vinnublaðslínur með sama upprunaskjali vöruhúss.|
+    |E. viðskm./lánardr./birgðag.|Búðu til aðskilin tínsluskjöl fyrir hvern viðskiptavin (sölupantanir), söluaðila (skilapantanir innkaupa) og staðsetningu (flutningspantanir).|
+    |Eftir vöru|Búðu til aðskilin tínsluskjöl fyrir hvern hlut á tínsluvinnublaðinu.|
+    |Á frá-svæði|Búðu til aðskilin tiltektarskjöl fyrir hvert svæði sem þú tekur hluti frá.|
+    |Eftir hólfi|Búðu til aðskilin tínsluskjöl fyrir hverja hólf sem þú tekur hluti úr.|
+    |Eftir gjalddaga|Búðu til aðskilin tiltektarskjöl fyrir upprunaskjöl sem hafa sama gjalddaga.|
 
-    Tilgreinið hvernig tínsluskjöl eru stofnuð með því að velja úr eftirfarandi valkostum.
+    Tilgreindu hvernig tiltektarskjölin eru búin til með því að velja úr eftirfarandi valkostum.
 
     |Valkostur|Heimildasamstæða|
     |-|-|
-    |Max. Nr. Um tínslulínur|Stofnar tínsluskjöl sem hafa ekki fleiri en tilgreindan línufjölda í hverju skjali.|
-    |Max. Nr. Doktors Tínslusource.|Stofnar tínsluskjöl sem hvert skjól er ekki meira en tiltekinn fjöldi upprunaskjala.|
-    |Úthlutað notandakenni|Stofnar tínsluskjöl aðeins fyrir vinnublaðslínur sem er úthlutað á valinn vöruhúsastarfsmann.|
-    |Röðunaraðferð f. tínslulínur|Veljið úr tiltækum valkostum til að raða línum í stofnaða tínsluskjalið.|
-    |Setja einingaskiptingarafmörkun|Felur millitínslulínum einingatiltekt þegar stærri Mælieining er umbreytt í smærri mælieiningu og alveg tínd.|
-    |Ekki færa magn til afgreiðslu|Fer reiturinn Magn til afgreiðslu í stofnaða tínslulínum auðar.|
-    |Prenta tínslu|Prentar tínsluskjölin þegar þau eru stofnuð. Einnig er hægt að prenta úr stofnaða tínsluskjölum.|
+    |Hámark Nr. Af Pick Lines|Býr til valskjöl sem hafa ekki fleiri en tilgreindan fjölda lína í hverju skjali.|
+    |Hámark Nr. Af Pick Source Docs.|Býr til valskjöl sem hver um sig nær ekki yfir meira en tilgreindan fjölda frumskjala.|
+    |Úthlutað notandakenni|Stofnar tiltektarskjöl eingöngu fyrir vinnublaðslínur sem eru úthlutaðar á valda vöruhússstarfsmann.|
+    |Röðunaraðferð f. tínslulínur|Veldu úr tiltækum valkostum til að raða línum í búnu tiltektarskjalinu.|
+    |Setja einingaskiptingarafmörkun|Felur millihlutavallínur þegar stærri mælieiningu er breytt í minni mælieiningu og tínd að fullu.|
+    |Ekki færa magn til afgreiðslu|Skilur eftir Magn. til að meðhöndla reitinn í stofnuðum tínslulínum tómum.|
+    |Prenta tínslu|Prentar tiltektarskjölin þegar þau eru búin til. Þú getur líka prentað út úr tilbúnum valskjölum.|
 
-8. Velja **Í lagi**. [!INCLUDE [prod_short](includes/prod_short.md)] stofnar tínsluna í samræmi við það sem valið var.  
+8. Velja **Í lagi**. [!INCLUDE [prod_short](includes/prod_short.md)] mun búa til valið í samræmi við val þitt.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Vörur tínslur fyrir vöruhúsaafhendingu
+## Til að velja vörur fyrir vöruhússendingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsatínslur** og velja síðan viðkomandi tengil.  
 
     Ef nauðsynlegt er að vinna í tiltekinni tínslu, er tínslan valin af lista eða listi afmarkaður til að vinna tínslu sem hafa verið úthlutað notandanum sérstaklega. Tínsluspjaldið er opnað.  
-2.  **Ef reiturinn úthlutað notandakenni**  er auður skal FÆRA inn kennið til að auðkenna notandann ef með þarf.  
-3. Tínsla varanna.  
+2. Ef reiturinn **Úthlutað notandaauðkenni** er auður skaltu slá inn auðkenni þitt til að auðkenna þig ef þörf krefur.  
+3. Veldu hlutina.  
 
-    Ef vöruhúsið er sett upp þannig að þau noti hólf eru sjálfgefnu hólfin í vörunum notuð til að leggja til hvaðan eigi að taka vörurnar. Leiðbeiningarnar innihalda að minnsta kosti tvær aðskildar línur til að taka og setja aðgerðir.  
+    Ef vöruhúsið er sett upp til að nota hólfa eru sjálfgefnar hólkar vörunnar notaðar til að benda á hvaðan á að taka vörurnar. Leiðbeiningarnar innihalda að minnsta kosti tvær aðskildar línur fyrir Taka og setja aðgerðir.  
 
-    Ef vöruhúsið er sett upp til að nota beinan frágang og tínslu er hólfaflokkun notuð til að reikna út bestu hólfin til tínslu úr. Þau hólf eru lögð til á tínslulínunum. Leiðbeiningarnar innihalda að minnsta kosti tvær aðskildar línur til að taka og setja aðgerðir.  
+    Ef vöruhúsið er sett upp til að nota beint frágang og tínslu, er röðun hólfa notuð til að reikna út bestu hólfin til að tína úr. Stungið er upp á þeim tunnunum á plokkunarlínunum. Leiðbeiningarnar innihalda að minnsta kosti tvær aðskildar línur fyrir Taka og setja aðgerðir.  
 
-    * Fyrsta línan, með  **taka**  í  **reitnum aðgerðargerð**, gefur til kynna hvar vörurnar eru staðsettar á tiltektarsvæðinu. Ef mikið af vörum er í einni afhendingarlínu gæti þurft að tína vörurnar í nokkrum hólfum svo það sé lína fyrir hvert hólf.
-    * Næsta lína, með  **stað**  í  **reitnum Tegund**  aðgerðar, sýnir hvar verður að setja vörurnar í vöruhúsinu. Ekki er hægt að breyta svæði og hólfi í þessari línu.
+    * Fyrsta línan, með **Taka** í reitnum **Aðgerðagerð**, gefur til kynna hvar hlutirnir eru staðsettir á tínslusvæðinu. Ef þú ert að senda mikið af vörum á einni sendingarlínu gætirðu þurft að velja vörurnar í nokkrum hólfum, þannig að það er Taka lína fyrir hverja tunnu.
+    * Næsta lína, með **Place** í reitnum **Aðgerðartegund**, sýnir hvar þú verður að staðsetja vörurnar í vöruhúsinu. Þú getur ekki breytt svæði og rusli á þessari línu.
 
     > [!NOTE]
-    > Ef taka þarf vörurnar í eina línu í fleiri en einu hólfi, til dæmis vegna þess að það merkta hólfið er fullt, skal nota  **aðgerðina skipta línu**  á  **fastflipanum línur** . Aðgerðin býr til línu fyrir eftirstandandi magn sem á að afgreiða.
+    > Ef þú verður að velja eða setja hlutina fyrir eina línu í fleiri en eina tunnu, til dæmis vegna þess að tilnefnda tunnan er full, notaðu **Skipta línu** aðgerðina á **Línur** Flýtiflipi. Aðgerðin býr til línu fyrir það magn sem eftir er til að meðhöndla.
 
-4. Þegar búið er að velja og setja vörurnar í sendingarsvæði eða afhendingarhólf skal velja  **aðgerðina skrá tínslu** .  
+4. Eftir að þú hefur valið og sett hlutina á sendingarsvæðið eða sendingartunnuna skaltu velja **Skráðu Pick**  aðgerð.  
 
-Nú er hægt að koma vörunum í afhendingarhöfnina og bóka sendinguna, þar með talið tengda upprunaskjalinu, á  **síðu vöruhúsaafhendingar** . Frekari upplýsingar um  [Sendingarvörur](warehouse-how-ship-items.md).
+Þú getur nú komið með vörurnar á sendingarbryggjuna og sent sendinguna, þar á meðal tengda upprunaskjalið, á **Vöruhúsasending**  síðu. Frekari upplýsingar á [Skipahlutir](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Inventory](inventory-manage-inventory.md)  
-[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
-[Samsetningardeild](assembly-assemble-items.md)    
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
+- [Stjórna birgðum](inventory-manage-inventory.md)  
+- [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
+- [Samsetningardeild](assembly-assemble-items.md)    
+- [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

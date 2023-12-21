@@ -1,6 +1,6 @@
 ---
 title: Viðhengi fyrir samskipti
-description: 'Hægt er að tengja skrár, eins og Word-skjöl, til að bæta upplýsingum um samskipti.'
+description: 'Þú getur hengt við skrár, eins og Word skjöl, til að bæta við upplýsingum um samskipti.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
@@ -10,34 +10,34 @@ ms.search.forms: '5082,'
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# <a name="attachments-for-interactions"></a>Viðhengi fyrir samskipti
+# Viðhengi fyrir samskipti
 
-Skrárnar sem tengjast samskiptunum eru ekki tengdar beint. Þeir koma frá einum af eftirfarandi stöðum:
+Skrárnar sem eru tengdar við samskipti eru ekki tengdar við samskiptin beint. Þeir koma frá einum af eftirfarandi stöðum:
 
-* Samskiptasniðmátið sem var notað til að stofna samskiptin. Frekari upplýsingar um uppsetningu sniðmáta er að fara til að  [Setja upp samskiptasniðmát](marketing-interactions.md#set-up-interaction-templates).
-* Hlutinn sem samskiptin voru stofnuð fyrir. Til að fræðast meira um hluta er farið til að  [stjórna samskiptum fyrir hluta](marketing-interaction-segments.md).
+* Samskiptasniðmátið sem þú notaðir til að búa til samskiptin. Til að læra meira um að setja upp sniðmát skaltu fara í [Setja upp samskiptasniðmát](marketing-interactions.md#set-up-interaction-templates).
+* Hlutinn sem þú bjóst til samskiptin fyrir. Til að læra meira um hluti skaltu fara í [Stjórna samskiptum fyrir hluti](marketing-interaction-segments.md).
 
-## <a name="view-attachments"></a>Skoða viðhengi
+## Skoða viðhengi
 
-Viðhengi eru tiltæk þegar skoðuð eru skráð samskipti á  **síðunni Samskiptaskráningarfærslur** .  **Velja aðgerðina Sýna viðhengi** .
+Viðhengi eru tiltæk þegar þú skoðar skráð samskipti á  **færslur í samskiptaskrá** síðunni. Veldu aðgerðina **Sýna viðhengi** .
 
-## <a name="types-of-files-you-can-attach"></a>Tegundir skráa sem hægt er að hengja upp
+## Tegundir skráa sem þú getur hengt við
 
-Viðhengi geta verið bara um hvaða tegund af skrá er að ræða, eins og Word skjöl, Powerpoint kynningar, Excel eða textaskrár o. s. frv.
+Viðhengi geta verið nánast hvaða skráartegund sem er, eins og Word skjöl, PowerPoint kynningar, Excel eða textaskrár.
 
 > [!TIP]
-> [!INCLUDE [prod_short](includes/prod_short.md)] samþættir við Word, sem gerir kleift að nota aðgerðir eins og blöndunarsvæði í sniðmátum Word. Til að fræðast meira um notkun Word sniðmáta er farið að  [nota Word sniðmát fyrir Magnsamskipti](ui-mail-merge.md).
+> [!INCLUDE [prod_short](includes/prod_short.md)] samþættast við Word, sem gerir þér kleift að nota eiginleika eins og sameina reiti á Word sniðmátum. Til að læra meira um notkun Word sniðmáta skaltu fara í [Nota Word sniðmát fyrir magnsamskipti](ui-mail-merge.md).
 
-## <a name="what-you-can-do-with-attachments"></a>Það sem hægt er að gera við viðhengi
+## Það sem þú getur gert með viðhengjum
 
-Hægt er að gera eftirfarandi atriði með viðhengjum:
+Þú getur framkvæmt eftirfarandi aðgerðir með viðhengjum:
 
-* **Opna** : Hægt er að ræsa tengt forrit, til dæmis  Microsoft Word, og skjalið opnast. Síðan er hægt að breyta því.
-* **Innflutningur** : Hægt er að flytja inn alls kyns viðhengi. Til dæmis er hægt að skanna inn bréf sem hefur borist, flytja það inn og hengja það við samskiptin sem skrá móttöku bréfsins.
-* **Flytja út** : Hægt er að flytja viðhengi út á stað á Diskskrá.
-* **Fjarlægja** : Hægt er að fjarlægja gildandi viðhengi úr samskiptasniðmáti.
-* **Afrita** : Hægt er að afrita viðhengi úr öðru samskiptasniðmáti.
+* **Opna**: Ræstu tilheyrandi forrit—Microsoft Word, til dæmis—og skjalið opnast. Þú getur síðan breytt því.
+* **Flytja inn**: Flytja inn viðhengi. Til dæmis geturðu skannað móttekið bréf, flutt það inn og hengt það við samspilið sem skráir móttöku þess bréfs.
+* **Flytja út**: Flytja út viðhengi á staðsetningu á diskskrá.
+* **Fjarlægja**: Fjarlægðu núverandi viðhengi úr samskiptasniðmáti.
+* **Afrita**: Afritaðu viðhengi úr öðru samskiptasniðmáti.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
-[Skrá samskipti við tengiliði](marketing-interactions.md)  
+[Taktu upp samskipti við tengiliði](marketing-interactions.md)  

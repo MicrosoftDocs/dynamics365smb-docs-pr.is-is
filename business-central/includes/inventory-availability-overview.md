@@ -5,81 +5,81 @@ ms.date: 09/11/2023
 ms.author: bholtorf
 ---
 
-Auka skilvirkni í vöruhúsinu með nákvæmum, rauntíma upplýsingum um þætti sem geta haft áhrif á tiltækt magn. Dæmi: 
+Auktu skilvirkni í vöruhúsi þínu með nákvæmum rauntímaupplýsingum um þætti sem geta haft áhrif á tiltækt magn. Dæmi: 
 
 * Birgðastig
 * Staðsetningar
-* Vinnslustigum
-* Atriði í sóttkví
+* Vinnslustig
+* Hlutir í sóttkví
 * Bókanir
 
-Hægt er að nálgast upplýsingar um vöruframboð úr eftirtöldum upprunaskjölum:
+Þú getur nálgast upplýsingar um framboð á hlutum úr eftirfarandi upprunaskjölum:
 
 * Sölupantanir
 * Framleiðslupantanir
-* Samsetningar pantanir
+* Samkomulög
 * Verk
 
-Upplýsingarnar virða einnig aðra þætti sem hafa áhrif á framboð. Til dæmis, hollur hólmur, læst hólf og vörur sem ekki eru tiltækar fyrir tiltekt. Til dæmis gætu vörur verið teknar frá eða verið í bið eða frágangsaðgerðir eða afhendingar.  **Síðan Tínslusamantekt**  gerir kleift að fara yfir atriðin sem  [!INCLUDE [prod_short](prod_short.md)]  ekki hafa verið í tínsluskjölum og grípa til nauðsynlegra aðgerða.
+Upplýsingarnar virða einnig aðra þætti sem hafa áhrif á framboð. Til dæmis sérstakar bakkar, læstar bakkar og hlutir sem ekki er hægt að tína. Til dæmis gætu hlutir verið fráteknir eða beðið eftir flutningi eða sendingu. Síðan **Velja samantekt**  gerir þér kleift að fara yfir atriðin sem [!INCLUDE [prod_short](prod_short.md)] ekki voru með í valsskjölum og grípa til nauðsynlegra aðgerða.
 
 > [!NOTE]
-> Þessi hæfileiki krefst þess að kveikt sé á  **beini-frágangs-og tínsluvíxlun**  fyrir birgðageymslur sem notaðar eru í tiltektarferlinu.
+> Þessi möguleiki krefst þess að þú kveikir á **Bein frágangi og Velja** rofi fyrir staðsetningarnar sem þú notar í tínsluferlinu þínu.
 
-### <a name="set-up-previews"></a>Setja upp forsýn
+### Settu upp forsýningar
 
-Til að fá upplýsingar um hvað er verið að taka til og hvað er ekki, er kveikt  **á yfirlitssýningu (beinn frágangur og tínsla)**  Víxlböð  **·**  **-Stofna tínslu-og afhendingarsíður-stofnað tínslubeiðandi.** 
+Til að fá upplýsingar um hvað er verið að velja og hvað ekki skaltu kveikja á **Sýna samantekt (bein frágangi og vali)** kveikja á **Whse.-Source - Búa til skjal** eða **Whse.-Shipment - Búa til Pick** beiðnisíður.
 
-### <a name="determine-the-quantity-you-can-pick"></a>Ákvarða magnið sem hægt er að tína
+### Ákveðið magnið sem þú getur valið
 
-Í línum á  **yfirlitssíðu**  vöruhúsatínslu er reiturinn Magn til afgreiðslu (stofn)  **, og hversu margar,**  sem reynt var að taka  [!INCLUDE [prod_short](prod_short.md)]  til. Í upplýsingakassa samantektar  **er að**  finna nánari upplýsingar.
+Á línum á  **Create Warehouse Pick Summary** síðunni er **Magn. to Handle (Base)** reiturinn sýnir hvaða og hversu mörg atriði [!INCLUDE [prod_short](prod_short.md)] reyndu að velja.  **Samantekt** Staðreyndakassinn veitir frekari upplýsingar.
 
-Til einföldunar er  **rannsakað magn pickable-magns.** gæti gefið þér nægar upplýsingar. Í reitnum sést hversu mörg atriði eru tiltæk. Ef magn pickable er minna en búist var við skal kanna innihald hólfsins.
+Fyrir einfaldar rannsóknir gæti **valanlegt magn.**  gefið þér nægar upplýsingar. Reiturinn sýnir hversu margir hlutir eru tiltækir. Ef magn sem hægt er að velja er minna en búist var við, skoðaðu innihald tunnunnar.
 
- **Pickable-magn** er hámarksmagn sem  [!INCLUDE [prod_short](prod_short.md)]  telja má til tínslu. Þetta magn samanstendur af vörum í pickable-hólfum. Magnið í útilokuðu magni sem er í læstum eða tilefnum hólfum eða vörum sem eru tíndar inn í vöruhúsatínsluskjölum. Ef varan sem sækja á krefst vörurakningu eru lokuð lotu-eða raðnúmer sem geymd eru í pickable-hólfum undanskilin pickable-magninu.
+ **Tilvalanlegt magn.** er hámarksmagnið sem [!INCLUDE [prod_short](prod_short.md)] getur tekið til greina við tínslu. Þetta magn samanstendur af hlutum í valinn tunnur. Magnið útilokar magn sem er í læstum eða sérstökum hólfum, eða vörur sem verið er að tína í vöruhústínsluskjölum. Ef hluturinn sem þú vilt velja krefst vörurakningar, eru læst lotu- eða raðnúmer sem eru geymd í valinn hólfum útilokuð frá valanlegu magni.
 
-Ef pickable-magnið er frábrugðið magninu í pickable-hólfum gæti það verið vandamál. Skoða hólfainnihald til að finna læst hólf eða magn í virkum skjölum.
+Ef tínanlegt magn er frábrugðið magninu í tínslutunnunum gæti verið vandamál. Skoðaðu hólfainnihaldið til að finna læst tunnur eða magn í virkum skjölum.
 
- **Magnið í reitnum vöruhús**  sýnir heildarmagn sem þú finnur í vöruhúsinu ef þú gerir efnislega talningu. Hægt er að kafa niður í vöruhúsafærslurnar úr þessum reit. Ef reiturinn sýnir magn sem er minna en magnið í  **Pickable-hólfum** er misröðun milli vöruhúss og birgðamagns. Í því tilviki skal nota  **aðgerðina reikna Leiðréttingarvöruhluta**  á  **síðunni birgðabókar**  og stofna síðan vöruhúsakínslu aftur.
+Reiturinn **Magn í vöruhúsi**  sýnir heildarmagnið sem þú finnur í vöruhúsinu þínu ef þú gerir líkamlega talningu. Hægt er að grafa niður í vöruhúsabókarfærslur úr þessum reit. Ef reiturinn sýnir magn sem er minna en magnið í **Magni í valanlegum hólfum**, er misskipting milli vöruhúss og birgðamagns. Í því tilviki skaltu nota **Reikna vöruhúsaleiðréttingu** aðgerðina á  **Vörubók** síðunni og búa síðan til vöruhúsatínsluna aftur.
 
-Eftirfarandi mynd sýnir hámarksmagn sem tekið er með í tiltekt.
+Eftirfarandi mynd sýnir hámarksmagn sem tekið er til greina við tínslu.
 
-:::image type="content" source="../media/pickable-qty.png" alt-text="Hámarksmagn sem talið er tiltekt á.":::
+:::image type="content" source="../media/pickable-qty.png" alt-text="Hámarksmagn sem kemur til greina við tínslu.":::
 
-**Þjóðsaga**
+**Goðsögn**
 
 |Stafur  |Heimildasamstæða  |
 |---------|---------|
-|T     |Hólf með efni af gerðinni Pick         |
-|D     |Hólf með efni af gerðinni tiltekt merkt sem hollur hólmur        |
-|A     |Hólf með efni af gerðinni tínsla í virku skjölunum (eins og önnur tínsla)       |
-|T     |Hólf með efni af gerðinni tínsla með vörum með læstum rakningu         |
-|Á     |Hólf með efni af gerðinni velja með lokaða hreyfingu á útleið         |
-|O     |Önnur hólf         |
+|T     |Bakkar með innihaldi af gerðinni Pick         |
+|D     |Bakkar með innihaldi af gerðinni Velja merktar sem sérstakar bakkar        |
+|A     |Bakkar með efni af gerðinni Velja í virku skjölunum (eins og annað val)       |
+|T     |Bakkar með innihaldi af gerðinni Velja með hlutum með læstri rakningu         |
+|Á     |Bakkar með innihaldi af gerðinni Velja með læstri útleið         |
+|O     |Aðrar ruslar         |
 
-### <a name="reservations"></a>Bókanir
+### Bókanir
 
-Ef til er Frátekning á vörunni sem verið er að taka til er útreikningur heldur áfram. Hugmyndin er að frátekt eftirspurn hafi hærri forgang en það sem er ekki frátekið, sem þýðir að tiltekt fyrir eftirspurn án frátekna ætti ekki að koma í veg fyrir tiltekt vegna frátekna eftirspurnar síðar.
+Ef fyrirvarar eru fyrir vöruna sem verið er að velja heldur útreikningurinn áfram. Hugmyndin er sú að frátekin eftirspurn hafi meiri forgang en ekki frátekin, sem þýðir að tínsla fyrir óátekna eftirspurn ætti ekki að koma í veg fyrir tínslu fyrir frátekna eftirspurn síðar.
 
-Til að sannreyna að magnið geti náð yfir eftirspurn er hægt að bera saman  **pickable-magn.** gildi á  **upplýsingakassa samantektar**  með gildinu í  **reitnum Magn til afgreiðslu (stofn)**  í línunum.
+Til að ganga úr skugga um að magnið þitt geti staðið undir eftirspurn skaltu bera saman **valanlegt magn.** gildi í **yfirliti** staðreyndakassi gildi í **Magni. að meðhöndla (Base)** reit á línunum.
 
-Hægt er að finna frátekningar í  **reitnum Samtals frátekið magn í vöruhúsi** . Frátekið magn sem þegar er valið og er tilbúið til afhendingar, notkunar eða notkunar, hefur ekki áhrif á framboð.  **Svæðið frátekið magn í reitnum velja/sendist hólf**  sýnir þetta magn.
+Þú getur fundið pantanir í **Heildar fráteknu magni. á vöruhúsi** reitnum. Frátekið magn sem þegar er tínt og tilbúið til sendingar, notkunar eða neyslu hefur ekki áhrif á framboð.  **Frátekið magn. í Pick/Ship Bins** reitnum sýnir þetta magn.
 
- **Reiturinn Magn án afhendingar í hólfi**  fyrir utan afhendingu sýnir magnið sem er tiltækt, að undanskildum magni sem eftirfarandi gildir:
+The **Gegn. Magn. Að undanskildum sendingarhólfi** reiturinn sýnir magnið sem er tiltækt, að undanskildum magni þar sem eftirfarandi á við:
 
-* Þau eru þegar tekin til afhendingar.
-* Þeir eru í læstum vörulotum eða raðnúmerum.
-* Þeir eru í læstum hólfum.
+* Þeir eru þegar valdir til sendingar.
+* Þau eru í lokuðum hlutum eða raðnúmerum.
+* Þeir eru í lokuðum tunnum.
 
-Þetta magn gæti verið tiltækt en ekki væri hægt að tína þau enn. Þeir gætu enn fremur verið á móttöku-, geymslu-eða gæðatryggingarsvæðum. Hægt er að flytja þau á tiltektarsvæðið með því að vinna úr vinnublaði frágangs eða hreyfinga.
+Þetta magn gæti verið tiltækt, en þú gætir ekki valið þau ennþá. Þeir gætu samt verið á móttöku-, geymslu- eða gæðatryggingarsvæðum. Hægt er að færa þau á tínslusvæðið með því að vinna frágangs- eða hreyfiblaði.
 
-Mismunurinn  **á. magn, fyrir utan afhendingarhólf**  og frátekið magn í vöruhúsi, er það magn sem er tiltækt til tiltektar án þess að það hafi áhrif á frátekta birgðir.
+Munurinn á **Avail. Magn. Að frátöldum sendingarhólfi** og fráteknu magni í vöruhúsi er það magn sem er tiltækt til tínslu án þess að hafa áhrif á frátekið lager.
 
-### <a name="other-details"></a>Aðrar upplýsingar
+### Aðrar upplýsingar
 
-Ef vörur þurfa vörurakningu er einnig hægt að finna magnið í læstum lotum eða raðnúmerum, sem veldur eftirfarandi lækkun:
+Ef vörur krefjast vörurakningar geturðu einnig fundið magnið í læstum hlutum eða raðnúmerum, sem veldur eftirfarandi lækkunum:
 
-* Pickable-magnið
-* Tiltækt magn, að undanskildum sendingarhólfinu
+* Magnið sem hægt er að velja
+* Tiltækt magn, fyrir utan sendingartunnuna
 * Frátekið magn í vöruhúsi 
 
-Ef sama atriðið er valið fyrir mörg upprunaskjöl eða línur sem einnig eru raunin þegar raðnúmer eru sótt birtast upplýsingar um tínslur í öðrum línum þar sem það dregur úr pickable-magninu.
+Ef þú velur sama hlutinn fyrir mörg upprunaskjöl eða línur, sem er einnig raunin þegar þú velur raðnúmer, birtast upplýsingar um tiltektir fyrir aðrar línur einnig vegna þess að það dregur úr magni sem hægt er að velja.
