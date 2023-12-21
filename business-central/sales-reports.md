@@ -8,14 +8,14 @@ ms.search.form: 'Report_107, Report_111, Report_112, Report_113, Report_119, Rep
 ms.date: 12/19/2023
 ms.author: bholtorf
 ---
-# Söluskýrslur og greiningar í Business Central
+# <a name="sales-reports-and-analytics-in-business-central"></a>Söluskýrslur og greiningar í Business Central
 
 Söluskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gerir starfsmönnum í framleiðslu og rekstri kleift að fá innsýn í og tölfræði um núverandi og fyrri söluaðgerðir.  
 
-## Skýrslur
+## <a name="reports"></a>Skýrslur
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Verkefni
+## <a name="tasks"></a>Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
@@ -23,7 +23,7 @@ Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisi
 * [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
