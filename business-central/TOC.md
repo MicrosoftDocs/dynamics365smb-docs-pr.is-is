@@ -1,7 +1,7 @@
 
 # [Business Central skjöl](index.yml)
 # [Velkomin(n) í Business Central](welcome.md)
-# [Nýtt og áætlað](/dynamics365/business-central/dev-itpro/whatsnew/overview)
+# [Nýtt og áætlað](/dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json)
 # Hefjast handa
 ## [Yfirlit yfir viðskiptavirkni](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
@@ -333,6 +333,7 @@
 #### [Yfirlit yfir rafræn skjöl](finance-edocuments-overview.md)
 #### [Setja upp rafræn skjöl](finance-how-setup-edocuments.md)
 #### [Nota rafræn skjöl við sölu og innkaup](finance-how-use-edocuments.md)
+#### [Stilla tengi fyrir rafræn skjöl með ytri endastöðum](finance-how-setup-edocuments-external.md)
 #### [Virkni rafrænna skjala aukin](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Stjórna VSK
@@ -870,6 +871,8 @@
 ### Danmörk
 #### [Staðbundin virkni í danskri útgáfu](LocalFunctionality/Denmark/denmark-local-functionality.md)
 #### [Tilkynning og skráning fyrir NemHandelsregisteret í Danmörku](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Setja upp rafrænar reikningsfærslur](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### [Halda færslugögnum í fimm ár í Danmörku](localfunctionality/denmark/how-to-keep-data-5years.md)
 #### VSK
 ##### [Prenta VSK-afstemmingarskýrslur](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VSK-VIES skýrslur](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -883,11 +886,11 @@
 ##### [Setja upp viðskiptavini fyrir OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Setja upp rafrænan OIOUBL-reikning](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [OIOUBL-viðbótin fyrir rafrænan reikning](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Búa til rafræn skjöl á OIOUBL-sniði](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
-#### Launaskrá
+##### [Búa til rafræn skjöl á OIOUBL-sniði](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
+#### Laun
 ##### [Skilgreiningar á launagögnum (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 #### Stafræn fylgiskjöl
-##### [Settu upp stafræna fylgiskjöl í Danmörku](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
+##### [Setja upp stafræn fylgiskjöl í Danmörku](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finnland
 #### [Staðbundin virkni í finnskri útgáfu](LocalFunctionality/Finland/finland-local-functionality.md)
