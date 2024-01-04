@@ -11,7 +11,7 @@ ms.search.form: '26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="record-special-purchase-prices-and-discounts"></a>Skrá sérstakt söluverð og sérstaka afslætti
+# Skrá sérstakt söluverð og sérstaka afslætti
 
 > [!NOTE]
 > Á útgáfutímabili 2 árið 2020 gáfum við út einfaldaðri ferla til að setja upp og hafa umsjón með verðum og afsláttum. Ef þú ert nýr viðskiptamaður sem ert að nota þessa útgáfu þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -31,7 +31,7 @@ Hvað varðar afslátt, er hægt að setja upp og nota tvær tegundir innkaupaaf
 
 Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu vöru og lánardrottins er einnig hægt að færa þessa grunnstillingu inn af birgðaspjaldinu, þar sem reglurnar og gildin eru skilgreind. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
-## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Að setja upp sérstakt innkaupsverð fyrir lánardrottin
+## Að setja upp sérstakt innkaupsverð fyrir lánardrottin
 
 #### [Núverandi reynsla](#tab/current-experience)
 
@@ -54,7 +54,7 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
 
 ---
 
-## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Að setja upp línuafslátt fyrir lánardrottin
+## Að setja upp línuafslátt fyrir lánardrottin
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.
 2. Opna skal viðeigandi lánardrottinsspjald og veljið síðan aðgerðina **Línuafslættir**.
@@ -63,7 +63,7 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
 3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fyllt er út lína fyrir hverja samsetningu sem lánardrottinn veitir innkaupalínuafsláttur fyrir.
 
-## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Að setja upp reikningsafslátt fyrir lánardrottin
+## Að setja upp reikningsafslátt fyrir lánardrottin
 
 Þegar lánardrottnar þínir hafa veitt þér upplýsingar um hvaða reikningsafslætti þeir veita eru færðir inn reikningsafsláttarkóðar á lánardrottnaspjöldin og sett upp skilyrði fyrir hvern kóða.
 
@@ -83,7 +83,7 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
 
 Reikningsafsláttur er nú settur upp og úthlutað á umræddan lánardrottin. Þegar valinn er lánardrottinskóði í reitnum **Kóði reikningsafsláttar** á öðrum lánardrottnaspjöldum er sama reikningsafslætti úthlutað þeim lánardrottnum.
 
-## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Regla valin fyrir bókun á innkaupaafslætti:
+## Regla valin fyrir bókun á innkaupaafslætti:
 
 Þegar innkaupareikningur er bókaður sem hefur að geyma eina eða fleiri tegundir afsláttar er hægt að velja á milli tveggja reglna til að bóka afsláttarupphæðir. Hægt er að bóka afslátt sérstaklega eða hægt er að draga afslátt frá reikningsafslætti.  
 
@@ -99,7 +99,7 @@ Reikningsafsláttur er nú settur upp og úthlutað á umræddan lánardrottin. 
 |**Línuafslættir**|Dregið frá|Bókað sérstaklega|  
 |**Enginn afsláttur**|Dregið frá|Dregið frá|  
 
-## <a name="purchase-invoice-discounts-and-service-charges"></a>Afslættir Innkaupareiknings og Þjónustugjöld
+## Afslættir Innkaupareiknings og Þjónustugjöld
 
 Hafi skilyrði fyrir reikningsafslátt fyrir lánardrottna verið ákveðinn er hægt að færa þau inn. Þá verður afslátturinn reiknaður út þegar innkaupareikningur er fylltur út.  
 
@@ -116,7 +116,7 @@ Hægt er að láta [!INCLUDE[prod_short](includes/prod_short.md)] reikna sjálfk
 > [!TIP]  
 > Áður en hafist er handa við að setja upplýsingarnar inn í forritið er gott að útbúa uppkast af því afsláttarformi sem á að nota. Þetta gerir auðveldara að átta sig á því hvaða lánardrottna er hægt að tengja við sama reikningsafsláttarsíðu. Eftir því sem setja þarf upp færri síður er þeim mun fljótlegra að færa inn grunnupplýsingarnar.
 
-## <a name="best-price-calculation"></a>Útreikningur besta verðs
+## Útreikningur besta verðs
 
 Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[prod_short](includes/prod_short.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur.
 
@@ -139,7 +139,7 @@ Besta verð er lægsta leyfilega verð með hæsta leyfilega línuafslættinum �
 
 Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Innkaup](purchasing-manage-purchasing.md)  

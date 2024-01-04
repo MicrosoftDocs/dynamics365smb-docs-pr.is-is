@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# <a name="responsible-ai-faqs-for-for-dynamics-365-business-central"></a>Ábyrgar algengar spurningar fyrir Dynamics 365 Business Central
+# Ábyrgar algengar spurningar fyrir Dynamics 365 Business Central
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 
