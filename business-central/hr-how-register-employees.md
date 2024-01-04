@@ -11,11 +11,11 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Skrá starfsmenn
+# <a name="register-employees"></a>Skrá starfsmenn
 
 Til að nota virkni Human Resources þarf fyrst að bæta við hverjum starfsmanni fyrir sig með því að fylla út reitina á síðunni **Starfsmannaspjald**.
 
-## Nýjum starfsmönnum bætt við
+## <a name="adding-new-employees"></a>Nýjum starfsmönnum bætt við
 
 Hægt er að bæta við nýjum starfsmönnum handvirkt með því að fylla út reitina á síðunni **Starfsmannaspjald** eða hægt er að nota sniðmát sem innihalda fyrirframskilgreindar upplýsingar. Til dæmis er hægt að stofna sniðmát fyrir mismunandi forstillingargerðir starfsmanna. Með því að nota sniðmát sparast tími þegar nýjum starfsmönnum er bætt við og það hjálpar til við að tryggja að upplýsingarnar séu réttar hverju sinni. Ef þú stofnar sniðmát fyrir fleiri en eina gerð af starfsmanni geturðu valið sniðmátið sem á að nota þegar þú bætir við starfsmanni. Ef þú býrð aðeins til eitt sniðmát verður það notað fyrir alla nýja starfsmenn. Þegar sniðmát er stofnað geturðu notað aðgerðina **Nota sniðmát** til að nota það í einum eða fleiri starfsmönnum. Til að búa til sniðmát fyllir þú inn upplýsingarnar sem þú vilt endurnota á síðu starfsmannaspjaldsins og vistar það síðan sem sniðmát.
 
@@ -27,13 +27,13 @@ Hægt er að virkja upplýsingar hvenær sem er. Með því að halda starfsmann
 > [!NOTE]  
 > Hægt er að endurgreiða starfsmönnum fyrir útgjöld þeirra í viðskiptaerindum. Til þess þarf að fylla inn í reitina á flýtiflipanum **Greiðslur** á síðunni **starfsmannaspjald**. Nánari upplýsingar eru í [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
 
-## Uppsetning starfsmanns
+## <a name="to-set-up-an-employee"></a>Uppsetning starfsmanns
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
 3. Á síðunni **Starfsmannaspjald** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Setja inn mynd af starfsmanni.
+## <a name="to-insert-a-picture-of-an-employee"></a>Setja inn mynd af starfsmanni.
 
 Ef þú ert með mynd af starfsmanni getur þú sett það á starfsmannaspjaldið.
 
@@ -46,7 +46,7 @@ Ef þú ert með mynd af starfsmanni getur þú sett það á starfsmannaspjaldi
 
 Myndin er sett inn í **Starfsmannamynd**.
 
-## Skrá ýmsar upplýsingar um starfsmann
+## <a name="to-register-various-information-about-an-employee"></a>Skrá ýmsar upplýsingar um starfsmann
 
 Á starfsmannaspjaldinu getur sett upp upplýsingar eins og aðild að stéttarfélagi, skyldmenni, og samningar starfsmanns. Eftirfarandi lýsir hvernig skal setja upp vara aðsetur. Skrefin eru svipuð fyrir allar aðrar upplýsingar sem þú setur upp frá starfsmannaspjaldi.
 
@@ -58,7 +58,7 @@ Hægt er að nota önnur aðsetur til að halda utan um aðsetur starfsmanns, ti
 4. Á síðunni **Skrá yfir önnur aðsetur** skal fylla út reitina eins og þörf krefur.
 5. Skref 4 er endurtekið fyrir hvert aðsetur.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)  
 [Fjármál](finance.md)  
