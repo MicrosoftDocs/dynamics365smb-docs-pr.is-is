@@ -9,7 +9,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Yfirferð þjónustupantana fyrir þjónustuvörur
+# <a name="walkthrough-of-service-orders-for-service-items"></a>Yfirferð þjónustupantana fyrir þjónustuvörur
 
 Þessi leiðsögn sýnir nokkra kjarnaferla:
 
@@ -17,13 +17,13 @@ ms.custom: bap-template
 - Veittu viðskiptavinum lánshlut til viðgerðartíma
 - Bókaðu og reikningsfærðu þjónustupöntunina
     
-## Að búa til þjónustupöntun
+## <a name="creating-a-service-order"></a>Að búa til þjónustupöntun
 
-### Aðstæður  
+### <a name="scenario"></a>Aðstæður
 
 Charles, þjónustustjóri, býr til þjónustupöntun fyrir viðgerðaratburðarás, lánar lánveitanda til viðskiptavinar til viðgerðartíma.
 
-### Skref
+### <a name="steps"></a>Skref
 
 1. Búðu til þjónustupöntun handvirkt fyrir vöruna sem þarfnast viðgerðar.
    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Þjónustupantanir**
@@ -40,20 +40,20 @@ Charles, þjónustustjóri, býr til þjónustupöntun fyrir viðgerðaratburða
    1. Í línunum skaltu velja **LOANER1** sem lánveitanda nr. Staðfestu útgáfu lánveitanda með því að velja **Já** til að lána lánveitanda. 
    2. Veldu aðgerðina Aðgerðir **Fá Std. Þjónustukóðar**, veldu staðlaðan kóða sem tengist þjónustuhópnum og veldu **Ok**.
    
-### Niðurstöður
+### <a name="results"></a>Niðurstöður
 
 - Þjónustupöntun er búin til fyrir vöruna
 - Þjónustuskjalaskrá þjónustupöntunarinnar sýnir starfsemi lánveitanda.
 - Lánveitandinn hefur fjárhagsfærslu til að endurspegla útlánið.
    
 
-## Skráðu unnin verk, merktu lánveitanda sem skilað.
+## <a name="register-performed-work-mark-loaner-as-returned"></a>Skráðu unnin verk, merktu lánveitanda sem skilað.
 
-### Aðstæður  
+### <a name="scenario-1"></a>Aðstæður
 
 Þjónustutæknir merkir lánveitanda sem skilaðan, skráir unnin störf.
 
-### Skref
+### <a name="steps-1"></a>Skref
 
 1. Finndu þjónustuverkefnið og skráðu tíma 
    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuverk** og svo velja viðeigandi tengil.
@@ -73,13 +73,13 @@ Charles, þjónustustjóri, býr til þjónustupöntun fyrir viðgerðaratburða
    3. Veldu aðgerðina **Receive**  
    4. Staðfestu skil lánsmanns með því að velja **Já** til að skila lánveitanda.
       
-### Niðurstöður
+### <a name="results-1"></a>Niðurstöður
 
 -  **Þjónustuskjalaskrá þjónustupöntunarinnar**  sýnir starfsemi lánveitanda.
 - Lánveitandinn hefur fjárhagsfærslu til að endurspegla kvittunina.
 
 
-### Aðstæður  
+### <a name="scenario-2"></a>Aðstæður
 
 Charles, þjónustustjóri, birtir fullgerða þjónustupöntun.
 
@@ -90,11 +90,11 @@ Charles, þjónustustjóri, birtir fullgerða þjónustupöntun.
 2. Bókaðu reikninginn á þjónustupöntuninni
    1. Veldu aðgerðina **Posta** til að ljúka þjónustupöntuninni, veldu **Send og reikning** aðgerðina og veldu síðan  **OK** hnappur.
    2. Staðfestu opnun bókaðs reiknings með því að velja **Já**. 
-### Niðurstöður
+### <a name="results-2"></a>Niðurstöður
 
 -  **Bókaður þjónustureikningur** er búinn til.
 -  **Þjónustubókarfærslurnar** sem tengjast vörunni og tilföngunum eru búnar til
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 [Kynning á þjónustusamningum fyrir þjónustuvörur](service-contract-flow.md)  
 [Þjónusta](../../service-service.md)

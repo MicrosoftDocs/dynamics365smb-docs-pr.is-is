@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# Hönnunarupplýsingar forrits
+# <a name="application-design-details"></a>Hönnunarupplýsingar forrits
 
 Greinarnar í þessum hluta innihalda ítarlegar tæknilegar upplýsingar um flókna forritseiginleika í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ Hönnunarupplýsingar er ætlað innleiðurum, hönnuðum og yfirnotendum sem þ
 |Lesið um sögulega og núgildandi hönnun vörurakningareiginleikans og hvernig hann fellur að frátekningarkerfinu til að taka með rað-/lotunúmer í framboðsútreikninga.|[Hönnunarupplýsingar: Vörurakning](design-details-item-tracking.md)|  
 |Frekari upplýsingar um eiginleika færslubókarlínunnar.|[Hönnunarupplýsingar: Bókunarlína færslubókar](design-details-general-journal-post-line.md)|
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Áætlun](production-planning.md)  
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  

@@ -11,12 +11,12 @@ ms.date: 11/28/2023
 ms.author: bholtorf
 ---
 
-# Skattaskráarsniðin (DK) viðbótin
+# <a name="the-tax-file-formats-dk-extension"></a>Skattaskráarsniðin (DK) viðbótin
 Ef þú stundar viðskipti við fyrirtæki, eða innri útibú eða dótturfyrirtæki í öðrum ESB löndum/svæðum verður þú að tilkynna upplýsingar um starfsemina til SKAT og til Danmerkur hagstofu. Ef þú notar virðisaukaskatt og Intrastat-skýrslugerð í [!INCLUDE[prod_short](includes/prod_short.md)], getur þessi viðbót tryggt að skráin sem þú flytur út sé samhæf við kröfur þessara stofnunana. Viðbótin bætir kóðaeiningu MS-ECSL skýrsluútflutningsskrá og Intrastat-útflutningslínur í VSK skýrsluskilgreininguna, svo þú getur flutt gögn í nýju sniði strax.
 
 Viðbótin er ókeypis, þú þarft bara að setja hana upp.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 [Sérstilling Business Central með viðbótum](ui-extensions.md)
 
 

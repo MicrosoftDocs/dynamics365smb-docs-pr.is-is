@@ -11,7 +11,7 @@ ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 12/12/2023
 ms.author: bholtorf
 ---
-# PayPal Payments Standard viðbótin
+# <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard viðbótin
 
 Viðskiptamenn þurfa stöðugt hærra þjónustustig, bæði hvað varðar gæði vöru en einnig hvað varðar valkosti afhendingar og greiðslu. PayPal Payments Standard gerir kleift að veita viðskiptamanninum meiri þjónustu.
 
@@ -29,7 +29,7 @@ Staðlaða PayPal greiðsluþjónustan býður upp á eftirfarandi kosti:
 
 Nánari upplýsingar eru í [Virkja greiðslu viðskiptamanns gegnum PayPal](sales-how-enable-payment-service-extensions.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

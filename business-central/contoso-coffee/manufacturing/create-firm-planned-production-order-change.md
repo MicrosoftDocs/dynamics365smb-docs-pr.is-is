@@ -8,17 +8,17 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Umsögn: Búðu til fasta fyrirhugaða framleiðslupöntun og breyttu henni
+# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Umsögn: Búðu til fasta fyrirhugaða framleiðslupöntun og breyttu henni
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að vinna með framleiðslupantanir.  
 
-## Aðstæður
+## <a name="scenario"></a>Aðstæður
 
 Eduardo, framleiðslustjóri hjá Contoso Coffee, verður að stofna nýja framleiðslupöntun fyrir 10 einingar af vörunni **SP-SCM1009, Airpot** sem þarf að afhenda 28. apríl. Eduardo tímasetur þetta afturábak og staðfestir að þeir geti hafið pöntunina 27. apríl.  
 
 Stuttu eftir að hafa lokið þessu verkefni er Eduardo beðinn um að auka pöntunina í 50 einingar. Þegar þetta er gert, ýtir afturábak tímasetningarvirkninni við upphafsdegi pöntunar of snemma. Þannig að Eduardo áætlar pöntunina frá 23. apríl til að ákvarða raunhæfari lokadagsetningu.  
 
-## Skref
+## <a name="steps"></a>Skref
 
 1. Stofnaðu upphaflegu framleiðslupöntunina fyrir 10 einingum af vörunni **SP-SCM1009, Airpot**.
 
@@ -58,6 +58,6 @@ Stuttu eftir að hafa lokið þessu verkefni er Eduardo beðinn um að auka pön
 
 Nýja framleiðslupöntunin er nú sett upp og kröfur Eduardo eru uppfylltar.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Kynning á Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

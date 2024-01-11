@@ -13,7 +13,7 @@ ms.date: 12/12/2023
 ms.author: bholtorf
 ---
 
-# Viðbótin Essential Business Insights
+# <a name="the-essential-business-insights-extension"></a>Viðbótin Essential Business Insights
 
 Viðbótin Essential viðskiptainnsýn finnur áhugaverðar staðreyndir um viðskipti fyrirtækis þíns og birtir þær svipað eins og fyrirsagnir í dagblöðum í Mínu hlutverki. Það fer eftir því hvað viðbótin finnur í gögnum, innsýnin er frá síðustu viku, mánuði eða þremur mánuðum frá deginum í dag. Innsýnin uppfærist á 10 mínútna fresti.  
 
@@ -32,7 +32,7 @@ Eftirfarandi tafla lýsir innsýninni sem viðbótin útvegar fyrir Mitt hlutver
 |Verkefnastjóri| Sýnir kveðju og tengil á afurðarupplýsingar.|
 |Stjórnandi| Sýnir kveðju og tengil á afurðarupplýsingar.|
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)
 

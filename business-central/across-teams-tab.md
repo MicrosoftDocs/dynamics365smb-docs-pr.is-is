@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab'
 ---
 
-# Bæta við flipa Business Central í Microsoft Teams
+# <a name="add-business-central-tab-in-microsoft-teams"></a>Bæta við flipa Business Central í Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,7 +19,7 @@ ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 36
 
 ![Flipar í Teams](media/teams-tabs-border.png)
 
-## Um Business Central-flipa
+## <a name="about-business-central-tabs"></a>Um Business Central-flipa
 
 [!INCLUDE [prod_short](includes/prod_short.md)] flipi gefur ítarlegt yfirlit yfir síður [!INCLUDE [prod_short](includes/prod_short.md)] lista og spjalda. Flipinn sýnir ekki allan [!INCLUDE [prod_short](includes/prod_short.md)] vefbiðlarann. Engin vafragluggi, [!INCLUDE [prod_short](includes/prod_short.md)] borði (til dæmis með viðmótsleit, leit, hjálp) eða yfirlitsvalmynd efst&mdash;aðeins efni síðu og aðgerðir hennar. Efnið er gagnvirkt sem þýðir að hægt er að velja aðgerðir og tengla, breyta gögnum og fleira. Þú takmarkast við það sem þú sérð og getur gert með sömu heimildinni og er úthlutað á reikninginn þinn í [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -28,7 +28,7 @@ Frekari upplýsingar um hverjir geta skoðað efnið í [!INCLUDE [prod_short](i
 > [!TIP]
 > Ert þú þróunaraðili? Einnig er hægt að forrita inn nýja flipa með Microsoft Graph API. Frekari upplýsingar er að finna í [Bæta við Business Central-flipum í Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs).  
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 Til að bæta við [!INCLUDE [prod_short](includes/prod_short.md)] flipa þarf að uppfylla eftirfarandi kröfur:
 
@@ -42,7 +42,7 @@ Til að skoða [!INCLUDE [prod_short](includes/prod_short.md)] flipa sem bætt v
 - Þú ert með [!INCLUDE [prod_short](includes/prod_short.md)] leyfi eða takmarkaðan aðgang að Business Central með eingöngu Microsoft 365 leyfi. Frekari upplýsingar er að finna í [Aðgangur að Business Central með Microsoft 365 leyfum](admin-access-with-m365-license.md).
 - Þú hefur sett upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið  í Teams.
 
-## Bæta við flipa með því að nota ráðlagt efni
+## <a name="add-tab-using-recommended-content"></a>Bæta við flipa með því að nota ráðlagt efni
 
 Notaðu þessi skref til að bæta við flipa með því að velja hvað á að birta frá tiltækum lista yfir ráðlagt efni sem byggir á hlutverkamiðstöðinni&mdash;án þess að fara úr Teams. Frekari upplýsingar um efnið sem hægt er að velja úr er að finna í [Hvaðan kemur það efni sem mælt er með?](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
 
@@ -61,7 +61,7 @@ Notaðu þessi skref til að bæta við flipa með því að velja hvað á að 
 6. Veljið **Birta í rásinni um þennan flipa** til að birta sjálfkrafa tilkynningu í Teams-rás eða spjalli til að láta þátttakendur vita að búið sé að bæta við þessum flipa.
 7. Veljið **Vista**.
 
-## Bæta við flipa með tengil á síðu
+## <a name="add-tab-using-a-page-link"></a>Bæta við flipa með tengil á síðu
 
 Önnur leið til að bæta við flipa er að nota tengil (vefslóð) á síðuna sem á að sýna. Þessi leið er gagnleg þegar á að birta tiltekna [!INCLUDE [prod_short](includes/prod_short.md)] færslu eða listasíðu sem ekki er bókamerkt í hlutverkamiðstöðinni.
 
@@ -80,14 +80,14 @@ Notaðu þessi skref til að bæta við flipa með því að velja hvað á að 
 8. Veljið **Birta í rásinni um þennan flipa** til að birta sjálfkrafa tilkynningu í Teams-rás eða spjalli til að láta þátttakendur vita að búið sé að bæta við þessum flipa.
 9. Veljið **Vista**.
 
-## Bæta við flipa með því að festa spjaldaupplýsingar
+## <a name="add-tab-by-pinning-card-details"></a>Bæta við flipa með því að festa spjaldaupplýsingar
 
 Notið þessi skref til að bæta við flipa fyrir færslu sem var deilt eða límd í Teams-rás eða spjall. Frekari upplýsingar um hvernig á að deila færslum og síðutenglum í Teams er að finna í [Deila færslum og síðutenglum í Teams](across-working-with-teams.md).
 
 1. Í Teams skal velja hnappinn **Upplýsingar** á spjaldinu.
 2. Efst í hægra horninu á upplýsingum spjalds skal velja **Festa efst á spjalli** ![ Festa tákn til að bæta Teams-flipa í Business Central](media/pin-teams.png) tákn.
 
-## Breyta flipa og efni hans
+## <a name="change-a-tab-and-its-content"></a>Breyta flipa og efni hans
 
 Eftir að flipa hefur verið bætt við er hægt að gera ákveðnar breytingar á flipanum. Til dæmis er hægt að endurnefna flipann, færa hann og fjarlægja. Þessar aðgerðir er að finna í valkostum flipans sem eru í boði með því að velja niðurörina á flipanum.
 
@@ -97,7 +97,7 @@ Hvað varðar efni flipa, þá er hægt að breyta gögnunum ef leyfi er til sta
 
 Einnig er hægt að breyta yfirliti síðunnar og gögnum hennar, eins og röðun og skiptingu á útliti á milli lista- og reitayfirlita. Þegar slíkar breytingar eru gerðar hafa þær ekki áhrif á hvað aðrir sjá. Þeir sjá það sem þú birtir upphaflega þar til þeir gera svipaðar breytingar sjálfir.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  
