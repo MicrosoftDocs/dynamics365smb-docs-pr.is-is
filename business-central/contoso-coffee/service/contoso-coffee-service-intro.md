@@ -8,7 +8,7 @@ ms.date: 11/27/2023
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-service-management"></a>Kynning á þjónustustjórnun Contoso Kaffi
+# Kynning á þjónustustjórnun Contoso Kaffi
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki.  **Contoso Coffee** öppin fyrir Business Central bæta við kynningargögnum sem þú getur notað til að læra hvernig á að nota þjónustustjórnunargetu í Business Central.
 
@@ -22,11 +22,11 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 > Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Fyrir frekari kröfur, sjá [Setja upp Contoso kaffigögn](#set-up-contoso-coffee-service-management-data) hlutann.
 >
 > 
-## <a name="set-up-contoso-coffee-service-management-data"></a>Settu upp Contoso Coffee þjónustustjórnunargögn
+## Settu upp Contoso Coffee þjónustustjórnunargögn
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
-Þegar viðeigandi öpp hafa verið sett upp skaltu fara á [Contoso Demo Tool](https://businesscentral.dynamics.com/?page=5194) síðuna í [!INCLUDE [prod_short](../../includes/prod_short.md)], velja *Service Module* línan og notaðu **Stilla** aðgerðina til að undirbúa einingarnar. Eftirfarandi tafla lýsir stillingunum:  
+Þegar viðeigandi öpp hafa verið sett upp skaltu fara á [Contoso Demo Tool](https://businesscentral.dynamics.com/?page=5194) síðuna í [!INCLUDE [prod_short](../../includes/prod_short.md)], velja *Service Module* línan og notaðu **Stilling** aðgerðina til að undirbúa einingarnar. Eftirfarandi tafla lýsir stillingunum:  
 
 |Svæði  |Heimildasamstæða  |
 |---------|---------|
@@ -41,12 +41,12 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
-## <a name="scenarios"></a>Dæmi
+## Dæmi
 
 Contoso Coffee kynningargögnin styðja eins og er eftirfarandi þjónustusviðsmyndir fyrir próf og þjálfun:
 
 1. Búðu til þjónustupöntun fyrir sérstakar viðgerðarbeiðnir, settu inn og taktu á móti lánveitendum, skráðu tíma og reikningsfærðu viðskiptavini með [Gynningu þjónustupantana fyrir þjónustuvörur](service-basic-flow-order.md)
-2. Búðu til þjónustusamninga, búðu til þjónustupantanir, reikningsfærðu samningsgjöld og úthlutaðu tilföngum með [Gynningar um þjónustusamninga fyrir þjónustuvörur](service-contract-flow.md)
+2. Búðu til þjónustusamninga, búðu til þjónustupantanir, reikningsfærðu samningsgjöld og úthlutaðu tilföngum með [Gynningu um þjónustusamninga fyrir þjónustuvörur](service-contract-flow.md)
 
 Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.  
 
@@ -54,6 +54,6 @@ Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
 > Þjónustuleiðirnar krefjast þess að notendaupplifun sé stillt á **Premium** á  **Fyrirtækisupplýsingum** síðunni.
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Þjónusta](../../service-service.md)

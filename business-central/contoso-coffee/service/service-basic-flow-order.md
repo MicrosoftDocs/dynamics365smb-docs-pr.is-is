@@ -1,6 +1,6 @@
 ---
-title: Ganga frá þjónustupöntunum á þjónustuvörum
-description: Þessi grein leiðbeinir í gegnum nokkra kjarnaferla sem taka við þjónustupöntunum og vörunum.
+title: Yfirferð þjónustupantana fyrir þjónustuvörur
+description: Þessi grein leiðir þig í gegnum nokkur kjarnaferla sem fela í sér þjónustupantanir og vörur.
 author: andreipa
 ms.author: andreipa
 ms.reviewer: andreipa
@@ -9,90 +9,92 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# <a name="walkthrough-of-service-orders-for-service-items"></a>Ganga frá þjónustupöntunum á þjónustuvörum
+# Yfirferð þjónustupantana fyrir þjónustuvörur
 
-Þessi gönguleið sýnir fram á nokkra kjarnaferla:
+Þessi leiðsögn sýnir nokkra kjarnaferla:
 
-- Stofna tilfallandi þjónustupöntun og skrá viðgerð á vörunni
-- Veita skal Lánsumsókn til viðskiptavinar um tíma frá viðgerð
-- Bóka og reikningsfæra þjónustupöntunina
+- Búðu til ad hoc þjónustupöntun og skráðu viðgerð á hlutnum
+- Veittu viðskiptavinum lánshlut til viðgerðartíma
+- Bókaðu og reikningsfærðu þjónustupöntunina
     
-## <a name="creating-a-service-order"></a>Þjónustupöntun stofnuð
+## Að búa til þjónustupöntun
 
-### <a name="scenario"></a>Aðstæður
+### Aðstæður  
 
-Charles, þjónustustjóri, stofnar þjónustupöntun fyrir viðgerðartíma, lánar Lánstæki til viðskiptavinar vegna viðgerðar.
+Charles, þjónustustjóri, býr til þjónustupöntun fyrir viðgerðaratburðarás, lánar lánveitanda til viðskiptavinar til viðgerðartíma.
 
-### <a name="steps"></a>Skref
+### Skref
 
-1. Stofnið þjónustupöntunina handvirkt fyrir vöruna sem þarfnast viðgerðar.
-   1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikn, færa inn  **þjónustupantanir**
+1. Búðu til þjónustupöntun handvirkt fyrir vöruna sem þarfnast viðgerðar.
+   1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Þjónustupantanir**
    2. Valið er aðgerðin **Nýtt**.
-   3. Færa  **10000**  inn í reitnum viðskm. nr. reitur
-   4. Velja  **viðgerð**  fyrir  **reitinn Tegund**  þjónustupöntunarinnar.
-   5. Í línunum er valið  **S-100**  sem  **Vörunr.**
-2. Einnig
-   1. Velja villuleit Línuaðgerðaleitar  **·**  til að kanna mögulegar lausnir.
-   2. Velja Línuaðgerðina  **Villa/Resol. Sambönd í kótum**
-   3. Velja  *hávaða*  sem  **einkennakóta**
-   4. Veldu  *5-2 hávær læti á gerjun*  sem  **faul Code**  og loka síðu. Villukóði, úrlausnarkóði er uppfærður í línum.
-3. Lána skiptiborð meðan verið er að lagfæra vöru
-   1. Í línurnar er valið  **LOANER1**  sem lánsbúnaður nr. Staðfestu útgefendur lánsbúnaðarins með því að velja  **Já**  til að lána lánsbúnaðinum út. 
-   2. Velja aðgerðina  **Aðgerðir sækja þjónustukóta**, velja staðlaðan kóta sem tengist þjónustuflokki og smella á  **í lagi**.
+   3. Sláðu inn **10000** í viðskiptavinarnúmerið. reitur
+   4. Veldu **REPAIR** fyrir reitinn **Þjónustupöntunartegund** .
+   5. Í línunum skaltu velja **S-100** sem **vörunr.**.
+2. Valfrjálst
+   1. Veldu línuaðgerðina **Úrræðaleit** til að athuga mögulegar lausnir.
+   2. Veldu línuaðgerðina **Billa/úrlausn. Codes Sambönd**
+   3. Veldu *NOISE* sem **Einkenniskóða**
+   4. Veldu *5-2 Hávær hávaði við bruggun* sem **Bilunarkóði** og lokaðu síðunni. Bilunarkóði, upplausnarkóðar eru uppfærðir í línum.
+3. Lána varahlut á meðan verið er að gera við hlutinn
+   1. Í línunum skaltu velja **LOANER1** sem lánveitanda nr. Staðfestu útgáfu lánveitanda með því að velja **Já** til að lána lánveitanda. 
+   2. Veldu aðgerðina Aðgerðir **Fá Std. Þjónustukóðar**, veldu staðlaðan kóða sem tengist þjónustuhópnum og veldu **Ok**.
    
-### <a name="results"></a>Niðurstöður
+### Niðurstöður
 
-- Þjónustupöntun verður stofnuð fyrir vöruna
-- Í Þjónustuskjalaskrá þjónustupöntunarinnar verða Verkþættir lánsbúnaðar sýnir.
-- Lánveitandi skal hafa bókfærslu til að endurspegla útlánsvexti.
+- Þjónustupöntun er búin til fyrir vöruna
+- Þjónustuskjalaskrá þjónustupöntunarinnar sýnir starfsemi lánveitanda.
+- Lánveitandinn hefur fjárhagsfærslu til að endurspegla útlánið.
    
 
-## <a name="regsiter-performed-work-mark-loaner-as-returned"></a>Regsiter framkvæmdi vinnu, merkt lánsumsókn sem Skilaskyld.
+## Skráðu unnin verk, merktu lánveitanda sem skilað.
 
-### <a name="scenario-1"></a>Aðstæður
+### Aðstæður  
 
-Þjónustutæknimaður markar lánsbúnað sem skilað er, skráir framkvæmd vinnu.
+Þjónustutæknir merkir lánveitanda sem skilaðan, skráir unnin störf.
 
-### <a name="steps-1"></a>Skref
+### Skref
 
-1. Finna þjónustuverkhluta og skrá tíma 
+1. Finndu þjónustuverkefnið og skráðu tíma 
    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuverk** og svo velja viðeigandi tengil.
-   2. Þjónustupöntunin er fundin með til að færa inn tíma.
-   3. Velja skal  **aðgerðina vörublað** .
+   2. Finndu þjónustupöntunina til að slá inn tíma fyrir.
+   3. Veldu aðgerðina **Item Worksheet** .
    4. Sláðu inn eftirfarandi upplýsingar
 
     |Gerð|Nr.|Magn|
     |----|---|--------|  
     |Atriði|SER102|2|
 
-   4. Valið  *er*  lokið  **í reitnum Viðgerðarstöðukóti** 
+   4. Veldu *FINISHED* í reitnum **Viðgerðarstöðukóði** 
     
-2. Merkja lánsbúnað sem skilabúnað
-   1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánsbúnað** og velja síðan viðkomandi tengil.
-   2. Staðsetja skal lánsbúnað til að merkja sem skilað.
-   3.  **Velja móttökuaðgerð**  
-   4. Staðfesta skil á lánsbúnaðinum með því að velja  **Já**  til að skila lánsbúnaðinum.
+2. Merktu lánveitanda sem skilaðan
+   1. Veldu ![peru sem opnar Segðu mér eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánsbúnað** og velja síðan viðkomandi tengil.
+   2. Finndu lánveitanda til að merkja sem skilað.
+   3. Veldu aðgerðina **Receive**  
+   4. Staðfestu skil lánsmanns með því að velja **Já** til að skila lánveitanda.
       
-### <a name="results-1"></a>Niðurstöður
+### Niðurstöður
 
-- Í Þjónustuskjalaskrá  **þjónustupöntunarinnar**  verða Verkþættir lánsbúnaðar sýnir.
-- Lánveitandi skal hafa bókfærslu til að endurspegla móttökunina.
+-  **Þjónustuskjalaskrá þjónustupöntunarinnar**  sýnir starfsemi lánveitanda.
+- Lánveitandinn hefur fjárhagsfærslu til að endurspegla kvittunina.
 
 
-### <a name="scenario-2"></a>Aðstæður
+### Aðstæður  
 
-Charles, þjónustustjóri, bóka Afgreiddar þjónustupöntunina.
+Charles, þjónustustjóri, birtir fullgerða þjónustupöntun.
 
-1. Finna þjónustupöntunina 
-   1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.
-   2. Finna skal þjónustupöntunina sem á að bóka.
+1. Finndu þjónustupöntunina 
+   1. Veldu ![peru sem opnar Segðu mér eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.
+   2. Finndu þjónustupöntunina sem þú vilt senda.
 
-2. Á þjónustupöntuninni er reikningurinn bókaður
-   1. Velja skal  **aðgerðina Bóka**  til að ljúka þjónustupöntuninni, velja  **senda og reikningsfæra**  aðgerð og velja svo hnappinn í  **lagi** .
-   2. Staðfestu opnun bókaðs reiknings með því að velja  **Já**. 
-### <a name="results-2"></a>Niðurstöður
+2. Bókaðu reikninginn á þjónustupöntuninni
+   1. Veldu aðgerðina **Posta** til að ljúka þjónustupöntuninni, veldu **Send og reikning** aðgerðina og veldu síðan  **OK** hnappur.
+   2. Staðfestu opnun bókaðs reiknings með því að velja **Já**. 
+### Niðurstöður
 
--  **bókaður Þjónustureikningurinn**  er stofnaður.
--  **þjónustufærslur**  sem tengjast vörunni og forða eru stofnaðar
+-  **Bókaður þjónustureikningur** er búinn til.
+-  **Þjónustubókarfærslurnar** sem tengjast vörunni og tilföngunum eru búnar til
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
+[Kynning á þjónustusamningum fyrir þjónustuvörur](service-contract-flow.md)  
+[Þjónusta](../../service-service.md)

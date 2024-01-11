@@ -1,19 +1,19 @@
 ---
-title: Meðhöndlun gilda sem vantar fyrir valkosti
+title: Meðhöndlun valkostagilda sem vantar
 description: Kynntu þér hvernig á að koma í veg fyrir að full samstilling misheppnist vegna þess að valkostir eru mismunandi í vörpuðum reitum. Þetta ferli krefst hjálpar frá þróunaraðila.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 03/23/2022
+ms.date: 12/12/2023
 ---
 
-# <a name="handling-missing-option-values"></a>Meðhöndlun gilda sem vantar fyrir valkosti
+# Meðhöndlun valkostagilda sem vantar
 > [!NOTE]
 > Í 2022 útgáfutímabil 1 er hægt að búa til eigin varpanir valkosta. Frekari upplýsingar er að finna í [Sérstilling vörpunarvalkosta með Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Nýju möguleikarnir krefjast þess að stjórnandinn virki **Eiginleikauppfærsla: Varpa í valkostasafn í Dataverse án kóða** á síðunni **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-Þetta efnisatriði er ætlað tæknifólki. Ferlin sem það lýsir krefst aðstoðar þróunaraðila.
+Þessi grein er ætluð tæknilegum áhorfendum. Ferlin sem það lýsir krefst aðstoðar þróunaraðila.
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] inniheldur þrjá reiti fyrir safn valkosta sem innihalda gildi sem hægt er að varpa í [!INCLUDE[prod_short](includes/prod_short.md)]-reiti af valkostargerðinni fyrir sjálfvirka samstillingu. Við samstillingu eru óvarpaðir valkostir hunsaðir og valkostina sem vantar er komið fyrir í tengdri [!INCLUDE[prod_short](includes/prod_short.md)] töflu og bætt við kerfistöfluna **Dataverse Vörpun valkosta** til að meðhöndla handvirkt seinna. Til dæmis með því að bæta við valkostunum sem vantar í aðrahvora vöruna og síðan uppfæra vörpunina.
 
@@ -37,7 +37,7 @@ Síðan **Vörpun samþættingartöflu** inniheldur þrjá reiti sem innihalda e
 
 Efni síðunnar **Dataverse Vörpun valkosta** byggist á fasttextagildum í töflunni **CRM-reikningur**. Í [!INCLUDE[prod_short](includes/cds_long_md.md)], er eftirfarandi reitum í reikningstöflunni varpað í reiti viðskiptamanna- og lánardrottnafærslna:
 
-- **Aðsetur 1: Flutningsskilmálar** af gagnagerðinni fasttexti, þar sem gildi eru skilgreind á eftirfarandi hátt:
+- **Heimilisfang 1: Fraktskilmálar** gagnategundarinnar Enum, þar sem gildi eru skilgreind sem hér segir:
 
 ```
 enum 5335 "CDS Shipment Method Code"
@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Öllum [!INCLUDE[prod_short](includes/prod_short.md)] fasttextunum að ofan er varpað í safn valkosta í [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-"></a>Viðbót við safn valkosta í [!INCLUDE[prod_short](includes/prod_short.md)]
+## Framlenging valkostur setur inn [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Búa til nýja AL-viðbót.
 
 2. Bæta við viðbót fasttexta fyrir valkostina sem auka á við. Gætið þess að sama gildi sé notað. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Fyrstu tíu stafirnir á nýjum heitum og myndatextum valgilda verða að vera einkvæmir. Til dæmis kemur upp villa ef tveir valkostir heita „Transfer 20 working days“ og „Transfer 20 calendar days“ vegna þess að báðir eru með fyrstu 10 stafina „Transfer 2“. Nefndu þá til dæmis „TRF20 WD“ og „TRF20 CD.“
 
-### <a name="update--option-mapping"></a>Uppfæra vörpun [!INCLUDE[prod_short](includes/cds_long_md.md)] valkostar
+## Uppfærðu [!INCLUDE[prod_short](includes/cds_long_md.md)] valkostakortun
 Nú er hægt að endurgera vörpunina milli [!INCLUDE[prod_short](includes/cds_long_md.md)] valkosta og [!INCLUDE[prod_short](includes/prod_short.md)] færslna.
 
 Á síðunni **Vörpun samþættingartöflu** skal velja línuna fyrir vörpun **Greiðsluskilmálar** og síðan velja aðgerðina **Samstilla breyttar færslur**. Síðan **Dataverse Vörpun valkosta** er uppfærð með viðbótarfærslunum hér að neðan.
@@ -118,7 +118,7 @@ Nú er hægt að endurgera vörpunina milli [!INCLUDE[prod_short](includes/cds_l
 | **Greiðsluskilmálar: STAÐGREIÐSLA**  | **779800001**  | **Staðgreiðsla**     |
 | **Greiðsluskilmálar: MILLIFÆRSLA**    | **779800002**  | **Millifærsla**         |
 
-Taflan **Greiðsluskilmálar** í [!INCLUDE[prod_short](includes/prod_short.md)] verður þá með nýjum færslum fyrir [!INCLUDE[prod_short](includes/cds_long_md.md)] valkostina. Í eftirfarandi töflu eru nýir valkostir feitletraðir. Skáletraðar línur tákna alla valkostina sem nú er hægt að samstilla. Eftirstandandi línur tákna valkosti sem eru ekki í notkun og verða hunsaðir við samstillingu. Hægt er að fjarlægja þær eða víkka út Dataverse-valkostina með sömu heitum.
+Taflan **Greiðsluskilmálar** í [!INCLUDE[prod_short](includes/prod_short.md)] verður þá með nýjum færslum fyrir [!INCLUDE[prod_short](includes/cds_long_md.md)] valkostina. Í eftirfarandi töflu eru nýir valkostir feitletraðir. Skáletraðar línur tákna alla valkostina sem nú er hægt að samstilla. Eftirstöðvar línur tákna valkosti sem eru ekki í notkun og eru hunsaðir við samstillingu. Hægt er að fjarlægja þær eða víkka út Dataverse-valkostina með sömu heitum.
 
 | Kóti       | Gjalddagaútreikningur | Tímabil afsláttar | Afsláttur % | Reikna greiðsluafsl. af kreditreikn. | Description       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -140,7 +140,7 @@ Taflan **Greiðsluskilmálar** í [!INCLUDE[prod_short](includes/prod_short.md)]
 | *NET60*      |                      |                           | 0.         | RANGT                         |                   |
 | ***MILLIFÆRSLA*** |                      |                           | 0.         | RANGT                         |                   |
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 [Vörpun á töflum og reitum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

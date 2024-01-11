@@ -1,15 +1,15 @@
 ---
-title: Kynning á contoso Coffee framleiðslu
+title: Kynning á Contoso kaffiframleiðslu
 description: Yfirlit yfir aðstæður þar sem sýnigögn Contoso Coffee geta hjálpað þér að læra hvernig á að nota framleiðslumöguleikana í Business Central.
-ms.date: 04/01/2022
+ms.date: 04/01/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 4765
+ms.search.form: '4765,'
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Kynning á contoso Coffee framleiðslu
+# Kynning á Contoso kaffiframleiðslu
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. **Contoso Coffee** forritin fyrir Business Central bæta við sýnigögnum sem hægt er að nota til að komast að því hvernig á að nota framleiðslumöguleikana í Business Central.  
 
@@ -31,25 +31,25 @@ Forritið býður upp á fjórar vörur sem eru fínstilltar fyrir mismunandi a�
 
   Þessi vara er með þremur afbrigðum og þremur uppskriftum sem hægt er að úthluta á birgðahaldseiningar. Varan notar hugmyndina á bak við skuggauppskrift. Kostnaðarútreikningurinn er *Staðlaður*.
 
-Framleiðsluverkþættir fyrir allar aðstæður nota  *aðalstaðsetningu* .  
+Framleiðslustarfsemin fyrir allar aðstæður notar *AÐAL* staðsetninguna.  
 
 > [!IMPORTANT]
-> Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Nánari kröfur er að finna í kaflanum um  [contoso Coffee](#set-up-contoso-coffee-manufacturing-data) .
+> Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Fyrir frekari kröfur, sjá [Setja upp Contoso kaffigögn](#set-up-contoso-coffee-manufacturing-data) hlutann.
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Setja upp contoso Coffee framleiðslugögn
+## Settu upp Contoso Coffee Manufacturing gögn
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 |Svæði  |Heimildasamstæða  |
 |---------|---------|
-|**Framleiðslustaður** |Tilgreinir vöruhúsið sem á að nota fyrir framleiðsluaðgerðir. Sjálfgildið er aðalen  *hægt er* að breyta því þannig að það henti þörfum.|
+|**Framleiðslustaður** |Tilgreinir vöruhúsið sem á að nota fyrir framleiðsluaðgerðir. Sjálfgefið er *MAIN*, en þú getur breytt því til að henta þínum þörfum.|
 
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
-## <a name="scenarios"></a>Dæmi
+## Dæmi
 
-Útlitsprófið á contoso Coffee sýnigögnunum styður nú við eftirfarandi Aðstæður til prófs og þjálfunar:
+Sýningargögnin um Contoso kaffiframleiðslu styðja eins og er eftirfarandi aðstæður fyrir próf og þjálfun:
 
 1. [Stofna nýja framleiðsluuppskrift og uppskriftarútgáfu](create-new-production-bom-version.md)  
 2. [Stofna nýja leið](create-new-routing.md)  
@@ -65,7 +65,7 @@ Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
 > [!IMPORTANT]
 > Þessar kynningar krefjast þess að upplifun notanda sé stillt á *Premium* á síðunni **Fyrirtækjaupplýsingar**.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framleiðsla](../../production-manage-manufacturing.md)  
-[Framleiðsluskýrslur og Greinaskil í Viðskiptamiðinu](../../production-reports.md)  
+[Framleiðsluskýrslur og greiningar í Business Central](../../production-reports.md)  

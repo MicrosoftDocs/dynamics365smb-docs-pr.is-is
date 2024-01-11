@@ -1,5 +1,5 @@
 ---
-title: Grunnstilling OneDrive samþættingar við Business Central á staðnum
+title: Stilla OneDrive samþættingu við Business Central á staðnum
 description: Kynntu þér hvernig setja á upp Business Central á staðnum til að samþætta við OneDrive for Business.
 author: jswymer
 ms.topic: conceptual
@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'OneDrive, share, browser'
-ms.date: 09/28/2023
+ms.date: 12/12/2023
 ms.author: jswymer
 ---
-# <a name="configuring-onedrive-integration-with-business-central-on-premises"></a>Grunnstilling OneDrive samþættingar við Business Central á staðnum
+# Stilla OneDrive samþættingu við Business Central á staðnum
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -18,17 +18,17 @@ ms.author: jswymer
 
 Gera þarf tvö verk til að grunnstilla OneDrive samþættinguna.
 
-- Fyrsta verkefnið felst í því að skrá inn umsókn (App) um  Microsoft Entra  leigjanda þinn í áætlun þinni Microsoft 365 . Skráða forritið er notað til auðkenningar. Þetta verk er yfirleitt gert í Azure-gáttinni og vefbiðlara Business Central.
+- Fyrsta verkefnið felur í sér að skrá forrit (app) á Microsoft Entra leiganda á Microsoft 365 áætluninni þinni. Skráða forritið er notað til auðkenningar. Þetta verk er yfirleitt gert í Azure-gáttinni og vefbiðlara Business Central.
 - Hitt verkið felur í sér að setja upp tenginguna við OneDrive vefslóðina og kveikja á OneDrive eiginleikunum í Business Central. Þetta verk er gert í vefbiðlara Business Central. Það er gert öðruvísi fyrir útgáfu 21 en fyrir útgáfu 19 og 20. Útgáfa 21 kynnir nýja **OneDrive uppsetningu** sem kemur í staðinn fyrir uppsetningu **SharePoint tengingar**.  
 
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er aðeins hægt að tengja við OneDrive sem Microsoft hýsir í skýinu. Að tengja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við gagnageymslu minna svæða á SharePoint Server er ekki stutt.
 
-## <a name="register-an-app-in-microsoft-entra-id-for-onedrive-integration"></a><a name="registerapp"></a>Skrá app í  Microsoft Entra  auðkenni fyrir  OneDrive  samþættingu
+## <a name="registerapp"></a> Skráðu forrit í Microsoft Entra ID fyrir OneDrive samþættingu
 
-Í þessu verkefni er bætt við skráðu App fyrir viðskipti miðsvæðis í  Microsoft Entra  tjarnarbíói á  Microsoft 365  áætlun. Eins og aðrir Azure þjónustuaðilar sem vinna með Central Business,  OneDrive  þurfa skráð App í  Microsoft Entra  auðkenni. Skráða forritið býður upp á sannvottun og sannvottunarþjónustu milli Business Central og SharePoint, sem OneDrive notar.
+Í þessu verkefni bætir þú við skráðu forriti fyrir Business Central í Microsoft Entra leiganda Microsoft 365 áætlunarinnar þinnar. Eins og önnur Azure þjónusta sem vinnur með Business Central, krefst OneDrive skráð forrit í Microsoft Entra ID. Skráða forritið býður upp á sannvottun og sannvottunarþjónustu milli Business Central og SharePoint, sem OneDrive notar.
 
-Ítarlegar leiðbeiningar um útfyllingu þessa skrefs er að finna  [í skrá umsókn í  Microsoft Entra  auðkenni](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory)  hjá hönnuði og það Pro Help.
+Fyrir nákvæmar skref til að ljúka þessu skrefi, sjá [Skráðu forrit í Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) í hjálp þróunaraðila og upplýsingatæknifræðings.
 
 Þegar þú skráir forritið skaltu hafa eftirfarandi punkta í huga:
 
@@ -47,22 +47,22 @@ Gera þarf tvö verk til að grunnstilla OneDrive samþættinguna.
 
 - Ef þú notar Business Central-útgáfu 19 eða 20 skaltu afrita **Auðkenni forrits (biðlara)** og **leynilykil biðlara** sem skráða forritið notar. Þú þarft þessar upplýsingar fyrir næsta verki.
 
-## <a name="get-your-onedrive-url"></a><a name="url"></a>Fá OneDrive vefslóðina
+## <a name="url"></a>Fá OneDrive vefslóðina
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version-21-and-later"></a>Setja upp OneDrive tengingu í útgáfu 21 og nýrri
+## Setja upp OneDrive tengingu í útgáfu 21 og nýrri
 
 Notaðu þetta ferli ef notað er Business Central útgáfutímabil 2022 (útgáfa 21) eða nýrra.
 
-### <a name="prerequisites"></a>Frumskilyrði
+### Frumskilyrði
 
 - Óbein breytingar- og eyðingarheimild í töflu **Aðstæður skjalaþjónustu** sem lágmark
 
-### <a name="run-onedrive-setup"></a>Keyra OneDrive uppsetningu
+### Keyra OneDrive uppsetningu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **OneDrive Uppsetning** og velja síðan viðkomandi tengil.
-2. Í fyrsta sinn sem þú opnar aðstoðina sérðu **Persónuvernd**. Lestu upplýsingarnar á síðunni og ef þú samþykkir skilmálana skaltu velja **Samþykkja** til að halda áfram.
+2. Í fyrsta skipti sem þú keyrir uppsetningu með aðstoð sérðu  **Næði þitt**. Lestu upplýsingarnar á síðunni og ef þú samþykkir skilmálana skaltu velja **Samþykkja** til að halda áfram.
 3. Á síðunni **Stilla meðhöndlun skráa** ertu með eftirfarandi valkosti til að velja úr:
 
    [!INCLUDE[onedrive-feature-options](includes/onedrive-feature-options.md)]
@@ -72,11 +72,11 @@ Notaðu þetta ferli ef notað er Business Central útgáfutímabil 2022 (útgá
    [Hvernig finn ég OneDrive vefslóðina?](#url)
 5. Veldu **Prófa tengingu** og bíddu eftir niðurstöðunum.
    - Ef prófið tekst er valið **Lokið** og þá er allt klárt.
-   - Ef prófið stenst ekki færðu skilaboð sem lýsa vandamálinu. Vandamálið tengist yfirleitt vefslóðinni sem þú gafst upp. Veldu **Í lagi** til að fara aftur á síðuna **Grunnstilla Business Central**, staðfestu vefslóðina og reyndu aftur.
-   - Ef þú hefur ekki þegar sett upp kennið fyrir  Microsoft Entra  skrásett forrit, opnast leiðbeiningar um kenni  **fyrir  Microsoft Entra**  uppsetningu.
+   - Ef prófið mistekst færðu skilaboð sem lýsir vandamálinu. Vandamálið tengist yfirleitt vefslóðinni sem þú gafst upp. Veldu **Í lagi** til að fara aftur á síðuna **Grunnstilla Business Central**, staðfestu vefslóðina og reyndu aftur.
+   - Ef þú hefur ekki þegar sett upp Microsoft Entra ID skráð forritið, opnast **Uppsetning Microsoft Entra ID** handbókin.
 6. Þegar þessu er lokið er persónuverndaryfirlýsingin fyrir OneDrive samþættingu samþykkt fyrir alla notendur. Ef þú vilt breyta henni þannig að notendur verði sjálfir að samþykkja eða hafna, þá skal fara á síðuna **Staða persónuverndaryfirlýsingar** og velja **Leyfa notanda að ákveða** fyrir OneDrive samþættinguna. Notendur verða þá beðnir um að samþykkja eða hafna persónuverndaryfirlýsingunni í fyrsta skipti sem þeir nota OneDrive eiginleikana. Frekari upplýsingar er að finna í [Persónuverndaryfirlýsingar](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in--version-19-and-20"></a>Setja upp tenginguna í [!INCLUDE[prod_short](includes/prod_short.md)] útgáfu 19 og 20
+## Setja upp tenginguna í [!INCLUDE[prod_short](includes/prod_short.md)] útgáfu 19 og 20
 
 Notaðu þetta ferli ef notað er Business Central 2022 útgáfutímabil 1 (útgáfa 20) eða 2021 útgáfutímabil 2 (útgáfa 19).
 > [!IMPORTANT]
@@ -98,58 +98,58 @@ Notaðu þetta ferli ef notað er Business Central 2022 útgáfutímabil 1 (útg
 > [!IMPORTANT]
 > **SharePointUppsetningarsíða tengingar** er notuð til að stilla marga eldri eiginleika. Í **Almenna** hlutanum er tengingin við OneDrive stillt og hlutinn **Samnýtt skjöl** framsendir skrár í SharePoint í staðinn. **Uppsetning SharePoint tengingar** hefur verið úrelt og verður fjarlægð í næstu útgáfu. Við mælum með að þú stillir ekki hlutann **Samnýtt skjöl**. Frekari upplýsingar er að finna í [Úreltir eiginleikar í grunnforritinu ](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-21"></a>Eftir uppfærslu í útgáfu 21
+## Eftir uppfærslu í útgáfu 21
 
-Þegar þú uppfærir í útgáfu 21 eða nýrri mun núverandi tenging við OneDrive sem grunnstillt er á síðunni **Uppsetning SharePoint tengingar** enn virka. En vegna þess að síðan **Uppsetning SharePoint tengingar** verður fjarlægð í útgáfu 23 mælum við með því að þú skiptir yfir í nýju OneDrive samþættinguna eins og lýst er í næsta hluta. Að skipta yfir núna auðveldar hlutina þegar **Uppsetning SharePoint tengingar** verður að lokum fjarlægð. Auk þess gerir það þér kleift að nota uppsetningarleiðbeininguna **OneDrive uppsetning** til að stjórna OneDrive eiginleikum sem þú getur nálgast.
+Þegar þú uppfærir í útgáfu 21 eða nýrri mun núverandi tenging við OneDrive sem grunnstillt er á síðunni **Uppsetning SharePoint tengingar** enn virka. En vegna þess að síðan **Uppsetning SharePoint tengingar** verður fjarlægð í útgáfu 23 mælum við með því að þú skiptir yfir í nýju OneDrive samþættinguna eins og lýst er í næsta hluta. Með því að skipta um núna er það auðveldara þegar **SharePoint tengingaruppsetning** er loksins fjarlægð. Auk þess gerir það þér kleift að nota **OneDrive uppsetningarhandbókina** uppsetningaraðstoð til að stjórna OneDrive eiginleikum sem eru aðgengilegir notendum.
 
-## <a name="switching-from-legacy-sharepoint-to-new-onedrive-integration"></a>Skipt úr eldra SharePoint yfir í nýja OneDrive samþættingu
+## Skipt úr eldra SharePoint yfir í nýja OneDrive samþættingu 
 
-Til að skipta yfir í nýju OneDrive samþættinguna keyrir þú uppsetningarleiðbeiningarnar **OneDrive uppsetning** með hjálp, sem hægt er að opna beint eða af eldri síðu **Uppsetningar SharePoint tengingar**. Uppsetning **OneDrive uppsetningar** með hjálp leiðir þig í gegnum umbreytinguna og veitir upplýsingar um breytingarnar sem verið er að gera.
+Til að skipta yfir í nýju OneDrive samþættinguna keyrir þú uppsetningarleiðbeiningarnar **OneDrive uppsetning** með hjálp, sem hægt er að opna beint eða af eldri síðu **Uppsetningar SharePoint tengingar**. Uppsetning **OneDrive Uppsetning** aðstoð leiðir þig í gegnum umskiptin og veitir upplýsingar um breytingarnar sem gerðar eru á leiðinni.
 
 Áður en þú hefst handa með umbreytinguna, eða meðan á henni stendur, skaltu skoða næsta hluta til að kynna þér nokkra þætti um ferlið. 
 
-### <a name="about-switching-to-the-new-onedrive-integration"></a><a name="onedrivesetupmigration"></a>Um skiptingu yfir í nýju OneDrive samþættinguna
+### <a name="onedrivesetupmigration"></a>Um skiptingu yfir í nýju OneDrive samþættinguna
 
-Til viðbótar við OneDrive samþættingu getur Business Central einnig samþæst við aðra þjónustu eins og Power BI og Universal print. Samþætting við þessa aðra þjónustu krefst einnig skráar  Microsoft Entra  app til auðkenningar.  Microsoft Entra App sem þessi önnur þjónusta er skilgreind fyrir  **er stillt  Microsoft Entra  í uppsetningu viðskiptaaðstoðar** . Þegar skipt er úr eldri  SharePoint  tengingum í uppsetningu mun  **OneDrive  ný**  Uppsetning aðstoða uppsetningu á uppsetningarforritinu  OneDrive  til að nota kerfið  **Setja upp  Microsoft Entra  uppsetningu**  fyrir aðstoðar lánardrottna &mdash; svo allir samþættingar noti sama  Microsoft Entra  App.
+Til viðbótar við OneDrive samþættingu getur Business Central einnig samþæst við aðra þjónustu eins og Power BI og Universal print. Samþætting við þessar aðrar þjónustur krefst einnig skráðs Microsoft Entra apps til auðkenningar.  Microsoft Entra appið sem þessar aðrar þjónustur nota er stillt í  **Setja upp Microsoft Entra reikninga** aðstoðaruppsetninguna þína. Þegar þú skiptir úr eldri SharePoint tengingaruppsetningunni breytir nýja **OneDrive uppsetningin** aðstoðaða uppsetningin OneDrive samþættingunni þinni til að nota einnig **Settu upp Microsoft Entra reikninga** uppsetningu með aðstoð&mdash; þannig að allar samþættingar noti sama Microsoft Entra appið.
 
-Þessi breyting hefur þýðingu þegar skipt er yfir í nýja  OneDrive  samþættingu eftir því hvort Microsoft-forrit sem  **er búið að skilgreina í uppsetningu viðskiptaaðstoðar  Microsoft Entra  setur upp** . 
+Þessi breyting hefur þýðingu þegar skipt er yfir í nýju OneDrive samþættinguna, allt eftir því hvort Microsoft app er nú þegar stillt í **Setja upp Microsoft Entra reikningana þína** aðstoð við uppsetningu. 
 
 > [!IMPORTANT]
 > Þegar þú hefur skipt yfir í nýju OneDrive uppsetninguna geturðu ekki lengur notað síðuna **Uppsetning SharePoint tengingar** til að grunnstilla OneDrive samþættingu.
 
-#### <a name="how-the-changes-affect-the-integration"></a>Hvernig breytingarnar hafa áhrif á samþættinguna
+#### Hvernig breytingarnar hafa áhrif á samþættinguna
 
- **OneDrive** Uppsetningarforritið aðstoðar notar alltaf App sem er samskipað í  **Microsoft Entra  uppsetningu viðskiptaaðstoðar**, ef einhver er. Þegar keyrð  **OneDrive**  er Uppsetning aðstoðar-forrits er það borið saman við App sem samskipað er í  **Microsoft Entra  uppsetningu lykla**  með núverandi forriti sem samskipað er í  **SharePoint  Uppsetning** tengingar.
+ **OneDrive Uppsetning** uppsetningin með aðstoð mun alltaf nota forritið sem er stillt í **Setja upp Microsoft Entra reikningana þína** aðstoð uppsetning, ef það er einhver. Þegar þú keyrir **OneDrive uppsetningu** aðstoðaða uppsetningu, ber það saman forritið sem er stillt í **Settu upp Microsoft Entra reikningana þína** með núverandi forriti þínu stillt í **SharePoint Tengingaruppsetning**.
 
 > [!TIP]
->  **SharePoint Í uppsetningarforritinu tenging**  og  **Setja upp  Microsoft Entra  uppsetningu**  VIÐSKIPTAAÐSTOÐAR  Microsoft Entra  er forritið auðkennt með  **Kenni** biðlara.
+> Á síðunni **SharePoint Tengingaruppsetning** og **Setja upp Microsoft Entra reikninga** aðstoð, er Microsoft Entra appið er auðkennt með **auðkenni viðskiptavinar**.
 
-- Ef App í  **Microsoft Entra  Uppsetning lykla**  er annað en App í  **SharePoint  tengingaruppsetningu** OneDrive  breytist sameining til að nota App í  **Microsoft Entra  uppsetningu reikninga**.
+- Ef forritið í **Setja upp Microsoft Entra reikningunum þínum** er annað en forritið í **SharePoint Tengingaruppsetning**, breytist OneDrive samþættingin til að nota appið í **Settu upp Microsoft Entra reikningana þína**.
 
-   Í **OneDrive uppsetning** á meðan skipt er yfir færðu skilaboð svipuð og eftirfarandi texti: 
+   Í **OneDrive uppsetningu** meðan þú skiptir um færðu skilaboð sem líkjast eftirfarandi texta: 
 
   `The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This means the client id will change to NNNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN, you may want to test it has the correct permissions.`
 
-  `NNNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN` táknar KENNI biðlara forritsins í  **uppsetningu  Microsoft Entra  reikninga**  sem  OneDrive  samþættingu hefur verið skipt við. 
+  `NNNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN` táknar auðkenni viðskiptavinar forritsins í **Settu upp Microsoft Entra reikningana þína** sem OneDrive samþætting hefur verið skipt yfir í. 
 
   > [!IMPORTANT]
-  > Til að ný OneDrive samþætting virki eftir að skipt er um, þarftu að veita forritinu heimild að SharePoint API í Azure-gáttinni. Þú getur gert þetta áður eða eftir að þú skiptir yfir í nýju OneDrive uppsetninguna. Frekari upplýsingar er að finna í kaflanum  [skrá app í  Microsoft Entra  Kenni  OneDrive  samþættingar](#registerapp).
+  > Til að ný OneDrive samþætting virki eftir að skipt er um, þarftu að veita forritinu heimild að SharePoint API í Azure-gáttinni. Þú getur gert þetta áður eða eftir að þú skiptir yfir í nýju OneDrive uppsetninguna. Fyrir frekari upplýsingar, sjá kaflann [Skráðu app í Microsoft Entra ID fyrir OneDrive samþættingu](#registerapp).
 
-- Ef App í  **Microsoft Entra  Uppsetning lykla**  er það sama og App í  **SharePoint  uppsetningu** OneDrive  tengingar notar Samþætting sama App og áður, nema frá samskipun í  **Microsoft Entra  uppsetningu lykla**  uppsetningar.
+- Ef forritið í **Settu upp Microsoft Entra reikningunum þínum** er það sama og forritið í **SharePoint Tengingaruppsetning**, notar OneDrive samþættingin sama forrit og áður, nema frá stillingunum í **Setja upp Microsoft Entra reikningana þína**  uppsetningu.
 
-   Í **OneDrive uppsetning** á meðan skipt er yfir færðu skilaboð svipuð og eftirfarandi texti:
+   Í **OneDrive uppsetningu** meðan þú skiptir um færðu skilaboð sem líkjast eftirfarandi texta:
 
     `The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This has already been configured with the same client id (5F78CADE-19C0-49BF-AF84-306D0579B50E).`
 
-- Ef ekkert forrit er skilgreint í  **Microsoft Entra  uppsetningu lykla**  uppsetningar  OneDrive  mun Samþætting nota sama App og áður.
+- Ef ekkert forrit er stillt í **Setja upp Microsoft Entra reikninga** uppsetninguna notar OneDrive samþættingin sama forritið og áður.
 
-    **OneDrive** Uppsetningarforritið aðstoðar afritar forritið samskipan  **Microsoft Entra  uppsetningar lykla**  uppsetningar þannig að það verður notað fyrir aðra samþættingu í sem gæti verið sett upp síðar.
+    **OneDrive Uppsetning** uppsetningin með aðstoð afritar stillingar forritsins yfir í **Setja upp Microsoft Entra reikninga** uppsetninguna þína, svo það er notað fyrir aðrar samþættingar sem gætu sett upp síðar.
 
-   Í **OneDrive uppsetning** á meðan skipt er yfir færðu skilaboð svipuð og eftirfarandi texti:
+   Í **OneDrive uppsetningu** meðan þú skiptir um færðu skilaboð sem líkjast eftirfarandi texta:
 
    `The Microsoft Entra application used for authentication will be configured for all Business Central integrations`.
 
-### <a name="run-onedrive-setup-to-switch-to-the-new-onedrive-integration"></a>Keyrðu OneDrive uppsetningu til að skipta yfir í nýju OneDrive samþættinguna
+### Keyrðu OneDrive uppsetningu til að skipta yfir í nýju OneDrive samþættinguna
 
 1. Opna annaðhvort síðuna **OneDrive uppsetning** eða síðuna **Uppsetning SharePoint tengingar**.
 2. Ef notuð er síðan **Uppsetning SharePoint tengingar** skal velja **Fara í nýju OneDrive uppsetninguna** í tilkynningunni efst á síðunni.
@@ -163,7 +163,7 @@ Til viðbótar við OneDrive samþættingu getur Business Central einnig samþæ
 
    Ef prófið heppnast skaltu velja **lokið** og þá er allt til reiðu. Notaðu annars skilaboðin á síðunni til að hjálpa þér að leysa vandamálið.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 [Business Central og OneDrive fyrir Business Integration](across-onedrive-overview.md)  
 [Opna Business Central Files í OneDrive](across-share-onedrive.md)  
 [OneDrive ALGENGAR SPURNINGAR](admin-onedrive-faq.md)

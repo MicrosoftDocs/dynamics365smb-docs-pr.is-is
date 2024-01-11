@@ -1,5 +1,5 @@
 ---
-title: Birta innsýn í aðgerðir í Mínu hlutverki
+title: Sýndu hagkvæma innsýn í hlutverkamiðstöðvum
 description: Kynntu þér hvernig Essential Business Insights viðbótin flakkar á milli raða af viðskiptainnsýn í Mínu hlutverki.
 documentationcenter: ''
 author: brentholtorf
@@ -9,11 +9,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'BI, add-in, insight, headline, data'
 ms.search.form: '1439,'
-ms.date: 06/23/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
 ---
 
-# <a name="the-essential-business-insights-extension"></a>Essential Business Insights viðbótin
+# Viðbótin Essential Business Insights
 
 Viðbótin Essential viðskiptainnsýn finnur áhugaverðar staðreyndir um viðskipti fyrirtækis þíns og birtir þær svipað eins og fyrirsagnir í dagblöðum í Mínu hlutverki. Það fer eftir því hvað viðbótin finnur í gögnum, innsýnin er frá síðustu viku, mánuði eða þremur mánuðum frá deginum í dag. Innsýnin uppfærist á 10 mínútna fresti.  
 
@@ -32,7 +32,7 @@ Eftirfarandi tafla lýsir innsýninni sem viðbótin útvegar fyrir Mitt hlutver
 |Verkefnastjóri| Sýnir kveðju og tengil á afurðarupplýsingar.|
 |Stjórnandi| Sýnir kveðju og tengil á afurðarupplýsingar.|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)
 

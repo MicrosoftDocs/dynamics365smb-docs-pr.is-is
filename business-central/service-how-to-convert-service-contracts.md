@@ -1,27 +1,30 @@
 ---
-title: Hvernig á að umbreyta þjónustusamningum
-description: Í þessu efnisatriði er lýst nokkrar öðrum aðferðum sem hægt er að nota til að umbreyta þjónustusamningum sem innihalda VSK-upphæðir.
+title: Hvernig á að breyta þjónustusamningum
+description: Þessi grein lýsir nokkrum öðrum aðferðum sem hægt er að nota til að breyta þjónustusamningum sem innihalda virðisaukaskattsupphæðir.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 06/23/2021
+ms.date: 12/07/2023
 ms.author: bholtorf
 ---
-# <a name="convert-service-contracts-that-include-vat-amounts"></a>Umbreyta þjónustusamningum sem innihalda VSK upphæðir
-Þar sem breytingaverkfæri VSK-hlutfalls getur ekki umbreytt þjónustusamningum, verður að umbreyta þessum samningum handvirkt. Í þessu efnisatriði er lýst nokkrar öðrum aðferðum sem hægt er að nota við umbreytingar þjónustusamninga.  
+
+# Umbreyta þjónustusamningum sem innihalda virðisaukaskattsupphæðir
+
+Vegna þess að tólið til að breyta virðisaukaskattshlutfalli getur ekki umbreytt þjónustusamningum verður að breyta þessum samningum handvirkt. Þessi grein lýsir nokkrum öðrum aðferðum sem þú getur notað til að breyta þjónustusamningum.  
 
 > [!NOTE]  
->  Þetta efnisatriði gefur verkflæði á háu stigi.  
+> Þessi grein veitir vinnuflæði á háu stigi.  
 
  Eftirfarandi ferli lýsir því hvernig eigi að leiðrétta reikning fyrir fyrirframgreiddan þjónustusamning sem hefur verið stofnaður ár fyrirfram.  
 
 > [!NOTE]  
->  Í þessu dæmi þarf að breyta þarf vinnudagsetningunni í 01.01.2017.  
+> Í þessu dæmi þarf að breyta þarf vinnudagsetningunni í 01.01.2017.  
 
-### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Til að leiðrétta reikning fyrir fyrirframgreiddan þjónustusamning
+## Til að leiðrétta reikning fyrir fyrirframgreiddan þjónustusamning  
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Umsjón með samningi** og velja síðan viðkomandi tengil.  
 2. Undir **Listar**, skal velja **Þjónustusamningar**.  
 3. Stofna nýjan fyrirframgreiddan þjónustusamning. Færa inn upphafsdagsetninguna **01.01.2017** og reikningstímabilsár fyrir viðskiptavin **20000**.  
@@ -31,23 +34,26 @@ ms.author: bholtorf
 7. Bóka skal þjónustureikninginn.  
 
 > [!NOTE]  
->  Ekki breyta óbókaða þjónustureikningnum. Þar sem þjónustufærslur eru stofnaðar við stofnun reikningsins, munu breytingar á óbókaða reikningnum ekki breyta þjónustufærslum sem þegar hafa verið stofnaðar. Hins vegar verða VSK-færslur stofnaðar við bókun reikningsins. Þetta leyfir þér að breyta almenna bókunarflokknum og GSP vörubókunarflokknum á óbókaða þjónustureikningnum.  
+> Ekki breyta óbókuðum þjónustureikningi. Þar sem þjónustufærslur eru stofnaðar við stofnun reikningsins, munu breytingar á óbókaða reikningnum ekki breyta þjónustufærslum sem þegar hafa verið stofnaðar. Hins vegar verða VSK-færslur stofnaðar við bókun reikningsins. Þetta leyfir þér að breyta almenna bókunarflokknum og GSP vörubókunarflokknum á óbókaða þjónustureikningnum.  
 
-### <a name="to-create-a-credit-memo-for-vat-difference"></a>Til að setja upp kreditreikning fyrir VSK-mun
-Eftirfarandi ferli lýsir því hvernig eigi að stofna kreditreikning sem inniheldur einvörðungu VSK-mismun fyrir það tímabil sem þegar hefur verið reikningsfært og byrjar **01.07.2017**. Í þessu dæmi er vsk-upphæðin aðeins bókuð í fjármálastjórnunarhluta, ekki þjónustustjórnunarhlutanum. VSK-færslur sem tengjast þjónustubókarfærslunni verða ekki leiðréttingar.  
+### Til að setja upp kreditreikning fyrir VSK-mun 
+ 
+Eftirfarandi ferli lýsir því hvernig eigi að stofna kreditreikning sem inniheldur einvörðungu VSK-mismun fyrir það tímabil sem þegar hefur verið reikningsfært og byrjar **01.07.2017**. Í þessu dæmi er vsk-upphæðin aðeins bókuð í fjármálastjórnunarhluta, ekki þjónustustjórnunarhlutanum. VSK-færslurnar sem eru tengdar við þjónustubókarfærsluna verða ekki leiðréttar.  
 
-1. Búa til nýjar fjárhagsreikninga fyrir VSK-mismuninn. Þessi lykill verður notaður fyrir beina bókun VSK-leiðréttingar.  
+1. Búa til nýjar fjárhagsreikninga fyrir VSK-mismuninn. Þessi reikningur er notaður fyrir beina bókun á VSK leiðréttingunni.  
 2. Bæta nýrri línu við VSK-bókunargrunninn.  
 
-### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Til að stofna gildislokadagsetningar samnings í samningslínum
+## Til að stofna gildislokadagsetningar samnings í samningslínum  
+
 Eftirfarandi ferli lýsir því hvernig eigi að stofna nýja samninga með því að vinna með fyrningardagsetningar samninga í þjónustusamningslínum.  
 
 1. Á síðunni **Þjónustusamningur** stillið lokadagsetningu samnings á **30.06.2017**.  
 2. Velja aðgerðina **Stofna kreditreikn.** til að stofna kreditreikning sjálfkrafa fyrir júlí 2017 til desember 2017.  
 3. Þar sem samningurinn er útrunninn er, verður að stofna nýjan samning fyrir tímabilið með nýjum VSK-taxta fyrir 1. júlí, 2017 til 31. desember 2017.  
 
-### <a name="to-create-a-new-credit-memo"></a>Nýr kreditreikningur stofnaður.
-Eftirfarandi ferli lýsir því hvernig eigi að stofna nýjan kreditreikning með keyrslunni **Sækja fyrirfr.gr, samn.færslur**. Færslur sem ekki á að leiðrétta frá janúar 2017 til júní 2017 verður eytt.  
+### Nýr kreditreikningur stofnaður.  
+
+Eftirfarandi ferli lýsir því hvernig eigi að stofna nýjan kreditreikning með keyrslunni **Sækja fyrirfr.gr, samn.færslur**. Færslum sem þú vilt ekki leiðrétta frá janúar 2017 til júní 2017 verður eytt.  
 
 1. Keyra skal breytingarverkfæri VSK-hlutfalls 1. júlí 2017. Almenni vörubókunarflokkurinn eða VSK-vörubókunarflokkurinn breytist. Frekari upplýsingar, sjá [Vinna með VSK í sölu og innkaupum](finance-work-with-vat.md).  
 2. Eftir keyrslu breytingaverkfæris VSK-hlutfalls, skal færa inn lokadag samnings fyrir þjónustusamninginn. Nú er hægt að eyða þjónustusamningslínunni og stofna nýja línu sem er eins og sú eldri.  
@@ -56,7 +62,8 @@ Eftirfarandi ferli lýsir því hvernig eigi að stofna nýjan kreditreikning me
 5. Velja aðgerðina **Sækja fyrirfr.gr, samn.færslur**.  
 6. Þegar umreikninginum er lokið, verða VSK og þjónustufjárhagsfærslur réttar.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .  
+
 [Vinna með þjónustusamninga og þjónustusamningstilboð](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Fjármál](finance.md)  
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
