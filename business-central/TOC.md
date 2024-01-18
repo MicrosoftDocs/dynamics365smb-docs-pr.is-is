@@ -22,7 +22,7 @@
 #### [Kynning: Útreikningur á VÍV fyrir verk](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Kynning: Tína og senda í einföldum vöruhúsagrunnstillingum](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
-#### [Kynning: Nota fjárhagsskýrslur til að gera sjóðstreymisspár](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Kynning: Nota fjárhagsskýrslur til að gera sjóðstreymisspár  ](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Kynning: Uppsetning og notkun Shopify tengis](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Sýnigögn Contoso Coffee
@@ -42,6 +42,10 @@
 ##### [Kynning á flæði á innleið og útleið í grunnskilgreiningum vöruhúss](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Kynning á flæði á innleið og útleið í blönduðum skilgreiningum vöruhúss](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Kynning á flæði á innleið og útleið í ítarlegum skilgreiningum vöruhúss með beinum frágangi og tínslu](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Þjónusta
+##### [Kynning á þjónustustjórnun Contoso Coffee](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Kynning á þjónustupöntunum fyrir þjónustuvörur](contoso-coffee/service/service-basic-flow-order.md)
+##### [Kynning á þjónustusamningum fyrir þjónustuvörur](contoso-coffee/service/service-contract-flow.md)
 
 ### Hönnunarupplýsingar
 #### [Yfirlit yfir hönnunarupplýsingar hugbúnaðar](design-details-application-design.md)
