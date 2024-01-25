@@ -11,13 +11,13 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Bættu markaðstexta við hluti
+# <a name="add-marketing-text-to-items"></a>Bættu markaðstexta við hluti
 
 Fyrir hvaða hlut sem er skráður í Business Central geturðu skrifað *markaðstexta* um hlutinn. Þó að markaðstexti sé eins konar lýsing er hann öðruvísi en  **Lýsing** reit hlutarins. Reiturinn **Lýsing**  er venjulega notaður sem hnitmiðað nafn til að auðkenna vöruna fljótt. Markaðstextinn er hins vegar ríkari og lýsandi texti. Tilgangur þess er að bæta við markaðs- og kynningarefni, einnig þekkt sem *copy*. Þennan texta er síðan hægt að birta með hlutnum ef hann er birtur á vefverslun, eins og Shopify, eða límdur í tölvupóst eða önnur samskipti við viðskiptavini þína.
 
 Það eru tvær leiðir til að búa til markaðstextann. Auðveldasta leiðin til að byrja er að nota Copilot, sem stingur upp á gervigreindum texta fyrir þig. Hin leiðin er að byrja frá grunni. 
 
-## <a name=copilot></a> Fáðu tillögur um markaðstexta með Copilot
+## <a name="get-marketing-text-suggestions-with-copilot"></a><a name=copilot></a>Fáðu tillögur um markaðstexta með Copilot
 
 Með Copilot færðu fljótt textatillögu sem er sjálfkrafa búin til fyrir þig. AI-myndaður texti er sniðinn að hlutnum og gefur góðan upphafspunkt. Textinn er að hluta til byggður á eftirfarandi upplýsingum:
 
@@ -28,7 +28,7 @@ Með Copilot færðu fljótt textatillögu sem er sjálfkrafa búin til fyrir þ
 
 Copilot er hannað til að spara þér tíma og hjálpa þér að skrifa skapandi og grípandi texta sem endurspeglar vörumerkið þitt og er í samræmi í vörulínunni þinni. Byrjaðu á því að búa til tillögu og breyttu síðan textatillögunni eftir þörfum.
 
-### Frumskilyrði
+### <a name="prerequisites"></a>Frumskilyrði
 
 - Eiginleiki markaðstextatillögur er virkur og virkur í umhverfi þínu. Þetta verkefni er venjulega gert af stjórnanda. Fyrir frekari upplýsingar, farðu í [Stilling Copilot og AI getu](enable-ai.md).
 - Þú ert að nota eitt af tungumálunum sem eru studdar af markaðstextatillögunum.
@@ -38,7 +38,7 @@ Copilot er hannað til að spara þér tíma og hjálpa þér að skrifa skapand
   Til að breyta tungumálinu skaltu velja **Stillingar** táknið ![Stillingar í efra hægra horninu.](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") > **Stillingar mínar** > **Tungumál**. Fyrir frekari upplýsingar, farðu í [Breyta grunnstillingum](ui-change-basic-settings.md#language).
 - Skoðaðu [algengar spurningar fyrir tillögur um markaðstexta](faqs-marketing-text.md) til að læra hvernig gervigreind er beitt.
 
-### Búðu til fyrstu drög með Copilot
+### <a name="create-first-draft-with-copilot"></a>Búðu til fyrstu drög með Copilot
 
 Ljúktu við eftirfarandi skref til að bæta markaðstexta við fyrirliggjandi hlut. Til að læra hvernig á að búa til nýjan hlut skaltu fara á [Skráðu nýja hluti](inventory-how-register-new-items.md).
 
@@ -69,7 +69,7 @@ Ljúktu við eftirfarandi skref til að bæta markaðstexta við fyrirliggjandi 
    Þú getur nú fengið fleiri tillögur, reynt að bæta tillögurnar sem þú færð, breytt texta og fleira. Farðu í [Skoðaðu, breyttu og vistaðu](#review-edit-and-save-text) til að fá frekari upplýsingar.
 
 
-### Skoðaðu, breyttu og vistaðu texta
+### <a name="review-edit-and-save-text"></a>Skoðaðu, breyttu og vistaðu texta
 
 Þegar þú hefur fyrstu drögin verður þú að fara yfir þau og gera breytingar á textanum til að gera hann tilbúinn til birtingar. Þessi vinna er unnin úr Copilot ritlinum, sem gerir þér kleift að fá fleiri tillögur, breyta kjörstillingum til að hafa áhrif á tillögurnar og gera breytingar handvirkt og stíla textann.
 
@@ -92,7 +92,7 @@ Notaðu eftirfarandi leiðbeiningar til að ganga frá og vista markaðstextann.
    - Ef þú vilt vista textann skaltu velja **Halda honum**. 
    - Ef þú vilt ekki vista skaltu velja fleygjahnappinn (ruslatunna) ![Sýnir ruslatunnutáknið til að eyða öllum Copilot tillögunum um afstemmingu bankareiknings](media/copilot-delete-trash-can.png).
 
-### Bæta og sérsníða textatillögur
+### <a name="improve-and-tailor-text-suggestions"></a>Bæta og sérsníða textatillögur
 
 Það eru nokkur skref sem þú getur gert til að bæta textatillögurnar og fínstilla þær til að henta persónulegum óskum þínum eða fyrirtækis.
 
@@ -115,11 +115,11 @@ Notaðu eftirfarandi leiðbeiningar til að ganga frá og vista markaðstextann.
 
    Copilot finnur orð og orðasambönd sem tengjast flokknum og vinnur þau inn í textatillöguna.
 
-### Að vinna með mörg tungumál 
+### <a name="working-with-multiple-languages"></a>Að vinna með mörg tungumál
 
 Texti er alltaf búinn til á því tungumáli sem er skilgreint af  [stillingum notanda](ui-change-basic-settings.md#language). Ef fyrirtækið þitt starfar og setur gögn inn í Business Central á öðru tungumáli, eða ef Business Central er tengt við netverslunina þína eins og með Shopify gæti það leitt til birtingar efnis sem passar ekki við svipað markaðsefni.
 
-## Búðu til texta frá grunni
+## <a name="create-text-from-scratch"></a>Búðu til texta frá grunni
 
 1. Í Business Central, opnaðu hlutinn sem þú vilt breyta á eftirfarandi hátt:
 
@@ -133,7 +133,7 @@ Texti er alltaf búinn til á því tungumáli sem er skilgreint af  [stillingum
 3. Gerðu breytingar á texta beint í **Markaðstexta** reitnum. Notaðu tækjastikuna neðst í reitnum til að forsníða og stíla texta, bæta við tenglum og fleira.
 4. Veldu **Í lagi** þegar því er lokið til að vista textann.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit yfir tillögur að markaðstexta](ai-overview.md)  
 [Villuleita Copilot- og gervigreindarmöguleika](ai-copilot-troubleshooting.md)  

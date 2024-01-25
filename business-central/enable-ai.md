@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Stilltu Copilot og AI getu 
+# <a name="configure-copilot-and-ai-capabilities"></a>Stilltu Copilot og AI getu
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -32,12 +32,12 @@ ms.collection:
 
 Ef eitthvað af þessum kröfum er ekki uppfyllt er eiginleikinn ekki tiltækur til notkunar.
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 - Þú ert að nota Business Central á netinu, útgáfu 23.1 eða nýrri. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Þú hefur stjórnanda- eða ofurheimildir í Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Leyfa gagnaflutning milli landa
+## <a name="allow-data-movement-across-geographies"></a>Leyfa gagnaflutning milli landa
 
 Þetta verkefni á aðeins við ef **Leyfa gagnaflutninga** rofinn birtist nálægt toppi **Copilot & AI Capabilities** síða. Ef hlekkurinn **Hvernig stjórna ég aðstoðarflugmannsgögnunum mínum?** er sýndur í stað **Leyfa gagnaflutninga** rofann, slepptu þetta skref.
 
@@ -72,7 +72,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## Virkjaðu eiginleika
+## <a name="activate-features"></a>Virkjaðu eiginleika
 
 Allar Copilot og gervigreindarhæfileikar eru virkir sjálfgefið þegar þeir eru aðgengilegir í forskoðun eða verða almennt tiltækir. Notkun **Copilot & AI Capabilities** síðu geturðu slökkt eða kveikt á einstökum eiginleikum fyrir alla notendur.
 
@@ -86,7 +86,7 @@ Allar Copilot og gervigreindarhæfileikar eru virkir sjálfgefið þegar þeir e
    - Til að slökkva á eiginleika skaltu velja hann og velja síðan **Slökkva á** aðgerð. 
 
 
-## Virkja eiginleika í eiginleikastjórnun
+## <a name="enable-feature-in-feature-management"></a>Virkja eiginleika í eiginleikastjórnun
 
 Þegar einstakir Copilot eiginleikar eru gefnir út í Business Central minniháttar uppfærslum eru þessir eiginleikar valfrjálsir fram að næstu meiriháttar uppfærslu. **Eiginleikastjórnun** er notað til að kveikja eða slökkva á eiginleikum sem eru í forskoðun, eins og bankaafstemmingu, og sumum eiginleikum sem eru almennt tiltækir, eins og tillögur um markaðstexta. [Frekari upplýsingar um eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -98,20 +98,20 @@ Allar Copilot og gervigreindarhæfileikar eru virkir sjálfgefið þegar þeir e
 
    Fyrir frekari upplýsingar um eiginleikastjórnun almennt, farðu í [Eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## Að veita notanda aðgang 
+## <a name="granting-user-access"></a>Að veita notanda aðgang
 
 Copilot og gervigreind geta boðið upp á virkni sem ætlað er fyrir alla notendur í fyrirtækinu þínu eða fyrir ákveðin notendahlutverk. Flestar Copilot og gervigreindargetur bjóða upp á aðgangsstýringu með því að nota heimildir og heimildasett í heimildastjórnunarkerfi Business Central. [Lærðu meira um heimildir og heimildasett](ui-define-granular-permissions.md).
 
 Til að veita eða hafna aðgangi að tilteknum Copilot og gervigreindum möguleikum, hafðu samband við skjöl eða útgefanda þess eiginleika til að finna hvaða heimildir eru nauðsynlegar. 
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 Eftir að þú hefur virkjað og samþykkt eiginleikana ertu tilbúinn til að prófa þá. Fara til:
 
 - [Bættu markaðstexta við hluti](item-marketing-text.md) 
 - [Samræma með því að nota aðstoð við afstemmingu bankareikninga](bank-reconciliation-with-copilot.md) 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Villuleita Copilot- og gervigreindarmöguleika](ai-copilot-troubleshooting.md)  
 [Yfirlit yfir tillögur um markaðstexta](ai-overview.md)   

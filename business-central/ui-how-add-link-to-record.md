@@ -9,7 +9,7 @@ ms.date: 09/15/2023
 ms.custom: bap-template
 ms-service: dynamics-365-business-central
 ---
-# Stjórna viðhengjum, tenglum og skýringum á kortum og skjölum
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Stjórna viðhengjum, tenglum og skýringum á kortum og skjölum
 
 Á flestum listasíðum, kortum og fylgiskjölum er hægt að tengja skrár, bæta við tenglum og skrifa athugasemdir á  **viðhengis**  -flipanum í  **FACTBOX**  rúðunni. Talan í titli flipans gefur til kynna hversu margar viðhengdar skrár, tenglar eða athugasemdir eru til fyrir spjaldið eða skjalið.
 
@@ -26,7 +26,7 @@ Einnig er hægt að bæta viðhengjum við tölvupóstinn sem sendur er úr [!IN
 >
 > Þegar aðgerðin Sækja móttökulínur  **er notuð**  á innkaupareikning er viðhenginu á tengdri innkaupapöntun bætt við innkaupareikning.
 
-## Til að hengja skrá við innkaupareikning
+## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Til að hengja skrá við innkaupareikning
 
 Hægt er að tengja hvaða tegund af skrá fyrir sig, til dæmis texta, mynd eða myndskrár, á spjald, fylgiskjal eða í línu í skjali. Þetta er til dæmis gagnlegt þegar óskað er eftir að vista reikning lánardrottins sem PDF-skrá á tengdum innkaupareikningi í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -49,14 +49,14 @@ Eftirfarandi ferli byggist á innkaupareikningur. Skrefin eru svipuð fyrir öll
 
 Skráin er nú hengd við innkaupareikninginn.
 
-## Til að skoða viðhengda skrá
+## <a name="to-view-an-attached-file"></a>Til að skoða viðhengda skrá
 
 1. Á upplýsingakassa er flipinn viðhengi  **opnaður** .
 2. Veljið gildið fyrir aftan reitinn **Skjöl**, eins og „1“.
 3. Á síðunni **Viðhengd fylgiskjöl** skaltu velja aðgerðina **Forskoðun**.
 4. Opnaðu skrána sem var hlaðið niður.
 
-## Vista skjal sem PDF-viðhengi
+## <a name="to-save-a-document-as-a-pdf-attachment"></a>Vista skjal sem PDF-viðhengi
 
 Í hvert sinn sem vista þarf skjal sem skrá er hægt að nota aðgerðina **Hengja við sem PDF** til að ná í núverandi innihald skjals sem PDF-skrá hengda við FactBox skjalsins. Þetta er gagnlegt, til dæmis þegar skjöl fylgja mörgum skrefum í ferli, svo sem söluferli eða samþykktarverkflæði og ætlunin er að vísa til útprentunar af fyrra skrefi.
 
@@ -67,7 +67,7 @@ Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll studd
 
 PDF-skrá með núverandi innihaldi sölupöntunarinnar er bætt við flipann **Viðhengi** í FactBox.
 
-## Til að bæta við tengli af birgðaspjaldi
+## <a name="to-add-a-link-from-an-item-card"></a>Til að bæta við tengli af birgðaspjaldi
 
 Hægt er að bæta við tengli af korti eða skjali á einhverja vefslóð. Þetta er gagnlegt, til dæmis þegar tengja á birgðaspjald við vörulista birgis.
 
@@ -85,7 +85,7 @@ Eftirfarandi aðferð er byggð á birgðaspjaldi. Skrefin eru svipuð fyrir öl
 
 Tengillinn er nú tengdur við birgðaspjaldið.  
 
-## Til að skrifa athugasemd á sölupöntun
+## <a name="to-write-a-note-on-a-sales-order"></a>Til að skrifa athugasemd á sölupöntun
 
 Hægt er að skrifa athugasemd á skjal eða kort, til dæmis til að skrifa sérstakar leiðbeiningar fyrir aðra notendur skjalsins eða kortsins. Hægt er að hafa skráartengla og vefslóðir með í athugasemdum.
 
@@ -102,7 +102,7 @@ Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnu
 
 Athugasemdin er nú hengd við sölupöntunina.
 
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  
