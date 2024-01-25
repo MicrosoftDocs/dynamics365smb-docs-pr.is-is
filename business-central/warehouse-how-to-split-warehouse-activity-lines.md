@@ -4,13 +4,13 @@ description: Frekari upplýsingar um hvernig á að skipta vöruhúsaaðgerðal�
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 9314, 9313, 9315, 9330'
 ---
-# <a name="split-warehouse-activity-lines"></a>Skipta aðgerðalínum vöruhúss
+# Skipta aðgerðalínum vöruhúss
 
 Í frágangi vöruhúsa, hreyfinga eða tínslu og í frágangi í birgðum og birgðum er hólf lagt fyrir tiltekt eða frágang vara. Magnið sem er í raun í hólfinu sem lagt er til er ekki nægilegt eða ekki er pláss í hólfinu til að ganga frá tilskilinn magni. Í þessum tilfellum er hægt að skipta línunni þannig að vörur einnar línu séu teknar úr eða settar í fleiri en eitt hólf.  
 
@@ -23,7 +23,7 @@ Eftirfarandi ferli á við eftirfarandi vöruhúsaskjöl:
 * Birgðahreyfingar
 * Birgðatínslur  
 
-## <a name="to-split-warehouse-activity-lines"></a>Til að skipta vöruhúsaaðgerðalínum
+## Til að skipta vöruhúsaaðgerðalínum  
 
 1. Opna vöruhúsaaðgerðalínu þar sem þú ert að reyna að meðhöndla ófullnægjandi magn.  
 2.  **Í reitinn Magn til afgreiðslu**  er fært niður lækkað magn sem hægt er að meðhöndla.  
@@ -33,7 +33,7 @@ Eftirfarandi ferli á við eftirfarandi vöruhúsaskjöl:
 > [!NOTE]  
 > Ef ef notaður er beinn frágangur og tínsla og línunum er skipt þarf notandinn að hafa þekkingu á vöruhúsinu og geta valið hólf sem hentar geymsluþörfum vörunnar og sem uppfyllir almennar kröfur í vöruhúsaskjalinu. Til dæmis, ekki er hægt að skipta línu í tínsluskjali og setja nokkur atriði í magngeymslu.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Yfirlit](design-details-warehouse-management.md)
 [vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  

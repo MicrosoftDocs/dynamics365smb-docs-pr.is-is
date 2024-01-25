@@ -4,13 +4,13 @@ description: Fræðast um flutning á vörum milli hólfa í vöruhúsinu.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: Conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Færa vörur
+# Færa vörur
 
 Hægt er að færa vörur í vöruhúsinu á mismunandi hátt eftir því hvernig vöruhúsið hefur verið samskipað. Flækjan getur verið breytileg:
 
@@ -36,7 +36,7 @@ Talningar, leiðréttingar og endurflokkun geta falið í sér vöruhúsaverk se
 |Nota vöruhúsahreyfingablaðið, innanhússtínslu og frágang til að flytja vörur í ítarlegar vöruhúsaskilgreiningar með beinar tínslu og frágang.|[Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum og hugsanlega færa þau á milli.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)  
 [Birgðir](inventory-manage-inventory.md)  

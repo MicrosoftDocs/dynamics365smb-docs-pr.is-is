@@ -4,14 +4,14 @@ description: Lærðu að selja vöru sem er sett saman til að panta.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
 ms.search.keywords: 'kit, kitting, substitute items'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="sell-items-assembled-to-order"></a>Selja hluti sem eru settir saman í pöntun
+# Selja hluti sem eru settir saman í pöntun
 
 Vörur sem settar eru upp fyrir samsetningum eru ekki væntanlegar í birgðum og verða settar saman þegar þær eru hafðar með í sölupöntun. Vara er sett upp fyrir saman til-pöntunar þegar  **reiturinn Samsetningarregla**  á birgðaspjaldinu  **er settur saman við pöntun**. Þegar varan er færð inn á sölupöntunarlínu er samsetningarpöntun stofnuð sjálfkrafa og hún tengd við sölupöntunina.  
 
@@ -28,7 +28,7 @@ Vörur sem settar eru upp fyrir samsetningum eru ekki væntanlegar í birgðum o
 > [!NOTE]  
 > Í eftirfarandi ferli eru ekki skrefin til að stofna staðlaða sölupöntun sem gerist fyrir skrefið þar sem fært er inn sölupöntunarvöruna í sölupöntunarlínu. Frekari upplýsingar um stofnun sölupantana í  [selja vörur með sölupöntun viðskiptavinar](sales-how-sell-products.md).  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Til að selja vöru sem er sett saman í pöntun
+## Til að selja vöru sem er sett saman í pöntun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Stofnið sölupöntun. 
@@ -60,7 +60,7 @@ Vörur sem settar eru upp fyrir samsetningum eru ekki væntanlegar í birgðum o
 > [!NOTE]  
 > Staðgengur vöru skipta ekki sjálfkrafa um vöru með aðra vöru, til dæmis þegar sölupöntun er stofnuð eða í UPPSKRIFT. Þess í stað færðu viðvörun að því gefnu að staðgengilslíkur sé fyrir hendi.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  

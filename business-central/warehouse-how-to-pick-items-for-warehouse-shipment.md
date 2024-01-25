@@ -4,13 +4,13 @@ description: Lærðu um notkun vöruhúsatínslugagna til að búa til og vinna 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Tína vörur fyrir vöruhúsaafhendingu
+# Tína vörur fyrir vöruhúsaafhendingu
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] velur þú og sendir vörur með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
 
@@ -39,11 +39,11 @@ Frekari upplýsingar á [Útleið vöruhúsaflæði](design-details-outbound-war
 >  
 > Til að læra meira um að velja íhluti fyrir samsetningarpantanir, þar á meðal aðstæður þar sem samsetningarvörur tengjast ekki sölusendingu, farðu á [Veldu fyrir framleiðslu, samsetningu eða störf í háþróuðum vöruhúsastillingum](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Athugaðu hvort hlutir séu tiltækir til að tína
+## Athugaðu hvort hlutir séu tiltækir til að tína
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Til að búa til tínsluskjöl í lausu með tínsluvinnublaðinu
+## Til að búa til tínsluskjöl í lausu með tínsluvinnublaðinu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað tínslu** og velja síðan viðkomandi tengil.  
 
@@ -93,7 +93,7 @@ Frekari upplýsingar á [Útleið vöruhúsaflæði](design-details-outbound-war
 
 8. Velja **Í lagi**. [!INCLUDE [prod_short](includes/prod_short.md)] mun búa til valið í samræmi við val þitt.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Til að velja vörur fyrir vöruhússendingu
+## Til að velja vörur fyrir vöruhússendingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsatínslur** og velja síðan viðkomandi tengil.  
 
@@ -115,7 +115,7 @@ Frekari upplýsingar á [Útleið vöruhúsaflæði](design-details-outbound-war
 
 Þú getur nú komið með vörurnar á sendingarbryggjuna og sent sendinguna, þar á meðal tengda upprunaskjalið, á **Vöruhúsasending**  síðu. Frekari upplýsingar á [Skipahlutir](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 - [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 - [Stjórna birgðum](inventory-manage-inventory.md)  

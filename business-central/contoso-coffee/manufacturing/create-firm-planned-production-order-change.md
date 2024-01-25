@@ -3,22 +3,22 @@ title: Stofna fasta fyrirhugaða framleiðslupöntun og breyta henni
 description: Kynning fyrir framleiðslustjóra hjá Contoso Coffee sem vill stofna fastáætlaða framleiðslupöntun og síðan breyta henni.
 ms.date: 12/12/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Umsögn: Búðu til fasta fyrirhugaða framleiðslupöntun og breyttu henni
+# Umsögn: Búðu til fasta fyrirhugaða framleiðslupöntun og breyttu henni
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee til að vinna með framleiðslupantanir.  
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður
 
 Eduardo, framleiðslustjóri hjá Contoso Coffee, verður að stofna nýja framleiðslupöntun fyrir 10 einingar af vörunni **SP-SCM1009, Airpot** sem þarf að afhenda 28. apríl. Eduardo tímasetur þetta afturábak og staðfestir að þeir geti hafið pöntunina 27. apríl.  
 
 Stuttu eftir að hafa lokið þessu verkefni er Eduardo beðinn um að auka pöntunina í 50 einingar. Þegar þetta er gert, ýtir afturábak tímasetningarvirkninni við upphafsdegi pöntunar of snemma. Þannig að Eduardo áætlar pöntunina frá 23. apríl til að ákvarða raunhæfari lokadagsetningu.  
 
-## <a name="steps"></a>Skref
+## Skref
 
 1. Stofnaðu upphaflegu framleiðslupöntunina fyrir 10 einingum af vörunni **SP-SCM1009, Airpot**.
 
@@ -58,6 +58,6 @@ Stuttu eftir að hafa lokið þessu verkefni er Eduardo beðinn um að auka pön
 
 Nýja framleiðslupöntunin er nú sett upp og kröfur Eduardo eru uppfylltar.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning á Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

@@ -2,13 +2,13 @@
 title: Vinna úr hlutaafhendingum
 description: Hægt er að vinna úr afhendingu sölupantana í Business Central með hlutaafhendingum með því að nota reitina „Ráðlegging um sendingu“ og „Magn til afhendingar“.
 author: brentholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, trade, customer sales order'
 ms.date: 08/12/2022
 ms.author: bholtorf
 ---
-# <a name="process-partial-shipments"></a>Vinna úr hlutaafhendingum
+# Vinna úr hlutaafhendingum
 
 Í hlutaafhendingu er pöntun ekki send öll í einu. Til dæmis þegar 40 einingar af 100 eininga pöntun eru afhentar strax og 60 einingar síðar. Engar takmarkanir eru á fjölda afhendinga fyrir hverja pöntun.
 
@@ -18,7 +18,7 @@ ms.author: bholtorf
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Selja vörur með sölupöntun viðskiptavinar](sales-how-sell-products.md)  
 [Senda vörur](warehouse-how-ship-items.md)  

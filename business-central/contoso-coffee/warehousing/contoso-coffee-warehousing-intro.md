@@ -3,13 +3,13 @@ title: Kynning á Contoso kaffi
 description: Yfirlit yfir aðstæður fyrir hvernig Contoso Coffee kynningargögn geta hjálpað þér að læra hvernig á að nota vörugeymslumöguleikana í Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: 4764
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Kynning á Contoso kaffigeymslu
+# Kynning á Contoso kaffigeymslu
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki.  **Contoso Coffee** öppin fyrir Business Central bæta við kynningargögnum sem þú getur notað til að læra hvernig á að nota vörugeymslumöguleikana í Business Central. Þú getur stillt vöruhúseiginleika á ýmsa vegu, sjá [Yfirlit yfir mismunandi stillingarvalkosti](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,7 +27,7 @@ Forritið býður upp á þrjár staðsetningar sem eru fínstilltar fyrir mismu
 
   Þessi staðsetning notar háþróaða vöruhúsastillingu með beint frágangi og vali, sem gerir ítarlegri reglur um hvernig hlutir flytjast um vöruhús.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Settu upp Contoso Coffee Warehousing gögn
+## Settu upp Contoso Coffee Warehousing gögn
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -50,7 +50,7 @@ Forritið býður upp á þrjár staðsetningar sem eru fínstilltar fyrir mismu
 > [!IMPORTANT]
 > Ef þú ert að keyra sviðsmyndirnar gætirðu viljað staðfesta að notandanum þínum hafi verið bætt við eins og á völdum stöðum. Fyrir frekari upplýsingar, sjá [Setja upp starfsmenn í vöruhúsum](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Dæmi
+## Dæmi
 
 Sýningargögn Contoso Coffee vörugeymsla styðja eins og er eftirfarandi aðstæður fyrir próf og þjálfun:
 
@@ -60,7 +60,7 @@ Sýningargögn Contoso Coffee vörugeymsla styðja eins og er eftirfarandi aðst
 
 Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning birgða](../../inventory-setup-inventory.md) 
 [Hvernig á að setja upp staðsetningar](../../inventory-how-setup-locations.md) 

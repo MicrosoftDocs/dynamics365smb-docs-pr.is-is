@@ -4,29 +4,29 @@ description: Lærðu að skilgreina umhverfi innanhúss til að samstilla tengil
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-op
 ms.topic: how-to
 ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a>Setja upp tengilið samkeyrslu við Outlook sem er í Innanhússmiðstöð
+# Setja upp tengilið samkeyrslu við Outlook sem er í Innanhússmiðstöð
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Í þessari grein er hægt að læra hvernig setja á upp  [!INCLUDE[prod_short](includes/prod_short.md)]  innanhúss til að samstilla tengiliði í  [!INCLUDE[prod_short](includes/prod_short.md)]  við tengiliði í Outlook. Nánari upplýsingar um aðgerðina er að leita í til að  [Samstilla tengiliði í Viðskiptamiðinu við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 
-## <a name="introduction"></a>Kynning
+## Kynning
 
 Samstilling tengiliða krefst þess að nota OAuth 2,0 samskiptareglurnar fyrir sannvottun með Exchange Online. Áður hafði grunnsannvottun einnig verið studd, en hún verið fyrst og ekki studd lengur Exchange Online. Hægt er að lesa nánar um afskráð hjá  [sviptingu grunnskírteinis í Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). Þessi breyting þýðir að Samstilling tengiliða í Viðskiptamiðinu getur hafa hætt að virka í umhverfi innanhúss. Í þessari grein verður útskýrt hvernig á að fá það að virka aftur.
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
 - Exchange Online, annað hvort með sjálfstæðri útgáfu eða með  Microsoft 365  áætlun  
 - Aðgangur að  Microsoft Entra  leigjanda notaður af Exchange Online
 - [!INCLUDE[prod_short](includes/prod_short.md)] notendur hafa með sér  Microsoft 365  eða  Exchange Online  email reikning, sem er úthlutað reikningum í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að haka í þessa stillingu í  **Microsoft 365  hlutanum sannvottun**  á notandaforstillingu á  **listanum yfir notendur** . 
 
-## <a name="set-up-contact-sync"></a>Setja upp samkeyrslu tengiliðar
+## Setja upp samkeyrslu tengiliðar
 
 Ljúkið eftirfarandi skrefum til að setja upp tengiliðsamkeyrslu. Ef þú ert að keyra  [!INCLUDE[prod_short](includes/prod_short.md)]  vorið 2019 (v. 14) þá þarftu að gera aukaskref sem annað hvort breytir forritskóða eða setur upp tengingu við Power BI.
 
@@ -61,6 +61,6 @@ Ljúkið eftirfarandi skrefum til að setja upp tengiliðsamkeyrslu. Ef þú ert
 
    Eftir að lausnin sem þú velur er á sínum stað biðjum við notendur um annað hvort keyra nýju/Breyttu síðuna eða  [tengjast við Power BI](across-working-with-powerbi.md#connect). Þeir þurfa því aðeins að gera þetta skref einu sinni.
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
 [Samstilla tengiliði í Aðalmiðinu við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)  

@@ -6,7 +6,7 @@ metadata:
   title: Microsoft Dynamics 365 Business Central fylgiskjöl
   description: 'Business Central er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki. Það tengir sölu, þjónustu, fjármál og aðgerðir á snjallari, hraðari og betri hátt. Business Central sjálfvirknivæðir og straumlínulagar viðskiptaferla og auðveldar rekstur fyrirtækisins.'
   ms.topic: hub-page
-  ms.service: dynamics365-business-central
+  ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
   ms.date: 06/16/2023

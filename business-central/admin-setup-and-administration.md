@@ -4,12 +4,12 @@ description: Sumir verkhlutar í Business Central krefjast miðlægrar stjórnun
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 01/11/2023
 ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Verkefni stjórnenda
+# Verkefni stjórnenda
 
 Almenn stjórnunarverk eru yfirleitt framkvæmd af einu hlutverki innan fyrirtækisins. Umfang þessara verka getur byggst á stærð fyrirtækisins og starfsábyrgð stjórnandans. Þessi verk geta falið í sér umsjón með gagnagrunnssamstillingu verkraða og póstraða, uppsetningu notenda og sérstillingu viðmóts.  
 
@@ -43,7 +43,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Tengdu Dynamics 365 Sales við [!INCLUDE[prod_short](includes/prod_short.md)] til að fá hnökralausa samþættingu milli viðskiptavinatengsla og úrvinnslu pantana í heildarferlinu.|[Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Breyta hvaða reiti og aðgerðir eru sýndar í notandaviðmótinu til að passa viðskiptaferlum fyrirtækisins og víkka út lausnina með forritum.|[Sérstilla [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Stjórnun í stjórnendamiðstöðinni
+## Stjórnun í stjórnendamiðstöðinni
 
 Innri og úthlutaðir stjórnendur hafa aðgang að stjórnendamiðstöðinni [!INCLUDE [prod_short](includes/prod_short.md)] þar sem þeir geta stillt, fylgst með og úrræðaleitað [!INCLUDE [prod_short](includes/prod_short.md)] umhverfi. Eftirfarandi tafla lýsir nokkrum lykilverkum með tenglum í greinar þar sem þeim er lýst.  
 
@@ -54,7 +54,7 @@ Innri og úthlutaðir stjórnendur hafa aðgang að stjórnendamiðstöðinni [!
 |Stjórna notandalotum, þar á meðal að hætta við lotu ef lokað er á notandann.|[Stjórna lotum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Skilgreina leigjanda til að senda fjarmælingargögn til Azure Application Insights til að fá betri greiningu og úrræðaleit.|[Virkja sendingu fjarmælingar til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Viðskiptavirkni](across-business-functionality.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  

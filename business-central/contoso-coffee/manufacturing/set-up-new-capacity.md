@@ -3,20 +3,20 @@ title: Setja upp nýja getu
 description: Kynning um hvernig á að setja upp nýja vinnustöð með dagatali afkastagetu fyrir eina vakt í Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-new-capacity"></a>Kynning: Setja upp nýja afkastagetu
+# Kynning: Setja upp nýja afkastagetu
 
 Í þessari grein förum við í gegnum skrefin um hvernig á að nota sýnigögn Contoso Coffee til að stjórna afkastagetu.  
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Til að bregðast við breytingum á gólfi vinnusalar verður að setja upp nýja vinnustöð, prófunardeild. Nýja vinnustöðin er með eina vélastöð, prófun. Nýju stöðvarnar verða að vera með dagatal afkastagetu fyrir eina vakt frá 08:00 til 16:00, mánudaga til föstudaga.  
 
-## <a name="steps"></a>Skref
+## Skref
 
 1. Setja upp vinnustöðina.
 
@@ -84,6 +84,6 @@ ms.author: bholtorf
 
 Á síðunni **Dagatalsfærslur** eru daglegar færslur afkastagetu í reitnum **Afkastageta (alls)** fyrir 480 mínútur. Þetta samsvarar einni átta tíma vakt fyrir hvern vinnudag. Einnig sýnir reiturinn **Afkastageta (virk)** 432 mínútur. Þetta stendur fyrir 90 prósent skilvirknihlutfallið sem þú úthlutaðir vélastöðinni.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning á contoso kaffi sýnigögnum](../contoso-coffee-intro.md)  

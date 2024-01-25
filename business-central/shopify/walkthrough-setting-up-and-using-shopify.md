@@ -3,20 +3,20 @@ title: Setja upp og nota  Shopify  tengibúnað
 description: Ýmsar samþættingaráætlanir fyrir Sýna verkflæði á milli  Shopify  og rekstur seðla-
 ms.date: 06/21/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: '30101, 30102, 30106, 30107, 30113, 30115, 30126'
 ms.reviewer: solsen
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Walkthrough: setja upp og nota  Shopify  tengibúnað
+# Walkthrough: setja upp og nota  Shopify  tengibúnað
 
 Þessi hluti sýnir nokkrar dæmigerðar aðstæður og tekur þú í gegnum skrefin til að prófa eða þjálfa notendur í verkflæði samþættingar  [!INCLUDE[prod_short](../includes/prod_short.md)]  og  Shopify  verslunar.
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Þú verður að vera með:
 
@@ -25,13 +25,13 @@ ms.author: bholtorf
 
 Frekari upplýsingar um hvernig á að stofna  Shopify  rannsóknir og ráðlagðar stillingar við  [stofnun og uppsetningu  Shopify  lykils](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 Það þarf að vera  [!INCLUDE[prod_short](../includes/prod_short.md)]  með lykil. 
 
 Til dæmis er hægt að stofna prufureikning eða hefja réttarhöld. Lærðu meira á  [að undirbúa Sýnisumhverfi af  Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment)  og  [skrá sig til prufu](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Tengja Viðskiptamiðað  Shopify  við verkstæðið
+## Tengja Viðskiptamiðað  Shopify  við verkstæðið
 
 Í  [!INCLUDE[prod_short](../includes/prod_short.md)], gerið eftirfarandi skref:
 
@@ -62,13 +62,13 @@ Samskipa vörpun staðsetningarlagningar:
 4. Kveikja á  **sjálfgefinni staðsetningu staðsetningar**  afurðar.
 5. Veljið  *áætlaða stöðu í dag*  í  **reitnum Útreikningur**  á hlutabréfum til að virkja samstillingu á birgðum fyrir valinn  Shopify  stað.
 
-## <a name="walkthrough-start-selling-products-online"></a>Walkthrough: Byrjaðu að selja vörur á netinu
+## Walkthrough: Byrjaðu að selja vörur á netinu
 
-### <a name="scenario"></a>Aðstæður
+### Aðstæður
 
 Segjum sem svo að þú viljir reyna  Shopify  við netverslun án þess að eyða miklum tíma í að setja upp hluti, sérstaklega vegna þess að þú ert þegar að viðhalda vörunum þínum á  [!INCLUDE[prod_short](../includes/prod_short.md)]  réttan hátt. Eftir að þú hefur ræst  Shopify  vefverslunina færðu strax nýja viðskiptavini sem eru ánægðir með verkstæðin og þeirra kaupreynslu. Geta þeir þá ákveðið að fara eftir ábendingum hjá afgreiðslufólk.
 
-### <a name="steps"></a>Skref
+### Skref
 
 Í  [!INCLUDE[prod_short](../includes/prod_short.md)]  farið í gegnum eftirtalda liði:
 
@@ -130,13 +130,13 @@ Nú eru Efnisleg og fjárhagsleg gögn skráð í [!INCLUDE[prod_short](../inclu
 
 Í  **Shopify  tilkynningu stjórnun**  að pöntunin sé nú merkt sem  *uppfyllum*. Einnig er hægt að fara yfir sendingarupplýsingar og sjá Rakningarslóðina þar. Ef keyrðar  **eru Samstillingarpantanir frá  Shopify**  aftur verður pöntunin skjöluð í báðum kerfum.
 
-## <a name="walkthrough-invite-your-customers-to-your-new-online-store"></a>Walkthrough: Bjóddu viðskiptavinum þínum upp á nýja netverslun
+## Walkthrough: Bjóddu viðskiptavinum þínum upp á nýja netverslun
 
-### <a name="scenario-1"></a>Aðstæður
+### Aðstæður
 
 Eftir árangursríka flýtiræsingu í nýju netversluninni er óskað eftir að núverandi viðskiptavinir þínir geti heimsótt hana og byrjað að setja inn pantanir.
 
-### <a name="steps-1"></a>Skref
+### Skref
 
 Í  [!INCLUDE[prod_short](../includes/prod_short.md)], gerið eftirfarandi skref:
 
@@ -146,13 +146,13 @@ Eftir árangursríka flýtiræsingu í nýju netversluninni er óskað eftir að
 
 Í  **Shopify  tilkynningu frá kerfisstjóra**  um að viðskiptavinirnir væru fluttir inn. Opnaðu einn viðskiptavinanna og Taktu eftir því að fyrsta og Síðasta heiti viðskiptamannsins kemur úr  **reitnum Heiti**  tengiliðar á  **viðskiptamannaspjaldinu**. Heiti fyrirtækisins má finna í sjálfgefna aðsetrinu sem tengt er viðskiptavininum. Velja  **skal senda reikning**  til að bjóða viðskiptavininum.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Walkfrom: Fine Tuning the Item Management
+## Walkfrom: Fine Tuning the Item Management
 
-### <a name="scenario-2"></a>Aðstæður
+### Aðstæður 
 
 Þú vilt bæta meiri sveigjanleika og stýra ferlum í kringum vörustjórnun. Þú vilt bæta vörulýsingu og vilt bæta við endurskoðunarleiðbeiningum áður en afurðir verða tiltækar til að ljúka viðskiptavini.
 
-### <a name="steps-2"></a>Skref
+### Skref
 
 Í  [!INCLUDE[prod_short](../includes/prod_short.md)], gerið eftirfarandi skref:
 
@@ -239,19 +239,19 @@ Taka skal eftir að birgðaskrá fyrir Ráðstefnutöflu ANTWERP er 100, þar se
 
  **Shopify Í netverslun**  Opna vörulistans er að finna  *Athens Desk*   Product. Takið eftir að mismunandi valkostir eru í boði. Fyrir mismunandi valkosti eru mismunandi verð. Greiða skal athygli á afsláttarupplýsingum.
 
-## <a name="walkthrough-import-items-from-shopify"></a>Walkthrough: flytja inn vörur úr Shopify
+## Walkthrough: flytja inn vörur úr Shopify
 
-### <a name="scenario-3"></a>Aðstæður
+### Aðstæður 
 
 Þú átt nú þegar vel heppnaða netverslun og langar að byrja að nota  [!INCLUDE[prod_short](../includes/prod_short.md)]  sem Business Management hugbúnað. Þú vilt flytja inn eins mikið af  Shopify  gögnum og hægt er. 
 
-### <a name="steps-3"></a>Skref
+### Skref
 
 Þetta er framhald af walkof  [: Byrjaðu að selja vörur á netinu](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Þú getur líka prófað með þínum eigin gögnum, til dæmis þinni  Shopify  verslun eða sandkassa.
 
 Í  [!INCLUDE[prod_short](../includes/prod_short.md)], gerið eftirfarandi skref:
 
-#### <a name="prepare-data"></a>Undirbúa gögn
+#### Undirbúa gögn
 
 1. Skiptu yfir í ókeypis 30 daga prufutíma án sýnigagna. Frekari upplýsingar er að finna  [í bæta eigin gögnum við tóma prufu](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **Shopify  verslanir** og veljið síðan tengda tengilinn.
@@ -270,7 +270,7 @@ Skilgreinið  Shopify  verkstæðið eins og lýst er hér á eftir í næstu sk
 12. Velja  *alla viðskiptamenn*  sem  **flytja inn viðskiptavin úr Shopify**.
 13. Gera sjálfvirka stofna Óþekkt viðskiptavini  **skipta út** .
 
-#### <a name="run-the-synchronization"></a>Keyra samstillingu
+#### Keyra samstillingu
 
 1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Verslanir** og veldu viðeigandi tengil.
 2.  *DEMO2*  -verslunin sem samstilla á gögn fyrir er valin til að opna  **Shopify  síðu verkstæðiskortsins** .
@@ -278,7 +278,7 @@ Skilgreinið  Shopify  verkstæðið eins og lýst er hér á eftir í næstu sk
 4. Veldu aðgerðina **Samstilla myndir af vörum**.
 5. Veldu aðgerðina **Samstilla viðskiptamenn**.
 
-### <a name="results"></a>Niðurstöður
+### Niðurstöður
 
 * Shopify Vörur eru fluttar inn. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Shopify Vörur** og veldu viðeigandi tengil.
 * Vörur með myndum eru búnar til. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **atriði** og veljið tengdan tengil.
@@ -286,6 +286,6 @@ Skilgreinið  Shopify  verkstæðið eins og lýst er hér á eftir í næstu sk
 * Viðskiptamenn eru stofnaðir. Til að sannprófa skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **viðskiptamenn** og veljið tengdan tengil.
 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Byrjaðu með  Shopify  tengiflugi](get-started.md)  

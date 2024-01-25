@@ -4,21 +4,21 @@ description: Upplýsingar um mismunandi leiðir til að setja upp prentara sem �
 author: jswymer
 ms.topic: how-to
 ms.reviewer: na
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.search.keywords: 'online printing, email printing, cloud printing, Universal Print'
 ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="specify-a-default-printer"></a><a name="default"></a>Tilgreina sjálfgefinn prentara
+# <a name="default"></a> Tilgreina sjálfgefinn prentara  
 
 Eftir að prentarar hafa verið settir upp í Aðalsafni er hægt að tilgreina hvaða prentara á að nota að sjálfgefnu. Það eru nokkrar leiðir til að tilgreina að prentarar geti notað sjálfgefið fyrir skýrslur og önnur prentverk. Sjálfgefinn prentari er gagnlegur ef unnið er með mismunandi skýrslur sem krefjast mismunandi prentara vegna staðsetningar þeirra í fyrirtækinu eða útprentunarmöguleika.
 
 > [!IMPORTANT]
 > Einu prentararnir sem hægt er að tilgreina sem sjálfgildi eru  **Microsoft PRINT í PDF**  og Cloud prentarar sem þegar hafa verið settir upp til notkunar í viðskiptamiðinu, eins og email prentarar og Universal PRINT prentarar. Skýprentarar eru yfirleitt settir upp af admin. Nánari upplýsingar  [fást í uppsetningu prentara og í stjórnun](admin-printer-setup-overview.md).   
 
-## <a name="set-a-printer-as-a-default-printer-for-all-print-jobs"></a>Stilla prentara sem sjálfgefinn prentara fyrir öll prentverk
+## Stilla prentara sem sjálfgefinn prentara fyrir öll prentverk
 
 Á síðunni **Prentarastjórnun** er hægt að setja upp prentara sem sjálfgefinn prentara fyrir öll prentverk. Hægt er að tilgreina prentarann sem sjálfgefinn fyrir einn notanda eða alla notendur.
 
@@ -31,7 +31,7 @@ Eftir að prentarar hafa verið settir upp í Aðalsafni er hægt að tilgreina 
 > [!NOTE]
 > Ef sjálfgefnum prentari er stilltur í **Prentarastjórnun** verður færslu bætt við í **Prentaravalinu**.
 
-## <a name="set-a-default-printer-for-specific-reports"></a>Stilla sjálfgefinn prentara fyrir tilteknar skýrslur
+## Stilla sjálfgefinn prentara fyrir tilteknar skýrslur
 
 Síðan **Prentaraval** gerir kleift að tilgreina prentarann sem skýrsla notar að sjálfgefnu. Sjálfgefnir prentarar eru stilltir á grundvelli notandareiknings. Hægt er að stilla sjálfgefinn prentara fyrir eingöngu sjálfan sig, annan notanda eða alla notendur.
 
@@ -60,15 +60,15 @@ Tilgreind skýrsla er nú uppsett til prentunar í völdum sjálfgefnum prentara
 > [!NOTE]
 > Sértækara prentaraval hefur forgang fram yfir almennara prentaraval. Prentaraval sem hefur til dæmis gildi í reitunum **Notandakenni**, **Skýrslukenni** og **Prentaraheiti** hefur forgang fram yfir prentaraval sem er með auðar færslur í reitunum **Notandakenni** eða **Skýrslukenni**.
 
-## <a name="choosing-the-printer-when-running-a-report"></a>Val á prentara þegar skýrsla er keyrð
+## Val á prentara þegar skýrsla er keyrð
 
 Í stað þess að nota sjálfgefinn prentara þegar skýrsla er keyrð er hægt að hnekkja þessari stillingu af beiðnisíðunni. Veldu einfaldlega prentarann sem á að nota fyrir þessa skýrslugerð í fellivalmyndinni **Prentari**.
 
-## <a name="sizing-print-jobs"></a>Stærð prentverka stillt
+## Stærð prentverka stillt
 
 Skýjaprentun er hönnuð fyrir skjöl af hæfilegri stærð. Flestar skýjaþjónustur, þ.m.t. PrintNode og HP ePrint, eru með 10 MB hámark fyrir hvert verk. Ef þú þarft að prenta stærri skýrslur gætirðu þurft að skipta þeim í margar útprentanir.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Prentarastjórnun](admin-printer-setup-overview.md)  
 [Setja upp Universal PRINT prentarar](admin-printer-setup-universal-print.md)  

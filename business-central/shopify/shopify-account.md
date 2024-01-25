@@ -3,21 +3,21 @@ title: Stofna og setja upp  Shopify  lykil
 description: Lærðu að ná  Shopify  í reikning svo hægt sé að sýna fram á verkflæði fyrir samþættingu  Shopify  og rekstur Central.
 ms.date: 06/21/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: '30101, 30102'
 ms.reviewer: solsen
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="create-and-set-up-a-shopify-account"></a>Stofna og setja upp  Shopify  lykil
+# Stofna og setja upp  Shopify  lykil
 
 Ef miðað er við hvort nota  Shopify  eigi e-Commerce lausnina og þörf er  Shopify  á reikningi til að sannreyna samþætt verkflæði eru eftirfarandi valkostir:
 
 - Fá prufuútgáfu. Þetta er dæmigerður byrjunarstaður fyrir endónotendur.  
 - Stofna þróunarbúðir. Þessi nálgun er fyrir samstarfsaðila sem sinna endurteknum kynningum, lestraraðferðum og veita stuðning.
 
-## <a name="trial-end-user"></a>Próftími (notandi á enda)
+## Próftími (notandi á enda)
 
  [Shopify Farðu á vefsvæðið](https://www.shopify.com)  og Notaðu tölvupóstreikninginn þinn fyrir stjórnendareikninginn til að skrá þig í ókeypis prufutíma. Frekari upplýsingar um það hvernig eigi að stofna og sérsníða netverslun eru  [Shopify  í hjálparmiðstöðinni](https://help.shopify.com/).
 
@@ -36,7 +36,7 @@ Ef miðað er við hvort nota  Shopify  eigi e-Commerce lausnina og þörf er  S
 > [!Important]  
 > Til að forðast greiðslur skaltu muna að hætta  Shopify  réttarhöldin.
 
-## <a name="development-store"></a>Þróunarsjóður
+## Þróunarsjóður
 
 Byrjaðu á því að ganga frá  [Shopify  Félagakerfinu](https://help.shopify.com/partners/about). Eftirá skal nota  **Stjórnborð**  samstarfsaðila til að stofna þróunarverslunina. Frekari upplýsingar um  [stofnun þróunarstofnunar](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -53,7 +53,7 @@ Byrjaðu á því að ganga frá  [Shopify  Félagakerfinu](https://help.shopify
 > [!Note]  
 > Þróunarbúðir eru yfirleitt lykilorð varin. Þegar þú reynir að opna tiltekna síðu í netverslun frá  [!INCLUDE [prod_short](../includes/prod_short.md)] t.d. til að fara í ákveðna vöru eða pöntun þarftu að slá inn lykilorðið þitt. Meðan þú ert að prófa, til að forðast að slá inn aðgangsorðið þitt, Skráðu þig inn í  Shopify  admin og Opnaðu verslunina þína þaðan. Þú þarft ekki að færa inn Store aðgangsorðið fyrr en þú lokar vafranum þínum eða setrið rennur út.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Byrjaðu með  Shopify  tengiflugi](get-started.md)  
 [Walkthrough: Uppsetning og notkun  Shopify  tengibúnaðar](walkthrough-setting-up-and-using-shopify.md)
