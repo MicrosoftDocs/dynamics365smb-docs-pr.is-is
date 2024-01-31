@@ -3,14 +3,13 @@ title: 'Vinna með Kynning: Rekja rað- og lotunúmer'
 description: Þetta efnisatriði lýsir aðgerðunum sem þarf að grípa til til að koma í veg fyrir að selja gallaða vöru og einnig hvernig á að rekja og endurkalla vörur þegar þess gerist þörf.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-tracing-seriallot-numbers"></a>Kynning: Rað-/lotunúmerarakning
+# Kynning: Rað-/lotunúmerarakning
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -20,7 +19,7 @@ Fyrsti verkhluti gallastjórnunar er að rannsaka hvaðan gölluðu vörurnar ko
 
 Næsta verk gallastjórnunar er að ákvarða hvort röktu vörunum hefur verið ráðstafað í opnum skjölum, svo sem sölupöntunum sem eftir á að bóka eða notkunarbókum. Þessi vinna er framkvæmd á síðunni **Finna færslur**. Hægt er að nota eiginleikann Leita að færslum til að leita að alls kyns færslum í gagnagrunni.  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna
+## Um kynninguna
 
 Þessi kynning sýnir hvernig greina á hvaða vörur eru gallaðar, frá hvaða lánadrottni þær komu og hvar þær eru notaðar svo hægt sé að stöðva eða innkalla pantanirnar.  
 
@@ -30,7 +29,7 @@ Næsta verk gallastjórnunar er að ákvarða hvort röktu vörunum hefur verið
 - Rekja uppruna til notkunar  
 - Leita að öllum skrám sem innihalda rakta rað-/lotunúmerið.  
 
-## <a name="roles"></a>Hlutverk
+## Hlutverk
 
 Þessi kynning sýnir þau verk sem framkvæmd eru með eftirfarandi hlutverkum notenda:  
 
@@ -39,14 +38,14 @@ Næsta verk gallastjórnunar er að ákvarða hvort röktu vörunum hefur verið
 - Pantanavinnsla  
 - Innkaupaaðili  
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
 Til að ljúka þessari kynningu þarf:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] Fyrirtækið.  
 <!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Ferill
+## Ferill
 
 Gæðastjórinn Ríkharður er að sinna söluvöruskilum á vöru 1002, kappaksturshjóli. Viðskiptamaðurinn, Selangorian hf., kvartaði undan gallaðri logsuðu á grindinni. Verkfræðingar í gæðastjórnun hafa staðfest að grindin á hjólinu sem skilað var sé gölluð. Gæðastjórinn þarf nú að ákvarða:  
 
@@ -59,7 +58,7 @@ Niðurstöður þessarar fyrstu vörurakningar sýna hvaða grindur voru gallað
 
 Tvö fyrstu gallastjórnunarverkin eru framkvæmd á síðunni **Vörurakning**. Síðasta verkið er framkvæmt á síðunni **Leita að færslum** í samþættingu við gluggann **Vörurakning**.  
 
-## <a name="prepare-sample-data"></a>Undirbúa sýnigögn
+## Undirbúa sýnigögn
 
 Stofna þarf eftirfarandi nýjar vörur:  
 
@@ -68,7 +67,7 @@ Stofna þarf eftirfarandi nýjar vörur:
 
 Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með vörunum tveimur.  
 
-### <a name="to-create-the-items"></a>Þjónustuvörur stofnaðar:
+### Þjónustuvörur stofnaðar:  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -105,7 +104,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     Næst skal kaupa grindur frá Custom Metals incorporated.  
 
-### <a name="to-purchase-components"></a>Til að kaupa íhluti
+### Til að kaupa íhluti
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -136,7 +135,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     Næst skal framleiða tvö kappaksturshjól, RAÐ1 og RAÐ2.  
 
-### <a name="to-produce-end-items"></a>Til að framleiða lokavörur
+### Til að framleiða lokavörur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Losaðar framleiðslupantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** flokkur.  
@@ -183,7 +182,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     Næst skal selja kappaksturshjól. Selja fyrst kappaksturshjólið SN1 til Selangorian hf.  
 
-### <a name="to-sell-the-end-items"></a>Til að selja lokavörurnar
+### Til að selja lokavörurnar
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2.  Velja aðgerðina **Nýtt**, og síðan stofna sölupöntun með því að fylla í eftirfarandi reiti.  
@@ -223,11 +222,11 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     Hér með lýkur undirbúningi gagna fyrir sýnikennslu fyrir eiginleikana Vörurakningu og Leit að færslum.  
 
-## <a name="tracing-from-usage-to-origin"></a>Rekja frá notkun til uppruna
+## Rekja frá notkun til uppruna
 
  Gæðastjórinn hefur þær upplýsingar frá söludeildinni að kappaksturshjólið sem skilað var, vara 1002, hafði raðnúmerið RAÐ1. Með því að nota þessar grunnupplýsingar geta þeir ákvarðað hvar lokið Racing reiðhjól var síðast notað, í þessu tilviki, á sölusendingunni til Selangorian ehf. Síðan þarf hann að rekja slóð þess aftur að elsta upprunastaðnum til að komast að því úr hvaða lotu gallaða grindin kom og frá hvaða lánadrottni.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Til að komast að því hvaða lota innihélt gölluðu grindina og hvaðan hún kom
+### Til að komast að því hvaða lota innihélt gölluðu grindina og hvaðan hún kom
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörurakning** og velja síðan viðkomandi tengil.  
 2.  Á síðunni **Vörurakning** er **RAÐ1** fært inn í reitinn **Raðnr.** og **1002** inn í reitinn **Birgðaafmörkun**.  
@@ -254,13 +253,13 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
      Svona lýkur fyrsta gallastjórnunarverkinu á síðunni **Vörurakning**. Gæðastjórinn þarf nú að ákvarða hvort önnur bókuð skjöl hafa unnið með grindur úr LOTA1.  
 
-## <a name="tracing-from-origin-to-usage"></a>Rekja frá uppruna til notkunar
+## Rekja frá uppruna til notkunar
 
  Gæðastjórinn hefur komist að því að gölluðu grindurnar komu úr LOTA1. Þeir verða nú að finna önnur kynþokkafult hjól sem innihalda Racing ramma úr gallabuxnum mikið þannig að þau hjól megi stoppa eða muna.  
 
  Ein leið til að undirbúa þetta rakningarfærsluverk á síðunni **Vörurakning** er að færa inn handvirkt LOTA1 í reitinn **Lotunr. - Afmörkun** og 2000 í reitinn **Vöruafmörkun**. Hins vegar verður aðgerðin **Rekja gagnstætt - frá línu** notuð í þessari kynningu.  
 
-### <a name="to-find-all-usage-of-the-faulty-lot"></a>Til að finna alla notkun á gölluðu lotunni
+### Til að finna alla notkun á gölluðu lotunni  
 
 1.  Á síðunni **Vörurakning** skal velja línu innkaupakvittunarinnar, síðustu rakningarlínuna, og velja svo **Rekja andstætt - frá línu**.  
 
@@ -278,11 +277,11 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     Svona lýkur öðru gallastjórnunarverkinu sem notar síðuna **Vörurakning** fyrir gallastjórnun. Þar sem síðan **Vörurakning** byggir einungis á bókuðum færslum þarf gæðastjórinn að halda áfram í gluggann **Leit að færslum** til að tryggja að LOTA1 sé ekki notuð í óbókuðum skjölum.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Finna allar skrár rað-/lotunúmers
+## Finna allar skrár rað-/lotunúmers
 
  Á síðunni **Vörurakning** komst gæðastjórinn að því að LOTA1 innhélt gölluðu grindurnar, frá hvaða lánadrottni þær komu og í hvaða bókuðu færslum þær voru notaðar. Þeir verða nú að ákvarða hvort LOT1 sé í opnum skjölum með því að samþætta í kjölfarið við  **finna færslur**  síðan þær geta framkvæmt leit í gegnum allar gagnagrunnsfærslur.  
 
-### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Til að finna öll tilfelli LOTA1 í skrám sem eftir á að bóka, svo sem opnum pöntunum
+### Til að finna öll tilfelli LOTA1 í skrám sem eftir á að bóka, svo sem opnum pöntunum  
 
 1.  Á síðunni **Vörurakning** skal velja bendilinn í fyrstu rakningarlínunni, innkaupakvittun LOTA1.  
 2.  Veljið aðgerðina **Leita að færslum**.  
@@ -297,7 +296,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
  Hér með lýkur kynningunni á hvernig síðan **Leita að færslum** er notuð við gallastjórnun í samþættingu við síðuna **Vörurakning**.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
 [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  

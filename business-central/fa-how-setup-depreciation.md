@@ -6,9 +6,10 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-fixed-asset-depreciation"></a>Setja upp eignaafskriftir
+# Setja upp eignaafskriftir
 
 Hægt er að nota ýmsar afskriftaaðferðir vegna reikningsskila og skattframtals. Mörg stórfyrirtæki nota beinlínuafskriftir í reikningsskilum vegna þess að með þeim er yfirleitt hægt að tilgreina hærri tekjur. Vegna tekjuskatts nota þó mörg fyrirtæki hraðari afskriftaaðferð á borð við hlutfallslega afskrift. Afskriftaraðferð eignar er tilgreind með svæðinu **Afskriftaraðferð** á síðunni **Eignaspjald**. Frekari upplýsingar um hvað mismunandi aðferðir gera eru í [Afskriftaaðferðir](fa-depreciation-methods.md).
 
@@ -16,7 +17,7 @@ Afskriftabækur eru settar upp þar sem eru skilgreindar mismunandi leiðir til 
 
 Þegar stofnaðar hafa verið viðeigandi afskriftabækur verður að tengja eina eða fleiri afskriftabækur við hverja eign. Afskriftabók sem úthlutað er á eign er vísað til sem afskriftabók eigna. Setja má upp ótakmarkaðan fjölda afskriftabóka fyrir eign.  
 
-## <a name="to-create-a-depreciation-book"></a>Stofna afskriftabók
+## Stofna afskriftabók
 
 Í eignaafskriftabók er tilgreint hvernig eignir eru afskrifaðar. Ef gera á ráð fyrir margvíslegum afskriftaaðferðum má setja upp margar afskriftabækur.  
 
@@ -34,7 +35,7 @@ Afskriftabækur eru settar upp þar sem eru skilgreindar mismunandi leiðir til 
 
 Ef þú til dæmis losar þig við eign þar sem afskriftabókin tilgreinir ekki sléttun en fjárhagsuppsetning fyrirtækisins krefst sléttunar, þá þegar þú losar þig við eignina muntu sjá villuboð um að upphæð verði að vera sléttuð í fjárhagsfærslu.  
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Úthluta afskriftabók á eign.
+## Úthluta afskriftabók á eign.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
 2. Valin er eignin sem setja á upp eignaafskriftabók fyrir.
@@ -48,7 +49,7 @@ Ef þú til dæmis losar þig við eign þar sem afskriftabókin tilgreinir ekki
     > [!NOTE]  
     > Þegar afskriftaaðferðin sem skilgreind er af notanda er notuð þarf að úthluta afskriftabókinni á annan hátt. Frekari upplýsingar er að finna í [Setja upp afskriftaaðferð sem skilgreind er af notanda](fa-how-setup-user-defined-depreciation-method.md).
 
-## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Til að tengja afskriftabók við margar eignir með keyrslu
+## Til að tengja afskriftabók við margar eignir með keyrslu
 
 Ef tengja á afskriftabók við nokkrar eignir er hægt að keyra **Stofna eignaafskriftabækur** runuvinnsluna til að stofna eignaafskriftabækur.  
 
@@ -62,7 +63,7 @@ Ef tengja á afskriftabók við nokkrar eignir er hægt að keyra **Stofna eigna
 6. Á flýtiflipanum **Eign** er hægt að setja afmörkun til að velja eignirnar sem á að stofna eignaafskriftabók fyrir.
 7. Velja hnappinn **Í lagi**.
 
-## <a name="to-set-up-depreciation-posting-types"></a>Uppsetning bókunartegundir afskrifta:
+## Uppsetning bókunartegundir afskrifta:
 
 Fyrir hverja afskriftabók þarf að stilla hvernig [!INCLUDE[prod_short](includes/prod_short.md)] á að meðhöndla ýmsar bókunartegundir. Til dæmis hvort bókun eigi að vera í debet eða kredit og hvort taka eigi bókunartegund með í afskriftargrunni.  
 
@@ -75,7 +76,7 @@ Fyrir hverja afskriftabók þarf að stilla hvernig [!INCLUDE[prod_short](includ
 
 Sterklega er mælt með því að uppsetningunni fyrir afskriftarbækur sem búið er að bóka í sé ekki breytt. Breytingarnar hafa ekki áhrif á færslur sem þegar er búið að bóka og sem myndu gera tölfræðigögn afskriftarbókarinnar óáreiðanleg.
 
-## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Uppsetning Sjálfgefinna sniðmáta og -keyrslna fyrir afskriftir eigna.
+## Uppsetning Sjálfgefinna sniðmáta og -keyrslna fyrir afskriftir eigna.
 
 Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverja afskriftabók. Þú notar þessi sjálfgildi til að afrita línur úr einni bók í aðra, búa til færslubókarlínur með því að keyra **Reikna afskrift** eða **Vísitala eigna** runuvinnslurnar, afrita kaupverð í vátryggingabókina.  
 
@@ -84,13 +85,13 @@ Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverj
 3. Ef sjálfgefin uppsetning á að vera fyrir hvern notanda skal velja reitinn **Kenni notanda** til að velja af síðunni **Notendur**.  
 4. Í öðrum reitum er valið er sniðmát færslubókar eða bókarkeyrslu sem nota verður sjálfgefið.  
 
-## <a name="fiscal-year-365-days-field-depreciation"></a>Afskriftareiturinn 365 daga reikningsár
+## Afskriftareiturinn 365 daga reikningsár
 
 Þegar keyrslan Reikna afskriftir reiknar afskriftir notar hún yfirleitt staðlað 360 daga ár þar sem hver mánuður er 30 dagar.
 
 Ef þessi reitur er valinn eru afskriftir reiknaðar samkvæmt 365 daga ári, hver mánuður er reiknaður með sama dagafjölda og á almanaki. Undantekning er febrúar á hlaupári, sem verður 28 daga en ekki 29. Vegna þessa verða öll ár 365 dagar, líka hlaupár.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning eigna](fa-setup.md)  
 [Eignir](fa-manage.md)  

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Á söluskjölum og færslubókum er hægt að tilgreina fylgiskjalsnúmer sem vísar til númerakerfis lánardrottins. <!--You can enter a maximum of ten characters, both numbers and letters.--> Notaðu þennan reit til að skrá númerið sem viðskiptavinurinn úthlutaði pöntuninni, reikningnum eða kreditreikningnum. Síðar má nota númerið ef af einhverjum ástæðum þarf að leita að bókaðri færslu með þessu númeri.  

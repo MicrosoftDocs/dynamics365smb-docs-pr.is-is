@@ -3,15 +3,14 @@ title: Reglufylgni þjónustu og þjónustustigssamningur
 description: Hvað þjónustuhliðina varðar uppfyllir Business Central strangar kröfur og reglufylgni við þjónustustigssamninga í ýmsum ISO-vottunum og vottunum sem tengjast atvinnugreininni.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
 ms.date: 06/14/2021
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
-# <a name="service-compliance"></a>Reglufylgni þjónustu
+# Reglufylgni þjónustu
 
 Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)] á netinu  
 
@@ -21,11 +20,11 @@ Finndu ítarlegan lista yfir [Framboð á reglufylgni í skýi fyrir Business Ce
 
 Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Microsoft skaltu skoða [Öryggismiðstöð Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>þjónustuskilmála
+## þjónustuskilmála
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Reglufylgni](compliance-overview.md)  
 [Reglufylgni forrits](compliance-application-compliance.md)  

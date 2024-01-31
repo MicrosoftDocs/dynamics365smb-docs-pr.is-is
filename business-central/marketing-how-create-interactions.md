@@ -9,14 +9,15 @@ ms.date: 12/13/2023
 ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Búðu til samskipti við tengiliði og hluti
+# Búðu til samskipti við tengiliði og hluti
 
 Þú getur búið til samskipti til að fylgjast með samskiptum sem þú átt við einn tengilið eða við marga tengiliði í hlutunum þínum. Til að gera það auðvelt að búa til samskipti, [!INCLUDE [prod_short](includes/prod_short.md)] veitir **Create Interaction** uppsetningarleiðbeiningar með aðstoð. Handbókin hjálpar þér að fanga mikilvægar upplýsingar um samskiptin.
 
 Áður en þú býrð til samskipti verður þú að setja upp samskiptasniðmát. Til að læra meira um samskiptasniðmát skaltu fara í [Setja upp samskiptasniðmát](marketing-interactions.md).
 
-## <a name="to-create-an-interaction-with-a-contact"></a>Til að búa til samskipti við tengilið
+## Til að búa til samskipti við tengilið
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Tengiliðir**, **Sölumaður** eða **Samskiptaskrárfærsla** og veldu síðan tengda tengilinn.
 2. Valið er **Stofna samskipti** aðgerð.
@@ -25,7 +26,7 @@ ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 > [!NOTE]  
 > Ef þú þarft að hætta áður en þú hefur lokið samskiptum geturðu valið **Hætta við** og síðan tilgreint hvort þú viljir vista stillingarnar þínar svo þú getir haldið áfram síðar. Til að læra meira um frestað samskipti skaltu fara á [Til að klára að setja upp frestað samskipti](#to-finish-setting-up-a-postponed-interaction).
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Til að stofna samskipti á hluta.
+## Til að stofna samskipti á hluta.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Hlutar** og velja síðan viðkomandi tengil.
 2. Valið er **Stofna samskipti** aðgerð.
@@ -40,12 +41,12 @@ ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 
 Samskipti eru skráð fyrir hvern tengilið í hlutanum í töflunni **samskiptaskráningarfærsla** og hlutinn er skráður. Skráðir hlutar eru fáanlegir á  **Logged Segment** síðunni.
 
-## <a name="to-finish-setting-up-a-postponed-interaction"></a>Til að klára að setja upp frestað samskipti
+## Til að klára að setja upp frestað samskipti
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Frestað samskipti** og veldu síðan tengda hlekkinn.
 2. Veldu samskiptin sem þú vilt ljúka og veldu síðan aðgerðina **Resume** .
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samskipti skráð](marketing-interactions.md)  
 [Vinna með tengiliði](marketing-contacts.md)  

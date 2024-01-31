@@ -1,5 +1,5 @@
 ---
-title: Stofna og viðhalda tengiliðum fyrirtækis
+title: Búðu til og stjórnaðu tengiliðum fyrirtækisins
 description: 'Settir eru upp sem tengiliðir allir ytri aðilar sem fyrirtækið hefur viðskiptatengsl við (til dæmis viðföng, viðskiptamenn, lánadrottnar og ráðgjafar).'
 author: brentholtorf
 ms.topic: conceptual
@@ -8,16 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
-ms.date: 04/01/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-contacts"></a>Vinna með tengiliði
 
-Starfsmenn í fyrirtækinu þínu komast reglulega í kynni við væntanleg viðskiptatengsl sem geta þróast yfir í formleg samskipti. Allir slíkir ytri tengiliðir og ítarlegar upplýsingar þeirra ættu að vera skráðar í kerfið svo að samskiptin verði árangursríkari og svo auðvelt sé að breyta þeim í formleg samskipti við viðskiptavin, lánardrottin eða banka.
+# Stjórna tengiliðum
+
+Starfsmenn í fyrirtækinu þínu hitta reglulega væntanleg viðskiptatengsl sem gætu þróast í formleg tengsl. Allir slíkir ytri tengiliðir og ítarlegar upplýsingar þeirra ættu að vera skráðar í kerfið svo að samskiptin verði árangursríkari og svo auðvelt sé að breyta þeim í formleg samskipti við viðskiptavin, lánardrottin eða banka.
 
 Notið listann **Tengiliðir** til að hafa umsjón með tengiliðum. Þaðan er hægt að stofna tækifæri og vinna með önnur samskipti við einstaka tengiliði. Einnig er hægt að skoða talnagögn um tengiliði og hægt er að opna ýmsar skýrslur. Frekari upplýsingar um hvernig á að finna réttan tengilið í listanum er að finna í [Röðun, leit, og síun](ui-enter-criteria-filters.md).  
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
+Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
 | Til | Sjá |
 | --- | --- |
@@ -26,7 +28,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn.|[Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)|
 |Leystu misskilning þegar tvær eða fleiri færslur eru fyrir sama tengilið.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  

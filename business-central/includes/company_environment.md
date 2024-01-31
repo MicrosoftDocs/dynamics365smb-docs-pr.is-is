@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 [!INCLUDE[prod_short](prod_short.md)] notendur styðja stundum meira en eina deild eða undirfyrirtæki innan viðskiptaeiningar. Til dæmis gæti fyrirtæki verið með söluskrifstofur í mismunandi borgum og mörgum löndum/svæðum svo það hafi stofnað aðskildar fyrirtækiseiningar fyrir hverja skrifstofu. Skrifstofur sem eru í sama landi/svæði eru settar upp sem aðskilin  *fyrirtæki*  í sameiginlegu  *umhverfi*. Aðrar Skrifstofur eru stofnaðar sem fyrirtæki í aðskildu umhverfi þar sem þær eru landfræðilega byggðar í öðrum löndum/svæðum.
 

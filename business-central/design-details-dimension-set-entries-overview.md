@@ -9,11 +9,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="dimension-set-entries-overview"></a>Yfirlit yfir víddasamstæðufærslur
+# Yfirlit yfir víddasamstæðufærslur
 Í þessu efnisatriði er lýst hvernig víddasamstæðufærslur eru geymdar og bókaðar í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="dimension-sets"></a>Víddasamstæður
+## Víddasamstæður  
 Víddasamstæða er sérstök samsetning víddargilda. Er vistað sem víddasamstæðufærslur í gagnagrunninum. Hver víddasamstæðufærsla stendur fyrir eitt víddargildi. Víddasamstæðan er auðkennd með algengum víddasamstæðukennum sem eru úthlutuð hverri víddasamstæðufærslu sem tilheyrir víddasamstæðunni.  
 
 Eftirfarandi dæmi sýnir víddasamstæðu sem hefur þrjár víddasamstæðufærslur. Víddasamstæðan er auðkennd með víddasamstæðukenni, sem er 108.  
@@ -24,7 +25,7 @@ Eftirfarandi dæmi sýnir víddasamstæðu sem hefur þrjár víddasamstæðufæ
 |108|ATVGRHÓPUR|HOME|Heimili|  
 |108|DEILD|SALA|Sala|  
 
-## <a name="dimension-set-entries"></a>Víddasamstæðufærslur
+## Víddasamstæðufærslur  
 Víddasamstæður eru geymdar í töflunni **Víddasamstæðufærsla** sem víddasamstæðufærslur með sama víddasamstæðukenni.  
 
 ![Flæði víddasamstæðufærslna.](media/dimensionentrynav7.png "Flæði víddasamstæðufærslna")  
@@ -33,13 +34,13 @@ Víddasamstæður eru geymdar í töflunni **Víddasamstæðufærsla** sem vídd
 
 Þegar síðunni **Breyta Víddasamstæðufærslum** er breytt og lokað er gerð athugun til að sjá hvort samsetning víddargildanna sé til sem víddasafn í töflunni. Ef samsetningin kemur fyrir í töflunni er samsvarandi víddasamstæðukenni tengt við færslubókarlínuna, fylgiskjalshausinn eða fylgiskjalslínuna. Annars er nýrri víddasamstæðu bætt við töfluna og henni hennar bætt við línu færslubókar, haus fylgiskjals eða línu fylgiskjals.
 
-## <a name="codeunit-408-dimension-management"></a>Codeunit 408 víddarstjórnun
+## Codeunit 408 víddarstjórnun
 Codeunit 408, Víddastjórnun, er aðgerðasafn sem sér um algeng verkefni sem tengjast víddum, m.a. afritun úr einni töflu í aðra eða úr einu skjali í annað.
 
-## <a name="performance-improvement"></a>Bætt afköst
+## Bætt afköst  
 Með því að vista víddasamstæður einu sinni í gagnagrunni, er gagnagrunnsbilinu haldið við og heildarafköst eru bætt.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   
 [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   
 [Hönnunarupplýsingar: Færslur víddarsamstæða](/dynamics365/business-central/design-details-dimension-set-entries-overview)   

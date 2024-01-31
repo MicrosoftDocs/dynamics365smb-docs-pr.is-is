@@ -8,9 +8,10 @@ ms.topic: conceptual
 ms.search.keywords: null
 ms.date: 12/13/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Veldu fyrir framleiðslu, samsetningu eða störf í háþróaðri vöruhúsastillingum
+# Veldu fyrir framleiðslu, samsetningu eða störf í háþróaðri vöruhúsastillingum
 
 Hvernig þú velur íhluti fyrir framleiðslu, verk eða samsetningarpantanir fer eftir því hvernig vöruhúsið þitt er sett upp sem staðsetning. Lærðu meira á [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
@@ -31,7 +32,7 @@ Til að tína eða færa íhluti fyrir upprunaskjöl á uppdráttarhátt verður
 |Samsetningarpöntun|Breyta stöðu í Útgefið.|
 |Verk | Breyttu stöðu í Opið eða búðu til starf með stöðu Opið strax.|  
 
-## <a name="production"></a>Framleiðsla
+## Framleiðsla
 
 Notaðu **Warehouse Pick** skjöl til að tína framleiðsluíhluti í flæði til framleiðslu.
 
@@ -40,13 +41,13 @@ Fyrir staðsetningu sem notar hólfa til að færa vörur í opna búðargólf, 
 * Fyrir staðsetningu sem notar beint frágang og tínslu skaltu fylgja skrefunum í [Færa hluti í háþróuðum vöruhúsastillingum](warehouse-how-to-move-items-in-advanced-warehousing.md) greininni.
 * Fyrir aðrar staðsetningar skaltu fylgja skrefunum í [Færa hluti innbyrðis í grunnstillingum vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) greinarinnar.
 
-## <a name="assembly"></a>Samsetning
+## Samsetning  
 
 Notaðu **Warehouse Pick** skjöl til að færa samsetningaríhluti á samsetningarsvæðið.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] styður gerðir af samsetningarflæði til að setja saman á lager og setja saman eftir pöntun. Til að fá frekari upplýsingar um samsetningu eftir pöntun í vöruhúsaflæði á útleið, farðu í [Meðhöndlun á samsetningu eftir pöntun í vöruhúsasendingum](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Verkefnastjórnun
+## Verkefnastjórnun  
 
 Notaðu **Warehouse Pick** skjöl til að velja verkþætti í flæðinu til verkefnastjórnunar.
 
@@ -55,11 +56,11 @@ Notaðu **Warehouse Pick** skjöl til að velja verkþætti í flæðinu til ver
 >
 > Störf styðja ekki háþróaðar stillingar þar sem kveikt er á **Bein vali og frágangi** rofi.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Athugaðu hvort hlutir séu tiltækir til að tína
+## Athugaðu hvort hlutir séu tiltækir til að tína
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Til að búa til tínsluskjöl í lausu með tínsluvinnublaðinu
+## Til að búa til tínsluskjöl í lausu með tínsluvinnublaðinu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað tínslu** og velja síðan viðkomandi tengil.  
 
@@ -112,7 +113,7 @@ Notaðu **Warehouse Pick** skjöl til að velja verkþætti í flæðinu til ver
 
 8. Velja hnappinn **Í lagi**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Til að velja vörur fyrir framleiðslupöntun, samsetningarpöntun, verk
+## Til að velja vörur fyrir framleiðslupöntun, samsetningarpöntun, verk
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tínslur** og velja síðan viðkomandi tengil.  
 
@@ -140,7 +141,7 @@ Notaðu **Warehouse Pick** skjöl til að velja verkþætti í flæðinu til ver
     * [Sameina vörur](assembly-how-to-assemble-items.md)
     * [Skrá neyslu eða notkun fyrir verk](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Skola framleiðsluíhluti í háþróaðri vöruhúsauppsetningu
+## Skola framleiðsluíhluti í háþróaðri vöruhúsauppsetningu
 
 Skolaaðferðir hafa áhrif á flæði íhluta í framleiðslu. Lærðu meira á [Skolunaríhlutir samkvæmt aðgerðaútgangi](production-how-to-flush-components-according-to-operation-output.md). Það fer eftir völdum skolunaraðferð, þú getur valið íhluti til framleiðslu á eftirfarandi hátt:
 
@@ -148,7 +149,7 @@ Skolaaðferðir hafa áhrif á flæði íhluta í framleiðslu. Lærðu meira á
 * Notaðu **Vöruhúsval** skjal til að skrá valið fyrir vörur sem nota **Velja + Áfram**, **Velja + afturábak** skolunaraðferð. Neysla íhlutanna á sér stað sjálfkrafa annað hvort þegar þú breytir stöðu framleiðslupöntunarinnar eða með því að hefja eða ljúka aðgerð. Allir nauðsynlegir íhlutir verða að vera tiltækir. Annars, að bóka tæmd neyslustöðvun fyrir þann íhlut.
 * Notaðu **Warehouse Movement** skjal án tilvísunar í upprunaskjal eða aðrar leiðir til að skrá hreyfingu á íhlutum sem nota **Forward** eða **Afturábak** skoðaaðferð. Íhlutir eru sjálfkrafa notaðir annað hvort þegar þú breytir um stöðu framleiðslupöntunar eða byrjar eða lýkur aðgerð. Allir nauðsynlegir íhlutir verða að vera tiltækir. Að öðrum kosti hættir bókun á skolaðri notkun fyrir þann íhlut. Frekari upplýsingar eru á [Flyttu atriði](warehouse-move-items.md).
 
-### <a name="example"></a>Dæmi
+### Dæmi
 
 Þú ert með framleiðslupöntun fyrir 15 PCS af vörunni SP-SCM1004. Sum atriðanna á íhlutalistanum verður að skola handvirkt í neysludagbók. Hægt er að velja og skola aðra hluti sjálfkrafa með því að nota **Pick + Backward** skolaaðferðina.  
 
@@ -171,7 +172,7 @@ Eftirfarandi mynd sýnir þegar reiturinn **Hólfkóti** á efnisþáttalista er
 
 :::image type="content" source="media/binflow.png" alt-text="Yfirlit yfir hvenær og hvernig reiturinn Hólfkóði er fylltur út.":::
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 - [Stjórna birgðum](inventory-manage-inventory.md)  
 - [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  

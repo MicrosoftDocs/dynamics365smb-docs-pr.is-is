@@ -3,15 +3,14 @@ title: Yfirlit yfir VSK-stjórn
 description: Lærðu að stjórna VSK með neðangreindum upplýsingum og fjármunum.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
-# <a name="vat-management-overview"></a>Yfirlit yfir VSK-stjórn
+# Yfirlit yfir VSK-stjórn
 Virðisaukandi skattur (VSK) er óbeinn skattur á neyslu vöru og þjónustu. VSK er levnaði á hverju stigi aðfangakeðjunnar þar sem virði er bætt úr upphaflegu framleiðslunni á sölustað. Til að byrja með VSK-stjórnun er að finna eftirfarandi efnisatriði.  
 
 |  Grein  |  Heimildasamstæða  |  
@@ -29,7 +28,7 @@ Virðisaukandi skattur (VSK) er óbeinn skattur á neyslu vöru og þjónustu. V
 | [Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md) | Í þessari grein er útskýrt hvernig nota á miðlæga villuleit fyrir VSK-númer fyrir tengiliði, viðskiptamenn og lánardrottna sem byggjast á villuleitarþjónustu EU VIES VSK.|
 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Fjármál](finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

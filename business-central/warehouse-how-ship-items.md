@@ -8,9 +8,10 @@ ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="ship-items-with-a-warehouse-shipment"></a>Senda vörur með vöruhúsaafhendingu
+# Senda vörur með vöruhúsaafhendingu
 
 Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru tínsla og sendingarvara notuð með einni af fjórum aðferðum eins og lýst er í eftirfarandi töflu.
 
@@ -37,7 +38,7 @@ Hægt er að stofna vöruhúsaafhendingu á tvennan hátt:
 * Á þrýstihátt, þegar vinna er unnin á pöntunargrunni.  **Velja afhendingaraðgerðina vöruhúsaafhendingu**  í upprunaskjalinu til að stofna vöruhúsaafhendingu fyrir skjalið.
 * Í togtísku, þar sem úttektaraðgerðin  **er notuð**  í upprunaskjalinu til að losa hana í vöruhúsið. Starfsmaður í vöruhúsi stofnar  **vöruhúsaafhendingu**  fyrir eitt eða mörg Útgefin upprunaskjöl. Eftirfarandi ferli lýsir því hvernig vöruhúsaafhending er stofnuð í togflutningtísku.
 
-## <a name="to-ship-items-using-a-warehouse-shipment-document"></a>Vörur sendingar með vöruhúsaafhendingarskjali
+## Vörur sendingar með vöruhúsaafhendingarskjali
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsaafhendingar**, velja síðan viðkomandi tengil.  
 2. Velja **Nýtt**.  
@@ -74,7 +75,7 @@ Hægt er að stofna vöruhúsaafhendingu á tvennan hátt:
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
+## Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
 
 Í vöruhúsaafhendingu er hægt að nota  **afmarkanirnar til að sækja Upprundocs.** síða til að sækja útgefnar upprunaskjalslínur sem skilgreina hvaða vörur á að senda.
 
@@ -90,14 +91,14 @@ Hægt er að stofna vöruhúsaafhendingu á tvennan hátt:
 
 Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Afmarkanir eru vistaðar á  **afmörkunum til að fá Upprunadoktor.** síðu og eru aðgengilegar næst þegar þörf er á þeim. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
 
-## <a name="zone-and-bin-codes"></a>Svæði og hólfakóta
+## Svæði og hólfakóta
 
 Ef hólfum er skylt á staðnum er  [!INCLUDE [prod_short](includes/prod_short.md)]  stungið upp á svæði og hólfakóta á vöruhúsaafhendingarskjalinu.
 
 * Fyrir ítarlegri afbrigði þar sem birgðageymslan notar beinan frágang og tínslu  [!INCLUDE [prod_short](includes/prod_short.md)]  notar hólfið sem er tilgreint í  **reitnum kóti**  afhendingarhólfs á  **birgðageymsluspjaldinu**.  **Ef kóti**  sendingarhólfs er ekki tilgreindur er reiturinn auður. Ef vöru-og afhendingarhólfið er  [!INCLUDE [prod_short](includes/prod_short.md)]  ekki í samræmi skilur afhendingarhólfið auð.
 * Í öðrum tilvikum þarf  [!INCLUDE [prod_short](includes/prod_short.md)]  alltaf að nota hólfið sem tilgreint er í  **reitnum**  **kóti**  afhendingarhólfs fyrst. Ef kóti sendingarhólfs er ekki tilgreindur  [!INCLUDE [prod_short](includes/prod_short.md)]  notar hólfakótinn úr upprunaskjalinu.
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Meðhöndlun íhluta pantanasamsetninga við vöruhúsaafhendingu
+## Meðhöndlun íhluta pantanasamsetninga við vöruhúsaafhendingu
 
 Í setja saman pöntunaraðstæður til að nota  **reitinn Magn til**  afhendingar í vöruhúsaafhendingarlínum til að skrá hversu margar einingar eru settar saman. Magnið er bókað sem samsetningarframleiðsla þegar vöruhúsaafhendingin er bókuð. Gildið í  **reitnum Magn til afhendingar**  er núll fyrir aðrar afhendingarlínur vöruhúss.
 
@@ -115,7 +116,7 @@ Eftir að vöruhúsaafhending hefur verið bókuð eru mismunandi svæði í sö
 >
 > Magn í samsetningum er afgreitt eins og lýst er í þessari grein. Birgðamagn er afgreitt sem venjuleg vöruhúsaafhendingarlína. Til að fræðast meira um samsetningu atburðarásar er farið í  [skilning á að setja saman og setja saman við birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  

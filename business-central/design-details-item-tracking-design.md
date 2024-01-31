@@ -3,14 +3,13 @@ title: Hönnunarupplýsingar - vörurakningarhönnun
 description: Þetta efnisatriði lýsir hönnuninni á bak við vörurakningu í Business Central eftir því sem hún þróast í gegnum vöruútgáfur.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-item-tracking-design"></a>Hönnunarupplýsingarn: vörurakning hönnun
+# Hönnunarupplýsingarn: vörurakning hönnun
 
 Vörurakning í [!INCLUDE[prod_short](includes/prod_short.md)] hófst á [!INCLUDE [navnow_md](includes/navnow_md.md)]. Vörurakningarvirknin er í aðskildri hlutaskipan með flóknum tenglum á bókuð skjöl og birgðafærslur og hún er samþætt við frátekningarkerfið sem sér um frátekningu, pöntunarrakningu og aðgerðarboð. Frekari upplýsingar er að finna í [Hönnunarupplýsingar: Pöntun, pöntunarrakning og aðgerðarboð](design-details-reservation-order-tracking-and-action-messaging.md) í hönnunarlýsingu framboðsáætlunar.  
 
@@ -33,7 +32,7 @@ Kóðaeining 22, **Birgðabók - Bókunarlína**, skiptir nú bókuninni samkvæ
 
 Nánari upplýsingar eru í [Upplýsingar um hönnun: Vörurakning bókunarskipulag](design-details-item-tracking-posting-structure.md)  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Hönnunarupplýsingar: Vörurakning](design-details-item-tracking.md)
 

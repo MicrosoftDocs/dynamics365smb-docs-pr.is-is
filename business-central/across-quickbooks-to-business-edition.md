@@ -3,17 +3,16 @@ title: Flytja gögn úr QuickBooks appi
 description: 'Hægt er að flytja gögn eins og viðskiptamenn, lánardrottna, birgðavörur og fjárhagsreikninga úr QuickBooks forritum í Business Central, Business Edition.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, import, migrate, data, transfer, QuickBooks, customize'
 ms.search.form: 1808
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Breyting úr QuickBooks appi í Dynamics 365 Business Central
+# Breyting úr QuickBooks appi í Dynamics 365 Business Central
 
 Fleiri vaxandi fyrirtæki eru að breytast úr fjármálaöppum eins og QuickBooks Desktop og QuickBooks Online, sem eru hönnuð fyrir sprotafyrirtæki og önnur lítil fyrirtæki, yfir í [!INCLUDE[prod_short](includes/prod_short.md)], sem styður einnig stærri, fleiri flóknar stofnanir. 
 
@@ -27,11 +26,11 @@ Til að fá nánari upplýsingar skaltu lesa um viðbótina sem hentar QuickBook
 * [QuickBooks Desktop gagnaflutningsviðbótin](ui-extensions-quickbooks-data-migration.md)
 * [QuickBooks Online gagnaflutningsviðbótin](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a>Tilbúið?
+## Tilbúið?
 
 Ef þú ert tilbúinn að byrja núna skaltu velja ![peruna sem opnar Segðu mér eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp** og velja síðan viðkomandi tengil. Veljið **Flytja viðskiptagögn** og fara síðan eftir skrefunum í leiðbeiningunum.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Sérstilling Business Central með viðbótum](ui-extensions.md)   

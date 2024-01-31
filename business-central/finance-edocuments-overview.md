@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir skjöl
-description: Í þessari grein er yfirlit yfir E-skjöl einingarinnar.
+title: Yfirlit yfir rafræn skjöl
+description: Þessi grein veitir yfirlit yfir E-Documents eininguna.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: na
@@ -8,31 +8,33 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: null
-ms.date: 10/10/2023
+ms.date: 01/16/2024
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="e-documents-overview"></a>Yfirlit yfir skjöl
+# Yfirlit yfir rafræn skjöl
 
-Rafræn skjöl (e-skjöl) eru bakbein nútíma viðskiptaviðskipta. Þeir enáttavita um lífsnauðsynleg skjöl, svo sem reikninga og kvittanir í báðar áttir (afhending og kvittun). Þeir bæta einnig við getu fyrir stöðu skjals – tengt skilaboð milli aðgangsstaða.
+Rafræn skjöl (rafræn skjöl) eru burðarás nútíma viðskiptaviðskipta. Þau innihalda mikilvæg skjöl, svo sem reikninga og kvittanir í báðar áttir (afhending og móttaka). Þeir bæta einnig við möguleika fyrir skjalastöðutengd skilaboð á milli aðgangsstaða.
 
-Skuldbinding okkar um að auka viðskiptaferla leiddi til þróunar á grunnbrjóti App sem er tileinkað e-skjölum í Microsoft Dynamics 365 Business Central. Þetta App virkar sem sterkur vettvangur fyrir skilvirka e-skjalastjórnun.
+Skuldbinding okkar til að efla viðskiptaferla þína leiddi til þróunar á tímamótaforriti sem er tileinkað rafrænum skjölum í Microsoft Dynamics 365 Business Central. Þetta app þjónar sem öflugur vettvangur fyrir skilvirka stjórnun rafrænna skjala.
 
 > [!NOTE]
-> Til að nota þessa möguleika skaltu setja upp E-Skjalacore App í appinu þínu.
+> Til að nota þessa möguleika skaltu setja upp E-Document Core appið í þínu umhverfi.  
 
-Hægt er að nota appið E-Document í löndum/svæðum þar sem fyrirtæki þurfa sérhæfða afgreiðslu á skjalavörslu til samræmis við staðbundnar reglugerðir. App veitir traustan grunn sem auðvelt er að víkja til að uppfylla tilteknar staðbundnar eða greinakröfur.
+Hægt er að nota E-Document appið í löndum/svæðum þar sem fyrirtæki krefjast sérhæfðrar meðhöndlunar rafrænna skjala til að uppfylla staðbundnar reglur. Forritið veitir traustan grunn sem auðvelt er að stækka til að mæta sérstökum staðbundnum eða iðnaðarkröfum.
 
-Í fylgiskjalinu er nánar fjallað um skjöl. Hún sýnir getu forritsins og sýnir hvernig það óaðfinnanlega aðlagast til að koma til móts við einstakar þarfir fyrirtækisins. Til að byrja með e-skjöl er að finna í eftirtöldum greinum.
+Skjölin útskýra rafræn skjöl í smáatriðum. Það sýnir getu appsins og sýnir hvernig það aðlagar sig óaðfinnanlega til að koma til móts við einstaka þarfir fyrirtækis þíns. Til að byrja með rafræn skjöl, sjá eftirfarandi greinar.
 
 | Grein | Heimildasamstæða | 
 |---------|-------------|
-| [Setja upp e-skjöl](finance-how-setup-edocuments.md) | Lærðu að setja upp virkni e-skjala, þar á meðal þjónustu, verkflæði, senda forstillingar og varðveislureglur. |
-| [Nota rafræn skjöl fyrir sölu og innkaup](finance-how-use-edocuments.md) | Lærðu að nota virkni e-skjala sem tengjast sölu-og innkaupareikningum, stöðum þeirra, annálum og aðgerðaboð.| 
-| [Framlengja virkni rafrænna skjala](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Lærðu að útvíkka virkni e-skjala með sértækum staðbundnum eða Greinandi kröfum með því að búa til fleiri forrit ofan á það eitt. |
-| [Rafræn gagnaskipti](across-data-exchange.md) | Lærðu að nota Gagnaskiptarammann til að hafa umsjón með skiptum á gögnum í viðskiptaskjölum, svo sem bankaskrám og gengi gjaldmiðla. | 
+| [Settu upp rafræn skjöl](finance-how-setup-edocuments.md) | Lærðu hvernig á að setja upp virkni rafrænna skjala, þar á meðal þjónustu, vinnuflæði, sendingarsnið og varðveislustefnur. |
+| [Nota rafræn skjöl við sölu og innkaup](finance-how-use-edocuments.md) | Lærðu hvernig á að nota rafræn skjöl virkni sem tengist sölu- og innkaupareikningum, stöðu þeirra, annálum og aðgerðaskilaboðum.| 
+| [Virkni rafrænna skjala aukin](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Lærðu hvernig á að auka virkni rafrænna skjala með sérstökum staðbundnum eða iðnaðarkröfum með því að búa til viðbótarforrit ofan á þetta. |
+| [Stilla tengi fyrir rafræn skjöl með ytri endastöðum](finance-how-setup-edocuments-external.md) | Lærðu hvernig á að nota ytri aðgangsstaði fyrir sjálfvirkni við afhendingu og móttöku rafrænna skjala. |
+| [Rafræn gagnaskipti](across-data-exchange.md) | Lærðu hvernig á að nota gagnaskiptaramma til að stjórna gagnaskiptum í viðskiptaskjölum eins og bankaskrám og gengi gjaldmiðla. | 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjármálastjórnun](finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

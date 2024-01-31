@@ -3,14 +3,13 @@ title: Stofna og vinna með samskipti við tengiliði
 description: Í Business Central eru allar gerðir af samskiptum milli fyrirtækis þíns og tengiliðanna. Lestu um leiðir til að stofna og hafa umsjón með tengiliðum þínum.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Umsjón með samskiptum við tengiliði
+# Umsjón með samskiptum við tengiliði
 Í [!INCLUDE[prod_short](includes/prod_short.md)] eru allar gerðir af samskiptum milli fyrirtækis þíns og tengiliðanna. Til dæmis geta samskipti verið með tölvupósti, bréfi, síma, fundum, o.s.frv.
 
 Hægt er að skrá öll samskipti við tengiliði svo að hægt sé að rekja sölu- og markaðssetningaraðgerðir sem beint hefur verið að tengiliðunum og bæta seinni tíma viðskiptatengsl við þá.

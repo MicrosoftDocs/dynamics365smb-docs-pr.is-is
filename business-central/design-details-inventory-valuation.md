@@ -1,16 +1,15 @@
 ---
-title: Hönnunarupplýsingar - Birgðavirði | Microsoft Docs
+title: Hönnunarupplýsingar - Birgðamat | Microsoft skjöl
 description: Birgðaverðmat er ákvörðun kostnaðar af birgðavöru.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/08/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-inventory-valuation"></a>Hönnunarupplýsingar: Birgðavirði
+# Hönnunarupplýsingar: Birgðamat
 Birgðaverðmat er ákvörðun kostnaðar sem er úthlutað til birgðavara, eins og lýst með eftirfarandi jöfnu.  
 
 Lokabirgðir = uppahafsbirgðir + nettóinnkaup – kostnaður seldra vara  
@@ -19,10 +18,10 @@ Lokabirgðir = uppahafsbirgðir + nettóinnkaup – kostnaður seldra vara
 
 Færslur eru jafnaðar hver við aðra, annaðhvort með fastri jöfnun eða samkvæmt almennri kostnaðarflæðisáætlun sem skilgreind er af kostnaðaraðferðinni. Ein færsla birgðaminnkunar getur verið jöfnuð við meira en eina aukningarfærslu með öðrum bókunardagsetningum og mögulega öðru kaupverði. Nánari upplýsingar eru í [Upplýsingar um hönnun: Vörujöfnun](design-details-item-application.md). Því byggir útreikningur á birgðavirði fyrir tiltekna dagsetningu á samantekt jákvæðra og neikvæðra virðisfærslna.  
 
-## <a name="inventory-valuation-report"></a>Birgðavirðisskýrsla
+## Birgðamatsskýrsla  
 Til að reikna út birgðavirði í **Birgðavirðisskýrslu** hefst skýrslan með því að reikna verðmæti birgðabreytinga atriðisins á tilteknu upphafsdag. Taflan bætir svo virði birgðaaukningar við og dregur frá virði birgðaminnkunar, upp að uppgefinni lokadagsetningu. Lokaniðurstaðan er birgðavirði á lokadag. Skýrslan reiknar þessi gildi út með því að reikna út samtölu gildanna í reitnum **Kostnaðarupphæð (raunverul)** í gildafærslunum, með því að nota bókunardagsetningar til að afmarka.  
 
-Prentaða skýrslan sýnir alltaf raunupphæðir, þ.e. verðgildi færslna sem hafa verið bókaðar sem reikningsfærðar. Í skýrslunni er einnig prentaður væntanlegur kostnaður fyrir færslur sem bókaðar eru sem mótteknar eða afhentar ef gátmerki er valið í reitnum Taka með væntanl. kostn. á flýtiflipanum Valkostir.  
+Prentaða skýrslan sýnir alltaf raunupphæðir, þ.e. verðgildi færslna sem hafa verið bókaðar sem reikningsfærðar. Einnig prentar skýrslan áætlaðan kostnað við færslur sem eru bókaðar sem mótteknar eða sendar, ef þú velur reitinn Taka með væntan kostnað á flýtiflipanum Valkostir.  
 
 > [!IMPORTANT]  
 >  Gildi í **Birgðavirði** skýrslu er afstemmt við Birgðareikninginn í fjárhag, sem þýðir að virðisfærslur sem um ræðir hafa verið bókaðar í fjárhag.  
@@ -30,7 +29,7 @@ Prentaða skýrslan sýnir alltaf raunupphæðir, þ.e. verðgildi færslna sem 
 > [!IMPORTANT]  
 >  Fjárhæðir í dálkunum **Virði** í skýrslunni eru byggðar á bókunardagsetningu færslna fyrir vöru.  
 
-## <a name="inventory-valuation---wip-report"></a>Birgðavirði - VÍV-skýrsla
+## Birgðamat - WIP skýrsla  
 Framleiðslufyrirtæki þarf að velja gildi fyrir þrenns konar birgðir:  
 
 * Hráefnisbirgðir  
@@ -43,15 +42,15 @@ Gildi VÍV-birgða er ákvarðar samkvæmt eftirfarandi jöfnu.
 
 Eins og fyrir keyptar birgðir eru virðisfærslur grunnur birgðamats. Útreikningur er gerður því að nota gildin í reitnum **Kostnaðarupphæð (raunverul.)** fyrir vöruna og afkastagildisfærslurnar sem tengjast framleiðslupöntun.  
 
-Tilgangurinn með VÍV-verðmati á birgðum er að ákvarða virði þeirra vara sem ekki eru enn fullunnar á tiltekinni dagsetningu. Því byggist VÍV-birgðavirðið á virðisfærslum tengdum notkun og færslum í afkastahöfuðbók. Fjárhagsfærslur um notkun verða að vera að fullu reikningsfærðar á dagsetningu fullgildingar. Því sýnir **Verðmæti birgða VÍV** skýrslan kostnaðinn sem endurspeglar VÍV-birgðavirðið í tveimur flokkum: notkun og afkastageta.  
+Tilgangur WIP birgðamats er að ákvarða verðmæti hlutanna sem ekki hefur enn verið lokið við framleiðslu á tiltekinni dagsetningu. Því byggist VÍV-birgðavirðið á virðisfærslum tengdum notkun og færslum í afkastahöfuðbók. Færslur í neyslubók verða að vera reikningsfærðar á dagsetningu verðmats. Því sýnir **Verðmæti birgða VÍV** skýrslan kostnaðinn sem endurspeglar VÍV-birgðavirðið í tveimur flokkum: notkun og afkastageta.  
 
-## <a name="see-also"></a>Sjá einnig
-[Hönnunarupplýsingar: afstemming í fjárhag](design-details-reconciliation-with-the-general-ledger.md)   
+## Sjá einnig .  
+[Hönnunarupplýsingar: afstemming í fjárhagur](design-details-reconciliation-with-the-general-ledger.md)   
 [Hönnunarupplýsingar: Endurmat](design-details-revaluation.md)   
-[Hönnunarupplýsingar: Bókun framleiðslupöntunar](design-details-production-order-posting.md)
-[Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
+[Hönnunarupplýsingar: staða framleiðslupöntunar](design-details-production-order-posting.md)  
+[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)    
 [Fjármál](finance.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

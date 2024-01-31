@@ -3,14 +3,13 @@ title: Vistaðu og sérsníddu listayfirlit
 description: 'Lærðu hvernig á að búa til þínar eigin skoðanir fyrir síaða lista og hvernig á að vista, endurnefna og stjórna þeim skoðunum.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: null
 ms.date: 11/02/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="save-and-personalize-list-views"></a>Vistaðu og sérsníddu listayfirlit
+# Vistaðu og sérsníddu listayfirlit
 
 Þegar þú setur síu á lista og vilt geyma síuna til síðari tíma geturðu vistað hana sem yfirlit. Frekari upplýsingar um síulista er að finna í [Síur stilltar á lista](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
@@ -18,7 +17,7 @@ Ef Yfirlit er til staðar, birtist flokkurinn **Yfirlit** efst í síuglugganum.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="to-save-a-view"></a>Til að vista yfirlit
+## Til að vista yfirlit
 
 1. Opnaðu hvaða listasíðu sem er.
 2. Veldu ![Afmörkunarsvæðistákn.](media/open-filter-pane-icon.png "Afmörkunarsvæðistákn") Efst á listanum eða veldu <kbd>Shift</kbd>+<kbd>F3</kbd> til að opna síurúðuna.
@@ -34,16 +33,16 @@ Ef þú gefur því ekki nafn heitir það **Allt (Afrita)**.
 > [!TIP]
 > Sérðu ekki táknið ![Vista yfirlit](media/save_view_icon.png "Vista yfirlit")? Frekari upplýsingar eru í [Hvers vegna sé ég ekki tákn til að vista](/dynamics365/business-central/ui-views-faq#save).
 
-## <a name="to-rename-or-remove-a-view"></a>Til að endurnefna eða fjarlægja yfirlit
+## Til að endurnefna eða fjarlægja yfirlit
 
 1. Fyrir yfirlitið sem sýnir listann eins og er skal velja táknið ![Sýna fleiri valkosti.](media/show-more-options-icon.png "Sýna fleiri valkosti") til að sjá hvaða valkostir eru í boði.
 2. Velja skal annaðhvort **Endurnefna** eða **Fjarlægja** aðgerðina.
 
-## <a name="managing-many-views"></a>Stjórnun margra yfirlita
+## Stjórnun margra yfirlita
 
 Eftir því sem fjöldi skoðana á síðu eykst gætirðu þurft meiri stjórn á því hvernig skoðanir eru birtar á síurúðunni. Þú getur notað borðann **Sérstilling** til að fela óæskileg yfirlit eða endurraðað yfirlitum þínum til að fá fullkomna röðina. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Algengar spurningar um listayfirlit](ui-views-faq.yml)  
 [Sérstilling verksvæðis](ui-personalization-user.md)    

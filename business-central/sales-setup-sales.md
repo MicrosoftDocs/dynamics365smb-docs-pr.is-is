@@ -3,15 +3,14 @@ title: Yfirlit yfir verkhluta grunnstillingar söluferla
 description: 'Yfirlit yfir verkefni sem þarf til að setja upp reglur og gildi sem skilgreina sölustefnur þínar og ferli, þar á meðal almenna uppsetningu og uppsetningu á fjárhagshlið sölu.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell, configure'
 ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-sales"></a>Uppsetning sölu
+# Uppsetning sölu
 
 Áður en hægt er að hefjast handa við að stýra söluferlum þarf að grunnstilla reglur og gildi sem ráða sölureglum fyrirtækisins.
 
@@ -35,7 +34,7 @@ Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er f
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 |Tilgreinið hvort notendum sé heimilt að bóka sölureikninga og hvort þeir verði að bóka þá ásamt sendingu. |[Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -3,15 +3,14 @@ title: Skoðaðu myndbandasafnið okkar
 description: Skoðaðu myndbandasafnið okkar til að fá aðstoð við að koma af stað myndböndum sem sýna algeng „hvernig á að“ verkefni til að tengja myndbönd við afurðir.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'video, library, how to'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/11/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="visit-our-video-library"></a>Skoðaðu myndbandasafnið okkar
+# Skoðaðu myndbandasafnið okkar
 
 Þú fannst fylgigögnin okkar. En sumir vilja frekar horfa á efni heldur en að lesa það. Í því skyni erum við að framleiða stutt, auðskiljanleg myndbönd. Flest myndbönd bætast við notendaþjónustu okkar og sum er hægt að horfa á út af fyrir sig.  
 
@@ -24,7 +23,7 @@ Einnig er hægt að skoða fræðslumyndböndin okkar ásamt fullt af öðru efn
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Dynamics 365-rás á YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

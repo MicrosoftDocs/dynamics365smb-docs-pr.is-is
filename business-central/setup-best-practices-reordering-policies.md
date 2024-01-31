@@ -3,14 +3,13 @@ title: Uppsetning bestu venja - Endurpöntunarstefnur | Microsoft Docs
 description: Svæðið Endurpöntunarstefna á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setup-best-practices-reordering-policies"></a>Uppsetning bestu venja: Endurpöntunarstefnur
+# Uppsetning bestu venja: Endurpöntunarstefnur
 
 Svæðið **Endurpöntunarstefna** á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.  
 
@@ -35,7 +34,7 @@ Eftirfarandi tafla gefur upp bestu venjur til að velja milli fjögurra stefna.
 |**Fast endurpöntunarmagn**|Notist fyrir C vörur.<br /><br /> Sameina með færibreytum endurpöntunarmarks.<br /><br /> Við framleiðslu skal nota þetta fyrir íhluti á lægsta stigi.<br /><br /> Ekki nota ef varan er oft frátekin.|C vörur, eins og tebollar, eru verðlitlar vörur með mikilli og reglulegri pöntunartíðni. Besta endurpöntunarstefnan fyrir C-vörur er því sú sem tryggir stöðugt framboð með því að vera alltaf yfir endurpöntunarpunkti.<br /><br /> Taki notandinn frá magn fyrir fjarlæga eftirspurn truflar þar forsendur áætlunarinnar. Jafnvel þótt áætlað birgðastig sé leyfilegt með tilliti til endurpöntunarmarks, má magnið ekki vera til staðar vegna frátekningarinnar.|  
 |**Hámarksmagn**|Notist fyrir C vörur með háan birgðakostnað eða geymslutakmarkanir.<br /><br /> Sameina við eina eða fleiri pöntunarbreytur (lágmarks-/hámarkspöntunarmagn eða fjöldapanta).|C vörur, eins og tebollar, eru verðlitlar vörur með mikilli og reglulegri pöntunartíðni. Besta endurpöntunarstefnan fyrir C-vörur er sú sem tryggir stöðugan fáanleika með því að vera alltaf yfir endurpöntunarpunkti, en undir hámarks birgðamagni.<br /><br /> Til að breyta ráðlagðri röð gætirðu viljað lækka pöntunarmagnið niður í tiltekið hámarksmagn pöntunar, hækkað í tiltekið lágmarksmagn pöntunar, eða sléttað til að passa við tilgreint pöntunarmargfeldi. **Athugið:** Ef endurpöntunarmark er notað haldast birgðir á milli þess og hámarksmagns.|  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
  [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
  [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur](design-details-handling-reordering-policies.md)  

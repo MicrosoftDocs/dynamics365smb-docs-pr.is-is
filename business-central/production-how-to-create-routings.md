@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-routings"></a>Stofna leiðir
+# Stofna leiðir
 
 Framleiðslufyrirtæki nota leiðir til að stýra framleiðsluferlinu og gera sýnilegt.
 
@@ -23,7 +24,7 @@ Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framl
 - Birgðaspjöld er búin til fyrir yfirvörur sem taka þátt í framleiðslu. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 - Framleiðsluforði eru uppsettur. Frekari upplýsingar eru í [Setja upp vinnustöðvar og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-routing"></a>Stofna leið
+## Stofna leið
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðir** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -51,7 +52,7 @@ Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framl
 > [!NOTE]  
 > Mundu líka að endurreikna staðlað kostnaðarverð vörunnar úr **birgða** spjaldinu: velja **Framleiða** aðgerðina, og síðan smellt á **Reikna staðlað kostn.verð** aðgerðina og veljið síðan **Öll stig** aðgerðina.  
 
-## <a name="to-create-routing-links"></a>Leiðartenglar stofnaðir
+## Leiðartenglar stofnaðir
 
 Hægt að búa til leiðartengla til að tengja íhluti við ákveðnar aðgerðir til að viðhalda sambandi þeirra jafnvel þótt framleiðsluuppskrift eða leið sé breytt. Þeir auðvelda einnig bráða birgðaskráningu íhluta þegar ákveðin tengd aðgerð hefst, ekki þegar öll framleiðslupöntunin er gefin út. Nánari upplýsingar eru í [Birgðaskrá íhluti samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +86,7 @@ Annar mikilvægur kostur er sá að tenging íhluta og aðgerða er birt í rök
 
 Valdir íhlutir verða nú tengdir við valdar aðgerðir þegar framleiðslupöntun er búin til eða endurnýjuð með umræddri framleiðsluuppskrift og leið. Hægt er að skoða þetta á síðunni **Íhlutir framleiðslupöntunar** undir framleiðslupöntuninni og í honum er einnig hægt að fjarlægja og bæta við tilgreindum leiðartengilskótum hvenær sem er.
 
-## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Úthluta starfsmönnum, verkfærum og gæðaráðstöfunum til leiðaraðgerðir
+## Úthluta starfsmönnum, verkfærum og gæðaráðstöfunum til leiðaraðgerðir
 
 Ef krafist er starfsmanna með sérþekkingu eða sérstaka heimild fyrir aðgerðinni má úthluta viðkomandi starfsmönnum á aðgerðina. Að auki geturðu úthlutað verkfærum og gæðaráðstöfunum til aðgerðarinnar. Þetta ferli lýsir því hvernig skal úthluta starfsmönnum. Skrefin eru svipuð fyrir aðrar gerðir aðgerðaupplýsinga.
 
@@ -95,7 +96,7 @@ Ef krafist er starfsmanna með sérþekkingu eða sérstaka heimild fyrir aðger
 4. Reitirnir á síðunni **Starfsmenn leiðar** eru fylltir út.  
 5. Velja hnappinn **Í lagi** til að hætta á síðunni. Innfærð gildi eru afrituð og úthlutuð aðgerðinni.  
 
-## <a name="to-create-a-new-versions-of-a-routing"></a>Gerð nýrra útgáfa af leiðum:
+## Gerð nýrra útgáfa af leiðum:
 
 Með útgáfureglunni er hægt að fást við margar útgáfur. Skipulag leiðaútgáfunnar samsvarar skipulagi leiðarinnar sem felur í sér leiðaútgáfuhaus og leiðaútgáfulínur. Aðalmunurinn ræðst af upphafsdagsetningunni.  
 
@@ -114,7 +115,7 @@ Með útgáfureglunni er hægt að fást við margar útgáfur. Skipulag leiða�
 
 Gildistími útgáfunnar er tilgreindur í reitnum **Upphafsdagsetning**.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

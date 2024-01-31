@@ -8,9 +8,10 @@ ms.search.form: '1151, 1154, 1165, 1166'
 ms.date: 09/28/2023
 ms.author: bholtorf
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni
+# Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -23,7 +24,7 @@ Hægt er að opna fyrirtækjamiðstöðina með því að kveikja á hlutverkinu
 > [!NOTE]
 > Hægt er að tengja fyrirtækjamiðstöð við eins mörg fyrirtæki og þörf krefur. Hins vegar er aðeins hægt að tengja fyrirtækjamiðstöð við fyrirtæki sem eru hýst á [!INCLUDE [prod_short](includes/prod_short.md)] á netinu.
 
-## <a name="company-hub-home-page"></a>Heimasíða fyrirtækjamiðstöðvar
+## Heimasíða fyrirtækjamiðstöðvar
 
 Ef notað er hlutverkið **Fyrirtækjamiðstöð** sýnir heimasíðan lista yfir fyrirtæki sem þú hefur aðgang að , þ.m.t. upplýsingar um gögn afkastavísa (KPI) og tengla til að opna hvert fyrirtæki fyrir sig. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Veljið aðgerðina **Fyrirtækjamiðstöð** til að opna fyrirtækjamiðstöðina þar sem hægt er að vinna betur með hvert fyrirtæki fyrir sig.  
 
@@ -51,13 +52,13 @@ In the **Company Hub** page, you can see more information about each company by 
 
 Otherwise, close the details pane and continue to the next company.  -->
 
-## <a name="assigned-tasks"></a>Úthlutuð verkefni
+## Úthlutuð verkefni
 
 Í [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að úthluta verkefnum á sjálfan þig og aðra, og aðrir geta úthlutað verkefnum á þig. Fyrirtækjamiðstöðin veitir þér yfirsýn yfir úthlutuð verk fyrir hvert fyrirtæki og þú hefur einnig aðgang að lista yfir öll úthlutuð verk með því að velja **Notandaverkefni mín** á síðunni **Heim**.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
-### <a name="my-user-tasks"></a>Notandaverkefnin mín
+### Notandaverkefnin mín
 
 Listinn **Notandaverkefni mín** hjálpar þér að forgangsraða verkefnum yfir daginn með því að sýna frekari upplýsingar um verkefni sem fyrirtækin hafa úthlutað á þig.  
 
@@ -69,7 +70,7 @@ Til að sækja verkefni skaltu velja það af listanum yfir verkefni notanda í 
 
 Frekari upplýsingar um fyrirtæki og umhverfi er að finna í [Umhverfistenglar](company-hub-add-company.md#environment-links).  
 
-## <a name="access-the-company-hub"></a>Aðgangur að fyrirtækjamiðstöðinni
+## Aðgangur að fyrirtækjamiðstöðinni
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -80,7 +81,7 @@ Til að fá aðgang að fyrirtækjamiðstöðinni verður þú að hafa aðgang 
 
 Ef ekki er hægt að finna fyrirtækjamiðstöðina og þú veist að þú hefur fengið aðgang að henni skaltu hafa samband við stjórnandann ef fyrirtækjamiðstöðin er sýnd á síðunni **Viðbótastjórnun**. Frekari upplýsingar eru í [Sérstilling Business Central með viðbótum](ui-extensions.md).  
 
-## <a name="set-up-the-company-hub"></a>Setja upp fyrirtækjamiðstöðina
+## Setja upp fyrirtækjamiðstöðina
 
 Til að nota fyrirtækjamiðstöðina þarf að bæta einu eða fleiri fyrirtækjum við stjórnborðið. Frekari upplýsingar er að finna í [Bæta fyrirtækjum við fyrirtækjamiðstöðina](company-hub-add-company.md).  
 
@@ -90,7 +91,7 @@ Til dæmis, ef þú ert endurskoðandi getur viðskiptavinir þínir boðið þ�
 
 Kerfisstjórar geta notað leiðbeiningar með uppsetningarleiðbeiningum aðstoðar til að bæta þér við  [!INCLUDE [prod_short](includes/prod_short.md)] eða geta bætt á viðkomandi  Microsoft Entra  lykil í  Microsoft 365  stjórnstöðinni. Frekari upplýsingar er að finna í [Stjórna notendum og hópum](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Bæta fyrirtækjum við fyrirtækjamiðstöðina](company-hub-add-company.md)  
 [Upplifun endurskoðanda í Business Central](finance-accounting.md)  

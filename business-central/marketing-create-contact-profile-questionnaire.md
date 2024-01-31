@@ -3,16 +3,15 @@ title: Nota forstillingar til að flokka tengiliði
 description: Lestu um hvernig á að setja upp spurningalista forstillingar til að auðvelda flokkun á notandasíðum viðskiptatengiliða.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'contacts, profiles'
 ms.search.form: '5109, 5110'
 ms.author: bholtorf
 ms.date: 05/20/2022
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Nota spurningalista forstillingar til að flokka viðskiptatengiliði
+# Nota spurningalista forstillingar til að flokka viðskiptatengiliði
 
 Hægt er að flokka væntanlegan viðskiptamann svo hægt sé að greina vænlegustu viðskiptamenn sem söluherferð er miðuð að. Hægt er að setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn. Innan hvers spurningalista er hægt að setja upp þær mismunandi spurningar sem spyrja á tengiliðina. Þannig er hægt að hópa saman tengiliðum svo að herferðirnar þínar séu líklegri til að höfða til rétta fólksins miðað við skilyrðin sem þú skilgreinir með spurningalistunum.  
 
@@ -20,13 +19,13 @@ Með réttum spurningalistum geturðu metið viðföngin þín og safnað þeim 
 
 Einnig er hægt að keyra spurningalistann til að svara sjálfkrafa nokkrum spurningum samkvæmt gögnum um tengiliði, viðskiptamenn eða lánardrottna.  
 
-## <a name="to-add-a-profile-questionnaire"></a>Til að bæta við spurningalista forstillingar
+## Til að bæta við spurningalista forstillingar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning spurningalista** og velja síðan viðkomandi tengil.  
 2. Veldu aðgerðina **Nýtt**.  
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-add-questions-to-a-profile-questionnaire"></a>Til að bæta spurningum við spurningalista forstillingar
+## Til að bæta spurningum við spurningalista forstillingar
 
 1. Veldu viðeigandi spurningalista og veldu síðan aðgerðina **Breyta Breyta uppsetningu spurningalista**.  
 2. Í fyrstu auðu línunni reitnum **Tegund**, veljið **Spurning** ritið spurninguna í reitinn **Lýsing**. Aðrir reitir í línunni eru fylltir út.  
@@ -61,11 +60,11 @@ Skrefin eru endurtekin til að færa inn allar spurningar og svör í spurningal
 > [!NOTE]
 > Ef færð er inn spurning sem er svarað sjálfkrafa skal velja **Lína** og svo **Upplýs. um spurningar** til að færa inn skilyrðin sem notuð eru til að svara spurningunni sjálfkrafa.
 
-## <a name="apply-questionnaires-to-contacts"></a>Nota spurningalista á tengiliði
+## Nota spurningalista á tengiliði
 
 Hægt er að nota spurningalistana handvirkt á tengiliði. Opnaðu bara viðkomandi tengiliðaspjald og veldu svo aðgerðina **Prófíll**. Þegar þú hefur síðan notað spurningalistana sem þú vilt geturðu byrjað að nota flokkana í herferðinni.  
 
-## <a name="the-automatic-classification-of-contacts"></a>Sjálfvirk flokkun tengiliða
+## Sjálfvirk flokkun tengiliða
 
 Hægt er að flokka tengiliði sjálfvirkt eftir viðskiptamanna-, lánardrottna-, og tengiliðaupplýsingum með því að setja upp sjálfvirkt svöruðum forstillingarspurningum á síðunni **Uppsetning spurningalisti forstillingar**.  
 
@@ -74,7 +73,7 @@ Hægt er að flokka tengiliði sjálfvirkt eftir viðskiptamanna-, lánardrottna
 
 Þegar sjálfvirkt svaraðar forstillingarspurningar hafa verið settar upp, ef þú úthlutar tengiliði forstillingarspurningar sem innihalda þessar spurningar, mun [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa úthluta réttu svörunum fyrir tengiliðinn.  
 
-## <a name="example"></a>Dæmi
+## Dæmi
 
 Hægt er að flokka tengiliði eftir því hversu mikið þeir hafa keypt:
 
@@ -102,7 +101,7 @@ Svo er síðan **Upplýs. forstillingarspurningar** fylltur út sem hér segir:
 
 Þegar spurningalista forstillingar sem inniheldur þessa spurningu er úthlutað á tengilið færir forritið sjálfkrafa viðeigandi svar fyrir tengiliðinn í forstillingarlínurnar á tengiliðaspjaldinu.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stofna tengiliði](marketing-create-contact-companies.md)  
 

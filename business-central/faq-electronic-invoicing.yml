@@ -5,6 +5,7 @@ metadata:
   ms.topic: faq
   author: brentholtorf
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Algengar spurningar um rafrænar reikningsfærslur
 summary: |
   Innbyggða skjalaskiptiþjónustan sendir rafræna reikninga á TradeShift sem er þjónustuaðili sem sendir rafræna reikninga til PEPPOL eða viðtakenda NemHandel. En þjónustan styður takmarkaðan fjölda af útgáfum.   

@@ -3,15 +3,14 @@ title: Uppsetning bankaþjónustu
 description: 'Hægt er að nota bankareikningsspjöld til að fylgjast með bankareikningunum þínum og setja upp bankastreymi, eins og t.d. Yodlee, fyrir gagnaskipti.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-banking"></a>Uppsetning bankaþjónustu
+# Uppsetning bankaþjónustu
 
 Með því að nota bankareikningaspjöld er hægt að fylgjast með öllum bankareikningum, í hvaða gjaldmiðli sem er. Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun.
 
@@ -25,7 +24,7 @@ Til að geta notað rafræna bankaþjónustu til að flytja inn bankayfirlit og 
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  

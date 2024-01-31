@@ -3,14 +3,13 @@ title: Að bóka skjöl og færslubækur
 description: Þetta efnisatriði útskýrir bókunaraðgerðir og hvernig þú getur bókað skjöl og færslubækur í ýmsum fjárhagsbókum fyrirtækisins.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 06/24/2021
 ms.search.form: null
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="posting-documents-and-journals"></a>Að bóka skjöl og færslubækur
+# Að bóka skjöl og færslubækur
 
 Bókun táknar reikningsaðgerðina að skrá viðskiptafærslur í hinar ýmsu höfuðbækur fyrirtækisins.
 
@@ -27,7 +26,7 @@ Eftirfarandi tafla lýsir skyldum verkum, með tenglum í efnisatriði þar sem 
 | Forskoða, á síðu, færslurnar sem verða stofnaðar þegar þú bókar. |[Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md) |
 | Í skýrslu er hægt að forskoða færslur sem verða stofnaðar þegar bókað er. |[Skoða prufuskýrslur fyrir bókun](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Breyta bókuðum skjölum](across-edit-posted-document.md)  
 [Finna tengdar færslur fyrir skjöl](ui-find-entries.md)  

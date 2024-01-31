@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 08/16/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Til að gerast áskrifandi að RSS-straum (Really Simple Syndication) allra uppfærslna á efni viðskiptaaðgerða á learn.microsoft.comfyrir [!INCLUDE [prod_short](prod_short.md)] skaltu nota eftirfarandi tengil:
 

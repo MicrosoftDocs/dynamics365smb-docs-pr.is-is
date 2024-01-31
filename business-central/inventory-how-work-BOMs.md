@@ -3,19 +3,18 @@ title: Vinna með uppskriftir
 description: Þú stofnar samsetningar- eða framleiðsluuppskrift til að tilgreina íhlutina eða tilföngin sem þarf til að setja saman vöruna sem samsetningaruppskriftin segir til um.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bills of material, assembly BOM, production BOM,'
 ms.search.form: null
 ms.date: 09/26/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-bills-of-material"></a>Vinna með uppskriftir
+# Vinna með uppskriftir
 
 Nota skal uppskriftir til að byggja upp yfirvörur sem verða að vera settar saman úr öðrum vörum eða framleiddar af tilföngum eða vélastöðvum úr íhlutum.
 
-## <a name="assembly-boms-or-production-boms"></a>Samsetningaruppskriftir eða framleiðsluuppskriftir
+## Samsetningaruppskriftir eða framleiðsluuppskriftir
 
 [!INCLUDE[prod_short](includes/prod_short.md)] styður tvær mismunandi gerðir af uppskriftum:
 
@@ -36,7 +35,7 @@ Hugtakið forði í framleiðslu er mun flóknara en í samsetningarstjórnun. V
 
 Hægt er að tengja bæði samsetningarpantanir og framleiðslupantanir beint við sölupantanir. Hins vegar er aðeins hægt að nota samsetningarpantanir til að sérsníða endanlegu vöruna beint samkvæmt beiðni viðskiptamanns með sölupöntun.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  

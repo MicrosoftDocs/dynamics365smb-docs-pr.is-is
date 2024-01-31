@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/11/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 0.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VSK-skýrsluuppsetning** og velja síðan viðkomandi tengil.  
 2. Til að gera notendum kleift að senda þessa skýrslu aftur inn skal velja reitinn **Leyfa breytingu**.  

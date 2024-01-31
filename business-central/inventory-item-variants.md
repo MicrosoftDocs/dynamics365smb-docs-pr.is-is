@@ -3,24 +3,24 @@ title: Stjórna afurðarafbrigðum
 description: 'Kynntu þér hvernig þú getur skráð vörur sem eru nánast eins en hvað varðar lit, stærð eða efni sem vöruafbrigði.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: 'item, variant, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
 ms.date: 09/26/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="manage-product-variants"></a>Stjórna afurðarafbrigðum
+# Stjórna afurðarafbrigðum
 
 Vöruafbrigði eru frábær leið til að halda stjórn á lista yfir vörur. Til dæmis gætirðu verið með mikinn vörufjölda sem er nánst eins nema með ólíkan lit. Hægt er að skilgreina hvert afbrigði sem aðskilda vöru. En þú velur að setja upp eina vöru og tilgreina litina sem afbrigði af vörunni.  
 
 > [!TIP]
 > Til að fá hagnýta kynningu á notkun afbrigða í framleiðslu, sjá  [Walkthrough: vöruvíddasamsetningar](contoso-coffee/manufacturing/variants.md)  fyrir kaffiuppbrot contoso.  
 
-## <a name="add-variants-to-an-item"></a>Bæta afbrigðum við vöru
+## Bæta afbrigðum við vöru
 
 Ef fyrirtækið þitt hefur ákveðið að nota afbrigði, þá er auðvelt að skilgreina afbrigði fyrir vöru.  
 
-### <a name="to-add-variants"></a>Til að bæta við afbrigðum
+### Til að bæta við afbrigðum
 
 1. Opnaðu [ **Vörulisti** síðuna](https://businesscentral.dynamics.com/?page=31), opnaðu viðkomandi vöru.  
 2. Í **Birgðaspjaldinu** skal velja aðgerðina **Vara** og síðan aðgerðina **Afbrigði**.  
@@ -28,11 +28,11 @@ Ef fyrirtækið þitt hefur ákveðið að nota afbrigði, þá er auðvelt að 
 
 Þegar söluskjal er búið til og bætt við vöruna er hægt að tilgreina afbrigði vörunnar í reitnum **Afbrigðiskóði**. Það sama á við um innkaupaskjöl.  
 
-## <a name="item-availability-by-variant"></a>Til ráðstöfunar e. afbrigði
+## Til ráðstöfunar e. afbrigði
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## <a name="require-use-of-variants"></a>Krefjast notkunar afbrigða
+## Krefjast notkunar afbrigða
 
 Frá og með 2022 útgáfutímabil 2 krefjast stjórnendur þess að notendur tilgreini afbrigðið í skjölum og færslubókum fyrir vörur sem eru með afbrigði. Til að virkja möguleikann skal fara á síðuna **Uppsetning birgða** og síðan velja reitinn **Afbrigði áskilið ef það er til**. Hægt er að hnekkja þessari altæku stillingu fyrir tilteknar vörur.  
 
@@ -49,11 +49,11 @@ Frá og með 2022 útgáfutímabil 2 krefjast stjórnendur þess að notendur ti
 
 Ef kveikt er á möguleikanum geta notendur ekki bókað færslu ef afbrigðið er ekki tilgreint.
 
-## <a name="categories-attributes-and-variants"></a>Flokkar, eigindir og afbrigði
+## Flokkar, eigindir og afbrigði
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md)  

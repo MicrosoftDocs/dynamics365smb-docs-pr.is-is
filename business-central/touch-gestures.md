@@ -3,15 +3,14 @@ title: Snerti- og pennabendingar
 description: Kynntu þér snerti- og pennabendingar sem gera þér kleift að vinna á einfaldan hátt með gögn í spjaldtölvum og símum.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Snerti- og pennabendingar fyrir spjaldtölvur og síma
+# Snerti- og pennabendingar fyrir spjaldtölvur og síma 
 
 Þessi grein inniheldur yfirlit yfir nokkrar bendingar sem þú getur notað þegar þú ert að vinna með [!INCLUDE[prod_short](includes/prod_short.md)] í spjaldtölvu eða síma.
 
@@ -30,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)  
 [Aðstoðareiginleikar](ui-accessibility.md)  

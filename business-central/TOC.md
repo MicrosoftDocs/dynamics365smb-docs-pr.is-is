@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 
 # [Business Central skjöl](index.yml)
 # [Velkomin(n) í Business Central](welcome.md)
@@ -286,6 +289,7 @@
 ## Fjármál
 ### [Yfirlit yfir Fjármál](finance.md)
 ### [Fjárhagsskýrslur](finance-reports.md)
+
 ### Umsjón viðskiptakrafna
 #### [Yfirlit útistandandi](receivables-manage-receivables.md)
 #### [Skýrslur og greiningar viðskiptakrafna](receivables-reports.md)
@@ -297,7 +301,8 @@
 ##### [Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 ##### [Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md)
 #### [Afstemma greiðslur viðskiptamanna handvirkt úr lista yfir ógreidd söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-#### [Afstemma greiðslur viðskiptavinar með inngreiðslubók eða úr færslum í viðskiptamannabók](receivables-how-apply-sales-transactions-manually.md)
+#### [Afstemma greiðslur viðskiptamanns með inngreiðslubók eða úr færslum í viðskiptamannabók](receivables-how-apply-sales-transactions-manually.md)
+#### [Sameina stöður fyrir fyrirtæki sem er viðskiptamaður og lánardrottinn](finance-consolidate-customer-vendor-balances.md)
 #### [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)
 #### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Senda innheimtubréf vegna útistandandi stöðu](receivables-send-reminders.md)
@@ -326,34 +331,13 @@
 ##### [Afstemma greiðslur sem ekki er hægt að jafna sjálfkrafa](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Afstemma greiðslur lánardrottins með greiðslubók eða úr færslum í lánardrottnabók](payables-how-apply-purchase-transactions-manually.md)
+#### [Sameina stöður fyrir fyrirtæki sem er viðskiptamaður og lánardrottinn](finance-consolidate-customer-vendor-balances.md)
 #### [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)
 #### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Loka á lánardrottna](payables-how-block-vendors.md)
 #### [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)
 #### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
-
-### Stjórna rafrænum skjölum
-#### [Yfirlit yfir rafræn skjöl](finance-edocuments-overview.md)
-#### [Setja upp rafræn skjöl](finance-how-setup-edocuments.md)
-#### [Nota rafræn skjöl við sölu og innkaup](finance-how-use-edocuments.md)
-#### [Stilla tengi fyrir rafræn skjöl með ytri endastöðum](finance-how-setup-edocuments-external.md)
-#### [Virkni rafrænna skjala aukin](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-
-### Stjórna VSK
-#### [VSK-stjórnunaryfirlit](finance-manage-vat.md)
-#### [Innkaupafærslur þriðja aðila innan ESB](finance-how-to-eu3party-trade-purchase.md)
-#### Setja upp VSK
-##### [Setja upp virðisaukaskatt](finance-setup-vat.md)
-##### [Uppsetning bókunarflokks](finance-posting-groups.md#tax-posting-groups)
-##### [Setja upp ófrádráttarbæran VSK](finance-setup-nondeductible-vat.md)
-##### [Setja upp óinnleystan virðisaukaskatt](finance-setup-unrealized-vat.md)
-##### [Uppsetning VSK-yfirlits](finance-how-setup-vat-statement.md)
-#### [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)
-#### [Nota ófrádráttarbæran VSK](finance-how-use-non-deductible-vat.md)
-#### [Skila inn VSK-skýrslum til skattayfirvalda](finance-how-report-vat.md)
-#### [Stjórna breytingum VSK-hlutfalls](finance-how-use-vat-rate-change-tool.md)
-#### [Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md)
 
 ### Reikningsfærsla fyrirframgreiðslna
 #### [Yfirlit fyrirframgreiðslna](finance-invoice-prepayments.md)
@@ -366,13 +350,8 @@
 #### [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md)
 #### [Afstemma bankareikninga með Copilot (forútgáfa)](bank-reconciliation-with-copilot.md)
 #### [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### Stjórna millifyrirtækjafærslum
-#### [Yfirlit fyrirtækis innan samstæðu](intercompany-manage.md)
-#### [Uppsetning milli fyrirtækja](intercompany-how-setup.md)
-#### [Unnið með samstæðuskjöl og færslubækur](intercompany-how-work-documents-journals.md)
-#### [Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md)
-#### [Úthluta kostnaði til millifyrirtækjafélaga](intercompany-allocate-costs.md)
+#### [Flytja bankainnstæður](bank-how-transfer-bank-funds.md)
+#### [Búa til innborganir í banka](bank-create-bank-deposits.md)
 
 ### Bókhald fyrir kostnað
 #### [Yfirlit fyrir kostnaðarbókhald](finance-manage-cost-accounting.md)
@@ -408,6 +387,8 @@
 ### Stjórna sjóðstreymi
 #### [Yfirlit yfir sjóðstreymi](finance-cash-flow-overview.md)
 #### [Greina sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)
+#### [Kynning: Nota fjárhagsskýrslur til að gera sjóðstreymisspár](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ### Loka árum og tímabilum
 #### [Yfirlit ársloka](year-close-years-periods.md)
@@ -424,38 +405,63 @@
 #### [Loka rekstrarreikningi](year-close-income-statement.md)
 #### [Bóka lokafærslu ársloka](year-how-post-year-end-close-entry.md)
 
-### Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum
-#### [Sameining fyrirtækja](finance-consolidated-company-reporting.md)
-#### [Setja upp fyrirtækjasamstæðu](finance-consolidated-company-reporting-setup.md)
-
 ### Vinna með bókhaldslykil og fjárhag
 #### [Öðlast skilning á fjárhagi og bókhaldslykli](finance-general-ledger.md)
 #### [Yfirfara reikninga](finance-review-accounts.md)
+#### [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)
+#### [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)
+#### [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)
+#### [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)
+#### [Útflutningur endurskoðunarskráar](finance-how-to-export-audit-files.md)
+#### [Fresta tekjum og öðrum útgjöldum](finance-how-defer-revenue-expenses.md)
+#### [Úthluta endurteknum kostnaði og tekjum](year-allocate-costs-income.md)
+#### [Úthluta tekjum og kostnaði á marga fjárhagsreikninga](finance-allocate-revenue-costs.md)
 
-### [Sameina stöður fyrir fyrirtæki sem er viðskiptamaður og lánardrottinn](finance-consolidate-customer-vendor-balances.md)
-### [Vinna með víddir](finance-dimensions.md)
-### [Úrræðaleit og víddarleiðrétting](finance-troubleshooting-correcting-dimensions.md)
-### [Gjaldmiðlar í Business Central](finance-currencies.md)
-### [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)
-### [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)
-### [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)
-### [Útflutningur endurskoðunarskráar](finance-how-to-export-audit-files.md)
-### [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)
-### [Fresta tekjum og öðrum útgjöldum](finance-how-defer-revenue-expenses.md)
-### [Úthluta endurteknum kostnaði og tekjum](year-allocate-costs-income.md)
-### [Úthluta tekjum og kostnaði á marga fjárhagsreikninga](finance-allocate-revenue-costs.md)
-### [Uppfæra gengi](finance-how-update-currencies.md)
-### [Flytja inn launafærslur](finance-how-import-payroll-transactions.md)
-### [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)
-### [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)
-### [Umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)
-### [Stjórna breytingum VSK-hlutfalls](finance-how-use-vat-rate-change-tool.md)
-### [Kynning: Nota fjárhagsskýrslur til að gera sjóðstreymisspár](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
-### [Flytja bankainnstæður](bank-how-transfer-bank-funds.md)
-### [Búa til innborganir í banka](bank-create-bank-deposits.md)
-### [Upplifun endurskoðanda í Business Central](finance-accounting.md)
+### Unnið með víddir
+#### [Víddayfirlit](finance-dimensions.md)
+#### [Úrræðaleit og víddarleiðrétting](finance-troubleshooting-correcting-dimensions.md)
+#### [Flytja inn launafærslur](finance-how-import-payroll-transactions.md)
+
+### Unnið með gjaldmiðla
+#### [Gjaldmiðlar í Business Central](finance-currencies.md)
+#### [Uppfæra gengi](finance-how-update-currencies.md)
+
+### Unnið með VSK
+#### [VSK-stjórnunaryfirlit](finance-manage-vat.md)
+#### [Innkaupafærslur þriðja aðila innan ESB](finance-how-to-eu3party-trade-purchase.md)
+#### Setja upp VSK
+##### [Setja upp virðisaukaskatt](finance-setup-vat.md)
+##### [Uppsetning bókunarflokks](finance-posting-groups.md#tax-posting-groups)
+##### [Setja upp ófrádráttarbæran VSK](finance-setup-nondeductible-vat.md)
+##### [Setja upp óinnleystan virðisaukaskatt](finance-setup-unrealized-vat.md)
+##### [Uppsetning VSK-yfirlits](finance-how-setup-vat-statement.md)
+#### [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)
+#### [Nota ófrádráttarbæran VSK](finance-how-use-non-deductible-vat.md)
+#### [Skila inn VSK-skýrslum til skattayfirvalda](finance-how-report-vat.md)
+#### [Stjórna breytingum VSK-hlutfalls](finance-how-use-vat-rate-change-tool.md)
+#### [Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md)
+#### [Umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)
+
+### Uppsetning og notkun rafrænna skjala
+#### [Yfirlit yfir rafræn skjöl](finance-edocuments-overview.md)
+#### [Setja upp rafræn skjöl](finance-how-setup-edocuments.md)
+#### [Nota rafræn skjöl við sölu og innkaup](finance-how-use-edocuments.md)
+#### [Stilla tengi fyrir rafræn skjöl með ytri endastöðum](finance-how-setup-edocuments-external.md)
+#### [Virkni rafrænna skjala aukin](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### [Fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir](finance-multi-site-organizations.md)
+#### Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum
+##### [Sameining fyrirtækja](finance-consolidated-company-reporting.md)
+##### [Setja upp fyrirtækjasamstæðu](finance-consolidated-company-reporting-setup.md)
+#### Stjórna millifyrirtækjafærslum
+##### [Yfirlit fyrirtækis innan samstæðu](intercompany-manage.md)
+##### [Uppsetning milli fyrirtækja](intercompany-how-setup.md)
+##### [Unnið með samstæðuskjöl og færslubækur](intercompany-how-work-documents-journals.md)
+##### [Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md)
+##### [Úthluta kostnaði til millifyrirtækjafélaga](intercompany-allocate-costs.md)
+
+### [Upplifun endurskoðanda í Business Central](finance-accounting.md)
+
 
 ## Viðskiptagreind og skýrslur fjármála
 ### [Yfirlit yfir viðskiptagreind og skýrslur fjármála](bi.md)
@@ -466,8 +472,11 @@
 ### [Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
 ### [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)
+### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
 ### [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)
 ### [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)
+### [Kynning: Nota fjárhagsskýrslur til að gera sjóðstreymisspár](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ## Sala
 ### [Söluyfirlit](sales-manage-sales.md)
@@ -874,12 +883,16 @@
 
 ### Danmörk
 #### [Staðbundin virkni í danskri útgáfu](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### [Tilkynning og skráning fyrir NemHandelsregisteret í Danmörku](localfunctionality/denmark/how-to-nemhandel-register.md)
-#### [Setja upp rafrænar reikningsfærslur](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### Reglufylgni
 #### [Halda færslugögnum í fimm ár í Danmörku](localfunctionality/denmark/how-to-keep-data-5years.md)
+##### [Setja upp stafræn fylgiskjöl í Danmörku](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
+#### Endurskoðun
+##### [Flytja út SAF-T endurskoðunarskráarsniðið í Danmörku](LocalFunctionality/Denmark/how-to-use-saft-audit-files-export.md)
+##### [Almennur staðlaður bókhaldslykill í Danmörku](LocalFunctionality/Denmark/how-to-set-up-standard-coa.md)
+##### [Flytja bókhaldsgögn út til Regnskab Basis í Danmörku](LocalFunctionality/Denmark/how-to-use-regnskabbasis-export.md)
 #### VSK
 ##### [Prenta VSK-afstemmingarskýrslur](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
-##### [VSK-VIES skýrslur](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [VKS-VIES skýrslur](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Setja upp VSK-númer fyrir Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 ##### [Skila VSK-skýrslum rafrænt](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Bankaþjónusta og greiðslur
@@ -890,11 +903,11 @@
 ##### [Setja upp viðskiptavini fyrir OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Setja upp rafrænan OIOUBL-reikning](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [OIOUBL-viðbótin fyrir rafrænan reikning](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Búa til rafræn skjöl á OIOUBL-sniði](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
+##### [Búa til rafræn skjöl á OIOUBL-sniði](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+#### [Tilkynning og skráning fyrir NemHandelsregisteret í Danmörku](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Setja upp rafrænar reikningsfærslur með NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
 #### Laun
 ##### [Skilgreiningar á launagögnum (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
-#### Stafræn fylgiskjöl
-##### [Setja upp stafræn fylgiskjöl í Danmörku](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finnland
 #### [Staðbundin virkni í finnskri útgáfu](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1832,19 +1845,6 @@
 #### [Leiðarvísir um skýrsluþróun](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Leiðarvísir um fínstillingu skýrsluafkasta](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
-# Copilot- og gervigreindarmöguleikar
-## Stjórna Copilot- og gervigreindarmöguleikum
-### [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)
-### [Copilot-gagnaflutningur á milli landsvæða](ai-copilot-data-movement.md)
-### [Villuleita Copilot- og gervigreindarmöguleika](ai-copilot-troubleshooting.md)
-## Afstemmingaraðstoð fyrir bankareikning (forútgáfa)
-### [Afstemma bankareikninga með Copilot](bank-reconciliation-with-copilot.md)
-### [Algengar spurningar um aðstoð vegna bankaafstemmingar](faqs-bank-reconciliation.md)
-## Tillögur að markaðstexta
-### [Yfirlit yfir tillögur að markaðstexta](ai-overview.md)
-### [Búa til markaðstexta með Copilot](item-marketing-text.md)
-### [Algengar spurningar um tillögur að markaðstexta](faqs-marketing-text.md)
-
 # Öryggi, persónuvernd og reglufylgni
 ## Öryggi og vörn
 ### [Yfirlit yfir öryggi og varnir (aðeins enska)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
@@ -2023,6 +2023,18 @@
 ## [Öryggi og vörn](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Afköst](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Eiginleikar sem hafa verið fjarlægðir eða eru úreltir](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Copilot- og gervigreindarmöguleikar
+## Stjórna Copilot- og gervigreindarmöguleikum
+### [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)
+### [Copilot-gagnaflutningur á milli landsvæða](ai-copilot-data-movement.md)
+### [Villuleita Copilot- og gervigreindarmöguleika](ai-copilot-troubleshooting.md)
+## Afstemmingaraðstoð fyrir bankareikning (forútgáfa)
+### [Afstemma bankareikninga með Copilot](bank-reconciliation-with-copilot.md)
+### [Algengar spurningar um aðstoð vegna bankaafstemmingar](faqs-bank-reconciliation.md)
+## Tillögur að markaðstexta
+### [Yfirlit yfir tillögur að markaðstexta](ai-overview.md)
+### [Búa til markaðstexta með Copilot](item-marketing-text.md)
+### [Algengar spurningar um tillögur að markaðstexta](faqs-marketing-text.md)
 # Ábyrg gervigreind
 ## [Yfirlit](responsible-ai-overview.md)
 ## [Algengar spurningar um aðstoð vegna bankaafstemmingar (forútgáfa)](faqs-bank-reconciliation.md)
