@@ -11,13 +11,13 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Stilltu E-Documents tengið með ytri endapunktum
+# <a name="set-the-e-documents-connector-with-external-endpoints"></a>Stilltu E-Documents tengið með ytri endapunktum
 
 Þessi grein útskýrir hvernig á að setja upp E-Documents virkni þegar það er tengt við ytri endapunkta.
 
 Áður en þú notar virknina sem lýst er í þessari grein skaltu setja upp **E-Documents Connector with External Endpoints** appið efst á alþjóðlegu **E- Document Core** app. Þetta app er hægt að nota fyrir sjálfgefna samþættingu við ytri (þriðju aðila) aðgangsstaði til að gera rafræn skjalaflæði sjálfvirkt. Vegna þess að þetta app táknar aðeins sum af völdum tengjunum ertu ekki takmörkuð við núverandi samþættingar í því. Flest tengin verða fáanleg á AppSource í framtíðinni.
 
-## Settu upp tenginguna
+## <a name="set-up-the-connection"></a>Settu upp tenginguna
 
 Til að hefja uppsetningu þína skaltu fylgja skrefunum í [E-skjala kjarnaforritinu](finance-how-setup-edocuments.md). Eftir að þú hefur lokið þessum skrefum skaltu fara aftur í þessa grein og ljúka eftirfarandi skrefum:
 
@@ -44,7 +44,7 @@ Til að hefja uppsetningu þína skaltu fylgja skrefunum í [E-skjala kjarnaforr
     > [!NOTE]
     > Biðjið þjónustuveituna um allar fyrri upplýsingar til að koma á tengingu við aðgangsstað sinn.
 
-## Settu upp upplýsingar um fyrirtæki
+## <a name="set-up-company-information"></a>Settu upp upplýsingar um fyrirtæki
 
 Áður en þú byrjar að nota rafræn skjöl skaltu uppfæra **Fyrirtækisupplýsingar** síðuna þína með því að ljúka eftirfarandi skrefum:
 
@@ -59,7 +59,7 @@ Til að hefja uppsetningu þína skaltu fylgja skrefunum í [E-skjala kjarnaforr
 
 3. Loka síðunni.
 
-## Settu upp viðskiptavini til að fá rafræn skjöl
+## <a name="set-up-customers-to-receive-e-documents"></a>Settu upp viðskiptavini til að fá rafræn skjöl
 
 Til að gera viðskiptavinum kleift að fá rafræn skjöl þín skaltu ljúka eftirfarandi skrefum:
 
@@ -69,11 +69,11 @@ Til að gera viðskiptavinum kleift að fá rafræn skjöl þín skaltu ljúka e
 4. Merktu við **Notaðu GLN í rafrænum skjölum** reitinn til að gefa til kynna hvort Global Location Number (GLN) sé notað sem auðkennisnúmer aðila í rafrænum skjölum.
 5. Loka síðunni.
 
-## Önnur uppsetning
+## <a name="other-setup"></a>Önnur uppsetning
 
 Áður en þú byrjar að vinna með e-skjöl skaltu setja upp e-skjal **vinnuflæði** og **skjalasendingarsnið** til notaðu vinnuflæðið þitt. Eftir að þjónustutengingunni hefur verið komið á geturðu byrjað að nota rafræna skjalalausnina þína.
 
-## Tiltækir þjónustuaðilar
+## <a name="available-service-providers"></a>Tiltækir þjónustuaðilar
 
 Microsoft vill hvetja aðgangsstaðaveitendur til að bæta tengjum sínum ofan á **E-Document Core** ramma okkar.
 
@@ -81,7 +81,7 @@ Sem stendur er Pagero eini aðgangsstaðaveitan sem fellur undir þetta kerfi. M
 
 Við munum uppfæra þennan lista eftir því sem við fáum nýja þjónustuveitendur til að skiptast á rafrænum skjölum.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Hvernig á að setja upp rafræn skjöl í Business Central](finance-how-setup-edocuments.md)  
 [Hvernig á að nota rafræn skjöl í Business Central](finance-how-use-edocuments.md)  

@@ -9,11 +9,11 @@ ms.date: 03/15/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gjaldmiðlar í Business Central
+# <a name="currencies-in-business-central"></a>Gjaldmiðlar í Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## Gjaldmiðlar
+## <a name="currencies"></a>Gjaldmiðlar
 
 > [!TIP]  
 > Í [!INCLUDE[prod_short](includes/prod_short.md)], ef þú ert að leita að nýjustu upplýsingum um gengi erlendra gjaldmiðla eða eldri gengi, finnur þú það undir gjaldmiðli. Auk þessarar greinar geturðu skoðað [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md).
@@ -22,15 +22,15 @@ ms.service: dynamics-365-business-central
 
 Gjaldmiðilskóðarnir eru tilgreindir í listanum **Gjaldmiðlar**, þ.m.t. viðbótarupplýsingar og stillingar sem eru nauðsynlegar fyrir hvern gjaldmiðilskóða. Sjá [Gjaldmiðlar](finance-set-up-currencies.md#curr) fyrir frekari upplýsingar.
 
-### Dæmi um móttekna gjaldmiðilsfærslu
+### <a name="example-of-a-receivable-currency-transaction"></a>Dæmi um móttekna gjaldmiðilsfærslu
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Gengi
+## <a name="exchange-rates"></a>Gengi
 
 Gengi eru verkfærin til að reikna gildi staðbundins gjaldmiðils (SGM) fyrir hverja gjaldmiðilsfærslu. Frekari upplýsingar eru í [Uppfæra gengi gjaldmiðils](finance-how-update-currencies.md).  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning gjaldmiðla](finance-set-up-currencies.md)  
 [Uppfæra gengi](finance-how-update-currencies.md)  

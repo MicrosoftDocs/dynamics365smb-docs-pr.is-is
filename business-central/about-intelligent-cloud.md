@@ -12,13 +12,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Snjöll innsýn með [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# <a name="intelligent-insights-in--online"></a>Snjöll innsýn með [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Sem notandi [!INCLUDE[prod_short](includes/prod_short.md)] á netinu hefur þú fullan aðgang að atburðarásum á snjallskýi, svo sem að breyta KPI sem byggja á vélnámi, eða þegar þú skoðar gögnin þín í Power BI.  
 
 Ef þú notar hins vegar [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum hefurðu ekki aðgang að sömu innsýn. Ef þú vilt njóta góðs af aðstæðum á netinu þarftu að flytja þig yfir í [!INCLUDE [prod_short](includes/prod_short.md)] á netinu. Frekari upplýsingar er að finna í [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) í efnisstjórnunarefninu fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Snjöll innsýn í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu skoðuð
+## <a name="viewing-insights-in--online"></a>Snjöll innsýn í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu skoðuð
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sýnir síðan **Innsýn í snjallský** fjögur lykilatriði sem flest fyrirtæki hafa áhuga á:
 
@@ -34,7 +34,7 @@ Við hliðina á KPI-töflunum færðu innsýn í hugsanlega áhyggjuefni, þ.m.
 
 Síðan tengist einnig Power BI fyrir enn meiri innsýn. Annars er hægt að tengjast við Azure AI til að fá jafnvel enn betri snjalla innsýn. Frekari upplýsingar eru í [Spá um sölu og birgðir viðbótina](ui-extensions-sales-forecast.md).  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Velkomin á Viðskiptamiðmið](welcome.md)  
 [Viðbætur skýjaflutnings](ui-extensions-data-replication.md)  

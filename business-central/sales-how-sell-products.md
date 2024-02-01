@@ -10,7 +10,7 @@ ms.date: 11/03/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Selja vörur með sölupöntun viðskiptavina
+# <a name="sell-products-with-a-customer-sales-order"></a>Selja vörur með sölupöntun viðskiptavina
 
 Þessi grein veitir leiðbeiningar um hvenær eigi að nota sölupöntun viðskiptamanns auk reiknings. Ef söluferlið þitt krefst þess að þú sendir aðeins hluta af pöntun, kannski vegna þess að allt magnið er ekki tiltækt strax, verður þú að vinna úr þeirri sölu með því að gera sölupöntun.
 
@@ -22,7 +22,7 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
 
 Þú getur meira að segja búið til beint greiddar pantanir fyrir óskráða viðskiptavini með því að setja fyrst upp „reiðfé viðskiptavina“ kort sem þú bendir á á sölupöntuninni. Frekari upplýsingar má finna í [Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md).
 
-## Stofna sölupöntun
+## <a name="create-a-sales-order"></a>Stofna sölupöntun
 
 > [!NOTE]  
 > Eftirfarandi aðferð gerir ráð fyrir því að viðskiptavinurinn sé þegar settur upp. Sjá leiðbeiningar um hvernig þetta er gert í [Skrá nýja viðskiptavini](sales-how-register-new-customers.md).
@@ -86,11 +86,11 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
 
 Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og sölupöntunin er frálag sem PDF fylgiskjal. Þegar sölupöntunin er að fullu bókuð er hún fjarlægð af sölupöntunarlistanum og skipt út fyrir ný skjöl á sölureikningum og söluafhendingarlista.  
 
-## Númer ytra skjals
+## <a name="external-document-number"></a>Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Sölubókun](ui-post-sales.md)  

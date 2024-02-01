@@ -11,14 +11,14 @@ ms.date: 12/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Setja upp eða breyta bókhaldslyklum
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Setja upp eða breyta bókhaldslyklum
 
 Bókhaldslykill sýnir fjárhagslykla sem geyma fjárhagsleg gögn. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðan bókhaldslykil sem er tilbúin til að styðja þitt fyrirtæki. Hins vegar er hægt að breyta sjálfgefnum lyklum og hægt er að bæta við nýjum lyklum.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Bæta við eða breyta reikningum
+## <a name="add-or-change-accounts"></a>Bæta við eða breyta reikningum
 
 Úr bókhaldslyklinum geturðu opnað hvern fjárhagsreikning og bætt við eða breytt stillingum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Fylla þarf út reitinn **Samantekt** fyrir reikninga af reikningsgerðinni **Sa
 > [!IMPORTANT]
 > Ef skilgreiningar hafa verið færðar í **Samtals**-reitina fyrir **Til-tölu**-reikningana áður en inndráttaraðgerðin er framkvæmd þarf að færa þær inn aftur því að aðgerðin skrifar yfir gildin í öllum **Til-tölu**-reitum.
 
-## Eyða reikningum
+## <a name="delete-accounts"></a>Eyða reikningum
 
 Hægt er að eyða fjárhagsreikningur. Áðu en honum er eytt þarf hins vegar eftirfarandi að vera rétt:  
 
@@ -43,13 +43,13 @@ Hægt er að eyða fjárhagsreikningur. Áðu en honum er eytt þarf hins vegar 
 
 Að kveikja á reitnum **Loka á eyðingu bókhaldsreikninga** er oft ákjósanlegt, sem og að stilla dagsetninguna í **Athugaðu bókhald . Eyðing Eftir** reitnum, til dæmis til dagsins þar sem reglur krefjast þess að þú geymir fjárhagsgögn.  
 
-### Vídeó leiðsögn
+### <a name="video-guidance"></a>Vídeó leiðsögn
 
 Þetta myndband sýnir hvernig á að tilgreina hvort og hvenær fólk geti eytt heimilisreikningum.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  

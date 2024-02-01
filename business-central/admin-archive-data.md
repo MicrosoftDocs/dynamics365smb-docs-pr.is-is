@@ -11,13 +11,13 @@ ms.search.form: 630
 ms.service: dynamics-365-business-central
 ---
 
-# Viðbót gagnasafns
+# <a name="the-data-archive-extension"></a>Viðbót gagnasafns
 
 Með tímanum mun fyrirtækið þitt safna umtalsverðu magni gagna og sem stjórnandi er það líklega góð hugmynd að hafa stefnu hvað varðar safnvistun gagna. Að hafa mikið af gögnum getur hægt á kerfinu, til dæmis gæti það tekið örlítið lengri tíma að búa til skýrslur eða jafnvel læsa færslum. Auk þess getur mikið gagnamagn leitt til aukins geymslukostnaðar.
 
 Viðbót gagnasafns býður upp á grunnramma fyrir safnvistun og öryggisafritun gagna sem hluta af dagsetningaþjöppun. Dagsetningarþjöppun sameinar tengdar færslur í eina færslu og eyðir frumefnunum. Frekari upplýsingar eru í  [þjappa gögn með dagsetningaþjöppun](admin-manage-documents.md#compress-data-with-date-compression). Hins vegar gæti borgað sig að halda gögnunum þannig að í stað þess að eyða þeim er hægt að safnvista þau til síðari notkunar.
 
-## Hefja safnvistun gagna
+## <a name="start-archiving-data"></a>Hefja safnvistun gagna
 
 Viðbótin er fyrirfram uppsett og í boði í **Stjórnun viðbótar** þannig að þú þarft ekki að gera neitt til að komast af stað. Einnig er hægt að nálgast viðaukann á AppSource.
 
@@ -51,10 +51,10 @@ Eftir að gögn hafa verið safnvistuð er hægt að skoða þau með því að 
 
 Til að hefja safnvistun gagna þegar ein runuvinnslan er keyrð skal kveikja á **Safnvista eyddum færslum**.
 
-## Hvað þarf að hafa í huga varðandi geymslu
+## <a name="storage-considerations"></a>Hvað þarf að hafa í huga varðandi geymslu
 
 Safnvistuð gögn eru geymd í töflunni **Geymslumiðill leigjanda**. Mælt er með því að gömul Skjalasöfn séu flutt út til dæmis CSV-skrá og síðan eytt gömlu safnfærslunum.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Stjórna geymslu með því að eyða skjölum eða þjappa gögnum](admin-manage-documents.md)

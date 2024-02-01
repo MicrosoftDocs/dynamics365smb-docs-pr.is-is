@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Verkskýrslur og greiningar í Business Central
+# <a name="project-reports-and-analytics-in-business-central"></a>Verkskýrslur og greiningar í Business Central
 
 Verkskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gerir starfsmönnum í framleiðslu og rekstri kleift að fá innsýn í og tölfræði um núverandi og fyrri verkaðgerðir.  
 
-## Skýrslur
+## <a name="reports"></a>Skýrslur
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## Verkefni
+## <a name="tasks"></a>Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)  
 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Verkefnastjórnun](projects-manage-projects.md)  

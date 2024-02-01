@@ -10,7 +10,7 @@ ms.date: 08/12/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Stilling útlits sem skýrsla notar
+# <a name="setting-the-layout-used-by-a-report"></a>Stilling útlits sem skýrsla notar
 
 > **Á VIÐ UM:** Business Central Online, Business Central á staðnum 2022 útgáfutímabil 1 og nýrra. Fyrir eldri útgáfur skaltu fara [hingað](ui-how-change-layout-currently-used-report.md).
 
@@ -18,7 +18,7 @@ Skýrsluútlit ákveður útlit skýrslunnar. Það stýrir því hvaða gagnare
 
 Þegar mörg fyrirtæki eru í forritinu eru útlitin stillt fyrir hvert fyrirtæki fyrir sig. Þannig að sama skýrslan í einu fyrirtæki getur verið með annað útlit en í öðru fyrirtæki.
 
-## Hafist handa
+## <a name="get-started"></a>Hafist handa
 
 Til eru nokkrar leiðir til að stilla hvaða útlit skýrsla notar. Hver leið hefur sína kosti, eftir því hvað leitast er við að gera: 
 
@@ -35,12 +35,12 @@ Til eru nokkrar leiðir til að stilla hvaða útlit skýrsla notar. Hver leið 
   > [!NOTE]
   > Þú getur ekki notað síðuna **Skýrsluútlit** fyrir Word- og RDLC-útlit sem var búið til með því að nota eldri eiginleikann af **Sérsniðnum útlitum**. Í raun sérðu ekki einu sinni þessi sérsniðnu útlit sem gefin eru upp á síðunni **Skýrsluútlit**. Fyrir þessi útlit er aðeins hægt að stilla þau með því að nota síðuna **Val á útliti skýrslu**.
 
-## Stilla útlit á síðu skýrsluútlits
+## <a name="set-the-layout-from-the-report-layouts-page"></a>Stilla útlit á síðu skýrsluútlits
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Finndu útlitið í listanum, veldu það og veldu svo aðgerðina **Stilla sjálfgefið** efst á síðunni.
 
-## Stilla útlitið á valsíðu skýrsluútlits
+## <a name="set-the-layout-from-report-layout-selection-page"></a>Stilla útlitið á valsíðu skýrsluútlits
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Val á skýrsluútliti** og velja síðan viðkomandi tengil.
   
@@ -53,11 +53,11 @@ Til eru nokkrar leiðir til að stilla hvaða útlit skýrsla notar. Hver leið 
 
 4. Á síðunni **Skýrsluútlit** velur þú útlitið og velur síðan **Í lagi**.
 
-## Fara aftur í upprunalegt sjálfgefið útlit
+## <a name="revert-to-the-original-default-layout"></a>Fara aftur í upprunalegt sjálfgefið útlit
 
 Skýrslur eru hannaðar til að nota sjálfgefið útlit. Þú getur skipt aftur yfir í upprunalegt sjálfgefið útlit á síðunni **Val á útliti skýrslu**. Veldu bara skýrsluna og veldu svo aðgerðina **Endurheimta sjálfgefið val** efst á síðunni.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

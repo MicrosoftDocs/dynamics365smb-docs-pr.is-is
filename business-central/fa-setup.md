@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Uppsetning eigna
+# <a name="setting-up-fixed-assets"></a>Uppsetning eigna
 
 Áður en þú getur unnið með eignir þarftu að skilgreina nokkur atriði:  
 
@@ -35,7 +35,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Læra um mismunandi Aðferðir við afskriftir eigna |[Afskriftaaðferðir](fa-depreciation-methods.md) |
 | Finndu út hvernig á að nota notandaskilgreindar afskriftaaðferðir. |[Uppsetning afskriftaaðferða sem notandi skilgreinir](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  

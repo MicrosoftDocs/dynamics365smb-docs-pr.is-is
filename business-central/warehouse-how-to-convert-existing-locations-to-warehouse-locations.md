@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Breyta fyrirliggjandi staðsetningum í vöruhúsastaðsetningar
+# <a name="convert-existing-locations-to-warehouse-locations"></a>Breyta fyrirliggjandi staðsetningum í vöruhúsastaðsetningar
 Hægt er að láta birgðageymslu sem til er nota svæði og hólf og vinna sem vöruhúsastað.  
 
 Keyrslan til að gera birgðageymslu virka fyrir vöruhúsaðgerðir stofnar upphafsfærslur vöruhúss fyrir leiðréttingarhólf vöruhúss fyrir allar vörur sem geymdar eru í birgðageymslunni. Þessar upphafsfærslur verða jafnaðar þegar raunbirgðafærslur vöruhúss eru færðar inn eftir keyrslu keyrslunnar.  
@@ -20,7 +20,7 @@ Hægt er að stofna svæði og hólf fyrir eða eftir umbreytinguna. Eina hólfi
 > [!IMPORTANT]  
 >  Til að hreinsa allar neikvæðar birgðir og öll opin vöruhúsaskjöl áður en birgðageymslu er umbreytt fyrir vöruhúsameðhöndlun skal keyra skýrslu til að finna vörurnar með neikvæðar birgður og opin vöruhúsaskjöl fyrir birgðageymsluna. Frekari upplýsingar eru í Athuga neikvæða birgðastöðu.  
 
-## Birgðageymsla sett upp sem vöruhúsastaður  
+## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Birgðageymsla sett upp sem vöruhúsastaður
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Stofna staðsetningu vöruhúss** og velja síðan viðkomandi tengil.  
 2.  Í reitnum **Kóti birgðageymslu** skal tilgreina birgðageymslu sem á að virkja fyrir úrvinnslu vöruhúss  
 3.  Í reitnum **Kóti leiðréttingarhólfs** skal tilgreina hólfinu í birgðageymslunni þar sem ósamstilltar vöruhúsafærslur eru geymdar. Frekari upplýsingar er að finna í [Að samstilla leiðréttar vöruhúsafærslur við tengdar birgðabókafærslur](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
@@ -35,7 +35,7 @@ Hægt er að stofna svæði og hólf fyrir eða eftir umbreytinguna. Eina hólfi
 
  Í þeim birgðageymslum þar sem vöruhúsastjórnunarskjöl voru ekki notuð fyrir umbreytinguna þarf að opna aftur og gefa út öll upprunaskjöl sem voru móttekin eða afhent að hluta fyrir umbreytinguna.  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 [Yfirlit](design-details-warehouse-management.md)
 [vöruhúsakerstjórnunar birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     

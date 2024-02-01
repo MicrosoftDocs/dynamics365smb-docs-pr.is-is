@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Settu upp rafræn skjöl
+# <a name="set-up-e-documents"></a>Settu upp rafræn skjöl
 
 > [!IMPORTANT]
 > E-Documents kjarnaeiningin er rammi. Sjálfgefið er að það er enginn **Þjónustusamþætting** reitur. Ef þú finnur valmöguleikana **skjalasnið**  sjálfgefið skaltu hafa í huga að þeir eru í boði sem dæmi og að staðsetning verður að veita nákvæmt snið. Þessar upplýsingar eru hluti af staðsetningarforritum vegna þess að þær eru sértækar fyrir staðbundnar kröfur.
@@ -21,7 +21,7 @@ ms.service: dynamics-365-business-central
 
 Fyrsta skrefið í uppsetningu rafrænna skjala (e-skjala) er að setja upp E-Documents Service þar sem þú stillir heildarhegðun kerfisins þíns þar sem það tengist rafrænum skjalasamskiptum.
 
-## Settu upp rafræna skjalaþjónustuna
+## <a name="set-up-the-e-document-service"></a>Settu upp rafræna skjalaþjónustuna
 
 Fylgdu þessum skrefum til að setja upp E-skjalaþjónustuna.
 
@@ -71,11 +71,11 @@ Ef þú hefur stillt **Data Exchange Definition** sniðið í staðsetningu þin
 
 Ef þú notar ekki **Gagnaskipti Skilgreining**  sniði geturðu búið til og stillt snið með því að nota [viðmót](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Stilltu upplýsingarnar á **Flytja út kortlagningu**  og **Flytja inn kortlagningu**  línur, þar sem þú getur fundið töflur og reiti til að stilla umbreytingarreglur. Í þessu tilviki verður þú að bæta við nýjum valkosti í **Skjalsnið**  reit sem tengist sniðinu þínu.  
 
-### Stuðar skjalagerðir 
+### <a name="supported-document-types"></a>Stuðar skjalagerðir
 
 Stuðlar skjalagerðir eru byggðar á því sem valið er **Skjalsnið**. Til að athuga hvaða skjalagerðir eru studdar, á **Rafræn skjalaþjónusta**  síðu, keyra **Stuðar skjalagerðir**  aðgerð. The **E-skjalaþjónusta studd upprunaskjalategundir**  opnast og í **Tegund upprunaskjals**  dálki geturðu fundið allar studdar skjalagerðir.  
 
-## Settu upp skjalasendingarsnið
+## <a name="set-up-a-document-sending-profile"></a>Settu upp skjalasendingarsnið
 
 Þú getur sett upp valinn aðferð til að senda söluskjöl fyrir hvern viðskiptavin. Þannig þarftu ekki að velja sendingarvalkost í hvert skipti sem þú velur aðgerðina **Posta og Senda** . Á síðunni **Sendingarsnið skjala**  geturðu sett upp mismunandi sendingarsnið og síðan valið meðal þeirra í **Sendingarsniði skjala** reitur á viðskiptavinakorti. Þú getur valið **Sjálfgefið** gátreitinn til að tilgreina að skjalasendingarsnið sé sjálfgefið snið fyrir alla viðskiptavini, nema viðskiptavini þar sem **Sendingarsnið skjala** reitur er stilltur á annan sendingarsnið.
 
@@ -97,7 +97,7 @@ Fylgdu þessum skrefum til að setja upp skjalasendingarsnið.
     > [!NOTE]
     > Ef þú velur **Extended E-Document Service Flow** í reitnum **Rafræn skjal**, verður þú nú þegar að hafa verkflæðið stillt fyrir rafræn skjöl þín.
 
-## Settu upp verkflæðið
+## <a name="set-up-the-workflow"></a>Settu upp verkflæðið
 
 Fylgdu þessum skrefum til að setja upp verkflæðið sem er notað í e-skjalavirkni.
 
@@ -116,7 +116,7 @@ Til að nota fleiri verkflæði skaltu stilla þau í gegnum skjalasendingarsni�
 
 Þegar þú stillir verkflæðið þitt á  **Workflow** síðunni skaltu benda á **On Condition** reitinn á **Verkflæðisskref** FastTab. Á síðunni **Skilyrði viðburða**, í reitnum **Sía**, velurðu skjalasendingarsniðið sem þú vilt nota.
 
-## Settu upp varðveislustefnu fyrir rafræn skjöl
+## <a name="set-up-a-retention-policy-for-e-documents"></a>Settu upp varðveislustefnu fyrir rafræn skjöl
 
 Rafræn skjöl geta verið viðfangsefni mismunandi staðbundinna laga sem tengjast því tímabili sem rafræn skjöl eru geymd í. Þess vegna höfum við bætt við uppsetningu varðveislustefnu fyrir allar mikilvægar upplýsingar sem tengjast rafrænum skjölum. Stjórnendur geta skilgreint varðveislustefnur sem tilgreina hversu oft Dynamics 365 Business Central eyðir úreltum skrám sem tengjast rafrænum skjölum. Til að læra meira um varðveislustefnur, sjá [Skilgreina varðveislustefnur](admin-data-retention-policies.md).
 
@@ -130,7 +130,7 @@ Til að setja upp varðveislustefnur tengdar rafrænum skjölum skaltu fylgja þ
     - Vörpunarskrá rafræns skjals
     - Gagnageymsla rafrænna skjala
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Hvernig á að nota rafræn skjöl í Business Central](finance-how-use-edocuments.md)  
 [Hvernig á að framlengja rafræn skjöl í Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

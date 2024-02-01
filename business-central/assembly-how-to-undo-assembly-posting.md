@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# Afturkalla samsetningarbókun
+# <a name="undo-assembly-posting"></a>Afturkalla samsetningarbókun
 
 Afturkalla bókun samsetningarpöntunar til að leiðrétta mistök eða fjarlægja óæskilega bókun.
 
@@ -34,7 +34,7 @@ Aðeins er hægt að endurheimta samsetningarskipanir Ef fjöldi og röð lína 
 
 Eftirfarandi ferli lýsir því hvernig á að afturkalla bókaðar samsetningarpantanir sem innihalda vörur sem voru settar saman á lager. Til að afturkalla bókaðar samsetningarpantanir með vörum sem settar voru saman til pöntunar er notuð  **afturkalla Sendingaraðgerð**  á tengdri bókaðri afhendingu. Frekari upplýsingar um afturkalla afhendingu fara í  [Bakfæra Færslubókarbókanir og afturkalla innhreyfingar/afhendingar](finance-how-reverse-journal-posting.md). Afturkalla bókaða söfnunarpöntun gerist á sama hátt og lýst er í þeirri grein.  
 
-## Til að afturkalla bókun samsetningarpöntunar
+## <a name="to-undo-posting-of-an-assembly-order"></a>Til að afturkalla bókun samsetningarpöntunar
 
 Hægt er að afturkalla bókaðar samsetningarpantanir að fullu eða að hluta.
 
@@ -51,7 +51,7 @@ Hægt er að afturkalla bókaðar samsetningarpantanir að fullu eða að hluta.
 > [!NOTE]  
 > Til að endurheimta magn úr mörgum bókunum í samsetningarpöntun verður að afturkalla allar bókaðar samsetningarpantanir með því að fylgja þrepum 1 til 3.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)  

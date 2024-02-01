@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.date: 10/10/2023
 ms.service: dynamics-365-business-central
 ---
-# Um umreikning staðalkostnaðar
+# <a name="about-calculating-standard-cost"></a>Um umreikning staðalkostnaðar
 
 Mörg framleiðslufyrirtæki velja matsgrundvöll staðlaðs kostnaðarverðs. Þetta á einnig við fyrir fyrirtæki sem framkvæma létta framleiðslu, til dæmis samsetningu og röðun í sett. Í stöðluðu kostnaðarverðskerfi er kostnaðarverð birgða ákvarðað á grundvelli einhvers ásættanlegs eða viðbúins kostnaðar. Rannsóknir á fyrri kostnaði og áætluðum framtíðarkostnaði  geta skapað grundvöllinn fyrir stöðluðu kostnaðarverði. Þessi kostnaður er frystur þar til ákvörðun er tekin um að breyta honum. Raunverulegur kostnaður við framleiðslu afurðar getur verið frábrugðinn áætluðum stöðluðum kostnaði. Raunverulegi kostnaðurinn er borinn saman við staðlað kostnaðarverð tiltekinnar vöru og munur á þeim eða *frávik* eru fundin og greind til að auðvelda stjórnun.  
 
@@ -21,7 +21,7 @@ Hægt er að viðhalda stöðluðum kostnaði fyrir vörur fyllt er á með innk
 |**Samsetning**|Beinn efniskostnaður er beinn eða fastur vinnukostnaður og sameiginlegur kostnaður.|  
 |**Framl.pöntun**|Beinn efniskostnaður,vinnukostnaður, undirverktakakostnaður og sameiginlegur kostnaður.|  
 
-## Uppsetning staðlaðs kostnaðarverðs
+## <a name="setting-up-standard-costs"></a>Uppsetning staðlaðs kostnaðarverðs
 
 Þar sem staðlað kostnaðarverðframleiddrar eða samsettrar vöru getur samanstaðið af mörgum kostnaðarliðum, þar með talið efnis-, afkastagetu- (vinnu-) og undirverktakakostnaði (beinum og sameiginlegum), þarf að búa til staðlað kostnaðarverð fyrir hvern þessara liða.  
 
@@ -38,7 +38,7 @@ Eftirfarandi lykilkostnaðarliðir mynda samtölu beins kostnaðar vöru sem er 
 - Getukostnaður  
 - Undirverktakakostnaður fyrir framleiddar vörur eingöngu.  
 
-### Efniskostnaður
+### <a name="material-costs"></a>Efniskostnaður
 
 Efniskostnaður er kostnaður sem tengist undirsamsetningum og aðkeyptum hráefnum. Efniskostnaðarverð getur samanstaðið af beinum og óbeinum kostnaðarliðum.  
 
@@ -56,7 +56,7 @@ Hægt er að setja efniskostnað framleiddrar vöru fram á tvo vegu sem samsvar
 |Eitt stig|Framleidd vara er jöfn heildarkostnaði allra keyptra eða undirsamsettra vara í framleiðsluuppskrift vörunnar.|  
 |Samantekið stig eða mörg stig|Framleidd vara er samtala efniskostnaðar fyrir allar undirsamsetningar á uppskrift þeirrar vöru og kostnaðar allra aðkeyptra vara á framleiðsluuppskrift þeirrar vöru.|  
 
-### Getukostnaður
+### <a name="capacity-costs"></a>Getukostnaður
 
 Getukostnaður er sá kostnaður sem er tengdur við kostnað við innanhússvinnuafl og vélar. Setja verður upp kostnað fyrir sérhvern forða (í samsetningarstjórnun) og verk eða vélastöð á leið (í framleiðslu). Eins og með efni er hægt að finna bæði beina og óbeina kostnaðarliði getu. Til dæmis getur Beinn kostnaður vinnustöðvar verið stofngengi sem stofnað er til til að framkvæma tiltekna aðgerð. Óbeinn kostnaður fyrir vinnustöð getur staðið undir einhverjum almennum verksmiðjukostnaði, svo sem lýsingu, hitun og þess háttar. Hægt er að setja sameiginlegan getukostnað fram sem óbeina kostnaðarprósentu eða fastan taxta sameiginlegs kostnaðar, svipað og með efniskostnað.  
 
@@ -81,13 +81,13 @@ Til að tilgreina uppsetningartíma á leiðinni fyrir áætlun en ekki taka þe
 
 Á eins stigs grundvelli er þetta sá vinnukostnaður sem þarf til að framleiða fullunnu framleiðsluvöruna og er tilgreint á leið framleiðsluvörunnar. Á margra stiga grundvelli er þetta afkastakostnaðurinn sem er tilgreindur fyrir hverja framleidda vöru á uppskrift yfirvörunnar.  
 
-### Undirverktakakostnaður
+### <a name="subcontractor-costs"></a>Undirverktakakostnaður
 
 Undirverktakakostnaður er sá kostnaður sem er tengdur við þjónustu sem utanaðkomandi birgjar og undirverktakar bjóða upp á. Svipað og með efni og afkastagetu kann undirverktakakostnaður að samanstanda af bæði beinum og sameiginlegum upphæðum. Beinn undirverktakakostnaður felur í sér raunverulegt gjald fyrir hverja veitta þjónustueiningu. Til dæmis getur kostnaður undirverktaka fyrir kostnað fyrir flutning og umsjón með kostnaði verið í fyrirtækinu með undisamið pöntun.  
 
 Þar sem undirverktakastarfsemi færsla á afkastagetu út fyrir fyrirtækið er kostnaðurinn við þjónustu undirverktaka (beinn og óbeinn) settur upp á vinnustöðvarspjaldinu sem stendur fyrir undirverktakaaðgerðina.  
 
-## Uppfærsla staðlaðs kostnaðarverðs
+## <a name="updating-standard-costs"></a>Uppfærsla staðlaðs kostnaðarverðs
 
 Til að uppfæra eða reikna staðlað kostnaðarverð fyrir samsetningarvörur er aðgerðin notuð af birgðaspjaldinu.  
 
@@ -98,9 +98,9 @@ Ferlið til að uppfæra eða reikna út staðlaðan kostnað samanstendur yfirl
 3.  Innleiðing staðlaðs kostnaðar sem færður var inn þegar fyrri keyrsla var keyrð. Staðallinn kostnaður tekur ekki gildi fyrr en þau eru útfærð. Notaðu runuvinnsluna **Innleiða breytingu á stöðluðu kostnaðarverði**, sem uppfærir breytingar á staðalkostnaði á vörum með þeim sem er í töflunni vinnublað staðlaðs kostnaðarverðs.  
 4.  Innleiðing breytinga til að uppfæra reitinn **Kostn.verð** á birgðaspjaldinu og framkvæmd endurmats á birgðum. Nánari upplýsingar eru í [Endurmat birgða](inventory-how-revalue-inventory.md).
 
-## Nota runuvinnslur til að uppfæra staðalkostnað
+## <a name="use-batch-jobs-to-update-standard-costs"></a>Nota runuvinnslur til að uppfæra staðalkostnað
 Í eftirfarandi köflum er lýst runuvinnslum sem hægt er að nota til að uppfæra staðalkostnað.
-### Leggja til staðalkostnað vöru
+### <a name="suggest-item-standard-cost"></a>Leggja til staðalkostnað vöru
 
  Býr til tillögur um breytingar á kostnaði og kostnaðarhlutdeild staðalkostnaðar á birgðaspjöldum. Þegar keyrslunni er lokið er hægt að sjá niðurstöðuna í glugganum Vinnublað staðlaðs kostnaðarverðs.
 
@@ -108,7 +108,7 @@ Ferlið til að uppfæra eða reikna út staðlaðan kostnað samanstendur yfirl
 > Þessi keyrsla er eingöngu ætluð fyrir keypta vöru. Ef uppfæra á vöru með framleiðsluuppskrift eða samsetningaruppskrift verður fyrst að fylla út vinnublaðið með öllum íhlutunum og keyra síðan keyrsluna taka saman staðlað kostnaðarverð.
 
 Keyrslan býr aðeins til tillögur. Það innleiða ekki þær breytingar sem lagðar eru til. Ef tillögurnar eru fullnægjandi og eiga að innleiða þær, þ.e. uppfæra þær á birgðaspjöldin og setja þær inn í endurmatsbókina, þá skal velja innleiða breytingar á stöðluðu kostnaðarverði í glugganum Vinnublað staðlaðs kostnaðarverðs.
-#### Valkostir
+#### <a name="options"></a>Valkostir
 
 **Staðlaður kostnaður** : færður inn Leiðréttingarstuðull sem á að nota til að uppfæra staðalkostnaðinn. Einnig er hægt að velja sléttunaraðferð fyrir nýja staðlaða kostnaðinn. Fylla verður út í svæðið með aukastöfum fyrir prósentuhækkun, til dæmis 1,1.
 
@@ -116,21 +116,21 @@ Keyrslan býr aðeins til tillögur. Það innleiða ekki þær breytingar sem l
 
 **Hlutfall** sameiginlegs kostnaðar: Færa skal inn leiðréttingarstuðulinn sem á að nota til að uppfæra hlutfall sameiginlegs kostnaðar. Einnig er hægt að velja sléttunaraðferð fyrir nýtt hlutfall sameiginlegs kostnaðar. Fylla verður út í svæðið með aukastöfum fyrir prósentuhækkun, til dæmis 1,1.
 
-### Leggja til staðalkostn. vinnu-/vélast.
+### <a name="suggest-workmach-ctr-std-cost"></a>Leggja til staðalkostn. vinnu-/vélast.
 
 Stofnar tillögur um breytingar á kostnaði og kostnaðarhlutdeild staðalkostnaðar vinnustöðvar, vélastöðvar eða forðaspjöld. Þegar keyrslunni er lokið er hægt að sjá niðurstöðuna í  **glugganum Vinnublað**  staðlaðs kostnaðarverðs.
 
 Keyrslan býr aðeins til tillögur. Það innleiða ekki þær breytingar sem lagðar eru til. Ef tillögurnar eru fullnægjandi og koma á þeim í framkvæmd, þ.e. uppfæra þær á vinnu-/vélastöð-og forðaspjöldum og setja þau inn í gluggann endurmatsbókin, þá er valið  **innleiða breytingar**  á stöðluðu kostnaðarverði í  **glugganum Vinnublað**  staðlaðs kostnaðarverðs.
 
 Þegar keyrslan er keyrð og óskað er eftir að skoða áhrif á framleiðslu eða samsetningardeildir þá keyrir  **keyrslan rúlla upp staðlað kostnaðarverð**  til að uppfæra staðalkostnað á vinnustöðvar, vélastöðvar, samsetningaraðföng, framl. uppskriftir og samsetningaruppskriftir.
-#### Valkostir
+#### <a name="options-1"></a>Valkostir
 **Staðlaður kostnaður** : færður inn Leiðréttingarstuðull sem á að nota til að uppfæra staðalkostnaðinn. Einnig er hægt að velja  **sléttunaraðferð**  fyrir nýja staðlaða kostnaðinn. Fylla verður út í svæðið með aukastöfum fyrir prósentuhækkun, til dæmis 1,1.
 
 **Óbeinn kostnaður%** : færður er inn leiðréttingarstuðullinn sem á að nota til að uppfæra óbeina kostnaðinn%. Einnig er hægt að velja sléttunaraðferð fyrir nýja óbeina kostnaðar%. Fylla verður út í svæðið með aukastöfum fyrir prósentuhækkun, til dæmis 1,1.
 
 **Hlutfall** sameiginlegs kostnaðar: Færa skal inn leiðréttingarstuðulinn sem á að nota til að uppfæra hlutfall sameiginlegs kostnaðar. Einnig er hægt að velja sléttunaraðferð fyrir nýtt hlutfall sameiginlegs kostnaðar. Fylla verður út í svæðið með aukastöfum fyrir prósentuhækkun, til dæmis 1,1.
 
-### Bóka birgðakostnað í fjárhag
+### <a name="post-inventory-cost-to-gl"></a>Bóka birgðakostnað í fjárhag
 
  Skráir magn og virði breytinga í birgðir í birgðafærslum og virðisfærslum þegar birgðafærslur eru bókaðar, svo sem sölusendingar eða innkaupamóttökur.
 
@@ -148,7 +148,7 @@ Ef ganga á úr skugga um að runuvinnslan rekist ekki á villur er hægt að ke
  
 > [!IMPORTANT]  
 > Áður en þessi keyrsla er notuð ætti að keyra  **keyrsluna Leiðr. kostn. birgðafærslur** . Þetta tryggir að kostnaður sem er bókaður í Fjárhag verði leiðréttur þegar þessi keyrsla er keyrð.
-#### Valkostir
+#### <a name="options-2"></a>Valkostir
 
 |Valkostur  |Heimildasamstæða  |
 |--------------|---------|
@@ -156,7 +156,7 @@ Ef ganga á úr skugga um að runuvinnslan rekist ekki á villur er hægt að ke
 |**Fylgiskjal nr.**|Í þennan reit má tilgreina fylgiskjalsnúmer ef aðgerðin Bóka eftir birgðabókunarflokki var valin. Númer fylgiskjals birtist í bókuðum færslum.|
 |**Færsla**|Veljið þetta svæði ef óskað er eftir að keyrslan bóki sjálfkrafa í fjárhag. Ef ekki er valið að bóka birgðakostnaður í fjárhag prentast aðeins prófunarskýrsla sem sýnir gildin sem hægt er að bóka fjárhag, og í skýrslunni birtast:  **Prófunarskýrsla (ekki bókuð)**.|
 
-### Leggja saman staðl. kostnaðarv.
+### <a name="roll-up-standard-cost"></a>Leggja saman staðl. kostnaðarv.
 
 Veltir upp stöðluðum kostnaði samsettra og framleiddra vara. Þær hafa áhrif á breytinguna á stöðluðum kostnaði íhluta sem lagðir eru til við  **keyrsluna Leggja til staðlað kostnaðarverð**  vöru. Að auki eru þau áhrif breytinga á stöðluðum kostnaði á framleiðslugetu og samsetningu forða  **sem keyrslan leggja til staðlað kostnaðarverð**  vinnu/vélastöðvar leggur til.
 
@@ -166,14 +166,14 @@ Veltir upp stöðluðum kostnaði samsettra og framleiddra vara. Þær hafa áhr
 > Þessi aðgerð rúllar aðeins staðalkostnaðinum á birgðaspjöldin, ekki á BIRGÐASPJÖLDIN.
 
 Keyrslan býr aðeins til tillögur. Það innleiða ekki þær breytingar sem lagðar eru til. Ef tillögurnar eru fullnægjandi og koma á þeim í framkvæmd, þ.e. uppfæra þær á birgðaspjöldin og setja þær inn í  **gluggann endurmatsbókaráætlun**, þá er hægt að nota  **keyrsluna Innleiða breytingu**  á stöðluðu kostnaðarverði. Keyrslan er notuð úr  **glugganum Vinnublað**  staðlaðs kostnaðarverðs.
-#### Valkostir
+#### <a name="options-3"></a>Valkostir
 
 **Dagsetning** útreikninga: færð er inn dagsetningin sem á við útgáfu FRAMLEIÐSLUUPPSKRIFTARINNAR sem á að gera rúlluna til.
  
-### Innleiða breytingu á stöðluðu kostnaðarverði
+### <a name="implement-standard-cost-change"></a>Innleiða breytingu á stöðluðu kostnaðarverði
 
 Uppfærir breytingar á stöðluðum kostnaði í  **töflunni Vara**  með þeim í  **töflunni vinnublað**  staðlaðs kostnaðarverðs. Hægt er að stofna breytingatillögur staðlaðs kostnaðarverðs með  **keyrslunni Leggja til staðlað kostnaðarverð**  vöru og/eða tillögugerð  **vinnu-/**  vélastöðvar og einnig er hægt að breyta þeim. Efni allra reitanna í breytingatillögunum um staðlað kostnaðarverð er flutt. Þegar tillögur um breytingar eru gerðar á stöðluðum kostnaði er hægt að skoða þær á birgðaspjaldinu og/eða á vinnu-/vélastöðspjöldin. Einnig er stofnuð endurmatsbók til að uppfæra virði fyrirliggjandi birgða.
-#### Valkostir
+#### <a name="options-4"></a>Valkostir
 
 **Bókunardags**.: Hér er færð inn dagsetningin þegar endurmat á að fara fram.
 
@@ -185,7 +185,7 @@ Uppfærir breytingar á stöðluðum kostnaði í  **töflunni Vara**  með þei
 
 Velja  **í lagi**  til að ræsa runuvinnsluna. Ef ekki á að keyra runuvinnsluna núna skal velja  **Hætta**  við til að loka glugganum.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
 [Uppfæra staðlaðan kostnað](finance-how-to-update-standard-costs.md)  

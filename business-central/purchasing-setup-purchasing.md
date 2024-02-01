@@ -10,7 +10,7 @@ ms.date: 08/30/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Uppsetning innkaupa
+# <a name="setting-up-purchasing"></a>Uppsetning innkaupa
 
 Áður en hægt er að hefjast handa við að stýra kaupferlum þarf að grunnstilla reglur og gildi sem ráða kaupreglum fyrirtækisins.
 
@@ -20,11 +20,11 @@ Sérstakar raðir verkefna sem tengjast skráningu nýrra lánardrottna er að s
 
 Farið er nánar yfir uppsetningu kaupa sem tengjast fjármunum, svo sem greiðsluaðferðir og gjaldmiðlar í hlutanum uppsetning fjárhags. Frekari upplýsingar má finna á [Uppsetning Fjármála](finance-setup-finance.md). Á sama hátt er hægt að finna birgðatengda uppsetningu innkaupa, svo sem mælieiningar og rakningarkóða atriða, í hlutanum [Birgðagrunnur](inventory-setup-inventory.md).
 
-## Innkaupagrunnur
+## <a name="purchases-and-payables-setup"></a>Innkaupagrunnur
 
 Áður en unnið er með innkaup og viðskiptaskuldir skal tilgreina á síðunni **Innkaupagrunnur** hvernig innkaupavirði er bókað og númeraröðin sem notuð er fyrir lánardrottna- og innkaupaskjöl.
 
-### Almennar stillingar
+### <a name="general-settings"></a>Almennar stillingar
 
 Á flýtiflipanum **Almennt** eru tilgreindir valkostir, eins og hvernig á að reikna og bóka afslátt og hvort slétta eigi reikninga, tilgreindir hér. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -36,15 +36,15 @@ Einnig geta sumir reitir breytt hegðun sinni eða farið eftir því hvernig a�
 
 Lestu upplýsingar um reitina [**Nr. utanaðk. skjals áskilið**](#external-document-number) og [**Nákvæmar kostnaðarbakfærslur áskildar**](#exact-cost-reversing) hér að neðan.
 
-### Stillingar númeraraðar
+### <a name="number-series-settings"></a>Stillingar númeraraðar
 
 Í flýtiflipanum **Númeraraðir** þarf að tilgreina einkvæman auðkenniskóða sem verður notaður fyrir lánardrottna, reikninga og önnur innkaupaskjöl. Tölusetning er mikilvæg ekki bara fyrir innri ferla heldur gæti einnig þurft að fylgja staðbundnum reglugerðum. Svo það gæti verið þess virði að íhuga að setja upp allar raðirnar á síðunni **Númeraraðir** á undan í staðinn fyrir að búa til nýjar í **Uppsetning innkaupagrunns**. Frekari upplýsingar er að finna í [Búa til númeraraðir](ui-create-number-series.md).
 
-## Númer ytra skjals
+## <a name="external-document-number"></a>Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Nákvæm bakfærsla kostnaðar
+## <a name="exact-cost-reversing"></a>Nákvæm bakfærsla kostnaðar
 
 Aðgerðina **Nákvæmar kostnaðarbakfærslur áskildar** tryggir að skilavörur séu metnar á sama kostnaði og þegar þær voru teknar úr birgðum með því að nota fasta jöfnun í staðinn fyrir að fylgja meðaltali eða fyrst inn, fyrst út (FIFO) kostnaðarútreikningi. Frekari upplýsingar er að finna í hlutanum [Hönnunarupplýsingar: Föst jöfnun](design-details-item-application.md#fixed-application). Ef viðbótarkostnaði er síðar bætt við upphaflegu innkaupin er virði innkaupaskilanna uppfært til samræmis.
 
@@ -52,7 +52,7 @@ Með eiginleikann virkan getur skilafærsla aðeins verið bókuð með því a�
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## Fleiri innkaupauppsetningar
+## <a name="more-purchasing-setups"></a>Fleiri innkaupauppsetningar
 
 | Til | Sjá |
 | --- | --- |
@@ -69,7 +69,7 @@ Með eiginleikann virkan getur skilafærsla aðeins verið bókuð með því a�
 | Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir. |[Skýrsluval í Business Central](across-report-selections.md)|
 |Tilgreinið hvort notendur eigi að fá bókun innkaupareikninga og hvort þeir verði að bóka þá ásamt sendingu. |[Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)|
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  
 [Setja upp yfirlit](setup.md)  
