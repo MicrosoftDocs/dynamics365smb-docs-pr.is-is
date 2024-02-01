@@ -3,9 +3,7 @@ title: Greiða með AMC Banking (US) eða SEPA-kreditfærslu (ESB)
 description: Meðhöndla greiðslur til lánardrottna með því að flytja út skrá (EFT) með greiðsluupplýsingum í færslubókarlínum.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021

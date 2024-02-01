@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/30/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Þegar notendur eru settir upp fyrir samþykktarverkflæði er mikilvægt að sami notandi sé ekki bæði meðumsækjendur eða samþykkjandi í notendaflokki verkflæðis. Þegar notandi er bæði meðverkandi og samþykkjandi, vinnur samþykki fyrir þá sem hér segir:

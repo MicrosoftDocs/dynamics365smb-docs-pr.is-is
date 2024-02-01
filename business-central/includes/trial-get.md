@@ -1,13 +1,13 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/05/2022
+ms.date: 01/17/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-1. Opnaðu [svæði prufuútgáfu](https://go.microsoft.com/fwlink/?linkid=847861), veldu *Fjármál og rekstur* og síðan í spjaldinu **Dynamics 365 Business Central** skaltu velja hnappinn **Prófa ókeypis**.  
-2. Sláðu inn vinnu- eða skólanetfangið þitt og aðrar upplýsingar. Farið verður með þig í prufuútgáfuna á [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
+<!--1. Go to **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page, and choose the **Try for free** button.-->  
 
-Það tekur smástund að hlaða inn prufuútgáfunni, síðan geturðu byrjað að nota forritið. Gátlistinn **Hefjast handa** fer með þig í gegnum skrefin til að undirbúa þig undir viðskipti. Þrepin eru mismunandi eftir landshlutum og hvaða atvinnugreinlegu aðgerðum sem bætt hefur verið við notanda [!INCLUDE [prod_short](prod_short.md)].  
+Það tekur smástund að hlaða inn prufuútgáfunni, síðan geturðu byrjað að nota forritið. Gátlistinn **Hefjast handa** fer með þig í gegnum skrefin til að undirbúa þig undir viðskipti. Skrefin eru breytileg eftir landi/svæði og hvers kyns sértækri virkni sem þú hefur bætt við [!INCLUDE [prod_short](prod_short.md)].  
 
 Í [!INCLUDE[prod_short](prod_short.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Þegar þú skráir þig fyrst inn í sýnifyrirtækið færðu aðgang að „Hefjast handa“ spjaldinu með tengil á sýnikynningar. Nánari upplýsingar er að finna í greinunum [Að undirbúa sig fyrir viðskipti](../ui-get-ready-business.md) og [stuttir leiðarvísar](../quick-start-business-central.md).  
 

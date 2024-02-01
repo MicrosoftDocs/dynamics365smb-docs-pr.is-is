@@ -3,9 +3,7 @@ title: Stofna birgðaspjald fyrir vörur eða þjónustu (inniheldur myndskeið)
 description: Þú býrð til birgðaspjöld fyrir þjónustu sem þú selur sem klukkutíma og fyrir efnislegar vörur. Sem dæmi má nefna samsetningaríhluti og fullbúnar vörur sem þú selur úr birgðum.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
 ms.date: 11/02/2022

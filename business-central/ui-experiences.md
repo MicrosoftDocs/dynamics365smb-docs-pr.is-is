@@ -3,9 +3,7 @@ title: Breyta því hvaða eiginleikar eru sýndir
 description: 'Kynntu þér hvað notandaupplifunin Grunnur og Úrvals þýða fyrir notandaviðmótið, notkunarsvið og fyrirtækið þitt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'essential, basic, user interface, application area, experience'
 ms.search.form: 1
 ms.date: 04/01/2021

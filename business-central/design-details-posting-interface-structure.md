@@ -3,9 +3,7 @@ title: Hönnunarupplýsingar - Uppbygging bókunarviðmóts
 description: Í þessu efnisatriði er að finna yfirlit yfir altæk ferli og hönnunarupplýsingar í uppbyggingu bókunarviðmóts.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'posting, interface, design'
 ms.date: 06/15/2021
 ms.author: bholtorf

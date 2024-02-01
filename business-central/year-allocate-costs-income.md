@@ -3,9 +3,7 @@ title: Yfirlit yfir verkefni við að úthluta kostnaði og tekjum
 description: Lýsir verkefnunum sem á að úthluta færslu í ítrekunarbók á marga mismunandi lykla þegar færslubókin er bókuð.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '283, 5629'
 ms.date: 09/26/2023
 ms.author: bholtorf

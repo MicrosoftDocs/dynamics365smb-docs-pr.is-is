@@ -3,9 +3,7 @@ title: Þjónustukerfi
 description: Kynntu þér hvernig á að nota eiginleika í Business Central sem eru hannaðir til að hafa umsjón með og fylgjast með þjónustum til að styðja verkstæði og þjónustuaðgerðir á staðnum.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

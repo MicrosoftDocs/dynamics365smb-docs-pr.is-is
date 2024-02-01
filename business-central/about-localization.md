@@ -9,14 +9,15 @@ ms.search.keywords: 'availability, localization'
 ms.search.form: null
 ms.date: 09/05/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="what-is-local-functionality-in-"></a>Í hverju felst staðbundin virkni [!INCLUDE[prod_long](includes/prod_long.md)]?
+# Í hverju felst staðbundin virkni [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum hluta geturðu séð lýsingar á virkni sem á við um löndin/svæðin þar sem Microsoft býður upp á samræmi við reglur og aðra staðbundna virkni.  
 
 Til að fá lista yfir þá markaði sem nú eru studdir, farðu í [Aðgengi á landi/svæði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Staðbundin virkni
+## Staðbundin virkni
 
 Eftirfarandi tafla veitir tengla á greinar þar sem þú getur lært um staðbundna virkni fyrir hvert land/svæði.
 
@@ -47,11 +48,11 @@ Eftirfarandi tafla veitir tengla á greinar þar sem þú getur lært um staðbu
 |        | Indland | [Staðbundnar aðgerðir fyrir Indland](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nýja-Sjáland | [Staðbundnar aðgerðir fyrir Nýja-Sjáland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Önnur lönd/svæði
+### Önnur lönd/svæði
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Búðu til umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Undirbúðu þig undir viðskiptin](ui-get-ready-business.md)  

@@ -3,9 +3,7 @@ title: Endurflokka eignir
 description: 'Eign er endurflokkuð til að flytja hana yfir í aðra deild, skipta henni upp eða sameina hana öðrum eignum.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5638, 5636, 5640, 5637'
 ms.date: 04/01/2021
 ms.author: bholtorf

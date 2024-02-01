@@ -3,9 +3,7 @@ title: Notkun skattskráarsniða (DK) viðbótarinnar
 description: Viðbót skattskráarsniðs gerir það auðvelt að flytja út skrár sem eru forstilltar til að uppfylla kröfur banka um rafræna skráningu.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'extension, bank, formats'
 ms.date: 11/28/2023
 ms.author: bholtorf

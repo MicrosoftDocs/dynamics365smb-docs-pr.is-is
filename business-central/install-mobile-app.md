@@ -3,9 +3,7 @@ title: Fáðu Business Central í farsímann þinn (inniheldur myndband)
 description: 'Þessi grein lýsir hinum ýmsu leiðum sem þú getur skoðað og breytt Business Central gögnunum þínum, sent í Excel og fleira í símanum eða spjaldtölvunni.'
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'desktop, Windows, app'
 ms.date: 12/13/2023
 ms.author: jswymer

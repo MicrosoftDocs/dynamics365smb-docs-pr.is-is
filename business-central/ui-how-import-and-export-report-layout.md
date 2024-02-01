@@ -3,9 +3,7 @@ title: Flytja inn og út skýrslu- og skjalaútlit
 description: Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skrá í og úr staðsetningu á tölvu og neti.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: bholtorf

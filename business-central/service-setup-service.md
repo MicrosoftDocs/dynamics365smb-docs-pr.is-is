@@ -3,9 +3,7 @@ title: Þjónustustýring sett upp | Microsoft Docs
 description: Yfirlit yfir verkhluta til að setja upp Þjónustustýringu sem hentar því hvernig fyrirtæki þitt stýrir þjónustunni.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, service items, repairs, maintenance, fix'
 ms.date: 04/01/2021
 ms.author: bholtorf

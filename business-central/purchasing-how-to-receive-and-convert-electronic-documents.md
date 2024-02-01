@@ -3,9 +3,7 @@ title: Taka við og umbreyta rafræn skjölum
 description: Þetta efnisatriði lýsir því hvernig á að fá rafræn skjöl beint frá viðskiptafélögum eða frá OCR-þjónustu.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021

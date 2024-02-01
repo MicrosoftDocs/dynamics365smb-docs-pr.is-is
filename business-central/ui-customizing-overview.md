@@ -3,9 +3,7 @@ title: Sérstilling Business Central
 description: Lestu um mismunandi leiðir við að sérsníða Business Central til að bæta aðgengi að virkni og eiginleikum sem þú þarft mest á að halda við dagleg störf.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'personalize, add-in, extend, customize'
 ms.search.form: '2500, 2502'
 ms.date: 06/23/2021

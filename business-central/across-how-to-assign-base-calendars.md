@@ -3,9 +3,7 @@ title: Setja upp grunndagatöl
 description: Hægt er að úthluta fyrirtækinu og viðskiptafélögum grunndagatali til að reikna út afhendinga- og móttökudagsetningar samkvæmt þeim vinnudögum sem tilgreindir eru.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '7600, 7601, 7602, 5703'
 ms.date: 06/11/2021
 ms.author: bholtorf

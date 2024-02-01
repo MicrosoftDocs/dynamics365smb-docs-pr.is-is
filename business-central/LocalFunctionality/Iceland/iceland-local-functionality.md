@@ -3,18 +3,17 @@ title: Staðbundnar aðgerðir fyrir Ísland
 description: Þetta efnisatriði veitir tengla á lýsingar á eiginleikum sem eru sérstaklega fyrir íslenska útgáfu Dynamics 365 Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="iceland-local-functionality"></a>Staðbundnar aðgerðir fyrir Ísland
+# Staðbundnar aðgerðir fyrir Ísland
 
 Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslenskri útgáfu [!INCLUDE[prod_short](../../includes/prod_short.md)]
 
-## <a name="feature-availability"></a>Framboð á eiginleika
+## Framboð á eiginleika
 
 * VSK
     * [Prenta VSK-yfirlit á skjölum](how-to-print-vat-summary-information-on-documents.md) **Nú í boði**
@@ -27,11 +26,11 @@ Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslensk
     * [Varpa skattstofunúmerum í bókhaldslyklana](how-to-map-irs-numbers-to-chart-of-accounts.md) **Nú í boði**
     * [Eyðing bókaðra reikninga og kreditreikninga](deleting-posted-invoices-and-credit-memos.md) **Nú í boði**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Síðari löggæslukröfur verið rannsakaðar
+## Síðari löggæslukröfur verið rannsakaðar
 
 Eins og er eru engar væntanlegar eftirlitsaðgerðir eða kröfur. Ef þú ert meðvitaður um einhverjar aðgerðir í komandi aðgerðum, vinsamlegast sendu regluverði  [aðgangsstýringa viðvörun](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Vinna með [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

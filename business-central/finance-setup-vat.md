@@ -3,9 +3,7 @@ title: Setja upp virðisaukaskatt
 description: 'Ganga úr skugga um að rétt reikna, bóka, og tilkynna á VSK vegna sölu eða innkaup. Mælt er með að nota uppsetningarleiðsögn til að setja upp VSK.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'VAT, posting, tax, value-added tax'
 ms.search.form: '10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,'
 ms.date: 01/31/2023

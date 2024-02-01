@@ -3,9 +3,7 @@ title: Keyra framleiðslu
 description: 'Þegar eftirspurn hefur verið áætluð og efnið sent út samkvæmt framleiðsluuppskriftum, geta raunverulegar framleiðsluaðgerðir hafist og verið framkvæmdar í þeirri röð sem skilgreind er af framleiðslupöntunarleiðinni.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785'
 ms.date: 04/01/2021
 ms.author: bholtorf

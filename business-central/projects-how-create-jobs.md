@@ -3,7 +3,6 @@ title: Stofna verkspjald fyrir verk og tilgreina verkhluta
 description: 'Í nýju verkefni skal stofna verkspjald sem inniheldur verkhluta starfsins og áætlunarlínur, til að auðvelda þér að stjórna framvindu og fjárhagsáætlunum.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: 'project management, task'
 ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022

@@ -3,9 +3,7 @@ title: Uppfæra sérsniðið skýrsluútlit
 description: Kynntu þér hvernig á að uppfæra sérsniðið útlit skýrslu sem notað er í skýrslu þegar breytingar verða á hönnun á gagnasafni skýrslunnar sem dæmi.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '9652, 9650'
 ms.date: 06/24/2021
 ms.author: bholtorf

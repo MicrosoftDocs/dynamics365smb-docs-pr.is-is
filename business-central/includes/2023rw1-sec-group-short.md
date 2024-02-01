@@ -3,9 +3,9 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/03/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-> [!NOTE]
-> Öryggisflokkar eru nýir til  [!INCLUDE [prod_short](prod_short.md)]  í 2023 út bylgju 1. Þeir eru Svipaðir þeim notendahópum sem þessi grein nefnir. Eins og notendaflokkar úthluta kerfisstjórum þeim heimildum til öryggisflokksins sem meðlimir hans þurfa að sinna störfum sínum.
->
-> Notendaflokkar verða ekki lengur aðgengilegir í síðari útgáfu. Hægt er að nota notendahópa áfram til að stjórna heimildum fyrr en þá. Til að fræðast meira um öryggishópa er farið í  [Stjórnaðgang að Central-hópum með öryggisflokkum](../ui-security-groups.md).
+Öryggishópar eru nýir í Buisness Central í 2023 gefa út bylgju 1. Þeir eru líkir notendahópunum sem þessi grein nefnir. Líkt og notendaflokkar úthluta stjórnendur heimildunum á öryggishópinn sem meðlimir þess þurfa að vinna sín störf.
+
+Notendaflokkar verða ekki lengur tiltækir í síðari útgáfu. Hægt er að halda áfram að nota notendaflokka til að stjórna heimildum þar til. Nánari upplýsingar um öryggishópa fást með því að [fara í Control Access to Business Central með öryggishópum](../ui-security-groups.md).

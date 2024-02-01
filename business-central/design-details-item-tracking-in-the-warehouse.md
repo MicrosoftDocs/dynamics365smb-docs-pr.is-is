@@ -3,9 +3,7 @@ title: Hönnunarupplýsingar - vörurakning í vöruhúsi
 description: Vöruhúsaskjöl á innleið og útleið eru með staðlaða virkni fyrir úthlutun og val á vörurakningarnúmerum.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, item, tracking, serial number, lot number, outbound documents'
 ms.date: 06/15/2021
 ms.author: bholtorf

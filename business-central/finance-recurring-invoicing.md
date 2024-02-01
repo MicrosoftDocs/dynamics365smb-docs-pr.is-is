@@ -3,9 +3,7 @@ title: Vinna með endurteknar tekjur
 description: Frekari upplýsingar um tiltæka valmöguleika sem gera þér kleift að senda greiðslureikninga til viðskiptavina þinna og skrá endurteknar tekjur.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf

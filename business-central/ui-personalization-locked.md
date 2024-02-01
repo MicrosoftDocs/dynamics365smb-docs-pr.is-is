@@ -3,9 +3,7 @@ title: Af hverju er síða læst og því ekki hægt að sérsníða hana
 description: Það gæti verið lokað á þig að sérsníða síðu. Lestu hér um hvað þú getur gert til að opna á það svo þú getir sérstillt hana.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields'
 ms.search.form: null
 ms.date: 04/01/2021

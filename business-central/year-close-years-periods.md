@@ -3,9 +3,7 @@ title: Loka fjárhagsárum og fjárhagstímabilum
 description: 'Útskýrir verkin til að loka fjárhagsári og fjárhagstímabili, til dæmis að ganga úr skugga um að skjöl og færslubækur séu bókuð og staðfesta bankareikningsstöður.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 08/18/2022

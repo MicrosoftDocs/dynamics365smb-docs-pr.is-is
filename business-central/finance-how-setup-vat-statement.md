@@ -3,9 +3,7 @@ title: Uppsetning VSK-yfirlits
 description: Í þessu efnisatriði segir þér hvernig á að setja upp sniðmát fyrir VSK-yfirlit og heiti á VSK-yfirliti til að fullnægja breyttum kröfum skattyfirvalda.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'VAT, posting, tax, value-added tax'
 ms.search.form: '317, 318, 320, 474'
 ms.date: 06/16/2021

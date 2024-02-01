@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/05/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Þegar allar vörur hafa verið settar inn í línur er hægt að reikna út reikningsafsláttinn fyrir allt söluskjalið með því að velja aðgerðina **Reikna út reikningsafslátt**.
 

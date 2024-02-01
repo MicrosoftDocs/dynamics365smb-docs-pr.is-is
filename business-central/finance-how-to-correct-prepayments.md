@@ -3,9 +3,7 @@ title: Leiðrétta fyrirframgreiðslur
 description: Hægt er að gera leiðréttingu á pöntun eftir að búið er að bóka fyrirframgreiðslureikning fyrir pöntunina og bæta nýjum línum við pöntun eftir að hafa gefið út fyrirframgreiðslu.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '44, 48, 42, 50, 52, 9305, 9307'
 ms.date: 06/16/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Hönnunarupplýsingar - Afstemming í fjárhagur | Microsoft Docs
 description: 'Þetta efnisatriði lýsir afstemmingu í fjárhag Þegar birgðafærslur eins og söluafhendingar, framleiðslufrálag eða neikvæðar leiðréttingar eru bókaðar.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, reconciliation, general ledger, inventory'
 ms.date: 06/08/2021
 ms.author: bholtorf

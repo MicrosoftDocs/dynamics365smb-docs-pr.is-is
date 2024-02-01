@@ -3,7 +3,6 @@ title: Tengja við Microsoft Dataverse (inniheldur myndskeið)
 description: Settu upp tengingu milli Business Central og Dataverse. Yfirleitt stofna fyrirtæki tenginguna til að samþætta og samstilla gögn við annað Dynamics 365 Business-forrit.
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
 ms.date: 09/28/2023

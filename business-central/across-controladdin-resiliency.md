@@ -4,7 +4,6 @@ description: Hvað ef innbót stjórnunar eða sérstilltar stýringar leiða ti
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: conceptual
 author: brentholtorf
 ms.author: bholtorf

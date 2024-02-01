@@ -3,8 +3,6 @@ title: Auðkenni þjónustunnar
 description: 'Þetta efni inniheldur upplýsingar um vottanir í tengslum við Business Central, t.d. svæðisbundnar vottanir og faggildingar.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: null
 ms.date: 01/18/2024
 ms.author: soalex

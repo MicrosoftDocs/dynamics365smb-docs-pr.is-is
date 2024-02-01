@@ -3,9 +3,7 @@ title: Flytja út jákvæðar greiðsluskrár
 description: Hægt er að ganga úr skugga um að bankinn þinn taki eingöngu við fullgildum ávísunum með því að flytja út jákvæða greiðsluskrá sem inniheldur upplýsingar um lánardrottna og greiðslur.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'check, clearing'
 ms.search.form: '1231, 1232, 1233, 1234'
 ms.date: 04/01/2021

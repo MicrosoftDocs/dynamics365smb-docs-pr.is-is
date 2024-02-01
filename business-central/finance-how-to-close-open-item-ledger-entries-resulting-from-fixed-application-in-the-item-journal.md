@@ -3,12 +3,11 @@ title: Loka birgðafærslum sem voru búnar til með notkun fastrar jöfnunar
 description: Lærðu hvernig þú getur stofnað handvirkt fasta jöfnun milli færslu á innleið og upphaflegrar færslu á útleið í birgðabók.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 40
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Lokaðu opnum birgðabókarfærslum sem stafa af fastri notkun í vörubókinni
 

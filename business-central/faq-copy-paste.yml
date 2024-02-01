@@ -3,6 +3,7 @@ metadata:
   title: Algengar spurningar um að afrita og líma gögn
   description: Fáðu svör við algengum spurningum um að afrita og líma gögn úr reitum og línum af síðum Business Central.
   ms.topic: faq
+  ms.service: dynamics-365-business-central
 title: Algengar spurningar um að afrita og líma
 summary: |
   Þú getur afritað eina eða fleiri raðir (færslur) úr lista eða einum reit á síðu og síðan líma það sem þú afritaðir á sömu síðu, aðra síðu eða ytri skjal (eins og Microsoft Excel og Outlook tölvupóst).  

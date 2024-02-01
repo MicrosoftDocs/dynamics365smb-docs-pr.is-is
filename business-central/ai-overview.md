@@ -67,7 +67,7 @@ Til að byrja þarftu Business Central (v23.1 og síðar) umhverfi sem er virkt 
 
 ## Sjá einnig .
 
-[Grunnstilling copilot og AI-möguleika](enable-ai.md)  
+[Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)  
 [Bæta markaðssetningartexta við vörur með Afrita](item-marketing-text.md)  
-[FAQ fyrir markaðssetningartextatillögur](faqs-marketing-text.md)  
+[Algengar spurningar um tillögur að markaðstexta](faqs-marketing-text.md)  
 [Hefjast handa með Shopify tengli](shopify/get-started.md)  

@@ -3,9 +3,7 @@ title: Hvernig á að sameina afhendingar í einn reikning | Microsoft Docs
 description: Eigi að reikningsfæra fleiri en eina afhendingu saman er hægt að nota eiginleikann sameina afhendingar.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/16/2021
 ms.author: bholtorf

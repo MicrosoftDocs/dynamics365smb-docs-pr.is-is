@@ -9,9 +9,10 @@ ms.date: 11/10/2023
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-basic-experience-extension"></a>Basic Experience viðbótin
+# Basic Experience viðbótin
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -22,7 +23,7 @@ Ef þú hefur verið með Microsoft Dynamics C5 geta samstarfsaðilar Microsoft 
 > [!NOTE]
 > Eins og staðan er í dag er þessi viðbót aðeins í boði fyrir viðskiptamenn í Danmörku og á Íslandi.
 
-## <a name="whats-available"></a>Hvað er í boði
+## Hvað er í boði
 
 Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplifunar er sett upp.
 
@@ -34,7 +35,7 @@ Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplif
 |**Verkefnastjórnun** |Verk, verðlagning verks, vinnuskýrslur, úthlutun, verkefni, tilföng |
 |**Birgðir** |Grunnbirgðir, staðgenglar vörur, millivísun vöru |
 
-## <a name="getting-started"></a>Hafist handa
+## Hafist handa
 
 Þessi viðbót er aðeins öðruvísi en flestir og þú þarft aðstoð frá Microsoft samstarfsaðila til að setja hana upp og setja hana upp. Svo að þú vitir hverju þú getur búist við, hér er yfirsýn yfir það sem Microsoft samstarfsaðilinn gerir.
 
@@ -45,11 +46,11 @@ Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplif
 5. Bætið við **Sýniútgáfu RapidStart** pakkanum. <!--what does the package contain?-->
 6. Sækið og setjið upp viðbót grunnupplifunar úr AppSource.
 
-## <a name="migrating-data"></a>Gögn flutt
+## Gögn flutt
 
 Komdu með Dynamics C5 gögnin þín. Eftir að Microsoft samstarfsaðili þinn hefur sett upp Basic Experience viðbótina muntu vera með tómt fyrirtæki. Auðveld leið til að yfirfæra gögnin úr Dynamics C5 í grunnupplifun er að nota viðbót gagnaflutnings fyrir C5 sem fylgir með í [!INCLUDE[prod_short](includes/prod_short.md)]. Viðbótin flytur viðskiptamenn, lánardrottna, vörur og fjárhagslykla og færslur þeirra.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [C5-gagnaflutningsviðbótin](ui-extensions-c5-data-migration.md)  
 

@@ -3,9 +3,7 @@ title: Hvernig á að stofna sérpantanir
 description: Kynntu þér hvernig á að stofna sérpöntun til að tiltekið vörulistaatriði sé sent tilteknum viðskiptamanni.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

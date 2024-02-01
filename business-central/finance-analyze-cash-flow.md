@@ -3,9 +3,7 @@ title: Greina sjóðsstreymi
 description: 'Lýsir hvernig á að nota feril bundins reiðufés, tekjur og útgjöld, sjóðstreymi og sjóðstreymisspá myndrit til að greina fortíð og framtíð streymi peninga inn og út úr fyrirtækinu þínu.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera'
 ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818'
 ms.date: 12/20/2021

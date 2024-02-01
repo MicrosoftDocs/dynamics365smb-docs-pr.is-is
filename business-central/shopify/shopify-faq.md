@@ -1,7 +1,7 @@
 ---
 title: Algengar spurningar um tæknilegar upplýsingar
 description: Upp+ um innleiðingu sem tengist Shopify tenglinum.
-ms.date: 03/27/2023
+ms.date: 01/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -14,44 +14,44 @@ ms.author: bholtorf
 
 ## Hvað er Shopify?
 
-Shopify er áskriftarforrit sem leyfir öllum að setja upp netverslun og selja vörur.  Shopify Pallurinn býður upp á netsali sem hentar þjónustu fyrir greiðslur, markaðssetningu, sendingu og þátttöku viðskiptavina.
+Shopify er áskriftarforrit sem gerir öllum kleift að setja upp netverslun og selja vörur. Verkvangurinn Shopify býður smásala á netinu upp á þjónustu fyrir greiðslur, markaðssetningu, afhendingu og þátttöku viðskiptavina.
 
 ## Hvað er Microsoft Dynamics 365 Business Central Shopify tengillinn?
 
-Með Shopify tenglinum geta fyrirtæki tengt Shopify verslunina (eða verslanirnar) við [!INCLUDE[prod_short](../includes/prod_short.md)] til að hámarka afköst viðskiptanna.  Shopify Með tengivirkinu geta þeir nálgast og stjórnað innsýn í starfsemi fyrirtækja og vefverslunar þeirra  Shopify  sem eina einingu.
+Með Shopify tenglinum geta fyrirtæki tengt Shopify verslunina (eða verslanirnar) við [!INCLUDE[prod_short](../includes/prod_short.md)] til að hámarka afköst viðskiptanna. Með því Shopify að nota tengið geta þeir nálgast og stjórnað innsýn frá fyrirtæki sínu og netverslun þeirra Shopify sem ein eining.
 
 ### Getu
 
-- Aðstaða fyrir fleiri en eina  Shopify  búð
-  - Hver búð hefur sitt skipulag, þar á meðal safn vara og birgðageymslna sem notaðar eru til að reikna út birgða-og verðlista.  
-- Samkeyrsla á bi-stefnumarkandi atriðum eða afurðum
-  - Tengivirkið samstillir myndir, vöruafbrigði, strikamerki, vörunúmerum lánardrottna, Lengdum textum og seðlum.  
+- Stuðningur við fleiri en eina Shopify búð
+  - Hver verkstæði hefur sína uppsetningu, þar á meðal safn af vörum og birgðageymslum sem notuð eru til að reikna út birgða- og verðlista.  
+- Tvístefnuleg samstilling vara eða vara
+  - Tengið samstillir myndir, vöruafbrigði, strikamerki, vörunúmer lánardrottins, lengda texta og merki.  
   - Flyttu út vörueigindir í Shopify.  
   - Notaðu valda verðflokka og afslætti viðskiptamanna til að skilgreina verð sem flutt eru út í Shopify.  
   - Taktu ákvörðun um hvort hægt sé að stofna vörur sjálfkrafa eða aðeins leyfa uppfærslur á fyrirliggjandi afurðum.  
-- Samstilling birgðastita
+- Samstilling birgðastiga
   - Veldu sumar eða allar tiltækar staðsetningar í [!INCLUDE [prod_short](../includes/prod_short.md)].  
   - Uppfærðu birgðastöður á mörgum staðsetningum í Shopify.  
-- Bi-stefnumiðuð samstilling viðskiptavina
+- Tvístefnu samstilling viðskiptavina
   - Snjallvarpaðu viðskiptamönnum eftir síma og netfangi.  
-  - Nota skal tiltekin lands-/svæðissniðmát þegar viðskiptamenn eru stofnaðir sem hjálpar til við að tryggja að skattastillingar séu réttar.  
-- Flytja inn pantanir úr Shopify
-  - Taka með pantanir sem stofnaðar eru í ýmsum sölurásum, svo sem netverslun eða  **Shopify  Sölustaður**.
+  - Nota tiltekin sniðmát lands/svæðis þegar viðskiptamenn eru stofnaðir sem hjálpa til við að tryggja að skattstillingar séu réttar.  
+- Flytja inn pantanir frá Shopify
+  - Taka með pantanir sem búnar eru til í ýmsum sölurásum, t.d. netverslun eða **Shopify sölustað**.
   - Sendingarkostnaður, gjafakort, ábendingar, sendingar- og greiðslumátar, færslur og hætta á svikum.  
-  - Við innflutning er hægt að stofna viðskiptamenn  [!INCLUDE [prod_short](../includes/prod_short.md)]  sjálfkrafa eða ákveða að stjórna viðskiptavinunum í Shopify.  
+  - Við innflutning er hægt að stofna viðskiptamenn sjálfvirkt í [!INCLUDE [prod_short](../includes/prod_short.md)] eða ákveða að stjórna viðskiptamönnum. Shopify  
   - Fáðu greiðsluupplýsingar frá Shopify Payments.
 - Rekja upplýsingar um uppfyllingu
   - Það má velja að flytja upplýsingar vörurakningar úr [!INCLUDE [prod_short](../includes/prod_short.md)] í Shopify.  
 
 ## Af hverju mynduðu Microsoft og Shopify þetta samstarf?
 
-[!INCLUDE[prod_short](../includes/prod_long.md)] er að fara í samstarf við Shopify til að viðskiptamönnum okkar að skapa betri upplifun af verslun. Þó  Shopify  veita kaupendur auðseljanlega Notið viðskiptalausna,  [!INCLUDE[prod_short](../includes/prod_short.md)]  býður alhliða viðskiptaumsjón yfir fjármál, sölu, þjónustu og rekstur teyma. Nota skal óaðfinnanlega tengingu milli forrita til að samstilla pantanir, birgðir og viðskiptavinarupplýsingar til að uppfylla pantanir hraðar, og betur þjóna viðskiptavinum.
+[!INCLUDE[prod_short](../includes/prod_long.md)] er að fara í samstarf við Shopify til að viðskiptamönnum okkar að skapa betri upplifun af verslun. Þó Shopify veitir kaupendur einfaldan viðskiptalausn [!INCLUDE[prod_short](../includes/prod_short.md)]  og býður upp á alhliða viðskiptastjórnun í fjármálum, sölu, þjónustu og rekstrarteymum. Nota óaðfinnanlegu tengingu milli forritanna til að samstilla pantanir, lager- og viðskiptamannaupplýsingar til að uppfylla pantanir hraðar og þjóna viðskiptavinum betur.
 
-## Hvaða Microsoft-vörur eru tengivirkið sem er  Shopify  tiltækt?
+## Fyrir hvaða vörur Microsoft er Shopify tengillinn tiltækur?
 
-Þessi eiginleiki er aðeins í boði fyrir [!INCLUDE[prod_short](../includes/prod_short.md)] á netinu, frá og með útgáfu 20.1. Hann er ekki í boði fyrir uppsetningar á staðnum. Tengivirki er foruppsett fyrir nýtt umhverfi. Félög með núverandi umhverfi geta sótt og sett upp Tengivirki frá AppSource. Skipulagsstofnun þarf að hafa bæði  [!INCLUDE [prod_short](../includes/prod_short.md)]  starfsleyfi og  Shopify  starfsleyfi til að nota tengivirkið. Til að fræðast meira um studd lönd/svæði, tungumál og útgáfur af  [!INCLUDE[prod_short](../includes/prod_short.md)] er farið í  [Shopify  Connector AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
+Þessi eiginleiki er aðeins í boði fyrir [!INCLUDE[prod_short](../includes/prod_short.md)] á netinu, frá og með útgáfu 20.1. Hann er ekki í boði fyrir uppsetningar á staðnum. Tengið er fyrirfram sett upp fyrir nýtt umhverfi. Stofnanir með núverandi umhverfi geta sótt og sett tengið upp frá AppSource. Fyrirtækið verður að hafa bæði [!INCLUDE [prod_short](../includes/prod_short.md)] leyfi og Shopify leyfi til að nota tengið. Nánari upplýsingar um lönd/svæði, tungumál og útgáfur af [!INCLUDE[prod_short](../includes/prod_short.md)] fást með því að [Shopify fara í Connector í glugganum AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
- Shopify Connector virkar ekki fyrir  [forritið](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) ívefja þar sem biðlaraslóðin hefur  `https://[application name].bc.dynamics.com`  sniðið.
+Tengið Shopify virkar ekki fyrir [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), þar sem veffang biðlarans er með sniðinu `https://[application name].bc.dynamics.com` .
 
 ## Hvaða stuðningur er í boði fyrir Shopify tengilinn?
 
@@ -59,31 +59,40 @@ Með Shopify tenglinum geta fyrirtæki tengt Shopify verslunina (eða verslanirn
 
 Shopify tengillinn er dekkaður af núverandi stuðningslíkani. Frekari upplýsingar eru í [Tækniaðstoð](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (aðeins á ensku).
 
-Fáðu aðstoð frá ráðgjafa sem þekkir  Shopify  tengin fyrir  [!INCLUDE[prod_short](../includes/prod_short.md)], til að mæta þínum einstöku þörfum í viðskiptum. Leita í  [ráðgjafaþjónustu](https://aka.ms/BCShopifyConsultant).
+Fá hjálp frá ráðgjafa sem þekkir tengið Shopify fyrir [!INCLUDE[prod_short](../includes/prod_short.md)], til að uppfylla sérstakar kröfur fyrirtækisins. Leita í [Ráðgjafaþjónustu](https://aka.ms/BCShopifyConsultant).
 
 ### Shopify
 
-Fáðu Hjálp með  Shopify  frá  [almenna  Shopify  hjálparmiðstöðinni](https://help.shopify.com/), eða frá  [24/7 til að fá verslunina þína sem  Shopify  söluaðila](https://help.shopify.com/questions#/).
+Fáðu hjálp frá Shopify almennu [Shopify hjálparmiðstöðinni](https://help.shopify.com/) eða frá [24/7 stuðningi við verslunina sem Shopify söluaðila](https://help.shopify.com/questions#/).
 
-Einnig er hægt að kanna  [sérfræðinga markaða](https://experts.shopify.com/)  til að finna réttu sérfræðingana sem bjóða upp á þjónustu fyrir  Shopify  kaupendur.
+Þú getur einnig skoðað [markaðssetningu](https://experts.shopify.com/) sérfræðinga til að finna rétta sérfræðinga sem bjóða upp á þjónustu fyrir Shopify kaupendur.
 
-## Sem stendur eru Óstuddir aðgerðir þó við séum að rekja þær og megum íhuga að bæta þeim
+## Eins og er óstuddir eiginleikar, hins vegar erum við að rekja þá og gætum íhugað að bæta þeim við
 
-- B2B aðgerðir, þ.m.t. fyrirtæki, verðlistar fyrirtækja og Greiðsluskilmálar
-  - Nú er hægt að flytja inn pantanir sem eru stofnaðar með B2B. Ef margir kaupendur eru tengdir við fyrirtæki ætti ekki að gera sjálfvirka stofnun viðskiptamanns virka heldur tengja hvern  Shopify  kaupanda við viðkomandi viðskiptavin handvirkt.
-  - Þú þarft að halda verðlistum fyrirtækja eftir í Shopify.
-- Mörkuðum
-  - Fjölmargar þýðingar á aðalgögnum. Hægt er að velja eitt tungumál sem notað verður til útflutnings afurðaupplýsinga.
-  - Verð á landi/svæði. Ein Verðlisti er tiltækur fyrir valinn gjaldmiðil. Shopify annast viðskiptin gagnvart öðrum gjaldmiðlum.
-- Drög að pöntunum
+- B2B aðgerðir, þ.m.t. fyrirtæki, verðlistar fyrirtækis og greiðsluskilmálar
+  - Aukinn stuðningur við B2B verður fáanlegur í 2024 útgáfubylgju 1. Nánari upplýsingar eru í [Connect Business Central með Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
+- Markaðir
+  - Margar þýðingar á aðalgögnum. Hægt er að velja eitt tungumál sem notað verður við útflutning vöruupplýsinga.
+  - Verð eftir landi/svæði. Einn verðlisti er tiltækur fyrir valinn gjaldmiðil. Shopify sér um umbreytingu í aðra gjaldmiðla.
+- Uppkast að pöntunum
 
 ## Er Shopify tengillinn stækkanlegur?
 
-Já, bandvefshringinn  Shopify  er extensible. Kanna GitHub til að komast á  [lista yfir stækkunarhæfni punkta](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify)  og kanna nokkur  [dæmi](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
+Já, Shopify tengið er útbreiðanlegt. Athugaðu GitHub til að fá aðgang [að lista yfir möguleika á punktum](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) og skoða nokkur [dæmi](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
 
 ## Er Shopify tengillinn opinn fyrir framlög
 
-Já, þessi framlenging er opin fyrir framlögum úr okkar samfélagi. Þú getur fundið [frumkóðann](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) í gagnageymslu viðbóta í Microsoft AL-forritinu.
+Já, þessi viðbót er opin fyrir framlög frá samfélaginu okkar. Þú getur fundið [frumkóðann](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) í gagnageymslu viðbóta í Microsoft AL-forritinu.
+
+## Byggja útgáfuna af Shopify Connector
+
+Ef Shopify þú vilt byggja og birta tengiforrit á Shopify markaðnum sem hefur þann megintilgang að flytja eða deila gögnum söluaðila til þriðja aðila ([!INCLUDE [prod_short](../includes/prod_short.md)]) verður þú að hafa skriflegt samþykki frá Shopify. Sem hluta af þessu ferli verður þú að fá samþykki frá Microsoft í "Data Acknowledgement End Acknowledgement". Við þurfum að biðja þig að sjá um málið Shopify vegna þess að Microsoft getur ekki skrifað undir samninga við þriðja aðila.
+
+### Hvað á að gera
+
+Athugaðu skilyrðin Shopify þar sem þú gætir samt verið fær um að hafa óskráð forrit.
+
+ Shopify Einnig fær Tengið [!INCLUDE [prod_short](../includes/prod_short.md)] stöðugt nýjar aðgerðir og nýja viðskiptamenn. Ef tiltekið bil uppgötvast skal íhuga að senda vörutillögu (https://aka.ms/bcideas) eða kóðaframlag til [!INCLUDE [prod_short](../includes/prod_short.md)]. Ef gera á kröfur sem gætu ekki átt við meirihluta viðskiptamanna og ekki er auðvelt að takast á við gildandi umfangsmódel skal hafa samband við [!INCLUDE [prod_short](../includes/prod_short.md)] þróunarteymið til að ræða notkunarmálin. Við ættum að geta fundið feita lausn.
 
 ## Sjá einnig
 

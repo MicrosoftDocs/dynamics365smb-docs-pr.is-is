@@ -3,9 +3,7 @@ title: Að setja upp vafrann þinn
 description: Lýsir því hvernig á að setja upp vafra til að vinna með Business Central og sasmþættum vörum.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, web client, troubleshooting, errors'
 ms.date: 12/04/2023
 ms.author: jswymer

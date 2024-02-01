@@ -3,9 +3,7 @@ title: Færa inn ytri fylgiskjalsnúmer
 description: 'Hægt er að slá inn utanaðkomandi skjalanúmer fyrir viðskiptavini og lánardrottna í öllum sölu- og innkaupapöntunum, reikningum og kreditreikningum. Hægt er að nota þessar tölur til að leita að bókuðum sölu- og innkaupalínum síðar.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 05/28/2021
 ms.author: bholtorf

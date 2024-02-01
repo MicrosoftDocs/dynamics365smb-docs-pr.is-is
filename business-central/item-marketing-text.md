@@ -1,6 +1,6 @@
 ---
-title: Bættu markaðstexta við hluti
-description: Skrifaðu markaðstexta fyrir hluti í Business Central
+title: Bæta markaðssetningartexta við vörur
+description: Skrifa markaðssetningartexta fyrir vörur í Business Central
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -11,127 +11,127 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Bættu markaðstexta við hluti
+# Bæta markaðssetningartexta við vörur
 
-Fyrir hvaða hlut sem er skráður í Business Central geturðu skrifað *markaðstexta* um hlutinn. Þó að markaðstexti sé eins konar lýsing er hann öðruvísi en  **Lýsing** reit hlutarins. Reiturinn **Lýsing**  er venjulega notaður sem hnitmiðað nafn til að auðkenna vöruna fljótt. Markaðstextinn er hins vegar ríkari og lýsandi texti. Tilgangur þess er að bæta við markaðs- og kynningarefni, einnig þekkt sem *copy*. Þennan texta er síðan hægt að birta með hlutnum ef hann er birtur á vefverslun, eins og Shopify, eða límdur í tölvupóst eða önnur samskipti við viðskiptavini þína.
+Fyrir allar vörur sem skráðar eru í Business Central er hægt að skrifa *markaðssetningartexta* um vöruna. Þótt markaðssetningatexti sé eins konar lýsing er hún öðruvísi en lýsingarreitur **vörunnar** . Reiturinn **Lýsing** er gjarnan notaður sem nákvæmt birtingarheiti til að auðkenna vöruna á fljótlegan hátt. Markaðssetningartextinn er hins vegar ríkari og lýsandi texti. Tilgangur hennar er að bæta við markaðssetningu og kynningarefni, einnig þekkt sem *afrit*. Þá er hægt að birta þennan texta með vörunni ef hún er birt á vefverslun, eins Shopify og eða límd í tölvupóst eða önnur samskipti við viðskiptavini þína.
 
-Það eru tvær leiðir til að búa til markaðstextann. Auðveldasta leiðin til að byrja er að nota Copilot, sem stingur upp á gervigreindum texta fyrir þig. Hin leiðin er að byrja frá grunni. 
+Það eru tvær leiðir til að búa til markaðssetningartextann. Auðveldast að hefjast handa er að nota Copilot, sem leggur til EI-myndaðan texta fyrir þig. Hin leiðin er að byrja frá grunni. 
 
-## <a name=copilot></a> Fáðu tillögur um markaðstexta með Copilot
+## <a name=copilot></a> Fá markaðssetningatextatillögur með Copilot
 
-Með Copilot færðu fljótt textatillögu sem er sjálfkrafa búin til fyrir þig. AI-myndaður texti er sniðinn að hlutnum og gefur góðan upphafspunkt. Textinn er að hluta til byggður á eftirfarandi upplýsingum:
+Með Copilot færðu fljótt textatillögu sem býr til sjálfkrafa fyrir þig. AI-mynda textinn er sniðinn að vörunni og gefur góðan upphafspunkt. Textinn er byggður að hluta á eftirfarandi upplýsingum:
 
-- Eiginleikar sem eru skilgreindir fyrir hlutinn&mdash; til dæmis lýsingin, liturinn, mál, efni og svo framvegis. [Frekari upplýsingar um eiginleika vöru](inventory-how-work-item-attributes.md).
--  **Lýsing** reitur hlutarins.
-- Vöruflokkurinn. [Frekari upplýsingar um að flokka hluti](inventory-how-categorize-items.md).
-- Valanlegar stílstillingar eins og raddblær, snið og lengd.
+- Eigindir sem skilgreindar eru fyrir vöruna&mdash;, til dæmis lýsing, litur, víddir, efni og svo framvegis. [Fræðast meira um vörueigindir](inventory-how-work-item-attributes.md).
+- Reiturinn Lýsing **vörunnar** .
+- Vörutegundin. [Fá nánari upplýsingar um flokkun vara](inventory-how-categorize-items.md).
+- Valkostir stíls eins og tónn raddar, sniðs og lengdar.
 
-Copilot er hannað til að spara þér tíma og hjálpa þér að skrifa skapandi og grípandi texta sem endurspeglar vörumerkið þitt og er í samræmi í vörulínunni þinni. Byrjaðu á því að búa til tillögu og breyttu síðan textatillögunni eftir þörfum.
+Copilot er hannað til að spara þér tíma og hjálpa þér að skrifa skapandi og taka þátt í texta sem endurspeglar vörumerkið þitt og er í samræmi við vörulínuna þína. Byrjað er á því að búa til tillögu og textanum sem lagt er til breytt eftir þörfum.
 
 ### Frumskilyrði
 
-- Eiginleiki markaðstextatillögur er virkur og virkur í umhverfi þínu. Þetta verkefni er venjulega gert af stjórnanda. Fyrir frekari upplýsingar, farðu í [Stilling Copilot og AI getu](enable-ai.md).
-- Þú ert að nota eitt af tungumálunum sem eru studdar af markaðstextatillögunum.
+- Eiginleikinn Textatillögur markaðssetningar er virkur og virkur í umhverfinu. Stjórnandi framkvæmir yfirleitt þennan verkhluta. Nánari upplýsingar eru í [Grunnstilling copilot og AI](enable-ai.md).
+- Notandinn notar eitt af tungumálunum sem markaðstextatillögurnar styðjast við.
 
   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-  Til að breyta tungumálinu skaltu velja **Stillingar** táknið ![Stillingar í efra hægra horninu.](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") > **Stillingar mínar** > **Tungumál**. Fyrir frekari upplýsingar, farðu í [Breyta grunnstillingum](ui-change-basic-settings.md#language).
-- Skoðaðu [algengar spurningar fyrir tillögur um markaðstexta](faqs-marketing-text.md) til að læra hvernig gervigreind er beitt.
+  Til að breyta tungumálinu skal velja Stillingar í hægra horninu **Stillingar**  ![.](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") > **Mínar** > **stillingar.** Nánari upplýsingar eru í [Breyta grunnstillingum](ui-change-basic-settings.md#language).
+- Skoðaðu algengar [spurningar fyrir markaðssetningartextatillögur](faqs-marketing-text.md) til að komast að því hvernig AI er beitt.
 
-### Búðu til fyrstu drög með Copilot
+### Búa til fyrstu uppkast með Copilot
 
-Ljúktu við eftirfarandi skref til að bæta markaðstexta við fyrirliggjandi hlut. Til að læra hvernig á að búa til nýjan hlut skaltu fara á [Skráðu nýja hluti](inventory-how-register-new-items.md).
+Ljúka skal eftirfarandi skrefum til að bæta markaðssetningartexta við fyrirliggjandi vöru. Til að læra hvernig á að stofna nýja vöru er farið í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
-1. Í Business Central, opnaðu hlutinn sem þú vilt breyta með því að ljúka eftirfarandi skrefum:
+1. Í Business Central er atriðið sem á að breyta opnað með því að ljúka eftirfarandi skrefum:
 
-   - Í efra hægra horninu skaltu velja ![peruna sem opnar Segðu mér eiginleikann 22.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Items** og veldu síðan tengda tengilinn til að sýna lista yfir tiltæka hluti.
+   - Í efra hægra horni ![skal velja Lightbulb sem opnar Tell Me aðgerð 22.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Vörur** og velja svo tengdan tengil til að sýna lista yfir tiltækar vörur.
 
-   - Tvísmelltu á hlutinn eða veldu gildi þess í **No.** dálki.
+   - Tvísmellt er á vöruna eða gildi hennar valið í reitnum **Nr.** Dálk.
 
-   [![Sýnir vöruspjald með markaðstexta glugganum](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
+   [![Sýnir birgðaspjald með markaðssetningartextasvæði](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
-2. Frá vöruspjaldinu eru tvær leiðir til að byrja að skrifa markaðstexta með Copilot. Framkvæmdu eitt af eftirfarandi skrefum:
+2. Á birgðaspjaldinu eru tvær leiðir til að byrja að skrifa markaðstexta með Copilot. Framkvæmdu eitt af eftirfarandi skrefum:
 
-   - Í **Markaðstexta** rúðunni í staðreyndaboxinu hægra megin á síðunni skaltu velja **Draft with Copilot**. 
+   - Á rúðunni **Markaðssetningartexti**  **í upplýsingakassanum hægra megin á síðunni skal velja** Uppkast með Afrita. 
    
-     Copilot byrjar að semja markaðstextann. 
+     Copilot byrjar að draga texta markaðssetningarinnar. 
 
-   - Efst á síðunni velurðu **Markaðstexta** aðgerðina, veldu síðan **Draft with Copilot** á **Breyta markaðstexta** glugganum.   **Draft Marketing Text with Copilot** gluggarnir birtast og listar upp allar tiltækar eiginleikar fyrir hlutinn.
+   - Efst á síðunni skal velja aðgerðina **Markaðssetningartexti** og velja **síðan Drög með copilot í** glugganum Breyta **markaðssetningartexta** .  Uppkast **að markaðssetningartexta með gluggum Copilot** birtist og birtir lista yfir allar tiltækar eigindir vörunnar.
    
-     ![Sýnir textabreytingargluggann](media/marketing-text-copilot-attributes.svg)
+     ![Sýnir gluggann breyta markaðssetningartexta](media/marketing-text-copilot-attributes.svg)
 
-     Veldu eiginleikana sem þú vilt að Copilot base tillögur um, veldu síðan **Búa til**. Þú getur breytt völdum eiginleikum og öðrum valkostum síðar. Copilot byrjar að semja markaðstextann. 
+     Velja skal eiginleikana sem copilot grunntillögurnar eiga að koma í, svo er Mynda **valið**. Hægt er að breyta völdum eigindum og öðrum valkostum síðar. Copilot byrjar að draga texta markaðssetningarinnar. 
      
-3. Þegar Copilot klárar uppkastið birtist textinn í Copilot ritstjóraglugganum sem þú getur skoðað og breytt. 
+3. Þegar Copilot lýkur uppkastinu birtist textinn í glugganum Copilot-ritillglugginn til að skoða og breyta. 
 
-   [![Sýnir búa til með Copilot gluggum](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
+   [![Sýnir stofnun með Copilot gluggum](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
 
-   Þú getur nú fengið fleiri tillögur, reynt að bæta tillögurnar sem þú færð, breytt texta og fleira. Farðu í [Skoðaðu, breyttu og vistaðu](#review-edit-and-save-text) til að fá frekari upplýsingar.
+   Nú er hægt að fá fleiri tillögur, reyna að bæta tillögurnar, breyta texta og fleira.  [Fara á Skoða, breyta og vista](#review-edit-and-save-text) fyrir upplýsingar.
 
 
-### Skoðaðu, breyttu og vistaðu texta
+### Skoða, breyta og vista texta
 
-Þegar þú hefur fyrstu drögin verður þú að fara yfir þau og gera breytingar á textanum til að gera hann tilbúinn til birtingar. Þessi vinna er unnin úr Copilot ritlinum, sem gerir þér kleift að fá fleiri tillögur, breyta kjörstillingum til að hafa áhrif á tillögurnar og gera breytingar handvirkt og stíla textann.
+Þegar búið er að fá fyrstu uppkast þarf að fara yfir það og gera breytingar á textanum til að fá hana tilbúna til útgáfu. Þetta verk er unnið úr copilot-ritlinum, sem gerir þér kleift að fá fleiri tillögur, breyta kjörstillingum til að hafa áhrif á tillögurnar og gera handvirkt breytingar og stíl textans.
 
 > [!IMPORTANT]
-> AI-myndaður texti frá Copilot er aðeins tillaga og það getur verið mistök. Það krefst mannlegrar eftirlits og endurskoðunar til að tryggja að það sé rétt og viðeigandi. Farðu yfir hvaða textatillögu sem er og breyttu eftir þörfum áður en þú vistar hann og birtir hann til almenningsneyslu.
+> Eiginlega textinn frá Copilot er aðeins tillaga og hann getur haft mistök. Það krefst yfirsjónar manna og endurskoðunar til að tryggja að það sé nákvæmt og viðeigandi. Skoða hvaða texta sem lagt er til og breyta eftir þörfum áður en hann er vistaður og birtur til opinberrar notkunar.
 
-Notaðu eftirfarandi leiðbeiningar til að ganga frá og vista markaðstextann.
+Nota skal eftirfarandi leiðbeiningar til að ljúka og vista texta markaðssetningar.
 
-1. Gerðu breytingar á texta beint í textareitnum. Notaðu tækjastikuna neðst í reitnum til að forsníða og stíla texta, bæta við tenglum og fleira.
-2. Til að fá nýja tillögu skaltu velja **Regenerate**.
-3. Ef þú ert ekki ánægður með tillögurnar skaltu bæta textatillögurnar með því að nota **Tónn**, **Snið**, og **Áherslur**  valmöguleikar.
+1. Breyta texta beint í textareitnum. Nota verkfærastikuna neðst í kassanum til að sníða og stíltexta, bæta við tenglum og fleira.
+2. Til að fá nýja tillögu skal velja **Endurgera**.
+3. Ef tillögurnar eru ekki fullnægjandi þarf að bæta textatillögunum **við með valkostunum** Tónn **,** Snið **og** Áhersla.
 
    <!--Select **More Settings**, change the options that are shown under **Choose how Copilot creates suggestions**, then select **Create draft** to get a new suggestion.-->
 
-   Til að fá leiðbeiningar um að bæta tillögur, farðu í [Bæta og sníða textatillögur](#improve-and-tailor-text-suggestions).
+   Til að fá leiðbeiningar um bættar tillögur er farið í [tillögurnar Endurbætt og sniðið textatillögurnar](#improve-and-tailor-text-suggestions).
 
-4. Til að fara fram og til baka í gegnum tillögur, notaðu fyrri og næstu hlekk efst á síðunni (*x* **af** *y*). <!-- or select the **...** (More formatting options) along the bottom of the window, then select **Undo**. Select **Redo** to go back.-->
-5. Skoðaðu textann vandlega með tilliti til nákvæmni og viðeigandi:
+4. Til að fara fram og til baka með tillögum skal nota fyrri og næstu tengla efst á síðunni (*x* **af** *y*). <!-- or select the **...** (More formatting options) along the bottom of the window, then select **Undo**. Select **Redo** to go back.-->
+5. Farið vandlega yfir textann fyrir nákvæmni og nákvæmni:
 
-   - Ef þú vilt vista textann skaltu velja **Halda honum**. 
-   - Ef þú vilt ekki vista skaltu velja fleygjahnappinn (ruslatunna) ![Sýnir ruslatunnutáknið til að eyða öllum Copilot tillögunum um afstemmingu bankareiknings](media/copilot-delete-trash-can.png).
+   - Ef vista á textann skal velja **Halda honum**. 
+   - Ef þú vilt ekki vista skaltu velja fleyghnappinn (ruslið) ![Sýnir ruslið getur táknið til að eyða öllum Stjórnunartillögum fyrir afstemmingu bankareikninga](media/copilot-delete-trash-can.png).
 
-### Bæta og sérsníða textatillögur
+### Bæta og sníða textatillögur
 
-Það eru nokkur skref sem þú getur gert til að bæta textatillögurnar og fínstilla þær til að henta persónulegum óskum þínum eða fyrirtækis.
+Þú getur gert nokkur þrep til að bæta textatillögurnar og kveikja í þeim til að henta persónulegum eða óskum fyrirtækisins.
 
-1. Breyttu eiginleikum vörunnar sem Copilot notar.
+1. Breyta vörueigindum sem Copilot notar.
 
-   Tillögur aðstoðarflugmanns eru að hluta til byggðar á eiginleikum sem hlutnum er úthlutað. Til að skoða tiltæka eiginleika og núverandi stillingar skaltu velja edit ![Sýnir edit táknið á Copilot glugganum til að breyta eiginleikum](media/edit-pencil.png) tákninu í efra vinstra horninu. Á síðunni **Eiginleikar vöru**  skaltu velja þá eiginleika sem passa best við þá eiginleika sem þú vilt kynna. Því meira viðeigandi eiginleika sem þú tekur með, því ríkari verður útkoman. Ef þér finnst vanta nokkra lykileiginleika skaltu bæta við fleiri. Fyrir frekari upplýsingar um eiginleika, farðu í [Vinna með eiginleika vöru](inventory-how-work-item-attributes.md)
-1. Breyttu stillingum þínum fyrir  **Tón**, **Format** og **Áhersla** valkostir.
+   Stjórnunartillögur eru byggðar að hluta til á eigindum vörunnar. Til að skoða tiltækar eigindir og núgildandi stillingar skal velja breytingartáknið ![Sýna breytingatáknið í glugganum Copilot til að breyta eigindatákni](media/edit-pencil.png) í vinstra horni uppi. Á síðunni **Vörueigindir** skal velja þá eiginleika sem best samræmast þeim eiginleikum sem á að kynna. Eftir því sem viðeigandi eigindir eru taldar, þeim mun ríkari verður útkoman. Ef þér finnst vanta einhverjar lykileigindir, bætið við fleirum. Nánari upplýsingar um eigindir eru í [Vinna með vörueigindir](inventory-how-work-item-attributes.md)
+1. Breyta kjörstillingum fyrir  **tón-,** snið **og** **áhersluvalkosti** .
 
    |Valkostur|Heimildasamstæða|
    |-|-|
-   |Tónn |Notaðu þennan valmöguleika til að hafa áhrif á hvers konar orð, orðasambönd og greinarmerki eru notuð til að ná til markhópsins. Þú getur valið úr nokkrum fyrirfram skilgreindum raddstónum, allt frá **Formlegu** (sem leiðir af sér viðskiptatón) til **Creative** (sem leiðir af sér óformlegan tón). |
-   |Snið og lengd|Notaðu þennan valmöguleika til að stjórna almennri uppbyggingu textans, sem samanstendur af þremur hlutum sem falla undir fjóra mismunandi valkosti: <ul><li>**Tagline** - Grípandi setning eða stutt setning sem auðkennir hlutinn eða vörumerkið.</li><li>**Málsgrein** - Ein málsgrein með reiprennandi og margorðum texta, sem samanstendur af nokkrum heilum setningum.</li><li>**Merki + málsgrein** - Merkiorð á eftir með málsgrein</li><li>**Stutt** - Inngangssetning, líkt og tagline, fylgt eftir með punktalista yfir helstu áhugaverða staði.</li></ul> |
-   |Áhersla|Notaðu þennan valkost til að velja úr lista yfir fyrirfram skilgreinda eiginleika sem þú vilt leggja áherslu á í textanum. Veldu gæði sem passar best við tegund hlutarins sem þú ert að skrifa um. Eiginleikarnir samsvara ekki eiginleikum, lýsingu eða flokki hlutarins beint. Til dæmis gæti **Gæði**  verið góður kostur fyrir bæði hjól eða skrifborð, en **Hraði** myndi henta hjóli, en ekki skrifborð.|
+   |Tónn |Þessi kostur er notaður til að hafa áhrif á hvers konar orð, orðasambönd og greinargerð eru notuð til að taka þátt í markhópnum. Hægt er að velja úr nokkrum fyrirfram skilgreindum röddum, allt frá **Formal**  (sem leiðir af sér viðskiptatón) til **Creative**  (sem leiðir af sér óformlegan tón). |
+   |Snið og lengd|Þessi kostur er notaður til að stýra almennri uppbyggingu textans, sem samanstendur af þremur hlutum, sem fjórir mismunandi valkostir taka til: <ul><li>**Tagline** - Grípandi orðasambandi eða stutt setning sem auðkennir vöruna eða vörumerkið.</li><li>**Málsgrein** - Ein málsgrein flautu- og verbose texta, sem samanstendur af nokkrum heildarsetningum.</li><li>**Tagline + Málsgrein** - A tagline fylgdi málsgrein</li><li>**Stutt** - Kynningasetning, svipuð taglínu og á eftir skotheldum lista yfir lykilatriði vaxta.</li></ul> |
+   |Áhersla|Þessi kostur er notaður til að velja úr lista yfir fyrirfram skilgreinda eiginleika sem á að leggja áherslu á í textanum. Veldu gæði sem eru best samstillt við tegund vörunnar sem þú skrifar um. Eiginleikarnir samsvara ekki beint eigindum vörunnar, lýsingu eða tegund. Gæði **gætu til dæmis**  verið góður kostur fyrir bæði hjól eða skrifborð, en **Speed** myndi henta hjóli en ekki skrifborði.|
 
-1. Bættu **Lýsing** reitinn á vöruspjaldinu.
+1. Reiturinn **Lýsing** er bættur á birgðaspjaldinu.
 
-   Textinn í reitnum **Lýsing** er notaður eins og hann er á mörgum stöðum í textatillögunni, svo það er mikilvægt að lýsingin sýni sem best hvernig þú vilt að hluturinn sé vísað til í markaðssetningunni. texti. 
+   Textinn í reitnum **Lýsing** er notaður sem-er á mörgum stöðum í textanum sem lagður er til og því er mikilvægt að lýsingin eigi besta mynd af því hvernig vísað er í vöruna í markaðssetningartextanum. 
 
-1. Gakktu úr skugga um að **Vöruflokkakóði** reiturinn á vöruspjaldinu sé stilltur á réttan flokk.
+1. Ganga þarf úr skugga um að reiturinn **Vöruflokkskóti** á birgðaspjaldinu sé stilltur á réttan flokk.
 
-   Copilot finnur orð og orðasambönd sem tengjast flokknum og vinnur þau inn í textatillöguna.
+   Copilot finnur orð og orðasamband sem tengjast flokknum og vinnur þau inn í textann sem lagður er til.
 
-### Að vinna með mörg tungumál 
+### Unnið með mörg tungumál 
 
-Texti er alltaf búinn til á því tungumáli sem er skilgreint af  [stillingum notanda](ui-change-basic-settings.md#language). Ef fyrirtækið þitt starfar og setur gögn inn í Business Central á öðru tungumáli, eða ef Business Central er tengt við netverslunina þína eins og með Shopify gæti það leitt til birtingar efnis sem passar ekki við svipað markaðsefni.
+Texti er alltaf myndaður á því tungumáli sem skilgreint er af [notandastillingum](ui-change-basic-settings.md#language). Ef fyrirtækið rekur og færir gögn inn í Business Central á öðru tungumáli eða ef Business Central er tengt netverslun þinni, svo sem með Shopify, gæti það leitt til útgáfuefnis sem passar ekki við svipað markaðsefni.
 
-## Búðu til texta frá grunni
+## Stofna texta frá grunni
 
-1. Í Business Central, opnaðu hlutinn sem þú vilt breyta á eftirfarandi hátt:
+1. Í Business Central er varan sem á að breyta opnuð á eftirfarandi hátt:
 
-    1. Í efra hægra horninu skaltu velja ![peruna sem opnar Segðu mér eiginleikann 22.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Items** og veldu síðan tengda tengilinn til að sýna lista yfir tiltæka hluti.
-    2. Til að opna hlutinn skaltu tvísmella á hann eða velja númer hans í   **No.** .
+    1. Í efra hægra horni ![skal velja Lightbulb sem opnar Tell Me aðgerð 22.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Vörur** og velja svo tengdan tengil til að sýna lista yfir tiltækar vörur.
+    2. Til að opna vöruna er tvísmellt á hana eða númerið valið í reitnum  **Nr.** .
 
 2. Framkvæmdu eitt af eftirfarandi skrefum:
 
-   - Í **Markaðstexta** rúðunni í staðreyndaboxinu hægra megin á síðunni skaltu velja **Breyta**.
-   - Veldu aðgerðina **Markaðstexti** .
-3. Gerðu breytingar á texta beint í **Markaðstexta** reitnum. Notaðu tækjastikuna neðst í reitnum til að forsníða og stíla texta, bæta við tenglum og fleira.
-4. Veldu **Í lagi** þegar því er lokið til að vista textann.
+   -  **Á glugganum Texti** markaðssetningar í upplýsingakassanum hægra megin á síðunni er Breyta **valið**.
+   - Veljið aðgerðina **Markaðssetningartexti** .
+3. Breyta texta beint í reitnum **Texti** markaðssetningar. Nota verkfærastikuna neðst í kassanum til að sníða og stíltexta, bæta við tenglum og fleira.
+4. Velja skal **Í lagi** þegar það er gert til að vista textann.
 
 ## Sjá einnig .
 

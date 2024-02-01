@@ -3,9 +3,7 @@ title: Búðu til og stjórnaðu tengiliðum fyrirtækisins
 description: 'Settir eru upp sem tengiliðir allir ytri aðilar sem fyrirtækið hefur viðskiptatengsl við (til dæmis viðföng, viðskiptamenn, lánadrottnar og ráðgjafar).'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
 ms.date: 12/13/2023

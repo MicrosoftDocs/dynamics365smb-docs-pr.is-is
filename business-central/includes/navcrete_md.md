@@ -1,28 +1,28 @@
 ---
-translation.priority.ht:
-  - da-dk
-  - de-at
-  - de-ch
-  - de-de
-  - en-au
-  - en-ca
-  - en-gb
-  - en-in
-  - en-nz
-  - es-es
-  - es-mx
-  - fi-fi
-  - fr-be
-  - fr-ca
-  - fr-ch
-  - fr-fr
-  - is-is
-  - it-ch
-  - it-it
-  - nb-no
-  - nl-be
-  - nl-nl
-  - ru-ru
-  - sv-se
+translation.priority.ht: 
+  - "da-dk"
+  - "d-ð"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "inn-í"
+  - "en-nz"
+  - "Es-es"
+  - "Es-mx"
+  - "fi-fi"
+  - "fr-vera"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "Ūađ er allt í sjķnvarpinu"
+  - "Það-það"
+  - "nb-nei"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se" ms.þjónusta: dynamics-365-business-central
 ---
 Microsoft Dynamics NAV 2015

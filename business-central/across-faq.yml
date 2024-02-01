@@ -5,8 +5,9 @@ metadata:
   author: brentholtorf
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 07/14/2023
+  ms.date: 12/19/2023
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Algengar spurningar um notkun Business Central
 summary: |
   Þessi hluti inniheldur svör við algengum spurningum um nýskráningu fyrir prufuáskrift, kaup á áskrift og notkun á [!INCLUDE[prod_short](includes/prod_short.md)]. Kynntu þér líka hvernig þú færð tæknilega aðstoð.  
@@ -22,7 +23,7 @@ sections:
         answer: |
           Hægt er að skrá sig fyrir prufuáskrift til að skoða [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Ef þú vilt fá meiri tíma til að skoða, [geturðu lengt áskriftartímann](#can-i-extend-my-30-day--new-company--trial-period-).  
 
-          Til þess að búa þig undir að stunda viðskipti í [!INCLUDE[prod_short](includes/prod_short.md)] geturðu opnað uppsetningarleiðbeiningar með hjálp, myndskeið eða hjálp fyrir valda uppsetningu verka. Frekari upplýsingar eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
+          Til að hjálpa þér að undirbúa þig fyrir viðskipti í [!INCLUDE[prod_short](includes/prod_short.md)] geturðu ræst uppsetningarleiðbeiningar, myndbönd eða hjálpargreinar fyrir valin uppsetningarverkefni. Frekari upplýsingar eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
 
           Ef þú ertu tilbúin(n) til að kaupa [!INCLUDE[prod_short](includes/prod_short.md)] geturðu fundið [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -44,7 +45,7 @@ sections:
       - question: |
           Er einhver munur á uppsetningu á staðnum og Business Central Online?
         answer: |
-          Já. [!INCLUDE [prod_short](includes/prod_short.md)] er fínstillt fyrir netinnleiðingu og suma eiginleika er hugsanlega hægt aðeins að keyra á staðnum undir vissum kringumstæðum, á meðan aðrir eru ekki studdir. Frekari upplýsingar eru í [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (aðeins í boði á ensku).
+          Já. [!INCLUDE [prod_short](includes/prod_short.md)] er fínstillt fyrir uppsetningu á netinu og sumir eiginleikar gætu aðeins keyrt á staðnum við vissar aðstæður, á meðan aðrir eru alls ekki studdir. Frekari upplýsingar eru í [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (aðeins í boði á ensku).
       - question: |
           Get ég fengið þjálfun í Business Central?
         answer: |
@@ -55,13 +56,13 @@ sections:
           Viðbótarefni er veitt af [!INCLUDE[prod_short](includes/prod_short.md)]-samfélaginu, t.d. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) sem er skrifað af samstarfsaðila.  
       - question: Hvernig fæ ég tækniþjónustu fyrir Business Central?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] er selt í gegnum samstarfsaðila og þú ættir að hafa samband við endursöluaðila til að fá aðstoð vegna tæknilegra vandamála. Ef [!INCLUDE[prod_short](includes/prod_short.md)] samstarfsaðilinn þinn getur þá ekki leyst úr vandanum sendar hann inn þjónustubeiðni til Microsoft.  
+          [!INCLUDE[prod_short](includes/prod_short.md)] er selt í gegnum samstarfsaðila og þú ættir að hafa samband við endursöluaðila til að fá aðstoð vegna tæknilegra vandamála. Ef [!INCLUDE[prod_short](includes/prod_short.md)] félagi þinn getur ekki leyst vandamálið, þá útvegar hann stuðningsmiða hjá Microsoft.  
 
           Lærðu meira á [Hjálp og stuðningur](product-help-and-support.md) og í [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner) hlutann.  
       - question: |
           Hvar er hnappurinn til að vista?
         answer: |
-          Það er enginn *vista* hnappur á síðum eins og í öðrum forritum sem þú gætir kannast við. Í [!INCLUDE[prod_short](includes/prod_short.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést textinn **Vistar** efst í hægra horninu. Hann breytist í **Vistað** fljótlega ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.  
+          Það er enginn *vista* hnappur á síðum eins og í öðrum forritum sem þú gætir kannast við. Í [!INCLUDE[prod_short](includes/prod_short.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar þú gerir breytingar á reit og færir þig í annan reit sérðu textann **Vistar**  efst í hægra horninu á síðunni. Hann breytist í **Vistað** fljótlega ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.  
       - question: |
           Hvar finn ég þetta línunúmer?
         answer: |
@@ -69,7 +70,7 @@ sections:
       - question: |
           Af hverju lýsir hjálpin virkni sem ég hef ekki aðgang að?
         answer: |
-          Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar eru í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
+          Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskýrsla er sett inn í hjálpargreinar á háu stigi fyrir þessi eiginleikasvæði. Frekari upplýsingar eru í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
       - question: |
           Hvers vegna eru nýjar upplýsingar ekki í boði á mínu tungumáli?
         answer: |
@@ -80,7 +81,7 @@ sections:
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] Online krefst að þú notir vinnu- eða skólanetfang fyrir nýskráningu. [!INCLUDE[prod_short](includes/prod_short.md)] á netinu styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  
 
-          Ef þú reynir að nýskrá með persónulegu tölvupóstfangi færðu skilaboð sem gefa til kynna að þú eigir að nota vinnu eða skóla netfang. Frekari upplýsingar má finna á [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md).  
+          Ef þú reynir að skrá þig með persónulegu netfangi færðu skilaboð um að nota vinnu- eða skólanetfang. Frekari upplýsingar má finna á [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md).  
 
           Ef ætlunin er að virkja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum þá er hægt að nota aðrar sannvottunaraðferðir. Frekari upplýsingar er að finna í [Upplýsingar á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
       - question: |
@@ -98,10 +99,10 @@ sections:
       - question: |
           Get ég framlengt 30 daga prufutímabilið fyrir „Nýtt Fyrirtæki“?
         answer: |
-          Já. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum. Þú getur lengt prufutímann einu sinni sjálf/ur. Eftir það getur Microsoft samstarfsaðili lengt hann í aðra 30 daga. Frekari upplýsingar eru í [Framlengja prufuútgáfu](admin-extend-trial.md).
+          Já. Þegar lokadagsetning prufutímabilsins nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum. Þú getur lengt prufutímann einu sinni sjálf/ur. Eftir það getur Microsoft samstarfsaðili lengt hann í aðra 30 daga. Frekari upplýsingar eru í [Framlengja prufuútgáfu](admin-extend-trial.md).
 
           > [!NOTE]
-          > Það getur tekið allt að tvo virka daga að ljúka við framlengingarferli fyrir prufutímabilið.  
+          > Það gæti tekið allt að tvo virka daga að ljúka framlengingarferli prufutímans.  
 
           Frekari upplýsingar um hvernig má finna endursöluaðila eru í [Hvernig finn ég endursöluaðila?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -136,10 +137,10 @@ sections:
       - question: |
           Er Windows-biðlarinn studdur?
         answer: |
-          Með fyrstu útgáfum af [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum fylgdi biðlari sem hægt var að setja upp sem kom frá Microsoft Dynamics NAV. Frá og með 2019 útgáfutímabili 2, mun þessi eldri hluti, sem vísað er í sem „Windows-biðlarinn“ ekki lengur vear í boði fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Algengar spurningar um Windows-biðlara og Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
+          Með fyrstu útgáfum af [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum fylgdi biðlari sem hægt var að setja upp sem kom frá Microsoft Dynamics NAV. Frá og með útgáfubylgju 2 frá 2019 er þessi eldri hluti, nefndur „Windows biðlarinn“, ekki lengur fáanlegur fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Algengar spurningar um Windows-biðlara og Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 additionalContent: |
 
-  ## Sjá einnig
+  ## Sjá einnig .
 
   [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
   [Algengar spurningar um Viðmótsleit](ui-search-faq.md)  

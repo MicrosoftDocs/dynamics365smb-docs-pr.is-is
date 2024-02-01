@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 Þú þarft vefslóð til að koma á tengingu við OneDrive úr Business Central. Auðveldasta leiðin til að sækja vefslóðina er að skrá sig inn í [OneDrive](https://onedrive.live.com) fyrir fyrirtækið. Í veffangi vafrans sérðu vefslóð sem er á eftirfarandi sniði:
 
 `https://<your Microsoft 365 tenant name>-my.sharepoint.com/personal/<your user name>`

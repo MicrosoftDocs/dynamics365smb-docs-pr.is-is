@@ -3,9 +3,7 @@ title: Yfirlit yfir rafræn skjöl
 description: Þessi grein veitir yfirlit yfir E-Documents eininguna.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: null
 ms.date: 01/16/2024

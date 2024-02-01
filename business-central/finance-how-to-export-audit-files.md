@@ -4,9 +4,7 @@ description: Í greininni er útskýrt hvernig á að setja upp mismunandi útfl
 author: altotovi
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023

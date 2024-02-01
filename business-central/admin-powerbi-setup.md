@@ -4,7 +4,7 @@ description: 'Kynntu þér hvernig á að setja upp Power BI. Með Power BI ský
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, business intelligence, KPI'
-ms.date: 09/28/2023
+ms.date: 01/28/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
@@ -58,10 +58,10 @@ Við hvert tækifæri er mælt með að nota API-síður í stað OData-vefþjó
 
 Þessi hluti útskýrir kröfur fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum til að samþætta við Power BI.
 
-1. Samskipa annaðhvort  [navuserpassword](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-navuserpassword)  eða  [Microsoft Entra  ID](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview)  sem sannvottunaraðferð fyrir Innleiðslu.  
+1. Grunnstilla annaðhvort [NavUserPassword](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-navuserpassword) eða [Microsoft Entra Kenni](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview) sem sannvottunaraðferð fyrir virkjunina.  
     
     > [!NOTE]
-    > Power BI Samþætting styður ekki Windows-sannvottun og er ekki studd í Windows-biðlara.
+    > Power BI samþætting styður ekki Windows sannvottun og er ekki studd í Windows-biðlara.
 
 2. Virkja OData-vefþjónustu og ODataV4 endastöð .
 
@@ -79,19 +79,25 @@ Við hvert tækifæri er mælt með að nota API-síður í stað OData-vefþjó
 
 4. Búið til forritsskráningu fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Microsoft Azure.
 
-    Til að skoða Power BI skýrslur sem eru innfelldar á [!INCLUDE[prod_short](includes/prod_short.md)] síður verður forrit að vera skráð fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Microsoft Azure. Skráð forrit þarf að hafa leyfi fyrir Power BI þjónustunni. Forritið þarf að lágmarki heimildina **User.ReadWrite.All**. Til að notendur geti skoðað skýrslur frá samnýttum Power BI vinnusvæðum þarf forritið heimildina **Workspace.Read.All**. Frekari upplýsingar er að finna  [í skráning  [!INCLUDE[prod_short](includes/prod_short.md)]  innanhúss í  Microsoft Entra  auðkenni fyrir samþættingu við aðra þjónustu](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    Til að skoða Power BI skýrslur sem eru innfelldar á [!INCLUDE[prod_short](includes/prod_short.md)] síður verður forrit að vera skráð fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Microsoft Azure. Skráð forrit þarf að hafa leyfi fyrir Power BI þjónustunni. Forritið þarf að lágmarki heimildina **User.ReadWrite.All**. Til að notendur geti skoðað skýrslur frá samnýttum Power BI vinnusvæðum þarf forritið heimildina **Workspace.Read.All**. Nánari upplýsingar eru [í Skráning [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss í Microsoft Entra kenni til samþættingar við aðra þjónustu](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
-    > Ef virkjun notar NavUserPassword-sannvottun, tengist [!INCLUDE[prod_short](includes/prod_short.md)] sömu Power BI þjónustunni fyrir alla notendur. Þessi þjónustureikningur er tilgreindur sem hluti af skráningu á forritinu. Með  Microsoft Entra  sannvottun er  [!INCLUDE[prod_short](includes/prod_short.md)]  Power BI  tengist þjónustunni sem tengist einstökum notendareikningum.
+    > Ef virkjun notar NavUserPassword-sannvottun, tengist [!INCLUDE[prod_short](includes/prod_short.md)] sömu Power BI þjónustunni fyrir alla notendur. Þessi þjónustureikningur er tilgreindur sem hluti af skráningu á forritinu. Með Microsoft Entra sannvottun [!INCLUDE[prod_short](includes/prod_short.md)]  er tengst þjónustunni Power BI sem tengist einstökum notendareikningum.
 
     <!-- Windows authentication can also be used but you can't get data from BC in Power BI -->
 5. Gerið upphaflega tengingu frá Business Central til Power BI.
 
     Áður en notendur geta notað Power BI í [!INCLUDE[prod_short](includes/prod_short.md)] verður stjórnandi Azure-forrits að veita samþykki fyrir Power BI-þjónustunni.
 
-    Til að koma á fyrstu tengingunni skal opna [!INCLUDE[prod_short](includes/prod_short.md)] og keyra **Hefjast handa með Power BI** af heimasíðunni. Þessi aðgerð mun leiða þig í gegnum samþykktarferlið og fara yfir Power BI-leyfið þitt. Þegar beðið er  Microsoft Entra  um innskráningu með admin-lykli. Frekari upplýsingar er að finna í [Tengjast við Power BI - aðeins einu sinni](across-working-with-powerbi.md#connect).
+    Til að koma á fyrstu tengingunni skal opna [!INCLUDE[prod_short](includes/prod_short.md)] og keyra **Hefjast handa með Power BI** af heimasíðunni. Þessi aðgerð mun leiða þig í gegnum samþykktarferlið og fara yfir Power BI-leyfið þitt. Þegar beðið er um innskráningu með stjórnunarreikningi Microsoft Entra . Frekari upplýsingar er að finna í [Tengjast við Power BI - aðeins einu sinni](across-working-with-powerbi.md#connect).
 
-## Sjá einnig
+## Uppsetning gagnaflæðis
+
+Gagnaflæði gerir kleift að setja inn, breyta og hlaða gögnum inn á Power BI vinnusvæðið og nota gögnin sem grunn fyrir skýrslurnar. Þessi gögn geta í sumum tilfellum upplifað tímabundnar villur þegar endurnýjun er gerð á tímasettri endurnýjun. Villuboðin líta þannig út: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
+
+Með PowerAutomate er hægt að setja upp endurtekningar fyrir þessa setu. Nánari upplýsingar eru [í Sjálfkrafa reynir á gagnaflæði um misgáning](/power-query/dataflows/automatically-retry-dataflow).
+
+## Sjá einnig .
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

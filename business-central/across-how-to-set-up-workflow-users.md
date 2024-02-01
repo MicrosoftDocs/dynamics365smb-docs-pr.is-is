@@ -3,9 +3,7 @@ title: 'Hvernig á að: Setja upp notendur verkflæðis'
 description: Áður en hægt er að stofna verkflæði þarf að setja upp notendurna sem taka þátt í þeim á síðunni Samþykktarnotendauppsetning.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'reject, delegate, request'
 ms.search.form: '1533,'
 ms.date: 05/31/2023

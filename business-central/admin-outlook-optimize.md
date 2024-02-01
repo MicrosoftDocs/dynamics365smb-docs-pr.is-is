@@ -3,12 +3,11 @@ title: Fínstilltu Outlook fyrir viðskiptapósthólfið þitt
 description: Kynntu þér hvað hægt er að gera til að bæta upplifun með fyrirtækjainnhólfi í Microsoft Outlook.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in'
 ms.date: 12/06/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Fínstilltu Outlook fyrir viðskiptapósthólfið þitt 
 

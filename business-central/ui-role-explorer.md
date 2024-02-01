@@ -3,9 +3,7 @@ title: Skoða og fletta í síðum eftir hlutverki
 description: Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir hlutverkið þitt og önnur hlutverk með hlutverkaleitinni.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'role explorer, find features, navigate'
 ms.search.form: 'RoleExplorer, 9020, 9022, 9027, 9024'
 ms.date: 08/01/2021

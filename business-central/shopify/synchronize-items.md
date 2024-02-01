@@ -3,7 +3,6 @@ title: Samstilla vörur og birgðir
 description: Setja upp og keyra samstillingar vara milli Shopify og Business Central
 ms.date: 11/17/2023
 ms.topic: article
-ms.service: dynamics-365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf

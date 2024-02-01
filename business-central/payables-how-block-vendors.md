@@ -3,9 +3,7 @@ title: Loka á lánardrottna
 description: 'Lestu um hvernig á að loka á lánardrottna svo þeir verði ekki teknir með í neinum færslum, eða einfaldlega loka fyrir nýjar greiðslur til þeirra.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 27
 ms.date: 06/22/2021

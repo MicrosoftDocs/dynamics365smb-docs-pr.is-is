@@ -3,9 +3,7 @@ title: Hvernig á að vinna með VSK í sölu og innkaupum
 description: 'Í þessu efnisatriði er lýst ýmsum aðferðum við að vinna með VSK bæði handvirkt og með sjálfvirkri uppsetningu, til að auðvelda að uppfylla tilteknar reglugerðir um land/svæði.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'VAT, sales, purchases'
 ms.search.form: '7, 118, 130, 142, 459, 460, 525'
 ms.date: 06/16/2021

@@ -3,9 +3,7 @@ title: Setja upp sjóðstreymisgreiningu (inniheldur myndskeið)
 description: 'Nota gröf reikninga í Mínu hlutverki til að greina sjóðstreymi í fyrirtækinu, þar á meðal útgjöld og tekjur, greiðslugetu og inngreiðslur mínus staðgreiðslur.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds'
 ms.search.form: '846, 847, 849, 851, 855, 862, 869, 1818'
 ms.date: 08/23/2022

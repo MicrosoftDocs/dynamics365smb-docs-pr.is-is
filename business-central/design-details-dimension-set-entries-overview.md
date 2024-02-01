@@ -3,9 +3,7 @@ title: Yfirlit yfir víddasamstæðufærslur
 description: Í þessari grein er yfirlit yfir hvernig færslur víddasamstæðu eru geymdar sem víddasamstæðufærslur og hvernig þær eru bókaðar.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Virkja greiðslur viðskiptavina með greiðsluþjónustum
 description: Gerðu það auðveldara fyrir viðskiptavini að greiða reikninga sína með því að virkja viðskiptavinagreiðslur í gegnum greiðsluþjónustu.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: online payment
 ms.search.forms: '1060, 1061, 1062'
 ms.date: 06/25/2021

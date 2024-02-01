@@ -3,9 +3,7 @@ title: Yfirlit bókunarlínu færslubókar
 description: 'Í þessu efnisatriði eru breytingar á kóðaeiningu 12 kynntar. Bókunarlína fjárhags, og er eini staðurinn til að setja inn færslur fjárhags, VSK, viðskiptavinar og lánardrottins.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, general ledger, post'
 ms.date: 06/15/2021
 ms.author: bholtorf

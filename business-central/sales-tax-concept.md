@@ -3,16 +3,15 @@ title: Söluskattur í sjálfgefinni útgáfu
 description: Kynntu þér hvernig grunnútgáfa Business Central styður við söluskatt og fáðu lýsingu á grunnhugmyndinni.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tax, posting, sales tax'
 ms.search.form: '10, 315, 466, 467, 468, 469, 10015, 10016, 10101'
 ms.date: 07/21/2022
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Söluskattur í sjálfgefnu útgáfunni af Business Central
+# Söluskattur í sjálfgefnu útgáfunni af Business Central
 
 **Söluskattur** er skattur sem gildir um kaup á vörum og þjónustu fyrir neytendur og sölu á vörum og þjónustu fyrir fyrirtæki. Söluskattur ætti helst að gilda um alla endanotkun með nokkrum undanþágum. Undanþágur á endanotkun fara eftir yfirvöldum á staðnum en almennt séð eru viðskipti milli fyrirtækja undanþeginn söluskatti.  
 
@@ -23,7 +22,7 @@ Söluskattar eiga venjulega við um smásölu á vörum og þjónustu og eru pr�
 > [!IMPORTANT]
 > Þótt söluskattur sé í boði í sjálfgefinni útgáfu styður Microsoft notkun á söluskatti eingöngu í Bandaríkjunum og Kanada.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skráning virðisaukaskatts í Bandaríkjunum](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Skráning virðisaukaskatts í Kanada](localfunctionality/canada/ca-sales-tax.md)  

@@ -3,9 +3,7 @@ title: Skilgreina hvaða skjöl á innleið skal skoða
 description: 'Stilla hvaða skjöl á innleið skuli birtast sjálfgefið, eins og t.d. rafrænir reikningar, til að bæta yfirsýn yfir færslur sem búið er að vinna og færslur sem á eftir að vinna.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: bholtorf

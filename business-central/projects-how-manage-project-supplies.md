@@ -3,9 +3,7 @@ title: Stjórna verkbirgðum
 description: Lýsir mismunandi leiðum til að hafa umsjón með framboð og innkaupum á efni og þjónustu fyrir verk.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'project management, material, purchase'
 ms.search.form: '98, 1020'
 ms.date: 06/22/2021

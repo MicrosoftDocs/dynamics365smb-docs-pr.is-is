@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Starfsmenn vöruhúss geta sent og móttekið vörur sem ekki eru til á lager ásamt efnislegum vörum í sölu-og innkaupapöntunum. Vörur sem ekki eru í birgðum eru óáþreifanlegum, svo sem tryggingum eða aukakostnaði.

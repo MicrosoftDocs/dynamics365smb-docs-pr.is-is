@@ -3,9 +3,7 @@ title: Gera beinar afhendingar (inniheldur myndband)
 description: Lýsir hvernig á að Búa til sölupöntun sem er tengd við innkaupapöntun til að virkja sendingu beint frá lánardrottni til viðskiptamanns.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: bholtorf

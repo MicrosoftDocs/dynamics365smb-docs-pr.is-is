@@ -1,5 +1,5 @@
 ---
-title: Stilltu Copilot og AI getu
+title: Grunnstilling copilot og AI-möguleika
 description: Þessi grein útskýrir hvernig á að virkja Copilot í umhverfi.
 author: jswymer
 ms.author: jswymer
@@ -12,45 +12,45 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Stilltu Copilot og AI getu 
+# Grunnstilling copilot og AI-möguleika 
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
 <!--This article explains how you can control the ability to create AI-powered item marketing text with Copilot for your organization. This task is done by an admin. There are two requirements that you must fulfill to make the feature available to users:-->
 
-Þessi grein útskýrir hvernig á að stjórna Copilot og öðrum gervigreindargetum í Business Central. Þetta verkefni er gert af stjórnanda. Copilot er kerfiseiginleiki og óaðskiljanlegur hluti af Business Central. Líkt og flestir kerfiseiginleikar veitir þú ekki einstökum notendum aðgang né geturðu kveikt eða slökkt á Copilot. Hins vegar býður Copilot upp á gagnastjórnunarstýringar og möguleika á að slökkva á einstökum Copilot og AI getu fyrir hvert umhverfi. Það eru mismunandi stig aðgangsstýringar að gervigreindargetu, allt eftir eiginleikum:
+Þessi grein útskýrir hvernig á að stjórna Copilot og öðrum afkastagetu AI í Business Central. Þetta er gert af stjórnanda. Copilot er kerfisaðgerð og óaðgreindur hluti Af Business Central. Svipað og með flesta kerfisaðgerði veitir notandi hvorki aðgang að einstökum notendum né vísbendingum um eða slökkt á copilot. Hins vegar býður Copilot upp á eftirlit með gögnum og getur slökkva á einstökum möguleikum Copilot og AI fyrir hvert umhverfi. Mismunandi aðgangsstýringarstig eru til staðar fyrir Óháð getu, eftir því hver eiginleikinn er:
 
-- Leyfa gagnaflutning milli landfræðilegra svæða
+- Leyfa hreyfingu gagna á landsvæðum
 
-  Þetta verkefni er aðeins krafist ef Business Central umhverfið þitt er í öðru landafræði en Azure OpenAI þjónustan sem það notar. [Læra meira](#allow-data-movement-across-geographies)
+  Þetta verk er aðeins krafist ef Business Central umhverfið þitt er í annarri landfræði en Azure OpenAI þjónustan sem hún notar. [Læra meira](#allow-data-movement-across-geographies)
 
-- Virkjaðu eiginleikann á **stýrivélinni & AI Capabilities** síða. [Læra meira](#activate-features)
+- Virkja eiginleikann á síðunni **Copilot & AI Getu** . [Læra meira](#activate-features)
 
-- Virkjaðu tiltekna eiginleikann, ef hann er enn stjórnað af **eiginleikastjórnun**.
+- Virkja tiltekna eiginleika ef hún er enn stjórnað af **eiginleikastjórnun**.
 
-  Í útgáfubylgju 2 fyrir árið 2023 eru bæði tillögurnar um markaðstexta og aðstoðaeiginleika bankareikninga innifalin undir **eiginleikastjórnun**. [Læra meira](#enable-feature-in-feature-management)
+  Í 2023 gefa út bylgju 2 eru bæði tillögur um markaðssetningartexta og aðstoð við afstemmingu bankareikninga undir **Eiginleikastjórnun**. [Læra meira](#enable-feature-in-feature-management)
 
-Ef eitthvað af þessum kröfum er ekki uppfyllt er eiginleikinn ekki tiltækur til notkunar.
+Ef einhver þessara þarfa er ekki uppfyllt er aðgerðin ekki tiltæk til notkunar.
 
 ## Frumskilyrði
 
-- Þú ert að nota Business Central á netinu, útgáfu 23.1 eða nýrri. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
-- Þú hefur stjórnanda- eða ofurheimildir í Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
+- Þú notar Business Central á netinu, útgáfa 23.1 eða síðar. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
+- Þú ert með admin eða yfirheimildir í Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Leyfa gagnaflutning milli landa
+## Leyfa hreyfingu gagna á landsvæðum
 
-Þetta verkefni á aðeins við ef **Leyfa gagnaflutninga** rofinn birtist nálægt toppi **Copilot & AI Capabilities** síða. Ef hlekkurinn **Hvernig stjórna ég aðstoðarflugmannsgögnunum mínum?** er sýndur í stað **Leyfa gagnaflutninga** rofann, slepptu þetta skref.
+Þetta verk á aðeins við ef **rofi gagnahreyfingar** birtist efst á síðunni **Copilot & AI.**  Ef tengillinn **Hvernig stjórna ég gögnum um afritun mína?** er sýnt í staðinn fyrir rofann **Leyfa gagnahreyfingar** er þessu skrefi sleppt.
 
-![Sýnir skjáskot af rofanum Leyfa gagnahreyfingar á Copilot & AI Capabilities síða.](media/allow-data-movement-v2.png)
+![Sýnir skjáskot af rofa gagnahreyfingar á síðunni Copilot & AI Getu.](media/allow-data-movement-v2.png)
 
- **Leyfa gagnaflutning** rofinn gefur til kynna að staðsetning Business Central umhverfisins þíns&mdash; þ.e. landafræði þar sem gögn eru unnin og geymd&mdash; er ekki það sama og Azure OpenAI þjónustulandafræðin sem Copilot notar. Ef þú vilt virkja Copilot verður þú að leyfa gagnaflutning á milli landa. Til að læra meira um gagnaflutning, farðu í [Copilot gagnaflutningur yfir landsvæði](ai-copilot-data-movement.md). 
+Rofinn **Leyfa gagnahreyfingar** gefur til kynna að staðsetning&mdash; Business Central umhverfisins sem er, landafræðin þar sem gögn eru unnin og geymd&mdash; er ekki sú sama og Azure OpenAI Service landafræðin sem Copilot notar. Ef þú vilt virkja Copilot verður að leyfa hreyfingu gagna milli landa. Til að fræðast meira um hreyfingu gagna er farið í [Copilot-gagnahreyfingu yfir landfræðilegar](ai-copilot-data-movement.md) upplýsingar. 
 
-Til að leyfa gagnaflutning utan landfræðilegs svæðis þíns skaltu ljúka eftirfarandi skrefum:
+Til að leyfa gagnahreyfingar utan landsvæðisins skal ljúka eftirfarandi skrefum:
 
-1. Í Business Central skaltu leita að og opna **Copilot & AI Capabilities** síðu.
-1. Kveiktu á **Leyfa gagnaflutninga** rofa.
+1. Í Business Central er leitað að og opna síðuna **Copilot & AI Getu** .
+1. Kveikja á rofanum **Leyfa gagnahreyfingar** .
 
-Þú getur afþakkað með því að slökkva á  **Leyfa gagnaflutninga** rofanum. Þegar Azure OpenAI þjónusta verður tiltæk í landafræði Business Central umhverfisins þíns er umhverfið þitt sjálfkrafa tengt við það og rofinn er ekki lengur tiltækur. 
+Hægt er að velja með því að slökkva á rofanum  **Leyfa gagnahreyfingar** . Þegar Azure OpenAI þjónusta verður tiltæk í landafræði Business Central er umhverfið þitt sjálfkrafa tengt við það og rofinn er ekki lengur tiltækur. 
 
 
 <!--
@@ -72,47 +72,47 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## Virkjaðu eiginleika
+## Virkja eiginleika
 
-Allar Copilot og gervigreindarhæfileikar eru virkir sjálfgefið þegar þeir eru aðgengilegir í forskoðun eða verða almennt tiltækir. Notkun **Copilot & AI Capabilities** síðu geturðu slökkt eða kveikt á einstökum eiginleikum fyrir alla notendur.
+Allir stjórnunarmöguleikar og AI-eiginleikar eru sjálfgefið virkir þegar þeir eru tiltækir í forskoðun eða verða almennt tiltækir. Með því að nota síðuna **Copilot & AI Getu** er hægt að slökkva á einstökum eiginleikum eða aftur fyrir alla notendur.
 
-1. Í Business Central skaltu leita að og opna **Copilot & AI Capabilities** síðu.
+1. Í Business Central er leitað að og opna síðuna **Copilot & AI Getu** .
 
-1. Síðan sýnir alla tiltæka Copilot og AI tengda eiginleika og núverandi stöðu þeirra, sem geta verið annað hvort virkir eða óvirkir. Eiginleikunum er skipt í tvo hluta&mdash; einn hluti fyrir eiginleika í forskoðun og annan fyrir eiginleika sem eru almennt tiltækir. 
+1. Síðan birtir lista yfir allar tiltækar copilot- og AI-tengdar aðgerðir og núverandi stöðu þeirra, sem geta verið virkar eða óvirkar. Eiginleikunum er skipt í tvo hluta eins hluta&mdash; fyrir aðgerðir í forskoðun og aðra fyrir aðgerðir sem eru almennt tiltækar. 
 
-   [![Sýnir Business Central hlutverkamiðstöðina og gátlistann fyrir Copilot](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
+   [![Sýnir mitt hlutverk Business Central og gátlistann fyrir Copilot](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
 
-   - Til að kveikja á eiginleika skaltu velja hann á listanum og velja síðan aðgerðina **Virkja** .
-   - Til að slökkva á eiginleika skaltu velja hann og velja síðan **Slökkva á** aðgerð. 
+   - Til að kveikja á aðgerð skal velja hana á listanum og velja svo aðgerðina **Virkja** .
+   - Til að slökkva á aðgerð skal velja hana og velja **svo Óvirkja** aðgerð. 
 
 
-## Virkja eiginleika í eiginleikastjórnun
+## Gera eiginleika virka í eiginleikastjórnun
 
-Þegar einstakir Copilot eiginleikar eru gefnir út í Business Central minniháttar uppfærslum eru þessir eiginleikar valfrjálsir fram að næstu meiriháttar uppfærslu. **Eiginleikastjórnun** er notað til að kveikja eða slökkva á eiginleikum sem eru í forskoðun, eins og bankaafstemmingu, og sumum eiginleikum sem eru almennt tiltækir, eins og tillögur um markaðstexta. [Frekari upplýsingar um eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
+Þegar einstakar copilot-uppfærslur eru gefnar út í minniháttar uppfærslum Business Central er þessi möguleiki valfrjáls fram að næstu stóru uppfærslu. **Aðgerðastjórnun** er notuð til að kveikja eða slökkva á eiginleikum sem eru í forskoðun, eins og bankaafstemmingu og nokkrar aðgerðir sem eru almennt tiltækar, eins og tillögur um markaðssetningartexta. [Fræðast meira um aðgerðastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-1. Í Business Central skaltu leita að og opna  **Eiginleikastjórnun** síðuna.
-2. Til að virkja eiginleika skaltu stilla **Virkt fyrir** dálknum á **Allir notendur**. Til að slökkva á eiginleika skaltu stilla **Virkt fyrir** dálknum á **None**. Notaðu eftirfarandi töflu til að hjálpa þér að ákvarða rofann sem á við um Copilot og AO getu sem þú vilt virkja:
+1. Í Business Central skal leita að og opna síðuna **Eiginleikastjórnun** .
+2. Til að virkja eiginleika er dálkurinn **Virkt fyrir** alla notendur stilltur á **Alla notendur**. Til að gera aðgerð óvirka er virkt fyrir **dálkinn Ekkert stillt** á **Ekkert**. Eftirfarandi tafla er notuð til að hjálpa til við að ákvarða rofa sem gildir um Copilot og AO möguleikann sem á að virkja:
 
-   - **Forskoðun eiginleika: Afstemming bankareiknings við Copilot** viðurkvæmir aðstoðaeiginleika bankareikningsafstemmingar.
-   - **Forskoðun eiginleika: Búðu til AI-knúnar vörulýsingar með Copilot** tilheyrir eiginleikanum með markaðstextatillögum.
+   - **Forskoðun aðgerðar: Afstemming bankareikninga og stjórntæki** tengist aðgerðinni afstemming bankareikninga.
+   - **Forskoðun eiginleika: Búa til Ónýtar vörulýsingar með Copilot** fyrir eiginleikann textatillögur markaðssetningar.
 
-   Fyrir frekari upplýsingar um eiginleikastjórnun almennt, farðu í [Eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
+   Nánari upplýsingar um eiginleikastjórnun eru almennt notaðar [í Eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## Að veita notanda aðgang 
+## Aðgangur að notanda veittur 
 
-Copilot og gervigreind geta boðið upp á virkni sem ætlað er fyrir alla notendur í fyrirtækinu þínu eða fyrir ákveðin notendahlutverk. Flestar Copilot og gervigreindargetur bjóða upp á aðgangsstýringu með því að nota heimildir og heimildasett í heimildastjórnunarkerfi Business Central. [Lærðu meira um heimildir og heimildasett](ui-define-granular-permissions.md).
+Copilot og AI geta boðið virkni sem ætluð er öllum notendum innan fyrirtækisins eða fyrir tiltekin notendahlutverk. Flestir copilot og AI geta bjóða aðgangsstýringu með því að nota heimildir og heimildasafn í heimildastjórnunarkerfi Business Central. [Fá nánari upplýsingar um heimildir og heimildasafn](ui-define-granular-permissions.md).
 
-Til að veita eða hafna aðgangi að tilteknum Copilot og gervigreindum möguleikum, hafðu samband við skjöl eða útgefanda þess eiginleika til að finna hvaða heimildir eru nauðsynlegar. 
+Ef veita á eða neita aðgangi að tilteknum afkastagetu Copilot og AI er leitað ráða hjá heimildum eða útgefanda þeirrar aðgerðar til að bera kennsl á hvaða heimilda er þörf. 
 
 ## Næstu skref
 
-Eftir að þú hefur virkjað og samþykkt eiginleikana ertu tilbúinn til að prófa þá. Fara til:
+Þegar þú hefur virkjað og veitt samþykki fyrir aðgerðunum er þú tilbúinn að prófa þær. Farðu til:
 
-- [Bættu markaðstexta við hluti](item-marketing-text.md) 
-- [Samræma með því að nota aðstoð við afstemmingu bankareikninga](bank-reconciliation-with-copilot.md) 
+- [Bæta markaðssetningartexta við vörur](item-marketing-text.md) 
+- [Stemma af með aðstoð afstemmingar bankareiknings](bank-reconciliation-with-copilot.md) 
 
 ## Sjá einnig .
 
 [Villuleita Copilot- og gervigreindarmöguleika](ai-copilot-troubleshooting.md)  
-[Yfirlit yfir tillögur um markaðstexta](ai-overview.md)   
+[Yfirlit yfir markaðssetningartextatillögur](ai-overview.md)   
 [Algengar spurningar um tillögur að markaðstexta](faqs-marketing-text.md)  

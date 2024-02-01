@@ -1,1 +1,4 @@
+---
+ms.service: dynamics-365-business-central
+---
 Ef fyrirtækið þitt hefur grunnstillt OneDrive fyrir kerfiseiginleika er Excel-vinnubókin opnuð í vafranum þínum með því að nota Excel fyrir vefinn. Ef þú ert ekki að nota OneDrive fyrir kerfiseiginleika er vinnubókinni hlaðið niður í tækið. Þaðan er hægt að opna hana með því að nota annaðhvort Excel-skjáborðsforritið eða Excel fyrir vefinn, allt eftir því hvað þú ert með.

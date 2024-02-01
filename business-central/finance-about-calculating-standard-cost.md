@@ -3,9 +3,7 @@ title: Um umreikning staðalkostnaðar
 description: Í kerfi staðalkostnaðar er kostnaðarverð birgða ákvarðað á grundvelli ásættanlegs eða viðbúins kostnaðar.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5841
 ms.author: bholtorf
 ms.date: 10/10/2023

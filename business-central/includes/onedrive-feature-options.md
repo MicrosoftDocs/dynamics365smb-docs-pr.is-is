@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 |Valkostur|Lýsing|
 |------|----------|
 |**Nota OneDrive fyrir forritseiginleika**|Ef þú kveikir á þessum valkosti eru aðgerðirnar **Opna í OneDrive** og **Deila** gerðar aðgengilegar í skrám í Business Central, eins og skrám sem tengdar eru við skjöl eða í skýrsluinnhólfinu. Þessar aðgerðir gera notendum kleift að afrita, opna og deila skrám í OneDrive. <ul><li>Eiginleikar Business Central sem geyma eða sækja skjöl og aðrar skrár og bjóða upp á aðgerðirnar „Opna í OneDrive“ og „Deila“ til að fá þessar skrár úr Business Central, t.d. skjöl á innleið og skrá viðhengi.</li><li>Eiginleikar atvinnugreinar sem búa til sérstilltar Excel-vinnubækur, t.d. söluáætlanir.</li><li>Skýrslur sendar í skýrsluinnhólfið</li><li>Ef þú hefur sett upp sérstillingar eða viðbætur gætu þær bætt við fleiri eiginleikum sem nota OneDrive.</li></ul>Frekari upplýsingar er að finna í [Opna og deila Business Central-skrám í OneDrive](../across-share-onedrive.md).

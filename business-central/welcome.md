@@ -3,9 +3,7 @@ title: Velkomin(n) í Microsoft Dynamics 365 Business Central
 description: 'Fáðu upplýsingar um valkosti og aðstæður í Business Central sem gerir fyrirtækjum kleift að halda utan um rekstur, þar á meðal fjármál, framleiðslu, sölu, afhendingu, verkefnastjórnun, þjónustu og meira til.'
 author: jswymer
 ms.topic: landing-page
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 05/22/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central

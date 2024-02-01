@@ -3,9 +3,7 @@ title: 'Prenta VSK-samantekt á skjal [IS]'
 description: Ef virðisaukaskattur er reiknaður eru samantektarupplýsingar VSK yfirleitt prentaðar á sölu- og innkaupaskjölum.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf

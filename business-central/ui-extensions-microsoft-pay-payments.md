@@ -3,12 +3,11 @@ title: Microsoft Pay Staðlað
 description: Microsoft Pay viðbótin bætir við Microsoft Pay tengli við söluskjölin þín svo viðskiptamenn geti auðveldlega borgað með því að nota Microsoft Pay.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1080, 1081, 1083, 1085, 1087, 1089'
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 #  Microsoft Pay framlengingin
 

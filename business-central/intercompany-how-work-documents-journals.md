@@ -9,8 +9,9 @@ ms.date: 02/06/2023
 ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
+ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Unnið með samstæðuskjöl og færslubækur
+# Unnið með samstæðuskjöl og færslubækur
 
 Milli-fyrirtækjaskjöl eða færslubækur eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga. Hægt er að bóka færslur á fjárhagsreikninga og ef settir hafa verið upp samstæðubankareikningar er einnig hægt að bóka færslur í banka. Til að fræðast meira um uppsetningu bankareikninga fyrirtækja er farið að  [Tilgreina bankareikninga til að nota fyrir samstæðufélaga](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
 
@@ -20,7 +21,7 @@ Fyrir sölu-og innkaupaskjöl tryggir MF-félagakótinn á viðskiptamanninum e�
 
 Það sama gildir um færslubókarlínur MF-samstæðu. Þú þarft ekki að tilgreina reikninga, þú bara velur samstarfsfyrirtækið. Samsvarandi færslubókarlínur innan samstæðu eru síðan stofnaðar í félagasamfélaginu.
 
-## <a name="fill-in-and-send-an-intercompany-sales-order"></a>Fylla út og senda samstæðusölupöntun
+## Fylla út og senda samstæðusölupöntun
 
 Hægt er að senda sölu- og innkaupapantanir og vöruskilapantanir áður en bókað er. Ekki er hægt að senda reikninga og kreditreikninga fyrr en þeir eru bókaðir.
 
@@ -35,7 +36,7 @@ Eftirfarandi aðferð lýsir því hvernig eigi að fylla út og senda sölupön
 > [!NOTE]
 > Ef það er gert í skrefi 5 fer sölupöntunin í MF-Úthólf þar sem hægt er að senda hana síðar. Til að fræðast meira um MF-Innhólf og Úthólf er farið að  [stjórna MF-innhólfinu og Úthólfinu](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="fill-in-and-post-an-intercompany-journal"></a>Færa inn og bóka samstæðufærslubók
+## Færa inn og bóka samstæðufærslubók
 
 Þegar bókuð er almenn færslubókarlína í fyrirtækinu, er samsvarandi færslubókarlína stofunuð í MF-úthólfinu sem hægt er að flytja til félagans. Með 2022 sleppingu bylgju 1 er einnig hægt að setja fyrirtækið upp til að stofna færslur sjálfkrafa mótteknar MF-félaga sem eru bókaðar í MF-færslubók. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
 
@@ -50,7 +51,7 @@ Eftirfarandi aðferð lýsir því hvernig eigi að fylla út og senda sölupön
 
 Færslurnar eru bókaðar í fyrirtæki notanda og færslubók með samsvarandi færslur eru stofnaðar í MF-úthólfinu svo hægt sé að senda þær til félagasamfélagsins.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
 [Fjármál](finance.md)  

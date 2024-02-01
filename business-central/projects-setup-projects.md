@@ -3,9 +3,7 @@ title: 'Setja upp forða, vinnuskýrslur og verk'
 description: 'Þetta efnisatriði lýsir hvernig á að setja upp tilföng, vinnublöð og verk til að stjórna verkefnum og fjárhagsáætlunum þeirra.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: projects
 ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
 ms.date: 06/22/2021
