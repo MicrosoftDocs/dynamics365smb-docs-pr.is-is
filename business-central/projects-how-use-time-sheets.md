@@ -131,7 +131,7 @@ Vinnuskýrsluskráning er rakin í klukkustundum, sem er stöðluð grunnmæliei
     > Stjórnandi gæti hafnað vinnublaðslínu sem er send til samþykkis. Ef lína hefur stöðuna **Hafnað** er hægt að gera breytingar í línunni og velja **Senda** aftur.  
 6. Velja hnappinn **Í lagi**.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Til að samþykkja eða hafna vinnuskýrslu
+## <a name="approve-or-reject-a-time-sheet"></a>Til að samþykkja eða hafna vinnuskýrslu
 
 Senda þarf vinnuskýrslu til samþykkis áður en hægt er að nota hana. Hægt er að samþykkja og hafna einstökum línum á vinnublaði eða senda þær aftur til undirnefndar. Vinnuskjal er samþykkt á tvennan hátt:
 
@@ -207,7 +207,7 @@ Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir verk, er hægt a�
 5. Valið er **Bóka** aðgerðin.  
 6. Til að staðfesta bókunina skal velja aðgerðina **Verkfærslur**. Síðan **Verkfærslur** opnast og birtir niðurstöður á bókun forðabókar.
 
-## <a name="to-archive-time-sheets"></a>Til að færa vinnuskýrslur í safn
+## <a name="archive-time-sheets"></a>Til að færa vinnuskýrslur í safn
 
 Eftir að vinnuskýrslur hafa verið bókaðar er hægt að safnvista þær til síðari viðmælanda. Bóka verður allar línur á vinnublaði áður en hægt er að safnvista þær.
 

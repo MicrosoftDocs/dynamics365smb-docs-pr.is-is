@@ -47,7 +47,7 @@ Með Shopify tenglinum geta fyrirtæki tengt Shopify verslunina (eða verslanirn
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] er að fara í samstarf við Shopify til að viðskiptamönnum okkar að skapa betri upplifun af verslun. Þó Shopify veitir kaupendur einfaldan viðskiptalausn [!INCLUDE[prod_short](../includes/prod_short.md)]  og býður upp á alhliða viðskiptastjórnun í fjármálum, sölu, þjónustu og rekstrarteymum. Nota óaðfinnanlegu tengingu milli forritanna til að samstilla pantanir, lager- og viðskiptamannaupplýsingar til að uppfylla pantanir hraðar og þjóna viðskiptavinum betur.
 
-## <a name="which-microsoft-products-are-the-shopify-connector-available-for"></a>Fyrir hvaða vörur Microsoft er Shopify tengillinn tiltækur?
+## <a name="which-microsoft-products-is-the-shopify-connector-available-for"></a>Fyrir hvaða vörur Microsoft er Shopify tengillinn tiltækur?
 
 Þessi eiginleiki er aðeins í boði fyrir [!INCLUDE[prod_short](../includes/prod_short.md)] á netinu, frá og með útgáfu 20.1. Hann er ekki í boði fyrir uppsetningar á staðnum. Tengið er fyrirfram sett upp fyrir nýtt umhverfi. Stofnanir með núverandi umhverfi geta sótt og sett tengið upp frá AppSource. Fyrirtækið verður að hafa bæði [!INCLUDE [prod_short](../includes/prod_short.md)] leyfi og Shopify leyfi til að nota tengið. Nánari upplýsingar um lönd/svæði, tungumál og útgáfur af [!INCLUDE[prod_short](../includes/prod_short.md)] fást með því að [Shopify fara í Connector í glugganum AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 

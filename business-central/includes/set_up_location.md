@@ -5,11 +5,11 @@ ms.date: 05/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## Uppsetning staðsetningarinnar
+## <a name="setting-up-the-location"></a>Uppsetning staðsetningarinnar
 
 Uppsetning síðunnar **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyrirtækisins. Notaðu kortið Staðsetningar til að setja upp staðsetningu með kóðaheitinu *SUÐUR*.
 
-### Uppsetning staðsetningar SUÐUR
+### <a name="to-set-up-the-location-south"></a>Uppsetning staðsetningar SUÐUR
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2. Stofna staðsetningarkort sem heitir *SUÐUR*.  

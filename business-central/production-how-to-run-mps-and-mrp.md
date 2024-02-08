@@ -10,7 +10,7 @@ ms.reviewer: andreipa
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Keyra fulla áætlunargerð, MPS eða MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlunargerð, MPS eða MRP
 
 Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" vísa til útreikninga á aðalframleiðsluáætlun og efnisþörfum. Útreikningurinn byggist á raunverulegri eftirspurn og spáðri eftirspurn. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.  
 
@@ -23,7 +23,7 @@ Hægt er að rekja tenglana sem áætlunin stofnar á milli eftirspurnar og fram
 
 Viðundandi niðurstöður áætlunar byggjast á uppsetningu í birgðaspjöldum, samsetningaruppskriftum, framleiðsluuppskriftum og leiðum.  
 
-## Aðferðir við gerð áætlunar  
+## <a name="methods-for-generating-a-plan"></a>Aðferðir við gerð áætlunar
 
 - **Reikna áætlun endurgerðar:** Vinnsla eða endurgera efnisáætlunina. Þessi vinnsla hefst á eyðingu allra áætlaðra birgðapantana sem eru hlaðnar. Allar vörur í gagnagrunninum eru enduráætlaðar.  
 - **Reikna áætlun hreyfingar**: Vinna áætlun hreyfingar. Vörur eru teknar með í hreyfingaáætlun vegna tveggja breytinga:  
@@ -38,7 +38,7 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[prod_short](includes/prod_short
 >
 > Hægt er að keyra áætlun aðgerðarboða milli endurgerðar- og hreyfingaáætlunarkeyrslna til að fá skjóta yfirsýn yfir áhrif áætlanabreytinga. Hins vegar er ekki ætlunin að skipta út fullri endurgerðar- eða hreyfingaáætlunarferli.  
 
-## Til að reikna áætlunarvinnublað:
+## <a name="to-calculate-the-planning-worksheet"></a>Til að reikna áætlunarvinnublað:
   
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Áætlunarvinnublað** og velja síðan viðkomandi tengil.  
 2. Velja **Reikna áætlun endurgerðar** aðgerðina til að opna síðuna **Reikna áætlun**.  
@@ -58,7 +58,7 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[prod_short](includes/prod_short
 4. Á flýtiflipanum **Vara** eru settar afmarkanir til að keyra áætlun byggða á vöru, vörulýsingu eða birgðageymslu.  
 5. Velja hnappinn **Í lagi**. Keyrslunni eru keyrðar og áætlunarlínum er bætt við áætlunarvinnublaðið.  
 
-## Til að framkvæma aðgerðaboð
+## <a name="to-perform-action-messages"></a>Til að framkvæma aðgerðaboð
   
 1. Á síðunni **Áætlunarvinnublað** veljið aðgerðina **Framkvæma aðgerðaboð**.  
 2. Á flýtiflipanum **Valkostir** skal tilgreina hvernig á að stofna aðföngin. Fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
@@ -77,7 +77,7 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[prod_short](includes/prod_short
 
 Keyrslan eyðir línum á áætlunarblaðinu eftir að hún hefur framkvæmt aðgerðaboðin. Aðrar línur eru áfram á áætlunarvinnublaðinu þar til þær eru annaðhvort samþykktar síðar eða þeim eytt. Einnig er hægt að eyða línunum handvirkt.  
 
-## Aðgerðaboð
+## <a name="action-messages"></a>Aðgerðaboð
   
 Aðgerðarboð eru gefin út eftir pöntunarrakningarkerfinu þegar staðan er ótæk innan pöntunarnetsins. Hægt er að líta á skilaboðin sem tillögur um að vinna úr breytingum sem koma á jafnvægi á milli framboðs og eftirspurnar.  
 
@@ -100,7 +100,7 @@ Til að forðast lítil, óþörf eða óþörf aðgerðarboð er hægt að stil
 |**Endurtímas. og br. magni.**|Ef bæði dagsetningar og magn pöntunarbreytinga þarf að breyta áætlunum með tilliti til beggja. Aðgerðaboð taka báðar aðgerðir í ein skilaboð, **Enduráætla og Breyta magni**, til að tryggja jafnvægi komist á pöntunarnetið.|  
 |**Hætta við**|Ef eftirspurn sem fjallað hefur verið um á grundvelli pöntunar-eftir pöntunar er eytt verða aðgerðarboð mynduð til að hætta við tengda framboðspöntun. Ef tengslin eru ekki eftir pöntun eru aðgerðarboð mynduð til að breytast til að draga úr framboðinu. Ef aðrir þættir, t.d. birgðaleiðréttingar, er ekki krafist framboðspöntunar þegar aðgerðaboð eru búin til, [!INCLUDE[prod_short](includes/prod_short.md)]  leggur til aðgerðarboðin **Hætta við** á vinnublaðinu.|  
 
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 
 [Áætlun](production-planning.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

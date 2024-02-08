@@ -59,7 +59,7 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 
 Í eftirfarandi köflum er lýst hvernig setja á upp vinnuskýrslur ef ekki eru notaðar leiðbeiningar um  **uppsetningu vinnublaða** .  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Að setja upp almennar upplýsingar fyrir vinnuskýrslur handvirkt
+### <a name="set-up-general-information-for-time-sheets-manually"></a>Að setja upp almennar upplýsingar fyrir vinnuskýrslur handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning tilfanga** og velja síðan viðkomandi tengil.  
 1. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 | **Alltaf** |Notandinn í reitnum **Ábyrgðaraðili** á verkspjaldinu samþykkir vinnuskýrsluna. |
 | **Aðeins véla** |Ef vinnuskýrsla vélar er tengd við verk er það notandinn í reitnum **Ábyrgðaraðili** á verkspjaldinu sem samþykkir vinnuskýrsluna. Ef vinnuskýrsla vélar er tengd við forða er það notandinn í reitnum **Notandakenni samþykktaraðila vinnuskýrslu** á forðaspjaldinu sem samþykkir vinnuskýrsluna. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>Að úthluta stjórnanda vinnuskýrslu handvirkt
+### <a name="assign-a-time-sheet-administrator-manually"></a>Að úthluta stjórnanda vinnuskýrslu handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning notanda** og velja síðan viðkomandi tengil.  
 3. Velja skal notandann sem verður kerfisstjóri tímablaðsins og velja  **síðan admin Time.** gátreit.  
@@ -82,7 +82,7 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 > [!TIP]  
 > Mælt er með því að aðeins einn notandi sé tilnefndur sem vinnublaðstjórinn fyrir fyrirtæki. Í eftirfarandi ferli eru eigandi og samþykkjandi vinnuskýrslu settir upp þar sem samþykkjandi er tilgreindur fyrir hvern forða.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Að úthluta eiganda og samþykktaraðila vinnuskýrslna handvirkt
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Að úthluta eiganda og samþykktaraðila vinnuskýrslna handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tilföng** og velja síðan viðkomandi tengil.
 2. Velja skal tilfang sem setja á upp möguleika á að nota vinnuskýrslur fyrir og velja  **síðan gátreitinn Nota vinnublað** .  
