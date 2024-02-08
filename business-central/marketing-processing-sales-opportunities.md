@@ -8,12 +8,13 @@ ms.topic: conceptual
 ms.search.keywords: 'relationship, prospect'
 ms.date: 12/28/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="process-sales-opportunities"></a>Meðhöndla sölutækifæri
+# Meðhöndla sölutækifæri
 
 Þegar tækifæri er stofnað eru margar aðgerðir til að stjórna tækifæri og vinna það til enda.
 
-## <a name="view-opportunities"></a>Skoða tækifæri
+## Skoða tækifæri
 
 Núverandi sölumöguleikar eru fáanlegir á  **Tækifæralista** síðunni. Eftirfarandi tafla lýsir leiðum til að fá aðgang að síðunni til að vinna úr sölutækifærum.
 
@@ -25,7 +26,7 @@ Núverandi sölumöguleikar eru fáanlegir á  **Tækifæralista** síðunni. Ef
 
 Hver þesara verkefna opnar **Tækifæralisti** síðuna.
 
-## <a name="close-opportunities"></a>Loka tækifæri
+## Loka tækifæri
 
 Hægt er að loka tækifærum þegar samningaviðræðum er lokið. Þegar þú lokar tækifæri geturðu tilgreint hvort það hafi verið unnið eða tapað og ástæðurnar fyrir því að loka því. Til að tilgreina ástæðu, þarf að setja upp kóða fyrir lokuð tækifæri.
 
@@ -36,7 +37,7 @@ Hægt er að loka tækifærum þegar samningaviðræðum er lokið. Þegar þú 
 
    Í reitnum **Kóði vegna lokunar tækifæris** í hægt er að velja úr einn af fyrirliggjandi kóðum vegna lokunar tækifæris eða bæta við nýjan kóða. Til að bæta inn nýja kóða úr fellilistanum er valið **Valið úr tæmandi listi**, og síðan valið **nýtt**. Á nýju auðri línu, fyllt út í á **kóða**, **Tegund**, og **Lýsing** reitina, og síðan valið **í lagi** hnappinn.
 
-## <a name="create-quotes-for-opportunities"></a>Búðu til tilboð fyrir tækifæri
+## Búðu til tilboð fyrir tækifæri
 
 > [!NOTE]
 > Aðeins er hægt að stofna sölutilboð úr tækifærum þar sem tengiliðagerð er Fyrirtæki.
@@ -44,7 +45,7 @@ Hægt er að loka tækifærum þegar samningaviðræðum er lokið. Þegar þú 
 1. Á síðunni **Tækifæralisti** skal velja tækifæri og velja síðan **úthluta sölutilboðum** aðgerð. Síðan **Sölutilboð** opnast.
 2. Viðeigandi reitir eru fylltir út.
 
-## <a name="create-sales-orders-for-opportunities"></a>Búðu til sölupantanir fyrir tækifæri
+## Búðu til sölupantanir fyrir tækifæri
 
 Hægt er að búa til sölupantanir úr sölutilboðunum sem stofnuð hafa verið fyrir tækifærin. Áður en hægt er að stofna sölupantanir fyrir tengiliði þarf að stofna tengiliðinn sem viðskiptamann. Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).
 
@@ -54,7 +55,7 @@ Hægt er að búa til sölupantanir úr sölutilboðunum sem stofnuð hafa veri�
 
 Þegar unnið er með sölutækifæri getur þurft að stofna tilboð fyrir tengiliðinn sem tækifærið er tengt við,
 
-## <a name="delete-opportunities"></a>Eyða tækifærum
+## Eyða tækifærum
 
 Þú getur eytt tækifærum, til dæmis, eftir að þú gerir samning. Hinsvegar, Aðeins er hægt að eyða  lokuðum tækifærum. Tvær aðferðir til að eyða lokuð tækifæri. Þú getur eytt einstökum lokuðum tækifærum af  **Opportunity List** síðunni eða þú getur keyrt **Delete Opportunities** lotuvinnuna til að eyða mörg tækifæri byggð á tilteknum forsendum.
 
@@ -68,7 +69,7 @@ Til að eyða lokuðum tækifærum með því að nota **Eyða tækifæri** lotu
 
 Eftir að þú hefur eytt tækifæri er það fjarlægt af  **Tækifærislistanum** síðunni.
 
-## <a name="move-an-opportunity-through-sales-cycle-stages"></a>Færðu tækifæri í gegnum stig söluferlisins
+## Færðu tækifæri í gegnum stig söluferlisins
 
 Ef tækifæri fylgir sölulotu geturðu fært það á næsta eða fyrra stig og jafnvel sleppt því.
 
@@ -81,7 +82,7 @@ Ef tækifæri fylgir sölulotu geturðu fært það á næsta eða fyrra stig og
    * **Uppfæra** gerir kleift að breyta upplýsingar (t.d. breyta mati á líkum á árangri og áætluðu virði) án fara á annað stig.
 3. Fyllið út aðra reitina að þörfum og smellið veljið síðan hnappinn **Í lagi**.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  

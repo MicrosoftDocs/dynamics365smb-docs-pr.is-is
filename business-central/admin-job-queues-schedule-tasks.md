@@ -1,6 +1,6 @@
 ---
 title: Tímasetja verk til að keyrast sjálfvirkt
-description: Lærðu að nota vinnsluraðarfærslur til að keyra skýrslur og kódeseiningar.
+description: Fræðast um notkun verkraðarfærslna til að keyra skýrslur og codeunit.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
@@ -10,19 +10,19 @@ ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
 ms.service: dynamics-365-business-central
 ---
-# Nota starfaraðir til að áætla verk
+# Nota verkröð til að tímasetja verk
 
- **Notaðu síðuna Vinnsluraðarfærslur**  til að raða og keyra tilteknar skýrslur og kódeseiningar. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis gætirðu viljað keyra skýrsluna **Sölumaður * sölutölur** vikulega til að rekja sölu sölumanns í hverri viku eða keyra kóðaeininguna **Framselja samþykktarbeiðnir** daglega til að koma í veg fyrir að skjöl safnist upp.
+Nota síðuna **Verkraðarfærslur** til að tímasetja og keyra tilteknar skýrslur og codeunit. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis gætirðu viljað keyra skýrsluna **Sölumaður * sölutölur** vikulega til að rekja sölu sölumanns í hverri viku eða keyra kóðaeininguna **Framselja samþykktarbeiðnir** daglega til að koma í veg fyrir að skjöl safnist upp.
 
-Síðan Verkraðarafærslur skráir öll tiltæk verk. Ef bætt er við nýrri verkraðarafærslu sem keyrir á áætlun verður að gefa upp einhverjar upplýsingar. Dæmi:
+Á síðunni Verkraðarfærslur er listi yfir öll fyrirliggjandi verk. Ef nýrri verkraðarfærslu er bætt við sem keyrð er í áætlun verður að veita einhverjar upplýsingar. Dæmi:
 
-* Gerð hlutar sem keyra á, eins og skýrsla eða Codeunit. Þú verður að vera með heimild til að keyra tiltekna skýrslu eða kóðaeiningu.
+* Gerð hlutar sem á að keyra, t.d. skýrsla eða kótaeining. Þú verður að vera með heimild til að keyra tiltekna skýrslu eða kóðaeiningu.
 * Heiti og hlutarkenni hlutarins.
 * Færibreytur til að tilgreina virkni verkraðarfærslu. Til dæmis er hægt að bæta við færibreytu til að sent einungis bókaðar sölupantanir.
 * Hvenær og hversu oft keyra á verkraðarfærsluna.
 
 > [!IMPORTANT]  
-> Ef þér er úthlutað SUPER-heimildasamstæðunni sem fylgir með [!INCLUDE[prod_short](includes/prod_short.md)] hefurðu heimild til að keyra alla hluti sem eru innifaldir í leyfinu þínu. Ef hlutverk fulltrúa er úthlutað er hægt að stofna og tímasetja verkraðarafærslur en aðeins kerfisstjórar og leyfir notendur geta keyrt þær.
+> Ef þér er úthlutað SUPER-heimildasamstæðunni sem fylgir með [!INCLUDE[prod_short](includes/prod_short.md)] hefurðu heimild til að keyra alla hluti sem eru innifaldir í leyfinu þínu. Ef um er að ræða hlutverkið Úthlutaður stjórnandi er hægt að stofna og tímasetja verkraðarfærslur en aðeins kerfisstjórar og leyfisskyldir notendur geta keyrt þær.
 
 Eftir að verkraðir eru settar upp og í keyrslu getur staðan breyst eins og fylgir hér á eftir innan hvers endurtekins tímabils:
 
@@ -31,29 +31,29 @@ Eftir að verkraðir eru settar upp og í keyrslu getur staðan breyst eins og f
 * **Í vinnslu**  
 * **Villa**  
 * **Lokið**  
-* **Í bið vegna óvirkni**
+* **Bið vegna óvirkni**
 
 > [!NOTE]
-> Í  **bið vegna óvirkni**  Staða er notuð fyrst og fremst fyrir vinnsluraðarfærslur sem raða samstillingu milli  [!INCLUDE [prod_short](includes/prod_short.md)]  og annars forrits, svo sem [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Til að fræðast meira um þessa stöðu er farið í  [tímafrekari](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts) upplýsingar um óvirkni.
+>  **Staðan Bið vegna óvirkni** er mest notuð fyrir verkraðarfærslur sem tímasetja samstillingu milli [!INCLUDE [prod_short](includes/prod_short.md)] og annarrar kerfis, svo sem [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Hægt er að fá nánari upplýsingar um þessa stöðu með því að [fara í Tímamörk](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts) óvirkni.
 
-Eftir að verki lýkur er það fjarlægt af lista yfir verkraðarfærslur nema það sé endurtekið verk. Fyrir endurteknar vinnslur  **er reiturinn fyrsti Upphafstími**  leiðréttur til að sýna næst þegar vinnslan verður keyrð. 
+Eftir að verki lýkur er það fjarlægt af lista yfir verkraðarfærslur nema það sé endurtekið verk. Ítrekunarverkum er reiturinn **Fyrsti upphafstími** leiðréttur þannig að hann sýni næst þegar verkið verður keyrt. 
 
-## Mikilvægt að raða endurteknum vinnslum
+## Mikilvægt fyrir tímasetningu endurtekinna verka
 
 > [!IMPORTANT]  
-> Endurteknar verkbiðraðir geta haft áhrif á afköst svo þú ættir ekki að keyra þær of oft. Þegar sett er upp hversu oft á að keyra endurtekna vinnslu er reynt að setja inn stærsta tímabilið sem hægt er að. Til dæmis ef þú ert að fara að stilla endurtekningu á fimm mínútum, Íhugaðu hvort það geti verið 15 mínútur, eða jafnvel einu sinni á klukkustund í staðinn. Þegar skipuleggja á endurteknar verkbiðraðir skal íhuga hvaða svæði í umsókninni vinnslan hefur áhrif á. Er það svæði þar sem margir notendur vinna og verða þau áhrif mikil virkni? Taka skal tillit til lengingar á einni keyrslu og fyrirtæki hvetja til keyrslu verka með tiltekinni cadence.
+> Ítrekaðar verkraðir geta haft áhrif á afköst svo að ekki ætti að keyra þær of oft. Þegar sett er upp hversu oft eigi að keyra ítrekað verk er reynt að stilla stærsta tímabilið sem hægt er að nota. Ef til dæmis á að endurtaka fimm mínútur þarf að hafa í huga hvort það geti verið 15 mínútur eða jafnvel einu sinni á klukkustund í staðinn. Við áætlun ítrekaðra verkraða skal hafa í huga hvaða svæði forritið hefur áhrif á. Er það svæði þar sem margir notendur vinna og verða fyrir mikilli virkni? Íhuga skal lengd einnar verkkeyrslu og viðskiptahvöt fyrir keyrslu verka með tiltekinn náunga.
 
-## Fyrsti Upphafsdagur
+## Fyrsta upphafsdagsetning
 
-Gildið í  **reitnum fyrsta upphafsdagsetning/tími**  á  **spjaldinu færsluspjald**  birtist næst þegar vinnslan verður keyrð. Það eru nokkrir þættir sem geta haft áhrif á hvort verkraðarafærsla keyrir í raun á þeim tíma.
+Gildið í reitnum **Fyrsta upphafsdagsetning/tími** á síðunni **Færsluspjald** verkraðar sýnir næst þegar verkið verður keyrt. Nokkrir þættir geta haft áhrif á það hvort verkraðarfærsla keyrir í raun á þeim tíma.
 
-Algengustu þættirnir eru fjöldi verkraðarafærslna í umhverfi og heildarfjölda áætlaaðra verkhluta. Til að verja afkastastig eru rekstrarmörk. Ef þú ert með mikið af færslum í biðröðinni og t.d. annað þeirra bregst eða færslurnar taka bara lengri tíma en búist var við, gæti næsta vinnsla ekki hafist í væntanlegu skipti. Ef þú ert með kótaeiningarnar sem myndar 100.000 eða fleiri áætluð verk, ættirðu að rannsaka hvort þú þurfir í raun öll þau verkefni. Hægt er að opna lista yfir öll áætluð verk á  **síðunni áætluð verk** .
+Algengustu þættirnir eru fjöldi verkraðarfærslna í umhverfi og heildarfjöldi áætlaðra verka. Til að vernda afkastastig eru aðgerðamörk. Ef mikið af færslum er í röðinni og ein þeirra mistekst, til dæmis, eða færslurnar taka lengri tíma en búist var við, gæti næsta verk ekki hafist á áætluðum tíma. Ef til eru codeunit sem eru að búa til 100.000 eða fleiri áætluð verk ætti að athuga hvort í raun þurfi alla þessa verkhluta. Hægt er að nálgast lista yfir öll áætluð verk á síðunni **Tímasettir verkhlutar** .
 
-Frekari upplýsingar um stöðu vinnsluraðarafærslna er  [að fá með því að skoða stöðu fyrir hvaða starf](#to-view-status-for-any-job) sem er. Til að fræðast meira um rekstrarmörk er farið í  [ósamstillt verkefnamörk](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
+Nánari upplýsingar um eftirlit með stöðu verkraðarfærslna eru í Til að [skoða stöðu fyrir hvaða verk](#to-view-status-for-any-job) sem er. Farið í Ósamstillt verkmörk til að [fræðast meira um aðgerðamörk](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
 
 ## Fylgjast með stöðu eða villum í verkröð
 
-Gögn sem vinnslubiðröðin myndar er geymd þannig að hægt sé að leita að villum.  
+Gögn sem verkröðin býr til eru geymd svo hægt sé að ræða villur.  
 
 Fyrir hverja verkraðarfærslu er hægt að skoða og breyta stöðunni. Við stofnun verkraðarfærslu er staða hennar stillt á **Bið**. T.d. er hægt að setja stöðuna á **Tilbúið** og svo aftur í **Í bið**. Annars eru stöðuupplýsingar uppfærðar sjálfkrafa.
 
@@ -63,20 +63,23 @@ Eftirfarandi tafla lýsir gildum reitsins **Staða**.
 |--|--|
 | Tilbúið | Verkraðarfærslan er tilbúin til keyrslu. |
 | Í vinnslu | Verkraðarfærslan er í vinnslu. Þessi reitur uppfærist á meðan verkröðin er í gangi. |
-| Í bið | Sjálfgefin staða verkraðarfærslunnar þegar hún er búin til. Veljið aðgerðina **Stilla stöðu í tilbúið** til að breyta stöðunni í **Tilbúið**. Veldu aðgerðina **Setja í bið** til að snúa aftur í stöðuna **Í bið**. |
+| Í bið | Sjálfgefin staða verkraðarfærslunnar þegar hún er búin til. Veljið aðgerðina **Stilla stöðu í tilbúið** til að breyta stöðunni í **Tilbúið**. Veldu aðgerðina **Setja í bið** til að snúa aftur í stöðuna **Í bið**. Nánari upplýsingar eru í [Um](#about-on-hold) bið.|
 | Villa | Eitthvað fór úrskeiðis. Veldu **Sýna villu** til að sýna villuboðin. |
 | Klárað | Verkraðarfærslunni er lokið. |
 
-> [!Tip]  
+> [!TIP]  
 > Verkraðarfærslur hætta að keyra þegar villa kemur upp. Þetta getur til dæmis verið vandamál þegar færsla tengist utanaðkomandi þjónustu, til dæmis bankastraumi. Ef þjónustan er ekki í boði í augnablikinu og verkraðarfærslan getur ekki tengst mun færslan sýna villu og stöðva keyrslu. Þú þarft að endurræsa verkraðarfærsluna handvirkt. Reitirnir **Hámarksfjöldi tilrauna** og **Töf á endurtekinni keyrslu (sek.)** geta hins vegar hjálpað þér að koma í veg fyrir þessar aðstæður. Reiturinn **Hámarksfjöldi tilrauna** gerir þér kleift að tilgreina hversu oft verkraðarfærsla getur mistekist áður en hún hættir að reyna að keyra. Reiturinn **Töf á endurtekinni keyrslu (sek.)** gerir þér kleift að tilgreina tímann, í sekúndum, á milli tilrauna. Samsetning þessara tveggja reita gæti haldið verkraðarfærslunni gangandi þar til ytri þjónustan verður tiltæk.
 
+### Um bið
+
+Ef færsla verkraðar er stillt á Bið **hefur það ekki áhrif á skokk sem þegar er verið að** keyra. Þegar verk hefur hafist í verkröðinni heldur hún áfram að keyra þar til henni er lokið, burtséð frá þeim breytingum sem gerðar hafa verið á verkraðarfærslunni, svo sem að setja hana í bið.<br><br> **Staðan Bið** er gjarnan notuð til að koma í veg fyrir að verk byrji sjálfkrafa þegar það nær áætluðum upphafstíma. Það gerir það mögulegt að gera tímabundið hlé á framkvæmd verks áður en það hefst í vinnslu. Þegar verk hefur þegar verið keyrt, breytist staðan í 'Bið' ekki rofin eða hefur áhrif á framkvæmd verksins.<br><br>Ef stöðva þarf eða hætta við keyrslu verks er hægt að gera það handvirkt með því að grípa inn í vinnsluna, t.d. að hætta við samsvarandi lotu eða vinnslu sem er ábyrgt fyrir framkvæmd verksins.
 ### Til að skoða stöðu fyrir hvaða verk sem er
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkraðarfærslur** og velja síðan viðkomandi tengil.
 2. Á síðunni **Verkraðarfærslur** skal velja færslu verkraðar og síðan velja aðgerðina **Skráarfærslur**.  
 
 > [!TIP]
-> Fyrir greiningu í dýpri byggð á Telemetry er hægt að nota  Application Insights  í  Microsoft Azure  til að fara yfir stöðu færslna í vinnsluröð. Til að fræðast meira um Telemetry er farið í að  [fylgjast með og greina Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  og  [greina vinnslubiðröð Lífeyrisauka rakamæling Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
+> Hægt er að nota Application Insights  Microsoft Azure í til að fara yfir stöðu verkraðarfærslna til að sjá stöðu verkraðarfærslna sem byggjast á fjarmælingum. Til að [fræðast meira um fjarmælingar er farið í Eftirlit og Greining fjarmælinga](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [greining á Vinnsluröð Rakningarsíma](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 ## Skoða áætluð verk
 
@@ -87,9 +90,9 @@ Til dæmis hætta öll tímasett verk ef fyrirtækið er í umhverfi sem er afri
 > [!NOTE]
 > Innri stjórnendur og notendur með leyfi geta tímasett keyrslur á verkum. Úthlutaðir stjórnendur geta sett upp og tímasett verk til að keyra, en aðeins notendur með leyfi geta keyrt þau.
 
-## Hluti Starfraðarhlutans
+## Verkraðarhlutinn verkraðarhlutinn minn
 
-Hlutinn **Mín verkröð** í hlutverkamiðstöðinni þinni sýnir verkraðarfærslur sem þú hefur byrjað á, en er enn ekki lokið. Að sjálfgefnu er hlutinn ekki sýndur, en þú getur bætt honum við í hlutverkamiðstöðina. Frekari upplýsingar um sérsnið er að fá með því að  [Sérsníða vinnusvæðið](ui-personalization-user.md).  
+Hlutinn **Mín verkröð** í hlutverkamiðstöðinni þinni sýnir verkraðarfærslur sem þú hefur byrjað á, en er enn ekki lokið. Að sjálfgefnu er hlutinn ekki sýndur, en þú getur bætt honum við í hlutverkamiðstöðina. Nánari upplýsingar um sérstillingu fást með því að [fara í Sérstilla vinnusvæðið](ui-personalization-user.md).  
 
 Eftirtaldir hlutur sýnir eftirfarandi upplýsingar:
 
@@ -103,45 +106,45 @@ Hlutinn „Mín verkröð“ gerir þér einnig kleift að hætta við bókun sk
 1. Í færslu með stöðuna **Villa** skal velja aðgerðina **Sýna villu**.
 2. Fara skal yfir villuboðin og leysa vandann.
 
-## Dæmi um það sem hægt er að áætla með notkun vinnsluraðarfærslna
+## Dæmi um hvað er hægt að tímasetja með því að nota verkraðarfærslur
 
 ### Áætla skýrslur
 
 Hægt er að tímasetja skýrslu eða runuvinnslu þannig að hún keyri á tilteknum degi og tíma. Tímasettar skýrslur og runuvinnslur eru færðar inn í verkröð og unnar á áætluðum tíma, eins og önnur verk. Veldu valkostinn **Áætlun** eftir að hafa valið aðgerðina **Senda til** og færðu svo inn upplýsingar á borð við prentara, og tíma og dagsetningu, endurtekningu.  
 
-Frekari upplýsingar um röðun er að fá með því að fara í  [röðun skýrslu í keyrslu.](ui-work-report.md#ScheduleReport)
+Til að fá nánari upplýsingar um tímasetningar er farið í [Tímasetning skýrslu í Keyra](ui-work-report.md#ScheduleReport)
 
 ### Tímastilla samstillingu á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Ef þú hefur samþætt [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[prod_short](includes/cds_long_md.md)] gerir verkröðin þér kleift að tímasetja hvenær á að samstilla gögn. Verkraðarfærslan getur stofnað færslur í einu forriti til að samsvara færslum í öðrum eftir því hvaða stefna og reglur hafa verið skilgreindar. Gott dæmi er þegar þú skráir tengilið í [!INCLUDE[crm_md](includes/crm_md.md)] getur verkraðarfærslan sett upp þann tengilið fyrir þig í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar um röðun er að fá með því að  [raða samstillingu milli Viðskiptamiðseðla og Dynamics 365 sölu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+Ef þú hefur samþætt [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[prod_short](includes/cds_long_md.md)] gerir verkröðin þér kleift að tímasetja hvenær á að samstilla gögn. Verkraðarfærslan getur stofnað færslur í einu forriti til að samsvara færslum í öðrum eftir því hvaða stefna og reglur hafa verið skilgreindar. Gott dæmi er þegar þú skráir tengilið í [!INCLUDE[crm_md](includes/crm_md.md)] getur verkraðarfærslan sett upp þann tengilið fyrir þig í [!INCLUDE[prod_short](includes/prod_short.md)]. Nánari upplýsingar um tímasetningar er farið í [Tímasetning samstillingu milli Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
-### Áætla hvenær bóka á sölu-og innkaupapantanir
+### Tímasetja hvenær á að bóka sölu- og innkaupapantanir
 
-Þú getur notað verkraðarfærslur til að tímasetja viðskiptaferla á að keyra í bakgrunni. Til dæmis eru bakgrunnsverk gagnleg þegar margir notendur bóka sölupantanir samtímis, en einungis er hægt að afgreiða eina pöntun í einu. Ef fræðast á um bakgrunnabókun er farið í  [til að setja upp bakgrunnabókun með starfbiðröðum](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+Þú getur notað verkraðarfærslur til að tímasetja viðskiptaferla á að keyra í bakgrunni. Til dæmis eru bakgrunnsverk gagnleg þegar margir notendur bóka sölupantanir samtímis, en einungis er hægt að afgreiða eina pöntun í einu. Nánari upplýsingar um bakgrunnsbókun er farið í Til að [setja upp bakgrunnsbókun með verkröðunum](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
 
-## Afgreiðsla úthreyfingar vinnslustöðvar færslu
+## Vinna með vandamál í verkraðarfærslum
 
-Ef verkraðarafærsla sýnir villu er fyrsti kosturinn til að leysa málið að endurræsa verkraðarafærslu. Hægt er að stilla stöðu verkraðarafærslu  **á í bið**  og síðan að  **undirbúa** eða endurræsa hana.
+Ef villa kemur upp í verkraðarfærslu er fyrsti valkosturinn til að leysa málið er að endurræsa verkraðarfærsluna. Hægt er að stilla stöðu verkraðarfærslunnar **á Bið** og síðan **á Tilbúið** eða endurræsa hana bara.
 
-Ef Endurræsing hjálpar ekki gæti málið verið í kóðanum. Eigandann má finna (einnig kallað  *útgefandann*) KÓTANUM í Al stafabraddakeppninni í Log-raðarskrá. Ef villan kemur úr App/framlengingu skaltu hafa samband við samstarfsaðila Microsoft. Ef villan kemur úr Microsoft Application skal opna stuðningsbeiðni við Microsoft.
+Ef endurræsing hjálpar ekki gæti það verið í kótanum. Finna má eiganda (einnig kallaður *útgefandi*) kótans í AL-staflarakningunni í verkraðarkladdanum. Ef villan kemur úr forriti/viðbót skal hafa samband við Microsoft-samstarfsaðilann. Ef villan kemur úr Microsoft-forriti er stuðningsbeiðni opnuð með Microsoft.
 
-Vinsamlegast Gefðu upp eftirfarandi upplýsingar ef þú hefur samband við Microsoft Partner eða Microsoft samstarfsaðila fyrir stuðning.
+Ef þú hefur samband við samstarfsaðila Microsoft eða Microsoft til að fá aðstoð gefur þú eftirfarandi upplýsingar:
 
-* KENNI færslunnar í verkraðarafærslu þar sem villan varð
-* Tímastimpill þegar villan kom upp
-* Tímabeltið þitt
+* Kenni verkraðarfærslunnar sem villan kom upp
+* Tímastimpill þess hvenær villan kom upp
+* Tímabelti notanda
 
 > [!TIP]
-> Eftir því hvort þú ert fyrr eða síðar en útgáfa 22,1, safnar þú  [!INCLUDE [prod_short](includes/prod_short.md)]  upplýsingunum á eftirfarandi hátt:
+> Eftir því hvort útgáfa [!INCLUDE [prod_short](includes/prod_short.md)] 22.1 er safnað saman á eftirfarandi hátt:
 >
-> * Fyrir eldri útgáfur er gefið Skjáskot af  **síðunni Skráningarfærslur**  vinnslustöðvar.
-> * Nota  **skal aðgerðina afrita upplýsingar**  á síðunni Skráningarfærslur vinnslu til að afrita upplýsingarnar (VINNSLUBIÐRAÐARKENNI, stimpilklukku og tímabeltið).
+> * Fyrir eldri útgáfur má sjá skjámynd af síðunni **Verkraðarskrárfærslur** .
+> * Fyrir síðari útgáfur skal nota aðgerðina **Afrita upplýsingar** á síðunni Færslur í verkraðarkladda til að afrita upplýsingarnar (kenni verkraðar, tímastimpill og tímabelti notanda).
 
 ## Fylgjast með verkröðinni með fjarmælingu
 
-Stjórnendur geta notað  [Azure  Application Insights](/azure/azure-monitor/app/app-insights-overview)  til að safna og greina Telemetry sem hjálpar til við að auðkenna vandamál. Til að fræðast meira um Telemetry er farið í að  [fylgjast með og greina Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  og  [greina vinnslubiðröð Lífeyrisauka rakamæling Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
+Stjórnendur geta notað [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) til að safna saman og greina fjarmælingar sem hjálpa til við að bera kennsl á vandamál. Til að [fræðast meira um fjarmælingar er farið í Eftirlit og Greining fjarmælinga](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [greining á Vinnsluröð Rakningarsíma](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
-Telemetri gerir stjórnendum kleift að setja upp viðvaranir um úthreyfingar vinnslu sem senda textaskilaboð, tölvupóst eða skilaboð í teymum ef eitthvað er ekki rétt. Til að fræðast meira um þessar viðvaranir er farið í  [viðvörun í Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
+Fjarmælingar gera stjórnendum kleift að setja upp viðvaranir um málefni verkraðar sem senda textaskilaboð, tölvupóst eða skilaboð í Teams ef eitthvað er ekki rétt. Til að fræðast meira um þessar viðvaranir er farið í [Alert on Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
 ## Sjá einnig .
 
@@ -149,6 +152,6 @@ Telemetri gerir stjórnendum kleift að setja upp viðvaranir um úthreyfingar v
 [Uppsetning Business Central](setup.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Greining á líftíma fjarmælingarrakningar verkraðar](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
-[Viðvörun um Telemetramæling](/dynamics365/business-central/dev-itpro/administration/telemetry-alert)
+[Viðvörun í fjarmælingum](/dynamics365/business-central/dev-itpro/administration/telemetry-alert)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

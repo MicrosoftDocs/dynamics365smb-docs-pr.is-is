@@ -1,37 +1,41 @@
 ---
-title: Úrræðaleit af Copilot og AI getu
-description: Lærðu hvernig á að laga algeng vandamál sem þú gætir lent í þegar þú vinnur með Copilot og gervigreindargetu í Business Central.
+title: Úrræðaleit vegna stjórnunargetu og ÓM
+description: Kynntu þér hvernig laga má algeng vandamál sem þú gætir fundið með Copilot og AI getu í Business Central.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: troubleshooting
 ms.collection:
   - bap-ai-copilot
-ms.date: 11/15/2023
+ms.date: 02/01/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Úrræðaleit af Copilot og AI getu
+# Úrræðaleit vegna stjórnunargetu og ÓM
 
-Copilot er gervigreindarvirkni í Business Central sem aðstoðar við ýmis verkefni eins og að semja markaðstexta og samræma bankareikninga. Ef þú lendir í vandræðum með Copilot eða aðra gervigreindargetu getur þessi grein hjálpað þér að bera kennsl á og laga algeng vandamál.
+Copilot er Ónýt virkni í Business Central sem aðstoðar við ýmis verk eins og að draga markaðssetningartexta og stemma af bankareikninga. Ef þú átt í vandræðum með Copilot eða aðra afkastagetu getur þessi grein hjálpað þér að finna og laga sameiginleg vandamál.
 
 ## Copilot birtist ekki á síðum
 
-Ef Copilot virkni, svo sem **Drög með Copilot** aðgerð fyrir markaðstextatillögur eða **Samræma við Copilot** aðgerð fyrir aðstoð við afstemmingu bankareiknings, birtist ekki á síðu eins og búist var við, athugaðu eftirfarandi:
+Ef Copilot-aðgerðir, svo sem **Drög að aðgerðinni Copilot, fyrir markaðssetningartextatillögur** eða **Stemma af aðgerðina Copilot** fyrir afstemmingu bankareikninga, birtist ekki á síðu eins og væntanlegt er athugað eftirfarandi:
 
-- Ef eiginleikanum er stjórnað undir Eiginleikastjórnun, vertu viss um að hann sé virkur. [Lærðu meira um eiginleikastjórnun](admin-feature-management.md).
+- Ef aðgerðinni er stýrt undir Eiginleikastjórnun þarf að ganga úr skugga um að hún sé virk. [Fræðast meira um aðgerðastjórnun](admin-feature-management.md).
 
-- Gakktu úr skugga um að virknin sé ekki falin með sérstillingu. [Lærðu meira um sérstillingar](ui-personalization-user.md).
+- Ganga þarf úr skugga um að eiginleikinn sé ekki falinn með sérstillingu. [Fræðast meira um sérstillingu](ui-personalization-user.md).
 
-## Copilot birtist á síðum, en þú færð villu um að það sé ekki virkt
+## Copilot birtist á síðum en villa kemur upp að hún sé ekki virkjuð
 
-Þegar þú reynir að nota Copilot og þú færð villu svipað og **Því miður er Copilot ekki virkjaður fyrir \[eiginleika\]**, þá eru nokkur atriði sem þarf að athuga :
+Þegar reynt er að nota Copilot og villa svipuð **því miður er Copilot ekki virkt fyrir \[eiginleika\]**, þá eru nokkur atriði til að athuga:
 
-- Fyrst skaltu ganga úr skugga um að eiginleikinn sé virkur á **Copilot & AI getu** síða. [Lærðu meira um að virkja Copilot og gervigreindargetu](enable-ai.md#activate-features). 
-- Næst skaltu ganga úr skugga um að yfirlýsing um persónuvernd fyrir Azure OpenAI samþættingu sé ekki stillt á **Ósammála fyrir alla**. Ef svo er, breyttu því í **Sammála fyrir alla**. [Frekari upplýsingar um persónuverndartilkynningar](privacy-notices-status.md).
+- Fyrst skal ganga úr skugga um að eiginleikinn sé virkjaður á síðunni **Copilot & AI** . [Fá nánari upplýsingar um virkjun copilot og ÓM](enable-ai.md#activate-features). 
+- Næst skal ganga úr skugga um að yfirlýsing um persónuvernd fyrir Azure OpenAI samþættingu sé ekki stillt á **Ósamræmt fyrir alla**. Ef svo er, breyttu því í **Sammála fyrir alla**. [Fá nánari upplýsingar um persónuvernd](privacy-notices-status.md).
+
+## Copilot getu frá Microsoft sem ekki er tilgreind á síðunni Copilot & AI Getu
+
+Ef enginn af eiginleikum **Microsoft er sýndur á síðunni** Copilot &AI er líklegt að eitt eða fleiri forrit séu uppsett í umhverfi þínu. Innfelld forrit geta boðið upp á eigin Copilot-möguleika en geta sem Gefin er út af Microsoft samhæfir ekki umhverfi með innfelldum forritum.
 
 ## Sjá einnig .
 
 [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)  
-[Tillögur um markaðstexta með Copilot](ai-overview.md)  
-[Samræma bankareikninga við Copilot](bank-reconciliation-with-copilot.md)  
+[Markaðssetningatextatillögur með Copilot](ai-overview.md)  
+[Afstemma bankareikninga með Copilot](bank-reconciliation-with-copilot.md)  

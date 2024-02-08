@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 11/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Reitirnir dagsetning  **og**  Bókunardags  **., í sölu-og innkaupaskjölum, geta verið í**  samræmi við bókhaldsstaðla og tryggt nákvæmar fjárhagsútreikningar. Svæðin þjóna mismunandi tilgangi:
