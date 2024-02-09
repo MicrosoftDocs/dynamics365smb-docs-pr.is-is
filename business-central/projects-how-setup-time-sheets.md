@@ -12,7 +12,7 @@ ms.date: 07/27/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="set-up-time-sheets"></a>Setja upp vinnuskýrslur
+# Setja upp vinnuskýrslur
 
 Vinnuskjöl í [!INCLUDE[prod_short](includes/prod_short.md)] meðhöndla tímaskráningu í vikulegum stigum sjö daga. Hægt er að nota þær til að mæla tímann sem fer í verkefni og til að skrá einfalda forðatímaskráningu. Áður en hægt er að nota vinnuskýrslur þarf að tilgreina hvaða notendur munu senda inn vinnuskýrslur og hvernig á að grunnstilla þær.  
 
@@ -26,7 +26,7 @@ Einnig er tilgreint hvort og hvernig, vinnuskýrslur eru samþykktar. Allt eftir
 
 Þegar búið er að setja upp vinnuskýrslur er hægt að búa til vinnuskýrslur fyrir forða og forðarnir geta bókað vinnuskýrslulínur. Einnig er hægt að úthluta vinnuskýrslum á verkáætlunarlínur. Til að fá frekari upplýsingar er farið í að  [nota vinnuskýrslur](projects-how-use-time-sheets.md).  
 
-## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Setja upp vinnuskýrslur með leiðbeiningum um uppsetningu
+## Setja upp vinnuskýrslur með leiðbeiningum um uppsetningu
 
 Leiðbeiningar fyrir uppsetningu hjálpartækja geta hjálpað við að setja upp vinnuskýrslur.  
 
@@ -55,11 +55,11 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 > [!IMPORTANT]
 > Ef þú ert að nota 2023 út bylgju 1 (v22) eða síðar, til að tryggja að þú getir stjórnað vinnuskýrslum um farsíma, verður þú að kveikja handvirkt á  **notkun nýs**  valkosts í tímauppsetningu eins og lýst er í næstu aðferð.
 
-## <a name="set-up-time-sheets-manually"></a>Setja upp vinnuskýrslur handvirkt
+## Setja upp vinnuskýrslur handvirkt
 
 Í eftirfarandi köflum er lýst hvernig setja á upp vinnuskýrslur ef ekki eru notaðar leiðbeiningar um  **uppsetningu vinnublaða** .  
 
-### <a name="set-up-general-information-for-time-sheets-manually"></a>Að setja upp almennar upplýsingar fyrir vinnuskýrslur handvirkt
+### Að setja upp almennar upplýsingar fyrir vinnuskýrslur handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning tilfanga** og velja síðan viðkomandi tengil.  
 1. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 | **Alltaf** |Notandinn í reitnum **Ábyrgðaraðili** á verkspjaldinu samþykkir vinnuskýrsluna. |
 | **Aðeins véla** |Ef vinnuskýrsla vélar er tengd við verk er það notandinn í reitnum **Ábyrgðaraðili** á verkspjaldinu sem samþykkir vinnuskýrsluna. Ef vinnuskýrsla vélar er tengd við forða er það notandinn í reitnum **Notandakenni samþykktaraðila vinnuskýrslu** á forðaspjaldinu sem samþykkir vinnuskýrsluna. |
 
-### <a name="assign-a-time-sheet-administrator-manually"></a>Að úthluta stjórnanda vinnuskýrslu handvirkt
+### Að úthluta stjórnanda vinnuskýrslu handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning notanda** og velja síðan viðkomandi tengil.  
 3. Velja skal notandann sem verður kerfisstjóri tímablaðsins og velja  **síðan admin Time.** gátreit.  
@@ -82,7 +82,7 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 > [!TIP]  
 > Mælt er með því að aðeins einn notandi sé tilnefndur sem vinnublaðstjórinn fyrir fyrirtæki. Í eftirfarandi ferli eru eigandi og samþykkjandi vinnuskýrslu settir upp þar sem samþykkjandi er tilgreindur fyrir hvern forða.  
 
-### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Að úthluta eiganda og samþykktaraðila vinnuskýrslna handvirkt
+### Að úthluta eiganda og samþykktaraðila vinnuskýrslna handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tilföng** og velja síðan viðkomandi tengil.
 2. Velja skal tilfang sem setja á upp möguleika á að nota vinnuskýrslur fyrir og velja  **síðan gátreitinn Nota vinnublað** .  
@@ -92,7 +92,7 @@ Leiðbeining um uppsetningu fer með þig í gegnum eftirfarandi skref:
 > [!NOTE]  
 > Ekki er hægt að breyta AUÐKENNI samþykkjanda vinnuskjals ef til eru vinnuskýrslur sem hafa ekki verið unnar og hafa stöðuna  **send**  eða  **opin**.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Nota vinnuskýrslur fyrir verkefni](projects-how-use-time-sheets.md)  
 [Hvernig á að stofna vinnuskýrslur](projects-how-use-time-sheets.md#to-create-time-sheets)  
