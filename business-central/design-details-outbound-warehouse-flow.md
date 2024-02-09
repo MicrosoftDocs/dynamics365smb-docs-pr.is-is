@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 11/25/2022
 ms.custom: bap-template
 ---
-# Ferli vöruhúss á útleið
+# <a name="outbound-warehouse-processes"></a>Ferli vöruhúss á útleið
 
 Ferlar á útleið í vöruhúsum byrja þegar upprunaskjal er losað til að taka vörur úr vöruhúsastað. Til dæmis annað hvort að senda vörurnar einhversstaðar eða til að flytja þær í aðra staðsetningu fyrirtækisins. Hægt er að senda efnislegar og ekki birgðavörur. Til að fræðast meira um móttöku vara sem ekki eru í birgðum er farið í  [Bóka vörur sem ekki eru í birgðum](#post-non-inventory-items). 
 
@@ -50,7 +50,7 @@ Nálgunin sem velja á veltur á vöruhúsastarfsháttum og stigi skipulags. Eft
 > * Birgðatínslan sem notuð er í Aðferðarb, ásamt því að skrá tiltektarupplýsingar, bókar einnig afhendingu á súece-skjalinu.
 > * Vöruhúsatínslan sem notuð er í aðferðard er ekki hægt að bóka og aðeins skráir tínsluna. Skráningin gerir vörurnar tiltækar fyrir vöruhúsaafhendinguna en bókar ekki sendinguna. Vöruhúsatínslu krefst vöruhúsaafhendingar í útstreymissengi.
 
-## Engin sérhæfð vöruhúsastarfsemi
+## <a name="no-dedicated-warehouse-activity"></a>Engin sérhæfð vöruhúsastarfsemi
 
 Eftirfarandi greinar veita upplýsingar um hvernig á að vinna innhreyfingar fyrir upprunaskjöl ef ekki er búið að tileinka sér vöruhúsaaðgerðir.
 
@@ -59,62 +59,62 @@ Eftirfarandi greinar veita upplýsingar um hvernig á að vinna innhreyfingar fy
 * [Meðhöndlun innkaupaskila eða afturkallana](purchasing-how-process-purchase-returns-cancellations.md)
 * [Stofna þjónustupantanir](service-how-to-create-service-orders.md)
 
-## Afbrigði grunnvöruhúsa
+## <a name="basic-warehouse-configurations"></a>Afbrigði grunnvöruhúsa
 
 Eftirfarandi skýringarmynd sýnir ferla á útleið í vöruhúsi fyrir mismunandi gerðir skjala í grunnvöruhúsafbrigðum. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
 :::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Sýnir þrep í grunnstreymi út í vöruhús.":::
 
-### 1: gefa út upprunaskjal
+### <a name="1-release-a-source-document"></a>1: gefa út upprunaskjal
 
 Þegar úttektaraðgerðin  **er notuð**  á upprunaskjali, til dæmis sölu-eða flutningspöntun, eru vörurnar á skjalinu tilbúnar til flutnings í vöruhúsinu. Til dæmis tekið til og sett í hólfið sem tilgreint er á skjalinu. Einnig er hægt að stofna birgðatínsluskjöl fyrir einstakar línur á pöntunum, á þrýstihátt, samkvæmt tilgreindum hólfum og magni sem á að afgreiða.  
 
-### 2: stofna birgðatínslu
+### <a name="2-create-an-inventory-pick"></a>2: stofna birgðatínslu
 
  **Á síðunni Birgðatínsla**  sækir starfsmaðurinn vöruhúsastarfsmanninn, í draga tísku, í upprunaskjalslínurnar. Að öðrum kosti er birgðatínslulínur þegar stofnaðar, með ýtingu, af notanda sem er ábyrgur fyrir upprunaskjalinu.  
 
-### 3: bóka birgðatínslu
+### <a name="3-post-an-inventory-pick"></a>3: bóka birgðatínslu
 
 Í  **hverri línu fyrir vörur sem hafa verið tíndar eða færðar, að hluta til eða fullu, er reiturinn Magn**  fylltur út og síðan er birgðatínslan bókuð. Upprunaskjöl sem tengjast  birgðatínslu eru bókuð sem afgreitt eða notað.  
 
 Fyrir birgðatínslu eru neikvæðar birgðabókarfærslur stofnaðar, vöruhúsafærslur stofnaðar og tínslubeiðni eytt, ef meðhöndluð að fullu. Til dæmis reiturinn **Magn afgreitt** á upprunaskjalinu á útleið er uppfærður. Bókað afhendingarskjal er stofnað til að til dæmis endurspegla sölupöntunina og afhentar vörur.  
 
-## Grunngerðir í ítarlegu vöruhúsi
+## <a name="advanced-warehouse-configurations"></a>Grunngerðir í ítarlegu vöruhúsi
 
 Eftirfarandi skýringarmynd sýnir ferla á útleið í vöruhúsi fyrir mismunandi gerðir skjala í ítarlegum vöruhúsafbrigðum. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Sýnir skrefin í ítarlegu vöruflæði á útleið.":::
 
-### 1: gefa út upprunaskjal
+### <a name="1-release-a-source-document-1"></a>1: gefa út upprunaskjal
 
 Gefa út upprunaskjal í ítarlegum skilgreiningum gildir það sama og um grunnskilgreiningar. Vörurnar verða fáanlegar til afgreiðslu í vöruhúsinu. Þær geta til dæmis verið innifaldar í sendingu.  
 
-### 2: vöruhúsaafhending stofnuð
+### <a name="2-create-a-warehouse-shipment"></a>2: vöruhúsaafhending stofnuð
 
  **Á síðunni vöruhúsaafhending**  fást línurnar úr útgefnu upprunaskjali. Hægt er að sameina línur úr nokkrum upprunaskjali í eina vöruhúsaafhendingu.  
 
-### 3: Vöruhúsatínsla stofnuð
+### <a name="3-create-a-warehouse-pick"></a>3: Vöruhúsatínsla stofnuð
 
  **Á síðunni vöruhúsaafhending**, Stofnið vöruhúsatínsluaðgerðir fyrir vöruhúsaafhendingar á tvo vegu:
 
 - Á þrýstihátt, þar sem þú notar  **aðgerðina stofna tínslu** . Velja línurnar sem á að tína og undirbúa tínslur með því að tilgreina, til dæmis, hvaða hólf eigi að taka af og á í og hversu margar einingar eigi að afgreiða. Hólfin geta verið fyrirfram skilgreind fyrir vöruhúsastaðinn eða forðinn.
 - Á togtísku, þar sem notuð  **er úttektaraðgerð** .  **Á síðunni tínsluvinnublað**  geta starfsmenn vöruhúss notað  **aðgerðina Sækja vöruhúsaskjöl**  til að fá úthlutaða tínslur. Þegar vöruhúsatínslan er fullskráð er línunum á  **tínsluvinnublaðinu**  eytt.
 
-### 4: Vöruhúsatínsla skráð
+### <a name="4-register-a-warehouse-pick"></a>4: Vöruhúsatínsla skráð
 
  **Í Vöruhúsafærslusíðunni**  fyllir  **reiturinn Magn**  út fyrir hverja línu sem þeir hafa tekið til eða að hluta til og skráir tínsluna síðan.
 
 Vöruhúsafærslur eru stofnaðar og vöruhúsatínslulínunum er eytt ef fullt magn var tekið til. Vöruhúsatínsluskjalið er áfram opið þar til heildarmagn vöruhúsaafhendingarinnar er skráð. Reiturinn **Tínt magn** á afhendingarlínu vöruhússins er uppfærður í samræmi.  
 
-### 5: bóka vöruhúsaafhendinguna
+### <a name="5-post-the-warehouse-shipment"></a>5: bóka vöruhúsaafhendinguna
 
 Þegar allar vörur á vöruhúsaafhendingskjalinu eru skráðar sem tínslur, bókar vöruhúsastarfsmaðurinn afhendinguna. Bókun uppfærir birgðafærslurnar sem á að endurspegla minnkun birgða. Til dæmis reiturinn **Magn afgreitt** á upprunaskjalinu á útleið er uppfærður.  
 
-## Bóka vörur sem eru ekki í birgðum
+## <a name="post-non-inventory-items"></a>Bóka vörur sem eru ekki í birgðum
 
 [!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Stjórnun vöruhúss](design-details-warehouse-management.md)  
 

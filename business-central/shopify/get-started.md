@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Hafist handa með Shopify tengli
+# <a name="get-started-with-the-shopify-connector"></a>Hafist handa með Shopify tengli
 
 Tengdu Shopify verslunina þína (eða verslanir) við [!INCLUDE [prod_short](../includes/prod_short.md)] og hámarkaðu afköst viðskiptanna. Stjórnaðu og skoðaðu innsýn í viðskiptin og Shopify verslunina þína í einni einingu.
 
 Til að nota Shopify með [!INCLUDE [prod_short](../includes/prod_short.md)] eru nokkur atriði sem þú þarft að gera fyrst. Þessi grein þjónar hlutverki leiðsagnar til að samþætta Shopify verslun við [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-## Forkröfur fyrir Shopify
+## <a name="prerequisites-for-shopify"></a>Forkröfur fyrir Shopify
 
 Þú verður að vera með:
 
@@ -25,7 +25,7 @@ Til að nota Shopify með [!INCLUDE [prod_short](../includes/prod_short.md)] eru
 
 Nánari upplýsingar um hvernig á að búa til Shopify prufur og stillingarnar sem mælt er með er farið í [Stofnun og uppsetning Shopify reiknings](shopify-account.md).
 
-## Skilyrði fyrir Business Central
+## <a name="prerequisites-for-business-central"></a>Skilyrði fyrir Business Central
 
 - Gakktu úr skugga um að forritið **[Shopify tengill](https://go.microsoft.com/fwlink/?linkid=2196238)** sé uppsett.
 
@@ -33,7 +33,7 @@ Nánari upplýsingar um hvernig á að búa til Shopify prufur og stillingarnar 
 
 - Tryggja skal að notandinn hafi réttar heimildir. Shopify Tengill nær yfir **Shopify  – Admin (SHPFY – ADMIN)** permission set. Nánari upplýsingar um [stofnun notenda í samræmi við leyfi](../ui-how-users-permissions.md) og [úthluta heimildum til notenda og hópa](../ui-define-granular-permissions.md).
 
-## Settu Dynamics 365 Business Central forritið upp í Shopify netverslunina þína
+## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store"></a>Settu Dynamics 365 Business Central forritið upp í Shopify netverslunina þína
 
 Fyrirliggjandi tilvik af [!INCLUDE[prod_short](../includes/prod_short.md)] er þetta skref valfrjálst og hægt er að sleppa því.
 
@@ -45,7 +45,7 @@ Fyrirliggjandi tilvik af [!INCLUDE[prod_short](../includes/prod_short.md)] er þ
 4. Veldu Skráðu **þig núna** til að hefja réttarhöldin [!INCLUDE[prod_short](../includes/prod_short.md)] eða **skráðu þig inn** ef þú ert þegar með [!INCLUDE[prod_short](../includes/prod_short.md)]. Þér verður beint á síðuna [Business Central](https://businesscentral.dynamics.com).
 5. Gerið næstu skref inn [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## Tengja Business Central við Shopify netverslunina
+## <a name="connect-business-central-to-the-shopify-online-store"></a>Tengja Business Central við Shopify netverslunina
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Shopify Verslun** og veldu tengda tengilinn.
 2. Valið er aðgerðin **Nýtt**.  
@@ -56,7 +56,7 @@ Fyrirliggjandi tilvik af [!INCLUDE[prod_short](../includes/prod_short.md)] er þ
 
 Endurtaktu skref 2-6 fyrir allar netverslanir sem þú vilt tengjast.
 
-### Þekkt vandamál
+### <a name="known-issues"></a>Þekkt vandamál
 
 - Vafrinn lokar sprettiglugga. Þegar kveikt er **á virku** vísbendingunni [!INCLUDE [prod_short](../includes/prod_short.md)]  **opnast Beðið eftir svari - ekki loka síðunni** meðan beðið er eftir aðgangstákni frá Shopify. Ef síðunni er lokað eða lokað er ekki hægt að Shopify tengjast. Frekari upplýsingar er að finna í [Biðja um aðgangslykilinn](troubleshoot.md#request-the-access-token).
 - Gott gæti verið að hafa Shopify admin opinn í sama vafra og [!INCLUDE [prod_short](../includes/prod_short.md)]
@@ -65,7 +65,7 @@ Endurtaktu skref 2-6 fyrir allar netverslanir sem þú vilt tengjast.
 - [Ekki er hægt að tengjast úr sandkassa](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 - Ganga þarf úr skugga um að rétt URL sé fært inn í **Shopify reitinn URL** . Hægt er að búa til veffangið með því að sameina verslunarkennið úr stjórnunarslóðinni. Til dæmis, `admin.shopify.com/store/{shop}`  og `.myshopify.com` til að fá `https://{shop}.myshopify.com/`.
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 Nú er netverslunin þín tengd við [!INCLUDE[prod_short](../includes/prod_short.md)]. Í næstu skrefum skilgreinir þú hvernig og hvað á að samstilla.
 
@@ -73,7 +73,7 @@ Nú er netverslunin þín tengd við [!INCLUDE[prod_short](../includes/prod_shor
 - [Samstilla viðskiptavini](synchronize-customers.md)
 - [Samstilla pantanir](synchronize-orders.md)
 
-## Prófun aðferðir
+## <a name="testing-strategies"></a>Prófun aðferðir
 
 Það eru mismunandi aðferðir til að prófa samþættingu, og hver nálgun hefur sína kosti og galla.
 
@@ -81,13 +81,13 @@ Hægt er að tengja [!INCLUDE[prod_short](../includes/prod_short.md)] og reiknin
 
 Auðvelt er að endurkeyra samstillingarprófanir. Tengillinn gerir kleift að eyða innfluttum gögnum, t.d. vörum, viðskiptamönnum og pöntunum og flytja þau síðan inn aftur. Endurstillaðu bara [samstillingu](troubleshoot.md#reset-sync).
 
-### Shopify sandkassi og Business Central sandkassi
+### <a name="shopify-sandbox-and-business-central-sandbox"></a>Shopify sandkassi og Business Central sandkassi
 
 Þetta er líklega öruggasta leiðin til að prófa samþættingu. Í stað þess að nota Shopify Sandkassa er einnig hægt að nota prufuáskrift eða Þróunarverslun. Einnig [!INCLUDE[prod_short](../includes/prod_short.md)] er hægt að nota prófunarfyrirtæki í framleiðsluumhverfi.
 
 Til að fræðast meira um [!INCLUDE[prod_short](../includes/prod_short.md)] sandkassa er farið í [Stofna nýtt umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
-### Shopify sandkassa og Business Central framleiðsla
+### <a name="shopify-sandbox-and-business-central-production"></a>Shopify sandkassa og Business Central framleiðsla
 
 Ekki er *mælt* með samstillingu við prófun vegna þess að tengillinn Shopify getur búið til eða breytt vörum og viðskiptamönnum. Einnig er hægt að búa til söluskjöl eins og pantanir og reikninga. Það getur verið erfitt að afturkalla þessi skjöl.
  
@@ -101,7 +101,7 @@ Ef nota þarf þessa grunnstillingu er mælt með því að þú skoðir og geri
 
 Nánari upplýsingar eru [í Endurheimt umhverfis](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 
-### Shopify framleiðslu og Business Central sandkassa
+### <a name="shopify-production-and-business-central-sandbox"></a>Shopify framleiðslu og Business Central sandkassa
 
 Það gæti verið góð hugmynd að taka öryggisafrit af gögnunum. Til dæmis má flytja út vörur og viðskiptamenn. Nánari upplýsingar eru í [Notkun CSV-skráa til að taka öryggisafrit af verslunarupplýsingum](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
@@ -112,7 +112,7 @@ Ef þú heldur samstillingu **gagna áfram til að Shopify** vífæra virka eru 
 *   Valið er **Drög** í reitnum **Staða fyrir stofnun vöru** til að tryggja að útfluttar vörur séu ekki tiltækar kaupendum. Hægt er að sannprófa hvernig vörur líta út í netverslun, samstilla verð, valkosti og birgðastig. Passaðu bara að nota afmarkanir á síðunni **Bæta vöru við til að Shopify** takmarka fjölda útfluttra vara.
 * Slökkva á útflutningsviðskiptamönnum **til að Shopify** vífæra svo að ekki séu sendir viðskiptamenn. Shopify
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Kynning: Uppsetning og notkun Shopify tengis](walkthrough-setting-up-and-using-shopify.md)  
 

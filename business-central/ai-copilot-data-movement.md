@@ -11,7 +11,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Yfirmannsgagnahreyfing í landsvæðum 
+# <a name="copilot-data-movement-across-geographies"></a>Yfirmannsgagnahreyfing í landsvæðum
 
 Copilot er fáanlegt í öllum studdum [Business Central löndum/svæðum](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Hins vegar notar Microsoft Azure OpenAI Copilot þjónustu sem er eingöngu tiltæk fyrir Business Central á sumum landsvæðum. Þetta þýðir að ef umhverfið þitt er staðsett annars staðar verður að senda gögn úr eiginleikanum Copilot og generative AI utan landsvæðisins og hægt er að vinna gögnin utan samræmismarka þíns. Gögn fela í sér kvaðningar og viðskiptagögn sem copilot notar eða mynda þau. Í þessu tilfelli verður að velja að leyfa hreyfingu gagna til Azure-þjónustu OpenAI í annarri landafræði. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
@@ -23,7 +23,7 @@ Copilot er fáanlegt í öllum studdum [Business Central löndum/svæðum](/dyna
 > 
 > Copilot- og myndandi AI-eiginleikar frá útgefendum sem ekki koma frá Microsoft, svo sem þeim sem koma úr sérstillingum eða AppSource forritum sem þú setur upp, skilgreina hvert þeirra sérstök Azure-þjónustusvæði OpenAI . Ráðfærðu þig við útgefanda viðbótarinnar til að skilja hvaða svæðisbundna Azure-þjónustur notast við viðbótina. 
 
-### Azure OpenAI þjónusta landfræði
+### <a name="azure-openai-service-geographies"></a>Azure OpenAI þjónusta landfræði
 
 Eftirfarandi tafla sýnir landafræði Azure-þjónustunnar OpenAI sem Copilot notar, byggt á Azure-svæðinu í Business Central umhverfi. Þessar upplýsingar skipta miklu máli þegar ákveðið er hvort eigi að skrá gagnahreyfingar yfir landfræðilegar upplýsingar. Þú getur fundið Azure-svæðið fyrir umhverfið í stjórnunarmiðstöð Business Central (sjá [Stjórnun umhverfis í stjórnunarmiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
@@ -107,6 +107,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 Þú kýst að leyfa hreyfingu gagna yfir landfræðilegar gerðir af síðunni [Copilot & AI.](https://businesscentral.dynamics.com/?page=7775)  Nánari upplýsingar eru notaðar til að [leyfa hreyfingu gagna í landfræði.](enable-ai.md#allow-data-movement-across-geographies)

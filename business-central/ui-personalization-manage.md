@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Sérsníða síður fyrir forstillingar
+# <a name="customize-pages-for-profiles"></a>Sérsníða síður fyrir forstillingar
 
 
 Á Aðalaðalfundi eru bæði  [sérstillingar](ui-personalization-user.md)  fyrir notendur og sérsnið fyrir stjórnendur. Sérsnið gerir notendum kleift að sníða vinnusvæðið sitt með því að leiðrétta síðuskipan sem hentar þeirra óskum. Kerfisstjórar geta sérsniðið síðuskipan fyrir ákveðna forstillingu, byggða á hlutverkum eða deildum stjórnenda, þannig að allir úthlutuðu notendur sjái sömu sérsniðnu síðuna. Meðan sérsnið gerir notendum kleift að sýna, fela og færa svæði og aðgerðir á síðu, er boðið upp á auka getu. Til dæmis gerir sérsnið kleift að sýna svæði sem eru í upprunatöflu síðunnar eða viðaukatöflum en eru ekki skilgreind á síðunni Object &mdash; þetta eru ekki mögulegar sérstillingar.  <!--For more information, see [Personalize Your Workspace](ui-personalization-user.md).-->
@@ -23,13 +23,13 @@ ms.custom: bap-template
 
 Sérstilling á síðu hefst á síðunni **Forstillingar (hlutverk)**, upphafspunkt stjórnanda til að stjórna notendaforstillingum á einstökum forstillingarspjöldum. Auk þess að sérsníða síðuútlitið er hægt að breyta ýmsum öðrum stillingum fyrir forstillingar á síðunni **Sérstilling (hlutverk)** fyrir hverja forstillingu. Frekari upplýsingar eru í [Unnið með forstillingar](admin-users-profiles-roles.md).
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 - Aðalreikningur fyrirtækisins verður að hafa  **D365 Profile Mgt.** leyfi sett eða sambærilegar heimildir. 
 
     **D365 Profile Mgt.** heimildasafn inniheldur keyrsluheimildina í kerfinu Object  **9026 bæta við svæði í töflu**. Hafir þú ekki þessa heimild ertu ekki að bæta við reitum á síðunni nema þeir séu skilgreindir á síðuhlutnum. 
 
-## Sérsníða síður fyrir forstillingu
+## <a name="customize-pages-for-a-profile"></a>Sérsníða síður fyrir forstillingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Forstillingar (hlutverk)** og velja svo viðeigandi tengil.
 2. Velja skal línuna fyrir forstillinguna sem á að sérsníða síður fyrir og síðan velja aðgerðina **Breyta**.
@@ -47,7 +47,7 @@ Sérstilling á síðu hefst á síðunni **Forstillingar (hlutverk)**, upphafsp
 
 Sérstillingar fyrir síður er nú skráðar fyrir forstillinguna.
 
-## Skoða allar sérsniðnar síður fyrir forstillingu
+## <a name="view-all-customized-pages-for-a-profile"></a>Skoða allar sérsniðnar síður fyrir forstillingu
 
 Hægt er að fá yfirlit yfir hvaða síður eru sérsniðnar fyrir forstillingu, til dæmis til að áætla hvaða síður á að sérsníða frekar eða eyða.
 
@@ -55,7 +55,7 @@ Hægt er að fá yfirlit yfir hvaða síður eru sérsniðnar fyrir forstillingu
 
 Á síðunni **Sérstilltar síður** er hægt að eyða sérstillingum og hægt er að úrræðaleita með því að skanna eftir mögulegum vandamálum.  
 
-## Eyða öllum sérstillingum fyrir forstillingu
+## <a name="delete-all-customizations-for-a-profile"></a>Eyða öllum sérstillingum fyrir forstillingu
 
 Hægt er að hætta við sérstillingar sem þú hefur gert fyrir forstillingu. Sérsnið kynnt með viðaukagerð og sérstillingum notanda er ekki eytt. Hægt er að eyða öllum sérstillingum með annarri aðgerð. Frekari upplýsingar er að finna á [Eyða öllum sérstillingum sem notandi hefur gert](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -63,7 +63,7 @@ Hægt er að hætta við sérstillingar sem þú hefur gert fyrir forstillingu. 
 
 Útlitið á síðum fyrir forstillinguna er endurstillt á sjálfgefið útlit.  
 
-## Eyða sérsniðssíðum fyrir forstillingu
+## <a name="delete-customization-for-specific-pages-for-a-profile"></a>Eyða sérsniðssíðum fyrir forstillingu
 
 Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyrir forstillingu. Sérsnið kynnt með viðaukagerð og sérstillingum notanda er ekki eytt. Hægt er að eyða tilteknum sérstillingum síðu með annarri aðgerð. Frekari upplýsingar er að finna á [Eyða sérstillingum fyrir tilteknar síður](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -72,7 +72,7 @@ Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyri
 
 Útlitinu á völdum síðum er breytt í breytingar sem gerðar voru.
 
-## Bæta við reit
+## <a name="add-a-field"></a>Bæta við reit
 
 Reitum er bætt við síðuna úr  **rúðunni bæta við svæði í síðurúðu**  sem er opnaður með því að velja  **aðgerðina + reitur**  við sérsniðsstillingu. Mikilvægt er að skilja að  **svæðið bæta við svæði við síðurúðuna**   er notað til að sýna svæði sem eru þegar til &mdash; bæði á síðunni og upprunatöflum &mdash; þess en eru nú falin úr yfirliti. Ekki er hægt að stofna ný svæði.
 
@@ -93,7 +93,7 @@ Nota skal síuhnappinn fyrir ofan listann til að breyta því í hvaða flokki 
 
 :::image type="content" source="media/customization-filter.svg" alt-text="Sýnir síuhnappinn í svæðinu Bæta við reitarúðu í sérsniðsstillingunni.":::
  
-### Bæta við töflusvæði sem ekki er á síðuhlut
+### <a name="add-table-field-thats-not-on-the-page-object"></a>Bæta við töflusvæði sem ekki er á síðuhlut
 
 Ef þú vilt gera töfluaðeins sem er tiltækur á síðu til notenda þá þarftu fyrst að bæta honum á síðuna. Þegar svæðinu hefur verið bætt við geta notendur valið að sýna eða fela svæðið að vild með sérstillingar. Tvær leiðir eru til að bæta við reit.
 
@@ -105,7 +105,7 @@ Ef þú vilt gera töfluaðeins sem er tiltækur á síðu til notenda þá þar
 > [!NOTE]
 > Reiturinn bætt er lokaður frá breyta og ekki er hægt að opna hann.
 
-## Fjarlægja svæði
+## <a name="remove-a-field"></a>Fjarlægja svæði
 
 Ef bætt hefur verið við töflureit sem upphaflega var ekki á síðuhlutnum er hægt að fjarlægja hann að nýju. Að fjarlægja svæði er annað sem felur það í sér. Þegar svæði er hulið geta notendur enn sýnt það á vinnusvæði sínu í gegnum sérstillingar. Hins vegar er svæðið ekki lengur tiltækt fyrir notendur til að sýna eða fela sig fyrir það efni. Ef reiturinn er nú sem birtist á vinnusvæði notanda hverfur hann af vinnusvæði sínu þegar hann er fjarlægður. 
 
@@ -114,7 +114,7 @@ Svæði er fjarlægt með því að velja örhveið á svæðinu í síðunni og
 > [!IMPORTANT]
 > Þegar svæði er fjarlægt er ekki eyða gögnum sem geymd eru í svæðinu eða upprunatöflum. Það fjarlægir bara svæðið frá útsýni. 
 
-## Læsa og opna breytingar
+## <a name="lock-and-unlock-editing"></a>Læsa og opna breytingar
 
 Sérsnið gerir kleift að læsa (leyfa breytingar) eða aflæsa breytingum (koma í veg fyrir breytingar) af flestum svæðum á síðu. Til að læsa eða aflæsa breytingum skal velja svæðið á síðunni, velja örhvead og velja  **svo breytingar**  á lás eða  **aflæsa**. Mikilvægt er að hafa í huga nokkrar reglur um læsisstefnu og ólæsa reiti:
 
@@ -124,13 +124,13 @@ Sérsnið gerir kleift að læsa (leyfa breytingar) eða aflæsa breytingum (kom
 
 
 <!--However, whatever option you choose for a field, users can always change the setting on their own workspace using personalization. For this reason, it's important to consider locking as a deterrence measure and not a preventative measure.--> 
-## Mikilvægar upplýsingar og ábendingar 
+## <a name="important-information-and-tips"></a>Mikilvægar upplýsingar og ábendingar
 
 - Ekki er víst að öll töflusvæði séu tiltæk til að sérsníða úr  **rúðunni bæta við síðu** . Forritaraverktaki í töflu getur valið að koma í veg fyrir að svæði birtist í sérsnið með því að  [setja eiginleikinn](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property)  fjárheimild svæðisins  `false` í.
 - Ekki er hægt að sérsníða síðu sem er í  [greiningarham](analysis-mode.md).  **Rofinn greina**  er óvirkur. Ef skipt er í sérsniðsham á meðan síðan er í greiningarham er slökkt á stillingunni sjálfvirkt. 
 - Sumar síður eru með marga síðureiti sem varpa sömu upprunatöflu.  **Í reitnum bæta við síðu**  birtast allir síðureitir óháð staðsetningu. Hægt er að sýna, fela eða færa þessi svæði sjálfstætt án þess að það hafi áhrif á hina.
 - Ef hluti eða flokkur er falinn er enn hægt að auðkenna falda reiti innan hlutans eða flokks, en ekki má bæta við, færa eða sýna reiti í hlutanum eða flokka fyrr en þeir eru gerðir sýnilegir. 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilling verksvæðis](ui-personalization-user.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  
