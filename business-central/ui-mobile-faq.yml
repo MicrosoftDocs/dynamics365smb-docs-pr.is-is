@@ -34,17 +34,17 @@ sections:
           | Hugtak | Í spjaldtölvum | Í síma | Dæmi úr vafranum |
           |--|--|--|--|
           | Hópar verkþáttar | Aðeins verkþáttarsvæðið **Heim** er sýnt. | Aðeins verkþáttarsvæðið **Heim** er sýnt. | **Heim** og **Bókuð skjöl** í hlutverkamiðstöð `Sales Order Processor`. |  |
-          | Margar færslur valdar úr lista | Ekki tiltækt. | Ekki tiltækt. | <kbd>CTRL</kbd>+<kbd>A</kbd>  eða  <kbd>CTRL</kbd>+<kbd>smella</kbd>  á línur í lista í vafranum. |
+          | Margar færslur valdar úr lista | Ekki tiltækt. | Ekki tiltækt. | <kbd>Ctrl A</kbd>+<kbd>eða</kbd> Ctrl <kbd></kbd>+<kbd>Smelltu</kbd> á línur í lista í vafranum. |
           | Aðgerðir á aðgerðarstikunni | Aðeins kynntar aðgerðir eru sýndar. | Aðeins kynntar aðgerðir eru sýndar. |  |
           | Staðreyndagluggar | Ekki sýndir á listasíðum eða síðum vinnublaða. | Ekki sýndir á listasíðum eða síðum vinnublaða. | `Customer` listi í hlutverkamiðstöð `Small Business`. |
           | Ítarlegar síur | Engin síun á dálkum er í boði. | Engin síun á dálkum er í boði. | Á listasíðunni `Customer`. |
-          | Segðu mér | Hann verður að vera virkur í  [aðgangsstjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management)  með  **aðgerðinni: leit að síðum og gögnum í Mobile App**  -rofanum.  **Kaflinn fá úr  Microsoft AppSource**  í niðurstöðum fyrir forrit er ekki tiltækur. | Sama og töflur | Sjá [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md). |  |
-          | Hlutverkaleit | Ekki fyrir hendi að svo stöddu. | Ekki fyrir hendi að svo stöddu. | Sjá [Að finna síður með hlutverkaleit](ui-role-explorer.md). |
+          | Segðu mér | Það verður að vera virkt í [Eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management) með eiginleikanum **: Leita að síðum og gögnum í rofa farsímaforritsins** . Hlutinn **Fá úr Microsoft AppSource** í niðurstöðum forrita er ekki í boði. | Sama og spjaldtölvur | Farið er í [Að finna síður og upplýsingar með Segja mér](ui-search.md). |  |
+          | Hlutverkaleit | Ekki fyrir hendi að svo stöddu. | Ekki fyrir hendi að svo stöddu. |  [Farið í Finna síður með hlutverkavafranum](ui-role-explorer.md). |
           | Reitir í flýtiflipum | Reitir í flýtiflipum á listasíðum eru ekki sýndir. Aðeins stýring endurtekningar er sýnd á efnissvæði síðunnar. | Ekki tiltækt. |  |
           | Velja af öllum listanum | Ekki í boði í uppflettingum. Notendur geta ekki keyrt aðgerðir á uppflettingarsíðu og þeir hafa ekki aðgang að öllu færslusafninu. | Ekki í boði í uppflettingum. Notendur geta ekki keyrt aðgerðir á uppflettingarsíðu og þeir hafa ekki aðgang að öllu færslusafninu. | Í `Item Card` þegar **Grunnmælieining** er valin. |
-          | Leita í listadálkum | Stutt að hluta. Leit inniheldur ekki FlowFields. | Stutt að hluta. Leit inniheldur ekki FlowFields. | Sjá dæmi á listasíðunni `Customers`. |
-          | Uppflettingar | Í boði. | Í boði, en sá munur er að ítarlegar og einfaldar uppflettingar hegða sér svipað í símanum. Uppflettingin mun ekki birta spjaldið, sýna staðreyndaglugga eða neina reitarhópa. | Sjá dæmi á síðunni `Customer Card`. |
-          | Stýringar fylkja | Ekki tiltækt. | Ekki tiltækt. | Skoða dæmi í `G/L Budget`. |
+          | Leita í listadálkum | Stutt að hluta. Leit inniheldur ekki FlowFields. | Stutt að hluta. Leit inniheldur ekki FlowFields. | Fara í dæmi á `Customers` listasíðunni. |
+          | Uppflettingar | Í boði. | Í boði, en sá munur er að ítarlegar og einfaldar uppflettingar hegða sér svipað í símanum. Uppflettingin mun ekki birta spjaldið, sýna staðreyndaglugga eða neina reitarhópa. | Fara í dæmi á síðunni `Customer Card` . |
+          | Stýringar fylkja | Ekki tiltækt. | Ekki tiltækt. | Farðu til dæmis `G/L Budget`. |
           | Niðurhal skráar | Í boði. Ekki er hægt að sækja margar skrár á sama tíma. | Í boði. Ekki er hægt að sækja margar skrár á sama tíma. | `Trial Balance`-skýrsla í gátreitnum **Prenta í Excel**. |
           | Síður vinnublaða | Í boði. | Ekki fyrir hendi; villuboð birtast. | `Sales Price`-vinnublað eða `Cash Flow`-vinnublað. |
           | Listar | Í boði. | Í boði, en þeir birtast í kubbaútliti. | Viðskiptamanna- eða sölupöntunarsíður. |
@@ -53,15 +53,15 @@ sections:
       - question: |
           Er upplifunin eins í spjaldtölvum og símum?
         answer: |
-          Nánast, en ekki alveg. Skoðið listann í hlutanum [Er sama upplifunin í forritunum eins og í vafranum?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
+          Nánast, en ekki alveg. Fara á listann [í Er það sama upplifun í forritum og í vafranum?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-) Hlutanum.  
       - question: |
           Get ég tengt forritið við innanhússlausnina?
         answer: |
-          Já, þú getur það! Það er örlítið mismunandi leið til að skrá sig inn, það er allt og sumt. Frekari upplýsingar er að finna í [Nota Business Central á staðnum?](install-mobile-app.md#use-business-central-on-premises).  
+          Já, þú getur það! Það er örlítið mismunandi leið til að skrá sig inn, það er allt og sumt. Nánari upplýsingar eru í Go to [Use Business Central á staðnum?](install-mobile-app.md#use-business-central-on-premises).  
       - question: |
           Getur gestanotandi notað forritið til að opna Business Central-lausnina?
         answer: |
-          Nr. Gestanotendur eru boðnir notendum frá öðrum  Microsoft Entra  leigjanda en þínum. Í þessu tilfelli mun App sannvotta aðalleigjanda  Microsoft Entra  gestsins og reyna að opna endastöð fyrirtækisins á þeim leigjanda í stað notandans.  
+          Nr. Gestanotendum er boðið frá öðrum Microsoft Entra leigjanda en þínum. Í þessu tilfelli sannvottar Microsoft Entra forritið að aðal leigjanda gestanotandans og reynir að opna Business Central endastöðina á þeim leigjanda í staðinn fyrir þinn.  
 additionalContent: |
 
   ## Sjá einnig .

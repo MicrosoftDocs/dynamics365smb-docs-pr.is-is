@@ -3,15 +3,14 @@ title: Rafræn skjöl í Business Central
 description: Þetta er yfirlit yfir hvernig á að nota gagnaskiptirammann til að hafa umsjón með skiptingu gagna í viðskiptaskjölum eins og bankaskrám og gengi gjaldmiðils.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file'
 ms.date: 06/10/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="exchanging-data-electronically"></a>Rafræn gagnaskipti
+# Rafræn gagnaskipti
 Hægt er að nota Data Exchange Framework til að stjórna skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga.
 
 Í staðlaðri útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] er Data Exchange Framework notað í ferlum á borð við sendingu rafrænna skjala, innflutning og útflutning bankaskráa og uppfærslu gengis fyrir gjaldmiðla. Nánari upplýsingar er að finna í [Um Data Exchange Framework](across-about-the-data-exchange-framework.md).
@@ -26,7 +25,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Undirbúa gagnaskipti í skjali með því að endnýta XML-skema skrárinnar. Setja upp skilgreiningar gagnaskipta. Setja upp aðalgögn fyrir sendingu rafræns skjals. Setja upp mismunandi innflutnings/útflutningsreiti bakna.|[Setja upp gagnaskipti](across-set-up-data-exchange.md)|  
 |Sendið PEPPOL-reikninga, takið við PEPPOL-reikningum, flytjið inn bankayfirlit og flytjið út bankagreiðsluskrár sem byggjast á gagnaskiptaskilgreiningum.|[Gagnaskipti](across-exchange-data.md)|  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Um gagnaskiptaramma](across-about-the-data-exchange-framework.md)  
 [Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  

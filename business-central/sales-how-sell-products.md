@@ -1,26 +1,27 @@
 ---
-title: Búðu til sölupöntun viðskiptavinar og seldu vörur
+title: Stofna sölupöntun viðskiptavinar og selja vörur
 description: 'Lýsir því hvernig skal búa til  sölupöntun, til að skrá samkomulag við viðskiptamann um að selja eða eiga viðskipti með vörur með tilteknum skilmálum.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Selja vörur með sölupöntun viðskiptavina
+# Selja vörur með sölupöntun viðskiptavinar
 
-Þessi grein veitir leiðbeiningar um hvenær eigi að nota sölupöntun viðskiptamanns auk reiknings. Ef söluferlið þitt krefst þess að þú sendir aðeins hluta af pöntun, kannski vegna þess að allt magnið er ekki tiltækt strax, verður þú að vinna úr þeirri sölu með því að gera sölupöntun.
+Þessi grein veitir leiðbeiningar um hvenær eigi að nota sölupöntun viðskiptamanns auk reiknings. Ef söluferlið krefst þess að aðeins verði afhentur hluti pöntunar, ef til vill vegna þess að allt magnið er ekki tiltækt strax þarf að vinna þá sölu með því að búa til sölupöntun.
 
 Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint frá lánardrottni til viðskiptamanns, í því sem kallast bein afhending. Frekari upplýsingar eru í [Beinar sendingar](sales-how-drop-shipment.md). Frá öllum sjónarhornum séð virka sölupantanir á sama hátt og sölureikningar. Frekari upplýsingar eru á [Reikningsfæra sölur](sales-how-invoice-sales.md).
 
 Þegar þú afhenda vörur, hvort sem er að fullu eða hluta, bókarðu sölupöntunina sem afhenta eða sem senda og reikningsfærða til að stofna viðkomandi vörufærslur og færslur í viðskiptamannabók í kerfinu. Við bókun sölupöntunar er einnig hægt að senda hana í tölvupósti sem PDF-viðhengi. Hægt er að fylla út fyrirfram meginmál tölvupósts með samantekt pöntunar og greiðsluupplýsingar, t.d. sem tengil á PayPal. Frekari upplýsingar er að finna í [Senda vörur](warehouse-how-ship-items.md) og [Senda skjöl með tölvupósti](ui-how-send-documents-email.md).
 
-Í viðskiptaumhverfi þar sem viðskiptavinurinn greiðir strax, eins og með PayPal eða reiðufé, er greiðsla skráð strax þegar þú bókar sölureikninginn, sem þýðir að bókaður sölureikningur er lokaður þar sem hann er að fullu notaður. Í reitnum **Kóði greiðslumáta** í sölupöntuninni þarf að velja viðeigandi. Sjá þrep 5 hér að neðan. Fyrir rafrænar greiðslur á borð við PayPal þarf einnig að fylla inn í reitinn **Greiðsluþjónusta**. Frekari upplýsingar eru í [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
+Í viðskiptaumhverfi þar sem viðskiptamaður greiðir samstundis, t.d. með PayPal eða reiðufé, er greiðsla skráð strax þegar sölureikningurinn er bókaður, sem þýðir að bókaða sölureikningnum er lokað sem fullkomlega jöfnuð. Í reitnum **Kóði greiðslumáta** í sölupöntuninni þarf að velja viðeigandi. Sjá þrep 5 hér að neðan. Fyrir rafrænar greiðslur á borð við PayPal þarf einnig að fylla inn í reitinn **Greiðsluþjónusta**. Frekari upplýsingar eru í [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
 
-Þú getur meira að segja búið til beint greiddar pantanir fyrir óskráða viðskiptavini með því að setja fyrst upp „reiðfé viðskiptavina“ kort sem þú bendir á á sölupöntuninni. Frekari upplýsingar má finna í [Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md).
+Jafnvel er hægt að stofna beint greiddar pantanir fyrir óskráða viðskiptamenn með því að setja fyrst upp "sjóðsviðskiptamannsspjald" sem bent er á á sölupöntunina. Frekari upplýsingar má finna í [Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md).
 
 ## Stofna sölupöntun
 
@@ -38,10 +39,10 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
     > [!NOTE]  
     > Ef þú leyfir viðskiptavininum að greiða strax, til dæmis með kreditkorti eða PayPal, þá skaltu fylla út reitinn **Kóði greiðslumáta**. Greiðslan er þá skráð um leið og þú bókar sölupöntunina sem reikningsfærða. Ef þú velur *Reiðufé*, þá er greiðslan skráð á tilteknum mótreikningi.
 
-    Þú ert nú tilbúinn til að fylla út sölupöntunarlínur með birgðavörum eða þjónustu sem þú vilt að viðskiptavinurinn kaupi.
+    Nú er hægt að fylla út sölupöntunarlínurnar með vörum eða þjónustu sem viðskiptamaðurinn á að kaupa.
 
-    Ef þú setur upp endurteknar sölulínur fyrir viðskiptavininn, eins og mánaðarlega áfyllingarpöntun, geturðu sett þessar línur inn í pöntunina með því að velja aðgerðina **Fá endurteknar sölulínur** .
-5. Á **Línur** Hraðflipanum, í reitnum **Type**, velurðu hvers konar vöru, gjald eða færslu þú sendir inn til viðskiptavinarins á sölulínunni.
+    Ef settar eru upp ítrekaðar sölulínur fyrir viðskiptamanninn, t.d. mánaðarleg áfyllingarpöntun, er hægt að setja þessar línur inn í pöntunina með því að velja aðgerðina **Sækja ítrekaðar sölulínur** .
+5. Á flýtiflipanum **Línur** í reitnum **Tegund** er valið hvaða tegund vöru, gjalds eða færslu er bókuð á viðskiptamanninn í sölulínunni.
 
 6. Í reitnum **númer** sleginn inn fjöldi birgðavöru eða þjónustu.
 
@@ -59,7 +60,7 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
     Verð- og línuupphæðirnar eru sýndar með eða án VSK, en það fer eftir því hvað var valið í reitnum **verð með skatti** á viðskiptamannaspjaldinu.
 8. Í reitnum **Línuafsláttur %**, færið inn prósentutölu ef veita á viðskiptamanninum afslátt af vörunni. Gildið í reitnum **Línuupphæð** er uppfært til samræmis.
 
-    Ef þú setur upp sérstakt vöruverð á **Söluverð og sölulínuafslættir** Flýtiflipanum á viðskiptavina- eða vöruspjaldinu og þegar verðskilyrðin eru uppfyllt, verð og upphæð á sölulína er sjálfkrafa uppfærð. Frekari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
+    Ef sett er upp sérstakt vöruverð á flýtiflipanum **Söluverð og Sölulínuafsláttur** á viðskiptamanna- eða birgðaspjaldinu og við uppfyllingu verðskilyrða uppfærist verðið og upphæðin í sölulínunni sjálfkrafa. Frekari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
 9. Til að bæta við athugasemd um pöntunarlínu sem viðskiptamaðurinn getur séð á prentuðu sölupöntuninni skal skrifa athugasemd í auða línu í reitinn **Lýsing**.  
 10. Endurtaktu skref 5 til 9 fyrir hverja vöru sem þú vilt að viðskiptamaðurinn kaupi.
 
@@ -72,7 +73,7 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
 
 11. Í reitnum **Afsláttarupphæð reiknings** er hægt að færa inn upphæð sem draga á frá gildinu sem sýnt er í reitnum **Heildarupphæð með skatti**.
 
-    Ef þú setur upp reikningsafslátt fyrir viðskiptavininn, og eftir að skilyrðin eru uppfyllt, er tilgreint prósentugildi sjálfkrafa sett inn í reitinn **Reikningarafsláttur %** . Og tengd upphæð er sett inn í **Inv. Afsláttarupphæð Excl. Skatt** reitur. Frekari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
+    Ef settur er upp reikningsafsláttur fyrir viðskiptamanninn og við uppfyllingu skilyrðanna er tilteknu prósentugildi sett inn sjálfkrafa í reitinn **Reikningsafsl.%** . Og tengda upphæðin er sett í reitinn **Reikningsafsl.upphæð án VSK** . Frekari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
 12. Til að afhenda aðeins hluta pöntunarmagns skal færa inn magn í reitinn **Magn til afhendingar**. Gildið er sjálfkrafa afritað í reitinn **Magn til reikningsfærslu**.
 
     > [!NOTE]
@@ -84,11 +85,17 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
 
 **Bóka og Senda á staðfestingu** svarglugginn birtir þá aðferð sem viðskiptamaðurinn vill nota til að taka á móti fylgiskjölum. Hægt er að breyta sendingaraðferð með því að velja uppflettihnappinn fyrir reitinn **senda skjal** Frekari upplýsingar eru í [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).
 
-Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og sölupöntunin er frálag sem PDF fylgiskjal. Þegar sölupöntunin er að fullu bókuð er hún fjarlægð af sölupöntunarlistanum og skipt út fyrir ný skjöl á sölureikningum og söluafhendingarlista.  
+Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og sölupöntunin er frálag sem PDF fylgiskjal. Þegar sölupöntunin hefur verið bókuð að fullu er hún fjarlægð af lista sölupöntunar og sett í stað nýrra skjala á lista sölureikninga og söluafhendinga.  
 
 ## Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Unnið með upphæðarreiti
+
+Gildin í reitum sem sýna upphæðir geta verið jákvæð eða neikvæð eftir því hvort gildið táknar kreditfærslu eða debet. Þetta myndband sýnir hvernig á að vinna með reiti sem sýna upphæðir.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## Sjá einnig .
 

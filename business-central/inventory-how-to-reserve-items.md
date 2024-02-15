@@ -1,6 +1,6 @@
 ---
 title: Hvernig á að Taka frá vörur
-description: 'Upplýsingar um uppskiptaðar vörur fyrir sölupantanir, innkaupapantanir og framleiðslupantanir.'
+description: 'Fræðast um frátekningu vara fyrir sölupantanir, innkaupapantanir og framleiðslupantanir.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
@@ -11,18 +11,18 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="reserve-items"></a>Taka frá vörur
+# Taka frá vörur
 
 Hægt er að taka vörur frá fyrir sölu-, innkaupa-, þjónustu, samsetningarpantanir, flutningspantanir og framleiðslupantanir. Einnig er hægt að taka frá vörur í birgðum eða á innleið í opnum skjalalínum eða færslubókarlínum. Þetta er gert á síðunni **Frátekning**.
 
 Hver lína sem er opnuð til að taka frá vörur á síðunni **Frátekning** sýnir upplýsingar um eina tegund línu (í sölu, innkaupum eða færslubók) eða birgðafærslu. Línurnar lýsa því hver margar vörur er hægt að taka frá fyrir hverja tegund línu eða færslu.
 
 > [!TIP]
-> Á grundvelli þess magns sem frátekið er í birgðum,  [!INCLUDE [prod_short](includes/prod_short.md)]  birtir stöðu á skjölunum þannig að þú sért fljótari að átta þig á næsta skrefi. Til dæmis til að gefa til kynna að hægt sé að senda sölupöntun eða hefja vinnslu á vinnslu, samsetningu eða framleiðslupöntun. Staðan hjálpar einnig til við að draga úr hættu á Afhlöðum hlutasendingum eða biðstöðu vegna þess að birgðir vantar til framleiðslu-og samsetningarpantana.
+> Það fer eftir magninu sem hefur verið frátekið í birgðum og [!INCLUDE [prod_short](includes/prod_short.md)]  birtir stöðu á skjölunum þannig að fljótlegt er að átta sig á næsta skrefi. Til dæmis er hægt að senda sölupöntun eða byrja að vinna við verk, samsetningu eða framleiðslupöntun. Staðan hjálpar einnig til við að draga úr hættu á hlutaafhendingum eða birgðahaldi vegna birgðahalds í framleiðslu- og samsetningarpöntunum sem vantar.
 >
->  **Reiturinn frátekið frá lager**  getur hjálpað til við að skilja hvort hægt sé að senda eða taka til tiltekna pöntunar-eða pöntunarlínu. Fyrir línur er reiturinn frátekið frá lager tiltækur á upplýsingakassa. Til að nálgast upplýsingarnar fyrir alla pöntunina er reiturinn á  **tölfræðisíðunni** .
+> Reiturinn **Frátekið úr birgðaskrá** hjálpar til við að átta sig á því hvort hægt er að afhenda eða tína fyrir tiltekna pöntun eða pöntunarlínu. Í línum er reiturinn Frátekið frá birgðaskrá tiltækur í upplýsingakössum. Til að fá aðgang að upplýsingunum fyrir alla pöntunina er reiturinn á **upplýsingasíðunni**.
 
-## <a name="reserve-items-for-sales"></a>Taka frá vörur fyrir sölu
+## Taka frá vörur fyrir sölu
 
 Eftirfarandi ferli lýsir því hvernig skal taka frá vörur í sölupöntun. Skrefin eru svipuð fyrir innkaupa-, þjónustu- og flutnings- og samsetningarpöntun.
   
@@ -41,7 +41,7 @@ Eftirfarandi ferli lýsir því hvernig skal taka frá vörur í sölupöntun. S
 > [!NOTE]  
 > Ef vörurakningarlínur eru til vegna sölupöntunarinnar leiðir frátekningarkerfið notandann í gegnum nokkrar séraðgerðir. Frekari upplýsingar er að finna í hlutanum [Að taka frá tiltekið rað- eða lotunúmer](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number).  
 
-## <a name="reserve-an-item-for-a-production-order-line"></a>Taka frá vörur fyrir framleiðslupöntunarlínur
+## Taka frá vörur fyrir framleiðslupöntunarlínur
 
 Hægt er að taka vörur frá fyrir framleiðslupantanir. Greina þarf á milli framleiðslupöntunarlína, það er yfirvaran, og framleiðslupöntunaríhluta.
 
@@ -55,7 +55,7 @@ Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er notuð.
 
 Magnið sem fært var inn í fastáætluðu framleiðslupöntunarlínuna hefur verið frátekið.
 
-## <a name="reserve-items-for-production-order-components"></a>Taka frá vörur fyrir íhluti framleiðslupöntunar
+## Taka frá vörur fyrir íhluti framleiðslupöntunar
 
 Hægt er að taka vörur frá fyrir framleiðslupantanir. Greina þarf á milli framleiðslupöntunarlína, það er yfirvaran, og framleiðslupöntunaríhluta.
 
@@ -71,55 +71,48 @@ Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er notuð.
 
 Magnið sem fært var inn í fastáætluðu framleiðsluíhlutalínuna hefur verið frátekið.
 
-## <a name="reserve-items-in-bulk"></a>Taka frá vörur í magni
+## Taka vörur frá í lausu
 
- **Notaðu síðuna frátekningarvinnublað**  til að taka frá og úthluta innsendum vörum í fjölda. Til dæmis geta fjöldafrátekningar hjálpað til við að tryggja að magn sé tiltækt fyrir sölu og framleiðslupantanir. Hægt er að hafa margar keyrslur fyrir mismunandi málefni. Til dæmis gæti verið hægt að úthluta framleiðslupöntunum vikulega en taka frá daglega fyrir sölu.
+Nota síðuna **Frátekningarvinnublað** til að taka frá og úthluta innsendum vörum í lausu. Til dæmis getur magnfrátekningar hjálpað til við að tryggja að magn sé tiltækt fyrir sölu- og framleiðslupantanir. Hægt er að hafa margar keyrslur í mismunandi tilgangi. Til dæmis er hægt að úthluta framleiðslupöntunum vikulega en taka daglega frá fyrir sölu.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **Bókunarblað** og velja síðan tengda tengilinn.  
-2.  **Velja aðgerðina Sækja eftirspurn**  og tilgreina síðan þá tegund kröfu sem taka á frá tiltækar birgðir.
-3.  **Í reitnum Frátekið frá lager**  er valinn einn af eftirtöldum valkostum:
-    
-   |Svæði  |Heimildasamstæða  |
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Frátekningarvinnublað** og velja síðan viðeigandi tengil.  
+2. Veljið aðgerðina **Sækja eftirspurn** og tilgreinið síðan þá tegund eftirspurnar sem taka á frá úr tiltækum birgðum.
+3. Afmarkanirnar eru fylltar út eftir þörfum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+4. Valfrjálst: Ef úthluta á vörunum strax skal velja aðgerðina **Úthluta** .
+5. Á síðunni **Úthlutunarstefna** skal velja stefnu fyrir hvert skref
+
+   |Úthlutunarregla  |Heimildasamstæða  |
    |---------|---------|
-   |Autt     | Útistandandi magn er ekki frátekið yfirleitt eða er tekið frá öðrum upprunaskjölum, svo sem innkaupapöntunum.        |
-   |Fullt    |  Útistandandi magn er alveg frátekið af tiltækum birgðum.       |
-   |Að hluta     | Útistandandi magn er frátekið að hluta úr tiltækum birgðum.        |
+   |Grunnatriði     | Úthlutar eftirspurn í birgðum ef engir árekstrar verða og hægt er að ná yfir eftirspurnina að fullu. Til dæmis er sölupöntun A með magnið 10 og verk með magnið 7. Ef um er að ræða 20 í birgðum fær bæði eftirspurn fullt magn. Ef birgðir eru 12 er birgðunum ekki úthlutað. Magninu verður að vera úthlutað handvirkt.        |
+   |Jafnt    | Dreifir tiltækum birgðum til eftirspurnar jafnt. Sölupöntun er til dæmis með magnið 10 og verk með magnið 7. Ef birgðastigið er 20 fær báðar eftirspurnirnar fullt magn. Ef birgðir þínar eru 12 þá fá báðir kröfur 6.        |
+   |Eftir forgangsröðun viðskiptamanna|Skipting eftir reitnum Forgangur á viðskiptamannaspjaldinu. Ef magn er ekki nægilegt forgangsraðar kerfið því að veita viðskiptamönnum mesta forgangsröðun.|
 
-4. Fyllið inn reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-5. Valfrjálst: til að úthluta vörunum strax skal velja  **aðgerðina úthluta** .
-6.  **Á síðu úthlutunarreglna**  skal velja stefnu fyrir hvert þrep
-
-   |Úthlutunarreglu  |Heimildasamstæða  |
-   |---------|---------|
-   |Grunnatriði     | Úthlutar hlutabréfum til kröfuhafa ef ekki eru árekstrar og hægt er að falla frá kröfunni að fullu. Til dæmis er sölupöntun A með magninu 10 og vinnsla með magnið 7. Ef 20 eru á lager fá báðir kröfuhafar fullt magn. Ef hlutabréfin þín eru 12 er engum hlutabréfum úthlutað. Hægt verður að úthluta magninu handvirkt.        |
-   |Jafnt    | Dreifir laus hlutabréf til kröfuhafa jafnt. Til dæmis er sölupöntun með magninu 10, og vinnsla með magnið 7. Ef Hlutabréfaeign þín er 20, þá fær báðar kröfuhafar fullt magn. Ef hlutabréfin þín eru 12, þá munu báðir kröfuhafar fá 6.        |
-
-7. Ef taka á frá allar línur þar sem  **·**  kveikt er á er aðgerðin taka frátekningu  **valin** .
+6. Til að taka frá allar línur þar sem **kveikt er á Samþykkja** skal velja aðgerðina **Gera frátekningu** .
     
-## <a name="change-a-reservation"></a>Breyta frátekningu
+## Breyta frátekningu
 
-Hægt er að breyta frátekningu atriðis.
+Hægt er að breyta frátekningu á vöru.
 
 1. Í skjalalínunni þar sem frátekningin var gerð, í flýtiflipanum **Línur**, skal velja aðgerðina **Taka frá**.  
 2. Á síðunni **Frátekning** skal velja aðgerðina **Frátekningarfærslur**.
 3. Á **Frátekningarfærslur**, uppfærðu reitinn **Magn** í línunni sem á að breyta.
 4. Staðfesta eftirfarandi skilaboð með því að velja hnappinn **Í lagi**.
 
-## <a name="cancel-a-reservation"></a>Hætta við frátekningu
+## Hætta við frátekningu
 
-Hægt er að hætta við frátekningu vöru.
+Hægt er að hætta við frátekningu á vöru.
 
 1. Úr fylgiskjalslínunni þar sem á að hætta við frátekningu, á flýtiflipanum **Línur** skal velja aðgerðina **Taka frá**.  
 2. Á síðunni **Frátekning** skal velja aðgerðina **Frátekningarfærslur**.  
 3. Á síðunni **Frátekningarfærslur** er valin aðgerðin **Hætta við frátekningu**.  
 4. Staðfestu eftirfarandi skilaboð með því að velja hnappinn **Já**.  
 
-## <a name="reserve-a-specific-serial-or-lot-number"></a>Taka frá tiltekið rað- eða lotunúmer
+## Taka frá tiltekið rað- eða lotunúmer
 
-Hægt að taka frá tiltekin raðnúmer eða lotunúmer í útleiðarskjölum fyrir vörur með línurakningu, svo sem sölupantanir eða framleiðsluíhlutalista. Til dæmis getur verið gagnlegt að taka sérstakar Raðtölur eða lotunúmer upp við eftirfarandi aðstæður:
+Hægt að taka frá tiltekin raðnúmer eða lotunúmer í útleiðarskjölum fyrir vörur með línurakningu, svo sem sölupantanir eða framleiðsluíhlutalista. Til dæmis getur verið gagnlegt að taka frá tiltekin rað- eða lotunúmer við eftirfarandi aðstæður:
 
-* Ef þörf er á framleiðsluíhlutum úr tiltekinni lotu til að tryggja samræmi við fyrri framleiðslunur.
-* Þar sem viðskiptavinur hefur óskað eftir ákveðnu raðnúmeri. 
+* Ef þörf er á framleiðsluíhlutum úr tiltekinni lotu til að tryggja samræmi við eldri framleiðslukeyrslur.
+* Þar sem viðskiptamaður hefur beðið um tiltekið raðnúmer. 
 
 Frekari upplýsingar eru í [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
 
@@ -136,7 +129,7 @@ Eftirfarandi ferli byggist á sölupöntun.
 7. Veldu hnappinn **Í lagi** til að opna síðuna **Frátekning** sem sýnir aðeins framboð með tiltekna vörurakningarnúmerinu. Ef ósértækar frátekningar eru í vörurakningarnúmeri sem tilgreint hefur verið fyrir þessa línu er tilkynnt um hve mikið magn hefur þegar verið frátekið.  
 8. Veldu annaðhvort aðgerðina **Sjálfvirk frátekning** eða **Taka frá í gildandi línu** til að búa til frátekningu á tilgreindum vörurakningarnúmerum.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)  

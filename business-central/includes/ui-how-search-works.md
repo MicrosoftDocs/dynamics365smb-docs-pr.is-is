@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Þegar þú hefur  [!INCLUDE [prod_short](prod_short.md)]  slegið inn lykilorðið þitt byrjar leitin í bakgrunni og fer í gegnum hvert borð eitt í einu. Leitarniðurstöður fara að birtast eftir að það lýkur við töflu. Ef þú slærð inn fleiri en eitt leitarorð munu niðurstöðurnar aðeins innihalda færslur sem eru með öll orðin í einhverjum af völdu reitunum.

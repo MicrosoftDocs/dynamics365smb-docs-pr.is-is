@@ -4,9 +4,7 @@ description: Kynntu þér hvernig Essential Business Insights viðbótin flakkar
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'BI, add-in, insight, headline, data'
 ms.search.form: '1439,'
 ms.date: 12/12/2023
@@ -14,7 +12,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-essential-business-insights-extension"></a>Viðbótin Essential Business Insights
+# Viðbótin Essential Business Insights
 
 Viðbótin Essential viðskiptainnsýn finnur áhugaverðar staðreyndir um viðskipti fyrirtækis þíns og birtir þær svipað eins og fyrirsagnir í dagblöðum í Mínu hlutverki. Það fer eftir því hvað viðbótin finnur í gögnum, innsýnin er frá síðustu viku, mánuði eða þremur mánuðum frá deginum í dag. Innsýnin uppfærist á 10 mínútna fresti.  
 
@@ -33,7 +31,7 @@ Eftirfarandi tafla lýsir innsýninni sem viðbótin útvegar fyrir Mitt hlutver
 |Verkefnastjóri| Sýnir kveðju og tengil á afurðarupplýsingar.|
 |Stjórnandi| Sýnir kveðju og tengil á afurðarupplýsingar.|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)
 
