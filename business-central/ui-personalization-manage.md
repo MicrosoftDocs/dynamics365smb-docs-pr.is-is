@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Sérsníða síður fyrir forstillingar
+# <a name="customize-pages-for-profiles"></a>Sérsníða síður fyrir forstillingar
 
 
 Business Central býður upp á bæði [sérstillingu](ui-personalization-user.md) fyrir notendur og sérstillingu fyrir stjórnendur. Sérstilling gerir notendum kleift að sníða vinnusvæðið sitt með því að stilla síðuuppsetningar eftir eigin óskum. Kerfisstjórar geta sérsniðið síðuuppsetningar fyrir tiltekna forstillingu, byggt á viðskiptahlutverkum eða deildum, þannig að allir notendur sjái sömu sérsniðnu síðuna. Þegar sérstilling gerir notendum kleift að birta, fela og færa reiti og aðgerðir á síðu býður sérstillingin upp á aukagetu. Til dæmis gerir sérstillingin kleift að birta reiti í upprunatöflu eða viðaukatöflum síðunnar en eru ekki skilgreindir á síðuhlutnum&mdash; sem þetta er ekki mögulegt.  <!--For more information, see [Personalize Your Workspace](ui-personalization-user.md).-->
@@ -23,13 +23,13 @@ Business Central býður upp á bæði [sérstillingu](ui-personalization-user.m
 
 Sérstilling á síðu hefst á síðunni **Forstillingar (hlutverk)**, upphafspunkt stjórnanda til að stjórna notendaforstillingum á einstökum forstillingarspjöldum. Auk þess að sérsníða síðuútlitið er hægt að breyta ýmsum öðrum stillingum fyrir forstillingar á síðunni **Sérstilling (hlutverk)** fyrir hverja forstillingu. Frekari upplýsingar eru í [Unnið með forstillingar](admin-users-profiles-roles.md).
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 - Business Central reikningurinn þinn verður að hafa **D365 ForstillingarMgt.** heimildasafn eða sambærilegar heimildir. 
 
    Reiturinn **D365 Forstillingarreikningur** heimildasafnið inniheldur keyrsluheimild kerfishlutar **9026 Bæta reit við töflu**. Ef þú hefur ekki þessa heimild hefur þú ekki heimild til að bæta reitum við síðuna nema þeir séu skilgreindir á síðuhlutnum. 
 
-## Sérstilla síður fyrir forstillingu
+## <a name="customize-pages-for-a-profile"></a>Sérstilla síður fyrir forstillingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Forstillingar (hlutverk)** og velja svo viðeigandi tengil.
 2. Velja skal línuna fyrir forstillinguna sem á að sérsníða síður fyrir og síðan velja aðgerðina **Breyta**.
@@ -47,7 +47,7 @@ Sérstilling á síðu hefst á síðunni **Forstillingar (hlutverk)**, upphafsp
 
 Sérstillingar fyrir síður er nú skráðar fyrir forstillinguna.
 
-## Skoða allar sérsniðnar síður fyrir forstillingu
+## <a name="view-all-customized-pages-for-a-profile"></a>Skoða allar sérsniðnar síður fyrir forstillingu
 
 Hægt er að fá yfirlit yfir hvaða síður eru sérstilltar fyrir forstillingu, til dæmis til að áætla hvaða síður á að sérstilla frekar eða eyða.
 
@@ -55,7 +55,7 @@ Hægt er að fá yfirlit yfir hvaða síður eru sérstilltar fyrir forstillingu
 
 Á síðunni **Sérstilltar síður** er hægt að eyða sérstillingum og hægt er að úrræðaleita með því að skanna eftir mögulegum vandamálum.  
 
-## Eyða öllum sérstillingum fyrir forstillingu
+## <a name="delete-all-customizations-for-a-profile"></a>Eyða öllum sérstillingum fyrir forstillingu
 
 Hægt er að hætta við sérstillingar sem þú hefur gert fyrir forstillingu. Sérstillingum sem birtar eru með viðbótum og sérstillingum sem notandi býr til er ekki eytt. Hægt er að eyða öllum sérstillingum með annarri aðgerð. Frekari upplýsingar er að finna á [Eyða öllum sérstillingum sem notandi hefur gert](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -63,7 +63,7 @@ Hægt er að hætta við sérstillingar sem þú hefur gert fyrir forstillingu. 
 
 Útlitið á síðum fyrir forstillinguna er endurstillt á sjálfgefið útlit.  
 
-## Eyða sérstillingu fyrir tilteknar síður fyrir forstillingu
+## <a name="delete-customization-for-specific-pages-for-a-profile"></a>Eyða sérstillingu fyrir tilteknar síður fyrir forstillingu
 
 Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyrir forstillingu. Sérstillingum sem birtar eru með viðbótum og sérstillingum sem notandi býr til er ekki eytt. Hægt er að eyða tilteknum sérstillingum síðu með annarri aðgerð. Frekari upplýsingar er að finna á [Eyða sérstillingum fyrir tilteknar síður](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -72,7 +72,7 @@ Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyri
 
 Útlitinu á völdum síðum er breytt í breytingar sem gerðar voru.
 
-## Bæta við reit
+## <a name="add-a-field"></a>Bæta við reit
 
 Reitum er bætt við síðuna úr reitnum **Bæta við síðusvæðið** sem er opnað með því að velja aðgerðina **+ Reitur** þegar hún er í sérsniðsstillingunni. Mikilvægt er að skilja að reiturinn **Bæta við síðusvæðið**  er notaður til að sýna reiti sem eru fyrir hendi&mdash; annaðhvort á síðunni og upprunatöflur hennar,&mdash; en eru falin úr yfirliti eins og er. Ekki er hægt að búa til nýja reiti.
 
@@ -93,7 +93,7 @@ Nota skal afmörkunarhnappinn fyrir ofan listann til að breyta tegund reita sem
 
 :::image type="content" source="media/customization-filter.svg" alt-text="Sýnir afmörkunarhnappinn á svæðinu Bæta við reit í sérsniðsstillingunni.":::
  
-### Bæta við töflureit sem er ekki á síðuhlutnum
+### <a name="add-table-field-thats-not-on-the-page-object"></a>Bæta við töflureit sem er ekki á síðuhlutnum
 
 Ef gera á aðeins töflureit tiltækan á síðu við notendur verður fyrst að bæta honum við síðuna. Þegar reitnum hefur verið bætt við geta notendur valið að sýna eða fela reitinn með sérstillingu. Það eru nokkrar leiðir til að bæta við reit.
 
@@ -105,7 +105,7 @@ Ef gera á aðeins töflureit tiltækan á síðu við notendur verður fyrst a�
 > [!NOTE]
 > Viðbótarreiturinn er læstur í breytingum og ekki er hægt að aflæsa honum.
 
-## Fjarlægja reit
+## <a name="remove-a-field"></a>Fjarlægja reit
 
 Ef töflureit sem upphaflega var ekki á síðuhlutnum hefur verið bætt við er hægt að fjarlægja hann aftur. Ef reitur er fjarlægður er annað en að fela hann. Þegar reitur er felinn geta notendur samt sýnt hann á vinnusvæði sínu með sérstillingu. Ef reitur er fjarlægður er reiturinn ekki lengur tiltækur fyrir notendur til að sýna eða fela það. Ef reiturinn er birtur á vinnusvæði notanda hverfur hann af vinnusvæði þeirra þegar hann er fjarlægður. 
 
@@ -114,7 +114,7 @@ Til að fjarlægja reit er örvahausinn valinn á reitnum á síðunni og síða
 > [!IMPORTANT]
 > Ef reitur er fjarlægður eyðir það ekki gögnum sem geymd eru í reitnum eða upprunatöflum þess. Það fjarlægir reitinn bara úr yfirliti. 
 
-## Læsa og aflæsa breytingum
+## <a name="lock-and-unlock-editing"></a>Læsa og aflæsa breytingum
 
 Sérstilling gerir það mögulegt að læsa (leyfa breytingar) eða aflæsa breytingum (koma í veg fyrir breytingar) flestra reita á síðu. Til að læsa eða aflæsa breytingum skal velja reitinn á síðunni, velja örvarhnappinn og velja **svo Læsa breytingu** eða **Aflæsa breytingum**. Mikilvægt er að hafa í huga nokkrar reglur um læsingu og aflæsingarreiti:
 
@@ -124,13 +124,13 @@ Sérstilling gerir það mögulegt að læsa (leyfa breytingar) eða aflæsa bre
 
 
 <!--However, whatever option you choose for a field, users can always change the setting on their own workspace using personalization. For this reason, it's important to consider locking as a deterrence measure and not a preventative measure.--> 
-## Mikilvægar upplýsingar og ábendingar 
+## <a name="important-information-and-tips"></a>Mikilvægar upplýsingar og ábendingar
 
 - Ekki er víst að allir töflureitir séu tiltækir til sérstillinga frá reitnum **Bæta við síðusvæði** . Forritari töflu getur valið að koma í veg fyrir að reitur birtist í sérstillingu með því að [stilla eiginleika](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) AllowInCustomization í reitnum `false`.
 - Ekki er hægt að sérstilla síðu sem er í [greiningarstillingu](analysis-mode.md). Rofi **greiningar** er óvirkur. Ef skipt er í sérsniðsham á meðan síðan er í greiningarstillingu er slökkt á greiningarstillingu sjálfkrafa. 
 - Sumar síður hafa marga síðureiti sem varpa á sömu upprunatöflu. Reiturinn **Bæta við síðusvæðið** sýnir alla þessa síðureiti sérstaklega. Hægt er að sýna, fela eða færa þessa reiti hvoru í sínu lagi án þess að hafa áhrif á hina.
 - Ef hluti eða hópur er falinn er samt hægt að auðkenna falda reiti innan hluta eða hóps en ekki er hægt að bæta við, færa eða birta reiti í hlutanum eða hópnum fyrr en þeir sjást. 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilling verksvæðis](ui-personalization-user.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  
