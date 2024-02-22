@@ -1560,6 +1560,7 @@ ms.service: dynamics-365-business-central
 #### [Setja upp flutningsaðila](sales-how-to-set-up-shipping-agents.md)
 #### [Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)
 #### [Uppfæra fylgiskjalsdagsetningar með bókunardagsetningum](across-link-doc-dates-to-posting-dates.md)
+#### [Birta birgðaviðvörun](sales-setup-show-stockout-warning.md)
 ### Setja upp innkaup
 #### [Setja upp innkaup](purchasing-setup-purchasing.md)
 #### [Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)
