@@ -10,7 +10,7 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Röðun, leit og síun
+# <a name="sorting-searching-and-filtering"></a>Röðun, leit og síun
 
 Það eru nokkrir hlutir sem munu hjálpa þér að skanna, finna og takmarka skrár í lista, skýrslu eða XMLport. Þar á meðal er röðun, leit og afmörkun. Þú getur notað suma eða alla þessa hluti samtímis til að finna eða greina gögnin þín fljótt.
 
@@ -25,7 +25,7 @@ Fyrir skýrslur og XMLport, líkt og í listum, er hægt að stilla síur til a�
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
-## Röðun
+## <a name="sorting"></a>Röðun
 
 Með Röðun er auðvelt og fljótlegt að fá yfirsýn yfir gögnin. Ef þú ert til dæmis með marga viðskiptamenn, gætirðu raðað þeim eftir **Viðskiptamannanr.**, **Gjaldmiðilskóða** eða **Svæðiskóða lands** til að fá yfirlitið sem þú þarft.
 
@@ -37,7 +37,7 @@ Til að raða lista geturðu annaðhvort:
 > [!NOTE]  
 > Myndir, BLOB-reitir, FlowFilters og reitir sem tilheyra ekki töflu styðja ekki röðun.  
 
-## Leit
+## <a name="searching"></a>Leit
 
 <!--## Searching by using the Quick Filter -->
 Efst á öllum listasíðum er ![Leita í lista.](media/ui-search/search-list.png "Tákn fyrir leitarlista") Aðgerðin **Leita** sem býður upp á fljótlega og auðvelda leið til að draga úr magni gagna í lista og sýna einungis þær skrár sem innihalda gögnin sem þú vilt sjá.
@@ -53,7 +53,7 @@ Almennt mun leit reyna að finna samsvarandi texta í öllum reitum. Leitin mun 
 > Leit mun ekki passa við gildi í myndum, BLOB-reitum, Flow-síum, FlowFields-reitum og öðrum reitum sem eru ekki hluti af töflu.
 
 
-### Fínstilla leitina með síuskilyrði
+### <a name="fine-tuning-the-search-with-filter-criteria"></a>Fínstilla leitina með síuskilyrði
 
 Hægt er að gera nákvæmari leit með því að nota virknitákn síu, segðir og síumerki. Ólíkt síun er þetta notað yfir alla reiti þegar það er notað í leitarglugganum, sem gerir þá ekki eins skilvirka og síun.
 
@@ -76,7 +76,7 @@ Eftirfarandi tafla sýnir nokkur dæmi til að útskýra hvernig hægt er að no
 |`@*man`|Allar skrár sem endar með **man**, óháð því hvort notaðir eru há- eða lágstafir. Til dæmis **Sportsman**, en ekki **Manchester** eða **manual**.|
 
 
-## <a name="filtering"></a>Afmörkun
+## <a name="filtering"></a><a name="filtering"></a>Afmörkun
 
 Síun veitir háþróaðri og fjölhæfari leið til að stjórna því hvaða færslur birtast á lista, skýrslu eða XMLport. Það eru tvær helstu munur á leit og síun, eins og lýst er í töflunni hér að neðan.
 
@@ -89,7 +89,7 @@ Síun gerir þér kleift að birta skrár fyrir tiltekna reikninga eða viðskip
 
 Fyrir lista eru síurnar sýndar á afmörkunarsvæði sem birtist til vinstri á listanum þegar það er virkjað. Fyrir skýrslur, runuvinnslur og XMLport eru síurnar sýnilegar beint á beiðnisíðunni.
 
-### Sía með valsvæðum
+### <a name="filtering-with-option-fields"></a>Sía með valsvæðum
 
 Fyrir „venjulega“ reiti sem innihalda gögn, uppsetningardagsetningu eða viðskiptagögn er hægt að stilla síur bæði með því að velja gögn og með því að slá inn síugildi og hægt er að nota tákn til að skilgreina ítarleg síuskilyrði. Nánari upplýsingar eru í [Færa inn síuskilyrði](ui-enter-criteria-filters.md#entering-filter-criteria).
 
@@ -98,7 +98,7 @@ Fyrir reiti af gerðinni **Valkostir** er hins vegar aðeins hægt að stilla s�
 > [!NOTE]
 > Þegar margir valkostir eru valdir sem síugildi er venslin á milli valkostanna skilgreind sem *EÐA*. Til dæmis, ef þú velur báða gátreitina **Opið** og **Losað** á afmörkunarsvæðinu **Staða** á síðunni **Sölupantanir**, þýðir það að sölupantanir sem eru annaðhvort opnar eða losaðar eru birtar.
 
-### Afmarkanir stilltar á lista
+### <a name="setting-filters-on-lists"></a>Afmarkanir stilltar á lista
 
 Á listum eru síur stilltar með því að nota afmörkunarsvæði. Til að birta afmörkunarsvæðið fyrir lista skal velja felliörina við hliðina á heiti síðunnar og velja síðan **Sýna afmörkunarsvæði**. Einnig er hægt að velja <kbd>Vakt</kbd>+<kbd>F3</kbd>.
 
@@ -125,7 +125,7 @@ Síusvæðið sýnir núverandi síur fyrir lista og gerir þér kleift að stil
 
 Hægt er að stilla einfalda síu beint á lista innan með síusvæðinu, þ.e. síu sem sýnir aðeins færslur með sama gildi og í völdum reitum. Velja skal hólf á listanum, velja felliörina og velja síðan aðgerðina **Afmarka í þetta gildi**. Einnig er hægt að velja <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
-### Afmarkanir stilltar í skýrslum, runuvinnslum og XMLports
+### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Afmarkanir stilltar í skýrslum, runuvinnslum og XMLports
 
 Fyrir skýrslur og XMLports eru síurnar sýnilegar beint á beiðnisíðunni. Beiðnisíðan sýnir síðustu notuðu síur samkvæmt valinu í reitnum **Nota sjálfgildi úr**. Frekari upplýsingar eru í [Nota vistaðar stillingar](ui-work-report.md#SavedSettings).
 
@@ -133,7 +133,7 @@ Helsti **Sía**-hlutinn sýnir sjálfgefna síureiti sem notaðir eru til að af
 
 Í hlutanum **Afmarka samtölur eftir** er hægt að breyta ýmsum víddunum sem hafa áhrif á útreikninga í skýrslu eða XMLport. Til að bæta við síu skal velja aðgerðina **+ Sía**. Svo skal færa inn heiti reitsins sem á að sía eftir eða velja reit af fellilistanum.
 
-## Færa inn síuskilyrði
+## <a name="entering-filter-criteria"></a>Færa inn síuskilyrði
 
 Bæði í síuglugganum og á beiðnisíðu er hægt að færa inn síuskilyrðin í reitinn undir síureitnum.
 
@@ -144,7 +144,7 @@ Dálkar sem þegar eru með síur eru auðkenndir með ![Síutákninu.](media/ui
 > [!TIP]
 > Finna og greina gögnin þín fljótar með því að nota samsetningar flýtilykla. Til dæmis skal velja reit, nota <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> til að bæta þeim reit við afmörkunarsvæðið, slá inn afmörkunarskilyrðin, nota <kbd>Ctrl</kbd>+<kbd>Enter</kbd> til að fara aftur í línurnar, velja annan reit og nota <kbd>Alt</kbd>+<kbd>F3</kbd> til að afmarka við það gildi. Frekari upplýsingar, sjá [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Síuskilyrði og virkni
+### <a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Síuskilyrði og virkni
 
 Þegar skilyrði eru sett er hægt að nota alla sömu tölustafi og bókstafi sem venjulega eru notaðir í reitnum. En það eru líka til safn sértákna sem hægt er að nota sem virknitákn til að sía niðurstöður enn frekar. Eftirfarandi hlutar útskýra þessi tákn og hvernig á að nota þau sem virknitákn í síum.
 
@@ -156,7 +156,7 @@ Dálkar sem þegar eru með síur eru auðkenndir með ![Síutákninu.](media/ui
 >
 > - Ef fleiri en 200 virknitákn eru til staðar í einni síu safnar kerfið sjálfkrafa saman sumum virknitáknum innan sviga `()` fyrir úrvinnsluna. Þetta hefur engin áhrif á síunina eða niðurstöðurnar.  
 
-#### (..) Bil
+#### <a name="-interval"></a>(..) Bil
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
@@ -175,62 +175,62 @@ Dálkar sem þegar eru með síur eru auðkenndir með ![Síutákninu.](media/ui
 > [!NOTE]  
 > Ef reiturinn sem er afmarkaður á er af tegundinni Texti þá er lexírógrafísk pöntun notuð til að ákvarða hvað er innifalið í tímabilinu. Fyrir slíka reiti sem eru notaðir til að geyma heiltölur getur það leitt til þess að afmörkun á 10000..10042 innihaldi einnig gildin 100000 og 1000042.
 
-#### (&#124;) Annaðhvort eða
+#### <a name="124-eitheror"></a>(&#124;) Annaðhvort eða
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Tölur með 1200 eða 1300|  
 
-#### (<>) Ekki jafnt og  
+#### <a name="-not-equal-to"></a>(<>) Ekki jafnt og
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
 |`<>0`|Allar tölur aðrar en 0<br /><br /> Valkosturinn SQL Server býður upp á að sameina þetta tákn algildistákni. Til dæmis merkir <> A* ekki jafnt og neinn texti sem byrjar á A.|  
 
-#### (>) Meira en  
+#### <a name="-greater-than"></a>(>) Meira en
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
 |`>1200`|Tölur hærri en 1200|  
 
-#### (>=) Hærra en eða jafnt og  
+#### <a name="-greater-than-or-equal-to"></a>(>=) Hærra en eða jafnt og
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
 |`>=1200`|Tölur hærri en eða jafnar 1200|  
 
-#### (<) Minna en  
+#### <a name="-less-than"></a>(<) Minna en
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
 |`<1200`|Tölur lægri en 1200|  
 
-#### (<=) Lægra en eða jafnt og  
+#### <a name="-less-than-or-equal-to"></a>(<=) Lægra en eða jafnt og
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
 |`<=1200`|Tölur lægri en eða jafnar 1200|  
 
-#### (&) Og  
+#### <a name="-and"></a>(&) Og
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Tölur hærri en 200 og minni en 1200|  
 
-#### ('') Nákvæm stafasamsvörun  
+#### <a name="-an-exact-character-match"></a>('') Nákvæm stafasamsvörun
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
 |`'man'`|Texta sem passar nákvæmlega við **man** og er stafréttur.|  
 |`''`|Auður textareitur.|  
 
-#### (@) Stafrétt  
+#### <a name="-case-insensitive"></a>(@) Stafrétt
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
 |`@man*`|Texti sem byrjar á **man** og er ekki stafréttur.|  
 
-#### (*) Ótilgreindur fjöldi óþekktra staftákna
+#### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Ótilgreindur fjöldi óþekktra staftákna
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
@@ -238,13 +238,13 @@ Dálkar sem þegar eru með síur eru auðkenndir með ![Síutákninu.](media/ui
 |`*Co`|Texta sem endar á **Co** og er stafréttur.|  
 |`Co*`|Texta sem byrjar á **Co** og er stafréttur.|  
 
-#### (?) eitt óþekkt stafatákn  
+#### <a name="-one-unknown-character"></a>(?) eitt óþekkt stafatákn
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Texti eins og **Hansen** eða **Hanson**|  
 
-#### Sameinað framsetningarsnið  
+#### <a name="combined-format-expressions"></a>Sameinað framsetningarsnið
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
@@ -252,7 +252,7 @@ Dálkar sem þegar eru með síur eru auðkenndir með ![Síutákninu.](media/ui
 |`..1299|1400..`|Telja með færslur með tölu sem er lægri eða jöfn 1299 eða tölu sem er jöfn 1400 eða hærri (allar tölur nema 1300 til 1399).|  
 |`>50&<100`|Telja með færslur með tölum sem eru hærri en 50 og lægri en 100 (tölurnar 51 til 99).|  
 
-### <a name="symbols"></a> Afmörkun á gildi sem innihalda tákn
+### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Afmörkun á gildi sem innihalda tákn
 
 Það gætu komið upp tilfelli þar sem reitargildi innihalda eitt af eftirfarandi táknum:
 
@@ -266,14 +266,14 @@ Ef sía á eitthvert þessara tákna skal setja það sem leita á að í einfal
 
 Þetta skilyrði er ekki nauðsynlegt fyrir önnur tákn.
 
-### <a name="FilterTokens"> </a>Síumerki
+### <a name="a-namefiltertokens-afilter-tokens"></a><a name="FilterTokens"> </a>Síumerki
 
 Þegar þú slærð inn síuviðmiðanir getur þú einnig skrifað orð sem hafa sérstaka þýðingu, sem kallast síumerki. Eftir að hafa slegið inn merkiorðið, er orðinu skipt út fyrir gildin sem það táknar. Síutákn gera síun auðveldari með því að draga úr þörfinni á að fara yfir á aðrar síðum til að fletta upp gildi sem þú vilt bæta við síuna. Taflan hér fyrir neðan lýsir sumum merkjunum sem þú getur slegið inn sem síuviðmiðanir.
 
 > [!TIP]
 > Stofnunin þín getur notað sérsniðna merki. Til að læra um öll merkin sem þú hefur aðgang að eða til að bæta við fleiri sérsniðnum merkjum, skaltu tala við stjórnandann þinn. Fyrir tæknilegar upplýsingar, sjá [Bæta við síumerkjum](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### (%me eða %u ser) Færslur sem úthlutað er á þig
+#### <a name="me-or-user-records-assigned-to-you"></a>(%me eða %u ser) Færslur sem úthlutað er á þig
 
 Nota `%me` eða `%user` þegar afmörkunarreitir sem innihalda notandakenni, t.d **. Úthlutað á notandakenni**, birta allar færslur sem notanda er úthlutað.
 
@@ -281,7 +281,7 @@ Nota `%me` eða `%user` þegar afmörkunarreitir sem innihalda notandakenni, t.d
 |-----------------------|-----------------------|  
 |`%me`<br />eða<br />`%user`|Skrár sem eru úthlutað á notandareikninginn þinn. |  
 
-#### (%mycustomers) Viðskiptamenn í Mínir viðskiptamenn
+#### <a name="mycustomers-customers-in-my-customers"></a>(%mycustomers) Viðskiptamenn í Mínir viðskiptamenn
 
 Notaðu `%mycustomers` í **Nr** reitnum viðskiptamanns til að birta allar skrár fyrir viðskiptamenn sem eru innifaldir í **Mínir viðskiptamenn** listanum á Mitt hlutverk.
 
@@ -289,7 +289,7 @@ Notaðu `%mycustomers` í **Nr** reitnum viðskiptamanns til að birta allar skr
 |-----------------------|-----------------------|  
 |`%mycustomers`|Viðskiptamenn í **Mínir viðskiptamenn** í Mitt hlutverk. |  
 
-#### (%mytems) Atriði í Mínum atriðum
+#### <a name="myitems-items-in-my-items"></a>(%mytems) Atriði í Mínum atriðum
 
 Notaðu `%myitems` Í atriði **Nr** reitinn til að birta allar skrár fyrir atriði sem eru innifalin í **Mín atriði** listanum í Mitt hlutverk.
 
@@ -297,7 +297,7 @@ Notaðu `%myitems` Í atriði **Nr** reitinn til að birta allar skrár fyrir at
 |-----------------------|-----------------------|  
 |`%myitems`|Atriði í **Mín atriði** í Mitt hlutverk. |  
 
-#### (%myvendors) Lánardrottnar í Mínir lánardrottnar
+#### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) Lánardrottnar í Mínir lánardrottnar
 
 Notaðu `%myvendors` í lánardrottinn **Nr** reitnum, til að birta allar skrá fyrir lánardrottna sem eru innifalin í **Mínir lánardrottnar** listanum í Mitt hlutverk.
 
@@ -305,7 +305,7 @@ Notaðu `%myvendors` í lánardrottinn **Nr** reitnum, til að birta allar skrá
 |-----------------------|-----------------------|  
 |`%myvendors`|Lánardrottnar í **Mínir lánardrottnar** í Mitt hlutverk. |  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)  
 [Vista og sérsníða listayfirlit](ui-views.md)  
