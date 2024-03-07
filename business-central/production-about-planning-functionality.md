@@ -10,7 +10,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="about-planning-functionality"></a>Um áætlunaraðgerðir
+# Um áætlunaraðgerðir
 
 Áætlunarkerfið tekur öll gögn um eftirspurn og framboð með í reikninginn, reiknar út niðurstöðurnar og kemur með tillögur að því að jafna framboðið og eftirspurnina.  
 
@@ -19,7 +19,7 @@ Nánari upplýsingar eru í [Upplýsingar um hönnun: áætlun birgða](design-d
 > [!NOTE]  
 > Fyrir öll þau svið sem minnst er á í þessu efnisatriði, lesa ábendingarnar til að skilja virkni þeirra. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="supply-and-demand"></a>Framboð og eftirspurn
+## Framboð og eftirspurn
 
 Áætlanagerð hefur tvo hluta: eftirspurn og framboð. Þessir verða að jafnvægi til að tryggja að eftirspurnin sé uppfyllt.  
 
@@ -28,7 +28,7 @@ Nánari upplýsingar eru í [Upplýsingar um hönnun: áætlun birgða](design-d
 
 Annað markmið áætlunarkerfisins er að tryggja það að birgðamagnið hækki ekki að óþörfu. Í tilfelli minnkandi eftirspurnar mun áætlunarkerfið leggja til að annað hvort verði þeim áfyllingarpöntunum sem eru fyrir hendi frestað, þær minnkaðar eða afpantaðar.  
 
-## <a name="planning-calculation"></a>Útreikningur áætlunar
+## Útreikningur áætlunar
 
 Áætlunarkerfið er knúið áfram af viðbúinni og raunverulegri eftirspurn viðskiptavina auk endurpöntunarfæribreytum birgða. Ef áætlunarútreikningurinn er keyrður mun það leiða til þess að forritið leggi til sérstakar aðgerðir ([Aðgerðarboð](production-how-to-run-mps-and-mrp.md#action-messages)) til að framkvæma varðandi mögulega áfyllingu frá lánardrottnum, millifærslur á milli vöruhúsa eða framleiðslu. Ef áfyllingarpantanir eru þegar til gætu tillögurnar verið þess efnis að auka við pantanirnar eða flýta þeim til að koma til móts við eftirspurnarbreytingarnar.  
 
@@ -37,7 +37,7 @@ Grundvöllur áætlunarrútínunnar er í útreikningunum frá hagnaði til taps
 > [!TIP]
 > Áætlunarkerfið fer eftir því hvernig fyrirtæki þitt notar staðsetningar. Frekari upplýsingar er að finna í [Áætlanagerð með eða án staðsetninga](production-planning-with-without-locations.md).
 
-## <a name="planning-with-manual-transfer-orders"></a>Áætlun með handvirkum millifærslupöntunum
+## Áætlun með handvirkum millifærslupöntunum
 
  **Í reitnum Áfyllingarkerfi**  á birgðaspjaldi er hægt að setja upp áætlanakerfið til að stofna flutningspantanir til að jafna framboð og eftirspurn eftir stöðum.  
 
@@ -45,7 +45,7 @@ Til viðbótar slíkum sjálfvirkum millifærslupöntunum getur stundum þurft a
 
 Hins vegar, ef áætlunarkerfið á að leiðrétta magn og dagsetningar í millifærslupöntunum samkvæmt eftirspurn þarf að stilla reitinn **Sveigjanleiki áætlunar** á sjálfgildið, Ótakmarkað.
 
-## <a name="planning-parameters"></a>Áætlunarfæribreytur
+## Áætlunarfæribreytur
 
 Áætlunarfæribreyturnar stýra því hvenær, hversu mikið og hvernig er fyllt á eftir mismunandi stillingunum á birgðaspjaldinu (eða birgðaeiningu - SKU) og framleiðsluuppsetningunni.  
 
@@ -86,23 +86,24 @@ Eftirfarandi pöntunarbreytur eru til á vöru eða birgðahaldseiningarspjaldi:
 
 Til að fræðast meira er farið í  [hönnunarupplýsingar: áætlunarfæribreytur](design-details-planning-parameters.md)  
 
-## <a name="other-important-planning-fields"></a>Öðrum mikilvægum áætlunarsvæðum
+## Öðrum mikilvægum áætlunarsvæðum
 
-### <a name="planning-flexibility"></a>Sveigjanleiki áætlunar
+### Sveigjanleiki áætlunar
 
 Á flestum birgðapöntunum, eins og t.d. framleiðslupöntunum, getur valið **Ótakmarkaður** eða **Enginn** í **Sveigjanleiki áætlunar** reitnum.
 
 Tilgreinir hvort birgðir sem framleiðslupöntunarlína sýnir eru teknar með í áætlunarkerfinu þegar aðgerðarboð eru reiknuð.
 Ef reiturinn inniheldur **Ótakmarkað** tekur áætlunarkerfið línuna með í reikninginn þegar aðgerðarboð eru reiknuð. Ef reiturinn inniheldur **Enginn** er línan föst og óbreytanleg og áætlunarkerfið tekur hana ekki með í reikninginn þegar aðgerðarboð eru reiknuð.
 
-### <a name="warning"></a>Viðvörun
+### Viðvörun
 
 Upplýsingareiturinn **Viðvörun** í **Áætlunarvinnublað** síðunni lætur þig vita um allar áætlunarlínur sem gerðar eru vegna óvenjulegra með texta, sem notandinn getur smellt á til að lesa viðbótarupplýsingar. Eftirfarandi tegundir viðvarana eru til:
 
 - Neyð
 - Frávik
 - Athugið
-- Neyð
+
+### Neyð
 
 Neyðarviðvörunarbjöllur Sýna við tvenns konar aðstæður:
 
@@ -113,7 +114,7 @@ Ef birgðir vöru eru neikvæðar á upphafsdegi áætlunarinnar stingur kerfið
 
 Allar skjalalínur með skiladagsetningar á undan upphafsdagsetningu áætlunarinnar eru settar í eina neyðarpöntun til að varan berist á áætlaðri upphafsdagsetningu.
 
-### <a name="exception"></a>Frávik
+### Frávik
 
 Viðvaranir í undantekningartilfellum Sýna Ef áætlaðar tiltækar birgðir falla undir öryggisbirgðamagn.
 
@@ -124,7 +125,7 @@ Brot á öryggisbirgðastigi telst til undantekninga þar sem það ætti ekki a
 > [!NOTE]
 > Framboði fyrir áætlunarlínur með viðvörunum um frávik er yfirleitt ekki breytt samkvæmt áætlunarfæribreytum. Þess í stað stingur áætlunarkerfið einungis upp á framboði til að anna nákvæmu eftirspurnarmagni. Hins vegar er hægt að stilla áætlunarkeyrsluna þannig að hún virði tilteknar áætlunarfæribreytur fyrir áætlunarlínur með viðvörunum. Frekari upplýsingar er að finna í lýsingunni fyrir reitinn **Virða áætlunarfæribreytur fyrir viðvaranir um frávik** í greininni [Keyra fulla áætlunargerð, MPS eða MRP](production-how-to-run-mps-and-mrp.md).
 
-### <a name="attention"></a>Athugið
+### Athugið
 
 Viðvörun vegna athyglisbrests birtist við tvenns konar aðstæður:
 
@@ -134,13 +135,13 @@ Viðvörun vegna athyglisbrests birtist við tvenns konar aðstæður:
 > [!NOTE]
 > Í áætlunarlínum með viðvaranir er reiturinn **Samþykkja aðgerðarboð** ekki valinn þar sem sá sem gerir áætlunina á að kanna þessar línur nánar áður en lokið er við áætlunina.
 
-## <a name="planning-worksheets-and-requisition-worksheets"></a>Áætlunarvinnublöð og vinnublöð innkaupatillagna
+## Áætlunarvinnublöð og vinnublöð innkaupatillagna
 
 Eins og lýst er í [Áætlanagerð](production-planning.md) er hægt að velja milli tveggja vinnublaða fyrir flesta verkþætti áætlanagerðar, áætlunarvinnublaðið og vinnublað innkaupatillögu. Flest ferlum er lýst samkvæmt áætlunarvinnublaði, en til eru nokkrar atburðarásir þar sem vinnublað innkaupatillögu er betra.
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
-### <a name="requisition-worksheet"></a>Innkaupatillögublað
+### Innkaupatillögublað
 
 Síðan **Innkaupatillögublað** sýnir vörur sem þú vilt panta. Hægt er að setja vörur inn í vinnublaðið á eftirfarandi hátt:
 
@@ -161,7 +162,7 @@ Upplýsingar um áætlanagerð með birgðageymslum og flutningum er að finna �
 > [!TIP]
 > Þegar unnið er á síðunum **Innkaupatillögublað** eða **Áætlunarvinnublað** geturðu skipulagt línurnar með því að raða eftir dálkheiti. Þetta er sérstaklega gagnlegt á síðunni Áætlunarvinnublað því að hægt er að nota hana fyrir marglaga framleiðslupantanir. Línum er sjálfgefið raðað eftir reitnum **Vörunúmer**. Til að flokka línur fyrir marglaga pöntun skal raða eftir **Tilv. pöntunarnr** . Einnig geta reitirnir **MPS-pöntun** og **Áætlunarstig** hjálpað til við að sýna stigveldi línanna.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)  
 [Áætlun](production-planning.md)  
