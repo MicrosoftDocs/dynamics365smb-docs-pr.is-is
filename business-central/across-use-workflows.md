@@ -2,15 +2,16 @@
 title: Nota Samþykktarverkflæði
 description: Hægt er að setja upp og nota verkflæði til að tengja verk viðskiptaferla eins og sjálfvirka bókun eða beiðni og veitingu samþykktar fyrir nýjar færslur.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1500, 1501, 1503, 1504, 1505'
-ms.date: 09/13/2022
-ms.author: bholtorf
+ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
+# Nota Samþykktarverkflæði
 
 Verkflæði er röð verka sem aðgerð, skilyrði eða regla setur af stað. Verkflæði eru yfirleitt innleidd til að samþætta viðskiptagrunn við fyrirtæki, t.d. aðskilnað aðgangsheimilda, sameiningu ferla eða til að nota bestu starfsvenjur.
 
@@ -19,7 +20,7 @@ Hægt er að hanna verkflæðin til að búa til beiðnir um samþykki á breyti
 Viðskiptagrunnurinn gæti verið samþykki á:
 
 - Ný aðalgögn eins og fjárhagsreikningar, viðskiptamenn, lánardrottnar eða vörur.
-- Breytingar á reitum í fyrirliggjandi færslum innihalda viðkvæmar upplýsingar á borð við **Bankareikningsnúmer lánardrottins** eða **Lánamark viðskiptavinar**
+- Breytingar á reitum í fyrirliggjandi færslum með viðkvæmum upplýsingum, t.d **. Bankareikningsnr. lánardr.** eða **Hámarksskuld viðskiptamanns**.
 - Breytingar á reitum í fyrirliggjandi færslum sem innihalda mikilvægar upplýsingar um viðskipti á borð við **Söluverð vöru**
 - Nýir notendur eða breytingar á notendaheimildum.
 - Innkaupaskjöl.
@@ -63,7 +64,7 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 | Skoðaðu tilvik verkflæðisskrefa með stöðuna **Lokið**. | [Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md) |
 | Eyddu samþykktarverkflæði sem verður ekki notað aftur. | [Eyða verkflæði samþykkta](across-how-to-delete-workflows.md) |
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp Verkflæði samþykktar](across-set-up-workflows.md)  
 [Verkflæði](across-workflow.md)  
