@@ -10,7 +10,7 @@ ms.date: 09/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Stofna greiningarskýrslur
+# <a name="create-analysis-reports"></a>Stofna greiningarskýrslur
 
 Sölustjórar þurfa að greina veltu, brúttóhagnað og aðrar lykilstærðir varðandi sölu með reglulegu millibili. Innkaupaaðilar hafa meiri áhuga á að greina innkaupamagn, fylgjast með frammistöðu birgja og innkaupaverði. Vöru- og birgðastjórar þurfa hins vegar upplýsingar um birgðaveltu, greiningu á hreyfingu birgða og upplýsingar um birgðavirði. Þannig að það er ekki til nein greiningarskýrsla sem hentar fyrir allt.
 
@@ -22,7 +22,7 @@ Greiningarskýrslan er mynduð úr hlutunum sem á að greina (til dæmis viðsk
 
 Í viðbót við greiningarskýrslur, er hægt að stofna og skoða svipaðar upplýsingar í greiningaryfirliti, sem byggir á víddum. Frekari upplýsingar eru á [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
 
-## Dæmi
+## <a name="example"></a>Dæmi
 
 Hægt er að setja upp þessar línur (hluti sem á að greina):  
 
@@ -36,7 +36,7 @@ Hægt er að setja upp þessar línur (hluti sem á að greina):
 - Sala síðasta mánaðar  
 - Sala síðasta mánaðar í prósentum  
 
-## Uppsetning á útliti lína og dálka
+## <a name="setting-up-line-and-column-layouts"></a>Uppsetning á útliti lína og dálka
 
 Á síðunni **Greiningarskýrsla** er hægt að skoða mismunandi línu- og dálkaútlit sem eru sett upp á:
 
@@ -56,7 +56,7 @@ Athuga skal að greiningarlínur og greiningardálkar eru óháð hvort öðru.
 
 Til dæmis er hægt að setja upp einn flokk af línum og ýmsa flokka af dálkaútlitum til að sýna mánaðarlegar og árlegar skýrslur.
 
-## Seta upp greiningardálkssniðmát
+## <a name="set-up-analysis-column-templates"></a>Seta upp greiningardálkssniðmát
 
 Eftirfarandi ferli byggir á greiningaryfirlitum sölu. Skrefin eru svipuð fyrir innkaup og birgðagreiningaryfirlit.
 
@@ -73,7 +73,7 @@ Sniðmát greiningardálks inniheldur safn af línum, sem hver stendur fyrir gre
     Einnig, í reitnum **Fjárhagsfærslugerð**, ef þú velur **Birgðafærslur**, eru rauntölurnar úr birgðafærslunum afritaðar. Ef valdar eru **Birgðaáætlunarfærslur** eru áætlaðar tölur úr fjárhagsáætluninni afritaðar.  
 5. Veldu **Í lagi** til að vista breytingarnar.  
 
-## Setja upp greiningarlínusniðmát
+## <a name="set-up-analysis-line-templates"></a>Setja upp greiningarlínusniðmát
 
 Eftirfarandi ferli byggist á greiningarskýrslum fyrir sölu. Skrefin eru svipuð fyrir innkaup og birgðagreiningarskýrslur.
 
@@ -87,7 +87,7 @@ Sniðmát greiningarlínu inniheldur safn af línum, sem hver stendur fyrir grei
 > [!NOTE]  
 > Til að stofna margar stakar línur fyrir hverja vöru, viðskiptamann o.s.frv. er einnig hægt að velja viðeigandi innsetningaraðgerð til að fylla út alla viðkomandi reiti í línunni. Hægt er að breyta línunum handvirkt ef þess þarf. Til að setja inn línur skal velja aðgerðina **Setja inn vörur** eða aðgerðina **Setja inn vöruflokka**.  
 
-## Stofna nýjar sölugreiningarskýrslur
+## <a name="create-a-new-sales-analysis-report"></a>Stofna nýjar sölugreiningarskýrslur
 
 Eftirfarandi ferli byggist á greiningarskýrslum fyrir sölu. Skrefin eru svipuð fyrir innkaup og birgðagreiningarskýrslur.
 
@@ -102,7 +102,7 @@ Með greiningarskýrslum geturðu greint sölu samkvæmt lykilstærðum, svo sem
 > [!NOTE]  
 > Myndun samsetninga af línu- og dálkssniðmátum til að stofna skýrslu og tenging mismunandi heita við þau er valfrjáls. Ef þetta er gert þarftu ekki að velja sniðmát línu eða dálks á síðunni **Sölugreiningarskýrsla**. Þegar skýrsluheiti hefur verið valið er hægt að breyta línu- og dálkssniðmátum hvoru í sínu lagi og velja síðan skýrsluheitið aftur til að fá upphaflegu samsetninguna aftur.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Viðskiptagreind fjármála](bi.md)  
 [Fjármál](finance.md)  

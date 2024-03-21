@@ -10,7 +10,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Setja upp verkefnastjórnun
+# <a name="setting-up-project-management"></a>Setja upp verkefnastjórnun
 
 Áður en þú getur notað [!INCLUDE[prod_short](includes/prod_short.md)] til að stjórna verkefnum verður þú að setja upp tilföng, vinnuskýrslur og verk.
 
@@ -25,7 +25,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Að gera forða kleift að skrá tímanotkun fyrir einstakling eða vél og gera stjórnanda kleift að skoða notkun og úthlutun. |[Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md) |
 | Að stofna verkspjöld og undirbúa verkhluta. Að setja upp verð fyrir vörur verks og verkforða og skilgreina bókunarflokka verks. |[Uppsetning verka](projects-how-setup-jobs.md) |
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Stjórna verkum](projects-manage-projects.md)  
 [Myndband: Hvernig á að stofna verk í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

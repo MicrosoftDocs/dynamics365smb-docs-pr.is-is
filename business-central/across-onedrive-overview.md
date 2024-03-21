@@ -9,17 +9,17 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Business Central og OneDrive fyrir Business Integration
+# <a name="business-central-and-onedrive-for-business-integration"></a>Business Central og OneDrive fyrir Business Integration
 
 OneDrive fyrir Business er skýjageymsluþjónusta sem er hluti af Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] auðveldar geymslu, umsjón og deilingu skráa með öðrum í gegnum OneDrive. Þegar skrá er í OneDrive getur þú notið ríkulegs samstarfs úr netútgáfum af vörum Microsoft, t.d. Word, Excel og PowerPoint. Til dæmis er hægt að deila Word-skjali og þá getur þú og samstarfsfólk þitt breytt því saman í rauntíma. OneDrive gerir þér líka kleift að opna aðrar gerðir skráa, t.d. PDF. 
 
-## Hafist handa með OneDrive eiginleika
+## <a name="get-started-with-onedrive-features"></a>Hafist handa með OneDrive eiginleika
 
 Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á netinu höfum við þegar búið til tenginguna á milli [!INCLUDE[prod_short](includes/prod_short.md)] á netinu og OneDrive þannig að auðvelt er að hefjast handa. Eina krafan er sú að notendur hafi opnað OneDrive að minnsta kosti einu sinni. Með [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum þarf stjórnandi að grunnstilla tenginguna áður en þú getur hafist handa. Frekari upplýsingar eru í [Stjórnun OneDrive samþættingar við Business Central](admin-onedrive-integration.md).
 
 <!-- We've created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. -->
 
-### Opna og deila í OneDrive
+### <a name="open-and-share-in-onedrive"></a>Opna og deila í OneDrive
 
 Á flestum síðum þar sem skrár eru tiltækar, svo sem í innhólfi skýrslunnar eða skrám sem hengdar eru við færslur, finnur þú aðgerðirnar **Opna í OneDrive** og **Deila**.
 
@@ -33,7 +33,7 @@ Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á netinu höfum vi
 |Opna í OneDrive|Afritaðu skrána í möppu Business Central í OneDrive og opnaðu skrána.|[Opna í OneDrive](across-share-onedrive.md#open-in-onedrive) |
 |Deila|Afritaðu skrána í OneDrive og deildu henni með öðrum.|[Deila í OneDrive](across-share-onedrive.md#share) |
 
-### Vista vinnubækur og skýrsluskrár Excel í OneDrive
+### <a name="save-excel-workbooks-and-report-files-in-onedrive"></a>Vista vinnubækur og skýrsluskrár Excel í OneDrive
 
 Með uppsetningu OneDrive samþættingar munu nokkrir aðrir kunnuglegir eiginleikar sjálfkrafa nota OneDrive til að vista skrár í stað þess að vista skrár í tækinu þínu:
 
@@ -55,7 +55,7 @@ The folder and its content are private until you decide to share them with other
 > [!NOTE]
 > Einnig er hægt að tengja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við OneDrive. Nokkur atriði þarf hinsvegar að hafa í huga til að það gangi upp. Frekari upplýsingar er að finna í [Skilgreining Business Central-þjóns innanhúss](admin-onedrive-integration-onpremises.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórnun OneDrive samþættingar við Business Central](admin-onedrive-integration.md)  
 [Opna Business Central Files í OneDrive](across-share-onedrive.md)  

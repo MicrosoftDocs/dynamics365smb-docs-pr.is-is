@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé
+# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé
 
 Ef þú ert að nota reikningsskilaaðferðir í reiðufé, getur þú sett upp [!INCLUDE[prod_short](includes/prod_short.md)] til að takast á við óinnleystan virðisaukaskatt.
 
-## Nota fjárhagsreikninga fyrir óinnleystan virðisaukaskatt
+## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Nota fjárhagsreikninga fyrir óinnleystan virðisaukaskatt
 
 Hægt er að velja að VSK-upphæðir verði reiknaðar og bókaðar á bráðabirgðafjárhagsreikning þegar reikningur er bókaður, og síðan bókaður á rétta fjárhagsreikninginn og settur í VSK-yfirlitin þegar endanlega greiðsluupphæð reikningsins er bókuð. Áður en þetta er hægt þarf að ljúka við [VSK-bókunargrunninn](finance-setup-vat.md).
 
@@ -45,7 +45,7 @@ Til að nota reikninga fyrir óinnleyst virðisaukaskatt skaltu fylgja þessum s
 > [!NOTE]  
 > VSK upphæðin verður bókuð á þennan reikning, og verður þar til greiðslu viðskiptavinarins er bókuð. Fjárhæðin er síðan flutt á reikninginn fyrir innskatt.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

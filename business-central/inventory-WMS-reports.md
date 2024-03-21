@@ -11,22 +11,22 @@ ms.date: 04/13/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Birgða- og vöruhúsaskýrslur og greiningar
+# <a name="inventory-and-warehouse-reports-and-analytics"></a>Birgða- og vöruhúsaskýrslur og greiningar
 
 Birgðir og vöruhúsatínslur í gefur birgðum og fagaðilum innsýn í  [!INCLUDE [prod_short](includes/prod_short.md)]  upplýsingar um núverandi og eldri birgðir og vöruhúsaaðgerðir.  
 
-## Skýrslur
+## <a name="reports"></a>Skýrslur
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## Verkefni
+## <a name="tasks"></a>Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
 * [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
 
-## Strikamerkjum prentunar og skanna
+## <a name="print-and-scan-barcodes"></a>Strikamerkjum prentunar og skanna
 
 Notkun strikamerkra getur auðveldað flutning á ferlum á innleið, útleið og innri vöruhúsi. 
 
@@ -44,7 +44,7 @@ Notkun strikamerkra getur auðveldað flutning á ferlum á innleið, útleið o
 > [!NOTE]
 > Sumir prentarar og strikamerki/QR kóðasnið krefjast ákveðinnar framkvæmdar. Þú gætir þurft að senda inn annað Ritsniðmát eða klófesta skýrsluna til að búa til þína eigin sérsniðna útgáfu.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning birgða](inventory-setup-inventory.md)  
 [Birgðir](inventory-manage-inventory.md)  

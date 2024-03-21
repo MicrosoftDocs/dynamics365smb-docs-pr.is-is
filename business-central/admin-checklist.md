@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Innleiða notendur með gátlistum
+# <a name="onboard-users-with-checklists"></a>Innleiða notendur með gátlistum
 
 Í fyrsta skipti sem notandi skráir sig inn í nýtt [!INCLUDE [prod_short](includes/prod_short.md)] fyrirtæki geta þeir séð borða sem hvetur þá til að byrja á gátlistanum **Hafist handa** til að auðvelda þeim að setja upp lykilupplýsingar og gera sig klára fyrir viðskiptin. Sem stjórnandi eða endursöluaðili er hægt að sérsníða fyrirframskilgreinda gátlista og hægt er að setja upp eigin skref.
 
-## Að bæta vöru við gátlistann
+## <a name="to-add-an-item-to-the-checklist"></a>Að bæta vöru við gátlistann
 
 1. Innskráning í [!INCLUDE[prod_short](includes/prod_short.md)] þann [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -26,7 +26,7 @@ ms.service: dynamics-365-business-central
     > [!TIP]
     > Ef skrefið er fyrir leiðbeiningu um uppsetningu tilgreinir reiturinn **Verk** uppsetningarleiðbeininguna. Ef skrefið er fyrir frekari fræðslu tilgreinir reiturinn **Verk** tengilinn á greinina eða netkennslueiningu.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Stjórnun](admin-setup-and-administration.md)  

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Fjármálastjórnun
+# <a name="financial-management"></a>Fjármálastjórnun
 
 [!INCLUDE[prod_short](includes/prod_short.md)] felur í sér staðlaða grunnstillingu fyrir flesta fjárhagsferla en hægt er að breyta þeim í samræmi við þarfir fyrirtækisins. Frekari upplýsingar má finna á [Uppsetning Fjármála](finance-setup-finance.md).
 
@@ -20,13 +20,13 @@ Sjálfgefin forstilling inniheldur bókhaldslykill og staðlaða bókunarflokka 
 
 Eftirfarandi hlutar lýsa röð verka með tenglum í efnisatriðin sem lýsa þeim.  
 
-## Horfa á kynningarmyndband
+## <a name="take-a-video-tour"></a>Horfa á kynningarmyndband
 
 Í þessu myndband koma fyrir nokkrir lykilmöguleikar fyrir umsjón með fjármálum. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Hafist er handa við fjármálagetu
+## <a name="get-started-with-finance-capabilities"></a>Hafist er handa við fjármálagetu
 
 Áður en hægt er að hefja rekstur reksturs þarf að tilgreina hvernig eigi að stýra fjárhagsferlum fyrirtækisins.
 
@@ -35,7 +35,7 @@ Eftirfarandi hlutar lýsa röð verka með tenglum í efnisatriðin sem lýsa þ
 | Breyta stöðluðu grunnstillingu [!INCLUDE[prod_short](includes/prod_short.md)] flestra fjárhagsferla eftir þörfum fyrirtækisins. | [Uppsetning Fjármála](finance-setup-finance.md) | 
 | Kynntu þér fjárhag og bókhaldslykla. |[Skilja fjárhag og bókhaldslykil](finance-general-ledger.md) |
 
-## Bókhald
+## <a name="accounting"></a>Bókhald
 
 Í þessum hluta er lýst nokkrum af bókhaldsverkfærunum sem notuð eru til að skrá fjárhagsleg viðskipti þannig að þau uppfylli skráningu, skýrslugerð og stjórnunarlegar fjármálakröfur.
 
@@ -49,7 +49,7 @@ Eftirfarandi hlutar lýsa röð verka með tenglum í efnisatriðin sem lýsa þ
 | Frekari upplýsingar um tiltæka valmöguleika sem gera þér kleift að senda greiðslureikninga til viðskiptavina og skrá endurteknar tekjur. |[Vinna með endurteknar tekjur](finance-recurring-invoicing.md)|
 |Bókaðu starfsmannakostnað fyrir vinnutengdar aðgerðir og gerðu endurgreiðslur beint á bankareikninga starfsmanna.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|
 
-## VSK og skattar
+## <a name="vat-and-taxes"></a>VSK og skattar
 
 Það er auðvelt að vinna með VSK [!INCLUDE[prod_short](includes/prod_short.md)] og annaðhvort er hægt að nota handvirka uppsetningu eða sjálfvirka uppsetningu. Þessar greinar veita upplýsingar um hvernig á að uppfylla reglugerðir um landið/svæðið.
 
@@ -59,7 +59,7 @@ Eftirfarandi hlutar lýsa röð verka með tenglum í efnisatriðin sem lýsa þ
 |Undirbúa skýrslu sem telur upp VSK-upphæðir af sölu og senda hana til skattyfirvalda í ESB. | [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
 |Breyttu þjónustusamningum handvirkt til að breyta virðisaukaskattshlutfalli þeirra.|[Umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)|
 
-## Vinna með útistandandi og gjaldfallnar skuldir
+## <a name="manage-receivables-and-payables"></a>Vinna með útistandandi og gjaldfallnar skuldir
 
 Kjarni fjármálanna er staðsettur í kringum stjórnun útistandandi og gjaldfallinna skulda, skráir viðskipti, afstýra bankareikningum, borga lánardrottna, taka á móti greiðslum viðskiptamanna, endurgreiða starfsmönnum kostnað og svo framvegis. Í þessum hluta eru tenglar á kjarnahugtökin.
 
@@ -70,7 +70,7 @@ Kjarni fjármálanna er staðsettur í kringum stjórnun útistandandi og gjaldf
 |Biddu viðskiptavini þína um að senda inn greiðslu áður en þú afhendir þeim, eða senda inn greiðslu til lánardrottna þinna áður en þeir afhenda þér.|[Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)|
 | Stemma af og færa fjármuni milli bankareikninga. |[Afstemming bankareikninga](bank-manage-bank-accounts.md) |
 
-## Stjórna mörgum fyrirtækjum
+## <a name="manage-multiple-companies"></a>Stjórna mörgum fyrirtækjum
 
 [!INCLUDE [prod_short](includes/prod_short.md)] gefur litlum og meðalstórum fyrirtækjum viðskiptastjórnunarlausn sem er auðveld í notkun og viðhalda á litlum kostnaði við eignarhald.
 
@@ -80,7 +80,7 @@ Kjarni fjármálanna er staðsettur í kringum stjórnun útistandandi og gjaldf
 |Sameina aðalbókarfærslur frá mörgum fyrirtækjum í eitt sýndar „samstæðufyrirtæki" fyrir fjárhagsgreiningu.|[Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)|
 | Vinna betur með tengdum fyrirtækjum sem þú hefur aðgang að og fá upplýsingar um lykilatriði vaxta (KPI). | [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md)|
 
-## Skýrsla um lok tímabils og tengd verk
+## <a name="period-end-reporting-and-related-tasks"></a>Skýrsla um lok tímabils og tengd verk
 
 Í lok hvers reikningstímabils eða í lok reikningsársins eru nokkrir stjórnunarverkhlutar. Til dæmis er örugglegast að ganga úr skugga um að öll skjöl og færslubækur séu bókuð, tryggja að gjaldmiðilsgögn séu uppfærð, bækurnar lokað og svo fram vegar. Raunverulegt verk fara eftir fyrirtækinu.
 
@@ -90,7 +90,7 @@ Kjarni fjármálanna er staðsettur í kringum stjórnun útistandandi og gjaldf
 | Flytja inn launafærslur úr launaveitu í fjárhag. |[Flytja inn launafærslur](finance-how-import-payroll-transactions.md)|
 |Kynntu þér hvernig á að nota hlutverkamiðstöð endurskoðanda, fá ytri endurskoðanda í málið og nota fyrirtækjamiðstöðina til að stjórna reikningum fyrir marga viðskiptamenn.|[Upplifun endurskoðanda í Business Central](finance-accounting.md)| 
 
-## Stjórnandi bókhald
+## <a name="managerial-accounting"></a>Stjórnandi bókhald
 
 Sem viðskiptastjóri eða yfirmaður er mikilvægt að hægt sé að útbúa og greina viðskiptagögnin sem taka þarf upplýstar ákvarðanir. Greinarnar í eftirfarandi töflu aðstoða við undirbúning gagna. Til að fræðast meira um greiningar er farið [í Yfirlit viðskiptagreindar og skýrslur](reports-bi-reporting.md).
 
@@ -101,13 +101,13 @@ Sem viðskiptastjóri eða yfirmaður er mikilvægt að hægt sé að útbúa og
 |Fylgdu ferli frá upphafi til enda sem lýsir því hvernig á að nota fjárhagsskýrslur til að gera sjóðstreymisspár.|[Kynning: Gera sjóðstreymisspár með fjárhagsskýrslum](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Vinna með fjárhagsskýrslur og yfirlit í Microsoft Excel. |[Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md) |
 
-## Ókeypis netnámseiningar
+## <a name="free-e-learning-modules"></a>Ókeypis netnámseiningar
 
 Viltu fræðast meira um [!INCLUDE[prod_short](includes/prod_short.md)] á eigin hraða? 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Unnið með sölueininguna](sales-manage-sales.md)  

@@ -11,11 +11,11 @@ ms.date: 03/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Endurskoðunarbreytingar í Business Central
+# <a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
 
 Sameiginleg áskorun margra viðskiptastjórnunarforrita er að forðast óæskilegar breytingar á gögnum. Þetta getur verið allt frá röngu símanúmeri viðskiptamanns til rangrar bókunar í fjárhag. Þessi grein lýsir getu til að komast að því hvað breyttist, hver breytti henni og hvenær breytingin var gerð.
 
-## Um breytingaskrá
+## <a name="about-the-change-log"></a>Um breytingaskrá
 
 Með breytingaskránni er hægt að rekja allar beinar breytingar sem notendur gera á gögnum í gagnagrunninum. Tilgreina skal hverja töflu og reit sem kerfið á að skrá og síðan virkja breytingaskrána. Breytingaskráin byggir á breytingum sem gerðar eru á gögnum í töflunum sem þú rekur. Á síðunni **Breytingaskrárfærslur** er færslum raðað í tímaröð og sýndar eru allar breytingar sem gerðar eru á gildum í reitum í töflunum sem eru tilgreindar.
 
@@ -37,7 +37,7 @@ Einnig af afkastaástæðum er slökkt á breytingaskránni við uppfærslu á [
 > - Notandinn valdi annað fyrirtæki eða hlutverkamiðstöð.
 > - Notandinn skráði sig út og aftur inn.
 
-### Vinna með breytingaskrá
+### <a name="work-with-the-change-log"></a>Vinna með breytingaskrá
 
 Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráningu virka eða óvirka. Þegar notandi kveikir eða slekkur á breytingaskrá er þessi verkþáttur skráður til að geta ævinlega séð hvaða notandi kveikti eða slökkti á breytingaskránni.
 
@@ -48,22 +48,22 @@ Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráni
 
 Þegar breytingaskrá hefur verið sett upp, virkjuð og einhver hefur breytt gögnum skráir forritið breytinguna í breytingaskrárfærslu. Hægt er að skoða og afmarka breytingarnar á síðunni **Breytingaskrárfærslur**. Ef eyða á færslum er sett upp varðveitt regla þar sem hægt er að setja afmarkanir byggðar á dagsetningum og tíma. Nánari upplýsingar um varðveitingarstefnur eru notaðar til að [skilgreina varðveitingarstefnur](admin-data-retention-policies.md).  
 
-## Um aðgerðaskrár
+## <a name="about-activity-logs"></a>Um aðgerðaskrár
 
 Á sumum síðum í [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að skoða aðgerðarkladda sem sýnir stöðu og allar villur úr skrám sem þú flytur út úr eða flytur inn í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### Vinna með aðgerðaskrár
+### <a name="work-with-activity-logs"></a>Vinna með aðgerðaskrár
 
 Upplýsingarnar eru birtar á síðunni **Aðgerðarkladdi** í samræmi við samhengið sem þær eru opnaðar úr. Til dæmis er hægt að opna síðuna á síðunum **Uppsetning skjalaskiptaþjónustu**, **Skjal á innleið**, **Bókaður sölureikningur** og **Bókaður sölukreditreikningur**. Hægt er að tæma listann yfir kladdafærslur eða hreinsa lista yfir færslur sem eru eldri en sjö daga.  
 
-## Fylgjast með viðkvæmum reitum
+## <a name="monitor-sensitive-fields"></a>Fylgjast með viðkvæmum reitum
 
 Að halda viðkvæmum gögnum öruggum tryggja persónuvernd er mikilvægt flestum fyrirtækjum. Til að bæta við öryggisstigi er hægt að fylgjast með mikilvægum reitum og verið látin vita í tölvupósti þegar einhver breytir gildi. Til dæmis gætirðu viljað fá tilkynningu ef einhver breytir IBAN-númeri fyrirtækisins.
 
 > [!NOTE]
 > Að senda tilkynningu í tölvupósti krefst þess að eiginleiki tölvupósts verði settur upp í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Setja upp tölvupóst](admin-how-setup-email.md).
 
-### Setja upp reitarvöktun
+### <a name="set-up-field-monitoring"></a>Setja upp reitarvöktun
 
 Hægt er að nota uppsetningarleiðbeiningar **Uppsetning á breytingavöktun reits** með hjálp til að tilgreina reitina sem á að fylgjast með samkvæmt síuskilyrði á borð við flokkun gagnatrúnaðar fyrir reitina. Nánari upplýsingar er að finna í [Flokkun á gagnatrúnaðar](admin-classifying-data-sensitivity.md). Leiðarvísirinn gerir einnig kleift að tilgreina þann sem fær tölvupóststilkynningu þegar breyting á sér stað, og tölvupóstsreikninginn sem sendir tilkynninguna í tölvupósti. Tilgreinið bæði notandann sem fær tilkynningu og reikninginn sem tilkynningin verður send frá. Eftir að leiðarvísinum er lokið er hægt að vinna með stillingar fyrir reitavöktun á síðunni **Uppsetning reitavöktunar**. 
 
@@ -79,7 +79,7 @@ Hægt er að stjórna stillingum fyrir reitavöktun, t.d. hvort senda eigi tilky
 > [!NOTE]
 > Þegar búið er að skrá einn eða fleiri rieti og hefja vöktun þarf að skrá sig út úr [!INCLUDE[prod_short](includes/prod_short.md)] og skrá sig inn aftur til að stillingarnar taki gildi.
 
-### Vinna við svæðavöktun
+### <a name="work-with-field-monitoring"></a>Vinna við svæðavöktun
 
 Færslur fyrir öll breytt gildi í vöktuðum reitum eru tiltækar á síðunni **Kladdafærslur vaktaðra reita**. Færslur innihalda til að mynda eftirfarandi upplýsingar:
 
@@ -89,18 +89,18 @@ Færslur fyrir öll breytt gildi í vöktuðum reitum eru tiltækar á síðunni
 
 Til að rannsaka breytingu frekar þarf að velja gildi til að opna síðuna þar sem hún var gerð. Til að skoða lista yfir allar færslur skal velja **Breytingafærslur reita**.
 
-### Skoða fjarmælingar í reitum 
+### <a name="view-field-monitoring-telemetry"></a>Skoða fjarmælingar í reitum
 
 Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að senda aðgerðir reitarvörpunar í Application Insights tilfang í Microsoft Azure. Síðan er hægt að nota Azure Monitor til að búa til skýrslur og setja upp viðvaranir í söfnuðum gögnum. Frekari upplýsingar eru í eftirfarandi greinum í [!INCLUDE[prod_short](includes/prod_short.md)] Developer og IT Pro Help:
 
 - [Fylgjast með og greina fjarmælingar - Virkja Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Greining fjarmælinga reitarvöktunar](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace)
 
-## Skilgreina varðveitingarstefnu
+## <a name="define-retention-policies"></a>Skilgreina varðveitingarstefnu
 
 Hægt er að búa til varðveislureglur til að eyða ónauðsynlegum gögnum í klöddum eftir tiltekinn tíma sem gefa skal upp. Til dæmis getur fjærslufjöldinn í kladda aukist með tímanum. Með því að hreinsa upp eldri færslur er auðveldara að setja athyglina á nýlegri og líklega meira viðeigandi færslur. Nánari upplýsingar um varðveitingarstefnur eru notaðar til að [skilgreina varðveitingarstefnur](admin-data-retention-policies.md).
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  

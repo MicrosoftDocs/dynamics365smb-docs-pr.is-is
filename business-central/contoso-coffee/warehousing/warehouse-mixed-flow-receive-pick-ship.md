@@ -11,17 +11,17 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Vasaljós á inn-og útrennsli í Blönduðum Vöruhúsaleiðingum
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-mixed-warehouse-configurations"></a>Vasaljós á inn-og útrennsli í Blönduðum Vöruhúsaleiðingum
 
 Þessi gönguleið sýnir hvernig á að fylla út inn-og út streymi í blandaðri skilgreiningu, þar sem fyrir vöruhús innstreymis er skilgreint sem grunnur: pöntun-eftir-pöntun og fyrir ítarlegri samskipan á útleið er notuð. Sjá  [Yfirlit yfir mismunandi skilgreiningarvalkosti fyrir frekari upplýsingar](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## Frumskilyrði  
+## <a name="prerequisites"></a>Frumskilyrði
 Til að ljúka við þetta gönguleið þarftu að gera vöruhúsastarfsmann á  *gulum*  stað með því að fylgja þessum skrefum eftir:  
 1. Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 1.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
 2. Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
 3.  **Í reitinn Kóti birgðageymslu**  er fært inn  *gult*.  
 
-## Innflæði: Móttaka og frágangur í grunnstillingum vöruhúss
+## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Innflæði: Móttaka og frágangur í grunnstillingum vöruhúss
 
 Í  [!INCLUDE[prod_short](../../includes/prod_short.md)], er hægt að framkvæma ferli á innleið fyrir móttöku og frágang á fjóra vegu eftir mismunandi virkni í vöruhúsinu, allt eftir flækjustigi vöruhússins.  
 
@@ -36,10 +36,10 @@ Nánari upplýsingar má finna  [í hönnunarupplýsingum: flæði](../../design
 
 Eftirfarandi walkmeð sýndi aðferð C í fyrri töflunni.  
 
-### Aðstæður  
+### <a name="scenario"></a>Aðstæður
 Alicia, innkaupastjóri, stofnar innkaupapantanir fyrir ýmsar roasted-baunir eins og eftirspurn virðist. Þegar sameinuð afhending kemur í vöruhúsið, tekur John, starfsmaður vöruhússins, á móti og setur vörurnar í burtu. Þegar John bókar kvittunina eru vörurnar bókaðar sem mótteknar í birgðum og tiltækar til sölu eða annarrar eftirspurnar.  
 
-### Skref
+### <a name="steps"></a>Skref
 1. Setja upp  **Staðsetningarspjald**  á síðunni til að skilgreina innleiðarflæði fyrirtækisins.  
 
     1.  Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 2.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
@@ -68,7 +68,7 @@ Alicia, innkaupastjóri, stofnar innkaupapantanir fyrir ýmsar roasted-baunir ei
     4. Í annarri línu skal breyta gildinu í  **magninu sem á að taka á móti**  reit frá  *200*  til  *190*.
     5.  **Veljið aðgerðina Bóka kvittun** .
 
-### Niðurstöður 
+### <a name="results"></a>Niðurstöður
  - roasted-baunirnar eru nú skrásettar sem frágangur
  -  **bókuð vöruhúsamóttaka**  er stofnuð
  -  **Bókuð innkaupamóttaka**  er stofnuð
@@ -76,7 +76,7 @@ Alicia, innkaupastjóri, stofnar innkaupapantanir fyrir ýmsar roasted-baunir ei
  - Vörubirgða  **·**  eykst eftir því sem valið magn
     
 
-## Flæði á útleið: tiltekt og sendingu í ítarlegum Vöruhúsafbrigðum
+## <a name="outbound-flow-picking-and-shipping-in-advanced-warehouse-configurations"></a>Flæði á útleið: tiltekt og sendingu í ítarlegum Vöruhúsafbrigðum
 
 Í  [!INCLUDE[prod_short](../../includes/prod_short.md)] er hægt að framkvæma úttaferlin fyrir tiltekt og sendingu á fjóra vegu með því að nota mismunandi vinnslueiginleika, allt eftir flækjustigi vöruhússins.  
 
@@ -91,10 +91,10 @@ Nánari upplýsingar er að finna  [í hönnunarupplýsingum: flæði](../../des
 
 Eftirfarandi kynning sýnir aðferð D í fyrri töflu.
 
-### Aðstæður  
+### <a name="scenario-1"></a>Aðstæður
 Susan, pöntunarörgjörvinn, stofnar sölupantanir fyrir ýmsar roasted-baunir og sendir í vöruhús. Eftir því sem allar pantanir koma frá sama viðskiptavini, þá ákveður Ellen, vöruhússtjórinn að skipa þeim saman. Starfsmaður vöruhússins verður að vera fullviss um að afhendingin sé tilbúin og send til viðskiptamannsins.
 
-### Skref
+### <a name="steps-1"></a>Skref
 Þetta er framhald af  [innstreymissásinni: Móttaka og frágangur í Grunnvöruskilgreiningum](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Sleppa sölupöntunum í vöruhús.  
@@ -136,7 +136,7 @@ Susan, pöntunarörgjörvinn, stofnar sölupantanir fyrir ýmsar roasted-baunir 
     4.  **Veljið aðgerðina Bóka sending** .
     5.  **Staðfestu möguleika skipsins** .
 
-### Niðurstöður
+### <a name="results-1"></a>Niðurstöður
  - roasted-baunirnar eru nú skráðar sem tíndar 
  -  **skráð Vöruhúsatínsla**  er stofnuð
  -  **bókuð vöruhúsaafhending**  er stofnuð
@@ -145,7 +145,7 @@ Susan, pöntunarörgjörvinn, stofnar sölupantanir fyrir ýmsar roasted-baunir 
  - Vörubirgðir  **·**  lækka um valið magn
 
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Receive Items](../../warehouse-how-receive-items.md)
 [Set Up Basic Warehouses with Operations Areas](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
 [Design Details: Inbound Warehouse Flow](../../design-details-inbound-warehouse-flow.md)

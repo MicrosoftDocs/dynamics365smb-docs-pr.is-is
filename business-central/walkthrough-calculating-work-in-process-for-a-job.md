@@ -9,13 +9,13 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kynning: Útreikningur á VÍV fyrir verk
+# <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Kynning: Útreikningur á VÍV fyrir verk
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á ýmsum kostnaði sem fylgir notkun forða í tilteknu verkefni. Verk ná yfir notkun á vinnutíma starfsmanna, vélastundir, birgðahluti og aðrar gerðir notkunar sem þarf að fylgjast með í verkferlum. Ef verk stendur yfir í langan tíma gætirðu viljað færa þennan kostnað yfir á reikning í vinnslu (WIP) á efnahagsreikningi á meðan verkinu er lokið. Þú getur síðan greint kostnað og sölu í rekstrarreikningum þínum þegar það á við.  
 
-## Um kynninguna
+## <a name="about-this-walkthrough"></a>Um kynninguna
 
  Þessi kynning fjallar um eftirfarandi verk:  
 
@@ -27,19 +27,19 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
  Hvert skref í ferlinu virðisreiknar og færir verkfærslurnar í fjárhaginn. Útreikningur og bókun eru aðskilin svo hægt sé að fara yfir gögn og gera breytingar áður en bókað er í fjárhaginn. Þess vegna þarf að ganga úr skugga um að allar upplýsingar séu réttar eftir að útreikningskeyrslur eru keyrðar og áður en bókunarkeyrslur eru keyrðar.  
 
-## Hlutverk
+## <a name="roles"></a>Hlutverk
 
  Þessi kynning notar Tinnu sem meðlim verkefnateymisins.  
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
  Áður en hægt er að framkvæma verk hér í kynningunni þarf að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] í tölvunni.  
 
-## Ferill
+## <a name="story"></a>Ferill
 
  Þessi kynning einblínir á fyrirtækið CRONUS International Ltd., hönnunar- og ráðgjafafyrirtæki sem hannar og setur upp nýja innviði á borð við ráðstefnusali og skrifstofur, með húsgögn, aukahluti og geymslueiningar. Mest vinnan í CRONUS er verkefnatengd og Trausti, meðlimur í verkefnateymi, notar verk til að geta haft yfirlit yfir hvert verk í vinnslu sem CRONUS hefur verið ræst en einnig þau verk sem lokið er. Sum störfin geta verið löng og geta tekið yfir mánuði. Tinna getur notað VÍV reikninginn til að skrá yfirstandandi vinnu og rekja kostnað í verkinu.  
 
-## Útreikningur á VÍV
+## <a name="calculating-wip"></a>Útreikningur á VÍV
 
  CRONUS hefur tekið að sér langt verk sem nær yfir nokkur bókhaldstímabil. Tricia, meðlimur í verkefnishópnum, reiknar út verkið í vinnslu (WIP) til að ganga úr skugga um að reikningsskil fyrirtækisins séu nákvæm.  
 
@@ -55,7 +55,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
  Í eftirfarandi leiðsögn notar Tricia Cost Value aðferðina, fyrirtækjastaðal þeirra, til að reikna út WIP. Tricia tilgreinir hvaða hluti starfsins er innifalinn í WIP-útreikningnum með því að úthluta WIP-Total-gildum á ýmsar verkefnalínur.  
 
-### Útreikningur VÍV  
+### <a name="to-calculate-wip"></a>Útreikningur VÍV
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2.  Á listanum **Verk** er verkinu **Deerfield** valin og svo er valin aðgerðin **Breyta**. Þetta opnar vinnukortið í breytingaham.  
@@ -87,7 +87,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
  Athugið að gildið fyrir **Samþ. kostnaðarupphæð** er 215.60 í dálknum **Til að bóka**. Þetta speglar heildarkostnað tveggja af vörunum í flokki verkhluta 1110-1130.  Þriðji liðurinn var stilltur á **Unskilið** og er því ekki innifalinn í útreikningi á WIP.  
 
-### Til að fara yfir viðvaranir VÍV  
+### <a name="to-review-wip-warnings"></a>Til að fara yfir viðvaranir VÍV
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **VÍV-stjórnklefi verks** og velja síðan viðkomandi tengil.  
 2.  Veljið verkið **Deerfield** og svo er valin aðgerðin **Sýna**.  
@@ -95,7 +95,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
  Eftir bókhaldstímabilið þarf Tinna að endurreikna VÍV til að taka með þá vinnu sem unnin hefur verið.  
 
-### VÍV endurreiknað  
+### <a name="to-recalculate-wip"></a>VÍV endurreiknað
 
 1.  Á spjaldinu **Verk**, skal velja**VÍV-færslur** til að skoða VÍV-útreikningur.  
 
@@ -107,11 +107,11 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 > [!NOTE]  
 >  Verk í vinnslu og samþykki eru bara reiknuð. Er ekki bókað í fjárhag. Til þess þarf að keyra keyrsluna **Bóka VÍV í fjárhag** þegar búið er að reikna VÍV og samþykki.
 
-## Bókun WIP í aðalbók
+## <a name="posting-wip-to-general-ledger"></a>Bókun WIP í aðalbók
 
  Nú þegar Tricia hefur reiknað út WIP fyrir þetta starf geta þeir bókað það í aðalbókina.  
 
-### VÍV bókað í fjárhag  
+### <a name="to-post-wip-to-general-ledger"></a>VÍV bókað í fjárhag
 
 1.  Í listanum **Verk** er línan með verkinu **Deerfield** valin.  
 2.  Veljið aðgerðina **VÍV** og svo aðgerðina **Bóka VÍV í fjárhag**.  
@@ -131,11 +131,11 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 10. Á flýtiflipanum **VÍV og samþykki** skal athuga að í dálkinum **Bókað** er reiturinn **Samþ. fjárhagsupph. kostnaðar** nú útfylltur, sem þýðir að það tókst að bóka VÍV í fjárhag.  
 11. Velja hnappinn **Í lagi** til að loka spjaldinu.  
 
-## Að snúa við WIP færslu
+## <a name="reversing-a-wip-posting"></a>Að snúa við WIP færslu
 
  Tinna ákveður að reikna hefði átt þá verkhluta verks sem ekki voru hafðir með í VÍV í VÍV. Tricia getur snúið við röngum færslum án þess að þurfa að senda nýjar WIP færslur.  
 
-### Bakfærsla VÍV-bókunar  
+### <a name="to-reverse-a-wip-posting"></a>Bakfærsla VÍV-bókunar
 
 1.  Í listanum **Verk** er línan með verkinu **Deerfield** valin.  
 2.  Veljið aðgerðina **VÍV** og svo aðgerðina **Bóka VÍV í fjárhag**.  
@@ -154,11 +154,11 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
     > [!NOTE]  
     >  Gefum okkur að Tricia hafi reiknað út og bókað WIP fyrir verk með röngum dagsetningum. Eftir aðferðinni sem var rædd áðan getur Tricia bakfært rangar færslur, leiðrétt dagsetningar og endurbókað í fjárhag.  
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
  Í þessari kynningu var farið yfir skrefin í útreikningi á VÍV í [!INCLUDE[prod_short](includes/prod_short.md)]. Í stærri verkum gæti verið gagnlegt að færa kostnaðinn reglulega yfir á WIP reikning á meðan verkinu er lokið. Í kynningunni var sýnt hvernig á að undanskilja verkhlutalínur frá útreikningi. Sýnir einnig hvenær þörf er á endurreikningi. Og að lokum, þessi kynning sýnir hvernig á að bóka VÍV í fjárhag. Dæmi um bakfærslu VÍV-bókunar í fjárhag er einnig tekin með.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
  [Kynning: Stýring verkefna með verkum](walkthrough-managing-projects-with-jobs.md)  

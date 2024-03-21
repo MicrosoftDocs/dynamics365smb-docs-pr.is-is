@@ -11,7 +11,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Stjórnun tengsla
+# <a name="managing-relationships"></a>Stjórnun tengsla
 Tengslastjórnunareiginleikar [!INCLUDE[prod_short](includes/prod_short.md)] auðvelda stjórnun og stuðning við markaðssetningu og sölu. Þessir eiginleikar veita aðgang að fullkomnum og nákvæmum upplýsingum svo hægt sé að einbeita sér að þeim viðskiptamönnum/tengiliðum sem ná á til.
 
 Góðar sölu- og markaðssetningaraðferðir snúast um að taka réttar ákvarðanir á réttum tíma. [!INCLUDE[prod_short](includes/prod_short.md)] veitir nákvæmt og tímanlegt yfirlit yfir tengiliðaupplýsingar svo hægt sé að þjónusta væntanlega viðskiptamenn og auka ánægju viðskiptamanna.

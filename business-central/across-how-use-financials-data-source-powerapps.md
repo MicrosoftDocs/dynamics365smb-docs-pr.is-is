@@ -8,18 +8,18 @@ ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 05/15/2023
 ms.author: jswymer
 ---
-# Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps
+# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps
 
 Notandi getur gert [!INCLUDE[prod_short](includes/prod_short.md)]-gögnin sín aðgengileg sem gagnaveitu í Power Apps.  
 
 > [!TIP]  
 > Viðskiptamiðl býður nú upp á þróun og rekstur stuðningur fyrir  Power Platform  í Al-Go og sýnishorn til að fá þú byrjaðir að búa til þitt eigið apps með Power Apps. Þessir eiginleikar eru nú í forskoðun. Til að fræðast meira er farið í  [miðborg og  Power Apps](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview)  í Forritunarmálið og það Pro Help.
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 Notandi verður að vera með gildan reikning hjá [!INCLUDE[prod_short](includes/prod_short.md)] og hjá Power Apps.  
 
-## Bæta við  [!INCLUDE[prod_short](includes/prod_short.md)]  sem gagnagjafi í Power Apps
+## <a name="add--as-a-data-source-in-power-apps"></a>Bæta við  [!INCLUDE[prod_short](includes/prod_short.md)]  sem gagnagjafi í Power Apps
 
 Þessi skref bæta við aðaltöflu viðskipta, eins og Viðskiptavinir eða vörur, sem gagnagjafi  Power Apps  forrits.
 
@@ -50,15 +50,15 @@ Notandi verður að vera með gildan reikning hjá [!INCLUDE[prod_short](include
 Þegar þú hefur hannað og smíðað forritið þitt getur þú deilt því með samstarfsmönnum þínum. Frekari upplýsingar er að finna á [Vista og birta vinnusvæðisforrit í Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 
 <!--
-## Sample apps to get started
+## <a name="sample-apps-to-get-started"></a>Sample apps to get started
 
 As a preview version, Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [Business Central Demos](https://github.com/BusinessCentralDemos) repo on GitHub. For a quick overview on the apps, go to [Power Apps samples for Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
 
-## Develop and maintain apps application lifecycle management
+## <a name="develop-and-maintain-apps-application-lifecycle-management"></a>Develop and maintain apps application lifecycle management
 
 As an app developer, you may already be familiar with Business Central AL-Go. AL-Go is set of tools on GiHub that enables you to maintain professional DevOps processes for your Business Central AL projects. AL-Go supports source control and activities, like building, testing, and deploying. As a preview, Business Central now offers an Al-Go version that supports for Power Platform solutions. The preview, for example, includes workflows that let you push and pull Power Platfrom changes to and from enviroments. You can access the tools at [https://github.com/BusinessCentralDemos/AL-Go-PTE](https://github.com/BusinessCentralDemos/AL-Go-PTE). For more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm).-->
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Búa til vinnusvæðisforrit úr sniðmáti í Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  

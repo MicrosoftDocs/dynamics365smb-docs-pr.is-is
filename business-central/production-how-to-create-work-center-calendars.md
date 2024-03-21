@@ -9,7 +9,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Setja upp dagatal verkstæðis
+# <a name="set-up-shop-calendars"></a>Setja upp dagatal verkstæðis
 
 Dagatal vinnustöðva eða véla tilgreinir vinnudaga og -stundir, vaktir, frídaga og fjarvistir sem hafa áhrif á mögulega heildarafkastagetu, mælda í tíma, með tilliti til tilgreindra gilda skilvirkni og getu.
 
@@ -17,7 +17,7 @@ Fyrst þarf að setja upp eitt eða fleiri almenn dagatöl verkstæðis, sem gru
 
 Eftirfarandi lýsir því hvernig á að setja upp dagatöl vinnustöðva. Skrefin eru svipuð þegar sett eru upp dagatöl vélastöðva.  
 
-## Vaktir stofnaðar  
+## <a name="to-create-work-shifts"></a>Vaktir stofnaðar
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnuvaktir** og velja síðan viðkomandi tengil.  
 2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna vaktina t.d. **1**.  
 3.  Vaktinni er lýst í reitnum **Lýsing** t.d. **1. vakt**  
@@ -25,7 +25,7 @@ Eftirfarandi lýsir því hvernig á að setja upp dagatöl vinnustöðva. Skref
 
 Jafnvel þótt vinnustöðvarnar noti ekki vaktaskipulag þarf að færa inn a.m.k. einn vaktakóta.  
 
-## Dagatal verkstæðis sett upp  
+## <a name="to-set-up-a-shop-calendar"></a>Dagatal verkstæðis sett upp
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Dagatal verkstæðis** og velja síðan viðkomandi tengil.  
 2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna dagatal verkstæðis.  
 3.  Dagatali verkstæðisins er lýst í reitnum **Lýsing**.  
@@ -59,7 +59,7 @@ Tilgreindir frídagar hafa enga mögulega afkastagetu í dagatali vinnustöðvar
 
 Nú er hægt að úthluta dagatali verkstæðis á vinnustöð til útreiknings á dagatali vinnustöðvar sem mun stjórna tímasetningum aðgerða á þeirri vinnustöð.  
 
-## Dagatal vinnustöðvar reiknað út  
+## <a name="to-calculate-a-work-center-calendar"></a>Dagatal vinnustöðvar reiknað út
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnustöðvar** og velja síðan viðkomandi tengil.
 2. Opna vinnustöðina sem á að uppfæra.  
@@ -87,7 +87,7 @@ Dagatalsfærslur eru nú búnar til (eða þær uppfærðar) og sýna þær mög
 
 Reiknað dagatal vinnustöðvar skilgreinir nú hvenær og hversu mikil afkastageta er til staðar í þessari vinnustöð. Þetta stýrir ítarlegri röðun aðgerða sem framkvæmdar eru í vinnustöðinni.  
 
-## Fjarvistir í vinnustöð skráðar  
+## <a name="to-record-work-center-absence"></a>Fjarvistir í vinnustöð skráðar
 1.  Á síðunni **Dagatal vinnustöðvar**, skal velja **Sýna fylki** aðgerðina.
 2. Á síðunni **Dagatal vinnustöðvar fylki** er valin vinnustöð sem og sá dagur dagatalsins sem skrá á fjarvistina á og svo er smellt á aðgerðina **Fjarvist**.  
 3.  Á síðunni **Fjarvist** er tilgreindur upphafs- og lokatími fjarvistar þessa dags sem og lýsing á henni. Dæmi:  
@@ -98,7 +98,7 @@ Reiknað dagatal vinnustöðvar skilgreinir nú hvenær og hversu mikil afkastag
 
 Afkastageta þessa dags hefur nú minnkað í samræmi við skráðan fjarvistartíma.  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 [Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)  
 [Setja upp vinnu- og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

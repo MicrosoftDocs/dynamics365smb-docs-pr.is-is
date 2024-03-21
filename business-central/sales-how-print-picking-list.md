@@ -9,13 +9,13 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Prenta tiltektarlistann.
+# <a name="print-the-picking-list"></a>Prenta tiltektarlistann.
 
 Hægt er að prenta tiltektarlista beint úr sölupöntun, sölureikningi og öðru fylgiskjal sem hefur sendingu.
 
 Þessi skýrsla er vanalega notuð í fyrirtækjum án þess að nota virkni fyrir vöruhúsastjórnun svo að birgðastarfsmaður geti skoðað eða prentað tiltektarlistann úr tengdu söluskjali. Í fyrirtækjum með hærra rúmmál eða flóknari ferli, sendingu og tiltekt eru fyrirhuguð og framkvæmd í sérgerð vöruhúsaskjala. Frekari upplýsingar um flæði vöruhúss á  [útleið](design-details-outbound-warehouse-flow.md).
 
-## Til að prenta tínslulista úr sölupöntun
+## <a name="to-print-a-picking-list-from-a-sales-order"></a>Til að prenta tínslulista úr sölupöntun
 
 Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnur skjöl sem hægt er að nota til að hefja sendingu á vörum, s.s. flutningspöntun.
 
@@ -29,7 +29,7 @@ Einnig er hægt að vista tiltektarlistann sem skjal, til dæmis til að senda t
 > [!NOTE]
 > Ef þú notaðir aðgerðina **Opna uppskrift** á sölupöntuninni eru aðeins þættir tengds samsetningaríhlutar birtir í skýrslunni. Lærðu meira í  [vinnunni með uppskriftum](inventory-how-work-BOMs.md).
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Birgðir](inventory-manage-inventory.md)  
 [Vinna á flæðiengi](design-details-outbound-warehouse-flow.md)
