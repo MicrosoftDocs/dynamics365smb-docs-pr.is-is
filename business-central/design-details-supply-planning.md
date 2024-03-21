@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-supply-planning"></a>Hönnunarupplýsingar: framboðsáætlun
+# Hönnunarupplýsingar: framboðsáætlun
 
 Í þessum kafla er fjallað ítarlega um tæknilega innsýn í hugmyndafræði og meginreglur í áætlunaraðgerðum framboðins í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -21,7 +21,7 @@ Greinarnar útskýra hvernig áætlanakerfið virkar:
 * Lýsir rökum aðalvélstjóra, sem er framboðsjöfnunarsæti
 * Útskýra hvernig á að nota endurpöntunarstefnur í birgðaáætlanagerð  
 
-## <a name="in-this-section"></a>Í þessum hluta
+## Í þessum hluta  
 
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
 [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)  

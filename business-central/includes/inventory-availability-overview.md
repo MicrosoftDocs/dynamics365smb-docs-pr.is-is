@@ -26,11 +26,11 @@ Upplýsingarnar virða einnig aðra þætti sem hafa áhrif á framboð. Til dæ
 > [!NOTE]
 > Þessi möguleiki krefst þess að þú kveikir á **Bein frágangi og Velja** rofi fyrir staðsetningarnar sem þú notar í tínsluferlinu þínu.
 
-### <a name="set-up-previews"></a>Settu upp forsýningar
+### Settu upp forsýningar
 
 Til að fá upplýsingar um hvað er verið að velja og hvað ekki skaltu kveikja á **Sýna samantekt (bein frágangi og vali)** kveikja á **Whse.-Source - Búa til skjal** eða **Whse.-Shipment - Búa til Pick** beiðnisíður.
 
-### <a name="determine-the-quantity-you-can-pick"></a>Ákveðið magnið sem þú getur valið
+### Ákveðið magnið sem þú getur valið
 
 Á línum á  **Create Warehouse Pick Summary** síðunni er **Magn. to Handle (Base)** reiturinn sýnir hvaða og hversu mörg atriði [!INCLUDE [prod_short](prod_short.md)] reyndu að velja.  **Samantekt** Staðreyndakassinn veitir frekari upplýsingar.
 
@@ -57,7 +57,7 @@ Eftirfarandi mynd sýnir hámarksmagn sem tekið er til greina við tínslu.
 |Á     |Bakkar með innihaldi af gerðinni Velja með læstri útleið         |
 |O     |Aðrar ruslar         |
 
-### <a name="reservations"></a>Bókanir
+### Bókanir
 
 Ef fyrirvarar eru fyrir vöruna sem verið er að velja heldur útreikningurinn áfram. Hugmyndin er sú að frátekin eftirspurn hafi meiri forgang en ekki frátekin, sem þýðir að tínsla fyrir óátekna eftirspurn ætti ekki að koma í veg fyrir tínslu fyrir frátekna eftirspurn síðar.
 
@@ -75,7 +75,7 @@ The **Gegn. Magn. Að undanskildum sendingarhólfi** reiturinn sýnir magnið se
 
 Munurinn á **Avail. Magn. Að frátöldum sendingarhólfi** og fráteknu magni í vöruhúsi er það magn sem er tiltækt til tínslu án þess að hafa áhrif á frátekið lager.
 
-### <a name="other-details"></a>Aðrar upplýsingar
+### Aðrar upplýsingar
 
 Ef vörur krefjast vörurakningar geturðu einnig fundið magnið í læstum hlutum eða raðnúmerum, sem veldur eftirfarandi lækkunum:
 

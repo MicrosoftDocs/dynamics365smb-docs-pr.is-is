@@ -11,9 +11,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a>Flýtivísun lyklaborðs - eingöngu PC
+# Flýtivísun lyklaborðs - eingöngu PC
 
-#### <a name="general"></a>Almennt
+#### Almennt
 
 |Veldu þessa lykla|Til að gera þetta|  
 |-|-|
@@ -40,7 +40,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Færa áherslu á næstu/fyrri einingu|
 |<kbd>F6</kbd>/<kbd>Skift</kbd>+<kbd>F6</kbd>|Fara yfir í næsta flýtiflipa/hluta|
 
-#### <a name="navigate--select-rows"></a>Sigla & veldu línur
+#### Sigla & veldu línur
 
 |Veldu þessa lykla|Til að gera þetta|
 |-|-|
@@ -54,14 +54,14 @@ ms.custom: bap-template
 |<kbd>Breyta</kbd>+<kbd>síðu upp</kbd>/<kbd>niður</kbd>|Velja sýnilegar raðir fyrir ofan/neðan|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Setja áherslu utan listans|
 
-#### <a name="copy--paste"></a>Afrita & líma
+#### Afrita & líma
 
 |Veldu þessa lykla|Til að gera þetta|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Afrita/líma raðir|
 |<kbd>F8</kbd>|Afrita reit hér að ofan í núverandi röð|
 
-#### <a name="search-filter--sort"></a>Leita, sía, & flokka
+#### Leita, sía, & flokka
 
 |Veldu þessa lykla|Til að gera þetta|
 |-|-|
@@ -72,20 +72,20 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Bættu við síu á völdum reit|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Endurstilla afmarkanir|
 
-#### <a name="quick-entry"></a>Fljótleg innkoma
+#### Fljótleg innkoma
 
 |Veldu þessa lykla|Til að gera þetta|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Fara í næsta reit flýtifærslu utan lista|
 |<kbd>Sláðu inn</kbd>/<kbd>Shift</kbd>+<kbd>Enter</kbd>|Fara í næsta/fyrri reit flýtifærslu|
 
-##### <a name="report-preview"></a>Tilkynna forskoðun
+##### Tilkynna forskoðun
 
 |Veldu þessa lykla|Til að gera þetta|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Heima</kbd>/<kbd>Endir</kbd>|Fara á fyrstu/síðustu síðu|
 
-#### <a name="numeric-keypad"></a>Talnatakkaborð
+#### Talnatakkaborð
 
 |Veldu þessa lykla|Til að gera þetta|  
 |-|-|

@@ -11,14 +11,14 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
+# Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
 
 [!INCLUDE [prod_short](includes/prod_short.md)] gerir þér kleift að veita samsetningarvörur á eftirfarandi hátt:
 
 * Setja saman til að panta  
 * Setja saman á lager  
 
-## <a name="assemble-to-order"></a>Setja saman til að panta
+## Setja saman til að panta
 
 Notaðu samsetningarferlið fyrir vörur sem þú vilt ekki eiga á lager. Til dæmis af eftirfarandi ástæðum:
 
@@ -44,7 +44,7 @@ Notaðu samsetningarferlið fyrir vörur sem þú vilt ekki eiga á lager. Til d
 
 Til að tilgreina að vara sé sett saman-til-pöntunar, í  **reitnum Samsetningarregla**  á  **birgðaspjaldinu**  síðu fyrir vöruna, skal velja  **setja saman pöntun**.  
 
-## <a name="assemble-to-stock"></a>Setja saman á lager
+## Setja saman á lager
 
 Nota skal samsetningarferlið, til að taka saman birgðir, og geyma fyrir síðari sölu. Samsettar vörur á lager eru staðlaðar vörur, eins og pakkað pökkum, sem þú Sérsníður ekki. Einnig er hægt að nota þessar vörur sem undirsamsetningaríhluti. Vörurnar eru teknar til og unnar í stökum vörum og eru meðhöndlaðar sem tilbúnar framleiðsluvörur. Til að fræðast meira um samsetningarvörur er farið í  [setja saman atriði](assembly-how-to-assemble-items.md).  
 
@@ -55,7 +55,7 @@ Nota skal samsetningarferlið, til að taka saman birgðir, og geyma fyrir síð
 
 Til að tilgreina að vara sé sett saman við birgðir, í  **reitnum Samsetningarregla**  á  **birgðaspjaldinu**  -síðunni fyrir vöruna, skal velja  **setja saman birgðir**.  
 
-## <a name="combination-scenarios"></a>Samsetning atburðarásar
+## Samsetning atburðarásar
 
 Þegar saman-til-pöntunar-og birgðamagn er sameinað sölupöntun þarf að setja magn saman til að magnið sé sent fyrst.  
 
@@ -97,7 +97,7 @@ Samkvæmt þessu dæmi er hægt að breyta  **magninu sem á að setja saman**  
 * Lágmarksmagn sem hægt er að færa inn er 1. Þú verður að setja saman einingarnar að minnsta kosti eina einingu til að selja þær fjórar, miðað við að hinar þrjár séu tiltækar í birgðum.  
 * Hámarksmagn sem hægt er að færa inn er 4. Þessi takmörk tryggja að þú skalt ekki setja meira af vörunni en þú þarft fyrir söluna.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  

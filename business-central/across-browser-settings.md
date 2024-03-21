@@ -9,19 +9,19 @@ ms.date: 12/04/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Uppsetning og úrræðaleit vafrann þinn til að vinna með Business Central Web Client
+# Uppsetning og úrræðaleit vafrann þinn til að vinna með Business Central Web Client
 
 Þessi grein útskýrir hvernig á að setja upp vafrann þannig að [!INCLUDE[web_client](includes/web_client.md)] og allir eiginleikar þess virki rétt. Lestu þessa grein ef þú átt í vandræðum með að opna [!INCLUDE[web_client](includes/web_client.md)], stillingar vafrans geta verið orsök sumra vandamála.
 
 Í greininni er að finna upplýsingar fyrir uppsetningu Microsoft Edge, en kröfur um JavaScript, fótspor og sprettiglugga eru þær sömu fyrir alla studda vafra. Fyrir aðra vafra skal skoða leiðbeiningarnar sem framleiðandinn gefur upp.  
 
-## <a name="use-a-supported-browser"></a>Notaðu studdan vafra
+## Notaðu studdan vafra
 
 Gættu þess að nota einn af studdu vöfrunum. Sjá [Lágmarkskröfur fyrir notkun Business Central](product-requirements.md#browsers).
 
 Við mælum með því að þú notir stöðuga rásarútgáfu af vafra þar sem það er áreiðanlegasta og stöðugasta útgáfan sem hefur gengið í gegnum miklar prófanir og villuleiðréttingu. Þetta tryggir að þú hafir bestu upplifunina og ert ólíklegri til að lenda í vandræðum meðan þú notar vefþjóninn.  
 
-## <a name="allow-javascript-from-business-central"></a>Leyfa JavaScript úr Business Central
+## Leyfa JavaScript úr Business Central
 
 *Vandamál:*
 
@@ -38,7 +38,7 @@ The resource you are looking for has been removed, had its name changed, or is t
     - Færa **Leyft** til vinstri (slökkt). Síðan skal velja **Bæta við** og slá inn vistfang (URL) fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í reitnum **Svæði**. Velja **Bæta við** að þessu loknu.
     - Færa **Leyft** til hægri (kveikt).
 
-## <a name="allow-cookies-from-business-central"></a>Leyfa kökur úr Business Central
+## Leyfa kökur úr Business Central
 
 *Vandamál:*
 
@@ -51,7 +51,7 @@ Ef vafrinn leyfir ekki vafrakökur færðu eftirfarandi villu:
 1. Í Microsoft Edge, ferðu í **Stillingar** > **Fótspor og heimildir svæðis** > **Fótspor og gögn svæðis**.
 2. Færið **Leyfa vefsvæðum að vista og lesa kökugögn** til hægri (kveikt).  
 
-## <a name="allow-pop-ups-from-business-central"></a><a name="popup"></a>Leyfa sprettiglugga úr Business Central
+## <a name="popup"></a>Leyfa sprettiglugga úr Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] samþættist við nokkrar vörur. Í sumum tilfellum, eins og með Microsoft Teams, [!INCLUDE[prod_short](includes/prod_short.md)] opnast eða „sprettiglugga“ í vörunni. Þessi eiginleiki krefst þess að vafrinn þinn leyfi sprettiglugga í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -76,7 +76,7 @@ Try again
 2. Færa **Lokað fyrir** til hægri (kveikt).
 3. Veljið **Bæta við**. Í reitinn **Svæði** skal slá inn `https://businesscentral.dynamics.com` og síðan velja **Bæta við**.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  
 

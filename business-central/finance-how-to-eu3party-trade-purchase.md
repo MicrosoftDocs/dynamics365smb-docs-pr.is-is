@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="eu-third-party-purchase-transactions"></a>Innkaupafærslur þriðju aðila ESB
+# Innkaupafærslur þriðju aðila ESB
 
 Samningur við Evrópusambandið (ESB) um viðskipti þriðja aðila þegar tekið er við innkaupareikningi frá viðskiptavini í einu ESB-landi/svæðinu og afurðirnar eru sendar til annars ESB-lands/svæðis án þess að það komi inn í dvalarlandið. Hægt er að auðkenna og skrá færsluupphæðina til samræmis við nokkur ESB-lönd '/svæði fyrir virðisauka (VSK) skýrslugerð og VSK Upplýsingaskiptakerfi (VIES). Microsoft  Dynamics 365 Business Central  virkjar að innkaupafærslur verði settar upp sem þriðja aðila í VIÐSKIPTUM ESB. Bókaðar færslur frá þriðja aðila ESB geta verið afmarkaðar í VSK-skýrslum og útilokaðar upphæðina í  **dálknum**  Sala til viðskiptamanna  **VSK-VIES**  -skýrslu.
 
@@ -21,19 +21,19 @@ Samningur við Evrópusambandið (ESB) um viðskipti þriðja aðila þegar teki
 2. Á listanum skal finna og velja  **aðgangsuppfærslu: skipta út fyrirliggjandi innkaupaaðgerðum ESB 3-aðila með NÝJA ESB-3-aðila viðskiptainnkaupanafnaukanum**.
 3.  **Í dálkinum virkt fyrir**  dálk skal velja  **alla notendur**.
 
-## <a name="enable-eu-third-party-trade-functionality-for-a-purchase"></a>Virkja viðskiptaþvingun þriðja aðila ESB fyrir innkaup
+## Virkja viðskiptaþvingun þriðja aðila ESB fyrir innkaup
 
 1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **VSK-uppsetningu** og velja síðan tengda tengilinn.
 2. Á uppsetningarsíðu  **VSK, merkið við**  REITINN virkja ESB-3-aðila  **.** 
 
-## <a name="use-eu-third-party-trade-functionality"></a>Nota ESB-aðgerðir þriðja aðila
+## Nota ESB-aðgerðir þriðja aðila
 
 1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **innkaupareikning**  (eða annað innkaupaskjal) og velja síðan tengda tengilinn.
 2. Veljið fyrirliggjandi innkaupareikning eða veljið  **nýtt**  til að stofna nýjan.
 3.  **Á flipanum upplýsingar um sundurliðun**  reiknings skal velja  **gátreitinn eu 3-aðila viðskipti** .
 4. Veldu  **í lagi**.
 
-## <a name="include-or-exclude-eu-third-party-trade-records-on-the-vat-statement"></a>Taka eða útiloka viðskiptafærslur frá þriðja aðila á VSK-yfirliti
+## Taka eða útiloka viðskiptafærslur frá þriðja aðila á VSK-yfirliti
 
 1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, færa inn  **VSK-yfirlit** og velja síðan tengda tengilinn.
 2.  **Á VSK-yfirlitssíðu**  er valinn einn af eftirtöldum valkostum til að sýna viðskiptafærslur þriðju aðila með því að nota  **ESB-3-aðila viðskiptaafmörkunarsvæði** .
@@ -45,7 +45,7 @@ Samningur við Evrópusambandið (ESB) um viðskipti þriðja aðila þegar teki
     | Non-EU3 | Sýna aðeins færslur þar sem ekki eru  **merktar viðskiptasvæði**  ESB 3-aðila í skjölum. |
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 [Fjármálastjórnun](finance.md)  
 [Vinna með Business Central](ui-work-product.md)
 

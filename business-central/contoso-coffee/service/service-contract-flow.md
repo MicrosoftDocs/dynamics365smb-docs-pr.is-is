@@ -9,7 +9,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-service-contracts-for-service-items"></a>Yfirferð þjónustusamninga fyrir þjónustuvörur
+# Yfirferð þjónustusamninga fyrir þjónustuvörur
 
 Þessi leiðsögn sýnir nokkra kjarnaferla:
 
@@ -20,13 +20,13 @@ ms.service: dynamics-365-business-central
 - Ljúktu við tímafærsluna fyrir þjónustupöntunina
 - Bókaðu og reikningsfærðu samningsþjónustupöntunina
 
-## <a name="creation-of-service-items"></a>Gerð þjónustuhluta
+## Gerð þjónustuhluta
 
-### <a name="scenario"></a>Aðstæður
+### Aðstæður  
 
 Susan, pöntunarvinnsla, birtir sölupöntun sem selur hlut sem er stilltur til að búa til þjónustuvöru.  
 
-### <a name="steps"></a>Skref
+### Skref
 
 1. Athugaðu að **Item** hafi **Service Item Group** valið.
    
@@ -40,13 +40,13 @@ Susan, pöntunarvinnsla, birtir sölupöntun sem selur hlut sem er stilltur til 
     2. Veldu pöntun fyrir viðskiptavin 10000. Ytri pantanir nr. er *SVC-1*.
     3. Veldu **Post** aðgerðina til að senda vöruna til viðskiptavinarins.
 
-### <a name="results"></a>Niðurstöður
+### Niðurstöður
 
 - Þjónustuvara er búin til fyrir viðskiptavin 10000
 
-## <a name="invoicing-a-service-contract"></a>Innheimta þjónustusamnings
+##  Innheimta þjónustusamnings
 
-### <a name="scenario-1"></a>Aðstæður
+### Aðstæður
 
 Charles, þjónustustjóri, býr síðan til þjónustusamning til að reikningsfæra fyrir reglulegar viðhaldsheimsóknir.
 
@@ -69,18 +69,18 @@ Charles, þjónustustjóri, býr síðan til þjónustusamning til að reiknings
    1. Veldu ![peru sem opnar Segðu mér eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustureikningar** og velja síðan viðkomandi tengil.
    2. Finndu þjónustureikninginn og veldu  **Post** aðgerðina.
 
-### <a name="results-1"></a>Niðurstöður
+### Niðurstöður
 
 - Undirritaður þjónustusamningur er búinn til, með fjárhagsfærslum
 - Bókaður þjónustureikningur er búinn til
 
-## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Stofna þjónustupöntun fyrir þjónustusamning og úthluta tilföngum
+## Stofna þjónustupöntun fyrir þjónustusamning og úthluta tilföngum
 
-### <a name="scenario-2"></a>Aðstæður
+### Aðstæður  
 
 Charles, þjónustustjóri, býr til þjónustupantanir fyrir reglubundnar viðhaldspantanir samkvæmt þjónustusamningi og fer síðan yfir sendingarráðið til að úthluta þeim.
 
-### <a name="steps-1"></a>Skref
+### Skref
 
 1. Keyra þjónustupantanir sem uppfylla skyldur virkra þjónustusamninga.
    1. Veldu ![peru sem opnar Segðu mér eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Stofna samn.þjónustupantanir** og svo velja viðeigandi tengil.
@@ -103,21 +103,21 @@ Charles, þjónustustjóri, býr til þjónustupantanir fyrir reglubundnar viðh
     3. Úthlutuninni er breytt í Staða í Virk.
     4. Við að endurnýja sendingarborðið sýnir **fjölda úthlutana** breytt úr 0 í 1 fyrir þjónustupöntunina.
 
-### <a name="results-2"></a>Niðurstöður
+### Niðurstöður
 
 - Þjónustupantanir eru búnar til fyrir þjónustusamningana
 - Þjónustupantunum er úthlutað til auðlindar til að ljúka verkinu
 
-## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Ljúktu við tímafærsluna fyrir þjónustupöntunina og bókaðu þjónustupöntunina
+## Ljúktu við tímafærsluna fyrir þjónustupöntunina og bókaðu þjónustupöntunina
 
-### <a name="scenario-3"></a>Aðstæður
+### Aðstæður  
 
 Þjónustutæknir skráir tíma sinn beint við þjónustupöntunina og merkir síðan pöntun sem lokið.
 
 > [!NOTE]
 > Hægt er að slá inn tímafærslu fyrir þjónustupantanir í gegnum tímaskýrslur. Fyrir frekari upplýsingar, sjá [tengill á tímablað ef þessi athugasemd er skynsamleg].
 
-### <a name="steps-2"></a>Skref
+### Skref
 
 1. Finndu þjónustupöntunina og sláðu inn tímann í þjónustulínuna
    1. Veldu ![peru sem opnar Segðu mér eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.
@@ -132,11 +132,11 @@ Charles, þjónustustjóri, býr til þjónustupantanir fyrir reglubundnar viðh
 2. Bókaðu neyslu á þjónustupöntuninni
    1. Veldu aðgerðina **Posta** til að ljúka þjónustupöntuninni, veldu **Send og neytið** aðgerðina og veldu síðan  **OK** hnappur.
 
-### <a name="results-3"></a>Niðurstöður
+### Niðurstöður
 
 - Þjónustubókarfærslur eru búnar til í tengslum við þjónustuvöru, þjónustusamning og tilföng
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning á Contoso Coffee Demo Data](../../contoso-coffee/contoso-coffee-intro.md)  
 [Um framleiðslupantanir](../../production-about-production-orders.md)

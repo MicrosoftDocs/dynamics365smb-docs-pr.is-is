@@ -9,7 +9,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="introduction-to-contoso-coffee-service-management"></a>Kynning á þjónustustjórnun Contoso Kaffi
+# Kynning á þjónustustjórnun Contoso Kaffi
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki.  **Contoso Coffee** öppin fyrir Business Central bæta við kynningargögnum sem þú getur notað til að læra hvernig á að nota þjónustustjórnunargetu í Business Central.
 
@@ -23,7 +23,7 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 > Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Fyrir frekari kröfur, sjá [Setja upp Contoso kaffigögn](#set-up-contoso-coffee-service-management-data) hlutann.
 >
 > 
-## <a name="set-up-contoso-coffee-service-management-data"></a>Settu upp Contoso Coffee þjónustustjórnunargögn
+## Settu upp Contoso Coffee þjónustustjórnunargögn
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -42,7 +42,7 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
-## <a name="scenarios"></a>Dæmi
+## Dæmi
 
 Contoso Coffee kynningargögnin styðja eins og er eftirfarandi þjónustusviðsmyndir fyrir próf og þjálfun:
 
@@ -55,6 +55,6 @@ Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
 > Þjónustuleiðirnar krefjast þess að notendaupplifun sé stillt á **Premium** á  **Fyrirtækisupplýsingum** síðunni.
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Þjónusta](../../service-service.md)

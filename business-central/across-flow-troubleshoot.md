@@ -10,40 +10,40 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="troubleshoot-your--automated-workflows"></a>Lestu úr [!INCLUDE[prod_short](includes/prod_short.md)] sjálfvirku verkflæðinu þínu
+# Lestu úr [!INCLUDE[prod_short](includes/prod_short.md)] sjálfvirku verkflæðinu þínu
 
 Þegar þú tengir [!INCLUDE [prod_short](includes/prod_short.md)] við Power Automate til að búa til sjálfvirk verkflæði gætu komið upp villuboð. Í þessari grein er að finna tillögur að lausnum á endurteknum vandamálum.
 
-## <a name="flow-doesnt-run-on-all-records-created-or-changed"></a>Flæði keyrir ekki á öllum færslum sem eru stofnaðar eða breytt
+## Flæði keyrir ekki á öllum færslum sem eru stofnaðar eða breytt
 
-### <a name="problem"></a>Vandamál
+### Vandamál
 
 Ef atburður býr til eða breytir mörgum færslum, keyrir flæðið ekki á sumum eða öllum færslum.
 
-### <a name="possible-cause"></a>Möguleg orsök
+### Möguleg orsök
 
 Eins og er eru takmörk fyrir því hversu margar færslur flæði getur unnið úr. Ef fleiri en 1000 færslur eru búnar til eða þeim breytt innan 30 sekúndna er flæðið ekki ræst.
 
 > [!NOTE]
 > Fyrir þróunaraðila er ræsing flæðis gerð í gegnum tilkynningar veftengingar og þessi takmörkun er vegna þess hvernig tengill Business Central meðhöndlar `collection` tilkynningar. Frekari upplýsingar er að finna í [Unnið með veftengingar í Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) í hjálp þróunaraðila og stjórnanda.
 
-## <a name="the-response-from-the-business-central-service-is-too-large-error"></a>"Svarið frá Business Central þjónustunni er of stórt" villa
+## "Svarið frá Business Central þjónustunni er of stórt" villa
 
-### <a name="problem-1"></a>Vandamál
+### Vandamál
 
 Þegar aðgerð er notuð sem hefur samskipti við færslur (eins og *Búa til færslu (V3)* og *Fá færslu (V3)*), Power Automate gæti birt villu svipaða þessari:
 
 `The response from the Business Central service is too large`
 
-### <a name="possible-cause-1"></a>Möguleg orsök
+### Möguleg orsök
 
 Jafnvel þó að Business Central hafi engin ákveðin takmörk á stærð færslur sem skila af API, getur Dynamics 365 Business Central tengi fyrir Power Automate aðeins séð um allt að 8 MB færslur.
 
 Öll Business Central API sem Microsoft útvegar skila gögnum undir þessum mörkum, en API sem samstarfsaðilar veita ekki. Ef þú sérð villuna „Svarið frá Business Central þjónustunni er of stórt,“ hafðu samband við samstarfsaðilann sem bjó til API sem þú ert að nota.
 
-## <a name="entity-set-not-found-error"></a>Villan „Einingasamstæða finnst ekki“
+## Villan „Einingasamstæða finnst ekki“
 
-### <a name="problem-2"></a>Vandamál
+### Vandamál
 
 Þegar nýtt Power Automate flæði er búið til með því að nota [!INCLUDE[prod_short](includes/prod_short.md)] samþykkisræsingu, eins og *Þegar beðið er um samþykki innkaupaskjals* gætu komið upp villuboð svipuð og þessi:
 
@@ -51,11 +51,11 @@ Jafnvel þó að Business Central hafi engin ákveðin takmörk á stærð færs
 
 Staðgengillinn, `\<name\>`, er þjónustuheiti vefþjónustunnar sem vantar, t.d. *workflowWebhookSubscriptions* eða *workflowPurchaseDocumentLines*.
 
-### <a name="possible-cause-2"></a>Möguleg orsök
+### Möguleg orsök
 
 Notkun Power Automate fyrir samþykki krefst þess að ákveðnir síðu- og kóðaeiningarhlutir séu birtir sem vefþjónustur. Sjálfgefið er að flestir nauðsynlegir hlutir séu birtir sem vefþjónustur. En í sumum tilfellum gæti umhverfið þitt verið sérsniðið þannig að þessir hlutir eru ekki lengur birtir.
 
-### <a name="fix"></a>Laga
+### Laga
 
 Farðu á síðuna **Vefþjónustur** og gakktu úr skugga um að eftirfarandi hlutir séu birtir sem vefþjónustur. Það ætti að vera færsla í listanum fyrir hvern hlut með gátreitinn **Birt** valinn.  
 
@@ -78,7 +78,7 @@ Farðu á síðuna **Vefþjónustur** og gakktu úr skugga um að eftirfarandi h
 
 Frekari upplýsingar um vefþjónustur er að finna í [Gefa út vefþjónustu](across-how-publish-web-service.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Nota Power Automate flæði í [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Verkflæði](across-workflow.md)  

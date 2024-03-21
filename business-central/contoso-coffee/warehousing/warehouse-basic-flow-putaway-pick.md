@@ -11,17 +11,17 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a>Kynning á flæði á inn- og útleið í Grunngrunnstilling vöruhúss
+# Kynning á flæði á inn- og útleið í Grunngrunnstilling vöruhúss
 
 Þessi kynning sýnir hvernig ljúka á inn- og útleiðarflæði í grunnstillingunni: Pöntun-fyrir-pöntun. Nánari upplýsingar eru í [Yfirlit um mismunandi skilgreiningarvalkosti](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði  
 Til að ljúka þessari kynningu þarf að gera notanda að vöruhúsastarfsmanni í birgðageymslunni *SILVER* með eftirfarandi skrefum:  
 1.  ![Veldu Lightbulb sem opnar Tell Me aðgerð 1.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
 2. Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
 3. Í reitinn **Kóti** birgðageymslu er SILVER *slegið inn*.  
 
-## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Innleiðarflæði: Móttaka og frágangur í einfaldri vöruhúsagrunnstillingu
+## Innleiðarflæði: Móttaka og frágangur í einfaldri vöruhúsagrunnstillingu
 
 Í [!INCLUDE[prod_short](../../includes/prod_short.md)] er hægt að framkvæma ferli á innleið fyrir móttöku og frágang á fjóra vegu með því að nota mismunandi aðgerðir eftir flóknara stigi vöruhúss.  
 
@@ -36,10 +36,10 @@ Nánari upplýsingar eru [í Hönnunarupplýsingar: Vöruhúsaflæði](../../des
 
 Eftirfarandi kynning sýnir aðferð B í fyrri töflu.  
 
-### <a name="scenario"></a>Aðstæður
+### Aðstæður  
 Alicia, innkaupaaðilinn, stofnar innkaupapöntun fyrir ýmsar steiktar baunir. Þegar afhending berst í vöruhúsið gengur Jón, starfsmaður vöruhússins frá vörunum í hentug hólf. Þegar Jóhann bókar fráganginn eru vörurnar bókaðar sem mótteknar í birgðir og tiltækar til sölu eða annarrar eftirspurnar.  
 
-### <a name="steps"></a>Skref
+### Skref
 1. Setja upp síðuna **Birgðageymsluspjald** til að skilgreina vöruhúsaflæði inn í fyrirtækið.  
 
     1.   ![Veldu Lightbulb sem opnar Tell Me aðgerð 2.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
@@ -95,7 +95,7 @@ Alicia, innkaupaaðilinn, stofnar innkaupapöntun fyrir ýmsar steiktar baunir. 
 
     5.  Veldu aðgerðina **Bóka**, veldu **Móttaka** aðgerðina og veldu síðan **Í lagi** hnappinn.  
 
-### <a name="results"></a>Niðurstöður
+### Niðurstöður 
  - Steiktar baunir eru nú skráðar sem frágengnar í tilgreindum hólfum
  - reiturinn **Bókaður birgðah. Frágangur** er stofnaður
  -  **bókuð innkaupamóttaka** er stofnuð
@@ -103,7 +103,7 @@ Alicia, innkaupaaðilinn, stofnar innkaupapöntun fyrir ýmsar steiktar baunir. 
  - vörubirgðir **hækka** um valið magn
     
 
-## <a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a>Útleiðarflæði: Tínsla og afhending í Grunnvöruhúsgrunnstilling
+## Útleiðarflæði: Tínsla og afhending í Grunnvöruhúsgrunnstilling
 
 Í [!INCLUDE[prod_short](../../includes/prod_short.md)] er hægt að framkvæma ferla á útleið fyrir tínslu og afhendingu á fjóra vegu með mismunandi aðgerðum eftir flækjustigi vöruhússins.  
 
@@ -118,10 +118,10 @@ Nánari upplýsingar eru í [Hönnunarupplýsingar: Vöruhúsaflæði](../../des
 
 Eftirfarandi kynning sýnir aðferð B í fyrri töflu.
 
-### <a name="scenario-1"></a>Aðstæður
+### Aðstæður  
 Súsanna, pantanavinnslan, stofnar sölupöntun fyrir ýmsar steiktar baunir og sendir þær í vöruhús. Starfsmaður vöruhússins verður að vera fullviss um að afhendingin sé tilbúin og send til viðskiptamannsins. John hefur umsjón með öllum verkum á síðunni **Birgðatínsla** sem vísar sjálfkrafa á hólfin þar sem steiktar baunir eru geymdar.
 
-### <a name="steps-1"></a>Skref
+### Skref
 Þetta er framhald af [flæði á innleið: Móttaka og frágangur í Grunnvöruhúsgrunnstillingum](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Setja upp síðuna **Birgðageymsluspjald** til að skilgreina vöruhúsaflæði inn í fyrirtækið.  
@@ -158,7 +158,7 @@ Súsanna, pantanavinnslan, stofnar sölupöntun fyrir ýmsar steiktar baunir og 
 
 5. Veldu aðgerðina **Bóka**, veldu **Afhenda** og veldu síðan **Í lagi** hnappinn.  
 
-### <a name="results-1"></a>Niðurstöður
+### Niðurstöður
  - Steiktar baunir eru nú skráðar sem tíndar úr tilteknum hólfum
  - reiturinn **Bókaður birgðah. Tínsla** er stofnuð
  -  **bókuð söluafhending** er stofnuð
@@ -166,7 +166,7 @@ Súsanna, pantanavinnslan, stofnar sölupöntun fyrir ýmsar steiktar baunir og 
  - vörubirgðir **eru** minnkaðar um valið magn
 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Frágangsvörur með birgðafráganga](../../warehouse-how-to-put-items-away-with-inventory-put-aways.md) 
 [Setja upp grunnvöruhús með aðgerðasvæðum](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md) 
 [Hönnunarupplýsingar: Vöruhúsaflæði á innleið](../../design-details-inbound-warehouse-flow.md) 

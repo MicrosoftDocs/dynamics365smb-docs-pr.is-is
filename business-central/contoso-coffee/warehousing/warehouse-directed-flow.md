@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Farið yfir inn- og útstreymi í háþróaðri vöruhúsastillingu
+# Farið yfir inn- og útstreymi í háþróaðri vöruhúsastillingu
 
 Þessi leið sýnir hvernig á að klára inn- og útstreymi í Advanced: Directed Put-away and Pick stillingunum. Fyrir frekari upplýsingar, sjá [Yfirlit yfir mismunandi stillingarvalkosti](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði  
 Til að ljúka þessari leiðsögn þarftu að gera þig að vöruhússtarfsmanni á *WHITE* stað með því að fylgja þessum skrefum:  
 1. Veldu ![peruna sem opnar Segðu mér eiginleikann 1.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
 2. Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
@@ -23,10 +23,10 @@ Til að ljúka þessari leiðsögn þarftu að gera þig að vöruhússtarfsmann
 4. Virkjaðu **Sjálfgefið** rofa.
 
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður  
 Ellen, vöruhússtjórinn notar virkni á milli bryggju og bakka til að flýta fyrir móttöku- og sendingartíma.  
 
-## <a name="steps"></a>Skref
+## Skref
 
 1. Búa til vöruhúsasendingu.  
 
@@ -135,7 +135,7 @@ Ellen, vöruhússtjórinn notar virkni á milli bryggju og bakka til að flýta 
     4. Staðfestu **Send** valkostinn.
 
 
-## <a name="results"></a>Niðurstöður
+## Niðurstöður
 -  **Bókuð vöruhússkvittun** er búin til
 -  **Skráð vöruhús frágangur** er búinn til    
 -  **bókuð innkaupakvittun** er búin til    
@@ -149,7 +149,7 @@ Ellen, vöruhússtjórinn notar virkni á milli bryggju og bakka til að flýta 
 
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 [Fáðu hluti](../../warehouse-how-receive-items.md) 
 [Hönnunarupplýsingar: Innleið vöruhúsaflæði](../../design-details-inbound-warehouse-flow.md) 
 [Sendunarvörur](../../warehouse-how-ship-items.md) 
