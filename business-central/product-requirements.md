@@ -10,11 +10,11 @@ ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Lágmarkskröfur til notkunar Business Central
+# <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur til notkunar Business Central
 
 Áður en þú ferð inn í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
 
-## Vafrar
+## <a name="browsers"></a>Vafrar
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.
   
@@ -27,19 +27,19 @@ ms.service: dynamics-365-business-central
 
 Mælt er með því að þú notir stöðugan rásarútgáfu af vafra þar sem það er áreiðanlegasta og stöðugasta útgáfan sem hefur gengist undir víðtæka prófun og galla festingu. Þetta tryggir að þú hafir bestu reynslu og eru minni líkur á að þú lendir í öllum vandamálum á meðan þú notar vefbiðlarann.
 
-## Fartæki
+## <a name="mobile-devices"></a>Fartæki
 
 **Android (spjaldtölva og sími):** Ein af síðustu þremur stóru stýrikerfisútgáfunum og uppfærslur þeirra.
 
 **iOS (iPad og iPhone):** Ein af nýjustu þremur stærstu útgáfum stýrikerfisins og uppfærslur þeirra.
 
-## Outlook
+## <a name="outlook"></a>Outlook
 
 **Outlook-forrit:** Til að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem viðskiptainnhólf í Outlook þarf Outlook 2019 eða nýrra eða Outlook á vefnum. Fyrirtækið þitt verður einnig að nota Microsoft 365. Ekki er hægt að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum. 
 
 **Vafrar:** Þegar notað [!INCLUDE[prod_short](includes/prod_short.md)] er sem viðskiptainnhólf í Outlook í vafra krefst innbótin þess að tölvan sé að keyra einn af studdu vöfrunum sem skráðir eru fyrr í þessari grein. 
 
-## Teams
+## <a name="teams"></a>Teams
 
 **Teams skjáborðsforrit:** [!INCLUDE[prod_short](includes/prod_short.md)] forritið fyrir Teams styður nýjustu útgáfu af Teams Windows skjáborðsforritinu. 
 
@@ -49,11 +49,11 @@ Mælt er með því að þú notir stöðugan rásarútgáfu af vafra þar sem �
 
 **Studd áskrift:** Forritið [!INCLUDE[prod_short](includes/prod_short.md)] fyrir teymi styður viðskipta Microsoft 365 - og fyrirtækjaáskriftir sem fela í sér Microsoft Teams eða Microsoft Teams EES, en ekki aðrar standalone Teams áskriftir eins og Microsoft Teams  (ókeypis) eða Microsoft Teams nauðsynlegar.
 
-## Excel
+## <a name="excel"></a>Excel
 
 **Breyta í Excel:** Til að nota Excel-viðbótina til að gera breytingar í Excel og ýta breytingunum aftur í [!INCLUDE[prod_short](includes/prod_short.md)] þarftu Excel 2019 eða síðar. Frekari upplýsingar eru í [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="TAC"></a> Notkun stjórnunarmiðstöðvar Business Central
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a>Notkun stjórnunarmiðstöðvar Business Central
 
 Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af eftirfarandi vöfrum:
 
@@ -62,11 +62,11 @@ Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af ef
 - Firefox fyrir Windows
 - Safari fyrir macOS
 
-## Fyrir Business Central á staðnum
+## <a name="use-business-central-on-premises"></a>Fyrir Business Central á staðnum
 
 Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Nánari upplýsingar [eru í Kerfisþarfir fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v23) yfirlit og [virkjun](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Kerfisþarfir fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v23)  
