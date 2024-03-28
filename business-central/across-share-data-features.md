@@ -8,13 +8,13 @@ ms.date: 09/21/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Deiling viðskiptagagna úr Business Central
+# <a name="sharing-business-data-from-business-central"></a>Deiling viðskiptagagna úr Business Central
 
 Samstarf fólks innan og utan fyrirtækis er ómissandi þáttur í flestum viðskiptum. [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á ýmsa eiginleika til að deila viðskiptagögnum, eins og lista yfir færslur, tilteknar færslur eða skjöl. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Með öllum þessum eiginleikum er aðgangur að gögnum varinn með leyfi og heimildum Business Central.
 
-## Afrita tengil
+## <a name="copying-a-link"></a>Afrita tengil
 
 ![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
@@ -33,22 +33,22 @@ Frá hvaða síðu sem er geturðu afritað vefslóð síðunnar, síðan líma 
 > [!TIP]
 > Svipuð nafnavenja er notuð á flipum vafra.
 
-### Samnýting gagnagreiningar
+### <a name="share-data-analysis"></a>Samnýting gagnagreiningar
 Ef verið er að skoða síðu eða fyrirspurn í gagnagreiningarstillingunni er hægt að samnýta tiltekinn greiningarflipa með því að velja niðurörina á flipanum og velja **síðan Afrita tengil**. [Fá nánari upplýsingar um gagnagreiningarstillingu](analysis-mode.md). 
 
-### Breyta tengli síðunnar
+### <a name="modify-the-page-link"></a>Breyta tengli síðunnar
 
 Þegar þú afritar tengil og áður en þú sendir hann geturðu breytt vefslóðinni til að stýra því hvað er sýnt þegar síðan opnast. Til dæmis er hægt að bæta við síum eða tilgreina annað fyrirtæki.
 
 [Fræðast meira um vefslóð](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) vefbiðlarans.
 
-### Um síaða lista
+### <a name="about-filtered-lists"></a>Um síaða lista
 
 Með því að nota síusvæðið á listasíðum geturðu notað síur til að þrengja færslurnar sem sýndar eru í listanum. Ef notuð er aðgerðin **Afrita tengil** eða vefslóðin úr vafranum er afrituð mun síðutengillinn ekki innihalda síubreytingarnar þínar. Notendur sem opna tengilinn sjá allt safnið. Besta leiðin til að halda síun á síðutengli safnsins er að vista fyrst síuðu síðuna sem **Yfirlit**. Opnaðu svo yfirlitið og afritaðu tengilinn þaðan.
 
 [Fræðast meira um röðun, leit og afmörkun](ui-enter-criteria-filters.md).
 
-## Deila með Teams
+## <a name="sharing-to-teams"></a>Deila með Teams
 
 ![Stutt](media/check.png) Business Central Online ![Ekki stutt](media/x-icon.png) Business Central á staðnum
 
@@ -56,7 +56,7 @@ Beint úr flestum safnsíðum og upplýsingasíðum geturðu sent tengil á sí�
 
 [Fræðast meira um samnýtingu færslna og síðutengla í Teymi](across-working-with-teams.md).
 
-## Samnýting með OneDrive
+## <a name="sharing-through-onedrive"></a>Samnýting með OneDrive
 
 ![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
@@ -64,7 +64,7 @@ Business Central auðveldar geymslu, umsjón og deilingu skráa með öðrum í 
 
 [Fræðast meira um samnýtingu skráa OneDrive](across-share-onedrive.md).
 
-## Opna í Excel
+## <a name="opening-in-excel"></a>Opna í Excel
 
 ![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
@@ -72,7 +72,7 @@ Fyrir listasíður og lista sem felldir eru inn á síðu er hægt að nota aðg
 
 [Fræðast meira um skoðun og breytingu í Excel](across-work-with-excel.md).
 
-## Deila röðum eða töflum
+## <a name="sharing-rows-or-tables"></a>Deila röðum eða töflum
 
 ![Stutt](media/check.png) Business Central Online ![Stutt](media/check.png) Business Central á staðnum
 
@@ -80,7 +80,7 @@ Fyrir listasíður og lista sem felldir eru inn á síðu er hægt að nota aðg
 
 [Fræðast meira um afrit og líma íFAQ](faq-copy-paste.yml).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Business Central og OneDrive samþætting](across-onedrive-overview.md)  
 [Stjórnun OneDrive samþættingar við Business Central](admin-onedrive-integration.md)  

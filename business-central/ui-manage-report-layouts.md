@@ -9,7 +9,7 @@ ms.date: 01/18/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Yfirlit yfir skýrslu- og skjalaútlit
+# <a name="report-and-document-layouts-overview"></a>Yfirlit yfir skýrslu- og skjalaútlit
 
 Útlit skýrslu stjórnar efni og sniði skýrslunnar, þ.m.t. hvaða gagnareitir gagnasafn skýrslu birtast í henni, stöðu þeirra, textastíl, myndir og meira. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að breyta því hvaða útlit er notað í skýrslu, búa til nýtt útlit eða breyta fyrirliggjandi útliti.
 
@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 
 Einnig er hægt að nota skýrsluútlit til að bæta efni við tölvupóstskeyti. Til dæmis getur skýrsluútlit sparað tíma og tryggt samræmi með því að endurnota sama efnið þegar haft er samband við viðskiptamenn. Til að nota sérsniðið skýrsluútlit með tölvupósti verður skráargerðin fyrir útlitið að vera Word. Ekki er hægt að nota RDLC-skráargerðina. Frekari upplýsingar eru í [Setja upp endurnýtanlega texta og útlit tölvupósts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## Kynning
+## <a name="introduction"></a>Kynning
 
 Skýrsluútlit setur einkum eftirfarandi upp:
 
@@ -33,11 +33,11 @@ Skýrsla getur verið uppsett með mismunandi útliti sem hægt er að skipta á
 
 Tveir mikilvægir þættir í skýrsluútliti munu hafa áhrif á hvernig þú vinnur með þau: *útlitsgerðin* og *útlitsuppruninn*. Gerð útlits gefur til kynna hvers konar skrá útlitið byggir á. Uppruni útlits gefur til kynna uppruna útlitsins.
 
-## Útlitsgerðir
+## <a name="layout-types"></a>Útlitsgerðir
 
 Þú getur notað fjórar gerðir útlita í skýrslum: Word, RDLC, Excel og ytra.
 
-### Word
+### <a name="word"></a>Word
 
 Word-útlit byggja á Word-skjölum (.docx-skráargerð). Word-útlit gerir þér kleift að hanna skýrsluútlit með Microsoft Word. Word útlit ákvarðar innihald skýrslunnar og stjórnar því hvernig þeir efnisþættir raðast og hvernig þeir líta út. Word útlitsskjal notar vanalega töflur til að raða efni, þar sem hólf geta innihaldið gögn, reiti, texta eða myndir.
 
@@ -47,7 +47,7 @@ Word-útlit byggja á Word-skjölum (.docx-skráargerð). Word-útlit gerir þé
 
 Nánari upplýsingar eru í [Vinna með Word-útlit](ui-how-add-fields-word-report-layout.md).
 
-### Excel
+### <a name="excel"></a>Excel
 
 Excel-útlit byggir á Microsoft Excel vinnubókum (.xlsx skráargerð). Þær gera þér kleift að búa til skýrslur með því að nota Excel-eiginleika til að taka saman, greina og kynna gögn með verkfærum eins og formúlum, PivotTable, PivotChart og fleirum.
 
@@ -55,7 +55,7 @@ Excel-útlit byggir á Microsoft Excel vinnubókum (.xlsx skráargerð). Þær g
 
 Nánari upplýsingar eru í [Vinna með Excel-útlit](ui-excel-report-layouts.md).
 
-### RDLC
+### <a name="rdlc"></a>RDLC
 
 RDLC-útlit eru byggð á útlitsskrám skýrsluskilgreiningar biðlara (.rdl eða .rdlc-skráargerðir). Þessi útlit eru búin til og þeim breytt með SQL Server Report Builder eða Microsoft RDLC Report Designer. Hönnunarhugmyndin fyrir RDLC-útlit er svipuð og fyrir Word-útlitið þar sem útlitið ákveður hvaða reiti á að sýna og hvernig þeim er raðað upp. Hönnun RDLC-útlits er hins vegar ítarlegra en Word-útlits.
 
@@ -63,13 +63,13 @@ RDLC-útlit eru byggð á útlitsskrám skýrsluskilgreiningar biðlara (.rdl e�
 
 Nánari upplýsingar eru í [Vinna með RDLC-útlit](ui-rdlc-report-layouts.md).
 
-### Ytri
+### <a name="external"></a>Ytri
 
 Gerð ytra útlits vísar til ítarlegrar gerðar sem er sérstaklega hönnuð fyrir tilteknar skýrslur. Skýrslurnar og útlitin sjálf eru yfirleitt fengin frá samstarfsaðilum, ekki Microsoft. Raunveruleg skráargerð útlitsins fer eftir veitunni.
 
 Frekari upplýsingar er að finna í [Þróun myndþýðingar á sérsniðinni skýrslu](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## Útlitsupprunar
+## <a name="layout-sources"></a>Útlitsupprunar
 
 Auk gerðar er útlitum frekar skipt niður í þrjá flokka út frá uppruna þeirra.
 
@@ -95,7 +95,7 @@ Fyrir upplýsingar sem hjálpa þér að ákveða hvaða gerð er best fyrir þi
 > Eitt mikilvægt atriði til að hafa í huga er að þú getur ekki breytt útlitum viðbóta úr biðlara Business Central. Til dæmis máttu ekki breyta heiti útlitsins eða gerðinni, eða hlaða upp og skipta því út fyrir aðra útgáfu. Ef það er reynt koma upp villuboð. Í staðinn þarftu að búa til notandaskilgreint útlit eða sérsniðið útlit sem byggir á útliti viðbótarinnar.
 
 <!--
-### Built-in and custom report layouts
+### <a name="built-in-and-custom-report-layouts"></a>Built-in and custom report layouts
 
 
 
@@ -115,7 +115,7 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Uppfæra sérsniðið skýrsluútlit](ui-update-report-layouts.md)  
 [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)  

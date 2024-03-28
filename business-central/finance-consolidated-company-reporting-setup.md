@@ -12,7 +12,7 @@ ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Setja upp sameiningu fyrirtækis
+# <a name="set-up-company-consolidation"></a>Setja upp sameiningu fyrirtækis
 
 Áður en hægt er að sameina fjárhagsfærslur tveggja eða fleiri félaga (dótturfyrirtækja) í samstæðufyrirtæki, þarf að útbúa bókhaldslykla og samstæðufyrirtækið.  
 
@@ -23,7 +23,7 @@ ms.service: dynamics-365-business-central
   * Í hverri fyrirtækiseiningu eru tilgreindir fjárhagslyklyklar sem taka á með í samstæðunni og þýðingaraðferðin fyrir hvern lykil.
   * Í samstæðufyrirtækinu er sett upp fyrirtækiseinakort fyrir hvert fyrirtæki sem á að hafa með í samstæðunni. Fyrirtækiseiningin inniheldur upplýsingar eins og dagsetningar fjárhagsára fyrirtækiseiningarinnar og prósentu hvers lykils sem á að taka með í samstæðuna.
 
-## Einföld uppsetning sameiningar
+## <a name="simple-consolidation-setup"></a>Einföld uppsetning sameiningar
 
 Ef sameiningin er einföld, til dæmis vegna þess að þú átt að eiga fyrirtækiseiningar til að styrkja,  **·**  mun samstæðuhandbókin hjálpa þér með eftirfarandi skrefum:
 
@@ -35,11 +35,11 @@ Fylgið eftirfarandi skrefum til að nota leiðbeiningar um uppsetningu með hj�
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp** og velja síðan viðkomandi tengil.
 2. Veljið  **ferli sameiningar** og Ljúkið síðan hverju skrefi í uppsetningarleiðbeiningum fyrir aðstoðarfyrirtæki.
 
-## Ítarleg uppsetning sameiningar
+## <a name="advanced-consolidation-setup"></a>Ítarleg uppsetning sameiningar
 
 Ef þörf er á fleiri ítarlegum stillingum fyrir samstæðuna, geturðu sett upp samstæðu handvirkt. Til dæmis ef þú ert með fyrirtæki sem þú átt að hluta til, eða þú átt fyrirtæki sem þú vilt ekki vera með.  
 
-### Setja upp fyrirtæki í samstæðu
+### <a name="set-up-the-consolidated-company"></a>Setja upp fyrirtæki í samstæðu
 
 Fyrst þarf að setja upp samstæðufyrirtækið. Samsteypufyrirtækið er sett upp á sama hátt og önnur fyrirtæki eru sett upp. Til að fræðast meira um uppsetningu fyrirtækis er farið að  [verða klárt fyrir rekstur fyrirtækja](ui-get-ready-business.md).  
 
@@ -63,7 +63,7 @@ Eftirfarandi listi sýnir lykilþætti í samstæðufyrirtækinu.
 
     Til að fá frekari upplýsingar er farið í  [hlutann hafa eða útiloka](#dim) .
 
-### <a name="busunit"></a>Bæta við fyrirtækiseiningum
+### <a name="add-business-units"></a><a name="busunit"></a>Bæta við fyrirtækiseiningum
 
 Í samstæðufyrirtækinu skal setja upp hvert fyrirtæki sem á að sameina gögn úr sem fyrirtækiseiningu. Áður en sameining er keyrð og samstæðuskýrsla er mynduð er góð hugmynd að sannreyna fjárhagsgögnin í hverri fyrirtækiseiningu.
 
@@ -89,7 +89,7 @@ Stór hluti af því að setja upp fyrirtækiseiningu er að tilgreina hvernig e
         Til að fá VEFSLÓÐ endastöðvar, í fyrirtækiseiningar-  [!INCLUDE [prod_short](includes/prod_short.md)] síðunni, skal opna  **síðuna Fyrirtækiseining**  og velja  **uppsetningaraðgerðina** . 
    * Ef flytja á út. XML-skrá og samnýta hana handvirkt skal velja  **skrársnið**.
 
-### <a name="glacc"></a>Undirbúa fjárhagslykla fyrir sameiningu
+### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Undirbúa fjárhagslykla fyrir sameiningu
 
 Bókhaldslykill fyrirtækis sem á að sameina þarf að  tilgreina reikninga fyrir samsteypu. Fyrir hvern bókun fjárhagslykils í hverju fyrirtæki þarf að tilgreina fjárhaginn í samstæðufyrirtækinu til að færa stöðuna í. Þessi vörpun gerir kleift að sameina fyrirtæki sem hafa mismunandi bókhaldslykla.
 
@@ -98,7 +98,7 @@ Ef bókhaldslyklar í fyrirtækjaeiningunni eru ekki þeir sömu og í samstæð
 1. Í hverri fyrirtækiseiningu  [!INCLUDE [prod_short](includes/prod_short.md)] skal velja þá  ![ljósaperu sem opnar aðgerðina segja.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
 2. Opnaðu kortið fyrir reikninginn og fylltu svo út í reitina á **Samstæða** flýtiflipanum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="exchrates"></a>Tilgreina gengi gjaldmiðla fyrir samstæður
+### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Tilgreina gengi gjaldmiðla fyrir samstæður
 
 Ef fyrirtækjaeining notar annan gjaldmiðil en samstæðufyrirtækið, er nauðsynlegt að tiltaka hvaða aðferðir eru notaðar við útreikning gjaldmiðla á hverjum reikningi áður en þú steypir saman. Fyrir hvern fjárhagsreikning ákvarðar innihald reitsins **Umreikniaðferð samstæðunnar** hvaða gengi gjaldmiðla er notað. Í samstæðufyrirtækinu, á hverju spjaldi fyrirtækiseiningarinnar í **Töflunni Gengi gjaldmiðla** er tilgreint hvort samstæðan noti gengi gjaldmiðla frá fyrirtækiseiningunni eða samstæðufyrirtækinu. Ef notað er gengi gjaldmiðla frá samstæðufyrirtækinu er hægt að breyta gengi gjaldmiðla hjá fyrirtækiseiningunni. Fyrir fyrirtækiseiningu, ef **Gengistafla á spjaldi** fyrirtækjaeiningarinnar inniheldur **Staðbundið**, er hægt að breyta genginu af spjaldi fyrirtækjaeiningarinnar. Gengi er afritað af töflunni **Gengi** en það er hægt að breyta þeim áður en samruni á sér stað.
 
@@ -121,7 +121,7 @@ Til að tilgreina gengi gjaldmiðla fyrir fyrirtækiseiningar, skal fylgja eftir
 4. Veldu aðgerðina **Lokagengi**.  
 5. Í reitnum **Upphæð viðmiðunargengis** skal færa inn gengið.
 
-### <a name="dim"></a>Taka með eða útiloka víddir
+### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Taka með eða útiloka víddir
 
 Hægt er að sameina víddarupplýsingar sem og fjárhagsreikninga.
 
@@ -131,15 +131,15 @@ Hægt er að sameina víddarupplýsingar sem og fjárhagsreikninga.
   * Ef sameina á víddargildiskóta í fyrirtækiseiningu með annan víddargildiskóta í samstæðufyrirtækinu skal fylla út í  **reitinn sameiningarkóti**  á víddunum.  
 * Bæta víddunum við fjárhagsreikningana.
 
-### <a name="exclude"></a>Útiloka fyrirtæki frá samstæðu
+### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Útiloka fyrirtæki frá samstæðu
 
 Ef ekki á að vera rekstrareining í samstæðunni er hægt að útiloka hana. Það er gert með því að fara á Fyrirtækiseiningin og hreinsa  **gátreitinn sameina** .
 
-### <a name="include"></a> Eru að hluta til í eigu fyrirtækja í samstæðu
+### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Eru að hluta til í eigu fyrirtækja í samstæðu
 
 Ef þú átt aðeins hluti í fyrirtæki getur þú innihaldið prósentu af hverri færslu sem endurspeglar þá prósentu sem þú átt. Ef þú átt t.d. 70% af fyrirtækinu, þá inniheldur Samstæða $70 reikning fyrir $100. Til að tilgreina hlutfall fyrirtækisins sem þú átt, farið á Fyrirtækiseiningin og prósentan fært inn í  **reitinn samstæður%** .  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)  
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  

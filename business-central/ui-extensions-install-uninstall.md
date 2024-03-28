@@ -12,7 +12,7 @@ ms.search.form: '2500, 2514, 20350'
 ms.service: dynamics-365-business-central
 ---
 
-# Setja upp og fjarlægja viðbætur (forrit) í Business Central
+# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Setja upp og fjarlægja viðbætur (forrit) í Business Central
 
 Þú getur breytt [!INCLUDE[prod_short](includes/prod_short.md)] með því að setja upp forrit sem bæta t.d. við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis. Frekari upplýsingar eru í [Sérstilling Business Central með viðbótum](ui-extensions.md).
 
@@ -23,7 +23,7 @@ ms.service: dynamics-365-business-central
 
 Til að nota nafnauka þarf að vera úthlutað þeim heimildarstæðum sem fylgja henni.
 
-## <a name="install"></a>Setja upp viðbót
+## <a name="install-an-extension"></a><a name="install"></a>Setja upp viðbót
 
 Þú stjórnar forritum og viðbótum á síðunni **Viðbótastjórnun**. Hægt er að opna þessa síðu úr heimasvæðinu. Annars geturðu valið **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") í efst í hægra horninu skal slá inn  **framlengingu** og velja síðan tengdan tengil.  
 
@@ -70,19 +70,19 @@ Microsoft veitir eftirfarandi forrit:
 * [Viðbótin GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
 
-## Setja upp App
+## <a name="set-up-an-app"></a>Setja upp App
 
 Þegar þú hefur sótt forrit gætir þú þurft að setja það upp. Til dæmis þarftu að tilgreina PayPal-reikningin sem á að nota fyrir forritið **PayPal Payments Standard fyrir [!INCLUDE[prod_short](includes/prod_short.md)]**. Ef það er tilfellið, þegar uppsetning lýkur mun [!INCLUDE[prod_short](includes/prod_short.md)] spyrja hvort þú viljir setja forritið upp strax. Uppsetningar geta verið nauðsynlegar til að forritið virki eða valfrjálsar.
 
 Ef þú velur að setja forritið upp strax og það er með nauðsynleg skref mun [!INCLUDE[prod_short](includes/prod_short.md)] opna nauðsynlegu skrefin. Uppsetningin getur verið annaðhvort síða þar sem þú slærð inn upplýsingar eða uppsetningarleiðbeiningar með hjálp sem aðstoða þig í gegnum skrefin. Ef þú lýkur ekki uppsetningunni í einni tilraun geturðu notað síðuna **Uppsetningar fyrir _nafn forrits_**, sem sýnir allar uppsetningar fyrir forritið. Nauðsynlegar stillingar eru auðkenndar með **feitletruðum stöfum**.
 
-## Hlaða upp viðbót fyrir hvern leigjanda (PTE)
+## <a name="upload-a-per-tenant-extension-pte"></a>Hlaða upp viðbót fyrir hvern leigjanda (PTE)
 
 Þú hleður upp PTE með því að nota síðuna **Viðbótastjórnun**. Á síðunni **Viðbótastjórnun** skal fara í **Stjórna**, síðan velja **Hlaða upp viðbót**. Á síðunni **Hlaða og setja upp viðbót** skal tilgreina forritsskrána sem á að hlaða upp. Til að halda áfram skal velja hnappinn **Samþykkja** og síðan hnappinn **Nota** sem mun hefja innleiðingarferli PTE.
 
 Ef PTE inniheldur skemabreytingar með þáttaskilum er mögulegt að *þvinga* upphleðslu þess. Til að gera það, í  **Samstillingarham**  skema Veldu  **afl**  valkostinn. Samþykkja þarf staðfestingarglugga sem birtist áður en haldið er áfram.  
 
-## Fjarlægja forrit
+## <a name="uninstall-an-app"></a>Fjarlægja forrit
 
 Hægt er að fjarlægja forrit með því að nota síðuna **Viðbótastjórnun**. Til að fjarlægja forrit skaltu velja það á síðunni og velja svo aðgerðina **Fjarlægja**. Ef þú fjarlægir forrit og skiptir síðan um skoðun geturðu sett forritið upp aftur.
 
@@ -95,7 +95,7 @@ Sjálfgefið er að þegar App hefur verið tekið í notkun sé ekki eytt. Ef �
 
 Hægt er að eyða gögnunum síðar ef halda á gögnunum fyrir forrit sem búið er að taka upp.  **Síða munaðarlausra gagnasíðna**  Birtir lista yfir forritin sem enn eru til gögn fyrir. Til að eyða gögnunum skaltu velja forritið og velja  **eyða gögnum**. 
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Sérstilla Business Central](ui-customizing-overview.md)  
 [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)  

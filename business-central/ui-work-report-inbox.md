@@ -10,14 +10,14 @@ ms.date: 08/08/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Deila og flytja út skýrslur með skýrsluinnhólfinu
+# <a name="share-and-export-reports-with-the-report-inbox"></a>Deila og flytja út skýrslur með skýrsluinnhólfinu
 
 Síðan **Skýrsluinnhólf** sýnir tímasettar skýrslur sem notandi hefur búið til í [!INCLUDE[prod_short](includes/prod_short.md)] og hægt er að nota ekki bara til að fá aðgang að skýrslunum heldur líka til að deila og opna skrárnar í OneDrive fyrir fyrirtæki.
 
 > [!TIP]
 > Eftirfarandi aðgerðir eru einnig aðgengilegar í hlutanum **Skýrsluinnhólf** í „Mínu hlutverki“. Ef hlutinn birtist ekki í viðmótinu þínu geturðu kynnt þér hvernig hægt er að sérsníða „Mitt hlutverk“ hér: [Sérsníða vinnusvæðið þitt](ui-personalization-user.md).
 
-## Sækja myndaðar skýrslur
+## <a name="download-generated-reports"></a>Sækja myndaðar skýrslur
 
 Til að vista fyrri skýrslur skal opna síðuna **Skýrsluinnhólf** með því að fylgja þessum skrefum:
 
@@ -29,7 +29,7 @@ Til að vista fyrri skýrslur skal opna síðuna **Skýrsluinnhólf** með því
 >
 > Skrárnar sem eru búnar til eru vistaðar á því sniði sem skilgreint er þegar skýrslan er tímasett og hægt er að breyta þeim á síðunni **Verkraðarfærslur** ásamt endurtekningunni og öðrum stillingum. Kynntu þér hvernig á að breyta skýrsluskráarsniðinu og stilla viðbótarvalkosti á [Stjórna tímasettum endurteknum skýrslum](ui-work-report.md#manage-scheduled-recurring-reports).
 
-## Opna myndaðar skýrslur í OneDrive
+## <a name="open-generated-reports-in-onedrive"></a>Opna myndaðar skýrslur í OneDrive
 
 Til að flytja skýrsluskrána út til Microsoft OneDrive for Business skal velja skýrsluna á síðunni **Skýrsluinnhólf** og velja aðgerðina **Opna í OneDrive**. Skýrslan er síðan afrituð í viðkomandi [!INCLUDE[prod_short](includes/prod_short.md)] möppu OneDrive og opnuð í nýjum vafraglugga, þar sem hægt er að prenta og hafa umsjón með skjalaskránni.
 
@@ -37,7 +37,7 @@ Til að flytja skýrsluskrána út til Microsoft OneDrive for Business skal velj
 >
 > Skýrslur sem eru stilltar á að renna út á síðunni **Tímasetja skýrslu** og afritaðar úr OneDrive eru sjálfkrafa fjarlægðar úr samnýttri möppu.
 
-## Deila tímasettum skýrslum
+## <a name="share-scheduled-reports"></a>Deila tímasettum skýrslum
 
 Einnig er hægt að deila skýrslum með samstarfsaðilum á síðunni **Skýrsluinnhólf**. Veldu skýrsluna og veldu aðgerðina **Deila**. Á síðunni **Senda tengil** skal velja þá sem geta opnað skrána, skilgreint breytingaheimildir, síðan velja **Senda** til að senda tengil til að fá aðgang að vistaðri skýrslu.
 
@@ -46,7 +46,7 @@ Einnig er hægt að deila skýrslum með samstarfsaðilum á síðunni **Skýrsl
 >
 > Með aðgerðinni **Deila** verður mynduð skýrsluskrá í boði fyrir aðra notendur aðeins í OneDrive for Business og sýnir ekki tímasetta skýrslu í **Skýrsluinnhólfinu**.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Skoða og prenta skýrslur](ui-work-report.md)  
 [Tiltækar skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

@@ -11,7 +11,7 @@ ms.date: 02/05/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Úthluta ítrekuðum kostnaði og tekjum
+# <a name="allocate-recurring-costs-and-income"></a>Úthluta ítrekuðum kostnaði og tekjum
 
 Hægt er að úthluta færslu ítrekunarfærslubókar á nokkra reikninga þegar færslubókin er bókuð. Hægt er að fá nánari upplýsingar um ítrekunarfærslubækur með því að fara í [Vinna með ítrekunarbækur](ui-work-general-journals.md#work-with-recurring-journals). 
 
@@ -26,7 +26,7 @@ Framkvæma má úthlutunina miðað við þrjú atriði:
 
 Eftirfarandi ferli lýsa því hvernig skal búa sig undir það að úthluta kostnaði í ítrekunarfærslubók með því að skilgreina úthlutunarlykla. Þegar úthlutunarlyklar eru skilgreindir, er færslubókin kláruð og bókuð eins og hver önnur ítrekunarfærslubók. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
 
-## setja upp úthlutunarlykla
+## <a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla
 
 Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga þegar færslubókin er bókuð. Úthlutunin getur verið í magni, prósentu eða upphæð.  
 
@@ -44,14 +44,14 @@ Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga �
 10. Eftir að hafa fært inn úthlutunarlínurnar skal velja **Í lagi** til að fara aftur á síðuna **endurteknar færslubækur**. Svæðið **Úthlutuð upphæð (USD)** er fyllt út og er eins og svæðið **Upphæð**.
 11. Bóka skal færslubókina.
 
-## Til að breyta uppsettum úthlutunarlykli
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Til að breyta uppsettum úthlutunarlykli
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurtekin færslubók** og velja síðan viðkomandi tengil.
 2. Á síðunni **Ítrekunarfærslubók** er færslubók með úthlutun valin.
 3. Veljið línuna með úthlutuninni og veljið svo aðgerðina **Úthlutanir** .
 4. Breyta skal viðeigandi reitum og velja **síðan Í lagi**.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)    
