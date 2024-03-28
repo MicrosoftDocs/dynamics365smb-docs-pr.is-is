@@ -9,7 +9,7 @@ ms.search.keywords: 'item, variant, product'
 ms.date: 08/22/2023
 ms.service: dynamics-365-business-central
 ---
-# <a name="block-items-or-item-variants-from-sales-or-purchasing"></a>Útiloka vörur eða vöruafbrigði frá sölu eða innkaupum
+# Útiloka vörur eða vöruafbrigði frá sölu eða innkaupum
 
 Hægt er að útiloka að vörur og vöruafbrigði séu færð inn í línur í sölu-eða innkaupaskjölum og hægt er að útiloka að þau séu bókuð í færslum. Til dæmis er þetta gagnlegt þegar vara er með þekktan galla. Ef lokuð vara eða afbrigði er læst í sölu-eða innkaupaskjali verða skilaboð um að varan sé læst.
 
@@ -26,7 +26,7 @@ Eftirfarandi tafla lýsir því hvað gerist þegar vörur eða afbrigði eru l�
 
 Þegar notað er  **afritið frá aðgerð skjals**  til að stofna ný skjöl byggð á fyrirliggjandi skjölum er tilkynnt um það ef vörur eða afbrigði á upprunaskjalslínunum eru læst. Útilokaðar fylgiskjalslínur eru ekki í nýja skjalinu og tilkynning sýnir yfirlit yfir allar fylgiskjalalínur sem eru útilokaðar í upprunaskjalinu.
 
-## <a name="to-block-an-item"></a>Til að loka fyrir vöru
+## Til að loka fyrir vöru  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Eftir því hvað á að gera er varan valin og síðan er valinn einn eða fleiri af eftirtöldum gátreitum:
@@ -34,7 +34,7 @@ Eftirfarandi tafla lýsir því hvað gerist þegar vörur eða afbrigði eru l�
     * **Lokað fyrir sölu**
     * **Lokað fyrir innkaup**  
 
-## <a name="to-block-an-item-variant"></a>Til að loka vöruafbrigði
+## Til að loka vöruafbrigði  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Veldu vöruna sem hefur afbrigði sem þú vilt útiloka, Veldu  **afbrigði** og veldu svo einn eða fleiri eftirfarandi gátreita:  
@@ -42,7 +42,7 @@ Eftirfarandi tafla lýsir því hvað gerist þegar vörur eða afbrigði eru l�
     * **Lokað fyrir sölu**
     * **Lokað fyrir innkaup**
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  

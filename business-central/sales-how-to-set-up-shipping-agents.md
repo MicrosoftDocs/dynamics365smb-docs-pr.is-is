@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-shipping-agents"></a>Uppsetning flutningsaðila
+# Uppsetning flutningsaðila
 Hægt er að setja upp kóta fyrir einstaka flutningsaðila og færa inn upplýsingar um þá.  
 
 Ef fært er inn veffang flutningsaðila sem býður upp á sendingaleit á Internetinu er hægt að nota sjálfvirku sendingaleitina í kerfinu. Nánari upplýsingar eru í reitnum [Finna sendingar](sales-how-track-packages.md).
@@ -19,7 +19,7 @@ Hægt er að setja upp ótakmarkaðan fjölda af þjónustuatriðum fyrir hvern 
 
 Þegar flutningsþjónustu hefur verið úthlutað á sölupöntunarlínu verður afhendingartími þjónustunnar tekin með við útreikning á lofun á pöntun fyrir þá línu. Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).
 
-## <a name="to-set-up-a-shipping-agent"></a>Uppsetning flutningsaðila
+## Uppsetning flutningsaðila  
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningsaðilar** og velja síðan viðkomandi tengil.  
 2.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Velja aðgerðina **Flutningsþjónusta**.
@@ -28,7 +28,7 @@ Hægt er að setja upp ótakmarkaðan fjölda af þjónustuatriðum fyrir hvern 
 > [!NOTE]  
 >  Ef flutningsaðila er eytt úr pantanalínunni eyðir kerfið einnig flutningsþjónustukótanum úr línunni. Efni reita sem byggja að hluta á flutningsþjónustunni er endurreiknað.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Afhendingarmátar settir upp](sales-how-set-up-shipment-methods.md)  
 [Finna sendingar](sales-how-track-packages.md)    
 [Yfirlit](design-details-warehouse-management.md)

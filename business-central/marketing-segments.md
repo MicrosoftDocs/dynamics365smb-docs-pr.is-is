@@ -11,7 +11,7 @@ ms.date: 10/04/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-segments"></a>Umsjón hluta
+# Umsjón hluta
 Hlutar eru stofnaðir til að velja hóp tengiliða í út frá tilteknum forsendum. Til dæmis getur hluti verið starfsgreinin sem tengiliðirnir tilheyra eða viðskiptatengsl við tengiliðina. Hægt er að stofna hluta til að velja tengiliðina sem miða á herferð á.
 
 Hlutar eru búnir til í tveimur aðalskrefum:
@@ -27,7 +27,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Stjórna tengiliðunum sem er úthlutað á hlutana. |[Bæta tengiliðum við hluta](marketing-add-contact-segment.md) |
 | Lærðu að nota samskipti fyrir hluta, þ.m.t. skráningu í annál. |[Vinna með samskipti fyrir hluta](marketing-interaction-segments.md) |
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Vinna með tengiliði](marketing-contacts.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

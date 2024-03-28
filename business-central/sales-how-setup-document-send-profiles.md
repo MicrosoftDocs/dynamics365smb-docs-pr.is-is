@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-document-sending-profiles"></a>Setja upp sendisnið skjala
+# Setja upp sendisnið skjala
 Hægt er að setja upp hvern viðskiptavin með valinni aðferð við að senda söluskjöl til að þurfa ekki að velja sendingarvalkost í hvert skipti sem aðgerðin **Bóka og senda** er valin.
 
 Á síðunni **Sendisnið skjala** er hægt að setja upp ólík sendisnið, sem hægt er að velja úr í reitnum **Sendisnið skjala** á viðskiptamannaspjaldi. Hægt er að velja gátreitinn **Sjálfgefið** til að tilgreina að sendingarsniðið sé sjálfgefið snið fyrir alla viðskiptamenn, nema fyrir viðskiptamenn þar sem reiturinn **Sendisnið skjala** er fylltur út með öðru sendingarsniði.
@@ -19,17 +19,17 @@ Hægt er að setja upp hvern viðskiptavin með valinni aðferð við að senda 
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
-## <a name="to-set-up-a-document-sending-profile"></a>Að setja upp sendingarsnið skjala
+## Að setja upp sendingarsnið skjala
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Forstillingar skjalasendingar** og velja síðan viðkomandi tengil.
 2. Á síðunni **Sendisnið skjala** skal velja aðgerðina **Nýtt**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Til að tilgreina sendingarsnið á viðskiptamannaspjaldi
+## Til að tilgreina sendingarsnið á viðskiptamannaspjaldi
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Opnið spjald viðskiptamanns þar sem á að setja upp sendingarsnið.
 3. Í reitnum **Forstilling sendingar skjals** snið skaltu velja snið sem þú hefur sett upp eins og lýst er í fyrri málsmeðferð.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -9,7 +9,7 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss
+# Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss
 
 Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru vörur afhentar og þær síðan notaðar með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
 
@@ -24,7 +24,7 @@ Frekari upplýsingar um vöruflæði á  [innleið](design-details-inbound-wareh
 
 Eftirfarandi kynning sýnir aðferð B í fyrri töflu.  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna
+## Um kynninguna  
 
 Í grunnvöruhúsaleiðunum þar sem birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttöku vinnslu skal nota  **síðuna birgðafrágangsfærslu**  til að skrá og bóka frágangs-og móttökuupplýsingar fyrir upprunaskjöl á innleið. Eftirfarandi skjöl eru upprunaskjöl á innleið:
 
@@ -51,7 +51,7 @@ Eftirfarandi kynning sýnir aðferð B í fyrri töflu.
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## <a name="roles"></a>Hlutverk
+## Hlutverk  
 
 Eftirtalin hlutverk notenda framkvæma verkefnin sem þessi gönguleið sýnir:  
 
@@ -59,7 +59,7 @@ Eftirtalin hlutverk notenda framkvæma verkefnin sem þessi gönguleið sýnir:
 * Innkaupaaðili  
 * Starfsmaður í vöruhúsi  
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði  
 
 Til að ljúka þessu gönguleið þarftu:  
 
@@ -71,15 +71,15 @@ Til að ljúka þessu gönguleið þarftu:
     3.  **Í reitnum Kóti birgðageymslu**  er valið  **silfur**.  
     4.  **Veljið sjálfgefna**  gátreitinn.  
 
-## <a name="story"></a>Ferill
+## Ferill  
 
 Ellen, stjórnandi vöruhúss hjá CRONUS International Ltd. stofnar innkaupapöntun fyrir 10 einingar af vöru LS-75 og 30 einingar af vöru LS-81 frá lánardrottni 10000 sem afhenda á til SILVER vöruhúss. Þegar sendingin kemur til vöruhúss, er John, starfsmaður vöruhússins, setur vörurnar í sjálfgefnu hólfin sem tilgreind eru fyrir vörurnar. Frágangurinn er bókaður, vörurnar eru bókaðar sem mótteknar í birgðir og tiltækar til sölu eða aðra eftirspurn.  
 
-## <a name="setting-up-the-location"></a>Staðsetningin sett upp
+## Staðsetningin sett upp  
 
 Stillingar á  **birgðageymsluspjaldinu**  Skilgreina vöruhúsaflæði fyrirtækisins.  
 
-### <a name="to-set-up-the-location"></a>Uppsetning staðsetningar
+### Uppsetning staðsetningar  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2. SILVER-staðsetningarspjaldið er opnað.  
@@ -96,11 +96,11 @@ Stillingar á  **birgðageymsluspjaldinu**  Skilgreina vöruhúsaflæði fyrirt�
 7. Veljið **Fast** og svo **Sjálfgefið**.  
 8. Í reitnum  **Vörunr.**  reit skal færa  **ls-81**.  
 
-## <a name="create-the-purchase-order"></a>Stofna innkaupapöntunina
+## Stofna innkaupapöntunina  
 
 Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.  
 
-### <a name="to-create-the-purchase-order"></a>Innkaupapöntunin stofnuð
+### Innkaupapöntunin stofnuð  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -120,11 +120,11 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 
     Afhending hátalara frá lánardrottni 10000 hefur borist til SILVER vöruhússins og starfsmaður gengur svo frá þeim.  
 
-## <a name="receive-and-put-the-items-away"></a>Taka við og setja vörurnar í burtu
+## Taka við og setja vörurnar í burtu  
 
  **Notið síðuna birgðafrágangssíða**  til að hafa umsjón með öllum vöruhúsaaðgerðum á innleið fyrir tiltekið upprunaskjal, til dæmis innkaupapöntun.  
 
-### <a name="to-receive-and-put-the-items-away"></a>Tekið á móti og gengið frá vörunum
+### Tekið á móti og gengið frá vörunum  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðafrágangur** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -141,7 +141,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 
     Frágangur hátalaranna 40 í hólf S-01-0001 er nú skráður og jákvæð birgðafærsla er stofnuð sem endurspeglar hina bókuðu innkaupamóttöku.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

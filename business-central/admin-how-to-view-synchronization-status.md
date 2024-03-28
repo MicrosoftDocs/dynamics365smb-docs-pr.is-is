@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="view-the-status-of-synchronization-jobs"></a>Skoða stöðu samstillingarverka
+# Skoða stöðu samstillingarverka
 
 
 Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stöðu samstillingarverka sem hafa verið keyrðar fyrir tengdar færslur í Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)] samþættingum. Þetta felur í sér verk sem voru í gangi frá verkröð og handvirk samstillingarverk sem voru í gangi í færslum frá [!INCLUDE[prod_short](includes/prod_short.md)]. Til dæmis er gagnlegt að skoða stöðu þeirra við úrræðaleit vegna þess að þú færð aðgang að upplýsingum um villur sem tengjast tengdum færslum. Venjulega koma þessar tegundir af villum upp vegna aðgerða notanda, t.d. þegar:  
@@ -22,13 +22,13 @@ Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stö�
 > [!Note]
 > Á síðunni **Samstillingarvillur í tengdum gögnum** er að finna upplýsingar um verk sem tengjast tengdum færslum. Ef leyst er úr öllum villunum en færslurnar eru enn ekki samstilltar gæti það haft eitthvað að gera með stillingu samþættingarinnar. Venjulega þarf stjórnandi þinn að leysa úr þess konar villum.   
 
-## <a name="example"></a>Dæmi
+## Dæmi
 Þetta myndband sýnir dæmi um hvernig leita á úrræða út af villum sem komu upp við samstillingu við [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ferlið verður það sama fyrir allar samþættingar. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
 
-## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Skoða og leysa úr samstillingarvillum fyrir tengdar færslur
+## Skoða og leysa úr samstillingarvillum fyrir tengdar færslur
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Samstillingarvillur í tengdum gögnum** og veldu síðan tengda tengilinn.
 2. Síðan **Samstillingarvillur í tengdum gögnum** sýnir vandamál sem komu upp þegar tengdar færslur voru samstilltar. Eftirfarandi tafla inniheldur aðgerðir sem hægt er að nota til að leysa vandamál eitt í einu:
 
@@ -42,16 +42,16 @@ Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stö�
 > [!NOTE]
 > Til að draga úr þeim fjölda árekstra sem þarf að leysa er hægt að setja upp varpanir samþættingartöflu til að nota þessar aðgerðir sjálfkrafa. Frekari upplýsingar er að finna í [Vörpun samþættingartaflna](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
-## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Að skoða samstillingarkladdann fyrir tiltekna (handvirkt samstillta) færslu
+## Að skoða samstillingarkladdann fyrir tiltekna (handvirkt samstillta) færslu
 1. Opnaðu til dæmis viðskiptamann, vöru eða einhverja aðra færslu sem samstillir gögn milli [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Veldu aðgerðina **Samstillingarkladdi** til að skoða samstillingarkladda fyrir valda færslu. Til dæmis tiltekinn viðskiptavin sem var samstilltur handvirkt.
 
-## <a name="remove-couplings-between-records"></a>Fjarlægja tengingu milli færslna
+## Fjarlægja tengingu milli færslna
 Þegar eitthvað fer úrskeiðis í samþættingunni og nauðsynlegt er að aftengja færslur til að stöðva samstillingu þeirra á milli, þá er hægt að gera slíkt fyrir eina eða fleiri færslur í einu. Hægt er að aftengja eina eða fleiri færslur af listasíðum eða síðunni **Samstillingarvillur í tengdum gögnum** með því að velja eina eða fleiri línu og velja **Eyða tengingu**. Einnig er hægt að fjarlægja allar tengingar fyrir eina eða fleiri töfluvörpun á síðunni **Vörpun samþættingartöflu**. 
 
 Ef einingu með einstefnutengingu er eytt í [!INCLUDE[prod_short](includes/prod_short.md)] verður að eyða biluðu tengingunni handvirkt. Til að gera það, á síðunni **Samstillingarvillur í tengdum gögnum**, skal velja aðgerðina **Finna fyrir eyddar** og eyða svo tengingunum.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md)
 

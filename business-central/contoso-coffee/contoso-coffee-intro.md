@@ -11,11 +11,11 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Kynning á sýnigögnum Contoso Coffee
+# Kynning á sýnigögnum Contoso Coffee
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki.  **Contoso Coffee** öppin til að [!INCLUDE [prod_short](../includes/prod_short.md)] bæta við kynningargögnum sem þú getur notað til að læra hvernig á að nota möguleikana í [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="set-up-contoso-coffee-data"></a>Setja upp Contoso Coffee gögn
+## Setja upp Contoso Coffee gögn
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
@@ -39,7 +39,7 @@ Eftirfarandi tafla lýsir stillingunum:
 
 Eftir að þú hefur stillt einingarnar sem þú vilt prófa skaltu velja **Búa til** aðgerðina til að búa til sýnikennslugögn fyrir þær.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framleiðsla](../production-manage-manufacturing.md)  
 [Vörugeymsla](../warehouse-manage-warehouse.md)  

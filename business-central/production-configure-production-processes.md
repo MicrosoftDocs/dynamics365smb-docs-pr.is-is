@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-manufacturing"></a>Uppsetning framleiðslu
+# Uppsetning framleiðslu
 
 Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og uppskriftir, leiðir, vélar og starfsmenn á vélum, að vera settur upp í kerfinu.
 
@@ -32,7 +32,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Nota staðlaða verkhluta til að einfalda stofnun leiða með því að bæta aukaupplýsingum snögglega við ítrekað ferli.|[Setja upp staðlaðar leiðarlínur](production-how-set-up-standard-routing-lines.md)|  
 |Undirbúa vinnustöðvar og leiðir til að þær sýni úthýsta framleiðslu.|[Úthýsa framleiðslu til undirverktaka](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framleiðsla](production-manage-manufacturing.md)  
 [Áætlun](production-planning.md)  
