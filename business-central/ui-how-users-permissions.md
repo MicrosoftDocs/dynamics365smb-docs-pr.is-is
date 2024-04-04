@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-users-according-to-licenses"></a>Búa til notendur samkvæmt leyfum
+# Búa til notendur samkvæmt leyfum
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -25,7 +25,7 @@ Frekari upplýsingar um mismunandi gerðir leyfa og hvernig leyfi virka í [!INC
 > [!NOTE]
 > Ferlið við að stjórna notendum og leyfum er mismunandi eftir því hvort [!INCLUDE[prod_short](includes/prod_short.md)] er sett upp á netinu eða innanhúss. Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á netinu þarf að bæta við notendum úr Microsoft 365. Í uppsetningum á staðnum er hægt að búa til, breyta og eyða notendum beint.  
 
-## <a name="manage-users-and-licenses-in-online-tenants"></a>Stjórna notendum og leyfum í leigjendum á netinu
+## Stjórna notendum og leyfum í leigjendum á netinu
 
 Notendareikningar í  [!INCLUDE[prod_short](includes/prod_short.md)]  verður fyrst að stofna í  Microsoft 365  admin Center. Þessir notendareikningar eru ekki einskorðnir [!INCLUDE [prod_short](includes/prod_short.md)]. Ef áskrifandi er að öðrum áætlunum geta þeir nýtt sér þær til innskráningar í aðrar umsóknir, svo sem Power BI. Frekari upplýsingar um stofnun notenda í  Microsoft 365  admin Center er að fara til að  [Bæta við notendum í admin Center](/microsoft-365/admin/add-users/add-users).
 
@@ -60,7 +60,7 @@ Báðar nálganir hafa sinn eigin kosti og hægt er að nota þær samtímis. Hv
 
 Frekari upplýsingar eru í [Úthlutaður stjórnendaaðgangur að Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Grunnstilla heimildir út frá leyfum
+### <a name="licensespermissions"></a>Grunnstilla heimildir út frá leyfum
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -90,7 +90,7 @@ Ef þessi sjálfgefna skilgreining er ekki rétt Uppsetning fyrir tiltekið umhv
 > [!IMPORTANT]
 > Þetta sérsnið tekur aðeins gildi fyrir nýja notendur sem viðkomandi leyfi er úthlutað á. Núverandi notendur eru ekki uppfærðir. Mælt er með því að sérsníða heimildir áður en þú úthlutar notendum leyfum í Microsoft 365 stjórnendamiðstöðinni.
 
-### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Að bæta við notendum eða uppfæra notandaupplýsingar og úthlutunum leyfa í Business Central
+### <a name="adduser"></a>Að bæta við notendum eða uppfæra notandaupplýsingar og úthlutunum leyfa í Business Central
 
 Þegar notendum er bætt við eða notandaupplýsingum er breytt í stjórnendamiðstöð Microsoft 365 er hægt að flytja notandaupplýsingarnar á fljótlegan hátt inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Innflutningurinn inniheldur leyfisúthlutanir.  
 
@@ -114,7 +114,7 @@ Nánari upplýsingar um samstillingu notendaupplýsinga með  Microsoft 365 er a
 > [!NOTE]
 > Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, geturðu boðið þeim í þitt [!INCLUDE[prod_short](includes/prod_short.md)] svo þeir geti unnið með þín fjárhagsgögn. Frekari upplýsingar eru í [Bjóða ytri endurskoðanda í þitt Business Central](finance-accounting.md#inviteaccountant).
 
-### <a name="to-remove-a-users-access-to-the-system"></a>Til að fjarlægja aðgang notanda að kerfinu
+### Til að fjarlægja aðgang notanda að kerfinu
 
 Hægt er að fjarlægja aðgang notanda að [!INCLUDE[prod_short](includes/prod_short.md)]. Allar tilvísanir í notandann eru geymdar. Notandinn getur hins vegar ekki skráð sig inn og virkar lotur fyrir notandann eru stöðvaðar.
 
@@ -124,7 +124,7 @@ Hægt er að fjarlægja aðgang notanda að [!INCLUDE[prod_short](includes/prod_
 
 Auk þess er hægt að taka leyfið af notanda í Microsoft 365 stjórnendamiðstöðinni. Þá getur notandinn ekki skráð sig inn. Nánari upplýsingar er að finna í [Leyfi tekin af notendum](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Samstilling við Microsoft 365
+### <a name="m365"></a>Samstilling við Microsoft 365
 
 Þegar notanda er úthlutað leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Microsoft 365 eru tvær leiðir til að búa notandann til í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -149,13 +149,13 @@ Upplýsingar um tryggja aðgang að umhverfi með því að nota öryggishópa  
 
 Fáðu yfirsýn yfir aðgang  [!INCLUDE[prod_short](includes/prod_short.md)]  í teymum með  Microsoft 365  leyfum at  [admin-aðgangur-með-m365-leyfi](admin-access-with-m365-license.md).
 
-## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Umsjón með notendum og leyfum í uppsetningu innanhúss
+## Umsjón með notendum og leyfum í uppsetningu innanhúss
 
 Fyrir virkjanir innanhúss er fjöldi notendaleyfis tilgreindur í leyfisskránni (. bcleyfi or. flf). Þegar stjórnandi eða Microsoft-samstarfsaðili hleður upp leyfisskránni geta þeir tilgreint hvaða notendur geta skráð sig inn á [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Fyrir uppsetningar innanhúss býr stjórnandinn til, breytir og eyðir notendum beint af síðunni **Notendur**.
 
-### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Til að breyta eða eyða notanda í uppsetningu á staðnum
+### Til að breyta eða eyða notanda í uppsetningu á staðnum
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 2. Velja skal notandann sem á að breyta og velja síðan aðgerðina **Breyta**.
@@ -167,7 +167,7 @@ Fyrir uppsetningar innanhúss býr stjórnandinn til, breytir og eyðir notendum
 >
 > Nánari upplýsingar er að finna í [Gerðir auðkenningar og persónuskilríkja](/dynamics365/business-central/dev-itpro/administration/users-credential-types) í hjálparefni stjórnenda fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  

@@ -10,7 +10,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-fixed-assets"></a>Eignaumsjón
+# Eignaumsjón
 
 Í kerfishlutanum Eignir í [!INCLUDE[prod_short](includes/prod_short.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
 
@@ -40,13 +40,13 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Bóka afskráningarfærslur, skoða afskráningarbókarfærslur og bóka afskráningar að hluta. |[Afskrá eða innkalla eignir](fa-how-dispose-retire.md) |
 | Stjórna fjárhagsáætlana eigna, áætlun stofnkostnaðar, áætlun afskráninga eigna og áætlun afskrifta. |[Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a>Yfirlit myndbands
+## Yfirlit myndbands
 
 Eftirfarandi myndband fjallar um grunnatriði eigna.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning eigna](fa-setup.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  

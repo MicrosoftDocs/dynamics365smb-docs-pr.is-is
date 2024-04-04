@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchase-reports-and-analytics-in-business-central"></a>Innkaupaskýrslur og greiningar í Business Central
+# Innkaupaskýrslur og greiningar í Business Central
 
 Innkaupaskýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] gera starfsmönnum í framleiðslu og rekstri kleift að fá innsýn í og tölfræði um núverandi og fyrri innkaupagerðir.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Verkefni
+## Verkefni
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
 * [Skoða tiltækileika vöru](inventory-how-availability-overview.md)  
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 [Innkaup sett upp](purchasing-setup-purchasing.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 
