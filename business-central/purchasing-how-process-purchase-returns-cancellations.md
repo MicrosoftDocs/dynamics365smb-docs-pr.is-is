@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Meðhöndlun innkaupaskila eða afturkallana
+# <a name="process-purchase-returns-or-cancellations"></a>Meðhöndlun innkaupaskila eða afturkallana
 
 Ef skila á vörum til lánardrottins eða afturkalla þjónustu sem hefur verið keypt, er hægt að búa til og bóka kreditreikning sem tilgreinir breytingarnar sem óskað er eftir vegna hins upphaflega innkaupareiknings. Til að taka réttar innkaupareikningsupplýsingar með, er hægt að stofna innkaupakreditreikning beint úr bókaða innkaupareikningnum eða þú getur stofnað nýja innkaupakreditreikning með afrituðum reikningsupplýsingum.
 
@@ -27,7 +27,7 @@ Auk upprunalega bókaðan innkaupareikning, er hægt að jafna innkaupakreditrei
 
 Bókun innkaupareiknings mun einnig snúa við öllum kostnaðarauka sem var úthlutað á bókaða skjalið, þannig að vöruvirðisfærslurnar eru þær sömu og áður en kostnaðaraukanum var úthlutað.
 
-## Birgðakostnaður
+## <a name="inventory-costing"></a>Birgðakostnaður
 Til að varðveita rétt birgðaverðmat, eru vanalega teknar til skilavörur frá birgðum á því kostnaðarverði sem þær voru keyptar á, en ekki núgildandi kostnaðarverði. Þetta er kallað nákvæm bakfærsla kostnaðar.
 
 Til er tvenns konar virkni, til að úthluta bakfærslu nákvæms kostnaðar sjálfvirkt:  
@@ -41,7 +41,7 @@ Til að úthluta nákvæmri bakfærslu kostnaðar, skal velja reitinn **Jafna fr
 
 Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðakostnaður](design-details-inventory-costing.md)
 
-## Stofna nýjan innkaupakreditreikning úr bókaðan innkaupareikningur.
+## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Stofna nýjan innkaupakreditreikning úr bókaðan innkaupareikningur.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðir innkaupareikningar** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Bókaðir innkaupareikningar** skaltu velja bókaða innkaupareikninginn sem á að bakfæra og veldu svo stofna aðgerðina **Stofna leiðréttandi kreditreikning**.
@@ -62,7 +62,7 @@ Bókuðu innkaupareikningarnir sem jafnaðir eru við kreditreikninginn eru nú 
 
 Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal á lista bókaðra innkaupakreditreikninga.
 
-## Til að stofna nýjan innkaupakreditreikning með því að afrita bókaðan innkaupareikningur.
+## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Til að stofna nýjan innkaupakreditreikning með því að afrita bókaðan innkaupareikningur.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupakreditreikningar** og velja síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð til að opna ný auður innkaupakreditreikningur.
@@ -74,7 +74,7 @@ Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal 
 8. Velja hnappinn **Í lagi**. Afrituðu reikningslínurnar eru settar inn í innkaupakreditreikninginn.
 9. Ljúktu við innkaupakreditreikning eins og útskýrt er í [Að stofna innkaupakreditreikning úr bókuðum innkaupareikningi](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## Til að stofna vöruskilapöntun innkaupa byggða á einu eða fleiri bókuðu innkaupaskjali
+## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Til að stofna vöruskilapöntun innkaupa byggða á einu eða fleiri bókuðu innkaupaskjali
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skilapantanir innkaupa** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -124,7 +124,7 @@ Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal 
 10. Á síðunni **Vöruskilapöntun innkaupa** í reitnum **Ástæðukóði skila** á hverri línu, skal velja ástæðu skilanna.
 11. Valið er **Bóka** aðgerðin.
 
-## Innkaupapöntun fyrir skiptivöru stofnuð úr vöruskilapöntun innkaupa.
+## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Innkaupapöntun fyrir skiptivöru stofnuð úr vöruskilapöntun innkaupa.
 
 Samkomulag kann að takast við lánardrottininn um bætur vegna keyptrar vöru með því að skipta henni. Um sömu vöru getur verið að ræða, eða eitthvað annað. Þessi staða getur komið upp ef lánardrottinn hefur sent ranga vöru.  
 
@@ -133,7 +133,7 @@ Samkomulag kann að takast við lánardrottininn um bætur vegna keyptrar vöru 
 3. Á síðunni **Flytja neikvæðar innkaupalínur** skal fylla út reitina eins og þörf krefur.
 4. Velja hnappinn **Í lagi**. Neikvæðri línu eytt úr vöruskilapöntun innkaupa og ný innkaupapöntun stofnuð. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).  
 
-## Innkaupaheimild stofnuð:
+## <a name="to-create-a-purchase-allowance"></a>Innkaupaheimild stofnuð:
 
 Ef rangar vörur berast frá lánardrottni t.d. ef þær eru eitthvað skemmdar, í röngum lit eða af rangri stærð er hugsanlegt að lánardrottininn bjóði innkaupauppbót.  
 
@@ -152,7 +152,7 @@ Hægt er að bóka þetta lægra innkaupaverð sem kostnaðarauka á kreditreikn
 
 Þegar vöruskilapöntun innkaupa er bókuð er söluafslætti bætt við viðkomandi upphæð innkaupafærslu. Þannig er hægt að vinna með nákvæmt birgðaverðmat.  
 
-## Sameining endursendra afhendinga:
+## <a name="to-combine-return-shipments"></a>Sameining endursendra afhendinga:
 
 Ef skila á vörum sem eru í mismunandi innkaupapöntunum til eins lánardrottins er hægt að nota aðgerðina **Sameina skilaafhendingar**.  
 
@@ -174,13 +174,13 @@ Ef skila á vörum sem eru í mismunandi innkaupapöntunum til eins lánardrotti
     Ef röng vöruskilaafhendingarlína er valin eða ef byrja á upp á nýtt má einfaldlega eyða línunum á innkaupakreditreikningnum og síðan nota aftur aðgerðina **Sækja skilaafhend.línur**.  
 6. Valið er **Bóka** aðgerðin.  
 
-### Til að fjarlægja opnar vöruskilapantanir innkaupa eftir bókun sameinaðrar afhendingar  
+### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Til að fjarlægja opnar vöruskilapantanir innkaupa eftir bókun sameinaðrar afhendingar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eyða reiknf. innk.vöruskilapöntunum** og velja síðan viðkomandi tengil.  
 2. Fyllið út aðra reitina að þörfum og smellið veljið síðan hnappinn **Í lagi**.  
 3. Að öðrum kosti skal eyða einstökum vöruskilapöntunum innkaupa handvirkt.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)  
 [Leiðrétta eða afturkalla ógreidda innkaupareikninga](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

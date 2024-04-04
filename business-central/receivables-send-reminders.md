@@ -10,11 +10,11 @@ ms.date: 02/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Senda innheimtubréf vegna útistandandi stöðu
+# <a name="send-reminders-of-outstanding-balances"></a>Senda innheimtubréf vegna útistandandi stöðu
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
 [Setja upp marga vexti fyrir seinkaða greiðslu](finance-how-to-set-up-multiple-interest-rates.md)  
