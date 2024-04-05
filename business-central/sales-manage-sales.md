@@ -1,24 +1,24 @@
 ---
-title: Yfirlit yfir umsjónarverkhluta sölu
+title: Yfirlit yfir verk sem stjórna á sölu
 description: 'Lestu allt um hvernig á að nota þjónustu Business Central til að hafa umsjón með söluaðgerðum viðskiptamanna í sölureikningum, pöntunum, tilboðum og fleiru.'
 author: brentholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
-ms.date: 09/02/2022
+ms.date: 01/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sales"></a>Sölur
+# Sölur
 
 Búinn er til sölureikningur eða sölupöntun til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.
 
-Sölupantanir þarf að nota ef söluferlið krefst þess að þú sendir hluta af pöntunarmagni, til dæmis ef allt magnið er ekki tiltækt strax. Ef vara er seld með því að afhenda beint frá lánardrottni til viðskiptamanns, sem bein sending þarf að einnig nota sölupantanir. Frá öllum sjónarhornum séð virka sölupantanir á sama hátt og sölureikningar. Með sölupöntunum, geturðu líka notað aðgerðina Pöntun lofað til að koma til skila ákveðnum afhendingardagsetningum til viðskiptamanna þinna.  
+Nota verður sölupantanir ef söluferlið krefst þess að varahlutir í pöntunarmagni séu afhentir, til dæmis vegna þess að allt magnið er ekki tiltækt strax. Ef vara er seld með því að afhenda beint frá lánardrottni til viðskiptamanns, sem bein sending þarf að einnig nota sölupantanir. Frá öllum sjónarhornum séð virka sölupantanir á sama hátt og sölureikningar. Með sölupöntunum, geturðu líka notað aðgerðina Pöntun lofað til að koma til skila ákveðnum afhendingardagsetningum til viðskiptamanna þinna.  
 
 Hægt er að semja við viðskiptamanninn með því að gera fyrst sölutilboð, sem hægt er að breyta í sölureikning eða sölupöntun þegar samkomulag hefur náðst um söluna. Þegar viðskiptamaðurinn hefur staðfest samninginn, geturðu sent staðfestingu pöntunar til að skrá afhendingarskyldu vörunnar, eins og um var samið.
 
-Auðvelt er að leiðrétta eða afturkalla bókaðann sölureikning áður en hann er greiddur. Þetta er gagnlegt þegar leiðrétta á mistök eða þegar viðskiptamaðurinn biður um breytingu snemma í pöntunarferlinu. Ef bókaður sölureikningur er greiddur, verður að búa til sölukreditreikning eða söluvöruskilapöntun til að afturkalla söluna.
+Auðvelt er að leiðrétta eða hætta við bókaðan sölureikning áður en hann er greiddur. Þetta er gagnlegt þegar leiðrétta á mistök eða þegar viðskiptamaðurinn biður um breytingu snemma í pöntunarferlinu. Ef bókaður sölureikningur er greiddur, verður að búa til sölukreditreikning eða söluvöruskilapöntun til að afturkalla söluna.
 
 Góðar sölu- og markaðssetningaraðferðir snúast um að taka réttar ákvarðanir á réttum tíma. Markaðsvirknin í [!INCLUDE[prod_short](includes/prod_short.md)] veitir nákvæma og tímabæra yfirsýn yfir upplýsingar um tengiliði þína svo að þú getir þjónað væntanlegum viðskiptavinum þínum á skilvirkan hátt og aukið ánægju viðskiptavina. Frekari upplýsingar eru í [Tengslastjórnun](marketing-relationship-management.md).
 
@@ -45,14 +45,14 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 | Tengja sölupöntun við innkaupapöntun til að selja vöru beinnar afhendingar vara sem verður afhent beint frá lánardrottni til viðskiptamanns þíns. |[Beinar sendingar](sales-how-drop-shipment.md) |
 |Láttu lánardrottinn afgreiða til þín vörulistaatriði í vöruhúsið svo þú getir afgreitt vöruna til viðskiptamannsins.|[Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)|
 | Notið aðgerð á ógreiddum bókuðum sölureikningi til að stofna sjálfvirkt kreditreikningsferli og annaðhvort afturkalla sölureikninginn eða endurskapa hann til að gera leiðréttingar. |[Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md) |
-| Stofnaðu sölukreditreikning til þess að bakfæra tiltekinn bókaðan sölureikning til að endurspegla vörur sem viðskiptamaðurinn skilar og upphæð sem þarf að endurgreiða. |[Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md) |
+| Búa til sölukreditreikning til að bakfæra tiltekinn bókaðan sölureikning til að endurspegla vörurnar sem viðskiptamaðurinn skilar og greiðsluupphæðinni sem þú munt endurgreiða. |[Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md) |
 |Stjórnaðu ráðstöfun viðskiptamanns til að kaupa inn mikið magn sem er afhent í nokkrum sendingum yfir tímabil.|[Vinna með standandi sölupantanir](sales-how-to-create-blanket-sales-orders.md)|
 |Selja samsetningarsett sem ekki eru tiltæk með því að búa til tengda samsetningarpöntun til að veita fullt magn eða hluta af magni sölupöntunar.|[Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md)|
 |Senda viðskiptamanni einn reikning fyrir margar afhendingar með því að sameina afhendingarnar í einn reikning.|[Sameina afhendingar einn reikning](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Upplýsa viðskiptamenn þína um afhendingardag pöntunar með því að reikna út annað hvort hægt að lofa eða tiltækt að lofa dasetninguna.|[Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)|
 |Leysa úr misskilningi þegar tvær eða fleiri færslur eru til fyrir sama viðskiptamann.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  

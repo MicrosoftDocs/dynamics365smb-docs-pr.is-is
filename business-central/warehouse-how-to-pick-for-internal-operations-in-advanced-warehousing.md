@@ -1,5 +1,5 @@
 ---
-title: Veldu fyrir innri starfsemi í háþróaðri vöruhúsastillingum
+title: Tína fyrir innri aðgerðir í ítarlegri vöruhúsaskilgreiningu
 description: 'Ef birgðageymslurnar nota tínslu og afhendingu skal velja tínsluíhluti fyrir framleiðslu, samsetningu og verkaðgerðir á síðu vöruhúsatínslunnar.'
 author: brentholtorf
 ms.author: bholtorf
@@ -11,168 +11,168 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Veldu fyrir framleiðslu, samsetningu eða störf í háþróaðri vöruhúsastillingum
+# Tína fyrir framleiðslu, samsetningu eða vinnslur í ítarlegum vöruhússkilgreiningum
 
-Hvernig þú velur íhluti fyrir framleiðslu, verk eða samsetningarpantanir fer eftir því hvernig vöruhúsið þitt er sett upp sem staðsetning. Lærðu meira á [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).
+Hvernig íhlutir eru tíndir fyrir framleiðslu, verk eða samsetningarpantanir fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar um [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
-Í háþróaðri vöruhúsastillingu fyrir útstreymi (velja), kveiktu á **Krefjast tínslu** og **Krefjast sendingar** kveikja á **Staðsetningarspjald** síðunni fyrir staðsetninguna.
+Í ítarlegri vöruhúsagrunnstillingu fyrir útleiðarflæði (tínslu) er kveikt á vísbendingunum **Krefjast tínslu** og **Krefjast afhendingar** á síðunni **Birgðageymsluspjald** fyrir birgðageymsluna.
 
-Þegar staðsetningin er sett upp til að krefjast vöruhúsatínsluvinnslu og vöruhúsasendingarvinnslu, notaðu vöruhústínsluskjöl til að búa til og vinna tínsluupplýsingar áður en þú bókar notkun eða neyslu íhluta.  
+Þegar birgðageymslan er sett upp til að krefjast tínsluvinnslu og vöruhúsaafhendingarvinnslu skal nota vöruhúsatínsluskjöl til að stofna og vinna tínsluupplýsingar áður en notkun eða notkun íhluta er bókuð.  
 
-Þú getur ekki búið til vöruhústínsluskjal frá grunni. Val er hluti af verkflæði þar sem aðili sem er að vinna úr pöntun býr til þær á ýttan hátt eða starfsmaður vöruhússins býr til þær á dráttarhátt:
+Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti af verkflæði þar sem einstaklingur sem er að vinna pöntun stofnar þær á tísku eða starfsmaður vöruhússins stofnar þær á toga í tísku:
 
-- Á ýttu hátt, þar sem þú notar **Create Pick** aðgerðina í **framleiðslupöntuninni**, **Samsetningarpöntun**, **Starfspjald** síða. Veldu línurnar til að tína og undirbúa tínslurnar með því að tilgreina, til dæmis, hvaða tunnur á að taka úr og setja í og ​​hversu margar einingar á að meðhöndla. Hægt er að forskilgreina hólf fyrir staðsetningu vöruhúss eða tilföng.
-- Á dráttarbraut, þar sem þú losar **framleiðslupöntun**, **samsetningarpöntun**, **Starf Kort** í vöruhús sem gerir hlutina tiltæka til tínslu. Síðan, á  **Velja vinnublað** síðunni, geta starfsmenn vöruhússins notað **Fá vöruhúsaskjöl** aðgerðina til að draga út valið.
+- Á ýta tísku, þar sem aðgerðin Stofna tínslu er notuð á síðunni **Framleiðslupöntun**, **Samsetningarpöntun,Verkspjald** **·**. **·**  Velja skal línurnar til að tína og undirbúa tínslurnar með því að tilgreina, til dæmis hvaða hólf á að taka úr og setja í og hversu margar einingar á að meðhöndla. Hægt er að forskilgreina hólf fyrir vöruhúsastaðinn eða forðann.
+- Á toga í tísku, þar sem **Framleiðslupöntun**, **Samsetningarpöntun**, **Verkspjald** til vöruhúss gerir vörurnar tiltækar fyrir tínslu. Á síðunni **Vinnublað** tínslu geta starfsmenn vöruhússins notað aðgerðina **Sækja vöruhúsaskjöl** til að draga úthlutaðar tínslur.
 
-Til að tína eða færa íhluti fyrir upprunaskjöl á uppdráttarhátt verður þú að losa upprunaskjalið til að gera það tilbúið til tínslu. Upprunaskjöl eru gefin út fyrir innri aðgerðir á eftirfarandi hátt.  
+Ef tína á eða flytja íhluti fyrir upprunaskjöl á toga í tísku verður að gefa út upprunaskjalið til að það sé tilbúið fyrir tínslu. Upprunaskjöl eru gefin út fyrir innri aðgerðir á eftirfarandi hátt.  
 
 |Upprunaskjal|Losunaraðferð|  
 |---------------------|--------------------|  
-|Framleiðslupöntun|Breyttu pöntunarstöðunni í Losað eða búðu til útgefna framleiðslupöntun strax.|  
+|Framleiðslupöntun|Breyta pöntunarstöðu í Útgefin eða stofna útgefna framleiðslupöntun strax.|  
 |Samsetningarpöntun|Breyta stöðu í Útgefið.|
-|Verk | Breyttu stöðu í Opið eða búðu til starf með stöðu Opið strax.|  
+|Verk | Breyta stöðu í Opið eða stofnað verk með stöðuna Opið strax.|  
 
-## <a name="production"></a>Framleiðsla
+## Framleiðsla
 
-Notaðu **Warehouse Pick** skjöl til að tína framleiðsluíhluti í flæði til framleiðslu.
+Nota **vöruhúsatínsluskjöl** til að tína framleiðsluíhluti í flæði til framleiðslu.
 
-Fyrir staðsetningu sem notar hólfa til að færa vörur í opna búðargólf, geturðu notað eftirfarandi aðferðir:
+Í birgðageymslu sem notar hólf til að færa vörur í opnar vinnusalarhólf er hægt að nota eftirfarandi aðferðir:
 
-* Fyrir staðsetningu sem notar beint frágang og tínslu skaltu fylgja skrefunum í [Færa hluti í háþróuðum vöruhúsastillingum](warehouse-how-to-move-items-in-advanced-warehousing.md) greininni.
-* Fyrir aðrar staðsetningar skaltu fylgja skrefunum í [Færa hluti innbyrðis í grunnstillingum vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) greinarinnar.
+* Fyrir birgðageymslu sem notar beinan frágang og tínslu skal fylgja skrefunum í hlutanum [Færa vörur í ítarlegri grunnstillingu vöruhúss](warehouse-how-to-move-items-in-advanced-warehousing.md) .
+* Fyrir aðrar birgðageymslur skal fylgja skrefunum í hlutnum Færa vörur innri í greininni [Grunnvörugrunnstilling vöruhúss](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) .
 
-## <a name="assembly"></a>Samsetning
+## Samsetning  
 
-Notaðu **Warehouse Pick** skjöl til að færa samsetningaríhluti á samsetningarsvæðið.
+Nota **vöruhúsatínsluskjöl** til að flytja samsetningaríhluti í samsetningarsvæðið.
 
-[!INCLUDE [prod_short](includes/prod_short.md)] styður gerðir af samsetningarflæði til að setja saman á lager og setja saman eftir pöntun. Til að fá frekari upplýsingar um samsetningu eftir pöntun í vöruhúsaflæði á útleið, farðu í [Meðhöndlun á samsetningu eftir pöntun í vöruhúsasendingum](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
+[!INCLUDE [prod_short](includes/prod_short.md)] styður samsetningar-til-lager og setja saman til pöntunar tegundir samsetningarflæðis. Nánari upplýsingar um samsetningu eftir pöntunum í vöruhúsaflæði út er farið [í Meðhöndlun samsetningarvara í vöruhúsaafhendingum](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Verkefnastjórnun
+## Verkefnastjórnun  
 
-Notaðu **Warehouse Pick** skjöl til að velja verkþætti í flæðinu til verkefnastjórnunar.
+Nota **vöruhúsatínsluskjöl** til að tína verkíhluti í flæðinu til verkefnastjórnunar.
 
 > [!NOTE]
-> Getan til að tína íhluti fyrir veráætlunarlínur var bætt við [!INCLUDE[d365fin](includes/d365fin_md.md)] í 2022 útgáfutímabili 2. Til að byrja að nota möguleikann verður stjórnandi að kveikja á **Eiginleikastjórnun: Virkja birgða- og vöruhúsatínslu úr verkum** á síðunni **Eiginleikastjórnun**.
+> Getu til að tína íhluti fyrir verkáætlunarlínur var bætt [!INCLUDE[d365fin](includes/d365fin_md.md)] við í 2022 útgáfubylgju 2. Til að byrja að nota möguleikann verður stjórnandi að kveikja á **Eiginleikastjórnun: Virkja birgða- og vöruhúsatínslu úr verkum** á síðunni **Eiginleikastjórnun**.
 >
-> Störf styðja ekki háþróaðar stillingar þar sem kveikt er á **Bein vali og frágangi** rofi.
+> Verk styðja ekki ítarlegar grunnstillingar þar sem kveikt er á beinu **tínslu- og frágangsvíkkuninni** .
 
-## <a name="check-whether-items-are-available-for-picking"></a>Athugaðu hvort hlutir séu tiltækir til að tína
+## Kanna hvort vörur séu tiltækar til tínslu
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Til að búa til tínsluskjöl í lausu með tínsluvinnublaðinu
+## Tínsluskjöl stofnuð með tínsluvinnublaðinu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað tínslu** og velja síðan viðkomandi tengil.  
 
 2. Valið er **Sækja vöruhúsaskjöl** aðgerð.  
 
-    Listinn sýnir útgefna framleiðslu, verk, samsetningarpantanir sem hafa verið sendar til tínsluaðgerðarinnar. Pantanir innihalda þær sem tínsluleiðbeiningar hafa þegar verið búnar til. Skjöl með tínslulínum sem hafa verið tínd og skráð eru ekki sýnd á þessum lista.  
-3. Veldu pantanir sem þú vilt undirbúa val fyrir.
+    Listinn sýnir útgefna framleiðslu, verk, samsetningarpantanir sem hafa verið framsendar í tínsluaðgerðina. Í pöntununum eru þær sem tínsluleiðbeiningar hafa þegar verið stofnaðar fyrir. Skjöl með tínslulínur sem hafa verið tíndar og skráðar birtast ekki á þessum lista.  
+3. Pantanirnar sem undirbúa á tínslu fyrir eru valdar.
 
     > [!NOTE]  
-    > Ef þú velur skjal sem hefur nú þegar leiðbeiningar fyrir allar línur sínar, [!INCLUDE [prod_short](includes/prod_short.md)] upplýsir þig um að ekkert sé að höndla. Til að sameina þegar stofnaðar vöruhústínsluleiðbeiningar í eina tínsluleiðbeiningar skal eyða einstökum vöruhúsatínslum fyrst.
+    > Ef valið er fylgiskjal sem þegar er með leiðbeiningar fyrir allar línur þess er [!INCLUDE [prod_short](includes/prod_short.md)]  tilkynnt að ekkert sé til meðhöndlunar. Til að sameina vöruhúsatínsluleiðbeiningarnar sem þegar hafa verið stofnaðar í eina tínsluleiðbeiningar er einstökum vöruhúsatínslum eytt fyrst.
 
 4. Reiturinn **Röðunaraðferð** er fylltur út til að raða línunum eins og óskað er eftir.  
 
     > [!NOTE]  
-    > Hvernig línurnar eru flokkaðar í vinnublaðinu fer ekki sjálfkrafa í gegnum valleiðbeiningarnar. Samt sem áður eru sömu flokkunartæki fáanleg, ásamt röðun rusla. Þú getur auðveldlega endurskapað röð línanna sem þú skipuleggur í vinnublaðinu þegar þú býrð til tínsluleiðbeiningarnar eða með því að flokka tínsluleiðbeiningarnar.
+    > Það hvernig línunum er raðað á vinnublaðinu flyst ekki sjálfkrafa í tínsluleiðbeiningarnar. Hins vegar eru sömu röðunarverkfæri tiltæk ásamt hólfaflokkun. Auðvelt er að endurgera röð línanna sem áætlaðar eru á vinnublaðinu þegar tínsluleiðbeiningarnar eru stofnaðar eða með því að raða í tínsluleiðbeiningunum.
 
 5. Fylla inn í reitinn **Magn til afgreiðslu**. Velja aðgerðina **Færa sjálfkr. magn til afgr.** eða fyllið út reitina handvirkt.  
 
     Á síðunni er hægt að sjá tiltækt magn í hjáskipunarhólfum, sem er gagnlegt við áætlanagerð vinnuúthlutunar í aðstæðum hjáskipunar. [!INCLUDE[prod_short](includes/prod_short.md)] mun alltaf fyrst leggja til tiltekt úr hjáskipunarhólfi.
 
-6. Ef þörf krefur, breyttu línunum handvirkt. Þú getur líka eytt sumum línum til að gera valið skilvirkara. Ef til að mynda til eru margar línur með vörum sem eru í hjáskipunarhólfum væri hægt að stofna tínslu fyrir allar línurnar. Hlutirnir sem eru í tengingu eru tíndir ásamt öðrum hlutum í upprunaskjalinu og hólfin í víxlstöðinni hafa pláss fyrir fleiri hluti sem koma inn.
+6. Línunum er breytt handvirkt ef með þarf. Einnig er hægt að eyða sumum línunum til að gera tínsluna skilvirkari. Ef til að mynda til eru margar línur með vörum sem eru í hjáskipunarhólfum væri hægt að stofna tínslu fyrir allar línurnar. Hjáskipunarvörurnar eru tíndar með öðrum vörum á upprunaskjalinu og hjáskipunarhólfin hafa pláss fyrir fleiri vörur á innleið.
 
     > [!NOTE]  
-    >  Línunum er aðeins eytt af þessu vinnublaði, ekki úr vallista.  
+    >  Línunum er aðeins eytt af þessu vinnublaði, ekki af tínsluvallistanum.  
 
-7. Veldu aðgerðina **Stofna tínslu**. Síðan **Búa til val** opnast þar sem þú getur bætt frekari upplýsingum við valið.  
+7. Veldu aðgerðina **Stofna tínslu**. Síðan **Stofna tínslu** opnast, þar sem hægt er að bæta við upplýsingum um tínsluna.  
 
-    Tilgreindu hvernig á að sameina tínslulínur í tínsluskjölunum með því að velja einn af eftirfarandi valkostum.  
-
-    |Valkostur|Heimildasamstæða|
-    |-|-|
-    |Á Whse. Skjal|Býr til aðskilin tiltektarskjöl fyrir vinnublaðslínur með sama upprunaskjali vöruhúss.|
-    |E. viðskm./lánardr./birgðag.|Býr til aðskilin valskjöl fyrir hvern viðskiptavin (störf)|
-    |Eftir vöru|Býr til aðskilin tínsluskjöl fyrir hvern hlut í tínsluvinnublaðinu.|
-    |Á frá-svæði|Býr til aðskilin tiltektarskjöl fyrir hvert svæði sem þú tekur hlutina frá.|
-    |Eftir hólfi|Býr til aðskilin tínsluskjöl fyrir hverja bakka sem þú tekur vörurnar úr.|
-    |Eftir gjalddaga|Býr til aðskilin tiltektarskjöl fyrir upprunaskjöl sem hafa sama gjalddaga.|
-
-    Tilgreindu hvernig á að búa til tiltektarskjölin með því að velja úr eftirfarandi valkostum.  
+    Tilgreina hvernig á að sameina tínslulínur í tínsluskjölum með því að velja einn af eftirfarandi valkostum.  
 
     |Valkostur|Heimildasamstæða|
     |-|-|
-    |Hámark Nr. Af Pick Lines|Býr til valskjöl sem hafa ekki fleiri en tilgreindan fjölda lína í hverju skjali.|
-    |Hámark Nr. Af Pick Source Docs.|Býr til valskjöl sem ná yfir allt að tilgreindan fjölda frumskjala.|
-    |Úthlutað notandakenni|Stofnar tiltektarskjöl eingöngu fyrir vinnublaðslínur sem eru úthlutaðar á valda vöruhússstarfsmann.|
-    |Röðunaraðferð f. tínslulínur|Veldu úr tiltækum valkostum til að raða línum í búnu tiltektarskjalinu.|
-    |Setja einingaskiptingarafmörkun|Felur millihlutavallínur þegar stærri mælieiningu er breytt í minni mælieiningu og valin.|
-    |Ekki fylla magn. að höndla|Skilur eftir **Magn. að höndla**  reiturinn tómur á stofnuðum tínslulínum.|
-    |Prenta tínslu|Prentar valskjölin þegar þau eru búin til. Þú getur líka prentað út úr tilbúnum valskjölum.|
+    |Á vöruh. Skjal|Stofnar sérstök tínsluskjöl fyrir vinnublaðslínur með sama upprunaskjali vöruhúss.|
+    |E. viðskm./lánardr./birgðag.|Stofnar sérstök tínsluskjöl fyrir hvern viðskiptamann (verk)|
+    |Eftir vöru|Stofnar sérstök tínsluskjöl fyrir hverja vöru á tínsluvinnublaðinu.|
+    |Á frá-svæði|Stofnar sérstök tínsluskjöl fyrir hvert svæði sem vörur eru teknar frá.|
+    |Eftir hólfi|Stofnar sérstök tínsluskjöl fyrir hvert hólf sem vörurnar eru teknar úr.|
+    |Eftir eindaga|Stofnar sérstök tínsluskjöl fyrir upprunaskjöl sem hafa sama gjalddaga.|
+
+    Tilgreina hvernig tínsluskjöl eru stofnuð með því að velja úr eftirfarandi valkostum.  
+
+    |Valkostur|Heimildasamstæða|
+    |-|-|
+    |Max. Nr. tínslulína|Stofnar tínsluskjöl sem hafa ekki meira en tilgreindan fjölda lína í hverju fylgiskjali.|
+    |Max. Nr. tínsluupprunaskjala|Stofnar tínsluskjöl sem ná til tilgreinds fjölda upprunaskjala.|
+    |Úthlutað notandakenni|Stofnar tínsluskjöl eingöngu fyrir vinnublaðslínur sem eru tengdar völdum vöruhúsastarfsmanni.|
+    |Röðunaraðferð f. tínslulínur|Velja skal úr tiltækum valkostum til að raða línum í tínsluskjalinu sem stofnað er.|
+    |Setja einingaskiptingarafmörkun|Felur millieiningatínslulínur þegar stærri mælieiningu er breytt í smærri mælieiningu og tíndar.|
+    |Ekki fylla magn til afgreiðslu|Skilur eftir auðan reitinn **Magn til afgreiðslu** í tínslulínunum sem stofnaðar voru.|
+    |Prenta tínslu|Prentar tínsluskjölin þegar þau eru stofnuð. Einnig er hægt að prenta úr tínsluskjölum sem stofnuð eru.|
 
 8. Velja hnappinn **Í lagi**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Til að velja vörur fyrir framleiðslupöntun, samsetningarpöntun, verk
+## Til að tína vörur fyrir framleiðslupöntun, samsetningarpöntun, verk
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tínslur** og velja síðan viðkomandi tengil.  
 
-    Ef þú þarft að vinna í tilteknu vali skaltu velja valið af listanum eða sía listann til að finna valið sem hefur verið úthlutað til þín. Tínsluspjaldið er opnað.  
-2. Ef **Úthlutað notandaauðkenni**  reiturinn er tómur, sláðu inn auðkenni þitt til að auðkenna þig, ef þörf krefur.  
-3. Veldu hlutina.  
+    Ef vinna þarf í tiltekinni tínslu er tínslan valin af listanum eða listinn afmarkaður til að finna tínslurnar sem hafa verið úthlutaðar. Tínsluspjaldið er opnað.  
+2. Ef reiturinn **Úthlutað notandakenni** er auður er kenni notanda fært inn til að auðkenna sig, ef þörf krefur.  
+3. Vörurnar eru tíndar.  
 
-    Ef vöruhúsið er sett upp til að nota hólfa eru sjálfgefnar hólkar vörunnar notaðar til að stinga upp á hvaðan á að taka vörurnar. Leiðbeiningarnar innihalda að minnsta kosti tvær aðskildar línur fyrir Taka og setja aðgerðir.  
+    Ef vöruhúsið er sett upp fyrir hólf eru sjálfgefin hólf vörunnar notuð til að leggja til hvaðan taka eigi vörurnar. Leiðbeiningarnar innihalda að minnsta kosti tvær aðskildar línur fyrir Aðgerðirnar Taka og Setja.  
 
-    Rekstrarsvæði eins og framleiðslugólf gætu verið með sjálfgefið hólf fyrir íhluti sem þarf á að halda. Ef svo, þá er sjálfgefnum hólfakóða bætt við tínsluskjal vöruhússins til að gefa til kynna hvar á að setja vörurnar. Fyrir frekari upplýsingar, sjá verkfæraleiðbeiningar fyrir **Kóði fyrir framleiðsluhólf**, hinn **Til-samsetningu ruslakóði**, hinn **To-Job Bin Code**  sviðum.
+    Rekstrarsvæði eins og framleiðslugólf gætu verið með sjálfgefið hólf fyrir íhluti sem þarf á að halda. Ef svo, þá er sjálfgefnum hólfakóða bætt við tínsluskjal vöruhússins til að gefa til kynna hvar á að setja vörurnar. Nánari upplýsingar eru í verkfærunum **fyrir hólfakóta** verkefnaframleiðslu, **Hólfakóti** verkefnis **og Kóti** verkefnahólfs.
 
-    Ef vöruhúsið er sett upp til að nota beint frágang og tínslu eru hólfaröðunin notuð til að reikna út bestu hólfin til að tína úr. Stungið er upp á þeim tunnunum á plokkunarlínunum. Leiðbeiningarnar innihalda að minnsta kosti tvær aðskildar línur fyrir Taka og setja aðgerðir.  
+    Ef vöruhúsið er sett upp til að nota beinan frágang og tínslu eru hólfaflokkanir notaðar til að reikna út bestu hólfin til að tína úr. Þessi hólf eru lögð til í tínslulínunum. Leiðbeiningarnar innihalda að minnsta kosti tvær aðskildar línur fyrir Aðgerðirnar Taka og Setja.  
 
-    * Fyrsta línan, með **Taka** í reitnum **Aðgerðagerð**, gefur til kynna hvar hlutirnir eru staðsettir á tínslusvæðinu. Ef þú ert að senda mikið af vörum á einni sendingarlínu gætirðu þurft að velja vörurnar í nokkrum hólfum, þannig að það er Taka lína fyrir hverja tunnu.
-    * Næsta lína, með **Place** í reitnum **Aðgerðartegund**, sýnir hvar þú verður að staðsetja vörurnar í vöruhúsinu. Þú getur ekki breytt svæði og rusli á þessari línu.
+    * Fyrsta línan með **Taka** í reitnum **Aðgerð** gefur til kynna hvar vörurnar eru staðsettar á tínslusvæðinu. Ef verið er að afhenda margar vörur í einni afhendingarlínu gæti þurft að tína vörurnar í mörgum hólfum þannig að taka-lína er fyrir hvert hólf.
+    * Næsta lína, með **Setja** í reitnum **Aðgerð**, sýnir hvar setja á vörurnar í vöruhúsinu. Ekki er hægt að breyta svæði og hólfi í línunni.
 
     > [!NOTE]
-    > Ef þú verður að velja eða setja hlutina fyrir eina línu í fleiri en eina tunnu, til dæmis vegna þess að tilnefnda tunnan er full, notaðu **Skipta línu** aðgerðina á **Línur** Flýtiflipi. Aðgerðin býr til línu fyrir það magn sem eftir er til að meðhöndla.
+    > Ef tína þarf eða setja vörur í einni línu í fleiri en eitt hólf, til dæmis vegna þess að merkta hólfið er fullt, skal nota aðgerðina **Skipta línu** á flýtiflipanum **Línur** . Aðgerðin stofnar línu fyrir eftirstandandi magn sem á að meðhöndla.
 
-4. Eftir að þú hefur valið og sett hlutina í framleiðslu-, samsetningar- eða vinnusvæðið eða hólfuna skaltu velja **Skrá Velja** aðgerðina.  
+4. Þegar vörurnar hafa verið tíndar og settar í framleiðsluna, samsetninguna eða verksvæðið eða hólfið skal velja aðgerðina **Skrá tínslu** .  
 
-    Þú getur nú komið með vörurnar á viðkomandi svæði og bókað notkun eða neyslu tiltekinna íhluta með því að bóka notkunarbók, samsetningarpöntun eða verkbók. Eftirfarandi greinar veita frekari upplýsingar:
+    Nú er hægt að koma vörunum á viðeigandi svæði og bóka notkun eða notkun tíndra íhluta með því að bóka notkunarbók, samsetningarpöntun eða verkbók. Eftirfarandi greinar veita nánari upplýsingar:
 
-    * [Skráðu neyslu og afköst fyrir eina útgefna framleiðslupöntunarlínu](production-how-to-register-consumption-and-output.md)
+    * [Skrá notkun og frálag fyrir eina línu útgefinnar framleiðslupöntunar](production-how-to-register-consumption-and-output.md)
     * [Sameina vörur](assembly-how-to-assemble-items.md)
     * [Skrá neyslu eða notkun fyrir verk](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Skola framleiðsluíhluti í háþróaðri vöruhúsauppsetningu
+## Birgðaskráning framleiðsluíhluta í ítarlegri vöruhúsaskilgreiningu
 
-Skolaaðferðir hafa áhrif á flæði íhluta í framleiðslu. Lærðu meira á [Skolunaríhlutir samkvæmt aðgerðaútgangi](production-how-to-flush-components-according-to-operation-output.md). Það fer eftir völdum skolunaraðferð, þú getur valið íhluti til framleiðslu á eftirfarandi hátt:
+Birgðaskráningaraðferðir hafa áhrif á flæði íhluta í framleiðslu. Fræðast meira um birgðaskráningu [íhluta eftir frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md). Hægt er að tína íhluti fyrir framleiðslu om á eftirfarandi hátt, allt eftir valinni birgðaskráningaraðferð:
 
-* Notaðu **Vöruhúsval** skjal til að skrá valið fyrir vörur sem nota **Manual** skolunaraðferðina. Skrá þarf neyslu sérstaklega. Frekari upplýsingar eru á [Neysla eftir framleiðslu lotu](production-how-to-post-consumption.md).
-* Notaðu **Vöruhúsval** skjal til að skrá valið fyrir vörur sem nota **Velja + Áfram**, **Velja + afturábak** skolunaraðferð. Neysla íhlutanna á sér stað sjálfkrafa annað hvort þegar þú breytir stöðu framleiðslupöntunarinnar eða með því að hefja eða ljúka aðgerð. Allir nauðsynlegir íhlutir verða að vera tiltækir. Annars, að bóka tæmd neyslustöðvun fyrir þann íhlut.
-* Notaðu **Warehouse Movement** skjal án tilvísunar í upprunaskjal eða aðrar leiðir til að skrá hreyfingu á íhlutum sem nota **Forward** eða **Afturábak** skoðaaðferð. Íhlutir eru sjálfkrafa notaðir annað hvort þegar þú breytir um stöðu framleiðslupöntunar eða byrjar eða lýkur aðgerð. Allir nauðsynlegir íhlutir verða að vera tiltækir. Að öðrum kosti hættir bókun á skolaðri notkun fyrir þann íhlut. Frekari upplýsingar eru á [Flyttu atriði](warehouse-move-items.md).
+* Nota vöruhúsatínsluskjal **til** að skrá tínslu fyrir vörur sem nota **handvirka** birgðaskráningaraðferð. Skrá þarf notkun sérstaklega. Nánari upplýsingar um [Fjöldabóka framleiðslunotkun](production-how-to-post-consumption.md).
+* Nota vöruhúsatínsluskjal **til** að skrá tínslu fyrir vörur sem nota **tínslu + Framvirkt,Tína** **+ Afturvirk** söfnunaraðferð. Notkun íhluta gerist annaðhvort sjálfkrafa þegar stöðu framleiðslupöntunarinnar er breytt eða með því að hefja eða ljúka aðgerð. Allir íhlutir sem þarf verða að vera tiltækir. Annars skal bóka birgðaskráningarnotkunarstöðvun fyrir þann íhlut.
+*  **Nota vöruhúsahreyfingarskjal** án vísunar í upprunaskjal eða aðrar leiðir til að skrá hreyfingu á íhlutum sem nota birgðaskráningaraðferðina **Framvirk** eða **Afturvirk** . Íhlutir eru sjálfkrafa notaðir annaðhvort þegar stöðu framleiðslupöntunar er breytt eða aðgerð er hafin eða hún lýkur. Allir íhlutir sem þarf verða að vera tiltækir. Annars stöðvast birgðaskráning notkun fyrir þann íhlut. Nánari upplýsingar um flutning á [atriðum](warehouse-move-items.md).
 
-### <a name="example"></a>Dæmi
+### Dæmi
 
-Þú ert með framleiðslupöntun fyrir 15 PCS af vörunni SP-SCM1004. Sum atriðanna á íhlutalistanum verður að skola handvirkt í neysludagbók. Hægt er að velja og skola aðra hluti sjálfkrafa með því að nota **Pick + Backward** skolaaðferðina.  
+Framleiðslupöntun er fyrir 15 stk af vöru sp-SCM1004. Sumar af vörunum á íhlutalistanum þarf að birgðaskrá handvirkt í notkunarbók. Hægt er að tína og birgðaskrá aðrar vörur sjálfvirkt með því að nota **Tínslu + Afturvirk** birgðaskráningaraðferð.  
 
-Eftirfarandi skref lýsa aðgerðum sem mismunandi fólk grípur til og viðbrögðunum sem þeim fylgja:  
+Eftirfarandi skref lýsa aðgerðunum sem mismunandi einstaklingar framkvæma og tengt svar:  
 
-1. Yfirmaður vinnusalar losar framleiðslupöntunina. Hlutir með **Áfram** skolunaraðferð og engan vegtengil eru dregnir frá opnu búðargólfinu.  
-2. Umsjónarmaður verkstæðishæðar velur **Búa til vöruhúsval** aðgerðina á framleiðslupöntuninni. Tínsluskjal vöruhúss er stofnuð tínsla fyrir vörur með birgðaskráningaaðferðunum **Handvirkt**, **Tína + afturábak** og **Tína + Framvirk**. Þessar vörur eru settar í hólfkóða framleiðslu á útleið.  
-3. Vöruhússtjóri úthlutar tínslunum til vöruhússstarfsmanns.  
-4. Vöruhússtarfsmaður velur vörurnar úr viðeigandi hólfum og setur þær í Til-framleiðslu hólfið eða í hólfið sem tilgreint er á vöruhúsatínslunni. Bakkan gæti verið vinnustöð eða vélamiðstöð.
-5. Starfsmaður vöruhússins skráir tínsluna. Magnið er flutt úr tínslutunnunni í neyslutunnuna. Reiturinn **Tínt magn** á íhlutalistanum fyrri allar tíndar vörur er uppfærður.
+1. Yfirmaður vinnusalar losar framleiðslupöntunina. Vörur með **birgðaskráningaraðferð framvirkt** og enginn leiðartengill eru dregnar frá opnu vinnusalarhólfi.  
+2. Yfirmaður vinnusalar velur aðgerðina **Stofna vöruhúsatínslu** á framleiðslupöntuninni. Tínsluskjal vöruhúss er stofnuð tínsla fyrir vörur með birgðaskráningaaðferðunum **Handvirkt**, **Tína + afturábak** og **Tína + Framvirk**. Þessar vörur eru settar í hólfkóða framleiðslu á útleið.  
+3. Vöruhúsastjórinn úthlutar tínslunni á vöruhúsastarfsmann.  
+4. Starfsmaður í vöruhúsinu tínir vörurnar úr viðeigandi hólfum og setur þær í hólf framleiðslu eða í hólfið sem tilgreint er á vöruhúsatínslunni. Hólfið getur verið vinnu- eða vélastöðvarhólf.
+5. Starfsmaður vöruhússins skráir tínsluna. Magnið er flutt úr tínsluhólfinu í notkunarhólfið. Reiturinn **Tínt magn** á íhlutalistanum fyrri allar tíndar vörur er uppfærður.
 
     > [!NOTE]  
-    >  Aðeins er hægt að neyta þess magns sem valið er.  
+    >  Aðeins er hægt að nota magnið sem er tínt.  
 6. Starfsmaður á vél upplýsir framleiðslustjóra um það þegar endanlegar vörur eru fullunnar.
-7. Umsjónarmaður verkstæðisgólfs notar neysludagbók eða framleiðslubók til að bóka neyslu á íhlutum sem nota annaðhvort **Manual** skolunaraðferðina.
-8. Umsjónarmaður verkstæðisgólfs notar úttaksbók eða framleiðslubók til að bóka úttakið. Magn íhlutaþátta sem nota **Velja + Áfram** eða **Valja + Til baka** skolunaraðferðir með leiðartenglum er dregið frá tunnuna til framleiðslu.
-9. Framleiðslustjórinn breytir stöðu framleiðslupöntunarinnar í **Lokið**. Magn íhluta sem nota **afturábak** skolunaraðferð er dregið frá opnu búðargólfinu og magn íhluta sem nota **Veldu + Afturábak** skolunaraðferð og enginn leiðartengill er dreginn frá To-Production ruslinu.  
+7. Yfirmaður vinnusalar notar notkunarbókina eða framleiðslubókina til að bóka notkun íhlutavara sem annaðhvort **nota Handvirk** birgðaskráningaraðferð.
+8. Yfirmaður vinnusalar notar frálagsbókina eða framleiðslubókina til að bóka frálagið. Magn íhlutavara sem nota **Tínslu + Framvirkt** eða **Tína + Afturvirk** birgðaskráningaraðferðir með leiðartenglum er dregið frá hólfinu Í framleiðslu.
+9. Framleiðslustjórinn breytir stöðu framleiðslupöntunarinnar **í Lokið**. Magn íhlutavara sem nota **afturvirka** birgðaskráningaraðferð er dregið frá opnu vinnusalarhólfi og magn íhluta sem nota **Tína + Afturvirk** birgðaskráningaraðferð og enginn leiðartengill er dreginn frá hólfi framleiðslu í framleiðslu.  
 
 Eftirfarandi mynd sýnir þegar reiturinn **Hólfkóti** á efnisþáttalista er fylltur út út frá staðsetningu notanda eða uppsetningu vinnuvélar-/vinnustöðvarmiðstöðvar.  
 
-:::image type="content" source="media/binflow.png" alt-text="Yfirlit yfir hvenær og hvernig reiturinn Hólfkóði er fylltur út.":::
+:::image type="content" source="media/binflow.png" alt-text="Yfirlit yfir hvenær og hvernig reiturinn Hólfkóti er fylltur út.":::
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 - [Stjórna birgðum](inventory-manage-inventory.md)  
 - [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  

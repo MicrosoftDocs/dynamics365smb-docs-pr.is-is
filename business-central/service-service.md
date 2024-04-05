@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="service-management"></a>Þjónustukerfi
+# Þjónustukerfi
 > [!NOTE]
 > Virkni sem lýst er í þessu efni og undirviðfangsefni er aðeins sýnilegt í notendaviðmótinu ef þú hefur **Úrvals** upplifun. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
@@ -24,7 +24,7 @@ Að veita viðskiptamönnum þjónustu er mikilvægur hluti fyrirtækjareksturs,
 
 Auk þess er hægt að staðla kótun, setja upp samninga, nota afsláttarstefnu og jafnvel stofna leiðarkort fyrir þjónustustarfsfólk.  
 
-Almennt séð skiptist þjónustukerfi í tvo hluta: Stillingu og uppsetningu kerfisins, og notkun þess fyrir verðlagning, samningar, pantanir, afgreiðsla þjónustustarfsfólks og tímasetning verks.  
+Almennt eru tveir þættir til þjónustukerfis: Grunnstilling og uppsetning kerfisins og notkun þess fyrir verðlagningu, samninga, pantanir, afgreiðslu þjónustustarfsmanna og verkáætlun.  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
 
@@ -35,10 +35,10 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stofna og stjórna samningssamkomulagi á milli þín og þinna viðskiptamanna.|[Uppfylla þjónustusamninga](service-fulfill-service-contracts.md)|  
 |Bjóða upp á þjónustu til handa viðskiptamönnum og reikningsfæra þjónustupantanir.|[Þjónustuafhending](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Stjórnun útistandandi reikninga](receivables-manage-receivables.md)   
 [Verk](projects-how-create-jobs.md)   
-[Velkomið að [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
+[Velkomin í [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

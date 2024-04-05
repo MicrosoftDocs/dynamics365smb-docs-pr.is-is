@@ -1,25 +1,26 @@
 ---
 title: Endurmeta eignir
-description: 'Kynntu þér hvernig skal laga virði eigna, skrá nýjar upphæðir sem niðurfærslu eða uppfærslu og bóka viðbótarkaupverð.'
+description: 'Læra að leiðrétta virði eigna, skrá nýjar upphæðir sem niðurfærslu eða uppfærslu og bóka annan stofnkostnað.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.form: '5628, 5629, 5633'
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.form: '5628, 5629, 5633'
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="revalue-fixed-assets"></a>Endurmeta eignir
+# Endurmeta eignir
 
 Endurmat eigna getur samanstaðið af uppfærslu, niðurfærslu, og leiðréttingum á almennu virði.
 
-Þegar virði eignar hefur hækkað, er bókuð færslubókarlínu með hærri upphæð, uppfærslu í afskriftabókina. Nýtt verð er skráð sem uppfærslu samkvæmt bókunargrunni eigna.
+Þegar virði eigna eykst er færslubókarlína með uppfærslu í afskriftabókina bókuð. Nýja upphæðin er skráð sem uppfærsla samkvæmt bókunargrunni eigna.
 
-Þegar virði eignar hefur lækkað, bókarðu færslubókarlínu með lægri upphæð, niðurfærslu, í afskriftabók. Nýtt verð er skráð sem niðurfærslu samkvæmt bókunargrunni eigna.
+Þegar virði eignar lækkar er bókarlína með lægri upphæð, niðurfærslu í afskriftabókina. Nýtt verð er skráð sem niðurfærslu samkvæmt bókunargrunni eigna.
 
 Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum verðbreytingum. Hægt er að nota keyrsluna **Endurmat eigna** til að breyta ýmsum upphæðum, svo sem upphæðum niðurfærslna og uppfærslna.
 
-## <a name="to-post-appreciation-from-the-fixed-asset-gl-journal"></a>Bóka uppfærslu úr fjárhagsbók eigna
+## Bókun uppfærslna úr eignafjárhagsbók
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignafjárhagsbók** og velja síðan viðkomandi tengil.  
 2. Stofnaður er upprunaleg Færslubókarlína og reitirnir fylltir út eftir þörfum.
@@ -30,7 +31,7 @@ Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum ve
     >   Skref 4 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** síðunni fyrir bókunarflokkur eigna, inniheldur reiturinn **Uppfærslureikningur** debetreikning fjárhags og **Mótreikningur uppfærslu** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir endurmat. Frekari upplýsingar er að finna í [Að setja upp bókunarflokka eigna](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Valið er **Bóka** aðgerðin.
 
-## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Bóka niðurfærsla úr fjárhagsbók eigna
+## Bóka niðurfærsla úr fjárhagsbók eigna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignafjárhagsbók** og velja síðan viðkomandi tengil.  
 2. Stofnaður er upprunaleg Færslubókarlína og reitirnir fylltir út eftir þörfum.
@@ -41,9 +42,9 @@ Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum ve
     >   Skref 4 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** síðunni fyrir bókunarflokkur eigna, inniheldur reiturinn **niðurfærslureikningur** kreditreikning fjárhags og **Útgjaldareikningur niðurfærslu** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir niðurfærslur. Frekari upplýsingar er að finna í [Að setja upp bókunarflokka eigna](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Valið er **Bóka** aðgerðin.
 
-## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Framkvæma almennt endurmat eigna
+## Framkvæma almennt endurmat eigna
 
-Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum verðbreytingum. Hægt er að nota keyrsluna **Endurmat eigna** til að breyta ýmsum upphæðum, svo sem upphæðum niðurfærslna og uppfærslna. **Leyfa endurmat** gátreiturinn á síðunni **Afskriftabók** verður að vera valinn.
+Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum verðbreytingum. Hægt er að nota keyrsluna **Endurmat eigna** til að breyta ýmsum upphæðum, svo sem upphæðum niðurfærslna og uppfærslna. Velja verður gátreitinn **Leyfa endurmat** á síðunni **Afskriftabók** .
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurmat eignar** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum.
@@ -57,11 +58,11 @@ Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum ve
     > [!TIP]  
     >   Ef endurmatstölurnar eru aðeins til sýnis er hægt að búa til sérstaka afskriftabók til að geyma þær í. Þá hafa þessar færslur ekki áhrif á aðrar afskriftabækur.
 
-## <a name="to-post-other-acquisition-costs"></a>Bókun Viðbótarkaupverðs
+## Bókun annars stofnkostnaðar
 
-Annar stofnkostnaður eignar er bókaður eins og upphaflegi stofnkostnaðurinn: úr innkaupareikningi eða úr eignabók. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).  
+Annar stofnkostnaður eignar er bókaður úr innkaupareikningi eða úr eignabók á sama hátt og upphaflegur stofnkostnaður er bókaður. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).  
 
-Ef afskriftir hafa þegar verið reiknaðar fyrir eignina er sett gátmerki í reitinn **Afskr. kaupverðs** til að annar stofnkostnaður að frádregnu hrakvirði verði afskrifaður í hlutfalli við upphæðina sem áður keypt eign hefur þegar verið afskrifuð um. Þetta tryggir að afskriftatímabilið breytist ekki.  
+Ef afskriftir eru þegar reiknaðar fyrir eignina er reiturinn **Afskr. valinn. Gátreiturinn Stofnkostnaður** til að annar stofnkostnaður að frádregnu hrakvirðinu er afskrifaður í hlutfalli við upphæðina sem áður keypt eign er afskrifuð um. Þessi aðferð tryggir að afskriftatímabilinu sé ekki breytt.  
 
 Afskriftaprósentan er reiknuð sem:  
 
@@ -69,9 +70,9 @@ Afskriftaprósentan er reiknuð sem:
 
 *Afskriftaupphæð = (P/100) x (viðbótarstofnkostnaður - hrakvirði)*  
 
-Muna þarf að setja gátmerkið í reitinn **Afskr. til eignabókunardags.** í reikningi, eignafjárhagsbókar- eða eignabókarlínurnar til að tryggja að afskrift sé reiknuð frá síðasta eignabókunardegi til bókunardags annars kaupverðs.
+Muna þarf að velja gátreitinn **Afskr. til eignabókunardags** . í reikningnum, eignafjárhagsbókinni eða eignabókarlínunum til að tryggja að afskriftir séu reiknaðar frá síðustu eignabókunardagsetningu til bókunardagsetningar annars stofnkostnaðar.
 
-### <a name="example---posting-other-acquisition-costs"></a>Dæmi - bókun viðbótar stofnkostnaðar
+### Dæmi - Bókun annars stofnkostnaðar
 
 Vél er keypt 1. ágúst, 2000. Stofnkostnaðurinn er 4.800. Afskriftaaðferðin er línuleg til fjögurra ára.
 
@@ -81,17 +82,17 @@ Vél er keypt 1. ágúst, 2000. Stofnkostnaðurinn er 4.800. Afskriftaaðferðin
 
 september, 2000, er sölureikningur bókaður vegna málningar á vélinni. Upphæðin á reikningnum er 480.
 
-Ef valið var **Afskr. til eignabókunardags.** gátreiturinn á reikningnum fyrir bókun, fara fram eftirfarandi útreikningar:  
+Ef gátreiturinn **Afskr. til eignabókunardags** . var valinn á reikningnum fyrir bókun er eftirfarandi útreikningur gerður:  
 
 15 daga afskriftir (frá 01/09/00 til 15/09/00) eru reiknaðar sem:
 
 *bókfært virði x fjöldi afskriftadaga / eftirstandandi fjöldi afskriftadaga = (4800 - 100) x 15 / 1410 = 50*
 
-Ef valið var **Afskr. kaupverðs.** gátreiturinn á reikningnum fyrir bókun, fara fram eftirfarandi útreikningar:  
+Ef valið var reiturinn **Afskr. Gátreiturinn Stofnkostnaður** á reikningnum fyrir bókun er eftirfarandi útreikningur gerður:  
 
-*Annar stofnkostnaður er afskrifaður um ((150 x 100) / 4800) / 100 x 480 = 15*
+*Annar stofnkostnaður er afskrifaður sem ((150 x 100) / 4800) / 100 x 480 = 15*
 
-Afskriftagrunnurinn er núna *5280 = (4800 + 480)* og uppsafnaðar afskriftir eru *165 = (100 + 50 +15)* sem samsvarar 45 daga afskriftum á heildarkaupverði. Það merkir að eignin verði að fullu afskrifuð innan áætlaðs fjögurra ára líftíma.  
+Afskriftagrunnurinn er núna *5280 = (4800 + 480)* og uppsafnaðar afskriftir eru *165 = (100 + 50 +15)* sem samsvarar 45 daga afskriftum á heildarkaupverði. Útreikningurinn þýðir að eignin er að fullu afskrifuð innan áætlaðs fjögurra ára líftíma.  
 
 Þegar keyrslan **Reikna afskriftir** er keyrð 30/09/00 eru útreikningar með eftirfarandi hætti:  
 
@@ -103,7 +104,7 @@ Afskriftagrunnurinn er núna *5280 = (4800 + 480)* og uppsafnaðar afskriftir er
 
 *Heildarafskriftir = 165 + 55 = 220*  
 
-Ef þú valdir ekki gátreitinn **Afskr. þar til eignabókunardags.** glatar eignin 15 daga afskriftum vegna þess að runuvinnslan **Reikna afskriftir** sem keyrð er á 30/09/00 reiknar afskriftir frá 15/09/00 til 30/09/00. Það merkir að þegar keyrslan **Reikna afskriftir** er keyrð 30/09/00 eru útreikningarnir sem hér segir:  
+Ef gátreiturinn **Afskr. fyrr en eignabókunardags** . var ekki valinn myndi eignin tapa 15 daga afskrift vegna þess að **keyrslan Reikna afskriftir** 09/30/00 myndi reikna afskriftir frá 09/15/00 til 30/09/00. Það merkir að þegar keyrslan **Reikna afskriftir** er keyrð 30/09/00 eru útreikningarnir sem hér segir:  
 
 *Eftirstöðvar líftíma eru 3 ár, 10 mánuðir og 15 dagar = 1395 dagar*  
 
@@ -113,7 +114,7 @@ Ef þú valdir ekki gátreitinn **Afskr. þar til eignabókunardags.** glatar ei
 
 *Heildarafskriftir = 100 + 15 + 55,54 = 170,54*
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  

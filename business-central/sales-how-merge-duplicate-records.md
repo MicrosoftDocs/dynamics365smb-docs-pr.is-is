@@ -1,15 +1,15 @@
 ---
-title: Sameina tvítekinn viðskiptamann eða lánardrottnafærslur
+title: Sameina tvíteknar færslur viðskiptavina eða lánardrottna
 description: Lýsir því hvernig á að sameina upplýsingar um viðskiptavini eða lánardrottna þegar einhverjir eru með tvíteknar birgðafærslur.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: client
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="merge-duplicate-records"></a>Sameina tvíteknar færslur
+# Sameina tvíteknar færslur
 
 Með tímanum stofna ýmsir notendur nýjan viðskiptamann, lánardrottin eða tengiliðaspjöld, eða nýju færslurnar eru stofnaðar sjálfkrafa við flutning, og því getur gerst að viðskiptamaður, lánardrottinn eða tengiliður komi fram í kerfinu í fleiri en einni færslu. Í slíkum tilfellum er hægt að nota síðuna **Sameina tvítekið atriði** úr spjaldinu með færslunni sem á að halda í. Síðan veitir yfirlit yfir tvítekin reitargildi og býður upp á virkni til að velja hvaða gildum skuli halda eða fleygja þegar tvær færslur eru sameinaðar sem ein.
 
@@ -26,14 +26,14 @@ Eftirfarandi ferli byggist á viðskiptamannaspjaldi. Skrefin eru svipuð fyrir 
 3. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Sameina við**.
 4. Á síðunni **Sameina tvítekið atriði**, í reitnum **Sameina við**, skal velja viðskiptamanninn sem þú telur að sé tvítekinn af þeim sem eru opnir, sem gefið er upp í reitnum **Núverandi**.
 
-    Flýtiflipinn **Reitir** birtir reiti þar sem gildin eru mismunandi fyrir viðskiptamennina tvo. Þetta þýðir að ef valinn viðskiptamaður er í raun tvítekinn munu aðeins fáir reitir birtast, t.d. innsláttarvillur og önnur mistök við gagnaskráningu.
+    Flýtiflipinn **Reitir** birtir reiti þar sem gildin eru mismunandi fyrir viðskiptamennina tvo. Þetta þýðir að ef valinn viðskiptamaður er virkilega tvítekning ætti aðeins að skrá fáa reiti, svo sem vélritunarvillur og önnur mistök gagnafærslu.
 
-    Flýtiflipinn **Tengdar töflur** birtir töflur þar sem eru reitir sem tengjast báðum viðskiptamönnunum. Reitirnir **Núverandi fjöldi** og **Tvítekinn fjöldi** sýna fjölda reita í tengdum töflum þar sem **Nr.** gildið fyrir bæði núverandi og tvítekinn viðskiptamann er notað. Á síðunni **Sameina tvítekið atriði**, þessi hluti er eingöngu til upplýsinga, ef hins vegar árekstrar sameiningar eru til, leysir þú úr þeim á síðunni **Sameina árekstra tvítekninga**. Sjá skref 8 til 12.   
+    Flýtiflipinn **Tengdar töflur** birtir töflur þar sem eru reitir sem tengjast báðum viðskiptamönnunum. Reitirnir **Núverandi fjöldi** og **Tvítekinn fjöldi** sýna fjölda reita í tengdum töflum þar sem **Nr.** gildið fyrir bæði núverandi og tvítekinn viðskiptamann er notað. Á síðunni **Blanda tvítekningar** eru aðeins upplýsingar um þennan hluta, en ef blöndun árekstra er til staðar leysir notandi þá á síðunni **Blanda tvítekningarárekstra** . Sjá skref 8 til 12.   
 
 5. Fyrir hvern reit þar sem þú vilt nota annað gildi en núverandi gildi skal velja gátreitinn **Hnekkja**. Gildið í reitnum **Annað gildi** verður þá flutt í núverandi færslu þegar ferlinu er lokið.
 6. Þegar þú hefur lokið við að velja hvaða gildum eigi að halda eða hnekkja, skaltu velja aðgerðina **Sameina**.
 
-    Kerfið athugar hvort sameining gilda fyrir tvítekinn viðskiptamann yfir í núverandi viðskiptamann valdi einhverjum árekstrum. Árekstur á sér stað ef gildi í að minnsta kosti einum lykilreit er það sama fyrir báða viðskiptamenn á meðan gildið í reitnum **Nr** er ólíkt fyrir viðskiptamennina tvo.
+    Kerfið athugar hvort sameining gilda fyrir tvítekinn viðskiptamann yfir í núverandi viðskiptamann valdi einhverjum árekstrum. Misræmi er í reitnum Ef gildi í að minnsta kosti einum aðallykilsreit er það sama fyrir báða viðskiptamennina en gildið í reitnum **Nr** . er annað en viðskiptamennirnir tveir.
 
 7. Ef engir árekstrar finnast skal velja hnappinn **Já** í glugga staðfestingarboða.
 
@@ -42,7 +42,7 @@ Eftirfarandi ferli byggist á viðskiptamannaspjaldi. Skrefin eru svipuð fyrir 
 9. Á síðunni **Sameina árekstra tvítekninga** skal velja línuna fyrir tengda töflu með árekstri og því næst velja aðgerðina **Skoða upplýsingar**.
 
     Síðan **Sameina tvítekið atriði** sýnir nú reitina í valdri töflu sem valda árekstri milli færslna viðskiptamannanna tveggja. Taktu eftir að samantekin gildi í reitunum **Núverandi** og **Árekstrar við** og í línunum þar sem að minnsta kosti einn lykilreitur er sá sami fyrir báða viðskiptamennina og gildið á **Nr.** reitnum er ólíkt fyrir viðskiptamennina tvo.   
-10. Ef þú vilt ekki geyma tvítekna færslu viðskiptamanns skaltu velja aðgerðina **Fjarlægja tvítekið atriði** og því næst velja hnappinn **Loka**.
+10. Ef ekki á að halda tvítekinni viðskiptamannafærslu skal velja aðgerðina **Fjarlægja tvítekningar** og velja svo hnappinn **Loka** .
 
     Eins reitargildi, önnur en gildið í **Nr.** reitnum, eru fjarlægð úr tvítekinni færslu og sett inn í núverandi færslu.
 11. Ef þú vilt geyma tvítekna færslu viðskiptamanns eftir sameiningu skaltu velja **Endurnefna tvítekið atriði**.
@@ -55,7 +55,7 @@ Eftirfarandi ferli byggist á viðskiptamannaspjaldi. Skrefin eru svipuð fyrir 
 > [!NOTE]
 > Fyrir tengiliði er hægt að nota virkni til að finna tvítekna tengiliði áður en síðan **Sameina tvítekið atriði** er notuð. Frekari upplýsingar er að finna í [Leita að tvíteknum tengiliðum](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning tengiliða](marketing-setup-contacts.md)  

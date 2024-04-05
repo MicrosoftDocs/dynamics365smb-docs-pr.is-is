@@ -139,6 +139,7 @@ ms.service: dynamics-365-business-central
 ## Ná árangri með Business Central
 ### [Yfirliti yfir almenna virkni](ui-work-product.md)
 ### [Prentvænt yfirlitsblað](ui-work-product.md#cheatsheet)
+### [Spjalla við Copilot (forskoðun)](chat-with-copilot.md)
 ### [Finna síður og upplýsingar með Viðmótsleit](ui-search.md)
 ### [Algengar spurningar um Viðmótsleit](ui-search-faq.md)
 ### [Leita að tilteknum gögnum](ui-search-data.md)
@@ -201,6 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Snjöll innsýn (aðeins á netinu)](about-intelligent-cloud.md)
 ## Algengar spurningar
 ### [Algengar spurningar](across-faq.yml)
+### [Algengar spurningar um spjall við Copilot (forútgáfa)](chat-with-copilot-faq.md)
 ### [Algengar spurningar um Viðmótsleit](ui-search-faq.md)
 ### [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)
 ### [Algengar spurningar um listayfirlit](ui-views-faq.yml)
@@ -374,6 +376,7 @@ ms.service: dynamics-365-business-central
 #### [Segja upp birgðaverðmæti og kostnað](finance-set-up-inventory-valuation-and-costing.md)
 #### [Endurmat birgða](inventory-how-revalue-inventory.md)
 #### [Leiðrétta kostnað vara](inventory-how-adjust-item-costs.md)
+#### [Rekja kostnaðarleiðréttingar vara](finance-track-inventory-costs.md)
 #### [Meðhöndla birgða- og framleiðslukostnað](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Uppfæra staðlaðan kostnað](finance-how-to-update-standard-costs.md)
 #### [Fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)
@@ -388,7 +391,6 @@ ms.service: dynamics-365-business-central
 #### [Yfirlit yfir sjóðstreymi](finance-cash-flow-overview.md)
 #### [Greina sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)
 #### [Kynning: Nota fjárhagsskýrslur til að gera sjóðstreymisspár](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
 
 ### Loka árum og tímabilum
 #### [Yfirlit ársloka](year-close-years-periods.md)
@@ -408,7 +410,8 @@ ms.service: dynamics-365-business-central
 ### Vinna með bókhaldslykil og fjárhag
 #### [Öðlast skilning á fjárhagi og bókhaldslykli](finance-general-ledger.md)
 #### [Yfirfara reikninga](finance-review-accounts.md)
-#### [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)
+#### [Endurmeta Fjárhagsreikningsstöður](finance-revalue-account-balances.md)
+#### [Bóka færslu beint í fjárhag](finance-how-post-transactions-directly.md)
 #### [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)
 #### [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)
 #### [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)
@@ -459,24 +462,34 @@ ms.service: dynamics-365-business-central
 ##### [Unnið með samstæðuskjöl og færslubækur](intercompany-how-work-documents-journals.md)
 ##### [Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md)
 ##### [Úthluta kostnaði til millifyrirtækjafélaga](intercompany-allocate-costs.md)
-
 ### [Upplifun endurskoðanda í Business Central](finance-accounting.md)
 
+## Fjárhagsgreiningar 
+### [Yfirlit fjárhagsgreininga](bi.md)
+### [Meðhöndla fjárhagsskýrslur yfir rekstrareiningar eða lögaðila](finance-consolidated-company-reporting.md)
+<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
-## Viðskiptagreind og skýrslur fjármála
-### [Yfirlit yfir viðskiptagreind og skýrslur fjármála](bi.md)
-### [Fjárhagsskýrslur](finance-reports.md)
-### [Greina gögn með tölfræðilegum lyklum](bi-use-statistical-accounts.md)
-### [Greina raunverulegar og áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md)
-### [Undirbúa fjárhagsskýrslur með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md)
-### [Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-### [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
-### [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)
-### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
-### [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)
-### [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)
-### [Kynning: Nota fjárhagsskýrslur til að gera sjóðstreymisspár](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### Fjárhagsskýrslugerð (framkvæmd fjárhagsskýrsla og afkastavísar)
+#### [Undirbúa fjárhagsskýrslur](bi-how-work-account-schedule.md)
+#### [Kynning: Nota fjárhagsskýrslur til að gera sjóðstreymisspá](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Setja upp og gefa út vefþjónustu afkastavísa sem byggir á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Greina gögn með tölfræðilegum lyklum](bi-use-statistical-accounts.md)
+#### [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
+#### [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)
 
+<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+
+### Innbyggð fjármálagreiningartól
+#### [Greina fjárhagsgögn úr bókhaldslykli](finance-general-ledger.md)
+#### [Greina raunverulegar og áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md)
+#### [Greina sjóðsstreymi](finance-analyze-cash-flow.md)
+
+### Innbyggðar fjárhagsskýrslur
+#### [Innbyggðar fjárhagsskýrslur í Excel](finance-analyze-excel.md)
+#### [Innbyggðar lykilfjárhagsskýrslur](finance-reports.md)
+#### [Innbyggðar eignaskýrslur](fa-reports.md)
+#### [Innbyggðar skýrslur viðskiptakrafna](receivables-reports.md)
+#### [Innbyggðar skýrslur viðskiptaskulda](payables-reports.md)
 
 ## Sala
 ### [Söluyfirlit](sales-manage-sales.md)
@@ -549,18 +562,20 @@ ms.service: dynamics-365-business-central
 ## Verkefnastjórnun
 ### [Yfirlit verkefnastjórnunar](projects-manage-projects.md)
 ### [Verkskýrslur](project-reports.md)
-### [Stofna verk](projects-how-create-jobs.md)
+### [Stofna verkefni](projects-how-create-jobs.md)
 ### [Nota forða fyrir verkefni](projects-how-use-resources.md)
 ### [Nota vinnuskýrslur](projects-how-use-time-sheets.md)
-### [Umsjón fjárhagsáætlana fyrir eignir](projects-how-manage-budgets.md)
-### [Skrá notkun vegna verka](projects-how-record-job-usage.md)
-### [Stjórna verkbirgðum](projects-how-manage-project-supplies.md)
+### [Vinna með verkáætlanir](projects-how-manage-budgets.md)
+### [Skrá notkun fyrir verkefni](projects-how-record-job-usage.md)
+### [Sjá um birgðir verkefna](projects-how-manage-project-supplies.md)
 ### [Skilja VÍV-aðferðir](projects-understanding-wip.md)
-### [Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)
-### [Reikningsfærsla verka](projects-how-invoice-jobs.md)
+### [Fylgjast með framvindu og afköstum verks](projects-how-monitor-progress-performance.md)
+### [Reikningsverk](projects-how-invoice-jobs.md)
 
 ## Eignir
 ### [Yfirlit yfir eignir](fa-manage.md)
+### [Uppsetning eigna](fa-setup.md)
+### [Afskriftaaðferðir](fa-depreciation-methods.md)
 ### [Skýrslur og greiningar eigna](fa-reports.md)
 ### [Komast yfir eignir](fa-how-acquire.md)
 ### [Umsjón eigna](fa-how-maintain.md)
@@ -723,12 +738,12 @@ ms.service: dynamics-365-business-central
 ## Netverslun með Shopify
 ### [Hefjast handa með Shopify tengli](shopify/get-started.md)
 #### [Stofna og setja upp Shopify reikning](shopify/shopify-account.md)
-### [Samstilla vörur við Shopify](shopify/synchronize-items.md)
-### [Samstilla viðskiptavini við Shopify](shopify/synchronize-customers.md)
+### [Samstilla vörur og birgðir við Shopify](shopify/synchronize-items.md)
+### [Samstilla viðskiptavini og fyrirtæki við Shopify](shopify/synchronize-customers.md)
 ### [Samstilla og uppfylla sölupantanir með Shopify](shopify/synchronize-orders.md)
 ### [Samstilla færslur og útborganir](shopify/transactions-and-payouts.md)
 ### [Setja upp skatta fyrir Shopify-tenginguna](shopify/setup-taxes.md)
-### [Keyra verk í bakgrunni](shopify/background.md)
+### [Sjálfvirk Shopify samstilling með verkröð](shopify/background.md)
 ### [Úrræðaleit fyrir Shopify tengil](shopify/troubleshoot.md)
 ### [Algengar spurningar fyrir Shopify tengilinn](shopify/shopify-faq.md)
 ### [Kynning: Uppsetning og notkun Shopify tengis](shopify/walkthrough-setting-up-and-using-shopify.md)
@@ -853,33 +868,66 @@ ms.service: dynamics-365-business-central
 #### [Kjarnastaðfæringarpakki fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 #### [Ítarlegur staðfæringarpakki fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Core-fjármál  
-##### [Finance](LocalFunctionality/Czech/finance.md)
+##### [Leiðréttingarbókun (Red Storno)](LocalFunctionality/Czech/how-to-use-corrections-posting.md)
+##### [Lögboðnar upplýsingar um fyrirtæki](LocalFunctionality/Czech/statutory-company-information.md)
+##### [Innri fjárhagsskjöl](LocalFunctionality/Czech/internal-financial-documents.md)
+##### [Úttaksskjöl bókhalds](LocalFunctionality/Czech/accounting-output-documents.md)
+##### [Áætlunareiginleiki bókhalds](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
+##### [Lögboðin yfirlit](LocalFunctionality/Czech/statutory-statements.md)
 ##### [Aðgerðir árslokunar](LocalFunctionality/Czech/year-close-operations.md)
 ##### [Jöfnun fjárhagsfærslna](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Uppfærsla gengis](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [Fjölrása bókhald](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
 #### VSK
-##### [Fjármál - VSK](LocalFunctionality/Czech/finance-vat.md)
+##### [VSK-dagsetning](LocalFunctionality/Czech/how-to-setup-vat-date.md)
+##### [VSK-yfirlit](LocalFunctionality/Czech/vat-statement.md)
+##### [VSK-viðbótaryfirlit](LocalFunctionality/Czech/supplementary-vat-statement.md)
+##### [VIES](LocalFunctionality/Czech/vies-cz.md)
+##### [VIES – CZ útflutningur](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
+##### [Óáreiðanlegur greiðandi](LocalFunctionality/Czech/unreliable-payer.md)
+##### [VSK-gengi](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
+##### [Setja upp og bóka bakfært gjald](LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md)
 ##### [VSK-eftirlitsskýrsla](LocalFunctionality/Czech/vat-control-report.md)
+##### [VSK-skýrslur](LocalFunctionality/Czech/vat-reports-cz.md)
+##### [VSK-leiðrétting í staðbundnum gjaldmiðli](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [Intrastat fyrir Tékkland (framlenging)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Eignir
-##### [Eignir](LocalFunctionality/Czech/fixed-assets.md)
 ##### [Staðfæring eignar fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankaþjónusta og greiðslur
-##### [Bankaeiginleiki](LocalFunctionality/Czech/bank-feature.md)
 ##### [Staðfæring bankaskjala fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
-##### [Stjórnun afgreiðslukassa](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Staðfæring afgreiðslukassa fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Skráning sölu (EET)](LocalFunctionality/Czech/eet.md)
-##### [Ítarlegt](LocalFunctionality/Czech/advances.md)
 ##### [Staðfæring fyrirframgreiðslna fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
-#### Viðskiptaskuldir og útistandandi
-##### [Viðskiptaskuldir og útistandandi](LocalFunctionality/Czech/receivables-payables.md)
-##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Staðfæring launa fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+#### Viðskiptaskuldir og viðskiptakröfur
+##### [Leiðréttingareiginleiki gengis)](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
+##### [Margir reikningar fyrir viðskiptaskuldir og viðskiptakröfur](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
+##### [Afstemmingar viðskiptavinar og lánardrottins](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
+##### [Leiðréttingarskjöl sölu](LocalFunctionality/Czech/sales-correcting-documents.md)
+##### [Uppfæra tengiliði ú ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
+##### [Ný hönnun úttaksskjala](LocalFunctionality/Czech/new-design-of-output-documents.md)
+##### [Uppbætur](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Birgðir
-##### [Birgðir](LocalFunctionality/Czech/inventory.md)
+##### [Sléttun í birgðum](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
+##### [Umbætur á fjárhagsafstemmingum](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
+##### [Ítarlegri eiginleiki efnislegra birgða](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
+##### [Birgðatalningarsköl](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
+##### [Birgðaaðgerðaskjal](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
+##### [Bókunarflokkar í millifærslupöntunum](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
 #### Almennt
 ##### [Aukin notandastýring](LocalFunctionality/Czech/general.md)
-##### [Bestu venjur](LocalFunctionality/Czech/best-practices.md)
+##### [Stjórn breytinga á bókunarflokki](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Stjórnun á tímaröð úttaksbirgða](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
+##### [Sniðmát birgðahreyfinga](LocalFunctionality/Czech/inventory-movement-templates.md)
+##### [Sniðmát birgðahaldseiningar](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
+##### [Áskilin nákvæm kostnaðarskil í framleiðslu](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+##### [Sjálfgefinn viðskiptabókunarflokkur í framleiðslu](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
+##### [Sjálfgefinn viðskiptabókunarflokkur í samsetningarpöntunum](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
+##### [Sjálfvirkar víddir fyrir stofnun og uppfærslu](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
+##### [Bæta við reitum í birgðafærslum](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
+##### [Almennur framleiðslubókunarflokkur í birgðahaldseiningu](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
+##### [Sleppa uppfærslu fyrir birgðahaldseiningu við bókun](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
+##### [Númeraröð utanbirgðavöru](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
 
 ### Danmörk
 #### [Staðbundin virkni í danskri útgáfu](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1305,7 +1353,7 @@ ms.service: dynamics-365-business-central
 ##### [Samskipti fjárhagsbókar](LocalFunctionality/Russia/general-ledger-correspondence.md)
 ##### [Gjaldmiðill](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 ##### [Setja upp ábyrgðarfulla starfsmenn og ítarleg yfirlit](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
-#### Viðskiptaskuldir og útistandandi
+#### Viðskiptaskuldir og viðskiptakröfur
 ##### [Viðskiptaskuldir og útistandandi í rússneskri útgáfu](LocalFunctionality/Russia/Payables-and-Receivables.md)
 ##### [Slá inn upplýsingar um sérsniðnar skýrslur](LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md)
 ##### [Setja upp og búa til lögmannsbréf](LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md)
@@ -1523,6 +1571,7 @@ ms.service: dynamics-365-business-central
 #### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)
 #### [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md)
+#### [Sjálfvirkar áminningar í söfnum](finance-automate-reminders.md)
 #### [Setja upp vaxtaskilmála](finance-setup-finance-charges.md)
 #### [Setja upp virðisaukaskatt (VSK)](finance-setup-vat.md)
 #### [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts (VSK)](finance-setup-vat.md)
@@ -1584,15 +1633,14 @@ ms.service: dynamics-365-business-central
 #### [Flokka vörur](inventory-how-categorize-items.md)
 #### [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)
 ### Setja upp verkefnastjórnun
-#### [Setja upp verk](projects-setup-projects.md)
+#### [Setja upp verkefnastjórnun](projects-setup-projects.md)
 #### [Setja upp forða](projects-how-setup-resources.md)
 #### [Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md)
-#### [Uppsetning verka](projects-how-setup-jobs.md)
+#### [Setja upp verk](projects-how-setup-jobs.md)
 ### Uppsetning eigna
 #### [Uppsetning eigna](fa-setup.md)
 #### [Uppsetning almennra eignaupplýsinga](fa-how-setup-general.md)
 #### [Setja upp eignaafskriftir](fa-how-setup-depreciation.md)
-#### [Skilgreina afskriftaaðferðir](fa-depreciation-methods.md)
 #### [Uppsetning afskriftaaðferða sem notandi skilgreinir](fa-how-setup-user-defined-depreciation-method.md)
 #### [Uppsetning vátryggingar eignar](fa-how-setup-insurance.md)
 #### [Uppsetning eignarviðhalds](fa-how-setup-maintenance.md)
@@ -1727,10 +1775,13 @@ ms.service: dynamics-365-business-central
 ### [Setja upp Online Map](across-online-maps-setup.md)
 ### [Nota Business Central á fartækinu þínu](install-mobile-app.md)
 ### [Ná í Business Central á skjáborðið](install-desktop-app.md)
-<!--Reporting landing page-->
-# Viðskiptavit og skýrslur 
 
-## [Yfirlit](reports-bi-reporting.md)
+<!--Reporting landing page-->
+# Greiningar, viðskiptagreind og skýrslugerð 
+
+## [Greiningaryfirlit](reports-bi-reporting.md)
+## [Notkun afkastavísa til að ná viðskiptamarkmiðum](./analytics-about-kpis.md)
+## [Notkun fjárhagsskýrslugerðar](bi-how-work-account-schedule.md)
 
 ## Nota skýrslur í daglegu starfi
 ### [Yfirlit](reports-use-reports.md)
@@ -1771,12 +1822,12 @@ ms.service: dynamics-365-business-central
 #### [Rekja vörur með rað-, lotu- og pakkanúmerum](inventory-how-work-item-tracking.md)
 #### [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)
 #### [Endurskoða afstemmingu á milli birgðabókar og fjárhags](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Skoða hjáskipunarvörur í afhendingum eða tínsluvinnublaði](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+#### [Skoða hjáskipunarvörur í sendingu eða tínsluvinnublaði](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
 
 ### Verkefni
 #### [Verkskýrslur](project-reports.md)
-#### [Skoða áætlanir um verknotkun](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
-#### [Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)
+#### [Skoða áætlanir um verknotkun](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
+#### [Fylgjast með framvindu og afköstum verks](projects-how-monitor-progress-performance.md)
 
 ### Eignir
 #### [Skýrslur eigna](fa-reports.md)
@@ -1933,6 +1984,7 @@ ms.service: dynamics-365-business-central
 #### [Microsoft Business Central-viðbætur frá öðrum veitum](ui-extensions-other.md)
 ## Samþætta við önnur Dynamics 365-forrit
 ### [Samþætta við Dynamics 365 Sales með samstillingu gagna](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Samþætta við Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)
 ## Samþætta við Microsoft Dataverse
 ### [Samþætta við Dataverse með samstillingu gagna](admin-common-data-service.md)
 ### [Líkön eignarhalds gagna fyrir samstillingu](admin-cds-company-concept.md)
@@ -2025,18 +2077,36 @@ ms.service: dynamics-365-business-central
 ## [Afköst](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Eiginleikar sem hafa verið fjarlægðir eða eru úreltir](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot- og gervigreindarmöguleikar
+## [Um Copilot í Business Central](copilot-overview.md)
 ## Stjórna Copilot- og gervigreindarmöguleikum
 ### [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)
 ### [Copilot-gagnaflutningur á milli landsvæða](ai-copilot-data-movement.md)
-### [Villuleita Copilot- og gervigreindarmöguleika](ai-copilot-troubleshooting.md)
+### [Úrræðaleit fyrir Copilot- og AI-eiginleika](ai-copilot-troubleshooting.md)
+## Greiningaraðstoð (forskoðun)
+### [Greina gögn á listum með Copilot](analysis-assist.md)
+### [Algengar spurningar um greiningaraðstoð](faqs-analysis-assist.md)
 ## Afstemmingaraðstoð fyrir bankareikning (forútgáfa)
 ### [Afstemma bankareikninga með Copilot](bank-reconciliation-with-copilot.md)
 ### [Algengar spurningar um aðstoð vegna bankaafstemmingar](faqs-bank-reconciliation.md)
+## Spjalla við Copilot (forskoðun)
+### [Spjalla við Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [Algengar spurningar um spjall við Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Svör við algengum spurningum um AI fyrir spjall við Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Tillögur að markaðstexta
 ### [Yfirlit yfir tillögur að markaðstexta](ai-overview.md)
 ### [Búa til markaðstexta með Copilot](item-marketing-text.md)
 ### [Algengar spurningar um tillögur að markaðstexta](faqs-marketing-text.md)
+## Tillögur að sölulínum (forskoðun)
+### [Leggja til línur á sölupöntunum með Copilot](sales-suggest-sales-lines-with-copilot.md)
+### [Algengar spurningar um tillögur sölulína með Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## Tengja rafræn skjöl (forskoðun)
+### [Tengja rafræn við innkaupapöntunarlínur með Copilot](map-edocuments-with-copilot.md)
+### [Algengar spurningar um tengingu rafrænna skjala við innkaupapantanir með Copilot](faqs-map-edocuments.md)
 # Ábyrg gervigreind
 ## [Yfirlit](responsible-ai-overview.md)
+## [Algengar spurningar um greiningaraðstoð (forskoðun)](faqs-analysis-assist.md)
 ## [Algengar spurningar um aðstoð vegna bankaafstemmingar (forútgáfa)](faqs-bank-reconciliation.md)
+## [Algengar spurningar um spjall við Copilot (forskoðun)](faqs-chat-with-copilot.md)
 ## [Algengar spurningar um tillögur að markaðstexta](faqs-marketing-text.md)
+## [Algengar spurningar um tillögur sölulína með Copilot (forskoðun)](faq-sales-suggest-sales-lines-with-copilot.md)
+## [Algengar spurningar um tengingu rafrænna skjala við innkaupapantanir með Copilot (forskoðun)](faqs-map-edocuments.md)

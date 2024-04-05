@@ -2,18 +2,19 @@
 title: Tengja við Microsoft Dataverse (inniheldur myndskeið)
 description: Settu upp tengingu milli Business Central og Dataverse. Yfirleitt stofna fyrirtæki tenginguna til að samþætta og samstilla gögn við annað Dynamics 365 Business-forrit.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 09/28/2023
-ms.author: bholtorf
+ms.date: 02/28/2024
 ms.service: dynamics-365-business-central
 ---
 # Tengjast við Microsoft Dataverse
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-Í þessari grein er lýst hvernig setja á upp tengingu milli  [!INCLUDE[prod_short](includes/prod_short.md)]  og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Yfirleitt stofna fyrirtæki tenginguna til að samþætta og samstilla gögn við annað Dynamics 365 Business-forrit á borð við [!INCLUDE[crm_md](includes/crm_md.md)].  
+Í þessari grein er því lýst hvernig setja skuli upp tengingu milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Yfirleitt stofna fyrirtæki tenginguna til að samþætta og samstilla gögn við annað Dynamics 365 Business-forrit á borð við [!INCLUDE[crm_md](includes/crm_md.md)].  
 
 ## Verður að byrja fyrir
 
@@ -22,37 +23,43 @@ ms.service: dynamics-365-business-central
 * Vefslóðin fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)] umhverfið sem á að tengjast við. Ef uppsetningarleiðbeiningin **Dataverse Uppsetning tengingar** með hjálp er notuð til að stofna tengingu finnum við umhverfin þín. Einnig er hægt að færa inn vefslóð annars umhverfis í biðlarann.  
 * Notandanafn og aðgangsorð reiknings sem er með heimildir stjórnanda í [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Ef þú ert með innanhúss [!INCLUDE[prod_short](includes/prod_short.md)] 2020 útgáfubylgju 1, útgáfu 16.5, skaltu lesa greinina [Nokkur þekkt vandamál](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Þú þarft að ljúka við útskýrða hjáleið áður en þú getur stofnað tengingu þína við [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-* Gjaldmiðlar landsins sem hvert fyrirtæki notar. [!INCLUDE [prod_short](includes/prod_short.md)] fyrirtæki geta tengst  [!INCLUDE [cds_long_md](includes/cds_long_md.md)]  umhverfi sem hefur grunngjaldmiðil sem er annar en staðbundinn gjaldmiðill þeirra. Frekari upplýsingar um það hvernig eigi að fara með uppsetningu fjölgjaldsmælingar er  [að leyfa fyrir mismunandi gjaldmiðla](#allow-for-different-currencies).
+* Staðbundnir gjaldmiðlar sem hvert fyrirtæki notar. [!INCLUDE [prod_short](includes/prod_short.md)] fyrirtæki geta tengst [!INCLUDE [cds_long_md](includes/cds_long_md.md)] umhverfi sem er með grunngjaldmiðil sem er annar en staðbundinn gjaldmiðill. Nánari upplýsingar um hvernig á að meðhöndla marggjaldmiðilsuppsetningar er farið í [Leyfa fyrir mismunandi gjaldmiðla](#allow-for-different-currencies).
 
 > [!IMPORTANT]
 >  [!INCLUDE[cds_long_md](includes/cds_long_md.md)] umhverfið má ekki vera í stjórnunarstillingu. Stjórnandastillingin veldur því að tengingin mistekst vegna þess að notandareikningur samþættingar fyrir tenginguna er ekki með heimildir stjórnanda. Frekari upplýsingar eru í [Stjórnunarsnið](/power-platform/admin/admin-mode).
 
 > [!Note]
 > Þessi skref útskýra ferlið fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu.
-> Ef þú notar  [!INCLUDE[prod_short](includes/prod_short.md)]  innanhúss og ert ekki með  Microsoft Entra  lykil til að tengjast  [!INCLUDE [cds_long_md](includes/cds_long_md.md)], verður þú einnig að tilgreina notandanafn og aðgangsorð notandareiknings fyrir samþættingu. Þessi reikningur er kallaður reikningur „samþættingarnotanda“. Ef verið er að  Microsoft Entra  nota lykil er reikningur fyrir samþættingu hvorki nauðsynlegur né birtur. Samþættingarnotandinn verður settur upp sjálfkrafa og þarf ekki leyfi.
+> Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og notar Microsoft Entra ekki reikning til að tengjast [!INCLUDE [cds_long_md](includes/cds_long_md.md)] verður einnig að tilgreina notandanafn og aðgangsorð notandareiknings fyrir samþættinguna. Þessi reikningur er kallaður reikningur „samþættingarnotanda“. Ef notandi notar Microsoft Entra reikning er ekki krafist samþættingarnotandareikningsins eða hann birtur. Samþættingarnotandinn verður settur upp sjálfkrafa og þarf ekki leyfi.
 
-## Leyfa fyrir mismunandi gjaldmiðla
+## Tengja Business Central og Dataverse umhverfi
 
-[!INCLUDE [prod_short](includes/prod_short.md)] fyrirtæki geta tengst  [!INCLUDE [cds_long_md](includes/cds_long_md.md)]  umhverfi sem hefur grunngjaldmiðil sem er annar en staðbundinn gjaldmiðill þeirra.
+Fyrirtæki vilja halda gögnum sínum öruggum og öruggum innan persónuverndarmörkum sínum, og sérstaklega þegar viðskiptastjórnunarforrit þeirra er samþætt öðrum forritum. Með því að [!INCLUDE [prod_short](includes/prod_short.md)] tengja og [!INCLUDE[cds_long_md](includes/cds_long_md.md)] umhverfi nærð þú ekki aðeins þeim sjónarmiðum, heldur veitir stjórnendum þínum einnig auðveldari leið til að búa til og viðhalda samþættingu við önnur Dynamics 365 forrit.
+
+ [!INCLUDE [prod_short](includes/prod_short.md)] Í stjórnunarmiðstöðinni er hægt að tengja umhverfið [!INCLUDE [prod_short](includes/prod_short.md)] við umhverfið [!INCLUDE [cds_long_md](includes/cds_long_md.md)] . [!INCLUDE [prod_short](includes/prod_short.md)] hægt er að nota upplýsingarnar af tenglinum til að auðvelda öryggi og samþættingu við önnur forrit Dynamics 365, svo sem Sölu- og reitaþjónustu. Tengt [!INCLUDE [cds_long_md](includes/cds_long_md.md)] umhverfisfang er til dæmis sjálfgefið tiltækt á síðunni **Dataverse Uppsetning** tengingar og þegar uppsetningarleiðbeiningar með aðstoð tengingar **Dataverse eru keyrðar** .
+
+## Leyfa mismunandi gjaldmiðla
+
+[!INCLUDE [prod_short](includes/prod_short.md)] fyrirtæki geta tengst [!INCLUDE [cds_long_md](includes/cds_long_md.md)] umhverfi sem er með grunngjaldmiðil sem er annar en staðbundinn gjaldmiðill.
 
 > [!NOTE]
-> Samstilling margra gjaldmiðla krefst þess að þú sért að nota unistefnumarkandi samstillingu, frá  [!INCLUDE [prod_short](includes/prod_short.md)]  til [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
+> Samstilling margra gjaldmiðla krefst þess að samstilling sé notuð, allt frá [!INCLUDE [prod_short](includes/prod_short.md)]  [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 
-Til að fræðast meira um grunngjaldmiðil í  [!INCLUDE [cds_long_md](includes/cds_long_md.md)] er farið í  [gjaldmiðli færslunnar Gjaldmiðill (gjaldmiðill)](/powerapps/developer/data-platform/transaction-currency-currency-entity). 
+Til að [!INCLUDE [cds_long_md](includes/cds_long_md.md)] fræðast meira um grunngjaldmiðilinn í er farið í [færslugjaldmiðilseiningu](/powerapps/developer/data-platform/transaction-currency-currency-entity) (gjaldmiðill). 
 
-Til að fræðast meira um gjaldmiðla í  [!INCLUDE [prod_short](includes/prod_short.md)] er farið  [í gjaldmiðla í viðskiptamiðinu](finance-currencies.md).
+Til að [!INCLUDE [prod_short](includes/prod_short.md)] fræðast meira um gjaldmiðla í er farið í [Gjaldmiðlar í Business Central](finance-currencies.md).
 
-Ef leyfa á mismunandi gjaldmiðlum áður en tengst er skal ganga úr skugga um að eftirfarandi stillingar hafi verið tilgreindar:
+Ef leyfa á mismunandi gjaldmiðla þarf að ganga úr skugga um að eftirfarandi stillingar hafi verið tilgreindar:
 
-* Grunnstilling gjaldmiðilsins í  [!INCLUDE [cds_long_md](includes/cds_long_md.md)]  er með gjaldmiðilskóta sem tilgreindur er á  **síðunni Gjaldmiðlar**  í [!INCLUDE [prod_short](includes/prod_short.md)].
-* Það er að minnsta kosti eitt gengi tilgreint fyrir gjaldmiðilinn í  [!INCLUDE [prod_short](includes/prod_short.md)]  **síðunni gengi**  gjaldmiðla.
+* Gjaldmiðilsstilling grunnviðskipta í [!INCLUDE [cds_long_md](includes/cds_long_md.md)] er með gjaldmiðilskótann sem er tilgreindur á síðunni **Gjaldmiðlar** í [!INCLUDE [prod_short](includes/prod_short.md)].
+* Það er að minnsta kosti eitt gengi tilgreint fyrir gjaldmiðilinn á [!INCLUDE [prod_short](includes/prod_short.md)] síðunni **Gengi gjaldmiðils** .
 
-Þegar tengingin  [!INCLUDE [cds_long_md](includes/cds_long_md.md)] er gerð virk,  [!INCLUDE [prod_short](includes/prod_short.md)]  bætir staðbundinn Gjaldmiðill hans við  **gjaldmiðilinn**  í [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Staðbundinn Gjaldmiðill notar gengið úr  **reitnum Gjaldmiðilstuðull**  á  **síðunni gengi**  gjaldmiðla.
+Þegar tenging [!INCLUDE [cds_long_md](includes/cds_long_md.md)] er gerð virk við bætir [!INCLUDE [prod_short](includes/prod_short.md)]  heimagjaldmiðillinn henni við **gjaldmiðilseininguna** . [!INCLUDE [cds_long_md](includes/cds_long_md.md)] Heimagjaldmiðillinn notar gengið úr reitnum **Gengisstuðull** á síðunni **Gengi gjaldmiðils** .
 
-Þar sem samstilling gjaldmiðils er einhliða, frá  [!INCLUDE [prod_short](includes/prod_short.md)]  til, eiga peningaupphæðir að  [!INCLUDE [cds_long_md](includes/cds_long_md.md)] umbreyta og samstilla á eftirfarandi hátt:
+Þar sem samstilling gjaldmiðils er einstefnuleg, frá [!INCLUDE [prod_short](includes/prod_short.md)] til [!INCLUDE [cds_long_md](includes/cds_long_md.md)], umbreyta peningaupphæðir og samstilla á eftirfarandi hátt:
 
-* Ef í  [!INCLUDE [cds_long_md](includes/cds_long_md.md)]  grunngjaldmiðli eru upphæðir umreiknað í  [!INCLUDE [prod_short](includes/prod_short.md)]  staðbundinn gjaldmiðil samkvæmt Síðasta gengissamstillta frá [!INCLUDE [prod_short](includes/prod_short.md)].
-* Ef í  [!INCLUDE [prod_short](includes/prod_short.md)]  staðbundnum gjaldmiðli eru upphæðir samstilltar við  [!INCLUDE [prod_short](includes/prod_short.md)]  staðbundinn gjaldmiðil í einum af viðbótar-, án-Base-gjaldmiðlunum í [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
+* Ef í grunngjaldmiðlinum [!INCLUDE [cds_long_md](includes/cds_long_md.md)] eru upphæðir umreiknaðar í [!INCLUDE [prod_short](includes/prod_short.md)] staðarmynt byggðar á því gengi sem síðast var samstillt úr [!INCLUDE [prod_short](includes/prod_short.md)].
+* Ef í [!INCLUDE [prod_short](includes/prod_short.md)] staðarmynt eru upphæðir samstilltar við [!INCLUDE [prod_short](includes/prod_short.md)] heimagjaldmiðilinn í einum af viðbótargjaldmiðlunum sem ekki eru grunngjaldmiðlar í [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 
 ## Setja upp tengingu við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
@@ -123,7 +130,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## Aðlögun að sambyggðum festingum
+## Sérstilla samsvörunarmiðaða jöfnun
 
 Frá og með 2021 útgáfutímabili 2 getur stjórnandi slegið inn skilyrði til að tengja færslur út frá samsvörun. Hægt er að ræsa reiknirit fyrir samsvörun færslna frá eftirfarandi stöðum í [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -182,7 +189,7 @@ Yfirleitt mistekst tenging af eftirfarandi ástæðum:
 > [!TIP]
 > Til að veita þér betri yfirsýn yfir framvindu tengingarinnar sýnir reiturinn **Tengt við Dataverse** hvort færsla sé tengd við [!INCLUDE [cds_long_md](includes/cds_long_md.md)] einingu. Hægt er að nota reitinn **Tengt við Dataverse** til að sía listann yfir færslur sem verið er að samstilla.
 
-## Uppfæra tengingar úr Viðskiptamiðinu miðlægt til að nota sannvottun vottorða sem byggð er á
+## Uppfæra tengingar frá Business Central á netinu til að nota sannvottorð
 
 > [!NOTE]
 > Þessi hluti á aðeins við fyrir leigjendur [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem eru hýstir hjá Microsoft. Það hefur engin áhrif á leigjendur á netinu sem eru hýstir hjá óháðum hugbúnaðarsölum og uppsetningar á staðnum.
@@ -202,15 +209,15 @@ Til að koma í veg fyrir truflanir á samþættingum _verður að uppfæra_ ten
 > [!NOTE]
 > Þú verður að endurtaka þessi skref í hverju [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi, þar á meðal bæði framleiðslu- og sandkassaumhverfi, og í hverju fyrirtæki þar sem þú tengist [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## Tengist útgáfum innanhúss
+## Tenging útgáfur innanhúss
 
 Til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] þarf að gefa upp upplýsingar á síðunni **Dataverse Uppsetning tengingar**.
 
-Til að tengjast með  Microsoft Entra  lykli þarf að skrá umsókn í  Microsoft Entra  auðkenni. Þú þarft að framvísa auðkenni forritsins, leynilykli lyklageymslu og vefslóð framsendingar sem á að nota. Framsend vefslóð er fyllt út fyrirfram og ætti að virka fyrir flestar uppsetningar. Nauðsynlegt er að setja upp uppsetninguna til að nota HTTPS. Frekari upplýsingar er að finna í [Skilgreining SSL til að tryggja örugga tengingu vefbiðlara Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Ef verið er að setja upp þjóninn til að hafa aðra heimasíðu er hægt að breyta vefslóðinni. Leynilykill biðlara verða vistaður sem dulkóðaður strengur í gagnagrunninum. 
+Til að tengjast með reikningi Microsoft Entra verður að skrá forrit í Microsoft Entra kenni. Þú þarft að framvísa auðkenni forritsins, leynilykli lyklageymslu og vefslóð framsendingar sem á að nota. Framsend vefslóð er fyllt út fyrirfram og ætti að virka fyrir flestar uppsetningar. Nauðsynlegt er að setja upp uppsetninguna til að nota HTTPS. Frekari upplýsingar er að finna í [Skilgreining SSL til að tryggja örugga tengingu vefbiðlara Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Ef verið er að setja upp þjóninn til að hafa aðra heimasíðu er hægt að breyta vefslóðinni. Leynilykill biðlara verða vistaður sem dulkóðaður strengur í gagnagrunninum. 
 
-### Umsókn skráð í  Microsoft Entra  auðkenni vegna tengingar frá Viðskiptamiðinu við Dataverse
+### Til að skrá forrit í Microsoft Entra kenni til tengingar frá Business Central til Dataverse
 
-Eftirfarandi skref gera ráð fyrir að nota  Microsoft Entra  Kenni til að stjórna auðkennum og aðgangi. Nánari upplýsingar um skráningu á umsókn í auðkenni eru  Microsoft Entra  í  [Quickstart: Skráðu þig í forriti sem er með Microsoft kennipalli](/azure/active-directory/develop/quickstart-register-app). 
+Eftirfarandi skref gera ráð fyrir því að kenni séu notuð Microsoft Entra til að vinna með auðkenni og aðgang. Nánari upplýsingar um skráningu forrits í auðkenni eru Microsoft Entra í [Quickstart: Skráðu forrit á kennivettvang Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
 1. Í Azure-gáttinni, undir **Stjórna** á yfirlitssvæðinu, skal velja **Sannvottun**.  
 2. Undir **Framsenda vefslóðir** skal bæta við framsendingarvefslóð sem mælt er með á síðunni **Dataverse Uppsetning tengingar** í [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -226,7 +233,7 @@ Eftirfarandi skref gera ráð fyrir að nota  Microsoft Entra  Kenni til að stj
 6. Veljið **Yfirlit** og finnið svo gildið **Auðkenni forrits (biðlara)**. Þetta auðkenni er biðlarakenni forritsins. Færa verður það inn annaðhvort á síðunni **Dataverse Uppsetning tengingar** í reitnum **Biðlarakenni** eða geyma það í öruggri geymslu og láta það í té í áskriftartilviki.
 7. Í [!INCLUDE[prod_short](includes/prod_short.md)], á síðunni **Dataverse Uppsetning tengingar**, í reitnum **Vefslóð umhverfis**, skal færa inn vefslóðina fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-umhverfið.
 8. Til að virkja tenginguna við [!INCLUDE[cds_long_md](includes/cds_long_md.md)] þarf að kveikja á víxlhnappnum **Virkjað**.
-9. Skráðu þig inn með stjórnandareikninginn fyrir  Microsoft Entra  Kenni (þessi reikningur hlýtur að hafa gilt leyfi fyrir  [!INCLUDE[cds_long_md](includes/cds_long_md.md)]  og vera stjórnandi í þínu  [!INCLUDE[cds_long_md](includes/cds_long_md.md)]  umhverfi). Eftir að þú skráir þig inn verður þú beðinn um að leyfa skráða forritinu þínu að skrá sig inn í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] fyrir hönd fyrirtækisins. Veita þarf samþykki til að ljúka uppsetningunni.
+9. Skráðu þig inn með kerfisstjórareikningnum þínum fyrir Microsoft Entra auðkenni (þessi reikningur verður að hafa gilda leyfi fyrir [!INCLUDE[cds_long_md](includes/cds_long_md.md)] og vera stjórnandi í umhverfi þínu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ). Eftir að þú skráir þig inn verður þú beðinn um að leyfa skráða forritinu þínu að skrá sig inn í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] fyrir hönd fyrirtækisins. Veita þarf samþykki til að ljúka uppsetningunni.
 
    > [!NOTE]
    > Ef þú ert ekki beðinn um að skrá þig inn með stjórnandareikningnum þínum, er það líklega vegna þess að lokað er fyrir sprettiglugga. Til að skrá þig inn skaltu leyfa sprettiglugga úr `https://login.microsoftonline.com`.

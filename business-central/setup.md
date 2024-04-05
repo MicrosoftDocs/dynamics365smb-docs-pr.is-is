@@ -9,7 +9,7 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="overview-of-tasks-to-set-up-"></a>Yfirlit yfir verkefni til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]
+# Yfirlit yfir verkefni til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Greinarnar [Stuttir leiðarvísar Business Central](quick-start-business-central.md) geta auðveldað þér fyrstu skrefin í að gera [!INCLUDE [prod_short](includes/prod_short.md)] að þínu eigin. Í þessari grein er að finna yfirlit yfir hvernig hægt er að skilgreina [!INCLUDE [prod_short](includes/prod_short.md)] fyrir fyrirtækið.
 
@@ -30,7 +30,7 @@ Auk leiðbeininga um uppsetningu með hjálp er hægt að setja upp ákveðna al
 | Stilla reglur og gildi sem skilgreina innkaupastefnu fyrirtækisins, skrá nýja lánardrottna og forgangsraða lánardrottnum þínum til greiðsluvinnslu. |[Uppsetning innkaupa](purchasing-setup-purchasing.md) |
 | Stilla reglur og gildi sem skilgreina birgðastjórnun fyrirtækisins, setja upp staði ef þú geymir birgðir í mörgum vörugeymslum og flokka hlutina þína til að bæta leit og flokka. |[Uppsetning birgða](inventory-setup-inventory.md) |
 |Tilgreindu sjálfgefnar skýrslur til að nota með mismunandi tegundum skjala.|[Skýrsluval fyrir skjöl](across-report-selections.md)|
-| Setja upp auðlindir, tímasetningar og störf til að stjórna verkefnum. |[Setja upp verkefnastjórnun](projects-setup-projects.md) |
+| Setja upp forða, vinnuskýrslur og verkefni til að stjórna verkefnum. |[Setja upp verkefnastjórnun](projects-setup-projects.md) |
 | Stilla hvernig á að tryggja, viðhalda og afskrifa eignir og hvernig þú setur upp og skráir kostnað eigna í bókum fyrirtækisins. |[Uppsetning eigna](fa-setup.md) |
 |Tilgreina almennar reglur og gildi fyrir vöruhúsaferla og tiltekna meðhöndlun á hverri birgðageymslu.|[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)|
 |Undirbúðu framleiðsluuppskriftir og leiðir til að skilgreina hvernig endanlegar vörur eru framleiddar og undirbúðu véla- og vinnustöðvar fyrir að framkvæma nauðsynlegar aðgerðir.|[Uppsetning framleiðslu](production-configure-production-processes.md)|
@@ -54,13 +54,13 @@ Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[prod_short](i
 > [!NOTE]
 > Sem stjórnandi geturðu sett upp nýja fyrir tækið í [!INCLUDE[prod_short](includes/prod_short.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Frekari upplýsingar eru í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Setja upp forrit
+## Setja upp forrit
 
 Ofan á þá grunnmöguleika í [!INCLUDE [prod_short](includes/prod_short.md)] bætir Microsoft við nokkrum forritum sem eru sýnd á síðunni [**Viðbótastjórnun**](https://businesscentral.dynamics.com/?page=2500). Frá og með október 2022 gefur hvert upp tengil til að ræsa uppsetningarsíðuna sína - veldu einfaldlega aðgerðina **Setja upp**.  
 
 Einnig er hægt að bæta möguleikum við tölvuna [!INCLUDE [prod_short](includes/prod_short.md)] með því að bæta við AppSource forritum. Frekari upplýsingar eru í [Business Central Online sérstillt með viðbótum](ui-extensions.md).  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Yfirlit fyrirtækjaupplýsinga](admin-company-information.md)  
 [Stjórnun](admin-setup-and-administration.md)  
@@ -72,8 +72,8 @@ Einnig er hægt að bæta möguleikum við tölvuna [!INCLUDE [prod_short](inclu
 [Eignir](fa-manage.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
-[Yfirlit yfir](design-details-warehouse-management.md)
-[vöruhúsastjórnun vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Yfirlitsvinna vöruhúsastjórnunar](design-details-warehouse-management.md)
+[með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Undirbúningur fyrir viðskipti](ui-get-ready-business.md)  
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  

@@ -1,6 +1,6 @@
 ---
-title: Vasaljós í Grunnvinnslu
-description: Þessi grein leiðbeinir þér í gegnum nokkra kjarnaferla í verkefnastjórnun.
+title: Kynning á grunnverkum
+description: Þessi grein leiðir þig í gegnum nokkur kjarnaferli í verkefnastjórnun.
 author: andreipanko
 ms.author: andreipa
 ms.topic: how-to
@@ -8,89 +8,92 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Vasaljós í Grunnvinnslu
+# Kynning á grunnverkum
 
-Þessi gönguleið sýnir fram á nokkra kjarnaferla:
+Þessi kynning sýnir nokkur kjarnaferli:
 
-- Bæta vinnsluverkum við vinnslur
-- Skrá tíma-og efniskostnað við vinnu
+- Bæta verkhlutum við verk
+- Skrá kostnað tíma og efnis í verk
 - Reikningsfæra verk
 
-## <a name="adding-a-project-task"></a>Bætt verklag við vinnu
+## Verkhluta bætt við
 
-### <a name="scenario"></a>Aðstæður
+### Aðstæður  
 
-Símon, Verkstjóri, vill vera að skrá tíma eyða menntun viðskiptavinur í espresso vél nota skal sérstakt verk í vinnsluna til að setja upp vél á staðnum.
+Simon, verkefnastjóri, vill að skrá þurfi tíma sem kennir viðskiptamanninum hvernig á að nota espresso vélarvöruna. Simon vill nota sérstakan verkhluta í verkinu til að setja upp verkvél á staðnum.
 
-### <a name="steps"></a>Skref
+### Skref
 
-1. Stofna Vinnsluverkefnið  
+1. Verkhlutinn er stofnaður.
 
-    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
-    2. Veljið vinnsluna  *J00010*.
-    3.  **Í verksvæðinu**  skal velja  **nýju línuaðgerðina** .  Sláðu inn eftirfarandi gildi:
+    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Verkefni** og velja síðan viðeigandi tengil.  
+    2. Verkið J00010 er *valið*.
+    3.  **Á svæðinu Verkhlutar** skal velja aðgerðina **Ný lína** og færa síðan inn eftirfarandi gildi:
  
-    |Verkhlutanúmer verks|Heimildasamstæða|Tegund verkhluta|
+    |Nr. verkhluta verkefnis|Heimildasamstæða|Gerð verkhluta verkefnis|
     |------------|-----------|-------------|  
     |220|Þjálfun viðskiptavina|Bóka|
 
-2. Inntaka þeirra verkhluta sem vinna
-   1. Í verksvæðinu skal staðsetja  **aðgerðina Inndráttur verkhluta**  vinnu
-   2. Staðfesta þarf inndrátt verkefna með því að velja  **Já**.
+2. Dregið inn verkhlutana.
+   1. Á svæðinu Verkhlutar skal finna aðgerðina **Inndráttur** verkhluta.
+   2. Staðfesta þarf inndrátt verkhluta með því að **velja Já**.
 
-### <a name="results"></a>Niðurstöður
+### Niðurstöður
 
- - Nú er hægt að skrá tíma og útgjöld í nýtt vinnsluverk
+ - Nú er hægt að skrá tíma og kostnað á nýja verkhlutann
 
-## <a name="record-time-and-material-expenses-to-a-project"></a>Skrá tíma-og efniskostnað við vinnslu
+## Skrá tíma- og efniskostnað við verk
 
-### <a name="scenario-1"></a>Aðstæður
+### Aðstæður  
 
-Edgin, tæknimaður að setja upp vélina, þarf að skrá tíma hans og þau efni sem notuð eru við uppsetningu á vinnslunni fyrir innheimtuaðila.  Hann hefur þegar bætt við ferðum og efnum og þarf nú að bæta við tímann fyrir að kenna starfsfólki hvernig á að nota vélina.
+Edgin, tæknimaður sem setur vélina upp, þarf að skrá tímann og efnið sem notað er við uppsetningu verksins fyrir innheimtu. Edgin bætti þegar við ferðalögunum og efninu og þarf nú að bæta við tímann fyrir kennslu starfsfólks hvernig á að nota vélina.
 
-### <a name="steps-1"></a>Skref
+### Skref
 
-1. Stofna fleiri færslubókarlínur vinnslu
+1. Stofna viðbótarverkbókarlínur.
 
-    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkbækur** og velja síðan viðkomandi tengil.  
-    2. Veljið *runcontoso*.  Hér birtast nokkrar línur um forða og vörutegundir, sem endurspegla tímann (fyrir tæknimann og ökutækið) og efni (sem vél og vistir) notuðu.
-    3. Stofnið nýja línu. Sláðu inn eftirfarandi gildi:
+    1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **verkbækur** og velja síðan viðeigandi tengil.  
+    2. Velja skal runu *-CONTOSO*. Hægt er að sjá nokkrar línur af tegundinni Forði og Vara sem endurspegla tímann (fyrir tæknimanninn og ökutækið) og efni (vél og birgðir) sem notuð eru.
+    3. Ný lína er stofnuð og eftirfarandi gildi færð inn:
  
-    |Verknúmer|Verkhlutanúmer verks|Gerð|Nr.|Heimildasamstæða|Magn|
+    |Verk nr.|Nr. verkhluta verkefnis|Gerð|Nr.|Heimildasamstæða|Magn|
     |-------|------------|----|---|-----------|--------|  
     |J00010|220|Forði|EDGIN|Þjálfun viðskiptavina|1|
 
-2. Bóka tíma-og kostnað
-   1.  **Velja aðgerðina Bóka** 
-   2. Staðfesta skal að bóka eigi línurnar með því að velja  **Já**.
+2. Bóka tíma og kostnað.
+   1. Valið er **Bóka** aðgerðin.
+   2. Æskir notanda um að bóka línurnar með því að **velja Já**.
 
-### <a name="results-1"></a>Niðurstöður
+### Niðurstöður
 
- - Verkfærslur og forðafærslur af gerðinni  *notkun*  verða stofnaðar
- - Birgðafærslur verða stofnaðar til að breyta birgðum
- - Á verkspjaldinu er kostnaður og verð á verksvæðinu sem endurspeglar nýja stöðu sem bíður eftir reikningsfærslu
- - Upplýsingakassi í Vinnsluspjaldinu endurspeglar samtölur verðanna
+- Verkfærslur og Forðafærslur af tegundinni *Notkun* eru stofnaðar.
+- Birgðafærslur eru stofnaðar til að leiðrétta birgðirnar neikvætt.
+- Á Verkspjaldinu sýnir Kostnaður og Verð á verkhlutasvæðinu nýju stöðuna sem bíða reikningsfærslu.
+- Upplýsingakassinn fyrir verk sýnir samtölur verðsins á Verkspjaldinu.
 
-## <a name="creating-a-sales-invoice-for-a-project"></a>Sölureikningur stofnaður fyrir verk
+## Stofnun sölureiknings fyrir verk
 
-### <a name="scenario-2"></a>Aðstæður
-Símon þarf að stofna og bóka reikning til að geta sent viðskiptavininum þann tíma og kostnað frá vinnslunni.
+### Aðstæður  
 
-### <a name="steps-2"></a>Skref
-1. Stofna sölureikning
+Simon þarf að stofna og bóka reikning sem senda á til viðskiptavinarins með tíma og kostnaði frá verkefninu.
 
-    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
-    2. Í listanum yfir vinnslur skal velja  **aðgerðina Sölureikningsaðgerðin**  Stofna vinnslu.
-    3.  **Sett Verk nr.** sía til  *J00010*.
-    4. Velja  **skal í lagi**  til að mynda sölureikninginn.  Þú munt fá staðfestingu á því hversu margir reikningar eru myndaðir
+### Skref
 
-2. Bóka tíma-og kostnaðarreikning
-   1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
-   2. Veljið Síðasta reikning til að opna hana til yfirferðar.
+1. Sölureikningurinn er stofnaður.
+
+    1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Verkefni** og velja síðan viðeigandi tengil.  
+    2. Á listanum yfir verk skal velja aðgerðina **Stofna verksölureikning** .
+    3. Reiturinn Verknr **.** Afmörkun á *J00010*.
+    4. Velja skal **Í lagi** til að búa til sölureikninginn. Staðfesting berst á því hve margir reikningar eru búnir til.
+
+2. Bóka tíma og útgjaldareikning.
+
+   1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
+   2. Síðasti reikningurinn er valinn til að opna hann til endurskoðunar.
    3. Valið er **Bóka** aðgerðin.
 
-### <a name="results-2"></a>Niðurstöður
+### Niðurstöður
 
- - Verkfærslur og forðafærslur af tegundinni  *Sala*  verða stofnaðar
- - Á verkspjaldinu endurspeglar kostnaðurinn og verðið á verksvæðinu endurspegli nýju reikningsfærðu stöðurnar
- - Upplýsingakassi í Vinnsluspjaldinu endurspeglar samtölur verðs í kaflanum Reikningsfært verð til að færa inn á verkspjaldið.
+- Verkfærslur og forðafærslur af tegundinni *Sala* eru stofnaðar.
+- Á Verkspjaldinu sýnir Kostnaður og Verð á verkhlutasvæðinu nýju reikningsfærðu stöðuna.
+- Upplýsingakassinn Fyrir verk sýnir samtölur verðsins í hlutanum Reikningsfært verð á Verkspjaldinu.

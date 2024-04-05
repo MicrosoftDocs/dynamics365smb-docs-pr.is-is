@@ -1,7 +1,7 @@
 ---
 title: Keyra verk í bakgrunni og endurtekið
 description: Grunnstilltu samstillingu gagna á milli Business Central og Shopify í bakgrunni.
-ms.date: 05/11/2022
+ms.date: 03/26/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -19,10 +19,10 @@ ms.author: bholtorf
 ## Keyra verk í bakgrunni fyrir tiltekna verslun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, opna **Shopify Verslun** og veldu tengda tengilinn.
-2. Veljið verslunina þar sem á að keyra samstillingu í bakgrunni til að opna  **Shopify  síðuna Verkstæðisspjald** .
-3. Kveikja á Samað  **Syncs**  -bakgrunns-skipta.
+2. Velja skal verkstæðið sem á að keyra samstillingu fyrir til að opna **Shopify síðuna Vinnusalarspjald** .
+3. Kveikja á **vífæringu á Samstilla** bakgrunn bakgrunns.
 
-Núna, þegar samstillingaraðgerð er ræst, í stað þess að verk keyri í forgrunni, biður hún þig um að bíða. Þegar þessu lokið geturðu farið yfir í næstu aðgerð. Verkið er stofnað sem  **Verkraðarafærsla**  og byrjar strax.
+Þegar samstillingaraðgerðin hefst biður hann þig að bíða í stað þess að keyra verk í forgrunni. Þegar því lýkur er hægt að fara í næstu aðgerð. Verkið er stofnað sem **verkraðarfærsla** og hefst strax.
 
 ## Að tímasetja endurtekin verk
 
@@ -37,19 +37,33 @@ Núna, þegar samstillingaraðgerð er ræst, í stað þess að verk keyri í f
 |**Samstilla birgðir**|Skýrsla 30102 Samstilla birgðir við Shopify|
 |**Samstilla myndir**|Skýrsla 30107 Shopify samstilla myndir|
 |**Samstilla viðskiptamenn**|Skýrsla 30100 Shopify samstilla viðskiptamenn|
+|**Samstilla fyrirtæki**|Skýrsla 30114 Shopify samstillt fyrirtæki (B2B)|
 |**Samstilla greiðslur**|Skýrsla 30105 Shopify samstilla greiðslur|
+|**Samstilla vörulista**|Samstilla vörulista skýrslu 30115 Shopify (B2B)|
+|**Samstilla verð vörulista**|Skýrsla 30116 Shopify samstillt verð vörulista (B2B)|
 
 > [!NOTE]
 > Sumar einingar gætu verið uppfærðar af nokkrum verkum, t.d. þegar þú flytur inn pantanir, eftir því hver stillingin er í **Shopify verslunarspjald**, kerfið gæti einnig flutt inn og uppfært viðskiptamanna- og/eða framleiðslugögn. Mundu að nota sama verkraðarflokkinn til að forðast árekstra.
 
-Önnur verk sem geta verið hjálpleg við sjálfvirka vinnslu söluskjala:
+Aðrir verkhlutar sem geta verið gagnlegir til að gera frekari vinnslu söluskjala sjálfvirka:
 
-- Skýrsla 297 keyrsla bóka sölureikninga
-- Skýrsla 296 bókun sölupantana
+- Skýrsla 297 Fjöldabóka sölureikninga
+- Skýrsla 296 Fjöldabóka sölupantanir
 
-Hægt er að  **Shopify  nota Pöntunarnr**. Til að auðkenna söluskjöl sem voru flutt inn úr Shopify.
+Hægt er að nota reitinn Pöntunarnr **Shopify .** Til að auðkenna söluskjöl sem voru flutt inn úr Shopify.
 
-Nánari upplýsingar um bókun sölupantana í runu er  [að fá í til að stofna verkraðarafærslu fyrir runubókun sölupantana](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
+Til að fræðast meira um bókun sölupantana í keyrslu er farið í Til að [stofna verkraðarfærslu fyrir fjöldabókun sölupantana](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
+
+## Til að kanna stöðu samstillinga
+
+Í hlutverki **viðskiptastjóra** býður hlutinn **Shopify Aðgerðir** upp á nokkrar bendingar sem geta hjálpað til við að finna á fljótlegan hátt hvort vandamál séu með Shopify Connector.
+
+- **Ójafnaðar viðskiptamenn**  Shopify  eru fluttir inn en eru ekki tengdir við samsvarandi viðskiptamannsfærslu í [!INCLUDE [prod_short](../includes/prod_short.md)].
+- **Ójafnaðar vörur-vara**  Shopify  er flutt inn en er ekki tengd samsvarandi birgðafærslu í [!INCLUDE [prod_short](../includes/prod_short.md)].
+- **Óvinnufærðar pantanir**  Shopify  eru fluttar inn en söluskjöl í [!INCLUDE [prod_short](../includes/prod_short.md)] voru ekki stofnuð, oft vegna ómeðhinsaðra vara eða viðskiptamanna.
+- **Óvinnufærðar afhendingar** - Bókaðar söluafhendingar Shopify úr pöntunum eru ekki samstilltar við Shopify.
+- **AfhendingarVillur-Tengill**  Shopify  gat ekki samstillt bókaðar söluafhendingar við Shopify.
+- **Samstillingarvillur** - Það eru misheppnaðar verkraðarfærslur sem tengjast samstillingu við Shopify.
 
 ## Sjá einnig .
 

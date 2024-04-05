@@ -1,5 +1,5 @@
 ---
-title: Skoða og fletta í síðum eftir hlutverki
+title: Skoða og skoða síður og skýrslur eftir hlutverki
 description: Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir hlutverkið þitt og önnur hlutverk með hlutverkaleitinni.
 author: jswymer
 ms.topic: conceptual
@@ -11,26 +11,33 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Að finna síður með hlutverkaleit
+# Leita að síðum og skýrslum með hlutverkavafranum
 
-Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir þitt hlutverk, og fyrir önnur hlutverk ef farið er skrefi lengra. Í eftirfarandi fylgigögnum er þetta yfirlit yfir eiginleika kallað *Hlutverkaleit*.
+Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir þitt hlutverk, og fyrir önnur hlutverk ef farið er skrefi lengra. Þessi grein vísar til aðgerðayfirlitsins sem *hlutverkavafrann*.
 
-Hver eining á hlutverkaleit er aðgerð sem opnar síðu. Í samræmi við það er einnig hægt að nota hlutverkaleitina sem leið til að fletta í [!INCLUDE[prod_short](includes/prod_short.md)].
+Hver eining í hlutverkavafranum er aðgerð sem opnar síðu eða skýrslu. Í samræmi við það er einnig hægt að nota hlutverkaleitina sem leið til að fletta í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Opnið hlutverkaleitina
 
-Hægt er að opna hlutverkaleit úr Mitt hlutverk og öllum listasíðum og úr **Viðmótsleit** .
+Hægt er að opna hlutverkavafra úr hlutverkamiðstöðinni og öllum listasíðum og í **glugganum Segja mér** .
 
-- Í Mitt hlutverk eða einhverri listasíðu skal velja ![Valmyndarhnappinn.](media/ui_menu_button.png "Valmyndarhnappur") Hnappinn hægra megin við yfirlitsreinina eða velja  <kbd>Shift</kbd>+<kbd>F12</kbd>.
+- Á mínu hlutverki eða á listasíðunni er hnappurinn ![Valmynd valinn.](media/ui_menu_button.png "Valmyndarhnappur") Hægra megin við yfirlitsstiku eða Shift <kbd>F12 valið</kbd>+<kbd></kbd>.
 - Í glugganum **Viðmótsleit** skaltu velja aðgerðina **skoða** neðst.
 
 Þegar hlutverkamiðstöðin er opnuð í fyrsta sinn sýnir hún tengla á flesta eiginleika sem eru í boði fyrir hlutverkið þitt.
 
+## Opna hlutverkavafra sem er afmarkaður til að sýna skýrslur 
+
+Hægt er að opna hlutverkavafra í yfirliti sem er afmarkað til að sýna skýrslur frá hlutverkinu og öllum listasíðum og í **glugganum Tell Me** :
+
+- Á mínu hlutverki eða á listasíðunni **skal velja tengilinn Allar skýrslur** hægra megin við yfirlitsstiku.
+-  **Í glugganum Segja mér** skal velja **aðgerðina Skoða skýrslur** neðst.
+
 ## Flettieiginleikar
 
-Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eiginleikum eða kerfishlutum. Hægt er að draga saman eða víkka út hvern hnút fyrir sig og alla í einu.
+Aðgerðum sem opnar síður eða skýrslur er raðað undir hnútum sem nefndir eru eftir aðgerðunum eða kerfishlutunum. Hægt er að fella saman eða stækka hvern hnút sérstaklega eða alla hnúta saman.
 
 - Til að stækka/minnka einstaka hnúta skal velja hnútinn. Þetta á við um hnúta á efsta stigi og undirhnúta.
 - Til að stækka/minnka alla hnúta á efsta stigi á síðunni, en skilja undirhnútana eftir eins og þeir eru, skal velja **...** efst uppi, síðan velja **Stækka** eða **Minnka**.
@@ -38,16 +45,16 @@ Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eig
 
 ## Leita að eiginleikum
 
-Til að finna eiginleika á fljótlegan hátt skal velja **Leita**, síðan slá inn orð eða setningu fyrir eiginleikann sem leitað er að. Hlutverkamiðstöðin mun auðkenna alla samsvörun í texta. Ef eiginleiki er falinn í samandregnum hnút er samandreginn hnútur merktur sem punktur. 
+Til að finna eiginleika á fljótlegan hátt skal velja **Leita**, síðan slá inn orð eða setningu fyrir eiginleikann sem leitað er að. Mitt hlutverk merkir hvaða texta sem er. Ef eiginleiki er falinn í felldum hnút er fellihnúturinn merktur með hnút. 
 
 ## Kanna önnur hlutverk
 
-Til að skoða önnur hlutverk en þitt eigið skaltu velja **Kanna fleiri hlutverk**. Hlutverkamiðstöðin sýnir hvert hlutverk fyrir sig undir eigin fyrirsögn með tenglum á eiginleika þeirra. Síðan er hægt að fletta og finna eiginleika rétt eins og gert er þegar hlutverk eru könnuð.
+Til að skoða önnur hlutverk en þitt eigið skaltu velja **Kanna fleiri hlutverk**. Hlutverkamiðstöðin sýnir hvert hlutverk fyrir sig undir eigin fyrirsögn með tenglum á eiginleika þeirra. Þú getur fundið og farið í eiginleika eins og þú gerir þegar þú skoðar hlutverk þitt.
 
 > [!NOTE]
-> Þú sérð aðeins hlutverk sem eru sett þannig upp að þau sjáist í hlutverkaleitinni. Þannig að ef þú sérð ekki hlutverk sem þú bjóst við að sjá er það líklega ekki sett þannig upp. Frekari upplýsingar eru í [Unnið með forstillingar](admin-users-profiles-roles.md). 
+> Aðeins fæst aðgangur að hlutverkum sem eru sett upp til að birta í hlutverkavafranum. Ef hlutverk er ekki tiltækt er það líklega ekki sett upp fyrir það. Frekari upplýsingar eru í [Unnið með forstillingar](admin-users-profiles-roles.md). 
 
-Þegar önnur hlutverk eru skoðuð er einnig hægt að þrengja leitina með því að nota aðgerðirnar **Skýrslur og greiningar** og **Stjórnun** efst í hlutverkamiðstöðinni.
+Þegar önnur hlutverk eru skoðuð er einnig hægt að þrengja niður skoðanakannanir með því að nota **aðgerðirnar Skýrsla & Greining** og **Stjórnun** efst í hlutverkamiðstöðinni.
 
 - **Skýrslur og greiningar** sýnir aðeins eiginleikana sem eru flokkaðir sem skýrslu- og greiningareiginleikar.
 - **Stjórnun** sýnir aðeins eiginleikana sem eru flokkaðir sem stjórnunareiginleikar.
@@ -64,7 +71,7 @@ There a several actions along the top of the role explorer to help you locate fe
 |------|------|
 |**All**|Shows all features that are related to the role.|
 |**Find**|Lets you enter a word or phrase to quickly locate feature names that match.|
-|**Explore more roles**|All business features that are available for all roles including your own. When exploring all roles, the other actions work the same way, except for all roles shown. **NOTE:** You will only see roles that are set up to show in role explorer. For more information, see [Manage Profiles](admin-users-profiles-roles.md).  |
+|**Explore more roles**|All business features that are available for all roles including your own. When exploring all roles, the other actions work the same way, except for all roles shown. **NOTE:** You can only access roles that are set up to show in role explorer. For more information, see [Manage Profiles](admin-users-profiles-roles.md).  |
 |**Report & Analysis**|This action Shows only those features that are categorized as reports and analysis features.|
 |**Administration**|Shows only those features that are categorized as administration features.|
 
@@ -86,10 +93,11 @@ Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eig
 - Til að víkka út/draga saman hnút skal velja hnútinn. Þetta á við um hnúta á efsta stigi og undirhnúta.
 - Til að víkka/draga saman alla helstu hnúta á síðunni skaltu velja **Víkka** eða **Draga saman** aðgerðina efst í hægra horninu.
 - Til að víkka/draga saman allan efsta hnút og alla undirhnúta undir honum skal gera eitt af eftirfarandi:
-  -  <kbd>Veljið CTRL</kbd>+<kbd>Shift</kbd>  lyklana á meðan þú velur  **aðgerðina víkka**  eða  **fella**  inn efst í hægra horninu.
+  -  <kbd>Velja skal Ctrl-vaktarlyklana</kbd>+<kbd></kbd> á meðan aðgerðin **Stækka** eða **Fella** saman í efra hægra horni.
   - Veldu **...** efst í hægra horninu, Veldu svo aðgerðina **Útvíkka allt** eða **Fella allt saman**.
 
 ## Sjá einnig
+
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

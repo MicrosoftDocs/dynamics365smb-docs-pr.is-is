@@ -6,19 +6,19 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
-ms.date: 07/12/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="make-sales-quotes"></a>Gera sölutilboð
+# Gera sölutilboð
 
-Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilfang um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum. Hægt er að senda sölutilboð til viðskiptamannsins til að miðla tilboðinu. Hægt er að senda skjalið í tölvupósti sem PDF viðhengi. Hægt er að láta meginmálslínur tölvupósts vera útfyllt fyrirfram með tilboði. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
+Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilfang um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum. Hægt er að senda sölutilboð til viðskiptamannsins til að miðla tilboðinu. Hægt er að senda skjalið í tölvupósti sem PDF viðhengi. Hægt er að láta meginmálslínur tölvupósts vera útfyllt fyrirfram með tilboði. Nánari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md#to-send-documents-by-email).
 
 Þegar samið er við viðskiptavin eða tilfang er hægt að breyta og endursenda sölutilboðið eins mikið og oft og þörf er á. Þegar viðskiptamaður tekur tilboði, er sölutilboðinu breytt í sölureikning eða sölupöntun þar sem salan er meðhöndluð. Nánari upplýsingar eru í [Reikningsfæra sölu](sales-how-invoice-sales.md) eða [Selja vörur.](sales-how-sell-products.md)
 
 Í flestum tilfellum sendirðu sölutilboð á hugsanlega viðskiptavini. Oft er um að ræða tengilið sem samið er við. Ef viðkomandi samþykkir síðan tilboðið frá þér breytir þú sölutilboðinu í pöntun og skráir tilfangið sem viðskiptavin í [!INCLUDE [prod_short](includes/prod_short.md)]. Í eftirfarandi ferli leggjum við áherslu á tengiliði, en einnig er hægt að senda tilboð til núverandi viðskiptavina.  
 
-## <a name="to-create-a-sales-quote"></a>Sölutilboð búin til:
+## Sölutilboð búin til:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölutilboð** og velja síðan viðkomandi tengil.
 2. Tilgreindu tengilið eða viðskiptavin sem á að senda sölutilboðið til.
@@ -26,7 +26,7 @@ Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilf
     - Ef sölutilboðið er fyrir tengilið sem þegar er til staðar skaltu tilgreina nafnið í **Númer tengiliðar** .  
 
         Ef sölutilboðið er fyrir núverandi viðskiptavin skal tilgreina viðskiptavininn í reitnum **Viðskiptavinur**.
-    - Ef viðskiptavinurinn er ekki skráður skal fylgja þessum skrefum:
+    - Ef tengiliðurinn er ekki skráður skal fylgja eftirfarandi skrefum:
 
         1. Í **Númer tengiliðar** reitnum skal velja breytingarhnappinn :::image type="icon" source="media/assist-edit-icon.png" border="false":::.
         2. Í svarglugganum um val á tengilið er aðgerðin **Nýr** valin og síðan eru viðeigandi reitir fylltir út. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).  
@@ -40,11 +40,11 @@ Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilf
 
 3. Fylltu í eftirstandandi reikningana á síðunni **sölutilboð** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Nú er hægt að fylla út í sölulínur fyrir vörur sem selt er viðskiptamanni eða fyrir einhverri færslu við þann viðskiptamann eða tilfang sem á að skrá í fjárhagslykil.  
+    Nú er hægt að fylla út sölulínurnar fyrir vörur sem verið er að selja eða fyrir viðskipti við viðskiptamanninn eða væntanlegan möguleika á að skrá í fjárhagsreikning.  
 
     Ef endurteknar sölulínur hafa verið settar upp fyrir viðskiptamanninn, svo sem mánaðarlegar endurnýjunarpantanir, er hægt að færa línuna inn í pöntunina með því að velja aðgerðina **Endurteknar sölulínur**.  
 
-4. Á **Línur** Flýtiflipanum í **Tegund** reitnum, veldu hvaða tegund framleiðsluflokks, kostnaðarauka eða færslu þú munt bókað fyrir viðskiptamanninn með sölulínunni.
+4. Á flýtiflipanum **Línur** í reitnum **Tegund** er valið hvaða tegund vöru, gjalds eða færslu sem bóka á fyrir viðskiptamanninn í sölulínunni.
 5. Í reitnum **númer** Reitnum er valin færsla til að bóka samkvæmt gildinu í reitnum **Tegund** reit.
 
     Þú skilur **nr.** reitur tómur í eftirfarandi tilfellum:
@@ -65,7 +65,7 @@ Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilf
 8. Endurtakið skref 4 til 7 fyrir hverja vöru sem bjóða á tengiliðnum.
 
     Samtölur fyrir neðan línurnar eru sjálfkrafa reiknaðar þegar þú stofnar eða breytir línum.  
-9. Í reitnum **afsláttarupphæð reiknings** færið inn upphæð sem draga á frá gildinu sem sýnt er í reitnum **Heildarupphæð með skatti**.
+9. Í reitinn **Reikningsafsl.upphæð** er færð upphæð sem á að draga frá gildinu sem sýnt er í reitnum **Heildarupphæð með VSK** .
 
     Ef reikningsafslættir hafa verið settir upp fyrir viðskiptamanninn, er tilgreint prósentugildi sjálfvirkt fært inn í reitinn **reikningsafsláttur %** ef viðmiðum hefur verið mætt og upphæðin færð inn í reitinn **afsláttarupphæð án skatts**. Nánari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -73,7 +73,7 @@ Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilf
     > Til að fá **Tilboð í gildi fram að dagsetningu** fyllt út sjálfvirkt með ákveðnum dagafjölda eftir stofnun tilboðs er hægt að fylla út reitinn **Útreikningur á gildistíma tilboðs** á síðunni **Sala & útistandandi**.
 
 10. Þegar sölutilboðslínunum er lokið, skal velja **Senda í tölvupósti** aðgerðina.
-11. Á síðunni **Senda tölvupóst** skal fylla út eftirstandandi reiti og fara yfir innfelld sölutilboð. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
+11. Á síðunni **Senda tölvupóst** skal fylla út eftirstandandi reiti og fara yfir innfelld sölutilboð. Nánari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md#to-send-documents-by-email).
 12. Ef tengiliður samþykkir tilboðið skal velja aðgerðina **Stofna pöntun**.  
 
     Annars, ef fyrirtækið kýs það ferli, skaltu velja aðgerðina **Gera reikning**.  
@@ -87,15 +87,15 @@ Búið er til sölutilboð til að skrá tilboðið við viðskiptavin eða tilf
 
 Breytingin fjarlægir sölutilboðið úr gagnagrunninum. Sölureikningur eða sölupöntun er stofnuð út frá upplýsingunum í sölutilboðinu svo hægt sé að ganga frá sölunni. Í reitnum **Tilboð nr.** á sölureikningnum eða sölupöntun er hægt að sjá fjölda sölutilboða sem hann var búinn til úr. Nánari upplýsingar eru í [Reikningsfæra sölu](sales-how-invoice-sales.md) eða [Selja vörur.](sales-how-sell-products.md)  
 
-## <a name="external-document-number"></a>Númer ytra skjals
+## Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
-[Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
+[Senda skjöl í tölvupósti](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Safnvista skjöl](across-how-to-archive-documents.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

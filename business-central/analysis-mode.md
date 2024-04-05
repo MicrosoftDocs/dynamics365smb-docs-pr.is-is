@@ -1,212 +1,217 @@
 ---
-title: Greindu gögn á listasíðum og fyrirspurnum með því að nota gagnagreiningarham
-description: Lærðu hvernig á að nota gagnagreiningarhaminn í Business Central til að greina gögn.
+title: Greina gögn á listasíðum og fyrirspurnum með gagnagreiningarstillingu
+description: Læra að nota gagnagreiningarhaminn í Business central til að greina gögn.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/08/2023
+ms.date: 03/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# <a name="analyze-list-page-and-query-data-using-data-analysis-mode"></a>Greindu listasíðu og fyrirspurnargögn með því að nota gagnagreiningarham
+# Greina listasíðu og fyrirspurnargögn með gagnagreiningarstillingu
 
-> **Á VIÐ:** Opinber forskoðun í Business Central 2023 útgáfubylgju 1 og síðar til að greina listasíður; Almennt fáanlegt í Business Central 2023 útgáfubylgju 2 til að greina gögn frá listasíðum og fyrirspurnum.
+> **GILDIR UM:** Opinber forskoðun í Business Central 2023 gefa út bylgju 1 og síðar til að greina listasíður; Almennt fáanlegt í Business Central 2023 gefa út bylgju 2 til að greina gögn frá listasíðum og fyrirspurnum.
 
-Í þessari grein lærir þú hvernig á að greina gögn af listasíðum og fyrirspurnum með því að nota *gagnagreiningarhaminn*. Gagnagreiningarhamurinn gerir þér kleift að greina gögn beint af síðunni, án þess að þurfa að keyra skýrslu eða skipta um annað forrit eins og Excel. Það veitir gagnvirka og fjölhæfa leið til að reikna, draga saman og skoða gögn. Í stað þess að keyra skýrslur með mismunandi valkostum og síum geturðu bætt við mörgum flipa sem tákna mismunandi verkefni eða skoðanir á gögnunum. Dæmi gætu verið „Viðskiptavinir mínir“, „Fylgjast með hlutum“, „Nýlega bættir söluaðilar“, „Sölutölfræði“ eða önnur sýn sem þú getur ímyndað þér.
+Í þessari grein lærir notandinn hvernig á að greina gögn frá listasíðum og fyrirspurnum í *gagnagreiningarstillingunni*. Með gagnagreiningarstillingunni er hægt að greina gögn beint frá síðunni án þess að þurfa að keyra skýrslu eða skipta um annað forrit eins og Excel. Hún veitir gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með mismunandi valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Dæmi: "Viðskiptamenn mínir", "Fylgja eftir vörum", "Lánardrottnum hefur nýlega verið bætt við", "Sölutölur", eða öll önnur yfirlit sem hægt er að ímynda sér.
 
 > [!TIP]
-> Það góða við gagnagreiningarhaminn er að hann breytir ekki neinum af undirliggjandi gögnum listasíðu eða fyrirspurnar, eða útliti síðunnar eða fyrirspurnarinnar þegar hún er ekki í gagnagreiningarham. Þannig að besta leiðin til að læra um hvað þú getur gert í gagnagreiningarhamnum er að prófa hlutina.
+> Gott við greiningarham gagna er að hann breytir engum undirliggjandi gögnum á listasíðu eða fyrirspurn, eða uppsetningu síðunnar eða fyrirspurnarinnar þegar hún er ekki í gagnagreiningarstillingu. Besta leiðin til að fræðast um það sem hægt er að gera í gagnagreiningarstillingunni er að prófa hlutina.
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði 
 
-- Ef þú ert að nota Business Central útgáfu 22 er gagnagreiningarhamurinn í forskoðun. Svo, stjórnandi verður að virkja það áður en þú getur notað það. Til að virkja það skaltu fara á **Eiginleikastjórnun** síðuna og kveikja á **Eiginleikauppfærslu: Greiningarhamur, greina gögn fljótt beint í Business Central**. [Frekari upplýsingar um eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
-- Í útgáfu 23 og síðar verður reikningnum þínum að vera úthlutað **GAGNAGREINING - EXEC** heimildasettinu eða innihalda framkvæmdaheimild á kerfishlutnum **9640 Leyfa gögn Greiningarham**. Sem stjórnandi geturðu útilokað þessar heimildir notenda sem þú vilt ekki að hafi aðgang að greiningarhamnum.
-
-> [!NOTE]
-> Þú gætir tekið eftir einhverjum listasíðum sem innihalda ekki **Analyze** rofinn til að skipta yfir í greiningarhaminn. Ástæðan er sú að forritarar geta slökkt á greiningarham á tilteknum síðum með því að nota [AnalysisModeEnabled eiginleikann](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) í AL.
-
-## <a name="get-started"></a>Hefjast handa
-
-1. Opnaðu listasíðuna eða fyrirspurnina.
-
-   Til dæmis, til að vinna með **Færslur viðskiptavina** síðunnar skaltu velja ![stækkunarglerið sem opnar Segðu mér eiginleikann.](media/ui-search/search_small.png) Táknið (<kbd>Alt</kbd>+<kbd>Q</kbd>), sláðu inn *færslur viðskiptamannabókar* og veldu síðan tengdur hlekkur. 
-
-2. Í aðgerðastikunni efst á síðunni skaltu kveikja á **Analyze** rofanum.
-
-    Gagnagreiningarhamur opnar gögnin í upplifun sem er fínstillt fyrir gagnagreiningu.  Í gagnagreiningarham er venjulegri aðgerðastikunni skipt út fyrir sérstaka gagnagreiningarhamsstiku. Eftirfarandi mynd sýnir mismunandi svæði síðu í gagnagreiningarham.
-
-   [![Sýnir yfirlit yfir síðu á gagnagreiningarham](media/analysis-mode-overview-2.png)](media/analysis-mode-overview-2.png#lightbox)
-
-   Hvert svæði er útskýrt í köflum sem fylgja.
-
-3. Notaðu mismunandi svæði til að vinna með, draga saman og greina gögn. Sjá kaflana sem fylgja fyrir nánari upplýsingar.
-
-4. Þegar þú vilt fara úr greiningarhamnum skaltu slökkva á **Analyze** rofanum.
-
-   Greiningarflipar sem þú hefur bætt við eru áfram þar til þú eyðir þeim. Þannig að ef þú ferð aftur í gagnagreiningarhaminn sérðu þau nákvæmlega eins og þú fórst frá þeim.
+- Ef Business Central útgáfa 22 er notuð er gagnagreiningarstillingin í forskoðun. Stjórnandi verður því að gera það virkt áður en hægt er að nota það. Til að gera hana virka er farið á síðuna **Eiginleikastjórnun** og kveikt á **Aðgerðauppfærslu: Greiningarstilling, greining á gögnum á fljótlegan hátt í Business Central**. [Fræðast meira um Eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Í útgáfu 23 og síðari útgáfu verður að úthluta reikningnum **gagnagreiningu - EXEC** heimildarsafninu eða hafa keyrsluheimild fyrir kerfishlutnum **9640 Leyfa gagnagreiningarstillingu**. Sem stjórnandi er hægt að útiloka þessar heimildir fyrir notendur sem ekki eiga að hafa aðgang að greiningarstillingunni.
 
 > [!NOTE]
-> Gögnin sem sýnd eru í greiningarham er stjórnað af síunum eða skoðunum sem eru settar á listasíðuna. Þetta gerir þér kleift að forsía gögn áður en þú ferð í greiningarham.
+> Ef til vill sjást nokkrar listasíður sem ekki innihalda **rofa greiningar** til að breyta í greiningarstillinguna. Ástæðan er sú að forritarar geta gert greiningarham óvirkan á tilteknum síðum með því að nota eiginleikann [AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) í AL.
 
-## <a name="work-with-data-analysis-mode"></a>Vinna með gagnagreiningarham
+## Hefjast handa
 
-Í gagnagreiningarham er síðunni skipt í tvö svæði:
+Ljúka skal þessum skrefum til að byrja að greina gögn með greiningarstillingunni.
 
-- Aðalsvæðið, sem samanstendur af gagnasvæðinu (1), yfirlitsstikunni (2) og flipastikunni (5)
-- Gagnavinnslusvæðið, sem samanstendur af tveimur rúðum: dálkum (3) og greiningarsíur (4).
+>[!TIP]
+> Í greiningarstillingunni er einnig Copilot-aðgerð sem kallast *greiningaraðstoð* sem hjálpar til við að hefjast handa. [Fræðast meira um greiningaraðstoð við Copilot](analysis-assist.md).
 
-### <a name="data-area-1"></a>Gagnasvæði (1)
+1. Opna listasíðu eða fyrirspurn.
 
-Gagnasvæðið er þar sem línur og dálkar listasíðufyrirspurnar eru sýndar og gögn eru tekin saman. Gagnasvæðið býður upp á fjölhæfa leið til að stjórna uppsetningu dálka og fljótlega leið til að fá yfirlit yfir gögnin. Fyrir dálka sem innihalda tölugildi er summa allra gilda í dálknum sýnd í síðustu röð, nema þú hafir skilgreint línuhópa. Í þessu tilviki birtast fjárhæðirnar sem meðaltala fyrir hópana.  
+   Til dæmis, til að vinna með **síðuna Viðskm.færslur** skal velja ![stækkunarglerið sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png) Tákn (<kbd>Alt</kbd>+<kbd>Q</kbd>), slá inn *viðskiptamannafærslur* og velja síðan viðeigandi tengil. 
 
-![Sýnir yfirlit yfir gagnasvæði á síðu í gagnagreiningarham](media/analysis-mode-data-area.png)
+2. Í aðgerðastikunni efst á síðunni skal kveikja á **rofanum** Greina víxla.
 
-- Til að færa dálk skaltu velja hann og draga hann þangað sem hann er skynsamlegastur í greiningu þinni.
-- Til að raða í dálk skaltu velja dálkhausinn. Til að raða í marga dálka skaltu velja og halda inni <kbd>Shift</kbd> lyklinum á meðan þú velur dálkahausana sem þú vilt flokka á.
-- Hægrismelltu á dálkinn eða farðu yfir hann og veldu valmyndartáknið ![Sýnir táknið á dálki í gagnagreiningarham sem opnar valmynd með aðgerðum](media/analysis-mode-column-menu-icon.png) Til að fá aðgang að nokkrum aðgerðum sem þú getur gert á dálkum. Dæmi:
+    Gagnagreiningarhamur opnar gögnin sem eru bjartsýni á gagnagreiningu.  Í gagnagreiningarstillingu er venjulegu aðgerðastikunni skipt út fyrir sérstaka gagnagreiningarhamsstiku. Eftirfarandi mynd sýnir mismunandi svæði síðu í gagnagreiningarstillingunni.
 
-  - Til að festa dálk vinstra megin eða hægra megin við gagnasvæðið þannig að hann hreyfist ekki af skjánum þegar þú flettir skaltu velja ![ Sýnir táknið á dálki í gagnagreiningarham sem opnar valmynd með aðgerðum](media/analysis-mode-column-menu-icon.png) > **Festa dálk** > **Pinna til vinstri**  súluhlutinn.
-  - Skilgreindu gagnasíur beint á dálkskilgreininguna í stað þess að fara í **Greiningarsíur**  rúður. Þú getur samt kíkt inn á upplýsingar um tengd gögn og fyrir hverja línu og opnað kortið til að læra meira um tiltekna aðila.
-- Notaðu gagnasvæðið til að hafa samskipti við gögnin. Fyrir dálka sem innihalda töluleg samantektargildi er hægt að fá lýsandi tölfræði um mengi reita með því að merkja við þá. Tölfræðin birtist í stöðustikunni (2) neðst á síðunni.
-- Flytja út gögn á Excel eða csv sniði. Hægrismelltu á gagnasvæðið eða úrval af frumum til að flytja út.
+   [![Birtir yfirlit yfir síðu í gagnagreiningarstillingunni](media/analysis-mode-overview-2.png)](media/analysis-mode-overview-2.png#lightbox)
 
-### <a name="summary-bar-2"></a>Yfirlitsstika (2)
+   Hvert svæði er útskýrt í köflunum sem fylgja.
 
-Samantektarstikan er neðst á síðunni og sýnir tölfræði um gögnin á listasíðunni eða fyrirspurninni. Þegar þú hefur samskipti við dálka sem hægt er að leggja saman gildi þeirra, eins og að velja margar línur í dálki sem sýnir upphæðir, uppfærast gögnin.
+3. Nota mismunandi svæði til að vinna með, taka saman og greina gögn. Sjá hlutana sem fylgja með nánari upplýsingum.
 
-![Sýnir yfirlit yfir yfirlitsstiku á gagnagreiningarhamnum](media/analysis-mode-totals-row.png)
+4. Þegar loka á greiningarstillingunni er slökkt á rofanum **Greina** .
 
-Eftirfarandi tafla lýsir mismunandi tölum sem eru sýndar á heildarsvæðinu:
+   Greiningarfliparnir sem bætt hefur verið við eru þar til þeim er eytt. Ef farið er aftur í gagnagreiningarstillinguna sést það nákvæmlega eins og það var eftir.
+
+> [!NOTE]
+> Gögnunum sem birtast í greiningarstillingu er stýrt af afmörkunum eða yfirlitum sem eru stillt á listasíðunni. Þannig er hægt að forsíu gögn áður en greiningarstilling er færð inn.
+
+## Vinna með gagnagreiningarham
+
+Í gagnagreiningarstillingunni er síðunni skipt í tvö svæði:
+
+- Aðalsvæðið, sem samanstendur af gagnasvæði (1), yfirlitsstika (2) og flipastiku (5)
+- Gagnaskipulagssvæðið, sem samanstendur af tveimur svæðum: dálkum (3) og greiningarafmörkunum (4).
+
+### Gagnasvæði (1)
+
+Gagnasvæðið er þar sem línurnar og dálkarnir í fyrirspurn listasíðunnar eru birtir og gögn tekin saman. Gagnasvæðið býður upp á fjölhæfa leið til að stjórna uppsetningu dálka og fljótlegri leið til að fá samantekt á gögnunum. Fyrir dálka sem innihalda töluleg gildi er samtala allra gilda í dálknum sýnd í síðustu línu nema línuflokkar hafi verið skilgreindir. Í þessu tilviki birtast samtölurnar sem millisamtala fyrir hópana.  
+
+![Birtir yfirlit yfir gagnasvæði á síðu í gagnagreiningarstillingunni](media/analysis-mode-data-area.png)
+
+- Dálkur er færður með því að velja hann og draga hann þangað sem þeir eru skynsamlegastir í greiningunni.
+- Dálkhaus er valinn til að raða eftir dálki. Til að raða í mörgum dálkum er Shift-lyklinum <kbd>haldið niðri</kbd> með því að velja dálkhausana sem á að raða.
+- Hægrismellt er á dálkinn eða sveifa yfir hann og valið valmyndartáknið ![Sýnir táknið í dálki í gagnagreiningarstillingu sem opnar valmynd aðgerða](media/analysis-mode-column-menu-icon.png) Til að fá aðgang að nokkrum aðgerðum sem hægt er að gera í dálkum. Dæmi:
+
+  - Til að festa dálk vinstra eða hægra megin við gagnasvæðið svo að hann færist ekki af skjánum þegar skrunað er skal velja ![Sýnir táknið á dálki í gagnagreiningarstillingu sem opnar valmynd aðgerða Pin-dálkpinna](media/analysis-mode-column-menu-icon.png) > **·** > **vinstra megin** við dálkhlutann.
+  - Skilgreina gagnaafmarkanir beint á dálkaskilgreininguna í stað þess að fara á **svæðin Greiningarafmarkanir** . Enn er hægt að gæta að upplýsingum um tengd gögn og fyrir hverja línu og opna kortið til að fræðast meira um tiltekna einingu.
+- Gagnasvæðið er notað til að hafa samskipti við gögnin. Fyrir dálka sem innihalda töluleg, samantekin gildi er hægt að fá lýsandi upplýsingar í safni reita með því að merkja þær. Upplýsingarnar birtast á stöðulínunni (2) neðst á síðunni.
+- Flytja út gögn á Excel eða csv-sniði. Hægrismellt er á gagnasvæðið eða úrval af reitum til að flytja út.
+
+### Yfirlitsstika (2)
+
+Yfirlitsstikan er neðst á síðunni og birtir tölfræðilegar upplýsingar um gögnin á listasíðunni eða fyrirspurninni. Þegar samskipti eru gerð við dálka þar sem hægt er að leggja saman gildi, eins og að velja margar línur í dálki sem sýnir upphæðir, uppfærast gögnin.
+
+![Birtir yfirlit yfir yfirlitsstika í gagnagreiningarstillingunni](media/analysis-mode-totals-row.png)
+
+Eftirfarandi tafla lýsir mismunandi tölum sem sýndar eru í samtölusvæðinu:
 
 |Fjöldi|Heimildasamstæða|
 |-|-|
 |Línur|Fjöldi valinna lína sem hluti af heildarfjölda tiltækra lína. |
-|Samtals raðir|Fjöldi lína í ósíuða listanum eða fyrirspurninni.|
-|Afmarkað|Fjöldi lína sem birtist vegna síanna sem notaðar eru á listann eða fyrirspurnina.|
-|Meðaltal|Meðalgildi í öllum völdum yfirlitsreitum.|
-|Talning|Fjöldi valda lína.|
-|Lágmark|Lágmarksgildi í öllum völdum yfirlitsreitum.|
-|Hámark|Hámarksgildi í öllum völdum samantektarreitum.|
+|Heildarlínur|Fjöldi lína á óafmarkaða listanum eða fyrirspurninni.|
+|Afmarkað|Fjöldi lína sem birtast vegna afmarkana sem notaðar eru á listanum eða fyrirspurninni.|
+|Meðaltal|Meðalgildi í öllum völdum samantektarreitum.|
+|Talning|Fjöldi valinna lína.|
+|Lágmark|Lágmarksgildi í öllum völdum samantektarreitum.|
+|Hámark|Hámarksgildið í öllum völdum samanteknum reitum.|
 |Samtala|Samtala allra gilda í völdum samantektarreitum.|
 
-### <a name="columns-3"></a>Dálkar (3)
+### Dálkar (3)
 
-The **Dálkar**  er annar af tveimur rúðum sem vinna saman að því að skilgreina greininguna þína. Hitt svæðið er **Greiningarsíur** rúðan.  **Dálkar** glugginn er notaður til að draga saman gögnin. Notaðu **Dálka** rúðuna til að skilgreina hvaða dálka eigi að vera með í greiningunni.
+Dálkarnir **er** annað af tveimur svæðum sem vinna saman til að skilgreina greiningu. Hitt svæði er **svæðið Greiningarafmarkanir** . Svæðið **Dálkar** er notað til að taka saman gögn.  **Nota svæðið Dálkar** til að skilgreina hvaða dálka skuli taka með í greiningunni.
 
-![Sýnir yfirlit yfir dálkasvæðið í gagnagreiningarham](media/analysis-mode-columns-2.png)
+![Birtir yfirlit yfir dálkasvæði í gagnagreiningarstillingunni](media/analysis-mode-columns-2.png)
 
 |Svæði|Heimildasamstæða|
 |-|-|
-|Leitaðu/merktu eða hreinsaðu alla reiti|Leitaðu að dálkum. Veldu gátreitinn til að velja/hreinsa alla dálka.|
-|Gátreitir|Þetta svæði inniheldur gátreit fyrir hvern reit í upprunatöflu listans eða fyrirspurnar. Notaðu þetta svæði til að breyta því hvaða dálkar eru sýndir. Veldu gátreit til að sýna dálk fyrir reitinn á síðunni; hreinsaðu gátreitinn til að fela dálkinn. |
-|Röð hópar|Notaðu þetta svæði til að flokka og leggja saman gögn eftir einum eða fleiri reitum. Þú getur aðeins haft reiti sem ekki eru tölustafir, eins og texta-, dagsetningar- og tímareitir. Röð hópar eru oft notaðir í snúningsham.|
-|Gildi|Notaðu þetta svæði til að tilgreina reiti sem þú vilt heildarupphæð fyrir. Þú getur aðeins haft reiti sem innihalda tölur sem hægt er að leggja saman; til dæmis ekki texta-, dagsetningar- eða tímareitir.|
+|Leita að/athuga eða hreinsa alla reiti|Leita að dálkum. Veljið gátreitinn til að velja/hreinsa alla dálka.|
+|Gátreitina|Á þessu svæði er gátreitur fyrir hvern reit í upprunatöflu listans eða fyrirspurnarinnar. Þessi reitur er notaður til að breyta því hvaða dálkar eru sýndir. Veljið gátreit til að sýna dálk fyrir svæðið á síðunni; gátreitinn til að fela dálkinn. |
+|Línuflokkar|Þetta svæði er notað til að flokka og leggja saman gögn eftir einum eða fleiri reitum. Aðeins er hægt að hafa reiti sem ekki eru tölulegir, eins og texti, dagsetningar- og tímareitir. Línuflokkar eru oft notaðir í veltistillingu.|
+|Gildi|Þessi reitur er notaður til að tilgreina reiti sem samtala á að ná yfir. Aðeins er hægt að taka með reiti sem innihalda númer sem hægt er að bæta saman; til dæmis, ekki texta-, dagsetningar- eða tímareiti.|
 
-Til að færa reit frá einu svæði til annars skaltu velja grípa táknið ![Sýnir yfirlit yfir síðu í greiningarhamnum](media/column-grab-icon.png) Við hliðina á dálknum á listanum og dragðu inn á marksvæðið. Þér er komið í veg fyrir að færa akur inn á svæði þar sem það er ekki leyfilegt.
+Til að færa reit milli svæða skal velja grípa táknið ![Birtir yfirlit yfir síðu í greiningarstillingunni](media/column-grab-icon.png) Við hliðina á dálknum á listanum og draga inn í marksvæðið. Komið er í veg fyrir að reitur sé færður yfir á svæði þar sem hann er ekki leyfður.
 
-### <a name="analysis-filters-4"></a>Greiningarsíur (4)
+### Greiningarafmarkanir (4)
 
- **Greiningarsíur** rúðan gerir þér kleift að stilla frekari gagnasíur á dálka til að takmarka færslur á listanum. Stilltu síur á dálka til að takmarka færslur á listanum og síðari upphæðir við þær færslur sem þú hefur áhuga á út frá forsendum sem þú skilgreinir. Segjum sem svo að þú hafir aðeins áhuga á gögnum fyrir tiltekinn viðskiptavin eða sölupöntunum sem fara yfir tiltekna upphæð. Til að stilla síu, veldu dálkinn, veldu samanburðaraðgerðina af listanum (eins og **Jöfn** eða **Byrjar á**), sláðu síðan inn gildið.
+Á **svæðinu Greiningarafmarkanir** er hægt að setja frekari gagnaafmarkanir á dálka til að takmarka færslurnar í listanum. Afmarkanir eru settar á dálka til að takmarka færslurnar á listanum og samtölur sem á eftir koma aðeins þeim færslum sem notandi hefur áhuga á samkvæmt skilyrðum sem notandi skilgreinir. Gert er ráð fyrir að notandi hafi aðeins áhuga á gögnum fyrir tiltekinn viðskiptamann eða sölupantanir sem fara yfir tiltekna upphæð. Til að stilla afmörkun skal velja dálkinn, velja samanburðaraðgerð af listanum (eins og **Jafnt** og eða **Byrja með**) og færa inn gildið.
 
-![Sýnir yfirlit yfir síurúðuna í greiningarhamnum](media/analysis-mode-filters.png)
+![Birtir yfirlit yfir afmörkunarsvæðið í greiningarstillingunni](media/analysis-mode-filters.png)
 
 > [!NOTE]
-> Viðbótarsíurnar eiga aðeins við um núverandi greiningarflipa. Þetta gerir þér kleift að skilgreina nákvæmlega þær aukagagnasíur sem þarf fyrir tiltekna greiningu.
+> Viðbótarafmarkanirnar eiga aðeins við um gildandi greiningarflipa. Þannig er hægt að skilgreina nákvæmlega þá aukagagnaafmarkanir sem þarf við tiltekna greiningu.
 
-### <a name="tabs-5"></a>Flipar (5)
+### Flipar (5)
 
-Flipasvæðið efst gerir þér kleift að búa til mismunandi stillingar (dálka og greiningarsíur) á aðskildum flipa, þar sem þú getur meðhöndlað gögn á flipunum óháð hver öðrum. Það er alltaf að minnsta kosti einn flipi sem heitir **Greining 1** sjálfgefið. Að bæta við fleiri flipa er gagnlegt til að vista oft notaðar greiningarstillingar á gagnasafni. Til dæmis gætirðu verið með flipa til að greina gögn í snúningsstillingu og aðra flipa sem sía í undirmengi raða. Sumir flipar gætu sýnt ítarlega yfirsýn með mörgum dálkum og aðrir sýna aðeins nokkra lykildálka.
+Flipasvæðið efst gerir kleift að stofna mismunandi grunnstillingar (dálka og greiningarafmarkanir) á sérstökum flipum þar sem hægt er að vinna með gögn á flipunum óháð hvort öðru. Alltaf er alltaf til minnst einn flipi sem er sjálfgefið kallaður **Greining 1** . Að bæta við fleiri flipum er gagnlegt til að vista oft notaðar greiningarskilgreiningar í gagnamengi. Til dæmis gætu flipar verið til að greina gögn í veltistillingunni og aðrir flipar sem afmarka við hlutmengi lína. Sumir flipar sýna nákvæmt yfirlit með mörgum dálkum og aðrir sýna aðeins nokkra lykildálka.
 
-Hér eru nokkrar ábendingar um að vinna með marga greiningarflipa:
+Hér er bent á að vinna með marga greiningarflipa:
 
-- Til að bæta við nýjum flipa skaltu velja stóra **+** merkið við hlið síðasta greiningarflipa.
-- Veldu örina niður á flipa til að fá aðgang að lista yfir aðgerðir sem þú getur gert á flipa, eins og endurnefna, afrita, eyða og færa.
+- Til að bæta við nýjum flipa er stóra **+** táknið valið næst síðasta greiningarflipanum.
+- Ör niður á flipa er valin til að fá aðgang að lista yfir aðgerðir sem hægt er að gera á flipanum eins og endurnefningu, tvítekningu, eyða og færa.
 
-   - **Eyða** eyðir flipanum sem þú ert með opinn. **Eyða öllum** eyðir öllum flipum sem þú hefur bætt við, nema sjálfgefna **Greining 1** flipanum.
-- Þú getur ekki fjarlægt  **Greining 1** alveg, en þú getur endurnefna hana með því að nota **Endurnefna** aðgerðina og hreinsa breytingarnar sem þú hefur gert með því að nota **Eyða** eða **Eyða öllum**.  
+   - **Eyða** eyðir flipanum sem er opinn. **Eyða öllum** flipum sem hefur verið bætt við, nema sjálfgefni **flipinn Greining 1** .
+- Ekki er hægt að fjarlægja **greiningu 1** alveg en hægt er að endurnefna hana með því að nota aðgerðina **Endurnefna** og hreinsa breytingarnar sem gerðar hafa verið með því að nota **Eyða eða** Eyða **öllu**.  
 
-- Greiningarflipar sem þú hefur bætt við og stillt eru áfram þar til þú eyðir þeim. Þannig að ef þú ferð aftur í gagnagreiningarhaminn sérðu þau nákvæmlega eins og þú fórst frá þeim.
+- Greiningarfliparnir sem hefur verið bætt við og grunnstilltir eru þar til þeim er eytt. Ef farið er aftur í gagnagreiningarstillinguna sést það nákvæmlega eins og það var eftir.
 
    > [!TIP]
-   > Fliparnir sem þú setur upp eru aðeins sýnilegir þér. Aðrir notendur munu aðeins sjá flipa sem þeir hafa sett upp.
-- Þú getur afritað greiningarflipa. Afritun getur verið gagnlegt ef þú vilt gera tilraunir með að breyta flipa án þess að breyta frumritinu, eða ef þú vilt búa til mismunandi afbrigði af sömu greiningu.
+   > Fliparnir sem settir eru upp sjást aðeins. Aðrir notendur sjá aðeins flipa sem þeir hafa sett upp.
+- Hægt er að afrita greiningarflipa. Afritun getur verið gagnleg ef gera á tilraunir með að breyta flipa án þess að breyta frumritinu eða ef búa á til mismunandi frávik í sömu greiningu.
 
 
-## <a name="date-hierarchies"></a>Dagsetningarstigveldi
+## Dagsetningastigveldi
 
-Í greiningarham eru dagsetningarreitir gagnasafnsins myndaðir í ár-fjórðungs-mánaðar stigveldi með þremur aðskildum reitum. Þetta stigveldi er byggt á venjulegu dagatali, ekki neinum fjárhagsdagatölum sem eru skilgreind í Business Central.
+Í greiningarstillingu eru dagsetningarreitir gagnasafnsins myndaðir í ársfjórðungs-mánaðarstigveldi þriggja aðskilinna reita. Þetta stigveldi er byggt á venjulegu dagatali en ekki fjárhagsdagatölum sem skilgreind eru í Business Central.
 
-Aukareitirnir heita _\<field name\> Ár_, _\<field name\> Fjórðungur_ og _\<field name\> mánuður_. Til dæmis, ef gagnasafnið inniheldur reit sem heitir _Bókunardagsetning_, þá samanstendur samsvarandi dagsetningarstigveldi af reitum sem kallast _Bókunardagsetning ár_, _Bókunardagur ársfjórðungur_ og _Bókunardagur mánuður_.
+Viðbótarreitirnir eru nefndir _\<field name\> Ársfjórðungur_, _\<field name\>  Ársfjórðungur_ og _\<field name\> Mánuður_. Ef gagnasafnið inniheldur til dæmis reit sem kallast _Bókunardagsetning_ samanstendur samsvarandi dagsetningarstigveldi af reitum sem kallast _Bókunardags.ár_, _Bókunardags.ársfjórðungur_ og _Bókunardags.mánuður_.
 
 > [!NOTE]
-> Dagsetningarstigveldið á sem stendur aðeins við um reiti með dagsetningu tegundar, ekki fyrir reiti af gerðinni dagsetningu.
+> Dagsetningastigveldið á aðeins við um reiti af gerðinni dagsetning, ekki fyrir reiti af gerðinni dagsetningartími.
 
-## <a name="pivot-mode"></a>Pivot mode
+## Veltihamur
 
-Þú getur notað snúningsstillingu til að greina mikið magn af tölulegum gögnum og leggja saman gögn eftir flokkum og undirflokkum. Pivot hamurinn er eins og [pivot töflur í Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
+Nota má veltistillingu til að greina mikið magn tölulegra gagna, millisamtölugögn eftir flokkum og undirflokkum. Veltihamurinn er eins og [veltitöflur í Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
-Til að kveikja og slökkva á snúningsstillingunni skaltu renna  **snúningsstillingu** rofanum í **dálka** rúðunni (3). Þegar þú kveikir á snúningsstillingunni birtist **Dálkamerki** svæðið í glugganum. Notaðu **dálkamerki** svæðið til að flokka samantölur fyrir línur í flokka. Reitir sem þú bætir við  **dálkamerki** svæðið birtast sem dálkar á gagnasvæðinu (1).
+Til að kveikja og slökkva á veltistillingunni skal renna **rofa veltistillingarinnar** á **dálkasvæðinu** (3). Þegar kveikt er á veltistillingunni **birtist svæðið Dálkmerki** á svæðinu.  **Nota svæðið Dálkmerki** til að flokka samtölur lína í flokka. Reitir sem bætt er við **svæðið Dálkmerki** sýna sem dálka á gagnasvæðinu (1).
 
-Að byggja upp gagnagreininguna í snúningsham felur í sér að færa reiti inn á þrjú svæði: **Röð hópar**, **Dálkamerki**, og **Gildi**. Eftirfarandi mynd sýnir hvar reitirnir kortast við gagnasvæðið (1), hvar `sum`  er útreiknuð gögn, og valfrjálst **Gildi**.
+Með því að byggja gagnagreiningu í veltistillingu eru færðir reitir í svæðin þrjú: **línuflokkar**, **dálkamerki** og **gildi**. Eftirfarandi mynd sýnir hvar reitirnir varpast á gagnasvæði (1), hvar `sum` eru útreiknuð gögn og gildi ef **vill**.
 
 <table>
 <tr><th></th><th>Dálkmerki</th><th></th><th>Dálkmerki</th><th></th></tr>
-<tr><th>Röð hópur</th><th>Virði</th><th>Virði</th><th>Virði</th><th>Virði</th></tr>
-<tr><td>lína</td><td>Summa</td><td>Summa</td><td>Summa</td><td>Summa</td></tr>
-<tr><td>lína</td><td>Summa</td><td>Summa</td><td>Summa</td><td>Summa</td></tr>
-<tr><td>lína</td><td>Summa</td><td>Summa</td><td>Summa</td><td>Summa</td></tr>
-<tr><td>lína</td><td>Summa</td><td>Summa</td><td>Summa</td><td>Summa</td></tr>
+<tr><th>Línuflokkur</th><th>Virði</th><th>Virði</th><th>Virði</th><th>Virði</th></tr>
+<tr><td>lína</td><td>Samtala</td><td>Samtala</td><td>Samtala</td><td>Samtala</td></tr>
+<tr><td>lína</td><td>Samtala</td><td>Samtala</td><td>Samtala</td><td>Samtala</td></tr>
+<tr><td>lína</td><td>Samtala</td><td>Samtala</td><td>Samtala</td><td>Samtala</td></tr>
+<tr><td>lína</td><td>Samtala</td><td>Samtala</td><td>Samtala</td><td>Samtala</td></tr>
 </table>
 
 > [!TIP]
-> Dálkar sem hafa aðeins nokkur möguleg gildi eru bestir til að nota í dálki **Gildi**.
+> Dálkar sem hafa aðeins nokkur möguleg gildi eru bestu umsækjendur sem nota á í **dálkgildum**.
 
 
-## <a name="analyze-large-amounts-of-data"></a>Greindu mikið magn af gögnum
+## Greina mikið magn gagna
 
-Ef gagnasafnið sem þú vilt greina fer yfir 100.000 línur, er mælt með því að þú farir í greiningarham sem er fínstilltur fyrir stór gagnasöfn. Það eru tvær takmarkanir eins og er ef þú skiptir yfir í þessa stillingu: 
+Ef gagnasafnið sem á að greina er meiri en 100.000 línur er lagt til að færður sé inn greiningarhamur sem er bestur fyrir stór gagnasöfn. Tvær takmarkanir eru í gangi ef skipt er í þessa stillingu: 
 
-- Snið á reitum af eftirfarandi fjórum gagnagerðum gæti breyst: 
+- Snið reita af fjórum gagnategundum gæti breyst: 
 
-   - gjaldmiðil 
-   - Aukastafir (alltaf sýndir með tveimur aukastöfum) 
-   - Dagsetningar (alltaf sýndar á sniðinu ÁÁÁÁ-MM-DD)
-   - tímabelti
-- Reitir sem eru notaðir í snúningsstillingu og bætt við dálkamerki verða að hafa fáan fjölda aðskildra gilda.
+   - Gjaldmiðli 
+   - Aukastöfum (alltaf sýnt með tveimur aukastöfum) 
+   - Dagsetningar (alltaf sýnt á sniði ÁÁÁ-MM-DD)
+   - tímareitur
+- Reitir sem notaðir eru í veltistillingu og bætt við dálkmerki verða að hafa lágan fjölda greinilegra gilda.
 
-   Ef þú kveikir á snúningsstillingu og dregur reit inn á **dálkamerki** svæði, þar sem undirliggjandi gögn fyrir þann reit hafa of mörg aðskilin gildi, þá gæti vafraflipi ekki svarað og mun loksins loka, sem krefst þess að þú byrjir upp á nýtt í nýrri lotu. Í þessu tilviki skaltu annað hvort ekki snúa á þann reit eða setja síu á reitinn áður en honum er bætt við  **dálkamerkingar** svæðið.
+   Ef veltistilling er gerð virk og reitur dreginn inn í **svæði dálkmerkja** þar sem undirliggjandi gögn fyrir þann reit hafa of mörg einstök gildi gæti flipinn vafrinn orðið óábyrgur og lokar á endanum og þarfnast þess að byrja upp á nýtt. Í þessu tilviki skal annaðhvort ekki velta á þeim reit eða setja afmörkun á reitinn áður en honum **er bætt við svæðið Dálkmerki** .
 
-## <a name="share-data-analysis"></a>Deildu gagnagreiningu
+## Samnýting gagnagreiningar
 
-Eftir að þú hefur undirbúið greiningu á flipa geturðu deilt henni sem tengli með vinnufélögum og öðrum í fyrirtækinu þínu beint frá viðskiptavininum. Aðeins viðtakendur sem hafa leyfi fyrir fyrirtækinu og gögnunum geta notað hlekkinn.
+Þegar greining hefur verið gerð á flipa er hægt að deila honum sem tengli með samstarfsfólki og öðrum innan fyrirtækisins beint frá biðlaranum. Aðeins viðtakendur sem hafa heimild til fyrirtækisins og gögnin geta notað tengilinn.
 
-1. Á greiningarflipanum, veldu örvarnar niður og veldu síðan **Afrita tengil**.
+1. Á greiningarflipanum er örvarhaus niður valinn og Afrita tengil **síðan valinn**.
 
    ![Sýnir aðgerðina til að afrita greiningu](media/copy-analysis.svg)
 
-    **Tengill á \<tab name\>**  gluggann opnast.
+   Svarglugginn **Tengja við \<tab name\>** opnast.
 
-1. Sjálfgefið er að greiningin sem þú deilir tengir við síðuna eða fyrirspurnina í fyrirtækinu sem þú ert að vinna í, sem er gefið til kynna með `company=<company_name>` í vefslóðarreitnum við hliðina á **Afrita** hnappur. Ef þú vilt senda tengil á greiningu sem er ekki tengd tilteknu fyrirtæki skaltu stilla **Fyrirtæki:** reitinn á **Ekki tengja við a tiltekið fyrirtæki**.
+1. Sjálfgefið er að greiningin sem er samnýtt tengir við síðuna eða fyrirspurnina í fyrirtækinu sem verið er að vinna í, sem er gefið til kynna með `company=<company_name>` í reitnum URL við hliðina á hnappnum **Afrita** . Ef senda á tengil í greiningu sem ekki tengist tilteknu fyrirtæki **er reiturinn Fyrirtæki:** á **Ekki tengja við tiltekið fyrirtæki**.
 
-   ![Sýnir afritatenglagluggann fyrir greiningarflipa](media/analysis-link-copied.svg)
+   ![Sýnir afritunartengilsglugga fyrir greiningarflipa](media/analysis-link-copied.svg)
 
-1. Veldu **Afrita**.
+1. Valið er **Afrit**.
 
-1. Límdu hlekkinn inn í samskiptamiðilinn að eigin vali, eins og Word, Outlook, Teams, OneNote og svo einn. 
+1. Líma tengilinn í samskiptamiðla að eigin vali, eins og Word, Outlook, Teymi OneNote, og svo einn. 
 
-2. Eftir móttöku geta viðtakendur síðan valið hlekkinn og opnað greininguna fyrir síðuna eða fyrirspurnina í Business Central. Þeir eru beðnir um að tilgreina nafn fyrir nýja greiningarflipann sem verður búinn til.  
+2. Þegar búið er að taka á móti geta viðtakendur síðan valið tengilinn og opnað greiningu á síðunni eða fyrirspurninni í Business Central. Beðið er um að tilgreina heiti á nýja greiningarflipanum sem verður stofnaður.  
 
-## <a name="limitations-in-2023-release-wave-1-preview"></a>Takmarkanir í útgáfubylgju 1 fyrir 2023 (sýnishorn)
+## Takmarkanir á útgáfubylgju 2023 (forskoðun)
 
-Opinber forsýning á þessum eiginleika hefur eftirfarandi takmarkanir:
+Opinbert forskoðun á þessari aðgerð hefur eftirfarandi takmarkanir:
 
-- Yfirlit greiningarhamsins hefur hámark 100.000 línur. Ef þú ferð yfir þessi mörk færðu skilaboð sem segja þér það. Til að vinna í kringum þessa takmörkun eru settar síur á síðunni áður en þú skiptir yfir í greiningarham, ef það er mögulegt. Til dæmis, kannski viltu greina ákveðinn hóp viðskiptavina eða vilt aðeins gögn frá yfirstandandi ári. Þú getur líka valið fyrirfram skilgreint útsýni ef það myndi virka fyrir greiningu þína.
-- Deilingargagnagreiningareiginleikinn er ekki tiltækur.
-- Getan til að vista valin gagnagreiningarval á listasíðum og vista greiningarvalmyndir á greiningarflipa er ekki tiltæk eins og er.
+- Greiningarhamsyfirlitið hefur takmörk á 100.000 línum. Ef þú fer yfir þessi takmörk færðu skilaboð sem segja þér það. Til að vinna utan um þessa takmörkun eru settar afmarkanir á síðuna áður en skipt er yfir í greiningarstillingu, ef það er mögulegt. Til dæmis ef til vill á að greina tiltekinn flokk viðskiptamanna eða aðeins að gögnum frá yfirstandandi ári. Einnig er hægt að velja fyrirfram skilgreint yfirlit ef það myndi virka í greiningu.
+- Eiginleikinn samnýtt gagnagreining er ekki tiltækur.
+- Geta til að vista val á greiningarvali gagna á listasíðum og vista greiningarvalmyndir á hverjum greiningarflipa eru ekki tiltækar eins og er.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Tilfallandi gagnagreining](reports-adhoc-analysis.md)  
 [Skoða og breyta í Excel](across-work-with-excel.md)  

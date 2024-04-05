@@ -1,6 +1,6 @@
 ---
-title: Fjárhagsskýrslur og greiningar
-description: Finnið út hvaða fjárhagsskýrslur eru í boði í staðlaðri útgáfu Business Central til að halda utan um reksturinn. Notaðu skýrslu 38 fyrir skýrslugerð hagnaðar/taps.
+title: Innbyggðar fjármálaskýrslur í Business Central
+description: Sjá hvaða innbyggðar fjárhagsskýrslur eru tiltækar í stöðluðu útgáfunni af Business Central svo hægt sé að fylgjast með fyrirtækinu. Notaðu skýrslu 38 fyrir skýrslugerð hagnaðar/taps.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -9,27 +9,15 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Fjárhagsskýrslur og greiningar í Business Central
 
-Fjárhagsskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gefur fjármála- og viðskiptafólki völd til að stofna, viðhalda, innleiða og skoða fjárhagsyfirlit. Fer út fyrir takmarkanir hefðbundinnar skýrslugerðar til að hjálpa þér að hanna mismunandi gerðir af skýrslum. [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur nokkrar skýrslur, rakningaraðgerðir og verkfæri sem aðstoða endurskoðendur eða stjórnendur sem bera ábyrgð á skýrslugjöf til fjármáladeildarinnar. Fjárhagsskýrslugerð felur í sér stuðning fyrir víddir þannig að lyklahlutar eða víddir eru strax í boði; ekki er þörf á öðrum verkfærum eða grunnstillingarskrefum.  
+# Innbyggðar fjármálaskýrslur í Business Central
+
+[!INCLUDE [prod_short](includes/prod_short.md)] þar á meðal eru nokkrar innbyggðar skýrslur, rakningaraðgerðir og verkfæri til að hjálpa endurskoðendum eða ráðamönnum sem bera ábyrgð á skýrslugerð til fjármáladeildarinnar. 
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Skýrslur
-
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Verkefni
-
-Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
-
-* [Greina raunverulegar og áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md)  
-* [Útbúa Financial Reporting með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md)  
-* [Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
-* [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)  
-* [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
-* [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)  
-* [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)  
 
 ## Sjá einnig .
 

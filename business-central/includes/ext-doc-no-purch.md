@@ -1,14 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 05/27/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
 Á innkaupaskjölum og færslubókum er hægt að tilgreina fylgiskjalsnúmer sem vísar til númerakerfis lánardrottins. Notaðu þennan reit til að skrá númerið sem lánardrottinn úthlutaði pöntuninni, reikningnum eða kreditreikningnum. Síðar má nota númerið ef af einhverjum ástæðum þarf að leita að bókaðri færslu með þessu númeri.
 
-Reiturinn **Nr. utanaðk. skjals áskilið** í **Uppsetning innkaupagrunns** síðunni tilgreinir hvort áskilið er að færa inn númer utanaðkomandi skjals við eftirfarandi aðstæður:
+Reiturinn **Nr. lengdra skjala Áskilinn reitur** á síðunni **Innkaupagrunnur** tilgreinir hvort nauðsynlegt sé að færa inn númer utanaðkomandi skjals við eftirfarandi aðstæður:
 
 * Í **Pöntunarnr. lánardr.** reitinn, **Pöntunarnr. lánardr.** reitinn, eða **Kr.reikn.nr. lánardr.** reitnum á innkaupahaus
 

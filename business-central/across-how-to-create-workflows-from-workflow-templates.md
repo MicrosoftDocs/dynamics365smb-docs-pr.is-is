@@ -1,34 +1,40 @@
 ---
 title: Hvernig á að Búa til verkflæði úr verkflæðissniðmátum
-description: Hægt er að búa til óbreytanleg verkflæði með verkflæðissniðmátum með forskeytinu „MS“ til að spara tíma þegar ný samþykktarverkflæði eru stofnuð.
+description: Til að spara tíma þegar nýtt samþykktarverkflæði er stofnað er hægt að búa til verkflæði úr verkflæðissniðmátum.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/08/2022
 ms.author: bholtorf
+ms.reviewer: dajoo
+ms.topic: how-to
+ms.search.keywords: null
+ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="create-workflows-from-workflow-templates"></a>Búa til verkflæði úr verkflæðissniðmátum
+# Stofna verkflæði úr verkflæðissniðmátum
 
-Til að spara tíma þegar ný samþykktarverkflæði eru búin til skaltu nota verkflæðissniðmátin.  
+Á síðunni **Verkflæði** er búið til verkflæði með því að stofna röð verkflæðisskrefa í línunum. Hvert skref samanstendur af verkflæðistilviki (When Event), í meðallagi eftir atvikaskilyrðum (Á skilyrði) og verkflæðissvari (Þá Svar), í meðallagi svarvalkostum. Reitirnir í verkflæðislínunum bjóða upp á fasta lista yfir atburða- og svargildi sem tákna aðstæðurnar sem [!INCLUDE [prod_short](includes/prod_short.md)] styðja. Frekari upplýsingar eru á [Búa til verkflæði](across-how-to-create-workflows.md).
 
-Verkflæðissniðmát eru óbreytanleg verkflæði sem eru til staðar í sjálfgefnu útgáfunni af [!INCLUDE[prod_short](includes/prod_short.md)]. Kóðar fyrir verkflæðissniðmát sem Microsoft býr til eru með forskeytinu „MS-“.  
+Til að spara tíma þegar samþykktarverkflæði eru stofnuð veitir [!INCLUDE [prod_short](includes/prod_short.md)]  sniðmát verkflæðis. Sniðmátin eru tiltæk á síðunni **Sniðmát** verkflæðis. Hægt er að nota sniðmátin eins og þau eru eða sérsníða þau eftir þörfum. Kótar fyrir verkflæðissniðmátin frá Microsoft eru forskeytinu með **MS-**.
 
-Önnur fljótleg leið til að búa til verkflæði er að flytja inn fyrirliggjandi verkflæði sem til er ótengt [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Flytja verkflæði inn og út](across-how-to-export-and-import-workflows.md).  
+[!INCLUDE [workflow-next-step](includes/workflow-next-step.md)]
 
-Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru á [Búa til verkflæði](across-how-to-create-workflows.md).  
+Ef verkflæðissniðmáti er breytt, en síðar sést eftir breytingunni, skal nota aðgerðina **Endurstilla Microsoft-sniðmát** til að snúa aftur í upprunalegu stillinguna fyrir verkflæðið.
 
-## <a name="to-create-a-workflow-from-a-workflow-template"></a>Að búa til verkflæði úr verkflæðissniðmáti
+> [!CAUTION]
+> Aðgerðin **Endurstilla** Microsoft-sniðmát endurstillir öll verkflæðissniðmát Microsoft. Ekki er hægt að endurstilla eitt sniðmát.  
+
+Önnur leið til að stofna verkflæði á fljótlegan hátt er að flytja það inn, til dæmis ef það var flutt út frá öðru tilviki. [!INCLUDE[prod_short](includes/prod_short.md)] Frekari upplýsingar eru í [Flytja verkflæði inn og út](across-how-to-export-and-import-workflows.md).  
+
+## Að búa til verkflæði úr verkflæðissniðmáti
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Veldu aðgerðina **Nýtt verkflæði úr sniðmáti**. Síðan **Sniðmát verkflæðis** opnast.  
 3. Veldu verkflæðissniðmát, veldu síðan **Í lagi**.  
 
    Síðan **Verkflæði** opnast fyrir nýtt verkflæði sem inniheldur allar upplýsingarnar úr völdu sniðmáti. Við gildið í reitnum **Kóði** er bætt við t.d. „-01“ til að gefa til kynna að þetta sé fyrsta verkflæðið sem er stofnað úr verkflæðissniðmátinu.  
-4. Haltu áfram að stofna verkflæði með því að breyta verkflæðisskrefum eða bæta við nýjum skrefum. Frekari upplýsingar eru á [Búa til verkflæði](across-how-to-create-workflows.md).  
+4. Til að sérstilla verkflæðið skal breyta verkflæðisskrefunum eða bæta við nýjum skrefum. Frekari upplýsingar eru á [Búa til verkflæði](across-how-to-create-workflows.md).  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stofna verkflæði samþykktar](across-how-to-create-workflows.md)  
 [Flytja samþykktarverkflæði inn og út](across-how-to-export-and-import-workflows.md)  

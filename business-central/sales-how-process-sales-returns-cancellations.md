@@ -1,18 +1,18 @@
 ---
-title: Vinna söluskil eða afturkallanir
+title: Vinna vöruskil eða afturköllun sölu
 description: 'Lýsir því hvernig skal stofna kreditreikning til að vinna skil, afturköllun eða endurgreiðslu fyrir vöru eða þjónustu sem þú hefur fengið greiðslu fyrir.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/27/2021
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="process-sales-returns-or-cancellations"></a>Vinna söluskil eða afturkallanir
+# Vinna vöruskil eða afturköllun sölu
 
-Ef viðskiptavinur vill skila eða endurgreiða fyrir vörur eða þjónustu sem þú hefur selt og fengið greiðslu fyrir verður þú að búa til og senda inn söluskuldbindingar sem tilgreinir umbeðnar breytingar. Til að hafa með réttar upplýsingar um sölureikning er hægt að gera eftirfarandi:  
+Ef viðskiptavinur vill skila eða endurgreiða fyrir vörur eða þjónustu sem þú hefur selt og fengið greiðslu fyrir verður þú að búa til og senda inn söluskuldbindingar sem tilgreinir umbeðnar breytingar. Til að hafa réttar upplýsingar sölureiknings með er hægt að gera eftirfarandi verkhluta:  
 
 - Stofnaðu sölukreditreikning beint úr bókuðum sölureikningi.
 - Stofnaðu nýjan sölukreditreikning með afrituðum reikningsupplýsingum.
@@ -22,21 +22,21 @@ Ef þú þarft meiri stjórn á söluskilaferlinu, eins og t.d. vöruhúsaskjöl
 > [!NOTE]  
 > Ef sölureikningur hefur ekki verið greiddur þá geturðu notað **Rétt** eða **Hætta við** aðgerðirnar á bókaða sölureikningnum til að snúa við viðskiptum. Þessir eiginleikar virka aðeins fyrir ógreidda reikninga og styðja ekki vöruskil að hluta eða afturkallanir. Frekari upplýsingar eru í [Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md).
 
-Skil eða endurgreiðsla getur átt við um aðeins hluta af vörum eða þjónustum á upprunalega sölureikningnum. Í því tilviki þarf að breyta upplýsingum í línunum á sölukreditreikningnum eða söluvöruskilapöntun. Við bókun sölukreditreiknings eða söluvöruskilapöntun eru þau söluskjöl sem eru breytingin hefur áhrif á bakfærð og hægt er að stofna endurgreiðslu til viðskiptamannsins. Frekari upplýsingar eru í [Greiðslur framkvæmdar](payables-make-payments.md).  
+Vöruskil eða endurgreiðsla geta aðeins táknað sumar af vörunum eða þjónustunni á upphaflega sölureikningnum. Í því tilviki þarf að breyta upplýsingum í línunum á sölukreditreikningnum eða söluvöruskilapöntun. Við bókun sölukreditreiknings eða söluvöruskilapöntun eru þau söluskjöl sem eru breytingin hefur áhrif á bakfærð og hægt er að stofna endurgreiðslu til viðskiptamannsins. Frekari upplýsingar eru í [Greiðslur framkvæmdar](payables-make-payments.md).  
 
 Bókun innkaupareiknings mun einnig snúa við öllum kostnaðarauka sem var úthlutað á bókaða skjalið, þannig að vöruvirðisfærslurnar eru þær sömu og áður en kostnaðaraukanum var úthlutað.
 
 > [!NOTE]
 > Bókhaldsþættir söluvöruskila, svo sem greiðslur til viðskiptamanna sem endurgreiðsla, teljast bókhaldsverk og er ekki lýst hér. Nánari upplýsingar er að finna í [Stjórna skuldum](payables-manage-payables.md).
 
-## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Að stofna nýjan sölukreditreikning úr bókuðum sölureikningi.
+## Að stofna nýjan sölukreditreikning úr bókuðum sölureikningi.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðir sölureikningar** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Bókaðir sölureikningar** skal velja þá bókuðu sölureikninga sem á að bakfæra, veljið **Hætta við** og veljið síðan aðgerðina **Stofna leiðréttan kreditreikning**.
 
     Minnispunktur fyrir sölureikninginn inniheldur nokkrar upplýsingar frá staða sölureikningsins. Hægt er að breyta þessu, til dæmis með nýjar upplýsingar sem endurspegla endursenda samkomulagið.  
 3. Breyttu upplýsingum um línurnar í samræmi við samninginn, svo sem fjölda skilaðra hluta eða fjárhæðin sem endurgreiða.
-4. Veldu aðgerðina **Undirbúa** og veldu svo aðgerðina **Nota færslur**.
+4. Veljið aðgerðina **Undirbúa** og veljið svo aðgerðina **Jafna** færslur.
 5. Á síðunni **Jafna viðskm.færslur** skal velja línuna með bókaða söluskjalinu sem á að jafna sölukreditreikninginn við og veljið síðan aðgerðina **Kenni jöfnunar**.
 
     Kennimerki söluskuldbindinga birtist á **kenni jöfnunar**.
@@ -52,7 +52,7 @@ Bókun innkaupareiknings mun einnig snúa við öllum kostnaðarauka sem var út
 
 Bókuðu söluskjölin sem jafnað var við kreditreikninginn eru nú bakfærðir og endurgreiðslu má nú búa til fyrir viðskiptamanninn. Sölukreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölukreditreikninga.
 
-## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Að stofna sölukreditreikning með því að afrita bókuðum sölureikningi
+## Að stofna sölukreditreikning með því að afrita bókuðum sölureikningi
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölukreditreikningar** og velja síðan viðkomandi tengil.
 2. Veljið aðgerðina **Nýtt** til að opna nýjan auðan sölukreditreikning.
@@ -64,7 +64,7 @@ Bókuðu söluskjölin sem jafnað var við kreditreikninginn eru nú bakfærði
 8. Velja hnappinn **Í lagi**. Afrituðu reikningslínurnar eru settar inn í sölukreditreikninginn.
 9. Sölukreditreikningnum er lokið eins og útskýrt er í [Að stofna sölukreditreikning úr bókuðum sölureikningi](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## <a name="to-create-a-sales-allowance"></a>Til að bóka söluuppbót:
+## Til að bóka söluuppbót:
 Hægt er að senda viðskiptamanni kreditreikning með verðlækkun hafi viðskiptamaðurinn fengið vörurnar lítillega skaddaðar eða of seint.  
 Hægt er að bóka þetta lægra verð sem kostnaðarauka á kreditreikningi eða vöruskilapöntun og úthluta því á bókaða afhendingu. Eftirfarandi lýsir því fyrir sölukreditreikning, en sömu skref eiga við um söluvöruskilapöntun.
 
@@ -73,23 +73,23 @@ Hægt er að bóka þetta lægra verð sem kostnaðarauka á kreditreikningi eð
 3. Kreditreikningshausinn er fylltur út með öllum viðeigandi upplýsingum um viðskiptamanninn sem á að veita söluuppbót.  
 4. Á flýtiflipanum **Línur** í reitnum **Tegund** er valin **Gjald (vara)**.  
 5. Í reitnum **númer** er valið viðeigandi vörugjaldsnúmer.  
-     Gott gæti verið að stofna sérstakt kostnaðaraukanúmer fyrir söluuppbætur.  
+     Hugsanlega þarf að stofna sérstakt kostnaðaraukanúmer fyrir söluuppbætur.  
 6. Fært er inn **1** í reitinn **Magn**.  
 7. Í reitinn **Ein.verð án skatts** er upphæð söluuppbótarinnar færð inn.  
 8. Söluuppbótinni er  úthlutað sem vörugjaldi á vörurnar í bókuðu afhendingunni. Frekari upplýsingar er að finna í [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md). Þegar uppbótinni hefur verið úthlutað er snúið aftur á síðuna **Sölukreditreikningur**.  
 
 Þegar söluvöruskilapöntunin er bókuð er söluafslætti bætt við viðkomandi upphæð sölufærslu. Þannig er hægt að vinna með nákvæmt birgðaverðmat.
 
-## <a name="to-combine-return-receipts"></a>Hvernig á að sameina vöruskilamóttökur
+## Hvernig á að sameina vöruskilamóttökur
 Hægt er að sameina vöruskilamóttökur ef viðskiptamaður er að skila mörgum vörum sem margar söluskilapantanir eiga við um.  
 
 Þegar varan er móttekin í vöruhúsi er viðkomandi söluvöruskilapöntun bókuð sem móttekin. Þetta býr til bókaðar vöruskilamóttökur  
 
-Þegar kemur að því að reikningsfæra viðskiptamanninn er hægt að stofna sölukreditreikning og afrita sjálfkrafa bókaðar innkaupaskilasendingarlínur í skjalið, í stað þess að reikningsfæra hverja söluskilapöntun sérstaklega. Þá má bóka sölukreditreikning og reikningsfæra allar opnar sölupantanir í einu.  
+Þegar kemur að því að reikningsfæra viðskiptamanninn er hægt að stofna sölukreditreikning og afrita sjálfkrafa bókaðar móttökulínur vöruskila í skjalið, í stað þess að reikningsfæra hverja söluskilapöntun sérstaklega. Þá má bóka sölukreditreikning og reikningsfæra allar opnar sölupantanir í einu.  
 
 Til að sameina vöruskilamóttökur þarf að velja gátreitinn **Sameina afhendingar** á síðunni **Viðskiptamannaspjald**.  
 
-### <a name="to-manually-combine-return-receipts"></a>Til að sameina vöruskilamóttökur handvirkt:
+### Til að sameina vöruskilamóttökur handvirkt:  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölukreditreikningar** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.
@@ -100,10 +100,10 @@ Til að sameina vöruskilamóttökur þarf að velja gátreitinn **Sameina afhen
     - Til að setja allar línur inn eru allar línur valdar og svo smellt á **Í lagi** hnappinn.  
 
     - Til að setja sérstakar línur inn eru línurnar valdar og svo smellt á **Í lagi** hnappinn.  
-6.  Ef röng afhendingarlína var valin eða byrja á aftur er línunum einfaldlega eytt í kreditreikningnum aðgerðin **Sækja vöruskilamóttökulínur** keyrð aftur.  
+6.  Ef röng afhendingarlína var valin eða byrja á upp á ný er línunum einfaldlega eytt í kreditreikningnum og aðgerðin **Sækja móttökulínur** vöruskila keyrð aftur.  
 7.  Bóka skal reikninginn.  
 
-### <a name="to-automatically-combine-return-receipts"></a>Til að sameina vöruskilamóttökur sjálfvirkt
+### Til að sameina vöruskilamóttökur sjálfvirkt
 
 Hægt er að sameina vöruskilamóttökur sjálfvirkt og hafa möguleikann á að bóka kreditreikninga sjálfvirkt með aðgerðinni **Sameina vöruskilamóttökur**.  
 
@@ -112,7 +112,7 @@ Hægt er að sameina vöruskilamóttökur sjálfvirkt og hafa möguleikann á a�
 3. Velja skal gátreitinn **Bóka kreditreikninga**. Ef ekki, verður að handvirkt bóka viðeigandi innkaupakreditreikninga.
 4. Velja hnappinn **Í lagi**.  
 
-### <a name="to-remove-a-received-and-invoiced-return-order"></a>Mótteknar og reikningsfærðar vöruskilamóttökur fjarlægðar
+### Mótteknar og reikningsfærðar vöruskilamóttökur fjarlægðar
 
 Þegar vöruskilamóttökur eru reikningsfærðar á þennan hátt eru vöruskilapantanir sem vöruskilamóttökurnar voru bókaðar úr enn til staðar, jafnvel þótt þær hafi verið mótteknar og reikningsfærðar að fullu.  
 
@@ -124,7 +124,7 @@ Hægt er að sameina vöruskilamóttökur sjálfvirkt og hafa möguleikann á a�
 
 Að öðrum kosti skal eyða einstökum söluvöruskilapöntunum handvirkt.  
 
-## <a name="inventory-costing"></a>Birgðakostnaður
+## Birgðakostnaður
 
 Til að varðveita rétt birgðaverðmat, eru vanalega setja skilavörur aftur inn í birgðum á því kostnaðarverði sem þær voru seldar á, en ekki núgildandi kostnaðarverði. Þetta er kallað nákvæm bakfærsla kostnaðar.
 
@@ -139,7 +139,7 @@ Til að úthluta nákvæmri bakfærslu kostnaðar, skal velja reitinn **Jafna fr
 
 Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðakostnaður](design-details-inventory-costing.md)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

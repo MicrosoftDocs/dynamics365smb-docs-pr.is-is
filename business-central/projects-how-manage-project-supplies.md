@@ -1,52 +1,57 @@
 ---
-title: Stjórna verkbirgðum
-description: Lýsir mismunandi leiðum til að hafa umsjón með framboð og innkaupum á efni og þjónustu fyrir verk.
+title: Unnið með verkbirgðir
+description: Lýsir mismunandi leiðum til að stjórna framboði og innkaupum á efni og þjónustu vegna verkefna.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
 ms.search.keywords: 'project management, material, purchase'
 ms.search.form: '98, 1020'
-ms.date: 06/22/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="manage-project-supplies"></a>Stjórna verkbirgðum
-Það er mikilvægur og óaðskiljanlegur hluti af framkvæmd allra verka að hafa umsjón með framboði á vöru, þjónustu og útgjöldum. Nota má birgðamagn eða gera verktengd innkaup með innkaupapöntunum og/eða innkaupareikningum. Sem dæmi má nefna þjónustuverk á tölvu sem krefst þess að nýr diskur sé keyptur. Þá er búinn til innkaupareikningur til kaupa á nýjum diski og verkið, sem nota á diskinn í, er skráð.
+# Unnið með verkbirgðir
 
-Ef innkaupaferlið krefst þess ekki að efnisleg aðgerð sé skráð sérstaklega er hægt að setja innkaup á síðuna **Fjárhagsbók verks**. Frekari upplýsingar eru í [Til að bóka verktengdan kostnað](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
+Stjórna ætti verkbirgðum af vörum, þjónustu og útgjöldum sem óaðskiljandi og mikilvægur þáttur í öllum verkefnum. Hægt er að nota birgðamagn eða búa til verktengd innkaup með innkaupapöntunum eða innkaupareikningum. Til dæmis krefst þjónustuverkefnis á tölvu nýjum diski. Búinn er til innkaupareikningur til kaupa á nýjum diski og verkefnið sem notar hann skráð.
 
-## <a name="to-purchase-items-or-services-for-a-project"></a>Að kaupa vörur eða þjónustu fyrir verk
-Eftirfarandi ferli sýnir hvernig á að nota innkaupareikning til að kaupa vörur fyrir verk. Sömu skref eiga við þegar innkaupapöntun er notuð.  
+Ef innkaupaferlið krefst þess ekki að efnislegu viðskiptin séu skráð sérstaklega er hægt að vinna innkaup á síðunni **Fjárhagsbók** verks. Nánari upplýsingar eru [í Til að bóka verktengdan kostnað](projects-how-manage-project-supplies.md#to-post-a-project-related-expense).
+
+## Til að kaupa vörur eða þjónustu fyrir verk
+
+Eftirfarandi ferli sýnir hvernig á að nota innkaupareikning til að kaupa vörur fyrir verkefni. Sömu skref eiga við þegar innkaupapöntun er notuð.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
-3. Í reitunum **Verk nr.** og **Verkhluti nr.** eru valdar upplýsingarnar um verkið sem þú vilt kaupa vörur eða þjónustu fyrir. Notið verkfæri sérstillingar ef reitur er ekki sýnilegur. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
+3. Í reitnum **Verknr.** og **Verkhlutanr.**  verkseru valdar upplýsingar um verkefnið sem kaupa á vörur eða þjónustu fyrir. Nota skal sérstillingartólin ef reitur er ekki sýnilegur. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-    Gildið sem valið er í reitnum **Verklínutegund** skilgreinir hvort búin sé til áætlunarlína þegar notkun vörunnar er bókuð. Ef reiturinn inniheldur **Reikningshæft** eru stofnaðar áætlunarlínur sem eru tilbúnar til að vera reikningsfærðar til viðskiptavinar. Frekari upplýsingar eru í [Reikningsfærsla verka](projects-how-invoice-jobs.md).
+    Gildið sem valið er í reitnum **Tegund** verklínu tilgreinir hvort áætlunarlína er stofnuð þegar notkun vörunnar er bókuð. Ef reikningshæft **er í reitnum** eru stofnaðar verkáætlunarlínur sem eru tilbúnar til reikningsfærslu á viðskiptavininn. Nánari upplýsingar eru í [Reikningsverk.](projects-how-invoice-jobs.md)
 4. Valið er **Bóka** aðgerðin.
 
-## <a name="to-view-the-value-of-purchases-for-a-project"></a>Til að skoða virði innkaupa fyrir verk
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.
-2. Opnið viðeigandi verkspjald.
+## Til að skoða virði innkaupa fyrir verk
 
-    Á flýtiflipanum **Verkhlutar** sýnir reiturinn **Óafgreiddar pantanir** útistandandi upphæð í staðbundnum gjaldmiðli fyrir vörur í birgðaskrá og þjónustu á innkaupaskjöl fyrir verkhlutalínuna.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Verkefni** og velja síðan viðeigandi tengil.
+2. Viðeigandi verkspjald er opnað.
+
+    Á flýtiflipanum **Verkhlutar** sýnir reiturinn **Óafgreiddar pantanir** óafgreidda heildarupphæð, í staðarmynt, vara í birgðum og þjónustu á innkaupaskjölum fyrir verkhlutalínuna.  
 
     Reiturinn **Afh. upph. óreikn.færð** sýnir virði vara sem afhentra vara í innkaupaskjölum sem ekki hafa verið reikningsfærðar enn.  
-3. Þegar smellt er í reitinn opnast glugginn **Innkaupalínur**. Á síðunni má sjá upplýsingar úr innkaupapöntuninni, þ.á.m. hvaða vörur eða forði hafa verið móttekin.
+3. Velja annan hvorn reitinn til að opna **síðuna Innkaupalínur** þar sem hægt er að fara yfir upplýsingar um tengdar innkaupaskjalslínur, þar á meðal hvaða vörur eða þjónusta eru móttekin.
 
-## <a name="to-post-a-project-related-expense"></a>Til að bóka verktengdan kostnað
-Ef þú verður fyrir óvenjulegum útgjöldum eða útgöldum sökum eins verks, er hægt að nota síðuna **Verk fjárhagsbókar** til að bóka þau beint í viðeigandi verkreikning.
+## Til að bóka verktengdan kostnað
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsbækur verks** og velja síðan viðkomandi tengil.  
-2. Ný lína er stofnuð og kostnaðarupplýsingar, þar á meðal **Verk nr** og **Verkhluti nr.**, færðar inn í reitina.  
+Ef um óeðlilegan eða einstakan verkkostnað er að ræða er hægt að nota **síðuna Fjárhagsbók** verks til að bóka þær beint á viðeigandi verkreikning.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **fjárhagsbækur verks** og velja síðan viðeigandi tengil.  
+2. Ný lína er stofnuð og upplýsingar um kostnaðinn færðar inn, þ.m.t. upplýsingar í reitnum **Verknr.** og **Verkhlutanr** .  
 3. Þegar færslubókin er tilbúin skal velja aðgerðina **Bóka**.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
+
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  
-[Innkaup](purchasing-manage-purchasing.md)         
-[Sala](sales-manage-sales.md)      
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Innkaup](purchasing-manage-purchasing.md)  
+[Sala](sales-manage-sales.md)  
+[Vinna með Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

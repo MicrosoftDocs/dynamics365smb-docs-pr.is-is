@@ -1,11 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 Hægt er að nota áminningar til að minna viðskiptamenn á gjaldfallnar upphæðir. Einnig er hægt að nota áminningar til að reikna út vexti og annan kostnað og hafa þær upplýsingar með í áminningunni.
+
+> [!TIP]
+> Upplýsingarnar í þessari grein eru nákvæmar en hún lýsir aðallega handvirku ferli. [!INCLUDE [prod_short](prod_short.md)] býður upp á verkfæri sem hægt er að nota til að gera ferli við stofnun, útgáfu og sendingu innheimtubréfa sjálfvirka. Með því að gera þessi skref sjálfvirkt er hægt að spara umtalsverðan tíma sem eytt er í söfn. Nánari upplýsingar eru notaðar til að [fara í Innheimtubréf sjálfvirkt í söfnum](../finance-automate-reminders.md).
 
 Áður en hægt er að stofna áminningar þarf að setja upp skilmála áminninga og tengja þá við viðskiptamenn. Frekari upplýsingar eru í [Setja upp skilmála og stig innheimtubréfa](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] Innihald síðunnar **Vaxtaskilmálar** ákveður hvort vextir eru reiknaðir í áminningunni.  
 
@@ -17,7 +20,7 @@ Viðskiptamannsfærsla með reitinn **Bið** útfylltan leyfir ekki stofnun ámi
 
 Þegar búið er að stofna áminningar, og breyta þeim ef þarf, er hægt að prenta prufuskýrslur eða senda áminningarnar, vanalega sem tölvupóst.
 
-### <a name="to-create-a-reminder-automatically"></a>Innheimtubréf búin til sjálfvirkt:
+### Innheimtubréf búin til sjálfvirkt:
 
 Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að fylla út innheimtuhaus ásamt einni eða fleiri innheimtulínum. Þú getur notað aðgerð til að stofna innheimtubréf fyrir alla viðskiptamenn sjálfvirkt.
 
@@ -26,7 +29,7 @@ Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að 
 3. Á síðunni **Stofna innheimtubréf** fyllið út reitina til að skilgreina hvernig og til hvaða aðila innheimtubréfin skulu stofnuð.
 4. Velja hnappinn **Í lagi**.
 
-### <a name="to-create-a-reminder-manually"></a>Innheimtubréf búin til handvirkt:
+### Innheimtubréf búin til handvirkt:
 
 Á síðunni **Innheimtubréf** geturðu fyllt í flýtiflipann **Almennt** handvirkt og svo látið fylla í línurnar sjálfvirkt.
 
@@ -43,7 +46,7 @@ Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að 
 
 8. Velja hnappinn **Í lagi**.
 
-### <a name="to-replace-reminder-texts"></a>Texta innheimtubréfs skipt út.
+### Texta innheimtubréfs skipt út.
 
 Nokkrar leiðir eru í boði til að ákvarða hvaða texti birtist á prentuðu innheimtubréfi. Í einstaka tilvikum gæti þurft að skipta út byrjunar- og endatexta gildandi stigs með texta af öðru stigi.
 
@@ -52,7 +55,7 @@ Nokkrar leiðir eru í boði til að ákvarða hvaða texti birtist á prentuðu
 3. Á síðunni **uppfæra innheimtubréf texti** er fært inn stigið sem óskað er eftir í reitnum **Stig innheimtubréfs**.
 4. Velja hnappinn **Í lagi** til að uppfæra byrjunar- og endatexta.
 
-### <a name="to-issue-a-reminder"></a>Gefa út innheimtubréf
+### Gefa út innheimtubréf
 
 Þegar búið er að stofna áminningar, og breyta þeim ef þarf, er hægt að prenta prufuskýrslur eða senda áminningarnar.
 
@@ -77,7 +80,7 @@ Að auki getur sending innheimtubréfs leitt af sér VSK-færslur.
 
 Innheimtubréfið er annað hvort prentað út eða sent á tiltekið netfang sem PDF viðhengi.
 
-### <a name="to-cancel-an-issued-reminder"></a>Hætta við útgefið innheimtubréf
+### Hætta við útgefið innheimtubréf
 
 Ef innheimtubréf voru gefin út fyrir mistök er hægt að hætta við þau áður en þau eru send út. Þetta er hægt að gera annaðhvort fyrir hvert bréf fyrir sig eða í lotu.
 

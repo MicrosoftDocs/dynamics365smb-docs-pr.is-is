@@ -12,7 +12,7 @@ ms.search.form: '7022, 7024'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="record-special-sales-prices-and-discounts"></a>Skrá sérstök söluverð og afslætti
+# Skrá sérstök söluverð og afslætti
 
 > [!NOTE]
 > Á útgáfutímabili 2 árið 2020 kynntum við einfaldari ferla til að setja upp og hafa umsjón með verðum og afsláttum. Ef þú ert nýr viðskiptamaður sem ert að nota nýjustu útgáfu þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna í [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management) í efni stjórnenda.
@@ -21,11 +21,11 @@ ms.service: dynamics-365-business-central
 
 * „Eitt verð fyrir allt“ líkön þar sem vara er alltaf seld á sama verðinu.
 * Sérstakir verðsamningar við tiltekna viðskiptavini, eða hópa viðskiptavina.
-* Herferðir þegar sala uppfyllir skilyrði fyrir sértilboð. Til dæmis gæti verið eftirfarandi skilyrði fyrir pöntun:
+* Herferðir þegar sala uppfyllir skilyrði fyrir sértilboð. Til dæmis gætu eftirfarandi skilyrði verið fyrir pöntun:
 
   * Það uppfyllir lágmarksmagn
-  * Það er áður ákveðin dagsetning
-  * Það felur í sér ákveðna tegund vöru-  
+  * Það er fyrir ákveðna dagsetningu
+  * Hún felur í sér ákveðna tegund vöru  
 
 Til að nota einfalt verðlagningarlíkan þarf aðeins tilgreina einingarverð þegar vara eða tilfang er sett upp. Það verð verður alltaf notað í söluskjölum. Fyrir flóknari líkön, til dæmis þegar boðið er upp á sérverð fyrir söluherferð, er hægt að tilgreina skilyrði á síðunni **Söluverð**. Hægt er að bjóða sérverð sem byggja á samsetningum af eftirfarandi upplýsingum:  
 
@@ -35,19 +35,19 @@ Til að nota einfalt verðlagningarlíkan þarf aðeins tilgreina einingarverð 
 * Lágmarksmagn
 * Dagsetningar sem skilgreina tímabilið sem verðin gilda fyrir.
 
-Þegar búið er að setja upp sérstakt verð er  [!INCLUDE[prod_short](includes/prod_short.md)]  hægt að reikna besta verð í sölu-og innkaupaskjölum og í línum á vinnslum og vörubókum. Frekari upplýsingar má finna á [Útreikningur besta verðs](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Þegar sérverð hafa [!INCLUDE[prod_short](includes/prod_short.md)]  verið sett upp getur það reiknað út besta verð á sölu- og innkaupaskjölum og í línum í verk- og birgðabókum. Frekari upplýsingar má finna á [Útreikningur besta verðs](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Til að fá söluafslátt er hægt að setja upp tvær gerðir:
 
 | Afsláttargerð | Heimildasamstæða |
 | --- | --- |
-| **Sölulínuafsláttur** |Bæta upphæð við sölulínur sem hafa ákveðna samsetningu af viðskiptamanni, vöru, lágmarksmagni, mælieiningu eða upphafs-og lokadagsetningu. Þetta virkar á sama hátt og fyrir söluverð. |
+| **Sölulínuafsláttur** |Bæta við upphæð í sölulínum sem hafa ákveðna samsetningu á viðskiptamanni, vöru, lágmarksmagni, mælieiningu eða upphafs- og lokadagsetningu. Þetta virkar á sama hátt og fyrir söluverð. |
 | **Reikningsafsláttur** |Afsláttarprósenta sem er dregin frá samtölu söluskjals ef summa allra lína í skjalinu fer yfir ákveðið lágmark. |
 
 > [!TIP]  
 > Ef aldrei á að selja vöru með afslætti skal skilja afsláttarreitinn á vörusíðunni eftir auðan og ekki hafa með vöruna í neinum uppsetningum línuafslátta.
 
-## <a name="to-set-up-a-sales-price-for-a-customer"></a>Að setja upp söluverð fyrir viðskiptamann
+## Að setja upp söluverð fyrir viðskiptamann
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum „Núverandi upplifun“. 
 
@@ -73,7 +73,7 @@ Sjálfgefið er að staða nýrra verðlista sé **Drög**. Drög að verðlistu
 
 ---
 
-## <a name="using-sales-and-purchase-price-lists"></a>Verðlistar sölu og innkaupa notaðir
+## Verðlistar sölu og innkaupa notaðir
 
 > [!NOTE]
 > Til að nota verðlista þarf stjórnandinn að hafa kveikt á eiginleikauppfærslunni **Ný söluverðsupplifun** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna í [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management) í efni stjórnenda.
@@ -82,7 +82,7 @@ Mest af nýju upplifuninni af söluverði svipar til núverandi upplifunar, en n
 
 **Á við um gerð** og **Á við um nr.** reitirnir gera kleift að velja hvað verðlisti gildir fyrir, t.d. viðskiptamann eða verðflokk viðskiptamanns. Með því að nota **Skoða dálka fyrir** er hægt að sýna eða fela dálka sem tengjast því að stilla verð, afslætti eða verð og afslætti.
 
-### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update"></a>Fyrirliggjandi verðum breytt þegar kveikt er á eiginleikauppfærslu verðlagningar
+### Fyrirliggjandi verðum breytt þegar kveikt er á eiginleikauppfærslu verðlagningar
 
 Þegar eiginleikauppfærslan **Ný söluverðsupplifun** er virkjuð á síðunni **Eiginleikastjórnun** opnast leiðsögnin **Gagnauppfærsla eiginleika**. Notaðu víxlhnappinn **Nota sjálfgefin verð** á eftirfarandi hátt:
 
@@ -93,7 +93,7 @@ Mest af nýju upplifuninni af söluverði svipar til núverandi upplifunar, en n
   * Verksala
   * Verkinnkaup
 
-  Hægt er að breyta öllum verðum fyrir þessi svæði á síðunni **Vinnublað verðs**. Sjálfgefnir verðlistar verða stilltir á síðunum **Uppsetning sölugrunns**, **Uppsetning innkaupagrunns** og **Uppsetning verka**.
+  Hægt er að breyta öllum verðum fyrir þessi svæði á síðunni **Vinnublað verðs**. Sjálfgefnir verðlistar verða stilltir á síðunum Sölugrunnur, **Innkaupagrunnur** **og** Verkagrunnur **.** 
 
 > [!NOTE]
 > Ef verð eru aðeins stillt á vöru- eða forðaspjölum verða sjálfgefnir verðlistar ekki fylltir út með þessum verðum við gagnauppfærslu. Hins vegar er hægt að opna sjálfgefna verðlista eða síðuna **Vinnublað verðs** og nota aðgerðina **Tillögur um línur** til að bæta við verðunum sem stillt eru á vöru- eða forðaspjöldum.
@@ -107,9 +107,9 @@ Mest af nýju upplifuninni af söluverði svipar til núverandi upplifunar, en n
 
 Ef þú ert með margar samsetningar færðu marga verðlista.
 
-Ef þú hefur þegar virkjað nýju verðupplifunina getur þú búið til sjálfgefna verðlista handvirkt eða tilgreint núverandi verðlista sem sjálfgefinn. Til að stilla núverandi verðlista sem sjálfgefinn skaltu kveikja á víxlhnappnum **Leyfa uppfærslu sjálfgilda** í verðlistanum. Á síðunum **Uppsetning sölugrunns**, **Uppsetning innkaupagrunns** eða **Uppsetning verka** skal síðan stilla verðlistann sem sjálfgefinn.
+Ef þú hefur þegar virkjað nýju verðupplifunina getur þú búið til sjálfgefna verðlista handvirkt eða tilgreint núverandi verðlista sem sjálfgefinn. Til að stilla núverandi verðlista sem sjálfgefinn skaltu kveikja á víxlhnappnum **Leyfa uppfærslu sjálfgilda** í verðlistanum. Á síðunum Sölugrunnur, **Innkaup eða Uppsetning verka, á síðunum** Sölugrunnur **, Innkaup** eða **Uppsetning** verka, er verðlistinn stilltur sem sjálfgefinn.
 
-### <a name="editing-active-price-lists"></a>Breyta virkum verðlistum
+### Breyta virkum verðlistum
 
 Til að gera fólki kleift að breyta verði á virkum verðlistum fyrir vörur, tilföng, viðskiptamenn, lánardrottna eða aðrar einingar sem nota verðlagningu skal kveikja á víxlhnappnum **Leyfa breytingar á virku verði** á síðunum **Uppsetning sölugrunns** og **Uppsetning innkaupagrunns**.
 
@@ -122,7 +122,7 @@ Síðan **Verðyfirlit** gefur yfirlit yfir öll verð í verðlistum. Hægt er 
 
 Til að bæta við nýjum verðum á síðunni **Verðyfirlit** skal nota aðgerðina **Bæta við nýjum línum**. Síðan **Vinnublað verðs** opnast og þú getur bætt við verðlínum annaðhvort með því að leggja þau til samkvæmt skilyrði, afrita þau úr öðrum verðlistum eða slá þau inn handvirkt. Eftir á er hægt að nota aðgerðina **Innleiða verðbreytingu** til að bera nýju verðin saman við aðra verðlista til að forðast tvítekningar og tvíræðni í verðútreikningum.
 
-#### <a name="create-sales-price-lines-based-on-the-unit-price"></a>Stofna söluverðslínur á grundvelli einingarverðs
+#### Stofna söluverðslínur á grundvelli einingarverðs
 
 1. Á síðunni **Vinnublað verðs** skal velja aðgerðina **Tillögur um línur**.
 2. Á síðunni **Verðlínur - Stofna nýja** skal fylla út reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -135,7 +135,7 @@ Til að bæta við nýjum verðum á síðunni **Verðyfirlit** skal nota aðger
 5. Velja **Í lagi**. Nýjum línum verður bætt við síðuna **Vinnublað verðs** með völdum stillingum og einingarverðum úr birgðaspjöldunum.
 6. Breyta línunum sem eru búnar til með nýja einingarverðinu eða afsláttunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="create-sales-price-lines-based-on-existing-price-lists"></a>Stofna sölulínur á grundvelli fyrirliggjandi verðlista
+#### Stofna sölulínur á grundvelli fyrirliggjandi verðlista
 
 1. Á síðunni **Vinnublað verðs** skal velja aðgerðina **Afrita línur**.
 2. Á síðunni **Verðlínur - Afrita fyrirliggjandi** skal velja fyrirliggjandi verðlista í reitnum **Úr verðlista**.
@@ -149,7 +149,7 @@ Til að bæta við nýjum verðum á síðunni **Verðyfirlit** skal nota aðger
 6. Velja **Í lagi**. Nýjum línum verður bætt við síðuna **Vinnublað verðs** með völdum stillingum.
 7. Breyta línunum sem eru búnar til með nýja einingarverðinu eða afsláttunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-copy-sales-prices"></a>Til að afrita söluverð
+## Til að afrita söluverð
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum „Núverandi upplifun“.
 
@@ -161,7 +161,7 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
 2. Velja skal **Leggja til söluverð á vinnublaði** Aðgerð  
 3. Á flýtiflipanum **Söluverð** skal færa þá **tegund sölu** og **kóta sölu** sem gilda í söluverðinu sem á að afrita inn í reitina.  
 4. Efst á beiðnisíðunni er fyllt út í reitunum **Tegund sölu** og **Kóta sölu** með gerðinni og heitinu sem afrita á söluverðið í.  
-5. Ef keyrslan á að búa til nýtt verð er gátreiturinn Stofna nýtt verð  **valinn** .  
+5. Eigi keyrslan að stofna nýtt verð er gátreiturinn **Stofna nýtt verð** valinn.  
 6. Veldu hnappinn **Í lagi** til að setja nýtt verð í línurnar á síðunni **Vinnublað söluverðs** með nýju verðtillögunum sem gefur til kynna að þau gildi fyrir þá tegund sölu sem var valin.  
 
    > [!NOTE]  
@@ -169,10 +169,10 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
 
 #### [Ný reynsla](#tab/new-experience/)  
 
-Hægt er að tilgreina stillingarnar sem verðlistinn mun nota:
+Hægt er að tilgreina stillingarnar sem verðlistinn á að nota:
 
-* Notaðu stillingarnar í hausnum á listanum sem þú ert að afrita.
-* Notaðu stillingarnar af listanum sem þú ert að afrita í. Til að nota stillingarnar úr verðlistanum sem þú afritar verðin í skaltu kveikja á **Nota sjálfgefið úr markmiði**.
+* Stillingarnar í hausnum eru notaðar á listanum sem verið er að afrita.
+* Stillingarnar af listanum sem verið er að afrita í eru notaðar. Til að nota stillingarnar úr verðlistanum sem þú afritar verðin í skaltu kveikja á **Nota sjálfgefið úr markmiði**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluverðlistar** og veldu síðan tengda tengilinn.
 2. Velja skal verðlistann sem á að afrita og velja síðan **Afrita línur**.
@@ -183,7 +183,7 @@ Hægt er að tilgreina stillingarnar sem verðlistinn mun nota:
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>Til að magnuppfæra vöruverð
+## Til að magnuppfæra vöruverð
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum „Núverandi upplifun“.
 
@@ -191,17 +191,17 @@ Hægt er að tilgreina stillingarnar sem verðlistinn mun nota:
 
 Til að uppfæra mörg vöruverð í einu, t.d. hækka öll verð um sömu prósentuna, er hægt að fylla út síðuna „Vinnublað söluverðs“ með því að nota eftirfarandi runuvinnslur:
 
-* **Leggja til söluverð á vinnublaði** Bendir til breytinga á annan af tveim leiðum:
+* **Leggja til söluverð á vinnublaði** Leggur til breytingar á annarri af tveimur leiðum:
 
-  * Með því að beita leiðréttingarstuðli að núverandi söluverði.
-  * Með því að afrita fyrirliggjandi samninga um söluverð til annarra viðskiptamanna, verðflokka viðskiptamanna eða söluherferðir.
+  * Með því að nota leiðréttingarstuðul við fyrirliggjandi söluverð.
+  * Með því að afrita fyrirliggjandi söluverðssamninga yfir á aðra viðskiptamenn, verðflokka viðskiptamanna eða söluherferðir.
 
-* **Leggja til vöruverð á vinnublaði** Bendir til breytinga á annan af tveim leiðum:
+* **Leggja til vöruverð á vinnublaði** Leggur til breytingar á annarri af tveimur leiðum:
 
-  * Með því að beita leiðréttingarstuðli á tiltækt einingarverð á birgðaspjöldum.
-  * Með því að leggja til verð fyrir nýjar samsetningar á gjaldmiðli, mælieiningar o. þ. frv.
+  * Með því að nota leiðréttingarstuðul við fyrirliggjandi einingarverð á birgðaspjöldum.
+  * Með því að leggja til verð fyrir nýjar samsetningar af gjaldmiðli, mælieiningum og svo fram vegar.
 
-  Þessi keyrsla breytir ekki einingarverði á vörum.  
+  Þessi keyrsla breytir ekki einingarverði vara.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.  
 2. Veldu **Leggja til vöruverð á vinnublaði** Aðgerð  
@@ -221,9 +221,9 @@ Til að uppfæra verð fyrir margar vörur þarf að búa til nýjam verðlista 
 
 ---
 
-## <a name="best-price-calculation"></a>Útreikningur besta verðs
+## Útreikningur besta verðs
 
-Þegar sérverð og línuafslættir fyrir sölu og innkaup hafa verið skráð mun [!INCLUDE[prod_short](includes/prod_short.md)] reikna út besta verðið á sölu- og innkaupaskjölum og á verk- og færslubókarlínum.
+Þegar búið er að skrá sérverð og línuafslátt fyrir sölu og innkaup [!INCLUDE[prod_short](includes/prod_short.md)]  skal reikna út besta verðið á sölu- og innkaupaskjölum og í verk- og birgðabókarlínum.
 
 Besta verðið er lægsta verðið með hæsta leyfilega línuafsláttinn á tilteknum degi. [!INCLUDE[prod_short](includes/prod_short.md)] reiknar út bestu verðin þegar það bætir einingarverðum og línuafsláttarprósentum við skjala- og færslubókarlínur.
 
@@ -234,7 +234,7 @@ Besta verðið er lægsta verðið með hæsta leyfilega línuafsláttinn á til
 
     * Er þessi viðskiptamaður með sérstakan samning um verð eða línuafslætti, eða tilheyrir viðskiptamaðurinn hóp með slíkan samning?
     * Fellur varan eða vöruafsláttarflokkurinn á línunni undir þessa samninga?
-    * Er dagsetningin innan upphafs-og lokadagsetningar verð-/afsláttarsamningsins? Fyrir reikninga og kreditreikninga er þetta dagsetningin í  **reitnum Bókunardags** . Fyrir öll önnur skjöl er dagsetningin í  **reitnum Pöntunardagsetning**  á hausum þeirra.
+    * Er dagsetningin innan upphafs- og lokadagsetningar verð-/afsláttarsamningsins? Fyrir reikninga og kreditreikninga er þetta dagsetningin í reitnum **Bókunardags** . í fylgiskjalshausnum. Fyrir öll önnur skjöl er það dagsetningin í reitnum **Pöntunardags** . á hausum þeirra.
     * Er mælieiningarkóti tilgreindur? Ef svo er leitar [!INCLUDE[prod_short](includes/prod_short.md)] að verði/línuafslætti með sama mælieiningarkóða og verði/afslætti án mælieiningarkóða.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] athugar hvort einhverjir verð-/afsláttarsamningar eigi við um upplýsingar í skjala- eða færslubókarlínunni. Síðan setur það inn viðeigandi einingarverð og línuafsláttarprósentu með því að nota eftirfarandi skilyrði:
@@ -244,7 +244,7 @@ Besta verðið er lægsta verðið með hæsta leyfilega línuafsláttinn á til
 
 Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Afslættir Sölureiknings og Þjónustugjöld
+## Afslættir Sölureiknings og Þjónustugjöld
 
 Þegar reikningsafslættir eru notaðir fer afslátturinn sem er veittur eftir því hve reikningsupphæðin er há. Á síðunni **Reikningsafsláttur viðskm** er einnig hægt að leggja þjónustugjald á reikninga sem eru yfir tiltekinni upphæð.  
 
@@ -266,11 +266,11 @@ Til viðbótar við eða í staðinn fyrir afsláttarprósentu er hægt að teng
 
 Frekari þjálfun í afsláttum í sölu er að finna í [Setja upp afslætti fyrir viðskiptamenn þína](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Reikna reikningsafslátt á sölu
+### Reikna reikningsafslátt á sölu
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Sölulínuafsláttur stofnaður fyrir viðskiptamann
+## Sölulínuafsláttur stofnaður fyrir viðskiptamann
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. Ef ekki er kveikt á eiginleikauppfærslunni skal fylgja þessum skrefum á flipanum „Núverandi upplifun“.
 
@@ -302,7 +302,7 @@ Frekari þjálfun í afsláttum í sölu er að finna í [Setja upp afslætti fy
 
 ---
 
-## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Að setja upp reikningsafslátt fyrir viðskiptamann
+## Að setja upp reikningsafslátt fyrir viðskiptamann
 
 Þegar búið er að ákveða hvaða viðskiptamenn geta fengið reikningsafslátt skal færa inn kóða reikningsafsláttar á viðskiptamannasíðunum. Settu síðan upp skilmálana fyrir hvern kóða.
 
@@ -321,7 +321,7 @@ Haltu áfram með uppsetningu nýrra afsláttarskilmála sölureiknings.
 4. Í reitnum **Afsláttar %** skal slá inn reikningsafslátt sem prósentu af reikningsupphæð.
 5. Endurtakið skref 5 til 7 fyrir alla gjaldmiðla sem viðskiptamaðurinn mun fá mismunandi reikningsafslátt í.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  

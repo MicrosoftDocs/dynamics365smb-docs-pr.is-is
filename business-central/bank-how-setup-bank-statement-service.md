@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Yodlee, feed, stream, payment process'
 ms.search.form: '1280, 1290'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Setja upp Envestnet Yodlee Bank Feeds þjónustu
+# Setja upp Envestnet Yodlee bankastraumsþjónustuna
 
 Hægt er að flytja inn rafræn bankayfirlit frá bankanum til að fylla fljótlega út síðuna **Greiðsluafstemmingarbók** þannig að hægt sé að jafna greiðslur og stemma af bankareikninginn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
@@ -18,39 +18,41 @@ Hægt er að flytja inn rafræn bankayfirlit frá bankanum til að fylla fljótl
 > Vegna tilskipunar um greiðsluþjónustu í Evrópu (PSD2), eftir 14. september 2019, verður ekki hægt að flytja sjálfkrafa bankayfirlit frá bönkum í Bretlandi inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Við bjóðum hugsanlega upp á þennan eiginleika aftur í framtíðinni.
 
 > [!NOTE]
-> Envestnet Yodlee Bank Feeds þjónustan er aðeins studd í netútgáfunni af Business Central. Til að nota þessa virkni á staðnum verður þú að verða þér út um vörumerkjareikning frá Envestnet og þú verður að bæta við kóða til að samþætta við Yodlee API.
+> Envestnet Yodlee Bank Feeds þjónustan er aðeins studd í netútgáfunni af Business Central. Þessi virkni er ekki studd fyrir útgáfur innanhúss af [!INCLUDE [prod_short](includes/prod_short.md)] eða fyrir [!INCLUDE [prod_short](includes/prod_short.md)] umhverfi sem hýst er í forritaþjónustu í Embed ISV. Ef nota á þessa aðgerð innanhúss þarf að fá samþættan reikning frá Envestnet og bæta þarf kóta við til að samþætta Yodlee API.
 >
 > Envestnet Yodlee Bank Feeds Þjónustan er aðeins studd í Bandaríkjunum og Kanada.
-> Aðeins búsettir banka í þessum löndum/regioins eru studd, jafnvel þó að Bankar frá öðrum löndum/svæðum gætu birst í  Envestnet Yodlee Bank Feeds  glugganum bankaval í [!INCLUDE[prod_short](includes/prod_short.md)].
+> Aðeins eru studdir bönkum sem búa í þessum löndum/svæðum þó að bankar frá öðrum löndum/svæðum kunni að birtast í Envestnet Yodlee Bank Feeds bankavalsglugganum í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]
 > Fyrir tæknilega aðstoð vegna virkni Envestnet Yodlee, hafðu samband við Microsoft Support. Ekki hafa samband við Envestnet Yodlee. Frekari upplýsingar eru í [Grunnstilling tæknilegrar aðstoðar Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
- Envestnet Yodlee Bank Feeds Þjónustan er sett upp sem framlenging  [!INCLUDE[prod_short](includes/prod_short.md)]  á netinu og er tilbúin til að vera virk í hinum studdu löndum/svæðum. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[prod_short](includes/prod_short.md)] Nota viðbætur](ui-extensions.md).
+Þjónustan Envestnet Yodlee Bank Feeds er sett upp sem viðbót við [!INCLUDE[prod_short](includes/prod_short.md)] netið og er tilbúin til virkjunar í studdum löndum/svæðum. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[prod_short](includes/prod_short.md)] Nota viðbætur](ui-extensions.md).
 
 Þegar búið að virkja bankastreymisþjónustu, verður að tengja bankareikning við netbankareikning sem streymið kemur úr. Þú býrð til tengla frá bankareikningum í netbankareikninga í mismunandi eftirfarandi aðstæður:
 
-* Bankareikning er ekki til í [!INCLUDE[prod_short](includes/prod_short.md)] fyrir netbankareikning þinn. Því er stofnarðu bankareikning með því að búa til tengil úr netbankareikningi.
+* Bankareikningur er ekki til í [!INCLUDE[prod_short](includes/prod_short.md)] netbankareikningnum. Því er stofnarðu bankareikning með því að búa til tengil úr netbankareikningi.
 * Bankareikningur er til staðar í [!INCLUDE[prod_short](includes/prod_short.md)], sem þú vilt tengja við netbankareikning.
 * Tengdar bankareikning þarf að aftengja af því þú vilt hætta að nota bankastreymisþjónustuna fyrir reikninginn..
 * Netbankareikningar hafa breyst og þú vilt uppfæra upplýsingarnar um bankareikninga í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Þegar bankastreymisþjónustan er virkjuð, geturðu sett upp bankareikning til að flytja sjálfvirkt inn nýja bankayfirlitin á síðuna **Greiðsluafstemmingarbók** á tveggja tíma fresti. Færslur fyrir greiðslur sem þegar hafa verið bókaðar sem jöfnuð og/eða stemmt af á síðunni **Greiðsluafstemmingarbók** verða ekki fluttar inn. Sjá frekari upplýsingar í “Til að virkja sjálfvirkan innflutning bankayfirlits” hlutann.
+Þegar þjónusta bankastraums er virk má setja upp bankareikning til að flytja ný bankayfirlit sjálfkrafa inn á síðuna **Greiðsluafstemmingarbók** á tveggja tíma fresti. Færslur fyrir greiðslur sem þegar hafa verið bókaðar sem jafnaðar og/eða afstemmdar á síðunni **Greiðsluafstemmingarbók verða ekki fluttar** inn. Sjá frekari upplýsingar í “Til að virkja sjálfvirkan innflutning bankayfirlits” hlutann.
 
 > [!NOTE]  
 > Ef þú notar uppsetningarleiðbeiningar með hjálp í Setja upp fyrirtæki, þá geta sum skrefin í ferlunum sem fylgja þar á eftir gerst sjálfvirkt þegar þú ert kominn í uppsetninguna fyrir bankareikning fyrirtækis. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).
 
-## <a name="to-enable-the-bank-feed-service"></a>Til að virkja bankastreymisþjónustu
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
-2. Opnið bankareikning sem á að nota fyrir bankastreymisþjónustuna.
-3. Á síðunni **Bankareiknings** á **Innflutningssnið bankayfirlits** er valinn YODLEEBANKFEED .  
+## Til að virkja bankastreymisþjónustu
 
-Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við tendan netbankareikning. Sjá næsta ferli..  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
+2. Opnaðu bankareikninginn sem þú munt nota fyrir bankastraumsþjónustuna.
+3. Á síðunni **Bankareikningsspjald** í reitnum **Innflutningssnið** bankayfirlits er YODLEEBANKFEED valið.  
+
+Bankastraumsþjónustan er virk þegar bankareikningur er tengdur við tengdan netbankareikning. Sjá næsta ferli..  
 
 > [!NOTE]
 > Ef þú notar uppsetningarleiðbeiningarnar **Uppsetning fyrirtækis** með hjálp, virkjar þú þjónustuna með því að velja gátreitinn **Nota bankastreymisþjónustu**. Frekari upplýsingar eru í [Stofna ný fyrirtæki í Business Central](about-new-company.md).
 
-## <a name="to-create-a-new-linked-bank-account"></a>Stofna nýjan tengdan bankareikning
+## Stofna nýjan tengdan bankareikning
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Valinn er viðeigandi bankareikningur og síðan valið **stofna nýjan tengdan bankareikning**. **Stofnun tengla fyrir Bankareiknings** síðan opnast eftir smá stund.
 
@@ -58,7 +60,7 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
     > Þessi síða sýnir raunverulega vefsíðu fyrir Envestnet Yodlee Bank Feeds þjónustuna. Hugtök og virkni á síðunni mega ekki vera þau sömu og í þessu efnisatriði.  
 3. Á síðunni **Stofnun tengla fyrir netbankareikninga** á flipanum **Tengja Reikning** skal nota leitaraðgerðina til að finna banka þar sem þú ert með einn eða fleiri netbankareikninga.
 4. Veljið nafn banka. **Skrá inn** svæðinu opnast.
-5. Sláðu inn notandanafn og aðgangsorð sem er notuð til að skrá inn í netbanka og velja síðan **Næst** hnapp.  
+5. Færa skal inn notandanafn og aðgangsorð sem notað er til að skrá sig inn í netbanka og velja svo hnappinn **Áfram** .  
 6. Bankastreymisþjónusta undirbýr að tengja fyrsta netbankareikning á tilgreindum banka í nýja bankareikninginn í [!INCLUDE[prod_short](includes/prod_short.md)].
 
     > [!NOTE]  
@@ -67,9 +69,9 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
     Þegar vinnslunni er lokið, birtist bankaheitið í **Mínir reikningar** svæðinu á **Tengt** flipanum. Númerið í svigunum gefur til kynna hversu margir netbankareikningar voru tengdir.  
 7. Velja hnappinn **Í lagi**.
 
-    Ef aðeins er verið að tengja einn netbankareikning mun síðan **Bankareikningsspjald** opnast og birta heiti netbankareikningsins. Í þessu tilfelli er tenging bankareiknings lokið. Allt sem er eftir er að setja upp bankareikninginn. Nánari upplýsingar um það eru í [Setja upp bankareikninga](bank-how-setup-bank-accounts.md).
+    Ef aðeins einn netbankareikningur **er tengdur opnast síðan Bankareikningsspjald** og birtir nafn netbankareikningsins. Í þessu tilfelli er tenging bankareiknings lokið. Allt sem er eftir er að setja upp bankareikninginn. Nánari upplýsingar um það eru í [Setja upp bankareikninga](bank-how-setup-bank-accounts.md).
 
-    Ef fleiri en einn netbankareikningur eru tengdir mun síðan **Tenglar fyrir bankareikning** opnast og sýna skrár yfir netbankareikninga sem eru enn ekki tengdir við bankareikninga í [!INCLUDE[prod_short](includes/prod_short.md)]. Í því tilviki, fylgið næsta skrefi.  
+    Ef fleiri en einn netbankareikningar **eru tengdir opnast síðan Tenging** bankareikninga og birtir lista yfir netbankareikninga sem ekki hafa enn verið tengdir bankareikningum í [!INCLUDE[prod_short](includes/prod_short.md)]. Í því tilviki, fylgið næsta skrefi.  
 8. Á síðunni **Stofnun tengla fyrir bankareikning** skal velja línuna fyrir netbankareikning, og velja síðan **tengja í Nýr Bankareikningur** aðgerð.  
 
     Síðan **Bankareikningsspjald** fyrir nýjan bankareikning opnast og sýnir nafn netbankareikningsins.
@@ -78,11 +80,12 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
 9. Á síðunni **Stofnun tengla fyrir bankareikning** skal velja línuna fyrir netbankareikning, og velja síðan **tengja í fyrirliggjandi Bankareikningur** aðgerð.
 10. Á síðunni **Listi yfir bankareikninga** er valinn bankareikningur sem á að tengja við og smellt á **Í lagi**.
 
-## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Til að tengja bankareikning í netbankareikning
+## Til að tengja bankareikning í netbankareikning
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
-2. velja línuna fyrir bankareikning sem er ekki tengdur við netbankareikningur, og velja síðan **tengja í netbankareikning** aðgerð. Síðan **Stofnun tengla fyrir netbankareikning** opnast með heiti bankans sem var forútfylltur í svæðinu **Tengja reikning**.
+2. Velja skal línuna fyrir bankareikning sem ekki er tengdur netbankareikningi og velja svo aðgerðina **Tengja við netbankareikning** . Síðan **Stofnun tengla fyrir netbankareikning** opnast með heiti bankans sem var forútfylltur í svæðinu **Tengja reikning**.
 3. Veljið nafn banka. **Skrá inn** svæðinu opnast.
-4. Sláðu inn notandanafn og aðgangsorð sem er notuð til að skrá inn í netbanka og velja síðan **Næst** hnapp.  
+4. Færa skal inn notandanafn og aðgangsorð sem notað er til að skrá sig inn í netbanka og velja svo hnappinn **Áfram** .  
 
     Bankastreymisþjónusta undirbýr að tengja bankareikning í [!INCLUDE[prod_short](includes/prod_short.md)] við viðkomandi netbankareikning.  
 
@@ -91,25 +94,29 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
 
 Á síðunni **Bankareikningayfirlit** er valinn **tengt** gátreiturinn .
 
-## <a name="to-edit-the-credentials-for-an-online-bank-account"></a>Að breyta innskráningarupplýsingum fyrir netbankareikning
+## Að breyta innskráningarupplýsingum fyrir netbankareikning
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.  
 2. Veldu línuna fyrir bankareikning sem er tengdur við netbankareikning og veldu síðan aðgerðina **Breyta upplýsingum netbankareiknings**.
 3. Uppfærið skilríki.
 
-## <a name="to-unlink-a-bank-account"></a>Að Aftengja bankareikningi
+## Að Aftengja bankareikningi
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.  
 2. Velja línuna fyrir tengdar bankareikning sem á að aftengja frá sínum tengda netbankareikningi, og velja síðan **aftengja frá netbankareikning** aðgerð.
 
 > [!NOTE]  
 > Ef þú velur **Já** í staðfestingarglugganum, er tengillinn í netbankareikninginn fjarlægður, og innskráningarupplýsingar eru þurrkaðar út. Til að tengja bankareikning við netbankareikning aftur verðurðu að skrá þig inn í bankann aftur. Nánari upplýsingar er að finna í “Til að tengja bankareikning í netbankareikning“ hlutanum.
 
-## <a name="to-update-bank-account-linking"></a>Uppfæra tengla bankareikninga
+## Uppfæra tengla bankareikninga
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Valinn er viðeigandi bankareikningur og síðan valið **uppfæra tengla bankareiknings** aðgerðina.
 
 Ef vandamál eru til staðar fyrir tengdu bankareikninga á síðunni **Bankareikningayfirlit** opnast **Stofnun tengla fyrir bankareikninga** og tilgreinir hvaða bankareikningar hafa verið vandamál. Vandamál má besta leyst með því að aftengja netbankareikninginn og síðan endurstofna tengilinn. Nánari upplýsingar er að finna í “Til að tengja bankareikning í netbankareikning“ hlutanum.
 
-## <a name="to-enable-automatic-import-of-bank-statements"></a>Til að virkja sjálfvirkan innflutning bankayfirlits
+## Til að virkja sjálfvirkan innflutning bankayfirlits
+
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Veldu línuna fyrir tengdu bankareikningur og síðan valið **uppsetning sjálfvirks innflutnings bankayfirlits** aðgerð.
 3. Á síðunni **uppsetning sjálfvirks innflutnings bankayfirlits** glugga í á **Fjöldi daga innifalið** reitnum, er tilgreint hversu langt aftur í tíma á að fá nýjar bankafærslur fyrir.
@@ -123,11 +130,12 @@ Ef vandamál eru til staðar fyrir tengdu bankareikninga á síðunni **Bankarei
 > [!NOTE]  
 > Færslur fyrir greiðslur sem þegar hafa verið bókaðar sem jöfnuð og/eða stemmt af á síðunni **Greiðsluafstemmingarbók** verða ekki fluttar inn.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
+
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum ](ui-extensions.md)  
+[Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -1,19 +1,19 @@
 ---
-title: Taka við og umbreyta rafræn skjölum
-description: Þetta efnisatriði lýsir því hvernig á að fá rafræn skjöl beint frá viðskiptafélögum eða frá OCR-þjónustu.
+title: Móttaka og umbreyta rafrænum skjölum
+description: Þessi grein lýsir því hvernig á að taka á móti rafrænum skjölum beint frá viðskiptafélögum eða frá OCR-þjónustu.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
-ms.date: 06/23/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Taka við og umbreyta rafræn skjölum
+# Móttaka og umbreyta rafrænum skjölum
 
 > [!NOTE]
-> Efni í þessari grein á aðeins við um útgáfur af  Dynamics 365 Business Central  sem losaðar voru áður 2023 út bylgju 2. Í 2023 útgáfu Wave 2 er ný virkni fyrir E-skjöl innifalin. Sjá  [Setja upp e-Documents til að fá frekari upplýsingar](finance-how-setup-edocuments.md). 
+> Efni þessa greinar á aðeins við um útgáfur Dynamics 365 Business Central sem voru gefnar út fyrir 2023 útgáfubylgju 2. Í 2023 útgáfubylgju 2 er ný virkni fyrir E-skjöl innifalin. Nánari upplýsingar eru í [Setja upp tölvupóstskjöl](finance-how-setup-edocuments.md). 
 
 
 Almenn útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Til að taka á móti reikningur frá lánardrottinn sem rafrænu PEPPOL-skjali er skjalið unnið á síðunni Fylgiskjal á innleið til að breyta því í innkaupareikning eða almenna færslubókarlínu í [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -26,7 +26,7 @@ Auk þess að fá rafræn skjöl beint úr viðskiptafélögum geturðu fengið 
 
 Umferð rafrænna skjala í og ​​úr [!INCLUDE[prod_short](includes/prod_short.md)] er stjórnað af verkraðareiginleikanum. Áður en þú getur fengið rafræn skjöl þarf viðkomandi verkröð að hefjast.  
 
-Þú getur annað hvort byrjað umbreytingu á rafrænum skjölum handvirkt, eins og lýst er í þessari aðferð, eða virkjað verkflæði til að umbreyta rafrænum skjöl sjálfkrafa þegar þau berast. Almenn útgáfa af [!INCLUDE[prod_short](includes/prod_short.md)] verkflæðissniðmátið *Úr rafrænu skjali á innleið gegnum OCR í verkflæði opins innkaupareiknings*, sem afrita má í verkflæði og virkja. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
+Annaðhvort er hægt að hefja umbreytingu rafrænna skjala handvirkt, eins og lýst er í þessu ferli, eða gera verkflæði kleift að umbreyta rafrænum skjölum sjálfkrafa þegar þau eru móttekin. Almenn útgáfa af [!INCLUDE[prod_short](includes/prod_short.md)] verkflæðissniðmátið *Úr rafrænu skjali á innleið gegnum OCR í verkflæði opins innkaupareiknings*, sem afrita má í verkflæði og virkja. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
 > [!NOTE]  
 > Þegar rafrænum skjölum sem koma úr OCR-þjónustu er breytt í skjöl eða færslubókarlínur í [!INCLUDE[prod_short](includes/prod_short.md)] verður mörgum línum í upprunaskjalinu safnað saman í eina línu. Staka línan verður af gerðinni fjárhagsreikningur og **Lýsing** og **Nr.** (fjárhagsreiknings) reitir verða auðir. Gildið í reitnum **Upphæð** verður heildarupphæð, fyrir utan VSK, allra lína í upprunaskjalinu.  
@@ -37,7 +37,7 @@ Umferð rafrænna skjala í og ​​úr [!INCLUDE[prod_short](includes/prod_sho
 
 Eftirfarandi ferli lýsir því hvernig á að taka við lánardrottinsreikningi og breyta honum í staðlaðan innkaupareikning í [!INCLUDE[prod_short](includes/prod_short.md)]. Aðferðin er sú sama og þegar reikningi lánardrottins er breytt í færslubókarlínu.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Til að taka við og umbreyta rafrænum reikningi í innkaupareikning.
+### Til að taka við og umbreyta rafrænum reikningi í innkaupareikning.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Skjöl á innleið** og velja síðan viðkomandi tengil.  
 
@@ -55,7 +55,7 @@ Eftirfarandi ferli lýsir því hvernig á að taka við lánardrottinsreikningi
 
     Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum gögnum í [!INCLUDE[prod_short](includes/prod_short.md)], verða sýndar á flýtiflipanum **Villuboð**.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Skjöl á innleið](across-income-documents.md)  

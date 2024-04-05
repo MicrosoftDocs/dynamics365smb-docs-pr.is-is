@@ -1,27 +1,27 @@
 ---
-title: Sameina móttökur í einn reikning
+title: Sameina móttökur á einum reikningi
 description: Ef reikningsfæra á fleiri en eina innkaupamóttöku í einu er hægt að nota aðgerðina sameinaðar móttökur.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '136, 145, 146, 9308'
-ms.date: 08/03/2022
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a>Sameina móttökur í einn reikning
+# Sameina móttökur á einum reikningi
 
 Ef reikningsfæra á fleiri en eina innkaupakvittun í einu er hægt að velja margar móttökulínur í innkaupareikningnum.  
 
 Áður en hægt er að búa til sameinaða innkaupamóttöku, þarf að vera búið að bóka fleiri en eina móttöku frá sama lánardrottininn í sama gjaldmiðlinum. Það er að segja, það þarf að vera búið að fylla út tvær eða fleiri innkaupapantanir og bóka þær sem mótteknar en ekki reikningsfærðar.  
 
-Þegar innkaupareikningar eru sameinaðir og bókaðir á reikningi, er bókaður innkaupareikningur stofnaður fyrir reikningslínu(r). Reiturinn **Reikningsfært magn** á upprunalegri innkaupapöntun eða standandi innkaupapöntun er uppfærður á grundvelli reikningsfærða magnsins. Hins vegar er upprunalega innkaupaskjalinu ekki eytt jafnvel þó það hafi verið móttekið og reikningsfært að fullu og því verður að eyða innkaupaskjalinu.  
+Þegar innkaupareikningar eru sameinaðir og bókaðir á reikningi, er bókaður innkaupareikningur stofnaður fyrir reikningslínu(r). Reiturinn **Reikningsfært magn** á upprunalegri innkaupapöntun eða standandi innkaupapöntun er uppfærður á grundvelli reikningsfærða magnsins. Upprunalega innkaupaskjalinu er hins vegar ekki eytt þó að það hafi verið móttekið og reikningsfært að fullu og því þarf að eyða innkaupaskjalinu.  
 
 > [!NOTE]
 > Ekki er hægt að leiðrétta eða hætta við innkaupareikninginn síðar. Ef ætlunin er að breyta innkaupareikningi sem er búinn til á þennan hátt verður að nota innkaupakreditreikninga. Nánari upplýsingar er að finna [Ógreiddir innkaupareikningar leiðréttir eða afturkallaðir](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
-## <a name="to-combine-receipts"></a>Sameining móttakna:
+## Sameining móttakna:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).  
@@ -31,7 +31,7 @@ Ef reikningsfæra á fleiri en eina innkaupakvittun í einu er hægt að velja m
     Ef röng móttökulína var valin eða byrja á upp á nýtt er einfaldlega hægt að eyða línunum í innkaupareikningum og nota aftur aðgerðina **Sækja móttökulínur**.  
 5. Til að bóka reikningur er valið aðgerðin **bóka**.  
 
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Til að fjarlægja opnar innkaupapantanir eftir bókun sameinaðrar móttöku
+## Til að fjarlægja opnar innkaupapantanir eftir bókun sameinaðrar móttöku
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eyða reiknf. innkaupapöntunum** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
@@ -41,7 +41,7 @@ Að öðrum kosti skal eyða einstökum pöntunum handvirkt.
 
 Skref 1 til 3 eru endurtekin fyrir öll skjöl sem urðu fyrir áhrifum, eins og auðar innikaupapantanir.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  
 [Leiðrétta eða afturkalla ógreidda innkaupareikninga](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
