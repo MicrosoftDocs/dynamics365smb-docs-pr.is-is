@@ -11,7 +11,7 @@ ms.date: 08/03/2022
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Setja saman í verk
+# <a name="assemble-to-project"></a>Setja saman í verk
 
 Með samsetningu verkefnis er auðveldara að bæta birgðastjórnun með því að setja aðeins saman pöntun þegar þess er krafist.
 
@@ -19,7 +19,7 @@ Með samsetningu verkefnis er auðveldara að bæta birgðastjórnun með því 
 
 Samsetningarpantanir eru fráteknar fyrir verk og [!INCLUDE [prod_short](includes/prod_short.md)] samstillir vörurakningu milli verkáætlunarlína og samsetningarpöntunar.
 
-## Samþætt við vöruhúsakerfi
+## <a name="integrate-with-warehouse-management"></a>Samþætt við vöruhúsakerfi
 
 Setja saman við verkefni sem er samþætt vöruhúsakerfisaðgerðum til að auðvelda samsetningu og afhendingu. Ferlið hjálpar einnig til við að tryggja að flæðið frá verksamsetningu til afhendingar keyrist vel í vöruhúsaferlum innanhúss. Nánari upplýsingar um vöruhúsaflæði innanhúss fyrir verkefni er farið í [Flæði fyrir framleiðslu, samsetningu og verk](design-details-internal-warehouse-flows.md#flows-to-and-from-assembly-in-a-basic-warehouse-configuration).
 
@@ -31,7 +31,7 @@ Eftirfarandi tafla lýsir vöruhúsagrunnstillingunum sem settar eru saman í pa
 |**Birgðatínsla**|Nota birgðatínslu til að bóka fulla eða að hluta notkun. Frálag og notkun íhluta bókast sjálfkrafa fyrir samsetningarpöntunina.          |
 |**Vöruhúsatínsla**|Stofna og skrá vöruhúsatínslur fyrir íhluti og nota síðan verkbók til að bóka notkun. [!INCLUDE [prod_short](includes/prod_short.md)] staðfestir hvort notaðir samsetningaríhlutir hafi verið tíndir. Frálag og notkun íhluta bókast sjálfkrafa fyrir samsetningarpöntunina.         |
 
-## Þekktar takmarkanir
+## <a name="known-limitations"></a>Þekktar takmarkanir
 
 Í þessum hluta er lýst þekktum takmörkunum sem settar eru saman við verkefni.
 
@@ -42,7 +42,7 @@ Eftirfarandi tafla lýsir vöruhúsagrunnstillingunum sem settar eru saman í pa
 * Ekki er hægt að færa inn neikvætt magn í reitinn **Magn til samsetningar á pöntun** .
 * Ekki er hægt að afturkalla samsetningu.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Samsetningardeild](assembly-assemble-items.md)  

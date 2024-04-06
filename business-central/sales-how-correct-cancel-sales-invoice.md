@@ -10,7 +10,7 @@ ms.date: 03/05/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Leiðrétta eða hætta við ógreidda sölureikninga
+# <a name="correct-or-cancel-unpaid-sales-invoices"></a>Leiðrétta eða hætta við ógreidda sölureikninga
 
 Hægt er að leiðrétta eða hætta við ógreiddan bókaðan sölureikning ef hann hefur ekki verið afhentur að fullu. Þetta er gagnlegt þegar mistök eiga sér stað eða ef viðskiptamaðurinn biður um breytingu áður en sendingu er lokið. Í öllum öðrum tilvikum er mælt með því að stofna leiðréttan sölukreditreikning beint. Frekari upplýsingar eru í [Að stofna nýjan sölukreditreikning úr bókuðum sölureikningi](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).  
 
@@ -30,7 +30,7 @@ Mismuninum á því að hætta við eða leiðrétta bókaðan sölureikning sem
 > [!TIP]
 > Ef búið er að bóka fyrirframgreiðslureikning fyrir sölureikning sem þá þú leiðréttir svo eða hættir við verður einnig að leiðrétta eða hætta við fyrirframgreiðsluna. Frekari upplýsingar eru í [Leiðrétta fyrirframgreiðslur](finance-how-to-correct-prepayments.md).
 
-## Bókaður sölureikningur afturkallaður
+## <a name="to-cancel-a-posted-sales-invoice"></a>Bókaður sölureikningur afturkallaður
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðir sölureikningar** og velja síðan viðkomandi tengil.  
 2. Veljið bókaða sölureikninginn sem á að afturkalla.
@@ -42,11 +42,11 @@ Mismuninum á því að hætta við eða leiðrétta bókaðan sölureikning sem
     Sölukreditreikningur er búinn til sjálfkrafa og bókaður til að ógilda upphaflega bókaða sölureikninginn. Reiturinn **hætt við** á hinum upphaflega bókaða sölureikningi er breytt í **Já**.
 4. Velja **sýna leiðréttan kreditreikning** til að skoða bókaða sölukreditreikninginn sem ógildir upphaflega bókaða sölureikninginn.
 
-### Takmörkuð bókun reiknings er einnig studd
+### <a name="partial-invoice-posting-also-supported"></a>Takmörkuð bókun reiknings er einnig studd
 
 Ef Afturköllunin tengist takmarkaðri bókun á reiknings er upprunaleg sölupöntunarlína uppfærð til að endurspegla afturkallað Reikningsfært magn. Reitirnir **Magn til reikningsf.** og **Reikn.fært magn** á tengdri sölupöntunarlínu er endurstilltir á gildin fyrir takmarkaða bókun.
 
-## Bókaður sölureikningur leiðréttur
+## <a name="to-correct-a-posted-sales-invoice"></a>Bókaður sölureikningur leiðréttur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðir sölureikningar** og velja síðan viðkomandi tengil.  
 2. Veljið bókaða sölureikninginn sem á að leiðrétta.
@@ -62,7 +62,7 @@ Ef Afturköllunin tengist takmarkaðri bókun á reiknings er upprunaleg sölup�
     Sölukreditreikningur er búinn til sjálfkrafa og bókaður til að ógilda upphaflega bókaða sölureikninginn.
 5. velja **sýna leiðréttan kreditreikning** aðgerðina til að skoða bókaða sölukreditreikninginn sem ógildir upphaflega bókaða sölureikninginn.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

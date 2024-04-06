@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Vinna með eignir
+# <a name="manage-fixed-assets"></a>Vinna með eignir
 
 Í kerfishlutanum Eignir í [!INCLUDE[prod_short](includes/prod_short.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
 
-## Myndbandsyfirlit
+## <a name="video-overview"></a>Myndbandsyfirlit
 
 Eftirfarandi myndband fjallar um grunnatriði eigna:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Yfirlit yfir eignir
+## <a name="fixed-assets-overview"></a>Yfirlit yfir eignir
 
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Síðan getur hafist komast yfir, viðhalda og selja eignir. Hægt er einnig að setja upp áætlaðar eignir. Með fjárhagsáætlun er hægt að taka með fyrirsjáanlega kaup og sölu í skýrslum.
 
@@ -46,7 +46,7 @@ Hægt er að tengja hverja eign einum eða fleiri vátryggingarskilmálum og san
 > [!NOTE]  
 > Hægt er að skrá eignafærslur á síðunni **Fjárhagsbók eigna** eða á síðunni **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á síðuna **Fjárhagsbók eigna**. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
 
-## Hvernig á að nota eignir
+## <a name="how-to-use-fixed-assets"></a>Hvernig á að nota eignir
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
@@ -64,7 +64,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 | Stjórna fjárhagsáætlana eigna, áætlun stofnkostnaðar, áætlun afskráninga eigna og áætlun afskrifta. |[Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md) |
 | Fræðast meira um innbyggða skýrslugerð og greiningargetu eigna. | [Skýrslur og greiningar eigna](fa-reports.md) |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning eigna](fa-setup.md)  
 [Yfirlit yfir Fjármál](finance.md)  

@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Kynning á grunnverkum
+# <a name="walkthrough-of-basic-jobs"></a>Kynning á grunnverkum
 
 Þessi kynning sýnir nokkur kjarnaferli:
 
@@ -16,13 +16,13 @@ ms.service: dynamics-365-business-central
 - Skrá kostnað tíma og efnis í verk
 - Reikningsfæra verk
 
-## Verkhluta bætt við
+## <a name="adding-a-project-task"></a>Verkhluta bætt við
 
-### Aðstæður  
+### <a name="scenario"></a>Aðstæður
 
 Simon, verkefnastjóri, vill að skrá þurfi tíma sem kennir viðskiptamanninum hvernig á að nota espresso vélarvöruna. Simon vill nota sérstakan verkhluta í verkinu til að setja upp verkvél á staðnum.
 
-### Skref
+### <a name="steps"></a>Skref
 
 1. Verkhlutinn er stofnaður.
 
@@ -38,17 +38,17 @@ Simon, verkefnastjóri, vill að skrá þurfi tíma sem kennir viðskiptamanninu
    1. Á svæðinu Verkhlutar skal finna aðgerðina **Inndráttur** verkhluta.
    2. Staðfesta þarf inndrátt verkhluta með því að **velja Já**.
 
-### Niðurstöður
+### <a name="results"></a>Niðurstöður
 
  - Nú er hægt að skrá tíma og kostnað á nýja verkhlutann
 
-## Skrá tíma- og efniskostnað við verk
+## <a name="record-time-and-material-expenses-to-a-project"></a>Skrá tíma- og efniskostnað við verk
 
-### Aðstæður  
+### <a name="scenario-1"></a>Aðstæður
 
 Edgin, tæknimaður sem setur vélina upp, þarf að skrá tímann og efnið sem notað er við uppsetningu verksins fyrir innheimtu. Edgin bætti þegar við ferðalögunum og efninu og þarf nú að bæta við tímann fyrir kennslu starfsfólks hvernig á að nota vélina.
 
-### Skref
+### <a name="steps-1"></a>Skref
 
 1. Stofna viðbótarverkbókarlínur.
 
@@ -64,20 +64,20 @@ Edgin, tæknimaður sem setur vélina upp, þarf að skrá tímann og efnið sem
    1. Valið er **Bóka** aðgerðin.
    2. Æskir notanda um að bóka línurnar með því að **velja Já**.
 
-### Niðurstöður
+### <a name="results-1"></a>Niðurstöður
 
 - Verkfærslur og Forðafærslur af tegundinni *Notkun* eru stofnaðar.
 - Birgðafærslur eru stofnaðar til að leiðrétta birgðirnar neikvætt.
 - Á Verkspjaldinu sýnir Kostnaður og Verð á verkhlutasvæðinu nýju stöðuna sem bíða reikningsfærslu.
 - Upplýsingakassinn fyrir verk sýnir samtölur verðsins á Verkspjaldinu.
 
-## Stofnun sölureiknings fyrir verk
+## <a name="creating-a-sales-invoice-for-a-project"></a>Stofnun sölureiknings fyrir verk
 
-### Aðstæður  
+### <a name="scenario-2"></a>Aðstæður
 
 Simon þarf að stofna og bóka reikning sem senda á til viðskiptavinarins með tíma og kostnaði frá verkefninu.
 
-### Skref
+### <a name="steps-2"></a>Skref
 
 1. Sölureikningurinn er stofnaður.
 
@@ -92,7 +92,7 @@ Simon þarf að stofna og bóka reikning sem senda á til viðskiptavinarins me�
    2. Síðasti reikningurinn er valinn til að opna hann til endurskoðunar.
    3. Valið er **Bóka** aðgerðin.
 
-### Niðurstöður
+### <a name="results-2"></a>Niðurstöður
 
 - Verkfærslur og forðafærslur af tegundinni *Sala* eru stofnaðar.
 - Á Verkspjaldinu sýnir Kostnaður og Verð á verkhlutasvæðinu nýju reikningsfærðu stöðuna.

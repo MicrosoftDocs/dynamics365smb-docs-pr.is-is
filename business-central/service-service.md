@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Þjónustukerfi
+# <a name="service-management"></a>Þjónustukerfi
 > [!NOTE]
 > Virkni sem lýst er í þessu efni og undirviðfangsefni er aðeins sýnilegt í notendaviðmótinu ef þú hefur **Úrvals** upplifun. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
@@ -35,7 +35,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stofna og stjórna samningssamkomulagi á milli þín og þinna viðskiptamanna.|[Uppfylla þjónustusamninga](service-fulfill-service-contracts.md)|  
 |Bjóða upp á þjónustu til handa viðskiptamönnum og reikningsfæra þjónustupantanir.|[Þjónustuafhending](service-deliver-service.md)|  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 [Stjórnun útistandandi reikninga](receivables-manage-receivables.md)   
 [Verk](projects-how-create-jobs.md)   
 [Velkomin í [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
