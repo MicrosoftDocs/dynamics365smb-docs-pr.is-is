@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Yfirlit yfir sjálfbærnistjórnun
+# Yfirlit yfir sjálfbærnistjórnun
 
 >[!IMPORTANT]
 >Þessi eiginleiki verður í boði í Business Central frá **2024 útgáfubylgjunni 1** og allir tilvísunartenglar verða virkjaðir þegar þeir eru tiltækir.
@@ -43,7 +43,7 @@ Til að byrja með Sjálfbærnistjórnun má sjá eftirfarandi greinar.
 |Hvernig á að skrá losun | Nota þessa grein til að læra hvernig á að vinna með allar tegundir sjálfbærnibóka. |
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .  
 [Fjármál](finance.md)    
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

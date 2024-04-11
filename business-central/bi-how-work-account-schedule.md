@@ -11,13 +11,13 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial re
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Undirbúa fjárhagsskýrslugerð með fjárhagsgögnum og lykilflokkum
+# Undirbúa fjárhagsskýrslugerð með fjárhagsgögnum og lykilflokkum
 
 Eiginleikinn **Ársskýrslur** veitir innsýn í fjárhagsgögnin sem birtast í bókhaldslyklinum (COA). Hægt er að setja upp fjárhagsskýrslur til að greina tölur á fjárhagsreikningum og bera saman fjárhagsfærslur og áætlunarfærslur. Niðurstöðurnar birtast í myndritum og skýrslum í Hlutverkamiðstöðinni, t.d. sjóðstreymisritinu og rekstrarreikningi og efnahagsskýrslum. Þessar tvær skýrslur eru opnaðar, til dæmis með aðgerðinni **Ársreikningar** á heimasíðum viðskiptastjóra og endurskoðanda.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] veitir sýnishorn fjárhagsskýrslna sem hægt er að nota strax sem sniðmát. Einnig er hægt að setja upp eigin skýrslur til að tilgreina tölurnar sem á að bera saman. Til dæmis er hægt að stofna fjárhagsskýrslur til að reikna út hagnaðarhlutfall með því að nota víddir eins og deildir eða viðskiptavinaflokka. Fjöldi fjárhagsskýrslna sem hægt er að búa til er ótakmarkaður og þarfnast ekki þátttöku forritara.  
 
-## <a name="prerequisites-for-financial-reporting"></a>Skilyrði fyrir fjárhagsskýrslugerð
+## Skilyrði fyrir fjárhagsskýrslugerð
 
 Uppsetning fjárhagsskýrslna krefst skilnings á skipulagi bókhaldslykilsins. Það eru þrjú lykilhugtök sem líklega þarf að vekja athygli á áður en fjárhagsskýrslurnar eru hannaðar:
 
@@ -31,7 +31,7 @@ Með uppsetningu vídda er hægt að sneiða og teninga fjárhagsgögnin á þan
 
 Ef skoða á fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum þarf að búa til fjárhagsáætlanir. Frekari upplýsingar eru á [Stofna fjárhagsáætluanir](finance-how-create-budgets.md).
 
-## <a name="financial-reports"></a>Fjárhagsskýrslur
+## Fjárhagsskýrslur
 
 Fjárhagsskýrslur raða reikningum úr bókhaldslyklum þínum á þann hátt sem auðveldar framsetningu gagna. Hægt er að setja upp margvísleg útlit til að skilgreina upplýsingarnar á að finna í bókhaldslyklinum. Fjárhagsskýrslur koma einnig fram staður fyrir útreikninga sem ekki er hægt að gera beint í bókhaldslyklinum. Til dæmis er hægt að búa til millisamtölur fyrir reikningsflokka og setja þær inn í aðrar samtölur Annað dæmi er að reikna út hagnaðarhlutfall á víddum eins og deildum eða viðskiptavinaflokkum. Þar að auki getur þú síað fjárhagsfærslur og fjárhagsáætlanafærslur, t.d. eftir nettóbreytingum eða debetupphæð.
 
@@ -63,13 +63,13 @@ Einnig er hægt að nota reiknireglur til að bera saman tvær eða fleiri fjár
 * Búa til eins mörg fjárhagsskýrslur og þú þarft, hver með einkvæmt heiti.
 * Búa til uppsetningu skýrslu og prenta út skýrslurnar með núverandi tölum.
 
-## <a name="learning-path-create-financial-reports-in-microsoft-dynamics-365-business-central"></a>Námsslóð: Búa til fjárhagsskýrslur í Microsoft Dynamics 365 Business Central
+## Námsslóð: Búa til fjárhagsskýrslur í Microsoft Dynamics 365 Business Central
 
 Viltu fræðast um hvernig á að stofna áætlanir og nota síðan fjárhagsskýrslur, víddir og línu- og dálkaskilgreiningar til að búa til fjárhagsskýrslur sem yfirleitt eru nauðsynlegar fyrir flest fyrirtæki?
 
 Hefja nám á námsleiðinni [Búa til fjárhagsskýrslur í Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central)
 
-## <a name="create-a-new-financial-report"></a>Stofna nýja fjárhagsskýrslu
+## Stofna nýja fjárhagsskýrslu
 
 Fjárhagsskýrslur eru notaðar til að greina fjárhagsreikninga eða bera saman fjárhagfærslur og fjárhagsáætlunarfærslur. Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum.
 
@@ -91,7 +91,7 @@ Fjárhagsskýrslurnar í stöðluðu útgáfunni [!INCLUDE[prod_short](includes/
 > [!NOTE]
 > Þegar fjárhagsskýrsla er opnuð í Skoða eða Breyta stillingu er afmörkunarsvæðið tiltækt. Ekki nota afmörkunarsvæðið til að setja afmarkanir á gögnin í skýrslunni. Slíkar afmarkanir geta valdið villum eða hugsanlega afmarka gögnin ekki í raun. Þess í stað eru reitirnir á flýtiflipunum **Valkostir** og **Víddir notaðir** til að setja upp afmarkanir fyrir skýrsluna.
 
-### <a name="create-or-edit-a-row-definition"></a>Stofna eða breyta línuskilgreiningu
+### Stofna eða breyta línuskilgreiningu
 
 Línuskilgreiningar í fjárhagsskýrslum eru staður fyrir útreikninga sem ekki er hægt að gera beint í bókhaldslyklinum. Til dæmis er hægt að búa til millisamtölur fyrir reikningsflokka og setja þær inn í aðrar samtölur Einnig er hægt að reikna milliskref sem ekki eru sýnd í lokaskýrslunni.
 
@@ -104,7 +104,7 @@ Línuskilgreiningar í fjárhagsskýrslum eru staður fyrir útreikninga sem ekk
 > [!NOTE]
 > Dálkarnir sem eru skilgreindir í hverri línu í línuskilgreiningunni tákna dálka þrjá og upp á síðunni **Fjárhagsskýrsla** . Fyrstu tveir dálkarnir, **Dálkanr.** og **Lýsing**, eru fastar.  
 
-### <a name="create-or-edit-a-column-definition"></a>Stofna eða breyta dálkaskilgreiningu
+### Stofna eða breyta dálkaskilgreiningu
 
 Nota dálkaskilgreiningar til að tilgreina dálkana sem á að hafa með í skýrslunni. Til dæmis er hægt að hanna skýrsluuppsetningu til að bera saman breytingu og stöðu fyrir sama tímabil á þessu ári og síðasta ári. Hægt er að hafa allt að 15 dálka í dálkskilgreiningu. Til dæmis eru margir dálkar gagnlegir til að birta áætlanir í 12 mánuði með dálki sem sýnir samtöluna.
 
@@ -116,7 +116,7 @@ Nota dálkaskilgreiningar til að tilgreina dálkana sem á að hafa með í sk�
 1. Velja **Í lagi**.
 1. Opnaðu síðuna **Fjárhagsskýrsla** öðru hverju til að staðfesta að nýja dálkskilgreiningin virki eins og til er ætlast.
 
-### <a name="create-a-column-definition-to-calculate-percentages"></a>Stofna dálkaskilgreiningu til að reikna prósentur
+### Stofna dálkaskilgreiningu til að reikna prósentur
 
 Hugsanlega þarf að vera dálkur í fjárhagsskýrslu til að reikna prósentur af samtölu. Til dæmis, ef línur skipta sölu eftir vídd kann að vera þörf á dálki sem birtir prósentuhlutfall heildarsölu sem hver lína stendur fyrir.
 
@@ -129,7 +129,7 @@ Hugsanlega þarf að vera dálkur í fjárhagsskýrslu til að reikna prósentur
 1. Reitirnir í línunni eru fylltir út sem hér segir. Í reitnum **Dálktegund** er valin **Reikniregla**. Í reitnum **Formúla** er færð inn formúla fyrir upphæðina sem reikna á prósentuhlutfall fyrir, með prósentutákni (%) þar fyrir aftan. Til dæmis ef dálkur N inniheldur nettóbreytinguna, er fært inn **N%**.  
 1. Skref 4 til 7 eru endurtekin fyrir hvern flokk línu sem skipta á niður eftir prósentum.
 
-## <a name="use-gl-account-categories-to-change-the-layout-of-your-financial-statements"></a>Nota flokka fjárhagsreikninga til að breyta útliti ársreikninga
+## Nota flokka fjárhagsreikninga til að breyta útliti ársreikninga
 
 Hægt er að nota lykiltegundir fjárhagsreikninga til að breyta sniði fjárhagsskýrslna. T.d. þegar reikningaflokkar hafa verið settir upp á síðunni **Flokkar** fjárhagsreikninga, er hægt að velja aðgerðina **Mynda fjárhagsskýrslu** og uppfæra undirliggjandi fjárhagsskýrslur fyrir almennar fjárhagsskýrslur. Næst þegar keyrð er önnur þessara skýrslna, svo sem **skýrslan Stöðuyfirlit**, nýjar samtölur og undirfærslur er bætt við.
 
@@ -140,13 +140,13 @@ Annar ávinningur af því að nota fjárhagsreikningaflokka yfir hráa fjárhag
 >
 > Þú ættir að stofna og skipuleggja eigin lægri flokka fjárhagsreikninga frá grunni, í stigveldi ef þörf er á, frekar en að reyna að endurraða þeim sem fyrir eru. Til dæmis er hægt að endurhanna **Skuldir** til að innihalda nýtt **Eigið fé** og síðan **Skammtímaskuldir** og **Langtímaskuldir**. Nánari upplýsingar um [vörpun fjárhagsreikninga í lykilflokka](finance-general-ledger.md#account-categories).
 
-## <a name="using-dimensions-in-financial-reports"></a>Notkun vídda í fjárhagsskýrslum
+## Notkun vídda í fjárhagsskýrslum
 
 Í fjárhagsgreiningu er vídd tiltekin gögn sem má bæta við færslu sem einskonar merki. Þessi gögn eru notuð til að flokka saman færslur með svipuð einkenni, eins og viðskiptamenn, svæði, vörur og sölumenn og sækja þessa hópa á auðveldan hátt til greiningar. Hægt er að nota víddir í færslum í færslubókum, fylgiskjölum og áætlunum.
 
 Hver vídd lýsir áherslu greiningar. Tvívíð greining gæti því til dæmis verið sala eftir svæðum. Með því að nota fleiri en tvær víddir þegar færsla er stofnuð er hægt að framkvæma flóknari greiningar. Dæmi um flókna greiningu er að kanna sölu á hverja söluherferð fyrir hvern viðskiptamannaflokk á hvert svæði. Það veitir meiri innsýn í reksturinn, svo sem hversu vel fyrirtækið þitt starfar, hvar það er eða ekki þrífst ekki og hvar þú ættir að ráðstafa meiri fjármunum. Innsýnin hjálpar þér að taka upplýstar viðskiptaákvarðanir. Frekari upplýsingar eru í [Vinna með víddir](finance-dimensions.md).
 
-## <a name="set-up-financial-reports-with-overviews"></a>Setja upp fjárhagsskýrslur með yfirlitum
+## Setja upp fjárhagsskýrslur með yfirlitum
 
 Hægt er að nota fjárhagsskýrslu til að búa til yfirlit sem ber fjárhagstölur saman við áætlunartölur.
 
@@ -164,7 +164,7 @@ Hægt er að nota fjárhagsskýrslu til að búa til yfirlit sem ber fjárhagst�
 
 Nú er hægt að afrita áætlunaryfirlitið og líma það inn í töflureikni.  
 
-## <a name="comparing-accounting-periods-using-period-formulas"></a>Samanburður á reikningstímabilum með reiknireglum tímabils
+## Samanburður á reikningstímabilum með reiknireglum tímabils
 
 Fjárhagsskýrslan þín getur borið saman niðurstöður mismunandi reikningstímabila, svo sem síðastliðins mánaðar samanborið við sama mánuð á síðasta ári. Til að gera þetta skal opna síðuna **Dálkaskilgreining** og sérstilla hana með því að bæta reitnum **Formúla samanburðartímabils** við sem dálki. Frekari upplýsingar er að finna á [Sérstilling verksvæðis](ui-personalization-user.md). Hægt er að stilla þennan reit á reiknireglu tímabils.  
 
@@ -198,7 +198,7 @@ Ef þú vilt reikna eftir venjulegum tímabilum þarf í staðinn að slá inn r
 
 Frekari upplýsingar í [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md)
 
-## <a name="print-and-save-financial-reports"></a>Prenta og vista fjárhagsskýrslur
+## Prenta og vista fjárhagsskýrslur
 
 Þú getur prentað fjárhagsskýrslur með því að nota prentþjónustu tækisins þíns. [!INCLUDE[prod_short](includes/prod_short.md)] Býður einnig upp á möguleika á að vista skýrslur sem Excel vinnubækur, Word skjöl, PDF og XML skrár.
 
@@ -209,7 +209,7 @@ Frekari upplýsingar í [Vinna með dagsetningar og tíma í dagatali](ui-enter-
     1. Valkosturinn **(Meðhöndlað af vafra)** gefur til kynna að enginn prentari sé valinn fyrir skýrsluna. Í slíku tilfelli sér vafrinn um útprentun og sýnir stöðluð skref útprentunar þar sem hægt er velja staðbundinn prentara sem tengdur er við tækið þitt. **(Meðhöndlaður af vafranum)** er ekki tiltækt í farsímaforritinu [!INCLUDE[prod_short](includes/prod_short.md)] eða forritinu fyrir teymi.
 1. Velja aðgerðina **Prenta**.
 
-### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Tímasetja fjárhagsskýrslu eða vista sem PDF-, Word- eða Excel-skjal
+### Tímasetja fjárhagsskýrslu eða vista sem PDF-, Word- eða Excel-skjal
 
 Hægt er að vista fjárlagaskýrslu sem skrá á mismunandi sniði, svo sem PDF, XML, Word eða Excel.  [!INCLUDE[prod_short](includes/prod_short.md)] Einnig er hægt að búa til ítrekaðar fjárhagsskýrslur:
 
@@ -219,7 +219,7 @@ Hægt er að vista fjárlagaskýrslu sem skrá á mismunandi sniði, svo sem PDF
 1. Veljið skráarsnið eða aðgerðina **Tímasetja** og veljið **Í lagi**.
 1. Fylltu út reitina til að búa til tímasetta eða endurtekna fjárhagsskýrslu. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Þegar um endurteknar fjárhagsskýrslur er að ræða skal stilla reitina **Fyrsti upphafsdagur/tími** og **Lokadagsetning/tími** með fyrstu og síðustu dagsetningunni til að búa til fjárhagsskýrsluna. Veldu einnig á hvaða dögum skýrslan er mynduð með því að stilla reitinn fyrir **Fyrsti upphafsdagur/tími** með því að fylgja sniðinu sem útskýrt er í hlutanum [Nota dagsetningarformúlur](ui-enter-date-ranges.md#use-date-formulas).
 
-## <a name="importing-or-exporting-financial-report-definitions"></a>Innflutningur eða útflutningur fjárhagsskýrsluskilgreininga
+## Innflutningur eða útflutningur fjárhagsskýrsluskilgreininga
 
 Hægt er að flytja inn og út fjárhagsskýrslu/línuskilgreiningar sem RapidStart skilgreiningarpakka sem henta vel til að deila upplýsingum með öðrum fyrirtækjum. Pakkinn er búinn til í .rapidstart-skrá, sem þjappar innihaldinu saman.
 
@@ -236,7 +236,7 @@ Til að flytja inn og út línuskilgreiningar fjárhagsskýrslu skal fylgja efti
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleika 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **línuskilgreiningar** og velja síðan viðeigandi tengil.
 1. Veljið línuskilgreininguna og veljið svo aðgerðina **Flytja inn** línuskilgreiningu eða **Útflutningslínuskilgreiningu** eftir því hvað á að gera.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skoða og prenta skýrslur](ui-work-report.md)  
 [Viðskiptagreind fjármála](bi.md)  
