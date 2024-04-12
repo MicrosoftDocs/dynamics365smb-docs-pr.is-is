@@ -1,71 +1,89 @@
 ---
-title: Stjórna samstillingu aðalgagna
-description: Fræðast um hvernig samstilling aðalgagna er stjórnað.
+title: Vinna með aðalgagnasamstillingu
+description: Læra hvernig á að stjórna samstillingu aðalgagna.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 01/25/2023
+ms.date: 04/05/2024
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
-# Stjórna samstillingu aðalgagna
+# Vinna með aðalgagnasamstillingu
 
-Eftir að samstilling aðalgagna hefur verið sett upp og samstillt í fyrsta sinn eru færslur í völdum töflum settar saman og færsla endurtekinna verkraðarstofna fyrir hverja töflu. Runufærslur eru sjálfkrafa samstilltar gögn í dótturfyrirtækjunum þegar einhver gerir breytingu á upprunafélaginu. Annars þarf maður ekki að gera neitt.
-
-> [!NOTE]
-> Runufærslurnar eru áætlaðar keyrðar á hverri stundu og ekki er hægt að breyta áætluninni.
-
-Stundum fara hlutirnir þó úrskeiðis og það gætu verið aðstæður sem þarf að stjórna eða rannsaka. Til dæmis, ef fólk breytir sömu færslu bæði í upprunafélaginu og í dótturfyrirtæki, mistekst samstilling svo hægt sé að tilgreina breytinguna sem er rétt. Eða gæti Upprunafyrirtækið sett upp framlengingu sem breytir skema einnar af töflunum samstilla með því að bæta við reit eða tveimur. Ef samstilla á nýja reiti dótturfyrirtækjanna þarf að setja upp sömu viðaukanna og uppfæra Töfluskemu í uppsetningu þeirra.
-
-Þessi grein lýsir verkfærunum sem nota má til að halda samstillingu í gangi vel.
-
-## Rannsaka stöðu samstillingar
-
-Tvær aðgerðir eru á síðunni Samstillingartöflur  **sem geta hjálpað til við**  að fylgjast með samstillingunni:
-
-* **Samstillingarvinnslur samþættingar**
-* **Færslur vinnsluraðar**
-
-Eftirfarandi tafla lýsir aðgerðunum.
-
-|Síða  |Description  |
-|---------|---------|
-|**Samstillingarvinnslur samþættingar**     |  **Opna síðuna störf**  Samstillingarsamstillingar til að kanna hvað gerðist í hvert sinn sem færsla í vinnslu var gerð í verkraðarafærslu. Til að grafa dýpra inn í upplýsingar um nýjar færslur sem var bætt við, eða kanna af hverju færsla tókst ekki samstillt, skal velja númerin í  **·**  dálkunum eða  **misheppnuðu** . Einnig er hægt að nota þessa síðu til að taka upp eldri færslur sem ekki er víst að þurfi. Til að fá frekari upplýsingar um tiltekt er farið í að  [taka upp gamlar færslur](#clean-up-old-entries).        |
-|**Færslur vinnsluraðar**     | Nálgast upplýsingar um færsluna í vinnsluraðarafærslu sem samstilla gögn fyrir valda töflu. Til dæmis, þessi síða er notuð til að stjórna stöðu færslu í verkraðarafærslu, til að fá meiri upplýsingar um vinnsluraðarafærslur, farið í að  [nota Starfaraðir til að áætla verk](admin-job-queues-schedule-tasks.md).     |
+Þegar aðalgagnasamstilling hefur verið sett upp og samstillt í fyrsta skipti eru færslur í völdu töflunum paraðar og ítrekunarfærsla verkraðar er stofnuð fyrir hverja töflu. Verkraðarfærslurnar samstilla sjálfkrafa gögn í dótturfyrirtækjunum þegar einhver breytir upprunafyrirtækinu. Annars þarftu ekki að gera neitt.
 
 > [!NOTE]
-> Ef villa kemur upp á  **síðunni Samþættingarsamstillingarvinnslur**  sem ekki er hægt að leysa handvirkt ef haft er samband við samstarfsaðila eða Microsoft fyrir stuðning er gagnlegt að útvega villuboðin og upplýsingar um kallbunka.
+> Sjálfgefið er að verkraðarfærslurnar séu áætlaðar keyrðar hverja mínútu og ekki er hægt að breyta tímasetningunni.
+
+Stundum fara hlutirnir hins vegar úrskeiðis og það gætu verið aðstæður sem maður þarf að hafa umsjón með eða rannsaka. Ef fólk breytir til dæmis sömu færslu bæði í upprunafyrirtækinu og dótturfyrirtæki mistekst samstillingin þannig að hægt sé að tilgreina rétta breytingu. Einnig getur upprunafyrirtækið sett upp viðauka sem breytir skema einnar af töflunum sem samstilla á með því að bæta við reit eða tveimur. Ef samstilla á nýju reitina í dótturfyrirtækjunum þarf að setja upp sömu viðbætur og uppfæra töfluskírteinin í uppsetningu þeirra.
+
+Þessi grein lýsir verkfærunum sem þú getur notað til að halda samstillingu keyrð vel.
+
+## Skrifa yfir staðbundnar breytingar
+
+Hægt er að nota gátreitinn **Skrifa yfir staðbundna breytingu** á reitunum og töflurnar sem samstilltar eru til að leyfa gögnum frá upprunafyrirtækinu að skrifa yfir gögn í dótturfyrirtækinu.
+
+> [!NOTE]
+> Ekki er hægt að gera samstillingu reita virka og leyfa dótturfyrirtækinu að skrifa gildi í hann óháð upprunafyrirtækinu. Annaðhvort verður að gera samstillingu óvirka fyrir reitinn eða leyfa ot upprunafyrirtækisins að skrifa yfir staðbundnar breytingar.
+
+## Uppfæra töfluskkemu
+
+Ef upprunafyrirtækið breytir til dæmis töflu með því að bæta við reit sem á að samstilla verða dótturfyrirtæki að uppfæra reitavörpun sína. Á síðunni **Samstillingarreitir** skal nota aðgerðina **Uppfæra reiti** .
+
+## Gera stillingar virkar eða óvirkar milli færslna
+
+Til að hefja eða stöðva jöfnun ákveðinna færslna í töflu á síðunni **Samstillingarreitir** skal velja reitina og nota annaðhvort **aðgerðirnar Gera virkar** eða **óvirkar** .
+
+> [!TIP]
+> Fljótleg leið til að gera marga reiti virka eða óvirka samtímis er að velja þá á listanum og nota annaðhvort **aðgerðirnar Gera virka** eða **óvirka** .
+
+## Keyra fulla samstillingu
+
+Aðgerðin **Keyra fulla samstillingu** raðar samstillingu fyrir allar töflufærslur í upprunafyrirtækinu og endurstillir allar færslur afundur. Til dæmis er samstilling gagnleg ef aukareitur í samstillingartöflu er virkur eða viðbótarreit bætt við með aðgerðinni **Uppfæra reiti** . Aðgerðin samstillir afturvirkt gögnin í þessum reitum.
 
 ## Samstilla breyttar færslur
 
-Ef stillingum fyrir töflu eða svæði er breytt í dótturfyrirtæki þarf að uppfæra samstillinguna. Ef ákveðið er til dæmis að velja  **gátreitinn skrifa yfir staðbundna breytingu**  á reit til að leyfa gögnum frá upprunafélaginu að skrifa yfir staðbundnar breytingar. Til að uppfæra samstillinguna skal nota  **aðgerðina samstilla breytt færslur**  á  **síðunni samstillingartöflur** .
+Ef stillingum töflu eða reits í dótturfyrirtæki er breytt verður að uppfæra samstillinguna. Til að uppfæra samstillinguna skal nota aðgerðina **Samstilla breyttar færslur** á síðunni **Samstillingartöflur** .
 
-## Uppfæra Töfluskemu
+Aðgerðin **Samstilla breyttar** færslur tímasetur samstillingu eftirfarandi töflufærslna:
 
-Ef veitufyrirtækið breytir töflu, til dæmis með því að bæta við reit sem á að samstilla, verða dótturfyrirtækin að uppfæra svæðvarpana.  **Á síðunni samstillingarsvæði**  skal nota  **aðgerðina uppfærslusvæði** . 
+* Færslur sem ekki tókst að samstilla í síðustu tilraun.
+* Færslur sem var breytt í upprunafyrirtækinu eftir að samstillingin var síðast tímasett. Hægt er að fara yfir síðasta áætlaða samstillingartíma á síðunni **Samstillingartöflur** í reitnum **Samstilla breytingar síðan** .
 
-## Gera þrýstingsstillirinn virka eða óvirka milli færslna
+Aðgerðin virkar á sama hátt og tímasett samstilling og hægt er að nota hana sem leið til að samstilla utan áætlunarinnar. Ef t.d. gátreiturinn **Skrifa yfir staðbundnar breytingar** er valinn í reit til að leyfa gögnum frá upprunafyrirtækinu að skrifa yfir staðbundnar breytingar uppfærir aðgerðin þessi gögn. Einnig er bara hægt að bíða þar til næsta áætluð samstilling gerist.
 
-Til að ræsa eða stöðva festingu á tilteknum færslum í töflu, á  **síðunni samstillingarsvæði**, skal velja svæðin og nota síðan annað hvort aðgerðir til  **að virkja**  eða  **slökkva**  á þeim. 
+## Kanna stöðu samstillinga
 
-> [!TIP]
-> Fljótleg leið til að gera mörg svæði virk eða óvirk á sama tíma er að velja þau í listanum og nota síðan annað hvort  **Aðgerðir til að virkja**  eða  **slökkva**  á þeim.
+Tvær aðgerðir eru á síðunni **Samstillingartöflur** sem hjálpa til við að fylgjast með samstillingunni:
 
-## Bæta við viðaukum
+* **Samþættingarverk**
+* **Verkraðarfærslur**
 
-Ef upprunafélagið setur upp nýja framlengingu þarf dótturfyrirtæki einnig að setja það upp ef það vill samstilla gögn fyrir það. Dótturfyrirtækið getur notað  **aðgerðina uppfæra svæði**  á  **síðunni samstillingarsvæði**  til að bæta töflunum úr viðaukanum við listann.
+Eftirfarandi tafla lýsir aðgerðunum.
+
+|Síða  |Heimildasamstæða  |
+|---------|---------|
+|**Samþættingarverk**     | Opna síðuna **Samstillingarverk** til að rannsaka hvað gerðist í hvert sinn sem verkraðarfærsla var keyrð. Til að grafa dýpra í upplýsingar um nýjar færslur sem var bætt við eða kanna hvers vegna færsla samstilltist ekki skal velja tölurnar í dálkunum **Sett inn** eða **Mistókst** . Einnig er hægt að nota þessa síðu til að hreinsa eldri færslur sem hugsanlega eru óþarfar. Til að fræðast meira um tiltekt er farið í [Hreinsa gamlar](#clean-up-old-entries) færslur.        |
+|**Verkraðarfærslur**     | Fá aðgang að upplýsingum um verkraðarfærslu sem samstilla gögn fyrir valda töflu. Til dæmis má nota þessa síðu til að stjórna stöðu verkraðarfærslunnar til að fræðast meira um verkraðarfærslur með því að fara í [Nota verkröð til að tímasetja verk](admin-job-queues-schedule-tasks.md).     |
 
 > [!NOTE]
-> Sumar töflur fá gögn úr tengdum töflum. Ef viðbótartöflu er bætt við sem inniheldur ekki tengdar töflur eru svæðin í þessum töflum ekki tiltæk. Staðfestið að þú hafir bætt við öllum tengdum töflum.
+> Ef villa finnst á síðunni **Samstillingarverk** sem þú getur ekki leyst sjálf(ur) getur þú ekki leyst þig, ef þú hefur samband við samstarfsaðila eða Microsoft til stuðnings, er gagnlegt að veita villuboðin og símtalsupplýsingarnar.
 
-## Tiltekt í gömlum færslum
+## Hreinsa gamlar færslur
 
-Með tímanum verður Fjöldi færslna í samstillingarkladdanum orðinn stór, þannig að þú gætir viljað gera smá húsgæftir til að fjarlægja óþarfa færslur. Til að auðvelda Hreinsun á gömlum færslum,  **þá býður síða Samþættingarsamstillingarvinnslu**  eftirfarandi aðgerðir:
+Með tímanum verður fjöldi færslna í samstillingarkladdanum stór og því gæti þurft að gera smá þrif til að fjarlægja óþarfar færslur. Ef auðvelda á að hreinsa gamlar færslur **býður síðan Samstillingarverk** upp á eftirfarandi aðgerðir:
 
-* **Eyða færslum eldri en 7 daga**
+* **Eyða færslum eldri en 7 dögum**
 * **Eyða öllum færslum**
+
+## Viðbótum bætt við
+
+Ef upprunafyrirtækið setur upp nýja viðbót verður dótturfyrirtækið einnig að setja það upp ef samstilla á gögn fyrir það. Dótturfyrirtækið getur notað aðgerðina **Uppfæra reiti** á síðunni **Samstillingarreitir** til að bæta töflunum úr nafnaukanum við listann.
+
+> [!NOTE]
+> Sumar töflur sækja gögn úr tengdum töflum. Ef bætt er við viðbót sem inniheldur ekki tengdar töflur verða reitirnir í þessum töflum ekki tiltækir. Ganga þarf úr skugga um að öllum tengdum töflum hafi verið bætt við.
 
 <!--
 ## Recreate a deleted job queue entry
@@ -75,4 +93,4 @@ If the recurring job queue entry is deleted for a table, you can quickly recreat
 
 ## Sjá einnig
 
-[Fá tilbúinn til að samstilla aðalgögn](admin-set-up-data-sync.md)
+[Undirbúningur fyrir samstillingu aðalgagna](admin-set-up-data-sync.md)
