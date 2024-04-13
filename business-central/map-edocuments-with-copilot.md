@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Varpa e-skjölum í innkaupapöntunarlínur með Copilot (forskoðun)
+# Varpa e-skjölum í innkaupapöntunarlínur með Copilot (forskoðun)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ Nú er hægt að uppfæra fyrirliggjandi innkaupapöntun í Business Central me�
 > - AI-generated content may be incorrect.-->
 
 
-## <a name="identify-purchase-orders"></a>Auðkenna innkaupapantanir
+## Auðkenna innkaupapantanir
 
 Fyrst er hægt að auðkenna innkaupapantanirnar sem hægt er að jafna sjálfkrafa.
 
-## <a name="map-lines"></a>Varpa línum
+## Varpa línum
 
 Copilot auðveldar samsvörun e-reikningslína sjálfvirkt við innkaupapantanalínur og býður upp á auka samsvörunarupplýsingar til að bæta samsvörunina.
 
 Eftir að þær hafa verið jafnaðar og varpaðar uppfærir Business Central samsvarandi innkaupapöntun með viðeigandi móttökuupplýsingum til að tryggja að rétt magn berist í pöntunarlínurnar.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Yfirlit yfir rafræn skjöl](finance-edocuments-overview.md)  
 [Nota rafræn skjöl við sölu og innkaup](finance-how-use-edocuments.md)  

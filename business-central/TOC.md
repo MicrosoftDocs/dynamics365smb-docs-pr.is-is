@@ -471,6 +471,8 @@ ms.service: dynamics-365-business-central
 
 ### Fjárhagsskýrslugerð (framkvæmd fjárhagsskýrsla og afkastavísar)
 #### [Undirbúa fjárhagsskýrslur](bi-how-work-account-schedule.md)
+#### [Línuskilgreiningar í fjárhagsskýrslugerð](bi-row-definitions.md)
+#### [Dálkaskilgreiningar í fjárhagsskýrslugerð](bi-column-definitions.md)
 #### [Kynning: Nota fjárhagsskýrslur til að gera sjóðstreymisspá](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Setja upp og gefa út vefþjónustu afkastavísa sem byggir á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Greina gögn með tölfræðilegum lyklum](bi-use-statistical-accounts.md)
@@ -1047,8 +1049,9 @@ ms.service: dynamics-365-business-central
 ##### [Prenta upplýsingar um fjárhagsgrunn](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 ##### [Vottun á Business Central fyrir þýskan markað (skjalið er á þýsku)](https://go.microsoft.com/fwlink/?linkid=875256)
 
-### Íslandi
+### Ísland
 #### [Staðbundin virkni í íslenskri útgáfu](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Ísland - Uppsetning W1 Core App](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### VSK
 ##### [Prenta VSK-yfirlit á skjölum](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Sérstök gögn og skýrslur fyrir skattyfirvöld](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1057,6 +1060,7 @@ ms.service: dynamics-365-business-central
 #### Almennt  
 ##### [Varpa skattstofunúmerum í bókhaldslyklana](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Eyða bókuðum reikningum og kreditreikningum](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Skráningarnúmer í íslenskri staðfærslu](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### Indland
 #### [Yfirlit](LocalFunctionality/India/india-local-functionality.md)
