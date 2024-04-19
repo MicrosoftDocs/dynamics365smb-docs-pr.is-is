@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="e-documents-overview"></a>Yfirlit yfir rafræn skjöl
+# Yfirlit yfir rafræn skjöl
 
 Rafræn skjöl (rafræn skjöl) eru burðarás nútíma viðskiptaviðskipta. Þau innihalda mikilvæg skjöl, svo sem reikninga og kvittanir í báðar áttir (afhending og móttaka). Þeir bæta einnig við möguleika fyrir skjalastöðutengd skilaboð á milli aðgangsstaða.
 
@@ -32,7 +32,7 @@ Skjölin útskýra rafræn skjöl í smáatriðum. Það sýnir getu appsins og 
 | [Stilla tengi fyrir rafræn skjöl með ytri endastöðum](finance-how-setup-edocuments-external.md) | Lærðu hvernig á að nota ytri aðgangsstaði fyrir sjálfvirkni við afhendingu og móttöku rafrænna skjala. |
 | [Rafræn gagnaskipti](across-data-exchange.md) | Lærðu hvernig á að nota gagnaskiptaramma til að stjórna gagnaskiptum í viðskiptaskjölum eins og bankaskrám og gengi gjaldmiðla. | 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjármálastjórnun](finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
