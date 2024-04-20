@@ -10,11 +10,11 @@ ms.author: altotovi
 ---
 
 
-# Þróun staðfestrar staðfæringarforrita
+# <a name="development-of-validated-localization-apps"></a>Þróun staðfestrar staðfæringarforrita
 
 Þessi grein lýsir kröfum og leiðbeiningum um þróun staðfests staðfæringarforrits fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Hvað er staðfest staðfæringarforrit?
+## <a name="what-is-a-validated-localization-app"></a>Hvað er staðfest staðfæringarforrit?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er í boði [á heimsvísu á 170+ mörkuðum](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). Á markaðnum vinnur Microsoft með samstarfsaðilum ISV til að staðfæra með forritum sem nálgast [!INCLUDE[prod_short](includes/prod_short.md)] má staðfæringu á [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Fyrir þessi svæði er hægt að nálgast staðfæringar með forritinu sem hentar kjörstaðsetningu. Forritið sem kýs staðfæringarforrit þekkir forritin sem eru byggð samkvæmt tilteknum leiðbeiningum Microsoft um gæði. ISV samstarfsaðilar sem uppfylla þessar kerfiskröfur og leiðbeiningar geta gagnast tæknilega og í viðskiptalegum tilburðum til að þjónusta sölumenn og viðskiptamenn.  
 
@@ -36,7 +36,7 @@ Forrit í staðfestri staðfæringarflugmannskerfinu innihalda safn aðgerða se
 > [!NOTE]
 > Staðbundnar aðgerðir eru gagnlegar fyrir framleiðniviðskipti í landi og bæta þar með við viðskiptum en eru ekki nauðsynlegar frá sjónarhóli reglubundins sjónarhorns, t.d. tilteknum banka- og greiðslusniðum, útgjaldaskýrslum, aðgerðum í hraðbanka, launagreiðslum og álíka smærri eða stærri og gott að hafa aðgerðirnar í öðrum forritum. Ef forrit innihalda þessar aðgerðir er þeim ekki samþykkt sem Staðfest staðfæringarforrit.   
 
-## Prófaðar viðskiptakröfur fyrir staðfæringu forrits  
+## <a name="validated-localization-app-business-requirements"></a>Prófaðar viðskiptakröfur fyrir staðfæringu forrits
 
 - Sannprófuð staðfæringarforritaveita uppfyllir allar kröfur til að vera CSP óbeinn veitandi.  
 - Staðfest staðfæringarforrit veitir markaðssetningu mín. af tilboðum í fimm löndum/svæðum, sem búna Dynamics 365 Business Central til með staðfestu staðfæringarforriti. 
@@ -49,9 +49,9 @@ Forrit í staðfestri staðfæringarflugmannskerfinu innihalda safn aðgerða se
 - Staðfest staðfæringarforrit eru gerð tiltæk öllum viðskiptamönnum og samstarfsaðilum sem vilja njóta góðs af því.  
 - Staðfest staðfæringarforritaveitan tekur þátt í ítrekuðum vinnugrunni við Microsoft.
 
-## Virkni og tæknilegar kröfur um staðfæringu  
+## <a name="validated-localization-app-functional-and-technical-requirements"></a>Virkni og tæknilegar kröfur um staðfæringu
 
-### Virkniþarfir   
+### <a name="functionality-requirements"></a>Virkniþarfir
 
 Fyrir utan að uppfylla tæknilegar kröfur fyrir staðfæringarforritið sem hentar best er að lágmarks hagkvæmt vöruumfang kjörforrits:  
 
@@ -80,7 +80,7 @@ Fyrir utan að uppfylla tæknilegar kröfur fyrir staðfæringarforritið sem he
 - Útbúa leiðsagnarforrit fyrir uppsetningu (leiðsagnarforrit) fyrir svæði sem eru flókin til að setja upp til að hjálpa notendum að virkja, uppgötva og hafa góða reynslu af notkun staðfæringarforritsins.  
 - Samstarfsaðilar verða að útvega hagnýt fylgigögn fyrir alla þætti staðfæringar þeirra.  
 
-### Tæknilegar kröfur  
+### <a name="technical-requirements"></a>Tæknilegar kröfur
 
 Hér á eftir er að finna lista yfir þarfir sem þarf að uppfylla áður en forritið Staðfest staðfæring er sent sem viðbót við staðfestingu. Þessi listi breytir [ekki tæknilegu villuleitarlistanum](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) og nær aðeins yfir kröfur þaðan.  
 
@@ -99,7 +99,7 @@ Hér á eftir er að finna lista yfir þarfir sem þarf að uppfylla áður en f
 > [!NOTE]  
 > Einnig er hægt að búa til samþættingu ef þér finnst hún gagnleg til að hafa einhverja virkni setta utan umhverfisins [!INCLUDE[prod_short](includes/prod_short.md)] og tengjast þess í stað til að nota til [!INCLUDE[prod_short](includes/prod_short.md)] dæmis API eða vefþjónustu.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Tæknileg prófun](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Þróun staðlaðrar staðfæringarlausnar](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

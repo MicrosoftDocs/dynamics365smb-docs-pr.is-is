@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Nota AMC Banking 365 Fundamentals viðbótina
+# <a name="use-the-amc-banking-365-fundamentals-extension"></a>Nota AMC Banking 365 Fundamentals viðbótina
 
 AMC Banking 365 Fundamentals viðbótin gerir það auðveldar sendingu gagna til bankans þíns og eykur áreiðanlega þeirra. Viðbótin tengir [!INCLUDE[prod_short](includes/prod_short.md)] við AMC Banking 365 Fundamentals fyrir Microsoft Dynamics 365 Business Central þjónustu sem getur breytt bankagögnum úr [!INCLUDE[prod_short](includes/prod_short.md)] í snið sem yfir 600 bankar í heiminum krefjast. Þannig er til dæmis auðveldara að millifæra greiðslur og kreditfærslur til lánardrottna með því að slá greiðslurnar inn í [!INCLUDE[prod_short](includes/prod_short.md)] og hlaða þeim svo upp í bankann þinn. Sniðin geta einnig jafnað út bankaafstemmingarferli. Frekari upplýsingar er að finna í [AMC Banking fyrir Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 
@@ -21,7 +21,7 @@ AMC Banking 365 Fundamentals viðbótin gerir það auðveldar sendingu gagna ti
 > [!NOTE]
 > Í almenn útgáfa af [!INCLUDE[prod_short](includes/prod_short.md)], er altæk þjónustuveita til að umbreyta bankagögnum í annað skráarsnið sem bankinn krefst að er uppsett og tengt. Í norður-amerískum útgáfum má nota sömu þjónustu til að senda greiðsluskrár sem rafræna millifærslu (EFT), t.d. kerfi rafrænnar greiðslumiðlunar sem er oft notuð, en með örlítið öðruvísi leiðum.
 
-## Nota sýnireikning okkar
+## <a name="use-our-demonstration-account"></a>Nota sýnireikning okkar
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fylgir með sýnireikningi sem gerir þér kleift að prófa AMC Banking 365 Fundamentals-viðbótina. Við bjóðum upp á sjálfgefnar stillingar fyrir tengingu við AMC Banking, þar sem bankareikningar eru tilgreindir til að sækja gögn frá [!INCLUDE[prod_short](includes/prod_short.md)], auk nokkurra gagnaskiptaskilgreininga. Þú getur skoðað tengingarstillingarnar á síðunni **AMC Banking Uppsetning**. Fyrir bankareikninga bætir viðbótin gildum í reitina **Heiti banka**, **Nr. á skilaboðum kreditfærslu**, **Innflutningssnið bankayfirlits** og **Greiðsluútflutningssnið** á bankareikningspjöldum.
 
@@ -30,11 +30,11 @@ Við veitum stillingarnar en til að prófa viðbótina verður þú að keyra l
 > [!NOTE]
 > Einhverjar takmarkanir eru á sýnireikningnum. Til dæmis þegar greiðslum er umbreytt mun upphæðin í umbreyttu skránni ekki passa við raunverulegu upphæðina. Í staðin verður upphæðin alltaf fimm einingar af gjaldmiðlinum sem þú notar fyrir greiðslur.  
 
-## Uppsetning viðbótarinnar
+## <a name="setting-up-the-extension"></a>Uppsetning viðbótarinnar
 
 Að hefjast handa felur aðeins í sér nokkur einföld skref og leiðbeiningar um uppsetningu með hjálp munu koma á tengingunni og kveikja á viðbótinni. Leiðbeiningin mun gera hluti eins og að setja upp gagnaskiptaskilgreiningar fyrir uppsetningar á útflutningi/innflutningi bankayfirlits og byrja á númeraröðum sem eru notaðar fyrir skilaboð kreditfærslna.  
 
-### Til að setja upp áskildar heimildasamstæður
+### <a name="to-set-up-the-required-permission-sets"></a>Til að setja upp áskildar heimildasamstæður
 
 Áður en hægt er að nota þessa viðbót verður stjórnandi að afrita eftirfarandi heimildasamstæður, breyta þeim og síðan úthluta nýjum heimildasamstæðum til notenda í staðinn fyrir þær upprunalegu:
 
@@ -47,14 +47,14 @@ Nánari upplýsingar eru [í Til að afrita heimildasafn](ui-define-granular-per
 
 Fyrir hverja nýja heimildasamstæðu skal aðeins veita heimildina **Lesa** fyrir **AMC Banking Uppsetningartafla (20101)**. Nánari upplýsingar eru [í Til að stofna eða breyta heimildum handvirkt](ui-define-granular-permissions.md#create-a-permission-set).
 
-### Til að tengja viðbótina við AMC Banking
+### <a name="to-connect-the-extension-to-amc-banking"></a>Til að tengja viðbótina við AMC Banking
 
 1. Fá einingu og þjónustuáætlun fyrir AMC Banking. Til að gera það skaltu fara á [AMC leyfissíðuna](https://license.amcbanking.com/register).
 2. Í [!INCLUDE[prod_short](includes/prod_short.md)] skal velja ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **AMC Banking Uppsetning** og velja síðan viðkomandi tengil.  
 3. Á síðunni **AMC Banking Uppsetning**, skaltu velja aðgerðina **Uppsetning með hjálp**.
 4. Ljúka skal skrefunum í leiðbeiningum um uppsetningu með hjálp.
 
-### Til að tengja bankareikninga við viðbótina
+### <a name="to-connect-bank-accounts-to-the-extension"></a>Til að tengja bankareikninga við viðbótina
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Opnaðu spjaldið fyrir bankareikninginn sem þú vilt tengja við þjónustuna.
@@ -64,14 +64,14 @@ Fyrir hverja nýja heimildasamstæðu skal aðeins veita heimildina **Lesa** fyr
 4. Í reitnum **Númer fyrir skilaboð kreditfærslu** skaltu velja númeraröðina sem nota á fyrir skilaboð sem fylgja greiðslum.
 5. Í reitunum **Innflutningssnið bankayfirlits** og **Greiðsluútflutningssnið** skal velja þær gagnaskiptaskilgreiningar sem bankinn krefst.
 
-## Nota viðbótina
+## <a name="use-the-extension"></a>Nota viðbótina
 
 Ef þú notar þessa viðbót þarf aðeins að flytja út gögn á síðunni **Greiðslubækur** og síðan hlaða þeim upp á vefþjónustu bankans. Nánari upplýsingar er að finna í [Greiða með umreikningsþjónustu bankagagna eða SEPA kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
 > [!NOTE]
 > Þú verður að fylla út reitina **SWIFT kóði** og **IBAN** fyrir hvern bankareikning.
 
-### Til að flytja út gögn og senda þau í bankann þinn
+### <a name="to-export-data-and-submit-it-to-your-bank"></a>Til að flytja út gögn og senda þau í bankann þinn
 
 > [!CAUTION]  
 > Þegar þú flytur út gögn með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir þjónustuna geta séð eitthvað af gögnunum. Þjónustuveita, AMC Consult A/S, er ábyrg fyrir persónuvernd gagnanna. Nánari upplýsingar er að finna í [AMC-persónuverndarstefnu](https://go.microsoft.com/fwlink/?LinkId=510158).
@@ -83,14 +83,14 @@ Ef þú notar þessa viðbót þarf aðeins að flytja út gögn á síðunni **
    > Fyrir hverja línu skaltu muna að velja **Rafræn greiðsla** í reitnum **Tegund bankagreiðslu**.
 3. Veldu **Export** aðgerðina.
 
-### Til að flytja inn og nota umbreyttu skrána
+### <a name="to-import-and-apply-the-converted-file"></a>Til að flytja inn og nota umbreyttu skrána
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluafstemmingarbók** og velja síðan viðkomandi tengil.
 2. Veldu aðgerðina **Flytja inn bankafærslur** og svo umbreyttu skrána.  
 
    [!INCLUDE[prod_short](includes/prod_short.md)] stofnar nýja greiðsluafstemmingarbók sem inniheldur gögnin í skránni. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
