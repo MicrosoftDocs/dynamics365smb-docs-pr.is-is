@@ -54,7 +54,7 @@ Spjallaðu við Copilot snið sem þarf til að vafra um notendaviðmótið eða
 
    > [!TIP]
    > Copilot inniheldur nokkrar aðgerðir sem geta hjálpað skrifuðum spurningum:
-   > - Hafist er handa við að móta spurningu skal velja eina af kvaðningarleiðbeiningunum&mdash;**Finna**, **Útskýra** eða **Leiðbeiningar**&mdash; efst á svæðinu ![Sýnir útkallsnúmer 3](media/callout-number-3.svg) eða úr tákninu ![Sýna kvaðningarleiðbeiningar táknið](media/prompt-guide-icon.png) **Skoða kvaðningu**  hér að ofan **Spyrja spurningareit**  ![Sýnir útkallsnúmer 4](media/callout-number-4.svg). Leiðbeiningar um kvaðningu eru fyrirfram skilgreind stutt orðasamband sem hefja spurningu eða kvaðningu. Fyrir utan að spara þér tíma eru þau hönnuð til að leiðbeina svörum Copilot í átt að flokki svara. Þeir hjálpa þér einnig að skilja hvernig á að orðalag spurninga til að fá bestu svörin.
+   > - Hafist er handa við að móta spurningu skal velja eina af kvaðningarleiðbeiningunum&mdash;**Finna**, **Útskýra** eða **Leiðbeiningar**&mdash; efst á svæðinu ![Sýnir útkallsnúmer 3](media/callout-number-3.svg) eða úr  ![tákninu](media/prompt-guide-icon.png) **Sýna kvaðningarleiðbeiningar táknið Skoða kvaðningu**  hér að ofan **Spyrja spurningareit**  ![Sýnir útkallsnúmer 4](media/callout-number-4.svg). Leiðbeiningar um kvaðningu eru fyrirfram skilgreind stutt orðasamband sem hefja spurningu eða kvaðningu. Fyrir utan að spara þér tíma eru þau hönnuð til að leiðbeina svörum Copilot í átt að flokki svara. Þeir hjálpa þér einnig að skilja hvernig á að orðalag spurninga til að fá bestu svörin.
    > - Velja skal kvaðningartillögurnar fyrir ofan hnappinn **Skoða** kvaðningar ![Sýnir útkallsnúmer 5](media/callout-number-5.svg) til að spyrja sjálfkrafa fyrirfram skilgreinda spurningu til að fá innsýn í hvernig spurningarnar og svörin virka. Kvaðningartillögur eru aðeins tiltækar þegar sýnifyrirtækið er notað CRONUS .
 
 1. Skoða svörin sem birtast á rúðunni Copilot ![Sýnir útkallsnúmer 6](media/callout-number-6.svg).
@@ -103,9 +103,9 @@ Hvetja: `How does I save my filterrings to do them later?`
 
 Í þessu dæmi er copilot beðið um leiðbeiningar um hvernig eigi að framkvæma einhver verk í Business Central. Copilot getur yfirleitt skilið ásetning spurningar þinnar, jafnvel þótt til séu nokkrar málfræðilegar villur, stafsetningarvillur eða skammstafanir.
 
-Hvetja: `Provide feedback on answers`
+## Birta svörun á svörum
 
-Hægt er að meta svörin sem þú færð frá Copilot með því að nota like (þumalputta upp) hnapp fyrir góða flokkun eða ólíkt (þumalputtum niður) hnapp fyrir lélega flokkun. Þegar mislíkindahnappurinn er valinn er hægt að velja ástæðu, þ.m.t. ónákvæman, óviðeigandi eða annan. Þessar upplýsingar getum við aðstoðað okkur við að bæta tillögur.
+Hægt er að meta svörin sem þú færð frá Copilot með því að nota like (þumalputta upp) hnapp fyrir góða flokkun eða ólíkt (þumalputtum niður) hnapp fyrir lélega flokkun. Þegar mislíkindahnappurinn er valinn er hægt að velja ástæðu, þ.m.t. ónákvæman, óviðeigandi eða annan. Þessar upplýsingar geta hjálpað okkur að bæta tillögur.
 
 <!--
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.
@@ -113,7 +113,7 @@ Hægt er að meta svörin sem þú færð frá Copilot með því að nota like 
    Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
 ## Sjá einnig .
 
-[Villuleita Copilot- og gervigreindarmöguleika](ai-copilot-troubleshooting.md)  
+[Úrræðaleit fyrir Copilot- og AI-eiginleika](ai-copilot-troubleshooting.md)  
 [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)  
 [Ábyrg algengar spurningar fyrir spjall við Copilot](faqs-chat-with-copilot.md)  
 [Forði til hjálpar í Business Central](product-help-and-support.md)  

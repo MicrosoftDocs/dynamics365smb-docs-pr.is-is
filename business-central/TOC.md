@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Skilja VÍV-aðferðir](projects-understanding-wip.md)
 ### [Fylgjast með framvindu og afköstum verks](projects-how-monitor-progress-performance.md)
 ### [Reikningsverk](projects-how-invoice-jobs.md)
+### [Setja saman í verk](projects-assemble-to-project.md)
 
 ## Eignir
 ### [Yfirlit yfir eignir](fa-manage.md)
@@ -2095,7 +2096,7 @@ ms.service: dynamics-365-business-central
 ## Spjalla við Copilot (forskoðun)
 ### [Spjalla við Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ### [Algengar spurningar um spjall við Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
-### [Svör við algengum spurningum um AI fyrir spjall við Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [Algengar spurningar um ábyrga gervigreind fyrir spjall við Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Tillögur að markaðstexta
 ### [Yfirlit yfir tillögur að markaðstexta](ai-overview.md)
 ### [Búa til markaðstexta með Copilot](item-marketing-text.md)

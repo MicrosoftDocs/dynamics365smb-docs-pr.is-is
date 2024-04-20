@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 03/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Microsoft Copilot er AI-powered aðstoðarmaður sem hjálpar neista sköpunarkr
 
 Copilot inniheldur sífellt stækkandi safn af getu sem aðstoðar notendur í mismunandi hlutverkum og verkum. Nánari upplýsingar um Copilot og aðrar ÓM-aðgerðir í Business Central kl [aka.ms/BCAI](https://aka.ms/BCAI). 
 
-## Er Copilot ókeypis? 
+## Er Copilot ókeypis?
 
 Á þessum tíma er Copilot í Business Central innifalið með Business Central leyfinu þínu án aukakostnaðar. Þetta útilokar ekki að sanngjörn notkunarstefna, tilvitnun eða verðlagning gæti verið kynnt síðar.
 
@@ -38,7 +38,11 @@ Business Central býður upp á fjölmarga eiginleika sem eru öflugir AI. Sumir
 
 ## Er Copilot í Business Central aðgengilegt um allan heim? 
 
-Copilot inniheldur sífellt stækkandi safn af getu sem aðstoðar notendur í mismunandi hlutverkum og verkum. Hver stjórnunarmöguleiki skilgreinir eigin lista yfir studd svæði og studd tungumál. Þó að flestir eiginleikar hefjist líklega eingöngu í boði á ensku, þráum við að aflæsa fleiri tungumálum og svæðum með tímanum. Hægt er að fá yfirlit yfir Copilot-tungumálin og svæðin sem tiltæk eru fyrir viðskiptaforrit á [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+Copilot inniheldur sífellt stækkandi safn af getu sem aðstoðar notendur í mismunandi hlutverkum og verkum. Hver stjórnunarmöguleiki skilgreinir eigin lista yfir studd svæði og studd tungumál. Þó að flestir eiginleikar hefjist líklega eingöngu í boði á ensku, þráum við að aflæsa fleiri tungumálum og svæðum með tímanum. Hægt er að fá yfirlit yfir stjórnunartungumál og svæði sem eru tiltæk fyrir viðskiptaforrit kl [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+
+## Er Copilot meðvitaður um sérstillingar umhverfisins míns?
+
+Sumir en ekki allir eiginleikar Copilot geta unnið með sérsniðnar síður og töflur. Til dæmis er hægt að nota [greiningaraðstoð](analysis-assist.md) við sérsniðna lista eða [spjall við Copilot](chat-with-copilot.md) til að finna færslur í sérsniðnum töflum. Til að skilja hvaða Eiginleikar Copilot vinna með sérstillingar skal leita ráða í greinum hverrar aðgerðar.
 
 ## Get ég þróað eigin copilots fyrir Business Central?
 
@@ -79,9 +83,9 @@ Já. Copilot er einkarétt á Business Central á netinu sem þýðir að hún e
 ## Sjá einnig .
 
 [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)  
-[Greina gögn í listum með Copilot](analysis-assist.md)  
+[Greina gögn á listum með Copilot](analysis-assist.md)  
 [Spjall við Copilot](chat-with-copilot.md)  
 [Búa til markaðstexta með Copilot](item-marketing-text.md)  
-[Varpa e-skjölum í innkaupapöntunarlínur með Copilot](map-edocuments-with-copilot.md)  
+[Tengja rafræn við innkaupapöntunarlínur með Copilot](map-edocuments-with-copilot.md)  
 [Afstemma bankareikninga með Copilot](bank-reconciliation-with-copilot.md)  
-[Leggja til línur í sölupöntunum með Afrita](sales-suggest-sales-lines-with-copilot.md)  
+[Leggja til línur á sölupöntunum með Copilot](sales-suggest-sales-lines-with-copilot.md)  

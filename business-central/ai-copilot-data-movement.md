@@ -5,13 +5,13 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 11/30/2023
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="copilot-data-movement-across-geographies"></a>Yfirmannsgagnahreyfing í landsvæðum
+# Yfirmannsgagnahreyfing í landsvæðum 
 
 Copilot er fáanlegt í öllum studdum [Business Central löndum/svæðum](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Hins vegar notar Microsoft Azure OpenAI Copilot þjónustu sem er eingöngu tiltæk fyrir Business Central á sumum landsvæðum. Þetta þýðir að ef umhverfið þitt er staðsett annars staðar verður að senda gögn úr eiginleikanum Copilot og generative AI utan landsvæðisins og hægt er að vinna gögnin utan samræmismarka þíns. Gögn fela í sér kvaðningar og viðskiptagögn sem copilot notar eða mynda þau. Í þessu tilfelli verður að velja að leyfa hreyfingu gagna til Azure-þjónustu OpenAI í annarri landafræði. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
@@ -23,27 +23,27 @@ Copilot er fáanlegt í öllum studdum [Business Central löndum/svæðum](/dyna
 > 
 > Copilot- og myndandi AI-eiginleikar frá útgefendum sem ekki koma frá Microsoft, svo sem þeim sem koma úr sérstillingum eða AppSource forritum sem þú setur upp, skilgreina hvert þeirra sérstök Azure-þjónustusvæði OpenAI . Ráðfærðu þig við útgefanda viðbótarinnar til að skilja hvaða svæðisbundna Azure-þjónustur notast við viðbótina. 
 
-### <a name="azure-openai-service-geographies"></a>Azure OpenAI þjónusta landfræði
+### Azure OpenAI þjónusta landfræði
 
 Eftirfarandi tafla sýnir landafræði Azure-þjónustunnar OpenAI sem Copilot notar, byggt á Azure-svæðinu í Business Central umhverfi. Þessar upplýsingar skipta miklu máli þegar ákveðið er hvort eigi að skrá gagnahreyfingar yfir landfræðilegar upplýsingar. Þú getur fundið Azure-svæðið fyrir umhverfið í stjórnunarmiðstöð Business Central (sjá [Stjórnun umhverfis í stjórnunarmiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
 | Umhverfis azure-svæði| Azure OpenAI þjónusta landfræði|Stjórna aðgerð sem þarf til að aflæsa Stjórnunaraðgerð| 
 | - | - | - |
 |Asía (Austur, Suður-Austur) |Bandaríkin|Já|
-|Ástralía (Suður-Austur)| Bandaríkin |Já |
+|Ástralía (Suður-Austur)| Ástralía |Nr. |
 |Brasilía (Suður) |Bandaríkin|Já|
 |Kanada (Mið, Austur)|Bandaríkin|Já|
 |Evrópa (Vestur, Norður)| Svíþjóð eða Sviss |Nei\*|
 |Frakkland (Mið, Suður)| Svíþjóð eða Sviss |Já|
 |Þýskaland (Norður, Vestur-Miðborg)| Svíþjóð eða Sviss |Já|
-|Indland (Mið, Suður)|Bandaríkin|Já|
+|Indland (Mið, Suður)|Indland|Nr.|
 |Japan (Austur, Vestur)|Bandaríkin|Já|
 |Kórea (Mið, Suður)|Bandaríkin|Já|
 |Noregur (Austur, Vestur)|Svíþjóð eða Sviss |Já|
 |Suður-Afríka (Norður, Vestur)|Bandaríkin|Já|
 |Sviss (Norður, Vesturland) |Svíþjóð eða Sviss |Já|
 |Sameinuðu Arabísku Furstadæmin (Norður, Vestur)|Bandaríkin|Já|
-|Bretland (Suður, Vestur)|Bretland|Já|
+|Bretland (Suður, Vestur)|Bretland|Nr.|
 |Bandaríkin (Mið, Austur, Norður miðsvæðis, Suður miðsvæðis, Vestur) |Bandaríkin|Nr.|
 
 \* Í umhverfi á Vestur-Evrópu og Norður-Evrópu Azure svæðum velur Business Central sjálfkrafa að gagnahreyfingu yfir landfræðilegu svæði, en stjórnendur geta valið að afþakka hvenær sem er.
@@ -109,6 +109,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
 Þú velur (eða út úr) gagnahreyfingu yfir landfræðilegar gerðir af síðunni [Copilot & AI.](https://businesscentral.dynamics.com/?page=7775)  Nánari upplýsingar eru notaðar til að [leyfa hreyfingu gagna í landfræði.](enable-ai.md#allow-data-movement-across-geographies)

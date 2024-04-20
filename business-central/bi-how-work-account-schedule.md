@@ -127,6 +127,37 @@ Hægt er að nota fjárhagsskýrslu til að búa til yfirlit sem ber fjárhagst�
 
 Nú er hægt að afrita áætlunaryfirlitið og líma það inn í töflureikni.  
 
+## Samþætta fjárhagsskýrslur við Excel
+
+Hægt er að samþætta fjárhagsskýrslu við Excel-vinnubókarsniðmát, stilla uppsetninguna eftir þörfum og uppfæra Excel-sniðmátið svo með gögnum úr [!INCLUDE[prod_short](includes/prod_short.md)]. Þessi samþætting auðveldar t.d. að búa til mánaðarleg og árleg ársreikninga með sniði sem gildir fyrir notandann.
+
+### Setja upp Excel-samþættingu fyrir fjárhagsskýrslu (stofna Excel-sniðmát)
+
+Til að setja upp Excel-samþættingu fyrir fjárhagsskýrslu skal fylgja þessum skrefum til að stofna Excel-sniðmát fyrir skýrslu.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsskýrslur** og velja síðan viðkomandi tengil.
+1. Á síðunni **Fjárhagsskýrslur** skal velja fjárhagsskýrsluna sem á að virkja með Excel og velja svo aðgerðina **Flytja út í Excel** .
+1. Veljið aðgerðina **Stofna nýtt skjal** . Þessi aðgerð sækir Excel-vinnubók sniðmáts með einu vinnublaði sem nefnd er eftir skýrsluheitinu.
+1. Afrita vinnublaðið og endurnefna það í **Gögn**.
+1. Endurnefna skýrsluvinnublaðið að vild.
+1. Á skýrsluvinnublaðinu eru allir reitir sem sýna gögn úr fjárhagsskýrslunni merktir (með dálki og línuhausum). Á borðanum **Heima** er að finna valmyndina **Númer** og Almennt **valið** sem snið.
+1. Velja skal vinstri flesta reiti svæðisins með gögnum úr fjárhagsskýrslunni og stilla tilvísun í samsvarandi reit á gagnavinnublaðinu. Dragðu reikniregluna til hægri til að lengja hana í allar reiti í fyrstu röðinni og dragðu svo línuna niður til að ná yfir allar línur í fjárhagsskýrslunni.
+1. Fela **gagnavinnublaðið** .
+1. Skýrsluvinnublaðið er sniðið eftir þörfum.
+1. Vista vinnubókina OneDrive á eða á svipuðum stað þar sem skráin er afrituð og útgáfan.
+1. Vinnubókinni er lokað.
+
+### Keyra fjárhagsskýrslu með Excel-sniðmáti
+
+Til að keyra fjárhagsskýrslu með Excel-sniðmáti skal fylgja eftirfarandi skrefum:
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsskýrslur** og velja síðan viðkomandi tengil.
+1. Á síðunni **Fjárhagsskýrslur** skal velja fjárhagsskýrsluna sem á að virkja með Excel og velja svo aðgerðina **Flytja út í Excel** .
+1.  **Velja skal uppfæra afrit fyrirliggjandi skjals** .
+1. Hlaða upp Excel-sniðmátinu (Excel-vinnubókinni er lokað áður en það er hlaðið upp).
+1. Á síðunni **Uppfletting** heiti/gildi skal velja Gagnavinnublaðið.
+1. [!INCLUDE[prod_short](includes/prod_short.md)] keyrir fjárhagsskýrsluna og sameinar gögnin sem verða til við Excel-sniðmátið.
+
 ## Prenta og vista fjárhagsskýrslur
 
 Þú getur prentað fjárhagsskýrslur með því að nota prentþjónustu tækisins þíns. [!INCLUDE[prod_short](includes/prod_short.md)] Býður einnig upp á valkosti til að vista skýrslur sem Excel-vinnubækur, Word skjöl, PDF og XML-skrár.
@@ -148,6 +179,7 @@ Hægt er að vista fjárhagsskýrslu á skráarsniði eins og PDF, XML, Word eð
 1. Veljið skráarsnið eða aðgerðina **Tímasetja** og veljið **Í lagi**.
 1. Fylltu út reitina til að búa til tímasetta eða endurtekna fjárhagsskýrslu. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Þegar um endurteknar fjárhagsskýrslur er að ræða skal stilla reitina **Fyrsti upphafsdagur/tími** og **Lokadagsetning/tími** með fyrstu og síðustu dagsetningunni til að búa til fjárhagsskýrsluna. Veldu einnig á hvaða dögum skýrslan er mynduð með því að stilla reitinn fyrir **Fyrsti upphafsdagur/tími** með því að fylgja sniðinu sem útskýrt er í hlutanum [Nota dagsetningarformúlur](ui-enter-date-ranges.md#use-date-formulas).
 
+
 ## Bestu starfsvenjur til að vinna með skilgreiningar fjárhagsskýrslu
 
 Skilgreiningar á fjárhagsskýrslum eru ekki útgáfaðar. Þegar skýrsluskilgreiningu er breytt er gömlu útgáfunni skipt út þegar breytingin er vistuð í gagnagrunninum. Eftirfarandi listi hefur að geyma bestu starfsvenjur til að vinna með skilgreiningar á fjárhagsskýrslum:
@@ -165,7 +197,7 @@ Hægt er að flytja inn og út fjárhagsskýrsluskilgreiningar sem RapidStart gr
 
 Til að flytja inn eða út fjárhagsskýrsluskilgreiningar skal fylgja eftirfarandi skrefum:
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") veldu táknið, sláðu inn **Fjárhagsskýrslur** og veldu síðan viðkomandi tengil.
+1.  ![Veldu Lightbulb sem opnar Tell Me eiginleika 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") veldu táknið, sláðu inn **Fjárhagsskýrslur** og veldu síðan viðkomandi tengil.
 1. Veldu fjárhagsskýrsluna og veldu svo aðgerðina **Flytja inn fjárhagsskýrslu** eða **Flytja út fjárhagsskýrslu**, eftir því hvað á að gera.
 
 Farið er í eftirfarandi greinar til að fá nánari upplýsingar um hvernig á að flytja inn eða út fjárhagsskýrslulínur eða dálkaskilgreiningar: 

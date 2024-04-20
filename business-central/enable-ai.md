@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 02/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -35,12 +35,12 @@ ms.collection:
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-Ef einhver þessara þarfa er ekki uppfyllt er aðgerðin ekki tiltæk til notkunar.-->
+Ef einhver þessara þarfa er ekki uppfyllt er aðgerðin ekki tiltæk til notkunar.
 
 ## Frumskilyrði
 
-- Þú notar Business Central á netinu <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
-- Þú ert með admin eða yfirheimildir í Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
+- Þú notar Business Central á netinu.
+- Ūú ert stjķrnandi [í](#requirements-for-being-an-administrator) Business Central.
 
 ## Leyfa hreyfingu gagna á landsvæðum
 
@@ -116,27 +116,46 @@ Eftirfarandi tafla birtir nauðsynlegar heimildir til að nota Copilot-eiginleik
 
 |Eiginleikar stjórnklefa|Nauðsynlegar heimildir|
 |-|-|
-|Greiningaraðstoð|**GAGNAGREINING - EXEC** heimild stillt eða keyrð heimild fyrir kerfishlut 9640 **Leyfa gagnagreiningarstillingu**. Þetta eru sömu heimildir sem þarf til að komast í greiningarhaminn.|
+|Greiningaraðstoð|**GAGNAGREINING - EXEC** heimild stillt eða keyrð heimild fyrir kerfishlut 9640 **Leyfa gagnagreiningarstillingu**. Þessar heimildir eru sömu heimildir sem þarf til að komast í greiningarhaminn.|
 |Aðstoð við bankaafstemmingu|Heimild á bls. 7250 **Bankareikn.uppg. AI-tillaga og bls** . 7252 **Trans. Tillaga til fjárhagss**. AI.|
 |Spjalla |Engar heimildir eða heimildamengi hafa aðgang að til að spjalla eftir notanda. Ef spjall er virkjað er það tiltækt öllum notendum.|
+|Varpa e-skjölum |Heimild á bls. 6166 **E-Doc. Stjórnklefavinnslna innkaupapöntunar**|
 |Tillögur að markaðstexta |Heimild á síðu 5836 **Copilot markaðssetningartexti**|
+|Sölulínutillögur |Heimild á bls. 7275 **Sölulína AI tillögur og bls** . 7276 **Sölulína AI-tillögur undir**|
 
-Ef veita á eða neita aðgangi að tilteknum stjórnunarmöguleikum Microsoft og afkastagetu er leitað ráða hjá heimildum eða útgefanda þeirrar aðgerðar til að bera kennsl á hvaða heimilda er þörf.
+Ef veita á eða neita aðgangi að tilteknum stjórnunarmöguleikum Microsoft og afkastagetu er leitað ráða hjá heimildum eða útgefanda aðgerðarinnar til að bera kennsl á tilskildar heimildir.
+
+## Kröfur um að vera stjórnandi
+
+Þú verður að hafa annaðhvort SUPER heimildir í Business Central notandareikningi eða eitt af eftirfarandi Business Central leyfi:
+
+- Úthlutaður stjórnandi
+- Úthlutuð hjálp
+- Altækur stjórnandi
+- BC stjórnandi
+- D365-stjórnandi
+
+Business Central býður ekki enn eindar heimildir til að aðeins tilteknir stjórnendur geti stillt Copilot.
 
 ## Næstu skref
 
 Þegar þú hefur virkjað og veitt samþykki fyrir aðgerðunum er þú tilbúinn að prófa þær. Farðu til:
 
-- [Bæta markaðssetningartexta við vörur](item-marketing-text.md)
-- [Greining gagna í greiningarstillingu með Copilot](analysis-assist.md)  
+- [Bæta markaðssetningartexta við vörur með Afrita](item-marketing-text.md)
+- [Greina listagögn með hjálp Copilot](analysis-assist.md)  
 - [Spjall við Copilot](chat-with-copilot.md)
-- [Stemma af með aðstoð afstemmingar bankareiknings](bank-reconciliation-with-copilot.md)
+- [Tengja rafræn við innkaupapöntunarlínur með Copilot](map-edocuments-with-copilot.md)
+- [Afstemma bankareikninga með Copilot](bank-reconciliation-with-copilot.md)
+- [Leggja til línur á sölupöntunum með Copilot](sales-suggest-sales-lines-with-copilot.md)  
 
 ## Sjá einnig .
 
-[Villuleita Copilot- og gervigreindarmöguleika](ai-copilot-troubleshooting.md)  
-[Algengar spurningar fyrir greiningaraðstoð](faqs-analysis-assist.md)  
+[Úrræðaleit fyrir Copilot- og AI-eiginleika](ai-copilot-troubleshooting.md)  
+[Algengar spurningar um greiningaraðstoð](faqs-analysis-assist.md)  
 [Algengar spurningar um aðstoð vegna bankaafstemmingar](faqs-bank-reconciliation.md)  
 [Algengar spurningar fyrir spjall við Copilot](faqs-chat-with-copilot.md)  
+[Algengar spurningar um vörpun e-skjala með innkaupapöntunum](faqs-map-edocuments.md)  
 [Algengar spurningar um tillögur að markaðstexta](faqs-marketing-text.md)  
+[Algengar spurningar fyrir sölulínutillögur](faq-sales-suggest-sales-lines-with-copilot.md)  
+
 [Yfirlit yfir tillögur að markaðstexta](ai-overview.md)  

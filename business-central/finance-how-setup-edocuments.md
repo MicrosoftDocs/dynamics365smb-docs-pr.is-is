@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
-ms.date: 03/29/2023
+ms.date: 04/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-e-documents"></a>Setja upp tölvupóstskjöl
+# Setja upp tölvupóstskjöl
 
 > [!IMPORTANT]
 > Kjarnaeining tölvupóstskjala er rammi. Sjálfgefið er að ekki **sé reiturinn Þjónustuheildun** . Ef sjálfgefið **er að valkostir fylgiskjalssniðs** finnist skal hafa í huga að þeir eru boðin sem dæmi og staðfæringin verður að gefa nákvæmt snið. Þessar upplýsingar eru hluti af staðfæringarforritum því þau eru sértæk fyrir staðbundnar kröfur.
@@ -21,12 +21,12 @@ ms.service: dynamics-365-business-central
 
 Fyrsta skrefið í grunnstillingu rafrænna skjala (e-documents) er að setja upp E-Documents-þjónustuna þar sem hegðun kerfisins er grunnstillt þar sem það er tengt tölvupóstsamskiptum.
 
-## <a name="set-up-the-e-document-service"></a>Setja upp tölvupóstþjónustu
+## Setja upp tölvupóstþjónustu
 
 Fylgið þessum skrefum til að setja upp E-Document Service.
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **E-Document Services** og velja síðan viðeigandi tengil.
-2. Valið er **Nýtt og á** síðunni Þjónusta **í E-skjali á flýtiflipanum** Almennt **skal grunnstilla reitina eins og lýst er**  í eftirfarandi töflu.
+2. Valið er **Nýtt** og á síðunni **Þjónusta í E-document Services** á flýtiflipanum **Almennt** skal grunnstilla reitina eins og lýst er í eftirfarandi töflu.
 
     | Svæði | Heimildasamstæða |
     |-------|-------------|
@@ -71,11 +71,11 @@ Ef skilgreiningarsnið **data** Exchange hefur verið grunnstillt í staðfærin
 
 Ef skilgreiningarsnið gagnaskipta er ekki notað **er hægt að búa til og grunnstilla snið með því að nota viðmótið**  [.](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) Stilla skal upplýsingarnar í **Útflutningsvörpun** og **Innflutningsvörpunarlínum** þar sem hægt er að finna töflur og reiti til að grunnstilla umbreytingarreglur. Í þessu tilviki verður að bæta við nýjum valkosti í reitnum **Skjalasnið** sem tengist sniðinu.  
 
-### <a name="supported-document-types"></a>Studdar skjalategundir
+### Studdar skjalategundir 
 
 Studdar skjalategundir eru byggðar á því skjalasniði **sem** valið var. Til að kanna hvaða skjalategundir eru studdar skal velja aðgerðina **Studdar skjalategundir á síðunni**  **Studdar skjalategundir** . Skjalaþjónustan **sem studd er við upprunaskjal** opnast og í dálknum **Tegund** upprunaskjals er hægt að velja mismunandi tegundir skjala til að gera þær sem studdar af því sniði sem ætlunin er að nota. Tryggja skal að skjalategundin noti ekki ef skjalið er ekki valið á þessari síðu.   
 
-## <a name="set-up-a-document-sending-profile"></a>Setja upp skjalasendingarsnið
+## Setja upp skjalasendingarsnið
 
 Hægt er að setja upp kjöraðferð til að senda söluskjöl fyrir hvern viðskiptamann. Á þennan hátt þarf ekki að velja sendingarkost í hvert skipti þegar aðgerðin **Bóka og senda** er valin. Á síðunni **Sendingarforstillingar skjala** er hægt að setja upp mismunandi sendingarforstillingar og velja síðan þær í reitnum **Sending forstillingar** skjala á viðskiptamannaspjaldi. Hægt er að velja gátreitinn **Sjálfgefið** til að tilgreina að skjalasendingarforstilling sé sjálfgefin forstilling fyrir alla viðskiptamenn, nema viðskiptamenn þar sem reiturinn **Skjalasendingarforstilling** er stilltur á aðra sendingarforstillingu.
 
@@ -97,7 +97,7 @@ Fylgið þessum skrefum til að setja upp skjalasendingarforstillingu.
     > [!NOTE]
     > Ef valið er **Aukið þjónustuflæði** í rafrænu skjali **verður** þegar að vera grunnstillt verkflæði fyrir tölvupóstskjölin.
 
-## <a name="set-up-the-workflow"></a>Setja upp verkflæðið
+## Setja upp verkflæðið
 
 Fylgið þessum skrefum til að setja upp verkflæðið sem er notað í e-skjalaaðgerðum.
 
@@ -114,9 +114,9 @@ Fylgið þessum skrefum til að setja upp verkflæðið sem er notað í e-skjal
 
 Til að nota fleiri verkflæði skal grunnstilla þau í gegnum skjalasendingarsnið fyrir mismunandi viðskiptamenn. Þegar verkflæðið er sett upp skal tilgreina skjalasendingarsniðið í dálknum **Á skilyrði** á flýtiflipanum **Verkflæðisskref** því ekki er hægt að hafa tvær þjónustur sem nota sömu skjalasendingarsnið í verkflæðum.
 
-Þegar verkflæðið er grunnstillt á síðunni **Verkflæði** skal benda **á reitinn Á skilyrði** á flýtiflipanum **Verkflæðisskref** . Á síðunni **Skilyrði tilviks** í reitnum **Afmörkun** skal velja skjalasendingarsniðið sem á að nota.
+Þegar verkflæði er grunnstillt á síðunni **Verkflæði** skal benda **á reitinn Á skilyrði** á flýtiflipanum **Verkflæðisskref** . Á síðunni **Skilyrði tilviks** í reitnum **Afmörkun** skal velja skjalasendingarsniðið sem á að nota.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Setja upp varðveitingarstefnu fyrir tölvupóstskjöl
+## Setja upp varðveitingarstefnu fyrir tölvupóstskjöl
 
 Tölvupóstskjöl geta verið efni ólíkra staðbundinna löggjafa sem tengjast því tímabili sem tölvupóstskjölin eru geymd fyrir. Því höfum við bætt við uppsetningu varðveitingarstefnu fyrir allar mikilvægar upplýsingar sem tengjast tölvupóstskjölum. Stjórnendur geta skilgreint varðveitingarreglur sem tilgreina hversu oft Dynamics 365 Business Central eyðir úreltum færslum sem tengjast tölvupóstskjölum. Nánari upplýsingar um varðveitingarstefnur [eru í Skilgreina varðveitingarreglur](admin-data-retention-policies.md).
 
@@ -130,7 +130,7 @@ Til að setja upp varðveitingarstefnur sem tengjast e-skjali skal fylgja þessu
     - Vörpunarskrá rafræns skjals
     - Gagnageymsla tölvupóstskjala
 
-## <a name="e-documents-demo-data"></a>Sýnigögn e-skjala
+## Sýnigögn e-skjala  
 
 > [!NOTE]
 > Úr Business Central útgáfu 24.0 er hægt að setja upp sýnigögn fyrir E-skjöl.
@@ -143,15 +143,16 @@ Microsoft bjó til nýja kynningu á rafrænum skjölum **til að veita auðveld
 4.  Fylgdu skrefunum.  
 5.  Loka síðunni.   
 
-Þegar þú hefur virka einingu, þá væri búið að búa til nýjar kynningarvörur, flutt inn sex rafræn skjöl (byggt á Peppol BIS 3) og þegar grunnstillt **E-Document þjónusta** með stofnuðum verkflæðum.  
+Þegar þú hefur virka einingu hefði verið búin til ný kynningarvara, flutt inn sex rafræn skjöl (byggt á Peppol BIS 3) og þegar grunnstillt **E-Document Services** með stofnuðum verkflæðum.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Hvernig á að nota e-skjöl í Business Central](finance-how-use-edocuments.md)  
-[Hvernig á að framlengja tölvupóstskjöl í Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Fjármálastjórnun](finance.md)  
-[Reikningsfæra sölur](sales-how-invoice-sales.md)  
-[Skrá innkaup með innkaupareikningum og pöntunum](purchasing-how-record-purchases.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Hvernig á að nota tölvupóstskjöl í sölu](finance-how-use-edocuments.md)    
+[Hvernig nota á tölvupóstskjöl við innkaup](finance-how-use-edocuments-purchase.md)  
+[Hvernig á að framlengja tölvupóstskjöl í Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Fjármálastjórnun](finance.md)    
+[Reikningsfæra sölu](sales-how-invoice-sales.md)    
+[Skrá innkaup með innkaupareikningum og pöntunum](purchasing-how-record-purchases.md)    
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

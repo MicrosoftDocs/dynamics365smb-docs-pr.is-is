@@ -8,11 +8,11 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 03/27/2024
+ms.date: 04/15/2024
 ms.custom: bap-template
 ---
 
-# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Stemma af bankareikninga við Afrita (forskoðun)
+# Stemma af bankareikninga við Afrita (forskoðun)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ ms.custom: bap-template
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="about-bank-account-reconciliation-assist"></a>Aðstoð við afstemmingu bankareikninga
+## Aðstoð við afstemmingu bankareikninga
 
 Aðstoð við afstemmingu bankareikninga er safn afléttra eiginleika sem aðstoða við afstemmingu bankareikninga. Aðstoð við afstemmingu bankareiknings býður upp á tvo aðgreinda verkhluta með Copilot:
 
@@ -34,16 +34,16 @@ Aðstoð við afstemmingu bankareikninga er safn afléttra eiginleika sem aðsto
 
   Afritið ber færslulýsinguna saman við heiti fjárhagsreikninga og leggur til líklegustu fjárhagsreikningana til að bóka á fyrir afviknar bankafærslur sem ekki er hægt að para við færslur. Til dæmis gæti Copilot lagt til að færslur með frásögninni "Eldsneytisstöð 24" verði bókaðar á "flutningsreikninginn".
   
-   Fara í [Millifærslu ósamræmdra bankafærslna í tillögur um fjárhagsreikninga](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
+   Fara í [Bóka ósamræmdar bankafærsluupphæðir á fjárhagsreikninga](#post-unmatched-bank-transaction-amounts-to-suggested-general-ledger-accounts) sem lagðar eru til.
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
 - Aðstoð við afstemmingu bankareikninga er gerð virk. Stjórnandi sinnir þessu verki. [Fræðast meira um grunnstillingu stjórnunargetu og afkastagetu](enable-ai.md) Stjórnunargetu.
 - Bankareikningar í Business Central sem á að stemma af eru tengdir netbankareikningi eða settir upp með innflutningssniði bankayfirlita. 
 - Þú kannast við afstemmingu bankareikninga í Business Central eins og lýst er í [afstemmingu bankareikninga](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## <a name="reconcile-bank-accounts-with-copilot"></a>Stemma af bankareikninga við Afrita
+## Stemma af bankareikninga við Afrita
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -87,7 +87,7 @@ Með þessari aðferð er Afrita annaðhvort notað í nýrri afstemmingu bankar
 1. Skoða eldsnið sem lagt er til eins og lýst er í eftirfarandi hluta. 
 ---
 
-### <a name="review-save-or-discard-proposed-matches"></a>Skoða, vista eða fleygja eldsniðum sem lagt er til
+### Skoða, vista eða fleygja eldsniðum sem lagt er til
 
 Þegar Afrita hefur verið keyrt **sýnir glugginn Afstemming við copilot nákvæmar niðurstöður, þ.m.t. eldspýtur sem lagt** er til. Á þessum tímapunkti hafa engar samsvörunir lagðar til af Copilot verið vistaðar, þannig að það veitir þér tækifæri til að skoða tillögurnar og vista eða fleygja eins og þú vilt.
 
@@ -102,7 +102,7 @@ Copilot-glugganum er skipt í tvo hluta. Efri hlutinn veitir nokkrar almennar up
 |Lokastaða yfirlits|Tilgreinir lokastöðuna á bankayfirlitinu sem verið er að stemma af við|
 |Bóka ef jafnað að fullu|Kveikja skal á þessum rofa ef óskað er eftir að bóka sjálfkrafa afstemmingu bankareiknings þegar allar línur (100%) eru samsvöruð og haldið henni **áfram**.|
 
-#### <a name="save-or-discard-proposed-matches"></a>Vista eða fleygja eldsniðum sem lagt er til
+#### Vista eða fleygja eldsniðum sem lagt er til
 
 Í hlutanum **Samsvaraðar tillögur** skal fara yfir línuna sem lagt er til fyrir línu og framkvæma síðan viðeigandi aðgerð:
 
@@ -113,50 +113,49 @@ Copilot-glugganum er skipt í tvo hluta. Efri hlutinn veitir nokkrar almennar up
 - Til að bóka sjálfkrafa fullkomlega samsvarandi afstemmingu þegar hún er vistuð skal kveikja á **Færslubók ef rofi að fullu er beitt** .  
 - Til að vista samsvörunirnar sem birtast í glugganum Copilot skal velja **Halda henni**.
 
+## Bóka ósamþykktar bankafærsluupphæðir á fjárhagsreikninga sem lagðir eru til
 
-## <a name="post-unmatched-bank-transaction-amounts-to-suggested-general-ledger-accounts"></a>Flytja ósamræmdar bankafærslur í tillögur að fjárhagsreikningum
-
-Í þessum hluta er fræðst um notkun Copilot til að færa óafstemmd bankareikningsyfirlit úr bankareikningshöfuðbók yfir á fjárhagsreikning. Aðeins er hægt að framkvæma þennan verkhluta úr fyrirliggjandi afstemmingu. 
+Í þessum hluta er lært hvernig Afrita er notað til að bóka óafstemmdar línuupphæðir bankareikningsyfirlits (tilgreindar í reitnum **Mismunur**) á fjárhagsreikning. Aðeins er hægt að framkvæma þennan verkhluta úr fyrirliggjandi afstemmingu.
 
 1. Farið á listann **Afstemmingar bankareikninga** og opnið fyrirliggjandi afstemmingu sem inniheldur óafstemmdar línur.
 
    Byrjað er á því að opna fyrirliggjandi afstemmingu bankareiknings. Þetta skref veitir skýra yfirsýn yfir allar óafstemmdar bankayfirlitslínur sem þarf að færa í fjárhagsreikninginn.
 
-2.  **Á svæðinu Bankayfirlitslínur** skal auðkenna svæðið ósamræmdar bankayfirlitslínur og velja eina eða fleiri línur sem á að stemma af.
+1.  **Á svæðinu Bankayfirlitslínur** skal auðkenna svæðið ósamræmdar bankayfirlitslínur og velja eina eða fleiri línur sem á að stemma af.
 
-   Þessar línur eru yfirlitslínurnar sem Afrita einblína á til að flytja í fjárhagsreikninginn.
+   Þessar línur eru yfirlitslínurnar sem Copilot leggur áherslu á til að bóka nýjar greiðslur í fjárhagsreikninginn.
 
-3. Valið er **Millifærsla í fjárhagsreikning** til að hefja ferlið.
+1. Velja skal **Bóka mismun á fjárhagsreikning** til að hefja ferlið.
 
-   ![Sýnir millifærslu í fjárhag með afritaaðgerð á afstemmingarspjaldi bankareiknings](media/bank-reconciliation-transfer-gl-copilot-card.svg) 
+   ![Sýnir millifærslu í fjárhag með afritaaðgerð á afstemmingarspjaldi bankareiknings](media/bank-reconciliation-transfer-gl-copilot-card.png) 
 
-   Þetta skref biður Copilot um að hefja tillögur fyrir millifærsluna.
+   Þetta skref biður Afritara um að hefja tillögur um bókun nýrra greiðslna.
 
-4. Þegar Copilot hefur lokið við að búa til tillögur **opnast glugginn Millifærslutillögur** afritalotu.
+1. Þegar Copilot hefur lokið við að búa til tillögur **opnast glugginn Afritatillögur um bókun mismunar í fjárhagsreikninga** .
 
    Þessi gluggi birtir tillögurnar í hlutanum **Samsvarandi tillaga** . Reynslan er svipuð og að stemma af copilot.
 
    ![Sýnir millifærsluna í fjárhag með samsvörunarsíðu fyrir afritaða samsvörun fyrir afstemmingu bankareikninga](media/bank-reconciliation-gl-transfer-proposed-matches.png) 
 
-5. Farið er yfir hverja tillögulínu fyrir línu til að tryggja nákvæmni millifærslna sem lagðar eru til.
+1. Skoða hverja tillögulínu fyrir línu til að tryggja nákvæmni greiðslutillögunnar sem lagt er til að verði bókaðar.
 
-   - Ef kafað er niður í tillöguna með því að velja hana í listanum er farið á reikningalista. Héðan er hægt að velja annan reikning. Þess háttar handvirk leiðrétting er aðeins möguleg þegar flæði **millifærslna í fjárhagsreikning** er notað, ekki í samsvarandi flæði. 
+   - Ef kafað er niður í tillöguna með því að velja hana í listanum er farið á reikningalista. Héðan er hægt að velja annan reikning. Þessi gerð handvirkrar leiðréttingar er aðeins möguleg þegar flæði **bóka mismunar í fjárhagsreikningi** er notað, ekki í samsvarandi flæði. 
    - Ef valið er **Vista...** við hliðina á tillögu er hægt að bæta vörpuninni **á síðuna Vörpun** texta á reikning svo næst þegar þessi texti birtist á meðan hann verður samsvörun verður honum varpað á reikninginn sem lagt er til.
 
-6. Fleygja eða vista tillögur.
+1. Fleygja eða vista tillögur.
 
    - Ef henda á tiltekinni tillögu er hún valin á listanum og Eyða línu **valið**. Til að fleygja öllum tillögum og hætta í Copilot skal velja fleyghnappinn (ruslið) ![Sýnir ruslið getur táknið til að eyða öllum Copilot-tillögum fyrir afstemmingu](media/copilot-delete-trash-can.png) bankareikninga við hliðina **á hnappinum Halda honum** neðst í glugganum.
-   
-   - Ef tillögurnar uppfylla kröfurnar og vista á þær skal velja **Halda henni**. 
+
+   - Ef tillögurnar uppfylla kröfurnar og vista á þær skal velja **Halda henni**.
 
       Þetta skref staðfestir flutning valinna tillagna úr bankareikningshöfuðbók yfir í fjárhagsreikninginn. Hún bókar nýjar greiðslur á fjárhagsreikninga sem lagðar voru til og jafnar samsvarandi línur við bankareikningsfærslurnar sem leiða af.
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
 [Staðfesta afstemmingu bankareiknings](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
-## <a name="see-also"></a>Sjá einnig .
-[Villuleita Copilot- og gervigreindarmöguleika](ai-copilot-troubleshooting.md)  
+## Sjá einnig .
+[Úrræðaleit fyrir Copilot- og AI-eiginleika](ai-copilot-troubleshooting.md)  
 [Algengar spurningar um bankaafstemmingu](faqs-bank-reconciliation.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md)  

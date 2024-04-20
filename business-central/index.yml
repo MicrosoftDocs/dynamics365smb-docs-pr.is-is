@@ -9,7 +9,7 @@ metadata:
   ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/16/2023
+  ms.date: 04/11/2024
   hide_bc: true
 highlightedContent:
   items:
@@ -71,6 +71,14 @@ additionalContent:
               url: /dynamics365/business-central/across-onedrive-overview
     - title: Stjórnun og þróun
       items:
+        - title: Copilot- og gervigreindarmöguleikar
+          links:
+            - text: Grunnstilla Copilot- og gervigreindarmöguleika
+              url: /dynamics365/business-central/enable-ai
+            - text: Framlengja Copilot í Business Central
+              url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+            - text: Eiginleikar og algengar spurningar um ábyrga gervigreind
+              url: /dynamics365/business-central/responsible-ai-overview
         - title: Stjórna aðgangi notenda
           links:
             - text: Stofna notendur
@@ -127,12 +135,26 @@ additionalContent:
           links:
             - text: 'Vefþjónusta (OData, SOAP)'
               url: /dynamics365/business-central/dev-itpro/webservices/web-services
-            - text: Connect apps
+            - text: Tengja forrit
               url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps
             - text: Business Central API
               url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
     - title: Komdu meiru í verk
       items:
+        - title: Copilot
+          links:
+            - text: Greina listagögn
+              url: /dynamics365/business-central/analysis-assist
+            - text: Spjalla við Copilot
+              url: /dynamics365/business-central/chat-with-copilot
+            - text: Fá tillögur að markaðstexta
+              url: /dynamics365/business-central/ai-overview
+            - text: Samsvörun rafrænna skjala
+              url: /dynamics365/business-central/map-edocuments-with-copilot
+            - text: Afstemma bankareikninga
+              url: /dynamics365/business-central/bank-reconciliation-with-copilot
+            - text: Fá tillögur að línum
+              url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Stillingar vinnusvæðis
           links:
             - text: 'Tungumál, svæði, vinnudagur, tímabelti og fleira'
@@ -153,7 +175,7 @@ additionalContent:
               url: /dynamics365/business-central/across-share-onedrive
             - text: Eiga samvinnu í Excel
               url: /dynamics365/business-central/across-work-with-excel
-        - title: 'Viðskiptagreind, skýrslugerð og gagnagreining'
+        - title: 'BI, skýrslugerð og gagnagreining'
           links:
             - text: Yfirlit
               url: /dynamics365/business-central/reports-bi-reporting
@@ -165,7 +187,9 @@ additionalContent:
               url: /dynamics365/business-central/analysis-mode
             - text: Greina skýrslugögn með Excel
               url: /dynamics365/business-central/report-analyze-excel
-        - title: Almenn viðskiptavirkni
+    - title: Stunda viðskipti
+      items:
+        - title: Almennt
           links:
             - text: Almennar færslubækur
               url: /dynamics365/business-central/ui-work-general-journals
@@ -175,8 +199,6 @@ additionalContent:
               url: /dynamics365/business-central/admin-job-queues-schedule-tasks
             - text: Skjöl á innleið
               url: /dynamics365/business-central/across-income-documents
-    - title: Stunda viðskipti
-      items:
         - title: Fjármál
           links:
             - text: Yfirlit
