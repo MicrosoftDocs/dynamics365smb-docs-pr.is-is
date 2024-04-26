@@ -148,7 +148,7 @@ Til að birta skýrslu skal velja **Birta** á flipanum **Heim** á borðanum e�
 
 ## <a name="fixing-problems"></a>Vandamál lagfærð
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>Ekki er hægt að setja inn færslu. Núverandi tenging er „Ritvarinn“. villa við að tengjast sérsniðinni API-síðu
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>Ekki er hægt að setja inn færslu. Núverandi tenging er „Ritvarinn“. villa við að tengjast sérsniðinni API-síðu
 
 > **GILDIR UM:** Business Central Online
 
