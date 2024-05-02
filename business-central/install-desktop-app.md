@@ -9,7 +9,7 @@ ms.date: 01/11/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="get-business-central-desktop-app"></a>Sækja Business Central-skjáborðsforrit
+# <a name="get-the-business-central-desktop-app"></a>Sækja Business Central-skjáborðsforrit
 
 Ef þú ert með Windows (PC) eða macOS-tölvu geturðu sett upp Business Central forrit á skjáborðið. Forritið virkar með Business Central Online og á staðnum.
 
@@ -24,7 +24,7 @@ Business Central forritið líkist vefbiðlaranum, en það býður að auki upp
 
      Þegar forritið er opnað fyrir tiltekið umhverfi er heiti umhverfisins haft með í titlinum á glugganum. Þegar unnið er í mörgum [!INCLUDE[prod_short](includes/prod_short.md)] umhverfum er hver forritsgluggi sérstaklega sýndur. Heitið auðveldar að sjá hvaða gluggi tengist hvaða umhverfi.
 
-## <a name="install-the-app-for-business-central-online"></a>Setja upp forritið fyrir Business Central Online
+## <a name="install-the-app-for--online"></a>Setja upp forritið fyrir Business Central Online
 
 Tvær leiðir eru til að setja upp forritið fyrir Business Central Online. Þú getur sett það upp beint úr vafranum eða úr Microsoft Store. Þetta er sama forritið burtséð frá aðferðinni sem þú notar. Munurinn er sá að með því að setja upp í vafranum geturðu sett forritið upp fyrir hvert umhverfi þegar það eru fleiri en eitt.
 
@@ -56,7 +56,7 @@ Næst þegar þú vilt opna forritið skaltu leita að því í **Upphafsvalmynd
 
 Þegar forrit er uppsett birtist það í **Upphafsvalmyndinni**. Ef þú hefur valið tiltekið umhverfi fyrir forritið er heiti umhverfisins bætt við forritsheitið í **Upphafsvalmyndinni**.
 
-## <a name="install-the-app-for-business-central-on-premises"></a>Setja upp forritið fyrir Business Central á staðnum
+## <a name="install-the-app-for--on-premises"></a>Setja upp forritið fyrir Business Central á staðnum
 
 Uppsetning skjáborðsforritsins þegar Business Central á staðnum er notað er gert beint úr vafranum eins og [lýst er hér að ofan](#from-the-browser). Ef þú ert bara með einn leigjanda skaltu opna Business Central í vafranum og velja svo annaðhvort ![Tákn fyrir uppsetningu forrits í Edge.](media/ui-edge-install-app-icon.png) **Forrit tiltækt. Setja upp Business Central** eða ![Tákn fyrir uppsetningu forrits í Chrome.](media/ui-chrome-install-app-icon.png) **Settu upp Business Central** eins og sýnt er hér að ofan.
 

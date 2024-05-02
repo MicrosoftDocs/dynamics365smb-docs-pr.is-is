@@ -68,7 +68,7 @@ Síðan stofnarðu sölupöntun með magn upp á 12 á staðsetningu VESTUR. Á�
 > [!NOTE]  
 > Ef staðsetningamiðaðar spár eru skoðaðar einar og sér gæti verið að spáin í heild sinni sýni ekki rétta mynd.
 
-### <a name="do-not-use-forecast-by-locations"></a>Ekki nota spá eftir staðsetningum
+### <a name="if-you-dont-use-forecast-by-locations"></a>Ekki nota spá eftir staðsetningum
 
 Ef slökkt er á víxlhnappnum **Nota spá eftir staðsetningu** mun [!INCLUDE[prod_short](includes/prod_short.md)] hunsa staðsetningarkóða sem eru tilgreindir fyrir hverja færslu eftirspurnarspár og safna spánum saman í spá fyrir tómar staðsetningar.  
 

@@ -11,7 +11,7 @@ ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Uppsetning eigna
+# <a name="setting-up-fixed-assets"></a>Uppsetning eigna
 
 Áður en hægt er að vinna með eignir (eignir) þarf að skilgreina ýmislegt:  
 
@@ -26,7 +26,7 @@ Hlutarnir í greininni tengja við nánari upplýsingar um hvernig eignir eru se
 
 Þegar eignaaðgerð er gerð virk í hlutanum **Fjárhagsheildun** á síðunni **Afskriftabókarspjald** skal nota **síðuna Eignafjárhagsbók** til að bóka færslur fyrir aðgerðina.
 
-## Nauðsynleg uppsetningarverk
+## <a name="required-setup-tasks"></a>Nauðsynleg uppsetningarverk
 
 Í eftirfarandi töflu er röð verkhluta til að setja upp eignir og tengla á tengda hluti.
 
@@ -35,7 +35,7 @@ Hlutarnir í greininni tengja við nánari upplýsingar um hvernig eignir eru se
 | Setja upp sjálfgefna fjárhagsreikninga, úthlutunarlykla, bókarsniðmát og keyrslur fyrir eignabókun og setja upp eignaflokka og undirflokka, svo sem áþreifanleg og óáþreifanleg. |[Uppsetning almennra eignaupplýsinga](fa-how-setup-general.md) |
 | Stofnun afskriftabóka og skilgreining ýmissa afskriftaraðferðir, samþætta við fjárhag og sem gera kleift að afrita færslur í margar afskriftabækur. |[Setja upp eignaafskriftir](fa-how-setup-depreciation.md) |
 
-## Valfrjálsir uppsetningarverkhlutar (vátrygging, viðhald og afskriftaraðferðir sem notandi skilgreinir)
+## <a name="optional-setup-tasks-insurance-maintenance-and-user-defined-depreciation-methods"></a>Valfrjálsir uppsetningarverkhlutar (vátrygging, viðhald og afskriftaraðferðir sem notandi skilgreinir)
 
 Í eftirfarandi töflu er röð valfrjálsra verkhluta til að setja upp eignir, svo sem vátryggingar, viðhald og afskriftaraðferðir og tengla á tengda hluti. 
 
@@ -45,7 +45,7 @@ Hlutarnir í greininni tengja við nánari upplýsingar um hvernig eignir eru se
 | Virkja viðhald eigna, setja upp almenna viðhaldsupplýsinga, setja upp bókunarlykla viðhalds og skilgreina tegundir viðhaldsvinna. |[Uppsetning eignarviðhalds](fa-how-setup-maintenance.md) |
 | Fræðast um notkun afskriftaaðferða. |[Uppsetning afskriftaaðferða sem notandi skilgreinir](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit yfir eignir](fa-manage.md)  
 [Fjármál](finance.md)  
