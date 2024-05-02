@@ -9,14 +9,14 @@ ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sales-reports-and-analytics-in-business-central"></a>Söluskýrslur og greiningar í Business Central
+# Söluskýrslur og greiningar í Business Central
 
 Söluskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gerir starfsmönnum í framleiðslu og rekstri kleift að fá innsýn í og tölfræði um núverandi og fyrri söluaðgerðir.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## <a name="tasks"></a>Verkefni
+## Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
@@ -24,7 +24,7 @@ Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisi
 * [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  

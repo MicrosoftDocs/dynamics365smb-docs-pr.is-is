@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analyze-data-by-dimensions"></a>Greining gagna eftir víddum
+# Greining gagna eftir víddum
 
 Í fjárhagsgreiningu er vídd bætt við færslu sem nokkurs konar merki til að flokka færslur með svipaða eiginleika. Til dæmis flokka víddir oft færslur fyrir viðskiptamenn, svæði, vörur og sölumenn. Með hópunum er auðvelt að sækja gögn um þau til greiningar. Hægt er að nota víddir í færslum í færslubókum, fylgiskjölum og áætlunum.
 
@@ -24,7 +24,7 @@ Hver vídd lýsir áherslu greiningar. Tvívíð greining gæti því til dæmis
 > [!NOTE]
 > Ef í uppgötvast að rangt víddargildi var notað í bókuðum fjárhagsfærslum er hægt að leiðrétta það og uppfæra greiningaryfirlitin. Til að [fræðast meira er farið í Úrræðaleit og Leiðrétting vídda](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="set-up-an-analysis-view"></a>Setja upp greiningaryfirlit
+## Setja upp greiningaryfirlit
 
 Greining eftir víddum notar valda samsetningu af víddum. Þú geymir, sækir og uppfærir þessa vídd með því að búa til **Greiningaryfirlitsspjald**.
 
@@ -34,7 +34,7 @@ Greining eftir víddum notar valda samsetningu af víddum. Þú geymir, sækir o
 4. Til að bæta öðrum víddarkóðum við þá fjóra sem fyrir eru á flýtiflipanum **Víddir** er aðgerðin **Afmörkun** valin, reitirnir fylltir út og síðan er smellt á **Í lagi** hnappinn.  
 5. Til að uppfæra yfirlitið er valin aðgerðin **Uppfæra**.
 
-## <a name="analyze-by-dimensions"></a>Greina eftir víddum
+## Greina eftir víddum
 
 Notaðu greiningaryfirlit sem þegar hafa verið sett upp með fylkinu **Greining eftir víddum** til að skoða upphæðirnar í fjárhagnum.
 
@@ -56,7 +56,7 @@ Notaðu greiningaryfirlit sem þegar hafa verið sett upp með fylkinu **Greinin
 > [!TIP]  
 > Einnig er hægt að breyta útlitinu með því að breyta innihaldi reitanna **Sýna sem línur** og **Sýna sem dálka** . Til að snúa við yfirlitsstillingu, skal velja aðgerðina **Snúa við línum og dálkum**.
 
-## <a name="update-an-analysis-view"></a>Uppfæra greiningaryfirlit
+## Uppfæra greiningaryfirlit
 
 Upphæðirnar á síðunni **Greining eftir víddum** gefa mynd af stöðu fyrirtækisins við síðustu uppfærslu. Til að fá núverandi stöðu er uppfærsluaðgerðin keyrð til að uppfæra greiningaryfirlitið.
 
@@ -74,7 +74,7 @@ Notaðu eftirfarandi aðferð til að uppfæra greiningaryfirlit af síðunni **
 > [!NOTE]  
 > Sum eða öll greiningaryfirlit eru uppfærð samtímis með því að nota keyrsluna **Uppfæra greiningaryfirlit** .  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Viðskiptagreind fjármála](bi.md)  
 [Fjármál](finance.md)  
