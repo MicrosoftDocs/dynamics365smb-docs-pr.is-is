@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-analytics-in-business-central"></a>Financial Analytics í Business Central
+# <a name="financial-analytics"></a>Financial Analytics í Business Central
 
 Fyrirtæki safna saman gríðarlegu magni gagna við daglegar aðgerðir sem styðja verðmætar viðskiptagreindar (BI) fyrir þá sem taka ákvarðanir: 
 

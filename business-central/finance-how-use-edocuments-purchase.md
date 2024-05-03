@@ -157,7 +157,7 @@ Ef bæta á við einhverjum vikmörkum og leyfa mismuninn á línum í **E-reikn
 3. Þessi uppsetning á við um allar samsvarandi línur, en aftur með tilliti til vikmarka fyrir heildarupphæðina, eins og fyrir **innk.verð** ásamt jöfnuðu Línuafsl **.%**.  
 4. Loka síðunni.   
 
-##### <a name="to-match-lines-from-e-document"></a>Samsvörun lína úr e-skjali
+##### <a name="matching-lines-from-e-document"></a>Samsvörun lína úr e-skjali
 
 Hægt er að passa við línurnar á síðunni **E-fylgiskjal** . Til að byrja með skal nota eftirfarandi skref:  
 

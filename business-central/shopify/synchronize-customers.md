@@ -154,7 +154,7 @@ Hægt er að flytja viðskiptamenn sem fyrir Shopify eru út í magni sem fyrirt
 |**Sjálfgefnar tengiliðaheimildir**| Tilgreina hvaða heimildum verður að úthluta á aðaltengilið, aðeins er hægt að velja milli Ekkert, Panta eingöngu **og** Birgðageymslu stjórnanda **.** **·**|
 |**Stofna vörulista sjálfvirkt**| Þessi kostur er gerður virkur ef búa á til vörulista sem inniheldur allar vörur. Vörulisti er stofnaður fyrir hvert útflutt fyrirtæki.|
 
-## <a name="export-b2b-company-to-shopify"></a>Flytja fyrirtækið B2B út í Shopify
+## <a name="export-a-b2b-company-to-shopify"></a>Flytja fyrirtækið B2B út í Shopify
 
 ### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Upphafleg samstilling B2B fyrirtækja frá Business Central til Shopify
 

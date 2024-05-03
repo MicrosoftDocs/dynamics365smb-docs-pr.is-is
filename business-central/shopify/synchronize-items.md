@@ -327,7 +327,7 @@ Frá [!INCLUDE[prod_short](../includes/prod_short.md)] sjónarhorni þegar vara 
 * nota **sjálfgefna birgðageymslu** á vöru til að tilgreina hvort uppfylla Shopify eigi þessa vöru eða með 3PL. Það er alltaf **Business Central Fulfillment Service**, en það getur verið uppfyllingarþjónusta ef fleiri forrit eru uppsett. Aðeins er hægt að gera sjálfgefna birgðageymslu **vöru virka** í einni færslu ef ætlunin er að uppfylla þjónustuna. 
 * nota **sjálfgefna vímu** til að tilgreina hvaða birgðageymslur á að nota til að rekja birgðir. Hægt er að kveikja á **sjálfgefinni birgðageymslu** vöru fyrir margar birgðageymslur þar sem **Þjónustuuppfylling** er gerð óvirk. Takið eftir að birgðir verða alltaf raktar fyrir aðalstaðsetningu. 
  
-#### <a name="what-is-the-difference"></a>Hver er munurinn?
+#### <a name="whats-the-difference"></a>Hver er munurinn?
 
 Shopify Uppfylling er gagnleg þegar posi er notaður Shopify og margar raunverslunar eru til staðar. Óskað er eftir að starfsmaður í raunverslun þekki núverandi birgðir sínar. Í þessu tilfelli eru búnar til margar birgðageymslur í Shopify, margar birgðageymslur í [!INCLUDE[prod_short](../includes/prod_short.md)], virkjað **Sjálfgefið vörustaðsetning** fyrir allar þessar birgðageymslur.  
 
