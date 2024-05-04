@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ---
 
-# Samstilla viðskiptavini og fyrirtæki
+# <a name="synchronize-customers-and-companies"></a>Samstilla viðskiptavini og fyrirtæki
 
 Þegar pöntun er flutt inn úr Shopify er nauðsynlegt að fá upplýsingar um viðskiptamanninn til frekari vinnslu skjalsins í [!INCLUDE[prod_short](../includes/prod_short.md)]. Tveir aðalvalkostir eru í boði til að gera það og nokkrar samsetningar:
 
@@ -30,7 +30,7 @@ Til að flytja viðskiptamann út frá [!INCLUDE[prod_short](../includes/prod_sh
 * Flytja út viðskiptavin sem Shopify viðskiptavin fyrir DTC.
 * Flytja út viðskiptavin sem fyrirtæki og viðskiptavinapar fyrir B2B-flæðið.
 
-## Mikilvægar stillingar þegar DTC viðskiptavinir eru fluttir inn frá Shopify
+## <a name="important-settings-when-importing-dtc-customers-from-shopify"></a>Mikilvægar stillingar þegar DTC viðskiptavinir eru fluttir inn frá Shopify
 
 Hvort sem viðskiptavinir eru fluttir inn úr Shopify lausu eða þegar pantanir eru fluttar inn eru eftirfarandi stillingar notaðar til að stjórna ferlinu:
 
@@ -42,7 +42,7 @@ Hvort sem viðskiptavinir eru fluttir inn úr Shopify lausu eða þegar pantanir
 |**Búa til óþekktan viðskiptamann sjálfvirkt**| Veldu þennan reit ef þú vilt að tengillinn stofni viðskiptamennina sem vantar þegar valkosturinn **Eftir tölvupósti/síma** eða **Eftir upplýsingum um „reikningsfæra á“** er valinn í reitnum **Vörpunargerð viðskiptamanns**. Nýr viðskiptamaður er stofnaður með innfluttum gögnum og **Kóti** viðskiptamannssniðmáts sem skilgreindur er á síðunum **Shopify Vinnusalarspjald** eða **Shopify Sniðmát** viðskiptamanns. Taktu eftir að Shopify viðskiptamaðurinn verður að vera með minnst eitt aðsetur. Pantanir sem búnar eru til í gegnum sölurás sölustaðar Shopify vantar oft aðsetursupplýsingar. Ef þessi valkostur er ekki virkjaður verður að stofna viðskiptamann handvirkt og tengja hann við viðskiptamanninn Shopify .|
 |**Kóti viðskiptamanns-fyrirtækissniðmáts**|Þessi reitur er notaður með **Sjálfvirk stofnun óþekktra viðskiptamanna**.</br></br> Velja sjálfgefna sniðmátið sem nota á fyrir viðskiptamenn sem eru stofnaðir sjálfvirkt. Ganga þarf úr skugga um að í völdu sniðmáti séu áskildir reitir, svo sem **Alm. viðskiptabókunarflokkur**, **Bókunarflokkur** viðskm. og virðisaukaskattur (VSK) eða skatttengdir reitir.</br></br>Hægt er að skilgreina sniðmát fyrir hvert land/svæði á síðunni **Shopify Sniðmát viðskiptamanns** sem hjálpar til við að reikna skatta rétt.</br></br>Frekari upplýsingar er að finna á [Setja upp skatta](setup-taxes.md).|
 
-### Sniðmát viðskiptamanns eftir landi/svæði
+### <a name="customer-template-per-countryregion"></a>Sniðmát viðskiptamanns eftir landi/svæði
 
 Hægt er að skilgreina sumar stillingar á stigi lands/svæðis eða ríkis/héraðs. Hægt er að velja stillingarnar í [Sending og afhending](https://www.shopify.com/admin/settings/shipping) í Shopify.
 
@@ -56,7 +56,7 @@ Hægt er að skilgreina sumar stillingar á stigi lands/svæðis eða ríkis/hé
 > [!NOTE]  
 > Landskóðar eru ISO 3166-1 og alfa-2 landskóðar. Frekari upplýsingar er að finna í [Landskóði](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Mikilvægar stillingar þegar DTC viðskiptavinir eru fluttir út til Shopify
+## <a name="important-settings-when-exporting-dtc-customers-to-shopify"></a>Mikilvægar stillingar þegar DTC viðskiptavinir eru fluttir út til Shopify
 
 Hægt er að flytja núverandi viðskiptavina í Shopify í miklu magni. Í hverju tilviki er búinn til viðskiptavinur og eitt sjálfgefið heimilisfang. Þú getur stjórnað ferlinu með eftirfarandi stillingum:
 
@@ -79,7 +79,7 @@ Eftirfarandi kröfur eru gerðar til útflutnings viðskiptavinar:
 
 Þegar búið er að stofna viðskiptamennina í Shopify er hægt að senda þeim bein fundarboð til að hvetja þá til að virkja reikninga sína.
 
-### Fylltu út upplýsingar um viðskiptamann í Shopify
+### <a name="populate-customer-information-in-shopify"></a>Fylltu út upplýsingar um viðskiptamann í Shopify
 
 Viðskiptavinur með Shopify fornafn, samsafnsheiti, tölvupóst og/eða símanúmer. Hægt er að færa inn for- og samsafnsheiti á viðskiptamannaspjaldinu í [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -98,9 +98,9 @@ Viðskiptamaður í Shopify hefur einnig sjálfgefið aðsetur. Heimilisfangið 
 
 Fyrir aðsetur þar sem sýsla/hérað er notuð skal velja **Kóti** eða **Heiti** í reitnum **Uppruni** sýslu á síðunni **Shopify Vinnusalarspjald** . Kótinn eða heitið tilgreinir tegund gagna sem geymd eru í [!INCLUDE[prod_short](../includes/prod_short.md)] reitnum **Sýsla** . Muna þarf að frumstilla viðskiptamannasniðmát eftir landi/svæði svo að vörpun sýslukóta/heitis sé tilbúin. 
 
-## Flytja viðskiptavini DTC út til Shopify
+## <a name="export-dtc-customers-to-shopify"></a>Flytja viðskiptavini DTC út til Shopify
 
-### Upphafleg samstilling viðskiptavina frá Business Central til Shopify
+### <a name="initial-sync-of-customers-from-business-central-to-shopify"></a>Upphafleg samstilling viðskiptavina frá Business Central til Shopify
 
 1. Farðu í leitarljósið ![sem opnar Tell Me eiginleikann.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Shopify Viðskiptamenn** og velja viðeigandi tengil.
 2. Veljið aðgerðina **Bæta við viðskiptamanni** .
@@ -113,7 +113,7 @@ Viðskiptamennirnir sem verða til verða sjálfkrafa stofnaðir með aðsetri S
 > [!NOTE]  
 > Upphafleg samstilling viðskiptamanna frá [!INCLUDE[prod_short](../includes/prod_short.md)] til tekur ekki tillit Shopify til **stillinganna Uppfæra Shopify viðskiptamenn** .
 
-### Samstilla viðskiptamenn
+### <a name="sync-customers"></a>Samstilla viðskiptamenn
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Shopify verslun** og velja síðan viðkomandi tengil.
 2. Veldu tiltekna verslun þar sem þú vilt samstilla viðskiptamenn.
@@ -123,11 +123,11 @@ Einnig er hægt að nota aðgerðina **Hefja samstillingu viðskiptamanns** í g
 
 Þú getur skipulagt verkið sem á að framkvæma á sjálfvirkan hátt. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
 
-## B2B fyrirtæki
+## <a name="b2b-companies"></a>B2B fyrirtæki
 
 Ef B2B er notað í Shopify er einnig hægt að stofna fyrirtæki til viðbótar við viðskiptamenn. Hægt er að tengja einn eða fleiri viðskiptamenn við fyrirtæki. Einnig er hægt að skilgreina greiðsluskilmála, birgðageymslur og vörulista.
 
-## Mikilvægar stillingar þegar B2B-fyrirtæki eru flutt inn frá Shopify
+## <a name="important-settings-when-importing-b2b-companies-from-shopify"></a>Mikilvægar stillingar þegar B2B-fyrirtæki eru flutt inn frá Shopify
 
 Hvort sem fyrirtæki eru flutt inn úr Shopify lausu eða þegar pantanir eru fluttar inn skal nota stillingarnar í eftirfarandi töflu til að stjórna ferlinu.
 
@@ -144,7 +144,7 @@ Hvort sem fyrirtæki eru flutt inn úr Shopify lausu eða þegar pantanir eru fl
 > Aðeins ein elsta birgðageymsla er flutt inn.
 > Aðeins aðaltengiliður er fluttur inn.
 
-## Mikilvægar stillingar þegar B2B-fyrirtæki eru flutt út til Shopify
+## <a name="important-settings-when-exporting-b2b-companies-to-shopify"></a>Mikilvægar stillingar þegar B2B-fyrirtæki eru flutt út til Shopify
 
 Hægt er að flytja viðskiptamenn sem fyrir Shopify eru út í magni sem fyrirtæki. Í hverju tilviki eru fyrirtæki og ein sjálfgefin birgðageymsla stofnuð og einn aðaltengiliður. Einnig er hægt að búa til vörulista.
 
@@ -154,9 +154,9 @@ Hægt er að flytja viðskiptamenn sem fyrir Shopify eru út í magni sem fyrirt
 |**Sjálfgefnar tengiliðaheimildir**| Tilgreina hvaða heimildum verður að úthluta á aðaltengilið, aðeins er hægt að velja milli Ekkert, Panta eingöngu **og** Birgðageymslu stjórnanda **.** **·**|
 |**Stofna vörulista sjálfvirkt**| Þessi kostur er gerður virkur ef búa á til vörulista sem inniheldur allar vörur. Vörulisti er stofnaður fyrir hvert útflutt fyrirtæki.|
 
-## Flytja fyrirtækið B2B út í Shopify
+## <a name="export-a-b2b-company-to-shopify"></a>Flytja fyrirtækið B2B út í Shopify
 
-### Upphafleg samstilling B2B fyrirtækja frá Business Central til Shopify
+### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Upphafleg samstilling B2B fyrirtækja frá Business Central til Shopify
 
 1. Farðu í ![Ljósapera sem opnar eiginleika Viðmótsleitar.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Shopify Fyrirtæki** og velja viðeigandi tengil.
 2. Veljið aðgerðina **Bæta við fyrirtæki** .
@@ -169,7 +169,7 @@ Fyrirtækið og viðskiptamenn sem verða til eru sjálfkrafa stofnuð í Shopif
 > [!NOTE]  
 > Upphafleg samstilling fyrirtækja frá [!INCLUDE[prod_short](../includes/prod_short.md)] til tekur ekki tillit Shopify til **stillinga fyrirtækis Shopify .** 
 
-### Samstilla B2B-fyrirtæki
+### <a name="sync-b2b-company"></a>Samstilla B2B-fyrirtæki
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Shopify verslun** og velja síðan viðkomandi tengil.
 2. Veldu tiltekna verslun þar sem þú vilt samstilla viðskiptamenn.
@@ -179,6 +179,6 @@ Einnig er hægt að nota aðgerðina **Samstilla fyrirtæki á síðunni** Fyrir
 
 Hægt er að tímasetja verkið á sjálfvirkan hátt. Frekari upplýsingar er að finna á [Tímasetja endurtekin verk](background.md#to-schedule-recurring-tasks).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Hafist handa með tengilinn fyrir Shopify](get-started.md)  
