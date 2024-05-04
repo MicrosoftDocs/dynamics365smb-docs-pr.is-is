@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="built-in-finance-reports-in-business-central"></a>Innbyggðar fjármálaskýrslur í Business Central
+# Innbyggðar fjármálaskýrslur í Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] þar á meðal eru nokkrar innbyggðar skýrslur, rakningaraðgerðir og verkfæri til að hjálpa endurskoðendum eða ráðamönnum sem bera ábyrgð á skýrslugerð til fjármáladeildarinnar. 
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stofna kostnaðaráætlanir](finance-create-cost-budgets.md)  
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  

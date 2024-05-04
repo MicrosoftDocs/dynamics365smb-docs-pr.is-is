@@ -11,11 +11,11 @@ ms.search.form: null
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="revalue-general-ledger-account-balances"></a>Endurmeta stöðu fjárhagsreikninga
+# Endurmeta stöðu fjárhagsreikninga
 
 Ef fjárhagsreikningar eru notaðir til að skrá efnahagsreikningsvörur í erlendum gjaldmiðlum skal endurmeta reikningsstöðuna áður en ársreikningar eru framleiddir. Gengi gjaldmiðla breytist oft og endurmat hjálpar til við að gera ársreikningana nákvæmari.
 
-## <a name="set-up-revaluations"></a>Setja upp endurmat
+## Setja upp endurmat
 
 Hver reikningur sem á að taka með í endurmat á síðunni **Fjárhagsspjald** er settur upp. Hægt er að velja hvort bóka eigi leiðréttingar á endurmati á raunverulegum eða reikningum fyrir áætlaðan hagnað/tap. Við bókun hagnaðar og gengistaps við gengisleiðréttingu fylgir venjuleg bókunarregla. Það er til dæmis gert fyrir hverja uppsetningu á síðunni **Gjaldmiðlar** . Til að [fræðast meira um gengisleiðréttingar er farið í Uppfæra gengi gjaldmiðla](finance-how-update-currencies.md).
 
@@ -26,7 +26,7 @@ Hver reikningur sem á að taka með í endurmat á síðunni **Fjárhagsspjald*
 * Sami gjaldmiðill
 * Isk
 
-## <a name="run-a-revaluation"></a>Keyra endurmat
+## Keyra endurmat
 
 Til að endurmeta upphæðir í erlendum gjaldmiðli fyrir fjárhagsreikningsstöðu á **síðunni Bókhaldslykill** skal nota aðgerðina **Endurmat** fjárhagsgjaldmiðils til að hefja keyrslu. Keyrslan býr til leiðréttingarfærslur í færslubókinni sem valin er. Þegar færslurnar eru bókaðar er staða reikningsins (SGM) leiðrétt. Fjárhagsreikningsstöður sem sýna alltaf í SGM nú endurspegla nú breytingar á þeim gjaldmiðlum sem færslur voru bókaðar í. Þetta endurmat gerir kleift að búa til nákvæmari fjárhagsskýrslu með minni fyrirhöfn.
 
@@ -38,7 +38,7 @@ Ef annar skýrslugjaldmiðill (AGM) er notaður eru fjárhagsendurmatsfærslurna
 > [!NOTE]
 > Endurmat gefur ekki kost á að jafna eða ógilda færslur, líkt og hægt er að nota við viðskiptamanna- og lánardrottnafærslur. Leiðréttingar gerast á grundvelli stöðu á hverjum gjaldmiðli.
 
-## <a name="revaluate-accounts-vs-customer-and-vendor-exchange-rate-adjustments"></a>Endurmeta reikninga á móti gengisleiðréttingum viðskiptamanna og lánardrottna
+## Endurmeta reikninga á móti gengisleiðréttingum viðskiptamanna og lánardrottna
 
 Endurmat einfaldar verkið við leiðréttingu á fjárhagsreikningsstöðum. Aðgerðin endurmetur stöðuna á hvern gjaldmiðil á hvern fjárhagsreikning líkt og gert er til leiðréttingar á fjárhagsreikningum sem tengjast bankareikningum. Ef fjárhagsreikningur er notaður til að rekja margar eignir skal íhuga að nota reikning lánardrottins eða viðskiptamanns í staðinn.
 
@@ -56,7 +56,7 @@ Mismunurinn skiptir máli þegar metið er hvort fjárhagsendurmat sé réttur e
 > [!TIP]
 > Mælt er með því að þú spyrjir endurskoðandann eða endurskoðandann hvaða tegund reiknings hentar fyrirtækinu best. Einnig gæti verið til forrit fyrir [!INCLUDE [prod_short](includes/prod_short.md)]  [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) það er bara rétt fyrir viðskiptaaðstæður þínar.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fara yfir upphæðir í fjárhagsreikningum](finance-review-accounts.md)  
 [Að átta sig á fjárhag og bókhaldslykli](finance-general-ledger.md)  

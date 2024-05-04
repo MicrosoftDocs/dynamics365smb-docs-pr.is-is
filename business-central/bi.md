@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-analytics"></a>Financial Analytics í Business Central
+# Financial Analytics í Business Central
 
 Fyrirtæki safna saman gríðarlegu magni gagna við daglegar aðgerðir sem styðja verðmætar viðskiptagreindar (BI) fyrir þá sem taka ákvarðanir: 
 
@@ -33,7 +33,7 @@ Hver þessara eiginleika hefur sína eigin kosti og galla, allt eftir tegund gre
 
 Þessi grein kynnir þú getur notað þessar greiningaraðgerðir til að veita fjárhagslega innsýn.
 
-## <a name="analytics-needs-in-finance"></a>Greiningarþarfir í fjármálum
+## Greiningarþarfir í fjármálum
 
 Þegar hugsað er um greiningarþarfir í fjármálum getur það hjálpað til við að nota andlegt líkan byggt á einstaklingum sem lýst er á hástigi og mismunandi greiningarþarfir þeirra.
 
@@ -49,7 +49,7 @@ Starfsfólk í mismunandi hlutverkum hefur mismunandi þarfir þegar kemur að g
 |Fjármálastjórnun | Þróun, samantektir | Innbyggðar stjórnunarskýrslur <br> Tilfalengd greining      | 
 |Bókari         | Sundurliðuð gögn     | Innbyggðar rekstrarskýrslur <br> Gögn um verk á skjá |
 
-## <a name="finance-kpis"></a>Afkastalsvinnsla fjármála
+## Afkastalsvinnsla fjármála
 
 Lykilafkastavísir (afkastavísir) er mælanleg gildi sem sýnir hversu skilvirkt notandi uppfyllir markmiðin. Í fjármálum notar fólk oft eftirfarandi KPI til að fylgjast með fjárhagsheilsu fyrirtækisins:
 
@@ -67,7 +67,7 @@ Lykilafkastavísir (afkastavísir) er mælanleg gildi sem sýnir hversu skilvirk
 For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
 -->
 
-## <a name="using-financial-reporting-to-produce-financial-statements-and-kpis"></a>Notkun fjárhagsskýrslna til að framleiða ársreikninga og afkastalsreikninga
+## Notkun fjárhagsskýrslna til að framleiða ársreikninga og afkastalsreikninga
 
 Eiginleikinn **Ársskýrslur** veitir innsýn í fjárhagsgögnin sem birtast í bókhaldslyklinum (COA). Hægt er að setja upp fjárhagsskýrslur til að greina tölur á fjárhagsreikningum og bera saman fjárhagsfærslur og áætlunarfærslur. Niðurstöðurnar birtast í myndritum og skýrslum á heimasíðunni, svo sem sjóðstreymisritinu og rekstrarreikningi og efnahagsskýrslum.
 
@@ -87,13 +87,13 @@ Eftirfarandi tafla lýsir röð verka í fjárhagsskýrslugerð, með tenglum á
 | Settu upp yfirlit til að greina gögn með víddum.|[Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)|
 | Búa til ný greiningaryfirlit fyrir sölu, innkaup og birgðir og búa til greiningarsniðmát. |[Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)|
 
-## <a name="finance-reporting-across-business-units-or-legal-entities"></a>Fjármálaskýrslur þvert á fyrirtækiseiningar eða lögaðila
+## Fjármálaskýrslur þvert á fyrirtækiseiningar eða lögaðila
 
 Sum fyrirtæki nota [!INCLUDE [prod_short](includes/prod_short.md)] í mörgum fyrirtækiseiningum eða lögaðilum. Önnur nota [!INCLUDE [prod_short](includes/prod_short.md)] í dótturfélögum sem þarf að tilkynna um í móðurfyrirtækjum. [!INCLUDE [prod_short](includes/prod_short.md)] gefur endurskoðendum verkfæri sem hjálpa þeim að flytja fjárhagsfærslur frá tveimur eða fleiri fyrirtækjum (dótturfyrirtækjum) í samsteypufyrirtæki.  
 
 Nánari upplýsingar eru í [Sameiningu fyrirtækis](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-finance-data"></a>Tilfallandi greining á fjárhagsgögnum
+## Tilfallandi greining á fjárhagsgögnum
 
 Stundum þarf bara að athuga hvort tölurnar eru rétt settar upp eða staðfesta tölu á fljótlegan hátt. Eftirfarandi eiginleikar eru frábærir fyrir tilfalengdar greiningar:
 
@@ -114,7 +114,7 @@ Eiginleikinn Gagnagreining gerir kleift að opna næstum listasíðu, svo sem Fj
 <!-- Not ready yet
 For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
 -->
-## <a name="built-in-reports-for-finance"></a>Innbyggðar skýrslur um fjármál
+## Innbyggðar skýrslur um fjármál
 
 [!INCLUDE [prod_short](includes/prod_short.md)] þar á meðal eru nokkrar innbyggðar skýrslur, rakningaraðgerðir og verkfæri til að hjálpa endurskoðendum eða ráðamönnum sem bera ábyrgð á skýrslugerð til fjármáladeildarinnar.
 
@@ -141,11 +141,11 @@ Nánari upplýsingar eru í þessum yfirlitum um skýrslur sem varða fjármál.
 * [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
 -->
 
-## <a name="on-screen-finance-task-pages"></a>Síður fjármálaverka á skjánum
+## Síður fjármálaverka á skjánum
 
 [!INCLUDE [prod_short](includes/prod_short.md)] hefur nokkrar síður sem gefa fjárhagsyfirlit og verkhluta.
 
-### <a name="show-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Sýna fjárhagsfærslur og stöður af síðunni Bókhaldslykill
+### Sýna fjárhagsfærslur og stöður af síðunni Bókhaldslykill
 
 Síðan Bókhaldslykill sýnir alla fjárhagsreikninga með samanlögðum tölum um það sem bókað er í fjárhag. Á þessari síðu er hægt að gera hluti eins og:  
 
@@ -157,13 +157,13 @@ Síðan Bókhaldslykill sýnir alla fjárhagsreikninga með samanlögðum tölum
 
 Nánari upplýsingar eru í [Skilja bókhaldslykilinn](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="view-actual-amounts-compared-to-budgeted-amounts-for-all-accounts-and-for-several-periods"></a>Skoða raunverulegar upphæðir í samanburði við áætlaðar upphæðir allra reikninga og nokkurra tímabila
+### Skoða raunverulegar upphæðir í samanburði við áætlaðar upphæðir allra reikninga og nokkurra tímabila
 
 Þegar safnað er saman, greint og deilt gögnum fyrirtækisins gæti verið gott að skoða raunverulegar upphæðir í samanburði við áætlaðar upphæðir allra reikninga og nokkurra tímabila. Það er hægt að gera á síðunni **Bókhaldslykill** með því að velja aðgerðina **Fjárhagur - Staða/Áætlun** .
 
 Nánari upplýsingar eru notaðar til að greina [raunverulegar upphæðir samanborið við áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md).
 
-### <a name="analyze-data-by-dimensions"></a>Greining gagna eftir víddum
+### Greining gagna eftir víddum
 
 Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær í skjölum, t.d. sölupöntunum. Víddir geta til dæmis gefið í skyn verkið eða deildina sem færsla koma frá.  
 
@@ -171,7 +171,7 @@ Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær
 
 Í fjárhagsgreiningu er vídd gögnum sem bætt er við fjárhagsfærslu sem nokkurs konar merki. Þessi gögn eru notuð til að flokka fjárhagsfærslur með svipaða eiginleika, t.d. viðskiptamenn, svæði, vörur og sölumenn, og sækja þessa flokka auðveldlega til greiningar. Hægt er að nota víddir í færslum í færslubókum, fylgiskjölum og áætlunum. Nánari upplýsingar [eru í Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
 
-### <a name="analyzing-cash-flow"></a>Greining sjóðstreymis
+### Greining sjóðstreymis
 
 Á heimasíðu endurskoðanda eru **í Fjármálaafköstum**, Sjóðsferli, Sjóðsstreymi og Tekjur og Útgjaldaliðir leiðir til að greina sjóðstreymi:
 
@@ -189,7 +189,7 @@ Til að skoða spána, auk spárfærslna, er einnig hægt að skoða sjóðstrey
 
 Nánari upplýsingar eru notaðar til að [greina sjóðstreymi í fyrirtækinu](finance-analyze-cash-flow.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Meðferð fjármálaskýrslugerða þvert á fyrirtækiseiningar eða lögaðila](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->

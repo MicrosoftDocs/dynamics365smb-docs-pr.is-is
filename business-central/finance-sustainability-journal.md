@@ -11,30 +11,30 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="how-to-record-sustainability-entries"></a>Hvernig á að skrá sjálfbærnifærslur
+# Hvernig á að skrá sjálfbærnifærslur  
 
 Á þessu augnabliki er eina leiðin til að skrá losun GHG í **sjálfbærnibókina** með **sjálfbærnibókunum**.   
 
-## <a name="sustainability-journal"></a>Sjálfbærnibók
+## Sjálfbærnibók  
 
 **Sjálfbærnibækur** eru hannaðar til að rekja og skrá sjálfbærnitengdar aðgerðir með sömu notendaupplifun og aðrar færslubækur í Business Central. Í bókinni eiga notendur kost á að nota losun handvirkt ef þeir hafa nauðsynlegar upplýsingar. Einnig er hægt að nota gögnin til að reikna út losun sem byggir á þekktum færibreytum sem samsvara ýmsum tegundum uppruna og reikninga. 
 
 Upplýsingarnar sem færðar eru inn í færslubók eru til bráðabirgða og hægt er að breyta þeim í færslubókinni. Þegar færslubókin er bókuð eru upplýsingarnar fluttar **í Sjálfbærnibókarfærslur** á einstökum **sjálfbærnireikningum** þar sem ekki er hægt að breyta þeim. Hins vegar er hægt að bóka bakfærslu eða leiðrétta færslur.  
 
-### <a name="use-journal-templates-and-batches"></a>Nota bókarsniðmát og keyrslur
+### Nota bókarsniðmát og keyrslur 
 
 Sjálfgefið er að tvö **sniðmát** sjálfbærnibóka séu stöðluð og ítrekunarbók. Fyrir hvert sniðmát færslubókar, geturðu sett upp þína eigin færslbók sem bókarkeyrsla. Til að gera það þarf að velja **keyrslur** á síðunni **Sniðmát** sjálfbærnibóka og stofna nýja **sjálfbærnibókarkeyrslu** á nýju síðunni. Til dæmis er hægt að skilgreina eigin bókarkeyrslu fyrir hvert útblásturssvið með því að nota valkostinn **Útblásturssvið** þar sem hægt er að velja milli þriggja svæða sem fyrir eru. Einnig er hægt að bæta við eða breyta **upprunakóta** og **ástæðukóta** fyrir hverja keyrslu. 
 
 >[!TIP]
 >Hægt er að hafa eina bókarkeyrslu fyrir hverja útblásturstegund ef um margar línur er að ræða en einnig er hægt að nota sameiginlega keyrslu fyrir allar tegundir útblásturs.   
 
-### <a name="validating-sustainability-journals"></a>Prófun sjálfbærnibóka
+### Prófun sjálfbærnibóka 
 
 Hægt er að kveikja á bakgrunnsathugun á síðunni **Sjálfbærniuppsetning** sem hjálpar til við að koma í veg fyrir tafir þegar bókað er. Í prófuninni er greint frá mistökum þegar unnið er í sjálfbærnibókinni **og það kemur í** veg fyrir að bókin sé bókuð.  
 
 Þegar staðfestingin er gerð virk birtir upplýsingakassinn **færslubókarprófunarkassann** úthreyfingar í opnu línunni og í allri keyrslunni. Villuleit gerist þegar færslubókarkeyrsla er hlaðin inn og þegar önnur færslubókarlína er valin. Reiturinn **Samtala** útgáfa í upplýsingakassanum sýnir heildarfjölda vandamála sem [!INCLUDE [prod_short](includes/prod_short.md)] fundust og hægt er að velja það til að opna yfirlit yfir vandamálin. 
 
-### <a name="work-with-sustainability-journals"></a>Vinna með sjálfbærnibækur
+### Vinna með sjálfbærnibækur 
 
 Til að hefja vinnu með **sjálfbærnibækur er skrefunum** fylgt:   
 
@@ -55,7 +55,7 @@ Til að hefja vinnu með **sjálfbærnibækur er skrefunum** fylgt:
 
 Ef reiknireglan er byggð á valkostinum **Reikna út úr fjárhag** í flokknum **Sjálfbærnireikningur** verður að nota aðgerðina **Innheimta upphæð úr fjárhagsfærslum** áður en færslubókin er bókuð til að reikna út losun byggða á þessum gagnagjafa. Ef nokkrar breytingar hafa verið gerðar á útblástursstuðlum eftir að færslubókarlínurnar hafa verið fylltar út þarf að velja aðgerðina **Endurreikna** til að fá rétta upphæð í færslubókinni.  
 
-### <a name="recurring-journals"></a>Ítrekunarbækur
+### Ítrekunarbækur 
 
 Ítrekunarbók er **Sjálfbærnibók** með sérstökum reitum til að stjórna færslum sem oft eru bókaðar með fáum eða ef einhverjar eru, breytist. Til dæmis sjálfbærniviðskipti eins og rafmagn, hiti eða önnur áþekk viðskipti. Með því að nota ítrekunarbækur er hægt að bóka fastar og breytilegar upphæðir. Með ítrekunarbók eru búnar til færslur sem verða bókaðar reglulega aðeins einu sinni. Til dæmis haldast reikningar, víddir, víddargildi og svo framvegis áfram í færslubókinni eftir bókun. Ef breytinga er þörf getur þú gert þær í hvert sinn sem þú bókar. 
 
@@ -65,7 +65,7 @@ Einnig þarf að grunnstilla reitinn **Ítrekunartíðni** því þessi dagsetni
 
 Reiturinn **Fyrningardagsetning** ákvarðar dagsetninguna þegar línan verður bókuð í síðasta sinn. Línan verður ekki bókuð eftir þessa dagsetningu. Kosturinn við að nota reitinn **Útrunnið, dags** . er sá að línunni verður ekki eytt strax úr færslubókinni. Þú getur slegið inn síðari dagsetningu þannig að þú getir notað línuna í framtíðinni. Ef reiturinn er auður verður línan bókuð í hvert skipti þar til henni er eytt úr færslubókinni.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .  
 [Fjármál](finance.md)    
 [Yfirlit yfir sjálfbærnistjórnun](finance-manage-sustainability.md)   
 [Sjálfbærniuppsetning](finance-sustainability-setup.md)   
