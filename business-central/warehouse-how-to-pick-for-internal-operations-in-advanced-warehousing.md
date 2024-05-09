@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Tína fyrir framleiðslu, samsetningu eða vinnslur í ítarlegum vöruhússkilgreiningum
+# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Tína fyrir framleiðslu, samsetningu eða vinnslur í ítarlegum vöruhússkilgreiningum
 
 Hvernig íhlutir eru tíndir fyrir framleiðslu, verk eða samsetningarpantanir fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar um [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
@@ -32,7 +32,7 @@ Ef tína á eða flytja íhluti fyrir upprunaskjöl á toga í tísku verður a�
 |Samsetningarpöntun|Breyta stöðu í Útgefið.|
 |Verk | Breyta stöðu í Opið eða stofnað verk með stöðuna Opið strax.|  
 
-## Framleiðsla
+## <a name="production"></a>Framleiðsla
 
 Nota **vöruhúsatínsluskjöl** til að tína framleiðsluíhluti í flæði til framleiðslu.
 
@@ -41,13 +41,13 @@ Nota **vöruhúsatínsluskjöl** til að tína framleiðsluíhluti í flæði ti
 * Fyrir birgðageymslu sem notar beinan frágang og tínslu skal fylgja skrefunum í hlutanum [Færa vörur í ítarlegri grunnstillingu vöruhúss](warehouse-how-to-move-items-in-advanced-warehousing.md) .
 * Fyrir aðrar birgðageymslur skal fylgja skrefunum í hlutnum Færa vörur innri í greininni [Grunnvörugrunnstilling vöruhúss](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) .
 
-## Samsetning  
+## <a name="assembly"></a>Samsetning
 
 Nota **vöruhúsatínsluskjöl** til að flytja samsetningaríhluti í samsetningarsvæðið.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] styður samsetningar-til-lager og setja saman til pöntunar tegundir samsetningarflæðis. Nánari upplýsingar um samsetningu eftir pöntunum í vöruhúsaflæði út er farið [í Meðhöndlun samsetningarvara í vöruhúsaafhendingum](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## Verkefnastjórnun  
+## <a name="project-management"></a>Verkefnastjórnun
 
 Nota **vöruhúsatínsluskjöl** til að tína verkíhluti í flæðinu til verkefnastjórnunar.
 
@@ -56,11 +56,11 @@ Nota **vöruhúsatínsluskjöl** til að tína verkíhluti í flæðinu til verk
 >
 > Verk styðja ekki ítarlegar grunnstillingar þar sem kveikt er á beinu **tínslu- og frágangsvíkkuninni** .
 
-## Kanna hvort vörur séu tiltækar til tínslu
+## <a name="check-whether-items-are-available-for-picking"></a>Kanna hvort vörur séu tiltækar til tínslu
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## Tínsluskjöl stofnuð með tínsluvinnublaðinu
+## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Tínsluskjöl stofnuð með tínsluvinnublaðinu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað tínslu** og velja síðan viðkomandi tengil.  
 
@@ -113,7 +113,7 @@ Nota **vöruhúsatínsluskjöl** til að tína verkíhluti í flæðinu til verk
 
 8. Velja hnappinn **Í lagi**.  
 
-## Til að tína vörur fyrir framleiðslupöntun, samsetningarpöntun, verk
+## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Til að tína vörur fyrir framleiðslupöntun, samsetningarpöntun, verk
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tínslur** og velja síðan viðkomandi tengil.  
 
@@ -149,7 +149,7 @@ Nota **vöruhúsatínsluskjöl** til að tína verkíhluti í flæðinu til verk
     * [Sameina vörur](assembly-how-to-assemble-items.md)
     * [Skrá neyslu eða notkun fyrir verk](projects-how-record-job-usage.md)
 
-## Birgðaskráning framleiðsluíhluta í ítarlegri vöruhúsaskilgreiningu
+## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Birgðaskráning framleiðsluíhluta í ítarlegri vöruhúsaskilgreiningu
 
 Birgðaskráningaraðferðir hafa áhrif á flæði íhluta í framleiðslu. Fræðast meira um birgðaskráningu [íhluta eftir frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md). Hægt er að tína íhluti fyrir framleiðslu om á eftirfarandi hátt, allt eftir valinni birgðaskráningaraðferð:
 
@@ -157,7 +157,7 @@ Birgðaskráningaraðferðir hafa áhrif á flæði íhluta í framleiðslu. Fr�
 * Nota vöruhúsatínsluskjal **til** að skrá tínslu fyrir vörur sem nota **tínslu + Framvirkt,Tína** **+ Afturvirk** söfnunaraðferð. Notkun íhluta gerist annaðhvort sjálfkrafa þegar stöðu framleiðslupöntunarinnar er breytt eða með því að hefja eða ljúka aðgerð. Allir íhlutir sem þarf verða að vera tiltækir. Annars skal bóka birgðaskráningarnotkunarstöðvun fyrir þann íhlut.
 *  **Nota vöruhúsahreyfingarskjal** án vísunar í upprunaskjal eða aðrar leiðir til að skrá hreyfingu á íhlutum sem nota birgðaskráningaraðferðina **Framvirk** eða **Afturvirk** . Íhlutir eru sjálfkrafa notaðir annaðhvort þegar stöðu framleiðslupöntunar er breytt eða aðgerð er hafin eða hún lýkur. Allir íhlutir sem þarf verða að vera tiltækir. Annars stöðvast birgðaskráning notkun fyrir þann íhlut. Nánari upplýsingar um flutning á [atriðum](warehouse-move-items.md).
 
-### Dæmi
+### <a name="example"></a>Dæmi
 
 Framleiðslupöntun er fyrir 15 stk af vöru sp-SCM1004. Sumar af vörunum á íhlutalistanum þarf að birgðaskrá handvirkt í notkunarbók. Hægt er að tína og birgðaskrá aðrar vörur sjálfvirkt með því að nota **Tínslu + Afturvirk** birgðaskráningaraðferð.  
 
@@ -180,7 +180,7 @@ Eftirfarandi mynd sýnir þegar reiturinn **Hólfkóti** á efnisþáttalista er
 
 :::image type="content" source="media/binflow.png" alt-text="Yfirlit yfir hvenær og hvernig reiturinn Hólfkóti er fylltur út.":::
 
-## Framleiða íhluti sem framleiða eftir pöntun (MTO) í ítarlegri vöruhúsaskilgreiningu
+## <a name="make-to-order-mto-production-components-in-an-advanced-warehouse-configuration"></a>Framleiða íhluti sem framleiða eftir pöntun (MTO) í ítarlegri vöruhúsaskilgreiningu
 
 Í tilvikum þar sem framleidd vara samanstendur af hráefni og hálfunninni vöru með framleiðslustefnuna sem stillt er á **Eftir pöntun** er vöruhúsatínslunni fyrir þessa hálfkláraða íhluti bætt við sömu framleiðslupöntun og **reiturinn Kóti** áætlunarstigs fylltur út. Búist er við að hálfunnin vara sé tiltæk til notkunar strax og ekki þarfnast tínslu svo þær séu ekki innifaldar í vöruhúsatínsluskjalinu. Stofnaðar vöruhúsatínslur innihalda aðeins hráefni fyrir framleidda vöru og fyrir hálfkláraðar vörur.
 
@@ -188,7 +188,7 @@ En ef hálfunnin vara er tiltæk á lager leggur áætlunarkerfið til að þær
 Slík uppsetning er ekki samhæf vöruhúsatínslum og eftir tíðni þarf annað hvort að breyta framleiðslustefnunni fyrir slíka hálfkláraða vöru í **birgðir** eða skipta íhlutalínu framleiðslupöntunarinnar handvirkt þegar tína þarf hálfunnin vörur sem framleiddar voru fyrr.
 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 - [Stjórna birgðum](inventory-manage-inventory.md)  
 - [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
