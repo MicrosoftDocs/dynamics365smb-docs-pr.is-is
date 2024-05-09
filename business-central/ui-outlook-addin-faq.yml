@@ -16,18 +16,22 @@ sections:
   - name: Hunsað
     questions:
       - question: |
-          Hvernig breyti ég umhverfi mínu bætiefni er bent á?  
+          Hvernig breyti ég umhverfinu sem innbótin mín vísar í?  
         answer: |
-          Umhverfisslóðinni er samskipað í viðbóta þegar viðbótin er uppsett (nánar tiltekið í farmskrá viðbóta). Ef bæta á viðbótinum við til að geta bent á annað umhverfi skal opna viðkomandi Aðalumhverfi og virkja viðbóið aftur, til dæmis með því að keyra  **forritið sækja Outlook viðbóta**  fyrir innbót. Þessi aðgerð endurvirkjast viðbóta með uppfærðum umhverfisvefslóðum. 
+          Slóð umhverfisins er grunnstillt í innbótinni þegar innbótin er sett upp (sérstaklega í farmskrá innbótarinnar). Ef bæta á við til að benda á annað umhverfi er Business Central umhverfið opnað og innbótin virkjuð aftur, til dæmis með því að keyra **uppsetninguna Sækja Outlook-innbót** . Þessi aðgerð endurvirkjar innbót með uppfærðum vefslóðum umhverfis. 
 
           > [!NOTE]
-          > Það gæti tekið einhvern tíma áður en breytingin tekur gildi.
+          > Það gæti tekið nokkurn tíma áður en breytingin tekur gildi.
       - question: |
-          Get ég sérsniðið viðburð til að tengjast mörgum umhverfi?
+          Get ég sérstillt innbótina til að tengjast mörgum umhverfi?
         answer: |
-          Já. Kerfisstjóri, forritari eða Partner, getur breytt og byggt upp eigin viðbætur á viðbótum. Ein leið er að sækja tengilið innsýn farmiða úr hverju umhverfi sem notendur vilja tengjast við. Því næst skal breyta  `<Id>`  og  `<DisplayName>`  hafa merkin þannig að hægt sé að setja upp margar útgáfur af viðbónum. Þessar breytingar hleypa notandanum að mörgum viðbótum við Business Central, sem hver vísar í sitt eigið umhverfi.
+          Já. Sem stjórnandi, verktaki eða samstarfsaðili er hægt að breyta og byggja upp eigin innbótarfyrirtækjaskrár. Ein leið er að sækja innsýn tengiliða í hverju umhverfi sem notendur eiga að tengjast. Síðan skal breyta `<Id>` merkjum og `<DisplayName>` svo hægt sé að setja upp margar útgáfur af innbótinni. Þessar breytingar gera notandanum kleift að hafa margar Business Central innbætur uppsetta, sem hver vísar á sitt eigið umhverfi.
 
-          ![Mörg fyrirtæki miðlæg viðbætur fyrir Outlook.](media/outlook-multiple-addins.png) 
+          ![Mörg Business Central innbót fyrir Outlook.](media/outlook-multiple-addins.png)
+      - question: |
+          Outlook-innbót segir að síðan sé ekki studd. Hvers vegna?
+        answer: |
+          Sumir eiginleikar í Business Central þurfa verulegt vinnusvæði til að veita mikla upplifun og eru ekki tiltækir þegar outlook-innbótarsvæðið er notað. Til dæmis er hvaða síður skref fyrir skref leiðsagnarforrit ekki tiltækar á svæðinu. Til að sigrast á þessu er hægt að skjóta út síðuna í innbótinni með aðgerðinni "Pop out" . Popout gluggann er hægt að teygja í hvaða stærð sem er, þar á meðal stækkandi til að fylla á skjáinn.
 additionalContent: |
 
   ## Sjá einnig .

@@ -26,6 +26,8 @@ Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisi
 
 ## Sjá einnig .
 
+[Yfirlit yfir sölugreiningar](sales-analytics-overview.md)   
+[Tilfalalengd greining á sölugögnum](ad-hoc-analysis-sales.md)    
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
 [Taka frá vörur](inventory-how-to-reserve-items.md)

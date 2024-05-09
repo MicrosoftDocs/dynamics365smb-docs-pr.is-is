@@ -9,21 +9,17 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Skýrslur og greiningar eigna í Business Central
+# Skýrslur og greiningar eigna í Business Central
 
 Til að hjálpa þér að hafa umsjón með eignum í [!INCLUDE [prod_short](includes/prod_short.md)] eru staðlaðar skýrslur og greiningar innbyggðar. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
-[Vinna með víddir](finance-dimensions.md)  
+[Yfirlit eignagreiningar](fa-analytics-overview.md)   
 [Eignaumsjón](fa-manage.md)  
-[Yfirlit yfir staðbundna virkni](about-localization.md)  
-[Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

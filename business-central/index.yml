@@ -153,7 +153,7 @@ additionalContent:
               url: /dynamics365/business-central/map-edocuments-with-copilot
             - text: Afstemma bankareikninga
               url: /dynamics365/business-central/bank-reconciliation-with-copilot
-            - text: Fá tillögur að línum
+            - text: Fá tillögur að sölulínum
               url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Stillingar vinnusvæðis
           links:

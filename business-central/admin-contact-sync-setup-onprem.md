@@ -1,6 +1,6 @@
 ---
-title: Setja upp tengilið samkeyrslu við Outlook sem er í Innanhússmiðstöð
-description: Lærðu að skilgreina umhverfi innanhúss til að samstilla tengiliði í viðskiptamiðinu og Outlook.
+title: Setja upp tengiliðasamstillingu við Outlook fyrir Business Central innanhúss
+description: Læra að grunnstilla Business Central umhverfi innanhúss til að samstilla tengiliði í Business Central og Outlook.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -10,57 +10,57 @@ ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a>Setja upp tengilið samkeyrslu við Outlook sem er í Innanhússmiðstöð
+# Setja upp tengiliðasamstillingu við Outlook fyrir Business Central innanhúss
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-Í þessari grein er hægt að læra hvernig setja á upp  [!INCLUDE[prod_short](includes/prod_short.md)]  innanhúss til að samstilla tengiliði í  [!INCLUDE[prod_short](includes/prod_short.md)]  við tengiliði í Outlook. Nánari upplýsingar um aðgerðina er að leita í til að  [Samstilla tengiliði í Viðskiptamiðinu við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md).
+Í þessari grein er lært hvernig á að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss til að samstilla tengiliði við [!INCLUDE[prod_short](includes/prod_short.md)] tengiliði í Outlook. Frekari upplýsingar er hægt að [fá í Samstilla tengiliði í Business Central við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 
-## <a name="introduction"></a>Kynning
+## Kynning
 
-Samstilling tengiliða krefst þess að nota OAuth 2,0 samskiptareglurnar fyrir sannvottun með Exchange Online. Áður hafði grunnsannvottun einnig verið studd, en hún verið fyrst og ekki studd lengur Exchange Online. Hægt er að lesa nánar um afskráð hjá  [sviptingu grunnskírteinis í Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). Þessi breyting þýðir að Samstilling tengiliða í Viðskiptamiðinu getur hafa hætt að virka í umhverfi innanhúss. Í þessari grein verður útskýrt hvernig á að fá það að virka aftur.
+Samstilling tengiliða krefst þess að nota samskiptaregluna OAuth 2.0 til sannvottunar með Exchange Online. Áður var grunnsönnun einnig studd, en hún hefur verið afskrifuð og ekki lengur studd með Exchange Online. Nánari upplýsingar um afskriftir eru [í Afskrift einfaldrar sannvottunar í Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). Þessi breyting þýðir að tengiliðasamstilling í Business Central gæti hafa hætt að vinna við umhverfið á staðnum. Þessi grein mun útskýra hvernig á að fá hana til starfa aftur.
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
-- Exchange Online, annað hvort með sjálfstæðri útgáfu eða með  Microsoft 365  áætlun  
-- Aðgangur að  Microsoft Entra  leigjanda notaður af Exchange Online
-- [!INCLUDE[prod_short](includes/prod_short.md)] notendur hafa með sér  Microsoft 365  eða  Exchange Online  email reikning, sem er úthlutað reikningum í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að haka í þessa stillingu í  **Microsoft 365  hlutanum sannvottun**  á notandaforstillingu á  **listanum yfir notendur** . 
+- Exchange Online, annaðhvort standalone útgáfu eða með Microsoft 365 áætlun  
+- Aðgangur að leigjandanum Microsoft Entra sem notaður er af Exchange Online
+- [!INCLUDE[prod_short](includes/prod_short.md)] notendur hafa eða Microsoft 365  Exchange Online tölvupóstreikning, sem er úthlutað á reikninga þeirra í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að athuga þessa stillingu í hlutanum **Microsoft 365 Sannvottun** notendasniðs á listanum **Notendur** . 
 
-## <a name="set-up-contact-sync"></a>Setja upp samkeyrslu tengiliðar
+## Setja upp samstillingu tengiliða
 
-Ljúkið eftirfarandi skrefum til að setja upp tengiliðsamkeyrslu. Ef þú ert að keyra  [!INCLUDE[prod_short](includes/prod_short.md)]  vorið 2019 (v. 14) þá þarftu að gera aukaskref sem annað hvort breytir forritskóða eða setur upp tengingu við Power BI.
+Ljúka skal eftirfarandi skrefum til að setja upp samstillingu tengiliða. Ef þú keyrir [!INCLUDE[prod_short](includes/prod_short.md)] Vor 2019 (v.14) þarftu að gera aukaskref sem annaðhvort breytir forritskóta eða setur upp tengingu við Power BI.
 
-1. <a name="registerapp"></a> Skrá app fyrir  Exchange Online  API hjá  Microsoft Entra  leigjandanum.
+1. <a name="registerapp"></a> Skráðu forrit fyrir Exchange Online API í leigjanda þínum Microsoft Entra .
 
-   Í þessu skrefi bætist við skráð App hjá  Microsoft Entra  leigjanda  Microsoft 365  eða  Exchange Online  áætlun. Eins og aðrir Azure þjónustuaðilar sem vinna með Central Business,  Exchange Online  þurfa skráð App í  Microsoft Entra  auðkenni. Skrásett App veitir sannvottun og heimildaþjónustu á milli Viðskiptamiðis og Exchange Online.
+   Í þessu skrefi bætir þú við skráðu forriti í Microsoft Entra leigjanda eða Microsoft 365  Exchange Online áætlun. Eins og önnur Azure þjónusta sem vinnur með Business Central krefst Exchange Online  skráðs forrits í Microsoft Entra auðkenni. Skráða forritið veitir sannvottun og heimildarþjónustu á milli Business Central og Exchange Online.
 
-   Fylgdu ítarlegum leiðbeiningum forritara og það Pro Help at  [skrá inn umsókn í  Microsoft Entra  ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Eftir því sem farið er eftir leiðbeiningunum skal minnt á eftirfarandi atriði:
+   Fylgdu nákvæmum leiðbeiningum í hjálp forritara og tæknimanns við [að skrá forrit í Microsoft Entra kenni](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Eftir því sem farið er í gegnum leiðbeiningarnar þarf að muna eftirfarandi atriði:
 
-   - Ef þú hefur þegar skráð inn umsókn sem hluta af samþættingu við aðra Microsoft vöru, eins og  Power BI, endurnýtir þú þá skráð App. Í þessu tilfelli þarftu bara að setja upp App með þeim  Office 365 Exchange Online  heimildum sem lýst er í næstu kúlu.
+   - Ef þú hefur þegar skráð forrit sem hluta af samþættingu við aðra Microsoft-vöru, svo sem Power BI, þá endurnotaðu það skráða forrit. Í þessu tilfelli þarftu bara að setja upp forritið með þeim heimildum sem Office 365 Exchange Online lýst er í næstu kúlu.
 
-   - Skilgreinið skrásett App með eftirfarandi úthlutuðum heimildum til  Office 365 Exchange Online  API:
+   - Stilla skráða forritið með eftirfarandi framseldum heimildum á Office 365 Exchange Online API:
 
-     - Tengiliðir. Lesiskrifa
+     - Tengiliðir.ReadWrite
      - EWS.AccessAsUser.All
 
-2. Fyrir  [!INCLUDE[prod_short](includes/prod_short.md)]  útgáfu 14 skal gera eitt af eftirtöldum verkefnum:
+2. Í [!INCLUDE[prod_short](includes/prod_short.md)] útgáfu 14 er eitt af eftirfarandi verkum gert:
 
-   - Breyta síðu 6700 með því að  `FALSE`  Breyta  `TRUE`  í í eftirfarandi kóðalínu í  `OnPageOpen`  kveikjunni:
-
-     ```
-     PasswordRequired := AzureADMgt.GetAccessToken(AzureADMgt.GetO365Resource,AzureADMgt.GetO365ResourceName,TRUE) = '';
-     ```
-
-   - Stofna nýja síðu með eftirfarandi kóta á OnPageOpen gikkinu:
+   - Breyta bls. 6700 með því að `FALSE` breyta `TRUE` í eftirfarandi kótalínu í gikknum `OnPageOpen` :
 
      ```
      PasswordRequired := AzureADMgt.GetAccessToken(AzureADMgt.GetO365Resource,AzureADMgt.GetO365ResourceName,TRUE) = '';
      ```
 
-   - Setjið upp  Power BI  með því að fylgja leiðbeiningunum  [með því að setja upp viðskipti miðsvæðis innanhúss fyrir  Power BI  samþættingu](admin-powerbi-setup.md#setup).
+   - Stofna nýja síðu með eftirfarandi kóða á OnPageOpen-kveikjunni:
 
-   Eftir að lausnin sem þú velur er á sínum stað biðjum við notendur um annað hvort keyra nýju/Breyttu síðuna eða  [tengjast við Power BI](across-working-with-powerbi.md#connect). Þeir þurfa því aðeins að gera þetta skref einu sinni.
+     ```
+     PasswordRequired := AzureADMgt.GetAccessToken(AzureADMgt.GetO365Resource,AzureADMgt.GetO365ResourceName,TRUE) = '';
+     ```
 
-## <a name="next-steps"></a>Næstu skref
+   - Setja upp Power BI með því að fylgja leiðbeiningum á [Setja upp Business Central innanhúss fyrir Power BI samþættingu](across-working-with-business-central-in-powerbi.md).
 
-[Samstilla tengiliði í Aðalmiðinu við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)  
+   Þegar lausnin sem valin er er til staðar er beðið notendur um að keyra nýja/breyttu síðuna eða [tengjast Power BI](across-working-with-powerbi.md#connect). Þeir þurfa aðeins að gera þetta skref einu sinni.
+
+## Næstu skref
+
+[Samstilla tengiliði í Business Central við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)  

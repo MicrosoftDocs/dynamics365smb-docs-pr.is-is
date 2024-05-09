@@ -1,56 +1,57 @@
 ---
-title: Hönnunarupplýsingar - Meðalkostnaður
-description: Meðalkostnaður á vöru er reiknaður með reglubundnu vegnu meðaltali.
+title: Upplýsingar um hönnun - meðalinnkaupaverð
+description: Meðalinnkaupaverð vöru er reiknað út með reglubundnu vegnu meðaltali.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '8645,'
-ms.date: 06/06/2023
-ms.author: bholtorf
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="design-details-average-cost"></a>Hönnunarupplýsingar: Meðalkostnaður
+# Upplýsingar um hönnun: meðalinnkaupaverð
 
-Meðalkostnaður á vöru er reiknaður með reglubundnu vegnu meðaltali. Meðaltalið er miðað við meðalkostnaðartímabilið sem sett er upp í [!INCLUDE[prod_short](includes/prod_short.md)].  
+Meðalinnkaupaverð vöru er reiknað út með reglubundnu vegnu meðaltali. Meðaltalið byggist á meðalinnkaupaverðstímabilinu sem tilgreint var í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Virðisdagsetningin er valin sjálfkrafa.  
 
-## <a name="setting-up-average-cost-calculation"></a>Setja upp meðalkostnaðrverðútreikning
+## Uppsetning útreiknings á meðalinnkaupaverði
 
 Eftirfarandi tafla lýsir tveimur reitum á síðunni **Uppsetning birgða** sem verður að fylla út til að gera meðalkostnaðarútreikning virkan.  
 
 |Svæði|Lýsing|  
 |---------------------------------|---------------------------------------|  
-|**Tímabil meðalinnk.verðs**|Tilgreinir á hvaða tímabili meðalkostnaður er reiknaður í. Eftirfarandi möguleikar eru til staðar:<br /><br /> - **Dag**<br />- **Viku**<br />- **Mánuði**<br />- **Bókhaldstímabil**<br /><br /> Minnkun birgða sem bókaðar eru á meðalkostnaðartímabilinu fá meðalinnkaupsverð reiknað fyrir það tímabil.|  
-|**Meðalinnk.verð Teg. útreikn.**|Tilgreinir hvernig meðalkostnaður er reiknaður. Eftirfarandi möguleikar eru til staðar:<br /><br /> - **Vöru**<br />- **Vara, afbrigði og staðsetning**<br /> Ef þessi kostur er valinn reiknar kerfið út meðalinnkaupsverð á vöru fyrir hverja birgðageymslu og fyrir hvert afbrigði vörunnar í fyrirtækinu. Meðalkostnaður þessarar vöru veltur á því hvar hann er geymdur og afbrigðinu sem er valið, t.d. lit.|  
+|**Tímabil meðalinnk.verðs**|Tilgreinir á hvaða tímabili meðalkostnaður er reiknaður í. Eftirfarandi möguleikar eru til staðar:<br /><br /> - **Dag**<br />- **Viku**<br />- **Mánuði**<br />- **Reikningstímabil**<br /><br /> Birgðaminnkanir sem eru bókaðar í meðalinnkaupaverðstímabilið fá meðalinnkaupaverðið reiknað út fyrir það tímabil.|  
+|**Meðalinnk.verð Teg. útreikn.**|Tilgreinir hvernig meðalkostnaður er reiknaður. Eftirfarandi möguleikar eru til staðar:<br /><br /> - **Vöru**<br />- **Vara, Afbrigði og Birgðageymsla**<br /> Ef þessi kostur er valinn reiknar kerfið út meðalinnkaupsverð á vöru fyrir hverja birgðageymslu og fyrir hvert afbrigði vörunnar í fyrirtækinu. Meðalinnkaupaverð þessarar vöru veltur á því hvar hún er geymd og afbrigðið sem valið er, t.d. lit.|  
 
 > [!NOTE]  
 > Aðeins er hægt að nota meðalkostnaðartímabil og eina gerð útreikninga meðaltalskostnaðará hverju fjárhagsári.  
 >
 > **Fjárhagstímabil** síðan sýnir hvaða meðalkostnaðartímabil og meðalkostnaðarútreikningsgerð er í gildi á því tímabili, fyrir hvert fjárhagstímabil.  
 
-## <a name="calculating-average-cost"></a>Meðalkostnaður reiknaður
+## Útreikningur meðalinnkaupaverðs
 
  Þegar viðskipti eru bókuð fyrir vöru sem notar kostnaðarútreikningsaðferðina Meðaltal stofnar forritið færslu í töflunni **Upphafspunktur Meðalkostnaðarleiðréttingar**. Þessi færsla inniheldur vörunúmer, afbrigðakóða og birgðageymslukóða færslunnar. Færslan inniheldur einnig reitinn **Dagsetning virðismats**, sem tilgreinir síðustu dagsetningu meðalkostnaðartímabilsins sem færslan var bókuð á.  
 
 > [!NOTE]  
 > Ekki ætti að rugla þessum reit saman við **Dagsetning virðismats** reitinn í **Virðisfærsla** töflunni, sem sýnir dagsetninguna þegar gildið tekur gildi og er notaður til að ákvarða meðalkostnaðartímabilið sem gildisfærslan tilheyrir.  
 
- Meðalkostnaður færslu er reiknaður þegar vörukostnaður er leiðréttur. Nánari upplýsingar, sjá [Upplýsingar um hönnun: Kostnaðarleiðrétting](design-details-cost-adjustment.md) Kostnaðarleiðrétting notar færslur í **Upphafsstaður Meðalkostnaðarleiðrétting** töflunni til að auðkenna fyrir hvaða vöru eða vörur, staðsetningu, og afbrigði skal reikna meðalkostnað fyrir. Fyrir hverja færslu með kostnað sem hefur ekki verið jöfnuð notar kostnaðarleiðrétting eftirfarandi til að ákvarða meðalkostnað:  
+ Meðalkostnaður færslu er reiknaður þegar vörukostnaður er leiðréttur. Nánari upplýsingar, sjá [Upplýsingar um hönnun: Kostnaðarleiðrétting](design-details-cost-adjustment.md) Kostnaðarleiðrétting notar færslur í **Upphafsstaður Meðalkostnaðarleiðrétting** töflunni til að auðkenna fyrir hvaða vöru eða vörur, staðsetningu, og afbrigði skal reikna meðalkostnað fyrir. Fyrir hverja færslu með kostnaði sem ekki hefur verið leiðréttur notar kostnaðarleiðréttingin eftirfarandi til að ákvarða meðalinnkaupaverðið:  
 
 - Ákvarðar kostnað vöru Í upphafi meðalkostnaðartímabil.  
 - Bæta við summu kostnaðar á innleið sem voru bókaðir á meðalkostnaðartímabil. Það inniheldur innkaup, söluvöruskil, jákvæða leiðréttingu, og vöru og samsetningarúttak.  
 - Dregur frá summu kostnaðar útleiðarfærslna sem voru fastjafnaðar við móttöku í meðalkostnaðartímabili. Yfirleitt inniheldur þetta innkaupaskil og neikvætt frálag.  
-- Arður af heildarbirgðamagni fyrir lok tímabils meðalkostnaðarins. Minnkar birgðatíð sem verið er að meta.  
+- Deilir með heildarbirgðamagni fyrir lok meðalinnkaupaverðstímabilsins. Útilokar birgðaminnkun sem verið er að meta.  
 
- Reiknaður meðalkostnaður er svo jafnaður við birgðaminnkun vörunnar ( eða vöru, birgðageymslu og afbrigði) með bókunardagsetningum í meðalkostnaðartímabilinu. Fyrir birgðahækkanir sem eru fastar jafnaðar við minnkun birgða á meðalkostnaðartímabilinu,  [!INCLUDE [prod_short](includes/prod_short.md)]  Framsendir útreiknaðan meðalkostnað frá aukningu til lækkunar.  
+ Reiknaður meðalkostnaður er svo jafnaður við birgðaminnkun vörunnar ( eða vöru, birgðageymslu og afbrigði) með bókunardagsetningum í meðalkostnaðartímabilinu. Fyrir birgðaaukningar sem eru fast jafnaðar við birgðaminnkanir á meðalinnkaupaverðstímabilinu áframsendir [!INCLUDE [prod_short](includes/prod_short.md)]  reiknað meðalinnkaupaverð frá aukningunni til minnkunarinnar.  
 
-### <a name="example-average-cost-period--day"></a>Dæmi Tímabil meðalinnk.verðs = Dagur
+### Dæmi: meðalinnkaupaverðstímabil = dagur
 
-Eftirfarandi dæmi sýnir áhrif þess að reikna meðalkostnað miðað við meðalkostnaðartímabil einn dag. Reiturinn **Útreikningsgerð meðalkostnaðar** á síðunni **Uppsetning birgða** er stilltur á **Vara**.  
+Eftirfarandi dæmi sýnir áhrif þess að reikna út meðalinnkaupsverð á grundvelli meðalinnkaupaverðstímabils sem er einn dagur. Reiturinn **Útreikningsgerð meðalkostnaðar** á síðunni **Uppsetning birgða** er stilltur á **Vara**.  
 
-Eftirfarandi tafla sýnir hlut birgðahöfuðbókarfærslur fyrir sýnishorn meðalkostnaðarvöru, VARA1, áður en runuvinnslan **Leiðrétta kostnað - Birgðafærslur** hefur verið keyrð.  
+Eftirfarandi tafla sýnir birgðafærslur fyrir sýnishorn af meðalkostnaðarvöru, VÖRU1, áður en **keyrslan** Leiðr. kostnað - Birgðafærslur er keyrð.  
 
 | **Bókunardags.** | **Tegund birgðafærslu** | **Magn** | **Kostnaðarupphæð (raunverul.)** | **Færslunr.** |
 |--|--|--|--|--|
@@ -64,7 +65,7 @@ Eftirfarandi tafla sýnir hlut birgðahöfuðbókarfærslur fyrir sýnishorn me�
 > [!NOTE]  
 > Vegna þess að kostnaðarleiðrétting hefur ekki átt sér stað ennþá, mun reiturinn í **Kostnaðarupphæð Raunveruleg** birgðaminnkun samsvara birgðaaukningu sem hann er jafnaður við.  
 
- Eftirfarandi tafla sýnir færslurnar í  **reitnum AV. kostnaðarleiðr. Færslunapunkta**  sem gilda um virðisfærslur sem verða til við birgðafærslurnar í fyrri töflunni.  
+ Eftirfarandi tafla sýnir færslurnar í reitnum **Meðalinnk.verðleiðr. Taflan Komustaður** sem á við virðisfærslurnar sem eru afleiðingar birgðafærslna í síðustu töflu.  
 
 | **Vörunr.** | **Afbrigðiskóði** | **Staðsetningarkóði** | **Dagsetning virðismats** | **Kostnaður er leiðréttur** |
 |--|--|--|--|--|
@@ -73,7 +74,7 @@ Eftirfarandi tafla sýnir hlut birgðahöfuðbókarfærslur fyrir sýnishorn me�
 | VARA1 |  | BLÁTT | 02-02-23 |   Nr. |
 | VARA1 |  | BLÁTT | 02-03-23 |   Nr. |
 
- Eftirfarandi tafla sýnir sömu birgðahöfuðbókarfærslur eftir að runuvinnslan **Leiðrétta kostnað Birgðafærslur** hefur verið keyrð. Meðalkostnaður á dag er reiknaður og jafnaður við birgðaminnkun.  
+ Eftirfarandi tafla sýnir sömu birgðafærslur eftir að keyrslan **Leiðr. kostnað - Birgðafærslur hefur verið keyrð** . Meðalkostnaður á dag er reiknaður og jafnaður við birgðaminnkun.  
 
 | **Bókunardags.** | **Tegund birgðafærslu** | **Magn** | **Kostnaðarupphæð (raunverul.)** | **Færslunr.** |
 |--|--|--|--|--|--|
@@ -84,13 +85,13 @@ Eftirfarandi tafla sýnir hlut birgðahöfuðbókarfærslur fyrir sýnishorn me�
 | 02-02-23 |   Innkaup | 1 | 100.00 | 5 |
 | 02-03-23 |   Útsala | -1 | -100,00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Dæmi Tímabil meðalinnk.verðs = mánuður
+### Dæmi: meðalinnkaupaverðstímabil = mánuður
 
- Þetta dæmi sýnir áhrif þess að reikna meðalkostnað miðað við tímabil meðalkostnaðar á einum mánuði. Reiturinn **Útreikningsgerð meðalkostnaðar** á síðunni **Uppsetning birgða** er stilltur á **Vara**.  
+ Þetta dæmi sýnir áhrif þess að reikna út meðalinnkaupsverð á grundvelli meðalinnkaupsverðstímabils sem er einn mánuður. Reiturinn **Útreikningsgerð meðalkostnaðar** á síðunni **Uppsetning birgða** er stilltur á **Vara**.  
 
- Ef meðalkostnaðartímabilið er einn mánuður,  [!INCLUDE [prod_short](includes/prod_short.md)]  stofnast ein færsla fyrir hverja samsetningu vörunúmera, afbrigðiskóta, birgðageymslukóta og dagsetningu matsdagsetningar.  
+ Ef meðalinnkaupaverðstímabilið er einn mánuður [!INCLUDE [prod_short](includes/prod_short.md)]  stofnar ein færsla fyrir hverja samsetningu vörunúmers, afbrigðiskóta, birgðageymslukóta og matsdagsetningar.  
 
- Eftirfarandi tafla sýnir hlut birgðahöfuðbókarfærslur fyrir sýnishorn meðalkostnaðarvöru, VARA1, áður en runuvinnslan **Leiðrétta kostnað - Birgðafærslur** hefur verið keyrð.  
+ Eftirfarandi tafla sýnir birgðafærslur fyrir sýnishorn af meðalkostnaðarvöru, VÖRU1, áður en **keyrslan** Leiðr. kostnað - Birgðafærslur er keyrð.  
 
 | **Bókunardags.** | **Tegund birgðafærslu** | **Magn** | **Kostnaðarupphæð (raunverul.)** | **Færslunr.** |
 |--|--|--|--|--|
@@ -104,7 +105,7 @@ Eftirfarandi tafla sýnir hlut birgðahöfuðbókarfærslur fyrir sýnishorn me�
 > [!NOTE]  
 > Vegna þess að kostnaðarleiðrétting hefur ekki átt sér stað ennþá, mun reiturinn í **Kostnaðarupphæð Raunveruleg** birgðaminnkun samsvara birgðaaukningu sem hann er jafnaður við.  
 
-Eftirfarandi tafla sýnir færslurnar í  **reitnum AV. kostnaðarleiðr.** Færslutöflu sem á við þær virðisfærslur sem verða vegna birgðafærslna í töflunni hér á undan.  
+Eftirfarandi tafla sýnir færslurnar í reitnum **Meðalinnk.verðleiðr. Taflan Komustaður** sem á við virðisfærslurnar sem eru afleiðingar birgðafærslna í síðustu töflu.  
 
 | **Vörunr.** | **Afbrigðiskóði** | **Staðsetningarkóði** | **Dagsetning virðismats** | **Kostnaður er leiðréttur** |
 |--|--|--|--|--|
@@ -114,7 +115,7 @@ Eftirfarandi tafla sýnir færslurnar í  **reitnum AV. kostnaðarleiðr.** Fær
 > [!NOTE]  
 > Virðisdagsetningin er stillt á síðasta dag meðalkostnaðartímabils, sem í þessu tilviki er síðasti dagur mánaðarins.  
 
-Eftirfarandi tafla sýnir sömu birgðahöfuðbókarfærslur eftir að runuvinnslan **Leiðrétta kostnað Birgðafærslur** hefur verið keyrð. Meðalkostnaður á mánuði er reiknaður og jafnaður við birgðaminnkun.  
+Eftirfarandi tafla sýnir sömu birgðafærslur eftir að keyrslan **Leiðr. kostnað - Birgðafærslur hefur verið keyrð** . Meðalkostnaður á mánuði er reiknaður og jafnaður við birgðaminnkun.  
 
 |**Bókunardags.** | **Tegund birgðafærslu** | **Magn** | **Kostnaðarupphæð (raunverul.)** | **Færslunr.** |
 |--|--|--|--|--|
@@ -125,13 +126,13 @@ Eftirfarandi tafla sýnir sömu birgðahöfuðbókarfærslur eftir að runuvinns
 | 02-02-23 | Innkaup | 1 | 100.00 | 5 |
 | 02-03-23 | Útsala | -1 | -65,00 | 6 |
 
-Meðalkostnaður við færslu númer 3 er reiknaður út í meðalkostnaðartímabili fyrir Janúar. Meðalkostnaður vegna færslna 4 og 6 er reiknaður út frá meðalkostnaðartímabili fyrir febrúar.  
+Meðalinnkaupaverð færslunúmers 3 er reiknað í meðalinnkaupaverðstímabilinu í janúar. Meðalinnkaupaverð færslna 4 og 6 er reiknað í meðalinnkaupaverðstímabilinu í febrúar.  
 
-Til að fá meðalkostnaðinn fyrir febrúar,  [!INCLUDE [prod_short](includes/prod_short.md)] bætir Meðalkostnaðurinn við vöruna sem fékkst í birgðum (100,00) við meðalkostnaðinn í upphafi tímabilsins (30,00). Samtala (130,00) er síðan deilt með heildarmagni í birgðum (2). Þessi Útreikningur gefur sem fyrr meðalkostnað á vöruna í febrúar-tímabilinu (65,00). Meðalkostnaðinum er úthlutað á birgðaminnkunina í tímabilinu (færslur 4 og 6).  
+Til að fá meðalinnkaupsverð fyrir febrúar [!INCLUDE [prod_short](includes/prod_short.md)]  er meðalinnkaupaverð þeirrar vöru sem var móttekin í birgðum (100,00) bætt við meðalinnkaupsverð í upphafi tímabilsins (30,00). Samtalan (130,00) er síðan deilt með heildarmagni í birgðum (2). Þessi útreikningur gefur út meðalinnkaupsverð vörunnar í febrúartímabilinu (65,00). Meðalkostnaðinum er úthlutað á birgðaminnkunina í tímabilinu (færslur 4 og 6).  
 
-## <a name="setting-the-valuation-date"></a>Dagsetning virðismats ákveðin
+## Dagsetning mats stillt
 
-  **Reiturinn Dagsetning**  verðmætasköpunar í  **töflunni Virðisfærsla**  ákvarðar meðaltímabilið sem birgðalækkunarfærsla tilheyrir. Þessi stilling á einnig við um birgðastöðu í vinnslu (VÍV).  
+ Reiturinn **Matsdagsetning** í **töflunni Virðisfærsla** ákvarðar það meðalinnkaupaverðstímabil sem birgðaminnkunarfærsla tilheyrir. Þessi stilling á einnig við um birgðir í vinnslu (VÍV).  
 
  Eftirfarandi tafla sýnir skilyrði sem eru notuð til að stilla matsdagsetninguna.  
 
@@ -142,7 +143,7 @@ Til að fá meðalkostnaðinn fyrir febrúar,  [!INCLUDE [prod_short](includes/p
 | 3 | Fyrr en síðasta matsdagsetning jafnaðra virðisfærslna | Jákvætt | Nei | Síðasta matsdagsetning jafnaðra virðisfærslna |
 | 4 |  | Neikvætt | Já | Bókunardagsetning virðisfærslu endurmats |
 
-### <a name="example"></a>Dæmi
+### Dæmi
 
 Eftirfarandi tafla með virðisfærslur sýnir mismunandi aðstæður.  
 
@@ -162,34 +163,34 @@ Eftirfarandi tafla með virðisfærslur sýnir mismunandi aðstæður.
 > [!CAUTION]  
 > Þar sem skýrsla um **Birgðavirði** byggir á bókunardagsetningu, mun skýrslan endurspegla allt misræmi í magni-verðmæti eins og í dæminu hér að ofan. Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðavirði](design-details-inventory-valuation.md)  
 
-Ef magn birgða er minna en núll eftir að birgðaminnkun er bókuð er matsdagsetningin stillt á bókunardagsetningu birgðaminnkunar. Hægt er að breyta þessari dagsetningu þegar birgðaauka er beitt, samkvæmt reglum sem lýst er í athugasemd fyrr í þessum kafla.  
+Ef birgðamagnið er lægra en núll eftir bókun birgðaminnkunarinnar er matsdagsetningin stillt á bókunardagsetningu birgðaminnkunarinnar. Hægt er að breyta þessari dagsetningu þegar birgðaaukningu er beitt samkvæmt reglunum sem lýst er í athugasemdinni fyrr í þessum hluta.  
 
-## <a name="recalculating-average-cost"></a>Meðalkostnaður reiknaður
+## Endurreikna meðalinnkaupaverð
 
-Verðmæti birgða minnkar eftir því sem vegið meðaltal yrði einfalt í nokkrum tilvikum:
+Mat á birgðaminnkun sem vegið meðaltal væri einfalt í nokkrum tilvikum:
 
 - Innkaup eru alltaf reikningsfærð fyrir sölu.
-- Bókanir eru aldrei afturkræfari.
+- Bókanir eru aldrei bakfærðar.
 - Þú gerðir aldrei mistök.
 
-Raunveruleikinn er hins vegar ólíkur.  
+Raunveruleikinn er hins vegar öðruvísi.  
 
-Eins og Dæmin í þessari grein sýna þá er matsdagsetningin skilgreind sem dagsetningin sem virðisfærslan er innifalin í útreikningi á meðalkostnaði. Þessi stilling gerir kleift að gera nokkra hluti fyrir vörur með Meðalkostnaðarútreikningsaðferðinni:  
+Sem dæmi í þessari grein er matsdagsetningin skilgreind sem dagsetningin sem virðisfærslan er tekin með í útreikningi á meðalinnkaupsverði. Með þessari stillingu er hægt að gera marga hluti fyrir vörur með meðalkostnaðarútreikningsaðferðina:  
 
-- Reikningsfæra sölu á vöru áður en innkaup hennar eru reikningsgerð.  
+- Reikningsfæra sölu vöru áður en hún er reikningsfærð.  
 - Bakfæra bókun.  
 - Endurheimta ranga bókun.  
 
 > [!NOTE]  
 > Önnur ástæða fyrir þessum sveigjanleika er föst jöfnun. Frekari upplýsingar um fastar jafnanir eru í [Hönnunarupplýsingar: Birgðajöfnun](design-details-item-application.md).  
 
-Vegna þessa sveigjanleika gæti þurft að endurreikna meðalkostnaðinn eftir bókun. Ef til dæmis er bókað fyrir aukningu birgða eða lækkun með matsdegi sem er á undan birgðalækkun. Endurreikningur meðalkostnaðar gerist sjálfkrafa þegar þú keyrir **Kostnaðarleiðrétting Birgðafærslur** runuvinnsluna, handvirkt eða sjálfvirkt.  
+Vegna þessa sveigjanleika þarf hugsanlega að endurreikna meðalinnkaupsverð eftir bókun. Ef t.d. birgðaaukning eða minnkun er bókuð með matsdagsetningu sem er á undan birgðaminnkun. Endurreiknun á meðalinnkaupaverði á sér sjálfkrafa stað þegar keyrslan Leiðr. kostnað - Birgðafærslur **er keyrð** sjálfvirkt eða handvirkt.  
 
-Hægt er að breyta birgðagildrunni innan reikningstímabils með því að breyta gildum í  **reitum meðalkostnaðartímabils**  og  **Tegund**  meðalkostnaðar. Við mælum hins vegar með að gæta varúðar og ráðfæra sig við endurskoðanda.  
+Hægt er að breyta birgðamatsgrunni innan reikningstímabils með því að breyta gildunum í reitunum **Meðalinnkaupaverðstímabil** og **Útreikn.teg** . meðalinnkaupsverðs. Hins vegar er mælt með því að gát sé notuð og ráðfært sig við endurskoðandann.  
 
-### <a name="example-of-recalculated-average-cost"></a>Dæmi um Endurútgefið meðalinnkaupsverð
+### Dæmi um endurreiknaðan meðalinnkaupaverð
 
-Þetta dæmi sýnir hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  endurreiknar meðalinnkaupsverð þegar bókað er á dagsetningu sem er á undan birgðalækkun. Dæmi um meðalkostnaðartímabil í **Dagur**.  
+Þetta dæmi sýnir hvernig [!INCLUDE [prod_short](includes/prod_short.md)] meðalinnkaupsverðið er endurreiknað þegar bókað er á degi sem er á undan birgðaminnkun. Dæmi um meðalkostnaðartímabil í **Dagur**.  
 
 Eftirfarandi tafla sýnir virðisfærslur fyrir vöruna áður en bókað er.  
 
@@ -200,7 +201,7 @@ Eftirfarandi tafla sýnir virðisfærslur fyrir vöruna áður en bókað er.
 | 02-15-20 | -1 | -15,00 | 3 |
 | 02-16-20 | -1 | -15,00 | 4 |
 
-Notandinn bókar birgðasaukninguna (færslunúmer 5) með matsdagsetningunni (01-03-20) en minnkun á birgðum. Til að jafna birgðir, verður meðaltals kostnaður skal endurreiknaður og leiðrétt til 17,00.  
+Notandinn bókar birgðaaukningu (færslunúmer 5) með matsdagsetningu (01-03-20) sem er á undan birgðaminnkun. Til að jafna birgðir, verður meðaltals kostnaður skal endurreiknaður og leiðrétt til 17,00.  
 
 Eftirfarandi tafla sýnir virðisfærslur fyrir vöruna eftir að færslunúmer 5 kemur til.  
 
@@ -212,7 +213,7 @@ Eftirfarandi tafla sýnir virðisfærslur fyrir vöruna eftir að færslunúmer 
 | 02-15-20 | -1 | -17,00 | 3 |
 | 02-16-20 | -1 | -17,00 | 4 |
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
 [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
@@ -221,7 +222,7 @@ Eftirfarandi tafla sýnir virðisfærslur fyrir vöruna eftir að færslunúmer 
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Fjármál](finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Orðalisti yfir hugtök í Dynamics 365 viðskiptaferlar](/dynamics365/guidance/business-processes/glossary)  
-[Skilgreina Yfirlit fyrir kostnað vöru og þjónustu](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
+[Orðalisti í viðskiptaferlum Dynamics 365](/dynamics365/guidance/business-processes/glossary)  
+[Viðskiptaferli fyrir kostnaðarúttekt afurða og hvernig það tengist öðrum ferlum með Dynamics 365](/dynamics365/guidance/business-processes/design-to-retire-define-product-costing-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

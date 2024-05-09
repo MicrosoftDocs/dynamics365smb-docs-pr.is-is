@@ -1,26 +1,27 @@
 ---
 title: Tilfallandi gagnagreining
-description: Gefur upp yfirlit yfir eiginleikana sem styðja tilfallandi gagnagreiningarverk í vöru Business Central.
+description: Veitir yfirlit yfir aðgerðir sem styðja tilfallandi gagnagreiningar í Business Central.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: bholtorf
 ms.topic: get-started
 ms.search.keywords: feature overview
-ms.date: 03/31/2023
-ms.author: jswymer
+ms.date: 04/30/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="ad-hoc-data-analysis"></a>Tilfallandi gagnagreining
+# Tilfallandi gagnagreining
 
-Stundum þarf að greina gögn í [!INCLUDE[prod_short](includes/prod_short.md)] með aðferð sem er ekki í boði í staðlaðri skýrslu. Þetta er oft kallað „tilfallandi greining“. Hér fyrir neðan eru tenglar til að hjálpa þér að læra hvernig á að framkvæma það.
+Stundum þarf að greina gögn [!INCLUDE[prod_short](includes/prod_short.md)] á þann hátt að staðlaðar skýrslur styðja ekki. Þessar greiningar eru oft kallaðar "tilfalengdar" Í eftirfarandi töflu eru tenglar á greinar sem geta hjálpað þér að læra hvernig á að gera tilfallanda greiningar.
 
 | Til | Sjá |
 | --- | --- |
-| Kynntu þér hvernig á að greina gögn einfaldlega með því að nota röðunar-, leitar- og síunaraðgerðir. | [Röðun, leit, og síun](ui-enter-criteria-filters.md) og [Algengar spurningar um leit og síun](ui-search-filter-faq.yml) |
+| Læra hvernig á að greina gögn með því að raða, leita og afmarka það. | [Röðun, leit, og síun](ui-enter-criteria-filters.md) og [Algengar spurningar um leit og síun](ui-search-filter-faq.yml) |
 | Skoða og greina gögn af síðu í Microsoft Excel | [Skoða og breyta í Excel](across-work-with-excel.md) |
-| Skoða og greina gögn úr skýrslu DataSet í Excel | [Greining á skýrslugögnum með Excel og XML](report-analyze-excel.md) |
-| Skoða og greina Fjárhagsleg gögn með fjárhagsskýrslum | [Fjárhagsgreiningar](bi.md) |
-| Greina lista yfir gögn beint af síðu |[Greina listagögn með gagnamagniðmáti](analysis-mode.md)|
+| Skoða og greina gögn úr skýrslugagnasafni í Excel | [Greining skýrslugagna með Excel og XML](report-analyze-excel.md) |
+| Greina listagögn beint frá síðu |[Greina listagögn með gagnagreiningarstillingu](analysis-mode.md)|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Viðskiptagreind og skýrsluyfirlit](ui-work-report.md)
 

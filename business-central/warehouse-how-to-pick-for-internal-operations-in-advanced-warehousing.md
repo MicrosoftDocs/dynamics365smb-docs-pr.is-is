@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Nota **vöruhúsatínsluskjöl** til að tína verkíhluti í flæðinu til verk
     > [!NOTE]
     > Ef tína þarf eða setja vörur í einni línu í fleiri en eitt hólf, til dæmis vegna þess að merkta hólfið er fullt, skal nota aðgerðina **Skipta línu** á flýtiflipanum **Línur** . Aðgerðin stofnar línu fyrir eftirstandandi magn sem á að meðhöndla.
 
+      Hægt er að raða tínslulínunum eftir ýmsum skilyrðum, til dæmis eftir vöru, hillunúmeri eða gjalddaga. Röðun getur hjálpað til við að fínstilla frágangsferlið, til dæmis:
+
+    * Ef taka- og setja-línur fyrir hverja afhendingarlínu fylgja ekki hver annarri á ekki strax að fylgja og þess er óskað skal raða línunum með því að velja **Vara** í reitnum **Röðunaraðferð** .  
+    * Ef hólfaflokkanir endurspegla raunútlit vöruhússins er röðunaraðferðin Hólfaflokkun **notuð** til að skipuleggja verkið eftir hólfastaðsetningum.
+
+  > [!NOTE]  
+  > Línum er raðað í hækkandi röð eftir völdum skilyrðum. Ef raðað er eftir fylgiskjali fer röðun fyrst eftir tegund fylgiskjals samkvæmt reitnum **Upprunaskjal vöruhúsaaðgerðar** . Ef raðað er eftir sendist-til er röðun framkvæmd fyrst eftir tegund áfangastaðar sem byggð er á reitnum **Tegund** viðtöku vöruhúss.
+
 4. Þegar vörurnar hafa verið tíndar og settar í framleiðsluna, samsetninguna eða verksvæðið eða hólfið skal velja aðgerðina **Skrá tínslu** .  
 
     Nú er hægt að koma vörunum á viðeigandi svæði og bóka notkun eða notkun tíndra íhluta með því að bóka notkunarbók, samsetningarpöntun eða verkbók. Eftirfarandi greinar veita nánari upplýsingar:
@@ -171,6 +179,14 @@ Eftirfarandi skref lýsa aðgerðunum sem mismunandi einstaklingar framkvæma og
 Eftirfarandi mynd sýnir þegar reiturinn **Hólfkóti** á efnisþáttalista er fylltur út út frá staðsetningu notanda eða uppsetningu vinnuvélar-/vinnustöðvarmiðstöðvar.  
 
 :::image type="content" source="media/binflow.png" alt-text="Yfirlit yfir hvenær og hvernig reiturinn Hólfkóti er fylltur út.":::
+
+## Framleiða íhluti sem framleiða eftir pöntun (MTO) í ítarlegri vöruhúsaskilgreiningu
+
+Í tilvikum þar sem framleidd vara samanstendur af hráefni og hálfunninni vöru með framleiðslustefnuna sem stillt er á **Eftir pöntun** er vöruhúsatínslunni fyrir þessa hálfkláraða íhluti bætt við sömu framleiðslupöntun og **reiturinn Kóti** áætlunarstigs fylltur út. Búist er við að hálfunnin vara sé tiltæk til notkunar strax og ekki þarfnast tínslu svo þær séu ekki innifaldar í vöruhúsatínsluskjalinu. Stofnaðar vöruhúsatínslur innihalda aðeins hráefni fyrir framleidda vöru og fyrir hálfkláraðar vörur.
+
+En ef hálfunnin vara er tiltæk á lager leggur áætlunarkerfið til að þær séu notaðar í stað þess að framleiða allt magnið. Framleidd vara krefst t.d. fimm hálfunninnar íhlutar en þrír eru þegar til á lager. Í þessu tilfelli eru fimm hálfkláraðar vörur skráðar í íhluti framleiðslupöntunarinnar en aðeins tvær eru framleiddar í sömu framleiðslupöntun og aðskilin framleiðslupöntunarlína.
+Slík uppsetning er ekki samhæf vöruhúsatínslum og eftir tíðni þarf annað hvort að breyta framleiðslustefnunni fyrir slíka hálfkláraða vöru í **birgðir** eða skipta íhlutalínu framleiðslupöntunarinnar handvirkt þegar tína þarf hálfunnin vörur sem framleiddar voru fyrr.
+
 
 ## Sjá einnig .
 

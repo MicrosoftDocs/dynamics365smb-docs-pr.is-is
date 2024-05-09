@@ -1,23 +1,23 @@
 ---
-title: Skýrslur og greiningar viðskiptaskulda
+title: Safnreikningaskýrslur og greiningar
 description: Finnið út hvaða skýrslur og greiningar eru í boði í staðlaðri útgáfu Business Central til að halda utan um viðskiptaskuldir.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329'
-ms.date: 07/13/2021
-ms.author: bholtorf
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-payable-reports-and-analytics"></a>Skýrslur og greiningar viðskiptaskulda í Business Central
+# Skýrslur og greiningar á lánardrottnum
 
 Til að hjálpa þér að hafa umsjón með viðskiptaskuldum í [!INCLUDE [prod_short](includes/prod_short.md)] eru staðlaðar skýrslur og greiningar innbyggðar. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
-
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
 [Vinna með víddir](finance-dimensions.md)  

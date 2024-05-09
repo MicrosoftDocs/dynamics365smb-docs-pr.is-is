@@ -11,23 +11,23 @@ ms.reviewer: solsen
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="registration-number-in-the-icelandic-localization"></a>Skráningarnúmer í íslenskri staðfærslu
+# Skráningarnúmer í íslenskri staðfærslu 
 
 > [!NOTE]
 > Þessar breytingar eiga aðeins við úr útgáfu 24.0 ef notandinn virkjar nýja [íslenska staðfæringu](iceland-global-core-app.md).  
 
-## <a name="registration-no-in-documents"></a>Númer skráningar í fylgiskjölum
+## Númer skráningar í fylgiskjölum
 
 Reiturinn Númer númeraraðarinnar er opnaður **.** hefur verið bætt við hausana í eftirfarandi fylgiskjölum **Sölureikningur**, **Sölupöntun** og **Sölukreditreikningur**.  
 
-## <a name="sender-registration-no-for-payments"></a>Skráningarnr. sendanda fyrir greiðslur
+## Skráningarnr. sendanda fyrir greiðslur  
 
 Reiturinn **Nr. sendingarskilyrða** Reit hefur verið bætt við Greiðsluútflutningsgögn **þegar** notandi flytur út greiðslur.  
 
 > [!NOTE]
 > Þennan reit má nota með eftirfarandi lista yfir tilvik: _OnBeforeInsertPmtExportDataJnlFromGenJnlLine,OnPreparePaymentExportDataCLEOnBeforeTempPaymentExportDataInsert_ _og_ _OnBeforeInsertPmtExportDataJnlFromVendorLedgerEntry._  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Listi yfir staðbundnar aðgerðir á Íslandi](iceland-local-functionality.md)   
 [Vinna með [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)

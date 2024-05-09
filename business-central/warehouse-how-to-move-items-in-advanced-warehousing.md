@@ -1,148 +1,151 @@
 ---
-title: Flytja vörur í vöruhús sem nota beinan frágang og tínslu
-description: Í þessari grein er útskýrt hvernig á að flytja vörur í staðsetningum sem nota beinan frágang og tínslu.
+title: Færa vörur í vöruhúsum sem nota beinan frágang og tínslu
+description: Í þessari grein er útskýrt hvernig á að færa vörur í birgðageymslum sem nota beinan frágang og tínslu.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/22/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.form: '7351,'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Flytja vörur í ítarlegar Vöruhúsaskilgreiningar sem nota beinan frágang og tínslu
+# Færa vörur í ítarlegri vöruhússkilgreiningu sem nota beinan frágang og tínslu
 
-Hægt er að flytja vörur milli hólfa án þess að eftirspurn sé eftir upprunaskjali. Til dæmis væri æskilegt að gera það sem hluta af eftirfarandi verkþáttum:
+Hægt er að færa vörur milli hólfa án eftirspurnar úr upprunaskjali. Til dæmis væri hægt að gera það sem hluta af eftirfarandi aðgerðum:
 
 * Endurskipuleggja vöruhúsið.
 * Koma vörum á eftirlitssvæði.
-* Taka vörur úr vöruhúsi tínsluhólfa tímabundið, kannski til að þjóna sem sýnilíkön í sölukynningu.
-* Færa aukaatriði í framleiðslusvæði fyrir íhluti sem eru skilgreindir með flæðiaðferðum.
-* Færa framleiddar eða samsettar vörur úr framleiðslu eða samsetningarsvæði í vöruhús.
-* Flytja vörur frá fjöldageymslusvæði í hólf sem notuð eru við tiltekt.
+* Taka vörur úr tínsluhólfum vöruhússins tímabundið, til dæmis til að þjóna sem sýnilíkön í sölukynningu.
+* Flytja aukavörur í framleiðslusvæði fyrir íhluti sem eru grunnstilltir með nokkrum birgðaskráningaraðferðum.
+* Flytja framleiddar eða settar saman vörur frá framleiðslu eða samsetningarsvæði í vöruhús.
+* Færa vörur úr magngeymslusvæði í hólf sem notuð eru við tínslu.
 
-Hvernig vörur eru færðar fer eftir því hvernig vöruhúsið er sett upp sem Birgðageymsla. Frekari upplýsingar um  [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
+Hvernig vörur eru færðar veltur á því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar um [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
-Í vöruhúsaleiðingum þar sem  **beinn tínsla tínslu-**  og frágangs er kveikt fyrir birgðageymslur er hægt að skrá óáætlaðar hreyfingar á eftirfarandi síðum:  
+Í vöruhúsafbrigðum þar sem vífærslan Bein **tínsla og Frágangur** er virk fyrir birgðageymslur er hægt að skrá óáætlaðar hreyfingar á eftirfarandi síðum:  
 
 * Hreyfingavinnublað
 * Innanhússtínsla vöruhúss
-* Frágangur á innri frágangi vöruhúss
-* Endurflokkunarbók vöruhúss
+* Innanhússfrágangur vöruhúss
+* Vöruhúsaendurflokkunarbók
 
- **Vinnublaðsíðurnar hreyfing**,  **Innanhússtínsla** vöruhúss og   **Innanhússfrágangur**  vöruhúss virka á sama hátt. Notið síðurnar til að undirbúa vöruhúsaaðgerðir fyrir vöruhúsastarfsmenn. Munurinn er í ítarlegri virkni sem tengist hverri síðu og mismunandi gerðum vöruhúsaaðgerða sem eru líklega framkvæmdar af mismunandi starfsmönnum:
+Síðurnar **Vinnublað**  hreyfingar, **Innanhússtínsla** vöruhúss og  **Innanhússfrágangur** vöruhúss virka á sama hátt. Nota síðurnar til að undirbúa vöruhúsaaðgerðir fyrir vöruhúsastarfsmenn. Munurinn er í ítarlegri aðgerð sem tengist hverri síðu og mismunandi tegundum vöruhúsaaðgerða sem líklega eru framkvæmdar af mismunandi starfsmönnum:
 
-* Hreyflaverkstæði leyfir að fyllt sé út hólf háflokkunar með vörum úr öðrum hólfum
-* Frágangur nota sniðmát
-* Tiltekt notar hólfaflokkun og ráðstöfunarmagn
+* Hreyfingavinnublað gerir kleift að fylla út tínsluhólf með vörum úr öðrum hólfum
+* Frágangur notar frágangssniðmát
+* Tínsla notar hólfaflokkun og ráðstöfunarmagn
 
-## <a name="warehouse-movement-worksheet"></a>Vinnublað vöruhúsahreyfinga
+## Vinnublað vöruhúsahreyfingar
 
-### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Til að færa vörur með vöruhúsahreyfingarvinnublaðinu
+### Til að færa vörur með vöruhúsahreyfingarvinnublaðinu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað hreyfingar** og velja síðan viðkomandi tengil.  
-2. Reitirnir í vinnublaðslínunum eru fylltir út eða Notið eina af eftirfarandi aðgerðum til að fylla sjálfvirkt út línurnar:
+2. Reitirnir í vinnublaðslínunum eru fylltir út handvirkt eða ein af eftirfarandi aðgerðum notuð til að fylla sjálfkrafa í línurnar:
 
-    * **Sækja hólfainnihald**  fyllir vinnublaðslínurnar með innihaldi hólfsins eða hólfanna sem tilgreind eru.
-    * **Reikna** út áfyllingu hólfa notar bin búkings til að stinga upp á áfyllingu fyrir hólf á háu röðum úr hólfum með lág flokkun.
+    * **Sækja innihald** hólfs í vinnublaðslínunum með innihaldi hólfsins eða hólfanna sem eru tilgreind.
+    * **Reikna út áfyllingu** hólfa notar hólfaflokkunina til að leggja til áfyllingu á háflokkuðum hólfum úr lægra flokkuðum.
 
     > [!NOTE]  
-    > Ef varan uppfyllir skilyrðin í listanum hér  **á eftir verður reiturinn frá svæði**  og  **úr hólfi**  auður. [!INCLUDE [prod_short](includes/prod_short.md)] reiknar út hvaðan á að flytja vörurnar þegar aðgerðin Stofna hreyfingu  **er notuð** .  
+    > Ef varan uppfyllir skilyrðin í listanum að neðan eru reitirnir **Frá svæði** og **Frá-hólf** auðir. [!INCLUDE [prod_short](includes/prod_short.md)] reiknar út hvar á að færa vörurnar aðeins þegar aðgerðin **Stofna hreyfingu** er notuð.  
     >  
     > * Varan er fyrningadagsett.  
-    > *  **Tínsla í samræmi við FEFO**  víxla er kveikt fyrir birgðageymsluna.  
-    > * Aðgerðin Reikna Hólfáfyllingu  **er notuð** .  
+    > * Kveikt **er á tínslunni Tína eftir FEFO-vísbendingunni** fyrir birgðageymsluna.  
+    > * Aðgerðin Reikna út áfyllingu **hólfs** er notuð.  
 
-3.  **Veldu stofna hreyfingaraðgerð**  til að búa til hreyfinguna. Þegar ferðinni er lokið er hægt að skrá sig í hana.  
+3. Veljið aðgerðina **Stofna hreyfingu** til að stofna hreyfinguna. Þegar flutningi er lokið er hægt að skrá hana.  
 
-### <a name="to-register-the-warehouse-movement"></a>Vöruhúsahreyfingin skráð
+### Vöruhúsahreyfingin skráð
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Hreyfingar** og velja síðan viðkomandi tengil.  
-2. Opnið hreyfingarskjalið til að skrá.  
-3.  **Í línum í stað**  skal tilgreina hvar, sem og af Hvenær á að flytja vöruna með því að velja gildi í  **svæðiskóta**,  **hólfkóta**,  **Magn til afgreiðslu** eða  **skiladags** .  
-4.  **Í**  **reitnum Magn til afgreiðslu**  er tilgreint magn hólfainnihaldanna sem á að flytja. Aðeins er hægt að breyta þessu svæði í  **taka**  línur. 
+2. Opna hreyfingaskjalið sem á að skrá.  
+3. Á **staðalínum** er tilgreint hvar, og hvenær færa skuli vöruna með því að velja gildi í reitunum **Svæðiskóti**, **Hólfakóti**, **Magn til afgreiðslu** eða **Gjalddaga** .  
+4. Í **Taka-línum** í reitnum **Magn til afgreiðslu** er tilgreint magn hólfainnihaldsins sem á að færa. Aðeins er hægt að breyta þessum reit í **Taka-línum** . 
 
     > [!NOTE]
-    > Ef taka þarf vörurnar í eina línu í fleiri en einu hólfi, til dæmis vegna þess að það merkta hólfið er fullt, skal nota  **aðgerðina skipta línu**  á  **fastflipanum línur** . Aðgerðin býr til línu fyrir eftirstandandi magn sem á að afgreiða.
+    > Ef tína þarf eða setja vörur í einni línu í fleiri en eitt hólf, til dæmis vegna þess að merkta hólfið er fullt, skal nota aðgerðina **Skipta línu** á flýtiflipanum **Línur** . Aðgerðin stofnar línu fyrir eftirstandandi magn sem á að meðhöndla.
  
-5. Til að skrá allar tillögur um magn eins og tilgreint er í  **reitnum Magn**  skal velja  **Magn í <% til að meðhöndla**  aðgerðina.  
+5. Til að skrá allt magn sem lagt er til eins og tilgreint er í reitnum **Magn** skal velja aðgerðina **Sjálfvirkt magn til afgreiðslu** .  
 6. Velja aðgerðina **Skrá**.  
 
 > [!NOTE]  
-> Fyrir staðsetningar sem nota beinan frágang og tínslu er ekki hægt að flytja vörur handvirkt í hólfum af gerðinni  **Móttaka**  vegna þess að þær eru ekki enn hugsaðar sem tiltækar birgðir. Ganga skal frá vörunum í þessum hólfum áður en þær eru tiltækar til hreyfingar.
+> Í birgðageymslum sem nota beinan frágang og tínslu er ekki hægt að færa vörur handvirkt í hólf af tegundinni **RECEIVE** vegna þess að þær eru ekki enn taldar tiltækar birgðir. Ganga þarf frá vörunum í þessum hólfum áður en þær eru tiltækar til hreyfinga.
 
-## <a name="internal-pick"></a>Innanhússtínslu
+## Innanhússtínsla  
 
-### <a name="to-create-an-internal-pick"></a>Að búa til Innahússtínslur
+### Að búa til Innahússtínslur  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innanhússtínsla** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.
 3. Fylla þarf út reitinn **Nr.**. reitinn **Staðsetningarkóði**, og reitinn **Kóði til-hólfs** í flýtiflipanum **Almennt**. Reiturinn **Kóði til-hólfs** tilgreinir hólfið sem staðsetja á tíndar vörur. Við framleiðslu væri þetta hólf innhólf framleiðslu eða opið búðarhólf. Annars skal velja hólfakóða með hólfi af tegund sem ekki er notuð við tínslu, oftast nær undirbúnings- eða afhendingarhólf eða hólf fyrir sérstök tilefni.  
 4. Vara er valin í reitnum **Vörunr.** og magnið sem á að tína fært inn.  
-5. Veldu aðgerðina **Stofna tínslu**. Vöruhúsatínsluleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss. Einnig er hægt að  **Velja úttektaraðgerð**  og stofna vöruhúsaaðgerðir með því að  **nota síðuna tínsluvinnublað** . Frekari upplýsingar um tínsluvinnublöð er að  [Stofna tínsluskjöl í fjöldahjálparblöðum tínslublaðsins](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
-6. Þegar tínunni er lokið er hægt að skrá hana.  
+5. Veldu aðgerðina **Stofna tínslu**. Vöruhúsatínsluleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss. Einnig er hægt að velja aðgerðina **Gefa út** og stofna vöruhúsatínslur á síðunni **Vinnublað** tínslu. Nánari upplýsingar um tínsluvinnublöð eru í [Stofna tínsluskjöl í magni með tínsluvinnublaðinu](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
+6. Þegar tínslunni er lokið er hægt að skrá hana.  
 
-### <a name="to-register-the-warehouse-pick"></a>Vöruhúsatínsla skráð
+### Vöruhúsatínsla skráð
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tínslur** og velja síðan viðkomandi tengil.  
 
-    Til að vinna að tiltekinni tínslu skaltu velja tínslu úr listanum eða sía listann til að finna tínsluna sem er úthlutað á þig.  
-2.  **Ef reiturinn úthlutað notandakenni**  er auður skal FÆRA inn kennið til að auðkenna notandann ef þörf krefur.  
-3. Tínsla varanna.  
+    Til að vinna við tiltekna tínslu er tínslan valin af listanum eða listinn afmarkaður til að finna tínslurnar sem úthlutað er á.  
+2. Ef reiturinn **Úthlutað notandakenni** er auður er kenni notanda fært inn til að auðkenna sig, ef þörf krefur.  
+3. Vörurnar eru tíndar.  
 
-    Þar sem vöruhúsið er sett upp til að nota beinan frágang og tínslu ákvarðar hólfaflokkun hólfin sem á að velja úr. Hólfin eru lögð til í tínslulínunum. Leiðbeiningarnar innihalda að minnsta kosti tvær aðskildar línur til að taka og setja aðgerðir.  
+    Þar sem vöruhúsið er sett upp til að nota beinan frágang og tínslu ákvarðar hólfaflokkunin sem á að tína úr. Hólfin eru lögð til í tínslulínunum. Leiðbeiningarnar innihalda að minnsta kosti tvær aðskildar línur fyrir Aðgerðirnar Taka og Setja.  
 
-4. Þegar búið er að velja og setja vörurnar í sendingarsvæði eða afhendingarhólf skal velja  **aðgerðina skrá tínslu** .  
+4. Þegar vörurnar hafa verið tíndar og settar á afhendingarsvæðið eða í afhendingarhólfið skal velja aðgerðina **Skrá tínslu** .  
 
-## <a name="internal-put-away"></a>Frágangur innanhúss
+## Innanhússfrágangur  
 
-### <a name="to-create-an-internal-put-away"></a>Stofna innanhússfrágang
+### Stofna innanhússfrágang  
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, færa inn  **innanhússfrágang** vöruhúss og velja síðan tengda tengilinn.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Innanhússfrágang í vöruhúsi** og velja síðan viðeigandi tengil.  
 2. Valið er aðgerðin **Nýtt**.
-3. Fylla þarf út reitinn **Nr.**. Og  **kóti**  birgðageymslu.
-4. Fyllt er út í línu fyrir hverja vöru til að flytja í vöruhúsið.  **Vörunr.**  **og magnsvæðin**  eru nauðsynleg.
+3. Fylla þarf út reitinn **Nr.**. og **Birgðageymslukóti** .
+4. Fyllt er út í línu fyrir hverja vöru til að flytja í vöruhúsið. Reiturinn Vörunr **.**  **og nauðsynlegt er að fylla** út reitina Magn.
 
     > [!NOTE]  
-    > Þegar vara er valin í reitnum  **Vörunr.**  **opnast hólfainnihaldssíðunum**  í stað  **atriða**  síðunnar. Þessi síða opnast vegna þess að verið er að ganga frá vöru sem er tengd tilteknu hólfi-  *hólfi*  -ekki bara vöru, og þú veist nú þegar hólfið sem taka á atriðið af. Ef reiturinn Kóti frá-hólfs  **er fylltur út**  mun innihald hólfsins afmarkast af því gildi.
+    > Þegar vara er valin í reitnum Vörunr **.** opnast **síðan Innihald hólfs** í stað síðunnar **Vörur** . Þessi síða opnast vegna þess að verið er að ganga frá vöru sem er úthlutað tilteknu hólfainnihaldi *-*  ekki bara vöru og þegar er vitað úr hvaða hólfi á að taka vöruna. Ef reiturinn **Kóti frá-hólfs var fylltur** út er hólfainnihaldið afmarkað eftir því gildi.
 
-5. Ef fylla á línurnar með öllu innihaldi hólfsins eða síuðu innihaldi hólfa á staðnum er aðgerðin Sækja innihald  **hólfs valin** .  
-6. Veldu aðgerðina **Stofna frágang**. Vöruhúsafrágangsleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss. Einnig er hægt að velja  **úttektaraðgerðina**  til að stofna vöruhúsafrágang með því  **að nota síðuna frágangsvinnublað** . Til að fræðast meira um frágang vinnublaða er farið í að  [Stofna frágang skjala í magni með vinnublaði frágangs](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
-6. Þegar frágangi er lokið er hægt að skrá það.  
+5. Til að fylla línurnar út með öllu innihaldi hólfsins eða afmarkaða innihaldi hólfa í birgðageymslunni er aðgerðin Sækja innihald **hólfs** valin.  
+6. Veldu aðgerðina **Stofna frágang**. Vöruhúsafrágangsleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss. Einnig er hægt að velja aðgerðina **Gefa út** til að stofna vöruhúsafrágang með síðunni **Frágangsvinnublað** . Nánari upplýsingar um vinnublöð frágangs eru í [Stofna frágangsskjöl í magni með frágangsvinnublaðinu](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
+6. Þegar fráganginum er lokið er hægt að skrá hann.  
 
-### <a name="to-register-the-warehouse-put-away"></a>Frágangur vöruhúss skráður
+### Vöruhúsafrágangur skráður
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Frágangur** og velja síðan viðkomandi tengil.
-2. Opna vöruhúsafráganginn sem er tilbúinn til afgreiðslu.  
-3. Ef þörf er á skal færa inn NOTANDAKENNI þegar unnið er við frágang.  
+2. Vöruhúsafrágangurinn sem er tilbúinn til afgreiðslu er opnaður.  
+3. Kenni notanda er fært inn þegar vinna hefst við frágang ef með þarf.  
 
-    Til að hámarka frágangsferlið er hægt að raða frágangslínunum eftir ýmsum skilyrðum. Til dæmis eftir vöru, Hillunúmer eða gjalddaga.
+    Til að besta frágangsferlið er hægt að raða frágangslínum eftir ýmsum skilyrðum. Til dæmis eftir vöru, hillunúmeri eða gjalddaga.
+   
+    * Ef Taka- og Setja-línurnar fyrir hverja móttökulínu fylgja ekki hver annarri á ekki strax að fylgja og þess er óskað skal raða línunum með því að velja **Vara** í reitnum **Röðunaraðferð** .  
+    * Ef hólfaflokkunin endurspeglar raunútlit vöruhússins er **röðunaraðferðin Hólfaflokkun** notuð til að skipuleggja vinnubrögð birgðageymslnanna í hólfum.
 
-    * Ef taka og setja línur fyrir hverja móttökulínu eiga ekki strax að fylgja annarri annarri og á þeim er hægt að raða línunum með því að velja  **atriði**  í  **reitnum röðunaraðferð** .  
-    * Ef bin fremstur endurspeglar efnislegt skipulag vöruhúss skal nota  **röðunaraðferðina hólfaflokkun**  til að skipuleggja hólfastaðsetningar.  
+  > [!NOTE]  
+  > Línum er raðað í hækkandi röð eftir völdum skilyrðum. Ef raðað er eftir fylgiskjali fer röðun fyrst eftir tegund fylgiskjals sem byggist á **upprunaskjali** vöruhúsaaðgerða. Ef raðað er eftir sendist-til fer röðun eftir tegund áfangastaðar sem byggð er á reitnum **Tegund** viðtöku vöruhúss.
 
-4. Framkvæma frágang.
+4. Frágangurinn er framkvæmdur.
 
-    Hver innanhússfrágangslína hefur orðið að minnsta kosti tveimur línum í vöruhúsafrágangi.  
+    Hver innanhússfrágangslína hefur orðið að minnsta kosti tvær línur í vöruhúsafrágangi.  
 
-    * Fyrsta línan sem hefur **Taka** í reitnum **Aðgerð** sýnir hvar vörurnar eru staðsettar á móttökusvæðinu. Ekki er hægt að breyta svæði og hólfi í þessari línu.  
-    * Næsta lína, með  **stað**  í  **reitnum Tegund**  aðgerðar, sýnir hvar á að setja vörurnar í vöruhúsinu. Ef mikið af vörum er fengið í einni móttökulínu gæti þurft að ganga frá vörunum í nokkrum hólfum svo það sé sæti lína fyrir hvert hólf.  
+    * Fyrsta línan sem hefur **Taka** í reitnum **Aðgerð** sýnir hvar vörurnar eru staðsettar á móttökusvæðinu. Ekki er hægt að breyta svæði og hólfi í línunni.  
+    * Næsta lína, með **Setja** í reitnum **Aðgerð**, sýnir hvar setja á vörurnar í vöruhúsinu. Ef tekið er á móti mörgum vörum í einni móttökulínu gæti þurft að ganga frá vörunum í mörg hólf svo að það er Setja-lína fyrir hvert hólf.  
 
 5. Þegar allar vörurnar hafa verið settar í hólf samkvæmt skal velja aðgerðina **Skrá frágang**.  
 
-## <a name="to-register-a-movement-that-has-already-happened"></a>Að skrá hreyfingu sem þegar hefur gerst
+## Til að skrá hreyfingu sem þegar hefur gerst
 
-Ef skrá þarf þá staðreynd að vörur hafa þegar verið færðar í önnur hólf án frágangs, tínslu eða hreyfingar er hægt að  **nota vöruhúsaafhendingin. Endurflokkunarbókar**  síða til að skrá hreyfinguna.
+Ef skrá þarf þá staðreynd að vörur hafa þegar verið fluttar í önnur hólf án frágangs, tínslu eða hreyfingar er hægt að nota vöruh **. Síðan Endurflokkunarbók** til að skrá hreyfinguna.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Endurflokkunarbók vöruhúss** og velja síðan viðkomandi tengil.  
 2. Reitirnir **Vörunr.**, **, Frá-svæðiskóti**, **Kóti frá-hólfs**, **Til-svæðiskóti**, and **Kóti til-hólfse** eru fylltir út.  
 3. Velja aðgerðina **Skrá**.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Inventory](inventory-manage-inventory.md)  
+[Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
+[Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

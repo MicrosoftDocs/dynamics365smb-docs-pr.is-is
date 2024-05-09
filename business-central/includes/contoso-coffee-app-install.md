@@ -12,4 +12,4 @@ Til að nota sýnigögn Contoso Coffee þarftu að setja upp tvö forrit í við
 - **Sýnigagnamengi Contoso Coffee (auðkenni lands)**  
     Þetta forrit bætir landsbundnu efni við efst í grunnforritið.
 <br><br>
-Bættu forritunum við autt fyrirtæki í greiddri áskrift eða sem hluti af prufuáskrift. Stofnaðu til dæmis nýtt fyrirtæki með engin sýnigögn úr uppsetningarleiðbeiningunni **Stofna nýtt fyrirtæki** sem hægt er að opna úr listanum **Fyrirtæki**. Bættu síðan við forritunum úr [markaðstorginu](../ui-extensions-install-uninstall.md#install) ef þau eru ekki þegar sýnd á síðunni **Viðbótastjórnun**.  
+Bæta forritunum við fyrirtæki í greiddri áskrift eða sem hluta af réttarhöldum. Bæta skal forritunum við markaðinn [ef](../ui-extensions-install-uninstall.md#install) þau eru ekki þegar tilgreind á síðunni **Viðbótastjórnun** .

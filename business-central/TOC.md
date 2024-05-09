@@ -408,7 +408,8 @@ ms.service: dynamics-365-business-central
 #### [Bóka lokafærslu ársloka](year-how-post-year-end-close-entry.md)
 
 ### Vinna með bókhaldslykil og fjárhag
-#### [Öðlast skilning á fjárhagi og bókhaldslykli](finance-general-ledger.md)
+#### [Skilja fjárhag](finance-general-ledger.md)
+#### [Skilja bókhaldslykla](finance-chart-of-accounts.md)
 #### [Yfirfara reikninga](finance-review-accounts.md)
 #### [Endurmeta Fjárhagsreikningsstöður](finance-revalue-account-balances.md)
 #### [Bóka færslu beint í fjárhag](finance-how-post-transactions-directly.md)
@@ -477,7 +478,6 @@ ms.service: dynamics-365-business-central
 #### [Setja upp og gefa út vefþjónustu afkastavísa sem byggir á fjárhagsskýrslum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Greina gögn með tölfræðilegum lyklum](bi-use-statistical-accounts.md)
 #### [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
-#### [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -495,7 +495,12 @@ ms.service: dynamics-365-business-central
 
 ## Sala
 ### [Söluyfirlit](sales-manage-sales.md)
-### [Söluskýrslu](sales-reports.md)
+### Greiningar á sölu 
+#### [Sölugreiningaryfirlit](sales-analytics-overview.md)
+#### [Búa til sölugreiningskýrslur](bi-how-create-analysis-views-reports.md)
+#### [Sérstök greining á sölugögnum](ad-hoc-analysis-sales.md)
+#### [Innbyggðar söluskýrslur](sales-reports.md)
+
 ### [Kynning: Framkvæmd söluherferðar](walkthrough-conducting-a-sales-campaign.md)
 ### [Kynning: Setja upp og reikningsfæra fyrirframgreiðslur sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)
@@ -522,7 +527,10 @@ ms.service: dynamics-365-business-central
 
 ## Innkaup
 ### [Yfirlit yfir innkaup](purchasing-manage-purchasing.md)
-### [Innkaupaskýrslur](purchase-reports.md)
+### Innkaupagreiningar 
+#### [Greiningaryfirlit innkaupa](purchasing-analytics-overview.md)
+#### [Sérstök greining á innkaupagögnum](ad-hoc-analysis-purchasing.md)
+#### [Innbyggðar innkaupaskýrslur](purchase-reports.md)
 ### [Kynning: Setja upp og nota samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Skrá innkaup](purchasing-how-record-purchases.md)
 ### [Biðja um tilboð](purchasing-how-request-quotes.md)
@@ -577,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Eignir
 ### [Yfirlit yfir eignir](fa-manage.md)
+### Greiningar á eignum
+#### [Yfirlit yfir greiningar á eignum](fa-analytics-overview.md)
+#### Innbyggð greiningarverkfæri fyrir eignir
+##### [Fylgjast með viðhaldskostnaði](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Eftirlit með vátryggingasviði](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [Skoða breytt afskriftabókargildi](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [Skoða afskráningarbókarfærslur](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [Skoða áætlað virði afskráninga](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Innbyggðar eignaskýrslur](fa-reports.md)
 ### [Uppsetning eigna](fa-setup.md)
 ### [Afskriftaaðferðir](fa-depreciation-methods.md)
-### [Skýrslur og greiningar eigna](fa-reports.md)
+### [Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md)
 ### [Komast yfir eignir](fa-how-acquire.md)
 ### [Umsjón eigna](fa-how-maintain.md)
 ### [Tryggja eignir](fa-how-insure.md)
@@ -587,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Endurmeta eignir](fa-how-revalue.md)
 ### [Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md)
 ### [Afskrá eða innkalla eignir](fa-how-dispose-retire.md)
-### [Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md)
 ### [Úrræðaleit fyrir eignafærslur](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Tengslastjórnun
 ### [Yfirlit tengslastjórnunar](marketing-relationship-management.md)
@@ -1758,7 +1775,7 @@ ms.service: dynamics-365-business-central
 ###### [Búa til skýrslur til að birta listagögn](across-how-use-powerbi-reports-factbox.md)
 ##### Fyrirtækisnotandi
 ###### [Vinna með Power BI-skýrslur í Business Central](across-working-with-powerbi.md)
-###### [Vinna með Business Central Data í Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Tengjast Power BI frá Business Central á staðnum](across-working-with-business-central-in-powerbi.md)
 ###### [Nota Business Central-forrit í Power BI](across-powerbi-business-central-apps.md)
 ##### [ALGENGAR SPURNINGAR](power-bi-faq.md)
 #### Nota Power Automate með Business Central
@@ -1787,6 +1804,20 @@ ms.service: dynamics-365-business-central
 ## [Greiningaryfirlit](reports-bi-reporting.md)
 ## [Notkun afkastavísa til að ná viðskiptamarkmiðum](./analytics-about-kpis.md)
 ## [Notkun fjárhagsskýrslugerðar](bi-how-work-account-schedule.md)
+
+## Tilfallandi gagnagreining
+### [Yfirlit](reports-adhoc-analysis.md)
+### [Raða, leita og sía](ui-enter-criteria-filters.md)
+### [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)
+### [Greina síðugögn í Excel](across-work-with-excel.md)
+### [Greina skýrslugögn með Excel](report-analyze-excel.md)
+### [Greina lista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md)
+
+## Innbyggð greiningarverkfæri
+### [Yfirlit](reports-built-in-analytics.md)
+### [Vinna með Power BI skýrslur](across-working-with-powerbi.md)
+### [Snjöll innsýn (á staðnum)](about-intelligent-cloud.md)
+### [Fjarmælingar á skýrslunotkun](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 ## Nota skýrslur í daglegu starfi
 ### [Yfirlit](reports-use-reports.md)
@@ -1857,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Yfirlit þjónustutilboða](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Yfirlit yfir bókað þjónustuskjal](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Tilfallandi gagnagreining
-### [Yfirlit](reports-adhoc-analysis.md)
-### [Raða, leita og sía](ui-enter-criteria-filters.md)
-### [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)
-### [Greina síðugögn í Excel](across-work-with-excel.md)
-### [Greina skýrslugögn með Excel](report-analyze-excel.md)
-### [Greina lista- og fyrirspurnargögn með greiningarstillingu](analysis-mode.md)
-### [Viðskiptagreind fjármála](bi.md)
-
-## Innbyggð greining 
-### [Yfirlit](reports-built-in-analytics.md)
-### [Snjöll innsýn](about-intelligent-cloud.md)
-### [Vinna með Power BI skýrslur](across-working-with-powerbi.md)
-### [Viðskiptagreind fjármála](bi.md)
-### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
-### [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)
-### [Fjarmælingar á skýrslunotkun](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Greina gögn í verkfærum viðskiptagreindar
-### [Yfirlit](reports-external-analysis.md)
-### [Microsoft Fabric og Business Central](admin-fabric.md)
-### [Nota Power BI með Business Central](admin-powerbi.md)
-### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
-### [Draga út gögn í gagnageymslur eða gagnalindir](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Lesa gögn með Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Þróa skýrslur
 ### [Yfirlit](reports-develop-reports.md)
 ### Þróa skýrsluútlit
@@ -1901,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Þróa skýrslugagnasöfn
 #### [Leiðarvísir um skýrsluþróun](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Leiðarvísir um fínstillingu skýrsluafkasta](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Greina gögn í verkfærum viðskiptagreindar
+### [Yfirlit](reports-external-analysis.md)
+### [Microsoft Fabric og Business Central](admin-fabric.md)
+### [Nota Power BI með Business Central](admin-powerbi.md)
+### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
+### [Draga út gögn í gagnageymslur eða gagnalindir](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Lesa gögn með Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Öryggi, persónuvernd og reglufylgni
 ## Öryggi og vörn

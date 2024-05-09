@@ -1,6 +1,6 @@
 ---
 title: Kynning á sýnigögnum Contoso Coffee
-description: Yfirlit yfir aðstæður fyrir hvernig Contoso Coffee kynningargögn geta hjálpað þér að læra hvernig á að nota möguleikana í Business Central.
+description: Yfirlit yfir atburðarásir um hvernig Gögn Contoso-kaffisins geta hjálpað þér að læra að nota getuna í Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
@@ -11,38 +11,38 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Kynning á sýnigögnum Contoso Coffee
+# Kynning á sýnigögnum Contoso Coffee
 
-Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki.  **Contoso Coffee** öppin til að [!INCLUDE [prod_short](../includes/prod_short.md)] bæta við kynningargögnum sem þú getur notað til að læra hvernig á að nota möguleikana í [!INCLUDE [prod_short](../includes/prod_short.md)].  
+Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. Contoso-kaffiforritin **til** [!INCLUDE [prod_short](../includes/prod_short.md)] að bæta við kynningu á gögnum sem hægt er að nota til að læra að nota getuna í [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="set-up-contoso-coffee-data"></a>Setja upp Contoso Coffee gögn
+## Setja upp Contoso Coffee gögn
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
-Þegar forritin eru sett upp, á  **Contoso Demo Tool** síðunni skaltu nota **Stilla** aðgerðina til að undirbúa eftirfarandi einingar. Þú getur valið að setja upp öll tiltæk gögn, sem innihalda uppsetningar- og framleiðslugögn, eða aðeins uppsetningargögn.
+Þegar forritin eru sett upp, á síðunni **Contoso Demo Tool**, skal nota Grunnstillingu **aðgerðina** til að undirbúa eftirfarandi einingar. Hægt er að velja um að setja upp öll tiltæk gögn, sem fela eingöngu í sér uppsetningar- og framleiðslugögn, eða uppsetningargögn.
 
- -  **Common Module** til að undirbúa almennar stillingar sem [!INCLUDE [prod_short](../includes/prod_short.md)]  krefjast. Til dæmis hluti eins og númeraraðir. 
+ - Sameiginleg **eining** til að undirbúa almennar stillingar sem [!INCLUDE [prod_short](../includes/prod_short.md)] þarf. Hluti eins og númeraraðir, til dæmis. Bent er á að **Sameiginleg eining** inniheldur aðeins viðbótargögn fyrir vöruhúsið, Framleiðsla, Þjónustuaðstæður. Ekki er mælt með því að keyra hana í einangrun.
 
 Eftirfarandi tafla lýsir stillingunum:  
 
 |Svæði  |Heimildasamstæða  |
 |---------|---------|
-|**Upphafsár** |Tilgreinir fyrsta árið sem þú vilt nota fyrir Contoso Coffee sýnikennslugögnin. Árið er annað hvort almanaksár eða reikningsár en það fer eftir uppsetningu fyrirtækisins.|
-|**Lands-/svæðiskóði**|Tilgreinir lands-/svæðiskóða fyrir innlenda viðskiptavini og söluaðila.|
+|**Upphafsár** |Tilgreinir fyrsta árið sem nota á fyrir sýnigögn Contoso-kaffisins. Árið er annað hvort almanaksár eða reikningsár en það fer eftir uppsetningu fyrirtækisins.|
+|**Lands-/svæðiskóti**|Tilgreinir lands-/svæðiskóta fyrir innlenda viðskiptamenn og lánardrottna.|
 |**Tegund fyrirtækis**    |Tilgreinir hvort núverandi fyrirtæki þurfi að tilkynna um virðisaukaskatt eða söluskatt. |
 |**Verðstuðull**     |Tilgreinir stuðul til að umbreyta verði úr USD/EUR í staðbundinn gjaldmiðil. *1* þýðir að verðið er sama upphæð í hvaða gjaldmiðli sem er. Hærri tala verður notuð til að fá verðið í staðbundnum gjaldmiðli. |
 |**Sléttunarnákvæmni**  |Tilgreinir sléttunarnákvæmni sem sýnigögn eiga að hafa.|
 
- -  [framleiðslueiningin](manufacturing/contoso-coffee-manufacturing-intro.md) til að undirbúa sig fyrir [framleiðsluaðstæður](manufacturing/contoso-coffee-manufacturing-intro.md#scenarios).
- -  [Vörugeymslueiningin](warehousing/contoso-coffee-warehousing-intro.md) til að undirbúa sig fyrir [vörugeymsluaðstæður](warehousing/contoso-coffee-warehousing-intro.md#scenarios).
- -  [Þjónustueiningin](service/contoso-coffee-service-intro.md) til að undirbúa sig fyrir [Þjónustuatburðarás](service/contoso-coffee-service-intro.md#scenarios).
+ - Framleiðslueiningin [til](manufacturing/contoso-coffee-manufacturing-intro.md) að undirbúa [framleiðsluaðstæður](manufacturing/contoso-coffee-manufacturing-intro.md#scenarios).
+ - Birgðahaldseiningin [til](warehousing/contoso-coffee-warehousing-intro.md) að undirbúa [fyrir húsnæðisaðstæður](warehousing/contoso-coffee-warehousing-intro.md#scenarios).
+ - Þjónustueiningin [sem](service/contoso-coffee-service-intro.md) undirbúa á fyrir [þjónustuaðstæður](service/contoso-coffee-service-intro.md#scenarios).
 
-Eftir að þú hefur stillt einingarnar sem þú vilt prófa skaltu velja **Búa til** aðgerðina til að búa til sýnikennslugögn fyrir þær.
+Þegar einingarnar sem á að prófa hafa verið grunnstilltar skal velja aðgerðina **Mynda** til að stofna sýnigögn fyrir þær.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framleiðsla](../production-manage-manufacturing.md)  
-[Vörugeymsla](../warehouse-manage-warehouse.md)  
+[Aðvörun](../warehouse-manage-warehouse.md)  
 [Þjónusta](../service-service.md)
 <!-- [Projects and Jobs](../projects-manage-projects.md) -->
 

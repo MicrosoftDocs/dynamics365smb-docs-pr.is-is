@@ -3,12 +3,13 @@ metadata:
   title: Algengar spurningar um að afrita og líma gögn
   description: Fáðu svör við algengum spurningum um að afrita og líma gögn úr reitum og línum af síðum Business Central.
   ms.topic: faq
+  ms.date: 04/26/2024
   ms.service: dynamics-365-business-central
-title: Algengar spurningar um að afrita og líma
+title: Afrita og líma algengar spurningar
 summary: |
   Þú getur afritað eina eða fleiri raðir (færslur) úr lista eða einum reit á síðu og síðan líma það sem þú afritaðir á sömu síðu, aðra síðu eða ytri skjal (eins og Microsoft Excel og Outlook tölvupóst).  
 
-  Í stuttu máli, til afritunar, er valið  <kbd>CTRL</kbd>+<kbd>C</kbd>  (cmd + C í MacOS) á lyklaborðinu. Til að líma er valið  <kbd>CTRL</kbd>+<kbd>v</kbd>  (<kbd>cmd</kbd>+<kbd>v</kbd>  í MacOS). Það eru nokkrir aðrir flýtilyklar til að afrita og líma sem hjálpa þér að spara tíma þegar þú slærð inn gögn. Nánari upplýsingar um þetta er að finna í [Flýtilykla](keyboard-shortcuts.md#CopyRows). Þessi grein svarar algengum spurningum sem þú gætir haft um að afrita og líma.  
+  Í stuttu máli, til að afrita er Ctrl <kbd>C</kbd>+<kbd>(cmd+C í macOS) valið</kbd> á lyklaborðinu. Til að líma er Ctrl <kbd>V</kbd>+<kbd>(</kbd> Cmd<kbd>V</kbd>+<kbd>valið</kbd> í macOS). Það eru nokkrir aðrir flýtilyklar til að afrita og líma sem hjálpa þér að spara tíma þegar þú slærð inn gögn. Nánari upplýsingar um þetta er að finna í [Flýtilykla](keyboard-shortcuts.md#CopyRows). Þessi grein svarar algengum spurningum sem þú gætir haft um að afrita og líma.  
 sections:
   - name: Almennt
     questions:
@@ -24,16 +25,16 @@ sections:
           Já, en aðeins fyrir einn valinn reit.
       - question: Hvernig afrita ég línu?
         answer: |
-          Ef afrita á eina línu er hún valin og valið  <kbd>CTRL</kbd>+<kbd>C</kbd>.
+          Til að afrita eina línu er hún valin og Ctrl <kbd>C</kbd>+<kbd>valið</kbd>.
 
           Ef þú vilt afrita fleiri línur, geturðu:
-          - Veldu  <kbd>CTRL</kbd> + Click í annarri línu eða veldu  <kbd>Shift</kbd> + smella til að velja röð og allar raðir á milli. Sjá [Flýtilykla](keyboard-shortcuts.md#CopyRows) fyrir fleiri músar- og lyklaborðs samsetningar til að velja raðir.
-          - Veldu  ![Sýna fleiri valkosti](media/show-more-options-icon.png "Sýna tákn fyrir fleiri valkosti")  í fyrsta dálkinum,  **Veldu velja More**, Veldu gátreitinn við hliðina á hverri línu sem þú vilt afrita og veldu  <kbd>svo CTRL</kbd>+<kbd>C</kbd>.
+          - Veldu <kbd>Ctrl</kbd>+Smelltu á aðra línu eða veldu <kbd>Shift</kbd>+Smelltu til að velja línuna og allar línur á milli. Sjá [Flýtilykla](keyboard-shortcuts.md#CopyRows) fyrir fleiri músar- og lyklaborðs samsetningar til að velja raðir.
+          - Velja Skal ![Sýna fleiri valkosti](media/show-more-options-icon.png "Sýna tákn fyrir fleiri valkosti") í fyrsta dálki, velja **Velja meira**, velja gátreitinn við hliðina á hverri línu sem á að afrita og velja <kbd>svo Ctrl</kbd>+<kbd>C</kbd>.
       - question: Hvernig líma ég raðir?
         answer: |
-          Veljið auða línu, með áherslum í hvaða klefa sem er, og veljið  <kbd>síðan CTRL</kbd>+<kbd>V</kbd>.
+          Veljið auða línu, með fókus í hvaða reit sem er og veljið <kbd>Ctrl</kbd>+<kbd>V</kbd>.
 
-          Ef skipta á um línur sem fyrir eru skal velja línurnar og velja  <kbd>síðan CTRL</kbd>+<kbd>V</kbd>. Í þessu tilfelli er aðeins hægt að líma eins mörg raðir og þú valdir.
+          Ef skipta á út línum sem fyrir eru skal velja línurnar og velja <kbd>síðan Ctrl</kbd>+<kbd>V</kbd>. Í þessu tilfelli er aðeins hægt að líma eins mörg raðir og þú valdir.
 
           > [!NOTE]
           > Listinn sem verið er að líma í verður að vera breytanlegur.

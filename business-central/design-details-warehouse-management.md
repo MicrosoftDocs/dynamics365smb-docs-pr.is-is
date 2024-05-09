@@ -1,6 +1,6 @@
 ---
-title: Stjórna vöruhúsastarfsemi
-description: Auk kvittana og sendinga styður Business Central röð af innri vöruhúsastarfsemi.
+title: Vinna með vöruhúsaaðgerðir
+description: Auk móttöku og afhendinga styður Business Central raðir af vöruhúsaaðgerðum innanhúss.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -10,100 +10,100 @@ ms.date: 12/13/2023
 ms.custom: bap-template
 ---
 
-# <a name="warehouse-management-overview"></a>Yfirlit yfir vöruhússtjórnun
+# Yfirlit yfir vöruhúsakerfi
 
-Það eru tveir hlutir sem eru mikilvægir fyrir öll fyrirtæki sem flytja vörur líkamlega inn og út úr vöruhúsi sínu:
+Það er tvennt sem skiptir máli fyrir öll fyrirtæki sem flytja vörur líkamlega inn og út úr vöruhúsi þeirra:
 
-* Þeir hafa yfirsýn yfir birgðastig og vörustaðsetningu í vöruhúsinu.
-* Þeir geta fljótt og örugglega tekið á móti, valið og sent vörur.
+* Hann hefur yfirlit yfir birgðastig og staðsetningu vöru í vöruhúsinu.
+* Þeir geta á fljótlegan og nákvæman hátt tekið á móti, tínt og sent vörur.
 
-Til að hjálpa fyrirtækjum að ná þessum hlutum bæta vöruhúseiginleikar í [!INCLUDE[prod_short](includes/prod_short.md)]  eftirfarandi getu við birgðastjórnun:
+Til að hjálpa fyrirtækjum að ná þessum hlutum eru vöruhúsaaðgerðir til [!INCLUDE[prod_short](includes/prod_short.md)] að bæta eftirfarandi möguleikum við birgðastjórnun:
 
 * Hólf
-* Vöruhúsasendingar
-* Birgðaval
-* Verkefnablað fyrir hreyfingu
+* Vöruhúsaafhendingar
+* Birgðatínslur
+* Hreyfingavinnublað
 
-Innleiða þessa eiginleika í mismunandi samsetningum til að sérsníða vöruhúsaferli fyrir fyrirtæki þitt. Gerðu kleift að auka flókið eftir því sem fyrirtækið þitt stækkar og ferlar þínir breytast.
+Innleiða þessar aðgerðir í mismunandi samsetningum til að sníða vöruhúsaferli fyrirtækisins. Gera kleift að auka flækjustig eftir því sem fyrirtækið vex og ferli breytist.
 
-## <a name="overview-of-different-configuration-options"></a>Yfirlit yfir mismunandi stillingarvalkosti
+## Yfirlit yfir mismunandi skilgreiningarvalkosti
 
-Þú getur stillt vöruhúseiginleika á ýmsa vegu. Það er mikilvægt að velja valkosti sem bæta ferla þína án þess að valda kostnaði. Eftirfarandi tafla gefur yfirlit yfir dæmigerðar stillingar til að takast á við efnislegar vörur.
+Hægt er að grunnstilla vöruhúsaaðgerðir á ýmsa vegu. Mikilvægt er að velja valkosti sem bæta ferla án þess að valda sameiginlegum kostnaði. Eftirfarandi tafla gefur yfirlit yfir dæmigerðar grunnstillingar til að takast á við efnislegar vörur.
 
-|Flækjustig|Heimildasamstæða|Stillingar|Hólfkóði|Dæmi um innstreymi|Dæmi um útstreymi|Dæmi um innra flæði|  
+|Flækjustig|Heimildasamstæða|Stillingar|Hólfkóði|Dæmi um innleiðarflæði|Dæmi um flæði á útleið|Dæmi um innra flæði|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|Engin sérstök vöruhúsaaðgerð.|Bókun úr pöntunum og dagbókum.||Valfrjálst. Stjórnað af **Bin Code er skylda** rofi.|Innkaupapöntun|Sölupöntun| Framleiðslupöntun -> Neysludagbók|  
-|Grunnatriði|Samþætt móttöku/sendingabókun fyrir margar pantanir.|**Krefjast kvittunar**<br>**Krefjast skips**.|Valfrjálst. Stjórnað af Bin Code er skyldubundinn rofi|Innkaupapantanir -> Vöruhússkvittun|Sölupöntun -> Vöruhúsasending|Sama og fyrir ofan.|
-|Grunnatriði|Röð eftir pöntun.|Krefjast frágangs eða Krefjast vals. </br><br/> **ATHUGIÐ**: Þótt stillingarnar séu kallaðar **Require Pick** og **Require Set-away**, þú getur samt bókað kvittanir og sendingar beint úr upprunaskjölunum á stöðum þar sem þú velur þessa gátreit.|Valfrjálst. Stjórnað af **Bin Code er skylda** rofi.|Innkaupapöntun -> Birgðasetning|Sölupöntun -> Birgðaval|Framleiðslupöntun -> Birgðaval|
-|Ítarlegt|Samþætt móttöku/sendingabókun fyrir margar pantanir.<br /><br />Samþætt tínsla/frálát starfsemi fyrir mörg frumskjöl.|Krefjast kvittunar + Krefjast frágangs,</br> Krefjast sendingar + Krefjast vals|Valfrjálst. Stjórnað af Bin Code er skyldubundinn rofi|Innkaupapantanir -> Vöruhússkvittun -> Vöruhús frágangur|Sölupantanir -> Vöruhúsasendingar -> Velja vinnublað -> Vöruhúsaval| Framleiðslupöntun -> Velja vinnublað -> Vöruhúsval -> Neysludagbók|
-|Ítarlegt|Sama og hér að ofan + Stýrð tínsla/frágangur|Stýrt val og frágang (háðir rofar eru virkjaðir sjálfkrafa)|Áskilið|Sama og fyrir ofan.|Sama og fyrir ofan.| Framleiðslupöntun -> Velja vinnublað -> Neysludagbók vöruhúsvals|
+|Engin sérstök vöruhúsaaðgerð.|Bókun úr pöntunum og færslubókum.||Valfrjálst. Hólfakótanum er stýrt **áskilin** .|Innkaupapöntun|Sölupöntun| Framleiðslupöntun -> Notkunarbók|  
+|Grunnatriði|Samsteypumóttaka/sending í mörgum pöntunum.|**Krefjast móttöku**<br>**Krefjast afhendingar**.|Valfrjálst. Hólfakótanum er stýrt áskilin vífæra|Innkaupapantanir -> vöruhúsamóttaka|Sölupöntun - > vöruhúsaafhending|Eins og hér að ofan.|
+|Grunnatriði|Pöntun fyrir hverja pöntun.|Krefjast frágangs eða Krefjast tínslu. </br><br/> **ATHUGIÐ**: Þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs** er samt hægt að bóka móttökur og afhendingar beint úr upprunaskjölunum í birgðageymslum þar sem þessir gátreitir eru valdir.|Valfrjálst. Hólfakótanum er stýrt **áskilin** .|Innkaupapöntun -> Birgðafrágangur|Sölupöntun -> Birgðatínsla|Framleiðslupöntun -> Birgðatínsla|
+|Ítarlegt|Samsteypumóttaka/sending í mörgum pöntunum.<br /><br />Sameinaðar tínslu-/frágangsaðgerðir fyrir mörg upprunaskjöl.|Krefjast móttöku + Krefjast frágangs,</br> Krefjast sendingar + Krefjast tínslu|Valfrjálst. Hólfakótanum er stýrt áskilin vífæra|Innkaupapantanir -> vöruhúsamóttaka -> vöruhúsafrágangi|Sölupantanir -> vöruhúsaafhendingar -> tínsluvinnublað -> vöruhúsatínslur| Framleiðslupöntun -> Tínsluvinnublað -> Vöruhúsatínslur -> Notkunarbók|
+|Ítarlegt|Sama og að ofan + Beinar tínslu-/frágangsaðgerðir|Bein tínsla og frágangur (ósjálfstæð vígblöð eru gerð virk sjálfvirkt)|Áskilið|Eins og hér að ofan.|Eins og hér að ofan.| Framleiðslupöntun -> Vinnublað tínslu -> Vöruhús - Tínslubók tínslu|
 
-Flækjustig eykst með stærð fyrirtækis þíns og hversu margar deildir og fólk tekur þátt. Ferli getur verið einfalt, til dæmis þegar sami aðili býr til og bókar söluskjal. Ferlar geta líka verið flóknari og tekið til nokkurra þrepa og fólks. Eftirfarandi skref eru dæmi um flóknara ferli:
+Flækjustigið eykst með stærð fyrirtækisins og hversu margar deildir og fólk á í hlut. Ferli getur til dæmis verið einfalt þegar sami aðili stofnar og bókar söluskjal. Ferlar geta einnig verið flóknari og tekið þátt í nokkrum skrefum og einstaklingum. Eftirfarandi skref eru dæmi um flóknari ferli:
 
-1. Pöntunaraðili býr til sölupöntun.
-1. Vöruhússtjóri býr til tínsluleiðbeiningar.
-1. Starfsmaður vöruhúss klárar flæðið með því að bóka vöruhúsasendinguna.
+1. Pantanavinnsla stofnar sölupöntun.
+1. Yfirmaður vöruhúss stofnar tínsluleiðbeiningar.
+1. Starfsmaður í vöruhúsi lýkur flæðinu með því að bóka vöruhúsaafhendinguna.
 
-Flækjustigið hefur einnig áhrif á gerðir skjala sem þú notar í vöruhúsastarfsemi þinni. Til dæmis er hægt að nota vöruhússkvittun og vöruhúsaflátsskjöl fyrir innstreymi þitt, en notaðu birgðatínsluskjöl fyrir útstreymi.
+Flókna stigið hefur einnig áhrif á tegundir fylgiskjala sem notuð eru í vöruhúsaaðgerðum. Til dæmis er hægt að nota vöruhúsamóttöku- og vöruhúsafrágangsskjöl fyrir innflæði en nota birgðatínsluskjöl fyrir útleiðarflæðið.
 
-Annar þáttur sem hefur áhrif á flókið er hvernig efnislegt vöruhús þitt er táknað í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna á [Módelun á líkamlegu vöruhúsi](#modeling-the-physical-warehouse).
+Annar þáttur sem hefur margbreytileika er hvernig raunvöruhúsið er táknað í [!INCLUDE[prod_short](includes/prod_short.md)]. Fræðast meira um [líkan í raunvöruhúsinu](#modeling-the-physical-warehouse).
 
-## <a name="modeling-the-physical-warehouse"></a>Líkan á líkamlegu vöruhúsi
+## Líkan raunvöruhúss
 
-Þú hefur nokkra möguleika til að tákna raunverulega uppsetningu vöruhússins þíns í [!INCLUDE[prod_short](includes/prod_short.md)]. Val þitt ákvarðar hvernig þú vinnur með vöruhúseiginleika.
+Í boði eru nokkrir valkostir til að tákna uppsetningu vöruhússins í raunheimum [!INCLUDE[prod_short](includes/prod_short.md)]. Valið ákvarðar hvernig unnið er með vöruhúsaaðgerðir.
 
-Staðsetning hluta getur verið hillur, staðsetningar eða bakkar og það eru kostir og gallar fyrir hvern valkost.
+Staðsetning vara getur verið hillur, birgðageymsla eða hólf og kostir og gallar eru fyrir hvern valkost.
 
-### <a name="locations-and-bins"></a>Staðsetningar og ruslar
+### Birgðageymslur og hólf
 
-Til að meðhöndla líkamlegar vörur verður þú að hafa að minnsta kosti einn stað. Þú getur notað margar staðsetningar eða notað hólf til að móta vöruhús þitt og skipulag.
+Ef meðhöndla á líkamlegar vörur verður að vera að minnsta kosti ein birgðageymsla. Hægt er að nota margar birgðageymslur eða nota hólf til að líkana vöruhúsið og skipulagið.
 
-Venjulega eru staðsetningar ákjósanlegasta leiðin til að skipuleggja starfsemi sem er dreift yfir landfræðileg svæði. Í sumum tilfellum gætirðu þó viljað búa til nokkrar staðsetningar sem eru staðsettar á sama stað. Notkun staðsetningar hefur eftirfarandi kosti:
+Gjarnan eru staðsetningar æskilegra leiða til að skipuleggja aðgerðir sem dreifast um landsvæði. Í sumum tilfellum gæti þó þurft að stofna nokkrar birgðageymslur sem eru staðsettar á sama stað. Notkun birgðageymslna hefur eftirfarandi kosti:
 
-* Veittu aðgang með því að nota **Vöruhússtarfsmanna** og **ábyrgðarmiðstöðvar** síðurnar.
-* Skilgreindu dagatöl, leiðir og afgreiðslutíma á heimleið og útleið fyrir dagsetningarútreikning og áætlanagerð. Lærðu meira á [Um skipulagsvirkni](production-about-planning-functionality.md).
-* Tilgreindu sjálfgefnar víddir og notaðu mismunandi birgðabókunaruppsetningar.
-* Settu upp skipulagsbreytur. Frekari upplýsingar eru á [Skipulagsbreytur](production-about-planning-functionality.md#planning-parameters).  
-* Notaðu mismunandi vöruhúseiginleika fyrir hverja staðsetningu.
+* Veita aðgang með því að nota síðurnar **Vöruhúsastarfsmaður** og **Ábyrgðarstöðvar** .
+* Skilgreina dagatöl, leiðir og afgreiðslutíma á innleið og útleið fyrir útreikning dagsetninga og áætlunar. Nánari upplýsingar um [áætlunaraðgerðir](production-about-planning-functionality.md).
+* Tilgreina sjálfgefnar víddir og nota mismunandi birgðabókunargrunna.
+* Setja upp áætlunarfæribreytur. Fræðast meira um [áætlunarfæribreytur](production-about-planning-functionality.md#planning-parameters).  
+* Nota mismunandi vöruhúsaaðgerðir fyrir hverja birgðageymslu.
 
-### <a name="shelves-and-bins"></a>Hillur og bakkar
+### Hillur og hólf
 
-Ef þú geymir hlut alltaf á sama stað geturðu notað **hillu nr.** Reitinn á **vörukorti** eða **birgðahaldskorti** síðunum. Þessi reitur getur verið undirstöðu handvirkt geymslukerfi í umhverfi án rusla. Gildi reitsins er afritað af vöruspjaldinu í skjallínur og skýrslur, en það er aðeins til upplýsinga. Gildið er ekki notað í vöruhúsastarfsemi eða útreikningum á framboði.
+Ef vara er alltaf geymd á sama stað er hægt að nota reitinn Hillunúmer **.** á **birgðaspjaldinu** eða **Birgðahaldseiningarspjaldssíðunum** . Þessi reitur getur verið grunnbundið geymslukerfi í umhverfi án hólfa. Gildi reitsins er afritað af birgðaspjaldinu í fylgiskjalslínur og skýrslur, en það er aðeins upplýsingar. Gildið er ekki notað í vöruhúsaaðgerðum eða útreikningum á ráðstöfunarmagni.
 
-Bakkar tákna grunnbyggingu vöruhússins og eru notuð til að koma með tillögur um staðsetningu vara:
+Hólf tákna grunnvöruhúsaskipulagið og eru notuð til að gera tillögur um staðsetningu vöru:
 
-* Ein eða fleiri fastar bakkar fyrir vöru.
-* Hólf fyrir sérstakar aðgerðir, svo sem sendingarhólf eða framleiðsluúttakshólf.
-* Afkastagetu og þyngdartakmarkanir (aðeins fyrir beint frágang og tínslu).
-* Einkunn fyrir ruslakörfu (aðeins fyrir beint frágang og val).
+* Eitt eða fleiri föst hólf fyrir vöru.
+* Hólf fyrir tilteknar aðgerðir, t.d. afhendingarhólf eða framleiðslufrálagshólf.
+* Hólfageta og þyngdartakmarkanir (aðeins fyrir beinan frágang og tínslu).
+* Hólfaeinkunn (aðeins fyrir beinan frágang og tínslu).
 
-## <a name="typical-warehouse-workflow"></a>Dæmigert verkflæði vöruhúsa
+## Dæmigerðt vöruhúsaverkflæði
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Í grunnflæði eftir pöntun, notaðu birgðafrágang til að skrá móttöku vara á stöðum, þar með talið allar ofmóttökur. Eða, ef þú ert að sameina margar pantanir í kvittuninni, notaðu vöruhússkvittun.|[Innstreymi](design-details-inbound-warehouse-flow.md)|
-|Skráðu sendinguna á hlutum frá vöruhúsastöðum. Notaðu birgðatínslu fyrir hverja pöntun. Eða, ef þú ert að sameina margar pantanir í sendingunni, notaðu vöruhúsasendingu.|[Útstreymi](design-details-outbound-warehouse-flow.md)|
-|Meðhöndla hluti innan vöruhússins. Til dæmis, þegar þú færir íhluti í framleiðslu eða gerir efnislega birgðatalningu.|[Innra flæði](design-details-internal-warehouse-flows.md)|
+|Í grunnflæði á grundvellinum pöntun-fyrir-pöntun er notaður birgðafrágangur til að skrá móttöku á vörum í birgðageymslum, þar á meðal yfirmóttöku. Einnig er hægt að nota vöruhúsamóttöku ef verið er að sameina margar pantanir í móttökunni.|[Flæði á innleið](design-details-inbound-warehouse-flow.md)|
+|Skrá afhendingu vara úr vöruhúsastaðsetningum. Birgðatínsla er notuð á grundvelli pöntunar fyrir hverja pöntun. Einnig er hægt að nota vöruhúsaafhendingu ef verið er að sameina margar pantanir í afhendingunni.|[Flæði á útleið](design-details-outbound-warehouse-flow.md)|
+|Meðhöndla vörur innan vöruhússstaðsetningarinnar. Til dæmis þegar íhlutir eru fluttir í framleiðslu eða talning raunbirgða gerð.|[Innra flæði](design-details-internal-warehouse-flows.md)|
 
-Settu upp vöruhúsaferli sem henta fyrirtækinu þínu. Frekari upplýsingar á [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).
+Setja upp vöruhúsaferlin sem henta fyrirtækinu. Nánari upplýsingar um [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
-## <a name="terminology-related-to-warehouse-management"></a>Hugtök sem tengjast vöruhúsastjórnun
+## Hugtakafræði sem tengist vöruhúsakerfi
 
-### <a name="complexity-levels"></a>Flækjustig
+### Flóknari stig
 
-Við notum hugtökin „grunn“ og „háþróað“ til að greina á milli flækjustigs. Þessi einfalda aðgreining nær yfir nokkur flækjustig í staðsetningaruppsetningum, hvert um sig studd af mismunandi vöruhúsaskjölum. Fullkomnasta stig vörugeymsla er vísað til sem "Bein frágangur og tínsla." Til að nota beint frágang og velja staðsetningu skaltu kveikja á **beint frágangi og vali**  kveikja á **Staðsetningarkort**  síðu.
+Við notum hugtökin "grunn" og "ítarleg" til að greina á milli flækjustiga. Þessi einfaldi aðgreining nær yfir nokkur flókin stig í uppsetning birgðageymslu, hvert fyrir sig sem studd er af mismunandi vöruhúsaskjölum. Þróaðasta stigið í birgðahaldi er kallað "Beinn frágangur og tínsla." Til að nota beinan frágang og tínslu í birgðageymslu skal kveikja á beinum **frágangi og tínsluspjöldum** á síðunni **Birgðageymsluspjald** .
 
-### <a name="warehouse-flows"></a>Vöruhús flæðir
+### Vöruhúsaflæði
 
-* Innstreymi - Færa vörur inn á vöruhúsastaðsetningu og gera þær aðgengilegar, svo sem innkaup og millifærslur á innleið.
-* Útstreymi - Veldu og sendu hluti til viðskiptavina eða annarra staða.
-* Innra flæði - Meðhöndla hluti innan staðsetningar. Til dæmis, færa íhluti til framleiðslu eða telja efnislegar birgðir.
+* Flæði á innleið - Færa vörur inn í vöruhúsið og gera þær tiltækar, t.d. innkaup og millifærslur á innleið.
+* Útleiðarflæði - Tínsla og afhenda vörur til viðskiptamanna eða annarra birgðageymslna.
+* Innra flæði - Meðhöndla vörur innan birgðageymslu. Til dæmis má færa íhluti í framleiðslu eða telja raunbirgðir.
 
-### <a name="basic-documents"></a>Grunnskjöl
+### Grunnskjöl  
 
-Eftirfarandi skjöl eru notuð í grunnflæði vöruhúsa.
+Eftirfarandi skjöl eru notuð í einfaldum vöruhúsaflæðum.
 
 * Birgðafrágangur
 * Birgðatínsla
@@ -111,9 +111,9 @@ Eftirfarandi skjöl eru notuð í grunnflæði vöruhúsa.
 * Færslubók atriðis
 * Endurflokkunarbók vöru
 
-### <a name="advanced-documents"></a>Ítarleg skjöl
+### Ítarleg skjöl  
 
-Eftirfarandi skjöl eru notuð í háþróuðum vöruhúsaflæði.
+Eftirfarandi skjöl eru notuð í ítarlegum vöruhúsaflæðum.
 
 * Vöruhúsamóttaka
 * Vinnublað frágangs
@@ -122,116 +122,119 @@ Eftirfarandi skjöl eru notuð í háþróuðum vöruhúsaflæði.
 * Vöruhúsatínsla
 * Hreyfingavinnublað
 * Vöruhúsatínsla
-* Innra vöruhúsval
-* Innri vöruhús frágangur
+* Innanhússtínsla vöruhúss
+* Innanhússfrágangur
 * Vinnublað hólfastofnunar
 * Vinnublað f. stofnun hólfainnihalds
 * Birgðabók vöruhúss
-* Dagbók um endurflokkun vöruhúss
+* Endurflokkunarbók vöruhúss
 
-### <a name="pages-and-settings"></a>Síður og stillingar
+### Síður og stillingar
 
-Þessi hluti lýsir hugtökum á bak við lykilsíður og stillingar fyrir vörugeymsla.
+Í þessum hluta er lýst hugtökunum á bak við lykilsíður og stillingar vöruhúsa.
 
-#### <a name="bins-and-bin-content"></a>Bakkar og innihald rusla
+#### Hólf og innihald hólfa
 
-Hólf er geymslutæki sem hannað fyrir geymslu tiltekinna hluta. Það er minnsta gámaeiningin í [!INCLUDE[prod_short](includes/prod_short.md)]. Vörumagn í tunnunum er vísað til sem *innhald hólfa*. Uppfletting í reitnum **Vara** eða reitnum **Hólfakóði** á vöruhúsatengdri skjalalínu sýnir reiknað framboð vöru í hólfi.  
+Hólf er geymslutæki sem hannað fyrir geymslu tiltekinna hluta. Minnsta gámaeiningin er í [!INCLUDE[prod_short](includes/prod_short.md)]. Vörumagn í hólfum er kallað *hólfainnihald*. Uppfletting í reitnum **Vara** eða reitnum **Hólfakóði** á vöruhúsatengdri skjalalínu sýnir reiknað framboð vöru í hólfi.  
 
-Innihald hólfa getur verið **fast**, **hollt** eða **Sjálfgefið** til að skilgreina hvernig á að nota hólfainnihaldið. Bakkar með engan af þessum eiginleikum eru nefndar *fljótandi* bakkar.  
+Innihald hólfs getur verið **Fast**, **Sérþekkt** eða **Sjálfgefið** til að skilgreina hvernig á að nota hólfainnihaldið. Hólf með enga eiginleika eru kallað *fljótandi* hólf.  
 
-Föst hólf geymir hluti sem eru úthlutað hólfkóða. Fasta hólfaeiginleikinn tryggir að jafnvel þótt tunnan sé tæmd hverfur innihald tunnunnar ekki. Þú getur valið tunnuna aftur um leið og innihald hennar hefur verið fyllt á.  
+Fast hólf geymir vörur sem úthlutað er á hólfakótann. Fasta hólfaeiginleikinn tryggir að jafnvel þótt hólfið sé tæmt hverfur hólfainnihaldið ekki. Hægt er að velja hólfið aftur um leið og það er fyllt á.  
 
-Sérstakt hólf geymir hólfaefni sem aðeins er hægt að velja fyrir sérstaka auðlindina sem notar hólfið. Til dæmis vélamiðstöð. Annað efni sem ekki er valið, eins og magn á útleið á sendingarbókun, er hægt að neyta úr sérstakri tunnu. Aðeins innihald hólfs sem notað er í reiknireglunni **Stofna tínslu** er varið í sérstöku hólfi.  
+Sérþekkt hólf inniheldur hólfainnihald sem aðeins er hægt að tína fyrir tiltekinn forða sem notar hólfið. Til dæmis vélastöð. Annað efni sem ekki er tínt, svo sem magn á útleið í afhendingarbókun, er hægt að nota úr sérstöku hólfi. Aðeins innihald hólfs sem notað er í reiknireglunni **Stofna tínslu** er varið í sérstöku hólfi.  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] notar **Sjálfgefin** bin eign til að stinga upp á hólfum fyrir vöruhúsastarfsemi. Á stöðum sem nota beint frágang og tínslu er sjálfgefna hólfaeiginleikinn ekki notaður. Á stöðum þar sem hólfa er krafist, tilgreinir eignin hvar á að staðsetja hluti í innstreymi. Í útstreymi tilgreinir eignin hvaðan á að taka hluti.  
+[!INCLUDE [prod_short](includes/prod_short.md)] notar eiginleikann **Sjálfgefið** hólf til að leggja til hólf fyrir vöruhúsaaðgerðir. Sjálfgefni hólfaeiginleikinn er ekki notaður í birgðageymslum sem nota beinan frágang og tínslu. Í birgðageymslum þar sem hólfa er krafist tilgreinir eiginleikinn hvar setja á vörur í flæði á innleið. Í flæði á útleið tilgreinir eiginleikinn hvaðan taka á vörur.  
 
 > [!NOTE]  
-> Ef vörur á útleið eru settar í mörg hólf eru vörur fyrst teknar úr hólfum sem ekki eru sjálfgefnar til að tæma það hólfsinnihald og eftirstöðvarnar eru teknar úr sjálfgefna hólfinu.  
+> Ef vörur á útleið eru settar í nokkur hólf eru vörur teknar úr sjálfgefnu hólfunum fyrst, til að tæma það hólfainnihald og vörurnar sem eftir eru eru teknar úr sjálfgefna hólfinu.  
 
-Þú getur haft eina sjálfgefna rusla fyrir hverja vöru á hverja staðsetningu.  
+Hægt er að hafa eitt sjálfgefið hólf fyrir hverja vöru fyrir hverja birgðageymslu.  
 
-#### <a name="bin-type"></a>Tegund bakkar
+#### Hólfategund
 
-Staðsetningar sem nota beint frágang og tínslu geta notað ruslategundir. Bakkaragerðir stjórna starfseminni sem þú leyfir fyrir ruslakörfu. Eftirfarandi gerðir af bakka eru fáanlegar:  
+Birgðageymslur sem nota beinan frágang og tínslu geta notað hólfategundir. Hólfategundir stjórna aðgerðunum sem leyfðar eru fyrir hólf. 
+
+Eftirfarandi tegundir hólfa eru tiltækar:  
 
 |Tegund hólfs|Heimildasamstæða|  
 |------------------|---------------------------------------|  
-|MÓTTAKA|Hlutir sem berast en eru ekki lagðir í burtu.|  
-|SHIP|Vörur sem eru teknar fyrir vöruhúsasendingarlínur en eru ekki bókaðar sem sendar.|  
-|FRÁGANGUR|Venjulega eru hlutir til að geyma í stórum mælieiningum, en sem þú vilt ekki fá aðgang að í tínsluskyni. Þessar bakkar eru ekki notaðar til tínslu, hvorki fyrir framleiðslupantanir eða sendingar, svo notkun þeirra gæti verið takmörkuð. Þessi tegund af tunnu er gagnleg þegar þú kaupir mikið magn af hlutum. Bakkarnir ættu alltaf að vera með lága röðun í ruslakörfu þannig að hlutir með hærra setta PUTPICK bakka eru settir fyrst. Fylltu reglulega á þessa tegund af hólfum svo að hlutir þeirra séu fáanlegir í PUTPICK eða PICK tegund hólfa.|  
-|TAKA TIL|Vörur sem aðeins eru notaðar í tínslu. Þú getur aðeins notað hreyfingar til að fylla á þessar tunnur, ekki til að setja í burtu.|  
-|PUTPICK|Hlutir í ruslakörfum sem mælt er með fyrir bæði frágang og tínslu. Hólf af þessari tegund eru líklega með mismunandi hólfaflokkun. Settu upp geymslutunnurnar þínar með lægri tunnuröðun en venjuleg tínslutunnur eða tunnur á framtínslusvæðinu þínu.|  
-|QC|Þetta hólf er notað fyrir birgðaleiðréttingar ef þetta hólf er tilgreind á birgðageymsluspjaldinu í reitnum **Leiðréttingahólfskóði**. Einnig er hægt að setja upp hólf af þessari tegund fyrir gallaðar vörur og vörur sem teknar eru til skoðunar. Hægt er að flytja vörur í hólf af þessari tegund ef þær eiga ekki að vera tiltækar í venjulegu vöruflæði. **Athugið:**  Ólíkt öllum öðrum hólfategundum, hefur  **QC** hólf tegundin enginn af gátreitunum meðhöndlun vöru valinn sjálfgefið. Efni sem þú setur í QC rusla er útilokað frá vöruflæði.|  
+|MÓTTAKA|Vörur sem mótteknar eru en eru ekki frágengnar.|  
+|SHIP|Vörur sem eru tíndar fyrir vöruhúsaafhendingarlínur en eru ekki bókaðar sem afhentar.|  
+|FRÁGANGUR|Yfirleitt eru vörur til að geyma í stórum mælieiningum en ekki er óskað eftir aðgangi að til tínslu. Þessi hólf eru ekki notuð til tínslu, annaðhvort í framleiðslupöntunum eða afhendingum, svo notkun þeirra gæti verið takmörkuð. Þessi tegund hólfs er gagnleg þegar keypt er inn mikið af vörum. Hólfin ættu alltaf að hafa lága hólfaflokkun þannig að fyrst sé gengið frá vörum með PUTPICK-hólf með hærra flokkuð PUTPICK-hólf. Fylla reglulega á þessa tegund af hólfi þannig að vörur þeirra séu tiltækar í PUTPICK- eða PICK-hólfum.|  
+|TAKA TIL|Vörur sem aðeins eru notaðar í tínslu. Aðeins er hægt að nota hreyfingar til að fylla á þessi hólf, ekki frágang.|  
+|PUTPICK|Vörur í hólfum sem lagðar eru til bæði fyrir frágang og tínslur. Hólf af þessari tegund eru líklega með mismunandi hólfaflokkun. Setja upp magngeymsluhólf með lægri hólfaflokkun en venjuleg tínsluhólf eða hólf á framtíðartínslusvæðinu.|  
+|QC|Þetta hólf er notað fyrir birgðaleiðréttingar ef þetta hólf er tilgreind á birgðageymsluspjaldinu í reitnum **Leiðréttingahólfskóði**. Einnig er hægt að setja upp hólf af þessari tegund fyrir gallaðar vörur og vörur sem teknar eru til skoðunar. Hægt er að flytja vörur í hólf af þessari tegund ef þær eiga ekki að vera tiltækar í venjulegu vöruflæði. **Til athugunar:**  Ólíkt öllum öðrum hólfategundum **er** sjálfgefið að hólfategundin fyrir vörustjórnun sé valin. Innihaldið sem sett er í hólf fyrir QC er undanskilið vöruflæði.|  
 
-Að undanskildum tegundunum PICK, PUTPICK og PUTAWAY af hólfum, skilgreinir hólfagerðin þá virkni sem leyfð er fyrir hólf. Til dæmis er aðeins hægt að nota RECEIVE tegund af hólfi til að taka á móti vörum eða velja vörur úr.  
+Hægt er að reka vöruhúsið með öllum átta hólfategundunum sem mögulegar eru, eða nota aðeins hólfategundirnar RECEIVE, PUTPICK, SHIP og QC. Þessar fjórar hólfategundir gera kleift að gera tillögur um vöruflæði og gera notandanum kleift að skrá misræmi í birgðum.
+Að undanskildum tegundunum PICK, PUTPICK og PUTAWAY hólfategundin tilgreinir hólfategundin aðgerðina sem leyfð er fyrir hólf. Til dæmis er aðeins hægt að nota MÓTTÖKUtegund hólfs til að taka á móti vörum eða tína vörur úr.  
 
 > [!NOTE]  
-> Þú verður að nota hreyfingar til að færa hluti í RECEIVE og QC bakkar. notaðu hreyfingar til að flytja hluti úr SHIP- og QC-tunnum.  
+> Nota verður hreyfingar til að færa vörur í MÓTTAKA og QC-hólf. Á sama hátt eru hreyfingar notaðar til að færa vörur úr SHIP og QC-hólfum.  
 
-#### <a name="bin-ranking"></a>Hólfaflokkun
+#### Hólfaflokkun
 
-Í háþróaðri vörugeymslu er hægt að gera sjálfvirkan og fínstilla hvernig á að safna vörum í frágangs- og tína vinnublöð með því að raða hólfum. Stungið er upp á hlutum fyrir val og frágang á grundvelli tunnuröðanna.
+Í ítarlegri birgðahaldsvinnublaði er hægt að gera sjálfvirkar og bestar hvernig á að safna vörum í frágangs- og tínsluvinnublöð með því að flokka hólf. Vörur eru lagðar til fyrir tínslur og frágang samkvæmt hólfaflokkunum.
 
-Frágangsferlar eru fínstilltir í samræmi við röðun hólfa með því að stinga upp á hærra hólfum fyrir lægri hólfa. Velja ferli stinga upp á hlutum með hæstu hólfaröðun úr hólfainnihaldi fyrst. Áfylling á ruslakörfu bendir til baka í lægri röð á undan hærra hólfum.  
+Frágangsferli eru bjartsýni samkvæmt hólfaflokkun með því að leggja til hærra flokkuð hólf fyrir lægra flokkuð hólf. Tínsluferli leggja til vörur með hæstu hólfaflokkun úr hólfainnihaldi fyrst. Áfylling hólfa leggur til lægri flokkuð hólf fyrir hærri flokkuð hólf.  
 
-Röðun hólfa og innihald hólfa eru grunneiginleikar sem leiðbeina starfsmönnum vöruhúsa í vöruhúsinu.  
+Hólfaflokkun og innihald hólfa eru grunneiginleikar sem leiðbeina vöruhúsastarfsmönnum í vöruhúsinu.  
 
-#### <a name="bin-setup"></a>Uppsetning tunnu
+#### Uppsetning hólfs
 
-Í háþróaðri vörugeymslu er hægt að tilgreina eftirfarandi afkastagetugildi til að stjórna því hvernig og í hvaða hólfum þú geymir vörur:
+Í ítarlegri vörugeymslu er hægt að tilgreina eftirfarandi gildi afkastagetu til að stjórna því hvernig og í hvaða hólf eru geymdar vörur:
 
 * Magn
-* Heildar teningur
+* Rúmföt í heild
 * Þyngd  
 
-Þú getur úthlutað grunnmælieiningu (UOM) á hluti. Grunn UOM gæti verið stykki, bretti, lítrar, grömm eða kassar. Þú getur líka búið til stærri UOM byggt á grunnUOM þínum. Til dæmis, ef stykki eru grunn UOM þín, gæti bretti jafngilt 16 stykki.  
+Hægt er að úthluta vörum grunnmælieiningu (UOM). Grunnviðmið geta verið stykki, bretti, lítrar, grömm eða kassar. Einnig er hægt að búa til stærri UOM sem byggjast á grunnviðmótinu. Ef stykki eru grunnviðmið gæti bretti verið jafnt 16 stykkjum.  
 
-Ef hlutur hefur fleiri en einn UOM, stilltu hámarksmagn fyrir hverja UOM á vöruspjaldinu. Ef þú meðhöndlar hlut í stykkjatali og brettum er **Hámark. Magn** reiturinn á **Hassainnihaldi** síðunni fyrir þann hlut verður einnig að vera í hlutum og brettum. Annars er leyfilegt magn fyrir þá hólf ekki reiknað rétt.  
+Ef vara er með meira en eitt UOM skal stilla hámarksmagn fyrir hvert UOM á birgðaspjaldinu. Ef vara er meðhöndluð í stykkjum og brettum er hámarksmagnið í reitnum **Hám.magn.** á síðunni **Innihald** hólfs fyrir vöruna verður einnig að vera í stykkjum og brettum. Annars er leyfilegt magn þess hólfs ekki reiknað rétt.  
 
-Áður en þú setur takmarkanir á afkastagetu fyrir innihald hólfs á hólfi skaltu ganga úr skugga um að UOM og stærðir vörunnar séu settar upp á vörunni.  
+Áður en takmarkanir á afkastagetu eru settar upp fyrir innihald hólfs á hólfi þarf að ganga úr skugga um að UOM og víddir vörunnar séu settar upp á vörunni.  
 
 > [!NOTE]  
-> Þú getur aðeins notað margar UOMs á stöðum sem nota beint frágang og tínslu. Í öllum öðrum stillingum er aðeins hægt að nota hólf innihald í grunn UOM. Í færslum með UOM sem er stærri en grunn UOM vörunnar er magninu umreiknað í grunn UOM.  
+> Aðeins er hægt að nota mörg birgðageymslur sem nota beinan frágang og tínslu. Í öllum öðrum grunnstillingum er aðeins hægt að nota hólfainnihald í grunnfrávikinu. Í færslum með UOM sem er stærra en grunnmælieining vörunnar er magninu breytt í grunnmælieininguna.  
 
-#### <a name="zone"></a>Svæði
+#### Svæði
 
-Í háþróaðri vörugeymslu er hægt að flokka hólf í svæði til að stjórna því hvernig verkflæði vöruhúsastarfsemi er beint fyrir staðsetningar.  
+Í ítarlegri vöruhúsaaðgerð er hægt að flokka hólf á svæðum til að stjórna því hvernig verkflæði vöruhúsaaðgerða er stýrt fyrir birgðageymslur.  
 
-Svæði gæti verið móttökusvæði eða birgðasvæði og hvert svæði getur samanstandað af einni eða fleiri tunnum.  
+Svæði getur verið móttökusvæði eða birgðasvæði og hvert svæði getur samanstaðið af einu eða fleiri hólfum.  
 
-Flestum eiginleikum sem úthlutað er á svæði er úthlutað á hólf sem eru búin til fyrir svæðið.  
+Flestum eiginleikum sem úthlutað er á svæði er úthlutað á hólfin sem stofnuð eru fyrir svæðið.  
 
-#### <a name="warehouse-class"></a>Vöruhúsaflokkur
+#### Vöruhúsaflokkur
 
-Í háþróaðri vörugeymslu er hægt að úthluta vöruhúsaflokkakóðum til eftirfarandi aðila: 
+Í ítarlegri vöruhúsaaðgerð er hægt að úthluta vöruhúsaflokkskótum á eftirfarandi einingar: 
 
 * Vörur
 * Hólf
 * Svæði
 
-Vöruhúsaflokkar stjórna hvar á að geyma hluti. Hægt er að deila svæði upp í nokkra vöruhúsaflokka. Til dæmis gætirðu geymt hluti á móttökusvæðinu sem frosna, hættulega eða annan flokk.
+Vöruhúsaflokkar stjórna hvar geyma á vörur. Hægt er að deila svæði upp í nokkra vöruhúsaflokka. Til dæmis er hægt að geyma vörur á móttökusvæðinu sem frystar, hættulegar eða aðra flokka.
 
-Þegar unnið er með vöruhúsaflokka og sjálfgefna móttöku-/afgreiðsluhólf verður að velja handvirkt viðeigandi hólf í innhreyfingar- og sendingarlínum vöruhúss.  
+Þegar unnið er með vöruhúsaflokka og sjálfgefið móttöku-/afhendingarhólf þarf að velja handvirkt viðeigandi hólf í vöruhúsamóttöku- og afhendingarlínunum.  
 
-Í flæði á innleið er flokkskóðinn aðeins auðkenndur á innleiðarlínum þar sem flokkakóðinn vöru passar ekki við sjálfgefna móttökuhólfið. Ef réttum sjálfgefnum hólfum er ekki úthlutað er ekki hægt að taka á móti magninu.  
+Í flæði á innleið er flokkskótinn aðeins auðkenndir í línum á innleið þar sem vöruflokkskótinn passar ekki við sjálfgefið móttökuhólf. Ef ekki er hægt að úthluta réttum sjálfgefnum hólfum er ekki hægt að taka á móti magninu.  
 
-#### <a name="location"></a>Staðsetningu
+#### Staðsetningu
 
-Staðsetning er efnisleg uppbygging eða staður þar sem birgðir eru mótteknar, geymdar og sendar. Staðsetning getur verið vöruhús, þjónustubíll, sýningarsalur, verksmiðja eða svæði í verksmiðju. Birgðir eru oft skipulagðar í tunnur og svæði.
+Birgðageymsla er efnisleg skipulag eða staður þar sem tekið er á móti birgðum, geymdar og afhentar. Staðsetning getur verið vöruhús, þjónustubíll, sýningarsalur, verksmiðja eða svæði í verksmiðju. Birgðum er oft raðað í hólfum og svæðum.
 
-#### <a name="first-expired-first-out"></a>Fyrst rann út fyrst út
+#### Fyrst runnið út fyrst út
 
-Ef þú velur **Velja samkvæmt FEFO**  gátreitinn á **Reglur um ruslakörfu**  Flýtiflipi á **Staðsetningarkort**  síðu eru vörur raktar vörur valdir á staðsetningu í samræmi við gildistíma þeirra. Hlutir með elstu fyrningardagsetningar eru valdir fyrst.  
+Ef gátreiturinn **Tína eftir FEFO** er valinn á flýtiflipanum **Hólfareglur** á **síðunni Birgðageymsluspjald** eru vöruraktar vörur tíndar í birgðageymslunni samkvæmt fyrningardagsetningu þeirra. Vörur með fyrstu fyrningardagsetningar eru tíndar fyrst.  
 
-Vöruhúsastarfsemi í öllum tínslu- og flutningsskjölum er flokkuð samkvæmt FEFO, nema hlutunum sé úthlutað rað- eða lotunúmerum. Ef eitthvað, en ekki allt, magnsins á línunni hefur úthlutað rað- eða lotunúmerum, er eftirstandandi magnið flokkað samkvæmt FEFO.  
+Vöruhúsaaðgerðum í öllum tínslu- og hreyfingaskjölum er raðað eftir FEFO, nema vörunum hafi verið úthlutað rað- eða lotunúmerum. Ef sumu, en ekki öllu, hefur magnið í línunni úthlutað rað- eða lotunúmerum er eftirstöðvunum raðað eftirstöðvar samkvæmt FEFO.  
 
-Við tínslu með FEFO er vörum sem renna fyrst saman í tímabundinn vörurakningarlista miðað við fyrningardagsetningu. Ef tveir hlutir hafa sömu fyrningardagsetningu er hluturinn með lægsta lotuna eða raðnúmerið valinn fyrst. Ef hlut- eða raðnúmerin eru þau sömu er fyrst valinn hlutur sem var skráður fyrst. Stöðluð viðmið fyrir val á hlutum í tiltektarhólfum, eins og hólfunaröðun og lausafjölda, eru notuð á tímabundna FEFO vörurakningarlistann.  
+Við tínslu samkvæmt FEFO er vörum sem renna út fyrst safnað saman í bráðabirgða vörurakningarlista samkvæmt fyrningardagsetningunni. Ef tvær vörur hafa sömu fyrningardagsetningu er varan með lægsta lotu- eða raðnúmerið tínd fyrst. Ef lotu- eða raðnúmerin eru eins er varan sem skráð var fyrst valin fyrst. Staðlaðar viðmiðanir um val á vörum í tínsluhólfum, svo sem Hólfaflokkun og Einingaskipti, eru notaðar á bráðabirgða FEFO vörurakningarlistann.  
 
-#### <a name="put-away-template"></a>Sniðmát til að setja burt
+#### Frágangssniðmát
 
-Frágangssniðmát tilgreina sett af forgangsreglum sem gilda þegar þú býrð til frágangs. Til dæmis getur frágangssniðmát krafist þess að þú setjir hluti í hólk með innihaldi hólfa sem hefur sömu UOM. Ef sambærileg tunna með nægilega miklu afkastagetu finnst ekki verður að setja vöruna í tóma tunnu. Þú úthlutar frágangssniðmáti á hlut og staðsetningu.  
+Frágangssniðmát tilgreina safn forgangsreglna sem eiga við þegar frágangur er stofnaður. Til dæmis getur frágangssniðmát krafist þess að vörur séu settar í hólf með hólfainnihaldi sem er með sama UOM. Ef svipað hólf með nægilega marga afkastagetu finnst ekki verður að setja vöruna í autt hólf. Vöru og birgðageymslu er úthlutað frágangssniðmáti.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  

@@ -1,86 +1,103 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-Auktu skilvirkni í vöruhúsi þínu með nákvæmum rauntímaupplýsingum um þætti sem geta haft áhrif á tiltækt magn. Dæmi: 
+Auka skilvirkni í vöruhúsinu með nákvæmum og nákvæmum upplýsingum um þætti sem geta haft áhrif á tiltækt magn. Dæmi: 
 
 * Birgðastig
 * Staðsetningar
-* Vinnslustig
-* Hlutir í sóttkví
+* Vinnsluþrep
+* Biðgeymsluvörur
 * Bókanir
 
-Þú getur nálgast upplýsingar um framboð á hlutum úr eftirfarandi upprunaskjölum:
+Hægt er að nálgast upplýsingar um vörur til ráðstöfunar úr eftirfarandi upprunaskjölum:
 
 * Sölupantanir
 * Framleiðslupantanir
-* Samkomulög
+* Samsetningarpantanir
 * Verk
 
-Upplýsingarnar virða einnig aðra þætti sem hafa áhrif á framboð. Til dæmis sérstakar bakkar, læstar bakkar og hlutir sem ekki er hægt að tína. Til dæmis gætu hlutir verið fráteknir eða beðið eftir flutningi eða sendingu. Síðan **Velja samantekt**  gerir þér kleift að fara yfir atriðin sem [!INCLUDE [prod_short](prod_short.md)] ekki voru með í valsskjölum og grípa til nauðsynlegra aðgerða.
+Upplýsingarnar varða einnig aðra þætti sem hafa áhrif á ráðstöfunarmagn. Til dæmis sérstakt hólf, læst hólf og vörur sem ekki eru tiltækar til tínslu. Til dæmis er hægt að taka vörur frá eða bíða frágangs- eða afhendingaraðgerða. Síðan **Tínsluyfirlit** gerir kleift að fara yfir vörurnar sem [!INCLUDE [prod_short](prod_short.md)] ekki voru með í tínsluskjölum og framkvæma nauðsynlegar aðgerðir.
 
 > [!NOTE]
-> Þessi möguleiki krefst þess að þú kveikir á **Bein frágangi og Velja** rofi fyrir staðsetningarnar sem þú notar í tínsluferlinu þínu.
+> Þessi möguleiki krefst þess að kveikt sé á **vífærinu Beinn frágangur og tínsla** fyrir birgðageymslurnar sem notaðar eru í tínsluferlinu.
 
-### <a name="set-up-previews"></a>Settu upp forsýningar
+### Setja upp forskoðun
 
-Til að fá upplýsingar um hvað er verið að velja og hvað ekki skaltu kveikja á **Sýna samantekt (bein frágangi og vali)** kveikja á **Whse.-Source - Búa til skjal** eða **Whse.-Shipment - Búa til Pick** beiðnisíður.
+Til að fá upplýsingar um hvað er verið að tína og hvað ekki skal kveikja á **Sýna samantekt (beinn frágangur og tínsla)** víxla á beiðnisíðunum **Vöruhús - Stofna fylgiskjal** eða **Vöruhúsaafhendingu - Stofna tínslubeiðnisíður** .
 
-### <a name="determine-the-quantity-you-can-pick"></a>Ákveðið magnið sem þú getur valið
+### Ákveða magnið sem hægt er að tína
 
-Á línum á  **Create Warehouse Pick Summary** síðunni er **Magn. to Handle (Base)** reiturinn sýnir hvaða og hversu mörg atriði [!INCLUDE [prod_short](prod_short.md)] reyndu að velja.  **Samantekt** Staðreyndakassinn veitir frekari upplýsingar.
+Í línum á síðunni **Stofna yfirlit vöruhúsatínslu sýnir reiturinn** Magn til afgreiðslu (stofn) **hvaða og hversu margar vörur** reyndu að tína. [!INCLUDE [prod_short](prod_short.md)]  Upplýsingakassinn **samantektar** veitir nánari upplýsingar.
 
-Fyrir einfaldar rannsóknir gæti **valanlegt magn.**  gefið þér nægar upplýsingar. Reiturinn sýnir hversu margir hlutir eru tiltækir. Ef magn sem hægt er að velja er minna en búist var við, skoðaðu innihald tunnunnar.
+Til einfaldrar rannsóknar ræðst **Tiltekið magn** nægilegar upplýsingar gefnar. Í reitnum sést hversu margar vörur eru til ráðstöfunar. Ef tínslumagnið er lægra en búist var við er hólfainnihaldið skoðað.
 
- **Tilvalanlegt magn.** er hámarksmagnið sem [!INCLUDE [prod_short](prod_short.md)] getur tekið til greina við tínslu. Þetta magn samanstendur af hlutum í valinn tunnur. Magnið útilokar magn sem er í læstum eða sérstökum hólfum, eða vörur sem verið er að tína í vöruhústínsluskjölum. Ef hluturinn sem þú vilt velja krefst vörurakningar, eru læst lotu- eða raðnúmer sem eru geymd í valinn hólfum útilokuð frá valanlegu magni.
+Reiturinn **Tínt magn** er hámarksmagnið sem [!INCLUDE [prod_short](prod_short.md)] tekið er tillit til til tínslu. Þetta magn samanstendur af vörum í tínsluhólfum. Magnið undanskilur magnið sem er í lokað eða sérstakt hólf eða vörur sem verið er að tína í vöruhúsatínsluskjölum. Ef varan sem á að tína krefst vörurakningar eru lokuð lotu- eða raðnúmer sem geymd eru í tínsluhólfum undanskilin frá tínslumagninu.
 
-Ef tínanlegt magn er frábrugðið magninu í tínslutunnunum gæti verið vandamál. Skoðaðu hólfainnihaldið til að finna læst tunnur eða magn í virkum skjölum.
+Ef tínslumagnið er frábrugðið magninu í tínsluhólfum gæti komið upp vandamál. Skoða innihald hólfs til að finna lokuð hólf eða magn í virkum fylgiskjölum.
 
-Reiturinn **Magn í vöruhúsi**  sýnir heildarmagnið sem þú finnur í vöruhúsinu þínu ef þú gerir líkamlega talningu. Hægt er að grafa niður í vöruhúsabókarfærslur úr þessum reit. Ef reiturinn sýnir magn sem er minna en magnið í **Magni í valanlegum hólfum**, er misskipting milli vöruhúss og birgðamagns. Í því tilviki skaltu nota **Reikna vöruhúsaleiðréttingu** aðgerðina á  **Vörubók** síðunni og búa síðan til vöruhúsatínsluna aftur.
+Reiturinn **Magn í vöruhúsi** sýnir heildarmagnið sem er að finna í vöruhúsinu ef talning raunbirgða er talin. Hægt er að kafa niður í vöruhúsafærslurnar úr þessum reit. Ef reiturinn sýnir minna magn en magnið í magninu **í tínsluhólfum** er misræmi milli vöruhúss og birgðamagns. Í því tilviki skal nota aðgerðina **Reikna vöruhúsaleiðréttingu** á síðunni **Birgðabók** og stofna síðan vöruhúsatínsluna aftur.
 
-Eftirfarandi mynd sýnir hámarksmagn sem tekið er til greina við tínslu.
+Eftirfarandi mynd sýnir hámarksmagn sem tekið er til tínslu.
 
-:::image type="content" source="../media/pickable-qty.png" alt-text="Hámarksmagn sem kemur til greina við tínslu.":::
+:::image type="content" source="../media/pickable-qty.png" alt-text="Hámarksmagn sem tekið er til tínslu.":::
 
-**Goðsögn**
+**Þjóðsaga**
 
 |Stafur  |Heimildasamstæða  |
 |---------|---------|
-|T     |Bakkar með innihaldi af gerðinni Pick         |
-|D     |Bakkar með innihaldi af gerðinni Velja merktar sem sérstakar bakkar        |
-|A     |Bakkar með efni af gerðinni Velja í virku skjölunum (eins og annað val)       |
-|T     |Bakkar með innihaldi af gerðinni Velja með hlutum með læstri rakningu         |
-|Á     |Bakkar með innihaldi af gerðinni Velja með læstri útleið         |
-|O     |Aðrar ruslar         |
+|T     |Hólf með innihald tegundarinnar Tína         |
+|D     |Hólf með innihald tegundarinnar Tína merkt sem Sérstök hólf        |
+|A     |Hólf með innihald tegundarinnar Tína í virku skjölunum (líkt og önnur tínsla)       |
+|T     |Hólf með innihald tegundarinnar Tína með vörum með rakningu sem er lokuð         |
+|Á     |Hólf með innihald tegundarinnar Tína með lokaðri hreyfingu á útleið         |
+|O     |Önnur hólf         |
 
-### <a name="reservations"></a>Bókanir
+### Bókanir
 
-Ef fyrirvarar eru fyrir vöruna sem verið er að velja heldur útreikningurinn áfram. Hugmyndin er sú að frátekin eftirspurn hafi meiri forgang en ekki frátekin, sem þýðir að tínsla fyrir óátekna eftirspurn ætti ekki að koma í veg fyrir tínslu fyrir frátekna eftirspurn síðar.
+Ef tekið er frá fyrir vöruna sem verið er að tína heldur útreikningurinn áfram. Hugmyndin er sú að frátekin eftirspurn hafi meiri forgang en ekki var tekin frá, sem þýðir að tínsla fyrir ófrátekna eftirspurn ætti ekki að koma í veg fyrir að tínt sé fyrir frátekna eftirspurn síðar.
 
-Til að ganga úr skugga um að magnið þitt geti staðið undir eftirspurn skaltu bera saman **valanlegt magn.** gildi í **yfirliti** staðreyndakassi gildi í **Magni. að meðhöndla (Base)** reit á línunum.
+Til að staðfesta að magnið nái yfir eftirspurn er reiturinn **Tínt magn bera saman.**  **í samantektaruppl** . með gildinu í reitnum **Magn til afgreiðslu (stofn)** í línunum.
 
-Þú getur fundið pantanir í **Heildar fráteknu magni. á vöruhúsi** reitnum. Frátekið magn sem þegar er tínt og tilbúið til sendingar, notkunar eða neyslu hefur ekki áhrif á framboð.  **Frátekið magn. í Pick/Ship Bins** reitnum sýnir þetta magn.
+Finna má frátekningar í reitnum **Heildarmagn frátekið í vöruhúsi** . Frátekið magn sem þegar hefur verið tínt og er tilbúið til afhendingar, notkunar eða notkunar, hefur ekki áhrif á tiltækileika. Reiturinn **Frátekið magn í tínslu-/afhendingarhólfum** sýnir þetta magn.
 
-The **Gegn. Magn. Að undanskildum sendingarhólfi** reiturinn sýnir magnið sem er tiltækt, að undanskildum magni þar sem eftirfarandi á við:
+Reiturinn **Til ráðst. magn án afhendingarhólfs** sýnir tiltækt magn, að frádregnu magni sem eftirfarandi á við:
 
-* Þeir eru þegar valdir til sendingar.
-* Þau eru í lokuðum hlutum eða raðnúmerum.
-* Þeir eru í lokuðum tunnum.
+* Þeir eru þegar tíndir fyrir sendingar.
+* Þau eru í lokuðum vörulotum eða raðnúmerum.
+* Þau eru í lokuðum hólfum.
+* Þau eru í hollum hólfum.
 
-Þetta magn gæti verið tiltækt, en þú gætir ekki valið þau ennþá. Þeir gætu samt verið á móttöku-, geymslu- eða gæðatryggingarsvæðum. Hægt er að færa þau á tínslusvæðið með því að vinna frágangs- eða hreyfiblaði.
+Þetta magn getur verið tiltækt en hugsanlega er ekki hægt að tína það ennþá. Þau geta enn verið á móttöku-, geymslu- eða gæðaeftirlitssvæðum. Hægt er að færa þær á tínslusvæðið með því að vinna vinnublað frágangs eða hreyfingar.
 
-Munurinn á **Avail. Magn. Að frátöldum sendingarhólfi** og fráteknu magni í vöruhúsi er það magn sem er tiltækt til tínslu án þess að hafa áhrif á frátekið lager.
+Mismunurinn á magni **til ráðst. án afhendingarhólfs** og frátekins magns í vöruhúsi er magnið sem er tiltækt til tínslu án þess að hafa áhrif á fráteknar birgðir.
 
-### <a name="other-details"></a>Aðrar upplýsingar
+Eftirfarandi sökkli sýnir úthlutun á hæfilegu magni fyrir frátekna sýkingu.
 
-Ef vörur krefjast vörurakningar geturðu einnig fundið magnið í læstum hlutum eða raðnúmerum, sem veldur eftirfarandi lækkunum:
+:::image type="content" source="../media/Warehouse_Reservation_Pick.png" alt-text="Hámarksmagn sem tekið er tillit til tiltektar þegar um er að ræða frátekningu.":::
 
-* Magnið sem hægt er að velja
-* Tiltækt magn, fyrir utan sendingartunnuna
+**Þjóðsaga**
+
+|Stafur  |Heimildasamstæða  |
+|---------|---------|
+|T     |Magn sem á að tína         |
+|TR    |Samtals frátekið magn í vöruhúsi.         |
+|RS    |Frátekið magn sem þegar hefur verið tínt og er tilbúið til afhendingar, notkunar eða notkunar       |
+|A     |Tilt. magn fyrir utan afhendingarhólf         |
+|Á     |Magn í sérstökum eða lokuðum hólfum, lokuðum vörulotum eða raðnúmerum         |
+
+Þó að nægt tiltækt magn sé í vöruhúsi til að fullnægja tínslunni að fullu leiðir það til þess að fráteknu heildarmagni er úthlutað á móti magninu í sérstökum eða lokuðum hólfum, sem hindrar tínslu á þessari eftirspurn. Þar sem frátekin eftirspurn hefur meiri forgang minnkar [!INCLUDE [prod_short](prod_short.md)]  magnið sem á að tína til að koma í veg fyrir neikvæð áhrif, svo sem vanhæfni til tínslu, á frátekna eftirspurn.
+
+### Aðrar upplýsingar
+
+Ef vörur krefjast vörurakningar er einnig hægt að finna magnið í lokuðum lotum eða raðnúmerum sem veldur eftirfarandi lækkun:
+
+* Tiltekið magn
+* Tiltækt magn, að afhendingarhólfi undanskildum
 * Frátekið magn í vöruhúsi 
 
-Ef þú velur sama hlutinn fyrir mörg upprunaskjöl eða línur, sem er einnig raunin þegar þú velur raðnúmer, birtast upplýsingar um tiltektir fyrir aðrar línur einnig vegna þess að það dregur úr magni sem hægt er að velja.
+Ef sama varan er tínd fyrir mörg upprunaskjöl eða línur, sem er einnig raunin þegar raðnúmer eru tínd, birtast upplýsingar um tínslur fyrir aðrar línur einnig þar sem það minnkar tínslumagnið.

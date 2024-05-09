@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Vinna með eignir
+# Vinna með eignir
 
 Í kerfishlutanum Eignir í [!INCLUDE[prod_short](includes/prod_short.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
 
-## <a name="video-overview"></a>Myndbandsyfirlit
+## Myndbandsyfirlit
 
 Eftirfarandi myndband fjallar um grunnatriði eigna:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="fixed-assets-overview"></a>Yfirlit yfir eignir
+## Yfirlit yfir eignir
 
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Síðan getur hafist komast yfir, viðhalda og selja eignir. Hægt er einnig að setja upp áætlaðar eignir. Með fjárhagsáætlun er hægt að taka með fyrirsjáanlega kaup og sölu í skýrslum.
 
@@ -46,27 +46,29 @@ Hægt er að tengja hverja eign einum eða fleiri vátryggingarskilmálum og san
 > [!NOTE]  
 > Hægt er að skrá eignafærslur á síðunni **Fjárhagsbók eigna** eða á síðunni **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á síðuna **Fjárhagsbók eigna**. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
 
-## <a name="how-to-use-fixed-assets"></a>Hvernig á að nota eignir
+## Hvernig á að nota eignir
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
 | Til  | Sjá |
 | --- | --- |
 | Setja upp skilyrði fyrir notkun eiginleika eigna (skilgreining sjálfgefinna gilda, eignabókhalds, bókunarflokka, úthlutunarlykla, færslubóka og bókunartegunda). | [Uppsetning eigna](fa-setup.md)|
+| Stjórna fjárhagsáætlana eigna, áætlun stofnkostnaðar, áætlun afskráninga eigna og áætlun afskrifta. |[Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md) |
 | Stofna eignir, úthluta afskriftaaðferðum, bóka eignakaup, hrakvirði og prenta eignalista. |[Komast yfir eignir](fa-how-acquire.md) |
+| Læra um mismunandi Aðferðir við afskriftir eigna |[Afskriftaaðferðir](fa-depreciation-methods.md) |
+| Reikna afskriftir, bóka afskriftir og greina afskriftir í eignaskýrslum. |[Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md) |
+| Fræðast meira um innbyggða skýrslugerð og greiningargetu eigna. | [Yfirlit eignagreiningar](fa-analytics-overview.md) |
 | Skrá þjónustuheimsóknir, bókun viðhaldskostnaðar og fylgjast með viðhaldskostnaði. |[Umsjón eigna](fa-how-maintain.md) |
 | Uppfæra vátryggingarupplýsingar, bóka stofnkostnað á vátryggingarskilmála, breyta vátryggingasviði, skoða vátryggingaupplýsingar og gera lista yfir vátryggingaskírteini. |[Tryggja eignir](fa-how-insure.md) |
 | Endurflokka eignir, flytja eignir á aðra staði, skipta upp eignum eða sameina þær. |[Flytja, skipta upp eða sameina eignir](fa-how-trans-split-combine.md) |
 | Leiðrétta verð eigna, bóka afskriftir og bóka niðurfærslur. |[Endurmeta eignir](fa-how-revalue.md) |
-| Reikna út afskriftir, bóka afskriftir og greina afskriftir í eignaskýrslur. |[Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md) |
-| Læra um mismunandi Aðferðir við afskriftir eigna |[Afskriftaaðferðir](fa-depreciation-methods.md) |
 | Bóka afskráningarfærslur, skoða afskráningarbókarfærslur og bóka afskráningar að hluta. |[Afskrá eða innkalla eignir](fa-how-dispose-retire.md) |
-| Stjórna fjárhagsáætlana eigna, áætlun stofnkostnaðar, áætlun afskráninga eigna og áætlun afskrifta. |[Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md) |
-| Fræðast meira um innbyggða skýrslugerð og greiningargetu eigna. | [Skýrslur og greiningar eigna](fa-reports.md) |
 
-## <a name="see-also"></a>Sjá einnig .
+
+## Sjá einnig .
 
 [Uppsetning eigna](fa-setup.md)  
+[Yfirlit eignagreiningar](fa-analytics-overview.md)   
 [Yfirlit yfir Fjármál](finance.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

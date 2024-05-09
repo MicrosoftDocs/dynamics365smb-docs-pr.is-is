@@ -1,63 +1,64 @@
 ---
-title: Úrræðaleit og víddarleiðrétting
-description: Kynntu þér hvernig á að lagfæra dæmigerðar víddarvillur og hvernig á að leiðrétta víddir eftir að þær eru notaðar í bókuðum færslum.
+title: Úrræðaleit og víddarleiðréttingar
+description: Fræðast um hvernig á að leysa dæmigerðar víddarvillur og hvernig á að leiðrétta víddir eftir að þær eru notaðar í bókuðum færslum.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'dimension, correction, correct, business intelligence'
 ms.search.form: '116, 540, 2588'
-ms.date: 09/27/2021
-ms.author: bholtorf
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="troubleshooting-and-correcting-dimensions"></a>Úrræðaleit og víddarleiðrétting
+# Úrræðaleit og víddarleiðréttingar
 
-Fjárhagsskýrslugerð og greiningaryfirlit reiða sig oft á gögn úr ýmsum víddum. Þrátt fyrir þær öryggisráðstafanir sem í boði eru gerast stundum mistök sem geta leitt til ónákvæmni. Í þessu efni er lýst nokkrum dæmigerðum villum og útskýrt hvernig eigi að leiðrétta víddarúthlutanir á bókuðum færslum svo að fjárhagsskýrslur séu réttar.
+Fjárhagsskýrslugerð og greiningaryfirlit reiða sig oft á gögn úr ýmsum víddum. Þrátt fyrir þær öryggisráðstafanir sem í boði eru gerast stundum mistök sem geta leitt til ónákvæmni. Þessi grein lýsir nokkrum dæmigerðum villum og útskýrir hvernig á að leiðrétta víddarúthlutun í bókuðum færslum þannig að fjárhagsskýrslur séu réttar.
 
-## <a name="troubleshooting-dimensions-errors"></a>Úrræðaleita víddarvillur
+## Úrræðaleit fyrir víddarvillur
 
-Þegar skjala- eða færslubókarlínur sem innihalda víddir eru bókaðar geta ýmsar villur komið upp sem venjulega tengjast rangri víddaruppsetningu eða úthlutun.
+Þegar bókuð eru skjöl eða færslubókarlínur með víddum geta ýmsar villur orðið. Hins vegar eru þær yfirleitt tengdar röngu víddaruppsetningu eða úthlutun.
 
 > [!NOTE]
 > Í eftirfarandi lista yfir hugsanleg villuboð eru kóðarnir *%X* staðgenglar fyrir gagnabreyturnar sem raunverulegu skilaboðin munu innihalda í notendaviðmótinu, háð samhenginu. Til dæmis *%1 %2 er útilokað.* gæti birst í notendaviðmótinu sem „Víddarkóðinn SVÆÐI er útilokaður.“.  
 
 |Gefa út|Villuboð|Möguleg lausn|
 |-----|-------------|-----------------|
-|Útilokuð vídd|%1 %2 er útilokað.|-Finna óbókuð fylgiskjöl sem innihalda víddasamstæðuna með útilokuðu víddinni og afblokka hana.<br />-Fjarlægja línu víddasamstæðu fyrir útilokuðu víddina.|
-|Eydd vídd|%1 %2 finnst ekki.|-Endurheimta vídd sem vantar.<br />-Finna óbókuð fylgiskjöl sem innihalda víddasamstæðuna með vídd sem vantar og bæta henni við.<br />-Fjarlægja línu víddasamstæðu fyrir vídd sem vantar.|
-|Útilokað víddargildi|%1 %2 - %3 er útilokað.|-Finna óbókuð fylgiskjöl sem innihalda víddasamstæðuna með útilokuðu víddargildi og afblokka það.<br />-Fjarlægja línu víddasamstæðu fyrir útilokaða víddargildið.|
-|Eydd víddargildi|    %1 fyrir %2 vantar.|-Endurheimta víddargildi sem vantar.<br />-Finna óbókuð fylgiskjöl sem innihalda víddasamstæðuna með víddargildinu sem vantar og bæta því við.<br />-Fjarlægja línu víddasamstæðu fyrir víddargildið sem vantar.|
+|Útilokuð vídd|%1 %2 er útilokað.|-Finna óbókuð skjöl sem innihalda víddasamstæðuna með víddinni sem lokað er á og afloka það.<br />-Fjarlægja línu víddasamstæðu fyrir útilokuðu víddina.|
+|Eydd vídd|%1 %2 finnst ekki.|-Endurheimta vídd sem vantar.<br />-Finna óbókuð skjöl sem innihalda víddarsamstæðuna sem vantar og bæta því við.<br />-Fjarlægja línu víddasamstæðu fyrir vídd sem vantar.|
+|Útilokað víddargildi|%1 %2 - %3 er útilokað.|-Finna óbókuð skjöl sem innihalda víddasamstæðuna með víddargildinu sem lokað er á og afloka það.<br />-Fjarlægja línu víddasamstæðu fyrir útilokaða víddargildið.|
+|Eydd víddargildi|    %1 fyrir %2 vantar.|-Endurheimta víddargildi sem vantar.<br />-Finna óbókuð skjöl sem innihalda víddasafnið með víddargildinu sem vantar og bæta því við.<br />-Fjarlægja línu víddasamstæðu fyrir víddargildið sem vantar.|
 |Óheimilt víddargildi|Gerð víddargildis fyrir %1 %2 – %3 má ekki vera %4.|-Breyttu reitnum **Gerð víddargildis** á síðunni **Víddargildi** í **Staðlað** eða **Frá-tala**.<br />-Fjarlægja línu víddasamstæðu fyrir útilokaða víddargildið.|
-|Útilokuð víddarsamsetning|Víddirnar %1 og %2 er ekki hægt að nota samtímis.|-Finna óbókuð fylgiskjöl sem innihalda víddasamstæðuna með útilokuðu víddarsamsetningunni og afblokka hana.<br />-Breyta einni af línum heimildasamstæðu sem stangast á fyrir víddarsamsetninguna.|
-|Útilokuð samsetning víddargildis|Víddarsamsetningarnar %1 - %2 og %3 - %4 er ekki hægt að nota samtímis.|-Finna óbókuð fylgiskjöl sem innihalda víddasamstæðuna með útilokaða víddargildissamsetningu og opnaðu fyrir hana.<br />-Breyta einni af línum heimildasamstæðu sem stangast á fyrir víddargildissamsetninguna.|
-|Auður víddargildiskóði fyrir sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Kóði tilskilinn**|-Velja %1 fyrir %2 %3.<br />-Velja %1 fyrir %2 %3 fyrir %4 %5.|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Færðu inn víddargildi sem er ekki autt fyrir víddina sem stangast á í víddasamstæðunni.|
+|Útilokuð víddarsamsetning|Víddirnar %1 og %2 er ekki hægt að nota samtímis.|-Finna óbókuð skjöl sem innihalda víddasamstæðuna með víddasamsetningunni sem lokað er á og opna hana úr læsingu.<br />-Breyta einni af heimildarsamstæðulínunum sem stangast á fyrir víddarsamsetninguna.|
+|Útilokuð samsetning víddargildis|Víddarsamsetningarnar %1 - %2 og %3 - %4 er ekki hægt að nota samtímis.|-Finna óbókuð skjöl sem innihalda víddasamstæðuna með víddargildissamsetningunni sem lokað er á og opna hana úr læsingu.<br />-Breyta einni af heimildarsamstæðulínunum sem stangast á fyrir víddargildissamsetninguna.|
+|Auður víddargildiskóði fyrir sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Kóði tilskilinn**|-Velja %1 fyrir %2 %3.<br />-Velja %1 fyrir %2 %3 fyrir %4 %5.|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Færa inn víddargildi utanblanks fyrir víddina sem misræmi er í víddasamstæðunni.|
 |Rangur víddargildiskóði fyrir sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Sami kóði**|-Veldu %1 %2 fyrir %3 %4.<br />-Veldu %1 %2 fyrir %3 %4 fyrir %5 %6|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Færðu inn nauðsynlegt víddargildi fyrir víddina sem stangast á í víddasamstæðunni.|
-|Víddargildiskóði sem ekki er auður fyrir auða sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Sami kóði**|-%1 %2 verður að vera auður.<br />-%1 %2 verður að vera auður fyrir %3 %4.|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Færðu inn auðan víddargildiskóða fyrir víddina sem stangast á í víddasamstæðunni.|
+|Víddargildiskóti utanblanks fyrir auða sjálfgefna vídd þar sem í reitnum **Virðisbókun** er **Sami kóti**|-%1 %2 verður að vera auður.<br />-%1 %2 verður að vera auður fyrir %3 %4.|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Færðu inn auðan víddargildiskóða fyrir víddina sem stangast á í víddasamstæðunni.|
 |Óvæntur víddargildiskóði fyrir sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Enginn kóði**|-%1 %2 má ekki nefna.<br />-%1 %2 má ekki nefna fyrir %3 %4|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Fjarlægja línuna sem stangast á úr víddasamstæðunni.|
-|Víddarleiðrétting klárast ekki á réttan hátt.||-Veljið **Endurstilla** til að snúa leiðréttingunni aftur í drög. Þetta núllstillir breytingarnar og hægt er að keyra leiðréttingu aftur.|
+|Víddarleiðrétting lýkur ekki rétt.||-Veljið **Endurstilla** til að snúa leiðréttingunni aftur í drög. Þetta núllstillir breytingarnar og hægt er að keyra leiðréttingu aftur.|
 
-## <a name="changing-dimension-assignments-after-posting"></a>Breyta víddarúthlutunum eftir bókun
+## Breyting á víddarúthlutunum eftir bókun
 
-Ef kemur í ljós að röng vídd hafi verið notuð í bókuðum fjárhagsfærslum er hægt að leiðrétta víddargildin og uppfæra greiningaryfirlitið. Það hjálpar til við að halda fjárhagsskýrslum og greiningum nákvæmum.
+Ef röng vídd uppgötvast í bókuðum fjárhagsfærslum er hægt að leiðrétta víddargildin og uppfæra greiningaryfirlitin. Leiðréttingin hjálpar til við að halda fjárhagsskýrslum og greina nákvæmar.
 
 > [!IMPORTANT]
 > Eiginleikar til að leiðrétta víddir eru einungis ætlaðir til að hjálpa við nákvæma fjárhagsskýrslugerð. Víddarleiðréttingar aðeins við um fjárhagsfærslurnar. Þær breyta ekki víddum sem eru úthlutaðar á færslur í öðrum fjárhag vegna sömu viðskipta. Misræmi verður á milli vídda sem eru úthlutaðar í fjárhag og undirfjárhag.
 
-### <a name="setting-up-dimension-corrections"></a>Uppsetning víddarleiðréttinga
+### Uppsetning víddaleiðréttinga
 
 Tvö atriði þarf að hafa í huga þegar víddarleiðréttingar eru settar upp:
 
 * Eru til víddir sem ekki á að leyfa fólki að breyta? Á síðunni **Stillingar víddarleiðréttingar** skal tilgreina víddirnar sem á að hindra breytingar á.
-* Hver á að fá leyfi til að breyta víddum? Til að leyfa fólki að gera breytingar skal úthluta notendunum heimildinni **D365 DIM CORRECTION**. Heimildirnar gera þeim kleift að stofna víddarleiðréttingar, keyra þær og afturkalla ef þess gerist þörf. Þeir munu einnig geta tilgreint útilokaðar víddir. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md). 
+* Hver getur breytt víddum? Til að leyfa fólki að gera breytingar skal úthluta notendunum heimildinni **D365 DIM CORRECTION**. Heimildirnar gera þeim kleift að stofna víddarleiðréttingar, keyra þær og afturkalla ef þess gerist þörf. Einnig er hægt að tilgreina víddir sem lokaðar eru á. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md). 
 
-### <a name="correcting-a-dimension"></a>Vídd leiðrétt
+### Vídd leiðrétt
 
 Hægt er að velja handvirkt eina eða fleiri fjárhagsfærslur eða nota síur til að velja safn af færslum. Ef þörf er á er einnig hægt að bæta við eða eyða víddum. 
 
 1. Til að hefja víddarleiðréttingu skal nota eina af eftirfarandi síðum:
 
-    * Á síðunni **Fjárhagur/skrá**, með því að velja skrá, og síðan velja aðgerðina **Leiðrétta víddir**. Þetta setur af stað leiðréttingu á færslunum í valdri skrá.
+    * Á síðunni **Fjárhagur/skrá**, með því að velja skrá, og síðan velja aðgerðina **Leiðrétta víddir**. Þessi aðgerð hefst leiðrétting á færslum í valinni dagbók.
     * Á síðunni **Fjárhagsfærslur** með því að velja aðgerðina **Víddarleiðrétting**. 
 
 2. Í reitinn **Lýsing** skal færa inn upplýsingar um breytingarnar. Aðrir gætu notað þessar upplýsingar síðar til að komast að því hvað var gert.
@@ -81,45 +82,49 @@ Hægt er að velja handvirkt eina eða fleiri fjárhagsfærslur eða nota síur 
 5. Til að staðfesta leiðréttinguna skal velja **Staðfesta víddarbreytingar**. Frekari upplýsingar er að finna í [Víddarleiðréttingar staðfestar](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Veljið **Keyra**.
 
-### <a name="validating-dimension-corrections"></a>Víddarleiðréttingar staðfestar
+### Prófun víddaleiðréttinga
 
 Áður en leiðrétting er keyrð er góð hugmynd að staðfesta hana fyrst. Staðfesting leitar að takmörkunum í virðisbókun fyrir fjárhagsreikninga, takmarkanir fyrir víddir og hvort víddargildin séu útilokuð. Meðan á staðfestingu stendur er staða leiðréttingar stillt á **Staðfesting í gangi**. Þegar leiðrétting er staðfest er útkoman sýnd í reitnum **Staða staðfestingar**. Ef villur fundust er hægt að nota aðgerðina **Skoða villur** til að kanna þær nánar. Þegar villa hefur verið lagfærð þarf að nota aðgerðina **Enduropna** til að keyra leiðréttinguna eða nýja staðfestingu.
 
-Annaðhvort er hægt að keyra leiðréttingu strax eða tímasetja hana fram í tímann. Ef leiðréttingar eru gerðar á stóru gagnasafni er mælt með því að áætla keyrsluna utan vinnutíma. Frekari upplýsingar er að finna í [Víddarleiðréttingar á stórum gagnasöfnum](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
+Annaðhvort er hægt að keyra leiðréttingu strax eða tímasetja hana fram í tímann. Ef leiðréttingar eru keyrðar á stóru gagnasafni er mælt með því að tímasetja það til keyrslu utan vinnustunda. Frekari upplýsingar er að finna í [Víddarleiðréttingar á stórum gagnasöfnum](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undoing-a-correction"></a>Leiðrétting afturkölluð
+### Afturkalla leiðréttingu
 
-Þegar vídd hefur verið leiðrétt og útkoman er ekki þér að skapi geturðu notað aðgerðina **Afturkalla** til að endurstilla fyrra gildið. Hins vegar er aðeins hægt að afturkalla nýjustu leiðréttinguna. Áður en leiðrétting er afturkölluð er hægt að staðfesta breytingarnar sem afturköllunin gerir. Þetta er til dæmis gagnlegt ef takmarkanir vídda hafa breyst eftir að leiðréttingin var gerð.
+Þegar vídd hefur verið leiðrétt og útkoman er ekki þér að skapi geturðu notað aðgerðina **Afturkalla** til að endurstilla fyrra gildið. Hins vegar er aðeins hægt að afturkalla nýjustu leiðréttinguna. Áður en leiðrétting er afturkaluð er hægt að staðfesta breytingarnar sem eru afleiðingar afturkræfrar aðgerðar. Til dæmis er villuleit gagnleg ef víddartakmörkunum hefur breyst eftir að leiðréttingin var gerð.
 
-Ef afturköllunaraðgerðin er ekki í boði, t.d. vegna þess að margar breytingar hafa verið gerðar, er hægt að nota aðgerðina **Afrita í drög** til að hefja nýja leiðréttingu á sömu færslunum.
+Ef aðgerðin Afturkalla er ekki tiltæk, til dæmis vegna þess að margar leiðréttingar eru fyrir hendi, er hægt að nota aðgerðina **Afrita í Drög** til að hefja nýja leiðréttingu fyrir sömu færslur.
 
-### <a name="dimension-corrections-on-large-data-sets"></a>Víddarleiðréttingar á stórum gagnasöfnum
+### Víddaleiðréttingar í stórum gagnasöfnum
 
 Farið varlega þegar stór færslusöfn eru leiðrétt, t.d. söfn sem innihalda meira en 10.000 færslur. Ef það er hægt þá mælum við með að nota síur til að keyra leiðréttingar á smærri gagnasöfnum. Það er einnig góð hugmynd að keyra leiðréttingar utan venjulegs vinnutíma. 
 
-### <a name="use-analysis-views-with-dimension-corrections"></a>Nota greiningaryfirlit og víddarleiðréttingar
+### Nota greiningaryfirlit með víddaleiðréttingum
 
-Ef **Uppfæra við bókun** er virkjað fyrir greiningaryfirlit, getur [!INCLUDE[prod_short](includes/prod_short.md)] skoðað þegar skjöl og færslubækur eru bókaðar. Einnig er hægt að uppfæra yfirlit með þessari stillingu virkjaða með niðurstöður víddarleiðréttinga. Til að gera það skal kveikja á **Uppfæra greiningaryfirlit**. Uppfærsla greiningaryfirlita getir haft áhrif á afköst, sérstkaklega fyrir stór gagnasöfn, og því er mælt með að greiningaryfirlit séu aðeins uppfærð fyrir lítil gagnasöfn.  
+Ef **Uppfæra við bókun** er virkt fyrir greiningaryfirlit [!INCLUDE[prod_short](includes/prod_short.md)] , getur það uppfært yfirlitið þegar fylgiskjöl og færslubækur eru bókuð. Einnig er hægt að uppfæra yfirlit með þessari stillingu virkjaða með niðurstöður víddarleiðréttinga. Til að gera það skal kveikja á **Uppfæra greiningaryfirlit**. Uppfærsla greiningaryfirlita getur haft áhrif á afköst, sérstaklega fyrir stór gagnasöfn, þannig að mælt er með því að greiningaryfirlit séu uppfærð eingöngu fyrir lítil gagnasöfn.  
 
-### <a name="viewing-historical-dimension-corrections"></a>Ferill víddarleiðréttinga skoðaður
+### Skoða leiðréttingar á eldri víddum
 
-Ef fjárhagsfærsla hefur verið leiðrétt er hægt að kanna breytinguna með því að nota aðgerðina **Ferill víddarleiðréttinga**.
+Ef fjárhagsfærsla var leiðrétt er hægt að rannsaka breytingarnar með aðgerðinni **Ferill víddaleiðréttinga** .
 
-### <a name="handling-incomplete-corrections"></a>Afgreiðsla ólokinna leiðréttinga
+### Meðhöndlun ófullnægjandi leiðréttinga
 
-Ef leiðrétting klárast ekki mun viðvörun birtast á leiðréttingarspjaldinu. Ef það gerist er hægt að nota aðgerðina **Endurstilla** til að snúa leiðréttingunni aftur í drög og afturkalla breytingarnar. Síðan er hægt að keyra leiðréttinguna aftur.
+Ef leiðréttingu er ekki lokið birtist viðvörun á leiðréttingarspjaldinu. Ef það gerist er hægt að nota aðgerðina **Endurstilla** til að snúa leiðréttingunni aftur í drög og afturkalla breytingarnar. Síðan er hægt að keyra leiðréttinguna aftur.
 
 > [!NOTE]
 > Endurstilling ólokinnar leiðréttingar hefur ekki áhrif á uppfærslur greiningaryfirlita vegna þess að þær gerast undir lok leiðréttingarferlisins.
 
-### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Nota kostnaðarbókhald með leiðréttum fjárhagsfærslum
+### Nota kostnaðarbókhald með leiðréttum fjárhagsfærslum
 
-Þegar búið er að leiðrétta víddir verða gögn kostnaðarbókhalds ósamstillt. Kostnaðarbókhald notar víddir til að safna saman upphæðum fyrir kostnaðarstaði og kostnaðarhluti og til að keyra kostnaðarúthlutanir. Að breyta víddum fyrir fjárhagsfærslur mun líklega þýða að þú endurkeyrir líkön kostnaðarbókhaldsins. Hvort sem þú þarft aðeins að eyða nokkrum kostnaðarskrám og endurkeyra úthlutanir, eða þú þarft að eyða öllu og endurkeyra öll líkönin þín, fer eftir gögnunum sem hafa verið uppfærð og hvernig möguleikar kostnaðarbókhaldsins eru settir upp. Það þarf að auðkenna handvirkt hvar víddarleiðréttingar hafa áhrif á kostnaðarbókhald og hvar er þörf á uppfærslum. [!INCLUDE[prod_short](includes/prod_short.md)] býður ekki upp á sjálfvirka leið til að gera það sem stendur.
+Þegar víddir hafa verið leiðréttar eru gögnin um kostnaðarbókhald ekki samstillt. Kostnaðarbókhald notar víddir til að leggja saman upphæðir fyrir kostnaðarstöðvar og kostnaðarhluti og keyra kostnaðarúthlutanir. Ef víddum er breytt fyrir fjárhagsfærslur ætti líklega að keyra kostnaðarbókhaldslíkönin aftur. Það fer eftir gögnunum sem voru uppfærð og hvernig getu kostnaðarbókhalds er sett upp gæti þurft að:
 
-## <a name="see-also"></a>Sjá einnig .
+* Eyða aðeins nokkrum kostnaðardagbókum og keyra úthlutanir aftur.
+* Eyða öllu og keyra öll líkönin aftur.
+
+Tilgreina verður handvirkt hvar víddarleiðréttingar hafa áhrif á kostnaðarbókhald og hvar uppfærslu er þörf. [!INCLUDE[prod_short](includes/prod_short.md)] veitir ekki sjálfvirka leið til að gera það.
+
+## Sjá einnig .
 
 [Vinna með víddir](finance-dimensions.md)  
 [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
