@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-the-purchases-process"></a>Nota E-skjöl í innkaupaferlinu
+# Nota E-skjöl í innkaupaferlinu
 
 Hægt er að nota grunnstillt rafræn skjöl (e-documents) með innkaupaskjölunum.
 
@@ -25,11 +25,11 @@ Hægt er að nota eftirfarandi innkaupaskjöl með virkni tölvupóstskjala:
 > [!NOTE]
 > Úr [!INCLUDE[prod_short](includes/prod_short.md)] útgáfu 24.0 er hægt að tengja **innkaupapantanir** við móttekin **E-skjöl**.  
 
-## <a name="e-documents-in-purchases"></a>E-skjöl í innkaupum
+## E-skjöl í innkaupum
 
 Hægt er að framkvæma móttöku rafrænna skjala í Dynamics 365 Business Central innkaupum sem keyrslu eða handvirkt.  
 
-### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>Hvernig lánardrottnar eru settir upp til að vinna með mismunandi innkaupaskjöl
+### Hvernig lánardrottnar eru settir upp til að vinna með mismunandi innkaupaskjöl  
 
 Fylgdu skrefunum til að grunnstilla lánardrottna til að vinna rétt með rafræna reikninga á innleið: 
 
@@ -46,9 +46,9 @@ Fylgdu skrefunum til að grunnstilla lánardrottna til að vinna rétt með rafr
 4. Einn af kostunum sem nota á fyrir valinn lánardrottinn er valinn. 
 5. Loka síðunni.   
 
-### <a name="to-work-with-purchase-invoices"></a>Unnið með innkaupareikninga
+### Unnið með innkaupareikninga  
 
-#### <a name="run-the-batch-job"></a>Keyrslan er keyrð
+#### Keyrslan er keyrð  
 
 > [!NOTE]
 > Þessi keyrsla er fyrir sjálfvirka söfnun reikninga sem berast. Hún getur aðeins unnið í landi eða svæði þar sem virknin er til staðar.  
@@ -76,7 +76,7 @@ Tvær algengar villur eru:
 
 Þegar villur og viðvaranir hafa verið lagfærðar er hægt að tilgreina handvirkt hvenær kerfið eigi að stofna innkaupareikning út frá uppsetningunni með því að **velja Stofna skjal**.   
 
-#### <a name="manually-import-invoices"></a>Flytja reikninga inn handvirkt
+#### Flytja reikninga inn handvirkt  
 
 Til að flytja ytri tölvupóstskjöl inn handvirkt skal fylgja eftirfarandi skrefum:
 
@@ -87,9 +87,9 @@ Til að flytja ytri tölvupóstskjöl inn handvirkt skal fylgja eftirfarandi skr
 5. Þegar lokið er við að lagfæra vandamál er í hópnum **Flytja inn handvirkt** valið **Stofna skjal**.  
 6. Þegar skjalið hefur verið stofnað í [!INCLUDE[prod_short](includes/prod_short.md)] breytist keyrsla ekki eins og það er skoðað. 
 
-### <a name="e-documents-with-purchase-orders"></a>E-skjöl með innkaupapöntunum
+### E-skjöl með innkaupapöntunum  
 
-#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>Innkaupapantanir tengdar við móttekin tölvupóstskjöl
+#### Innkaupapantanir tengdar við móttekin tölvupóstskjöl
 
  **Ef birgir** hefur grunnstillt reitinn **Taka á móti e-fylgiskjali til** til að vinna með **Innkaupapantanir**, þegar rafrænt skjal er stofnað í [!INCLUDE[prod_short](includes/prod_short.md)]  (handvirkt eða frá ytri endastað) [!INCLUDE[prod_short](includes/prod_short.md)]  gerir það eftirfarandi:  
 
@@ -97,7 +97,7 @@ Til að flytja ytri tölvupóstskjöl inn handvirkt skal fylgja eftirfarandi skr
 2. Ef Innkaupapöntun **fyrir þennan tiltekna lánardrottinn er til en ekkert innkaupapöntunarnúmer er í** móttöku-E-fylgiskjalsskránni **·**  býður upp á möguleika á að velja eina af fyrirliggjandi innkaupapöntunum þegar og ef skjalið er hlaðið upp handvirkt er listinn Innkaupapantanir [!INCLUDE[prod_short](includes/prod_short.md)] aðeins opnaður **með pöntunum fyrir lánardrottininn sem þú fékkst** E-Fylgiskjal **þar sem þú þarft að velja** Innkaupapöntun **sem þú vilt og velja** Í lagi **.** Ef rétt innkaupapöntun **var ekki valin eða E-skjalið** er **ekki valið** sjálfvirkt frá ytri lokapunkti með **Verkröð** verður nýtt **E-skjal** ekki tengt neinu **innkaupaskjali og Staða** fylgiskjals verður **Villa** og **staða** E-skjals í **undirsíðunni Þjónustustaða** verður **skjalavinnsluvilla**. Til að ljúka tengingu við **Innkaupapöntun** skal velja aðgerðina **Uppfæra innkaupapöntunartengil** og velja eina af fyrirliggjandi innkaupapöntunum fyrir þennan lánardrottin. 
 3. Ef Innkaupapöntun **fyrir þennan tiltekna lánardrottinn er ekki til í augnablikinu þegar nýtt** E-fylgiskjal **er** stofnað stofnar ný [!INCLUDE[prod_short](includes/prod_short.md)] innkaupapöntun **, með því að nota sama líkan af stofnun og þegar er til fyrir nýja** innkaupareikninga **.** Skjalstaða **þessa** E-fylgiskjals **verður** unnin **og** staða **E-fylgiskjals á** undirsíðu þjónustustöðu **verður** stofnuð **.** Þessi tengill sést í reitnum **Fylgiskjal** á þessu tiltekna **E-fylgiskjali**.   
 
-#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Samsvarandi línur úr mótteknu e-skjali með innkaupapöntun
+#### Samsvarandi línur úr mótteknu e-skjali með innkaupapöntun  
 
 Þú getur passað við móttekin rafræn skjöl við línur innkaupapantana frá tveimur mismunandi stöðum, af **síðunni E-fylgiskjal** eða frá síðunni **Innkaupapöntun** . Auðveldasta leiðin til að finna innkaupapantanirnar sem þegar eru tengdar **er** að nota reitinn **Tengdar innkaupapantanir** sem hluta af aðgerðum e-skjala **·**. Öll fylgiskjöl sem ekki eru tengd má finna með því að nota reitinn **Biðinnkaupareikningar** þar sem notandi er með lista yfir **E-skjöl sem þú þarft að endurskoða** .  
 
@@ -107,7 +107,7 @@ Til að flytja ytri tölvupóstskjöl inn handvirkt skal fylgja eftirfarandi skr
 > [!NOTE]
 > Ef VSK-prósentan er frábrugðin VSK-prósentunni milli innleiðarskjals og VSK-prósentu fyrirtækisins er ekki hægt að nota samsvarandi skjöl í umhverfi í mörgum löndum.  
 
-##### <a name="matching-lines-from-purchase-order"></a>Samsvarandi línur úr innkaupapöntun
+##### Samsvarandi línur úr innkaupapöntun  
 
 Hægt er að para línurnar af listanum **Innkaupapantanir** eða úr einni af opnu **innkaupapöntununum**. Til að byrja þetta skal nota eftirfarandi skref:  
 
@@ -157,7 +157,7 @@ Ef bæta á við einhverjum vikmörkum og leyfa mismuninn á línum í **E-reikn
 3. Þessi uppsetning á við um allar samsvarandi línur, en aftur með tilliti til vikmarka fyrir heildarupphæðina, eins og fyrir **innk.verð** ásamt jöfnuðu Línuafsl **.%**.  
 4. Loka síðunni.   
 
-##### <a name="matching-lines-from-e-document"></a>Samsvörun lína úr e-skjali
+##### Samsvörun lína úr e-skjali  
 
 Hægt er að passa við línurnar á síðunni **E-fylgiskjal** . Til að byrja með skal nota eftirfarandi skref:  
 
@@ -166,7 +166,7 @@ Hægt er að passa við línurnar á síðunni **E-fylgiskjal** . Til að byrja 
 3. Veldu aðgerðina Samsvörun **innkaupapöntunar** til að opna síðuna **Samsvörun** innkaupapöntunar.  
 4. Endurtaka þarf sömu skref og notuð voru þegar samsvörun úr innkaupapöntunum var hafin.
 
-### <a name="e-document-matching-assistance-copilot"></a>Samsvarandi aðstoðarútgáfa tölvupóstskjals
+### Samsvarandi aðstoðarútgáfa tölvupóstskjals  
 
 > [!NOTE]
 >  **Eins og er yfirfærsla samsvörunar** í E-Skjali í forskoðunarstöðu framleiðslunnar og hann er tiltækur á heimsvísu nema í Kanada. En ūađ virkar bara á ensku. 
@@ -174,7 +174,7 @@ Hægt er að passa við línurnar á síðunni **E-fylgiskjal** . Til að byrja 
 > [!NOTE]
 > Copilot er AI-knúinn aðstoðarmaður sem hjálpar einstaklingum hjá fyrirtækinu að virkja sköpunargáfuna og gera leiðinlegri verkefni sjálfvirk.  **Aðstoð við samsvörun** tölvupóstskjala auðveldar notendum að passa við móttekna rafræna reikninga sína með fyrirliggjandi innkaupapöntunarlínum með því að nota LLM-líkan fyrir samsvarandi línur milli tveggja ólíkra skjala. 
 
-#### <a name="to-activate-the-copilot"></a>Til að virkja stjórnklefann
+#### Til að virkja stjórnklefann  
 
 Ef afritað var fyrir aðstoð **við samsvörun í E-skjali ekki virka** þarf að gera það handvirkt. Til að virkja **aðstoðarútgáfu fyrir samsvörun** tölvupóstskjala er skrefunum fylgt: 
 
@@ -183,7 +183,7 @@ Ef afritað var fyrir aðstoð **við samsvörun í E-skjali ekki virka** þarf 
 
 Þegar Copilot-vélin hefur verið virk er hægt að byrja að nota hana.
 
-#### <a name="use-the-e-document-matching-assistance-copilot"></a>Nota aðstoðarútgáfu fyrir tölvupóstskjal
+#### Nota aðstoðarútgáfu fyrir tölvupóstskjal 
 
 Ef Afritað er virkjað fá fyrirliggjandi aðgerðir **Varpa E-fylgiskjalalínum** á keyptum pöntunum og **samsvörun innkaupapöntunar** á **síðunni E-skjal** mismunandi táknmyndir sem tákna AI- getu. Hægt er að keyra þessar aðgerðir (algerlega þær sömu og í fyrri dæmum af lista yfir innkaupapantanir), úr einni af **innkaupapöntununum** eða úr **E-fylgiskjali**. Öll þrep til keyrslu eru þau sömu en þegar þessi aðgerð er keyrð verður útkoman mismunandi og fylgja þarf skrefunum:  
 
@@ -228,7 +228,7 @@ Ef Afritað er virkjað fá fyrirliggjandi aðgerðir **Varpa E-fylgiskjalalínu
 > [!NOTE]
 > Greining verðs/kostnaðar og tiltæk athugun á magni er hluti af forvinnsluaðgerð.   
 
-## <a name="overview-of-e-document-statuses"></a>Yfirlit yfir stöður tölvupóstskjala
+## Yfirlit yfir stöður tölvupóstskjala
 
 Til að fá betra yfirlit yfir öll tölvupóstskjöl í fyrirtækinu er hægt að velja mitt hlutverk í endurskoðendahlutverkinu **þar** sem staða e-skjala er til. Þar er hægt að finna aðgerðir í tölvupósti sem hafa eftirfarandi stöðu:
 
@@ -239,7 +239,7 @@ Til að fá betra yfirlit yfir öll tölvupóstskjöl í fyrirtækinu er hægt a
     - Villa
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Hvernig tölvupóstskjöl eru sett upp í [!INCLUDE[prod_short](includes/prod_short.md)]](finance-how-setup-edocuments.md)    
 [Hvernig á að nota e-skjal í söluferlinu](finance-how-use-edocuments.md)   

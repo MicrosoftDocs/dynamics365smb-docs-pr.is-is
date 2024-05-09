@@ -10,7 +10,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="iceland-w1-core-app-setup"></a>Uppsetning smáforrits á Íslandi
+# Uppsetning smáforrits á Íslandi
 
 Microsoft lauk seinkunarferli á íslenskri [!INCLUDE[prod_short](../../includes/prod_short.md)] útgáfu 24.0. Nýtt íslenskt staðfæring mun nota W1 Base App og fá allar staðfæringaraðgerðir afhentar sem forrit. Þessi flutningur er ekki sjálfgefinn og notendur verða að gera það handvirkt þegar þeir ákveða að ljúka þessu ferli. 
 
@@ -27,7 +27,7 @@ Til að ljúka flutningi á nýtt staðfæringarlíkan þarf að fylgja skrefunu
 1. Velja skal **Ljúka**.   
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Listi yfir staðbundnar aðgerðir á Íslandi](iceland-local-functionality.md)   
 [Vinna með [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
