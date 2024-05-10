@@ -11,9 +11,9 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Bókhaldslykill sjálfbærnireikninga og fjárhagur 
+# <a name="chart-of-sustainability-accounts-and-ledger"></a>Bókhaldslykill sjálfbærnireikninga og fjárhagur
 
-## Bókhaldslykill sjálfbærni  
+## <a name="chart-of-sustainability-accounts"></a>Bókhaldslykill sjálfbærni
 
 Bókhaldslykillinn **Sjálfbærnireikningur**  (CoSA) myndar grunnskipulagða listann sem notaður er til að skrá öll útblástursgögn. Hún vinnur sem rammi sem flokkar og skipuleggur sjálfbærnireikninga út frá eigindum þeirra, t.d. umfangi eða öðrum flokkum. Hverjum reikningi er gjarnan úthlutað einkvæmum kóta eða númeri til að auðvelda tilvísun og rakningu, eftir sömu uppbyggingu og hefðbundinn **bókhaldslykill** en sérsniðinn sérstaklega til að fylgjast með sjálfbærnitengdum gögnum og mælikvörðum innan fyrirtækis. 
  
@@ -35,7 +35,7 @@ Notendur geta bætt við **reikningsflokkum** og **undirflokkum** til að skilgr
     
 Hægt er að bæta við, breyta eða eyða **sjálfbærnireikningum**. Til að koma í veg fyrir misræmi er ekki hægt að eyða **sjálfbærnireikningi** ef ein eða fleiri færslur eru tengdar þessum reikningi.  
 
-### Bæta við eða breyta reikningum  
+### <a name="add-or-change-accounts"></a>Bæta við eða breyta reikningum
 
 1.  ![Veldu Lightbulb sem opnar Tell Me aðgerð 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **bókhaldslykil sjálfbærnireikninga** og velja síðan viðeigandi tengil. 
 2. Á síðunni **Sjálfbærnireikningar**  (CoSA) er hægt að opna hvern **sjálfbærnireikning** og bæta svo við eða breyta stillingum. Haltu bendlinum yfir reit til að lesa stutta lýsingu. 
@@ -45,11 +45,11 @@ Fylla þarf út reitinn **Samantekt** fyrir reikninga af reikningsgerðinni **Sa
 >[!IMPORTANT]
 >Ef skilgreiningar hafa verið færðar í **Samtals**-reitina fyrir **Til-tölu**-reikningana áður en inndráttaraðgerðin er framkvæmd þarf að færa þær inn aftur því að aðgerðin skrifar yfir gildin í öllum **Til-tölu**-reitum.  
 
-### Eyða reikningum  
+### <a name="delete-accounts"></a>Eyða reikningum
 
 Hægt er að eyða **sjálfbærnireikningi**. Áður en honum er eytt verður hins vegar að ganga úr skugga um að ein eða fleiri færslur séu tengdar þessum reikningi þar sem Business Central kemur í veg fyrir að sjálfbærnireikningi **sé eytt** í þessum aðstæðum.  
 
-## tegundir lykla   
+## <a name="account-categories"></a>tegundir lykla
 
 Notendur þurfa að bæta flokki **sjálfbærnireikninga** við hvern **sjálfbærnireikning**, til að skilgreina hvernig kerfið hagar sér, velja útblásturskerfi, sérstakt losun fyrir rakningu, reiknireglur og svipaðar grunnstillingar.  
 
@@ -89,7 +89,7 @@ Ef útreikningsstofninn **(reiknireglurnar) er notaður** er útskýring á þv�
 |  | Sérsnið | Losun = Sérsniðin upphæð * EF | _þ.e., Custom Amount = Hótel helst..._ |
 |  | Eldsneyti / rafmagn | Losun = Eldsneyti * EF | _þ.e., Eldsneyti = Upphæð eldsneytis sem eytt er í bíl fyrirtækisins, bílaleigubíll..._ |
 
-## Undirflokkar lykla  
+## <a name="account-subcategories"></a>Undirflokkar lykla
 
 Notendur þurfa að bæta undirflokknum **Sjálfbærnireikningur** við hvern **sjálfbærnireikning** til að skilgreina útblástursþætti sem notaðir verða í reiknireglunum, en það byggir á rakningarvali útblásturs í flokknum **Sjálfbærnireikningur**.  
 
@@ -109,7 +109,7 @@ Til að fara yfir **undirflokka** sjálfbærnireiknings er skrefunum fylgt:
 >[!NOTE]
 >**Reitirnir Flytja inn gögn** og **Flytja inn úr** eru ætlaðir fyrir hugsanlega samþættingu við ytri kerfi sem eru notuð til að safna saman útblástursþáttum, en í **2024 er** ekki hægt að nota þá sem eiginleika sjálfgefið.  
 
-## Fjárhagsfærslur fyrir sjálfbærni  
+## <a name="sustainability-ledger-entries"></a>Fjárhagsfærslur fyrir sjálfbærni
 
 **Sjálfbærnibókin** geymir sögu allra bókaðra sjálfbærnifærslna og skipuleggur öll útblástursgögn samkvæmt bókhaldslykli **sjálfbærni**. Þegar notandi bókar **sjálfbærnibókina** verða öll mikilvæg gögn skráð þar. Allar virkar skýrslur eru búnar til samkvæmt **sjálfbærnibókarfærslunum**.   
 
@@ -118,7 +118,7 @@ Notandi getur opnað þennan fjárhagsreikning fyrir einn tiltekinn reikning me�
 >[!IMPORTANT]
 >Þegar gögn hafa verið bókuð í sjálfbærnibókina er ekki hægt að eyða þeim. Ef mistök hafa verið gerð er hægt að bóka bakfærsluna með sömu upplýsingum en nota neikvætt merki fyrir upphæð.  
 
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 [Fjármál](finance.md)    
 [Sjálfbærnistjórnunaryfirlit](finance-manage-sustainability.md)
 [Sjálfbærniuppsetning](finance-sustainability-setup.md)

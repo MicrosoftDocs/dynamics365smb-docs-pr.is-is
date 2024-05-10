@@ -9,7 +9,7 @@ ms.reviewer: ivkoleti
 ms.custom: bap-template
 ---
 
-# Samþætta við Microsoft Dynamics 365 Field Service
+# <a name="integrate-with-microsoft-dynamics-365-field-service"></a>Samþætta við Microsoft Dynamics 365 Field Service
 
 Þjónustufyrirtæki krefjast framvirkrar jöfnunar þar sem fjárhagslegar birgðir og innkaup eru þétt hjónuð með þjónustuafhendingu. Þau búa til fjárhagsleg gögn með öllum færslum. Hver vinnupöntun stendur fyrir kostnað og tekjur og hver forði býr til hagnað og tap. Viðskiptamannasamskiptum er bætt við færslum í fjárhag. Samþættingin milli [!INCLUDE [prod_short](includes/prod_short.md)] og [!INCLUDE [field-service-short](includes/field-service-short.md)] straumlínulaga ferlið til lokaaðgerða við stjórnun þjónustuaðgerða og tryggir slétt upplýsingaflæði milli kerfanna tveggja.  
 
@@ -19,27 +19,27 @@ Samþættingin auðveldar einnig reikningsfærslu og uppfyllingu vinnupantana [!
 
 Með því að samþætta [!INCLUDE [prod_short](includes/prod_short.md)] við [!INCLUDE [field-service-short](includes/field-service-short.md)] þarf ekki að færa inn gögn handvirkt eða tvítekin viðleitni. Samþætting býður einnig upp á yfirgripsmikið yfirlit yfir þjónustuaðgerðir og fjármál, sem gerir betri ákvarðanatöku og rekstrarskilvirkni.
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 Vegna þess að [!INCLUDE [field-service-short](includes/field-service-short.md)] byggt er efst á Dynamics 365 Sala verður að [setja upp tengingu við Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide) og [virkja samþættingu við Dynamics 365 Sala](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
 
-### Heimildir og öryggishlutverk notendareikninga
+### <a name="permissions-and-security-roles-for-user-accounts"></a>Heimildir og öryggishlutverk notendareikninga
 
 Þegar samþættingarlausnin er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef heimildirnar breytast gæti þurft að endurstilla þær. Til að gera það skal setja samþættingarlausnina upp aftur af síðunni **Uppsetning Dynamics 365 með** því að velja **Samþættingarlausnina** Endurvirkjun. Hér á eftir eru taldar upp heimildir og öryggishlutverk sem lausnin nýtir fyrir hvert forrit.
 
-#### Sölur
+#### <a name="sales"></a>Sölur
 
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Samþættingarstjóri/
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] samþættingarnotandi
 * Notandi Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] til ráðstöfunar
 
-#### Business Central
+#### <a name="business-central"></a>Business Central
 
 Notendur sem bóka verkbækur verða að hafa eftirfarandi heimildasafn:
 
 * Dynamics 365 Söluheildun
 
-#### Þjónusta á staðnum
+#### <a name="field-service"></a>Þjónusta á staðnum
 
 Ef nota á samþætt gögn verða notendur að hafa eftirfarandi öryggishlutverk:
 
@@ -60,7 +60,7 @@ Notendur verða til dæmis að hafa þetta hlutverk til að tengja vinnupantanir
 >* Lesheimildir fyrir töfluna **Tenging**  (nav_connection) verða að vera **Dynamics 365 Business Central lesheimildir** .
 >* Notandi verður að hafa **les**-, **skrif**- og **eyða** heimildum fyrir töfluna **Sjálfgefna Dynamics 365 Business Central tengingu**  (nav_defaultconnection).
 
-### Aðrar stillingar í Reitaþjónusta
+### <a name="other-settings-in-field-service"></a>Aðrar stillingar í Reitaþjónusta
 
 Á síðunni **Stilling** reitaþjónustu eru eftirfarandi stillingar gerðar:
 
@@ -70,7 +70,7 @@ Notendur verða til dæmis að hafa þetta hlutverk til að tengja vinnupantanir
 > [!NOTE]
 > Uppsetning tenginga til að [!INCLUDE [field-service-short](includes/field-service-short.md)] fjarlægja tengingu milli forða og vara. Til að gera [!INCLUDE [prod_short](includes/prod_short.md)] vörur tiltækar þarf [!INCLUDE [field-service-short](includes/field-service-short.md)] að uppfæra reitinn Vörutegund reits **til samræmis við reitinn** Tegund **varanna** í [!INCLUDE [prod_short](includes/prod_short.md)]. Nánari upplýsingar eru notaðar til að [stofna vöru eða þjónustu](/dynamics365/field-service/create-product-or-service#create-a-product-or-service).
 
-## Setja upp samþættingu í Business Central
+## <a name="set-up-the-integration-in-business-central"></a>Setja upp samþættingu í Business Central
 
 Þegar sambandi við Dataverse og Sala hefur verið tengt við er hægt að setja upp samþættingu við [!INCLUDE [field-service-short](includes/field-service-short.md)]. Á síðunni **Aðstoðargrunnur** í [!INCLUDE [prod_short](includes/prod_short.md)] skal velja **Setja upp samþættingu til að Dynamics 365 Field Service** keyra leiðsagnarforritið með aðstoð. Í þessum hluta er lýst lykilstillingum í handbókinni.
 
@@ -91,7 +91,7 @@ Eftir að afurðir og þjónusta vinnupantana eru samstilltar við verkbækur í
 * Forði sem ekki er lokaður, hafa ekki **valið Nota vinnuskýrslu** og hafa **Klukkustundir** tilgreindar sem mælieiningu á síðunni **Dynamics 365 Field Service Uppsetning** samþættingar.
 * Þjónustuvörur (krefst notkunar iðgjaldsupplifunarinnar [!INCLUDE [prod_short](includes/prod_short.md)]).
 
-## Staðlað einingavörpun staðlaðs reitaþjónustu fyrir samstillingu
+## <a name="standard-field-service-entity-mapping-for-synchronization"></a>Staðlað einingavörpun staðlaðs reitaþjónustu fyrir samstillingu
 
 Grunnur samstillingargagna er að varpa töflum og reitum í [!INCLUDE [prod_short](includes/prod_short.md)] með töflum og dálkum í Dataverse, svo að þau geti skipst á gögnum. Vörpun gerist í samþættingartöflum. Nánari upplýsingar um töfluvörpun er farið [í Varpa töflum og reitum til að samstilla](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
 
@@ -103,11 +103,11 @@ Samþætting við [!INCLUDE [field-service-short](includes/field-service-short.m
 * **FORÐI-BÓKFÆRANLEGRSC** - Varpar forða í á [!INCLUDE [prod_short](includes/prod_short.md)] bókhæfan forða í [!INCLUDE [field-service-short](includes/field-service-short.md)].
 * **SVCITEM-CUSTASSET** - (Aðeins premium Experience) Varpar þjónustuvörum í [!INCLUDE [prod_short](includes/prod_short.md)] á eignir viðskiptavina í [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-## Nota gögn í báðum forritum
+## <a name="use-data-in-both-applications"></a>Nota gögn í báðum forritum
 
 Eftirfarandi hlutar lýsa aðgerðunum þar sem hægt er að nota gögnin sem úr [!INCLUDE [prod_short](includes/prod_short.md)] og [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-### Þjónusta á staðnum
+### <a name="field-service-1"></a>Þjónusta á staðnum
 
 Hægt er [að stofna vinnupantanir](/dynamics365/field-service/create-work-order) með því að nota **þjónustureikninginn** og **reikningsfærslureikninginn**  [!INCLUDE [prod_short](includes/prod_short.md)]. Á vinnupöntunum þarf að velja **Business Central Project Task** í reitnum **Utanaðkomandi verkefni** . Með því að velja verkefni er hægt að samstilla afurðir og þjónustu vinnupantana við viðeigandi verkhluta í [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -120,7 +120,7 @@ Hægt er að bæta við vöru af tegundinni þjónusta sem **Vinnupantanaþjónu
 
 Hægt er að bóka forða og tengja **Bókanir** við vinnupantanaþjónustu með því að nota bókhæfan **forða**  [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### Business Central
+### <a name="business-central-1"></a>Business Central
 
 Það fer eftir stillingunum á síðunni **Samþættingargrunnur** reita, þegar vinnupantanir innihalda vörur og þjónustu, eru notkunarupplýsingar fluttar og bókaðar með **verkbók** í [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -135,7 +135,7 @@ Nota síðuna **Áætlunarlínur** verkefnis til að rekja bókun og reikningsf�
 >
 > Hægt er að stofna reikning fyrir vöru af gerðinni **Þjónusta** úr reikningshæfu verkáætlunarlínunni og nota áætlunarlínu fjárhagsáætlunargerðar til að skrá kostnað við forðann.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Samþætta við Microsoft Dataverse með samstillingu gagna](admin-common-data-service.md)  
 [Vörpun á töflum og reitum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
