@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Greiningar á eignum
+# <a name="fixed-assets-analytics"></a>Greiningar á eignum
 
 Fyrirtæki með eignir safna mikið af gögnum um þær við daglegar aðgerðir. Gögnin styðja verðmætar viðskiptaupplýsingar (BI) fyrir eignastjóra:
 
@@ -36,7 +36,7 @@ Hver eiginleiki hefur sína kosti og galla, allt eftir tegund greiningar á gög
 
 Þessi grein lýsir því hvernig nota má þessar greiningaraðgerðir til að fá innsýn í eignirnar.
 
-## Greiningarþarfir í eignastýringu
+## <a name="analytics-needs-in-asset-management"></a>Greiningarþarfir í eignastýringu
 
 Þegar hugsað er um greiningarþarfir í eignastjórnun gæti það hjálpað til við að nota starfsmannahald sem lýsir greiningarþörfum þeirra á háu stigi.
 
@@ -52,14 +52,14 @@ Hver eiginleiki hefur sína kosti og galla, allt eftir tegund greiningar á gög
 |Eignastýring / stjóri   | Þróun, samantektir | Innbyggðar stjórnunarskýrslur <br> Tilfalengd greining      | 
 |Bókari                      | Sundurliðuð gögn     | Innbyggðar rekstrarskýrslur <br> Gögn um verk á skjá |
 
-## Afkastal eignastýringar
+## <a name="asset-management-kpis"></a>Afkastal eignastýringar
 
 Lykilafkastavísir (afkastavísir) er mælanleg gildi sem sýnir hversu skilvirkt notandi uppfyllir markmiðin. Í eignastýringu notar fólk oft eftirfarandi afkastastyrk til að fylgjast með notkun fyrirtækisins á eignum:
 
 - Velta heildareignar
 - Skil á eignum
 
-## Nota fjárhagsskýrslugerð til að búa til ársreikninga og afkastatengdar eignir
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-fixed-assets"></a>Nota fjárhagsskýrslugerð til að búa til ársreikninga og afkastatengdar eignir
 
 Eiginleikinn **Ársskýrslur** veitir innsýn í fjárhagsgögnin sem birtast í bókhaldslyklinum (COA). Hægt er að setja upp fjárhagsskýrslur til að greina tölur á fjárhagsreikningum og bera saman fjárhagsfærslur og áætlunarfærslur. Sérstaklega er hægt að setja upp fjárhagsskýrslur á fjárhagsreikningum sem notaðir eru til að rekja eignabókanir.
 
@@ -67,13 +67,13 @@ Víddir gegna mikilvægu hlutverki í viðskiptagreind. Vídd er gögn sem þú 
 
 Nánari upplýsingar um fjármálaskýrslur eru undirbúnar [með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md).
 
-## Fjármálaskýrsla þvert á fyrirtækiseiningar eða lögaðila (tengd eignum)
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-fixed-assets"></a>Fjármálaskýrsla þvert á fyrirtækiseiningar eða lögaðila (tengd eignum)
 
 Sum fyrirtæki nota [!INCLUDE [prod_short](includes/prod_short.md)] í mörgum fyrirtækiseiningum eða lögaðilum. Aðrir nota [!INCLUDE [prod_short](includes/prod_short.md)] skýrslur um dótturfyrirtæki til móðurfyrirtækja. [!INCLUDE [prod_short](includes/prod_short.md)] gefur endurskoðendum verkfæri sem hjálpa þeim að flytja fjárhagsfærslur frá tveimur eða fleiri fyrirtækjum (dótturfyrirtækjum) í samsteypufyrirtæki. Sérstaklega er hægt að styrkja fjárhagsfærslur fyrir eignareikninga til að geta rakið afkastavísa eigna í fyrirtækiseiningum eða lögaðilum.
 
 Nánari upplýsingar eru í [Sameiningu fyrirtækis](finance-consolidated-company-reporting.md).
 
-## Tilfalengin greining á gögnum um eignir
+## <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Tilfalengin greining á gögnum um eignir
 
 Stundum þarf bara að athuga hvort tölurnar eru rétt settar upp eða staðfesta tölu á fljótlegan hátt. Eftirfarandi eiginleikar eru frábærir fyrir tilfalengdar greiningar:
 
@@ -95,7 +95,7 @@ Með gagnagreiningaraðgerðinni er hægt að opna næstum hvaða listasíðu se
 For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
 -->
 
-## Innbyggðar skýrslur fyrir eignir
+## <a name="built-in-reports-for-fixed-assets"></a>Innbyggðar skýrslur fyrir eignir
 
 [!INCLUDE [prod_short](includes/prod_short.md)] í henni eru nokkrar innbyggðar skýrslur, rakningaraðgerðir og verkfæri til að hjálpa endurskoðendum eða ráðamönnum sem gefa skýrslu um eignir.
 
@@ -110,7 +110,7 @@ Til að fá yfirlit yfir tiltækar skýrslur skal velja **Allar skýrslur** efst
 
 Nánari upplýsingar um skýrslur sem varða eignir [eru í Innbyggt eignaskýrslur](fa-reports.md).
 
-## Greiningar á eignum
+## <a name="on-screen-fixed-assets-analytics"></a>Greiningar á eignum
 
 [!INCLUDE [prod_short](includes/prod_short.md)] á nokkrum síðum þar sem eignir eru yfirlit yfir eignir og verkhlutar. Hér eru nokkur dæmi til að koma þér í gang:
 
@@ -121,7 +121,7 @@ Nánari upplýsingar um skýrslur sem varða eignir [eru í Innbyggt eignaskýrs
 - [Skoða afskráningarbókarfærslur](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 - [Skoða áætlað virði afskráninga](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
-### Sýna fjárhagsfærslur og stöður eigna af síðunni Bókhaldslykill
+### <a name="show-fixed-asset-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Sýna fjárhagsfærslur og stöður eigna af síðunni Bókhaldslykill
 
 Síðan Bókhaldslykill sýnir alla fjárhagsreikninga með samanlögðum tölum í fjárhag. Á þessari síðu er hægt að gera hluti eins og:  
 
@@ -135,7 +135,7 @@ Sérstaklega fyrir eignir er hægt að búa til yfirlit á síðunni Bókhaldsly
 
 Nánari upplýsingar eru í [Skilja bókhaldslykilinn](finance-general-ledger.md#the-chart-of-accounts).
 
-### Greina gögn eftir víddum (tengdum eignum)
+### <a name="analyze-data-by-dimensions-related-to-fixed-assets"></a>Greina gögn eftir víddum (tengdum eignum)
 
 Víddir eru gildi sem flokka færslur svo hægt sé að rekja og greina þær í fylgiskjölum, svo sem eignabókum. Víddir geta til dæmis gefið til kynna deildina eða stöðina sem færsla kom frá.  
 
@@ -143,7 +143,7 @@ Víddir eru gildi sem flokka færslur svo hægt sé að rekja og greina þær í
 
 Nánari upplýsingar eru notaðar til að greina [gögn eftir víddum](bi-how-analyze-data-dimension.md)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Meðhöndla fjárhagsskýrslur yfir rekstrareiningar eða lögaðila](finance-consolidated-company-reporting.md)  
 [Undirbúa fjárhagsskýrslur með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md)  

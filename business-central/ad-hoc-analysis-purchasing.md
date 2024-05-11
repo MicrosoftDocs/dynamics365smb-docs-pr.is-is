@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad-hoc greiningar í innkaupum
+# <a name="ad-hoc-analyses-in-purchasing"></a>Ad-hoc greiningar í innkaupum
 
 Þessi grein útskýrir hvernig á að greina innkaup gagna af listasíðum og fyrirspurnum með aðgerðinni **Gagnagreining** . Eiginleikinn gerir kleift að greina gögn beint frá síðunni án þess að þurfa að keyra skýrslu eða opna annað forrit, t.d. Excel. Gagnagreining býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Nokkur dæmi eru "Lánardrottnar mínir" eða "Innkaupatölur" eða öll önnur dæmi sem hægt er að ímynda sér. Til að fræðast meira um notkun aðgerðarinnar **Gagnagreining** er farið í [Greiningarlista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md).
 
@@ -24,7 +24,7 @@ Eftirfarandi listasíður eru notaðar til að tilfalja greiningu á innkaupafer
 - [Lánardr.færslur](https://businesscentral.dynamics.com/?page=29)
 - [Fjárhagsfærslur](https://businesscentral.dynamics.com/?page=20)
 
-## Tilfallandi greiningardæmi fyrir innkaup
+## <a name="ad-hoc-analysis-scenarios-for-purchasing"></a>Tilfallandi greiningardæmi fyrir innkaup
 
 Aðgerðin **Gagnagreining** er notuð til að gera skyndiathugun og tilfalalengdar greiningar:
 
@@ -39,7 +39,7 @@ Eftirfarandi hlutar gefa dæmi um innkaup [!INCLUDE [prod_short](includes/prod_s
 | [YFIRLIT GRNI](#example-goods-received-not-invoiced-grni-overview) | Fá yfirlit yfir mótteknar vörur, ekki reikningsfærðar (GRNI) þvert á lánardrottna. | **Tegund,Afh.upph** **. Ekki reikningsfært (SGM)** (afmörkun á þessum reitum), **Nr.** lánardrottins, **Númer fylgiskjals,** Nr **.**, og **Upph. Óreikn. reikningsfært (SGM)** <br> **ATH:** Sérstilla verður síðuna til að bæta þessum reitum við. Nánari upplýsingar eru notaðar til að sérstilla [vinnusvæðið](ui-personalization-user.md). | 
 | [Vaxtareikningur (Safnreikningur)](#example-finance-accounts-payable) | Sjá hvað lánardrottnarnir skulda, kannski skipt niður í tímabil þegar upphæðir eru gjaldfaldar. | [Lánardr.færslur](https://businesscentral.dynamics.com/?page=29) | **Heiti lánardrottins, Tegund** fylgiskjals,Númer **fylgiskjals**, **Gjalddagaár**, **Gjalddaga mánuður** og **Eftirstöðvar**. **·** |
 
-## Dæmi: Mótteknar vörur, ekki reikningsfærðar (GRNI)
+## <a name="example-goods-received-not-invoiced-grni-overview"></a>Dæmi: Mótteknar vörur, ekki reikningsfærðar (GRNI)
 
 Til að stofna yfirlit yfir mótteknar vörur, ekki reikningsfærðar (GRNI) þvert á lánardrottna er eftirfarandi skrefum fylgt:
  
@@ -55,7 +55,7 @@ Til að stofna yfirlit yfir mótteknar vörur, ekki reikningsfærðar (GRNI) þv
 1. Afmörkun er notuð í valmyndinni **Viðbótarafmarkanir til að gera greiningu fyrir tiltekið ár eða ársfjórðung** . Valmyndin er hægra megin við síðuna, rétt fyrir neðan **dálkavalmyndina** .
 1. Endurnefna greiningarflipann við **Mótteknar vörur, Ekki reikningsfært (GRNI)** eða eitthvað sem lýsir þessari greiningu.
 
-## Dæmi: Fjárhagur (Safnreikningur)
+## <a name="example-finance-accounts-payable"></a>Dæmi: Fjárhagur (Safnreikningur)
 
 Til að sjá hvað lánardrottnarnir skulda er kannski skipt niður í tímabil þegar upphæðir eru komnar á gjalddaga er eftirfarandi skrefum fylgt:
 
@@ -71,7 +71,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Dæmi um gagnagreiningu á síðunni Viðskm.færslur." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-## Gagnagrunnur fyrir tilfallandi greiningu á innkaupum
+## <a name="data-foundation-for-ad-hoc-analysis-on-purchasing"></a>Gagnagrunnur fyrir tilfallandi greiningu á innkaupum
 
 Þegar innkaupaskjal er bókað uppfærist [!INCLUDE [prod_short](includes/prod_short.md)]  reikningur lánardrottins, fjárhagur (fjárhagur), birgðafærslur og forðafærslur:
 
@@ -84,7 +84,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 Nánari upplýsingar eru notaðar [til að](purchasing-how-record-purchases.md#posting-purchases) bóka innkaup.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Bókun innkaupa](purchasing-how-record-purchases.md#posting-purchases)  
 [Greina lista- og fyrirspurnargögn með greiningarstillingu](analysis-mode.md)  
