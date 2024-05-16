@@ -10,19 +10,19 @@ ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Skýrslur og greiningar á lánardrottnum
+# <a name="accounts-payable-reports-and-analytics"></a>Skýrslur og greiningar á lánardrottnum
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er með innbyggðar skýrslur og greiningar sem geta hjálpað þér að stjórna gjaldföllnum reikningum. Verkfærin fara út fyrir hefðbundnar skýrslugerðarskorður og auðvelda hönnun ýmissa skýrslna.  
 
-## Skýrslur
+## <a name="reports"></a>Skýrslur
 
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
-## Skoða fjárhagsskýrslur með skýrsluvafra
+## <a name="explore-finance-reports-with-report-explorer"></a>Skoða fjárhagsskýrslur með skýrsluvafra
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Tilfallandi greining á fjárhagsgögnum](ad-hoc-analysis-finance.md)  
 [Fjárhagsgreiningar](bi.md)  

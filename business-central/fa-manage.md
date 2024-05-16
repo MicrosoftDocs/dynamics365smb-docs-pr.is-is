@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Vinna með eignir
+# <a name="manage-fixed-assets"></a>Vinna með eignir
 
 Með aðgerðinni Eignir í [!INCLUDE[prod_short](includes/prod_short.md)] fæst yfirlit yfir eignir notanda og hjálpar til við að tryggja að afskriftir þeirra séu réttar. Einnig er hægt að rekja viðhaldskostnað, stjórna vátryggingarskilmálum, bóka eignafærslur og búa til ýmsar skýrslur og upplýsingar.
 
-## Myndbandsyfirlit
+## <a name="video-overview"></a>Myndbandsyfirlit
 
 Eftirfarandi myndband fjallar um grunnatriði eigna:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Upphafleg uppsetning eigna
+## <a name="initial-setup-of-fixed-assets"></a>Upphafleg uppsetning eigna
 
 Áður en hægt er að stjórna eignum þarf að fylla út eftirfarandi uppsetningar:
 
@@ -34,7 +34,7 @@ Eftirfarandi myndband fjallar um grunnatriði eigna:
 
 Nánari upplýsingar eru í [Uppsetning eigna](fa-setup.md).
 
-## Greiningar á eignum
+## <a name="fixed-assets-analytics"></a>Greiningar á eignum
 
 Í þessum hluta er lýst þeim greiningartólum sem hægt er að nota til að fá innsýn í gögn um eignir.
 
@@ -48,7 +48,7 @@ Nánari upplýsingar eru í [Uppsetning eigna](fa-setup.md).
 | Skoða afskráningarbókarfærslur. | [Skoða afskráningarbókarfærslur](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Skoða áætluð afskráningargildi. | [Skoða áætlað virði afskráninga](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Skrá eignir
+## <a name="register-fixed-assets"></a>Skrá eignir
 
 Setja verður upp spjald fyrir hverja eign með upplýsingum um þær. Til dæmis er hægt að setja byggingar eða framleiðslubúnað upp sem aðaleignir með íhlutalista. Hægt er að flokka eignir á ýmsa vegu, svo sem eftir flokki, deild eða staðsetningu. Síðan er hægt að eignast, viðhalda og selja eignirnar. Hægt er einnig að setja upp áætlaðar eignir. Með fjárhagsáætlun er hægt að taka með fyrirsjáanlega kaup og sölu í skýrslum.
 
@@ -57,7 +57,7 @@ Setja verður upp spjald fyrir hverja eign með upplýsingum um þær. Til dæmi
 | Stjórna fjárhagsáætlana eigna, áætlun stofnkostnaðar, áætlun afskráninga eigna og áætlun afskrifta. |[Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md) |
 | Stofna eignir, úthluta afskriftaaðferðum, bóka eignakaup, hrakvirði og prenta eignalista. |[Komast yfir eignir](fa-how-acquire.md) |
 
-## Setja upp afskriftir fyrir eignir
+## <a name="set-up-depreciations-for-your-fixed-assets"></a>Setja upp afskriftir fyrir eignir
 
 Til að rekja eignaafskriftir og aðrar fjárhagslegar færslur fyrir eignir er sett upp ein eða fleiri afskriftabækur fyrir hverja þeirra. Nokkur þrep eru til að afskrifa eignir:
 
@@ -74,7 +74,7 @@ Til að rekja eignaafskriftir og aðrar fjárhagslegar færslur fyrir eignir er 
 | Skoða breytt virði afskriftabókar. | [Skoða breytt afskriftabókargildi](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Skrá handvirkt eignafærslur á síðunni **Eignafjárhagsbók** eða á **síðunni Eignabók** eftir því hvort færslurnar eru fyrir fjárhagslega skýrslugerð eða fyrir innri stjórnun. | [Setja upp eignaafskriftir](fa-how-setup-depreciation.md) |
 
-## Eignaviðhald og tryggingar
+## <a name="fixed-assets-maintenance-and-insurance"></a>Eignaviðhald og tryggingar
 
 Hægt er að skrá viðhaldskostnað og næstu þjónustudagsetningu fyrir hverja eign. Rakning viðhaldskostnaðar getur skipt máli vegna fjárhagsáætlunar og ákveðið hvort skipta skuli um eign. Hægt er að tengja hverja eign einum eða fleiri vátryggingarskilmálum og sannreyna að iðgjöld vegna iðgjalda séu samræmd verðmæti eignanna.
 
@@ -85,7 +85,7 @@ Hægt er að skrá viðhaldskostnað og næstu þjónustudagsetningu fyrir hverj
 | Uppfæra vátryggingarupplýsingar, bóka stofnkostnað á vátryggingarskilmála, breyta vátryggingasviði, skoða vátryggingaupplýsingar og gera lista yfir vátryggingaskírteini. |[Tryggja eignir](fa-how-insure.md) |
 | Fylgjast með vátryggingasviði. | [Eftirlit með vátryggingasviði](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## Endurflokka, flytja, skipta upp/sameina, leiðrétta virði, niðurfærslu og afskrá eignir
+## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Endurflokka, flytja, skipta upp/sameina, leiðrétta virði, niðurfærslu og afskrá eignir
 
 | Til  | Sjá |
 | --- | --- |
@@ -95,7 +95,7 @@ Hægt er að skrá viðhaldskostnað og næstu þjónustudagsetningu fyrir hverj
 | Skoða afskráningarbókarfærslur. | [Skoða afskráningarbókarfærslur](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Skoða áætluð afskráningargildi. | [Skoða áætlað virði afskráninga](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning eigna](fa-setup.md)  
 [Yfirlit yfir greiningar á eignum](fa-analytics-overview.md)  

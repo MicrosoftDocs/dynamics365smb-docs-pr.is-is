@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Sölur
+# <a name="sales"></a>Sölur
 
 Búinn er til sölureikningur eða sölupöntun til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.
 
@@ -34,7 +34,7 @@ Hægt er að senda söluskjöl sem PDF skrár tengdar við tölvupóst. Meginmá
 
 Eftirfarandi hlutar lýsa röð verka, með tenglum á greinar sem ná yfir þá.
 
-## Hafist handa við sölugetu
+## <a name="get-started-with-sales-capabilities"></a>Hafist handa við sölugetu
 
 Áður en selja á er tilgreint hvernig eigi að stýra söluferlum fyrirtækisins.
 
@@ -43,7 +43,7 @@ Eftirfarandi hlutar lýsa röð verka, með tenglum á greinar sem ná yfir þá
 | Stofnaðu viðskiptamannaspjald fyrir hvern viðskiptamann sem selt er til.|[Skrá nýja viðskiptamenn](sales-how-register-new-customers.md) |
 | Setja upp hvernig sala er framkvæmd, t.d. verð og afsláttur, verð og afsláttarflokkar viðskiptamanna, sölumenn, afhendingarmátar og umboðsmenn. | [Uppsetning sölu](sales-setup-sales.md) |
 
-## Greiningar á sölu
+## <a name="sales-analytics"></a>Greiningar á sölu
 
 Í þessum hluta er lýst þeim greiningartólum sem hægt er að nota til að fá innsýn í sölugögnin.
 
@@ -53,7 +53,7 @@ Eftirfarandi hlutar lýsa röð verka, með tenglum á greinar sem ná yfir þá
 | Gera tilfalallu greiningu á sölugögnum beint á listasíðum og fyrirspurnum. | [Búa til sölugreiningskýrslur](bi-how-create-analysis-views-reports.md) |
 | Skoða innbyggðar söluskýrslur. | [Innbyggðar söluskýrslur](sales-reports.md) |
 
-## Tilboð til pöntunar á sölureikning
+## <a name="quote-to-order-to-sales-invoice"></a>Tilboð til pöntunar á sölureikning
 
 Eftirfarandi tafla lýsir því hvernig á að nota einfalda söluferli.
 
@@ -74,7 +74,7 @@ Ef þörf er á flóknari söluferlum birtast í eftirfarandi töflu greinar sem
 |Senda viðskiptamanni einn reikning fyrir margar afhendingar með því að sameina afhendingarnar í einn reikning.|[Sameina afhendingar einn reikning](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Selja samsetningarvörur sem eru ekki tiltækar eins og er með því að búa til tengda samsetningarpöntun. Samsetningarpöntunin getur útvegað fullt eða að hluta magn á sölupöntuninni.|[Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md)|
 
-## Tína og senda
+## <a name="pick-and-ship"></a>Tína og senda
 
 Eftirfarandi tafla lýsir því hvernig á að tína vörur í sölupöntun og senda þær viðskiptamanni.
 
@@ -86,7 +86,7 @@ Eftirfarandi tafla lýsir því hvernig á að tína vörur í sölupöntun og s
 |Upplýsa viðskiptamenn þína um afhendingardag pöntunar með því að reikna út annað hvort hægt að lofa eða tiltækt að lofa dasetninguna.|[Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)|
 | Fræðast um hvernig rekja má sendingu frá bókuðum söluafhendingum. | [Finna sendingar](sales-how-track-packages.md) |
 
-## Afturkallaðar pantanir, endurgreiðslur og skil
+## <a name="canceled-orders-refunds-and-returns"></a>Afturkallaðar pantanir, endurgreiðslur og skil
 
 Eftirfarandi tafla lýsir því hvernig á að takast á við ógiltar pantanir, endurgreiðslur og vöruskil.
 
@@ -95,7 +95,7 @@ Eftirfarandi tafla lýsir því hvernig á að takast á við ógiltar pantanir,
 | Notið aðgerð á ógreiddum bókuðum sölureikningi til að stofna sjálfvirkt kreditreikningsferli og annaðhvort afturkalla sölureikninginn eða endurskapa hann til að gera leiðréttingar. |[Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md) |
 | Stofna sölukreditreikning til að bakfæra tiltekinn bókaðan sölureikning til að endurspegla vörurnar sem viðskiptamaðurinn skilar og endurgreiðsluupphæðinni. |[Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md) |
 
-## Önnur ferli í sölu
+## <a name="other-processes-in-sales"></a>Önnur ferli í sölu
 
 Eftirfarandi tafla lýsir því hvernig á að takast á við önnur söluferli.
 
@@ -103,7 +103,7 @@ Eftirfarandi tafla lýsir því hvernig á að takast á við önnur söluferli.
 | --- | --- |
 |Leysa úr misskilningi þegar tvær eða fleiri færslur eru til fyrir sama viðskiptamann.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  

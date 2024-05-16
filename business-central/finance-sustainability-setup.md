@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Sjálfbærniuppsetning  
+# <a name="sustainability-setup"></a>Sjálfbærniuppsetning
 
 Til að sjálfbærnieiningin vinni rétt þarf fyrst að setja upp nokkur grunneftirlit og leiðbeiningar sem tengjast allri virkni.  
 
@@ -53,7 +53,7 @@ Til að setja upp sjálfbærnieiningu skal fylgja næstu skrefum:
 >[!NOTE]
 > Í útgáfu 24.0 [!INCLUDE[prod_short](includes/prod_short.md)]  styður engin yfirvöld skýrslugerð. Reitur sem tengist grunnstillingu á flýtiflipanum **Skýrslur** verður notaður fyrir síðari skýrslugerðarmöguleika en einnig er hægt að nota hann af samstarfsaðilum í staðfærðum útgáfum.
 
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 [Fjármál](finance.md)  
 [Yfirlit yfir sjálfbærnistjórnun](finance-manage-sustainability.md)    
 [Bókhaldslykill sjálfbærnireikninga og fjárhagur](finance-sustainability-accounts-ledger.md)    
