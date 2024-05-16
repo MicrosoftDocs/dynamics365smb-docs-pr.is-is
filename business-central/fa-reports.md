@@ -17,9 +17,15 @@ Til að hjálpa þér að hafa umsjón með eignum í [!INCLUDE [prod_short](inc
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
+## Skoða fjárhagsskýrslur með skýrsluvafra
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## Sjá einnig .
 
+[Tilfalengin greining á gögnum um eignir](ad-hoc-analysis-fa.md)     
 [Yfirlit eignagreiningar](fa-analytics-overview.md)   
+[Yfirlit fjárhagsgreiningar](bi.md)   
 [Eignaumsjón](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

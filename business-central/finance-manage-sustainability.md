@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 03/29/2024
+ms.date: 04/23/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Yfirlit yfir sjálfbærnistjórnun
+# Yfirlit yfir sjálfbærnistjórnun
 
 >[!IMPORTANT]
 >Þessi eiginleiki verður í boði í Business Central frá **2024 útgáfubylgjunni 1** og allir tilvísunartenglar verða virkjaðir þegar þeir eru tiltækir.
@@ -43,12 +43,12 @@ Til að byrja með Sjálfbærnistjórnun má sjá eftirfarandi greinar.
 |[Hvernig á að skrá losun gróðurhúsalofttegunda (GHG)](finance-sustainability-journal.md) | Nota þessa grein til að læra hvernig á að vinna með allar tegundir sjálfbærnibóka. |
 
 
-## <a name="see-also"></a>Sjá einnig .
-[Sjálfbærniuppsetning](finance-sustainability-setup.md) 
-[Bókhaldslykill sjálfbærni og fjárhagur](finance-sustainability-accounts-ledger.md) 
-[Hvernig á að skrá GHG losun](finance-sustainability-journal.md)
-[Fjármál](finance.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Sjá einnig .  
+[Sjálfbærniuppsetning](finance-sustainability-setup.md)   
+[Bókhaldslykill sjálfbærnireikninga og fjárhagur](finance-sustainability-accounts-ledger.md)   
+[Hvernig á að skrá losun GHG](finance-sustainability-journal.md)  
+[Fjármál](finance.md)    
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

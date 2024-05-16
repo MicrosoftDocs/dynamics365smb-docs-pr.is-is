@@ -40,7 +40,7 @@ Eiginleikinn Fjárhagsskýrslur veitir innsýn í fjárhagsgögnin sem geymd eru
 
 :::image type="content" source="media/acc_schedule_13_columns.jpg" alt-text="Skjámynd af fjárhagsskýrslu." lightbox="media/acc_schedule_13_columns.jpg":::
 
-Víddir gegna mikilvægu hlutverki í viðskiptagreind. Vídd er gögn sem þú getur bætt við færslu sem færibreytu. Í víddum er hægt að flokka færslur sem hafa svipaða eiginleika, t.d. viðskiptamenn, svæði, vörur og sölumenn, og sækja þessa flokka auðveldlega til greiningar. Meðal annars er hægt að nota víddir þegar greiningaryfirlit eru skilgreind og fjárhagsskýrslur stofnaðar. Frekari upplýsingar eru í [Vinna með víddir](finance-dimensions.md).
+Víddir gegna mikilvægu hlutverki í viðskiptagreind. Vídd er gögn sem þú getur bætt við færslu sem færibreytu. Í víddum er hægt að flokka færslur með svipaða eiginleika. Til dæmis flokka viðskiptamanna, svæða, vara og sölumanns. Hópar auðvelda sótt gögn til greiningar. Meðal annars er hægt að nota víddir þegar greiningaryfirlit eru skilgreind og fjárhagsskýrslur stofnaðar. Frekari upplýsingar eru í [Vinna með víddir](finance-dimensions.md).
 
 Til að fræðast meira um ársreikninga og afkastalsreikninga er farið í [Notkun fjárhagsskýrslna til að búa til ársreikninga og afkastalsreikninga](bi.md).
 
@@ -61,7 +61,7 @@ Til að [fræðast meira um afkastavísa er farið í Notkun lykilstærða til a
 
 ## Tilfallandi gagnagreining
 
-Stundum er bara þörf á að athuga hvort tölurnar séu rétt staðfestar eða debunk tilgátu um viðskiptin eða leita kannski að frávikum í fjárhagsgögnum. Tilfallandi greiningar er hugsanlega ekki til innbyggð skýrsla sem hjálpar til við að svara spurningum. Þessir tveir eiginleikar eru notaðir til að tilfalkka greiningar:
+Þú gætir viljað athuga hvort tölurnar séu rétt staðfestar eða teknar úr skugga um viðskiptin eða leitað sé að frávikum í fjárhagsgögnum þínum. Tilfallandi greiningar er hugsanlega ekki til innbyggð skýrsla sem hjálpar til við að svara spurningum. Þessir tveir eiginleikar eru notaðir til að tilfalkka greiningar:
 
 - Gagnagreining á fjárhagslistasíðum
 - Opna í Excel
@@ -77,7 +77,7 @@ Eiginleikinn Gagnagreining gerir kleift að opna næstum hvaða listasíðu sem 
 > [!TIP]
 > Ef grunnstillt OneDrive er fyrir kerfisaðgerðir opnast Excel-vinnubókin í vafranum með því að nota Excel fyrir vefinn.
 
-Til að [fræðast meira um auglýsingar er farið í Ad-hoc gagnagreiningu](reports-adhoc-analysis.md).
+Til að [fræðast meira um auglýsingar er farið í Tilfallandsgreiningu](reports-adhoc-analysis.md) á gögnum.
 
 ## Skýrslur
 
@@ -107,7 +107,7 @@ Nánari upplýsingar um notkun skýrslukönnuðar eru í skýrslukönnuninni til
 
 ## Ytri viðskiptauppljóstrun og skýrslugerðarverkfæri
 
-Ef notandi kýs frekar að nota viðskiptagreindarverkfæri sem ekki er innifalið í fæst tenglar í [!INCLUDE[prod_short](includes/prod_short.md)] leiðbeiningar um verkfæri og leiðir til að nota utanaðkomandi verkfæri.
+Ef vill er hægt að nota viðskiptagreindarverkfæri sem ekki eru innifalin í [!INCLUDE[prod_short](includes/prod_short.md)]. Í eftirfarandi töflu eru tenglar í leiðbeiningar og leiðir til að nota utanaðkomandi verkfæri.
 
 | Til  | Sjá |
 | --- | --- |
@@ -116,6 +116,18 @@ Ef notandi kýs frekar að nota viðskiptagreindarverkfæri sem ekki er innifali
 | Draga gögn út í gagnavöruhús eða gagnavötn| [Hvernig á að draga gögn til vöruhúsa gagna eða gagna vötn](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Greina Gögn Business Central með Microsoft Fabric| [Kynning á Microsoft Fabric og Business Central](admin-fabric.md) |
 | Lesa gögn frá Business Central með API | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
+
+## Greiningar eftir virkum svæðum
+
+Efni þessa almenna greinar er einnig fáanlegt í sérstökum útgáfum á mörgum virkum svæðum [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Ef þú vinnur með... | Sjá |
+| --- | --- |
+| Fjármál | [Fjárhagsgreiningar](bi.md) |
+| Sölur | [Sölugreiningar](sales-analytics-overview.md) |
+| Innkaup | [Innkaupagreiningar](purchasing-analytics-overview.md) |
+| Eignastjórnun | [Greiningar á eignum](fa-analytics-overview.md) |
+
 
 ## Sjá einnig .
 

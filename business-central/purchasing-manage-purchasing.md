@@ -10,7 +10,7 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchasing"></a>Innkaup
+# Innkaup
 
 Innkaupareikningur eða innkaupapöntun er stofnaður til að skrá kostnaðarverð keyptra vara og til að rekja viðskiptaskuldir. Ef stjórna þarf birgðum eru innkaupareikningar líka notaðir til að uppfæra birgðastig gagnvirkt svo að hægt sé að lágmarka birgðakostnað og veita betri þjónustu við viðskiptavini. Innkaupakostnaður, að þjónustukostnaði meðtöldum, og birgðavirði sem leiðir af bókun innkaupareikninga verða hluti af framlegðartölum og öðrum fjárhagslegum afkastavísum í Mitt hlutverk.
 
@@ -22,32 +22,77 @@ Framleiðsluvörur geta bæði verið birgðavörur og þjónusta. Nánari uppl�
 
 Fyrir öll innkaupaferli er hægt að setja inn verkflæði samþykktar, til dæmis þannig að krafist sé þess að stór innkaup þurfi samþykki aðalbókara. Frekari upplýsingar eru í [Nota verkflæði samþykktar](across-how-use-approval-workflows.md).
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
+Eftirfarandi hlutar lýsa röð verka, með tenglum á greinar sem ná yfir þá.
+
+## Hafist handa við innkaupagetu
+
+Áður en vörur eru keyptar þarf að tilgreina hvernig stjórna eigi innkaupaferlum fyrirtækisins.
+
+|Til...| Sjá |
+|---|---|
+| Grunnstilla reglur og gildi sem skilgreina innkaupastefnu fyrirtækisins. | [Setja upp innkaup](purchasing-setup-purchasing.md) |
+| Skrá skal hvern lánardrottinn sem keypt er af með lánardrottnaspjaldi. | [Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md) |
+
+## Innkaupagreiningar
+
+Í þessum hluta er lýst þeim greiningartólum sem hægt er að nota til að fá innsýn í innkaupaferlið.
+
+| Til... | Sjá |
+| --- | --- |
+| Fræðast um getu til að greina innkaupagögn. | [Greiningaryfirlit innkaupa](purchasing-analytics-overview.md) |
+| Gera tilfalallu greiningu á innkaupagögnum beint á listasíðum og fyrirspurnum. | [Sérstök greining á innkaupagögnum](ad-hoc-analysis-purchasing.md) |
+| Skoða innbyggðar innkaupaskýrslur. | [Innbyggðar innkaupaskýrslur](purchase-reports.md) |
+
+## Tilboð til pöntunar á innkaupareikning
+
+Eftirfarandi tafla lýsir því hvernig á að nota einfalda innkaupavinnslu.
 
 | Til | Sjá |
 | --- | --- |
-| Stofna innkaupareikning til að skrá samkomulag við lánardrottinn um að kaupa vörur með tilteknum afhendingar- og greiðsluskilmálum. |[Skrá innkaup](purchasing-how-record-purchases.md) |
 |Stofna innkaupabeiðni til að spegla beiðni um tilboð frá lánardrottni, sem þú getur síðar breytt yfir í innkaupapöntun.|[Biðja um tilboð](purchasing-how-request-quotes.md)|
 | Stofna innkaupareikning fyrir allar eða valdar línur á sölureikningi. |[Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md) |
+| Stofna innkaupareikning til að skrá samkomulag við lánardrottinn um að kaupa vörur með tilteknum afhendingar- og greiðsluskilmálum. |[Skrá innkaup](purchasing-how-record-purchases.md) |
+| Læra hvernig [!INCLUDE[prod_short](includes/prod_short.md)] reiknar hvenær verður að panta vöru til að geta fengið hana á tilteknum degi.|[Dagsetning útreiknings fyrir kaup](purchasing-date-calculation-for-purchases.md)|
 |Það sem gerist þegar innkaupaskjöl eru bókuð.|[Bókun innkaupa](ui-post-purchases.md)|
+
+Ef þörf er á flóknari innkaupaferlum birtir eftirfarandi tafla greinar sem útskýra hvað er hægt að gera við [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Til | Sjá |
+| --- | --- |
 | Notið aðgerð á ógreiddum bókuðum innkaupareikningi til að stofna sjálfvirkt kreditreikningsferli og annaðhvort afturkalla innkaupareikninginn eða endurskapa hann til að gera leiðréttingar. |[Ógreiddir sölureikningar leiðréttir eða afturkallaðir](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Búa til innkaupakreditreikning til að bakfæra tiltekinn bókaðan innkaupareikning til að endurspegla hvaða vörur þú ert að skila til lánardrottins og hvaða greiðsluupphæð þú innheimtir. |[Meðhöndlun innkaupaskila eða afturkallana](purchasing-how-process-purchase-returns-cancellations.md) |
-|Undirbúðu þig fyrir að reikningsfæra fjölda móttökukvittana frá sama lánardrottni með því að sameina móttökukvittanirnar á einn reikning.|[Sameina móttökur í einn reikning](purchasing-how-to-combine-receipts.md)|
-|Umbreyttu til dæmis rafrænum reikningum frá lánardrottnum þínum í innkaupareikninga í Business Central.|[Taka við og umbreyta rafræn skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Læra hvernig [!INCLUDE[prod_short](includes/prod_short.md)] reiknar hvenær verður að panta vöru til að geta fengið hana á tilteknum degi.|[Dagsetning útreiknings fyrir kaup.](purchasing-date-calculation-for-purchases.md)|
-|Leysa úr misskilningi þegar tvær eða fleiri færslur eru til fyrir sama lánardrottinn.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 |Stjórnaðu skuldbindingum þínum til lánardrottins til að kaupa inn mikið magn sem er afhent í nokkrum sendingum yfir tímabil.|[Vinna með standandi innkaupapantanir](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="external-document-numbers"></a>Númer ytri skjala
+
+## Afturkallaðar pantanir, endurgreiðslur og skil
+
+Eftirfarandi tafla lýsir því hvernig á að takast á við ógiltar pantanir, endurgreiðslur og vöruskil sem keyptar eru.
+
+| Til | Sjá |
+| --- | --- |
+|Undirbúðu þig fyrir að reikningsfæra fjölda móttökukvittana frá sama lánardrottni með því að sameina móttökukvittanirnar á einn reikning.|[Sameina móttökur í einn reikning](purchasing-how-to-combine-receipts.md)|
+|Umbreyttu til dæmis rafrænum reikningum frá lánardrottnum þínum í innkaupareikninga í Business Central.|[Taka við og umbreyta rafræn skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md)|
+
+
+## Önnur ferli í sölu
+
+Eftirfarandi tafla lýsir því hvernig á að takast á við önnur innkaupaferli.
+
+| Til | Sjá |
+| --- | --- |
+|Leysa úr misskilningi þegar tvær eða fleiri færslur eru til fyrir sama lánardrottinn.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
+
+
+## Númer ytri skjala
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)  
+[Yfirlit yfir innkaup greiningar](purchasing-analytics-overview.md)   
 [Stjórna skuldum](payables-manage-payables.md)  
-[Stjórna verkum](projects-manage-projects.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 

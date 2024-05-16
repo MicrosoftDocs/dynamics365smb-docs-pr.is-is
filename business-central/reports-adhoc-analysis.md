@@ -21,6 +21,13 @@ Stundum þarf að greina gögn [!INCLUDE[prod_short](includes/prod_short.md)] á
 | Skoða og greina gögn úr skýrslugagnasafni í Excel | [Greining skýrslugagna með Excel og XML](report-analyze-excel.md) |
 | Greina listagögn beint frá síðu |[Greina listagögn með gagnagreiningarstillingu](analysis-mode.md)|
 
+## Auglýsing um gagnagreiningu eftir virkum svæðum
+
+Almenna efnið um greiningu á tilfallandi gögnum er einnig að finna í sérútgáfum fyrir mörg af aðgerðasvæðunum á [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
+
+
 ## Sjá einnig .
 
 [Viðskiptagreind og skýrsluyfirlit](ui-work-report.md)

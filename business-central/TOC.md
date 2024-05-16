@@ -174,7 +174,7 @@ ms.service: dynamics-365-business-central
 #### [Stjórna vistuðum stillingum](reports-saving-reusing-settings.md)
 #### [Skoða prufuskýrslur fyrir bókun](ui-how-view-test-reports-posting.md)
 #### [Keyra runuvinnslur og XML-gátt](ui-how-run-batch-jobs.md)
-### Breyta útliti skjala út á við
+### Breyta útliti skjala fyrir notendur
 #### [Um skýrslu- og skjalaútlit](ui-manage-report-layouts.md)
 #### [hefjast handa búa til útlit](ui-get-started-layouts.md)
 #### [Vinna með Word-útlit](ui-how-add-fields-word-report-layout.md)
@@ -446,12 +446,19 @@ ms.service: dynamics-365-business-central
 #### [Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md)
 #### [Umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)
 
-### Uppsetning og notkun rafrænna skjala
+### Setja upp og nota rafræn skjöl
 #### [Yfirlit yfir rafræn skjöl](finance-edocuments-overview.md)
 #### [Setja upp rafræn skjöl](finance-how-setup-edocuments.md)
-#### [Nota rafræn skjöl við sölu og innkaup](finance-how-use-edocuments.md)
+#### [Nota rafræn skjöl við sölu](finance-how-use-edocuments.md)
+#### [Nota rafræn skjöl í innkaupum](finance-how-use-edocuments-purchase.md)
 #### [Stilla tengi fyrir rafræn skjöl með ytri endastöðum](finance-how-setup-edocuments-external.md)
 #### [Virkni rafrænna skjala aukin](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Stjórnun sjálfbærni
+#### [Sjálfbærnistjórnunaryfirlit](finance-manage-sustainability.md)
+#### [Uppsetning sjálfbærni](finance-sustainability-setup.md)
+#### [Bókhaldslykill fyrir sjálfbærni og fjárhag](finance-sustainability-accounts-ledger.md)
+#### [Hvernig skrá skal losun gróðurhúsalofttegunda](finance-sustainability-journal.md)
 
 ### [Fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir](finance-multi-site-organizations.md)
 #### Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum
@@ -479,7 +486,7 @@ ms.service: dynamics-365-business-central
 #### [Greina gögn með tölfræðilegum lyklum](bi-use-statistical-accounts.md)
 #### [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Tilfallandi gagnagreining á fjármálagögnum](ad-hoc-analysis-finance.md)
 
 ### Innbyggð fjármálagreiningartól
 #### [Greina fjárhagsgögn úr bókhaldslykli](finance-general-ledger.md)
@@ -549,7 +556,10 @@ ms.service: dynamics-365-business-central
 
 ## Birgðir
 ### [Yfirlit yfir birgðir](inventory-manage-inventory.md)
-### [Skýrslur birgða og vöruhúss](inventory-WMS-reports.md)
+### Birgðagreining 
+#### [Birgðagreiningaryfirlit](inventory-analytics-overview.md)
+#### [Sérstök greining á bigðagögnum](ad-hoc-analysis-inventory.md)
+#### [Innbyggðar skýrslur birgða og vöruhúss](inventory-WMS-reports.md)
 ### [Skrá nýjar vörur](inventory-how-register-new-items.md)
 ### [Vinna með uppskriftir](inventory-how-work-BOMs.md)
 ### [Flokka vörur](inventory-how-categorize-items.md)
@@ -585,8 +595,10 @@ ms.service: dynamics-365-business-central
 
 ## Eignir
 ### [Yfirlit yfir eignir](fa-manage.md)
+
 ### Greiningar á eignum
 #### [Yfirlit yfir greiningar á eignum](fa-analytics-overview.md)
+#### [Tilfallandi gagnagreining eigna](ad-hoc-analysis-fa.md)
 #### Innbyggð greiningarverkfæri fyrir eignir
 ##### [Fylgjast með viðhaldskostnaði](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Eftirlit með vátryggingasviði](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -594,6 +606,7 @@ ms.service: dynamics-365-business-central
 ##### [Skoða afskráningarbókarfærslur](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [Skoða áætlað virði afskráninga](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Innbyggðar eignaskýrslur](fa-reports.md)
+
 ### [Uppsetning eigna](fa-setup.md)
 ### [Afskriftaaðferðir](fa-depreciation-methods.md)
 ### [Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md)
@@ -699,7 +712,7 @@ ms.service: dynamics-365-business-central
 #### [Taka á móti vörum](warehouse-how-receive-items.md)
 <!-- #### [Put Items Away](warehouse-put-away-items.md) -->
 #### [Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
-#### [Ganga frá vörum með vöruhúsafrágangi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
+#### [Ganga frá vörum með frágangi í vöruhúsi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
 <!-- #### [Plan Bulk Put-Aways Using Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md) -->
 #### [Hjáskipa vörur](warehouse-how-to-cross-dock-items.md)
 #### [Kynning – Móttaka og frágangur í grunnstillingum vöruhúss](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
@@ -776,6 +789,7 @@ ms.service: dynamics-365-business-central
 <!--LF-->
 ## Staðbundin virkni
 ### [Yfirlit yfir staðbundna virkni](about-localization.md)
+### [Þróun samþykktra staðfærsluforrita](about-validated-localization-apps.md)
 
 ### Ástralía
 #### [Yfirlit ástralskrar útgáfu](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -1567,7 +1581,11 @@ ms.service: dynamics-365-business-central
 #### [Staðbundin virkni í bandarískri útgáfu](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Skattur
 ##### [Grunnuppsetning skatts](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Skráning virðisaukaskatts í Bandaríkjunum](LocalFunctionality/UnitedStates/us-sales-tax.md)  
+##### [Skráning virðisaukaskatts í Bandaríkjunum](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Kynning á IRS 1099 eyðublöðum og virkni þeirra](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Setja upp og nota IRS 1099 eyðublaðið fyrir útgáfu 24 (2024 útgáfutímabil 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+#### [Nota IRS 1099 eyðublaðið](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+#### [Senda og tilkynna IRS 1099 eyðublöð](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ##### [Setja upp og nota IRS 1099 eyðublaðið](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Reglugerð 1099 Sniðsbreytingar og upplýsingar](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Setja upp og nota IRS 1096 eyðublaðið](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
@@ -1802,8 +1820,14 @@ ms.service: dynamics-365-business-central
 # Greiningar, viðskiptagreind og skýrslugerð 
 
 ## [Greiningaryfirlit](reports-bi-reporting.md)
-## [Notkun afkastavísa til að ná viðskiptamarkmiðum](./analytics-about-kpis.md)
-## [Notkun fjárhagsskýrslugerðar](bi-how-work-account-schedule.md)
+## [Greining eftir starfssviði](analytics-by-functional-area.md)
+
+## Afkastavísar, stjórnborð og fjárhagsskýrslur
+### [Notkun afkastavísa til að ná viðskiptamarkmiðum](analytics-about-kpis.md)
+### [Kynning á Business Central og Power BI](admin-powerbi.md)
+### [Vinna með Power BI skýrslur](across-working-with-powerbi.md)
+### [Fylgjast með afkastavísum með Power BI mælikvörðum](track-kpis-with-power-bi-metrics.md)
+### [Notkun fjárhagsskýrslugerðar](bi-how-work-account-schedule.md)
 
 ## Tilfallandi gagnagreining
 ### [Yfirlit](reports-adhoc-analysis.md)
@@ -1812,12 +1836,7 @@ ms.service: dynamics-365-business-central
 ### [Greina síðugögn í Excel](across-work-with-excel.md)
 ### [Greina skýrslugögn með Excel](report-analyze-excel.md)
 ### [Greina lista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md)
-
-## Innbyggð greiningarverkfæri
-### [Yfirlit](reports-built-in-analytics.md)
-### [Vinna með Power BI skýrslur](across-working-with-powerbi.md)
-### [Snjöll innsýn (á staðnum)](about-intelligent-cloud.md)
-### [Fjarmælingar á skýrslunotkun](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Tilfallandi gagnagreining eftir starfssviði](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Nota skýrslur í daglegu starfi
 ### [Yfirlit](reports-use-reports.md)
@@ -1834,44 +1853,21 @@ ms.service: dynamics-365-business-central
 ## Innbyggðar skýrslur
 ### [Skýrsluyfirlit](reports-available-reports.md)
 ### Fjármál
-#### [Viðskiptagreind fjármála](bi.md)
-#### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
+#### [Undirbúa fjárhagsskýrslur](bi-how-work-account-schedule.md)
 #### [Helstu fjárhagsskýrslur](finance-reports.md)
 #### [Skýrslur viðskiptakrafna](receivables-reports.md)
 #### [Skýrslur viðskiptaskulda](payables-reports.md)
-#### [Greining sjóðstreymis](finance-setup-cash-flow-analyses.md)
-#### [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)
 
-### Sala
-#### [Söluskýrslu](sales-reports.md)
-#### [Staða standandi sölupöntunar](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Pakkarakning](sales-how-track-packages.md)
-#### [Skoða óbókaðar og bókaðar línur standandi sölupöntunar](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Innkaup
-#### [Innkaupaskýrslur](purchase-reports.md)
-#### [Skoða fjárhagsfærslur innkaupa](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Birgðir og vöruhús
-#### [Skýrslur birgða og vöruhúss](inventory-wms-reports.md)
-#### [Vara til ráðstöfunar](inventory-how-availability-overview.md)
-#### [Rekja vörur með rað-, lotu- og pakkanúmerum](inventory-how-work-item-tracking.md)
-#### [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)
-#### [Endurskoða afstemmingu á milli birgðabókar og fjárhags](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Skoða hjáskipunarvörur í sendingu eða tínsluvinnublaði](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Söluskýrslu](sales-reports.md)
+### [Innkaupaskýrslur](purchase-reports.md)
+### [Skýrslur birgða og vöruhúss](inventory-wms-reports.md)
 
 ### Verkefni
 #### [Verkskýrslur](project-reports.md)
 #### [Skoða áætlanir um verknotkun](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Fylgjast með framvindu og afköstum verks](projects-how-monitor-progress-performance.md)
 
-### Eignir
-#### [Skýrslur eigna](fa-reports.md)
-#### [Fylgjast með viðhaldskostnaði](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Eftirlit með vátryggingasviði](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Skoða breytt afskriftabókargildi](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Skoða afskráningarbókarfærslur](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Skoða áætlað virði afskráninga](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Skýrslur eigna](fa-reports.md)
 
 ### Samsetningarstjórnun
 #### [Skýrslur samsetningarstjórnunar](assembly-reports.md)
@@ -1887,6 +1883,9 @@ ms.service: dynamics-365-business-central
 #### [Yfirlit þjónustupantana](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Yfirlit þjónustutilboða](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Yfirlit yfir bókað þjónustuskjal](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+### [Fjarmælingar á skýrslunotkun](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 
 ## Þróa skýrslur
 ### [Yfirlit](reports-develop-reports.md)
@@ -1909,11 +1908,9 @@ ms.service: dynamics-365-business-central
 ## Greina gögn í verkfærum viðskiptagreindar
 ### [Yfirlit](reports-external-analysis.md)
 ### [Microsoft Fabric og Business Central](admin-fabric.md)
-### [Nota Power BI með Business Central](admin-powerbi.md)
-### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
 ### [Draga út gögn í gagnageymslur eða gagnalindir](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Lesa gögn með Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
+### [Snjallinnsýn (á staðnum)](about-intelligent-cloud.md)
 
 
 # Öryggi, persónuvernd og reglufylgni

@@ -9,29 +9,29 @@ ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-temeplate
 ---
-# <a name="warnings-and-error-messages"></a>Viðvaranir og villuboð
+# Viðvaranir og villuboð
 
-Á vinnudegi gæti þú séð tilkynningar í [!INCLUDE [prod_short](includes/prod_short.md)] um að eitthvað hafi farið úrskeiðis eða að ekki hafi verið hægt að bóka eitthvað, til dæmis. Í mörgum tilfellum auðvelda tilkynningar að leysa málið, eða draga til baka breytingar sem voru gerðar. Í öðrum tilfellum er ekki víst að upplýsingarnar séu til staðar sem þarf til að afblokka. Í þessari grein er að finna ábendingar um hvernig skuli halda áfram.  
+Á vinnudeginum birtist hugsanlega tilkynningar um [!INCLUDE [prod_short](includes/prod_short.md)] að eitthvað hafi farið úrskeiðis eða að ekki væri hægt að bóka eitthvað, til dæmis. Í mörgum tilfellum auðvelda tilkynningar að leysa málið, eða draga til baka breytingar sem voru gerðar. Í öðrum tilvikum er hugsanlegt að ekki séu til upplýsingar sem þarf að aflæsa. Í þessari grein er að finna ábendingar um hvernig skuli halda áfram.  
 
-## <a name="in-product-user-assistance"></a>Notendaaðstoð í vörunni
+## Notendaaðstoð í vörunni
 
 Sjálfgefna útgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur lýsingar fyrir flesta reiti, dálka og aðgerðir sem hægt er að opna þegar heitið er valið. Ásamt kennsluábendingum fyrir mikilvægar síðar, myndatexta og leiðbeinandi texta, eru þessar ábendingar, eða skýringartextar, sem stendur okkar innleiðing af *innfelldri notendaaðstoð*, sem er mikilvægur þáttur í hugbúnaði í dag.  
 
-Ef spurningar vakna um reit eða annan þátt notandaviðmótsins, skal velja heitið og stutt lýsing birtist.  *Veldu tengilinn Spyrja copilot* ef það er ekki nóg. Einnig er hægt að nota hjálparsvæðið í vörunni til að finna svör við spurningum þínum.  
+Ef notandi er með spurningu um reit eða annan þætti í notandaviðmótinu skal velja heitið til að lesa stutta lýsingu.  **Veldu tengilinn Spyrja copilot** ef það er ekki nóg. Einnig er hægt að nota hjálparsvæðið í vörunni til að finna svör við spurningum þínum.  
 
 Frekari upplýsingar er að finna í [Dynamics 365 Business Central Líkan notendaaðstoðar](/dynamics365/business-central/dev-itpro/user-assistance) í stjórnunarefninu fyrir [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="help-and-support-page"></a>Hjálpar- og stuðningssíða
+## Hjálpar- og stuðningssíða
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)], veitir valmyndaratriði hjálpar (spurningamerkið efst í hægra horninu) þér aðgang að síðunni **Hjálp og stuðningur** þar sem þú getur fundið tengla á úrræði sem geta hjálpað þér að finna svör við spurningum þínum. Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
 
-## <a name="help-others"></a>Hjálpa öðrum
+## Hjálpa öðrum
 
-Ef þú ert kerfisstjóri eða yfirnotandi getur þú hjálpað öðrum með því að fletta upp villuboðum á síðunni **Villuboðaskrá** eða í stjórnendamiðstöðinni. Í mörgum tilfellum er viðvörunin eða villuboðið um uppsetningu eða skort á heimild og svipuð mál sem yfirnotandi eða stjórnandi getur auðvelda hjálpað til við. Í öðrum tilvikum gæti þurft að skoða síður til að finna orsökina. Frekari upplýsingar er að finna í [Finna tæknilegar upplýsingar](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) í stjórnunarefninu fyrir [!INCLUDE [prod_short](includes/prod_short.md)].  
+Ef þú ert kerfisstjóri eða yfirnotandi getur þú hjálpað öðrum með því að leita að villuboðum á síðunni **Dagbók** villuboða eða í stjórnunarmiðstöðinni. Í mörgum tilfellum er viðvörunin eða villuboðið um uppsetningu eða skort á heimild og svipuð mál sem yfirnotandi eða stjórnandi getur auðvelda hjálpað til við. Í öðrum tilvikum gæti þurft að skoða síður til að finna orsökina. Frekari upplýsingar er að finna í [Finna tæknilegar upplýsingar](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) í stjórnunarefninu fyrir [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="share-error-details-for-faster-assistance"></a>Deila upplýsingum um villu til fljótlegri aðstoðar
+## Deila upplýsingum um villu til fljótlegri aðstoðar
 
-Nýttu sérþekkingu samstarfsmanna eða efnisþekkingar sérfræðinga til að sigrast á hindrunum og lágmarka niður í miðbæ. Þegar villa er lokuð er auðvelt að samnýta upplýsingarnar um villuna þegar notandi fær aðstoð. 
+Til að sigrast á hindrunum og lágmarka niður í miðbæ, beita sérþekkingu samstarfsfólks eða efnisþekkingu sérfræðinga. Þegar villa lokar á notanda er auðvelt að samnýta upplýsingarnar um villuna þegar notandi fær aðstoð.
 
 Upplýsingarnar innihalda villuboð, villukóta og aðrar upplýsingar sem eru gagnlegar við villuleit. Með því að deila upplýsingum um villuna getur þú á skilvirkan hátt miðlað því tiltekna málefni sem þú átt í hlut, sem hjálpar samstarfsmönnum þínum að hjálpa þér.  
 
@@ -47,22 +47,26 @@ Auk þess að afrita upplýsingar um villu er einnig hægt að velja að deila u
 * Afrita upplýsingar um villuna.
 * Opna sjálfgefna ritilinn þinn með tölvupósti þar sem þú getur límt villuupplýsingarnar sem þú afritaðir og tilgreint hvern þú vilt biðja um hjálp. [!INCLUDE [prod_short](includes/prod_short.md)] bætir við tengli á síðuna þar sem þú upplifðir.
 
-## <a name="help-yourself"></a>Hjálpa sjálfum þér
+## Hjálpa sjálfum þér
 
-Það er auðveldara að skilja, fara í og leysa villur sem koma úr verkvangnum.
+Villuboð bjóða upp á upplýsingar og aðgerðir sem auðvelda skilning, fara í og leysa villur sem koma úr verkvangnum.
 
 Villuboðin sem [!INCLUDE [prod_short](includes/prod_short.md)] verkvangurinn býr til innihalda allar tæknilegar upplýsingar, þar á meðal heiti svæða, í hlutanum Sundurliðuð **villuboð** . Velja skal táknið **Afrita upplýsingar** um villuleit í innsendri vinnslu eða í villuboðum til að fá aðgang að tækniupplýsingum.
 
-Aðgerðir í villuboðum fara beint á síðuna þar sem reitur veldur villunni. Þú þarft ekki að taka þér tíma til að finna síðuna eða reitinn sjálfur. Veldu bara aðgerðina í villuboðunum og [!INCLUDE [prod_short](includes/prod_short.md)] taktu þig á viðeigandi stað til að leysa villuna.
+Aðgerðir í villuboðum fara beint á síðuna þar sem reitur veldur villunni. Þú þarft ekki að taka þér tíma til að finna síðuna eða reitinn sjálfur. Til að leysa villuna skal velja aðgerðina í villuboðunum og [!INCLUDE [prod_short](includes/prod_short.md)] færa þig á viðeigandi stað.
 
-### <a name="tip-for-developers"></a>Ábending fyrir forritara
+Eftirfarandi myndskeið sýnir hvernig nota á aðgerðanleg villuboð til að aflæsa.
 
-Ef þú ert forritari, þegar þú kallar á [TestField](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-joker-errorinfo-method) aðferðina og sendir ekki í object VillaInfo, [!INCLUDE [prod_short](includes/prod_short.md)]  býr sjálfkrafa til tengilinn á síðu þar sem notandi getur leiðrétt málið. [!INCLUDE [prod_short](includes/prod_short.md)] fær fyrst uppflettingar- eða köfunarsíðuna fyrir færsluna og finnur svo spjaldsíðuna eða uppflettisíðuna og bætir yfirlitstengil við það spjaldsíðu. [!INCLUDE [prod_short](includes/prod_short.md)] bætir ekki við tengli í eftirfarandi aðstæðum:
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2sM]
+
+### Ábending fyrir forritara
+
+Ef þú ert forritari, þegar þú kallar á [TestField](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-joker-errorinfo-method) aðferð, en ekki fara í |`ErrorInfo` hlutur, [!INCLUDE [prod_short](includes/prod_short.md)]  býr sjálfkrafa til tengilinn við síðu þar sem notandi getur leiðrétt málið. [!INCLUDE [prod_short](includes/prod_short.md)] fær fyrst uppflettingar- eða köfunarsíðuna fyrir færsluna og finnur svo spjaldsíðuna eða uppflettisíðuna og bætir yfirlitstengil við það spjaldsíðu. [!INCLUDE [prod_short](includes/prod_short.md)] bætir ekki við tengli í eftirfarandi aðstæðum:
 
 * Ef villan er á síðunni sem er opin.
 * Ef notandinn hefur ekki heimild til að breyta undirliggjandi færslu.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Algengar spurningar](across-faq.yml)  

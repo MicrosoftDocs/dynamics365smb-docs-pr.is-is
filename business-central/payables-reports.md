@@ -12,18 +12,21 @@ ms.service: dynamics-365-business-central
 ---
 # Skýrslur og greiningar á lánardrottnum
 
-Til að hjálpa þér að hafa umsjón með viðskiptaskuldum í [!INCLUDE [prod_short](includes/prod_short.md)] eru staðlaðar skýrslur og greiningar innbyggðar. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.  
+[!INCLUDE [prod_short](includes/prod_short.md)] er með innbyggðar skýrslur og greiningar sem geta hjálpað þér að stjórna gjaldföllnum reikningum. Verkfærin fara út fyrir hefðbundnar skýrslugerðarskorður og auðvelda hönnun ýmissa skýrslna.  
 
 ## Skýrslur
+
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
+
+## Skoða fjárhagsskýrslur með skýrsluvafra
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## Sjá einnig .
 
-[Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
-[Vinna með víddir](finance-dimensions.md)  
-[Eignaumsjón](fa-manage.md)  
-[Yfirlit yfir staðbundna virkni](about-localization.md)  
+[Tilfallandi greining á fjárhagsgögnum](ad-hoc-analysis-finance.md)  
+[Fjárhagsgreiningar](bi.md)  
+[Innkaupagreiningar](purchasing-analytics-overview.md)  
 [Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

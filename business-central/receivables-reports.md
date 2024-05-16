@@ -14,16 +14,23 @@ ms.service: dynamics-365-business-central
 
 Til að hjálpa þér að hafa umsjón með viðskiptakröfum í [!INCLUDE [prod_short](includes/prod_short.md)] eru staðlaðar skýrslur og greiningar innbyggðar. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.  
 
+
 ## Skýrslur
+
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
+
+
+## Skoða fjárhagsskýrslur með skýrsluvafra
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
 
 ## Sjá einnig .
 
-[Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
-[Vinna með víddir](finance-dimensions.md)  
-[Eignaumsjón](fa-manage.md)  
-[Yfirlit yfir staðbundna virkni](about-localization.md)  
+[Helstu fjárhagsskýrslur](finance-reports.md)  
+[Tilfallandi greining á fjárhagsgögnum](ad-hoc-analysis-finance.md)   
+[Fjármálagreiningar](bi.md)   
+[Sölugreiningar](sales-analytics-overview.md)  
 [Endurskoðandi upplifun í [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

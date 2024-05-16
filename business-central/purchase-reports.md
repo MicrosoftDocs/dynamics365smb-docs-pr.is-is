@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Innkaupaskýrslur og greiningar
 
-Innkaupaskýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] gera starfsmönnum í framleiðslu og rekstri kleift að fá innsýn í og tölfræði um núverandi og fyrri innkaupagerðir.  
+Innkaupaskýrslugerð gefur innsýn í innkaup og viðskiptafræðinga og tölfræði um núverandi og eldri innkaupaaðgerðir.  
 
 ## Skýrslur
 
@@ -20,13 +20,25 @@ Innkaupaskýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] gera starfs
 
 ## Verkefni
 
-Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
+Eftirfarandi greinar lýsa nokkrum lykilverkefnum við greiningu á ástandi innkaupa:
 
-* [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
-* [Skoða tiltækileika vöru](inventory-how-availability-overview.md)  
+- [Skoða tiltækileika vöru](inventory-how-availability-overview.md)  
+- [Reikna út dagsetningar fyrir innkaup](purchasing-date-calculation-for-purchases.md)
+- [Skoða fjárhagsfærslur innkaupa](purchasing-how-record-purchases.md#viewing-ledger-entries)
+
+## Skoða innkaupaskýrslur með skýrsluvafra
+
+Til að fá yfirlit yfir þær skýrslur sem tiltækar eru til innkaupa skal velja **Allar skýrslur** á heimasíðunni. Þessi aðgerð opnar Hlutverkavafrann sem er afmarkaður við aðgerðirnar í valkostinum **Skýrsla & Greining** . Undir hausnum **Innkaup** skal velja **Skoða**.
+
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Dæmi um skýrslur í hlutverkamiðstöð XXX." lightbox="media/report-explorer-purchasing.png":::
+
+Nánari upplýsingar eru í [Finna skýrslur með hlutverkavafranum](ui-role-explorer.md). 
 
 ## Sjá einnig .
+
+[Sérstök greining á innkaupagögnum](ad-hoc-analysis-purchasing.md)  
+[Yfirlit yfir innkaup greiningar](purchasing-analytics-overview.md)   
 [Innkaup sett upp](purchasing-setup-purchasing.md)  
-[Innkaup](purchasing-manage-purchasing.md)  
+[Yfirlit yfir innkaup](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
