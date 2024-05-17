@@ -1,16 +1,17 @@
 ---
-title: Stofnun númeraraða
+title: Stofna númeraraðir
 description: Lærðu hvernig á að setja upp númeraröð sem úthlutar einstökum auðkenniskóðum til reikninga og skjala í Business Central.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'numbers, numbering'
 ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
-ms.date: 02/26/2024
-ms.author: bholtorf
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="create-number-series"></a>Stofna númeraraðir
+# Stofna númeraraðir
 
 Fyrir hvert fyrirtæki sem þú setur upp þarftu að úthluta einstökum kennitölum við hluti eins og aðalbókarreikninga, viðskiptavinar- og seljanda, reikninga og önnur skjöl. Númeraröð skiptir ekki aðeins máli til auðkenningar. Vel hannað númerakerfi gerir fyrirtækið einnig auðveldara að greina og draga úr gagnainnslætti.
 
@@ -31,11 +32,11 @@ Númerakerfi er stofnað með því að setja upp einn eða fleiri kóta fyrir h
 
 Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagna með því að nota númeraraðatengsl, til dæmis til að nota mismunandi númeraraðir fyrir mismunandi vöruflokka.
 
-## <a name="gaps-in-number-series"></a>Eyður í númeraröð
+## Eyður í númeraröð
 
 Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_short.md)] eru fjárhagsfærslur sem þarf að nota í röð númeraraðar. Viðskiptamannaspjald, sölutilboð og vöruhúsaaðgerðir eru dæmi um færslur sem eru úthlutaðar númeri úr númeraröðum en eru ekki háðar fjárhagsendurskoðun og/eða er hægt að eyða þeim. Hægt er að velja reitinn **Leyfa eyður í nr.röð fyrir slíka númeraröð.** í reitnum **Nr. Síðunni Raðarlínur** . Einnig er hægt að breyta þessari stillingu eftir að búið er að stofna númeraröðina. Frekari upplýsingar eru í [Búa til nýja númeraröð](ui-create-number-series.md#to-create-a-new-number-series).
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Hegðun nr. reitur á skjölum og kortum
+## Hegðun nr. reitur á skjölum og kortum
 
 Á sölu-, innkaupa-, millifærslu- og þjónustuskjölum og á öllum spjöldum er reiturinn **Nr.** hægt er að fylla út í reitinn sjálfkrafa úr fyrirframskilgreindum númeraröðum eða bæta honum við handvirkt. Undir ákveðnum kringumstæðum er **nr.** reiturinn ósýnilegur til að koma í veg fyrir að þú breytir honum.  
 
@@ -59,7 +60,7 @@ Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_sh
 >
 > Það sama á við ef þjónustukerfisaðgerðir eru notaðar. Til að leysa það mál er farið á síðuna **Þjónustukerfisgrunnur** og reiturinn **Nr. þjónustuvöru valinn.** til að stilla númeraröðina á **Handfærð nr.röð**
 
-## <a name="to-create-a-new-number-series"></a>Til að búa til nýja númeraröð
+## Til að búa til nýja númeraröð
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Númeraraðir** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.  
@@ -73,7 +74,7 @@ Ekki allar færslur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_sh
 
 Hægt er að úthluta númeraröðum á sniðmátin sem sett eru upp fyrir mismunandi tegundir viðskiptamanna og lánardrottna sem sölumenn og innkaupaaðilar bæta oftast við. Í því tilviki skaltu setja upp viðkomandi númeraraðir, tengja þær í gegnum vensl og bæta síðan fyrstu númeraröðinni í viðkomandi vensl við viðkomandi uppsetningarsíðu. Síðan, þegar notandi býr til viðskiptamann, velur hann viðeigandi sniðmát og nýi viðskiptamaðurinn fær úthlutað númeri úr númeraröðinni sem er skilgreind fyrir það sniðmát.  
 
-## <a name="to-create-relationships-between-number-series"></a>Stofnun tengsla milli númeraraða
+## Stofnun tengsla milli númeraraða
 
 Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað. Þegar komið er á tengslum milli flokka af númeraröðum eru allar skyldar raðir tengdar einum númeraraðarkóta. Síðan getur þú slegið þann kóða inn í reit í flýtiflipanum **Tölusetning** á einni viðeigandi uppsetningarsíðu, t.d. **Sölugrunnur**.  
 
@@ -85,7 +86,7 @@ Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund g
 
 Þegar eitthvað er sett upp eftir þetta sem þarfnast númers er hægt að nota tengslin sem voru stofnuð til að velja úr skyldum númeraröðum.
 
-## <a name="to-set-up-where-a-number-series-is-used"></a>Til að setja upp hvar númeraröð er notuð
+## Til að setja upp hvar númeraröð er notuð
 
 Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölustaðinn. Skrefin eru svipuð fyrir önnur svæði.  
 
@@ -94,7 +95,7 @@ Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölu
 
 Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkomandi korti eða skjali, í samræmi við þær stillingar sem þú gerðir á númeraröðinni.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

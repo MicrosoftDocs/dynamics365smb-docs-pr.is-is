@@ -1,15 +1,16 @@
 ---
-title: Setja upp Verkflæði samþykktar (inniheldur myndskeið)
+title: Setja upp samþykktarverkflæði (inniheldur myndskeið)
 description: 'Settu upp verkflæði, notendur verkflæðis og samþykkjendur til að tengja kerfisverk viðskiptaferlis sem þessi notendur framkvæma.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/13/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-approval-workflows"></a>Setja upp Verkflæði samþykktar
+# Setja upp verkflæði samþykktar
 
 Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði. Frekari upplýsingar má finna á [Nota Samþykktarverkflæði](across-use-workflows.md).
 
@@ -34,14 +35,14 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Deila verkflæði með öðrum [!INCLUDE[prod_short](includes/prod_short.md)] gagnagrunnum.|[Flytja samþykktarverkflæði inn og út](across-how-to-export-and-import-workflows.md)|  
 |Lærið að setja upp verkflæði fyrir söluskjöl sem eru til samþykktar með því að fylgja verkferli frá upphafi til enda.|[Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Dæmi um samþykktarverkflæði
+## Dæmi um samþykktarverkflæði
 
 Þetta myndband sýnir hvernig á að setja upp verkflæði sem fer fram á að notandi óski eftir samþykki einhvers annars áður en hægt er að breyta upplýsingum um fyrirliggjandi viðskiptamann, eða búa til nýjan viðskiptamann.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Nota Samþykktarverkflæði](across-use-workflows.md)  
 [Verkflæði](across-workflow.md)  

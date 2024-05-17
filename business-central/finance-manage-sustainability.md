@@ -1,54 +1,53 @@
 ---
 title: Yfirlit yfir sjálfbærnistjórnun
-description: Fræðast um hvernig á að stýra sjálfbærni með skráðum upplýsingum og forða.
+description: Fræðast um sjálfbærnistjórnunaraðgerðina með því að nota veittar upplýsingar og forða.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 04/23/2024
+ms.date: 05/08/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Yfirlit yfir sjálfbærnistjórnun
+# Yfirlit yfir sjálfbærnistjórnun
 
->[!IMPORTANT]
->Þessi eiginleiki verður í boði í Business Central frá **2024 útgáfubylgjunni 1** og allir tilvísunartenglar verða virkjaðir þegar þeir eru tiltækir.
+> [!IMPORTANT]
+> Þessi aðgerð verður fáanleg í Business Central frá **2024 útgáfubylgju 1**. Allir tilvísunartenglar verða virkjaðir eftir að þeir eru tiltækir.
 
-Business Central býður upp á eiginleika sem hjálpar þér að fylgjast með og stjórna áhrifum fyrirtækisins á umhverfið. Þessi eiginleiki er hannaður til að hafa umsjón með og stýra umhverfisfótspori fyrirtækisins með því að rekja ýmsa losun gróðurhúsalofttegunda, sem auðveldar rétta innsýn. Hún styður grunnferlið við söfnun útblástursgagna með sjálfbærnibókum, sem gerir kleift að handfæra innslátt þekktra gagna eða að nota innbyggðar aðferðir við útreikning á útstreymisfótsporum. 
+Business Central býður upp á sjálfbærnistjórnunaraðgerð sem auðveldar eftirlit með og stjórna áhrifum fyrirtækisins á umhverfið. Þessi eiginleiki er hannaður til að hafa umsjón með og stýra umhverfisfótspori fyrirtækisins með því að rekja ýmsa losun gróðurhúsalofttegunda (GHG). Þannig auðveldar það rétta innsýn. Aðgerðin styður grunnferlið við söfnun losunargagna með sjálfbærnibókum. Annaðhvort er hægt að færa inn þekkt gögn handvirkt eða nota innbyggðar aðferðir við útreikning á fótsporum losunar.
 
->[!NOTE]
->Þessi upphaflega útgáfa er grunnskref og er algjörlega óháð öðrum Business Central eiginleikum. Hins vegar munu ítrekanir framtíðarinnar miða að því að samþætta nánar, hugsanlega sjálfvirka ákveðna handvirka vinnslu.
+> [!NOTE]
+> Þessi upphaflega útgáfa er grunnurinn og er algjörlega óháður öðrum Business Central eiginleikum. Hins vegar miðar framtíðarútgáfan að nánari samþættingu og gæti sjálfvirkt einhver handvirk ferli.
 
-Fyrsta útgáfan einblínir á losun GHG og það eru þrjú útblástursspor skilgreind af staðlinum ESG:  
+Fyrsta útgáfan af eiginleikanum fjallar um losun GHG. Umhverfis-, félags- og stjórnunarhættir (ESG) skilgreina þrjú útblásturskerfi:
 
-- **Svið 1**: fela í sér losun sem losnar úr ritföngum og farsímabifreiðum og frá óvart flóttamannslosun.  
-- **Svið 2**: fela í sér óbeinan losun frá stofnun orku sem keypt er frá nýtingaraðilum.   
-- **Útblásturssvið** 3: felur í sér breiðskírteini losunar, frá keyptum vörum og þjónustu og fjármagnsvörum, eldsneyti og orkutengdri starfsemi, flutningi og flutningum niður, mynda sóun, viðskiptaferðir og starfsmannaskipti o.s.frv. 
+- **Svið 1 losun** felur í sér losun frá kyrrstæðri og farsímabifreið, og frá óvart flóttamannslosun.
+- **Losun** á sviði 2 felur í sér óbeinan losun frá stofnun orku sem keypt er frá veitendum.
+- **Losun** á 3. sviði felur í sér breiðskírteini losunar, frá keyptum vörum og þjónustu og fjármagnsvörum, eldsneyti og orku-tengdri starfsemi, til flutnings í uppistöðulásum og niðurflutningi, til að mynda úrgangs, fyrir ferðalög og vinnu starfsmanna, og svo framvegis.
 
-Með þessari aðgerð er hægt að:   
+Með þessari aðgerð er hægt að:
 
-- Setja upp útblástursstuðula fyrir ólíkar heimildir og flokka GHG-útblásturs. 
-- Skrá útblástursgögn í sjálfbærnibækur, annaðhvort handvirkt eða með því að nota forskilgreindar útreikningsaðferðir.  
-- Bóka útblástursfærslur í sjálfbærnibókina þar sem hægt er að skoða og greina útblástursgögn eftir ýmsum víddum. 
+- Setja upp útblástursstuðula fyrir ólíkar heimildir og flokka GHG-útblásturs.
+- Skrá útblástursgögn í sjálfbærnibækur, annaðhvort handvirkt eða með því að nota forskilgreindar útreikningsaðferðir.
+- Bóka útblástursfærslur í sjálfbærnibókina þar sem hægt er að skoða og greina útblástursgögn eftir ýmsum víddum.
 - Mynda sjálfbærniskýrslur sem sýna GHG-losunarafköst fyrirtækisins.
 
-Til að byrja með Sjálfbærnistjórnun má sjá eftirfarandi greinar.  
+Til að byrja með sjálfbærnistjórnun skal nota eftirfarandi greinar.
 
-|  Grein  |  Heimildasamstæða  |  
-|--------|--------------| 
-|[Sjálfbærniuppsetning](finance-sustainability-setup.md) | Þessi grein veitir upplýsingar til að hjálpa þér að grunnstilla heila sjálfbærnieiningu rétt. |
-|[Bókhaldslykill sjálfbærnireikninga og fjárhagur](finance-sustainability-accounts-ledger.md) | Í þessari grein eru upplýsingar um hvernig eigi að setja bókhaldslykilinn sjálfbærnireikninga rétt upp, reikningsflokka og undirflokka og hvernig á að greina upplýsingar í sjálfbærnibókarfærslum. |
-|[Hvernig á að skrá losun gróðurhúsalofttegunda (GHG)](finance-sustainability-journal.md) | Nota þessa grein til að læra hvernig á að vinna með allar tegundir sjálfbærnibóka. |
+| Grein | Heimildasamstæða |
+|---------|-------------|
+| [Uppsetning sjálfbærni](finance-sustainability-setup.md) | Þessi grein veitir upplýsingar til að aðstoða þig við að grunnstilla sjálfbærnieininguna rétt. |
+| [Bókhaldslykill fyrir sjálfbærni og fjárhag](finance-sustainability-accounts-ledger.md) | Í þessari grein eru upplýsingar um hvernig rétt er að setja upp bókhaldslykil sjálfbærnireikninga (CoSA), reikningsflokka og undirflokka og hvernig greina skal upplýsingar í sjálfbærnibókarfærslum. |
+| [Skrá sjálfbærnifærslur](finance-sustainability-journal.md) | Nota þessa grein til að læra hvernig á að vinna með allar tegundir sjálfbærnibóka. |
 
+## Sjá einnig .
 
-## <a name="see-also"></a>Sjá einnig .
-[Sjálfbærniuppsetning](finance-sustainability-setup.md)   
-[Bókhaldslykill sjálfbærnireikninga og fjárhagur](finance-sustainability-accounts-ledger.md)   
-[Hvernig á að skrá losun GHG](finance-sustainability-journal.md)  
-[Fjármál](finance.md)    
+[Uppsetning sjálfbærni](finance-sustainability-setup.md)  
+[Bókhaldslykill fyrir sjálfbærni og fjárhag](finance-sustainability-accounts-ledger.md)  
+[Skrá sjálfbærnifærslur](finance-sustainability-journal.md)  
+[Fjármál](finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

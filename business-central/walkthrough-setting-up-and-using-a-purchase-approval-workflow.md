@@ -2,25 +2,26 @@
 title: Setja upp og nota samþykktarverkflæði innkaupa
 description: Þessi kynning fer með þig í gegnum öll stigin sem felast í því að setja upp og nota samþykktarverkflæði innkaupa í Business Central.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: null
 ms.date: 03/11/2024
-ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="walkthrough-set-up-and-use-a-purchase-approval-workflow"></a>Kynning: Setja upp og nota verkflæði innkaupasamþykktar
+# Kynning: Setja upp og nota verkflæði innkaupasamþykktar
 
 Hægt er að gera sjálfvirkt ferli samþykktar á nýjar eða breyttar færslur, t.d. skjöl, færslubókarlínur og spjöld viðskiptamanna með því að stofna verkflæði með skrefum fyrir viðkomandi samþykkjendur.
 
-Áður en samþykkisverkflæði eru stofnaðar verður að setja upp samþykkjandi og staðgengill samþykkjanda fyrir hvern notanda samþykktar. Einnig er hægt að stilla upphæðartakmörk samþykkjenda til að skilgreina hvaða sölu- og innkaupafærslur þeir mega samþykkja. Samþykktarbeiðnir og aðrar tilkynningar er hægt að senda sem tölvupóst eða innri athugasemd. Fyrir hverja uppsetningu samþykktarnotanda má einnig setja upp hvenær þeim berast tilkynningar.
+Áður en samþykkisverkflæði eru stofnaðar verður að setja upp samþykkjandi og staðgengill samþykkjanda fyrir hvern notanda samþykktar. Til að skilgreina hvaða sölu- og innkaupafærslur þeir hafa hæfi til að samþykkja er einnig hægt að stilla takmörk upphæðar fyrir samþykkjendur. Samþykktarbeiðnir og aðrar tilkynningar er hægt að senda sem tölvupóst eða innri athugasemdir. Fyrir hverja uppsetningu samþykktarnotanda má einnig setja upp hvenær þeim berast tilkynningar.
 
 > [!NOTE]
-> Til viðbótar við Workflow-virknina innan [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að nota Power Automate til að skilgreina verkflæði fyrir tilvik í [!INCLUDE[prod_short](includes/prod_short.md)]. Hafa skal í huga að þótt þetta séu tvö aðskilin verkflæðiskerfi, þá eru öll Flow-sniðmát sem búin eru til með Power Automate bætt við listann yfir verkflæðissniðmát innan [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar í [Nota Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md).  
+> Auk verkflæðisaðgerðarinnar í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að nota Power Automate til að skilgreina verkflæði fyrir atburði í [!INCLUDE[prod_short](includes/prod_short.md)]. Athuga skal að þótt þau séu tvö aðskilin verkflæðiskerfi er öllum flæðisniðmátum sem stofnað er með Power Automate bætt við lista yfir verkflæðissniðmát í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar í [Nota Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md).  
 
 Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna
+## Um kynninguna
 
 Þessi kynning er sviðsmynd sem sýnir eftirfarandi verk:  
 
@@ -30,21 +31,21 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 - Óska eftir samþykki innkaupapöntunar (sem Alicia)  
 - Að fá tilkynningu og samþykkja síðan beiðnina (sem Sean)  
 
-## <a name="story"></a>Ferill
+## Ferill
 
 Sean er yfirnotandi hjá CRONUS og stofnar tvo samþykktarnotendur. Annar er Alicia sem táknar innkaupaaðilinn. Hin er sjálfur Sean sem er fulltrúi samþykkjendanna Alicia. Sean veitir þá sjálfum sér ótakmarkaðan samþykktarheimild innkaupa og tilgreinir að þeir fái tilkynningar innanhúss um leið og viðkomandi atburður á sér stað. Að lokum býr Sean til nauðsynlegt samþykktarverkflæði sem afrit af fyrirliggjandi sniðmáti *Verkflæði samþykktar innkaupapöntunar*, skilur eftir öll fyrirliggjandi skilyrði og svarmöguleika óbreytt og virkjar síðan verkflæðið.  
 
 Til að prófa samþykktarverkflæðið skráir Sean sig inn í [!INCLUDE[prod_short](includes/prod_short.md)] sem Alicia og biður síðan um samþykki á innkaupapöntun. Sean skráir sig síðan inn sem sjálfur, sér athugasemdina í Mitt hlutverk, fylgir tenglinum í samþykktarbeiðnina fyrir innkaupapöntunina og samþykkir beiðnina.  
 
-## <a name="users"></a>Notendur
+## Notendur
 
 Áður en þú getur sett upp samþykktarnotendur og tilkynningaaðferð þeirra verðurðu að ganga úr skugga um að þessir notendur séu til í [!INCLUDE[prod_short](includes/prod_short.md)]: Einn mun tákna Aliciu. Hinn notandinn, þú sjálf(ur), táknar Sean. Frekari upplýsingar eru í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md).
 
-### <a name="set-up-approval-users"></a>Setja upp notendur samþykkta
+### Setja upp notendur samþykkta
 
 Þegar þú ert skráð(ur) inn sem þú sjálf(ur) skaltu setja upp Aliciu sem samþykktarnotanda sem er þú sjálf(ur) samþykktaraðili fyrir. Settu upp samþykktarheimildir þínar og tilgreindu hvernig og hvenær þér er tilkynnt um samþykktarbeiðnir.  
 
-#### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Til að setja upp þig sjálfan og Alicia sem notendur samþykki
+#### Til að setja upp þig sjálfan og Alicia sem notendur samþykki
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Uppsetning á notanda samþykktar** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Notandauppsetning samþykktar** skal velja aðgerðina **Nýtt**.  
@@ -59,11 +60,11 @@ Til að prófa samþykktarverkflæðið skráir Sean sig inn í [!INCLUDE[prod_s
     |ÞÚ||Valið|
     |ALICIA|ÞÚ||
 
-### <a name="set-up-notifications"></a>Setja upp tilkynningar
+### Setja upp tilkynningar
 
 Í þessari kynningu er notandanum tilkynnt með innri athugasemd um beiðnir til að samþykkja. Samþykktartilkynningu er einnig hægt að senda með tölvupósti og hægt að bæta við svarskrefi verkflæðis sem tilkynnir sendanda þegar beiðni er samþykkt eða henni er hafnað. Frekari upplýsingar eru í [Tilgreina hvenær og hvernig á að fá tilkynningar](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-#### <a name="to-set-up-how-and-when-youre-notified"></a>Til að setja upp hvernig og hvenær tilkynnt er um það
+#### Til að setja upp hvernig og hvenær tilkynnt er um það
 
 1. Á síðunni **Notandauppsetning samþykktar** velur notandi línuna fyrir sjálfa(n) sig og svo aðgerðina **Tilkynningagrunnur**.  
 2. Á síðunni **Uppsetning tilkynninga** í reitnum **Tilkynningagerð** skal velja **Samþykki**.  
@@ -71,14 +72,14 @@ Til að prófa samþykktarverkflæðið skráir Sean sig inn í [!INCLUDE[prod_s
 4. Á síðunni **Tilkynningagrunnur** skal velja aðgerðina **Áætlun tilkynninga**.  
 5. Á síðunni **Tilkynningaáætlun** í reitnum **Endurtekning** skal velja **Samstundis**.  
 
-## <a name="create-the-approval-workflow"></a>Stofna samþykktarverkflæði
+## Stofna samþykktarverkflæði
 
 Stofna skal samþykktarverkflæði innkaupapöntunar með því að afrita skrefin úr sniðmátinu **Samþykktarverkflæði innkaupapöntunar**. Hafið fyrirliggjandi verkflæðisþrep óbreyttar og virkið þau síðan í verkflæði.  
 
 > [!TIP]
 > Einnig er hægt að bæta við svarskrefi verkflæðis til að tilkynna sendanda þegar beiðni er samþykkt eða henni er hafnað. Frekari upplýsingar eru í [Tilgreina hvenær og hvernig á að fá tilkynningar](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Til að stofnaog virkja samþykktarverkflæði innkaupapöntunar
+### Til að stofnaog virkja samþykktarverkflæði innkaupapöntunar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Verkflæði** skal velja **Aðgerðir** og svo **Nýtt** og svo **Nýtt vinnuflæði úr Sniðmáti** aðgerðina.  
@@ -87,11 +88,11 @@ Stofna skal samþykktarverkflæði innkaupapöntunar með því að afrita skref
    Síðan **Verkflæði** opnast fyrir nýtt verkflæði sem inniheldur allar upplýsingarnar úr völdu sniðmáti. Við gildið í reitnum **Kóði** er bætt við *-01* til að gefa til kynna að þetta sé fyrsta verkflæðið sem er stofnað úr sniðmátinu **Samþykktarverkflæði innkaupapöntunar**.  
 4. Í hausnum á síðunni **Verkflæði** skal kveikja á **Virkjað**.  
 
-## <a name="use-the-approval-workflow"></a>Nota samþykktarverkflæðið
+## Nota samþykktarverkflæðið
 
 Nota nýja samþykktarverkflæði innkaupapöntunar með því að skrá þig inn í [!INCLUDE[prod_short](includes/prod_short.md)] sem Alicia til að biðja um samþykki á innkaupapöntun. Síðan skaltu skrá þig inn, skoða athugasemdina í „Mínu hlutverki“, fylgja tenglinum á samþykktarbeiðnina og síðan samþykkja beiðni.  
 
-### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Til að óska eftir samþykki á innkaupapöntun, sem Alicia
+### Til að óska eftir samþykki á innkaupapöntun, sem Alicia
 
 1. Skrá inn sem Alicia.
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir**, velja síðan viðkomandi tengil.  
@@ -100,7 +101,7 @@ Nota nýja samþykktarverkflæði innkaupapöntunar með því að skrá þig in
 
 Takið eftir að gildið í reitnum **Staða** hefur breyst í **Bíður samþykktar**.  
 
-### <a name="to-approve-the-purchase-order-as-sean"></a>Til að samþykkja innkaupapöntun, sem Sean
+### Til að samþykkja innkaupapöntun, sem Sean
 
 1. Skrá inn sem Sean.
 2. Í „Mínu hlutverki“, á svæðinu **Sjálfsafgreiðsla**, skal velja **Beiðnir til að samþykkja**.
@@ -116,7 +117,7 @@ Almenna útgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur m
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  

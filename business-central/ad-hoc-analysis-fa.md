@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Tilfalengin greining á gögnum um eignir
 
-Þessi grein útskýrir hvernig á að nota aðgerðina **Gagnagreining** til að greina eignagögn beint frá listasíðum og fyrirspurnum. Ekki þarf að keyra skýrslu eða skipta yfir í annað forrit, t.d. Excel. Eiginleikinn býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Sum dæmi eru "Heildareignir", "Afskriftir með tímanum" eða annað sem hægt er að ímynda sér. Til að fræðast meira um notkun aðgerðarinnar **Gagnagreining** er farið í [Greiningarlista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md).
+Þessi grein útskýrir hvernig á að nota aðgerðina **Gagnagreining** til að greina eignagögn beint frá listasíðum og fyrirspurnum. Ekki þarf að keyra skýrslu eða skipta yfir í annað forrit, t.d. Excel. Eiginleikinn býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Sum dæmi eru "Heildareignir" "Afskriftir með tímanum" eða annað sem hægt er að ímynda sér. Til að fræðast meira um notkun aðgerðarinnar **Gagnagreining** er farið í [Greiningarlista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md).
 
 Eftirfarandi listasíður eru notaðar til að hefja greiningu á ferlum eigna:
 
@@ -34,7 +34,8 @@ Eftirfarandi hlutar gefa dæmi um aðstæður eigna í [!INCLUDE [prod_short](in
 | Svæðarit | Til... | Opna þessa síðu í greiningarstillingu | Þessir reitir notaðir |
 | ---- | ----- | ------------------------------- |------------------- |
 | [Eignir (gildandi virði)](#example-fixed-assets-current-value) | Rekja eignavirði, bæði á öllum eignum og á einni eign. | [Eignafærslur](https://businesscentral.dynamics.com/?page=5604) | **Afskriftabók,Eignanr** **.,** Eignabókunardags **.**, **Eignabókunartegund** og **Upphæð** |
-|[Dæmi: eignaafskriftir með tímanum](#example-fixed-asset-depreciations-over-time) | Rekja afskriftir með tímanum, bæði á öllum eignum og einni eign. | [Eignafærslur](https://businesscentral.dynamics.com/?page=5604) | **Afskriftabók**, **Eignanr.**, **Eignabókunarár**, **Eignabókunarmánuður**, **Upphæð** og **Eignabókunartegund** |
+| [Virði eignar breytist með tímanum](#example-asset-value-changes-over-time) | Rekja virði eignar breytist með tímanum. | [Eignafærslur](https://businesscentral.dynamics.com/?page=5604) | **Eignabókunartegund**, **Eignabókunardags.** og **Upphæð** |
+|[Eignaafskriftir með tímanum](#example-fixed-asset-depreciations-over-time) | Rekja afskriftir með tímanum, bæði á öllum eignum og einni eign. | [Eignafærslur](https://businesscentral.dynamics.com/?page=5604) | **Afskriftabók**, **Eignanr.**, **Eignabókunarár**, **Eignabókunarmánuður**, **Upphæð** og **Eignabókunartegund** |
 
 ### Dæmi: núgildandi virði eigna
 
@@ -51,13 +52,29 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Dæmi um hvernig á að gera gagnagreiningu á síðunni Eignafærslur til að sjá virði eignar." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
+### Dæmi: eignavirði breytist með tímanum
+
+Til að rekja breytingar á virði eigna með tímanum skal fylgja eftirfarandi skrefum:
+
+1. Listinn [Eignafærslur](https://businesscentral.dynamics.com/?page=5604) er opnaður og Færa inn greiningarham valið :::image type="content" source="media/analysis-mode-icon.png" alt-text="."::: Til að kveikja á greiningarstillingu.
+1. Farið er í valmyndina **Dálkar** og allir dálkar fjarlægðir (reiturinn er valinn við hliðina **á leitarreitnum** til hægri).
+1. Kveikja á **veltihamsvíkkuninni** (sem staðsett er fyrir ofan **leitarreitinn** hægra megin).
+1. Reiturinn **Eignabókunartegund** er dreginn að reitnum **Línuflokkar** .
+1. Reitirnir Eignabókunarár og Eignabókunarmánuður **eru dregnir í reitina Dálklímmiðar** . **·**  **·** 
+1. Reiturinn **Upphæð** er dreginn á **svæðið Virði** .
+1. Endurnefna greiningarflipann við **virði eigna breytist með tímanum** eða eitthvað sem lýsir þessari greiningu.
+
+Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
+
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Dæmi um hvernig á að gera gagnagreiningu á síðunni Eignafærslur til að sjá virðisbreytingar eigna með tímanum." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
+
 ### Dæmi: eignaafskriftir með tímanum
 
 Til að rekja afskriftir fyrir eina eða fleiri eignir skal fylgja eftirfarandi skrefum:
 
 1. Listinn [Eignafærslur](https://businesscentral.dynamics.com/?page=5604) er opnaður og Færa inn greiningarham valið :::image type="content" source="media/analysis-mode-icon.png" alt-text="."::: Til að kveikja á greiningarstillingu.
 1. Farið er í valmyndina **Dálkar** og allir dálkar fjarlægðir (reiturinn er valinn við hliðina **á leitarreitnum** til hægri).
-1. Kveikja á veltistillingu **·*** ví6 (staðsett fyrir ofan **leitarreitinn** hægra megin).
+1. Kveikja á **veltihamsvíkkuninni** (sem staðsett er fyrir ofan **leitarreitinn** hægra megin).
 1. Draga á reitina **Afskriftabók** og **Eignanr.**  **að línuflokkasvæðinu** .
 1. Reitirnir Eignabókunarár og Eignabókunarmánuður **eru dregnir í reitina Dálklímmiðar** . **·**  **·** 
 1. Reiturinn **Upphæð** er dreginn á **svæðið Virði** .
@@ -71,6 +88,12 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 ## Gagnagrunnur fyrir tilfalvarna greiningu á eignum
 
 Þegar eignabækur eru bókaðar [!INCLUDE [prod_short](includes/prod_short.md)]  stofnar notandi færslur í **töflunni Eignafærsla** . Þess vegna er tilfalvarleg greining á eignum gjarnan gerð á síðunni [Eignafærslur](https://businesscentral.dynamics.com/?page=5604) .
+
+## Stuðlar
+
+*Microsoft viðheldur þessari grein. Varahlutir dæmisins voru upphaflega skrifaðir af eftirfarandi þátttakanda.*
+
+* [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] ráðgjafi
 
 ## Sjá einnig .
 

@@ -1,17 +1,17 @@
 ---
-title: Samstilling og samþætting gagna | Microsoft Docs
+title: Samstilling og samþætting gagna
 description: Samstillingin afritar gögn milli tafla Microsoft Dataverse og Business Central og heldur gögnunum í báðum kerfum uppfærðum.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 03/31/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Samstilling gagna í Business Central með Microsoft Dataverse
+# Samstilling gagna í Business Central við Microsoft Dataverse
 
 Við samþættingu [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að ákveða hvort eigi að samstilla gögn á völdum svæðum [!INCLUDE[prod_short](includes/prod_short.md)] (t.d. viðskiptamenn, tengiliðir og sölumenn) við samsvarandi línur í [!INCLUDE[prod_short](includes/cds_long_md.md)] (s.s. reikningar, tengiliðir og notendur). Háð gerðar línu, er hægt að samstilla gögn úr [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)] eða öfugt. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -35,7 +35,7 @@ Samstilling notar eftirfarandi einingar:
 > [!NOTE]
 > Samstillingin á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] byggir á tímasettir keyrslu á verkraðarfærslum og tryggir ekki samræmi rauntímagagna milli þjónustanna tveggja. Fyrir samræmi í rauntímagögnum ættirðu að skoða [Sýndartöflur Business Central](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eða Business Central API.   
 
-## <a name="standard-table-mapping-for-synchronization"></a>Stöðluð töfluvörpun fyrir samstillingu
+## Stöðluð töfluvörpun í samstillingu
 
 Töflur í [!INCLUDE[prod_short](includes/cds_long_md.md)], t.d. reikningar, eru samþættar við jafngildar gerðir af töflum í [!INCLUDE[prod_short](includes/prod_short.md)], t.d. viðskiptavini. Til að vinna með [!INCLUDE[prod_short](includes/cds_long_md.md)]-gögn eru tenglar settir upp, kallast tengingar, milli tafla í [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -55,56 +55,56 @@ Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_shor
 > [!NOTE]
 > **Dataverse** aðgerðirnar verða ekki tiltækar á síðum, til dæmis síðu viðskiptamannaspjalds, fyrir færslur sem virða ekki töflusíuna á vörpun samþættingartöflu.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Ábending vegna admins: Skoða töfluvörpun
+### Ábending um stjórnendur: skoðun töfluvörpunar
 
 Hægt er að skoða vörpunina milli tafla í [!INCLUDE[prod_short](includes/cds_long_md.md)] og í [!INCLUDE[prod_short](includes/prod_short.md)] á síðunni **Vörpun samþættingartöflu** þar sem einnig er hægt að nota afmarkanir. Skilgreining á vörpun milli reita í [!INCLUDE[prod_short](includes/prod_short.md)]-töflum og dálka í [!INCLUDE[prod_short](includes/cds_long_md.md)]-töflum á síðunni **Vörpun samþættingarreits** þar sem hægt er að bæta við viðbótarreglum fyrir vörpun. Þetta getur til dæmis verið gagnlegt ef nauðsynlegt er að úrræðaleita samstillingu.
 
-## <a name="use-virtual-tables-to-get-more-data"></a>Nota sýndartöflur til að fá meiri gögn
+## Nota sýndartöflur til að fá fleiri gögn
 
-Þegar þú ert að setja upp samþættingu geturðu notað sýndartöflur til að gera fleiri gögn tiltæk í  [!INCLUDE[prod_short](includes/cds_long_md.md)], án aðstoðar frá hönnuði.
+Þegar samþætting er sett upp er hægt að nota sýndartöflur til að gera fleiri gögn tiltæk í [!INCLUDE[prod_short](includes/cds_long_md.md)] án hjálpar frá hönnuði.
 
-Í sýndartöflu er sérsniðin tafla sem hefur dálka og raðir sem innihalda gögn frá ytri gagnagjafa, svo sem [!INCLUDE [prod_short](includes/prod_short.md)]. Dálkarnir og línurnar í sýndartöflu líta út eins og Venjuleg tafla, gögnin eru hins vegar ekki geymd í efnislegri töflu í  [!INCLUDE[prod_short](includes/cds_long_md.md)]  gagnagrunninum. Þess í stað eru gögnin sótt á keyrslutíma.
+Sýndartafla er sérsniðin tafla með dálkum og línum sem innihalda gögn frá ytri gagnagjafa, t.d [!INCLUDE [prod_short](includes/prod_short.md)].. Dálkarnir og línur í sýndartöflu líta út eins og venjuleg tafla, hins vegar eru gögnin ekki geymd í rauntöflu í gagnagrunninum [!INCLUDE[prod_short](includes/cds_long_md.md)] . Þess í stað eru gögnin sótt við keyrslutíma.
 
 > [!NOTE]
-> [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur hluti sem einnig eru kallaðir sýndartöflur. Þessir töfluhlutir eru ekki tengdir sýndartöflunum sem eru notaðar með [!INCLUDE[prod_short](includes/cds_long_md.md)].
+> [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur hluti sem einnig eru kallaðar sýndartöflur. Þessir töfluhlutir eru ekki tengdir sýndartöflunum sem notaðar eru með [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 Til að fræðast meira um sýndartöflur er farið í eftirfarandi greinar:
 
-* [Stofna og breyta sýndartöflum sem innihalda gögn úr ytri gagnagjafa](/power-apps/maker/data-platform/create-edit-virtual-entities)  (Power Apps  fylgiskjöl)
-* [Miðlæg Sýndartafla fyrir  Microsoft Dataverse  Stjórnendaviðmið](/business-central/dev-itpro/powerplatform/powerplat-admin-reference)  ([!INCLUDE [prod_short](includes/prod_short.md)]  Fylgigögn)
+* [Stofna og breyta sýndartöflum sem innihalda gögn frá ytri gagnagjafa](/power-apps/maker/data-platform/create-edit-virtual-entities)  (Power Apps fylgiskjöl)
+* [Business Central Raunverulegur tafla fyrir Microsoft Dataverse Admin Reference](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-admin-reference) ([!INCLUDE [prod_short](includes/prod_short.md)] documentation)
 
-Til að nota sýndartöflur verður þú að setja upp  **Sýndareiningareiningu**  [AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftdynsmb.businesscentral_virtualentity) viðskiptamiðis. 
+Til að nota sýndartöflur verður að setja forritið **Business Central sýndareining** upp úr [AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftdynsmb.businesscentral_virtualentity). 
 
-Þegar þú hefur sett upp App er hægt að virkja sýndartöflur á einum af eftirfarandi síðum í [!INCLUDE [prod_short](includes/prod_short.md)]:
+Þegar forritið hefur verið sett upp getur þú gert sýndartöflur virkar á einni af eftirfarandi síðum í [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-* Þegar leiðbeiningar um uppsetningu á aðstoðarmanni uppsetningar á  **Dataverse  tengingu**  er keyrt er hægt að nota  **Dataverse  tiltækar blaðsíður sýndartaflna**  til að velja margar sýndartöflur. Í kjölfarið eru töflurnar tiltækar í  [!INCLUDE[prod_short](includes/cds_long_md.md)]  og  PowerApps  í Maker gáttinni. 
-*  **Dataverse Frá uppsetningu** tengingar,  **sýndartöflum** og  **tiltækum síðum sýndartaflna** .  
-* Frá Power App Maker gáttinni.
+* Þegar uppsetningarleiðbeiningar með aðstoð við tengingu **eru keyrðar Dataverse** er hægt að nota **Dataverse síðuna Tiltækar sýndartöflur** til að velja margar sýndartöflur. Síðan eru töflurnar tiltækar í [!INCLUDE[prod_short](includes/cds_long_md.md)] og PowerApps Maker Portal. 
+* Frá síðunum **Dataverse Uppsetning** tengingar, **Sýndartöflum** og **Tiltækum** sýndartöflum.  
+* Frá Power App Maker Portal.
 
-## <a name="synchronize-data-from-multiple-companies-or-environments"></a>Samstilla gögn frá mörgum fyrirtækjum eða umhverfi
+## Samstilla gögn frá mörgum fyrirtækjum eða umhverfi
 
-Hægt er að samstilla gögn frá mörgum  [!INCLUDE [prod_short](includes/prod_short.md)]  fyrirtækjum eða umhverfi við  [!INCLUDE[prod_short](includes/cds_long_md.md)]  umhverfi. Í samstillingaráætlunum margra fyrirtækja er nokkur atriði að hafa í huga.
+Hægt er að samstilla gögn frá mörgum [!INCLUDE [prod_short](includes/prod_short.md)] fyrirtækjum eða umhverfi við [!INCLUDE[prod_short](includes/cds_long_md.md)] umhverfi. Í samstillingaraðstæðum í mörgum fyrirtækjum er ýmislegt sem þarf að íhuga.
 
-### <a name="set-company-ids"></a>Stilla auðkenni fyrirtækis
+### Stilla kenni fyrirtækis
 
-Þegar færslur eru samstilltar, setjum við KENNI fyrirtækis á  [!INCLUDE[prod_short](includes/cds_long_md.md)]  eininguna til að skýra  [!INCLUDE [prod_short](includes/prod_short.md)]  fyrirtækið sem færslurnar komu frá. Fjölvarpstöflu samþættingar er með samþættingartöfluafmörkunarreitum sem taka KENNI fyrirtækis með í reikninginn. Ef hafa á töfluvörpun með í uppsetningu margra fyrirtækja á  **vörpunartöflu**  samþættingar er valið  **gátreitinn fjölfyrirtækið samstilling** . Stillingin stækkar það sem afmörkunarreitir samþættingartöflunnar afmarka í uppsetningu margra fyrirtækja.
+Þegar færslur eru samstilltar setjum við kenni fyrirtækis á eininguna [!INCLUDE[prod_short](includes/cds_long_md.md)] til að útskýra fyrirtækið [!INCLUDE [prod_short](includes/prod_short.md)] sem færslurnar komu frá. Vörpun samþættingartöflu hafa afmörkunarreiti samþættingartöflu sem taka fyrirtækiskennið með í reikninginn. Til að taka töfluvörpun með í uppsetningu margra fyrirtækja skal velja gátreitinn Samstillingarvörpun með mörgum fyrirtækjum á **síðunni Samþættingartöfluvörpun**  **.**  Stillingin bestar hvernig afmörkunarreitir samþættingartöflu afmarka kenni fyrirtækis í uppsetningu margra fyrirtækja.
 
-Ef valið er að samstilla töfluvörpun sem samstillir skjöl, svo sem pantanir, tilboð og tækifæri, er gátreiturinn fyrir samkeyrslu  **margra fyrirtækja valinn**  . Samþætting telur aðeins einingar sem hafa Kenni fyrirtækisins í gildandi  [!INCLUDE [prod_short](includes/prod_short.md)]  fyrirtæki. Til að samstilla skjöl, til dæmis milli Viðskiptamiðanna og sölu, verður að tilgreina AUÐKENNI fyrirtækisins á skjölunum. Annars samstillir skjölin ekki.  
+Fyrir vörpun samþættingartöflu sem samstilla skjöl, t.d. pantanir, tilboð og tækifæri, ef gátreiturinn Samstilling **með mörgum fyrirtækjum er valinn** tekur samþættingin aðeins tillit til eininga sem eru með fyrirtækiskenni gildandi [!INCLUDE [prod_short](includes/prod_short.md)] fyrirtækis. Til að samstilla skjöl, t.d. milli Business Central og Sales, verða notendur í Sölu að tilgreina kenni fyrirtækis á skjölunum. Annars samstillast skjölin ekki.  
 
-Fyrir allar aðrar töfluvörpun samþættingar er gátreiturinn fjölfyrirtækjasamgerður  **samstillingar fjarlægður og afmörkunin á kenni fyrirtækis valin** . Samstillingin telur tengdar einingar, óháð fyrirtækjaauðkenni þeirra.
+Ef um allar aðrar vörpun samþættingartöflu er að velja **gátreitinn Samstilling** virk með mörgum fyrirtækjum fjarlægir afmörkunina á kenni fyrirtækis. Samstillingin tekur tillit til tengdra eininga, óháð kenni fyrirtækis þeirra.
 
-### <a name="specify-the-synchronization-direction"></a>Tilgreina skal samstillingarstefnu
+### Tilgreina stefnu samstillingar
 
-Ef stuðningur við fjölfyrirtæki er gerður virkur við vörpun samþættingar töflu er mælt með því að setja stefnuna á vörpun í  **frominteánægjuleg**. Ef stefnan er sett á að  **tosamþætting**  eða  **tvímörkun** er góð hugmynd til að nota  **síu**  fyrir töfluna afmörkun  **og**  Samþætting til að stjórna því hvaða einingar samstilla við fyrirtækið. Það er líka góð hugmynd að nota Match-based festingu til að forðast að stofna tvíteknar færslur. Til að fræðast meira um samsvörun byggða er farið í að  [Sérsníða samsvörun byggða](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#customize-the-match-based-coupling) á samsvörun.
+Ef stuðningur margra fyrirtækja er virkjaður við samþættingartöfluvörpun er mælt með því að stefnu vörpunarinnar **sé stillt á FromIntegration**. Ef stefnan er stillt á **ToIntegration** eða **Bidirectional** er gott að nota **Töfluafmörkun og** Samþættingartöfluafmörkun **til** að stjórna því hvaða einingar samstilla við hvaða fyrirtæki. Það er einnig góð hugmynd að nota samsvörunargrundvallaða uppsetningu til að koma í veg fyrir að tvíteknar færslur séu búnar til. Nánari upplýsingar um samsvörun er að [finna í Sérstilla samsvörunarmiðaða jöfnun](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#customize-the-match-based-coupling).
 
-### <a name="use-unique-numbers"></a>Nota einkvæmt númer
+### Nota einkvæm númer
 
-Ef númeraröðin tryggir ekki að aðallykildin séu einstök fyrir hvert fyrirtæki er mælt með því að nota forskeyti. Til að byrja að nota forskeyti, Stofnið umbreytingarreglu í reitnum samþættingarvörpun. Til að fræðast meira um umbreytingarreglur er farið í að  [sjá mismun í svæðisgildum](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values).
+Ef númeraröðin tryggir ekki að aðallykilgildi séu einstök hverju fyrirtæki er mælt með því að forskeyti séu notuð. Til að hefja notkun forskeyta skal stofna umbreytingarreglu á vörpun samþættingarreitsins. Hægt er að fá nánari upplýsingar um breytingareglur með því að [fara í Afgreiða mismun í reitagildum](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .  
 
 [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md)   
-[Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
+[Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
