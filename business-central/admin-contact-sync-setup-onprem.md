@@ -10,23 +10,23 @@ ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# Setja upp tengiliðasamstillingu við Outlook fyrir Business Central innanhúss
+# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a>Setja upp tengiliðasamstillingu við Outlook fyrir Business Central innanhúss
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Í þessari grein er lært hvernig á að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss til að samstilla tengiliði við [!INCLUDE[prod_short](includes/prod_short.md)] tengiliði í Outlook. Frekari upplýsingar er hægt að [fá í Samstilla tengiliði í Business Central við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 
-## Kynning
+## <a name="introduction"></a>Kynning
 
 Samstilling tengiliða krefst þess að nota samskiptaregluna OAuth 2.0 til sannvottunar með Exchange Online. Áður var grunnsönnun einnig studd, en hún hefur verið afskrifuð og ekki lengur studd með Exchange Online. Nánari upplýsingar um afskriftir eru [í Afskrift einfaldrar sannvottunar í Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). Þessi breyting þýðir að tengiliðasamstilling í Business Central gæti hafa hætt að vinna við umhverfið á staðnum. Þessi grein mun útskýra hvernig á að fá hana til starfa aftur.
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 - Exchange Online, annaðhvort standalone útgáfu eða með Microsoft 365 áætlun  
 - Aðgangur að leigjandanum Microsoft Entra sem notaður er af Exchange Online
 - [!INCLUDE[prod_short](includes/prod_short.md)] notendur hafa eða Microsoft 365  Exchange Online tölvupóstreikning, sem er úthlutað á reikninga þeirra í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að athuga þessa stillingu í hlutanum **Microsoft 365 Sannvottun** notendasniðs á listanum **Notendur** . 
 
-## Setja upp samstillingu tengiliða
+## <a name="set-up-contact-sync"></a>Setja upp samstillingu tengiliða
 
 Ljúka skal eftirfarandi skrefum til að setja upp samstillingu tengiliða. Ef þú keyrir [!INCLUDE[prod_short](includes/prod_short.md)] Vor 2019 (v.14) þarftu að gera aukaskref sem annaðhvort breytir forritskóta eða setur upp tengingu við Power BI.
 
@@ -61,6 +61,6 @@ Ljúka skal eftirfarandi skrefum til að setja upp samstillingu tengiliða. Ef �
 
    Þegar lausnin sem valin er er til staðar er beðið notendur um að keyra nýja/breyttu síðuna eða [tengjast Power BI](across-working-with-powerbi.md#connect). Þeir þurfa aðeins að gera þetta skref einu sinni.
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 [Samstilla tengiliði í Business Central við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)  

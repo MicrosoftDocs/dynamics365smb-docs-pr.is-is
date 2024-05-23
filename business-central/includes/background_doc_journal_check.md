@@ -5,7 +5,7 @@ ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## Athugaðu gögn í skjölum og færslubókum á meðan þú vinnur
+## <a name="check-data-in-documents-and-journals-while-you-work"></a>Athugaðu gögn í skjölum og færslubókum á meðan þú vinnur
 
 Kerfisstjórinn getur gert það mögulegt [!INCLUDE [prod_short](prod_short.md)] að staðfesta gögnin sem færð eru inn í skjöl og færslubækur í rauntíma.
 

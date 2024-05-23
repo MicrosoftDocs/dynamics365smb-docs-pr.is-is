@@ -36,7 +36,7 @@ ms.service: dynamics-365-business-central
 - Sjá hvernig samningsbundnar - og reikningsupphæðir eru ákveðnar.  
 - Gera ráð fyrir viðbótarvinnu í áætluninni sem hefur ekki verið reikningsfærð.  
 
-### <a name="copying-a-job"></a>Afritun verks
+### <a name="copying-a-project"></a>Afritun verks
 
  Í þessum hluta kynningarinnar er lögð áhersla á hvernig afrita skuli hluta eða allt verkefni til að draga úr handvirkum innslætti gagna og auka nákvæmni. Þar á meðal eftirfarandi:  
 
@@ -223,11 +223,11 @@ ms.service: dynamics-365-business-central
 
 Línurnar eru bókaðar.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Reikningur verksölu stofnaður og bókaður
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Reikningur verksölu stofnaður og bókaður
 
  Næst skal Trausti stofna nýjan reikning fyrir allt verkið eða fyrir hluta af verkinu. Tinna getur einnig hengt reikninginn við annan reikning fyrir sama viðskiptamann fyrir sama verkið. Í þessu tilviki reikningsfærir Trausti fyrir allt verkið þar sem verkefninu er nú lokið.  
 
-### <a name="to-create-a-job-sales-invoice"></a>Stofnun reiknings fyrir verksölu
+### <a name="to-create-a-project-sales-invoice"></a>Stofnun reiknings fyrir verksölu
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2.  Veljið verkið sem var stofnað áður og veljið því næst **Stofna verksölureikningur** aðgerðina.  
@@ -261,7 +261,7 @@ Línurnar eru bókaðar.
 
  CRONUS hefur tekið að sér að setja upp fundarsali. Verkefnastjórinn Petra þarf gott yfirlit yfir verkhluta verksins ásamt kostnaðaráætlun og kostnaði sem stofnað hefur verið til fyrir hvern verkhluta. Að auki vill Petra vita heildarverð samnings fyrir verkið og upphæðina sem hefur verið reikningsfærð á þennan stað. Náðst hefur samkomulag við viðskiptamanninn um fast verð fyrir verkið.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a>Föstu verði verka stýrt
+### <a name="to-manage-fixed-pricing-in-projects"></a>Föstu verði verka stýrt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verk** og velja síðan viðkomandi tengil.  
 2. **Guildford** verknúmerið er valið og svo er valin **Verkhlutalínur verks** aðgerðina.  

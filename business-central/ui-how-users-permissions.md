@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Stofna notendur samkvæmt leyfum
+# <a name="create-users-according-to-licenses"></a>Stofna notendur samkvæmt leyfum
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -26,7 +26,7 @@ Frekari upplýsingar um mismunandi gerðir leyfa og hvernig leyfi virka í [!INC
 > [!NOTE]
 > Ferlið við að stjórna notendum og leyfum er mismunandi eftir því hvort [!INCLUDE[prod_short](includes/prod_short.md)] er sett upp á netinu eða innanhúss. Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á netinu þarf að bæta við notendum úr Microsoft 365. Í uppsetningum á staðnum er hægt að búa til, breyta og eyða notendum beint.  
 
-## Stjórna notendum og leyfum í leigjendum á netinu
+## <a name="manage-users-and-licenses-in-online-tenants"></a>Stjórna notendum og leyfum í leigjendum á netinu
 
 Fyrst verður að stofna notendareikninga í [!INCLUDE[prod_short](includes/prod_short.md)]  Microsoft 365 stjórnunarstöðinni. Þessir notendareikningar eru ekki undanskildir [!INCLUDE [prod_short](includes/prod_short.md)]. Ef þú gerast áskrifandi að öðrum áætlunum er hægt að nota þær til að skrá þær inn í önnur forrit, t.d Power BI.. Upplýsingar um stofnun notenda í Microsoft 365 stjórnunarmiðstöðinni [fást í Bæta við notendum í stjórnunarmiðstöð Microsoft](/microsoft-365/admin/add-users/add-users).
 
@@ -61,7 +61,7 @@ Báðar aðferðir hafa sína eigin kosti og hægt er að nota þær samtímis. 
 
 Frekari upplýsingar eru í [Úthlutaður stjórnendaaðgangur að Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="licensespermissions"></a>Grunnstilla heimildir út frá leyfum
+### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Grunnstilla heimildir út frá leyfum
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -91,7 +91,7 @@ Ef þessi sjálfgefna grunnstilling er ekki rétt uppsetning fyrir tiltekið umh
 > [!IMPORTANT]
 > Þessi sérstilling heimilda tekur aðeins gildi fyrir nýja notendur sem úthlutað er viðeigandi leyfi. Núverandi notendur eru ekki uppfærðir. Mælt er með því að sérsníða heimildir áður en þú úthlutar notendum leyfum í Microsoft 365 stjórnendamiðstöðinni.
 
-### <a name="adduser"></a>Að bæta við notendum eða uppfæra notandaupplýsingar og úthlutunum leyfa í Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Að bæta við notendum eða uppfæra notandaupplýsingar og úthlutunum leyfa í Business Central
 
 Þegar notendum er bætt við eða notandaupplýsingum er breytt í stjórnendamiðstöð Microsoft 365 er hægt að flytja notandaupplýsingarnar á fljótlegan hátt inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Innflutningurinn inniheldur leyfisúthlutanir.  
 
@@ -118,7 +118,7 @@ Nánari upplýsingar um samstillingu notendaupplýsinga eru Microsoft 365 í hlu
 > [!NOTE]
 > Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, geturðu boðið þeim í þitt [!INCLUDE[prod_short](includes/prod_short.md)] svo þeir geti unnið með þín fjárhagsgögn. Frekari upplýsingar eru í [Bjóða ytri endurskoðanda í þitt Business Central](finance-accounting.md#inviteaccountant).
 
-### Til að fjarlægja aðgang notanda að kerfinu
+### <a name="to-remove-a-users-access-to-the-system"></a>Til að fjarlægja aðgang notanda að kerfinu
 
 Hægt er að fjarlægja aðgang notanda að [!INCLUDE[prod_short](includes/prod_short.md)]. Allar tilvísanir í notandann eru geymdar. Notandinn getur hins vegar ekki skráð sig inn og virkar lotur fyrir notandann eru stöðvaðar.
 
@@ -128,7 +128,7 @@ Hægt er að fjarlægja aðgang notanda að [!INCLUDE[prod_short](includes/prod_
 
 Auk þess er hægt að taka leyfið af notanda í Microsoft 365 stjórnendamiðstöðinni. Þá getur notandinn ekki skráð sig inn. Nánari upplýsingar er að finna í [Leyfi tekin af notendum](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="m365"></a>Samstilling við Microsoft 365
+### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Samstilling við Microsoft 365
 
 Þegar notanda er úthlutað leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Microsoft 365 eru tvær leiðir til að búa notandann til í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -153,13 +153,13 @@ Fræðast um að tryggja aðgang að umhverfi með því að nota öryggishópa 
 
 Fá yfirlit yfir aðgang [!INCLUDE[prod_short](includes/prod_short.md)] í Teymi með Microsoft 365 leyfi á [admin-aðgangi-með-m365-leyfi](admin-access-with-m365-license.md).
 
-## Umsjón með notendum og leyfum í uppsetningu innanhúss
+## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Umsjón með notendum og leyfum í uppsetningu innanhúss
 
 Fyrir virkjun innanhúss er fjöldi notendaleyfa tilgreindur í leyfisskránni (.bclicense eða .flf). Þegar stjórnandi eða Microsoft-samstarfsaðili hleður upp leyfisskránni geta þeir tilgreint hvaða notendur geta skráð sig inn á [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Fyrir uppsetningar innanhúss býr stjórnandinn til, breytir og eyðir notendum beint af síðunni **Notendur**.
 
-### Til að breyta eða eyða notanda í uppsetningu á staðnum
+### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Til að breyta eða eyða notanda í uppsetningu á staðnum
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 2. Velja skal notandann sem á að breyta og velja síðan aðgerðina **Breyta**.
@@ -171,11 +171,11 @@ Fyrir uppsetningar innanhúss býr stjórnandinn til, breytir og eyðir notendum
 >
 > Nánari upplýsingar er að finna í [Gerðir auðkenningar og persónuskilríkja](/dynamics365/business-central/dev-itpro/administration/users-credential-types) í hjálparefni stjórnenda fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Greina notendastöðu eftir leyfisgerð
+## <a name="analyze-user-status-by-license-type"></a>Greina notendastöðu eftir leyfisgerð
 
 Hægt er að nota aðgerðina **Gagnagreining** til að greina gögn á síðunni [Notendur](https://businesscentral.dynamics.com/?page=9800) . Ekki þarf að keyra skýrslu eða opna annað forrit, t.d. Excel. Eiginleikinn býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Nokkur dæmi eru "Notendur eftir stöðu" eða "Notendur eftir leyfistegund" eða hvaða önnur sjónarmið sem hægt er að ímynda sér. Til að fræðast meira um notkun aðgerðarinnar **Gagnagreining** er farið í [Greiningarlista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md).
 
-### Notendagreiningaraðstæður
+### <a name="user-analysis-scenarios"></a>Notendagreiningaraðstæður
 
 Í eftirfarandi hlutum eru dæmi um aðstæður þar sem greining notendalistans getur hjálpað til við að fylgjast með stöðu notenda.
 
@@ -184,7 +184,7 @@ Hægt er að nota aðgerðina **Gagnagreining** til að greina gögn á síðunn
 | [Notendur eftir stöðu](#example-users-by-status) | Sjá lista yfir notendur sem byggja á stöðu þeirra (virkur/óvirkur). | [Notendur](https://businesscentral.dynamics.com/?page=9800) | **Staða, Notandanafn**, **Fullt nafn**, **Heimild tölvupóstur** og **Leyfi Tegund**. **·** |
 | [Notendur eftir leyfisgerð](#example-users-by-license-type) | Sjá lista yfir notendur sem byggjast á leyfisgerð þeirra. | [Notendur](https://businesscentral.dynamics.com/?page=9800) | **Leyfistegund**, **Staða**,  **Notandanafn**, **Fullt nafn** og **Heimild tölvupóstur**. |
 
-### Dæmi: Notendur eftir stöðu
+### <a name="example-users-by-status"></a>Dæmi: Notendur eftir stöðu
 
 Til að greina notendur eftir stöðu skal fylgja eftirfarandi skrefum:
 
@@ -198,7 +198,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source=" media/data-analysis-users.png" alt-text="Dæmi um greiningu á gögnum á síðunni Breytingaskrárfærslur (Hver breytti hvaða gögnum Hvenær)." lightbox="media/data-analysis-users.png":::
 
-### Dæmi: Notendur eftir leyfisgerð
+### <a name="example-users-by-license-type"></a>Dæmi: Notendur eftir leyfisgerð
 
 Til að greina notendur eftir leyfistegund skal fylgja eftirfarandi skrefum:
 
@@ -208,7 +208,7 @@ Til að greina notendur eftir leyfistegund skal fylgja eftirfarandi skrefum:
 1. Veldu reitina Notandanafn **,** Fullt nafn **og** Heimild **tölvupóstur** .
 1. Endurnefna greiningarflipann á **Notendur eftir leyfistegund** eða einhverju sem lýsir þessari greiningu.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  

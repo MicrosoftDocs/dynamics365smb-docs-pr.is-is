@@ -10,7 +10,7 @@ ms.search.form: '1002, 1007,'
 ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ---
-# Reikningsfæra verk
+# <a name="invoice-projects"></a>Reikningsfæra verk
 
 Meðan á verkefninu stendur getur kostnaður vegna forðanotkunar, efnis og verktengdra innkaupa safnast upp. Eftir því sem verkinu líður eru þessar færslur bókaðar í verkbókina. Mikilvægt er að allur kostnaður sé skráður í verkbókina áður en viðskiptavinurinn er reikningsfærður.
 
@@ -24,7 +24,7 @@ Hægt er að reikningsfæra allt verkið af síðunni **Verkhlutalínur verks** 
 
 Einnig er hægt að reikningsfæra fyrirtæki sem er ekki endaviðskiptamaður. Stundum er sá aðili sem verkefni er unnið fyrir annar en sá sem er að borga reikninginn. Á síðunni **Verkefni** er hægt að tilgreina þann viðskiptamann sem mun njóta góðs af verkefninu í reitunum **Selt-til** og aðili á að reikningsfæra í reitina **Reikningsfært á** .
 
-## Til að stofna marga sölureikninga verka
+## <a name="to-create-multiple-project-sales-invoices"></a>Til að stofna marga sölureikninga verka
 
 Hægt er að stofna reikning fyrir verk eða fyrir einn eða fleiri verkhluta fyrir viðskiptavin þegar verkinu sem á að reikningsfæra er lokið eða dagsetning reikningsfærslu sem byggist á reikningsfærsluáætlun er náð.
 
@@ -40,7 +40,7 @@ Hægt er að yfirfara og bóka stofnaða reikninga í glugganum **Sölureikninga
 > [!NOTE]
 > Einnig er hægt að reikningsfæra á viðskiptavin með því að velja verkið og velja svo aðgerðina **Stofna sölureikning** . 
 
-## Til að stofna og bóka sölureikning verks úr verkáætlunarlínum
+## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>Til að stofna og bóka sölureikning verks úr verkáætlunarlínum
 
 Hægt er að stofna reikning úr verkáætlunarlínum og gefa til kynna á þeim tíma magn vöru, forða eða fjárhagsreiknings sem á að reikningsfæra.
 
@@ -59,7 +59,7 @@ Hægt er að stofna reikning úr verkáætlunarlínum og gefa til kynna á þeim
 > [!NOTE]  
 > Ofangreint ferli svipar til stofnunar, endurskoða og bóka verktengdan sölukreditreikning.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórna verkum](projects-manage-projects.md)  
 [Fjármál](finance.md)  

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Tilfalalengd greining á sölugögnum
+# <a name="ad-hoc-analysis-of-sales-data"></a>Tilfalalengd greining á sölugögnum
 
 Þessi grein útskýrir hvernig á að nota aðgerðina **Gagnagreining** til að greina sölugögn beint frá listasíðum og fyrirspurnum. Ekki þarf að keyra skýrslu eða skipta yfir í annað forrit, t.d. Excel. Eiginleikinn býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Nokkur dæmi eru "Viðskiptamenn mínir" eða "Söluupplýsingar" eða hvaða önnur yfirlit sem hægt er að ímynda sér. Til að fræðast meira um notkun aðgerðarinnar **Gagnagreining** er farið í [Greiningarlista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md).
 
@@ -25,7 +25,7 @@ Eftirfarandi listasíður eru notaðar til að gera augljósa greiningu á sölu
 - Bókaðir sölureikningar
 - Söluvöruskilapantanir
 
-## Söluaðstæður í tilfalengdum greiningardæmum
+## <a name="sales-ad-hoc-analysis-scenarios"></a>Söluaðstæður í tilfalengdum greiningardæmum
 
 Aðgerðin **Gagnagreining** er notuð til að gera skyndiathugun og tilfalalengdar greiningar:
 
@@ -41,7 +41,7 @@ Eftirfarandi hlutar gefa dæmi um söluaðstæður í [!INCLUDE [prod_short](inc
 | [Sala (Sala viðskiptamanns eftir rúmmáli)](#example-sales-customer-sales-by-volume) | Fá yfirlit yfir þá viðskiptamenn sem kaupa mest inn eða sem skulda mest. | [Viðskm.færslur](https://businesscentral.dynamics.com/?page=25) | **Nafn viðskiptamanns, Númer** fylgiskjals, **Upphæð** og **Eftirstöðvar**. **·** |
 | [Vaxtareikningur (Útistandandi safnreikningur)](#example-finance-accounts-receivables) | Sjá hverju viðskiptamennirnir skulda, til dæmis, skipt niður í tímabil þegar upphæðir eru gjaldfallnar. | [Viðskm.færslur](https://businesscentral.dynamics.com/?page=25) | **Nafn viðskiptamanns**, **Gjalddagi** og **Eftirstöðvar**. |
 
-## Dæmi: Sala (væntanlegt sölumagn)
+## <a name="example-sales-expected-sales-volume"></a>Dæmi: Sala (væntanlegt sölumagn)
 
 Til að greina áætlað sölumagn og söluupphæðir óskráðra pantana fyrir hvern viðskiptamann fyrir ár eða mánuð skal fylgja eftirfarandi skrefum:
 
@@ -54,7 +54,7 @@ Til að greina áætlað sölumagn og söluupphæðir óskráðra pantana fyrir 
 1. Afmörkun er notuð í valmyndinni **Viðbótarafmarkanir til að gera greiningu fyrir tiltekið ár eða ársfjórðung** . Valmyndin er hægra megin við síðuna, rétt fyrir neðan **dálkavalmyndina** .
 1. Endurnefna greiningarflipa á **væntanlegt sölumagn** eða eitthvað sem lýsir þessari greiningu.
 
-## Dæmi: Sala (Sala viðskiptamanns eftir rúmmáli)
+## <a name="example-sales-customer-sales-by-volume"></a>Dæmi: Sala (Sala viðskiptamanns eftir rúmmáli)
 
 Til að framleiða yfirlit yfir viðskiptamenn sem kaupa mest inn eða sem skulda mest er eftirfarandi skrefum fylgt:
 
@@ -69,7 +69,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Dæmi um gagnagreiningu á síðunni Viðskm.færslur." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
-## Dæmi: Fjárhagur (Útistandandi safnreikningur)
+## <a name="example-finance-accounts-receivables"></a>Dæmi: Fjárhagur (Útistandandi safnreikningur)
 
 Til að sjá hvað viðskiptamenn skulda þér er kannski raðað niður í tímabil þegar upphæðir eru gjaldfallnar skal fylgja eftirfarandi skrefum:
 
@@ -81,7 +81,7 @@ Til að sjá hvað viðskiptamenn skulda þér er kannski raðað niður í tím
 1. Afmörkun er notuð í valmyndinni **Viðbótarafmarkanir til að gera greiningu fyrir tiltekið ár eða ársfjórðung** . Valmyndin er hægra megin við síðuna, rétt fyrir neðan **dálkavalmyndina** .
 1. Endurnefna greiningarflipann á **aldursgreiningarreikninga eftir mánuðum** eða eitthvað sem lýsir þessari greiningu.
 
-## Gagnagrunnur fyrir tilfalvarna greiningu á sölu
+## <a name="data-foundation-for-ad-hoc-analysis-on-sales"></a>Gagnagrunnur fyrir tilfalvarna greiningu á sölu
 
 Þegar upplýsingar hafa verið færðar inn á sölupöntun og öllum sölupöntunarlínum bætt við er hægt að bóka pöntunina. Bókun stofnar afhendingu og reikning. [!INCLUDE [prod_short](includes/prod_short.md)] uppfærir reikning viðskiptamanns, fjárhag og birgðafærslur:
 
@@ -90,7 +90,7 @@ Til að sjá hvað viðskiptamenn skulda þér er kannski raðað niður í tím
 
 Nánari upplýsingar um bókun sölu fást með því að fara [í Bókun sölu](ui-post-sales.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Bókun sölu](ui-post-sales.md)  
 [Greina lista- og fyrirspurnargögn með greiningarstillingu](analysis-mode.md)  

@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Afstemma greiðslur viðskiptavinar með inngreiðslubók eða úr færslum í viðskiptamannabók
+# <a name="reconcile-customer-payments-with-a-cash-receipt-journal-or-from-customer-ledger-entries"></a>Afstemma greiðslur viðskiptavinar með inngreiðslubók eða úr færslum í viðskiptamannabók
 
 Þegar tekið er á móti greiðslu frá viðskiptamanni eða gefin endurgreiðsla er hægt að jafna greiðsluna eða endurgreiða til að loka opnum debet- eða kreditfærslum. Hægt er að tilgreina upphæð sem á að nota. Til dæmis er hægt að færa hlutagreiðslur í færslur í viðskiptamannabók. Að loka færslum í viðskiptamannabók heldur upplýsingum um tölfræði viðskiptamanna, reikningsyfirlit, vaxtareikningum uppfæðum.
 
