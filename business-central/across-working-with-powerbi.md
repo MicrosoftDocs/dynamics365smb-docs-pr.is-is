@@ -9,11 +9,11 @@ ms.date: 04/24/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-power-bi-reports-in-"></a>Vinna með Power BI skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]
+# Vinna með Power BI skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Í þessari grein lærir þú nokkrar af grunnatriðum um að vinna með skýrslur. Þar með talið eru skoðaðar Power BI skýrslur inni [!INCLUDE [prod_short](includes/prod_short.md)]  (þ.m.t. árangursmat og mælaborð) og breytingar Power BI á skýrslum sem nota [!INCLUDE [prod_short](includes/prod_short.md)] sem gagnagjafa. Greinin fjallar um suma þætti sem munu hjálpa til við að hefjast handa sem [!INCLUDE[prod_short](includes/prod_short.md)] notandi. Almennar leiðbeiningar og leiðbeiningar um notkun á Power BI er að finna í [Power BI fylgigögnum fyrir neytendur](/power-bi/consumer).
 
-## <a name="overview"></a>Yfirlit
+## Yfirlit
 
 Power BI skýrslur veita innsýn inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Ýmsar síður í [!INCLUDE [prod_short](includes/prod_short.md)] innihalda Power BI-skýrsluhluta sem getur birt Power BI skýrslur. Hlutverkamiðstöð er dæmigerð síða þar sem þú sérð Power BI skýrsluhluta. Sumar listasíður, eins og **Vörur**, innihalda einnig Power BI hluta.
 
@@ -21,12 +21,12 @@ Power BI skýrslur veita innsýn inn í [!INCLUDE[prod_short](includes/prod_shor
 
 ![Power BI hluti í Business Central.](./media/power-bi-part.png)
 
-## <a name="get-started"></a>Hefjast handa
+## Hefjast handa
 
 > [!NOTE]
 > [!INCLUDE [prod_short](includes/prod_short.md)] á netinu er þegar uppsett til að samþætta sig við Power BI.
 
-### <a name="sign-up-power-bi"></a>Skráning Power BI
+### Skráning Power BI
 
 Áður en hægt er að nota Power BI með [!INCLUDE[prod_short](includes/prod_short.md)] þarf að skrá sig fyrir Power BI-þjónustunni. Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
 
@@ -38,7 +38,7 @@ Með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er sjálfkrafa hæ
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Tengjast við Power BI - aðeins einu sinni
+## <a name="connect"></a>Tengjast við Power BI - aðeins einu sinni
 
 Þegar þú skráir þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] í fyrsta skipti sérðu líklega auðan Power BI hluta (eins og sýnt er á fyrri mynd) á ýmsum síðum. Það fyrsta sem þú skalt gera er að tengjast Power BI -reikningnum þínum. Eftir tengingu er hægt að skoða skýrslur. Þú þarft aðeins að gera þetta einu sinni.
 
@@ -62,23 +62,23 @@ Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is s
 
 Once connected, you can select a report from the Power BI part on pages.-->
 
-## <a name="work-with-power-bi-reports"></a>Vinna með Power BI skýrslur
+## Vinna með Power BI skýrslur
 
-### <a name="get-the-latest-data"></a>Fá nýjustu gögnin
+### Fá nýjustu gögnin
 
 Hver Power BI skýrsla byggir á gagnasafni sem fær gögn frá [!INCLUDE[prod_short](includes/prod_short.md)] uppruna. Þú vilt ganga úr skugga um að gögnin í Power BI-skýrslunum séu uppfærð með gögnunum í [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta hugtak er nefnt *uppfærsla*.  Ekki er víst að endurnýjun gerist sjálfkrafa, allt eftir því hvernig fyrirtækið hefur sett upp Power BI. Það eru tvær leiðir til að uppfæra gögn: handvirkt eða með því að tímasetja uppfærslu. Handvirk endurnýjun fer fram eftir þörfum. Áætluð endurnýjun gerir þér kleift að uppfæra sjálfkrafa á skilgreindum tímabilum.
 
-#### <a name="refresh-manually"></a>Uppfæra handvirkt
+#### Uppfæra handvirkt
 
 Frá Power BI netinu, á yfirlitssvæðinu, undir **Datasets**, veljið **Fleiri valkosti (...)** Við hlið gagnasafnsins skal velja **Endurnýja núna**.
 
-#### <a name="schedule-a-refresh"></a>Áætla uppfærslu
+#### Áætla uppfærslu
 
 Frá Power BI netinu, á yfirlitssvæðinu, undir Datasets, skal velja Fleiri valkosti (...) við hlið gagnamengisins og velja **svo Tímasetja endurnýjun**. Fylltu út upplýsingarnar í **Tímasetja uppfærslu** og veldu **Not**.
 
 Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/connect-data/refresh-scheduled-refresh)
 
-### <a name="show-reports-on-list-pages"></a>Sýna skýrslur á listasíðum
+### Sýna skýrslur á listasíðum
 
 [!INCLUDE[prod_long](includes/prod_long.md)] inniheldur Power BI upplýsingareit á nokkrum lyklalistasíðum. Þessi upplýsingareitur veitir frekari innsýn í gögnin á listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu.
 
@@ -89,13 +89,13 @@ Frekari upplýsingar um hvernig á að búa til skýrslur fyrir listasíður er 
 >
 > Eða ef þú ert með eldri útgáfu af Business Central skaltu fara á aðgerðastikuna, velja **Aðgerðir** > **Birta** > **Sýna/fela Power BI skýrslur**.
 
-### <a name="switch-reports"></a>Skipta í aðra skýrslu
+### Skipta í aðra skýrslu
 
 Power BI hluti á síðu getur birt allar Power BI skýrslur sem þú hefur aðgang að. Til að skipta yfir í aðra skýrslu skal velja **Velja skýrslu** aðgerðina úr fellilista sem er efst í hlutanum.  
 
 **Power BI Síða skýrsluvals** sýnir lista yfir allar Power BI-skýrslur sem þú hefur aðgang að. Þessi listi er sóttur úr vinnusvæðum þínum eða vinnusvæðum sem deilt hefur verið með þér í Power BI þjónustunni. Veldu **Virkja** fyrir allar þær skýrslur sem þú vilt birta á heimasíðunni og veldu síðan **Í lagi**. Þú munt fara aftur á síðuna og síðasta skýrsla sem þú virkjaðir birtist. Í fellilistanum með skipunum skaltu nota skipanirnar **Fyrri** og **Næsta** til að fletta á milli skýrsla.  
 
-### <a name="get-more-reports"></a>Fá fleiri skýrslur
+### Fá fleiri skýrslur
 
 Ef þú sérð engar skýrslur á síðunni **Power BI Skýrsluval** eða sérð ekki skýrsluna sem þú vilt skaltu velja **Fá skýrslur**. Þessi aðgerð gerir þér kleift að leita að skýrslum frá tveimur staðsetningum: *Fyrirtækið mitt* eða *Þjónusta*.
 
@@ -105,7 +105,7 @@ Ef þú sérð engar skýrslur á síðunni **Power BI Skýrsluval** eða sérð
 > [!TIP]
 > Ef þú ert með Power BI Desktop geturðu einnig búið til nýjar Power BI skýrslur. Þegar þessar skýrslur eru gefna út á Power BI-vinnusvæðið þitt, birtast þær á síðunni **Power BI Skýrsluval**.  
 
-### <a name="manage-and-modify-reports"></a>Stjórna og breyta skýrslum
+### Stjórna og breyta skýrslum
 
 Hægt er að gera breytingar á skýrslu í Power BI hlutanum. Breytingarnar sem þú gerir verða síðan birtar í Power BI-þjónustunni. Ef verið er að deila skýrslum með öðrum notendum sjá þeir einnig breytingarnar, nema breytingar séu vistaðar í nýja skýrslu.
 
@@ -116,7 +116,7 @@ Til að breyta skýrslu skal velja aðgerðina **Stjórna skýrslu** úr fellili
 > [!NOTE]
 > Þessi eiginleiki er ekki í boði með [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum.
 
-### <a name="upload-reports"></a><a name="upload"></a>Hlaða upp skýrslum
+### <a name="upload"></a>Hlaða upp skýrslum
 
 Hægt er að dreifa Power BI skýrslum á meðal notenda sem. pbix-skrám. Ef þú ert með .pbix-skrár er hægt að hlaða þeim upp og deila þeim með öllum notendum [!INCLUDE [prod_short](includes/prod_short.md)]. Skýrslunum er deilt innan hvers fyrirtækis í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -127,7 +127,7 @@ Til að hlaða upp skýrslu skaltu velja aðgerðina **Hlaða upp skýrslu** úr
 > [!NOTE]
 > Ef skýrslu er hlaðið upp með [!INCLUDE[prod_short](includes/prod_short.md)] þarf ofurnotandaheimild. [!INCLUDE[prod_short](includes/prod_short.md)] Ekki þarf neinar sérstakar heimildir til að hlaða skýrslum inn á vinnusvæðið með þjónustunni Power BI .
 
-## <a name="upload-reports-from-files"></a><a name="upload"></a>Hlaða upp skýrslum úr skrám
+## <a name="upload"></a>Hlaða upp skýrslum úr skrám
 
 Hægt er að dreifa Power BI skýrslum á meðal notenda sem. pbix-skrám. Ef þú ert með .pbix-skrá er hægt að hlaða skránni upp á vinnusvæði. Til að hlaða upp skýrslu skal gera eftirfarandi:
 
@@ -146,7 +146,7 @@ Frekari upplýsingar er að finna á [Hlaða upp skýrslu á þjónustu](/power-
 > [!TIP]
 > Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] á netinu geturðu einnig hlaðið upp skýrslu úr [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Vinna með Power BI skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)] - Hlaða upp skýrslum](across-working-with-powerbi.md#upload).
 
-## <a name="share-reports-with-others"></a><a name="share"></a>Deila skýrslum með öðrum
+## <a name="share"></a>Deila skýrslum með öðrum
 
 Þegar skýrsla er á vinnusvæðinu er hægt að deila henni með öðrum í fyrirtækinu.
 
@@ -155,23 +155,23 @@ Til að deila skýrslu, í listaskýrslum, eða í opinni skýrslu skal velja **
 > [!NOTE]
 > Þess er krafist að bæði þú og fólkið sem þú deilir skýrslunni með [Power BI Pro leyfi](/power-bi/service-features-license-type). Að öðrum kosti verður efnið að vera í [iðgjaldagetu](/power-bi/service-premium-what-is). Nánari upplýsingar eru í [Aðferðir við að deila vinnu þinn í Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="fixing-problems"></a>Vandamál lagfærð
+## Vandamál lagfærð
 
 Hins vegar, ef eitthvað fer úrskeiðis, þessi kafli gefur lausn fyrir dæmigerður vandamál.  
 
-### <a name="you-dont-have-a-power-bi-account"></a>Þú ert ekki með Power BI reikning
+### Þú ert ekki með Power BI reikning
 
 Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI reikning verður þú að vera með leyfi og þú þarf að hafa skráð þig inn í Power BI til að stofna Power BI vinnusvæði.
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Skilaboð: Engar skýrslur eru virkar. Veljið Velja skýrslu til að sjá hvaða skýrslur er hægt að birta.
+### Skilaboð: Engar skýrslur eru virkar. Veljið Velja skýrslu til að sjá hvaða skýrslur er hægt að birta.
 
 Þessi skilaboð birtast ef ekki tókst að virkja sjálfgefna skýrslu á Power BI vinnusvæði. Eða það var virkjað en uppfærðist ekki. Farðu í skýrsluna á Power BI vinnusvæðinu, velja **Gagnasafn**, **Stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnasafnið hefur verið endurnýjað er farið aftur í [!INCLUDE[prod_short](includes/prod_short.md)] og valið skýrslu handvirkt af **Velja skýrslur** síðunni.
 
-#### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Ekki er hægt að sjá skýrslur á síðu skýrsluvals á listasíðunni
+#### Ekki er hægt að sjá skýrslur á síðu skýrsluvals á listasíðunni
 
 Það er líklega vegna þess að heiti skýrslunnar inniheldur ekki heiti listasíðunnar. Hreinsaðu síuna til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Business Central og Power BI](admin-powerbi.md)    
 [Byggingarskýrslur Power BI til að birta [!INCLUDE [prod_long](includes/prod_long.md)] gögn](across-how-use-financials-data-source-powerbi.md)    

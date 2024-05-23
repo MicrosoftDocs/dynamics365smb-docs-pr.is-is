@@ -11,11 +11,11 @@ ms.date: 05/03/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="auditing-changes"></a>Breytingar á endurskoðun
+# Breytingar á endurskoðun
 
 Sameiginleg áskorun margra viðskiptastjórnunarforrita er að forðast óæskilegar breytingar á gögnum. Þetta getur verið allt frá röngu símanúmeri viðskiptamanns til rangrar bókunar í fjárhag. Þessi grein lýsir getu til að komast að því hvað breyttist, hver breytti henni og hvenær breytingin var gerð.
 
-## <a name="about-the-change-log"></a>Um breytingaskrá
+## Um breytingaskrá
 
 Með breytingaskránni er hægt að rekja allar beinar breytingar sem notendur gera á gögnum í gagnagrunninum. Tilgreina skal hverja töflu og reit sem kerfið á að skrá og síðan virkja breytingaskrána. Breytingaskráin byggir á breytingum sem gerðar eru á gögnum í töflunum sem þú rekur. Á síðunni **Breytingaskrárfærslur** er færslum raðað í tímaröð og sýndar eru allar breytingar sem gerðar eru á gildum í reitum í töflunum sem eru tilgreindar.
 
@@ -37,7 +37,7 @@ Einnig af afkastaástæðum er slökkt á breytingaskránni við uppfærslu á [
 > - Notandinn valdi annað fyrirtæki eða hlutverkamiðstöð.
 > - Notandinn skráði sig út og aftur inn.
 
-## <a name="setting-up-the-change-log"></a>Uppsetning breytingaskrárinnar
+## Uppsetning breytingaskrárinnar
 
 Á síðunni **Uppsetning** breytingaskrár er hægt að kveikja eða slökkva á breytingaskránni. Þegar það er gert er aðgerðin skráð og því alltaf hægt að sjá hver breytti því.
 
@@ -48,11 +48,11 @@ Einnig af afkastaástæðum er slökkt á breytingaskránni við uppfærslu á [
 
 Þegar breytingaskráin hefur verið sett upp, virkjuð og gögn breytt er hægt að skoða og afmarka breytingarnar á síðunni **Breytingaskrárfærslur** . Ef eyða á færslum er sett upp varðveitt regla þar sem hægt er að setja afmarkanir byggðar á dagsetningum og tíma. Nánari upplýsingar um varðveitingarstefnur eru notaðar til að [skilgreina varðveitingarstefnur](admin-data-retention-policies.md).  
 
-## <a name="analyze-data-in-the-change-log"></a>Greining gagna í breytingaskránni
+## Greining gagna í breytingaskránni
 
 Hægt er að nota aðgerðina **Gagnagreining** til að greina gögn í breytingaskrá á síðunni [Breytingaskrárfærslur](https://businesscentral.dynamics.com/?page=595) . Ekki þarf að keyra skýrslu eða opna annað forrit, t.d. Excel. Eiginleikinn býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Ákveðin dæmi eru "Hver breytti hvaða gögn, og hvenær" eða "Gögn breytast eftir töflu/reit" eða önnur sjónarmið er hægt að ímynda sér. Til að fræðast meira um notkun aðgerðarinnar **Gagnagreining** er farið í [Greiningarlista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md).
 
-### <a name="change-log-ad-hoc-analysis-scenarios"></a>Breytingaskrá tilfalengd greiningardæmi
+### Breytingaskrá tilfalengd greiningardæmi
 
 Eftirfarandi hlutar gefa dæmi um aðstæður þar sem greining breytingaskrár getur hjálpað til við að fylgjast með og endurskoða mikilvægar breytingar.
 
@@ -61,7 +61,7 @@ Eftirfarandi hlutar gefa dæmi um aðstæður þar sem greining breytingaskrár 
 | [Hver breytti hvaða gögnum, og hvenær](#example-who-changed-what-data-and-when) | Sjá hver breytti hvaða gögnum. | [Breytingaskrárfærslur](https://businesscentral.dynamics.com/?page=595) | **Notandakenni, Dagsetning og Tími**, **Texti** töflu,Texti **reits**,Aðallykilsgildi **2,Aðallykilgildi** **3**, **Gerð breytinga,Eldra** **gildi** og **Nýtt gildi.** **·** |
 | [Gagnabreytingar eftir töflu/svæði](#example-data-changes-by-tablefield) | Sjá breytingar á gögnum eftir töflu/reit og hver gerði breytinguna. | [Breytingaskrárfærslur](https://businesscentral.dynamics.com/?page=595) | **Töflutitit**, Texti reits **,** Kenni notanda **,** Dagsetning og Tími **,** Aðallykilgildi 2,Aðallykilgildi **3** **,** Tegund breytinga,Eldra **gildi** **og** Nýtt gildi **.** |
 
-### <a name="example-who-changed-what-data-and-when"></a>Dæmi: Hver breytti hvaða gögnum, og hvenær
+### Dæmi: Hver breytti hvaða gögnum, og hvenær
 
 Til að greina Hver breytti hvaða gögnum skal fylgja eftirfarandi skrefum:
 
@@ -82,7 +82,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source=" media/data-analysis-change-log-entries-Who-changed-What-data-When.png" alt-text="Dæmi um greiningu á gögnum á síðunni Breytingaskrárfærslur (Hver breytti hvaða gögnum Hvenær)." lightbox="media/data-analysis-change-log-entries-Who-changed-What-data-When.png":::
 
-### <a name="example-data-changes-by-tablefield"></a>Dæmi: gagnabreytingar eftir töflu/reit
+### Dæmi: gagnabreytingar eftir töflu/reit
 
 Til að greina gagnabreytingar eftir töflu/reit er eftirfarandi skrefum fylgt:
 
@@ -102,22 +102,22 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source=" media/data-analysis-change-log-entries-data-changes-by-table-field.png" alt-text="Dæmi um hvernig á að gera gagnagreiningu á síðunni Breytingaskrárfærslur (gögn breytast eftir töflu/reit)." lightbox="media/data-analysis-change-log-entries-data-changes-by-table-field.png":::
 
-## <a name="about-activity-logs"></a>Um aðgerðaskrár
+## Um aðgerðaskrár
 
 Á sumum síðum í [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að skoða aðgerðarkladda sem sýnir stöðu og allar villur úr skrám sem þú flytur út úr eða flytur inn í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="work-with-activity-logs"></a>Vinna með aðgerðaskrár
+### Vinna með aðgerðaskrár
 
 Upplýsingarnar birtast á síðunni **Aðgerðaskrá** samkvæmt samhenginu sem hún var opnuð úr. Til dæmis er hægt að opna síðuna á síðunum **Uppsetning skjalaskiptaþjónustu**, **Skjal á innleið**, **Bókaður sölureikningur** og **Bókaður sölukreditreikningur**. Hægt er að tæma listann yfir kladdafærslur eða hreinsa lista yfir færslur sem eru eldri en sjö daga.  
 
-## <a name="monitor-sensitive-fields"></a>Fylgjast með viðkvæmum reitum
+## Fylgjast með viðkvæmum reitum
 
 Að halda viðkvæmum gögnum öruggum tryggja persónuvernd er mikilvægt flestum fyrirtækjum. Til að bæta við öryggislagi er hægt að fylgjast með mikilvægum reitum og fá tölvupóst þegar einhver breytir gildi. Til dæmis gætirðu viljað fá tilkynningu ef einhver breytir IBAN-númeri fyrirtækisins.
 
 > [!NOTE]
 > Að senda tilkynningu í tölvupósti krefst þess að eiginleiki tölvupósts verði settur upp í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Setja upp tölvupóst](admin-how-setup-email.md).
 
-### <a name="set-up-field-monitoring"></a>Setja upp reitarvöktun
+### Setja upp reitarvöktun
 
 Hægt er að nota uppsetningarleiðbeiningar **Uppsetning á breytingavöktun reits** með hjálp til að tilgreina reitina sem á að fylgjast með samkvæmt síuskilyrði á borð við flokkun gagnatrúnaðar fyrir reitina. Nánari upplýsingar er að finna í [Flokkun á gagnatrúnaðar](admin-classifying-data-sensitivity.md). Leiðarvísirinn gerir einnig kleift að tilgreina þann sem fær tilkynningu í tölvupósti þegar breyting á sér stað og tölvupóstreikninginn sem sendir tilkynninguna. Tilgreinið bæði notandann sem fær tilkynningu og reikninginn sem tilkynningin verður send frá. Eftir að leiðarvísinum er lokið er hægt að vinna með stillingar fyrir reitavöktun á síðunni **Uppsetning reitavöktunar**.
 
@@ -133,7 +133,7 @@ Hægt er að stjórna stillingum fyrir reitavöktun, t.d. hvort senda eigi tilky
 > [!NOTE]
 > Þegar búið er að skrá einn eða fleiri rieti og hefja vöktun þarf að skrá sig út úr [!INCLUDE[prod_short](includes/prod_short.md)] og skrá sig inn aftur til að stillingarnar taki gildi.
 
-### <a name="work-with-field-monitoring"></a>Vinna við svæðavöktun
+### Vinna við svæðavöktun
 
 Færslur fyrir öll breytt gildi í vöktuðum reitum eru tiltækar á síðunni **Kladdafærslur vaktaðra reita**. Færslur innihalda til að mynda eftirfarandi upplýsingar:
 
@@ -143,18 +143,18 @@ Færslur fyrir öll breytt gildi í vöktuðum reitum eru tiltækar á síðunni
 
 Til að rannsaka breytingu frekar þarf að velja gildi til að opna síðuna þar sem hún var gerð. Til að skoða lista yfir allar færslur skal velja **Breytingafærslur reita**.
 
-### <a name="view-field-monitoring-telemetry"></a>Skoða fjarmælingar í reitum
+### Skoða fjarmælingar í reitum
 
 Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að senda aðgerðir reitarvörpunar í Application Insights tilfang í Microsoft Azure. Síðan er hægt að nota Azure Monitor til að búa til skýrslur og setja upp viðvaranir í söfnuðum gögnum. Frekari upplýsingar eru í eftirfarandi greinum í [!INCLUDE[prod_short](includes/prod_short.md)] Developer og IT Pro Help:
 
 - [Eftirlit og greining fjarmælinga - Virkjun Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview?toc=/dynamics365/business-central/toc.json#enable)
 - [Greining fjarmælinga á reitum](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)
 
-## <a name="define-retention-policies"></a>Skilgreina varðveitingarstefnu
+## Skilgreina varðveitingarstefnu
 
 Hægt er að búa til varðveislureglur til að eyða ónauðsynlegum gögnum í klöddum eftir tiltekinn tíma sem gefa skal upp. Til dæmis getur fjærslufjöldinn í kladda aukist með tímanum. Með því að hreinsa upp eldri færslur er auðveldara að setja athyglina á nýlegri og líklega meira viðeigandi færslur. Nánari upplýsingar um varðveitingarstefnur eru notaðar til að [skilgreina varðveitingarstefnur](admin-data-retention-policies.md).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fylgjast með viðkvæmum reitum](across-log-changes.md#monitor-sensitive-fields)  
 [Greining fjarmælinga á reitum](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)  

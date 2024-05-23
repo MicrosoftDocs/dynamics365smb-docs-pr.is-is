@@ -3,7 +3,7 @@ title: Stofna sölupöntun viðskiptavinar og selja vörur
 description: 'Lýsir því hvernig skal búa til  sölupöntun, til að skrá samkomulag við viðskiptamann um að selja eða eiga viðskipti með vörur með tilteknum skilmálum.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
@@ -11,7 +11,7 @@ ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Selja vörur með sölupöntun viðskiptavinar
+# Selja vörur með sölupöntun viðskiptavinar
 
 Þessi grein veitir leiðbeiningar um hvenær eigi að nota sölupöntun viðskiptamanns auk reiknings. Ef söluferlið krefst þess að aðeins verði afhentur hluti pöntunar, ef til vill vegna þess að allt magnið er ekki tiltækt strax þarf að vinna þá sölu með því að búa til sölupöntun.
 
@@ -23,7 +23,7 @@ Einnig þarf að nota sölupantanir ef þú selur vörur sem eru sendar beint fr
 
 Jafnvel er hægt að stofna beint greiddar pantanir fyrir óskráða viðskiptamenn með því að setja fyrst upp "sjóðsviðskiptamannsspjald" sem bent er á á sölupöntunina. Frekari upplýsingar má finna í [Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Stofna sölupöntun
+## Stofna sölupöntun
 
 > [!NOTE]  
 > Eftirfarandi aðferð gerir ráð fyrir því að viðskiptavinurinn sé þegar settur upp. Sjá leiðbeiningar um hvernig þetta er gert í [Skrá nýja viðskiptavini](sales-how-register-new-customers.md).
@@ -87,17 +87,17 @@ Jafnvel er hægt að stofna beint greiddar pantanir fyrir óskráða viðskiptam
 
 Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og sölupöntunin er frálag sem PDF fylgiskjal. Þegar sölupöntunin hefur verið bókuð að fullu er hún fjarlægð af lista sölupöntunar og sett í stað nýrra skjala á lista sölureikninga og söluafhendinga.  
 
-## <a name="external-document-number"></a>Númer ytra skjals
+## Númer ytra skjals
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="working-with-amount-fields"></a>Unnið með upphæðarreiti
+## Unnið með upphæðarreiti
 
 Gildin í reitum sem sýna upphæðir geta verið jákvæð eða neikvæð eftir því hvort gildið táknar kreditfærslu eða debet. Þetta myndband sýnir hvernig á að vinna með reiti sem sýna upphæðir.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Sölubókun](ui-post-sales.md)  

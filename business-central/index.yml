@@ -1,6 +1,6 @@
 ### YamlMime:Hub
-title: Microsoft Dynamics 365 Business Central fylgiskjöl
-summary: 'Sjáðu hvernig þú getur nýtt þér Dynamics 365 Business Central sem best með þjálfun á netinu og fylgiskjölum um möguleika vörunnar. Lærðu að nota Business Central til að stjórna, breyta og straumlínulaga aðgerðir á borð við fjármál, framleiðslu, sölu og fleiru í litlu eða meðalstóru fyrirtæki.'
+title: Fylgiskjöl Microsoft Dynamics 365 Business Central
+summary: 'Kynntu þér hvernig þú getur nýtt Dynamics 365 Business Central sem best með námskeiðum, fylgiskjölum, myndböndum sem fjalla um möguleika varanna og fræðslugreinum. Lærðu að nota Business Central til að stjórna, aðlaga og einfalda starfsemi eins og fjármál, framleiðslu, sölu og fleira í litla eða meðalstóra fyrirtækinu þínu.'
 brand: dynamics
 metadata:
   title: Microsoft Dynamics 365 Business Central fylgiskjöl
@@ -37,8 +37,6 @@ additionalContent:
               url: /dynamics365/business-central/dev-itpro/administration/tenant-environment-topology
             - text: Skipta úr notkun á staðnum yfir á netið
               url: /dynamics365/business-central/dev-itpro/administration/migrate-data
-            - text: Afköst
-              url: /dynamics365/business-central/dev-itpro/performance/performance-overview
         - title: Prófa/kaupa
           links:
             - text: Prófa Business Central Online án endurgjalds
@@ -53,22 +51,180 @@ additionalContent:
               url: /dynamics365/business-central/about-new-company
             - text: Viðskiptavirkni
               url: /dynamics365/business-central/setup
-            - text: Verkraðir
-              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
             - text: Verkflæði
               url: /dynamics365/business-central/across-set-up-workflows
         - title: Samþætta við aðrar vörur
           links:
-            - text: Teams
-              url: /dynamics365/business-central/across-teams-overview
-            - text: Dataverse
-              url: /dynamics365/business-central/admin-common-data-service
+            - text: Yfirlit
+              url: /dynamics365/business-central/dev-itpro/developer/integration-overview
             - text: Power Automate
               url: /dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
             - text: Power BI
               url: /dynamics365/business-central/admin-powerbi
-            - text: OneDrive
-              url: /dynamics365/business-central/across-onedrive-overview
+    - title: Stunda viðskipti
+      items:
+        - title: Almennt
+          links:
+            - text: Almennar færslubækur
+              url: /dynamics365/business-central/ui-work-general-journals
+            - text: Verkraðir
+              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+            - text: Skjöl á innleið
+              url: /dynamics365/business-central/across-income-documents
+        - title: Fjármál
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/finance
+            - text: Fjárhagsskýrslur
+              url: /dynamics365/business-central/finance-reports
+            - text: Umsjón viðskiptaskulda
+              url: /dynamics365/business-central/payables-manage-payables
+        - title: Sala
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/sales-manage-sales
+            - text: Söluskýrslu
+              url: /dynamics365/business-central/sales-reports
+            - text: Sala skv. reikningum
+              url: /dynamics365/business-central/sales-how-invoice-sales
+        - title: Innkaup
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/purchasing-manage-purchasing
+            - text: Innkaupaskýrslur
+              url: /dynamics365/business-central/purchase-reports
+            - text: Skrá innkaup
+              url: /dynamics365/business-central/purchasing-how-record-purchases
+        - title: Birgðir
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/inventory-manage-inventory
+            - text: Skýrslur birgða og vöruhúss
+              url: /dynamics365/business-central/inventory-WMS-reports
+            - text: Skrá vörur
+              url: /dynamics365/business-central/inventory-how-register-new-items
+        - title: Verkefnastjórnun
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/projects-manage-projects
+            - text: Verkskýrslur
+              url: /dynamics365/business-central/project-reports
+            - text: Stofna verk
+              url: /dynamics365/business-central/projects-how-create-jobs
+        - title: Eignir
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/fa-manage
+            - text: Eignaskýrslur
+              url: /dynamics365/business-central/fa-reports
+            - text: Komast yfir eignir
+              url: /dynamics365/business-central/fa-how-acquire
+        - title: Tengslastjórnun
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/marketing-relationship-management
+            - text: Tengiliðir
+              url: /dynamics365/business-central/marketing-contacts
+            - text: Hlutar
+              url: /dynamics365/business-central/marketing-segments
+        - title: Starfsmannahald
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/hr-manage-human-resources
+            - text: Skrá starfsmenn
+              url: /dynamics365/business-central/hr-how-register-employees
+            - text: Halda utan um fjarvistir starfsmanna
+              url: /dynamics365/business-central/hr-how-manage-absence
+        - title: Áætlun
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/production-planning
+            - text: Áætlanagerð með eða án birgðageymslna
+              url: /dynamics365/business-central/production-planning-with-without-locations
+            - text: Stofna spá
+              url: /dynamics365/business-central/production-how-to-create-a-forecast
+        - title: Samsetningarstjórnun
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/assembly-assemble-items
+            - text: Samsetningarskýrslur
+              url: /dynamics365/business-central/assembly-reports
+            - text: Búa til tilboð með samsetningarpöntun
+              url: /dynamics365/business-central/assembly-how-to-quote-an-assemble-to-order-sale
+        - title: Framleiðsla
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/production-manage-manufacturing
+            - text: Framleiðsluskýrslur
+              url: /dynamics365/business-central/production-reports
+            - text: Stofnun framleiðslupantana
+              url: /dynamics365/business-central/production-about-production-orders
+        - title: Vöruhúsakerfi
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/warehouse-manage-warehouse
+            - text: Skýrslur vöruhúsa
+              url: /dynamics365/business-central/inventory-WMS-reports
+            - text: Ganga frá vörum
+              url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
+        - title: Þjónustustjórnun
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/service-service
+            - text: Áætlun
+              url: /dynamics365/business-central/service-plan-service
+            - text: Uppfylla þjónustusamninga
+              url: /dynamics365/business-central/service-fulfill-service-contracts
+        - title: Netverslun með Shopify
+          links:
+            - text: Hefjast handa
+              url: /dynamics365/business-central/shopify/get-started
+            - text: Samstilla viðskiptavini við Shopify
+              url: /dynamics365/business-central/shopify/synchronize-customers
+            - text: Samstilla og uppfylla sölupantanir með Shopify
+              url: /dynamics365/business-central/shopify/synchronize-orders
+        - title: Staðbundin virkni
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/about-localization
+            - text: Alþjóðlegt framboð af Dynamics 365
+              url: /dynamics365/get-started/availability
+            - text: Þróun fyrir staðfærslu
+              url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
+    - title: Komdu meiru í verk
+      items:
+        - title: Copilot
+          links:
+            - text: Greina listagögn
+              url: /dynamics365/business-central/analysis-assist
+            - text: Spjalla við Copilot
+              url: /dynamics365/business-central/chat-with-copilot
+            - text: Meira ...
+              url: /dynamics365/business-central/copilot-overview
+        - title: Stillingar vinnusvæðis
+          links:
+            - text: 'Tungumál, svæði, vinnudagur, tímabelti og fleira'
+              url: /dynamics365/business-central/ui-change-basic-settings
+            - text: Skipta um umhverfi eða fyrirtæki
+              url: /dynamics365/business-central/ui-organization-switch
+            - text: Sérstilla notendaviðmót
+              url: /dynamics365/business-central/ui-personalization-user
+        - title: Samvinna og samnýting
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/across-share-data-features
+            - text: Deila gögnum í Teams-spjalli og -rásum
+              url: /dynamics365/business-central/across-teams-overview
+            - text: Deila skrám í OneDrive
+              url: /dynamics365/business-central/across-share-onedrive
+        - title: 'BI, skýrslugerð og gagnagreining'
+          links:
+            - text: Yfirlit
+              url: /dynamics365/business-central/reports-bi-reporting
+            - text: 'Keyra, skipuleggja og prenta skýrslur'
+              url: /dynamics365/business-central/ui-work-report
+            - text: Vinna með Power BI-skýrslur í Business Central
+              url: /dynamics365/business-central/across-working-with-powerbi
     - title: Stjórnun og þróun
       items:
         - title: Copilot- og gervigreindarmöguleikar
@@ -85,8 +241,6 @@ additionalContent:
               url: /dynamics365/business-central/ui-how-users-permissions
             - text: Úthluta leyfi til notenda og hópa
               url: /dynamics365/business-central/ui-define-granular-permissions
-            - text: Vinna með forstillingar
-              url: /dynamics365/business-central/admin-users-profiles-roles
             - text: Aðgangur með Microsoft 365-leyfum
               url: /dynamics365/business-central/admin-access-with-m365-license
         - title: Stjórna umhverfum
@@ -105,8 +259,6 @@ additionalContent:
               url: /dynamics365/business-central/admin-archive-data
             - text: Draga úr vistuðum gögnum í gagnagrunnum
               url: /dynamics365/business-central/dev-itpro/administration/database-reduce-data
-            - text: Stjórna afköstum
-              url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity
         - title: Fylgjast með aðgerðum og breytingum
           links:
             - text: Hafa eftirlit með breytingum
@@ -139,235 +291,3 @@ additionalContent:
               url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps
             - text: Business Central API
               url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
-    - title: Komdu meiru í verk
-      items:
-        - title: Copilot
-          links:
-            - text: Greina listagögn
-              url: /dynamics365/business-central/analysis-assist
-            - text: Spjalla við Copilot
-              url: /dynamics365/business-central/chat-with-copilot
-            - text: Fá tillögur að markaðstexta
-              url: /dynamics365/business-central/ai-overview
-            - text: Samsvörun rafrænna skjala
-              url: /dynamics365/business-central/map-edocuments-with-copilot
-            - text: Afstemma bankareikninga
-              url: /dynamics365/business-central/bank-reconciliation-with-copilot
-            - text: Fá tillögur að sölulínum
-              url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
-        - title: Stillingar vinnusvæðis
-          links:
-            - text: 'Tungumál, svæði, vinnudagur, tímabelti og fleira'
-              url: /dynamics365/business-central/ui-change-basic-settings
-            - text: Skipta um umhverfi eða fyrirtæki
-              url: /dynamics365/business-central/ui-organization-switch
-            - text: Sérstilla notendaviðmót
-              url: /dynamics365/business-central/ui-personalization-user
-            - text: Stjórna tilkynningum
-              url: /dynamics365/business-central/ui-smart-notifications
-        - title: Samvinna og samnýting
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/across-share-data-features
-            - text: Deila gögnum í Teams-spjalli og -rásum
-              url: /dynamics365/business-central/across-teams-overview
-            - text: Samnýta skrár á OneDrive
-              url: /dynamics365/business-central/across-share-onedrive
-            - text: Eiga samvinnu í Excel
-              url: /dynamics365/business-central/across-work-with-excel
-        - title: 'BI, skýrslugerð og gagnagreining'
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/reports-bi-reporting
-            - text: 'Keyra, skipuleggja og prenta skýrslur'
-              url: /dynamics365/business-central/ui-work-report
-            - text: Vinna með Power BI-skýrslur í Business Central
-              url: /dynamics365/business-central/across-working-with-powerbi
-            - text: Greina listagögn með greiningarstillingu
-              url: /dynamics365/business-central/analysis-mode
-            - text: Greina skýrslugögn með Excel
-              url: /dynamics365/business-central/report-analyze-excel
-    - title: Stunda viðskipti
-      items:
-        - title: Almennt
-          links:
-            - text: Almennar færslubækur
-              url: /dynamics365/business-central/ui-work-general-journals
-            - text: Bóka skjöl og færslubækur
-              url: /dynamics365/business-central/ui-post-documents-journals
-            - text: Verkraðir
-              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-            - text: Skjöl á innleið
-              url: /dynamics365/business-central/across-income-documents
-        - title: Fjármál
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/finance
-            - text: Fjárhagsskýrslur
-              url: /dynamics365/business-central/finance-reports
-            - text: Umsjón viðskiptakrafna
-              url: /dynamics365/business-central/receivables-manage-receivables
-            - text: Umsjón viðskiptaskulda
-              url: /dynamics365/business-central/payables-manage-payables
-            - text: Afstemma bankareikninga
-              url: /dynamics365/business-central/bank-manage-bank-accounts
-        - title: Sala
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/sales-manage-sales
-            - text: Söluskýrslur
-              url: /dynamics365/business-central/sales-reports
-            - text: Skrá nýja viðskiptamenn
-              url: /dynamics365/business-central/sales-how-register-new-customers
-            - text: Gera sölutilboð
-              url: /dynamics365/business-central/sales-how-make-offers
-            - text: Sala skv. reikningum
-              url: /dynamics365/business-central/sales-how-invoice-sales
-        - title: Innkaup
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/purchasing-manage-purchasing
-            - text: Innkaupaskýrslur
-              url: /dynamics365/business-central/purchase-reports
-            - text: Skrá innkaup
-              url: /dynamics365/business-central/purchasing-how-record-purchases
-            - text: Biðja um tilboð
-              url: /dynamics365/business-central/purchasing-how-request-quotes
-            - text: Kaupa vörur fyrir sölu
-              url: /dynamics365/business-central/purchasing-how-purchase-products-sale
-        - title: Birgðir
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/inventory-manage-inventory
-            - text: Skýrslur birgða og vöruhúss
-              url: /dynamics365/business-central/inventory-WMS-reports
-            - text: Skrá vörur
-              url: /dynamics365/business-central/inventory-how-register-new-items
-            - text: Vinna með uppskriftir
-              url: /dynamics365/business-central/inventory-how-work-boms
-            - text: Flokka vörur
-              url: /dynamics365/business-central/inventory-how-categorize-items
-        - title: Verkefnastjórnun
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/projects-manage-projects
-            - text: Verkskýrslur
-              url: /dynamics365/business-central/project-reports
-            - text: Stofna störf
-              url: /dynamics365/business-central/projects-how-create-jobs
-            - text: Nota forða fyrir verkefni
-              url: /dynamics365/business-central/projects-how-use-resources
-            - text: Nota vinnuskýrslur
-              url: /dynamics365/business-central/projects-how-use-time-sheets
-        - title: Eignir
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/fa-manage
-            - text: Eignaskýrslur
-              url: /dynamics365/business-central/fa-reports
-            - text: Komast yfir eignir
-              url: /dynamics365/business-central/fa-how-acquire
-            - text: Vinna með eignir
-              url: /dynamics365/business-central/fa-how-maintain
-            - text: Tryggja eignir
-              url: /dynamics365/business-central/fa-how-insure
-        - title: Tengslastjórnun
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/marketing-relationship-management
-            - text: Tengiliðir
-              url: /dynamics365/business-central/marketing-contacts
-            - text: Hlutar
-              url: /dynamics365/business-central/marketing-segments
-            - text: Samskipti
-              url: /dynamics365/business-central/marketing-interactions-overview
-            - text: Tækifæri
-              url: /dynamics365/business-central/marketing-manage-sales-opportunities
-        - title: Starfsmannahald
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/hr-manage-human-resources
-            - text: Skrá starfsmenn
-              url: /dynamics365/business-central/hr-how-register-employees
-            - text: Halda utan um fjarvistir starfsmanna
-              url: /dynamics365/business-central/hr-how-manage-absence
-        - title: Áætlun
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/production-planning
-            - text: Áætlanagerð með eða án birgðageymslna
-              url: /dynamics365/business-central/production-planning-with-without-locations
-            - text: Stofna spá
-              url: /dynamics365/business-central/production-how-to-create-a-forecast
-            - text: Stofna framleiðslupantanir úr sölupöntun
-              url: /dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders
-            - text: Gera áætlanir um nýja eftirspurnarpöntun fyrir pöntun
-              url: /dynamics365/business-central/production-how-to-plan-for-new-demand
-        - title: Samsetningarstjórnun
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/assembly-assemble-items
-            - text: Samsetningarskýrslur
-              url: /dynamics365/business-central/assembly-reports
-            - text: Búa til tilboð með samsetningarpöntun
-              url: /dynamics365/business-central/assembly-how-to-quote-an-assemble-to-order-sale
-            - text: Setja saman vörur
-              url: /dynamics365/business-central/assembly-how-to-assemble-items
-            - text: Selja vörur sem eru settar saman í pöntun
-              url: /dynamics365/business-central/assembly-how-to-sell-items-assembled-to-order
-        - title: Framleiðsla
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/production-manage-manufacturing
-            - text: Framleiðsluskýrslur
-              url: /dynamics365/business-central/production-reports
-            - text: Stofna framleiðslupantanir
-              url: /dynamics365/business-central/production-about-production-orders
-            - text: Úthýsa framleiðslu til undirverktaka
-              url: /dynamics365/business-central/production-how-to-subcontract-manufacturing
-            - text: Skrá notkun og úttak
-              url: /dynamics365/business-central/production-how-to-register-consumption-and-output
-        - title: Vöruhúsakerfi
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/warehouse-manage-warehouse
-            - text: Skýrslur vöruhúsa
-              url: /dynamics365/business-central/inventory-WMS-reports
-            - text: Ganga frá vörum
-              url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
-            - text: Færa vörur
-              url: /dynamics365/business-central/warehouse-move-items
-            - text: Tína til vörur
-              url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
-        - title: Þjónustustjórnun
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/service-service
-            - text: Áætlun
-              url: /dynamics365/business-central/service-plan-service
-            - text: Uppfylla þjónustusamninga
-              url: /dynamics365/business-central/service-fulfill-service-contracts
-            - text: Veita þjónustu
-              url: /dynamics365/business-central/service-deliver-service
-            - text: Stofna þjónustutilboð
-              url: /dynamics365/business-central/service-how-to-create-service-quotes
-        - title: Netverslun með Shopify
-          links:
-            - text: Hefjast handa
-              url: /dynamics365/business-central/shopify/get-started
-            - text: Samstilla viðskiptavini við Shopify
-              url: /dynamics365/business-central/shopify/synchronize-customers
-            - text: Samstilla og uppfylla sölupantanir með Shopify
-              url: /dynamics365/business-central/shopify/synchronize-orders
-            - text: Samstilla færslur og greiðslur
-              url: /dynamics365/business-central/shopify/transactions-and-payouts
-            - text: Setja upp skatta fyrir Shopify-tenginguna
-              url: /dynamics365/business-central/shopify/setup-taxes
-        - title: Staðbundin virkni
-          links:
-            - text: Yfirlit
-              url: /dynamics365/business-central/about-localization
-            - text: Alþjóðlegt framboð af Dynamics 365
-              url: /dynamics365/get-started/availability
-            - text: Þróun fyrir staðfærslu
-              url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization

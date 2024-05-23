@@ -11,28 +11,28 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="business-central-quick-starts"></a>Business Central fljótlegt byrjar
+# Business Central fljótlegt byrjar
 
 Fljótlegir hlutir hjálpa þér að fá uppsetningu fyrr þannig að þú getur byrjað að framkvæma grunnaðgerðir [!INCLUDE[prod_short](includes/prod_short.md)] sem þú þarft.
 
 Eftirfarandi hlutar bjóða upp á leiðarvísa fyrir byrjendur sem koma þér í kynni við eiginleikana sem þú þarft í [!INCLUDE[prod_short](includes/prod_short.md)]. Hver fljótleg byrjun býður upp á tengla til ítarlegri efnis um virknina, ættir þú að þurfa það.
 
-## <a name="provide-basic-information-about-your-company"></a>Gefðu upp grunnupplýsingar um fyrirtækið þitt
+## Gefðu upp grunnupplýsingar um fyrirtækið þitt
 
 Fyrsta skrefið er að veita grunnupplýsingar um fyrirtækið þitt. Upplýsingarnar fela í sér hluti eins og aðsetur, bankareikninga, virðisaukaskattsnúmer (VSK) og svo framleiðis. Nánari upplýsingar eru settar í [Stofngögn Fljótleg upphaf](quick-start-company-information.md).
 
-## <a name="prepare-basic-financial-information"></a>Undirbúa grunnupplýsingar um fjármál
+## Undirbúa grunnupplýsingar um fjármál
 
 Næst er komið að því að slá inn fjárhagsupplýsingar fyrirtækisins svo að allt sé til reiðu fyrir viðskipti. Til að spara tíma er hægt að nota bókhaldslykilinn sem [!INCLUDE[prod_short](includes/prod_short.md)] útvegar. Hægt er að sérstilla hana í nokkrum skrefum með því að fylgja flýtiræsingu [fjárhagsupplýsinga](quick-start-financial-information.md).
 
 <!--
-## <a name="financial-basics"></a>Financial Basics
+## Financial Basics
 
 Financial Information  
 (chart of accounts, but explained for non-accountants)
 -->
 
-## <a name="print-reports-and-customize-documents"></a>Prenta skýrslur og sérstilla skjöl
+## Prenta skýrslur og sérstilla skjöl
 
 Til að fræðast um hvernig á að sérsníða og prenta skýrslur og skjöl, t.d. sölureikninga, eftir þörfum fyrirtækisins, er farið í [Grunnskýrslur og skjöl með flýtiræsingu skjala](quick-start-reports-and-documents.md).
 
@@ -40,7 +40,7 @@ Til að fræðast um hvernig á að sérsníða og prenta skýrslur og skjöl, t
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
-## <a name="sell-products-and-services"></a>Selja vörur og þjónustu
+## Selja vörur og þjónustu
 
 Komdu þér hratt í gang með því að selja vörur og þjónustu með því að fara eftir greininni [Stuttur leiðarvísir fyrir sölu](quick-start-sell-products-and-services.md).
 
@@ -48,7 +48,7 @@ Komdu þér hratt í gang með því að selja vörur og þjónustu með því a
 (customer, items, things on stock or not, orders versus invoices, get paid on time, etc.)
 -->
 
-## <a name="buy-products-and-services"></a>Kaupa vörur og þjónustu
+## Kaupa vörur og þjónustu
 
 Kynntu þér hvernig á að kaupa vörur og þjónustu í greininni [Stuttur leiðarvísir fyrir innkaup](quick-start-procurement.md).  
 
@@ -56,7 +56,7 @@ Kynntu þér hvernig á að kaupa vörur og þjónustu í greininni [Stuttur lei
 (buy stuff, register in inventory, pay vendor)
 -->
 
-## <a name="understand-your-company-with-business-intelligence"></a>Fáðu skilning á fyrirtækinu þínu með viðskiptagreind
+## Fáðu skilning á fyrirtækinu þínu með viðskiptagreind
 
 Umbreyttu viðskiptagögnum þínum í verðmæta innsýn með því að nota verkfærin sem sýnd eru í [Stuttur leiðarvísir um viðskiptagreind](quick-start-business-intelligence.md).
 
@@ -65,7 +65,7 @@ Business Intelligence
 (reports)
 -->
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Þjálfun Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)  

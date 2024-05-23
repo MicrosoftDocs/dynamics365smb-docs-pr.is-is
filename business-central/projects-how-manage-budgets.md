@@ -3,7 +3,7 @@ title: Setja upp og stjórna áætlun fyrir verk
 description: Lýsir því hvernig á að áætla forða og spá og stýra kostnaði verks með því að setja upp áætlun fyrir hvert verk.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'project budget, forecast'
 ms.search.form: '1002, 1007'
@@ -11,13 +11,13 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="manage-project-budgets"></a>Unnið með verkáætlanir
+# Unnið með verkáætlanir
 
 Hægt er að setja upp áætlun fyrir hvert verk. Áætlunin er notuð til að áætla forðann sem úthlutað er til verks. Áætlunin getur verið almenns eðlis með fáeinum færslum eða með mörgum færslum sem skiptast í aðgerðastig. Síðan er hægt að bera áætlaðar upphæðir saman við raunverulega notkun eins og hún er skráð í verkbókina. Með því að fylgjast með mismuni á milli raunverulegrar notkunar og áætlaðrar notkunar er hægt að stýra yfirstandandi verkefni og bæta gæði verkefna í framtíðinni með því að draga úr hættu á að kostnaður sé vanmetinn.
 
 Eftirfarandi aðferð lýsir því hvernig á að meta áætlaðan kostnað við áætlun. Upplýsingar um skráningu áætlaðs samanborið við raunverulegt verð og kostnað verks eru [í Skrá notkun fyrir verkefni](projects-how-record-job-usage.md).  
 
-## <a name="to-estimate-the-budgeted-costs-for-a-project"></a><a name="JobBudgetCosts"></a>Áætlaður kostnaður vegna verks áætlaður
+## <a name="JobBudgetCosts"></a> Áætlaður kostnaður vegna verks áætlaður
 
 Þegar viðskiptavinur vill vita verð verks sem verður reikningsfært samkvæmt notkun verður að ákvarða áætlaðan kostnað fyrir verkið. Nota skal síðuna **Verkhlutalínur** verkefnis til þess.
 
@@ -44,7 +44,7 @@ Fyrir reitinn **Línugerð** skal vísa til eftirfarandi upplýsinga.
 
 Upplýsingar um skráningu áætlaðs samanborið við raunverulegt verð og kostnað verks eru [í Skrá notkun fyrir verkefni](projects-how-record-job-usage.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  

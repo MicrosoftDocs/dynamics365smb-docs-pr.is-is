@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-inventory-data"></a>Tilfalengd greining á birgðagögnum
+# Tilfalengd greining á birgðagögnum
 
 Þessi grein útskýrir hvernig á að nota aðgerðina **Gagnagreining** til að greina birgðagögn beint frá listasíðum og fyrirspurnum. Ekki þarf að keyra skýrslu eða skipta yfir í annað forrit, t.d. Excel. Eiginleikinn býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Sum dæmi eru "útrunnin lager" eða "sölumenn" eða önnur sjónarmið sem hægt er að ímynda sér. Til að fræðast meira um notkun aðgerðarinnar **Gagnagreining** er farið í [Greiningarlista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Nota eftirfarandi listasíður til að tilfalja greiningu á birgðaferlum:
 
 - [Birgðafærslur](https://businesscentral.dynamics.com/?page=38)
 
-## <a name="inventory-ad-hoc-analysis-scenarios"></a>Tilfalvarnar birgðagreiningar
+## Tilfalvarnar birgðagreiningar
 
 Aðgerðin **Gagnagreining** er notuð til að gera skyndiathugun og tilfalalengdar greiningar:
 
@@ -38,7 +38,7 @@ Eftirfarandi hlutar gefa dæmi um birgðaaðstæður [!INCLUDE [prod_short](incl
 | Afkastageta birgða | Fá yfirlit yfir innkaup og sölu í birgðum eftir mánuðum eða ársfjórðungi. | [Birgðafærslur](https://businesscentral.dynamics.com/?page=38) | **Bókunardags.ár,Bókunardags.mánuður,Vörunr** **·** **.**, **Magn**, **Upphæð sölu,Kostnaðarupphæð** **(raunverul.)** og **Mánuður bókunardagsetningar** |
 | [Birgðahreyfingar] | Fá yfirlit yfir hvernig vörur í birgðahreyfingum milli birgðageymslna eru færðar. | [Birgðafærslur](https://businesscentral.dynamics.com/?page=38) | **Kóti** birgðageymslu,Magn,Bókunardags **·** **.**, **Vörunr.** |
 
-## <a name="example-inventory-on-hand"></a>Dæmi: lagerbirgðir
+## Dæmi: lagerbirgðir
 
 Til að greina vörur í birgðum sem eru til á lager skal fylgja eftirfarandi skrefum:
 
@@ -54,7 +54,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Dæmi um hvernig gera á greiningu á birgðum á lagerbirgðum." lightbox="media/data-analysis-inventory-on-hand.png":::
 
-## <a name="example-track-expiring-or-old-stock"></a>Dæmi: rekja útrunnið eða gamlar birgðir
+## Dæmi: rekja útrunnið eða gamlar birgðir
 
 Til að greina vörur í birgðum sem hafa verið á lager í langan tíma og eru ekki að selja vel skal fylgja eftirfarandi skrefum:
 
@@ -69,7 +69,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Dæmi um hvernig á að gera greiningu á dauðri birgðagagnagreiningu á síðunni Birgðafærslur." lightbox="media/data-analysis-inventory-dead-stock.png":::
 
-## <a name="example-returned-items-by-return-reason"></a>Dæmi: skilavörur eftir ástæðu skila
+## Dæmi: skilavörur eftir ástæðu skila
 
 Til að greina skilavöru sem raðað er eftir ástæðum fyrir vöruskilum er eftirfarandi skrefum fylgt:
 
@@ -83,7 +83,7 @@ Til að greina skilavöru sem raðað er eftir ástæðum fyrir vöruskilum er e
 1. Bæta skal við öðrum reitum sem eiga að vera í greiningunni og virkja þá í **dálkasvæðinu** . Til dæmis er hægt að bæta við **bókunardagsetningu**, **tegund** fylgiskjals,Vörunr **.** og  **Númer fylgiskjals.** Svæði.
 1. Endurnefna greiningarflipa til skilavara **eftir ástæðu** skila eða eitthvað sem lýsir þessari greiningu.  
 
-## <a name="example-inventory-throughput"></a>Dæmi: gegnumstætt birgðir
+## Dæmi: gegnumstætt birgðir
 
 1. Opna listann [Birgðafærslur](https://businesscentral.dynamics.com/?page=38) og velja :::image type="content" source="media/analysis-mode-icon.png" alt-text="Opna greiningarstillingu."::: Til að kveikja á greiningarstillingu.
 1. Farið er í valmyndina **Dálkar** og allir dálkar fjarlægðir (reiturinn er valinn við hliðina **á leitarreitnum** til hægri).
@@ -93,7 +93,7 @@ Til að greina skilavöru sem raðað er eftir ástæðum fyrir vöruskilum er e
 1. Reiturinn **Bókunardags.mánuður** er dreginn í **svæðið Dálkflokkar** .
 1. Endurnefna greiningarflipa fyrir **Birgðir troughput eftir mánuði** eða eitthvað sem lýsir þessari greiningu.  
 
-## <a name="inventory-movements"></a>Birgðahreyfingar
+## Birgðahreyfingar
 
 Til að rekja birgðahreyfingar milli birgðageymslna skal fylgja eftirfarandi skrefum:
 
@@ -107,7 +107,7 @@ Til að rekja birgðahreyfingar milli birgðageymslna skal fylgja eftirfarandi s
    > [!TIP]
    > Ef reitnum Bókunardagsetning er bætt við er einnig hægt að rekja hreyfingar með tímanum.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-inventory"></a>Gagnagrunnur fyrir tilfalvarna greiningu á birgðum
+## Gagnagrunnur fyrir tilfalvarna greiningu á birgðum
 
 Þegar sölupöntun er bókuð uppfærist [!INCLUDE [prod_short](includes/prod_short.md)]  reikningur viðskiptamanns, fjárhags og birgðafærslna.
 
@@ -117,7 +117,7 @@ Við bókun innkaupaskjals uppfærist [!INCLUDE [prod_short](includes/prod_short
 
 - Færslur eru búnar til í **töflunni Birgðafærsla** fyrir hverja innkaupalínu (ef innkaupalínan er af tegundinni Vara). Þar að auki eru innkaupaskjöl alltaf skráð í töflunum **Innk.móttökuhaus** og **Innk.reikningshaus**. Nánari upplýsingar eru notaðar til að [bóka innkaup](purchasing-how-record-purchases.md#posting-purchases).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Greina lista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md)  
 [Birgðagreiningaryfirlit](inventory-analytics-overview.md)  

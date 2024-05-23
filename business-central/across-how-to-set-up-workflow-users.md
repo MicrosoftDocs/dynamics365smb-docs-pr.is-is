@@ -3,7 +3,7 @@ title: 'Hvernig á að: Setja upp notendur verkflæðis'
 description: Áður en hægt er að stofna verkflæði verður að setja upp notendurna sem taka þátt í þeim á síðunni Notandauppsetning samþykktar.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'reject, delegate, request'
 ms.search.form: '1533,'
@@ -11,7 +11,7 @@ ms.date: 04/04/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="set-up-a-sequence-of-workflow-users"></a>Setja upp runu verkflæðisnotenda
+# Setja upp runu verkflæðisnotenda
 
 Áður en hægt er að stofna samþykktarverkflæði verður að setja upp notendur sem geta sent inn beiðnir og samþykkjendur þeirra. Til dæmis er hægt að tilgreina hver fær tilkynningu til að bregðast við verkflæðisskrefi. Þátttakendur samþykktarverkflæðis eru settir upp á síðunni **Notandauppsetning samþykktar** . Frekari upplýsingar má finna á [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ ms.custom: bap-template
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## <a name="to-set-up-a-workflow-user-group"></a>Til að setja upp notendaflokk verkflæðis
+## Til að setja upp notendaflokk verkflæðis
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara inn **Notendahópar verkflæðis**, velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**. Síðan **Notendahópur verkflæðis** opnast.  
@@ -36,7 +36,7 @@ ms.custom: bap-template
    > Raðnúmer eru yfirleitt í röð notenda í notendaflokki verkflæðis. Hins vegar geta margir notendur haft sama raðnúmer. Þegar svo er þarf aðeins einn af notendunum að samþykkja beiðni áður en verkflæðið fer í næsta skref. Ef notandi A og notandi B eru t.d. bæði númer tvö í röðinni fer verkflæðið á þrep þriðja þrepið þegar annað hvort notandinn A eða notandi B samþykkir beiðnina.
 6. Endurtaktu skref 5 til að bæta fleiri notendum verkflæðis við notendahópinn.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
 [Setja upp Verkflæði samþykktar](across-set-up-workflows.md)  

@@ -3,14 +3,14 @@ title: Safnvista sölu- og innkaupaskjöl
 description: 'Þú getur safnvistað sölu- og innkaupapöntunum, tilboðum, skilapöntunum og standandi pöntunum.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/26/2024
 ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.service: dynamics-365-business-central
 ---
-# <a name="archive-documents"></a>Geyma skjöl
+# Geyma skjöl
 
 Þú getur safnvistað sölu- og innkaupapöntunum, tilboðum, skilapöntunum og standandi pöntunum. Ef notaðar eru aðgerðir verkefnastjórnunar er einnig hægt að geyma verkefnin. Hægt er að geyma skjöl og verkefni nokkrum sinnum, sem vistar aðra geymda útgáfu í hvert skipti.
 
@@ -21,7 +21,7 @@ Ef frumritið er enn til fyrir söluskjöl og er ekki bókað er hægt að nota 
 
 Fyrir geymd skjöl þar sem frumritinu er eytt er hægt að endurnota efnið með því að afrita gögnin, til dæmis með því að nota aðgerðina Afrita úr **skjali** .  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Setja upp sjálfvirka safnvistun
+## Setja upp sjálfvirka safnvistun
 
 Hægt er að gera skjalavistun sjálfvirka til að búa til nýja útgáfu af geymda skjalinu þegar einhver gerir eftirfarandi hluti:
 
@@ -43,7 +43,7 @@ Eftirfarandi tafla lýsir valkostunum fyrir reitinn **Safnvista tilboð**.
 |**Spurning**|Biddu notandann um að velja hvort eigi að safnvista sölutilboðum þegar þeim er eytt.|
 |**Alltaf**|Safnvista sölutilboðum sjálfkrafa þegar þeim er eytt.|
 
-## <a name="to-manually-archive-a-sales-order"></a>Til að geyma sölupöntun handvirkt
+## Til að geyma sölupöntun handvirkt
 
 Eftirfarandi ferli lýsir því hvernig á að geyma sölupöntun handvirkt. Skrefin eru svipuð fyrir öll skjöl og verkefni sem hægt er að geyma.
 
@@ -53,7 +53,7 @@ Eftirfarandi ferli lýsir því hvernig á að geyma sölupöntun handvirkt. Skr
 
 Sölupöntunin er safnvistuð. Hægt er að skoða hana á síðunni **Safnvistaðar sölupantanir**.
 
-## <a name="to-restore-a-non-posted-sales-document-or-a-project-from-the-archive"></a>Endurheimta söluskjal sem ekki er bókað eða verkefni úr safninu
+## Endurheimta söluskjal sem ekki er bókað eða verkefni úr safninu
 
 Eftirfarandi ferli útskýrir hvernig skal endurheimta safnvistaða sölupöntun í upprunalega sölupöntun. Endurheimt skjals er aðeins mögulegt þegar upprunalega skjalið er ekki bókað. Skrefin eru svipuð fyrir allar pantanir, standandi pantanir, vöruskilapantanir og tilboð og einnig fyrir verkefni.
 
@@ -62,7 +62,7 @@ Eftirfarandi ferli útskýrir hvernig skal endurheimta safnvistaða sölupöntun
 
 Innihaldi upphaflegu sölupöntunarinnar eða verksins er skipt út fyrir geymdu útgáfuna.
 
-## <a name="to-delete-archived-versions"></a>Til að eyða geymdar útgáfur
+## Til að eyða geymdar útgáfur
 
 Notaðu varðveislustefnu til að hreinsa geymdar útgáfur sem þú þarft ekki lengur. Varðveitingarreglur gera stjórnendum kleift að skilgreina hversu lengi þeir vilja geyma gögn. Til dæmis er hægt að setja upp stefnu sem eyðir gögnum eftir fyrningardagsetningu. Nánari upplýsingar eru notaðar til að [skilgreina varðveitingarstefnur](admin-data-retention-policies.md).
 
@@ -72,7 +72,7 @@ Notaðu varðveislustefnu til að hreinsa geymdar útgáfur sem þú þarft ekki
 * Þegar varðveitingarstefnan er sett upp er hægt að tilgreina að stefnan eigi að eyða öllum geymdar útgáfur nema þær nýjustu. Til dæmis gæti notandi haft 10 útgáfur og ætlunin er að halda afrit af því nýjasta. 
 * [!INCLUDE [prod_short](includes/prod_short.md)] reiknar út fyrningardagsetningu skjala samkvæmt dagsetningu síðustu útgáfu skjalasafnsins.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Rekja skjalalínur](across-how-to-track-document-lines.md)  
 [Sala](sales-manage-sales.md)  

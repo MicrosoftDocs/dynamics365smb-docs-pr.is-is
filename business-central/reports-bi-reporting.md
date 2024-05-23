@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="analytics-business-intelligence-and-reporting-overview"></a>Yfirlit yfir greiningar, viðskiptagreind og skýrslur
+# Yfirlit yfir greiningar, viðskiptagreind og skýrslur
 
 Lítil og meðalstór fyrirtæki reiða sig á tilbúna innbyggða möguleika greiningar og skýrslugjafar sem þau geta notað til að halda utan um reksturinn. [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á skýrslur og greiningarverkfæri sem ná til grunn- og flókinna viðskiptaferla fyrir slík fyrirtæki. Einnig er hægt að gera ad-hoc greiningar beint af heimasíðunni þinni.  
 
-## <a name="analytics-needs-in-organizations"></a>Greiningarþarfir hjá fyrirtækjum
+## Greiningarþarfir hjá fyrirtækjum
 
 Þegar hugað er að greiningarþörfum hjá fyrirtækjum getur það hjálpað til við að nota andlegt líkan sem byggist á einstaklingum sem lýst er á hástigi og mismunandi greiningarþarfir þeirra.
 
@@ -34,7 +34,7 @@ Eftirfarandi hlutar eru notaðir til að fræðast meira um leiðir til að nota
 - Tilfalengd greining
 - Skýrslur
 
-## <a name="using-financial-reports-to-produce-financial-statements-and-kpis"></a>Notkun fjárhagsskýrslna til að búa til ársreikninga og afkastalsreikninga
+## Notkun fjárhagsskýrslna til að búa til ársreikninga og afkastalsreikninga
 
 Eiginleikinn Fjárhagsskýrslur veitir innsýn í fjárhagsgögnin sem geymd eru í bókhaldslyklinum (COA). Hægt er að setja upp fjárhagsskýrslur til að greina tölur á fjárhagsreikningum og bera saman fjárhagsfærslur og áætlunarfærslur.
 
@@ -44,7 +44,7 @@ Víddir gegna mikilvægu hlutverki í viðskiptagreind. Vídd er gögn sem þú 
 
 Til að fræðast meira um ársreikninga og afkastalsreikninga er farið í [Notkun fjárhagsskýrslna til að búa til ársreikninga og afkastalsreikninga](bi.md).
 
-## <a name="using-key-performance-indicators-to-meet-your-business-goals"></a>Nota lykilstærðir til að uppfylla viðskiptamarkmið
+## Nota lykilstærðir til að uppfylla viðskiptamarkmið
 
 Lykilafkastavísir (afkastavísir) er mælanleg gildi sem sýnir hversu skilvirkt notandi uppfyllir markmiðin. Hugsaðu um afkastastærðir sem árangursmat fyrirtækisins, leið til að mæla hvort þú ert að afhenda markmiðin.
 
@@ -59,7 +59,7 @@ Með því að auðkenna og rekja afkastakstur gerir það kleift að vita hvort
 
 Til að [fræðast meira um afkastavísa er farið í Notkun lykilstærða til að uppfylla viðskiptamarkmið fyrirtækisins](./analytics-about-kpis.md)
 
-## <a name="ad-hoc-data-analysis"></a>Tilfallandi gagnagreining
+## Tilfallandi gagnagreining
 
 Þú gætir viljað athuga hvort tölurnar séu rétt staðfestar eða teknar úr skugga um viðskiptin eða leitað sé að frávikum í fjárhagsgögnum þínum. Tilfallandi greiningar er hugsanlega ekki til innbyggð skýrsla sem hjálpar til við að svara spurningum. Þessir tveir eiginleikar eru notaðir til að tilfalkka greiningar:
 
@@ -79,7 +79,7 @@ Eiginleikinn Gagnagreining gerir kleift að opna næstum hvaða listasíðu sem 
 
 Til að [fræðast meira um auglýsingar er farið í Tilfallandsgreiningu](reports-adhoc-analysis.md) á gögnum.
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 
 Skýrsla í [!INCLUDE[prod_short](includes/prod_short.md)] ssafnar saman upplýsingum byggðum á sérstöku safni af skilyrðum. Skýrslur skipuleggja og birta upplýsingar á auðlesnu sniði sem hægt er að nota í Excel, prenta eða vista sem skrá.  
 
@@ -105,7 +105,7 @@ Nánari upplýsingar um notkun skýrslukönnuðar eru í skýrslukönnuninni til
 | Fræðast um í hvaða innbyggðu skýrslum er að ræða [!INCLUDE[prod_short](includes/prod_short.md)]. |[Skýrsluyfirlit](reports-available-reports.md)| 
 | Skýrsluvafrinn er notaður til að skoða allar innbyggðar skýrslur. | [Skýrslur skoðaðar eftir hlutverkum](ui-role-explorer.md) |
 
-## <a name="external-business-intelligence-and-reporting-tools"></a>Ytri viðskiptauppljóstrun og skýrslugerðarverkfæri
+## Ytri viðskiptauppljóstrun og skýrslugerðarverkfæri
 
 Ef vill er hægt að nota viðskiptagreindarverkfæri sem ekki eru innifalin í [!INCLUDE[prod_short](includes/prod_short.md)]. Í eftirfarandi töflu eru tenglar í leiðbeiningar og leiðir til að nota utanaðkomandi verkfæri.
 
@@ -117,7 +117,7 @@ Ef vill er hægt að nota viðskiptagreindarverkfæri sem ekki eru innifalin í 
 | Greina Gögn Business Central með Microsoft Fabric| [Kynning á Microsoft Fabric og Business Central](admin-fabric.md) |
 | Lesa gögn frá Business Central með API | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
-## <a name="analytics-by-functional-area"></a>Greiningar eftir virkum svæðum
+## Greiningar eftir virkum svæðum
 
 Efni þessa almenna greinar er einnig fáanlegt í sérstökum útgáfum á mörgum virkum svæðum [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -129,7 +129,7 @@ Efni þessa almenna greinar er einnig fáanlegt í sérstökum útgáfum á mör
 | Eignastjórnun | [Greiningar á eignum](fa-analytics-overview.md) |
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Notkun fjárhagsskýrslna til að búa til ársreikninga og afkastalsreikninga](bi.md)  
 [Nota lykilstærðir (afkastavísa) til að uppfylla viðskiptamarkmið](analytics-about-kpis.md)  

@@ -3,25 +3,25 @@ title: Hvernig á að stofna Þjónustuvörur
 description: 'Lestu um mismunandi leiðir sem hægt er að fara til að búa til þjónustuvörur í Business Central, til dæmis innan þjónustupöntunar eða við sendingu á vörum.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: null
 ms.date: 03/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-service-items"></a>Stofna þjónustuatriði
+# Stofna þjónustuatriði
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] vísar hugtakið „þjónustuvara“ til búnaðar eða vöru þarfnast þjónustu. Þegar þú stofnar þjónustupöntun, tilgreinirðu vöruna sem þarfnast þjónustu. Í pöntuninni geturðu tengt þjónustuvöru við vöru í birgðum eða þjónustuvöruflokk.
 
 Þegar tekið er við vöru sem þarfnast þjónustu má skrá hana sem þjónustuvöru. Hægt er gera það á nokkra vegu: Þú getur t.d. stofnað þjónustuvöru á **Þjónustuvörur** síðunni, eða sem hluta af öðru ferli, eins og þegar þú vinnur með þjónustupöntun.
 
-## <a name="to-create-a-service-item"></a>Þjónustuvörur stofnaðar:
+## Þjónustuvörur stofnaðar:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuvörur** og svo velja viðeigandi tengil.
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-create-service-items-within-a-service-order"></a>Þjónustuvörur stofnaðar út frá þjónustupöntunum
+## Þjónustuvörur stofnaðar út frá þjónustupöntunum
 
 Þegar tekið er við vöru til þjónustu og þarf að skrá hana sem þjónustuvöru er hægt að stofna þjónustuvöru á síðunum **Þjónustupöntun** eða **Þjónustutilboð**.  
 
@@ -31,7 +31,7 @@ ms.custom: bap-template
 
     Númeri er sjálfkrafa úthlutað til þjónustuvörunnar og þjónustuvöruspjald er stofnað. Reiturinn **Nr. þjónustuvöru** er fylltur út með númeri nýju þjónustuvörunnar.
 
-## <a name="to-create-a-service-item-when-shipping-items"></a>Þjónustuvörur stofnaðar þegar vörur eru sendar:
+## Þjónustuvörur stofnaðar þegar vörur eru sendar:
 
 Þegar vörur eru sendar, annaðhvort með því að bóka sölupantanir eða sölureikninga eru sendu vörurnar sjálfkrafa skráðar sem þjónustuvörur að uppfylltum eftirfarandi skilyrðum. Varan verður að tilheyra þjónustuvöruflokki með gátmerki í reitnum **Stofna þjónustuvöru**. Ef vörurnar eru með raðnúmer skráð á síðunni **Vörurakningarlínur** eru þessar upplýsingar afritaðar sjálfvirkt í reitinn Raðnr. á þjónustuvöruspjaldinu þegar þjónustuvörur eru stofnaðar.  
 
@@ -48,7 +48,7 @@ Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar sölupön
 >
 > Ef vara er uppskrift og ekki búið að opna uppskriftina eru þjónustuvörur stofnaðar fyrir hana eftir skilyrðinu um þjónustuvöruflokk, og ef vill, raðnúmer.  
 
-## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Upphafsgjald vegna þjónustuvöru sett inn:
+## Upphafsgjald vegna þjónustuvöru sett inn:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustuverk** og svo velja viðeigandi tengil.
 2. Velja aðgerðina **Vöruvinnublað**.
@@ -56,7 +56,7 @@ Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar sölupön
 
     Kerfið setur inn þjónustulínu af gerðinni **Kostnaður** með upphafsgjaldinu. Upphafsgjaldið á við þá þjónustuvöru sem valin var.
 
-## <a name="block-items-item-variants-or-specific-service-items"></a>Loka vörum, vöruafbrigðum eða tilteknum þjónustuvörum
+## Loka vörum, vöruafbrigðum eða tilteknum þjónustuvörum
 
 Hægt er að koma í veg fyrir að vörur, vöruafbrigði eða þjónustuvörur séu notaðar í þjónustukerfisfærslum, svo sem þjónustusamningum, þjónustupöntunum og þjónustureikningum. Þetta getur verið gagnlegt ef takmarka á ráðstöfunarbirgðir sumra vara eða þjónustuvara í þjónustuskyni, til dæmis vegna stuðnings sem hætt er við, takmarkaðra birgða eða samninga um samninga.
 
@@ -79,7 +79,7 @@ Ef um er að ræða þjónustusamninga, þjónustusamningstilboð eða þjónust
 - **Gefa út til afhendingar** eða **bóka** á síðunni **Þjónustupöntun** .
 - **Bóka** á síðunni **Þjónustureikningur** .
 
-### <a name="block-a-service-item"></a>Loka þjónustuvöru
+### Loka þjónustuvöru
 
 Til að loka fyrir að þjónustuvara sé notuð í þjónustukerfisfærslum skal velja einn af eftirfarandi valkostum á **síðunni Þjónustuvöruspjald** í reitnum **Lokaður** :
 
@@ -107,14 +107,14 @@ Einnig er hægt að skoða lokaðar þjónustuvörur með því að nota afmörk
 - Þjónustuvörur úr ábyrgð (skýrsla 5937)
 - Framlegð þjónustu (þjónustuvörur) (skýrsla 5938)
 
-### <a name="data-upgrade"></a>Gagnauppfærsla
+### Gagnauppfærsla
 
 Þessi aðgerð krefst ekki frekari uppsetningar. En ef uppfærslan er [!INCLUDE [prod_short](includes/prod_short.md)] uppfærð skal hafa eftirfarandi í huga:
 
 - Ef um er að ræða vörur, vöruafbrigði eða vörusniðmát þar sem **kveikt er á vísbendingunni Sala lokað** er einnig kveikt á reitnum **Þjónustulokað** fyrir þessar færslur við uppfærslu. Þetta tryggir að eldri sölulokunargrunnur gildir einnig um þjónustukerfisfærslur.
 - Gagnauppfærsla aðeins ef að minnsta kosti ein þjónustuvara er til í fyrirtækinu, sem þýðir að notandi notar þjónustukerfisaðgerðina og þarfnast gagnauppfærslu. Ef þjónustuvörur eru ekki til er gagnauppfærslunni sleppt og **sjálfgefið er að slökkt sé á vífærinu Þjónustulokuð** fyrir allar vörur, vöruafbrigði og vörusniðmát.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp þjónustuvörur og íhluti þjónustuvara](service-how-setup-service-items.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  

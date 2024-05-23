@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-finance-data"></a>Tilfallandi greining á fjárhagsgögnum
+# Tilfallandi greining á fjárhagsgögnum
 
 Þessi grein útskýrir hvernig á að nota aðgerðina **Gagnagreining** til að greina fjárhagsgögn beint frá listasíðum og fyrirspurnum. Ekki þarf að keyra skýrslu eða skipta yfir í annað forrit, t.d. Excel. Eiginleikinn býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Nokkur dæmi eru "Heildareignir með tímanum", "Útistandandi skuldir", "Útistandandi skuldir" eða annað sem hægt er að ímynda sér. Til að fræðast meira um notkun aðgerðarinnar **Gagnagreining** er farið í [Greiningarlista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md).
 
@@ -22,7 +22,7 @@ Eftirfarandi listasíður eru notaðar til að hefja tilfallandi greiningu á fj
 - [Viðskm.færslur](https://businesscentral.dynamics.com/?page=25)
 - [Lánardr.færslur](https://businesscentral.dynamics.com/?page=29)
 
-## <a name="finance-ad-hoc-analysis-scenarios"></a>Tilfallandi greiningardæmi í fjármálum
+## Tilfallandi greiningardæmi í fjármálum
 
 Aðgerðin **Gagnagreining** er notuð til að gera skyndiathugun og tilfalalengdar greiningar:
 
@@ -39,7 +39,7 @@ Eftirfarandi hlutar gefa dæmi um fjármálaaðstæður. [!INCLUDE [prod_short](
 | [Fjármál (Rekstrarreikningur)](#example-finance-income-statement) | Sjá tekjur yfir tekjureikningana í bókhaldslyklinum, til dæmis, raðað niður í tímabil þegar upphæðir voru bókaðar. | [Fjárhagsfærslur](https://businesscentral.dynamics.com/?page=20) | **Fjárhagsreikn.nr.**, **Bókunardagsetning** og **Upphæð**. |
 | [Fjármál (heildareignir)](#example-finance-total-assets) | Skoða eignir yfir eignareikningana í bókhaldslyklinum, til dæmis, skipt niður í tímabil þegar upphæðir voru bókaðar. | [Fjárhagsfærslur](https://businesscentral.dynamics.com/?page=20) | **Fjárhagsreikn.nr.**, **Bókunardagsetning** og **Upphæð**. |
 
-### <a name="example-finance-accounts-receivables"></a>Dæmi: Fjárhagur (Útistandandi safnreikningur)
+### Dæmi: Fjárhagur (Útistandandi safnreikningur)
 
 Til að sjá hvað viðskiptamenn skulda þér er kannski raðað niður í tímabil þegar upphæðir eru gjaldfallnar skal fylgja eftirfarandi skrefum:
 
@@ -51,7 +51,7 @@ Til að sjá hvað viðskiptamenn skulda þér er kannski raðað niður í tím
 1. Hægt er að gera greiningu á tilteknu ári eða ársfjórðungi með því að nota afmörkun í valmyndinni **Greiningarafmarkanir** (sem er undir valmyndinni **Dálkar** hægra megin).
 1. Endurnefna greiningarflipann á **aldursgreiningarreikninga eftir mánuðum** eða eitthvað sem lýsir þessari greiningu.
 
-### <a name="example-finance-accounts-payable"></a>Dæmi: Fjárhagur (Safnreikningur)
+### Dæmi: Fjárhagur (Safnreikningur)
 
 Til að sjá hvað lánardrottnarnir skulda er kannski skipt niður í tímabil þegar upphæðir eru komnar á gjalddaga er eftirfarandi skrefum fylgt:
 
@@ -67,7 +67,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Dæmi um gagnagreiningu á síðunni Viðskm.færslur." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-### <a name="example-finance-income-statement"></a>Dæmi: Fjármál (Rekstrarreikningur)
+### Dæmi: Fjármál (Rekstrarreikningur)
 
 Til að skoða tekjur yfir tekjureikningana í bókhaldslyklinum er skipt niður í tímabil fyrir það hvenær upphæðir voru bókaðar er eftirfarandi skrefum fylgt:
 
@@ -83,7 +83,7 @@ Til að skoða tekjur yfir tekjureikningana í bókhaldslyklinum er skipt niður
 
 1. Endurnefna greiningarflipa fyrir **Tekjur eftir mánuðum** eða eitthvað sem lýsir þessari greiningu.
 
-### <a name="example-finance-total-assets"></a>Dæmi: Fjármál (heildareignir)
+### Dæmi: Fjármál (heildareignir)
 
 Til að skoða eignir yfir eignareikningana í bókhaldslyklinum er skipt niður í tímabil þegar upphæðir voru bókaðar er gert á eftirfarandi hátt:
 
@@ -99,7 +99,7 @@ Til að skoða eignir yfir eignareikningana í bókhaldslyklinum er skipt niður
 
 1. Endurnefna greiningarflipa fyrir **Tekjur eftir mánuðum** eða eitthvað sem lýsir þessari greiningu.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-finance"></a>Gagnagrunnur fyrir tilfallandi greiningu á fjármálum
+## Gagnagrunnur fyrir tilfallandi greiningu á fjármálum
 
 Við bókun færslubóka stofnar [!INCLUDE [prod_short](includes/prod_short.md)]  notandi færslur í **töflunni Fjárhagsfærsla** . Þess vegna er tilfallandi greining á almennum fjármálum yfirleitt unnin á síðunni [Fjárhagsfærslur](https://businesscentral.dynamics.com/?page=20) . Fyrir útistandandi og gjaldfallna reikninga er hægt að greina [viðskiptamannafærslur](https://businesscentral.dynamics.com/?page=25) og [lánardr.færslur](https://businesscentral.dynamics.com/?page=29).
 
@@ -108,7 +108,7 @@ Til að fá nánari upplýsingar er farið í eftirfarandi greinar:
 - [Gagnagrunnur fyrir tilfalvarna greiningu á sölu](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Gagnagrunnur fyrir tilfallandi greiningu á innkaupum](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Greina lista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md)  
 [Yfirlit fjárhagsgreininga](bi.md)  

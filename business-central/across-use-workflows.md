@@ -3,7 +3,7 @@ title: Nota Samþykktarverkflæði
 description: Hægt er að setja upp og nota verkflæði til að tengja verk viðskiptaferla eins og sjálfvirka bókun eða beiðni og veitingu samþykktar fyrir nýjar færslur.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.form: '1500, 1501, 1503, 1504, 1505'
@@ -11,7 +11,7 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
+# Nota Samþykktarverkflæði
 
 Verkflæði er röð verka sem aðgerð, skilyrði eða regla setur af stað. Verkflæði eru yfirleitt innleidd til að samþætta viðskiptagrunn við fyrirtæki, t.d. aðskilnað aðgangsheimilda, sameiningu ferla eða til að nota bestu starfsvenjur.
 
@@ -64,7 +64,7 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 | Skoðaðu tilvik verkflæðisskrefa með stöðuna **Lokið**. | [Skoða verkflæðisskrefstilvik í skráasafni](across-how-to-view-archived-workflow-step-instances.md) |
 | Eyddu samþykktarverkflæði sem verður ekki notað aftur. | [Eyða verkflæði samþykkta](across-how-to-delete-workflows.md) |
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp Verkflæði samþykktar](across-set-up-workflows.md)  
 [Verkflæði](across-workflow.md)  

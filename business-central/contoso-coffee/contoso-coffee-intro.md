@@ -3,7 +3,7 @@ title: Kynning á sýnigögnum Contoso Coffee
 description: Yfirlit yfir atburðarásir um hvernig Gögn Contoso-kaffisins geta hjálpað þér að læra að nota getuna í Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.date: 09/20/2023
 ms.topic: article
 ms.service: dynamics-365-business-central
@@ -11,11 +11,11 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Kynning á sýnigögnum Contoso Coffee
+# Kynning á sýnigögnum Contoso Coffee
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. Contoso-kaffiforritin **til** [!INCLUDE [prod_short](../includes/prod_short.md)] að bæta við kynningu á gögnum sem hægt er að nota til að læra að nota getuna í [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="set-up-contoso-coffee-data"></a>Setja upp Contoso Coffee gögn
+## Setja upp Contoso Coffee gögn
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
@@ -39,7 +39,7 @@ Eftirfarandi tafla lýsir stillingunum:
 
 Þegar einingarnar sem á að prófa hafa verið grunnstilltar skal velja aðgerðina **Mynda** til að stofna sýnigögn fyrir þær.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framleiðsla](../production-manage-manufacturing.md)  
 [Aðvörun](../warehouse-manage-warehouse.md)  
