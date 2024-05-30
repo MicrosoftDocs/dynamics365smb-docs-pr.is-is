@@ -142,7 +142,7 @@ Til að takmarka færslur fyrir tiltekinn notanda:
 3. Í reitnum **Leyfa bókun frá** tilgreinirðu VSK dagsetninguna sem þú leyfir bókun frá. Ekki er leyfilegt að bóka skjal eða dagbók með VSK dagsetningu fyrir þessa dagsetningu.
 4. Í reitnum **Leyfa bókun til** tilgreinirðu VSK dagsetninguna þar til þú leyfir bókun. Ekki er leyfilegt að bóka skjal eða dagbók með VSK dagsetningu eftir þessa dagsetningu.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Setja upp VSK-númer fyrir þitt land eða svæði
+## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Setja upp VSK-númer fyrir þitt land eða svæði
 
 Til að ganga úr skugga um að rétt VSK-númer séu slegin inn er hægt að skilgreina snið fyrir VSK-númer sem eru notuð í löndum eða svæðum þar sem viðskipti notanda eru stunduð. [!INCLUDE[prod_short](includes/prod_short.md)] sýnir villuboð ef einhver gerir mistök eða notar snið sem er rangt fyrir landið eða svæðið.
 
@@ -232,7 +232,7 @@ Eftirfarandi hlutar útskýra hvernig á að úthluta VSK-bókunarflokkum til ei
     * Á **Tilfang** spjaldinu, stækkið **Reikningagerð** flipann.  
 3. Veljið VSK-vörubókunarflokk.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Setja upp ákvæði til að útskýra VSK undanþágu eða óstaðlaðra VSK taxta
+## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Setja upp ákvæði til að útskýra VSK undanþágu eða óstaðlaðra VSK taxta
 
 VSK-klausa er sett upp til að lýsa upplýsingum um hvaða tegund VSK er notuð. Reglur stjórnvalda gætu krafist þessara upplýsinga. Þegar búið er að setja upp VSK-ákvæði og tengja það við VSK-bókunaruppsetningu, birtist VSK-ákvæðið á öllum prentuðum söluskjölum sem nota VSK-bókunaruppsetningarflokkinn.
 
@@ -293,7 +293,7 @@ Til að setja upp kóða fyrir VSK vegna innflutnings, skal fylgja þessum skref
 5. Í reitnum **SK-Útreikningstegund** skal velja **Fullur VSK**.  
 6. Í **VSK-sölureikningur** reitinn skal færa inn fjárhagsreikningurinn sem á að nota til að bóka VSK vegna innflutnings. Allir aðrir reikninga eru valfrjáls.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Nota bakfærðan VSK fyrir viðskipti milli ESB-landa eða svæða
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>Nota bakfærðan VSK fyrir viðskipti milli ESB-landa eða svæða
 
 Sum fyrirtæki verða að nota bakfærðan VSK þegar þau eiga viðskipti við önnur fyrirtæki. Reglan gildir til dæmis fyrir innkaup frá ESB-löndum/svæðum og sölu til ESB-landa/svæða.  
 
@@ -303,7 +303,7 @@ Sum fyrirtæki verða að nota bakfærðan VSK þegar þau eiga viðskipti við 
 > [!TIP]  
 > Þú getur staðfest að fyrirtæki sé skráð sem virðisaukaskattsskylt í öðru ESB landi/svæði með því að nota þjónustu ESB VSK Registration Number Validation. Þjónustan er tiltæk án endurgjalds í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a>Sala til ESB-landa eða svæða
+### <a name="sales-to-eu-countriesregions"></a>Sala til ESB-landa eða svæða
 
 VSK er ekki reiknaður af sölu til virðisaukaskattskyldra fyrirtækja í öðrum ESB löndum/svæðum. Tilkynna þarf virði sölu til ESB-landa/svæða sérstaklega á VSK-yfirlitinu.  
 

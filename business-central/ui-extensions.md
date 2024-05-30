@@ -9,7 +9,7 @@ ms.date: 09/27/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="customizing-business-central-online-with-apps"></a>Sérstilling Business Central Online með forritum
+# <a name="customizing-business-central-online-using-apps"></a>Sérstilling Business Central Online með forritum
 
 Þú getur breytt [!INCLUDE[prod_short](includes/prod_short.md)] Online með því að setja forrit sem bæta við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis. Þessi forrit eru einnig kölluð *viðbætur* vegna þess að þau *bæta við* [!INCLUDE [prod_short](includes/prod_short.md)].
 

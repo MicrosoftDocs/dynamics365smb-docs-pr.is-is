@@ -26,7 +26,7 @@ ms.service: dynamics-365-business-central
 
 Notandinn í þessu tilfelli hefur leyfilegt dagsetningabil bókunar frá 11. september til 30. september og er því ekki heimilt að bóka leiðréttingarvirðisfærsluna með bókunardagsetninguna 10. september.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Yfirlit yfir virka uppsetningu bókunardagsetningar
+### <a name="overview-of-the-posting-date-setup"></a>Yfirlit yfir virka uppsetningu bókunardagsetningar
 
 #### <a name="inventory-periods"></a>Birgðatímabil
 
