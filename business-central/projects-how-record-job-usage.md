@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 02/22/2024
 ms.custom: bap-template
 ---
-# Skrá notkun eða notkun fyrir verk
+# <a name="record-consumption-or-usage-for-projects"></a>Skrá notkun eða notkun fyrir verk
 
 Á síðunni **Verkspjald** er hægt að opna **síðuna Áætlunarlínur** verkefnis til að fara yfir og skrá notkun á ýmsum hlutum verkefnisins. Þessar upplýsingar eru uppfærðar sjálfkrafa þegar upplýsingum er breytt og þær fluttar milli verka og verkbóka eða verkreikninga. Þetta krefst þess að kveikt sé á beita **notkunartenglinum sjálfgefið** á síðunni **Verkuppsetning** . Nánari upplýsingar um [Uppsetning verkefna](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ Til dæmis er hægt að færa inn magn forða fyrir áætlunarlínur af tegundin
 
 Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (áætlað) magn og kostnað í verkbók. Einnig er hægt að nota innkaupaskjöl til að skrá innkaup fyrir verkefni. Fræðast meira um [verkbirgðir](projects-how-manage-project-supplies.md).
 
-## Til að skrá notkun fyrir verkáætlunarlínu af gerðinni Áætlun
+## <a name="to-record-usage-for-a-project-planning-line-of-type-budget"></a>Til að skrá notkun fyrir verkáætlunarlínu af gerðinni Áætlun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Verkefni** og velja síðan viðeigandi tengil.  
 2. Veljið verkið og veljið svo aðgerðina **Áætlunarlínur verks** . 
@@ -42,7 +42,7 @@ Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (áæt
 9. Á síðunni **Áætlunarlínur** verkefnis skal fara yfir skráða notkun með því að **fylgjast með Magn**, **Eftirstöðvar (magn**) og **Magn. Til að flytja í færslubókarreiti** .  
 10. Endurtakið skref 3 til 8 til að skrá frekari notkun.  
 
-## Til að stofna verkbókarlínur handvirkt
+## <a name="to-create-project-journal-lines-manually"></a>Til að stofna verkbókarlínur handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **verkbækur** og velja síðan viðeigandi tengil.  
 2. Í reitnum **Heiti** keyrslu skal velja viðeigandi verkbókarkeyrslu.  
@@ -51,7 +51,7 @@ Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (áæt
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Til að skoða áætlanir um notkun verks og bóka uppfærslur
+## <a name="to-view-project-usage-estimates-and-post-updates"></a>Til að skoða áætlanir um notkun verks og bóka uppfærslur
 
 Hægt er að skoða verknotkun allt að lokum verks í einu þrepi. Til þess er keyrslan Reikna eftirstandandi notkun **verks notuð** fyrir alla verkhluta allt að og með lokum verks.  
 
@@ -66,7 +66,7 @@ Hægt er að skoða verknotkun allt að lokum verks í einu þrepi. Til þess er
 4. Uppfærið bókina með þeim breytingum sem kann að vera þörf á.  
 5. Veljið **Bókun**.
 
-## Stofna birgða- og vöruhúsatínsluskjöl fyrir verk
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-project"></a>Stofna birgða- og vöruhúsatínsluskjöl fyrir verk
 
 Nota aðgerðirnar Stofna birgðatínslu **og** **Stofna vöruhúsatínslu** á síðunni **Verkspjald** . Til að búa til eða skrá tínsluskjal skal nota aðgerðina **Frágangur/tínslulínur/hreyfingarlínur** eða **Skráðar tínslulínur**. Nánari upplýsingar um [Flæði fyrir framleiðslu, samsetningu og verkefni](design-details-internal-warehouse-flows.md).
 
@@ -83,7 +83,7 @@ Hægt er að nota aðgerðirnar við eftirfarandi skilyrði:
 > 
 > Ef birgðageymslan er sett upp til að þurfa bæði tínslu- og afhendingarvinnslu, þ.e. báðir reitirnir **Krefjast tínslu** og **Krefjast afhendingar** hafa verið valdir á síðunni **Birgðageymsluspjald**, skal nota síðuna **Vöruhúsatínsla** til að afgreiða tínsluna. Vöruhúsatínslur eru svipaðar og birgðatínslur. Munurinn er sá að í stað þess að bóka tínsluupplýsingarnar skráirðu tínsluna. Þessi skráning bókar ekki notkun, hún gerir bara vörurnar tiltækar fyrir bókun. Sem stjórnandi vöruhúss, geturðu notað tínsluvinnublað til að flokka tínsluupplýsingar áður en þú stofnar einstakar tínsluleiðbeiningar vöruhússins
 
-## Til að fara yfir áætlunarlínur fyrir verkfærslu
+## <a name="to-review-planning-lines-for-a-project-ledger-entry"></a>Til að fara yfir áætlunarlínur fyrir verkfærslu
 
 Þegar verkbókarlínur hafa verið bókaðar er hægt að sjá áætlunarlínurnar sem tengjast verkbókarfærslunum sem hafa verið bókaðar.
 
@@ -94,7 +94,7 @@ Hægt er að nota aðgerðirnar við eftirfarandi skilyrði:
 2. Veljið viðeigandi verkbók og veljið **svo Fjárhagsfærslur** .  
 3. Á síðunni **Verkfærslur** skal velja **Sýna tengdar áætlunarlínur** .
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  

@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 7377'
 ---
-# Vörur tíndar með birgðatínslu
+# <a name="pick-items-with-inventory-picks"></a>Vörur tíndar með birgðatínslu
 
 Vörur [!INCLUDE[prod_short](includes/prod_short.md)] eru tíndar og afhentar með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
 
@@ -42,29 +42,29 @@ Hægt er að stofna birgðatínslu á þrjá vegu:
 
 Síðan er hægt að stofna birgðatínslu á síðunni **Birgðatínsla** á grundvelli upprunaskjalsins.  
 
-## Birgðatínsla stofnuð í upprunaskjali:
+## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Birgðatínsla stofnuð í upprunaskjali:
 
 1. Í upprunaskjalinu, sem getur verið sölupöntun, innkaupavöruskilapöntun eða millifærslupöntun á útleið, skal velja aðgerðina **Stofna birgðafrágang/tínslu** .
 2. Velja skal reitinn **Stofna birgðafrávik Tínslureiturinn** .  
 3. Velja hnappinn **Í lagi**. Ný birgðatínsla verður stofnuð.
 
-## Fleiri en ein birgðatínsla stofnuð með keyrslu
+## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Fleiri en ein birgðatínsla stofnuð með keyrslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikn, færa inn **Stofna birgðafrágang/tínslu/hreyfingu** og velja síðan viðeigandi tengil.  
 2. Á flýtiflipanum **Vöruhúsabeiðni** skal nota **Upprunaskjal og** Upprunanúmer **.** til að afmarka eftir tilteknum tegundum fylgiskjala eða sviðum fylgiskjalsnúmera. Til dæmis er hægt að stofna tínslu einungis fyrir sölupantanir.  
 3. Á flýtiflipanum **Valkostir** er reiturinn Stofna birgðafrávik **valinn. Tínslureiturinn** .
 4. Velja hnappinn **Í lagi**.
 
-## Tínslan stofnuð í tveimur þrepum
+## <a name="to-create-the-pick-in-two-steps"></a>Tínslan stofnuð í tveimur þrepum
 
-### Til að biðja um birgðatínslu með því að gefa út upprunaskjalið
+### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Til að biðja um birgðatínslu með því að gefa út upprunaskjalið
 
 Fyrir sölupantanir, innkaupaskilapantanir og millifærslupantanir á útleið er vöruhússbeiðnin stofnuð með því að gefa út pöntunina. Ef pöntunin er gerð út gera vörurnar tiltækar til tínslu.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.
 2. Valinn er sölupöntun sem á að gefa út og velja síðan aðgerðina **Gefa út**.
 
-### Birgðatínsla stofnaður á grundvelli upprunaskjals
+### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Birgðatínsla stofnaður á grundvelli upprunaskjals
 
 Þegar pöntun hefur verið gefin út getur starfsmaður vöruhússins stofnað birgðatínslu.
 
@@ -75,7 +75,7 @@ Fyrir sölupantanir, innkaupaskilapantanir og millifærslupantanir á útleið e
 5. Einnig er hægt að velja aðgerðina **Sækja upprunaskjal** til að stofna lista yfir öll upprunaskjöl á útleið sem eru tilbúin til tínslu í birgðageymslunni.  
 6. Hnappurinn **Í lagi** er valinn til að fylla út tínslulínurnar eftir völdum upprunaskjölum.  
 
-## Til að skrá birgðatínslur
+## <a name="to-record-inventory-picks"></a>Til að skrá birgðatínslur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Birgðatínsla** og veldu síðan viðkomandi tengil.  
 2. í reitnum **Hólfakóði** í tínslulínunum, hólfið sem vörurnar þurfa að vera tíndar úr er tillaga á sjálfgefið hólf vörunnar. Hægt er að skipta um hólf á þessari síðu ef með þarf.  
@@ -90,7 +90,7 @@ Fyrir sölupantanir, innkaupaskilapantanir og millifærslupantanir á útleið e
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Meðhöndlun á vörum sem eru settar saman eftir pöntunum og birgðatínslum
+## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Meðhöndlun á vörum sem eru settar saman eftir pöntunum og birgðatínslum
 
 Einnig er hægt að nota síðuna **Birgðatínsla** til að tína og senda fyrir sölu þar sem setja þarf saman vörur áður en hægt er að afhenda þær. Nánari upplýsingar um sölu á [vörum sem settar eru saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -120,7 +120,7 @@ Ef hólfkóti er ekki tilgreindur á sölupöntunarlínunni og ekkert samsetning
 > [!NOTE]  
 > Ef vörur eru settar saman í pöntun er birgðatínslan fyrir tengdu sölupöntunina þar til stofnuð er birgðahreyfing fyrir alla samsetningaríhlutina.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 [Birgðir](inventory-manage-inventory.md)  

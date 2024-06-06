@@ -10,7 +10,7 @@ ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Leiðrétta vörukostnað
+# <a name="adjust-item-costs"></a>Leiðrétta vörukostnað
 
 Kostnaður vöru (birgðavirði) sem keypt er inn og síðar gæti breyst á meðan á líftíma hennar stendur, til dæmis vegna þess að flutningskostnaði er bætt við innkaupakostnað hennar eftir að varan hefur verið seld. Kostnaðaraðlögun er sérstaklega viðeigandi í aðstæðum þar sem þú selur vörur áður en þú reiknar kaupin á þeim vörum. Til að vita alltaf rétt birgðavirði þarf að leiðrétta reglulega birgðakostnað. Réttur kostnaður tryggir að sölu- og framlegðartölur séu uppfærðar og að fjárhagsleg afkastavísar séu réttir. Nánari upplýsingar, sjá [Upplýsingar um hönnun: Kostnaðarleiðrétting](design-details-cost-adjustment.md)
 
@@ -28,13 +28,13 @@ Ef þú notar Meðalkostnaðaraðferð, er einingaverð vara reiknað út sem me
 
 Kostnaðarleiðrétting vinnur aðeins virðisfærslur sem ekki eru leiðréttar. Þegar framsenda þarf breyttan kostnað á innleið í tengdar færslur á útleið stofnar það nýjar leiðréttingarvirðisfærslur. Leiðréttingarvirðisfærslurnar byggjast á upplýsingunum í upphaflegu virðisfærslunum en innihalda leiðréttingarupphæðina. Kostnaðarleiðréttingin notar dagsetningu bókunar upphaflegu virðisfærslunnar í leiðréttingarfærslunni nema hún sé í lokuðu birgðatímabili. Í því tilfelli notar forritið upphafsdagsetningu næsta birgðatímabils. Ef birgðatímabil eru ekki notuð tilgreinir dagsetningin í **reitnum Bókun leyfð frá** á síðunni **Fjárhagsgrunnur** hvenær leiðréttingarfærslan er bókuð.
 
-## Til að uppfæra birgðakostnað verks handvirkt
+## <a name="to-adjust-item-costs-manually"></a>Til að uppfæra birgðakostnað verks handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðrétta kostnað - Birgðafærslur** og velja síðan viðkomandi tengil.
 2. Á síðunni **Leiðr. Kostnað - Birgðafærslur** skal tilgreina hvaða vörur á að leiðrétta kostnað fyrir.
 3. Velja hnappinn **Í lagi**.
 
-## Almennar breytingar gerðar í Innk.verð:
+## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Almennar breytingar gerðar í Innk.verð:
 
 Ef breyta þarf innkaupaverðinu fyrir marga hluti er hægt að nota **Leiðrétta vörukostnað/verð** keyrsluna.  
 
@@ -46,45 +46,45 @@ Keyrslan breytir innihaldi reitsins **Einingarverð** á birgðaspjaldinu. Keyrs
 4. Á flýtiflipanum **Vara** skal setja upp afmarkanir til að tilgreina, til dæmis, hvaða vörur á að vinna með runuvinnslunni.  
 5. Velja hnappinn **Í lagi**.  
 
-## Skilningur á útreikningi kostnaðarverðs
+## <a name="understanding-unit-cost-calculation"></a>Skilningur á útreikningi kostnaðarverðs
 
 Gildið í reitnum **Kostnaðarverð** á birgðaspjaldinu er byggt á stöðluðu kostnaðarverði vara með aðferðina Staðlað kostnaðarútreikningur. Fyrir vörur með aðrar kostnaðarútreikningsaðferðir er gildið byggt á útreikningi á tiltækum birgðum (reikningsfærður kostnaður og væntanlegur kostnaður) deilt með tiltæku magni.  
 
 Í eftirfarandi köflum er lýst nánar hvernig reiturinn **Aðferð kostn.útreiknings** hefur áhrif á útreikning innkaupaverðs fyrir innkaup og sölu:  
 
-## Útreikningur kostnaðarverðs fyrir innkaup  
+## <a name="unit-cost-calculation-for-purchases"></a>Útreikningur kostnaðarverðs fyrir innkaup
 
 Þegar vörur eru keyptar afritar **gildið í reitnum** Síðasta innk.verð **á birgðaspjaldinu í reitinn Innk.verð** í innkaupalínu eða **í línuna Ein.upphæð** í birgðabókarlínu.  
 
 Það sem valið er í reitnum **Aðferð kostnaðarútreiknings** hefur áhrif á hvernig [!INCLUDE[prod_short](includes/prod_short.md)] reiknar innihald reitarins **Einingarkostnaður** á línunum.  
 
-### FIFO, LIFO, Innslegið eða Meðalkostnaðarútreikningsaðferðir  
+### <a name="fifo-lifo-specific-or-average-costing-methods"></a>FIFO, LIFO, Innslegið eða Meðalkostnaðarútreikningsaðferðir
 
 [!INCLUDE[prod_short](includes/prod_short.md)] notar eftirfarandi reiknireglu til að reikna út efni reitsins **Kostn.verð (SGM)** í innkaupalínunni eða það sem er í reitnum **Kostnaðarverð** í birgðabókarlínunni:  
 
 “Kostn.verð (SGM) = (Beinn kostnaður – (Afsláttarupphæð / Magn)) x (1 + “Óbein kostnaðar % / 100) + Hlutf. sameiginl. Kostn  
 
-### Stöðluð aðferð við kostnaðarútreikning  
+### <a name="standard-costing-method"></a>Stöðluð aðferð við kostnaðarútreikning
 
 Reiturinn **Kostn.verð (ISK)** á innkaupalínunni eða reiturinn **Kostnaðarverð** hefur verið fylltur út í birgðabókarlínunni með gildinu í reitnum **Kostnaðarverð** á birgðaspjaldinu. Ef stöðluð aðferð við útreikning kostnaðar er notuð er gildið alltaf byggt á stöðluðu kostnaðarverði.  
 
 Þegar innkaup eru bókuð afritar kostnaðarverðið úr innkaupalínunni eða birgðabókarlínunni í innkaupareikningsfærsluna. Hann kemur fram á færslulista vörunnar.  
 
-### Allar aðferðir kostn.útreiknings  
+### <a name="all-costing-methods"></a>Allar aðferðir kostn.útreiknings
 
 Kostnaðarverðið úr upprunaskjalslínunni er notað til að reikna gildið í reitnum **Kostnaðarupphæð (raunverul.)** eða, ef við á, reitinn **Kostnaðarupphæð (væntanl.)** sem tengist þessari birgðafærslu. Kostnaðurinn er innifalinn í útreikningnum óháð kostnaðaraðferð vörunnar.  
 
-## Útreikningur kostnaðarverðs fyrir sölu  
+## <a name="unit-cost-calculation-for-sales"></a>Útreikningur kostnaðarverðs fyrir sölu
 
 Þegar vörur eru selt afritar kostnaðarverðið úr reitnum **Kostnaðarverð** á birgðaspjaldinu yfir í sölulínuna eða birgðabókarlínuna.  
 
 Við bókun afritar kostnaðarverðið yfir í birgðafærslu sölureiknings og kemur fram á færslulista vörunnar. [!INCLUDE[prod_short](includes/prod_short.md)] notar kostnaðarverðið úr upprunaskjalslínunni til að reikna út efni reitsins **Kostnaðarupphæð (raunverul.)** eða, ef við á, **reitinn Kostnaðarupphæð (væntanl.)** í virðisfærslunni sem tengist þessari birgðafærslu.  
 
-## Rekja kostnaðarleiðréttingar vöru
+## <a name="track-item-cost-adjustments"></a>Rekja kostnaðarleiðréttingar vöru
 
 Vörukostnaður getur breyst af mörgum ástæðum og því er mikilvægt að hægt sé að fylgjast með kostnaðarleiðréttingum.  **Síðan Leiðrétting birgðakostnaðar** er notuð til að stjórna og fylgjast með kostnaðarleiðréttingarferlinu. Þessi síða birtir vörur ásamt færibreytum kostnaðarútreiknings og stöðu kostnaðarleiðréttingar. Hægt er að afmarka listann til að einbeita sér að vörum sem þarfnast leiðréttingar eða sem eru undanskildar í kostnaðarleiðréttingarferlinu. Til að fræðast meira um rakningu kostnaðarleiðréttinga er farið í [Rekja kostnaðarleiðréttingar](finance-track-inventory-costs.md) á vöru.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Birgðir](inventory-manage-inventory.md)  

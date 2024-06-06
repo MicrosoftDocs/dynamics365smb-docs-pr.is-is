@@ -9,37 +9,37 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Stofna hólf
+# <a name="create-bins"></a>Stofna hólf
 
 Skilvirkasta leiðin til að stofna hólf í vöruhúsinu er að stofna flokka samskonar hólfa á vinnublaði hólfastofnunar, en einnig er hægt að stofna stök hólf frá birgðageymsluspjaldi. Einnig er hægt að nota virkni á síðunni **Hólfastofnunarvinnublaði** til að stofna hólfs sjálfvirkt.  
 
-## Hólf stofnaða af birgðageymsluspjaldinu:
+## <a name="to-create-a-bin-from-the-location-card"></a>Hólf stofnaða af birgðageymsluspjaldinu:
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja viðkomandi tengil.  
 2.  Veljið birgðageymsluna þaðan sem á að stofna hólfið og veljið síðan aðgerðina **Hólf**.  
 3. Valið er aðgerðin **Nýtt**.
 4. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### Sérsniðna reiturinn
+### <a name="the-dedicated-field"></a>Sérsniðna reiturinn
 
 Reiturinn **Sérnýttur** á síðunni **Hólf** tilgreinir að magn í hólfinu sé varið fyrir tínslu fyrir aðrar eftirspurnir. Hins vegar er enn hægt að taka frá magn í sérnýttum hólfum. Í samræmi við það er magnið í sérnýttum hólfum tekið með í reitnum **Heildarmagn tiltækt** á síðunni **Frátekning**.
 
 Að búa til sérnýtt hólf leiðir til svipaðrar aðgerðar í grunnvöruhúsi eins og að nota hólfategundir, sem er eingöngu hægt í ítarlegu vöruhúsi. Frekari upplýsingar eru í [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).
 
-### Dæmi
+### <a name="example"></a>Dæmi
 
 Vinnustöð er sett upp með hólfakóða í reitnum **Hólfakóði framleiðslu á innleið**. Íhlutalínur framleiðslupöntunar með þann hólfakóta krefjast þess að framvirkir íhlutir séu settir þar. Hins vegar, þar til íhlutirnir eru notaðir úr því hólfi, gætu aðrir íhlutaeftirspurnir tínt eða notað úr því hólfi vegna þess að þeir eru enn taldir tiltækt hólfainnihald. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir eftirspurn íhlutar sem notar þetta hólf framleiðslu á innleið, þarf að velja reitinn **Sérnýtt** í línunni fyrir þann hólfakóða.
 
 > [!Caution]
 > Vörur í sérstökum hólfum eru ekki varðar þegar þær eru tíndar eða notaðar sem framleiðsla eða samsetningaríhlutir með síðunni **Birgðatínsla**. Frekari upplýsingar eru í [Taka til fyrir framleiðslu eða samsetningu í einföldum vöruhúsagrunnstillingum](warehouse-how-to-pick-for-production.md).
 
-## Stök hólf stofnuð á Hólfastofnunarvinnublaði:
+## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Stök hólf stofnuð á Hólfastofnunarvinnublaði:
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað fyrir stofnun hólfs** og velja viðkomandi tengil.  
 2.  Reitirnir sem nauðsynlegir eru til að nefna eru fylltir út og hólfin sem verið er að stofna eru fylltir út.  
 3.  Veldu aðgerðina **Stofna hólf**.  
 
-## Hólf stofnuð sjálfvirkt á vinnublaði hólfastofnunar
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Hólf stofnuð sjálfvirkt á vinnublaði hólfastofnunar
 
 Áður en byrjað er að stofna hólf sjálfvirkt ætti að ákvarða hvaða tegund hólfa er nauðsynleg fyrir aðgerðirnar og hagkvæmasta vöruflæðið í gegnum raunskipulag vöruhússins.  
 
@@ -69,7 +69,7 @@ Til að vinna með síðuna **Hólfastofnunarvinnublaði** þarftu að vera sett
 
 Ferlið er endurtekið fyrir annað safn hólfa þar til öll hólf eru stofnuð í vöruhúsinu.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)  
 [Birgðir](inventory-manage-inventory.md)  

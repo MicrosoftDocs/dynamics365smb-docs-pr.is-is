@@ -9,11 +9,11 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Hönnunarupplýsingar: töflubygging
+# <a name="design-details-table-structure"></a>Hönnunarupplýsingar: töflubygging
 
 Til að skilja hvernig víddarfærslur eru geymdar og bókaðar er mikilvægt að skilja skipulag töflunnar.  
 
-## Víddasamstæðufærsla í töflu 480  
+## <a name="table-480-dimension-set-entry"></a>Víddasamstæðufærsla í töflu 480
 
 Ekki er hægt að breyta töflunni. Þegar gögn hafa verið skrifuð í töfluna er ekki hægt að eyða eða breyta þeim.
 
@@ -26,7 +26,7 @@ Ekki er hægt að breyta töflunni. Þegar gögn hafa verið skrifuð í töflun
 |5|**Heiti víddar**|Texti 30|CalcField. Uppfletting í töflu 348|  
 |6|**Nafn víddagildis**|Texti 30|CalcField. Uppfletting í töflu 349.|  
 
-## Víddasamstæðutrjáhnútur í töflu 481  
+## <a name="table-481-dimension-set-tree-node"></a>Víddasamstæðutrjáhnútur í töflu 481
 Ekki er hægt að breyta töflunni. Hann er notaður til að leita að víddasamstæðu. Ef víddasafnið finnst ekki er nýtt safn stofnað.  
 
 |Reitsnr.|Heiti reits|Gerð gagna|Athugasemd|  
@@ -36,7 +36,7 @@ Ekki er hægt að breyta töflunni. Hann er notaður til að leita að víddasam
 |3|**Auðkenni víddasamstæðu**|Heiltala|AutoIncrement. Notað í reitinn 1 í töflu 480.|  
 |4|**Í notkun**|Boole|Ósatt ef ekki í notkun|  
 
-## Endurflokkunarbiðsvæði víddasamstæðu í töflu 482  
+## <a name="table-482-reclas-dimension-set-buffer"></a>Endurflokkunarbiðsvæði víddasamstæðu í töflu 482
 Þessi tafla er notuð þegar þú breytir víddargildiskóða, til dæmis á færslu fjárhagsfærslu með því að nota síðuna **Endurflokkunarbók vöru**.  
 
 |Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  
@@ -50,14 +50,14 @@ Ekki er hægt að breyta töflunni. Hann er notaður til að leita að víddasam
 |7|**Nafn víddagildis**|Texti 30|CalcField. Uppfletting í töflu 349|  
 |8|**Nýtt nafn víddagildis**|Texti 30|CalcField. Uppfletting í töflu 349.|  
 
-## Færslu- og fjárhagsáætlunartöflur  
+## <a name="transaction-and-budget-tables"></a>Færslu- og fjárhagsáætlunartöflur
 Ásamt öðrum víddarreitum í töflunni, er þessi reitur mikilvægur:  
 
 |Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  
 |---------------|----------------|---------------|-------------|  
 |480|**Auðkenni víddasamstæðu**|Heiltala|Tilvísanareitur 1 í töflu 480.|  
 
-### Tafla 83, birgðabókarlína  
+### <a name="table-83-item-journal-line"></a>Tafla 83, birgðabókarlína
 Ásamt öðrum víddarreitum í töflunni, er þessir reitir mikilvægir.  
 
 |Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  
@@ -65,14 +65,14 @@ Ekki er hægt að breyta töflunni. Hann er notaður til að leita að víddasam
 |480|**Auðkenni víddasamstæðu**|Heiltala|Tilvísanareitur 1 í töflu 480.|  
 |481|**Nýtt auðkenni víddasamstæðu**|Heiltala|Tilvísanareitur 1 í töflu 480.|  
 
-### Tafa 349, víddargildi  
+### <a name="table-349-dimension-value"></a>Tafa 349, víddargildi
 Ásamt öðrum víddarreitum í töflunni, er þessir reitir mikilvægir.  
 
 |Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  
 |---------------|----------------|---------------|-------------|  
 |12|**Víddargildi**|Heiltala|AutoIncrement. Notað fyrir tilvísanir í töflu 480 og töflu 481.|  
 
-### Töflur sem innihalda reit fyrir auðkenni víddasamstæðu
+### <a name="tables-that-contain-the-dimension-set-id-field"></a>Töflur sem innihalda reit fyrir auðkenni víddasamstæðu
  Reiturinn (480) **Auðkenni víddasamstæðu** er til í eftirfarandi töflum. Í töflunum sem geyma bókuð gögn gefur reiturinn aðeins upp á ósjálfstæð birtingu á víddum sem merktar eru sem Kafaniður. Fyrir töflur sem vista vinnuskjöl er hægt að breyta reitnum. Biðminnistöflurnar sem notaðar eru við innri vinnslu þurfa ekki breytanlega eða óbreytanlega getu.  
 
  Reitur 480 er óhjákvæmilegur í eftirfarandi töflum.  
@@ -175,7 +175,7 @@ Reitur 480 er til í eftirfarandi biðminnistöflum.
 |5637|**Fjárhagsbókunarbiðminni eigna**|  
 |7136|**Biðminni birgðaáætlunar**|  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)  
 [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   

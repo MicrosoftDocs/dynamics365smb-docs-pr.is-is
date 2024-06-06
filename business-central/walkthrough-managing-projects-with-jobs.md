@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kynning: Stjórnun verkefna
+# <a name="walkthrough-managing-projects"></a>Kynning: Stjórnun verkefna
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -17,11 +17,11 @@ ms.service: dynamics-365-business-central
 
  Þessi kynning nær til uppsetningar nýs verkefnis auk nokkurra sameiginlegra verkefna, svo sem meðhöndlun fastrar verðlagningar, greiðslu með inngreiðslum, bókun reikninga úr verkefnum og afritun verkefna.  
 
-## Um kynninguna
+## <a name="about-this-walkthrough"></a>Um kynninguna
 
  Þessi kynning fjallar um eftirfarandi verk:  
 
-### Uppsetning verks
+### <a name="setting-up-a-project"></a>Uppsetning verks
 
  Þegar skipulag áætlunar er sett upp fyrir verk er einfalt að stofna verk. Þessi kynning fer yfir eftirfarandi atriði:  
 
@@ -29,14 +29,14 @@ ms.service: dynamics-365-business-central
 - Stofnun verktengds verðs fyrir vörur, forða og fjárhagsreikninga.  
 - Reikningsfærsla úr verki.  
 
-### Unnið með fast verð
+### <a name="handling-fixed-prices"></a>Unnið með fast verð
 
  Hægt er að meðhöndla fast verð og verð fyrir þjónustu eða vörur sem samið er um fyrirfram við viðskiptamenn. Í þessari kynningu er hægt að gera eftirfarandi:  
 
 - Sjá hvernig samningsbundnar - og reikningsupphæðir eru ákveðnar.  
 - Gera ráð fyrir viðbótarvinnu í áætluninni sem hefur ekki verið reikningsfærð.  
 
-### Afritun verks
+### <a name="copying-a-project"></a>Afritun verks
 
  Í þessum hluta kynningarinnar er lögð áhersla á hvernig afrita skuli hluta eða allt verkefni til að draga úr handvirkum innslætti gagna og auka nákvæmni. Þar á meðal eftirfarandi:  
 
@@ -44,7 +44,7 @@ ms.service: dynamics-365-business-central
 - Afritun verðs fyrir sértækt verk.  
 - Afritun áætlunarlína.  
 
-### Framkvæma greiðslu með inngreiðslu
+### <a name="making-payment-by-installment"></a>Framkvæma greiðslu með inngreiðslu
 
  Þegar stór kostnaðarsöm verk vara í langan tíma, gerir viðskiptavinurinn oft samkomulag við fyrirtækið um að greiða með inngreiðslum. Þetta dæmi sýnir hvernig greiðslur með inngreiðslum eru meðhöndlaðar og tekur til:  
 
@@ -52,31 +52,31 @@ ms.service: dynamics-365-business-central
 - Reikningsfærslu greiðslna til viðskiptavina.  
 - Bókhald notkunar í verki sem er sett upp fyrir greiðslur með inngreiðslum.  
 
-## Hlutverk
+## <a name="roles"></a>Hlutverk
 
  Þessi kynning nær yfir verk fyrir eftirfarandi hlutverk:  
 
 - Verkefnastjóri  
 - Meðlimur verkefnateymis  
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
  Áður en hægt er að framkvæma verk hér í kynningunni þarf að gera eftirfarandi:  
 
 - Setja upp CRONUS sýnigagnagrunn.
 - Stofna nokkur sett sýnigagna með því að nota skrefin sem koma hér á eftir.  
 
-## Ferill
+## <a name="story"></a>Ferill
 
 Þessi kynning einblínir á fyrirtækið CRONUS, hönnunar- og ráðgjafafyrirtæki sem hannar og setur upp húsgögn, aukahluti og geymslueiningar (t.d. í fundarsölum og skrifstofum). Mest af vinnunni er verkefnatengd. Petra, verkefnastjóri hjá Verkefnum notar CRONUS verkefni til að fá yfirlit yfir hvern verk sem CRONUS er hafið, sem og þau verk sem lokið er. Petra er yfirleitt sá sem sér um viðskiptamenn og færir inn kjarna verkefnisins, sem er verk- og áætlunarlínur auk verðs, inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Petra finnur að stofnun, viðhald og yfirferð upplýsinga er einfalt. Petra er líka hrifin af því hvernig [!INCLUDE[prod_short](includes/prod_short.md)] gerir afritun verka og greiðslna með inngreiðslum.
 
  Trausti, meðlimur verkefnateymis sem heyrir undir Petru, ber ábyrgð á eftirliti með verkefninu daglega. Tinna færir inn eigið verk auk þess sem vinnan sem framkvæmd er af tæknimönnum í hverju verki, skráir vörurnar sem þær hafa notað og kostnaðinn sem það hefur stofnað til.  
 
-## Undirbúa sýnigögn
+## <a name="preparing-sample-data"></a>Undirbúa sýnigögn
 
  Til undirbúnings fyrir þessa kynningu þarf að bæta Tinnu við sem nýjum tilföngum.  
 
-### Til að undirbúa sýnigögnin  
+### <a name="to-prepare-the-sample-data"></a>Til að undirbúa sýnigögnin
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tilföng** og velja síðan viðkomandi tengil.  
 2. Veljið aðgerðina **Nýtt** til að Búa til nýtt forðaspjald.  
@@ -99,7 +99,7 @@ ms.service: dynamics-365-business-central
 
 Í næsta ferli er stofnuð verkbókarkeyrsla fyrir Trausta til að bóka notkun þeirra.  
 
-### Til að stofna verkbókarkeyrslu  
+### <a name="to-create-a-project-journal-batch"></a>Til að stofna verkbókarkeyrslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **verkbækur** og velja síðan viðeigandi tengil.  
 2. Á síðunni **Verkbók** skal velja reitinn **Heiti** keyrslu. Síðan **Verkbókarkeyrslur** opnast.  
@@ -111,11 +111,11 @@ ms.service: dynamics-365-business-central
 
 4. Hnappurinn Í lagi **er** valinn til að vista breytingarnar.
 
-## Uppsetning verks
+## <a name="setting-up-a-project-1"></a>Uppsetning verks
 
  Í þessu dæmi hefur CRONUS náð samningum við viðskiptamann, Progressive Home Furnishings, um að hanna fundar- og matsal þeirra. Viðskiptamaðurinn er staðsettur í Bandaríkjunum og verkefnið krefst sérstaks hugbúnaðar. Verkefnastjórinn nær samkomulagi við viðskiptavininn og stofnar verkefni sem nær yfir samkomulagið.  
 
-### Til að setja upp verk  
+### <a name="to-set-up-a-project"></a>Til að setja upp verk
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Verkefni** og velja síðan viðeigandi tengil.  
 2. Veljið aðgerðina **Nýtt** til að Búa til nýtt spjald.  
@@ -135,7 +135,7 @@ ms.service: dynamics-365-business-central
 
  Hægt er að sérsníða verðlagningu fyrir viðskiptamenn eftir verkgrundvelli eftir þeim samningum sem settir hafa verið upp. Í næsta ferli tilgreinir verkefnastjórinn verð viðkomandi tíma, stillir verð fyrir þann hugbúnað sem nauðsynlegur er og bætir við ferðakostnaði sem viðkomandi hefur samþykkt að greiða.  
 
-### Til að sérsníða verðlagningu  
+### <a name="to-customize-pricing"></a>Til að sérsníða verðlagningu
 
 1.  **Á Verkspjaldinu** skal velja **forðaaðgerðina** .  
 2. Á síðunni **Forðaverð verks eru** eftirfarandi upplýsingar slegnar inn:  
@@ -161,7 +161,7 @@ ms.service: dynamics-365-business-central
 
  Lokaskrefin við uppsetningu verks eru að bæta við verkhlutunum og áætlunarlínunum sem eru hluti af hverju verki. Áætlunarlínurnar ákvarða hvað er reikningsfært á viðskiptamanninn.  
 
-### Til að bæta við verkhlutum  
+### <a name="to-add-project-tasks"></a>Til að bæta við verkhlutum
 
 1.   **Á Verkspjaldi** nýja verksins skal velja aðgerðina **Verkhlutalínur verks** .  
 2.  Eftirfarandi tafla lýsir upplýsingunum sem ætti að færa inn í reitina.  
@@ -183,7 +183,7 @@ ms.service: dynamics-365-business-central
 
  Í þessari kynningu. notar verkefnastjórinn **Bæði fjárhagsáætlun og reikningshæft**. Þær stofna þrjár áætlunarlínur fyrir verk 1010 og tvær áætlunarlínur fyrir verk 1020.  
 
-### Til að stofna áætlunarlínur  
+### <a name="to-create-planning-lines"></a>Til að stofna áætlunarlínur
 
 1. Veljið línu 1010 og veljið svo aðgerðina Áætlunarlínur **verkefnis** .  
 
@@ -205,11 +205,11 @@ ms.service: dynamics-365-business-central
 
 4. Loka síðunni. Samtölur eru uppfærðar á síðunni **Verkhlutalínur verks** .  
 
-## Útreikningur á notuðum eftirstöðvum
+## <a name="calculating-remaining-usage"></a>Útreikningur á notuðum eftirstöðvum
 
  Trausti, meðlimur teymisverkefnisins, hefur um tíma unnið að verkefninu og vill skrá tíma þeirra og notkun. Trausti hefur ekki unnið fleiri klukkustundir en samið var um við viðskiptavininn fyrirfram. Tinna notar keyrsluna **Reikna eftirstandandi notkun** til að reikna eftirstandandi notkun í verkbók. Fyrir hvern verkhluta reiknar keyrslan mismuninn á milli áætlaðrar notkunar vöru, forða og fjárhagsútgjalda og raunverulegrar notkunar sem bókuð er í verkfærslum. Eftirstandandi notkun er síðan sýnd í verkbókinni þaðan sem hún getur bókað hana.  
 
-### Eftirstöðvar notkunar reiknaðar  
+### <a name="to-calculate-remaining-usage"></a>Eftirstöðvar notkunar reiknaðar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **verkbækur** og velja síðan viðeigandi tengil.  
 2. Á síðunni **Verkbók** í reitnum **Heiti** keyrslu er listinn Keyrslur **verkbóka** opnaður. Valin er keyrslan Trausti **verkbók**.  
@@ -223,11 +223,11 @@ ms.service: dynamics-365-business-central
 
 Línurnar eru bókaðar.  
 
-## Stofnun og bókun verksölureiknings
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Stofnun og bókun verksölureiknings
 
  Næst getur Trausti stofnað nýjan reikning fyrir allt verkefnið eða fyrir hluta af verkefni. Tinna getur einnig hengt reikninginn við annan reikning fyrir sama viðskiptavin fyrir sama verkefnið. Þá reikningsfærir Trausti fyrir allt verkefnið þar sem verkefninu er nú lokið.  
 
-### Til að stofna reikning fyrir verksölu  
+### <a name="to-create-a-project-sales-invoice"></a>Til að stofna reikning fyrir verksölu
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Verkefni** og velja síðan viðeigandi tengil.  
 2.  Veljið verkið sem stofnað var og veljið svo aðgerðina Stofna sölureikning **verks** .  
@@ -237,13 +237,13 @@ Línurnar eru bókaðar.
 
  Tinna hefur til dæmis aðgang að honum frá **Hlutverkamiðstöð vinnslupantana** eftir að reikningurinn hefur verið stofnaður. 
 
-### Nýr sölureikningur bókaður  
+### <a name="to-post-a-new-sales-invoice"></a>Nýr sölureikningur bókaður
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
 2.  Reikningur er valinn fyrir viðskiptamann Nr. 01445544. Sjá má upplýsingarnar sem slegnar voru inn frá áætlunarlínunum.  
 3.  Valið er **Bóka** aðgerðin. Velja **Já** til að staðfesta bókun.  
 
-### Bókaðir reikningar skoðaðir  
+### <a name="to-view-the-posted-invoice"></a>Bókaðir reikningar skoðaðir
 
 1.  Opna verkið og velja svo aðgerðina **Áætlunarlínur verks** .  
 2.  Veljið einhverja af áætlunarlínunum hafa verið reikningsfærðar og veljið síðan **Sölureikningar/kreditreikningar** aðgerðina.
@@ -251,17 +251,17 @@ Línurnar eru bókaðar.
 
  Tinna hefur spurningu um verð, kostnað og framlegð sem tengist þessu tiltekna verkefni, þannig að Trausti hefur aðgang að þeim upplýsingum á **tölfræðisíðunni** .  
 
-### Tölfræðisíðan opnuð  
+### <a name="to-open-the-statistics-page"></a>Tölfræðisíðan opnuð
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Verkefni** og velja síðan viðeigandi tengil.  
 2.  Veldu **Upplýsingar** aðgerðina. Hægt er að skoða ítarlegar upplýsingar um verð, kostnað og framlegð bæði í staðbundnum og erlendum gjaldmiðlum.  
 3.  Velja skal hnappinn **Loka** til að loka síðunni **Upplýsingar um** verkefni.  
 
-## Unnið með fast verð
+## <a name="handling-fixed-prices-1"></a>Unnið með fast verð
 
  CRONUS hefur tekið að sér að setja upp fundarsali. Sem verkefnastjóri vill Petra fá góða yfirsýn yfir þau verk sem þarf fyrir verkefnið með tengdum áætluðum og kostnaði sem til hefur komið fyrir hvern verkhluta. Að auki vill Petra vita umsamið heildarverð fyrir verkefnið og upphæðina sem hefur verið reikningsfærð á þennan stað. Náðst hefur samkomulag við viðskiptamanninn um fast verð fyrir verkefnið.  
 
-### Föstu verði stjórnað í verkum  
+### <a name="to-manage-fixed-pricing-in-projects"></a>Föstu verði stjórnað í verkum
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Verkefni** og velja síðan viðeigandi tengil.  
 2. Guildford **verknúmerið** er valið og svo aðgerðin Verkhlutalínur **verkefnis** valin.  
@@ -281,7 +281,7 @@ Línurnar eru bókaðar.
 
 Eftir að áætluninni hefur verið bætt við þessa verkhlutalínu vinnur Trausti 25 klukkustundir við verkefnið og færir þessar stundir inn í verkbókina.  
 
-### Klukkustundir færðar inn í verkbók  
+### <a name="to-enter-hours-in-a-project-journal"></a>Klukkustundir færðar inn í verkbók
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **verkbækur** og velja síðan viðeigandi tengil.  
 2. Eftirfarandi upplýsingar eru slegnar inn á nýja línu:  
@@ -336,13 +336,13 @@ Eftir að áætluninni hefur verið bætt við þessa verkhlutalínu vinnur Trau
 
 Í heildarverði samnings koma aðeins fram hinir upphaflegu 30 tímar sem voru innifaldir í verkinu vegna þess að um það var samið við viðskiptamanninn.  
 
-## Afritun verka
+## <a name="copying-projects"></a>Afritun verka
 
 Petra hefur náð samkomulagi við viðskiptamann, Selagorian hf, um að setja upp 10 fundarsali. Samkomulagið er eins og fyrra verkefni. Því sparar það tíma að afrita það fyrra verkefni.  
 
 Á síðunni **Afrita verk** er hægt að velja verk- og verklínurnar sem á að afrita. Einnig er hægt að velja að afrita upprunaverkfærslur sem stofnar áætlunarlínur byggðar á raunverulegri notkun eða afrita upprunalegar verkáætlunarlínur sem afrita upprunalegu áætlunarlínurnar yfir í nýja verkið. Síðan er hægt að velja þá tegund áætlunarlína eða færslulínu sem taka á með og velja aðeins það sem á við um þetta nýja verkefni. Að lokum er hægt að velja verkið sem afrita á í og skilgreina hvort verð og magn skuli afritað einnig.  
 
-### Til að afrita verk  
+### <a name="to-copy-a-project"></a>Til að afrita verk
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Verkefni** og velja síðan viðeigandi tengil.  
 2. Veljið aðgerðina **Nýtt** til að stofna nýtt verk. Eftirfarandi upplýsingar eru færðar inn:  
@@ -364,11 +364,11 @@ Petra hefur náð samkomulagi við viðskiptamann, Selagorian hf, um að setja u
 
 Með því að bera saman verð, verkhlutalínur og verkáætlunarlínur fyrir þessi tvö verk má sjá að upplýsingarnar voru afritaðar.  
 
-## Framkvæma greiðslu með inngreiðslu
+## <a name="making-payments-by-installments"></a>Framkvæma greiðslu með inngreiðslu
 
 CRONUS hefur nýlega fengið stórt verkefni sem tekur um eitt ár að ljúka. Vegna þess hvað verkefnið þarfnast mikilla aðfanga setur verkefnastjórinn samninginn þannig upp, að farið er fram á að viðskiptamaðurinn borgi hluta af verðinu fyrirfram, hluta af verðinu þegar verkið er hálfnað og lokagreiðslu þegar því er lokið.  
 
-### Að setja upp nýjan reikning  
+### <a name="to-set-up-a-new-account"></a>Að setja upp nýjan reikning
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Bókhaldslykill** skal velja aðgerðina **Nýtt** til að stofna nýtt spjald.  
@@ -382,7 +382,7 @@ CRONUS hefur nýlega fengið stórt verkefni sem tekur um eitt ár að ljúka. V
 
 Eftirfarandi ferli sýna hvernig á að stofna nýtt verk, setja verðlagningu og setja síðan upp greiðslu með inngreiðslu. Í verkhlutalínum er hægt að stofna sérstakar línur fyrir greiðslur með inngreiðslum. Öll vinna sem lokið er við fyrir verkið sem er bætt við áætlunina eru færðar inn í notkunarlínurnar. Fyrir hverja greiðsluhlutalínu í áætlunarlínunum, er línugerðin **Rukkun**, sem þýðir að reikningur verður sendur til viðskiptamanns. Færð er inn ný lína fyrir útborgunina. Í notkunarverkhlutalínuna er hægt að færa inn upplýsingar um vörur og forða sem notuð hafa verið í þetta verkefni, sem eykur við áætlunina, t.d. vinnustundir starfsmanna og vörur sem notaðar eru í verkefnið.  
 
-### Framkvæma greiðslu með inngreiðslu  
+### <a name="to-make-a-payment-by-installment"></a>Framkvæma greiðslu með inngreiðslu
 
 1. Stofna nýtt verkefni.  
 2. Eftirfarandi upplýsingar eru færðar inn á nýja **Verkspjaldið** :  
@@ -443,17 +443,17 @@ Eftirfarandi ferli sýna hvernig á að stofna nýtt verk, setja verðlagningu o
 
  Nú þegar verk- og áætlunarlínurnar eru útfylltar býr Petra til reikning fyrir fyrstu greiðsluna. Petra gerir þetta úr verkhlutalínum verks til að ganga úr skugga um að reikningurinn innihaldi aðeins línurnar fyrir fyrstu greiðsluna. Hægt er að opna sölupöntunina úr áætlunarlínunum eða verklínunum.  
 
-### Til að stofna reikning  
+### <a name="to-create-an-invoice"></a>Til að stofna reikning
 
 1.  Á síðunni **Verkhlutalínur verkefnis** skal velja línu 1000 og velja svo aðgerðina **Stofna sölureikning** .  
 2.  Á síðunni **Stofna sölureikning** stillið dagsetninguna í dag sem bókunardagsetning, tilgreinið **Fyrir hvert verk**, og veljið hnappinn **Í lagi** til að búa til reikning með sjálfgefnum upplýsingum. Velja hnappinn **Í lagi** til að loka staðfestingarsíðunni.  
 3.  Velja aðgerðina **Sölureikningur/kreditreikningur**. Á sölureikningnum sést að einungis útborgunin er innifalin í reikningnum. Nú má senda reikninginn til viðskiptamannsins eins og samið var um.  
 
-## Næstu þrep
+## <a name="next-steps"></a>Næstu þrep
 
  Þessi kynning hefur farið í gegnum grunnþrepin til að vinna með verkefni í [!INCLUDE[prod_short](includes/prod_short.md)]. Fræðst hefur verið um hvernig stofna skuli nýtt verkefni, hvernig á að afrita verkefni og hvernig eigi að meðhöndla greiðslur. Einnig hefur gefist færi á að skoða sýning á því hvernig fylgst er með vinnustundum og reikninga stofnaðir.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
  [Setja upp verkefnastjórnun](projects-setup-projects.md)  

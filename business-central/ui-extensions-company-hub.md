@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Fyrirtækjamiðstöðin fyrir viðbót Business Central
+# <a name="the-company-hub-for-business-central-extension"></a>Fyrirtækjamiðstöðin fyrir viðbót Business Central
 
 Þetta forrit býður upp á yfirlit með samanteknum gögnum fyrir hvert fyrirtæki sem notandinn hefur aðgang að yfir allt [!INCLUDE [prod_short](includes/prod_short.md)], t.d. marga biðlara endurskoðanda. Heimasíðan sýnir afkastavísa fjármála ásamt beinan tengil á hvert umhverfi og fyrirtæki fyrir sig.
 
@@ -18,11 +18,11 @@ ms.service: dynamics-365-business-central
 
 Þegar þú setur upp viðbótina í fyrsta sinn, mun sýnifyrirtæki hjálpa þér af stað. Þú getur eytt sýnifyrirtækinu hvenær sem er.
 
-## Uppsetning viðbótar
+## <a name="installing-the-extension"></a>Uppsetning viðbótar
 
 Þegar þú setur upp viðbótina í [!INCLUDE [prod_short](includes/prod_short.md)], verðurðu spurð(ur) hvort þú viljir nota hana núna. Ef þú gerir það, þarftu að skrá þig út og svo inn aftur, því viðbótin skiptir Mitt hlutverk sem fyrir er út og bætir heimildum við notandaaðganginn þinn.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md)  
 [Upplifun endurskoðanda í Business Central ](finance-accounting.md)  

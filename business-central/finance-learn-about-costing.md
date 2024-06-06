@@ -9,7 +9,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Um birgðakostnað
+# <a name="about-inventory-costing"></a>Um birgðakostnað
 Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis. Það felur í sér skráningu framleiðslukostnaðar og vörukostnaðar, það er, virði vara.  
 
  Grundvallaratriðin sem öðlast þarf skilning á eru að kostnaðaraðferðir skilgreina hvernig virði vara er metið þegar þær eru teknar úr birgðum, að kostnaðarbreyting uppfærir kostnað við seldar vörur með tengdum innkaupakostnaði sem bókaður er eftir söluna og að birgðavirði þarf að bóka í sérstaka fjárhagsreikninga með reglulegu millibili.  
@@ -30,7 +30,7 @@ Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostna
 |Nánar um hvernig birgðatímabil aðstoða fyrirtæki við að stýra birgðavirði á tilteknum tíma, með því að skilgreina styttri tímabil sem má loka fyrir bókun eftir því sem líður á almanaksárið.|[Vinna við birgðatímabil](finance-how-to-work-with-inventory-periods.md)|  
 |Skilja gagnverkið á bak við kostnaðarforritið, þar með talið hvað gerist þegar þegar bókuð er samsetning og framleiðslufærslur.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)    
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

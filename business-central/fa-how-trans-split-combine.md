@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Flytja, skipta upp eða sameina eignir
+# <a name="transfer-split-or-combine-fixed-assets"></a>Flytja, skipta upp eða sameina eignir
 
 Þú notar eignaendurflokkunarbókina til að flytja til eignir, skipta þeim upp og sameina þær. Skoða eða prenta útkomu eignaendurflokkunar með skýrslunni **Bókfært Virði eignar 02** skýrslu.
 
-## Að færa eign í aðra deild
+## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a>Að færa eign í aðra deild
 
 Þú gætir þurft að flytja eignir í aðra deild þegar t.d. þú setja eign í framleiðsludeildina meðan verið er að búa hana til og flytja hana svo í stjórnunardeildina þegar lokið er við hana.  
 
@@ -29,7 +29,7 @@ ms.service: dynamics-365-business-central
 
 Ef bókaður hefur verið stofnkostnaður fyrir eina eign er hægt að nota eignaendurflokkunarbókina til að skipta stofnkostnaðinum á nokkrar eignir.  
 
-## Til að skipta eign í þremur eignir
+## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>Til að skipta eign í þremur eignir
 Hægt er að skipta einni eign í margar eignir, til dæmis þegar þörf er á að skipta eign á þrjú mismunandi deildum. Í því tilfelli geturðu til dæmis að flytja 25 prósent af kaupverði og afskriftum upprunalegrar eignar yfir á aðra eign og 45 prósent yfir á þriðju eignina. Prósenturnar 30 sem eftir eru verða áfram á upphaflegu eigninni.
 
 1. Uppsetning tveggja nýrra eigna. Færa skal inn viðeigandi deildir sem vídd.  
@@ -45,7 +45,7 @@ Hægt er að skipta einni eign í margar eignir, til dæmis þegar þörf er á 
 9. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignafjárhagsbók** og velja síðan viðkomandi tengil.
 10. Á síðunni **fjárhagsbók eigna** er valið **Bóka** aðgerð til að bóka endurflokkun sem framkvæmd var í skrefi 4 til og með 8.
 
-## Sameina tvær eignir í eina
+## <a name="to-combine-two-fixed-assets-into-one"></a>Sameina tvær eignir í eina
 
 Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir skiptum eignum í eina deild. Ef búið er að bóka kaupverð og afskriftir fyrir eignina sem á að færa, verða þessi gildi sameinuð í eina staka eign.
 
@@ -59,13 +59,13 @@ Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir s
 6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsbækur eignar** og velja síðan viðkomandi tengil.
 7. Á síðunni **fjárhagsbók eigna** er valið **Bóka** aðgerð til að bóka endurflokkun sem framkvæmd var í skrefi 2 til og með 5.
 
-## Skoða breytt bókfært afskriftarvirði vegna endurflokkunar eigna.
+## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Skoða breytt bókfært afskriftarvirði vegna endurflokkunar eigna.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir - Bókfært virði 02** og velja síðan viðkomandi tengil.
 2. Fyllið inn reitina eftir þörfum.
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  

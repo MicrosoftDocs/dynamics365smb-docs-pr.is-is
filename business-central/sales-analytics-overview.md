@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Greiningar á sölu
+# <a name="sales-analytics"></a>Greiningar á sölu
 
 Fyrirtæki safna fjölda gagna við daglegar aðgerðir sem styðja viðskiptaupplýsingar (BI) fyrir sölustjóra:
 
@@ -32,7 +32,7 @@ Hver þessara eiginleika hefur sína kosti og galla, allt eftir tegund greininga
 
 Þessi grein kynnir hvernig hægt er að nota þessar greiningaraðgerðir til að fá innsýn í sölu.
 
-## Greiningarþarfir í sölu
+## <a name="analytics-needs-in-sales"></a>Greiningarþarfir í sölu
 
 Þegar hugsað er um greiningarþarfir í sölustjórnun getur það hjálpað til við að nota einstaklingsbundið líkan sem lýsir mismunandi greiningarþörfum á háu stigi.
 
@@ -49,14 +49,14 @@ Starfsfólk í mismunandi hlutverkum hefur mismunandi þarfir þegar kemur að g
 |Aðalbókari / Sölumaður | Sundurliðuð gögn     | Innbyggðar rekstrarskýrslur <br> Gögn um verk á skjá |
 
 <!-- 
-## Sales KPIs
+## <a name="sales-kpis"></a>Sales KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In sales management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## Nota fjárhagsskýrslugerð til að búa til ársreikninga og afkastatengda sölu
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-sales"></a>Nota fjárhagsskýrslugerð til að búa til ársreikninga og afkastatengda sölu
 
 Eiginleikinn **Ársskýrslur** veitir innsýn í fjárhagsgögnin sem birtast í bókhaldslyklinum (COA). Hægt er að setja upp fjárhagsskýrslur til að greina tölur á fjárhagsreikningum og bera saman fjárhagsfærslur og áætlunarfærslur. Sérstaklega fyrir sölustjórnun er hægt að setja upp fjárhagsskýrslur á fjárhagsreikningum sem notaðir eru til að rekja sölubókanir.
 
@@ -64,13 +64,13 @@ Víddir gegna mikilvægu hlutverki í viðskiptagreind. Vídd eru gögn sem bæt
 
 Frekari upplýsingar um fjárhagsskýrslur er farið [í Undirbúning fjárhagsskýrslna með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md).
 
-## Fjármálaskýrsla þvert á fyrirtækiseiningar eða lögaðila sem tengjast sölu
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-sales"></a>Fjármálaskýrsla þvert á fyrirtækiseiningar eða lögaðila sem tengjast sölu
 
 Sum fyrirtæki nota [!INCLUDE [prod_short](includes/prod_short.md)] í mörgum fyrirtækiseiningum eða lögaðilum. Aðrir nota [!INCLUDE [prod_short](includes/prod_short.md)] í dótturfélögum sem gefa skýrslu til móðurfyrirtækja. [!INCLUDE [prod_short](includes/prod_short.md)] gefur endurskoðendum verkfæri sem hjálpa þeim að flytja fjárhagsfærslur frá tveimur eða fleiri fyrirtækjum (dótturfyrirtækjum) í samsteypufyrirtæki. Sérstaklega fyrir sölustjórnun gæti þurft að sameina fjárhagsfærslur fyrir sölureikninga til að geta rakið söluafkastagetu í fyrirtækiseiningum eða lögaðilum.
 
 Nánari upplýsingar eru í [Sameiningu fyrirtækis](finance-consolidated-company-reporting.md).
 
-## Tilfalalengd greining á sölugögnum
+## <a name="ad-hoc-analysis-of-sales-data"></a>Tilfalalengd greining á sölugögnum
 
 Stundum þarf bara að athuga hvort tölurnar eru rétt settar upp eða staðfesta tölu á fljótlegan hátt. Eftirfarandi eiginleikar eru frábærir fyrir tilfalengdar greiningar:
 
@@ -90,7 +90,7 @@ Eiginleikinn Gagnagreining gerir kleift að opna næstum hvaða listasíðu sem 
 
 Nánari upplýsingar um hvernig á að gera tilfallanda greiningu á sölugögnum er farið í [Tilfallandsgreiningu á sölugögnum](ad-hoc-analysis-sales.md). 
 
-## Innbyggðar skýrslur fyrir sölu
+## <a name="built-in-reports-for-sales"></a>Innbyggðar skýrslur fyrir sölu
 
 [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur nokkrar innbyggðar skýrslur, rakningaraðgerðir og verkfæri til að hjálpa sölufyrirtækjum að gefa skýrslu um gögn sín.
 
@@ -105,7 +105,7 @@ Innbyggðar skýrslur koma í tveimur bragðtegundum:
 
 Til að [fá nánari upplýsingar um skýrslur sem tengjast sölu er farið í Innbyggðar söluskýrslur](sales-reports.md).
 
-## Sölugreiningar á skjá
+## <a name="on-screen-sales-analytics"></a>Sölugreiningar á skjá
 
 [!INCLUDE [prod_short](includes/prod_short.md)] á nokkrum síðum sem gefa söluyfirlitum og verkhlutum kleift að gera. Hér eru nokkur dæmi til að koma þér í gang:
 
@@ -121,7 +121,7 @@ Til að [fá nánari upplýsingar um skýrslur sem tengjast sölu er farið í I
 - [Skoða óbókaðar og bókaðar línur standandi sölupöntunar](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
 
-### Sýna sölutengdar fjárhagsfærslur og stöður af síðunni Bókhaldslykill
+### <a name="show-sales-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Sýna sölutengdar fjárhagsfærslur og stöður af síðunni Bókhaldslykill
 
 Síðan Bókhaldslykill sýnir alla fjárhagsreikninga með samanlögðu númeri sem bókuð eru í fjárhaginn. Á þessari síðu er hægt að gera hluti eins og:  
 
@@ -135,7 +135,7 @@ Sérstaklega fyrir sölu er hægt að búa til yfirlit á síðunni Bókhaldslyk
 
 Nánari upplýsingar eru í [Skilja bókhaldslykilinn](finance-general-ledger.md#the-chart-of-accounts).
 
-### Greining gagna eftir víddum (tengd sölu)
+### <a name="analyze-data-by-dimensions-related-to-sales"></a>Greining gagna eftir víddum (tengd sölu)
 
 Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær í skjölum, t.d. sölupöntunum. Víddir geta til dæmis gefið í skyn verkið eða deildina sem færsla koma frá.  
 
@@ -143,7 +143,7 @@ Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær
 
 Nánari upplýsingar eru notaðar til að greina [gögn eftir víddum](bi-how-analyze-data-dimension.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Samsteypufyrirtæki](finance-consolidated-company-reporting.md)   
 [Undirbúa fjárhagsskýrslur með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md)  

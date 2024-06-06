@@ -8,17 +8,17 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Setja upp og vinna úr aðgerð úthýsingar
+# <a name="set-up-and-process-a-subcontracting-operation"></a>Setja upp og vinna úr aðgerð úthýsingar
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee í úthýsingu.
 
-## Aðstæður
+## <a name="scenario"></a>Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Vegna takmarkana á afkastagetu ætlar þú að nota úthýsingu til að framleiða vöruna **SP-SCM1009 Airpot**.
 
 Hér býrðu til nýja útgefna framleiðslupöntun fyrir 12 einingar af vörunni SP-SCM1009 Airpot, með leið - SP-SCM1009-SUB-2. Notaðu vinnublað undirverktakasamninga til að stofna innkaupapöntun fyrir framleiðsluna og síða ljúka aðgerðinni með því að taka á móti og reikningsfæra innkaupapöntunina.
 
-## Skref
+## <a name="steps"></a>Skref
 
 1. Stofnaðu nýja útgefna framleiðslupöntun fyrir 12 einingar af vörunni SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Hér býrðu til nýja útgefna framleiðslupöntun fyrir 12 einingar af vörunn
 
 Úttak vörunnar SP-SCM1009 Airpot er nú skráð.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Kynning á Contoso Kaffi kynningargögnum](../contoso-coffee-intro.md)  

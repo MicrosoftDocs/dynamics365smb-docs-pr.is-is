@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Snerti- og pennabendingar fyrir spjaldtölvur og síma 
+# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Snerti- og pennabendingar fyrir spjaldtölvur og síma
 
 Þessi grein inniheldur yfirlit yfir nokkrar bendingar sem þú getur notað þegar þú ert að vinna með [!INCLUDE[prod_short](includes/prod_short.md)] í spjaldtölvu eða síma.
 
@@ -29,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)  
 [Aðstoðareiginleikar](ui-accessibility.md)  

@@ -11,11 +11,11 @@ ms.search.forms: '119, 9807,'
 ms.service: dynamics-365-business-central
 ---
 
-# Skilgreina bókunarreglu reikninga fyrir notendur
+# <a name="define-an-invoice-posting-policy-for-users"></a>Skilgreina bókunarreglu reikninga fyrir notendur
 
 Fyrirtæki hafa oft einstök ferli við bókun sölu- og innkaupareikninga og afhendingar. Vinnslur geta til dæmis verið breytilegar frá einum einstaklingi sem bókar allt á innkaupapöntun, á marga starfsmenn. Hægt er að takmarka notendur við bókun reikninga eða krefjast þess að reikningar séu bókaðir ásamt afhendingum eða móttökum.
 
-## Bókunarregla tilgreind
+## <a name="to-specify-a-posting-policy"></a>Bókunarregla tilgreind
 
 Á síðunni **Notandauppsetning**, í **bókunarreglu** sölureiknings og **Innk.reikn. Reitirnir Bókunarregla** reikninga, velja einn af eftirfarandi valkostum:
 
@@ -23,7 +23,7 @@ Fyrirtæki hafa oft einstök ferli við bókun sölu- og innkaupareikninga og af
 * **Bannað** - Komið í veg fyrir að notandi bóki reikninga. Business Central birtir staðfestingarsvarglugga sem veitir aðeins valkostina **Afhenda** eða **Taka á móti** .
 * **Áskilið** - Leyfa notandanum að bóka reikninga ásamt móttökum eða afhendingum. Business Central birtir staðfestingarsvarglugga með valkostunum **Afhenda og reikningsfæra** eða **Móttaka og Reikningsfæra** .
 
-## Áhrif á skjöl
+## <a name="effect-on-documents"></a>Áhrif á skjöl
 
 Eftirfarandi tafla lýsir því hvernig bókunarreglur reikninga hafa áhrif á fylgiskjöl.
 
@@ -47,7 +47,7 @@ Eftirfarandi tafla lýsir því hvernig bókunarreglur reikninga hafa áhrif á 
    > [!Note]
    > Stillingin hefur ekki áhrif á bókun færslubókarlína þar sem hægt er að velja **Reikningur** í reitnum **Tegund** fylgiskjals.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Skrá innkaup með innkaupareikningum og pöntunum](purchasing-how-record-purchases.md)  

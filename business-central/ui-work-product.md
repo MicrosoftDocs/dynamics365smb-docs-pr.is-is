@@ -10,7 +10,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-"></a>Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Á meðan unnið er í  [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að hafa samskipti við gögn á mismunandi vegu. Til dæmis er hægt að stofna færslur, færa inn gögn, raða og sía gögn, skrifa athugasemdir og flytja gögn út í önnur forrit.
 
@@ -24,14 +24,14 @@ Ef nota á lárétta Skrunrein til að skoða alla dálka á listasíðu eða í
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="cheatsheet"></a>Ábendingar og góð ráð
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Ábendingar og góð ráð
 
 > [!TIP]
 > Til að fá prentvænt yfirlit yfir mest notuðu aðgerðirnar skaltu velja eftirfarandi mynd og sækja PDF-skjalið.
 >
 > [ ![Tákn fyrir PDF-skrána.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Tákn sem opnar PDF")
 
-## Tenglar til að fá frekari upplýsingar
+## <a name="links-to-learn-more"></a>Tenglar til að fá frekari upplýsingar
 
 Í eftirfarandi töflu er birtur nokkur almennur virknilisti og eru tenglar í greinar sem lýsa þeim.
 
@@ -57,13 +57,13 @@ Ef nota á lárétta Skrunrein til að skoða alla dálka á listasíðu eða í
 |Umsjón með innihaldi og sniði skýrslna og fylgiskjala. Tilgreina skal svæðisgögn sem á að hafa með og hvernig það birtist. Veldu t.d. textastíl, bæta við myndum og fleiru.|[Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md) |
 |Fræðsla um aðgerðir sem gera  [!INCLUDE[prod_short](includes/prod_short.md)]  aðgengilegar einstaklingum með fötlun kleift.|[Aðgengi og Flýtivísanir](ui-accessibility.md)|
 
-## Að komast um í miðborg viðskipta-
+## <a name="getting-around-in-business-central"></a>Að komast um í miðborg viðskipta-
 
 Hér er stutt myndband um hvernig á að komast um í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## Tölvuvafri valinn
+## <a name="choosing-a-desktop-browser"></a>Tölvuvafri valinn
 
 [!INCLUDE[prod_short](includes/prod_short.md)] styður marga vafra og hver vafra býður upp á ýmsa möguleika. Vafrinn gegnir mikilvægu hlutverki í svörun og flæði notandaviðmótsins. Skoðaðu listann yfir studda, ráðlagða vafra fyrir  [fyrirtæki miðsvæðis á netinu](./product-requirements.md)  og vafra um  [viðskipti miðsvæðis innanhúss](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -73,7 +73,7 @@ Hér er stutt myndband um hvernig á að komast um í [!INCLUDE[prod_short](incl
     > Internet Explorer er ekki lengur stutt. Til að fræðast meira er farið í  [Microsoft Edge  Fylgigögn](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Geymdu vafrann upp á við með nýjustu útgáfunni.
 
-## Aðgerðaslár
+## <a name="action-bars"></a>Aðgerðaslár
 
 Í [!INCLUDE [prod_short](includes/prod_short.md)] sinnirðu meirihluta vinnunnar í lista, skjali eða spjaldi. Á öllum síðum er Bar með aðgerðum sem skipta máli fyrir þá. Aðgerðirnar eru nánast þær sömu fyrir einstaklingskort eða skjal og lista yfir aðila. Þannig getur þú haft umsjón með einstaka sölupöntunum á síðunni **Sölupöntun** og í listanum **Sölupantanir**, þ.m.t. bókun og reikningsfærslu þeirra.  
 
@@ -90,7 +90,7 @@ Sérstaklega fyrir listasíður, listasíðuna sem þú opnar frá heimasíðunn
 
 Þegar sama Listasíða er opnuð af heimasíðunni er  **stjórna**  aðgerð ekki tiltæk. Í stað þess að opna einstaka sölupöntun er reiturinn númer  **valinn** . Í þessu yfirliti er ekki hægt að pinna aðgerðrein.  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Uppsetning Business Central](setup.md)  

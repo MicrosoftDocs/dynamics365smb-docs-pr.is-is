@@ -9,7 +9,7 @@ ms.date: 09/07/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Notaðu forritin [!INCLUDE [prod_short](includes/prod_short.md)] í Power BI
+# <a name="use-the--apps-in-power-bi"></a>Notaðu forritin [!INCLUDE [prod_short](includes/prod_short.md)] í Power BI
 
 > **Á VIÐ:** [!INCLUDE [prod_long](includes/prod_long.md)] á netinu 
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Finance  
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Sales
 
-## Yfirlit
+## <a name="overview"></a>Yfirlit
 
 Í hverju forriti eru nokkrar skýrslur sem hægt er að skoða nánar, þar á meðal eftirfarandi eiginleika:
 
@@ -33,7 +33,7 @@ Forritin eru hönnuð til að vinna með gögn frá hvaða fyrirtæki sem er í 
 > [!NOTE]
 > Einnig er hægt að búa til eigin skýrslur og yfirlit í Power BI á grundvelli þinna [!INCLUDE[prod_short](includes/prod_short.md)] gagna. Nánari upplýsingar eru í [Tengja viðskiptagögn þín við Power BI](across-how-use-financials-data-source-powerbi.md), . 
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 Power BI forrit krefjast heimilda til taflna þar sem gögn eru sótt og vefþjónustuna sem notuð er til að sækja gögn. Eftirfarandi tafla sýnir vefþjónustuna sem er áskilin fyrir hvert Power BI-forrit:
     
@@ -46,11 +46,11 @@ Power BI forrit krefjast heimilda til taflna þar sem gögn eru sótt og vefþj�
 > [!TIP] 
 > Auðveld leið til að finna vefþjónustu er að leita að *vefþjónustu* í [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Vefþjónusta** skal ganga úr skugga um að reiturinn **Birta** sé valinn fyrir vefþjónustuna sem finna má að ofan. Frekari upplýsingar er að finna í [Birta vefþjónustu](across-how-publish-web-service.md).
 
-## Vertu með allt á tæru
+## <a name="get-ready"></a>Vertu með allt á tæru
 
 Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
 
-## Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forrit í Power BI
+## <a name="install-a--app-in-power-bi"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forrit í Power BI
 
 1. Opnaðu vafrann, flettu til [https://powerbi.microsoft.com](https://powerbi.microsoft.com) og skráðu þig inn á reikninginn þinn.
 2. Valið **er Forrit á yfirlitssvæðinu** .
@@ -71,7 +71,7 @@ Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skrá
 
     Þegar því er lokið verður forritið í boði af yfirlitsvalmyndinni **Forrit** í Power BI.
 
-## Tengdu [!INCLUDE[prod_short](includes/prod_short.md)]-forritið við gögnin þín
+## <a name="connect-the--app-to-your-data"></a>Tengdu [!INCLUDE[prod_short](includes/prod_short.md)]-forritið við gögnin þín
 
 1. Í **Forrit** skal velja Business Central-forritið og síðan **Tengja**.
 2. Þegar beðið er um það skal fylla út **Heiti fyrirtækis** og **Umhverfi** með upplýsingum um [!INCLUDE[prod_short](includes/prod_short.md)] tilvik sem á að tengjast við.
@@ -86,23 +86,23 @@ Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skrá
 
     ![Velja Dynamics 365 Business Central og velja Fá núna.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-## Vandamál lagfærð
+## <a name="fixing-problems"></a>Vandamál lagfærð
 
 Power BI yfirlitið reiðir sig á birtar vefþjónustur sem eru í listanum hér að ofan. Hún sýnir gögn sýnifyrirtækis eða eigin fyrirtækis ef þú flytur inn gögn úr núverandi fjárhagslausnum þínum. Hins vegar, ef eitthvað fer úrskeiðis, þessi kafli gefur lausn fyrir dæmigerður vandamál.  
 
-### Þú ert ekki með Power BI reikning
+### <a name="you-dont-have-a-power-bi-account"></a>Þú ert ekki með Power BI reikning
 
 Power BI-Reikningur hefur ekki verið settur upp. Þú verður að hafa leyfi til að fá gildan Power BI-reikning. Einnig þarftu að hafa skráð þig inn áður á Power BI til að stofna Power BI vinnusvæði.  
 
-### Skilaboð: Engar skýrslur eru virkar. Valin er skýrsla til að skoða lista yfir skýrslur sem hægt er að birta.
+### <a name="message-there-are-no-enabled-reports-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Skilaboð: Engar skýrslur eru virkar. Valin er skýrsla til að skoða lista yfir skýrslur sem hægt er að birta.
 
 Þessi skilaboð birtast ef ekki tókst að virkja sjálfgefna skýrslu á Power BI vinnusvæði. Eða að skýrslan var virkjuð en ekki tókst að uppfæra hana. Ef þetta vandamál kemur upp skal fara í skýrsluna á Power BI vinnusvæðinu, velja **Gagnasafn**, **Stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnasafnið hefur verið endurnýjað er farið aftur í [!INCLUDE[prod_short](includes/prod_short.md)] og valið skýrslu handvirkt af **Velja skýrslur** síðunni.
 
-### Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forritið í Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi"></a>Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]-forritið í Power BI
 
 Þú þarft [Power BI Pro leyfi](/power-bi/service-features-license-type) til að deila efninu þínu og einnig fólkið sem þú deilir því með. Efnið verður að vera á vinnusvæði með [Premium réttindi](/power-bi/service-premium-what-is). Nánari upplýsingar eru í [Aðferðir við að deila vinnu þinn í Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
-### „Sannprófun færibreyta tókst ekki, vinsamlegast vertu viss um að allar færibreytur séu gildar“
+### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>„Sannprófun færibreyta tókst ekki, vinsamlegast vertu viss um að allar færibreytur séu gildar“
 
 Þessi villa gefur til kynna að ein færibreyta til viðbótar sé ekki gild.
 
@@ -111,7 +111,7 @@ Power BI-Reikningur hefur ekki verið settur upp. Þú verður að hafa leyfi ti
 - Ef tengst er við [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum var ógild vefslóð slegin inn. Þú getur staðfest vefslóðina á síðunni **Vefþjónusta** í [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Tengi er ekki opið til að leyfa beiðni í gegnum eldvegginn.
 
-### Innskráning tókst ekki
+### <a name="cant-sign-in"></a>Innskráning tókst ekki
 
 Ef þú færð „innskráning mistókst“ þegar þú skráir þig inn með [!INCLUDE[prod_short](includes/prod_short.md)] notandaskilríkjum er það líklega út af einu af eftirfarandi vandamálum:
 
@@ -119,34 +119,34 @@ Ef þú færð „innskráning mistókst“ þegar þú skráir þig inn með [!
 - Þú hefur valið aðra sannvottunargerð en grunngerðina ef tengst er við [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum.
 - Þú hefur ekki slegið inn gilt notandanafn eða aðgangsorð.
 
-### Skilaboð: ekki er hægt að endurnýja gagnagjafa vegna þess að skilríkin eru ógild. Uppfærðu heimildirnar þínar og reyndu aftur
+### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Skilaboð: ekki er hægt að endurnýja gagnagjafa vegna þess að skilríkin eru ógild. Uppfærðu heimildirnar þínar og reyndu aftur
 
 Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum kann vandamálið að vera vegna þess að vefslóðin að OData hafi aðeins orðið til á staðbundnu neti.
 
-### Rangt fyrirtækjaheiti
+### <a name="incorrect-company-name"></a>Rangt fyrirtækjaheiti
 
 Algeng mistök eru að slá inn birtingarnafn fyrirtækis í stað nafn fyrirtækis. Til að finna nafn fyrirtækisins skal leita að **Fyrirtæki**. Svo skal nota reitinn **Nafn** þegar nafn fyrirtækisins er slegið inn.
 
-### Lykillinn passaði ekki við neinar línur í töflunni
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Lykillinn passaði ekki við neinar línur í töflunni
 
 Ef þú slærð inn ógilt heiti fyrirtækis meðan á tengingarferlinu stendur geturðu fengið villuskilaboðin „Lykillinn passaði ekki við neinar línur í töflunni“. Gefðu upp rétt nafn fyrirtækis og reyndu að tengjast aftur.
 
-### Eldri gögn virðist vanta
+### <a name="historical-data-appears-to-be-missing"></a>Eldri gögn virðist vanta
 
 Þegar Power BI-forritið er uppsett og gögnin birtast í Power BI er hugsanlegt að þú sjáir ekki öll gögnin þín. Gagnasöfnin eru síuð til að skila eingöngu gögnum fyrir síðastliðna 365 daga. Þessi sjálfgefna stilling er til staðar til að hraða skýrslunum.  
 
-### Ég sé bara gögn fyrir eitt fyrirtæki
+### <a name="i-only-see-data-for-a-single-company"></a>Ég sé bara gögn fyrir eitt fyrirtæki
 
 Power BI-forritið sýnir aðeins gögn úr [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtækinu sem var skilgreint þegar Power BI-forritið var sett upp. Hægt er að bæta gögnum frá viðbótarfyrirtækjum við skýrslurnar með því að bæta við nýjum fyrirspurnum sem nota mismunandi fyrirtæki sem gagnaveitu.  
 
-### Hvað nú?
+### <a name="what-now"></a>Hvað nú?
 
 - Prófaðu [að slá inn spurningu í reitinn Spurningar og svör](/power-bi/service-q-and-a-tips) efst á yfirlitinu.
 - [Breyta reitum](/power-bi/service-dashboard-edit-tile) á yfirlitinu.  
 - [Velja reit](/power-bi/service-dashboard-tiles) til opna undirliggjandi skýrslu.  
 - Sjálfgefið er að gagnasafnið sé ekki áætlað til endurnýjunar. Hægt er að breyta uppfærsluáætluninni eða uppfæra hana hvenær sem er í **Uppfæra núna**. Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/refresh-scheduled-refresh).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Power BI Samþættingaríhlutur og hönnunaryfirlit fyrir [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

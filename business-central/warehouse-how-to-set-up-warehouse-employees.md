@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ms.service: dynamics-365-business-central
 ---
-# Setja upp vöruhúsastarfsmenn
+# <a name="set-up-warehouse-employees"></a>Setja upp vöruhúsastarfsmenn
 
 Setja verður upp hvern notanda sem framkvæmir vöruhúsaaðgerðir sem starfsmann vöruhúss og úthluta þeim á sjálfgefna birgðageymslu. [!INCLUDE [prod_short](includes/prod_short.md)] afmarkar vöruhúsaaðgerðir við sjálfgefna birgðageymslu starfsmannsins. Aðeins er hægt að framkvæma vöruhúsaaðgerðir í birgðageymslunni. Einnig er hægt að úthluta notanda á aðrar birgðageymslur. Þeir geta opnað en ekki framkvæmt aðgerðir í þessum birgðageymslum.
 
-## Setja upp vöruhúsastarfsmenn  
+## <a name="to-set-up-warehouse-employees"></a>Setja upp vöruhúsastarfsmenn
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -26,9 +26,9 @@ Setja verður upp hvern notanda sem framkvæmir vöruhúsaaðgerðir sem starfsm
 > [!TIP]
 > Einnig er hægt að nota aðgerðina **Bæta við sem starfsmanni** vöruhúss til að bæta sjálfum sér á lista yfir vöruhúsastarfsmenn á fljótlegan hátt. Þetta getur til dæmis verið gagnlegt þegar verið er að prófa getu.
 
-## Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Sjá tengda [Microsoft þjálfun](/training/modules/get-started-warehouse-management/)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 [Birgðir](inventory-manage-inventory.md)  
